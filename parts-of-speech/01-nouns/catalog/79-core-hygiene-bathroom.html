@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: hygiene and the bathroom</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-hygiene-and-the-bathroom">Core vocabulary: hygiene and the bathroom<a class="hash" href="#core-vocabulary-hygiene-and-the-bathroom" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of hygiene and the bathroom — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="toilet-paper">toilet paper<a class="hash" href="#toilet-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlət ˌpeɪpər/ &middot; <em>TOY-luht pay-pur</em></dd><dt>Русский</dt><dd>туалетная бумага</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft paper on a roll, used in the bathroom after using the toilet.</p>
+<ol><li>We're almost out of <em>toilet paper</em>.</li><li>Grab another roll of <em>toilet paper</em> from under the sink.</li><li>The stall had no <em>toilet paper</em> left.</li></ol>
+<hr>
+<h3 id="toilet-seat">toilet seat<a class="hash" href="#toilet-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlət ˌsiːt/ &middot; <em>TOY-luht seet</em></dd><dt>Русский</dt><dd>сиденье унитаза</dd><dt>Plural</dt><dd><em>toilet seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hinged ring on top of a toilet that you sit on.</p>
+<ol><li>Please put the <em>toilet seat</em> down when you're done.</li><li>The <em>toilet seat</em> is cracked and needs replacing.</li><li>Some public <em>toilet seats</em> have paper covers.</li></ol>
+<hr>
+<h3 id="bath-towel">bath towel<a class="hash" href="#bath-towel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθ ˌtaʊrl/ &middot; <em>BATH tow-uhl</em></dd><dt>Русский</dt><dd>банное полотенце</dd><dt>Plural</dt><dd><em>bath towels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large towel for drying your body after a bath or shower.</p>
+<ol><li>Hang your <em>bath towel</em> up so it dries.</li><li>The hotel left two fresh <em>bath towels</em> on the bed.</li><li>I wrapped myself in a <em>bath towel</em> and ran down the hall.</li></ol>
+<hr>
+<h3 id="hand-towel">hand towel<a class="hash" href="#hand-towel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhænd ˌtaʊrl/ &middot; <em>HAND tow-uhl</em></dd><dt>Русский</dt><dd>полотенце для рук</dd><dt>Plural</dt><dd><em>hand towels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small towel kept by the sink for drying your hands.</p>
+<ol><li>There's a clean <em>hand towel</em> by the sink.</li><li>She folded the <em>hand towels</em> into neat squares.</li><li>Use the <em>hand towel</em>, not the bath one.</li></ol>
+<hr>
+<h3 id="paper-towel">paper towel<a class="hash" href="#paper-towel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər ˌtaʊrl/ &middot; <em>PAY-pur tow-uhl</em></dd><dt>Русский</dt><dd>бумажное полотенце</dd><dt>Plural</dt><dd><em>paper towels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>paper towels</em>; the British call the kitchen kind kitchen roll.</dd></dl>
+<p>A sheet of thick absorbent paper used once for wiping or drying.</p>
+<ol><li>Wipe that up with a <em>paper towel</em>.</li><li>We go through a roll of <em>paper towels</em> a week.</li><li>The restroom was out of <em>paper towels</em>.</li></ol>
+<hr>
+<h3 id="shower-curtain">shower curtain<a class="hash" href="#shower-curtain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌkɜːrtən/ &middot; <em>SHOW-ur kur-tn</em></dd><dt>Русский</dt><dd>занавеска для душа</dd><dt>Plural</dt><dd><em>shower curtains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic or fabric sheet that keeps water inside the shower.</p>
+<ol><li>Pull the <em>shower curtain</em> closed or the floor gets soaked.</li><li>Our <em>shower curtain</em> has mildew along the bottom.</li><li>They sell <em>shower curtains</em> in every color.</li></ol>
+<hr>
+<h3 id="showerhead">showerhead<a class="hash" href="#showerhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrrˌhɛd/ &middot; <em>SHOW-ur-hed</em></dd><dt>Русский</dt><dd>душевая лейка, насадка для душа</dd><dt>Plural</dt><dd><em>showerheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fitting that sprays water down on you in the shower.</p>
+<ol><li>The <em>showerhead</em> is clogged with mineral buildup.</li><li>He installed a new <em>showerhead</em> on Saturday.</li><li>Some <em>showerheads</em> come with a handheld hose.</li></ol>
+<hr>
+<h3 id="medicine-cabinet">medicine cabinet<a class="hash" href="#medicine-cabinet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdəsən ˌkæbənət/ &middot; <em>MED-uh-suhn kab-uh-nuht</em></dd><dt>Русский</dt><dd>аптечка (шкафчик в ванной)</dd><dt>Plural</dt><dd><em>medicine cabinets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English medicine has three syllables, MED-uh-suhn; British speakers usually say MED-sin.</dd></dl>
+<p>A small cupboard behind the bathroom mirror for pills and toiletries.</p>
+<ol><li>The aspirin is in the <em>medicine cabinet</em>.</li><li>She keeps her contact lenses in the <em>medicine cabinet</em>.</li><li>Both <em>medicine cabinets</em> were stuffed with old prescriptions.</li></ol>
+<hr>
+<h3 id="bath">bath<a class="hash" href="#bath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæθ/ &middot; <em>BATH</em></dd><dt>Русский</dt><dd>ванна (мытьё в ванне)</dd><dt>Plural</dt><dd><em>baths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural <em>baths</em> is normally pronounced BATHZ with a voiced th; the British also say BAHTH for the singular.</dd></dl>
+<p>A wash in which you sit in a tub full of water.</p>
+<ol><li>I took a long <em>bath</em> after work.</li><li>Give the baby a <em>bath</em> before bed.</li><li>Hot <em>baths</em> help my back.</li></ol>
+<hr>
+<h3 id="bath-mat">bath mat<a class="hash" href="#bath-mat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθ ˌmæt/ &middot; <em>BATH mat</em></dd><dt>Русский</dt><dd>коврик для ванной</dd><dt>Plural</dt><dd><em>bath mats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small mat you step onto when getting out of the tub or shower.</p>
+<ol><li>Step on the <em>bath mat</em> so you don't slip.</li><li>The <em>bath mat</em> was soaking wet.</li><li>We bought two matching <em>bath mats</em>.</li></ol>
+<hr>
+<h3 id="towel-rack">towel rack<a class="hash" href="#towel-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaʊrl ˌræk/ &middot; <em>TOW-uhl rak</em></dd><dt>Русский</dt><dd>вешалка для полотенец</dd><dt>Plural</dt><dd><em>towel racks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>towel rack</em>; the British usually say towel rail.</dd></dl>
+<p>A bar or frame on the wall for hanging towels.</p>
+<ol><li>Hang it on the <em>towel rack</em>.</li><li>The <em>towel rack</em> pulled right out of the drywall.</li><li>There are <em>towel racks</em> on both sides of the sink.</li></ol>
+<hr>
+<h3 id="toilet-bowl">toilet bowl<a class="hash" href="#toilet-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlət ˌboʊl/ &middot; <em>TOY-luht bohl</em></dd><dt>Русский</dt><dd>унитаз (чаша)</dd><dt>Plural</dt><dd><em>toilet bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The round lower part of a toilet that holds water.</p>
+<ol><li>Something is stuck in the <em>toilet bowl</em>.</li><li>Pour the cleaner around the rim of the <em>toilet bowl</em>.</li><li>The <em>toilet bowls</em> in that restroom were spotless.</li></ol>
+<hr>
+<h3 id="toilet-brush">toilet brush<a class="hash" href="#toilet-brush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlət ˌbrʌʃ/ &middot; <em>TOY-luht bruhsh</em></dd><dt>Русский</dt><dd>ёршик для унитаза</dd><dt>Plural</dt><dd><em>toilet brushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled brush for scrubbing the inside of a toilet.</p>
+<ol><li>The <em>toilet brush</em> sits in a holder behind the tank.</li><li>Use the <em>toilet brush</em>, not a sponge.</li><li>We replaced both <em>toilet brushes</em> last month.</li></ol>
+<hr>
+<h3 id="toilet-tank">toilet tank<a class="hash" href="#toilet-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlət ˌtæŋk/ &middot; <em>TOY-luht tank</em></dd><dt>Русский</dt><dd>сливной бачок</dd><dt>Plural</dt><dd><em>toilet tanks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>toilet tank</em>; the British call it a cistern.</dd></dl>
+<p>The box behind a toilet that holds the water for flushing.</p>
+<ol><li>The <em>toilet tank</em> keeps running after you flush.</li><li>He lifted the lid off the <em>toilet tank</em> to look inside.</li><li>Old <em>toilet tanks</em> use a lot more water.</li></ol>
+<hr>
+<h3 id="shower-stall">shower stall<a class="hash" href="#shower-stall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌstɔːl/ &middot; <em>SHOW-ur stawl</em></dd><dt>Русский</dt><dd>душевая кабина</dd><dt>Plural</dt><dd><em>shower stalls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>shower stall</em>; the British say shower cubicle.</dd></dl>
+<p>A small enclosed space with a shower but no tub.</p>
+<ol><li>The apartment has a <em>shower stall</em> instead of a tub.</li><li>Mold was growing in the corner of the <em>shower stall</em>.</li><li>Both <em>shower stalls</em> at the gym were taken.</li></ol>
+<hr>
+<h3 id="shower-door">shower door<a class="hash" href="#shower-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌdɔːr/ &middot; <em>SHOW-ur dor</em></dd><dt>Русский</dt><dd>дверца душевой кабины</dd><dt>Plural</dt><dd><em>shower doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A glass or plastic door that closes off a shower.</p>
+<ol><li>The <em>shower door</em> won't slide anymore.</li><li>Wipe the <em>shower door</em> down after you use it.</li><li>Glass <em>shower doors</em> show every water spot.</li></ol>
+<hr>
+<h3 id="shower-caddy">shower caddy<a class="hash" href="#shower-caddy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌkædi/ &middot; <em>SHOW-ur kad-ee</em></dd><dt>Русский</dt><dd>полка-органайзер для душа</dd><dt>Plural</dt><dd><em>shower caddies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rack or basket that hangs in the shower to hold soap and shampoo.</p>
+<ol><li>Her shampoo is in the <em>shower caddy</em>.</li><li>Every dorm room needs a <em>shower caddy</em>.</li><li>The <em>shower caddies</em> hook right over the showerhead.</li></ol>
+<hr>
+<h3 id="shower-cap">shower cap<a class="hash" href="#shower-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌkæp/ &middot; <em>SHOW-ur kap</em></dd><dt>Русский</dt><dd>шапочка для душа</dd><dt>Plural</dt><dd><em>shower caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic cap worn to keep your hair dry in the shower.</p>
+<ol><li>She wears a <em>shower cap</em> so she doesn't have to blow-dry.</li><li>The hotel left a <em>shower cap</em> by the sink.</li><li>The <em>shower caps</em> come free with the room.</li></ol>
+<hr>
+<h3 id="bathroom-scale">bathroom scale<a class="hash" href="#bathroom-scale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθruːm ˌskeɪl/ &middot; <em>BATH-room skayl</em></dd><dt>Русский</dt><dd>напольные весы</dd><dt>Plural</dt><dd><em>bathroom scales</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans weigh themselves on a <em>scale</em>; the British say scales, always plural.</dd></dl>
+<p>A device you stand on to see how much you weigh.</p>
+<ol><li>The <em>bathroom scale</em> says I gained two pounds.</li><li>He steps on the <em>bathroom scale</em> every morning.</li><li>Digital <em>bathroom scales</em> are pretty cheap now.</li></ol>
+<hr>
+<h3 id="hand-dryer">hand dryer<a class="hash" href="#hand-dryer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhænd ˌdraɪrr/ &middot; <em>HAND dry-ur</em></dd><dt>Русский</dt><dd>сушилка для рук</dd><dt>Plural</dt><dd><em>hand dryers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine in a public restroom that blows warm air to dry your hands.</p>
+<ol><li>The <em>hand dryer</em> in that restroom is deafening.</li><li>There were no paper towels, just a <em>hand dryer</em>.</li><li>New <em>hand dryers</em> work in about ten seconds.</li></ol>
+<hr>
+<h3 id="soap-dish">soap dish<a class="hash" href="#soap-dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊp ˌdɪʃ/ &middot; <em>SOHP dish</em></dd><dt>Русский</dt><dd>мыльница</dd><dt>Plural</dt><dd><em>soap dishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dish that holds a bar of soap.</p>
+<ol><li>Put the bar back in the <em>soap dish</em>.</li><li>The <em>soap dish</em> is full of slime.</li><li>Ceramic <em>soap dishes</em> crack if you drop them.</li></ol>
+<hr>
+<h3 id="soap-dispenser">soap dispenser<a class="hash" href="#soap-dispenser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊp dɪˌspɛnsər/ &middot; <em>SOHP dih-spen-sur</em></dd><dt>Русский</dt><dd>дозатор для мыла</dd><dt>Plural</dt><dd><em>soap dispensers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container that pumps out liquid soap.</p>
+<ol><li>The <em>soap dispenser</em> is empty again.</li><li>Push the top of the <em>soap dispenser</em> twice.</li><li>They installed automatic <em>soap dispensers</em> in every restroom.</li></ol>
+<hr>
+<h3 id="squeegee">squeegee<a class="hash" href="#squeegee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskwiːdʒiː/ &middot; <em>SKWEE-jee</em></dd><dt>Русский</dt><dd>резиновый скребок</dd><dt>Plural</dt><dd><em>squeegees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a rubber blade for wiping water off glass or tile.</p>
+<ol><li>Use the <em>squeegee</em> on the shower door.</li><li>He keeps a <em>squeegee</em> hanging inside the shower.</li><li>The gas station had <em>squeegees</em> by every pump.</li></ol>
+<hr>
+<h3 id="grout">grout<a class="hash" href="#grout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraʊt/ &middot; <em>GROWT</em></dd><dt>Русский</dt><dd>затирка (для плитки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hard paste that fills the lines between tiles.</p>
+<ol><li>The <em>grout</em> between the tiles is turning black.</li><li>We had the <em>grout</em> cleaned and resealed.</li><li>Bleach whitens <em>grout</em> pretty fast.</li></ol>
+<hr>
+<h3 id="grab-bar">grab bar<a class="hash" href="#grab-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræb ˌbɑːr/ &middot; <em>GRAB bar</em></dd><dt>Русский</dt><dd>поручень (в ванной)</dd><dt>Plural</dt><dd><em>grab bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar mounted on a wall to hold on to in a tub or shower.</p>
+<ol><li>We put a <em>grab bar</em> in my mother's shower.</li><li>Hold the <em>grab bar</em> when you step out.</li><li>Hotel bathrooms usually have <em>grab bars</em> by the toilet.</li></ol>
+<hr>
+<h3 id="exhaust-fan">exhaust fan<a class="hash" href="#exhaust-fan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪɡˈzɔːst ˌfæn/ &middot; <em>ig-ZAWST fan</em></dd><dt>Русский</dt><dd>вытяжной вентилятор</dd><dt>Plural</dt><dd><em>exhaust fans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h in exhaust is silent: ig-ZAWST.</dd></dl>
+<p>A fan that pulls steam and smells out of a bathroom.</p>
+<ol><li>Turn on the <em>exhaust fan</em> before you shower.</li><li>The <em>exhaust fan</em> rattles the whole time it runs.</li><li>Bathrooms without windows need <em>exhaust fans</em>.</li></ol>
+<hr>
+<h3 id="urinal">urinal<a class="hash" href="#urinal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjʊrənəl/ &middot; <em>YUR-uh-nuhl</em></dd><dt>Русский</dt><dd>писсуар</dd><dt>Plural</dt><dd><em>urinals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress the first syllable, YUR-uh-nuhl; the British say yoo-RY-nuhl.</dd></dl>
+<p>A wall fixture in a men's restroom for urinating into.</p>
+<ol><li>The <em>urinal</em> on the end is out of order.</li><li>He waited while someone finished at the <em>urinal</em>.</li><li>All three <em>urinals</em> had been replaced.</li></ol>
+<hr>
+<h3 id="bidet">bidet<a class="hash" href="#bidet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈdeɪ/ &middot; <em>bih-DAY</em></dd><dt>Русский</dt><dd>биде</dd><dt>Plural</dt><dd><em>bidets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final t is silent, and Americans stress the second syllable: bih-DAY.</dd></dl>
+<p>A low bathroom fixture for washing yourself after using the toilet.</p>
+<ol><li>The hotel bathroom had a <em>bidet</em>.</li><li>Americans rarely grow up with a <em>bidet</em> in the house.</li><li><em>Bidets</em> are common in France and Japan.</li></ol>
+<hr>
+<h3 id="lavatory">lavatory<a class="hash" href="#lavatory" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlævətɔːri/ &middot; <em>LAV-uh-tor-ee</em></dd><dt>Русский</dt><dd>уборная, туалет</dd><dt>Plural</dt><dd><em>lavatories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room or fixture for washing and using the toilet, especially on a plane.</p>
+<ol><li>The <em>lavatory</em> at the back of the plane is occupied.</li><li>Please return to your seat when the <em>lavatory</em> is free.</li><li>The <em>lavatories</em> were cleaned between flights.</li></ol>
+<hr>
+<h3 id="washroom">washroom<a class="hash" href="#washroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃruːm/ &middot; <em>WAHSH-room</em></dd><dt>Русский</dt><dd>туалет, уборная</dd><dt>Plural</dt><dd><em>washrooms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans say restroom or bathroom; <em>washroom</em> is the usual word in Canada.</dd></dl>
+<p>A public room with toilets and sinks.</p>
+<ol><li>The <em>washroom</em> is down the hall on your left.</li><li>He asked the waiter where the <em>washroom</em> was.</li><li>Both <em>washrooms</em> were being mopped.</li></ol>
+<hr>
+<h3 id="outhouse">outhouse<a class="hash" href="#outhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊthaʊs/ &middot; <em>OWT-howss</em></dd><dt>Русский</dt><dd>уличный туалет (будка)</dd><dt>Plural</dt><dd><em>outhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wooden toilet building standing outside, with no plumbing.</p>
+<ol><li>The cabin has an <em>outhouse</em> out back.</li><li>Nobody wants to use an <em>outhouse</em> in January.</li><li>The old farm still had two <em>outhouses</em>.</li></ol>
+<hr>
+<h3 id="potty">potty<a class="hash" href="#potty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːti/ &middot; <em>PAH-tee</em></dd><dt>Русский</dt><dd>горшок (детский)</dd><dt>Plural</dt><dd><em>potties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small toilet or bowl that a young child learns to use.</p>
+<ol><li>He sat on the <em>potty</em> for ten minutes.</li><li>She asked to use the <em>potty</em>.</li><li>We keep two <em>potties</em> in the house.</li></ol>
+<hr>
+<h3 id="porta-potty">porta-potty<a class="hash" href="#porta-potty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrtə ˌpɑːti/ &middot; <em>POR-tuh pah-tee</em></dd><dt>Русский</dt><dd>переносной биотуалет</dd><dt>Plural</dt><dd><em>porta-potties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A portable plastic toilet set up at outdoor events and building sites.</p>
+<ol><li>There's a <em>porta-potty</em> by the parking lot.</li><li>The line for the <em>porta-potty</em> was twenty people deep.</li><li>They trucked in a dozen <em>porta-potties</em> for the race.</li></ol>
+<hr>
+<h3 id="potty-training">potty training<a class="hash" href="#potty-training" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːti ˌtreɪnɪŋ/ &middot; <em>PAH-tee tray-ning</em></dd><dt>Русский</dt><dd>приучение к горшку</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of teaching a young child to use the toilet.</p>
+<ol><li>We started <em>potty training</em> this summer.</li><li><em>Potty training</em> took about three weeks.</li><li>Her pediatrician had advice about <em>potty training</em>.</li></ol>
+<hr>
+<h3 id="latrine">latrine<a class="hash" href="#latrine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ləˈtriːn/ &middot; <em>luh-TREEN</em></dd><dt>Русский</dt><dd>отхожее место, полевой туалет</dd><dt>Plural</dt><dd><em>latrines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A simple toilet, often just a pit, used at a camp or army base.</p>
+<ol><li>The soldiers dug a <em>latrine</em> behind the tents.</li><li>Camp rules said to keep the <em>latrine</em> clean.</li><li>The <em>latrines</em> were downhill from the water supply.</li></ol>
+<hr>
+<h3 id="bathwater">bathwater<a class="hash" href="#bathwater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθˌwɔːtər/ &middot; <em>BATH-waw-tur</em></dd><dt>Русский</dt><dd>вода в ванне</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The water in a bathtub.</p>
+<ol><li>The <em>bathwater</em> is getting cold.</li><li>She tested the <em>bathwater</em> with her elbow.</li><li>Don't throw the baby out with the <em>bathwater</em>.</li></ol>
+<hr>
+<h3 id="hand-soap">hand soap<a class="hash" href="#hand-soap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhænd ˌsoʊp/ &middot; <em>HAND sohp</em></dd><dt>Русский</dt><dd>мыло для рук</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soap made for washing your hands, usually liquid.</p>
+<ol><li>We're out of <em>hand soap</em>.</li><li>The <em>hand soap</em> in the kitchen smells like lemon.</li><li>Refill the <em>hand soap</em> by the sink.</li></ol>
+<hr>
+<h3 id="body-wash">body wash<a class="hash" href="#body-wash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːdi ˌwɑːʃ/ &middot; <em>BAH-dee wahsh</em></dd><dt>Русский</dt><dd>жидкое мыло для тела</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Liquid soap for washing your body in the shower.</p>
+<ol><li>He switched from bar soap to <em>body wash</em>.</li><li>The <em>body wash</em> smells like coconut.</li><li>Buy the <em>body wash</em> that's on sale.</li></ol>
+<hr>
+<h3 id="shower-gel">shower gel<a class="hash" href="#shower-gel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr ˌdʒɛl/ &middot; <em>SHOW-ur jel</em></dd><dt>Русский</dt><dd>гель для душа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick liquid soap used in the shower.</p>
+<ol><li>The hotel gives you tiny bottles of <em>shower gel</em>.</li><li>I like <em>shower gel</em> better than a bar of soap.</li><li>She squeezed some <em>shower gel</em> onto a loofah.</li></ol>
+<hr>
+<h3 id="hand-sanitizer">hand sanitizer<a class="hash" href="#hand-sanitizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhænd ˌsænətaɪzər/ &middot; <em>HAND san-uh-ty-zur</em></dd><dt>Русский</dt><dd>антисептик для рук</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An alcohol gel that kills germs on your hands without water.</p>
+<ol><li>There's <em>hand sanitizer</em> by the door.</li><li>She keeps <em>hand sanitizer</em> in her purse.</li><li>The office ran out of <em>hand sanitizer</em>.</li></ol>
+<hr>
+<h3 id="electric-razor">electric razor<a class="hash" href="#electric-razor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈlɛktrɪk ˈreɪzər/ &middot; <em>ih-LEK-trik RAY-zur</em></dd><dt>Русский</dt><dd>электробритва</dd><dt>Plural</dt><dd><em>electric razors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shaver with moving blades that runs on a motor.</p>
+<ol><li>He shaves with an <em>electric razor</em>.</li><li>My <em>electric razor</em> needs charging.</li><li><em>Electric razors</em> are quicker but not as close.</li></ol>
+<hr>
+<h3 id="disposable-razor">disposable razor<a class="hash" href="#disposable-razor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspoʊzəbəl ˈreɪzər/ &middot; <em>dih-SPOH-zuh-buhl RAY-zur</em></dd><dt>Русский</dt><dd>одноразовая бритва, одноразовый станок</dd><dt>Plural</dt><dd><em>disposable razors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cheap plastic razor that is thrown away after a few uses.</p>
+<ol><li>He bought a pack of <em>disposable razors</em>.</li><li>A <em>disposable razor</em> is fine for one trip.</li><li><em>Disposable razors</em> go dull fast.</li></ol>
+<hr>
+<h3 id="hair-dryer">hair dryer<a class="hash" href="#hair-dryer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr ˌdraɪrr/ &middot; <em>HAIR dry-ur</em></dd><dt>Русский</dt><dd>фен</dd><dt>Plural</dt><dd><em>hair dryers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call the same thing a <em>hair dryer</em> or a blow dryer.</dd></dl>
+<p>A handheld machine that blows hot air to dry hair.</p>
+<ol><li>Can I borrow your <em>hair dryer</em>?</li><li>The <em>hair dryer</em> blew a fuse.</li><li>Most hotel rooms have <em>hair dryers</em> on the wall.</li></ol>
+<hr>
+<h3 id="nail-brush">nail brush<a class="hash" href="#nail-brush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl ˌbrʌʃ/ &middot; <em>NAYL bruhsh</em></dd><dt>Русский</dt><dd>щётка для ногтей</dd><dt>Plural</dt><dd><em>nail brushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stiff brush for cleaning under and around the nails.</p>
+<ol><li>Scrub your hands with the <em>nail brush</em>.</li><li>There's a <em>nail brush</em> by the garage sink.</li><li>Mechanics keep <em>nail brushes</em> handy.</li></ol>
+<hr>
+<h3 id="antiperspirant">antiperspirant<a class="hash" href="#antiperspirant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæntiˈpɜːrspərənt/ &middot; <em>an-tee-PUR-spuh-ruhnt</em></dd><dt>Русский</dt><dd>антиперспирант</dd><dt>Plural</dt><dd><em>antiperspirants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A product put under the arms to stop you from sweating.</p>
+<ol><li>This <em>antiperspirant</em> actually works.</li><li>He put on <em>antiperspirant</em> before the interview.</li><li>Most <em>antiperspirants</em> cover the smell too.</li></ol>
+<hr>
+<h3 id="baby-powder">baby powder<a class="hash" href="#baby-powder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ˌpaʊdər/ &middot; <em>BAY-bee pow-dur</em></dd><dt>Русский</dt><dd>детская присыпка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fine white powder patted on skin to keep it dry.</p>
+<ol><li>She sprinkled <em>baby powder</em> on the changing table.</li><li><em>Baby powder</em> keeps the rash from coming back.</li><li>The whole bathroom smelled like <em>baby powder</em>.</li></ol>
+<hr>
+<h3 id="talcum-powder">talcum powder<a class="hash" href="#talcum-powder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtælkəm ˌpaʊdər/ &middot; <em>TAL-kuhm pow-dur</em></dd><dt>Русский</dt><dd>тальк, присыпка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft mineral powder used on the skin to absorb moisture.</p>
+<ol><li>He dusted his feet with <em>talcum powder</em>.</li><li><em>Talcum powder</em> keeps your shoes from smelling.</li><li>A little <em>talcum powder</em> stops the chafing.</li></ol>
+<hr>
+<h3 id="wipe">wipe<a class="hash" href="#wipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪp/ &middot; <em>WYP</em></dd><dt>Русский</dt><dd>влажная салфетка</dd><dt>Plural</dt><dd><em>wipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small moist cloth sold in a pack for cleaning skin or surfaces.</p>
+<ol><li>Hand me a <em>wipe</em> for the baby's face.</li><li>She cleaned the counter with a disinfecting <em>wipe</em>.</li><li>We buy <em>wipes</em> by the case.</li></ol>
+<hr>
+<h3 id="loofah">loofah<a class="hash" href="#loofah" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːfə/ &middot; <em>LOO-fuh</em></dd><dt>Русский</dt><dd>мочалка (люфа)</dd><dt>Plural</dt><dd><em>loofahs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rough sponge used to scrub the skin in the shower.</p>
+<ol><li>She scrubbed her back with a <em>loofah</em>.</li><li>Replace the <em>loofah</em> every month or so.</li><li>The <em>loofahs</em> hang on a hook in the shower.</li></ol>
+<hr>
+<h3 id="pumice-stone">pumice stone<a class="hash" href="#pumice-stone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌməs ˌstoʊn/ &middot; <em>PUM-uhs stohn</em></dd><dt>Русский</dt><dd>пемза</dd><dt>Plural</dt><dd><em>pumice stones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pumice is PUM-uhs, with the vowel of cup, not POO-mis.</dd></dl>
+<p>A light rough stone used to rub hard skin off the feet.</p>
+<ol><li>Use a <em>pumice stone</em> on your heels.</li><li>The <em>pumice stone</em> sits on the edge of the tub.</li><li><em>Pumice stones</em> float, since the rock is full of air.</li></ol>
+<hr>
+<h3 id="bubble-bath">bubble bath<a class="hash" href="#bubble-bath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌbəl ˌbæθ/ &middot; <em>BUB-uhl bath</em></dd><dt>Русский</dt><dd>пена для ванны; ванна с пеной</dd><dt>Plural</dt><dd><em>bubble baths</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>Soap that foams up in the tub, or a bath taken with it.</p>
+<ol><li>The kids want a <em>bubble bath</em> tonight.</li><li>She poured <em>bubble bath</em> under the running water.</li><li>Long <em>bubble baths</em> are her way of relaxing.</li></ol>
+<hr>
+<h3 id="bath-salts">bath salts<a class="hash" href="#bath-salts" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθ ˌsɔːlts/ &middot; <em>BATH sawlts</em></dd><dt>Русский</dt><dd>соль для ванны</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural in form: <em>bath salts</em>, never a bath salt.</dd></dl>
+<p>Scented crystals dissolved in bathwater to soften it.</p>
+<ol><li>She dumped <em>bath salts</em> into the tub.</li><li>These <em>bath salts</em> smell like eucalyptus.</li><li>A jar of <em>bath salts</em> makes an easy gift.</li></ol>
+<hr>
+<h3 id="bath-bomb">bath bomb<a class="hash" href="#bath-bomb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθ ˌbɑːm/ &middot; <em>BATH bahm</em></dd><dt>Русский</dt><dd>бомбочка для ванны</dd><dt>Plural</dt><dd><em>bath bombs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b at the end of bomb is silent: BAHM.</dd></dl>
+<p>A hard ball of scented powder that fizzes in bathwater.</p>
+<ol><li>Drop the <em>bath bomb</em> in and watch it fizz.</li><li>She got a set of <em>bath bombs</em> for her birthday.</li><li>That <em>bath bomb</em> turned the water bright blue.</li></ol>
+<hr>
+<h3 id="bath-oil">bath oil<a class="hash" href="#bath-oil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθ ˌɔɪl/ &middot; <em>BATH oyl</em></dd><dt>Русский</dt><dd>масло для ванны</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Scented oil added to bathwater to soften the skin.</p>
+<ol><li>A few drops of <em>bath oil</em> is plenty.</li><li>The <em>bath oil</em> left a ring around the tub.</li><li>She uses <em>bath oil</em> when her skin is dry.</li></ol>
+<hr>
+<h3 id="air-freshener">air freshener<a class="hash" href="#air-freshener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌfrɛʃnər/ &middot; <em>AIR fresh-nur</em></dd><dt>Русский</dt><dd>освежитель воздуха</dd><dt>Plural</dt><dd><em>air fresheners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A spray or holder that puts a pleasant smell into a room.</p>
+<ol><li>Spray some <em>air freshener</em> in the bathroom.</li><li>The <em>air freshener</em> smells like fake pine.</li><li>They plug <em>air fresheners</em> into every outlet.</li></ol>
+<hr>
+<h3 id="petroleum-jelly">petroleum jelly<a class="hash" href="#petroleum-jelly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈtroʊliəm ˌdʒɛli/ &middot; <em>puh-TROH-lee-uhm jel-ee</em></dd><dt>Русский</dt><dd>вазелин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick clear grease spread on dry skin or small cuts.</p>
+<ol><li>Put a little <em>petroleum jelly</em> on the scrape.</li><li><em>Petroleum jelly</em> keeps her lips from cracking.</li><li>A jar of <em>petroleum jelly</em> lasts for years.</li></ol>
+<hr>
+<h3 id="body-spray">body spray<a class="hash" href="#body-spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːdi ˌspreɪ/ &middot; <em>BAH-dee spray</em></dd><dt>Русский</dt><dd>спрей для тела, дезодорант-спрей</dd><dt>Plural</dt><dd><em>body sprays</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A light scented spray put on the body.</p>
+<ol><li>The locker room reeked of <em>body spray</em>.</li><li>He got three <em>body sprays</em> for Christmas.</li><li>She wears <em>body spray</em> instead of perfume.</li></ol>
+<hr>
+<h3 id="bar-soap">bar soap<a class="hash" href="#bar-soap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːr ˌsoʊp/ &middot; <em>BAR sohp</em></dd><dt>Русский</dt><dd>кусковое мыло</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soap sold in solid pieces rather than as a liquid.</p>
+<ol><li>I still prefer <em>bar soap</em>.</li><li><em>Bar soap</em> lasts longer than body wash.</li><li>The hotel leaves a small piece of <em>bar soap</em> by the sink.</li></ol>
+<hr>
+<h3 id="sponge-bath">sponge bath<a class="hash" href="#sponge-bath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspʌndʒ ˌbæθ/ &middot; <em>SPUHNJ bath</em></dd><dt>Русский</dt><dd>обтирание губкой</dd><dt>Plural</dt><dd><em>sponge baths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wash done with a wet cloth instead of getting into a tub.</p>
+<ol><li>The nurse gave him a <em>sponge bath</em>.</li><li>With the cast on, he was stuck taking <em>sponge baths</em>.</li><li>A <em>sponge bath</em> is better than nothing.</li></ol>
+<hr>
+<h3 id="tampon">tampon<a class="hash" href="#tampon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæmpɑːn/ &middot; <em>TAM-pahn</em></dd><dt>Русский</dt><dd>тампон (гигиенический)</dd><dt>Plural</dt><dd><em>tampons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small plug of cotton used inside the body during a period.</p>
+<ol><li>She keeps <em>tampons</em> in her bag.</li><li>The dispenser in the restroom sells <em>tampons</em> for a quarter.</li><li>He was sent to the store for a box of <em>tampons</em>.</li></ol>
+<hr>
+<h3 id="sanitary-pad">sanitary pad<a class="hash" href="#sanitary-pad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsænətɛri ˌpæd/ &middot; <em>SAN-uh-ter-ee pad</em></dd><dt>Русский</dt><dd>гигиеническая прокладка</dd><dt>Plural</dt><dd><em>sanitary pads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>sanitary pad</em> or just pad; the British say sanitary towel.</dd></dl>
+<p>An absorbent pad worn in underwear during a period.</p>
+<ol><li>The machine in the restroom sells <em>sanitary pads</em>.</li><li>She put a <em>sanitary pad</em> in her purse.</li><li><em>Sanitary pads</em> come in different thicknesses.</li></ol>
+<hr>
+<h3 id="disinfectant">disinfectant<a class="hash" href="#disinfectant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪsɪnˈfɛktənt/ &middot; <em>dis-in-FEK-tuhnt</em></dd><dt>Русский</dt><dd>дезинфицирующее средство</dd><dt>Plural</dt><dd><em>disinfectants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A chemical that kills germs on surfaces.</p>
+<ol><li>Wipe the counter with <em>disinfectant</em>.</li><li>The whole clinic smelled of <em>disinfectant</em>.</li><li>Some <em>disinfectants</em> have to sit for a full minute.</li></ol>
+<hr>
+<h3 id="antiseptic">antiseptic<a class="hash" href="#antiseptic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌæntɪˈsɛptɪk/ &middot; <em>an-tih-SEP-tik</em></dd><dt>Русский</dt><dd>антисептик</dd><dt>Plural</dt><dd><em>antiseptics</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid put on skin or a wound to stop infection.</p>
+<ol><li>She dabbed <em>antiseptic</em> on the cut.</li><li>The <em>antiseptic</em> stung for a second.</li><li>Most first aid kits include an <em>antiseptic</em>.</li></ol>
+<hr>
+<h3 id="rubbing-alcohol">rubbing alcohol<a class="hash" href="#rubbing-alcohol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbɪŋ ˌælkəhɔːl/ &middot; <em>RUB-ing al-kuh-hawl</em></dd><dt>Русский</dt><dd>медицинский спирт</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>rubbing alcohol</em> is called surgical spirit in Britain.</dd></dl>
+<p>A clear alcohol used to clean skin, cuts, and surfaces.</p>
+<ol><li>Clean the thermometer with <em>rubbing alcohol</em>.</li><li>A bottle of <em>rubbing alcohol</em> costs about a dollar.</li><li><em>Rubbing alcohol</em> evaporates in seconds.</li></ol>
+<hr>
+<h3 id="hydrogen-peroxide">hydrogen peroxide<a class="hash" href="#hydrogen-peroxide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪdrədʒən pəˈrɑːksaɪd/ &middot; <em>hy-druh-juhn puh-RAHK-syd</em></dd><dt>Русский</dt><dd>перекись водорода</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A clear liquid that bubbles on a wound and kills germs.</p>
+<ol><li>Pour a little <em>hydrogen peroxide</em> on it.</li><li><em>Hydrogen peroxide</em> foams the moment it touches a cut.</li><li>The brown bottle of <em>hydrogen peroxide</em> is in the cabinet.</li></ol>
+<hr>
+<h3 id="drain-cleaner">drain cleaner<a class="hash" href="#drain-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪn ˌkliːnər/ &middot; <em>DRAYN klee-nur</em></dd><dt>Русский</dt><dd>средство для прочистки труб</dd><dt>Plural</dt><dd><em>drain cleaners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A strong chemical poured into a pipe to dissolve a blockage.</p>
+<ol><li>Pour <em>drain cleaner</em> down the sink and wait.</li><li><em>Drain cleaner</em> can burn your skin.</li><li>None of the <em>drain cleaners</em> touched that clog.</li></ol>
+<hr>
+<h3 id="scrub-brush">scrub brush<a class="hash" href="#scrub-brush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrʌb ˌbrʌʃ/ &middot; <em>SKRUHB bruhsh</em></dd><dt>Русский</dt><dd>щётка для чистки</dd><dt>Plural</dt><dd><em>scrub brushes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>scrub brush</em>; the British say scrubbing brush.</dd></dl>
+<p>A stiff brush for scrubbing floors, tile, and tubs.</p>
+<ol><li>Take a <em>scrub brush</em> to the tile.</li><li>The <em>scrub brush</em> is under the sink.</li><li>We wore out two <em>scrub brushes</em> on that bathroom.</li></ol>
+<hr>
+<h3 id="scouring-pad">scouring pad<a class="hash" href="#scouring-pad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskaʊrrɪŋ ˌpæd/ &middot; <em>SKOW-ur-ing pad</em></dd><dt>Русский</dt><dd>абразивная губка</dd><dt>Plural</dt><dd><em>scouring pads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rough pad used to scrub off stuck-on dirt.</p>
+<ol><li>She went after the tub with a <em>scouring pad</em>.</li><li>A <em>scouring pad</em> will scratch that finish.</li><li>The box holds six <em>scouring pads</em>.</li></ol>
+<hr>
+<h3 id="rubber-gloves">rubber gloves<a class="hash" href="#rubber-gloves" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbər ˌɡlʌvz/ &middot; <em>RUB-ur gluhvz</em></dd><dt>Русский</dt><dd>резиновые перчатки</dd><dt>Plural</dt><dd><em>rubber gloves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Normally plural: a pair of <em>rubber gloves</em>.</dd></dl>
+<p>Waterproof gloves worn to protect your hands while cleaning.</p>
+<ol><li>Put on <em>rubber gloves</em> before you use the bleach.</li><li>The <em>rubber gloves</em> are under the sink.</li><li>She peeled off her yellow <em>rubber gloves</em>.</li></ol>
+<hr>
+<h3 id="cleaning-supplies">cleaning supplies<a class="hash" href="#cleaning-supplies" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnɪŋ səˌplaɪz/ &middot; <em>KLEE-ning suh-plyz</em></dd><dt>Русский</dt><dd>чистящие средства</dd><dt>Plural</dt><dd><em>cleaning supplies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always plural in this sense.</dd></dl>
+<p>The products and tools kept in a house for cleaning.</p>
+<ol><li>The <em>cleaning supplies</em> are under the sink.</li><li>Keep <em>cleaning supplies</em> away from small children.</li><li>The roommates split the cost of <em>cleaning supplies</em>.</li></ol>
+<hr>
+<h3 id="laundry-detergent">laundry detergent<a class="hash" href="#laundry-detergent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri dɪˌtɜːrdʒənt/ &middot; <em>LAWN-dree dih-tur-juhnt</em></dd><dt>Русский</dt><dd>стиральный порошок, средство для стирки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soap made for washing clothes in a machine.</p>
+<ol><li>We're almost out of <em>laundry detergent</em>.</li><li>Use half a cap of <em>laundry detergent</em>.</li><li>That <em>laundry detergent</em> smells too strong.</li></ol>
+<hr>
+<h3 id="fabric-softener">fabric softener<a class="hash" href="#fabric-softener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæbrɪk ˌsɔːfnər/ &middot; <em>FAB-rik sawf-nur</em></dd><dt>Русский</dt><dd>кондиционер для белья</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The t in softener is silent: SAWF-nur.</dd></dl>
+<p>A liquid added in the wash to make clothes feel soft.</p>
+<ol><li>Add <em>fabric softener</em> to the last rinse.</li><li><em>Fabric softener</em> makes towels less absorbent.</li><li>She skips the <em>fabric softener</em> for the baby's clothes.</li></ol>
+<hr>
+<h3 id="dryer-sheet">dryer sheet<a class="hash" href="#dryer-sheet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪrr ˌʃiːt/ &middot; <em>DRY-ur sheet</em></dd><dt>Русский</dt><dd>антистатическая салфетка для сушки белья</dd><dt>Plural</dt><dd><em>dryer sheets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A scented sheet tossed in the dryer to stop static.</p>
+<ol><li>Throw a <em>dryer sheet</em> in with the towels.</li><li>The box of <em>dryer sheets</em> is on the shelf.</li><li>One <em>dryer sheet</em> is enough for a small load.</li></ol>
+<hr>
+<h3 id="stain-remover">stain remover<a class="hash" href="#stain-remover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪn rɪˌmuːvər/ &middot; <em>STAYN rih-moo-vur</em></dd><dt>Русский</dt><dd>пятновыводитель</dd><dt>Plural</dt><dd><em>stain removers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A product sprayed on a mark to lift it out of fabric.</p>
+<ol><li>Spray <em>stain remover</em> on it before you wash it.</li><li>The <em>stain remover</em> took the coffee right out.</li><li>None of the <em>stain removers</em> worked on the ink.</li></ol>
+<hr>
+<h3 id="cleanliness">cleanliness<a class="hash" href="#cleanliness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɛnlinəs/ &middot; <em>KLEN-lee-nuhs</em></dd><dt>Русский</dt><dd>чистота, опрятность</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Pronounced KLEN-lee-nuhs, with the vowel of pen, though clean has the vowel of see.</dd></dl>
+<p>The state of being clean, or the habit of keeping things clean.</p>
+<ol><li>The restaurant was cited for poor <em>cleanliness</em>.</li><li>She's fussy about <em>cleanliness</em> in the kitchen.</li><li><em>Cleanliness</em> matters more than fancy fixtures.</li></ol>
+<hr>
+<h3 id="sanitation">sanitation<a class="hash" href="#sanitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsænəˈteɪʃən/ &middot; <em>san-uh-TAY-shuhn</em></dd><dt>Русский</dt><dd>санитария</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Systems for keeping people healthy by removing waste and dirt.</p>
+<ol><li>Poor <em>sanitation</em> spreads disease.</li><li>The city's <em>sanitation</em> department picks up on Tuesdays.</li><li>Clean water and <em>sanitation</em> have saved millions of lives.</li></ol>
+<hr>
+<h3 id="sewage">sewage<a class="hash" href="#sewage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːɪdʒ/ &middot; <em>SOO-ij</em></dd><dt>Русский</dt><dd>сточные воды, канализационные стоки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Sewage</em> is the waste itself; the pipe that carries it away is a sewer.</dd></dl>
+<p>Waste water and human waste carried away in pipes.</p>
+<ol><li>Raw <em>sewage</em> leaked into the creek.</li><li>The plant treats <em>sewage</em> from four towns.</li><li>There was a smell of <em>sewage</em> in the basement.</li></ol>
+<hr>
+<h3 id="septic-tank">septic tank<a class="hash" href="#septic-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛptɪk ˌtæŋk/ &middot; <em>SEP-tik tank</em></dd><dt>Русский</dt><dd>септик</dd><dt>Plural</dt><dd><em>septic tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An underground tank that holds household waste where there are no sewers.</p>
+<ol><li>The house is on a <em>septic tank</em>, not city sewer.</li><li>A <em>septic tank</em> has to be pumped every few years.</li><li>Country properties usually have <em>septic tanks</em>.</li></ol>
+<hr>
+<h3 id="cesspool">cesspool<a class="hash" href="#cesspool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛsˌpuːl/ &middot; <em>SESS-pool</em></dd><dt>Русский</dt><dd>выгребная яма</dd><dt>Plural</dt><dd><em>cesspools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covered pit that collects waste water and sewage.</p>
+<ol><li>The old farmhouse still had a <em>cesspool</em>.</li><li>The <em>cesspool</em> overflowed after the storm.</li><li>Health inspectors ordered the <em>cesspools</em> filled in.</li></ol>
+<hr>
+<h3 id="contamination">contamination<a class="hash" href="#contamination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˌtæməˈneɪʃən/ &middot; <em>kuhn-tam-uh-NAY-shuhn</em></dd><dt>Русский</dt><dd>заражение, загрязнение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The presence of germs or dirt where they do not belong.</p>
+<ol><li>The lab found <em>contamination</em> in the water supply.</li><li>Washing your hands prevents <em>contamination</em>.</li><li>They shut the plant down after the <em>contamination</em>.</li></ol>
+<hr>
+<h3 id="filth">filth<a class="hash" href="#filth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɪlθ/ &middot; <em>FILTH</em></dd><dt>Русский</dt><dd>грязь, мерзость</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Disgusting dirt.</p>
+<ol><li>The kitchen was covered in <em>filth</em>.</li><li>He scrubbed years of <em>filth</em> off the tile.</li><li>You could smell the <em>filth</em> from the hallway.</li></ol>
+<hr>
+<h3 id="grime">grime<a class="hash" href="#grime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraɪm/ &middot; <em>GRYM</em></dd><dt>Русский</dt><dd>въевшаяся грязь, копоть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dirt that has built up and stuck to a surface.</p>
+<ol><li>The window was black with <em>grime</em>.</li><li>It took a scrub brush to get the <em>grime</em> off.</li><li>Hot water and soap cut through the <em>grime</em>.</li></ol>
+<hr>
+<h3 id="soap-scum">soap scum<a class="hash" href="#soap-scum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊp ˌskʌm/ &middot; <em>SOHP skuhm</em></dd><dt>Русский</dt><dd>мыльный налёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The dull film that soap leaves on tubs and shower doors.</p>
+<ol><li><em>Soap scum</em> built up on the glass door.</li><li>Vinegar takes off <em>soap scum</em>.</li><li>There's a ring of <em>soap scum</em> around the tub.</li></ol>
+<hr>
+<h3 id="suds">suds<a class="hash" href="#suds" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sʌdz/ &middot; <em>SUHDZ</em></dd><dt>Русский</dt><dd>мыльная пена, пузыри</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural in form and takes a plural verb: the <em>suds</em> were everywhere.</dd></dl>
+<p>Soapy bubbles on the surface of water.</p>
+<ol><li>The sink was full of <em>suds</em>.</li><li><em>Suds</em> spilled over the edge of the tub.</li><li>Rinse until there are no <em>suds</em> left.</li></ol>
+<hr>
+<h3 id="refuse">refuse<a class="hash" href="#refuse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛfjuːs/ &middot; <em>REF-yooss</em></dd><dt>Русский</dt><dd>мусор, отбросы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is REF-yooss; the verb refuse, meaning to say no, is rih-FYOOZ.</dd></dl>
+<p>Waste material that is thrown away.</p>
+<ol><li>The city collects household <em>refuse</em> on Mondays.</li><li>Piles of <em>refuse</em> sat outside the building.</li><li>The sign forbids dumping <em>refuse</em> here.</li></ol>
+<hr>
+<h3 id="odor">odor<a class="hash" href="#odor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊdər/ &middot; <em>OH-dur</em></dd><dt>Русский</dt><dd>запах (обычно неприятный)</dd><dt>Plural</dt><dd><em>odors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it <em>odor</em>; the British spell it odour.</dd></dl>
+<p>A smell, usually an unpleasant one.</p>
+<ol><li>There's a strange <em>odor</em> coming from the drain.</li><li>The <em>odor</em> of bleach filled the room.</li><li><em>Odors</em> build up in a bathroom with no fan.</li></ol>
+<hr>
+<h3 id="stench">stench<a class="hash" href="#stench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɛntʃ/ &middot; <em>STENCH</em></dd><dt>Русский</dt><dd>вонь, зловоние</dd><dt>Plural</dt><dd><em>stenches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very strong, disgusting smell.</p>
+<ol><li>The <em>stench</em> from the garbage was unbearable.</li><li>A <em>stench</em> hit us the moment we opened the door.</li><li>Nothing covers the <em>stench</em> of a backed-up sewer.</li></ol>
+<hr>
+<h3 id="cleanup">cleanup<a class="hash" href="#cleanup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnʌp/ &middot; <em>KLEEN-up</em></dd><dt>Русский</dt><dd>уборка</dd><dt>Plural</dt><dd><em>cleanups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The work of making a dirty place clean again.</p>
+<ol><li>The <em>cleanup</em> took all afternoon.</li><li>Whoever makes the mess handles the <em>cleanup</em>.</li><li>The party was fun; the <em>cleanups</em> never are.</li></ol>
+<hr>
+<h3 id="handwashing">handwashing<a class="hash" href="#handwashing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændˌwɑːʃɪŋ/ &middot; <em>HAND-wah-shing</em></dd><dt>Русский</dt><dd>мытьё рук</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of washing your hands to remove germs.</p>
+<ol><li><em>Handwashing</em> is the simplest way to stop germs.</li><li>Signs in the restroom remind employees about <em>handwashing</em>.</li><li>Careful <em>handwashing</em> takes a full twenty seconds.</li></ol>
+<hr>
+<h3 id="soak">soak<a class="hash" href="#soak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/soʊk/ &middot; <em>SOHK</em></dd><dt>Русский</dt><dd>отмокание, лежание в ванне</dd><dt>Plural</dt><dd><em>soaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long stay in hot water, or a period of leaving something in liquid.</p>
+<ol><li>She treated herself to a long <em>soak</em> in the tub.</li><li>Give the towel a <em>soak</em> in cold water.</li><li>Hot <em>soaks</em> help sore muscles.</li></ol>
+<hr>
+<h3 id="grooming">grooming<a class="hash" href="#grooming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡruːmɪŋ/ &middot; <em>GROO-ming</em></dd><dt>Русский</dt><dd>уход за собой, опрятность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The care you take of your hair, nails, and general appearance.</p>
+<ol><li>The job listing mentioned neat <em>grooming</em>.</li><li><em>Grooming</em> takes him about ten minutes in the morning.</li><li>Personal <em>grooming</em> products are in aisle four.</li></ol>
+<hr>
+<h3 id="personal-hygiene">personal hygiene<a class="hash" href="#personal-hygiene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrsənəl ˈhaɪdʒiːn/ &middot; <em>pur-suh-nuhl HY-jeen</em></dd><dt>Русский</dt><dd>личная гигиена</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Keeping your own body clean and healthy.</p>
+<ol><li>Good <em>personal hygiene</em> prevents a lot of illness.</li><li>The class covers <em>personal hygiene</em> and nutrition.</li><li>His <em>personal hygiene</em> had slipped while he was sick.</li></ol>
+<hr>
+<h3 id="oral-hygiene">oral hygiene<a class="hash" href="#oral-hygiene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrəl ˈhaɪdʒiːn/ &middot; <em>or-uhl HY-jeen</em></dd><dt>Русский</dt><dd>гигиена полости рта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Care of the teeth and gums by brushing and flossing.</p>
+<ol><li>The dentist praised her <em>oral hygiene</em>.</li><li><em>Oral hygiene</em> means more than just brushing.</li><li>Poor <em>oral hygiene</em> leads to gum disease.</li></ol>
+<hr>
+<h3 id="dental-floss">dental floss<a class="hash" href="#dental-floss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛntəl ˌflɔːs/ &middot; <em>DEN-tl flawss</em></dd><dt>Русский</dt><dd>зубная нить</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin string pulled between the teeth to clean them.</p>
+<ol><li>A piece of <em>dental floss</em> got stuck between my teeth.</li><li>Buy the waxed <em>dental floss</em>.</li><li><em>Dental floss</em> reaches where a brush cannot.</li></ol>
+<hr>
+<h3 id="plaque">plaque<a class="hash" href="#plaque" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plæk/ &middot; <em>PLAK</em></dd><dt>Русский</dt><dd>зубной налёт</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled with a silent -que and pronounced PLAK.</dd></dl>
+<p>The soft sticky film of bacteria that forms on teeth.</p>
+<ol><li>Brushing removes <em>plaque</em> before it hardens.</li><li>The hygienist scraped the <em>plaque</em> off.</li><li><em>Plaque</em> builds up along the gum line.</li></ol>
+<hr>
+<h3 id="tartar">tartar<a class="hash" href="#tartar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrtər/ &middot; <em>TAR-tur</em></dd><dt>Русский</dt><dd>зубной камень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hardened plaque that only a dentist can scrape off.</p>
+<ol><li><em>Tartar</em> had built up behind his front teeth.</li><li>This toothpaste claims to fight <em>tartar</em>.</li><li>Only a professional cleaning removes <em>tartar</em>.</li></ol>
+<hr>
+<h3 id="enamel">enamel<a class="hash" href="#enamel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈnæməl/ &middot; <em>ih-NAM-uhl</em></dd><dt>Русский</dt><dd>эмаль (зубная)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The hard white outer layer of a tooth.</p>
+<ol><li>Soda wears away tooth <em>enamel</em>.</li><li>Once <em>enamel</em> is gone, it doesn't grow back.</li><li>The dentist said my <em>enamel</em> is thin.</li></ol>
+<hr>
+<h3 id="bad-breath">bad breath<a class="hash" href="#bad-breath" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbæd ˈbrɛθ/ &middot; <em>bad BRETH</em></dd><dt>Русский</dt><dd>неприятный запах изо рта</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An unpleasant smell coming from someone's mouth.</p>
+<ol><li>Coffee gives him <em>bad breath</em>.</li><li>Mouthwash only hides <em>bad breath</em>.</li><li><em>Bad breath</em> can be a sign of gum trouble.</li></ol>
+<hr>
+<h3 id="retainer">retainer<a class="hash" href="#retainer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈteɪnər/ &middot; <em>rih-TAY-nur</em></dd><dt>Русский</dt><dd>ретейнер (пластинка после брекетов)</dd><dt>Plural</dt><dd><em>retainers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic and wire device worn to keep teeth straight after braces.</p>
+<ol><li>Wear your <em>retainer</em> every night.</li><li>He lost his <em>retainer</em> in the cafeteria.</li><li><em>Retainers</em> cost a few hundred dollars to replace.</li></ol>
+<hr>
+<h3 id="dentures">dentures<a class="hash" href="#dentures" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛntʃərz/ &middot; <em>DEN-churz</em></dd><dt>Русский</dt><dd>зубной протез, вставная челюсть</dd><dt>Plural</dt><dd><em>dentures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Normally plural: a set of <em>dentures</em>, not a denture.</dd></dl>
+<p>A removable set of false teeth.</p>
+<ol><li>Grandpa soaks his <em>dentures</em> overnight.</li><li>Her <em>dentures</em> fit better after the adjustment.</li><li>He got <em>dentures</em> at seventy.</li></ol>
+<hr>
+<h3 id="whitening">whitening<a class="hash" href="#whitening" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪtənɪŋ/ &middot; <em>WY-tuh-ning</em></dd><dt>Русский</dt><dd>отбеливание (зубов)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Treatment that makes teeth look whiter.</p>
+<ol><li>She paid for professional <em>whitening</em>.</li><li><em>Whitening</em> can make your teeth sensitive.</li><li>The strips promise <em>whitening</em> in two weeks.</li></ol>
+<hr>
+<h3 id="gum-disease">gum disease<a class="hash" href="#gum-disease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌm dɪˌziːz/ &middot; <em>GUM dih-zeez</em></dd><dt>Русский</dt><dd>заболевание дёсен</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Infection of the gums that can loosen the teeth.</p>
+<ol><li>Flossing helps prevent <em>gum disease</em>.</li><li><em>Gum disease</em> is more common than people think.</li><li>He's being treated for early <em>gum disease</em>.</li></ol>
+<hr>
+<h3 id="tooth-decay">tooth decay<a class="hash" href="#tooth-decay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːθ dɪˌkeɪ/ &middot; <em>TOOTH dih-kay</em></dd><dt>Русский</dt><dd>кариес, разрушение зубов</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The slow breaking down of a tooth that produces cavities.</p>
+<ol><li>Sugar is the main cause of <em>tooth decay</em>.</li><li>Fluoride slows <em>tooth decay</em>.</li><li>The X-ray showed <em>tooth decay</em> between two molars.</li></ol>
+<hr>
+<h3 id="toothache">toothache<a class="hash" href="#toothache" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːθeɪk/ &middot; <em>TOOTH-ayk</em></dd><dt>Русский</dt><dd>зубная боль</dd><dt>Plural</dt><dd><em>toothaches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The -ache ending is pronounced AYK, as in cake.</dd></dl>
+<p>A pain in a tooth.</p>
+<ol><li>I've had a <em>toothache</em> since Sunday.</li><li>A bad <em>toothache</em> kept him up all night.</li><li><em>Toothaches</em> rarely go away on their own.</li></ol>
+<hr>
+<h3 id="wisdom-tooth">wisdom tooth<a class="hash" href="#wisdom-tooth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪzdəm ˌtuːθ/ &middot; <em>WIZ-duhm tooth</em></dd><dt>Русский</dt><dd>зуб мудрости</dd><dt>Plural</dt><dd><em>wisdom teeth</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one <em>wisdom tooth</em>, two wisdom teeth.</dd></dl>
+<p>One of the four back teeth that come in during your late teens or twenties.</p>
+<ol><li>My <em>wisdom tooth</em> is coming in sideways.</li><li>She had all four <em>wisdom teeth</em> pulled.</li><li>Not everyone gets <em>wisdom teeth</em>.</li></ol>
+<hr>
+<h3 id="baby-tooth">baby tooth<a class="hash" href="#baby-tooth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ˌtuːθ/ &middot; <em>BAY-bee tooth</em></dd><dt>Русский</dt><dd>молочный зуб</dd><dt>Plural</dt><dd><em>baby teeth</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>baby tooth</em>; the British often say milk tooth. The plural is baby teeth.</dd></dl>
+<p>One of the first small teeth that a child loses around age six.</p>
+<ol><li>He lost his first <em>baby tooth</em> today.</li><li>All her <em>baby teeth</em> are gone now.</li><li>A <em>baby tooth</em> usually falls out on its own.</li></ol>
+<hr>
+<h3 id="root-canal">root canal<a class="hash" href="#root-canal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːt kəˌnæl/ &middot; <em>ROOT kuh-nal</em></dd><dt>Русский</dt><dd>лечение корневого канала</dd><dt>Plural</dt><dd><em>root canals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Dental treatment that cleans out the inside of a damaged tooth.</p>
+<ol><li>He needs a <em>root canal</em> on his back molar.</li><li>The <em>root canal</em> took two visits.</li><li><em>Root canals</em> aren't as painful as people say.</li></ol>
+<hr>
+<h3 id="orthodontist">orthodontist<a class="hash" href="#orthodontist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrθəˈdɑːntɪst/ &middot; <em>or-thuh-DAHN-tist</em></dd><dt>Русский</dt><dd>ортодонт</dd><dt>Plural</dt><dd><em>orthodontists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dentist who straightens crooked teeth with braces.</p>
+<ol><li>The <em>orthodontist</em> tightened her braces.</li><li>We see the <em>orthodontist</em> every six weeks.</li><li>Most <em>orthodontists</em> start treatment around age twelve.</li></ol>
+<hr>
+<h3 id="incisor">incisor<a class="hash" href="#incisor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsaɪzər/ &middot; <em>in-SY-zur</em></dd><dt>Русский</dt><dd>резец (зуб)</dd><dt>Plural</dt><dd><em>incisors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the flat front teeth used for biting.</p>
+<ol><li>He chipped an <em>incisor</em> on a fork.</li><li>Your top <em>incisors</em> do most of the biting.</li><li>The dentist filled a small cavity in an <em>incisor</em>.</li></ol>
+<hr>
+<h3 id="body-odor">body odor<a class="hash" href="#body-odor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːdi ˌoʊdər/ &middot; <em>BAH-dee oh-dur</em></dd><dt>Русский</dt><dd>запах тела, запах пота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The unpleasant smell of stale sweat.</p>
+<ol><li>Deodorant keeps <em>body odor</em> under control.</li><li>The gym reeked of <em>body odor</em>.</li><li>Nobody wants to be told they have <em>body odor</em>.</li></ol>
+<hr>
+<h3 id="perspiration">perspiration<a class="hash" href="#perspiration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrspəˈreɪʃən/ &middot; <em>pur-spuh-RAY-shuhn</em></dd><dt>Русский</dt><dd>пот, потоотделение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Perspiration</em> is the polite word; in ordinary speech Americans say sweat.</dd></dl>
+<p>Sweat, or the process of sweating.</p>
+<ol><li><em>Perspiration</em> ran down his forehead.</li><li>The shirt was soaked with <em>perspiration</em>.</li><li><em>Perspiration</em> is how the body cools itself.</li></ol>
+<hr>
+<h3 id="nit">nit<a class="hash" href="#nit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪt/ &middot; <em>NIT</em></dd><dt>Русский</dt><dd>гнида</dd><dt>Plural</dt><dd><em>nits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The egg of a head louse, stuck to a hair.</p>
+<ol><li>The school nurse checked the kids for <em>nits</em>.</li><li>Every <em>nit</em> has to be combed out.</li><li><em>Nits</em> look like tiny white specks.</li></ol>
+<hr>
+<h3 id="ingrown-hair">ingrown hair<a class="hash" href="#ingrown-hair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnɡroʊn ˌhɛr/ &middot; <em>IN-grohn hair</em></dd><dt>Русский</dt><dd>вросший волос</dd><dt>Plural</dt><dd><em>ingrown hairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hair that curls back and grows into the skin.</p>
+<ol><li>He gets <em>ingrown hairs</em> after shaving.</li><li>An <em>ingrown hair</em> can look like a pimple.</li><li>Exfoliating helps with <em>ingrown hairs</em>.</li></ol>
+<hr>
+<h3 id="callus">callus<a class="hash" href="#callus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæləs/ &middot; <em>KAL-uhs</em></dd><dt>Русский</dt><dd>мозоль (сухая), натоптыш</dd><dt>Plural</dt><dd><em>calluses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is <em>callus</em>; callous, spelled with an o, is the adjective meaning unfeeling.</dd></dl>
+<p>A patch of thick hard skin, usually on a hand or foot.</p>
+<ol><li>He has <em>calluses</em> from playing guitar.</li><li>A pumice stone smooths a <em>callus</em> down.</li><li>Her heels were covered in <em>calluses</em>.</li></ol>
+<hr>
+<h3 id="earwax">earwax<a class="hash" href="#earwax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪrwæks/ &middot; <em>EER-waks</em></dd><dt>Русский</dt><dd>ушная сера</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft yellow substance that forms inside the ear.</p>
+<ol><li><em>Earwax</em> actually protects the ear canal.</li><li>The doctor flushed out a plug of <em>earwax</em>.</li><li>Cotton swabs push <em>earwax</em> in deeper.</li></ol>
+<hr>
+<h3 id="athletes-foot">athlete's foot<a class="hash" href="#athletes-foot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæθliːts ˌfʊt/ &middot; <em>ATH-leets fut</em></dd><dt>Русский</dt><dd>грибок стопы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An itchy fungal infection of the skin between the toes.</p>
+<ol><li>He picked up <em>athlete's foot</em> at the pool.</li><li><em>Athlete's foot</em> spreads in damp locker rooms.</li><li>The cream cleared up his <em>athlete's foot</em> in a week.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: containers and packaging</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-containers-and-packaging">Core vocabulary: containers and packaging<a class="hash" href="#core-vocabulary-containers-and-packaging" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of containers and packaging — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="cardboard-box">cardboard box<a class="hash" href="#cardboard-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrdbɔːrd bɑːks/ &middot; <em>KARD-bord BAHKS</em></dd><dt>Русский</dt><dd>картонная коробка</dd><dt>Plural</dt><dd><em>cardboard boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box made of stiff layered paper, used for packing and moving things.</p>
+<ol><li>We packed the books into a <em>cardboard box</em>.</li><li>Empty <em>cardboard boxes</em> are stacked in the garage.</li><li>Flatten the <em>cardboard box</em> before you put it out for recycling.</li></ol>
+<hr>
+<h3 id="plastic-bag">plastic bag<a class="hash" href="#plastic-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstɪk bæɡ/ &middot; <em>PLAS-tik-bag</em></dd><dt>Русский</dt><dd>полиэтиленовый пакет</dd><dt>Plural</dt><dd><em>plastic bags</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; in Britain the store version is a carrier bag.</dd></dl>
+<p>A thin light bag made of plastic film for carrying or storing things.</p>
+<ol><li>She lined the trash can with a <em>plastic bag</em>.</li><li>The store charges ten cents for a <em>plastic bag</em>.</li><li>I keep a wad of <em>plastic bags</em> under the sink.</li></ol>
+<hr>
+<h3 id="paper-bag">paper bag<a class="hash" href="#paper-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər bæɡ/ &middot; <em>PAY-pur-bag</em></dd><dt>Русский</dt><dd>бумажный пакет</dd><dt>Plural</dt><dd><em>paper bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A brown bag of heavy paper, used for groceries or a packed lunch.</p>
+<ol><li>He carried his lunch in a <em>paper bag</em>.</li><li>Double it up — that <em>paper bag</em> is going to tear.</li><li>The bakery hands out cookies in little <em>paper bags</em>.</li></ol>
+<hr>
+<h3 id="grocery-bag">grocery bag<a class="hash" href="#grocery-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊsəri bæɡ/ &middot; <em>GROH-suh-ree BAG</em></dd><dt>Русский</dt><dd>пакет для продуктов</dd><dt>Plural</dt><dd><em>grocery bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bag for carrying food home from the store.</p>
+<ol><li>Can you grab the <em>grocery bags</em> out of the trunk?</li><li>One <em>grocery bag</em> split open halfway up the stairs.</li><li>I bring my own <em>grocery bags</em> now.</li></ol>
+<hr>
+<h3 id="shopping-bag">shopping bag<a class="hash" href="#shopping-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ bæɡ/ &middot; <em>SHAH-ping BAG</em></dd><dt>Русский</dt><dd>сумка (пакет) для покупок</dd><dt>Plural</dt><dd><em>shopping bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large bag with handles for carrying what you have bought.</p>
+<ol><li>She was juggling three <em>shopping bags</em> and a coffee.</li><li>The <em>shopping bag</em> had the store's logo on the side.</li><li>Fold the <em>shopping bags</em> and keep them in the car.</li></ol>
+<hr>
+<h3 id="trash-can">trash can<a class="hash" href="#trash-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræʃ kæn/ &middot; <em>TRASH-kan</em></dd><dt>Русский</dt><dd>мусорное ведро, мусорный бак</dd><dt>Plural</dt><dd><em>trash cans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say bin, dustbin, or rubbish bin.</dd></dl>
+<p>A container you throw garbage into.</p>
+<ol><li>Throw that in the <em>trash can</em>.</li><li>The <em>trash can</em> in the kitchen is full again.</li><li>Raccoons knocked over both <em>trash cans</em> overnight.</li></ol>
+<hr>
+<h3 id="trash-bag">trash bag<a class="hash" href="#trash-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræʃ bæɡ/ &middot; <em>TRASH-bag</em></dd><dt>Русский</dt><dd>мусорный пакет</dd><dt>Plural</dt><dd><em>trash bags</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British call it a bin bag or bin liner.</dd></dl>
+<p>A large plastic bag that lines a trash can.</p>
+<ol><li>We're out of <em>trash bags</em> again.</li><li>The <em>trash bag</em> ripped and spilled coffee grounds everywhere.</li><li>Tie the <em>trash bag</em> shut before you carry it out.</li></ol>
+<hr>
+<h3 id="garbage-can">garbage can<a class="hash" href="#garbage-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ kæn/ &middot; <em>GAR-bij-kan</em></dd><dt>Русский</dt><dd>мусорный бак, мусорное ведро</dd><dt>Plural</dt><dd><em>garbage cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A can for household waste, especially the big one kept outside.</p>
+<ol><li>Roll the <em>garbage can</em> out to the curb on Tuesday night.</li><li>Somebody dumped a mattress next to the <em>garbage cans</em>.</li><li>The lid of the <em>garbage can</em> blew off in the wind.</li></ol>
+<hr>
+<h3 id="garbage-bag">garbage bag<a class="hash" href="#garbage-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ bæɡ/ &middot; <em>GAR-bij-bag</em></dd><dt>Русский</dt><dd>мешок для мусора</dd><dt>Plural</dt><dd><em>garbage bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy plastic bag for household waste.</p>
+<ol><li>He filled two <em>garbage bags</em> with old clothes.</li><li>Hand me a <em>garbage bag</em> for these leaves.</li><li>The <em>garbage bags</em> are under the sink.</li></ol>
+<hr>
+<h3 id="recycling-bin">recycling bin<a class="hash" href="#recycling-bin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈsaɪklɪŋ bɪn/ &middot; <em>ree-SY-kling-bin</em></dd><dt>Русский</dt><dd>контейнер для вторсырья</dd><dt>Plural</dt><dd><em>recycling bins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container for paper, cans, and bottles that will be recycled.</p>
+<ol><li>Cardboard goes in the blue <em>recycling bin</em>.</li><li>Our <em>recycling bin</em> gets picked up every other week.</li><li>The building has <em>recycling bins</em> in the basement.</li></ol>
+<hr>
+<h3 id="water-bottle">water bottle<a class="hash" href="#water-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌbɑːtəl/ &middot; <em>WAW-tur BAH-tuhl</em></dd><dt>Русский</dt><dd>бутылка для воды</dd><dt>Plural</dt><dd><em>water bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bottle you carry drinking water in.</p>
+<ol><li>Don't forget your <em>water bottle</em>.</li><li>She refilled her <em>water bottle</em> at the fountain.</li><li>The kids left their <em>water bottles</em> on the bus.</li></ol>
+<hr>
+<h3 id="bottle-cap">bottle cap<a class="hash" href="#bottle-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːtəl kæp/ &middot; <em>BAH-tuhl-kap</em></dd><dt>Русский</dt><dd>крышка от бутылки, пробка</dd><dt>Plural</dt><dd><em>bottle caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small metal or plastic top that closes a bottle.</p>
+<ol><li>He flicked the <em>bottle cap</em> into the trash.</li><li>These <em>bottle caps</em> twist off by hand.</li><li>There's a prize printed inside the <em>bottle cap</em>.</li></ol>
+<hr>
+<h3 id="jar-lid">jar lid<a class="hash" href="#jar-lid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɑːr lɪd/ &middot; <em>JAR-lid</em></dd><dt>Русский</dt><dd>крышка от банки</dd><dt>Plural</dt><dd><em>jar lids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat top that screws onto a jar.</p>
+<ol><li>The <em>jar lid</em> is stuck — run it under hot water.</li><li>She saves the <em>jar lids</em> for canning season.</li><li>Screw the <em>jar lid</em> on tight or it will leak.</li></ol>
+<hr>
+<h3 id="screw-cap">screw cap<a class="hash" href="#screw-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskruː kæp/ &middot; <em>SKROO-kap</em></dd><dt>Русский</dt><dd>навинчивающаяся крышка</dd><dt>Plural</dt><dd><em>screw caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cap with threads that twists on and off.</p>
+<ol><li>The wine has a <em>screw cap</em> instead of a cork.</li><li>These bottles come with childproof <em>screw caps</em>.</li><li>The <em>screw cap</em> was cross-threaded and wouldn't close.</li></ol>
+<hr>
+<h3 id="pull-tab">pull tab<a class="hash" href="#pull-tab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊl tæb/ &middot; <em>PUUL-tab</em></dd><dt>Русский</dt><dd>кольцо-открывалка (на банке)</dd><dt>Plural</dt><dd><em>pull tabs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The little metal ring you pull to open a can.</p>
+<ol><li>The <em>pull tab</em> broke off before the can opened.</li><li>His school collects <em>pull tabs</em> for charity.</li><li>Hook your finger under the <em>pull tab</em>.</li></ol>
+<hr>
+<h3 id="tin-can">tin can<a class="hash" href="#tin-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪn kæn/ &middot; <em>TIN-kan</em></dd><dt>Русский</dt><dd>жестяная банка</dd><dt>Plural</dt><dd><em>tin cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sealed metal can that food comes in.</p>
+<ol><li>The soup came in a dented <em>tin can</em>.</li><li>We made a telephone out of two <em>tin cans</em> and a string.</li><li>Rinse the <em>tin can</em> before you recycle it.</li></ol>
+<hr>
+<h3 id="soda-can">soda can<a class="hash" href="#soda-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊdə kæn/ &middot; <em>SOH-duh-kan</em></dd><dt>Русский</dt><dd>банка газировки</dd><dt>Plural</dt><dd><em>soda cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An aluminum can of soft drink.</p>
+<ol><li>There were empty <em>soda cans</em> all over the back seat.</li><li>He crushed the <em>soda can</em> against the table.</li><li>A cold <em>soda can</em> left a ring on the wood.</li></ol>
+<hr>
+<h3 id="spray-can">spray can<a class="hash" href="#spray-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspreɪ kæn/ &middot; <em>SPRAY-kan</em></dd><dt>Русский</dt><dd>аэрозольный баллончик</dd><dt>Plural</dt><dd><em>spray cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pressurized can that releases its contents as a fine mist.</p>
+<ol><li>Shake the <em>spray can</em> before you start painting.</li><li>Don't leave <em>spray cans</em> in a hot car.</li><li>The <em>spray can</em> was almost empty and just sputtered.</li></ol>
+<hr>
+<h3 id="spray-bottle">spray bottle<a class="hash" href="#spray-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspreɪ ˌbɑːtəl/ &middot; <em>SPRAY BAH-tuhl</em></dd><dt>Русский</dt><dd>пульверизатор, распылитель</dd><dt>Plural</dt><dd><em>spray bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bottle with a hand pump that sprays liquid.</p>
+<ol><li>Fill a <em>spray bottle</em> with vinegar and water.</li><li>She keeps a <em>spray bottle</em> next to the plants.</li><li>The cat runs the second he sees the <em>spray bottle</em>.</li></ol>
+<hr>
+<h3 id="pill-bottle">pill bottle<a class="hash" href="#pill-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪl ˌbɑːtəl/ &middot; <em>PIL BAH-tuhl</em></dd><dt>Русский</dt><dd>баночка для таблеток</dd><dt>Plural</dt><dd><em>pill bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small plastic bottle that prescription medicine comes in.</p>
+<ol><li>The dosage is printed right on the <em>pill bottle</em>.</li><li>He lined up three <em>pill bottles</em> on the counter.</li><li>I can never get the <em>pill bottle</em> open.</li></ol>
+<hr>
+<h3 id="baby-bottle">baby bottle<a class="hash" href="#baby-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ˌbɑːtəl/ &middot; <em>BAY-bee BAH-tuhl</em></dd><dt>Русский</dt><dd>детская бутылочка</dd><dt>Plural</dt><dd><em>baby bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bottle with a rubber nipple for feeding an infant.</p>
+<ol><li>He warmed the <em>baby bottle</em> in a pan of water.</li><li>The <em>baby bottles</em> are drying on the rack.</li><li>She fell asleep with the <em>baby bottle</em> still in her mouth.</li></ol>
+<hr>
+<h3 id="wine-bottle">wine bottle<a class="hash" href="#wine-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪn ˌbɑːtəl/ &middot; <em>WYN BAH-tuhl</em></dd><dt>Русский</dt><dd>винная бутылка</dd><dt>Plural</dt><dd><em>wine bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tall glass bottle that wine is sold in.</p>
+<ol><li>There's a candle stuck in an empty <em>wine bottle</em>.</li><li>She set the <em>wine bottles</em> out for the recycling truck.</li><li>One <em>wine bottle</em> holds about four glasses.</li></ol>
+<hr>
+<h3 id="squeeze-bottle">squeeze bottle<a class="hash" href="#squeeze-bottle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskwiːz ˌbɑːtəl/ &middot; <em>SKWEEZ BAH-tuhl</em></dd><dt>Русский</dt><dd>мягкая бутылка-дозатор (для соусов)</dd><dt>Plural</dt><dd><em>squeeze bottles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft plastic bottle you press to push out sauce or dressing.</p>
+<ol><li>The mustard comes in a <em>squeeze bottle</em>.</li><li>He filled a <em>squeeze bottle</em> with pancake batter.</li><li>There are <em>squeeze bottles</em> of ketchup on every table.</li></ol>
+<hr>
+<h3 id="mason-jar">mason jar<a class="hash" href="#mason-jar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪsən dʒɑːr/ &middot; <em>MAY-suhn-JAR</em></dd><dt>Русский</dt><dd>стеклянная банка для консервирования</dd><dt>Plural</dt><dd><em>mason jars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Often written with a capital M, since it comes from the inventor's name.</dd></dl>
+<p>A thick glass jar with a screw-on lid, used for canning and for drinks.</p>
+<ol><li>She serves iced tea in <em>mason jars</em>.</li><li>The peaches are in a <em>mason jar</em> in the pantry.</li><li>He keeps loose change in an old <em>mason jar</em>.</li></ol>
+<hr>
+<h3 id="cookie-jar">cookie jar<a class="hash" href="#cookie-jar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊki dʒɑːr/ &middot; <em>KUUK-ee-JAR</em></dd><dt>Русский</dt><dd>банка для печенья</dd><dt>Plural</dt><dd><em>cookie jars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide jar with a lid where cookies are kept.</p>
+<ol><li>Grandma kept the <em>cookie jar</em> on top of the fridge.</li><li>He got caught with his hand in the <em>cookie jar</em>.</li><li>The <em>cookie jar</em> is shaped like a pig.</li></ol>
+<hr>
+<h3 id="milk-carton">milk carton<a class="hash" href="#milk-carton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlk ˌkɑːrtən/ &middot; <em>MILK KAR-tuhn</em></dd><dt>Русский</dt><dd>картонный пакет молока</dd><dt>Plural</dt><dd><em>milk cartons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waxed paper container that milk is sold in.</p>
+<ol><li>Check the date on the <em>milk carton</em>.</li><li>There's barely an inch left in the <em>milk carton</em>.</li><li>Missing kids used to be pictured on <em>milk cartons</em>.</li></ol>
+<hr>
+<h3 id="egg-carton">egg carton<a class="hash" href="#egg-carton" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛɡ ˌkɑːrtən/ &middot; <em>EG KAR-tuhn</em></dd><dt>Русский</dt><dd>лоток (коробка) для яиц</dd><dt>Plural</dt><dd><em>egg cartons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A molded container with a dozen cups for holding eggs.</p>
+<ol><li>Open the <em>egg carton</em> and check for cracks.</li><li>We start seedlings in old <em>egg cartons</em>.</li><li>There were two eggs left in the <em>egg carton</em>.</li></ol>
+<hr>
+<h3 id="juice-box">juice box<a class="hash" href="#juice-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːs bɑːks/ &middot; <em>JOOS-bahks</em></dd><dt>Русский</dt><dd>пакетик сока (с трубочкой)</dd><dt>Plural</dt><dd><em>juice boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sealed carton of juice with a straw attached.</p>
+<ol><li>Every kid got a <em>juice box</em> after the game.</li><li>He squeezed the <em>juice box</em> and it went everywhere.</li><li>I packed two <em>juice boxes</em> in her lunch.</li></ol>
+<hr>
+<h3 id="cereal-box">cereal box<a class="hash" href="#cereal-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪriəl bɑːks/ &middot; <em>SEER-ee-uhl BAHKS</em></dd><dt>Русский</dt><dd>коробка хлопьев</dd><dt>Plural</dt><dd><em>cereal boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tall cardboard box breakfast cereal is sold in.</p>
+<ol><li>He read the back of the <em>cereal box</em> every morning.</li><li>There's nothing but crumbs left in the <em>cereal box</em>.</li><li>The <em>cereal boxes</em> are on the top shelf.</li></ol>
+<hr>
+<h3 id="pizza-box">pizza box<a class="hash" href="#pizza-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːtsə bɑːks/ &middot; <em>PEET-suh BAHKS</em></dd><dt>Русский</dt><dd>коробка для пиццы</dd><dt>Plural</dt><dd><em>pizza boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flat cardboard box a delivered pizza comes in.</p>
+<ol><li>There were three empty <em>pizza boxes</em> on the coffee table.</li><li>A greasy <em>pizza box</em> can't go in the recycling.</li><li>He balanced the <em>pizza box</em> on one hand.</li></ol>
+<hr>
+<h3 id="shoebox">shoebox<a class="hash" href="#shoebox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːbɑːks/ &middot; <em>SHOO-bahks</em></dd><dt>Русский</dt><dd>обувная коробка</dd><dt>Plural</dt><dd><em>shoeboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rectangular cardboard box a pair of shoes comes in.</p>
+<ol><li>She keeps old letters in a <em>shoebox</em> under the bed.</li><li>The apartment is about the size of a <em>shoebox</em>.</li><li>There are <em>shoeboxes</em> stacked to the ceiling in the closet.</li></ol>
+<hr>
+<h3 id="gift-box">gift box<a class="hash" href="#gift-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft bɑːks/ &middot; <em>GIFT-bahks</em></dd><dt>Русский</dt><dd>подарочная коробка</dd><dt>Plural</dt><dd><em>gift boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decorated box for presenting a present.</p>
+<ol><li>The store put the scarf in a <em>gift box</em>.</li><li>She saves <em>gift boxes</em> to use again.</li><li>The ring came in a small velvet <em>gift box</em>.</li></ol>
+<hr>
+<h3 id="gift-bag">gift bag<a class="hash" href="#gift-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft bæɡ/ &middot; <em>GIFT-bag</em></dd><dt>Русский</dt><dd>подарочный пакет</dd><dt>Plural</dt><dd><em>gift bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decorated paper bag used instead of wrapping a present.</p>
+<ol><li>I stuck the sweater in a <em>gift bag</em> with some tissue paper.</li><li>We reuse the same <em>gift bags</em> every Christmas.</li><li>The <em>gift bag</em> had a rope handle.</li></ol>
+<hr>
+<h3 id="gift-wrap">gift wrap<a class="hash" href="#gift-wrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft ræp/ &middot; <em>GIFT-rap</em></dd><dt>Русский</dt><dd>подарочная упаковка (бумага)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Decorative paper used to cover presents.</p>
+<ol><li>The store offers free <em>gift wrap</em> in December.</li><li>We ran out of <em>gift wrap</em> halfway through.</li><li>There was <em>gift wrap</em> all over the living room floor.</li></ol>
+<hr>
+<h3 id="wrapping-paper">wrapping paper<a class="hash" href="#wrapping-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræpɪŋ ˌpeɪpər/ &middot; <em>RAP-ing PAY-pur</em></dd><dt>Русский</dt><dd>обёрточная (подарочная) бумага</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Colorful paper for covering presents.</p>
+<ol><li>She tore the <em>wrapping paper</em> off in one motion.</li><li>Buy <em>wrapping paper</em> the day after Christmas — it's half off.</li><li>There's a roll of <em>wrapping paper</em> in the hall closet.</li></ol>
+<hr>
+<h3 id="wrapper">wrapper<a class="hash" href="#wrapper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræpər/ &middot; <em>RAP-ur</em></dd><dt>Русский</dt><dd>обёртка, фантик</dd><dt>Plural</dt><dd><em>wrappers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The paper or plastic covering that comes off a piece of candy or food.</p>
+<ol><li>There was a candy <em>wrapper</em> stuck to the seat.</li><li>He crumpled the <em>wrapper</em> and shot it at the trash can.</li><li>The floor was covered in gum <em>wrappers</em>.</li></ol>
+<hr>
+<h3 id="plastic-wrap">plastic wrap<a class="hash" href="#plastic-wrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstɪk ræp/ &middot; <em>PLAS-tik-rap</em></dd><dt>Русский</dt><dd>пищевая плёнка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American; the British say cling film.</dd></dl>
+<p>Thin clear plastic film that clings over food.</p>
+<ol><li>Cover the bowl with <em>plastic wrap</em> and refrigerate it.</li><li>The <em>plastic wrap</em> kept sticking to itself.</li><li>We're out of <em>plastic wrap</em> and foil.</li></ol>
+<hr>
+<h3 id="aluminum-foil">aluminum foil<a class="hash" href="#aluminum-foil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈluːmɪnəm fɔɪl/ &middot; <em>uh-LOO-mih-nuhm FOYL</em></dd><dt>Русский</dt><dd>алюминиевая фольга</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The British spell it aluminium and say uh-loo-MIN-ee-uhm, with an extra syllable.</dd></dl>
+<p>Thin bendable metal sheeting used to cover and wrap food.</p>
+<ol><li>Wrap the potatoes in <em>aluminum foil</em>.</li><li>She tore off a sheet of <em>aluminum foil</em>.</li><li>Line the pan with <em>aluminum foil</em> so cleanup is easy.</li></ol>
+<hr>
+<h3 id="bubble-wrap">bubble wrap<a class="hash" href="#bubble-wrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌbəl ræp/ &middot; <em>BUH-buhl-rap</em></dd><dt>Русский</dt><dd>пузырчатая плёнка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Plastic sheeting full of air pockets, used to protect fragile things.</p>
+<ol><li>The mug came in three layers of <em>bubble wrap</em>.</li><li>The kids fought over who got to pop the <em>bubble wrap</em>.</li><li>Do we have any <em>bubble wrap</em> left?</li></ol>
+<hr>
+<h3 id="shrink-wrap">shrink wrap<a class="hash" href="#shrink-wrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃrɪŋk ræp/ &middot; <em>SHRINK-rap</em></dd><dt>Русский</dt><dd>термоусадочная плёнка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Plastic film that tightens around a product when it is heated.</p>
+<ol><li>The box was still sealed in <em>shrink wrap</em>.</li><li>Pallets of bottled water come under <em>shrink wrap</em>.</li><li>I couldn't get the <em>shrink wrap</em> off without a knife.</li></ol>
+<hr>
+<h3 id="cellophane">cellophane<a class="hash" href="#cellophane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛləfeɪn/ &middot; <em>SEL-uh-fayn</em></dd><dt>Русский</dt><dd>целлофан</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The c sounds like s and the ph like f: SEL-uh-fayn.</dd></dl>
+<p>Thin clear crinkly film used to wrap gifts, flowers, and food.</p>
+<ol><li>The basket was wrapped in red <em>cellophane</em>.</li><li>He peeled the <em>cellophane</em> off the pack.</li><li>The flowers came in a cone of <em>cellophane</em>.</li></ol>
+<hr>
+<h3 id="wax-paper">wax paper<a class="hash" href="#wax-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwæks ˌpeɪpər/ &middot; <em>WAKS PAY-pur</em></dd><dt>Русский</dt><dd>вощёная бумага</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American; the British say greaseproof paper.</dd></dl>
+<p>Paper coated with wax so food will not stick to it.</p>
+<ol><li>Put a sheet of <em>wax paper</em> between the layers.</li><li>She wrapped the sandwich in <em>wax paper</em>.</li><li>We keep <em>wax paper</em> in the drawer by the stove.</li></ol>
+<hr>
+<h3 id="parchment-paper">parchment paper<a class="hash" href="#parchment-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrtʃmənt ˌpeɪpər/ &middot; <em>PARCH-muhnt PAY-pur</em></dd><dt>Русский</dt><dd>пергаментная бумага (для выпечки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Heat-resistant paper used to line baking pans.</p>
+<ol><li>Line the cookie sheet with <em>parchment paper</em>.</li><li><em>Parchment paper</em> can go in the oven; wax paper can't.</li><li>I'm out of <em>parchment paper</em>, so I'll just grease the pan.</li></ol>
+<hr>
+<h3 id="tissue-paper">tissue paper<a class="hash" href="#tissue-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪʃuː ˌpeɪpər/ &middot; <em>TISH-oo PAY-pur</em></dd><dt>Русский</dt><dd>папиросная (упаковочная) бумага</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Not a tissue for your nose: this is the crinkly wrapping paper.</dd></dl>
+<p>Thin soft colored paper used to stuff gift bags and pad delicate things.</p>
+<ol><li>She stuffed the gift bag with pink <em>tissue paper</em>.</li><li>The glasses were packed in <em>tissue paper</em>.</li><li>Save the <em>tissue paper</em> — it's still good.</li></ol>
+<hr>
+<h3 id="packing-tape">packing tape<a class="hash" href="#packing-tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪŋ teɪp/ &middot; <em>PAK-ing-tayp</em></dd><dt>Русский</dt><dd>упаковочный скотч</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wide strong clear tape used to seal boxes.</p>
+<ol><li>Run a strip of <em>packing tape</em> down the seam.</li><li>The roll of <em>packing tape</em> is in the junk drawer.</li><li>He used half a roll of <em>packing tape</em> on one box.</li></ol>
+<hr>
+<h3 id="masking-tape">masking tape<a class="hash" href="#masking-tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæskɪŋ teɪp/ &middot; <em>MAS-king-tayp</em></dd><dt>Русский</dt><dd>малярный скотч</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Beige paper tape that peels off cleanly, used for painting and labeling.</p>
+<ol><li>Put <em>masking tape</em> along the trim before you paint.</li><li>She labeled every box with <em>masking tape</em> and a marker.</li><li>The <em>masking tape</em> left a sticky line on the wall.</li></ol>
+<hr>
+<h3 id="packing-peanuts">packing peanuts<a class="hash" href="#packing-peanuts" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪŋ ˌpiːnʌts/ &middot; <em>PAK-ing PEE-nuts</em></dd><dt>Русский</dt><dd>упаковочный наполнитель («орешки»)</dd><dt>Plural</dt><dd><em>packing peanuts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural — nobody says one packing peanut.</dd></dl>
+<p>Small pieces of foam poured around an item so it will not break.</p>
+<ol><li><em>Packing peanuts</em> spilled all over the floor.</li><li>The vase was buried in <em>packing peanuts</em>.</li><li>Static makes <em>packing peanuts</em> stick to everything.</li></ol>
+<hr>
+<h3 id="twist-tie">twist tie<a class="hash" href="#twist-tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtwɪst taɪ/ &middot; <em>TWIST-ty</em></dd><dt>Русский</dt><dd>проволочная завязка (для пакета)</dd><dt>Plural</dt><dd><em>twist ties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short wire in paper or plastic that you twist to close a bag.</p>
+<ol><li>Close the bread bag with the <em>twist tie</em>.</li><li>There's a drawer full of rubber bands and <em>twist ties</em>.</li><li>The <em>twist tie</em> snapped in half.</li></ol>
+<hr>
+<h3 id="zip-tie">zip tie<a class="hash" href="#zip-tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈzɪp taɪ/ &middot; <em>ZIP-ty</em></dd><dt>Русский</dt><dd>пластиковая стяжка, хомут</dd><dt>Plural</dt><dd><em>zip ties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plastic strip that locks into a loop and can only be cut off.</p>
+<ol><li>He bundled the cables with a <em>zip tie</em>.</li><li>You'll need scissors — the <em>zip tie</em> won't come loose.</li><li>The box was sealed with two <em>zip ties</em>.</li></ol>
+<hr>
+<h3 id="rubber-band">rubber band<a class="hash" href="#rubber-band" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbər bænd/ &middot; <em>RUH-bur-band</em></dd><dt>Русский</dt><dd>резинка (канцелярская)</dd><dt>Plural</dt><dd><em>rubber bands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say elastic band.</dd></dl>
+<p>A thin loop of rubber for holding things together.</p>
+<ol><li>Put a <em>rubber band</em> around the stack of mail.</li><li>The <em>rubber band</em> dried out and snapped.</li><li>He shot <em>rubber bands</em> across the office.</li></ol>
+<hr>
+<h3 id="shipping-container">shipping container<a class="hash" href="#shipping-container" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪpɪŋ kənˌteɪnər/ &middot; <em>SHIP-ing kuhn-TAY-nur</em></dd><dt>Русский</dt><dd>грузовой контейнер</dd><dt>Plural</dt><dd><em>shipping containers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A huge steel box that carries freight on ships, trains, and trucks.</p>
+<ol><li>The port is stacked with <em>shipping containers</em>.</li><li>They turned a <em>shipping container</em> into a coffee shop.</li><li>A standard <em>shipping container</em> is forty feet long.</li></ol>
+<hr>
+<h3 id="shipping-label">shipping label<a class="hash" href="#shipping-label" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪpɪŋ ˌleɪbəl/ &middot; <em>SHIP-ing LAY-buhl</em></dd><dt>Русский</dt><dd>транспортная (адресная) наклейка</dd><dt>Plural</dt><dd><em>shipping labels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The printed sticker with the address and barcode on a package.</p>
+<ol><li>Print the <em>shipping label</em> and tape it to the box.</li><li>The <em>shipping label</em> peeled off in the rain.</li><li>Both <em>shipping labels</em> had the same tracking number.</li></ol>
+<hr>
+<h3 id="packing-slip">packing slip<a class="hash" href="#packing-slip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪŋ slɪp/ &middot; <em>PAK-ing-slip</em></dd><dt>Русский</dt><dd>упаковочный лист (накладная)</dd><dt>Plural</dt><dd><em>packing slips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The paper inside a package listing what is in it.</p>
+<ol><li>The <em>packing slip</em> says two shirts, but only one came.</li><li>Keep the <em>packing slip</em> in case you return it.</li><li>There was no <em>packing slip</em> in the box.</li></ol>
+<hr>
+<h3 id="padded-envelope">padded envelope<a class="hash" href="#padded-envelope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædɪd ˈɛnvəloʊp/ &middot; <em>PAD-id EN-vuh-lohp</em></dd><dt>Русский</dt><dd>конверт с мягкой подкладкой</dd><dt>Plural</dt><dd><em>padded envelopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mailing envelope lined with bubbles or paper padding.</p>
+<ol><li>The phone case came in a <em>padded envelope</em>.</li><li>Mail it in a <em>padded envelope</em> so it doesn't get bent.</li><li>She buys <em>padded envelopes</em> by the box.</li></ol>
+<hr>
+<h3 id="mailer">mailer<a class="hash" href="#mailer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪlər/ &middot; <em>MAY-lur</em></dd><dt>Русский</dt><dd>почтовый конверт-пакет</dd><dt>Plural</dt><dd><em>mailers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sturdy envelope or light box made for mailing something.</p>
+<ol><li>Slide the book into a cardboard <em>mailer</em>.</li><li>Returns go back in the prepaid <em>mailer</em>.</li><li>We keep a stack of <em>mailers</em> by the printer.</li></ol>
+<hr>
+<h3 id="mailing-tube">mailing tube<a class="hash" href="#mailing-tube" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪlɪŋ tuːb/ &middot; <em>MAY-ling-toob</em></dd><dt>Русский</dt><dd>почтовый тубус</dd><dt>Plural</dt><dd><em>mailing tubes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff cardboard cylinder for mailing posters and drawings.</p>
+<ol><li>The poster arrived rolled in a <em>mailing tube</em>.</li><li>Cap both ends of the <em>mailing tube</em>.</li><li>The blueprints are in one of those <em>mailing tubes</em>.</li></ol>
+<hr>
+<h3 id="parcel">parcel<a class="hash" href="#parcel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrsəl/ &middot; <em>PAR-suhl</em></dd><dt>Русский</dt><dd>посылка, свёрток</dd><dt>Plural</dt><dd><em>parcels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually say package; parcel survives mostly in postal language.</dd></dl>
+<p>A wrapped package sent through the mail.</p>
+<ol><li>A <em>parcel</em> came for you this morning.</li><li>The post office holds <em>parcels</em> for ten days.</li><li>She tied the <em>parcel</em> with string.</li></ol>
+<hr>
+<h3 id="packet">packet<a class="hash" href="#packet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpækɪt/ &middot; <em>PAK-it</em></dd><dt>Русский</dt><dd>пакетик</dd><dt>Plural</dt><dd><em>packets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US a packet is small — sugar, ketchup, seasoning; the British use packet where Americans say pack or bag.</dd></dl>
+<p>A small flat paper or plastic envelope holding one serving of something.</p>
+<ol><li>He tore open a <em>packet</em> of sugar.</li><li>There are ketchup <em>packets</em> in the glove box.</li><li>Stir one <em>packet</em> of yeast into the warm water.</li></ol>
+<hr>
+<h3 id="sachet">sachet<a class="hash" href="#sachet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæˈʃeɪ/ &middot; <em>sa-SHAY</em></dd><dt>Русский</dt><dd>саше, ароматический мешочек</dd><dt>Plural</dt><dd><em>sachets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A French borrowing: the t is silent and the stress falls on the second syllable, sa-SHAY.</dd></dl>
+<p>A small cloth bag of scented material, or a sealed pouch of powder.</p>
+<ol><li>She tucks a lavender <em>sachet</em> in the dresser drawer.</li><li>The closet smelled like cedar <em>sachets</em>.</li><li>Each box comes with a <em>sachet</em> of silica gel.</li></ol>
+<hr>
+<h3 id="sack">sack<a class="hash" href="#sack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sæk/ &middot; <em>SAK</em></dd><dt>Русский</dt><dd>мешок</dd><dt>Plural</dt><dd><em>sacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large bag of paper, cloth, or plastic for carrying bulky goods.</p>
+<ol><li>He hauled a <em>sack</em> of potatoes up the steps.</li><li>There were <em>sacks</em> of flour stacked in the back.</li><li>Santa came in with a <em>sack</em> over his shoulder.</li></ol>
+<hr>
+<h3 id="burlap-sack">burlap sack<a class="hash" href="#burlap-sack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrlæp sæk/ &middot; <em>BUR-lap-sak</em></dd><dt>Русский</dt><dd>мешок из мешковины</dd><dt>Plural</dt><dd><em>burlap sacks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British call the cloth hessian.</dd></dl>
+<p>A rough sack woven from coarse brown fiber.</p>
+<ol><li>The coffee beans arrive in <em>burlap sacks</em>.</li><li>We used a <em>burlap sack</em> for the potato-sack race.</li><li>A <em>burlap sack</em> of onions sat by the back door.</li></ol>
+<hr>
+<h3 id="sandwich-bag">sandwich bag<a class="hash" href="#sandwich-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsænwɪtʃ bæɡ/ &middot; <em>SAN-wich-bag</em></dd><dt>Русский</dt><dd>пакетик для бутербродов</dd><dt>Plural</dt><dd><em>sandwich bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small plastic bag for a sandwich or a snack.</p>
+<ol><li>Put the crackers in a <em>sandwich bag</em>.</li><li>We're down to two <em>sandwich bags</em>.</li><li>The <em>sandwich bag</em> has a zipper seal.</li></ol>
+<hr>
+<h3 id="freezer-bag">freezer bag<a class="hash" href="#freezer-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːzər bæɡ/ &middot; <em>FREE-zur-bag</em></dd><dt>Русский</dt><dd>пакет для заморозки</dd><dt>Plural</dt><dd><em>freezer bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick plastic bag made to hold food in the freezer.</p>
+<ol><li>Label the <em>freezer bag</em> with the date.</li><li>Soup freezes fine in a <em>freezer bag</em>.</li><li>I keep chopped onions in <em>freezer bags</em>.</li></ol>
+<hr>
+<h3 id="produce-bag">produce bag<a class="hash" href="#produce-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊduːs bæɡ/ &middot; <em>PROH-doos-bag</em></dd><dt>Русский</dt><dd>пакет для овощей и фруктов</dd><dt>Plural</dt><dd><em>produce bags</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun produce is stressed on the first syllable, PROH-doos; the verb produce is pruh-DOOS.</dd></dl>
+<p>A thin bag pulled off a roll for fruit and vegetables at the store.</p>
+<ol><li>Grab a <em>produce bag</em> for the apples.</li><li>The <em>produce bags</em> are on a roll above the tomatoes.</li><li>She brought mesh <em>produce bags</em> from home.</li></ol>
+<hr>
+<h3 id="lunch-bag">lunch bag<a class="hash" href="#lunch-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌntʃ bæɡ/ &middot; <em>LUNCH-bag</em></dd><dt>Русский</dt><dd>сумка (пакет) для обеда</dd><dt>Plural</dt><dd><em>lunch bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bag for carrying a packed meal.</p>
+<ol><li>His <em>lunch bag</em> is still on the kitchen counter.</li><li>She packed an ice pack in the <em>lunch bag</em>.</li><li>The <em>lunch bags</em> go in the cubbies by the door.</li></ol>
+<hr>
+<h3 id="doggy-bag">doggy bag<a class="hash" href="#doggy-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡi bæɡ/ &middot; <em>DAW-gee-bag</em></dd><dt>Русский</dt><dd>пакет с недоеденной едой из ресторана</dd><dt>Plural</dt><dd><em>doggy bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container of leftovers taken home from a restaurant.</p>
+<ol><li>Could we get a <em>doggy bag</em> for this?</li><li>He took half the steak home in a <em>doggy bag</em>.</li><li><em>Doggy bags</em> rarely make it out of the fridge.</li></ol>
+<hr>
+<h3 id="takeout-container">takeout container<a class="hash" href="#takeout-container" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪkaʊt kənˌteɪnər/ &middot; <em>TAYK-owt kuhn-TAY-nur</em></dd><dt>Русский</dt><dd>контейнер для еды навынос</dd><dt>Plural</dt><dd><em>takeout containers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American takeout; the British say takeaway.</dd></dl>
+<p>A box or tub that restaurant food is carried home in.</p>
+<ol><li>The fridge is full of <em>takeout containers</em>.</li><li>She reuses the <em>takeout containers</em> for leftovers.</li><li>Everything came in one big <em>takeout container</em>.</li></ol>
+<hr>
+<h3 id="to-go-box">to-go box<a class="hash" href="#to-go-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tə ˈɡoʊ bɑːks/ &middot; <em>tuh-GOH-bahks</em></dd><dt>Русский</dt><dd>коробка для еды навынос</dd><dt>Plural</dt><dd><em>to-go boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container a restaurant gives you for food you did not finish.</p>
+<ol><li>Could I get a <em>to-go box</em>?</li><li>The waiter brought two <em>to-go boxes</em>.</li><li>Half the pasta went into a <em>to-go box</em>.</li></ol>
+<hr>
+<h3 id="clamshell">clamshell<a class="hash" href="#clamshell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæmʃɛl/ &middot; <em>KLAM-shel</em></dd><dt>Русский</dt><dd>пластиковый контейнер-раскладушка</dd><dt>Plural</dt><dd><em>clamshells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hinged plastic container that opens and shuts like a shell.</p>
+<ol><li>The strawberries come in a plastic <em>clamshell</em>.</li><li>The salad bar charges by the <em>clamshell</em>.</li><li>These <em>clamshells</em> are impossible to open without scissors.</li></ol>
+<hr>
+<h3 id="food-container">food container<a class="hash" href="#food-container" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd kənˌteɪnər/ &middot; <em>FOOD kuhn-TAY-nur</em></dd><dt>Русский</dt><dd>контейнер для еды</dd><dt>Plural</dt><dd><em>food containers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lidded plastic or glass box for storing food.</p>
+<ol><li>Put the chili in a <em>food container</em> and freeze it.</li><li>None of these <em>food containers</em> have matching lids.</li><li>She washed out a <em>food container</em> for the leftovers.</li></ol>
+<hr>
+<h3 id="storage-container">storage container<a class="hash" href="#storage-container" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrɪdʒ kənˌteɪnər/ &middot; <em>STOR-ij kuhn-TAY-nur</em></dd><dt>Русский</dt><dd>контейнер для хранения</dd><dt>Plural</dt><dd><em>storage containers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A box with a lid for keeping things out of the way.</p>
+<ol><li>The holiday decorations live in <em>storage containers</em> in the attic.</li><li>We bought a clear <em>storage container</em> for the winter clothes.</li><li>Label each <em>storage container</em> on the end.</li></ol>
+<hr>
+<h3 id="storage-bin">storage bin<a class="hash" href="#storage-bin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrɪdʒ bɪn/ &middot; <em>STOR-ij-bin</em></dd><dt>Русский</dt><dd>ящик для хранения</dd><dt>Plural</dt><dd><em>storage bins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep bin, open or lidded, for storing things.</p>
+<ol><li>The toys go in the blue <em>storage bin</em>.</li><li>There are <em>storage bins</em> under every bed.</li><li>He shoved the paperwork into a <em>storage bin</em>.</li></ol>
+<hr>
+<h3 id="moving-box">moving box<a class="hash" href="#moving-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmuːvɪŋ bɑːks/ &middot; <em>MOO-ving-bahks</em></dd><dt>Русский</dt><dd>коробка для переезда</dd><dt>Plural</dt><dd><em>moving boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sturdy cardboard box sized for packing up a household.</p>
+<ol><li>We ordered twenty <em>moving boxes</em>.</li><li>Every <em>moving box</em> is labeled by room.</li><li>He stood on a <em>moving box</em> to reach the shelf.</li></ol>
+<hr>
+<h3 id="milk-crate">milk crate<a class="hash" href="#milk-crate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlk kreɪt/ &middot; <em>MILK-krayt</em></dd><dt>Русский</dt><dd>пластиковый ящик (молочный)</dd><dt>Plural</dt><dd><em>milk crates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff plastic crate with open sides, used for hauling and storing things.</p>
+<ol><li>His records are in <em>milk crates</em> along the wall.</li><li>She sat on an upturned <em>milk crate</em>.</li><li>We used <em>milk crates</em> as nightstands in college.</li></ol>
+<hr>
+<h3 id="compost-bin">compost bin<a class="hash" href="#compost-bin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpoʊst bɪn/ &middot; <em>KAHM-pohst-bin</em></dd><dt>Русский</dt><dd>компостный ящик</dd><dt>Plural</dt><dd><em>compost bins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container where food scraps and yard waste break down into soil.</p>
+<ol><li>Coffee grounds go in the <em>compost bin</em>.</li><li>The <em>compost bin</em> is at the end of the yard.</li><li>The city gave every house a small <em>compost bin</em>.</li></ol>
+<hr>
+<h3 id="laundry-basket">laundry basket<a class="hash" href="#laundry-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri ˌbæskɪt/ &middot; <em>LAWN-dree BAS-kit</em></dd><dt>Русский</dt><dd>корзина для белья</dd><dt>Plural</dt><dd><em>laundry baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open plastic or wicker basket for carrying clothes to be washed.</p>
+<ol><li>Carry the <em>laundry basket</em> down to the machine.</li><li>Clean towels were piled in the <em>laundry basket</em>.</li><li>There are two <em>laundry baskets</em> sitting on the stairs.</li></ol>
+<hr>
+<h3 id="laundry-hamper">laundry hamper<a class="hash" href="#laundry-hamper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri ˌhæmpər/ &middot; <em>LAWN-dree HAM-pur</em></dd><dt>Русский</dt><dd>корзина для грязного белья</dd><dt>Plural</dt><dd><em>laundry hampers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall lidded basket that dirty clothes go into.</p>
+<ol><li>Your socks belong in the <em>laundry hamper</em>.</li><li>The <em>laundry hamper</em> is overflowing.</li><li>Each bedroom has its own <em>laundry hamper</em>.</li></ol>
+<hr>
+<h3 id="picnic-basket">picnic basket<a class="hash" href="#picnic-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪknɪk ˌbæskɪt/ &middot; <em>PIK-nik BAS-kit</em></dd><dt>Русский</dt><dd>корзина для пикника</dd><dt>Plural</dt><dd><em>picnic baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lidded wicker basket for carrying food outdoors.</p>
+<ol><li>She packed sandwiches in the <em>picnic basket</em>.</li><li>Ants got into the <em>picnic basket</em>.</li><li>The <em>picnic basket</em> came with plates and cups.</li></ol>
+<hr>
+<h3 id="wastepaper-basket">wastepaper basket<a class="hash" href="#wastepaper-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪstpeɪpər ˌbæskɪt/ &middot; <em>WAYST-pay-pur BAS-kit</em></dd><dt>Русский</dt><dd>корзина для бумаг</dd><dt>Plural</dt><dd><em>wastepaper baskets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually shorten this to wastebasket; the British say wastepaper bin.</dd></dl>
+<p>A small open container beside a desk for paper trash.</p>
+<ol><li>He tossed the draft into the <em>wastepaper basket</em>.</li><li>The <em>wastepaper basket</em> by the desk was overflowing.</li><li>The cleaners empty the <em>wastepaper baskets</em> at night.</li></ol>
+<hr>
+<h3 id="cubby">cubby<a class="hash" href="#cubby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌbi/ &middot; <em>KUH-bee</em></dd><dt>Русский</dt><dd>ячейка, открытый шкафчик</dd><dt>Plural</dt><dd><em>cubbies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small open compartment for one person's things.</p>
+<ol><li>Each kindergartner has a <em>cubby</em> for a coat and backpack.</li><li>Your mail is in the <em>cubby</em> with your name on it.</li><li>The <em>cubbies</em> by the door are full of shoes.</li></ol>
+<hr>
+<h3 id="caddy">caddy<a class="hash" href="#caddy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkædi/ &middot; <em>KAD-ee</em></dd><dt>Русский</dt><dd>органайзер, подставка (для принадлежностей)</dd><dt>Plural</dt><dd><em>caddies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like caddie, the person who carries a golfer's clubs.</dd></dl>
+<p>A small carrier with compartments for holding supplies.</p>
+<ol><li>She keeps her shampoo in a shower <em>caddy</em>.</li><li>The cleaning <em>caddy</em> has everything in one place.</li><li>There are utensil <em>caddies</em> on each table.</li></ol>
+<hr>
+<h3 id="tote">tote<a class="hash" href="#tote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/toʊt/ &middot; <em>TOHT</em></dd><dt>Русский</dt><dd>пластиковый ящик с крышкой; большая сумка</dd><dt>Plural</dt><dd><em>totes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big plastic storage box with a lid, or a large open carrying bag.</p>
+<ol><li>The Christmas lights are in a red <em>tote</em> in the basement.</li><li>We hauled six <em>totes</em> out to the truck.</li><li>She stuffed her towel into a canvas <em>tote</em>.</li></ol>
+<hr>
+<h3 id="tub">tub<a class="hash" href="#tub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʌb/ &middot; <em>TUHB</em></dd><dt>Русский</dt><dd>кадка, бадья; ведёрко (мороженого)</dd><dt>Plural</dt><dd><em>tubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide round container with straight sides, including the small plastic one food is sold in.</p>
+<ol><li>He finished a whole <em>tub</em> of ice cream.</li><li>The plants are in half-barrel <em>tubs</em> on the porch.</li><li>Grab a <em>tub</em> of sour cream while you're there.</li></ol>
+<hr>
+<h3 id="pail">pail<a class="hash" href="#pail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/peɪl/ &middot; <em>PAYL</em></dd><dt>Русский</dt><dd>ведро</dd><dt>Plural</dt><dd><em>pails</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like pale, meaning light in color.</dd></dl>
+<p>A bucket, especially a small metal or plastic one with a handle.</p>
+<ol><li>The kid had a <em>pail</em> and shovel at the beach.</li><li>She milked into a steel <em>pail</em>.</li><li>Two <em>pails</em> of water put the fire out.</li></ol>
+<hr>
+<h3 id="ice-bucket">ice bucket<a class="hash" href="#ice-bucket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs ˌbʌkɪt/ &middot; <em>YS BUH-kit</em></dd><dt>Русский</dt><dd>ведёрко для льда</dd><dt>Plural</dt><dd><em>ice buckets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bucket that holds ice for drinks or chills a bottle.</p>
+<ol><li>The champagne is in the <em>ice bucket</em>.</li><li>He refilled the <em>ice bucket</em> down the hall.</li><li>Every room has an <em>ice bucket</em> and two glasses.</li></ol>
+<hr>
+<h3 id="ice-chest">ice chest<a class="hash" href="#ice-chest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs tʃɛst/ &middot; <em>YS-chest</em></dd><dt>Русский</dt><dd>переносной холодильник (ящик со льдом)</dd><dt>Plural</dt><dd><em>ice chests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insulated box packed with ice to keep food and drinks cold.</p>
+<ol><li>We loaded the <em>ice chest</em> into the back of the truck.</li><li>There's soda in the <em>ice chest</em>.</li><li>Both <em>ice chests</em> were empty by noon.</li></ol>
+<hr>
+<h3 id="icebox">icebox<a class="hash" href="#icebox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪsbɑːks/ &middot; <em>YS-bahks</em></dd><dt>Русский</dt><dd>ледник; (устар.) холодильник</dd><dt>Plural</dt><dd><em>iceboxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Dated: younger Americans say fridge or refrigerator.</dd></dl>
+<p>An old-fashioned cabinet cooled by a block of ice, and an older word for a refrigerator.</p>
+<ol><li>Grandpa still calls the fridge the <em>icebox</em>.</li><li>There was an <em>icebox</em> on the back porch and a milk delivery every morning.</li><li>Put the pie in the <em>icebox</em>.</li></ol>
+<hr>
+<h3 id="washtub">washtub<a class="hash" href="#washtub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃtʌb/ &middot; <em>WAHSH-tuhb</em></dd><dt>Русский</dt><dd>лохань, корыто (для стирки)</dd><dt>Plural</dt><dd><em>washtubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large round tub used for washing clothes by hand.</p>
+<ol><li>She scrubbed the shirts in a galvanized <em>washtub</em>.</li><li>The band had a <em>washtub</em> bass.</li><li>Two <em>washtubs</em> sat out behind the cabin.</li></ol>
+<hr>
+<h3 id="cask">cask<a class="hash" href="#cask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kæsk/ &middot; <em>KASK</em></dd><dt>Русский</dt><dd>бочонок</dd><dt>Plural</dt><dd><em>casks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden barrel for storing wine, beer, or whiskey.</p>
+<ol><li>The whiskey ages in oak <em>casks</em>.</li><li>They rolled a <em>cask</em> down into the cellar.</li><li>The wine spent two years in a <em>cask</em>.</li></ol>
+<hr>
+<h3 id="vat">vat<a class="hash" href="#vat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/væt/ &middot; <em>VAT</em></dd><dt>Русский</dt><dd>чан, бак</dd><dt>Plural</dt><dd><em>vats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large tub for holding liquid in making food, drink, or chemicals.</p>
+<ol><li>The cheese starts in a stainless steel <em>vat</em>.</li><li>Workers stirred a <em>vat</em> of dye.</li><li>Fermenting <em>vats</em> line the back wall.</li></ol>
+<hr>
+<h3 id="trough">trough<a class="hash" href="#trough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trɔːf/ &middot; <em>TRAWF</em></dd><dt>Русский</dt><dd>корыто, кормушка</dd><dt>Plural</dt><dd><em>troughs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh sounds like f: TRAWF rhymes with off.</dd></dl>
+<p>A long narrow open container that animals eat or drink from.</p>
+<ol><li>The horses lined up at the water <em>trough</em>.</li><li>He filled the feed <em>trough</em> before dawn.</li><li>Ice had formed on top of the <em>trough</em>.</li></ol>
+<hr>
+<h3 id="cistern">cistern<a class="hash" href="#cistern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪstərn/ &middot; <em>SIS-turn</em></dd><dt>Русский</dt><dd>цистерна, бак для воды</dd><dt>Plural</dt><dd><em>cisterns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tank that collects and stores water, often rainwater.</p>
+<ol><li>The farmhouse gets its water from a <em>cistern</em>.</li><li>Rain off the roof runs into the <em>cistern</em>.</li><li>They cleaned out the <em>cistern</em> every spring.</li></ol>
+<hr>
+<h3 id="water-tank">water tank<a class="hash" href="#water-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər tæŋk/ &middot; <em>WAW-tur-tank</em></dd><dt>Русский</dt><dd>бак для воды, водяной резервуар</dd><dt>Plural</dt><dd><em>water tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large closed container that holds a supply of water.</p>
+<ol><li>The <em>water tank</em> on the roof feeds the whole building.</li><li>The truck carries a five-hundred-gallon <em>water tank</em>.</li><li>Both <em>water tanks</em> were nearly empty by August.</li></ol>
+<hr>
+<h3 id="hopper">hopper<a class="hash" href="#hopper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːpər/ &middot; <em>HAH-pur</em></dd><dt>Русский</dt><dd>бункер (загрузочный)</dd><dt>Plural</dt><dd><em>hoppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A funnel-shaped container that feeds material out through the bottom.</p>
+<ol><li>Pour the grain into the <em>hopper</em>.</li><li>The salt truck's <em>hopper</em> holds two tons.</li><li>The printer has a paper <em>hopper</em> on the side.</li></ol>
+<hr>
+<h3 id="jerry-can">jerry can<a class="hash" href="#jerry-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛri kæn/ &middot; <em>JEH-ree-kan</em></dd><dt>Русский</dt><dd>канистра</dd><dt>Plural</dt><dd><em>jerry cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat-sided metal or plastic can for carrying fuel or water.</p>
+<ol><li>He keeps a <em>jerry can</em> of gas in the shed.</li><li>Strap the <em>jerry can</em> to the back of the jeep.</li><li>Two <em>jerry cans</em> got us to the next town.</li></ol>
+<hr>
+<h3 id="oil-can">oil can<a class="hash" href="#oil-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl kæn/ &middot; <em>OYL-kan</em></dd><dt>Русский</dt><dd>маслёнка</dd><dt>Plural</dt><dd><em>oil cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small can with a long spout for oiling machinery.</p>
+<ol><li>Give the hinge a squirt from the <em>oil can</em>.</li><li>There's an old <em>oil can</em> on the workbench.</li><li>He filled two <em>oil cans</em> for the mower.</li></ol>
+<hr>
+<h3 id="coffee-can">coffee can<a class="hash" href="#coffee-can" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfi kæn/ &middot; <em>KAW-fee-kan</em></dd><dt>Русский</dt><dd>банка из-под кофе (жестяная)</dd><dt>Plural</dt><dd><em>coffee cans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large metal can coffee is sold in, often kept and reused.</p>
+<ol><li>He keeps nails in an old <em>coffee can</em>.</li><li>The <em>coffee can</em> is empty again.</li><li><em>Coffee cans</em> full of change sat on the shelf.</li></ol>
+<hr>
+<h3 id="canister">canister<a class="hash" href="#canister" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænɪstər/ &middot; <em>KAN-ih-stur</em></dd><dt>Русский</dt><dd>банка с крышкой (для сыпучих); баллон</dd><dt>Plural</dt><dd><em>canisters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round container with a tight lid, for dry goods or pressurized gas.</p>
+<ol><li>The sugar is in the blue <em>canister</em>.</li><li>Police fired a <em>canister</em> of tear gas.</li><li>A row of matching <em>canisters</em> sat on the counter.</li></ol>
+<hr>
+<h3 id="vial">vial<a class="hash" href="#vial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvaɪrl/ &middot; <em>VY-uhl</em></dd><dt>Русский</dt><dd>флакон, пузырёк, ампула</dd><dt>Plural</dt><dd><em>vials</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like vile, meaning disgusting.</dd></dl>
+<p>A small glass or plastic bottle for medicine or samples.</p>
+<ol><li>The nurse drew the dose from a <em>vial</em>.</li><li>He carried a <em>vial</em> of insulin in his bag.</li><li>The lab lined up a hundred <em>vials</em>.</li></ol>
+<hr>
+<h3 id="blister-pack">blister pack<a class="hash" href="#blister-pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɪstər pæk/ &middot; <em>BLIS-tur-pak</em></dd><dt>Русский</dt><dd>блистерная упаковка</dd><dt>Plural</dt><dd><em>blister packs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A card with sealed plastic bubbles holding pills or small goods.</p>
+<ol><li>Push the pill through the back of the <em>blister pack</em>.</li><li>The batteries came sealed in a <em>blister pack</em>.</li><li>These <em>blister packs</em> need scissors to open.</li></ol>
+<hr>
+<h3 id="pillbox">pillbox<a class="hash" href="#pillbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪlbɑːks/ &middot; <em>PIL-bahks</em></dd><dt>Русский</dt><dd>таблетница</dd><dt>Plural</dt><dd><em>pillboxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A pillbox is also a small round hat and a low concrete gun shelter.</dd></dl>
+<p>A small case with compartments for a week's pills.</p>
+<ol><li>She fills her <em>pillbox</em> every Sunday.</li><li>He carries a <em>pillbox</em> in his coat pocket.</li><li>Two <em>pillboxes</em> sat next to the sink.</li></ol>
+<hr>
+<h3 id="matchbox">matchbox<a class="hash" href="#matchbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmætʃbɑːks/ &middot; <em>MACH-bahks</em></dd><dt>Русский</dt><dd>спичечный коробок</dd><dt>Plural</dt><dd><em>matchboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small cardboard box that matches come in.</p>
+<ol><li>There's a <em>matchbox</em> on the mantel.</li><li>The apartment is barely bigger than a <em>matchbox</em>.</li><li>He collected <em>matchboxes</em> from every hotel.</li></ol>
+<hr>
+<h3 id="matchbook">matchbook<a class="hash" href="#matchbook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmætʃbʊk/ &middot; <em>MACH-buuk</em></dd><dt>Русский</dt><dd>книжечка спичек (картонных)</dd><dt>Plural</dt><dd><em>matchbooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding paper cover holding a row of tear-off matches.</p>
+<ol><li>She wrote her number on a <em>matchbook</em>.</li><li>Every diner used to give out <em>matchbooks</em>.</li><li>There was a <em>matchbook</em> from a bar in his pocket.</li></ol>
+<hr>
+<h3 id="jewelry-box">jewelry box<a class="hash" href="#jewelry-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːəlri bɑːks/ &middot; <em>JOO-uhl-ree BAHKS</em></dd><dt>Русский</dt><dd>шкатулка для украшений</dd><dt>Plural</dt><dd><em>jewelry boxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write jewelry, JOO-uhl-ree; the British write jewellery with an extra syllable.</dd></dl>
+<p>A small lined box with drawers or trays for rings and necklaces.</p>
+<ol><li>Her rings are in the <em>jewelry box</em> on the dresser.</li><li>The <em>jewelry box</em> plays a tune when you open it.</li><li>He gave her a carved wooden <em>jewelry box</em>.</li></ol>
+<hr>
+<h3 id="toy-box">toy box<a class="hash" href="#toy-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪ bɑːks/ &middot; <em>TOY-bahks</em></dd><dt>Русский</dt><dd>ящик для игрушек</dd><dt>Plural</dt><dd><em>toy boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large lidded box where children's toys are kept.</p>
+<ol><li>Put the blocks back in the <em>toy box</em>.</li><li>The <em>toy box</em> doubles as a bench.</li><li>Both <em>toy boxes</em> were overflowing.</li></ol>
+<hr>
+<h3 id="bread-box">bread box<a class="hash" href="#bread-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛd bɑːks/ &middot; <em>BRED-bahks</em></dd><dt>Русский</dt><dd>хлебница</dd><dt>Plural</dt><dd><em>bread boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A counter box with a lid that keeps bread fresh.</p>
+<ol><li>The rolls are in the <em>bread box</em>.</li><li>Is it bigger than a <em>bread box</em>?</li><li>She wiped out the <em>bread box</em> and found crumbs from last month.</li></ol>
+<hr>
+<h3 id="tackle-box">tackle box<a class="hash" href="#tackle-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtækəl bɑːks/ &middot; <em>TAK-uhl-bahks</em></dd><dt>Русский</dt><dd>ящик для рыболовных снастей</dd><dt>Plural</dt><dd><em>tackle boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hinged case with trays for hooks, lures, and fishing gear.</p>
+<ol><li>His <em>tackle box</em> has been rattling around the truck for years.</li><li>She opened the <em>tackle box</em> and picked a lure.</li><li><em>Tackle boxes</em> are on sale this week.</li></ol>
+<hr>
+<h3 id="cash-box">cash box<a class="hash" href="#cash-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʃ bɑːks/ &middot; <em>KASH-bahks</em></dd><dt>Русский</dt><dd>денежный (кассовый) ящик</dd><dt>Plural</dt><dd><em>cash boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal box with a lock for holding money.</p>
+<ol><li>The bake sale money is in the <em>cash box</em>.</li><li>Somebody walked off with the <em>cash box</em>.</li><li>Count the <em>cash box</em> before you close up.</li></ol>
+<hr>
+<h3 id="lockbox">lockbox<a class="hash" href="#lockbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːkbɑːks/ &middot; <em>LAHK-bahks</em></dd><dt>Русский</dt><dd>запирающийся ящик, сейф-бокс</dd><dt>Plural</dt><dd><em>lockboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A locking box for valuables or keys.</p>
+<ol><li>The house key is in a <em>lockbox</em> by the door.</li><li>He keeps the deed in a <em>lockbox</em> at the bank.</li><li>Real estate agents put <em>lockboxes</em> on every listing.</li></ol>
+<hr>
+<h3 id="strongbox">strongbox<a class="hash" href="#strongbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɔːŋbɑːks/ &middot; <em>STRAWNG-bahks</em></dd><dt>Русский</dt><dd>несгораемый ящик, сейф</dd><dt>Plural</dt><dd><em>strongboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy metal box built to protect money and documents.</p>
+<ol><li>The payroll rode in a <em>strongbox</em> under the seat.</li><li>The fire took everything but the <em>strongbox</em>.</li><li>He bolted the <em>strongbox</em> to the floor.</li></ol>
+<hr>
+<h3 id="footlocker">footlocker<a class="hash" href="#footlocker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtˌlɑːkər/ &middot; <em>FUUT-lah-kur</em></dd><dt>Русский</dt><dd>сундук (солдатский, у изножья кровати)</dd><dt>Plural</dt><dd><em>footlockers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat sturdy trunk kept at the foot of a bed, common in the military.</p>
+<ol><li>Everything he owned fit in one <em>footlocker</em>.</li><li>The <em>footlocker</em> is full of old uniforms.</li><li><em>Footlockers</em> lined both sides of the barracks.</li></ol>
+<hr>
+<h3 id="litter-box">litter box<a class="hash" href="#litter-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtər bɑːks/ &middot; <em>LIT-ur-bahks</em></dd><dt>Русский</dt><dd>кошачий лоток</dd><dt>Plural</dt><dd><em>litter boxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say litter tray.</dd></dl>
+<p>A shallow box of absorbent granules where a cat relieves itself.</p>
+<ol><li>Somebody needs to clean the <em>litter box</em>.</li><li>The <em>litter box</em> is in the laundry room.</li><li>Two cats can share one <em>litter box</em>, barely.</li></ol>
+<hr>
+<h3 id="piggy-bank">piggy bank<a class="hash" href="#piggy-bank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡi bæŋk/ &middot; <em>PIG-ee-bank</em></dd><dt>Русский</dt><dd>копилка</dd><dt>Plural</dt><dd><em>piggy banks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container, often shaped like a pig, for saving coins.</p>
+<ol><li>He emptied his <em>piggy bank</em> to buy the game.</li><li>There's about four dollars in the <em>piggy bank</em>.</li><li>Every grandchild got a <em>piggy bank</em>.</li></ol>
+<hr>
+<h3 id="ashtray">ashtray<a class="hash" href="#ashtray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæʃtreɪ/ &middot; <em>ASH-tray</em></dd><dt>Русский</dt><dd>пепельница</dd><dt>Plural</dt><dd><em>ashtrays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow dish for cigarette ash and butts.</p>
+<ol><li>The <em>ashtray</em> on the porch is overflowing.</li><li>He tapped his cigarette on the edge of the <em>ashtray</em>.</li><li>Old cars had <em>ashtrays</em> in every door.</li></ol>
+<hr>
+<h3 id="planter">planter<a class="hash" href="#planter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæntər/ &middot; <em>PLAN-tur</em></dd><dt>Русский</dt><dd>кашпо, вазон</dd><dt>Plural</dt><dd><em>planters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A decorative container that plants grow in.</p>
+<ol><li>There are <em>planters</em> on either side of the front door.</li><li>She filled the <em>planter</em> with geraniums.</li><li>The clay <em>planter</em> cracked over the winter.</li></ol>
+<hr>
+<h3 id="phone-case">phone case<a class="hash" href="#phone-case" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊn keɪs/ &middot; <em>FOHN-kayss</em></dd><dt>Русский</dt><dd>чехол для телефона</dd><dt>Plural</dt><dd><em>phone cases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A protective cover that snaps around a cell phone.</p>
+<ol><li>The <em>phone case</em> saved the screen.</li><li>He keeps a credit card in his <em>phone case</em>.</li><li>They sell <em>phone cases</em> by the register.</li></ol>
+<hr>
+<h3 id="glasses-case">glasses case<a class="hash" href="#glasses-case" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlæsɪz keɪs/ &middot; <em>GLAS-iz-kayss</em></dd><dt>Русский</dt><dd>футляр для очков</dd><dt>Plural</dt><dd><em>glasses cases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff or soft case that protects eyeglasses.</p>
+<ol><li>Her <em>glasses case</em> was empty.</li><li>Put your readers back in the <em>glasses case</em>.</li><li>There are three <em>glasses cases</em> in the junk drawer.</li></ol>
+<hr>
+<h3 id="carrying-case">carrying case<a class="hash" href="#carrying-case" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæriɪŋ keɪs/ &middot; <em>KA-ree-ing KAYSS</em></dd><dt>Русский</dt><dd>футляр для переноски, кейс</dd><dt>Plural</dt><dd><em>carrying cases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded case made to protect and carry one particular item.</p>
+<ol><li>The drill came with a hard plastic <em>carrying case</em>.</li><li>She zipped the laptop into its <em>carrying case</em>.</li><li>Both <em>carrying cases</em> have foam inserts.</li></ol>
+<hr>
+<h3 id="garment-bag">garment bag<a class="hash" href="#garment-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrmənt bæɡ/ &middot; <em>GAR-muhnt-bag</em></dd><dt>Русский</dt><dd>чехол для одежды</dd><dt>Plural</dt><dd><em>garment bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long zippered bag that a suit or dress travels in.</p>
+<ol><li>His tuxedo is in a <em>garment bag</em> in the closet.</li><li>She hung the <em>garment bag</em> on the hook in the car.</li><li>Airlines let you carry a <em>garment bag</em> on board.</li></ol>
+<hr>
+<h3 id="gym-bag">gym bag<a class="hash" href="#gym-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɪm bæɡ/ &middot; <em>JIM-bag</em></dd><dt>Русский</dt><dd>спортивная сумка</dd><dt>Plural</dt><dd><em>gym bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft bag for workout clothes and shoes.</p>
+<ol><li>His <em>gym bag</em> has been in the trunk all week.</li><li>She stuffed a towel in her <em>gym bag</em>.</li><li>The locker room was full of <em>gym bags</em>.</li></ol>
+<hr>
+<h3 id="makeup-bag">makeup bag<a class="hash" href="#makeup-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪkʌp bæɡ/ &middot; <em>MAYK-uhp-bag</em></dd><dt>Русский</dt><dd>косметичка</dd><dt>Plural</dt><dd><em>makeup bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small zippered pouch for cosmetics.</p>
+<ol><li>Everything spilled out of her <em>makeup bag</em>.</li><li>The <em>makeup bag</em> fits in a carry-on.</li><li>She has separate <em>makeup bags</em> for travel and home.</li></ol>
+<hr>
+<h3 id="toiletry-bag">toiletry bag<a class="hash" href="#toiletry-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪlətri bæɡ/ &middot; <em>TOY-luh-tree-bag</em></dd><dt>Русский</dt><dd>несессер (сумочка для туалетных принадлежностей)</dd><dt>Plural</dt><dd><em>toiletry bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bag for a toothbrush, razor, and other travel toiletries.</p>
+<ol><li>Pack your <em>toiletry bag</em> last.</li><li>The <em>toiletry bag</em> hangs on the back of the door.</li><li>Hotel <em>toiletry bags</em> always smell like soap.</li></ol>
+<hr>
+<h3 id="messenger-bag">messenger bag<a class="hash" href="#messenger-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛsɪndʒər bæɡ/ &middot; <em>MES-in-jur-bag</em></dd><dt>Русский</dt><dd>сумка через плечо</dd><dt>Plural</dt><dd><em>messenger bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat bag with a long strap worn across the body.</p>
+<ol><li>He rides to work with a <em>messenger bag</em> across his chest.</li><li>Her laptop fits in the <em>messenger bag</em>.</li><li><em>Messenger bags</em> were everywhere on campus.</li></ol>
+<hr>
+<h3 id="drawstring-bag">drawstring bag<a class="hash" href="#drawstring-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɔːstrɪŋ bæɡ/ &middot; <em>DRAW-string-bag</em></dd><dt>Русский</dt><dd>сумка-мешок на шнурке</dd><dt>Plural</dt><dd><em>drawstring bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth sack that closes by pulling two cords.</p>
+<ol><li>The team handed out <em>drawstring bags</em> at the game.</li><li>She carries her shoes in a <em>drawstring bag</em>.</li><li>The <em>drawstring bag</em> doubles as a backpack.</li></ol>
+<hr>
+<h3 id="knapsack">knapsack<a class="hash" href="#knapsack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæpsæk/ &middot; <em>NAP-sak</em></dd><dt>Русский</dt><dd>рюкзак, ранец</dd><dt>Plural</dt><dd><em>knapsacks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k is silent: NAP-sak. Most Americans now say backpack.</dd></dl>
+<p>A simple bag with shoulder straps for carrying supplies on your back.</p>
+<ol><li>He set off with a <em>knapsack</em> and a canteen.</li><li>Her <em>knapsack</em> held two days of food.</li><li>The <em>knapsacks</em> were piled at the trailhead.</li></ol>
+<hr>
+<h3 id="pet-carrier">pet carrier<a class="hash" href="#pet-carrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt ˌkæriər/ &middot; <em>PET KA-ree-ur</em></dd><dt>Русский</dt><dd>переноска для животных</dd><dt>Plural</dt><dd><em>pet carriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ventilated box or bag for transporting a cat or small dog.</p>
+<ol><li>The cat howled in the <em>pet carrier</em> the whole way.</li><li>Your <em>pet carrier</em> has to fit under the seat.</li><li>Both <em>pet carriers</em> are out in the garage.</li></ol>
+<hr>
+<h3 id="milk-jug">milk jug<a class="hash" href="#milk-jug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlk dʒʌɡ/ &middot; <em>MILK-juhg</em></dd><dt>Русский</dt><dd>канистра (кувшин) для молока</dd><dt>Plural</dt><dd><em>milk jugs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the US this is the gallon container from the store; in Britain a milk jug is a small pitcher for the table.</dd></dl>
+<p>The big plastic container with a handle that milk is sold in.</p>
+<ol><li>There's half a <em>milk jug</em> left.</li><li>We rinse out <em>milk jugs</em> and use them for watering.</li><li>He drank straight from the <em>milk jug</em>.</li></ol>
+<hr>
+<h3 id="water-jug">water jug<a class="hash" href="#water-jug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər dʒʌɡ/ &middot; <em>WAW-tur-juhg</em></dd><dt>Русский</dt><dd>канистра (бутыль) для воды</dd><dt>Plural</dt><dd><em>water jugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large container with a handle for carrying drinking water.</p>
+<ol><li>The team keeps a <em>water jug</em> on the bench.</li><li>Fill the <em>water jug</em> before we leave.</li><li>Two five-gallon <em>water jugs</em> sat by the door.</li></ol>
+<hr>
+<h3 id="canteen">canteen<a class="hash" href="#canteen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kænˈtiːn/ &middot; <em>kan-TEEN</em></dd><dt>Русский</dt><dd>фляга</dd><dt>Plural</dt><dd><em>canteens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a canteen is a water flask; in Britain it is usually a workplace cafeteria.</dd></dl>
+<p>A flat metal or plastic bottle carried on a strap or belt.</p>
+<ol><li>He took a long drink from his <em>canteen</em>.</li><li>Her <em>canteen</em> was empty by noon.</li><li>Every scout carried a <em>canteen</em>.</li></ol>
+<hr>
+<h3 id="hip-flask">hip flask<a class="hash" href="#hip-flask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɪp flæsk/ &middot; <em>HIP-flask</em></dd><dt>Русский</dt><dd>карманная фляжка</dd><dt>Plural</dt><dd><em>hip flasks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slim curved bottle for carrying liquor in a pocket.</p>
+<ol><li>He had a <em>hip flask</em> in his coat.</li><li>She gave him an engraved <em>hip flask</em>.</li><li><em>Hip flasks</em> aren't allowed in the stadium.</li></ol>
+<hr>
+<h3 id="growler">growler<a class="hash" href="#growler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraʊlər/ &middot; <em>GROW-lur</em></dd><dt>Русский</dt><dd>бутыль для разливного пива</dd><dt>Plural</dt><dd><em>growlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large glass jug used to carry draft beer home from a brewery.</p>
+<ol><li>He filled a <em>growler</em> at the taproom.</li><li>Bring your own <em>growler</em> and save two dollars.</li><li>There are two empty <em>growlers</em> in the fridge.</li></ol>
+<hr>
+<h3 id="stein">stein<a class="hash" href="#stein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/staɪn/ &middot; <em>STYN</em></dd><dt>Русский</dt><dd>пивная кружка (с крышкой)</dd><dt>Plural</dt><dd><em>steins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with fine, not with green.</dd></dl>
+<p>A heavy mug for beer, often with a hinged lid.</p>
+<ol><li>He drank out of a ceramic <em>stein</em>.</li><li>The shelf was lined with painted <em>steins</em>.</li><li>A full <em>stein</em> holds about a liter.</li></ol>
+<hr>
+<h3 id="goblet">goblet<a class="hash" href="#goblet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːblɪt/ &middot; <em>GAH-blit</em></dd><dt>Русский</dt><dd>бокал на ножке, кубок</dd><dt>Plural</dt><dd><em>goblets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drinking glass with a stem and a wide bowl.</p>
+<ol><li>Water <em>goblets</em> were set at every place.</li><li>She poured the wine into a heavy <em>goblet</em>.</li><li>The <em>goblet</em> was etched with a family crest.</li></ol>
+<hr>
+<h3 id="chalice">chalice<a class="hash" href="#chalice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃælɪs/ &middot; <em>CHAL-iss</em></dd><dt>Русский</dt><dd>чаша, потир</dd><dt>Plural</dt><dd><em>chalices</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ch sounds like church, not like k.</dd></dl>
+<p>A large stemmed cup, especially one used in a church service.</p>
+<ol><li>The priest raised the <em>chalice</em>.</li><li>A silver <em>chalice</em> sat on the altar.</li><li>The museum displayed two medieval <em>chalices</em>.</li></ol>
+<hr>
+<h3 id="decanter">decanter<a class="hash" href="#decanter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈkæntər/ &middot; <em>dih-KAN-tur</em></dd><dt>Русский</dt><dd>графин</dd><dt>Plural</dt><dd><em>decanters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A glass bottle that wine or liquor is poured into for serving.</p>
+<ol><li>He poured the scotch from a crystal <em>decanter</em>.</li><li>Let the wine sit in the <em>decanter</em> for an hour.</li><li>Two <em>decanters</em> stood on the sideboard.</li></ol>
+<hr>
+<h3 id="crock">crock<a class="hash" href="#crock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krɑːk/ &middot; <em>KRAHK</em></dd><dt>Русский</dt><dd>глиняный горшок</dd><dt>Plural</dt><dd><em>crocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick pottery jar used for cooking or storing food.</p>
+<ol><li>The beans simmered all day in a <em>crock</em>.</li><li>Pickles used to be put up in a stoneware <em>crock</em>.</li><li>She had <em>crocks</em> of butter down in the cellar.</li></ol>
+<hr>
+<h3 id="travel-mug">travel mug<a class="hash" href="#travel-mug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrævəl mʌɡ/ &middot; <em>TRAV-uhl-muhg</em></dd><dt>Русский</dt><dd>термокружка</dd><dt>Plural</dt><dd><em>travel mugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insulated mug with a lid that keeps a drink hot in the car.</p>
+<ol><li>He filled his <em>travel mug</em> before the drive.</li><li>The <em>travel mug</em> fits in the cup holder.</li><li>There are four <em>travel mugs</em> in the cabinet.</li></ol>
+<hr>
+<h3 id="sippy-cup">sippy cup<a class="hash" href="#sippy-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪpi kʌp/ &middot; <em>SIP-ee-kuhp</em></dd><dt>Русский</dt><dd>детская кружка-непроливайка</dd><dt>Plural</dt><dd><em>sippy cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A toddler's cup with a lid and a spout that keeps it from spilling.</p>
+<ol><li>She left her <em>sippy cup</em> under the car seat.</li><li>The <em>sippy cup</em> leaked all over the diaper bag.</li><li>We have six <em>sippy cups</em> and no matching lids.</li></ol>
+<hr>
+<h3 id="paper-cup">paper cup<a class="hash" href="#paper-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər kʌp/ &middot; <em>PAY-pur-kuhp</em></dd><dt>Русский</dt><dd>бумажный стаканчик</dd><dt>Plural</dt><dd><em>paper cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A disposable cup made of coated paper.</p>
+<ol><li>Coffee came in a <em>paper cup</em> with a plastic lid.</li><li>Rinse and stack the <em>paper cups</em>.</li><li>The <em>paper cup</em> went soft at the bottom.</li></ol>
+<hr>
+<h3 id="plastic-cup">plastic cup<a class="hash" href="#plastic-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæstɪk kʌp/ &middot; <em>PLAS-tik-kuhp</em></dd><dt>Русский</dt><dd>пластиковый стаканчик</dd><dt>Plural</dt><dd><em>plastic cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cheap disposable or reusable cup made of plastic.</p>
+<ol><li>They served punch in red <em>plastic cups</em>.</li><li>A <em>plastic cup</em> of soda tipped over on the table.</li><li>We bought a sleeve of <em>plastic cups</em> for the party.</li></ol>
+<hr>
+<h3 id="coffee-cup">coffee cup<a class="hash" href="#coffee-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfi kʌp/ &middot; <em>KAW-fee-kuhp</em></dd><dt>Русский</dt><dd>чашка (стаканчик) для кофе</dd><dt>Plural</dt><dd><em>coffee cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cup for coffee, whether china or paper.</p>
+<ol><li>There's a <em>coffee cup</em> ring on the desk.</li><li>He carried two <em>coffee cups</em> up the stairs.</li><li>The <em>coffee cup</em> was still warm.</li></ol>
+<hr>
+<h3 id="coffee-sleeve">coffee sleeve<a class="hash" href="#coffee-sleeve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfi sliːv/ &middot; <em>KAW-fee-sleev</em></dd><dt>Русский</dt><dd>картонный держатель для стакана кофе</dd><dt>Plural</dt><dd><em>coffee sleeves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cardboard band around a hot cup so it doesn't burn your hand.</p>
+<ol><li>The barista slid a <em>coffee sleeve</em> onto the cup.</li><li>Ask for a <em>coffee sleeve</em> — that thing is scalding.</li><li><em>Coffee sleeves</em> pile up in my car.</li></ol>
+<hr>
+<h3 id="cup-holder">cup holder<a class="hash" href="#cup-holder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌp ˌhoʊldər/ &middot; <em>KUHP HOHL-dur</em></dd><dt>Русский</dt><dd>подстаканник (в машине)</dd><dt>Plural</dt><dd><em>cup holders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The molded holder in a car or chair that keeps a drink upright.</p>
+<ol><li>Stick your soda in the <em>cup holder</em>.</li><li>The van has twelve <em>cup holders</em>.</li><li>Something sticky spilled in the <em>cup holder</em>.</li></ol>
+<hr>
+<h3 id="spout">spout<a class="hash" href="#spout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaʊt/ &middot; <em>SPOWT</em></dd><dt>Русский</dt><dd>носик (сосуда), сливное горлышко</dd><dt>Plural</dt><dd><em>spouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The narrow opening that a container pours through.</p>
+<ol><li>Tea dripped from the <em>spout</em>.</li><li>The <em>spout</em> on the gas can is missing.</li><li>Both watering cans have long <em>spouts</em>.</li></ol>
+<hr>
+<h3 id="dispenser">dispenser<a class="hash" href="#dispenser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspɛnsər/ &middot; <em>dih-SPEN-sur</em></dd><dt>Русский</dt><dd>дозатор, диспенсер</dd><dt>Plural</dt><dd><em>dispensers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container that releases its contents a little at a time.</p>
+<ol><li>The soap <em>dispenser</em> is empty.</li><li>There's a tape <em>dispenser</em> on the desk.</li><li>They installed water <em>dispensers</em> in the hallway.</li></ol>
+<hr>
+<h3 id="spigot">spigot<a class="hash" href="#spigot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪɡət/ &middot; <em>SPIG-ut</em></dd><dt>Русский</dt><dd>кран (у бочки; наружный водопроводный)</dd><dt>Plural</dt><dd><em>spigots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A mostly American word; the British say tap.</dd></dl>
+<p>A tap on a barrel or an outdoor faucet.</p>
+<ol><li>Hook the hose to the <em>spigot</em> on the side of the house.</li><li>Beer ran from the <em>spigot</em> into the pitcher.</li><li>The outdoor <em>spigots</em> freeze every winter.</li></ol>
+<hr>
+<h3 id="six-pack-ring">six-pack ring<a class="hash" href="#six-pack-ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪks pæk rɪŋ/ &middot; <em>SIKS-pak-RING</em></dd><dt>Русский</dt><dd>пластиковая упаковка-держатель для шести банок</dd><dt>Plural</dt><dd><em>six-pack rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the plastic loops that hold six cans together.</p>
+<ol><li>Cut the <em>six-pack rings</em> before you throw them out.</li><li>A <em>six-pack ring</em> can choke a seabird.</li><li>The cans pulled free of the <em>six-pack ring</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

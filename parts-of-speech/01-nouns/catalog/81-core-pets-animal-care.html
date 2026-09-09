@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: pets and animal care</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-pets-and-animal-care">Core vocabulary: pets and animal care<a class="hash" href="#core-vocabulary-pets-and-animal-care" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of pets and animal care — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="veterinary-medicine">veterinary medicine<a class="hash" href="#veterinary-medicine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛtərənɛri ˈmɛdəsən/ &middot; <em>VET-ur-uh-nair-ee MED-uh-sin</em></dd><dt>Русский</dt><dd>ветеринария</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The branch of medicine that deals with animal health.</p>
+<ol><li>He went into <em>veterinary medicine</em> after college.</li><li>The school of <em>veterinary medicine</em> is on the north campus.</li><li><em>Veterinary medicine</em> has changed a lot in twenty years.</li></ol>
+<hr>
+<h3 id="animal-hospital">animal hospital<a class="hash" href="#animal-hospital" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəməl ˈhɑːspɪtəl/ &middot; <em>AN-uh-muhl HAHS-pih-tuhl</em></dd><dt>Русский</dt><dd>ветеринарная клиника</dd><dt>Plural</dt><dd><em>animal hospitals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A clinic where sick or injured animals are treated.</p>
+<ol><li>There's a 24-hour <em>animal hospital</em> off the highway.</li><li>We rushed her to the <em>animal hospital</em> at midnight.</li><li>Both <em>animal hospitals</em> were closed on Sunday.</li></ol>
+<hr>
+<h3 id="pet-food">pet food<a class="hash" href="#pet-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt fuːd/ &middot; <em>PET food</em></dd><dt>Русский</dt><dd>корм для домашних животных</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: say a bag of <em>pet food</em>, never 'a pet food'.</dd></dl>
+<p>Food made for animals kept at home.</p>
+<ol><li><em>Pet food</em> has gotten expensive.</li><li>We buy <em>pet food</em> in bulk twice a year.</li><li>The recall covered several brands of <em>pet food</em>.</li></ol>
+<hr>
+<h3 id="dog-food">dog food<a class="hash" href="#dog-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ fuːd/ &middot; <em>DAWG food</em></dd><dt>Русский</dt><dd>собачий корм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Food made for dogs.</p>
+<ol><li>We're out of <em>dog food</em> again.</li><li>She mixes wet <em>dog food</em> into his kibble.</li><li>A bag of <em>dog food</em> costs thirty dollars now.</li></ol>
+<hr>
+<h3 id="cat-food">cat food<a class="hash" href="#cat-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæt fuːd/ &middot; <em>KAT food</em></dd><dt>Русский</dt><dd>кошачий корм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Food made for cats.</p>
+<ol><li>The <em>cat food</em> is under the sink.</li><li>He opened a can of <em>cat food</em> and she came running.</li><li>Pick up some <em>cat food</em> while you're out.</li></ol>
+<hr>
+<h3 id="kibble">kibble<a class="hash" href="#kibble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪbəl/ &middot; <em>KIB-uhl</em></dd><dt>Русский</dt><dd>сухой корм (гранулы)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a cup of <em>kibble</em>, not 'a kibble'.</dd></dl>
+<p>Dry pet food shaped into small hard pieces.</p>
+<ol><li>He gets a cup of <em>kibble</em> twice a day.</li><li>The puppy won't touch dry <em>kibble</em>.</li><li>There's <em>kibble</em> all over the kitchen floor.</li></ol>
+<hr>
+<h3 id="treat">treat<a class="hash" href="#treat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/triːt/ &middot; <em>TREET</em></dd><dt>Русский</dt><dd>лакомство (для животного)</dd><dt>Plural</dt><dd><em>treats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of tasty food given to an animal as a reward.</p>
+<ol><li>Give him a <em>treat</em> when he sits.</li><li>She keeps <em>treats</em> in her coat pocket.</li><li>One more <em>treat</em> and that's it for tonight.</li></ol>
+<hr>
+<h3 id="chew-toy">chew toy<a class="hash" href="#chew-toy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃuː tɔɪ/ &middot; <em>CHOO-toy</em></dd><dt>Русский</dt><dd>жевательная игрушка</dd><dt>Plural</dt><dd><em>chew toys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tough toy made for a dog to bite and chew on.</p>
+<ol><li>The puppy destroyed his new <em>chew toy</em> in an hour.</li><li>Get her a rubber <em>chew toy</em> instead of a shoe.</li><li>There are <em>chew toys</em> under every couch cushion.</li></ol>
+<hr>
+<h3 id="leash">leash<a class="hash" href="#leash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːʃ/ &middot; <em>LEESH</em></dd><dt>Русский</dt><dd>поводок</dd><dt>Plural</dt><dd><em>leashes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>leash</em>; the British say lead.</dd></dl>
+<p>A strap or cord clipped to a collar to keep a dog under control.</p>
+<ol><li>Keep your dog on a <em>leash</em> in the park.</li><li>He grabbed the <em>leash</em> and the dog went crazy.</li><li>Both <em>leashes</em> were tangled together.</li></ol>
+<hr>
+<h3 id="dog-tag">dog tag<a class="hash" href="#dog-tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ tæɡ/ &middot; <em>DAWG tag</em></dd><dt>Русский</dt><dd>жетон на ошейнике</dd><dt>Plural</dt><dd><em>dog tags</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Dog tags</em> is also the everyday name for the metal ID tags a US soldier wears.</dd></dl>
+<p>A small metal disc on a collar with the owner's contact details.</p>
+<ol><li>His <em>dog tag</em> has our phone number on it.</li><li>The <em>dog tag</em> jingles whenever he moves.</li><li>Order two <em>dog tags</em> in case one falls off.</li></ol>
+<hr>
+<h3 id="doghouse">doghouse<a class="hash" href="#doghouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡhaʊs/ &middot; <em>DAWG-howss</em></dd><dt>Русский</dt><dd>собачья будка</dd><dt>Plural</dt><dd><em>doghouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>doghouse</em> is the British kennel; 'in the doghouse' also means in trouble with someone.</dd></dl>
+<p>A small shelter outdoors for a dog to sleep in.</p>
+<ol><li>He built a <em>doghouse</em> out of scrap lumber.</li><li>The old <em>doghouse</em> is falling apart.</li><li>Both <em>doghouses</em> need new roofs.</li></ol>
+<hr>
+<h3 id="cat-litter">cat litter<a class="hash" href="#cat-litter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæt ˌlɪtər/ &middot; <em>KAT lit-ur</em></dd><dt>Русский</dt><dd>наполнитель для кошачьего лотка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Absorbent grains poured into a tray for a cat to use.</p>
+<ol><li>Pick up a bag of <em>cat litter</em>.</li><li><em>Cat litter</em> tracks all over the house.</li><li>This <em>cat litter</em> is supposed to control odor.</li></ol>
+<hr>
+<h3 id="scratching-post">scratching post<a class="hash" href="#scratching-post" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrætʃɪŋ poʊst/ &middot; <em>SKRACH-ing pohst</em></dd><dt>Русский</dt><dd>когтеточка</dd><dt>Plural</dt><dd><em>scratching posts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covered upright post a cat can dig its claws into.</p>
+<ol><li>She sharpens her claws on the <em>scratching post</em>.</li><li>Get him a <em>scratching post</em> before he ruins the couch.</li><li>We have <em>scratching posts</em> in two rooms.</li></ol>
+<hr>
+<h3 id="cat-tree">cat tree<a class="hash" href="#cat-tree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæt triː/ &middot; <em>KAT tree</em></dd><dt>Русский</dt><dd>игровой комплекс для кошки</dd><dt>Plural</dt><dd><em>cat trees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall carpeted structure with platforms for a cat to climb and sleep on.</p>
+<ol><li>The gray cat sleeps on top of the <em>cat tree</em>.</li><li>We put the <em>cat tree</em> by the window.</li><li>Those <em>cat trees</em> are surprisingly expensive.</li></ol>
+<hr>
+<h3 id="catnip">catnip<a class="hash" href="#catnip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætnɪp/ &middot; <em>KAT-nip</em></dd><dt>Русский</dt><dd>кошачья мята</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A minty herb whose smell excites most cats.</p>
+<ol><li>A little <em>catnip</em> makes him roll around like a kitten.</li><li>The toy is stuffed with dried <em>catnip</em>.</li><li><em>Catnip</em> has no effect on some cats at all.</li></ol>
+<hr>
+<h3 id="fish-food">fish food<a class="hash" href="#fish-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃ fuːd/ &middot; <em>FISH food</em></dd><dt>Русский</dt><dd>корм для рыб</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dried flakes or pellets fed to fish in a tank.</p>
+<ol><li>Sprinkle a little <em>fish food</em> on the surface.</li><li>We're almost out of <em>fish food</em>.</li><li>Too much <em>fish food</em> fouls the water.</li></ol>
+<hr>
+<h3 id="groomer">groomer<a class="hash" href="#groomer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡruːmər/ &middot; <em>GROO-mur</em></dd><dt>Русский</dt><dd>грумер</dd><dt>Plural</dt><dd><em>groomers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is washing and trimming pets.</p>
+<ol><li>Our <em>groomer</em> cut his nails too short.</li><li>She works as a dog <em>groomer</em> downtown.</li><li>The <em>groomers</em> are booked through the holidays.</li></ol>
+<hr>
+<h3 id="shedding">shedding<a class="hash" href="#shedding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛdɪŋ/ &middot; <em>SHED-ing</em></dd><dt>Русский</dt><dd>линька</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The natural loss of hair from an animal's coat.</p>
+<ol><li><em>Shedding</em> gets worse in the spring.</li><li>This brush cuts down on <em>shedding</em>.</li><li>There's no way to stop the <em>shedding</em> completely.</li></ol>
+<hr>
+<h3 id="dander">dander<a class="hash" href="#dander" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdændər/ &middot; <em>DAN-dur</em></dd><dt>Русский</dt><dd>перхоть животных (аллерген)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Tiny flakes of skin from an animal that often cause allergies.</p>
+<ol><li>My sister is allergic to cat <em>dander</em>.</li><li><em>Dander</em> collects in the carpet.</li><li>An air filter helps with pet <em>dander</em>.</li></ol>
+<hr>
+<h3 id="hairball">hairball<a class="hash" href="#hairball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrbɔːl/ &middot; <em>HAIR-bawl</em></dd><dt>Русский</dt><dd>комок шерсти</dd><dt>Plural</dt><dd><em>hairballs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wad of swallowed hair that a cat coughs up.</p>
+<ol><li>The cat coughed up a <em>hairball</em> on the rug.</li><li><em>Hairballs</em> are common in long-haired breeds.</li><li>There's special food that prevents <em>hairballs</em>.</li></ol>
+<hr>
+<h3 id="flea-collar">flea collar<a class="hash" href="#flea-collar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfliː ˌkɑːlər/ &middot; <em>FLEE kah-lur</em></dd><dt>Русский</dt><dd>ошейник от блох</dd><dt>Plural</dt><dd><em>flea collars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A collar treated with chemicals that kill fleas.</p>
+<ol><li>We put a <em>flea collar</em> on both dogs.</li><li>The <em>flea collar</em> smells awful.</li><li><em>Flea collars</em> work for about six months.</li></ol>
+<hr>
+<h3 id="flea-treatment">flea treatment<a class="hash" href="#flea-treatment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfliː ˌtriːtmənt/ &middot; <em>FLEE treet-muhnt</em></dd><dt>Русский</dt><dd>средство от блох</dd><dt>Plural</dt><dd><em>flea treatments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A medicine put on an animal to kill or keep off fleas.</p>
+<ol><li>The vet recommended a monthly <em>flea treatment</em>.</li><li>She applies the <em>flea treatment</em> between his shoulder blades.</li><li>Some <em>flea treatments</em> kill ticks too.</li></ol>
+<hr>
+<h3 id="deworming">deworming<a class="hash" href="#deworming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdiːˈwɜːrmɪŋ/ &middot; <em>dee-WUR-ming</em></dd><dt>Русский</dt><dd>дегельминтизация, глистогонная обработка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Treating an animal with medicine that kills intestinal worms.</p>
+<ol><li>The puppy is due for <em>deworming</em>.</li><li><em>Deworming</em> is part of the first vet visit.</li><li>Regular <em>deworming</em> keeps the whole litter healthy.</li></ol>
+<hr>
+<h3 id="spaying">spaying<a class="hash" href="#spaying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspeɪɪŋ/ &middot; <em>SPAY-ing</em></dd><dt>Русский</dt><dd>стерилизация (самки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An operation that makes a female animal unable to have young.</p>
+<ol><li>The shelter covers the cost of <em>spaying</em>.</li><li><em>Spaying</em> is usually done before six months.</li><li>She scheduled the <em>spaying</em> for next week.</li></ol>
+<hr>
+<h3 id="neutering">neutering<a class="hash" href="#neutering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːtərɪŋ/ &middot; <em>NOO-tur-ing</em></dd><dt>Русский</dt><dd>кастрация (самца)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say NOO-tur-ing; the British say NYOO-tur-ing.</dd></dl>
+<p>An operation that makes a male animal unable to father young.</p>
+<ol><li><em>Neutering</em> calmed him down a lot.</li><li>The clinic offers low-cost <em>neutering</em>.</li><li>They require <em>neutering</em> before adoption.</li></ol>
+<hr>
+<h3 id="declawing">declawing<a class="hash" href="#declawing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈklɔːɪŋ/ &middot; <em>dee-KLAW-ing</em></dd><dt>Русский</dt><dd>удаление когтей (у кошки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Surgically removing a cat's claws.</p>
+<ol><li><em>Declawing</em> is banned in several cities.</li><li>Most vets refuse to do <em>declawing</em> now.</li><li>She chose nail caps instead of <em>declawing</em>.</li></ol>
+<hr>
+<h3 id="booster-shot">booster shot<a class="hash" href="#booster-shot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːstər ʃɑːt/ &middot; <em>BOO-stur shaht</em></dd><dt>Русский</dt><dd>ревакцинация, повторная прививка</dd><dt>Plural</dt><dd><em>booster shots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A repeat injection that keeps an earlier vaccine working.</p>
+<ol><li>He's due for a <em>booster shot</em> in March.</li><li>The <em>booster shot</em> costs about forty dollars.</li><li>Puppies need several <em>booster shots</em> the first year.</li></ol>
+<hr>
+<h3 id="kennel-cough">kennel cough<a class="hash" href="#kennel-cough" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛnəl kɔːf/ &middot; <em>KEN-uhl kawf</em></dd><dt>Русский</dt><dd>питомниковый кашель</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The gh in cough sounds like f: KAWF.</dd></dl>
+<p>A contagious dog illness that causes a harsh, dry cough.</p>
+<ol><li>The whole shelter came down with <em>kennel cough</em>.</li><li><em>Kennel cough</em> sounds like a honking goose.</li><li>He caught <em>kennel cough</em> at doggy daycare.</li></ol>
+<hr>
+<h3 id="distemper">distemper<a class="hash" href="#distemper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˈtɛmpər/ &middot; <em>dis-TEM-pur</em></dd><dt>Русский</dt><dd>чумка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A serious viral disease of dogs and some other animals.</p>
+<ol><li>The puppy was vaccinated against <em>distemper</em>.</li><li><em>Distemper</em> is often fatal in young dogs.</li><li>The shelter had an outbreak of <em>distemper</em> last winter.</li></ol>
+<hr>
+<h3 id="mange">mange<a class="hash" href="#mange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/meɪndʒ/ &middot; <em>MAYNJ</em></dd><dt>Русский</dt><dd>чесотка (у животных)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A skin disease caused by mites that makes an animal's hair fall out.</p>
+<ol><li>The stray had <em>mange</em> on his back and ears.</li><li><em>Mange</em> is caused by tiny mites burrowing in the skin.</li><li>Medicated baths cleared up the <em>mange</em>.</li></ol>
+<hr>
+<h3 id="ringworm">ringworm<a class="hash" href="#ringworm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪŋwɜːrm/ &middot; <em>RING-wurm</em></dd><dt>Русский</dt><dd>стригущий лишай</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Ringworm</em> is a fungus, not a worm.</dd></dl>
+<p>A contagious skin infection that leaves round bald patches.</p>
+<ol><li>The kitten came home with <em>ringworm</em>.</li><li><em>Ringworm</em> spreads to people, so wash your hands.</li><li>It took a month to get rid of the <em>ringworm</em>.</li></ol>
+<hr>
+<h3 id="heartworm">heartworm<a class="hash" href="#heartworm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrtwɜːrm/ &middot; <em>HART-wurm</em></dd><dt>Русский</dt><dd>дирофилярия, дирофиляриоз</dd><dt>Plural</dt><dd><em>heartworms</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd><dt>Contrast</dt><dd>Countable for the worms themselves; uncountable for the disease: tested positive for <em>heartworm</em>.</dd></dl>
+<p>A parasitic worm carried by mosquitoes that lives in a dog's heart and lungs.</p>
+<ol><li>Give him the <em>heartworm</em> pill on the first of the month.</li><li>The dog tested positive for <em>heartworm</em>.</li><li><em>Heartworms</em> can grow up to a foot long.</li></ol>
+<hr>
+<h3 id="euthanasia">euthanasia<a class="hash" href="#euthanasia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːθəˈneɪʒə/ &middot; <em>yoo-thuh-NAY-zhuh</em></dd><dt>Русский</dt><dd>эвтаназия, усыпление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Painlessly ending the life of a hopelessly sick animal.</p>
+<ol><li>The vet talked us through <em>euthanasia</em>.</li><li><em>Euthanasia</em> is never an easy decision.</li><li>The clinic charges separately for <em>euthanasia</em>.</li></ol>
+<hr>
+<h3 id="pet-insurance">pet insurance<a class="hash" href="#pet-insurance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt ɪnˌʃʊrəns/ &middot; <em>PET in-shoor-uhns</em></dd><dt>Русский</dt><dd>страховка для домашнего животного</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A policy that pays part of an animal's medical bills.</p>
+<ol><li>We finally bought <em>pet insurance</em>.</li><li><em>Pet insurance</em> covered most of the surgery.</li><li>Read what the <em>pet insurance</em> actually pays for.</li></ol>
+<hr>
+<h3 id="animal-control">animal control<a class="hash" href="#animal-control" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəməl kənˌtroʊl/ &middot; <em>AN-uh-muhl kuhn-trohl</em></dd><dt>Русский</dt><dd>служба отлова животных</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The city department that picks up stray and dangerous animals.</p>
+<ol><li>Somebody called <em>animal control</em> about the loose dog.</li><li><em>Animal control</em> picked up the raccoon in our attic.</li><li><em>Animal control</em> holds strays for two weeks.</li></ol>
+<hr>
+<h3 id="animal-welfare">animal welfare<a class="hash" href="#animal-welfare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəməl ˈwɛlfɛr/ &middot; <em>AN-uh-muhl WEL-fair</em></dd><dt>Русский</dt><dd>защита животных, благополучие животных</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The good treatment and comfort of animals.</p>
+<ol><li>She volunteers for an <em>animal welfare</em> group.</li><li>The law raised <em>animal welfare</em> standards on farms.</li><li><em>Animal welfare</em> was the main issue in the campaign.</li></ol>
+<hr>
+<h3 id="animal-shelter">animal shelter<a class="hash" href="#animal-shelter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəməl ˈʃɛltər/ &middot; <em>AN-uh-muhl SHEL-tur</em></dd><dt>Русский</dt><dd>приют для животных</dd><dt>Plural</dt><dd><em>animal shelters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place that takes in homeless animals and finds homes for them.</p>
+<ol><li>We adopted him from the <em>animal shelter</em>.</li><li>The <em>animal shelter</em> is full again.</li><li>Both <em>animal shelters</em> need foster homes.</li></ol>
+<hr>
+<h3 id="humane-society">humane society<a class="hash" href="#humane-society" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˈmeɪn səˈsaɪrti/ &middot; <em>hyoo-MAYN suh-SY-uh-tee</em></dd><dt>Русский</dt><dd>общество защиты животных</dd><dt>Plural</dt><dd><em>humane societies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Humane</em> is stressed on the second syllable, hyoo-MAYN, unlike human.</dd></dl>
+<p>A charity that rescues animals and works against cruelty to them.</p>
+<ol><li>The <em>humane society</em> runs a low-cost clinic.</li><li>She donates to the local <em>humane society</em> every year.</li><li>Several <em>humane societies</em> took in animals after the fire.</li></ol>
+<hr>
+<h3 id="pooper-scooper">pooper scooper<a class="hash" href="#pooper-scooper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpuːpər ˈskuːpər/ &middot; <em>POO-pur SKOO-pur</em></dd><dt>Русский</dt><dd>совок для уборки за собакой</dd><dt>Plural</dt><dd><em>pooper scoopers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled scoop for picking up dog waste.</p>
+<ol><li>Bring a <em>pooper scooper</em> to the dog park.</li><li>He keeps a <em>pooper scooper</em> in the trunk.</li><li>The park provides bags but no <em>pooper scoopers</em>.</li></ol>
+<hr>
+<h3 id="poop-bag">poop bag<a class="hash" href="#poop-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpuːp bæɡ/ &middot; <em>POOP bag</em></dd><dt>Русский</dt><dd>пакет для уборки за собакой</dd><dt>Plural</dt><dd><em>poop bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small plastic bag for picking up after a dog.</p>
+<ol><li>Take a <em>poop bag</em> with you.</li><li>The dispenser was out of <em>poop bags</em>.</li><li>She tied the <em>poop bag</em> shut and dropped it in the can.</li></ol>
+<hr>
+<h3 id="dog-park">dog park<a class="hash" href="#dog-park" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ pɑːrk/ &middot; <em>DAWG park</em></dd><dt>Русский</dt><dd>площадка для выгула собак</dd><dt>Plural</dt><dd><em>dog parks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fenced public area where dogs can run without a leash.</p>
+<ol><li>We take him to the <em>dog park</em> every morning.</li><li>The <em>dog park</em> has a separate side for small dogs.</li><li>There are three <em>dog parks</em> in the city.</li></ol>
+<hr>
+<h3 id="dog-walker">dog walker<a class="hash" href="#dog-walker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ ˌwɔːkər/ &middot; <em>DAWG waw-kur</em></dd><dt>Русский</dt><dd>выгульщик собак</dd><dt>Plural</dt><dd><em>dog walkers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l in walker is silent: WAW-kur.</dd></dl>
+<p>Someone paid to take other people's dogs out for walks.</p>
+<ol><li>We hired a <em>dog walker</em> for weekday afternoons.</li><li>The <em>dog walker</em> handles six dogs at once.</li><li>Good <em>dog walkers</em> book up fast.</li></ol>
+<hr>
+<h3 id="pet-sitter">pet sitter<a class="hash" href="#pet-sitter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt ˌsɪtər/ &middot; <em>PET sit-ur</em></dd><dt>Русский</dt><dd>ситтер для животных, зооняня</dd><dt>Plural</dt><dd><em>pet sitters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone paid to look after an animal while its owner is away.</p>
+<ol><li>A <em>pet sitter</em> stays at the house while we travel.</li><li>Our <em>pet sitter</em> sends photos every day.</li><li>She works weekends as a <em>pet sitter</em>.</li></ol>
+<hr>
+<h3 id="doggy-daycare">doggy daycare<a class="hash" href="#doggy-daycare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡi ˈdeɪkɛr/ &middot; <em>DAW-ghee DAY-kair</em></dd><dt>Русский</dt><dd>дневная передержка для собак</dd><dt>Plural</dt><dd><em>doggy daycares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A business that looks after dogs during the working day.</p>
+<ol><li>He goes to <em>doggy daycare</em> three days a week.</li><li>The <em>doggy daycare</em> has a webcam.</li><li>There are two <em>doggy daycares</em> near the office.</li></ol>
+<hr>
+<h3 id="obedience">obedience<a class="hash" href="#obedience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈbiːdiəns/ &middot; <em>oh-BEE-dee-uhns</em></dd><dt>Русский</dt><dd>послушание</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stressed on the second syllable: oh-BEE-dee-uhns.</dd></dl>
+<p>An animal's readiness to do what it is told.</p>
+<ol><li>The dog has no <em>obedience</em> at all.</li><li>We're working on basic <em>obedience</em>.</li><li><em>Obedience</em> takes daily practice.</li></ol>
+<hr>
+<h3 id="obedience-school">obedience school<a class="hash" href="#obedience-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊˈbiːdiəns skuːl/ &middot; <em>oh-BEE-dee-uhns skool</em></dd><dt>Русский</dt><dd>школа дрессировки собак</dd><dt>Plural</dt><dd><em>obedience schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A class where dogs are taught to follow commands.</p>
+<ol><li>We sent the puppy to <em>obedience school</em>.</li><li><em>Obedience school</em> meets on Tuesday nights.</li><li>Both <em>obedience schools</em> had waiting lists.</li></ol>
+<hr>
+<h3 id="housebreaking">housebreaking<a class="hash" href="#housebreaking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊsˌbreɪkɪŋ/ &middot; <em>HOWSS-bray-king</em></dd><dt>Русский</dt><dd>приучение щенка к туалету</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In legal English <em>housebreaking</em> means breaking into a house; the pet sense is a separate word.</dd></dl>
+<p>Teaching a young animal to relieve itself outdoors.</p>
+<ol><li><em>Housebreaking</em> a puppy takes patience.</li><li>We're still in the middle of <em>housebreaking</em>.</li><li>Crate training helps with <em>housebreaking</em>.</li></ol>
+<hr>
+<h3 id="fetch">fetch<a class="hash" href="#fetch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɛtʃ/ &middot; <em>FECH</em></dd><dt>Русский</dt><dd>апорт (игра «принеси»)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A game in which a dog runs after a thrown object and brings it back.</p>
+<ol><li>He'll play <em>fetch</em> until he collapses.</li><li>We threw the ball and played <em>fetch</em> for an hour.</li><li><em>Fetch</em> is the only game she cares about.</li></ol>
+<hr>
+<h3 id="dog-whistle">dog whistle<a class="hash" href="#dog-whistle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ ˌwɪsəl/ &middot; <em>DAWG wis-uhl</em></dd><dt>Русский</dt><dd>свисток для собак</dd><dt>Plural</dt><dd><em>dog whistles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t in whistle is silent: WIS-uhl. In politics a <em>dog whistle</em> is also a coded message.</dd></dl>
+<p>A whistle pitched so high that dogs hear it and people barely do.</p>
+<ol><li>The trainer blew a <em>dog whistle</em> we couldn't hear.</li><li>He carries a <em>dog whistle</em> on his key ring.</li><li><em>Dog whistles</em> work above the range of human hearing.</li></ol>
+<hr>
+<h3 id="pet-owner">pet owner<a class="hash" href="#pet-owner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt ˌoʊnər/ &middot; <em>PET oh-nur</em></dd><dt>Русский</dt><dd>владелец домашнего животного</dd><dt>Plural</dt><dd><em>pet owners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who keeps an animal at home.</p>
+<ol><li>Every <em>pet owner</em> on the block got the notice.</li><li><em>Pet owners</em> have to clean up after their dogs.</li><li>As a <em>pet owner</em>, you're responsible for the vaccinations.</li></ol>
+<hr>
+<h3 id="handler">handler<a class="hash" href="#handler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændlər/ &middot; <em>HAND-lur</em></dd><dt>Русский</dt><dd>хендлер, кинолог</dd><dt>Plural</dt><dd><em>handlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who controls and works with a trained animal.</p>
+<ol><li>The <em>handler</em> led the dog around the ring.</li><li>Police dogs live with their <em>handlers</em>.</li><li>She's been a <em>handler</em> at dog shows for years.</li></ol>
+<hr>
+<h3 id="dog-show">dog show<a class="hash" href="#dog-show" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːɡ ʃoʊ/ &middot; <em>DAWG shoh</em></dd><dt>Русский</dt><dd>выставка собак</dd><dt>Plural</dt><dd><em>dog shows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A competition where dogs are judged against their breed standard.</p>
+<ol><li>They won best in breed at the <em>dog show</em>.</li><li>The <em>dog show</em> is at the fairgrounds this weekend.</li><li>He judges <em>dog shows</em> around the country.</li></ol>
+<hr>
+<h3 id="puppy-mill">puppy mill<a class="hash" href="#puppy-mill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌpi mɪl/ &middot; <em>PUP-ee mil</em></dd><dt>Русский</dt><dd>недобросовестный питомник, «щенячья ферма»</dd><dt>Plural</dt><dd><em>puppy mills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place that breeds puppies for profit in bad conditions.</p>
+<ol><li>The dogs were rescued from a <em>puppy mill</em>.</li><li>Never buy from a <em>puppy mill</em>.</li><li>The state shut down two <em>puppy mills</em> last year.</li></ol>
+<hr>
+<h3 id="breeding">breeding<a class="hash" href="#breeding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbriːdɪŋ/ &middot; <em>BREE-ding</em></dd><dt>Русский</dt><dd>разведение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The keeping of animals so that they produce young.</p>
+<ol><li><em>Breeding</em> season starts in the spring.</li><li>She retired the mare from <em>breeding</em>.</li><li>Careful <em>breeding</em> reduces hereditary disease.</li></ol>
+<hr>
+<h3 id="purebred">purebred<a class="hash" href="#purebred" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjʊrbrɛd/ &middot; <em>PYOOR-bred</em></dd><dt>Русский</dt><dd>чистопородное животное</dd><dt>Plural</dt><dd><em>purebreds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal whose parents are both of the same breed.</p>
+<ol><li>He's a <em>purebred</em>, with papers and everything.</li><li><em>Purebreds</em> often cost thousands of dollars.</li><li>The shelter had one <em>purebred</em> among forty mutts.</li></ol>
+<hr>
+<h3 id="crossbreed">crossbreed<a class="hash" href="#crossbreed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsbriːd/ &middot; <em>KRAWSS-breed</em></dd><dt>Русский</dt><dd>помесь, метис</dd><dt>Plural</dt><dd><em>crossbreeds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, KRAWSS-breed; as a verb the stress moves to the second.</dd></dl>
+<p>An animal whose parents are of two different breeds.</p>
+<ol><li>The dog is a <em>crossbreed</em> of a poodle and a lab.</li><li><em>Crossbreeds</em> are often healthier than purebreds.</li><li>That <em>crossbreed</em> got the best of both breeds.</li></ol>
+<hr>
+<h3 id="mutt">mutt<a class="hash" href="#mutt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌt/ &middot; <em>MUHT</em></dd><dt>Русский</dt><dd>дворняжка</dd><dt>Plural</dt><dd><em>mutts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog of no particular breed.</p>
+<ol><li>He's just a <em>mutt</em> from the pound.</li><li><em>Mutts</em> make great family dogs.</li><li>Our <em>mutt</em> is part shepherd and part who knows what.</li></ol>
+<hr>
+<h3 id="mongrel">mongrel<a class="hash" href="#mongrel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːŋɡrəl/ &middot; <em>MAHNG-gruhl</em></dd><dt>Русский</dt><dd>дворняга, беспородная собака</dd><dt>Plural</dt><dd><em>mongrels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog of mixed and unknown breeding.</p>
+<ol><li>The old <em>mongrel</em> followed us home.</li><li><em>Mongrels</em> were once looked down on at shows.</li><li>She adopted a scruffy brown <em>mongrel</em>.</li></ol>
+<hr>
+<h3 id="pedigree">pedigree<a class="hash" href="#pedigree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛdəɡriː/ &middot; <em>PED-uh-gree</em></dd><dt>Русский</dt><dd>родословная</dd><dt>Plural</dt><dd><em>pedigrees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written record of an animal's ancestors.</p>
+<ol><li>The breeder showed us the puppy's <em>pedigree</em>.</li><li>His <em>pedigree</em> goes back four generations.</li><li><em>Pedigrees</em> are registered with the kennel club.</li></ol>
+<hr>
+<h3 id="runt">runt<a class="hash" href="#runt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌnt/ &middot; <em>RUHNT</em></dd><dt>Русский</dt><dd>самый мелкий детёныш в помёте</dd><dt>Plural</dt><dd><em>runts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The smallest and weakest animal in a litter.</p>
+<ol><li>The <em>runt</em> of the litter is always the smallest.</li><li>Nobody wanted the <em>runt</em>, so we took him.</li><li><em>Runts</em> often need extra feeding at first.</li></ol>
+<hr>
+<h3 id="terrier">terrier<a class="hash" href="#terrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛriər/ &middot; <em>TAIR-ee-ur</em></dd><dt>Русский</dt><dd>терьер</dd><dt>Plural</dt><dd><em>terriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any of several small, bold breeds of dog bred to hunt animals in burrows.</p>
+<ol><li>That <em>terrier</em> barks at everything.</li><li><em>Terriers</em> were bred to hunt rats.</li><li>She has a wire-haired <em>terrier</em>.</li></ol>
+<hr>
+<h3 id="retriever">retriever<a class="hash" href="#retriever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtriːvər/ &middot; <em>rih-TREE-vur</em></dd><dt>Русский</dt><dd>ретривер</dd><dt>Plural</dt><dd><em>retrievers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A breed of gundog trained to bring back shot birds.</p>
+<ol><li>A golden <em>retriever</em> is good with kids.</li><li>The <em>retriever</em> brought the stick right back.</li><li><em>Retrievers</em> love the water.</li></ol>
+<hr>
+<h3 id="poodle">poodle<a class="hash" href="#poodle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpuːdəl/ &middot; <em>POO-duhl</em></dd><dt>Русский</dt><dd>пудель</dd><dt>Plural</dt><dd><em>poodles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A breed of dog with thick curly hair, often clipped in patterns.</p>
+<ol><li>Her <em>poodle</em> just came back from the groomer.</li><li><em>Poodles</em> don't shed much.</li><li>The standard <em>poodle</em> is much bigger than the toy.</li></ol>
+<hr>
+<h3 id="bulldog">bulldog<a class="hash" href="#bulldog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊldɔːɡ/ &middot; <em>BUUL-dawg</em></dd><dt>Русский</dt><dd>бульдог</dd><dt>Plural</dt><dd><em>bulldogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy short-legged breed with a wide flat face.</p>
+<ol><li>The <em>bulldog</em> snores louder than my father.</li><li><em>Bulldogs</em> overheat easily in summer.</li><li>He walks a stocky brown <em>bulldog</em> every evening.</li></ol>
+<hr>
+<h3 id="beagle">beagle<a class="hash" href="#beagle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːɡəl/ &middot; <em>BEE-guhl</em></dd><dt>Русский</dt><dd>бигль</dd><dt>Plural</dt><dd><em>beagles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hunting hound with drooping ears and a loud bark.</p>
+<ol><li>The <em>beagle</em> followed the scent across the yard.</li><li><em>Beagles</em> have a loud, carrying bark.</li><li>We named the <em>beagle</em> after a cartoon dog.</li></ol>
+<hr>
+<h3 id="collie">collie<a class="hash" href="#collie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːli/ &middot; <em>KAH-lee</em></dd><dt>Русский</dt><dd>колли</dd><dt>Plural</dt><dd><em>collies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A breed of long-nosed sheepdog with a thick coat.</p>
+<ol><li>The <em>collie</em> herded the kids into the corner.</li><li><em>Collies</em> need a job to do.</li><li>A border <em>collie</em> is the smartest dog I've owned.</li></ol>
+<hr>
+<h3 id="dachshund">dachshund<a class="hash" href="#dachshund" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːkshʊnd/ &middot; <em>DAHKS-huund</em></dd><dt>Русский</dt><dd>такса</dd><dt>Plural</dt><dd><em>dachshunds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A German loanword: DAHKS-huund. Many Americans just say wiener dog.</dd></dl>
+<p>A breed of dog with a long body and very short legs.</p>
+<ol><li>The <em>dachshund</em> can't handle stairs anymore.</li><li><em>Dachshunds</em> were bred to hunt badgers.</li><li>Their <em>dachshund</em> is shaped like a hot dog.</li></ol>
+<hr>
+<h3 id="pug">pug<a class="hash" href="#pug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌɡ/ &middot; <em>PUHG</em></dd><dt>Русский</dt><dd>мопс</dd><dt>Plural</dt><dd><em>pugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small breed of dog with a flat wrinkled face and a curled tail.</p>
+<ol><li>The <em>pug</em> wheezes when he gets excited.</li><li><em>Pugs</em> have a lot of breathing problems.</li><li>She dressed the <em>pug</em> in a sweater.</li></ol>
+<hr>
+<h3 id="husky">husky<a class="hash" href="#husky" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌski/ &middot; <em>HUS-kee</em></dd><dt>Русский</dt><dd>хаски</dd><dt>Plural</dt><dd><em>huskies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also an adjective meaning big and sturdy, or a voice that sounds rough.</dd></dl>
+<p>A thick-coated northern breed bred to pull sleds.</p>
+<ol><li>A <em>husky</em> needs cold weather and a lot of running.</li><li><em>Huskies</em> howl instead of barking.</li><li>The <em>husky</em> has one blue eye and one brown.</li></ol>
+<hr>
+<h3 id="greyhound">greyhound<a class="hash" href="#greyhound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪhaʊnd/ &middot; <em>GRAY-hownd</em></dd><dt>Русский</dt><dd>грейхаунд, борзая</dd><dt>Plural</dt><dd><em>greyhounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall, very fast breed of dog with a narrow body.</p>
+<ol><li>The <em>greyhound</em> can outrun a bicycle.</li><li>Retired racing <em>greyhounds</em> make calm pets.</li><li>The <em>greyhound</em> sleeps twenty hours a day.</li></ol>
+<hr>
+<h3 id="spaniel">spaniel<a class="hash" href="#spaniel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspænjəl/ &middot; <em>SPAN-yuhl</em></dd><dt>Русский</dt><dd>спаниель</dd><dt>Plural</dt><dd><em>spaniels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A breed of dog with long silky ears and a wavy coat.</p>
+<ol><li>The <em>spaniel</em> has long, silky ears.</li><li><em>Spaniels</em> were bred to flush birds out of cover.</li><li>Their cocker <em>spaniel</em> is nine years old.</li></ol>
+<hr>
+<h3 id="corgi">corgi<a class="hash" href="#corgi" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrɡi/ &middot; <em>KOR-ghee</em></dd><dt>Русский</dt><dd>корги</dd><dt>Plural</dt><dd><em>corgis</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small herding breed with short legs and large upright ears.</p>
+<ol><li>The <em>corgi</em> has short legs and no patience.</li><li><em>Corgis</em> shed constantly.</li><li>She posts pictures of her <em>corgi</em> every day.</li></ol>
+<hr>
+<h3 id="bloodhound">bloodhound<a class="hash" href="#bloodhound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblʌdhaʊnd/ &middot; <em>BLUHD-hownd</em></dd><dt>Русский</dt><dd>бладхаунд, ищейка</dd><dt>Plural</dt><dd><em>bloodhounds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Blood is pronounced BLUHD, rhyming with mud.</dd></dl>
+<p>A large hound with a superb sense of smell, used for tracking.</p>
+<ol><li>The <em>bloodhound</em> tracked him three miles.</li><li><em>Bloodhounds</em> have the best noses of any breed.</li><li>Police brought in a <em>bloodhound</em>.</li></ol>
+<hr>
+<h3 id="lapdog">lapdog<a class="hash" href="#lapdog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæpdɔːɡ/ &middot; <em>LAP-dawg</em></dd><dt>Русский</dt><dd>комнатная собачка</dd><dt>Plural</dt><dd><em>lapdogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dog kept purely as company.</p>
+<ol><li>The little <em>lapdog</em> never leaves her side.</li><li><em>Lapdogs</em> were bred for company, not work.</li><li>He's a sixty-pound <em>lapdog</em> in his own mind.</li></ol>
+<hr>
+<h3 id="watchdog">watchdog<a class="hash" href="#watchdog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːtʃdɔːɡ/ &middot; <em>WAHCH-dawg</em></dd><dt>Русский</dt><dd>сторожевая собака</dd><dt>Plural</dt><dd><em>watchdogs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A <em>watchdog</em> is also a group that keeps an eye on a government or an industry.</dd></dl>
+<p>A dog kept to bark a warning when strangers come.</p>
+<ol><li>They keep a <em>watchdog</em> at the lot.</li><li><em>Watchdogs</em> bark at anything that moves.</li><li>The <em>watchdog</em> woke the whole street.</li></ol>
+<hr>
+<h3 id="guard-dog">guard dog<a class="hash" href="#guard-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrd dɔːɡ/ &middot; <em>GARD dawg</em></dd><dt>Русский</dt><dd>сторожевой пёс</dd><dt>Plural</dt><dd><em>guard dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to protect a place or a person.</p>
+<ol><li>A <em>guard dog</em> patrols the warehouse at night.</li><li><em>Guard dogs</em> are trained not to take food from strangers.</li><li>The sign warns about a <em>guard dog</em>.</li></ol>
+<hr>
+<h3 id="guide-dog">guide dog<a class="hash" href="#guide-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡaɪd dɔːɡ/ &middot; <em>GYD dawg</em></dd><dt>Русский</dt><dd>собака-поводырь</dd><dt>Plural</dt><dd><em>guide dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to lead a blind person safely.</p>
+<ol><li>His <em>guide dog</em> is a yellow lab.</li><li><em>Guide dogs</em> are allowed in restaurants.</li><li>The <em>guide dog</em> stopped at the curb.</li></ol>
+<hr>
+<h3 id="service-dog">service dog<a class="hash" href="#service-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvəs dɔːɡ/ &middot; <em>SUR-vuhs dawg</em></dd><dt>Русский</dt><dd>собака-помощник</dd><dt>Plural</dt><dd><em>service dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to do specific tasks for a person with a disability.</p>
+<ol><li>Her <em>service dog</em> wears a vest in public.</li><li><em>Service dogs</em> can go anywhere their handler goes.</li><li>Don't pet a <em>service dog</em> while it's working.</li></ol>
+<hr>
+<h3 id="sled-dog">sled dog<a class="hash" href="#sled-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslɛd dɔːɡ/ &middot; <em>SLED dawg</em></dd><dt>Русский</dt><dd>ездовая собака</dd><dt>Plural</dt><dd><em>sled dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog bred and trained to pull a sled over snow.</p>
+<ol><li><em>Sled dogs</em> can run a hundred miles a day.</li><li>Each <em>sled dog</em> eats an enormous amount.</li><li>The <em>sled dog</em> team pulled up the trail.</li></ol>
+<hr>
+<h3 id="tomcat">tomcat<a class="hash" href="#tomcat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːmkæt/ &middot; <em>TAHM-kat</em></dd><dt>Русский</dt><dd>кот (самец)</dd><dt>Plural</dt><dd><em>tomcats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adult male cat.</p>
+<ol><li>A big orange <em>tomcat</em> lives under the porch.</li><li><em>Tomcats</em> fight over territory.</li><li>The <em>tomcat</em> has a torn ear.</li></ol>
+<hr>
+<h3 id="kitty">kitty<a class="hash" href="#kitty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪti/ &middot; <em>KIT-ee</em></dd><dt>Русский</dt><dd>киска, кошечка</dd><dt>Plural</dt><dd><em>kitties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An affectionate word for a cat, especially a young one.</p>
+<ol><li>Come here, <em>kitty</em>.</li><li>The kids named the <em>kitty</em> Waffles.</li><li>Two <em>kitties</em> were curled up in the box.</li></ol>
+<hr>
+<h3 id="pooch">pooch<a class="hash" href="#pooch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/puːtʃ/ &middot; <em>POOCH</em></dd><dt>Русский</dt><dd>пёсик, собачка</dd><dt>Plural</dt><dd><em>pooches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A friendly, informal word for a dog.</p>
+<ol><li>That <em>pooch</em> has the run of the house.</li><li>Take the <em>pooch</em> out before bed.</li><li>A couple of <em>pooches</em> were waiting outside the store.</li></ol>
+<hr>
+<h3 id="tabby">tabby<a class="hash" href="#tabby" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæbi/ &middot; <em>TAB-ee</em></dd><dt>Русский</dt><dd>полосатая кошка</dd><dt>Plural</dt><dd><em>tabbies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cat with a striped or blotched coat.</p>
+<ol><li>The orange <em>tabby</em> sleeps in the window.</li><li><em>Tabbies</em> have an M-shaped mark on the forehead.</li><li>We adopted a gray <em>tabby</em> from the shelter.</li></ol>
+<hr>
+<h3 id="feral-cat">feral cat<a class="hash" href="#feral-cat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛrəl kæt/ &middot; <em>FAIR-uhl kat</em></dd><dt>Русский</dt><dd>одичавшая кошка</dd><dt>Plural</dt><dd><em>feral cats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cat that lives wild and avoids people.</p>
+<ol><li>A colony of <em>feral cats</em> lives behind the diner.</li><li>The <em>feral cat</em> won't let anyone near her.</li><li>Volunteers trap and neuter <em>feral cats</em>.</li></ol>
+<hr>
+<h3 id="feline">feline<a class="hash" href="#feline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːlaɪn/ &middot; <em>FEE-lyn</em></dd><dt>Русский</dt><dd>кошка, животное из семейства кошачьих</dd><dt>Plural</dt><dd><em>felines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cat, or any animal of the cat family.</p>
+<ol><li>The clinic treats both canines and <em>felines</em>.</li><li>A <em>feline</em> landed silently on the fence.</li><li><em>Felines</em> sleep most of the day.</li></ol>
+<hr>
+<h3 id="canine">canine<a class="hash" href="#canine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkeɪnaɪn/ &middot; <em>KAY-nyn</em></dd><dt>Русский</dt><dd>собака, представитель псовых</dd><dt>Plural</dt><dd><em>canines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Canine</em> is also the name of the pointed tooth on each side of your front teeth.</dd></dl>
+<p>A dog, or any animal of the dog family.</p>
+<ol><li>The vaccine protects <em>canines</em> against several viruses.</li><li>This unit works with a <em>canine</em> partner.</li><li><em>Canines</em> and felines need different diets.</li></ol>
+<hr>
+<h3 id="guppy">guppy<a class="hash" href="#guppy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌpi/ &middot; <em>GUP-ee</em></dd><dt>Русский</dt><dd>гуппи</dd><dt>Plural</dt><dd><em>guppies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny brightly colored tropical fish kept in tanks.</p>
+<ol><li>The <em>guppies</em> had babies again.</li><li>A single <em>guppy</em> costs about two dollars.</li><li><em>Guppies</em> are a good fish for a first tank.</li></ol>
+<hr>
+<h3 id="gerbil">gerbil<a class="hash" href="#gerbil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɜːrbəl/ &middot; <em>JUR-buhl</em></dd><dt>Русский</dt><dd>песчанка</dd><dt>Plural</dt><dd><em>gerbils</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g sounds like j: JUR-buhl.</dd></dl>
+<p>A small desert rodent with long back legs, kept as a pet.</p>
+<ol><li>The <em>gerbil</em> runs on his wheel all night.</li><li><em>Gerbils</em> need deep bedding to dig in.</li><li>Her class keeps a <em>gerbil</em> in the corner.</li></ol>
+<hr>
+<h3 id="chinchilla">chinchilla<a class="hash" href="#chinchilla" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃɪnˈtʃɪlə/ &middot; <em>chin-CHIL-uh</em></dd><dt>Русский</dt><dd>шиншилла</dd><dt>Plural</dt><dd><em>chinchillas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small South American rodent with extremely soft gray fur.</p>
+<ol><li>A <em>chinchilla</em> has the softest fur of any animal.</li><li><em>Chinchillas</em> bathe in dust, not water.</li><li>The <em>chinchilla</em> chewed through the cage bars.</li></ol>
+<hr>
+<h3 id="cockatiel">cockatiel<a class="hash" href="#cockatiel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːkəˈtiːl/ &middot; <em>kah-kuh-TEEL</em></dd><dt>Русский</dt><dd>корелла</dd><dt>Plural</dt><dd><em>cockatiels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small gray Australian parrot with a crest and orange cheek patches.</p>
+<ol><li>The <em>cockatiel</em> whistles the same three notes all day.</li><li><em>Cockatiels</em> can learn to talk a little.</li><li>Her <em>cockatiel</em> rides around on her shoulder.</li></ol>
+<hr>
+<h3 id="animal-husbandry">animal husbandry<a class="hash" href="#animal-husbandry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænəməl ˈhʌzbəndri/ &middot; <em>AN-uh-muhl HUZ-buhn-dree</em></dd><dt>Русский</dt><dd>животноводство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Husbandry here has nothing to do with husbands; it means the care of farm animals.</dd></dl>
+<p>The branch of farming that deals with raising and caring for livestock.</p>
+<ol><li>He studied <em>animal husbandry</em> at the state college.</li><li><em>Animal husbandry</em> covers feeding, breeding, and health.</li><li>The course includes basic <em>animal husbandry</em>.</li></ol>
+<hr>
+<h3 id="mating">mating<a class="hash" href="#mating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪtɪŋ/ &middot; <em>MAY-ting</em></dd><dt>Русский</dt><dd>спаривание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The coming together of a male and female animal to produce young.</p>
+<ol><li><em>Mating</em> usually happens in early spring.</li><li>The pair were kept apart until <em>mating</em> season.</li><li>He wrote down the date of <em>mating</em>.</li></ol>
+<hr>
+<h3 id="gestation">gestation<a class="hash" href="#gestation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɛˈsteɪʃən/ &middot; <em>jeh-STAY-shuhn</em></dd><dt>Русский</dt><dd>беременность (у животных)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The time an animal carries its young before birth.</p>
+<ol><li><em>Gestation</em> in dogs is about nine weeks.</li><li>The cow is in the last month of <em>gestation</em>.</li><li><em>Gestation</em> is shorter in smaller animals.</li></ol>
+<hr>
+<h3 id="herding">herding<a class="hash" href="#herding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɜːrdɪŋ/ &middot; <em>HUR-ding</em></dd><dt>Русский</dt><dd>пастьба, перегон скота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Driving and keeping together a group of animals.</p>
+<ol><li><em>Herding</em> is pure instinct for these dogs.</li><li>The border collie is bred for <em>herding</em>.</li><li><em>Herding</em> the cattle downhill took all day.</li></ol>
+<hr>
+<h3 id="gelding">gelding<a class="hash" href="#gelding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɛldɪŋ/ &middot; <em>GEL-ding</em></dd><dt>Русский</dt><dd>мерин</dd><dt>Plural</dt><dd><em>geldings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A male horse that has been castrated.</p>
+<ol><li>She rides a bay <em>gelding</em>.</li><li><em>Geldings</em> are usually calmer than stallions.</li><li>The <em>gelding</em> is fifteen years old.</li></ol>
+<hr>
+<h3 id="yearling">yearling<a class="hash" href="#yearling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɪrlɪŋ/ &middot; <em>YEER-ling</em></dd><dt>Русский</dt><dd>годовалое животное</dd><dt>Plural</dt><dd><em>yearlings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal between one and two years old.</p>
+<ol><li>The <em>yearling</em> is already taller than its mother.</li><li><em>Yearlings</em> sell well at this auction.</li><li>He bought a <em>yearling</em> colt.</li></ol>
+<hr>
+<h3 id="stable-hand">stable hand<a class="hash" href="#stable-hand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪbəl hænd/ &middot; <em>STAY-buhl hand</em></dd><dt>Русский</dt><dd>конюх</dd><dt>Plural</dt><dd><em>stable hands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker who feeds horses and cleans out a stable.</p>
+<ol><li>The <em>stable hand</em> feeds the horses at six.</li><li>He worked as a <em>stable hand</em> through high school.</li><li>Two <em>stable hands</em> muck out the barn each day.</li></ol>
+<hr>
+<h3 id="horseshoe">horseshoe<a class="hash" href="#horseshoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrsʃuː/ &middot; <em>HORSS-shoo</em></dd><dt>Русский</dt><dd>подкова</dd><dt>Plural</dt><dd><em>horseshoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved iron plate nailed to the bottom of a horse's hoof.</p>
+<ol><li>The <em>horseshoe</em> had worked loose.</li><li><em>Horseshoes</em> are nailed into the hard part of the hoof.</li><li>She hung a <em>horseshoe</em> over the door for luck.</li></ol>
+<hr>
+<h3 id="farrier">farrier<a class="hash" href="#farrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛriər/ &middot; <em>FAIR-ee-ur</em></dd><dt>Русский</dt><dd>кузнец-подковщик, коваль</dd><dt>Plural</dt><dd><em>farriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A craftsman who trims horses' hooves and fits their shoes.</p>
+<ol><li>The <em>farrier</em> comes out every six weeks.</li><li>A good <em>farrier</em> is hard to find.</li><li><em>Farriers</em> trim hooves as well as fit shoes.</li></ol>
+<hr>
+<h3 id="bridle">bridle<a class="hash" href="#bridle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbraɪdəl/ &middot; <em>BRY-duhl</em></dd><dt>Русский</dt><dd>уздечка</dd><dt>Plural</dt><dd><em>bridles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Bridle</em> sounds exactly like bridal, which means having to do with a wedding.</dd></dl>
+<p>The straps around a horse's head that the reins attach to.</p>
+<ol><li>He slipped the <em>bridle</em> over the horse's head.</li><li>The <em>bridle</em> hangs by the stall door.</li><li>All the <em>bridles</em> need oiling.</li></ol>
+<hr>
+<h3 id="rein">rein<a class="hash" href="#rein" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪn/ &middot; <em>RAYN</em></dd><dt>Русский</dt><dd>повод, вожжа</dd><dt>Plural</dt><dd><em>reins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Rein</em> sounds like rain and like reign — three different words.</dd></dl>
+<p>A long strap running from the bridle that the rider holds to steer.</p>
+<ol><li>She pulled on the left <em>rein</em>.</li><li>Hold the <em>reins</em> in both hands.</li><li>One <em>rein</em> had snapped clean through.</li></ol>
+<hr>
+<h3 id="stirrup">stirrup<a class="hash" href="#stirrup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɜːrəp/ &middot; <em>STUR-uhp</em></dd><dt>Русский</dt><dd>стремя</dd><dt>Plural</dt><dd><em>stirrups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the two metal loops hanging from a saddle for the rider's feet.</p>
+<ol><li>His boot slipped out of the <em>stirrup</em>.</li><li>Shorten the <em>stirrups</em> before you mount.</li><li>One <em>stirrup</em> hangs lower than the other.</li></ol>
+<hr>
+<h3 id="spur">spur<a class="hash" href="#spur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɜːr/ &middot; <em>SPUR</em></dd><dt>Русский</dt><dd>шпора</dd><dt>Plural</dt><dd><em>spurs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal point on a rider's heel, used to urge a horse on.</p>
+<ol><li>The rider touched the horse with a <em>spur</em>.</li><li><em>Spurs</em> should be used lightly, if at all.</li><li>One <em>spur</em> had come off in the dirt.</li></ol>
+<hr>
+<h3 id="purr">purr<a class="hash" href="#purr" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɜːr/ &middot; <em>PUR</em></dd><dt>Русский</dt><dd>мурлыканье</dd><dt>Plural</dt><dd><em>purrs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The low steady sound a contented cat makes.</p>
+<ol><li>The cat let out a low <em>purr</em>.</li><li>You could hear his <em>purr</em> across the room.</li><li>Her <em>purrs</em> got louder when I scratched her chin.</li></ol>
+<hr>
+<h3 id="meow">meow<a class="hash" href="#meow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/miˈaʊ/ &middot; <em>mee-OW</em></dd><dt>Русский</dt><dd>мяуканье</dd><dt>Plural</dt><dd><em>meows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The crying sound a cat makes.</p>
+<ol><li>A thin <em>meow</em> came from under the porch.</li><li>She answered with a single <em>meow</em>.</li><li>The <em>meows</em> got louder around dinnertime.</li></ol>
+<hr>
+<h3 id="growl">growl<a class="hash" href="#growl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡraʊl/ &middot; <em>GROWL</em></dd><dt>Русский</dt><dd>рычание</dd><dt>Plural</dt><dd><em>growls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low threatening sound made in the throat by an animal.</p>
+<ol><li>A low <em>growl</em> came from behind the couch.</li><li>He gave a warning <em>growl</em> and backed away.</li><li>The <em>growls</em> stopped when she recognized me.</li></ol>
+<hr>
+<h3 id="hiss">hiss<a class="hash" href="#hiss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪs/ &middot; <em>HISS</em></dd><dt>Русский</dt><dd>шипение</dd><dt>Plural</dt><dd><em>hisses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sharp sound like a long s, made by an angry cat or a snake.</p>
+<ol><li>The cat backed away with a <em>hiss</em>.</li><li>That <em>hiss</em> means leave her alone.</li><li>There were <em>hisses</em> from both cats.</li></ol>
+<hr>
+<h3 id="howl">howl<a class="hash" href="#howl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/haʊl/ &middot; <em>HOWL</em></dd><dt>Русский</dt><dd>вой</dd><dt>Plural</dt><dd><em>howls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long loud cry made by a dog or wolf.</p>
+<ol><li>A long <em>howl</em> woke the whole street.</li><li>The dog let out a mournful <em>howl</em>.</li><li>You could hear <em>howls</em> from the kennel.</li></ol>
+<hr>
+<h3 id="whine">whine<a class="hash" href="#whine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪn/ &middot; <em>WYN</em></dd><dt>Русский</dt><dd>скулёж</dd><dt>Plural</dt><dd><em>whines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>For most Americans <em>whine</em> sounds exactly like wine.</dd></dl>
+<p>A high complaining sound made by a dog wanting something.</p>
+<ol><li>The puppy let out a <em>whine</em> at the door.</li><li>That <em>whine</em> means he needs to go out.</li><li>We ignored the <em>whines</em> until morning.</li></ol>
+<hr>
+<h3 id="yelp">yelp<a class="hash" href="#yelp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɛlp/ &middot; <em>YELP</em></dd><dt>Русский</dt><dd>визг, тявканье</dd><dt>Plural</dt><dd><em>yelps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sharp cry of pain or surprise from a dog.</p>
+<ol><li>The dog gave a sharp <em>yelp</em> when I stepped on his tail.</li><li>A <em>yelp</em> came from the yard.</li><li>There were a couple of <em>yelps</em>, then silence.</li></ol>
+<hr>
+<h3 id="snarl">snarl<a class="hash" href="#snarl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snɑːrl/ &middot; <em>SNARL</em></dd><dt>Русский</dt><dd>рычание с оскалом</dd><dt>Plural</dt><dd><em>snarls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An angry growl made with the teeth showing.</p>
+<ol><li>He curled his lip in a <em>snarl</em>.</li><li>The <em>snarl</em> was enough to back the stranger off.</li><li><em>Snarls</em> came from both sides of the fence.</li></ol>
+<hr>
+<h3 id="wag">wag<a class="hash" href="#wag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wæɡ/ &middot; <em>WAG</em></dd><dt>Русский</dt><dd>виляние (хвостом)</dd><dt>Plural</dt><dd><em>wags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quick side-to-side movement of an animal's tail.</p>
+<ol><li>He greeted us with a <em>wag</em> of his tail.</li><li>A slow <em>wag</em> means something different from a fast one.</li><li>Her tail gave a couple of <em>wags</em>.</li></ol>
+<hr>
+<h3 id="neigh">neigh<a class="hash" href="#neigh" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/neɪ/ &middot; <em>NAY</em></dd><dt>Русский</dt><dd>ржание</dd><dt>Plural</dt><dd><em>neighs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds just like nay; the gh is silent.</dd></dl>
+<p>The long high call a horse makes.</p>
+<ol><li>The horse let out a <em>neigh</em>.</li><li>A <em>neigh</em> carried across the field.</li><li><em>Neighs</em> came from the far end of the barn.</li></ol>
+<hr>
+<h3 id="moo">moo<a class="hash" href="#moo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/muː/ &middot; <em>MOO</em></dd><dt>Русский</dt><dd>мычание</dd><dt>Plural</dt><dd><em>moos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The deep call a cow makes.</p>
+<ol><li>A long <em>moo</em> came from the barn.</li><li>The calf answered with a soft <em>moo</em>.</li><li>You could hear the <em>moos</em> at feeding time.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

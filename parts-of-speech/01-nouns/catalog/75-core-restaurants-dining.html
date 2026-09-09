@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: restaurants and dining out</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-restaurants-and-dining-out">Core vocabulary: restaurants and dining out<a class="hash" href="#core-vocabulary-restaurants-and-dining-out" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of restaurants and dining out — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="carryout">carryout<a class="hash" href="#carryout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛriaʊt/ &middot; <em>KEHR-ee-owt</em></dd><dt>Русский</dt><dd>еда навынос</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Common in the Midwest; elsewhere Americans usually say takeout.</dd></dl>
+<p>Restaurant food packed up to be eaten somewhere else.</p>
+<ol><li>Let's just get <em>carryout</em> tonight.</li><li>The place does mostly <em>carryout</em> now.</li><li>Their <em>carryout</em> is cheaper than ordering delivery.</li></ol>
+<hr>
+<h3 id="kids-menu">kids' menu<a class="hash" href="#kids-menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪdz ˌmɛnjuː/ &middot; <em>KIDZ-men-yoo</em></dd><dt>Русский</dt><dd>детское меню</dd><dt>Plural</dt><dd><em>kids' menus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short menu of small, simple dishes for children.</p>
+<ol><li>Do you have a <em>kids' menu</em>?</li><li>Everything on the <em>kids' menu</em> comes with fries.</li><li>The <em>kids' menus</em> double as coloring pages.</li></ol>
+<hr>
+<h3 id="waitress">waitress<a class="hash" href="#waitress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtrəs/ &middot; <em>WAY-truss</em></dd><dt>Русский</dt><dd>официантка</dd><dt>Plural</dt><dd><em>waitresses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most American restaurants now use the gender-neutral 'server' for the job.</dd></dl>
+<p>A woman whose job is serving food and drinks at tables.</p>
+<ol><li>Our <em>waitress</em> brought extra napkins without being asked.</li><li>She worked as a <em>waitress</em> all through college.</li><li>Two <em>waitresses</em> were covering the whole dining room.</li></ol>
+<hr>
+<h3 id="main-course">main course<a class="hash" href="#main-course" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmeɪn ˈkɔːrs/ &middot; <em>mayn-KORS</em></dd><dt>Русский</dt><dd>основное блюдо, второе</dd><dt>Plural</dt><dd><em>main courses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually call this the entrée; in Britain an entrée is a starter.</dd></dl>
+<p>The largest dish of a meal, served after the appetizer.</p>
+<ol><li>I had soup first and then a <em>main course</em> of grilled salmon.</li><li>Save room — the <em>main course</em> here is huge.</li><li>Both <em>main courses</em> came with mashed potatoes.</li></ol>
+<hr>
+<h3 id="side-dish">side dish<a class="hash" href="#side-dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪd dɪʃ/ &middot; <em>SYD-dish</em></dd><dt>Русский</dt><dd>гарнир, дополнительное блюдо</dd><dt>Plural</dt><dd><em>side dishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smaller dish served alongside the main one.</p>
+<ol><li>Rice comes as a <em>side dish</em> with every entrée.</li><li>We ordered three <em>side dishes</em> and shared everything.</li><li>The mac and cheese is a <em>side dish</em>, not a whole meal.</li></ol>
+<hr>
+<h3 id="special">special<a class="hash" href="#special" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɛʃəl/ &middot; <em>SPEH-shul</em></dd><dt>Русский</dt><dd>блюдо дня, спецпредложение</dd><dt>Plural</dt><dd><em>specials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dish a restaurant offers on a particular day, often at a lower price.</p>
+<ol><li>Tonight's <em>special</em> is blackened catfish.</li><li>Let me tell you about our <em>specials</em>.</li><li>The lunch <em>special</em> comes with soup and a drink.</li></ol>
+<hr>
+<h3 id="bar-tab">bar tab<a class="hash" href="#bar-tab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːr tæb/ &middot; <em>BAR-tab</em></dd><dt>Русский</dt><dd>счет в баре (открытый)</dd><dt>Plural</dt><dd><em>bar tabs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The running total of drinks a customer owes at a bar.</p>
+<ol><li>Can I close out my <em>bar tab</em>?</li><li>He ran up a <em>bar tab</em> of ninety dollars.</li><li>They keep <em>bar tabs</em> open with a credit card.</li></ol>
+<hr>
+<h3 id="combo">combo<a class="hash" href="#combo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmboʊ/ &middot; <em>KAHM-boh</em></dd><dt>Русский</dt><dd>комбо, комплексный набор (еда и напиток)</dd><dt>Plural</dt><dd><em>combos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Short for 'combination', but on American menus the short form is the normal word.</dd></dl>
+<p>A set of items sold together for one price at a fast-food place.</p>
+<ol><li>I'll take the number three <em>combo</em> with a Coke.</li><li>The <em>combo</em> costs less than buying it all separately.</li><li>They serve breakfast <em>combos</em> until eleven.</li></ol>
+<hr>
+<h3 id="gratuity">gratuity<a class="hash" href="#gratuity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrəˈtuːəti/ &middot; <em>gruh-TOO-uh-tee</em></dd><dt>Русский</dt><dd>чаевые</dd><dt>Plural</dt><dd><em>gratuities</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The everyday word is 'tip'; gratuity is the formal one printed on checks and menus.</dd></dl>
+<p>Money added to a bill for the server's service.</p>
+<ol><li>A <em>gratuity</em> of eighteen percent is added for parties of six or more.</li><li>The <em>gratuity</em> was already on the check.</li><li><em>Gratuities</em> are split among the whole staff.</li></ol>
+<hr>
+<h3 id="tip-jar">tip jar<a class="hash" href="#tip-jar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪp dʒɑːr/ &middot; <em>TIP-jar</em></dd><dt>Русский</dt><dd>банка для чаевых</dd><dt>Plural</dt><dd><em>tip jars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container on a counter where customers leave small change for the staff.</p>
+<ol><li>He dropped a dollar in the <em>tip jar</em>.</li><li>The <em>tip jar</em> gets split at the end of the shift.</li><li>Most coffee shops keep <em>tip jars</em> right by the register.</li></ol>
+<hr>
+<h3 id="subtotal">subtotal<a class="hash" href="#subtotal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbˌtoʊtəl/ &middot; <em>SUB-toh-tul</em></dd><dt>Русский</dt><dd>промежуточный итог (сумма до налога и чаевых)</dd><dt>Plural</dt><dd><em>subtotals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount on a bill before tax and tip are added.</p>
+<ol><li>Tip on the <em>subtotal</em>, not on the total.</li><li>The <em>subtotal</em> came to forty-two dollars.</li><li>The receipt lists two <em>subtotals</em>, one for food and one for drinks.</li></ol>
+<hr>
+<h3 id="service-charge">service charge<a class="hash" href="#service-charge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪs tʃɑːrdʒ/ &middot; <em>SUR-vus-charj</em></dd><dt>Русский</dt><dd>сервисный сбор (наценка за обслуживание)</dd><dt>Plural</dt><dd><em>service charges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A percentage the restaurant adds to the bill for service.</p>
+<ol><li>A three percent <em>service charge</em> helps cover staff health care.</li><li>Check whether the <em>service charge</em> is already included before you tip.</li><li>Several cities have cracked down on surprise <em>service charges</em>.</li></ol>
+<hr>
+<h3 id="cover-charge">cover charge<a class="hash" href="#cover-charge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər tʃɑːrdʒ/ &middot; <em>KUH-vur-charj</em></dd><dt>Русский</dt><dd>плата за вход (в баре, клубе с музыкой)</dd><dt>Plural</dt><dd><em>cover charges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fee charged at the door of a bar or club on top of food and drinks.</p>
+<ol><li>There's a ten-dollar <em>cover charge</em> after nine.</li><li>The band plays free — no <em>cover charge</em> tonight.</li><li><em>Cover charges</em> go up on the weekend.</li></ol>
+<hr>
+<h3 id="cash-register">cash register<a class="hash" href="#cash-register" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʃ ˌrɛdʒɪstər/ &middot; <em>KASH-rej-ih-stur</em></dd><dt>Русский</dt><dd>кассовый аппарат, касса</dd><dt>Plural</dt><dd><em>cash registers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The machine that records sales and holds the money.</p>
+<ol><li>Pay at the <em>cash register</em> by the door.</li><li>The <em>cash register</em> jammed in the middle of the lunch rush.</li><li>Both <em>cash registers</em> were open at noon.</li></ol>
+<hr>
+<h3 id="appetite">appetite<a class="hash" href="#appetite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæpətaɪt/ &middot; <em>AP-uh-tyt</em></dd><dt>Русский</dt><dd>аппетит</dd><dt>Plural</dt><dd><em>appetites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The desire to eat.</p>
+<ol><li>All that walking gave me an <em>appetite</em>.</li><li>He lost his <em>appetite</em> after the bad news.</li><li>Teenagers have enormous <em>appetites</em>.</li></ol>
+<hr>
+<h3 id="hunger">hunger<a class="hash" href="#hunger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌŋɡər/ &middot; <em>HUNG-gur</em></dd><dt>Русский</dt><dd>голод</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: you feel hunger, but you have an appetite.</dd></dl>
+<p>The uncomfortable feeling of needing food.</p>
+<ol><li>A handful of nuts took the edge off my <em>hunger</em>.</li><li><em>Hunger</em> makes everything taste better.</li><li>She ate out of <em>hunger</em>, not out of pleasure.</li></ol>
+<hr>
+<h3 id="helping">helping<a class="hash" href="#helping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛlpɪŋ/ &middot; <em>HEL-ping</em></dd><dt>Русский</dt><dd>порция (положенная в тарелку)</dd><dt>Plural</dt><dd><em>helpings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of food put on someone's plate at one time.</p>
+<ol><li>He took a second <em>helping</em> of potatoes.</li><li>That's a generous <em>helping</em> for eight dollars.</li><li>There are enough <em>helpings</em> here for six people.</li></ol>
+<hr>
+<h3 id="seconds">seconds<a class="hash" href="#seconds" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛkəndz/ &middot; <em>SEH-kundz</em></dd><dt>Русский</dt><dd>добавка (вторая порция)</dd><dt>Plural</dt><dd><em>seconds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural in this sense — never 'a second' of food.</dd></dl>
+<p>A second serving of the same food.</p>
+<ol><li>Does anybody want <em>seconds</em>?</li><li>He went back for <em>seconds</em> twice.</li><li>There's plenty of chili left if you want <em>seconds</em>.</li></ol>
+<hr>
+<h3 id="side-order">side order<a class="hash" href="#side-order" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪd ˌɔːrdər/ &middot; <em>SYD-or-dur</em></dd><dt>Русский</dt><dd>гарнир, дополнительное блюдо к основному</dd><dt>Plural</dt><dd><em>side orders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small extra dish ordered along with the main one.</p>
+<ol><li>Can I get a <em>side order</em> of fries with that?</li><li>The <em>side order</em> of slaw is only two dollars.</li><li>We split a couple of <em>side orders</em> instead of getting entrées.</li></ol>
+<hr>
+<h3 id="serving-size">serving size<a class="hash" href="#serving-size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪŋ saɪz/ &middot; <em>SUR-ving-syz</em></dd><dt>Русский</dt><dd>размер порции</dd><dt>Plural</dt><dd><em>serving sizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of food counted as one portion.</p>
+<ol><li>The <em>serving size</em> is smaller than the picture suggests.</li><li>Check the <em>serving size</em> before you order two.</li><li>Restaurant <em>serving sizes</em> have grown over the years.</li></ol>
+<hr>
+<h3 id="specialty">specialty<a class="hash" href="#specialty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɛʃəlti/ &middot; <em>SPEH-shul-tee</em></dd><dt>Русский</dt><dd>фирменное блюдо</dd><dt>Plural</dt><dd><em>specialties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write specialty; the British write speciality, with an extra syllable.</dd></dl>
+<p>The dish a restaurant or a cook is best known for.</p>
+<ol><li>Crab cakes are the house <em>specialty</em>.</li><li>Ask the waiter what the kitchen's <em>specialty</em> is.</li><li>The menu lists a dozen regional <em>specialties</em>.</li></ol>
+<hr>
+<h3 id="signature-dish">signature dish<a class="hash" href="#signature-dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnətʃər dɪʃ/ &middot; <em>SIG-nuh-chur-dish</em></dd><dt>Русский</dt><dd>фирменное блюдо (шеф-повара)</dd><dt>Plural</dt><dd><em>signature dishes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g is silent in 'sign' but clearly pronounced in signature: SIG-nuh-chur.</dd></dl>
+<p>The dish most closely associated with a particular chef or restaurant.</p>
+<ol><li>His <em>signature dish</em> is a slow-roasted duck.</li><li>Every good cook ends up with a <em>signature dish</em>.</li><li>The tasting menu included three of her <em>signature dishes</em>.</li></ol>
+<hr>
+<h3 id="wine-list">wine list<a class="hash" href="#wine-list" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪn lɪst/ &middot; <em>WYN-list</em></dd><dt>Русский</dt><dd>винная карта</dd><dt>Plural</dt><dd><em>wine lists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The printed list of wines a restaurant sells.</p>
+<ol><li>Could we see the <em>wine list</em>, please?</li><li>Their <em>wine list</em> runs to twelve pages.</li><li>Most of the <em>wine lists</em> around here are short and cheap.</li></ol>
+<hr>
+<h3 id="drink-menu">drink menu<a class="hash" href="#drink-menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪŋk ˌmɛnjuː/ &middot; <em>DRINK-men-yoo</em></dd><dt>Русский</dt><dd>меню напитков</dd><dt>Plural</dt><dd><em>drink menus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The list of drinks a restaurant or bar serves.</p>
+<ol><li>Can we start with the <em>drink menu</em>?</li><li>The <em>drink menu</em> is printed on the back of the food menu.</li><li>They put out new <em>drink menus</em> every season.</li></ol>
+<hr>
+<h3 id="dessert-menu">dessert menu<a class="hash" href="#dessert-menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɜːrt ˌmɛnjuː/ &middot; <em>dih-ZURT-men-yoo</em></dd><dt>Русский</dt><dd>десертное меню</dd><dt>Plural</dt><dd><em>dessert menus</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Dessert (dih-ZURT) has two s's; desert (DEZ-urt), the dry place, has one.</dd></dl>
+<p>The separate list of sweet dishes brought after the meal.</p>
+<ol><li>We were too full even to look at the <em>dessert menu</em>.</li><li>She brought the <em>dessert menu</em> without being asked.</li><li>Both <em>dessert menus</em> had the same chocolate cake.</li></ol>
+<hr>
+<h3 id="takeout-menu">takeout menu<a class="hash" href="#takeout-menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪkaʊt ˌmɛnjuː/ &middot; <em>TAYK-owt-men-yoo</em></dd><dt>Русский</dt><dd>меню на вынос</dd><dt>Plural</dt><dd><em>takeout menus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A menu of dishes a restaurant will pack up for you to carry away.</p>
+<ol><li>There's a stack of <em>takeout menus</em> in the kitchen drawer.</li><li>Grab the <em>takeout menu</em> and pick something.</li><li>Their <em>takeout menu</em> is shorter than the one in the dining room.</li></ol>
+<hr>
+<h3 id="tasting-menu">tasting menu<a class="hash" href="#tasting-menu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪstɪŋ ˌmɛnjuː/ &middot; <em>TAY-sting-men-yoo</em></dd><dt>Русский</dt><dd>дегустационное меню (набор маленьких блюд)</dd><dt>Plural</dt><dd><em>tasting menus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fixed series of small courses chosen by the chef.</p>
+<ol><li>We splurged on the seven-course <em>tasting menu</em>.</li><li>The <em>tasting menu</em> takes about three hours.</li><li>Both <em>tasting menus</em> have a vegetarian version.</li></ol>
+<hr>
+<h3 id="coffee-shop">coffee shop<a class="hash" href="#coffee-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfi ʃɑːp/ &middot; <em>KAW-fee-shahp</em></dd><dt>Русский</dt><dd>кофейня</dd><dt>Plural</dt><dd><em>coffee shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small place that sells coffee and light food.</p>
+<ol><li>I work out of the <em>coffee shop</em> on Third Street.</li><li>There's a <em>coffee shop</em> on every corner downtown.</li><li>Two new <em>coffee shops</em> opened on the same block.</li></ol>
+<hr>
+<h3 id="coffeehouse">coffeehouse<a class="hash" href="#coffeehouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːfihaʊs/ &middot; <em>KAW-fee-howss</em></dd><dt>Русский</dt><dd>кофейня (с музыкой, посиделками)</dd><dt>Plural</dt><dd><em>coffeehouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A coffee shop where people sit for hours, often with music or readings.</p>
+<ol><li>They read poetry at the <em>coffeehouse</em> on Friday nights.</li><li>The old <em>coffeehouse</em> still has the same wobbly chairs.</li><li>Greenwich Village <em>coffeehouses</em> were full of folk singers.</li></ol>
+<hr>
+<h3 id="bistro">bistro<a class="hash" href="#bistro" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːstroʊ/ &middot; <em>BEE-stroh</em></dd><dt>Русский</dt><dd>бистро, небольшой ресторан</dd><dt>Plural</dt><dd><em>bistros</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small, informal restaurant, usually French in style.</p>
+<ol><li>There's a little <em>bistro</em> around the corner.</li><li>We had steak and fries at a <em>bistro</em> near the hotel.</li><li>Half the <em>bistros</em> in town are closed on Mondays.</li></ol>
+<hr>
+<h3 id="eatery">eatery<a class="hash" href="#eatery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiːtəri/ &middot; <em>EE-tuh-ree</em></dd><dt>Русский</dt><dd>закусочная, заведение общепита</dd><dt>Plural</dt><dd><em>eateries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for any place that serves food.</p>
+<ol><li>A new <em>eatery</em> opened where the bank used to be.</li><li>The strip has a dozen cheap <em>eateries</em>.</li><li>It's a family <em>eatery</em>, not fine dining.</li></ol>
+<hr>
+<h3 id="tavern">tavern<a class="hash" href="#tavern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtævərn/ &middot; <em>TAV-urn</em></dd><dt>Русский</dt><dd>таверна, трактир (бар с едой)</dd><dt>Plural</dt><dd><em>taverns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place serving beer and simple food, often an old one.</p>
+<ol><li>We stopped at a roadside <em>tavern</em> for burgers.</li><li>The <em>tavern</em> has been on that corner since 1890.</li><li>Colonial <em>taverns</em> served travelers and locals alike.</li></ol>
+<hr>
+<h3 id="saloon">saloon<a class="hash" href="#saloon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈluːn/ &middot; <em>suh-LOON</em></dd><dt>Русский</dt><dd>салун, питейное заведение</dd><dt>Plural</dt><dd><em>saloons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar, especially an old-fashioned American one.</p>
+<ol><li>The old <em>saloon</em> still has swinging doors.</li><li>He walked into the <em>saloon</em> and ordered a whiskey.</li><li>Frontier towns had more <em>saloons</em> than churches.</li></ol>
+<hr>
+<h3 id="steakhouse">steakhouse<a class="hash" href="#steakhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪkhaʊs/ &middot; <em>STAYK-howss</em></dd><dt>Русский</dt><dd>стейк-хаус (ресторан со стейками)</dd><dt>Plural</dt><dd><em>steakhouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Steak is said STAYK, rhyming with 'make', never with 'weak'.</dd></dl>
+<p>A restaurant that specializes in beef.</p>
+<ol><li>We took him to a <em>steakhouse</em> for his birthday.</li><li>The <em>steakhouse</em> downtown is expensive but worth it.</li><li>Chain <em>steakhouses</em> all serve the same cuts.</li></ol>
+<hr>
+<h3 id="delicatessen">delicatessen<a class="hash" href="#delicatessen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛləkəˈtɛsən/ &middot; <em>deh-luh-kuh-TESS-un</em></dd><dt>Русский</dt><dd>гастроном, магазин готовой еды и закусок</dd><dt>Plural</dt><dd><em>delicatessens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always shortened to 'deli' in speech.</dd></dl>
+<p>A shop or counter selling sandwiches, cold cuts, and prepared foods.</p>
+<ol><li>The <em>delicatessen</em> on the corner makes a great pastrami sandwich.</li><li>She picked up potato salad at the <em>delicatessen</em>.</li><li>New York <em>delicatessens</em> are famous for piling the meat high.</li></ol>
+<hr>
+<h3 id="sports-bar">sports bar<a class="hash" href="#sports-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɔːrts bɑːr/ &middot; <em>SPORTS-bar</em></dd><dt>Русский</dt><dd>спорт-бар</dd><dt>Plural</dt><dd><em>sports bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar with big screens where people watch games and eat.</p>
+<ol><li>We watched the playoffs at a <em>sports bar</em>.</li><li>Every <em>sports bar</em> in town was packed on Sunday.</li><li>The <em>sports bar</em> has forty TVs and decent wings.</li></ol>
+<hr>
+<h3 id="wine-bar">wine bar<a class="hash" href="#wine-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪn bɑːr/ &middot; <em>WYN-bar</em></dd><dt>Русский</dt><dd>винный бар</dd><dt>Plural</dt><dd><em>wine bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar that serves mostly wine, usually with small dishes.</p>
+<ol><li>There's a <em>wine bar</em> two doors down.</li><li>We split a cheese board at the <em>wine bar</em>.</li><li>Several <em>wine bars</em> opened in the old warehouse district.</li></ol>
+<hr>
+<h3 id="dive-bar">dive bar<a class="hash" href="#dive-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪv bɑːr/ &middot; <em>DYV-bar</em></dd><dt>Русский</dt><dd>дешевый бар, забегаловка</dd><dt>Plural</dt><dd><em>dive bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cheap, plain neighborhood bar.</p>
+<ol><li>It's a <em>dive bar</em>, but the jukebox is great.</li><li>He knows every <em>dive bar</em> in the city.</li><li>The <em>dive bars</em> on that street are all closing.</li></ol>
+<hr>
+<h3 id="beer-garden">beer garden<a class="hash" href="#beer-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪr ˌɡɑːrdən/ &middot; <em>BEER-gar-dun</em></dd><dt>Русский</dt><dd>пивной сад (открытая площадка с пивом и едой)</dd><dt>Plural</dt><dd><em>beer gardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An outdoor area where beer and food are served at long shared tables.</p>
+<ol><li>We spent the whole afternoon in the <em>beer garden</em>.</li><li>The <em>beer garden</em> opens as soon as it's warm.</li><li>German <em>beer gardens</em> seat hundreds of people.</li></ol>
+<hr>
+<h3 id="salad-bar">salad bar<a class="hash" href="#salad-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləd bɑːr/ &middot; <em>SAL-uhd-bar</em></dd><dt>Русский</dt><dd>салат-бар (стойка с салатами)</dd><dt>Plural</dt><dd><em>salad bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A counter where customers build their own salad from a choice of ingredients.</p>
+<ol><li>Lunch includes the <em>salad bar</em>.</li><li>He went back to the <em>salad bar</em> three times.</li><li>Some grocery stores have better <em>salad bars</em> than restaurants do.</li></ol>
+<hr>
+<h3 id="snack-bar">snack bar<a class="hash" href="#snack-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnæk bɑːr/ &middot; <em>SNAK-bar</em></dd><dt>Русский</dt><dd>буфет, закусочная</dd><dt>Plural</dt><dd><em>snack bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small counter selling light food and drinks.</p>
+<ol><li>There's a <em>snack bar</em> by the pool.</li><li>We grabbed hot dogs at the <em>snack bar</em>.</li><li>The <em>snack bars</em> close right after halftime.</li></ol>
+<hr>
+<h3 id="sushi-bar">sushi bar<a class="hash" href="#sushi-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːʃi bɑːr/ &middot; <em>SOO-shee-bar</em></dd><dt>Русский</dt><dd>суши-бар</dd><dt>Plural</dt><dd><em>sushi bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A counter where a chef makes sushi in front of the customers.</p>
+<ol><li>We sat at the <em>sushi bar</em> and let the chef choose.</li><li>The <em>sushi bar</em> only seats eight people.</li><li>Most <em>sushi bars</em> here are open for lunch.</li></ol>
+<hr>
+<h3 id="ice-cream-parlor">ice cream parlor<a class="hash" href="#ice-cream-parlor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs kriːm ˌpɑːrlər/ &middot; <em>ICE-kreem-par-lur</em></dd><dt>Русский</dt><dd>кафе-мороженое</dd><dt>Plural</dt><dd><em>ice cream parlors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it parlor; the British spell it parlour.</dd></dl>
+<p>A shop where ice cream is served to eat on the spot.</p>
+<ol><li>The <em>ice cream parlor</em> has thirty flavors.</li><li>We walked to the <em>ice cream parlor</em> after dinner.</li><li>Old-fashioned <em>ice cream parlors</em> had marble counters and metal stools.</li></ol>
+<hr>
+<h3 id="food-hall">food hall<a class="hash" href="#food-hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd hɔːl/ &middot; <em>FOOD-hawl</em></dd><dt>Русский</dt><dd>фудхолл (зал с множеством точек питания)</dd><dt>Plural</dt><dd><em>food halls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large indoor space with many small food vendors and shared seating.</p>
+<ol><li>The new <em>food hall</em> has twelve stalls under one roof.</li><li>We ate at the <em>food hall</em> in the train station.</li><li><em>Food halls</em> have replaced a lot of old mall food courts.</li></ol>
+<hr>
+<h3 id="food-stall">food stall<a class="hash" href="#food-stall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd stɔːl/ &middot; <em>FOOD-stawl</em></dd><dt>Русский</dt><dd>палатка с едой, лоток</dd><dt>Plural</dt><dd><em>food stalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stand selling cooked food at a market or fair.</p>
+<ol><li>The <em>food stall</em> at the market sells dumplings.</li><li>We ate standing up at a <em>food stall</em> on the sidewalk.</li><li>Rows of <em>food stalls</em> lined the fairgrounds.</li></ol>
+<hr>
+<h3 id="lunch-counter">lunch counter<a class="hash" href="#lunch-counter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌntʃ ˌkaʊntər/ &middot; <em>LUNCH-kown-tur</em></dd><dt>Русский</dt><dd>стойка закусочной (обед за стойкой)</dd><dt>Plural</dt><dd><em>lunch counters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long counter with stools where simple meals are served.</p>
+<ol><li>He ate a grilled cheese at the <em>lunch counter</em>.</li><li>The old drugstore still has its <em>lunch counter</em>.</li><li>Downtown <em>lunch counters</em> were packed at noon.</li></ol>
+<hr>
+<h3 id="greasy-spoon">greasy spoon<a class="hash" href="#greasy-spoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡriːsi ˈspuːn/ &middot; <em>gree-see-SPOON</em></dd><dt>Русский</dt><dd>дешевая забегаловка</dd><dt>Plural</dt><dd><em>greasy spoons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An affectionate nickname, not a complaint about the dishwashing.</dd></dl>
+<p>A cheap, plain diner serving fried food.</p>
+<ol><li>It's a <em>greasy spoon</em>, but the eggs are perfect.</li><li>We stopped at a <em>greasy spoon</em> off the highway.</li><li>The old <em>greasy spoons</em> are being replaced by cafés.</li></ol>
+<hr>
+<h3 id="truck-stop">truck stop<a class="hash" href="#truck-stop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrʌk stɑːp/ &middot; <em>TRUK-stahp</em></dd><dt>Русский</dt><dd>придорожная закусочная (для дальнобойщиков)</dd><dt>Plural</dt><dd><em>truck stops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A roadside place where drivers eat, refuel, and rest.</p>
+<ol><li>We had pie at a <em>truck stop</em> in Nebraska.</li><li>The <em>truck stop</em> is open all night.</li><li><em>Truck stops</em> usually have showers and a full diner.</li></ol>
+<hr>
+<h3 id="concession-stand">concession stand<a class="hash" href="#concession-stand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsɛʃən stænd/ &middot; <em>kun-SESH-un-stand</em></dd><dt>Русский</dt><dd>киоск с едой (на стадионе, в кинотеатре)</dd><dt>Plural</dt><dd><em>concession stands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A booth selling food and drinks at a stadium, theater, or park.</p>
+<ol><li>The line at the <em>concession stand</em> was twenty people deep.</li><li>Popcorn from the <em>concession stand</em> costs more than the ticket.</li><li>All the <em>concession stands</em> close after the seventh inning.</li></ol>
+<hr>
+<h3 id="soda-fountain">soda fountain<a class="hash" href="#soda-fountain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊdə ˌfaʊntən/ &middot; <em>SOH-duh-fown-tun</em></dd><dt>Русский</dt><dd>автомат с газировкой; стойка с содовой</dd><dt>Plural</dt><dd><em>soda fountains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine or counter that dispenses soft drinks.</p>
+<ol><li>Refills are free at the <em>soda fountain</em>.</li><li>The <em>soda fountain</em> is out of root beer again.</li><li>Drugstores used to have <em>soda fountains</em> with swivel stools.</li></ol>
+<hr>
+<h3 id="dining-hall">dining hall<a class="hash" href="#dining-hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪnɪŋ hɔːl/ &middot; <em>DY-ning-hawl</em></dd><dt>Русский</dt><dd>столовая (в кампусе, интернате)</dd><dt>Plural</dt><dd><em>dining halls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room where a school or institution serves meals.</p>
+<ol><li>Freshmen eat in the <em>dining hall</em> every night.</li><li>The <em>dining hall</em> closes at eight sharp.</li><li>Both <em>dining halls</em> were remodeled last summer.</li></ol>
+<hr>
+<h3 id="fast-food">fast food<a class="hash" href="#fast-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfæst ˈfuːd/ &middot; <em>fast-FOOD</em></dd><dt>Русский</dt><dd>фастфуд, быстрое питание</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a lot of fast food, never 'fast foods'.</dd></dl>
+<p>Cheap food prepared and served very quickly.</p>
+<ol><li>We lived on <em>fast food</em> during the road trip.</li><li><em>Fast food</em> is cheaper than cooking, but not by much.</li><li>He gave up <em>fast food</em> in January and lost ten pounds.</li></ol>
+<hr>
+<h3 id="fine-dining">fine dining<a class="hash" href="#fine-dining" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfaɪn ˈdaɪnɪŋ/ &middot; <em>fyn-DY-ning</em></dd><dt>Русский</dt><dd>высокая кухня, рестораны высокого класса</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Expensive restaurant eating with formal service.</p>
+<ol><li>This town has no <em>fine dining</em> to speak of.</li><li>She got her start in <em>fine dining</em> before opening a taco shop.</li><li><em>Fine dining</em> usually means a dress code and a long wine list.</li></ol>
+<hr>
+<h3 id="street-food">street food<a class="hash" href="#street-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstriːt fuːd/ &middot; <em>STREET-food</em></dd><dt>Русский</dt><dd>уличная еда</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Food sold from carts and stands on the sidewalk.</p>
+<ol><li>The best <em>street food</em> in the city is on that block.</li><li>We ate <em>street food</em> for three days straight.</li><li><em>Street food</em> is cheap, fast, and usually excellent.</li></ol>
+<hr>
+<h3 id="food-service">food service<a class="hash" href="#food-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd ˌsɜːrvɪs/ &middot; <em>FOOD-sur-vus</em></dd><dt>Русский</dt><dd>общественное питание (отрасль)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business of preparing and serving meals to the public.</p>
+<ol><li>She's worked in <em>food service</em> since high school.</li><li><em>Food service</em> jobs are hard on your feet.</li><li>The company handles <em>food service</em> for three hospitals.</li></ol>
+<hr>
+<h3 id="drive-through">drive-through<a class="hash" href="#drive-through" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪv θruː/ &middot; <em>DRYV-throo</em></dd><dt>Русский</dt><dd>окно выдачи для автомобилистов</dd><dt>Plural</dt><dd><em>drive-throughs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Usually spelled 'drive-thru' on American signs.</dd></dl>
+<p>A window where you order and pick up food without leaving your car.</p>
+<ol><li>The <em>drive-through</em> line wrapped around the building.</li><li>We went through the <em>drive-through</em> on the way home.</li><li>Some banks and pharmacies have <em>drive-throughs</em> too.</li></ol>
+<hr>
+<h3 id="curbside-pickup">curbside pickup<a class="hash" href="#curbside-pickup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrbsaɪd ˈpɪkʌp/ &middot; <em>KURB-syd-pik-up</em></dd><dt>Русский</dt><dd>самовывоз к машине (заказ выносят на улицу)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans write curb; the British write kerb for the same edge of the street.</dd></dl>
+<p>A service in which staff bring your order out to your parked car.</p>
+<ol><li>They offer <em>curbside pickup</em> until nine.</li><li>I ordered online and chose <em>curbside pickup</em>.</li><li>Half the restaurants on this street still do <em>curbside pickup</em>.</li></ol>
+<hr>
+<h3 id="food-cart">food cart<a class="hash" href="#food-cart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd kɑːrt/ &middot; <em>FOOD-kart</em></dd><dt>Русский</dt><dd>тележка с едой (уличная)</dd><dt>Plural</dt><dd><em>food carts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wheeled stand that sells food on the street.</p>
+<ol><li>There's a <em>food cart</em> outside the office that sells tacos.</li><li>He runs a <em>food cart</em> downtown.</li><li><em>Food carts</em> line the park at lunchtime.</li></ol>
+<hr>
+<h3 id="drive-in">drive-in<a class="hash" href="#drive-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪv ɪn/ &middot; <em>DRYV-in</em></dd><dt>Русский</dt><dd>кафе с обслуживанием в автомобиле</dd><dt>Plural</dt><dd><em>drive-ins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>At a drive-in you park and stay; at a drive-through you never leave the line.</dd></dl>
+<p>A restaurant where you park and eat in your car.</p>
+<ol><li>The old <em>drive-in</em> still has carhops on roller skates.</li><li>We ate burgers at a <em>drive-in</em> outside of town.</li><li>Most of the <em>drive-ins</em> closed in the seventies.</li></ol>
+<hr>
+<h3 id="delivery-fee">delivery fee<a class="hash" href="#delivery-fee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈlɪvəri fiː/ &middot; <em>dih-LIV-uh-ree-fee</em></dd><dt>Русский</dt><dd>плата за доставку</dd><dt>Plural</dt><dd><em>delivery fees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The extra charge for bringing an order to your door.</p>
+<ol><li>The <em>delivery fee</em> is almost as much as the food.</li><li>They waive the <em>delivery fee</em> on orders over thirty dollars.</li><li>App <em>delivery fees</em> have gotten out of hand.</li></ol>
+<hr>
+<h3 id="counter-service">counter service<a class="hash" href="#counter-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊntər ˌsɜːrvɪs/ &middot; <em>KOWN-tur-sur-vus</em></dd><dt>Русский</dt><dd>обслуживание у стойки (заказ на кассе)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An arrangement where customers order and pick up food at a counter rather than at a table.</p>
+<ol><li>It's <em>counter service</em>, so order first and then grab a table.</li><li><em>Counter service</em> keeps the prices down.</li><li>The place switched to <em>counter service</em> after the remodel.</li></ol>
+<hr>
+<h3 id="table-service">table service<a class="hash" href="#table-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl ˌsɜːrvɪs/ &middot; <em>TAY-buhl-sur-vus</em></dd><dt>Русский</dt><dd>обслуживание за столиками</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An arrangement where a server takes your order at the table and brings the food.</p>
+<ol><li>The patio has <em>table service</em> after five.</li><li>There's no <em>table service</em> at lunch.</li><li><em>Table service</em> means you're expected to tip.</li></ol>
+<hr>
+<h3 id="self-service">self-service<a class="hash" href="#self-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛlf ˈsɜːrvɪs/ &middot; <em>self-SUR-vus</em></dd><dt>Русский</dt><dd>самообслуживание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An arrangement in which customers help themselves instead of being waited on.</p>
+<ol><li>The drink station is <em>self-service</em>.</li><li><em>Self-service</em> keeps the line moving at lunch.</li><li>This cafeteria has been <em>self-service</em> for years.</li></ol>
+<hr>
+<h3 id="waitlist">waitlist<a class="hash" href="#waitlist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtlɪst/ &middot; <em>WAYT-list</em></dd><dt>Русский</dt><dd>лист ожидания (очередь на столик)</dd><dt>Plural</dt><dd><em>waitlists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of customers waiting for a table.</p>
+<ol><li>Put us on the <em>waitlist</em> for two, please.</li><li>The <em>waitlist</em> is about forty minutes long.</li><li>Both restaurants had <em>waitlists</em> out the door.</li></ol>
+<hr>
+<h3 id="walk-in">walk-in<a class="hash" href="#walk-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːk ɪn/ &middot; <em>WAWK-in</em></dd><dt>Русский</dt><dd>посетитель без брони</dd><dt>Plural</dt><dd><em>walk-ins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l in walk is silent: WAWK-in.</dd></dl>
+<p>A customer who arrives without a reservation.</p>
+<ol><li>We're a <em>walk-in</em>, party of three.</li><li>They hold a few tables for <em>walk-ins</em> every night.</li><li>The restaurant takes <em>walk-ins</em> until nine.</li></ol>
+<hr>
+<h3 id="no-show">no-show<a class="hash" href="#no-show" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnoʊ ʃoʊ/ &middot; <em>NOH-shoh</em></dd><dt>Русский</dt><dd>не явившийся по брони гость</dd><dt>Plural</dt><dd><em>no-shows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who books a table and never comes.</p>
+<ol><li>That eight o'clock reservation was a <em>no-show</em>.</li><li>They charge a fee for a <em>no-show</em>.</li><li>Friday nights always bring a few <em>no-shows</em>.</li></ol>
+<hr>
+<h3 id="queue">queue<a class="hash" href="#queue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjuː/ &middot; <em>KYOO</em></dd><dt>Русский</dt><dd>очередь</dd><dt>Plural</dt><dd><em>queues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans normally say 'line'; queue sounds British — and only the first letter is pronounced.</dd></dl>
+<p>A line of people waiting their turn.</p>
+<ol><li>There was a <em>queue</em> out the door and around the corner.</li><li>We joined the <em>queue</em> for the buffet.</li><li>The <em>queues</em> move fast once they open the second register.</li></ol>
+<hr>
+<h3 id="table-number">table number<a class="hash" href="#table-number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl ˌnʌmbər/ &middot; <em>TAY-buhl-num-bur</em></dd><dt>Русский</dt><dd>номер столика</dd><dt>Plural</dt><dd><em>table numbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The number a restaurant uses to identify each table.</p>
+<ol><li>Give them your <em>table number</em> when you order at the counter.</li><li>The runner called out the wrong <em>table number</em>.</li><li>The <em>table numbers</em> stand in little metal holders.</li></ol>
+<hr>
+<h3 id="corkage">corkage<a class="hash" href="#corkage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrkɪdʒ/ &middot; <em>KOR-kij</em></dd><dt>Русский</dt><dd>пробковый сбор (плата за открытие своей бутылки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The fee a restaurant charges for opening wine you brought yourself.</p>
+<ol><li><em>Corkage</em> is twenty dollars a bottle.</li><li>They waive the <em>corkage</em> on Mondays.</li><li>Call ahead and ask about their <em>corkage</em> policy.</li></ol>
+<hr>
+<h3 id="patron">patron<a class="hash" href="#patron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪtrən/ &middot; <em>PAY-trun</em></dd><dt>Русский</dt><dd>посетитель, клиент (заведения)</dd><dt>Plural</dt><dd><em>patrons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said PAY-trun in American English, with the stress on the first syllable.</dd></dl>
+<p>A customer of a restaurant, bar, or shop.</p>
+<ol><li><em>Patrons</em> must be twenty-one to sit at the bar.</li><li>A regular <em>patron</em> complained about the music.</li><li>The sign asks <em>patrons</em> to wait to be seated.</li></ol>
+<hr>
+<h3 id="regular">regular<a class="hash" href="#regular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛɡjələr/ &middot; <em>REG-yuh-lur</em></dd><dt>Русский</dt><dd>завсегдатай, постоянный клиент</dd><dt>Plural</dt><dd><em>regulars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A customer who comes to the same place often.</p>
+<ol><li>He's a <em>regular</em> — they start his coffee when he walks in.</li><li>The bar's <em>regulars</em> all sit in the same seats.</li><li>Losing a <em>regular</em> hurts a small restaurant.</li></ol>
+<hr>
+<h3 id="host-stand">host stand<a class="hash" href="#host-stand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊst stænd/ &middot; <em>HOHST-stand</em></dd><dt>Русский</dt><dd>стойка хостес (у входа в ресторан)</dd><dt>Plural</dt><dd><em>host stands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The desk near the door where guests check in and wait to be seated.</p>
+<ol><li>Wait at the <em>host stand</em> and someone will seat you.</li><li>The reservation book sits on the <em>host stand</em>.</li><li>Both <em>host stands</em> had lines backed up to the door.</li></ol>
+<hr>
+<h3 id="foodie">foodie<a class="hash" href="#foodie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːdi/ &middot; <em>FOO-dee</em></dd><dt>Русский</dt><dd>фуди, любитель хорошей еды</dd><dt>Plural</dt><dd><em>foodies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone with a keen interest in food and restaurants.</p>
+<ol><li>My brother's a <em>foodie</em> — let him pick the place.</li><li>The neighborhood has become a <em>foodie</em> destination.</li><li><em>Foodies</em> lined up for the new taco spot.</li></ol>
+<hr>
+<h3 id="gourmet">gourmet<a class="hash" href="#gourmet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʊrˈmeɪ/ &middot; <em>goor-MAY</em></dd><dt>Русский</dt><dd>гурман, знаток еды</dd><dt>Plural</dt><dd><em>gourmets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent and the stress falls on the second syllable: goor-MAY.</dd></dl>
+<p>A person who knows and cares a great deal about fine food.</p>
+<ol><li>You don't have to be a <em>gourmet</em> to enjoy this.</li><li>The shop caters to <em>gourmets</em> and home cooks alike.</li><li>He's enough of a <em>gourmet</em> to send back a bad sauce.</li></ol>
+<hr>
+<h3 id="food-critic">food critic<a class="hash" href="#food-critic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd ˌkrɪtɪk/ &middot; <em>FOOD-krih-tik</em></dd><dt>Русский</dt><dd>ресторанный критик</dd><dt>Plural</dt><dd><em>food critics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A writer who reviews restaurants.</p>
+<ol><li>A <em>food critic</em> came in last night and nobody recognized her.</li><li>The <em>food critic</em> gave the place three stars.</li><li><em>Food critics</em> usually pay for their own meals.</li></ol>
+<hr>
+<h3 id="restaurateur">restaurateur<a class="hash" href="#restaurateur" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛstərəˈtɜːr/ &middot; <em>res-tuh-ruh-TUR</em></dd><dt>Русский</dt><dd>ресторатор, владелец ресторана</dd><dt>Plural</dt><dd><em>restaurateurs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled without the n of restaurant: restaurateur, not 'restauranteur'.</dd></dl>
+<p>A person who owns and runs restaurants.</p>
+<ol><li>The <em>restaurateur</em> opened his fourth place downtown.</li><li>She's a <em>restaurateur</em>, not a chef — she hires the cooks.</li><li>Local <em>restaurateurs</em> petitioned the city council.</li></ol>
+<hr>
+<h3 id="sommelier">sommelier<a class="hash" href="#sommelier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsʌməlˈjeɪ/ &middot; <em>suh-mul-YAY</em></dd><dt>Русский</dt><dd>сомелье (специалист по винам)</dd><dt>Plural</dt><dd><em>sommeliers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A restaurant's wine expert, who advises guests and runs the cellar.</p>
+<ol><li>The <em>sommelier</em> suggested a Rioja with the lamb.</li><li>Ask the <em>sommelier</em> for something under fifty dollars.</li><li>Two <em>sommeliers</em> work the dining room on weekends.</li></ol>
+<hr>
+<h3 id="maître-d">maître d'<a class="hash" href="#maître-d" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmeɪtrə ˈdiː/ &middot; <em>may-truh-DEE</em></dd><dt>Русский</dt><dd>метрдотель (распорядитель зала)</dd><dt>Plural</dt><dd><em>maître d's</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Short for maître d'hôtel, and said may-truh DEE.</dd></dl>
+<p>The person in charge of a dining room, who greets and seats guests.</p>
+<ol><li>The <em>maître d'</em> found us a table by the window.</li><li>Slip the <em>maître d'</em> twenty dollars and see what happens.</li><li>Good <em>maître d's</em> remember every regular's name.</li></ol>
+<hr>
+<h3 id="sous-chef">sous chef<a class="hash" href="#sous-chef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuː ʃɛf/ &middot; <em>SOO-shef</em></dd><dt>Русский</dt><dd>су-шеф (второй повар после шефа)</dd><dt>Plural</dt><dd><em>sous chefs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sous is French: it sounds like 'sue', with the final s silent.</dd></dl>
+<p>The chef who is second in command in a kitchen.</p>
+<ol><li>The <em>sous chef</em> runs the line when the chef is off.</li><li>She spent two years as a <em>sous chef</em> before moving up.</li><li>Both <em>sous chefs</em> trained in France.</li></ol>
+<hr>
+<h3 id="head-chef">head chef<a class="hash" href="#head-chef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɛd ˈʃɛf/ &middot; <em>hed-SHEF</em></dd><dt>Русский</dt><dd>шеф-повар</dd><dt>Plural</dt><dd><em>head chefs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The chef in charge of a whole kitchen.</p>
+<ol><li>The <em>head chef</em> rewrites the menu every season.</li><li>He was promoted to <em>head chef</em> at thirty.</li><li>Two <em>head chefs</em> left within a month of each other.</li></ol>
+<hr>
+<h3 id="pastry-chef">pastry chef<a class="hash" href="#pastry-chef" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪstri ʃɛf/ &middot; <em>PAY-stree-shef</em></dd><dt>Русский</dt><dd>кондитер (шеф по десертам)</dd><dt>Plural</dt><dd><em>pastry chefs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say PAY-stree; the British say PASS-tree.</dd></dl>
+<p>The chef who makes the desserts and baked goods.</p>
+<ol><li>Their <em>pastry chef</em> bakes the bread too.</li><li>The <em>pastry chef</em> trained in Paris.</li><li>Good <em>pastry chefs</em> are hard to find and harder to keep.</li></ol>
+<hr>
+<h3 id="line-cook">line cook<a class="hash" href="#line-cook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪn kʊk/ &middot; <em>LYN-kuuk</em></dd><dt>Русский</dt><dd>повар на линии (готовит на своей станции)</dd><dt>Plural</dt><dd><em>line cooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cook who works one station on the kitchen line during service.</p>
+<ol><li>He started as a <em>line cook</em> at nineteen.</li><li>The <em>line cook</em> on the grill quit mid-shift.</li><li><em>Line cooks</em> work fast and stand up all night.</li></ol>
+<hr>
+<h3 id="busboy">busboy<a class="hash" href="#busboy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌsbɔɪ/ &middot; <em>BUSS-boy</em></dd><dt>Русский</dt><dd>помощник официанта (убирает со столов)</dd><dt>Plural</dt><dd><em>busboys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gender-neutral 'busser' is replacing busboy on American job listings.</dd></dl>
+<p>A worker who clears and resets the tables.</p>
+<ol><li>The <em>busboy</em> cleared our plates before we were finished.</li><li>He worked as a <em>busboy</em> all through high school.</li><li>Two <em>busboys</em> handle the whole dining room.</li></ol>
+<hr>
+<h3 id="food-runner">food runner<a class="hash" href="#food-runner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd ˌrʌnər/ &middot; <em>FOOD-ruh-nur</em></dd><dt>Русский</dt><dd>раннер (разносит готовые блюда из кухни)</dd><dt>Plural</dt><dd><em>food runners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker who carries finished plates from the kitchen to the tables.</p>
+<ol><li>A <em>food runner</em> brought our entrées out.</li><li>The <em>food runner</em> asked who had ordered the salmon.</li><li><em>Food runners</em> never take the orders themselves.</li></ol>
+<hr>
+<h3 id="waitstaff">waitstaff<a class="hash" href="#waitstaff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtstæf/ &middot; <em>WAYT-staf</em></dd><dt>Русский</dt><dd>официанты, обслуживающий персонал зала</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>A collective noun: the waitstaff is friendly, with no plural 'waitstaffs'.</dd></dl>
+<p>The servers of a restaurant, taken as a group.</p>
+<ol><li>The <em>waitstaff</em> here is unusually good.</li><li>Half the <em>waitstaff</em> called in sick on Saturday.</li><li>They're hiring <em>waitstaff</em> for the summer.</li></ol>
+<hr>
+<h3 id="health-inspector">health inspector<a class="hash" href="#health-inspector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛlθ ɪnˌspɛktər/ &middot; <em>HELTH-in-spek-tur</em></dd><dt>Русский</dt><dd>санитарный инспектор</dd><dt>Plural</dt><dd><em>health inspectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official who checks that a kitchen meets sanitation rules.</p>
+<ol><li>The <em>health inspector</em> showed up unannounced.</li><li>A <em>health inspector</em> closed the place for a week.</li><li><em>Health inspectors</em> make restaurants post the grade in the window.</li></ol>
+<hr>
+<h3 id="dress-code">dress code<a class="hash" href="#dress-code" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛs koʊd/ &middot; <em>DRESS-kohd</em></dd><dt>Русский</dt><dd>дресс-код</dd><dt>Plural</dt><dd><em>dress codes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rules about what customers may wear in a place.</p>
+<ol><li>The restaurant has a <em>dress code</em> — no shorts, no sandals.</li><li>Check the <em>dress code</em> before you book.</li><li>Most <em>dress codes</em> were dropped years ago.</li></ol>
+<hr>
+<h3 id="coat-check">coat check<a class="hash" href="#coat-check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊt tʃɛk/ &middot; <em>KOHT-chek</em></dd><dt>Русский</dt><dd>гардероб (в ресторане)</dd><dt>Plural</dt><dd><em>coat checks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place near the entrance where guests leave their coats.</p>
+<ol><li>Leave your jacket at the <em>coat check</em>.</li><li>The <em>coat check</em> is two dollars a coat.</li><li>Both <em>coat checks</em> are closed for the summer.</li></ol>
+<hr>
+<h3 id="table-manners">table manners<a class="hash" href="#table-manners" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl ˌmænərz/ &middot; <em>TAY-buhl-man-urz</em></dd><dt>Русский</dt><dd>манеры за столом, столовый этикет</dd><dt>Plural</dt><dd><em>table manners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural — there is no 'a table manner'.</dd></dl>
+<p>The way a person behaves while eating with other people.</p>
+<ol><li>His <em>table manners</em> are terrible.</li><li>She taught the kids <em>table manners</em> early.</li><li>Good <em>table manners</em> travel well.</li></ol>
+<hr>
+<h3 id="ambience">ambience<a class="hash" href="#ambience" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmbiəns/ &middot; <em>AM-bee-uns</em></dd><dt>Русский</dt><dd>атмосфера, обстановка (заведения)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Also spelled 'ambiance'; both spellings are accepted in American English.</dd></dl>
+<p>The mood a place creates through its lighting, sound, and decor.</p>
+<ol><li>The food is fine, but the <em>ambience</em> is what sells it.</li><li>Candles give the room a warmer <em>ambience</em>.</li><li>You're paying for the <em>ambience</em> as much as for the meal.</li></ol>
+<hr>
+<h3 id="dinner-rush">dinner rush<a class="hash" href="#dinner-rush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnər rʌʃ/ &middot; <em>DIN-ur-rush</em></dd><dt>Русский</dt><dd>вечерний наплыв посетителей (час пик в ресторане)</dd><dt>Plural</dt><dd><em>dinner rushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The busiest stretch of the evening in a restaurant.</p>
+<ol><li>Don't call me during the <em>dinner rush</em>.</li><li>The <em>dinner rush</em> starts around six thirty.</li><li>Friday and Saturday <em>dinner rushes</em> are brutal.</li></ol>
+<hr>
+<h3 id="last-call">last call<a class="hash" href="#last-call" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlæst ˈkɔːl/ &middot; <em>last-KAWL</em></dd><dt>Русский</dt><dd>последний заказ (перед закрытием бара)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The announcement that a bar will take its final drink orders.</p>
+<ol><li><em>Last call</em> is at one thirty.</li><li>The bartender shouted <em>last call</em> and flipped the lights.</li><li>We ordered one more round right before <em>last call</em>.</li></ol>
+<hr>
+<h3 id="open-bar">open bar<a class="hash" href="#open-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊpən ˈbɑːr/ &middot; <em>oh-pun-BAR</em></dd><dt>Русский</dt><dd>открытый бар (напитки бесплатно для гостей)</dd><dt>Plural</dt><dd><em>open bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement at an event where the drinks are free to guests.</p>
+<ol><li>The wedding had an <em>open bar</em> until ten.</li><li>An <em>open bar</em> gets expensive fast.</li><li><em>Open bars</em> are rare at company parties now.</li></ol>
+<hr>
+<h3 id="cash-bar">cash bar<a class="hash" href="#cash-bar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæʃ ˈbɑːr/ &middot; <em>kash-BAR</em></dd><dt>Русский</dt><dd>бар за свой счет (гости платят сами)</dd><dt>Plural</dt><dd><em>cash bars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arrangement at an event where guests pay for their own drinks.</p>
+<ol><li>Dinner is covered, but it's a <em>cash bar</em>.</li><li>They set up a <em>cash bar</em> in the lobby.</li><li><em>Cash bars</em> keep the budget under control.</li></ol>
+<hr>
+<h3 id="dinner-party">dinner party<a class="hash" href="#dinner-party" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnər ˌpɑːrti/ &middot; <em>DIN-ur-par-tee</em></dd><dt>Русский</dt><dd>званый ужин</dd><dt>Plural</dt><dd><em>dinner parties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A meal at someone's home with invited guests.</p>
+<ol><li>We're hosting a <em>dinner party</em> on Saturday.</li><li>She's a nervous cook at <em>dinner parties</em>.</li><li>The <em>dinner party</em> ran until midnight.</li></ol>
+<hr>
+<h3 id="mealtime">mealtime<a class="hash" href="#mealtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmiːltaɪm/ &middot; <em>MEEL-tym</em></dd><dt>Русский</dt><dd>время приема пищи</dd><dt>Plural</dt><dd><em>mealtimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hour at which a meal is usually eaten.</p>
+<ol><li>Phones go away at <em>mealtimes</em> in this house.</li><li>The baby has a strict <em>mealtime</em> routine.</li><li><em>Mealtimes</em> shift by an hour when we travel.</li></ol>
+<hr>
+<h3 id="tasting">tasting<a class="hash" href="#tasting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪstɪŋ/ &middot; <em>TAY-sting</em></dd><dt>Русский</dt><dd>дегустация</dd><dt>Plural</dt><dd><em>tastings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event at which people sample a series of wines or foods.</p>
+<ol><li>We went to a wine <em>tasting</em> on Sunday afternoon.</li><li>The shop runs a cheese <em>tasting</em> every month.</li><li>Both <em>tastings</em> sold out in a day.</li></ol>
+<hr>
+<h3 id="wine-cellar">wine cellar<a class="hash" href="#wine-cellar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪn ˌsɛlər/ &middot; <em>WYN-seh-lur</em></dd><dt>Русский</dt><dd>винный погреб (запас вин заведения)</dd><dt>Plural</dt><dd><em>wine cellars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cool room where a restaurant or a home keeps its wine.</p>
+<ol><li>The restaurant's <em>wine cellar</em> holds four thousand bottles.</li><li>He built a small <em>wine cellar</em> under the stairs.</li><li>Their <em>wine cellars</em> survived the fire.</li></ol>
+<hr>
+<h3 id="allergen">allergen<a class="hash" href="#allergen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælərdʒən/ &middot; <em>AL-ur-jun</em></dd><dt>Русский</dt><dd>аллерген</dd><dt>Plural</dt><dd><em>allergens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the first syllable, AL-ur-jun, unlike 'allergic'.</dd></dl>
+<p>A substance in food that can cause an allergic reaction.</p>
+<ol><li>The menu marks every common <em>allergen</em>.</li><li>Peanut is the <em>allergen</em> they worry about most.</li><li>Restaurants have to disclose eight major <em>allergens</em>.</li></ol>
+<hr>
+<h3 id="vegetarian">vegetarian<a class="hash" href="#vegetarian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɛdʒəˈtɛriən/ &middot; <em>veh-juh-TAIR-ee-un</em></dd><dt>Русский</dt><dd>вегетарианец</dd><dt>Plural</dt><dd><em>vegetarians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who does not eat meat.</p>
+<ol><li>I'm a <em>vegetarian</em>, so I'll take the pasta.</li><li>Is there anything here for a <em>vegetarian</em>?</li><li>Two of our guests are <em>vegetarians</em>.</li></ol>
+<hr>
+<h3 id="vegan">vegan<a class="hash" href="#vegan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈviːɡən/ &middot; <em>VEE-gun</em></dd><dt>Русский</dt><dd>веган (не ест продукты животного происхождения)</dd><dt>Plural</dt><dd><em>vegans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said VEE-gun, not VEJ-un.</dd></dl>
+<p>A person who eats no animal products at all.</p>
+<ol><li>She's been a <em>vegan</em> for six years.</li><li>The place has a whole menu for <em>vegans</em>.</li><li>As a <em>vegan</em>, he skips the cheese and the butter.</li></ol>
+<hr>
+<h3 id="food-poisoning">food poisoning<a class="hash" href="#food-poisoning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfuːd ˌpɔɪzənɪŋ/ &middot; <em>FOOD-poy-zuh-ning</em></dd><dt>Русский</dt><dd>пищевое отравление</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: say 'a case of food poisoning', never 'a food poisoning'.</dd></dl>
+<p>Illness caused by eating contaminated food.</p>
+<ol><li>Half the party got <em>food poisoning</em> from the shrimp.</li><li>It was a mild case of <em>food poisoning</em>.</li><li><em>Food poisoning</em> can close a restaurant overnight.</li></ol>
+<hr>
+<h3 id="palate">palate<a class="hash" href="#palate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpælət/ &middot; <em>PAL-ut</em></dd><dt>Русский</dt><dd>вкус, вкусовое восприятие; нёбо</dd><dt>Plural</dt><dd><em>palates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like palette (an artist's board) and pallet (a wooden shipping platform).</dd></dl>
+<p>A person's sense of taste, or their ability to judge flavors.</p>
+<ol><li>He has a good <em>palate</em> for wine.</li><li>The sorbet clears your <em>palate</em> between courses.</li><li>A chef cooks for a lot of different <em>palates</em>.</li></ol>
+<hr>
+<h3 id="aftertaste">aftertaste<a class="hash" href="#aftertaste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərteɪst/ &middot; <em>AF-tur-tayst</em></dd><dt>Русский</dt><dd>послевкусие</dd><dt>Plural</dt><dd><em>aftertastes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flavor that stays in the mouth after eating or drinking.</p>
+<ol><li>The coffee has a bitter <em>aftertaste</em>.</li><li>There's a nice smoky <em>aftertaste</em> to the ribs.</li><li>Diet sodas leave strange <em>aftertastes</em>.</li></ol>
+<hr>
+<h3 id="hors-doeuvre">hors d'oeuvre<a class="hash" href="#hors-doeuvre" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːrˈdɜːrv/ &middot; <em>or-DURV</em></dd><dt>Русский</dt><dd>закуска (подаваемая перед едой)</dd><dt>Plural</dt><dd><em>hors d'oeuvres</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French on the page, short in the mouth: or-DURV, with the plural said or-DURVZ.</dd></dl>
+<p>A small savory item served before a meal, usually with drinks.</p>
+<ol><li>A waiter passed an <em>hors d'oeuvre</em> on a silver tray.</li><li>We filled up on <em>hors d'oeuvres</em> before dinner even started.</li><li>The caterer brought six kinds of <em>hors d'oeuvres</em>.</li></ol>
+<hr>
+<h3 id="canapé">canapé<a class="hash" href="#canapé" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkænəpeɪ/ &middot; <em>KAN-uh-pay</em></dd><dt>Русский</dt><dd>канапе (маленькая закуска на хлебе)</dd><dt>Plural</dt><dd><em>canapés</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny piece of bread or pastry with a topping, served at a party.</p>
+<ol><li>A waiter came around with a tray of <em>canapés</em>.</li><li>She made a <em>canapé</em> with smoked salmon and dill.</li><li>The <em>canapés</em> disappeared in ten minutes.</li></ol>
+<hr>
+<h3 id="finger-food">finger food<a class="hash" href="#finger-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪŋɡər fuːd/ &middot; <em>FING-gur-food</em></dd><dt>Русский</dt><dd>еда, которую едят руками; закуски</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Small food meant to be eaten with the hands rather than with a fork.</p>
+<ol><li>Serve <em>finger food</em> so people can keep mingling.</li><li>Everything at the party was <em>finger food</em>.</li><li>Toddlers do better with <em>finger food</em>.</li></ol>
+<hr>
+<h3 id="aperitif">aperitif<a class="hash" href="#aperitif" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˌpɛrəˈtiːf/ &middot; <em>uh-peh-ruh-TEEF</em></dd><dt>Русский</dt><dd>аперитив (напиток перед едой)</dd><dt>Plural</dt><dd><em>aperitifs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An alcoholic drink taken before a meal to sharpen the appetite.</p>
+<ol><li>We had an <em>aperitif</em> out on the terrace.</li><li>A dry vermouth makes a good <em>aperitif</em>.</li><li><em>Aperitifs</em> are on the first page of the drink menu.</li></ol>
+<hr>
+<h3 id="booster-seat">booster seat<a class="hash" href="#booster-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːstər siːt/ &middot; <em>BOO-stur-seet</em></dd><dt>Русский</dt><dd>детское сиденье-подкладка (на стул)</dd><dt>Plural</dt><dd><em>booster seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A seat that raises a small child up to table height.</p>
+<ol><li>Could we get a <em>booster seat</em> for her?</li><li>The <em>booster seat</em> straps onto a regular chair.</li><li>They keep <em>booster seats</em> stacked by the front door.</li></ol>
+<hr>
+<h3 id="dining-table">dining table<a class="hash" href="#dining-table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪnɪŋ ˌteɪbəl/ &middot; <em>DY-ning-tay-buhl</em></dd><dt>Русский</dt><dd>обеденный стол</dd><dt>Plural</dt><dd><em>dining tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The table people sit at to eat a meal.</p>
+<ol><li>The <em>dining table</em> seats eight comfortably.</li><li>We cleared the <em>dining table</em> to make room for the pie.</li><li>Long <em>dining tables</em> make a room feel communal.</li></ol>
+<hr>
+<h3 id="dining-area">dining area<a class="hash" href="#dining-area" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪnɪŋ ˌɛriə/ &middot; <em>DY-ning-air-ee-uh</em></dd><dt>Русский</dt><dd>обеденная зона, зал</dd><dt>Plural</dt><dd><em>dining areas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a restaurant or home where people sit and eat.</p>
+<ol><li>The <em>dining area</em> is through those doors.</li><li>They expanded the <em>dining area</em> onto the sidewalk.</li><li>Both <em>dining areas</em> were full by seven.</li></ol>
+<hr>
+<h3 id="bar-stool">bar stool<a class="hash" href="#bar-stool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːr stuːl/ &middot; <em>BAR-stool</em></dd><dt>Русский</dt><dd>барный стул</dd><dt>Plural</dt><dd><em>bar stools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall backless seat for sitting at a bar or high counter.</p>
+<ol><li>He spun around on the <em>bar stool</em>.</li><li>There's one <em>bar stool</em> left down at the end.</li><li>The new <em>bar stools</em> actually have backs.</li></ol>
+<hr>
+<h3 id="banquette">banquette<a class="hash" href="#banquette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæŋˈkɛt/ &middot; <em>bang-KET</em></dd><dt>Русский</dt><dd>банкетка, диван вдоль стены (в ресторане)</dd><dt>Plural</dt><dd><em>banquettes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French-derived: said bang-KET, not 'BANK-wet'.</dd></dl>
+<p>A long upholstered bench running along a restaurant wall.</p>
+<ol><li>We sat on the <em>banquette</em> by the window.</li><li>The <em>banquette</em> runs the whole length of the room.</li><li>Velvet <em>banquettes</em> give the place an old-fashioned feel.</li></ol>
+<hr>
+<h3 id="place-setting">place setting<a class="hash" href="#place-setting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪs ˌsɛtɪŋ/ &middot; <em>PLAYSS-seh-ting</em></dd><dt>Русский</dt><dd>прибор (комплект посуды на одного человека)</dd><dt>Plural</dt><dd><em>place settings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The plate, glass, and utensils laid out for one person.</p>
+<ol><li>There's a <em>place setting</em> missing at the end of the table.</li><li>Each <em>place setting</em> had three forks.</li><li>She bought twelve <em>place settings</em> of plain white china.</li></ol>
+<hr>
+<h3 id="dinner-plate">dinner plate<a class="hash" href="#dinner-plate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnər pleɪt/ &middot; <em>DIN-ur-playt</em></dd><dt>Русский</dt><dd>обеденная тарелка (большая)</dd><dt>Plural</dt><dd><em>dinner plates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large flat plate a main course is served on.</p>
+<ol><li>Put the salad on the small plate, not the <em>dinner plate</em>.</li><li>The <em>dinner plate</em> was barely big enough for the steak.</li><li>We only have six matching <em>dinner plates</em> left.</li></ol>
+<hr>
+<h3 id="bread-plate">bread plate<a class="hash" href="#bread-plate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛd pleɪt/ &middot; <em>BRED-playt</em></dd><dt>Русский</dt><dd>тарелка для хлеба (маленькая, слева)</dd><dt>Plural</dt><dd><em>bread plates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small plate at the left of a place setting for bread and butter.</p>
+<ol><li>Your <em>bread plate</em> is the one on your left.</li><li>He set his roll on the <em>bread plate</em>.</li><li>The <em>bread plates</em> were cleared before the entrées came.</li></ol>
+<hr>
+<h3 id="wine-glass">wine glass<a class="hash" href="#wine-glass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪn ɡlæs/ &middot; <em>WYN-glass</em></dd><dt>Русский</dt><dd>винный бокал</dd><dt>Plural</dt><dd><em>wine glasses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stemmed glass made for drinking wine.</p>
+<ol><li>He knocked over a <em>wine glass</em> reaching for the bread.</li><li>Hold the <em>wine glass</em> by the stem, not the bowl.</li><li>The <em>wine glasses</em> came out of the dishwasher spotted.</li></ol>
+<hr>
+<h3 id="water-glass">water glass<a class="hash" href="#water-glass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ɡlæs/ &middot; <em>WAW-tur-glass</em></dd><dt>Русский</dt><dd>стакан для воды</dd><dt>Plural</dt><dd><em>water glasses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The plain glass a server keeps filled with water at a table.</p>
+<ol><li>Could you refill my <em>water glass</em>?</li><li>The <em>water glass</em> left a ring on the table.</li><li>He filled all four <em>water glasses</em> at once.</li></ol>
+<hr>
+<h3 id="pint-glass">pint glass<a class="hash" href="#pint-glass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪnt ɡlæs/ &middot; <em>PYNT-glass</em></dd><dt>Русский</dt><dd>пинтовый бокал (для пива)</dd><dt>Plural</dt><dd><em>pint glasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Pint looks like 'mint' but is said PYNT, with the vowel of 'mine'.</dd></dl>
+<p>A tall straight glass holding a pint of beer.</p>
+<ol><li>The beer comes in a <em>pint glass</em>.</li><li>He set the empty <em>pint glass</em> down on the bar.</li><li>They wash a thousand <em>pint glasses</em> on a good night.</li></ol>
+<hr>
+<h3 id="teacup">teacup<a class="hash" href="#teacup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːkʌp/ &middot; <em>TEE-kup</em></dd><dt>Русский</dt><dd>чайная чашка</dd><dt>Plural</dt><dd><em>teacups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small cup with a handle for drinking tea.</p>
+<ol><li>She poured the tea into a china <em>teacup</em>.</li><li>The <em>teacup</em> rattled against the saucer.</li><li>The good <em>teacups</em> are on the top shelf.</li></ol>
+<hr>
+<h3 id="water-pitcher">water pitcher<a class="hash" href="#water-pitcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌpɪtʃər/ &middot; <em>WAW-tur-pih-chur</em></dd><dt>Русский</dt><dd>кувшин для воды</dd><dt>Plural</dt><dd><em>water pitchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pitcher a server uses to refill water glasses.</p>
+<ol><li>The busser came by with a <em>water pitcher</em>.</li><li>There's a <em>water pitcher</em> on every table.</li><li>They keep the <em>water pitchers</em> full of ice.</li></ol>
+<hr>
+<h3 id="salt-shaker">salt shaker<a class="hash" href="#salt-shaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːlt ˌʃeɪkər/ &middot; <em>SAWLT-shay-kur</em></dd><dt>Русский</dt><dd>солонка</dd><dt>Plural</dt><dd><em>salt shakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container with holes for sprinkling salt.</p>
+<ol><li>Could you pass the <em>salt shaker</em>?</li><li>The <em>salt shaker</em> is clogged again.</li><li><em>Salt shakers</em> sit next to the ketchup on every table.</li></ol>
+<hr>
+<h3 id="pepper-shaker">pepper shaker<a class="hash" href="#pepper-shaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛpər ˌʃeɪkər/ &middot; <em>PEP-ur-shay-kur</em></dd><dt>Русский</dt><dd>перечница</dd><dt>Plural</dt><dd><em>pepper shakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small container with holes for sprinkling ground pepper.</p>
+<ol><li>The <em>pepper shaker</em> is empty again.</li><li>He shook the <em>pepper shaker</em> over his eggs.</li><li>The <em>pepper shakers</em> here are always full and the salt ones never are.</li></ol>
+<hr>
+<h3 id="pepper-mill">pepper mill<a class="hash" href="#pepper-mill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛpər mɪl/ &middot; <em>PEP-ur-mil</em></dd><dt>Русский</dt><dd>мельница для перца</dd><dt>Plural</dt><dd><em>pepper mills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hand grinder that cracks whole peppercorns over a dish.</p>
+<ol><li>The waiter came by with a giant <em>pepper mill</em>.</li><li>Give it two twists of the <em>pepper mill</em>.</li><li>Wooden <em>pepper mills</em> last for decades.</li></ol>
+<hr>
+<h3 id="condiment">condiment<a class="hash" href="#condiment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːndəmənt/ &middot; <em>KAHN-duh-munt</em></dd><dt>Русский</dt><dd>приправа, соус (кетчуп, горчица и т. п.)</dd><dt>Plural</dt><dd><em>condiments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sauce or seasoning added to food at the table.</p>
+<ol><li>Ketchup is the only <em>condiment</em> he ever uses.</li><li>The <em>condiments</em> are on the counter by the napkins.</li><li>Each table has a little rack of <em>condiments</em>.</li></ol>
+<hr>
+<h3 id="sugar-packet">sugar packet<a class="hash" href="#sugar-packet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊɡər ˌpækɪt/ &middot; <em>SHUUG-ur-pak-ut</em></dd><dt>Русский</dt><dd>пакетик сахара</dd><dt>Plural</dt><dd><em>sugar packets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sugar begins with a 'sh' sound despite the s: SHUUG-ur.</dd></dl>
+<p>A small paper envelope of sugar for coffee or tea.</p>
+<ol><li>He emptied two <em>sugar packets</em> into his coffee.</li><li>There's a <em>sugar packet</em> stuck to the saucer.</li><li>The <em>sugar packets</em> are in the little dish by the creamer.</li></ol>
+<hr>
+<h3 id="toothpick">toothpick<a class="hash" href="#toothpick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːθpɪk/ &middot; <em>TOOTH-pik</em></dd><dt>Русский</dt><dd>зубочистка</dd><dt>Plural</dt><dd><em>toothpicks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin pointed stick for cleaning between the teeth or spearing food.</p>
+<ol><li>There's a <em>toothpick</em> holding the sandwich together.</li><li>He grabbed a <em>toothpick</em> on his way out.</li><li>The olives came on little <em>toothpicks</em>.</li></ol>
+<hr>
+<h3 id="tableware">tableware<a class="hash" href="#tableware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəlwɛr/ &middot; <em>TAY-buhl-wair</em></dd><dt>Русский</dt><dd>столовая посуда и приборы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a lot of tableware, never 'tablewares'.</dd></dl>
+<p>The dishes, glasses, and utensils used for a meal.</p>
+<ol><li>The restaurant replaced all its <em>tableware</em> last year.</li><li>They sell <em>tableware</em> on the second floor.</li><li>Chipped <em>tableware</em> goes straight into the trash.</li></ol>
+<hr>
+<h3 id="flatware">flatware<a class="hash" href="#flatware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætwɛr/ &middot; <em>FLAT-wair</em></dd><dt>Русский</dt><dd>столовые приборы (вилки, ножи, ложки)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>An American word; the British say cutlery. Both are uncountable.</dd></dl>
+<p>The forks, knives, and spoons used at a table.</p>
+<ol><li>Roll the <em>flatware</em> into napkins before service.</li><li>We're short on <em>flatware</em> tonight.</li><li>The <em>flatware</em> here is heavier than it looks.</li></ol>
+<hr>
+<h3 id="cutlery">cutlery<a class="hash" href="#cutlery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌtləri/ &middot; <em>KUT-luh-ree</em></dd><dt>Русский</dt><dd>столовые приборы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans normally say silverware or flatware; cutlery sounds British. Uncountable either way.</dd></dl>
+<p>Knives, forks, and spoons taken together.</p>
+<ol><li>The <em>cutlery</em> is in the drawer on the left.</li><li>Plastic <em>cutlery</em> comes with the takeout.</li><li>Set out enough <em>cutlery</em> for ten people.</li></ol>
+<hr>
+<h3 id="glassware">glassware<a class="hash" href="#glassware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlæswɛr/ &middot; <em>GLASS-wair</em></dd><dt>Русский</dt><dd>стеклянная посуда (бокалы, стаканы)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a piece of glassware, not 'a glassware'.</dd></dl>
+<p>Drinking glasses and other glass dishes as a group.</p>
+<ol><li>The <em>glassware</em> comes out of the machine still wet.</li><li>They keep the good <em>glassware</em> up on the top shelf.</li><li>Half the <em>glassware</em> broke in the move.</li></ol>
+<hr>
+<h3 id="dinnerware">dinnerware<a class="hash" href="#dinnerware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪnərwɛr/ &middot; <em>DIN-ur-wair</em></dd><dt>Русский</dt><dd>столовая посуда (тарелки, блюда)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The plates and bowls a meal is served on.</p>
+<ol><li>They registered for plain white <em>dinnerware</em>.</li><li>The <em>dinnerware</em> is dishwasher safe.</li><li>Restaurant <em>dinnerware</em> has to survive a lot of abuse.</li></ol>
+<hr>
+<h3 id="stemware">stemware<a class="hash" href="#stemware" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛmwɛr/ &middot; <em>STEM-wair</em></dd><dt>Русский</dt><dd>бокалы на ножке</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Drinking glasses that stand on a stem.</p>
+<ol><li>The <em>stemware</em> goes on the top rack.</li><li>She inherited a set of crystal <em>stemware</em>.</li><li>Wash the <em>stemware</em> by hand.</li></ol>
+<hr>
+<h3 id="china">china<a class="hash" href="#china" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪnə/ &middot; <em>CHY-nuh</em></dd><dt>Русский</dt><dd>фарфор, фарфоровая посуда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Small c for the dishes; the country takes a capital C.</dd></dl>
+<p>Fine white ceramic dishes.</p>
+<ol><li>We only use the good <em>china</em> at Thanksgiving.</li><li>A piece of <em>china</em> chipped in the sink.</li><li>The restaurant serves dessert on delicate <em>china</em>.</li></ol>
+<hr>
+<h3 id="serving-spoon">serving spoon<a class="hash" href="#serving-spoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪŋ spuːn/ &middot; <em>SUR-ving-spoon</em></dd><dt>Русский</dt><dd>сервировочная ложка (для раскладывания)</dd><dt>Plural</dt><dd><em>serving spoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large spoon for dishing food out of a bowl onto plates.</p>
+<ol><li>Stick a <em>serving spoon</em> in the rice.</li><li>The <em>serving spoon</em> is too big for that dish.</li><li>Put <em>serving spoons</em> next to each platter.</li></ol>
+<hr>
+<h3 id="serving-bowl">serving bowl<a class="hash" href="#serving-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪŋ boʊl/ &middot; <em>SUR-ving-bohl</em></dd><dt>Русский</dt><dd>миска для подачи (общая)</dd><dt>Plural</dt><dd><em>serving bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large bowl that food is brought to the table in.</p>
+<ol><li>Pour the beans into a <em>serving bowl</em>.</li><li>The <em>serving bowl</em> went around the table twice.</li><li>Both <em>serving bowls</em> came back empty.</li></ol>
+<hr>
+<h3 id="salad-bowl">salad bowl<a class="hash" href="#salad-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləd boʊl/ &middot; <em>SAL-uhd-bohl</em></dd><dt>Русский</dt><dd>салатница</dd><dt>Plural</dt><dd><em>salad bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide bowl for tossing and serving salad.</p>
+<ol><li>Toss the greens in the big wooden <em>salad bowl</em>.</li><li>The <em>salad bowl</em> barely fit on the table.</li><li>They set out two <em>salad bowls</em>, one without dressing.</li></ol>
+<hr>
+<h3 id="sugar-bowl">sugar bowl<a class="hash" href="#sugar-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʊɡər boʊl/ &middot; <em>SHUUG-ur-bohl</em></dd><dt>Русский</dt><dd>сахарница</dd><dt>Plural</dt><dd><em>sugar bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small covered bowl of sugar kept on the table.</p>
+<ol><li>The <em>sugar bowl</em> is next to the creamer.</li><li>Somebody left a wet spoon in the <em>sugar bowl</em>.</li><li>Diner <em>sugar bowls</em> used to have a little metal flap.</li></ol>
+<hr>
+<h3 id="punch-bowl">punch bowl<a class="hash" href="#punch-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌntʃ boʊl/ &middot; <em>PUNCH-bohl</em></dd><dt>Русский</dt><dd>чаша для пунша</dd><dt>Plural</dt><dd><em>punch bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large open bowl that a mixed drink is ladled out of at a party.</p>
+<ol><li>Somebody spiked the <em>punch bowl</em>.</li><li>The <em>punch bowl</em> sat in the middle of the buffet.</li><li>They borrowed two <em>punch bowls</em> for the reception.</li></ol>
+<hr>
+<h3 id="butter-dish">butter dish<a class="hash" href="#butter-dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtər dɪʃ/ &middot; <em>BUH-tur-dish</em></dd><dt>Русский</dt><dd>масленка</dd><dt>Plural</dt><dd><em>butter dishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small covered dish that holds butter at the table.</p>
+<ol><li>The <em>butter dish</em> is empty.</li><li>Pass the <em>butter dish</em>, please.</li><li>Their <em>butter dishes</em> all have little glass lids.</li></ol>
+<hr>
+<h3 id="gravy-boat">gravy boat<a class="hash" href="#gravy-boat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪvi boʊt/ &middot; <em>GRAY-vee-boht</em></dd><dt>Русский</dt><dd>соусник</dd><dt>Plural</dt><dd><em>gravy boats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small boat-shaped pitcher for pouring gravy or sauce.</p>
+<ol><li>Fill the <em>gravy boat</em> and put it on the table.</li><li>The <em>gravy boat</em> only comes out at Thanksgiving.</li><li>Two <em>gravy boats</em> made their way around the table.</li></ol>
+<hr>
+<h3 id="bread-basket">bread basket<a class="hash" href="#bread-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛd ˌbæskɪt/ &middot; <em>BRED-bass-kut</em></dd><dt>Русский</dt><dd>хлебная корзинка</dd><dt>Plural</dt><dd><em>bread baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small basket of bread brought to the table before the meal.</p>
+<ol><li>They brought a <em>bread basket</em> and a dish of olive oil.</li><li>We went through three <em>bread baskets</em> waiting for the food.</li><li>The <em>bread basket</em> is free here.</li></ol>
+<hr>
+<h3 id="soup-bowl">soup bowl<a class="hash" href="#soup-bowl" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːp boʊl/ &middot; <em>SOOP-bohl</em></dd><dt>Русский</dt><dd>суповая тарелка, миска для супа</dd><dt>Plural</dt><dd><em>soup bowls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep bowl that soup is served in.</p>
+<ol><li>He tipped the <em>soup bowl</em> to get the last spoonful.</li><li>The <em>soup bowl</em> sits on top of the dinner plate.</li><li>We're two <em>soup bowls</em> short for tonight.</li></ol>
+<hr>
+<h3 id="serving-platter">serving platter<a class="hash" href="#serving-platter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪŋ ˌplætər/ &middot; <em>SUR-ving-pla-tur</em></dd><dt>Русский</dt><dd>большое блюдо для подачи</dd><dt>Plural</dt><dd><em>serving platters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large flat dish that food is carried to the table on.</p>
+<ol><li>The turkey came out on a huge <em>serving platter</em>.</li><li>Warm the <em>serving platter</em> before you plate the fish.</li><li>The <em>serving platters</em> barely fit in the cabinet.</li></ol>
+<hr>
+<h3 id="napkin-ring">napkin ring<a class="hash" href="#napkin-ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæpkɪn rɪŋ/ &middot; <em>NAP-kin-ring</em></dd><dt>Русский</dt><dd>кольцо для салфетки</dd><dt>Plural</dt><dd><em>napkin rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ring that holds a rolled cloth napkin at a place setting.</p>
+<ol><li>Slide the napkin through the <em>napkin ring</em>.</li><li>Each <em>napkin ring</em> had a name card tied to it.</li><li>She collects old silver <em>napkin rings</em>.</li></ol>
+<hr>
+<h3 id="steak-knife">steak knife<a class="hash" href="#steak-knife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪk naɪf/ &middot; <em>STAYK-nyf</em></dd><dt>Русский</dt><dd>нож для стейка (зазубренный)</dd><dt>Plural</dt><dd><em>steak knives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Silent k in knife, and the plural turns the f into v: knives.</dd></dl>
+<p>A sharp serrated knife brought out with a piece of meat.</p>
+<ol><li>The server brought a <em>steak knife</em> with the ribeye.</li><li>This <em>steak knife</em> is dull.</li><li>The set came with six <em>steak knives</em>.</li></ol>
+<hr>
+<h3 id="butter-knife">butter knife<a class="hash" href="#butter-knife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtər naɪf/ &middot; <em>BUH-tur-nyf</em></dd><dt>Русский</dt><dd>нож для масла (тупой)</dd><dt>Plural</dt><dd><em>butter knives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small blunt knife for spreading butter.</p>
+<ol><li>Use the <em>butter knife</em>, not your steak knife.</li><li>The <em>butter knife</em> lies across the bread plate.</li><li><em>Butter knives</em> aren't sharp enough to cut anything.</li></ol>
+<hr>
+<h3 id="soup-spoon">soup spoon<a class="hash" href="#soup-spoon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːp spuːn/ &middot; <em>SOOP-spoon</em></dd><dt>Русский</dt><dd>суповая ложка</dd><dt>Plural</dt><dd><em>soup spoons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large round-bowled spoon for eating soup.</p>
+<ol><li>The <em>soup spoon</em> goes on the far right.</li><li>She ate the chowder with a <em>soup spoon</em>.</li><li>We're missing two <em>soup spoons</em> from the set.</li></ol>
+<hr>
+<h3 id="salad-fork">salad fork<a class="hash" href="#salad-fork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsæləd fɔːrk/ &middot; <em>SAL-uhd-fork</em></dd><dt>Русский</dt><dd>вилка для салата (маленькая)</dd><dt>Plural</dt><dd><em>salad forks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The smaller fork used for the salad course.</p>
+<ol><li>The <em>salad fork</em> is the short one on the outside.</li><li>He used the <em>salad fork</em> for his entrée by mistake.</li><li>Set out <em>salad forks</em> for all twelve guests.</li></ol>
+<hr>
+<h3 id="chafing-dish">chafing dish<a class="hash" href="#chafing-dish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeɪfɪŋ dɪʃ/ &middot; <em>CHAY-fing-dish</em></dd><dt>Русский</dt><dd>мармит (подогреваемое блюдо на фуршете)</dd><dt>Plural</dt><dd><em>chafing dishes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Chafing is said CHAY-fing, from 'chafe', not CHAF-ing.</dd></dl>
+<p>A metal pan kept warm over a small flame at a buffet.</p>
+<ol><li>The scrambled eggs sat in a <em>chafing dish</em>.</li><li>Light the burner under the <em>chafing dish</em>.</li><li>A row of <em>chafing dishes</em> lined the buffet table.</li></ol>
+<hr>
+<h3 id="dessert-cart">dessert cart<a class="hash" href="#dessert-cart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɜːrt kɑːrt/ &middot; <em>dih-ZURT-kart</em></dd><dt>Русский</dt><dd>тележка с десертами</dd><dt>Plural</dt><dd><em>dessert carts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rolling cart of sweets wheeled to the table after dinner.</p>
+<ol><li>They rolled the <em>dessert cart</em> right up to our table.</li><li>Nobody can say no to the <em>dessert cart</em>.</li><li><em>Dessert carts</em> are making a comeback.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

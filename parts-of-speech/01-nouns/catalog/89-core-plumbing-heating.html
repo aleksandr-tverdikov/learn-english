@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: plumbing and heating</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-plumbing-and-heating">Core vocabulary: plumbing and heating<a class="hash" href="#core-vocabulary-plumbing-and-heating" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of plumbing and heating — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="water-heater">water heater<a class="hash" href="#water-heater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌhiːtər/ &middot; <em>WAW-tur hee-tur</em></dd><dt>Русский</dt><dd>водонагреватель, бойлер</dd><dt>Plural</dt><dd><em>water heaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tank or unit that heats the water used in a building.</p>
+<ol><li>The <em>water heater</em> is in the garage next to the furnace.</li><li>Our <em>water heater</em> died after twelve years.</li><li>Newer <em>water heaters</em> use a lot less gas.</li></ol>
+<hr>
+<h3 id="air-conditioner">air conditioner<a class="hash" href="#air-conditioner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr kənˌdɪʃənər/ &middot; <em>AIR kun-dish-uh-nur</em></dd><dt>Русский</dt><dd>кондиционер</dd><dt>Plural</dt><dd><em>air conditioners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that cools the air in a room or building.</p>
+<ol><li>The <em>air conditioner</em> runs all afternoon in July.</li><li>We put an <em>air conditioner</em> in the bedroom window.</li><li>Both <em>air conditioners</em> need a new filter.</li></ol>
+<hr>
+<h3 id="air-conditioning">air conditioning<a class="hash" href="#air-conditioning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr kənˌdɪʃənɪŋ/ &middot; <em>AIR kun-dish-uh-ning</em></dd><dt>Русский</dt><dd>кондиционирование воздуха</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — say "the house has air conditioning", never "an air conditioning". The machine itself is an air conditioner.</dd></dl>
+<p>The system or process of cooling the air inside a building.</p>
+<ol><li>The apartment has <em>air conditioning</em> in every room.</li><li>The <em>air conditioning</em> went out during the heat wave.</li><li>I can't sleep without <em>air conditioning</em> in August.</li></ol>
+<hr>
+<h3 id="drainpipe">drainpipe<a class="hash" href="#drainpipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪnpaɪp/ &middot; <em>DRAYN-pype</em></dd><dt>Русский</dt><dd>сливная труба</dd><dt>Plural</dt><dd><em>drainpipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe that carries waste water away from a sink, tub, or roof.</p>
+<ol><li>The <em>drainpipe</em> under the sink was leaking at the joint.</li><li>A tree root cracked the old clay <em>drainpipe</em>.</li><li>Ice split two of the <em>drainpipes</em> last winter.</li></ol>
+<hr>
+<h3 id="water-pressure">water pressure<a class="hash" href="#water-pressure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌprɛʃər/ &middot; <em>WAW-tur presh-ur</em></dd><dt>Русский</dt><dd>напор воды, давление воды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The force with which water comes out of a pipe or faucet.</p>
+<ol><li>The <em>water pressure</em> upstairs is really weak.</li><li>Something upstream cut our <em>water pressure</em> in half.</li><li>You need decent <em>water pressure</em> for that showerhead.</li></ol>
+<hr>
+<h3 id="water-supply">water supply<a class="hash" href="#water-supply" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər səˌplaɪ/ &middot; <em>WAW-tur suh-ply</em></dd><dt>Русский</dt><dd>водоснабжение, источник воды</dd><dt>Plural</dt><dd><em>water supplies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The system that brings water to a house, town, or region.</p>
+<ol><li>The city shut off the <em>water supply</em> for two hours.</li><li>The whole <em>water supply</em> comes from one reservoir.</li><li>Drought put pressure on <em>water supplies</em> across the state.</li></ol>
+<hr>
+<h3 id="hot-water">hot water<a class="hash" href="#hot-water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːt ˈwɔːtər/ &middot; <em>haht WAW-tur</em></dd><dt>Русский</dt><dd>горячая вода</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water heated for washing, bathing, or cleaning.</p>
+<ol><li>We had no <em>hot water</em> all weekend.</li><li>Run the <em>hot water</em> until it gets warm.</li><li>The building ran out of <em>hot water</em> by seven in the morning.</li></ol>
+<hr>
+<h3 id="tap-water">tap water<a class="hash" href="#tap-water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæp ˌwɔːtər/ &middot; <em>TAP waw-tur</em></dd><dt>Русский</dt><dd>водопроводная вода</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water that comes from a household faucet rather than a bottle.</p>
+<ol><li>The <em>tap water</em> here tastes like chlorine.</li><li>I just drink <em>tap water</em> at home.</li><li>Is the <em>tap water</em> safe in this town?</li></ol>
+<hr>
+<h3 id="drinking-water">drinking water<a class="hash" href="#drinking-water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪŋkɪŋ ˌwɔːtər/ &middot; <em>DRING-king waw-tur</em></dd><dt>Русский</dt><dd>питьевая вода</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water that is clean enough for people to drink.</p>
+<ol><li>The break in the main contaminated the <em>drinking water</em>.</li><li>They handed out bottled <em>drinking water</em> after the flood.</li><li>Boil the <em>drinking water</em> until the notice is lifted.</li></ol>
+<hr>
+<h3 id="water-pipe">water pipe<a class="hash" href="#water-pipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər paɪp/ &middot; <em>WAW-tur pype</em></dd><dt>Русский</dt><dd>водопроводная труба</dd><dt>Plural</dt><dd><em>water pipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe that carries clean water into or through a building.</p>
+<ol><li>A <em>water pipe</em> burst behind the wall.</li><li>The old <em>water pipes</em> in this house are galvanized steel.</li><li>They had to open the ceiling to reach the <em>water pipe</em>.</li></ol>
+<hr>
+<h3 id="water-main">water main<a class="hash" href="#water-main" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər meɪn/ &middot; <em>WAW-tur mayn</em></dd><dt>Русский</dt><dd>магистральный водопровод</dd><dt>Plural</dt><dd><em>water mains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large public pipe under a street that supplies water to buildings.</p>
+<ol><li>A <em>water main</em> broke and flooded the intersection.</li><li>The city is replacing <em>water mains</em> on our block.</li><li>Our house is tied into the <em>water main</em> at the curb.</li></ol>
+<hr>
+<h3 id="water-meter">water meter<a class="hash" href="#water-meter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌmiːtər/ &middot; <em>WAW-tur mee-tur</em></dd><dt>Русский</dt><dd>счётчик воды</dd><dt>Plural</dt><dd><em>water meters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that measures how much water a building uses.</p>
+<ol><li>The <em>water meter</em> is in a box near the sidewalk.</li><li>If the <em>water meter</em> spins with everything off, you have a leak.</li><li>They read the <em>water meters</em> once a month.</li></ol>
+<hr>
+<h3 id="water-line">water line<a class="hash" href="#water-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər laɪn/ &middot; <em>WAW-tur lyne</em></dd><dt>Русский</dt><dd>водопроводная линия, подводка воды</dd><dt>Plural</dt><dd><em>water lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pipe that carries water from the main into a building or fixture.</p>
+<ol><li>The plumber ran a new <em>water line</em> to the refrigerator.</li><li>Shut off the <em>water line</em> before you pull the toilet.</li><li>Freezing weather cracked one of the <em>water lines</em>.</li></ol>
+<hr>
+<h3 id="sump-pump">sump pump<a class="hash" href="#sump-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmp ˌpʌmp/ &middot; <em>SUMP pump</em></dd><dt>Русский</dt><dd>дренажный насос (в приямке подвала)</dd><dt>Plural</dt><dd><em>sump pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pump in a basement pit that sends collected ground water outside.</p>
+<ol><li>The <em>sump pump</em> ran all night during the storm.</li><li>Get a backup battery for the <em>sump pump</em>.</li><li>Both <em>sump pumps</em> burned out in the same week.</li></ol>
+<hr>
+<h3 id="heat-pump">heat pump<a class="hash" href="#heat-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːt pʌmp/ &middot; <em>HEET pump</em></dd><dt>Русский</dt><dd>тепловой насос</dd><dt>Plural</dt><dd><em>heat pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A unit that moves heat into a building in winter and out of it in summer.</p>
+<ol><li>We replaced the old furnace with a <em>heat pump</em>.</li><li>A <em>heat pump</em> struggles a little below freezing.</li><li>Rebates brought the price of <em>heat pumps</em> way down.</li></ol>
+<hr>
+<h3 id="space-heater">space heater<a class="hash" href="#space-heater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspeɪs ˌhiːtər/ &middot; <em>SPAYS hee-tur</em></dd><dt>Русский</dt><dd>обогреватель (переносной)</dd><dt>Plural</dt><dd><em>space heaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small portable heater that warms one room.</p>
+<ol><li>I keep a <em>space heater</em> under my desk in January.</li><li>Never leave a <em>space heater</em> running overnight.</li><li>The店 sold out of <em>space heaters</em> before the cold snap.</li></ol>
+<hr>
+<h3 id="air-filter">air filter<a class="hash" href="#air-filter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌfɪltər/ &middot; <em>AIR fil-tur</em></dd><dt>Русский</dt><dd>воздушный фильтр</dd><dt>Plural</dt><dd><em>air filters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A panel that traps dust as air passes through a heating or cooling system.</p>
+<ol><li>Change the <em>air filter</em> every three months.</li><li>The <em>air filter</em> was gray with dust.</li><li>I buy <em>air filters</em> four at a time.</li></ol>
+<hr>
+<h3 id="air-vent">air vent<a class="hash" href="#air-vent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr vɛnt/ &middot; <em>AIR vent</em></dd><dt>Русский</dt><dd>вентиляционное отверстие, решётка</dd><dt>Plural</dt><dd><em>air vents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An opening that lets air move into or out of a room.</p>
+<ol><li>Cold air pours out of the <em>air vent</em> by the couch.</li><li>Don't put furniture over the <em>air vent</em>.</li><li>The <em>air vents</em> upstairs barely blow anything.</li></ol>
+<hr>
+<h3 id="air-duct">air duct<a class="hash" href="#air-duct" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr dʌkt/ &middot; <em>AIR dukt</em></dd><dt>Русский</dt><dd>воздуховод</dd><dt>Plural</dt><dd><em>air ducts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal or fabric tube that carries heated or cooled air through a building.</p>
+<ol><li>An <em>air duct</em> came loose in the crawl space.</li><li>They ran a new <em>air duct</em> to the addition.</li><li>We had the <em>air ducts</em> cleaned before we moved in.</li></ol>
+<hr>
+<h3 id="ductwork">ductwork<a class="hash" href="#ductwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌktwɜːrk/ &middot; <em>DUKT-wurk</em></dd><dt>Русский</dt><dd>система воздуховодов</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, like woodwork — say "a lot of ductwork", never "three ductworks".</dd></dl>
+<p>All the ducts in a building taken together.</p>
+<ol><li>Half the <em>ductwork</em> in this house is uninsulated.</li><li>Replacing the <em>ductwork</em> cost more than the furnace.</li><li>You can hear the <em>ductwork</em> ticking when the heat kicks on.</li></ol>
+<hr>
+<h3 id="humidifier">humidifier<a class="hash" href="#humidifier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hjuːˈmɪdɪfaɪrr/ &middot; <em>hyoo-MID-uh-fy-ur</em></dd><dt>Русский</dt><dd>увлажнитель воздуха</dd><dt>Plural</dt><dd><em>humidifiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that adds moisture to dry indoor air.</p>
+<ol><li>We run a <em>humidifier</em> in the baby's room all winter.</li><li>The furnace has a <em>humidifier</em> built into it.</li><li>Clean your <em>humidifiers</em> or they grow mold.</li></ol>
+<hr>
+<h3 id="dehumidifier">dehumidifier<a class="hash" href="#dehumidifier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdiːhjuːˈmɪdɪfaɪrr/ &middot; <em>dee-hyoo-MID-uh-fy-ur</em></dd><dt>Русский</dt><dd>осушитель воздуха</dd><dt>Plural</dt><dd><em>dehumidifiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that pulls moisture out of damp indoor air.</p>
+<ol><li>The basement needs a <em>dehumidifier</em> in the summer.</li><li>I empty the <em>dehumidifier</em> every other day.</li><li>Two <em>dehumidifiers</em> finally dried out the crawl space.</li></ol>
+<hr>
+<h3 id="range-hood">range hood<a class="hash" href="#range-hood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪndʒ hʊd/ &middot; <em>RAYNJ huud</em></dd><dt>Русский</dt><dd>кухонная вытяжка</dd><dt>Plural</dt><dd><em>range hoods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The vented hood above a stove that pulls out smoke and cooking smells.</p>
+<ol><li>Turn the <em>range hood</em> on before you sear anything.</li><li>The <em>range hood</em> just recirculates; it doesn't vent outside.</li><li>Stainless <em>range hoods</em> show every fingerprint.</li></ol>
+<hr>
+<h3 id="kitchen-sink">kitchen sink<a class="hash" href="#kitchen-sink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtʃən sɪŋk/ &middot; <em>KICH-un singk</em></dd><dt>Русский</dt><dd>кухонная мойка</dd><dt>Plural</dt><dd><em>kitchen sinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The basin in a kitchen where dishes are washed.</p>
+<ol><li>The <em>kitchen sink</em> drains really slowly.</li><li>He was standing at the <em>kitchen sink</em> peeling potatoes.</li><li>Deep <em>kitchen sinks</em> are easier to wash pans in.</li></ol>
+<hr>
+<h3 id="bathroom-sink">bathroom sink<a class="hash" href="#bathroom-sink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæθruːm sɪŋk/ &middot; <em>BATH-room singk</em></dd><dt>Русский</dt><dd>раковина в ванной</dd><dt>Plural</dt><dd><em>bathroom sinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small basin in a bathroom used for washing hands and face.</p>
+<ol><li>The <em>bathroom sink</em> backs up every morning.</li><li>There's a hairline crack in the <em>bathroom sink</em>.</li><li>Both <em>bathroom sinks</em> have the same leaky faucet.</li></ol>
+<hr>
+<h3 id="floor-drain">floor drain<a class="hash" href="#floor-drain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːr dreɪn/ &middot; <em>FLOR drayn</em></dd><dt>Русский</dt><dd>трап в полу</dd><dt>Plural</dt><dd><em>floor drains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drain set into a floor to carry away spilled or standing water.</p>
+<ol><li>The basement has a <em>floor drain</em> near the furnace.</li><li>Water was backing up out of the <em>floor drain</em>.</li><li>Commercial kitchens need <em>floor drains</em> everywhere.</li></ol>
+<hr>
+<h3 id="shower-drain">shower drain<a class="hash" href="#shower-drain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃaʊrr dreɪn/ &middot; <em>SHOW-ur drayn</em></dd><dt>Русский</dt><dd>слив душа</dd><dt>Plural</dt><dd><em>shower drains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The opening in a shower floor that water runs out through.</p>
+<ol><li>The <em>shower drain</em> is full of hair again.</li><li>Water pools around the <em>shower drain</em>.</li><li>He pulled the covers off both <em>shower drains</em>.</li></ol>
+<hr>
+<h3 id="drain-plug">drain plug<a class="hash" href="#drain-plug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪn plʌɡ/ &middot; <em>DRAYN plug</em></dd><dt>Русский</dt><dd>пробка слива</dd><dt>Plural</dt><dd><em>drain plugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stopper that closes a drain to hold water in a sink or tub.</p>
+<ol><li>Push the <em>drain plug</em> down to fill the tub.</li><li>The <em>drain plug</em> won't seal anymore.</li><li>The rubber on these <em>drain plugs</em> wears out fast.</li></ol>
+<hr>
+<h3 id="p-trap">P-trap<a class="hash" href="#p-trap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiː træp/ &middot; <em>PEE-trap</em></dd><dt>Русский</dt><dd>сифон в форме буквы P</dd><dt>Plural</dt><dd><em>P-traps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The P-shaped drain trap fitted under a sink.</p>
+<ol><li>The <em>P-trap</em> under the vanity was full of gunk.</li><li>He unscrewed the <em>P-trap</em> by hand.</li><li>Plastic <em>P-traps</em> cost about five dollars.</li></ol>
+<hr>
+<h3 id="blockage">blockage<a class="hash" href="#blockage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɑːkɪdʒ/ &middot; <em>BLAH-kij</em></dd><dt>Русский</dt><dd>засор, закупорка</dd><dt>Plural</dt><dd><em>blockages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that stops water or air from moving through a pipe or duct.</p>
+<ol><li>The camera found a <em>blockage</em> forty feet down the line.</li><li>Roots caused the <em>blockage</em> in the sewer pipe.</li><li>They cleared two <em>blockages</em> in one afternoon.</li></ol>
+<hr>
+<h3 id="drain-snake">drain snake<a class="hash" href="#drain-snake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪn sneɪk/ &middot; <em>DRAYN snayk</em></dd><dt>Русский</dt><dd>сантехнический трос</dd><dt>Plural</dt><dd><em>drain snakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long flexible cable pushed into a pipe to break up a clog.</p>
+<ol><li>Run the <em>drain snake</em> in until you feel resistance.</li><li>A twenty-five-foot <em>drain snake</em> handles most sinks.</li><li>The hardware store rents <em>drain snakes</em> by the day.</li></ol>
+<hr>
+<h3 id="pipe-wrench">pipe wrench<a class="hash" href="#pipe-wrench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪp rɛntʃ/ &middot; <em>PYPE rench</em></dd><dt>Русский</dt><dd>трубный ключ, газовый ключ</dd><dt>Plural</dt><dd><em>pipe wrenches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say wrench where the British say spanner.</dd></dl>
+<p>A heavy adjustable tool with toothed jaws for gripping and turning pipe.</p>
+<ol><li>Grab the big <em>pipe wrench</em> out of the truck.</li><li>He leaned on the <em>pipe wrench</em> until the fitting broke free.</li><li>You need two <em>pipe wrenches</em> to do this right.</li></ol>
+<hr>
+<h3 id="monkey-wrench">monkey wrench<a class="hash" href="#monkey-wrench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌŋki rɛntʃ/ &middot; <em>MUNG-kee rench</em></dd><dt>Русский</dt><dd>разводной ключ</dd><dt>Plural</dt><dd><em>monkey wrenches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adjustable wrench with smooth flat jaws.</p>
+<ol><li>Tighten the nut with a <em>monkey wrench</em>.</li><li>The <em>monkey wrench</em> is in the bottom of the toolbox.</li><li>He owns three <em>monkey wrenches</em> and can't find any of them.</li></ol>
+<hr>
+<h3 id="pipe-cutter">pipe cutter<a class="hash" href="#pipe-cutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪp ˌkʌtər/ &middot; <em>PYPE kut-ur</em></dd><dt>Русский</dt><dd>труборез</dd><dt>Plural</dt><dd><em>pipe cutters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool with a small wheel that scores and cuts through pipe.</p>
+<ol><li>Use a <em>pipe cutter</em> for a clean square end.</li><li>The <em>pipe cutter</em> won't fit behind the wall.</li><li>Small <em>pipe cutters</em> work in tight spaces.</li></ol>
+<hr>
+<h3 id="pipe-fitting">pipe fitting<a class="hash" href="#pipe-fitting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪp ˌfɪtɪŋ/ &middot; <em>PYPE fit-ing</em></dd><dt>Русский</dt><dd>фитинг, соединительная деталь трубы</dd><dt>Plural</dt><dd><em>pipe fittings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short connector that joins two pipes or changes their direction.</p>
+<ol><li>He needed one more <em>pipe fitting</em> to finish the job.</li><li>That <em>pipe fitting</em> is a half inch too small.</li><li>Copper <em>pipe fittings</em> have gotten expensive.</li></ol>
+<hr>
+<h3 id="coupling">coupling<a class="hash" href="#coupling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌplɪŋ/ &middot; <em>KUP-ling</em></dd><dt>Русский</dt><dd>муфта (соединительная)</dd><dt>Plural</dt><dd><em>couplings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sleeve that joins two lengths of pipe end to end.</p>
+<ol><li>Slide a <em>coupling</em> over the cut and solder it.</li><li>The <em>coupling</em> started weeping after a month.</li><li>Buy a few extra <em>couplings</em> while you're there.</li></ol>
+<hr>
+<h3 id="flange">flange<a class="hash" href="#flange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flændʒ/ &middot; <em>FLANJ</em></dd><dt>Русский</dt><dd>фланец</dd><dt>Plural</dt><dd><em>flanges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat rim on a pipe or fixture that bolts it to something else.</p>
+<ol><li>The toilet <em>flange</em> is rusted through.</li><li>Bolt the <em>flange</em> to the floor first.</li><li>The <em>flanges</em> on these old cast-iron pipes crack easily.</li></ol>
+<hr>
+<h3 id="reducer">reducer<a class="hash" href="#reducer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈduːsər/ &middot; <em>ri-DOO-sur</em></dd><dt>Русский</dt><dd>переходник, переходная муфта</dd><dt>Plural</dt><dd><em>reducers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fitting that connects a wide pipe to a narrower one.</p>
+<ol><li>You'll need a <em>reducer</em> to go from inch to half inch.</li><li>The <em>reducer</em> was the wrong size, so nothing lined up.</li><li>The bin is full of <em>reducers</em> in every size.</li></ol>
+<hr>
+<h3 id="o-ring">O-ring<a class="hash" href="#o-ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊ rɪŋ/ &middot; <em>OH-ring</em></dd><dt>Русский</dt><dd>уплотнительное кольцо</dd><dt>Plural</dt><dd><em>O-rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small rubber ring that seals a joint against leaks.</p>
+<ol><li>The faucet dripped until I replaced the <em>O-ring</em>.</li><li>That <em>O-ring</em> is dry and cracked.</li><li>A pack of assorted <em>O-rings</em> costs almost nothing.</li></ol>
+<hr>
+<h3 id="caulking">caulking<a class="hash" href="#caulking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːkɪŋ/ &middot; <em>KAW-king</em></dd><dt>Русский</dt><dd>герметик для швов, замазка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l is silent: KAW-king, not KAWL-king.</dd></dl>
+<p>The soft flexible material squeezed into seams to seal them.</p>
+<ol><li>The <em>caulking</em> around the tub is black with mildew.</li><li>Scrape out the old <em>caulking</em> before you start.</li><li>Fresh <em>caulking</em> made the whole bathroom look newer.</li></ol>
+<hr>
+<h3 id="flux">flux<a class="hash" href="#flux" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flʌks/ &middot; <em>FLUKS</em></dd><dt>Русский</dt><dd>флюс (для пайки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A paste brushed on metal so that solder will flow and stick.</p>
+<ol><li>Brush <em>flux</em> on both ends before you heat the joint.</li><li>Too much <em>flux</em> just makes a mess.</li><li>Wipe the leftover <em>flux</em> off with a rag.</li></ol>
+<hr>
+<h3 id="copper-pipe">copper pipe<a class="hash" href="#copper-pipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpər paɪp/ &middot; <em>KAH-pur pype</em></dd><dt>Русский</dt><dd>медная труба</dd><dt>Plural</dt><dd><em>copper pipes</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Water pipe made of copper, joined by soldering.</p>
+<ol><li>The whole house is plumbed in <em>copper pipe</em>.</li><li>A length of <em>copper pipe</em> costs more every year.</li><li>Thieves stripped the <em>copper pipes</em> out of the empty building.</li></ol>
+<hr>
+<h3 id="pipe-insulation">pipe insulation<a class="hash" href="#pipe-insulation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪp ˌɪnsəleɪʃən/ &middot; <em>PYPE in-suh-lay-shun</em></dd><dt>Русский</dt><dd>теплоизоляция труб</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Foam or wrapping put around pipes to keep heat in and frost out.</p>
+<ol><li>Slip <em>pipe insulation</em> over the lines in the crawl space.</li><li>The <em>pipe insulation</em> had fallen off years ago.</li><li>A few dollars of <em>pipe insulation</em> can save a burst pipe.</li></ol>
+<hr>
+<h3 id="storm-drain">storm drain<a class="hash" href="#storm-drain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrm dreɪn/ &middot; <em>STORM drayn</em></dd><dt>Русский</dt><dd>ливневая канализация, ливнёвка</dd><dt>Plural</dt><dd><em>storm drains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A street drain that carries rainwater away from roads and lots.</p>
+<ol><li>Leaves clogged the <em>storm drain</em> on the corner.</li><li>Everything you pour outside ends up in the <em>storm drain</em>.</li><li>The city cleaned out the <em>storm drains</em> before hurricane season.</li></ol>
+<hr>
+<h3 id="sewer-line">sewer line<a class="hash" href="#sewer-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːər laɪn/ &middot; <em>SOO-ur lyne</em></dd><dt>Русский</dt><dd>канализационная труба</dd><dt>Plural</dt><dd><em>sewer lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pipe that carries waste water from a building to the public sewer.</p>
+<ol><li>Roots grew into the <em>sewer line</em> from the maple out front.</li><li>Replacing the <em>sewer line</em> meant digging up the yard.</li><li>The oldest <em>sewer lines</em> in town are made of clay.</li></ol>
+<hr>
+<h3 id="rain-gutter">rain gutter<a class="hash" href="#rain-gutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn ˌɡʌtər/ &middot; <em>RAYN gut-ur</em></dd><dt>Русский</dt><dd>водосточный жёлоб</dd><dt>Plural</dt><dd><em>rain gutters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A channel along the edge of a roof that catches rainwater.</p>
+<ol><li>The <em>rain gutter</em> is packed with pine needles.</li><li>Water was pouring over the front <em>rain gutter</em>.</li><li>We clean the <em>rain gutters</em> twice a year.</li></ol>
+<hr>
+<h3 id="hose-bib">hose bib<a class="hash" href="#hose-bib" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊz bɪb/ &middot; <em>HOHZ bib</em></dd><dt>Русский</dt><dd>кран для шланга (наружный)</dd><dt>Plural</dt><dd><em>hose bibs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The threaded outdoor valve a garden hose attaches to.</p>
+<ol><li>The <em>hose bib</em> froze and split last January.</li><li>He installed a frost-proof <em>hose bib</em> out back.</li><li>Both <em>hose bibs</em> leak at the handle.</li></ol>
+<hr>
+<h3 id="shutoff-valve">shutoff valve<a class="hash" href="#shutoff-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃʌtɔːf vælv/ &middot; <em>SHUT-awf valv</em></dd><dt>Русский</dt><dd>запорный кран</dd><dt>Plural</dt><dd><em>shutoff valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A valve that stops the flow of water or gas to a fixture or building.</p>
+<ol><li>The main <em>shutoff valve</em> is by the water meter.</li><li>Every toilet should have its own <em>shutoff valve</em>.</li><li>The <em>shutoff valves</em> under the sink were frozen with corrosion.</li></ol>
+<hr>
+<h3 id="ball-valve">ball valve<a class="hash" href="#ball-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːl vælv/ &middot; <em>BAWL valv</em></dd><dt>Русский</dt><dd>шаровой кран</dd><dt>Plural</dt><dd><em>ball valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A valve with a quarter-turn handle that opens or closes fully at once.</p>
+<ol><li>A <em>ball valve</em> is easier to work than an old gate valve.</li><li>The handle on the <em>ball valve</em> snapped off.</li><li>He replaced all the <em>ball valves</em> in the basement.</li></ol>
+<hr>
+<h3 id="check-valve">check valve<a class="hash" href="#check-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛk vælv/ &middot; <em>CHEK valv</em></dd><dt>Русский</dt><dd>обратный клапан</dd><dt>Plural</dt><dd><em>check valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A valve that lets water flow one way and blocks it coming back.</p>
+<ol><li>A <em>check valve</em> keeps the sump water from running back in.</li><li>The <em>check valve</em> is stuck open.</li><li>Both <em>check valves</em> had to be replaced.</li></ol>
+<hr>
+<h3 id="gate-valve">gate valve<a class="hash" href="#gate-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪt vælv/ &middot; <em>GAYT valv</em></dd><dt>Русский</dt><dd>задвижка</dd><dt>Plural</dt><dd><em>gate valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A valve closed by lowering a flat gate across the pipe.</p>
+<ol><li>The old <em>gate valve</em> takes ten turns to close.</li><li>That <em>gate valve</em> has seized up completely.</li><li><em>Gate valves</em> were standard in houses built before the seventies.</li></ol>
+<hr>
+<h3 id="relief-valve">relief valve<a class="hash" href="#relief-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈliːf vælv/ &middot; <em>ri-LEEF valv</em></dd><dt>Русский</dt><dd>предохранительный клапан</dd><dt>Plural</dt><dd><em>relief valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A safety valve that opens to release dangerous pressure.</p>
+<ol><li>The <em>relief valve</em> on the water heater was dripping.</li><li>Never cap off a <em>relief valve</em>.</li><li>Boilers have <em>relief valves</em> for exactly this reason.</li></ol>
+<hr>
+<h3 id="mixing-valve">mixing valve<a class="hash" href="#mixing-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪksɪŋ vælv/ &middot; <em>MIK-sing valv</em></dd><dt>Русский</dt><dd>смесительный клапан</dd><dt>Plural</dt><dd><em>mixing valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A valve that blends hot and cold water to a set temperature.</p>
+<ol><li>The shower has a <em>mixing valve</em> so the water can't scald you.</li><li>The <em>mixing valve</em> is set too low.</li><li>Modern tubs use thermostatic <em>mixing valves</em>.</li></ol>
+<hr>
+<h3 id="fill-valve">fill valve<a class="hash" href="#fill-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪl vælv/ &middot; <em>FIL valv</em></dd><dt>Русский</dt><dd>наливной клапан (бачка унитаза)</dd><dt>Plural</dt><dd><em>fill valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part inside a toilet tank that refills it after a flush.</p>
+<ol><li>The <em>fill valve</em> keeps running after the tank is full.</li><li>A new <em>fill valve</em> costs about ten dollars.</li><li>He replaced the <em>fill valves</em> in both bathrooms.</li></ol>
+<hr>
+<h3 id="flapper">flapper<a class="hash" href="#flapper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæpər/ &middot; <em>FLAP-ur</em></dd><dt>Русский</dt><dd>клапан-заслонка (в бачке унитаза)</dd><dt>Plural</dt><dd><em>flappers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rubber flap at the bottom of a toilet tank that lifts to release water.</p>
+<ol><li>A worn <em>flapper</em> is why the toilet runs at night.</li><li>Drop the new <em>flapper</em> over the posts and hook up the chain.</li><li><em>Flappers</em> get stiff after a few years.</li></ol>
+<hr>
+<h3 id="wax-ring">wax ring<a class="hash" href="#wax-ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwæks rɪŋ/ &middot; <em>WAKS ring</em></dd><dt>Русский</dt><dd>восковое уплотнительное кольцо (под унитазом)</dd><dt>Plural</dt><dd><em>wax rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ring of wax that seals a toilet to the drain in the floor.</p>
+<ol><li>The leak means the <em>wax ring</em> has failed.</li><li>Set the toilet down on the <em>wax ring</em> in one motion.</li><li>Buy two <em>wax rings</em> in case you have to reset it.</li></ol>
+<hr>
+<h3 id="central-air">central air<a class="hash" href="#central-air" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛntrəl ˈɛr/ &middot; <em>sen-trul AIR</em></dd><dt>Русский</dt><dd>центральное кондиционирование</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Everyday American short form of central air conditioning; uncountable.</dd></dl>
+<p>A cooling system that serves a whole house through ducts.</p>
+<ol><li>The house has <em>central air</em>, which is rare on this street.</li><li>We finally put in <em>central air</em> last summer.</li><li>Without <em>central air</em>, August is rough.</li></ol>
+<hr>
+<h3 id="window-unit">window unit<a class="hash" href="#window-unit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊ ˌjuːnɪt/ &middot; <em>WIN-doh yoo-nit</em></dd><dt>Русский</dt><dd>оконный кондиционер</dd><dt>Plural</dt><dd><em>window units</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An air conditioner that sits in a window opening.</p>
+<ol><li>We run a <em>window unit</em> in the bedroom.</li><li>The <em>window unit</em> drips onto the sidewalk.</li><li>He hauled the <em>window units</em> up from the basement in May.</li></ol>
+<hr>
+<h3 id="heating-system">heating system<a class="hash" href="#heating-system" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːtɪŋ ˌsɪstəm/ &middot; <em>HEE-ting sis-tum</em></dd><dt>Русский</dt><dd>система отопления</dd><dt>Plural</dt><dd><em>heating systems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the equipment that warms a building.</p>
+<ol><li>The <em>heating system</em> in this building is sixty years old.</li><li>Get the <em>heating system</em> serviced before October.</li><li>Older <em>heating systems</em> waste a lot of fuel.</li></ol>
+<hr>
+<h3 id="baseboard-heater">baseboard heater<a class="hash" href="#baseboard-heater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪsbɔːrd ˌhiːtər/ &middot; <em>BAYS-bord hee-tur</em></dd><dt>Русский</dt><dd>плинтусный конвектор</dd><dt>Plural</dt><dd><em>baseboard heaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long low heater that runs along the bottom of a wall.</p>
+<ol><li>Don't push the couch against the <em>baseboard heater</em>.</li><li>The <em>baseboard heater</em> clicks as it warms up.</li><li>Electric <em>baseboard heaters</em> are expensive to run.</li></ol>
+<hr>
+<h3 id="radiant-heat">radiant heat<a class="hash" href="#radiant-heat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪdiənt hiːt/ &middot; <em>RAY-dee-unt heet</em></dd><dt>Русский</dt><dd>лучистое отопление, тёплый пол</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Heating that warms a room from pipes or wires in the floor.</p>
+<ol><li>The bathroom has <em>radiant heat</em> under the tile.</li><li><em>Radiant heat</em> is slow to come up but very even.</li><li>They put <em>radiant heat</em> in the whole first floor.</li></ol>
+<hr>
+<h3 id="steam-heat">steam heat<a class="hash" href="#steam-heat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm hiːt/ &middot; <em>STEEM heet</em></dd><dt>Русский</dt><dd>паровое отопление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Heating in which a boiler sends steam through pipes to radiators.</p>
+<ol><li>The building still runs on <em>steam heat</em>.</li><li><em>Steam heat</em> makes those banging noises in the pipes.</li><li>You can't control <em>steam heat</em> room by room.</li></ol>
+<hr>
+<h3 id="heat-exchanger">heat exchanger<a class="hash" href="#heat-exchanger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːt ɪksˌtʃeɪndʒər/ &middot; <em>HEET iks-chayn-jur</em></dd><dt>Русский</dt><dd>теплообменник</dd><dt>Plural</dt><dd><em>heat exchangers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a furnace or boiler that passes heat from burning fuel to air or water.</p>
+<ol><li>A cracked <em>heat exchanger</em> means the furnace has to be replaced.</li><li>The technician looked at the <em>heat exchanger</em> with a camera.</li><li><em>Heat exchangers</em> usually last about twenty years.</li></ol>
+<hr>
+<h3 id="air-handler">air handler<a class="hash" href="#air-handler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌhændlər/ &middot; <em>AIR hand-lur</em></dd><dt>Русский</dt><dd>приточная установка, вентагрегат</dd><dt>Plural</dt><dd><em>air handlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The indoor unit that blows heated or cooled air into the ducts.</p>
+<ol><li>The <em>air handler</em> is up in the attic.</li><li>Water was pooling under the <em>air handler</em>.</li><li>Large buildings have several <em>air handlers</em>.</li></ol>
+<hr>
+<h3 id="blower">blower<a class="hash" href="#blower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbloʊrr/ &middot; <em>BLOH-ur</em></dd><dt>Русский</dt><dd>нагнетательный вентилятор</dd><dt>Plural</dt><dd><em>blowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fan inside a furnace or air handler that pushes air through the ducts.</p>
+<ol><li>The <em>blower</em> runs but no heat comes out.</li><li>A bad bearing made the <em>blower</em> squeal.</li><li>Variable-speed <em>blowers</em> are much quieter.</li></ol>
+<hr>
+<h3 id="damper">damper<a class="hash" href="#damper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæmpər/ &middot; <em>DAM-pur</em></dd><dt>Русский</dt><dd>заслонка, шибер</dd><dt>Plural</dt><dd><em>dampers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A movable plate inside a duct or flue that controls how much air passes.</p>
+<ol><li>Close the <em>damper</em> when the fireplace isn't in use.</li><li>Somebody shut the <em>damper</em> in the upstairs duct.</li><li>The <em>dampers</em> are adjusted twice a year.</li></ol>
+<hr>
+<h3 id="diffuser">diffuser<a class="hash" href="#diffuser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfjuːzər/ &middot; <em>dih-FYOO-zur</em></dd><dt>Русский</dt><dd>диффузор, воздухораспределитель</dd><dt>Plural</dt><dd><em>diffusers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceiling or wall fitting that spreads incoming air evenly around a room.</p>
+<ol><li>Cold air blows straight down out of that <em>diffuser</em>.</li><li>They angled the <em>diffuser</em> away from the desks.</li><li>The office has <em>diffusers</em> every ten feet.</li></ol>
+<hr>
+<h3 id="louver">louver<a class="hash" href="#louver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈluːvər/ &middot; <em>LOO-vur</em></dd><dt>Русский</dt><dd>жалюзийная решётка</dd><dt>Plural</dt><dd><em>louvers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling louver; British spelling louvre.</dd></dl>
+<p>One of a set of angled slats that let air through an opening.</p>
+<ol><li>Rain never gets past the <em>louver</em> on the vent.</li><li>Dust had caked on every <em>louver</em>.</li><li>The attic <em>louvers</em> keep the roof space cool.</li></ol>
+<hr>
+<h3 id="furnace-filter">furnace filter<a class="hash" href="#furnace-filter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrnəs ˌfɪltər/ &middot; <em>FUR-nus fil-tur</em></dd><dt>Русский</dt><dd>фильтр отопительной установки</dd><dt>Plural</dt><dd><em>furnace filters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The replaceable filter that cleans air on its way into a furnace.</p>
+<ol><li>I forgot to change the <em>furnace filter</em> all winter.</li><li>A dirty <em>furnace filter</em> makes the system work harder.</li><li><em>Furnace filters</em> come in a dozen sizes.</li></ol>
+<hr>
+<h3 id="refrigerant">refrigerant<a class="hash" href="#refrigerant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrɪdʒərənt/ &middot; <em>ri-FRIJ-ur-unt</em></dd><dt>Русский</dt><dd>хладагент</dd><dt>Plural</dt><dd><em>refrigerants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The fluid that carries heat out of a cooling system.</p>
+<ol><li>The unit was low on <em>refrigerant</em>.</li><li>A technician has to be licensed to handle <em>refrigerant</em>.</li><li>Newer <em>refrigerants</em> are less harmful to the ozone layer.</li></ol>
+<hr>
+<h3 id="coolant">coolant<a class="hash" href="#coolant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkuːlənt/ &middot; <em>KOO-lunt</em></dd><dt>Русский</dt><dd>охлаждающая жидкость, теплоноситель</dd><dt>Plural</dt><dd><em>coolants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid circulated through a system to carry heat away.</p>
+<ol><li>The loop was almost out of <em>coolant</em>.</li><li><em>Coolant</em> leaked onto the floor of the mechanical room.</li><li>Different <em>coolants</em> freeze at different temperatures.</li></ol>
+<hr>
+<h3 id="evaporator">evaporator<a class="hash" href="#evaporator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈvæpəreɪtər/ &middot; <em>ih-VAP-uh-ray-tur</em></dd><dt>Русский</dt><dd>испаритель</dd><dt>Plural</dt><dd><em>evaporators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The indoor coil where refrigerant absorbs heat from the air.</p>
+<ol><li>Ice formed on the <em>evaporator</em> and airflow stopped.</li><li>The <em>evaporator</em> sits right above the furnace.</li><li>Dirty <em>evaporators</em> cut cooling capacity in half.</li></ol>
+<hr>
+<h3 id="condensate">condensate<a class="hash" href="#condensate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdɛnseɪt/ &middot; <em>kun-DEN-sayt</em></dd><dt>Русский</dt><dd>конденсат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The water that forms when warm moist air cools on a cold surface.</p>
+<ol><li>The <em>condensate</em> drains into a small pump.</li><li><em>Condensate</em> was backing up and spilling over.</li><li>A clogged line let <em>condensate</em> run down the wall.</li></ol>
+<hr>
+<h3 id="drip-pan">drip pan<a class="hash" href="#drip-pan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɪp pæn/ &middot; <em>DRIP pan</em></dd><dt>Русский</dt><dd>поддон для конденсата</dd><dt>Plural</dt><dd><em>drip pans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow tray that catches water dripping from a unit.</p>
+<ol><li>The <em>drip pan</em> under the air handler was full.</li><li>Put a <em>drip pan</em> under the water heater.</li><li>Rusted-through <em>drip pans</em> cause a lot of ceiling damage.</li></ol>
+<hr>
+<h3 id="thermocouple">thermocouple<a class="hash" href="#thermocouple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɜːrmoʊˌkʌpəl/ &middot; <em>THUR-moh-kup-ul</em></dd><dt>Русский</dt><dd>термопара</dd><dt>Plural</dt><dd><em>thermocouples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sensor that shuts off the gas if the pilot flame goes out.</p>
+<ol><li>A bad <em>thermocouple</em> is why the pilot won't stay lit.</li><li>The <em>thermocouple</em> costs almost nothing to replace.</li><li><em>Thermocouples</em> wear out every few years.</li></ol>
+<hr>
+<h3 id="gas-line">gas line<a class="hash" href="#gas-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs laɪn/ &middot; <em>GAS lyne</em></dd><dt>Русский</dt><dd>газопровод, газовая подводка</dd><dt>Plural</dt><dd><em>gas lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pipe that brings natural gas or propane to an appliance.</p>
+<ol><li>They ran a <em>gas line</em> to the new stove.</li><li>Never dig without checking where the <em>gas line</em> is.</li><li>All the <em>gas lines</em> have to be pressure tested.</li></ol>
+<hr>
+<h3 id="gas-valve">gas valve<a class="hash" href="#gas-valve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs vælv/ &middot; <em>GAS valv</em></dd><dt>Русский</dt><dd>газовый клапан</dd><dt>Plural</dt><dd><em>gas valves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The valve that controls gas flowing into a furnace or water heater.</p>
+<ol><li>Turn the <em>gas valve</em> to the off position.</li><li>The <em>gas valve</em> failed and the furnace wouldn't fire.</li><li><em>Gas valves</em> on these units are sealed at the factory.</li></ol>
+<hr>
+<h3 id="gas-meter">gas meter<a class="hash" href="#gas-meter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs ˌmiːtər/ &middot; <em>GAS mee-tur</em></dd><dt>Русский</dt><dd>газовый счётчик</dd><dt>Plural</dt><dd><em>gas meters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The device outside a building that measures how much gas it uses.</p>
+<ol><li>The <em>gas meter</em> is on the side of the house.</li><li>Somebody came out to read the <em>gas meter</em>.</li><li>The <em>gas meters</em> for all six units are in one row.</li></ol>
+<hr>
+<h3 id="oil-tank">oil tank<a class="hash" href="#oil-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl tæŋk/ &middot; <em>OYL tank</em></dd><dt>Русский</dt><dd>бак для печного топлива</dd><dt>Plural</dt><dd><em>oil tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tank holding the fuel oil that a furnace burns.</p>
+<ol><li>The <em>oil tank</em> is down to a quarter.</li><li>An old <em>oil tank</em> in the basement can leak.</li><li>Buried <em>oil tanks</em> are a headache when you sell a house.</li></ol>
+<hr>
+<h3 id="expansion-tank">expansion tank<a class="hash" href="#expansion-tank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspænʃən tæŋk/ &middot; <em>ik-SPAN-shun tank</em></dd><dt>Русский</dt><dd>расширительный бак</dd><dt>Plural</dt><dd><em>expansion tanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small tank that takes up the extra volume of water as it heats.</p>
+<ol><li>Code requires an <em>expansion tank</em> on the water heater.</li><li>The <em>expansion tank</em> had lost its air charge.</li><li><em>Expansion tanks</em> hang off the cold water line.</li></ol>
+<hr>
+<h3 id="circulator">circulator<a class="hash" href="#circulator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrkjəleɪtər/ &middot; <em>SUR-kyuh-lay-tur</em></dd><dt>Русский</dt><dd>циркуляционный насос</dd><dt>Plural</dt><dd><em>circulators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small pump that moves hot water through a heating loop.</p>
+<ol><li>The <em>circulator</em> hums whenever the heat is on.</li><li>A seized <em>circulator</em> left the upstairs cold.</li><li>The boiler feeds three <em>circulators</em>, one per zone.</li></ol>
+<hr>
+<h3 id="boiler-room">boiler room<a class="hash" href="#boiler-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔɪlər ruːm/ &middot; <em>BOY-lur room</em></dd><dt>Русский</dt><dd>котельная</dd><dt>Plural</dt><dd><em>boiler rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The room in a building that holds the boiler and heating equipment.</p>
+<ol><li>The super keeps his tools in the <em>boiler room</em>.</li><li>It's a hundred degrees in the <em>boiler room</em>.</li><li><em>Boiler rooms</em> have to be kept clear of storage.</li></ol>
+<hr>
+<h3 id="airflow">airflow<a class="hash" href="#airflow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrfloʊ/ &middot; <em>AIR-floh</em></dd><dt>Русский</dt><dd>поток воздуха, циркуляция воздуха</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The movement of air through a system or room.</p>
+<ol><li>A dirty filter kills <em>airflow</em>.</li><li>There's almost no <em>airflow</em> from the vent in the back room.</li><li>They redesigned the ducts to improve <em>airflow</em>.</li></ol>
+<hr>
+<h3 id="air-quality">air quality<a class="hash" href="#air-quality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌkwɑːləti/ &middot; <em>AIR kwah-luh-tee</em></dd><dt>Русский</dt><dd>качество воздуха</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How clean and healthy the air in a place is.</p>
+<ol><li>Better ventilation improved the <em>air quality</em> in the classroom.</li><li>The <em>air quality</em> indoors is worse than people think.</li><li>Smoke from the fires ruined the <em>air quality</em> for a week.</li></ol>
+<hr>
+<h3 id="overflow">overflow<a class="hash" href="#overflow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərfloʊ/ &middot; <em>OH-vur-floh</em></dd><dt>Русский</dt><dd>перелив; переполнение</dd><dt>Plural</dt><dd><em>overflows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, OH-vur-floh; the verb is oh-vur-FLOH.</dd></dl>
+<p>An opening or pipe that carries away water when a basin gets too full.</p>
+<ol><li>Water runs out the <em>overflow</em> before the sink can spill.</li><li>The <em>overflow</em> on the tub was plugged with soap.</li><li>Both sinks have <em>overflows</em> near the rim.</li></ol>
+<hr>
+<h3 id="backflow">backflow<a class="hash" href="#backflow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækfloʊ/ &middot; <em>BAK-floh</em></dd><dt>Русский</dt><dd>обратный ток воды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water flowing backward into a clean supply line.</p>
+<ol><li>The valve is there to prevent <em>backflow</em>.</li><li><em>Backflow</em> can push dirty water into the drinking supply.</li><li>The city tests for <em>backflow</em> every year.</li></ol>
+<hr>
+<h3 id="siphon">siphon<a class="hash" href="#siphon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪfən/ &middot; <em>SY-fun</em></dd><dt>Русский</dt><dd>сифон (для перекачивания)</dd><dt>Plural</dt><dd><em>siphons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ph sounds like f, and the word is also spelled syphon.</dd></dl>
+<p>A tube that draws liquid up and over a rim by suction.</p>
+<ol><li>He used a <em>siphon</em> to empty the flooded pit.</li><li>Start the <em>siphon</em> by filling the hose first.</li><li>Simple <em>siphons</em> work with no pump at all.</li></ol>
+<hr>
+<h3 id="water-hammer">water hammer<a class="hash" href="#water-hammer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌhæmər/ &middot; <em>WAW-tur ham-ur</em></dd><dt>Русский</dt><dd>гидравлический удар</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The banging in pipes when flowing water is stopped suddenly.</p>
+<ol><li>You hear <em>water hammer</em> every time the washer shuts off.</li><li><em>Water hammer</em> can eventually crack a joint.</li><li>An arrestor on the line cured the <em>water hammer</em>.</li></ol>
+<hr>
+<h3 id="burst-pipe">burst pipe<a class="hash" href="#burst-pipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbɜːrst ˈpaɪp/ &middot; <em>burst PYPE</em></dd><dt>Русский</dt><dd>лопнувшая труба</dd><dt>Plural</dt><dd><em>burst pipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe that has split open, usually from freezing or pressure.</p>
+<ol><li>A <em>burst pipe</em> flooded the whole first floor.</li><li>The insurance covered the damage from the <em>burst pipe</em>.</li><li>Cold snaps mean a week of <em>burst pipes</em> for plumbers.</li></ol>
+<hr>
+<h3 id="frozen-pipe">frozen pipe<a class="hash" href="#frozen-pipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfroʊzən ˈpaɪp/ &middot; <em>FROH-zun pype</em></dd><dt>Русский</dt><dd>замёрзшая труба</dd><dt>Plural</dt><dd><em>frozen pipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe blocked by ice because the water inside it froze.</p>
+<ol><li>Nothing came out of the faucet — a <em>frozen pipe</em>.</li><li>Thaw a <em>frozen pipe</em> slowly with a hair dryer.</li><li>Leave a faucet dripping and you avoid most <em>frozen pipes</em>.</li></ol>
+<hr>
+<h3 id="water-damage">water damage<a class="hash" href="#water-damage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌdæmɪdʒ/ &middot; <em>WAW-tur dam-ij</em></dd><dt>Русский</dt><dd>повреждения от воды, ущерб от протечки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Damage is uncountable — say "a lot of water damage", never "water damages".</dd></dl>
+<p>Harm done to a building by leaking or standing water.</p>
+<ol><li>There's <em>water damage</em> on the ceiling under the bathroom.</li><li>The leak caused thousands of dollars of <em>water damage</em>.</li><li>They repainted to hide the <em>water damage</em>.</li></ol>
+<hr>
+<h3 id="flooding">flooding<a class="hash" href="#flooding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflʌdɪŋ/ &middot; <em>FLUD-ing</em></dd><dt>Русский</dt><dd>затопление, подтопление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water covering an area that is normally dry.</p>
+<ol><li>The broken main caused <em>flooding</em> in three basements.</li><li><em>Flooding</em> in the crawl space rusted out the ducts.</li><li>We get <em>flooding</em> down here every spring.</li></ol>
+<hr>
+<h3 id="drip">drip<a class="hash" href="#drip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪp/ &middot; <em>DRIP</em></dd><dt>Русский</dt><dd>капанье; капля</dd><dt>Plural</dt><dd><em>drips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small amount of liquid falling one drop at a time.</p>
+<ol><li>That <em>drip</em> kept me awake half the night.</li><li>A slow <em>drip</em> wastes gallons a week.</li><li>There were <em>drips</em> forming along the joint.</li></ol>
+<hr>
+<h3 id="cleanout">cleanout<a class="hash" href="#cleanout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnaʊt/ &middot; <em>KLEEN-owt</em></dd><dt>Русский</dt><dd>ревизия, прочистной люк</dd><dt>Plural</dt><dd><em>cleanouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A capped opening in a drain line that lets a plumber reach a clog.</p>
+<ol><li>The <em>cleanout</em> is buried somewhere in the front yard.</li><li>He pulled the cap off the <em>cleanout</em> and ran the snake in.</li><li>Newer houses have <em>cleanouts</em> at every turn in the line.</li></ol>
+<hr>
+<h3 id="vent-pipe">vent pipe<a class="hash" href="#vent-pipe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛnt paɪp/ &middot; <em>VENT pype</em></dd><dt>Русский</dt><dd>фановая (вентиляционная) труба</dd><dt>Plural</dt><dd><em>vent pipes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe that lets air into a drain system so water flows and smells escape.</p>
+<ol><li>A blocked <em>vent pipe</em> makes the drains gurgle.</li><li>The <em>vent pipe</em> comes out through the roof.</li><li>Birds had nested in one of the <em>vent pipes</em>.</li></ol>
+<hr>
+<h3 id="supply-line">supply line<a class="hash" href="#supply-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈplaɪ laɪn/ &middot; <em>suh-PLY lyne</em></dd><dt>Русский</dt><dd>подводка (гибкая), питающая линия</dd><dt>Plural</dt><dd><em>supply lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The short flexible tube that feeds water to a fixture.</p>
+<ol><li>The <em>supply line</em> to the toilet let go overnight.</li><li>Use a braided <em>supply line</em>, not the plastic kind.</li><li>Replace the <em>supply lines</em> whenever you change a faucet.</li></ol>
+<hr>
+<h3 id="air-gap">air gap<a class="hash" href="#air-gap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ɡæp/ &middot; <em>AIR gap</em></dd><dt>Русский</dt><dd>воздушный разрыв (защита от обратного тока)</dd><dt>Plural</dt><dd><em>air gaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open space in a drain line that keeps dirty water from being sucked back.</p>
+<ol><li>The dishwasher drains through an <em>air gap</em> on the counter.</li><li>Water sprayed out of the <em>air gap</em> when the drain clogged.</li><li>Some codes require <em>air gaps</em> on every appliance drain.</li></ol>
+<hr>
+<h3 id="sewer-gas">sewer gas<a class="hash" href="#sewer-gas" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːər ɡæs/ &middot; <em>SOO-ur gas</em></dd><dt>Русский</dt><dd>канализационные газы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bad-smelling gas that rises out of drains and sewers.</p>
+<ol><li>A dry trap lets <em>sewer gas</em> into the room.</li><li>The basement smelled of <em>sewer gas</em> for weeks.</li><li><em>Sewer gas</em> is not just unpleasant; it can be dangerous.</li></ol>
+<hr>
+<h3 id="manhole-cover">manhole cover<a class="hash" href="#manhole-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænhoʊl ˌkʌvər/ &middot; <em>MAN-hohl kuv-ur</em></dd><dt>Русский</dt><dd>крышка люка</dd><dt>Plural</dt><dd><em>manhole covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The heavy round lid over an opening into a sewer or utility shaft.</p>
+<ol><li>Steam was rising through the <em>manhole cover</em>.</li><li>A truck knocked the <em>manhole cover</em> loose.</li><li>The city stamps the year onto its <em>manhole covers</em>.</li></ol>
+<hr>
+<h3 id="catch-basin">catch basin<a class="hash" href="#catch-basin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætʃ ˌbeɪsən/ &middot; <em>KACH bay-sun</em></dd><dt>Русский</dt><dd>дождеприёмник, ливневый колодец</dd><dt>Plural</dt><dd><em>catch basins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pit under a street grate that collects runoff and traps debris.</p>
+<ol><li>The <em>catch basin</em> on the corner is full of silt.</li><li>Crews vacuum out the <em>catch basin</em> every spring.</li><li>Blocked <em>catch basins</em> flood the whole intersection.</li></ol>
+<hr>
+<h3 id="grate">grate<a class="hash" href="#grate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡreɪt/ &middot; <em>GRAYT</em></dd><dt>Русский</dt><dd>решётка (сливная)</dd><dt>Plural</dt><dd><em>grates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like great.</dd></dl>
+<p>A metal frame of bars covering a drain or opening.</p>
+<ol><li>My keys went through the <em>grate</em> into the storm drain.</li><li>Leaves were piled against the <em>grate</em>.</li><li>The <em>grates</em> are bolted down so nobody steals them.</li></ol>
+<hr>
+<h3 id="well-pump">well pump<a class="hash" href="#well-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛl pʌmp/ &middot; <em>WEL pump</em></dd><dt>Русский</dt><dd>скважинный насос</dd><dt>Plural</dt><dd><em>well pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The pump that brings water up out of a private well.</p>
+<ol><li>The <em>well pump</em> burned out and we had no water for a day.</li><li>A new <em>well pump</em> runs a couple thousand dollars.</li><li>Deep wells need submersible <em>well pumps</em>.</li></ol>
+<hr>
+<h3 id="water-pump">water pump<a class="hash" href="#water-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər pʌmp/ &middot; <em>WAW-tur pump</em></dd><dt>Русский</dt><dd>водяной насос</dd><dt>Plural</dt><dd><em>water pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that moves water through pipes.</p>
+<ol><li>The <em>water pump</em> kicks on whenever someone runs a faucet.</li><li>They hooked a portable <em>water pump</em> to a hose.</li><li>Two <em>water pumps</em> keep the building supplied.</li></ol>
+<hr>
+<h3 id="septic-system">septic system<a class="hash" href="#septic-system" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛptɪk ˌsɪstəm/ &middot; <em>SEP-tik sis-tum</em></dd><dt>Русский</dt><dd>автономная канализация (септик с полем фильтрации)</dd><dt>Plural</dt><dd><em>septic systems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A private waste water system with a tank and a buried drain field.</p>
+<ol><li>The inspector wants to look at the <em>septic system</em>.</li><li>Grease is hard on a <em>septic system</em>.</li><li><em>Septic systems</em> out here have to be permitted.</li></ol>
+<hr>
+<h3 id="drain-field">drain field<a class="hash" href="#drain-field" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪn fiːld/ &middot; <em>DRAYN feeld</em></dd><dt>Русский</dt><dd>поле фильтрации (септика)</dd><dt>Plural</dt><dd><em>drain fields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The buried lines of perforated pipe that let treated waste water soak into the soil.</p>
+<ol><li>Don't park a truck over the <em>drain field</em>.</li><li>The grass above the <em>drain field</em> is greener than the rest.</li><li>Failed <em>drain fields</em> are expensive to replace.</li></ol>
+<hr>
+<h3 id="effluent">effluent<a class="hash" href="#effluent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛfluːənt/ &middot; <em>EF-loo-unt</em></dd><dt>Русский</dt><dd>сточные воды (на выходе)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Liquid waste that flows out of a tank, plant, or building.</p>
+<ol><li>The <em>effluent</em> leaves the tank and soaks into the field.</li><li>They test the <em>effluent</em> before it reaches the creek.</li><li>Treated <em>effluent</em> is used to water the golf course.</li></ol>
+<hr>
+<h3 id="graywater">graywater<a class="hash" href="#graywater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪˌwɔːtər/ &middot; <em>GRAY-waw-tur</em></dd><dt>Русский</dt><dd>серые стоки (вода из раковин и душа)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling graywater; British writing uses greywater.</dd></dl>
+<p>Used water from sinks, showers, and washing machines, but not toilets.</p>
+<ol><li>They reuse <em>graywater</em> on the garden.</li><li><em>Graywater</em> has to be kept separate from the sewer line.</li><li>A <em>graywater</em> system needs a permit in this county.</li></ol>
+<hr>
+<h3 id="purifier">purifier<a class="hash" href="#purifier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjʊrəfaɪrr/ &middot; <em>PYUR-uh-fy-ur</em></dd><dt>Русский</dt><dd>очиститель (воды или воздуха)</dd><dt>Plural</dt><dd><em>purifiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that removes contaminants from water or air.</p>
+<ol><li>We keep a water <em>purifier</em> on the counter.</li><li>The <em>purifier</em> takes out most of the chlorine taste.</li><li>Air <em>purifiers</em> sold out during the fire season.</li></ol>
+<hr>
+<h3 id="water-treatment-plant">water treatment plant<a class="hash" href="#water-treatment-plant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˈtriːtmənt ˌplænt/ &middot; <em>WAW-tur TREET-munt plant</em></dd><dt>Русский</dt><dd>водоочистная станция</dd><dt>Plural</dt><dd><em>water treatment plants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A facility that cleans water before it is piped to homes.</p>
+<ol><li>The <em>water treatment plant</em> sits down by the river.</li><li>A power failure shut the <em>water treatment plant</em> down.</li><li>Two <em>water treatment plants</em> serve the whole county.</li></ol>
+<hr>
+<h3 id="utility-sink">utility sink<a class="hash" href="#utility-sink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtɪləti sɪŋk/ &middot; <em>yoo-TIL-uh-tee singk</em></dd><dt>Русский</dt><dd>хозяйственная раковина</dd><dt>Plural</dt><dd><em>utility sinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep plain sink used for dirty jobs, usually in a basement or garage.</p>
+<ol><li>Rinse the brushes in the <em>utility sink</em>.</li><li>The <em>utility sink</em> drains into the same line as the washer.</li><li>Plastic <em>utility sinks</em> are cheap and hard to break.</li></ol>
+<hr>
+<h3 id="plumbing-fixture">plumbing fixture<a class="hash" href="#plumbing-fixture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplʌmɪŋ ˌfɪkstʃər/ &middot; <em>PLUM-ing fiks-chur</em></dd><dt>Русский</dt><dd>сантехнический прибор</dd><dt>Plural</dt><dd><em>plumbing fixtures</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in plumbing is silent: PLUM-ing.</dd></dl>
+<p>Any sink, tub, toilet, or shower connected to the water and drain lines.</p>
+<ol><li>Every <em>plumbing fixture</em> in the house is original.</li><li>The permit covers moving one <em>plumbing fixture</em>.</li><li>They picked out all the <em>plumbing fixtures</em> before framing started.</li></ol>
+<hr>
+<h3 id="tankless-water-heater">tankless water heater<a class="hash" href="#tankless-water-heater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæŋkləs ˈwɔːtər ˌhiːtər/ &middot; <em>TANK-lus WAW-tur hee-tur</em></dd><dt>Русский</dt><dd>проточный водонагреватель</dd><dt>Plural</dt><dd><em>tankless water heaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A water heater that warms water only as it flows, with no storage tank.</p>
+<ol><li>A <em>tankless water heater</em> never runs out of hot water.</li><li>The <em>tankless water heater</em> needs a bigger gas line.</li><li><em>Tankless water heaters</em> cost more up front.</li></ol>
+<hr>
+<h3 id="pellet-stove">pellet stove<a class="hash" href="#pellet-stove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛlət stoʊv/ &middot; <em>PEL-ut stohv</em></dd><dt>Русский</dt><dd>пеллетная печь</dd><dt>Plural</dt><dd><em>pellet stoves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heater that burns compressed wood pellets fed in automatically.</p>
+<ol><li>The <em>pellet stove</em> heats the whole downstairs.</li><li>We go through a ton of pellets a winter in that <em>pellet stove</em>.</li><li><em>Pellet stoves</em> need electricity to run the auger.</li></ol>
+<hr>
+<h3 id="chimney-sweep">chimney sweep<a class="hash" href="#chimney-sweep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪmni swiːp/ &middot; <em>CHIM-nee sweep</em></dd><dt>Русский</dt><dd>трубочист</dd><dt>Plural</dt><dd><em>chimney sweeps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person whose job is cleaning soot out of chimneys and flues.</p>
+<ol><li>We have a <em>chimney sweep</em> come every fall.</li><li>The <em>chimney sweep</em> found a crack in the liner.</li><li>Good <em>chimney sweeps</em> book up before winter.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

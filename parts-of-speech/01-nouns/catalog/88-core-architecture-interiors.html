@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: architecture and interiors</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-architecture-and-interiors">Core vocabulary: architecture and interiors<a class="hash" href="#core-vocabulary-architecture-and-interiors" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of architecture and interiors — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="flooring">flooring<a class="hash" href="#flooring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːrɪŋ/ &middot; <em>FLOR-ing</em></dd><dt>Русский</dt><dd>напольное покрытие</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: 'new flooring', never 'a flooring' or 'floorings'.</dd></dl>
+<p>The material that covers a floor.</p>
+<ol><li>We're replacing the <em>flooring</em> in the kitchen this spring.</li><li>Bamboo <em>flooring</em> has gotten popular in the last few years.</li><li>The <em>flooring</em> under the sink got soaked.</li></ol>
+<hr>
+<h3 id="floor-plan">floor plan<a class="hash" href="#floor-plan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːr plæn/ &middot; <em>FLOR-plan</em></dd><dt>Русский</dt><dd>план этажа, планировка</dd><dt>Plural</dt><dd><em>floor plans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A drawing that shows how the rooms of a building are arranged.</p>
+<ol><li>The agent emailed us the <em>floor plan</em> before the showing.</li><li>Both <em>floor plans</em> put the laundry in the basement.</li><li>I like this <em>floor plan</em> better because the kitchen opens onto the living room.</li></ol>
+<hr>
+<h3 id="hall">hall<a class="hash" href="#hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːl/ &middot; <em>HAWL</em></dd><dt>Русский</dt><dd>коридор; зал</dd><dt>Plural</dt><dd><em>halls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Homophone of 'haul'. In an American house 'hall' usually means the hallway; British speakers more often mean the entrance area.</dd></dl>
+<p>A passage inside a building that rooms open onto, or a large room used for public events.</p>
+<ol><li>The bathroom is down the <em>hall</em> on your left.</li><li>They rented a <em>hall</em> for the reception.</li><li>Kids were running up and down the <em>halls</em> between classes.</li></ol>
+<hr>
+<h3 id="lighting">lighting<a class="hash" href="#lighting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪtɪŋ/ &middot; <em>LY-ting</em></dd><dt>Русский</dt><dd>освещение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: 'the lighting', never 'lightings'.</dd></dl>
+<p>The light in a room and the equipment that provides it.</p>
+<ol><li>The <em>lighting</em> in that restaurant is way too dim.</li><li>Good <em>lighting</em> makes a small room feel bigger.</li><li>We spent most of the budget on <em>lighting</em>.</li></ol>
+<hr>
+<h3 id="light-fixture">light fixture<a class="hash" href="#light-fixture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪt ˌfɪkstʃər/ &middot; <em>LYT-fiks-chur</em></dd><dt>Русский</dt><dd>светильник (потолочный или настенный)</dd><dt>Plural</dt><dd><em>light fixtures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lamp that is attached to a ceiling or a wall.</p>
+<ol><li>The old <em>light fixture</em> in the hall buzzes.</li><li>We swapped out all the <em>light fixtures</em> for LEDs.</li><li>That <em>light fixture</em> is way too big for this room.</li></ol>
+<hr>
+<h3 id="ceiling-fan">ceiling fan<a class="hash" href="#ceiling-fan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːlɪŋ fæn/ &middot; <em>SEE-ling-fan</em></dd><dt>Русский</dt><dd>потолочный вентилятор</dd><dt>Plural</dt><dd><em>ceiling fans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fan with blades that hangs from a ceiling and cools a room.</p>
+<ol><li>Every bedroom in the house has a <em>ceiling fan</em>.</li><li>The <em>ceiling fan</em> wobbles on the highest setting.</li><li><em>Ceiling fans</em> are cheaper to run than air conditioning.</li></ol>
+<hr>
+<h3 id="light-switch">light switch<a class="hash" href="#light-switch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪt swɪtʃ/ &middot; <em>LYT-swich</em></dd><dt>Русский</dt><dd>выключатель</dd><dt>Plural</dt><dd><em>light switches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small control on a wall that turns a light on and off.</p>
+<ol><li>The <em>light switch</em> is behind the door.</li><li>He painted right over the <em>light switch</em>.</li><li>Both <em>light switches</em> control the same lamp.</li></ol>
+<hr>
+<h3 id="front-door">front door<a class="hash" href="#front-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfrʌnt ˈdɔːr/ &middot; <em>frunt-DOR</em></dd><dt>Русский</dt><dd>входная дверь</dd><dt>Plural</dt><dd><em>front doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main door at the entrance of a house or building.</p>
+<ol><li>Somebody left the <em>front door</em> wide open.</li><li>We painted the <em>front door</em> red.</li><li>The <em>front doors</em> on these condos all look the same.</li></ol>
+<hr>
+<h3 id="screen-door">screen door<a class="hash" href="#screen-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːn dɔːr/ &middot; <em>SKREEN-dor</em></dd><dt>Русский</dt><dd>москитная дверь (с сеткой)</dd><dt>Plural</dt><dd><em>screen doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light outer door with a mesh panel that keeps insects out while letting air in.</p>
+<ol><li>The <em>screen door</em> slammed behind him.</li><li>The cat tore a hole in the <em>screen door</em>.</li><li>Most houses down here have <em>screen doors</em>.</li></ol>
+<hr>
+<h3 id="storm-door">storm door<a class="hash" href="#storm-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrm dɔːr/ &middot; <em>STORM-dor</em></dd><dt>Русский</dt><dd>наружная утеплённая дверь (перед входной)</dd><dt>Plural</dt><dd><em>storm doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extra outer door that protects the main door from wind, rain, and cold.</p>
+<ol><li>We installed a <em>storm door</em> before winter.</li><li>The glass in the <em>storm door</em> cracked.</li><li><em>Storm doors</em> cut down on drafts.</li></ol>
+<hr>
+<h3 id="garage-door">garage door<a class="hash" href="#garage-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈrɑːʒ dɔːr/ &middot; <em>guh-RAHZH-dor</em></dd><dt>Русский</dt><dd>гаражные ворота</dd><dt>Plural</dt><dd><em>garage doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The large door that a car drives through into a garage.</p>
+<ol><li>The <em>garage door</em> opener died again.</li><li>He backed into the <em>garage door</em>.</li><li>Both <em>garage doors</em> need painting.</li></ol>
+<hr>
+<h3 id="sliding-door">sliding door<a class="hash" href="#sliding-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslaɪdɪŋ dɔːr/ &middot; <em>SLY-ding-dor</em></dd><dt>Русский</dt><dd>раздвижная дверь</dd><dt>Plural</dt><dd><em>sliding doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A door that slides sideways instead of swinging open.</p>
+<ol><li>The <em>sliding door</em> to the patio sticks.</li><li>We put in a <em>sliding door</em> to save space.</li><li>The <em>sliding doors</em> are double-paned.</li></ol>
+<hr>
+<h3 id="pocket-door">pocket door<a class="hash" href="#pocket-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːkət dɔːr/ &middot; <em>PAH-kut-dor</em></dd><dt>Русский</dt><dd>дверь-пенал (уезжает в стену)</dd><dt>Plural</dt><dd><em>pocket doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sliding door that disappears into a slot inside the wall.</p>
+<ol><li>A <em>pocket door</em> separates the office from the hall.</li><li>The <em>pocket door</em> came off its track.</li><li><em>Pocket doors</em> work well in a tight hallway.</li></ol>
+<hr>
+<h3 id="revolving-door">revolving door<a class="hash" href="#revolving-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvɑːlvɪŋ dɔːr/ &middot; <em>rih-VAHL-ving-dor</em></dd><dt>Русский</dt><dd>вращающаяся дверь</dd><dt>Plural</dt><dd><em>revolving doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A door made of panels that turn around a center post as people walk through.</p>
+<ol><li>Her coat got caught in the <em>revolving door</em>.</li><li>The lobby has a <em>revolving door</em> and a side entrance.</li><li><em>Revolving doors</em> keep the heat inside.</li></ol>
+<hr>
+<h3 id="door-frame">door frame<a class="hash" href="#door-frame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːr freɪm/ &middot; <em>DOR-fraym</em></dd><dt>Русский</dt><dd>дверная коробка</dd><dt>Plural</dt><dd><em>door frames</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wooden or metal border that a door hangs in.</p>
+<ol><li>We marked the kids' heights on the <em>door frame</em>.</li><li>The <em>door frame</em> is warped, so the door won't latch.</li><li>All the <em>door frames</em> were painted white.</li></ol>
+<hr>
+<h3 id="jamb">jamb<a class="hash" href="#jamb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒæm/ &middot; <em>JAM</em></dd><dt>Русский</dt><dd>дверной косяк</dd><dt>Plural</dt><dd><em>jambs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent — it sounds exactly like 'jam'.</dd></dl>
+<p>The upright side piece of a door or window frame.</p>
+<ol><li>The lock plate is screwed into the <em>jamb</em>.</li><li>He leaned against the door <em>jamb</em> and waited.</li><li>Both <em>jambs</em> had to be replaced after the break-in.</li></ol>
+<hr>
+<h3 id="deadbolt">deadbolt<a class="hash" href="#deadbolt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛdboʊlt/ &middot; <em>DED-bohlt</em></dd><dt>Русский</dt><dd>врезной ригельный замок</dd><dt>Plural</dt><dd><em>deadbolts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong lock with a bolt that slides into the door frame when you turn the key.</p>
+<ol><li>Make sure you throw the <em>deadbolt</em> before bed.</li><li>The landlord added a <em>deadbolt</em> to every unit.</li><li><em>Deadbolts</em> are a lot harder to force.</li></ol>
+<hr>
+<h3 id="peephole">peephole<a class="hash" href="#peephole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːphoʊl/ &middot; <em>PEEP-hohl</em></dd><dt>Русский</dt><dd>дверной глазок</dd><dt>Plural</dt><dd><em>peepholes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hole in a door for looking at whoever is outside.</p>
+<ol><li>She checked the <em>peephole</em> before opening the door.</li><li>There's no <em>peephole</em>, so I never know who's knocking.</li><li>Most apartment doors have <em>peepholes</em>.</li></ol>
+<hr>
+<h3 id="doorstop">doorstop<a class="hash" href="#doorstop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːrstɑːp/ &middot; <em>DOR-stahp</em></dd><dt>Русский</dt><dd>дверной стопор, ограничитель</dd><dt>Plural</dt><dd><em>doorstops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An object that holds a door open or keeps it from hitting the wall.</p>
+<ol><li>He used a brick as a <em>doorstop</em>.</li><li>The rubber <em>doorstop</em> keeps sliding out of place.</li><li><em>Doorstops</em> are usually screwed into the baseboard.</li></ol>
+<hr>
+<h3 id="bay-window">bay window<a class="hash" href="#bay-window" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪ wɪndoʊ/ &middot; <em>BAY-win-doh</em></dd><dt>Русский</dt><dd>эркер</dd><dt>Plural</dt><dd><em>bay windows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A window that sticks out from the wall of a house, usually with glass on three sides.</p>
+<ol><li>The cat sleeps in the <em>bay window</em> all afternoon.</li><li>A <em>bay window</em> would let in a lot more light.</li><li>Both <em>bay windows</em> face the street.</li></ol>
+<hr>
+<h3 id="windowpane">windowpane<a class="hash" href="#windowpane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊpeɪn/ &middot; <em>WIN-doh-payn</em></dd><dt>Русский</dt><dd>оконное стекло (одно)</dd><dt>Plural</dt><dd><em>windowpanes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The 'pane' part sounds exactly like 'pain'.</dd></dl>
+<p>A single sheet of glass set in a window.</p>
+<ol><li>A baseball cracked the <em>windowpane</em>.</li><li>The old <em>windowpanes</em> rattle in the wind.</li><li>He wiped the fog off the <em>windowpane</em>.</li></ol>
+<hr>
+<h3 id="curtain-rod">curtain rod<a class="hash" href="#curtain-rod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrtən rɑːd/ &middot; <em>KUR-tun-rahd</em></dd><dt>Русский</dt><dd>карниз для штор</dd><dt>Plural</dt><dd><em>curtain rods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bar above a window that curtains hang from.</p>
+<ol><li>The <em>curtain rod</em> pulled right out of the drywall.</li><li>We hung the <em>curtain rod</em> higher to make the ceiling look taller.</li><li>The <em>curtain rods</em> came with the apartment.</li></ol>
+<hr>
+<h3 id="window-treatment">window treatment<a class="hash" href="#window-treatment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊ triːtmənt/ &middot; <em>WIN-doh-TREET-munt</em></dd><dt>Русский</dt><dd>оформление окна (шторы, жалюзи)</dd><dt>Plural</dt><dd><em>window treatments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Anything used to cover or decorate a window, such as curtains or blinds.</p>
+<ol><li>The <em>window treatments</em> are included in the sale.</li><li>She hasn't picked a <em>window treatment</em> for the nursery yet.</li><li>Custom <em>window treatments</em> get expensive fast.</li></ol>
+<hr>
+<h3 id="valance">valance<a class="hash" href="#valance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvæləns/ &middot; <em>VAL-uhns</em></dd><dt>Русский</dt><dd>ламбрекен</dd><dt>Plural</dt><dd><em>valances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of fabric hung across the top of a window.</p>
+<ol><li>A blue <em>valance</em> hides the curtain rod.</li><li>Grandma sewed the <em>valance</em> herself.</li><li>The <em>valances</em> match the bedspread.</li></ol>
+<hr>
+<h3 id="stairway">stairway<a class="hash" href="#stairway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛrweɪ/ &middot; <em>STAIR-way</em></dd><dt>Русский</dt><dd>лестница (марш)</dd><dt>Plural</dt><dd><em>stairways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of stairs together with the space around it.</p>
+<ol><li>The <em>stairway</em> to the attic is narrow and steep.</li><li>They met on the <em>stairway</em> between floors.</li><li>Both <em>stairways</em> lead to the same landing.</li></ol>
+<hr>
+<h3 id="spiral-staircase">spiral staircase<a class="hash" href="#spiral-staircase" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪrəl ˈstɛrkeɪs/ &middot; <em>SPY-rul STAIR-kays</em></dd><dt>Русский</dt><dd>винтовая лестница</dd><dt>Plural</dt><dd><em>spiral staircases</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A staircase that winds around a center post.</p>
+<ol><li>A <em>spiral staircase</em> leads up to the loft.</li><li>Getting a couch up a <em>spiral staircase</em> is impossible.</li><li><em>Spiral staircases</em> save a lot of floor space.</li></ol>
+<hr>
+<h3 id="riser">riser<a class="hash" href="#riser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪzər/ &middot; <em>RY-zur</em></dd><dt>Русский</dt><dd>подступенок (вертикальная часть ступени)</dd><dt>Plural</dt><dd><em>risers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The upright board between one stair and the next.</p>
+<ol><li>Each <em>riser</em> is seven inches high.</li><li>We painted the <em>risers</em> white and stained the treads.</li><li>One <em>riser</em> is cracked all the way through.</li></ol>
+<hr>
+<h3 id="archway">archway<a class="hash" href="#archway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtʃweɪ/ &middot; <em>ARCH-way</em></dd><dt>Русский</dt><dd>арочный проём, арка</dd><dt>Plural</dt><dd><em>archways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved opening in a wall that you walk through.</p>
+<ol><li>An <em>archway</em> connects the dining room to the kitchen.</li><li>They knocked out the wall and put in an <em>archway</em>.</li><li>Stone <em>archways</em> line the courtyard.</li></ol>
+<hr>
+<h3 id="walk-in-closet">walk-in closet<a class="hash" href="#walk-in-closet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːk ɪn ˈklɑːzət/ &middot; <em>WAWK-in KLAH-zut</em></dd><dt>Русский</dt><dd>гардеробная комната</dd><dt>Plural</dt><dd><em>walk-in closets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A closet big enough to step inside.</p>
+<ol><li>The master bedroom has a <em>walk-in closet</em>.</li><li>Her <em>walk-in closet</em> is bigger than my kitchen.</li><li>Both bedrooms have <em>walk-in closets</em>.</li></ol>
+<hr>
+<h3 id="crawl-space">crawl space<a class="hash" href="#crawl-space" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːl speɪs/ &middot; <em>KRAWL-spays</em></dd><dt>Русский</dt><dd>подполье, техническое подпольное пространство</dd><dt>Plural</dt><dd><em>crawl spaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low space under a floor or roof, tall enough only to crawl through.</p>
+<ol><li>The pipes run through the <em>crawl space</em>.</li><li>Something died in the <em>crawl space</em> under the porch.</li><li>Houses down here have <em>crawl spaces</em> instead of basements.</li></ol>
+<hr>
+<h3 id="mudroom">mudroom<a class="hash" href="#mudroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌdruːm/ &middot; <em>MUD-room</em></dd><dt>Русский</dt><dd>прихожая для обуви и верхней одежды</dd><dt>Plural</dt><dd><em>mudrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small room by a back or side entrance where people leave coats and dirty shoes.</p>
+<ol><li>Leave your boots in the <em>mudroom</em>.</li><li>We added a <em>mudroom</em> off the garage.</li><li><em>Mudrooms</em> are a must in a snowy climate.</li></ol>
+<hr>
+<h3 id="sunroom">sunroom<a class="hash" href="#sunroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnruːm/ &middot; <em>SUN-room</em></dd><dt>Русский</dt><dd>застеклённая веранда</dd><dt>Plural</dt><dd><em>sunrooms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American. British speakers call it a 'conservatory'.</dd></dl>
+<p>A room with many windows built to catch sunlight.</p>
+<ol><li>We eat breakfast in the <em>sunroom</em>.</li><li>The <em>sunroom</em> gets too hot in August.</li><li><em>Sunrooms</em> add value to a house.</li></ol>
+<hr>
+<h3 id="entryway">entryway<a class="hash" href="#entryway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛntriweɪ/ &middot; <em>EN-tree-way</em></dd><dt>Русский</dt><dd>прихожая, входная зона</dd><dt>Plural</dt><dd><em>entryways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The area just inside the front door of a building.</p>
+<ol><li>Boots piled up in the <em>entryway</em>.</li><li>A mirror makes the <em>entryway</em> feel bigger.</li><li>The <em>entryways</em> in these apartments are tiny.</li></ol>
+<hr>
+<h3 id="vestibule">vestibule<a class="hash" href="#vestibule" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛstəbjuːl/ &middot; <em>VES-tuh-byool</em></dd><dt>Русский</dt><dd>тамбур, вестибюль</dd><dt>Plural</dt><dd><em>vestibules</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small enclosed space between the outer door and the inside of a building.</p>
+<ol><li>Wait in the <em>vestibule</em> until the ceremony starts.</li><li>The mailboxes are in the <em>vestibule</em>.</li><li>Old churches have narrow <em>vestibules</em>.</li></ol>
+<hr>
+<h3 id="nook">nook<a class="hash" href="#nook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nʊk/ &middot; <em>NUUK</em></dd><dt>Русский</dt><dd>укромный уголок</dd><dt>Plural</dt><dd><em>nooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small corner or recess in a room.</p>
+<ol><li>There's a breakfast <em>nook</em> by the window.</li><li>She reads in a <em>nook</em> under the stairs.</li><li>The apartment has two little <em>nooks</em> for storage.</li></ol>
+<hr>
+<h3 id="alcove">alcove<a class="hash" href="#alcove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈælkoʊv/ &middot; <em>AL-kohv</em></dd><dt>Русский</dt><dd>альков, ниша в стене</dd><dt>Plural</dt><dd><em>alcoves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A recessed part of a room set back from the main wall.</p>
+<ol><li>The bed fits right into the <em>alcove</em>.</li><li>A small <em>alcove</em> holds the printer.</li><li>Both <em>alcoves</em> have built-in shelves.</li></ol>
+<hr>
+<h3 id="partition">partition<a class="hash" href="#partition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrˈtɪʃən/ &middot; <em>par-TIH-shun</em></dd><dt>Русский</dt><dd>перегородка</dd><dt>Plural</dt><dd><em>partitions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin wall or screen that divides a room.</p>
+<ol><li>A glass <em>partition</em> separates the two offices.</li><li>They took down the <em>partition</em> to make one big room.</li><li>The <em>partitions</em> don't reach the ceiling.</li></ol>
+<hr>
+<h3 id="accent-wall">accent wall<a class="hash" href="#accent-wall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæksɛnt wɔːl/ &middot; <em>AK-sent-wawl</em></dd><dt>Русский</dt><dd>акцентная стена</dd><dt>Plural</dt><dd><em>accent walls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One wall painted or covered differently from the rest of the room.</p>
+<ol><li>We did a navy <em>accent wall</em> behind the bed.</li><li>The <em>accent wall</em> is the only one with wallpaper.</li><li><em>Accent walls</em> were everywhere ten years ago.</li></ol>
+<hr>
+<h3 id="exposed-brick">exposed brick<a class="hash" href="#exposed-brick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈspoʊzd brɪk/ &middot; <em>ik-SPOHZD-brik</em></dd><dt>Русский</dt><dd>открытая кирпичная кладка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Interior brick left uncovered as a decorative surface.</p>
+<ol><li>The loft has <em>exposed brick</em> on one wall.</li><li><em>Exposed brick</em> is hard to keep clean.</li><li>They stripped the plaster to get down to the <em>exposed brick</em>.</li></ol>
+<hr>
+<h3 id="paneling">paneling<a class="hash" href="#paneling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænəlɪŋ/ &middot; <em>PAN-uh-ling</em></dd><dt>Русский</dt><dd>обшивка стен панелями</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American spelling has one l; British writing has 'panelling'.</dd></dl>
+<p>Flat sheets of wood or other material used to cover a wall.</p>
+<ol><li>The basement still has dark <em>paneling</em> from the seventies.</li><li>We painted over the <em>paneling</em>.</li><li><em>Paneling</em> hides a lot of damage.</li></ol>
+<hr>
+<h3 id="wainscoting">wainscoting<a class="hash" href="#wainscoting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪnskoʊtɪŋ/ &middot; <em>WAYN-skoh-ting</em></dd><dt>Русский</dt><dd>панельная обшивка нижней части стены</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wood paneling that covers the lower part of a wall.</p>
+<ol><li>White <em>wainscoting</em> runs the length of the hallway.</li><li>They added <em>wainscoting</em> to the dining room.</li><li>The <em>wainscoting</em> needs a fresh coat of paint.</li></ol>
+<hr>
+<h3 id="crown-molding">crown molding<a class="hash" href="#crown-molding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkraʊn moʊldɪŋ/ &middot; <em>KROWN MOHL-ding</em></dd><dt>Русский</dt><dd>потолочный плинтус, галтель</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American 'molding'; the British write 'moulding'.</dd></dl>
+<p>Decorative trim that runs along the joint between a wall and the ceiling.</p>
+<ol><li>The whole first floor has <em>crown molding</em>.</li><li>Installing <em>crown molding</em> takes patience.</li><li><em>Crown molding</em> makes a ceiling look taller.</li></ol>
+<hr>
+<h3 id="chair-rail">chair rail<a class="hash" href="#chair-rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛr reɪl/ &middot; <em>CHAIR-rayl</em></dd><dt>Русский</dt><dd>молдинг на уровне спинки стула</dd><dt>Plural</dt><dd><em>chair rails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strip of molding running around a room at about the height of a chair back.</p>
+<ol><li>A <em>chair rail</em> divides the paint from the wallpaper.</li><li>They put a <em>chair rail</em> in the dining room.</li><li><em>Chair rails</em> protect the wall from scuffs.</li></ol>
+<hr>
+<h3 id="shiplap">shiplap<a class="hash" href="#shiplap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪplæp/ &middot; <em>SHIP-lap</em></dd><dt>Русский</dt><dd>вагонка (горизонтальная обшивка внахлёст)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Boards laid in overlapping horizontal rows to cover a wall.</p>
+<ol><li>The bathroom walls are white <em>shiplap</em>.</li><li><em>Shiplap</em> got popular from home renovation shows.</li><li>They covered the fireplace wall in <em>shiplap</em>.</li></ol>
+<hr>
+<h3 id="beadboard">beadboard<a class="hash" href="#beadboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːdbɔːrd/ &middot; <em>BEED-bord</em></dd><dt>Русский</dt><dd>вагонка с бортиком (вертикальные рейки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wall paneling made of narrow vertical boards with grooves between them.</p>
+<ol><li><em>Beadboard</em> runs halfway up the bathroom wall.</li><li>We painted the <em>beadboard</em> a soft gray.</li><li>The porch ceiling is <em>beadboard</em>.</li></ol>
+<hr>
+<h3 id="backsplash">backsplash<a class="hash" href="#backsplash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækˌsplæʃ/ &middot; <em>BAK-splash</em></dd><dt>Русский</dt><dd>фартук (кухонный, у стены)</dd><dt>Plural</dt><dd><em>backsplashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wall surface behind a sink or stove, usually tiled.</p>
+<ol><li>We tiled the <em>backsplash</em> ourselves.</li><li>The <em>backsplash</em> goes all the way up to the cabinets.</li><li>Marble <em>backsplashes</em> stain easily.</li></ol>
+<hr>
+<h3 id="subway-tile">subway tile<a class="hash" href="#subway-tile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ taɪl/ &middot; <em>SUB-way-tyl</em></dd><dt>Русский</dt><dd>плитка «кабанчик»</dd><dt>Plural</dt><dd><em>subway tiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat rectangular wall tile like the ones in old train stations.</p>
+<ol><li>The kitchen has a white <em>subway tile</em> backsplash.</li><li>We laid the <em>subway tiles</em> in a straight grid.</li><li><em>Subway tile</em> never really goes out of style.</li></ol>
+<hr>
+<h3 id="kitchen-island">kitchen island<a class="hash" href="#kitchen-island" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtʃən aɪlənd/ &middot; <em>KIH-chun EYE-lund</em></dd><dt>Русский</dt><dd>кухонный остров</dd><dt>Plural</dt><dd><em>kitchen islands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The s in 'island' is silent: EYE-lund.</dd></dl>
+<p>A freestanding counter in the middle of a kitchen.</p>
+<ol><li>The kids do homework at the <em>kitchen island</em>.</li><li>A <em>kitchen island</em> would eat up too much floor space.</li><li>Both <em>kitchen islands</em> had seating on one side.</li></ol>
+<hr>
+<h3 id="cabinetry">cabinetry<a class="hash" href="#cabinetry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæbənətri/ &middot; <em>KAB-uh-nuh-tree</em></dd><dt>Русский</dt><dd>встроенные шкафы (как единое целое)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The built-in cabinets of a kitchen or bathroom taken together.</p>
+<ol><li>The <em>cabinetry</em> is solid maple.</li><li>New <em>cabinetry</em> was half the cost of the remodel.</li><li>They refinished the <em>cabinetry</em> instead of replacing it.</li></ol>
+<hr>
+<h3 id="floorboard">floorboard<a class="hash" href="#floorboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːrbɔːrd/ &middot; <em>FLOR-bord</em></dd><dt>Русский</dt><dd>половица</dd><dt>Plural</dt><dd><em>floorboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the long boards that make up a wooden floor.</p>
+<ol><li>A loose <em>floorboard</em> squeaks by the door.</li><li>They pulled up the carpet and found the original <em>floorboards</em>.</li><li>One <em>floorboard</em> warped after the leak.</li></ol>
+<hr>
+<h3 id="laminate">laminate<a class="hash" href="#laminate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæmənət/ &middot; <em>LAM-uh-nut</em></dd><dt>Русский</dt><dd>ламинат</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is LAM-uh-nut; the verb 'to laminate' ends in -ayt.</dd></dl>
+<p>A hard flooring or counter surface made of pressed layers with a printed top.</p>
+<ol><li>The kitchen floor is <em>laminate</em>, not real wood.</li><li><em>Laminate</em> is cheaper and easier to install than hardwood.</li><li>Water gets under the <em>laminate</em> and swells it.</li></ol>
+<hr>
+<h3 id="linoleum">linoleum<a class="hash" href="#linoleum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪˈnoʊliəm/ &middot; <em>lih-NOH-lee-um</em></dd><dt>Русский</dt><dd>линолеум</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A smooth flooring material sold in sheets and glued down.</p>
+<ol><li>The old <em>linoleum</em> is peeling at the corners.</li><li><em>Linoleum</em> is easy to mop.</li><li>They tore out the <em>linoleum</em> and put down tile.</li></ol>
+<hr>
+<h3 id="parquet">parquet<a class="hash" href="#parquet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrˈkeɪ/ &middot; <em>par-KAY</em></dd><dt>Русский</dt><dd>паркет</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>From French: the t is silent and the stress falls on the second syllable, par-KAY.</dd></dl>
+<p>Wood flooring laid in a geometric pattern of small blocks.</p>
+<ol><li>The living room still has its original <em>parquet</em>.</li><li><em>Parquet</em> was everywhere in older apartments.</li><li>They refinished the <em>parquet</em> to bring back the shine.</li></ol>
+<hr>
+<h3 id="carpeting">carpeting<a class="hash" href="#carpeting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpətɪŋ/ &middot; <em>KAR-puh-ting</em></dd><dt>Русский</dt><dd>ковровое покрытие</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: 'new carpeting', never 'carpetings'.</dd></dl>
+<p>Carpet material covering a floor.</p>
+<ol><li>The bedrooms all have wall-to-wall <em>carpeting</em>.</li><li>The <em>carpeting</em> in the hall is worn through.</li><li>We pulled up the <em>carpeting</em> and found hardwood.</li></ol>
+<hr>
+<h3 id="area-rug">area rug<a class="hash" href="#area-rug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛriə rʌɡ/ &middot; <em>AIR-ee-uh-rug</em></dd><dt>Русский</dt><dd>ковёр (небольшой, не во всю комнату)</dd><dt>Plural</dt><dd><em>area rugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rug that covers part of a floor and can be moved.</p>
+<ol><li>An <em>area rug</em> pulls the seating together.</li><li>We rolled up the <em>area rug</em> before the party.</li><li><em>Area rugs</em> are easier to clean than carpet.</li></ol>
+<hr>
+<h3 id="throw-pillow">throw pillow<a class="hash" href="#throw-pillow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθroʊ pɪloʊ/ &middot; <em>THROH-pih-loh</em></dd><dt>Русский</dt><dd>декоративная подушка</dd><dt>Plural</dt><dd><em>throw pillows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small decorative pillow placed on a sofa or bed.</p>
+<ol><li>There are six <em>throw pillows</em> on that couch.</li><li>The <em>throw pillow</em> matches the curtains.</li><li>He shoved the <em>throw pillows</em> on the floor so he could sit down.</li></ol>
+<hr>
+<h3 id="throw-blanket">throw blanket<a class="hash" href="#throw-blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθroʊ blæŋkət/ &middot; <em>THROH-BLANG-kut</em></dd><dt>Русский</dt><dd>плед (декоративный)</dd><dt>Plural</dt><dd><em>throw blankets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small blanket kept out for decoration and quick warmth.</p>
+<ol><li>A gray <em>throw blanket</em> hangs over the armchair.</li><li>She knitted the <em>throw blanket</em> herself.</li><li><em>Throw blankets</em> are draped on every chair in the room.</li></ol>
+<hr>
+<h3 id="sconce">sconce<a class="hash" href="#sconce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɑːns/ &middot; <em>SKAHNS</em></dd><dt>Русский</dt><dd>бра (настенный светильник)</dd><dt>Plural</dt><dd><em>sconces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light fixture mounted on a wall.</p>
+<ol><li>Two <em>sconces</em> flank the bathroom mirror.</li><li>The <em>sconce</em> by the stairs burned out.</li><li>Brass <em>sconces</em> line the hallway.</li></ol>
+<hr>
+<h3 id="pendant-light">pendant light<a class="hash" href="#pendant-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛndənt laɪt/ &middot; <em>PEN-dunt-lyt</em></dd><dt>Русский</dt><dd>подвесной светильник</dd><dt>Plural</dt><dd><em>pendant lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light that hangs from the ceiling on a cord or chain.</p>
+<ol><li>Three <em>pendant lights</em> hang over the island.</li><li>The <em>pendant light</em> is too low over the table.</li><li>We ordered glass <em>pendant lights</em> for the kitchen.</li></ol>
+<hr>
+<h3 id="track-lighting">track lighting<a class="hash" href="#track-lighting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræk laɪtɪŋ/ &middot; <em>TRAK-LY-ting</em></dd><dt>Русский</dt><dd>трековое освещение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Lights mounted on a bar so they can be moved along it and aimed.</p>
+<ol><li><em>Track lighting</em> runs the length of the gallery.</li><li>We replaced the <em>track lighting</em> with recessed cans.</li><li><em>Track lighting</em> is handy over a work counter.</li></ol>
+<hr>
+<h3 id="recessed-lighting">recessed lighting<a class="hash" href="#recessed-lighting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈsɛst laɪtɪŋ/ &middot; <em>rih-SEST LY-ting</em></dd><dt>Русский</dt><dd>встроенные точечные светильники</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Lights set into holes in the ceiling so they sit flush with it.</p>
+<ol><li>The kitchen has <em>recessed lighting</em> over the counters.</li><li><em>Recessed lighting</em> makes a low ceiling feel higher.</li><li>They added <em>recessed lighting</em> during the remodel.</li></ol>
+<hr>
+<h3 id="floor-lamp">floor lamp<a class="hash" href="#floor-lamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːr læmp/ &middot; <em>FLOR-lamp</em></dd><dt>Русский</dt><dd>торшер</dd><dt>Plural</dt><dd><em>floor lamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall lamp that stands on the floor.</p>
+<ol><li>A <em>floor lamp</em> lights the reading chair.</li><li>The <em>floor lamp</em> takes three bulbs.</li><li>Both <em>floor lamps</em> came from a thrift store.</li></ol>
+<hr>
+<h3 id="table-lamp">table lamp<a class="hash" href="#table-lamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪbəl læmp/ &middot; <em>TAY-bul-lamp</em></dd><dt>Русский</dt><dd>настольная лампа</dd><dt>Plural</dt><dd><em>table lamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small lamp meant to sit on a table or a desk.</p>
+<ol><li>Leave the <em>table lamp</em> on for him.</li><li>The <em>table lamp</em> has a linen shade.</li><li><em>Table lamps</em> give softer light than an overhead fixture.</li></ol>
+<hr>
+<h3 id="dimmer">dimmer<a class="hash" href="#dimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪmər/ &middot; <em>DIH-mur</em></dd><dt>Русский</dt><dd>диммер, регулятор яркости</dd><dt>Plural</dt><dd><em>dimmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A switch that lets you make lights brighter or darker.</p>
+<ol><li>Put the dining room lights on a <em>dimmer</em>.</li><li>The <em>dimmer</em> buzzes when it's turned down low.</li><li><em>Dimmers</em> aren't compatible with every bulb.</li></ol>
+<hr>
+<h3 id="vaulted-ceiling">vaulted ceiling<a class="hash" href="#vaulted-ceiling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔːltəd siːlɪŋ/ &middot; <em>VAWL-tud SEE-ling</em></dd><dt>Русский</dt><dd>высокий сводчатый потолок</dd><dt>Plural</dt><dd><em>vaulted ceilings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceiling that rises to a high point instead of running flat.</p>
+<ol><li>The living room has a <em>vaulted ceiling</em> and a skylight.</li><li><em>Vaulted ceilings</em> are expensive to heat.</li><li>That <em>vaulted ceiling</em> makes the room feel huge.</li></ol>
+<hr>
+<h3 id="drop-ceiling">drop ceiling<a class="hash" href="#drop-ceiling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːp siːlɪŋ/ &middot; <em>DRAHP-SEE-ling</em></dd><dt>Русский</dt><dd>подвесной потолок (из плит)</dd><dt>Plural</dt><dd><em>drop ceilings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A second ceiling of panels hung below the real one to hide pipes and wiring.</p>
+<ol><li>The office has a <em>drop ceiling</em> with fluorescent lights.</li><li>A tile fell out of the <em>drop ceiling</em>.</li><li><em>Drop ceilings</em> make a basement feel low.</li></ol>
+<hr>
+<h3 id="popcorn-ceiling">popcorn ceiling<a class="hash" href="#popcorn-ceiling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːpkɔːrn siːlɪŋ/ &middot; <em>PAHP-korn SEE-ling</em></dd><dt>Русский</dt><dd>потолок с фактурным напылением («шуба»)</dd><dt>Plural</dt><dd><em>popcorn ceilings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ceiling sprayed with a bumpy textured coating.</p>
+<ol><li>We scraped the <em>popcorn ceiling</em> off every bedroom.</li><li>The house still has <em>popcorn ceilings</em> from the seventies.</li><li>A <em>popcorn ceiling</em> is a pain to patch.</li></ol>
+<hr>
+<h3 id="wall-art">wall art<a class="hash" href="#wall-art" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːl ɑːrt/ &middot; <em>WAWL-art</em></dd><dt>Русский</dt><dd>настенный декор, картины на стенах</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Pictures and decorative pieces hung on walls.</p>
+<ol><li>The apartment has no <em>wall art</em> at all.</li><li>She buys <em>wall art</em> at flea markets.</li><li><em>Wall art</em> warms up a blank hallway.</li></ol>
+<hr>
+<h3 id="picture-frame">picture frame<a class="hash" href="#picture-frame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪktʃər freɪm/ &middot; <em>PIK-chur-fraym</em></dd><dt>Русский</dt><dd>рамка для картины или фото</dd><dt>Plural</dt><dd><em>picture frames</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The border that holds a picture or photograph.</p>
+<ol><li>The <em>picture frame</em> over the sofa is crooked.</li><li>He bought matching black <em>picture frames</em>.</li><li>The glass in the <em>picture frame</em> broke.</li></ol>
+<hr>
+<h3 id="wall-hanging">wall hanging<a class="hash" href="#wall-hanging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːl hæŋɪŋ/ &middot; <em>WAWL-HANG-ing</em></dd><dt>Русский</dt><dd>настенное панно, гобелен</dd><dt>Plural</dt><dd><em>wall hangings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of cloth or woven art displayed on a wall.</p>
+<ol><li>A woven <em>wall hanging</em> covers the crack in the plaster.</li><li>She made the <em>wall hanging</em> out of scrap yarn.</li><li>The <em>wall hangings</em> came from a market in Santa Fe.</li></ol>
+<hr>
+<h3 id="knickknack">knickknack<a class="hash" href="#knickknack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪknæk/ &middot; <em>NIK-nak</em></dd><dt>Русский</dt><dd>безделушка, статуэтка</dd><dt>Plural</dt><dd><em>knickknacks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Both k's before n are silent: NIK-nak.</dd></dl>
+<p>A small decorative object of little value.</p>
+<ol><li>Her shelves are covered in <em>knickknacks</em>.</li><li>Every <em>knickknack</em> in that room has to be dusted.</li><li>He bought a ceramic <em>knickknack</em> at the gift shop.</li></ol>
+<hr>
+<h3 id="artwork">artwork<a class="hash" href="#artwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtwɜːrk/ &middot; <em>ART-wurk</em></dd><dt>Русский</dt><dd>предметы искусства, картины (собирательно)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in everyday American English: 'a lot of artwork', not 'artworks'.</dd></dl>
+<p>Paintings, prints, and other art considered together.</p>
+<ol><li>The hotel spent a fortune on <em>artwork</em>.</li><li>There's not much <em>artwork</em> on the walls.</li><li>We packed the <em>artwork</em> last.</li></ol>
+<hr>
+<h3 id="decal">decal<a class="hash" href="#decal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːkæl/ &middot; <em>DEE-kal</em></dd><dt>Русский</dt><dd>наклейка (декоративная)</dd><dt>Plural</dt><dd><em>decals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American word; the British say 'transfer'.</dd></dl>
+<p>A design printed on film that is stuck onto a surface.</p>
+<ol><li>She put a vinyl <em>decal</em> of a tree on the nursery wall.</li><li>The <em>decal</em> peeled off in the sun.</li><li><em>Decals</em> come off without damaging the paint.</li></ol>
+<hr>
+<h3 id="stencil">stencil<a class="hash" href="#stencil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛnsəl/ &middot; <em>STEN-sul</em></dd><dt>Русский</dt><dd>трафарет</dd><dt>Plural</dt><dd><em>stencils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cut-out sheet used to paint a repeated shape onto a surface.</p>
+<ol><li>She painted the border with a <em>stencil</em>.</li><li>The <em>stencil</em> slipped and smeared the paint.</li><li><em>Stencils</em> are an easy way to fake wallpaper.</li></ol>
+<hr>
+<h3 id="fresco">fresco<a class="hash" href="#fresco" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɛskoʊ/ &middot; <em>FRES-koh</em></dd><dt>Русский</dt><dd>фреска</dd><dt>Plural</dt><dd><em>frescoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A painting made on fresh wet plaster so the color soaks into the wall.</p>
+<ol><li>A faded <em>fresco</em> covers the chapel ceiling.</li><li>The <em>frescoes</em> were restored last year.</li><li>Only part of the <em>fresco</em> survived the fire.</li></ol>
+<hr>
+<h3 id="color-scheme">color scheme<a class="hash" href="#color-scheme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlər skiːm/ &middot; <em>KUH-lur-skeem</em></dd><dt>Русский</dt><dd>цветовая гамма</dd><dt>Plural</dt><dd><em>color schemes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American 'color'; British 'colour'.</dd></dl>
+<p>The set of colors chosen to work together in a room or a design.</p>
+<ol><li>The whole house follows one <em>color scheme</em>.</li><li>We picked a <em>color scheme</em> of gray, white, and brass.</li><li>Their <em>color schemes</em> clash from room to room.</li></ol>
+<hr>
+<h3 id="focal-point">focal point<a class="hash" href="#focal-point" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊkəl pɔɪnt/ &middot; <em>FOH-kul-poynt</em></dd><dt>Русский</dt><dd>смысловой центр, акцент (в интерьере)</dd><dt>Plural</dt><dd><em>focal points</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The feature in a room that the eye goes to first.</p>
+<ol><li>The fireplace is the <em>focal point</em> of the room.</li><li>Every space needs a <em>focal point</em>.</li><li>The two <em>focal points</em> compete with each other.</li></ol>
+<hr>
+<h3 id="curb-appeal">curb appeal<a class="hash" href="#curb-appeal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrb əpiːl/ &middot; <em>KURB-uh-peel</em></dd><dt>Русский</dt><dd>привлекательность дома снаружи</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American 'curb'; the British spell it 'kerb'.</dd></dl>
+<p>How attractive a house looks from the street.</p>
+<ol><li>New shutters really improved the <em>curb appeal</em>.</li><li>The house has zero <em>curb appeal</em>.</li><li>Landscaping adds <em>curb appeal</em> before a sale.</li></ol>
+<hr>
+<h3 id="square-footage">square footage<a class="hash" href="#square-footage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌskwɛr ˈfʊtɪdʒ/ &middot; <em>skwair FUUT-ij</em></dd><dt>Русский</dt><dd>площадь (в квадратных футах)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans size homes in square feet; most other countries use square meters.</dd></dl>
+<p>The floor area of a building measured in square feet.</p>
+<ol><li>What's the <em>square footage</em> of the second floor?</li><li>The listing overstates the <em>square footage</em>.</li><li>Price per foot depends on the <em>square footage</em>.</li></ol>
+<hr>
+<h3 id="open-floor-plan">open floor plan<a class="hash" href="#open-floor-plan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊpən ˈflɔːr plæn/ &middot; <em>OH-pun FLOR-plan</em></dd><dt>Русский</dt><dd>открытая планировка</dd><dt>Plural</dt><dd><em>open floor plans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A layout where the kitchen, dining, and living areas share one large space.</p>
+<ol><li>The remodel gave them an <em>open floor plan</em>.</li><li>An <em>open floor plan</em> is great until somebody's on a call.</li><li>Most new builds have <em>open floor plans</em>.</li></ol>
+<hr>
+<h3 id="interior">interior<a class="hash" href="#interior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈtɪriər/ &middot; <em>in-TEER-ee-ur</em></dd><dt>Русский</dt><dd>интерьер, внутреннее пространство</dd><dt>Plural</dt><dd><em>interiors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The inside of a building or a vehicle.</p>
+<ol><li>The <em>interior</em> of the church is plain white.</li><li>They gutted the <em>interior</em> and started over.</li><li>The <em>interiors</em> in that magazine are all beige.</li></ol>
+<hr>
+<h3 id="exterior">exterior<a class="hash" href="#exterior" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈstɪriər/ &middot; <em>ik-STEER-ee-ur</em></dd><dt>Русский</dt><dd>наружная часть здания, внешний вид</dd><dt>Plural</dt><dd><em>exteriors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outside surface of a building.</p>
+<ol><li>The <em>exterior</em> needs paint.</li><li>They kept the brick <em>exterior</em> and rebuilt everything inside.</li><li>The <em>exteriors</em> of these townhouses are identical.</li></ol>
+<hr>
+<h3 id="minimalism">minimalism<a class="hash" href="#minimalism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪnəməlɪzəm/ &middot; <em>MIN-uh-muh-lih-zum</em></dd><dt>Русский</dt><dd>минимализм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A style that uses very few and very plain elements.</p>
+<ol><li>The house is pure <em>minimalism</em> — white walls and no clutter.</li><li><em>Minimalism</em> looks easy but it's hard to live with.</li><li>She went through a <em>minimalism</em> phase and sold half her furniture.</li></ol>
+<hr>
+<h3 id="modernism">modernism<a class="hash" href="#modernism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːdərnɪzəm/ &middot; <em>MAH-dur-nih-zum</em></dd><dt>Русский</dt><dd>модернизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The twentieth-century style of plain surfaces, glass, and steel with almost no ornament.</p>
+<ol><li><em>Modernism</em> stripped buildings down to their structure.</li><li>The museum is a landmark of American <em>modernism</em>.</li><li>He collects furniture from the height of <em>modernism</em>.</li></ol>
+<hr>
+<h3 id="ornamentation">ornamentation<a class="hash" href="#ornamentation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrnəmənˈteɪʃən/ &middot; <em>or-nuh-mun-TAY-shun</em></dd><dt>Русский</dt><dd>орнамент, декоративная отделка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Decorative detail added to a building or an object.</p>
+<ol><li>The facade is covered in carved <em>ornamentation</em>.</li><li>Modern buildings use almost no <em>ornamentation</em>.</li><li>The <em>ornamentation</em> around the doorway is original.</li></ol>
+<hr>
+<h3 id="finish">finish<a class="hash" href="#finish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪnɪʃ/ &middot; <em>FIH-nish</em></dd><dt>Русский</dt><dd>покрытие, отделка поверхности</dd><dt>Plural</dt><dd><em>finishes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The final coating or surface treatment on wood, metal, or a wall.</p>
+<ol><li>The table has a glossy <em>finish</em>.</li><li>We picked a matte <em>finish</em> for the trim.</li><li>The <em>finishes</em> throughout the house are brushed nickel.</li></ol>
+<hr>
+<h3 id="sealant">sealant<a class="hash" href="#sealant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːlənt/ &middot; <em>SEE-lunt</em></dd><dt>Русский</dt><dd>герметик</dd><dt>Plural</dt><dd><em>sealants</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A substance spread into joints or over a surface to keep water out.</p>
+<ol><li>Run a bead of <em>sealant</em> around the tub.</li><li>The deck needs <em>sealant</em> every couple of years.</li><li>Some <em>sealants</em> take a full day to cure.</li></ol>
+<hr>
+<h3 id="lacquer">lacquer<a class="hash" href="#lacquer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlækər/ &middot; <em>LAK-ur</em></dd><dt>Русский</dt><dd>лак (глянцевый)</dd><dt>Plural</dt><dd><em>lacquers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A hard glossy coating brushed or sprayed onto wood or metal.</p>
+<ol><li>The cabinet is finished in black <em>lacquer</em>.</li><li><em>Lacquer</em> dries much faster than varnish.</li><li>He sprayed three coats of <em>lacquer</em> on the doors.</li></ol>
+<hr>
+<h3 id="remodel">remodel<a class="hash" href="#remodel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːmɑːdəl/ &middot; <em>REE-mah-dul</em></dd><dt>Русский</dt><dd>ремонт с перепланировкой</dd><dt>Plural</dt><dd><em>remodels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is stressed on the first syllable, REE-mah-dul; the verb on the second, ree-MAH-dul.</dd></dl>
+<p>A project that rebuilds and updates part of a building.</p>
+<ol><li>The kitchen <em>remodel</em> took four months.</li><li>We're saving up for a bathroom <em>remodel</em>.</li><li>Both <em>remodels</em> went way over budget.</li></ol>
+<hr>
+<h3 id="builder">builder<a class="hash" href="#builder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪldər/ &middot; <em>BIL-dur</em></dd><dt>Русский</dt><dd>строитель, застройщик</dd><dt>Plural</dt><dd><em>builders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or company that puts up houses and buildings.</p>
+<ol><li>The <em>builder</em> finished the whole subdivision in a year.</li><li>Ask the <em>builder</em> what the warranty covers.</li><li>Local <em>builders</em> are booked through next spring.</li></ol>
+<hr>
+<h3 id="mason">mason<a class="hash" href="#mason" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪsən/ &middot; <em>MAY-sun</em></dd><dt>Русский</dt><dd>каменщик</dd><dt>Plural</dt><dd><em>masons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker who builds with brick or stone.</p>
+<ol><li>A <em>mason</em> rebuilt the chimney.</li><li>The <em>masons</em> start at seven in the morning.</li><li>It takes a good <em>mason</em> to match the old brick.</li></ol>
+<hr>
+<h3 id="carpentry">carpentry<a class="hash" href="#carpentry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpəntri/ &middot; <em>KAR-pun-tree</em></dd><dt>Русский</dt><dd>плотницкое и столярное дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of building and shaping things out of wood.</p>
+<ol><li>The <em>carpentry</em> in this house is beautiful.</li><li>He learned <em>carpentry</em> from his father.</li><li>Rough <em>carpentry</em> comes before the drywall goes up.</li></ol>
+<hr>
+<h3 id="brickwork">brickwork<a class="hash" href="#brickwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɪkwɜːrk/ &middot; <em>BRIK-wurk</em></dd><dt>Русский</dt><dd>кирпичная кладка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bricks of a building considered as a surface or a structure.</p>
+<ol><li>The <em>brickwork</em> on the north wall is crumbling.</li><li>They repointed the <em>brickwork</em> last summer.</li><li>Decorative <em>brickwork</em> frames each window.</li></ol>
+<hr>
+<h3 id="stonework">stonework<a class="hash" href="#stonework" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstoʊnwɜːrk/ &middot; <em>STOHN-wurk</em></dd><dt>Русский</dt><dd>каменная кладка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stone parts of a building, or work done in stone.</p>
+<ol><li>The <em>stonework</em> around the entrance is hand-cut.</li><li>Water damaged the <em>stonework</em> at the base of the tower.</li><li>The <em>stonework</em> took two masons all summer.</li></ol>
+<hr>
+<h3 id="woodwork">woodwork<a class="hash" href="#woodwork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdwɜːrk/ &middot; <em>WUUD-wurk</em></dd><dt>Русский</dt><dd>деревянная отделка (двери, плинтусы, наличники)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The wooden trim, doors, and molding inside a house.</p>
+<ol><li>All the <em>woodwork</em> is painted white.</li><li>The original <em>woodwork</em> survived the renovation.</li><li>Somebody stripped the paint off the <em>woodwork</em>.</li></ol>
+<hr>
+<h3 id="framing">framing<a class="hash" href="#framing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪmɪŋ/ &middot; <em>FRAY-ming</em></dd><dt>Русский</dt><dd>каркас здания</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The wooden or steel skeleton that a building is built on.</p>
+<ol><li>The <em>framing</em> goes up this week.</li><li>Termites got into the <em>framing</em>.</li><li>You can see the <em>framing</em> through the open drywall.</li></ol>
+<hr>
+<h3 id="joist">joist<a class="hash" href="#joist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɔɪst/ &middot; <em>JOYST</em></dd><dt>Русский</dt><dd>балка перекрытия, лага</dd><dt>Plural</dt><dd><em>joists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the parallel beams that support a floor or a ceiling.</p>
+<ol><li>Screw the bracket into a <em>joist</em>, not just the drywall.</li><li>The floor sags because a <em>joist</em> cracked.</li><li>The <em>joists</em> are sixteen inches apart.</li></ol>
+<hr>
+<h3 id="rafter">rafter<a class="hash" href="#rafter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræftər/ &middot; <em>RAF-tur</em></dd><dt>Русский</dt><dd>стропило</dd><dt>Plural</dt><dd><em>rafters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the sloping beams that hold up a roof.</p>
+<ol><li>You can see the <em>rafters</em> from the loft.</li><li>A <em>rafter</em> rotted where the roof leaked.</li><li>Bats got in between the <em>rafters</em>.</li></ol>
+<hr>
+<h3 id="truss">truss<a class="hash" href="#truss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trʌs/ &middot; <em>TRUSS</em></dd><dt>Русский</dt><dd>стропильная ферма</dd><dt>Plural</dt><dd><em>trusses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A triangular frame of beams that supports a roof or a bridge.</p>
+<ol><li>The roof <em>trusses</em> arrived on a flatbed.</li><li>One <em>truss</em> was damaged in shipping.</li><li>Steel <em>trusses</em> span the whole warehouse.</li></ol>
+<hr>
+<h3 id="girder">girder<a class="hash" href="#girder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɜːrdər/ &middot; <em>GUR-dur</em></dd><dt>Русский</dt><dd>балка (стальная несущая)</dd><dt>Plural</dt><dd><em>girders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large metal beam that carries the weight of a structure.</p>
+<ol><li>Steel <em>girders</em> hold up the parking deck.</li><li>A crane lifted the <em>girder</em> into place.</li><li>The <em>girders</em> are left exposed on purpose.</li></ol>
+<hr>
+<h3 id="subfloor">subfloor<a class="hash" href="#subfloor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbflɔːr/ &middot; <em>SUB-flor</em></dd><dt>Русский</dt><dd>черновой пол</dd><dt>Plural</dt><dd><em>subfloors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rough floor laid over the joists, under the finished flooring.</p>
+<ol><li>The leak soaked into the <em>subfloor</em>.</li><li>They screwed down the <em>subfloor</em> to stop the squeaking.</li><li><em>Subfloors</em> are usually plywood.</li></ol>
+<hr>
+<h3 id="slab">slab<a class="hash" href="#slab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slæb/ &middot; <em>SLAB</em></dd><dt>Русский</dt><dd>плита (бетонная)</dd><dt>Plural</dt><dd><em>slabs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick flat piece of concrete poured as a floor or a foundation.</p>
+<ol><li>The house sits on a concrete <em>slab</em>.</li><li>They poured the <em>slab</em> on Monday.</li><li>Cracks in these <em>slabs</em> are common down here.</li></ol>
+<hr>
+<h3 id="cinder-block">cinder block<a class="hash" href="#cinder-block" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪndər blɑːk/ &middot; <em>SIN-dur-blahk</em></dd><dt>Русский</dt><dd>шлакоблок</dd><dt>Plural</dt><dd><em>cinder blocks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say 'breeze block'.</dd></dl>
+<p>A large hollow gray building block made of concrete.</p>
+<ol><li>The basement walls are bare <em>cinder block</em>.</li><li>He stacked <em>cinder blocks</em> to make a bench.</li><li>A <em>cinder block</em> wall separates the two lots.</li></ol>
+<hr>
+<h3 id="load-bearing-wall">load-bearing wall<a class="hash" href="#load-bearing-wall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊd bɛrɪŋ wɔːl/ &middot; <em>LOHD-BAIR-ing-wawl</em></dd><dt>Русский</dt><dd>несущая стена</dd><dt>Plural</dt><dd><em>load-bearing walls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wall that carries the weight of the structure above it.</p>
+<ol><li>You can't just knock out a <em>load-bearing wall</em>.</li><li>The contractor put a beam in where the <em>load-bearing wall</em> was.</li><li>Two of these are <em>load-bearing walls</em>.</li></ol>
+<hr>
+<h3 id="stucco">stucco<a class="hash" href="#stucco" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌkoʊ/ &middot; <em>STUH-koh</em></dd><dt>Русский</dt><dd>штукатурка (наружная, декоративная)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A hard plaster coating spread on outside walls.</p>
+<ol><li>The house is white <em>stucco</em> with a tile roof.</li><li><em>Stucco</em> cracks as a house settles.</li><li>They patched the <em>stucco</em> around the window.</li></ol>
+<hr>
+<h3 id="shingle">shingle<a class="hash" href="#shingle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɪŋɡəl/ &middot; <em>SHING-gul</em></dd><dt>Русский</dt><dd>кровельная плитка, гонт</dd><dt>Plural</dt><dd><em>shingles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In Britain 'shingle' usually means the pebbles on a beach.</dd></dl>
+<p>One of the thin overlapping pieces that cover a roof or a wall.</p>
+<ol><li>The storm tore <em>shingles</em> off the roof.</li><li>A missing <em>shingle</em> let water into the attic.</li><li>Asphalt <em>shingles</em> last about twenty years.</li></ol>
+<hr>
+<h3 id="roofline">roofline<a class="hash" href="#roofline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːflaɪn/ &middot; <em>ROOF-lyn</em></dd><dt>Русский</dt><dd>линия крыши, силуэт кровли</dd><dt>Plural</dt><dd><em>rooflines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The shape a roof makes against the sky.</p>
+<ol><li>The addition breaks up the <em>roofline</em>.</li><li>Every house on the block has the same <em>roofline</em>.</li><li>Dormers change the <em>roofline</em> completely.</li></ol>
+<hr>
+<h3 id="eave">eave<a class="hash" href="#eave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/iːv/ &middot; <em>EEV</em></dd><dt>Русский</dt><dd>свес крыши</dd><dt>Plural</dt><dd><em>eaves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always used in the plural: 'under the eaves'.</dd></dl>
+<p>The lower edge of a roof that hangs out past the wall.</p>
+<ol><li>Birds nest under the <em>eaves</em>.</li><li>Icicles hang from the <em>eaves</em> all winter.</li><li>The <em>eaves</em> keep rain off the siding.</li></ol>
+<hr>
+<h3 id="soffit">soffit<a class="hash" href="#soffit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːfɪt/ &middot; <em>SAH-fit</em></dd><dt>Русский</dt><dd>подшивка карниза (снизу свеса крыши)</dd><dt>Plural</dt><dd><em>soffits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The finished underside of a roof overhang or an overhead structure.</p>
+<ol><li>Squirrels chewed through the <em>soffit</em>.</li><li>Vents in the <em>soffit</em> let the attic breathe.</li><li>They replaced the rotted <em>soffits</em>.</li></ol>
+<hr>
+<h3 id="downspout">downspout<a class="hash" href="#downspout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaʊnspaʊt/ &middot; <em>DOWN-spowt</em></dd><dt>Русский</dt><dd>водосточная труба</dd><dt>Plural</dt><dd><em>downspouts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say 'drainpipe'.</dd></dl>
+<p>The vertical pipe that carries rainwater from the gutter to the ground.</p>
+<ol><li>The <em>downspout</em> is clogged with leaves.</li><li>Water pooled where the <em>downspout</em> empties.</li><li>Both <em>downspouts</em> drain into the yard.</li></ol>
+<hr>
+<h3 id="gable">gable<a class="hash" href="#gable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪbəl/ &middot; <em>GAY-bul</em></dd><dt>Русский</dt><dd>щипец, треугольная часть стены под крышей</dd><dt>Plural</dt><dd><em>gables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The triangle of wall between the two slopes of a roof.</p>
+<ol><li>A round window sits high in the <em>gable</em>.</li><li>The house has <em>gables</em> on three sides.</li><li>They painted the <em>gable</em> a darker shade.</li></ol>
+<hr>
+<h3 id="dormer">dormer<a class="hash" href="#dormer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɔːrmər/ &middot; <em>DOR-mur</em></dd><dt>Русский</dt><dd>слуховое окно (в скате крыши)</dd><dt>Plural</dt><dd><em>dormers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small structure with a window that sticks out from a sloping roof.</p>
+<ol><li>The attic bedroom has two <em>dormers</em>.</li><li>A <em>dormer</em> would bring light into the loft.</li><li>The <em>dormer</em> leaks where it meets the roof.</li></ol>
+<hr>
+<h3 id="cupola">cupola<a class="hash" href="#cupola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuːpələ/ &middot; <em>KYOO-puh-luh</em></dd><dt>Русский</dt><dd>купольная надстройка на крыше</dd><dt>Plural</dt><dd><em>cupolas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable: KYOO-puh-luh.</dd></dl>
+<p>A small dome-shaped structure built on top of a roof.</p>
+<ol><li>A white <em>cupola</em> tops the barn.</li><li>The <em>cupola</em> has a weather vane on it.</li><li><em>Cupolas</em> were added for light and ventilation.</li></ol>
+<hr>
+<h3 id="turret">turret<a class="hash" href="#turret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrət/ &middot; <em>TUR-it</em></dd><dt>Русский</dt><dd>башенка (угловая)</dd><dt>Plural</dt><dd><em>turrets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small tower built onto the corner of a building.</p>
+<ol><li>The old house on the corner has a round <em>turret</em>.</li><li>Her bedroom is inside the <em>turret</em>.</li><li>Stone <em>turrets</em> stand at each end of the castle.</li></ol>
+<hr>
+<h3 id="parapet">parapet<a class="hash" href="#parapet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpærəpət/ &middot; <em>PAIR-uh-put</em></dd><dt>Русский</dt><dd>парапет</dd><dt>Plural</dt><dd><em>parapets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low wall along the edge of a roof, balcony, or bridge.</p>
+<ol><li>He leaned over the <em>parapet</em> to look down at the street.</li><li>The <em>parapet</em> hides the rooftop equipment.</li><li>Snow drifts against the <em>parapets</em>.</li></ol>
+<hr>
+<h3 id="lintel">lintel<a class="hash" href="#lintel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪntəl/ &middot; <em>LIN-tul</em></dd><dt>Русский</dt><dd>перемычка над проёмом</dd><dt>Plural</dt><dd><em>lintels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The horizontal beam across the top of a door or window opening.</p>
+<ol><li>A steel <em>lintel</em> carries the wall above the garage door.</li><li>The stone <em>lintel</em> is carved with a date.</li><li>Cracked <em>lintels</em> let the brick above them sag.</li></ol>
+<hr>
+<h3 id="keystone">keystone<a class="hash" href="#keystone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːstoʊn/ &middot; <em>KEE-stohn</em></dd><dt>Русский</dt><dd>замковый камень (в арке)</dd><dt>Plural</dt><dd><em>keystones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wedge-shaped stone at the top of an arch that locks the others in place.</p>
+<ol><li>The <em>keystone</em> is carved with a lion's head.</li><li>Pull out the <em>keystone</em> and the arch collapses.</li><li>Each window has a painted <em>keystone</em> above it.</li></ol>
+<hr>
+<h3 id="transom">transom<a class="hash" href="#transom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrænsəm/ &middot; <em>TRAN-sum</em></dd><dt>Русский</dt><dd>фрамуга (окно над дверью)</dd><dt>Plural</dt><dd><em>transoms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small window above a door.</p>
+<ol><li>Light comes through the <em>transom</em> over the front door.</li><li>Old apartments have <em>transoms</em> you can open for air.</li><li>Somebody painted the <em>transom</em> shut.</li></ol>
+<hr>
+<h3 id="balustrade">balustrade<a class="hash" href="#balustrade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæləstreɪd/ &middot; <em>BAL-uh-strayd</em></dd><dt>Русский</dt><dd>балюстрада</dd><dt>Plural</dt><dd><em>balustrades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railing supported by a row of short posts along a balcony or staircase.</p>
+<ol><li>A stone <em>balustrade</em> runs along the terrace.</li><li>The <em>balustrade</em> on the porch is rotting.</li><li>Marble <em>balustrades</em> line the grand staircase.</li></ol>
+<hr>
+<h3 id="pedestal">pedestal<a class="hash" href="#pedestal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛdəstəl/ &middot; <em>PED-uh-stul</em></dd><dt>Русский</dt><dd>пьедестал, постамент</dd><dt>Plural</dt><dd><em>pedestals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A base that a column, statue, or sink stands on.</p>
+<ol><li>The bust sits on a marble <em>pedestal</em>.</li><li>We put in a <em>pedestal</em> sink to save space.</li><li>The <em>pedestals</em> are all chipped at the corners.</li></ol>
+<hr>
+<h3 id="colonnade">colonnade<a class="hash" href="#colonnade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːləˈneɪd/ &middot; <em>kah-luh-NAYD</em></dd><dt>Русский</dt><dd>колоннада</dd><dt>Plural</dt><dd><em>colonnades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A row of evenly spaced columns supporting a roof or a line of arches.</p>
+<ol><li>A <em>colonnade</em> runs along the front of the courthouse.</li><li>We walked the shaded <em>colonnade</em>.</li><li>Both <em>colonnades</em> frame the plaza.</li></ol>
+<hr>
+<h3 id="cornice">cornice<a class="hash" href="#cornice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrnɪs/ &middot; <em>KOR-nis</em></dd><dt>Русский</dt><dd>карниз (венчающий стену)</dd><dt>Plural</dt><dd><em>cornices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The decorative molding that projects along the top of a wall or building.</p>
+<ol><li>A heavy stone <em>cornice</em> crowns the building.</li><li>Pigeons sit on the <em>cornice</em> all day.</li><li>The plaster <em>cornices</em> were restored.</li></ol>
+<hr>
+<h3 id="frieze">frieze<a class="hash" href="#frieze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/friːz/ &middot; <em>FREEZ</em></dd><dt>Русский</dt><dd>фриз (декоративная полоса)</dd><dt>Plural</dt><dd><em>friezes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'freeze'.</dd></dl>
+<p>A band of decoration or carving running along the upper part of a wall.</p>
+<ol><li>A carved <em>frieze</em> runs above the columns.</li><li>The <em>frieze</em> shows a hunting scene.</li><li>Painted <em>friezes</em> circle the whole room.</li></ol>
+<hr>
+<h3 id="pediment">pediment<a class="hash" href="#pediment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛdəmənt/ &middot; <em>PED-uh-munt</em></dd><dt>Русский</dt><dd>фронтон (треугольный, над портиком)</dd><dt>Plural</dt><dd><em>pediments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The triangular section above the columns at the front of a classical building.</p>
+<ol><li>Statues fill the <em>pediment</em> of the museum.</li><li>A broken <em>pediment</em> sits over the doorway.</li><li>The <em>pediments</em> are pure decoration.</li></ol>
+<hr>
+<h3 id="portico">portico<a class="hash" href="#portico" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrtɪkoʊ/ &middot; <em>POR-tih-koh</em></dd><dt>Русский</dt><dd>портик</dd><dt>Plural</dt><dd><em>porticoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A covered entrance with columns holding up a roof.</p>
+<ol><li>Guests waited under the <em>portico</em> out of the rain.</li><li>A white <em>portico</em> marks the front entrance.</li><li>Both <em>porticoes</em> face the garden.</li></ol>
+<hr>
+<h3 id="buttress">buttress<a class="hash" href="#buttress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌtrəs/ &middot; <em>BUH-truss</em></dd><dt>Русский</dt><dd>контрфорс</dd><dt>Plural</dt><dd><em>buttresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A support built against a wall to keep it from leaning outward.</p>
+<ol><li>Stone <em>buttresses</em> hold up the cathedral wall.</li><li>They added a <em>buttress</em> after the wall started to bow.</li><li>The flying <em>buttresses</em> are the most photographed part.</li></ol>
+<hr>
+<h3 id="vault">vault<a class="hash" href="#vault" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɔːlt/ &middot; <em>VAWLT</em></dd><dt>Русский</dt><dd>свод (потолка)</dd><dt>Plural</dt><dd><em>vaults</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An arched ceiling or roof made of stone or brick.</p>
+<ol><li>The <em>vault</em> over the nave is painted blue.</li><li>Ribbed <em>vaults</em> let builders span wider rooms.</li><li>Water stains run down the <em>vault</em>.</li></ol>
+<hr>
+<h3 id="rotunda">rotunda<a class="hash" href="#rotunda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊˈtʌndə/ &middot; <em>roh-TUN-duh</em></dd><dt>Русский</dt><dd>ротонда (круглый зал)</dd><dt>Plural</dt><dd><em>rotundas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round room or building, usually under a dome.</p>
+<ol><li>The statue stands in the middle of the <em>rotunda</em>.</li><li>Their voices echoed in the <em>rotunda</em>.</li><li>Both <em>rotundas</em> are open to the public.</li></ol>
+<hr>
+<h3 id="mezzanine">mezzanine<a class="hash" href="#mezzanine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛzəniːn/ &middot; <em>MEZ-uh-neen</em></dd><dt>Русский</dt><dd>антресольный этаж, мезонин</dd><dt>Plural</dt><dd><em>mezzanines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low floor built between two main floors, often open to the space below.</p>
+<ol><li>The bar is up on the <em>mezzanine</em>.</li><li>A <em>mezzanine</em> office overlooks the shop floor.</li><li><em>Mezzanines</em> are cheap extra square footage.</li></ol>
+<hr>
+<h3 id="annex">annex<a class="hash" href="#annex" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænɛks/ &middot; <em>AN-eks</em></dd><dt>Русский</dt><dd>пристройка, флигель</dd><dt>Plural</dt><dd><em>annexes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is AN-eks; the verb 'to annex' is uh-NEKS.</dd></dl>
+<p>A building added onto or built next to a main building.</p>
+<ol><li>Classes meet in the <em>annex</em> behind the library.</li><li>They built an <em>annex</em> for the archives.</li><li>Both <em>annexes</em> connect by a covered walkway.</li></ol>
+<hr>
+<h3 id="gargoyle">gargoyle<a class="hash" href="#gargoyle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrɡɔɪl/ &middot; <em>GAR-goyl</em></dd><dt>Русский</dt><dd>горгулья (водосток в виде фигуры)</dd><dt>Plural</dt><dd><em>gargoyles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A carved stone figure on a building that throws rainwater clear of the wall.</p>
+<ol><li><em>Gargoyles</em> stare down from the roofline.</li><li>One <em>gargoyle</em> lost its head in a storm.</li><li>The <em>gargoyle</em> over the door is a grinning dog.</li></ol>
+<hr>
+<h3 id="nave">nave<a class="hash" href="#nave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/neɪv/ &middot; <em>NAYV</em></dd><dt>Русский</dt><dd>неф (центральная часть церкви)</dd><dt>Plural</dt><dd><em>naves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like 'knave', an old word for a dishonest man.</dd></dl>
+<p>The long central part of a church where the congregation sits.</p>
+<ol><li>Light falls across the <em>nave</em> in the afternoon.</li><li>The <em>nave</em> seats four hundred people.</li><li>Columns separate the <em>nave</em> from the side aisles.</li></ol>
+<hr>
+<h3 id="pagoda">pagoda<a class="hash" href="#pagoda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈɡoʊdə/ &middot; <em>puh-GOH-duh</em></dd><dt>Русский</dt><dd>пагода</dd><dt>Plural</dt><dd><em>pagodas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tower with several stories, each with its own upturned roof.</p>
+<ol><li>A wooden <em>pagoda</em> stands at the top of the hill.</li><li>The garden has a small stone <em>pagoda</em>.</li><li>The <em>pagodas</em> are lit up at night.</li></ol>
+<hr>
+<h3 id="obelisk">obelisk<a class="hash" href="#obelisk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːbəlɪsk/ &middot; <em>AH-buh-lisk</em></dd><dt>Русский</dt><dd>обелиск</dd><dt>Plural</dt><dd><em>obelisks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall four-sided stone pillar that narrows to a point at the top.</p>
+<ol><li>A granite <em>obelisk</em> marks the grave.</li><li>The <em>obelisk</em> is visible from across the park.</li><li>Two <em>obelisks</em> flank the gate.</li></ol>
+<hr>
+<h3 id="minaret">minaret<a class="hash" href="#minaret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɪnəˈrɛt/ &middot; <em>min-uh-RET</em></dd><dt>Русский</dt><dd>минарет</dd><dt>Plural</dt><dd><em>minarets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall slender tower on a mosque.</p>
+<ol><li>The <em>minaret</em> rises above the rooftops.</li><li>Four <em>minarets</em> stand at the corners of the courtyard.</li><li>You can see the <em>minaret</em> from the highway.</li></ol>
+<hr>
+<h3 id="terracotta">terracotta<a class="hash" href="#terracotta" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtɛrəˈkɑːtə/ &middot; <em>tair-uh-KAH-tuh</em></dd><dt>Русский</dt><dd>терракота (обожжённая глина)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Also written as two words, 'terra cotta'.</dd></dl>
+<p>Hard reddish-brown baked clay used for tiles, pots, and building trim.</p>
+<ol><li>The roof is covered in <em>terracotta</em> tiles.</li><li><em>Terracotta</em> fades to a soft orange over time.</li><li>The frieze is molded <em>terracotta</em>, not stone.</li></ol>
+<hr>
+<h3 id="wrought-iron">wrought iron<a class="hash" href="#wrought-iron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɔːt ˈaɪrrn/ &middot; <em>rawt-EYE-urn</em></dd><dt>Русский</dt><dd>кованое железо</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>'Wrought' has a silent w and rhymes with 'thought'; 'iron' is said EYE-urn.</dd></dl>
+<p>Iron that has been hammered and bent into railings, gates, and other decorative pieces.</p>
+<ol><li>A <em>wrought iron</em> fence surrounds the yard.</li><li>The balcony railing is <em>wrought iron</em>.</li><li><em>Wrought iron</em> has to be repainted to stop the rust.</li></ol>
+<hr>
+<h3 id="veranda">veranda<a class="hash" href="#veranda" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vəˈrændə/ &middot; <em>vuh-RAN-duh</em></dd><dt>Русский</dt><dd>веранда (крытая, вдоль дома)</dd><dt>Plural</dt><dd><em>verandas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled 'verandah'; most Americans just say 'porch'.</dd></dl>
+<p>A long roofed porch along the outside of a house.</p>
+<ol><li>They sat on the <em>veranda</em> until it got dark.</li><li>The hotel has a <em>veranda</em> facing the water.</li><li>Wide <em>verandas</em> keep the sun off the walls.</li></ol>
+<hr>
+<h3 id="pavilion">pavilion<a class="hash" href="#pavilion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈvɪljən/ &middot; <em>puh-VIL-yun</em></dd><dt>Русский</dt><dd>павильон, беседка</dd><dt>Plural</dt><dd><em>pavilions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light open building used for shelter, events, or display.</p>
+<ol><li>The picnic is at the park <em>pavilion</em>.</li><li>Each country has its own <em>pavilion</em> at the fair.</li><li>The <em>pavilions</em> are rented by the hour.</li></ol>
+<hr>
+<h3 id="carport">carport<a class="hash" href="#carport" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpɔːrt/ &middot; <em>KAR-port</em></dd><dt>Русский</dt><dd>навес для машины</dd><dt>Plural</dt><dd><em>carports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A roofed shelter for a car that is open on at least one side.</p>
+<ol><li>They park under the <em>carport</em>.</li><li>A <em>carport</em> is a lot cheaper than building a garage.</li><li>The wind took the roof off both <em>carports</em>.</li></ol>
+<hr>
+<h3 id="ranch-house">ranch house<a class="hash" href="#ranch-house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræntʃ haʊs/ &middot; <em>RANCH-howss</em></dd><dt>Русский</dt><dd>одноэтажный дом («ранч»)</dd><dt>Plural</dt><dd><em>ranch houses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long low American house with all its rooms on one floor.</p>
+<ol><li>They bought a brick <em>ranch house</em> from the fifties.</li><li><em>Ranch houses</em> are easy to get around in.</li><li>The <em>ranch house</em> has an attached garage.</li></ol>
+<hr>
+<h3 id="log-cabin">log cabin<a class="hash" href="#log-cabin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːɡ kæbən/ &middot; <em>LAWG-KAB-un</em></dd><dt>Русский</dt><dd>бревенчатый домик, сруб</dd><dt>Plural</dt><dd><em>log cabins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A simple house built from stacked logs.</p>
+<ol><li>We rented a <em>log cabin</em> in the mountains.</li><li>The <em>log cabin</em> has a stone fireplace.</li><li>Settlers put up <em>log cabins</em> in a few weeks.</li></ol>
+<hr>
+<h3 id="row-house">row house<a class="hash" href="#row-house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊ haʊs/ &middot; <em>ROH-howss</em></dd><dt>Русский</dt><dd>дом в сплошном ряду, таунхаус</dd><dt>Plural</dt><dd><em>row houses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say 'terraced house'.</dd></dl>
+<p>One of a line of identical houses joined by shared side walls.</p>
+<ol><li>They live in a brick <em>row house</em> in Baltimore.</li><li><em>Row houses</em> have no side windows.</li><li>The <em>row house</em> is narrow but three stories tall.</li></ol>
+<hr>
+<h3 id="chalet">chalet<a class="hash" href="#chalet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæˈleɪ/ &middot; <em>sha-LAY</em></dd><dt>Русский</dt><dd>шале (горный домик)</dd><dt>Plural</dt><dd><em>chalets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French: the t is silent, sha-LAY.</dd></dl>
+<p>A wooden mountain house with a steep roof and wide eaves.</p>
+<ol><li>We stayed in a <em>chalet</em> near the ski lift.</li><li>The <em>chalet</em> sleeps eight.</li><li>Swiss-style <em>chalets</em> line the road up the valley.</li></ol>
+<hr>
+<h3 id="weatherstripping">weatherstripping<a class="hash" href="#weatherstripping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛðərstrɪpɪŋ/ &middot; <em>WEH-thur-strip-ing</em></dd><dt>Русский</dt><dd>уплотнитель для дверей и окон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Strips of rubber or foam fitted around doors and windows to block drafts.</p>
+<ol><li>The <em>weatherstripping</em> on the back door is shot.</li><li>New <em>weatherstripping</em> cut our heating bill.</li><li><em>Weatherstripping</em> takes ten minutes to install.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

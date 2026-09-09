@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: roads and driving</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-roads-and-driving">Core vocabulary: roads and driving<a class="hash" href="#core-vocabulary-roads-and-driving" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of roads and driving — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="traffic-light">traffic light<a class="hash" href="#traffic-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk laɪt/ &middot; <em>TRAF-ik-lyt</em></dd><dt>Русский</dt><dd>светофор</dd><dt>Plural</dt><dd><em>traffic lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of colored lights that tells drivers when to stop and go.</p>
+<ol><li>Turn left at the second <em>traffic light</em>.</li><li>All the <em>traffic lights</em> on Main went out during the storm.</li><li>He sat at the <em>traffic light</em> for what felt like ten minutes.</li></ol>
+<hr>
+<h3 id="traffic-jam">traffic jam<a class="hash" href="#traffic-jam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk dʒæm/ &middot; <em>TRAF-ik-jam</em></dd><dt>Русский</dt><dd>пробка, затор</dd><dt>Plural</dt><dd><em>traffic jams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of vehicles that has slowed almost to a stop.</p>
+<ol><li>We sat in a <em>traffic jam</em> for two hours outside Denver.</li><li>There are always <em>traffic jams</em> on the bridge after five.</li><li>A stalled truck caused the whole <em>traffic jam</em>.</li></ol>
+<hr>
+<h3 id="parking-lot">parking lot<a class="hash" href="#parking-lot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ lɑːt/ &middot; <em>PAR-king-laht</em></dd><dt>Русский</dt><dd>парковка, автостоянка</dd><dt>Plural</dt><dd><em>parking lots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say parking lot; the British say car park.</dd></dl>
+<p>An open area where drivers leave their cars.</p>
+<ol><li>Meet me in the <em>parking lot</em> behind the store.</li><li>Both <em>parking lots</em> were full by nine in the morning.</li><li>Someone dinged my door in the <em>parking lot</em>.</li></ol>
+<hr>
+<h3 id="gas-station">gas station<a class="hash" href="#gas-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs ˌsteɪʃən/ &middot; <em>GAS-stay-shuhn</em></dd><dt>Русский</dt><dd>заправка, АЗС</dd><dt>Plural</dt><dd><em>gas stations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say gas station; the British say petrol station.</dd></dl>
+<p>A place where drivers buy fuel for their vehicles.</p>
+<ol><li>Pull over at the next <em>gas station</em>.</li><li>There are two <em>gas stations</em> at that exit.</li><li>The <em>gas station</em> on the corner also sells coffee.</li></ol>
+<hr>
+<h3 id="drivers-license">driver's license<a class="hash" href="#drivers-license" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvərz ˌlaɪsəns/ &middot; <em>DRY-vurz-ly-suhns</em></dd><dt>Русский</dt><dd>водительские права</dd><dt>Plural</dt><dd><em>driver's licenses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling license; the British write driving licence.</dd></dl>
+<p>The official card that allows a person to drive.</p>
+<ol><li>I got my <em>driver's license</em> the week I turned sixteen.</li><li>The officer asked for our <em>driver's licenses</em> and registration.</li><li>You need a <em>driver's license</em> or a passport to board.</li></ol>
+<hr>
+<h3 id="road-sign">road sign<a class="hash" href="#road-sign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd saɪn/ &middot; <em>ROHD-syn</em></dd><dt>Русский</dt><dd>дорожный знак</dd><dt>Plural</dt><dd><em>road signs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A board beside the road that gives drivers information or orders.</p>
+<ol><li>The <em>road sign</em> said the bridge was out.</li><li>Snow had covered half the <em>road signs</em>.</li><li>Slow down and read the <em>road sign</em>.</li></ol>
+<hr>
+<h3 id="stoplight">stoplight<a class="hash" href="#stoplight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːplaɪt/ &middot; <em>STAHP-lyt</em></dd><dt>Русский</dt><dd>светофор</dd><dt>Plural</dt><dd><em>stoplights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A traffic light, in everyday American speech.</p>
+<ol><li>Take a right at the <em>stoplight</em>.</li><li>There are only three <em>stoplights</em> in the whole town.</li><li>She stopped for the <em>stoplight</em> and checked her phone.</li></ol>
+<hr>
+<h3 id="red-light">red light<a class="hash" href="#red-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrɛd ˈlaɪt/ &middot; <em>red-LYT</em></dd><dt>Русский</dt><dd>красный сигнал светофора</dd><dt>Plural</dt><dd><em>red lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The signal that tells drivers to stop.</p>
+<ol><li>He ran a <em>red light</em> and got a ticket.</li><li>We hit every <em>red light</em> between here and the airport.</li><li>Wait at the <em>red light</em> until it turns green.</li></ol>
+<hr>
+<h3 id="green-light">green light<a class="hash" href="#green-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡriːn ˈlaɪt/ &middot; <em>green-LYT</em></dd><dt>Русский</dt><dd>зелёный сигнал светофора; разрешение</dd><dt>Plural</dt><dd><em>green lights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also used figuratively: to give a project the green light is to approve it.</dd></dl>
+<p>The signal that tells drivers they may go.</p>
+<ol><li>The car behind me honked the second I got a <em>green light</em>.</li><li>We caught all <em>green lights</em> down Sixth Avenue.</li><li>Don't pull out until you have a <em>green light</em>.</li></ol>
+<hr>
+<h3 id="speeding-ticket">speeding ticket<a class="hash" href="#speeding-ticket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːdɪŋ ˌtɪkɪt/ &middot; <em>SPEE-ding-tik-it</em></dd><dt>Русский</dt><dd>штраф за превышение скорости</dd><dt>Plural</dt><dd><em>speeding tickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written fine given to a driver who goes too fast.</p>
+<ol><li>I got a <em>speeding ticket</em> on the way to work.</li><li>Two <em>speeding tickets</em> in one year raised his insurance.</li><li>The <em>speeding ticket</em> cost me two hundred dollars.</li></ol>
+<hr>
+<h3 id="parking-ticket">parking ticket<a class="hash" href="#parking-ticket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ ˌtɪkɪt/ &middot; <em>PAR-king-tik-it</em></dd><dt>Русский</dt><dd>штраф за неправильную парковку</dd><dt>Plural</dt><dd><em>parking tickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fine left on a car that is parked illegally.</p>
+<ol><li>There was a <em>parking ticket</em> under my wiper.</li><li>She has three unpaid <em>parking tickets</em>.</li><li>I fought the <em>parking ticket</em> and won.</li></ol>
+<hr>
+<h3 id="parking-space">parking space<a class="hash" href="#parking-space" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ speɪs/ &middot; <em>PAR-king-spays</em></dd><dt>Русский</dt><dd>парковочное место</dd><dt>Plural</dt><dd><em>parking spaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A marked area big enough for one parked car.</p>
+<ol><li>The apartment comes with one <em>parking space</em>.</li><li>Half the <em>parking spaces</em> were reserved for staff.</li><li>That <em>parking space</em> is too tight for a truck.</li></ol>
+<hr>
+<h3 id="parking-spot">parking spot<a class="hash" href="#parking-spot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ spɑːt/ &middot; <em>PAR-king-spaht</em></dd><dt>Русский</dt><dd>место для парковки</dd><dt>Plural</dt><dd><em>parking spots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where you can leave your car, in everyday speech.</p>
+<ol><li>I found a <em>parking spot</em> right in front.</li><li>Good <em>parking spots</em> fill up fast on game day.</li><li>We circled the block twice looking for a <em>parking spot</em>.</li></ol>
+<hr>
+<h3 id="street-parking">street parking<a class="hash" href="#street-parking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstriːt ˌpɑːrkɪŋ/ &middot; <em>STREET-par-king</em></dd><dt>Русский</dt><dd>парковка вдоль улицы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of leaving a car along the side of a public street.</p>
+<ol><li>There is free <em>street parking</em> after six.</li><li><em>Street parking</em> downtown is almost impossible.</li><li>The building has no garage, only <em>street parking</em>.</li></ol>
+<hr>
+<h3 id="parking-brake">parking brake<a class="hash" href="#parking-brake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːrkɪŋ breɪk/ &middot; <em>PAR-king-brayk</em></dd><dt>Русский</dt><dd>стояночный тормоз, ручник</dd><dt>Plural</dt><dd><em>parking brakes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called the emergency brake or e-brake in the US; the British say handbrake.</dd></dl>
+<p>The extra brake that holds a parked car still.</p>
+<ol><li>Set the <em>parking brake</em> before you get out.</li><li>Some older cars have <em>parking brakes</em> you pull by hand.</li><li>The car rolled because he forgot the <em>parking brake</em>.</li></ol>
+<hr>
+<h3 id="loading-zone">loading zone<a class="hash" href="#loading-zone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊdɪŋ zoʊn/ &middot; <em>LOH-ding-zohn</em></dd><dt>Русский</dt><dd>зона погрузки-разгрузки</dd><dt>Plural</dt><dd><em>loading zones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stretch of curb reserved for trucks dropping off or picking up goods.</p>
+<ol><li>You can't leave the car in a <em>loading zone</em>.</li><li>Both <em>loading zones</em> were blocked by delivery vans.</li><li>He parked in the <em>loading zone</em> for two minutes and got a ticket.</li></ol>
+<hr>
+<h3 id="curbside">curbside<a class="hash" href="#curbside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrbsaɪd/ &middot; <em>KURB-syd</em></dd><dt>Русский</dt><dd>край проезжей части у тротуара</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American curb; the British spell the same thing kerb.</dd></dl>
+<p>The edge of the street next to the sidewalk, where cars stop.</p>
+<ol><li>Leave the trash bins at the <em>curbside</em> Sunday night.</li><li>The restaurant added <em>curbside</em> pickup last year.</li><li>She waited at the <em>curbside</em> with two suitcases.</li></ol>
+<hr>
+<h3 id="valet">valet<a class="hash" href="#valet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/væˈleɪ/ &middot; <em>va-LAY</em></dd><dt>Русский</dt><dd>парковщик (у отеля, ресторана)</dd><dt>Plural</dt><dd><em>valets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American usage the final t is silent and the stress falls on the second syllable: va-LAY.</dd></dl>
+<p>Someone who parks your car for you at a hotel or restaurant.</p>
+<ol><li>The <em>valet</em> brought the car around in five minutes.</li><li>Two <em>valets</em> were working the front entrance.</li><li>Hand your keys to the <em>valet</em> and take the ticket.</li></ol>
+<hr>
+<h3 id="impound-lot">impound lot<a class="hash" href="#impound-lot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈpaʊnd lɑːt/ &middot; <em>im-POWND-laht</em></dd><dt>Русский</dt><dd>штрафстоянка</dd><dt>Plural</dt><dd><em>impound lots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The fenced yard where the city keeps cars it has towed away.</p>
+<ol><li>His car spent the weekend in the <em>impound lot</em>.</li><li>The city runs two <em>impound lots</em> on the south side.</li><li>Getting a car out of the <em>impound lot</em> costs a fortune.</li></ol>
+<hr>
+<h3 id="towing">towing<a class="hash" href="#towing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊɪŋ/ &middot; <em>TOH-ing</em></dd><dt>Русский</dt><dd>буксировка, эвакуация</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Tow rhymes with go and sounds like toe, never like cow.</dd></dl>
+<p>The pulling away of a vehicle by a truck, usually because it broke down or parked illegally.</p>
+<ol><li>The sign warns that <em>towing</em> is enforced at all hours.</li><li><em>Towing</em> is covered by my roadside plan.</li><li>The bill included ninety dollars for <em>towing</em>.</li></ol>
+<hr>
+<h3 id="one-way-street">one-way street<a class="hash" href="#one-way-street" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwʌnweɪ ˈstriːt/ &middot; <em>wun-way-STREET</em></dd><dt>Русский</dt><dd>улица с односторонним движением</dd><dt>Plural</dt><dd><em>one-way streets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A street where traffic is allowed to move in only one direction.</p>
+<ol><li>You just turned the wrong way onto a <em>one-way street</em>.</li><li>Most of the <em>one-way streets</em> downtown run north.</li><li>That block is a <em>one-way street</em> now.</li></ol>
+<hr>
+<h3 id="side-street">side street<a class="hash" href="#side-street" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪd striːt/ &middot; <em>SYD-street</em></dd><dt>Русский</dt><dd>переулок, боковая улица</dd><dt>Plural</dt><dd><em>side streets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small quiet street leading off a main road.</p>
+<ol><li>Park on a <em>side street</em> and walk over.</li><li>He knows all the <em>side streets</em> around the stadium.</li><li>The cafe is on a <em>side street</em> behind the library.</li></ol>
+<hr>
+<h3 id="dead-end">dead end<a class="hash" href="#dead-end" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛd ˈɛnd/ &middot; <em>ded-END</em></dd><dt>Русский</dt><dd>тупик</dd><dt>Plural</dt><dd><em>dead ends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A street that is closed at one end so cars cannot drive through.</p>
+<ol><li>Our street is a <em>dead end</em>, so there's no through traffic.</li><li>The GPS sent us down two <em>dead ends</em>.</li><li>There's a sign at the corner warning that it's a <em>dead end</em>.</li></ol>
+<hr>
+<h3 id="back-road">back road<a class="hash" href="#back-road" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæk roʊd/ &middot; <em>BAK-rohd</em></dd><dt>Русский</dt><dd>просёлочная дорога, второстепенная дорога</dd><dt>Plural</dt><dd><em>back roads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small country road away from the main highways.</p>
+<ol><li>We took a <em>back road</em> to avoid the holiday traffic.</li><li>He grew up driving these <em>back roads</em>.</li><li>The <em>back road</em> adds twenty minutes but it's prettier.</li></ol>
+<hr>
+<h3 id="dirt-road">dirt road<a class="hash" href="#dirt-road" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɜːrt roʊd/ &middot; <em>DURT-rohd</em></dd><dt>Русский</dt><dd>грунтовая дорога</dd><dt>Plural</dt><dd><em>dirt roads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A road with no pavement, just packed earth.</p>
+<ol><li>The cabin is at the end of a <em>dirt road</em>.</li><li><em>Dirt roads</em> turn to mud after a heavy rain.</li><li>Take the <em>dirt road</em> past the red barn.</li></ol>
+<hr>
+<h3 id="service-road">service road<a class="hash" href="#service-road" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrvɪs roʊd/ &middot; <em>SUR-vis-rohd</em></dd><dt>Русский</dt><dd>дублёр, местный проезд вдоль трассы</dd><dt>Plural</dt><dd><em>service roads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In parts of the US the same road is called a frontage road.</dd></dl>
+<p>A small road running alongside a highway that reaches the businesses on it.</p>
+<ol><li>The motel is on the <em>service road</em>, not the freeway itself.</li><li>Both <em>service roads</em> were closed for repaving.</li><li>Get off at the exit and follow the <em>service road</em> north.</li></ol>
+<hr>
+<h3 id="roadway">roadway<a class="hash" href="#roadway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdweɪ/ &middot; <em>ROHD-way</em></dd><dt>Русский</dt><dd>проезжая часть</dd><dt>Plural</dt><dd><em>roadways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a road that vehicles actually drive on.</p>
+<ol><li>A fallen tree blocked the entire <em>roadway</em>.</li><li>Crews salt the <em>roadways</em> before an ice storm.</li><li>Keep pedestrians off the <em>roadway</em>.</li></ol>
+<hr>
+<h3 id="roadside">roadside<a class="hash" href="#roadside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdsaɪd/ &middot; <em>ROHD-syd</em></dd><dt>Русский</dt><dd>обочина, придорожная полоса</dd><dt>Plural</dt><dd><em>roadsides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The strip of ground along the edge of a road.</p>
+<ol><li>We pulled over and ate lunch by the <em>roadside</em>.</li><li>Wildflowers grow along the <em>roadsides</em> in May.</li><li>A deer stood at the <em>roadside</em> watching us pass.</li></ol>
+<hr>
+<h3 id="toll-road">toll road<a class="hash" href="#toll-road" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊl roʊd/ &middot; <em>TOHL-rohd</em></dd><dt>Русский</dt><dd>платная дорога</dd><dt>Plural</dt><dd><em>toll roads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A road that drivers must pay to use.</p>
+<ol><li>The <em>toll road</em> saves half an hour.</li><li>Several <em>toll roads</em> now charge you by camera.</li><li>I avoid the <em>toll road</em> when I'm not in a hurry.</li></ol>
+<hr>
+<h3 id="toll-booth">toll booth<a class="hash" href="#toll-booth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊl buːθ/ &middot; <em>TOHL-booth</em></dd><dt>Русский</dt><dd>пункт оплаты проезда</dd><dt>Plural</dt><dd><em>toll booths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small building where drivers pay to use a road or bridge.</p>
+<ol><li>Slow down before the <em>toll booth</em>.</li><li>Half the <em>toll booths</em> are unmanned now.</li><li>He rolled down the window at the <em>toll booth</em>.</li></ol>
+<hr>
+<h3 id="bypass">bypass<a class="hash" href="#bypass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪpæs/ &middot; <em>BY-pas</em></dd><dt>Русский</dt><dd>объездная дорога</dd><dt>Plural</dt><dd><em>bypasses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A road built around a town so traffic does not have to go through it.</p>
+<ol><li>Take the <em>bypass</em> and skip downtown altogether.</li><li>The two new <em>bypasses</em> cut travel time in half.</li><li>The <em>bypass</em> was built in the seventies.</li></ol>
+<hr>
+<h3 id="beltway">beltway<a class="hash" href="#beltway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛltweɪ/ &middot; <em>BELT-way</em></dd><dt>Русский</dt><dd>кольцевая автодорога вокруг города</dd><dt>Plural</dt><dd><em>beltways</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say beltway; the British say ring road.</dd></dl>
+<p>A highway that circles a city.</p>
+<ol><li>Traffic on the <em>beltway</em> is brutal at rush hour.</li><li>Several cities have built outer <em>beltways</em>.</li><li>We live just inside the <em>beltway</em>.</li></ol>
+<hr>
+<h3 id="on-ramp">on-ramp<a class="hash" href="#on-ramp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːn ræmp/ &middot; <em>AHN-ramp</em></dd><dt>Русский</dt><dd>въезд на автомагистраль</dd><dt>Plural</dt><dd><em>on-ramps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say on-ramp and off-ramp; the British call both a slip road.</dd></dl>
+<p>The short road used to drive onto a highway.</p>
+<ol><li>Get up to speed on the <em>on-ramp</em>.</li><li>Both <em>on-ramps</em> were backed up to the light.</li><li>A truck stalled on the <em>on-ramp</em>.</li></ol>
+<hr>
+<h3 id="off-ramp">off-ramp<a class="hash" href="#off-ramp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːf ræmp/ &middot; <em>AWF-ramp</em></dd><dt>Русский</dt><dd>съезд с автомагистрали</dd><dt>Plural</dt><dd><em>off-ramps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The short road used to drive off a highway.</p>
+<ol><li>Take the next <em>off-ramp</em> and turn right.</li><li>Two <em>off-ramps</em> were closed for construction.</li><li>He braked hard at the top of the <em>off-ramp</em>.</li></ol>
+<hr>
+<h3 id="interchange">interchange<a class="hash" href="#interchange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərtʃeɪndʒ/ &middot; <em>IN-tur-chaynj</em></dd><dt>Русский</dt><dd>транспортная развязка</dd><dt>Plural</dt><dd><em>interchanges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable, IN-tur-chaynj; the verb interchange stresses the last.</dd></dl>
+<p>The place where two highways cross and drivers can move from one to the other.</p>
+<ol><li>Stay in the right lane through the <em>interchange</em>.</li><li>The city is rebuilding three <em>interchanges</em> this summer.</li><li>That <em>interchange</em> confuses everyone the first time.</li></ol>
+<hr>
+<h3 id="traffic-circle">traffic circle<a class="hash" href="#traffic-circle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk ˌsɜːrkəl/ &middot; <em>TRAF-ik-sur-kuhl</em></dd><dt>Русский</dt><dd>круговой перекрёсток</dd><dt>Plural</dt><dd><em>traffic circles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say traffic circle, or rotary in New England; the British say roundabout.</dd></dl>
+<p>A round junction that traffic drives around instead of stopping.</p>
+<ol><li>Take the second exit off the <em>traffic circle</em>.</li><li>The town put in two <em>traffic circles</em> to slow drivers down.</li><li>I always miss my turn at that <em>traffic circle</em>.</li></ol>
+<hr>
+<h3 id="four-way-stop">four-way stop<a class="hash" href="#four-way-stop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɔːr weɪ ˈstɑːp/ &middot; <em>for-way-STAHP</em></dd><dt>Русский</dt><dd>перекрёсток со знаком «стоп» на всех подъездах</dd><dt>Plural</dt><dd><em>four-way stops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crossing where every direction must stop and cars go in the order they arrived.</p>
+<ol><li>It's a <em>four-way stop</em>, so whoever got there first goes first.</li><li>There are <em>four-way stops</em> on every corner in that neighborhood.</li><li>Nobody knew whose turn it was at the <em>four-way stop</em>.</li></ol>
+<hr>
+<h3 id="railroad-crossing">railroad crossing<a class="hash" href="#railroad-crossing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌkrɔːsɪŋ/ &middot; <em>RAYL-rohd-kraw-sing</em></dd><dt>Русский</dt><dd>железнодорожный переезд</dd><dt>Plural</dt><dd><em>railroad crossings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say railroad crossing; the British say level crossing.</dd></dl>
+<p>The place where a road runs across a train track.</p>
+<ol><li>The gates came down at the <em>railroad crossing</em>.</li><li>There are three <em>railroad crossings</em> between here and town.</li><li>School buses stop at every <em>railroad crossing</em>.</li></ol>
+<hr>
+<h3 id="traffic-island">traffic island<a class="hash" href="#traffic-island" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk ˌaɪlənd/ &middot; <em>TRAF-ik-eye-luhnd</em></dd><dt>Русский</dt><dd>островок безопасности</dd><dt>Plural</dt><dd><em>traffic islands</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The s in island is silent: EYE-luhnd.</dd></dl>
+<p>A raised area in the middle of a road that separates lanes or shelters people crossing.</p>
+<ol><li>Wait on the <em>traffic island</em> if the light changes.</li><li>They planted flowers on the <em>traffic islands</em>.</li><li>Her front tire clipped the <em>traffic island</em>.</li></ol>
+<hr>
+<h3 id="rumble-strip">rumble strip<a class="hash" href="#rumble-strip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌmbəl strɪp/ &middot; <em>RUM-buhl-strip</em></dd><dt>Русский</dt><dd>шумовая полоса</dd><dt>Plural</dt><dd><em>rumble strips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A grooved strip on the road edge that makes a loud noise when tires cross it.</p>
+<ol><li>The <em>rumble strip</em> woke him up in time.</li><li><em>Rumble strips</em> run along both shoulders of the highway.</li><li>You could hear the tires hit the <em>rumble strip</em>.</li></ol>
+<hr>
+<h3 id="mile-marker">mile marker<a class="hash" href="#mile-marker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪl ˌmɑːrkər/ &middot; <em>MYL-mar-kur</em></dd><dt>Русский</dt><dd>мильный указатель, километровый столб</dd><dt>Plural</dt><dd><em>mile markers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small roadside sign showing the distance along a highway.</p>
+<ol><li>The wreck is near <em>mile marker</em> 42.</li><li><em>Mile markers</em> count up as you drive north.</li><li>Watch for the <em>mile marker</em> and turn just past it.</li></ol>
+<hr>
+<h3 id="rest-area">rest area<a class="hash" href="#rest-area" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛst ˌɛriə/ &middot; <em>REST-air-ee-uh</em></dd><dt>Русский</dt><dd>зона отдыха на трассе</dd><dt>Plural</dt><dd><em>rest areas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place beside a highway with parking and restrooms where drivers can stop.</p>
+<ol><li>Let's pull into the next <em>rest area</em>.</li><li>The <em>rest areas</em> on this stretch are twenty miles apart.</li><li>We slept an hour at a <em>rest area</em> outside Amarillo.</li></ol>
+<hr>
+<h3 id="weigh-station">weigh station<a class="hash" href="#weigh-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪ ˌsteɪʃən/ &middot; <em>WAY-stay-shuhn</em></dd><dt>Русский</dt><dd>весовой пункт для грузовиков</dd><dt>Plural</dt><dd><em>weigh stations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh is silent: weigh sounds exactly like way.</dd></dl>
+<p>A roadside stop where trucks are weighed and checked.</p>
+<ol><li>The <em>weigh station</em> was closed, so he drove on.</li><li>There are two <em>weigh stations</em> on this route.</li><li>Every loaded truck has to pull into the <em>weigh station</em>.</li></ol>
+<hr>
+<h3 id="scenic-route">scenic route<a class="hash" href="#scenic-route" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsiːnɪk ˈruːt/ &middot; <em>see-nik-ROOT</em></dd><dt>Русский</dt><dd>живописный маршрут</dd><dt>Plural</dt><dd><em>scenic routes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say route as either ROOT or ROWT; both are standard.</dd></dl>
+<p>A longer, prettier road taken instead of the fastest one.</p>
+<ol><li>We took the <em>scenic route</em> along the coast.</li><li>The map marks the <em>scenic routes</em> in green.</li><li>The <em>scenic route</em> costs you an hour but it's worth it.</li></ol>
+<hr>
+<h3 id="road-trip">road trip<a class="hash" href="#road-trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd trɪp/ &middot; <em>ROHD-trip</em></dd><dt>Русский</dt><dd>путешествие на машине</dd><dt>Plural</dt><dd><em>road trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long journey made by car for pleasure.</p>
+<ol><li>We're taking a <em>road trip</em> to the Grand Canyon.</li><li>Their summer <em>road trips</em> covered half the country.</li><li>A good playlist makes the <em>road trip</em>.</li></ol>
+<hr>
+<h3 id="passing-lane">passing lane<a class="hash" href="#passing-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪŋ leɪn/ &middot; <em>PAS-ing-layn</em></dd><dt>Русский</dt><dd>полоса для обгона</dd><dt>Plural</dt><dd><em>passing lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lane used to get around slower vehicles.</p>
+<ol><li>Don't sit in the <em>passing lane</em>.</li><li>The highway adds <em>passing lanes</em> on the long hills.</li><li>He pulled into the <em>passing lane</em> and floored it.</li></ol>
+<hr>
+<h3 id="fast-lane">fast lane<a class="hash" href="#fast-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfæst leɪn/ &middot; <em>FAST-layn</em></dd><dt>Русский</dt><dd>левый, скоростной ряд</dd><dt>Plural</dt><dd><em>fast lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The left lane, where the quickest traffic moves.</p>
+<ol><li>Move over if you're not using the <em>fast lane</em>.</li><li>Even the <em>fast lanes</em> were crawling this morning.</li><li>She stayed in the <em>fast lane</em> the whole way.</li></ol>
+<hr>
+<h3 id="carpool-lane">carpool lane<a class="hash" href="#carpool-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpuːl leɪn/ &middot; <em>KAR-pool-layn</em></dd><dt>Русский</dt><dd>полоса для машин с пассажирами</dd><dt>Plural</dt><dd><em>carpool lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lane reserved for vehicles carrying more than one person.</p>
+<ol><li>You need two people to use the <em>carpool lane</em>.</li><li>The <em>carpool lanes</em> move twice as fast at rush hour.</li><li>He got fined for driving alone in the <em>carpool lane</em>.</li></ol>
+<hr>
+<h3 id="turn-lane">turn lane<a class="hash" href="#turn-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrn leɪn/ &middot; <em>TURN-layn</em></dd><dt>Русский</dt><dd>полоса для поворота</dd><dt>Plural</dt><dd><em>turn lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lane set aside for cars turning off the road.</p>
+<ol><li>Get in the left <em>turn lane</em> early.</li><li>The intersection has <em>turn lanes</em> in both directions.</li><li>The <em>turn lane</em> was full, so I missed the light.</li></ol>
+<hr>
+<h3 id="bus-lane">bus lane<a class="hash" href="#bus-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌs leɪn/ &middot; <em>BUS-layn</em></dd><dt>Русский</dt><dd>полоса для автобусов</dd><dt>Plural</dt><dd><em>bus lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lane that only buses are allowed to drive in.</p>
+<ol><li>Cars can't drive in the <em>bus lane</em> on weekdays.</li><li>The city painted the new <em>bus lanes</em> bright red.</li><li>A camera catches anyone using the <em>bus lane</em>.</li></ol>
+<hr>
+<h3 id="bike-path">bike path<a class="hash" href="#bike-path" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪk pæθ/ &middot; <em>BYK-path</em></dd><dt>Русский</dt><dd>велодорожка</dd><dt>Plural</dt><dd><em>bike paths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A path for bicycles, separate from the road.</p>
+<ol><li>A <em>bike path</em> runs along the river.</li><li>The city keeps adding <em>bike paths</em>.</li><li>Take the <em>bike path</em> instead of the highway shoulder.</li></ol>
+<hr>
+<h3 id="lane-closure">lane closure<a class="hash" href="#lane-closure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪn ˌkloʊʒər/ &middot; <em>LAYN-kloh-zhur</em></dd><dt>Русский</dt><dd>перекрытие полосы</dd><dt>Plural</dt><dd><em>lane closures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The blocking of one lane, usually for repairs.</p>
+<ol><li>A <em>lane closure</em> is causing a two-mile backup.</li><li>Expect <em>lane closures</em> overnight while they repave.</li><li>The <em>lane closure</em> ends past the bridge.</li></ol>
+<hr>
+<h3 id="lane-change">lane change<a class="hash" href="#lane-change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪn tʃeɪndʒ/ &middot; <em>LAYN-chaynj</em></dd><dt>Русский</dt><dd>перестроение</dd><dt>Plural</dt><dd><em>lane changes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The move a driver makes from one lane into another.</p>
+<ol><li>Signal before every <em>lane change</em>.</li><li>He made three <em>lane changes</em> in a hundred yards.</li><li>That <em>lane change</em> nearly cut me off.</li></ol>
+<hr>
+<h3 id="blind-spot">blind spot<a class="hash" href="#blind-spot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblaɪnd spɑːt/ &middot; <em>BLYND-spaht</em></dd><dt>Русский</dt><dd>слепая зона</dd><dt>Plural</dt><dd><em>blind spots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The area beside a car that the driver cannot see in the mirrors.</p>
+<ol><li>Check your <em>blind spot</em> before you merge.</li><li>Big trucks have huge <em>blind spots</em>.</li><li>She was sitting right in my <em>blind spot</em>.</li></ol>
+<hr>
+<h3 id="right-of-way">right of way<a class="hash" href="#right-of-way" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌraɪt əv ˈweɪ/ &middot; <em>ryt-uhv-WAY</em></dd><dt>Русский</dt><dd>преимущество проезда</dd><dt>Plural</dt><dd><em>rights of way</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural pluralizes the first word: rights of way, not right of ways.</dd></dl>
+<p>The legal right to go first at a junction or crossing.</p>
+<ol><li>Pedestrians have the <em>right of way</em> in a crosswalk.</li><li>The two <em>rights of way</em> were unclear at that corner.</li><li>He took the <em>right of way</em> that wasn't his.</li></ol>
+<hr>
+<h3 id="u-turn">U-turn<a class="hash" href="#u-turn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuː tɜːrn/ &middot; <em>YOO-turn</em></dd><dt>Русский</dt><dd>разворот</dd><dt>Plural</dt><dd><em>U-turns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A turn that takes a car back the way it came.</p>
+<ol><li>Make a <em>U-turn</em> at the next light.</li><li><em>U-turns</em> are illegal on this stretch.</li><li>He missed the driveway and made a <em>U-turn</em>.</li></ol>
+<hr>
+<h3 id="three-point-turn">three-point turn<a class="hash" href="#three-point-turn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌθriː pɔɪnt ˈtɜːrn/ &middot; <em>three-point-TURN</em></dd><dt>Русский</dt><dd>разворот в три приёма</dd><dt>Plural</dt><dd><em>three-point turns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Turning a car around on a narrow street in a forward, backward, forward move.</p>
+<ol><li>The examiner asked me to do a <em>three-point turn</em>.</li><li><em>Three-point turns</em> are hard in a long truck.</li><li>She managed a <em>three-point turn</em> on a very narrow road.</li></ol>
+<hr>
+<h3 id="parallel-parking">parallel parking<a class="hash" href="#parallel-parking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpærəlɛl ˈpɑːrkɪŋ/ &middot; <em>pa-ruh-lel-PAR-king</em></dd><dt>Русский</dt><dd>параллельная парковка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Backing a car into a space along the curb between two other cars.</p>
+<ol><li><em>Parallel parking</em> is the part of the test everybody dreads.</li><li>He's still not comfortable with <em>parallel parking</em>.</li><li>The instructor spent an hour on <em>parallel parking</em>.</li></ol>
+<hr>
+<h3 id="reverse">reverse<a class="hash" href="#reverse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvɜːrs/ &middot; <em>rih-VURS</em></dd><dt>Русский</dt><dd>задний ход</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The gear that makes a vehicle move backward.</p>
+<ol><li>Put it in <em>reverse</em> and back out slowly.</li><li>The car rolled forward because it wasn't in <em>reverse</em>.</li><li><em>Reverse</em> grinds a little in this old truck.</li></ol>
+<hr>
+<h3 id="yield-sign">yield sign<a class="hash" href="#yield-sign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjiːld saɪn/ &middot; <em>YEELD-syn</em></dd><dt>Русский</dt><dd>знак «уступите дорогу»</dd><dt>Plural</dt><dd><em>yield signs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The American yield sign is a give way sign in Britain.</dd></dl>
+<p>A triangular sign telling drivers to let other traffic go first.</p>
+<ol><li>There's a <em>yield sign</em> where the ramp joins the road.</li><li><em>Yield signs</em> are red and white triangles here.</li><li>He blew through the <em>yield sign</em> without slowing.</li></ol>
+<hr>
+<h3 id="crossing-guard">crossing guard<a class="hash" href="#crossing-guard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsɪŋ ɡɑːrd/ &middot; <em>KRAW-sing-gard</em></dd><dt>Русский</dt><dd>регулировщик у школьного перехода</dd><dt>Plural</dt><dd><em>crossing guards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who stops traffic so children can cross the street.</p>
+<ol><li>The <em>crossing guard</em> held up her stop sign.</li><li>Two <em>crossing guards</em> work that corner every morning.</li><li>Wait for the <em>crossing guard</em> to wave you across.</li></ol>
+<hr>
+<h3 id="school-zone">school zone<a class="hash" href="#school-zone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskuːl zoʊn/ &middot; <em>SKOOL-zohn</em></dd><dt>Русский</dt><dd>школьная зона с ограничением скорости</dd><dt>Plural</dt><dd><em>school zones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stretch of road near a school where the speed limit drops.</p>
+<ol><li>Fines are doubled in a <em>school zone</em>.</li><li>The city lowered the limit in all <em>school zones</em>.</li><li>Slow to twenty through the <em>school zone</em>.</li></ol>
+<hr>
+<h3 id="construction-zone">construction zone<a class="hash" href="#construction-zone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈstrʌkʃən zoʊn/ &middot; <em>kuhn-STRUK-shuhn-zohn</em></dd><dt>Русский</dt><dd>участок дорожных работ</dd><dt>Plural</dt><dd><em>construction zones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part of the road where work is going on and traffic is restricted.</p>
+<ol><li>Traffic crawls through the <em>construction zone</em>.</li><li>There are two <em>construction zones</em> between here and the state line.</li><li>Speeding fines double in a <em>construction zone</em>.</li></ol>
+<hr>
+<h3 id="road-work">road work<a class="hash" href="#road-work" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd wɜːrk/ &middot; <em>ROHD-wurk</em></dd><dt>Русский</dt><dd>дорожные работы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Also written roadwork; the British say roadworks and treat it as plural.</dd></dl>
+<p>Repair or building work being done on a road.</p>
+<ol><li>There's <em>road work</em> ahead for the next three miles.</li><li><em>Road work</em> on the bridge starts Monday.</li><li>The delay was caused by <em>road work</em>, not an accident.</li></ol>
+<hr>
+<h3 id="flagger">flagger<a class="hash" href="#flagger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæɡər/ &middot; <em>FLAG-ur</em></dd><dt>Русский</dt><dd>регулировщик на дорожных работах</dd><dt>Plural</dt><dd><em>flaggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A road worker who signals drivers to stop or go through a work area.</p>
+<ol><li>The <em>flagger</em> held us for five minutes.</li><li>Two <em>flaggers</em> were working each end of the lane.</li><li>Watch for the <em>flagger</em> around the curve.</li></ol>
+<hr>
+<h3 id="speed-trap">speed trap<a class="hash" href="#speed-trap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːd træp/ &middot; <em>SPEED-trap</em></dd><dt>Русский</dt><dd>радарная засада</dd><dt>Plural</dt><dd><em>speed traps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where police wait to catch drivers going too fast.</p>
+<ol><li>That hill is a well-known <em>speed trap</em>.</li><li>The little town is famous for its <em>speed traps</em>.</li><li>He warned me about the <em>speed trap</em> past the bridge.</li></ol>
+<hr>
+<h3 id="speed-camera">speed camera<a class="hash" href="#speed-camera" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːd ˌkæmərə/ &middot; <em>SPEED-kam-ruh</em></dd><dt>Русский</dt><dd>камера контроля скорости</dd><dt>Plural</dt><dd><em>speed cameras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A roadside camera that photographs cars going over the limit.</p>
+<ol><li>A <em>speed camera</em> caught him doing sixty in a thirty-five.</li><li>The city installed <em>speed cameras</em> near the schools.</li><li>The ticket came from a <em>speed camera</em>, not an officer.</li></ol>
+<hr>
+<h3 id="state-trooper">state trooper<a class="hash" href="#state-trooper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪt ˌtruːpər/ &middot; <em>STAYT-troo-pur</em></dd><dt>Русский</dt><dd>полицейский дорожной полиции штата</dd><dt>Plural</dt><dd><em>state troopers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A police officer who patrols the highways of a state.</p>
+<ol><li>A <em>state trooper</em> pulled us over near the state line.</li><li>Two <em>state troopers</em> were directing traffic around the crash.</li><li>The <em>state trooper</em> let him off with a warning.</li></ol>
+<hr>
+<h3 id="highway-patrol">highway patrol<a class="hash" href="#highway-patrol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪweɪ pəˌtroʊl/ &middot; <em>HY-way-puh-trohl</em></dd><dt>Русский</dt><dd>дорожная патрульная служба</dd><dt>Plural</dt><dd><em>highway patrols</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The police force responsible for traffic on a state's highways.</p>
+<ol><li>Call the <em>highway patrol</em> if you see a stalled car.</li><li>Neighboring <em>highway patrols</em> worked the same storm.</li><li>The <em>highway patrol</em> closed the road for three hours.</li></ol>
+<hr>
+<h3 id="moving-violation">moving violation<a class="hash" href="#moving-violation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmuːvɪŋ ˌvaɪrˈleɪʃən/ &middot; <em>MOO-ving-vy-uh-LAY-shuhn</em></dd><dt>Русский</dt><dd>нарушение ПДД в движении</dd><dt>Plural</dt><dd><em>moving violations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A traffic offense committed while the vehicle is moving, such as speeding.</p>
+<ol><li>Running that stop sign is a <em>moving violation</em>.</li><li>Two <em>moving violations</em> can raise your rates.</li><li>A parking ticket is not a <em>moving violation</em>.</li></ol>
+<hr>
+<h3 id="traffic-court">traffic court<a class="hash" href="#traffic-court" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk kɔːrt/ &middot; <em>TRAF-ik-kort</em></dd><dt>Русский</dt><dd>суд по делам о нарушениях ПДД</dd><dt>Plural</dt><dd><em>traffic courts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The court that hears cases about driving offenses.</p>
+<ol><li>I have to be in <em>traffic court</em> on Thursday.</li><li>County <em>traffic courts</em> handle thousands of tickets a month.</li><li>The judge in <em>traffic court</em> cut the fine in half.</li></ol>
+<hr>
+<h3 id="traffic-school">traffic school<a class="hash" href="#traffic-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk skuːl/ &middot; <em>TRAF-ik-skool</em></dd><dt>Русский</dt><dd>курсы для нарушителей ПДД</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A short course a driver takes to keep a ticket off the record.</p>
+<ol><li>I took <em>traffic school</em> online in one evening.</li><li>The judge offered him <em>traffic school</em> instead of points.</li><li><em>Traffic school</em> cost less than the fine.</li></ol>
+<hr>
+<h3 id="breathalyzer">breathalyzer<a class="hash" href="#breathalyzer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛθəˌlaɪzər/ &middot; <em>BRETH-uh-ly-zur</em></dd><dt>Русский</dt><dd>алкотестер</dd><dt>Plural</dt><dd><em>breathalyzers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling breathalyzer with a z; the British write breathalyser.</dd></dl>
+<p>A device that measures alcohol in a driver's breath.</p>
+<ol><li>He refused to blow into the <em>breathalyzer</em>.</li><li>Every patrol car carries a <em>breathalyzer</em>.</li><li>The <em>breathalyzer</em> read twice the legal limit.</li></ol>
+<hr>
+<h3 id="sobriety-test">sobriety test<a class="hash" href="#sobriety-test" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈbraɪrti tɛst/ &middot; <em>suh-BRY-uh-tee-test</em></dd><dt>Русский</dt><dd>проверка на трезвость</dd><dt>Plural</dt><dd><em>sobriety tests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A roadside check of whether a driver has been drinking.</p>
+<ol><li>The officer gave him a <em>sobriety test</em> on the shoulder.</li><li>Field <em>sobriety tests</em> include walking a straight line.</li><li>She passed the <em>sobriety test</em> easily.</li></ol>
+<hr>
+<h3 id="drunk-driving">drunk driving<a class="hash" href="#drunk-driving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrʌŋk ˌdraɪvɪŋ/ &middot; <em>DRUNGK-dry-ving</em></dd><dt>Русский</dt><dd>вождение в нетрезвом виде</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Driving after drinking too much alcohol.</p>
+<ol><li><em>Drunk driving</em> costs him his license for a year.</li><li>The state cracked down on <em>drunk driving</em>.</li><li>He was arrested for <em>drunk driving</em> twice.</li></ol>
+<hr>
+<h3 id="distracted-driving">distracted driving<a class="hash" href="#distracted-driving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstræktɪd ˌdraɪvɪŋ/ &middot; <em>dih-STRAK-tid-dry-ving</em></dd><dt>Русский</dt><dd>вождение с отвлечением внимания</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Driving while paying attention to a phone or something else instead of the road.</p>
+<ol><li><em>Distracted driving</em> causes more crashes every year.</li><li>Texting at the wheel counts as <em>distracted driving</em>.</li><li>The campaign is aimed at teenage <em>distracted driving</em>.</li></ol>
+<hr>
+<h3 id="defensive-driving">defensive driving<a class="hash" href="#defensive-driving" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfɛnsɪv ˌdraɪvɪŋ/ &middot; <em>dih-FEN-siv-dry-ving</em></dd><dt>Русский</dt><dd>безопасное, «защитное» вождение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A way of driving that expects other people's mistakes and leaves room for them.</p>
+<ol><li>His insurance dropped after a <em>defensive driving</em> course.</li><li><em>Defensive driving</em> means always having an escape route.</li><li>They teach <em>defensive driving</em> to every new hire.</li></ol>
+<hr>
+<h3 id="jaywalker">jaywalker<a class="hash" href="#jaywalker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒeɪwɔːkər/ &middot; <em>JAY-waw-kur</em></dd><dt>Русский</dt><dd>пешеход, переходящий в неположенном месте</dd><dt>Plural</dt><dd><em>jaywalkers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who crosses the street away from a crosswalk or against the light.</p>
+<ol><li>A <em>jaywalker</em> stepped right out in front of me.</li><li><em>Jaywalkers</em> rarely get ticketed here.</li><li>The driver swerved around a <em>jaywalker</em>.</li></ol>
+<hr>
+<h3 id="gridlock">gridlock<a class="hash" href="#gridlock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrɪdlɑːk/ &middot; <em>GRID-lahk</em></dd><dt>Русский</dt><dd>полный транспортный затор</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Traffic so blocked in every direction that nothing can move.</p>
+<ol><li>The parade turned downtown into total <em>gridlock</em>.</li><li><em>Gridlock</em> starts around four every weekday.</li><li>One broken light caused an hour of <em>gridlock</em>.</li></ol>
+<hr>
+<h3 id="congestion">congestion<a class="hash" href="#congestion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈdʒɛstʃən/ &middot; <em>kuhn-JES-chuhn</em></dd><dt>Русский</dt><dd>заторы, перегруженность дорог</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The condition of roads being too full of vehicles.</p>
+<ol><li><em>Congestion</em> on the bridge gets worse every year.</li><li>The new lanes did nothing for <em>congestion</em>.</li><li>Traffic apps route you around <em>congestion</em>.</li></ol>
+<hr>
+<h3 id="bottleneck">bottleneck<a class="hash" href="#bottleneck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːtəlnɛk/ &middot; <em>BAH-tuhl-nek</em></dd><dt>Русский</dt><dd>узкое место на дороге</dd><dt>Plural</dt><dd><em>bottlenecks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow point where traffic slows and backs up.</p>
+<ol><li>The tunnel is the worst <em>bottleneck</em> in the city.</li><li>Two <em>bottlenecks</em> on this route add half an hour.</li><li>They widened the road to fix the <em>bottleneck</em>.</li></ol>
+<hr>
+<h3 id="standstill">standstill<a class="hash" href="#standstill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstændstɪl/ &middot; <em>STAND-stil</em></dd><dt>Русский</dt><dd>полная остановка движения</dd><dt>Plural</dt><dd><em>standstills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A complete stop of traffic or other movement.</p>
+<ol><li>The freeway came to a <em>standstill</em> after the crash.</li><li>Snow brought the city to a <em>standstill</em>.</li><li>Two <em>standstills</em> in one morning is unusual.</li></ol>
+<hr>
+<h3 id="traffic-report">traffic report<a class="hash" href="#traffic-report" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk rɪˌpɔːrt/ &middot; <em>TRAF-ik-rih-port</em></dd><dt>Русский</dt><dd>сводка о ситуации на дорогах</dd><dt>Plural</dt><dd><em>traffic reports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short broadcast telling drivers where the delays are.</p>
+<ol><li>The <em>traffic report</em> said the bridge was backed up.</li><li><em>Traffic reports</em> run every ten minutes on that station.</li><li>I always check the <em>traffic report</em> before I leave.</li></ol>
+<hr>
+<h3 id="tailgating">tailgating<a class="hash" href="#tailgating" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈteɪlɡeɪtɪŋ/ &middot; <em>TAYL-gay-ting</em></dd><dt>Русский</dt><dd>езда вплотную за впереди идущей машиной</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In the US tailgating also means a parking-lot party before a football game.</dd></dl>
+<p>Driving too close behind the car in front.</p>
+<ol><li><em>Tailgating</em> causes most rear-end crashes.</li><li>He slowed down to discourage the <em>tailgating</em>.</li><li>The trooper pulled her over for <em>tailgating</em>.</li></ol>
+<hr>
+<h3 id="road-rage">road rage<a class="hash" href="#road-rage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd reɪdʒ/ &middot; <em>ROHD-rayj</em></dd><dt>Русский</dt><dd>агрессия за рулём</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Angry, aggressive behavior by a driver toward other drivers.</p>
+<ol><li>The argument on the freeway was pure <em>road rage</em>.</li><li><em>Road rage</em> incidents rise in hot weather.</li><li>He was charged after a <em>road rage</em> incident.</li></ol>
+<hr>
+<h3 id="driving-test">driving test<a class="hash" href="#driving-test" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ tɛst/ &middot; <em>DRY-ving-test</em></dd><dt>Русский</dt><dd>экзамен по вождению</dd><dt>Plural</dt><dd><em>driving tests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The exam a person must pass to get a license.</p>
+<ol><li>She failed her <em>driving test</em> the first time.</li><li><em>Driving tests</em> are booked out for a month.</li><li>I passed the <em>driving test</em> on my second try.</li></ol>
+<hr>
+<h3 id="road-test">road test<a class="hash" href="#road-test" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd tɛst/ &middot; <em>ROHD-test</em></dd><dt>Русский</dt><dd>практический экзамен по вождению</dd><dt>Plural</dt><dd><em>road tests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The behind-the-wheel part of a driving exam.</p>
+<ol><li>My <em>road test</em> is scheduled for Friday morning.</li><li>They give <em>road tests</em> only on weekdays.</li><li>He passed the written part but not the <em>road test</em>.</li></ol>
+<hr>
+<h3 id="driving-school">driving school<a class="hash" href="#driving-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ skuːl/ &middot; <em>DRY-ving-skool</em></dd><dt>Русский</dt><dd>автошкола</dd><dt>Plural</dt><dd><em>driving schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A business that teaches people to drive.</p>
+<ol><li>My parents signed me up for <em>driving school</em>.</li><li>There are three <em>driving schools</em> in town.</li><li>The <em>driving school</em> provides the car for the test.</li></ol>
+<hr>
+<h3 id="driving-instructor">driving instructor<a class="hash" href="#driving-instructor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ ɪnˌstrʌktər/ &middot; <em>DRY-ving-in-struk-tur</em></dd><dt>Русский</dt><dd>инструктор по вождению</dd><dt>Plural</dt><dd><em>driving instructors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who teaches learners how to drive.</p>
+<ol><li>My <em>driving instructor</em> had nerves of steel.</li><li><em>Driving instructors</em> have their own brake pedal.</li><li>The <em>driving instructor</em> told me to relax my grip.</li></ol>
+<hr>
+<h3 id="driving-lesson">driving lesson<a class="hash" href="#driving-lesson" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ ˌlɛsən/ &middot; <em>DRY-ving-less-uhn</em></dd><dt>Русский</dt><dd>урок вождения</dd><dt>Plural</dt><dd><em>driving lessons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One session of learning to drive with a teacher.</p>
+<ol><li>I have a <em>driving lesson</em> after school.</li><li>Ten <em>driving lessons</em> came with the package.</li><li>The first <em>driving lesson</em> was just parking lot circles.</li></ol>
+<hr>
+<h3 id="learners-permit">learner's permit<a class="hash" href="#learners-permit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɜːrnərz ˌpɜːrmɪt/ &middot; <em>LUR-nurz-pur-mit</em></dd><dt>Русский</dt><dd>ученические права</dd><dt>Plural</dt><dd><em>learner's permits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A document that lets a beginner drive with a licensed adult in the car.</p>
+<ol><li>He got his <em>learner's permit</em> at fifteen.</li><li><em>Learner's permits</em> are good for one year here.</li><li>With a <em>learner's permit</em> you can't drive alone.</li></ol>
+<hr>
+<h3 id="drivers-ed">driver's ed<a class="hash" href="#drivers-ed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvərz ɛd/ &middot; <em>DRY-vurz-ED</em></dd><dt>Русский</dt><dd>курс вождения (школьный предмет)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Short for driver's education; almost always said the short way.</dd></dl>
+<p>The class in which American teenagers learn the rules of the road.</p>
+<ol><li>We watched crash videos in <em>driver's ed</em>.</li><li><em>Driver's ed</em> is offered every summer at the high school.</li><li>She takes <em>driver's ed</em> on Tuesday nights.</li></ol>
+<hr>
+<h3 id="student-driver">student driver<a class="hash" href="#student-driver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstuːdənt ˌdraɪvər/ &middot; <em>STOO-duhnt-dry-vur</em></dd><dt>Русский</dt><dd>ученик за рулём</dd><dt>Plural</dt><dd><em>student drivers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say STOO-duhnt; the British say STYOO-duhnt.</dd></dl>
+<p>A person learning to drive, often marked by a sign on the car.</p>
+<ol><li>Give that car room; it says <em>student driver</em>.</li><li><em>Student drivers</em> practice in this lot on Saturdays.</li><li>The <em>student driver</em> stalled twice at the light.</li></ol>
+<hr>
+<h3 id="driving-record">driving record<a class="hash" href="#driving-record" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ ˌrɛkərd/ &middot; <em>DRY-ving-REK-urd</em></dd><dt>Русский</dt><dd>водительская история, история нарушений</dd><dt>Plural</dt><dd><em>driving records</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is REK-urd; the verb record is rih-KORD, with the stress moved.</dd></dl>
+<p>The official history of a person's tickets and crashes.</p>
+<ol><li>He has a clean <em>driving record</em>.</li><li>The company checks <em>driving records</em> before it hires.</li><li>One ticket stays on your <em>driving record</em> for three years.</li></ol>
+<hr>
+<h3 id="motor-vehicle">motor vehicle<a class="hash" href="#motor-vehicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtər ˌviːəkəl/ &middot; <em>MOH-tur-vee-uh-kuhl</em></dd><dt>Русский</dt><dd>механическое транспортное средство</dd><dt>Plural</dt><dd><em>motor vehicles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h in vehicle is silent: VEE-uh-kuhl.</dd></dl>
+<p>Any road vehicle with an engine, in official language.</p>
+<ol><li>You register a <em>motor vehicle</em> at the county office.</li><li>No <em>motor vehicles</em> are allowed on the trail.</li><li>The law applies to every <em>motor vehicle</em> on public roads.</li></ol>
+<hr>
+<h3 id="automobile">automobile<a class="hash" href="#automobile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːtəmoʊbiːl/ &middot; <em>AW-tuh-moh-beel</em></dd><dt>Русский</dt><dd>автомобиль</dd><dt>Plural</dt><dd><em>automobiles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Formal and mostly written; in speech Americans just say car.</dd></dl>
+<p>A car, in formal or written English.</p>
+<ol><li>The <em>automobile</em> changed how American cities were built.</li><li><em>Automobiles</em> were still rare in 1910.</li><li>He worked forty years in the <em>automobile</em> industry.</li></ol>
+<hr>
+<h3 id="rideshare">rideshare<a class="hash" href="#rideshare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪdʃɛr/ &middot; <em>RYD-shair</em></dd><dt>Русский</dt><dd>поездка через приложение (такси-сервис)</dd><dt>Plural</dt><dd><em>rideshares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car trip booked through a phone app with a private driver.</p>
+<ol><li>We took a <em>rideshare</em> home from the airport.</li><li><em>Rideshares</em> are cheaper than cabs here.</li><li>My <em>rideshare</em> is four minutes away.</li></ol>
+<hr>
+<h3 id="skid">skid<a class="hash" href="#skid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɪd/ &middot; <em>SKID</em></dd><dt>Русский</dt><dd>занос, скольжение</dd><dt>Plural</dt><dd><em>skids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An uncontrolled slide of a vehicle on the road.</p>
+<ol><li>The car went into a <em>skid</em> on the wet curve.</li><li>Long <em>skids</em> were visible on the pavement.</li><li>Steer into the <em>skid</em>, not against it.</li></ol>
+<hr>
+<h3 id="hydroplaning">hydroplaning<a class="hash" href="#hydroplaning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪdrəˌpleɪnɪŋ/ &middot; <em>HY-druh-play-ning</em></dd><dt>Русский</dt><dd>аквапланирование</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say hydroplaning; the British say aquaplaning.</dd></dl>
+<p>Sliding on a film of water because the tires have lost contact with the road.</p>
+<ol><li><em>Hydroplaning</em> is the danger in heavy rain.</li><li>Worn tires make <em>hydroplaning</em> much more likely.</li><li>He lost control to <em>hydroplaning</em> at highway speed.</li></ol>
+<hr>
+<h3 id="black-ice">black ice<a class="hash" href="#black-ice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌblæk ˈaɪs/ &middot; <em>blak-EYSS</em></dd><dt>Русский</dt><dd>гололедица, невидимый лёд</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thin clear layer of ice on the road that drivers cannot see.</p>
+<ol><li>The bridge was covered in <em>black ice</em>.</li><li><em>Black ice</em> forms fast after sundown.</li><li>Three cars spun out on <em>black ice</em> that morning.</li></ol>
+<hr>
+<h3 id="stopping-distance">stopping distance<a class="hash" href="#stopping-distance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːpɪŋ ˌdɪstəns/ &middot; <em>STAH-ping-dis-tuhns</em></dd><dt>Русский</dt><dd>остановочный путь</dd><dt>Plural</dt><dd><em>stopping distances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How far a vehicle travels between the brakes going on and the car stopping.</p>
+<ol><li>Rain doubles your <em>stopping distance</em>.</li><li><em>Stopping distances</em> are longer for loaded trucks.</li><li>At seventy the <em>stopping distance</em> is the length of a football field.</li></ol>
+<hr>
+<h3 id="following-distance">following distance<a class="hash" href="#following-distance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːloʊɪŋ ˌdɪstəns/ &middot; <em>FAH-loh-ing-dis-tuhns</em></dd><dt>Русский</dt><dd>дистанция до впереди идущей машины</dd><dt>Plural</dt><dd><em>following distances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The gap a driver keeps behind the vehicle in front.</p>
+<ol><li>Keep a safe <em>following distance</em> in the rain.</li><li><em>Following distances</em> shrink as traffic gets heavy.</li><li>Three seconds is a decent <em>following distance</em>.</li></ol>
+<hr>
+<h3 id="flat-tire">flat tire<a class="hash" href="#flat-tire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌflæt ˈtaɪrr/ &middot; <em>flat-TYR</em></dd><dt>Русский</dt><dd>спущенное колесо, прокол</dd><dt>Plural</dt><dd><em>flat tires</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American tire; the British spell it tyre and often say puncture.</dd></dl>
+<p>A tire that has lost its air.</p>
+<ol><li>I got a <em>flat tire</em> two miles from home.</li><li>Two <em>flat tires</em> in one month is bad luck.</li><li>He changed the <em>flat tire</em> in the rain.</li></ol>
+<hr>
+<h3 id="jump-start">jump start<a class="hash" href="#jump-start" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌmp stɑːrt/ &middot; <em>JUMP-start</em></dd><dt>Русский</dt><dd>запуск от чужого аккумулятора, «прикуривание»</dd><dt>Plural</dt><dd><em>jump starts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Starting a car with a dead battery using power from another car.</p>
+<ol><li>Can you give me a <em>jump start</em>?</li><li>The cold morning meant three <em>jump starts</em> in the lot.</li><li>A quick <em>jump start</em> got the van going.</li></ol>
+<hr>
+<h3 id="roadside-assistance">roadside assistance<a class="hash" href="#roadside-assistance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdsaɪd əˌsɪstəns/ &middot; <em>ROHD-syd-uh-sis-tuhns</em></dd><dt>Русский</dt><dd>техпомощь на дороге</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A service that comes to help drivers who break down.</p>
+<ol><li>Call <em>roadside assistance</em> and wait in the car.</li><li><em>Roadside assistance</em> is included with the insurance.</li><li><em>Roadside assistance</em> took an hour to reach us.</li></ol>
+<hr>
+<h3 id="tire-pressure">tire pressure<a class="hash" href="#tire-pressure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪrr ˌprɛʃər/ &middot; <em>TYR-presh-ur</em></dd><dt>Русский</dt><dd>давление в шинах</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How much air is inside a vehicle's tires.</p>
+<ol><li>Check your <em>tire pressure</em> before a long trip.</li><li>Cold weather drops the <em>tire pressure</em>.</li><li>The light came on because the <em>tire pressure</em> was low.</li></ol>
+<hr>
+<h3 id="gas-pump">gas pump<a class="hash" href="#gas-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs pʌmp/ &middot; <em>GAS-pump</em></dd><dt>Русский</dt><dd>топливораздаточная колонка</dd><dt>Plural</dt><dd><em>gas pumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The machine at a station that puts fuel into a vehicle.</p>
+<ol><li>Pull up to the <em>gas pump</em> on the far side.</li><li>All six <em>gas pumps</em> were busy.</li><li>The <em>gas pump</em> wouldn't take my card.</li></ol>
+<hr>
+<h3 id="gas-cap">gas cap<a class="hash" href="#gas-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs kæp/ &middot; <em>GAS-kap</em></dd><dt>Русский</dt><dd>крышка бензобака</dd><dt>Plural</dt><dd><em>gas caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lid that closes the opening of a fuel tank.</p>
+<ol><li>He drove off and left the <em>gas cap</em> on the roof.</li><li>Replacement <em>gas caps</em> cost about ten dollars.</li><li>A loose <em>gas cap</em> can trigger the warning light.</li></ol>
+<hr>
+<h3 id="gas-mileage">gas mileage<a class="hash" href="#gas-mileage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs ˌmaɪlɪdʒ/ &middot; <em>GAS-my-lij</em></dd><dt>Русский</dt><dd>расход топлива</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How far a vehicle can travel on a certain amount of fuel.</p>
+<ol><li>This truck gets terrible <em>gas mileage</em>.</li><li>Highway driving improves your <em>gas mileage</em>.</li><li><em>Gas mileage</em> was the first thing she asked about.</li></ol>
+<hr>
+<h3 id="oil-change">oil change<a class="hash" href="#oil-change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔɪl tʃeɪndʒ/ &middot; <em>OYL-chaynj</em></dd><dt>Русский</dt><dd>замена масла</dd><dt>Plural</dt><dd><em>oil changes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The routine service of draining old engine oil and putting in new.</p>
+<ol><li>The car is due for an <em>oil change</em>.</li><li>Two <em>oil changes</em> a year is plenty for me.</li><li>The <em>oil change</em> took twenty minutes.</li></ol>
+<hr>
+<h3 id="tune-up">tune-up<a class="hash" href="#tune-up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːn ʌp/ &middot; <em>TOON-up</em></dd><dt>Русский</dt><dd>плановое обслуживание двигателя</dd><dt>Plural</dt><dd><em>tune-ups</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say TOON; the British say TYOON.</dd></dl>
+<p>A service that adjusts an engine so it runs properly.</p>
+<ol><li>The van needs a <em>tune-up</em> before the trip.</li><li>Regular <em>tune-ups</em> keep an old car alive.</li><li>A <em>tune-up</em> fixed the rough idle.</li></ol>
+<hr>
+<h3 id="wheel-alignment">wheel alignment<a class="hash" href="#wheel-alignment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːl əˌlaɪnmənt/ &middot; <em>WEEL-uh-lyn-muhnt</em></dd><dt>Русский</dt><dd>развал-схождение</dd><dt>Plural</dt><dd><em>wheel alignments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The adjustment of the wheels so the car runs straight.</p>
+<ol><li>The pothole ruined my <em>wheel alignment</em>.</li><li><em>Wheel alignments</em> are cheap compared to new tires.</li><li>Get a <em>wheel alignment</em> if the car pulls to one side.</li></ol>
+<hr>
+<h3 id="emissions-test">emissions test<a class="hash" href="#emissions-test" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɪʃənz tɛst/ &middot; <em>ih-MISH-uhnz-test</em></dd><dt>Русский</dt><dd>проверка выхлопа на токсичность</dd><dt>Plural</dt><dd><em>emissions tests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A check of how much pollution a vehicle's exhaust produces.</p>
+<ol><li>The car failed its <em>emissions test</em>.</li><li>Some states require <em>emissions tests</em> every two years.</li><li>You can't renew the tags without an <em>emissions test</em>.</li></ol>
+<hr>
+<h3 id="car-wash">car wash<a class="hash" href="#car-wash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːr wɑːʃ/ &middot; <em>KAR-wahsh</em></dd><dt>Русский</dt><dd>автомойка</dd><dt>Plural</dt><dd><em>car washes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place or machine that cleans vehicles.</p>
+<ol><li>Run it through the <em>car wash</em> on the way home.</li><li>Two new <em>car washes</em> opened on that road.</li><li>The <em>car wash</em> broke my antenna.</li></ol>
+<hr>
+<h3 id="body-shop">body shop<a class="hash" href="#body-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːdi ʃɑːp/ &middot; <em>BAH-dee-shahp</em></dd><dt>Русский</dt><dd>кузовная мастерская</dd><dt>Plural</dt><dd><em>body shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garage that repairs damaged car bodies and paint.</p>
+<ol><li>The <em>body shop</em> said it would take a week.</li><li>Insurance keeps a list of approved <em>body shops</em>.</li><li>My car is still at the <em>body shop</em>.</li></ol>
+<hr>
+<h3 id="test-drive">test drive<a class="hash" href="#test-drive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛst draɪv/ &middot; <em>TEST-dryv</em></dd><dt>Русский</dt><dd>тест-драйв, пробная поездка</dd><dt>Plural</dt><dd><em>test drives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short drive taken to see whether you want to buy a car.</p>
+<ol><li>Take it for a <em>test drive</em> before you decide.</li><li>We did three <em>test drives</em> in one afternoon.</li><li>The <em>test drive</em> sold him on the car.</li></ol>
+<hr>
+<h3 id="used-car">used car<a class="hash" href="#used-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːzd ˈkɑːr/ &middot; <em>yoozd-KAR</em></dd><dt>Русский</dt><dd>подержанный автомобиль</dd><dt>Plural</dt><dd><em>used cars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Here used ends in a z sound, /juːzd/; in used to it is /juːst/, with an s.</dd></dl>
+<p>A car that has had an earlier owner.</p>
+<ol><li>Her first <em>used car</em> cost two thousand dollars.</li><li><em>Used cars</em> got expensive after the shortage.</li><li>Have a mechanic look at any <em>used car</em> first.</li></ol>
+<hr>
+<h3 id="side-mirror">side mirror<a class="hash" href="#side-mirror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪd ˌmɪrər/ &middot; <em>SYD-mir-ur</em></dd><dt>Русский</dt><dd>боковое зеркало</dd><dt>Plural</dt><dd><em>side mirrors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say side mirror; the British say wing mirror.</dd></dl>
+<p>The mirror on the outside of a car door.</p>
+<ol><li>A truck clipped my <em>side mirror</em>.</li><li>Fold the <em>side mirrors</em> in before the car wash.</li><li>Adjust the <em>side mirror</em> before you pull out.</li></ol>
+<hr>
+<h3 id="brake-light">brake light<a class="hash" href="#brake-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪk laɪt/ &middot; <em>BRAYK-lyt</em></dd><dt>Русский</dt><dd>стоп-сигнал</dd><dt>Plural</dt><dd><em>brake lights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Brake sounds exactly like break but is spelled with a-k-e.</dd></dl>
+<p>The red light at the back of a car that comes on when the driver brakes.</p>
+<ol><li>Your left <em>brake light</em> is out.</li><li>A wall of <em>brake lights</em> appeared ahead of us.</li><li>The <em>brake light</em> costs a few dollars to replace.</li></ol>
+<hr>
+<h3 id="hazard-lights">hazard lights<a class="hash" href="#hazard-lights" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæzərd laɪts/ &middot; <em>HAZ-urd-lyts</em></dd><dt>Русский</dt><dd>аварийная сигнализация</dd><dt>Plural</dt><dd><em>hazard lights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural; also called flashers in everyday speech.</dd></dl>
+<p>The blinking lights a driver turns on to warn others of trouble.</p>
+<ol><li>Put your <em>hazard lights</em> on if you stop on the shoulder.</li><li>His <em>hazard lights</em> were flashing in the breakdown lane.</li><li>She left the <em>hazard lights</em> going while she changed the tire.</li></ol>
+<hr>
+<h3 id="high-beams">high beams<a class="hash" href="#high-beams" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪ biːmz/ &middot; <em>HY-beemz</em></dd><dt>Русский</dt><dd>дальний свет</dd><dt>Plural</dt><dd><em>high beams</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural; the British say full beam or main beam.</dd></dl>
+<p>The brightest setting of a car's headlights, for empty dark roads.</p>
+<ol><li>Turn off your <em>high beams</em> when a car comes toward you.</li><li>The <em>high beams</em> lit up the whole field.</li><li>He flashed his <em>high beams</em> to warn us.</li></ol>
+<hr>
+<h3 id="fuel-gauge">fuel gauge<a class="hash" href="#fuel-gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfjuːəl ɡeɪdʒ/ &middot; <em>FYOO-uhl-gayj</em></dd><dt>Русский</dt><dd>указатель уровня топлива</dd><dt>Plural</dt><dd><em>fuel gauges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Gauge is pronounced GAYJ despite the spelling.</dd></dl>
+<p>The dial showing how much fuel is left in the tank.</p>
+<ol><li>The <em>fuel gauge</em> has been stuck on full for a week.</li><li>Old <em>fuel gauges</em> are not very accurate.</li><li>Keep an eye on the <em>fuel gauge</em> out here.</li></ol>
+<hr>
+<h3 id="check-engine-light">check engine light<a class="hash" href="#check-engine-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛk ˌɛndʒɪn laɪt/ &middot; <em>CHEK-en-jin-lyt</em></dd><dt>Русский</dt><dd>лампочка «проверьте двигатель»</dd><dt>Plural</dt><dd><em>check engine lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The warning lamp on the dashboard that says the engine needs attention.</p>
+<ol><li>The <em>check engine light</em> came on again this morning.</li><li><em>Check engine lights</em> can mean almost anything.</li><li>He drove for months with the <em>check engine light</em> on.</li></ol>
+<hr>
+<h3 id="cruise-control">cruise control<a class="hash" href="#cruise-control" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruːz kənˌtroʊl/ &middot; <em>KROOZ-kuhn-trohl</em></dd><dt>Русский</dt><dd>круиз-контроль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The system that holds a car at a set speed without the driver pressing the pedal.</p>
+<ol><li>I set the <em>cruise control</em> at seventy.</li><li>Don't use <em>cruise control</em> on icy roads.</li><li>The rental car has <em>cruise control</em> and a backup camera.</li></ol>
+<hr>
+<h3 id="key-fob">key fob<a class="hash" href="#key-fob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiː fɑːb/ &middot; <em>KEE-fahb</em></dd><dt>Русский</dt><dd>брелок с ключом от машины</dd><dt>Plural</dt><dd><em>key fobs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small remote that locks, unlocks and often starts a car.</p>
+<ol><li>The battery in my <em>key fob</em> died.</li><li>Both <em>key fobs</em> came with the car.</li><li>Press the <em>key fob</em> twice to unlock all the doors.</li></ol>
+<hr>
+<h3 id="dash-cam">dash cam<a class="hash" href="#dash-cam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdæʃ kæm/ &middot; <em>DASH-kam</em></dd><dt>Русский</dt><dd>видеорегистратор</dd><dt>Plural</dt><dd><em>dash cams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small camera mounted on the windshield that records the road.</p>
+<ol><li>The <em>dash cam</em> caught the whole thing.</li><li><em>Dash cams</em> have gotten cheap.</li><li>Insurance asked for the <em>dash cam</em> footage.</li></ol>
+<hr>
+<h3 id="road-map">road map<a class="hash" href="#road-map" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊd mæp/ &middot; <em>ROHD-map</em></dd><dt>Русский</dt><dd>дорожная карта</dd><dt>Plural</dt><dd><em>road maps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed map showing the roads of an area.</p>
+<ol><li>There's an old <em>road map</em> in the glove compartment.</li><li>Gas stations used to give away <em>road maps</em>.</li><li>He unfolded the <em>road map</em> across the hood.</li></ol>
+<hr>
+<h3 id="sun-visor">sun visor<a class="hash" href="#sun-visor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌn ˌvaɪzər/ &middot; <em>SUN-vy-zur</em></dd><dt>Русский</dt><dd>солнцезащитный козырёк</dd><dt>Plural</dt><dd><em>sun visors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The flap above the windshield that a driver folds down against the sun.</p>
+<ol><li>Flip the <em>sun visor</em> down, the glare is awful.</li><li>Both <em>sun visors</em> have little mirrors.</li><li>The parking pass clips to the <em>sun visor</em>.</li></ol>
+<hr>
+<h3 id="defroster">defroster<a class="hash" href="#defroster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈfrɔːstər/ &middot; <em>dih-FRAW-stur</em></dd><dt>Русский</dt><dd>обогрев (обдув) стекла</dd><dt>Plural</dt><dd><em>defrosters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say defroster; the British say demister.</dd></dl>
+<p>The system that clears ice or fog from a car's windows.</p>
+<ol><li>Turn on the <em>defroster</em> before you pull out.</li><li>The rear <em>defroster</em> stopped working.</li><li>Old cars had weak <em>defrosters</em>.</li></ol>
+<hr>
+<h3 id="back-seat">back seat<a class="hash" href="#back-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæk siːt/ &middot; <em>BAK-seet</em></dd><dt>Русский</dt><dd>заднее сиденье</dd><dt>Plural</dt><dd><em>back seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The seat behind the driver and front passenger.</p>
+<ol><li>Throw your bag in the <em>back seat</em>.</li><li>The <em>back seats</em> fold down for cargo.</li><li>The kids fought in the <em>back seat</em> the whole way.</li></ol>
+<hr>
+<h3 id="passenger-seat">passenger seat<a class="hash" href="#passenger-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪndʒər siːt/ &middot; <em>PAS-in-jur-seet</em></dd><dt>Русский</dt><dd>переднее пассажирское сиденье</dd><dt>Plural</dt><dd><em>passenger seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The front seat next to the driver.</p>
+<ol><li>My coffee is in the cup holder by the <em>passenger seat</em>.</li><li>Both <em>passenger seats</em> were full of groceries.</li><li>He rode in the <em>passenger seat</em> and navigated.</li></ol>
+<hr>
+<h3 id="bumper-sticker">bumper sticker<a class="hash" href="#bumper-sticker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌmpər ˌstɪkər/ &middot; <em>BUM-pur-stik-ur</em></dd><dt>Русский</dt><dd>наклейка на бампер</dd><dt>Plural</dt><dd><em>bumper stickers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sticker with a slogan that a driver puts on the back of a car.</p>
+<ol><li>Her car is covered in <em>bumper stickers</em>.</li><li>The <em>bumper sticker</em> made me laugh at the red light.</li><li>He peeled the old <em>bumper sticker</em> off before selling it.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

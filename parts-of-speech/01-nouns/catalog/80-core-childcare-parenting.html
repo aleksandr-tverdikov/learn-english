@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: babies and parenting</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-babies-and-parenting">Core vocabulary: babies and parenting<a class="hash" href="#core-vocabulary-babies-and-parenting" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of babies and parenting — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="mom">mom<a class="hash" href="#mom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːm/ &middot; <em>MAHM</em></dd><dt>Русский</dt><dd>мама</dd><dt>Plural</dt><dd><em>moms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>mom</em>; the British say <em>mum</em>.</dd></dl>
+<p>An informal word for a mother.</p>
+<ol><li>My <em>mom</em> picks the kids up on Tuesdays.</li><li>Ask your <em>mom</em> if you can stay for dinner.</li><li>A group of <em>moms</em> organized the whole fundraiser.</li></ol>
+<hr>
+<h3 id="dad">dad<a class="hash" href="#dad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dæd/ &middot; <em>DAD</em></dd><dt>Русский</dt><dd>папа</dd><dt>Plural</dt><dd><em>dads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for a father.</p>
+<ol><li>Her <em>dad</em> coaches the soccer team.</li><li>I stayed home with my <em>dad</em> while Mom traveled.</li><li>The <em>dads</em> took turns driving to practice.</li></ol>
+<hr>
+<h3 id="mommy">mommy<a class="hash" href="#mommy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːmi/ &middot; <em>MAH-mee</em></dd><dt>Русский</dt><dd>мамочка, мама (детское)</dd><dt>Plural</dt><dd><em>mommies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British children say <em>mummy</em>.</dd></dl>
+<p>A child's affectionate word for a mother.</p>
+<ol><li><em>Mommy</em>, can I have some juice?</li><li>She cried for her <em>mommy</em> the whole first day of school.</li><li>All the <em>mommies</em> stood at the classroom door.</li></ol>
+<hr>
+<h3 id="daddy">daddy<a class="hash" href="#daddy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdædi/ &middot; <em>DAD-ee</em></dd><dt>Русский</dt><dd>папочка, папа (детское)</dd><dt>Plural</dt><dd><em>daddies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child's affectionate word for a father.</p>
+<ol><li><em>Daddy</em>, watch me jump!</li><li>He fell asleep on his <em>daddy</em>'s shoulder.</li><li>The <em>daddies</em> were all in the kitchen doing dishes.</li></ol>
+<hr>
+<h3 id="grandma">grandma<a class="hash" href="#grandma" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænmɑː/ &middot; <em>GRAN-mah</em></dd><dt>Русский</dt><dd>бабушка</dd><dt>Plural</dt><dd><em>grandmas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The d is not pronounced — <em>grandma</em> comes out as GRAN-mah.</dd></dl>
+<p>An informal word for a grandmother.</p>
+<ol><li>We spend every Thanksgiving at <em>Grandma</em>'s house.</li><li>My <em>grandma</em> taught me how to make pie crust.</li><li>Both <em>grandmas</em> came to the birthday party.</li></ol>
+<hr>
+<h3 id="grandpa">grandpa<a class="hash" href="#grandpa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrænpɑː/ &middot; <em>GRAN-pah</em></dd><dt>Русский</dt><dd>дедушка</dd><dt>Plural</dt><dd><em>grandpas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for a grandfather.</p>
+<ol><li><em>Grandpa</em> let me steer the boat.</li><li>Her <em>grandpa</em> still drives himself to church.</li><li>The kids have four <em>grandpas</em> between them.</li></ol>
+<hr>
+<h3 id="toy">toy<a class="hash" href="#toy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɔɪ/ &middot; <em>TOY</em></dd><dt>Русский</dt><dd>игрушка</dd><dt>Plural</dt><dd><em>toys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An object made for a child to play with.</p>
+<ol><li>He got a new <em>toy</em> for finishing his chores.</li><li>Please put your <em>toys</em> away before dinner.</li><li>The living room floor is covered in <em>toys</em>.</li></ol>
+<hr>
+<h3 id="doll">doll<a class="hash" href="#doll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɑːl/ &middot; <em>DAHL</em></dd><dt>Русский</dt><dd>кукла</dd><dt>Plural</dt><dd><em>dolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small model of a person that a child plays with.</p>
+<ol><li>She carries that <em>doll</em> everywhere.</li><li>He fed the <em>doll</em> pretend soup.</li><li>Her <em>dolls</em> are lined up along the windowsill.</li></ol>
+<hr>
+<h3 id="parenting">parenting<a class="hash" href="#parenting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrəntɪŋ/ &middot; <em>PAIR-uhn-ting</em></dd><dt>Русский</dt><dd>воспитание детей, родительство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of raising a child.</p>
+<ol><li>Good <em>parenting</em> takes a lot of patience.</li><li>They disagree about <em>parenting</em> almost every day.</li><li>She writes a <em>parenting</em> column for the paper.</li></ol>
+<hr>
+<h3 id="childcare">childcare<a class="hash" href="#childcare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldkɛr/ &middot; <em>CHYLD-kair</em></dd><dt>Русский</dt><dd>уход за детьми, присмотр за ребёнком</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Written either solid, <em>childcare</em>, or as two words, <em>child care</em>.</dd></dl>
+<p>The work of looking after children while their parents are away.</p>
+<ol><li><em>Childcare</em> costs more than their rent.</li><li>We could not find <em>childcare</em> for the summer.</li><li>Her company offers on-site <em>childcare</em>.</li></ol>
+<hr>
+<h3 id="nanny">nanny<a class="hash" href="#nanny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæni/ &middot; <em>NAN-ee</em></dd><dt>Русский</dt><dd>няня (постоянная)</dd><dt>Plural</dt><dd><em>nannies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone employed to look after a family's children.</p>
+<ol><li>They hired a <em>nanny</em> when the twins were born.</li><li>Our <em>nanny</em> takes the kids to the park every morning.</li><li>Two <em>nannies</em> were chatting by the swings.</li></ol>
+<hr>
+<h3 id="sitter">sitter<a class="hash" href="#sitter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪtər/ &middot; <em>SIT-ur</em></dd><dt>Русский</dt><dd>няня (приходящая), бебиситтер</dd><dt>Plural</dt><dd><em>sitters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who watches a child for a few hours while the parents are out.</p>
+<ol><li>We need a <em>sitter</em> for Friday night.</li><li>The <em>sitter</em> put them to bed at eight.</li><li>Good <em>sitters</em> book up weeks in advance.</li></ol>
+<hr>
+<h3 id="babysitting">babysitting<a class="hash" href="#babysitting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbisɪtɪŋ/ &middot; <em>BAY-bee-sit-ing</em></dd><dt>Русский</dt><dd>присмотр за детьми (за плату)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The job of watching someone's children for a short time.</p>
+<ol><li>She earns extra money <em>babysitting</em>.</li><li><em>Babysitting</em> pays fifteen dollars an hour around here.</li><li>He gave up <em>babysitting</em> once he got a real job.</li></ol>
+<hr>
+<h3 id="teen">teen<a class="hash" href="#teen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiːn/ &middot; <em>TEEN</em></dd><dt>Русский</dt><dd>подросток</dd><dt>Plural</dt><dd><em>teens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young person between about thirteen and nineteen.</p>
+<ol><li>Raising a <em>teen</em> is nothing like raising a toddler.</li><li>The movie is aimed at <em>teens</em>.</li><li>Most <em>teens</em> here have a part-time job.</li></ol>
+<hr>
+<h3 id="kiddo">kiddo<a class="hash" href="#kiddo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪdoʊ/ &middot; <em>KID-oh</em></dd><dt>Русский</dt><dd>малыш, дружок (обращение к ребёнку)</dd><dt>Plural</dt><dd><em>kiddos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A friendly, informal word for a child.</p>
+<ol><li>Nice job, <em>kiddo</em>.</li><li>How was school, <em>kiddo</em>?</li><li>She packed lunches for all three <em>kiddos</em>.</li></ol>
+<hr>
+<h3 id="tot">tot<a class="hash" href="#tot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɑːt/ &middot; <em>TAHT</em></dd><dt>Русский</dt><dd>малыш, кроха</dd><dt>Plural</dt><dd><em>tots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small child.</p>
+<ol><li>A <em>tot</em> in rain boots splashed through the puddle.</li><li>The library runs a story hour for <em>tots</em>.</li><li>Half the <em>tots</em> fell asleep on the bus.</li></ol>
+<hr>
+<h3 id="youngster">youngster<a class="hash" href="#youngster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjʌŋstər/ &middot; <em>YUNG-stur</em></dd><dt>Русский</dt><dd>ребёнок, подросток</dd><dt>Plural</dt><dd><em>youngsters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child or young teenager.</p>
+<ol><li>The coach is great with <em>youngsters</em>.</li><li>One <em>youngster</em> raised his hand for every question.</li><li>Local <em>youngsters</em> cleaned up the riverbank.</li></ol>
+<hr>
+<h3 id="preschooler">preschooler<a class="hash" href="#preschooler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːskuːlər/ &middot; <em>PREE-skoo-lur</em></dd><dt>Русский</dt><dd>дошкольник</dd><dt>Plural</dt><dd><em>preschoolers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child of about three or four, too young for regular school.</p>
+<ol><li>A <em>preschooler</em> asks about a hundred questions a day.</li><li>The class is designed for <em>preschoolers</em>.</li><li>Our <em>preschooler</em> still naps in the afternoon.</li></ol>
+<hr>
+<h3 id="kindergartener">kindergartener<a class="hash" href="#kindergartener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪndərɡɑːrtnər/ &middot; <em>KIN-dur-gart-nur</em></dd><dt>Русский</dt><dd>ребёнок из подготовительного класса (5–6 лет)</dd><dt>Plural</dt><dd><em>kindergarteners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child in the school year before first grade.</p>
+<ol><li>My <em>kindergartener</em> lost his second tooth today.</li><li>The <em>kindergarteners</em> sang two songs at the assembly.</li><li>Every <em>kindergartener</em> gets a nap mat.</li></ol>
+<hr>
+<h3 id="only-child">only child<a class="hash" href="#only-child" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊnli tʃaɪld/ &middot; <em>OHN-lee-CHYLD</em></dd><dt>Русский</dt><dd>единственный ребёнок в семье</dd><dt>Plural</dt><dd><em>only children</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>only children</em>, never "only childs".</dd></dl>
+<p>A child with no brothers or sisters.</p>
+<ol><li>He grew up an <em>only child</em> in a quiet house.</li><li>Being an <em>only child</em> has its advantages.</li><li>Both of my parents were <em>only children</em>.</li></ol>
+<hr>
+<h3 id="firstborn">firstborn<a class="hash" href="#firstborn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrstbɔːrn/ &middot; <em>FURST-born</em></dd><dt>Русский</dt><dd>первенец, старший ребёнок</dd><dt>Plural</dt><dd><em>firstborns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The oldest child in a family.</p>
+<ol><li>Their <em>firstborn</em> just turned nine.</li><li>As the <em>firstborn</em>, she got stuck babysitting.</li><li><em>Firstborns</em> often end up bossy.</li></ol>
+<hr>
+<h3 id="triplet">triplet<a class="hash" href="#triplet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪplət/ &middot; <em>TRIP-luht</em></dd><dt>Русский</dt><dd>один из тройни</dd><dt>Plural</dt><dd><em>triplets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of three children born at the same birth.</p>
+<ol><li>One <em>triplet</em> was born much smaller than the others.</li><li>They have <em>triplets</em> and a dog.</li><li>The <em>triplets</em> wore matching hats.</li></ol>
+<hr>
+<h3 id="stepfather">stepfather<a class="hash" href="#stepfather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛpfɑːðər/ &middot; <em>STEP-fah-thur</em></dd><dt>Русский</dt><dd>отчим</dd><dt>Plural</dt><dd><em>stepfathers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The husband of your mother, who is not your birth father.</p>
+<ol><li>Her <em>stepfather</em> taught her to drive.</li><li>He gets along fine with his <em>stepfather</em>.</li><li>Both <em>stepfathers</em> came to the graduation.</li></ol>
+<hr>
+<h3 id="stepchild">stepchild<a class="hash" href="#stepchild" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛptʃaɪld/ &middot; <em>STEP-chyld</em></dd><dt>Русский</dt><dd>пасынок, падчерица</dd><dt>Plural</dt><dd><em>stepchildren</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>stepchildren</em>, like <em>children</em>.</dd></dl>
+<p>The child of your husband or wife from an earlier relationship.</p>
+<ol><li>He raised his <em>stepchild</em> as his own.</li><li>She has two <em>stepchildren</em> in high school.</li><li>The <em>stepchildren</em> stay with us every other weekend.</li></ol>
+<hr>
+<h3 id="godmother">godmother<a class="hash" href="#godmother" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːdmʌðər/ &middot; <em>GAHD-muh-thur</em></dd><dt>Русский</dt><dd>крёстная мать</dd><dt>Plural</dt><dd><em>godmothers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman who promises at a baptism to help raise a child.</p>
+<ol><li>My aunt is also my <em>godmother</em>.</li><li>The <em>godmother</em> held the baby at the font.</li><li>Both <em>godmothers</em> flew in for the christening.</li></ol>
+<hr>
+<h3 id="godfather">godfather<a class="hash" href="#godfather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːdfɑːðər/ &middot; <em>GAHD-fah-thur</em></dd><dt>Русский</dt><dd>крёстный отец</dd><dt>Plural</dt><dd><em>godfathers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man who promises at a baptism to help raise a child.</p>
+<ol><li>He asked his oldest friend to be the <em>godfather</em>.</li><li>Her <em>godfather</em> sends a card every birthday.</li><li>The <em>godfathers</em> stood on the left side of the altar.</li></ol>
+<hr>
+<h3 id="playmate">playmate<a class="hash" href="#playmate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪmeɪt/ &middot; <em>PLAY-mayt</em></dd><dt>Русский</dt><dd>товарищ по играм</dd><dt>Plural</dt><dd><em>playmates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child who regularly plays with another child.</p>
+<ol><li>The boy next door is his favorite <em>playmate</em>.</li><li>She needs a <em>playmate</em> her own age.</li><li>The two <em>playmates</em> built a fort out of couch cushions.</li></ol>
+<hr>
+<h3 id="brat">brat<a class="hash" href="#brat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bræt/ &middot; <em>BRAT</em></dd><dt>Русский</dt><dd>избалованный ребёнок, капризуля</dd><dt>Plural</dt><dd><em>brats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A badly behaved or spoiled child.</p>
+<ol><li>He was acting like a total <em>brat</em> in the store.</li><li>Nobody wants to raise a <em>brat</em>.</li><li>The restaurant was full of screaming <em>brats</em>.</li></ol>
+<hr>
+<h3 id="au-pair">au pair<a class="hash" href="#au-pair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊ ˈpɛr/ &middot; <em>oh-PAIR</em></dd><dt>Русский</dt><dd>о-пэр, помощница по хозяйству из другой страны</dd><dt>Plural</dt><dd><em>au pairs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French, but said the English way: oh-PAIR.</dd></dl>
+<p>A young foreigner who lives with a family and helps with the children.</p>
+<ol><li>Their <em>au pair</em> is from Germany.</li><li>We host an <em>au pair</em> for a year at a time.</li><li>The <em>au pairs</em> meet up downtown on weekends.</li></ol>
+<hr>
+<h3 id="caretaker">caretaker<a class="hash" href="#caretaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛrteɪkər/ &middot; <em>KAIR-tay-kur</em></dd><dt>Русский</dt><dd>тот, кто ухаживает (за ребёнком, больным)</dd><dt>Plural</dt><dd><em>caretakers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a <em>caretaker</em> looks after people; in British English it is the janitor of a building.</dd></dl>
+<p>Someone who looks after a person who cannot look after themselves.</p>
+<ol><li>A child needs at least one steady <em>caretaker</em>.</li><li>She became the main <em>caretaker</em> for both kids.</li><li>The <em>caretakers</em> rotate on a weekly schedule.</li></ol>
+<hr>
+<h3 id="obstetrician">obstetrician<a class="hash" href="#obstetrician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːbstəˈtrɪʃən/ &middot; <em>ahb-stuh-TRISH-uhn</em></dd><dt>Русский</dt><dd>акушер-гинеколог</dd><dt>Plural</dt><dd><em>obstetricians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A doctor who cares for women during pregnancy and birth.</p>
+<ol><li>Her <em>obstetrician</em> wants to see her every week now.</li><li>We switched <em>obstetricians</em> halfway through.</li><li>The <em>obstetrician</em> met us at the hospital at 3 a.m.</li></ol>
+<hr>
+<h3 id="parenthood">parenthood<a class="hash" href="#parenthood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrənthʊd/ &middot; <em>PAIR-uhnt-hood</em></dd><dt>Русский</dt><dd>родительство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being a parent.</p>
+<ol><li>Nothing prepares you for <em>parenthood</em>.</li><li>They eased into <em>parenthood</em> slowly.</li><li><em>Parenthood</em> changed how he spends his weekends.</li></ol>
+<hr>
+<h3 id="fatherhood">fatherhood<a class="hash" href="#fatherhood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːðərhʊd/ &middot; <em>FAH-thur-hood</em></dd><dt>Русский</dt><dd>отцовство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being a father.</p>
+<ol><li><em>Fatherhood</em> suits him.</li><li>He talks about <em>fatherhood</em> like it saved his life.</li><li>The book is about first-year <em>fatherhood</em>.</li></ol>
+<hr>
+<h3 id="babyhood">babyhood<a class="hash" href="#babyhood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbihʊd/ &middot; <em>BAY-bee-hood</em></dd><dt>Русский</dt><dd>младенчество</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stage of life when a person is a baby.</p>
+<ol><li>She barely remembers his <em>babyhood</em> — it went so fast.</li><li>The photos cover his whole <em>babyhood</em>.</li><li>He was sick through most of <em>babyhood</em>.</li></ol>
+<hr>
+<h3 id="toddlerhood">toddlerhood<a class="hash" href="#toddlerhood" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːdlərhʊd/ &middot; <em>TAHD-lur-hood</em></dd><dt>Русский</dt><dd>ранний возраст (примерно от года до трёх)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The stage of life between about one and three years old.</p>
+<ol><li><em>Toddlerhood</em> is exhausting and wonderful.</li><li>We survived <em>toddlerhood</em> on coffee.</li><li>Tantrums are normal in <em>toddlerhood</em>.</li></ol>
+<hr>
+<h3 id="puberty">puberty<a class="hash" href="#puberty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpjuːbərti/ &middot; <em>PYOO-bur-tee</em></dd><dt>Русский</dt><dd>половое созревание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period when a child's body changes into an adult's.</p>
+<ol><li>He hit <em>puberty</em> the summer after sixth grade.</li><li>Kids reach <em>puberty</em> earlier than they used to.</li><li><em>Puberty</em> explains a lot about her moods lately.</li></ol>
+<hr>
+<h3 id="car-seat">car seat<a class="hash" href="#car-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːr siːt/ &middot; <em>KAR-seet</em></dd><dt>Русский</dt><dd>детское автокресло</dd><dt>Plural</dt><dd><em>car seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded safety seat that straps a small child into a car.</p>
+<ol><li>You cannot leave the hospital without a <em>car seat</em>.</li><li>He fell asleep in his <em>car seat</em> before we hit the highway.</li><li>Both <em>car seats</em> barely fit across the back row.</li></ol>
+<hr>
+<h3 id="bassinet">bassinet<a class="hash" href="#bassinet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbæsəˈnɛt/ &middot; <em>bas-uh-NET</em></dd><dt>Русский</dt><dd>люлька, переносная колыбель</dd><dt>Plural</dt><dd><em>bassinets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small basket-like bed for a newborn baby.</p>
+<ol><li>The <em>bassinet</em> fits right next to our bed.</li><li>She outgrew the <em>bassinet</em> in two months.</li><li>The hospital lines the <em>bassinets</em> up along the window.</li></ol>
+<hr>
+<h3 id="playpen">playpen<a class="hash" href="#playpen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪpɛn/ &middot; <em>PLAY-pen</em></dd><dt>Русский</dt><dd>детский манеж</dd><dt>Plural</dt><dd><em>playpens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small fenced area where a baby can play safely.</p>
+<ol><li>I put him in the <em>playpen</em> while I cooked.</li><li>The <em>playpen</em> folds up for travel.</li><li>Both <em>playpens</em> are set up in the basement.</li></ol>
+<hr>
+<h3 id="baby-monitor">baby monitor<a class="hash" href="#baby-monitor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ˌmɑːnətər/ &middot; <em>BAY-bee-MAH-nuh-tur</em></dd><dt>Русский</dt><dd>радионяня</dd><dt>Plural</dt><dd><em>baby monitors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that lets parents hear or see a baby in another room.</p>
+<ol><li>Turn the <em>baby monitor</em> up so we can hear her.</li><li>The <em>baby monitor</em> picked up the neighbor's TV.</li><li>Video <em>baby monitors</em> have gotten cheap.</li></ol>
+<hr>
+<h3 id="diaper-bag">diaper bag<a class="hash" href="#diaper-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪpər bæɡ/ &middot; <em>DY-pur-bag</em></dd><dt>Русский</dt><dd>сумка для подгузников</dd><dt>Plural</dt><dd><em>diaper bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bag for carrying a baby's diapers, wipes, and supplies.</p>
+<ol><li>Grab the <em>diaper bag</em> before we go.</li><li>There is a change of clothes in the <em>diaper bag</em>.</li><li>Their <em>diaper bags</em> were stuffed with snacks.</li></ol>
+<hr>
+<h3 id="changing-table">changing table<a class="hash" href="#changing-table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeɪndʒɪŋ ˌteɪbl/ &middot; <em>CHAYN-jing-tay-buhl</em></dd><dt>Русский</dt><dd>пеленальный столик</dd><dt>Plural</dt><dd><em>changing tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waist-high table where a baby's diaper is changed.</p>
+<ol><li>Never walk away from the <em>changing table</em>.</li><li>The <em>changing table</em> has drawers underneath.</li><li>Most restrooms here have <em>changing tables</em>.</li></ol>
+<hr>
+<h3 id="baby-gate">baby gate<a class="hash" href="#baby-gate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ɡeɪt/ &middot; <em>BAY-bee-gayt</em></dd><dt>Русский</dt><dd>защитные ворота (в дверях, у лестницы)</dd><dt>Plural</dt><dd><em>baby gates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A barrier across a doorway or stairs to keep a small child out.</p>
+<ol><li>Put the <em>baby gate</em> back up at the top of the stairs.</li><li>He figured out how to open the <em>baby gate</em>.</li><li>We have <em>baby gates</em> on both floors.</li></ol>
+<hr>
+<h3 id="bouncer">bouncer<a class="hash" href="#bouncer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaʊnsər/ &middot; <em>BOWN-sur</em></dd><dt>Русский</dt><dd>детский шезлонг-качалка</dd><dt>Plural</dt><dd><em>bouncers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means the man who throws people out of a bar.</dd></dl>
+<p>A soft springy seat that rocks a baby up and down.</p>
+<ol><li>She naps best in the <em>bouncer</em>.</li><li>Set the <em>bouncer</em> on the floor, never on a table.</li><li>Both <em>bouncers</em> came from a garage sale.</li></ol>
+<hr>
+<h3 id="walker">walker<a class="hash" href="#walker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːkər/ &middot; <em>WAW-kur</em></dd><dt>Русский</dt><dd>ходунки (детские)</dd><dt>Plural</dt><dd><em>walkers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian <em>ходунки</em> is plural, but English uses a singular: <em>a walker</em>.</dd></dl>
+<p>A wheeled frame with a seat that a baby scoots around in.</p>
+<ol><li>He raced across the kitchen in his <em>walker</em>.</li><li>Doctors here discourage the use of a <em>walker</em>.</li><li>Old-style <em>walkers</em> are banned in Canada.</li></ol>
+<hr>
+<h3 id="sling">sling<a class="hash" href="#sling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slɪŋ/ &middot; <em>SLING</em></dd><dt>Русский</dt><dd>слинг, перевязь для ношения ребёнка</dd><dt>Plural</dt><dd><em>slings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide cloth loop worn over the shoulder to carry a baby.</p>
+<ol><li>She wore the baby in a <em>sling</em> all afternoon.</li><li>The <em>sling</em> leaves both hands free.</li><li>Fabric <em>slings</em> are easier on your back than you would think.</li></ol>
+<hr>
+<h3 id="pacifier">pacifier<a class="hash" href="#pacifier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsəfaɪrr/ &middot; <em>PAS-uh-fy-ur</em></dd><dt>Русский</dt><dd>соска-пустышка</dd><dt>Plural</dt><dd><em>pacifiers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>pacifier</em>, British <em>dummy</em>.</dd></dl>
+<p>A rubber nipple a baby sucks on for comfort.</p>
+<ol><li>The <em>pacifier</em> fell out and he woke right up.</li><li>We are trying to take away the <em>pacifier</em> this month.</li><li>There are three <em>pacifiers</em> somewhere in that crib.</li></ol>
+<hr>
+<h3 id="binky">binky<a class="hash" href="#binky" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪŋki/ &middot; <em>BING-kee</em></dd><dt>Русский</dt><dd>пустышка (разговорное)</dd><dt>Plural</dt><dd><em>binkies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A casual word for a baby's pacifier.</p>
+<ol><li>Where did his <em>binky</em> go?</li><li>She will not sleep without the <em>binky</em>.</li><li>We keep spare <em>binkies</em> in every room.</li></ol>
+<hr>
+<h3 id="rattle">rattle<a class="hash" href="#rattle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrætl/ &middot; <em>RAT-uhl</em></dd><dt>Русский</dt><dd>погремушка</dd><dt>Plural</dt><dd><em>rattles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A baby's toy that makes a noise when it is shaken.</p>
+<ol><li>He shook the <em>rattle</em> and laughed.</li><li>The <em>rattle</em> rolled under the couch.</li><li>Wooden <em>rattles</em> were a popular shower gift.</li></ol>
+<hr>
+<h3 id="teether">teether<a class="hash" href="#teether" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːðər/ &middot; <em>TEE-thur</em></dd><dt>Русский</dt><dd>прорезыватель для зубов</dd><dt>Plural</dt><dd><em>teethers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft object a baby chews on while teeth are coming in.</p>
+<ol><li>Keep the <em>teether</em> in the freezer.</li><li>He gnawed on the <em>teether</em> for an hour.</li><li>Silicone <em>teethers</em> are easy to clean.</li></ol>
+<hr>
+<h3 id="teething-ring">teething ring<a class="hash" href="#teething-ring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːðɪŋ rɪŋ/ &middot; <em>TEE-thing-ring</em></dd><dt>Русский</dt><dd>прорезыватель-кольцо</dd><dt>Plural</dt><dd><em>teething rings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ring-shaped teether that a baby can grip and chew.</p>
+<ol><li>She dropped the <em>teething ring</em> on the floor again.</li><li>A cold <em>teething ring</em> calms him down fast.</li><li>We went through four <em>teething rings</em> that winter.</li></ol>
+<hr>
+<h3 id="teddy-bear">teddy bear<a class="hash" href="#teddy-bear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛdi bɛr/ &middot; <em>TED-ee-bair</em></dd><dt>Русский</dt><dd>плюшевый мишка</dd><dt>Plural</dt><dd><em>teddy bears</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft toy bear that a child sleeps with or carries around.</p>
+<ol><li>He will not go anywhere without that <em>teddy bear</em>.</li><li>The <em>teddy bear</em> has been washed so many times it is gray.</li><li>Her shelf is crowded with <em>teddy bears</em>.</li></ol>
+<hr>
+<h3 id="stuffed-animal">stuffed animal<a class="hash" href="#stuffed-animal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstʌft ˈænəml/ &middot; <em>stuft-AN-uh-muhl</em></dd><dt>Русский</dt><dd>мягкая игрушка</dd><dt>Plural</dt><dd><em>stuffed animals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>stuffed animal</em>; the British say <em>soft toy</em> or <em>cuddly toy</em>.</dd></dl>
+<p>A soft toy shaped like an animal.</p>
+<ol><li>She lined up every <em>stuffed animal</em> along the wall.</li><li>He won a <em>stuffed animal</em> at the fair.</li><li>The <em>stuffed animals</em> take up half the bed.</li></ol>
+<hr>
+<h3 id="security-blanket">security blanket<a class="hash" href="#security-blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈkjʊrəti ˈblæŋkət/ &middot; <em>suh-KYOOR-uh-tee-BLANG-kuht</em></dd><dt>Русский</dt><dd>любимое одеяльце (для успокоения)</dd><dt>Plural</dt><dd><em>security blankets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A blanket a small child carries around for comfort.</p>
+<ol><li>He drags that <em>security blanket</em> through the whole house.</li><li>We had to sneak the <em>security blanket</em> into the wash.</li><li>Some kids never have <em>security blankets</em> at all.</li></ol>
+<hr>
+<h3 id="diaper-pail">diaper pail<a class="hash" href="#diaper-pail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪpər peɪl/ &middot; <em>DY-pur-payl</em></dd><dt>Русский</dt><dd>ведро для использованных подгузников</dd><dt>Plural</dt><dd><em>diaper pails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sealed bin for used diapers.</p>
+<ol><li>Somebody needs to empty the <em>diaper pail</em>.</li><li>The <em>diaper pail</em> keeps the smell down surprisingly well.</li><li>We have <em>diaper pails</em> in both bedrooms.</li></ol>
+<hr>
+<h3 id="breast-pump">breast pump<a class="hash" href="#breast-pump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛst pʌmp/ &middot; <em>BREST-pump</em></dd><dt>Русский</dt><dd>молокоотсос</dd><dt>Plural</dt><dd><em>breast pumps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ea in <em>breast</em> is short: BREST, not "breest".</dd></dl>
+<p>A device a mother uses to draw milk from her breasts.</p>
+<ol><li>Insurance covered most of the <em>breast pump</em>.</li><li>She keeps a <em>breast pump</em> at the office.</li><li>Electric <em>breast pumps</em> are much faster.</li></ol>
+<hr>
+<h3 id="sterilizer">sterilizer<a class="hash" href="#sterilizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛrəlaɪzər/ &middot; <em>STAIR-uh-ly-zur</em></dd><dt>Русский</dt><dd>стерилизатор (для бутылочек)</dd><dt>Plural</dt><dd><em>sterilizers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that kills germs on bottles and pacifiers with steam.</p>
+<ol><li>Run the bottles through the <em>sterilizer</em>.</li><li>The <em>sterilizer</em> takes about eight minutes.</li><li>Countertop <em>sterilizers</em> were on every registry.</li></ol>
+<hr>
+<h3 id="nightlight">nightlight<a class="hash" href="#nightlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtlaɪt/ &middot; <em>NYT-lyt</em></dd><dt>Русский</dt><dd>ночник</dd><dt>Plural</dt><dd><em>nightlights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small lamp left on so a child is not in the dark.</p>
+<ol><li>He will not sleep without a <em>nightlight</em>.</li><li>The <em>nightlight</em> burned out and she panicked.</li><li>We put <em>nightlights</em> in the hallway too.</li></ol>
+<hr>
+<h3 id="baby-wipes">baby wipes<a class="hash" href="#baby-wipes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi waɪps/ &middot; <em>BAY-bee-wypes</em></dd><dt>Русский</dt><dd>детские влажные салфетки</dd><dt>Plural</dt><dd><em>baby wipes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always used in the plural, even for one pack.</dd></dl>
+<p>Damp disposable cloths for cleaning a baby.</p>
+<ol><li>We are out of <em>baby wipes</em> again.</li><li><em>Baby wipes</em> clean up just about anything.</li><li>Keep a pack of <em>baby wipes</em> in the glove box.</li></ol>
+<hr>
+<h3 id="diaper-cream">diaper cream<a class="hash" href="#diaper-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪpər kriːm/ &middot; <em>DY-pur-kreem</em></dd><dt>Русский</dt><dd>крем под подгузник</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thick ointment put on a baby's bottom to prevent soreness.</p>
+<ol><li>Put some <em>diaper cream</em> on before you close it up.</li><li>We ran out of <em>diaper cream</em> on the second day of the trip.</li><li>That <em>diaper cream</em> cleared it up overnight.</li></ol>
+<hr>
+<h3 id="training-pants">training pants<a class="hash" href="#training-pants" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪnɪŋ pænts/ &middot; <em>TRAY-ning-pants</em></dd><dt>Русский</dt><dd>трусики для приучения к горшку</dd><dt>Plural</dt><dd><em>training pants</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural only, like <em>pants</em> — one item is "a pair of training pants".</dd></dl>
+<p>Thick underwear worn by a child learning to use the toilet.</p>
+<ol><li>He wears <em>training pants</em> to preschool now.</li><li><em>Training pants</em> catch the small accidents.</li><li>Pack an extra pair of <em>training pants</em>.</li></ol>
+<hr>
+<h3 id="onesie">onesie<a class="hash" href="#onesie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʌnzi/ &middot; <em>WUN-zee</em></dd><dt>Русский</dt><dd>боди, детский комбинезон-слип</dd><dt>Plural</dt><dd><em>onesies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with one e in the middle but said WUN-zee, from <em>one</em>.</dd></dl>
+<p>A one-piece baby garment that snaps between the legs.</p>
+<ol><li>She spit up on her third <em>onesie</em> today.</li><li>That <em>onesie</em> says "Daddy's Little Helper."</li><li>We got a dozen <em>onesies</em> at the shower.</li></ol>
+<hr>
+<h3 id="romper">romper<a class="hash" href="#romper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːmpər/ &middot; <em>RAHM-pur</em></dd><dt>Русский</dt><dd>ползунки, детский комбинезон</dd><dt>Plural</dt><dd><em>rompers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose one-piece outfit with short legs, worn by small children.</p>
+<ol><li>He wore a striped <em>romper</em> to the picnic.</li><li>That <em>romper</em> is already too short in the legs.</li><li>Summer <em>rompers</em> are the easiest thing to change him in.</li></ol>
+<hr>
+<h3 id="swaddle">swaddle<a class="hash" href="#swaddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɑːdl/ &middot; <em>SWAH-duhl</em></dd><dt>Русский</dt><dd>пелёнка-кокон; пеленание</dd><dt>Plural</dt><dd><em>swaddles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A snug wrap that holds a baby's arms tucked in.</p>
+<ol><li>A tight <em>swaddle</em> is the only thing that settles her.</li><li>He wriggled out of the <em>swaddle</em> by midnight.</li><li>We bought two zip-up <em>swaddles</em>.</li></ol>
+<hr>
+<h3 id="burp-cloth">burp cloth<a class="hash" href="#burp-cloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrp klɔːθ/ &middot; <em>BURP-klawth</em></dd><dt>Русский</dt><dd>пелёнка на плечо (при срыгивании)</dd><dt>Plural</dt><dd><em>burp cloths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small cloth put over the shoulder to catch what a baby spits up.</p>
+<ol><li>Throw a <em>burp cloth</em> over your shoulder first.</li><li>That <em>burp cloth</em> has seen better days.</li><li>There are clean <em>burp cloths</em> in the second drawer.</li></ol>
+<hr>
+<h3 id="toddler-bed">toddler bed<a class="hash" href="#toddler-bed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːdlər bɛd/ &middot; <em>TAHD-lur-bed</em></dd><dt>Русский</dt><dd>кроватка для малыша (переходная)</dd><dt>Plural</dt><dd><em>toddler beds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low bed with side rails, used after a child outgrows the crib.</p>
+<ol><li>We moved him into a <em>toddler bed</em> at two.</li><li>The <em>toddler bed</em> uses the same crib mattress.</li><li>Both <em>toddler beds</em> came from the same store.</li></ol>
+<hr>
+<h3 id="childproofing">childproofing<a class="hash" href="#childproofing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪldpruːfɪŋ/ &middot; <em>CHYLD-proo-fing</em></dd><dt>Русский</dt><dd>защита дома от детей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of making a home safe for a small child.</p>
+<ol><li><em>Childproofing</em> took an entire weekend.</li><li>We did the <em>childproofing</em> right before he started crawling.</li><li><em>Childproofing</em> means locks on every low cabinet.</li></ol>
+<hr>
+<h3 id="breast-milk">breast milk<a class="hash" href="#breast-milk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛst mɪlk/ &middot; <em>BREST-milk</em></dd><dt>Русский</dt><dd>грудное молоко</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The milk a mother's body makes to feed her baby.</p>
+<ol><li><em>Breast milk</em> keeps four days in the fridge.</li><li>She freezes extra <em>breast milk</em> in small bags.</li><li>He gets <em>breast milk</em> at night and formula during the day.</li></ol>
+<hr>
+<h3 id="breastfeeding">breastfeeding<a class="hash" href="#breastfeeding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɛstfiːdɪŋ/ &middot; <em>BREST-fee-ding</em></dd><dt>Русский</dt><dd>грудное вскармливание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Feeding a baby with milk from the mother's breast.</p>
+<ol><li><em>Breastfeeding</em> was harder than she expected.</li><li>The hospital has a class on <em>breastfeeding</em>.</li><li>She stopped <em>breastfeeding</em> at ten months.</li></ol>
+<hr>
+<h3 id="nursing">nursing<a class="hash" href="#nursing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrsɪŋ/ &middot; <em>NUR-sing</em></dd><dt>Русский</dt><dd>кормление грудью</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The same word also means the profession of a nurse — context decides.</dd></dl>
+<p>Feeding a baby at the breast.</p>
+<ol><li><em>Nursing</em> every two hours wore her out.</li><li>She found a quiet room for <em>nursing</em>.</li><li><em>Nursing</em> got easier after the first month.</li></ol>
+<hr>
+<h3 id="burp">burp<a class="hash" href="#burp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɜːrp/ &middot; <em>BURP</em></dd><dt>Русский</dt><dd>отрыжка</dd><dt>Plural</dt><dd><em>burps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Air coming up loudly from the stomach through the mouth.</p>
+<ol><li>Wait for a <em>burp</em> before you lay her down.</li><li>That was a big <em>burp</em> for such a little guy.</li><li>Two good <em>burps</em> and he was fine.</li></ol>
+<hr>
+<h3 id="spit-up">spit-up<a class="hash" href="#spit-up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪt ʌp/ &middot; <em>SPIT-up</em></dd><dt>Русский</dt><dd>срыгивание (у младенца)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The noun is hyphenated, <em>spit-up</em>; the verb is two words, <em>spit up</em>.</dd></dl>
+<p>The small amount of milk a baby brings back up after feeding.</p>
+<ol><li>There is <em>spit-up</em> on your collar.</li><li>A little <em>spit-up</em> after every bottle is normal.</li><li>The <em>spit-up</em> came right out of the shirt.</li></ol>
+<hr>
+<h3 id="baby-food">baby food<a class="hash" href="#baby-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi fuːd/ &middot; <em>BAY-bee-food</em></dd><dt>Русский</dt><dd>детское питание (пюре)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft mashed food made for babies who cannot chew yet.</p>
+<ol><li>She makes her own <em>baby food</em> in a blender.</li><li>The jars of <em>baby food</em> are on aisle six.</li><li>He spat the <em>baby food</em> straight back out.</li></ol>
+<hr>
+<h3 id="solids">solids<a class="hash" href="#solids" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːlədz/ &middot; <em>SAH-luhdz</em></dd><dt>Русский</dt><dd>твёрдая пища, прикорм</dd><dt>Plural</dt><dd><em>solids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In this baby-feeding sense the word is always plural: <em>solids</em>.</dd></dl>
+<p>Real food, as opposed to milk, given to a baby starting to eat.</p>
+<ol><li>We started <em>solids</em> at six months.</li><li>He is not interested in <em>solids</em> yet.</li><li>The doctor said to introduce <em>solids</em> one at a time.</li></ol>
+<hr>
+<h3 id="weaning">weaning<a class="hash" href="#weaning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːnɪŋ/ &middot; <em>WEE-ning</em></dd><dt>Русский</dt><dd>отлучение от груди, введение прикорма</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of moving a baby off breast or bottle onto other food.</p>
+<ol><li><em>Weaning</em> went more smoothly than we feared.</li><li>She started <em>weaning</em> around a year.</li><li>Slow <em>weaning</em> is easier on everyone.</li></ol>
+<hr>
+<h3 id="colic">colic<a class="hash" href="#colic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːlɪk/ &middot; <em>KAH-lik</em></dd><dt>Русский</dt><dd>колики (у младенца)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Long spells of crying in a healthy baby, often in the evening.</p>
+<ol><li>The doctor said it was just <em>colic</em>.</li><li><em>Colic</em> had us up every night for two months.</li><li>Nothing helps <em>colic</em> except time.</li></ol>
+<hr>
+<h3 id="reflux">reflux<a class="hash" href="#reflux" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːflʌks/ &middot; <em>REE-fluks</em></dd><dt>Русский</dt><dd>рефлюкс, заброс молока обратно</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A condition where stomach contents come back up the throat.</p>
+<ol><li>The baby has <em>reflux</em>, so we keep her upright after meals.</li><li><em>Reflux</em> usually settles down by six months.</li><li>They put him on medicine for the <em>reflux</em>.</li></ol>
+<hr>
+<h3 id="teething">teething<a class="hash" href="#teething" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtiːðɪŋ/ &middot; <em>TEE-thing</em></dd><dt>Русский</dt><dd>прорезывание зубов</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The period when a baby's first teeth push through the gums.</p>
+<ol><li><em>Teething</em> has him drooling all day.</li><li>She blamed the fussiness on <em>teething</em>.</li><li><em>Teething</em> pain is worst at night.</li></ol>
+<hr>
+<h3 id="tummy-time">tummy time<a class="hash" href="#tummy-time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʌmi taɪm/ &middot; <em>TUM-ee-tym</em></dd><dt>Русский</dt><dd>выкладывание на живот</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time a baby spends lying face down to build neck and arm strength.</p>
+<ol><li>He hates <em>tummy time</em> but it is good for him.</li><li>Do a few minutes of <em>tummy time</em> after every nap.</li><li><em>Tummy time</em> helps them learn to roll over.</li></ol>
+<hr>
+<h3 id="growth-spurt">growth spurt<a class="hash" href="#growth-spurt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊθ spɜːrt/ &middot; <em>GROHTH-spurt</em></dd><dt>Русский</dt><dd>скачок роста</dd><dt>Plural</dt><dd><em>growth spurts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short period when a child grows unusually fast.</p>
+<ol><li>He is eating like crazy — must be a <em>growth spurt</em>.</li><li>She went up two shoe sizes in one <em>growth spurt</em>.</li><li><em>Growth spurts</em> mess up their sleep for a week.</li></ol>
+<hr>
+<h3 id="naptime">naptime<a class="hash" href="#naptime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnæptaɪm/ &middot; <em>NAP-tym</em></dd><dt>Русский</dt><dd>время дневного сна</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The part of the day set aside for a small child to sleep.</p>
+<ol><li>Do not call between one and three — that is <em>naptime</em>.</li><li>We moved <em>naptime</em> an hour later.</li><li><em>Naptime</em> is sacred in this house.</li></ol>
+<hr>
+<h3 id="sleep-training">sleep training<a class="hash" href="#sleep-training" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːp ˌtreɪnɪŋ/ &middot; <em>SLEEP-tray-ning</em></dd><dt>Русский</dt><dd>приучение ребёнка засыпать самостоятельно</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Teaching a baby to fall asleep alone and stay asleep.</p>
+<ol><li>We tried <em>sleep training</em> at seven months.</li><li><em>Sleep training</em> was three rough nights and then peace.</li><li>Not everyone believes in <em>sleep training</em>.</li></ol>
+<hr>
+<h3 id="co-sleeping">co-sleeping<a class="hash" href="#co-sleeping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkoʊˈsliːpɪŋ/ &middot; <em>koh-SLEE-ping</em></dd><dt>Русский</dt><dd>совместный сон с ребёнком</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of a baby sleeping in the parents' bed or room.</p>
+<ol><li><em>Co-sleeping</em> got us through the first year.</li><li>Their pediatrician warned them about <em>co-sleeping</em>.</li><li><em>Co-sleeping</em> is much more common in other countries.</li></ol>
+<hr>
+<h3 id="night-terror">night terror<a class="hash" href="#night-terror" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪt ˌtɛrər/ &middot; <em>NYT-TAIR-ur</em></dd><dt>Русский</dt><dd>ночной ужас (у ребёнка)</dd><dt>Plural</dt><dd><em>night terrors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Not the same as a nightmare — a child having a <em>night terror</em> stays asleep.</dd></dl>
+<p>An episode in which a sleeping child screams but does not wake up.</p>
+<ol><li>He had a <em>night terror</em> around eleven o'clock.</li><li>During a <em>night terror</em> you cannot really comfort them.</li><li>The <em>night terrors</em> stopped when he turned five.</li></ol>
+<hr>
+<h3 id="bedwetting">bedwetting<a class="hash" href="#bedwetting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛdwɛtɪŋ/ &middot; <em>BED-wet-ing</em></dd><dt>Русский</dt><dd>ночное недержание мочи, энурез</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Wetting the bed during sleep, common in young children.</p>
+<ol><li><em>Bedwetting</em> is normal well past age five.</li><li>They put a plastic sheet down because of the <em>bedwetting</em>.</li><li>The doctor said not to punish him for <em>bedwetting</em>.</li></ol>
+<hr>
+<h3 id="babble">babble<a class="hash" href="#babble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæbl/ &middot; <em>BAB-uhl</em></dd><dt>Русский</dt><dd>лепет (младенца)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The repeated sounds a baby makes before real words.</p>
+<ol><li>Her <em>babble</em> is starting to sound like sentences.</li><li>We heard happy <em>babble</em> through the monitor.</li><li>That <em>babble</em> turns into words faster than you think.</li></ol>
+<hr>
+<h3 id="first-steps">first steps<a class="hash" href="#first-steps" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrst stɛps/ &middot; <em>FURST-steps</em></dd><dt>Русский</dt><dd>первые шаги</dd><dt>Plural</dt><dd><em>first steps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always plural: you take your <em>first steps</em>, not "your first step".</dd></dl>
+<p>The first walking a baby does without help.</p>
+<ol><li>She took her <em>first steps</em> in the kitchen.</li><li>We missed his <em>first steps</em> — the sitter saw them.</li><li>Most babies take their <em>first steps</em> around a year.</li></ol>
+<hr>
+<h3 id="growth-chart">growth chart<a class="hash" href="#growth-chart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊθ tʃɑːrt/ &middot; <em>GROHTH-chart</em></dd><dt>Русский</dt><dd>таблица роста и веса ребёнка</dd><dt>Plural</dt><dd><em>growth charts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chart the doctor uses to track a child's height and weight.</p>
+<ol><li>He is off the top of the <em>growth chart</em>.</li><li>The nurse plotted her on the <em>growth chart</em>.</li><li><em>Growth charts</em> differ a little from country to country.</li></ol>
+<hr>
+<h3 id="baby-teeth">baby teeth<a class="hash" href="#baby-teeth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi tiːθ/ &middot; <em>BAY-bee-teeth</em></dd><dt>Русский</dt><dd>молочные зубы</dd><dt>Plural</dt><dd><em>baby teeth</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular: one <em>baby tooth</em>, several <em>baby teeth</em>. The British say <em>milk teeth</em>.</dd></dl>
+<p>The first set of teeth, which fall out in childhood.</p>
+<ol><li>He has lost four <em>baby teeth</em> already.</li><li><em>Baby teeth</em> still need brushing twice a day.</li><li>Kids get twenty <em>baby teeth</em> in all.</li></ol>
+<hr>
+<h3 id="tooth-fairy">tooth fairy<a class="hash" href="#tooth-fairy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːθ ˌfɛri/ &middot; <em>TOOTH-fair-ee</em></dd><dt>Русский</dt><dd>зубная фея</dd><dt>Plural</dt><dd><em>tooth fairies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An imaginary figure who leaves money for a child's lost tooth.</p>
+<ol><li>Put it under your pillow for the <em>tooth fairy</em>.</li><li>The <em>tooth fairy</em> forgot to come last night.</li><li>In this house the <em>tooth fairy</em> pays a dollar.</li></ol>
+<hr>
+<h3 id="soft-spot">soft spot<a class="hash" href="#soft-spot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːft spɑːt/ &middot; <em>SAWFT-spaht</em></dd><dt>Русский</dt><dd>родничок (на голове младенца)</dd><dt>Plural</dt><dd><em>soft spots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also used figuratively: to have <em>a soft spot for</em> someone is to be fond of them.</dd></dl>
+<p>The soft gap in a baby's skull where the bones have not joined yet.</p>
+<ol><li>Be careful of the <em>soft spot</em> on the top of his head.</li><li>The <em>soft spot</em> closed up by fourteen months.</li><li>Newborns have two <em>soft spots</em>, front and back.</li></ol>
+<hr>
+<h3 id="cradle-cap">cradle cap<a class="hash" href="#cradle-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪdl kæp/ &middot; <em>KRAY-duhl-kap</em></dd><dt>Русский</dt><dd>себорейные корочки на голове младенца</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Flaky yellow crust on a baby's scalp.</p>
+<ol><li>That patch on his head is just <em>cradle cap</em>.</li><li>Olive oil loosens up <em>cradle cap</em>.</li><li><em>Cradle cap</em> looks worse than it is.</li></ol>
+<hr>
+<h3 id="diaper-rash">diaper rash<a class="hash" href="#diaper-rash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪpər ræʃ/ &middot; <em>DY-pur-rash</em></dd><dt>Русский</dt><dd>опрелость, пелёночный дерматит</dd><dt>Plural</dt><dd><em>diaper rashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Red sore skin where a baby's diaper sits.</p>
+<ol><li>She has a bad <em>diaper rash</em> this week.</li><li>Change him more often and the <em>diaper rash</em> will clear.</li><li><em>Diaper rashes</em> flare up whenever he is teething.</li></ol>
+<hr>
+<h3 id="immunization">immunization<a class="hash" href="#immunization" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪmjənəˈzeɪʃən/ &middot; <em>im-yuh-nuh-ZAY-shuhn</em></dd><dt>Русский</dt><dd>иммунизация, прививка</dd><dt>Plural</dt><dd><em>immunizations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>immunization</em>; the British write <em>immunisation</em>.</dd></dl>
+<p>A shot that protects a child against a disease.</p>
+<ol><li>The school needs a record of every <em>immunization</em>.</li><li>He gets two <em>immunizations</em> at this visit.</li><li><em>Immunization</em> rates dropped that year.</li></ol>
+<hr>
+<h3 id="croup">croup<a class="hash" href="#croup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kruːp/ &middot; <em>KROOP</em></dd><dt>Русский</dt><dd>круп, лающий кашель у ребёнка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rhymes with <em>soup</em>, not with <em>cup</em>.</dd></dl>
+<p>A childhood illness that gives a harsh barking cough.</p>
+<ol><li>That barking cough is <em>croup</em>.</li><li><em>Croup</em> always seems to start at two in the morning.</li><li>Steam from the shower helps with <em>croup</em>.</li></ol>
+<hr>
+<h3 id="growing-pains">growing pains<a class="hash" href="#growing-pains" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊɪŋ peɪnz/ &middot; <em>GROH-ing-paynz</em></dd><dt>Русский</dt><dd>боли роста (в ногах у детей)</dd><dt>Plural</dt><dd><em>growing pains</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural only, and also used figuratively for a young company's early troubles.</dd></dl>
+<p>Aches in a child's legs at night during periods of fast growth.</p>
+<ol><li>He woke up crying with <em>growing pains</em>.</li><li><em>Growing pains</em> usually hit in the calves.</li><li>A warm bath eases the <em>growing pains</em>.</li></ol>
+<hr>
+<h3 id="thumb-sucking">thumb sucking<a class="hash" href="#thumb-sucking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθʌm ˌsʌkɪŋ/ &middot; <em>THUM-suk-ing</em></dd><dt>Русский</dt><dd>сосание пальца</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The b in <em>thumb</em> is silent: THUM.</dd></dl>
+<p>The habit of putting the thumb in the mouth for comfort.</p>
+<ol><li>The dentist warned us about <em>thumb sucking</em>.</li><li><em>Thumb sucking</em> is how she falls asleep.</li><li>He gave up <em>thumb sucking</em> on his own.</li></ol>
+<hr>
+<h3 id="picky-eater">picky eater<a class="hash" href="#picky-eater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪki ˈiːtər/ &middot; <em>PIK-ee-EE-tur</em></dd><dt>Русский</dt><dd>привереда в еде</dd><dt>Plural</dt><dd><em>picky eaters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A child who refuses most foods.</p>
+<ol><li>My youngest is a real <em>picky eater</em>.</li><li>Cooking for a <em>picky eater</em> is exhausting.</li><li>Most <em>picky eaters</em> grow out of it.</li></ol>
+<hr>
+<h3 id="separation-anxiety">separation anxiety<a class="hash" href="#separation-anxiety" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛpəˈreɪʃən æŋˈzaɪrti/ &middot; <em>sep-uh-RAY-shuhn-ang-ZY-uh-tee</em></dd><dt>Русский</dt><dd>тревога разлуки (страх расставания с родителями)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A child's distress at being away from a parent.</p>
+<ol><li><em>Separation anxiety</em> usually peaks around nine months.</li><li>Drop-off is hard because of the <em>separation anxiety</em>.</li><li>She outgrew the <em>separation anxiety</em> by preschool.</li></ol>
+<hr>
+<h3 id="terrible-twos">terrible twos<a class="hash" href="#terrible-twos" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛrəbl ˈtuːz/ &middot; <em>TAIR-uh-buhl-TOOZ</em></dd><dt>Русский</dt><dd>кризис двух лет, «ужасные двухлетки»</dd><dt>Plural</dt><dd><em>terrible twos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural and always with <em>the</em>: <em>the terrible twos</em>.</dd></dl>
+<p>The stage around age two when a child says no to everything.</p>
+<ol><li>We are deep in the <em>terrible twos</em>.</li><li>The <em>terrible twos</em> hit her early.</li><li>Everyone warns you about the <em>terrible twos</em>.</li></ol>
+<hr>
+<h3 id="sibling-rivalry">sibling rivalry<a class="hash" href="#sibling-rivalry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪblɪŋ ˈraɪvəlri/ &middot; <em>SIB-ling-RY-vuhl-ree</em></dd><dt>Русский</dt><dd>соперничество между братьями и сёстрами</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Jealousy and competition between brothers and sisters.</p>
+<ol><li><em>Sibling rivalry</em> got worse after the baby came.</li><li>A little <em>sibling rivalry</em> is normal.</li><li>They fight, but it is ordinary <em>sibling rivalry</em>.</li></ol>
+<hr>
+<h3 id="imaginary-friend">imaginary friend<a class="hash" href="#imaginary-friend" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmædʒəˌnɛri frɛnd/ &middot; <em>ih-MAJ-uh-nair-ee-FREND</em></dd><dt>Русский</dt><dd>воображаемый друг</dd><dt>Plural</dt><dd><em>imaginary friends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pretend companion a young child talks to and plays with.</p>
+<ol><li>She set a place at the table for her <em>imaginary friend</em>.</li><li>His <em>imaginary friend</em> is named Bobo.</li><li><em>Imaginary friends</em> are a sign of a good imagination.</li></ol>
+<hr>
+<h3 id="due-date">due date<a class="hash" href="#due-date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈduː deɪt/ &middot; <em>DOO-dayt</em></dd><dt>Русский</dt><dd>предполагаемая дата родов</dd><dt>Plural</dt><dd><em>due dates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day a baby is expected to be born.</p>
+<ol><li>Her <em>due date</em> is the fourth of March.</li><li>He came two weeks after the <em>due date</em>.</li><li><em>Due dates</em> are really just estimates.</li></ol>
+<hr>
+<h3 id="ultrasound">ultrasound<a class="hash" href="#ultrasound" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌltrəsaʊnd/ &middot; <em>UL-truh-sownd</em></dd><dt>Русский</dt><dd>УЗИ</dd><dt>Plural</dt><dd><em>ultrasounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A scan that shows a picture of a baby inside the womb.</p>
+<ol><li>We found out it is a girl at the <em>ultrasound</em>.</li><li>The <em>ultrasound</em> is scheduled for Thursday.</li><li>She has had three <em>ultrasounds</em> so far.</li></ol>
+<hr>
+<h3 id="baby-shower">baby shower<a class="hash" href="#baby-shower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi ˌʃaʊrr/ &middot; <em>BAY-bee-SHOW-ur</em></dd><dt>Русский</dt><dd>вечеринка в честь будущего ребёнка</dd><dt>Plural</dt><dd><em>baby showers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A party where friends give gifts to a woman before her baby arrives.</p>
+<ol><li>Her sister is hosting the <em>baby shower</em>.</li><li>We got the stroller at the <em>baby shower</em>.</li><li>I have been to four <em>baby showers</em> this year.</li></ol>
+<hr>
+<h3 id="maternity-leave">maternity leave<a class="hash" href="#maternity-leave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈtɜːrnəti liːv/ &middot; <em>muh-TUR-nuh-tee-leev</em></dd><dt>Русский</dt><dd>декретный отпуск</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time off work a mother takes after having a baby.</p>
+<ol><li>She goes on <em>maternity leave</em> in June.</li><li>His company offers twelve weeks of <em>maternity leave</em>.</li><li><em>Maternity leave</em> here is shorter than in most countries.</li></ol>
+<hr>
+<h3 id="paternity-leave">paternity leave<a class="hash" href="#paternity-leave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈtɜːrnəti liːv/ &middot; <em>puh-TUR-nuh-tee-leev</em></dd><dt>Русский</dt><dd>отпуск отца по уходу за ребёнком</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time off work a father takes after his child is born.</p>
+<ol><li>He took a month of <em>paternity leave</em>.</li><li><em>Paternity leave</em> is still rare at small firms.</li><li>They both used their <em>paternity leave</em> back to back.</li></ol>
+<hr>
+<h3 id="umbilical-cord">umbilical cord<a class="hash" href="#umbilical-cord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʌmˈbɪlɪkl kɔːrd/ &middot; <em>um-BIL-ih-kuhl-KORD</em></dd><dt>Русский</dt><dd>пуповина</dd><dt>Plural</dt><dd><em>umbilical cords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tube that connects an unborn baby to its mother.</p>
+<ol><li>Her husband cut the <em>umbilical cord</em>.</li><li>The stump of the <em>umbilical cord</em> falls off in a week or two.</li><li><em>Umbilical cords</em> are sometimes banked for stem cells.</li></ol>
+<hr>
+<h3 id="preemie">preemie<a class="hash" href="#preemie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːmi/ &middot; <em>PREE-mee</em></dd><dt>Русский</dt><dd>недоношенный ребёнок</dd><dt>Plural</dt><dd><em>preemies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A shortening of <em>premature</em>, but spelled with two e's: <em>preemie</em>.</dd></dl>
+<p>A baby born several weeks early.</p>
+<ol><li>He was a <em>preemie</em> and spent a month in the hospital.</li><li><em>Preemie</em> clothes are tiny.</li><li>The unit takes care of <em>preemies</em> from all over the state.</li></ol>
+<hr>
+<h3 id="incubator">incubator<a class="hash" href="#incubator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋkjəbeɪtər/ &middot; <em>ING-kyuh-bay-tur</em></dd><dt>Русский</dt><dd>кувез, инкубатор для новорождённых</dd><dt>Plural</dt><dd><em>incubators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heated enclosed crib that keeps a very small baby warm.</p>
+<ol><li>She spent three weeks in an <em>incubator</em>.</li><li>We could only touch him through the <em>incubator</em>.</li><li>Every <em>incubator</em> on the floor was full.</li></ol>
+<hr>
+<h3 id="birth-certificate">birth certificate<a class="hash" href="#birth-certificate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrθ sərˌtɪfɪkət/ &middot; <em>BURTH-sur-TIF-ih-kuht</em></dd><dt>Русский</dt><dd>свидетельство о рождении</dd><dt>Plural</dt><dd><em>birth certificates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The official document recording a person's birth.</p>
+<ol><li>You need a <em>birth certificate</em> to get a passport.</li><li>His <em>birth certificate</em> has his name misspelled.</li><li>Ordering copies of <em>birth certificates</em> takes two weeks.</li></ol>
+<hr>
+<h3 id="c-section">c-section<a class="hash" href="#c-section" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiː ˌsɛkʃən/ &middot; <em>SEE-sek-shuhn</em></dd><dt>Русский</dt><dd>кесарево сечение</dd><dt>Plural</dt><dd><em>c-sections</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Short for <em>cesarean section</em>; the letter c is said by name, SEE.</dd></dl>
+<p>An operation to deliver a baby through a cut in the mother's belly.</p>
+<ol><li>After twenty hours they did a <em>c-section</em>.</li><li>Recovery from a <em>c-section</em> takes longer.</li><li>Both of her babies were <em>c-sections</em>.</li></ol>
+<hr>
+<h3 id="baby-bump">baby bump<a class="hash" href="#baby-bump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi bʌmp/ &middot; <em>BAY-bee-bump</em></dd><dt>Русский</dt><dd>животик беременной</dd><dt>Plural</dt><dd><em>baby bumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The visible curve of a pregnant woman's belly.</p>
+<ol><li>She is finally showing a little <em>baby bump</em>.</li><li>That dress hides the <em>baby bump</em> completely.</li><li>The magazine had a whole page of celebrity <em>baby bumps</em>.</li></ol>
+<hr>
+<h3 id="foster-care">foster care<a class="hash" href="#foster-care" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːstər kɛr/ &middot; <em>FAH-stur-kair</em></dd><dt>Русский</dt><dd>приёмная семья, система опеки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A system in which a child lives temporarily with another family.</p>
+<ol><li>He grew up in <em>foster care</em>.</li><li>The children were placed in <em>foster care</em> last spring.</li><li><em>Foster care</em> is meant to be temporary.</li></ol>
+<hr>
+<h3 id="child-support">child support<a class="hash" href="#child-support" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃaɪld səˌpɔːrt/ &middot; <em>CHYLD-suh-port</em></dd><dt>Русский</dt><dd>алименты на ребёнка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Money one parent pays the other for a child's expenses.</p>
+<ol><li>He pays <em>child support</em> every month.</li><li>The judge raised the <em>child support</em>.</li><li>She is owed two years of <em>child support</em>.</li></ol>
+<hr>
+<h3 id="visitation">visitation<a class="hash" href="#visitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɪzəˈteɪʃən/ &middot; <em>viz-uh-TAY-shuhn</em></dd><dt>Русский</dt><dd>право на встречи с ребёнком (после развода)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A divorced parent's legal right to spend time with a child.</p>
+<ol><li>He has <em>visitation</em> every other weekend.</li><li>The <em>visitation</em> schedule is in the court order.</li><li>They went back to court over <em>visitation</em>.</li></ol>
+<hr>
+<h3 id="guardianship">guardianship<a class="hash" href="#guardianship" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdiənʃɪp/ &middot; <em>GAR-dee-uhn-ship</em></dd><dt>Русский</dt><dd>опека, опекунство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The legal responsibility for a child who is not your own.</p>
+<ol><li>Her aunt took <em>guardianship</em> of the two boys.</li><li><em>Guardianship</em> has to be granted by a judge.</li><li>They are applying for <em>guardianship</em> this month.</li></ol>
+<hr>
+<h3 id="playgroup">playgroup<a class="hash" href="#playgroup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪɡruːp/ &middot; <em>PLAY-groop</em></dd><dt>Русский</dt><dd>детская игровая группа</dd><dt>Plural</dt><dd><em>playgroups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A regular meeting where small children play and parents talk.</p>
+<ol><li>We joined a <em>playgroup</em> on our street.</li><li>The <em>playgroup</em> meets Tuesday mornings.</li><li>There are two <em>playgroups</em> at the community center.</li></ol>
+<hr>
+<h3 id="nursery-school">nursery school<a class="hash" href="#nursery-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrsəri skuːl/ &middot; <em>NUR-suh-ree-skool</em></dd><dt>Русский</dt><dd>детский сад (для 3–4 лет)</dd><dt>Plural</dt><dd><em>nursery schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A school for children too young for kindergarten.</p>
+<ol><li>She starts <em>nursery school</em> in the fall.</li><li>The <em>nursery school</em> is only three mornings a week.</li><li><em>Nursery schools</em> fill up fast around here.</li></ol>
+<hr>
+<h3 id="nursery-rhyme">nursery rhyme<a class="hash" href="#nursery-rhyme" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrsəri raɪm/ &middot; <em>NUR-suh-ree-rym</em></dd><dt>Русский</dt><dd>детский стишок, потешка</dd><dt>Plural</dt><dd><em>nursery rhymes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short traditional poem or song for young children.</p>
+<ol><li>He can recite that <em>nursery rhyme</em> by heart.</li><li>The teacher sang a <em>nursery rhyme</em> to settle them down.</li><li>Old <em>nursery rhymes</em> are stranger than people remember.</li></ol>
+<hr>
+<h3 id="bedtime-story">bedtime story<a class="hash" href="#bedtime-story" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛdtaɪm ˌstɔːri/ &middot; <em>BED-tym-STOR-ee</em></dd><dt>Русский</dt><dd>сказка на ночь</dd><dt>Plural</dt><dd><em>bedtime stories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A story read or told to a child before sleep.</p>
+<ol><li>One more <em>bedtime story</em> and then lights out.</li><li>Their dad makes up a new <em>bedtime story</em> every night.</li><li>We have read those <em>bedtime stories</em> a hundred times.</li></ol>
+<hr>
+<h3 id="baby-talk">baby talk<a class="hash" href="#baby-talk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪbi tɔːk/ &middot; <em>BAY-bee-tawk</em></dd><dt>Русский</dt><dd>сюсюканье, детский лепет</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The simple, sing-song way adults speak to babies.</p>
+<ol><li>Grandpa slips into <em>baby talk</em> the second he sees her.</li><li>She is four now and still uses <em>baby talk</em>.</li><li>A little <em>baby talk</em> actually helps them learn words.</li></ol>
+<hr>
+<h3 id="spanking">spanking<a class="hash" href="#spanking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspæŋkɪŋ/ &middot; <em>SPANK-ing</em></dd><dt>Русский</dt><dd>шлепки, порка (наказание)</dd><dt>Plural</dt><dd><em>spankings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A punishment in which a child is hit on the bottom.</p>
+<ol><li>He got a <em>spanking</em> for that when he was little.</li><li>Most pediatricians advise against <em>spanking</em>.</li><li><em>Spankings</em> were normal in her parents' day.</li></ol>
+<hr>
+<h3 id="screen-time">screen time<a class="hash" href="#screen-time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːn taɪm/ &middot; <em>SKREEN-tym</em></dd><dt>Русский</dt><dd>время у экрана</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of time a child spends looking at a screen.</p>
+<ol><li>We limit <em>screen time</em> to an hour a day.</li><li><em>Screen time</em> went way up over the summer.</li><li>No <em>screen time</em> until the homework is done.</li></ol>
+<hr>
+<h3 id="playtime">playtime<a class="hash" href="#playtime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪtaɪm/ &middot; <em>PLAY-tym</em></dd><dt>Русский</dt><dd>время для игр</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Time a child spends playing.</p>
+<ol><li><em>Playtime</em> is over — go wash your hands.</li><li>Kids need unstructured <em>playtime</em>.</li><li>We get twenty minutes of <em>playtime</em> before bath.</li></ol>
+<hr>
+<h3 id="story-time">story time<a class="hash" href="#story-time" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːri taɪm/ &middot; <em>STOR-ee-tym</em></dd><dt>Русский</dt><dd>время чтения сказок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A set time when children are read to.</p>
+<ol><li>The library has <em>story time</em> on Saturdays.</li><li><em>Story time</em> is the best part of his day.</li><li>They sit on the rug for <em>story time</em>.</li></ol>
+<hr>
+<h3 id="playroom">playroom<a class="hash" href="#playroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪruːm/ &middot; <em>PLAY-room</em></dd><dt>Русский</dt><dd>игровая комната</dd><dt>Plural</dt><dd><em>playrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room in a house set aside for children to play in.</p>
+<ol><li>The <em>playroom</em> is a disaster again.</li><li>They turned the basement into a <em>playroom</em>.</li><li>Some day cares have three separate <em>playrooms</em>.</li></ol>
+<hr>
+<h3 id="summer-camp">summer camp<a class="hash" href="#summer-camp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmər kæmp/ &middot; <em>SUM-ur-kamp</em></dd><dt>Русский</dt><dd>летний лагерь</dd><dt>Plural</dt><dd><em>summer camps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A program where children spend part of the summer away from home.</p>
+<ol><li>She goes to <em>summer camp</em> in Maine every July.</li><li><em>Summer camp</em> is where he learned to swim.</li><li>Sign-ups for <em>summer camps</em> open in February.</li></ol>
+<hr>
+<h3 id="show-and-tell">show-and-tell<a class="hash" href="#show-and-tell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌʃoʊ ən ˈtɛl/ &middot; <em>shoh-uhn-TEL</em></dd><dt>Русский</dt><dd>«покажи и расскажи» (занятие в школе)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A classroom activity where a child brings something in to talk about.</p>
+<ol><li>He brought his turtle for <em>show-and-tell</em>.</li><li><em>Show-and-tell</em> is on Fridays.</li><li>What are you taking to <em>show-and-tell</em>?</li></ol>
+<hr>
+<h3 id="peer-pressure">peer pressure<a class="hash" href="#peer-pressure" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪr ˌprɛʃər/ &middot; <em>PEER-presh-ur</em></dd><dt>Русский</dt><dd>давление сверстников</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The push a young person feels to act like their friends.</p>
+<ol><li><em>Peer pressure</em> is strongest in middle school.</li><li>We talk to our kids about <em>peer pressure</em> early.</li><li>He gave in to <em>peer pressure</em> and skipped class.</li></ol>
+<hr>
+<h3 id="cuddle">cuddle<a class="hash" href="#cuddle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌdl/ &middot; <em>KUD-uhl</em></dd><dt>Русский</dt><dd>обнимашки, ласковые объятия</dd><dt>Plural</dt><dd><em>cuddles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A close, gentle hug, especially with a small child.</p>
+<ol><li>She wanted one more <em>cuddle</em> before bed.</li><li>A quick <em>cuddle</em> fixed the whole meltdown.</li><li>Morning <em>cuddles</em> are the best part of the day.</li></ol>
+<hr>
+<h3 id="piggyback-ride">piggyback ride<a class="hash" href="#piggyback-ride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡibæk raɪd/ &middot; <em>PIG-ee-bak-ryd</em></dd><dt>Русский</dt><dd>катание на закорках</dd><dt>Plural</dt><dd><em>piggyback rides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ride on someone's back and shoulders.</p>
+<ol><li>Give me a <em>piggyback ride</em>, Dad!</li><li>He carried her the last mile on a <em>piggyback ride</em>.</li><li><em>Piggyback rides</em> are how we get through long walks.</li></ol>
+<hr>
+<h3 id="nurture">nurture<a class="hash" href="#nurture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɜːrtʃər/ &middot; <em>NUR-chur</em></dd><dt>Русский</dt><dd>воспитание, среда (в противопоставлении природе)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The care and upbringing a child receives, as opposed to inherited traits.</p>
+<ol><li>It is the old argument about nature versus <em>nurture</em>.</li><li><em>Nurture</em> shapes far more than people assume.</li><li>Both nature and <em>nurture</em> are at work here.</li></ol>
+<hr>
+<h3 id="sandbox">sandbox<a class="hash" href="#sandbox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsændbɑːks/ &middot; <em>SAND-bahks</em></dd><dt>Русский</dt><dd>песочница</dd><dt>Plural</dt><dd><em>sandboxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>sandbox</em>, British <em>sandpit</em>.</dd></dl>
+<p>A low box of sand where small children dig and build.</p>
+<ol><li>The kids spent an hour in the <em>sandbox</em>.</li><li>We covered the <em>sandbox</em> so the cats stay out.</li><li>Both <em>sandboxes</em> at the park need new sand.</li></ol>
+<hr>
+<h3 id="seesaw">seesaw<a class="hash" href="#seesaw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːsɔː/ &middot; <em>SEE-saw</em></dd><dt>Русский</dt><dd>качели-балансир, качалка</dd><dt>Plural</dt><dd><em>seesaws</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Many Americans call it a <em>teeter-totter</em> instead.</dd></dl>
+<p>A long board balanced in the middle so two children can go up and down.</p>
+<ol><li>They rode the <em>seesaw</em> until dinner.</li><li>He is too heavy for the <em>seesaw</em> now.</li><li>The old metal <em>seesaws</em> were taken out years ago.</li></ol>
+<hr>
+<h3 id="swing">swing<a class="hash" href="#swing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/swɪŋ/ &middot; <em>SWING</em></dd><dt>Русский</dt><dd>качели</dd><dt>Plural</dt><dd><em>swings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian <em>качели</em> is plural, but one seat in English is <em>a swing</em>.</dd></dl>
+<p>A seat hung on ropes or chains for a child to ride back and forth.</p>
+<ol><li>Push me higher on the <em>swing</em>!</li><li>The baby <em>swing</em> has a bar across the front.</li><li>All four <em>swings</em> were taken.</li></ol>
+<hr>
+<h3 id="coloring-book">coloring book<a class="hash" href="#coloring-book" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlərɪŋ bʊk/ &middot; <em>KUL-ur-ing-book</em></dd><dt>Русский</dt><dd>книжка-раскраска</dd><dt>Plural</dt><dd><em>coloring books</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>coloring</em>; the British write <em>colouring book</em>.</dd></dl>
+<p>A book of outline drawings for a child to color in.</p>
+<ol><li>She filled a whole <em>coloring book</em> on the flight.</li><li>The restaurant hands out a <em>coloring book</em> and crayons.</li><li>We keep <em>coloring books</em> in the car.</li></ol>
+<hr>
+<h3 id="rocking-horse">rocking horse<a class="hash" href="#rocking-horse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːkɪŋ hɔːrs/ &middot; <em>RAH-king-hors</em></dd><dt>Русский</dt><dd>лошадка-качалка</dd><dt>Plural</dt><dd><em>rocking horses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden toy horse on curved runners that a child rides.</p>
+<ol><li>Her grandfather built that <em>rocking horse</em>.</li><li>He rode the <em>rocking horse</em> until it tipped over.</li><li>Antique <em>rocking horses</em> sell for a fortune.</li></ol>
+<hr>
+<h3 id="jungle-gym">jungle gym<a class="hash" href="#jungle-gym" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌŋɡl dʒɪm/ &middot; <em>JUNG-guhl-JIM</em></dd><dt>Русский</dt><dd>детская лазалка на площадке</dd><dt>Plural</dt><dd><em>jungle gyms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The British call it a <em>climbing frame</em>.</dd></dl>
+<p>A frame of bars for children to climb on.</p>
+<ol><li>He fell off the <em>jungle gym</em> and scraped his knee.</li><li>They were hanging upside down from the <em>jungle gym</em>.</li><li>The new <em>jungle gyms</em> have soft mats underneath.</li></ol>
+<hr>
+<h3 id="kiddie-pool">kiddie pool<a class="hash" href="#kiddie-pool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪdi puːl/ &middot; <em>KID-ee-pool</em></dd><dt>Русский</dt><dd>детский надувной бассейн</dd><dt>Plural</dt><dd><em>kiddie pools</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The British say <em>paddling pool</em>.</dd></dl>
+<p>A shallow plastic pool for small children.</p>
+<ol><li>We filled the <em>kiddie pool</em> in the backyard.</li><li>She sat in the <em>kiddie pool</em> all afternoon.</li><li>The store was out of <em>kiddie pools</em> by June.</li></ol>
+<hr>
+<h3 id="monkey-bars">monkey bars<a class="hash" href="#monkey-bars" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌŋki bɑːrz/ &middot; <em>MUNG-kee-barz</em></dd><dt>Русский</dt><dd>рукоход (перекладины на площадке)</dd><dt>Plural</dt><dd><em>monkey bars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural only — nobody says "a monkey bar".</dd></dl>
+<p>An overhead ladder that children swing across hand over hand.</p>
+<ol><li>She made it all the way across the <em>monkey bars</em>.</li><li>He got blisters from the <em>monkey bars</em>.</li><li>The <em>monkey bars</em> are the tallest thing on the playground.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

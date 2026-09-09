@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: shopping and retail</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-shopping-and-retail">Core vocabulary: shopping and retail<a class="hash" href="#core-vocabulary-shopping-and-retail" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of shopping and retail — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="shopping-cart">shopping cart<a class="hash" href="#shopping-cart" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ kɑːrt/ &middot; <em>SHAH-ping KART</em></dd><dt>Русский</dt><dd>тележка (магазинная)</dd><dt>Plural</dt><dd><em>shopping carts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American. British speakers say 'trolley'.</dd></dl>
+<p>A large metal basket on wheels that you push around a store.</p>
+<ol><li>Grab a <em>shopping cart</em> on your way in.</li><li>All the <em>shopping carts</em> were still out in the parking lot.</li><li>My <em>shopping cart</em> had a wheel that kept sticking.</li></ol>
+<hr>
+<h3 id="shopping-list">shopping list<a class="hash" href="#shopping-list" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ lɪst/ &middot; <em>SHAH-ping LIST</em></dd><dt>Русский</dt><dd>список покупок</dd><dt>Plural</dt><dd><em>shopping lists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written list of the things you plan to buy.</p>
+<ol><li>Don't go to the store without a <em>shopping list</em>.</li><li>Our <em>shopping lists</em> are always longer than our budget.</li><li>Milk is at the top of the <em>shopping list</em>.</li></ol>
+<hr>
+<h3 id="shopping-mall">shopping mall<a class="hash" href="#shopping-mall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ mɔːl/ &middot; <em>SHAH-ping MAWL</em></dd><dt>Русский</dt><dd>торговый центр</dd><dt>Plural</dt><dd><em>shopping malls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large building holding many stores under one roof.</p>
+<ol><li>The kids want to hang out at the <em>shopping mall</em>.</li><li>Two <em>shopping malls</em> in this town have closed down.</li><li>There's a movie theater inside the <em>shopping mall</em>.</li></ol>
+<hr>
+<h3 id="shopping-center">shopping center<a class="hash" href="#shopping-center" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ ˌsɛntər/ &middot; <em>SHAH-ping SEN-tur</em></dd><dt>Русский</dt><dd>торговый центр</dd><dt>Plural</dt><dd><em>shopping centers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling. British English writes 'shopping centre'.</dd></dl>
+<p>A group of stores built together with a shared parking lot.</p>
+<ol><li>There's a new <em>shopping center</em> out by the highway.</li><li>Both <em>shopping centers</em> have a pharmacy.</li><li>The bank is in the same <em>shopping center</em> as the bakery.</li></ol>
+<hr>
+<h3 id="checkout-line">checkout line<a class="hash" href="#checkout-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkaʊt laɪn/ &middot; <em>CHEK-owt LYNE</em></dd><dt>Русский</dt><dd>очередь в кассу</dd><dt>Plural</dt><dd><em>checkout lines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stand in a 'line'; the British stand in a 'queue'.</dd></dl>
+<p>The line of customers waiting to pay in a store.</p>
+<ol><li>The <em>checkout line</em> wrapped around the display of soda.</li><li>Pick the shortest of the <em>checkout lines</em>.</li><li>I always end up in the slowest <em>checkout line</em>.</li></ol>
+<hr>
+<h3 id="checkout-counter">checkout counter<a class="hash" href="#checkout-counter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɛkaʊt ˌkaʊntər/ &middot; <em>CHEK-owt KOWN-tur</em></dd><dt>Русский</dt><dd>кассовая стойка, прилавок кассы</dd><dt>Plural</dt><dd><em>checkout counters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The surface where you put your items to be scanned and paid for.</p>
+<ol><li>He emptied the basket onto the <em>checkout counter</em>.</li><li>Candy is stacked by every <em>checkout counter</em>.</li><li>I left my keys on the <em>checkout counter</em>.</li></ol>
+<hr>
+<h3 id="self-checkout">self-checkout<a class="hash" href="#self-checkout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛlf ˈtʃɛkaʊt/ &middot; <em>self-CHEK-owt</em></dd><dt>Русский</dt><dd>касса самообслуживания</dd><dt>Plural</dt><dd><em>self-checkouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that lets a customer scan and pay for items without a cashier.</p>
+<ol><li>I used the <em>self-checkout</em> to save time.</li><li>Three of the <em>self-checkouts</em> were out of order.</li><li>The <em>self-checkout</em> kept telling me to remove the item from the bagging area.</li></ol>
+<hr>
+<h3 id="price-tag">price tag<a class="hash" href="#price-tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪs tæɡ/ &middot; <em>PRYSE TAG</em></dd><dt>Русский</dt><dd>ценник</dd><dt>Plural</dt><dd><em>price tags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small label on an item showing what it costs.</p>
+<ol><li>I checked the <em>price tag</em> and put the jacket back.</li><li>Someone had switched the <em>price tags</em> on two of the lamps.</li><li>The <em>price tag</em> was still hanging off the sleeve.</li></ol>
+<hr>
+<h3 id="item">item<a class="hash" href="#item" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪtəm/ &middot; <em>EYE-tum</em></dd><dt>Русский</dt><dd>товар, предмет, позиция</dd><dt>Plural</dt><dd><em>items</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One single thing among the things being bought or sold.</p>
+<ol><li>That lane is for ten <em>items</em> or fewer.</li><li>Each <em>item</em> is rung up separately.</li><li>The last <em>item</em> on my list was coffee.</li></ol>
+<hr>
+<h3 id="exchange">exchange<a class="hash" href="#exchange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪksˈtʃeɪndʒ/ &middot; <em>iks-CHAYNJ</em></dd><dt>Русский</dt><dd>обмен (товара)</dd><dt>Plural</dt><dd><em>exchanges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of trading a bought item for a different one.</p>
+<ol><li>They gave me an even <em>exchange</em> for a larger size.</li><li>The store allows <em>exchanges</em> within thirty days.</li><li>Without the tag, no refund and no <em>exchange</em>.</li></ol>
+<hr>
+<h3 id="return-policy">return policy<a class="hash" href="#return-policy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈtɜːrn ˌpɑːləsi/ &middot; <em>rih-TURN PAH-luh-see</em></dd><dt>Русский</dt><dd>правила возврата товара</dd><dt>Plural</dt><dd><em>return policies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store's rules about bringing merchandise back.</p>
+<ol><li>Read the <em>return policy</em> before you buy the mattress.</li><li>Their <em>return policies</em> changed after the holidays.</li><li>The <em>return policy</em> is printed on the back of the receipt.</li></ol>
+<hr>
+<h3 id="gift-card">gift card<a class="hash" href="#gift-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft kɑːrd/ &middot; <em>GIFT KARD</em></dd><dt>Русский</dt><dd>подарочная карта</dd><dt>Plural</dt><dd><em>gift cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A card loaded with money that can be spent at a particular store.</p>
+<ol><li>My aunt sends a <em>gift card</em> every birthday.</li><li>I still have two <em>gift cards</em> in my wallet from last year.</li><li>The <em>gift card</em> had eleven dollars left on it.</li></ol>
+<hr>
+<h3 id="gift-certificate">gift certificate<a class="hash" href="#gift-certificate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft sərˌtɪfəkət/ &middot; <em>GIFT sur-TIF-uh-kut</em></dd><dt>Русский</dt><dd>подарочный сертификат</dd><dt>Plural</dt><dd><em>gift certificates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed document worth a set amount at a store or restaurant.</p>
+<ol><li>They won a fifty-dollar <em>gift certificate</em> to the steakhouse.</li><li>The salon sells <em>gift certificates</em> at the front desk.</li><li>The <em>gift certificate</em> expires at the end of the year.</li></ol>
+<hr>
+<h3 id="debit-card">debit card<a class="hash" href="#debit-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛbət kɑːrd/ &middot; <em>DEB-ut KARD</em></dd><dt>Русский</dt><dd>дебетовая карта</dd><dt>Plural</dt><dd><em>debit cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bank card that takes money straight out of your account when you pay.</p>
+<ol><li>I paid with my <em>debit card</em> instead of cash.</li><li>Some vending machines take <em>debit cards</em> now.</li><li>My <em>debit card</em> was declined at the register.</li></ol>
+<hr>
+<h3 id="sales-tax">sales tax<a class="hash" href="#sales-tax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlz tæks/ &middot; <em>SAYLZ TAKS</em></dd><dt>Русский</dt><dd>налог с продаж</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tax added to the price of goods at the moment you buy them.</p>
+<ol><li>The sticker says nine dollars, but <em>sales tax</em> brings it to nine sixty.</li><li>Oregon doesn't charge <em>sales tax</em>.</li><li>Groceries are exempt from <em>sales tax</em> in this state.</li></ol>
+<hr>
+<h3 id="promo-code">promo code<a class="hash" href="#promo-code" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈproʊmoʊ koʊd/ &middot; <em>PROH-moh KOHD</em></dd><dt>Русский</dt><dd>промокод</dd><dt>Plural</dt><dd><em>promo codes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short code typed in online to get a discount.</p>
+<ol><li>Enter the <em>promo code</em> at checkout.</li><li>None of the <em>promo codes</em> I found actually worked.</li><li>The <em>promo code</em> took fifteen percent off.</li></ol>
+<hr>
+<h3 id="sale-price">sale price<a class="hash" href="#sale-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪl praɪs/ &middot; <em>SAYL PRYSE</em></dd><dt>Русский</dt><dd>цена со скидкой, акционная цена</dd><dt>Plural</dt><dd><em>sale prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The lower price an item is sold for during a sale.</p>
+<ol><li>The <em>sale price</em> is good through Sunday.</li><li><em>Sale prices</em> are marked in red.</li><li>They rang it up at the regular price instead of the <em>sale price</em>.</li></ol>
+<hr>
+<h3 id="list-price">list price<a class="hash" href="#list-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪst praɪs/ &middot; <em>LIST PRYSE</em></dd><dt>Русский</dt><dd>прейскурантная цена</dd><dt>Plural</dt><dd><em>list prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The official published price of something before any discount.</p>
+<ol><li>Nobody pays the <em>list price</em> for a car.</li><li><em>List prices</em> went up again this spring.</li><li>We got it for six hundred under <em>list price</em>.</li></ol>
+<hr>
+<h3 id="retail-price">retail price<a class="hash" href="#retail-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːteɪl praɪs/ &middot; <em>REE-tayl PRYSE</em></dd><dt>Русский</dt><dd>розничная цена</dd><dt>Plural</dt><dd><em>retail prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The price an ordinary customer pays in a store.</p>
+<ol><li>The <em>retail price</em> is nearly double what it costs to make.</li><li><em>Retail prices</em> on electronics keep falling.</li><li>Employees pay half the <em>retail price</em>.</li></ol>
+<hr>
+<h3 id="price-range">price range<a class="hash" href="#price-range" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪs reɪndʒ/ &middot; <em>PRYSE RAYNJ</em></dd><dt>Русский</dt><dd>ценовой диапазон</dd><dt>Plural</dt><dd><em>price ranges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The span between the lowest and highest price you will consider or find.</p>
+<ol><li>Those couches are out of my <em>price range</em>.</li><li>They carry bikes in three different <em>price ranges</em>.</li><li>Tell me your <em>price range</em> and I'll show you some options.</li></ol>
+<hr>
+<h3 id="unit-price">unit price<a class="hash" href="#unit-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnət praɪs/ &middot; <em>YOO-nut PRYSE</em></dd><dt>Русский</dt><dd>цена за единицу товара</dd><dt>Plural</dt><dd><em>unit prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The cost of one ounce, pound or piece, used to compare packages.</p>
+<ol><li>Check the <em>unit price</em> on the shelf label.</li><li>The <em>unit prices</em> are printed in small type.</li><li>The big box has a lower <em>unit price</em> than the small one.</li></ol>
+<hr>
+<h3 id="sticker-price">sticker price<a class="hash" href="#sticker-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɪkər praɪs/ &middot; <em>STIK-ur PRYSE</em></dd><dt>Русский</dt><dd>цена на ценнике, заявленная цена</dd><dt>Plural</dt><dd><em>sticker prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The price shown on the label, before fees or bargaining.</p>
+<ol><li>The <em>sticker price</em> doesn't include tax.</li><li><em>Sticker prices</em> on new trucks shocked us.</li><li>He talked the dealer down from the <em>sticker price</em>.</li></ol>
+<hr>
+<h3 id="rain-check">rain check<a class="hash" href="#rain-check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn tʃɛk/ &middot; <em>RAYN CHEK</em></dd><dt>Русский</dt><dd>талон на покупку по акции позже</dd><dt>Plural</dt><dd><em>rain checks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>'Rain' sounds exactly like 'reign' and 'rein'.</dd></dl>
+<p>A slip letting you buy a sold-out sale item later at the sale price.</p>
+<ol><li>They gave me a <em>rain check</em> for the chicken.</li><li>The manager writes <em>rain checks</em> at the service desk.</li><li>My <em>rain check</em> is good for thirty days.</li></ol>
+<hr>
+<h3 id="price-check">price check<a class="hash" href="#price-check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪs tʃɛk/ &middot; <em>PRYSE CHEK</em></dd><dt>Русский</dt><dd>проверка цены</dd><dt>Plural</dt><dd><em>price checks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A request for a clerk to confirm what an item costs.</p>
+<ol><li>The cashier called for a <em>price check</em> on the melons.</li><li>Two <em>price checks</em> held up the whole line.</li><li>Can I get a <em>price check</em> on this jacket?</li></ol>
+<hr>
+<h3 id="price-match">price match<a class="hash" href="#price-match" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪs mætʃ/ &middot; <em>PRYSE MACH</em></dd><dt>Русский</dt><dd>подтверждение цены конкурента</dd><dt>Plural</dt><dd><em>price matches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store's agreement to sell at a competitor's lower price.</p>
+<ol><li>I asked for a <em>price match</em> and showed them the ad.</li><li>They don't do <em>price matches</em> on clearance items.</li><li>The <em>price match</em> saved me thirty bucks.</li></ol>
+<hr>
+<h3 id="layaway">layaway<a class="hash" href="#layaway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪrweɪ/ &middot; <em>LAY-uh-way</em></dd><dt>Русский</dt><dd>рассрочка с выдачей после оплаты</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A plan where a store holds an item until the customer has paid for it.</p>
+<ol><li>She put the bike on <em>layaway</em> in October.</li><li>The store brought back <em>layaway</em> for the holidays.</li><li>You lose the deposit if you cancel the <em>layaway</em>.</li></ol>
+<hr>
+<h3 id="financing">financing<a class="hash" href="#financing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪnænsɪŋ/ &middot; <em>FY-nan-sing</em></dd><dt>Русский</dt><dd>рассрочка, кредитование покупки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>An arrangement to pay for something over time instead of all at once.</p>
+<ol><li>The furniture store offers <em>financing</em> with no interest for a year.</li><li>We qualified for <em>financing</em> on the washer and dryer.</li><li>Read the fine print before you accept the <em>financing</em>.</li></ol>
+<hr>
+<h3 id="installment-plan">installment plan<a class="hash" href="#installment-plan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈstɔːlmənt plæn/ &middot; <em>in-STAWL-munt PLAN</em></dd><dt>Русский</dt><dd>план оплаты частями, рассрочка</dd><dt>Plural</dt><dd><em>installment plans</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spells it with two l's; British English writes 'instalment'.</dd></dl>
+<p>An agreement to pay in equal amounts over several months.</p>
+<ol><li>We bought the mattress on an <em>installment plan</em>.</li><li>Their <em>installment plans</em> run six or twelve months.</li><li>The <em>installment plan</em> costs four hundred a month.</li></ol>
+<hr>
+<h3 id="store-credit">store credit<a class="hash" href="#store-credit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːr ˌkrɛdət/ &middot; <em>STOR KRED-ut</em></dd><dt>Русский</dt><dd>кредит магазина (сумма на будущие покупки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Money a store gives back that can only be spent in that store.</p>
+<ol><li>Without a receipt you only get <em>store credit</em>.</li><li>I have forty dollars in <em>store credit</em> left.</li><li>They refused cash and offered <em>store credit</em> instead.</li></ol>
+<hr>
+<h3 id="cash-back">cash back<a class="hash" href="#cash-back" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʃ bæk/ &middot; <em>KASH BAK</em></dd><dt>Русский</dt><dd>снятие наличных на кассе; кэшбэк</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Cash handed to you at the register on top of your purchase, or money returned on card spending.</p>
+<ol><li>Do you want any <em>cash back</em> with that?</li><li>I took twenty dollars in <em>cash back</em> at the grocery store.</li><li>The card gives two percent <em>cash back</em> on gas.</li></ol>
+<hr>
+<h3 id="customer-service">customer service<a class="hash" href="#customer-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəmər ˈsɜːrvəs/ &middot; <em>KUS-tuh-mur SUR-vus</em></dd><dt>Русский</dt><dd>обслуживание покупателей; служба поддержки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The help a store gives its shoppers before and after they buy.</p>
+<ol><li>The <em>customer service</em> at that store is terrible.</li><li>Take it to the <em>customer service</em> desk in the back.</li><li>I spent an hour on hold with <em>customer service</em>.</li></ol>
+<hr>
+<h3 id="customer-review">customer review<a class="hash" href="#customer-review" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌstəmər rɪˈvjuː/ &middot; <em>KUS-tuh-mur rih-VYOO</em></dd><dt>Русский</dt><dd>отзыв покупателя</dd><dt>Plural</dt><dd><em>customer reviews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A written opinion a buyer posts about a product or store.</p>
+<ol><li>I read every <em>customer review</em> before ordering.</li><li>The <em>customer reviews</em> warned that it runs small.</li><li>One angry <em>customer review</em> mentioned a broken zipper.</li></ol>
+<hr>
+<h3 id="luxury">luxury<a class="hash" href="#luxury" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌkʃəri/ &middot; <em>LUK-shuh-ree</em></dd><dt>Русский</dt><dd>роскошь; предмет роскоши</dd><dt>Plural</dt><dd><em>luxuries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something expensive and pleasant that you do not really need.</p>
+<ol><li>A second car is a <em>luxury</em> we can't afford.</li><li>We cut out small <em>luxuries</em> like takeout coffee.</li><li>For her, a long bath is a real <em>luxury</em>.</li></ol>
+<hr>
+<h3 id="necessity">necessity<a class="hash" href="#necessity" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nəˈsɛsəti/ &middot; <em>nuh-SES-uh-tee</em></dd><dt>Русский</dt><dd>предмет первой необходимости</dd><dt>Plural</dt><dd><em>necessities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you genuinely need rather than simply want.</p>
+<ol><li>A phone is a <em>necessity</em> now, not a treat.</li><li>We only bought <em>necessities</em> that month.</li><li>Bread and milk are the sort of <em>necessity</em> the corner store sells.</li></ol>
+<hr>
+<h3 id="bargain-hunter">bargain hunter<a class="hash" href="#bargain-hunter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrɡən ˌhʌntər/ &middot; <em>BAR-gun HUN-tur</em></dd><dt>Русский</dt><dd>охотник за скидками</dd><dt>Plural</dt><dd><em>bargain hunters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shopper who looks hard for the lowest prices.</p>
+<ol><li>My mother is a serious <em>bargain hunter</em>.</li><li><em>Bargain hunters</em> lined up before the doors opened.</li><li>As a <em>bargain hunter</em>, he never pays full price.</li></ol>
+<hr>
+<h3 id="impulse-buy">impulse buy<a class="hash" href="#impulse-buy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmpʌls baɪ/ &middot; <em>IM-puls BY</em></dd><dt>Русский</dt><dd>спонтанная покупка</dd><dt>Plural</dt><dd><em>impulse buys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something bought suddenly without planning to.</p>
+<ol><li>The sunglasses were a total <em>impulse buy</em>.</li><li>Candy by the register is designed for <em>impulse buys</em>.</li><li>That jacket was an <em>impulse buy</em> I regretted by Monday.</li></ol>
+<hr>
+<h3 id="window-shopping">window shopping<a class="hash" href="#window-shopping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊ ˌʃɑːpɪŋ/ &middot; <em>WIN-doh SHAH-ping</em></dd><dt>Русский</dt><dd>разглядывание витрин без покупок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Looking at goods in stores without intending to buy.</p>
+<ol><li>We did some <em>window shopping</em> downtown.</li><li><em>Window shopping</em> is free entertainment.</li><li>A little <em>window shopping</em> killed the hour before the movie.</li></ol>
+<hr>
+<h3 id="shopping-spree">shopping spree<a class="hash" href="#shopping-spree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ spriː/ &middot; <em>SHAH-ping SPREE</em></dd><dt>Русский</dt><dd>поход по магазинам с крупными тратами</dd><dt>Plural</dt><dd><em>shopping sprees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A burst of buying a lot of things at once.</p>
+<ol><li>She went on a <em>shopping spree</em> after her bonus came through.</li><li>Their <em>shopping sprees</em> always end at the shoe store.</li><li>One <em>shopping spree</em> wiped out my savings.</li></ol>
+<hr>
+<h3 id="shopping-trip">shopping trip<a class="hash" href="#shopping-trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ trɪp/ &middot; <em>SHAH-ping TRIP</em></dd><dt>Русский</dt><dd>поездка за покупками</dd><dt>Plural</dt><dd><em>shopping trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One outing made in order to buy things.</p>
+<ol><li>We make one big <em>shopping trip</em> a month.</li><li>Two <em>shopping trips</em> and I still forgot the batteries.</li><li>The <em>shopping trip</em> took all afternoon.</li></ol>
+<hr>
+<h3 id="errand">errand<a class="hash" href="#errand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrənd/ &middot; <em>ER-und</em></dd><dt>Русский</dt><dd>поручение, дело (сходить в магазин и т.п.)</dd><dt>Plural</dt><dd><em>errands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short trip to buy something or do a small task.</p>
+<ol><li>I have one more <em>errand</em> before dinner.</li><li>She ran <em>errands</em> all Saturday morning.</li><li>Picking up the dry cleaning is a quick <em>errand</em>.</li></ol>
+<hr>
+<h3 id="grocery-list">grocery list<a class="hash" href="#grocery-list" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊsəri lɪst/ &middot; <em>GROH-suh-ree LIST</em></dd><dt>Русский</dt><dd>список продуктов</dd><dt>Plural</dt><dd><em>grocery lists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A list of food and household items to buy.</p>
+<ol><li>Add eggs to the <em>grocery list</em>.</li><li>We keep our <em>grocery lists</em> on the refrigerator.</li><li>He shops straight down the <em>grocery list</em>.</li></ol>
+<hr>
+<h3 id="superstore">superstore<a class="hash" href="#superstore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːpərstɔːr/ &middot; <em>SOO-pur-stor</em></dd><dt>Русский</dt><dd>гипермаркет</dd><dt>Plural</dt><dd><em>superstores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very large store selling a huge range of goods.</p>
+<ol><li>The <em>superstore</em> out on the highway sells everything.</li><li>Two <em>superstores</em> opened the same year.</li><li>You can get tires and groceries at the same <em>superstore</em>.</li></ol>
+<hr>
+<h3 id="big-box-store">big-box store<a class="hash" href="#big-box-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪɡ bɑːks stɔːr/ &middot; <em>BIG-BAHKS STOR</em></dd><dt>Русский</dt><dd>большой сетевой магазин-склад</dd><dt>Plural</dt><dd><em>big-box stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A huge plain warehouse-style chain store on the edge of town.</p>
+<ol><li>A <em>big-box store</em> moved in and the hardware shop closed.</li><li><em>Big-box stores</em> ring the whole suburb.</li><li>The <em>big-box store</em> has its own gas station.</li></ol>
+<hr>
+<h3 id="warehouse-club">warehouse club<a class="hash" href="#warehouse-club" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛrhaʊs klʌb/ &middot; <em>WAIR-hows KLUB</em></dd><dt>Русский</dt><dd>оптовый клубный магазин</dd><dt>Plural</dt><dd><em>warehouse clubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A members-only store selling goods in very large packages.</p>
+<ol><li>We buy paper towels at the <em>warehouse club</em>.</li><li>Both <em>warehouse clubs</em> charge an annual membership.</li><li>The <em>warehouse club</em> sells rotisserie chickens for five dollars.</li></ol>
+<hr>
+<h3 id="chain-store">chain store<a class="hash" href="#chain-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃeɪn stɔːr/ &middot; <em>CHAYN STOR</em></dd><dt>Русский</dt><dd>магазин торговой сети</dd><dt>Plural</dt><dd><em>chain stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of many stores of the same company under the same name.</p>
+<ol><li>The <em>chain store</em> undercut every local shop.</li><li><em>Chain stores</em> took over the whole downtown.</li><li>Every <em>chain store</em> has the exact same layout.</li></ol>
+<hr>
+<h3 id="corner-store">corner store<a class="hash" href="#corner-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrnər stɔːr/ &middot; <em>KOR-nur STOR</em></dd><dt>Русский</dt><dd>магазинчик у дома</dd><dt>Plural</dt><dd><em>corner stores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American. The British equivalent is a 'corner shop'.</dd></dl>
+<p>A small neighborhood shop selling everyday items.</p>
+<ol><li>Run to the <em>corner store</em> for milk.</li><li>The <em>corner stores</em> stay open when the supermarket closes.</li><li>The <em>corner store</em> cashes checks for regulars.</li></ol>
+<hr>
+<h3 id="liquor-store">liquor store<a class="hash" href="#liquor-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪkər stɔːr/ &middot; <em>LIK-ur STOR</em></dd><dt>Русский</dt><dd>магазин спиртных напитков</dd><dt>Plural</dt><dd><em>liquor stores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>'Liquor' is LIK-ur; the qu sounds like plain k. Britain has an 'off-licence'.</dd></dl>
+<p>A store that sells alcoholic drinks to take home.</p>
+<ol><li>The <em>liquor store</em> closes at nine on Sundays.</li><li><em>Liquor stores</em> are state-run in some places.</li><li>He stopped at the <em>liquor store</em> for a bottle of wine.</li></ol>
+<hr>
+<h3 id="thrift-store">thrift store<a class="hash" href="#thrift-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɪft stɔːr/ &middot; <em>THRIFT STOR</em></dd><dt>Русский</dt><dd>магазин подержанных вещей, секонд-хенд</dd><dt>Plural</dt><dd><em>thrift stores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American. British English says 'charity shop'.</dd></dl>
+<p>A store selling used clothes and household goods cheaply, often for charity.</p>
+<ol><li>She found a leather jacket at the <em>thrift store</em> for six dollars.</li><li>We hit three <em>thrift stores</em> in one afternoon.</li><li>The <em>thrift store</em> takes donations at the side door.</li></ol>
+<hr>
+<h3 id="consignment-shop">consignment shop<a class="hash" href="#consignment-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈsaɪnmənt ʃɑːp/ &middot; <em>kun-SYNE-munt SHAHP</em></dd><dt>Русский</dt><dd>комиссионный магазин</dd><dt>Plural</dt><dd><em>consignment shops</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g in 'consignment' is silent: kun-SYNE-munt.</dd></dl>
+<p>A store that sells other people's used goods and splits the money with them.</p>
+<ol><li>She sells her old dresses at a <em>consignment shop</em>.</li><li>The <em>consignment shops</em> on that street take only designer labels.</li><li>The <em>consignment shop</em> keeps forty percent of the sale.</li></ol>
+<hr>
+<h3 id="dollar-store">dollar store<a class="hash" href="#dollar-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɑːlər stɔːr/ &middot; <em>DAH-lur STOR</em></dd><dt>Русский</dt><dd>магазин фиксированных низких цен</dd><dt>Plural</dt><dd><em>dollar stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store where most items cost a dollar or two.</p>
+<ol><li>I get wrapping paper at the <em>dollar store</em>.</li><li>There are four <em>dollar stores</em> within a mile of here.</li><li>The <em>dollar store</em> had exactly what I needed for the party.</li></ol>
+<hr>
+<h3 id="outlet-mall">outlet mall<a class="hash" href="#outlet-mall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtlɛt mɔːl/ &middot; <em>OWT-let MAWL</em></dd><dt>Русский</dt><dd>аутлет, торговый центр со скидками</dd><dt>Plural</dt><dd><em>outlet malls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shopping center where brands sell their goods at reduced prices.</p>
+<ol><li>The <em>outlet mall</em> is an hour up the interstate.</li><li><em>Outlet malls</em> are packed the week after Christmas.</li><li>We bought her school clothes at the <em>outlet mall</em>.</li></ol>
+<hr>
+<h3 id="pet-store">pet store<a class="hash" href="#pet-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛt stɔːr/ &middot; <em>PET STOR</em></dd><dt>Русский</dt><dd>зоомагазин</dd><dt>Plural</dt><dd><em>pet stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store selling animals and supplies for them.</p>
+<ol><li>The kids beg to visit the <em>pet store</em> every week.</li><li>Most <em>pet stores</em> here no longer sell puppies.</li><li>I get birdseed at the <em>pet store</em> down the block.</li></ol>
+<hr>
+<h3 id="toy-store">toy store<a class="hash" href="#toy-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɔɪ stɔːr/ &middot; <em>TOY STOR</em></dd><dt>Русский</dt><dd>магазин игрушек</dd><dt>Plural</dt><dd><em>toy stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store that sells toys and games for children.</p>
+<ol><li>The <em>toy store</em> was mobbed in December.</li><li>Old-fashioned <em>toy stores</em> are getting rare.</li><li>He spent his birthday money at the <em>toy store</em>.</li></ol>
+<hr>
+<h3 id="shoe-store">shoe store<a class="hash" href="#shoe-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː stɔːr/ &middot; <em>SHOO STOR</em></dd><dt>Русский</dt><dd>обувной магазин</dd><dt>Plural</dt><dd><em>shoe stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store that sells footwear.</p>
+<ol><li>The <em>shoe store</em> measured both of my feet.</li><li>There are two <em>shoe stores</em> at the mall.</li><li>That <em>shoe store</em> carries wide sizes.</li></ol>
+<hr>
+<h3 id="clothing-store">clothing store<a class="hash" href="#clothing-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊðɪŋ stɔːr/ &middot; <em>KLOH-thing STOR</em></dd><dt>Русский</dt><dd>магазин одежды</dd><dt>Plural</dt><dd><em>clothing stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store that sells clothes.</p>
+<ol><li>She manages a <em>clothing store</em> at the mall.</li><li>The <em>clothing stores</em> start their sales in July.</li><li>This <em>clothing store</em> has a great sale rack.</li></ol>
+<hr>
+<h3 id="jewelry-store">jewelry store<a class="hash" href="#jewelry-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒuːəlri stɔːr/ &middot; <em>JOO-ul-ree STOR</em></dd><dt>Русский</dt><dd>ювелирный магазин</dd><dt>Plural</dt><dd><em>jewelry stores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American 'jewelry' has two syllables; British 'jewellery' has three.</dd></dl>
+<p>A store selling rings, necklaces and watches.</p>
+<ol><li>He bought the ring at a <em>jewelry store</em> downtown.</li><li>The <em>jewelry stores</em> keep everything in locked cases.</li><li>The <em>jewelry store</em> cleans your rings for free.</li></ol>
+<hr>
+<h3 id="gift-shop">gift shop<a class="hash" href="#gift-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft ʃɑːp/ &middot; <em>GIFT SHAHP</em></dd><dt>Русский</dt><dd>сувенирный магазин</dd><dt>Plural</dt><dd><em>gift shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small store selling presents and souvenirs.</p>
+<ol><li>The museum <em>gift shop</em> sells postcards and mugs.</li><li>Hospital <em>gift shops</em> always have flowers.</li><li>We got out through the <em>gift shop</em>, of course.</li></ol>
+<hr>
+<h3 id="garage-sale">garage sale<a class="hash" href="#garage-sale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈrɑːʒ seɪl/ &middot; <em>guh-RAHZH SAYL</em></dd><dt>Русский</dt><dd>распродажа старых вещей у дома</dd><dt>Plural</dt><dd><em>garage sales</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress 'garage' on the second syllable: guh-RAHZH.</dd></dl>
+<p>A sale of unwanted household things held at someone's home.</p>
+<ol><li>We're having a <em>garage sale</em> on Saturday.</li><li>He drives around to <em>garage sales</em> looking for tools.</li><li>I bought this lamp for two dollars at a <em>garage sale</em>.</li></ol>
+<hr>
+<h3 id="yard-sale">yard sale<a class="hash" href="#yard-sale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːrd seɪl/ &middot; <em>YARD SAYL</em></dd><dt>Русский</dt><dd>распродажа во дворе дома</dd><dt>Plural</dt><dd><em>yard sales</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sale of used belongings spread out in front of a house.</p>
+<ol><li>There's a <em>yard sale</em> two streets over.</li><li>Half the block held <em>yard sales</em> the same morning.</li><li>The <em>yard sale</em> signs are stapled to every telephone pole.</li></ol>
+<hr>
+<h3 id="estate-sale">estate sale<a class="hash" href="#estate-sale" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈsteɪt seɪl/ &middot; <em>ih-STAYT SAYL</em></dd><dt>Русский</dt><dd>распродажа имущества (после переезда или смерти владельца)</dd><dt>Plural</dt><dd><em>estate sales</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sale of the entire contents of a house, usually after a death or a move.</p>
+<ol><li>They found the china cabinet at an <em>estate sale</em>.</li><li><em>Estate sales</em> are listed in the Thursday paper.</li><li>The <em>estate sale</em> started at eight and everything good was gone by nine.</li></ol>
+<hr>
+<h3 id="swap-meet">swap meet<a class="hash" href="#swap-meet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɑːp miːt/ &middot; <em>SWAHP MEET</em></dd><dt>Русский</dt><dd>барахолка, блошиный рынок</dd><dt>Plural</dt><dd><em>swap meets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open-air market where people sell used and cheap goods from tables.</p>
+<ol><li>The <em>swap meet</em> fills the drive-in lot every Sunday.</li><li>You can haggle at <em>swap meets</em>.</li><li>He sells car parts at the <em>swap meet</em>.</li></ol>
+<hr>
+<h3 id="showroom">showroom<a class="hash" href="#showroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊruːm/ &middot; <em>SHOH-room</em></dd><dt>Русский</dt><dd>демонстрационный зал, шоурум</dd><dt>Plural</dt><dd><em>showrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room where goods such as cars or furniture are displayed for sale.</p>
+<ol><li>The new models are in the <em>showroom</em> out front.</li><li>Their <em>showrooms</em> are open until eight.</li><li>We walked around the <em>showroom</em> for an hour without buying anything.</li></ol>
+<hr>
+<h3 id="stockroom">stockroom<a class="hash" href="#stockroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːkruːm/ &middot; <em>STAHK-room</em></dd><dt>Русский</dt><dd>подсобка, складское помещение магазина</dd><dt>Plural</dt><dd><em>stockrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The back room of a store where extra goods are kept.</p>
+<ol><li>Let me check the <em>stockroom</em> for a size ten.</li><li>The <em>stockrooms</em> are packed before the holidays.</li><li>He spent his first month unloading boxes in the <em>stockroom</em>.</li></ol>
+<hr>
+<h3 id="sales-floor">sales floor<a class="hash" href="#sales-floor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlz flɔːr/ &middot; <em>SAYLZ FLOR</em></dd><dt>Русский</dt><dd>торговый зал</dd><dt>Plural</dt><dd><em>sales floors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a store where goods are displayed and customers walk around.</p>
+<ol><li>She works the <em>sales floor</em> on weekends.</li><li>The <em>sales floors</em> were rearranged overnight.</li><li>Nobody was on the <em>sales floor</em> to answer questions.</li></ol>
+<hr>
+<h3 id="fitting-room">fitting room<a class="hash" href="#fitting-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪtɪŋ ruːm/ &middot; <em>FIT-ing ROOM</em></dd><dt>Русский</dt><dd>примерочная</dd><dt>Plural</dt><dd><em>fitting rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small room in a store where you try clothes on.</p>
+<ol><li>The <em>fitting room</em> is behind the shoe display.</li><li>All the <em>fitting rooms</em> were taken.</li><li>You can bring six items into the <em>fitting room</em>.</li></ol>
+<hr>
+<h3 id="dressing-room">dressing room<a class="hash" href="#dressing-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛsɪŋ ruːm/ &middot; <em>DRES-ing ROOM</em></dd><dt>Русский</dt><dd>примерочная</dd><dt>Plural</dt><dd><em>dressing rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A private space in a store for trying on clothing.</p>
+<ol><li>She left the jeans in the <em>dressing room</em>.</li><li>The <em>dressing rooms</em> are down the hall on the left.</li><li>There's a mirror inside the <em>dressing room</em>.</li></ol>
+<hr>
+<h3 id="clearance-rack">clearance rack<a class="hash" href="#clearance-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɪrəns ræk/ &middot; <em>KLEER-uns RAK</em></dd><dt>Русский</dt><dd>стойка с уценёнными товарами</dd><dt>Plural</dt><dd><em>clearance racks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rack holding marked-down items a store wants to get rid of.</p>
+<ol><li>Everything on the <em>clearance rack</em> is under ten dollars.</li><li>I always check the <em>clearance racks</em> first.</li><li>She found the dress on a <em>clearance rack</em> in the back.</li></ol>
+<hr>
+<h3 id="express-lane">express lane<a class="hash" href="#express-lane" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsprɛs leɪn/ &middot; <em>ik-SPRES LAYN</em></dd><dt>Русский</dt><dd>касса для покупателей с несколькими товарами</dd><dt>Plural</dt><dd><em>express lanes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A checkout for shoppers buying only a few items.</p>
+<ol><li>Take the <em>express lane</em> if you only have milk.</li><li>Both <em>express lanes</em> were closed.</li><li>The man ahead of me had thirty items in the <em>express lane</em>.</li></ol>
+<hr>
+<h3 id="salesclerk">salesclerk<a class="hash" href="#salesclerk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlzklɜːrk/ &middot; <em>SAYLZ-klurk</em></dd><dt>Русский</dt><dd>продавец (в магазине)</dd><dt>Plural</dt><dd><em>salesclerks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say KLURK; the British say 'clerk' as KLARK.</dd></dl>
+<p>A store worker who serves customers and rings up sales.</p>
+<ol><li>The <em>salesclerk</em> wrapped the vase in tissue.</li><li>Two <em>salesclerks</em> were folding sweaters.</li><li>I asked the <em>salesclerk</em> where the batteries were.</li></ol>
+<hr>
+<h3 id="sales-associate">sales associate<a class="hash" href="#sales-associate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlz əˌsoʊʃiət/ &middot; <em>SAYLZ uh-SOH-shee-ut</em></dd><dt>Русский</dt><dd>продавец-консультант</dd><dt>Plural</dt><dd><em>sales associates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The usual American job title for a store employee who helps shoppers.</p>
+<ol><li>He was hired as a <em>sales associate</em> at the electronics store.</li><li>The <em>sales associates</em> wear red vests.</li><li>Ask any <em>sales associate</em> to open the case for you.</li></ol>
+<hr>
+<h3 id="sales-rep">sales rep<a class="hash" href="#sales-rep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪlz rɛp/ &middot; <em>SAYLZ REP</em></dd><dt>Русский</dt><dd>торговый представитель</dd><dt>Plural</dt><dd><em>sales reps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who visits businesses to sell a company's products.</p>
+<ol><li>The <em>sales rep</em> comes by every other Tuesday.</li><li>Their <em>sales reps</em> cover three states.</li><li>A <em>sales rep</em> left samples with the store manager.</li></ol>
+<hr>
+<h3 id="bagger">bagger<a class="hash" href="#bagger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæɡər/ &middot; <em>BAG-ur</em></dd><dt>Русский</dt><dd>упаковщик покупок на кассе</dd><dt>Plural</dt><dd><em>baggers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A grocery store worker who puts purchases into bags.</p>
+<ol><li>The <em>bagger</em> asked if I wanted paper or plastic.</li><li>The <em>baggers</em> also collect carts from the lot.</li><li>He worked as a <em>bagger</em> the summer after high school.</li></ol>
+<hr>
+<h3 id="shopkeeper">shopkeeper<a class="hash" href="#shopkeeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpˌkiːpər/ &middot; <em>SHAHP-kee-pur</em></dd><dt>Русский</dt><dd>владелец магазина, лавочник</dd><dt>Plural</dt><dd><em>shopkeepers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who owns or runs a small store.</p>
+<ol><li>The <em>shopkeeper</em> knows every customer by name.</li><li>Local <em>shopkeepers</em> signed a petition about the parking.</li><li>The <em>shopkeeper</em> locked up and pulled down the shade.</li></ol>
+<hr>
+<h3 id="seller">seller<a class="hash" href="#seller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛlər/ &middot; <em>SEL-ur</em></dd><dt>Русский</dt><dd>продавец (сторона сделки)</dd><dt>Plural</dt><dd><em>sellers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like 'cellar', the room under a house.</dd></dl>
+<p>The person or business offering something for sale.</p>
+<ol><li>The <em>seller</em> shipped it the same day.</li><li>Some <em>sellers</em> on that site have no reviews.</li><li>I messaged the <em>seller</em> about the scratch on the lens.</li></ol>
+<hr>
+<h3 id="shoplifter">shoplifter<a class="hash" href="#shoplifter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpˌlɪftər/ &middot; <em>SHAHP-lif-tur</em></dd><dt>Русский</dt><dd>магазинный вор</dd><dt>Plural</dt><dd><em>shoplifters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who steals goods from a store.</p>
+<ol><li>A <em>shoplifter</em> set off the alarm at the door.</li><li>The sign warns that <em>shoplifters</em> will be prosecuted.</li><li>Security caught the <em>shoplifter</em> in the parking lot.</li></ol>
+<hr>
+<h3 id="tracking-number">tracking number<a class="hash" href="#tracking-number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrækɪŋ ˌnʌmbər/ &middot; <em>TRAK-ing NUM-bur</em></dd><dt>Русский</dt><dd>трек-номер, номер отслеживания</dd><dt>Plural</dt><dd><em>tracking numbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The code that lets you follow a package on its way to you.</p>
+<ol><li>They emailed me a <em>tracking number</em>.</li><li>Both <em>tracking numbers</em> show the same delivery date.</li><li>The <em>tracking number</em> hasn't updated in three days.</li></ol>
+<hr>
+<h3 id="mail-order">mail order<a class="hash" href="#mail-order" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪl ˌɔːrdər/ &middot; <em>MAYL OR-dur</em></dd><dt>Русский</dt><dd>заказ товаров по почте</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The system of buying goods that are sent to you by mail.</p>
+<ol><li>Her grandmother bought everything by <em>mail order</em>.</li><li>The company started as a <em>mail order</em> seed business.</li><li><em>Mail order</em> was the internet shopping of its day.</li></ol>
+<hr>
+<h3 id="online-store">online store<a class="hash" href="#online-store" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːnlaɪn stɔːr/ &middot; <em>AHN-lyne STOR</em></dd><dt>Русский</dt><dd>интернет-магазин</dd><dt>Plural</dt><dd><em>online stores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A website where a business sells its goods.</p>
+<ol><li>Their <em>online store</em> has more colors than the shop does.</li><li>Small <em>online stores</em> often ship slower.</li><li>The <em>online store</em> was down all morning.</li></ol>
+<hr>
+<h3 id="e-commerce">e-commerce<a class="hash" href="#e-commerce" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈiː ˌkɑːmərs/ &middot; <em>EE-kah-murs</em></dd><dt>Русский</dt><dd>электронная коммерция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business of buying and selling over the internet.</p>
+<ol><li><em>E-commerce</em> took a huge bite out of mall traffic.</li><li>She works in <em>e-commerce</em> for a clothing brand.</li><li>Their whole <em>e-commerce</em> operation runs from one warehouse.</li></ol>
+<hr>
+<h3 id="wish-list">wish list<a class="hash" href="#wish-list" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪʃ lɪst/ &middot; <em>WISH LIST</em></dd><dt>Русский</dt><dd>список желаемых покупок</dd><dt>Plural</dt><dd><em>wish lists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A saved list of things you would like to buy or be given.</p>
+<ol><li>I put the headphones on my <em>wish list</em>.</li><li>The kids emailed their <em>wish lists</em> to grandma.</li><li>Half the things on my <em>wish list</em> went on sale.</li></ol>
+<hr>
+<h3 id="loyalty-program">loyalty program<a class="hash" href="#loyalty-program" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔɪrlti ˌproʊɡræm/ &middot; <em>LOY-ul-tee PROH-gram</em></dd><dt>Русский</dt><dd>программа лояльности</dd><dt>Plural</dt><dd><em>loyalty programs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store plan that rewards regular customers with points or discounts.</p>
+<ol><li>Their <em>loyalty program</em> gives you a free coffee every tenth visit.</li><li>I've signed up for too many <em>loyalty programs</em>.</li><li>The <em>loyalty program</em> takes your email address.</li></ol>
+<hr>
+<h3 id="loyalty-card">loyalty card<a class="hash" href="#loyalty-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔɪrlti kɑːrd/ &middot; <em>LOY-ul-tee KARD</em></dd><dt>Русский</dt><dd>карта постоянного покупателя</dd><dt>Plural</dt><dd><em>loyalty cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A card that records your purchases so you earn discounts.</p>
+<ol><li>Scan your <em>loyalty card</em> before you pay.</li><li>My keychain is buried in <em>loyalty cards</em>.</li><li>The sale price only applies with a <em>loyalty card</em>.</li></ol>
+<hr>
+<h3 id="membership-fee">membership fee<a class="hash" href="#membership-fee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛmbərʃɪp fiː/ &middot; <em>MEM-bur-ship FEE</em></dd><dt>Русский</dt><dd>членский взнос</dd><dt>Plural</dt><dd><em>membership fees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount paid to belong to a club store or program.</p>
+<ol><li>The <em>membership fee</em> is sixty dollars a year.</li><li>They raised their <em>membership fees</em> in January.</li><li>You save more than the <em>membership fee</em> in one trip.</li></ol>
+<hr>
+<h3 id="gift-receipt">gift receipt<a class="hash" href="#gift-receipt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪft rɪˌsiːt/ &middot; <em>GIFT rih-SEET</em></dd><dt>Русский</dt><dd>подарочный чек (без цены)</dd><dt>Plural</dt><dd><em>gift receipts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The p in 'receipt' is silent: rih-SEET.</dd></dl>
+<p>A receipt without the price, so the person can exchange the gift.</p>
+<ol><li>Can I get a <em>gift receipt</em> with that?</li><li>She tucks <em>gift receipts</em> into the card.</li><li>Without a <em>gift receipt</em> he was stuck with the sweater.</li></ol>
+<hr>
+<h3 id="reusable-bag">reusable bag<a class="hash" href="#reusable-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riˈjuːzəbəl bæɡ/ &middot; <em>ree-YOO-zuh-bul BAG</em></dd><dt>Русский</dt><dd>многоразовая сумка для покупок</dd><dt>Plural</dt><dd><em>reusable bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sturdy bag a shopper brings back to the store each time.</p>
+<ol><li>I left the <em>reusable bags</em> in the car again.</li><li>Bring a <em>reusable bag</em> or you'll pay for one.</li><li>The store gives out a free <em>reusable bag</em> on Earth Day.</li></ol>
+<hr>
+<h3 id="shopping-basket">shopping basket<a class="hash" href="#shopping-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːpɪŋ ˌbæskət/ &middot; <em>SHAH-ping BAS-kut</em></dd><dt>Русский</dt><dd>корзина для покупок</dd><dt>Plural</dt><dd><em>shopping baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small hand basket for carrying a few items around a store.</p>
+<ol><li>Take a <em>shopping basket</em> instead of a cart.</li><li>The <em>shopping baskets</em> are stacked by the entrance.</li><li>My <em>shopping basket</em> got heavy fast.</li></ol>
+<hr>
+<h3 id="selection">selection<a class="hash" href="#selection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɛkʃən/ &middot; <em>suh-LEK-shun</em></dd><dt>Русский</dt><dd>выбор, ассортимент</dd><dt>Plural</dt><dd><em>selections</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The range of goods a store offers to choose from.</p>
+<ol><li>That store has a great <em>selection</em> of cheese.</li><li>Their online <em>selections</em> are bigger than in the shop.</li><li>The <em>selection</em> thins out by Sunday night.</li></ol>
+<hr>
+<h3 id="variety">variety<a class="hash" href="#variety" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vəˈraɪrti/ &middot; <em>vuh-RY-uh-tee</em></dd><dt>Русский</dt><dd>разнообразие, выбор</dd><dt>Plural</dt><dd><em>varieties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A number of different kinds of something available.</p>
+<ol><li>The market carries a wide <em>variety</em> of apples.</li><li>They stock a dozen <em>varieties</em> of hot sauce.</li><li>There's not much <em>variety</em> at the corner store.</li></ol>
+<hr>
+<h3 id="backorder">backorder<a class="hash" href="#backorder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækˌɔːrdər/ &middot; <em>BAK-or-dur</em></dd><dt>Русский</dt><dd>отложенный заказ (товара нет в наличии)</dd><dt>Plural</dt><dd><em>backorders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An order for goods the seller does not have in stock yet.</p>
+<ol><li>The chair is on <em>backorder</em> until March.</li><li>They have hundreds of <em>backorders</em> to fill.</li><li>My <em>backorder</em> finally shipped six weeks late.</li></ol>
+<hr>
+<h3 id="closeout">closeout<a class="hash" href="#closeout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkloʊzaʊt/ &middot; <em>KLOHZ-owt</em></dd><dt>Русский</dt><dd>ликвидация товара, окончательная распродажа</dd><dt>Plural</dt><dd><em>closeouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A final sale of the last of a line of goods at low prices.</p>
+<ol><li>The tile was a <em>closeout</em>, so there's no matching more.</li><li>They buy <em>closeouts</em> from big chains and resell them.</li><li>Everything in that aisle is a <em>closeout</em>.</li></ol>
+<hr>
+<h3 id="trade-in">trade-in<a class="hash" href="#trade-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪdɪn/ &middot; <em>TRAYD-in</em></dd><dt>Русский</dt><dd>сдача старой вещи в счёт новой</dd><dt>Plural</dt><dd><em>trade-ins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old item given to a seller as part of the payment for a new one.</p>
+<ol><li>They gave me two hundred dollars for the <em>trade-in</em>.</li><li>The store accepts <em>trade-ins</em> on old phones.</li><li>My car was worth more as a <em>trade-in</em> than I expected.</li></ol>
+<hr>
+<h3 id="knockoff">knockoff<a class="hash" href="#knockoff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɑːkɔːf/ &middot; <em>NAHK-awf</em></dd><dt>Русский</dt><dd>подделка, копия известного бренда</dd><dt>Plural</dt><dd><em>knockoffs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k in 'knock' is silent: NAHK-awf.</dd></dl>
+<p>A cheap copy of a well-known branded product.</p>
+<ol><li>That handbag is an obvious <em>knockoff</em>.</li><li>The stalls were full of <em>knockoffs</em>.</li><li>For twenty dollars you're buying a <em>knockoff</em>.</li></ol>
+<hr>
+<h3 id="counterfeit">counterfeit<a class="hash" href="#counterfeit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊntərfɪt/ &middot; <em>KOWN-tur-fit</em></dd><dt>Русский</dt><dd>подделка, контрафакт</dd><dt>Plural</dt><dd><em>counterfeits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending '-feit' sounds like 'fit', not 'fate'.</dd></dl>
+<p>A fake item made to pass as the genuine article.</p>
+<ol><li>The watch turned out to be a <em>counterfeit</em>.</li><li>Customs seized a truckload of <em>counterfeits</em>.</li><li>It's hard to spot a good <em>counterfeit</em>.</li></ol>
+<hr>
+<h3 id="imitation">imitation<a class="hash" href="#imitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪməˈteɪʃən/ &middot; <em>im-uh-TAY-shun</em></dd><dt>Русский</dt><dd>имитация, подделка</dd><dt>Plural</dt><dd><em>imitations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of something better or more expensive.</p>
+<ol><li>The frame is an <em>imitation</em> of an antique.</li><li>Cheap <em>imitations</em> showed up within a month.</li><li>It's an <em>imitation</em>, but it looks convincing.</li></ol>
+<hr>
+<h3 id="store-brand">store brand<a class="hash" href="#store-brand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːr brænd/ &middot; <em>STOR BRAND</em></dd><dt>Русский</dt><dd>собственная марка магазина</dd><dt>Plural</dt><dd><em>store brands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cheaper product sold under the store's own name.</p>
+<ol><li>The <em>store brand</em> cereal tastes the same to me.</li><li><em>Store brands</em> are usually a third cheaper.</li><li>I buy the <em>store brand</em> for everything but coffee.</li></ol>
+<hr>
+<h3 id="brand-name">brand name<a class="hash" href="#brand-name" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrænd neɪm/ &middot; <em>BRAND NAYM</em></dd><dt>Русский</dt><dd>торговая марка, название бренда</dd><dt>Plural</dt><dd><em>brand names</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The name a manufacturer gives its product line.</p>
+<ol><li>People pay extra for the <em>brand name</em>.</li><li>Half these <em>brand names</em> belong to the same company.</li><li>The pills are identical except for the <em>brand name</em>.</li></ol>
+<hr>
+<h3 id="trademark">trademark<a class="hash" href="#trademark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪdmɑːrk/ &middot; <em>TRAYD-mark</em></dd><dt>Русский</dt><dd>товарный знак</dd><dt>Plural</dt><dd><em>trademarks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A name or symbol legally registered to one company.</p>
+<ol><li>The name is a registered <em>trademark</em>.</li><li>They own <em>trademarks</em> in a dozen countries.</li><li>Using that <em>trademark</em> got the shop a letter from a lawyer.</li></ol>
+<hr>
+<h3 id="expiration-date">expiration date<a class="hash" href="#expiration-date" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛkspəˈreɪʃən deɪt/ &middot; <em>ek-spuh-RAY-shun DAYT</em></dd><dt>Русский</dt><dd>срок годности (дата)</dd><dt>Plural</dt><dd><em>expiration dates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American. British English says 'expiry date'.</dd></dl>
+<p>The date printed on a product after which it should not be used.</p>
+<ol><li>Check the <em>expiration date</em> on the milk.</li><li>The <em>expiration dates</em> are stamped on the bottom.</li><li>This yogurt is a week past its <em>expiration date</em>.</li></ol>
+<hr>
+<h3 id="shelf-life">shelf life<a class="hash" href="#shelf-life" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛlf laɪf/ &middot; <em>SHELF LYFE</em></dd><dt>Русский</dt><dd>срок хранения</dd><dt>Plural</dt><dd><em>shelf lives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: 'shelf lives', not 'shelf lifes'.</dd></dl>
+<p>The length of time a product stays good on the shelf.</p>
+<ol><li>Canned soup has a long <em>shelf life</em>.</li><li>The two brands have very different <em>shelf lives</em>.</li><li>Fresh bread has a <em>shelf life</em> of about three days.</li></ol>
+<hr>
+<h3 id="rip-off">rip-off<a class="hash" href="#rip-off" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪpɔːf/ &middot; <em>RIP-awf</em></dd><dt>Русский</dt><dd>грабёж, обдираловка (о цене)</dd><dt>Plural</dt><dd><em>rip-offs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something sold at an unfairly high price.</p>
+<ol><li>Nine dollars for a bottle of water is a <em>rip-off</em>.</li><li>Airport shops are famous <em>rip-offs</em>.</li><li>The extended warranty is a total <em>rip-off</em>.</li></ol>
+<hr>
+<h3 id="freebie">freebie<a class="hash" href="#freebie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfriːbi/ &middot; <em>FREE-bee</em></dd><dt>Русский</dt><dd>бесплатный подарок, халява</dd><dt>Plural</dt><dd><em>freebies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something a store gives you at no cost.</p>
+<ol><li>The tote bag was a <em>freebie</em> with the purchase.</li><li>She collects <em>freebies</em> from every conference.</li><li>They threw in a <em>freebie</em> because of the delay.</li></ol>
+<hr>
+<h3 id="giveaway">giveaway<a class="hash" href="#giveaway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪvəweɪ/ &middot; <em>GIV-uh-way</em></dd><dt>Русский</dt><dd>раздача бесплатных товаров, розыгрыш</dd><dt>Plural</dt><dd><em>giveaways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event where a store hands out free items or prizes.</p>
+<ol><li>The store is holding a <em>giveaway</em> on opening day.</li><li>Their <em>giveaways</em> always draw a crowd.</li><li>I entered the <em>giveaway</em> for a free grill.</li></ol>
+<hr>
+<h3 id="security-tag">security tag<a class="hash" href="#security-tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkjʊrəti tæɡ/ &middot; <em>sih-KYUUR-uh-tee TAG</em></dd><dt>Русский</dt><dd>противокражная бирка</dd><dt>Plural</dt><dd><em>security tags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device attached to merchandise that sets off an alarm if it leaves the store.</p>
+<ol><li>The cashier forgot to take off the <em>security tag</em>.</li><li><em>Security tags</em> are on every leather jacket.</li><li>I had to drive back to have the <em>security tag</em> removed.</li></ol>
+<hr>
+<h3 id="surcharge">surcharge<a class="hash" href="#surcharge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtʃɑːrdʒ/ &middot; <em>SUR-charj</em></dd><dt>Русский</dt><dd>надбавка, дополнительный сбор</dd><dt>Plural</dt><dd><em>surcharges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An extra charge added on top of the normal price.</p>
+<ol><li>There's a small <em>surcharge</em> for paying by card.</li><li>Fuel <em>surcharges</em> raised every delivery price.</li><li>The <em>surcharge</em> wasn't mentioned until the register.</li></ol>
+<hr>
+<h3 id="card-reader">card reader<a class="hash" href="#card-reader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrd ˌriːdər/ &middot; <em>KARD REE-dur</em></dd><dt>Русский</dt><dd>картридер, терминал для карт</dd><dt>Plural</dt><dd><em>card readers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small machine you tap, insert or swipe a payment card on.</p>
+<ol><li>Insert your chip into the <em>card reader</em>.</li><li>Both <em>card readers</em> are down, so it's cash only.</li><li>The <em>card reader</em> asked if I wanted to leave a tip.</li></ol>
+<hr>
+<h3 id="window-display">window display<a class="hash" href="#window-display" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊ dɪˌspleɪ/ &middot; <em>WIN-doh dih-SPLAY</em></dd><dt>Русский</dt><dd>витрина (оформление)</dd><dt>Plural</dt><dd><em>window displays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The arrangement of goods in a store window to attract shoppers.</p>
+<ol><li>The <em>window display</em> is all red for Valentine's Day.</li><li>Their holiday <em>window displays</em> draw crowds every December.</li><li>A mannequin fell over in the <em>window display</em>.</li></ol>
+<hr>
+<h3 id="retail-therapy">retail therapy<a class="hash" href="#retail-therapy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːteɪl ˈθɛrəpi/ &middot; <em>REE-tayl THER-uh-pee</em></dd><dt>Русский</dt><dd>шопинг ради поднятия настроения</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Shopping done to cheer yourself up.</p>
+<ol><li>After the breakup she went in for some <em>retail therapy</em>.</li><li>A little <em>retail therapy</em> never hurt anybody.</li><li>He calls it <em>retail therapy</em>; his wife calls it a problem.</li></ol>
+<hr>
+<h3 id="price-hike">price hike<a class="hash" href="#price-hike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪs haɪk/ &middot; <em>PRYSE HYKE</em></dd><dt>Русский</dt><dd>резкое повышение цены</dd><dt>Plural</dt><dd><em>price hikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sharp increase in what something costs.</p>
+<ol><li>Customers complained about the <em>price hike</em> on eggs.</li><li>Two <em>price hikes</em> in one year drove people away.</li><li>The <em>price hike</em> took effect on the first of the month.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

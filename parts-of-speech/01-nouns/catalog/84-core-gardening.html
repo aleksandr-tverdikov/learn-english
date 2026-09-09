@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: gardening</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-gardening">Core vocabulary: gardening<a class="hash" href="#core-vocabulary-gardening" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of gardening — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="backyard">backyard<a class="hash" href="#backyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbækˈjɑːrd/ &middot; <em>bak-YARD</em></dd><dt>Русский</dt><dd>задний двор, двор за домом</dd><dt>Plural</dt><dd><em>backyards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>backyard</em>; the British say back garden.</dd></dl>
+<p>The open ground behind a house, often fenced.</p>
+<ol><li>The kids are out in the <em>backyard</em>.</li><li>We grilled in the <em>backyard</em> until it got dark.</li><li>Most of the <em>backyards</em> on this street back onto the creek.</li></ol>
+<hr>
+<h3 id="front-yard">front yard<a class="hash" href="#front-yard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfrʌnt ˈjɑːrd/ &middot; <em>frunt YARD</em></dd><dt>Русский</dt><dd>палисадник, двор перед домом</dd><dt>Plural</dt><dd><em>front yards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The piece of ground between a house and the street.</p>
+<ol><li>He was out mowing the <em>front yard</em> at seven in the morning.</li><li>There's a big maple in the <em>front yard</em>.</li><li>All the <em>front yards</em> on the block are watered by timer.</li></ol>
+<hr>
+<h3 id="garden-hose">garden hose<a class="hash" href="#garden-hose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdən hoʊz/ &middot; <em>GAR-duhn hohz</em></dd><dt>Русский</dt><dd>садовый шланг</dd><dt>Plural</dt><dd><em>garden hoses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long flexible tube for carrying water to a lawn or garden.</p>
+<ol><li>Roll up the <em>garden hose</em> before somebody trips on it.</li><li>The <em>garden hose</em> is leaking right at the connector.</li><li>We keep two <em>garden hoses</em>, one front and one back.</li></ol>
+<hr>
+<h3 id="vegetable-garden">vegetable garden<a class="hash" href="#vegetable-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛdʒtəbəl ɡɑːrdən/ &middot; <em>VEJ-tuh-buhl gar-duhn</em></dd><dt>Русский</dt><dd>огород</dd><dt>Plural</dt><dd><em>vegetable gardens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Russian огород is a <em>vegetable garden</em>; plain <em>garden</em> in American English usually means the flowers and shrubs.</dd></dl>
+<p>A plot of ground where food plants are grown.</p>
+<ol><li>They put in a <em>vegetable garden</em> along the south fence.</li><li>Half the <em>vegetable garden</em> is tomatoes.</li><li><em>Vegetable gardens</em> need at least six hours of sun.</li></ol>
+<hr>
+<h3 id="raised-bed">raised bed<a class="hash" href="#raised-bed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌreɪzd ˈbɛd/ &middot; <em>rayzd BED</em></dd><dt>Русский</dt><dd>приподнятая грядка, короб для грядки</dd><dt>Plural</dt><dd><em>raised beds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A planting box of soil built up above the level of the ground.</p>
+<ol><li>He built a <em>raised bed</em> out of cedar boards.</li><li>The lettuce goes in the shady <em>raised bed</em>.</li><li>Four <em>raised beds</em> fit easily in that yard.</li></ol>
+<hr>
+<h3 id="mowing">mowing<a class="hash" href="#mowing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊɪŋ/ &middot; <em>MOH-ing</em></dd><dt>Русский</dt><dd>кошение, стрижка газона</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The cutting of grass to keep a lawn short.</p>
+<ol><li><em>Mowing</em> takes him about an hour.</li><li>The lawn needs <em>mowing</em> twice a week in June.</li><li>I hired a kid down the street to do the <em>mowing</em>.</li></ol>
+<hr>
+<h3 id="watering">watering<a class="hash" href="#watering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərɪŋ/ &middot; <em>WAW-tur-ing</em></dd><dt>Русский</dt><dd>полив</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The giving of water to plants.</p>
+<ol><li>Early morning is the best time for <em>watering</em>.</li><li>The pots need <em>watering</em> every single day in August.</li><li>Can you take over the <em>watering</em> while we're gone?</li></ol>
+<hr>
+<h3 id="raking">raking<a class="hash" href="#raking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪkɪŋ/ &middot; <em>RAY-king</em></dd><dt>Русский</dt><dd>сгребание (листьев)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of gathering leaves or smoothing soil with a rake.</p>
+<ol><li><em>Raking</em> leaves is a whole weekend around here.</li><li>My shoulders are sore from all that <em>raking</em>.</li><li>The yard still needs one more round of <em>raking</em>.</li></ol>
+<hr>
+<h3 id="mulching">mulching<a class="hash" href="#mulching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌltʃɪŋ/ &middot; <em>MUL-ching</em></dd><dt>Русский</dt><dd>мульчирование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The spreading of bark, straw, or leaves over soil to hold moisture in.</p>
+<ol><li><em>Mulching</em> cuts my watering in half.</li><li>We finished the <em>mulching</em> on Sunday afternoon.</li><li>Heavy <em>mulching</em> keeps the weeds from coming up.</li></ol>
+<hr>
+<h3 id="composting">composting<a class="hash" href="#composting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpoʊstɪŋ/ &middot; <em>KAHM-pohst-ing</em></dd><dt>Русский</dt><dd>компостирование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of letting plant waste rot down into food for the soil.</p>
+<ol><li>The city has a class on backyard <em>composting</em>.</li><li><em>Composting</em> got rid of most of our kitchen trash.</li><li>She's been <em>composting</em> for twenty years.</li></ol>
+<hr>
+<h3 id="lawn-care">lawn care<a class="hash" href="#lawn-care" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːn kɛr/ &middot; <em>LAWN kair</em></dd><dt>Русский</dt><dd>уход за газоном</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The regular work of feeding, cutting, and watering a lawn.</p>
+<ol><li>They pay a service for <em>lawn care</em>.</li><li><em>Lawn care</em> around here means watering three times a week.</li><li>He knows more about <em>lawn care</em> than anyone on the block.</li></ol>
+<hr>
+<h3 id="yard-work">yard work<a class="hash" href="#yard-work" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːrd wɜːrk/ &middot; <em>YARD wurk</em></dd><dt>Русский</dt><dd>работа во дворе, в саду</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Outdoor chores like mowing, raking, and trimming around a house.</p>
+<ol><li>I've got a ton of <em>yard work</em> this weekend.</li><li>He does <em>yard work</em> to stay out of the house.</li><li>Saturday is for <em>yard work</em> and nothing else.</li></ol>
+<hr>
+<h3 id="yard-waste">yard waste<a class="hash" href="#yard-waste" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːrd weɪst/ &middot; <em>YARD wayst</em></dd><dt>Русский</dt><dd>садовый мусор, растительные отходы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Grass, leaves, and branches thrown out after garden work.</p>
+<ol><li><em>Yard waste</em> goes in the green bin.</li><li>The town picks up <em>yard waste</em> on Thursdays.</li><li>We had six bags of <em>yard waste</em> after the storm.</li></ol>
+<hr>
+<h3 id="compost-pile">compost pile<a class="hash" href="#compost-pile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmpoʊst paɪl/ &middot; <em>KAHM-pohst pyle</em></dd><dt>Русский</dt><dd>компостная куча</dd><dt>Plural</dt><dd><em>compost piles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heap of rotting plant material kept for feeding the soil.</p>
+<ol><li>Throw those weeds on the <em>compost pile</em>.</li><li>The <em>compost pile</em> steams on cold mornings.</li><li>He turns the <em>compost pile</em> with a pitchfork every few weeks.</li></ol>
+<hr>
+<h3 id="potting-soil">potting soil<a class="hash" href="#potting-soil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːtɪŋ sɔɪl/ &middot; <em>PAH-ting soyl</em></dd><dt>Русский</dt><dd>грунт для рассады и комнатных растений</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a bag of <em>potting soil</em>, never a potting soil. The British call it potting compost.</dd></dl>
+<p>A light bagged mix used for growing plants in containers.</p>
+<ol><li>Pick up a bag of <em>potting soil</em> while you're out.</li><li>Never use garden dirt where you need <em>potting soil</em>.</li><li>This <em>potting soil</em> holds water way too long.</li></ol>
+<hr>
+<h3 id="plant-food">plant food<a class="hash" href="#plant-food" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplænt fuːd/ &middot; <em>PLANT food</em></dd><dt>Русский</dt><dd>удобрение для растений</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid or powder added to water to feed potted plants.</p>
+<ol><li>Add a capful of <em>plant food</em> every other watering.</li><li>The <em>plant food</em> is under the sink.</li><li>Too much <em>plant food</em> will burn the roots.</li></ol>
+<hr>
+<h3 id="peat-moss">peat moss<a class="hash" href="#peat-moss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːt mɔːs/ &middot; <em>PEET maws</em></dd><dt>Русский</dt><dd>торфяной мох, верховой торф</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Light brown decayed moss mixed into soil to hold moisture.</p>
+<ol><li>Work some <em>peat moss</em> into that sandy bed.</li><li>A bale of <em>peat moss</em> costs about fifteen dollars.</li><li><em>Peat moss</em> makes the soil more acidic.</li></ol>
+<hr>
+<h3 id="bone-meal">bone meal<a class="hash" href="#bone-meal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊn miːl/ &middot; <em>BOHN meel</em></dd><dt>Русский</dt><dd>костная мука</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Ground animal bone used as a slow fertilizer, especially for bulbs.</p>
+<ol><li>Put a spoonful of <em>bone meal</em> in each hole.</li><li><em>Bone meal</em> is what my grandmother swore by for tulips.</li><li>The dog dug up everything I treated with <em>bone meal</em>.</li></ol>
+<hr>
+<h3 id="perlite">perlite<a class="hash" href="#perlite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrlaɪt/ &middot; <em>PUR-lyte</em></dd><dt>Русский</dt><dd>перлит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>White volcanic granules mixed into soil to keep it loose and draining.</p>
+<ol><li>Those little white specks in the mix are <em>perlite</em>.</li><li>Add a couple handfuls of <em>perlite</em> for the cuttings.</li><li><em>Perlite</em> keeps the pot from staying soggy.</li></ol>
+<hr>
+<h3 id="vermiculite">vermiculite<a class="hash" href="#vermiculite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vərˈmɪkjəlaɪt/ &middot; <em>vur-MIK-yuh-lyte</em></dd><dt>Русский</dt><dd>вермикулит</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A light flaky mineral mixed into soil to hold water and air.</p>
+<ol><li>Cover the seeds with a thin layer of <em>vermiculite</em>.</li><li><em>Vermiculite</em> holds water better than perlite does.</li><li>The starting mix is peat and <em>vermiculite</em>.</li></ol>
+<hr>
+<h3 id="leaf-mold">leaf mold<a class="hash" href="#leaf-mold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːf moʊld/ &middot; <em>LEEF mohld</em></dd><dt>Русский</dt><dd>листовой перегной</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>mold</em>, British mould — same word, different spelling.</dd></dl>
+<p>Crumbly dark material made of leaves that have rotted down.</p>
+<ol><li>Two years in a pile turns leaves into <em>leaf mold</em>.</li><li>He digs <em>leaf mold</em> into every bed in the fall.</li><li><em>Leaf mold</em> smells like the floor of a forest.</li></ol>
+<hr>
+<h3 id="wood-chips">wood chips<a class="hash" href="#wood-chips" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊd tʃɪps/ &middot; <em>WUUD chips</em></dd><dt>Русский</dt><dd>древесная щепа</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Used in the plural as a material: some <em>wood chips</em>, not a wood chip.</dd></dl>
+<p>Small pieces of chopped wood spread on paths and around plants.</p>
+<ol><li>The tree crew dumped a pile of <em>wood chips</em> for free.</li><li>We put <em>wood chips</em> down the whole side path.</li><li><em>Wood chips</em> break down slower than bark.</li></ol>
+<hr>
+<h3 id="grass-clippings">grass clippings<a class="hash" href="#grass-clippings" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræs klɪpɪŋz/ &middot; <em>GRAS klip-ingz</em></dd><dt>Русский</dt><dd>скошенная трава</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural: the <em>grass clippings</em>, never a grass clipping.</dd></dl>
+<p>The cut grass left behind after mowing a lawn.</p>
+<ol><li>Leave the <em>grass clippings</em> on the lawn as fertilizer.</li><li>He bagged the <em>grass clippings</em> for the compost.</li><li>Wet <em>grass clippings</em> clog the mower.</li></ol>
+<hr>
+<h3 id="grass-seed">grass seed<a class="hash" href="#grass-seed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræs siːd/ &middot; <em>GRAS seed</em></dd><dt>Русский</dt><dd>семена газонной травы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Seed spread on bare ground to grow a lawn.</p>
+<ol><li>Throw some <em>grass seed</em> on that bald spot.</li><li>The <em>grass seed</em> won't come up until it warms up.</li><li>Birds ate half the <em>grass seed</em> I put down.</li></ol>
+<hr>
+<h3 id="ground-cover">ground cover<a class="hash" href="#ground-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraʊnd kʌvər/ &middot; <em>GROWND kuv-ur</em></dd><dt>Русский</dt><dd>почвопокровное растение</dd><dt>Plural</dt><dd><em>ground covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low spreading plant grown to cover bare soil.</p>
+<ol><li>Creeping thyme makes a nice <em>ground cover</em> between the stones.</li><li>We need a <em>ground cover</em> for that slope.</li><li>Most shade-tolerant <em>ground covers</em> spread slowly.</li></ol>
+<hr>
+<h3 id="seed-packet">seed packet<a class="hash" href="#seed-packet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːd pækɪt/ &middot; <em>SEED pak-it</em></dd><dt>Русский</dt><dd>пакетик с семенами</dd><dt>Plural</dt><dd><em>seed packets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small paper envelope of seeds sold for planting.</p>
+<ol><li>The <em>seed packet</em> says thin to six inches.</li><li>I have a shoebox full of old <em>seed packets</em>.</li><li>Check the date on the back of the <em>seed packet</em>.</li></ol>
+<hr>
+<h3 id="seed-tray">seed tray<a class="hash" href="#seed-tray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːd treɪ/ &middot; <em>SEED tray</em></dd><dt>Русский</dt><dd>лоток для рассады</dd><dt>Plural</dt><dd><em>seed trays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow plastic tray with small cells for starting seedlings.</p>
+<ol><li>The peppers are up in the <em>seed tray</em> already.</li><li>Put the <em>seed tray</em> on the windowsill.</li><li>She washes and reuses the <em>seed trays</em> every year.</li></ol>
+<hr>
+<h3 id="seed-catalog">seed catalog<a class="hash" href="#seed-catalog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːd kætəlɔːɡ/ &middot; <em>SEED kat-uh-lawg</em></dd><dt>Русский</dt><dd>каталог семян</dd><dt>Plural</dt><dd><em>seed catalogs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>catalog</em>, British catalogue.</dd></dl>
+<p>A mailed or online listing of seeds and plants a company sells.</p>
+<ol><li>The <em>seed catalogs</em> start showing up in January.</li><li>He circles half the <em>seed catalog</em> and orders three things.</li><li>That <em>seed catalog</em> has forty kinds of tomatoes.</li></ol>
+<hr>
+<h3 id="cutting">cutting<a class="hash" href="#cutting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌtɪŋ/ &middot; <em>KUT-ing</em></dd><dt>Русский</dt><dd>черенок</dd><dt>Plural</dt><dd><em>cuttings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of stem cut from a plant and rooted to grow a new one.</p>
+<ol><li>She rooted a <em>cutting</em> from her mother's rose bush.</li><li>Take <em>cuttings</em> about four inches long.</li><li>Half the <em>cuttings</em> took, half rotted.</li></ol>
+<hr>
+<h3 id="graft">graft<a class="hash" href="#graft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡræft/ &middot; <em>GRAFT</em></dd><dt>Русский</dt><dd>прививка (растения)</dd><dt>Plural</dt><dd><em>grafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoot joined onto another plant so the two grow as one.</p>
+<ol><li>You can see the <em>graft</em> right above the soil line.</li><li>The <em>graft</em> never took, so he tried again in spring.</li><li>All the <em>grafts</em> on that apple tree are different varieties.</li></ol>
+<hr>
+<h3 id="rhizome">rhizome<a class="hash" href="#rhizome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪzoʊm/ &middot; <em>RY-zohm</em></dd><dt>Русский</dt><dd>корневище</dd><dt>Plural</dt><dd><em>rhizomes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The h is silent: rh- is just R, as in rhyme.</dd></dl>
+<p>A stem that creeps sideways underground and sends up new plants.</p>
+<ol><li>Mint spreads by <em>rhizomes</em>, so keep it in a pot.</li><li>Split the <em>rhizome</em> with a sharp knife.</li><li>Those <em>rhizomes</em> went straight under the sidewalk.</li></ol>
+<hr>
+<h3 id="sprig">sprig<a class="hash" href="#sprig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sprɪɡ/ &middot; <em>SPRIG</em></dd><dt>Русский</dt><dd>веточка (зелени)</dd><dt>Plural</dt><dd><em>sprigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small shoot or twig cut from a plant, usually an herb.</p>
+<ol><li>Add a <em>sprig</em> of rosemary to the pan.</li><li>She cut a few <em>sprigs</em> of mint for the pitcher.</li><li>One <em>sprig</em> of thyme is plenty.</li></ol>
+<hr>
+<h3 id="tendril">tendril<a class="hash" href="#tendril" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛndrəl/ &middot; <em>TEN-druhl</em></dd><dt>Русский</dt><dd>усик (вьющегося растения)</dd><dt>Plural</dt><dd><em>tendrils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin curling growth a climbing plant uses to hold on.</p>
+<ol><li>The pea <em>tendrils</em> have grabbed the string already.</li><li>A <em>tendril</em> had wrapped itself around the railing.</li><li>Cucumber <em>tendrils</em> will pull down a weak trellis.</li></ol>
+<hr>
+<h3 id="root-system">root system<a class="hash" href="#root-system" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːt sɪstəm/ &middot; <em>ROOT sis-tuhm</em></dd><dt>Русский</dt><dd>корневая система</dd><dt>Plural</dt><dd><em>root systems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the roots of a plant taken together.</p>
+<ol><li>Bamboo has a <em>root system</em> that will wreck a patio.</li><li>The tree's <em>root system</em> goes out farther than its branches.</li><li>Shallow <em>root systems</em> dry out fast.</li></ol>
+<hr>
+<h3 id="root-ball">root ball<a class="hash" href="#root-ball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːt bɔːl/ &middot; <em>ROOT bawl</em></dd><dt>Русский</dt><dd>земляной ком с корнями</dd><dt>Plural</dt><dd><em>root balls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mass of roots and soil that comes out with a plant when it is moved.</p>
+<ol><li>Loosen the <em>root ball</em> before you set it in the hole.</li><li>The <em>root ball</em> was completely dried out.</li><li>Dig a hole twice as wide as the <em>root ball</em>.</li></ol>
+<hr>
+<h3 id="perennial">perennial<a class="hash" href="#perennial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈrɛniəl/ &middot; <em>puh-REN-ee-uhl</em></dd><dt>Русский</dt><dd>многолетнее растение, многолетник</dd><dt>Plural</dt><dd><em>perennials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant that dies back in winter and comes up again year after year.</p>
+<ol><li>Hostas are the easiest <em>perennial</em> I know.</li><li>She filled the shady bed with <em>perennials</em>.</li><li>That <em>perennial</em> has come back for nine years.</li></ol>
+<hr>
+<h3 id="annual">annual<a class="hash" href="#annual" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈænjuəl/ &middot; <em>AN-yoo-uhl</em></dd><dt>Русский</dt><dd>однолетнее растение, однолетник</dd><dt>Plural</dt><dd><em>annuals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant that grows, flowers, and dies all in one season.</p>
+<ol><li>I put a flat of <em>annuals</em> in the window boxes every May.</li><li>Marigold is an <em>annual</em>, so it won't come back.</li><li><em>Annuals</em> bloom all summer if you keep them watered.</li></ol>
+<hr>
+<h3 id="biennial">biennial<a class="hash" href="#biennial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baɪˈɛniəl/ &middot; <em>by-EN-ee-uhl</em></dd><dt>Русский</dt><dd>двулетнее растение</dd><dt>Plural</dt><dd><em>biennials</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Biennial</em> means every two years; <em>biannual</em> means twice a year.</dd></dl>
+<p>A plant that grows leaves the first year and flowers the second.</p>
+<ol><li>Foxglove is a <em>biennial</em>, so be patient.</li><li><em>Biennials</em> are worth the wait.</li><li>That <em>biennial</em> finally bloomed this June.</li></ol>
+<hr>
+<h3 id="hybrid">hybrid<a class="hash" href="#hybrid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪbrɪd/ &middot; <em>HY-brid</em></dd><dt>Русский</dt><dd>гибрид</dd><dt>Plural</dt><dd><em>hybrids</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plant bred from two different varieties.</p>
+<ol><li>This tomato is a <em>hybrid</em> bred for disease resistance.</li><li>Seeds saved from a <em>hybrid</em> rarely come out the same.</li><li>Most of the corn in the store is from <em>hybrids</em>.</li></ol>
+<hr>
+<h3 id="greenery">greenery<a class="hash" href="#greenery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡriːnəri/ &middot; <em>GREE-nuh-ree</em></dd><dt>Русский</dt><dd>зелень, зелёные растения</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Green leaves and plants taken together.</p>
+<ol><li>The porch is buried in <em>greenery</em> by July.</li><li>She added some <em>greenery</em> to the arrangement.</li><li>There's not much <em>greenery</em> on that side of the house.</li></ol>
+<hr>
+<h3 id="shrubbery">shrubbery<a class="hash" href="#shrubbery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃrʌbəri/ &middot; <em>SHRUB-uh-ree</em></dd><dt>Русский</dt><dd>кустарник (посадки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A planting of bushes growing together.</p>
+<ol><li>The ball went into the <em>shrubbery</em>.</li><li>He trimmed the <em>shrubbery</em> along the walk.</li><li>Birds nest in that <em>shrubbery</em> every spring.</li></ol>
+<hr>
+<h3 id="bramble">bramble<a class="hash" href="#bramble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbræmbəl/ &middot; <em>BRAM-buhl</em></dd><dt>Русский</dt><dd>ежевичник, колючий кустарник</dd><dt>Plural</dt><dd><em>brambles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A prickly bush of the blackberry or raspberry kind.</p>
+<ol><li>The back corner is nothing but <em>brambles</em>.</li><li>He cut a path through the <em>bramble</em> with a machete.</li><li>Those <em>brambles</em> will take over if you let them.</li></ol>
+<hr>
+<h3 id="nettle">nettle<a class="hash" href="#nettle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɛtəl/ &middot; <em>NET-uhl</em></dd><dt>Русский</dt><dd>крапива</dd><dt>Plural</dt><dd><em>nettles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A weed with hairy leaves that sting the skin.</p>
+<ol><li>I grabbed a <em>nettle</em> and my hand burned for an hour.</li><li><em>Nettles</em> love rich damp soil.</li><li>Wear gloves — that whole bed is full of <em>nettles</em>.</li></ol>
+<hr>
+<h3 id="thistle">thistle<a class="hash" href="#thistle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪsəl/ &middot; <em>THIS-uhl</em></dd><dt>Русский</dt><dd>чертополох</dd><dt>Plural</dt><dd><em>thistles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: THIS-uhl, like whistle.</dd></dl>
+<p>A prickly weed with purple flowers and seeds that blow away.</p>
+<ol><li>Pull the <em>thistle</em> before it goes to seed.</li><li><em>Thistles</em> come right back if you leave the root.</li><li>One <em>thistle</em> turns into fifty by next summer.</li></ol>
+<hr>
+<h3 id="shade-tree">shade tree<a class="hash" href="#shade-tree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃeɪd triː/ &middot; <em>SHAYD tree</em></dd><dt>Русский</dt><dd>тенистое дерево</dd><dt>Plural</dt><dd><em>shade trees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A big leafy tree planted to give shade.</p>
+<ol><li>Plant a <em>shade tree</em> on the west side of the house.</li><li>The <em>shade tree</em> out front drops leaves for a month.</li><li>Those <em>shade trees</em> cut our cooling bill in half.</li></ol>
+<hr>
+<h3 id="leaf-blower">leaf blower<a class="hash" href="#leaf-blower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːf bloʊrr/ &middot; <em>LEEF bloh-ur</em></dd><dt>Русский</dt><dd>садовая воздуходувка</dd><dt>Plural</dt><dd><em>leaf blowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that blows a strong stream of air to clear leaves.</p>
+<ol><li>Somebody fires up a <em>leaf blower</em> at seven every morning.</li><li>The battery <em>leaf blower</em> is a lot quieter.</li><li>Half the town runs <em>leaf blowers</em> in October.</li></ol>
+<hr>
+<h3 id="hedge-trimmer">hedge trimmer<a class="hash" href="#hedge-trimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdʒ trɪmər/ &middot; <em>HEJ trim-ur</em></dd><dt>Русский</dt><dd>кусторез (электрический)</dd><dt>Plural</dt><dd><em>hedge trimmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A powered tool with a long toothed blade for shaping hedges.</p>
+<ol><li>Run the <em>hedge trimmer</em> along the top to even it out.</li><li>The <em>hedge trimmer</em> is in the shed with the extension cord.</li><li>Cordless <em>hedge trimmers</em> have gotten pretty good.</li></ol>
+<hr>
+<h3 id="string-trimmer">string trimmer<a class="hash" href="#string-trimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɪŋ trɪmər/ &middot; <em>STRING trim-ur</em></dd><dt>Русский</dt><dd>триммер для травы</dd><dt>Plural</dt><dd><em>string trimmers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans call it a <em>weed whacker</em> or a weed eater in everyday speech.</dd></dl>
+<p>A machine that cuts grass and weeds with a spinning nylon line.</p>
+<ol><li>Use the <em>string trimmer</em> along the fence line.</li><li>The <em>string trimmer</em> is out of line again.</li><li>Both <em>string trimmers</em> need new spools.</li></ol>
+<hr>
+<h3 id="weed-whacker">weed whacker<a class="hash" href="#weed-whacker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːd wækər/ &middot; <em>WEED wak-ur</em></dd><dt>Русский</dt><dd>триммер для травы (разговорное)</dd><dt>Plural</dt><dd><em>weed whackers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The everyday name for a string trimmer.</p>
+<ol><li>Can I borrow your <em>weed whacker</em> this weekend?</li><li>He went after the ditch with a <em>weed whacker</em>.</li><li>The <em>weed whacker</em> won't start when it's cold.</li></ol>
+<hr>
+<h3 id="pruning-shears">pruning shears<a class="hash" href="#pruning-shears" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpruːnɪŋ ʃɪrz/ &middot; <em>PROO-ning sheerz</em></dd><dt>Русский</dt><dd>секатор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural, like scissors: a pair of <em>pruning shears</em>, even though Russian секатор is singular.</dd></dl>
+<p>A hand tool with two curved blades for cutting small branches.</p>
+<ol><li>Hand me the <em>pruning shears</em> — this cane is done.</li><li>The <em>pruning shears</em> need sharpening.</li><li>Wipe the <em>pruning shears</em> with alcohol between plants.</li></ol>
+<hr>
+<h3 id="pruning-saw">pruning saw<a class="hash" href="#pruning-saw" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpruːnɪŋ sɔː/ &middot; <em>PROO-ning saw</em></dd><dt>Русский</dt><dd>садовая ножовка</dd><dt>Plural</dt><dd><em>pruning saws</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small curved saw for cutting branches too thick for shears.</p>
+<ol><li>That limb needs a <em>pruning saw</em>.</li><li>A folding <em>pruning saw</em> fits right in your back pocket.</li><li>Both <em>pruning saws</em> cut on the pull stroke.</li></ol>
+<hr>
+<h3 id="loppers">loppers<a class="hash" href="#loppers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːpərz/ &middot; <em>LAH-purz</em></dd><dt>Русский</dt><dd>сучкорез</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural: a pair of <em>loppers</em>, never a lopper.</dd></dl>
+<p>A cutting tool with two long handles for thick branches.</p>
+<ol><li>Get the <em>loppers</em> — the shears won't go through that.</li><li>The <em>loppers</em> are hanging in the garage.</li><li>These <em>loppers</em> will take a branch an inch and a half thick.</li></ol>
+<hr>
+<h3 id="garden-fork">garden fork<a class="hash" href="#garden-fork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdən fɔːrk/ &middot; <em>GAR-duhn fork</em></dd><dt>Русский</dt><dd>садовые вилы (для перекопки)</dd><dt>Plural</dt><dd><em>garden forks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sturdy fork with flat tines for digging and loosening soil.</p>
+<ol><li>Work the compost in with a <em>garden fork</em>.</li><li>A <em>garden fork</em> is better than a shovel in heavy clay.</li><li>He bent two <em>garden forks</em> on those rocks.</li></ol>
+<hr>
+<h3 id="riding-mower">riding mower<a class="hash" href="#riding-mower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪdɪŋ moʊrr/ &middot; <em>RY-ding moh-ur</em></dd><dt>Русский</dt><dd>садовый трактор-косилка, райдер</dd><dt>Plural</dt><dd><em>riding mowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lawn mower with a seat that the operator drives.</p>
+<ol><li>You need a <em>riding mower</em> for two acres.</li><li>The <em>riding mower</em> is in the shed under a tarp.</li><li>Used <em>riding mowers</em> go fast around here.</li></ol>
+<hr>
+<h3 id="edger">edger<a class="hash" href="#edger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdʒər/ &middot; <em>EJ-ur</em></dd><dt>Русский</dt><dd>кромкорез для газона</dd><dt>Plural</dt><dd><em>edgers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool or machine that cuts a clean line where a lawn meets a walk or bed.</p>
+<ol><li>Run the <em>edger</em> along the driveway last.</li><li>A sharp <em>edger</em> makes the whole yard look finished.</li><li>They sell manual <em>edgers</em> for about thirty dollars.</li></ol>
+<hr>
+<h3 id="trellis">trellis<a class="hash" href="#trellis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛlɪs/ &middot; <em>TREL-is</em></dd><dt>Русский</dt><dd>шпалера, решётка для вьющихся растений</dd><dt>Plural</dt><dd><em>trellises</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat frame of crossed strips that a climbing plant grows up.</p>
+<ol><li>Tie the vine loosely to the <em>trellis</em>.</li><li>The <em>trellis</em> blew over in the first storm.</li><li>Both <em>trellises</em> are covered in clematis by June.</li></ol>
+<hr>
+<h3 id="hanging-basket">hanging basket<a class="hash" href="#hanging-basket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæŋɪŋ bæskɪt/ &middot; <em>HANG-ing bas-kit</em></dd><dt>Русский</dt><dd>подвесное кашпо</dd><dt>Plural</dt><dd><em>hanging baskets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A container of flowers hung from a hook or bracket.</p>
+<ol><li>A <em>hanging basket</em> dries out twice as fast as a pot.</li><li>She hung a <em>hanging basket</em> on each porch post.</li><li>The store had <em>hanging baskets</em> on sale for Mother's Day.</li></ol>
+<hr>
+<h3 id="window-box">window box<a class="hash" href="#window-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndoʊ bɑːks/ &middot; <em>WIN-doh bahks</em></dd><dt>Русский</dt><dd>балконный ящик для цветов</dd><dt>Plural</dt><dd><em>window boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long shallow container of plants fixed under a window.</p>
+<ol><li>The <em>window box</em> is full of petunias.</li><li>He built a cedar <em>window box</em> for the kitchen.</li><li>The <em>window boxes</em> have to be watered every evening.</li></ol>
+<hr>
+<h3 id="cold-frame">cold frame<a class="hash" href="#cold-frame" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊld freɪm/ &middot; <em>KOHLD fraym</em></dd><dt>Русский</dt><dd>парник</dd><dt>Plural</dt><dd><em>cold frames</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low box with a clear lid that protects young plants from frost.</p>
+<ol><li>The lettuce lives in the <em>cold frame</em> until April.</li><li>Prop the <em>cold frame</em> open on warm days.</li><li>He built two <em>cold frames</em> out of old storm windows.</li></ol>
+<hr>
+<h3 id="potting-bench">potting bench<a class="hash" href="#potting-bench" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːtɪŋ bɛntʃ/ &middot; <em>PAH-ting bench</em></dd><dt>Русский</dt><dd>стол для пересадки растений</dd><dt>Plural</dt><dd><em>potting benches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waist-high table used for filling pots and working with plants.</p>
+<ol><li>The <em>potting bench</em> is buried under empty containers.</li><li>He built a <em>potting bench</em> out of scrap lumber.</li><li>Most <em>potting benches</em> have a shelf underneath.</li></ol>
+<hr>
+<h3 id="garden-shed">garden shed<a class="hash" href="#garden-shed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdən ʃɛd/ &middot; <em>GAR-duhn shed</em></dd><dt>Русский</dt><dd>садовый сарай</dd><dt>Plural</dt><dd><em>garden sheds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small outbuilding where tools and supplies are kept.</p>
+<ol><li>The mower lives in the <em>garden shed</em>.</li><li>There's a wasp nest in the <em>garden shed</em> again.</li><li>Both <em>garden sheds</em> need new roofs.</li></ol>
+<hr>
+<h3 id="grow-light">grow light<a class="hash" href="#grow-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊ laɪt/ &middot; <em>GROH lyte</em></dd><dt>Русский</dt><dd>фитолампа</dd><dt>Plural</dt><dd><em>grow lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electric lamp that gives plants the light they need indoors.</p>
+<ol><li>Start the seedlings under a <em>grow light</em> in February.</li><li>The <em>grow light</em> hangs a few inches over the tray.</li><li>LED <em>grow lights</em> barely use any power.</li></ol>
+<hr>
+<h3 id="rain-barrel">rain barrel<a class="hash" href="#rain-barrel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn bɛrəl/ &middot; <em>RAYN behr-uhl</em></dd><dt>Русский</dt><dd>бочка для дождевой воды</dd><dt>Plural</dt><dd><em>rain barrels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>rain barrel</em>; the British say water butt.</dd></dl>
+<p>A large container that catches roof runoff for watering plants.</p>
+<ol><li>The <em>rain barrel</em> fills up in one good storm.</li><li>He put a <em>rain barrel</em> under each downspout.</li><li>Two <em>rain barrels</em> get us through most dry spells.</li></ol>
+<hr>
+<h3 id="arbor">arbor<a class="hash" href="#arbor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrbər/ &middot; <em>AR-bur</em></dd><dt>Русский</dt><dd>садовая арка, увитая зеленью</dd><dt>Plural</dt><dd><em>arbors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>arbor</em>, British arbour.</dd></dl>
+<p>An arched garden structure that vines are trained over.</p>
+<ol><li>They got married under a rose <em>arbor</em>.</li><li>The <em>arbor</em> marks the entrance to the back garden.</li><li>Both <em>arbors</em> need repainting.</li></ol>
+<hr>
+<h3 id="pergola">pergola<a class="hash" href="#pergola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɜːrɡələ/ &middot; <em>PUR-guh-luh</em></dd><dt>Русский</dt><dd>пергола</dd><dt>Plural</dt><dd><em>pergolas</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The stress is on the first syllable: PUR-guh-luh.</dd></dl>
+<p>An open frame of posts and crossbeams that shades a walk or patio.</p>
+<ol><li>Grapevines cover the whole <em>pergola</em> by August.</li><li>They built a <em>pergola</em> over the back patio.</li><li>Cedar <em>pergolas</em> hold up better than pine.</li></ol>
+<hr>
+<h3 id="flagstone">flagstone<a class="hash" href="#flagstone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæɡstoʊn/ &middot; <em>FLAG-stohn</em></dd><dt>Русский</dt><dd>плитняк, каменная плита</dd><dt>Plural</dt><dd><em>flagstones</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>Flat split stone used for paths and patios.</p>
+<ol><li>They laid a <em>flagstone</em> path from the driveway.</li><li>One <em>flagstone</em> cracked over the winter.</li><li>Moss grows in the gaps between the <em>flagstones</em>.</li></ol>
+<hr>
+<h3 id="picket-fence">picket fence<a class="hash" href="#picket-fence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɪkɪt ˈfɛns/ &middot; <em>pik-it FENS</em></dd><dt>Русский</dt><dd>штакетник</dd><dt>Plural</dt><dd><em>picket fences</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low fence of upright pointed boards with gaps between them.</p>
+<ol><li>A white <em>picket fence</em> runs across the front.</li><li>The <em>picket fence</em> needs painting every few years.</li><li>Roses grow along both <em>picket fences</em>.</li></ol>
+<hr>
+<h3 id="retaining-wall">retaining wall<a class="hash" href="#retaining-wall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈteɪnɪŋ wɔːl/ &middot; <em>rih-TAY-ning wawl</em></dd><dt>Русский</dt><dd>подпорная стенка</dd><dt>Plural</dt><dd><em>retaining walls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low wall built to hold back soil on a slope.</p>
+<ol><li>They put in a stone <em>retaining wall</em> to level the yard.</li><li>The <em>retaining wall</em> is starting to bow out.</li><li>Two low <em>retaining walls</em> turned the hill into terraces.</li></ol>
+<hr>
+<h3 id="edging">edging<a class="hash" href="#edging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdʒɪŋ/ &middot; <em>EJ-ing</em></dd><dt>Русский</dt><dd>бордюр (для клумбы или газона)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A border of brick, stone, or plastic set along a bed or path.</p>
+<ol><li>Brick <em>edging</em> keeps the mulch off the lawn.</li><li>He put plastic <em>edging</em> around every bed.</li><li>The <em>edging</em> has heaved up over the winter.</li></ol>
+<hr>
+<h3 id="garden-gnome">garden gnome<a class="hash" href="#garden-gnome" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdən noʊm/ &middot; <em>GAR-duhn nohm</em></dd><dt>Русский</dt><dd>садовый гном</dd><dt>Plural</dt><dd><em>garden gnomes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The g in <em>gnome</em> is silent: NOHM.</dd></dl>
+<p>A small statue of a bearded man used as a yard ornament.</p>
+<ol><li>There's a <em>garden gnome</em> under the birdbath.</li><li>Somebody stole the <em>garden gnome</em> off the porch.</li><li>She has eleven <em>garden gnomes</em> and counting.</li></ol>
+<hr>
+<h3 id="water-feature">water feature<a class="hash" href="#water-feature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər fiːtʃər/ &middot; <em>WAW-tur fee-chur</em></dd><dt>Русский</dt><dd>декоративный водоём или фонтан в саду</dd><dt>Plural</dt><dd><em>water features</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pond, fountain, or small waterfall built into a garden.</p>
+<ol><li>They put in a small <em>water feature</em> by the patio.</li><li>The <em>water feature</em> runs on a little pump.</li><li><em>Water features</em> attract more birds than a feeder does.</li></ol>
+<hr>
+<h3 id="garden-center">garden center<a class="hash" href="#garden-center" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrdən sɛntər/ &middot; <em>GAR-duhn sen-tur</em></dd><dt>Русский</dt><dd>садовый центр</dd><dt>Plural</dt><dd><em>garden centers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>center</em>, British centre.</dd></dl>
+<p>A store that sells plants, soil, and garden supplies.</p>
+<ol><li>The <em>garden center</em> is packed every Saturday in May.</li><li>I got the tomato starts at the <em>garden center</em>.</li><li>Both <em>garden centers</em> in town close for the winter.</li></ol>
+<hr>
+<h3 id="herb-garden">herb garden<a class="hash" href="#herb-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrb ɡɑːrdən/ &middot; <em>URB gar-duhn</em></dd><dt>Русский</dt><dd>грядка с пряными травами</dd><dt>Plural</dt><dd><em>herb gardens</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English the h in <em>herb</em> is silent: URB gar-duhn, not HURB.</dd></dl>
+<p>A small planting of cooking herbs.</p>
+<ol><li>The <em>herb garden</em> is right outside the kitchen door.</li><li>Mint took over half the <em>herb garden</em>.</li><li><em>Herb gardens</em> do fine in pots on a balcony.</li></ol>
+<hr>
+<h3 id="kitchen-garden">kitchen garden<a class="hash" href="#kitchen-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtʃən ɡɑːrdən/ &middot; <em>KICH-uhn gar-duhn</em></dd><dt>Русский</dt><dd>огород при доме</dd><dt>Plural</dt><dd><em>kitchen gardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small garden of vegetables and herbs grown for the household.</p>
+<ol><li>She keeps a <em>kitchen garden</em> right off the back steps.</li><li>A <em>kitchen garden</em> pays for itself in a season.</li><li>The old farmhouse had two <em>kitchen gardens</em>.</li></ol>
+<hr>
+<h3 id="rock-garden">rock garden<a class="hash" href="#rock-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːk ɡɑːrdən/ &middot; <em>RAHK gar-duhn</em></dd><dt>Русский</dt><dd>альпинарий, каменистый сад</dd><dt>Plural</dt><dd><em>rock gardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A garden of stones planted with small tough plants that like dry soil.</p>
+<ol><li>The slope became a <em>rock garden</em>.</li><li>Nothing but weeds grows in that <em>rock garden</em> now.</li><li><em>Rock gardens</em> need almost no watering.</li></ol>
+<hr>
+<h3 id="community-garden">community garden<a class="hash" href="#community-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːnəti ɡɑːrdən/ &middot; <em>kuh-MYOO-nuh-tee gar-duhn</em></dd><dt>Русский</dt><dd>общественный сад-огород</dd><dt>Plural</dt><dd><em>community gardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shared piece of land divided into plots that people rent to grow food.</p>
+<ol><li>We got a plot at the <em>community garden</em> on Elm.</li><li>The <em>community garden</em> has a waiting list two years long.</li><li>The city runs four <em>community gardens</em>.</li></ol>
+<hr>
+<h3 id="botanical-garden">botanical garden<a class="hash" href="#botanical-garden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bəˈtænɪkəl ɡɑːrdən/ &middot; <em>buh-TAN-ih-kuhl gar-duhn</em></dd><dt>Русский</dt><dd>ботанический сад</dd><dt>Plural</dt><dd><em>botanical gardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A public garden where many kinds of plants are grown and labeled.</p>
+<ol><li>The <em>botanical garden</em> is free on Tuesdays.</li><li>We spent the afternoon at the <em>botanical garden</em>.</li><li>Most big cities have <em>botanical gardens</em>.</li></ol>
+<hr>
+<h3 id="arboretum">arboretum<a class="hash" href="#arboretum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːrbəˈriːtəm/ &middot; <em>ar-buh-REE-tuhm</em></dd><dt>Русский</dt><dd>дендрарий</dd><dt>Plural</dt><dd><em>arboretums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>arboretums</em> or, more formally, arboreta.</dd></dl>
+<p>A park where trees are grown and studied.</p>
+<ol><li>The <em>arboretum</em> has a hundred kinds of maple.</li><li>We walk the <em>arboretum</em> every fall for the color.</li><li>University <em>arboretums</em> are usually open to the public.</li></ol>
+<hr>
+<h3 id="green-thumb">green thumb<a class="hash" href="#green-thumb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡriːn ˈθʌm/ &middot; <em>green THUM</em></dd><dt>Русский</dt><dd>талант к садоводству</dd><dt>Plural</dt><dd><em>green thumbs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in <em>thumb</em> is silent, and the British say green fingers instead.</dd></dl>
+<p>A natural skill for making plants grow well.</p>
+<ol><li>She has a real <em>green thumb</em>.</li><li>I do not have a <em>green thumb</em> — I've killed three cactuses.</li><li>It takes a <em>green thumb</em> to keep orchids blooming.</li></ol>
+<hr>
+<h3 id="planting-season">planting season<a class="hash" href="#planting-season" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæntɪŋ siːzən/ &middot; <em>PLAN-ting see-zuhn</em></dd><dt>Русский</dt><dd>посадочный сезон</dd><dt>Plural</dt><dd><em>planting seasons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The time of year when things are put in the ground.</p>
+<ol><li>The nursery hires extra people for <em>planting season</em>.</li><li>Fall is the better <em>planting season</em> for trees.</li><li>We've missed two <em>planting seasons</em> in a row.</li></ol>
+<hr>
+<h3 id="hardiness-zone">hardiness zone<a class="hash" href="#hardiness-zone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrdinəs zoʊn/ &middot; <em>HAR-dee-nuhs zohn</em></dd><dt>Русский</dt><dd>зона морозостойкости</dd><dt>Plural</dt><dd><em>hardiness zones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A numbered region based on how cold the winter gets, used to pick plants.</p>
+<ol><li>We're in <em>hardiness zone</em> six.</li><li>Check the <em>hardiness zone</em> on the tag before you buy.</li><li>The map splits the country into thirteen <em>hardiness zones</em>.</li></ol>
+<hr>
+<h3 id="drip-irrigation">drip irrigation<a class="hash" href="#drip-irrigation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/drɪp ˌɪrəˈɡeɪʃən/ &middot; <em>drip ir-uh-GAY-shuhn</em></dd><dt>Русский</dt><dd>капельный полив</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A system of thin tubes that drips water slowly right at the roots.</p>
+<ol><li><em>Drip irrigation</em> cut our water bill way down.</li><li>He put <em>drip irrigation</em> in all four raised beds.</li><li>With <em>drip irrigation</em> the leaves stay dry.</li></ol>
+<hr>
+<h3 id="soaker-hose">soaker hose<a class="hash" href="#soaker-hose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊkər hoʊz/ &middot; <em>SOH-kur hohz</em></dd><dt>Русский</dt><dd>шланг сочащегося полива</dd><dt>Plural</dt><dd><em>soaker hoses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A porous hose that lets water seep out along its whole length.</p>
+<ol><li>Snake a <em>soaker hose</em> down the middle of the row.</li><li>The <em>soaker hose</em> is buried under the mulch.</li><li>Two <em>soaker hoses</em> cover the whole bed.</li></ol>
+<hr>
+<h3 id="sprinkler-system">sprinkler system<a class="hash" href="#sprinkler-system" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsprɪŋklər sɪstəm/ &middot; <em>SPRING-klur sis-tuhm</em></dd><dt>Русский</dt><dd>система автоматического полива</dd><dt>Plural</dt><dd><em>sprinkler systems</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of buried pipes and pop-up heads that waters a lawn automatically.</p>
+<ol><li>The <em>sprinkler system</em> comes on at five a.m.</li><li>We had the <em>sprinkler system</em> blown out before the freeze.</li><li>New <em>sprinkler systems</em> run off a phone app.</li></ol>
+<hr>
+<h3 id="aeration">aeration<a class="hash" href="#aeration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛˈreɪʃən/ &middot; <em>ehr-AY-shuhn</em></dd><dt>Русский</dt><dd>аэрация (газона)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pulling of small plugs of soil out of a lawn to let in air and water.</p>
+<ol><li>The lawn is due for <em>aeration</em> this fall.</li><li><em>Aeration</em> helps most on hard clay.</li><li>They charge about a hundred dollars for <em>aeration</em>.</li></ol>
+<hr>
+<h3 id="deadheading">deadheading<a class="hash" href="#deadheading" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛdhɛdɪŋ/ &middot; <em>DED-hed-ing</em></dd><dt>Русский</dt><dd>удаление отцветших цветков</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The removal of faded flowers so a plant keeps blooming.</p>
+<ol><li>A little <em>deadheading</em> keeps the petunias going all summer.</li><li>She does the <em>deadheading</em> with her morning coffee.</li><li>Without <em>deadheading</em> they set seed and quit.</li></ol>
+<hr>
+<h3 id="thinning">thinning<a class="hash" href="#thinning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪnɪŋ/ &middot; <em>THIN-ing</em></dd><dt>Русский</dt><dd>прореживание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pulling out of extra seedlings so the rest have room.</p>
+<ol><li>The carrots need <em>thinning</em> or you'll get nothing but tops.</li><li><em>Thinning</em> feels wasteful, but it doubles the crop.</li><li>Do the <em>thinning</em> when the plants are two inches tall.</li></ol>
+<hr>
+<h3 id="propagation">propagation<a class="hash" href="#propagation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌprɑːpəˈɡeɪʃən/ &middot; <em>prah-puh-GAY-shuhn</em></dd><dt>Русский</dt><dd>размножение растений</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The growing of new plants from seeds, cuttings, or division.</p>
+<ol><li><em>Propagation</em> by cuttings is the fastest way to fill a bed.</li><li>The class covers seed starting and <em>propagation</em>.</li><li>She keeps a whole shelf for <em>propagation</em>.</li></ol>
+<hr>
+<h3 id="pollination">pollination<a class="hash" href="#pollination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːləˈneɪʃən/ &middot; <em>pah-luh-NAY-shuhn</em></dd><dt>Русский</dt><dd>опыление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The carrying of pollen to a flower so it can make fruit or seed.</p>
+<ol><li>No bees, no <em>pollination</em>, no squash.</li><li>You can do the <em>pollination</em> by hand with a small brush.</li><li>Wind handles the <em>pollination</em> for corn.</li></ol>
+<hr>
+<h3 id="photosynthesis">photosynthesis<a class="hash" href="#photosynthesis" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfoʊtoʊˈsɪnθəsɪs/ &middot; <em>foh-toh-SIN-thuh-sis</em></dd><dt>Русский</dt><dd>фотосинтез</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process by which green plants make food out of light, air, and water.</p>
+<ol><li>Leaves in deep shade barely do any <em>photosynthesis</em>.</li><li><em>Photosynthesis</em> slows down when it gets too hot.</li><li>Dust on the leaves cuts down <em>photosynthesis</em>.</li></ol>
+<hr>
+<h3 id="horticulturist">horticulturist<a class="hash" href="#horticulturist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɔːrtəˈkʌltʃərɪst/ &middot; <em>hor-tuh-KUL-chur-ist</em></dd><dt>Русский</dt><dd>садовод-специалист</dd><dt>Plural</dt><dd><em>horticulturists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trained expert in growing plants.</p>
+<ol><li>The city <em>horticulturist</em> picked the street trees.</li><li>Ask a <em>horticulturist</em> before you cut that back.</li><li>Two <em>horticulturists</em> run the whole display garden.</li></ol>
+<hr>
+<h3 id="landscaper">landscaper<a class="hash" href="#landscaper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændskeɪpər/ &middot; <em>LAND-skay-pur</em></dd><dt>Русский</dt><dd>ландшафтный озеленитель</dd><dt>Plural</dt><dd><em>landscapers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is designing and taking care of yards and grounds.</p>
+<ol><li>We hired a <em>landscaper</em> to redo the front.</li><li>The <em>landscaper</em> said the soil had to be replaced.</li><li><em>Landscapers</em> are booked solid all spring.</li></ol>
+<hr>
+<h3 id="groundskeeper">groundskeeper<a class="hash" href="#groundskeeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡraʊndzkiːpər/ &middot; <em>GROWNDZ-kee-pur</em></dd><dt>Русский</dt><dd>садовник, смотритель территории</dd><dt>Plural</dt><dd><em>groundskeepers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who maintains the lawns and grounds of a large property.</p>
+<ol><li>The <em>groundskeeper</em> has the field cut by six in the morning.</li><li>Talk to the <em>groundskeeper</em> about the sprinklers.</li><li>The campus employs six <em>groundskeepers</em>.</li></ol>
+<hr>
+<h3 id="arborist">arborist<a class="hash" href="#arborist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrbərɪst/ &middot; <em>AR-bur-ist</em></dd><dt>Русский</dt><dd>арборист, специалист по уходу за деревьями</dd><dt>Plural</dt><dd><em>arborists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans hire an <em>arborist</em>; the British often say tree surgeon.</dd></dl>
+<p>A specialist in the care and pruning of trees.</p>
+<ol><li>Get an <em>arborist</em> to look at that split trunk.</li><li>The <em>arborist</em> said the oak could be saved.</li><li>Certified <em>arborists</em> charge more, and they're worth it.</li></ol>
+<hr>
+<h3 id="rot">rot<a class="hash" href="#rot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɑːt/ &middot; <em>RAHT</em></dd><dt>Русский</dt><dd>гниль</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Soft decay in a plant caused by too much moisture or disease.</p>
+<ol><li>The bulbs sat in wet soil and went to <em>rot</em>.</li><li>Root <em>rot</em> killed both of my houseplants.</li><li>Cut away the <em>rot</em> and repot what's left.</li></ol>
+<hr>
+<h3 id="weed-killer">weed killer<a class="hash" href="#weed-killer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːd kɪlər/ &middot; <em>WEED kil-ur</em></dd><dt>Русский</dt><dd>средство от сорняков</dd><dt>Plural</dt><dd><em>weed killers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A product sprayed on unwanted plants to kill them.</p>
+<ol><li>Don't use <em>weed killer</em> that close to the vegetables.</li><li>The <em>weed killer</em> took three days to work.</li><li>Most <em>weed killers</em> won't touch a dandelion root.</li></ol>
+<hr>
+<h3 id="bumper-crop">bumper crop<a class="hash" href="#bumper-crop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbʌmpər ˈkrɑːp/ &middot; <em>bum-pur KRAHP</em></dd><dt>Русский</dt><dd>небывалый урожай</dd><dt>Plural</dt><dd><em>bumper crops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An unusually large harvest.</p>
+<ol><li>We had a <em>bumper crop</em> of zucchini and gave most of it away.</li><li>The wet spring gave everybody a <em>bumper crop</em>.</li><li>Two <em>bumper crops</em> in a row is almost unheard of.</li></ol>
+<hr>
+<h3 id="bonsai">bonsai<a class="hash" href="#bonsai" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊnˈsaɪ/ &middot; <em>bohn-SY</em></dd><dt>Русский</dt><dd>бонсай</dd><dt>Plural</dt><dd><em>bonsai</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is usually <em>bonsai</em>, unchanged.</dd></dl>
+<p>A tree kept tiny in a shallow pot by careful pruning.</p>
+<ol><li>His <em>bonsai</em> is older than he is.</li><li>A <em>bonsai</em> has to be watered almost every day.</li><li>She keeps four <em>bonsai</em> on the windowsill.</li></ol>
+<hr>
+<h3 id="topiary">topiary<a class="hash" href="#topiary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊpiɛri/ &middot; <em>TOH-pee-eh-ree</em></dd><dt>Русский</dt><dd>фигурно подстриженный куст</dd><dt>Plural</dt><dd><em>topiaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shrub clipped into a decorative shape.</p>
+<ol><li>There's a <em>topiary</em> shaped like a rabbit by the gate.</li><li>The <em>topiaries</em> get trimmed twice a summer.</li><li>One overgrown <em>topiary</em> is just a bush again.</li></ol>
+<hr>
+<h3 id="hydroponics">hydroponics<a class="hash" href="#hydroponics" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪdrəˈpɑːnɪks/ &middot; <em>hy-druh-PAH-niks</em></dd><dt>Русский</dt><dd>гидропоника</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Ends in -s but takes a singular verb: <em>hydroponics</em> is expensive to set up.</dd></dl>
+<p>Growing plants in water and nutrients instead of soil.</p>
+<ol><li>The lettuce at that farm is all <em>hydroponics</em>.</li><li><em>Hydroponics</em> uses far less water than field growing.</li><li>He got into <em>hydroponics</em> to grow greens in the basement.</li></ol>
+<hr>
+<h3 id="lattice">lattice<a class="hash" href="#lattice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlætɪs/ &middot; <em>LAT-is</em></dd><dt>Русский</dt><dd>решётчатая панель, решётка</dd><dt>Plural</dt><dd><em>lattices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A panel of thin strips crossed in a diamond pattern, used for screens and climbing plants.</p>
+<ol><li>He nailed a <em>lattice</em> under the porch to hide the crawl space.</li><li>The clematis has covered the whole <em>lattice</em>.</li><li>Vinyl <em>lattices</em> don't rot the way wood ones do.</li></ol>
+<hr>
+<h3 id="row-cover">row cover<a class="hash" href="#row-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊ kʌvər/ &middot; <em>ROH kuv-ur</em></dd><dt>Русский</dt><dd>укрывной материал, агроволокно</dd><dt>Plural</dt><dd><em>row covers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Row</em> here rhymes with go, not with cow.</dd></dl>
+<p>A light cloth laid over plants to hold in warmth and keep insects off.</p>
+<ol><li>Throw a <em>row cover</em> over the beans before the frost.</li><li>The <em>row cover</em> is held down with bricks.</li><li><em>Row covers</em> have to come off once the plants flower.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

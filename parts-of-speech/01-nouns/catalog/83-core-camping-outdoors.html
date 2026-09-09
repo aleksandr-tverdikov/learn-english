@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: camping and the outdoors</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-camping-and-the-outdoors">Core vocabulary: camping and the outdoors<a class="hash" href="#core-vocabulary-camping-and-the-outdoors" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of camping and the outdoors — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="campground">campground<a class="hash" href="#campground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpɡraʊnd/ &middot; <em>KAMP-grownd</em></dd><dt>Русский</dt><dd>кемпинг, оборудованная площадка для палаток</dd><dt>Plural</dt><dd><em>campgrounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area set aside for people to camp, usually with numbered sites and restrooms.</p>
+<ol><li>The <em>campground</em> fills up fast on holiday weekends.</li><li>There are two <em>campgrounds</em> on the north side of the lake.</li><li>We pulled into the <em>campground</em> just before dark.</li></ol>
+<hr>
+<h3 id="tent-site">tent site<a class="hash" href="#tent-site" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛnt saɪt/ &middot; <em>TENT-syt</em></dd><dt>Русский</dt><dd>место под палатку (на кемпинге)</dd><dt>Plural</dt><dd><em>tent sites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A numbered spot at a campground where you may pitch a tent.</p>
+<ol><li>We reserved a <em>tent site</em> near the water.</li><li>The walk-in <em>tent sites</em> are quieter.</li><li>Our <em>tent site</em> had a flat patch of gravel.</li></ol>
+<hr>
+<h3 id="sleeping-bag">sleeping bag<a class="hash" href="#sleeping-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːpɪŋ bæɡ/ &middot; <em>SLEE-ping-bag</em></dd><dt>Русский</dt><dd>спальный мешок, спальник</dd><dt>Plural</dt><dd><em>sleeping bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A padded bag you zip yourself into to sleep outdoors.</p>
+<ol><li>My <em>sleeping bag</em> is rated for twenty degrees.</li><li>We hung the <em>sleeping bags</em> out to dry.</li><li>He crawled into his <em>sleeping bag</em> without taking his socks off.</li></ol>
+<hr>
+<h3 id="hiker">hiker<a class="hash" href="#hiker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪkər/ &middot; <em>HY-kur</em></dd><dt>Русский</dt><dd>турист-пешеходник, походник</dd><dt>Plural</dt><dd><em>hikers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who walks long distances in the countryside for pleasure.</p>
+<ol><li>A <em>hiker</em> passed us going the other way.</li><li>The trail was full of <em>hikers</em> by ten in the morning.</li><li>An experienced <em>hiker</em> always checks the forecast.</li></ol>
+<hr>
+<h3 id="backpacking">backpacking<a class="hash" href="#backpacking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækpækɪŋ/ &middot; <em>BAK-pak-ing</em></dd><dt>Русский</dt><dd>пеший поход с рюкзаком и ночёвками</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of hiking into the wilderness carrying everything you need on your back.</p>
+<ol><li>We got into <em>backpacking</em> the summer after college.</li><li><em>Backpacking</em> teaches you how little you actually need.</li><li>She bought a lighter stove for <em>backpacking</em>.</li></ol>
+<hr>
+<h3 id="trailhead">trailhead<a class="hash" href="#trailhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪlhɛd/ &middot; <em>TRAYL-hed</em></dd><dt>Русский</dt><dd>начало тропы, вход на маршрут</dd><dt>Plural</dt><dd><em>trailheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place where a trail starts, usually with a parking lot and a sign.</p>
+<ol><li>We left the car at the <em>trailhead</em>.</li><li>Both <em>trailheads</em> were closed for repairs.</li><li>There's a map posted at the <em>trailhead</em>.</li></ol>
+<hr>
+<h3 id="hiking-trail">hiking trail<a class="hash" href="#hiking-trail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪkɪŋ treɪl/ &middot; <em>HY-king-trayl</em></dd><dt>Русский</dt><dd>пешеходная тропа</dd><dt>Plural</dt><dd><em>hiking trails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A marked path through country or forest made for walking.</p>
+<ol><li>This <em>hiking trail</em> runs eight miles along the ridge.</li><li>The park has <em>hiking trails</em> for every ability.</li><li>The <em>hiking trail</em> was muddy after all that rain.</li></ol>
+<hr>
+<h3 id="tent-pole">tent pole<a class="hash" href="#tent-pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛnt poʊl/ &middot; <em>TENT-pohl</em></dd><dt>Русский</dt><dd>стойка (дуга) палатки</dd><dt>Plural</dt><dd><em>tent poles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light rod that holds up the fabric of a tent.</p>
+<ol><li>One <em>tent pole</em> snapped in the wind.</li><li>The <em>tent poles</em> fold up into a short bundle.</li><li>Thread the <em>tent pole</em> through the sleeve first.</li></ol>
+<hr>
+<h3 id="tent-stake">tent stake<a class="hash" href="#tent-stake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛnt steɪk/ &middot; <em>TENT-stayk</em></dd><dt>Русский</dt><dd>колышек для палатки</dd><dt>Plural</dt><dd><em>tent stakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short spike driven into the ground to hold a tent down.</p>
+<ol><li>I hammered the last <em>tent stake</em> in with a rock.</li><li>We lost two <em>tent stakes</em> in the tall grass.</li><li>The ground was too hard for a <em>tent stake</em>.</li></ol>
+<hr>
+<h3 id="rainfly">rainfly<a class="hash" href="#rainfly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪnflaɪ/ &middot; <em>RAYN-fly</em></dd><dt>Русский</dt><dd>тент от дождя (над палаткой)</dd><dt>Plural</dt><dd><em>rainflies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The waterproof sheet that goes over a tent to keep the rain off.</p>
+<ol><li>Put the <em>rainfly</em> on before you go to bed.</li><li>Cheap <em>rainflies</em> leak at the seams.</li><li>Water was pooling on top of the <em>rainfly</em>.</li></ol>
+<hr>
+<h3 id="guy-line">guy line<a class="hash" href="#guy-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡaɪ laɪn/ &middot; <em>GY-lyn</em></dd><dt>Русский</dt><dd>оттяжка (палатки)</dd><dt>Plural</dt><dd><em>guy lines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Guy is said GY, like the word for a man, but here it means a steadying rope.</dd></dl>
+<p>A cord running from a tent to the ground to steady it in wind.</p>
+<ol><li>Tighten that <em>guy line</em> on the windward side.</li><li>I tripped over one of the <em>guy lines</em> in the dark.</li><li>A loose <em>guy line</em> lets the tent flap all night.</li></ol>
+<hr>
+<h3 id="paracord">paracord<a class="hash" href="#paracord" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrəkɔːrd/ &middot; <em>PAIR-uh-kord</em></dd><dt>Русский</dt><dd>паракорд, прочный шнур</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin strong nylon cord used for a hundred jobs around camp.</p>
+<ol><li>I keep fifty feet of <em>paracord</em> in my pack.</li><li>We hung the food bag with <em>paracord</em>.</li><li>A little <em>paracord</em> fixed the broken strap.</li></ol>
+<hr>
+<h3 id="tarp">tarp<a class="hash" href="#tarp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɑːrp/ &middot; <em>TARP</em></dd><dt>Русский</dt><dd>брезент, тент</dd><dt>Plural</dt><dd><em>tarps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large sheet of waterproof material used as cover or shelter.</p>
+<ol><li>We strung a <em>tarp</em> over the picnic table.</li><li>Two <em>tarps</em> kept the firewood dry.</li><li>Spread the <em>tarp</em> under the tent.</li></ol>
+<hr>
+<h3 id="sleeping-pad">sleeping pad<a class="hash" href="#sleeping-pad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːpɪŋ pæd/ &middot; <em>SLEE-ping-pad</em></dd><dt>Русский</dt><dd>туристический коврик, каремат</dd><dt>Plural</dt><dd><em>sleeping pads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin mat that insulates you from the ground while you sleep.</p>
+<ol><li>My <em>sleeping pad</em> went flat around midnight.</li><li>Foam <em>sleeping pads</em> never puncture.</li><li>Roll the <em>sleeping pad</em> out under your bag.</li></ol>
+<hr>
+<h3 id="bedroll">bedroll<a class="hash" href="#bedroll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛdroʊl/ &middot; <em>BED-rohl</em></dd><dt>Русский</dt><dd>скатка, спальные принадлежности</dd><dt>Plural</dt><dd><em>bedrolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Bedding rolled into a bundle for carrying and sleeping outdoors.</p>
+<ol><li>He tied his <em>bedroll</em> to the back of the saddle.</li><li>Our <em>bedrolls</em> were still damp in the morning.</li><li>She unrolled her <em>bedroll</em> next to the fire.</li></ol>
+<hr>
+<h3 id="air-mattress">air mattress<a class="hash" href="#air-mattress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌmætrɪs/ &middot; <em>AIR-mat-ris</em></dd><dt>Русский</dt><dd>надувной матрас</dd><dt>Plural</dt><dd><em>air mattresses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An inflatable mattress you blow up to sleep on.</p>
+<ol><li>The <em>air mattress</em> went soft around three in the morning.</li><li>We packed two <em>air mattresses</em> for the tent.</li><li>Pump up the <em>air mattress</em> before it gets dark.</li></ol>
+<hr>
+<h3 id="lantern">lantern<a class="hash" href="#lantern" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæntərn/ &middot; <em>LAN-turn</em></dd><dt>Русский</dt><dd>фонарь (переносной), лампа</dd><dt>Plural</dt><dd><em>lanterns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A portable light in a case that you can carry or hang up.</p>
+<ol><li>Hang the <em>lantern</em> from the tent pole.</li><li>Both <em>lanterns</em> run on the same batteries.</li><li>The <em>lantern</em> threw shadows all over the campsite.</li></ol>
+<hr>
+<h3 id="headlamp">headlamp<a class="hash" href="#headlamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdlæmp/ &middot; <em>HED-lamp</em></dd><dt>Русский</dt><dd>налобный фонарь</dd><dt>Plural</dt><dd><em>headlamps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>For a car, Americans say headlight; a headlamp is the one you wear.</dd></dl>
+<p>A small light on an elastic band worn on your forehead.</p>
+<ol><li>A <em>headlamp</em> leaves both your hands free.</li><li>We hiked the last mile by <em>headlamp</em>.</li><li>Pack spare batteries for your <em>headlamp</em>.</li></ol>
+<hr>
+<h3 id="water-filter">water filter<a class="hash" href="#water-filter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌfɪltər/ &middot; <em>WAW-tur-fil-tur</em></dd><dt>Русский</dt><dd>фильтр для воды</dd><dt>Plural</dt><dd><em>water filters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that makes stream or lake water safe to drink.</p>
+<ol><li>Run it through the <em>water filter</em> first.</li><li>Backpacking <em>water filters</em> have gotten a lot lighter.</li><li>The <em>water filter</em> clogged up with silt.</li></ol>
+<hr>
+<h3 id="potable-water">potable water<a class="hash" href="#potable-water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpoʊtəbəl ˈwɔːtər/ &middot; <em>POH-tuh-buhl WAW-tur</em></dd><dt>Русский</dt><dd>питьевая вода</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Said POH-tuh-buhl, not POT-uh-buhl.</dd></dl>
+<p>Water that is safe to drink.</p>
+<ol><li>There's no <em>potable water</em> past this point.</li><li>The sign said the spigot was <em>potable water</em>.</li><li>Carry enough <em>potable water</em> for two days.</li></ol>
+<hr>
+<h3 id="camp-stove">camp stove<a class="hash" href="#camp-stove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmp stoʊv/ &middot; <em>KAMP-stohv</em></dd><dt>Русский</dt><dd>походная плитка</dd><dt>Plural</dt><dd><em>camp stoves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small portable burner for cooking outdoors.</p>
+<ol><li>The <em>camp stove</em> boils a liter in three minutes.</li><li>Both <em>camp stoves</em> use the same fuel.</li><li>Set the <em>camp stove</em> on level ground.</li></ol>
+<hr>
+<h3 id="mess-kit">mess kit<a class="hash" href="#mess-kit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛs kɪt/ &middot; <em>MES-kit</em></dd><dt>Русский</dt><dd>походный набор посуды</dd><dt>Plural</dt><dd><em>mess kits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A nesting set of pots, plates and utensils for camp cooking.</p>
+<ol><li>Everything in the <em>mess kit</em> packs into the pot.</li><li>The kids each got their own <em>mess kits</em>.</li><li>Wash the <em>mess kit</em> away from the stream.</li></ol>
+<hr>
+<h3 id="spork">spork<a class="hash" href="#spork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spɔːrk/ &middot; <em>SPORK</em></dd><dt>Русский</dt><dd>ложка-вилка</dd><dt>Plural</dt><dd><em>sporks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A camping utensil that is a spoon at one end and a fork at the other.</p>
+<ol><li>I ate the whole dinner with a plastic <em>spork</em>.</li><li>We lost two <em>sporks</em> on that trip.</li><li>A titanium <em>spork</em> weighs almost nothing.</li></ol>
+<hr>
+<h3 id="multitool">multitool<a class="hash" href="#multitool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌltiˌtuːl/ &middot; <em>MUHL-tee-tool</em></dd><dt>Русский</dt><dd>мультитул</dd><dt>Plural</dt><dd><em>multitools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding hand tool with pliers, blades and other small tools built in.</p>
+<ol><li>He fixed the stove with his <em>multitool</em>.</li><li>Good <em>multitools</em> are heavy but worth it.</li><li>There's a bottle opener on the <em>multitool</em>.</li></ol>
+<hr>
+<h3 id="pocketknife">pocketknife<a class="hash" href="#pocketknife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːkɪtnaɪf/ &middot; <em>PAH-kit-nyf</em></dd><dt>Русский</dt><dd>карманный складной нож</dd><dt>Plural</dt><dd><em>pocketknives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k in knife is silent, and the plural is irregular: pocketknives.</dd></dl>
+<p>A small knife with blades that fold into the handle.</p>
+<ol><li>He whittled a stick with his <em>pocketknife</em>.</li><li>Both <em>pocketknives</em> need sharpening.</li><li>I always carry a <em>pocketknife</em> on the trail.</li></ol>
+<hr>
+<h3 id="hatchet">hatchet<a class="hash" href="#hatchet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhætʃɪt/ &middot; <em>HACH-it</em></dd><dt>Русский</dt><dd>топорик</dd><dt>Plural</dt><dd><em>hatchets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small axe you can swing with one hand.</p>
+<ol><li>Split the kindling with the <em>hatchet</em>.</li><li>We keep two <em>hatchets</em> in the camp box.</li><li>Keep the <em>hatchet</em> in its sheath when it's not in use.</li></ol>
+<hr>
+<h3 id="axe">axe<a class="hash" href="#axe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æks/ &middot; <em>AKS</em></dd><dt>Русский</dt><dd>топор</dd><dt>Plural</dt><dd><em>axes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans often spell it ax. The plural axes is said AK-siz here, but AK-seez when it means more than one axis.</dd></dl>
+<p>A tool with a heavy blade on a long handle for chopping wood.</p>
+<ol><li>The <em>axe</em> was stuck in a stump behind the cabin.</li><li>Both <em>axes</em> could use sharpening.</li><li>He swung the <em>axe</em> and split the log clean through.</li></ol>
+<hr>
+<h3 id="ice-axe">ice axe<a class="hash" href="#ice-axe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs æks/ &middot; <em>EYES-aks</em></dd><dt>Русский</dt><dd>ледоруб</dd><dt>Plural</dt><dd><em>ice axes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Often spelled ice ax in American English.</dd></dl>
+<p>A climber's tool with a pick and a shaft, used on snow and ice.</p>
+<ol><li>She stopped her slide with the <em>ice axe</em>.</li><li>Two <em>ice axes</em> were strapped to his pack.</li><li>You need an <em>ice axe</em> above the snowline.</li></ol>
+<hr>
+<h3 id="trekking-pole">trekking pole<a class="hash" href="#trekking-pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛkɪŋ poʊl/ &middot; <em>TREK-ing-pohl</em></dd><dt>Русский</dt><dd>треккинговая палка</dd><dt>Plural</dt><dd><em>trekking poles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An adjustable walking pole that takes weight off your knees on a trail.</p>
+<ol><li>One <em>trekking pole</em> is better than none.</li><li>My <em>trekking poles</em> collapse down to fit in the pack.</li><li>Shorten your <em>trekking pole</em> on the way up.</li></ol>
+<hr>
+<h3 id="daypack">daypack<a class="hash" href="#daypack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪpæk/ &middot; <em>DAY-pak</em></dd><dt>Русский</dt><dd>небольшой рюкзак на день</dd><dt>Plural</dt><dd><em>daypacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small backpack big enough for one day's water, food and jacket.</p>
+<ol><li>A twenty-liter <em>daypack</em> is plenty.</li><li>Leave the big packs and take <em>daypacks</em> up to the summit.</li><li>My <em>daypack</em> weighs almost nothing empty.</li></ol>
+<hr>
+<h3 id="dry-bag">dry bag<a class="hash" href="#dry-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪ bæɡ/ &middot; <em>DRY-bag</em></dd><dt>Русский</dt><dd>гермомешок</dd><dt>Plural</dt><dd><em>dry bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waterproof bag that rolls shut to keep gear dry.</p>
+<ol><li>Put the camera in a <em>dry bag</em>.</li><li>We lashed two <em>dry bags</em> to the raft.</li><li>Everything in the <em>dry bag</em> stayed perfectly dry.</li></ol>
+<hr>
+<h3 id="stuff-sack">stuff sack<a class="hash" href="#stuff-sack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstʌf sæk/ &middot; <em>STUHF-sak</em></dd><dt>Русский</dt><dd>мешок для вещей, чехол</dd><dt>Plural</dt><dd><em>stuff sacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small bag with a drawstring for packing gear into a backpack.</p>
+<ol><li>My sleeping bag lives in a red <em>stuff sack</em>.</li><li>Color-coded <em>stuff sacks</em> keep things easy to find.</li><li>Everything went into one <em>stuff sack</em>.</li></ol>
+<hr>
+<h3 id="first-aid-kit">first aid kit<a class="hash" href="#first-aid-kit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɜːrst ˈeɪd kɪt/ &middot; <em>furst-AYD-kit</em></dd><dt>Русский</dt><dd>аптечка</dd><dt>Plural</dt><dd><em>first aid kits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small box or pouch of bandages and medicine for treating injuries.</p>
+<ol><li>There's a <em>first aid kit</em> in the trunk.</li><li>Both <em>first aid kits</em> were missing tape.</li><li>Restock the <em>first aid kit</em> before every trip.</li></ol>
+<hr>
+<h3 id="space-blanket">space blanket<a class="hash" href="#space-blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspeɪs ˌblæŋkɪt/ &middot; <em>SPAYS-blang-kit</em></dd><dt>Русский</dt><dd>спасательное одеяло (фольгированное)</dd><dt>Plural</dt><dd><em>space blankets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin shiny sheet that reflects body heat, carried for emergencies.</p>
+<ol><li>A <em>space blanket</em> weighs two ounces and folds up tiny.</li><li>They wrapped him in two <em>space blankets</em>.</li><li>There's a <em>space blanket</em> in the bottom of my pack.</li></ol>
+<hr>
+<h3 id="insect-repellent">insect repellent<a class="hash" href="#insect-repellent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪnsɛkt rɪˈpɛlənt/ &middot; <em>IN-sekt rih-PEL-uhnt</em></dd><dt>Русский</dt><dd>средство от насекомых, репеллент</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid or spray put on skin or clothes to keep insects away.</p>
+<ol><li>Put on some <em>insect repellent</em> before dusk.</li><li>The <em>insect repellent</em> wore off after an hour.</li><li>We ran out of <em>insect repellent</em> on the second night.</li></ol>
+<hr>
+<h3 id="bear-spray">bear spray<a class="hash" href="#bear-spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛr spreɪ/ &middot; <em>BAIR-spray</em></dd><dt>Русский</dt><dd>спрей от медведей (перцовый)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong pepper spray carried for defense against bears.</p>
+<ol><li>Keep the <em>bear spray</em> on your hip, not in your pack.</li><li>Rangers sell <em>bear spray</em> at the visitor center.</li><li>He never hikes here without <em>bear spray</em>.</li></ol>
+<hr>
+<h3 id="bear-box">bear box<a class="hash" href="#bear-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɛr bɑːks/ &middot; <em>BAIR-bahks</em></dd><dt>Русский</dt><dd>металлический ящик для еды (от медведей)</dd><dt>Plural</dt><dd><em>bear boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal locker at a campsite where food is stored away from bears.</p>
+<ol><li>Everything with a smell goes in the <em>bear box</em>.</li><li>Each site has its own <em>bear box</em>.</li><li>He forgot to latch the <em>bear box</em> overnight.</li></ol>
+<hr>
+<h3 id="mosquito-net">mosquito net<a class="hash" href="#mosquito-net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈskiːtoʊ nɛt/ &middot; <em>muh-SKEE-toh-net</em></dd><dt>Русский</dt><dd>москитная сетка</dd><dt>Plural</dt><dd><em>mosquito nets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In mosquito the qu sounds like sk: muh-SKEE-toh.</dd></dl>
+<p>A fine mesh screen hung up to keep biting insects out.</p>
+<ol><li>The <em>mosquito net</em> over the door had a hole in it.</li><li>We slept under <em>mosquito nets</em> on the porch.</li><li>Zip the <em>mosquito net</em> shut behind you.</li></ol>
+<hr>
+<h3 id="rain-gear">rain gear<a class="hash" href="#rain-gear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn ɡɪr/ &middot; <em>RAYN-geer</em></dd><dt>Русский</dt><dd>дождевая одежда</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: never rain gears. Count it as pieces of rain gear.</dd></dl>
+<p>Waterproof clothing worn to stay dry outdoors.</p>
+<ol><li>Pack your <em>rain gear</em> even if the sky looks clear.</li><li>My <em>rain gear</em> is still hanging in the garage.</li><li>Everyone dug out <em>rain gear</em> when the clouds came over the ridge.</li></ol>
+<hr>
+<h3 id="walking-stick">walking stick<a class="hash" href="#walking-stick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːkɪŋ stɪk/ &middot; <em>WAW-king-stik</em></dd><dt>Русский</dt><dd>трость, посох</dd><dt>Plural</dt><dd><em>walking sticks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A walking stick is also the name of a thin insect that looks like a twig.</dd></dl>
+<p>A stick used for balance and support while walking.</p>
+<ol><li>He cut himself a <em>walking stick</em> from a fallen branch.</li><li>The old <em>walking sticks</em> by the door are for guests.</li><li>A <em>walking stick</em> helps a lot on the way down.</li></ol>
+<hr>
+<h3 id="fire-pit">fire pit<a class="hash" href="#fire-pit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr pɪt/ &middot; <em>FYR-pit</em></dd><dt>Русский</dt><dd>кострище, очаг для костра</dd><dt>Plural</dt><dd><em>fire pits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ring or hollow in the ground where a campfire is built.</p>
+<ol><li>Every site has a <em>fire pit</em> and a picnic table.</li><li>The old <em>fire pits</em> were full of ash and cans.</li><li>Keep the fire inside the <em>fire pit</em>.</li></ol>
+<hr>
+<h3 id="tinder">tinder<a class="hash" href="#tinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪndər/ &middot; <em>TIN-dur</em></dd><dt>Русский</dt><dd>трут, растопка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds close to tender, but tinder is what you light a fire with.</dd></dl>
+<p>Very dry material that catches a spark and starts a fire.</p>
+<ol><li>Dry grass makes good <em>tinder</em>.</li><li>We couldn't find any <em>tinder</em> after three days of rain.</li><li>He shredded some bark for <em>tinder</em>.</li></ol>
+<hr>
+<h3 id="fire-starter">fire starter<a class="hash" href="#fire-starter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌstɑːrtər/ &middot; <em>FYR-star-tur</em></dd><dt>Русский</dt><dd>средство для розжига</dd><dt>Plural</dt><dd><em>fire starters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small block, stick or tool used to get a fire going.</p>
+<ol><li>A wax <em>fire starter</em> burns even when it's wet.</li><li>He keeps a few <em>fire starters</em> in his pack.</li><li>Light the <em>fire starter</em> and stack the kindling over it.</li></ol>
+<hr>
+<h3 id="flint">flint<a class="hash" href="#flint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɪnt/ &middot; <em>FLINT</em></dd><dt>Русский</dt><dd>кремень</dd><dt>Plural</dt><dd><em>flints</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A hard gray stone that makes sparks when struck with steel.</p>
+<ol><li>He struck the <em>flint</em> until a spark caught.</li><li>The riverbed was full of <em>flints</em>.</li><li>You can start a fire with <em>flint</em> and a knife blade.</li></ol>
+<hr>
+<h3 id="lighter">lighter<a class="hash" href="#lighter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪtər/ &middot; <em>LY-tur</em></dd><dt>Русский</dt><dd>зажигалка</dd><dt>Plural</dt><dd><em>lighters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small device that makes a flame for lighting a fire or stove.</p>
+<ol><li>Does anybody have a <em>lighter</em>?</li><li>We brought two <em>lighters</em> and a box of matches.</li><li>The <em>lighter</em> wouldn't work in the wind.</li></ol>
+<hr>
+<h3 id="ember">ember<a class="hash" href="#ember" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛmbər/ &middot; <em>EM-bur</em></dd><dt>Русский</dt><dd>тлеющий уголёк</dd><dt>Plural</dt><dd><em>embers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small piece of glowing coal or wood left from a fire.</p>
+<ol><li>An <em>ember</em> popped out and burned a hole in his sleeve.</li><li>We cooked the potatoes right in the <em>embers</em>.</li><li>Pour water on every <em>ember</em> before you leave.</li></ol>
+<hr>
+<h3 id="woodpile">woodpile<a class="hash" href="#woodpile" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdpaɪl/ &middot; <em>WUUD-pyl</em></dd><dt>Русский</dt><dd>поленница</dd><dt>Plural</dt><dd><em>woodpiles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stack of cut wood kept for burning.</p>
+<ol><li>There's a <em>woodpile</em> behind the cabin.</li><li>Snow covered both <em>woodpiles</em>.</li><li>Grab a couple of logs off the <em>woodpile</em>.</li></ol>
+<hr>
+<h3 id="marshmallow">marshmallow<a class="hash" href="#marshmallow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrʃmɛloʊ/ &middot; <em>MARSH-mel-oh</em></dd><dt>Русский</dt><dd>маршмеллоу, зефир (для костра)</dd><dt>Plural</dt><dd><em>marshmallows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Most Americans say MARSH-mel-oh, not MARSH-mal-oh.</dd></dl>
+<p>A soft white candy that people toast over a campfire.</p>
+<ol><li>His <em>marshmallow</em> caught fire and fell in the coals.</li><li>The kids ate a whole bag of <em>marshmallows</em>.</li><li>Hold the <em>marshmallow</em> over the embers, not the flame.</li></ol>
+<hr>
+<h3 id="smore">s'more<a class="hash" href="#smore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smɔːr/ &middot; <em>SMOR</em></dd><dt>Русский</dt><dd>сморы (десерт из зефира, шоколада и крекеров)</dd><dt>Plural</dt><dd><em>s'mores</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written with an apostrophe: it is short for some more.</dd></dl>
+<p>A campfire treat of toasted marshmallow and chocolate between two crackers.</p>
+<ol><li>She ate one <em>s'more</em> and asked for another.</li><li>We make <em>s'mores</em> every night at camp.</li><li>You can't have a campfire without a <em>s'more</em>.</li></ol>
+<hr>
+<h3 id="trail-mix">trail mix<a class="hash" href="#trail-mix" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪl mɪks/ &middot; <em>TRAYL-miks</em></dd><dt>Русский</dt><dd>смесь орехов и сухофруктов (для похода)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: some trail mix or a bag of trail mix, never trail mixes.</dd></dl>
+<p>A snack mixture of nuts, dried fruit and sometimes candy, carried on hikes.</p>
+<ol><li>We split a bag of <em>trail mix</em> at the overlook.</li><li>There's <em>trail mix</em> in the side pocket.</li><li>He picks all the chocolate out of the <em>trail mix</em>.</li></ol>
+<hr>
+<h3 id="picnic-table">picnic table<a class="hash" href="#picnic-table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪknɪk ˌteɪbəl/ &middot; <em>PIK-nik-tay-buhl</em></dd><dt>Русский</dt><dd>стол для пикника</dd><dt>Plural</dt><dd><em>picnic tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wooden table with attached benches, set up outdoors.</p>
+<ol><li>We ate dinner at the <em>picnic table</em>.</li><li>All the <em>picnic tables</em> were taken by noon.</li><li>Somebody carved their initials into the <em>picnic table</em>.</li></ol>
+<hr>
+<h3 id="camp-chair">camp chair<a class="hash" href="#camp-chair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmp tʃɛr/ &middot; <em>KAMP-chair</em></dd><dt>Русский</dt><dd>складной стул (походный)</dd><dt>Plural</dt><dd><em>camp chairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light folding chair you take to a campsite.</p>
+<ol><li>He fell asleep in a <em>camp chair</em> by the fire.</li><li>The <em>camp chairs</em> fold into little bags.</li><li>Pull up a <em>camp chair</em> and sit down.</li></ol>
+<hr>
+<h3 id="campout">campout<a class="hash" href="#campout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpaʊt/ &middot; <em>KAMP-owt</em></dd><dt>Русский</dt><dd>ночёвка на природе</dd><dt>Plural</dt><dd><em>campouts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun; the verb is two words: we camped out.</dd></dl>
+<p>An overnight stay outdoors, often for a group of kids.</p>
+<ol><li>The troop has a <em>campout</em> every spring.</li><li>Rain washed out both <em>campouts</em> last year.</li><li>It was his first <em>campout</em> without his parents.</li></ol>
+<hr>
+<h3 id="camping-trip">camping trip<a class="hash" href="#camping-trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæmpɪŋ trɪp/ &middot; <em>KAM-ping-trip</em></dd><dt>Русский</dt><dd>поход с ночёвкой в палатке</dd><dt>Plural</dt><dd><em>camping trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip on which you sleep outdoors in a tent or camper.</p>
+<ol><li>We're planning a <em>camping trip</em> for Labor Day.</li><li>Their <em>camping trips</em> always end up in the same spot.</li><li>The <em>camping trip</em> got rained out.</li></ol>
+<hr>
+<h3 id="base-camp">base camp<a class="hash" href="#base-camp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪs kæmp/ &middot; <em>BAYS-kamp</em></dd><dt>Русский</dt><dd>базовый лагерь</dd><dt>Plural</dt><dd><em>base camps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main camp a party works out of on a long climb or expedition.</p>
+<ol><li>We rested two days at <em>base camp</em>.</li><li>Both <em>base camps</em> sat below the glacier.</li><li>They radioed <em>base camp</em> every evening at six.</li></ol>
+<hr>
+<h3 id="day-hike">day hike<a class="hash" href="#day-hike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdeɪ haɪk/ &middot; <em>DAY-hyk</em></dd><dt>Русский</dt><dd>однодневный поход</dd><dt>Plural</dt><dd><em>day hikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hike you finish and come back from in a single day.</p>
+<ol><li>It's an easy <em>day hike</em> to the falls.</li><li>The guidebook lists twenty <em>day hikes</em> near the city.</li><li>We only had time for a short <em>day hike</em>.</li></ol>
+<hr>
+<h3 id="outing">outing<a class="hash" href="#outing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtɪŋ/ &middot; <em>OW-ting</em></dd><dt>Русский</dt><dd>вылазка, прогулка</dd><dt>Plural</dt><dd><em>outings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short trip away from home for pleasure.</p>
+<ol><li>The whole family came on the <em>outing</em>.</li><li>Weekend <em>outings</em> to the lake are a tradition here.</li><li>Bad weather cut the <em>outing</em> short.</li></ol>
+<hr>
+<h3 id="trekking">trekking<a class="hash" href="#trekking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛkɪŋ/ &middot; <em>TREK-ing</em></dd><dt>Русский</dt><dd>треккинг, многодневный пеший поход</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Long-distance walking over rough country, often for several days.</p>
+<ol><li>Three weeks of <em>trekking</em> left him ten pounds lighter.</li><li><em>Trekking</em> at that altitude is slow going.</li><li>She bought new boots for the <em>trekking</em> season.</li></ol>
+<hr>
+<h3 id="thru-hiker">thru-hiker<a class="hash" href="#thru-hiker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθruːhaɪkər/ &middot; <em>THROO-hy-kur</em></dd><dt>Русский</dt><dd>турист, идущий длинный маршрут целиком</dd><dt>Plural</dt><dd><em>thru-hikers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Thru is a deliberate short spelling of through, used only in this hiking term.</dd></dl>
+<p>Someone walking an entire long trail end to end in one season.</p>
+<ol><li>A <em>thru-hiker</em> came through camp looking for a resupply.</li><li><em>Thru-hikers</em> start in Georgia in early spring.</li><li>The <em>thru-hiker</em> had been walking for four months.</li></ol>
+<hr>
+<h3 id="lean-to">lean-to<a class="hash" href="#lean-to" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːntuː/ &middot; <em>LEEN-too</em></dd><dt>Русский</dt><dd>навес, односкатный шалаш</dd><dt>Plural</dt><dd><em>lean-tos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Keep the hyphen, and the plural is lean-tos.</dd></dl>
+<p>A simple shelter with a sloping roof and one open side.</p>
+<ol><li>We slept in a <em>lean-to</em> to stay out of the rain.</li><li>There are three <em>lean-tos</em> along this stretch of trail.</li><li>He built a <em>lean-to</em> out of branches and a tarp.</li></ol>
+<hr>
+<h3 id="bivouac">bivouac<a class="hash" href="#bivouac" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪvəˌwæk/ &middot; <em>BIV-uh-wak</em></dd><dt>Русский</dt><dd>бивак, ночёвка без палатки</dd><dt>Plural</dt><dd><em>bivouacs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ou is just an uh sound: BIV-uh-wak.</dd></dl>
+<p>A rough overnight camp made without a tent.</p>
+<ol><li>They spent the night in a <em>bivouac</em> under an overhang.</li><li>Cold <em>bivouacs</em> are part of alpine climbing.</li><li>The storm turned our summit day into an unplanned <em>bivouac</em>.</li></ol>
+<hr>
+<h3 id="yurt">yurt<a class="hash" href="#yurt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jɜːrt/ &middot; <em>YURT</em></dd><dt>Русский</dt><dd>юрта</dd><dt>Plural</dt><dd><em>yurts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round tent on a wooden frame, rented at some campgrounds.</p>
+<ol><li>We booked a <em>yurt</em> instead of a tent site.</li><li>The park's <em>yurts</em> have beds and a small heater.</li><li>The <em>yurt</em> stayed warm all night.</li></ol>
+<hr>
+<h3 id="bunk">bunk<a class="hash" href="#bunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bʌŋk/ &middot; <em>BUHNK</em></dd><dt>Русский</dt><dd>койка, спальное место</dd><dt>Plural</dt><dd><em>bunks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow bed, often one of two stacked in a cabin or shelter.</p>
+<ol><li>I got the top <em>bunk</em> by the window.</li><li>The cabin sleeps eight in four <em>bunks</em>.</li><li>He was asleep in his <em>bunk</em> before nine.</li></ol>
+<hr>
+<h3 id="ranger">ranger<a class="hash" href="#ranger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪndʒər/ &middot; <em>RAYN-jur</em></dd><dt>Русский</dt><dd>рейнджер, смотритель парка</dd><dt>Plural</dt><dd><em>rangers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official who looks after a park or forest and the people in it.</p>
+<ol><li>A <em>ranger</em> checked our permit at the trailhead.</li><li>The <em>rangers</em> close the road when it ices over.</li><li>Ask the <em>ranger</em> where the bears have been active.</li></ol>
+<hr>
+<h3 id="wilderness-permit">wilderness permit<a class="hash" href="#wilderness-permit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪldərnəs ˌpɜːrmɪt/ &middot; <em>WIL-dur-nis-PUR-mit</em></dd><dt>Русский</dt><dd>разрешение на поход в заповедную зону</dd><dt>Plural</dt><dd><em>wilderness permits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun permit stresses the first syllable, PUR-mit; the verb per-MIT stresses the second.</dd></dl>
+<p>An official paper allowing you to hike or camp in a protected area.</p>
+<ol><li>You need a <em>wilderness permit</em> to sleep back there.</li><li><em>Wilderness permits</em> go fast in July.</li><li>We picked up our <em>wilderness permit</em> at the ranger station.</li></ol>
+<hr>
+<h3 id="national-park">national park<a class="hash" href="#national-park" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnæʃənəl ˈpɑːrk/ &middot; <em>nash-uh-nuhl-PARK</em></dd><dt>Русский</dt><dd>национальный парк</dd><dt>Plural</dt><dd><em>national parks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large protected area of land kept by the government for public use.</p>
+<ol><li>We spent a week in the <em>national park</em>.</li><li>The western <em>national parks</em> get crowded in July.</li><li>You need a pass to enter the <em>national park</em>.</li></ol>
+<hr>
+<h3 id="state-park">state park<a class="hash" href="#state-park" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsteɪt ˈpɑːrk/ &middot; <em>stayt-PARK</em></dd><dt>Русский</dt><dd>парк штата</dd><dt>Plural</dt><dd><em>state parks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A protected park run by a state rather than the federal government.</p>
+<ol><li>There's a nice <em>state park</em> twenty minutes from here.</li><li>Most <em>state parks</em> charge a small day-use fee.</li><li>The <em>state park</em> has cabins you can rent by the night.</li></ol>
+<hr>
+<h3 id="nature-preserve">nature preserve<a class="hash" href="#nature-preserve" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪtʃər prɪˌzɜːrv/ &middot; <em>NAY-chur-prih-zurv</em></dd><dt>Русский</dt><dd>заповедник</dd><dt>Plural</dt><dd><em>nature preserves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of land protected so that its plants and animals are left alone.</p>
+<ol><li>The <em>nature preserve</em> is open from dawn to dusk.</li><li>Dogs aren't allowed in most <em>nature preserves</em>.</li><li>A boardwalk runs through the <em>nature preserve</em>.</li></ol>
+<hr>
+<h3 id="visitor-center">visitor center<a class="hash" href="#visitor-center" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪzɪtər ˌsɛntər/ &middot; <em>VIZ-ih-tur-sen-tur</em></dd><dt>Русский</dt><dd>центр для посетителей (в парке)</dd><dt>Plural</dt><dd><em>visitor centers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans write center; the British write centre.</dd></dl>
+<p>A building at a park where you get maps, permits and information.</p>
+<ol><li>Stop at the <em>visitor center</em> for a trail map.</li><li>Both <em>visitor centers</em> close at five.</li><li>There's a small museum in the <em>visitor center</em>.</li></ol>
+<hr>
+<h3 id="nature-trail">nature trail<a class="hash" href="#nature-trail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪtʃər treɪl/ &middot; <em>NAY-chur-trayl</em></dd><dt>Русский</dt><dd>экологическая тропа</dd><dt>Plural</dt><dd><em>nature trails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short marked path with signs explaining the plants and animals along it.</p>
+<ol><li>The <em>nature trail</em> is a half mile loop.</li><li>Schools bring kids out to the <em>nature trails</em> every spring.</li><li>Numbered posts along the <em>nature trail</em> match the pamphlet.</li></ol>
+<hr>
+<h3 id="backcountry">backcountry<a class="hash" href="#backcountry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækˌkʌntri/ &middot; <em>BAK-kuhn-tree</em></dd><dt>Русский</dt><dd>глухая местность вдали от дорог</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Remote wild land far from roads and towns.</p>
+<ol><li>You need a permit to camp in the <em>backcountry</em>.</li><li>Cell service disappears once you're in the <em>backcountry</em>.</li><li>They spent five days in the <em>backcountry</em> without seeing anyone.</li></ol>
+<hr>
+<h3 id="backwoods">backwoods<a class="hash" href="#backwoods" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækwʊdz/ &middot; <em>BAK-wuudz</em></dd><dt>Русский</dt><dd>глушь, лесная глухомань</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always ends in -s; there is no singular a backwood.</dd></dl>
+<p>Thinly settled forest country far from any town.</p>
+<ol><li>He grew up in the <em>backwoods</em> of Maine.</li><li>There's a cabin out in the <em>backwoods</em> with no power.</li><li>The road into the <em>backwoods</em> washes out every spring.</li></ol>
+<hr>
+<h3 id="outdoors">outdoors<a class="hash" href="#outdoors" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/aʊtˈdɔːrz/ &middot; <em>owt-DORZ</em></dd><dt>Русский</dt><dd>природа, отдых на природе</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always ends in -s but takes a singular verb: the outdoors is.</dd></dl>
+<p>The open air and the natural world outside buildings.</p>
+<ol><li>He loves the great <em>outdoors</em>.</li><li>The <em>outdoors</em> is where those kids are happiest.</li><li>Two weeks in the <em>outdoors</em> did her a world of good.</li></ol>
+<hr>
+<h3 id="wilderness-area">wilderness area<a class="hash" href="#wilderness-area" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪldərnəs ˌɛriə/ &middot; <em>WIL-dur-nis-air-ee-uh</em></dd><dt>Русский</dt><dd>заповедная территория дикой природы</dd><dt>Plural</dt><dd><em>wilderness areas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Protected land where roads, vehicles and building are not allowed.</p>
+<ol><li>No bikes are allowed in the <em>wilderness area</em>.</li><li>Several <em>wilderness areas</em> border the park.</li><li>The trail crosses into the <em>wilderness area</em> at the pass.</li></ol>
+<hr>
+<h3 id="switchback">switchback<a class="hash" href="#switchback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪtʃbæk/ &middot; <em>SWICH-bak</em></dd><dt>Русский</dt><dd>серпантин, зигзаг тропы</dd><dt>Plural</dt><dd><em>switchbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sharp turn in a trail that zigzags up a steep slope.</p>
+<ol><li>There's a bench at the last <em>switchback</em>.</li><li>We counted forty <em>switchbacks</em> on the way up.</li><li>Don't cut the corner on a <em>switchback</em> — it wrecks the trail.</li></ol>
+<hr>
+<h3 id="bushwhacking">bushwhacking<a class="hash" href="#bushwhacking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊʃwækɪŋ/ &middot; <em>BUUSH-wak-ing</em></dd><dt>Русский</dt><dd>движение без тропы, продирание через заросли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Making your way through thick brush where there is no trail.</p>
+<ol><li>The last mile was pure <em>bushwhacking</em>.</li><li><em>Bushwhacking</em> in shorts is a bad idea.</li><li>We saved time with a little <em>bushwhacking</em> along the ridge.</li></ol>
+<hr>
+<h3 id="cairn">cairn<a class="hash" href="#cairn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɛrn/ &middot; <em>KAIRN</em></dd><dt>Русский</dt><dd>тур, каменная пирамидка (указатель)</dd><dt>Plural</dt><dd><em>cairns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ai sounds like air: KAIRN, one syllable.</dd></dl>
+<p>A pile of stones built to mark a trail or a summit.</p>
+<ol><li>Follow the <em>cairn</em> across the bare rock.</li><li>Somebody knocked over half the <em>cairns</em> up there.</li><li>The <em>cairn</em> is the only marker above the treeline.</li></ol>
+<hr>
+<h3 id="trail-marker">trail marker<a class="hash" href="#trail-marker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪl ˌmɑːrkər/ &middot; <em>TRAYL-mar-kur</em></dd><dt>Русский</dt><dd>метка на тропе, маркировка маршрута</dd><dt>Plural</dt><dd><em>trail markers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign, blaze or symbol showing the way along a trail.</p>
+<ol><li>We missed a <em>trail marker</em> and walked an extra mile.</li><li>The <em>trail markers</em> are blue rectangles on the trees.</li><li>There's a <em>trail marker</em> at every junction.</li></ol>
+<hr>
+<h3 id="trail-junction">trail junction<a class="hash" href="#trail-junction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪl ˌdʒʌŋkʃən/ &middot; <em>TRAYL-junk-shuhn</em></dd><dt>Русский</dt><dd>развилка троп</dd><dt>Plural</dt><dd><em>trail junctions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where two or more trails meet.</p>
+<ol><li>Turn left at the <em>trail junction</em>.</li><li>The <em>trail junctions</em> are all signed up here.</li><li>We waited for the others at the <em>trail junction</em>.</li></ol>
+<hr>
+<h3 id="waypoint">waypoint<a class="hash" href="#waypoint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪpɔɪnt/ &middot; <em>WAY-poynt</em></dd><dt>Русский</dt><dd>путевая точка, ориентир на маршруте</dd><dt>Plural</dt><dd><em>waypoints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A point on a route saved or marked so you can navigate to it.</p>
+<ol><li>Save the car as a <em>waypoint</em> before you start.</li><li>He loaded a dozen <em>waypoints</em> onto his watch.</li><li>The spring is the last <em>waypoint</em> before the summit.</li></ol>
+<hr>
+<h3 id="navigation">navigation<a class="hash" href="#navigation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnævɪˈɡeɪʃən/ &middot; <em>nav-ih-GAY-shuhn</em></dd><dt>Русский</dt><dd>навигация, ориентирование на местности</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The skill of finding your way using a map, compass or landmarks.</p>
+<ol><li><em>Navigation</em> gets hard once the fog rolls in.</li><li>The course covers basic wilderness <em>navigation</em>.</li><li>He's better at <em>navigation</em> than anyone in the group.</li></ol>
+<hr>
+<h3 id="topographic-map">topographic map<a class="hash" href="#topographic-map" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtɑːpəˈɡræfɪk mæp/ &middot; <em>tah-puh-GRAF-ik-map</em></dd><dt>Русский</dt><dd>топографическая карта</dd><dt>Plural</dt><dd><em>topographic maps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A map that shows hills and valleys with contour lines.</p>
+<ol><li>Bring a <em>topographic map</em> and know how to read it.</li><li>The store sells <em>topographic maps</em> of the whole range.</li><li>The <em>topographic map</em> showed a much steeper climb than I expected.</li></ol>
+<hr>
+<h3 id="orienteering">orienteering<a class="hash" href="#orienteering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːriɛnˈtɪrɪŋ/ &middot; <em>or-ee-en-TEER-ing</em></dd><dt>Русский</dt><dd>спортивное ориентирование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sport of finding checkpoints across country with a map and compass.</p>
+<ol><li>She got into <em>orienteering</em> through her scout troop.</li><li><em>Orienteering</em> teaches you to trust the compass over your instincts.</li><li>There's an <em>orienteering</em> meet in the state forest on Saturday.</li></ol>
+<hr>
+<h3 id="footbridge">footbridge<a class="hash" href="#footbridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtbrɪdʒ/ &middot; <em>FUUT-brij</em></dd><dt>Русский</dt><dd>пешеходный мостик</dd><dt>Plural</dt><dd><em>footbridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow bridge for people on foot.</p>
+<ol><li>Cross the creek on the <em>footbridge</em>.</li><li>High water took out both <em>footbridges</em>.</li><li>The <em>footbridge</em> sways a little when you walk on it.</li></ol>
+<hr>
+<h3 id="river-crossing">river crossing<a class="hash" href="#river-crossing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪvər ˌkrɔːsɪŋ/ &middot; <em>RIV-ur-kraw-sing</em></dd><dt>Русский</dt><dd>переправа через реку</dd><dt>Plural</dt><dd><em>river crossings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where you get across a river, or the act of doing it.</p>
+<ol><li>The <em>river crossing</em> is dangerous after a storm.</li><li>There are four <em>river crossings</em> on this route.</li><li>We waited until morning to make the <em>river crossing</em>.</li></ol>
+<hr>
+<h3 id="ford">ford<a class="hash" href="#ford" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɔːrd/ &middot; <em>FORD</em></dd><dt>Русский</dt><dd>брод</dd><dt>Plural</dt><dd><em>fords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow place where you can walk or drive across a stream.</p>
+<ol><li>The <em>ford</em> is just below the bend.</li><li>Both <em>fords</em> were knee-deep in June.</li><li>We took our boots off at the <em>ford</em>.</li></ol>
+<hr>
+<h3 id="stepping-stone">stepping stone<a class="hash" href="#stepping-stone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɛpɪŋ stoʊn/ &middot; <em>STEP-ing-stohn</em></dd><dt>Русский</dt><dd>камень для перехода (через ручей)</dd><dt>Plural</dt><dd><em>stepping stones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised stone you step on to cross shallow water or mud.</p>
+<ol><li>One <em>stepping stone</em> was slick with moss.</li><li>We hopped across on the <em>stepping stones</em>.</li><li>She missed the last <em>stepping stone</em> and soaked one boot.</li></ol>
+<hr>
+<h3 id="riverbank">riverbank<a class="hash" href="#riverbank" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪvərbæŋk/ &middot; <em>RIV-ur-bank</em></dd><dt>Русский</dt><dd>берег реки</dd><dt>Plural</dt><dd><em>riverbanks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The land along the edge of a river.</p>
+<ol><li>We camped on the <em>riverbank</em> above the rapids.</li><li>Willows grow along both <em>riverbanks</em>.</li><li>The <em>riverbank</em> was steep and slippery.</li></ol>
+<hr>
+<h3 id="eddy">eddy<a class="hash" href="#eddy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdi/ &middot; <em>ED-ee</em></dd><dt>Русский</dt><dd>водоворот, обратное течение</dd><dt>Plural</dt><dd><em>eddies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural eddies: the y becomes ies. It sounds like the name Eddie.</dd></dl>
+<p>A small circle of water turning back against the main current.</p>
+<ol><li>Pull into that <em>eddy</em> behind the boulder.</li><li>The <em>eddies</em> below the falls are full of foam.</li><li>His paddle got caught in an <em>eddy</em>.</li></ol>
+<hr>
+<h3 id="swimming-hole">swimming hole<a class="hash" href="#swimming-hole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪmɪŋ hoʊl/ &middot; <em>SWIM-ing-hohl</em></dd><dt>Русский</dt><dd>место для купания в реке</dd><dt>Plural</dt><dd><em>swimming holes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A deep spot in a creek or river where people swim.</p>
+<ol><li>There's a <em>swimming hole</em> a mile down the trail.</li><li>Every kid in town knows the best <em>swimming holes</em>.</li><li>We jumped off the rock into the <em>swimming hole</em>.</li></ol>
+<hr>
+<h3 id="rafting">rafting<a class="hash" href="#rafting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræftɪŋ/ &middot; <em>RAF-ting</em></dd><dt>Русский</dt><dd>рафтинг, сплав</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sport of riding a river in an inflatable boat.</p>
+<ol><li>We went <em>rafting</em> on the Colorado.</li><li><em>Rafting</em> season runs from May to September.</li><li>The <em>rafting</em> was tamer than the brochure suggested.</li></ol>
+<hr>
+<h3 id="whitewater">whitewater<a class="hash" href="#whitewater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪtwɔːtər/ &middot; <em>WYT-waw-tur</em></dd><dt>Русский</dt><dd>бурная вода, пороги</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fast rough river water broken into foam over rocks.</p>
+<ol><li>That stretch of <em>whitewater</em> scared me.</li><li>The river drops into <em>whitewater</em> below the bridge.</li><li>He's been paddling <em>whitewater</em> since he was twelve.</li></ol>
+<hr>
+<h3 id="kayaking">kayaking<a class="hash" href="#kayaking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaɪækɪŋ/ &middot; <em>KY-ak-ing</em></dd><dt>Русский</dt><dd>каякинг, гребля на байдарке</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of traveling in a small narrow boat with a double paddle.</p>
+<ol><li><em>Kayaking</em> on the lake is calm and easy.</li><li>She took up sea <em>kayaking</em> last year.</li><li>We did some <em>kayaking</em> before breakfast.</li></ol>
+<hr>
+<h3 id="canoeing">canoeing<a class="hash" href="#canoeing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnuːɪŋ/ &middot; <em>kuh-NOO-ing</em></dd><dt>Русский</dt><dd>гребля на каноэ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of traveling in an open boat moved with a single paddle.</p>
+<ol><li><em>Canoeing</em> is easier with two people.</li><li>The upper lake is perfect for <em>canoeing</em>.</li><li>The camp teaches <em>canoeing</em> to the younger kids.</li></ol>
+<hr>
+<h3 id="portage">portage<a class="hash" href="#portage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔːrtɪdʒ/ &middot; <em>POR-tij</em></dd><dt>Русский</dt><dd>волок (перенос лодки по суше)</dd><dt>Plural</dt><dd><em>portages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stretch of land where you carry a boat between two bodies of water.</p>
+<ol><li>The <em>portage</em> around the falls is a half mile.</li><li>There are five <em>portages</em> on this route.</li><li>We carried the canoe over the <em>portage</em> in two trips.</li></ol>
+<hr>
+<h3 id="life-vest">life vest<a class="hash" href="#life-vest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪf vɛst/ &middot; <em>LYF-vest</em></dd><dt>Русский</dt><dd>спасательный жилет</dd><dt>Plural</dt><dd><em>life vests</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Life vest is the usual American term; the British say life jacket.</dd></dl>
+<p>A padded vest that keeps you afloat in water.</p>
+<ol><li>Nobody gets in the boat without a <em>life vest</em>.</li><li>There are four <em>life vests</em> under the seat.</li><li>Buckle the <em>life vest</em> across your chest.</li></ol>
+<hr>
+<h3 id="carabiner">carabiner<a class="hash" href="#carabiner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɛrəˈbiːnər/ &middot; <em>kair-uh-BEE-nur</em></dd><dt>Русский</dt><dd>карабин (альпинистский)</dd><dt>Plural</dt><dd><em>carabiners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the third syllable: kair-uh-BEE-nur.</dd></dl>
+<p>A metal loop with a spring gate used to connect ropes and gear.</p>
+<ol><li>Clip the rope into the <em>carabiner</em>.</li><li>He had a dozen <em>carabiners</em> on his harness.</li><li>Make sure the <em>carabiner</em> is locked.</li></ol>
+<hr>
+<h3 id="belay">belay<a class="hash" href="#belay" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɪˈleɪ/ &middot; <em>bih-LAY</em></dd><dt>Русский</dt><dd>страховка (при лазании)</dd><dt>Plural</dt><dd><em>belays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rope hold that protects a climber from a fall.</p>
+<ol><li>She set up a <em>belay</em> at the top of the pitch.</li><li>The guide checks every <em>belay</em> before anyone climbs.</li><li>He shouted that the <em>belay</em> was ready.</li></ol>
+<hr>
+<h3 id="climber">climber<a class="hash" href="#climber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklaɪmər/ &middot; <em>KLY-mur</em></dd><dt>Русский</dt><dd>скалолаз, альпинист</dd><dt>Plural</dt><dd><em>climbers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b is silent: KLY-mur.</dd></dl>
+<p>Someone who climbs rock, ice or mountains.</p>
+<ol><li>A <em>climber</em> fell on that route last summer.</li><li>Two <em>climbers</em> were already on the wall at sunrise.</li><li>The <em>climber</em> rested on a narrow ledge.</li></ol>
+<hr>
+<h3 id="rock-climbing">rock climbing<a class="hash" href="#rock-climbing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɑːk ˌklaɪmɪŋ/ &middot; <em>RAHK-kly-ming</em></dd><dt>Русский</dt><dd>скалолазание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sport of climbing up steep rock faces with ropes and gear.</p>
+<ol><li><em>Rock climbing</em> got me over my fear of heights.</li><li>He teaches <em>rock climbing</em> on weekends.</li><li>There's good <em>rock climbing</em> an hour north of town.</li></ol>
+<hr>
+<h3 id="bouldering">bouldering<a class="hash" href="#bouldering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊldərɪŋ/ &middot; <em>BOHL-dur-ing</em></dd><dt>Русский</dt><dd>боулдеринг (лазание без верёвки)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Climbing short hard routes on low rocks without ropes.</p>
+<ol><li>An afternoon of <em>bouldering</em> leaves your fingers raw.</li><li><em>Bouldering</em> is hard on your fingers.</li><li>The gym has a <em>bouldering</em> wall in the back.</li></ol>
+<hr>
+<h3 id="mountaineering">mountaineering<a class="hash" href="#mountaineering" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmaʊntəˈnɪrɪŋ/ &middot; <em>mown-tuh-NEER-ing</em></dd><dt>Русский</dt><dd>альпинизм</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sport of climbing high mountains, often over snow and ice.</p>
+<ol><li><em>Mountaineering</em> takes years of experience.</li><li>He wrote a book about <em>mountaineering</em> in Alaska.</li><li>The club runs a <em>mountaineering</em> course every winter.</li></ol>
+<hr>
+<h3 id="rappelling">rappelling<a class="hash" href="#rappelling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræˈpɛlɪŋ/ &middot; <em>ra-PEL-ing</em></dd><dt>Русский</dt><dd>спуск по верёвке, дюльфер</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say rappelling; the British say abseiling.</dd></dl>
+<p>Going down a rock face by sliding in a controlled way along a rope.</p>
+<ol><li>We practiced <em>rappelling</em> off a low cliff.</li><li><em>Rappelling</em> is faster than climbing back down.</li><li>The guide checked our knots before the <em>rappelling</em> started.</li></ol>
+<hr>
+<h3 id="ascent">ascent<a class="hash" href="#ascent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɛnt/ &middot; <em>uh-SENT</em></dd><dt>Русский</dt><dd>подъём, восхождение</dd><dt>Plural</dt><dd><em>ascents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds almost exactly like assent, which means agreement.</dd></dl>
+<p>A climb up a mountain or slope.</p>
+<ol><li>The <em>ascent</em> took us six hours.</li><li>He has made three <em>ascents</em> of that peak.</li><li>The last part of the <em>ascent</em> is on loose rock.</li></ol>
+<hr>
+<h3 id="descent">descent<a class="hash" href="#descent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsɛnt/ &middot; <em>dih-SENT</em></dd><dt>Русский</dt><dd>спуск</dd><dt>Plural</dt><dd><em>descents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said just like dissent, which means disagreement.</dd></dl>
+<p>A climb or walk down from a high place.</p>
+<ol><li>The <em>descent</em> is harder on the knees than the climb.</li><li>Both <em>descents</em> follow the same gully.</li><li>We started the <em>descent</em> as the weather turned.</li></ol>
+<hr>
+<h3 id="foothold">foothold<a class="hash" href="#foothold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊthoʊld/ &middot; <em>FUUT-hohld</em></dd><dt>Русский</dt><dd>опора для ноги, точка опоры</dd><dt>Plural</dt><dd><em>footholds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place on rock where you can put your foot while climbing.</p>
+<ol><li>She found a <em>foothold</em> just above the crack.</li><li>The <em>footholds</em> get tiny near the top.</li><li>There was no <em>foothold</em> on that smooth slab.</li></ol>
+<hr>
+<h3 id="handhold">handhold<a class="hash" href="#handhold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændhoʊld/ &middot; <em>HAND-hohld</em></dd><dt>Русский</dt><dd>зацепка для руки</dd><dt>Plural</dt><dd><em>handholds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place on rock that you can grip with your hand while climbing.</p>
+<ol><li>The only <em>handhold</em> was a thin flake of rock.</li><li>The wet <em>handholds</em> made it dangerous.</li><li>He felt around for a <em>handhold</em> above his head.</li></ol>
+<hr>
+<h3 id="ledge">ledge<a class="hash" href="#ledge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɛdʒ/ &middot; <em>LEJ</em></dd><dt>Русский</dt><dd>уступ, карниз (скальный)</dd><dt>Plural</dt><dd><em>ledges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow flat shelf of rock sticking out from a cliff.</p>
+<ol><li>We ate lunch on a <em>ledge</em> above the valley.</li><li>Birds nest on the <em>ledges</em> of that cliff.</li><li>The <em>ledge</em> was just wide enough to stand on.</li></ol>
+<hr>
+<h3 id="crag">crag<a class="hash" href="#crag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kræɡ/ &middot; <em>KRAG</em></dd><dt>Русский</dt><dd>скала, утёс</dd><dt>Plural</dt><dd><em>crags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A steep rough mass of rock sticking out of a hillside.</p>
+<ol><li>A hawk was circling the <em>crag</em>.</li><li>Climbers come from all over for these <em>crags</em>.</li><li>We ate lunch in the shade of the <em>crag</em>.</li></ol>
+<hr>
+<h3 id="crevice">crevice<a class="hash" href="#crevice" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɛvɪs/ &middot; <em>KREV-is</em></dd><dt>Русский</dt><dd>расщелина, трещина в скале</dd><dt>Plural</dt><dd><em>crevices</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A crevice is a small crack in rock; a crevasse (kruh-VAS) is a deep split in a glacier.</dd></dl>
+<p>A narrow crack in rock or a wall.</p>
+<ol><li>A small plant was growing out of a <em>crevice</em>.</li><li>Lizards hide in the <em>crevices</em> during the heat of the day.</li><li>He wedged his fingers into the <em>crevice</em>.</li></ol>
+<hr>
+<h3 id="crevasse">crevasse<a class="hash" href="#crevasse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krəˈvæs/ &middot; <em>kruh-VAS</em></dd><dt>Русский</dt><dd>трещина в леднике</dd><dt>Plural</dt><dd><em>crevasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stressed on the second syllable, unlike crevice (KREV-is), which means a small crack in rock.</dd></dl>
+<p>A deep open crack in a glacier or ice field.</p>
+<ol><li>A snow bridge hid the <em>crevasse</em> completely.</li><li>The glacier is full of <em>crevasses</em> by late summer.</li><li>They roped up before crossing the <em>crevasse</em> field.</li></ol>
+<hr>
+<h3 id="summit-push">summit push<a class="hash" href="#summit-push" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌmɪt pʊʃ/ &middot; <em>SUHM-it-puush</em></dd><dt>Русский</dt><dd>штурм вершины</dd><dt>Plural</dt><dd><em>summit pushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The final hard effort to reach the top of a mountain.</p>
+<ol><li>The <em>summit push</em> starts at two in the morning.</li><li>Bad weather turned back two <em>summit pushes</em> that week.</li><li>They rested a full day before the <em>summit push</em>.</li></ol>
+<hr>
+<h3 id="ridgeline">ridgeline<a class="hash" href="#ridgeline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪdʒlaɪn/ &middot; <em>RIJ-lyn</em></dd><dt>Русский</dt><dd>линия хребта, гребень</dd><dt>Plural</dt><dd><em>ridgelines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The long top edge of a ridge, seen against the sky.</p>
+<ol><li>The trail follows the <em>ridgeline</em> for three miles.</li><li>You can see two <em>ridgelines</em> from the porch.</li><li>Wind hits you hard once you're on the <em>ridgeline</em>.</li></ol>
+<hr>
+<h3 id="treeline">treeline<a class="hash" href="#treeline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtriːlaɪn/ &middot; <em>TREE-lyn</em></dd><dt>Русский</dt><dd>граница леса (в горах)</dd><dt>Plural</dt><dd><em>treelines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The height on a mountain above which trees do not grow.</p>
+<ol><li>We camped just below the <em>treeline</em>.</li><li>The <em>treelines</em> here sit around eleven thousand feet.</li><li>There's no shelter above the <em>treeline</em>.</li></ol>
+<hr>
+<h3 id="snowline">snowline<a class="hash" href="#snowline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊlaɪn/ &middot; <em>SNOH-lyn</em></dd><dt>Русский</dt><dd>снеговая линия</dd><dt>Plural</dt><dd><em>snowlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The height on a mountain above which snow lies all year.</p>
+<ol><li>The <em>snowline</em> is much lower in May.</li><li>Their route stays below the <em>snowline</em>.</li><li>We camped a thousand feet under the <em>snowline</em>.</li></ol>
+<hr>
+<h3 id="foothill">foothill<a class="hash" href="#foothill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊthɪl/ &middot; <em>FUUT-hil</em></dd><dt>Русский</dt><dd>предгорье</dd><dt>Plural</dt><dd><em>foothills</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Almost always used in the plural: the foothills of the Rockies.</dd></dl>
+<p>A low hill at the base of a mountain range.</p>
+<ol><li>They live out in the <em>foothills</em>.</li><li>The road climbs through the <em>foothills</em> for an hour.</li><li>Every <em>foothill</em> around here is covered in oak.</li></ol>
+<hr>
+<h3 id="mountainside">mountainside<a class="hash" href="#mountainside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaʊntənsaɪd/ &middot; <em>MOWN-tuhn-syd</em></dd><dt>Русский</dt><dd>склон горы</dd><dt>Plural</dt><dd><em>mountainsides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sloping side of a mountain.</p>
+<ol><li>A fire had burned the whole <em>mountainside</em>.</li><li>The <em>mountainsides</em> were still green in September.</li><li>Their cabin sits halfway up the <em>mountainside</em>.</li></ol>
+<hr>
+<h3 id="gully">gully<a class="hash" href="#gully" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌli/ &middot; <em>GUH-lee</em></dd><dt>Русский</dt><dd>овраг, промоина</dd><dt>Plural</dt><dd><em>gullies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural gullies: the y changes to ies.</dd></dl>
+<p>A narrow channel cut into a slope by running water.</p>
+<ol><li>The trail drops into a steep <em>gully</em>.</li><li>Spring runoff carved new <em>gullies</em> in the hillside.</li><li>We scrambled up the <em>gully</em> to reach the ridge.</li></ol>
+<hr>
+<h3 id="overhang">overhang<a class="hash" href="#overhang" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərhæŋ/ &middot; <em>OH-vur-hang</em></dd><dt>Русский</dt><dd>нависающая скала, карниз</dd><dt>Plural</dt><dd><em>overhangs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first syllable, OH-vur-hang; the verb stresses the last.</dd></dl>
+<p>A part of a rock face that sticks out over the ground below.</p>
+<ol><li>We waited out the storm under an <em>overhang</em>.</li><li>The route goes over two small <em>overhangs</em>.</li><li>Water dripped off the edge of the <em>overhang</em>.</li></ol>
+<hr>
+<h3 id="outcrop">outcrop<a class="hash" href="#outcrop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtkrɑːp/ &middot; <em>OWT-krahp</em></dd><dt>Русский</dt><dd>скальный выход, выступ породы</dd><dt>Plural</dt><dd><em>outcrops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Rock that sticks up out of the ground through the soil.</p>
+<ol><li>There's a granite <em>outcrop</em> with a view at the top.</li><li>Hawks sit on those <em>outcrops</em> all afternoon.</li><li>We took a break on a sunny <em>outcrop</em>.</li></ol>
+<hr>
+<h3 id="boulder-field">boulder field<a class="hash" href="#boulder-field" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊldər fiːld/ &middot; <em>BOHL-dur-feeld</em></dd><dt>Русский</dt><dd>каменное поле, курумник</dd><dt>Plural</dt><dd><em>boulder fields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide stretch of large loose rocks you have to climb across.</p>
+<ol><li>The <em>boulder field</em> slowed us down for an hour.</li><li>Two <em>boulder fields</em> lie between here and the lake.</li><li>Watch your ankles in the <em>boulder field</em>.</li></ol>
+<hr>
+<h3 id="scree">scree<a class="hash" href="#scree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skriː/ &middot; <em>SKREE</em></dd><dt>Русский</dt><dd>осыпь, каменистый склон</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: a slope of scree, never screes.</dd></dl>
+<p>Loose broken stone lying on a steep mountain slope.</p>
+<ol><li>The last half mile is all <em>scree</em>.</li><li>Coming down the <em>scree</em> is faster than going up.</li><li>Loose <em>scree</em> slid out from under my boots.</li></ol>
+<hr>
+<h3 id="snowfield">snowfield<a class="hash" href="#snowfield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊfiːld/ &middot; <em>SNOH-feeld</em></dd><dt>Русский</dt><dd>снежник, снежное поле</dd><dt>Plural</dt><dd><em>snowfields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide area of snow that stays on a mountain through the summer.</p>
+<ol><li>We crossed the <em>snowfield</em> early, while it was still firm.</li><li>The <em>snowfields</em> shrink a little every year.</li><li>Bring an ice axe for that <em>snowfield</em>.</li></ol>
+<hr>
+<h3 id="thicket">thicket<a class="hash" href="#thicket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθɪkɪt/ &middot; <em>THIK-it</em></dd><dt>Русский</dt><dd>заросли, чаща</dd><dt>Plural</dt><dd><em>thickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dense group of bushes or small trees growing close together.</p>
+<ol><li>A deer crashed off into the <em>thicket</em>.</li><li><em>Thickets</em> of willow line the creek.</li><li>We lost the trail in a <em>thicket</em> of brush.</li></ol>
+<hr>
+<h3 id="glade">glade<a class="hash" href="#glade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡleɪd/ &middot; <em>GLAYD</em></dd><dt>Русский</dt><dd>поляна, прогалина</dd><dt>Plural</dt><dd><em>glades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An open grassy space inside a forest.</p>
+<ol><li>The trail opens into a sunny <em>glade</em>.</li><li>Deer feed in these <em>glades</em> at dusk.</li><li>We pitched the tent at the edge of the <em>glade</em>.</li></ol>
+<hr>
+<h3 id="underbrush">underbrush<a class="hash" href="#underbrush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərbrʌʃ/ &middot; <em>UHN-dur-bruhsh</em></dd><dt>Русский</dt><dd>подлесок, кустарник под деревьями</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American; the British usually say undergrowth.</dd></dl>
+<p>The low bushes and plants growing under the trees in a forest.</p>
+<ol><li>The <em>underbrush</em> here is too thick to walk through.</li><li>Something moved in the <em>underbrush</em> behind the tent.</li><li>Crews cleared the <em>underbrush</em> to slow down fires.</li></ol>
+<hr>
+<h3 id="pine-needle">pine needle<a class="hash" href="#pine-needle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪn ˌniːdəl/ &middot; <em>PYN-nee-dul</em></dd><dt>Русский</dt><dd>сосновая иголка, хвоинка</dd><dt>Plural</dt><dd><em>pine needles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the thin sharp green leaves of a pine tree.</p>
+<ol><li>A <em>pine needle</em> was stuck to the bottom of my sock.</li><li>The ground was soft with <em>pine needles</em>.</li><li><em>Pine needles</em> smell wonderful when you crush them.</li></ol>
+<hr>
+<h3 id="lookout">lookout<a class="hash" href="#lookout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʊkaʊt/ &middot; <em>LUUK-owt</em></dd><dt>Русский</dt><dd>смотровая площадка</dd><dt>Plural</dt><dd><em>lookouts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun; the verb is two words: look out.</dd></dl>
+<p>A high place with a wide view, or the tower built there.</p>
+<ol><li>The <em>lookout</em> is a mile up the fire road.</li><li>Old fire <em>lookouts</em> are scattered along the range.</li><li>We watched the sunset from the <em>lookout</em>.</li></ol>
+<hr>
+<h3 id="fire-tower">fire tower<a class="hash" href="#fire-tower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌtaʊrr/ &middot; <em>FYR-tow-ur</em></dd><dt>Русский</dt><dd>пожарная наблюдательная вышка</dd><dt>Plural</dt><dd><em>fire towers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall wooden or steel tower where someone watches for forest fires.</p>
+<ol><li>The trail ends at an old <em>fire tower</em>.</li><li>Most of these <em>fire towers</em> are no longer staffed.</li><li>You can see three states from the <em>fire tower</em>.</li></ol>
+<hr>
+<h3 id="vista">vista<a class="hash" href="#vista" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪstə/ &middot; <em>VIS-tuh</em></dd><dt>Русский</dt><dd>вид, панорама</dd><dt>Plural</dt><dd><em>vistas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide view of the landscape, especially from a high place.</p>
+<ol><li>The trail opens up to a <em>vista</em> of the whole valley.</li><li>There are pullouts with <em>vistas</em> every few miles.</li><li>That <em>vista</em> is worth the climb.</li></ol>
+<hr>
+<h3 id="scenic-overlook">scenic overlook<a class="hash" href="#scenic-overlook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːnɪk ˌoʊvərlʊk/ &middot; <em>SEE-nik-oh-vur-luuk</em></dd><dt>Русский</dt><dd>смотровая площадка (у дороги)</dd><dt>Plural</dt><dd><em>scenic overlooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pullout beside a road where you stop to look at the view.</p>
+<ol><li>Pull in at the next <em>scenic overlook</em>.</li><li>There are <em>scenic overlooks</em> all along the parkway.</li><li>We ate our sandwiches at a <em>scenic overlook</em>.</li></ol>
+<hr>
+<h3 id="stargazing">stargazing<a class="hash" href="#stargazing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːrɡeɪzɪŋ/ &middot; <em>STAR-gay-zing</em></dd><dt>Русский</dt><dd>наблюдение за звёздами</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Looking at the stars for pleasure.</p>
+<ol><li>The desert is perfect for <em>stargazing</em>.</li><li>A clear, moonless night is best for <em>stargazing</em>.</li><li><em>Stargazing</em> is better away from town lights.</li></ol>
+<hr>
+<h3 id="foraging">foraging<a class="hash" href="#foraging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɪdʒɪŋ/ &middot; <em>FOR-ij-ing</em></dd><dt>Русский</dt><dd>сбор дикорастущей еды</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Searching in the wild for food such as berries, nuts or mushrooms.</p>
+<ol><li>He teaches a class on <em>foraging</em> in the spring.</li><li><em>Foraging</em> for mushrooms takes real knowledge.</li><li>We did a little <em>foraging</em> along the creek.</li></ol>
+<hr>
+<h3 id="glamping">glamping<a class="hash" href="#glamping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlæmpɪŋ/ &middot; <em>GLAM-ping</em></dd><dt>Русский</dt><dd>глэмпинг (кемпинг с комфортом)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Camping with comfortable beds and hotel-like extras.</p>
+<ol><li>This isn't camping, it's <em>glamping</em>.</li><li>They booked a <em>glamping</em> site with a real mattress.</li><li><em>Glamping</em> got popular around here a few years ago.</li></ol>
+<hr>
+<h3 id="hypothermia">hypothermia<a class="hash" href="#hypothermia" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪpəˈθɜːrmiə/ &middot; <em>hy-puh-THUR-mee-uh</em></dd><dt>Русский</dt><dd>переохлаждение, гипотермия</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dangerous drop in body temperature from being cold and wet.</p>
+<ol><li>Wet cotton in cold wind can cause <em>hypothermia</em>.</li><li>He was showing early signs of <em>hypothermia</em>.</li><li><em>Hypothermia</em> kills more hikers than falls do.</li></ol>
+<hr>
+<h3 id="dehydration">dehydration<a class="hash" href="#dehydration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdiːhaɪˈdreɪʃən/ &middot; <em>dee-hy-DRAY-shuhn</em></dd><dt>Русский</dt><dd>обезвоживание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The harmful condition of not having enough water in your body.</p>
+<ol><li><em>Dehydration</em> sneaks up on you at altitude.</li><li>The headache was probably <em>dehydration</em>.</li><li>Drink before you're thirsty to avoid <em>dehydration</em>.</li></ol>
+<hr>
+<h3 id="heat-exhaustion">heat exhaustion<a class="hash" href="#heat-exhaustion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːt ɪɡˌzɔːstʃən/ &middot; <em>HEET ig-ZAWS-chuhn</em></dd><dt>Русский</dt><dd>тепловое истощение, перегрев</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The h in exhaustion is silent: ig-ZAWS-chuhn.</dd></dl>
+<p>Weakness, dizziness and sweating caused by too much heat.</p>
+<ol><li>Two hikers were treated for <em>heat exhaustion</em>.</li><li><em>Heat exhaustion</em> can turn serious fast.</li><li>Get into the shade at the first sign of <em>heat exhaustion</em>.</li></ol>
+<hr>
+<h3 id="sunstroke">sunstroke<a class="hash" href="#sunstroke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌnstroʊk/ &middot; <em>SUHN-strohk</em></dd><dt>Русский</dt><dd>солнечный удар</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Illness caused by spending too long in strong sunshine.</p>
+<ol><li>Wear a hat or you'll get <em>sunstroke</em>.</li><li>He came down with <em>sunstroke</em> on the second day.</li><li><em>Sunstroke</em> left her dizzy for hours.</li></ol>
+<hr>
+<h3 id="altitude-sickness">altitude sickness<a class="hash" href="#altitude-sickness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæltətuːd ˌsɪknəs/ &middot; <em>AL-tih-tood-sik-nis</em></dd><dt>Русский</dt><dd>горная болезнь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Headache and nausea caused by thin air high in the mountains.</p>
+<ol><li><em>Altitude sickness</em> hit her at twelve thousand feet.</li><li>Going up slowly helps prevent <em>altitude sickness</em>.</li><li>He had <em>altitude sickness</em> the whole first night.</li></ol>
+<hr>
+<h3 id="poison-ivy">poison ivy<a class="hash" href="#poison-ivy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɔɪzən ˈaɪvi/ &middot; <em>poy-zuhn-EYE-vee</em></dd><dt>Русский</dt><dd>ядовитый плющ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A common American plant whose oil gives people an itchy rash.</p>
+<ol><li>That whole bank is covered in <em>poison ivy</em>.</li><li>He got <em>poison ivy</em> on both arms.</li><li>Leaves of three — that's <em>poison ivy</em>.</li></ol>
+<hr>
+<h3 id="splinter">splinter<a class="hash" href="#splinter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsplɪntər/ &middot; <em>SPLIN-tur</em></dd><dt>Русский</dt><dd>заноза</dd><dt>Plural</dt><dd><em>splinters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny sharp piece of wood stuck in your skin.</p>
+<ol><li>I got a <em>splinter</em> carrying firewood.</li><li>She pulled two <em>splinters</em> out with tweezers.</li><li>The <em>splinter</em> was too deep to reach.</li></ol>
+<hr>
+<h3 id="mosquito-bite">mosquito bite<a class="hash" href="#mosquito-bite" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈskiːtoʊ baɪt/ &middot; <em>muh-SKEE-toh-byt</em></dd><dt>Русский</dt><dd>комариный укус</dd><dt>Plural</dt><dd><em>mosquito bites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small itchy swelling left where a mosquito has bitten you.</p>
+<ol><li>I woke up with a <em>mosquito bite</em> on my eyelid.</li><li>His ankles were covered in <em>mosquito bites</em>.</li><li>Try not to scratch that <em>mosquito bite</em>.</li></ol>
+<hr>
+<h3 id="survival">survival<a class="hash" href="#survival" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈvaɪvəl/ &middot; <em>sur-VY-vuhl</em></dd><dt>Русский</dt><dd>выживание</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of staying alive in dangerous conditions.</p>
+<ol><li>The class covers <em>survival</em> in cold weather.</li><li>Shelter matters more than food for short-term <em>survival</em>.</li><li>He wrote a book about <em>survival</em> in the backcountry.</li></ol>
+<hr>
+<h3 id="search-party">search party<a class="hash" href="#search-party" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtʃ ˌpɑːrti/ &middot; <em>SURCH-par-tee</em></dd><dt>Русский</dt><dd>поисковая группа</dd><dt>Plural</dt><dd><em>search parties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A group of people organized to look for someone who is lost.</p>
+<ol><li>A <em>search party</em> went out at first light.</li><li>Two <em>search parties</em> combed the north side of the ridge.</li><li>The <em>search party</em> found her cold but unhurt.</li></ol>
+<hr>
+<h3 id="flare">flare<a class="hash" href="#flare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɛr/ &middot; <em>FLAIR</em></dd><dt>Русский</dt><dd>сигнальная ракета, фальшфейер</dd><dt>Plural</dt><dd><em>flares</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like flair, which means a natural talent.</dd></dl>
+<p>A bright burning light fired or lit to signal for help.</p>
+<ol><li>He set off a <em>flare</em> from the ridge.</li><li>There are two <em>flares</em> in the emergency kit.</li><li>A <em>flare</em> is visible for miles at night.</li></ol>
+<hr>
+<h3 id="forest-fire">forest fire<a class="hash" href="#forest-fire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɪst ˌfaɪrr/ &middot; <em>FOR-ist-fyr</em></dd><dt>Русский</dt><dd>лесной пожар</dd><dt>Plural</dt><dd><em>forest fires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large fire burning through trees and brush.</p>
+<ol><li>Smoke from the <em>forest fire</em> reached us two states away.</li><li>Dry summers mean more <em>forest fires</em>.</li><li>The <em>forest fire</em> closed every trail in the canyon.</li></ol>
+<hr>
+<h3 id="fire-ban">fire ban<a class="hash" href="#fire-ban" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr bæn/ &middot; <em>FYR-ban</em></dd><dt>Русский</dt><dd>запрет на разведение огня</dd><dt>Plural</dt><dd><em>fire bans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official rule against lighting fires because of dry conditions.</p>
+<ol><li>There's a <em>fire ban</em> in effect until it rains.</li><li><em>Fire bans</em> start earlier every summer.</li><li>The <em>fire ban</em> means no campfires, only stoves.</li></ol>
+<hr>
+<h3 id="footprint">footprint<a class="hash" href="#footprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtprɪnt/ &middot; <em>FUUT-print</em></dd><dt>Русский</dt><dd>след ноги, отпечаток</dd><dt>Plural</dt><dd><em>footprints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark a foot or shoe leaves in soft ground.</p>
+<ol><li>There was one <em>footprint</em> in the mud by the creek.</li><li>We followed his <em>footprints</em> through the snow.</li><li>The rain washed every <em>footprint</em> off the trail.</li></ol>
+<hr>
+<h3 id="paw-print">paw print<a class="hash" href="#paw-print" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔː prɪnt/ &middot; <em>PAW-print</em></dd><dt>Русский</dt><dd>след лапы</dd><dt>Plural</dt><dd><em>paw prints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The mark left in soft ground by an animal's foot.</p>
+<ol><li>That <em>paw print</em> is bigger than my hand.</li><li>There were <em>paw prints</em> all around the cooler.</li><li>She photographed a <em>paw print</em> next to her boot for scale.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

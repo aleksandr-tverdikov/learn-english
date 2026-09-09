@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: theatre and performance</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-theatre-and-performance">Core vocabulary: theatre and performance<a class="hash" href="#core-vocabulary-theatre-and-performance" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of theatre and performance — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="play">play<a class="hash" href="#play" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pleɪ/ &middot; <em>PLAY</em></dd><dt>Русский</dt><dd>пьеса, спектакль</dd><dt>Plural</dt><dd><em>plays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A story written to be acted out on a stage.</p>
+<ol><li>We saw a <em>play</em> about two brothers running a diner.</li><li>She has written six <em>plays</em>, and three of them were produced.</li><li>The <em>play</em> runs two hours with one intermission.</li></ol>
+<hr>
+<h3 id="actress">actress<a class="hash" href="#actress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktrəs/ &middot; <em>AK-truhs</em></dd><dt>Русский</dt><dd>актриса</dd><dt>Plural</dt><dd><em>actresses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Many Americans now say <em>actor</em> for women too, and reserve <em>actress</em> for award categories.</dd></dl>
+<p>A woman who performs a part in a play, film, or television show.</p>
+<ol><li>The <em>actress</em> playing the mother is only thirty.</li><li>Four <em>actresses</em> read for the same part.</li><li>She trained as an <em>actress</em> before she started directing.</li></ol>
+<hr>
+<h3 id="scene">scene<a class="hash" href="#scene" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/siːn/ &middot; <em>SEEN</em></dd><dt>Русский</dt><dd>сцена, эпизод (часть акта)</dd><dt>Plural</dt><dd><em>scenes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>seen</em>, the past participle of see.</dd></dl>
+<p>A section of a play or film that happens in one place and time.</p>
+<ol><li>The best <em>scene</em> is the argument in the kitchen.</li><li>We rehearsed the last two <em>scenes</em> all afternoon.</li><li>He forgot his lines in the opening <em>scene</em>.</li></ol>
+<hr>
+<h3 id="act">act<a class="hash" href="#act" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ækt/ &middot; <em>AKT</em></dd><dt>Русский</dt><dd>акт, действие (пьесы); номер (эстрадный)</dd><dt>Plural</dt><dd><em>acts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A main division of a play, or a short self-contained performance.</p>
+<ol><li>The first <em>act</em> runs almost an hour.</li><li>Most modern plays have two <em>acts</em> instead of five.</li><li>Her comedy <em>act</em> is about twenty minutes long.</li></ol>
+<hr>
+<h3 id="comedy">comedy<a class="hash" href="#comedy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmədi/ &middot; <em>KAH-muh-dee</em></dd><dt>Русский</dt><dd>комедия</dd><dt>Plural</dt><dd><em>comedies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A play or film meant to be funny and to end happily.</p>
+<ol><li>The theater is doing a <em>comedy</em> this spring.</li><li>He writes dark <em>comedies</em> about office life.</li><li>It started as a <em>comedy</em> and turned very sad in the last act.</li></ol>
+<hr>
+<h3 id="tragedy">tragedy<a class="hash" href="#tragedy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrædʒədi/ &middot; <em>TRAJ-uh-dee</em></dd><dt>Русский</dt><dd>трагедия</dd><dt>Plural</dt><dd><em>tragedies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A serious play that ends unhappily for the main character.</p>
+<ol><li>Hamlet is the best known <em>tragedy</em> in English.</li><li>Greek <em>tragedies</em> were performed outdoors.</li><li>The director staged the <em>tragedy</em> in modern dress.</li></ol>
+<hr>
+<h3 id="musical">musical<a class="hash" href="#musical" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmjuːzɪkəl/ &middot; <em>MYOO-zih-kuhl</em></dd><dt>Русский</dt><dd>мюзикл</dd><dt>Plural</dt><dd><em>musicals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A play in which the story is carried by songs and dancing.</p>
+<ol><li>They took the kids to a <em>musical</em> for her birthday.</li><li>He knows the words to about forty <em>musicals</em>.</li><li>The <em>musical</em> has been running for eleven years.</li></ol>
+<hr>
+<h3 id="ballet">ballet<a class="hash" href="#ballet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæˈleɪ/ &middot; <em>ba-LAY</em></dd><dt>Русский</dt><dd>балет</dd><dt>Plural</dt><dd><em>ballets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final t is silent, and Americans stress the second syllable: ba-LAY.</dd></dl>
+<p>A stage performance that tells a story through formal dancing and music.</p>
+<ol><li>We go to the <em>ballet</em> every December.</li><li>She has danced in twelve different <em>ballets</em>.</li><li>The <em>ballet</em> lasted about ninety minutes.</li></ol>
+<hr>
+<h3 id="prop">prop<a class="hash" href="#prop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɑːp/ &middot; <em>PRAHP</em></dd><dt>Русский</dt><dd>реквизит (отдельный предмет на сцене)</dd><dt>Plural</dt><dd><em>props</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An object an actor carries or uses on stage.</p>
+<ol><li>The only <em>prop</em> in the whole scene is a coffee cup.</li><li>Someone left the <em>props</em> on the wrong side of the stage.</li><li>That knife is a rubber <em>prop</em>, not a real one.</li></ol>
+<hr>
+<h3 id="set">set<a class="hash" href="#set" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɛt/ &middot; <em>SET</em></dd><dt>Русский</dt><dd>декорация, оформление сцены</dd><dt>Plural</dt><dd><em>sets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The scenery and furniture that show where a scene takes place.</p>
+<ol><li>The <em>set</em> for the second act is a hotel lobby.</li><li>They built both <em>sets</em> in a week.</li><li>The <em>set</em> rotates to become the outside of the house.</li></ol>
+<hr>
+<h3 id="cue">cue<a class="hash" href="#cue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kjuː/ &middot; <em>KYOO</em></dd><dt>Русский</dt><dd>реплика-сигнал, сигнал к выходу</dd><dt>Plural</dt><dd><em>cues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>queue</em>, a line of waiting people.</dd></dl>
+<p>A word or signal that tells a performer or technician to do something.</p>
+<ol><li>That line is your <em>cue</em> to come on stage.</li><li>The lighting <em>cues</em> are all in the stage manager's book.</li><li>He missed his <em>cue</em> and came on ten seconds late.</li></ol>
+<hr>
+<h3 id="spotlight">spotlight<a class="hash" href="#spotlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːtlaɪt/ &middot; <em>SPAHT-lyt</em></dd><dt>Русский</dt><dd>прожектор направленного света</dd><dt>Plural</dt><dd><em>spotlights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lamp that throws a narrow circle of bright light onto one performer.</p>
+<ol><li>A single <em>spotlight</em> picked her out of the darkness.</li><li>Two <em>spotlights</em> follow the dancers across the stage.</li><li>Step into the <em>spotlight</em> when the music starts.</li></ol>
+<hr>
+<h3 id="backdrop">backdrop<a class="hash" href="#backdrop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbækdrɑːp/ &middot; <em>BAK-drahp</em></dd><dt>Русский</dt><dd>задник, задняя декорация</dd><dt>Plural</dt><dd><em>backdrops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large painted cloth hung at the back of a stage.</p>
+<ol><li>The <em>backdrop</em> is a painted city skyline.</li><li>They rolled up both <em>backdrops</em> after the show.</li><li>A dark blue <em>backdrop</em> made the night scene work.</li></ol>
+<hr>
+<h3 id="playwright">playwright<a class="hash" href="#playwright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪraɪt/ &middot; <em>PLAY-ryt</em></dd><dt>Русский</dt><dd>драматург</dd><dt>Plural</dt><dd><em>playwrights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled -wright, like <em>shipwright</em>, though it sounds like write and right.</dd></dl>
+<p>A person who writes plays.</p>
+<ol><li>The <em>playwright</em> sat in the back row on opening night.</li><li>Three young <em>playwrights</em> had work in the festival.</li><li>She is a novelist as well as a <em>playwright</em>.</li></ol>
+<hr>
+<h3 id="producer">producer<a class="hash" href="#producer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈduːsər/ &middot; <em>pruh-DOO-sur</em></dd><dt>Русский</dt><dd>продюсер</dd><dt>Plural</dt><dd><em>producers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who raises the money for a show and manages the business side.</p>
+<ol><li>The <em>producer</em> decided to extend the run by a month.</li><li>Two <em>producers</em> pulled out before rehearsals began.</li><li>She works as a <em>producer</em> for a small downtown company.</li></ol>
+<hr>
+<h3 id="dialogue">dialogue<a class="hash" href="#dialogue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪrlɔːɡ/ &middot; <em>DY-uh-lawg</em></dd><dt>Русский</dt><dd>диалог, реплики персонажей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The words that characters speak to one another in a play or film.</p>
+<ol><li>The <em>dialogue</em> in the second act feels stiff.</li><li>Critics praised the sharp, funny <em>dialogue</em>.</li><li>She rewrote most of the <em>dialogue</em> before opening night.</li></ol>
+<hr>
+<h3 id="monologue">monologue<a class="hash" href="#monologue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnəlɔːɡ/ &middot; <em>MAH-nuh-lawg</em></dd><dt>Русский</dt><dd>монолог</dd><dt>Plural</dt><dd><em>monologues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long speech by one character or performer.</p>
+<ol><li>He opens the show with a five-minute <em>monologue</em>.</li><li>Bring two contrasting <em>monologues</em> to the audition.</li><li>Her <em>monologue</em> about her father got a huge reaction.</li></ol>
+<hr>
+<h3 id="soliloquy">soliloquy<a class="hash" href="#soliloquy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈlɪləkwi/ &middot; <em>suh-LIL-uh-kwee</em></dd><dt>Русский</dt><dd>монолог наедине с собой</dd><dt>Plural</dt><dd><em>soliloquies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the second syllable: suh-LIL-uh-kwee.</dd></dl>
+<p>A speech in which a character alone on stage says his thoughts aloud.</p>
+<ol><li>Everyone knows the <em>soliloquy</em> that begins with To be or not to be.</li><li>The play has four <em>soliloquies</em>, all delivered downstage.</li><li>He cut the <em>soliloquy</em> down to twenty lines.</li></ol>
+<hr>
+<h3 id="curtain-call">curtain call<a class="hash" href="#curtain-call" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrtən kɔːl/ &middot; <em>KUR-tuhn KAWL</em></dd><dt>Русский</dt><dd>выход на поклон</dd><dt>Plural</dt><dd><em>curtain calls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moment at the end of a show when the cast comes back on stage to be applauded.</p>
+<ol><li>The audience was still clapping through the third <em>curtain call</em>.</li><li>There were five <em>curtain calls</em> on closing night.</li><li>She was too sick to take her <em>curtain call</em>.</li></ol>
+<hr>
+<h3 id="dress-rehearsal">dress rehearsal<a class="hash" href="#dress-rehearsal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛs rɪˌhɜːrsəl/ &middot; <em>DRES rih-HUR-suhl</em></dd><dt>Русский</dt><dd>генеральная репетиция</dd><dt>Plural</dt><dd><em>dress rehearsals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A full practice performance in costume, just before opening.</p>
+<ol><li>The <em>dress rehearsal</em> is Thursday at seven.</li><li>They ran two <em>dress rehearsals</em> because the first one fell apart.</li><li>Friends and family can come to the final <em>dress rehearsal</em>.</li></ol>
+<hr>
+<h3 id="box-office">box office<a class="hash" href="#box-office" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːks ˌɔːfɪs/ &middot; <em>BAHKS AW-fis</em></dd><dt>Русский</dt><dd>билетная касса</dd><dt>Plural</dt><dd><em>box offices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place in a theater where tickets are sold.</p>
+<ol><li>Pick up your tickets at the <em>box office</em> an hour before the show.</li><li>Both <em>box offices</em> close at eight on show nights.</li><li>The <em>box office</em> is open from noon on weekdays.</li></ol>
+<hr>
+<h3 id="opening-night">opening night<a class="hash" href="#opening-night" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊpənɪŋ naɪt/ &middot; <em>OH-puh-ning NYT</em></dd><dt>Русский</dt><dd>премьера, первый спектакль</dd><dt>Plural</dt><dd><em>opening nights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first public performance of a show.</p>
+<ol><li>Her parents flew in for <em>opening night</em>.</li><li>He has been through nine <em>opening nights</em> and still gets nervous.</li><li><em>Opening night</em> was sold out weeks in advance.</li></ol>
+<hr>
+<h3 id="stage-manager">stage manager<a class="hash" href="#stage-manager" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ ˌmænɪdʒər/ &middot; <em>STAYJ MAN-ih-jur</em></dd><dt>Русский</dt><dd>помощник режиссёра (помреж)</dd><dt>Plural</dt><dd><em>stage managers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who runs rehearsals and calls the cues during a performance.</p>
+<ol><li>The <em>stage manager</em> called places five minutes ago.</li><li>Good <em>stage managers</em> are worth their weight in gold.</li><li>Ask the <em>stage manager</em> where your entrance is.</li></ol>
+<hr>
+<h3 id="stage-fright">stage fright<a class="hash" href="#stage-fright" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ fraɪt/ &middot; <em>STAYJ FRYT</em></dd><dt>Русский</dt><dd>страх сцены, боязнь сцены</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>a lot of stage fright</em>, never <em>a stage fright</em>.</dd></dl>
+<p>Sudden fear felt before or while performing in front of people.</p>
+<ol><li>He gets terrible <em>stage fright</em> before every show.</li><li>A little <em>stage fright</em> is normal, she told the kids.</li><li>She overcame her <em>stage fright</em> after about a year.</li></ol>
+<hr>
+<h3 id="standing-ovation">standing ovation<a class="hash" href="#standing-ovation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstændɪŋ oʊˈveɪʃən/ &middot; <em>STAN-ding oh-VAY-shuhn</em></dd><dt>Русский</dt><dd>овация стоя</dd><dt>Plural</dt><dd><em>standing ovations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Applause given by an audience that has risen to its feet.</p>
+<ol><li>The show got a <em>standing ovation</em> on the first night.</li><li>Two <em>standing ovations</em> in one week is unusual.</li><li>The old actor received a long <em>standing ovation</em>.</li></ol>
+<hr>
+<h3 id="understudy">understudy<a class="hash" href="#understudy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərˌstʌdi/ &middot; <em>UN-dur-stud-ee</em></dd><dt>Русский</dt><dd>дублёр (актёра)</dd><dt>Plural</dt><dd><em>understudies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An actor who learns another actor's part in order to go on if that actor cannot.</p>
+<ol><li>The <em>understudy</em> went on for the lead last Tuesday.</li><li>All three <em>understudies</em> rehearse on Monday mornings.</li><li>She spent a year as an <em>understudy</em> before getting her own role.</li></ol>
+<hr>
+<h3 id="acting">acting<a class="hash" href="#acting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæktɪŋ/ &middot; <em>AK-ting</em></dd><dt>Русский</dt><dd>актёрская игра; актёрское мастерство</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>good acting</em>, never <em>a good acting</em>.</dd></dl>
+<p>The art or work of performing a part in a play or film.</p>
+<ol><li>The <em>acting</em> was better than the script deserved.</li><li>She has been studying <em>acting</em> since high school.</li><li>He gave up <em>acting</em> and became a teacher.</li></ol>
+<hr>
+<h3 id="troupe">troupe<a class="hash" href="#troupe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/truːp/ &middot; <em>TROOP</em></dd><dt>Русский</dt><dd>труппа</dd><dt>Plural</dt><dd><em>troupes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>troop</em>, a group of soldiers.</dd></dl>
+<p>A group of performers who work and travel together.</p>
+<ol><li>A small <em>troupe</em> from Chicago is performing here all week.</li><li>Two dance <em>troupes</em> share the theater on weekends.</li><li>He joined the <em>troupe</em> right out of college.</li></ol>
+<hr>
+<h3 id="villain">villain<a class="hash" href="#villain" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɪlən/ &middot; <em>VIL-uhn</em></dd><dt>Русский</dt><dd>злодей (персонаж)</dd><dt>Plural</dt><dd><em>villains</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The ending is a weak -uhn, not -AIN: VIL-uhn, and it has no connection to <em>village</em>.</dd></dl>
+<p>The bad character in a story or play.</p>
+<ol><li>He always gets cast as the <em>villain</em>.</li><li>The best <em>villains</em> think they are doing the right thing.</li><li>The <em>villain</em> dies at the end of the third act.</li></ol>
+<hr>
+<h3 id="heroine">heroine<a class="hash" href="#heroine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛroʊɪn/ &middot; <em>HEH-roh-in</em></dd><dt>Русский</dt><dd>героиня</dd><dt>Plural</dt><dd><em>heroines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>heroin</em>, the drug.</dd></dl>
+<p>The main female character in a play, film, or book.</p>
+<ol><li>The <em>heroine</em> leaves home in the very first scene.</li><li>Both <em>heroines</em> are played by the same actress.</li><li>She is a <em>heroine</em> you actually want to root for.</li></ol>
+<hr>
+<h3 id="protagonist">protagonist<a class="hash" href="#protagonist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/proʊˈtæɡənɪst/ &middot; <em>proh-TAG-uh-nist</em></dd><dt>Русский</dt><dd>главный герой, протагонист</dd><dt>Plural</dt><dd><em>protagonists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main character, whose story the play follows.</p>
+<ol><li>The <em>protagonist</em> is a retired boxer with nothing left.</li><li>Both <em>protagonists</em> are on stage the whole time.</li><li>You never really like the <em>protagonist</em>, and that is the point.</li></ol>
+<hr>
+<h3 id="antagonist">antagonist<a class="hash" href="#antagonist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ænˈtæɡənɪst/ &middot; <em>an-TAG-uh-nist</em></dd><dt>Русский</dt><dd>антагонист, противник главного героя</dd><dt>Plural</dt><dd><em>antagonists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The character who works against the main character.</p>
+<ol><li>In this version the <em>antagonist</em> is the mother.</li><li>Strong <em>antagonists</em> make a play interesting.</li><li>The <em>antagonist</em> never raises his voice, which is scarier.</li></ol>
+<hr>
+<h3 id="leading-man">leading man<a class="hash" href="#leading-man" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːdɪŋ mæn/ &middot; <em>LEE-ding MAN</em></dd><dt>Русский</dt><dd>исполнитель главной роли</dd><dt>Plural</dt><dd><em>leading men</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>leading men</em>, not leading mans.</dd></dl>
+<p>The actor who plays the most important male part.</p>
+<ol><li>Their <em>leading man</em> broke his ankle two days before opening.</li><li>He played <em>leading men</em> for twenty years.</li><li>The <em>leading man</em> has almost no lines in the last act.</li></ol>
+<hr>
+<h3 id="leading-lady">leading lady<a class="hash" href="#leading-lady" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈliːdɪŋ ˈleɪdi/ &middot; <em>LEE-ding LAY-dee</em></dd><dt>Русский</dt><dd>исполнительница главной роли</dd><dt>Plural</dt><dd><em>leading ladies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The actress who plays the most important female part.</p>
+<ol><li>The <em>leading lady</em> got a bouquet at the curtain call.</li><li>Two former <em>leading ladies</em> were in the audience.</li><li>She was a <em>leading lady</em> on Broadway in the sixties.</li></ol>
+<hr>
+<h3 id="supporting-role">supporting role<a class="hash" href="#supporting-role" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/səˈpɔːrtɪŋ roʊl/ &middot; <em>suh-POR-ting ROHL</em></dd><dt>Русский</dt><dd>роль второго плана</dd><dt>Plural</dt><dd><em>supporting roles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part that is important but smaller than the lead.</p>
+<ol><li>He won an award for a <em>supporting role</em>.</li><li>The best writing in the play is in the <em>supporting roles</em>.</li><li>She took a <em>supporting role</em> just to work with that director.</li></ol>
+<hr>
+<h3 id="title-role">title role<a class="hash" href="#title-role" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtəl roʊl/ &middot; <em>TY-tuhl ROHL</em></dd><dt>Русский</dt><dd>заглавная роль</dd><dt>Plural</dt><dd><em>title roles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part named in the title of the play or opera.</p>
+<ol><li>He is playing the <em>title role</em> in Macbeth.</li><li>She has sung both <em>title roles</em> in that pair of operas.</li><li>The <em>title role</em> is on stage for almost the entire show.</li></ol>
+<hr>
+<h3 id="bit-part">bit part<a class="hash" href="#bit-part" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪt pɑːrt/ &middot; <em>BIT PART</em></dd><dt>Русский</dt><dd>эпизодическая роль</dd><dt>Plural</dt><dd><em>bit parts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small acting part with only a few lines.</p>
+<ol><li>She started out playing a <em>bit part</em> as a waitress.</li><li>He took <em>bit parts</em> for years before anything bigger came along.</li><li>It is a <em>bit part</em>, but it gets the biggest laugh.</li></ol>
+<hr>
+<h3 id="walk-on">walk-on<a class="hash" href="#walk-on" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːk ɑːn/ &middot; <em>WAWK-ahn</em></dd><dt>Русский</dt><dd>роль без слов, выход статиста</dd><dt>Plural</dt><dd><em>walk-ons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A part in which an actor appears on stage but says nothing.</p>
+<ol><li>His first job in theater was a <em>walk-on</em>.</li><li>The crowd scene is played by six <em>walk-ons</em>.</li><li>It is only a <em>walk-on</em>, but you are on stage with the star.</li></ol>
+<hr>
+<h3 id="stand-in">stand-in<a class="hash" href="#stand-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstænd ɪn/ &middot; <em>STAND-in</em></dd><dt>Русский</dt><dd>замена, подменяющий исполнитель</dd><dt>Plural</dt><dd><em>stand-ins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who takes another performer's place for a time.</p>
+<ol><li>They found a <em>stand-in</em> two hours before the show.</li><li>The <em>stand-ins</em> rehearsed while the leads rested.</li><li>He worked as a <em>stand-in</em> on three different productions.</li></ol>
+<hr>
+<h3 id="comedian">comedian<a class="hash" href="#comedian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmiːdiən/ &middot; <em>kuh-MEE-dee-uhn</em></dd><dt>Русский</dt><dd>комик</dd><dt>Plural</dt><dd><em>comedians</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress moves off the first syllable: KAH-muh-dee for comedy, but kuh-MEE-dee-uhn here.</dd></dl>
+<p>A performer whose job is to make people laugh.</p>
+<ol><li>The <em>comedian</em> did forty minutes without a single note.</li><li>Three <em>comedians</em> are on the bill tonight.</li><li>She is a stand-up <em>comedian</em> from Austin.</li></ol>
+<hr>
+<h3 id="stand-up">stand-up<a class="hash" href="#stand-up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstænd ʌp/ &middot; <em>STAND-up</em></dd><dt>Русский</dt><dd>стендап (жанр)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Comedy performed alone at a microphone, talking straight to the audience.</p>
+<ol><li>He has been doing <em>stand-up</em> for six years.</li><li><em>Stand-up</em> is harder than it looks.</li><li>She got into <em>stand-up</em> after college.</li></ol>
+<hr>
+<h3 id="improv">improv<a class="hash" href="#improv" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmprɑːv/ &middot; <em>IM-prahv</em></dd><dt>Русский</dt><dd>импровизация (сценический жанр)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Comic performance made up on the spot, with no script.</p>
+<ol><li>She takes an <em>improv</em> class on Wednesday nights.</li><li><em>Improv</em> teaches you to listen to the other actor.</li><li>The show is half scripted and half <em>improv</em>.</li></ol>
+<hr>
+<h3 id="skit">skit<a class="hash" href="#skit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɪt/ &middot; <em>SKIT</em></dd><dt>Русский</dt><dd>скетч, короткая сценка</dd><dt>Plural</dt><dd><em>skits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short funny scene performed by a few people.</p>
+<ol><li>The fifth graders put on a <em>skit</em> about recycling.</li><li>The show is built out of a dozen short <em>skits</em>.</li><li>Their <em>skit</em> about the DMV ran long.</li></ol>
+<hr>
+<h3 id="gag">gag<a class="hash" href="#gag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡæɡ/ &middot; <em>GAG</em></dd><dt>Русский</dt><dd>гэг, комический трюк</dd><dt>Plural</dt><dd><em>gags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A joke or funny piece of business in a performance.</p>
+<ol><li>The falling-ladder <em>gag</em> gets a laugh every night.</li><li>Half the <em>gags</em> in the second act are physical.</li><li>It is an old <em>gag</em>, but it still works.</li></ol>
+<hr>
+<h3 id="punchline">punchline<a class="hash" href="#punchline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌntʃlaɪn/ &middot; <em>PUNCH-lyn</em></dd><dt>Русский</dt><dd>ударная концовка шутки</dd><dt>Plural</dt><dd><em>punchlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The last words of a joke, where the laugh comes.</p>
+<ol><li>He blew the <em>punchline</em> and had to start over.</li><li>Her <em>punchlines</em> land about half a second later than you expect.</li><li>Everyone in the room saw the <em>punchline</em> coming.</li></ol>
+<hr>
+<h3 id="heckler">heckler<a class="hash" href="#heckler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛklər/ &middot; <em>HEK-lur</em></dd><dt>Русский</dt><dd>крикун из зала</dd><dt>Plural</dt><dd><em>hecklers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone in the audience who shouts rude things at a performer.</p>
+<ol><li>A <em>heckler</em> in the back kept yelling at the band.</li><li>She handles <em>hecklers</em> better than anyone I have seen.</li><li>Security walked the <em>heckler</em> out after the second warning.</li></ol>
+<hr>
+<h3 id="open-mic">open mic<a class="hash" href="#open-mic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊpən ˈmaɪk/ &middot; <em>OH-puhn MYK</em></dd><dt>Русский</dt><dd>открытый микрофон (вечер выступлений)</dd><dt>Plural</dt><dd><em>open mics</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>mic</em> is short for microphone but is said like <em>mike</em>, not to rhyme with pick.</dd></dl>
+<p>An evening where anyone who signs up can perform for a few minutes.</p>
+<ol><li>There is an <em>open mic</em> at the coffee shop on Tuesdays.</li><li>He does two or three <em>open mics</em> a week.</li><li>She tried out her new material at an <em>open mic</em>.</li></ol>
+<hr>
+<h3 id="magician">magician<a class="hash" href="#magician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈdʒɪʃən/ &middot; <em>muh-JISH-uhn</em></dd><dt>Русский</dt><dd>фокусник, иллюзионист</dd><dt>Plural</dt><dd><em>magicians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who entertains people with tricks that look impossible.</p>
+<ol><li>They hired a <em>magician</em> for the kids' party.</li><li>Two <em>magicians</em> share the stage in the second half.</li><li>The <em>magician</em> pulled a card out of my jacket pocket.</li></ol>
+<hr>
+<h3 id="magic-trick">magic trick<a class="hash" href="#magic-trick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmædʒɪk trɪk/ &middot; <em>MAJ-ik TRIK</em></dd><dt>Русский</dt><dd>фокус</dd><dt>Plural</dt><dd><em>magic tricks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single act of stage magic that fools the audience.</p>
+<ol><li>He learned his first <em>magic trick</em> when he was nine.</li><li>Some <em>magic tricks</em> are three hundred years old.</li><li>Do not explain the <em>magic trick</em> to the children.</li></ol>
+<hr>
+<h3 id="clown">clown<a class="hash" href="#clown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klaʊn/ &middot; <em>KLOWN</em></dd><dt>Русский</dt><dd>клоун</dd><dt>Plural</dt><dd><em>clowns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer in funny makeup and costume who does silly things to make people laugh.</p>
+<ol><li>A <em>clown</em> came out and made balloon animals.</li><li>The <em>clowns</em> work the crowd between the animal acts.</li><li>He trained as a <em>clown</em> at a circus school in Florida.</li></ol>
+<hr>
+<h3 id="acrobat">acrobat<a class="hash" href="#acrobat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækrəbæt/ &middot; <em>AK-ruh-bat</em></dd><dt>Русский</dt><dd>акробат</dd><dt>Plural</dt><dd><em>acrobats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who does jumps, flips, and balancing feats.</p>
+<ol><li>An <em>acrobat</em> walked across the stage on her hands.</li><li>Six <em>acrobats</em> built a human tower.</li><li>The <em>acrobat</em> landed perfectly and the crowd went crazy.</li></ol>
+<hr>
+<h3 id="juggler">juggler<a class="hash" href="#juggler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌɡlər/ &middot; <em>JUG-lur</em></dd><dt>Русский</dt><dd>жонглёр</dd><dt>Plural</dt><dd><em>jugglers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who keeps several objects in the air at once.</p>
+<ol><li>A <em>juggler</em> was working the line outside the theater.</li><li>Both <em>jugglers</em> used knives in the second half.</li><li>The <em>juggler</em> kept five clubs going while riding a unicycle.</li></ol>
+<hr>
+<h3 id="puppet">puppet<a class="hash" href="#puppet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌpɪt/ &middot; <em>PUP-it</em></dd><dt>Русский</dt><dd>кукла (театральная)</dd><dt>Plural</dt><dd><em>puppets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A doll moved by hand or by strings to act out a story.</p>
+<ol><li>The <em>puppet</em> is worked by two people at once.</li><li>All the <em>puppets</em> were made out of foam and cloth.</li><li>She talked to the <em>puppet</em> as if it were a person.</li></ol>
+<hr>
+<h3 id="puppeteer">puppeteer<a class="hash" href="#puppeteer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpʌpəˈtɪr/ &middot; <em>pup-uh-TEER</em></dd><dt>Русский</dt><dd>кукловод</dd><dt>Plural</dt><dd><em>puppeteers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who moves and gives a voice to a puppet.</p>
+<ol><li>The <em>puppeteer</em> stood in plain sight, dressed in black.</li><li>Three <em>puppeteers</em> operate the horse.</li><li>She has worked as a <em>puppeteer</em> since she was twenty.</li></ol>
+<hr>
+<h3 id="marionette">marionette<a class="hash" href="#marionette" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmæriəˈnɛt/ &middot; <em>mar-ee-uh-NET</em></dd><dt>Русский</dt><dd>марионетка (кукла на нитях)</dd><dt>Plural</dt><dd><em>marionettes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A puppet moved from above by strings.</p>
+<ol><li>The <em>marionette</em> walked across the little stage.</li><li>He carves his own <em>marionettes</em> out of basswood.</li><li>One tangled string can ruin a <em>marionette</em>.</li></ol>
+<hr>
+<h3 id="puppet-show">puppet show<a class="hash" href="#puppet-show" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌpɪt ʃoʊ/ &middot; <em>PUP-it SHOH</em></dd><dt>Русский</dt><dd>кукольный спектакль</dd><dt>Plural</dt><dd><em>puppet shows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performance acted out with puppets.</p>
+<ol><li>The library puts on a free <em>puppet show</em> every Saturday.</li><li>The kids sat through two <em>puppet shows</em> without moving.</li><li>The <em>puppet show</em> lasts about half an hour.</li></ol>
+<hr>
+<h3 id="mime">mime<a class="hash" href="#mime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/maɪm/ &middot; <em>MYM</em></dd><dt>Русский</dt><dd>мим</dd><dt>Plural</dt><dd><em>mimes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who acts silently, using only movement and facial expression.</p>
+<ol><li>A <em>mime</em> was working the corner by the fountain.</li><li>Two <em>mimes</em> opened the show with a short piece.</li><li>The <em>mime</em> pretended to be trapped in a box.</li></ol>
+<hr>
+<h3 id="pantomime">pantomime<a class="hash" href="#pantomime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæntəmaɪm/ &middot; <em>PAN-tuh-mym</em></dd><dt>Русский</dt><dd>пантомима</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In Britain a <em>pantomime</em> is also a comic Christmas play for families, a sense Americans do not use.</dd></dl>
+<p>Acting without words, using gestures and expressions alone.</p>
+<ol><li>The whole opening is done in <em>pantomime</em>.</li><li>She studied <em>pantomime</em> in Paris for two years.</li><li>He explained the whole story in <em>pantomime</em>.</li></ol>
+<hr>
+<h3 id="ventriloquist">ventriloquist<a class="hash" href="#ventriloquist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɛnˈtrɪləkwɪst/ &middot; <em>ven-TRIL-uh-kwist</em></dd><dt>Русский</dt><dd>чревовещатель</dd><dt>Plural</dt><dd><em>ventriloquists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performer who speaks without moving the lips so a dummy seems to talk.</p>
+<ol><li>The <em>ventriloquist</em> and his dummy closed the first half.</li><li>Good <em>ventriloquists</em> never let you see the lips move.</li><li>She is the only <em>ventriloquist</em> I have ever found funny.</li></ol>
+<hr>
+<h3 id="tightrope">tightrope<a class="hash" href="#tightrope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtroʊp/ &middot; <em>TYT-rohp</em></dd><dt>Русский</dt><dd>канат (для канатоходца)</dd><dt>Plural</dt><dd><em>tightropes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rope stretched high above the ground for an acrobat to walk on.</p>
+<ol><li>She crossed the <em>tightrope</em> carrying a long pole.</li><li>The two <em>tightropes</em> are strung at different heights.</li><li>There was no net under the <em>tightrope</em>.</li></ol>
+<hr>
+<h3 id="trapeze">trapeze<a class="hash" href="#trapeze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træˈpiːz/ &middot; <em>tra-PEEZ</em></dd><dt>Русский</dt><dd>трапеция (цирковой снаряд)</dd><dt>Plural</dt><dd><em>trapezes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the second syllable: tra-PEEZ.</dd></dl>
+<p>A short bar hung on ropes that acrobats swing from.</p>
+<ol><li>He caught her by the wrists as she left the <em>trapeze</em>.</li><li>Both <em>trapezes</em> swing out over the audience.</li><li>She has performed on the <em>trapeze</em> since she was fourteen.</li></ol>
+<hr>
+<h3 id="stunt">stunt<a class="hash" href="#stunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stʌnt/ &middot; <em>STUNT</em></dd><dt>Русский</dt><dd>трюк</dd><dt>Plural</dt><dd><em>stunts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A difficult or dangerous action performed to impress an audience.</p>
+<ol><li>The fall off the balcony is the hardest <em>stunt</em> in the show.</li><li>All the <em>stunts</em> are rehearsed slowly first.</li><li>He does his own <em>stunts</em>, which makes the insurance people nervous.</li></ol>
+<hr>
+<h3 id="entertainer">entertainer<a class="hash" href="#entertainer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛntərˈteɪnər/ &middot; <em>en-tur-TAY-nur</em></dd><dt>Русский</dt><dd>артист эстрады, эстрадный исполнитель</dd><dt>Plural</dt><dd><em>entertainers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is to perform for an audience.</p>
+<ol><li>He was a working <em>entertainer</em> for fifty years.</li><li>The cruise ship hires a dozen <em>entertainers</em> a season.</li><li>She is a singer, but really she is an <em>entertainer</em>.</li></ol>
+<hr>
+<h3 id="choreography">choreography<a class="hash" href="#choreography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːriˈɑːɡrəfi/ &middot; <em>kor-ee-AH-gruh-fee</em></dd><dt>Русский</dt><dd>хореография</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>the choreography</em>, never <em>the choreographies</em>.</dd></dl>
+<p>The arrangement of the steps and movements in a dance.</p>
+<ol><li>The <em>choreography</em> in the ballroom scene is stunning.</li><li>She is learning the <em>choreography</em> from a video.</li><li>New <em>choreography</em> was written for this revival.</li></ol>
+<hr>
+<h3 id="choreographer">choreographer<a class="hash" href="#choreographer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɔːriˈɑːɡrəfər/ &middot; <em>kor-ee-AH-gruh-fur</em></dd><dt>Русский</dt><dd>хореограф</dd><dt>Plural</dt><dd><em>choreographers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who creates the dances for a show.</p>
+<ol><li>The <em>choreographer</em> changed the ending after the preview.</li><li>Two <em>choreographers</em> worked on the musical.</li><li>She started as a dancer and became a <em>choreographer</em> at thirty.</li></ol>
+<hr>
+<h3 id="ballerina">ballerina<a class="hash" href="#ballerina" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbæləˈriːnə/ &middot; <em>bal-uh-REE-nuh</em></dd><dt>Русский</dt><dd>балерина</dd><dt>Plural</dt><dd><em>ballerinas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman who dances leading roles in ballet.</p>
+<ol><li>The <em>ballerina</em> held the pose for a full ten seconds.</li><li>Three <em>ballerinas</em> alternate in the part.</li><li>She wanted to be a <em>ballerina</em> from the age of four.</li></ol>
+<hr>
+<h3 id="tutu">tutu<a class="hash" href="#tutu" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːtuː/ &middot; <em>TOO-too</em></dd><dt>Русский</dt><dd>пачка (балетный костюм)</dd><dt>Plural</dt><dd><em>tutus</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short stiff skirt that sticks out, worn by ballet dancers.</p>
+<ol><li>Her <em>tutu</em> had about twelve layers of net.</li><li>The <em>tutus</em> are hung upside down in the wardrobe room.</li><li>He wore a pink <em>tutu</em> in the comic number.</li></ol>
+<hr>
+<h3 id="singing">singing<a class="hash" href="#singing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪŋɪŋ/ &middot; <em>SING-ing</em></dd><dt>Русский</dt><dd>пение</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>beautiful singing</em>, never <em>a singing</em>.</dd></dl>
+<p>The act or skill of making music with the voice.</p>
+<ol><li>The <em>singing</em> was the strongest part of the evening.</li><li>She has been studying <em>singing</em> for three years.</li><li>There is more dancing than <em>singing</em> in this show.</li></ol>
+<hr>
+<h3 id="diction">diction<a class="hash" href="#diction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪkʃən/ &middot; <em>DIK-shuhn</em></dd><dt>Русский</dt><dd>дикция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>How clearly a speaker or singer pronounces words.</p>
+<ol><li>His <em>diction</em> is so clear you catch every word from the balcony.</li><li>The class works on breathing and <em>diction</em>.</li><li>Her <em>diction</em> got sloppy when she rushed.</li></ol>
+<hr>
+<h3 id="projection">projection<a class="hash" href="#projection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈdʒɛkʃən/ &middot; <em>pruh-JEK-shuhn</em></dd><dt>Русский</dt><dd>сила голоса, посыл звука в зал</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability to make the voice carry to the back of a hall.</p>
+<ol><li>She has wonderful <em>projection</em> for such a small person.</li><li>We spent the class working on <em>projection</em>.</li><li>Without a microphone you need real <em>projection</em>.</li></ol>
+<hr>
+<h3 id="timing">timing<a class="hash" href="#timing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪmɪŋ/ &middot; <em>TY-ming</em></dd><dt>Русский</dt><dd>чувство времени, тайминг</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sense of exactly when to say or do something for the best effect.</p>
+<ol><li>His comic <em>timing</em> is perfect.</li><li>Good <em>timing</em> cannot really be taught.</li><li>The <em>timing</em> of the blackout was off by a beat.</li></ol>
+<hr>
+<h3 id="gesture">gesture<a class="hash" href="#gesture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒɛstʃər/ &middot; <em>JES-chur</em></dd><dt>Русский</dt><dd>жест</dd><dt>Plural</dt><dd><em>gestures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A movement of the hands, head, or body that expresses something.</p>
+<ol><li>One small <em>gesture</em> told us everything about the character.</li><li>The director cut half her <em>gestures</em> to make the scene simpler.</li><li>He made a <em>gesture</em> toward the door without looking at it.</li></ol>
+<hr>
+<h3 id="mannerism">mannerism<a class="hash" href="#mannerism" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænəˌrɪzəm/ &middot; <em>MAN-uh-riz-uhm</em></dd><dt>Русский</dt><dd>характерная манера, привычка (в поведении)</dd><dt>Plural</dt><dd><em>mannerisms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A habit of movement or speech that is typical of a person.</p>
+<ol><li>He copied his grandfather's <em>mannerism</em> of rubbing his chin.</li><li>She built the character out of three small <em>mannerisms</em>.</li><li>That nervous <em>mannerism</em> with the glasses is very funny.</li></ol>
+<hr>
+<h3 id="stage-presence">stage presence<a class="hash" href="#stage-presence" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ ˌprɛzəns/ &middot; <em>STAYJ PREZ-uhns</em></dd><dt>Русский</dt><dd>сценическое обаяние</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>great stage presence</em>, never <em>a great stage presence</em>.</dd></dl>
+<p>The quality of holding an audience's attention just by being on stage.</p>
+<ol><li>The kid has real <em>stage presence</em>.</li><li>You can teach technique, but <em>stage presence</em> is harder.</li><li>She has enormous <em>stage presence</em> and a very quiet voice.</li></ol>
+<hr>
+<h3 id="stage-whisper">stage whisper<a class="hash" href="#stage-whisper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ ˌwɪspər/ &middot; <em>STAYJ WIS-pur</em></dd><dt>Русский</dt><dd>театральный шёпот</dd><dt>Plural</dt><dd><em>stage whispers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loud whisper meant to be heard by everyone listening.</p>
+<ol><li>He said it in a <em>stage whisper</em> the whole theater could hear.</li><li>Their <em>stage whispers</em> got the biggest laugh of the night.</li><li>She asked in a <em>stage whisper</em> whether it was over yet.</li></ol>
+<hr>
+<h3 id="aside">aside<a class="hash" href="#aside" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsaɪd/ &middot; <em>uh-SYD</em></dd><dt>Русский</dt><dd>реплика в сторону</dd><dt>Plural</dt><dd><em>asides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A remark a character makes to the audience that the other characters do not hear.</p>
+<ol><li>He turns and delivers an <em>aside</em> right to the front row.</li><li>The play is full of <em>asides</em> to the audience.</li><li>That one <em>aside</em> explains the whole plot.</li></ol>
+<hr>
+<h3 id="stage-direction">stage direction<a class="hash" href="#stage-direction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ dɪˌrɛkʃən/ &middot; <em>STAYJ dih-REK-shuhn</em></dd><dt>Русский</dt><dd>ремарка (в тексте пьесы)</dd><dt>Plural</dt><dd><em>stage directions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An instruction printed in a script telling the actors how or where to move.</p>
+<ol><li>The <em>stage direction</em> just says: he laughs, then stops.</li><li>Read the <em>stage directions</em> before you learn the lines.</li><li>The most famous <em>stage direction</em> in Shakespeare involves a bear.</li></ol>
+<hr>
+<h3 id="blocking">blocking<a class="hash" href="#blocking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɑːkɪŋ/ &middot; <em>BLAH-king</em></dd><dt>Русский</dt><dd>разводка мизансцен</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The planned positions and movements of the actors on stage.</p>
+<ol><li>We set the <em>blocking</em> for act one this morning.</li><li>The <em>blocking</em> changes once we get into the real space.</li><li>Write your <em>blocking</em> in pencil, not pen.</li></ol>
+<hr>
+<h3 id="staging">staging<a class="hash" href="#staging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒɪŋ/ &middot; <em>STAY-jing</em></dd><dt>Русский</dt><dd>постановка, сценическое решение</dd><dt>Plural</dt><dd><em>stagings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular way of putting a play on stage.</p>
+<ol><li>It is a spare, modern <em>staging</em> with almost no set.</li><li>I have seen four different <em>stagings</em> of this opera.</li><li>The <em>staging</em> puts the audience on three sides.</li></ol>
+<hr>
+<h3 id="read-through">read-through<a class="hash" href="#read-through" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːd θruː/ &middot; <em>REED-throo</em></dd><dt>Русский</dt><dd>читка (пьесы за столом)</dd><dt>Plural</dt><dd><em>read-throughs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rehearsal where the cast sits and reads the whole script aloud.</p>
+<ol><li>The first <em>read-through</em> is Monday at ten.</li><li>We did two <em>read-throughs</em> before anyone stood up.</li><li>The <em>read-through</em> took three hours with the breaks.</li></ol>
+<hr>
+<h3 id="run-through">run-through<a class="hash" href="#run-through" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌn θruː/ &middot; <em>RUN-throo</em></dd><dt>Русский</dt><dd>прогон</dd><dt>Plural</dt><dd><em>run-throughs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rehearsal of a whole show from start to finish without stopping.</p>
+<ol><li>We have a <em>run-through</em> at four with no costumes.</li><li>The last two <em>run-throughs</em> went smoothly.</li><li>Let us do a quick <em>run-through</em> of the fight scene.</li></ol>
+<hr>
+<h3 id="callback">callback<a class="hash" href="#callback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːlbæk/ &middot; <em>KAWL-bak</em></dd><dt>Русский</dt><dd>повторное прослушивание</dd><dt>Plural</dt><dd><em>callbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A second audition that only some of the actors are invited to.</p>
+<ol><li>She got a <em>callback</em> for the mother.</li><li><em>Callbacks</em> are on Saturday morning.</li><li>Three <em>callbacks</em> and he still did not get the part.</li></ol>
+<hr>
+<h3 id="cast-list">cast list<a class="hash" href="#cast-list" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæst lɪst/ &middot; <em>KAST LIST</em></dd><dt>Русский</dt><dd>список исполнителей, состав</dd><dt>Plural</dt><dd><em>cast lists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A posted list showing which actor is playing which part.</p>
+<ol><li>The <em>cast list</em> goes up on the door Friday afternoon.</li><li>Both <em>cast lists</em> are printed in the program.</li><li>She read the <em>cast list</em> twice before she believed it.</li></ol>
+<hr>
+<h3 id="cue-card">cue card<a class="hash" href="#cue-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuː kɑːrd/ &middot; <em>KYOO KARD</em></dd><dt>Русский</dt><dd>карточка-подсказка</dd><dt>Plural</dt><dd><em>cue cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large card held off camera or offstage with words for the performer to read.</p>
+<ol><li>The host reads most of it off a <em>cue card</em>.</li><li>Somebody dropped the <em>cue cards</em> out of order.</li><li>He wrote the whole opening on one <em>cue card</em>.</li></ol>
+<hr>
+<h3 id="prompter">prompter<a class="hash" href="#prompter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɑːmptər/ &middot; <em>PRAHMP-tur</em></dd><dt>Русский</dt><dd>суфлёр</dd><dt>Plural</dt><dd><em>prompters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who quietly feeds actors their lines when they forget.</p>
+<ol><li>The <em>prompter</em> sits just out of sight in the wings.</li><li>Old opera houses had <em>prompters</em> in a box at the front of the stage.</li><li>He froze, and the <em>prompter</em> saved him.</li></ol>
+<hr>
+<h3 id="sound-check">sound check<a class="hash" href="#sound-check" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaʊnd tʃɛk/ &middot; <em>SOWND CHEK</em></dd><dt>Русский</dt><dd>саундчек, проверка звука</dd><dt>Plural</dt><dd><em>sound checks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A test of the microphones and speakers before an audience comes in.</p>
+<ol><li><em>Sound check</em> is at five, doors at seven.</li><li>They ran two <em>sound checks</em> because of the buzz in the monitors.</li><li>Be at the theater in time for the <em>sound check</em>.</li></ol>
+<hr>
+<h3 id="tech-rehearsal">tech rehearsal<a class="hash" href="#tech-rehearsal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛk rɪˌhɜːrsəl/ &middot; <em>TEK rih-HUR-suhl</em></dd><dt>Русский</dt><dd>техническая репетиция</dd><dt>Plural</dt><dd><em>tech rehearsals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rehearsal that works through the lighting, sound, and scene changes.</p>
+<ol><li>The <em>tech rehearsal</em> ran until one in the morning.</li><li>We have two <em>tech rehearsals</em> before we add the costumes.</li><li>Nothing is slower than a <em>tech rehearsal</em>.</li></ol>
+<hr>
+<h3 id="scene-change">scene change<a class="hash" href="#scene-change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːn tʃeɪndʒ/ &middot; <em>SEEN CHAYNJ</em></dd><dt>Русский</dt><dd>смена декораций</dd><dt>Plural</dt><dd><em>scene changes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moment when the set is changed from one location to another.</p>
+<ol><li>The <em>scene change</em> has to happen in under thirty seconds.</li><li>Music covers the <em>scene changes</em>.</li><li>That <em>scene change</em> needs four people and a rope.</li></ol>
+<hr>
+<h3 id="costume-change">costume change<a class="hash" href="#costume-change" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːstuːm tʃeɪndʒ/ &middot; <em>KAHS-toom CHAYNJ</em></dd><dt>Русский</dt><dd>смена костюма</dd><dt>Plural</dt><dd><em>costume changes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A change of clothes made by a performer during a show.</p>
+<ol><li>She has a forty-second <em>costume change</em> in the wings.</li><li>There are nine <em>costume changes</em> in the second half alone.</li><li>The <em>costume change</em> takes two dressers.</li></ol>
+<hr>
+<h3 id="greasepaint">greasepaint<a class="hash" href="#greasepaint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡriːspeɪnt/ &middot; <em>GREES-paynt</em></dd><dt>Русский</dt><dd>театральный грим</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>some greasepaint</em>, never <em>a greasepaint</em>.</dd></dl>
+<p>Thick oily makeup worn by stage performers.</p>
+<ol><li>The dressing room still smells of <em>greasepaint</em>.</li><li>He wiped the <em>greasepaint</em> off with a towel.</li><li>Under the lights you need heavier <em>greasepaint</em>.</li></ol>
+<hr>
+<h3 id="costume-designer">costume designer<a class="hash" href="#costume-designer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːstuːm dɪˌzaɪnər/ &middot; <em>KAHS-toom dih-ZY-nur</em></dd><dt>Русский</dt><dd>художник по костюмам</dd><dt>Plural</dt><dd><em>costume designers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who plans and makes the clothes worn in a production.</p>
+<ol><li>The <em>costume designer</em> set the whole play in the 1940s.</li><li>Two <em>costume designers</em> shared the credit.</li><li>Ask the <em>costume designer</em> before you take that coat home.</li></ol>
+<hr>
+<h3 id="lighting-designer">lighting designer<a class="hash" href="#lighting-designer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪtɪŋ dɪˌzaɪnər/ &middot; <em>LY-ting dih-ZY-nur</em></dd><dt>Русский</dt><dd>художник по свету</dd><dt>Plural</dt><dd><em>lighting designers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who plans how a show will be lit.</p>
+<ol><li>The <em>lighting designer</em> wanted the whole first act in shadow.</li><li>Both <em>lighting designers</em> trained at the same school.</li><li>The <em>lighting designer</em> is up in the balcony with a laptop.</li></ol>
+<hr>
+<h3 id="set-design">set design<a class="hash" href="#set-design" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛt dɪˌzaɪn/ &middot; <em>SET dih-ZYN</em></dd><dt>Русский</dt><dd>сценография, оформление сцены</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The art of planning the scenery for a stage production.</p>
+<ol><li>The <em>set design</em> is the best thing about the production.</li><li>She teaches <em>set design</em> at the community college.</li><li>They cut the budget for <em>set design</em> in half.</li></ol>
+<hr>
+<h3 id="sound-effect">sound effect<a class="hash" href="#sound-effect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaʊnd ɪˌfɛkt/ &middot; <em>SOWND ih-FEKT</em></dd><dt>Русский</dt><dd>звуковой эффект</dd><dt>Plural</dt><dd><em>sound effects</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A recorded or created noise used in a performance.</p>
+<ol><li>The thunder is a <em>sound effect</em>, not a real storm.</li><li>All the <em>sound effects</em> run off one laptop.</li><li>That door-slam <em>sound effect</em> comes in a beat too late.</li></ol>
+<hr>
+<h3 id="special-effect">special effect<a class="hash" href="#special-effect" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌspɛʃəl ɪˈfɛkt/ &middot; <em>SPESH-uhl ih-FEKT</em></dd><dt>Русский</dt><dd>спецэффект</dd><dt>Plural</dt><dd><em>special effects</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trick used on stage or screen to make something impossible look real.</p>
+<ol><li>The flying is the one big <em>special effect</em> in the show.</li><li>The <em>special effects</em> are simple but they work.</li><li>That fire is a <em>special effect</em> made of silk and fans.</li></ol>
+<hr>
+<h3 id="stagehand">stagehand<a class="hash" href="#stagehand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒhænd/ &middot; <em>STAYJ-hand</em></dd><dt>Русский</dt><dd>рабочий сцены</dd><dt>Plural</dt><dd><em>stagehands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker who moves scenery and equipment during a show.</p>
+<ol><li>A <em>stagehand</em> handed her the umbrella in the dark.</li><li>Six <em>stagehands</em> strike the set in twenty minutes.</li><li>He worked as a <em>stagehand</em> while he was in school.</li></ol>
+<hr>
+<h3 id="stage-crew">stage crew<a class="hash" href="#stage-crew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ kruː/ &middot; <em>STAYJ KROO</em></dd><dt>Русский</dt><dd>бригада рабочих сцены</dd><dt>Plural</dt><dd><em>stage crews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The team of people who handle scenery, props, and equipment backstage.</p>
+<ol><li>The <em>stage crew</em> wears black so the audience does not see them.</li><li>Both <em>stage crews</em> were called in for the load-out.</li><li>Thank the <em>stage crew</em> before you thank anyone else.</li></ol>
+<hr>
+<h3 id="green-room">green room<a class="hash" href="#green-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡriːn ruːm/ &middot; <em>GREEN ROOM</em></dd><dt>Русский</dt><dd>артистическая, комната отдыха актёров</dd><dt>Plural</dt><dd><em>green rooms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The room is not usually green; the name is old and nobody agrees where it came from.</dd></dl>
+<p>A room where performers wait and relax before going on.</p>
+<ol><li>There is coffee and a couch in the <em>green room</em>.</li><li>The two <em>green rooms</em> are on different floors.</li><li>We waited in the <em>green room</em> for almost an hour.</li></ol>
+<hr>
+<h3 id="stage-door">stage door<a class="hash" href="#stage-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪdʒ dɔːr/ &middot; <em>STAYJ DOR</em></dd><dt>Русский</dt><dd>служебный вход (в театр)</dd><dt>Plural</dt><dd><em>stage doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The side entrance used by performers and crew.</p>
+<ol><li>Fans wait by the <em>stage door</em> after every show.</li><li>The <em>stage doors</em> are on the alley behind the building.</li><li>She signed programs at the <em>stage door</em> for twenty minutes.</li></ol>
+<hr>
+<h3 id="rigging">rigging<a class="hash" href="#rigging" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪɡɪŋ/ &middot; <em>RIG-ing</em></dd><dt>Русский</dt><dd>такелаж, подвесное оборудование сцены</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>the rigging</em>, never <em>the riggings</em>.</dd></dl>
+<p>The ropes, pulleys, and bars used to raise and lower scenery and lights.</p>
+<ol><li>The <em>rigging</em> above the stage is inspected every year.</li><li>Do not touch the <em>rigging</em> unless you have been trained.</li><li>Old theaters still have hemp rope in the <em>rigging</em>.</li></ol>
+<hr>
+<h3 id="counterweight">counterweight<a class="hash" href="#counterweight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊntərweɪt/ &middot; <em>KOWN-tur-wayt</em></dd><dt>Русский</dt><dd>противовес</dd><dt>Plural</dt><dd><em>counterweights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy block used to balance the weight of scenery being flown.</p>
+<ol><li>Add another <em>counterweight</em> or the drop will fly up too fast.</li><li>The <em>counterweights</em> are stacked on a steel frame backstage.</li><li>One loose <em>counterweight</em> is a serious hazard.</li></ol>
+<hr>
+<h3 id="trapdoor">trapdoor<a class="hash" href="#trapdoor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræpdɔːr/ &middot; <em>TRAP-dor</em></dd><dt>Русский</dt><dd>люк (в полу сцены)</dd><dt>Plural</dt><dd><em>trapdoors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A door in the floor of a stage that a performer can drop through.</p>
+<ol><li>The ghost comes up through a <em>trapdoor</em>.</li><li>There are two <em>trapdoors</em> downstage.</li><li>Someone left the <em>trapdoor</em> open and that is dangerous.</li></ol>
+<hr>
+<h3 id="scrim">scrim<a class="hash" href="#scrim" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skrɪm/ &middot; <em>SKRIM</em></dd><dt>Русский</dt><dd>тюлевый занавес, сетчатый задник</dd><dt>Plural</dt><dd><em>scrims</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loose-woven cloth that looks solid when lit from the front and clear when lit from behind.</p>
+<ol><li>The whole dream sequence is played behind a <em>scrim</em>.</li><li>Both <em>scrims</em> fly out before the last scene.</li><li>Light the <em>scrim</em> from the front and it becomes a wall.</li></ol>
+<hr>
+<h3 id="footlights">footlights<a class="hash" href="#footlights" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtlaɪts/ &middot; <em>FUUT-lyts</em></dd><dt>Русский</dt><dd>рампа, огни рампы</dd><dt>Plural</dt><dd><em>footlights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural: <em>the footlights</em>, never a footlight.</dd></dl>
+<p>A row of lights along the front edge of the stage floor.</p>
+<ol><li>The old theater still has <em>footlights</em> along the apron.</li><li>She stepped up to the <em>footlights</em> and started to sing.</li><li>The <em>footlights</em> throw shadows up onto the actors' faces.</li></ol>
+<hr>
+<h3 id="floodlight">floodlight<a class="hash" href="#floodlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflʌdlaɪt/ &middot; <em>FLUD-lyt</em></dd><dt>Русский</dt><dd>прожектор заливающего света</dd><dt>Plural</dt><dd><em>floodlights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>flood</em> rhymes with blood, not with food: FLUD-lyt.</dd></dl>
+<p>A lamp that throws a wide, soft spread of light.</p>
+<ol><li>A <em>floodlight</em> washes the back wall in amber.</li><li>The <em>floodlights</em> on the balcony rail cover the whole stage.</li><li>Swap the spotlight for a <em>floodlight</em> in that scene.</li></ol>
+<hr>
+<h3 id="limelight">limelight<a class="hash" href="#limelight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪmlaɪt/ &middot; <em>LYM-lyt</em></dd><dt>Русский</dt><dd>свет рампы; центр внимания</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, and almost always used as <em>in the limelight</em>.</dd></dl>
+<p>Public attention, from an old kind of bright stage light.</p>
+<ol><li>After forty years in the <em>limelight</em> she wanted quiet.</li><li>He has never been comfortable in the <em>limelight</em>.</li><li>The younger dancers are stepping into the <em>limelight</em> now.</li></ol>
+<hr>
+<h3 id="proscenium">proscenium<a class="hash" href="#proscenium" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈsiːniəm/ &middot; <em>pruh-SEE-nee-uhm</em></dd><dt>Русский</dt><dd>просцениум, портал сцены</dd><dt>Plural</dt><dd><em>prosceniums</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The arch or frame through which the audience sees a traditional stage.</p>
+<ol><li>The <em>proscenium</em> is forty feet wide.</li><li>Older <em>prosceniums</em> are decorated with gold plasterwork.</li><li>They hung a banner across the <em>proscenium</em>.</li></ol>
+<hr>
+<h3 id="orchestra-pit">orchestra pit<a class="hash" href="#orchestra-pit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːrkɪstrə pɪt/ &middot; <em>OR-kuh-struh PIT</em></dd><dt>Русский</dt><dd>оркестровая яма</dd><dt>Plural</dt><dd><em>orchestra pits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sunken area in front of the stage where the musicians play.</p>
+<ol><li>Nineteen players are packed into the <em>orchestra pit</em>.</li><li>Some theaters cover their <em>orchestra pits</em> to add seats.</li><li>You can see the conductor's head above the <em>orchestra pit</em>.</li></ol>
+<hr>
+<h3 id="box-seat">box seat<a class="hash" href="#box-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːks siːt/ &middot; <em>BAHKS SEET</em></dd><dt>Русский</dt><dd>место в ложе</dd><dt>Plural</dt><dd><em>box seats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A seat in a small separate section at the side of a theater.</p>
+<ol><li>Her uncle got us a <em>box seat</em> for the opening.</li><li>The <em>box seats</em> are expensive and the view is sideways.</li><li>He watched the whole second act from a <em>box seat</em>.</li></ol>
+<hr>
+<h3 id="tier">tier<a class="hash" href="#tier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪr/ &middot; <em>TEER</em></dd><dt>Русский</dt><dd>ярус (в зрительном зале)</dd><dt>Plural</dt><dd><em>tiers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like <em>tear</em> meaning a drop from the eye, not like <em>tear</em> meaning to rip.</dd></dl>
+<p>One of the levels of seating rising above the main floor.</p>
+<ol><li>The top <em>tier</em> is the cheapest place to sit.</li><li>The old opera house has four <em>tiers</em> of boxes.</li><li>We were on the second <em>tier</em>, right over the stage.</li></ol>
+<hr>
+<h3 id="row">row<a class="hash" href="#row" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/roʊ/ &middot; <em>ROH</em></dd><dt>Русский</dt><dd>ряд (кресел)</dd><dt>Plural</dt><dd><em>rows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Here it rhymes with go. The same spelling said /raʊ/, rhyming with cow, means a noisy argument.</dd></dl>
+<p>A line of seats side by side in a theater.</p>
+<ol><li>Our seats are in <em>row</em> G, near the middle.</li><li>The first three <em>rows</em> get splashed in this show.</li><li>She stood up and made everyone in the <em>row</em> move.</li></ol>
+<hr>
+<h3 id="front-row">front row<a class="hash" href="#front-row" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌnt roʊ/ &middot; <em>FRUNT ROH</em></dd><dt>Русский</dt><dd>первый ряд</dd><dt>Plural</dt><dd><em>front rows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The line of seats closest to the stage.</p>
+<ol><li>Never sit in the <em>front row</em> at a comedy show.</li><li>The <em>front rows</em> were held for the producers.</li><li>From the <em>front row</em> you can hear the actors breathing.</li></ol>
+<hr>
+<h3 id="aisle-seat">aisle seat<a class="hash" href="#aisle-seat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪl siːt/ &middot; <em>YL SEET</em></dd><dt>Русский</dt><dd>место у прохода</dd><dt>Plural</dt><dd><em>aisle seats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The s in <em>aisle</em> is silent; the word sounds like <em>I'll</em>.</dd></dl>
+<p>A seat at the end of a row, next to the walkway.</p>
+<ol><li>He always asks for an <em>aisle seat</em>.</li><li>Both <em>aisle seats</em> were already taken.</li><li>An <em>aisle seat</em> is worth it if you have long legs.</li></ol>
+<hr>
+<h3 id="full-house">full house<a class="hash" href="#full-house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfʊl ˈhaʊs/ &middot; <em>FUUL HOWS</em></dd><dt>Русский</dt><dd>полный зал, аншлаг</dd><dt>Plural</dt><dd><em>full houses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An audience that fills every seat in the theater.</p>
+<ol><li>They played to a <em>full house</em> on Saturday.</li><li>Three <em>full houses</em> in a row is a good week.</li><li>It is a different show in front of a <em>full house</em>.</li></ol>
+<hr>
+<h3 id="standing-room">standing room<a class="hash" href="#standing-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstændɪŋ ruːm/ &middot; <em>STAN-ding ROOM</em></dd><dt>Русский</dt><dd>стоячие места</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>standing room only</em>, never <em>a standing room</em>.</dd></dl>
+<p>Space at the back of a theater for people without seats.</p>
+<ol><li>There is <em>standing room</em> at the back for twenty dollars.</li><li>By seven o'clock only <em>standing room</em> was left.</li><li>She watched the whole opera from <em>standing room</em>.</li></ol>
+<hr>
+<h3 id="sellout">sellout<a class="hash" href="#sellout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛlaʊt/ &middot; <em>SEL-owt</em></dd><dt>Русский</dt><dd>аншлаг, полная продажа билетов</dd><dt>Plural</dt><dd><em>sellouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performance for which every ticket has been sold.</p>
+<ol><li>Friday night was a complete <em>sellout</em>.</li><li>The tour was a string of <em>sellouts</em>.</li><li>Nobody expected a <em>sellout</em> on a Tuesday.</li></ol>
+<hr>
+<h3 id="season-ticket">season ticket<a class="hash" href="#season-ticket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːzən ˌtɪkɪt/ &middot; <em>SEE-zuhn TIK-it</em></dd><dt>Русский</dt><dd>абонемент</dd><dt>Plural</dt><dd><em>season tickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ticket that admits you to every show in a theater's season.</p>
+<ol><li>My parents have had a <em>season ticket</em> for years.</li><li><em>Season tickets</em> go on sale in June.</li><li>A <em>season ticket</em> works out cheaper than four single seats.</li></ol>
+<hr>
+<h3 id="ticket-booth">ticket booth<a class="hash" href="#ticket-booth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt buːθ/ &middot; <em>TIK-it BOOTH</em></dd><dt>Русский</dt><dd>билетная будка, киоск</dd><dt>Plural</dt><dd><em>ticket booths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small structure where tickets are sold.</p>
+<ol><li>There is a discount <em>ticket booth</em> in the square.</li><li>Two <em>ticket booths</em> were open and the line still took an hour.</li><li>The <em>ticket booth</em> takes cash only.</li></ol>
+<hr>
+<h3 id="ticket-stub">ticket stub<a class="hash" href="#ticket-stub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt stʌb/ &middot; <em>TIK-it STUB</em></dd><dt>Русский</dt><dd>корешок билета</dd><dt>Plural</dt><dd><em>ticket stubs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a ticket you keep after it has been torn at the door.</p>
+<ol><li>Keep your <em>ticket stub</em> if you want to come back after intermission.</li><li>She saves the <em>ticket stubs</em> from every show she sees.</li><li>I found an old <em>ticket stub</em> in my coat pocket.</li></ol>
+<hr>
+<h3 id="scalper">scalper<a class="hash" href="#scalper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskælpər/ &middot; <em>SKAL-pur</em></dd><dt>Русский</dt><dd>спекулянт билетами</dd><dt>Plural</dt><dd><em>scalpers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American word; the British say <em>ticket tout</em>.</dd></dl>
+<p>Someone who buys tickets and resells them at a higher price.</p>
+<ol><li>A <em>scalper</em> outside wanted three hundred dollars a seat.</li><li>The <em>scalpers</em> work the sidewalk in front of the theater.</li><li>Do not buy from a <em>scalper</em> unless you like being cheated.</li></ol>
+<hr>
+<h3 id="playbill">playbill<a class="hash" href="#playbill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪbɪl/ &middot; <em>PLAY-bil</em></dd><dt>Русский</dt><dd>театральная программка, афиша</dd><dt>Plural</dt><dd><em>playbills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed program or poster listing the play and its cast.</p>
+<ol><li>The <em>playbill</em> has a short biography of every actor.</li><li>He keeps his old <em>playbills</em> in a shoebox.</li><li>Read the <em>playbill</em> before the lights go down.</li></ol>
+<hr>
+<h3 id="marquee">marquee<a class="hash" href="#marquee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɑːrˈkiː/ &middot; <em>mar-KEE</em></dd><dt>Русский</dt><dd>козырёк с афишей над входом в театр</dd><dt>Plural</dt><dd><em>marquees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the last syllable: mar-KEE. In Britain a <em>marquee</em> is usually a big tent.</dd></dl>
+<p>The lit sign over a theater entrance showing what is playing.</p>
+<ol><li>Her name is up on the <em>marquee</em> in foot-high letters.</li><li>The <em>marquees</em> along the street were all lit at once.</li><li>They changed the <em>marquee</em> the day the show closed.</li></ol>
+<hr>
+<h3 id="theatergoer">theatergoer<a class="hash" href="#theatergoer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθiːətərˌɡoʊrr/ &middot; <em>THEE-uh-tur-goh-ur</em></dd><dt>Русский</dt><dd>театрал, зритель</dd><dt>Plural</dt><dd><em>theatergoers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling <em>theater</em>; the British write theatregoer.</dd></dl>
+<p>A person who often goes to see plays.</p>
+<ol><li>She is a serious <em>theatergoer</em> and sees about thirty shows a year.</li><li><em>Theatergoers</em> filled the sidewalk after the curtain came down.</li><li>Any <em>theatergoer</em> would recognize that opening line.</li></ol>
+<hr>
+<h3 id="preview">preview<a class="hash" href="#preview" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpriːvjuː/ &middot; <em>PREE-vyoo</em></dd><dt>Русский</dt><dd>предпремьерный показ</dd><dt>Plural</dt><dd><em>previews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A performance given to a paying audience before the official opening.</p>
+<ol><li>We saw it in <em>preview</em>, before the reviews came out.</li><li>They cut ten minutes during <em>previews</em>.</li><li>The first <em>preview</em> is a week from Thursday.</li></ol>
+<hr>
+<h3 id="revival">revival<a class="hash" href="#revival" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvaɪvəl/ &middot; <em>rih-VY-vuhl</em></dd><dt>Русский</dt><dd>возобновление постановки</dd><dt>Plural</dt><dd><em>revivals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A new production of a play that was performed years earlier.</p>
+<ol><li>The <em>revival</em> is better than the original production.</li><li>There have been four <em>revivals</em> since the sixties.</li><li>It is a stripped-down <em>revival</em> with only six actors.</li></ol>
+<hr>
+<h3 id="run">run<a class="hash" href="#run" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌn/ &middot; <em>RUN</em></dd><dt>Русский</dt><dd>прокат, серия представлений</dd><dt>Plural</dt><dd><em>runs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The period during which a show is performed regularly.</p>
+<ol><li>The play had a six-month <em>run</em> downtown.</li><li>Both <em>runs</em> were extended twice.</li><li>The show ends its <em>run</em> on the thirtieth.</li></ol>
+<hr>
+<h3 id="hit">hit<a class="hash" href="#hit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɪt/ &middot; <em>HIT</em></dd><dt>Русский</dt><dd>хит, успешная постановка</dd><dt>Plural</dt><dd><em>hits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A show that is very popular and successful.</p>
+<ol><li>Nobody expected the play to be a <em>hit</em>.</li><li>He wrote two <em>hits</em> and a lot of flops.</li><li>It was the biggest <em>hit</em> of the season.</li></ol>
+<hr>
+<h3 id="flop">flop<a class="hash" href="#flop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɑːp/ &middot; <em>FLAHP</em></dd><dt>Русский</dt><dd>провал (спектакля)</dd><dt>Plural</dt><dd><em>flops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A show that fails badly with audiences or critics.</p>
+<ol><li>The musical was an expensive <em>flop</em>.</li><li>Even great directors have <em>flops</em>.</li><li>It closed after nine performances, a total <em>flop</em>.</li></ol>
+<hr>
+<h3 id="show-business">show business<a class="hash" href="#show-business" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊ ˌbɪznəs/ &middot; <em>SHOH BIZ-nis</em></dd><dt>Русский</dt><dd>шоу-бизнес</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable; in speech Americans often shorten it to <em>show biz</em>.</dd></dl>
+<p>The industry of entertainment: theater, film, music, and television.</p>
+<ol><li>She has been in <em>show business</em> since she was twelve.</li><li><em>Show business</em> is not a steady way to pay rent.</li><li>He left <em>show business</em> and opened a restaurant.</li></ol>
+<hr>
+<h3 id="showstopper">showstopper<a class="hash" href="#showstopper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃoʊˌstɑːpər/ &middot; <em>SHOH-stah-pur</em></dd><dt>Русский</dt><dd>гвоздь программы</dd><dt>Plural</dt><dd><em>showstoppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A song or number so good that the audience applauds until the show pauses.</p>
+<ol><li>The tap number in act two is the <em>showstopper</em>.</li><li>The score has two real <em>showstoppers</em>.</li><li>Her final song is an absolute <em>showstopper</em>.</li></ol>
+<hr>
+<h3 id="headliner">headliner<a class="hash" href="#headliner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdˌlaɪnər/ &middot; <em>HED-ly-nur</em></dd><dt>Русский</dt><dd>хедлайнер, главный участник программы</dd><dt>Plural</dt><dd><em>headliners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The best-known performer on a bill, who goes on last.</p>
+<ol><li>The <em>headliner</em> did not come on until eleven.</li><li>Both <em>headliners</em> canceled and the show fell apart.</li><li>She has been a <em>headliner</em> in Las Vegas for a decade.</li></ol>
+<hr>
+<h3 id="opening-act">opening act<a class="hash" href="#opening-act" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊpənɪŋ ækt/ &middot; <em>OH-puh-ning AKT</em></dd><dt>Русский</dt><dd>выступление на разогреве</dd><dt>Plural</dt><dd><em>opening acts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The performer who goes on first, before the main attraction.</p>
+<ol><li>The <em>opening act</em> was better than the band we came for.</li><li>Half the crowd talked through both <em>opening acts</em>.</li><li>He spent two years as an <em>opening act</em>.</li></ol>
+<hr>
+<h3 id="master-of-ceremonies">master of ceremonies<a class="hash" href="#master-of-ceremonies" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæstər əv ˈsɛrəˌmoʊniz/ &middot; <em>MAS-tur uhv SEH-ruh-moh-neez</em></dd><dt>Русский</dt><dd>конферансье, ведущий программы</dd><dt>Plural</dt><dd><em>masters of ceremonies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural adds -s to the first word: <em>masters of ceremonies</em>. In speech Americans usually say <em>emcee</em>.</dd></dl>
+<p>The person who introduces the acts and keeps a show moving.</p>
+<ol><li>The <em>master of ceremonies</em> wore a bright green suit.</li><li>Two <em>masters of ceremonies</em> split the evening between them.</li><li>As <em>master of ceremonies</em> he told a joke between every act.</li></ol>
+<hr>
+<h3 id="artistic-director">artistic director<a class="hash" href="#artistic-director" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɑːrˈtɪstɪk dɪˈrɛktər/ &middot; <em>ar-TIS-tik dih-REK-tur</em></dd><dt>Русский</dt><dd>художественный руководитель</dd><dt>Plural</dt><dd><em>artistic directors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who chooses what a theater company will perform and sets its style.</p>
+<ol><li>The new <em>artistic director</em> wants more new plays.</li><li>Three <em>artistic directors</em> have come and gone in five years.</li><li>She was named <em>artistic director</em> last spring.</li></ol>
+<hr>
+<h3 id="assistant-director">assistant director<a class="hash" href="#assistant-director" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɪstənt dɪˈrɛktər/ &middot; <em>uh-SIS-tuhnt dih-REK-tur</em></dd><dt>Русский</dt><dd>помощник режиссёра</dd><dt>Plural</dt><dd><em>assistant directors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who helps the director run rehearsals and the production.</p>
+<ol><li>The <em>assistant director</em> took notes all through the run-through.</li><li>Both <em>assistant directors</em> were former students of his.</li><li>He worked as an <em>assistant director</em> on two shows last year.</li></ol>
+<hr>
+<h3 id="drama-school">drama school<a class="hash" href="#drama-school" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːmə skuːl/ &middot; <em>DRAH-muh SKOOL</em></dd><dt>Русский</dt><dd>театральное училище</dd><dt>Plural</dt><dd><em>drama schools</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A college where people are trained as actors.</p>
+<ol><li>She spent three years at <em>drama school</em> in New York.</li><li>The best <em>drama schools</em> take about twenty students a year.</li><li>He got into <em>drama school</em> on his third try.</li></ol>
+<hr>
+<h3 id="playhouse">playhouse<a class="hash" href="#playhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpleɪhaʊs/ &middot; <em>PLAY-hows</em></dd><dt>Русский</dt><dd>театр (здание)</dd><dt>Plural</dt><dd><em>playhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where plays are performed.</p>
+<ol><li>The old <em>playhouse</em> on Main Street is being restored.</li><li>Two small <em>playhouses</em> share a parking lot.</li><li>The <em>playhouse</em> seats about four hundred people.</li></ol>
+<hr>
+<h3 id="opera-house">opera house<a class="hash" href="#opera-house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːpərə ˌhaʊs/ &middot; <em>AH-pur-uh HOWS</em></dd><dt>Русский</dt><dd>оперный театр</dd><dt>Plural</dt><dd><em>opera houses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large theater built for opera and other big musical productions.</p>
+<ol><li>The <em>opera house</em> has four tiers of boxes.</li><li>Several American <em>opera houses</em> were built by mining money.</li><li>We had dinner across from the <em>opera house</em>.</li></ol>
+<hr>
+<h3 id="concert-hall">concert hall<a class="hash" href="#concert-hall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnsərt ˌhɔːl/ &middot; <em>KAHN-surt HAWL</em></dd><dt>Русский</dt><dd>концертный зал</dd><dt>Plural</dt><dd><em>concert halls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large room or building built for musical performances.</p>
+<ol><li>The <em>concert hall</em> holds two thousand people.</li><li>Both <em>concert halls</em> have wonderful acoustics.</li><li>They rebuilt the ceiling of the <em>concert hall</em> to fix the sound.</li></ol>
+<hr>
+<h3 id="amphitheater">amphitheater<a class="hash" href="#amphitheater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmfəˌθiːətər/ &middot; <em>AM-fuh-thee-uh-tur</em></dd><dt>Русский</dt><dd>амфитеатр</dd><dt>Plural</dt><dd><em>amphitheaters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling ends in -theater; the British write amphitheatre.</dd></dl>
+<p>An open-air place with seats rising in curved rows around a stage.</p>
+<ol><li>The summer concerts are held in an outdoor <em>amphitheater</em>.</li><li>Roman <em>amphitheaters</em> still stand all over southern Europe.</li><li>We spread a blanket on the grass above the <em>amphitheater</em>.</li></ol>
+<hr>
+<h3 id="interlude">interlude<a class="hash" href="#interlude" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪntərluːd/ &middot; <em>IN-tur-lood</em></dd><dt>Русский</dt><dd>интермедия, вставной эпизод</dd><dt>Plural</dt><dd><em>interludes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short piece of music or performance between the main parts of a show.</p>
+<ol><li>A piano <em>interlude</em> covers the scene change.</li><li>The two musical <em>interludes</em> are the best part of the evening.</li><li>The clowns come out during the <em>interlude</em>.</li></ol>
+<hr>
+<h3 id="fourth-wall">fourth wall<a class="hash" href="#fourth-wall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɔːrθ ˈwɔːl/ &middot; <em>FORTH WAWL</em></dd><dt>Русский</dt><dd>четвёртая стена</dd><dt>Plural</dt><dd><em>fourth walls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The imaginary wall between the actors and the audience.</p>
+<ol><li>She breaks the <em>fourth wall</em> and asks the audience a question.</li><li>Most realistic plays keep the <em>fourth wall</em> firmly in place.</li><li>The narrator steps through the <em>fourth wall</em> in the first minute.</li></ol>
+<hr>
+<h3 id="revue">revue<a class="hash" href="#revue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈvjuː/ &middot; <em>rih-VYOO</em></dd><dt>Русский</dt><dd>ревю, эстрадное обозрение</dd><dt>Plural</dt><dd><em>revues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>review</em>, the critic's article.</dd></dl>
+<p>A show made of songs, dances, and short comic scenes with no single story.</p>
+<ol><li>The theater is doing a <em>revue</em> of songs from the thirties.</li><li>Small <em>revues</em> were once the standard summer program.</li><li>It is more of a <em>revue</em> than a play.</li></ol>
+<hr>
+<h3 id="vaudeville">vaudeville<a class="hash" href="#vaudeville" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɔːdvɪl/ &middot; <em>VAWD-vil</em></dd><dt>Русский</dt><dd>водевиль (амер. эстрадное шоу)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Usually said in two syllables, VAWD-vil, with the middle e swallowed.</dd></dl>
+<p>An older American kind of variety show with singers, comics, and acrobats.</p>
+<ol><li>His grandfather worked in <em>vaudeville</em> before the movies came in.</li><li><em>Vaudeville</em> died out in the 1930s.</li><li>The whole number is a tribute to old <em>vaudeville</em>.</li></ol>
+<hr>
+<h3 id="cabaret">cabaret<a class="hash" href="#cabaret" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkæbəˈreɪ/ &middot; <em>kab-uh-RAY</em></dd><dt>Русский</dt><dd>кабаре</dd><dt>Plural</dt><dd><em>cabarets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final t is silent and the stress falls on the last syllable: kab-uh-RAY.</dd></dl>
+<p>A show of songs and comedy performed in a club while the audience sits at tables.</p>
+<ol><li>She sings in a <em>cabaret</em> on the East Side.</li><li>The <em>cabarets</em> in that neighborhood stay open until three.</li><li>It is an intimate <em>cabaret</em> with about forty seats.</li></ol>
+<hr>
+<h3 id="ad-lib">ad-lib<a class="hash" href="#ad-lib" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈædlɪb/ &middot; <em>AD-lib</em></dd><dt>Русский</dt><dd>импровизированная реплика</dd><dt>Plural</dt><dd><em>ad-libs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line invented on the spot that is not in the script.</p>
+<ol><li>That laugh line was an <em>ad-lib</em> on opening night.</li><li>Half his best <em>ad-libs</em> ended up in the final script.</li><li>The director hates an <em>ad-lib</em> of any kind.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

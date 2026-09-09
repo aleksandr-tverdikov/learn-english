@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: railways</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-railways">Core vocabulary: railways<a class="hash" href="#core-vocabulary-railways" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of railways — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="railway">railway<a class="hash" href="#railway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlweɪ/ &middot; <em>RAYL-way</em></dd><dt>Русский</dt><dd>железная дорога</dd><dt>Plural</dt><dd><em>railways</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans normally say railroad; railway survives mainly in company names and in British English.</dd></dl>
+<p>A system of tracks and trains, or the company that operates it.</p>
+<ol><li>The old <em>railway</em> ran straight through the middle of town.</li><li>Several <em>railways</em> merged into one company in the 1970s.</li><li>A narrow <em>railway</em> still climbs to the summit every summer.</li></ol>
+<hr>
+<h3 id="rail">rail<a class="hash" href="#rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/reɪl/ &middot; <em>RAYL</em></dd><dt>Русский</dt><dd>рельс; железнодорожный транспорт</dd><dt>Plural</dt><dd><em>rails</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>One of the two steel bars a train runs on, or train transportation taken as a whole.</p>
+<ol><li>A crew replaced a cracked <em>rail</em> just south of the bridge.</li><li>Two steel <em>rails</em> ran straight out to the horizon.</li><li>We shipped the whole load by <em>rail</em> instead of by truck.</li></ol>
+<hr>
+<h3 id="railroading">railroading<a class="hash" href="#railroading" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlˌroʊdɪŋ/ &middot; <em>RAYL-roh-ding</em></dd><dt>Русский</dt><dd>железнодорожное дело, работа на железной дороге</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The business and work of running railroads.</p>
+<ol><li>He spent forty years in <em>railroading</em> before he retired.</li><li><em>Railroading</em> was dangerous work in those days.</li><li>Her grandfather taught her everything he knew about <em>railroading</em>.</li></ol>
+<hr>
+<h3 id="railroad-track">railroad track<a class="hash" href="#railroad-track" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌtræk/ &middot; <em>RAYL-rohd TRAK</em></dd><dt>Русский</dt><dd>железнодорожный путь, рельсовый путь</dd><dt>Plural</dt><dd><em>railroad tracks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say railroad track; the British say railway line.</dd></dl>
+<p>The pair of rails, with their ties and ballast, that a train runs on.</p>
+<ol><li>Our house sits about a hundred yards from the <em>railroad tracks</em>.</li><li>Kids are told never to play on the <em>railroad track</em>.</li><li>Weeds had grown up between the <em>railroad tracks</em>.</li></ol>
+<hr>
+<h3 id="grade-crossing">grade crossing<a class="hash" href="#grade-crossing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪd ˌkrɔːsɪŋ/ &middot; <em>GRAYD KRAW-sing</em></dd><dt>Русский</dt><dd>переезд в одном уровне</dd><dt>Plural</dt><dd><em>grade crossings</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say grade crossing; the British say level crossing.</dd></dl>
+<p>A crossing where the road and the track meet at the same level.</p>
+<ol><li>The state is paying to eliminate two dangerous <em>grade crossings</em>.</li><li>A truck stalled on the <em>grade crossing</em> and had to be towed off.</li><li>Most accidents happen at <em>grade crossings</em> without gates.</li></ol>
+<hr>
+<h3 id="crossing-gate">crossing gate<a class="hash" href="#crossing-gate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsɪŋ ˌɡeɪt/ &middot; <em>KRAW-sing GAYT</em></dd><dt>Русский</dt><dd>шлагбаум</dd><dt>Plural</dt><dd><em>crossing gates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The striped arm that drops to stop traffic before a train passes.</p>
+<ol><li>The <em>crossing gate</em> came down and the bell started ringing.</li><li>Someone drove around the <em>crossing gates</em> and was nearly hit.</li><li>Both <em>crossing gates</em> were stuck in the up position.</li></ol>
+<hr>
+<h3 id="crossbuck">crossbuck<a class="hash" href="#crossbuck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsbʌk/ &middot; <em>KRAWS-buk</em></dd><dt>Русский</dt><dd>знак железнодорожного переезда (белый крест)</dd><dt>Plural</dt><dd><em>crossbucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The white X-shaped sign that marks a railroad crossing.</p>
+<ol><li>A faded <em>crossbuck</em> was the only warning at that crossing.</li><li>The county replaced the old <em>crossbucks</em> with flashing lights.</li><li>You could barely read the <em>crossbuck</em> in the dark.</li></ol>
+<hr>
+<h3 id="crossing-bell">crossing bell<a class="hash" href="#crossing-bell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsɪŋ ˌbɛl/ &middot; <em>KRAW-sing BEL</em></dd><dt>Русский</dt><dd>звонок на переезде</dd><dt>Plural</dt><dd><em>crossing bells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bell that rings to warn drivers that a train is coming.</p>
+<ol><li>The <em>crossing bell</em> woke us up at two in the morning.</li><li>You can hear the <em>crossing bells</em> from our back porch.</li><li>The <em>crossing bell</em> kept clanging long after the train had gone.</li></ol>
+<hr>
+<h3 id="freight-train">freight train<a class="hash" href="#freight-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪt ˌtreɪn/ &middot; <em>FRAYT TRAYN</em></dd><dt>Русский</dt><dd>грузовой поезд</dd><dt>Plural</dt><dd><em>freight trains</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh in freight is silent: FRAYT, rhyming with eight.</dd></dl>
+<p>A train that carries goods rather than passengers.</p>
+<ol><li>A mile-long <em>freight train</em> blocked the road for twenty minutes.</li><li><em>Freight trains</em> run through here all night.</li><li>The <em>freight train</em> was pulling more than a hundred cars.</li></ol>
+<hr>
+<h3 id="passenger-train">passenger train<a class="hash" href="#passenger-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪndʒər ˌtreɪn/ &middot; <em>PAS-in-jur TRAYN</em></dd><dt>Русский</dt><dd>пассажирский поезд</dd><dt>Plural</dt><dd><em>passenger trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train that carries people.</p>
+<ol><li>Only two <em>passenger trains</em> a day stop in this town.</li><li>The <em>passenger train</em> pulled in right on time.</li><li>Freight moved aside to let the <em>passenger train</em> through.</li></ol>
+<hr>
+<h3 id="commuter-train">commuter train<a class="hash" href="#commuter-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːtər ˌtreɪn/ &middot; <em>kuh-MYOO-tur TRAYN</em></dd><dt>Русский</dt><dd>пригородный поезд, электричка</dd><dt>Plural</dt><dd><em>commuter trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short-distance train that carries people to and from work.</p>
+<ol><li>I catch the 6:40 <em>commuter train</em> every weekday.</li><li><em>Commuter trains</em> were packed after the game let out.</li><li>The <em>commuter train</em> stops at every station on the line.</li></ol>
+<hr>
+<h3 id="express-train">express train<a class="hash" href="#express-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪkˈsprɛs ˌtreɪn/ &middot; <em>ik-SPRES TRAYN</em></dd><dt>Русский</dt><dd>скорый поезд, экспресс</dd><dt>Plural</dt><dd><em>express trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fast train that skips most of the stops along the way.</p>
+<ol><li>Take the <em>express train</em> if you want to get there by noon.</li><li>Two <em>express trains</em> an hour run between the cities.</li><li>The <em>express train</em> blew right past our platform.</li></ol>
+<hr>
+<h3 id="local-train">local train<a class="hash" href="#local-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊkəl ˌtreɪn/ &middot; <em>LOH-kuhl TRAYN</em></dd><dt>Русский</dt><dd>поезд со всеми остановками</dd><dt>Plural</dt><dd><em>local trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train that stops at every station on its route.</p>
+<ol><li>We missed the express and had to take the <em>local train</em>.</li><li>The <em>local train</em> takes almost twice as long.</li><li><em>Local trains</em> run every half hour on weekends.</li></ol>
+<hr>
+<h3 id="bullet-train">bullet train<a class="hash" href="#bullet-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlɪt ˌtreɪn/ &middot; <em>BUUL-it TRAYN</em></dd><dt>Русский</dt><dd>скоростной поезд («поезд-пуля»)</dd><dt>Plural</dt><dd><em>bullet trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very fast passenger train built for long-distance travel.</p>
+<ol><li>We took the <em>bullet train</em> from Tokyo to Kyoto.</li><li><em>Bullet trains</em> can hit almost two hundred miles an hour.</li><li>A <em>bullet train</em> would cut the trip in half.</li></ol>
+<hr>
+<h3 id="steam-train">steam train<a class="hash" href="#steam-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm ˌtreɪn/ &middot; <em>STEEM TRAYN</em></dd><dt>Русский</dt><dd>поезд на паровой тяге</dd><dt>Plural</dt><dd><em>steam trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train pulled by a steam locomotive.</p>
+<ol><li>The museum runs a <em>steam train</em> on summer weekends.</li><li>My grandfather remembers riding <em>steam trains</em> as a boy.</li><li>You could smell the <em>steam train</em> before you saw it.</li></ol>
+<hr>
+<h3 id="night-train">night train<a class="hash" href="#night-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪt ˌtreɪn/ &middot; <em>NYT TRAYN</em></dd><dt>Русский</dt><dd>ночной поезд</dd><dt>Plural</dt><dd><em>night trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train that runs overnight, usually with sleeping accommodations.</p>
+<ol><li>We took the <em>night train</em> and woke up in Chicago.</li><li><em>Night trains</em> are cheaper than flying if you can sleep sitting up.</li><li>The <em>night train</em> leaves at ten past eleven.</li></ol>
+<hr>
+<h3 id="high-speed-rail">high-speed rail<a class="hash" href="#high-speed-rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪ spiːd ˈreɪl/ &middot; <em>hy-speed RAYL</em></dd><dt>Русский</dt><dd>высокоскоростное железнодорожное сообщение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Train service designed to run at very high speeds between cities.</p>
+<ol><li>The state has been promising <em>high-speed rail</em> for twenty years.</li><li><em>High-speed rail</em> would connect the two downtowns in an hour.</li><li>Voters approved funding for <em>high-speed rail</em> in 2008.</li></ol>
+<hr>
+<h3 id="light-rail">light rail<a class="hash" href="#light-rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlaɪt ˈreɪl/ &middot; <em>lyt RAYL</em></dd><dt>Русский</dt><dd>скоростной трамвай, лёгкое метро</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A city rail system using smaller, lighter trains, often on street level.</p>
+<ol><li><em>Light rail</em> runs from the airport straight to the stadium.</li><li>The city is adding two new <em>light rail</em> stops downtown.</li><li>We take <em>light rail</em> whenever parking looks bad.</li></ol>
+<hr>
+<h3 id="commuter-rail">commuter rail<a class="hash" href="#commuter-rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈmjuːtər ˌreɪl/ &middot; <em>kuh-MYOO-tur RAYL</em></dd><dt>Русский</dt><dd>пригородное железнодорожное сообщение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Train service between a city and the suburbs around it.</p>
+<ol><li><em>Commuter rail</em> saved me an hour of driving each way.</li><li>The suburb grew up around a <em>commuter rail</em> stop.</li><li><em>Commuter rail</em> service was suspended after the storm.</li></ol>
+<hr>
+<h3 id="rapid-transit">rapid transit<a class="hash" href="#rapid-transit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌræpɪd ˈtrænzɪt/ &middot; <em>rap-id TRAN-zit</em></dd><dt>Русский</dt><dd>скоростной внеуличный транспорт, метро</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fast urban train service that runs on its own tracks, away from traffic.</p>
+<ol><li>The region finally got <em>rapid transit</em> in the 1970s.</li><li><em>Rapid transit</em> carries most of the downtown workforce.</li><li>They are studying <em>rapid transit</em> along the river corridor.</li></ol>
+<hr>
+<h3 id="mass-transit">mass transit<a class="hash" href="#mass-transit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmæs ˈtrænzɪt/ &middot; <em>mas TRAN-zit</em></dd><dt>Русский</dt><dd>общественный транспорт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Public transportation systems that move large numbers of people.</p>
+<ol><li>The bill sets aside billions for <em>mass transit</em>.</li><li>Without <em>mass transit</em> this city would not function.</li><li>He has never owned a car and relies on <em>mass transit</em>.</li></ol>
+<hr>
+<h3 id="subway-station">subway station<a class="hash" href="#subway-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ ˌsteɪʃən/ &middot; <em>SUHB-way STAY-shuhn</em></dd><dt>Русский</dt><dd>станция метро</dd><dt>Plural</dt><dd><em>subway stations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An underground stop where subway trains pick up passengers.</p>
+<ol><li>There is a <em>subway station</em> two blocks from the apartment.</li><li>Three <em>subway stations</em> were closed for repairs.</li><li>Musicians play in the <em>subway station</em> every evening.</li></ol>
+<hr>
+<h3 id="subway-car">subway car<a class="hash" href="#subway-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ ˌkɑːr/ &middot; <em>SUHB-way KAHR</em></dd><dt>Русский</dt><dd>вагон метро</dd><dt>Plural</dt><dd><em>subway cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the connected cars that make up a subway train.</p>
+<ol><li>The last <em>subway car</em> is usually the emptiest.</li><li>New <em>subway cars</em> have wider doors and better lighting.</li><li>Someone was playing a saxophone in our <em>subway car</em>.</li></ol>
+<hr>
+<h3 id="subway-line">subway line<a class="hash" href="#subway-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ ˌlaɪn/ &middot; <em>SUHB-way LYN</em></dd><dt>Русский</dt><dd>линия метро</dd><dt>Plural</dt><dd><em>subway lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One route of a subway system, usually known by a color, letter, or number.</p>
+<ol><li>Take the blue <em>subway line</em> four stops north.</li><li>Two <em>subway lines</em> meet under the courthouse.</li><li>The new <em>subway line</em> opens next spring.</li></ol>
+<hr>
+<h3 id="subway-token">subway token<a class="hash" href="#subway-token" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbweɪ ˌtoʊkən/ &middot; <em>SUHB-way TOH-kuhn</em></dd><dt>Русский</dt><dd>жетон метро</dd><dt>Plural</dt><dd><em>subway tokens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal coin once bought to get through a subway turnstile.</p>
+<ol><li>I still have a couple of old <em>subway tokens</em> in a drawer.</li><li>You used to drop a <em>subway token</em> into the slot.</li><li><em>Subway tokens</em> were replaced by fare cards years ago.</li></ol>
+<hr>
+<h3 id="metro">metro<a class="hash" href="#metro" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛtroʊ/ &middot; <em>MET-roh</em></dd><dt>Русский</dt><dd>метро</dd><dt>Plural</dt><dd><em>metros</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call their own systems the subway; metro is used mostly for foreign systems and for the one in Washington.</dd></dl>
+<p>An urban underground railroad system.</p>
+<ol><li>We bought a day pass for the <em>metro</em>.</li><li>The <em>metro</em> runs until one in the morning.</li><li>Several European <em>metros</em> are older than ours.</li></ol>
+<hr>
+<h3 id="streetcar">streetcar<a class="hash" href="#streetcar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstriːtkɑːr/ &middot; <em>STREET-kahr</em></dd><dt>Русский</dt><dd>трамвай</dd><dt>Plural</dt><dd><em>streetcars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American streetcar equals British tram.</dd></dl>
+<p>A passenger car that runs on rails laid in a city street.</p>
+<ol><li>A <em>streetcar</em> rattled past the corner every ten minutes.</li><li>The city tore up its <em>streetcar</em> lines in the 1950s.</li><li>We rode the <em>streetcar</em> down to the waterfront.</li></ol>
+<hr>
+<h3 id="tram">tram<a class="hash" href="#tram" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træm/ &middot; <em>TRAM</em></dd><dt>Русский</dt><dd>трамвай</dd><dt>Plural</dt><dd><em>trams</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Tram is the British word; Americans usually say streetcar or trolley.</dd></dl>
+<p>A streetcar, especially outside the United States.</p>
+<ol><li>We took a <em>tram</em> from the station to the old town.</li><li><em>Trams</em> in Lisbon climb some very steep streets.</li><li>The <em>tram</em> was crowded with tourists.</li></ol>
+<hr>
+<h3 id="elevated-train">elevated train<a class="hash" href="#elevated-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛləveɪtɪd ˌtreɪn/ &middot; <em>EL-uh-vay-tid TRAYN</em></dd><dt>Русский</dt><dd>поезд надземной железной дороги</dd><dt>Plural</dt><dd><em>elevated trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A city train that runs on tracks built above the street.</p>
+<ol><li>An <em>elevated train</em> roared over our heads every few minutes.</li><li><em>Elevated trains</em> cast long shadows across the avenue.</li><li>You can hear the <em>elevated train</em> from inside the restaurant.</li></ol>
+<hr>
+<h3 id="maglev">maglev<a class="hash" href="#maglev" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæɡlɛv/ &middot; <em>MAG-lev</em></dd><dt>Русский</dt><dd>маглев, поезд на магнитной подвеске</dd><dt>Plural</dt><dd><em>maglevs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A train that floats above its guideway on magnets instead of rolling on rails.</p>
+<ol><li>The <em>maglev</em> covers the thirty miles in about seven minutes.</li><li>Only a handful of <em>maglevs</em> are in service anywhere.</li><li>A <em>maglev</em> makes almost no noise at low speed.</li></ol>
+<hr>
+<h3 id="funicular">funicular<a class="hash" href="#funicular" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fjuːˈnɪkjələr/ &middot; <em>fyoo-NIK-yuh-lur</em></dd><dt>Русский</dt><dd>фуникулёр</dd><dt>Plural</dt><dd><em>funiculars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short railway on a steep slope where two cars are pulled by a cable.</p>
+<ol><li>A <em>funicular</em> carries visitors up to the observation deck.</li><li>The <em>funicular</em> has been running since 1901.</li><li>Both <em>funiculars</em> were closed for the winter.</li></ol>
+<hr>
+<h3 id="cog-railway">cog railway<a class="hash" href="#cog-railway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːɡ ˌreɪlweɪ/ &middot; <em>KAHG RAYL-way</em></dd><dt>Русский</dt><dd>зубчатая железная дорога</dd><dt>Plural</dt><dd><em>cog railways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mountain railway whose engine grips a toothed rail to climb steep grades.</p>
+<ol><li>The <em>cog railway</em> takes about an hour to reach the summit.</li><li><em>Cog railways</em> can climb slopes no ordinary train could manage.</li><li>We rode the <em>cog railway</em> up the mountain in the rain.</li></ol>
+<hr>
+<h3 id="rail-line">rail line<a class="hash" href="#rail-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌlaɪn/ &middot; <em>RAYL LYN</em></dd><dt>Русский</dt><dd>железнодорожная линия</dd><dt>Plural</dt><dd><em>rail lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stretch of railroad running between two places.</p>
+<ol><li>The <em>rail line</em> follows the river for thirty miles.</li><li>Two <em>rail lines</em> cross just north of the town.</li><li>That <em>rail line</em> has been abandoned since the mill closed.</li></ol>
+<hr>
+<h3 id="main-line">main line<a class="hash" href="#main-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmeɪn ˈlaɪn/ &middot; <em>mayn LYN</em></dd><dt>Русский</dt><dd>магистраль, главный путь</dd><dt>Plural</dt><dd><em>main lines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written as one word, mainline, when it comes before a noun: mainline service.</dd></dl>
+<p>The principal route of a railroad, carrying most of its traffic.</p>
+<ol><li>Freight rolls down the <em>main line</em> day and night.</li><li>The branch rejoins the <em>main line</em> at the junction.</li><li>Both <em>main lines</em> were shut down by the derailment.</li></ol>
+<hr>
+<h3 id="branch-line">branch line<a class="hash" href="#branch-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbræntʃ ˌlaɪn/ &middot; <em>BRANCH LYN</em></dd><dt>Русский</dt><dd>железнодорожная ветка</dd><dt>Plural</dt><dd><em>branch lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A secondary rail line that leaves the main route and serves smaller places.</p>
+<ol><li>The <em>branch line</em> to the quarry closed in 1974.</li><li>Most <em>branch lines</em> in the county are gone now.</li><li>A single engine works the <em>branch line</em> twice a week.</li></ol>
+<hr>
+<h3 id="spur-line">spur line<a class="hash" href="#spur-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɜːr ˌlaɪn/ &middot; <em>SPUR LYN</em></dd><dt>Русский</dt><dd>подъездной путь</dd><dt>Plural</dt><dd><em>spur lines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short track leading off the main line to a factory, mine, or warehouse.</p>
+<ol><li>A <em>spur line</em> runs right into the grain elevator.</li><li>They built a <em>spur line</em> to serve the new plant.</li><li>Two <em>spur lines</em> branch off just past the yard.</li></ol>
+<hr>
+<h3 id="rail-network">rail network<a class="hash" href="#rail-network" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌnɛtwɜːrk/ &middot; <em>RAYL NET-wurk</em></dd><dt>Русский</dt><dd>железнодорожная сеть</dd><dt>Plural</dt><dd><em>rail networks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>All the connected rail lines of a country or region.</p>
+<ol><li>The country has one of the densest <em>rail networks</em> in the world.</li><li>Storm damage shut down half the <em>rail network</em>.</li><li>Freight moves across the whole <em>rail network</em> without changing cars.</li></ol>
+<hr>
+<h3 id="rail-travel">rail travel<a class="hash" href="#rail-travel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌtrævəl/ &middot; <em>RAYL TRAV-uhl</em></dd><dt>Русский</dt><dd>поездки по железной дороге</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Travel is uncountable here — never rail travels.</dd></dl>
+<p>The activity of going places by train.</p>
+<ol><li><em>Rail travel</em> is slower but far more comfortable than flying.</li><li>She writes a blog about <em>rail travel</em> in North America.</li><li><em>Rail travel</em> picked up again after gas prices rose.</li></ol>
+<hr>
+<h3 id="rail-freight">rail freight<a class="hash" href="#rail-freight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌfreɪt/ &middot; <em>RAYL FRAYT</em></dd><dt>Русский</dt><dd>грузовые железнодорожные перевозки</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Goods carried by train, or the business of carrying them.</p>
+<ol><li><em>Rail freight</em> is cheaper than trucking over long distances.</li><li>Most of the coal moves as <em>rail freight</em>.</li><li>The port handles both <em>rail freight</em> and containers.</li></ol>
+<hr>
+<h3 id="rail-traffic">rail traffic<a class="hash" href="#rail-traffic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌtræfɪk/ &middot; <em>RAYL TRAF-ik</em></dd><dt>Русский</dt><dd>движение поездов</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The movement of trains over a line or network.</p>
+<ol><li><em>Rail traffic</em> through the tunnel doubled in ten years.</li><li>The accident stopped all <em>rail traffic</em> for six hours.</li><li><em>Rail traffic</em> is heaviest just before dawn.</li></ol>
+<hr>
+<h3 id="right-of-way">right-of-way<a class="hash" href="#right-of-way" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌraɪt əv ˈweɪ/ &middot; <em>ryt-uhv-WAY</em></dd><dt>Русский</dt><dd>полоса отвода; право проезда</dd><dt>Plural</dt><dd><em>rights-of-way</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural puts the s in the middle: rights-of-way, not right-of-ways.</dd></dl>
+<p>The strip of land a railroad owns and runs its tracks along.</p>
+<ol><li>The company still owns the <em>right-of-way</em> through the valley.</li><li>Old <em>rights-of-way</em> have been turned into bike trails.</li><li>Fences run along both sides of the <em>right-of-way</em>.</li></ol>
+<hr>
+<h3 id="railroad-bridge">railroad bridge<a class="hash" href="#railroad-bridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌbrɪdʒ/ &middot; <em>RAYL-rohd BRIJ</em></dd><dt>Русский</dt><dd>железнодорожный мост</dd><dt>Plural</dt><dd><em>railroad bridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bridge built to carry train tracks over water, a road, or a valley.</p>
+<ol><li>The old <em>railroad bridge</em> is still standing downstream.</li><li>Two <em>railroad bridges</em> cross the river within a mile.</li><li>They closed the <em>railroad bridge</em> for inspection.</li></ol>
+<hr>
+<h3 id="concourse">concourse<a class="hash" href="#concourse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnkɔːrs/ &middot; <em>KAHN-kors</em></dd><dt>Русский</dt><dd>центральный зал вокзала</dd><dt>Plural</dt><dd><em>concourses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The big open hall of a station where passengers gather before boarding.</p>
+<ol><li>We met under the clock in the main <em>concourse</em>.</li><li>The <em>concourse</em> was jammed with holiday travelers.</li><li>Both <em>concourses</em> have been restored to their original look.</li></ol>
+<hr>
+<h3 id="waiting-room">waiting room<a class="hash" href="#waiting-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪtɪŋ ˌruːm/ &middot; <em>WAY-ting ROOM</em></dd><dt>Русский</dt><dd>зал ожидания</dd><dt>Plural</dt><dd><em>waiting rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A room at a station where passengers sit until their train arrives.</p>
+<ol><li>We sat in the <em>waiting room</em> with our bags for two hours.</li><li>The <em>waiting room</em> has wooden benches and a coal stove.</li><li>Small stations rarely keep their <em>waiting rooms</em> open at night.</li></ol>
+<hr>
+<h3 id="ticket-office">ticket office<a class="hash" href="#ticket-office" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt ˌɔːfɪs/ &middot; <em>TIK-it AW-fis</em></dd><dt>Русский</dt><dd>билетная касса</dd><dt>Plural</dt><dd><em>ticket offices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place in a station where tickets are sold.</p>
+<ol><li>The <em>ticket office</em> opens half an hour before the first train.</li><li>Ask at the <em>ticket office</em> about the student discount.</li><li>Many small-town <em>ticket offices</em> have closed for good.</li></ol>
+<hr>
+<h3 id="ticket-window">ticket window<a class="hash" href="#ticket-window" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt ˌwɪndoʊ/ &middot; <em>TIK-it WIN-doh</em></dd><dt>Русский</dt><dd>окошко билетной кассы</dd><dt>Plural</dt><dd><em>ticket windows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The counter opening where a clerk sells tickets.</p>
+<ol><li>There was one clerk working and four <em>ticket windows</em> closed.</li><li>He slid the money under the <em>ticket window</em>.</li><li>The line at the <em>ticket window</em> went out the door.</li></ol>
+<hr>
+<h3 id="ticket-machine">ticket machine<a class="hash" href="#ticket-machine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt məˌʃiːn/ &middot; <em>TIK-it muh-SHEEN</em></dd><dt>Русский</dt><dd>билетный автомат</dd><dt>Plural</dt><dd><em>ticket machines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that sells tickets without a clerk.</p>
+<ol><li>The <em>ticket machine</em> on the platform takes cards only.</li><li>Two of the three <em>ticket machines</em> were out of order.</li><li>Buy at the <em>ticket machine</em> if the office is closed.</li></ol>
+<hr>
+<h3 id="ticket-agent">ticket agent<a class="hash" href="#ticket-agent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪkɪt ˌeɪdʒənt/ &middot; <em>TIK-it AY-juhnt</em></dd><dt>Русский</dt><dd>билетный кассир</dd><dt>Plural</dt><dd><em>ticket agents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad employee who sells tickets and answers travel questions.</p>
+<ol><li>The <em>ticket agent</em> found us a cheaper connection.</li><li><em>Ticket agents</em> here know every schedule by heart.</li><li>Ask the <em>ticket agent</em> which track the train leaves from.</li></ol>
+<hr>
+<h3 id="fare-gate">fare gate<a class="hash" href="#fare-gate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛr ˌɡeɪt/ &middot; <em>FAIR GAYT</em></dd><dt>Русский</dt><dd>турникет (в метро)</dd><dt>Plural</dt><dd><em>fare gates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The barrier you tap or swipe a card at to enter a transit system.</p>
+<ol><li>The <em>fare gate</em> wouldn't open, so I tapped again.</li><li>New <em>fare gates</em> are being installed at every station.</li><li>He got stuck at the <em>fare gate</em> with his suitcase.</li></ol>
+<hr>
+<h3 id="fare-card">fare card<a class="hash" href="#fare-card" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛr ˌkɑːrd/ &middot; <em>FAIR KAHRD</em></dd><dt>Русский</dt><dd>транспортная карта</dd><dt>Plural</dt><dd><em>fare cards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A card you load with money and use to pay for train or subway rides.</p>
+<ol><li>I need to put more money on my <em>fare card</em>.</li><li><em>Fare cards</em> replaced tokens about twenty years ago.</li><li>Tap your <em>fare card</em> on the round reader.</li></ol>
+<hr>
+<h3 id="departure-board">departure board<a class="hash" href="#departure-board" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈpɑːrtʃər ˌbɔːrd/ &middot; <em>dih-PAR-chur BORD</em></dd><dt>Русский</dt><dd>табло отправления</dd><dt>Plural</dt><dd><em>departure boards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The big screen or sign listing trains and the times they leave.</p>
+<ol><li>Everyone stood staring up at the <em>departure board</em>.</li><li>The <em>departure board</em> still showed our train as on time.</li><li>Both <em>departure boards</em> went blank during the outage.</li></ol>
+<hr>
+<h3 id="track-number">track number<a class="hash" href="#track-number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræk ˌnʌmbər/ &middot; <em>TRAK NUM-bur</em></dd><dt>Русский</dt><dd>номер пути</dd><dt>Plural</dt><dd><em>track numbers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American stations announce a track number where British ones announce a platform number.</dd></dl>
+<p>The number identifying which track a train will leave from.</p>
+<ol><li>They don't post the <em>track number</em> until ten minutes before departure.</li><li>Check the <em>track number</em> on the board before you go down.</li><li>The <em>track numbers</em> changed twice while we waited.</li></ol>
+<hr>
+<h3 id="rail-pass">rail pass<a class="hash" href="#rail-pass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌpæs/ &middot; <em>RAYL PAS</em></dd><dt>Русский</dt><dd>проездной билет на поезд</dd><dt>Plural</dt><dd><em>rail passes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A ticket that lets you ride as much as you like for a set period.</p>
+<ol><li>We bought a two-week <em>rail pass</em> before we left.</li><li><em>Rail passes</em> pay for themselves after about four trips.</li><li>Show your <em>rail pass</em> to the conductor when he comes by.</li></ol>
+<hr>
+<h3 id="luggage-rack">luggage rack<a class="hash" href="#luggage-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌɡɪdʒ ˌræk/ &middot; <em>LUG-ij RAK</em></dd><dt>Русский</dt><dd>багажная полка</dd><dt>Plural</dt><dd><em>luggage racks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Luggage itself is uncountable — two pieces of luggage, never two luggages.</dd></dl>
+<p>The shelf above the seats where passengers put their bags.</p>
+<ol><li>He lifted the suitcase onto the <em>luggage rack</em>.</li><li>Every <em>luggage rack</em> in the car was already full.</li><li>Don't leave anything on the <em>luggage rack</em> when you get off.</li></ol>
+<hr>
+<h3 id="park-and-ride">park-and-ride<a class="hash" href="#park-and-ride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɑːrk ənd ˈraɪd/ &middot; <em>pahrk-uhnd-RYD</em></dd><dt>Русский</dt><dd>перехватывающая парковка</dd><dt>Plural</dt><dd><em>park-and-rides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lot where drivers leave their cars and finish the trip by train.</p>
+<ol><li>I leave the car at the <em>park-and-ride</em> and take the 7:15.</li><li>The <em>park-and-ride</em> fills up by seven in the morning.</li><li>Three new <em>park-and-rides</em> opened along the line.</li></ol>
+<hr>
+<h3 id="ridership">ridership<a class="hash" href="#ridership" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪdərʃɪp/ &middot; <em>RY-dur-ship</em></dd><dt>Русский</dt><dd>пассажиропоток</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The number of people who use a train or transit system.</p>
+<ol><li><em>Ridership</em> fell sharply during the pandemic.</li><li>Weekend <em>ridership</em> is about half what it is on weekdays.</li><li>The new line boosted <em>ridership</em> along the whole corridor.</li></ol>
+<hr>
+<h3 id="straphanger">straphanger<a class="hash" href="#straphanger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstræpˌhæŋər/ &middot; <em>STRAP-hang-ur</em></dd><dt>Русский</dt><dd>пассажир, едущий стоя</dd><dt>Plural</dt><dd><em>straphangers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A standing passenger on a crowded subway or streetcar.</p>
+<ol><li>A car full of tired <em>straphangers</em> swayed with every curve.</li><li>As a daily <em>straphanger</em>, she knows exactly where to stand.</li><li><em>Straphangers</em> were packed in shoulder to shoulder.</li></ol>
+<hr>
+<h3 id="railfan">railfan<a class="hash" href="#railfan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlfæn/ &middot; <em>RAYL-fan</em></dd><dt>Русский</dt><dd>любитель железных дорог</dd><dt>Plural</dt><dd><em>railfans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose hobby is watching, photographing, and studying trains.</p>
+<ol><li><em>Railfans</em> line the bridge whenever the steam engine runs.</li><li>He's been a <em>railfan</em> since he was six.</li><li>A few <em>railfans</em> had set up cameras along the curve.</li></ol>
+<hr>
+<h3 id="model-train">model train<a class="hash" href="#model-train" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːdəl ˌtreɪn/ &middot; <em>MAH-duhl TRAYN</em></dd><dt>Русский</dt><dd>модель поезда</dd><dt>Plural</dt><dd><em>model trains</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small working copy of a real train, used for a hobby layout.</p>
+<ol><li>His basement is filled with <em>model trains</em> and tiny towns.</li><li>She bought him a <em>model train</em> for his birthday.</li><li><em>Model trains</em> from the 1950s can be worth real money.</li></ol>
+<hr>
+<h3 id="train-set">train set<a class="hash" href="#train-set" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌsɛt/ &middot; <em>TRAYN SET</em></dd><dt>Русский</dt><dd>игрушечная железная дорога (набор)</dd><dt>Plural</dt><dd><em>train sets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A toy engine with cars and a loop of track, sold as one package.</p>
+<ol><li>We set up the <em>train set</em> around the Christmas tree.</li><li>His first <em>train set</em> is still in the attic.</li><li>Most <em>train sets</em> come with a circle of track and a transformer.</li></ol>
+<hr>
+<h3 id="train-ride">train ride<a class="hash" href="#train-ride" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌraɪd/ &middot; <em>TRAYN RYD</em></dd><dt>Русский</dt><dd>поездка на поезде</dd><dt>Plural</dt><dd><em>train rides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip taken on a train.</p>
+<ol><li>It's a four-hour <em>train ride</em> to the coast.</li><li>The kids loved the <em>train ride</em> more than the museum.</li><li>We took two long <em>train rides</em> on that vacation.</li></ol>
+<hr>
+<h3 id="train-ticket">train ticket<a class="hash" href="#train-ticket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌtɪkɪt/ &middot; <em>TRAYN TIK-it</em></dd><dt>Русский</dt><dd>билет на поезд</dd><dt>Plural</dt><dd><em>train tickets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The paper or digital pass that lets you ride a particular train.</p>
+<ol><li>I bought our <em>train tickets</em> online last night.</li><li>Keep your <em>train ticket</em> until you leave the station.</li><li>He lost his <em>train ticket</em> somewhere on the platform.</li></ol>
+<hr>
+<h3 id="train-fare">train fare<a class="hash" href="#train-fare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌfɛr/ &middot; <em>TRAYN FAIR</em></dd><dt>Русский</dt><dd>плата за проезд на поезде</dd><dt>Plural</dt><dd><em>train fares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The price charged for riding a train.</p>
+<ol><li>The <em>train fare</em> went up again in January.</li><li><em>Train fares</em> are cheaper if you book two weeks ahead.</li><li>Round-trip <em>train fare</em> comes to about forty dollars.</li></ol>
+<hr>
+<h3 id="train-whistle">train whistle<a class="hash" href="#train-whistle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌwɪsəl/ &middot; <em>TRAYN WISS-uhl</em></dd><dt>Русский</dt><dd>гудок поезда</dd><dt>Plural</dt><dd><em>train whistles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t in whistle is silent: WISS-uhl.</dd></dl>
+<p>The long warning sound a locomotive makes, especially near crossings.</p>
+<ol><li>You could hear the <em>train whistle</em> across the whole valley.</li><li>A <em>train whistle</em> woke me at four in the morning.</li><li><em>Train whistles</em> are still my favorite sound.</li></ol>
+<hr>
+<h3 id="train-horn">train horn<a class="hash" href="#train-horn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌhɔːrn/ &middot; <em>TRAYN HORN</em></dd><dt>Русский</dt><dd>тифон, звуковой сигнал поезда</dd><dt>Plural</dt><dd><em>train horns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The loud air horn a modern locomotive sounds as a warning.</p>
+<ol><li>The <em>train horn</em> blasted twice before the crossing.</li><li>Neighbors petitioned to have the <em>train horns</em> silenced at night.</li><li>A <em>train horn</em> can be heard for more than a mile.</li></ol>
+<hr>
+<h3 id="train-wreck">train wreck<a class="hash" href="#train-wreck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪn ˌrɛk/ &middot; <em>TRAYN REK</em></dd><dt>Русский</dt><dd>крушение поезда</dd><dt>Plural</dt><dd><em>train wrecks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w in wreck is silent: REK.</dd></dl>
+<p>A serious crash involving a train.</p>
+<ol><li>Twelve people were hurt in the <em>train wreck</em> outside Denver.</li><li>The museum has photographs of famous <em>train wrecks</em>.</li><li>Investigators spent a week at the site of the <em>train wreck</em>.</li></ol>
+<hr>
+<h3 id="whistle-stop">whistle-stop<a class="hash" href="#whistle-stop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪsəl ˌstɑːp/ &middot; <em>WISS-uhl STAHP</em></dd><dt>Русский</dt><dd>полустанок; короткая остановка (в поездке)</dd><dt>Plural</dt><dd><em>whistle-stops</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t in whistle is silent: WISS-uhl STAHP.</dd></dl>
+<p>A very small town where trains stop only when signaled.</p>
+<ol><li>He grew up in a <em>whistle-stop</em> on the Kansas plains.</li><li>The candidate made a dozen <em>whistle-stops</em> in two days.</li><li>That <em>whistle-stop</em> has one store and a grain elevator.</li></ol>
+<hr>
+<h3 id="way-station">way station<a class="hash" href="#way-station" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪ ˌsteɪʃən/ &middot; <em>WAY STAY-shuhn</em></dd><dt>Русский</dt><dd>промежуточная станция</dd><dt>Plural</dt><dd><em>way stations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small stop between the main stations on a line.</p>
+<ol><li>The train pauses at half a dozen <em>way stations</em>.</li><li>This <em>way station</em> is little more than a shelter and a bench.</li><li>Freight rarely stops at the smaller <em>way stations</em>.</li></ol>
+<hr>
+<h3 id="rolling-stock">rolling stock<a class="hash" href="#rolling-stock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊlɪŋ ˌstɑːk/ &middot; <em>ROH-ling STAHK</em></dd><dt>Русский</dt><dd>подвижной состав</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rolling stock is uncountable — never rolling stocks.</dd></dl>
+<p>All the engines and cars a railroad owns.</p>
+<ol><li>Half the company's <em>rolling stock</em> is more than thirty years old.</li><li>They are spending millions to replace aging <em>rolling stock</em>.</li><li>The yard was full of idle <em>rolling stock</em>.</li></ol>
+<hr>
+<h3 id="steam-locomotive">steam locomotive<a class="hash" href="#steam-locomotive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm ˌloʊkəmoʊtɪv/ &middot; <em>STEEM loh-kuh-moh-tiv</em></dd><dt>Русский</dt><dd>паровоз</dd><dt>Plural</dt><dd><em>steam locomotives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An engine that burns coal or oil to make steam and pull a train.</p>
+<ol><li>A restored <em>steam locomotive</em> pulls the excursion train.</li><li><em>Steam locomotives</em> disappeared from most lines by 1960.</li><li>The <em>steam locomotive</em> needed water every fifty miles.</li></ol>
+<hr>
+<h3 id="diesel-locomotive">diesel locomotive<a class="hash" href="#diesel-locomotive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːzəl ˌloʊkəmoʊtɪv/ &middot; <em>DEE-zuhl loh-kuh-moh-tiv</em></dd><dt>Русский</dt><dd>тепловоз</dd><dt>Plural</dt><dd><em>diesel locomotives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An engine powered by a diesel motor that drives electric traction motors.</p>
+<ol><li>Four <em>diesel locomotives</em> were needed to get the train over the pass.</li><li>The <em>diesel locomotive</em> idled for an hour in the yard.</li><li><em>Diesel locomotives</em> replaced steam after the war.</li></ol>
+<hr>
+<h3 id="electric-locomotive">electric locomotive<a class="hash" href="#electric-locomotive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌlɛktrɪk ˌloʊkəˈmoʊtɪv/ &middot; <em>ih-lek-trik loh-kuh-MOH-tiv</em></dd><dt>Русский</dt><dd>электровоз</dd><dt>Plural</dt><dd><em>electric locomotives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An engine that draws power from an overhead wire or a third rail.</p>
+<ol><li>An <em>electric locomotive</em> took over at the state line.</li><li><em>Electric locomotives</em> accelerate much faster than diesels.</li><li>The <em>electric locomotive</em> ran silently out of the tunnel.</li></ol>
+<hr>
+<h3 id="steam-engine">steam engine<a class="hash" href="#steam-engine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm ˌɛndʒɪn/ &middot; <em>STEEM en-jin</em></dd><dt>Русский</dt><dd>паровая машина; паровоз</dd><dt>Plural</dt><dd><em>steam engines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine driven by steam pressure, especially an old railroad engine.</p>
+<ol><li>The <em>steam engine</em> hissed and slowly began to move.</li><li>Two <em>steam engines</em> are kept in working order here.</li><li>A <em>steam engine</em> takes hours to build up pressure.</li></ol>
+<hr>
+<h3 id="switch-engine">switch engine<a class="hash" href="#switch-engine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪtʃ ˌɛndʒɪn/ &middot; <em>SWICH en-jin</em></dd><dt>Русский</dt><dd>маневровый локомотив</dd><dt>Plural</dt><dd><em>switch engines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small locomotive used to move cars around inside a yard.</p>
+<ol><li>A <em>switch engine</em> shoved the cars onto the far track.</li><li>Two <em>switch engines</em> work the yard around the clock.</li><li>The <em>switch engine</em> never leaves the terminal.</li></ol>
+<hr>
+<h3 id="railroad-car">railroad car<a class="hash" href="#railroad-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌkɑːr/ &middot; <em>RAYL-rohd KAHR</em></dd><dt>Русский</dt><dd>железнодорожный вагон</dd><dt>Plural</dt><dd><em>railroad cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Any single vehicle that runs on rails as part of a train.</p>
+<ol><li>The train was made up of eighty <em>railroad cars</em>.</li><li>One <em>railroad car</em> had jumped the track.</li><li>They restored a wooden <em>railroad car</em> from the 1890s.</li></ol>
+<hr>
+<h3 id="freight-car">freight car<a class="hash" href="#freight-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfreɪt ˌkɑːr/ &middot; <em>FRAYT KAHR</em></dd><dt>Русский</dt><dd>грузовой вагон</dd><dt>Plural</dt><dd><em>freight cars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American freight car equals British goods wagon.</dd></dl>
+<p>A railroad car built to carry goods rather than people.</p>
+<ol><li>Rusting <em>freight cars</em> sat on the siding for years.</li><li>Each <em>freight car</em> holds about a hundred tons.</li><li>They loaded the lumber into an open <em>freight car</em>.</li></ol>
+<hr>
+<h3 id="passenger-car">passenger car<a class="hash" href="#passenger-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪndʒər ˌkɑːr/ &middot; <em>PAS-in-jur KAHR</em></dd><dt>Русский</dt><dd>пассажирский вагон</dd><dt>Plural</dt><dd><em>passenger cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car fitted with seats for travelers.</p>
+<ol><li>The train had six <em>passenger cars</em> and a baggage car.</li><li>Our <em>passenger car</em> was less than half full.</li><li>Older <em>passenger cars</em> had windows you could open.</li></ol>
+<hr>
+<h3 id="dining-car">dining car<a class="hash" href="#dining-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdaɪnɪŋ ˌkɑːr/ &middot; <em>DY-ning KAHR</em></dd><dt>Русский</dt><dd>вагон-ресторан</dd><dt>Plural</dt><dd><em>dining cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car where meals are cooked and served.</p>
+<ol><li>We had breakfast in the <em>dining car</em> somewhere in Nebraska.</li><li>The <em>dining car</em> opens for dinner at five thirty.</li><li><em>Dining cars</em> used to have white tablecloths and real silver.</li></ol>
+<hr>
+<h3 id="sleeping-car">sleeping car<a class="hash" href="#sleeping-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːpɪŋ ˌkɑːr/ &middot; <em>SLEE-ping KAHR</em></dd><dt>Русский</dt><dd>спальный вагон</dd><dt>Plural</dt><dd><em>sleeping cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car with beds for overnight passengers.</p>
+<ol><li>We booked a room in the <em>sleeping car</em> for the trip west.</li><li>Both <em>sleeping cars</em> were sold out weeks ahead.</li><li>The <em>sleeping car</em> attendant made up our beds after dinner.</li></ol>
+<hr>
+<h3 id="sleeper">sleeper<a class="hash" href="#sleeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsliːpər/ &middot; <em>SLEE-pur</em></dd><dt>Русский</dt><dd>спальный вагон</dd><dt>Plural</dt><dd><em>sleepers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English a sleeper is a sleeping car; in British English a sleeper is also a railroad tie.</dd></dl>
+<p>A sleeping car, or a train that has one.</p>
+<ol><li>We took the <em>sleeper</em> from Chicago to Los Angeles.</li><li>There were two <em>sleepers</em> at the back of the train.</li><li>A berth in the <em>sleeper</em> costs about twice the coach fare.</li></ol>
+<hr>
+<h3 id="observation-car">observation car<a class="hash" href="#observation-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɑːbzərˈveɪʃən ˌkɑːr/ &middot; <em>ahb-zur-VAY-shuhn KAHR</em></dd><dt>Русский</dt><dd>смотровой вагон, вагон с панорамными окнами</dd><dt>Plural</dt><dd><em>observation cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car with large windows for looking at the scenery.</p>
+<ol><li>We spent the afternoon in the <em>observation car</em>.</li><li>The <em>observation car</em> fills up as soon as the mountains appear.</li><li>Old <em>observation cars</em> had a platform at the back.</li></ol>
+<hr>
+<h3 id="baggage-car">baggage car<a class="hash" href="#baggage-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæɡɪdʒ ˌkɑːr/ &middot; <em>BAG-ij KAHR</em></dd><dt>Русский</dt><dd>багажный вагон</dd><dt>Plural</dt><dd><em>baggage cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car that carries suitcases, boxes, and bicycles.</p>
+<ol><li>Skis have to go in the <em>baggage car</em>.</li><li>The <em>baggage car</em> is right behind the engine.</li><li>Two <em>baggage cars</em> were added for the holiday rush.</li></ol>
+<hr>
+<h3 id="mail-car">mail car<a class="hash" href="#mail-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪl ˌkɑːr/ &middot; <em>MAYL KAHR</em></dd><dt>Русский</dt><dd>почтовый вагон</dd><dt>Plural</dt><dd><em>mail cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car in which mail was carried and sorted along the way.</p>
+<ol><li>Clerks sorted letters in the <em>mail car</em> as the train ran.</li><li>The last <em>mail cars</em> came off the trains in the 1970s.</li><li>A restored <em>mail car</em> stands at the far end of the museum.</li></ol>
+<hr>
+<h3 id="club-car">club car<a class="hash" href="#club-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklʌb ˌkɑːr/ &middot; <em>KLUB KAHR</em></dd><dt>Русский</dt><dd>вагон-салон с баром</dd><dt>Plural</dt><dd><em>club cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad car with comfortable chairs where drinks and snacks are sold.</p>
+<ol><li>He bought a coffee in the <em>club car</em>.</li><li>The <em>club car</em> is three cars forward.</li><li><em>Club cars</em> on the commuter line stay busy on Friday nights.</li></ol>
+<hr>
+<h3 id="quiet-car">quiet car<a class="hash" href="#quiet-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwaɪrt ˌkɑːr/ &middot; <em>KWY-uht KAHR</em></dd><dt>Русский</dt><dd>«тихий» вагон</dd><dt>Plural</dt><dd><em>quiet cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A car where phone calls and loud conversation are not allowed.</p>
+<ol><li>I always try to get a seat in the <em>quiet car</em>.</li><li>Someone took a call in the <em>quiet car</em> and got glared at.</li><li>Most morning trains have one <em>quiet car</em>.</li></ol>
+<hr>
+<h3 id="tank-car">tank car<a class="hash" href="#tank-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæŋk ˌkɑːr/ &middot; <em>TANK KAHR</em></dd><dt>Русский</dt><dd>вагон-цистерна</dd><dt>Plural</dt><dd><em>tank cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A freight car shaped like a cylinder for carrying liquids or gases.</p>
+<ol><li>A string of black <em>tank cars</em> rolled past the crossing.</li><li>The <em>tank car</em> was carrying corn syrup.</li><li>New <em>tank cars</em> have thicker shells for safety.</li></ol>
+<hr>
+<h3 id="hopper-car">hopper car<a class="hash" href="#hopper-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːpər ˌkɑːr/ &middot; <em>HAH-pur KAHR</em></dd><dt>Русский</dt><dd>вагон-хоппер</dd><dt>Plural</dt><dd><em>hopper cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A freight car that dumps loose cargo through doors in its floor.</p>
+<ol><li>Coal is hauled in open <em>hopper cars</em>.</li><li>The <em>hopper car</em> emptied its grain in under a minute.</li><li>Sixty <em>hopper cars</em> were waiting at the elevator.</li></ol>
+<hr>
+<h3 id="gondola-car">gondola car<a class="hash" href="#gondola-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːndələ ˌkɑːr/ &middot; <em>GAHN-duh-luh KAHR</em></dd><dt>Русский</dt><dd>полувагон</dd><dt>Plural</dt><dd><em>gondola cars</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable: GAHN-duh-luh, the same as the Venetian boat.</dd></dl>
+<p>An open freight car with low sides, used for scrap, steel, or gravel.</p>
+<ol><li>Scrap metal was piled high in the <em>gondola cars</em>.</li><li>A single <em>gondola car</em> sat on the siding.</li><li>They loaded rail into <em>gondola cars</em> with a crane.</li></ol>
+<hr>
+<h3 id="refrigerator-car">refrigerator car<a class="hash" href="#refrigerator-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈfrɪdʒəreɪtər ˌkɑːr/ &middot; <em>rih-FRIJ-uh-ray-tur KAHR</em></dd><dt>Русский</dt><dd>вагон-рефрижератор</dd><dt>Plural</dt><dd><em>refrigerator cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An insulated freight car that keeps food cold in transit.</p>
+<ol><li>Oranges traveled east in <em>refrigerator cars</em> packed with ice.</li><li>The <em>refrigerator car</em> broke down and the load was lost.</li><li><em>Refrigerator cars</em> changed what Americans could eat in winter.</li></ol>
+<hr>
+<h3 id="cattle-car">cattle car<a class="hash" href="#cattle-car" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəl ˌkɑːr/ &middot; <em>KAT-uhl KAHR</em></dd><dt>Русский</dt><dd>вагон для скота</dd><dt>Plural</dt><dd><em>cattle cars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slatted freight car used to haul livestock.</p>
+<ol><li>They drove the steers up a ramp into the <em>cattle car</em>.</li><li>Old <em>cattle cars</em> rot in the weeds behind the stockyard.</li><li>A <em>cattle car</em> had to be cleaned out after every trip.</li></ol>
+<hr>
+<h3 id="flatcar">flatcar<a class="hash" href="#flatcar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætkɑːr/ &middot; <em>FLAT-kahr</em></dd><dt>Русский</dt><dd>вагон-платформа</dd><dt>Plural</dt><dd><em>flatcars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A freight car with no sides or roof, used for long or bulky loads.</p>
+<ol><li>Two bulldozers were chained to a <em>flatcar</em>.</li><li>Lumber rides east on <em>flatcars</em>.</li><li>The <em>flatcar</em> carried a single enormous turbine.</li></ol>
+<hr>
+<h3 id="tender">tender<a class="hash" href="#tender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛndər/ &middot; <em>TEN-dur</em></dd><dt>Русский</dt><dd>тендер (вагон с углём и водой)</dd><dt>Plural</dt><dd><em>tenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The car behind a steam locomotive that carries its fuel and water.</p>
+<ol><li>The fireman shoveled coal from the <em>tender</em> all night.</li><li>The engine and its <em>tender</em> weigh over two hundred tons.</li><li>Both <em>tenders</em> were repainted for the excursion.</li></ol>
+<hr>
+<h3 id="cowcatcher">cowcatcher<a class="hash" href="#cowcatcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊˌkætʃər/ &middot; <em>KOW-kach-ur</em></dd><dt>Русский</dt><dd>путеочиститель, скотосбрасыватель</dd><dt>Plural</dt><dd><em>cowcatchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The angled frame on the front of a locomotive that pushes obstacles off the track.</p>
+<ol><li>A branch got caught in the <em>cowcatcher</em>.</li><li>Early locomotives had big iron <em>cowcatchers</em>.</li><li>He posed for a photograph sitting on the <em>cowcatcher</em>.</li></ol>
+<hr>
+<h3 id="firebox">firebox<a class="hash" href="#firebox" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrbɑːks/ &middot; <em>FYR-bahks</em></dd><dt>Русский</dt><dd>топка паровоза</dd><dt>Plural</dt><dd><em>fireboxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The chamber in a steam locomotive where the fuel burns.</p>
+<ol><li>He opened the <em>firebox</em> and the cab filled with light.</li><li>The <em>firebox</em> has to be cleaned out after every run.</li><li>Cracks in the <em>firebox</em> took the engine out of service.</li></ol>
+<hr>
+<h3 id="driving-wheel">driving wheel<a class="hash" href="#driving-wheel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪvɪŋ ˌwiːl/ &middot; <em>DRY-ving WEEL</em></dd><dt>Русский</dt><dd>ведущее колесо</dd><dt>Plural</dt><dd><em>driving wheels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the large powered wheels that push a locomotive along.</p>
+<ol><li>The <em>driving wheels</em> were taller than a man.</li><li>A slipping <em>driving wheel</em> threw sparks along the rail.</li><li>This engine has six <em>driving wheels</em> on each side.</li></ol>
+<hr>
+<h3 id="bogie">bogie<a class="hash" href="#bogie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊɡi/ &middot; <em>BOH-gee</em></dd><dt>Русский</dt><dd>тележка вагона</dd><dt>Plural</dt><dd><em>bogies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American railroaders usually say truck; bogie is the British word.</dd></dl>
+<p>The swiveling frame of wheels under each end of a railroad car.</p>
+<ol><li>A cracked <em>bogie</em> took the car out of service.</li><li>Each coach rides on two <em>bogies</em>.</li><li>The <em>bogie</em> turns to let the car follow a curve.</li></ol>
+<hr>
+<h3 id="coupler">coupler<a class="hash" href="#coupler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌplər/ &middot; <em>KUP-lur</em></dd><dt>Русский</dt><dd>автосцепка</dd><dt>Plural</dt><dd><em>couplers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hooked device that locks one railroad car to the next.</p>
+<ol><li>The <em>coupler</em> snapped shut with a heavy clang.</li><li>A broken <em>coupler</em> left half the train behind.</li><li>Modern <em>couplers</em> lock automatically on contact.</li></ol>
+<hr>
+<h3 id="air-brake">air brake<a class="hash" href="#air-brake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛr ˌbreɪk/ &middot; <em>AIR BRAYK</em></dd><dt>Русский</dt><dd>пневматический тормоз</dd><dt>Plural</dt><dd><em>air brakes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A braking system that uses compressed air to stop every car in a train.</p>
+<ol><li>You could hear the <em>air brakes</em> hiss as the train slowed.</li><li>The <em>air brake</em> made long freight trains far safer.</li><li>He tested the <em>air brakes</em> before leaving the yard.</li></ol>
+<hr>
+<h3 id="berth">berth<a class="hash" href="#berth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɜːrθ/ &middot; <em>BURTH</em></dd><dt>Русский</dt><dd>спальное место, полка</dd><dt>Plural</dt><dd><em>berths</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Berth sounds exactly like birth.</dd></dl>
+<p>A bed built into the wall of a sleeping car.</p>
+<ol><li>I had the upper <em>berth</em> and slept badly.</li><li>The compartment has two <em>berths</em> and a small sink.</li><li>He folded the <em>berth</em> back against the wall.</li></ol>
+<hr>
+<h3 id="trainload">trainload<a class="hash" href="#trainload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪnloʊd/ &middot; <em>TRAYN-lohd</em></dd><dt>Русский</dt><dd>состав (груза), полный поезд</dd><dt>Plural</dt><dd><em>trainloads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>As much cargo or as many people as one train can carry.</p>
+<ol><li>A <em>trainload</em> of coal leaves the mine every morning.</li><li>They shipped three <em>trainloads</em> of grain last week.</li><li>A whole <em>trainload</em> of soldiers came through the station.</li></ol>
+<hr>
+<h3 id="carload">carload<a class="hash" href="#carload" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrloʊd/ &middot; <em>KAHR-lohd</em></dd><dt>Русский</dt><dd>вагон (груза)</dd><dt>Plural</dt><dd><em>carloads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of freight that fills one railroad car.</p>
+<ol><li>The mill ships forty <em>carloads</em> of paper a month.</li><li>Rates are lower if you order a full <em>carload</em>.</li><li>One <em>carload</em> of lumber was damaged in the storm.</li></ol>
+<hr>
+<h3 id="railroad-tie">railroad tie<a class="hash" href="#railroad-tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌtaɪ/ &middot; <em>RAYL-rohd TY</em></dd><dt>Русский</dt><dd>шпала</dd><dt>Plural</dt><dd><em>railroad ties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a crosstie in the United States; the British word is sleeper.</dd></dl>
+<p>One of the heavy wooden or concrete beams that hold the rails in place.</p>
+<ol><li>They stacked old <em>railroad ties</em> beside the track.</li><li>Each <em>railroad tie</em> is soaked in creosote to keep it from rotting.</li><li>We used <em>railroad ties</em> to build a retaining wall.</li></ol>
+<hr>
+<h3 id="crosstie">crosstie<a class="hash" href="#crosstie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsˌtaɪ/ &middot; <em>KRAWS-ty</em></dd><dt>Русский</dt><dd>шпала</dd><dt>Plural</dt><dd><em>crossties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A railroad tie, laid crosswise under the rails.</p>
+<ol><li>The crew replaced two hundred rotten <em>crossties</em>.</li><li>Every <em>crosstie</em> is spiked down at both ends.</li><li>Grass had grown over the <em>crossties</em>.</li></ol>
+<hr>
+<h3 id="ballast">ballast<a class="hash" href="#ballast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæləst/ &middot; <em>BAL-uhst</em></dd><dt>Русский</dt><dd>балласт (щебень под шпалами)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Ballast is uncountable — a load of ballast, never two ballasts.</dd></dl>
+<p>The crushed stone spread under and around railroad ties to hold the track steady.</p>
+<ol><li>Fresh <em>ballast</em> was dumped along the whole stretch of track.</li><li>Rain washed the <em>ballast</em> out from under the rails.</li><li>The train hauls <em>ballast</em> to wherever the crews are working.</li></ol>
+<hr>
+<h3 id="roadbed">roadbed<a class="hash" href="#roadbed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdbɛd/ &middot; <em>ROHD-bed</em></dd><dt>Русский</dt><dd>земляное полотно, основание пути</dd><dt>Plural</dt><dd><em>roadbeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The prepared ground and ballast that the track is laid on.</p>
+<ol><li>Flooding washed away a hundred feet of <em>roadbed</em>.</li><li>A solid <em>roadbed</em> keeps the ride smooth.</li><li>Old <em>roadbeds</em> often become hiking trails.</li></ol>
+<hr>
+<h3 id="trestle">trestle<a class="hash" href="#trestle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛsəl/ &middot; <em>TRES-uhl</em></dd><dt>Русский</dt><dd>эстакада, мост на опорах</dd><dt>Plural</dt><dd><em>trestles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t before the l is silent: TRES-uhl.</dd></dl>
+<p>A bridge of braced timber or steel frames carrying track over a valley.</p>
+<ol><li>The train crawled across the wooden <em>trestle</em>.</li><li>Two <em>trestles</em> burned in the forest fire.</li><li>That <em>trestle</em> is a hundred feet above the creek.</li></ol>
+<hr>
+<h3 id="third-rail">third rail<a class="hash" href="#third-rail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌθɜːrd ˈreɪl/ &middot; <em>thurd RAYL</em></dd><dt>Русский</dt><dd>контактный рельс</dd><dt>Plural</dt><dd><em>third rails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The electrified rail beside the track that powers a subway or commuter train.</p>
+<ol><li>Never step onto the tracks — the <em>third rail</em> is live.</li><li>Ice on the <em>third rail</em> delayed the morning trains.</li><li>Workers shut off the <em>third rail</em> before going down.</li></ol>
+<hr>
+<h3 id="overhead-wire">overhead wire<a class="hash" href="#overhead-wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈhɛd ˌwaɪrr/ &middot; <em>oh-vur-HED WYR</em></dd><dt>Русский</dt><dd>контактный провод</dd><dt>Plural</dt><dd><em>overhead wires</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The electric line strung above the track that a train draws power from.</p>
+<ol><li>A fallen tree brought down the <em>overhead wire</em>.</li><li>The <em>overhead wires</em> hum faintly in cold weather.</li><li>Streetcars draw current from an <em>overhead wire</em>.</li></ol>
+<hr>
+<h3 id="pantograph">pantograph<a class="hash" href="#pantograph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæntəɡræf/ &middot; <em>PAN-tuh-graf</em></dd><dt>Русский</dt><dd>токоприёмник</dd><dt>Plural</dt><dd><em>pantographs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hinged arm on the roof of an electric train that touches the overhead wire.</p>
+<ol><li>The <em>pantograph</em> slid up against the wire with a spark.</li><li>Both <em>pantographs</em> are lowered before the train enters the shed.</li><li>A bent <em>pantograph</em> stopped service for an hour.</li></ol>
+<hr>
+<h3 id="electrification">electrification<a class="hash" href="#electrification" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌlɛktrɪfɪˈkeɪʃən/ &middot; <em>ih-lek-truh-fih-KAY-shuhn</em></dd><dt>Русский</dt><dd>электрификация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of converting a rail line to run on electric power.</p>
+<ol><li><em>Electrification</em> of the corridor will take another six years.</li><li>The railroad put off <em>electrification</em> until the 1930s.</li><li><em>Electrification</em> cuts both fuel costs and noise.</li></ol>
+<hr>
+<h3 id="track-gauge">track gauge<a class="hash" href="#track-gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræk ˌɡeɪdʒ/ &middot; <em>TRAK GAYJ</em></dd><dt>Русский</dt><dd>ширина колеи</dd><dt>Plural</dt><dd><em>track gauges</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Gauge is spelled with -au- but sounds like GAYJ.</dd></dl>
+<p>The distance between the two rails of a track.</p>
+<ol><li>The two railroads used different <em>track gauges</em>.</li><li><em>Track gauge</em> here is four feet eight and a half inches.</li><li>Changing the <em>track gauge</em> meant relaying every mile.</li></ol>
+<hr>
+<h3 id="narrow-gauge">narrow gauge<a class="hash" href="#narrow-gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnæroʊ ˈɡeɪdʒ/ &middot; <em>nar-oh GAYJ</em></dd><dt>Русский</dt><dd>узкая колея</dd><dt>Plural</dt><dd><em>narrow gauges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A track width smaller than the standard one, used on cheap or mountain lines.</p>
+<ol><li>The mining railroad was built to <em>narrow gauge</em>.</li><li>Several <em>narrow gauges</em> were once in use in Colorado.</li><li>A <em>narrow gauge</em> line still runs up the canyon.</li></ol>
+<hr>
+<h3 id="standard-gauge">standard gauge<a class="hash" href="#standard-gauge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstændərd ˈɡeɪdʒ/ &middot; <em>STAN-durd GAYJ</em></dd><dt>Русский</dt><dd>нормальная (стандартная) колея</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The track width used by most railroads, four feet eight and a half inches.</p>
+<ol><li>Almost every line in North America is <em>standard gauge</em>.</li><li>The branch was rebuilt to <em>standard gauge</em> in 1902.</li><li><em>Standard gauge</em> lets cars run from one railroad to another.</li></ol>
+<hr>
+<h3 id="railroad-spike">railroad spike<a class="hash" href="#railroad-spike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlroʊd ˌspaɪk/ &middot; <em>RAYL-rohd SPYK</em></dd><dt>Русский</dt><dd>путевой костыль</dd><dt>Plural</dt><dd><em>railroad spikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick nail driven through the rail's base into the tie.</p>
+<ol><li>He found a rusty <em>railroad spike</em> along the tracks.</li><li>Crews once drove <em>railroad spikes</em> by hand all day long.</li><li>A single <em>railroad spike</em> weighs about a pound.</li></ol>
+<hr>
+<h3 id="rail-yard">rail yard<a class="hash" href="#rail-yard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪl ˌjɑːrd/ &middot; <em>RAYL YAHRD</em></dd><dt>Русский</dt><dd>железнодорожный парк путей</dd><dt>Plural</dt><dd><em>rail yards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of many parallel tracks where trains are stored and made up.</p>
+<ol><li>The <em>rail yard</em> stretches for two miles along the river.</li><li>Engines idle all night in the <em>rail yard</em>.</li><li>Both <em>rail yards</em> were built when the mills were running.</li></ol>
+<hr>
+<h3 id="classification-yard">classification yard<a class="hash" href="#classification-yard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌklæsɪfɪˈkeɪʃən ˌjɑːrd/ &middot; <em>klas-uh-fih-KAY-shuhn YAHRD</em></dd><dt>Русский</dt><dd>сортировочная станция</dd><dt>Plural</dt><dd><em>classification yards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A yard where freight cars are sorted onto tracks by destination.</p>
+<ol><li>Cars are pushed over a hump in the <em>classification yard</em>.</li><li>The <em>classification yard</em> handles two thousand cars a day.</li><li>Big <em>classification yards</em> run twenty-four hours.</li></ol>
+<hr>
+<h3 id="roundhouse">roundhouse<a class="hash" href="#roundhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraʊndhaʊs/ &middot; <em>ROWND-howss</em></dd><dt>Русский</dt><dd>веерное депо</dd><dt>Plural</dt><dd><em>roundhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A circular engine shed built around a turntable.</p>
+<ol><li>The old <em>roundhouse</em> now holds a railroad museum.</li><li>Engines were serviced in the <em>roundhouse</em> between runs.</li><li>Only a few <em>roundhouses</em> are still standing.</li></ol>
+<hr>
+<h3 id="turntable">turntable<a class="hash" href="#turntable" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrnˌteɪbəl/ &middot; <em>TURN-tay-buhl</em></dd><dt>Русский</dt><dd>поворотный круг</dd><dt>Plural</dt><dd><em>turntables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rotating platform used to turn a locomotive around.</p>
+<ol><li>They ran the engine onto the <em>turntable</em> and swung it around.</li><li>The <em>turntable</em> still works after ninety years.</li><li>Two men could turn the <em>turntable</em> by hand.</li></ol>
+<hr>
+<h3 id="milepost">milepost<a class="hash" href="#milepost" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmaɪlpoʊst/ &middot; <em>MYL-pohst</em></dd><dt>Русский</dt><dd>путевой столб с отметкой мили</dd><dt>Plural</dt><dd><em>mileposts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A numbered post beside the track showing the distance along the line.</p>
+<ol><li>The derailment happened near <em>milepost</em> 214.</li><li>Crews report their location by <em>milepost</em>.</li><li>White <em>mileposts</em> stand every mile along the right-of-way.</li></ol>
+<hr>
+<h3 id="semaphore">semaphore<a class="hash" href="#semaphore" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛməfɔːr/ &middot; <em>SEM-uh-for</em></dd><dt>Русский</dt><dd>семафор</dd><dt>Plural</dt><dd><em>semaphores</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old signal with a movable arm that tells the engineer to stop or go.</p>
+<ol><li>The <em>semaphore</em> dropped to clear and the train moved on.</li><li>A few <em>semaphores</em> still stand on this branch.</li><li>The arm of the <em>semaphore</em> was frozen in place.</li></ol>
+<hr>
+<h3 id="signal-light">signal light<a class="hash" href="#signal-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnəl ˌlaɪt/ &middot; <em>SIG-nuhl LYT</em></dd><dt>Русский</dt><dd>железнодорожный светофор</dd><dt>Plural</dt><dd><em>signal lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A colored lamp beside the track telling a train whether it may proceed.</p>
+<ol><li>The <em>signal light</em> went from red to green.</li><li><em>Signal lights</em> glowed along the curve in the fog.</li><li>He slowed down at the first <em>signal light</em>.</li></ol>
+<hr>
+<h3 id="block-signal">block signal<a class="hash" href="#block-signal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɑːk ˌsɪɡnəl/ &middot; <em>BLAHK SIG-nuhl</em></dd><dt>Русский</dt><dd>проходной светофор, блок-сигнал</dd><dt>Plural</dt><dd><em>block signals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A signal that keeps only one train at a time inside a section of track.</p>
+<ol><li>The <em>block signal</em> stayed red until the section cleared.</li><li><em>Block signals</em> prevent one train from catching another.</li><li>A failed <em>block signal</em> forced the train to a crawl.</li></ol>
+<hr>
+<h3 id="signal-box">signal box<a class="hash" href="#signal-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnəl ˌbɑːks/ &middot; <em>SIG-nuhl BAHKS</em></dd><dt>Русский</dt><dd>пост управления сигналами</dd><dt>Plural</dt><dd><em>signal boxes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Signal box is the British term; Americans usually say interlocking tower.</dd></dl>
+<p>A small building from which switches and signals are worked.</p>
+<ol><li>A man in the <em>signal box</em> pulled a row of long levers.</li><li>The <em>signal box</em> at the junction was torn down last year.</li><li>Old <em>signal boxes</em> have been replaced by one control center.</li></ol>
+<hr>
+<h3 id="interlocking">interlocking<a class="hash" href="#interlocking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪntərˈlɑːkɪŋ/ &middot; <em>in-tur-LAH-king</em></dd><dt>Русский</dt><dd>централизация стрелок и сигналов</dd><dt>Plural</dt><dd><em>interlockings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A system of switches and signals wired so no two conflicting routes can be set.</p>
+<ol><li>The <em>interlocking</em> at the junction was rebuilt last summer.</li><li>An <em>interlocking</em> makes it impossible to line up two trains for the same track.</li><li>Several <em>interlockings</em> are now controlled from one office.</li></ol>
+<hr>
+<h3 id="derailment">derailment<a class="hash" href="#derailment" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈreɪlmənt/ &middot; <em>dih-RAYL-muhnt</em></dd><dt>Русский</dt><dd>сход с рельсов</dd><dt>Plural</dt><dd><em>derailments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An accident in which a train comes off the track.</p>
+<ol><li>The <em>derailment</em> closed the line for three days.</li><li>No one was hurt in the <em>derailment</em>.</li><li>Two <em>derailments</em> in one month brought in federal inspectors.</li></ol>
+<hr>
+<h3 id="handcar">handcar<a class="hash" href="#handcar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændkɑːr/ &middot; <em>HAND-kahr</em></dd><dt>Русский</dt><dd>ручная дрезина</dd><dt>Plural</dt><dd><em>handcars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small open car pushed along the rails by pumping a handle.</p>
+<ol><li>Two workers pumped the <em>handcar</em> down the line.</li><li>The museum lets kids ride a <em>handcar</em> on a short track.</li><li><em>Handcars</em> were how section crews got to work.</li></ol>
+<hr>
+<h3 id="passing-siding">passing siding<a class="hash" href="#passing-siding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæsɪŋ ˌsaɪdɪŋ/ &middot; <em>PAS-ing SY-ding</em></dd><dt>Русский</dt><dd>разъезд</dd><dt>Plural</dt><dd><em>passing sidings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short second track where one train waits for another to go by.</p>
+<ol><li>We sat in a <em>passing siding</em> for twenty minutes.</li><li>The railroad is adding <em>passing sidings</em> to speed things up.</li><li>Only one <em>passing siding</em> is left on this stretch.</li></ol>
+<hr>
+<h3 id="track-crew">track crew<a class="hash" href="#track-crew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræk ˌkruː/ &middot; <em>TRAK KROO</em></dd><dt>Русский</dt><dd>путейская бригада</dd><dt>Plural</dt><dd><em>track crews</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The workers who repair and maintain the rails, ties, and ballast.</p>
+<ol><li>A <em>track crew</em> was replacing ties near the bridge.</li><li><em>Track crews</em> work through the night to avoid delays.</li><li>The <em>track crew</em> flagged our train down to a walking pace.</li></ol>
+<hr>
+<h3 id="locomotive-engineer">locomotive engineer<a class="hash" href="#locomotive-engineer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌloʊkəmoʊtɪv ˌɛndʒɪˈnɪr/ &middot; <em>loh-kuh-moh-tiv en-juh-NEER</em></dd><dt>Русский</dt><dd>машинист</dd><dt>Plural</dt><dd><em>locomotive engineers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call this person an engineer; the British say engine driver.</dd></dl>
+<p>The person who drives a train.</p>
+<ol><li>The <em>locomotive engineer</em> sounded the horn at every crossing.</li><li><em>Locomotive engineers</em> train for years before they run alone.</li><li>His father was a <em>locomotive engineer</em> on this same line.</li></ol>
+<hr>
+<h3 id="motorman">motorman<a class="hash" href="#motorman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊtərmən/ &middot; <em>MOH-tur-muhn</em></dd><dt>Русский</dt><dd>вагоновожатый, машинист (метро, трамвая)</dd><dt>Plural</dt><dd><em>motormen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one motorman, two motormen.</dd></dl>
+<p>The operator of a subway train or a streetcar.</p>
+<ol><li>The <em>motorman</em> leaned out and looked back along the platform.</li><li><em>Motormen</em> on this line work eight-hour shifts.</li><li>A new <em>motorman</em> was at the controls.</li></ol>
+<hr>
+<h3 id="brakeman">brakeman<a class="hash" href="#brakeman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪkmən/ &middot; <em>BRAYK-muhn</em></dd><dt>Русский</dt><dd>тормозной кондуктор</dd><dt>Plural</dt><dd><em>brakemen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one brakeman, two brakemen.</dd></dl>
+<p>A crew member who works the brakes, switches, and couplings on a train.</p>
+<ol><li>The <em>brakeman</em> climbed down to throw the switch.</li><li>Two <em>brakemen</em> rode in the caboose.</li><li>He started out as a <em>brakeman</em> at nineteen.</li></ol>
+<hr>
+<h3 id="stationmaster">stationmaster<a class="hash" href="#stationmaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsteɪʃənˌmæstər/ &middot; <em>STAY-shuhn-mas-tur</em></dd><dt>Русский</dt><dd>начальник станции</dd><dt>Plural</dt><dd><em>stationmasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person in charge of a railroad station.</p>
+<ol><li>The <em>stationmaster</em> unlocked the waiting room at dawn.</li><li>Ask the <em>stationmaster</em> where to leave the trunk.</li><li><em>Stationmasters</em> used to live upstairs over the depot.</li></ol>
+<hr>
+<h3 id="yardmaster">yardmaster<a class="hash" href="#yardmaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjɑːrdˌmæstər/ &middot; <em>YAHRD-mas-tur</em></dd><dt>Русский</dt><dd>начальник сортировочной станции</dd><dt>Plural</dt><dd><em>yardmasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who runs a rail yard and directs the switching crews.</p>
+<ol><li>The <em>yardmaster</em> decided which cars went out first.</li><li>Radios crackle in the <em>yardmaster's</em> tower all night.</li><li>Two <em>yardmasters</em> split the twenty-four-hour shift.</li></ol>
+<hr>
+<h3 id="switchman">switchman<a class="hash" href="#switchman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪtʃmən/ &middot; <em>SWICH-muhn</em></dd><dt>Русский</dt><dd>стрелочник</dd><dt>Plural</dt><dd><em>switchmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one switchman, two switchmen.</dd></dl>
+<p>A yard worker who throws switches to move cars from track to track.</p>
+<ol><li>The <em>switchman</em> signaled with a lantern.</li><li>Three <em>switchmen</em> worked the night shift.</li><li>A <em>switchman</em> rides the side of the car as it rolls.</li></ol>
+<hr>
+<h3 id="signalman">signalman<a class="hash" href="#signalman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪɡnəlmən/ &middot; <em>SIG-nuhl-muhn</em></dd><dt>Русский</dt><dd>сигналист</dd><dt>Plural</dt><dd><em>signalmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one signalman, two signalmen.</dd></dl>
+<p>A worker who operates or maintains railroad signals.</p>
+<ol><li>The <em>signalman</em> worked the levers from the tower.</li><li><em>Signalmen</em> were called out to fix the frozen switch.</li><li>A <em>signalman</em> checked every lamp along the line.</li></ol>
+<hr>
+<h3 id="flagman">flagman<a class="hash" href="#flagman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæɡmən/ &middot; <em>FLAG-muhn</em></dd><dt>Русский</dt><dd>сигнальщик с флажком</dd><dt>Plural</dt><dd><em>flagmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: one flagman, two flagmen.</dd></dl>
+<p>A crew member who walks back with a flag or lantern to warn other trains.</p>
+<ol><li>The <em>flagman</em> went back half a mile to protect the train.</li><li>Two <em>flagmen</em> stood at either end of the work zone.</li><li>The <em>flagman</em> waved us through at a slow speed.</li></ol>
+<hr>
+<h3 id="railroader">railroader<a class="hash" href="#railroader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪlˌroʊdər/ &middot; <em>RAYL-roh-dur</em></dd><dt>Русский</dt><dd>железнодорожник</dd><dt>Plural</dt><dd><em>railroaders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who works for a railroad.</p>
+<ol><li>Three generations of <em>railroaders</em> have lived in that house.</li><li>Old <em>railroaders</em> gather at the diner every morning.</li><li>He was a <em>railroader</em> his whole working life.</li></ol>
+<hr>
+<h3 id="redcap">redcap<a class="hash" href="#redcap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛdkæp/ &middot; <em>RED-kap</em></dd><dt>Русский</dt><dd>вокзальный носильщик</dd><dt>Plural</dt><dd><em>redcaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A porter who carries passengers' bags at a railroad station.</p>
+<ol><li>A <em>redcap</em> wheeled our suitcases to the platform.</li><li><em>Redcaps</em> met every long-distance train.</li><li>He tipped the <em>redcap</em> five dollars.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

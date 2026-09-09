@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: hunting and fishing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-hunting-and-fishing">Core vocabulary: hunting and fishing<a class="hash" href="#core-vocabulary-hunting-and-fishing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of hunting and fishing — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="hunting">hunting<a class="hash" href="#hunting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ/ &middot; <em>HUN-ting</em></dd><dt>Русский</dt><dd>охота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of chasing and killing wild animals for food or sport.</p>
+<ol><li><em>Hunting</em> is a big part of life in that part of the state.</li><li>He gave up <em>hunting</em> after his knees went bad.</li><li>Deer <em>hunting</em> brings a lot of money into small towns every fall.</li></ol>
+<hr>
+<h3 id="hunter">hunter<a class="hash" href="#hunter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntər/ &middot; <em>HUN-tur</em></dd><dt>Русский</dt><dd>охотник</dd><dt>Plural</dt><dd><em>hunters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who hunts wild animals.</p>
+<ol><li>A <em>hunter</em> found the missing hiker on the ridge.</li><li>Thousands of <em>hunters</em> head into the woods on opening weekend.</li><li>She's a better <em>hunter</em> than anyone else in the family.</li></ol>
+<hr>
+<h3 id="hunt">hunt<a class="hash" href="#hunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌnt/ &middot; <em>HUNT</em></dd><dt>Русский</dt><dd>охота (выезд, вылазка)</dd><dt>Plural</dt><dd><em>hunts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One trip or occasion of hunting animals.</p>
+<ol><li>They're planning an elk <em>hunt</em> in Montana this fall.</li><li>The morning <em>hunt</em> ended with nothing but wet boots.</li><li>He's been on a dozen <em>hunts</em> and never fired a shot.</li></ol>
+<hr>
+<h3 id="fishing-rod">fishing rod<a class="hash" href="#fishing-rod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ rɑːd/ &middot; <em>FISH-ing rahd</em></dd><dt>Русский</dt><dd>удочка, удилище</dd><dt>Plural</dt><dd><em>fishing rods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long flexible stick with a reel, used to catch fish with a line.</p>
+<ol><li>He got a new <em>fishing rod</em> for his birthday.</li><li>Three <em>fishing rods</em> were leaning against the truck.</li><li>Don't leave the <em>fishing rod</em> in the sun all day.</li></ol>
+<hr>
+<h3 id="fishing-pole">fishing pole<a class="hash" href="#fishing-pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ poʊl/ &middot; <em>FISH-ing pohl</em></dd><dt>Русский</dt><dd>удочка (простая)</dd><dt>Plural</dt><dd><em>fishing poles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In everyday American speech <em>pole</em> and <em>rod</em> mean the same thing; <em>pole</em> just sounds more casual.</dd></dl>
+<p>A simple rod for fishing, often a plain one without a fancy reel.</p>
+<ol><li>The kids each had a cheap <em>fishing pole</em> from the hardware store.</li><li>He carried a <em>fishing pole</em> over his shoulder like a rifle.</li><li>We keep a couple of <em>fishing poles</em> in the garage.</li></ol>
+<hr>
+<h3 id="fishing-line">fishing line<a class="hash" href="#fishing-line" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ laɪn/ &middot; <em>FISH-ing lyne</em></dd><dt>Русский</dt><dd>леска</dd><dt>Plural</dt><dd><em>fishing lines</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The thin strong cord that runs from a reel to the hook.</p>
+<ol><li>I need to put new <em>fishing line</em> on this reel.</li><li>A bird got tangled in some <em>fishing line</em> on the shore.</li><li>Two <em>fishing lines</em> crossed and made a mess.</li></ol>
+<hr>
+<h3 id="fishhook">fishhook<a class="hash" href="#fishhook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃhʊk/ &middot; <em>FISH-huuk</em></dd><dt>Русский</dt><dd>рыболовный крючок</dd><dt>Plural</dt><dd><em>fishhooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sharp bent piece of metal used to catch fish.</p>
+<ol><li>He got a <em>fishhook</em> through his thumb and needed stitches.</li><li>A handful of <em>fishhooks</em> had rusted in the bottom of the box.</li><li>Tie the <em>fishhook</em> on with a good knot.</li></ol>
+<hr>
+<h3 id="bobber">bobber<a class="hash" href="#bobber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːbər/ &middot; <em>BAH-bur</em></dd><dt>Русский</dt><dd>поплавок</dd><dt>Plural</dt><dd><em>bobbers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>bobber</em>; the British call the same thing a <em>float</em>.</dd></dl>
+<p>A small float on the line that dips under when a fish bites.</p>
+<ol><li>Watch the <em>bobber</em> — it went under twice already.</li><li>The kids like the red and white <em>bobbers</em>.</li><li>Set the <em>bobber</em> about three feet above the hook.</li></ol>
+<hr>
+<h3 id="landing-net">landing net<a class="hash" href="#landing-net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændɪŋ nɛt/ &middot; <em>LAN-ding net</em></dd><dt>Русский</dt><dd>подсак, подсачек</dd><dt>Plural</dt><dd><em>landing nets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A net on a handle used to lift a hooked fish out of the water.</p>
+<ol><li>Grab the <em>landing net</em> — this one's big.</li><li>He forgot the <em>landing net</em> and lost the fish at the boat.</li><li>Rubber <em>landing nets</em> are easier on a trout's skin.</li></ol>
+<hr>
+<h3 id="fishing-net">fishing net<a class="hash" href="#fishing-net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ nɛt/ &middot; <em>FISH-ing net</em></dd><dt>Русский</dt><dd>рыболовная сеть</dd><dt>Plural</dt><dd><em>fishing nets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mesh of cord used to catch fish in large numbers.</p>
+<ol><li>The crew hauled in the <em>fishing net</em> by hand.</li><li>Old <em>fishing nets</em> wash up on this beach all winter.</li><li>A seal tore a hole in the <em>fishing net</em>.</li></ol>
+<hr>
+<h3 id="fishing-trip">fishing trip<a class="hash" href="#fishing-trip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ trɪp/ &middot; <em>FISH-ing trip</em></dd><dt>Русский</dt><dd>рыбалка (поездка)</dd><dt>Plural</dt><dd><em>fishing trips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A journey made in order to go fishing.</p>
+<ol><li>We're taking a <em>fishing trip</em> up to Minnesota in July.</li><li>Their yearly <em>fishing trips</em> go back thirty years.</li><li>The whole <em>fishing trip</em> got rained out.</li></ol>
+<hr>
+<h3 id="angling">angling<a class="hash" href="#angling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋɡlɪŋ/ &middot; <em>ANG-gling</em></dd><dt>Русский</dt><dd>ужение, любительская рыбалка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fishing with a rod, line, and hook as a sport.</p>
+<ol><li><em>Angling</em> is the most popular outdoor sport in the county.</li><li>The magazine covers fly <em>angling</em> in the West.</li><li>He wrote a whole book about <em>angling</em> for bass.</li></ol>
+<hr>
+<h3 id="hunting-license">hunting license<a class="hash" href="#hunting-license" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ ˌlaɪsəns/ &middot; <em>HUN-ting LY-suhns</em></dd><dt>Русский</dt><dd>охотничья лицензия</dd><dt>Plural</dt><dd><em>hunting licenses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American English spells the noun <em>license</em>; British English spells it <em>licence</em>.</dd></dl>
+<p>An official document that allows a person to hunt legally.</p>
+<ol><li>You can buy a <em>hunting license</em> online in about five minutes.</li><li>The warden asked to see our <em>hunting licenses</em>.</li><li>His <em>hunting license</em> expires at the end of the month.</li></ol>
+<hr>
+<h3 id="fishing-license">fishing license<a class="hash" href="#fishing-license" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ ˌlaɪsəns/ &middot; <em>FISH-ing LY-suhns</em></dd><dt>Русский</dt><dd>лицензия на рыбную ловлю</dd><dt>Plural</dt><dd><em>fishing licenses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official document that allows a person to fish legally.</p>
+<ol><li>A one-day <em>fishing license</em> costs about fifteen dollars here.</li><li>Kids under sixteen don't need <em>fishing licenses</em>.</li><li>Keep your <em>fishing license</em> in your wallet, not in the boat.</li></ol>
+<hr>
+<h3 id="hunting-season">hunting season<a class="hash" href="#hunting-season" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ ˌsiːzən/ &middot; <em>HUN-ting SEE-zuhn</em></dd><dt>Русский</dt><dd>охотничий сезон</dd><dt>Plural</dt><dd><em>hunting seasons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The period of the year when hunting a particular animal is allowed.</p>
+<ol><li>Deer <em>hunting season</em> runs from November to early January.</li><li>The state sets different <em>hunting seasons</em> for each animal.</li><li>He takes vacation every year during <em>hunting season</em>.</li></ol>
+<hr>
+<h3 id="fishing-season">fishing season<a class="hash" href="#fishing-season" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃɪŋ ˌsiːzən/ &middot; <em>FISH-ing SEE-zuhn</em></dd><dt>Русский</dt><dd>сезон рыбной ловли</dd><dt>Plural</dt><dd><em>fishing seasons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The period of the year when fishing for a certain species is allowed.</p>
+<ol><li>Trout <em>fishing season</em> opens the last Saturday in April.</li><li>Bad weather ruined half the <em>fishing season</em>.</li><li>The two <em>fishing seasons</em> overlap by about a week.</li></ol>
+<hr>
+<h3 id="open-season">open season<a class="hash" href="#open-season" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊpən ˈsiːzən/ &middot; <em>OH-puhn SEE-zuhn</em></dd><dt>Русский</dt><dd>разрешённый сезон охоты</dd><dt>Plural</dt><dd><em>open seasons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stretch of time when it is legal to hunt or catch a certain animal.</p>
+<ol><li>It's <em>open season</em> on coyotes year-round in this state.</li><li><em>Open season</em> for ducks starts in the middle of October.</li><li>The <em>open seasons</em> are printed in the back of the regulations booklet.</li></ol>
+<hr>
+<h3 id="opening-day">opening day<a class="hash" href="#opening-day" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊpənɪŋ deɪ/ &middot; <em>OH-puh-ning day</em></dd><dt>Русский</dt><dd>день открытия сезона</dd><dt>Plural</dt><dd><em>opening days</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The first day of a hunting or fishing season.</p>
+<ol><li>Half the town takes off work on <em>opening day</em>.</li><li>We were on the water at dawn on <em>opening day</em>.</li><li><em>Opening days</em> are always crowded at this lake.</li></ol>
+<hr>
+<h3 id="bag-limit">bag limit<a class="hash" href="#bag-limit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæɡ ˌlɪmɪt/ &middot; <em>BAG LIM-it</em></dd><dt>Русский</dt><dd>норма добычи, лимит добычи</dd><dt>Plural</dt><dd><em>bag limits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The largest number of animals or fish one person may legally take in a day.</p>
+<ol><li>The daily <em>bag limit</em> is six birds.</li><li><em>Bag limits</em> change from one county to the next.</li><li>We hit our <em>bag limit</em> before nine in the morning.</li></ol>
+<hr>
+<h3 id="game-warden">game warden<a class="hash" href="#game-warden" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪm ˌwɔːrdən/ &middot; <em>GAYM WOR-duhn</em></dd><dt>Русский</dt><dd>егерь, инспектор охотнадзора</dd><dt>Plural</dt><dd><em>game wardens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An officer who enforces hunting and fishing laws.</p>
+<ol><li>A <em>game warden</em> checked our licenses at the boat ramp.</li><li><em>Game wardens</em> patrol the whole river during the spawn.</li><li>She's been a <em>game warden</em> for twelve years.</li></ol>
+<hr>
+<h3 id="poacher">poacher<a class="hash" href="#poacher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊtʃər/ &middot; <em>POH-chur</em></dd><dt>Русский</dt><dd>браконьер</dd><dt>Plural</dt><dd><em>poachers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who hunts or fishes illegally.</p>
+<ol><li>A <em>poacher</em> shot the deer out of season and got caught.</li><li><em>Poachers</em> work at night with spotlights.</li><li>The ranch hired guards to keep <em>poachers</em> off the land.</li></ol>
+<hr>
+<h3 id="poaching">poaching<a class="hash" href="#poaching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpoʊtʃɪŋ/ &middot; <em>POH-ching</em></dd><dt>Русский</dt><dd>браконьерство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The crime of hunting or fishing without the right to do so.</p>
+<ol><li><em>Poaching</em> carries a heavy fine in this state.</li><li>He lost his license for three years for <em>poaching</em>.</li><li>Elephant <em>poaching</em> has dropped in some countries.</li></ol>
+<hr>
+<h3 id="decoy">decoy<a class="hash" href="#decoy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdiːkɔɪ/ &middot; <em>DEE-koy</em></dd><dt>Русский</dt><dd>чучело (подсадная птица), приманка</dd><dt>Plural</dt><dd><em>decoys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun is usually stressed on the first syllable (DEE-koy); as a verb the stress often moves to the second (di-KOY).</dd></dl>
+<p>A model of a bird set out on the water to draw real birds within range.</p>
+<ol><li>We set out two dozen <em>decoys</em> before sunrise.</li><li>One <em>decoy</em> had come loose and drifted off.</li><li>He carves wooden <em>decoys</em> in the winter.</li></ol>
+<hr>
+<h3 id="duck-blind">duck blind<a class="hash" href="#duck-blind" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌk blaɪnd/ &middot; <em>DUK blynd</em></dd><dt>Русский</dt><dd>скрадок для охоты на уток</dd><dt>Plural</dt><dd><em>duck blinds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call this a <em>blind</em>; the British word for the same thing is a <em>hide</em>.</dd></dl>
+<p>A small shelter where hunters hide while waiting for ducks.</p>
+<ol><li>We sat in the <em>duck blind</em> for four hours in the rain.</li><li>He built a <em>duck blind</em> out of scrap lumber and reeds.</li><li>The <em>duck blinds</em> along that marsh are all rented out.</li></ol>
+<hr>
+<h3 id="tree-stand">tree stand<a class="hash" href="#tree-stand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtriː stænd/ &middot; <em>TREE stand</em></dd><dt>Русский</dt><dd>лабаз, засидка на дереве</dd><dt>Plural</dt><dd><em>tree stands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A seat or platform fixed up in a tree for a hunter to watch from.</p>
+<ol><li>He climbed into the <em>tree stand</em> before it got light.</li><li>Always wear a harness in a <em>tree stand</em>.</li><li>Two <em>tree stands</em> overlook the far end of the field.</li></ol>
+<hr>
+<h3 id="trap">trap<a class="hash" href="#trap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/træp/ &middot; <em>TRAP</em></dd><dt>Русский</dt><dd>капкан, ловушка</dd><dt>Plural</dt><dd><em>traps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that catches and holds an animal.</p>
+<ol><li>He set a <em>trap</em> by the creek for beaver.</li><li>Her dog got a paw caught in a <em>trap</em>.</li><li>The <em>traps</em> are checked every morning by law.</li></ol>
+<hr>
+<h3 id="snare">snare<a class="hash" href="#snare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/snɛr/ &middot; <em>SNAIR</em></dd><dt>Русский</dt><dd>силок, петля</dd><dt>Plural</dt><dd><em>snares</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A loop of wire or cord that tightens around an animal that walks into it.</p>
+<ol><li>He set a wire <em>snare</em> on the rabbit run.</li><li><em>Snares</em> are illegal for most animals in this state.</li><li>The fox pulled the <em>snare</em> loose and got away.</li></ol>
+<hr>
+<h3 id="trapper">trapper<a class="hash" href="#trapper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræpər/ &middot; <em>TRAP-ur</em></dd><dt>Русский</dt><dd>траппер, охотник с капканами</dd><dt>Plural</dt><dd><em>trappers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who catches animals in traps, usually for their fur.</p>
+<ol><li>An old <em>trapper</em> lived alone up that valley.</li><li><em>Trappers</em> opened up much of the West before the settlers came.</li><li>He works as a <em>trapper</em> for the county in the spring.</li></ol>
+<hr>
+<h3 id="trapping">trapping<a class="hash" href="#trapping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræpɪŋ/ &middot; <em>TRAP-ing</em></dd><dt>Русский</dt><dd>охота с капканами, пушной промысел</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of catching animals with traps.</p>
+<ol><li><em>Trapping</em> season runs through the coldest months.</li><li>He learned <em>trapping</em> from his father.</li><li>The state requires a separate permit for <em>trapping</em>.</li></ol>
+<hr>
+<h3 id="game-bird">game bird<a class="hash" href="#game-bird" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪm bɜːrd/ &middot; <em>GAYM burd</em></dd><dt>Русский</dt><dd>пернатая дичь</dd><dt>Plural</dt><dd><em>game birds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bird that people are allowed to hunt, such as a duck or a quail.</p>
+<ol><li>Pheasant is the most popular <em>game bird</em> around here.</li><li>The refuge raises <em>game birds</em> and releases them each fall.</li><li>You need a stamp to hunt any migratory <em>game bird</em>.</li></ol>
+<hr>
+<h3 id="big-game">big game<a class="hash" href="#big-game" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbɪɡ ˈɡeɪm/ &middot; <em>big GAYM</em></dd><dt>Русский</dt><dd>крупная дичь, крупный зверь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Large wild animals such as deer, elk, and bear that people hunt.</p>
+<ol><li>He's hunted <em>big game</em> on three continents.</li><li><em>Big game</em> tags are handed out by lottery.</li><li>The rifle is heavy enough for <em>big game</em>.</li></ol>
+<hr>
+<h3 id="small-game">small game<a class="hash" href="#small-game" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsmɔːl ˈɡeɪm/ &middot; <em>smawl GAYM</em></dd><dt>Русский</dt><dd>мелкая дичь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Small wild animals such as rabbits and squirrels that people hunt.</p>
+<ol><li>A .22 is plenty for <em>small game</em>.</li><li><em>Small game</em> season opens in September.</li><li>Most kids around here start out hunting <em>small game</em>.</li></ol>
+<hr>
+<h3 id="game-meat">game meat<a class="hash" href="#game-meat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪm miːt/ &middot; <em>GAYM meet</em></dd><dt>Русский</dt><dd>мясо дичи, дичина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Meat from wild animals that have been hunted.</p>
+<ol><li>The freezer is full of <em>game meat</em>.</li><li><em>Game meat</em> is leaner than beef.</li><li>She has a great recipe for stew with <em>game meat</em>.</li></ol>
+<hr>
+<h3 id="hunting-ground">hunting ground<a class="hash" href="#hunting-ground" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ ɡraʊnd/ &middot; <em>HUN-ting grownd</em></dd><dt>Русский</dt><dd>охотничьи угодья</dd><dt>Plural</dt><dd><em>hunting grounds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of land where people hunt.</p>
+<ol><li>That ridge has been their family <em>hunting ground</em> for generations.</li><li>The new highway cut right through the best <em>hunting grounds</em>.</li><li>He knows every acre of this <em>hunting ground</em>.</li></ol>
+<hr>
+<h3 id="wildlife-refuge">wildlife refuge<a class="hash" href="#wildlife-refuge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪldlaɪf ˌrɛfjuːdʒ/ &middot; <em>WYLD-lyfe REF-yooj</em></dd><dt>Русский</dt><dd>заповедник, резерват дикой природы</dd><dt>Plural</dt><dd><em>wildlife refuges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Protected land set aside where wild animals can live and breed.</p>
+<ol><li>The <em>wildlife refuge</em> floods its fields every fall for the ducks.</li><li>Hunting is allowed in parts of some <em>wildlife refuges</em>.</li><li>We drove out to the <em>wildlife refuge</em> to watch the geese come in.</li></ol>
+<hr>
+<h3 id="gamekeeper">gamekeeper<a class="hash" href="#gamekeeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪmˌkiːpər/ &middot; <em>GAYM-kee-pur</em></dd><dt>Русский</dt><dd>егерь (в частном хозяйстве)</dd><dt>Plural</dt><dd><em>gamekeepers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Mainly British; the American officer who enforces hunting law is a <em>game warden</em>.</dd></dl>
+<p>Someone hired to look after game animals on private land.</p>
+<ol><li>The estate employs a <em>gamekeeper</em> and two assistants.</li><li><em>Gamekeepers</em> feed the birds through the winter.</li><li>The <em>gamekeeper</em> met us at the gate.</li></ol>
+<hr>
+<h3 id="varmint">varmint<a class="hash" href="#varmint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɑːrmənt/ &middot; <em>VAR-muhnt</em></dd><dt>Русский</dt><dd>вредный зверёк (койот, сурок и т. п.)</dd><dt>Plural</dt><dd><em>varmints</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A country pronunciation of <em>vermin</em>; it stays informal.</dd></dl>
+<p>A wild animal treated as a pest, such as a coyote or a woodchuck.</p>
+<ol><li>He keeps a rifle in the truck for <em>varmints</em>.</li><li>Some <em>varmint</em> got into the chicken coop last night.</li><li><em>Varmint</em> hunting has no closed season here.</li></ol>
+<hr>
+<h3 id="flyway">flyway<a class="hash" href="#flyway" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪweɪ/ &middot; <em>FLY-way</em></dd><dt>Русский</dt><dd>пролётный путь птиц</dd><dt>Plural</dt><dd><em>flyways</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The route that migrating birds follow every year.</p>
+<ol><li>This marsh sits right on the Mississippi <em>flyway</em>.</li><li>The four main <em>flyways</em> run north and south across the country.</li><li>Duck numbers along the <em>flyway</em> are up this year.</li></ol>
+<hr>
+<h3 id="hunting-dog">hunting dog<a class="hash" href="#hunting-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ dɔːɡ/ &middot; <em>HUN-ting dawg</em></dd><dt>Русский</dt><dd>охотничья собака</dd><dt>Plural</dt><dd><em>hunting dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog bred and trained to help people hunt.</p>
+<ol><li>A good <em>hunting dog</em> is worth more than the gun.</li><li>His two <em>hunting dogs</em> ride in the back of the truck.</li><li>She trains <em>hunting dogs</em> on the side.</li></ol>
+<hr>
+<h3 id="bird-dog">bird dog<a class="hash" href="#bird-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrd dɔːɡ/ &middot; <em>BURD dawg</em></dd><dt>Русский</dt><dd>легавая</dd><dt>Plural</dt><dd><em>bird dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to find and flush game birds.</p>
+<ol><li>That <em>bird dog</em> can smell a quail fifty yards off.</li><li><em>Bird dogs</em> need a lot of running to stay in shape.</li><li>He paid a fortune for a trained <em>bird dog</em>.</li></ol>
+<hr>
+<h3 id="gun-dog">gun dog<a class="hash" href="#gun-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌn dɔːɡ/ &middot; <em>GUN dawg</em></dd><dt>Русский</dt><dd>подружейная собака</dd><dt>Plural</dt><dd><em>gun dogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to work alongside a hunter with a shotgun.</p>
+<ol><li>A steady <em>gun dog</em> doesn't move until you send it.</li><li>He breeds <em>gun dogs</em> out of a kennel in Kansas.</li><li>The <em>gun dog</em> sat perfectly still through the whole volley.</li></ol>
+<hr>
+<h3 id="pointer">pointer<a class="hash" href="#pointer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪntər/ &middot; <em>POYN-tur</em></dd><dt>Русский</dt><dd>пойнтер</dd><dt>Plural</dt><dd><em>pointers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hunting dog that freezes and points its nose at hidden birds.</p>
+<ol><li>The <em>pointer</em> locked up at the edge of the corn.</li><li>He runs two <em>pointers</em> on the prairie every October.</li><li>A good <em>pointer</em> holds until the hunter walks in.</li></ol>
+<hr>
+<h3 id="setter">setter<a class="hash" href="#setter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛtər/ &middot; <em>SET-ur</em></dd><dt>Русский</dt><dd>сеттер</dd><dt>Plural</dt><dd><em>setters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-haired hunting dog that points at game birds.</p>
+<ol><li>His English <em>setter</em> works close in thick cover.</li><li>The two <em>setters</em> covered the whole field in an hour.</li><li>That <em>setter</em> has the softest mouth of any dog he's owned.</li></ol>
+<hr>
+<h3 id="hunting-knife">hunting knife<a class="hash" href="#hunting-knife" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌntɪŋ naɪf/ &middot; <em>HUN-ting nyfe</em></dd><dt>Русский</dt><dd>охотничий нож</dd><dt>Plural</dt><dd><em>hunting knives</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k in <em>knife</em> is silent, and the plural is <em>knives</em>, not 'knifes'.</dd></dl>
+<p>A strong fixed-blade knife used to skin and cut up game.</p>
+<ol><li>He carries a <em>hunting knife</em> on his belt.</li><li>A dull <em>hunting knife</em> is more dangerous than a sharp one.</li><li>Two <em>hunting knives</em> came with the set.</li></ol>
+<hr>
+<h3 id="shotgun-shell">shotgun shell<a class="hash" href="#shotgun-shell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɑːtɡʌn ʃɛl/ &middot; <em>SHAHT-gun shel</em></dd><dt>Русский</dt><dd>патрон для дробовика</dd><dt>Plural</dt><dd><em>shotgun shells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cartridge holding many small pellets, fired from a shotgun.</p>
+<ol><li>He loaded three <em>shotgun shells</em> and snapped the gun shut.</li><li>A box of <em>shotgun shells</em> costs more every year.</li><li>An empty <em>shotgun shell</em> was lying in the grass.</li></ol>
+<hr>
+<h3 id="buckshot">buckshot<a class="hash" href="#buckshot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌkʃɑːt/ &middot; <em>BUK-shaht</em></dd><dt>Русский</dt><dd>картечь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Large lead pellets fired from a shotgun at big animals.</p>
+<ol><li>He loaded <em>buckshot</em> for deer in thick brush.</li><li>The sign was full of holes from <em>buckshot</em>.</li><li><em>Buckshot</em> is illegal for deer in some counties.</li></ol>
+<hr>
+<h3 id="birdshot">birdshot<a class="hash" href="#birdshot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɜːrdʃɑːt/ &middot; <em>BURD-shaht</em></dd><dt>Русский</dt><dd>мелкая дробь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Small lead or steel pellets fired from a shotgun at birds.</p>
+<ol><li>Use <em>birdshot</em> for dove and quail.</li><li>A little <em>birdshot</em> peppered the far end of the field.</li><li>Steel <em>birdshot</em> is required for waterfowl.</li></ol>
+<hr>
+<h3 id="scope">scope<a class="hash" href="#scope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skoʊp/ &middot; <em>SKOHP</em></dd><dt>Русский</dt><dd>оптический прицел</dd><dt>Plural</dt><dd><em>scopes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also an everyday word meaning range or extent ('the scope of the project'), and in that sense it is uncountable.</dd></dl>
+<p>A small telescope mounted on a rifle to help the shooter aim.</p>
+<ol><li>He put a new <em>scope</em> on the deer rifle.</li><li>Fog on the <em>scope</em> cost him the shot.</li><li>Cheap <em>scopes</em> lose their zero after a few shots.</li></ol>
+<hr>
+<h3 id="spotting-scope">spotting scope<a class="hash" href="#spotting-scope" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɑːtɪŋ skoʊp/ &middot; <em>SPAH-ting skohp</em></dd><dt>Русский</dt><dd>зрительная труба</dd><dt>Plural</dt><dd><em>spotting scopes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small telescope on a stand, used to look at distant animals.</p>
+<ol><li>He glassed the far slope with a <em>spotting scope</em>.</li><li><em>Spotting scopes</em> are heavy to carry up a mountain.</li><li>Set the <em>spotting scope</em> on a tripod so it stays steady.</li></ol>
+<hr>
+<h3 id="rangefinder">rangefinder<a class="hash" href="#rangefinder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪndʒˌfaɪndər/ &middot; <em>RAYNJ-fyn-dur</em></dd><dt>Русский</dt><dd>дальномер</dd><dt>Plural</dt><dd><em>rangefinders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small device that measures how far away a target is.</p>
+<ol><li>The <em>rangefinder</em> said two hundred and ten yards.</li><li>Modern <em>rangefinders</em> work through light rain.</li><li>He never shoots without checking the <em>rangefinder</em> first.</li></ol>
+<hr>
+<h3 id="muzzleloader">muzzleloader<a class="hash" href="#muzzleloader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmʌzəlˌloʊdər/ &middot; <em>MUZ-uhl-loh-dur</em></dd><dt>Русский</dt><dd>дульнозарядное ружьё</dd><dt>Plural</dt><dd><em>muzzleloaders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old-style gun loaded with powder and a ball through the front of the barrel.</p>
+<ol><li>There's a separate season for <em>muzzleloaders</em>.</li><li>He hunts with a <em>muzzleloader</em> his grandfather built.</li><li>A <em>muzzleloader</em> gives you one shot and no more.</li></ol>
+<hr>
+<h3 id="black-powder">black powder<a class="hash" href="#black-powder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌblæk ˈpaʊdər/ &middot; <em>blak POW-dur</em></dd><dt>Русский</dt><dd>дымный порох</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The old kind of gunpowder used in muzzleloaders.</p>
+<ol><li><em>Black powder</em> makes a huge cloud of white smoke.</li><li>He measures the <em>black powder</em> by hand for each shot.</li><li>The <em>black powder</em> season starts a week before rifle season.</li></ol>
+<hr>
+<h3 id="recoil">recoil<a class="hash" href="#recoil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈkɔɪl/ &middot; <em>ri-KOYL</em></dd><dt>Русский</dt><dd>отдача (оружия)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The backward push a gun gives when it is fired.</p>
+<ol><li>That shotgun has a lot of <em>recoil</em>.</li><li>A pad on the stock soaks up some of the <em>recoil</em>.</li><li>She flinched from the <em>recoil</em> and missed high.</li></ol>
+<hr>
+<h3 id="choke">choke<a class="hash" href="#choke" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃoʊk/ &middot; <em>CHOHK</em></dd><dt>Русский</dt><dd>чок, дульное сужение</dd><dt>Plural</dt><dd><em>chokes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrowing at the end of a shotgun barrel that controls how the shot spreads.</p>
+<ol><li>Use a tighter <em>choke</em> for longer shots.</li><li>The gun came with three screw-in <em>chokes</em>.</li><li>An open <em>choke</em> is better in close cover.</li></ol>
+<hr>
+<h3 id="gun-safe">gun safe<a class="hash" href="#gun-safe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡʌn seɪf/ &middot; <em>GUN sayf</em></dd><dt>Русский</dt><dd>оружейный сейф</dd><dt>Plural</dt><dd><em>gun safes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy locked cabinet for storing firearms.</p>
+<ol><li>Everything goes back in the <em>gun safe</em> when we get home.</li><li><em>Gun safes</em> are required if you have kids in the house.</li><li>It took four men to move the <em>gun safe</em> into the basement.</li></ol>
+<hr>
+<h3 id="ammo">ammo<a class="hash" href="#ammo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæmoʊ/ &middot; <em>AM-oh</em></dd><dt>Русский</dt><dd>патроны, боеприпасы (разг.)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Short for <em>ammunition</em>; both are uncountable — never 'ammos'.</dd></dl>
+<p>Bullets and shells, in everyday informal speech.</p>
+<ol><li>We're low on <em>ammo</em> for the .30-06.</li><li><em>Ammo</em> got expensive after the shortage.</li><li>He keeps his <em>ammo</em> in a locked box under the bed.</li></ol>
+<hr>
+<h3 id="shooting-range">shooting range<a class="hash" href="#shooting-range" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːtɪŋ reɪndʒ/ &middot; <em>SHOO-ting raynj</em></dd><dt>Русский</dt><dd>стрельбище, тир</dd><dt>Plural</dt><dd><em>shooting ranges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place set up for people to practice shooting safely.</p>
+<ol><li>We sighted in the rifles at the <em>shooting range</em>.</li><li>The county opened two new <em>shooting ranges</em> last year.</li><li>The <em>shooting range</em> closes at dusk.</li></ol>
+<hr>
+<h3 id="skeet">skeet<a class="hash" href="#skeet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skiːt/ &middot; <em>SKEET</em></dd><dt>Русский</dt><dd>скит (стендовая стрельба)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sport in which people shoot at clay targets thrown across their path.</p>
+<ol><li>He shoots <em>skeet</em> every Sunday morning.</li><li><em>Skeet</em> is good practice for duck season.</li><li>The club holds a <em>skeet</em> tournament in June.</li></ol>
+<hr>
+<h3 id="clay-pigeon">clay pigeon<a class="hash" href="#clay-pigeon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkleɪ ˈpɪdʒən/ &middot; <em>klay PIJ-uhn</em></dd><dt>Русский</dt><dd>тарелочка (мишень)</dd><dt>Plural</dt><dd><em>clay pigeons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat disk thrown into the air as a target for shotgun practice.</p>
+<ol><li>He broke nineteen <em>clay pigeons</em> out of twenty.</li><li>A <em>clay pigeon</em> sailed out over the pond.</li><li>We went through three boxes of <em>clay pigeons</em>.</li></ol>
+<hr>
+<h3 id="marksman">marksman<a class="hash" href="#marksman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːrksmən/ &middot; <em>MARKS-muhn</em></dd><dt>Русский</dt><dd>меткий стрелок</dd><dt>Plural</dt><dd><em>marksmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural <em>marksmen</em> sounds nearly the same as the singular; only the middle vowel differs.</dd></dl>
+<p>Someone who shoots very accurately.</p>
+<ol><li>His grandfather was a fine <em>marksman</em>.</li><li>The club is full of serious <em>marksmen</em>.</li><li>You don't have to be a <em>marksman</em> to hunt turkey.</li></ol>
+<hr>
+<h3 id="blaze-orange">blaze orange<a class="hash" href="#blaze-orange" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbleɪz ˈɔːrɪndʒ/ &middot; <em>blayz OR-inj</em></dd><dt>Русский</dt><dd>сигнальный оранжевый (цвет одежды охотника)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The bright orange color hunters wear so other hunters can see them.</p>
+<ol><li>State law says you have to wear <em>blaze orange</em> during deer season.</li><li>His vest and hat are both <em>blaze orange</em>.</li><li>You can spot <em>blaze orange</em> through the thickest brush.</li></ol>
+<hr>
+<h3 id="crossbow">crossbow<a class="hash" href="#crossbow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɔːsboʊ/ &middot; <em>KRAWS-boh</em></dd><dt>Русский</dt><dd>арбалет</dd><dt>Plural</dt><dd><em>crossbows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short bow set across a stock, fired like a gun.</p>
+<ol><li>He hunts deer with a <em>crossbow</em> now that his shoulder is bad.</li><li><em>Crossbows</em> are legal here during the whole archery season.</li><li>The <em>crossbow</em> is heavier than it looks.</li></ol>
+<hr>
+<h3 id="quiver">quiver<a class="hash" href="#quiver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkwɪvər/ &middot; <em>KWIV-ur</em></dd><dt>Русский</dt><dd>колчан</dd><dt>Plural</dt><dd><em>quivers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A case for carrying arrows.</p>
+<ol><li>He pulled another arrow from his <em>quiver</em>.</li><li>The <em>quiver</em> clips right onto the bow.</li><li>Both <em>quivers</em> were empty by the end of practice.</li></ol>
+<hr>
+<h3 id="broadhead">broadhead<a class="hash" href="#broadhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɔːdhɛd/ &middot; <em>BRAWD-hed</em></dd><dt>Русский</dt><dd>охотничий наконечник стрелы</dd><dt>Plural</dt><dd><em>broadheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide sharp arrow point used for hunting animals.</p>
+<ol><li>He screwed a fresh <em>broadhead</em> onto the arrow.</li><li><em>Broadheads</em> have to be razor sharp.</li><li>A dull <em>broadhead</em> wounds an animal instead of killing it.</li></ol>
+<hr>
+<h3 id="falconry">falconry<a class="hash" href="#falconry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfælkənri/ &middot; <em>FAL-kuhn-ree</em></dd><dt>Русский</dt><dd>соколиная охота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of hunting with trained hawks or falcons.</p>
+<ol><li><em>Falconry</em> takes years of training and a special permit.</li><li>He got interested in <em>falconry</em> after a demonstration at the fair.</li><li><em>Falconry</em> is one of the oldest field sports there is.</li></ol>
+<hr>
+<h3 id="falconer">falconer<a class="hash" href="#falconer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfælkənər/ &middot; <em>FAL-kuh-nur</em></dd><dt>Русский</dt><dd>сокольник</dd><dt>Plural</dt><dd><em>falconers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who keeps and hunts with trained birds of prey.</p>
+<ol><li>The <em>falconer</em> held the hawk on a thick leather glove.</li><li>There are only a few dozen licensed <em>falconers</em> in the state.</li><li>A <em>falconer</em> has to feed the bird by hand every day.</li></ol>
+<hr>
+<h3 id="fox-hunt">fox hunt<a class="hash" href="#fox-hunt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːks hʌnt/ &middot; <em>FAHKS hunt</em></dd><dt>Русский</dt><dd>охота на лису (с гончими)</dd><dt>Plural</dt><dd><em>fox hunts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hunt in which riders on horses follow a pack of hounds after a fox.</p>
+<ol><li>The club holds a <em>fox hunt</em> every Thanksgiving morning.</li><li>She rode in her first <em>fox hunt</em> at fourteen.</li><li><em>Fox hunts</em> still draw a crowd in parts of Virginia.</li></ol>
+<hr>
+<h3 id="duck-call">duck call<a class="hash" href="#duck-call" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌk kɔːl/ &middot; <em>DUK kawl</em></dd><dt>Русский</dt><dd>манок на утку</dd><dt>Plural</dt><dd><em>duck calls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small wooden or plastic whistle blown to imitate a duck.</p>
+<ol><li>He blew the <em>duck call</em> twice and the flock turned.</li><li>Wooden <em>duck calls</em> sound warmer than plastic ones.</li><li>Learning a <em>duck call</em> takes a whole season.</li></ol>
+<hr>
+<h3 id="turkey-call">turkey call<a class="hash" href="#turkey-call" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrki kɔːl/ &middot; <em>TUR-kee kawl</em></dd><dt>Русский</dt><dd>манок на индейку</dd><dt>Plural</dt><dd><em>turkey calls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device used to imitate the sound of a wild turkey.</p>
+<ol><li>He worked the <em>turkey call</em> until a gobbler answered.</li><li>There are a dozen kinds of <em>turkey calls</em> in that box.</li><li>A bad <em>turkey call</em> will spook every bird in the woods.</li></ol>
+<hr>
+<h3 id="trail-camera">trail camera<a class="hash" href="#trail-camera" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪl ˌkæmərə/ &middot; <em>TRAYL kam-uh-ruh</em></dd><dt>Русский</dt><dd>фотоловушка</dd><dt>Plural</dt><dd><em>trail cameras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A camera strapped to a tree that takes pictures when an animal walks past.</p>
+<ol><li>The <em>trail camera</em> got three pictures of the same buck.</li><li>He has <em>trail cameras</em> on every trail on the property.</li><li>The <em>trail camera</em> ran out of batteries in the cold.</li></ol>
+<hr>
+<h3 id="game-trail">game trail<a class="hash" href="#game-trail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪm treɪl/ &middot; <em>GAYM trayl</em></dd><dt>Русский</dt><dd>звериная тропа</dd><dt>Plural</dt><dd><em>game trails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow path worn through the woods by wild animals.</p>
+<ol><li>We followed a <em>game trail</em> down to the creek.</li><li><em>Game trails</em> cross the whole hillside.</li><li>His stand looks right down a <em>game trail</em>.</li></ol>
+<hr>
+<h3 id="scent">scent<a class="hash" href="#scent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɛnt/ &middot; <em>SENT</em></dd><dt>Русский</dt><dd>запах зверя, след (по запаху)</dd><dt>Plural</dt><dd><em>scents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The c is silent: <em>scent</em>, <em>sent</em>, and <em>cent</em> all sound the same.</dd></dl>
+<p>The smell an animal leaves behind, which dogs follow.</p>
+<ol><li>The hounds picked up a <em>scent</em> near the river.</li><li>Rain washes the <em>scent</em> right off the ground.</li><li>Wind carried our <em>scent</em> straight to the deer.</li></ol>
+<hr>
+<h3 id="scat">scat<a class="hash" href="#scat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skæt/ &middot; <em>SKAT</em></dd><dt>Русский</dt><dd>помёт (звериный)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The droppings of a wild animal, used to tell what has passed by.</p>
+<ol><li>There was bear <em>scat</em> right on the trail.</li><li>You can tell a lot from <em>scat</em> — what it ate and how long ago.</li><li>The guide pointed at some fresh <em>scat</em> by the stream.</li></ol>
+<hr>
+<h3 id="rut">rut<a class="hash" href="#rut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rʌt/ &middot; <em>RUT</em></dd><dt>Русский</dt><dd>гон (брачный период у оленей)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Also an everyday word for a deep groove worn in a dirt road, or a dull routine.</dd></dl>
+<p>The mating season when male deer chase females and lose their caution.</p>
+<ol><li>The <em>rut</em> usually peaks around the second week of November.</li><li>Bucks move all day during the <em>rut</em>.</li><li>He takes his vacation to hunt the <em>rut</em>.</li></ol>
+<hr>
+<h3 id="buck-fever">buck fever<a class="hash" href="#buck-fever" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbʌk ˈfiːvər/ &middot; <em>buk FEE-vur</em></dd><dt>Русский</dt><dd>охотничий мандраж</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The shaking excitement a hunter feels when a big animal finally appears.</p>
+<ol><li>He got <em>buck fever</em> and forgot to take the safety off.</li><li><em>Buck fever</em> has cost more deer than bad shooting.</li><li>Even after thirty years he still gets a touch of <em>buck fever</em>.</li></ol>
+<hr>
+<h3 id="field-dressing">field dressing<a class="hash" href="#field-dressing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːld ˌdrɛsɪŋ/ &middot; <em>FEELD dres-ing</em></dd><dt>Русский</dt><dd>полевая разделка туши</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>In first aid a <em>field dressing</em> is a bandage — same words, completely different thing.</dd></dl>
+<p>The job of cleaning out a killed animal right where it fell.</p>
+<ol><li><em>Field dressing</em> a deer takes about twenty minutes.</li><li>He learned <em>field dressing</em> from his uncle.</li><li>Do the <em>field dressing</em> fast so the meat cools.</li></ol>
+<hr>
+<h3 id="carcass">carcass<a class="hash" href="#carcass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrkəs/ &middot; <em>KAR-kuhs</em></dd><dt>Русский</dt><dd>туша</dd><dt>Plural</dt><dd><em>carcasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British writing sometimes spells it <em>carcase</em>; American English uses <em>carcass</em>.</dd></dl>
+<p>The dead body of an animal.</p>
+<ol><li>We hung the <em>carcass</em> in the shed to cool.</li><li>Coyotes had gotten to the <em>carcass</em> overnight.</li><li>The <em>carcasses</em> go to the processor in town.</li></ol>
+<hr>
+<h3 id="kill">kill<a class="hash" href="#kill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɪl/ &middot; <em>KIL</em></dd><dt>Русский</dt><dd>добыча (убитый зверь)</dd><dt>Plural</dt><dd><em>kills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An animal that a hunter or predator has killed.</p>
+<ol><li>The wolves stayed near the <em>kill</em> for two days.</li><li>It was a clean <em>kill</em> at a hundred yards.</li><li>He's had only two <em>kills</em> all season.</li></ol>
+<hr>
+<h3 id="taxidermy">taxidermy<a class="hash" href="#taxidermy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæksəˌdɜːrmi/ &middot; <em>TAK-suh-dur-mee</em></dd><dt>Русский</dt><dd>таксидермия, чучельное дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of preparing and stuffing dead animals so they look alive.</p>
+<ol><li>He does <em>taxidermy</em> out of a shop behind his house.</li><li>Good <em>taxidermy</em> isn't cheap.</li><li>She took a class in <em>taxidermy</em> at the community college.</li></ol>
+<hr>
+<h3 id="taxidermist">taxidermist<a class="hash" href="#taxidermist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæksəˌdɜːrmɪst/ &middot; <em>TAK-suh-dur-mist</em></dd><dt>Русский</dt><dd>таксидермист, чучельник</dd><dt>Plural</dt><dd><em>taxidermists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is mounting animal skins to look lifelike.</p>
+<ol><li>The <em>taxidermist</em> said it would take six months.</li><li>There are only two <em>taxidermists</em> left in the county.</li><li>He dropped the antlers off at the <em>taxidermist</em>.</li></ol>
+<hr>
+<h3 id="outfitter">outfitter<a class="hash" href="#outfitter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtˌfɪtər/ &middot; <em>OWT-fit-ur</em></dd><dt>Русский</dt><dd>организатор охотничьих и рыболовных туров</dd><dt>Plural</dt><dd><em>outfitters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A business or person that supplies guides and gear for hunting or fishing trips.</p>
+<ol><li>We booked the trip through a local <em>outfitter</em>.</li><li>The <em>outfitter</em> provides horses, tents, and meals.</li><li>Several <em>outfitters</em> work out of that little town.</li></ol>
+<hr>
+<h3 id="sportsman">sportsman<a class="hash" href="#sportsman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɔːrtsmən/ &middot; <em>SPORTS-muhn</em></dd><dt>Русский</dt><dd>охотник-любитель, рыболов-любитель</dd><dt>Plural</dt><dd><em>sportsmen</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who hunts or fishes for sport and follows the rules of fair play.</p>
+<ol><li>The club is open to any <em>sportsman</em> in the county.</li><li><em>Sportsmen</em> pay for most of the state's conservation work.</li><li>A real <em>sportsman</em> doesn't shoot a sitting bird.</li></ol>
+<hr>
+<h3 id="outdoorsman">outdoorsman<a class="hash" href="#outdoorsman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌaʊtˈdɔːrzmən/ &middot; <em>owt-DORZ-muhn</em></dd><dt>Русский</dt><dd>любитель охоты, рыбалки и жизни на природе</dd><dt>Plural</dt><dd><em>outdoorsmen</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who spends a lot of time hunting, fishing, and camping.</p>
+<ol><li>Her father was a lifelong <em>outdoorsman</em>.</li><li>The store is full of gear for <em>outdoorsmen</em>.</li><li>You don't have to be a serious <em>outdoorsman</em> to enjoy the trip.</li></ol>
+<hr>
+<h3 id="keeper">keeper<a class="hash" href="#keeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkiːpər/ &middot; <em>KEE-pur</em></dd><dt>Русский</dt><dd>рыба разрешённого размера (которую можно оставить)</dd><dt>Plural</dt><dd><em>keepers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fish big enough by law to be kept instead of thrown back.</p>
+<ol><li>That one's a <em>keeper</em> — right at fifteen inches.</li><li>We caught thirty fish and maybe four <em>keepers</em>.</li><li>Anything under the limit goes back; only <em>keepers</em> go in the cooler.</li></ol>
+<hr>
+<h3 id="catch-and-release">catch-and-release<a class="hash" href="#catch-and-release" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkætʃ ən rɪˈliːs/ &middot; <em>kach-uhn-ri-LEES</em></dd><dt>Русский</dt><dd>принцип «поймал — отпусти»</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of putting every fish back in the water after catching it.</p>
+<ol><li>This whole stretch of river is <em>catch-and-release</em>.</li><li>He's practiced <em>catch-and-release</em> since he was a kid.</li><li><em>Catch-and-release</em> keeps the big fish in the system.</li></ol>
+<hr>
+<h3 id="nibble">nibble<a class="hash" href="#nibble" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnɪbəl/ &middot; <em>NIB-uhl</em></dd><dt>Русский</dt><dd>поклёвка (осторожная)</dd><dt>Plural</dt><dd><em>nibbles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light careful bite from a fish that does not take the hook.</p>
+<ol><li>I got a <em>nibble</em> but nothing set.</li><li>We sat there two hours without a single <em>nibble</em>.</li><li>A few <em>nibbles</em> means the bait is too big.</li></ol>
+<hr>
+<h3 id="haul">haul<a class="hash" href="#haul" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɔːl/ &middot; <em>HAWL</em></dd><dt>Русский</dt><dd>улов, добыча</dd><dt>Plural</dt><dd><em>hauls</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>hall</em> (a corridor or a large room).</dd></dl>
+<p>The amount of fish or game brought in at one time.</p>
+<ol><li>That's the biggest <em>haul</em> we've had all summer.</li><li>The boat came in with a poor <em>haul</em>.</li><li>Their <em>hauls</em> have dropped off since the new rules.</li></ol>
+<hr>
+<h3 id="weigh-in">weigh-in<a class="hash" href="#weigh-in" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪ ɪn/ &middot; <em>WAY-in</em></dd><dt>Русский</dt><dd>взвешивание улова</dd><dt>Plural</dt><dd><em>weigh-ins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Weigh</em> sounds exactly like <em>way</em>.</dd></dl>
+<p>The moment at a tournament when the fish are put on the scale.</p>
+<ol><li>The <em>weigh-in</em> starts at three o'clock at the dock.</li><li>He missed the <em>weigh-in</em> by four minutes.</li><li>Big crowds show up for the <em>weigh-ins</em>.</li></ol>
+<hr>
+<h3 id="stringer">stringer<a class="hash" href="#stringer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstrɪŋər/ &middot; <em>STRING-ur</em></dd><dt>Русский</dt><dd>кукан (для рыбы)</dd><dt>Plural</dt><dd><em>stringers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cord or chain used to hold caught fish in the water beside you.</p>
+<ol><li>He had five bluegill on the <em>stringer</em>.</li><li>Keep the <em>stringer</em> in the shade so the fish stay fresh.</li><li>A turtle got into one of our <em>stringers</em>.</li></ol>
+<hr>
+<h3 id="creel">creel<a class="hash" href="#creel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kriːl/ &middot; <em>KREEL</em></dd><dt>Русский</dt><dd>плетёная корзина для рыбы</dd><dt>Plural</dt><dd><em>creels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A basket that an angler carries caught fish in.</p>
+<ol><li>He came back with three trout in his <em>creel</em>.</li><li>Old wicker <em>creels</em> sell as antiques now.</li><li>She lined the <em>creel</em> with wet grass.</li></ol>
+<hr>
+<h3 id="gaff">gaff<a class="hash" href="#gaff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡæf/ &middot; <em>GAF</em></dd><dt>Русский</dt><dd>багор</dd><dt>Plural</dt><dd><em>gaffs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds like <em>gaffe</em> (an embarrassing social mistake), which is a different word.</dd></dl>
+<p>A pole with a big hook, used to pull a large fish into a boat.</p>
+<ol><li>Hand me the <em>gaff</em> — I can't lift him by the line.</li><li>The mate sank the <em>gaff</em> into the tuna.</li><li>Two <em>gaffs</em> hung on the wall of the cabin.</li></ol>
+<hr>
+<h3 id="swivel">swivel<a class="hash" href="#swivel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈswɪvəl/ &middot; <em>SWIV-uhl</em></dd><dt>Русский</dt><dd>вертлюжок (для лески)</dd><dt>Plural</dt><dd><em>swivels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal link that lets the line turn without twisting.</p>
+<ol><li>Tie a <em>swivel</em> between the line and the leader.</li><li>A pack of <em>swivels</em> costs a couple of dollars.</li><li>The <em>swivel</em> keeps the lure from spinning up your line.</li></ol>
+<hr>
+<h3 id="barb">barb<a class="hash" href="#barb" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːrb/ &middot; <em>BARB</em></dd><dt>Русский</dt><dd>бородка (на крючке)</dd><dt>Plural</dt><dd><em>barbs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small backward point on a hook that keeps a fish from slipping off.</p>
+<ol><li>Pinch the <em>barb</em> down with pliers before you fish here.</li><li>The <em>barb</em> went in past his knuckle.</li><li>Hooks without <em>barbs</em> are easier to take out.</li></ol>
+<hr>
+<h3 id="treble-hook">treble hook<a class="hash" href="#treble-hook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛbəl hʊk/ &middot; <em>TREB-uhl huuk</em></dd><dt>Русский</dt><dd>тройник (крючок)</dd><dt>Plural</dt><dd><em>treble hooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hook with three points joined on one shank.</p>
+<ol><li>That lure has two <em>treble hooks</em> on it.</li><li>A <em>treble hook</em> is hard to get out of a fish's mouth.</li><li>He swapped the <em>treble hooks</em> for single ones.</li></ol>
+<hr>
+<h3 id="monofilament">monofilament<a class="hash" href="#monofilament" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmɑːnəˈfɪləmənt/ &middot; <em>mah-nuh-FIL-uh-muhnt</em></dd><dt>Русский</dt><dd>монофильная леска</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Clear single-strand nylon line used for fishing.</p>
+<ol><li>He spooled the reel with ten-pound <em>monofilament</em>.</li><li><em>Monofilament</em> stretches more than braided line.</li><li>Sunlight makes old <em>monofilament</em> brittle.</li></ol>
+<hr>
+<h3 id="jig">jig<a class="hash" href="#jig" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɪɡ/ &middot; <em>JIG</em></dd><dt>Русский</dt><dd>джиг (приманка с грузилом)</dd><dt>Plural</dt><dd><em>jigs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A weighted hook with a soft or hairy body, bounced along the bottom.</p>
+<ol><li>A white <em>jig</em> works well in that river.</li><li>He tipped the <em>jig</em> with a piece of minnow.</li><li>She keeps a whole tray of <em>jigs</em> in different colors.</li></ol>
+<hr>
+<h3 id="spinner">spinner<a class="hash" href="#spinner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪnər/ &middot; <em>SPIN-ur</em></dd><dt>Русский</dt><dd>блесна-вертушка</dd><dt>Plural</dt><dd><em>spinners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lure with a small blade that spins and flashes as it is pulled through the water.</p>
+<ol><li>A small gold <em>spinner</em> is all you need for these trout.</li><li><em>Spinners</em> work best in moving water.</li><li>The <em>spinner</em> caught the light and a fish hit it right away.</li></ol>
+<hr>
+<h3 id="chum">chum<a class="hash" href="#chum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃʌm/ &middot; <em>CHUM</em></dd><dt>Русский</dt><dd>прикормка (рубленая рыба)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Also an old informal word for a close friend, and it sounds exactly the same.</dd></dl>
+<p>Bits of fish thrown in the water to draw fish toward a boat.</p>
+<ol><li>The mate threw <em>chum</em> over the side every few minutes.</li><li>A slick of <em>chum</em> trailed behind the boat.</li><li><em>Chum</em> brings in sharks along with everything else.</li></ol>
+<hr>
+<h3 id="nightcrawler">nightcrawler<a class="hash" href="#nightcrawler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪtˌkrɔːlər/ &middot; <em>NYTE-kraw-lur</em></dd><dt>Русский</dt><dd>выползок (крупный дождевой червь)</dd><dt>Plural</dt><dd><em>nightcrawlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large earthworm used as fishing bait.</p>
+<ol><li>We picked <em>nightcrawlers</em> off the lawn after the rain.</li><li>One <em>nightcrawler</em> is plenty for a hook that size.</li><li>Keep the <em>nightcrawlers</em> in the refrigerator overnight.</li></ol>
+<hr>
+<h3 id="fingerling">fingerling<a class="hash" href="#fingerling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪŋɡərlɪŋ/ &middot; <em>FING-gur-ling</em></dd><dt>Русский</dt><dd>малёк, сеголеток</dd><dt>Plural</dt><dd><em>fingerlings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young fish about the size of a finger.</p>
+<ol><li>The hatchery released ten thousand <em>fingerlings</em> into the river.</li><li>A trout <em>fingerling</em> takes two years to reach legal size.</li><li>The pond was stocked with <em>fingerlings</em> last spring.</li></ol>
+<hr>
+<h3 id="fish-ladder">fish ladder<a class="hash" href="#fish-ladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃ ˌlædər/ &middot; <em>FISH lad-ur</em></dd><dt>Русский</dt><dd>рыбоход</dd><dt>Plural</dt><dd><em>fish ladders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of steps built beside a dam so fish can swim upstream.</p>
+<ol><li>You can watch salmon climb the <em>fish ladder</em> from a window.</li><li>The dam was rebuilt with a <em>fish ladder</em>.</li><li>Old <em>fish ladders</em> were too steep for most species.</li></ol>
+<hr>
+<h3 id="casting">casting<a class="hash" href="#casting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæstɪŋ/ &middot; <em>KAS-ting</em></dd><dt>Русский</dt><dd>заброс (снасти)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of throwing a baited line out over the water.</p>
+<ol><li><em>Casting</em> into the wind takes practice.</li><li>He spent an hour on the lawn working on his <em>casting</em>.</li><li>Long <em>casting</em> isn't necessary on a small creek.</li></ol>
+<hr>
+<h3 id="trolling">trolling<a class="hash" href="#trolling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtroʊlɪŋ/ &middot; <em>TROH-ling</em></dd><dt>Русский</dt><dd>троллинг (ловля на ходу за лодкой)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled and said the same as internet <em>trolling</em> — the fishing sense came first.</dd></dl>
+<p>Fishing by dragging a baited line slowly behind a moving boat.</p>
+<ol><li><em>Trolling</em> along the drop-off got us two lake trout.</li><li><em>Trolling</em> covers a lot of water in a short time.</li><li>He does most of his <em>trolling</em> early in the morning.</li></ol>
+<hr>
+<h3 id="trolling-motor">trolling motor<a class="hash" href="#trolling-motor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtroʊlɪŋ ˌmoʊtər/ &middot; <em>TROH-ling MOH-tur</em></dd><dt>Русский</dt><dd>электромотор для троллинга</dd><dt>Plural</dt><dd><em>trolling motors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small quiet electric motor that moves a boat slowly while fishing.</p>
+<ol><li>He ran the <em>trolling motor</em> along the weed line.</li><li>The battery for the <em>trolling motor</em> died halfway through.</li><li>New <em>trolling motors</em> hold the boat in place by themselves.</li></ol>
+<hr>
+<h3 id="boat-ramp">boat ramp<a class="hash" href="#boat-ramp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊt ræmp/ &middot; <em>BOHT ramp</em></dd><dt>Русский</dt><dd>спуск для лодок, слип</dd><dt>Plural</dt><dd><em>boat ramps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A paved slope where boats are backed into the water off a trailer.</p>
+<ol><li>There was a line of trucks at the <em>boat ramp</em>.</li><li>Both <em>boat ramps</em> on this side of the lake are free.</li><li>Ice closed the <em>boat ramp</em> until March.</li></ol>
+<hr>
+<h3 id="skiff">skiff<a class="hash" href="#skiff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɪf/ &middot; <em>SKIF</em></dd><dt>Русский</dt><dd>ялик, лёгкая плоскодонная лодка</dd><dt>Plural</dt><dd><em>skiffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small flat light boat used for fishing in shallow water.</p>
+<ol><li>The guide poled the <em>skiff</em> across the flats.</li><li>Two <em>skiffs</em> were pulled up on the sand.</li><li>A <em>skiff</em> draws only a few inches of water.</li></ol>
+<hr>
+<h3 id="outboard">outboard<a class="hash" href="#outboard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtbɔːrd/ &middot; <em>OWT-bord</em></dd><dt>Русский</dt><dd>подвесной лодочный мотор</dd><dt>Plural</dt><dd><em>outboards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An engine that hangs on the back of a small boat.</p>
+<ol><li>The <em>outboard</em> wouldn't start until the third pull.</li><li>He bought a used twenty-horse <em>outboard</em>.</li><li>Older <em>outboards</em> burn a mix of gas and oil.</li></ol>
+<hr>
+<h3 id="bass-boat">bass boat<a class="hash" href="#bass-boat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæs boʊt/ &middot; <em>BAS boht</em></dd><dt>Русский</dt><dd>лодка для спиннинговой ловли (басс-бот)</dd><dt>Plural</dt><dd><em>bass boats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The fish <em>bass</em> is said /bæs/, rhyming with <em>pass</em>; the musical <em>bass</em> is said /beɪs/.</dd></dl>
+<p>A low fast boat with open casting decks, built for freshwater fishing.</p>
+<ol><li>He pulls a <em>bass boat</em> behind his pickup.</li><li><em>Bass boats</em> filled the ramp before daylight.</li><li>The <em>bass boat</em> has a live well built into the deck.</li></ol>
+<hr>
+<h3 id="charter-boat">charter boat<a class="hash" href="#charter-boat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɑːrtər boʊt/ &middot; <em>CHAR-tur boht</em></dd><dt>Русский</dt><dd>арендованное судно для рыбалки</dd><dt>Plural</dt><dd><em>charter boats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boat with a captain that people hire for a day of fishing.</p>
+<ol><li>We took a <em>charter boat</em> out for half a day.</li><li>The <em>charter boats</em> leave the harbor at six.</li><li>A <em>charter boat</em> costs about six hundred dollars for six people.</li></ol>
+<hr>
+<h3 id="fish-finder">fish finder<a class="hash" href="#fish-finder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪʃ ˌfaɪndər/ &middot; <em>FISH fyn-dur</em></dd><dt>Русский</dt><dd>эхолот</dd><dt>Plural</dt><dd><em>fish finders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electronic screen on a boat that shows fish and the bottom below.</p>
+<ol><li>The <em>fish finder</em> showed a school at twenty feet.</li><li>Modern <em>fish finders</em> draw a picture of the bottom.</li><li>He can't fish without a <em>fish finder</em> anymore.</li></ol>
+<hr>
+<h3 id="ice-fishing">ice fishing<a class="hash" href="#ice-fishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs ˌfɪʃɪŋ/ &middot; <em>EYESS fish-ing</em></dd><dt>Русский</dt><dd>подлёдная рыбалка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fishing through a hole cut in the ice of a frozen lake.</p>
+<ol><li><em>Ice fishing</em> doesn't start until the lake freezes solid.</li><li>He took the boys <em>ice fishing</em> over Christmas break.</li><li><em>Ice fishing</em> is more about sitting still than casting.</li></ol>
+<hr>
+<h3 id="bait-shop">bait shop<a class="hash" href="#bait-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪt ʃɑːp/ &middot; <em>BAYT shahp</em></dd><dt>Русский</dt><dd>магазин наживки</dd><dt>Plural</dt><dd><em>bait shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small store selling live bait and simple fishing supplies.</p>
+<ol><li>The <em>bait shop</em> opens at four in the morning.</li><li>Ask at the <em>bait shop</em> where they're biting.</li><li>Half the <em>bait shops</em> on this road have closed.</li></ol>
+<hr>
+<h3 id="tackle-shop">tackle shop<a class="hash" href="#tackle-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtækəl ʃɑːp/ &middot; <em>TAK-uhl shahp</em></dd><dt>Русский</dt><dd>магазин рыболовных снастей</dd><dt>Plural</dt><dd><em>tackle shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store that sells rods, reels, lures, and other fishing gear.</p>
+<ol><li>The man at the <em>tackle shop</em> tied the knot for me.</li><li>There's a good <em>tackle shop</em> just off the highway.</li><li>Local <em>tackle shops</em> know more than any website.</li></ol>
+<hr>
+<h3 id="fly-fishing">fly fishing<a class="hash" href="#fly-fishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪ ˌfɪʃɪŋ/ &middot; <em>FLY fish-ing</em></dd><dt>Русский</dt><dd>нахлыст</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fishing with a very light artificial fly cast on a heavy line.</p>
+<ol><li><em>Fly fishing</em> looks harder than it is.</li><li>He drove to Montana for a week of <em>fly fishing</em>.</li><li><em>Fly fishing</em> is mostly about reading the water.</li></ol>
+<hr>
+<h3 id="fly-rod">fly rod<a class="hash" href="#fly-rod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪ rɑːd/ &middot; <em>FLY rahd</em></dd><dt>Русский</dt><dd>нахлыстовое удилище</dd><dt>Plural</dt><dd><em>fly rods</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long thin springy rod made for casting an artificial fly.</p>
+<ol><li>He broke the tip off his <em>fly rod</em> in the car door.</li><li>Bamboo <em>fly rods</em> sell for a fortune.</li><li>A nine-foot <em>fly rod</em> handles wind better.</li></ol>
+<hr>
+<h3 id="dry-fly">dry fly<a class="hash" href="#dry-fly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdraɪ ˈflaɪ/ &middot; <em>dry FLY</em></dd><dt>Русский</dt><dd>сухая мушка</dd><dt>Plural</dt><dd><em>dry flies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An artificial fly that floats on the surface of the water.</p>
+<ol><li>A trout came up and took the <em>dry fly</em>.</li><li>He ties his own <em>dry flies</em> through the winter.</li><li>Grease the <em>dry fly</em> so it keeps floating.</li></ol>
+<hr>
+<h3 id="tippet">tippet<a class="hash" href="#tippet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪpət/ &middot; <em>TIP-uht</em></dd><dt>Русский</dt><dd>поводок (в нахлысте)</dd><dt>Plural</dt><dd><em>tippets</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>The fine end section of line that the fly is tied to.</p>
+<ol><li>Add a foot of lighter <em>tippet</em> and try again.</li><li>He carries three spools of <em>tippet</em> in his vest.</li><li>A heavy <em>tippet</em> will spook fish in clear water.</li></ol>
+<hr>
+<h3 id="fly-tying">fly tying<a class="hash" href="#fly-tying" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪ ˌtaɪɪŋ/ &middot; <em>FLY ty-ing</em></dd><dt>Русский</dt><dd>вязание мушек</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of making artificial flies out of feathers, fur, and thread.</p>
+<ol><li><em>Fly tying</em> gets him through the winter months.</li><li>The shop offers a <em>fly tying</em> class on Thursdays.</li><li><em>Fly tying</em> takes good eyes and steady hands.</li></ol>
+<hr>
+<h3 id="spearfishing">spearfishing<a class="hash" href="#spearfishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪrˌfɪʃɪŋ/ &middot; <em>SPEER-fish-ing</em></dd><dt>Русский</dt><dd>подводная охота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Catching fish underwater with a spear or a spear gun.</p>
+<ol><li><em>Spearfishing</em> is popular off the reefs down there.</li><li>He took up <em>spearfishing</em> after he learned to free-dive.</li><li><em>Spearfishing</em> is banned in the marine park.</li></ol>
+<hr>
+<h3 id="crabbing">crabbing<a class="hash" href="#crabbing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkræbɪŋ/ &middot; <em>KRAB-ing</em></dd><dt>Русский</dt><dd>ловля крабов</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of catching crabs with traps, lines, or nets.</p>
+<ol><li>We go <em>crabbing</em> off the bridge every August.</li><li><em>Crabbing</em> is best on an incoming tide.</li><li>A chicken neck on a string is all you need for <em>crabbing</em>.</li></ol>
+<hr>
+<h3 id="clamming">clamming<a class="hash" href="#clamming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæmɪŋ/ &middot; <em>KLAM-ing</em></dd><dt>Русский</dt><dd>сбор моллюсков (клемов)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The activity of digging clams out of sand or mud at low tide.</p>
+<ol><li><em>Clamming</em> is only allowed at certain beaches.</li><li>We went <em>clamming</em> with rakes and a bucket.</li><li>The town sells a season permit for <em>clamming</em>.</li></ol>
+<hr>
+<h3 id="seine">seine<a class="hash" href="#seine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪn/ &middot; <em>SAYN</em></dd><dt>Русский</dt><dd>невод</dd><dt>Plural</dt><dd><em>seines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with <em>sane</em>; the ei is not said 'ee'.</dd></dl>
+<p>A long net that hangs straight down and is drawn through the water.</p>
+<ol><li>They dragged a <em>seine</em> across the shallow end of the cove.</li><li><em>Seines</em> catch everything, big and small.</li><li>He uses a small <em>seine</em> to collect bait.</li></ol>
+<hr>
+<h3 id="gill-net">gill net<a class="hash" href="#gill-net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɪl nɛt/ &middot; <em>GIL net</em></dd><dt>Русский</dt><dd>жаберная сеть</dd><dt>Plural</dt><dd><em>gill nets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A net hung in the water that catches fish by the gills as they swim into it.</p>
+<ol><li><em>Gill nets</em> are banned in most inland waters here.</li><li>The crew set a <em>gill net</em> across the channel.</li><li>A seal got tangled in the <em>gill net</em>.</li></ol>
+<hr>
+<h3 id="walleye">walleye<a class="hash" href="#walleye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːlaɪ/ &middot; <em>WAWL-eye</em></dd><dt>Русский</dt><dd>судак (американский)</dd><dt>Plural</dt><dd><em>walleyes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A freshwater fish with big glassy eyes, prized for eating.</p>
+<ol><li>We caught a five-pound <em>walleye</em> at dusk.</li><li><em>Walleyes</em> feed best in low light.</li><li>Fried <em>walleye</em> is on every menu up north.</li></ol>
+<hr>
+<h3 id="crappie">crappie<a class="hash" href="#crappie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɑːpi/ &middot; <em>KRAH-pee</em></dd><dt>Русский</dt><dd>краппи (пресноводная рыба)</dd><dt>Plural</dt><dd><em>crappies</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said KRAH-pee, not like the word <em>crappy</em>.</dd></dl>
+<p>A small flat freshwater fish caught in schools around brush.</p>
+<ol><li>The <em>crappie</em> are stacked up around that sunken tree.</li><li>He filled a bucket with <em>crappies</em> in an hour.</li><li>A tiny jig is all you need for <em>crappie</em>.</li></ol>
+<hr>
+<h3 id="bluegill">bluegill<a class="hash" href="#bluegill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbluːɡɪl/ &middot; <em>BLOO-gil</em></dd><dt>Русский</dt><dd>синежаберник (блюгилл)</dd><dt>Plural</dt><dd><em>bluegills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small round freshwater fish common in ponds all over the country.</p>
+<ol><li>Kids catch <em>bluegills</em> off the dock all summer.</li><li>A worm under a bobber will always get a <em>bluegill</em>.</li><li>The pond is full of stunted <em>bluegills</em>.</li></ol>
+<hr>
+<h3 id="panfish">panfish<a class="hash" href="#panfish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænfɪʃ/ &middot; <em>PAN-fish</em></dd><dt>Русский</dt><dd>мелкая пресноводная рыба (на сковороду)</dd><dt>Plural</dt><dd><em>panfish</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is <em>panfish</em>, unchanged — never 'panfishes'.</dd></dl>
+<p>Any small freshwater fish big enough to fry whole in a pan.</p>
+<ol><li>We kept a mess of <em>panfish</em> for supper.</li><li><em>Panfish</em> are the easiest thing for a beginner to catch.</li><li>One good <em>panfish</em> barely covers a plate.</li></ol>
+<hr>
+<h3 id="steelhead">steelhead<a class="hash" href="#steelhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːlhɛd/ &middot; <em>STEEL-hed</em></dd><dt>Русский</dt><dd>стальноголовый лосось (проходная радужная форель)</dd><dt>Plural</dt><dd><em>steelhead</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is usually <em>steelhead</em>, unchanged.</dd></dl>
+<p>A rainbow trout that goes to the sea and comes back up the river to spawn.</p>
+<ol><li>He hooked a <em>steelhead</em> below the falls.</li><li><em>Steelhead</em> run these rivers in late winter.</li><li>A wild <em>steelhead</em> has to be released.</li></ol>
+<hr>
+<h3 id="tarpon">tarpon<a class="hash" href="#tarpon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrpən/ &middot; <em>TAR-puhn</em></dd><dt>Русский</dt><dd>тарпон</dd><dt>Plural</dt><dd><em>tarpon</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural is usually <em>tarpon</em>, unchanged.</dd></dl>
+<p>A large silver fish of warm shallow seas that jumps hard when hooked.</p>
+<ol><li>A <em>tarpon</em> rolled right beside the boat.</li><li><em>Tarpon</em> move up the coast in May and June.</li><li>Almost nobody keeps a <em>tarpon</em> anymore.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

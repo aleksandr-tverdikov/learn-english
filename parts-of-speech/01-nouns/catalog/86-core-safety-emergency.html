@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: safety and emergencies</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-safety-and-emergencies">Core vocabulary: safety and emergencies<a class="hash" href="#core-vocabulary-safety-and-emergencies" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of safety and emergencies — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="accident">accident<a class="hash" href="#accident" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæksɪdənt/ &middot; <em>AK-sih-duhnt</em></dd><dt>Русский</dt><dd>несчастный случай, авария</dd><dt>Plural</dt><dd><em>accidents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something bad that happens by chance and hurts someone or damages something.</p>
+<ol><li>There was an <em>accident</em> on the highway this morning.</li><li>Most home <em>accidents</em> happen in the kitchen.</li><li>He broke his wrist in a bike <em>accident</em>.</li></ol>
+<hr>
+<h3 id="emergency-exit">emergency exit<a class="hash" href="#emergency-exit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi ˈɛɡzɪt/ &middot; <em>ih-MUR-juhn-see EG-zit</em></dd><dt>Русский</dt><dd>аварийный выход, запасной выход</dd><dt>Plural</dt><dd><em>emergency exits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A door kept clear so people can leave a building or vehicle quickly in danger.</p>
+<ol><li>The <em>emergency exit</em> is at the back of the store.</li><li>Please locate the two nearest <em>emergency exits</em>.</li><li>Never block an <em>emergency exit</em> with boxes.</li></ol>
+<hr>
+<h3 id="fire-alarm">fire alarm<a class="hash" href="#fire-alarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr əˌlɑːrm/ &middot; <em>FYR uh-larm</em></dd><dt>Русский</dt><dd>пожарная сигнализация, пожарная тревога</dd><dt>Plural</dt><dd><em>fire alarms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device or signal that warns everyone in a building that there is a fire.</p>
+<ol><li>Somebody pulled the <em>fire alarm</em> during third period.</li><li>The <em>fire alarm</em> went off at two in the morning.</li><li>All the <em>fire alarms</em> are tested twice a year.</li></ol>
+<hr>
+<h3 id="fire-extinguisher">fire extinguisher<a class="hash" href="#fire-extinguisher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ɪkˌstɪŋɡwɪʃər/ &middot; <em>FYR ik-STING-gwish-ur</em></dd><dt>Русский</dt><dd>огнетушитель</dd><dt>Plural</dt><dd><em>fire extinguishers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal cylinder of chemicals or foam used to put out a small fire.</p>
+<ol><li>Keep a <em>fire extinguisher</em> under the kitchen sink.</li><li>He grabbed the <em>fire extinguisher</em> and aimed it at the base of the flames.</li><li>The <em>fire extinguishers</em> in the hallway were all expired.</li></ol>
+<hr>
+<h3 id="smoke-detector">smoke detector<a class="hash" href="#smoke-detector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmoʊk dɪˌtɛktər/ &middot; <em>SMOHK dih-tek-tur</em></dd><dt>Русский</dt><dd>датчик дыма, дымовой извещатель</dd><dt>Plural</dt><dd><em>smoke detectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small ceiling device that senses smoke and sounds a loud warning.</p>
+<ol><li>The <em>smoke detector</em> goes off every time I make toast.</li><li>Change the battery in your <em>smoke detector</em> twice a year.</li><li>The landlord installed <em>smoke detectors</em> in every bedroom.</li></ol>
+<hr>
+<h3 id="smoke-alarm">smoke alarm<a class="hash" href="#smoke-alarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmoʊk əˌlɑːrm/ &middot; <em>SMOHK uh-larm</em></dd><dt>Русский</dt><dd>дымовая пожарная сигнализация</dd><dt>Plural</dt><dd><em>smoke alarms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans use <em>smoke alarm</em> and <em>smoke detector</em> for the same ceiling unit.</dd></dl>
+<p>A device that makes a loud sound when it senses smoke in a room.</p>
+<ol><li>Our <em>smoke alarm</em> started chirping at midnight.</li><li>A working <em>smoke alarm</em> doubles your chance of getting out alive.</li><li>The fire department gives away free <em>smoke alarms</em>.</li></ol>
+<hr>
+<h3 id="fire-drill">fire drill<a class="hash" href="#fire-drill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr drɪl/ &middot; <em>FYR dril</em></dd><dt>Русский</dt><dd>учебная пожарная тревога</dd><dt>Plural</dt><dd><em>fire drills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A practice in which everyone leaves a building as if there were a fire.</p>
+<ol><li>We had a <em>fire drill</em> right before lunch.</li><li>The school runs a <em>fire drill</em> every month.</li><li>Nobody takes <em>fire drills</em> seriously until there's a real fire.</li></ol>
+<hr>
+<h3 id="exit-sign">exit sign<a class="hash" href="#exit-sign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛɡzɪt saɪn/ &middot; <em>EG-zit syne</em></dd><dt>Русский</dt><dd>табличка «Выход»</dd><dt>Plural</dt><dd><em>exit signs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Exit</em> is said either /ˈɛɡzɪt/ or /ˈɛksɪt/ — both are normal American.</dd></dl>
+<p>A lighted sign that shows the way out of a building.</p>
+<ol><li>Follow the green <em>exit sign</em> down the stairs.</li><li>The <em>exit sign</em> over the door was burned out.</li><li><em>Exit signs</em> have to stay lit even in a power failure.</li></ol>
+<hr>
+<h3 id="escape">escape<a class="hash" href="#escape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈskeɪp/ &middot; <em>ih-SKAYP</em></dd><dt>Русский</dt><dd>спасение бегством, побег</dd><dt>Plural</dt><dd><em>escapes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The act of getting away from a dangerous place or situation.</p>
+<ol><li>Their <em>escape</em> from the burning building was captured on video.</li><li>It was a narrow <em>escape</em> — the roof fell in a minute later.</li><li>Both <em>escapes</em> happened through a basement window.</li></ol>
+<hr>
+<h3 id="escape-route">escape route<a class="hash" href="#escape-route" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈskeɪp ruːt/ &middot; <em>ih-SKAYP root</em></dd><dt>Русский</dt><dd>путь эвакуации</dd><dt>Plural</dt><dd><em>escape routes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The path people are meant to follow to get out of danger.</p>
+<ol><li>Plan an <em>escape route</em> from every room in the house.</li><li>The smoke cut off their only <em>escape route</em>.</li><li><em>Escape routes</em> are marked on the back of the hotel door.</li></ol>
+<hr>
+<h3 id="rescue">rescue<a class="hash" href="#rescue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛskjuː/ &middot; <em>RES-kyoo</em></dd><dt>Русский</dt><dd>спасение, спасательная операция</dd><dt>Plural</dt><dd><em>rescues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of saving someone from danger.</p>
+<ol><li>The <em>rescue</em> took six hours in freezing water.</li><li>Divers came to the <em>rescue</em> of the trapped crew.</li><li>The crew has made more than forty <em>rescues</em> this year.</li></ol>
+<hr>
+<h3 id="rescuer">rescuer<a class="hash" href="#rescuer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛskjuːər/ &middot; <em>RES-kyoo-ur</em></dd><dt>Русский</dt><dd>спасатель</dd><dt>Plural</dt><dd><em>rescuers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who saves someone from danger.</p>
+<ol><li>Her <em>rescuer</em> was a neighbor with a ladder.</li><li><em>Rescuers</em> dug through the snow for two days.</li><li>The <em>rescuers</em> reached the hikers just before dark.</li></ol>
+<hr>
+<h3 id="first-responder">first responder<a class="hash" href="#first-responder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɜːrst rɪˈspɑːndər/ &middot; <em>furst rih-SPAHN-dur</em></dd><dt>Русский</dt><dd>сотрудник экстренной службы (прибывающий первым)</dd><dt>Plural</dt><dd><em>first responders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A police officer, firefighter, or medical worker who is first to arrive at an emergency.</p>
+<ol><li>The <em>first responder</em> on the scene was a volunteer firefighter.</li><li><em>First responders</em> pulled two people from the car.</li><li>The town held a breakfast to thank its <em>first responders</em>.</li></ol>
+<hr>
+<h3 id="emergency-room">emergency room<a class="hash" href="#emergency-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi ruːm/ &middot; <em>ih-MUR-juhn-see room</em></dd><dt>Русский</dt><dd>отделение неотложной помощи</dd><dt>Plural</dt><dd><em>emergency rooms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans shorten this to <em>the ER</em>; the British say <em>A&amp;E</em>.</dd></dl>
+<p>The part of a hospital that treats people who need help immediately.</p>
+<ol><li>We spent five hours in the <em>emergency room</em>.</li><li>Take him to the <em>emergency room</em> if the bleeding doesn't stop.</li><li>Rural <em>emergency rooms</em> are closing all over the state.</li></ol>
+<hr>
+<h3 id="warning">warning<a class="hash" href="#warning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrnɪŋ/ &middot; <em>WOR-ning</em></dd><dt>Русский</dt><dd>предупреждение</dd><dt>Plural</dt><dd><em>warnings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something said or shown to tell people that danger is coming.</p>
+<ol><li>The storm hit without any <em>warning</em>.</li><li>He ignored the <em>warnings</em> and swam out anyway.</li><li>The weather service issued a <em>warning</em> for three counties.</li></ol>
+<hr>
+<h3 id="warning-sign">warning sign<a class="hash" href="#warning-sign" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrnɪŋ saɪn/ &middot; <em>WOR-ning syne</em></dd><dt>Русский</dt><dd>предупреждающий знак</dd><dt>Plural</dt><dd><em>warning signs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sign that tells people about a danger ahead.</p>
+<ol><li>A yellow <em>warning sign</em> marks the drop-off.</li><li>Somebody had knocked over the <em>warning sign</em>.</li><li><em>Warning signs</em> were posted all along the fence.</li></ol>
+<hr>
+<h3 id="warning-label">warning label<a class="hash" href="#warning-label" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrnɪŋ ˌleɪbəl/ &middot; <em>WOR-ning lay-buhl</em></dd><dt>Русский</dt><dd>предупреждающая этикетка, предупреждающая надпись</dd><dt>Plural</dt><dd><em>warning labels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Printed text on a product that tells you how it can hurt you.</p>
+<ol><li>Read the <em>warning label</em> before you use the cleaner.</li><li>The bottle carries a <em>warning label</em> about fumes.</li><li><em>Warning labels</em> on ladders are there for a reason.</li></ol>
+<hr>
+<h3 id="caution">caution<a class="hash" href="#caution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːʃən/ &middot; <em>KAW-shun</em></dd><dt>Русский</dt><dd>осторожность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Care taken to avoid danger or mistakes.</p>
+<ol><li>Handle the gas can with <em>caution</em>.</li><li>Drivers should use extra <em>caution</em> on wet roads.</li><li>A little <em>caution</em> would have prevented the whole thing.</li></ol>
+<hr>
+<h3 id="precaution">precaution<a class="hash" href="#precaution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈkɔːʃən/ &middot; <em>prih-KAW-shun</em></dd><dt>Русский</dt><dd>мера предосторожности</dd><dt>Plural</dt><dd><em>precautions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you do in advance to keep harm from happening.</p>
+<ol><li>Wearing a helmet is a simple <em>precaution</em>.</li><li>They took every <em>precaution</em> before the storm.</li><li>The usual <em>precautions</em> weren't enough this time.</li></ol>
+<hr>
+<h3 id="protection">protection<a class="hash" href="#protection" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈtɛkʃən/ &middot; <em>pruh-TEK-shun</em></dd><dt>Русский</dt><dd>защита</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being kept safe from harm, or the means of keeping something safe.</p>
+<ol><li>These gloves offer good <em>protection</em> against cuts.</li><li>The wall gave them <em>protection</em> from the wind.</li><li>Sunscreen is your best <em>protection</em> on the water.</li></ol>
+<hr>
+<h3 id="prevention">prevention<a class="hash" href="#prevention" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prɪˈvɛnʃən/ &middot; <em>prih-VEN-shun</em></dd><dt>Русский</dt><dd>предотвращение, профилактика</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of stopping something bad before it happens.</p>
+<ol><li>The talk was about fire <em>prevention</em> in older homes.</li><li><em>Prevention</em> is cheaper than a rescue.</li><li>Accident <em>prevention</em> is part of every shift meeting.</li></ol>
+<hr>
+<h3 id="survivor">survivor<a class="hash" href="#survivor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈvaɪvər/ &middot; <em>sur-VY-vur</em></dd><dt>Русский</dt><dd>выживший, уцелевший</dd><dt>Plural</dt><dd><em>survivors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who stays alive through an accident or disaster.</p>
+<ol><li>The only <em>survivor</em> was a boy in the back seat.</li><li>Crews searched the rubble for <em>survivors</em>.</li><li><em>Survivors</em> were taken to a shelter downtown.</li></ol>
+<hr>
+<h3 id="disaster">disaster<a class="hash" href="#disaster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzæstər/ &middot; <em>dih-ZAS-tur</em></dd><dt>Русский</dt><dd>бедствие, катастрофа</dd><dt>Plural</dt><dd><em>disasters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden event that causes great damage or loss of life.</p>
+<ol><li>The flood was the worst <em>disaster</em> in the county's history.</li><li>Natural <em>disasters</em> cost the state billions last year.</li><li>The governor declared the fire a <em>disaster</em>.</li></ol>
+<hr>
+<h3 id="catastrophe">catastrophe<a class="hash" href="#catastrophe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈtæstrəfi/ &middot; <em>kuh-TAS-truh-fee</em></dd><dt>Русский</dt><dd>катастрофа</dd><dt>Plural</dt><dd><em>catastrophes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The final <em>-e</em> is pronounced: kuh-TAS-truh-fee, with the stress on the second syllable.</dd></dl>
+<p>A disaster of the very worst kind.</p>
+<ol><li>A leak that size could turn into a <em>catastrophe</em>.</li><li>The dam failure was an avoidable <em>catastrophe</em>.</li><li>Two <em>catastrophes</em> in one summer emptied the relief fund.</li></ol>
+<hr>
+<h3 id="collision">collision<a class="hash" href="#collision" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlɪʒən/ &middot; <em>kuh-LIZH-un</em></dd><dt>Русский</dt><dd>столкновение</dd><dt>Plural</dt><dd><em>collisions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crash in which two moving things hit each other.</p>
+<ol><li>The <em>collision</em> happened at the intersection.</li><li>Nobody was hurt in the <em>collision</em>.</li><li>Head-on <em>collisions</em> are the deadliest kind.</li></ol>
+<hr>
+<h3 id="incident">incident<a class="hash" href="#incident" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsɪdənt/ &middot; <em>IN-sih-duhnt</em></dd><dt>Русский</dt><dd>происшествие, инцидент</dd><dt>Plural</dt><dd><em>incidents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An event, usually an unpleasant one, that has to be reported or dealt with.</p>
+<ol><li>The <em>incident</em> was over before the police arrived.</li><li>File a report after any <em>incident</em> on the job site.</li><li>There have been three <em>incidents</em> at that crossing this year.</li></ol>
+<hr>
+<h3 id="mishap">mishap<a class="hash" href="#mishap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪshæp/ &middot; <em>MIS-hap</em></dd><dt>Русский</dt><dd>неприятность, мелкое происшествие</dd><dt>Plural</dt><dd><em>mishaps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small accident that causes trouble but little harm.</p>
+<ol><li>We got there after a couple of <em>mishaps</em> with the trailer.</li><li>A kitchen <em>mishap</em> set off the smoke alarm.</li><li>The trip went fine except for one <em>mishap</em> on the ice.</li></ol>
+<hr>
+<h3 id="pileup">pileup<a class="hash" href="#pileup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaɪlʌp/ &middot; <em>PYLE-up</em></dd><dt>Русский</dt><dd>массовое ДТП, куча столкнувшихся машин</dd><dt>Plural</dt><dd><em>pileups</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun (<em>a pileup</em>), two as a verb (<em>cars piled up</em>).</dd></dl>
+<p>A crash in which many vehicles run into one another.</p>
+<ol><li>Fog caused a twenty-car <em>pileup</em> on the interstate.</li><li>The <em>pileup</em> closed both lanes until evening.</li><li>Winter <em>pileups</em> are common on that stretch.</li></ol>
+<hr>
+<h3 id="fender-bender">fender bender<a class="hash" href="#fender-bender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛndər ˌbɛndər/ &middot; <em>FEN-dur ben-dur</em></dd><dt>Русский</dt><dd>мелкое ДТП, лёгкое столкновение</dd><dt>Plural</dt><dd><em>fender benders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American and informal; the British would say <em>a bump</em> or <em>a prang</em>.</dd></dl>
+<p>A minor car crash that damages the body of the car but hurts nobody.</p>
+<ol><li>It was just a <em>fender bender</em> in the parking lot.</li><li>Her first <em>fender bender</em> raised the insurance rate.</li><li>Two <em>fender benders</em> on the same corner in one week.</li></ol>
+<hr>
+<h3 id="crash-site">crash site<a class="hash" href="#crash-site" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkræʃ saɪt/ &middot; <em>KRASH syte</em></dd><dt>Русский</dt><dd>место крушения</dd><dt>Plural</dt><dd><em>crash sites</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The place where a plane, train, or vehicle came down or wrecked.</p>
+<ol><li>Investigators spent a week at the <em>crash site</em>.</li><li>The <em>crash site</em> is still closed to the public.</li><li>Both <em>crash sites</em> were deep in the woods.</li></ol>
+<hr>
+<h3 id="emergency-landing">emergency landing<a class="hash" href="#emergency-landing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi ˈlændɪŋ/ &middot; <em>ih-MUR-juhn-see LAN-ding</em></dd><dt>Русский</dt><dd>вынужденная посадка</dd><dt>Plural</dt><dd><em>emergency landings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A landing a pilot has to make right away because something has gone wrong.</p>
+<ol><li>The plane made an <em>emergency landing</em> in a cornfield.</li><li>Smoke in the cabin forced an <em>emergency landing</em>.</li><li>The airport handles a few <em>emergency landings</em> a year.</li></ol>
+<hr>
+<h3 id="collapse">collapse<a class="hash" href="#collapse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈlæps/ &middot; <em>kuh-LAPS</em></dd><dt>Русский</dt><dd>обрушение, обвал</dd><dt>Plural</dt><dd><em>collapses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sudden falling down of a building, roof, or other structure.</p>
+<ol><li>The <em>collapse</em> trapped four workers in the basement.</li><li>Heavy snow caused the roof <em>collapse</em>.</li><li>Two <em>collapses</em> in one week shut down the mine.</li></ol>
+<hr>
+<h3 id="blast">blast<a class="hash" href="#blast" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blæst/ &middot; <em>BLAST</em></dd><dt>Русский</dt><dd>взрыв, взрывная волна</dd><dt>Plural</dt><dd><em>blasts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A violent explosion, or the rush of air it sends out.</p>
+<ol><li>The <em>blast</em> blew out windows two blocks away.</li><li>She was knocked down by the <em>blast</em>.</li><li>Neighbors heard two <em>blasts</em> before the fire started.</li></ol>
+<hr>
+<h3 id="wreckage">wreckage<a class="hash" href="#wreckage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛkɪdʒ/ &middot; <em>REK-ij</em></dd><dt>Русский</dt><dd>обломки (разбитой машины, самолёта)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>w</em> is silent, as in <em>wreck</em> and <em>wrist</em>.</dd></dl>
+<p>What is left of a vehicle or building that has been destroyed.</p>
+<ol><li>They pulled the driver from the <em>wreckage</em>.</li><li>The <em>wreckage</em> is still on the shoulder of the road.</li><li>Divers found <em>wreckage</em> about a mile offshore.</li></ol>
+<hr>
+<h3 id="devastation">devastation<a class="hash" href="#devastation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛvəˈsteɪʃən/ &middot; <em>dev-uh-STAY-shun</em></dd><dt>Русский</dt><dd>разрушения, опустошение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Very great damage over a wide area.</p>
+<ol><li>The <em>devastation</em> along the coast was hard to look at.</li><li>Nothing prepared them for the <em>devastation</em>.</li><li>Photos showed block after block of <em>devastation</em>.</li></ol>
+<hr>
+<h3 id="fatality">fatality<a class="hash" href="#fatality" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪˈtæləti/ &middot; <em>fay-TAL-uh-tee</em></dd><dt>Русский</dt><dd>смертельный случай, погибший</dd><dt>Plural</dt><dd><em>fatalities</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A death caused by an accident, disaster, or violence.</p>
+<ol><li>There was one <em>fatality</em> in the crash.</li><li>The fire caused no <em>fatalities</em>.</li><li>Traffic <em>fatalities</em> dropped again last year.</li></ol>
+<hr>
+<h3 id="death-toll">death toll<a class="hash" href="#death-toll" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛθ toʊl/ &middot; <em>DETH tohl</em></dd><dt>Русский</dt><dd>число погибших</dd><dt>Plural</dt><dd><em>death tolls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The number of people killed by a disaster or accident.</p>
+<ol><li>The <em>death toll</em> rose to nineteen overnight.</li><li>Officials expect the <em>death toll</em> to climb.</li><li><em>Death tolls</em> from these storms are usually low.</li></ol>
+<hr>
+<h3 id="evacuee">evacuee<a class="hash" href="#evacuee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌvækjuˈiː/ &middot; <em>ih-vak-yoo-EE</em></dd><dt>Русский</dt><dd>эвакуированный</dd><dt>Plural</dt><dd><em>evacuees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who has been moved away from a dangerous area.</p>
+<ol><li>The high school gym is full of <em>evacuees</em>.</li><li>Each <em>evacuee</em> got a cot and a hot meal.</li><li><em>Evacuees</em> were allowed home on Thursday.</li></ol>
+<hr>
+<h3 id="evacuation-order">evacuation order<a class="hash" href="#evacuation-order" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌvækjuˈeɪʃən ˌɔːrdər/ &middot; <em>ih-vak-yoo-AY-shun or-dur</em></dd><dt>Русский</dt><dd>приказ об эвакуации</dd><dt>Plural</dt><dd><em>evacuation orders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An official instruction telling people they must leave an area.</p>
+<ol><li>The county issued an <em>evacuation order</em> at noon.</li><li>They stayed even after the <em>evacuation order</em> came.</li><li><em>Evacuation orders</em> were lifted for two neighborhoods.</li></ol>
+<hr>
+<h3 id="state-of-emergency">state of emergency<a class="hash" href="#state-of-emergency" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsteɪt əv ɪˈmɜːrdʒənsi/ &middot; <em>stayt uhv ih-MUR-juhn-see</em></dd><dt>Русский</dt><dd>чрезвычайное положение</dd><dt>Plural</dt><dd><em>states of emergency</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The plural adds <em>-s</em> to the first word: <em>states of emergency</em>.</dd></dl>
+<p>An official declaration that lets a government act quickly in a crisis.</p>
+<ol><li>The governor declared a <em>state of emergency</em> before the storm.</li><li>A <em>state of emergency</em> frees up federal money.</li><li>Three <em>states of emergency</em> were declared that summer.</li></ol>
+<hr>
+<h3 id="lockdown">lockdown<a class="hash" href="#lockdown" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɑːkdaʊn/ &middot; <em>LAHK-down</em></dd><dt>Русский</dt><dd>режим изоляции, блокировка здания</dd><dt>Plural</dt><dd><em>lockdowns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>One word as a noun (<em>a lockdown</em>), two as a verb (<em>they lock down the building</em>).</dd></dl>
+<p>A period when people must stay inside a building or area for safety.</p>
+<ol><li>The school went into <em>lockdown</em> for an hour.</li><li>The <em>lockdown</em> ended once police cleared the building.</li><li>Two <em>lockdowns</em> in one semester rattled the parents.</li></ol>
+<hr>
+<h3 id="refuge">refuge<a class="hash" href="#refuge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛfjuːdʒ/ &middot; <em>REF-yooj</em></dd><dt>Русский</dt><dd>убежище, укрытие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Shelter or safety from danger or bad weather.</p>
+<ol><li>They took <em>refuge</em> in the basement.</li><li>The church offered <em>refuge</em> to families who lost their homes.</li><li>Hikers found <em>refuge</em> from the storm in an old cabin.</li></ol>
+<hr>
+<h3 id="storm-shelter">storm shelter<a class="hash" href="#storm-shelter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrm ˌʃɛltər/ &middot; <em>STORM shel-tur</em></dd><dt>Русский</dt><dd>укрытие от урагана, штормовое убежище</dd><dt>Plural</dt><dd><em>storm shelters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong underground or reinforced room where people wait out a tornado or hurricane.</p>
+<ol><li>Every house on the block has a <em>storm shelter</em>.</li><li>We spent an hour in the <em>storm shelter</em>.</li><li>The town built two public <em>storm shelters</em>.</li></ol>
+<hr>
+<h3 id="sandbag">sandbag<a class="hash" href="#sandbag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsændbæɡ/ &middot; <em>SAND-bag</em></dd><dt>Русский</dt><dd>мешок с песком</dd><dt>Plural</dt><dd><em>sandbags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bag of sand stacked to hold back water or stop bullets.</p>
+<ol><li>He filled another <em>sandbag</em> and passed it down the line.</li><li><em>Sandbags</em> kept the water out of the shop.</li><li>The city handed out free <em>sandbags</em> all weekend.</li></ol>
+<hr>
+<h3 id="storm-surge">storm surge<a class="hash" href="#storm-surge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɔːrm sɜːrdʒ/ &middot; <em>STORM surj</em></dd><dt>Русский</dt><dd>штормовой нагон воды</dd><dt>Plural</dt><dd><em>storm surges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The wall of seawater a hurricane pushes onto the shore.</p>
+<ol><li>The <em>storm surge</em> reached eight feet.</li><li>Most of the damage came from the <em>storm surge</em>, not the wind.</li><li><em>Storm surges</em> flood the same streets every time.</li></ol>
+<hr>
+<h3 id="aftershock">aftershock<a class="hash" href="#aftershock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæftərʃɑːk/ &middot; <em>AF-tur-shahk</em></dd><dt>Русский</dt><dd>повторный подземный толчок</dd><dt>Plural</dt><dd><em>aftershocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smaller earthquake that follows a larger one.</p>
+<ol><li>An <em>aftershock</em> woke everybody at four in the morning.</li><li>There were dozens of <em>aftershocks</em> that week.</li><li>Rescue work stopped during each <em>aftershock</em>.</li></ol>
+<hr>
+<h3 id="tremor">tremor<a class="hash" href="#tremor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɛmər/ &middot; <em>TREM-ur</em></dd><dt>Русский</dt><dd>подземный толчок, сотрясение</dd><dt>Plural</dt><dd><em>tremors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small shaking of the ground.</p>
+<ol><li>A <em>tremor</em> rattled the windows.</li><li>Residents felt two <em>tremors</em> before dawn.</li><li>The <em>tremor</em> lasted only a few seconds.</li></ol>
+<hr>
+<h3 id="outbreak">outbreak<a class="hash" href="#outbreak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtbreɪk/ &middot; <em>OWT-brayk</em></dd><dt>Русский</dt><dd>вспышка (болезни, пожаров)</dd><dt>Plural</dt><dd><em>outbreaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sudden start of something dangerous, such as disease or fires.</p>
+<ol><li>The <em>outbreak</em> began at a summer camp.</li><li>An <em>outbreak</em> of wildfires closed the highway.</li><li>Health officials tracked three separate <em>outbreaks</em>.</li></ol>
+<hr>
+<h3 id="stampede">stampede<a class="hash" href="#stampede" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stæmˈpiːd/ &middot; <em>stam-PEED</em></dd><dt>Русский</dt><dd>паническое бегство толпы, давка</dd><dt>Plural</dt><dd><em>stampedes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden rush of frightened people or animals in one direction.</p>
+<ol><li>The false alarm set off a <em>stampede</em> toward the doors.</li><li>Several people were hurt in the <em>stampede</em>.</li><li>Crowd barriers are meant to prevent <em>stampedes</em>.</li></ol>
+<hr>
+<h3 id="peril">peril<a class="hash" href="#peril" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛrəl/ &middot; <em>PER-uhl</em></dd><dt>Русский</dt><dd>серьёзная опасность</dd><dt>Plural</dt><dd><em>perils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Serious danger, especially danger to life.</p>
+<ol><li>The crew was in real <em>peril</em> by midnight.</li><li>He ignored the sign at his own <em>peril</em>.</li><li>The film shows the <em>perils</em> of climbing alone.</li></ol>
+<hr>
+<h3 id="fire-hazard">fire hazard<a class="hash" href="#fire-hazard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌhæzərd/ &middot; <em>FYR haz-urd</em></dd><dt>Русский</dt><dd>источник пожарной опасности</dd><dt>Plural</dt><dd><em>fire hazards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something that makes a fire likely to start or spread.</p>
+<ol><li>That pile of oily rags is a <em>fire hazard</em>.</li><li>The inspector listed six <em>fire hazards</em> in the kitchen.</li><li>Space heaters are a common <em>fire hazard</em>.</li></ol>
+<hr>
+<h3 id="choking-hazard">choking hazard<a class="hash" href="#choking-hazard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃoʊkɪŋ ˌhæzərd/ &middot; <em>CHOH-king haz-urd</em></dd><dt>Русский</dt><dd>опасность удушья (мелкая деталь)</dd><dt>Plural</dt><dd><em>choking hazards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small object a child could swallow and choke on.</p>
+<ol><li>The box says the toy is a <em>choking hazard</em> for kids under three.</li><li>Grapes are a <em>choking hazard</em> unless you cut them.</li><li>We removed all the <em>choking hazards</em> from the playroom.</li></ol>
+<hr>
+<h3 id="gas-leak">gas leak<a class="hash" href="#gas-leak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs liːk/ &middot; <em>GAS leek</em></dd><dt>Русский</dt><dd>утечка газа</dd><dt>Plural</dt><dd><em>gas leaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An escape of gas from a pipe or tank, which can poison people or explode.</p>
+<ol><li>The building was evacuated because of a <em>gas leak</em>.</li><li>If you smell a <em>gas leak</em>, get outside and call from the street.</li><li>Crews found two small <em>gas leaks</em> under the sidewalk.</li></ol>
+<hr>
+<h3 id="fumes">fumes<a class="hash" href="#fumes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fjuːmz/ &middot; <em>FYOOMZ</em></dd><dt>Русский</dt><dd>ядовитые пары, чад</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural in form: <em>the fumes were strong</em>, never <em>a fume</em>.</dd></dl>
+<p>Strong, often harmful gas or smoke given off by chemicals, fuel, or burning.</p>
+<ol><li>Open a window — the paint <em>fumes</em> are terrible.</li><li>He passed out from exhaust <em>fumes</em> in the garage.</li><li>The <em>fumes</em> set off the alarm on the second floor.</li></ol>
+<hr>
+<h3 id="toxin">toxin<a class="hash" href="#toxin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːksɪn/ &middot; <em>TAHK-sin</em></dd><dt>Русский</dt><dd>токсин, ядовитое вещество</dd><dt>Plural</dt><dd><em>toxins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A poisonous substance, especially one made by a living thing.</p>
+<ol><li>The smoke carries a <em>toxin</em> that damages the lungs.</li><li>Tests found several <em>toxins</em> in the well water.</li><li>The <em>toxin</em> takes hours to show any effect.</li></ol>
+<hr>
+<h3 id="biohazard">biohazard<a class="hash" href="#biohazard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪoʊˌhæzərd/ &middot; <em>BY-oh-haz-urd</em></dd><dt>Русский</dt><dd>биологическая опасность</dd><dt>Plural</dt><dd><em>biohazards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A living thing or biological waste that can spread disease.</p>
+<ol><li>Used needles go in the <em>biohazard</em> container.</li><li>The room was sealed off as a <em>biohazard</em>.</li><li>Hospitals label these bags as <em>biohazards</em>.</li></ol>
+<hr>
+<h3 id="carbon-monoxide">carbon monoxide<a class="hash" href="#carbon-monoxide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːrbən məˈnɑːksaɪd/ &middot; <em>KAR-bun muh-NAHK-syde</em></dd><dt>Русский</dt><dd>угарный газ</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A poisonous gas with no smell, made when fuel burns without enough air.</p>
+<ol><li><em>Carbon monoxide</em> killed the family in their sleep.</li><li>Never run a generator indoors — it gives off <em>carbon monoxide</em>.</li><li>The furnace was leaking <em>carbon monoxide</em>.</li></ol>
+<hr>
+<h3 id="carbon-monoxide-detector">carbon monoxide detector<a class="hash" href="#carbon-monoxide-detector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːrbən məˈnɑːksaɪd dɪˌtɛktər/ &middot; <em>KAR-bun muh-NAHK-syde dih-tek-tur</em></dd><dt>Русский</dt><dd>датчик угарного газа</dd><dt>Plural</dt><dd><em>carbon monoxide detectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that sounds an alarm when carbon monoxide builds up in a room.</p>
+<ol><li>State law requires a <em>carbon monoxide detector</em> near every bedroom.</li><li>The <em>carbon monoxide detector</em> went off at three in the morning.</li><li>We put <em>carbon monoxide detectors</em> on both floors.</li></ol>
+<hr>
+<h3 id="poisoning">poisoning<a class="hash" href="#poisoning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪzənɪŋ/ &middot; <em>POY-zuh-ning</em></dd><dt>Русский</dt><dd>отравление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Illness or death caused by a poisonous substance getting into the body.</p>
+<ol><li>Two workers were treated for <em>poisoning</em>.</li><li>Lead <em>poisoning</em> is still a problem in old houses.</li><li>Call a doctor if you suspect <em>poisoning</em>.</li></ol>
+<hr>
+<h3 id="antidote">antidote<a class="hash" href="#antidote" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæntɪdoʊt/ &middot; <em>AN-tih-doht</em></dd><dt>Русский</dt><dd>противоядие, антидот</dd><dt>Plural</dt><dd><em>antidotes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A medicine that works against a particular poison.</p>
+<ol><li>There is an <em>antidote</em> for that snake's venom.</li><li>The hospital keeps the <em>antidote</em> on hand.</li><li>Some poisons have no <em>antidotes</em> at all.</li></ol>
+<hr>
+<h3 id="bleeding">bleeding<a class="hash" href="#bleeding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbliːdɪŋ/ &middot; <em>BLEE-ding</em></dd><dt>Русский</dt><dd>кровотечение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The flow of blood from a wound.</p>
+<ol><li>Press on the cut to stop the <em>bleeding</em>.</li><li>The <em>bleeding</em> slowed once they raised his arm.</li><li>Heavy <em>bleeding</em> needs a doctor, not a bandage.</li></ol>
+<hr>
+<h3 id="drowning">drowning<a class="hash" href="#drowning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraʊnɪŋ/ &middot; <em>DROW-ning</em></dd><dt>Русский</dt><dd>утопление</dd><dt>Plural</dt><dd><em>drownings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Death caused by being under water and unable to breathe.</p>
+<ol><li><em>Drowning</em> is silent — nobody hears it happen.</li><li>There were four <em>drownings</em> on the lake last summer.</li><li>Most <em>drownings</em> happen within sight of help.</li></ol>
+<hr>
+<h3 id="electrocution">electrocution<a class="hash" href="#electrocution" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˌlɛktrəˈkjuːʃən/ &middot; <em>ih-lek-truh-KYOO-shun</em></dd><dt>Русский</dt><dd>поражение электрическим током (со смертельным исходом)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Death or serious injury caused by electric current passing through the body.</p>
+<ol><li>Downed wires are a real risk of <em>electrocution</em>.</li><li>The report blamed <em>electrocution</em> for both deaths.</li><li>Rubber-soled boots reduce the danger of <em>electrocution</em>.</li></ol>
+<hr>
+<h3 id="scald">scald<a class="hash" href="#scald" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skɔːld/ &middot; <em>SKAWLD</em></dd><dt>Русский</dt><dd>ожог кипятком или паром</dd><dt>Plural</dt><dd><em>scalds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A burn caused by very hot liquid or steam.</p>
+<ol><li>The coffee left a nasty <em>scald</em> on her wrist.</li><li>Most kitchen <em>scalds</em> happen to small children.</li><li>Run cool water over a <em>scald</em> for ten minutes.</li></ol>
+<hr>
+<h3 id="smoke-inhalation">smoke inhalation<a class="hash" href="#smoke-inhalation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsmoʊk ˌɪnhəleɪʃən/ &middot; <em>SMOHK in-huh-lay-shun</em></dd><dt>Русский</dt><dd>отравление дымом</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Damage to the lungs from breathing smoke during a fire.</p>
+<ol><li>Three residents were treated for <em>smoke inhalation</em>.</li><li><em>Smoke inhalation</em> kills more people in fires than flames do.</li><li>He was hospitalized overnight with <em>smoke inhalation</em>.</li></ol>
+<hr>
+<h3 id="cpr">CPR<a class="hash" href="#cpr" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsiː piː ˈɑːr/ &middot; <em>see-pee-AR</em></dd><dt>Русский</dt><dd>сердечно-лёгочная реанимация</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Said as three letters; the full form <em>cardiopulmonary resuscitation</em> is almost never spoken.</dd></dl>
+<p>Chest presses and rescue breaths used to keep blood moving in someone whose heart has stopped.</p>
+<ol><li>A bystander started <em>CPR</em> right there on the sidewalk.</li><li>Every lifeguard is trained in <em>CPR</em>.</li><li>She kept doing <em>CPR</em> until the ambulance came.</li></ol>
+<hr>
+<h3 id="resuscitation">resuscitation<a class="hash" href="#resuscitation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˌsʌsəˈteɪʃən/ &middot; <em>rih-sus-uh-TAY-shun</em></dd><dt>Русский</dt><dd>реанимация, оживление</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>sc</em> is just an /s/ sound: rih-SUS-uh-TAY-shun.</dd></dl>
+<p>The act of bringing someone back to consciousness or breathing.</p>
+<ol><li><em>Resuscitation</em> went on for twenty minutes.</li><li>The team's attempts at <em>resuscitation</em> worked.</li><li>He signed a form refusing <em>resuscitation</em>.</li></ol>
+<hr>
+<h3 id="triage">triage<a class="hash" href="#triage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/triˈɑːʒ/ &middot; <em>tree-AHZH</em></dd><dt>Русский</dt><dd>медицинская сортировка (по тяжести состояния)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sorting of injured people so the most urgent cases are treated first.</p>
+<ol><li>Nurses set up <em>triage</em> in the parking lot.</li><li><em>Triage</em> decided who went into the first ambulance.</li><li>He spent the night doing <em>triage</em> after the crash.</li></ol>
+<hr>
+<h3 id="medic">medic<a class="hash" href="#medic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛdɪk/ &middot; <em>MED-ik</em></dd><dt>Русский</dt><dd>медик, санитар</dd><dt>Plural</dt><dd><em>medics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person trained to give medical help at the scene of an emergency.</p>
+<ol><li>A <em>medic</em> checked her breathing at the curb.</li><li><em>Medics</em> were on the field within seconds.</li><li>The <em>medic</em> said it was only a sprain.</li></ol>
+<hr>
+<h3 id="emt">EMT<a class="hash" href="#emt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌiː ɛm ˈtiː/ &middot; <em>ee-em-TEE</em></dd><dt>Русский</dt><dd>фельдшер скорой помощи</dd><dt>Plural</dt><dd><em>EMTs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said as three letters and written <em>EMT</em> — short for <em>emergency medical technician</em>.</dd></dl>
+<p>A trained worker who gives emergency care and rides in an ambulance.</p>
+<ol><li>The <em>EMT</em> put a collar on his neck before moving him.</li><li>Two <em>EMTs</em> lifted her onto the stretcher.</li><li>She works nights as an <em>EMT</em>.</li></ol>
+<hr>
+<h3 id="dispatcher">dispatcher<a class="hash" href="#dispatcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspætʃər/ &middot; <em>dih-SPACH-ur</em></dd><dt>Русский</dt><dd>диспетчер экстренных служб</dd><dt>Plural</dt><dd><em>dispatchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person who takes emergency calls and sends out police, fire, or ambulance crews.</p>
+<ol><li>The <em>dispatcher</em> stayed on the line with her.</li><li><em>Dispatchers</em> handled forty calls in an hour.</li><li>Tell the <em>dispatcher</em> your exact address first.</li></ol>
+<hr>
+<h3 id="defibrillator">defibrillator<a class="hash" href="#defibrillator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diːˈfɪbrəleɪtər/ &middot; <em>dee-FIB-ruh-lay-tur</em></dd><dt>Русский</dt><dd>дефибриллятор</dd><dt>Plural</dt><dd><em>defibrillators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that shocks a stopped heart back into rhythm.</p>
+<ol><li>There's a <em>defibrillator</em> on the wall by the elevator.</li><li>The coach used the <em>defibrillator</em> before help arrived.</li><li>The gym keeps two <em>defibrillators</em> on site.</li></ol>
+<hr>
+<h3 id="tourniquet">tourniquet<a class="hash" href="#tourniquet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɜːrnɪkət/ &middot; <em>TUR-nih-kit</em></dd><dt>Русский</dt><dd>жгут (кровоостанавливающий)</dd><dt>Plural</dt><dd><em>tourniquets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The French spelling hides an ordinary ending: TUR-nih-kit, not "-kay".</dd></dl>
+<p>A tight band put around an arm or leg to stop heavy bleeding.</p>
+<ol><li>He tied a <em>tourniquet</em> above the wound.</li><li>The kit holds gauze, tape, and a <em>tourniquet</em>.</li><li><em>Tourniquets</em> saved a lot of lives in that crash.</li></ol>
+<hr>
+<h3 id="splint">splint<a class="hash" href="#splint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/splɪnt/ &middot; <em>SPLINT</em></dd><dt>Русский</dt><dd>шина (при переломе)</dd><dt>Plural</dt><dd><em>splints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff piece of material tied to a broken limb to keep it still.</p>
+<ol><li>They made a <em>splint</em> out of a rolled magazine.</li><li>The nurse put a <em>splint</em> on his finger.</li><li>Both <em>splints</em> came off after three weeks.</li></ol>
+<hr>
+<h3 id="gurney">gurney<a class="hash" href="#gurney" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɜːrni/ &middot; <em>GUR-nee</em></dd><dt>Русский</dt><dd>медицинская каталка</dd><dt>Plural</dt><dd><em>gurneys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>An American word; the British say <em>trolley</em>.</dd></dl>
+<p>A wheeled bed used to move patients in a hospital or ambulance.</p>
+<ol><li>They wheeled him out on a <em>gurney</em>.</li><li>The <em>gurney</em> wouldn't fit through the doorway.</li><li>Two <em>gurneys</em> were parked in the hallway.</li></ol>
+<hr>
+<h3 id="ice-pack">ice pack<a class="hash" href="#ice-pack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪs pæk/ &middot; <em>EYESS pak</em></dd><dt>Русский</dt><dd>пакет со льдом, холодный компресс</dd><dt>Plural</dt><dd><em>ice packs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cold pad held against an injury to cut swelling and pain.</p>
+<ol><li>Put an <em>ice pack</em> on that ankle.</li><li>The <em>ice pack</em> melted in twenty minutes.</li><li>There are <em>ice packs</em> in the freezer at work.</li></ol>
+<hr>
+<h3 id="trauma-center">trauma center<a class="hash" href="#trauma-center" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɔːmə ˌsɛntər/ &middot; <em>TRAW-muh sen-tur</em></dd><dt>Русский</dt><dd>травматологический центр</dd><dt>Plural</dt><dd><em>trauma centers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hospital equipped to treat the most serious injuries.</p>
+<ol><li>He was flown to the nearest <em>trauma center</em>.</li><li>The <em>trauma center</em> is an hour away by road.</li><li>There are only three <em>trauma centers</em> in the state.</li></ol>
+<hr>
+<h3 id="emergency-vehicle">emergency vehicle<a class="hash" href="#emergency-vehicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi ˈviːəkəl/ &middot; <em>ih-MUR-juhn-see VEE-uh-kuhl</em></dd><dt>Русский</dt><dd>машина экстренной службы</dd><dt>Plural</dt><dd><em>emergency vehicles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>h</em> in <em>vehicle</em> is silent: VEE-uh-kuhl.</dd></dl>
+<p>Any vehicle used by police, firefighters, or medical crews to answer calls.</p>
+<ol><li>Pull over when an <em>emergency vehicle</em> comes up behind you.</li><li>The <em>emergency vehicle</em> had its lights on but no siren.</li><li>Three <em>emergency vehicles</em> blocked the intersection.</li></ol>
+<hr>
+<h3 id="airlift">airlift<a class="hash" href="#airlift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrlɪft/ &middot; <em>AIR-lift</em></dd><dt>Русский</dt><dd>эвакуация по воздуху, переброска авиацией</dd><dt>Plural</dt><dd><em>airlifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moving of people or supplies by aircraft when roads cannot be used.</p>
+<ol><li>The <em>airlift</em> brought food to the cut-off town.</li><li>An <em>airlift</em> took the injured climber to the hospital.</li><li>Two <em>airlifts</em> went out before the weather closed in.</li></ol>
+<hr>
+<h3 id="rescue-squad">rescue squad<a class="hash" href="#rescue-squad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛskjuː skwɑːd/ &middot; <em>RES-kyoo skwahd</em></dd><dt>Русский</dt><dd>спасательная бригада</dd><dt>Plural</dt><dd><em>rescue squads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A team trained and equipped to reach and save people in danger.</p>
+<ol><li>The <em>rescue squad</em> got there in eight minutes.</li><li>Our town's <em>rescue squad</em> is all volunteers.</li><li>Two <em>rescue squads</em> worked the river together.</li></ol>
+<hr>
+<h3 id="search-and-rescue">search and rescue<a class="hash" href="#search-and-rescue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɜːrtʃ ənd ˈrɛskjuː/ &middot; <em>surch uhnd RES-kyoo</em></dd><dt>Русский</dt><dd>поисково-спасательные работы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of finding and saving people who are lost or trapped.</p>
+<ol><li><em>Search and rescue</em> began at first light.</li><li>He flies helicopters for <em>search and rescue</em>.</li><li>The county pays for <em>search and rescue</em> out of its own budget.</li></ol>
+<hr>
+<h3 id="rescue-dog">rescue dog<a class="hash" href="#rescue-dog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛskjuː dɔːɡ/ &middot; <em>RES-kyoo dawg</em></dd><dt>Русский</dt><dd>поисково-спасательная собака</dd><dt>Plural</dt><dd><em>rescue dogs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In everyday talk a <em>rescue dog</em> can also mean a dog adopted from a shelter.</dd></dl>
+<p>A trained dog that finds people buried or lost.</p>
+<ol><li>A <em>rescue dog</em> found the boy under the porch.</li><li><em>Rescue dogs</em> worked the rubble in shifts.</li><li>The <em>rescue dog</em> wears boots on hot pavement.</li></ol>
+<hr>
+<h3 id="bomb-squad">bomb squad<a class="hash" href="#bomb-squad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːm skwɑːd/ &middot; <em>BAHM skwahd</em></dd><dt>Русский</dt><dd>сапёрная группа, взрывотехники</dd><dt>Plural</dt><dd><em>bomb squads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>b</em> at the end of <em>bomb</em> is silent: BAHM.</dd></dl>
+<p>A police team that handles and removes explosives.</p>
+<ol><li>The <em>bomb squad</em> closed the block for two hours.</li><li>A <em>bomb squad</em> robot opened the suitcase.</li><li><em>Bomb squads</em> from two cities responded.</li></ol>
+<hr>
+<h3 id="safety-net">safety net<a class="hash" href="#safety-net" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfti nɛt/ &middot; <em>SAYF-tee net</em></dd><dt>Русский</dt><dd>страховочная сетка</dd><dt>Plural</dt><dd><em>safety nets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A net stretched below people working or performing high up.</p>
+<ol><li>The acrobats work above a <em>safety net</em>.</li><li>A <em>safety net</em> hung under the bridge deck.</li><li><em>Safety nets</em> are required on any job over thirty feet.</li></ol>
+<hr>
+<h3 id="handrail">handrail<a class="hash" href="#handrail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhændreɪl/ &middot; <em>HAND-rayl</em></dd><dt>Русский</dt><dd>поручень</dd><dt>Plural</dt><dd><em>handrails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bar along stairs or a walkway that you hold for support.</p>
+<ol><li>Hold the <em>handrail</em> — those steps are icy.</li><li>The <em>handrail</em> came loose from the wall.</li><li>They added <em>handrails</em> on both sides of the ramp.</li></ol>
+<hr>
+<h3 id="barrier">barrier<a class="hash" href="#barrier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæriər/ &middot; <em>BAIR-ee-ur</em></dd><dt>Русский</dt><dd>барьер, ограждение</dd><dt>Plural</dt><dd><em>barriers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fence, wall, or bar that keeps people out of a dangerous place.</p>
+<ol><li>A concrete <em>barrier</em> separates the lanes.</li><li>Police put up a <em>barrier</em> around the sinkhole.</li><li>The crowd pushed against the <em>barriers</em>.</li></ol>
+<hr>
+<h3 id="barricade">barricade<a class="hash" href="#barricade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbærɪkeɪd/ &middot; <em>BAIR-ih-kayd</em></dd><dt>Русский</dt><dd>баррикада, заграждение</dd><dt>Plural</dt><dd><em>barricades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quickly built wall or fence set up to block a street or doorway.</p>
+<ol><li>Crews set up a <em>barricade</em> at the end of the block.</li><li>Someone moved the <em>barricade</em> and drove through.</li><li>Wooden <em>barricades</em> lined the parade route.</li></ol>
+<hr>
+<h3 id="traffic-cone">traffic cone<a class="hash" href="#traffic-cone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræfɪk koʊn/ &middot; <em>TRAF-ik kohn</em></dd><dt>Русский</dt><dd>дорожный конус</dd><dt>Plural</dt><dd><em>traffic cones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An orange plastic cone used to mark off a hazard or closed lane.</p>
+<ol><li>A <em>traffic cone</em> marked the open manhole.</li><li>Somebody knocked over half the <em>traffic cones</em>.</li><li>The crew set <em>traffic cones</em> every twenty feet.</li></ol>
+<hr>
+<h3 id="caution-tape">caution tape<a class="hash" href="#caution-tape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːʃən teɪp/ &middot; <em>KAW-shun tayp</em></dd><dt>Русский</dt><dd>сигнальная лента, оградительная лента</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Bright yellow plastic ribbon strung around a dangerous or restricted area.</p>
+<ol><li>They ran <em>caution tape</em> across the driveway.</li><li>Don't step past the <em>caution tape</em>.</li><li>There was <em>caution tape</em> around the whole block.</li></ol>
+<hr>
+<h3 id="roadblock">roadblock<a class="hash" href="#roadblock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈroʊdblɑːk/ &middot; <em>ROHD-blahk</em></dd><dt>Русский</dt><dd>дорожное заграждение, блокпост</dd><dt>Plural</dt><dd><em>roadblocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A barrier across a road that stops or turns back traffic.</p>
+<ol><li>There's a <em>roadblock</em> at the bottom of the hill.</li><li>Police set up a <em>roadblock</em> on the bridge.</li><li><em>Roadblocks</em> kept everyone out of the burn area.</li></ol>
+<hr>
+<h3 id="speed-bump">speed bump<a class="hash" href="#speed-bump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspiːd bʌmp/ &middot; <em>SPEED bump</em></dd><dt>Русский</dt><dd>лежачий полицейский</dd><dt>Plural</dt><dd><em>speed bumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A raised strip across a road that forces drivers to slow down.</p>
+<ol><li>Take the <em>speed bump</em> slowly or you'll scrape the bumper.</li><li>The school asked the city for a <em>speed bump</em>.</li><li>There are four <em>speed bumps</em> in the parking lot.</li></ol>
+<hr>
+<h3 id="emergency-brake">emergency brake<a class="hash" href="#emergency-brake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi breɪk/ &middot; <em>ih-MUR-juhn-see brayk</em></dd><dt>Русский</dt><dd>ручной (аварийный) тормоз</dd><dt>Plural</dt><dd><em>emergency brakes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Brake</em> sounds exactly like <em>break</em>; the British call this the <em>handbrake</em>.</dd></dl>
+<p>The separate brake that holds a parked car or stops it if the main brakes fail.</p>
+<ol><li>Set the <em>emergency brake</em> on that hill.</li><li>The <em>emergency brake</em> was frozen solid.</li><li><em>Emergency brakes</em> rust if you never use them.</li></ol>
+<hr>
+<h3 id="respirator">respirator<a class="hash" href="#respirator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛspəreɪtər/ &middot; <em>RES-puh-ray-tur</em></dd><dt>Русский</dt><dd>респиратор</dd><dt>Plural</dt><dd><em>respirators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mask with filters that keeps dust, fumes, or germs out of the lungs.</p>
+<ol><li>Wear a <em>respirator</em> when you sand that paint.</li><li>His <em>respirator</em> fogged up in the heat.</li><li>The shop keeps <em>respirators</em> by the door.</li></ol>
+<hr>
+<h3 id="dust-mask">dust mask<a class="hash" href="#dust-mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌst mæsk/ &middot; <em>DUST mask</em></dd><dt>Русский</dt><dd>пылезащитная маска</dd><dt>Plural</dt><dd><em>dust masks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light paper mask that keeps dust out of your nose and mouth.</p>
+<ol><li>Grab a <em>dust mask</em> before you go in the attic.</li><li>A <em>dust mask</em> won't protect you from fumes.</li><li><em>Dust masks</em> come ten to a box.</li></ol>
+<hr>
+<h3 id="gas-mask">gas mask<a class="hash" href="#gas-mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæs mæsk/ &middot; <em>GAS mask</em></dd><dt>Русский</dt><dd>противогаз</dd><dt>Plural</dt><dd><em>gas masks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mask covering the whole face that filters out poisonous gas.</p>
+<ol><li>The crew went in wearing <em>gas masks</em>.</li><li>His <em>gas mask</em> was fitted the week before.</li><li>A <em>gas mask</em> is useless without the right filter.</li></ol>
+<hr>
+<h3 id="face-shield">face shield<a class="hash" href="#face-shield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪs ʃiːld/ &middot; <em>FAYSS sheeld</em></dd><dt>Русский</dt><dd>защитный лицевой щиток</dd><dt>Plural</dt><dd><em>face shields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A clear plastic guard worn over the whole face.</p>
+<ol><li>Put a <em>face shield</em> on before you start grinding.</li><li>The <em>face shield</em> took the spark instead of his eye.</li><li><em>Face shields</em> hang next to the goggles.</li></ol>
+<hr>
+<h3 id="safety-glasses">safety glasses<a class="hash" href="#safety-glasses" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfti ˌɡlæsɪz/ &middot; <em>SAYF-tee glas-iz</em></dd><dt>Русский</dt><dd>защитные очки</dd><dt>Plural</dt><dd><em>safety glasses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural only — count them in pairs: <em>a pair of safety glasses</em>.</dd></dl>
+<p>Tough clear glasses worn to keep chips and dust out of the eyes.</p>
+<ol><li>You need <em>safety glasses</em> to run that saw.</li><li>My <em>safety glasses</em> are scratched up.</li><li>The shop hands out three pairs of <em>safety glasses</em> a year.</li></ol>
+<hr>
+<h3 id="safety-vest">safety vest<a class="hash" href="#safety-vest" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfti vɛst/ &middot; <em>SAYF-tee vest</em></dd><dt>Русский</dt><dd>сигнальный жилет</dd><dt>Plural</dt><dd><em>safety vests</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bright orange or yellow vest that makes a worker easy to see.</p>
+<ol><li>Everybody on the site wears a <em>safety vest</em>.</li><li>Her <em>safety vest</em> was hanging on the truck mirror.</li><li>The crossing guards got new <em>safety vests</em>.</li></ol>
+<hr>
+<h3 id="protective-gear">protective gear<a class="hash" href="#protective-gear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/prəˈtɛktɪv ɡɪr/ &middot; <em>pruh-TEK-tiv geer</em></dd><dt>Русский</dt><dd>защитная экипировка, средства защиты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English: <em>a lot of protective gear</em>, never <em>a protective gear</em>.</dd></dl>
+<p>The clothing and equipment worn to keep a worker from being hurt.</p>
+<ol><li>Firefighters carry sixty pounds of <em>protective gear</em>.</li><li>All of the <em>protective gear</em> is stored in that locker.</li><li>You can't enter the lab without <em>protective gear</em>.</li></ol>
+<hr>
+<h3 id="hazmat-suit">hazmat suit<a class="hash" href="#hazmat-suit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæzmæt suːt/ &middot; <em>HAZ-mat soot</em></dd><dt>Русский</dt><dd>костюм химзащиты</dd><dt>Plural</dt><dd><em>hazmat suits</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Hazmat</em> is short for <em>hazardous materials</em>.</dd></dl>
+<p>A sealed full-body suit worn around dangerous chemicals or germs.</p>
+<ol><li>Two workers in <em>hazmat suits</em> went into the tank room.</li><li>The <em>hazmat suit</em> gets unbearably hot in ten minutes.</li><li>They keep four <em>hazmat suits</em> on the truck.</li></ol>
+<hr>
+<h3 id="life-raft">life raft<a class="hash" href="#life-raft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪf ræft/ &middot; <em>LYF-raft</em></dd><dt>Русский</dt><dd>спасательный плот</dd><dt>Plural</dt><dd><em>life rafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An inflatable boat carried on a ship or plane for use if it sinks or ditches.</p>
+<ol><li>The crew climbed into the <em>life raft</em>.</li><li>The <em>life raft</em> inflates as soon as it hits the water.</li><li>Both <em>life rafts</em> were found empty.</li></ol>
+<hr>
+<h3 id="life-preserver">life preserver<a class="hash" href="#life-preserver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪf prɪˌzɜːrvər/ &middot; <em>LYF prih-zur-vur</em></dd><dt>Русский</dt><dd>спасательный круг, спасательный жилет</dd><dt>Plural</dt><dd><em>life preservers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British say <em>lifebelt</em> or <em>lifebuoy</em>.</dd></dl>
+<p>A ring or vest that keeps a person floating in the water.</p>
+<ol><li>He threw her a <em>life preserver</em> from the dock.</li><li>There's a <em>life preserver</em> on each side of the boat.</li><li>The <em>life preservers</em> were locked in a cabinet.</li></ol>
+<hr>
+<h3 id="flotation-device">flotation device<a class="hash" href="#flotation-device" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/floʊˈteɪʃən dɪˌvaɪs/ &middot; <em>floh-TAY-shun dih-vyse</em></dd><dt>Русский</dt><dd>спасательное плавсредство</dd><dt>Plural</dt><dd><em>flotation devices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Anything designed to keep a person afloat in water.</p>
+<ol><li>Your seat cushion can be used as a <em>flotation device</em>.</li><li>Children must wear a <em>flotation device</em> on the dock.</li><li>The store sells <em>flotation devices</em> for toddlers.</li></ol>
+<hr>
+<h3 id="lifeline">lifeline<a class="hash" href="#lifeline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪflaɪn/ &middot; <em>LYF-lyne</em></dd><dt>Русский</dt><dd>страховочный трос; спасательная нить</dd><dt>Plural</dt><dd><em>lifelines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rope thrown or fixed to keep someone from being lost or swept away.</p>
+<ol><li>He tied a <em>lifeline</em> around his waist before going out on the ice.</li><li>A <em>lifeline</em> runs the length of the deck.</li><li>The radio was their only <em>lifeline</em>.</li></ol>
+<hr>
+<h3 id="distress">distress<a class="hash" href="#distress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈstrɛs/ &middot; <em>dih-STRES</em></dd><dt>Русский</dt><dd>бедствие, тяжёлое положение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The state of being in serious trouble and needing help.</p>
+<ol><li>The boat was in <em>distress</em> about two miles out.</li><li>They picked up a <em>distress</em> call at midnight.</li><li>The plane signaled <em>distress</em> and turned back.</li></ol>
+<hr>
+<h3 id="mayday">mayday<a class="hash" href="#mayday" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪdeɪ/ &middot; <em>MAY-day</em></dd><dt>Русский</dt><dd>сигнал бедствия «мэйдэй»</dd><dt>Plural</dt><dd><em>maydays</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French <em>m'aidez</em> ("help me") — nothing to do with the holiday May Day.</dd></dl>
+<p>The spoken radio call used by a ship or aircraft in serious danger.</p>
+<ol><li>The pilot put out a <em>mayday</em> over the water.</li><li>The tower recorded the <em>mayday</em> at 4:12.</li><li>Two <em>maydays</em> came in during the storm.</li></ol>
+<hr>
+<h3 id="flare-gun">flare gun<a class="hash" href="#flare-gun" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɛr ɡʌn/ &middot; <em>FLAIR gun</em></dd><dt>Русский</dt><dd>ракетница</dd><dt>Plural</dt><dd><em>flare guns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide-barreled pistol that fires a signal flare into the sky.</p>
+<ol><li>The boat carries a <em>flare gun</em> and three shells.</li><li>She fired the <em>flare gun</em> straight up.</li><li><em>Flare guns</em> are checked with the rest of the safety kit.</li></ol>
+<hr>
+<h3 id="beacon">beacon<a class="hash" href="#beacon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːkən/ &middot; <em>BEE-kun</em></dd><dt>Русский</dt><dd>маяк, сигнальный маячок</dd><dt>Plural</dt><dd><em>beacons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light or radio signal that guides rescuers or warns of danger.</p>
+<ol><li>The plane's emergency <em>beacon</em> led searchers to the wreck.</li><li>A <em>beacon</em> flashes on top of the tower.</li><li>Climbers carry avalanche <em>beacons</em>.</li></ol>
+<hr>
+<h3 id="searchlight">searchlight<a class="hash" href="#searchlight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɜːrtʃlaɪt/ &middot; <em>SURCH-lyte</em></dd><dt>Русский</dt><dd>прожектор</dd><dt>Plural</dt><dd><em>searchlights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A powerful lamp whose beam can be aimed to look for something in the dark.</p>
+<ol><li>The helicopter's <em>searchlight</em> swept the field.</li><li>A <em>searchlight</em> found the boat near the rocks.</li><li>Two <em>searchlights</em> lit up the riverbank.</li></ol>
+<hr>
+<h3 id="megaphone">megaphone<a class="hash" href="#megaphone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɛɡəfoʊn/ &middot; <em>MEG-uh-fohn</em></dd><dt>Русский</dt><dd>мегафон, рупор</dd><dt>Plural</dt><dd><em>megaphones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cone-shaped device that makes a voice loud enough for a crowd to hear.</p>
+<ol><li>An officer gave directions through a <em>megaphone</em>.</li><li>The <em>megaphone</em> batteries died halfway through.</li><li>They handed out <em>megaphones</em> to the block captains.</li></ol>
+<hr>
+<h3 id="bullhorn">bullhorn<a class="hash" href="#bullhorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊlhɔːrn/ &middot; <em>BUUL-horn</em></dd><dt>Русский</dt><dd>мегафон (амер.)</dd><dt>Plural</dt><dd><em>bullhorns</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American for <em>megaphone</em>; the British stick with <em>megaphone</em> or <em>loudhailer</em>.</dd></dl>
+<p>An electric megaphone used to shout instructions to a crowd.</p>
+<ol><li>The fire chief shouted through a <em>bullhorn</em>.</li><li>Someone raised a <em>bullhorn</em> and told everyone to move back.</li><li>The police brought two <em>bullhorns</em>.</li></ol>
+<hr>
+<h3 id="walkie-talkie">walkie-talkie<a class="hash" href="#walkie-talkie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌwɔːkiˈtɔːki/ &middot; <em>waw-kee-TAW-kee</em></dd><dt>Русский</dt><dd>рация</dd><dt>Plural</dt><dd><em>walkie-talkies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small two-way radio you carry in your hand.</p>
+<ol><li>Keep the <em>walkie-talkie</em> on channel three.</li><li>His <em>walkie-talkie</em> crackled and went dead.</li><li>The crew works with <em>walkie-talkies</em> inside the building.</li></ol>
+<hr>
+<h3 id="hotline">hotline<a class="hash" href="#hotline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːtlaɪn/ &middot; <em>HAHT-lyne</em></dd><dt>Русский</dt><dd>горячая линия</dd><dt>Plural</dt><dd><em>hotlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A phone line set up so people can get help or report a problem quickly.</p>
+<ol><li>The county set up a <em>hotline</em> for storm damage.</li><li>She called the poison <em>hotline</em> at two in the morning.</li><li>Both <em>hotlines</em> were busy all night.</li></ol>
+<hr>
+<h3 id="panic-button">panic button<a class="hash" href="#panic-button" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpænɪk ˌbʌtən/ &middot; <em>PAN-ik buh-tun</em></dd><dt>Русский</dt><dd>тревожная кнопка</dd><dt>Plural</dt><dd><em>panic buttons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A button pressed to call for help immediately.</p>
+<ol><li>The teller hit the <em>panic button</em> under the counter.</li><li>Every room has a <em>panic button</em> by the bed.</li><li>The new alarm came with two <em>panic buttons</em>.</li></ol>
+<hr>
+<h3 id="false-alarm">false alarm<a class="hash" href="#false-alarm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɔːls əˈlɑːrm/ &middot; <em>fawls uh-LARM</em></dd><dt>Русский</dt><dd>ложная тревога</dd><dt>Plural</dt><dd><em>false alarms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A warning of danger that turns out to be wrong.</p>
+<ol><li>It was only a <em>false alarm</em> — burned popcorn.</li><li>The department answers hundreds of <em>false alarms</em> a year.</li><li>After the third <em>false alarm</em>, nobody moved.</li></ol>
+<hr>
+<h3 id="emergency-contact">emergency contact<a class="hash" href="#emergency-contact" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈmɜːrdʒənsi ˌkɑːntækt/ &middot; <em>ih-MUR-juhn-see KAHN-takt</em></dd><dt>Русский</dt><dd>контактное лицо на случай ЧП</dd><dt>Plural</dt><dd><em>emergency contacts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The person a school or employer calls if something happens to you.</p>
+<ol><li>Put your sister down as your <em>emergency contact</em>.</li><li>They couldn't reach his <em>emergency contact</em>.</li><li>The form asks for two <em>emergency contacts</em>.</li></ol>
+<hr>
+<h3 id="survival-kit">survival kit<a class="hash" href="#survival-kit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sərˈvaɪvəl kɪt/ &middot; <em>sur-VY-vuhl kit</em></dd><dt>Русский</dt><dd>набор для выживания</dd><dt>Plural</dt><dd><em>survival kits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A packed set of supplies for staying alive until help arrives.</p>
+<ol><li>Keep a <em>survival kit</em> in the car during winter.</li><li>The <em>survival kit</em> has water, a blanket, and matches.</li><li>They sell <em>survival kits</em> at the hardware store.</li></ol>
+<hr>
+<h3 id="security-guard">security guard<a class="hash" href="#security-guard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkjʊrəti ɡɑːrd/ &middot; <em>sih-KYUR-uh-tee gard</em></dd><dt>Русский</dt><dd>охранник</dd><dt>Plural</dt><dd><em>security guards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person paid to watch a building or area and keep it safe.</p>
+<ol><li>The <em>security guard</em> walked us to our car.</li><li>A <em>security guard</em> found the broken window.</li><li>Two <em>security guards</em> work the night shift.</li></ol>
+<hr>
+<h3 id="security-camera">security camera<a class="hash" href="#security-camera" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪˈkjʊrəti ˈkæmərə/ &middot; <em>sih-KYUR-uh-tee KAM-uh-ruh</em></dd><dt>Русский</dt><dd>камера видеонаблюдения</dd><dt>Plural</dt><dd><em>security cameras</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A camera that records what happens in a building or on a street.</p>
+<ol><li>A <em>security camera</em> caught the whole thing.</li><li>The <em>security camera</em> over the door isn't working.</li><li>There are <em>security cameras</em> in every hallway.</li></ol>
+<hr>
+<h3 id="warning-light">warning light<a class="hash" href="#warning-light" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːrnɪŋ laɪt/ &middot; <em>WOR-ning lyte</em></dd><dt>Русский</dt><dd>предупреждающий индикатор, сигнальная лампа</dd><dt>Plural</dt><dd><em>warning lights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light that comes on to show something is wrong or dangerous.</p>
+<ol><li>A red <em>warning light</em> came on over the door.</li><li>Don't ignore that <em>warning light</em> on the dash.</li><li>All the <em>warning lights</em> flashed at once.</li></ol>
+<hr>
+<h3 id="fire-safety">fire safety<a class="hash" href="#fire-safety" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌseɪfti/ &middot; <em>FYR sayf-tee</em></dd><dt>Русский</dt><dd>пожарная безопасность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The rules and habits that keep fires from starting or spreading.</p>
+<ol><li>The class covers <em>fire safety</em> in the home.</li><li><em>Fire safety</em> starts with a clear exit path.</li><li>He teaches <em>fire safety</em> at the elementary school.</li></ol>
+<hr>
+<h3 id="firefighting">firefighting<a class="hash" href="#firefighting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrˌfaɪtɪŋ/ &middot; <em>FYR-fy-ting</em></dd><dt>Русский</dt><dd>пожаротушение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of putting out fires.</p>
+<ol><li><em>Firefighting</em> is harder than it looks on television.</li><li>He spent thirty years in <em>firefighting</em>.</li><li>The town spends most of its budget on <em>firefighting</em>.</li></ol>
+<hr>
+<h3 id="fire-engine">fire engine<a class="hash" href="#fire-engine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌɛndʒɪn/ &middot; <em>FYR en-jin</em></dd><dt>Русский</dt><dd>пожарная машина</dd><dt>Plural</dt><dd><em>fire engines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say both <em>fire engine</em> and <em>fire truck</em> for the same vehicle.</dd></dl>
+<p>A truck carrying a pump, hoses, and water to a fire.</p>
+<ol><li>Three <em>fire engines</em> pulled up outside.</li><li>The <em>fire engine</em> couldn't get down the narrow street.</li><li>Kids waved at the <em>fire engine</em> in the parade.</li></ol>
+<hr>
+<h3 id="firehouse">firehouse<a class="hash" href="#firehouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrhaʊs/ &middot; <em>FYR-hows</em></dd><dt>Русский</dt><dd>пожарное депо</dd><dt>Plural</dt><dd><em>firehouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>A homey American word for <em>fire station</em>.</dd></dl>
+<p>The building where firefighters and their trucks are based.</p>
+<ol><li>The <em>firehouse</em> on Third Street has been there a century.</li><li>They hold a pancake breakfast at the <em>firehouse</em>.</li><li>Both <em>firehouses</em> closed in the budget cuts.</li></ol>
+<hr>
+<h3 id="fireman">fireman<a class="hash" href="#fireman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrrmən/ &middot; <em>FYR-mun</em></dd><dt>Русский</dt><dd>пожарный</dd><dt>Plural</dt><dd><em>firemen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural <em>firemen</em>; the neutral modern word is <em>firefighter</em>.</dd></dl>
+<p>A man whose job is putting out fires.</p>
+<ol><li>A <em>fireman</em> carried the cat down the ladder.</li><li>Two <em>firemen</em> stayed behind to watch the embers.</li><li>My grandfather was a <em>fireman</em> for twenty years.</li></ol>
+<hr>
+<h3 id="fire-chief">fire chief<a class="hash" href="#fire-chief" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr tʃiːf/ &middot; <em>FYR cheef</em></dd><dt>Русский</dt><dd>начальник пожарной части</dd><dt>Plural</dt><dd><em>fire chiefs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The officer in charge of a fire department.</p>
+<ol><li>The <em>fire chief</em> spoke to reporters at the scene.</li><li>Our <em>fire chief</em> has been on the job since 1998.</li><li>Two former <em>fire chiefs</em> came to the ceremony.</li></ol>
+<hr>
+<h3 id="fire-marshal">fire marshal<a class="hash" href="#fire-marshal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌmɑːrʃəl/ &middot; <em>FYR mar-shuhl</em></dd><dt>Русский</dt><dd>инспектор пожарного надзора</dd><dt>Plural</dt><dd><em>fire marshals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Marshal</em> sounds just like <em>martial</em>, and American spelling keeps only one <em>l</em>.</dd></dl>
+<p>An official who inspects buildings and investigates the causes of fires.</p>
+<ol><li>The <em>fire marshal</em> closed the club for overcrowding.</li><li>A <em>fire marshal</em> is still looking into the cause.</li><li><em>Fire marshals</em> check every school in the county.</li></ol>
+<hr>
+<h3 id="fire-hose">fire hose<a class="hash" href="#fire-hose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr hoʊz/ &middot; <em>FYR hohz</em></dd><dt>Русский</dt><dd>пожарный рукав</dd><dt>Plural</dt><dd><em>fire hoses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The heavy hose that carries water from a hydrant or truck to a fire.</p>
+<ol><li>It takes two people to hold a <em>fire hose</em>.</li><li>The <em>fire hose</em> was still charged with water.</li><li><em>Fire hoses</em> ran across the whole intersection.</li></ol>
+<hr>
+<h3 id="fire-door">fire door<a class="hash" href="#fire-door" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr dɔːr/ &middot; <em>FYR dor</em></dd><dt>Русский</dt><dd>противопожарная дверь</dd><dt>Plural</dt><dd><em>fire doors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy door that holds back flames and smoke for a set time.</p>
+<ol><li>Never prop open a <em>fire door</em>.</li><li>The <em>fire door</em> kept the smoke out of the stairwell.</li><li>All the <em>fire doors</em> close automatically when the alarm sounds.</li></ol>
+<hr>
+<h3 id="fire-blanket">fire blanket<a class="hash" href="#fire-blanket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfaɪrr ˌblæŋkɪt/ &middot; <em>FYR blang-kit</em></dd><dt>Русский</dt><dd>противопожарное полотно</dd><dt>Plural</dt><dd><em>fire blankets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sheet of fireproof cloth thrown over flames to smother them.</p>
+<ol><li>She smothered the grease fire with a <em>fire blanket</em>.</li><li>A <em>fire blanket</em> hangs by the stove.</li><li>The lab keeps <em>fire blankets</em> at both exits.</li></ol>
+<hr>
+<h3 id="escape-ladder">escape ladder<a class="hash" href="#escape-ladder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈskeɪp ˌlædər/ &middot; <em>ih-SKAYP lad-ur</em></dd><dt>Русский</dt><dd>спасательная лестница (для окна)</dd><dt>Plural</dt><dd><em>escape ladders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding ladder kept upstairs to climb out a window in a fire.</p>
+<ol><li>There's an <em>escape ladder</em> under the bed.</li><li>The <em>escape ladder</em> hooks over the window sill.</li><li>We bought <em>escape ladders</em> for both bedrooms.</li></ol>
+<hr>
+<h3 id="blaze">blaze<a class="hash" href="#blaze" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bleɪz/ &middot; <em>BLAYZ</em></dd><dt>Русский</dt><dd>пожар, бушующее пламя</dd><dt>Plural</dt><dd><em>blazes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large, bright fire.</p>
+<ol><li>Crews fought the <em>blaze</em> for six hours.</li><li>The <em>blaze</em> started in a back room.</li><li>Two <em>blazes</em> broke out the same night.</li></ol>
+<hr>
+<h3 id="inferno">inferno<a class="hash" href="#inferno" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈfɜːrnoʊ/ &middot; <em>in-FUR-noh</em></dd><dt>Русский</dt><dd>бушующий пожар, огненный ад</dd><dt>Plural</dt><dd><em>infernos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A huge fire that is out of control.</p>
+<ol><li>The warehouse became an <em>inferno</em> in minutes.</li><li>Firefighters could only watch the <em>inferno</em> from the street.</li><li>Summer <em>infernos</em> like this used to be rare.</li></ol>
+<hr>
+<h3 id="arsonist">arsonist<a class="hash" href="#arsonist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrsənɪst/ &middot; <em>AR-suh-nist</em></dd><dt>Русский</dt><dd>поджигатель</dd><dt>Plural</dt><dd><em>arsonists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who sets fire to property on purpose.</p>
+<ol><li>Investigators think an <em>arsonist</em> started it.</li><li>The <em>arsonist</em> used gasoline and a rag.</li><li>Two <em>arsonists</em> were arrested that fall.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

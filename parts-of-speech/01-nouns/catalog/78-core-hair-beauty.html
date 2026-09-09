@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: hair and beauty</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-hair-and-beauty">Core vocabulary: hair and beauty<a class="hash" href="#core-vocabulary-hair-and-beauty" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of hair and beauty — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="barber">barber<a class="hash" href="#barber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrbər/ &middot; <em>BAR-bur</em></dd><dt>Русский</dt><dd>мужской парикмахер, барбер</dd><dt>Plural</dt><dd><em>barbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person whose job is cutting men's hair and trimming beards.</p>
+<ol><li>My <em>barber</em> has been cutting my hair for fifteen years.</li><li>The <em>barber</em> asked how short I wanted it on the sides.</li><li>Both <em>barbers</em> were busy, so I waited by the window.</li></ol>
+<hr>
+<h3 id="hairdresser">hairdresser<a class="hash" href="#hairdresser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrˌdrɛsər/ &middot; <em>HAIR-dres-ur</em></dd><dt>Русский</dt><dd>парикмахер</dd><dt>Plural</dt><dd><em>hairdressers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person whose job is washing, cutting, and styling hair.</p>
+<ol><li>Her <em>hairdresser</em> talked her out of going blonde.</li><li>I need to find a new <em>hairdresser</em> since we moved.</li><li>The <em>hairdressers</em> at that place are all very young.</li></ol>
+<hr>
+<h3 id="stylist">stylist<a class="hash" href="#stylist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstaɪlɪst/ &middot; <em>STY-list</em></dd><dt>Русский</dt><dd>стилист, парикмахер</dd><dt>Plural</dt><dd><em>stylists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hairdresser, especially one who cuts and shapes hair in a salon.</p>
+<ol><li>Ask for Dana — she's the best <em>stylist</em> there.</li><li>My <em>stylist</em> is booked through the end of the month.</li><li>The salon has six <em>stylists</em> and one receptionist.</li></ol>
+<hr>
+<h3 id="hairstylist">hairstylist<a class="hash" href="#hairstylist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrˌstaɪlɪst/ &middot; <em>HAIR-sty-list</em></dd><dt>Русский</dt><dd>парикмахер-стилист</dd><dt>Plural</dt><dd><em>hairstylists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trained professional who cuts and styles hair.</p>
+<ol><li>She works as a <em>hairstylist</em> downtown.</li><li>A good <em>hairstylist</em> will tell you what won't work.</li><li>The movie hired three <em>hairstylists</em> for the cast.</li></ol>
+<hr>
+<h3 id="beauty-salon">beauty salon<a class="hash" href="#beauty-salon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbjuːti səˈlɑːn/ &middot; <em>BYOO-tee suh-LAHN</em></dd><dt>Русский</dt><dd>салон красоты</dd><dt>Plural</dt><dd><em>beauty salons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American English <em>salon</em> is stressed on the second syllable: suh-LAHN.</dd></dl>
+<p>A shop where people go for haircuts, coloring, and beauty treatments.</p>
+<ol><li>There's a <em>beauty salon</em> right next to the pharmacy.</li><li>She opened her own <em>beauty salon</em> last spring.</li><li>Half the <em>beauty salons</em> in town close on Mondays.</li></ol>
+<hr>
+<h3 id="nail-salon">nail salon<a class="hash" href="#nail-salon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl səˈlɑːn/ &middot; <em>NAYL suh-LAHN</em></dd><dt>Русский</dt><dd>маникюрный салон</dd><dt>Plural</dt><dd><em>nail salons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shop where people go to have their fingernails and toenails done.</p>
+<ol><li>The <em>nail salon</em> on the corner takes walk-ins.</li><li>She goes to the <em>nail salon</em> every three weeks.</li><li>Two new <em>nail salons</em> opened in that strip mall.</li></ol>
+<hr>
+<h3 id="beauty-parlor">beauty parlor<a class="hash" href="#beauty-parlor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbjuːti ˈpɑːrlər/ &middot; <em>BYOO-tee PAR-lur</em></dd><dt>Русский</dt><dd>салон красоты (устаревшее)</dd><dt>Plural</dt><dd><em>beauty parlors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>parlor</em>, British <em>parlour</em>; the word now sounds old-fashioned.</dd></dl>
+<p>An older word for a beauty salon.</p>
+<ol><li>My grandmother went to the <em>beauty parlor</em> every Friday.</li><li>The old <em>beauty parlor</em> is a coffee shop now.</li><li>In those days every small town had two or three <em>beauty parlors</em>.</li></ol>
+<hr>
+<h3 id="manicurist">manicurist<a class="hash" href="#manicurist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmænɪˌkjʊrɪst/ &middot; <em>MAN-ih-kyoor-ist</em></dd><dt>Русский</dt><dd>мастер маникюра, маникюрша</dd><dt>Plural</dt><dd><em>manicurists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person whose job is caring for and painting people's nails.</p>
+<ol><li>The <em>manicurist</em> filed each nail into a square shape.</li><li>She trained as a <em>manicurist</em> after high school.</li><li>Two <em>manicurists</em> were working when I walked in.</li></ol>
+<hr>
+<h3 id="beautician">beautician<a class="hash" href="#beautician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bjuːˈtɪʃən/ &middot; <em>byoo-TISH-uhn</em></dd><dt>Русский</dt><dd>косметолог, мастер салона красоты</dd><dt>Plural</dt><dd><em>beauticians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person trained to give beauty treatments to the face, hair, and body.</p>
+<ol><li>The <em>beautician</em> recommended a lighter foundation.</li><li>She worked as a <em>beautician</em> on a cruise ship.</li><li>The spa employs four <em>beauticians</em> full time.</li></ol>
+<hr>
+<h3 id="cosmetologist">cosmetologist<a class="hash" href="#cosmetologist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːzməˈtɑːlədʒɪst/ &middot; <em>kahz-muh-TAH-luh-jist</em></dd><dt>Русский</dt><dd>косметолог, лицензированный мастер красоты</dd><dt>Plural</dt><dd><em>cosmetologists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A licensed professional trained in hair, skin, and nail care.</p>
+<ol><li>You need a state license to work as a <em>cosmetologist</em>.</li><li>The <em>cosmetologist</em> looked at my scalp under a lamp.</li><li>Most of the <em>cosmetologists</em> here trained at the same school.</li></ol>
+<hr>
+<h3 id="esthetician">esthetician<a class="hash" href="#esthetician" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛsθəˈtɪʃən/ &middot; <em>ess-thuh-TISH-uhn</em></dd><dt>Русский</dt><dd>косметолог по уходу за кожей</dd><dt>Plural</dt><dd><em>estheticians</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also spelled <em>aesthetician</em>; both spellings are said the same way.</dd></dl>
+<p>A specialist who treats and cares for the skin of the face and body.</p>
+<ol><li>The <em>esthetician</em> said my skin was dehydrated, not oily.</li><li>She sees an <em>esthetician</em> twice a year.</li><li>The clinic has <em>estheticians</em> on staff five days a week.</li></ol>
+<hr>
+<h3 id="colorist">colorist<a class="hash" href="#colorist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlərɪst/ &middot; <em>KUH-luh-rist</em></dd><dt>Русский</dt><dd>колорист, мастер по окрашиванию волос</dd><dt>Plural</dt><dd><em>colorists</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>colorist</em>, British <em>colourist</em>.</dd></dl>
+<p>A hair professional who specializes in dyeing and lightening hair.</p>
+<ol><li>Her <em>colorist</em> fixed the brassy tone in one visit.</li><li>A good <em>colorist</em> costs more than a haircut.</li><li>The salon's <em>colorists</em> book up weeks ahead.</li></ol>
+<hr>
+<h3 id="makeup-artist">makeup artist<a class="hash" href="#makeup-artist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪkʌp ˌɑːrtɪst/ &middot; <em>MAYK-up AR-tist</em></dd><dt>Русский</dt><dd>визажист</dd><dt>Plural</dt><dd><em>makeup artists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who applies makeup professionally, often for weddings, film, or television.</p>
+<ol><li>The bride hired a <em>makeup artist</em> for the whole party.</li><li>He works as a <em>makeup artist</em> on a soap opera.</li><li>Two <em>makeup artists</em> were setting up their kits backstage.</li></ol>
+<hr>
+<h3 id="cosmetology">cosmetology<a class="hash" href="#cosmetology" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːzməˈtɑːlədʒi/ &middot; <em>kahz-muh-TAH-luh-jee</em></dd><dt>Русский</dt><dd>косметология (профессия мастера красоты)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The profession and study of hair, skin, and nail care.</p>
+<ol><li>She studied <em>cosmetology</em> for a year after graduating.</li><li>The community college has a <em>cosmetology</em> program.</li><li><em>Cosmetology</em> licenses have to be renewed every two years.</li></ol>
+<hr>
+<h3 id="hairdressing">hairdressing<a class="hash" href="#hairdressing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrˌdrɛsɪŋ/ &middot; <em>HAIR-dres-ing</em></dd><dt>Русский</dt><dd>парикмахерское дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of cutting and styling people's hair.</p>
+<ol><li>He gave up teaching for <em>hairdressing</em>.</li><li><em>Hairdressing</em> is harder on your back than people think.</li><li>She learned <em>hairdressing</em> from her mother.</li></ol>
+<hr>
+<h3 id="barber-pole">barber pole<a class="hash" href="#barber-pole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrbər poʊl/ &middot; <em>BAR-bur pohl</em></dd><dt>Русский</dt><dd>полосатый столб-вывеска парикмахерской</dd><dt>Plural</dt><dd><em>barber poles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The red-and-white striped cylinder that turns outside a barbershop.</p>
+<ol><li>You'll see the shop by the <em>barber pole</em> out front.</li><li>The old <em>barber pole</em> still turns, but the light is burned out.</li><li>Antique <em>barber poles</em> sell for a lot of money.</li></ol>
+<hr>
+<h3 id="hairdo">hairdo<a class="hash" href="#hairdo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrduː/ &middot; <em>HAIR-doo</em></dd><dt>Русский</dt><dd>причёска</dd><dt>Plural</dt><dd><em>hairdos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The way a person's hair has been arranged.</p>
+<ol><li>That's quite a <em>hairdo</em> for a Tuesday morning.</li><li>She showed the stylist a photo of the <em>hairdo</em> she wanted.</li><li>The old photos are full of enormous <em>hairdos</em>.</li></ol>
+<hr>
+<h3 id="part">part<a class="hash" href="#part" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɑːrt/ &middot; <em>PART</em></dd><dt>Русский</dt><dd>пробор</dd><dt>Plural</dt><dd><em>parts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British English calls this a <em>parting</em>.</dd></dl>
+<p>The line on the head where hair is divided and combed in two directions.</p>
+<ol><li>He wears his <em>part</em> on the left.</li><li>She switched to a middle <em>part</em> and looked completely different.</li><li>Deep side <em>parts</em> were everywhere that year.</li></ol>
+<hr>
+<h3 id="perm">perm<a class="hash" href="#perm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pɜːrm/ &middot; <em>PURM</em></dd><dt>Русский</dt><dd>химическая завивка</dd><dt>Plural</dt><dd><em>perms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chemical treatment that puts lasting curls or waves into hair.</p>
+<ol><li>My mom got a <em>perm</em> every fall.</li><li>A <em>perm</em> takes about three hours in the chair.</li><li>Cheap <em>perms</em> can really damage your hair.</li></ol>
+<hr>
+<h3 id="bob">bob<a class="hash" href="#bob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bɑːb/ &middot; <em>BAHB</em></dd><dt>Русский</dt><dd>каре (стрижка)</dd><dt>Plural</dt><dd><em>bobs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short haircut of even length, usually ending around the chin.</p>
+<ol><li>She cut her hair into a <em>bob</em> over the summer.</li><li>A blunt <em>bob</em> works well with straight hair.</li><li>Short <em>bobs</em> are back in style again.</li></ol>
+<hr>
+<h3 id="updo">updo<a class="hash" href="#updo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpduː/ &middot; <em>UP-doo</em></dd><dt>Русский</dt><dd>высокая причёска (собранные волосы)</dd><dt>Plural</dt><dd><em>updos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hairstyle in which the hair is pinned up off the neck.</p>
+<ol><li>She wore a simple <em>updo</em> to the wedding.</li><li>The stylist charged extra for the <em>updo</em>.</li><li>Loose <em>updos</em> look nicer in photographs.</li></ol>
+<hr>
+<h3 id="fringe">fringe<a class="hash" href="#fringe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɪndʒ/ &middot; <em>FRINJ</em></dd><dt>Русский</dt><dd>чёлка (британское)</dd><dt>Plural</dt><dd><em>fringes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British word; Americans say <em>bangs</em> for hair cut across the forehead.</dd></dl>
+<p>Hair cut short and straight across the forehead.</p>
+<ol><li>Her <em>fringe</em> had grown into her eyes.</li><li>A short <em>fringe</em> suits a round face, she says.</li><li>British magazines talk about <em>fringes</em>, not bangs.</li></ol>
+<hr>
+<h3 id="pigtail">pigtail<a class="hash" href="#pigtail" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡteɪl/ &middot; <em>PIG-tayl</em></dd><dt>Русский</dt><dd>хвостик, косичка (обычно парные)</dd><dt>Plural</dt><dd><em>pigtails</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of two bunches of hair tied at the sides of the head.</p>
+<ol><li>She wore her hair in <em>pigtails</em> until third grade.</li><li>One <em>pigtail</em> had already come loose.</li><li>He tied her <em>pigtails</em> too tight and she complained all morning.</li></ol>
+<hr>
+<h3 id="topknot">topknot<a class="hash" href="#topknot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːpnɑːt/ &middot; <em>TAHP-naht</em></dd><dt>Русский</dt><dd>пучок на макушке</dd><dt>Plural</dt><dd><em>topknots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A knot or bun of hair worn on top of the head.</p>
+<ol><li>She twisted her hair into a <em>topknot</em> before the gym.</li><li>His <em>topknot</em> came loose halfway through the game.</li><li>Half the class showed up in messy <em>topknots</em>.</li></ol>
+<hr>
+<h3 id="cornrow">cornrow<a class="hash" href="#cornrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrnroʊ/ &middot; <em>KORN-roh</em></dd><dt>Русский</dt><dd>африканская косичка (заплетённая вплотную к голове)</dd><dt>Plural</dt><dd><em>cornrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow braid made flat against the scalp in a line.</p>
+<ol><li>Her mother braided her hair in <em>cornrows</em>.</li><li>The <em>cornrows</em> took four hours to finish.</li><li>He keeps one thick <em>cornrow</em> down the middle.</li></ol>
+<hr>
+<h3 id="dreadlock">dreadlock<a class="hash" href="#dreadlock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛdlɑːk/ &middot; <em>DRED-lahk</em></dd><dt>Русский</dt><dd>дред (свалянная прядь)</dd><dt>Plural</dt><dd><em>dreadlocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rope-like length of hair formed by matting it together.</p>
+<ol><li>He's had <em>dreadlocks</em> since college.</li><li>One <em>dreadlock</em> had gone gray at the tip.</li><li>She tied her <em>dreadlocks</em> back with a scarf.</li></ol>
+<hr>
+<h3 id="afro">afro<a class="hash" href="#afro" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæfroʊ/ &middot; <em>AF-roh</em></dd><dt>Русский</dt><dd>афро (причёска)</dd><dt>Plural</dt><dd><em>afros</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rounded hairstyle of tightly curled hair standing out from the head.</p>
+<ol><li>He grew out a full <em>afro</em> that year.</li><li>She picks her <em>afro</em> out with a wide comb.</li><li>The band all wore <em>afros</em> on the album cover.</li></ol>
+<hr>
+<h3 id="flattop">flattop<a class="hash" href="#flattop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflætɑːp/ &middot; <em>FLAT-tahp</em></dd><dt>Русский</dt><dd>стрижка «площадка», плоский ёжик</dd><dt>Plural</dt><dd><em>flattops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A haircut in which the hair on top is cut level and stands straight up.</p>
+<ol><li>The barber gave him a <em>flattop</em> like his father's.</li><li>A <em>flattop</em> has to be cut every two weeks to stay sharp.</li><li>Every man in the old squad photo has a <em>flattop</em>.</li></ol>
+<hr>
+<h3 id="undercut">undercut<a class="hash" href="#undercut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌndərkʌt/ &middot; <em>UN-dur-kut</em></dd><dt>Русский</dt><dd>андеркат (выбритые виски и затылок)</dd><dt>Plural</dt><dd><em>undercuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A haircut with the sides and back clipped short under longer hair on top.</p>
+<ol><li>She's growing out her <em>undercut</em>.</li><li>The <em>undercut</em> needs a trim every three weeks.</li><li>Half the guys on the team have <em>undercuts</em>.</li></ol>
+<hr>
+<h3 id="fade">fade<a class="hash" href="#fade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/feɪd/ &middot; <em>FAYD</em></dd><dt>Русский</dt><dd>фейд (стрижка с плавным переходом)</dd><dt>Plural</dt><dd><em>fades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A haircut in which the hair gets gradually shorter toward the neck and ears.</p>
+<ol><li>He asked for a low <em>fade</em> on the sides.</li><li>That barber does a clean <em>fade</em>.</li><li>They charge more for skin <em>fades</em>.</li></ol>
+<hr>
+<h3 id="buzz-cut">buzz cut<a class="hash" href="#buzz-cut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌz kʌt/ &middot; <em>BUZ kut</em></dd><dt>Русский</dt><dd>стрижка под машинку</dd><dt>Plural</dt><dd><em>buzz cuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very short haircut done all over with clippers.</p>
+<ol><li>He gave himself a <em>buzz cut</em> in the bathroom.</li><li>A <em>buzz cut</em> is easy in the summer.</li><li>All the recruits got <em>buzz cuts</em> the first morning.</li></ol>
+<hr>
+<h3 id="crew-cut">crew cut<a class="hash" href="#crew-cut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruː kʌt/ &middot; <em>KROO kut</em></dd><dt>Русский</dt><dd>стрижка «ёжик»</dd><dt>Plural</dt><dd><em>crew cuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short haircut with the hair standing up on top and cut close at the sides.</p>
+<ol><li>My father wore a <em>crew cut</em> his whole life.</li><li>The barber talked him into a <em>crew cut</em>.</li><li>The old yearbook is nothing but <em>crew cuts</em>.</li></ol>
+<hr>
+<h3 id="pixie-cut">pixie cut<a class="hash" href="#pixie-cut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪksi kʌt/ &middot; <em>PIK-see kut</em></dd><dt>Русский</dt><dd>стрижка пикси</dd><dt>Plural</dt><dd><em>pixie cuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short, closely cropped women's haircut with a little length on top.</p>
+<ol><li>She chopped it all off into a <em>pixie cut</em>.</li><li>A <em>pixie cut</em> needs shaping every month.</li><li>Two of my friends got <em>pixie cuts</em> that spring.</li></ol>
+<hr>
+<h3 id="comb-over">comb-over<a class="hash" href="#comb-over" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊmˌoʊvər/ &middot; <em>KOHM-oh-vur</em></dd><dt>Русский</dt><dd>зачёс на лысину</dd><dt>Plural</dt><dd><em>comb-overs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in <em>comb</em> is silent — KOHM, not "kohmb".</dd></dl>
+<p>Long hair combed sideways across the head to cover a bald area.</p>
+<ol><li>The wind ruined his <em>comb-over</em>.</li><li>He finally gave up the <em>comb-over</em> and shaved it all off.</li><li>You can spot <em>comb-overs</em> from across the room.</li></ol>
+<hr>
+<h3 id="pompadour">pompadour<a class="hash" href="#pompadour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːmpəˌdɔːr/ &middot; <em>PAHM-puh-dor</em></dd><dt>Русский</dt><dd>кок (высоко зачёсанные вверх волосы)</dd><dt>Plural</dt><dd><em>pompadours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hairstyle with the front hair swept up high off the forehead.</p>
+<ol><li>He keeps his <em>pompadour</em> in place with pomade.</li><li>The singer's <em>pompadour</em> was two inches tall.</li><li>Fifties <em>pompadours</em> took a lot of work.</li></ol>
+<hr>
+<h3 id="bouffant">bouffant<a class="hash" href="#bouffant" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/buːˈfɑːnt/ &middot; <em>boo-FAHNT</em></dd><dt>Русский</dt><dd>пышная причёска с начёсом</dd><dt>Plural</dt><dd><em>bouffants</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hairstyle in which the hair is puffed out high and round.</p>
+<ol><li>Her <em>bouffant</em> barely fit under the hat.</li><li>The waitress wore a <em>bouffant</em> like it was still 1962.</li><li>Those <em>bouffants</em> were held up with half a can of spray.</li></ol>
+<hr>
+<h3 id="chignon">chignon<a class="hash" href="#chignon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃiːnjɑːn/ &middot; <em>SHEEN-yahn</em></dd><dt>Русский</dt><dd>низкий пучок (причёска)</dd><dt>Plural</dt><dd><em>chignons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French spelling: said SHEEN-yahn, with no hard ch and no g sound.</dd></dl>
+<p>A smooth knot of hair worn low at the back of the head.</p>
+<ol><li>She wore a neat <em>chignon</em> to the ceremony.</li><li>A <em>chignon</em> keeps your hair out of your face all day.</li><li>Ballet dancers pin their <em>chignons</em> flat.</li></ol>
+<hr>
+<h3 id="ringlet">ringlet<a class="hash" href="#ringlet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɪŋlət/ &middot; <em>RING-lit</em></dd><dt>Русский</dt><dd>локон, кудряшка</dd><dt>Plural</dt><dd><em>ringlets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long curl of hair shaped like a spiral.</p>
+<ol><li>The baby has soft <em>ringlets</em> at the back of her neck.</li><li>One <em>ringlet</em> fell across her forehead.</li><li>Damp weather turns her waves into tight <em>ringlets</em>.</li></ol>
+<hr>
+<h3 id="cowlick">cowlick<a class="hash" href="#cowlick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊlɪk/ &middot; <em>KOW-lik</em></dd><dt>Русский</dt><dd>вихор (торчащая прядь)</dd><dt>Plural</dt><dd><em>cowlicks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of hair that grows in a different direction and will not lie flat.</p>
+<ol><li>He has a <em>cowlick</em> right at the crown.</li><li>No amount of water will flatten that <em>cowlick</em>.</li><li>Both boys have the same <em>cowlicks</em> as their father.</li></ol>
+<hr>
+<h3 id="frizz">frizz<a class="hash" href="#frizz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/frɪz/ &middot; <em>FRIZ</em></dd><dt>Русский</dt><dd>пушистость волос, пушащиеся волосы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hair that stands out in small rough curls instead of lying smooth.</p>
+<ol><li>Humidity gives me terrible <em>frizz</em>.</li><li>A little oil on the ends cuts down the <em>frizz</em>.</li><li>The whole point of the treatment is less <em>frizz</em>.</li></ol>
+<hr>
+<h3 id="tangle">tangle<a class="hash" href="#tangle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæŋɡəl/ &middot; <em>TANG-guhl</em></dd><dt>Русский</dt><dd>колтун, спутанные волосы</dd><dt>Plural</dt><dd><em>tangles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A knotted, twisted mass of hair that is hard to comb through.</p>
+<ol><li>She worked a <em>tangle</em> out of the back of my hair.</li><li>Wet hair gets <em>tangles</em> faster.</li><li>There was one big <em>tangle</em> right behind her ear.</li></ol>
+<hr>
+<h3 id="split-end">split end<a class="hash" href="#split-end" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsplɪt ˈɛnd/ &middot; <em>split-END</em></dd><dt>Русский</dt><dd>секущийся кончик</dd><dt>Plural</dt><dd><em>split ends</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The end of a hair that has dried out and divided in two.</p>
+<ol><li>She trimmed off the <em>split ends</em> herself.</li><li>Heat styling every day gives you <em>split ends</em>.</li><li>You can see a <em>split end</em> if you hold the strand up to the light.</li></ol>
+<hr>
+<h3 id="dandruff">dandruff<a class="hash" href="#dandruff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdændrəf/ &middot; <em>DAN-druhf</em></dd><dt>Русский</dt><dd>перхоть</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable in English — never "a dandruff" or "dandruffs".</dd></dl>
+<p>Small white flakes of dead skin that come off the scalp.</p>
+<ol><li>He has <em>dandruff</em> on the shoulders of his jacket.</li><li>This shampoo is supposed to help with <em>dandruff</em>.</li><li>Dry winter air makes my <em>dandruff</em> worse.</li></ol>
+<hr>
+<h3 id="hairline">hairline<a class="hash" href="#hairline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrlaɪn/ &middot; <em>HAIR-lyn</em></dd><dt>Русский</dt><dd>линия роста волос</dd><dt>Plural</dt><dd><em>hairlines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The edge along the forehead where a person's hair begins to grow.</p>
+<ol><li>His <em>hairline</em> has moved back a little every year.</li><li>She has a low, straight <em>hairline</em>.</li><li>Both brothers have receding <em>hairlines</em>.</li></ol>
+<hr>
+<h3 id="nape">nape<a class="hash" href="#nape" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/neɪp/ &middot; <em>NAYP</em></dd><dt>Русский</dt><dd>затылок, задняя часть шеи</dd><dt>Plural</dt><dd><em>napes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The back of the neck, where the hair ends.</p>
+<ol><li>The barber cleaned up the hair at the <em>nape</em> of my neck.</li><li>She pinned it into a bun at the <em>nape</em>.</li><li>He shaved a straight line across the <em>nape</em>.</li></ol>
+<hr>
+<h3 id="follicle">follicle<a class="hash" href="#follicle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːlɪkəl/ &middot; <em>FAH-lih-kuhl</em></dd><dt>Русский</dt><dd>волосяной фолликул, луковица</dd><dt>Plural</dt><dd><em>follicles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tiny pocket in the skin that a hair grows out of.</p>
+<ol><li>Each hair grows from its own <em>follicle</em>.</li><li>The treatment is supposed to wake up dormant <em>follicles</em>.</li><li>Pulling a hair out damages the <em>follicle</em>.</li></ol>
+<hr>
+<h3 id="keratin">keratin<a class="hash" href="#keratin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɛrətən/ &middot; <em>KERR-uh-tuhn</em></dd><dt>Русский</dt><dd>кератин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The tough protein that hair and nails are made of.</p>
+<ol><li>Hair is mostly <em>keratin</em>.</li><li>She had a <em>keratin</em> treatment to smooth her hair.</li><li>The bottle claims it puts <em>keratin</em> back into the ends.</li></ol>
+<hr>
+<h3 id="gray-hair">gray hair<a class="hash" href="#gray-hair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɡreɪ ˈhɛr/ &middot; <em>gray-HAIR</em></dd><dt>Русский</dt><dd>седина, седые волосы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>gray</em>, British <em>grey</em> — same word, same sound.</dd></dl>
+<p>Hair that has lost its color with age.</p>
+<ol><li>He's got a lot of <em>gray hair</em> for thirty-five.</li><li>She stopped covering her <em>gray hair</em> two years ago.</li><li>Stress and <em>gray hair</em> seem to go together.</li></ol>
+<hr>
+<h3 id="redhead">redhead<a class="hash" href="#redhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛdhɛd/ &middot; <em>RED-hed</em></dd><dt>Русский</dt><dd>рыжеволосый человек, рыжая</dd><dt>Plural</dt><dd><em>redheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person with red hair.</p>
+<ol><li>She's a natural <em>redhead</em>.</li><li>The <em>redhead</em> in the front row raised her hand.</li><li><em>Redheads</em> usually have to be careful in the sun.</li></ol>
+<hr>
+<h3 id="baldness">baldness<a class="hash" href="#baldness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːldnəs/ &middot; <em>BAWLD-nis</em></dd><dt>Русский</dt><dd>облысение, лысина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The condition of having little or no hair on the head.</p>
+<ol><li><em>Baldness</em> runs in his family.</li><li>There's no real cure for <em>baldness</em>.</li><li>He jokes about his <em>baldness</em> before anyone else can.</li></ol>
+<hr>
+<h3 id="bald-spot">bald spot<a class="hash" href="#bald-spot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːld spɑːt/ &middot; <em>BAWLD spaht</em></dd><dt>Русский</dt><dd>лысина (участок без волос)</dd><dt>Plural</dt><dd><em>bald spots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small area of the head where the hair has fallen out.</p>
+<ol><li>He didn't notice the <em>bald spot</em> until he saw the photo.</li><li>She combs her hair over a small <em>bald spot</em>.</li><li>Two <em>bald spots</em> had joined into one.</li></ol>
+<hr>
+<h3 id="hair-loss">hair loss<a class="hash" href="#hair-loss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr lɔːs/ &middot; <em>HAIR laws</em></dd><dt>Русский</dt><dd>выпадение волос</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The falling out of hair from the head, usually more than is normal.</p>
+<ol><li>The medication can cause <em>hair loss</em>.</li><li>He went to a doctor about his <em>hair loss</em>.</li><li><em>Hair loss</em> after a baby is very common.</li></ol>
+<hr>
+<h3 id="unibrow">unibrow<a class="hash" href="#unibrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈjuːnibraʊ/ &middot; <em>YOO-nee-brow</em></dd><dt>Русский</dt><dd>монобровь</dd><dt>Plural</dt><dd><em>unibrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Eyebrows that meet in the middle above the nose.</p>
+<ol><li>He waxes so he doesn't have a <em>unibrow</em>.</li><li>The kid in the drawing had a huge <em>unibrow</em>.</li><li><em>Unibrows</em> are fashionable again in some places.</li></ol>
+<hr>
+<h3 id="facial-hair">facial hair<a class="hash" href="#facial-hair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪʃəl hɛr/ &middot; <em>FAY-shuhl hair</em></dd><dt>Русский</dt><dd>растительность на лице</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Hair that grows on a person's face, such as a beard or mustache.</p>
+<ol><li>The job doesn't allow any <em>facial hair</em>.</li><li>His <em>facial hair</em> comes in patchy.</li><li>She waxes the <em>facial hair</em> on her upper lip.</li></ol>
+<hr>
+<h3 id="peach-fuzz">peach fuzz<a class="hash" href="#peach-fuzz" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːtʃ fʌz/ &middot; <em>PEECH fuz</em></dd><dt>Русский</dt><dd>пушок (мягкие светлые волоски)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft, fine hair on a young person's face or on the cheeks.</p>
+<ol><li>At sixteen he still had nothing but <em>peach fuzz</em>.</li><li>She shaves the <em>peach fuzz</em> off before applying makeup.</li><li>The baby's head was covered in <em>peach fuzz</em>.</li></ol>
+<hr>
+<h3 id="hair-extension">hair extension<a class="hash" href="#hair-extension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr ɪkˌstɛnʃən/ &middot; <em>HAIR ik-sten-shuhn</em></dd><dt>Русский</dt><dd>накладная прядь, наращённые волосы</dd><dt>Plural</dt><dd><em>hair extensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A length of real or artificial hair added to someone's own hair to make it longer or fuller.</p>
+<ol><li>She got <em>hair extensions</em> for the wedding.</li><li>One <em>hair extension</em> had slipped down.</li><li>Good <em>hair extensions</em> cost more than the dress.</li></ol>
+<hr>
+<h3 id="hairpiece">hairpiece<a class="hash" href="#hairpiece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrpiːs/ &middot; <em>HAIR-pees</em></dd><dt>Русский</dt><dd>накладка из волос, шиньон</dd><dt>Plural</dt><dd><em>hairpieces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A piece of false hair worn to cover part of the head or add fullness.</p>
+<ol><li>The anchor wears a <em>hairpiece</em> on camera.</li><li>You can't tell it's a <em>hairpiece</em> from the front.</li><li>Good <em>hairpieces</em> are made from real hair.</li></ol>
+<hr>
+<h3 id="toupee">toupee<a class="hash" href="#toupee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tuːˈpeɪ/ &middot; <em>too-PAY</em></dd><dt>Русский</dt><dd>накладка, мужской парик</dd><dt>Plural</dt><dd><em>toupees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable in American English: too-PAY.</dd></dl>
+<p>A small wig worn by a man to cover a bald patch.</p>
+<ol><li>His <em>toupee</em> slid an inch to the left.</li><li>Nobody at the office mentioned the <em>toupee</em>.</li><li>The store sold wigs and <em>toupees</em> in the back.</li></ol>
+<hr>
+<h3 id="blow-dryer">blow dryer<a class="hash" href="#blow-dryer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbloʊ ˌdraɪrr/ &middot; <em>BLOH dry-ur</em></dd><dt>Русский</dt><dd>фен</dd><dt>Plural</dt><dd><em>blow dryers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Also called a <em>hair dryer</em>; the two mean exactly the same thing.</dd></dl>
+<p>An electric device that blows hot air to dry and style hair.</p>
+<ol><li>The <em>blow dryer</em> tripped the bathroom breaker.</li><li>She never travels without a <em>blow dryer</em>.</li><li>The hotel had <em>blow dryers</em> mounted on the wall.</li></ol>
+<hr>
+<h3 id="blowout">blowout<a class="hash" href="#blowout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbloʊaʊt/ &middot; <em>BLOH-owt</em></dd><dt>Русский</dt><dd>укладка феном</dd><dt>Plural</dt><dd><em>blowouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A salon service in which the hair is washed and dried smooth with a brush and dryer.</p>
+<ol><li>She got a <em>blowout</em> before the interview.</li><li>A <em>blowout</em> lasts me about three days.</li><li>That place does <em>blowouts</em> for forty dollars.</li></ol>
+<hr>
+<h3 id="curling-iron">curling iron<a class="hash" href="#curling-iron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrlɪŋ ˌaɪrrn/ &middot; <em>KUR-ling EYE-urn</em></dd><dt>Русский</dt><dd>плойка</dd><dt>Plural</dt><dd><em>curling irons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Iron</em> is said EYE-urn, not "i-RON".</dd></dl>
+<p>A heated rod used to put curls into hair.</p>
+<ol><li>She burned her finger on the <em>curling iron</em>.</li><li>Leave the <em>curling iron</em> out to cool before you pack it.</li><li>The drawer is full of old <em>curling irons</em>.</li></ol>
+<hr>
+<h3 id="flat-iron">flat iron<a class="hash" href="#flat-iron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflæt ˌaɪrrn/ &middot; <em>FLAT EYE-urn</em></dd><dt>Русский</dt><dd>утюжок для волос</dd><dt>Plural</dt><dd><em>flat irons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British English calls this pair of tools <em>hair straighteners</em>, always plural.</dd></dl>
+<p>A heated tool with two flat plates that presses hair straight.</p>
+<ol><li>She runs a <em>flat iron</em> over her bangs every morning.</li><li>Don't use a <em>flat iron</em> on wet hair.</li><li>Cheap <em>flat irons</em> have hot spots that scorch the ends.</li></ol>
+<hr>
+<h3 id="straightener">straightener<a class="hash" href="#straightener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstreɪtənər/ &middot; <em>STRAY-tuh-nur</em></dd><dt>Русский</dt><dd>выпрямитель для волос</dd><dt>Plural</dt><dd><em>straighteners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The gh in <em>straight</em> is silent: STRAY-tuh-nur.</dd></dl>
+<p>A heated tool or product used to make curly hair straight.</p>
+<ol><li>She left the <em>straightener</em> plugged in all day.</li><li>A ceramic <em>straightener</em> is gentler on your hair.</li><li>The suitcase had two <em>straighteners</em> in it.</li></ol>
+<hr>
+<h3 id="curler">curler<a class="hash" href="#curler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrlər/ &middot; <em>KUR-lur</em></dd><dt>Русский</dt><dd>бигуди (одна штука)</dd><dt>Plural</dt><dd><em>curlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small tube that hair is rolled around to make it curl.</p>
+<ol><li>She slept in <em>curlers</em> the night before.</li><li>One <em>curler</em> was still stuck in the back of her hair.</li><li>He found <em>curlers</em> all over the bathroom counter.</li></ol>
+<hr>
+<h3 id="trimmer">trimmer<a class="hash" href="#trimmer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrɪmər/ &middot; <em>TRIM-ur</em></dd><dt>Русский</dt><dd>триммер (машинка для стрижки)</dd><dt>Plural</dt><dd><em>trimmers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small electric tool for cutting hair or beard to an even length.</p>
+<ol><li>He tidies up his beard with a <em>trimmer</em>.</li><li>The <em>trimmer</em> needs charging again.</li><li>The kit came with two <em>trimmers</em> and four guards.</li></ol>
+<hr>
+<h3 id="bobby-pin">bobby pin<a class="hash" href="#bobby-pin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːbi pɪn/ &middot; <em>BAH-bee pin</em></dd><dt>Русский</dt><dd>невидимка (заколка)</dd><dt>Plural</dt><dd><em>bobby pins</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British English calls it a <em>hairgrip</em> or <em>kirby grip</em>.</dd></dl>
+<p>A small flat metal pin that holds hair in place.</p>
+<ol><li>There's a <em>bobby pin</em> under the couch cushion.</li><li>She held twenty <em>bobby pins</em> in her teeth.</li><li>One <em>bobby pin</em> is holding that whole hairstyle together.</li></ol>
+<hr>
+<h3 id="hairpin">hairpin<a class="hash" href="#hairpin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrpɪn/ &middot; <em>HAIR-pin</em></dd><dt>Русский</dt><dd>шпилька</dd><dt>Plural</dt><dd><em>hairpins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin U-shaped pin used to hold hair up.</p>
+<ol><li>She pushed a <em>hairpin</em> into the bun.</li><li>The <em>hairpins</em> came out one by one all evening.</li><li>He found a <em>hairpin</em> in the car seat.</li></ol>
+<hr>
+<h3 id="hair-tie">hair tie<a class="hash" href="#hair-tie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr taɪ/ &middot; <em>HAIR ty</em></dd><dt>Русский</dt><dd>резинка для волос</dd><dt>Plural</dt><dd><em>hair ties</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small elastic band used to hold hair back.</p>
+<ol><li>Do you have an extra <em>hair tie</em>?</li><li>She keeps a <em>hair tie</em> on her wrist.</li><li><em>Hair ties</em> disappear faster than socks.</li></ol>
+<hr>
+<h3 id="hair-clip">hair clip<a class="hash" href="#hair-clip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr klɪp/ &middot; <em>HAIR klip</em></dd><dt>Русский</dt><dd>заколка для волос</dd><dt>Plural</dt><dd><em>hair clips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small fastener that holds a section of hair in place.</p>
+<ol><li>She pinned her bangs back with a <em>hair clip</em>.</li><li>The <em>hair clip</em> snapped in half.</li><li>There were <em>hair clips</em> scattered across the counter.</li></ol>
+<hr>
+<h3 id="claw-clip">claw clip<a class="hash" href="#claw-clip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɔː klɪp/ &middot; <em>KLAW klip</em></dd><dt>Русский</dt><dd>заколка-крабик</dd><dt>Plural</dt><dd><em>claw clips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large hinged clip with teeth that grips a twist of hair.</p>
+<ol><li>She twisted her hair up and grabbed a <em>claw clip</em>.</li><li>That <em>claw clip</em> holds thick hair better than a band.</li><li><em>Claw clips</em> came back in style out of nowhere.</li></ol>
+<hr>
+<h3 id="hairnet">hairnet<a class="hash" href="#hairnet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛrnɛt/ &middot; <em>HAIR-net</em></dd><dt>Русский</dt><dd>сетка для волос</dd><dt>Plural</dt><dd><em>hairnets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fine net worn over the hair to keep it in place or out of food.</p>
+<ol><li>Everyone in the kitchen wears a <em>hairnet</em>.</li><li>The <em>hairnet</em> flattened her curls.</li><li>The box of <em>hairnets</em> is above the sink.</li></ol>
+<hr>
+<h3 id="bristle">bristle<a class="hash" href="#bristle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɪsəl/ &middot; <em>BRIS-uhl</em></dd><dt>Русский</dt><dd>щетинка (волосок щётки)</dd><dt>Plural</dt><dd><em>bristles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t is silent: BRIS-uhl, like <em>whistle</em>.</dd></dl>
+<p>One of the short stiff hairs on a brush.</p>
+<ol><li>The <em>bristles</em> on this brush are too soft.</li><li>A boar <em>bristle</em> brush smooths the hair down.</li><li>One <em>bristle</em> had bent sideways.</li></ol>
+<hr>
+<h3 id="gel">gel<a class="hash" href="#gel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒɛl/ &middot; <em>JEL</em></dd><dt>Русский</dt><dd>гель (для укладки)</dd><dt>Plural</dt><dd><em>gels</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A thick clear substance rubbed into hair to hold a style.</p>
+<ol><li>He put too much <em>gel</em> in his hair.</li><li>This <em>gel</em> dries hard and flakes.</li><li>The shelf was full of <em>gels</em> and mousses.</li></ol>
+<hr>
+<h3 id="mousse">mousse<a class="hash" href="#mousse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/muːs/ &middot; <em>MOOS</em></dd><dt>Русский</dt><dd>мусс (для волос)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>moose</em>, the animal.</dd></dl>
+<p>A light foam worked into hair to give it body and hold.</p>
+<ol><li>She works <em>mousse</em> through her hair while it's damp.</li><li>A little <em>mousse</em> keeps the curls from falling.</li><li>The can of <em>mousse</em> was almost empty.</li></ol>
+<hr>
+<h3 id="pomade">pomade<a class="hash" href="#pomade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/poʊˈmeɪd/ &middot; <em>poh-MAYD</em></dd><dt>Русский</dt><dd>помада для волос, бриолин</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>False friend: Russian помада is <em>lipstick</em>; English <em>pomade</em> is only for hair.</dd></dl>
+<p>A greasy or waxy product used to slick hair down and make it shine.</p>
+<ol><li>He combs <em>pomade</em> through his hair every morning.</li><li>That <em>pomade</em> smells like an old barbershop.</li><li>A tin of <em>pomade</em> lasts about six months.</li></ol>
+<hr>
+<h3 id="dry-shampoo">dry shampoo<a class="hash" href="#dry-shampoo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdraɪ ʃæmˈpuː/ &middot; <em>dry sham-POO</em></dd><dt>Русский</dt><dd>сухой шампунь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Shampoo</em> is stressed on the last syllable: sham-POO.</dd></dl>
+<p>A powder or spray that soaks up oil so hair looks clean without washing.</p>
+<ol><li><em>Dry shampoo</em> got me through the whole trip.</li><li>She keeps <em>dry shampoo</em> in her gym bag.</li><li>Too much <em>dry shampoo</em> leaves a white cast.</li></ol>
+<hr>
+<h3 id="hair-mask">hair mask<a class="hash" href="#hair-mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr mæsk/ &middot; <em>HAIR mask</em></dd><dt>Русский</dt><dd>маска для волос</dd><dt>Plural</dt><dd><em>hair masks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick conditioning treatment left on the hair for several minutes.</p>
+<ol><li>She uses a <em>hair mask</em> once a week.</li><li>Leave the <em>hair mask</em> on for ten minutes.</li><li>The store had <em>hair masks</em> on sale.</li></ol>
+<hr>
+<h3 id="hair-color">hair color<a class="hash" href="#hair-color" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr ˌkʌlər/ &middot; <em>HAIR kuh-lur</em></dd><dt>Русский</dt><dd>краска для волос</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>color</em>, British <em>colour</em>.</dd></dl>
+<p>Dye used to change the shade of someone's hair.</p>
+<ol><li>She buys her <em>hair color</em> at the drugstore.</li><li>The <em>hair color</em> washed out in three weeks.</li><li>Don't put <em>hair color</em> on freshly washed hair.</li></ol>
+<hr>
+<h3 id="highlights">highlights<a class="hash" href="#highlights" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪlaɪts/ &middot; <em>HY-lyts</em></dd><dt>Русский</dt><dd>мелирование</dd><dt>Plural</dt><dd><em>highlights</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In the hair sense the word is nearly always plural: <em>highlights</em>.</dd></dl>
+<p>Lighter streaks put into the hair with color or bleach.</p>
+<ol><li>She got <em>highlights</em> around her face.</li><li>The <em>highlights</em> have grown out an inch.</li><li><em>Highlights</em> take twice as long as a single color.</li></ol>
+<hr>
+<h3 id="lowlights">lowlights<a class="hash" href="#lowlights" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊlaɪts/ &middot; <em>LOH-lyts</em></dd><dt>Русский</dt><dd>тёмное мелирование</dd><dt>Plural</dt><dd><em>lowlights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Darker streaks put into the hair to add depth.</p>
+<ol><li>She added <em>lowlights</em> to break up the blonde.</li><li>The <em>lowlights</em> made her hair look thicker.</li><li><em>Lowlights</em> are cheaper than a full color.</li></ol>
+<hr>
+<h3 id="peroxide">peroxide<a class="hash" href="#peroxide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pəˈrɑːksaɪd/ &middot; <em>puh-RAHK-syd</em></dd><dt>Русский</dt><dd>перекись водорода (для осветления волос)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A chemical liquid used to bleach hair lighter.</p>
+<ol><li>She lightened her hair with <em>peroxide</em> in high school.</li><li>Too much <em>peroxide</em> will fry your ends.</li><li>The whole bathroom smelled like <em>peroxide</em>.</li></ol>
+<hr>
+<h3 id="relaxer">relaxer<a class="hash" href="#relaxer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈlæksər/ &middot; <em>rih-LAK-sur</em></dd><dt>Русский</dt><dd>средство для химического выпрямления волос</dd><dt>Plural</dt><dd><em>relaxers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A chemical treatment that straightens tightly curled hair.</p>
+<ol><li>She stopped using a <em>relaxer</em> and grew out her natural hair.</li><li>A <em>relaxer</em> has to be touched up every few months.</li><li>Some <em>relaxers</em> burn the scalp if you leave them on too long.</li></ol>
+<hr>
+<h3 id="lather">lather<a class="hash" href="#lather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæðər/ &middot; <em>LA-thur</em></dd><dt>Русский</dt><dd>мыльная пена</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The th is voiced, as in <em>father</em>: LA-thur.</dd></dl>
+<p>The white foam that soap or shampoo makes with water.</p>
+<ol><li>This shampoo hardly makes any <em>lather</em>.</li><li>He rinsed the <em>lather</em> off his face.</li><li>Work the <em>lather</em> into your scalp for a minute.</li></ol>
+<hr>
+<h3 id="rinse">rinse<a class="hash" href="#rinse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪns/ &middot; <em>RINS</em></dd><dt>Русский</dt><dd>ополаскивание, ополаскиватель</dd><dt>Plural</dt><dd><em>rinses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A quick wash with water, or a light product used after shampooing.</p>
+<ol><li>Give it one more <em>rinse</em> to get the conditioner out.</li><li>She uses a vinegar <em>rinse</em> once a month.</li><li>Two <em>rinses</em> and the color still ran.</li></ol>
+<hr>
+<h3 id="hair-care">hair care<a class="hash" href="#hair-care" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr kɛr/ &middot; <em>HAIR kair</em></dd><dt>Русский</dt><dd>уход за волосами</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The washing, conditioning, and treatment of hair.</p>
+<ol><li>The whole aisle is <em>hair care</em>.</li><li>Her <em>hair care</em> routine takes twenty minutes.</li><li>He spends nothing on <em>hair care</em>.</li></ol>
+<hr>
+<h3 id="shave">shave<a class="hash" href="#shave" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃeɪv/ &middot; <em>SHAYV</em></dd><dt>Русский</dt><dd>бритьё</dd><dt>Plural</dt><dd><em>shaves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An act of cutting the hair off the face or body with a razor.</p>
+<ol><li>He went in for a haircut and a <em>shave</em>.</li><li>That's the closest <em>shave</em> I've had in years.</li><li>Two <em>shaves</em> a week is enough for him.</li></ol>
+<hr>
+<h3 id="shaving-cream">shaving cream<a class="hash" href="#shaving-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃeɪvɪŋ kriːm/ &middot; <em>SHAY-ving kreem</em></dd><dt>Русский</dt><dd>крем для бритья</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A foam or cream spread on the skin to make shaving easier.</p>
+<ol><li>We're out of <em>shaving cream</em> again.</li><li>He put <em>shaving cream</em> on and then the phone rang.</li><li>A can of <em>shaving cream</em> lasts him two months.</li></ol>
+<hr>
+<h3 id="razor-blade">razor blade<a class="hash" href="#razor-blade" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪzər bleɪd/ &middot; <em>RAY-zur blayd</em></dd><dt>Русский</dt><dd>лезвие для бритвы</dd><dt>Plural</dt><dd><em>razor blades</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin sharp piece of metal in a razor.</p>
+<ol><li>The <em>razor blade</em> is dull, so it pulls.</li><li>Change the <em>razor blade</em> every week or so.</li><li>A pack of <em>razor blades</em> costs more than the razor.</li></ol>
+<hr>
+<h3 id="straight-razor">straight razor<a class="hash" href="#straight-razor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstreɪt ˈreɪzər/ &middot; <em>strayt RAY-zur</em></dd><dt>Русский</dt><dd>опасная бритва</dd><dt>Plural</dt><dd><em>straight razors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A razor with one long blade that folds into its handle.</p>
+<ol><li>The barber finished the neckline with a <em>straight razor</em>.</li><li>He learned to shave with a <em>straight razor</em>.</li><li>Old <em>straight razors</em> have to be sharpened on a strap.</li></ol>
+<hr>
+<h3 id="shaver">shaver<a class="hash" href="#shaver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃeɪvər/ &middot; <em>SHAY-vur</em></dd><dt>Русский</dt><dd>электробритва</dd><dt>Plural</dt><dd><em>shavers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An electric device for shaving hair off the face or body.</p>
+<ol><li>He shaves in the car with a battery <em>shaver</em>.</li><li>The <em>shaver</em> died halfway through.</li><li>They sell <em>shavers</em> and trimmers in the same aisle.</li></ol>
+<hr>
+<h3 id="razor-burn">razor burn<a class="hash" href="#razor-burn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪzər bɜːrn/ &middot; <em>RAY-zur burn</em></dd><dt>Русский</dt><dd>раздражение после бритья</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Red, irritated skin caused by shaving.</p>
+<ol><li>He gets <em>razor burn</em> on his neck every time.</li><li>A sharp blade and warm water help with <em>razor burn</em>.</li><li>Her legs were covered in <em>razor burn</em>.</li></ol>
+<hr>
+<h3 id="nick">nick<a class="hash" href="#nick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/nɪk/ &middot; <em>NIK</em></dd><dt>Русский</dt><dd>порез (при бритье)</dd><dt>Plural</dt><dd><em>nicks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small cut in the skin, especially one made while shaving.</p>
+<ol><li>He had a <em>nick</em> on his chin from shaving.</li><li>One <em>nick</em> and the whole sink turns pink.</li><li>There were two <em>nicks</em> along his jaw.</li></ol>
+<hr>
+<h3 id="goatee">goatee<a class="hash" href="#goatee" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡoʊˈtiː/ &middot; <em>goh-TEE</em></dd><dt>Русский</dt><dd>эспаньолка, бородка клинышком</dd><dt>Plural</dt><dd><em>goatees</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress falls on the second syllable: goh-TEE.</dd></dl>
+<p>A small pointed beard on the chin.</p>
+<ol><li>He grew a <em>goatee</em> over the winter.</li><li>The <em>goatee</em> is coming in gray.</li><li>Half the band had <em>goatees</em>.</li></ol>
+<hr>
+<h3 id="makeover">makeover<a class="hash" href="#makeover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪkˌoʊvər/ &middot; <em>MAYK-oh-vur</em></dd><dt>Русский</dt><dd>смена имиджа, преображение</dd><dt>Plural</dt><dd><em>makeovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A complete change of someone's hair, makeup, and clothes.</p>
+<ol><li>Her sister gave her a <em>makeover</em> before the party.</li><li>The show does a <em>makeover</em> in every episode.</li><li>Free <em>makeovers</em> at the cosmetics counter bring people in.</li></ol>
+<hr>
+<h3 id="primer">primer<a class="hash" href="#primer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪmər/ &middot; <em>PRY-mur</em></dd><dt>Русский</dt><dd>праймер, база под макияж</dd><dt>Plural</dt><dd><em>primers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>The makeup sense is PRY-mur; the beginner's schoolbook called a <em>primer</em> is PRIM-ur in the US.</dd></dl>
+<p>A cream put on the skin before makeup so it goes on smoothly and lasts.</p>
+<ol><li>A little <em>primer</em> keeps her foundation from sliding.</li><li>This <em>primer</em> fills in large pores.</li><li>She tried four <em>primers</em> before finding one she liked.</li></ol>
+<hr>
+<h3 id="bronzer">bronzer<a class="hash" href="#bronzer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbrɑːnzər/ &middot; <em>BRAHN-zur</em></dd><dt>Русский</dt><dd>бронзер (пудра для эффекта загара)</dd><dt>Plural</dt><dd><em>bronzers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A powder or cream that gives the skin a warm, tanned look.</p>
+<ol><li>A sweep of <em>bronzer</em> along the cheekbones is enough.</li><li>He wore too much <em>bronzer</em> on camera.</li><li>The brand makes <em>bronzers</em> in four shades.</li></ol>
+<hr>
+<h3 id="lip-gloss">lip gloss<a class="hash" href="#lip-gloss" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪp ɡlɔːs/ &middot; <em>LIP glaws</em></dd><dt>Русский</dt><dd>блеск для губ</dd><dt>Plural</dt><dd><em>lip glosses</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A shiny, often sticky product worn on the lips.</p>
+<ol><li>She reapplied her <em>lip gloss</em> in the elevator.</li><li><em>Lip gloss</em> and wind are a bad combination.</li><li>There were three <em>lip glosses</em> melting in the car.</li></ol>
+<hr>
+<h3 id="lip-balm">lip balm<a class="hash" href="#lip-balm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪp bɑːm/ &middot; <em>LIP bahm</em></dd><dt>Русский</dt><dd>бальзам для губ, гигиеническая помада</dd><dt>Plural</dt><dd><em>lip balms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l in <em>balm</em> is silent: BAHM.</dd></dl>
+<p>A waxy stick or pot used to soften dry lips.</p>
+<ol><li>I lose a <em>lip balm</em> every week.</li><li>He keeps <em>lip balm</em> in his coat pocket all winter.</li><li>The drugstore had a whole rack of <em>lip balms</em>.</li></ol>
+<hr>
+<h3 id="lip-liner">lip liner<a class="hash" href="#lip-liner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪp ˌlaɪnər/ &middot; <em>LIP ly-nur</em></dd><dt>Русский</dt><dd>карандаш для контура губ</dd><dt>Plural</dt><dd><em>lip liners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pencil used to draw an outline around the lips.</p>
+<ol><li>She outlines with <em>lip liner</em> first.</li><li>The <em>lip liner</em> was two shades too dark.</li><li>Her makeup bag had five <em>lip liners</em> in it.</li></ol>
+<hr>
+<h3 id="brow">brow<a class="hash" href="#brow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/braʊ/ &middot; <em>BROW</em></dd><dt>Русский</dt><dd>бровь</dd><dt>Plural</dt><dd><em>brows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Rhymes with <em>cow</em>, not with <em>low</em>.</dd></dl>
+<p>An eyebrow, especially as something that is shaped and made up.</p>
+<ol><li>She gets her <em>brows</em> waxed every month.</li><li>One <em>brow</em> is higher than the other.</li><li>Thick <em>brows</em> came back in fashion.</li></ol>
+<hr>
+<h3 id="eyebrow-pencil">eyebrow pencil<a class="hash" href="#eyebrow-pencil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪbraʊ ˌpɛnsəl/ &middot; <em>EYE-brow pen-suhl</em></dd><dt>Русский</dt><dd>карандаш для бровей</dd><dt>Plural</dt><dd><em>eyebrow pencils</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pencil used to darken and shape the eyebrows.</p>
+<ol><li>She fills in the gaps with an <em>eyebrow pencil</em>.</li><li>The <em>eyebrow pencil</em> broke in her purse.</li><li>They sell <em>eyebrow pencils</em> in six shades.</li></ol>
+<hr>
+<h3 id="lash">lash<a class="hash" href="#lash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læʃ/ &middot; <em>LASH</em></dd><dt>Русский</dt><dd>ресница</dd><dt>Plural</dt><dd><em>lashes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the hairs growing along the edge of the eyelid.</p>
+<ol><li>She has a <em>lash</em> in her eye.</li><li>Two coats of mascara and her <em>lashes</em> looked twice as long.</li><li>The glue holds the false <em>lashes</em> for about a week.</li></ol>
+<hr>
+<h3 id="eyelash-curler">eyelash curler<a class="hash" href="#eyelash-curler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlæʃ ˌkɜːrlər/ &middot; <em>EYE-lash kur-lur</em></dd><dt>Русский</dt><dd>щипцы для завивки ресниц</dd><dt>Plural</dt><dd><em>eyelash curlers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small metal tool that bends the eyelashes upward.</p>
+<ol><li>She uses an <em>eyelash curler</em> before mascara.</li><li>The <em>eyelash curler</em> pinched her eyelid.</li><li>Airport security never questions <em>eyelash curlers</em>.</li></ol>
+<hr>
+<h3 id="setting-spray">setting spray<a class="hash" href="#setting-spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛtɪŋ spreɪ/ &middot; <em>SET-ing spray</em></dd><dt>Русский</dt><dd>фиксирующий спрей для макияжа</dd><dt>Plural</dt><dd><em>setting sprays</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A mist sprayed over finished makeup to keep it in place.</p>
+<ol><li>A little <em>setting spray</em> and her makeup lasted all night.</li><li>The <em>setting spray</em> smells like alcohol.</li><li>She tested three <em>setting sprays</em> on the back of her hand.</li></ol>
+<hr>
+<h3 id="contouring">contouring<a class="hash" href="#contouring" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːnˌtʊrɪŋ/ &middot; <em>KAHN-toor-ing</em></dd><dt>Русский</dt><dd>контуринг, скульптурирование лица</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The use of light and dark makeup to make features look sharper.</p>
+<ol><li><em>Contouring</em> takes practice and good light.</li><li>She skips the <em>contouring</em> on a work day.</li><li>Heavy <em>contouring</em> looks strange in daylight.</li></ol>
+<hr>
+<h3 id="powder-puff">powder puff<a class="hash" href="#powder-puff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpaʊdər pʌf/ &middot; <em>POW-dur puf</em></dd><dt>Русский</dt><dd>пуховка для пудры</dd><dt>Plural</dt><dd><em>powder puffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft round pad used to put powder on the face.</p>
+<ol><li>The compact came with a little <em>powder puff</em>.</li><li>She patted her nose with the <em>powder puff</em>.</li><li>The <em>powder puffs</em> need washing.</li></ol>
+<hr>
+<h3 id="makeup-remover">makeup remover<a class="hash" href="#makeup-remover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪkʌp rɪˈmuːvər/ &middot; <em>MAYK-up rih-MOO-vur</em></dd><dt>Русский</dt><dd>средство для снятия макияжа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid or cream used to take makeup off the skin.</p>
+<ol><li>She takes off her mascara with <em>makeup remover</em>.</li><li>We're out of <em>makeup remover</em> again.</li><li><em>Makeup remover</em> on a cotton pad works better than soap.</li></ol>
+<hr>
+<h3 id="cotton-ball">cotton ball<a class="hash" href="#cotton-ball" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːtən bɔːl/ &middot; <em>KAH-tuhn bawl</em></dd><dt>Русский</dt><dd>ватный шарик</dd><dt>Plural</dt><dd><em>cotton balls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small soft ball of cotton used to apply or wipe off liquids.</p>
+<ol><li>She wiped the polish off with a <em>cotton ball</em>.</li><li>There's a jar of <em>cotton balls</em> on the shelf.</li><li>One <em>cotton ball</em> soaks up more than you'd think.</li></ol>
+<hr>
+<h3 id="cotton-swab">cotton swab<a class="hash" href="#cotton-swab" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːtən swɑːb/ &middot; <em>KAH-tuhn swahb</em></dd><dt>Русский</dt><dd>ватная палочка</dd><dt>Plural</dt><dd><em>cotton swabs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>British English says <em>cotton bud</em>.</dd></dl>
+<p>A short stick with cotton on the end, used for cleaning up small areas.</p>
+<ol><li>She fixed the smudged eyeliner with a <em>cotton swab</em>.</li><li>Hand me a <em>cotton swab</em> from the drawer.</li><li>The box of <em>cotton swabs</em> is nearly empty.</li></ol>
+<hr>
+<h3 id="nail-polish">nail polish<a class="hash" href="#nail-polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl ˌpɑːlɪʃ/ &middot; <em>NAYL pah-lish</em></dd><dt>Русский</dt><dd>лак для ногтей</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>British English says <em>nail varnish</em>.</dd></dl>
+<p>Colored liquid painted onto the nails and left to dry hard.</p>
+<ol><li>Her <em>nail polish</em> was chipped on two fingers.</li><li>He knocked over a bottle of <em>nail polish</em>.</li><li><em>Nail polish</em> takes forever to dry in cold weather.</li></ol>
+<hr>
+<h3 id="nail-polish-remover">nail polish remover<a class="hash" href="#nail-polish-remover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl ˌpɑːlɪʃ rɪˈmuːvər/ &middot; <em>NAYL pah-lish rih-MOO-vur</em></dd><dt>Русский</dt><dd>жидкость для снятия лака</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A strong-smelling liquid that dissolves nail polish.</p>
+<ol><li>The whole room smelled of <em>nail polish remover</em>.</li><li>We're out of <em>nail polish remover</em>.</li><li><em>Nail polish remover</em> will take the finish off the table.</li></ol>
+<hr>
+<h3 id="acetone">acetone<a class="hash" href="#acetone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæsəˌtoʊn/ &middot; <em>AS-uh-tohn</em></dd><dt>Русский</dt><dd>ацетон</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The sharp-smelling chemical used to strip nail polish off.</p>
+<ol><li>Pure <em>acetone</em> dries out your cuticles.</li><li>She soaked the tips in <em>acetone</em> to get the gel off.</li><li>The salon smells like <em>acetone</em> all day.</li></ol>
+<hr>
+<h3 id="nail-file">nail file<a class="hash" href="#nail-file" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl faɪl/ &middot; <em>NAYL fyl</em></dd><dt>Русский</dt><dd>пилка для ногтей</dd><dt>Plural</dt><dd><em>nail files</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small rough strip used to shape the edge of a nail.</p>
+<ol><li>Do you have a <em>nail file</em>? I snagged a nail.</li><li>The <em>nail file</em> wore smooth months ago.</li><li>She keeps two <em>nail files</em> in her desk.</li></ol>
+<hr>
+<h3 id="emery-board">emery board<a class="hash" href="#emery-board" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛməri bɔːrd/ &middot; <em>EM-uh-ree bord</em></dd><dt>Русский</dt><dd>наждачная пилочка для ногтей</dd><dt>Plural</dt><dd><em>emery boards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Emery</em> is three syllables: EM-uh-ree.</dd></dl>
+<p>A flat cardboard nail file coated with a rough powder.</p>
+<ol><li>She smoothed the corner with an <em>emery board</em>.</li><li>There's an <em>emery board</em> in the bottom of my purse.</li><li>The salon hands out free <em>emery boards</em>.</li></ol>
+<hr>
+<h3 id="nail-clippers">nail clippers<a class="hash" href="#nail-clippers" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl ˌklɪpərz/ &middot; <em>NAYL klip-urz</em></dd><dt>Русский</dt><dd>щипчики для ногтей, книпсер</dd><dt>Plural</dt><dd><em>nail clippers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural, like <em>scissors</em>: "a pair of <em>nail clippers</em>".</dd></dl>
+<p>A small hinged tool for cutting fingernails and toenails.</p>
+<ol><li>The <em>nail clippers</em> are in the medicine cabinet.</li><li>He cut his nails with borrowed <em>nail clippers</em>.</li><li>Airport security took my <em>nail clippers</em> once.</li></ol>
+<hr>
+<h3 id="cuticle">cuticle<a class="hash" href="#cuticle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkjuːtɪkəl/ &middot; <em>KYOO-tih-kuhl</em></dd><dt>Русский</dt><dd>кутикула</dd><dt>Plural</dt><dd><em>cuticles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The strip of hard skin at the base of a fingernail.</p>
+<ol><li>Don't cut the <em>cuticle</em> — push it back.</li><li>Winter leaves her <em>cuticles</em> cracked.</li><li>The <em>cuticle</em> on his thumb was bleeding.</li></ol>
+<hr>
+<h3 id="nail-art">nail art<a class="hash" href="#nail-art" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈneɪl ɑːrt/ &middot; <em>NAYL art</em></dd><dt>Русский</dt><dd>нейл-арт, рисунки на ногтях</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Decorative designs painted or stuck onto the nails.</p>
+<ol><li>The <em>nail art</em> took an extra half hour.</li><li>She posts her <em>nail art</em> online.</li><li>Simple <em>nail art</em> is just a dot and a line.</li></ol>
+<hr>
+<h3 id="skincare">skincare<a class="hash" href="#skincare" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɪnkɛr/ &middot; <em>SKIN-kair</em></dd><dt>Русский</dt><dd>уход за кожей</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The products and routine used to keep the skin healthy.</p>
+<ol><li>Her <em>skincare</em> is three steps and that's it.</li><li>He spends more on <em>skincare</em> than on clothes.</li><li>The store moved <em>skincare</em> to the front.</li></ol>
+<hr>
+<h3 id="facial">facial<a class="hash" href="#facial" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪʃəl/ &middot; <em>FAY-shuhl</em></dd><dt>Русский</dt><dd>чистка лица, косметическая процедура для лица</dd><dt>Plural</dt><dd><em>facials</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A salon treatment that cleans and massages the skin of the face.</p>
+<ol><li>She booked a <em>facial</em> for her birthday.</li><li>The <em>facial</em> left my skin red for an hour.</li><li>They offer <em>facials</em> and massages in the same room.</li></ol>
+<hr>
+<h3 id="cleanser">cleanser<a class="hash" href="#cleanser" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklɛnzər/ &middot; <em>KLEN-zur</em></dd><dt>Русский</dt><dd>очищающее средство для лица</dd><dt>Plural</dt><dd><em>cleansers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Said KLEN-zur, with a short e — not "kleen-zur", despite <em>clean</em>.</dd></dl>
+<p>A liquid or cream used to wash the face.</p>
+<ol><li>She switched to a gentler <em>cleanser</em>.</li><li>Use <em>cleanser</em> first, then toner.</li><li>Foaming <em>cleansers</em> dry out my skin.</li></ol>
+<hr>
+<h3 id="toner">toner<a class="hash" href="#toner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊnər/ &middot; <em>TOH-nur</em></dd><dt>Русский</dt><dd>тоник для лица</dd><dt>Plural</dt><dd><em>toners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid wiped on the face after washing to balance the skin.</p>
+<ol><li>She pats <em>toner</em> on with a cotton pad.</li><li>The <em>toner</em> stung a little at first.</li><li>Alcohol-based <em>toners</em> have gone out of style.</li></ol>
+<hr>
+<h3 id="scrub">scrub<a class="hash" href="#scrub" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skrʌb/ &middot; <em>SKRUB</em></dd><dt>Русский</dt><dd>скраб</dd><dt>Plural</dt><dd><em>scrubs</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A gritty cream rubbed on the skin to remove dead cells.</p>
+<ol><li>She uses a sugar <em>scrub</em> twice a week.</li><li>Don't use a <em>scrub</em> on sunburned skin.</li><li>The gift set came with two <em>scrubs</em> and a candle.</li></ol>
+<hr>
+<h3 id="exfoliator">exfoliator<a class="hash" href="#exfoliator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɛksˈfoʊliˌeɪtər/ &middot; <em>eks-FOH-lee-ay-tur</em></dd><dt>Русский</dt><dd>отшелушивающее средство</dd><dt>Plural</dt><dd><em>exfoliators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A product that takes away the dead top layer of skin.</p>
+<ol><li>A gentle <em>exfoliator</em> twice a week is plenty.</li><li>That <em>exfoliator</em> is too harsh for your face.</li><li>The brand makes <em>exfoliators</em> for body and face.</li></ol>
+<hr>
+<h3 id="face-wash">face wash<a class="hash" href="#face-wash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪs wɑːʃ/ &middot; <em>FAYS wahsh</em></dd><dt>Русский</dt><dd>средство для умывания</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soap-like liquid made for washing the face.</p>
+<ol><li>He uses the same <em>face wash</em> his brother buys.</li><li>The <em>face wash</em> runs out faster than the moisturizer.</li><li>A dime-sized drop of <em>face wash</em> is enough.</li></ol>
+<hr>
+<h3 id="face-mask">face mask<a class="hash" href="#face-mask" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfeɪs mæsk/ &middot; <em>FAYS mask</em></dd><dt>Русский</dt><dd>маска для лица</dd><dt>Plural</dt><dd><em>face masks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick treatment spread on the face and left on for a while.</p>
+<ol><li>She put on a <em>face mask</em> and answered the door anyway.</li><li>The clay <em>face mask</em> dried and cracked.</li><li>The drugstore sells single <em>face masks</em> for two dollars.</li></ol>
+<hr>
+<h3 id="eye-cream">eye cream<a class="hash" href="#eye-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪ kriːm/ &middot; <em>EYE kreem</em></dd><dt>Русский</dt><dd>крем для кожи вокруг глаз</dd><dt>Plural</dt><dd><em>eye creams</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A rich cream made for the thin skin around the eyes.</p>
+<ol><li>A tiny jar of <em>eye cream</em> costs sixty dollars.</li><li>She pats <em>eye cream</em> on with her ring finger.</li><li>Most <em>eye creams</em> are just moisturizer in a small pot.</li></ol>
+<hr>
+<h3 id="night-cream">night cream<a class="hash" href="#night-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnaɪt kriːm/ &middot; <em>NYT kreem</em></dd><dt>Русский</dt><dd>ночной крем</dd><dt>Plural</dt><dd><em>night creams</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A rich cream put on the face before bed.</p>
+<ol><li>She puts on <em>night cream</em> before she goes to sleep.</li><li>That <em>night cream</em> is too heavy for summer.</li><li>Most <em>night creams</em> are just thicker moisturizers.</li></ol>
+<hr>
+<h3 id="self-tanner">self-tanner<a class="hash" href="#self-tanner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛlf ˈtænər/ &middot; <em>self-TAN-ur</em></dd><dt>Русский</dt><dd>автозагар (средство)</dd><dt>Plural</dt><dd><em>self-tanners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A lotion that colors the skin darker without the sun.</p>
+<ol><li>She used <em>self-tanner</em> before the trip.</li><li>The <em>self-tanner</em> turned her palms orange.</li><li>Newer <em>self-tanners</em> don't smell as bad.</li></ol>
+<hr>
+<h3 id="spray-tan">spray tan<a class="hash" href="#spray-tan" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspreɪ tæn/ &middot; <em>SPRAY tan</em></dd><dt>Русский</dt><dd>автозагар распылением</dd><dt>Plural</dt><dd><em>spray tans</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tan applied in a salon by spraying color onto the skin.</p>
+<ol><li>She got a <em>spray tan</em> the day before the wedding.</li><li>The <em>spray tan</em> washed off unevenly.</li><li><em>Spray tans</em> last about a week.</li></ol>
+<hr>
+<h3 id="tanning-bed">tanning bed<a class="hash" href="#tanning-bed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtænɪŋ bɛd/ &middot; <em>TAN-ing bed</em></dd><dt>Русский</dt><dd>солярий (кабина)</dd><dt>Plural</dt><dd><em>tanning beds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine with lamps that a person lies in to get a tan.</p>
+<ol><li>She used a <em>tanning bed</em> every winter in college.</li><li>Doctors warn against <em>tanning beds</em>.</li><li>The gym has two <em>tanning beds</em> in the back.</li></ol>
+<hr>
+<h3 id="pimple">pimple<a class="hash" href="#pimple" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪmpəl/ &middot; <em>PIM-puhl</em></dd><dt>Русский</dt><dd>прыщ</dd><dt>Plural</dt><dd><em>pimples</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small raised red spot on the skin.</p>
+<ol><li>He woke up with a <em>pimple</em> on his chin.</li><li>Don't pick at that <em>pimple</em>.</li><li><em>Pimples</em> always show up before something important.</li></ol>
+<hr>
+<h3 id="zit">zit<a class="hash" href="#zit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/zɪt/ &middot; <em>ZIT</em></dd><dt>Русский</dt><dd>прыщ (разговорное)</dd><dt>Plural</dt><dd><em>zits</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An informal word for a pimple.</p>
+<ol><li>I have a giant <em>zit</em> right between my eyes.</li><li>She covered the <em>zit</em> with concealer.</li><li>Teenagers worry about <em>zits</em> more than anything.</li></ol>
+<hr>
+<h3 id="acne">acne<a class="hash" href="#acne" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækni/ &middot; <em>AK-nee</em></dd><dt>Русский</dt><dd>акне, угревая сыпь</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Two syllables: AK-nee, not one.</dd></dl>
+<p>A skin condition that causes many pimples, usually on the face and back.</p>
+<ol><li>He had bad <em>acne</em> through high school.</li><li>The doctor prescribed a cream for her <em>acne</em>.</li><li><em>Acne</em> isn't caused by chocolate.</li></ol>
+<hr>
+<h3 id="blackhead">blackhead<a class="hash" href="#blackhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblækhɛd/ &middot; <em>BLAK-hed</em></dd><dt>Русский</dt><dd>чёрная точка, комедон</dd><dt>Plural</dt><dd><em>blackheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dark plug of oil in a pore.</p>
+<ol><li>She has <em>blackheads</em> across her nose.</li><li>The strip pulled out one big <em>blackhead</em>.</li><li>Squeezing <em>blackheads</em> only makes things worse.</li></ol>
+<hr>
+<h3 id="whitehead">whitehead<a class="hash" href="#whitehead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪthɛd/ &middot; <em>WYT-hed</em></dd><dt>Русский</dt><dd>белый угорь, закрытый комедон</dd><dt>Plural</dt><dd><em>whiteheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small pimple with a white top.</p>
+<ol><li>A <em>whitehead</em> came up overnight.</li><li>She dabbed the <em>whitehead</em> with spot treatment.</li><li>There were two <em>whiteheads</em> along his jaw.</li></ol>
+<hr>
+<h3 id="breakout">breakout<a class="hash" href="#breakout" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbreɪkaʊt/ &middot; <em>BRAYK-owt</em></dd><dt>Русский</dt><dd>высыпание на коже</dd><dt>Plural</dt><dd><em>breakouts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sudden appearance of several pimples at once.</p>
+<ol><li>Stress gives her a <em>breakout</em> every time.</li><li>The new cream caused a <em>breakout</em>.</li><li>He gets <em>breakouts</em> along his hairline.</li></ol>
+<hr>
+<h3 id="collagen">collagen<a class="hash" href="#collagen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːlədʒən/ &middot; <em>KAH-luh-juhn</em></dd><dt>Русский</dt><dd>коллаген</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The protein in skin that keeps it firm and smooth.</p>
+<ol><li>Skin loses <em>collagen</em> as you get older.</li><li>The label promises more <em>collagen</em> in six weeks.</li><li><em>Collagen</em> powder is sold in every drugstore now.</li></ol>
+<hr>
+<h3 id="retinol">retinol<a class="hash" href="#retinol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛtənˌɔːl/ &middot; <em>RET-uh-nawl</em></dd><dt>Русский</dt><dd>ретинол</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A vitamin A cream used to smooth wrinkles and clear the skin.</p>
+<ol><li>She uses <em>retinol</em> at night, never in the morning.</li><li><em>Retinol</em> made his skin peel for a week.</li><li>Start with a low-strength <em>retinol</em>.</li></ol>
+<hr>
+<h3 id="skin-tone">skin tone<a class="hash" href="#skin-tone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskɪn toʊn/ &middot; <em>SKIN tohn</em></dd><dt>Русский</dt><dd>тон кожи</dd><dt>Plural</dt><dd><em>skin tones</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The natural color of a person's skin.</p>
+<ol><li>Pick a foundation that matches your <em>skin tone</em>.</li><li>The lipstick suits her <em>skin tone</em>.</li><li>The brand added twelve new <em>skin tones</em>.</li></ol>
+<hr>
+<h3 id="dark-circles">dark circles<a class="hash" href="#dark-circles" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɑːrk ˈsɜːrkəlz/ &middot; <em>dark SUR-kuhlz</em></dd><dt>Русский</dt><dd>тёмные круги под глазами</dd><dt>Plural</dt><dd><em>dark circles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used in the plural — you say <em>dark circles</em>, not "a dark circle".</dd></dl>
+<p>Shadowy patches of skin under the eyes.</p>
+<ol><li>Concealer hides the <em>dark circles</em> pretty well.</li><li>He's had <em>dark circles</em> since the baby was born.</li><li>No cream really gets rid of <em>dark circles</em>.</li></ol>
+<hr>
+<h3 id="crows-feet">crow's feet<a class="hash" href="#crows-feet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkroʊz fiːt/ &middot; <em>KROHZ feet</em></dd><dt>Русский</dt><dd>гусиные лапки (морщинки у глаз)</dd><dt>Plural</dt><dd><em>crow's feet</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural of <em>foot</em>; the singular <em>crow's foot</em> is almost never used here.</dd></dl>
+<p>The small lines that spread out from the corners of the eyes.</p>
+<ol><li>She's starting to get <em>crow's feet</em> when she smiles.</li><li><em>Crow's feet</em> show up earlier if you don't wear sunscreen.</li><li>The cream is supposed to soften <em>crow's feet</em>.</li></ol>
+<hr>
+<h3 id="beauty-mark">beauty mark<a class="hash" href="#beauty-mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbjuːti mɑːrk/ &middot; <em>BYOO-tee mark</em></dd><dt>Русский</dt><dd>мушка, родинка (как украшение)</dd><dt>Plural</dt><dd><em>beauty marks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small dark spot on the face that is seen as attractive.</p>
+<ol><li>She has a <em>beauty mark</em> above her lip.</li><li>He drew on a <em>beauty mark</em> for the costume.</li><li>Old movie stars painted <em>beauty marks</em> on.</li></ol>
+<hr>
+<h3 id="massage">massage<a class="hash" href="#massage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈsɑːʒ/ &middot; <em>muh-SAHZH</em></dd><dt>Русский</dt><dd>массаж</dd><dt>Plural</dt><dd><em>massages</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans stress the second syllable, muh-SAHZH; the British say MASS-ahzh.</dd></dl>
+<p>The rubbing and pressing of the body to relax the muscles.</p>
+<ol><li>She booked a <em>massage</em> after the flight.</li><li>The scalp <em>massage</em> is the best part of the shampoo.</li><li>The spa offers <em>massages</em> by the half hour.</li></ol>
+<hr>
+<h3 id="waxing">waxing<a class="hash" href="#waxing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwæksɪŋ/ &middot; <em>WAK-sing</em></dd><dt>Русский</dt><dd>восковая депиляция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The removal of body hair by pulling it out with warm wax.</p>
+<ol><li><em>Waxing</em> hurts less than she expected.</li><li>The salon does eyebrow <em>waxing</em> for fifteen dollars.</li><li>She swears by <em>waxing</em> instead of shaving.</li></ol>
+<hr>
+<h3 id="hair-removal">hair removal<a class="hash" href="#hair-removal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛr rɪˌmuːvəl/ &middot; <em>HAIR rih-moo-vuhl</em></dd><dt>Русский</dt><dd>удаление волос, эпиляция</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The taking away of unwanted body hair.</p>
+<ol><li>Laser <em>hair removal</em> takes several sessions.</li><li>The clinic specializes in <em>hair removal</em>.</li><li><em>Hair removal</em> is half of what that salon does.</li></ol>
+<hr>
+<h3 id="threading">threading<a class="hash" href="#threading" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɛdɪŋ/ &middot; <em>THRED-ing</em></dd><dt>Русский</dt><dd>тридинг (удаление волос нитью)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A way of removing hair by rolling a twisted thread over the skin.</p>
+<ol><li>She gets her eyebrows done by <em>threading</em>.</li><li><em>Threading</em> is faster than waxing.</li><li>The kiosk in the mall does <em>threading</em> for ten dollars.</li></ol>
+<hr>
+<h3 id="eyelash-extension">eyelash extension<a class="hash" href="#eyelash-extension" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪlæʃ ɪkˌstɛnʃən/ &middot; <em>EYE-lash ik-sten-shuhn</em></dd><dt>Русский</dt><dd>наращённая ресница; наращивание ресниц</dd><dt>Plural</dt><dd><em>eyelash extensions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An artificial lash glued onto a natural one to make the eyes look fuller.</p>
+<ol><li>She got <em>eyelash extensions</em> for her sister's wedding.</li><li>One <em>eyelash extension</em> had come loose by the end of the night.</li><li><em>Eyelash extensions</em> need a fill every few weeks.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

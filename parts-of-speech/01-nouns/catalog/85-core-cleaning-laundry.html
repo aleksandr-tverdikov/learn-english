@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: cleaning and laundry</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-cleaning-and-laundry">Core vocabulary: cleaning and laundry<a class="hash" href="#core-vocabulary-cleaning-and-laundry" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of cleaning and laundry — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="mess">mess<a class="hash" href="#mess" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mɛs/ &middot; <em>MES</em></dd><dt>Русский</dt><dd>беспорядок, бардак</dd><dt>Plural</dt><dd><em>messes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dirty or untidy state of a place or thing.</p>
+<ol><li>The kitchen was a <em>mess</em> after the party.</li><li>Clean up your <em>mess</em> before you go out.</li><li>The kids make three <em>messes</em> a day.</li></ol>
+<hr>
+<h3 id="clutter">clutter<a class="hash" href="#clutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklʌtər/ &middot; <em>KLUT-ur</em></dd><dt>Русский</dt><dd>хлам, захламлённость</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>a lot of clutter</em>, never <em>a clutter</em> or <em>clutters</em>.</dd></dl>
+<p>A lot of small things lying around where they do not belong.</p>
+<ol><li>The counter disappeared under all the <em>clutter</em>.</li><li>She spent Sunday getting rid of <em>clutter</em>.</li><li>There's too much <em>clutter</em> in this room.</li></ol>
+<hr>
+<h3 id="junk">junk<a class="hash" href="#junk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʒʌŋk/ &middot; <em>JUNGK</em></dd><dt>Русский</dt><dd>хлам, барахло</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>a piece of junk</em>, never <em>a junk</em>.</dd></dl>
+<p>Old things that have no value and should be thrown away.</p>
+<ol><li>The garage is full of <em>junk</em>.</li><li>He hauled a truckload of <em>junk</em> to the dump.</li><li>Most of what she kept was <em>junk</em>.</li></ol>
+<hr>
+<h3 id="vacuum-cleaner">vacuum cleaner<a class="hash" href="#vacuum-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvækjuːm ˌkliːnər/ &middot; <em>VAK-yoom KLEE-nur</em></dd><dt>Русский</dt><dd>пылесос</dd><dt>Plural</dt><dd><em>vacuum cleaners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Vacuum</em> is spelled with two u's — one of the few English words that is.</dd></dl>
+<p>A machine that sucks dust and dirt off floors and carpets.</p>
+<ol><li>The <em>vacuum cleaner</em> is in the hall closet.</li><li>Our old <em>vacuum cleaner</em> finally died.</li><li>They sell <em>vacuum cleaners</em> on the second floor.</li></ol>
+<hr>
+<h3 id="dish-soap">dish soap<a class="hash" href="#dish-soap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃ soʊp/ &middot; <em>DISH-sohp</em></dd><dt>Русский</dt><dd>средство для мытья посуды</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American <em>dish soap</em>; the British say <em>washing-up liquid</em>.</dd></dl>
+<p>Liquid soap made for washing dishes by hand.</p>
+<ol><li>Add a squirt of <em>dish soap</em> to the water.</li><li>We're almost out of <em>dish soap</em>.</li><li><em>Dish soap</em> works fine for handwashing sweaters.</li></ol>
+<hr>
+<h3 id="dish-towel">dish towel<a class="hash" href="#dish-towel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃ ˌtaʊrl/ &middot; <em>DISH TOW-uhl</em></dd><dt>Русский</dt><dd>кухонное полотенце</dd><dt>Plural</dt><dd><em>dish towels</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>dish towel</em>; the British say <em>tea towel</em>.</dd></dl>
+<p>A cloth towel used to dry dishes and hands in the kitchen.</p>
+<ol><li>Dry that pan with a <em>dish towel</em>.</li><li>The <em>dish towel</em> is hanging on the oven handle.</li><li>She keeps clean <em>dish towels</em> in the top drawer.</li></ol>
+<hr>
+<h3 id="dishcloth">dishcloth<a class="hash" href="#dishcloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃklɔːθ/ &middot; <em>DISH-klawth</em></dd><dt>Русский</dt><dd>тряпка для мытья посуды</dd><dt>Plural</dt><dd><em>dishcloths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small cloth used to wash dishes and wipe counters.</p>
+<ol><li>Wring out the <em>dishcloth</em> and hang it up.</li><li>That <em>dishcloth</em> smells — throw it in the wash.</li><li>She knits her own <em>dishcloths</em>.</li></ol>
+<hr>
+<h3 id="cleaner">cleaner<a class="hash" href="#cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnər/ &middot; <em>KLEE-nur</em></dd><dt>Русский</dt><dd>чистящее средство</dd><dt>Plural</dt><dd><em>cleaners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd><em>Cleaner</em> is also the person who cleans: <em>the cleaner comes Fridays</em>.</dd></dl>
+<p>A liquid or powder made for cleaning a particular surface.</p>
+<ol><li>Spray the <em>cleaner</em> on and let it sit a minute.</li><li>This <em>cleaner</em> is safe on granite.</li><li>The store carries a dozen different bathroom <em>cleaners</em>.</li></ol>
+<hr>
+<h3 id="wash">wash<a class="hash" href="#wash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɑːʃ/ &middot; <em>WAHSH</em></dd><dt>Русский</dt><dd>стирка; мойка</dd><dt>Plural</dt><dd><em>washes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say <em>in the wash</em>; the British say <em>in the washing</em>.</dd></dl>
+<p>One cleaning of something with water, or the clothes being washed.</p>
+<ol><li>My jeans are in the <em>wash</em>.</li><li>The car could use a <em>wash</em>.</li><li>The color faded after three <em>washes</em>.</li></ol>
+<hr>
+<h3 id="laundry-room">laundry room<a class="hash" href="#laundry-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri ˌruːm/ &middot; <em>LAWN-dree ROOM</em></dd><dt>Русский</dt><dd>постирочная (комната со стиральной машиной)</dd><dt>Plural</dt><dd><em>laundry rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The room in a house or building where clothes are washed.</p>
+<ol><li>The washer and dryer are in the <em>laundry room</em>.</li><li>Our building has a <em>laundry room</em> in the basement.</li><li>Newer apartments here have their own <em>laundry rooms</em>.</li></ol>
+<hr>
+<h3 id="ironing-board">ironing board<a class="hash" href="#ironing-board" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaɪrrnɪŋ bɔːrd/ &middot; <em>EYE-ur-ning BORD</em></dd><dt>Русский</dt><dd>гладильная доска</dd><dt>Plural</dt><dd><em>ironing boards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Iron</em> is said EYE-urn — the r comes before the n, not after.</dd></dl>
+<p>A padded folding table you press clothes on.</p>
+<ol><li>Set up the <em>ironing board</em> by the window.</li><li>The <em>ironing board</em> lives behind the door.</li><li>Hotel rooms usually have <em>ironing boards</em> in the closet.</li></ol>
+<hr>
+<h3 id="dry-cleaner">dry cleaner<a class="hash" href="#dry-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdraɪ ˈkliːnər/ &middot; <em>dry-KLEE-nur</em></dd><dt>Русский</dt><dd>химчистка (заведение)</dd><dt>Plural</dt><dd><em>dry cleaners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say both <em>at the dry cleaner</em> and <em>at the dry cleaner's</em>.</dd></dl>
+<p>A shop that cleans clothes with chemicals instead of water.</p>
+<ol><li>My suit is at the <em>dry cleaner</em>.</li><li>There's a <em>dry cleaner</em> two doors down from the bank.</li><li>Both <em>dry cleaners</em> in town closed last year.</li></ol>
+<hr>
+<h3 id="dry-cleaning">dry cleaning<a class="hash" href="#dry-cleaning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdraɪ ˈkliːnɪŋ/ &middot; <em>dry-KLEE-ning</em></dd><dt>Русский</dt><dd>химчистка (услуга, процесс)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of cleaning clothes with a chemical solvent.</p>
+<ol><li>This coat needs <em>dry cleaning</em>.</li><li><em>Dry cleaning</em> costs more every year.</li><li>Can you pick up the <em>dry cleaning</em> on your way home?</li></ol>
+<hr>
+<h3 id="wash-cycle">wash cycle<a class="hash" href="#wash-cycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɑːʃ ˌsaɪkəl/ &middot; <em>WAHSH SY-kuhl</em></dd><dt>Русский</dt><dd>режим стирки</dd><dt>Plural</dt><dd><em>wash cycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One complete run of a washing machine from filling to draining.</p>
+<ol><li>The <em>wash cycle</em> takes about fifty minutes.</li><li>Use the gentle <em>wash cycle</em> for that sweater.</li><li>The machine has eight <em>wash cycles</em> and I use two.</li></ol>
+<hr>
+<h3 id="spin-cycle">spin cycle<a class="hash" href="#spin-cycle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspɪn ˌsaɪkəl/ &middot; <em>SPIN SY-kuhl</em></dd><dt>Русский</dt><dd>режим отжима</dd><dt>Plural</dt><dd><em>spin cycles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the wash when the drum spins fast to squeeze out water.</p>
+<ol><li>The whole house shakes during the <em>spin cycle</em>.</li><li>Skip the <em>spin cycle</em> on anything with lace.</li><li>Slow <em>spin cycles</em> are gentler on knits.</li></ol>
+<hr>
+<h3 id="whites">whites<a class="hash" href="#whites" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/waɪts/ &middot; <em>WYTS</em></dd><dt>Русский</dt><dd>белое бельё</dd><dt>Plural</dt><dd><em>whites</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In laundry this word is always plural: <em>the whites</em>.</dd></dl>
+<p>The white clothes and sheets washed together in one load.</p>
+<ol><li>Don't put that red shirt in with the <em>whites</em>.</li><li>She bleaches the <em>whites</em> every other week.</li><li>The <em>whites</em> go in on hot.</li></ol>
+<hr>
+<h3 id="delicates">delicates<a class="hash" href="#delicates" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛlɪkəts/ &middot; <em>DEL-ih-kuts</em></dd><dt>Русский</dt><dd>деликатные вещи (тонкое бельё)</dd><dt>Plural</dt><dd><em>delicates</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural as a noun: <em>the delicates</em>.</dd></dl>
+<p>Thin or fragile clothes that need a gentle wash.</p>
+<ol><li>Put the <em>delicates</em> in a mesh bag.</li><li>There's a separate setting for <em>delicates</em>.</li><li>She washes her <em>delicates</em> by hand.</li></ol>
+<hr>
+<h3 id="lint-roller">lint roller<a class="hash" href="#lint-roller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪnt ˌroʊlər/ &middot; <em>LINT ROH-lur</em></dd><dt>Русский</dt><dd>ролик для чистки одежды</dd><dt>Plural</dt><dd><em>lint rollers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sticky roller on a handle for pulling fuzz and hair off clothes.</p>
+<ol><li>Run a <em>lint roller</em> over that jacket.</li><li>I keep a <em>lint roller</em> in my desk because of the cat.</li><li>They sell <em>lint rollers</em> by the register.</li></ol>
+<hr>
+<h3 id="lint-trap">lint trap<a class="hash" href="#lint-trap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪnt træp/ &middot; <em>LINT-trap</em></dd><dt>Русский</dt><dd>фильтр для ворса (в сушилке)</dd><dt>Plural</dt><dd><em>lint traps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The screen in a dryer that catches fuzz from the clothes.</p>
+<ol><li>Clean the <em>lint trap</em> before every load.</li><li>The <em>lint trap</em> was packed solid.</li><li>Clogged <em>lint traps</em> start a lot of house fires.</li></ol>
+<hr>
+<h3 id="drying-rack">drying rack<a class="hash" href="#drying-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdraɪɪŋ ræk/ &middot; <em>DRY-ing RAK</em></dd><dt>Русский</dt><dd>сушилка для белья</dd><dt>Plural</dt><dd><em>drying racks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A folding frame you hang wet clothes on to dry indoors.</p>
+<ol><li>Her sweaters are on the <em>drying rack</em>.</li><li>Set up the <em>drying rack</em> by the radiator.</li><li>The <em>drying racks</em> take up half the balcony.</li></ol>
+<hr>
+<h3 id="laundry-bag">laundry bag<a class="hash" href="#laundry-bag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri bæɡ/ &middot; <em>LAWN-dree BAG</em></dd><dt>Русский</dt><dd>мешок для белья</dd><dt>Plural</dt><dd><em>laundry bags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth or mesh bag for carrying or protecting dirty clothes.</p>
+<ol><li>He hauled a <em>laundry bag</em> down to the basement.</li><li>Wash the bras in a mesh <em>laundry bag</em>.</li><li>Students show up with <em>laundry bags</em> every Sunday.</li></ol>
+<hr>
+<h3 id="laundry-chute">laundry chute<a class="hash" href="#laundry-chute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɔːndri ʃuːt/ &middot; <em>LAWN-dree SHOOT</em></dd><dt>Русский</dt><dd>жёлоб для белья (в доме)</dd><dt>Plural</dt><dd><em>laundry chutes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Chute</em> is pronounced exactly like <em>shoot</em>.</dd></dl>
+<p>A shaft in a house that drops dirty clothes to the floor below.</p>
+<ol><li>Just toss the towels down the <em>laundry chute</em>.</li><li>The old house has a <em>laundry chute</em> in the hallway.</li><li>Builders stopped putting in <em>laundry chutes</em> years ago.</li></ol>
+<hr>
+<h3 id="dirty-laundry">dirty laundry<a class="hash" href="#dirty-laundry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɜːrti ˈlɔːndri/ &middot; <em>DUR-tee LAWN-dree</em></dd><dt>Русский</dt><dd>грязное бельё</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable, like <em>laundry</em>; it also means private matters made public.</dd></dl>
+<p>Clothes and sheets that are waiting to be washed.</p>
+<ol><li>There's a week of <em>dirty laundry</em> on his floor.</li><li>Sort the <em>dirty laundry</em> before you start.</li><li>He aired the family's <em>dirty laundry</em> in front of everyone.</li></ol>
+<hr>
+<h3 id="static-cling">static cling<a class="hash" href="#static-cling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstætɪk ˈklɪŋ/ &middot; <em>STAT-ik KLING</em></dd><dt>Русский</dt><dd>электризация ткани, прилипание от статики</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The way dried clothes stick to each other or to the body.</p>
+<ol><li>That skirt has terrible <em>static cling</em> in winter.</li><li>A dryer sheet cuts down on <em>static cling</em>.</li><li><em>Static cling</em> is worse when the air is dry.</li></ol>
+<hr>
+<h3 id="steam-iron">steam iron<a class="hash" href="#steam-iron" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm ˌaɪrrn/ &middot; <em>STEEM EYE-urn</em></dd><dt>Русский</dt><dd>утюг с отпариванием</dd><dt>Plural</dt><dd><em>steam irons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Iron</em> sounds like EYE-urn — the r is said before the n.</dd></dl>
+<p>An iron that pushes hot vapor through cloth to smooth it.</p>
+<ol><li>Fill the <em>steam iron</em> with distilled water.</li><li>A <em>steam iron</em> takes the creases right out.</li><li>They had three <em>steam irons</em> in the back room.</li></ol>
+<hr>
+<h3 id="steamer">steamer<a class="hash" href="#steamer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːmər/ &middot; <em>STEE-mur</em></dd><dt>Русский</dt><dd>отпариватель</dd><dt>Plural</dt><dd><em>steamers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A handheld device that smooths clothes with hot vapor.</p>
+<ol><li>Run the <em>steamer</em> over that jacket before you wear it.</li><li>A <em>steamer</em> is faster than ironing for curtains.</li><li>The shop keeps two <em>steamers</em> by the fitting rooms.</li></ol>
+<hr>
+<h3 id="permanent-press">permanent press<a class="hash" href="#permanent-press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrmənənt ˈprɛs/ &middot; <em>pur-muh-nuhnt-PRES</em></dd><dt>Русский</dt><dd>режим лёгкой глажки (на машине)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A washer or dryer setting that keeps clothes from wrinkling.</p>
+<ol><li>Dry the shirts on <em>permanent press</em>.</li><li><em>Permanent press</em> uses a cooler tumble.</li><li>Put the work pants on <em>permanent press</em> and they come out flat.</li></ol>
+<hr>
+<h3 id="debris">debris<a class="hash" href="#debris" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dəˈbriː/ &middot; <em>duh-BREE</em></dd><dt>Русский</dt><dd>обломки, мусор</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The s is silent, and the word is uncountable: <em>a lot of debris</em>.</dd></dl>
+<p>Loose broken pieces left lying around after damage or use.</p>
+<ol><li>Crews cleared the <em>debris</em> off the highway.</li><li>There was <em>debris</em> all over the yard after the storm.</li><li>Sweep up the <em>debris</em> before you mop.</li></ol>
+<hr>
+<h3 id="scum">scum<a class="hash" href="#scum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌm/ &middot; <em>SKUM</em></dd><dt>Русский</dt><dd>налёт, грязная пена</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A dirty film that forms on the top of water or on a wet surface.</p>
+<ol><li>There was <em>scum</em> floating on the dishwater.</li><li>Wipe the <em>scum</em> off the waterline of the tub.</li><li>Green <em>scum</em> covered the top of the barrel.</li></ol>
+<hr>
+<h3 id="buildup">buildup<a class="hash" href="#buildup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɪldʌp/ &middot; <em>BILD-up</em></dd><dt>Русский</dt><dd>налёт, отложения</dd><dt>Plural</dt><dd><em>buildups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A layer of dirt or residue that has collected slowly over time.</p>
+<ol><li>There's a <em>buildup</em> of grease behind the stove.</li><li>The showerhead had a mineral <em>buildup</em>.</li><li>Regular cleaning prevents <em>buildups</em> like that.</li></ol>
+<hr>
+<h3 id="muck">muck<a class="hash" href="#muck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/mʌk/ &middot; <em>MUK</em></dd><dt>Русский</dt><dd>грязь, слякоть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thick wet dirt, especially mud mixed with waste.</p>
+<ol><li>His boots were caked with <em>muck</em>.</li><li>They shoveled the <em>muck</em> out of the barn.</li><li>Rain turned the path into <em>muck</em>.</li></ol>
+<hr>
+<h3 id="gunk">gunk<a class="hash" href="#gunk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡʌŋk/ &middot; <em>GUNGK</em></dd><dt>Русский</dt><dd>липкая грязь, налёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Sticky, greasy dirt of no particular kind.</p>
+<ol><li>There's <em>gunk</em> stuck in the drain.</li><li>He scraped the <em>gunk</em> off the burner.</li><li>The filter was full of black <em>gunk</em>.</li></ol>
+<hr>
+<h3 id="sludge">sludge<a class="hash" href="#sludge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slʌdʒ/ &middot; <em>SLUJ</em></dd><dt>Русский</dt><dd>осадок, густая грязь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thick, soft mud or waste that settles at the bottom.</p>
+<ol><li>Black <em>sludge</em> came out of the pipe.</li><li>There was <em>sludge</em> in the bottom of the tank.</li><li>The plant treats <em>sludge</em> before it's hauled away.</li></ol>
+<hr>
+<h3 id="slime">slime<a class="hash" href="#slime" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slaɪm/ &middot; <em>SLYME</em></dd><dt>Русский</dt><dd>слизь</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A wet slippery layer, often greenish, on a damp surface.</p>
+<ol><li>The birdbath was coated in <em>slime</em>.</li><li>Scrub the <em>slime</em> off the steps before someone slips.</li><li>There's <em>slime</em> growing in the drain.</li></ol>
+<hr>
+<h3 id="crud">crud<a class="hash" href="#crud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/krʌd/ &middot; <em>KRUD</em></dd><dt>Русский</dt><dd>засохшая грязь, налёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dried-on dirt or food stuck to a surface.</p>
+<ol><li>There's <em>crud</em> baked onto the pan.</li><li>He chipped the <em>crud</em> off the grill.</li><li>Get the <em>crud</em> out of the corners with a toothbrush.</li></ol>
+<hr>
+<h3 id="goo">goo<a class="hash" href="#goo" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡuː/ &middot; <em>GOO</em></dd><dt>Русский</dt><dd>липкая масса, жижа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A sticky, wet substance that is hard to wipe off.</p>
+<ol><li>Some kind of <em>goo</em> leaked in the fridge.</li><li>The sticker left <em>goo</em> on the glass.</li><li>Rubbing alcohol takes that <em>goo</em> right off.</li></ol>
+<hr>
+<h3 id="grit">grit<a class="hash" href="#grit" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡrɪt/ &middot; <em>GRIT</em></dd><dt>Русский</dt><dd>песок, мелкий сор</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Tiny hard bits of sand or dirt you can feel underfoot.</p>
+<ol><li>There's <em>grit</em> all over the kitchen floor.</li><li>Rinse the <em>grit</em> out of the lettuce.</li><li>You could feel the <em>grit</em> between your teeth.</li></ol>
+<hr>
+<h3 id="smear">smear<a class="hash" href="#smear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smɪr/ &middot; <em>SMEER</em></dd><dt>Русский</dt><dd>размазанное пятно, развод</dd><dt>Plural</dt><dd><em>smears</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dirty mark made by rubbing something wet or greasy.</p>
+<ol><li>There's a <em>smear</em> of jam on the counter.</li><li>The window was full of <em>smears</em> after he wiped it.</li><li>A <em>smear</em> of grease ran down the cabinet door.</li></ol>
+<hr>
+<h3 id="splatter">splatter<a class="hash" href="#splatter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsplætər/ &middot; <em>SPLAT-ur</em></dd><dt>Русский</dt><dd>брызги, забрызганное пятно</dd><dt>Plural</dt><dd><em>splatters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mark made by liquid flying out and landing in drops.</p>
+<ol><li>Wipe the grease <em>splatter</em> off the backsplash.</li><li>There were paint <em>splatters</em> all over the drop cloth.</li><li>A tomato sauce <em>splatter</em> dried on the microwave door.</li></ol>
+<hr>
+<h3 id="blotch">blotch<a class="hash" href="#blotch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blɑːtʃ/ &middot; <em>BLAHCH</em></dd><dt>Русский</dt><dd>большое пятно, клякса</dd><dt>Plural</dt><dd><em>blotches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large irregular mark of color or dirt.</p>
+<ol><li>A dark <em>blotch</em> spread across the ceiling.</li><li>The bleach left pale <em>blotches</em> on the shirt.</li><li>There's a <em>blotch</em> on the carpet by the door.</li></ol>
+<hr>
+<h3 id="splotch">splotch<a class="hash" href="#splotch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/splɑːtʃ/ &middot; <em>SPLAHCH</em></dd><dt>Русский</dt><dd>пятно неправильной формы, клякса</dd><dt>Plural</dt><dd><em>splotches</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Splotch</em> and <em>blotch</em> mean nearly the same thing; both are common.</dd></dl>
+<p>A messy, uneven spot of liquid or dirt.</p>
+<ol><li>There's a <em>splotch</em> of oil on the driveway.</li><li>Coffee left a brown <em>splotch</em> on the report.</li><li><em>Splotches</em> of mildew showed along the grout.</li></ol>
+<hr>
+<h3 id="fleck">fleck<a class="hash" href="#fleck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/flɛk/ &middot; <em>FLEK</em></dd><dt>Русский</dt><dd>крапинка, пятнышко</dd><dt>Plural</dt><dd><em>flecks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very small spot or piece of something on a surface.</p>
+<ol><li>There were <em>flecks</em> of paint on the floor.</li><li>A <em>fleck</em> of dried egg was stuck to the fork.</li><li>Brush the <em>flecks</em> of lint off your collar.</li></ol>
+<hr>
+<h3 id="discoloration">discoloration<a class="hash" href="#discoloration" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪsˌkʌləˈreɪʃən/ &middot; <em>dis-kul-uh-RAY-shuhn</em></dd><dt>Русский</dt><dd>изменение цвета, пятно от выцветания</dd><dt>Plural</dt><dd><em>discolorations</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>discoloration</em>; the British spell it <em>discolouration</em>.</dd></dl>
+<p>A patch where something has lost or changed its color.</p>
+<ol><li>Bleach left a yellow <em>discoloration</em> on the towel.</li><li>There's some <em>discoloration</em> under the sink from the leak.</li><li>Small <em>discolorations</em> showed where the sun hit the couch.</li></ol>
+<hr>
+<h3 id="tarnish">tarnish<a class="hash" href="#tarnish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːrnɪʃ/ &middot; <em>TAR-nish</em></dd><dt>Русский</dt><dd>потускнение, налёт (на металле)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The dull dark film that forms on silver and other metals.</p>
+<ol><li>The candlesticks were covered in <em>tarnish</em>.</li><li>This polish takes <em>tarnish</em> off in seconds.</li><li>You can see the <em>tarnish</em> around the handle.</li></ol>
+<hr>
+<h3 id="dust-bunny">dust bunny<a class="hash" href="#dust-bunny" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌst ˌbʌni/ &middot; <em>DUST BUN-ee</em></dd><dt>Русский</dt><dd>комок пыли (под мебелью)</dd><dt>Plural</dt><dd><em>dust bunnies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft ball of dust and hair that collects under furniture.</p>
+<ol><li>A <em>dust bunny</em> rolled out from under the bed.</li><li>There are <em>dust bunnies</em> behind the dresser.</li><li>The vacuum got every <em>dust bunny</em> in the hall.</li></ol>
+<hr>
+<h3 id="dust-rag">dust rag<a class="hash" href="#dust-rag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌst ræɡ/ &middot; <em>DUST-rag</em></dd><dt>Русский</dt><dd>тряпка для пыли</dd><dt>Plural</dt><dd><em>dust rags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An old soft cloth kept for wiping dust off surfaces.</p>
+<ol><li>Grab a <em>dust rag</em> and do the shelves.</li><li>She tore up an old T-shirt for <em>dust rags</em>.</li><li>The <em>dust rag</em> was gray by the time she finished.</li></ol>
+<hr>
+<h3 id="smell">smell<a class="hash" href="#smell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/smɛl/ &middot; <em>SMEL</em></dd><dt>Русский</dt><dd>запах</dd><dt>Plural</dt><dd><em>smells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Something you notice with your nose, good or bad.</p>
+<ol><li>What's that <em>smell</em> in the basement?</li><li>The <em>smell</em> of bleach filled the bathroom.</li><li>Cooking <em>smells</em> stay in the curtains.</li></ol>
+<hr>
+<h3 id="stink">stink<a class="hash" href="#stink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪŋk/ &middot; <em>STINGK</em></dd><dt>Русский</dt><dd>вонь</dd><dt>Plural</dt><dd><em>stinks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A strong bad smell.</p>
+<ol><li>The <em>stink</em> from the trash can hit us at the door.</li><li>It took two days for the <em>stink</em> to go away.</li><li>There was an awful <em>stink</em> under the porch.</li></ol>
+<hr>
+<h3 id="whiff">whiff<a class="hash" href="#whiff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɪf/ &middot; <em>WIF</em></dd><dt>Русский</dt><dd>лёгкий запах, дуновение запаха</dd><dt>Plural</dt><dd><em>whiffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short, faint smell you catch for a moment.</p>
+<ol><li>I caught a <em>whiff</em> of ammonia.</li><li>There was a <em>whiff</em> of mildew in the closet.</li><li>Every so often you get <em>whiffs</em> of something burning.</li></ol>
+<hr>
+<h3 id="freshness">freshness<a class="hash" href="#freshness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrɛʃnəs/ &middot; <em>FRESH-nuhs</em></dd><dt>Русский</dt><dd>свежесть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The clean, pleasant quality of air or laundry that smells new.</p>
+<ol><li>The label promises thirty days of <em>freshness</em>.</li><li>There's a <em>freshness</em> to sheets dried outside.</li><li>Open a window for a little <em>freshness</em>.</li></ol>
+<hr>
+<h3 id="deodorizer">deodorizer<a class="hash" href="#deodorizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/diˈoʊdəˌraɪzər/ &middot; <em>dee-OH-duh-ry-zur</em></dd><dt>Русский</dt><dd>средство для устранения запаха</dd><dt>Plural</dt><dd><em>deodorizers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A product that removes a bad smell instead of masking it.</p>
+<ol><li>Sprinkle carpet <em>deodorizer</em> before you vacuum.</li><li>Baking soda works as a <em>deodorizer</em> in the fridge.</li><li>They tried three <em>deodorizers</em> on the smoke smell.</li></ol>
+<hr>
+<h3 id="mop-head">mop head<a class="hash" href="#mop-head" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːp hɛd/ &middot; <em>MAHP-hed</em></dd><dt>Русский</dt><dd>насадка для швабры</dd><dt>Plural</dt><dd><em>mop heads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The absorbent part of a mop that touches the floor.</p>
+<ol><li>The <em>mop head</em> needs replacing.</li><li>Wring the <em>mop head</em> out over the bucket.</li><li>Extra <em>mop heads</em> are on the bottom shelf.</li></ol>
+<hr>
+<h3 id="dust-mop">dust mop<a class="hash" href="#dust-mop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌst mɑːp/ &middot; <em>DUST-mahp</em></dd><dt>Русский</dt><dd>швабра для сухой уборки</dd><dt>Plural</dt><dd><em>dust mops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat mop used dry to pick dust off hard floors.</p>
+<ol><li>Run the <em>dust mop</em> over the hardwood first.</li><li>A <em>dust mop</em> gets under the couch better than a broom.</li><li>The school buys <em>dust mops</em> by the case.</li></ol>
+<hr>
+<h3 id="push-broom">push broom<a class="hash" href="#push-broom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʊʃ bruːm/ &middot; <em>PUUSH-broom</em></dd><dt>Русский</dt><dd>широкая щётка-метла на длинной ручке</dd><dt>Plural</dt><dd><em>push brooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A broom with a wide head, used for sweeping large floors.</p>
+<ol><li>He cleared the garage with a <em>push broom</em>.</li><li>Grab the <em>push broom</em> out of the shed.</li><li>Two <em>push brooms</em> leaned against the wall.</li></ol>
+<hr>
+<h3 id="scrubber">scrubber<a class="hash" href="#scrubber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskrʌbər/ &middot; <em>SKRUB-ur</em></dd><dt>Русский</dt><dd>губка-скребок, мочалка для посуды</dd><dt>Plural</dt><dd><em>scrubbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rough pad or tool used to rub stuck-on dirt away.</p>
+<ol><li>Use the blue <em>scrubber</em> on the pan, not the sponge.</li><li>That <em>scrubber</em> will scratch the nonstick coating.</li><li>A pack of <em>scrubbers</em> costs two dollars.</li></ol>
+<hr>
+<h3 id="steel-wool">steel wool<a class="hash" href="#steel-wool" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌstiːl ˈwʊl/ &middot; <em>steel-WUUL</em></dd><dt>Русский</dt><dd>металлическая мочалка, стальная стружка</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable: <em>a pad of steel wool</em>, never <em>a steel wool</em>.</dd></dl>
+<p>A pad of fine metal threads used for scouring and sanding.</p>
+<ol><li>Rub the rust off with <em>steel wool</em>.</li><li><em>Steel wool</em> leaves tiny scratches on stainless.</li><li>He stuffed <em>steel wool</em> in the hole to keep mice out.</li></ol>
+<hr>
+<h3 id="duster">duster<a class="hash" href="#duster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌstər/ &middot; <em>DUS-tur</em></dd><dt>Русский</dt><dd>метёлка для пыли</dd><dt>Plural</dt><dd><em>dusters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cloth or fluffy tool used to sweep dust off surfaces.</p>
+<ol><li>Run a <em>duster</em> over the blinds.</li><li>The <em>duster</em> is hanging in the closet.</li><li>These <em>dusters</em> pick up more than a rag does.</li></ol>
+<hr>
+<h3 id="feather-duster">feather duster<a class="hash" href="#feather-duster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛðər ˌdʌstər/ &middot; <em>FETH-ur DUS-tur</em></dd><dt>Русский</dt><dd>метёлка из перьев</dd><dt>Plural</dt><dd><em>feather dusters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A handle tipped with soft feathers for dusting delicate things.</p>
+<ol><li>She went over the shelves with a <em>feather duster</em>.</li><li>A <em>feather duster</em> just moves the dust around.</li><li>The gift shop sold ostrich <em>feather dusters</em>.</li></ol>
+<hr>
+<h3 id="chamois">chamois<a class="hash" href="#chamois" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃæmi/ &middot; <em>SHAM-ee</em></dd><dt>Русский</dt><dd>замшевая салфетка</dd><dt>Plural</dt><dd><em>chamois</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Said SHAM-ee, and the plural is spelled the same: <em>chamois</em>.</dd></dl>
+<p>A soft leather cloth used to dry glass and car paint without streaks.</p>
+<ol><li>Dry the car with a <em>chamois</em> so it doesn't spot.</li><li>He kept a damp <em>chamois</em> in a bucket.</li><li>Good <em>chamois</em> cost more than a pack of towels.</li></ol>
+<hr>
+<h3 id="rubber-glove">rubber glove<a class="hash" href="#rubber-glove" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbər ɡlʌv/ &middot; <em>RUB-ur GLUV</em></dd><dt>Русский</dt><dd>резиновая перчатка</dd><dt>Plural</dt><dd><em>rubber gloves</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A waterproof glove worn to protect the hands while cleaning.</p>
+<ol><li>Put on a <em>rubber glove</em> before you reach in there.</li><li>Wear <em>rubber gloves</em> with that cleaner.</li><li>One <em>rubber glove</em> had a hole in the thumb.</li></ol>
+<hr>
+<h3 id="spray">spray<a class="hash" href="#spray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spreɪ/ &middot; <em>SPRAY</em></dd><dt>Русский</dt><dd>спрей, распыляемое средство</dd><dt>Plural</dt><dd><em>sprays</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid product that is pushed out of a container in a mist.</p>
+<ol><li>Give the counter a quick shot of <em>spray</em>.</li><li>This <em>spray</em> takes grease off the stovetop.</li><li>The shelf was full of cleaning <em>sprays</em>.</li></ol>
+<hr>
+<h3 id="aerosol">aerosol<a class="hash" href="#aerosol" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛrəˌsɔːl/ &middot; <em>ER-uh-sawl</em></dd><dt>Русский</dt><dd>аэрозоль, аэрозольный баллончик</dd><dt>Plural</dt><dd><em>aerosols</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pressurized can that releases its contents as a fine mist.</p>
+<ol><li>Don't throw an <em>aerosol</em> in the fire.</li><li>The polish comes in an <em>aerosol</em>.</li><li>Some <em>aerosols</em> are banned in this state.</li></ol>
+<hr>
+<h3 id="carpet-cleaner">carpet cleaner<a class="hash" href="#carpet-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrpət ˌkliːnər/ &middot; <em>KAR-put KLEE-nur</em></dd><dt>Русский</dt><dd>средство для чистки ковров; моющий пылесос</dd><dt>Plural</dt><dd><em>carpet cleaners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine or liquid used to wash dirt out of carpet.</p>
+<ol><li>We rented a <em>carpet cleaner</em> for the weekend.</li><li>Spray the <em>carpet cleaner</em> and blot, don't rub.</li><li>The hardware store rents <em>carpet cleaners</em> by the day.</li></ol>
+<hr>
+<h3 id="steam-cleaner">steam cleaner<a class="hash" href="#steam-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːm ˌkliːnər/ &middot; <em>STEEM KLEE-nur</em></dd><dt>Русский</dt><dd>пароочиститель</dd><dt>Plural</dt><dd><em>steam cleaners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that cleans surfaces with hot vapor instead of chemicals.</p>
+<ol><li>A <em>steam cleaner</em> got the grout white again.</li><li>She uses a <em>steam cleaner</em> on the mattress every spring.</li><li>Handheld <em>steam cleaners</em> are cheap now.</li></ol>
+<hr>
+<h3 id="pressure-washer">pressure washer<a class="hash" href="#pressure-washer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛʃər ˌwɑːʃər/ &middot; <em>PRESH-ur WAH-shur</em></dd><dt>Русский</dt><dd>мойка высокого давления</dd><dt>Plural</dt><dd><em>pressure washers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that blasts water at high force to clean outdoor surfaces.</p>
+<ol><li>He cleaned the siding with a <em>pressure washer</em>.</li><li>A <em>pressure washer</em> will strip paint if you're not careful.</li><li>The rental yard has three <em>pressure washers</em>.</li></ol>
+<hr>
+<h3 id="all-purpose-cleaner">all-purpose cleaner<a class="hash" href="#all-purpose-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːl ˈpɜːrpəs ˌkliːnər/ &middot; <em>awl-PUR-puhs KLEE-nur</em></dd><dt>Русский</dt><dd>универсальное чистящее средство</dd><dt>Plural</dt><dd><em>all-purpose cleaners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A cleaning liquid meant to work on most household surfaces.</p>
+<ol><li>One bottle of <em>all-purpose cleaner</em> does the whole kitchen.</li><li>She wipes the table down with <em>all-purpose cleaner</em>.</li><li>Most <em>all-purpose cleaners</em> are safe on sealed wood.</li></ol>
+<hr>
+<h3 id="glass-cleaner">glass cleaner<a class="hash" href="#glass-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlæs ˌkliːnər/ &middot; <em>GLAS KLEE-nur</em></dd><dt>Русский</dt><dd>средство для мытья стёкол</dd><dt>Plural</dt><dd><em>glass cleaners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A liquid sprayed on windows and mirrors to leave them streak-free.</p>
+<ol><li>Spray the mirror with <em>glass cleaner</em> and wipe down.</li><li>We're out of <em>glass cleaner</em>.</li><li>Most <em>glass cleaners</em> smell like ammonia.</li></ol>
+<hr>
+<h3 id="oven-cleaner">oven cleaner<a class="hash" href="#oven-cleaner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌvən ˌkliːnər/ &middot; <em>UH-vuhn KLEE-nur</em></dd><dt>Русский</dt><dd>средство для чистки духовки</dd><dt>Plural</dt><dd><em>oven cleaners</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd><em>Oven</em> is said UH-vuhn, not OH-vuhn.</dd></dl>
+<p>A strong product that dissolves baked-on grease inside an oven.</p>
+<ol><li>Open a window before you use <em>oven cleaner</em>.</li><li>The <em>oven cleaner</em> has to sit overnight.</li><li>Some <em>oven cleaners</em> are too harsh for a self-cleaning oven.</li></ol>
+<hr>
+<h3 id="sanitizer">sanitizer<a class="hash" href="#sanitizer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsænɪˌtaɪzər/ &middot; <em>SAN-ih-ty-zur</em></dd><dt>Русский</dt><dd>антисептик, санитайзер</dd><dt>Plural</dt><dd><em>sanitizers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd></dl>
+<p>A gel or spray that kills germs, especially on the hands.</p>
+<ol><li>There's hand <em>sanitizer</em> by the front door.</li><li>Every classroom has a bottle of <em>sanitizer</em>.</li><li>Alcohol-based <em>sanitizers</em> work best.</li></ol>
+<hr>
+<h3 id="furniture-polish">furniture polish<a class="hash" href="#furniture-polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːrnɪtʃər ˌpɑːlɪʃ/ &middot; <em>FUR-nih-chur PAH-lish</em></dd><dt>Русский</dt><dd>полироль для мебели</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A liquid or spray rubbed into wood to protect it and add shine.</p>
+<ol><li>The whole house smelled like <em>furniture polish</em>.</li><li>Use a little <em>furniture polish</em> on the dining table.</li><li>Too much <em>furniture polish</em> leaves a sticky film.</li></ol>
+<hr>
+<h3 id="floor-wax">floor wax<a class="hash" href="#floor-wax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflɔːr wæks/ &middot; <em>FLOR-waks</em></dd><dt>Русский</dt><dd>мастика для пола, воск для пола</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A coating spread on hard floors to protect them and make them shine.</p>
+<ol><li>The gym floor got a fresh coat of <em>floor wax</em>.</li><li><em>Floor wax</em> has to dry for a full day.</li><li>You can smell the <em>floor wax</em> the first week of school.</li></ol>
+<hr>
+<h3 id="borax">borax<a class="hash" href="#borax" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɔːræks/ &middot; <em>BOR-aks</em></dd><dt>Русский</dt><dd>бура (моющее средство)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A white mineral powder added to wash water to boost cleaning.</p>
+<ol><li>Add half a cup of <em>borax</em> to the load.</li><li><em>Borax</em> also kills ants.</li><li>The box of <em>borax</em> has been in the cabinet for years.</li></ol>
+<hr>
+<h3 id="lye">lye<a class="hash" href="#lye" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/laɪ/ &middot; <em>LY</em></dd><dt>Русский</dt><dd>щёлочь (едкий натр)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>lie</em>.</dd></dl>
+<p>A very strong chemical used in soap making and drain openers.</p>
+<ol><li><em>Lye</em> will burn your skin, so wear gloves.</li><li>Old soap recipes call for <em>lye</em> and animal fat.</li><li>The cleaner is basically <em>lye</em> and water.</li></ol>
+<hr>
+<h3 id="elbow-grease">elbow grease<a class="hash" href="#elbow-grease" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛlboʊ ɡriːs/ &middot; <em>EL-boh GREES</em></dd><dt>Русский</dt><dd>усердие, работа руками (при чистке)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>An idiom for effort — it is not an actual grease, and never plural.</dd></dl>
+<p>Hard physical effort put into scrubbing something.</p>
+<ol><li>That pan just needs a little <em>elbow grease</em>.</li><li>No spray beats <em>elbow grease</em> on burned-on food.</li><li>With enough <em>elbow grease</em> the tile came up white.</li></ol>
+<hr>
+<h3 id="hard-water">hard water<a class="hash" href="#hard-water" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhɑːrd ˈwɔːtər/ &middot; <em>hard-WAW-tur</em></dd><dt>Русский</dt><dd>жёсткая вода</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Water with a lot of minerals in it, which leaves spots and film.</p>
+<ol><li>We have <em>hard water</em>, so the glasses come out cloudy.</li><li><em>Hard water</em> ruins a coffee maker fast.</li><li>The white ring is from <em>hard water</em>.</li></ol>
+<hr>
+<h3 id="water-softener">water softener<a class="hash" href="#water-softener" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌsɔːfənər/ &middot; <em>WAW-tur SAW-fuh-nur</em></dd><dt>Русский</dt><dd>умягчитель воды (прибор или средство)</dd><dt>Plural</dt><dd><em>water softeners</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The t in <em>softener</em> is silent.</dd></dl>
+<p>A device or product that takes minerals out of hard water.</p>
+<ol><li>They put a <em>water softener</em> in the basement.</li><li>The <em>water softener</em> needs salt once a month.</li><li><em>Water softeners</em> pay for themselves out here.</li></ol>
+<hr>
+<h3 id="dishrag">dishrag<a class="hash" href="#dishrag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃræɡ/ &middot; <em>DISH-rag</em></dd><dt>Русский</dt><dd>тряпка для посуды</dd><dt>Plural</dt><dd><em>dishrags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worn cloth used for washing dishes and wiping up.</p>
+<ol><li>Wring out the <em>dishrag</em> and hang it over the faucet.</li><li>That <em>dishrag</em> has seen better days.</li><li>She boils the <em>dishrags</em> once a week.</li></ol>
+<hr>
+<h3 id="dishwater">dishwater<a class="hash" href="#dishwater" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɪʃˌwɔːtər/ &middot; <em>DISH-waw-tur</em></dd><dt>Русский</dt><dd>вода после мытья посуды, помои</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The used, greasy water left in the sink after washing dishes.</p>
+<ol><li>Drain the <em>dishwater</em> — it's gone cold.</li><li>The coffee was weak as <em>dishwater</em>.</li><li>Gray <em>dishwater</em> sat in the sink all morning.</li></ol>
+<hr>
+<h3 id="broom-closet">broom closet<a class="hash" href="#broom-closet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbruːm ˌklɑːzət/ &middot; <em>BROOM KLAH-zut</em></dd><dt>Русский</dt><dd>кладовка для швабр и вёдер</dd><dt>Plural</dt><dd><em>broom closets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A narrow closet where cleaning tools are kept.</p>
+<ol><li>The mop is in the <em>broom closet</em>.</li><li>His office is barely bigger than a <em>broom closet</em>.</li><li>Both <em>broom closets</em> were padlocked.</li></ol>
+<hr>
+<h3 id="utility-room">utility room<a class="hash" href="#utility-room" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/juːˈtɪləti ˌruːm/ &middot; <em>yoo-TIL-uh-tee ROOM</em></dd><dt>Русский</dt><dd>подсобное помещение, хозяйственная комната</dd><dt>Plural</dt><dd><em>utility rooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small room holding the washer, water heater, and cleaning supplies.</p>
+<ol><li>The mop bucket is out in the <em>utility room</em>.</li><li>There's a sink in the <em>utility room</em>.</li><li>Newer houses put the <em>utility rooms</em> off the garage.</li></ol>
+<hr>
+<h3 id="junk-drawer">junk drawer<a class="hash" href="#junk-drawer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌŋk ˌdrɔːr/ &middot; <em>JUNGK DRAWR</em></dd><dt>Русский</dt><dd>ящик для всякой всячины</dd><dt>Plural</dt><dd><em>junk drawers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Drawer</em> is one syllable in American speech: DRAWR.</dd></dl>
+<p>A kitchen drawer where small odd items pile up.</p>
+<ol><li>The batteries are in the <em>junk drawer</em>.</li><li>I cleaned out the <em>junk drawer</em> and found four takeout menus.</li><li>Every house has at least two <em>junk drawers</em>.</li></ol>
+<hr>
+<h3 id="trash-compactor">trash compactor<a class="hash" href="#trash-compactor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræʃ kəmˌpæktər/ &middot; <em>TRASH kuhm-PAK-tur</em></dd><dt>Русский</dt><dd>пресс для мусора (кухонный)</dd><dt>Plural</dt><dd><em>trash compactors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A kitchen appliance that crushes garbage into a small block.</p>
+<ol><li>The old kitchen still has a <em>trash compactor</em>.</li><li>The <em>trash compactor</em> jammed on a soup can.</li><li>Nobody installs <em>trash compactors</em> anymore.</li></ol>
+<hr>
+<h3 id="garbage-disposal">garbage disposal<a class="hash" href="#garbage-disposal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ dɪˌspoʊzəl/ &middot; <em>GAHR-bij dih-SPOH-zuhl</em></dd><dt>Русский</dt><dd>измельчитель пищевых отходов (в раковине)</dd><dt>Plural</dt><dd><em>garbage disposals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>garbage disposal</em>; the British say <em>waste disposal unit</em>.</dd></dl>
+<p>A grinder under the kitchen sink that chops up food waste.</p>
+<ol><li>Don't put coffee grounds down the <em>garbage disposal</em>.</li><li>The <em>garbage disposal</em> is making an awful noise.</li><li><em>Garbage disposals</em> are standard in apartments here.</li></ol>
+<hr>
+<h3 id="recycling">recycling<a class="hash" href="#recycling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈsaɪklɪŋ/ &middot; <em>ree-SY-kling</em></dd><dt>Русский</dt><dd>переработка вторсырья</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Uncountable — never <em>a recycling</em>.</dd></dl>
+<p>The practice of turning used materials into new products.</p>
+<ol><li>The town started curbside <em>recycling</em> last year.</li><li><em>Recycling</em> goes out on Thursdays.</li><li>Glass <em>recycling</em> costs the city money.</li></ol>
+<hr>
+<h3 id="recyclables">recyclables<a class="hash" href="#recyclables" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈsaɪkləbəlz/ &middot; <em>ree-SY-kluh-buhlz</em></dd><dt>Русский</dt><dd>вторсырьё</dd><dt>Plural</dt><dd><em>recyclables</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used in the plural: <em>the recyclables</em>.</dd></dl>
+<p>Materials that can be processed and used again.</p>
+<ol><li>Rinse the <em>recyclables</em> before you put them out.</li><li>The <em>recyclables</em> go in the blue bin.</li><li>They pick up <em>recyclables</em> every other Tuesday.</li></ol>
+<hr>
+<h3 id="recycling-center">recycling center<a class="hash" href="#recycling-center" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːˈsaɪklɪŋ ˌsɛntər/ &middot; <em>ree-SY-kling SEN-tur</em></dd><dt>Русский</dt><dd>пункт приёма вторсырья</dd><dt>Plural</dt><dd><em>recycling centers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>center</em>; the British spell it <em>centre</em>.</dd></dl>
+<p>A place where used materials are dropped off and sorted.</p>
+<ol><li>Take the electronics to the <em>recycling center</em>.</li><li>The <em>recycling center</em> is open Saturday mornings.</li><li>Two <em>recycling centers</em> closed when the market dried up.</li></ol>
+<hr>
+<h3 id="landfill">landfill<a class="hash" href="#landfill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlændfɪl/ &middot; <em>LAND-fil</em></dd><dt>Русский</dt><dd>свалка, полигон отходов</dd><dt>Plural</dt><dd><em>landfills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large site where waste is buried under earth.</p>
+<ol><li>Most of that plastic ends up in a <em>landfill</em>.</li><li>The county <em>landfill</em> closes at four.</li><li>Old <em>landfills</em> still leak into the groundwater.</li></ol>
+<hr>
+<h3 id="dump">dump<a class="hash" href="#dump" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dʌmp/ &middot; <em>DUMP</em></dd><dt>Русский</dt><dd>свалка</dd><dt>Plural</dt><dd><em>dumps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where people leave trash and unwanted things.</p>
+<ol><li>He took the old couch to the <em>dump</em>.</li><li>The <em>dump</em> charges by the pound now.</li><li>There used to be <em>dumps</em> at the edge of every town.</li></ol>
+<hr>
+<h3 id="junkyard">junkyard<a class="hash" href="#junkyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʒʌŋkjɑːrd/ &middot; <em>JUNGK-yard</em></dd><dt>Русский</dt><dd>свалка металлолома, автосвалка</dd><dt>Plural</dt><dd><em>junkyards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A lot where wrecked cars and scrap metal are kept.</p>
+<ol><li>He found the part at a <em>junkyard</em>.</li><li>A dog barked behind the <em>junkyard</em> fence.</li><li>The <em>junkyards</em> out on Route 9 buy scrap by the ton.</li></ol>
+<hr>
+<h3 id="incinerator">incinerator<a class="hash" href="#incinerator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈsɪnəˌreɪtər/ &middot; <em>in-SIN-uh-ray-tur</em></dd><dt>Русский</dt><dd>мусоросжигательная печь</dd><dt>Plural</dt><dd><em>incinerators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A furnace built to burn waste.</p>
+<ol><li>The hospital burns its waste in an <em>incinerator</em>.</li><li>Neighbors fought the new <em>incinerator</em> for years.</li><li>Old apartment buildings had <em>incinerators</em> in the basement.</li></ol>
+<hr>
+<h3 id="disposal">disposal<a class="hash" href="#disposal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈspoʊzəl/ &middot; <em>dih-SPOH-zuhl</em></dd><dt>Русский</dt><dd>утилизация, вывоз (отходов)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The act of getting rid of waste properly.</p>
+<ol><li>The city handles <em>disposal</em> of household waste.</li><li>Proper <em>disposal</em> of paint means a special drop-off.</li><li><em>Disposal</em> of the old mattress cost forty dollars.</li></ol>
+<hr>
+<h3 id="garbage-truck">garbage truck<a class="hash" href="#garbage-truck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ trʌk/ &middot; <em>GAHR-bij-truk</em></dd><dt>Русский</dt><dd>мусоровоз</dd><dt>Plural</dt><dd><em>garbage trucks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The truck that collects household waste from the curb.</p>
+<ol><li>The <em>garbage truck</em> wakes us up at six.</li><li>He missed the <em>garbage truck</em> by five minutes.</li><li>Two <em>garbage trucks</em> work this route.</li></ol>
+<hr>
+<h3 id="trash-day">trash day<a class="hash" href="#trash-day" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræʃ deɪ/ &middot; <em>TRASH-day</em></dd><dt>Русский</dt><dd>день вывоза мусора</dd><dt>Plural</dt><dd><em>trash days</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The day of the week when waste is collected on a street.</p>
+<ol><li>Tomorrow is <em>trash day</em>, so put the cans out.</li><li><em>Trash day</em> moves to Wednesday on holiday weeks.</li><li>We have two <em>trash days</em> in the summer.</li></ol>
+<hr>
+<h3 id="trash-chute">trash chute<a class="hash" href="#trash-chute" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtræʃ ʃuːt/ &middot; <em>TRASH-shoot</em></dd><dt>Русский</dt><dd>мусоропровод</dd><dt>Plural</dt><dd><em>trash chutes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Chute</em> sounds like <em>shoot</em>.</dd></dl>
+<p>A shaft in a building that carries garbage down to a bin.</p>
+<ol><li>The <em>trash chute</em> is at the end of the hall.</li><li>Something's stuck in the <em>trash chute</em> again.</li><li>The <em>trash chutes</em> are locked after ten at night.</li></ol>
+<hr>
+<h3 id="litterbug">litterbug<a class="hash" href="#litterbug" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtərˌbʌɡ/ &middot; <em>LIT-ur-bug</em></dd><dt>Русский</dt><dd>тот, кто мусорит на улице</dd><dt>Plural</dt><dd><em>litterbugs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who drops trash in a public place.</p>
+<ol><li>Don't be a <em>litterbug</em> — there's a can right there.</li><li>The sign calls out <em>litterbugs</em> with a two-hundred-dollar fine.</li><li>A few <em>litterbugs</em> ruin the whole beach.</li></ol>
+<hr>
+<h3 id="rubbish">rubbish<a class="hash" href="#rubbish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbɪʃ/ &middot; <em>RUB-ish</em></dd><dt>Русский</dt><dd>мусор (брит.); чепуха</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Mainly British for trash; Americans use it to mean <em>nonsense</em>.</dd></dl>
+<p>Waste material; in British English, what Americans call trash.</p>
+<ol><li>Put the <em>rubbish</em> out by the gate.</li><li>The yard was full of <em>rubbish</em> and broken glass.</li><li>He said the whole story was <em>rubbish</em>.</li></ol>
+<hr>
+<h3 id="sanitation-worker">sanitation worker<a class="hash" href="#sanitation-worker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsænɪˈteɪʃən ˌwɜːrkər/ &middot; <em>san-ih-TAY-shuhn WUR-kur</em></dd><dt>Русский</dt><dd>работник по вывозу мусора</dd><dt>Plural</dt><dd><em>sanitation workers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person employed by a city to collect and handle waste.</p>
+<ol><li>A <em>sanitation worker</em> waved at the kids from the truck.</li><li><em>Sanitation workers</em> got a new contract in June.</li><li>His father was a <em>sanitation worker</em> for thirty years.</li></ol>
+<hr>
+<h3 id="garbage-collector">garbage collector<a class="hash" href="#garbage-collector" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːrbɪdʒ kəˌlɛktər/ &middot; <em>GAHR-bij kuh-LEK-tur</em></dd><dt>Русский</dt><dd>мусорщик</dd><dt>Plural</dt><dd><em>garbage collectors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone whose job is picking up household waste.</p>
+<ol><li>The <em>garbage collector</em> left a note on the can.</li><li><em>Garbage collectors</em> don't take yard waste.</li><li>He worked as a <em>garbage collector</em> right out of high school.</li></ol>
+<hr>
+<h3 id="custodian">custodian<a class="hash" href="#custodian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌˈstoʊdiən/ &middot; <em>kuh-STOH-dee-uhn</em></dd><dt>Русский</dt><dd>уборщик, завхоз (в школе, здании)</dd><dt>Plural</dt><dd><em>custodians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who cleans and takes care of a building.</p>
+<ol><li>The <em>custodian</em> unlocked the gym for us.</li><li>Ask the <em>custodian</em> for a mop.</li><li>The school kept two <em>custodians</em> on the night shift.</li></ol>
+<hr>
+<h3 id="maid">maid<a class="hash" href="#maid" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/meɪd/ &middot; <em>MAYD</em></dd><dt>Русский</dt><dd>горничная, домработница</dd><dt>Plural</dt><dd><em>maids</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>made</em>.</dd></dl>
+<p>A woman employed to clean rooms in a house or hotel.</p>
+<ol><li>The <em>maid</em> comes in to make up the room around ten.</li><li>They hired a <em>maid</em> twice a month.</li><li>The hotel <em>maids</em> were pushing carts down the hall.</li></ol>
+<hr>
+<h3 id="housekeeper">housekeeper<a class="hash" href="#housekeeper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊsˌkiːpər/ &middot; <em>HOWS-kee-pur</em></dd><dt>Русский</dt><dd>домработница, экономка</dd><dt>Plural</dt><dd><em>housekeepers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person paid to clean and run a household.</p>
+<ol><li>Their <em>housekeeper</em> comes on Tuesdays.</li><li>The <em>housekeeper</em> left a note about the laundry.</li><li>The hotel has <em>housekeepers</em> on every floor.</li></ol>
+<hr>
+<h3 id="cleaning-lady">cleaning lady<a class="hash" href="#cleaning-lady" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnɪŋ ˌleɪdi/ &middot; <em>KLEE-ning LAY-dee</em></dd><dt>Русский</dt><dd>уборщица</dd><dt>Plural</dt><dd><em>cleaning ladies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman hired to clean a home or office.</p>
+<ol><li>The <em>cleaning lady</em> comes every other Friday.</li><li>We leave the key under the mat for the <em>cleaning lady</em>.</li><li>The building hires <em>cleaning ladies</em> through an agency.</li></ol>
+<hr>
+<h3 id="cleaning-service">cleaning service<a class="hash" href="#cleaning-service" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkliːnɪŋ ˌsɜːrvəs/ &middot; <em>KLEE-ning SUR-vuhs</em></dd><dt>Русский</dt><dd>клининговая служба</dd><dt>Plural</dt><dd><em>cleaning services</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company you pay to send people to clean your home or office.</p>
+<ol><li>We use a <em>cleaning service</em> once a month.</li><li>The <em>cleaning service</em> brings its own supplies.</li><li>She called three <em>cleaning services</em> for quotes.</li></ol>
+<hr>
+<h3 id="housecleaning">housecleaning<a class="hash" href="#housecleaning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊsˌkliːnɪŋ/ &middot; <em>HOWS-klee-ning</em></dd><dt>Русский</dt><dd>уборка дома</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Written as one word; the verb phrase is <em>clean house</em>.</dd></dl>
+<p>The work of cleaning a home from top to bottom.</p>
+<ol><li>Saturday is for <em>housecleaning</em>.</li><li><em>Housecleaning</em> takes her most of the day.</li><li>He does the <em>housecleaning</em> and she cooks.</li></ol>
+<hr>
+<h3 id="spring-cleaning">spring cleaning<a class="hash" href="#spring-cleaning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsprɪŋ ˈkliːnɪŋ/ &middot; <em>spring-KLEE-ning</em></dd><dt>Русский</dt><dd>генеральная уборка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thorough cleaning of a whole house, done once a year.</p>
+<ol><li>We're doing <em>spring cleaning</em> this weekend.</li><li><em>Spring cleaning</em> means the windows too.</li><li>She got through half the <em>spring cleaning</em> before it rained.</li></ol>
+<hr>
+<h3 id="neatness">neatness<a class="hash" href="#neatness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniːtnəs/ &middot; <em>NEET-nuhs</em></dd><dt>Русский</dt><dd>аккуратность, опрятность</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The quality of being tidy and well arranged.</p>
+<ol><li>Her desk is a model of <em>neatness</em>.</li><li>They grade on <em>neatness</em> as well as spelling.</li><li>There's a <em>neatness</em> to the way he folds everything.</li></ol>
+<hr>
+<h3 id="tidiness">tidiness<a class="hash" href="#tidiness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪdinəs/ &middot; <em>TY-dee-nuhs</em></dd><dt>Русский</dt><dd>опрятность, порядок</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The habit of keeping everything in its place.</p>
+<ol><li>His <em>tidiness</em> drives his roommate crazy.</li><li>The apartment was spotless, but the <em>tidiness</em> felt cold.</li><li><em>Tidiness</em> is the first thing she looks for in a sublet.</li></ol>
+<hr>
+<h3 id="squalor">squalor<a class="hash" href="#squalor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskwɑːlər/ &middot; <em>SKWAH-lur</em></dd><dt>Русский</dt><dd>убожество, грязь и нищета</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Extreme dirt and neglect in the place where someone lives.</p>
+<ol><li>The family was living in <em>squalor</em>.</li><li>Inspectors found <em>squalor</em> in half the units.</li><li>He wrote about the <em>squalor</em> of the old tenements.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

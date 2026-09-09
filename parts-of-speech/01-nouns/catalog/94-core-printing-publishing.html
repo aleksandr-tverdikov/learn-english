@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: printing and publishing</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-printing-and-publishing">Core vocabulary: printing and publishing<a class="hash" href="#core-vocabulary-printing-and-publishing" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of printing and publishing — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="printing-press">printing press<a class="hash" href="#printing-press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntɪŋ prɛs/ &middot; <em>PRIN-ting PRESS</em></dd><dt>Русский</dt><dd>печатный станок</dd><dt>Plural</dt><dd><em>printing presses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that presses inked type or plates onto paper to make many copies.</p>
+<ol><li>The museum has a working <em>printing press</em> from 1850.</li><li>Gutenberg's <em>printing press</em> changed how books were made.</li><li>Two of the shop's <em>printing presses</em> run all night.</li></ol>
+<hr>
+<h3 id="print-shop">print shop<a class="hash" href="#print-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnt ʃɑːp/ &middot; <em>PRINT SHAHP</em></dd><dt>Русский</dt><dd>типография, печатная мастерская</dd><dt>Plural</dt><dd><em>print shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small business that prints things for customers.</p>
+<ol><li>There's a <em>print shop</em> on the corner that does business cards.</li><li>I dropped the flyers off at the <em>print shop</em> this morning.</li><li>Most of the <em>print shops</em> downtown have closed.</li></ol>
+<hr>
+<h3 id="photocopy">photocopy<a class="hash" href="#photocopy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtəˌkɑːpi/ &middot; <em>FOH-tuh-kah-pee</em></dd><dt>Русский</dt><dd>ксерокопия, фотокопия</dd><dt>Plural</dt><dd><em>photocopies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of a document made by a machine that scans and prints it.</p>
+<ol><li>Bring the original and one <em>photocopy</em>.</li><li>The <em>photocopy</em> came out too dark to read.</li><li>She kept <em>photocopies</em> of every receipt.</li></ol>
+<hr>
+<h3 id="photocopier">photocopier<a class="hash" href="#photocopier" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtəˌkɑːpiər/ &middot; <em>FOH-tuh-kah-pee-ur</em></dd><dt>Русский</dt><dd>копировальный аппарат, ксерокс</dd><dt>Plural</dt><dd><em>photocopiers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An office machine that makes paper copies of documents.</p>
+<ol><li>The <em>photocopier</em> is out of paper again.</li><li>Somebody left a whole report sitting in the <em>photocopier</em>.</li><li>Both <em>photocopiers</em> on this floor are broken.</li></ol>
+<hr>
+<h3 id="copy-machine">copy machine<a class="hash" href="#copy-machine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi məˌʃiːn/ &middot; <em>KAH-pee muh-SHEEN</em></dd><dt>Русский</dt><dd>копировальный аппарат (разг.)</dd><dt>Plural</dt><dd><em>copy machines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An everyday name for a photocopier.</p>
+<ol><li>The <em>copy machine</em> is down the hall by the break room.</li><li>I need ten copies — is the <em>copy machine</em> working?</li><li>They replaced both <em>copy machines</em> last spring.</li></ol>
+<hr>
+<h3 id="copy-shop">copy shop<a class="hash" href="#copy-shop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi ʃɑːp/ &middot; <em>KAH-pee SHAHP</em></dd><dt>Русский</dt><dd>копицентр, копировальный салон</dd><dt>Plural</dt><dd><em>copy shops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A store where you can pay to copy, print, and bind documents.</p>
+<ol><li>Run these off at the <em>copy shop</em> near campus.</li><li>The <em>copy shop</em> stays open until midnight during finals.</li><li>There used to be three <em>copy shops</em> on this street.</li></ol>
+<hr>
+<h3 id="hard-copy">hard copy<a class="hash" href="#hard-copy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrd ˌkɑːpi/ &middot; <em>HARD KAH-pee</em></dd><dt>Русский</dt><dd>распечатка, бумажная копия</dd><dt>Plural</dt><dd><em>hard copies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A version of a document printed on paper rather than kept on a screen.</p>
+<ol><li>Can you email it and also bring a <em>hard copy</em>?</li><li>The judge wants a <em>hard copy</em> of every exhibit.</li><li>Keep <em>hard copies</em> of your tax forms for seven years.</li></ol>
+<hr>
+<h3 id="laser-printer">laser printer<a class="hash" href="#laser-printer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪzər ˌprɪntər/ &middot; <em>LAY-zur PRIN-tur</em></dd><dt>Русский</dt><dd>лазерный принтер</dd><dt>Plural</dt><dd><em>laser printers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printer that fuses powdered toner onto paper with heat.</p>
+<ol><li>A <em>laser printer</em> is cheaper to run than an inkjet.</li><li>Our <em>laser printer</em> prints forty pages a minute.</li><li>The office has <em>laser printers</em> on every floor.</li></ol>
+<hr>
+<h3 id="inkjet-printer">inkjet printer<a class="hash" href="#inkjet-printer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋkdʒɛt ˌprɪntər/ &middot; <em>INK-jet PRIN-tur</em></dd><dt>Русский</dt><dd>струйный принтер</dd><dt>Plural</dt><dd><em>inkjet printers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printer that sprays tiny drops of liquid ink onto paper.</p>
+<ol><li>An <em>inkjet printer</em> does a better job on photos.</li><li>My <em>inkjet printer</em> clogs if I don't use it for a month.</li><li>Cheap <em>inkjet printers</em> cost more in ink than in hardware.</li></ol>
+<hr>
+<h3 id="ink-cartridge">ink cartridge<a class="hash" href="#ink-cartridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋk ˌkɑːrtrɪdʒ/ &middot; <em>INK KAR-trij</em></dd><dt>Русский</dt><dd>картридж с чернилами</dd><dt>Plural</dt><dd><em>ink cartridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small sealed container of ink that slides into a printer.</p>
+<ol><li>The black <em>ink cartridge</em> is almost empty.</li><li>A replacement <em>ink cartridge</em> costs thirty dollars.</li><li>I bought a pack of four <em>ink cartridges</em> online.</li></ol>
+<hr>
+<h3 id="printing-ink">printing ink<a class="hash" href="#printing-ink" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntɪŋ ɪŋk/ &middot; <em>PRIN-ting INK</em></dd><dt>Русский</dt><dd>типографская краска</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The thick colored paste used on a press to print on paper.</p>
+<ol><li>The shop smells like <em>printing ink</em> and hot paper.</li><li><em>Printing ink</em> is much stiffer than the ink in a pen.</li><li>They switched to a soy-based <em>printing ink</em>.</li></ol>
+<hr>
+<h3 id="toner-cartridge">toner cartridge<a class="hash" href="#toner-cartridge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊnər ˌkɑːrtrɪdʒ/ &middot; <em>TOH-nur KAR-trij</em></dd><dt>Русский</dt><dd>тонер-картридж</dd><dt>Plural</dt><dd><em>toner cartridges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The container of toner powder that fits inside a laser printer.</p>
+<ol><li>Shake the <em>toner cartridge</em> before you put it back in.</li><li>A new <em>toner cartridge</em> lasts about three thousand pages.</li><li>We keep two spare <em>toner cartridges</em> in the closet.</li></ol>
+<hr>
+<h3 id="print-head">print head<a class="hash" href="#print-head" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnt hɛd/ &middot; <em>PRINT HED</em></dd><dt>Русский</dt><dd>печатающая головка</dd><dt>Plural</dt><dd><em>print heads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a printer that puts the ink onto the paper.</p>
+<ol><li>Run the cleaning cycle if the <em>print head</em> is clogged.</li><li>A dirty <em>print head</em> leaves streaks down the page.</li><li>Replacing the <em>print head</em> costs almost as much as a new printer.</li></ol>
+<hr>
+<h3 id="paper-jam">paper jam<a class="hash" href="#paper-jam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər dʒæm/ &middot; <em>PAY-pur JAM</em></dd><dt>Русский</dt><dd>замятие бумаги</dd><dt>Plural</dt><dd><em>paper jams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stoppage caused by paper getting stuck inside a printer or copier.</p>
+<ol><li>The screen says <em>paper jam</em> again.</li><li>Open the back panel to clear the <em>paper jam</em>.</li><li>We've had three <em>paper jams</em> this morning.</li></ol>
+<hr>
+<h3 id="paper-tray">paper tray<a class="hash" href="#paper-tray" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər treɪ/ &middot; <em>PAY-pur TRAY</em></dd><dt>Русский</dt><dd>лоток для бумаги</dd><dt>Plural</dt><dd><em>paper trays</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sliding drawer that holds blank paper in a printer.</p>
+<ol><li>Somebody forgot to fill the <em>paper tray</em>.</li><li>Load the letterhead face down in the <em>paper tray</em>.</li><li>The printer has two <em>paper trays</em> for different sizes.</li></ol>
+<hr>
+<h3 id="printer-paper">printer paper<a class="hash" href="#printer-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntər ˌpeɪpər/ &middot; <em>PRIN-tur PAY-pur</em></dd><dt>Русский</dt><dd>бумага для принтера</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Ordinary white paper cut to fit a home or office printer.</p>
+<ol><li>Pick up some <em>printer paper</em> while you're out.</li><li>We're down to half a pack of <em>printer paper</em>.</li><li>This <em>printer paper</em> is too thin for double-sided printing.</li></ol>
+<hr>
+<h3 id="copy-paper">copy paper<a class="hash" href="#copy-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi ˌpeɪpər/ &middot; <em>KAH-pee PAY-pur</em></dd><dt>Русский</dt><dd>офисная бумага, бумага для копира</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Plain lightweight paper made for copiers and office printers.</p>
+<ol><li>The supply closet is full of <em>copy paper</em>.</li><li>Plain <em>copy paper</em> is fine for the draft.</li><li>A case of <em>copy paper</em> holds ten reams.</li></ol>
+<hr>
+<h3 id="photo-paper">photo paper<a class="hash" href="#photo-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊtoʊ ˌpeɪpər/ &middot; <em>FOH-toh PAY-pur</em></dd><dt>Русский</dt><dd>фотобумага</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thick coated paper made for printing photographs.</p>
+<ol><li>Print it on glossy <em>photo paper</em>.</li><li><em>Photo paper</em> costs about a dollar a sheet.</li><li>The colors look flat unless you use real <em>photo paper</em>.</li></ol>
+<hr>
+<h3 id="ream">ream<a class="hash" href="#ream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/riːm/ &middot; <em>REEM</em></dd><dt>Русский</dt><dd>пачка бумаги (500 листов)</dd><dt>Plural</dt><dd><em>reams</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A standard package of five hundred sheets of paper.</p>
+<ol><li>Grab a <em>ream</em> of paper from the closet.</li><li>A <em>ream</em> is five hundred sheets.</li><li>The report went through six <em>reams</em> of paper.</li></ol>
+<hr>
+<h3 id="print-job">print job<a class="hash" href="#print-job" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnt dʒɑːb/ &middot; <em>PRINT JAHB</em></dd><dt>Русский</dt><dd>задание на печать</dd><dt>Plural</dt><dd><em>print jobs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One batch of pages sent to a printer at a time.</p>
+<ol><li>Cancel that <em>print job</em> before it wastes the whole tray.</li><li>My <em>print job</em> is stuck in the queue.</li><li>There are four <em>print jobs</em> ahead of yours.</li></ol>
+<hr>
+<h3 id="print-run">print run<a class="hash" href="#print-run" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnt rʌn/ &middot; <em>PRINT RUN</em></dd><dt>Русский</dt><dd>тираж</dd><dt>Plural</dt><dd><em>print runs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The number of copies printed at one time.</p>
+<ol><li>The first <em>print run</em> was only two thousand copies.</li><li>They doubled the <em>print run</em> after the reviews came out.</li><li>Small <em>print runs</em> cost more per copy.</li></ol>
+<hr>
+<h3 id="printing-plate">printing plate<a class="hash" href="#printing-plate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntɪŋ pleɪt/ &middot; <em>PRIN-ting PLAYT</em></dd><dt>Русский</dt><dd>печатная форма, клише</dd><dt>Plural</dt><dd><em>printing plates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat metal sheet carrying the image that a press inks and prints from.</p>
+<ol><li>The <em>printing plate</em> is made fresh for every job.</li><li>A scratch on the <em>printing plate</em> shows up on every copy.</li><li>The old aluminum <em>printing plates</em> get recycled.</li></ol>
+<hr>
+<h3 id="rubber-stamp">rubber stamp<a class="hash" href="#rubber-stamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌrʌbər ˈstæmp/ &middot; <em>RUB-ur STAMP</em></dd><dt>Русский</dt><dd>резиновый штамп, печать</dd><dt>Plural</dt><dd><em>rubber stamps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hand tool with raised rubber letters used to print a mark on paper.</p>
+<ol><li>She marked the invoice PAID with a <em>rubber stamp</em>.</li><li>The clerk reached for his <em>rubber stamp</em>.</li><li>A drawer full of old <em>rubber stamps</em> sat by the window.</li></ol>
+<hr>
+<h3 id="ink-pad">ink pad<a class="hash" href="#ink-pad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋk pæd/ &middot; <em>INK PAD</em></dd><dt>Русский</dt><dd>штемпельная подушечка</dd><dt>Plural</dt><dd><em>ink pads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shallow box of soaked felt that you press a stamp onto.</p>
+<ol><li>The <em>ink pad</em> has dried out.</li><li>Press the stamp on the <em>ink pad</em> first.</li><li>The kids got two <em>ink pads</em> with the stamp set.</li></ol>
+<hr>
+<h3 id="inkwell">inkwell<a class="hash" href="#inkwell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪŋkwɛl/ &middot; <em>INK-wel</em></dd><dt>Русский</dt><dd>чернильница</dd><dt>Plural</dt><dd><em>inkwells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small pot of ink that a pen is dipped into.</p>
+<ol><li>The old desk still has a hole for an <em>inkwell</em>.</li><li>He dipped the nib in the <em>inkwell</em> and kept writing.</li><li>The museum displays glass <em>inkwells</em> from the 1800s.</li></ol>
+<hr>
+<h3 id="paper-cutter">paper cutter<a class="hash" href="#paper-cutter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər ˌkʌtər/ &middot; <em>PAY-pur KUT-ur</em></dd><dt>Русский</dt><dd>резак для бумаги</dd><dt>Plural</dt><dd><em>paper cutters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American; the British normally call this a guillotine.</dd></dl>
+<p>A board with a long hinged blade for trimming stacks of paper.</p>
+<ol><li>Trim the edges on the <em>paper cutter</em>.</li><li>Watch your fingers on that <em>paper cutter</em>.</li><li>The bindery has two heavy <em>paper cutters</em>.</li></ol>
+<hr>
+<h3 id="paper-shredder">paper shredder<a class="hash" href="#paper-shredder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər ˌʃrɛdər/ &middot; <em>PAY-pur SHRED-ur</em></dd><dt>Русский</dt><dd>шредер, уничтожитель бумаг</dd><dt>Plural</dt><dd><em>paper shredders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that cuts documents into thin strips so they can't be read.</p>
+<ol><li>Put the old statements through the <em>paper shredder</em>.</li><li>The <em>paper shredder</em> jammed on a stapled packet.</li><li>Every desk on that floor has its own <em>paper shredder</em>.</li></ol>
+<hr>
+<h3 id="paper-mill">paper mill<a class="hash" href="#paper-mill" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər mɪl/ &middot; <em>PAY-pur MIL</em></dd><dt>Русский</dt><dd>бумажная фабрика</dd><dt>Plural</dt><dd><em>paper mills</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A factory that turns wood pulp into paper.</p>
+<ol><li>His grandfather worked at the <em>paper mill</em>.</li><li>You can smell the <em>paper mill</em> from the highway.</li><li>Three <em>paper mills</em> in the state shut down last year.</li></ol>
+<hr>
+<h3 id="carbon-copy">carbon copy<a class="hash" href="#carbon-copy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkɑːrbən ˈkɑːpi/ &middot; <em>KAR-buhn KAH-pee</em></dd><dt>Русский</dt><dd>копия под копирку</dd><dt>Plural</dt><dd><em>carbon copies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A duplicate made at the same time by writing through a sheet of carbon paper.</p>
+<ol><li>Keep the yellow <em>carbon copy</em> for your records.</li><li>The receipt book makes a <em>carbon copy</em> of every sale.</li><li>She filed the <em>carbon copies</em> of all her letters.</li></ol>
+<hr>
+<h3 id="carbon-paper">carbon paper<a class="hash" href="#carbon-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrbən ˌpeɪpər/ &middot; <em>KAR-buhn PAY-pur</em></dd><dt>Русский</dt><dd>копировальная бумага, копирка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin paper coated with dark pigment that transfers writing to the sheet below.</p>
+<ol><li>Slide a sheet of <em>carbon paper</em> between the forms.</li><li>Nobody under thirty has used <em>carbon paper</em>.</li><li>The <em>carbon paper</em> left smudges on her fingers.</li></ol>
+<hr>
+<h3 id="construction-paper">construction paper<a class="hash" href="#construction-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈstrʌkʃən ˌpeɪpər/ &middot; <em>kuhn-STRUK-shuhn PAY-pur</em></dd><dt>Русский</dt><dd>цветная плотная бумага (для поделок)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>An American term; British schools call it sugar paper.</dd></dl>
+<p>Thick colored paper used by children for cutting and pasting.</p>
+<ol><li>The class made turkeys out of <em>construction paper</em>.</li><li>We need red and orange <em>construction paper</em>.</li><li><em>Construction paper</em> fades fast in the sun.</li></ol>
+<hr>
+<h3 id="scrap-paper">scrap paper<a class="hash" href="#scrap-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskræp ˌpeɪpər/ &middot; <em>SKRAP PAY-pur</em></dd><dt>Русский</dt><dd>черновик, бумага для черновиков</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Used or leftover paper kept for rough notes.</p>
+<ol><li>Work it out on <em>scrap paper</em> first.</li><li>There's a box of <em>scrap paper</em> by the printer.</li><li>He wrote the address on a piece of <em>scrap paper</em>.</li></ol>
+<hr>
+<h3 id="tracing-paper">tracing paper<a class="hash" href="#tracing-paper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtreɪsɪŋ ˌpeɪpər/ &middot; <em>TRAY-sing PAY-pur</em></dd><dt>Русский</dt><dd>калька</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thin see-through paper used for copying a drawing by hand.</p>
+<ol><li>Lay the <em>tracing paper</em> over the sketch.</li><li>A roll of <em>tracing paper</em> costs a few dollars.</li><li>The plans came with a sheet of <em>tracing paper</em> on top.</li></ol>
+<hr>
+<h3 id="cardstock">cardstock<a class="hash" href="#cardstock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːrdstɑːk/ &middot; <em>KARD-stahk</em></dd><dt>Русский</dt><dd>плотная бумага, картон для печати</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American; the British usually just say card.</dd></dl>
+<p>Stiff heavy paper used for covers, cards, and invitations.</p>
+<ol><li>Print the invitations on white <em>cardstock</em>.</li><li>The cover is heavy <em>cardstock</em>, not regular paper.</li><li>This <em>cardstock</em> is too thick for the printer.</li></ol>
+<hr>
+<h3 id="newsprint">newsprint<a class="hash" href="#newsprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːzprɪnt/ &middot; <em>NOOZ-print</em></dd><dt>Русский</dt><dd>газетная бумага</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>American NOOZ-, not the British NYOOZ-.</dd></dl>
+<p>The cheap rough paper that newspapers are printed on.</p>
+<ol><li><em>Newsprint</em> turns yellow in a couple of years.</li><li>The comics were printed on gray <em>newsprint</em>.</li><li>The price of <em>newsprint</em> went up again.</li></ol>
+<hr>
+<h3 id="letterhead">letterhead<a class="hash" href="#letterhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛtərhɛd/ &middot; <em>LET-ur-hed</em></dd><dt>Русский</dt><dd>фирменный бланк</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Paper printed at the top with an organization's name and address.</p>
+<ol><li>The offer came on company <em>letterhead</em>.</li><li>Type the reference letter on department <em>letterhead</em>.</li><li>We ordered new <em>letterhead</em> after the logo changed.</li></ol>
+<hr>
+<h3 id="paper-stock">paper stock<a class="hash" href="#paper-stock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪpər stɑːk/ &middot; <em>PAY-pur STAHK</em></dd><dt>Русский</dt><dd>сорт бумаги (для печати)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The particular kind and weight of paper a job is printed on.</p>
+<ol><li>The brochure needs a heavier <em>paper stock</em>.</li><li>They chose an uncoated <em>paper stock</em> for the novel.</li><li>Ask the printer what <em>paper stock</em> he recommends.</li></ol>
+<hr>
+<h3 id="pulp">pulp<a class="hash" href="#pulp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/pʌlp/ &middot; <em>PULP</em></dd><dt>Русский</dt><dd>бумажная масса, целлюлоза</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft wet mass of wood fiber that paper is made from.</p>
+<ol><li>The mill grinds the logs into <em>pulp</em>.</li><li>Recycled paper is mixed back into the <em>pulp</em>.</li><li>Wet <em>pulp</em> is pressed and dried into sheets.</li></ol>
+<hr>
+<h3 id="vellum">vellum<a class="hash" href="#vellum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɛləm/ &middot; <em>VEL-uhm</em></dd><dt>Русский</dt><dd>веленевая бумага; пергамент</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fine smooth writing material, originally calfskin and now a heavy translucent paper.</p>
+<ol><li>The medieval manuscript was written on <em>vellum</em>.</li><li>The invitations came wrapped in a sheet of <em>vellum</em>.</li><li><em>Vellum</em> has a slightly waxy feel.</li></ol>
+<hr>
+<h3 id="title-page">title page<a class="hash" href="#title-page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪtəl peɪdʒ/ &middot; <em>TY-tuhl PAYJ</em></dd><dt>Русский</dt><dd>титульный лист</dd><dt>Plural</dt><dd><em>title pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The page at the front of a book giving its title, author, and publisher.</p>
+<ol><li>He signed the book on the <em>title page</em>.</li><li>The <em>title page</em> lists both translators.</li><li>Early editions have very plain <em>title pages</em>.</li></ol>
+<hr>
+<h3 id="table-of-contents">table of contents<a class="hash" href="#table-of-contents" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌteɪbəl əv ˈkɑːntɛnts/ &middot; <em>TAY-buhl uhv KAHN-tents</em></dd><dt>Русский</dt><dd>оглавление, содержание</dd><dt>Plural</dt><dd><em>tables of contents</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Plural is tables of contents — the s moves to table, not to contents.</dd></dl>
+<p>The list at the front of a book showing chapters and their page numbers.</p>
+<ol><li>Check the <em>table of contents</em> for the chapter on grammar.</li><li>The <em>table of contents</em> runs three pages.</li><li>Textbooks usually have detailed <em>tables of contents</em>.</li></ol>
+<hr>
+<h3 id="copyright-page">copyright page<a class="hash" href="#copyright-page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpiraɪt peɪdʒ/ &middot; <em>KAH-pee-ryte PAYJ</em></dd><dt>Русский</dt><dd>оборот титульного листа, страница с выходными данными</dd><dt>Plural</dt><dd><em>copyright pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The page at the front of a book listing the publisher, date, and legal notices.</p>
+<ol><li>The printing history is on the <em>copyright page</em>.</li><li>You can tell it's a first edition from the <em>copyright page</em>.</li><li>Nobody reads <em>copyright pages</em> except collectors.</li></ol>
+<hr>
+<h3 id="front-cover">front cover<a class="hash" href="#front-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfrʌnt ˈkʌvər/ &middot; <em>frunt KUV-ur</em></dd><dt>Русский</dt><dd>передняя обложка</dd><dt>Plural</dt><dd><em>front covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outside face at the beginning of a book or magazine.</p>
+<ol><li>Her name is right on the <em>front cover</em>.</li><li>The <em>front cover</em> is scuffed but the pages are clean.</li><li>All four <em>front covers</em> used the same photograph.</li></ol>
+<hr>
+<h3 id="back-cover">back cover<a class="hash" href="#back-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbæk ˈkʌvər/ &middot; <em>bak KUV-ur</em></dd><dt>Русский</dt><dd>задняя обложка</dd><dt>Plural</dt><dd><em>back covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The outside face at the end of a book or magazine.</p>
+<ol><li>The blurbs are printed on the <em>back cover</em>.</li><li>The price is in the corner of the <em>back cover</em>.</li><li>Magazine <em>back covers</em> sell for a lot in advertising.</li></ol>
+<hr>
+<h3 id="book-cover">book cover<a class="hash" href="#book-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊk ˌkʌvər/ &middot; <em>BUUK KUV-ur</em></dd><dt>Русский</dt><dd>обложка книги</dd><dt>Plural</dt><dd><em>book covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stiff outer part that protects the pages of a book.</p>
+<ol><li>Don't judge a <em>book cover</em> by the color.</li><li>The <em>book cover</em> was designed by an artist in Brooklyn.</li><li>The library reinforces its <em>book covers</em> with clear tape.</li></ol>
+<hr>
+<h3 id="dust-jacket">dust jacket<a class="hash" href="#dust-jacket" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌst ˌdʒækət/ &middot; <em>DUST JAK-it</em></dd><dt>Русский</dt><dd>суперобложка</dd><dt>Plural</dt><dd><em>dust jackets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The loose paper wrapper that slips over a hardcover book.</p>
+<ol><li>The <em>dust jacket</em> is torn at the top.</li><li>A first edition is worth much more with its <em>dust jacket</em>.</li><li>He takes the <em>dust jackets</em> off before he reads.</li></ol>
+<hr>
+<h3 id="page-number">page number<a class="hash" href="#page-number" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪdʒ ˌnʌmbər/ &middot; <em>PAYJ NUM-bur</em></dd><dt>Русский</dt><dd>номер страницы</dd><dt>Plural</dt><dd><em>page numbers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The figure printed on a page to show its place in the book.</p>
+<ol><li>Give me the <em>page number</em> so I can find the quote.</li><li>The <em>page number</em> sits in the outer corner.</li><li>The <em>page numbers</em> start over in the appendix.</li></ol>
+<hr>
+<h3 id="page-count">page count<a class="hash" href="#page-count" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪdʒ kaʊnt/ &middot; <em>PAYJ KOWNT</em></dd><dt>Русский</dt><dd>количество страниц, объём издания</dd><dt>Plural</dt><dd><em>page counts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The total number of pages in a document or book.</p>
+<ol><li>We need to cut the <em>page count</em> by fifty.</li><li>A higher <em>page count</em> means a higher printing bill.</li><li>The two editions have very different <em>page counts</em>.</li></ol>
+<hr>
+<h3 id="blank-page">blank page<a class="hash" href="#blank-page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌblæŋk ˈpeɪdʒ/ &middot; <em>blank PAYJ</em></dd><dt>Русский</dt><dd>чистая страница, пустая страница</dd><dt>Plural</dt><dd><em>blank pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A page with nothing printed on it.</p>
+<ol><li>There's a <em>blank page</em> between the chapters.</li><li>Nothing is scarier than a <em>blank page</em>.</li><li>The printer spat out six <em>blank pages</em>.</li></ol>
+<hr>
+<h3 id="facing-page">facing page<a class="hash" href="#facing-page" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfeɪsɪŋ ˈpeɪdʒ/ &middot; <em>FAY-sing PAYJ</em></dd><dt>Русский</dt><dd>страница напротив (на развороте)</dd><dt>Plural</dt><dd><em>facing pages</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The page opposite the one you are reading in an open book.</p>
+<ol><li>The map is on the <em>facing page</em>.</li><li>The translation runs on the <em>facing page</em>.</li><li>The photographs and captions sit on <em>facing pages</em>.</li></ol>
+<hr>
+<h3 id="flyleaf">flyleaf<a class="hash" href="#flyleaf" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈflaɪliːf/ &middot; <em>FLY-leef</em></dd><dt>Русский</dt><dd>форзацный лист (чистый лист в начале книги)</dd><dt>Plural</dt><dd><em>flyleaves</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: flyleaves, not flyleafs.</dd></dl>
+<p>A blank leaf at the very front or back of a bound book.</p>
+<ol><li>Her grandmother's name was written on the <em>flyleaf</em>.</li><li>He jotted the date on the <em>flyleaf</em>.</li><li>Someone had torn out both <em>flyleaves</em>.</li></ol>
+<hr>
+<h3 id="endpaper">endpaper<a class="hash" href="#endpaper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛndˌpeɪpər/ &middot; <em>END-pay-pur</em></dd><dt>Русский</dt><dd>форзац</dd><dt>Plural</dt><dd><em>endpapers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The sheet glued between a book's cover and its first or last page.</p>
+<ol><li>The <em>endpaper</em> is printed with a map of the island.</li><li>Glue had stained the <em>endpaper</em> brown.</li><li>The atlas has marbled <em>endpapers</em>.</li></ol>
+<hr>
+<h3 id="bookplate">bookplate<a class="hash" href="#bookplate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkpleɪt/ &middot; <em>BUUK-playt</em></dd><dt>Русский</dt><dd>экслибрис</dd><dt>Plural</dt><dd><em>bookplates</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small printed label pasted inside a book to show who owns it.</p>
+<ol><li>There's a <em>bookplate</em> from the old town library inside.</li><li>He had a <em>bookplate</em> made with his initials on it.</li><li>Collectors trade antique <em>bookplates</em>.</li></ol>
+<hr>
+<h3 id="frontispiece">frontispiece<a class="hash" href="#frontispiece" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfrʌntəspiːs/ &middot; <em>FRUN-tuh-spees</em></dd><dt>Русский</dt><dd>фронтиспис</dd><dt>Plural</dt><dd><em>frontispieces</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Not front-is-piece: the first syllable sounds like front — FRUN-tuh-spees.</dd></dl>
+<p>An illustration facing the title page of a book.</p>
+<ol><li>The <em>frontispiece</em> is a portrait of the author.</li><li>An engraved <em>frontispiece</em> opens the volume.</li><li>Both <em>frontispieces</em> were printed from the same plate.</li></ol>
+<hr>
+<h3 id="colophon">colophon<a class="hash" href="#colophon" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːləfən/ &middot; <em>KAH-luh-fuhn</em></dd><dt>Русский</dt><dd>колофон, издательская марка</dd><dt>Plural</dt><dd><em>colophons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stress the first syllable: KAH-luh-fuhn, not kuh-LOH-fahn.</dd></dl>
+<p>A note or emblem in a book giving details about how it was made.</p>
+<ol><li>The <em>colophon</em> names the typeface and the paper.</li><li>The publisher's <em>colophon</em> is a little sailing ship.</li><li>Fine presses print elaborate <em>colophons</em>.</li></ol>
+<hr>
+<h3 id="folio">folio<a class="hash" href="#folio" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfoʊlioʊ/ &middot; <em>FOH-lee-oh</em></dd><dt>Русский</dt><dd>фолиант, книга большого формата</dd><dt>Plural</dt><dd><em>folios</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large book made from sheets folded once, or a sheet folded that way.</p>
+<ol><li>The library owns a Shakespeare <em>folio</em>.</li><li>The atlas is a heavy leather <em>folio</em>.</li><li>Rare <em>folios</em> are kept in a locked case.</li></ol>
+<hr>
+<h3 id="recto">recto<a class="hash" href="#recto" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrɛktoʊ/ &middot; <em>REK-toh</em></dd><dt>Русский</dt><dd>лицевая (правая) страница листа</dd><dt>Plural</dt><dd><em>rectos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The right-hand page of an open book, or the front of a leaf.</p>
+<ol><li>Every chapter opens on a <em>recto</em>.</li><li>The illustration is printed on the <em>recto</em>.</li><li>Odd page numbers always fall on <em>rectos</em>.</li></ol>
+<hr>
+<h3 id="verso">verso<a class="hash" href="#verso" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvɜːrsoʊ/ &middot; <em>VUR-soh</em></dd><dt>Русский</dt><dd>оборотная (левая) страница листа</dd><dt>Plural</dt><dd><em>versos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The left-hand page of an open book, or the back of a leaf.</p>
+<ol><li>The copyright notice sits on the <em>verso</em> of the title page.</li><li>Nothing is printed on the <em>verso</em>.</li><li>Even numbers land on the <em>versos</em>.</li></ol>
+<hr>
+<h3 id="bookbinding">bookbinding<a class="hash" href="#bookbinding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkˌbaɪndɪŋ/ &middot; <em>BUUK-byne-ding</em></dd><dt>Русский</dt><dd>переплётное дело, переплёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of fastening printed pages together inside covers.</p>
+<ol><li>She takes a class in <em>bookbinding</em> on Saturdays.</li><li><em>Bookbinding</em> by hand takes years to learn.</li><li>The shop still does traditional <em>bookbinding</em>.</li></ol>
+<hr>
+<h3 id="bindery">bindery<a class="hash" href="#bindery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbaɪndəri/ &middot; <em>BYNE-duh-ree</em></dd><dt>Русский</dt><dd>переплётная мастерская</dd><dt>Plural</dt><dd><em>binderies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A workshop where printed sheets are folded, sewn, and bound into books.</p>
+<ol><li>The sheets go from the press to the <em>bindery</em>.</li><li>The <em>bindery</em> runs a second shift in the fall.</li><li>Only a few <em>binderies</em> still sew by hand.</li></ol>
+<hr>
+<h3 id="spiral-binding">spiral binding<a class="hash" href="#spiral-binding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspaɪrəl ˌbaɪndɪŋ/ &middot; <em>SPY-ruhl BYNE-ding</em></dd><dt>Русский</dt><dd>переплёт на пружине, спиральный переплёт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A way of holding pages together with a coil of wire or plastic through punched holes.</p>
+<ol><li>Ask for <em>spiral binding</em> so it lies flat.</li><li>The cookbook has <em>spiral binding</em>.</li><li><em>Spiral binding</em> costs three dollars extra.</li></ol>
+<hr>
+<h3 id="perfect-binding">perfect binding<a class="hash" href="#perfect-binding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌpɜːrfɪkt ˈbaɪndɪŋ/ &middot; <em>PUR-fikt BYNE-ding</em></dd><dt>Русский</dt><dd>клеевой переплёт, бесшвейное скрепление</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A binding method in which the pages are glued at the spine instead of sewn.</p>
+<ol><li>Most paperbacks use <em>perfect binding</em>.</li><li><em>Perfect binding</em> is cheap but the spine can crack.</li><li>The printer quoted us for <em>perfect binding</em>.</li></ol>
+<hr>
+<h3 id="softcover">softcover<a class="hash" href="#softcover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːftˌkʌvər/ &middot; <em>SAWFT-kuv-ur</em></dd><dt>Русский</dt><dd>книга в мягкой обложке</dd><dt>Plural</dt><dd><em>softcovers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book bound in flexible paper covers rather than boards.</p>
+<ol><li>The <em>softcover</em> comes out in the spring.</li><li>I'd rather carry a <em>softcover</em> on the plane.</li><li>The publisher printed both hardcovers and <em>softcovers</em>.</li></ol>
+<hr>
+<h3 id="deckle-edge">deckle edge<a class="hash" href="#deckle-edge" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛkəl ɛdʒ/ &middot; <em>DEK-uhl EJ</em></dd><dt>Русский</dt><dd>необрезанный край бумаги</dd><dt>Plural</dt><dd><em>deckle edges</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rough untrimmed edge left on a sheet of handmade or fine paper.</p>
+<ol><li>The pages have a <em>deckle edge</em> on the outside.</li><li>A <em>deckle edge</em> makes the book feel handmade.</li><li>The stationery came with soft <em>deckle edges</em>.</li></ol>
+<hr>
+<h3 id="typography">typography<a class="hash" href="#typography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪˈpɑːɡrəfi/ &middot; <em>ty-PAH-gruh-fee</em></dd><dt>Русский</dt><dd>типографика, оформление шрифта</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress the second syllable: ty-PAH-gruh-fee.</dd></dl>
+<p>The art of arranging printed letters so text looks right and reads well.</p>
+<ol><li>The <em>typography</em> on that poster is beautiful.</li><li>He teaches <em>typography</em> at the art school.</li><li>Good <em>typography</em> is invisible to most readers.</li></ol>
+<hr>
+<h3 id="typesetting">typesetting<a class="hash" href="#typesetting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪpˌsɛtɪŋ/ &middot; <em>TYPE-set-ing</em></dd><dt>Русский</dt><dd>набор текста, вёрстка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of arranging text into lines and pages ready for printing.</p>
+<ol><li>The <em>typesetting</em> took two weeks.</li><li>Computers replaced hot-metal <em>typesetting</em>.</li><li>There are still errors from the <em>typesetting</em>.</li></ol>
+<hr>
+<h3 id="typesetter">typesetter<a class="hash" href="#typesetter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtaɪpˌsɛtər/ &middot; <em>TYPE-set-ur</em></dd><dt>Русский</dt><dd>наборщик</dd><dt>Plural</dt><dd><em>typesetters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who sets text into type for printing.</p>
+<ol><li>The <em>typesetter</em> caught the mistake before we did.</li><li>His father was a <em>typesetter</em> at the paper.</li><li>The union protected the <em>typesetters</em> for years.</li></ol>
+<hr>
+<h3 id="type">type<a class="hash" href="#type" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/taɪp/ &middot; <em>TYPE</em></dd><dt>Русский</dt><dd>шрифт, литеры</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Printed letters and characters considered as a whole.</p>
+<ol><li>The book is set in ten-point <em>type</em>.</li><li>The <em>type</em> is too small for me to read comfortably.</li><li>Old presses printed from metal <em>type</em>.</li></ol>
+<hr>
+<h3 id="movable-type">movable type<a class="hash" href="#movable-type" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌmuːvəbəl ˈtaɪp/ &middot; <em>MOO-vuh-buhl TYPE</em></dd><dt>Русский</dt><dd>наборный шрифт, подвижные литеры</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Separate metal letters that can be arranged, printed, and used again.</p>
+<ol><li><em>Movable type</em> made cheap books possible.</li><li>The shop still prints with <em>movable type</em>.</li><li>Each letter of <em>movable type</em> was cast by hand.</li></ol>
+<hr>
+<h3 id="serif">serif<a class="hash" href="#serif" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛrɪf/ &middot; <em>SEH-rif</em></dd><dt>Русский</dt><dd>засечка (в шрифте)</dd><dt>Plural</dt><dd><em>serifs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small finishing stroke at the end of a letter's main line.</p>
+<ol><li>Look at the tiny <em>serif</em> at the foot of the letter.</li><li>This font has a very sharp <em>serif</em>.</li><li>Screens used to blur fine <em>serifs</em>.</li></ol>
+<hr>
+<h3 id="sans-serif">sans serif<a class="hash" href="#sans-serif" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsæn ˈsɛrɪf/ &middot; <em>san-SEH-rif</em></dd><dt>Русский</dt><dd>шрифт без засечек, гротеск</dd><dt>Plural</dt><dd><em>sans serifs</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>From French: the s of sans is silent — san-SEH-rif, not sanz.</dd></dl>
+<p>A typeface whose letters have no small finishing strokes.</p>
+<ol><li>Set the headings in a clean <em>sans serif</em>.</li><li>Helvetica is the best-known <em>sans serif</em>.</li><li>Road signs use <em>sans serifs</em> because they read faster.</li></ol>
+<hr>
+<h3 id="italic">italic<a class="hash" href="#italic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈtælɪk/ &middot; <em>ih-TAL-ik</em></dd><dt>Русский</dt><dd>курсив</dd><dt>Plural</dt><dd><em>italics</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Nearly always used in the plural: in italics, not in italic.</dd></dl>
+<p>A slanted style of type used for emphasis or for titles.</p>
+<ol><li>Book titles go in <em>italics</em>.</li><li>Put the foreign words in <em>italics</em>.</li><li>He uses <em>italics</em> far too often.</li></ol>
+<hr>
+<h3 id="font-size">font size<a class="hash" href="#font-size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːnt saɪz/ &middot; <em>FAHNT SYZE</em></dd><dt>Русский</dt><dd>размер шрифта, кегль</dd><dt>Plural</dt><dd><em>font sizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How large the printed letters are.</p>
+<ol><li>Bump the <em>font size</em> up to twelve.</li><li>The <em>font size</em> on the label is impossible to read.</li><li>Try one of the larger <em>font sizes</em>.</li></ol>
+<hr>
+<h3 id="font-family">font family<a class="hash" href="#font-family" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːnt ˌfæməli/ &middot; <em>FAHNT FAM-uh-lee</em></dd><dt>Русский</dt><dd>гарнитура, семейство шрифтов</dd><dt>Plural</dt><dd><em>font families</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of related typefaces sharing one design in different weights and styles.</p>
+<ol><li>The whole report uses a single <em>font family</em>.</li><li>That <em>font family</em> includes nine weights.</li><li>Mixing three <em>font families</em> on one page looks messy.</li></ol>
+<hr>
+<h3 id="point-size">point size<a class="hash" href="#point-size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪnt saɪz/ &middot; <em>POYNT SYZE</em></dd><dt>Русский</dt><dd>кегль (размер шрифта в пунктах)</dd><dt>Plural</dt><dd><em>point sizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The height of type measured in points.</p>
+<ol><li>The body text is set at a <em>point size</em> of eleven.</li><li>Check the <em>point size</em> before you send it to print.</li><li>Large-print books use much bigger <em>point sizes</em>.</li></ol>
+<hr>
+<h3 id="kerning">kerning<a class="hash" href="#kerning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɜːrnɪŋ/ &middot; <em>KUR-ning</em></dd><dt>Русский</dt><dd>кернинг (расстояние между парой букв)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The adjustment of space between two individual letters.</p>
+<ol><li>The <em>kerning</em> on that sign is terrible.</li><li>Designers argue about <em>kerning</em> for hours.</li><li>Fix the <em>kerning</em> between the A and the V.</li></ol>
+<hr>
+<h3 id="leading">leading<a class="hash" href="#leading" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛdɪŋ/ &middot; <em>LED-ing</em></dd><dt>Русский</dt><dd>интерлиньяж (расстояние между строками)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Rhymes with wedding, not with reading — the name comes from strips of lead.</dd></dl>
+<p>The vertical space between lines of type.</p>
+<ol><li>Open up the <em>leading</em> so the page breathes.</li><li>Tight <em>leading</em> makes long text hard to read.</li><li>The <em>leading</em> is set two points above the type size.</li></ol>
+<hr>
+<h3 id="ligature">ligature<a class="hash" href="#ligature" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪɡətʃər/ &middot; <em>LIG-uh-chur</em></dd><dt>Русский</dt><dd>лигатура (слитное написание букв)</dd><dt>Plural</dt><dd><em>ligatures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Two or more letters joined into a single printed character.</p>
+<ol><li>The f and the i form a <em>ligature</em>.</li><li>This typeface has a lovely <em>ligature</em>.</li><li>Old books are full of <em>ligatures</em>.</li></ol>
+<hr>
+<h3 id="glyph">glyph<a class="hash" href="#glyph" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡlɪf/ &middot; <em>GLIF</em></dd><dt>Русский</dt><dd>глиф, начертание знака</dd><dt>Plural</dt><dd><em>glyphs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A single printed shape for a letter, number, or symbol.</p>
+<ol><li>The font is missing a <em>glyph</em> for that symbol.</li><li>Each <em>glyph</em> is drawn on a grid.</li><li>The typeface ships with two thousand <em>glyphs</em>.</li></ol>
+<hr>
+<h3 id="ascender">ascender<a class="hash" href="#ascender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈsɛndər/ &middot; <em>uh-SEN-dur</em></dd><dt>Русский</dt><dd>верхний выносной элемент буквы</dd><dt>Plural</dt><dd><em>ascenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a lowercase letter that rises above the main body, as in b or d.</p>
+<ol><li>The letter h has a tall <em>ascender</em>.</li><li>Shorten the <em>ascender</em> and the font looks cramped.</li><li>The <em>ascenders</em> almost touch the line above.</li></ol>
+<hr>
+<h3 id="descender">descender<a class="hash" href="#descender" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈsɛndər/ &middot; <em>dih-SEN-dur</em></dd><dt>Русский</dt><dd>нижний выносной элемент буквы</dd><dt>Plural</dt><dd><em>descenders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a lowercase letter that drops below the line, as in g or p.</p>
+<ol><li>The tail of the y is its <em>descender</em>.</li><li>The <em>descender</em> gets cut off in this box.</li><li>Long <em>descenders</em> need extra space between lines.</li></ol>
+<hr>
+<h3 id="x-height">x-height<a class="hash" href="#x-height" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛks haɪt/ &middot; <em>EKS-hyte</em></dd><dt>Русский</dt><dd>рост строчных букв</dd><dt>Plural</dt><dd><em>x-heights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The height of a lowercase letter without its rising or falling parts.</p>
+<ol><li>This face has a large <em>x-height</em>, so it reads well small.</li><li>Compare the <em>x-height</em> of the two fonts.</li><li>Fonts with tiny <em>x-heights</em> look elegant but faint.</li></ol>
+<hr>
+<h3 id="baseline">baseline<a class="hash" href="#baseline" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪslaɪn/ &middot; <em>BAYS-lyne</em></dd><dt>Русский</dt><dd>базовая линия (шрифта)</dd><dt>Plural</dt><dd><em>baselines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The invisible line that letters sit on.</p>
+<ol><li>The o dips slightly below the <em>baseline</em>.</li><li>Align the caption to the <em>baseline</em> of the text.</li><li>The two columns share the same <em>baselines</em>.</li></ol>
+<hr>
+<h3 id="drop-cap">drop cap<a class="hash" href="#drop-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɑːp kæp/ &middot; <em>DRAHP KAP</em></dd><dt>Русский</dt><dd>буквица</dd><dt>Plural</dt><dd><em>drop caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large opening letter set down into the first lines of a paragraph.</p>
+<ol><li>Each chapter starts with a <em>drop cap</em>.</li><li>The <em>drop cap</em> runs three lines deep.</li><li>Old printed books used decorated <em>drop caps</em>.</li></ol>
+<hr>
+<h3 id="capital-letter">capital letter<a class="hash" href="#capital-letter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæpətəl ˌlɛtər/ &middot; <em>KAP-uh-tuhl LET-ur</em></dd><dt>Русский</dt><dd>заглавная буква, прописная буква</dd><dt>Plural</dt><dd><em>capital letters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large form of a letter used to begin a sentence or a name.</p>
+<ol><li>Start the sentence with a <em>capital letter</em>.</li><li>The sign was painted in one huge <em>capital letter</em>.</li><li>Fill out the form in <em>capital letters</em>.</li></ol>
+<hr>
+<h3 id="line-spacing">line spacing<a class="hash" href="#line-spacing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪn ˌspeɪsɪŋ/ &middot; <em>LYNE SPAY-sing</em></dd><dt>Русский</dt><dd>межстрочный интервал</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The amount of blank room left between lines of text.</p>
+<ol><li>The professor wants double <em>line spacing</em>.</li><li>Tighten the <em>line spacing</em> to save a page.</li><li>The <em>line spacing</em> makes the essay look padded.</li></ol>
+<hr>
+<h3 id="white-space">white space<a class="hash" href="#white-space" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwaɪt speɪs/ &middot; <em>WYTE SPAYS</em></dd><dt>Русский</dt><dd>пустое пространство (в вёрстке), воздух</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The empty area on a page around text and pictures.</p>
+<ol><li>The layout needs more <em>white space</em>.</li><li>Don't be afraid of <em>white space</em> on the cover.</li><li>Cheap ads cram every inch and leave no <em>white space</em>.</li></ol>
+<hr>
+<h3 id="justification">justification<a class="hash" href="#justification" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒʌstəfəˈkeɪʃən/ &middot; <em>jus-tuh-fuh-KAY-shuhn</em></dd><dt>Русский</dt><dd>выключка, выравнивание текста по ширине</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The spacing of words so lines end evenly at both margins.</p>
+<ol><li>Turn off <em>justification</em> and use a ragged right edge.</li><li>Bad <em>justification</em> leaves rivers of white down the column.</li><li><em>Justification</em> works better with hyphens turned on.</li></ol>
+<hr>
+<h3 id="hyphenation">hyphenation<a class="hash" href="#hyphenation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪfəˈneɪʃən/ &middot; <em>hy-fuh-NAY-shuhn</em></dd><dt>Русский</dt><dd>расстановка переносов</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The breaking of words with a hyphen at the end of a line.</p>
+<ol><li>Turn on <em>hyphenation</em> for narrow columns.</li><li>The <em>hyphenation</em> split the name in a strange place.</li><li>Newspapers rely on <em>hyphenation</em> to fill their lines.</li></ol>
+<hr>
+<h3 id="line-break">line break<a class="hash" href="#line-break" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlaɪn breɪk/ &middot; <em>LYNE BRAYK</em></dd><dt>Русский</dt><dd>перенос строки, разрыв строки</dd><dt>Plural</dt><dd><em>line breaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The point where one line of text ends and the next begins.</p>
+<ol><li>Put a <em>line break</em> after the address.</li><li>That <em>line break</em> falls in an awkward spot.</li><li>The poem's <em>line breaks</em> change the whole rhythm.</li></ol>
+<hr>
+<h3 id="page-break">page break<a class="hash" href="#page-break" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪdʒ breɪk/ &middot; <em>PAYJ BRAYK</em></dd><dt>Русский</dt><dd>разрыв страницы</dd><dt>Plural</dt><dd><em>page breaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The point where text stops on one page and continues on the next.</p>
+<ol><li>Insert a <em>page break</em> before the appendix.</li><li>The table got split by a <em>page break</em>.</li><li>Check all the <em>page breaks</em> before printing.</li></ol>
+<hr>
+<h3 id="header">header<a class="hash" href="#header" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdər/ &middot; <em>HED-ur</em></dd><dt>Русский</dt><dd>верхний колонтитул</dd><dt>Plural</dt><dd><em>headers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of text repeated at the top of every page.</p>
+<ol><li>Put the chapter title in the <em>header</em>.</li><li>The <em>header</em> shows the date on every page.</li><li>The two sections use different <em>headers</em>.</li></ol>
+<hr>
+<h3 id="footer">footer<a class="hash" href="#footer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtər/ &middot; <em>FUUT-ur</em></dd><dt>Русский</dt><dd>нижний колонтитул</dd><dt>Plural</dt><dd><em>footers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of text repeated at the bottom of every page.</p>
+<ol><li>The page number goes in the <em>footer</em>.</li><li>Add the file name to the <em>footer</em>.</li><li>The <em>footers</em> fell off the last two pages.</li></ol>
+<hr>
+<h3 id="subhead">subhead<a class="hash" href="#subhead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbhɛd/ &middot; <em>SUB-hed</em></dd><dt>Русский</dt><dd>подзаголовок</dd><dt>Plural</dt><dd><em>subheads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small heading that breaks a long article into sections.</p>
+<ol><li>Add a <em>subhead</em> every few paragraphs.</li><li>The <em>subhead</em> gives away the ending.</li><li>Readers skim the <em>subheads</em> before they commit.</li></ol>
+<hr>
+<h3 id="masthead">masthead<a class="hash" href="#masthead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmæsthɛd/ &middot; <em>MAST-hed</em></dd><dt>Русский</dt><dd>выходные данные издания (список редакции)</dd><dt>Plural</dt><dd><em>mastheads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American use the masthead is the staff list; the British often mean the paper's name banner.</dd></dl>
+<p>The printed box in a paper or magazine listing its editors and publisher.</p>
+<ol><li>Her name is finally on the <em>masthead</em>.</li><li>Check the <em>masthead</em> to see who owns the paper.</li><li>Half the <em>mastheads</em> in town got shorter this year.</li></ol>
+<hr>
+<h3 id="centerfold">centerfold<a class="hash" href="#centerfold" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɛntərfoʊld/ &middot; <em>SEN-tur-fohld</em></dd><dt>Русский</dt><dd>центральный разворот (журнала)</dd><dt>Plural</dt><dd><em>centerfolds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American spelling center-; the British write centrefold.</dd></dl>
+<p>The large picture or spread printed across the middle pages of a magazine.</p>
+<ol><li>The <em>centerfold</em> is a photo of the whole team.</li><li>He tore out the <em>centerfold</em> and taped it up.</li><li>The magazine's <em>centerfolds</em> were always maps.</li></ol>
+<hr>
+<h3 id="letterpress">letterpress<a class="hash" href="#letterpress" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛtərprɛs/ &middot; <em>LET-ur-press</em></dd><dt>Русский</dt><dd>высокая печать</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Printing done by pressing paper against raised inked type.</p>
+<ol><li>The wedding invitations were done in <em>letterpress</em>.</li><li><em>Letterpress</em> leaves a slight dent you can feel.</li><li>She learned <em>letterpress</em> at a studio in Portland.</li></ol>
+<hr>
+<h3 id="offset-printing">offset printing<a class="hash" href="#offset-printing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːfsɛt ˌprɪntɪŋ/ &middot; <em>AWF-set PRIN-ting</em></dd><dt>Русский</dt><dd>офсетная печать</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Commercial printing in which ink goes from a plate to a rubber blanket and then to the paper.</p>
+<ol><li>Most magazines are made by <em>offset printing</em>.</li><li><em>Offset printing</em> gets cheap once you pass a thousand copies.</li><li>The plant does <em>offset printing</em> around the clock.</li></ol>
+<hr>
+<h3 id="screen-printing">screen printing<a class="hash" href="#screen-printing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskriːn ˌprɪntɪŋ/ &middot; <em>SKREEN PRIN-ting</em></dd><dt>Русский</dt><dd>трафаретная печать, шелкография</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Printing by pushing ink through a stencil stretched on fine mesh.</p>
+<ol><li>The T-shirts were done with <em>screen printing</em>.</li><li><em>Screen printing</em> lays down thick, bright color.</li><li>He runs a <em>screen printing</em> business out of his garage.</li></ol>
+<hr>
+<h3 id="lithography">lithography<a class="hash" href="#lithography" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɪˈθɑːɡrəfi/ &middot; <em>lih-THAH-gruh-fee</em></dd><dt>Русский</dt><dd>литография</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stress the second syllable: lih-THAH-gruh-fee.</dd></dl>
+<p>Printing from a flat stone or plate on which greasy ink sticks only to the drawn image.</p>
+<ol><li>The posters were made by <em>lithography</em>.</li><li><em>Lithography</em> was invented at the end of the 1700s.</li><li>She studied <em>lithography</em> for two semesters.</li></ol>
+<hr>
+<h3 id="etching">etching<a class="hash" href="#etching" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛtʃɪŋ/ &middot; <em>ECH-ing</em></dd><dt>Русский</dt><dd>офорт; травление</dd><dt>Plural</dt><dd><em>etchings</em></dd><dt>Countability</dt><dd>both — countable and uncountable with different meanings</dd></dl>
+<p>The process of cutting a design into metal with acid, or a print made that way.</p>
+<ol><li>A small <em>etching</em> hangs above the desk.</li><li>He learned <em>etching</em> from his teacher in Chicago.</li><li>The gallery sells signed <em>etchings</em>.</li></ol>
+<hr>
+<h3 id="woodcut">woodcut<a class="hash" href="#woodcut" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwʊdkʌt/ &middot; <em>WUUD-kut</em></dd><dt>Русский</dt><dd>гравюра на дереве, ксилография</dd><dt>Plural</dt><dd><em>woodcuts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A print made from a design carved into a block of wood.</p>
+<ol><li>The chapter opens with a <em>woodcut</em> of a ship.</li><li>Each <em>woodcut</em> is printed by hand.</li><li>The book is illustrated with Japanese <em>woodcuts</em>.</li></ol>
+<hr>
+<h3 id="engraver">engraver<a class="hash" href="#engraver" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪnˈɡreɪvər/ &middot; <em>in-GRAY-vur</em></dd><dt>Русский</dt><dd>гравёр</dd><dt>Plural</dt><dd><em>engravers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person who cuts images or letters into metal or wood for printing.</p>
+<ol><li>The <em>engraver</em> signed the plate in the corner.</li><li>A skilled <em>engraver</em> could copy any painting.</li><li>The mint employs a handful of <em>engravers</em>.</li></ol>
+<hr>
+<h3 id="printmaking">printmaking<a class="hash" href="#printmaking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪntˌmeɪkɪŋ/ &middot; <em>PRINT-may-king</em></dd><dt>Русский</dt><dd>печатная графика, эстамп</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The art of making pictures by printing them from a block, plate, or screen.</p>
+<ol><li>She majored in <em>printmaking</em>.</li><li>The studio has a whole room for <em>printmaking</em>.</li><li><em>Printmaking</em> lets an artist sell many originals.</li></ol>
+<hr>
+<h3 id="halftone">halftone<a class="hash" href="#halftone" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæftoʊn/ &middot; <em>HAF-tohn</em></dd><dt>Русский</dt><dd>растровое изображение, полутоновое клише</dd><dt>Plural</dt><dd><em>halftones</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l of half stays silent: HAF-tohn.</dd></dl>
+<p>A printed picture built from tiny dots that imitate shades of gray.</p>
+<ol><li>Under a magnifier the photo is just a <em>halftone</em>.</li><li>The <em>halftone</em> looks muddy on newsprint.</li><li>Old newspapers printed coarse <em>halftones</em>.</li></ol>
+<hr>
+<h3 id="watermark">watermark<a class="hash" href="#watermark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərmɑːrk/ &middot; <em>WAW-tur-mark</em></dd><dt>Русский</dt><dd>водяной знак</dd><dt>Plural</dt><dd><em>watermarks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A faint design pressed into paper that shows when you hold it to the light.</p>
+<ol><li>Hold the bill up and look for the <em>watermark</em>.</li><li>The stationery has the school's <em>watermark</em>.</li><li>Forgers have trouble with <em>watermarks</em>.</li></ol>
+<hr>
+<h3 id="embossing">embossing<a class="hash" href="#embossing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪmˈbɔːsɪŋ/ &middot; <em>im-BAW-sing</em></dd><dt>Русский</dt><dd>тиснение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The pressing of a raised design into paper or a cover.</p>
+<ol><li>The title is done in gold <em>embossing</em>.</li><li><em>Embossing</em> adds about a dollar per copy.</li><li>You can feel the <em>embossing</em> with your thumb.</li></ol>
+<hr>
+<h3 id="lamination">lamination<a class="hash" href="#lamination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlæməˈneɪʃən/ &middot; <em>lam-uh-NAY-shuhn</em></dd><dt>Русский</dt><dd>ламинирование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A thin plastic coating sealed onto paper to protect it.</p>
+<ol><li>The menus have a heavy <em>lamination</em>.</li><li><em>Lamination</em> keeps the cards from tearing.</li><li>The cover has a matte <em>lamination</em>.</li></ol>
+<hr>
+<h3 id="desktop-publishing">desktop publishing<a class="hash" href="#desktop-publishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɛsktɑːp ˈpʌblɪʃɪŋ/ &middot; <em>DESK-tahp PUB-lish-ing</em></dd><dt>Русский</dt><dd>компьютерная вёрстка, настольные издательские системы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Producing printed material with page-layout software on a personal computer.</p>
+<ol><li><em>Desktop publishing</em> put a print shop on every desk.</li><li>She took a night class in <em>desktop publishing</em>.</li><li>The newsletter is done with basic <em>desktop publishing</em>.</li></ol>
+<hr>
+<h3 id="publishing-house">publishing house<a class="hash" href="#publishing-house" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpʌblɪʃɪŋ haʊs/ &middot; <em>PUB-lish-ing HOWSS</em></dd><dt>Русский</dt><dd>издательство</dd><dt>Plural</dt><dd><em>publishing houses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A company that produces and sells books or magazines.</p>
+<ol><li>A small <em>publishing house</em> in Boston took the book.</li><li>The <em>publishing house</em> was founded in 1912.</li><li>Five <em>publishing houses</em> control most of the market.</li></ol>
+<hr>
+<h3 id="university-press">university press<a class="hash" href="#university-press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌjuːnəˈvɜːrsəti prɛs/ &middot; <em>yoo-nuh-VUR-suh-tee PRESS</em></dd><dt>Русский</dt><dd>университетское издательство</dd><dt>Plural</dt><dd><em>university presses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A publisher owned by a university that puts out scholarly books.</p>
+<ol><li>Her dissertation was picked up by a <em>university press</em>.</li><li>A <em>university press</em> rarely pays much of an advance.</li><li>Several <em>university presses</em> have cut their lists.</li></ol>
+<hr>
+<h3 id="small-press">small press<a class="hash" href="#small-press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsmɔːl ˈprɛs/ &middot; <em>smawl-PRESS</em></dd><dt>Русский</dt><dd>небольшое издательство</dd><dt>Plural</dt><dd><em>small presses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tiny independent publisher that brings out only a few books a year.</p>
+<ol><li>The poems came out from a <em>small press</em> in Iowa.</li><li>A <em>small press</em> can take risks the big houses won't.</li><li><em>Small presses</em> live off grants and volunteers.</li></ol>
+<hr>
+<h3 id="vanity-press">vanity press<a class="hash" href="#vanity-press" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈvænəti prɛs/ &middot; <em>VAN-uh-tee PRESS</em></dd><dt>Русский</dt><dd>издательство за счёт автора</dd><dt>Plural</dt><dd><em>vanity presses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A publisher that prints a book only if the author pays for it.</p>
+<ol><li>He finally gave up and went to a <em>vanity press</em>.</li><li>A <em>vanity press</em> will print anything you pay for.</li><li>Reviewers ignore books from <em>vanity presses</em>.</li></ol>
+<hr>
+<h3 id="self-publishing">self-publishing<a class="hash" href="#self-publishing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌsɛlf ˈpʌblɪʃɪŋ/ &middot; <em>self-PUB-lish-ing</em></dd><dt>Русский</dt><dd>самостоятельная публикация, самиздат</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Bringing out your own book without a publishing company.</p>
+<ol><li><em>Self-publishing</em> has lost most of its old stigma.</li><li>She made more from <em>self-publishing</em> than from her contract.</li><li><em>Self-publishing</em> means you handle the marketing yourself.</li></ol>
+<hr>
+<h3 id="print-on-demand">print-on-demand<a class="hash" href="#print-on-demand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌprɪnt ɑːn dɪˈmænd/ &middot; <em>print-ahn-dih-MAND</em></dd><dt>Русский</dt><dd>печать по требованию</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A system that prints a single copy of a book only after someone orders it.</p>
+<ol><li>The title is available through <em>print-on-demand</em>.</li><li><em>Print-on-demand</em> means no warehouse full of unsold books.</li><li>Out-of-print classics have come back through <em>print-on-demand</em>.</li></ol>
+<hr>
+<h3 id="print-media">print media<a class="hash" href="#print-media" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪnt ˌmiːdiə/ &middot; <em>PRINT MEE-dee-uh</em></dd><dt>Русский</dt><dd>печатные СМИ, печатная пресса</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Newspapers and magazines taken together, as opposed to radio, TV, and the internet.</p>
+<ol><li>Ad money keeps draining out of <em>print media</em>.</li><li>She spent thirty years in <em>print media</em>.</li><li><em>Print media</em> still breaks most of the big stories.</li></ol>
+<hr>
+<h3 id="digital-edition">digital edition<a class="hash" href="#digital-edition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdɪdʒətəl ɪˈdɪʃən/ &middot; <em>DIJ-uh-tuhl ih-DISH-uhn</em></dd><dt>Русский</dt><dd>электронное издание</dd><dt>Plural</dt><dd><em>digital editions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A version of a book or magazine meant to be read on a screen.</p>
+<ol><li>The <em>digital edition</em> comes free with a subscription.</li><li>The <em>digital edition</em> has extra photographs.</li><li><em>Digital editions</em> now outsell paper for that title.</li></ol>
+<hr>
+<h3 id="first-edition">first edition<a class="hash" href="#first-edition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfɜːrst ɪˈdɪʃən/ &middot; <em>furst ih-DISH-uhn</em></dd><dt>Русский</dt><dd>первое издание</dd><dt>Plural</dt><dd><em>first editions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy from the first batch of a book ever printed.</p>
+<ol><li>This is a signed <em>first edition</em>.</li><li>The <em>first edition</em> had a different cover.</li><li>He collects <em>first editions</em> of American novels.</li></ol>
+<hr>
+<h3 id="limited-edition">limited edition<a class="hash" href="#limited-edition" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɪmətəd ɪˈdɪʃən/ &middot; <em>LIM-uh-tid ih-DISH-uhn</em></dd><dt>Русский</dt><dd>ограниченный тираж</dd><dt>Plural</dt><dd><em>limited editions</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printing of a fixed small number of numbered copies.</p>
+<ol><li>It came out as a <em>limited edition</em> of five hundred.</li><li>My copy of the <em>limited edition</em> is number twelve.</li><li><em>Limited editions</em> sell out before the reviews appear.</li></ol>
+<hr>
+<h3 id="reprint">reprint<a class="hash" href="#reprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈriːprɪnt/ &middot; <em>REE-print</em></dd><dt>Русский</dt><dd>переиздание, допечатка</dd><dt>Plural</dt><dd><em>reprints</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress on the first syllable, REE-print; the verb is ree-PRINT.</dd></dl>
+<p>A new printing of a book that has already been published.</p>
+<ol><li>The <em>reprint</em> fixes a dozen errors.</li><li>They ordered a <em>reprint</em> after the book sold out.</li><li>The cheap <em>reprints</em> came out a year later.</li></ol>
+<hr>
+<h3 id="back-issue">back issue<a class="hash" href="#back-issue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæk ˌɪʃuː/ &middot; <em>BAK ISH-oo</em></dd><dt>Русский</dt><dd>старый номер (журнала)</dd><dt>Plural</dt><dd><em>back issues</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A copy of a magazine or newspaper from an earlier date.</p>
+<ol><li>Can I order a <em>back issue</em> from March?</li><li>The <em>back issue</em> costs twice the cover price now.</li><li>The library keeps <em>back issues</em> on microfilm.</li></ol>
+<hr>
+<h3 id="galley">galley<a class="hash" href="#galley" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡæli/ &middot; <em>GAL-ee</em></dd><dt>Русский</dt><dd>гранка, корректурный оттиск</dd><dt>Plural</dt><dd><em>galleys</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Same word as a ship's kitchen; in publishing it means an early proof.</dd></dl>
+<p>An early printed copy of a text sent out for correction or review.</p>
+<ol><li>The publisher sent a <em>galley</em> to every major critic.</li><li>I read it in <em>galley</em> six months before it came out.</li><li>Reviewers get <em>galleys</em> with plain paper covers.</li></ol>
+<hr>
+<h3 id="page-proof">page proof<a class="hash" href="#page-proof" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpeɪdʒ pruːf/ &middot; <em>PAYJ PROOF</em></dd><dt>Русский</dt><dd>корректура свёрстанной полосы</dd><dt>Plural</dt><dd><em>page proofs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A printed copy of the laid-out pages, checked before the final printing.</p>
+<ol><li>The <em>page proof</em> came back covered in red.</li><li>Return the <em>page proof</em> by Friday.</li><li>She caught the mistake in the <em>page proofs</em>.</li></ol>
+<hr>
+<h3 id="proofreading-mark">proofreading mark<a class="hash" href="#proofreading-mark" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpruːfˌriːdɪŋ mɑːrk/ &middot; <em>PROOF-ree-ding MARK</em></dd><dt>Русский</dt><dd>корректурный знак</dd><dt>Plural</dt><dd><em>proofreading marks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A standard symbol used to show a correction on a proof.</p>
+<ol><li>That little loop is the <em>proofreading mark</em> for delete.</li><li>Learn one <em>proofreading mark</em> at a time.</li><li>The margin was full of <em>proofreading marks</em>.</li></ol>
+<hr>
+<h3 id="copy-editor">copy editor<a class="hash" href="#copy-editor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːpi ˌɛdətər/ &middot; <em>KAH-pee ED-uh-tur</em></dd><dt>Русский</dt><dd>литературный редактор, редактор-корректор</dd><dt>Plural</dt><dd><em>copy editors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who checks a text for grammar, spelling, and consistency before it is printed.</p>
+<ol><li>The <em>copy editor</em> queried every date in the book.</li><li>A good <em>copy editor</em> saves a writer from himself.</li><li>The paper laid off half its <em>copy editors</em>.</li></ol>
+<hr>
+<h3 id="editing">editing<a class="hash" href="#editing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛdətɪŋ/ &middot; <em>ED-uh-ting</em></dd><dt>Русский</dt><dd>редактирование</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of correcting and improving a text for publication.</p>
+<ol><li>The book needs another round of <em>editing</em>.</li><li>She does freelance <em>editing</em> for two publishers.</li><li>Careful <em>editing</em> cut a hundred pages.</li></ol>
+<hr>
+<h3 id="style-guide">style guide<a class="hash" href="#style-guide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstaɪl ɡaɪd/ &middot; <em>STYLE GYDE</em></dd><dt>Русский</dt><dd>руководство по стилю</dd><dt>Plural</dt><dd><em>style guides</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A book of rules a publisher follows on spelling, punctuation, and format.</p>
+<ol><li>Check the <em>style guide</em> before you change the spelling.</li><li>Every newsroom has its own <em>style guide</em>.</li><li>The two <em>style guides</em> disagree about the comma.</li></ol>
+<hr>
+<h3 id="rejection-slip">rejection slip<a class="hash" href="#rejection-slip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/rɪˈdʒɛkʃən slɪp/ &middot; <em>rih-JEK-shuhn SLIP</em></dd><dt>Русский</dt><dd>отказ издательства (письмо-отказ)</dd><dt>Plural</dt><dd><em>rejection slips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short printed note telling a writer a publisher will not take the work.</p>
+<ol><li>He got a <em>rejection slip</em> by return mail.</li><li>The <em>rejection slip</em> didn't even have his name on it.</li><li>She papered the wall with <em>rejection slips</em>.</li></ol>
+<hr>
+<h3 id="advance">advance<a class="hash" href="#advance" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ədˈvæns/ &middot; <em>ad-VANS</em></dd><dt>Русский</dt><dd>аванс (гонорара)</dd><dt>Plural</dt><dd><em>advances</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Money a publisher pays an author before the book earns anything.</p>
+<ol><li>The <em>advance</em> was fifteen thousand dollars.</li><li>She spent the <em>advance</em> before she finished the draft.</li><li><em>Advances</em> for first novels have shrunk.</li></ol>
+<hr>
+<h3 id="ghostwriter">ghostwriter<a class="hash" href="#ghostwriter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡoʊstˌraɪtər/ &middot; <em>GOHST-ry-tur</em></dd><dt>Русский</dt><dd>гострайтер (автор, пишущий за другого)</dd><dt>Plural</dt><dd><em>ghostwriters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The w of -writer is silent: GOHST-ry-tur.</dd></dl>
+<p>A writer who is paid to write a book that appears under someone else's name.</p>
+<ol><li>The memoir was actually done by a <em>ghostwriter</em>.</li><li>A good <em>ghostwriter</em> disappears into the voice.</li><li>Most celebrity books are written by <em>ghostwriters</em>.</li></ol>
+<hr>
+<h3 id="co-author">co-author<a class="hash" href="#co-author" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkoʊˈɔːθər/ &middot; <em>koh-AW-thur</em></dd><dt>Русский</dt><dd>соавтор</dd><dt>Plural</dt><dd><em>co-authors</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of two or more people who wrote a book together.</p>
+<ol><li>His <em>co-author</em> handled the research chapters.</li><li>She's listed as <em>co-author</em> on the cover.</li><li>The two <em>co-authors</em> split the royalties evenly.</li></ol>
+<hr>
+<h3 id="literary-agent">literary agent<a class="hash" href="#literary-agent" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɪtərɛri ˈeɪdʒənt/ &middot; <em>LIT-uh-reh-ree AY-juhnt</em></dd><dt>Русский</dt><dd>литературный агент</dd><dt>Plural</dt><dd><em>literary agents</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who sells a writer's work to publishers for a share of the money.</p>
+<ol><li>You need a <em>literary agent</em> to reach the big houses.</li><li>Her <em>literary agent</em> takes fifteen percent.</li><li>Most <em>literary agents</em> are swamped with queries.</li></ol>
+<hr>
+<h3 id="book-deal">book deal<a class="hash" href="#book-deal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊk diːl/ &middot; <em>BUUK DEEL</em></dd><dt>Русский</dt><dd>контракт на издание книги</dd><dt>Plural</dt><dd><em>book deals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A contract in which a publisher agrees to publish someone's book.</p>
+<ol><li>She landed a two-<em>book deal</em>.</li><li>The <em>book deal</em> was announced in the trade press.</li><li>Big <em>book deals</em> usually follow a bidding war.</li></ol>
+<hr>
+<h3 id="book-tour">book tour<a class="hash" href="#book-tour" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊk tʊr/ &middot; <em>BUUK TUUR</em></dd><dt>Русский</dt><dd>тур с презентацией книги</dd><dt>Plural</dt><dd><em>book tours</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A trip an author makes to different cities to promote a new book.</p>
+<ol><li>He's on a <em>book tour</em> through the Midwest.</li><li>The <em>book tour</em> covers twelve cities in three weeks.</li><li>Publishers pay for fewer <em>book tours</em> than they used to.</li></ol>
+<hr>
+<h3 id="book-fair">book fair<a class="hash" href="#book-fair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊk fɛr/ &middot; <em>BUUK FAIR</em></dd><dt>Русский</dt><dd>книжная ярмарка</dd><dt>Plural</dt><dd><em>book fairs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large event where publishers show and sell their books.</p>
+<ol><li>The rights were sold at the <em>book fair</em>.</li><li>The school holds a <em>book fair</em> every spring.</li><li>International <em>book fairs</em> run for a full week.</li></ol>
+<hr>
+<h3 id="bookseller">bookseller<a class="hash" href="#bookseller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʊkˌsɛlər/ &middot; <em>BUUK-sel-ur</em></dd><dt>Русский</dt><dd>книготорговец, продавец книг</dd><dt>Plural</dt><dd><em>booksellers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A person or shop that sells books.</p>
+<ol><li>Ask the <em>bookseller</em> if she can order it.</li><li>The <em>bookseller</em> on Main Street has been there since 1962.</li><li>Independent <em>booksellers</em> are opening again.</li></ol>
+<hr>
+<h3 id="cover-story">cover story<a class="hash" href="#cover-story" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər ˌstɔːri/ &middot; <em>KUV-ur STOR-ee</em></dd><dt>Русский</dt><dd>главный материал номера (статья с обложки)</dd><dt>Plural</dt><dd><em>cover stories</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main article in a magazine, announced on the front.</p>
+<ol><li>The <em>cover story</em> runs eight thousand words.</li><li>His profile of the mayor became the <em>cover story</em>.</li><li>The magazine's <em>cover stories</em> are always about money.</li></ol>
+<hr>
+<h3 id="cover-art">cover art<a class="hash" href="#cover-art" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər ɑːrt/ &middot; <em>KUV-ur ART</em></dd><dt>Русский</dt><dd>оформление обложки, иллюстрация на обложке</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The picture or design printed on the outside of a book or record.</p>
+<ol><li>The <em>cover art</em> sold more copies than the reviews did.</li><li>They changed the <em>cover art</em> for the paperback.</li><li>The author hated the <em>cover art</em>.</li></ol>
+<hr>
+<h3 id="cover-price">cover price<a class="hash" href="#cover-price" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər praɪs/ &middot; <em>KUV-ur PRYSE</em></dd><dt>Русский</dt><dd>цена на обложке, розничная цена издания</dd><dt>Plural</dt><dd><em>cover prices</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The price printed on a book or magazine.</p>
+<ol><li>The <em>cover price</em> went up to nine dollars.</li><li>Subscribers pay half the <em>cover price</em>.</li><li><em>Cover prices</em> have risen faster than wages.</li></ol>
+<hr>
+<h3 id="imprint">imprint<a class="hash" href="#imprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmprɪnt/ &middot; <em>IM-print</em></dd><dt>Русский</dt><dd>импринт, издательская марка</dd><dt>Plural</dt><dd><em>imprints</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress on the first syllable, IM-print; the verb is im-PRINT.</dd></dl>
+<p>A brand name a publisher prints its books under.</p>
+<ol><li>The novel came out under their children's <em>imprint</em>.</li><li>The <em>imprint</em> has its own editor and logo.</li><li>One company owns a dozen <em>imprints</em>.</li></ol>
+<hr>
+<h3 id="classified-ad">classified ad<a class="hash" href="#classified-ad" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklæsəfaɪd æd/ &middot; <em>KLAS-uh-fyde AD</em></dd><dt>Русский</dt><dd>объявление в рубрике, частное объявление</dd><dt>Plural</dt><dd><em>classified ads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short paid notice printed in a newspaper's small-print listings.</p>
+<ol><li>He found the truck through a <em>classified ad</em>.</li><li>A <em>classified ad</em> used to cost a dollar a line.</li><li><em>Classified ads</em> once paid the whole newsroom's salary.</li></ol>
+<hr>
+<h3 id="trade-paperback">trade paperback<a class="hash" href="#trade-paperback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌtreɪd ˈpeɪpərbæk/ &middot; <em>trayd-PAY-pur-bak</em></dd><dt>Русский</dt><dd>книга в мягкой обложке большого формата</dd><dt>Plural</dt><dd><em>trade paperbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A larger, better-made paperback sold mainly in bookstores.</p>
+<ol><li>The <em>trade paperback</em> comes out in June.</li><li>A <em>trade paperback</em> costs about twice a mass-market copy.</li><li>Bookstores stack the <em>trade paperbacks</em> by the door.</li></ol>
+<hr>
+<h3 id="pressroom">pressroom<a class="hash" href="#pressroom" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɛsruːm/ &middot; <em>PRESS-room</em></dd><dt>Русский</dt><dd>печатный цех</dd><dt>Plural</dt><dd><em>pressrooms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a printing plant where the presses run.</p>
+<ol><li>You can't hear yourself think in the <em>pressroom</em>.</li><li>He spent forty years in the <em>pressroom</em>.</li><li>The old <em>pressrooms</em> were full of noise and ink.</li></ol>
+<hr>
+<h3 id="insert">insert<a class="hash" href="#insert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsɜːrt/ &middot; <em>IN-surt</em></dd><dt>Русский</dt><dd>вкладка, вкладыш (в газете)</dd><dt>Plural</dt><dd><em>inserts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Noun stress on the first syllable, IN-surt; the verb is in-SURT.</dd></dl>
+<p>A separate sheet or booklet placed loose inside a newspaper or magazine.</p>
+<ol><li>The coupons come in the Sunday <em>insert</em>.</li><li>A glossy <em>insert</em> fell out of the magazine.</li><li>Half the paper's weight is advertising <em>inserts</em>.</li></ol>
+<hr>
+<h3 id="misprint">misprint<a class="hash" href="#misprint" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪsprɪnt/ &middot; <em>MIS-print</em></dd><dt>Русский</dt><dd>опечатка</dd><dt>Plural</dt><dd><em>misprints</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mistake made in printing a word or figure.</p>
+<ol><li>The date on the ticket is a <em>misprint</em>.</li><li>There's a <em>misprint</em> on the very first page.</li><li>Collectors pay extra for stamps with <em>misprints</em>.</li></ol>
+<hr>
+<h3 id="fine-print">fine print<a class="hash" href="#fine-print" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfaɪn ˈprɪnt/ &middot; <em>fyne-PRINT</em></dd><dt>Русский</dt><dd>мелкий шрифт (в договоре)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say fine print; the British say small print.</dd></dl>
+<p>The small type at the bottom of a contract, where the conditions hide.</p>
+<ol><li>Read the <em>fine print</em> before you sign.</li><li>The <em>fine print</em> says the rate goes up after a year.</li><li>Nobody reads the <em>fine print</em> on a rental agreement.</li></ol>
+<hr>
+<h3 id="large-print">large print<a class="hash" href="#large-print" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌlɑːrdʒ ˈprɪnt/ &middot; <em>larj-PRINT</em></dd><dt>Русский</dt><dd>крупный шрифт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Text printed in oversized type for readers with weak eyesight.</p>
+<ol><li>The library has the same novel in <em>large print</em>.</li><li>My grandmother only reads books in <em>large print</em>.</li><li>The pharmacy will print the label in <em>large print</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

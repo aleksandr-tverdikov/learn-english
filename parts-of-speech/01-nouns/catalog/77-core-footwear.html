@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: footwear</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-footwear">Core vocabulary: footwear<a class="hash" href="#core-vocabulary-footwear" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of footwear — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="dress-shoe">dress shoe<a class="hash" href="#dress-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛs ʃuː/ &middot; <em>DRES shoo</em></dd><dt>Русский</dt><dd>модельные туфли (к костюму)</dd><dt>Plural</dt><dd><em>dress shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A formal leather shoe worn with a suit or with office clothes.</p>
+<ol><li>He polished his <em>dress shoes</em> the night before the interview.</li><li>You can't wear sneakers to a wedding, so bring a <em>dress shoe</em> or two.</li><li>Her <em>dress shoes</em> were killing her by the end of the reception.</li></ol>
+<hr>
+<h3 id="running-shoe">running shoe<a class="hash" href="#running-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌnɪŋ ʃuː/ &middot; <em>RUN-ing shoo</em></dd><dt>Русский</dt><dd>кроссовки для бега</dd><dt>Plural</dt><dd><em>running shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light, cushioned athletic shoe made for running.</p>
+<ol><li>I replace my <em>running shoes</em> every five hundred miles.</li><li>A good <em>running shoe</em> should feel snug in the heel.</li><li>She bought her first pair of real <em>running shoes</em> before the marathon.</li></ol>
+<hr>
+<h3 id="tennis-shoe">tennis shoe<a class="hash" href="#tennis-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɛnɪs ʃuː/ &middot; <em>TEN-is shoo</em></dd><dt>Русский</dt><dd>кроссовки, кеды</dd><dt>Plural</dt><dd><em>tennis shoes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In much of the US <em>tennis shoes</em> means sneakers of any kind, not just shoes for tennis. British English says <em>trainers</em>.</dd></dl>
+<p>A soft canvas or leather sports shoe with a rubber sole.</p>
+<ol><li>Grandma calls every sneaker a <em>tennis shoe</em>.</li><li>The kids tracked mud in with their <em>tennis shoes</em>.</li><li>Wear <em>tennis shoes</em> to the museum — there's a lot of walking.</li></ol>
+<hr>
+<h3 id="athletic-shoe">athletic shoe<a class="hash" href="#athletic-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æθˈlɛtɪk ʃuː/ &middot; <em>ath-LET-ik shoo</em></dd><dt>Русский</dt><dd>спортивная обувь, кроссовки</dd><dt>Plural</dt><dd><em>athletic shoes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Athletic has three syllables: ath-LET-ik. Adding a fourth ("ath-uh-LET-ik") is a common mistake.</dd></dl>
+<p>Any shoe designed for sports or exercise.</p>
+<ol><li>The store's whole back wall is <em>athletic shoes</em>.</li><li>Gym class requires a closed-toe <em>athletic shoe</em>.</li><li><em>Athletic shoes</em> have gotten a lot more expensive.</li></ol>
+<hr>
+<h3 id="basketball-shoe">basketball shoe<a class="hash" href="#basketball-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbæskɪtbɔːl ʃuː/ &middot; <em>BAS-kit-bawl shoo</em></dd><dt>Русский</dt><dd>баскетбольные кроссовки</dd><dt>Plural</dt><dd><em>basketball shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A high-cut athletic shoe that supports the ankle on the court.</p>
+<ol><li>He saved up all summer for those <em>basketball shoes</em>.</li><li>A <em>basketball shoe</em> needs grip and ankle support.</li><li>The team gets new <em>basketball shoes</em> every season.</li></ol>
+<hr>
+<h3 id="walking-shoe">walking shoe<a class="hash" href="#walking-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːkɪŋ ʃuː/ &middot; <em>WAW-king shoo</em></dd><dt>Русский</dt><dd>обувь для ходьбы</dd><dt>Plural</dt><dd><em>walking shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sturdy, comfortable shoe made for walking long distances.</p>
+<ol><li>Pack one pair of <em>walking shoes</em> for the trip.</li><li>A cushioned <em>walking shoe</em> saved my knees.</li><li>These <em>walking shoes</em> look plain but they're wonderful.</li></ol>
+<hr>
+<h3 id="high-heel">high heel<a class="hash" href="#high-heel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪ ˈhiːl/ &middot; <em>hy-HEEL</em></dd><dt>Русский</dt><dd>туфли на высоком каблуке</dd><dt>Plural</dt><dd><em>high heels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A woman's shoe with a tall heel that raises the back of the foot.</p>
+<ol><li>She kicked off her <em>high heels</em> under the table.</li><li>I can barely walk in a <em>high heel</em> that tall.</li><li><em>High heels</em> aren't allowed on the boat deck.</li></ol>
+<hr>
+<h3 id="hiking-boot">hiking boot<a class="hash" href="#hiking-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪkɪŋ buːt/ &middot; <em>HY-king boot</em></dd><dt>Русский</dt><dd>треккинговый ботинок</dd><dt>Plural</dt><dd><em>hiking boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff boot with a deep-tread sole for walking on rough ground.</p>
+<ol><li>Break in your <em>hiking boots</em> before the trip.</li><li>One <em>hiking boot</em> is still caked in dried mud.</li><li>Good <em>hiking boots</em> keep your ankles from rolling.</li></ol>
+<hr>
+<h3 id="work-boot">work boot<a class="hash" href="#work-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɜːrk buːt/ &middot; <em>WURK boot</em></dd><dt>Русский</dt><dd>рабочий ботинок</dd><dt>Plural</dt><dd><em>work boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heavy protective boot worn on a job site.</p>
+<ol><li>He left his muddy <em>work boots</em> on the porch.</li><li>The company pays for one pair of <em>work boots</em> a year.</li><li>A steel-toe <em>work boot</em> is required on this site.</li></ol>
+<hr>
+<h3 id="cowboy-boot">cowboy boot<a class="hash" href="#cowboy-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊbɔɪ buːt/ &middot; <em>KOW-boy boot</em></dd><dt>Русский</dt><dd>ковбойский сапог</dd><dt>Plural</dt><dd><em>cowboy boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall leather boot with a pointed toe and a slanted heel.</p>
+<ol><li>He wore <em>cowboy boots</em> to his own wedding.</li><li>That <em>cowboy boot</em> has hand-stitching all up the shaft.</li><li>Her <em>cowboy boots</em> click on the hardwood floor.</li></ol>
+<hr>
+<h3 id="rain-boot">rain boot<a class="hash" href="#rain-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪn buːt/ &middot; <em>RAYN boot</em></dd><dt>Русский</dt><dd>резиновый сапог (от дождя)</dd><dt>Plural</dt><dd><em>rain boots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>American <em>rain boots</em> are British <em>wellingtons</em> or <em>wellies</em>.</dd></dl>
+<p>A waterproof rubber boot worn in wet weather.</p>
+<ol><li>The kids splashed through puddles in their <em>rain boots</em>.</li><li>I keep a <em>rain boot</em> by each door in the spring.</li><li>Yellow <em>rain boots</em> are easy to spot in a crowd of children.</li></ol>
+<hr>
+<h3 id="snow-boot">snow boot<a class="hash" href="#snow-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊ buːt/ &middot; <em>SNOH boot</em></dd><dt>Русский</dt><dd>зимний сапог (для снега)</dd><dt>Plural</dt><dd><em>snow boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall insulated boot that keeps snow and cold out.</p>
+<ol><li>Put your <em>snow boots</em> on before you go outside.</li><li>One <em>snow boot</em> is missing from the closet again.</li><li>Her <em>snow boots</em> are lined with fleece.</li></ol>
+<hr>
+<h3 id="winter-boot">winter boot<a class="hash" href="#winter-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪntər buːt/ &middot; <em>WIN-tur boot</em></dd><dt>Русский</dt><dd>зимний ботинок</dd><dt>Plural</dt><dd><em>winter boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A warm boot made for cold weather.</p>
+<ol><li>I finally bought <em>winter boots</em> that actually stay dry.</li><li>A good <em>winter boot</em> is worth the money in Minnesota.</li><li>The store puts <em>winter boots</em> on sale every February.</li></ol>
+<hr>
+<h3 id="ankle-boot">ankle boot<a class="hash" href="#ankle-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkl buːt/ &middot; <em>ANG-kul boot</em></dd><dt>Русский</dt><dd>ботильон</dd><dt>Plural</dt><dd><em>ankle boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short boot that ends just above the ankle.</p>
+<ol><li>She wears black <em>ankle boots</em> with everything.</li><li>This <em>ankle boot</em> has a side zipper.</li><li><em>Ankle boots</em> work with jeans or a dress.</li></ol>
+<hr>
+<h3 id="knee-high-boot">knee-high boot<a class="hash" href="#knee-high-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌniː ˈhaɪ buːt/ &middot; <em>nee-HY boot</em></dd><dt>Русский</dt><dd>сапог до колена</dd><dt>Plural</dt><dd><em>knee-high boots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k in <em>knee</em> is silent: nee-HY.</dd></dl>
+<p>A boot whose shaft reaches the knee.</p>
+<ol><li>She pulled on her <em>knee-high boots</em> over her jeans.</li><li>A <em>knee-high boot</em> has to fit your calf, not just your foot.</li><li>Brown <em>knee-high boots</em> go with almost any coat.</li></ol>
+<hr>
+<h3 id="thigh-high-boot">thigh-high boot<a class="hash" href="#thigh-high-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌθaɪ ˈhaɪ buːt/ &middot; <em>thy-HY boot</em></dd><dt>Русский</dt><dd>ботфорты</dd><dt>Plural</dt><dd><em>thigh-high boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boot that comes up over the knee to the thigh.</p>
+<ol><li><em>Thigh-high boots</em> came back in style that winter.</li><li>She wore a <em>thigh-high boot</em> in the fashion show.</li><li>Those <em>thigh-high boots</em> are hard to walk in.</li></ol>
+<hr>
+<h3 id="combat-boot">combat boot<a class="hash" href="#combat-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmbæt buːt/ &middot; <em>KAHM-bat boot</em></dd><dt>Русский</dt><dd>армейский ботинок, берцы</dd><dt>Plural</dt><dd><em>combat boots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun <em>combat</em> stresses the first syllable, KAHM-bat; the verb stresses the second, kum-BAT.</dd></dl>
+<p>A tall laced military boot with a thick sole.</p>
+<ol><li>He still wears his old <em>combat boots</em> to work in the yard.</li><li>A <em>combat boot</em> takes forever to lace up.</li><li>Black <em>combat boots</em> were everywhere at the concert.</li></ol>
+<hr>
+<h3 id="ski-boot">ski boot<a class="hash" href="#ski-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskiː buːt/ &middot; <em>SKEE boot</em></dd><dt>Русский</dt><dd>горнолыжный ботинок</dd><dt>Plural</dt><dd><em>ski boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rigid plastic boot that clamps into a ski binding.</p>
+<ol><li><em>Ski boots</em> are miserable to walk in.</li><li>He loosened one <em>ski boot</em> on the lift.</li><li>Rental <em>ski boots</em> never quite fit right.</li></ol>
+<hr>
+<h3 id="riding-boot">riding boot<a class="hash" href="#riding-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈraɪdɪŋ buːt/ &middot; <em>RY-ding boot</em></dd><dt>Русский</dt><dd>сапог для верховой езды</dd><dt>Plural</dt><dd><em>riding boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall smooth-soled boot worn for horseback riding.</p>
+<ol><li>Her <em>riding boots</em> are polished before every lesson.</li><li>A <em>riding boot</em> has a low heel that won't slip through the stirrup.</li><li>He keeps his <em>riding boots</em> in the tack room.</li></ol>
+<hr>
+<h3 id="duck-boot">duck boot<a class="hash" href="#duck-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdʌk buːt/ &middot; <em>DUK boot</em></dd><dt>Русский</dt><dd>ботинок с резиновым низом (для слякоти)</dd><dt>Plural</dt><dd><em>duck boots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A boot with a rubber bottom and a leather upper, worn in slush.</p>
+<ol><li>Everyone on campus wears <em>duck boots</em> in March.</li><li>A <em>duck boot</em> handles wet snow better than a sneaker.</li><li>My <em>duck boots</em> are twenty years old and still dry.</li></ol>
+<hr>
+<h3 id="desert-boot">desert boot<a class="hash" href="#desert-boot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛzərt buːt/ &middot; <em>DEZ-urt boot</em></dd><dt>Русский</dt><dd>дезерты (замшевые ботинки)</dd><dt>Plural</dt><dd><em>desert boots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Desert</em> (DEZ-urt, dry land) is not <em>dessert</em> (dih-ZURT, the sweet course).</dd></dl>
+<p>A low suede ankle boot with two eyelets and a crepe sole.</p>
+<ol><li>Sand-colored <em>desert boots</em> go with jeans or chinos.</li><li>He's had that <em>desert boot</em> resoled twice.</li><li><em>Desert boots</em> are comfortable right out of the box.</li></ol>
+<hr>
+<h3 id="chukka">chukka<a class="hash" href="#chukka" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃʌkə/ &middot; <em>CHUK-uh</em></dd><dt>Русский</dt><dd>ботинок чукка</dd><dt>Plural</dt><dd><em>chukkas</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A plain ankle boot with two or three pairs of eyelets.</p>
+<ol><li>He wears brown <em>chukkas</em> to the office on Fridays.</li><li>A leather <em>chukka</em> dresses up a pair of jeans.</li><li>These <em>chukkas</em> have a rubber sole instead of crepe.</li></ol>
+<hr>
+<h3 id="bootie">bootie<a class="hash" href="#bootie" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːti/ &middot; <em>BOO-tee</em></dd><dt>Русский</dt><dd>ботильон; пинетка</dd><dt>Plural</dt><dd><em>booties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>booty</em> (treasure, or slang for the backside); only the spelling separates them.</dd></dl>
+<p>A short boot ending at the ankle, or a soft knitted shoe for a baby.</p>
+<ol><li>She paired suede <em>booties</em> with a wool skirt.</li><li>Grandma knitted a tiny <em>bootie</em> for each foot.</li><li>Those <em>booties</em> have a two-inch block heel.</li></ol>
+<hr>
+<h3 id="galoshes">galoshes<a class="hash" href="#galoshes" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɡəˈlɑːʃɪz/ &middot; <em>guh-LAH-shiz</em></dd><dt>Русский</dt><dd>галоши</dd><dt>Plural</dt><dd><em>galoshes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Used only in the plural: a pair of <em>galoshes</em>, never "a galosh."</dd></dl>
+<p>Waterproof rubber overshoes pulled on over ordinary shoes.</p>
+<ol><li>He pulled <em>galoshes</em> over his loafers before heading out.</li><li>A pair of <em>galoshes</em> lives in the hall closet.</li><li>Her <em>galoshes</em> squeaked on the tile floor.</li></ol>
+<hr>
+<h3 id="overshoe">overshoe<a class="hash" href="#overshoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈoʊvərʃuː/ &middot; <em>OH-vur-shoo</em></dd><dt>Русский</dt><dd>галоша (надеваемая поверх обуви)</dd><dt>Plural</dt><dd><em>overshoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A rubber shoe worn over a regular shoe to keep it dry.</p>
+<ol><li>The mail carrier wears <em>overshoes</em> all winter.</li><li>Slip an <em>overshoe</em> on before you cross the lot.</li><li><em>Overshoes</em> keep the salt off good leather.</li></ol>
+<hr>
+<h3 id="snowshoe">snowshoe<a class="hash" href="#snowshoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsnoʊʃuː/ &middot; <em>SNOH-shoo</em></dd><dt>Русский</dt><dd>снегоступ</dd><dt>Plural</dt><dd><em>snowshoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide flat frame strapped to a boot so you can walk on deep snow.</p>
+<ol><li>We rented <em>snowshoes</em> at the ranger station.</li><li>One <em>snowshoe</em> came loose halfway up the hill.</li><li><em>Snowshoes</em> spread your weight so you don't sink.</li></ol>
+<hr>
+<h3 id="waders">waders<a class="hash" href="#waders" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈweɪdərz/ &middot; <em>WAY-durz</em></dd><dt>Русский</dt><dd>забродные сапоги, вейдерсы</dd><dt>Plural</dt><dd><em>waders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Always plural, like <em>pants</em>: a pair of <em>waders</em>.</dd></dl>
+<p>Waterproof boots joined to trousers, worn for standing in water.</p>
+<ol><li>He stepped into the river in chest <em>waders</em>.</li><li>My <em>waders</em> sprang a leak at the knee.</li><li>A pair of <em>waders</em> hangs in the garage all summer.</li></ol>
+<hr>
+<h3 id="house-shoe">house shoe<a class="hash" href="#house-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaʊs ʃuː/ &middot; <em>HOWS shoo</em></dd><dt>Русский</dt><dd>домашние тапочки</dd><dt>Plural</dt><dd><em>house shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft shoe worn only indoors.</p>
+<ol><li>He shuffled to the kitchen in his <em>house shoes</em>.</li><li>Leave one <em>house shoe</em> by each side of the bed.</li><li>My grandmother never wore anything but <em>house shoes</em> at home.</li></ol>
+<hr>
+<h3 id="clog">clog<a class="hash" href="#clog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/klɑːɡ/ &middot; <em>KLAHG</em></dd><dt>Русский</dt><dd>сабо</dd><dt>Plural</dt><dd><em>clogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A backless shoe with a thick wooden or cork sole.</p>
+<ol><li>Nurses on that floor all wear <em>clogs</em>.</li><li>She slipped a <em>clog</em> off under the desk.</li><li>Wooden <em>clogs</em> are loud on a tile floor.</li></ol>
+<hr>
+<h3 id="moccasin">moccasin<a class="hash" href="#moccasin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːkəsɪn/ &middot; <em>MAH-kuh-sin</em></dd><dt>Русский</dt><dd>мокасин</dd><dt>Plural</dt><dd><em>moccasins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft flat leather shoe with the sole wrapped up and stitched to the top.</p>
+<ol><li>He drives in a pair of old <em>moccasins</em>.</li><li>The stitching on that <em>moccasin</em> is done by hand.</li><li>Deerskin <em>moccasins</em> are soft as socks.</li></ol>
+<hr>
+<h3 id="oxford">oxford<a class="hash" href="#oxford" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːksfərd/ &middot; <em>AHKS-furd</em></dd><dt>Русский</dt><dd>оксфорды (туфли на закрытой шнуровке)</dd><dt>Plural</dt><dd><em>oxfords</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A low dress shoe whose lace flaps are stitched closed at the bottom.</p>
+<ol><li>Black <em>oxfords</em> are the safest choice with a dark suit.</li><li>He had one <em>oxford</em> resoled and the other polished.</li><li>Those brown <em>oxfords</em> need new laces.</li></ol>
+<hr>
+<h3 id="penny-loafer">penny loafer<a class="hash" href="#penny-loafer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɛni ˌloʊfər/ &middot; <em>PEN-ee loh-fur</em></dd><dt>Русский</dt><dd>лоферы с кожаной перемычкой</dd><dt>Plural</dt><dd><em>penny loafers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A slip-on shoe with a leather strap across the top with a small slot in it.</p>
+<ol><li>He wore <em>penny loafers</em> with no socks all summer.</li><li>There's still a dime tucked in one <em>penny loafer</em>.</li><li>Her <em>penny loafers</em> were part of the school uniform.</li></ol>
+<hr>
+<h3 id="boat-shoe">boat shoe<a class="hash" href="#boat-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊt ʃuː/ &middot; <em>BOHT shoo</em></dd><dt>Русский</dt><dd>топсайдеры (мокасины для яхты)</dd><dt>Plural</dt><dd><em>boat shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A leather slip-on with a white non-marking sole, made for wet decks.</p>
+<ol><li><em>Boat shoes</em> have grooves cut into the sole for grip.</li><li>He keeps one <em>boat shoe</em> on the dock as a doorstop.</li><li>Everyone at the marina wears <em>boat shoes</em>.</li></ol>
+<hr>
+<h3 id="espadrille">espadrille<a class="hash" href="#espadrille" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɛspəˈdrɪl/ &middot; <em>es-puh-DRIL</em></dd><dt>Русский</dt><dd>эспадрильи</dd><dt>Plural</dt><dd><em>espadrilles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>French spelling, English sound: the final e is silent — es-puh-DRIL.</dd></dl>
+<p>A casual summer shoe with a canvas upper and a braided rope sole.</p>
+<ol><li>She wore white <em>espadrilles</em> to the beach wedding.</li><li>The rope on one <em>espadrille</em> is starting to fray.</li><li><em>Espadrilles</em> fall apart if you get them wet.</li></ol>
+<hr>
+<h3 id="ballet-flat">ballet flat<a class="hash" href="#ballet-flat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/bæˈleɪ flæt/ &middot; <em>ba-LAY flat</em></dd><dt>Русский</dt><dd>балетки</dd><dt>Plural</dt><dd><em>ballet flats</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Ballet</em> ends in a silent t and is stressed on the second syllable: ba-LAY.</dd></dl>
+<p>A soft flat women's shoe shaped like a dancer's slipper.</p>
+<ol><li>She keeps <em>ballet flats</em> in her bag for the walk home.</li><li>A <em>ballet flat</em> offers almost no arch support.</li><li>Black <em>ballet flats</em> go with everything in her closet.</li></ol>
+<hr>
+<h3 id="gladiator-sandal">gladiator sandal<a class="hash" href="#gladiator-sandal" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡlædieɪtər ˌsændl/ &middot; <em>GLAD-ee-ay-tur san-dul</em></dd><dt>Русский</dt><dd>сандалии-гладиаторы</dd><dt>Plural</dt><dd><em>gladiator sandals</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat sandal held on by many straps running up the ankle.</p>
+<ol><li><em>Gladiator sandals</em> leave funny tan lines.</li><li>One strap on her <em>gladiator sandal</em> snapped.</li><li>She bought brown <em>gladiator sandals</em> for the trip to Greece.</li></ol>
+<hr>
+<h3 id="stiletto">stiletto<a class="hash" href="#stiletto" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪˈlɛtoʊ/ &middot; <em>stih-LET-oh</em></dd><dt>Русский</dt><dd>шпилька (тонкий высокий каблук)</dd><dt>Plural</dt><dd><em>stilettos</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very thin, very high heel, or a shoe with one.</p>
+<ol><li>Her <em>stilettos</em> sank into the wet grass.</li><li>A four-inch <em>stiletto</em> is not made for cobblestones.</li><li><em>Stilettos</em> can dent a hardwood floor.</li></ol>
+<hr>
+<h3 id="kitten-heel">kitten heel<a class="hash" href="#kitten-heel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɪtn hiːl/ &middot; <em>KIT-n heel</em></dd><dt>Русский</dt><dd>невысокий тонкий каблук</dd><dt>Plural</dt><dd><em>kitten heels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short, slim heel about two inches high.</p>
+<ol><li>She wore <em>kitten heels</em> to the office all week.</li><li>A <em>kitten heel</em> is far easier to stand in all day.</li><li>Those <em>kitten heels</em> look dressy without being painful.</li></ol>
+<hr>
+<h3 id="block-heel">block heel<a class="hash" href="#block-heel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈblɑːk hiːl/ &middot; <em>BLAHK heel</em></dd><dt>Русский</dt><dd>широкий устойчивый каблук</dd><dt>Plural</dt><dd><em>block heels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wide, square heel that gives a shoe more stability.</p>
+<ol><li>These boots have a chunky <em>block heel</em>.</li><li><em>Block heels</em> are much easier to walk in than stilettos.</li><li>She picked the sandal with the <em>block heel</em> for the wedding.</li></ol>
+<hr>
+<h3 id="wedge-heel">wedge heel<a class="hash" href="#wedge-heel" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɛdʒ hiːl/ &middot; <em>WEJ heel</em></dd><dt>Русский</dt><dd>танкетка</dd><dt>Plural</dt><dd><em>wedge heels</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heel that runs in one solid piece from the back of the shoe to the toe.</p>
+<ol><li>A <em>wedge heel</em> spreads your weight better than a thin one.</li><li>Her cork <em>wedge heels</em> are perfect for summer.</li><li>The sandals come with a low <em>wedge heel</em>.</li></ol>
+<hr>
+<h3 id="platform-shoe">platform shoe<a class="hash" href="#platform-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplætfɔːrm ʃuː/ &middot; <em>PLAT-fawrm shoo</em></dd><dt>Русский</dt><dd>обувь на платформе</dd><dt>Plural</dt><dd><em>platform shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe with a thick sole under the whole foot that adds height.</p>
+<ol><li><em>Platform shoes</em> came back in style again.</li><li>That <em>platform shoe</em> adds three inches.</li><li>She danced all night in white <em>platform shoes</em>.</li></ol>
+<hr>
+<h3 id="slingback">slingback<a class="hash" href="#slingback" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslɪŋbæk/ &middot; <em>SLING-bak</em></dd><dt>Русский</dt><dd>туфли с ремешком на пятке</dd><dt>Plural</dt><dd><em>slingbacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe that is open at the back with a strap around the heel.</p>
+<ol><li>She wore navy <em>slingbacks</em> to the luncheon.</li><li>The buckle on my <em>slingback</em> keeps coming undone.</li><li><em>Slingbacks</em> are cooler than closed pumps in July.</li></ol>
+<hr>
+<h3 id="peep-toe">peep-toe<a class="hash" href="#peep-toe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpiːp toʊ/ &middot; <em>PEEP-toh</em></dd><dt>Русский</dt><dd>туфли с открытым носком</dd><dt>Plural</dt><dd><em>peep-toes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe with a small opening that shows the tips of the toes.</p>
+<ol><li>She chose ivory <em>peep-toes</em> for the ceremony.</li><li>A <em>peep-toe</em> means you need a pedicure.</li><li>Those <em>peep-toes</em> are surprisingly comfortable.</li></ol>
+<hr>
+<h3 id="slip-on">slip-on<a class="hash" href="#slip-on" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslɪp ɑːn/ &middot; <em>SLIP-ahn</em></dd><dt>Русский</dt><dd>обувь без шнурков, слипоны</dd><dt>Plural</dt><dd><em>slip-ons</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun stresses the first word, SLIP-ahn; the verb phrase <em>slip on</em> stresses the second: "just slip ON your shoes."</dd></dl>
+<p>A shoe with no laces that you push your foot straight into.</p>
+<ol><li><em>Slip-ons</em> are great for the airport security line.</li><li>He wears a canvas <em>slip-on</em> around the house.</li><li>Her black <em>slip-ons</em> pass for dress shoes.</li></ol>
+<hr>
+<h3 id="lace-up">lace-up<a class="hash" href="#lace-up" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪs ʌp/ &middot; <em>LAYS-up</em></dd><dt>Русский</dt><dd>обувь на шнуровке</dd><dt>Plural</dt><dd><em>lace-ups</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>As a noun it is written with a hyphen and stressed on <em>lace</em>; the verb is two words: "lace up your boots."</dd></dl>
+<p>A shoe or boot fastened with laces.</p>
+<ol><li>He prefers <em>lace-ups</em> to loafers for work.</li><li>A tall <em>lace-up</em> takes a minute to get into.</li><li>These leather <em>lace-ups</em> will last for years.</li></ol>
+<hr>
+<h3 id="high-top">high-top<a class="hash" href="#high-top" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhaɪ tɑːp/ &middot; <em>HY-tahp</em></dd><dt>Русский</dt><dd>высокие кроссовки, хайтопы</dd><dt>Plural</dt><dd><em>high-tops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sneaker cut high enough to cover the ankle.</p>
+<ol><li>He laced up his red <em>high-tops</em>.</li><li>A canvas <em>high-top</em> is a classic look.</li><li><em>High-tops</em> give your ankle a little more support.</li></ol>
+<hr>
+<h3 id="low-top">low-top<a class="hash" href="#low-top" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈloʊ tɑːp/ &middot; <em>LOH-tahp</em></dd><dt>Русский</dt><dd>низкие кроссовки</dd><dt>Plural</dt><dd><em>low-tops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sneaker cut below the ankle.</p>
+<ol><li>He owns the same sneaker in <em>low-top</em> and high-top.</li><li><em>Low-tops</em> are cooler in the summer.</li><li>She wears white <em>low-tops</em> with everything.</li></ol>
+<hr>
+<h3 id="wingtip">wingtip<a class="hash" href="#wingtip" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪŋtɪp/ &middot; <em>WING-tip</em></dd><dt>Русский</dt><dd>туфли-броги с фигурным носком</dd><dt>Plural</dt><dd><em>wingtips</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dress shoe with a pointed leather cap shaped like wings across the toe.</p>
+<ol><li>He wore brown <em>wingtips</em> with a gray suit.</li><li>The perforations on a <em>wingtip</em> are purely decorative.</li><li>Those <em>wingtips</em> have been in his closet for a decade.</li></ol>
+<hr>
+<h3 id="brogue">brogue<a class="hash" href="#brogue" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/broʊɡ/ &middot; <em>BROHG</em></dd><dt>Русский</dt><dd>броги (туфли с перфорацией)</dd><dt>Plural</dt><dd><em>brogues</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a strong regional accent, especially an Irish one: "he spoke with a soft brogue."</dd></dl>
+<p>A sturdy leather shoe decorated with rows of punched holes.</p>
+<ol><li>He bought a pair of tan <em>brogues</em> for the spring.</li><li>The pattern on that <em>brogue</em> is beautiful.</li><li><em>Brogues</em> look good with tweed.</li></ol>
+<hr>
+<h3 id="saddle-shoe">saddle shoe<a class="hash" href="#saddle-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædl ʃuː/ &middot; <em>SAD-ul shoo</em></dd><dt>Русский</dt><dd>двухцветные туфли (школьные)</dd><dt>Plural</dt><dd><em>saddle shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A white lace-up shoe with a band of dark leather across the middle.</p>
+<ol><li>The dance team wore black-and-white <em>saddle shoes</em>.</li><li>That <em>saddle shoe</em> looks straight out of 1955.</li><li><em>Saddle shoes</em> were part of the school uniform.</li></ol>
+<hr>
+<h3 id="safety-shoe">safety shoe<a class="hash" href="#safety-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈseɪfti ʃuː/ &middot; <em>SAYF-tee shoo</em></dd><dt>Русский</dt><dd>защитная рабочая обувь</dd><dt>Plural</dt><dd><em>safety shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A work shoe built to protect the foot from injury.</p>
+<ol><li>The plant requires <em>safety shoes</em> on the floor.</li><li>A <em>safety shoe</em> has a reinforced toe and a slip-resistant sole.</li><li>They give every new hire a voucher for <em>safety shoes</em>.</li></ol>
+<hr>
+<h3 id="steel-toe">steel toe<a class="hash" href="#steel-toe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstiːl toʊ/ &middot; <em>STEEL toh</em></dd><dt>Русский</dt><dd>стальной подносок</dd><dt>Plural</dt><dd><em>steel toes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Steel</em> sounds exactly like <em>steal</em>; only the spelling tells them apart.</dd></dl>
+<p>A metal cap built into the front of a work boot to protect the toes.</p>
+<ol><li>These boots have a <em>steel toe</em> and cost twice as much.</li><li>The <em>steel toe</em> saved his foot when the pipe rolled off.</li><li>Boots with <em>steel toes</em> set off the metal detector.</li></ol>
+<hr>
+<h3 id="water-shoe">water shoe<a class="hash" href="#water-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ʃuː/ &middot; <em>WAW-tur shoo</em></dd><dt>Русский</dt><dd>обувь для воды, аквашузы</dd><dt>Plural</dt><dd><em>water shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A light mesh-and-rubber shoe worn in lakes, rivers, or the ocean.</p>
+<ol><li>Wear <em>water shoes</em> — the rocks are sharp.</li><li>A <em>water shoe</em> drains and dries in minutes.</li><li>The kids' <em>water shoes</em> are still in the car.</li></ol>
+<hr>
+<h3 id="tap-shoe">tap shoe<a class="hash" href="#tap-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtæp ʃuː/ &middot; <em>TAP shoo</em></dd><dt>Русский</dt><dd>туфли для степа</dd><dt>Plural</dt><dd><em>tap shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dance shoe with metal plates screwed to the toe and heel.</p>
+<ol><li>You can hear her <em>tap shoes</em> from the parking lot.</li><li>The screws on one <em>tap shoe</em> worked loose.</li><li><em>Tap shoes</em> are not allowed on the gym floor.</li></ol>
+<hr>
+<h3 id="pointe-shoe">pointe shoe<a class="hash" href="#pointe-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɔɪnt ʃuː/ &middot; <em>POYNT shoo</em></dd><dt>Русский</dt><dd>пуанты</dd><dt>Plural</dt><dd><em>pointe shoes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Pointe</em> is French but sounds exactly like <em>point</em>; the e is silent.</dd></dl>
+<p>A stiff satin ballet shoe that lets a dancer stand on the tips of her toes.</p>
+<ol><li>She sews the ribbons onto every pair of <em>pointe shoes</em> herself.</li><li>A <em>pointe shoe</em> lasts a serious dancer only a few weeks.</li><li>The company orders <em>pointe shoes</em> by the case.</li></ol>
+<hr>
+<h3 id="bowling-shoe">bowling shoe<a class="hash" href="#bowling-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈboʊlɪŋ ʃuː/ &middot; <em>BOH-ling shoo</em></dd><dt>Русский</dt><dd>обувь для боулинга</dd><dt>Plural</dt><dd><em>bowling shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat rental shoe with a smooth sole that lets you slide on the lane.</p>
+<ol><li>We had to rent <em>bowling shoes</em> at the counter.</li><li>Every <em>bowling shoe</em> has the size printed on the heel.</li><li>Those red-and-blue <em>bowling shoes</em> are hideous.</li></ol>
+<hr>
+<h3 id="climbing-shoe">climbing shoe<a class="hash" href="#climbing-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈklaɪmɪŋ ʃuː/ &middot; <em>KLY-ming shoo</em></dd><dt>Русский</dt><dd>скальные туфли</dd><dt>Plural</dt><dd><em>climbing shoes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The b in <em>climbing</em> is silent: KLY-ming.</dd></dl>
+<p>A tight rubber-soled shoe worn for rock climbing.</p>
+<ol><li><em>Climbing shoes</em> are supposed to feel too small.</li><li>He takes one <em>climbing shoe</em> off between routes.</li><li>The gym rents <em>climbing shoes</em> for five dollars.</li></ol>
+<hr>
+<h3 id="cycling-shoe">cycling shoe<a class="hash" href="#cycling-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪklɪŋ ʃuː/ &middot; <em>SY-kling shoo</em></dd><dt>Русский</dt><dd>велотуфли</dd><dt>Plural</dt><dd><em>cycling shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff-soled shoe that clips onto a bicycle pedal.</p>
+<ol><li>His <em>cycling shoes</em> click across the coffee shop floor.</li><li>A <em>cycling shoe</em> has a cleat bolted to the sole.</li><li><em>Cycling shoes</em> are useless for walking.</li></ol>
+<hr>
+<h3 id="skate-shoe">skate shoe<a class="hash" href="#skate-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈskeɪt ʃuː/ &middot; <em>SKAYT shoo</em></dd><dt>Русский</dt><dd>скейтерские кеды</dd><dt>Plural</dt><dd><em>skate shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A flat, heavily padded sneaker made to grip a skateboard.</p>
+<ol><li>He wears through a pair of <em>skate shoes</em> every two months.</li><li>A <em>skate shoe</em> has a flat vulcanized sole.</li><li>Those <em>skate shoes</em> have double stitching at the toe.</li></ol>
+<hr>
+<h3 id="golf-shoe">golf shoe<a class="hash" href="#golf-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡɑːlf ʃuː/ &middot; <em>GAHLF shoo</em></dd><dt>Русский</dt><dd>туфли для гольфа</dd><dt>Plural</dt><dd><em>golf shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe with gripping studs in the sole, worn on a golf course.</p>
+<ol><li>He changed into his <em>golf shoes</em> in the parking lot.</li><li>A modern <em>golf shoe</em> uses plastic spikes, not metal.</li><li><em>Golf shoes</em> aren't allowed in the clubhouse.</li></ol>
+<hr>
+<h3 id="spike">spike<a class="hash" href="#spike" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/spaɪk/ &middot; <em>SPYK</em></dd><dt>Русский</dt><dd>шип (на спортивной подошве); (мн.) шиповки</dd><dt>Plural</dt><dd><em>spikes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short metal point screwed into the sole of a track or golf shoe.</p>
+<ol><li>She laced up her <em>spikes</em> for the 400.</li><li>You can replace a worn <em>spike</em> with a small wrench.</li><li>Metal <em>spikes</em> tear up the turf.</li></ol>
+<hr>
+<h3 id="orthopedic-shoe">orthopedic shoe<a class="hash" href="#orthopedic-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɔːrθəˈpiːdɪk ʃuː/ &middot; <em>or-thuh-PEE-dik shoo</em></dd><dt>Русский</dt><dd>ортопедическая обувь</dd><dt>Plural</dt><dd><em>orthopedic shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe built to correct or relieve a problem with the foot.</p>
+<ol><li>Her doctor prescribed <em>orthopedic shoes</em>.</li><li>An <em>orthopedic shoe</em> is wider through the toe box.</li><li>Insurance covered one pair of <em>orthopedic shoes</em> a year.</li></ol>
+<hr>
+<h3 id="elevator-shoe">elevator shoe<a class="hash" href="#elevator-shoe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɛlɪveɪtər ʃuː/ &middot; <em>EL-uh-vay-tur shoo</em></dd><dt>Русский</dt><dd>обувь со скрытой платформой (для роста)</dd><dt>Plural</dt><dd><em>elevator shoes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe with a hidden lift inside that makes the wearer look taller.</p>
+<ol><li>The actor wore <em>elevator shoes</em> in every scene with her.</li><li>An <em>elevator shoe</em> can add two or three inches.</li><li>You'd never guess those were <em>elevator shoes</em>.</li></ol>
+<hr>
+<h3 id="outsole">outsole<a class="hash" href="#outsole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtsoʊl/ &middot; <em>OWT-sohl</em></dd><dt>Русский</dt><dd>наружная подошва</dd><dt>Plural</dt><dd><em>outsoles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The bottom layer of a shoe, the part that touches the ground.</p>
+<ol><li>The rubber <em>outsole</em> is glued and stitched on.</li><li>Check the <em>outsole</em> for even wear.</li><li>Both <em>outsoles</em> are worn smooth at the heel.</li></ol>
+<hr>
+<h3 id="insole">insole<a class="hash" href="#insole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnsoʊl/ &middot; <em>IN-sohl</em></dd><dt>Русский</dt><dd>стелька</dd><dt>Plural</dt><dd><em>insoles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The layer inside a shoe that the bottom of the foot rests on.</p>
+<ol><li>Pull the <em>insole</em> out and let it dry overnight.</li><li>New <em>insoles</em> made these boots comfortable again.</li><li>The <em>insole</em> had flattened out completely.</li></ol>
+<hr>
+<h3 id="midsole">midsole<a class="hash" href="#midsole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪdsoʊl/ &middot; <em>MID-sohl</em></dd><dt>Русский</dt><dd>межподошва (амортизирующий слой)</dd><dt>Plural</dt><dd><em>midsoles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The soft cushioning layer between the outsole and the foot.</p>
+<ol><li>The foam <em>midsole</em> breaks down long before the tread does.</li><li>Runners replace shoes when the <em>midsole</em> goes flat.</li><li>These <em>midsoles</em> are made of two different foams.</li></ol>
+<hr>
+<h3 id="footbed">footbed<a class="hash" href="#footbed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʊtbɛd/ &middot; <em>FUUT-bed</em></dd><dt>Русский</dt><dd>анатомическая стелька (ложе стопы)</dd><dt>Plural</dt><dd><em>footbeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The shaped surface inside a shoe that supports the whole foot.</p>
+<ol><li>The cork <em>footbed</em> molds to your foot over time.</li><li>These sandals have a contoured <em>footbed</em>.</li><li>Both <em>footbeds</em> are removable and washable.</li></ol>
+<hr>
+<h3 id="upper">upper<a class="hash" href="#upper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌpər/ &middot; <em>UP-ur</em></dd><dt>Русский</dt><dd>верх обуви</dd><dt>Plural</dt><dd><em>uppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The whole part of a shoe above the sole.</p>
+<ol><li>The <em>upper</em> is one piece of full-grain leather.</li><li>Water gets in where the <em>upper</em> meets the sole.</li><li>The soles were fine, but both <em>uppers</em> had cracked.</li></ol>
+<hr>
+<h3 id="vamp">vamp<a class="hash" href="#vamp" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/væmp/ &middot; <em>VAMP</em></dd><dt>Русский</dt><dd>союзка (передняя часть верха)</dd><dt>Plural</dt><dd><em>vamps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same spelling also means a seductive woman, or a short repeated passage in music.</dd></dl>
+<p>The front part of a shoe's upper, covering the toes and instep.</p>
+<ol><li>The <em>vamp</em> is stitched to the quarters at the seam.</li><li>A low <em>vamp</em> shows more of the foot.</li><li>The <em>vamps</em> on both shoes had creased deeply.</li></ol>
+<hr>
+<h3 id="toe-box">toe box<a class="hash" href="#toe-box" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊ bɑːks/ &middot; <em>TOH bahks</em></dd><dt>Русский</dt><dd>носочная часть обуви, мысок</dd><dt>Plural</dt><dd><em>toe boxes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The rounded front section of a shoe where the toes sit.</p>
+<ol><li>My little toe rubs against the <em>toe box</em>.</li><li>Look for a wide <em>toe box</em> if you have bunions.</li><li>The <em>toe boxes</em> on these boots are reinforced.</li></ol>
+<hr>
+<h3 id="toe-cap">toe cap<a class="hash" href="#toe-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtoʊ kæp/ &middot; <em>TOH kap</em></dd><dt>Русский</dt><dd>подносок (накладка на мыске)</dd><dt>Plural</dt><dd><em>toe caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A separate piece of leather or metal over the front of a shoe.</p>
+<ol><li>The <em>toe cap</em> is scuffed but the rest is fine.</li><li>A rubber <em>toe cap</em> keeps the boot from wearing through.</li><li>Both <em>toe caps</em> took a beating on the trail.</li></ol>
+<hr>
+<h3 id="heel-counter">heel counter<a class="hash" href="#heel-counter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːl ˌkaʊntər/ &middot; <em>HEEL kown-tur</em></dd><dt>Русский</dt><dd>задник</dd><dt>Plural</dt><dd><em>heel counters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The stiff piece inside the back of a shoe that holds the heel in place.</p>
+<ol><li>A firm <em>heel counter</em> keeps your foot from sliding around.</li><li>The <em>heel counter</em> collapsed after two seasons.</li><li>Cheap sneakers have soft <em>heel counters</em>.</li></ol>
+<hr>
+<h3 id="heel-cup">heel cup<a class="hash" href="#heel-cup" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːl kʌp/ &middot; <em>HEEL kup</em></dd><dt>Русский</dt><dd>углубление для пятки</dd><dt>Plural</dt><dd><em>heel cups</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A hollow in an insole that cradles the heel.</p>
+<ol><li>The deep <em>heel cup</em> keeps my foot centered.</li><li>He wears a gel <em>heel cup</em> for his heel pain.</li><li>These insoles have molded <em>heel cups</em>.</li></ol>
+<hr>
+<h3 id="heel-lift">heel lift<a class="hash" href="#heel-lift" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːl lɪft/ &middot; <em>HEEL lift</em></dd><dt>Русский</dt><dd>подпяточник</dd><dt>Plural</dt><dd><em>heel lifts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A wedge put inside a shoe to raise one heel.</p>
+<ol><li>One leg is shorter, so he wears a <em>heel lift</em>.</li><li>The podiatrist added a quarter-inch <em>heel lift</em>.</li><li><em>Heel lifts</em> are cheap and easy to swap out.</li></ol>
+<hr>
+<h3 id="heel-cap">heel cap<a class="hash" href="#heel-cap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːl kæp/ &middot; <em>HEEL kap</em></dd><dt>Русский</dt><dd>набойка</dd><dt>Plural</dt><dd><em>heel caps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The small replaceable piece on the very bottom of a heel.</p>
+<ol><li>The <em>heel caps</em> wore off and now the nails are showing.</li><li>A cobbler can put on a new <em>heel cap</em> in ten minutes.</li><li>The rubber <em>heel cap</em> came off on the escalator.</li></ol>
+<hr>
+<h3 id="heel-height">heel height<a class="hash" href="#heel-height" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhiːl haɪt/ &middot; <em>HEEL hyt</em></dd><dt>Русский</dt><dd>высота каблука</dd><dt>Plural</dt><dd><em>heel heights</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How far a shoe raises the back of the foot off the ground.</p>
+<ol><li>The listing gives a <em>heel height</em> of three inches.</li><li>She's fine with any <em>heel height</em> under two inches.</li><li>The same style comes in three <em>heel heights</em>.</li></ol>
+<hr>
+<h3 id="welt">welt<a class="hash" href="#welt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/wɛlt/ &middot; <em>WELT</em></dd><dt>Русский</dt><dd>рант</dd><dt>Plural</dt><dd><em>welts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a raised red mark on the skin from a blow.</dd></dl>
+<p>A strip of leather stitched between the upper and the sole of a shoe.</p>
+<ol><li>A shoe with a <em>welt</em> can be resoled many times.</li><li>The stitching along the <em>welt</em> had rotted.</li><li>Both <em>welts</em> were replaced during the rebuild.</li></ol>
+<hr>
+<h3 id="aglet">aglet<a class="hash" href="#aglet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæɡlət/ &middot; <em>AG-lit</em></dd><dt>Русский</dt><dd>наконечник шнурка</dd><dt>Plural</dt><dd><em>aglets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The little plastic or metal tip on the end of a shoelace.</p>
+<ol><li>The <em>aglet</em> came off and now the lace won't go through.</li><li>You can make a new <em>aglet</em> with a piece of tape.</li><li>Both <em>aglets</em> had split down the middle.</li></ol>
+<hr>
+<h3 id="instep">instep<a class="hash" href="#instep" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪnstɛp/ &middot; <em>IN-step</em></dd><dt>Русский</dt><dd>подъём стопы</dd><dt>Plural</dt><dd><em>insteps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The arched top of the foot between the toes and the ankle.</p>
+<ol><li>The strap sits right across my <em>instep</em>.</li><li>He has a high <em>instep</em>, so most loafers pinch.</li><li>The laces left marks on both <em>insteps</em>.</li></ol>
+<hr>
+<h3 id="lug-sole">lug sole<a class="hash" href="#lug-sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlʌɡ soʊl/ &middot; <em>LUG sohl</em></dd><dt>Русский</dt><dd>подошва с крупным протектором</dd><dt>Plural</dt><dd><em>lug soles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick rubber sole with deep blocks cut into it for grip.</p>
+<ol><li>The <em>lug sole</em> grips wet rock well.</li><li>Boots with a <em>lug sole</em> pick up a lot of mud.</li><li><em>Lug soles</em> are heavy but they last.</li></ol>
+<hr>
+<h3 id="rubber-sole">rubber sole<a class="hash" href="#rubber-sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈrʌbər soʊl/ &middot; <em>RUB-ur sohl</em></dd><dt>Русский</dt><dd>резиновая подошва</dd><dt>Plural</dt><dd><em>rubber soles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe bottom made of rubber, valued for grip and wear.</p>
+<ol><li>The <em>rubber sole</em> squeaks on the gym floor.</li><li>He had <em>rubber soles</em> put on his dress shoes for winter.</li><li>A <em>rubber sole</em> is safer on ice than leather.</li></ol>
+<hr>
+<h3 id="leather-sole">leather sole<a class="hash" href="#leather-sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛðər soʊl/ &middot; <em>LETH-ur sohl</em></dd><dt>Русский</dt><dd>кожаная подошва</dd><dt>Plural</dt><dd><em>leather soles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shoe bottom made of stiff leather, typical of dress shoes.</p>
+<ol><li>A <em>leather sole</em> is slippery until it's broken in.</li><li><em>Leather soles</em> wear out fast on concrete.</li><li>The shoes have a <em>leather sole</em> with a rubber heel.</li></ol>
+<hr>
+<h3 id="crepe-sole">crepe sole<a class="hash" href="#crepe-sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkreɪp soʊl/ &middot; <em>KRAYP sohl</em></dd><dt>Русский</dt><dd>креповая подошва (из каучука)</dd><dt>Plural</dt><dd><em>crepe soles</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like the thin pancake, and here pronounced the same way: KRAYP.</dd></dl>
+<p>A soft, springy sole made of natural crinkled rubber.</p>
+<ol><li>Desert boots usually come with a <em>crepe sole</em>.</li><li>A <em>crepe sole</em> is quiet but it picks up every bit of grit.</li><li><em>Crepe soles</em> get sticky on hot pavement.</li></ol>
+<hr>
+<h3 id="sock-liner">sock liner<a class="hash" href="#sock-liner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːk ˌlaɪnər/ &middot; <em>SAHK ly-nur</em></dd><dt>Русский</dt><dd>вкладная стелька</dd><dt>Plural</dt><dd><em>sock liners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The thin removable layer that sits directly under the foot in a sneaker.</p>
+<ol><li>Take the <em>sock liner</em> out to wash it.</li><li>A worn <em>sock liner</em> is easy and cheap to replace.</li><li>Both <em>sock liners</em> had curled at the toe.</li></ol>
+<hr>
+<h3 id="arch-support">arch support<a class="hash" href="#arch-support" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɑːrtʃ səˌpɔːrt/ &middot; <em>ARCH suh-pawrt</em></dd><dt>Русский</dt><dd>супинатор (поддержка свода стопы)</dd><dt>Plural</dt><dd><em>arch supports</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A shaped piece in or added to a shoe that holds up the arch of the foot.</p>
+<ol><li>These sandals have real <em>arch support</em>.</li><li>He slipped an <em>arch support</em> into each boot.</li><li><em>Arch supports</em> helped my back more than anything else.</li></ol>
+<hr>
+<h3 id="orthotic">orthotic<a class="hash" href="#orthotic" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɔːrˈθɑːtɪk/ &middot; <em>or-THAH-tik</em></dd><dt>Русский</dt><dd>ортопедическая стелька</dd><dt>Plural</dt><dd><em>orthotics</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A custom insole made to correct the way a foot sits or moves.</p>
+<ol><li>Her <em>orthotics</em> were molded from a cast of her feet.</li><li>He moves one <em>orthotic</em> from shoe to shoe.</li><li>Custom <em>orthotics</em> are expensive but they lasted years.</li></ol>
+<hr>
+<h3 id="shoe-insert">shoe insert<a class="hash" href="#shoe-insert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː ɪnˌsɜːrt/ &middot; <em>SHOO in-surt</em></dd><dt>Русский</dt><dd>вкладыш в обувь</dd><dt>Plural</dt><dd><em>shoe inserts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun <em>insert</em> stresses the first syllable, IN-surt; the verb stresses the second, in-SURT.</dd></dl>
+<p>A pad or insole you buy separately and slide into a shoe.</p>
+<ol><li>Gel <em>shoe inserts</em> made the standing bearable.</li><li>He picked up a <em>shoe insert</em> at the drugstore.</li><li>The <em>shoe inserts</em> come in one size and you trim them.</li></ol>
+<hr>
+<h3 id="boot-shaft">boot shaft<a class="hash" href="#boot-shaft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːt ʃæft/ &middot; <em>BOOT shaft</em></dd><dt>Русский</dt><dd>голенище</dd><dt>Plural</dt><dd><em>boot shafts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The tall part of a boot that covers the leg above the ankle.</p>
+<ol><li>The <em>boot shaft</em> is too narrow for my calf.</li><li>She tucked her jeans into the <em>boot shaft</em>.</li><li>The <em>boot shafts</em> had cracked from being folded down.</li></ol>
+<hr>
+<h3 id="boot-liner">boot liner<a class="hash" href="#boot-liner" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːt ˌlaɪnər/ &middot; <em>BOOT ly-nur</em></dd><dt>Русский</dt><dd>внутренний сапожок (вкладыш)</dd><dt>Plural</dt><dd><em>boot liners</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A removable felt or foam inner boot that adds warmth.</p>
+<ol><li>Pull the <em>boot liners</em> out to dry by the fire.</li><li>A wet <em>boot liner</em> takes all night to dry.</li><li>The <em>boot liners</em> on his old pack boots are shot.</li></ol>
+<hr>
+<h3 id="bootlace">bootlace<a class="hash" href="#bootlace" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːtleɪs/ &middot; <em>BOOT-lays</em></dd><dt>Русский</dt><dd>шнурок для ботинок</dd><dt>Plural</dt><dd><em>bootlaces</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long, heavy lace for a boot.</p>
+<ol><li>He snapped a <em>bootlace</em> pulling it tight.</li><li>Waxed <em>bootlaces</em> hold a knot better.</li><li>I keep spare <em>bootlaces</em> in my pack.</li></ol>
+<hr>
+<h3 id="lace-hook">lace hook<a class="hash" href="#lace-hook" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪs hʊk/ &middot; <em>LAYS huuk</em></dd><dt>Русский</dt><dd>крючок для шнуровки</dd><dt>Plural</dt><dd><em>lace hooks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small open metal hook on a boot that a lace catches on.</p>
+<ol><li>The top <em>lace hook</em> bent out of shape.</li><li>Boots with <em>lace hooks</em> are much faster to put on.</li><li>The lace slipped off the <em>lace hook</em> again.</li></ol>
+<hr>
+<h3 id="grommet">grommet<a class="hash" href="#grommet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡrɑːmɪt/ &middot; <em>GRAH-mit</em></dd><dt>Русский</dt><dd>люверс (металлическое кольцо)</dd><dt>Plural</dt><dd><em>grommets</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A metal ring set into a lace hole to keep it from tearing.</p>
+<ol><li>One <em>grommet</em> pulled clean out of the leather.</li><li>Brass <em>grommets</em> look good on work boots.</li><li>The <em>grommets</em> are rusted but the boots are fine.</li></ol>
+<hr>
+<h3 id="bootstrap">bootstrap<a class="hash" href="#bootstrap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːtstræp/ &middot; <em>BOOT-strap</em></dd><dt>Русский</dt><dd>петля-ушко на голенище</dd><dt>Plural</dt><dd><em>bootstraps</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The idiom "pull yourself up by your <em>bootstraps</em>" (succeed with no help) is far more common than the literal loop.</dd></dl>
+<p>A loop at the top of a boot that you pull on to get the boot over your foot.</p>
+<ol><li>He grabbed both <em>bootstraps</em> and yanked.</li><li>The <em>bootstrap</em> tore right off the leather.</li><li>Tall boots usually have a <em>bootstrap</em> on each side.</li></ol>
+<hr>
+<h3 id="ankle-strap">ankle strap<a class="hash" href="#ankle-strap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkl stræp/ &middot; <em>ANG-kul strap</em></dd><dt>Русский</dt><dd>ремешок на щиколотке</dd><dt>Plural</dt><dd><em>ankle straps</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A band around the ankle that holds a shoe or sandal on the foot.</p>
+<ol><li>The <em>ankle strap</em> buckles on the outside.</li><li><em>Ankle straps</em> can make your legs look shorter.</li><li>The <em>ankle strap</em> rubbed a blister by noon.</li></ol>
+<hr>
+<h3 id="lacing">lacing<a class="hash" href="#lacing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈleɪsɪŋ/ &middot; <em>LAY-sing</em></dd><dt>Русский</dt><dd>шнуровка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The way laces are threaded through a shoe.</p>
+<ol><li>Loosen the <em>lacing</em> over the instep and the pinching stops.</li><li>The <em>lacing</em> on these boots crosses over the tongue.</li><li>There's a trick to <em>lacing</em> that keeps your heel from slipping.</li></ol>
+<hr>
+<h3 id="traction">traction<a class="hash" href="#traction" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtrækʃn/ &middot; <em>TRAK-shun</em></dd><dt>Русский</dt><dd>сцепление с поверхностью</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The grip a sole has on the ground.</p>
+<ol><li>These soles have terrible <em>traction</em> on wet tile.</li><li>Winter boots need <em>traction</em> on ice, not just warmth.</li><li>The deep tread gives you good <em>traction</em> in mud.</li></ol>
+<hr>
+<h3 id="cushioning">cushioning<a class="hash" href="#cushioning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʊʃənɪŋ/ &middot; <em>KUUSH-uh-ning</em></dd><dt>Русский</dt><dd>амортизация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The soft material in a shoe that absorbs the shock of each step.</p>
+<ol><li>There's almost no <em>cushioning</em> left in these sneakers.</li><li>The new model added <em>cushioning</em> under the heel.</li><li>Nurses want <em>cushioning</em> more than anything else.</li></ol>
+<hr>
+<h3 id="shoe-width">shoe width<a class="hash" href="#shoe-width" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː wɪdθ/ &middot; <em>SHOO width</em></dd><dt>Русский</dt><dd>полнота обуви</dd><dt>Plural</dt><dd><em>shoe widths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>How wide a shoe is made, shown by a letter after the size.</p>
+<ol><li>This brand comes in three <em>shoe widths</em>.</li><li>He needs a wide <em>shoe width</em> because of his bunions.</li><li><em>Shoe width</em> matters as much as length.</li></ol>
+<hr>
+<h3 id="patent-leather">patent leather<a class="hash" href="#patent-leather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpætnt ˌlɛðər/ &middot; <em>PAT-nt leth-ur</em></dd><dt>Русский</dt><dd>лакированная кожа</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Americans say PAT-nt leather; the British say PAY-tnt. The US patent office is PAT-nt too.</dd></dl>
+<p>Leather with a hard, shiny coating on the surface.</p>
+<ol><li>Her <em>patent leather</em> pumps caught the light.</li><li><em>Patent leather</em> scuffs easily and can't be polished out.</li><li>He wore black <em>patent leather</em> shoes with his tuxedo.</li></ol>
+<hr>
+<h3 id="nubuck">nubuck<a class="hash" href="#nubuck" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːbʌk/ &middot; <em>NOO-buk</em></dd><dt>Русский</dt><dd>нубук</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Leather sanded on the outside to give it a soft, velvety surface.</p>
+<ol><li>The boots are <em>nubuck</em>, so keep them out of the rain.</li><li><em>Nubuck</em> marks if you so much as touch it with a wet hand.</li><li>A <em>nubuck</em> upper needs a special brush.</li></ol>
+<hr>
+<h3 id="calfskin">calfskin<a class="hash" href="#calfskin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæfskɪn/ &middot; <em>KAF-skin</em></dd><dt>Русский</dt><dd>телячья кожа</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The l in <em>calf</em> is silent: KAF-skin.</dd></dl>
+<p>Fine soft leather from a young cow, used for good dress shoes.</p>
+<ol><li>The uppers are smooth <em>calfskin</em>.</li><li><em>Calfskin</em> takes a polish beautifully.</li><li>These gloves and shoes are both <em>calfskin</em>.</li></ol>
+<hr>
+<h3 id="cowhide">cowhide<a class="hash" href="#cowhide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊhaɪd/ &middot; <em>KOW-hyd</em></dd><dt>Русский</dt><dd>воловья кожа</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Thick, tough leather from an adult cow.</p>
+<ol><li>The work boots are heavy <em>cowhide</em>.</li><li><em>Cowhide</em> is stiff at first but softens with wear.</li><li>He bought a whole side of <em>cowhide</em> for the shop.</li></ol>
+<hr>
+<h3 id="full-grain-leather">full-grain leather<a class="hash" href="#full-grain-leather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfʊl ɡreɪn ˈlɛðər/ &middot; <em>fuul-grayn LETH-ur</em></dd><dt>Русский</dt><dd>кожа с натуральной лицевой поверхностью</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Leather with its natural outer surface left on, the strongest kind.</p>
+<ol><li>These boots use <em>full-grain leather</em> throughout.</li><li><em>Full-grain leather</em> develops a patina over the years.</li><li>You pay more for <em>full-grain leather</em>, and it shows.</li></ol>
+<hr>
+<h3 id="faux-leather">faux leather<a class="hash" href="#faux-leather" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌfoʊ ˈlɛðər/ &middot; <em>foh LETH-ur</em></dd><dt>Русский</dt><dd>искусственная кожа</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Faux</em> is French: it rhymes with <em>go</em>, and the x is silent.</dd></dl>
+<p>A plastic material made to look like leather.</p>
+<ol><li>The boots are <em>faux leather</em>, which is why they're forty dollars.</li><li><em>Faux leather</em> cracks after a couple of winters.</li><li>She only buys <em>faux leather</em> shoes.</li></ol>
+<hr>
+<h3 id="shoe-polish">shoe polish<a class="hash" href="#shoe-polish" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː ˌpɑːlɪʃ/ &middot; <em>SHOO pah-lish</em></dd><dt>Русский</dt><dd>крем для обуви, гуталин</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Waxy paste or cream rubbed on leather shoes to color and shine them.</p>
+<ol><li>He got <em>shoe polish</em> all over the kitchen towel.</li><li>We're out of black <em>shoe polish</em>.</li><li>A tin of <em>shoe polish</em> lasts for years.</li></ol>
+<hr>
+<h3 id="shoeshine">shoeshine<a class="hash" href="#shoeshine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːʃaɪn/ &middot; <em>SHOO-shyn</em></dd><dt>Русский</dt><dd>чистка обуви до блеска</dd><dt>Plural</dt><dd><em>shoeshines</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A cleaning and polishing of someone's shoes.</p>
+<ol><li>He got a <em>shoeshine</em> in the airport terminal.</li><li>A good <em>shoeshine</em> costs eight dollars downtown.</li><li>The stand does about forty <em>shoeshines</em> a day.</li></ol>
+<hr>
+<h3 id="shoe-brush">shoe brush<a class="hash" href="#shoe-brush" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː brʌʃ/ &middot; <em>SHOO brush</em></dd><dt>Русский</dt><dd>щётка для обуви</dd><dt>Plural</dt><dd><em>shoe brushes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stiff-bristled brush for cleaning or buffing shoes.</p>
+<ol><li>Knock the dried mud off with a <em>shoe brush</em>.</li><li>He keeps a <em>shoe brush</em> in the hall closet.</li><li>Use separate <em>shoe brushes</em> for black and brown.</li></ol>
+<hr>
+<h3 id="polishing-cloth">polishing cloth<a class="hash" href="#polishing-cloth" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːlɪʃɪŋ klɔːθ/ &middot; <em>PAH-lish-ing klawth</em></dd><dt>Русский</dt><dd>суконка для полировки</dd><dt>Plural</dt><dd><em>polishing cloths</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A soft rag used to rub a shine onto leather.</p>
+<ol><li>Wrap the <em>polishing cloth</em> tight around two fingers.</li><li>An old T-shirt makes a fine <em>polishing cloth</em>.</li><li>The <em>polishing cloths</em> are black with old wax.</li></ol>
+<hr>
+<h3 id="leather-cream">leather cream<a class="hash" href="#leather-cream" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛðər kriːm/ &middot; <em>LETH-ur kreem</em></dd><dt>Русский</dt><dd>крем для кожи</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A soft conditioner rubbed into leather to keep it from drying out.</p>
+<ol><li>Work the <em>leather cream</em> in with your fingers.</li><li><em>Leather cream</em> feeds the leather; wax just shines it.</li><li>He puts <em>leather cream</em> on his boots twice a year.</li></ol>
+<hr>
+<h3 id="saddle-soap">saddle soap<a class="hash" href="#saddle-soap" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsædl soʊp/ &middot; <em>SAD-ul sohp</em></dd><dt>Русский</dt><dd>седельное мыло (для чистки кожи)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A mild soap made for cleaning leather without drying it.</p>
+<ol><li>Clean the salt stains off with <em>saddle soap</em>.</li><li>A can of <em>saddle soap</em> costs a few dollars.</li><li>Use <em>saddle soap</em> first, then polish.</li></ol>
+<hr>
+<h3 id="waterproofing">waterproofing<a class="hash" href="#waterproofing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtərpruːfɪŋ/ &middot; <em>WAW-tur-proo-fing</em></dd><dt>Русский</dt><dd>водоотталкивающая пропитка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A treatment that keeps water from soaking into a shoe.</p>
+<ol><li>The <em>waterproofing</em> wears off after a season.</li><li>Spray <em>waterproofing</em> on before the first snow.</li><li>These boots come with <em>waterproofing</em> built in.</li></ol>
+<hr>
+<h3 id="buffing">buffing<a class="hash" href="#buffing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbʌfɪŋ/ &middot; <em>BUF-ing</em></dd><dt>Русский</dt><dd>полировка (до блеска)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Rubbing polished leather with a cloth or brush to bring up a shine.</p>
+<ol><li>A little <em>buffing</em> and they look new.</li><li>The shine comes from the <em>buffing</em>, not the polish.</li><li><em>Buffing</em> by hand takes longer but works better.</li></ol>
+<hr>
+<h3 id="resoling">resoling<a class="hash" href="#resoling" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌriːˈsoʊlɪŋ/ &middot; <em>ree-SOH-ling</em></dd><dt>Русский</dt><dd>замена подошвы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Replacing the worn-out sole of a shoe with a new one.</p>
+<ol><li><em>Resoling</em> costs about sixty dollars a pair.</li><li>These boots are worth <em>resoling</em>.</li><li>The shop does <em>resoling</em> in about a week.</li></ol>
+<hr>
+<h3 id="scuff">scuff<a class="hash" href="#scuff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/skʌf/ &middot; <em>SKUF</em></dd><dt>Русский</dt><dd>потёртость, царапина</dd><dt>Plural</dt><dd><em>scuffs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A mark on leather where the surface has been rubbed or scraped.</p>
+<ol><li>There's a <em>scuff</em> on the toe of my left shoe.</li><li>Polish hides most small <em>scuffs</em>.</li><li>The subway stairs put a deep <em>scuff</em> in the heel.</li></ol>
+<hr>
+<h3 id="shoe-repair">shoe repair<a class="hash" href="#shoe-repair" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː rɪˌpɛr/ &middot; <em>SHOO rih-pair</em></dd><dt>Русский</dt><dd>ремонт обуви</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The trade of fixing worn or damaged shoes.</p>
+<ol><li>There's a <em>shoe repair</em> place next to the dry cleaner.</li><li><em>Shoe repair</em> is cheaper than buying new boots.</li><li>He's been in <em>shoe repair</em> for thirty years.</li></ol>
+<hr>
+<h3 id="shoemaker">shoemaker<a class="hash" href="#shoemaker" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːˌmeɪkər/ &middot; <em>SHOO-may-kur</em></dd><dt>Русский</dt><dd>сапожник, обувщик</dd><dt>Plural</dt><dd><em>shoemakers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who makes shoes by hand.</p>
+<ol><li>A <em>shoemaker</em> in the village made boots to order.</li><li>The <em>shoemaker</em> measured both of his feet.</li><li>There are only a few <em>shoemakers</em> left in the city.</li></ol>
+<hr>
+<h3 id="shoemaking">shoemaking<a class="hash" href="#shoemaking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːˌmeɪkɪŋ/ &middot; <em>SHOO-may-king</em></dd><dt>Русский</dt><dd>сапожное дело</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The craft of making shoes.</p>
+<ol><li>He learned <em>shoemaking</em> from his father.</li><li><em>Shoemaking</em> used to be done entirely by hand.</li><li>The school offers a course in <em>shoemaking</em>.</li></ol>
+<hr>
+<h3 id="last">last<a class="hash" href="#last" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/læst/ &middot; <em>LAST</em></dd><dt>Русский</dt><dd>обувная колодка</dd><dt>Plural</dt><dd><em>lasts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled and said like <em>last</em> meaning 'final,' but this is a separate noun from shoemaking.</dd></dl>
+<p>The foot-shaped wooden or plastic form that a shoe is built around.</p>
+<ol><li>Every brand builds its shoes on a different <em>last</em>.</li><li>The shop carved a wooden <em>last</em> for each customer.</li><li>Two shoes on the same <em>last</em> will fit the same way.</li></ol>
+<hr>
+<h3 id="shoe-tree">shoe tree<a class="hash" href="#shoe-tree" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː triː/ &middot; <em>SHOO tree</em></dd><dt>Русский</dt><dd>распорка-колодка для обуви</dd><dt>Plural</dt><dd><em>shoe trees</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A foot-shaped form put inside a shoe to hold its shape while it is stored.</p>
+<ol><li>Cedar <em>shoe trees</em> pull the moisture out overnight.</li><li>Put a <em>shoe tree</em> in as soon as you take them off.</li><li>He has <em>shoe trees</em> in every pair he owns.</li></ol>
+<hr>
+<h3 id="shoehorn">shoehorn<a class="hash" href="#shoehorn" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuːhɔːrn/ &middot; <em>SHOO-hawrn</em></dd><dt>Русский</dt><dd>рожок для обуви</dd><dt>Plural</dt><dd><em>shoehorns</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A curved piece of metal or plastic that helps your heel slide into a shoe.</p>
+<ol><li>There's a long <em>shoehorn</em> hanging by the door.</li><li>Use a <em>shoehorn</em> and you won't crush the heel counter.</li><li>The store keeps <em>shoehorns</em> at every bench.</li></ol>
+<hr>
+<h3 id="shoe-stretcher">shoe stretcher<a class="hash" href="#shoe-stretcher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː ˌstrɛtʃər/ &middot; <em>SHOO strech-ur</em></dd><dt>Русский</dt><dd>растяжка для обуви</dd><dt>Plural</dt><dd><em>shoe stretchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tool cranked open inside a shoe to widen it.</p>
+<ol><li>The cobbler left them on a <em>shoe stretcher</em> overnight.</li><li>A <em>shoe stretcher</em> can gain you half a size.</li><li><em>Shoe stretchers</em> only work on leather.</li></ol>
+<hr>
+<h3 id="bootjack">bootjack<a class="hash" href="#bootjack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːtdʒæk/ &middot; <em>BOOT-jak</em></dd><dt>Русский</dt><dd>подставка для снятия сапог</dd><dt>Plural</dt><dd><em>bootjacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A notched board you step on to pull a tight boot off.</p>
+<ol><li>There's a <em>bootjack</em> on the back porch.</li><li>Use the <em>bootjack</em> — don't drag mud through the house.</li><li>Old <em>bootjacks</em> are shaped like a beetle.</li></ol>
+<hr>
+<h3 id="boot-dryer">boot dryer<a class="hash" href="#boot-dryer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːt ˌdraɪrr/ &middot; <em>BOOT dry-ur</em></dd><dt>Русский</dt><dd>сушилка для обуви</dd><dt>Plural</dt><dd><em>boot dryers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A device that blows warm air into wet boots to dry them.</p>
+<ol><li>The ski lodge has a <em>boot dryer</em> in the mudroom.</li><li>A <em>boot dryer</em> saves your boots from smelling.</li><li>We ran both pairs on the <em>boot dryer</em> overnight.</li></ol>
+<hr>
+<h3 id="shoe-rack">shoe rack<a class="hash" href="#shoe-rack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː ræk/ &middot; <em>SHOO rak</em></dd><dt>Русский</dt><dd>полка для обуви</dd><dt>Plural</dt><dd><em>shoe racks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A stand or shelf for storing shoes in rows.</p>
+<ol><li>Please put your sneakers on the <em>shoe rack</em>.</li><li>We bought a <em>shoe rack</em> for the entryway.</li><li>The closet has two <em>shoe racks</em> on the floor.</li></ol>
+<hr>
+<h3 id="shoe-department">shoe department<a class="hash" href="#shoe-department" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː dɪˌpɑːrtmənt/ &middot; <em>SHOO dih-part-munt</em></dd><dt>Русский</dt><dd>обувной отдел</dd><dt>Plural</dt><dd><em>shoe departments</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of a large store where footwear is sold.</p>
+<ol><li>The <em>shoe department</em> is on the second floor.</li><li>She worked in the <em>shoe department</em> one summer.</li><li>Both <em>shoe departments</em> were having a sale.</li></ol>
+<hr>
+<h3 id="shoe-size">shoe size<a class="hash" href="#shoe-size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː saɪz/ &middot; <em>SHOO syz</em></dd><dt>Русский</dt><dd>размер обуви</dd><dt>Plural</dt><dd><em>shoe sizes</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The number that says how long a person's foot or a shoe is.</p>
+<ol><li>What's your <em>shoe size</em>?</li><li>My <em>shoe size</em> went up after I had kids.</li><li>American and European <em>shoe sizes</em> don't match.</li></ol>
+<hr>
+<h3 id="half-size">half size<a class="hash" href="#half-size" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæf saɪz/ &middot; <em>HAF syz</em></dd><dt>Русский</dt><dd>полразмера</dd><dt>Plural</dt><dd><em>half sizes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The l in <em>half</em> is silent: HAF.</dd></dl>
+<p>A shoe size halfway between two whole numbers.</p>
+<ol><li>Go up a <em>half size</em> if you'll wear thick socks.</li><li>This brand doesn't make <em>half sizes</em>.</li><li>A <em>half size</em> is about a sixth of an inch.</li></ol>
+<hr>
+<h3 id="shoe-cover">shoe cover<a class="hash" href="#shoe-cover" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃuː ˌkʌvər/ &middot; <em>SHOO kuv-ur</em></dd><dt>Русский</dt><dd>бахила (чехол на обувь)</dd><dt>Plural</dt><dd><em>shoe covers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin slip-on cover that keeps a shoe clean or keeps dirt off a floor.</p>
+<ol><li>The plumber pulled on blue <em>shoe covers</em> at the door.</li><li>Each visitor gets a paper <em>shoe cover</em> for each foot.</li><li>The clinic hands out <em>shoe covers</em> at the entrance.</li></ol>
+<hr>
+<h3 id="gaiter">gaiter<a class="hash" href="#gaiter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡeɪtər/ &middot; <em>GAY-tur</em></dd><dt>Русский</dt><dd>гамаши (защита голени и обуви)</dd><dt>Plural</dt><dd><em>gaiters</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds almost exactly like <em>gator</em> (alligator) in American speech.</dd></dl>
+<p>A cover strapped over a boot and lower leg to keep out snow or brush.</p>
+<ol><li>Put your <em>gaiters</em> on before the snow gets deep.</li><li>One <em>gaiter</em> came unbuckled on the descent.</li><li><em>Gaiters</em> keep gravel out of your boots.</li></ol>
+<hr>
+<h3 id="pantyhose">pantyhose<a class="hash" href="#pantyhose" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpæntiˌhoʊz/ &middot; <em>PAN-tee-hohz</em></dd><dt>Русский</dt><dd>колготки</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Never counted with a number — say a pair of <em>pantyhose</em>, and use a plural verb: "my pantyhose are torn." The British say <em>tights</em>.</dd></dl>
+<p>A thin nylon garment covering the feet, legs, and hips in one piece.</p>
+<ol><li>Her <em>pantyhose</em> ran on the way to the interview.</li><li>She keeps a spare pair of <em>pantyhose</em> in her desk.</li><li>Nobody wears <em>pantyhose</em> to the office anymore.</li></ol>
+<hr>
+<h3 id="crew-sock">crew sock<a class="hash" href="#crew-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkruː sɑːk/ &middot; <em>KROO sahk</em></dd><dt>Русский</dt><dd>носок до середины голени</dd><dt>Plural</dt><dd><em>crew socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A sock that comes up to the middle of the calf.</p>
+<ol><li>He buys white <em>crew socks</em> by the twelve-pack.</li><li>A <em>crew sock</em> sits just below the calf.</li><li><em>Crew socks</em> are back in style with sneakers.</li></ol>
+<hr>
+<h3 id="ankle-sock">ankle sock<a class="hash" href="#ankle-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæŋkl sɑːk/ &middot; <em>ANG-kul sahk</em></dd><dt>Русский</dt><dd>короткий носок (до щиколотки)</dd><dt>Plural</dt><dd><em>ankle socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short sock that ends at the ankle.</p>
+<ol><li>She wears <em>ankle socks</em> with her running shoes.</li><li>One <em>ankle sock</em> always disappears in the dryer.</li><li><em>Ankle socks</em> are cooler in the summer.</li></ol>
+<hr>
+<h3 id="knee-sock">knee sock<a class="hash" href="#knee-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈniː sɑːk/ &middot; <em>NEE sahk</em></dd><dt>Русский</dt><dd>гольфы (носки до колена)</dd><dt>Plural</dt><dd><em>knee socks</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The k in <em>knee</em> is silent: NEE sock.</dd></dl>
+<p>A long sock reaching up to the knee.</p>
+<ol><li>The uniform includes navy <em>knee socks</em>.</li><li>She pulled one <em>knee sock</em> up over her calf.</li><li><em>Knee socks</em> keep your legs warm under boots.</li></ol>
+<hr>
+<h3 id="no-show-sock">no-show sock<a class="hash" href="#no-show-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌnoʊ ˈʃoʊ sɑːk/ &middot; <em>noh-SHOH sahk</em></dd><dt>Русский</dt><dd>следки (невидимые носки)</dd><dt>Plural</dt><dd><em>no-show socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A very low sock that stays hidden inside the shoe.</p>
+<ol><li>He wears <em>no-show socks</em> with his loafers.</li><li>A <em>no-show sock</em> slides off my heel every time.</li><li><em>No-show socks</em> need a grip strip in the back.</li></ol>
+<hr>
+<h3 id="dress-sock">dress sock<a class="hash" href="#dress-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdrɛs sɑːk/ &middot; <em>DRES sahk</em></dd><dt>Русский</dt><dd>тонкий носок под костюм</dd><dt>Plural</dt><dd><em>dress socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thin sock worn with dress shoes and a suit.</p>
+<ol><li>Pack two pairs of black <em>dress socks</em>.</li><li>A thin <em>dress sock</em> won't take up room in the shoe.</li><li>His <em>dress socks</em> had a subtle pattern.</li></ol>
+<hr>
+<h3 id="athletic-sock">athletic sock<a class="hash" href="#athletic-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/æθˈlɛtɪk sɑːk/ &middot; <em>ath-LET-ik sahk</em></dd><dt>Русский</dt><dd>спортивный носок</dd><dt>Plural</dt><dd><em>athletic socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick cushioned sock worn for sports.</p>
+<ol><li>Bring clean <em>athletic socks</em> to practice.</li><li>An <em>athletic sock</em> has extra padding at the heel.</li><li>The team hands out <em>athletic socks</em> on the first day.</li></ol>
+<hr>
+<h3 id="boot-sock">boot sock<a class="hash" href="#boot-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbuːt sɑːk/ &middot; <em>BOOT sahk</em></dd><dt>Русский</dt><dd>толстый носок под ботинки</dd><dt>Plural</dt><dd><em>boot socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A thick tall sock worn inside boots.</p>
+<ol><li>Wool <em>boot socks</em> are worth every penny in January.</li><li>A wet <em>boot sock</em> will give you blisters fast.</li><li>He packed three pairs of <em>boot socks</em> for the trip.</li></ol>
+<hr>
+<h3 id="compression-sock">compression sock<a class="hash" href="#compression-sock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəmˈprɛʃn sɑːk/ &middot; <em>kum-PRESH-un sahk</em></dd><dt>Русский</dt><dd>компрессионный носок</dd><dt>Plural</dt><dd><em>compression socks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tight sock that squeezes the leg to help the blood move.</p>
+<ol><li>She wears <em>compression socks</em> on long flights.</li><li>A <em>compression sock</em> is a fight to get on.</li><li>The doctor recommended <em>compression socks</em> after surgery.</li></ol>
+<hr>
+<h3 id="half-sole">half sole<a class="hash" href="#half-sole" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæf soʊl/ &middot; <em>HAF sohl</em></dd><dt>Русский</dt><dd>подмётка (передняя часть подошвы)</dd><dt>Plural</dt><dd><em>half soles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A new piece of sole put on the front part of a shoe only.</p>
+<ol><li>The cobbler put a <em>half sole</em> on both shoes.</li><li>A <em>half sole</em> costs half what a full resole does.</li><li>Rubber <em>half soles</em> add grip to leather shoes.</li></ol>
+<hr>
+<h3 id="slide">slide<a class="hash" href="#slide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/slaɪd/ &middot; <em>SLYD</em></dd><dt>Русский</dt><dd>шлёпанцы (сандалии без задника)</dd><dt>Plural</dt><dd><em>slides</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The same word also means a playground slide or a photographic slide; the sandal sense is nearly always plural.</dd></dl>
+<p>A flat backless sandal with one wide band across the foot.</p>
+<ol><li>He wears <em>slides</em> to the pool and nowhere else.</li><li>One <em>slide</em> floated off down the lake.</li><li>Rubber <em>slides</em> dry in about a minute.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

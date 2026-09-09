@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: farming</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-farming">Core vocabulary: farming<a class="hash" href="#core-vocabulary-farming" aria-label="link">#</a></h1>
+<blockquote><p>The everyday nouns of farming — pronunciation, Russian, plural, and three examples each.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Part of the <strong>core-vocabulary tier</strong>. Groups 1–23 cover the nouns that misbehave; this tier covers the nouns you simply need to know. Entries are deliberately lean, because a regular countable noun has no grammatical story to tell. A <strong>Contrast</strong> line appears only where the word hides a genuine trap.</p>
+<p>Where a word in this field <em>does</em> misbehave, it lives in the grammar tier instead and is not repeated here.</p>
+<hr>
+<h3 id="farm">farm<a class="hash" href="#farm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fɑːrm/ &middot; <em>FARM</em></dd><dt>Русский</dt><dd>ферма, хозяйство</dd><dt>Plural</dt><dd><em>farms</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An area of land with its buildings, used for growing crops or raising animals.</p>
+<ol><li>My grandparents ran a small dairy <em>farm</em> up north.</li><li>Most of the <em>farms</em> around here grow corn and soybeans.</li><li>We buy our eggs straight from the <em>farm</em>.</li></ol>
+<hr>
+<h3 id="farming">farming<a class="hash" href="#farming" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmɪŋ/ &middot; <em>FAR-ming</em></dd><dt>Русский</dt><dd>фермерство, сельское хозяйство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work or business of running a farm.</p>
+<ol><li><em>Farming</em> is harder work than most people imagine.</li><li>He gave up <em>farming</em> after three bad years in a row.</li><li>Organic <em>farming</em> has grown fast in this part of the state.</li></ol>
+<hr>
+<h3 id="agriculture">agriculture<a class="hash" href="#agriculture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæɡrɪkʌltʃər/ &middot; <em>AG-rih-kul-chur</em></dd><dt>Русский</dt><dd>сельское хозяйство, земледелие</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The science and practice of growing crops and raising animals for food.</p>
+<ol><li><em>Agriculture</em> still employs a lot of people out here.</li><li>She studied <em>agriculture</em> at a state university.</li><li>The new bill sets water rules for <em>agriculture</em> and industry alike.</li></ol>
+<hr>
+<h3 id="crop-rotation">crop rotation<a class="hash" href="#crop-rotation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɑːp roʊˌteɪʃən/ &middot; <em>KRAHP roh-TAY-shuhn</em></dd><dt>Русский</dt><dd>севооборот</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The practice of growing different crops in the same field in successive years to keep the soil healthy.</p>
+<ol><li><em>Crop rotation</em> cuts down on pests without any spraying.</li><li>He uses a four-year <em>crop rotation</em> on the back fields.</li><li>Without <em>crop rotation</em>, the soil wears out fast.</li></ol>
+<hr>
+<h3 id="harvester">harvester<a class="hash" href="#harvester" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrvəstər/ &middot; <em>HAR-vuh-stur</em></dd><dt>Русский</dt><dd>уборочная машина, комбайн</dd><dt>Plural</dt><dd><em>harvesters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that cuts and gathers a ripe crop.</p>
+<ol><li>The <em>harvester</em> broke down in the middle of the field.</li><li>Two <em>harvesters</em> worked the wheat until well after dark.</li><li>He rents a <em>harvester</em> instead of buying one.</li></ol>
+<hr>
+<h3 id="combine">combine<a class="hash" href="#combine" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːmbaɪn/ &middot; <em>KAHM-byne</em></dd><dt>Русский</dt><dd>зерноуборочный комбайн</dd><dt>Plural</dt><dd><em>combines</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The machine is stressed on the first syllable, KAHM-byne; the verb <em>to combine</em> is stressed on the second, kuhm-BYNE.</dd></dl>
+<p>A large machine that cuts grain and separates the seed from the stalks in one pass.</p>
+<ol><li>A <em>combine</em> was crawling along the far edge of the field.</li><li>The neighbors share a <em>combine</em> to save money.</li><li>Modern <em>combines</em> cost more than a house.</li></ol>
+<hr>
+<h3 id="plow">plow<a class="hash" href="#plow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plaʊ/ &middot; <em>PLOW</em></dd><dt>Русский</dt><dd>плуг</dd><dt>Plural</dt><dd><em>plows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it <em>plow</em>; the British spell the same word <em>plough</em>. Both rhyme with <em>cow</em>.</dd></dl>
+<p>A farm tool with heavy blades, pulled through soil to turn it over before planting.</p>
+<ol><li>The <em>plow</em> is hitched to the back of the tractor.</li><li>He keeps two old <em>plows</em> rusting behind the barn.</li><li>A single <em>plow</em> used to take a whole team of horses.</li></ol>
+<hr>
+<h3 id="irrigation">irrigation<a class="hash" href="#irrigation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌɪrəˈɡeɪʃən/ &middot; <em>ir-uh-GAY-shuhn</em></dd><dt>Русский</dt><dd>орошение, ирригация</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The supplying of water to farmland through ditches, pipes, or sprinklers.</p>
+<ol><li>Without <em>irrigation</em>, nothing would grow in that valley.</li><li>The farm switched to drip <em>irrigation</em> to save water.</li><li><em>Irrigation</em> accounts for most of the county's water use.</li></ol>
+<hr>
+<h3 id="yield">yield<a class="hash" href="#yield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/jiːld/ &middot; <em>YEELD</em></dd><dt>Русский</dt><dd>урожай, урожайность</dd><dt>Plural</dt><dd><em>yields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The amount of a crop that a piece of land produces.</p>
+<ol><li>This year's corn <em>yield</em> was the best in a decade.</li><li>Wet weather cut <em>yields</em> by almost a third.</li><li>The new seed promises a higher <em>yield</em> per acre.</li></ol>
+<hr>
+<h3 id="farmland">farmland<a class="hash" href="#farmland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmlænd/ &middot; <em>FARM-land</em></dd><dt>Русский</dt><dd>сельхозугодья, пахотные земли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Land that is used or suitable for farming.</p>
+<ol><li>Housing developments keep eating up good <em>farmland</em>.</li><li>They own eighty acres of prime <em>farmland</em>.</li><li>The road runs through flat <em>farmland</em> for thirty miles.</li></ol>
+<hr>
+<h3 id="cropland">cropland<a class="hash" href="#cropland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɑːplænd/ &middot; <em>KRAHP-land</em></dd><dt>Русский</dt><dd>пашня, посевные площади</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Farmland that is plowed and planted with crops rather than left for grazing.</p>
+<ol><li>Half the county's <em>cropland</em> is planted in soybeans.</li><li>They converted some pasture into <em>cropland</em>.</li><li>Flooding ruined thousands of acres of <em>cropland</em>.</li></ol>
+<hr>
+<h3 id="rangeland">rangeland<a class="hash" href="#rangeland" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈreɪndʒlænd/ &middot; <em>RAYNJ-land</em></dd><dt>Русский</dt><dd>пастбищные угодья</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Open, unplanted land where livestock are left to graze.</p>
+<ol><li>The ranch leases federal <em>rangeland</em> for its cattle.</li><li>Dry summers have thinned the grass on the <em>rangeland</em>.</li><li>Most of the state's <em>rangeland</em> lies east of the mountains.</li></ol>
+<hr>
+<h3 id="ranch">ranch<a class="hash" href="#ranch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ræntʃ/ &middot; <em>RANCH</em></dd><dt>Русский</dt><dd>ранчо, скотоводческая ферма</dd><dt>Plural</dt><dd><em>ranches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large farm in the western United States where cattle, sheep, or horses are raised.</p>
+<ol><li>They run a cattle <em>ranch</em> out west.</li><li>Both <em>ranches</em> were sold to the same buyer.</li><li>We spent a week on a working <em>ranch</em> last summer.</li></ol>
+<hr>
+<h3 id="plantation">plantation<a class="hash" href="#plantation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/plænˈteɪʃən/ &middot; <em>plan-TAY-shuhn</em></dd><dt>Русский</dt><dd>плантация</dd><dt>Plural</dt><dd><em>plantations</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large estate where a single crop such as cotton, sugar, or coffee is grown.</p>
+<ol><li>The coffee comes from a small <em>plantation</em> in the hills.</li><li>Rubber <em>plantations</em> covered most of the island.</li><li>He inherited a run-down <em>plantation</em> from an uncle.</li></ol>
+<hr>
+<h3 id="homestead">homestead<a class="hash" href="#homestead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhoʊmstɛd/ &middot; <em>HOHM-sted</em></dd><dt>Русский</dt><dd>усадьба, фермерский участок с домом</dd><dt>Plural</dt><dd><em>homesteads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A house and the farmland around it, worked by one family.</p>
+<ol><li>The old <em>homestead</em> has been in the family five generations.</li><li>Settlers claimed <em>homesteads</em> along the river.</li><li>Nothing is left of the <em>homestead</em> but a stone chimney.</li></ol>
+<hr>
+<h3 id="farmstead">farmstead<a class="hash" href="#farmstead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmstɛd/ &middot; <em>FARM-sted</em></dd><dt>Русский</dt><dd>фермерская усадьба (дом с постройками)</dd><dt>Plural</dt><dd><em>farmsteads</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A farmhouse together with the barns and sheds that stand around it.</p>
+<ol><li>A row of maples shelters the <em>farmstead</em> from the wind.</li><li>Several abandoned <em>farmsteads</em> dot the back roads.</li><li>The whole <em>farmstead</em> needs a new roof.</li></ol>
+<hr>
+<h3 id="farmhouse">farmhouse<a class="hash" href="#farmhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmhaʊs/ &middot; <em>FARM-howss</em></dd><dt>Русский</dt><dd>фермерский дом</dd><dt>Plural</dt><dd><em>farmhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The main house on a farm, where the farmer lives.</p>
+<ol><li>Supper is served in the <em>farmhouse</em> at six sharp.</li><li>They restored a hundred-year-old <em>farmhouse</em>.</li><li>Most of the <em>farmhouses</em> out here have wide front porches.</li></ol>
+<hr>
+<h3 id="barnyard">barnyard<a class="hash" href="#barnyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbɑːrnjɑːrd/ &middot; <em>BARN-yard</em></dd><dt>Русский</dt><dd>скотный двор</dd><dt>Plural</dt><dd><em>barnyards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The open, fenced area next to a barn where farm animals are kept.</p>
+<ol><li>Chickens scratched around the muddy <em>barnyard</em>.</li><li>He hosed down the <em>barnyard</em> after the rain.</li><li>The dog sleeps by the gate at the edge of the <em>barnyard</em>.</li></ol>
+<hr>
+<h3 id="hayfield">hayfield<a class="hash" href="#hayfield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪfiːld/ &middot; <em>HAY-feeld</em></dd><dt>Русский</dt><dd>сенокосное поле, луг под сено</dd><dt>Plural</dt><dd><em>hayfields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A field of grass that is grown and cut for hay.</p>
+<ol><li>The <em>hayfield</em> was cut twice last summer.</li><li>Deer bed down in the <em>hayfields</em> at dusk.</li><li>He drove the mower slowly across the <em>hayfield</em>.</li></ol>
+<hr>
+<h3 id="cornfield">cornfield<a class="hash" href="#cornfield" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɔːrnfiːld/ &middot; <em>KORN-feeld</em></dd><dt>Русский</dt><dd>кукурузное поле</dd><dt>Plural</dt><dd><em>cornfields</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A field planted with corn.</p>
+<ol><li>The kids got lost in the <em>cornfield</em> for an hour.</li><li><em>Cornfields</em> stretch to the horizon on both sides.</li><li>A dirt road cuts straight through the <em>cornfield</em>.</li></ol>
+<hr>
+<h3 id="paddock">paddock<a class="hash" href="#paddock" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpædək/ &middot; <em>PAD-uhk</em></dd><dt>Русский</dt><dd>загон, выгул (для лошадей)</dd><dt>Plural</dt><dd><em>paddocks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small fenced field, usually where horses are turned out.</p>
+<ol><li>Two mares were grazing in the <em>paddock</em>.</li><li>He turns the colts out into the <em>paddock</em> every morning.</li><li>The <em>paddocks</em> nearest the barn have the best grass.</li></ol>
+<hr>
+<h3 id="corral">corral<a class="hash" href="#corral" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈræl/ &middot; <em>kuh-RAL</em></dd><dt>Русский</dt><dd>загон для скота, кораль</dd><dt>Plural</dt><dd><em>corrals</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Stressed on the second syllable, kuh-RAL — don't confuse it with <em>coral</em>, KOR-uhl, the reef.</dd></dl>
+<p>A fenced pen for holding cattle or horses.</p>
+<ol><li>They drove the steers into the <em>corral</em> at sundown.</li><li>One of the <em>corral</em> gates was hanging off its hinge.</li><li>The horses circled the <em>corral</em> twice before settling.</li></ol>
+<hr>
+<h3 id="feedlot">feedlot<a class="hash" href="#feedlot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfiːdlɑːt/ &middot; <em>FEED-laht</em></dd><dt>Русский</dt><dd>откормочная площадка</dd><dt>Plural</dt><dd><em>feedlots</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fenced area where cattle are kept and fattened on grain before slaughter.</p>
+<ol><li>The calves go to a <em>feedlot</em> at about a year old.</li><li>You can smell the <em>feedlot</em> from the highway.</li><li>Large <em>feedlots</em> handle tens of thousands of cattle.</li></ol>
+<hr>
+<h3 id="stockyard">stockyard<a class="hash" href="#stockyard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈstɑːkjɑːrd/ &middot; <em>STAHK-yard</em></dd><dt>Русский</dt><dd>скотопригонный двор, загоны для скота</dd><dt>Plural</dt><dd><em>stockyards</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of pens where livestock are held before being sold or shipped.</p>
+<ol><li>The cattle spent a night in the <em>stockyard</em>.</li><li>The old <em>stockyards</em> by the rail line are gone now.</li><li>Buyers walk the <em>stockyard</em> early on sale day.</li></ol>
+<hr>
+<h3 id="tract">tract<a class="hash" href="#tract" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/trækt/ &middot; <em>TRAKT</em></dd><dt>Русский</dt><dd>участок земли, надел</dd><dt>Plural</dt><dd><em>tracts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>tracked</em>, the past tense of <em>track</em>.</dd></dl>
+<p>A large, continuous piece of land.</p>
+<ol><li>He bought a forty-acre <em>tract</em> next to the creek.</li><li>Several <em>tracts</em> of farmland came up for auction.</li><li>The state protected a <em>tract</em> of prairie from development.</li></ol>
+<hr>
+<h3 id="topsoil">topsoil<a class="hash" href="#topsoil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɑːpsɔɪl/ &middot; <em>TAHP-soyl</em></dd><dt>Русский</dt><dd>верхний плодородный слой почвы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The dark upper layer of soil, where most plant roots grow.</p>
+<ol><li>Heavy rain washed the <em>topsoil</em> off the slope.</li><li>We hauled in a truckload of <em>topsoil</em> for the garden.</li><li>There's barely six inches of <em>topsoil</em> on that hillside.</li></ol>
+<hr>
+<h3 id="subsoil">subsoil<a class="hash" href="#subsoil" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsʌbsɔɪl/ &middot; <em>SUB-soyl</em></dd><dt>Русский</dt><dd>подпочва, нижний слой почвы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The harder, paler layer of soil lying under the topsoil.</p>
+<ol><li>The plow bit down into heavy <em>subsoil</em>.</li><li>Water drains slowly through this <em>subsoil</em>.</li><li>Roots reach the <em>subsoil</em> only in a dry year.</li></ol>
+<hr>
+<h3 id="loam">loam<a class="hash" href="#loam" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/loʊm/ &middot; <em>LOHM</em></dd><dt>Русский</dt><dd>суглинок, плодородная рыхлая почва</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Rich, crumbly soil that is a good mix of sand, silt, and clay.</p>
+<ol><li>Tomatoes do best in deep, well-drained <em>loam</em>.</li><li>The bottomland is dark <em>loam</em> a foot thick.</li><li>He crumbled a handful of <em>loam</em> between his fingers.</li></ol>
+<hr>
+<h3 id="humus">humus<a class="hash" href="#humus" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhjuːməs/ &middot; <em>HYOO-muhs</em></dd><dt>Русский</dt><dd>гумус, перегной</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>HYOO-muhs, the soil — not <em>hummus</em>, HUM-uhs, the chickpea dip.</dd></dl>
+<p>The dark, rotted plant matter in soil that makes it fertile.</p>
+<ol><li>Years of manure built up the <em>humus</em> in that field.</li><li>Forest soil is full of <em>humus</em>.</li><li>Compost adds <em>humus</em> to worn-out ground.</li></ol>
+<hr>
+<h3 id="silt">silt<a class="hash" href="#silt" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɪlt/ &middot; <em>SILT</em></dd><dt>Русский</dt><dd>ил, наносный грунт</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Fine soil carried by moving water and left behind when it slows.</p>
+<ol><li>The flood left three inches of <em>silt</em> on the field.</li><li><em>Silt</em> has nearly filled the irrigation pond.</li><li>River bottoms here are rich with <em>silt</em>.</li></ol>
+<hr>
+<h3 id="erosion">erosion<a class="hash" href="#erosion" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ɪˈroʊʒən/ &middot; <em>ih-ROH-zhuhn</em></dd><dt>Русский</dt><dd>эрозия (почвы)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>s</em> is pronounced like the <em>s</em> in <em>measure</em>: ih-ROH-zhuhn.</dd></dl>
+<p>The gradual wearing away of soil by wind or water.</p>
+<ol><li>Cover crops slow <em>erosion</em> over the winter.</li><li>You can see <em>erosion</em> along every ditch bank.</li><li>Plowing up and down the slope makes <em>erosion</em> worse.</li></ol>
+<hr>
+<h3 id="fertility">fertility<a class="hash" href="#fertility" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/fərˈtɪləti/ &middot; <em>fur-TIL-uh-tee</em></dd><dt>Русский</dt><dd>плодородие (почвы)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The ability of soil to grow healthy crops.</p>
+<ol><li>Manure restored some of the field's <em>fertility</em>.</li><li>Constant corn drains the soil's <em>fertility</em>.</li><li>They test each field for <em>fertility</em> every spring.</li></ol>
+<hr>
+<h3 id="nutrient">nutrient<a class="hash" href="#nutrient" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈnuːtriənt/ &middot; <em>NOO-tree-uhnt</em></dd><dt>Русский</dt><dd>питательное вещество</dd><dt>Plural</dt><dd><em>nutrients</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say NOO-tree-uhnt; the British say NYOO-tree-uhnt.</dd></dl>
+<p>A substance that a plant or animal needs in order to grow.</p>
+<ol><li>Heavy rain washes <em>nutrients</em> out of the topsoil.</li><li>The lab report shows which <em>nutrient</em> the field is short of.</li><li>Beans put a key <em>nutrient</em> back into the ground.</li></ol>
+<hr>
+<h3 id="phosphate">phosphate<a class="hash" href="#phosphate" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːsfeɪt/ &middot; <em>FAHS-fayt</em></dd><dt>Русский</dt><dd>фосфат, фосфорное удобрение</dd><dt>Plural</dt><dd><em>phosphates</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Both <em>ph</em> spellings are said as <em>f</em>: FAHS-fayt.</dd></dl>
+<p>A chemical containing phosphorus, spread on fields to help plants grow.</p>
+<ol><li>They spread <em>phosphate</em> on the corn ground in the fall.</li><li><em>Phosphates</em> running off farms end up in the lake.</li><li>The soil test called for more <em>phosphate</em>.</li></ol>
+<hr>
+<h3 id="potash">potash<a class="hash" href="#potash" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɑːtæʃ/ &middot; <em>PAHT-ash</em></dd><dt>Русский</dt><dd>поташ, калийное удобрение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A potassium compound used as fertilizer.</p>
+<ol><li>The blend is mostly nitrogen with some <em>potash</em>.</li><li><em>Potash</em> prices doubled in two years.</li><li>Alfalfa takes a lot of <em>potash</em> out of the soil.</li></ol>
+<hr>
+<h3 id="herbicide">herbicide<a class="hash" href="#herbicide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɜːrbəsaɪd/ &middot; <em>UR-buh-syde</em></dd><dt>Русский</dt><dd>гербицид, средство от сорняков</dd><dt>Plural</dt><dd><em>herbicides</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Most Americans drop the <em>h</em>: UR-buh-syde, like <em>herb</em>. The British sound it: HUR-bih-syde.</dd></dl>
+<p>A chemical used to kill weeds.</p>
+<ol><li>He sprayed <em>herbicide</em> along the fence line.</li><li>Some weeds now shrug off the common <em>herbicides</em>.</li><li>The label says to keep the <em>herbicide</em> off nearby crops.</li></ol>
+<hr>
+<h3 id="fungicide">fungicide<a class="hash" href="#fungicide" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfʌndʒəsaɪd/ &middot; <em>FUN-juh-syde</em></dd><dt>Русский</dt><dd>фунгицид, средство от грибковых болезней</dd><dt>Plural</dt><dd><em>fungicides</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>The <em>g</em> is soft, like the <em>g</em> in <em>gem</em>: FUN-juh-syde.</dd></dl>
+<p>A chemical used to kill or stop the fungus that causes plant disease.</p>
+<ol><li>A single <em>fungicide</em> spray saved the apple crop.</li><li>Wet springs mean more <em>fungicides</em> on the vines.</li><li>He mixed the <em>fungicide</em> according to the label.</li></ol>
+<hr>
+<h3 id="plowing">plowing<a class="hash" href="#plowing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplaʊɪŋ/ &middot; <em>PLOW-ing</em></dd><dt>Русский</dt><dd>вспашка, пахота</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of turning over soil with a plow.</p>
+<ol><li><em>Plowing</em> starts as soon as the ground dries out.</li><li>He finished the <em>plowing</em> by the end of the week.</li><li>Deep <em>plowing</em> buries last year's stubble.</li></ol>
+<hr>
+<h3 id="planting">planting<a class="hash" href="#planting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈplæntɪŋ/ &middot; <em>PLAN-ting</em></dd><dt>Русский</dt><dd>посадка, посев</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of putting seeds or young plants into the ground.</p>
+<ol><li><em>Planting</em> ran two weeks late because of the rain.</li><li>Everyone works long days during <em>planting</em>.</li><li>The soil has to be warm before <em>planting</em> begins.</li></ol>
+<hr>
+<h3 id="sowing">sowing<a class="hash" href="#sowing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊɪŋ/ &middot; <em>SOH-ing</em></dd><dt>Русский</dt><dd>сев, посев</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The verb <em>sow</em>, to plant seed, rhymes with <em>go</em>; the noun <em>sow</em>, a female pig, rhymes with <em>cow</em>.</dd></dl>
+<p>The scattering or drilling of seed into prepared ground.</p>
+<ol><li><em>Sowing</em> is done by machine on most farms now.</li><li>They wait for a dry spell before <em>sowing</em>.</li><li>The <em>sowing</em> of winter wheat happens in the fall.</li></ol>
+<hr>
+<h3 id="weeding">weeding<a class="hash" href="#weeding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwiːdɪŋ/ &middot; <em>WEED-ing</em></dd><dt>Русский</dt><dd>прополка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The work of pulling unwanted plants out of a field or garden.</p>
+<ol><li><em>Weeding</em> the rows by hand took all morning.</li><li>She hates <em>weeding</em> more than any other chore.</li><li>A thick mulch cuts down on <em>weeding</em>.</li></ol>
+<hr>
+<h3 id="pruning">pruning<a class="hash" href="#pruning" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpruːnɪŋ/ &middot; <em>PROO-ning</em></dd><dt>Русский</dt><dd>обрезка (деревьев, кустов)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The cutting back of branches so a tree or vine grows better fruit.</p>
+<ol><li><em>Pruning</em> is done in late winter, before the buds swell.</li><li>Careful <em>pruning</em> keeps the apple trees low enough to pick.</li><li>He hired a crew for the <em>pruning</em> this year.</li></ol>
+<hr>
+<h3 id="threshing">threshing<a class="hash" href="#threshing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɛʃɪŋ/ &middot; <em>THRESH-ing</em></dd><dt>Русский</dt><dd>молотьба, обмолот</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The separating of grain from the stalks and husks after harvest.</p>
+<ol><li><em>Threshing</em> used to bring the whole neighborhood together.</li><li>The combine does the cutting and the <em>threshing</em> at once.</li><li>Dust hangs in the air all through <em>threshing</em>.</li></ol>
+<hr>
+<h3 id="grazing">grazing<a class="hash" href="#grazing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪzɪŋ/ &middot; <em>GRAY-zing</em></dd><dt>Русский</dt><dd>выпас, пастьба</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The feeding of livestock on growing grass, or the land used for it.</p>
+<ol><li>There's good <em>grazing</em> on the north side of the hill.</li><li><em>Grazing</em> is rotated between four pastures.</li><li>The permit allows <em>grazing</em> from May to October.</li></ol>
+<hr>
+<h3 id="milking">milking<a class="hash" href="#milking" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlkɪŋ/ &middot; <em>MIL-king</em></dd><dt>Русский</dt><dd>дойка, доение</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The taking of milk from cows, goats, or sheep.</p>
+<ol><li><em>Milking</em> starts at four thirty every morning.</li><li>The machines cut the <em>milking</em> time in half.</li><li>He was late for the evening <em>milking</em>.</li></ol>
+<hr>
+<h3 id="grafting">grafting<a class="hash" href="#grafting" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡræftɪŋ/ &middot; <em>GRAF-ting</em></dd><dt>Русский</dt><dd>прививка (растений)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The joining of a shoot from one plant onto the stem of another so they grow as one.</p>
+<ol><li>Nearly every apple tree you buy is the result of <em>grafting</em>.</li><li><em>Grafting</em> takes a steady hand and a sharp knife.</li><li>He learned <em>grafting</em> from his father.</li></ol>
+<hr>
+<h3 id="cultivation">cultivation<a class="hash" href="#cultivation" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌkʌltəˈveɪʃən/ &middot; <em>kul-tuh-VAY-shuhn</em></dd><dt>Русский</dt><dd>возделывание, обработка земли</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The preparing and working of land in order to grow crops.</p>
+<ol><li>Much of this valley is under <em>cultivation</em>.</li><li><em>Cultivation</em> of rice needs a steady water supply.</li><li>The field went out of <em>cultivation</em> twenty years ago.</li></ol>
+<hr>
+<h3 id="germination">germination<a class="hash" href="#germination" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌdʒɜːrməˈneɪʃən/ &middot; <em>jur-muh-NAY-shuhn</em></dd><dt>Русский</dt><dd>прорастание, всхожесть</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The process of a seed beginning to grow.</p>
+<ol><li>Cold soil slows <em>germination</em>.</li><li>The seed packet lists a <em>germination</em> rate of ninety percent.</li><li>Even moisture is the key to good <em>germination</em>.</li></ol>
+<hr>
+<h3 id="husbandry">husbandry<a class="hash" href="#husbandry" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhʌzbəndri/ &middot; <em>HUZ-buhn-dree</em></dd><dt>Русский</dt><dd>животноводство, ведение хозяйства</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Despite the spelling, it has nothing to do with a <em>husband</em> in the modern sense; it means management of animals and land.</dd></dl>
+<p>The care and breeding of farm animals, or the careful management of a farm.</p>
+<ol><li>Good animal <em>husbandry</em> keeps the herd healthy.</li><li>He teaches <em>husbandry</em> at the community college.</li><li>Careful <em>husbandry</em> got them through a bad year.</li></ol>
+<hr>
+<h3 id="horticulture">horticulture<a class="hash" href="#horticulture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːrtəkʌltʃər/ &middot; <em>HOR-tuh-kul-chur</em></dd><dt>Русский</dt><dd>садоводство, растениеводство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The growing of fruit, vegetables, and ornamental plants.</p>
+<ol><li>She has a degree in <em>horticulture</em>.</li><li><em>Horticulture</em> is a bigger business here than grain.</li><li>The greenhouse is used for teaching <em>horticulture</em>.</li></ol>
+<hr>
+<h3 id="agronomy">agronomy<a class="hash" href="#agronomy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡrɑːnəmi/ &middot; <em>uh-GRAH-nuh-mee</em></dd><dt>Русский</dt><dd>агрономия</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Stressed on the second syllable: uh-GRAH-nuh-mee, not AG-ruh-nuh-mee.</dd></dl>
+<p>The science of soil management and crop production.</p>
+<ol><li><em>Agronomy</em> covers everything from seed to soil chemistry.</li><li>He took a job doing <em>agronomy</em> for a seed company.</li><li>The department of <em>agronomy</em> runs test plots each summer.</li></ol>
+<hr>
+<h3 id="agronomist">agronomist<a class="hash" href="#agronomist" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈɡrɑːnəmɪst/ &middot; <em>uh-GRAH-nuh-mist</em></dd><dt>Русский</dt><dd>агроном</dd><dt>Plural</dt><dd><em>agronomists</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A scientist who advises farmers on soil and crops.</p>
+<ol><li>The co-op sent an <em>agronomist</em> out to walk the fields.</li><li>Two <em>agronomists</em> took soil samples all afternoon.</li><li>Ask an <em>agronomist</em> before you change the fertilizer mix.</li></ol>
+<hr>
+<h3 id="aquaculture">aquaculture<a class="hash" href="#aquaculture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈækwəkʌltʃər/ &middot; <em>AK-wuh-kul-chur</em></dd><dt>Русский</dt><dd>аквакультура, рыбоводство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The farming of fish, shellfish, or water plants.</p>
+<ol><li>Most of the catfish sold here comes from <em>aquaculture</em>.</li><li><em>Aquaculture</em> now supplies half the world's seafood.</li><li>They moved from row crops into <em>aquaculture</em>.</li></ol>
+<hr>
+<h3 id="beekeeping">beekeeping<a class="hash" href="#beekeeping" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbiːkiːpɪŋ/ &middot; <em>BEE-kee-ping</em></dd><dt>Русский</dt><dd>пчеловодство</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The keeping of bees for honey and for pollinating crops.</p>
+<ol><li><em>Beekeeping</em> turned into a real side business for them.</li><li>He got into <em>beekeeping</em> after he retired.</li><li>The class covers <em>beekeeping</em> from hive to harvest.</li></ol>
+<hr>
+<h3 id="monoculture">monoculture<a class="hash" href="#monoculture" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɑːnəkʌltʃər/ &middot; <em>MAH-nuh-kul-chur</em></dd><dt>Русский</dt><dd>монокультура</dd><dt>Plural</dt><dd><em>monocultures</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The growing of a single crop on the same land year after year.</p>
+<ol><li>A corn <em>monoculture</em> invites disease.</li><li><em>Monocultures</em> are easy to manage but hard on the soil.</li><li>They broke up the <em>monoculture</em> by adding hay to the rotation.</li></ol>
+<hr>
+<h3 id="overgrazing">overgrazing<a class="hash" href="#overgrazing" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌoʊvərˈɡreɪzɪŋ/ &middot; <em>oh-vur-GRAY-zing</em></dd><dt>Русский</dt><dd>перевыпас, чрезмерный выпас</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The keeping of too many animals on land, so the grass cannot recover.</p>
+<ol><li><em>Overgrazing</em> left the hillside bare.</li><li>Fencing off the creek stopped the <em>overgrazing</em> there.</li><li>Years of <em>overgrazing</em> turned good pasture into weeds.</li></ol>
+<hr>
+<h3 id="oats">oats<a class="hash" href="#oats" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/oʊts/ &middot; <em>OHTS</em></dd><dt>Русский</dt><dd>овёс</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Always plural in form — never <em>an oat</em> — and it takes a plural verb: <em>The oats are ripe</em>.</dd></dl>
+<p>A grain grown for animal feed and for human food such as oatmeal.</p>
+<ol><li>He feeds the horses <em>oats</em> twice a day.</li><li>The <em>oats</em> are ripe about a month before the corn.</li><li>They planted <em>oats</em> as a cover crop.</li></ol>
+<hr>
+<h3 id="sorghum">sorghum<a class="hash" href="#sorghum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːrɡəm/ &middot; <em>SOR-guhm</em></dd><dt>Русский</dt><dd>сорго</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>gh</em> is a plain hard <em>g</em>: SOR-guhm.</dd></dl>
+<p>A tall grain crop grown for animal feed and syrup, common in dry regions.</p>
+<ol><li><em>Sorghum</em> handles drought better than corn does.</li><li>They switched half the acreage to <em>sorghum</em>.</li><li>She poured <em>sorghum</em> syrup over the biscuits.</li></ol>
+<hr>
+<h3 id="millet">millet<a class="hash" href="#millet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlɪt/ &middot; <em>MIL-it</em></dd><dt>Русский</dt><dd>просо, пшено</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A small-seeded grain grown for food and for birdseed.</p>
+<ol><li><em>Millet</em> grows well on poor, dry soil.</li><li>The birdseed is mostly <em>millet</em> and sunflower.</li><li>They plant <em>millet</em> late, after the wheat comes off.</li></ol>
+<hr>
+<h3 id="alfalfa">alfalfa<a class="hash" href="#alfalfa" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ælˈfælfə/ &middot; <em>al-FAL-fuh</em></dd><dt>Русский</dt><dd>люцерна</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A deep-rooted plant grown for hay and for feeding cattle.</p>
+<ol><li>They cut the <em>alfalfa</em> three times a season.</li><li><em>Alfalfa</em> puts nitrogen back into the soil.</li><li>The dairy buys <em>alfalfa</em> from a neighbor.</li></ol>
+<hr>
+<h3 id="canola">canola<a class="hash" href="#canola" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kəˈnoʊlə/ &middot; <em>kuh-NOH-luh</em></dd><dt>Русский</dt><dd>рапс (канола)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A crop with bright yellow flowers, grown for its cooking oil.</p>
+<ol><li>Fields of <em>canola</em> turn the whole valley yellow in June.</li><li><em>Canola</em> has taken over a lot of former wheat ground.</li><li>He hauled the <em>canola</em> to the elevator in town.</li></ol>
+<hr>
+<h3 id="legume">legume<a class="hash" href="#legume" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlɛɡjuːm/ &middot; <em>LEG-yoom</em></dd><dt>Русский</dt><dd>бобовое растение</dd><dt>Plural</dt><dd><em>legumes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually say LEG-yoom, stressing the first syllable.</dd></dl>
+<p>A plant of the pea and bean family, whose roots add nitrogen to the soil.</p>
+<ol><li>Clover and alfalfa are both <em>legumes</em>.</li><li>Adding a <em>legume</em> to the rotation cuts fertilizer costs.</li><li><em>Legumes</em> fix nitrogen straight out of the air.</li></ol>
+<hr>
+<h3 id="silage">silage<a class="hash" href="#silage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsaɪlɪdʒ/ &middot; <em>SY-lij</em></dd><dt>Русский</dt><dd>силос</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The first syllable rhymes with <em>sigh</em>: SY-lij, not SIL-ij.</dd></dl>
+<p>Green crops packed tight and left to ferment, used as winter feed for cattle.</p>
+<ol><li>The cows get <em>silage</em> all through the winter.</li><li>They chopped the corn for <em>silage</em> in September.</li><li>Good <em>silage</em> smells sweet, not sour.</li></ol>
+<hr>
+<h3 id="fodder">fodder<a class="hash" href="#fodder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːdər/ &middot; <em>FAH-dur</em></dd><dt>Русский</dt><dd>корм для скота, фураж</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Dried food such as hay or straw given to farm animals.</p>
+<ol><li>There's barely enough <em>fodder</em> to last till spring.</li><li>The barn is stacked with <em>fodder</em>.</li><li>Corn stalks make rough but usable <em>fodder</em>.</li></ol>
+<hr>
+<h3 id="forage">forage<a class="hash" href="#forage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɔːrɪdʒ/ &middot; <em>FOR-ij</em></dd><dt>Русский</dt><dd>подножный корм, кормовые травы</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Grass and other plants that grazing animals eat in the field.</p>
+<ol><li>There's plenty of <em>forage</em> on the north pasture.</li><li>Dry weather left little <em>forage</em> for the herd.</li><li>Clover makes excellent <em>forage</em> for sheep.</li></ol>
+<hr>
+<h3 id="husk">husk<a class="hash" href="#husk" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hʌsk/ &middot; <em>HUSK</em></dd><dt>Русский</dt><dd>шелуха, обёртка початка</dd><dt>Plural</dt><dd><em>husks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The dry outer covering of an ear of corn or a seed.</p>
+<ol><li>She peeled back the <em>husk</em> to check the kernels.</li><li><em>Husks</em> piled up on the porch steps.</li><li>Leave the <em>husk</em> on if you're grilling the corn.</li></ol>
+<hr>
+<h3 id="cob">cob<a class="hash" href="#cob" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kɑːb/ &middot; <em>KAHB</em></dd><dt>Русский</dt><dd>кукурузный початок (стержень)</dd><dt>Plural</dt><dd><em>cobs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The hard central part of an ear of corn, which the kernels grow on.</p>
+<ol><li>We ate corn on the <em>cob</em> with butter and salt.</li><li>The pigs got the leftover <em>cobs</em>.</li><li>He stripped the kernels off the <em>cob</em> with a knife.</li></ol>
+<hr>
+<h3 id="chaff">chaff<a class="hash" href="#chaff" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tʃæf/ &middot; <em>CHAF</em></dd><dt>Русский</dt><dd>мякина, полова</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The light, dry husks separated from grain during threshing.</p>
+<ol><li>The wind carried the <em>chaff</em> away from the pile.</li><li><em>Chaff</em> got down the back of his shirt.</li><li>The combine blows the <em>chaff</em> out the back.</li></ol>
+<hr>
+<h3 id="fence-post">fence post<a class="hash" href="#fence-post" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɛns poʊst/ &middot; <em>FENS POHST</em></dd><dt>Русский</dt><dd>столб изгороди, столб забора</dd><dt>Plural</dt><dd><em>fence posts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An upright post driven into the ground to hold up a fence.</p>
+<ol><li>He set a new <em>fence post</em> every eight feet.</li><li>Frost heaved half the <em>fence posts</em> out of the ground.</li><li>The wire is stapled to each <em>fence post</em>.</li></ol>
+<hr>
+<h3 id="tuber">tuber<a class="hash" href="#tuber" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtuːbər/ &middot; <em>TOO-bur</em></dd><dt>Русский</dt><dd>клубень</dd><dt>Plural</dt><dd><em>tubers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans say TOO-bur; the British say TYOO-bur.</dd></dl>
+<p>A thick underground part of a stem, such as a potato, that stores food for the plant.</p>
+<ol><li>Each plant produced a dozen good-sized <em>tubers</em>.</li><li>Store the <em>tubers</em> somewhere cool and dark.</li><li>Frost turns a <em>tuber</em> soft and useless.</li></ol>
+<hr>
+<h3 id="shoot">shoot<a class="hash" href="#shoot" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃuːt/ &middot; <em>SHOOT</em></dd><dt>Русский</dt><dd>росток, побег</dd><dt>Plural</dt><dd><em>shoots</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds exactly like <em>chute</em>, a sloping channel — same sound, different word.</dd></dl>
+<p>A new stem or branch growing from a plant.</p>
+<ol><li>Green <em>shoots</em> came up a week after the rain.</li><li>He pinched off the weak <em>shoot</em> near the base.</li><li>The vine sends out a new <em>shoot</em> every few days.</li></ol>
+<hr>
+<h3 id="seedbed">seedbed<a class="hash" href="#seedbed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsiːdbɛd/ &middot; <em>SEED-bed</em></dd><dt>Русский</dt><dd>посевное ложе, рассадник</dd><dt>Plural</dt><dd><em>seedbeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Soil worked fine and smooth so that seed can be sown in it.</p>
+<ol><li>He worked the ground twice to get a fine <em>seedbed</em>.</li><li>A rough <em>seedbed</em> gives uneven emergence.</li><li>The <em>seedbeds</em> were ready by the first week of April.</li></ol>
+<hr>
+<h3 id="cover-crop">cover crop<a class="hash" href="#cover-crop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌvər krɑːp/ &middot; <em>KUV-ur KRAHP</em></dd><dt>Русский</dt><dd>покровная культура, сидерат</dd><dt>Plural</dt><dd><em>cover crops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crop planted to protect and enrich the soil rather than to be sold.</p>
+<ol><li>He drills a <em>cover crop</em> right after harvest.</li><li><em>Cover crops</em> hold the soil through the winter.</li><li>Rye makes a cheap, tough <em>cover crop</em>.</li></ol>
+<hr>
+<h3 id="cash-crop">cash crop<a class="hash" href="#cash-crop" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkæʃ krɑːp/ &middot; <em>KASH KRAHP</em></dd><dt>Русский</dt><dd>товарная культура</dd><dt>Plural</dt><dd><em>cash crops</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A crop grown to be sold for money rather than eaten on the farm.</p>
+<ol><li>Cotton was the main <em>cash crop</em> in this county.</li><li>They needed a second <em>cash crop</em> to pay the loan.</li><li>Prices for both <em>cash crops</em> fell that fall.</li></ol>
+<hr>
+<h3 id="baler">baler<a class="hash" href="#baler" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbeɪlər/ &middot; <em>BAY-lur</em></dd><dt>Русский</dt><dd>пресс-подборщик</dd><dt>Plural</dt><dd><em>balers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that presses hay or straw into tight bundles and ties them.</p>
+<ol><li>The <em>baler</em> jammed halfway down the row.</li><li>He bought a used <em>baler</em> at an auction.</li><li>Round <em>balers</em> have mostly replaced the square kind.</li></ol>
+<hr>
+<h3 id="mower">mower<a class="hash" href="#mower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmoʊrr/ &middot; <em>MOH-ur</em></dd><dt>Русский</dt><dd>косилка</dd><dt>Plural</dt><dd><em>mowers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that cuts grass or hay.</p>
+<ol><li>The <em>mower</em> laid the hay down in neat rows.</li><li>Both <em>mowers</em> need new blades.</li><li>He hitched the <em>mower</em> to the little tractor.</li></ol>
+<hr>
+<h3 id="thresher">thresher<a class="hash" href="#thresher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈθrɛʃər/ &middot; <em>THRESH-ur</em></dd><dt>Русский</dt><dd>молотилка</dd><dt>Plural</dt><dd><em>threshers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that beats grain loose from the stalks.</p>
+<ol><li>An old steam-powered <em>thresher</em> sits in the museum yard.</li><li><em>Threshers</em> used to move from farm to farm each fall.</li><li>The <em>thresher</em> roared all afternoon.</li></ol>
+<hr>
+<h3 id="harrow">harrow<a class="hash" href="#harrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhæroʊ/ &middot; <em>HAR-oh</em></dd><dt>Русский</dt><dd>борона</dd><dt>Plural</dt><dd><em>harrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A frame of metal teeth or discs dragged over plowed ground to break up clods.</p>
+<ol><li>He ran the <em>harrow</em> over the field twice.</li><li>The <em>harrow</em> is parked at the end of the lane.</li><li>Old wooden <em>harrows</em> hang on the barn wall.</li></ol>
+<hr>
+<h3 id="cultivator">cultivator<a class="hash" href="#cultivator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌltəveɪtər/ &middot; <em>KUL-tuh-vay-tur</em></dd><dt>Русский</dt><dd>культиватор</dd><dt>Plural</dt><dd><em>cultivators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An implement pulled between crop rows to loosen soil and kill weeds.</p>
+<ol><li>He ran the <em>cultivator</em> through the beans one more time.</li><li>The <em>cultivator</em> shanks need sharpening.</li><li>Row-crop <em>cultivators</em> went out of style, then came back.</li></ol>
+<hr>
+<h3 id="tiller">tiller<a class="hash" href="#tiller" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtɪlər/ &middot; <em>TIL-ur</em></dd><dt>Русский</dt><dd>мотоблок, культиватор (садовый)</dd><dt>Plural</dt><dd><em>tillers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small machine with turning blades that breaks up garden or field soil.</p>
+<ol><li>He borrowed a <em>tiller</em> to work up the garden.</li><li>The <em>tiller</em> wouldn't start after sitting all winter.</li><li>Rear-tine <em>tillers</em> handle heavy clay better.</li></ol>
+<hr>
+<h3 id="sprayer">sprayer<a class="hash" href="#sprayer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈspreɪrr/ &middot; <em>SPRAY-ur</em></dd><dt>Русский</dt><dd>опрыскиватель</dd><dt>Plural</dt><dd><em>sprayers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that spreads liquid chemicals over a crop.</p>
+<ol><li>The <em>sprayer</em> has booms sixty feet wide.</li><li>Rinse the <em>sprayer</em> before you switch chemicals.</li><li>Two <em>sprayers</em> covered the whole farm in a day.</li></ol>
+<hr>
+<h3 id="spreader">spreader<a class="hash" href="#spreader" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsprɛdər/ &middot; <em>SPRED-ur</em></dd><dt>Русский</dt><dd>разбрасыватель (удобрений, навоза)</dd><dt>Plural</dt><dd><em>spreaders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A machine that scatters fertilizer, lime, or manure over a field.</p>
+<ol><li>He filled the <em>spreader</em> with lime.</li><li>The manure <em>spreader</em> threw a fine mist behind it.</li><li>Both <em>spreaders</em> were out working the same field.</li></ol>
+<hr>
+<h3 id="auger">auger<a class="hash" href="#auger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɔːɡər/ &middot; <em>AW-gur</em></dd><dt>Русский</dt><dd>шнек, бур</dd><dt>Plural</dt><dd><em>augers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds the same as <em>augur</em>, to foretell — a different word entirely.</dd></dl>
+<p>A long screw inside a tube, used to move grain or to bore holes for posts.</p>
+<ol><li>The <em>auger</em> moves corn from the wagon into the bin.</li><li>He used a post-hole <em>auger</em> on the fence line.</li><li>Keep your hands clear of the <em>auger</em> while it's running.</li></ol>
+<hr>
+<h3 id="implement">implement<a class="hash" href="#implement" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪmpləmənt/ &middot; <em>IM-pluh-muhnt</em></dd><dt>Русский</dt><dd>сельхозорудие, инвентарь</dd><dt>Plural</dt><dd><em>implements</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The noun ends in a weak -muhnt; the verb <em>to implement</em> usually ends in a full -MENT.</dd></dl>
+<p>A tool or piece of equipment pulled behind a tractor to work the land.</p>
+<ol><li>Every <em>implement</em> on the place needs greasing.</li><li>The dealer sells tractors and <em>implements</em>.</li><li>He backed the tractor up to hook onto the <em>implement</em>.</li></ol>
+<hr>
+<h3 id="crop-duster">crop duster<a class="hash" href="#crop-duster" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkrɑːp ˌdʌstər/ &middot; <em>KRAHP DUS-tur</em></dd><dt>Русский</dt><dd>самолёт-опрыскиватель (сельхозавиация)</dd><dt>Plural</dt><dd><em>crop dusters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small plane that sprays chemicals over fields from the air.</p>
+<ol><li>A <em>crop duster</em> came in low over the cotton.</li><li><em>Crop dusters</em> fly at first light, before the wind picks up.</li><li>The <em>crop duster</em> pilot circled and made another pass.</li></ol>
+<hr>
+<h3 id="grain-elevator">grain elevator<a class="hash" href="#grain-elevator" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪn ˌɛləveɪtər/ &middot; <em>GRAYN EL-uh-vay-tur</em></dd><dt>Русский</dt><dd>элеватор, зернохранилище</dd><dt>Plural</dt><dd><em>grain elevators</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A tall building where grain is stored and loaded onto trucks or trains.</p>
+<ol><li>The <em>grain elevator</em> is the tallest thing in town.</li><li>Trucks lined up at the <em>grain elevator</em> all morning.</li><li>Two <em>grain elevators</em> sit right beside the tracks.</li></ol>
+<hr>
+<h3 id="grain-bin">grain bin<a class="hash" href="#grain-bin" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪn bɪn/ &middot; <em>GRAYN BIN</em></dd><dt>Русский</dt><dd>зерновой бункер, силос для зерна</dd><dt>Plural</dt><dd><em>grain bins</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A round metal container on a farm for storing harvested grain.</p>
+<ol><li>He put up two more <em>grain bins</em> last year.</li><li>Never climb into a <em>grain bin</em> alone.</li><li>The <em>grain bin</em> holds about ten thousand bushels.</li></ol>
+<hr>
+<h3 id="pitchfork">pitchfork<a class="hash" href="#pitchfork" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪtʃfɔːrk/ &middot; <em>PICH-fork</em></dd><dt>Русский</dt><dd>вилы</dd><dt>Plural</dt><dd><em>pitchforks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long-handled fork with a few long tines, used for lifting hay or straw.</p>
+<ol><li>He tossed the hay up with a <em>pitchfork</em>.</li><li>Two <em>pitchforks</em> leaned against the barn door.</li><li>The handle of the <em>pitchfork</em> was worn smooth.</li></ol>
+<hr>
+<h3 id="scythe">scythe<a class="hash" href="#scythe" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/saɪð/ &middot; <em>SYTHE</em></dd><dt>Русский</dt><dd>коса (для травы)</dd><dt>Plural</dt><dd><em>scythes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>c</em> is silent, and the word rhymes with <em>writhe</em>: SYTHE.</dd></dl>
+<p>A tool with a long curved blade and a bent handle, swung to cut grass or grain by hand.</p>
+<ol><li>He cut the ditch bank with a <em>scythe</em>.</li><li>An old <em>scythe</em> hangs above the workbench.</li><li><em>Scythes</em> have to be sharpened every few minutes.</li></ol>
+<hr>
+<h3 id="sickle">sickle<a class="hash" href="#sickle" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɪkəl/ &middot; <em>SIK-uhl</em></dd><dt>Русский</dt><dd>серп</dd><dt>Plural</dt><dd><em>sickles</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A short curved blade with a handle, used with one hand for cutting grass or grain.</p>
+<ol><li>She cut a bundle of herbs with a <em>sickle</em>.</li><li>The mower's <em>sickle</em> bar needs new sections.</li><li><em>Sickles</em> were standard tools before machines came along.</li></ol>
+<hr>
+<h3 id="machete">machete<a class="hash" href="#machete" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/məˈʃɛti/ &middot; <em>muh-SHET-ee</em></dd><dt>Русский</dt><dd>мачете</dd><dt>Plural</dt><dd><em>machetes</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>ch</em> is said like <em>sh</em>: muh-SHET-ee.</dd></dl>
+<p>A large heavy knife used for cutting cane, brush, or thick stalks.</p>
+<ol><li>The workers cut the cane with <em>machetes</em>.</li><li>He cleared the path with a <em>machete</em>.</li><li>Keep the <em>machete</em> in its sheath when you're not using it.</li></ol>
+<hr>
+<h3 id="henhouse">henhouse<a class="hash" href="#henhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛnhaʊs/ &middot; <em>HEN-howss</em></dd><dt>Русский</dt><dd>курятник</dd><dt>Plural</dt><dd><em>henhouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A small building where chickens are kept and lay their eggs.</p>
+<ol><li>She collects the eggs from the <em>henhouse</em> each morning.</li><li>A fox got into the <em>henhouse</em> last night.</li><li>Both <em>henhouses</em> need fresh straw.</li></ol>
+<hr>
+<h3 id="hayloft">hayloft<a class="hash" href="#hayloft" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪlɔːft/ &middot; <em>HAY-lawft</em></dd><dt>Русский</dt><dd>сеновал</dd><dt>Plural</dt><dd><em>haylofts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The upper floor of a barn where hay is stored.</p>
+<ol><li>The kids hid in the <em>hayloft</em> all afternoon.</li><li>He pitched bales down from the <em>hayloft</em>.</li><li>Swallows nest in the rafters of the <em>hayloft</em>.</li></ol>
+<hr>
+<h3 id="granary">granary<a class="hash" href="#granary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡreɪnəri/ &middot; <em>GRAY-nuh-ree</em></dd><dt>Русский</dt><dd>амбар, зернохранилище</dd><dt>Plural</dt><dd><em>granaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A building where threshed grain is stored.</p>
+<ol><li>Mice had gotten into the <em>granary</em>.</li><li>The old wooden <em>granary</em> still stands behind the barn.</li><li>They emptied both <em>granaries</em> before the sale.</li></ol>
+<hr>
+<h3 id="sty">sty<a class="hash" href="#sty" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/staɪ/ &middot; <em>STY</em></dd><dt>Русский</dt><dd>свинарник, свиной загон</dd><dt>Plural</dt><dd><em>sties</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Sounds the same as <em>stye</em>, the swollen spot on an eyelid; the plural is <em>sties</em>.</dd></dl>
+<p>A pen where pigs are kept.</p>
+<ol><li>He forked clean straw into the <em>sty</em>.</li><li>The pigs came running to the front of the <em>sty</em>.</li><li>Both <em>sties</em> were rebuilt with concrete floors.</li></ol>
+<hr>
+<h3 id="pigpen">pigpen<a class="hash" href="#pigpen" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpɪɡpɛn/ &middot; <em>PIG-pen</em></dd><dt>Русский</dt><dd>свинарник, загон для свиней</dd><dt>Plural</dt><dd><em>pigpens</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A fenced enclosure where pigs are raised.</p>
+<ol><li>The <em>pigpen</em> sits well away from the house.</li><li>He hosed out the <em>pigpen</em> every other day.</li><li>Your room looks like a <em>pigpen</em>.</li></ol>
+<hr>
+<h3 id="stall">stall<a class="hash" href="#stall" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɔːl/ &middot; <em>STAWL</em></dd><dt>Русский</dt><dd>стойло, денник</dd><dt>Plural</dt><dd><em>stalls</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A separate space inside a barn for one animal.</p>
+<ol><li>Each cow has her own <em>stall</em>.</li><li>He mucked out the <em>stalls</em> before breakfast.</li><li>The mare kicked the side of her <em>stall</em> all night.</li></ol>
+<hr>
+<h3 id="creamery">creamery<a class="hash" href="#creamery" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkriːməri/ &middot; <em>KREE-muh-ree</em></dd><dt>Русский</dt><dd>маслодельня, молокозавод</dd><dt>Plural</dt><dd><em>creameries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where milk is processed into butter, cream, or cheese.</p>
+<ol><li>The milk goes to a <em>creamery</em> twenty miles away.</li><li>Small <em>creameries</em> have almost all closed.</li><li>They sell ice cream at the <em>creamery</em> on weekends.</li></ol>
+<hr>
+<h3 id="slaughterhouse">slaughterhouse<a class="hash" href="#slaughterhouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈslɔːtərhaʊs/ &middot; <em>SLAW-tur-howss</em></dd><dt>Русский</dt><dd>скотобойня</dd><dt>Plural</dt><dd><em>slaughterhouses</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>-augh-</em> is said like <em>aw</em> and the <em>gh</em> is silent: SLAW-tur-howss.</dd></dl>
+<p>A building where farm animals are killed for meat.</p>
+<ol><li>The cattle are trucked to a <em>slaughterhouse</em> upstate.</li><li>Two <em>slaughterhouses</em> serve the whole region.</li><li>He worked at a <em>slaughterhouse</em> one summer.</li></ol>
+<hr>
+<h3 id="apiary">apiary<a class="hash" href="#apiary" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈeɪpiɛri/ &middot; <em>AY-pee-air-ee</em></dd><dt>Русский</dt><dd>пасека</dd><dt>Plural</dt><dd><em>apiaries</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A place where beehives are kept.</p>
+<ol><li>He keeps forty hives at a small <em>apiary</em> by the orchard.</li><li>The <em>apiary</em> sits at the edge of the clover field.</li><li>Both <em>apiaries</em> produce more than they can sell.</li></ol>
+<hr>
+<h3 id="milking-parlor">milking parlor<a class="hash" href="#milking-parlor" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlkɪŋ ˌpɑːrlər/ &middot; <em>MIL-king PAR-lur</em></dd><dt>Русский</dt><dd>доильный зал</dd><dt>Plural</dt><dd><em>milking parlors</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans spell it <em>parlor</em>; the British spell it <em>parlour</em>.</dd></dl>
+<p>The room on a dairy farm where cows are milked by machine.</p>
+<ol><li>Twenty cows fit in the <em>milking parlor</em> at once.</li><li>The <em>milking parlor</em> is hosed down twice a day.</li><li>They built a new <em>milking parlor</em> last spring.</li></ol>
+<hr>
+<h3 id="root-cellar">root cellar<a class="hash" href="#root-cellar" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈruːt ˌsɛlər/ &middot; <em>ROOT SEL-ur</em></dd><dt>Русский</dt><dd>овощехранилище, погреб</dd><dt>Plural</dt><dd><em>root cellars</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>An underground room where potatoes, carrots, and other vegetables are kept cool.</p>
+<ol><li>The potatoes keep all winter in the <em>root cellar</em>.</li><li>There's a <em>root cellar</em> dug into the hillside.</li><li>Old farmhouses out here all had <em>root cellars</em>.</li></ol>
+<hr>
+<h3 id="haystack">haystack<a class="hash" href="#haystack" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈheɪstæk/ &middot; <em>HAY-stak</em></dd><dt>Русский</dt><dd>стог сена</dd><dt>Plural</dt><dd><em>haystacks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A large pile of hay built and left standing in a field.</p>
+<ol><li>The dog was asleep behind the <em>haystack</em>.</li><li>Three <em>haystacks</em> stood at the far end of the meadow.</li><li>Finding it was like looking for a needle in a <em>haystack</em>.</li></ol>
+<hr>
+<h3 id="outbuilding">outbuilding<a class="hash" href="#outbuilding" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈaʊtˌbɪldɪŋ/ &middot; <em>OWT-bil-ding</em></dd><dt>Русский</dt><dd>надворная постройка, хозпостройка</dd><dt>Plural</dt><dd><em>outbuildings</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A smaller building standing apart from the main house on a farm.</p>
+<ol><li>The property includes a barn and three <em>outbuildings</em>.</li><li>One <em>outbuilding</em> is used just for tools.</li><li>Storms took the roof off the nearest <em>outbuilding</em>.</li></ol>
+<hr>
+<h3 id="hothouse">hothouse<a class="hash" href="#hothouse" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːthaʊs/ &middot; <em>HAHT-howss</em></dd><dt>Русский</dt><dd>теплица, оранжерея</dd><dt>Plural</dt><dd><em>hothouses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A heated glass building for growing plants out of season.</p>
+<ol><li>The tomatoes came out of a <em>hothouse</em> in February.</li><li>They heat the <em>hothouse</em> with a wood stove.</li><li><em>Hothouse</em> flowers cost more in the winter.</li></ol>
+<hr>
+<h3 id="ditch">ditch<a class="hash" href="#ditch" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪtʃ/ &middot; <em>DICH</em></dd><dt>Русский</dt><dd>канава, ров</dd><dt>Plural</dt><dd><em>ditches</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow channel dug to carry water away from or onto a field.</p>
+<ol><li>The irrigation <em>ditch</em> runs the length of the field.</li><li>They cleaned out the <em>ditches</em> before the spring rain.</li><li>His truck slid off the road into the <em>ditch</em>.</li></ol>
+<hr>
+<h3 id="furrow">furrow<a class="hash" href="#furrow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɜːroʊ/ &middot; <em>FUR-oh</em></dd><dt>Русский</dt><dd>борозда</dd><dt>Plural</dt><dd><em>furrows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A long narrow groove cut in the soil by a plow.</p>
+<ol><li>Water ran down every <em>furrow</em>.</li><li>He drove a straight <em>furrow</em> the whole length of the field.</li><li>The seed drops into the <em>furrow</em> and gets covered over.</li></ol>
+<hr>
+<h3 id="drainage">drainage<a class="hash" href="#drainage" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdreɪnɪdʒ/ &middot; <em>DRAY-nij</em></dd><dt>Русский</dt><dd>дренаж, водоотвод</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The removal of extra water from soil, or the system that does it.</p>
+<ol><li>That corner of the field has terrible <em>drainage</em>.</li><li>Tile <em>drainage</em> made the low ground farmable.</li><li>Good <em>drainage</em> matters more than fertilizer here.</li></ol>
+<hr>
+<h3 id="culvert">culvert<a class="hash" href="#culvert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkʌlvərt/ &middot; <em>KUL-vurt</em></dd><dt>Русский</dt><dd>водопропускная труба</dd><dt>Plural</dt><dd><em>culverts</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A pipe or tunnel that carries water under a road or a field lane.</p>
+<ol><li>The <em>culvert</em> under the driveway is plugged with leaves.</li><li>They replaced two rusted <em>culverts</em> last fall.</li><li>Water backed up because the <em>culvert</em> was too small.</li></ol>
+<hr>
+<h3 id="cattle-guard">cattle guard<a class="hash" href="#cattle-guard" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəl ɡɑːrd/ &middot; <em>KAT-uhl GARD</em></dd><dt>Русский</dt><dd>решётка на дороге (преграда для скота)</dd><dt>Plural</dt><dd><em>cattle guards</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans call it a <em>cattle guard</em>; the British call the same thing a <em>cattle grid</em>.</dd></dl>
+<p>A grid of metal bars set into a road that vehicles can cross but cattle will not.</p>
+<ol><li>The truck rattled over the <em>cattle guard</em>.</li><li>There's a <em>cattle guard</em> where the lane leaves the highway.</li><li>Two <em>cattle guards</em> keep the herd off the county road.</li></ol>
+<hr>
+<h3 id="water-table">water table<a class="hash" href="#water-table" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɔːtər ˌteɪbəl/ &middot; <em>WAW-tur TAY-buhl</em></dd><dt>Русский</dt><dd>уровень грунтовых вод</dd><dt>Plural</dt><dd><em>water tables</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The level below the ground at which the soil is saturated with water.</p>
+<ol><li>Irrigation has dropped the <em>water table</em> by thirty feet.</li><li>The <em>water table</em> is high in the bottomland.</li><li>Wells go dry when the <em>water table</em> falls.</li></ol>
+<hr>
+<h3 id="heifer">heifer<a class="hash" href="#heifer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛfər/ &middot; <em>HEF-ur</em></dd><dt>Русский</dt><dd>тёлка, нетель</dd><dt>Plural</dt><dd><em>heifers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled with <em>ei</em> but pronounced HEF-ur, rhyming with <em>deafer</em> — never HAY-fur.</dd></dl>
+<p>A young female cow that has not yet had a calf.</p>
+<ol><li>He kept the best <em>heifers</em> for the milking herd.</li><li>That <em>heifer</em> will calve in the spring.</li><li>They sold twenty <em>heifers</em> at the auction.</li></ol>
+<hr>
+<h3 id="steer">steer<a class="hash" href="#steer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/stɪr/ &middot; <em>STEER</em></dd><dt>Русский</dt><dd>вол, кастрированный бычок</dd><dt>Plural</dt><dd><em>steers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young male cow raised for beef.</p>
+<ol><li>The <em>steers</em> go to the feedlot in the fall.</li><li>He showed a <em>steer</em> at the county fair.</li><li>Each <em>steer</em> gains a couple of pounds a day.</li></ol>
+<hr>
+<h3 id="hog">hog<a class="hash" href="#hog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/hɑːɡ/ &middot; <em>HAHG</em></dd><dt>Русский</dt><dd>свинья (откормочная), боров</dd><dt>Plural</dt><dd><em>hogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A full-grown pig raised for meat.</p>
+<ol><li>They raise a couple hundred <em>hogs</em> a year.</li><li>The <em>hog</em> weighed nearly three hundred pounds.</li><li><em>Hog</em> prices were down again this month.</li></ol>
+<hr>
+<h3 id="filly">filly<a class="hash" href="#filly" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɪli/ &middot; <em>FIL-ee</em></dd><dt>Русский</dt><dd>кобылка (молодая лошадь)</dd><dt>Plural</dt><dd><em>fillies</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A young female horse.</p>
+<ol><li>The bay <em>filly</em> was born in April.</li><li>Two <em>fillies</em> were turned out in the paddock.</li><li>He trained the <em>filly</em> himself.</li></ol>
+<hr>
+<h3 id="breed">breed<a class="hash" href="#breed" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/briːd/ &middot; <em>BREED</em></dd><dt>Русский</dt><dd>порода</dd><dt>Plural</dt><dd><em>breeds</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A particular type of farm animal, developed by selective mating.</p>
+<ol><li>That <em>breed</em> of cattle handles cold weather well.</li><li>He raises three <em>breeds</em> of chickens.</li><li>The dairy <em>breed</em> gives more milk but less beef.</li></ol>
+<hr>
+<h3 id="breeder">breeder<a class="hash" href="#breeder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈbriːdər/ &middot; <em>BREE-dur</em></dd><dt>Русский</dt><dd>заводчик, селекционер</dd><dt>Plural</dt><dd><em>breeders</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who raises animals in order to produce young of a particular kind.</p>
+<ol><li>They bought the bull from a <em>breeder</em> upstate.</li><li>Local <em>breeders</em> meet once a year.</li><li>A good <em>breeder</em> keeps careful records.</li></ol>
+<hr>
+<h3 id="udder">udder<a class="hash" href="#udder" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʌdər/ &middot; <em>UD-ur</em></dd><dt>Русский</dt><dd>вымя</dd><dt>Plural</dt><dd><em>udders</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In American speech it sounds almost exactly like <em>utter</em>, because the <em>tt</em> is said as a soft <em>d</em>.</dd></dl>
+<p>The bag-shaped organ on a cow, goat, or sheep that produces milk.</p>
+<ol><li>He wiped the cow's <em>udder</em> before milking.</li><li>The <em>udder</em> was swollen and sore.</li><li><em>Udders</em> have to be kept clean to prevent infection.</li></ol>
+<hr>
+<h3 id="teat">teat<a class="hash" href="#teat" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tiːt/ &middot; <em>TEET</em></dd><dt>Русский</dt><dd>сосок (у животного)</dd><dt>Plural</dt><dd><em>teats</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>One of the small projections on an animal's udder that the milk comes out of.</p>
+<ol><li>The calf found the <em>teat</em> on its own.</li><li>He attached the machine to all four <em>teats</em>.</li><li>One <em>teat</em> was cracked and needed ointment.</li></ol>
+<hr>
+<h3 id="cud">cud<a class="hash" href="#cud" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kʌd/ &middot; <em>KUD</em></dd><dt>Русский</dt><dd>жвачка (у жвачных животных)</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Food that a cow brings back up from its stomach and chews again.</p>
+<ol><li>The cows lay in the shade chewing their <em>cud</em>.</li><li>A calf that won't chew its <em>cud</em> is probably sick.</li><li>You can hear them working at the <em>cud</em> in the quiet barn.</li></ol>
+<hr>
+<h3 id="manger">manger<a class="hash" href="#manger" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmeɪndʒər/ &middot; <em>MAYN-jur</em></dd><dt>Русский</dt><dd>ясли, кормушка</dd><dt>Plural</dt><dd><em>mangers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The <em>g</em> is soft and the word rhymes with <em>danger</em>: MAYN-jur — not <em>manager</em>.</dd></dl>
+<p>A long open box in a barn that holds hay for horses or cattle.</p>
+<ol><li>He filled the <em>manger</em> with fresh hay.</li><li>The horses pushed their heads into the <em>manger</em>.</li><li>Both <em>mangers</em> were built from rough planks.</li></ol>
+<hr>
+<h3 id="halter">halter<a class="hash" href="#halter" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɔːltər/ &middot; <em>HAWL-tur</em></dd><dt>Русский</dt><dd>недоуздок, оброть</dd><dt>Plural</dt><dd><em>halters</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A set of straps put on a horse's or cow's head so it can be led.</p>
+<ol><li>She slipped a <em>halter</em> over the mare's nose.</li><li>The <em>halters</em> hang on nails by the stall doors.</li><li>He led the calf by a rope <em>halter</em>.</li></ol>
+<hr>
+<h3 id="harness">harness<a class="hash" href="#harness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɑːrnəs/ &middot; <em>HAR-nuhs</em></dd><dt>Русский</dt><dd>упряжь, сбруя</dd><dt>Plural</dt><dd><em>harnesses</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The straps and fittings that connect a work animal to a plow or wagon.</p>
+<ol><li>He oiled the leather <em>harness</em> every fall.</li><li>The old <em>harnesses</em> still hang in the tack room.</li><li>It takes ten minutes to put the <em>harness</em> on a team.</li></ol>
+<hr>
+<h3 id="lasso">lasso<a class="hash" href="#lasso" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈlæsoʊ/ &middot; <em>LAS-oh</em></dd><dt>Русский</dt><dd>лассо, аркан</dd><dt>Plural</dt><dd><em>lassos</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Americans usually stress the first syllable, LAS-oh; the British often say luh-SOO.</dd></dl>
+<p>A rope with a sliding loop, thrown to catch cattle or horses.</p>
+<ol><li>He swung the <em>lasso</em> over his head twice.</li><li>The rider caught the calf with a single <em>lasso</em> throw.</li><li>Coiled <em>lassos</em> hung from every saddle.</li></ol>
+<hr>
+<h3 id="salt-lick">salt lick<a class="hash" href="#salt-lick" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɔːlt lɪk/ &middot; <em>SAWLT LIK</em></dd><dt>Русский</dt><dd>солонец, соль-лизунец</dd><dt>Plural</dt><dd><em>salt licks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A block of salt put out for livestock or deer to lick.</p>
+<ol><li>He set a <em>salt lick</em> out in the far pasture.</li><li>The cattle wore the <em>salt lick</em> down to a nub.</li><li>Two <em>salt licks</em> sit near the water trough.</li></ol>
+<hr>
+<h3 id="ear-tag">ear tag<a class="hash" href="#ear-tag" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɪr tæɡ/ &middot; <em>EER TAG</em></dd><dt>Русский</dt><dd>ушная бирка (для скота)</dd><dt>Plural</dt><dd><em>ear tags</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A numbered plastic tag fastened in a farm animal's ear for identification.</p>
+<ol><li>Every calf gets an <em>ear tag</em> within a day of birth.</li><li>He read the number off the <em>ear tag</em>.</li><li>Yellow <em>ear tags</em> mark the animals born this spring.</li></ol>
+<hr>
+<h3 id="cattle-drive">cattle drive<a class="hash" href="#cattle-drive" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkætəl draɪv/ &middot; <em>KAT-uhl DRYVE</em></dd><dt>Русский</dt><dd>перегон скота</dd><dt>Plural</dt><dd><em>cattle drives</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The moving of a herd of cattle over a long distance on foot.</p>
+<ol><li>The <em>cattle drive</em> took three weeks.</li><li>Old <em>cattle drives</em> followed the river north.</li><li>They still do a short <em>cattle drive</em> every June.</li></ol>
+<hr>
+<h3 id="sheepdog">sheepdog<a class="hash" href="#sheepdog" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃiːpdɔːɡ/ &middot; <em>SHEEP-dawg</em></dd><dt>Русский</dt><dd>овчарка, пастушья собака</dd><dt>Plural</dt><dd><em>sheepdogs</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A dog trained to herd and guard sheep.</p>
+<ol><li>The <em>sheepdog</em> brought the whole flock in by itself.</li><li>Two <em>sheepdogs</em> worked the far side of the hill.</li><li>A good <em>sheepdog</em> is worth three farmhands.</li></ol>
+<hr>
+<h3 id="cowbell">cowbell<a class="hash" href="#cowbell" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊbɛl/ &middot; <em>KOW-bel</em></dd><dt>Русский</dt><dd>коровий колокольчик</dd><dt>Plural</dt><dd><em>cowbells</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A bell hung on a cow's neck so she can be found in the pasture.</p>
+<ol><li>You could hear a <em>cowbell</em> somewhere up the hill.</li><li>The <em>cowbells</em> clanked as the herd came down.</li><li>He hung a <em>cowbell</em> on the lead cow.</li></ol>
+<hr>
+<h3 id="rancher">rancher<a class="hash" href="#rancher" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈræntʃər/ &middot; <em>RAN-chur</em></dd><dt>Русский</dt><dd>владелец ранчо, скотовод</dd><dt>Plural</dt><dd><em>ranchers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone who owns or runs a ranch.</p>
+<ol><li>The <em>rancher</em> rode out to check the fence.</li><li>Local <em>ranchers</em> met about the water rights.</li><li>Her father was a cattle <em>rancher</em> all his life.</li></ol>
+<hr>
+<h3 id="farmhand">farmhand<a class="hash" href="#farmhand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmhænd/ &middot; <em>FARM-hand</em></dd><dt>Русский</dt><dd>работник на ферме, батрак</dd><dt>Plural</dt><dd><em>farmhands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>Someone paid to do work on a farm.</p>
+<ol><li>They hired two <em>farmhands</em> for the harvest.</li><li>The <em>farmhand</em> was up before dawn.</li><li>Good <em>farmhands</em> are hard to find these days.</li></ol>
+<hr>
+<h3 id="hired-hand">hired hand<a class="hash" href="#hired-hand" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌhaɪrrd ˈhænd/ &middot; <em>hyrd HAND</em></dd><dt>Русский</dt><dd>наёмный работник (на ферме)</dd><dt>Plural</dt><dd><em>hired hands</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A worker paid to help on a farm or ranch, often seasonally.</p>
+<ol><li>The <em>hired hand</em> slept in a room off the kitchen.</li><li>They kept two <em>hired hands</em> through the summer.</li><li>He started out as a <em>hired hand</em> and bought the place later.</li></ol>
+<hr>
+<h3 id="grower">grower<a class="hash" href="#grower" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊrr/ &middot; <em>GROH-ur</em></dd><dt>Русский</dt><dd>производитель сельхозпродукции, растениевод</dd><dt>Plural</dt><dd><em>growers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A farmer who raises a particular crop to sell.</p>
+<ol><li>The apple <em>growers</em> had a rough spring.</li><li>She buys straight from a local <em>grower</em>.</li><li>Every <em>grower</em> in the valley signed the petition.</li></ol>
+<hr>
+<h3 id="shepherd">shepherd<a class="hash" href="#shepherd" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛpərd/ &middot; <em>SHEP-urd</em></dd><dt>Русский</dt><dd>пастух (овец), чабан</dd><dt>Plural</dt><dd><em>shepherds</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>The middle <em>h</em> is silent: SHEP-urd, not SHEP-hurd.</dd></dl>
+<p>Someone whose job is to take care of sheep.</p>
+<ol><li>The <em>shepherd</em> moved the flock to higher ground.</li><li>Two <em>shepherds</em> stayed with the sheep all night.</li><li>He worked as a <em>shepherd</em> in the mountains.</li></ol>
+<hr>
+<h3 id="herdsman">herdsman<a class="hash" href="#herdsman" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɜːrdzmən/ &middot; <em>HURDZ-muhn</em></dd><dt>Русский</dt><dd>пастух, скотник</dd><dt>Plural</dt><dd><em>herdsmen</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Irregular plural: <em>herdsmen</em>, and the second syllable is weak in both — HURDZ-muhn, HURDZ-muhn.</dd></dl>
+<p>Someone who looks after a herd of cattle or other livestock.</p>
+<ol><li>The <em>herdsman</em> knew every cow by sight.</li><li>Two <em>herdsmen</em> brought the cattle down at dusk.</li><li>They advertised for an experienced dairy <em>herdsman</em>.</li></ol>
+<hr>
+<h3 id="cowboy">cowboy<a class="hash" href="#cowboy" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkaʊbɔɪ/ &middot; <em>KOW-boy</em></dd><dt>Русский</dt><dd>ковбой</dd><dt>Plural</dt><dd><em>cowboys</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A man who herds and tends cattle on horseback.</p>
+<ol><li>Three <em>cowboys</em> pushed the herd toward the gate.</li><li>The <em>cowboy</em> tightened his saddle and swung up.</li><li>He worked as a <em>cowboy</em> for two seasons.</li></ol>
+<hr>
+<h3 id="sharecropper">sharecropper<a class="hash" href="#sharecropper" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃɛrˌkrɑːpər/ &middot; <em>SHAIR-krah-pur</em></dd><dt>Русский</dt><dd>издольщик</dd><dt>Plural</dt><dd><em>sharecroppers</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A farmer who works another person's land and pays with part of the crop.</p>
+<ol><li>His grandparents were <em>sharecroppers</em> in the delta.</li><li>The <em>sharecropper</em> never got out from under the debt.</li><li>Whole families of <em>sharecroppers</em> moved north for work.</li></ol>
+<hr>
+<h3 id="veterinarian">veterinarian<a class="hash" href="#veterinarian" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌvɛtərəˈnɛriən/ &middot; <em>vet-ur-uh-NAIR-ee-uhn</em></dd><dt>Русский</dt><dd>ветеринар, ветеринарный врач</dd><dt>Plural</dt><dd><em>veterinarians</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A doctor who treats animals.</p>
+<ol><li>The <em>veterinarian</em> came out at midnight for the calving.</li><li>Large-animal <em>veterinarians</em> are scarce in rural counties.</li><li>She trained as a <em>veterinarian</em> after college.</li></ol>
+<hr>
+<h3 id="vet">vet<a class="hash" href="#vet" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/vɛt/ &middot; <em>VET</em></dd><dt>Русский</dt><dd>ветеринар (разговорное)</dd><dt>Plural</dt><dd><em>vets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>In other contexts <em>vet</em> is also short for <em>veteran</em>, a former soldier; only the setting tells you which.</dd></dl>
+<p>An everyday short word for a veterinarian.</p>
+<ol><li>Call the <em>vet</em> — that cow isn't getting up.</li><li>The <em>vet</em> checked the whole herd on Tuesday.</li><li>Two <em>vets</em> share the practice in town.</li></ol>
+<hr>
+<h3 id="blight">blight<a class="hash" href="#blight" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/blaɪt/ &middot; <em>BLYTE</em></dd><dt>Русский</dt><dd>фитофтороз, болезнь растений</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>The <em>gh</em> is silent; it rhymes with <em>light</em>.</dd></dl>
+<p>A plant disease that makes leaves and stems wither and die.</p>
+<ol><li><em>Blight</em> wiped out the whole potato patch.</li><li>Wet weather brings on <em>blight</em> in the tomatoes.</li><li>They sprayed early to hold off the <em>blight</em>.</li></ol>
+<hr>
+<h3 id="mildew">mildew<a class="hash" href="#mildew" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈmɪlduː/ &middot; <em>MIL-doo</em></dd><dt>Русский</dt><dd>мучнистая роса, плесень</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>A whitish fungus that grows on damp plants or stored grain.</p>
+<ol><li><em>Mildew</em> showed up on the squash leaves in August.</li><li>Damp hay in the loft turned to <em>mildew</em>.</li><li>A fungicide keeps the <em>mildew</em> off the vines.</li></ol>
+<hr>
+<h3 id="growing-season">growing season<a class="hash" href="#growing-season" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈɡroʊɪŋ ˌsiːzən/ &middot; <em>GROH-ing SEE-zuhn</em></dd><dt>Русский</dt><dd>вегетационный период</dd><dt>Plural</dt><dd><em>growing seasons</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>The part of the year warm enough for crops to grow.</p>
+<ol><li>The <em>growing season</em> here runs from May to September.</li><li>A short <em>growing season</em> rules out some crops.</li><li>Warm springs have stretched recent <em>growing seasons</em>.</li></ol>
+<hr>
+<h3 id="barbed-wire">barbed wire<a class="hash" href="#barbed-wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˌbɑːrbd ˈwaɪrr/ &middot; <em>barbd WYRE</em></dd><dt>Русский</dt><dd>колючая проволока</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd><em>Barbed</em> is one syllable — BARBD — even though it is spelled with -ed.</dd></dl>
+<p>Wire with sharp points twisted into it, strung to fence in livestock.</p>
+<ol><li>Three strands of <em>barbed wire</em> run along the property line.</li><li>He tore his sleeve on the <em>barbed wire</em>.</li><li><em>Barbed wire</em> changed how the West was fenced.</li></ol>
+<hr>
+<h3 id="chicken-wire">chicken wire<a class="hash" href="#chicken-wire" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈtʃɪkən ˌwaɪrr/ &middot; <em>CHIK-uhn WYRE</em></dd><dt>Русский</dt><dd>сетка для птичника, мелкая сетка</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Light wire mesh with hexagonal holes, used to fence in poultry.</p>
+<ol><li>He stapled <em>chicken wire</em> around the coop.</li><li>A roll of <em>chicken wire</em> leaned against the shed.</li><li><em>Chicken wire</em> keeps the rabbits out of the garden.</li></ol>
+<hr>
+<h3 id="hedgerow">hedgerow<a class="hash" href="#hedgerow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈhɛdʒroʊ/ &middot; <em>HEJ-roh</em></dd><dt>Русский</dt><dd>живая изгородь (между полями)</dd><dt>Plural</dt><dd><em>hedgerows</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A line of bushes and small trees growing along the edge of a field.</p>
+<ol><li>Birds nest in the <em>hedgerow</em> between the two fields.</li><li>They tore out the <em>hedgerows</em> to make bigger fields.</li><li>A thick <em>hedgerow</em> runs the length of the lane.</li></ol>
+<hr>
+<h3 id="windbreak">windbreak<a class="hash" href="#windbreak" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈwɪndbreɪk/ &middot; <em>WIND-brayk</em></dd><dt>Русский</dt><dd>ветрозащитная полоса, лесозащитная полоса</dd><dt>Plural</dt><dd><em>windbreaks</em></dd><dt>Countability</dt><dd>countable</dd></dl>
+<p>A row of trees planted to shelter fields or buildings from the wind.</p>
+<ol><li>His grandfather planted the <em>windbreak</em> north of the house.</li><li><em>Windbreaks</em> cut down on soil blowing off the field.</li><li>Snow drifts up along the <em>windbreak</em> every winter.</li></ol>
+<hr>
+<h3 id="sod">sod<a class="hash" href="#sod" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/sɑːd/ &middot; <em>SAHD</em></dd><dt>Русский</dt><dd>дёрн, дернина</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>The top layer of soil held together by grass roots.</p>
+<ol><li>Settlers built houses out of <em>sod</em>.</li><li>He cut the <em>sod</em> off before digging the trench.</li><li>New <em>sod</em> was laid around the farmhouse.</li></ol>
+<hr>
+<h3 id="agribusiness">agribusiness<a class="hash" href="#agribusiness" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæɡriˌbɪznəs/ &middot; <em>AG-rih-biz-nuhs</em></dd><dt>Русский</dt><dd>агробизнес</dd><dt>Countability</dt><dd>uncountable</dd></dl>
+<p>Farming carried on as a large-scale commercial industry.</p>
+<ol><li><em>Agribusiness</em> has squeezed out a lot of small farms.</li><li>He works on the finance side of <em>agribusiness</em>.</li><li>The conference was all about <em>agribusiness</em> and trade.</li></ol>
+<hr>
+<h3 id="farmers-market">farmers market<a class="hash" href="#farmers-market" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈfɑːrmərz ˌmɑːrkɪt/ &middot; <em>FAR-murz MAR-kit</em></dd><dt>Русский</dt><dd>фермерский рынок</dd><dt>Plural</dt><dd><em>farmers markets</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Written <em>farmers market</em>, <em>farmers' market</em>, or <em>farmer's market</em> — all three spellings are common in the United States.</dd></dl>
+<p>An outdoor market where farmers sell their produce directly to shoppers.</p>
+<ol><li>The <em>farmers market</em> opens at seven on Saturdays.</li><li>She sells honey at two <em>farmers markets</em>.</li><li>We got the peaches at the <em>farmers market</em>.</li></ol>
+<hr>
+<h3 id="co-op">co-op<a class="hash" href="#co-op" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkoʊɑːp/ &middot; <em>KOH-ahp</em></dd><dt>Русский</dt><dd>кооператив (сельскохозяйственный)</dd><dt>Plural</dt><dd><em>co-ops</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Two syllables, KOH-ahp, short for <em>cooperative</em> — not the one-syllable <em>coop</em>, KOOP, where chickens live.</dd></dl>
+<p>A business owned jointly by farmers, who buy supplies and sell crops through it.</p>
+<ol><li>He hauls his grain to the <em>co-op</em> in town.</li><li>The <em>co-op</em> sells seed, fuel, and fertilizer.</li><li>Several small <em>co-ops</em> merged last year.</li></ol>
+<hr>
+<h3 id="dairy-farm">dairy farm<a class="hash" href="#dairy-farm" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛri fɑːrm/ &middot; <em>DAIR-ee FARM</em></dd><dt>Русский</dt><dd>молочная ферма</dd><dt>Plural</dt><dd><em>dairy farms</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd><em>Dairy</em>, DAIR-ee, is easy to misread as <em>diary</em>, DY-uh-ree, the book you write in.</dd></dl>
+<p>A farm that keeps cows for their milk.</p>
+<ol><li>She grew up on a <em>dairy farm</em>.</li><li>Small <em>dairy farms</em> are disappearing fast.</li><li>The <em>dairy farm</em> ships milk twice a day.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>
