@@ -24,7 +24,7 @@ Each class folder is a self-contained README with the same ten sections: what th
 
 ## The Noun Dictionary
 
-**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **5,976 nouns** in 50 groups, built in **two tiers**, because nouns are an open class and the two halves of the problem are different.
+**[01-nouns/catalog/](parts-of-speech/01-nouns/catalog/README.md)** — **5,976 nouns** in 72 groups, built in **two tiers**, because nouns are an open class and the two halves of the problem are different.
 
 The **grammar tier** (groups 1–23, 694 entries) covers the nouns that *misbehave* — the part a learner has to memorize because no rule predicts it. Each gets the full treatment: numbered senses, contrast notes, a dozen examples. Three systems, grouped by what goes wrong:
 
