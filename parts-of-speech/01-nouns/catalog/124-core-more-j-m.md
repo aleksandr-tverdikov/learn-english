@@ -559,15 +559,23 @@ A sleeveless dress worn over a blouse or sweater.
 ### juncture
 
 **Pronunciation:** /ˈdʒʌŋktʃər/ &middot; *JUNGK-chur*
-**Русский:** момент, этап (в ходе событий)
+**Русский:** момент, этап (в ходе событий); место соединения, стык
 **Plural:** *junctures*
 **Countability:** countable
 
-A particular point in time, especially an important one in a series of events.
+Juncture has 2 distinct senses.
+
+**1. A particular point in time, especially an important one in a series of events.** (момент, этап (в ходе событий))
 
 1. At this *juncture* we can't afford to lose another supplier.
 2. The talks reached a critical *juncture* on Friday.
 3. This is a delicate *juncture* in the investigation.
+
+**2. A place where two things are joined.** (место соединения, стык)
+
+4. The leak was at the *juncture* of the two pipes.
+5. A crack ran along the *juncture* of the wall and the ceiling.
+6. The town sits at the *juncture* of two rivers.
 
 ---
 
@@ -635,15 +643,23 @@ Pieces of meat and vegetables grilled on a skewer.
 ### kaleidoscope
 
 **Pronunciation:** /kəˈlaɪdəskoʊp/ &middot; *kuh-LY-duh-skohp*
-**Русский:** калейдоскоп
+**Русский:** калейдоскоп; калейдоскоп (пёстрая смена)
 **Plural:** *kaleidoscopes*
 **Countability:** countable
 
-A tube you look through that shows changing colored patterns as you turn it.
+Kaleidoscope has 2 distinct senses.
+
+**1. A tube you look through that shows changing colored patterns as you turn it.** (калейдоскоп)
 
 1. Every kid at the party got a *kaleidoscope*.
 2. She turned the *kaleidoscope* slowly and watched the shapes fall apart.
 3. The market was a *kaleidoscope* of color and noise.
+
+**2. A constantly changing mixture of colors, people, or events.** (калейдоскоп (пёстрая смена))
+
+4. The market was a *kaleidoscope* of colors and smells.
+5. The novel gives us a *kaleidoscope* of New York voices.
+6. Her first year abroad was a *kaleidoscope* of new experiences.
 
 ---
 
@@ -799,15 +815,23 @@ Kick has 3 distinct senses.
 ### kickback
 
 **Pronunciation:** /ˈkɪkbæk/ &middot; *KIK-bak*
-**Русский:** откат (незаконная выплата)
+**Русский:** откат (незаконная выплата); отдача, обратный удар (инструмента)
 **Plural:** *kickbacks*
 **Countability:** countable
 
-A secret illegal payment made to someone in return for a favor or a contract.
+Kickback has 2 distinct senses.
+
+**1. A secret illegal payment made to someone in return for a favor or a contract.** (откат (незаконная выплата))
 
 1. The inspector took *kickbacks* from three contractors.
 2. Prosecutors say the deal involved a fifty-thousand-dollar *kickback*.
 3. The company fired two managers over *kickbacks*.
+
+**2. A sudden backward jerk of a power tool when the blade catches.** (отдача, обратный удар (инструмента))
+
+4. Hold the saw with both hands to control the *kickback*.
+5. *Kickback* causes most chainsaw injuries.
+6. The blade guard is there to reduce *kickback*.
 
 ---
 
@@ -1552,14 +1576,22 @@ A device that sends something off, or a program that starts other programs.
 ### laundering
 
 **Pronunciation:** /ˈlɔːndərɪŋ/ &middot; *LAWN-dur-ing*
-**Русский:** отмывание денег
+**Русский:** отмывание денег; стирка (белья)
 **Countability:** uncountable
 
-The crime of hiding where illegal money came from by moving it through legal businesses.
+Laundering has 2 distinct senses.
+
+**1. The crime of hiding where illegal money came from by moving it through legal businesses.** (отмывание денег)
 
 1. He was convicted of money *laundering*.
 2. The bank paid a fine for failing to stop *laundering*.
 3. *Laundering* cash through restaurants is a common scheme.
+
+**2. The washing of clothes, sheets, and towels.** (стирка (белья))
+
+4. The contract covers *laundering* of all the table linens.
+5. Frequent *laundering* faded the color out of the shirt.
+6. The label warns that *laundering* may shrink the fabric.
 
 ---
 
@@ -2420,14 +2452,22 @@ The moment when a rocket leaves the ground.
 ### lightness
 
 **Pronunciation:** /ˈlaɪtnəs/ &middot; *LYT-nuhs*
-**Русский:** лёгкость
+**Русский:** лёгкость; светлота (цвета)
 **Countability:** uncountable
 
-The quality of not weighing much, or of not being heavy in feeling.
+Lightness has 2 distinct senses.
+
+**1. The quality of not weighing much, or of not being heavy in feeling.** (лёгкость)
 
 1. The *lightness* of the frame makes the bike fast.
 2. There was a surprising *lightness* in her voice.
 3. He admired the *lightness* of the pastry.
+
+**2. How pale or bright a color is.** (светлота (цвета))
+
+4. Adjust the *lightness* of the image until the text is readable.
+5. The two paints differ only in *lightness*.
+6. She liked the *lightness* of the oak floor against the dark walls.
 
 ---
 
@@ -2996,15 +3036,23 @@ The work of adapting a product to another country's language and customs.
 ### location
 
 **Pronunciation:** /loʊˈkeɪʃən/ &middot; *loh-KAY-shuhn*
-**Русский:** место, местоположение
+**Русский:** место, местоположение; точка, филиал (магазина, сети)
 **Plural:** *locations*
 **Countability:** countable
 
-The place where something is or where something happens.
+Location has 2 distinct senses.
+
+**1. The place where something is or where something happens.** (место, местоположение)
 
 1. The store moved to a new *location* downtown.
 2. Share your *location* so I can find you.
 3. They scouted three *locations* for the shoot.
+
+**2. One of the stores or offices that a business operates.** (точка, филиал (магазина, сети))
+
+4. The chain just opened its fortieth *location* in Ohio.
+5. Both *locations* are closed on Sundays.
+6. Our downtown *location* has a lot more parking than this one.
 
 ---
 
@@ -3113,16 +3161,24 @@ A book in which trips, hours, or events are recorded in order.
 ### loggerhead
 
 **Pronunciation:** /ˈlɔːɡərhɛd/ &middot; *LAW-gur-hed*
-**Русский:** логгерхед, головастая морская черепаха
+**Русский:** логгерхед, головастая морская черепаха; разлад, ссора (в обороте at loggerheads — в контрах)
 **Plural:** *loggerheads*
 **Countability:** countable
 **Contrast:** The plural also appears in the idiom at loggerheads, meaning in bitter disagreement.
 
-A large sea turtle with a big head and a reddish-brown shell.
+Loggerhead has 2 distinct senses.
+
+**1. A large sea turtle with a big head and a reddish-brown shell.** (логгерхед, головастая морская черепаха)
 
 1. A *loggerhead* laid her eggs on the beach.
 2. *Loggerheads* are protected along this coast.
 3. The aquarium rescued an injured *loggerhead*.
+
+**2. Angry disagreement, used only in the phrase at loggerheads.** (разлад, ссора (в обороте at loggerheads — в контрах))
+
+4. The governor and the legislature are at *loggerheads* over the budget.
+5. The two departments have been at *loggerheads* for years.
+6. Negotiators are still at *loggerheads* about overtime pay.
 
 ---
 
@@ -4488,14 +4544,22 @@ A pipe or chamber with several openings that collects or distributes gases in an
 ### manipulation
 
 **Pronunciation:** /məˌnɪpjuˈleɪʃən/ &middot; *muh-nip-yuh-LAY-shuhn*
-**Русский:** манипуляция, манипулирование
+**Русский:** манипуляция, манипулирование; манипулирование (предметами), обработка
 **Countability:** uncountable
 
-The act of controlling someone or something in a clever, often dishonest, way.
+Manipulation has 2 distinct senses.
+
+**1. The act of controlling someone or something in a clever, often dishonest, way.** (манипуляция, манипулирование)
 
 1. The book is about media *manipulation*.
 2. He was charged with market *manipulation*.
 3. It felt less like advice and more like *manipulation*.
+
+**2. Skillful handling or working of something with the hands or with tools.** (манипулирование (предметами), обработка)
+
+4. The surgery requires careful *manipulation* of very small instruments.
+5. The chiropractor used gentle *manipulation* of the spine.
+6. The software is built for fast *manipulation* of huge image files.
 
 ---
 
@@ -5273,14 +5337,22 @@ The process of becoming fully grown or fully developed.
 ### maturity
 
 **Pronunciation:** /məˈtʃʊrəti/ &middot; *muh-CHOOR-uh-tee*
-**Русский:** зрелость
+**Русский:** зрелость; срок погашения (займа, облигации)
 **Countability:** uncountable
 
-The state of being fully grown or of behaving in a sensible, adult way.
+Maturity has 2 distinct senses.
+
+**1. The state of being fully grown or of behaving in a sensible, adult way.** (зрелость)
 
 1. She handled the criticism with real *maturity*.
 2. These trees reach *maturity* in about forty years.
 3. The bond pays out at *maturity*.
+
+**2. The time when a loan, bond, or insurance policy comes due to be paid.** (срок погашения (займа, облигации))
+
+4. The bond reaches *maturity* in ten years.
+5. You'll pay a penalty for cashing the CD before *maturity*.
+6. The notes have different *maturities*, from one year to thirty.
 
 ---
 
@@ -5523,15 +5595,23 @@ A system of parts that makes something work, or a process by which something hap
 ### medallion
 
 **Pronunciation:** /məˈdæljən/ &middot; *muh-DAL-yuhn*
-**Русский:** медальон
+**Русский:** медальон; медальон (круглый кусочек мяса)
 **Plural:** *medallions*
 **Countability:** countable
 
-A large flat metal disc worn on a chain, or a round decorative panel.
+Medallion has 2 distinct senses.
+
+**1. A large flat metal disc worn on a chain, or a round decorative panel.** (медальон)
 
 1. He wore a gold *medallion* over an open collar.
 2. Carved *medallions* run along the top of the building.
 3. Every cab has a numbered *medallion*.
+
+**2. A small round slice of meat or fish served as a portion.** (медальон (круглый кусочек мяса))
+
+4. The special was pork *medallions* in a mustard sauce.
+5. She seared the beef *medallions* two minutes a side.
+6. Each *medallion* is wrapped in bacon before it goes in the oven.
 
 ---
 
@@ -7338,29 +7418,45 @@ The work of a fashion model, or the building of a mathematical or physical repre
 ### moderation
 
 **Pronunciation:** /ˌmɑːdəˈreɪʃən/ &middot; *mah-duh-RAY-shuhn*
-**Русский:** умеренность
+**Русский:** умеренность; модерация (контента)
 **Countability:** uncountable
 
-The habit of avoiding extremes, especially in eating or drinking.
+Moderation has 2 distinct senses.
+
+**1. The habit of avoiding extremes, especially in eating or drinking.** (умеренность)
 
 1. Wine is fine in *moderation*.
 2. He preaches *moderation* and then eats a whole pizza.
 3. Everything in *moderation*, my mother used to say.
+
+**2. The checking of posts on a website and the removal of ones that break its rules.** (модерация (контента))
+
+4. The company hired hundreds of people for content *moderation*.
+5. *Moderation* on that forum is pretty light.
+6. Weak *moderation* let the comment section turn ugly.
 
 ---
 
 ### moderator
 
 **Pronunciation:** /ˈmɑːdəreɪtər/ &middot; *MAH-duh-ray-tur*
-**Русский:** модератор, ведущий
+**Русский:** модератор, ведущий; модератор (сайта, чата)
 **Plural:** *moderators*
 **Countability:** countable
 
-Someone who runs a debate or discussion and keeps it orderly.
+Moderator has 2 distinct senses.
+
+**1. Someone who runs a debate or discussion and keeps it orderly.** (модератор, ведущий)
 
 1. The *moderator* cut off both candidates.
 2. Forum *moderators* deleted the thread.
 3. She served as *moderator* of the panel.
+
+**2. Someone who checks posts on a website and removes ones that break the rules.** (модератор (сайта, чата))
+
+4. A *moderator* deleted the thread within minutes.
+5. She volunteers as a *moderator* for a parenting group.
+6. The *moderators* banned him for a week.
 
 ---
 
@@ -7637,15 +7733,23 @@ Something very large and very ugly.
 ### moonwalk
 
 **Pronunciation:** /ˈmuːnwɔːk/ &middot; *MOON-wawk*
-**Русский:** лунная походка
+**Русский:** лунная походка; выход на поверхность Луны
 **Plural:** *moonwalks*
 **Countability:** countable
 
-A dance step in which you seem to glide backward while walking forward.
+Moonwalk has 2 distinct senses.
+
+**1. A dance step in which you seem to glide backward while walking forward.** (лунная походка)
 
 1. He ended the routine with a *moonwalk*.
 2. Her *moonwalk* across the gym floor got applause.
 3. Kids still try to copy that *moonwalk*.
+
+**2. A walk taken by an astronaut on the surface of the moon.** (выход на поверхность Луны)
+
+4. The crew's first *moonwalk* lasted almost three hours.
+5. Cameras recorded every step of the *moonwalk*.
+6. NASA cut the second *moonwalk* short because of a suit problem.
 
 ---
 
@@ -7876,15 +7980,23 @@ A small device for catching or killing mice.
 ### mouthpiece
 
 **Pronunciation:** /ˈmaʊθpiːs/ &middot; *MOWTH-pees*
-**Русский:** мундштук; рупор (чьих-л. взглядов)
+**Русский:** мундштук; рупор (чьих-л. взглядов); капа (защита для зубов)
 **Plural:** *mouthpieces*
 **Countability:** countable
 
-The part of an instrument or phone you put to your mouth, or a person who speaks for someone else.
+Mouthpiece has 2 distinct senses.
+
+**1. The part of an instrument or phone you put to your mouth, or a person who speaks for someone else.** (мундштук; рупор (чьих-л. взглядов))
 
 1. He cleaned the *mouthpiece* of his trumpet.
 2. The paper is a *mouthpiece* for the governor.
 3. Spare *mouthpieces* are in the case.
+
+**2. A molded plastic guard worn over the teeth in sports.** (капа (защита для зубов))
+
+4. The boxer spat out his *mouthpiece* between rounds.
+5. No player takes the field without a *mouthpiece*.
+6. He boiled the *mouthpiece* to fit it to his teeth.
 
 ---
 

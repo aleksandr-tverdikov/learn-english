@@ -946,15 +946,23 @@ A soft covering for the foot worn inside a shoe.
 ### stocking
 
 **Pronunciation:** /ˈstɑːkɪŋ/ &middot; *STAH-king*
-**Русский:** чулок
+**Русский:** чулок; рождественский чулок (для подарков)
 **Plural:** *stockings*
 **Countability:** countable
 
-A close-fitting covering for the foot and leg, usually of thin material.
+Stocking has 2 distinct senses.
+
+**1. A close-fitting covering for the foot and leg, usually of thin material.** (чулок)
 
 1. She snagged her *stocking* on the chair.
 2. The dancers wore black *stockings*.
 3. The kids hung their *stockings* by the fireplace.
+
+**2. A large decorated sock hung up at Christmas to be filled with small gifts.** (рождественский чулок (для подарков))
+
+4. The kids hung their *stockings* over the fireplace.
+5. There was an orange in the toe of every *stocking*.
+6. Her *stocking* was full of candy and a new toothbrush.
 
 ---
 

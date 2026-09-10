@@ -538,14 +538,22 @@ Erosion has 2 distinct senses.
 ### fertility
 
 **Pronunciation:** /fərˈtɪləti/ &middot; *fur-TIL-uh-tee*
-**Русский:** плодородие (почвы)
+**Русский:** плодородие (почвы); фертильность, способность иметь детей
 **Countability:** uncountable
 
-The ability of soil to grow healthy crops.
+Fertility has 2 distinct senses.
+
+**1. The ability of soil to grow healthy crops.** (плодородие (почвы))
 
 1. Manure restored some of the field's *fertility*.
 2. Constant corn drains the soil's *fertility*.
 3. They test each field for *fertility* every spring.
+
+**2. The ability of a person or animal to produce offspring.** (фертильность, способность иметь детей)
+
+4. The couple went to a *fertility* clinic after two years of trying.
+5. The country's *fertility* rate has fallen below replacement level.
+6. Stress and smoking can both affect *fertility*.
 
 ---
 
@@ -1407,16 +1415,24 @@ Auger has 3 distinct senses.
 ### implement
 
 **Pronunciation:** /ˈɪmpləmənt/ &middot; *IM-pluh-muhnt*
-**Русский:** сельхозорудие, инвентарь
+**Русский:** сельхозорудие, инвентарь; орудие, инструмент
 **Plural:** *implements*
 **Countability:** countable
 **Contrast:** The noun ends in a weak -muhnt; the verb *to implement* usually ends in a full -MENT.
 
-A tool or piece of equipment pulled behind a tractor to work the land.
+Implement has 2 distinct senses.
+
+**1. A tool or piece of equipment pulled behind a tractor to work the land.** (сельхозорудие, инвентарь)
 
 1. Every *implement* on the place needs greasing.
 2. The dealer sells tractors and *implements*.
 3. He backed the tractor up to hook onto the *implement*.
+
+**2. A tool or utensil used for a particular job.** (орудие, инструмент)
+
+4. Keep the writing *implements* in the top drawer.
+5. A whisk is the right *implement* for the job.
+6. The museum displays stone *implements* made thousands of years ago.
 
 ---
 

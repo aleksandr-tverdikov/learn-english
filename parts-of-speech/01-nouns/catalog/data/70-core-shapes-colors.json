@@ -1741,14 +1741,43 @@
       "term": "gradient",
       "ipa": "/ˈɡreɪdiənt/",
       "respell": "GRAY-dee-unt",
-      "meaning": "A smooth change from one color or shade to another. ---",
+      "meaning": "Gradient has 2 distinct senses.",
       "examples": [
         "The background is a blue gradient.",
         "Add a soft gradient behind the title.",
-        "The poster uses two overlapping gradients."
+        "The poster uses two overlapping gradients.",
+        "The road climbs at a steep gradient for two miles.",
+        "Engineers eased the gradient so loaded trucks could make the hill.",
+        "There's a sharp temperature gradient between the coast and the desert."
       ],
-      "senses": [],
-      "русский": "градиент, плавный переход цвета",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A smooth change from one color or shade to another",
+          "body": [
+            "(градиент, плавный переход цвета)"
+          ],
+          "examples": [
+            "The background is a blue gradient.",
+            "Add a soft gradient behind the title.",
+            "The poster uses two overlapping gradients."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The steepness of a slope, or the rate at which something rises or falls",
+          "body": [
+            "(уклон, градиент)",
+            "---"
+          ],
+          "examples": [
+            "The road climbs at a steep gradient for two miles.",
+            "Engineers eased the gradient so loaded trucks could make the hill.",
+            "There's a sharp temperature gradient between the coast and the desert."
+          ]
+        }
+      ],
+      "русский": "градиент, плавный переход цвета; уклон, градиент",
       "plural": "gradients",
       "countability": "countable"
     },
@@ -2842,14 +2871,58 @@
       "term": "appearance",
       "ipa": "/əˈpɪrəns/",
       "respell": "uh-PEER-unss",
-      "meaning": "The way someone or something looks. ---",
+      "meaning": "Appearance has 3 distinct senses.",
       "examples": [
         "He cares a lot about his appearance.",
         "The house has a neglected appearance.",
-        "Do not judge people by appearances."
+        "Do not judge people by appearances.",
+        "She made a brief appearance at the fundraiser.",
+        "The band's first television appearance was in 1994.",
+        "He has a court appearance scheduled for Monday.",
+        "The appearance of the first robins means spring is close.",
+        "Cracks made their appearance in the ceiling last winter.",
+        "Her sudden appearance in the doorway startled everyone."
       ],
-      "senses": [],
-      "русский": "внешность, внешний вид",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way someone or something looks",
+          "body": [
+            "(внешность, внешний вид)"
+          ],
+          "examples": [
+            "He cares a lot about his appearance.",
+            "The house has a neglected appearance.",
+            "Do not judge people by appearances."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act of taking part in a public event or performance",
+          "body": [
+            "(выступление, появление на публике)"
+          ],
+          "examples": [
+            "She made a brief appearance at the fundraiser.",
+            "The band's first television appearance was in 1994.",
+            "He has a court appearance scheduled for Monday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of coming into view or starting to exist",
+          "body": [
+            "(появление, возникновение)",
+            "---"
+          ],
+          "examples": [
+            "The appearance of the first robins means spring is close.",
+            "Cracks made their appearance in the ceiling last winter.",
+            "Her sudden appearance in the doorway startled everyone."
+          ]
+        }
+      ],
+      "русский": "внешность, внешний вид; выступление, появление на публике; появление, возникновение",
       "plural": "appearances",
       "countability": "countable"
     },
@@ -2931,14 +3004,58 @@
       "term": "expression",
       "ipa": "/ɪkˈsprɛʃən/",
       "respell": "ik-SPRESH-un",
-      "meaning": "The look on someone's face that shows what they feel. ---",
+      "meaning": "Expression has 3 distinct senses.",
       "examples": [
         "She had a puzzled expression.",
         "His expression never changed.",
-        "The photos catch a whole range of expressions."
+        "The photos catch a whole range of expressions.",
+        "\"Break a leg\" is an old theater expression.",
+        "I love that expression — I'd never heard it before.",
+        "Some expressions just don't translate.",
+        "The First Amendment protects freedom of expression.",
+        "The flowers were an expression of sympathy.",
+        "Dance is her main form of expression."
       ],
-      "senses": [],
-      "русский": "выражение лица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The look on someone's face that shows what they feel",
+          "body": [
+            "(выражение лица)"
+          ],
+          "examples": [
+            "She had a puzzled expression.",
+            "His expression never changed.",
+            "The photos catch a whole range of expressions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word or phrase used in a particular way",
+          "body": [
+            "(выражение, оборот речи)"
+          ],
+          "examples": [
+            "\"Break a leg\" is an old theater expression.",
+            "I love that expression — I'd never heard it before.",
+            "Some expressions just don't translate."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of putting feelings or ideas into words, art, or action",
+          "body": [
+            "(выражение (чувств, мыслей), самовыражение)",
+            "---"
+          ],
+          "examples": [
+            "The First Amendment protects freedom of expression.",
+            "The flowers were an expression of sympathy.",
+            "Dance is her main form of expression."
+          ]
+        }
+      ],
+      "русский": "выражение лица; выражение, оборот речи; выражение (чувств, мыслей), самовыражение",
       "plural": "expressions",
       "countability": "countable"
     },

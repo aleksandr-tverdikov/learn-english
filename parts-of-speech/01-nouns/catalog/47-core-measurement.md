@@ -219,15 +219,23 @@ How thick something is from one surface to the other.
 ### distance
 
 **Pronunciation:** /ˈdɪstəns/ &middot; *DIS-tuhns*
-**Русский:** расстояние, дистанция
+**Русский:** расстояние, дистанция; отчуждённость, холодность
 **Plural:** *distances*
 **Countability:** countable
 
-The amount of space between two places or things.
+Distance has 2 distinct senses.
+
+**1. The amount of space between two places or things.** (расстояние, дистанция)
 
 1. What's the *distance* from here to the airport?
 2. He can throw a football a good *distance*.
 3. They drove long *distances* every weekend.
+
+**2. Coolness or a lack of warmth between people.** (отчуждённость, холодность)
+
+4. There's been a *distance* between the brothers ever since the funeral.
+5. She kept a certain *distance* from her coworkers.
+6. You could hear the *distance* in his voice.
 
 ---
 
@@ -303,15 +311,29 @@ Volume has 2 distinct senses.
 ### capacity
 
 **Pronunciation:** /kəˈpæsəti/ &middot; *kuh-PAS-uh-tee*
-**Русский:** вместимость, ёмкость
+**Русский:** вместимость, ёмкость; качество, должность (в каком качестве); способность (что-л. делать, понимать)
 **Plural:** *capacities*
 **Countability:** countable
 
-The amount that a container or a space can hold.
+Capacity has 3 distinct senses.
+
+**1. The amount that a container or a space can hold.** (вместимость, ёмкость)
 
 1. The tank has a *capacity* of twenty gallons.
 2. The stadium was filled to *capacity*.
 3. The two coolers have different *capacities*.
+
+**2. The official role or position in which someone is acting.** (качество, должность (в каком качестве))
+
+4. She was there in her *capacity* as school board president.
+5. I'm speaking in a private *capacity*, not for the company.
+6. He signed the letter in his *capacity* as trustee.
+
+**3. The ability to do or to understand something.** (способность (что-л. делать, понимать))
+
+7. Children have an amazing *capacity* for languages.
+8. He no longer has the mental *capacity* to manage his own money.
+9. She has an enormous *capacity* for hard work.
 
 ---
 
@@ -456,15 +478,29 @@ Quantity has 2 distinct senses.
 ### dimension
 
 **Pronunciation:** /dɪˈmɛnʃən/ &middot; *dih-MEN-shuhn*
-**Русский:** размер, измерение
+**Русский:** размер, измерение; аспект, сторона (вопроса); измерение (параллельный мир)
 **Plural:** *dimensions*
 **Countability:** countable
 
-A measurement such as length, width, or height.
+Dimension has 3 distinct senses.
+
+**1. A measurement such as length, width, or height.** (размер, измерение)
 
 1. Give me the *dimensions* of the room.
 2. The new box has the same *dimensions* as the old one.
 3. Height is the third *dimension*.
+
+**2. An aspect or side of a situation.** (аспект, сторона (вопроса))
+
+4. Her illness added a new *dimension* to the family's problems.
+5. The report ignores the human *dimension* of the layoffs.
+6. There is a political *dimension* to the decision as well.
+
+**3. In stories and science fiction, a world or plane of existence separate from our own.** (измерение (параллельный мир))
+
+7. The kids fall through a doorway into another *dimension*.
+8. The show is about creatures from a parallel *dimension*.
+9. He claims the machine can move objects between *dimensions*.
 
 ---
 
@@ -854,15 +890,29 @@ A standard figure that other results are compared against.
 ### standard
 
 **Pronunciation:** /ˈstændərd/ &middot; *STAN-durd*
-**Русский:** стандарт, норма
+**Русский:** стандарт, норма; стандарт (классическая песня из репертуара); штандарт, знамя
 **Plural:** *standards*
 **Countability:** countable
 
-An agreed level or measure that things are judged against.
+Standard has 3 distinct senses.
+
+**1. An agreed level or measure that things are judged against.** (стандарт, норма)
 
 1. The meter is the international *standard* of length.
 2. This part doesn't meet the *standard*.
 3. Safety *standards* have gotten stricter.
+
+**2. A song that has stayed popular for decades and is played by many performers.** (стандарт (классическая песня из репертуара))
+
+4. The trio played jazz *standards* all night.
+5. That tune became a *standard* within a few years.
+6. Her album is half originals and half *standards*.
+
+**3. A flag or banner carried as the emblem of a military unit or a ruler.** (штандарт, знамя)
+
+7. The cavalry rode out behind the regiment's *standard*.
+8. Each unit carries its own *standard* in the parade.
+9. The color guard lowered the *standards* at sunset.
 
 ---
 
@@ -2458,16 +2508,24 @@ A rating showing how well gasoline resists knocking in an engine.
 ### latitude
 
 **Pronunciation:** /ˈlætətuːd/ &middot; *LAT-uh-tood*
-**Русский:** широта
+**Русский:** широта; свобода действий
 **Plural:** *latitudes*
 **Countability:** countable
 **Contrast:** Americans say LAT-uh-tood; the British say LAT-i-tyood.
 
-The distance north or south of the equator, measured in degrees.
+Latitude has 2 distinct senses.
+
+**1. The distance north or south of the equator, measured in degrees.** (широта)
 
 1. Chicago sits at about 42 degrees *latitude*.
 2. Enter the *latitude* and longitude.
 3. Northern *latitudes* get very little winter sun.
+
+**2. Freedom to choose how to act or what to do.** (свобода действий)
+
+4. Teachers here are given a lot of *latitude* in the classroom.
+5. The contract allows some *latitude* on the deadline.
+6. Judges have considerable *latitude* in sentencing.
 
 ---
 
@@ -2490,15 +2548,23 @@ The distance east or west of the prime meridian, measured in degrees.
 ### elevation
 
 **Pronunciation:** /ˌɛləˈveɪʃən/ &middot; *el-uh-VAY-shuhn*
-**Русский:** высота над уровнем моря
+**Русский:** высота над уровнем моря; возведение в должность, повышение
 **Plural:** *elevations*
 **Countability:** countable
 
-Height above sea level.
+Elevation has 2 distinct senses.
+
+**1. Height above sea level.** (высота над уровнем моря)
 
 1. Denver sits at an *elevation* of about a mile.
 2. The trail gains 2,000 feet of *elevation*.
 3. Water boils sooner at high *elevations*.
+
+**2. The raising of someone to a higher rank or position.** (возведение в должность, повышение)
+
+4. His *elevation* to the Supreme Court took months of hearings.
+5. Her *elevation* to partner surprised no one.
+6. The *elevation* of a new archbishop drew a big crowd.
 
 ---
 
@@ -2666,12 +2732,20 @@ The weight of the contents alone, without the packaging.
 ### conversion
 
 **Pronunciation:** /kənˈvɜːrʒən/ &middot; *kuhn-VUR-zhuhn*
-**Русский:** перевод (единиц измерения)
+**Русский:** перевод (единиц измерения); обращение (в веру)
 **Plural:** *conversions*
 **Countability:** countable
 
-The changing of a measurement from one unit into another.
+Conversion has 2 distinct senses.
+
+**1. The changing of a measurement from one unit into another.** (перевод (единиц измерения))
 
 1. The chart gives the *conversion* from inches to centimeters.
 2. Do the *conversion* before you order the parts.
 3. Unit *conversions* trip up a lot of students.
+
+**2. A change from one religion or set of beliefs to another.** (обращение (в веру))
+
+4. His *conversion* to Islam surprised his family.
+5. The book describes her *conversion* and the quiet years that followed.
+6. The missionaries counted a handful of *conversions* that first winter.

@@ -201,15 +201,23 @@ Gym has 2 distinct senses.
 ### playground
 
 **Pronunciation:** /ˈpleɪɡraʊnd/ &middot; *PLAY-grownd*
-**Русский:** игровая площадка
+**Русский:** игровая площадка; место развлечений (для определённой публики)
 **Plural:** *playgrounds*
 **Countability:** countable
 
-An outdoor area at a school where children play during breaks.
+Playground has 2 distinct senses.
+
+**1. An outdoor area at a school where children play during breaks.** (игровая площадка)
 
 1. The kids ran out to the *playground*.
 2. A teacher watches the *playground* at recess.
 3. The city rebuilt three school *playgrounds* last year.
+
+**2. A place where a particular group of people go to enjoy themselves.** (место развлечений (для определённой публики))
+
+4. The island has become a *playground* for the very rich.
+5. Miami Beach was a *playground* for movie stars in the fifties.
+6. Unsecured servers are a *playground* for hackers.
 
 ---
 
@@ -438,16 +446,30 @@ A senior official who runs a college or a division of a university.
 ### counselor
 
 **Pronunciation:** /ˈkaʊnsələr/ &middot; *KOWN-suh-lur*
-**Русский:** школьный консультант, психолог
+**Русский:** школьный консультант, психолог; вожатый (в детском лагере); адвокат, защитник (обращение в суде)
 **Plural:** *counselors*
 **Countability:** countable
 **Contrast:** American spelling has one l; the British write counsellor. Do not confuse it with councilor, a member of a council.
 
-Someone at a school who advises students about classes, colleges, and personal problems.
+Counselor has 3 distinct senses.
+
+**1. Someone at a school who advises students about classes, colleges, and personal problems.** (школьный консультант, психолог)
 
 1. My guidance *counselor* helped me pick a college.
 2. Talk to a *counselor* if you're feeling overwhelmed.
 3. The school hired two more *counselors*.
+
+**2. A young adult hired to supervise children at a summer camp.** (вожатый (в детском лагере))
+
+4. She spent three summers as a *counselor* at a camp in Maine.
+5. Our cabin *counselor* woke us at seven every morning.
+6. The camp is still hiring *counselors* for June.
+
+**3. A lawyer, especially one arguing a case in court.** (адвокат, защитник (обращение в суде))
+
+7. *Counselor*, approach the bench.
+8. Both *counselors* met with the judge in chambers.
+9. The defendant conferred quietly with his *counselor*.
 
 ---
 
@@ -622,30 +644,52 @@ The student with the highest grades in a class, who gives a speech at graduation
 ### substitute
 
 **Pronunciation:** /ˈsʌbstətuːt/ &middot; *SUB-stuh-toot*
-**Русский:** замещающий учитель
+**Русский:** замещающий учитель; замена, заменитель; запасной игрок, замена
 **Plural:** *substitutes*
 **Countability:** countable
 
-A teacher who fills in when the regular teacher is absent.
+Substitute has 3 distinct senses.
+
+**1. A teacher who fills in when the regular teacher is absent.** (замещающий учитель)
 
 1. We had a *substitute* in math all week.
 2. The *substitute* let us watch a movie.
 3. The district is short on *substitutes* this winter.
+
+**2. A person or thing used in place of another.** (замена, заменитель)
+
+4. There is no *substitute* for hard work.
+5. She uses a sugar *substitute* in her coffee.
+6. Frozen berries make a decent *substitute* in this recipe.
+
+**3. A player sent onto the field to replace another during a game.** (запасной игрок, замена)
+
+7. The coach sent in a *substitute* at halftime.
+8. He came on as a *substitute* and scored twice.
+9. Each team may use three *substitutes* per game.
 
 ---
 
 ### superintendent
 
 **Pronunciation:** /ˌsuːpərɪnˈtɛndənt/ &middot; *soo-pur-in-TEN-duhnt*
-**Русский:** начальник школьного округа
+**Русский:** начальник школьного округа; управляющий домом, комендант
 **Plural:** *superintendents*
 **Countability:** countable
 
-The official in charge of all the public schools in an American district.
+Superintendent has 2 distinct senses.
+
+**1. The official in charge of all the public schools in an American district.** (начальник школьного округа)
 
 1. The *superintendent* canceled school because of the snow.
 2. Parents complained to the *superintendent*.
 3. Three *superintendents* have come and gone in five years.
+
+**2. The person who manages an apartment building and takes care of repairs.** (управляющий домом, комендант)
+
+4. Call the *superintendent* if the radiator stops working.
+5. The *superintendent* lives in the basement apartment.
+6. Our *superintendent* changed the lock the same afternoon.
 
 ---
 
@@ -711,14 +755,22 @@ The branch of math that uses letters to stand for unknown numbers.
 ### geometry
 
 **Pronunciation:** /dʒiˈɑːmətri/ &middot; *jee-AH-muh-tree*
-**Русский:** геометрия
+**Русский:** геометрия; форма, конфигурация (расположение частей)
 **Countability:** uncountable
 
-The branch of math that deals with lines, angles, and shapes.
+Geometry has 2 distinct senses.
+
+**1. The branch of math that deals with lines, angles, and shapes.** (геометрия)
 
 1. *Geometry* was my favorite class.
 2. You need a protractor for *geometry*.
 3. She's teaching *geometry* to sophomores this year.
+
+**2. The shape of an object and the way its parts are arranged.** (форма, конфигурация (расположение частей))
+
+4. Engineers changed the *geometry* of the wing to cut drag.
+5. The bike's *geometry* makes it steady on fast descents.
+6. Every snowflake grows in a six-sided *geometry*.
 
 ---
 
@@ -761,29 +813,45 @@ Biology has 2 distinct senses.
 ### chemistry
 
 **Pronunciation:** /ˈkɛməstri/ &middot; *KEM-uh-stree*
-**Русский:** химия
+**Русский:** химия; взаимопонимание, «химия» между людьми
 **Countability:** uncountable
 **Contrast:** The *ch* is pronounced like *k*.
 
-The science of substances and how they react with each other.
+Chemistry has 2 distinct senses.
+
+**1. The science of substances and how they react with each other.** (химия)
 
 1. *Chemistry* is my hardest class this semester.
 2. He got an A in *chemistry*.
 3. You need goggles for *chemistry* lab.
+
+**2. The natural attraction or easy connection between people.** (взаимопонимание, «химия» между людьми)
+
+4. The two leads have real *chemistry* on screen.
+5. The interview went fine, but the *chemistry* wasn't there.
+6. This team has better *chemistry* than last year's.
 
 ---
 
 ### geography
 
 **Pronunciation:** /dʒiˈɑːɡrəfi/ &middot; *jee-AH-gruh-fee*
-**Русский:** география
+**Русский:** география; рельеф и расположение местности
 **Countability:** uncountable
 
-The study of the earth's surface, its countries, and its features.
+Geography has 2 distinct senses.
+
+**1. The study of the earth's surface, its countries, and its features.** (география)
 
 1. American kids don't study much *geography*.
 2. We had a *geography* quiz on the state capitals.
 3. *Geography* is taught as part of social studies here.
+
+**2. The physical features and layout of a particular place.** (рельеф и расположение местности)
+
+4. The *geography* of the valley makes flooding worse every spring.
+5. A river on one side and cliffs on the other give the town an awkward *geography*.
+6. The troops studied the *geography* of the coast before landing.
 
 ---
 
@@ -1576,30 +1644,46 @@ Special recognition for excellent grades, or the advanced version of a class.
 ### scholarship
 
 **Pronunciation:** /ˈskɑːlərʃɪp/ &middot; *SKAH-lur-ship*
-**Русский:** стипендия (грант на обучение)
+**Русский:** стипендия (грант на обучение); учёность, научные исследования
 **Plural:** *scholarships*
 **Countability:** countable
 
-Money given to a student to pay for school, usually for good grades or need.
+Scholarship has 2 distinct senses.
+
+**1. Money given to a student to pay for school, usually for good grades or need.** (стипендия (грант на обучение))
 
 1. He got a full *scholarship* to play baseball.
 2. She's applying for every *scholarship* she can find.
 3. The *scholarship* covers tuition but not housing.
+
+**2. Serious academic study and the deep knowledge that comes from it.** (учёность, научные исследования)
+
+4. Her book is a fine piece of *scholarship*.
+5. Recent *scholarship* has questioned that date.
+6. The prize honors a lifetime of *scholarship* on the Civil War.
 
 ---
 
 ### fellowship
 
 **Pronunciation:** /ˈfɛloʊʃɪp/ &middot; *FEL-oh-ship*
-**Русский:** аспирантская стипендия, грант
+**Русский:** аспирантская стипендия, грант; товарищество, дружеское общение
 **Plural:** *fellowships*
 **Countability:** countable
 
-Money awarded to a graduate student or researcher to support their work.
+Fellowship has 2 distinct senses.
+
+**1. Money awarded to a graduate student or researcher to support their work.** (аспирантская стипендия, грант)
 
 1. The *fellowship* pays for two years of research.
 2. She won a teaching *fellowship*.
 3. Only three *fellowships* are awarded each year.
+
+**2. A friendly feeling of togetherness among people who share interests or beliefs.** (товарищество, дружеское общение)
+
+4. The church serves coffee after the service to encourage *fellowship*.
+5. There was a warm *fellowship* around the campfire that night.
+6. She missed the *fellowship* of her old running club.
 
 ---
 
@@ -1673,16 +1757,24 @@ The ceremony where students receive their degrees or diplomas.
 ### commencement
 
 **Pronunciation:** /kəˈmɛnsmənt/ &middot; *kuh-MENSS-muhnt*
-**Русский:** выпускная церемония
+**Русский:** выпускная церемония; начало, старт
 **Plural:** *commencements*
 **Countability:** countable
 **Contrast:** In American schools *commencement* means graduation, even though the word literally means a beginning.
 
-The formal graduation ceremony at an American school or college.
+Commencement has 2 distinct senses.
+
+**1. The formal graduation ceremony at an American school or college.** (выпускная церемония)
 
 1. The governor gave the *commencement* speech.
 2. *Commencement* is held on the football field.
 3. Rain moved both *commencements* indoors.
+
+**2. The beginning or start of something.** (начало, старт)
+
+4. Rent is due at the *commencement* of the lease.
+5. Rain delayed the *commencement* of play by two hours.
+6. Attendance is taken at the *commencement* of each class.
 
 ---
 
@@ -1757,15 +1849,23 @@ Assembly has 2 distinct senses.
 ### detention
 
 **Pronunciation:** /dɪˈtɛnʃən/ &middot; *dih-TEN-shuhn*
-**Русский:** оставление после уроков (наказание)
+**Русский:** оставление после уроков (наказание); содержание под стражей, задержание
 **Plural:** *detentions*
 **Countability:** countable
 
-A punishment where a student must stay at school after class.
+Detention has 2 distinct senses.
+
+**1. A punishment where a student must stay at school after class.** (оставление после уроков (наказание))
 
 1. He got *detention* for talking back.
 2. *Detention* is in room 204 until four o'clock.
 3. Three *detentions* mean a call to your parents.
+
+**2. The holding of someone in custody by the police or immigration authorities.** (содержание под стражей, задержание)
+
+4. He spent six months in *detention* before the hearing.
+5. The family was released from immigration *detention* last week.
+6. Her lawyers argued that the *detention* was unlawful.
 
 ---
 
@@ -1949,14 +2049,22 @@ Club has 5 distinct senses.
 ### discipline
 
 **Pronunciation:** /ˈdɪsəplɪn/ &middot; *DIS-uh-plin*
-**Русский:** дисциплина, порядок
+**Русский:** дисциплина, порядок; дисциплина, отрасль знаний
 **Countability:** uncountable
 
-Control over behavior, kept by rules and punishment.
+Discipline has 2 distinct senses.
+
+**1. Control over behavior, kept by rules and punishment.** (дисциплина, порядок)
 
 1. The new principal is stricter about *discipline*.
 2. There's no *discipline* in that classroom.
 3. *Discipline* problems dropped after the rule changed.
+
+**2. A branch of knowledge or a field of study.** (дисциплина, отрасль знаний)
+
+4. The conference brought together scholars from a dozen *disciplines*.
+5. Economics is a younger *discipline* than physics.
+6. The program lets students combine two *disciplines*.
 
 ---
 
@@ -2340,14 +2448,22 @@ The process of teaching and learning, especially in schools.
 ### learning
 
 **Pronunciation:** /ˈlɜːrnɪŋ/ &middot; *LUR-ning*
-**Русский:** обучение, усвоение знаний
+**Русский:** обучение, усвоение знаний; учёность, эрудиция
 **Countability:** uncountable
 
-The process of gaining knowledge or skill.
+Learning has 2 distinct senses.
+
+**1. The process of gaining knowledge or skill.** (обучение, усвоение знаний)
 
 1. *Learning* a language takes years.
 2. The noise makes *learning* almost impossible.
 3. Kids do a lot of their *learning* through play.
+
+**2. Deep knowledge gained through years of study.** (учёность, эрудиция)
+
+4. He was a man of great *learning* and great modesty.
+5. The library holds centuries of *learning*.
+6. She wore her *learning* lightly and never showed off.
 
 ---
 
@@ -2506,15 +2622,23 @@ A general idea about how something works.
 ### definition
 
 **Pronunciation:** /ˌdɛfəˈnɪʃən/ &middot; *def-uh-NISH-uhn*
-**Русский:** определение
+**Русский:** определение; чёткость, резкость (изображения)
 **Plural:** *definitions*
 **Countability:** countable
 
-A statement of what a word or term means.
+Definition has 2 distinct senses.
+
+**1. A statement of what a word or term means.** (определение)
 
 1. Copy the *definition* into your notebook.
 2. The test asks for the *definition* of photosynthesis.
 3. We had to memorize twenty *definitions*.
+
+**2. The sharpness and clarity of an image, a sound, or an outline.** (чёткость, резкость (изображения))
+
+4. The new screen shows every detail in high *definition*.
+5. The old photograph has lost some of its *definition*.
+6. Months of training gave his arms real muscle *definition*.
 
 ---
 
@@ -2536,30 +2660,52 @@ A list of the books and articles used in a piece of writing.
 ### citation
 
 **Pronunciation:** /saɪˈteɪʃən/ &middot; *sy-TAY-shuhn*
-**Русский:** ссылка на источник
+**Русский:** ссылка на источник; штрафная квитанция, повестка за нарушение; благодарность в приказе, награда за заслуги
 **Plural:** *citations*
 **Countability:** countable
 
-A note in a paper showing where a fact or quotation came from.
+Citation has 3 distinct senses.
+
+**1. A note in a paper showing where a fact or quotation came from.** (ссылка на источник)
 
 1. Every quote needs a *citation*.
 2. He lost points for a sloppy *citation*.
 3. The professor checks the *citations* carefully.
+
+**2. An official notice ordering someone to pay a fine or appear in court.** (штрафная квитанция, повестка за нарушение)
+
+4. He got a *citation* for running the stop sign.
+5. The restaurant received two health *citations* last year.
+6. The officer wrote her a *citation* instead of arresting her.
+
+**3. An official statement praising someone for bravery or achievement.** (благодарность в приказе, награда за заслуги)
+
+7. He received a *citation* for valor after the warehouse fire.
+8. Her *citation* was read aloud at the ceremony.
+9. Three officers earned *citations* that night.
 
 ---
 
 ### footnote
 
 **Pronunciation:** /ˈfʊtnoʊt/ &middot; *FUUT-noht*
-**Русский:** сноска
+**Русский:** сноска; малозначительный эпизод, примечание истории
 **Plural:** *footnotes*
 **Countability:** countable
 
-A note at the bottom of a page explaining something in the text.
+Footnote has 2 distinct senses.
+
+**1. A note at the bottom of a page explaining something in the text.** (сноска)
 
 1. The explanation is in a *footnote*.
 2. Put the source in a *footnote*, not in the paragraph.
 3. The chapter has ninety *footnotes*.
+
+**2. A small detail or person remembered only as a minor part of a larger story.** (малозначительный эпизод, примечание истории)
+
+4. The scandal is now just a *footnote* in the city's history.
+5. He worries that one good season will make him a *footnote*.
+6. Their protest became a *footnote* to a much bigger movement.
 
 ---
 
@@ -2580,29 +2726,57 @@ The act of using someone else's words or ideas as if they were your own.
 ### practice
 
 **Pronunciation:** /ˈpræktɪs/ &middot; *PRAK-tiss*
-**Русский:** практика, тренировка
+**Русский:** практика, тренировка; практика (врачебная, юридическая); обычай, принятая практика; практика (в отличие от теории)
 **Countability:** uncountable
 **Contrast:** Americans spell the noun and the verb the same way; the British write the noun practice and the verb practise.
 
-Doing something over and over in order to get better at it.
+Practice has 4 distinct senses.
+
+**1. Doing something over and over in order to get better at it.** (практика, тренировка)
 
 1. It takes *practice* to get good at fractions.
 2. With enough *practice*, the times tables come easily.
 3. She needs more *practice* before the recital.
+
+**2. The business of a doctor, dentist, or lawyer, along with its patients or clients.** (практика (врачебная, юридическая))
+
+4. She runs a small family *practice* on Main Street.
+5. He sold his dental *practice* and retired to Arizona.
+6. Two lawyers left the firm to start their own *practice*.
+
+**3. A customary or usual way of doing something.** (обычай, принятая практика)
+
+7. Tipping the movers is standard *practice* around here.
+8. The company ended the *practice* of paying in cash.
+9. Some of their hiring *practices* are under investigation.
+
+**4. The actual doing of something, as opposed to the theory of it.** (практика (в отличие от теории))
+
+10. In theory it works; in *practice* it never has.
+11. The rule is fine on paper but hard to put into *practice*.
+12. The policy sounds simple, but *practice* is a lot messier.
 
 ---
 
 ### motivation
 
 **Pronunciation:** /ˌmoʊtəˈveɪʃən/ &middot; *moh-tuh-VAY-shuhn*
-**Русский:** мотивация
+**Русский:** мотивация; мотив, причина поступка
 **Countability:** uncountable
 
-The desire that makes someone want to work at something.
+Motivation has 2 distinct senses.
+
+**1. The desire that makes someone want to work at something.** (мотивация)
 
 1. He has the ability but no *motivation*.
 2. *Motivation* drops off in the last week of the semester.
 3. Good grades gave her the *motivation* to keep going.
+
+**2. The reason someone has for doing a particular thing.** (мотив, причина поступка)
+
+4. Detectives never established a *motivation* for the crime.
+5. Her *motivation* for taking the job was the health insurance.
+6. The article questions the senator's *motivations*.
 
 ---
 

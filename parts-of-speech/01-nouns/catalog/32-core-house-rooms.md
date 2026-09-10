@@ -78,15 +78,23 @@ Home has 3 distinct senses.
 ### building
 
 **Pronunciation:** /ˈbɪldɪŋ/ &middot; *BIL-ding*
-**Русский:** здание, постройка
+**Русский:** здание, постройка; строительство, постройка (процесс)
 **Plural:** *buildings*
 **Countability:** countable
 
-A structure with a roof and walls, such as a house or office block.
+Building has 2 distinct senses.
+
+**1. A structure with a roof and walls, such as a house or office block.** (здание, постройка)
 
 1. Our office is in the tall *building* across from the park.
 2. Half the *buildings* downtown are empty now.
 3. You need a keycard to get into the *building* after six.
+
+**2. The work or process of constructing something.** (строительство, постройка (процесс))
+
+4. The *building* of the new bridge took four years.
+5. *Building* has slowed since interest rates went up.
+6. The city halted all *building* near the shoreline.
 
 ---
 
@@ -413,15 +421,23 @@ Lobby has 2 distinct senses.
 ### corridor
 
 **Pronunciation:** /ˈkɔːrɪdər/ &middot; *KOR-ih-dur*
-**Русский:** коридор
+**Русский:** коридор; коридор (транспортный), полоса территории
 **Plural:** *corridors*
 **Countability:** countable
 
-A long passage in a building with doors along it.
+Corridor has 2 distinct senses.
+
+**1. A long passage in a building with doors along it.** (коридор)
 
 1. His office is at the end of the *corridor*.
 2. We got lost in the *corridors* of the hospital.
 3. The *corridor* was lined with framed photographs.
+
+**2. A long narrow strip of land or route that links two places.** (коридор (транспортный), полоса территории)
+
+4. Traffic along the I-95 *corridor* backs up every Friday.
+5. The state is protecting a wildlife *corridor* between the two parks.
+6. Rents have soared all along the tech *corridor*.
 
 ---
 
@@ -1172,16 +1188,30 @@ Facade has 2 distinct senses.
 ### entrance
 
 **Pronunciation:** /ˈɛntrəns/ &middot; *EN-truhns*
-**Русский:** вход
+**Русский:** вход; появление, выход (на сцену); право входа; поступление (в учебное заведение)
 **Plural:** *entrances*
 **Countability:** countable
 **Contrast:** The noun is EN-truhns; the unrelated verb *entrance* (to enchant) is en-TRANS.
 
-The door or gate by which you go into a place.
+Entrance has 3 distinct senses.
+
+**1. The door or gate by which you go into a place.** (вход)
 
 1. Use the side *entrance* after nine.
 2. We'll meet you at the main *entrance*.
 3. The building has *entrances* on two streets.
+
+**2. The act of coming into a place, especially a noticeable one.** (появление, выход (на сцену))
+
+4. She made a dramatic *entrance* in a red dress.
+5. The actor missed his *entrance* in the second act.
+6. His *entrance* stopped every conversation in the room.
+
+**3. Permission or the right to go into a place or join an institution.** (право входа; поступление (в учебное заведение))
+
+7. *Entrance* to the museum is free on Sundays.
+8. The guard refused us *entrance* without a badge.
+9. She passed the *entrance* exam on her first try.
 
 ---
 
@@ -1775,15 +1805,23 @@ Pipe has 3 distinct senses.
 ### plumbing
 
 **Pronunciation:** /ˈplʌmɪŋ/ &middot; *PLUHM-ing*
-**Русский:** водопровод, сантехника
+**Русский:** водопровод, сантехника; сантехническое дело, профессия сантехника
 **Countability:** uncountable
 **Contrast:** The b is silent: PLUHM-ing.
 
-The system of pipes and fixtures that carries water through a building.
+Plumbing has 2 distinct senses.
+
+**1. The system of pipes and fixtures that carries water through a building.** (водопровод, сантехника)
 
 1. The *plumbing* in this place is a hundred years old.
 2. They had to redo all the *plumbing* before we moved in.
 3. Something's wrong with the *plumbing* upstairs.
+
+**2. The work or trade of installing and repairing pipes and fixtures.** (сантехническое дело, профессия сантехника)
+
+4. He learned *plumbing* from his father.
+5. She's taking classes in *plumbing* and electrical work.
+6. *Plumbing* pays better than most people think.
 
 ---
 
@@ -1863,16 +1901,24 @@ Switch has 2 distinct senses.
 ### radiator
 
 **Pronunciation:** /ˈreɪdieɪtər/ &middot; *RAY-dee-ay-tur*
-**Русский:** батарея отопления, радиатор
+**Русский:** батарея отопления, радиатор; радиатор (автомобильный)
 **Plural:** *radiators*
 **Countability:** countable
 **Contrast:** Stress falls on the first syllable — RAY-dee-ay-tur — not on the second as in Russian *радиатор*.
 
-A metal heating unit that warms a room with hot water or steam.
+Radiator has 2 distinct senses.
+
+**1. A metal heating unit that warms a room with hot water or steam.** (батарея отопления, радиатор)
 
 1. The *radiator* clanks all night long.
 2. Don't put the couch right against the *radiator*.
 3. Half the *radiators* in the building are cold.
+
+**2. The part of a vehicle's engine cooling system that lets heat escape.** (радиатор (автомобильный))
+
+4. Steam poured out of the *radiator*, so we pulled over.
+5. The mechanic found a slow leak in the *radiator*.
+6. Older *radiators* need a mix of coolant and water.
 
 ---
 
@@ -2276,28 +2322,44 @@ Counter has 2 distinct senses.
 ### architecture
 
 **Pronunciation:** /ˈɑːrkɪtɛktʃər/ &middot; *AR-kih-tek-chur*
-**Русский:** архитектура
+**Русский:** архитектура; архитектура (системы), структура
 **Countability:** uncountable
 
-The art and style of designing buildings.
+Architecture has 2 distinct senses.
+
+**1. The art and style of designing buildings.** (архитектура)
 
 1. She studied *architecture* for two years and switched to design.
 2. The *architecture* downtown is mostly nineteenth century.
 3. I love the *architecture* in that part of the city.
+
+**2. The basic structure and design of a computer system or other complex system.** (архитектура (системы), структура)
+
+4. The chip uses a completely new *architecture*.
+5. Their software *architecture* makes updates easy.
+6. We had to redesign the system *architecture* from scratch.
 
 ---
 
 ### construction
 
 **Pronunciation:** /kənˈstrʌkʃən/ &middot; *kuhn-STRUHK-shuhn*
-**Русский:** строительство
+**Русский:** строительство; конструкция (грамматическая)
 **Countability:** uncountable
 
-The work of building things such as houses and roads.
+Construction has 2 distinct senses.
+
+**1. The work of building things such as houses and roads.** (строительство)
 
 1. The new wing is still under *construction*.
 2. He's worked in *construction* since high school.
 3. *Construction* on the bridge starts in the spring.
+
+**2. A group of words put together according to the rules of grammar.** (конструкция (грамматическая))
+
+4. The passive *construction* makes the sentence sound stiff.
+5. Spanish has a *construction* here that English simply lacks.
+6. He keeps mixing up two similar *constructions*.
 
 ---
 

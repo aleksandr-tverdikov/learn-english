@@ -321,14 +321,43 @@
       "term": "ingredient",
       "ipa": "/ɪnˈɡriːdiənt/",
       "respell": "in-GREE-dee-uhnt",
-      "meaning": "One of the foods that go into a dish. ---",
+      "meaning": "Ingredient has 2 distinct senses.",
       "examples": [
         "You only need five ingredients for this.",
         "Butter is the key ingredient.",
-        "Check the ingredients on the label."
+        "Check the ingredients on the label.",
+        "Trust is the key ingredient in any partnership.",
+        "The town has all the ingredients of a great weekend trip.",
+        "Hard work is only one ingredient of success."
       ],
-      "senses": [],
-      "русский": "ингредиент, составная часть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the foods that go into a dish",
+          "body": [
+            "(ингредиент, составная часть)"
+          ],
+          "examples": [
+            "You only need five ingredients for this.",
+            "Butter is the key ingredient.",
+            "Check the ingredients on the label."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the parts or qualities that make something work or succeed",
+          "body": [
+            "(составляющая, слагаемое (успеха))",
+            "---"
+          ],
+          "examples": [
+            "Trust is the key ingredient in any partnership.",
+            "The town has all the ingredients of a great weekend trip.",
+            "Hard work is only one ingredient of success."
+          ]
+        }
+      ],
+      "русский": "ингредиент, составная часть; составляющая, слагаемое (успеха)",
       "plural": "ingredients",
       "countability": "countable"
     },
@@ -2273,14 +2302,43 @@
       "term": "hamburger",
       "ipa": "/ˈhæmbɜːrɡər/",
       "respell": "HAM-bur-gur",
-      "meaning": "A flat cake of ground beef served in a round bun. ---",
+      "meaning": "Hamburger has 2 distinct senses.",
       "examples": [
         "He ordered a hamburger and fries.",
         "The hamburgers are on the grill.",
-        "This place makes a decent hamburger."
+        "This place makes a decent hamburger.",
+        "Pick up a pound of hamburger for the chili.",
+        "Brown the hamburger before you add the sauce.",
+        "Hamburger was on sale, so I bought two packages."
       ],
-      "senses": [],
-      "русский": "гамбургер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat cake of ground beef served in a round bun",
+          "body": [
+            "(гамбургер)"
+          ],
+          "examples": [
+            "He ordered a hamburger and fries.",
+            "The hamburgers are on the grill.",
+            "This place makes a decent hamburger."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Ground beef sold raw by weight and cooked loose rather than as a patty",
+          "body": [
+            "(говяжий фарш)",
+            "---"
+          ],
+          "examples": [
+            "Pick up a pound of hamburger for the chili.",
+            "Brown the hamburger before you add the sauce.",
+            "Hamburger was on sale, so I bought two packages."
+          ]
+        }
+      ],
+      "русский": "гамбургер; говяжий фарш",
       "plural": "hamburgers",
       "countability": "countable"
     },

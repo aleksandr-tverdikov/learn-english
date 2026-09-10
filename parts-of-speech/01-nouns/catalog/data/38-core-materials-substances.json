@@ -1641,14 +1641,43 @@
       "term": "substance",
       "ipa": "/ˈsʌbstəns/",
       "respell": "SUB-stuhns",
-      "meaning": "A particular kind of material with definite properties. ---",
+      "meaning": "Substance has 2 distinct senses.",
       "examples": [
         "There was a sticky substance on the door handle.",
         "Bleach and ammonia are both dangerous substances.",
-        "The lab identified the substance as ordinary sugar."
+        "The lab identified the substance as ordinary sugar.",
+        "The speech was long on style and short on substance.",
+        "The substance of the complaint is that nobody was told.",
+        "There is no substance to the rumor."
       ],
-      "senses": [],
-      "русский": "вещество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular kind of material with definite properties",
+          "body": [
+            "(вещество)"
+          ],
+          "examples": [
+            "There was a sticky substance on the door handle.",
+            "Bleach and ammonia are both dangerous substances.",
+            "The lab identified the substance as ordinary sugar."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The real meaning or important content of something, as opposed to its form",
+          "body": [
+            "(суть, содержание)",
+            "---"
+          ],
+          "examples": [
+            "The speech was long on style and short on substance.",
+            "The substance of the complaint is that nobody was told.",
+            "There is no substance to the rumor."
+          ]
+        }
+      ],
+      "русский": "вещество; суть, содержание",
       "plural": "substances",
       "countability": "countable"
     },
@@ -1656,14 +1685,58 @@
       "term": "material",
       "ipa": "/məˈtɪriəl/",
       "respell": "muh-TEER-ee-uhl",
-      "meaning": "Any substance from which something is made. ---",
+      "meaning": "Material has 3 distinct senses.",
       "examples": [
         "What material is the roof made of?",
         "They ran out of building materials halfway through.",
-        "The jacket is made of a waterproof material."
+        "The jacket is made of a waterproof material.",
+        "The comedian is trying out new material at small clubs.",
+        "He spent a year in the archives collecting material for the biography.",
+        "The teacher posts all the course materials online.",
+        "She bought three yards of material for the curtains.",
+        "The dress is pretty, but the material wrinkles if you sit down.",
+        "Heavy materials like canvas are harder to sew on a home machine."
       ],
-      "senses": [],
-      "русский": "материал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Any substance from which something is made",
+          "body": [
+            "(материал)"
+          ],
+          "examples": [
+            "What material is the roof made of?",
+            "They ran out of building materials halfway through.",
+            "The jacket is made of a waterproof material."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Facts, ideas, or writing gathered for use in a book, class, or performance",
+          "body": [
+            "(материал (для книги, урока, выступления))"
+          ],
+          "examples": [
+            "The comedian is trying out new material at small clubs.",
+            "He spent a year in the archives collecting material for the biography.",
+            "The teacher posts all the course materials online."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Cloth or fabric",
+          "body": [
+            "(ткань, материя)",
+            "---"
+          ],
+          "examples": [
+            "She bought three yards of material for the curtains.",
+            "The dress is pretty, but the material wrinkles if you sit down.",
+            "Heavy materials like canvas are harder to sew on a home machine."
+          ]
+        }
+      ],
+      "русский": "материал; материал (для книги, урока, выступления); ткань, материя",
       "plural": "materials",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1671,14 +1744,43 @@
       "term": "compound",
       "ipa": "/ˈkɑːmpaʊnd/",
       "respell": "KAHM-pownd",
-      "meaning": "A substance made of two or more elements chemically combined. ---",
+      "meaning": "Compound has 2 distinct senses.",
       "examples": [
         "Water is a compound of hydrogen and oxygen.",
         "The soil test turned up several compounds nobody expected.",
-        "Salt is a simple compound."
+        "Salt is a simple compound.",
+        "Guards stood at the gate of the embassy compound.",
+        "The family lives in a compound a few miles outside town.",
+        "Trucks rolled into the compound at dawn."
       ],
-      "senses": [],
-      "русский": "соединение (химическое); состав",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A substance made of two or more elements chemically combined",
+          "body": [
+            "(соединение (химическое); состав)"
+          ],
+          "examples": [
+            "Water is a compound of hydrogen and oxygen.",
+            "The soil test turned up several compounds nobody expected.",
+            "Salt is a simple compound."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fenced or walled area with a group of buildings inside it",
+          "body": [
+            "(огороженная территория, комплекс зданий)",
+            "---"
+          ],
+          "examples": [
+            "Guards stood at the gate of the embassy compound.",
+            "The family lives in a compound a few miles outside town.",
+            "Trucks rolled into the compound at dawn."
+          ]
+        }
+      ],
+      "русский": "соединение (химическое); состав; огороженная территория, комплекс зданий",
       "plural": "compounds",
       "countability": "countable",
       "contrast": "The noun is stressed on the first syllable, KAHM-pownd; the verb to compound is stressed on the second, kuhm-POWND."

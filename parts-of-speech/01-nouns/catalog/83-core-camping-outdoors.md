@@ -266,16 +266,24 @@ A portable light in a case that you can carry or hang up.
 ### headlamp
 
 **Pronunciation:** /ˈhɛdlæmp/ &middot; *HED-lamp*
-**Русский:** налобный фонарь
+**Русский:** налобный фонарь; фара (автомобильная)
 **Plural:** *headlamps*
 **Countability:** countable
 **Contrast:** For a car, Americans say headlight; a headlamp is the one you wear.
 
-A small light on an elastic band worn on your forehead.
+Headlamp has 2 distinct senses.
+
+**1. A small light on an elastic band worn on your forehead.** (налобный фонарь)
 
 1. A *headlamp* leaves both your hands free.
 2. We hiked the last mile by *headlamp*.
 3. Pack spare batteries for your *headlamp*.
+
+**2. A large lamp at the front of a car or truck that lights the road ahead.** (фара (автомобильная))
+
+4. A rock cracked the driver's-side *headlamp*.
+5. The truck's *headlamps* cut through the fog.
+6. Replacing a burned-out *headlamp* took me ten minutes.
 
 ---
 
@@ -1663,15 +1671,23 @@ Descent has 3 distinct senses.
 ### foothold
 
 **Pronunciation:** /ˈfʊthoʊld/ &middot; *FUUT-hohld*
-**Русский:** опора для ноги, точка опоры
+**Русский:** опора для ноги, точка опоры; плацдарм, закрепление позиций
 **Plural:** *footholds*
 **Countability:** countable
 
-A place on rock where you can put your foot while climbing.
+Foothold has 2 distinct senses.
+
+**1. A place on rock where you can put your foot while climbing.** (опора для ноги, точка опоры)
 
 1. She found a *foothold* just above the crack.
 2. The *footholds* get tiny near the top.
 3. There was no *foothold* on that smooth slab.
+
+**2. A secure position from which further progress can be made.** (плацдарм, закрепление позиций)
+
+4. The company gained a *foothold* in the Asian market last year.
+5. The party is trying to get a *foothold* in the suburbs.
+6. That internship gave her a *foothold* in publishing.
 
 ---
 
@@ -2307,15 +2323,29 @@ An official rule against lighting fires because of dry conditions.
 ### footprint
 
 **Pronunciation:** /ˈfʊtprɪnt/ &middot; *FUUT-print*
-**Русский:** след ноги, отпечаток
+**Русский:** след ноги, отпечаток; занимаемая площадь; охват, присутствие; экологический (углеродный) след
 **Plural:** *footprints*
 **Countability:** countable
 
-The mark a foot or shoe leaves in soft ground.
+Footprint has 3 distinct senses.
+
+**1. The mark a foot or shoe leaves in soft ground.** (след ноги, отпечаток)
 
 1. There was one *footprint* in the mud by the creek.
 2. We followed his *footprints* through the snow.
 3. The rain washed every *footprint* off the trail.
+
+**2. The amount of ground or space that a building, machine, or business takes up.** (занимаемая площадь; охват, присутствие)
+
+4. The new store has a much smaller *footprint* than the old one.
+5. They cut the server's *footprint* in half.
+6. The chain expanded its *footprint* into twelve more states.
+
+**3. The total effect a person or company has on the environment, especially the carbon released.** (экологический (углеродный) след)
+
+7. Flying less is the fastest way to shrink your carbon *footprint*.
+8. The company promised to cut its *footprint* in half by 2030.
+9. Beef has a far bigger *footprint* than beans.
 
 ---
 

@@ -153,14 +153,43 @@
       "term": "tailwind",
       "ipa": "/ˈteɪlwɪnd/",
       "respell": "TAYL-wind",
-      "meaning": "A wind blowing from behind, which helps you move faster. ---",
+      "meaning": "Tailwind has 2 distinct senses.",
       "examples": [
         "A strong tailwind got us to Denver twenty minutes early.",
         "Cyclists love a tailwind on the ride home.",
-        "Low interest rates were a tailwind for the housing market."
+        "Low interest rates were a tailwind for the housing market.",
+        "Lower interest rates gave the housing market a tailwind.",
+        "The company expects a tailwind from the new tax rules.",
+        "Cheap fuel has been a tailwind for the airlines all year."
       ],
-      "senses": [],
-      "русский": "попутный ветер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wind blowing from behind, which helps you move faster",
+          "body": [
+            "(попутный ветер)"
+          ],
+          "examples": [
+            "A strong tailwind got us to Denver twenty minutes early.",
+            "Cyclists love a tailwind on the ride home.",
+            "Low interest rates were a tailwind for the housing market."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A condition that helps a business or an economy make progress",
+          "body": [
+            "(благоприятный фактор, попутный ветер (перен.))",
+            "---"
+          ],
+          "examples": [
+            "Lower interest rates gave the housing market a tailwind.",
+            "The company expects a tailwind from the new tax rules.",
+            "Cheap fuel has been a tailwind for the airlines all year."
+          ]
+        }
+      ],
+      "русский": "попутный ветер; благоприятный фактор, попутный ветер (перен.)",
       "plural": "tailwinds",
       "countability": "countable"
     },
@@ -212,14 +241,43 @@
       "term": "takeaway",
       "ipa": "/ˈteɪkəweɪ/",
       "respell": "TAYK-uh-way",
-      "meaning": "The main point you are meant to remember from a talk, meeting, or article. ---",
+      "meaning": "Takeaway has 2 distinct senses.",
       "examples": [
         "The big takeaway is that costs are rising faster than sales.",
         "Here are three takeaways from last night's debate.",
-        "My takeaway from the class was to start earlier."
+        "My takeaway from the class was to start earlier.",
+        "The defense had three takeaways in the first half.",
+        "That fumble was the takeaway that won the game.",
+        "They lead the league in takeaways this season."
       ],
-      "senses": [],
-      "русский": "главный вывод, ключевая мысль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main point you are meant to remember from a talk, meeting, or article",
+          "body": [
+            "(главный вывод, ключевая мысль)"
+          ],
+          "examples": [
+            "The big takeaway is that costs are rising faster than sales.",
+            "Here are three takeaways from last night's debate.",
+            "My takeaway from the class was to start earlier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A turnover that a defense forces in football or basketball",
+          "body": [
+            "(перехват, отбор мяча (в спорте))",
+            "---"
+          ],
+          "examples": [
+            "The defense had three takeaways in the first half.",
+            "That fumble was the takeaway that won the game.",
+            "They lead the league in takeaways this season."
+          ]
+        }
+      ],
+      "русский": "главный вывод, ключевая мысль; перехват, отбор мяча (в спорте)",
       "plural": "takeaways",
       "countability": "countable",
       "contrast": "In American English a takeaway is a main point; the British also use it for food ordered to go, which Americans call takeout."
@@ -527,14 +585,43 @@
       "term": "teaching",
       "ipa": "/ˈtiːtʃɪŋ/",
       "respell": "TEE-ching",
-      "meaning": "The work or profession of giving lessons. ---",
+      "meaning": "Teaching has 2 distinct senses.",
       "examples": [
         "She went into teaching right after college.",
         "Teaching pays less than she expected.",
-        "He splits his time between research and teaching."
+        "He splits his time between research and teaching.",
+        "The book explains the teachings of the Buddha.",
+        "He lived his whole life by the teachings of his church.",
+        "Some of these teachings are two thousand years old."
       ],
-      "senses": [],
-      "русский": "преподавание, обучение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work or profession of giving lessons",
+          "body": [
+            "(преподавание, обучение)"
+          ],
+          "examples": [
+            "She went into teaching right after college.",
+            "Teaching pays less than she expected.",
+            "He splits his time between research and teaching."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ideas and beliefs handed down by a religion or a great figure",
+          "body": [
+            "(учение, наставления)",
+            "---"
+          ],
+          "examples": [
+            "The book explains the teachings of the Buddha.",
+            "He lived his whole life by the teachings of his church.",
+            "Some of these teachings are two thousand years old."
+          ]
+        }
+      ],
+      "русский": "преподавание, обучение; учение, наставления",
       "countability": "uncountable"
     },
     {

@@ -271,14 +271,43 @@
       "term": "bandwidth",
       "ipa": "/ˈbændwɪdθ/",
       "respell": "BAND-width",
-      "meaning": "The amount of data a connection can carry in a given time. ---",
+      "meaning": "Bandwidth has 2 distinct senses.",
       "examples": [
         "Streaming in 4K eats a lot of bandwidth.",
         "We don't have enough bandwidth for four people working from home.",
-        "The video call is using most of our bandwidth."
+        "The video call is using most of our bandwidth.",
+        "I don't have the bandwidth to take on another project this month.",
+        "Her team is out of bandwidth until the audit is done.",
+        "Do you have the bandwidth for a quick call this afternoon?"
       ],
-      "senses": [],
-      "русский": "пропускная способность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of data a connection can carry in a given time",
+          "body": [
+            "(пропускная способность)"
+          ],
+          "examples": [
+            "Streaming in 4K eats a lot of bandwidth.",
+            "We don't have enough bandwidth for four people working from home.",
+            "The video call is using most of our bandwidth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The time and energy a person or team has available for something",
+          "body": [
+            "(ресурс времени и сил, «пропускная способность» человека)",
+            "---"
+          ],
+          "examples": [
+            "I don't have the bandwidth to take on another project this month.",
+            "Her team is out of bandwidth until the audit is done.",
+            "Do you have the bandwidth for a quick call this afternoon?"
+          ]
+        }
+      ],
+      "русский": "пропускная способность; ресурс времени и сил, «пропускная способность» человека",
       "countability": "uncountable"
     },
     {
@@ -461,14 +490,43 @@
       "term": "bookmark",
       "ipa": "/ˈbʊkmɑːrk/",
       "respell": "BUUK-mark",
-      "meaning": "A saved link that lets you return to a page quickly. ---",
+      "meaning": "Bookmark has 2 distinct senses.",
       "examples": [
         "Save it as a bookmark so you don't lose it.",
         "My bookmarks are a complete mess.",
-        "I have a bookmark for the company intranet."
+        "I have a bookmark for the company intranet.",
+        "She slid a bookmark between the pages and set the novel down.",
+        "He uses old receipts as bookmarks.",
+        "The museum shop sells leather bookmarks stamped with its logo."
       ],
-      "senses": [],
-      "русский": "закладка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A saved link that lets you return to a page quickly",
+          "body": [
+            "(закладка)"
+          ],
+          "examples": [
+            "Save it as a bookmark so you don't lose it.",
+            "My bookmarks are a complete mess.",
+            "I have a bookmark for the company intranet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strip of paper, ribbon, or leather put between the pages of a book to mark your place",
+          "body": [
+            "(закладка (в книге))",
+            "---"
+          ],
+          "examples": [
+            "She slid a bookmark between the pages and set the novel down.",
+            "He uses old receipts as bookmarks.",
+            "The museum shop sells leather bookmarks stamped with its logo."
+          ]
+        }
+      ],
+      "русский": "закладка; закладка (в книге)",
       "plural": "bookmarks",
       "countability": "countable"
     },
@@ -669,14 +727,43 @@
       "term": "follower",
       "ipa": "/ˈfɑːloʊər/",
       "respell": "FAH-loh-ur",
-      "meaning": "Someone who has chosen to see another person's posts online. ---",
+      "meaning": "Follower has 2 distinct senses.",
       "examples": [
         "He gained ten thousand followers in a month.",
         "Most of her followers are from overseas.",
-        "One follower pointed out the typo right away."
+        "One follower pointed out the typo right away.",
+        "The preacher and his followers marched to the courthouse.",
+        "The movement's earliest followers met in a church basement.",
+        "She is a devoted follower of the diet's founder."
       ],
-      "senses": [],
-      "русский": "подписчик (в соцсети)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who has chosen to see another person's posts online",
+          "body": [
+            "(подписчик (в соцсети))"
+          ],
+          "examples": [
+            "He gained ten thousand followers in a month.",
+            "Most of her followers are from overseas.",
+            "One follower pointed out the typo right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who believes in and supports a leader, a religion, or a set of ideas",
+          "body": [
+            "(последователь, сторонник)",
+            "---"
+          ],
+          "examples": [
+            "The preacher and his followers marched to the courthouse.",
+            "The movement's earliest followers met in a church basement.",
+            "She is a devoted follower of the diet's founder."
+          ]
+        }
+      ],
+      "русский": "подписчик (в соцсети); последователь, сторонник",
       "plural": "followers",
       "countability": "countable"
     },
@@ -684,14 +771,43 @@
       "term": "notification",
       "ipa": "/ˌnoʊtɪfɪˈkeɪʃən/",
       "respell": "noh-tuh-fuh-KAY-shun",
-      "meaning": "A short message a device shows to tell you something has happened. ---",
+      "meaning": "Notification has 2 distinct senses.",
       "examples": [
         "I turned off notifications for that group chat.",
         "A notification popped up in the middle of my presentation.",
-        "You'll get a notification when the package ships."
+        "You'll get a notification when the package ships.",
+        "You'll get written notification of the decision within ten days.",
+        "The school sends notification to parents before any field trip.",
+        "The bank gave no notification that the fee had gone up."
       ],
-      "senses": [],
-      "русский": "уведомление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short message a device shows to tell you something has happened",
+          "body": [
+            "(уведомление)"
+          ],
+          "examples": [
+            "I turned off notifications for that group chat.",
+            "A notification popped up in the middle of my presentation.",
+            "You'll get a notification when the package ships."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official act of informing someone, or the notice that does it",
+          "body": [
+            "(официальное уведомление, извещение)",
+            "---"
+          ],
+          "examples": [
+            "You'll get written notification of the decision within ten days.",
+            "The school sends notification to parents before any field trip.",
+            "The bank gave no notification that the fee had gone up."
+          ]
+        }
+      ],
+      "русский": "уведомление; официальное уведомление, извещение",
       "plural": "notifications",
       "countability": "countable"
     },
@@ -1044,14 +1160,43 @@
       "term": "interface",
       "ipa": "/ˈɪntərfeɪs/",
       "respell": "IN-tur-fays",
-      "meaning": "The part of a program you see and interact with. ---",
+      "meaning": "Interface has 2 distinct senses.",
       "examples": [
         "The interface is clean and easy to learn.",
         "Their interfaces look the same on the phone and the web.",
-        "A confusing interface will cost you customers."
+        "A confusing interface will cost you customers.",
+        "Her research sits at the interface of medicine and law.",
+        "Scientists study the interface between the ice and the ocean.",
+        "The clinic works at the interface of housing and health care."
       ],
-      "senses": [],
-      "русский": "интерфейс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a program you see and interact with",
+          "body": [
+            "(интерфейс)"
+          ],
+          "examples": [
+            "The interface is clean and easy to learn.",
+            "Their interfaces look the same on the phone and the web.",
+            "A confusing interface will cost you customers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The point or area where two things meet and affect each other",
+          "body": [
+            "(точка соприкосновения, граница)",
+            "---"
+          ],
+          "examples": [
+            "Her research sits at the interface of medicine and law.",
+            "Scientists study the interface between the ice and the ocean.",
+            "The clinic works at the interface of housing and health care."
+          ]
+        }
+      ],
+      "русский": "интерфейс; точка соприкосновения, граница",
       "plural": "interfaces",
       "countability": "countable"
     },
@@ -1118,14 +1263,58 @@
       "term": "shortcut",
       "ipa": "/ˈʃɔːrtkʌt/",
       "respell": "SHORT-kut",
-      "meaning": "A quick key combination or link that saves you steps. ---",
+      "meaning": "Shortcut has 3 distinct senses.",
       "examples": [
         "There's a keyboard shortcut for that.",
         "He knows every shortcut in the program.",
-        "I made a shortcut to the folder on my desktop."
+        "I made a shortcut to the folder on my desktop.",
+        "We took a shortcut through the parking lot.",
+        "There's no shortcut to the lake; you have to follow the road around.",
+        "He knows every shortcut in the city and still got us there late.",
+        "There are no shortcuts to learning an instrument.",
+        "The contractor took shortcuts, and the deck fell apart in two years.",
+        "She wanted a shortcut, but the paperwork had to be done properly."
       ],
-      "senses": [],
-      "русский": "сочетание клавиш; ярлык",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A quick key combination or link that saves you steps",
+          "body": [
+            "(сочетание клавиш; ярлык)"
+          ],
+          "examples": [
+            "There's a keyboard shortcut for that.",
+            "He knows every shortcut in the program.",
+            "I made a shortcut to the folder on my desktop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A route that is shorter or quicker than the usual one",
+          "body": [
+            "(короткий путь, срезка)"
+          ],
+          "examples": [
+            "We took a shortcut through the parking lot.",
+            "There's no shortcut to the lake; you have to follow the road around.",
+            "He knows every shortcut in the city and still got us there late."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quicker way of doing something that skips the usual steps, often at some cost",
+          "body": [
+            "(лёгкий путь, способ схитрить)",
+            "---"
+          ],
+          "examples": [
+            "There are no shortcuts to learning an instrument.",
+            "The contractor took shortcuts, and the deck fell apart in two years.",
+            "She wanted a shortcut, but the paperwork had to be done properly."
+          ]
+        }
+      ],
+      "русский": "сочетание клавиш; ярлык; короткий путь, срезка; лёгкий путь, способ схитрить",
       "plural": "shortcuts",
       "countability": "countable"
     },
@@ -1236,14 +1425,43 @@
       "term": "clipboard",
       "ipa": "/ˈklɪpbɔːrd/",
       "respell": "KLIP-bord",
-      "meaning": "The temporary place a computer keeps whatever you last copied. ---",
+      "meaning": "Clipboard has 2 distinct senses.",
       "examples": [
         "The link is already on your clipboard.",
         "Phones and computers keep separate clipboards.",
-        "Copying the password put it on the clipboard."
+        "Copying the password put it on the clipboard.",
+        "The nurse checked the chart on her clipboard.",
+        "A man with a clipboard was taking everyone's name at the door.",
+        "Two clipboards hung on a nail beside the shop door."
       ],
-      "senses": [],
-      "русский": "буфер обмена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The temporary place a computer keeps whatever you last copied",
+          "body": [
+            "(буфер обмена)"
+          ],
+          "examples": [
+            "The link is already on your clipboard.",
+            "Phones and computers keep separate clipboards.",
+            "Copying the password put it on the clipboard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stiff flat board with a clip at the top for holding papers while you write",
+          "body": [
+            "(планшет с зажимом (для бумаг))",
+            "---"
+          ],
+          "examples": [
+            "The nurse checked the chart on her clipboard.",
+            "A man with a clipboard was taking everyone's name at the door.",
+            "Two clipboards hung on a nail beside the shop door."
+          ]
+        }
+      ],
+      "русский": "буфер обмена; планшет с зажимом (для бумаг)",
       "plural": "clipboards",
       "countability": "countable"
     },
@@ -1355,14 +1573,73 @@
       "term": "resolution",
       "ipa": "/ˌrɛzəˈluːʃən/",
       "respell": "rez-uh-LOO-shun",
-      "meaning": "How much detail a screen or image holds, counted in pixels. ---",
+      "meaning": "Resolution has 4 distinct senses.",
       "examples": [
         "Shoot it at the highest resolution you can.",
         "The two monitors run at different resolutions.",
-        "Low resolution looks awful on a big TV."
+        "Low resolution looks awful on a big TV.",
+        "My New Year's resolution is to run three times a week.",
+        "She made a resolution to call her parents every Sunday.",
+        "Most resolutions are broken by February.",
+        "Both sides say they want a peaceful resolution.",
+        "The case dragged on for years without resolution.",
+        "The company pays for conflict resolution training.",
+        "The city council passed a resolution honoring the firefighters.",
+        "The U.N. resolution demanded an immediate ceasefire.",
+        "Two resolutions failed by a single vote."
       ],
-      "senses": [],
-      "русский": "разрешение (экрана)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much detail a screen or image holds, counted in pixels",
+          "body": [
+            "(разрешение (экрана))"
+          ],
+          "examples": [
+            "Shoot it at the highest resolution you can.",
+            "The two monitors run at different resolutions.",
+            "Low resolution looks awful on a big TV."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A firm decision to do or stop doing something",
+          "body": [
+            "(твёрдое решение, зарок (напр. новогодний))"
+          ],
+          "examples": [
+            "My New Year's resolution is to run three times a week.",
+            "She made a resolution to call her parents every Sunday.",
+            "Most resolutions are broken by February."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The solving or settling of a problem, argument, or difficult situation",
+          "body": [
+            "(разрешение (проблемы, конфликта))"
+          ],
+          "examples": [
+            "Both sides say they want a peaceful resolution.",
+            "The case dragged on for years without resolution.",
+            "The company pays for conflict resolution training."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A formal statement that a group votes on and adopts",
+          "body": [
+            "(резолюция, постановление)",
+            "---"
+          ],
+          "examples": [
+            "The city council passed a resolution honoring the firefighters.",
+            "The U.N. resolution demanded an immediate ceasefire.",
+            "Two resolutions failed by a single vote."
+          ]
+        }
+      ],
+      "русский": "разрешение (экрана); твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); резолюция, постановление",
       "plural": "resolutions",
       "countability": "countable"
     },
@@ -1429,14 +1706,58 @@
       "term": "firewall",
       "ipa": "/ˈfaɪərwɔːl/",
       "respell": "FYRE-wawl",
-      "meaning": "Software or hardware that blocks unwanted traffic into a network. ---",
+      "meaning": "Firewall has 3 distinct senses.",
       "examples": [
         "The firewall is blocking that port.",
         "Corporate firewalls won't let you reach the site.",
-        "Turn the firewall back on when you're done testing."
+        "Turn the firewall back on when you're done testing.",
+        "Code requires a firewall between the garage and the living space.",
+        "The wiring runs through a rubber grommet in the firewall.",
+        "The firewall kept the flames out of the second unit.",
+        "There is supposed to be a firewall between the newsroom and the ad department.",
+        "The bank keeps a firewall between its research and trading desks.",
+        "Critics say the firewall between the campaign and the outside group is a fiction."
       ],
-      "senses": [],
-      "русский": "брандмауэр, файрвол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Software or hardware that blocks unwanted traffic into a network",
+          "body": [
+            "(брандмауэр, файрвол)"
+          ],
+          "examples": [
+            "The firewall is blocking that port.",
+            "Corporate firewalls won't let you reach the site.",
+            "Turn the firewall back on when you're done testing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wall built to stop a fire from spreading, as between a garage and a house or between a car's engine and its cabin",
+          "body": [
+            "(противопожарная стена, перегородка)"
+          ],
+          "examples": [
+            "Code requires a firewall between the garage and the living space.",
+            "The wiring runs through a rubber grommet in the firewall.",
+            "The firewall kept the flames out of the second unit."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A barrier that keeps two parts of an organization separate so one cannot influence the other",
+          "body": [
+            "(барьер, разделение (между подразделениями))",
+            "---"
+          ],
+          "examples": [
+            "There is supposed to be a firewall between the newsroom and the ad department.",
+            "The bank keeps a firewall between its research and trading desks.",
+            "Critics say the firewall between the campaign and the outside group is a fiction."
+          ]
+        }
+      ],
+      "русский": "брандмауэр, файрвол; противопожарная стена, перегородка; барьер, разделение (между подразделениями)",
       "plural": "firewalls",
       "countability": "countable"
     },
@@ -1651,14 +1972,73 @@
       "term": "function",
       "ipa": "/ˈfʌŋkʃən/",
       "respell": "FUNK-shun",
-      "meaning": "A named block of code that does one job and can be reused. ---",
+      "meaning": "Function has 4 distinct senses.",
       "examples": [
         "Pull that logic out into its own function.",
         "The file has about forty functions in it.",
-        "The function returns an empty list if nothing matches."
+        "The function returns an empty list if nothing matches.",
+        "The building's original function was a grain store.",
+        "Every part of the engine has a clear function.",
+        "Sleep serves several functions in the body.",
+        "He had to wear a tie to a work function.",
+        "The hotel hosts weddings and other functions.",
+        "She skipped the department function to finish grading.",
+        "Graph the function and label the intercepts.",
+        "Temperature is a function of altitude.",
+        "The homework covers linear and quadratic functions."
       ],
-      "senses": [],
-      "русский": "функция (в программировании)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A named block of code that does one job and can be reused",
+          "body": [
+            "(функция (в программировании))"
+          ],
+          "examples": [
+            "Pull that logic out into its own function.",
+            "The file has about forty functions in it.",
+            "The function returns an empty list if nothing matches."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The purpose something has or the job it is meant to do",
+          "body": [
+            "(назначение, роль)"
+          ],
+          "examples": [
+            "The building's original function was a grain store.",
+            "Every part of the engine has a clear function.",
+            "Sleep serves several functions in the body."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A formal or organized social event",
+          "body": [
+            "(мероприятие, приём)"
+          ],
+          "examples": [
+            "He had to wear a tie to a work function.",
+            "The hotel hosts weddings and other functions.",
+            "She skipped the department function to finish grading."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "In mathematics, a rule that gives exactly one output for each input",
+          "body": [
+            "(функция (математическая))",
+            "---"
+          ],
+          "examples": [
+            "Graph the function and label the intercepts.",
+            "Temperature is a function of altitude.",
+            "The homework covers linear and quadratic functions."
+          ]
+        }
+      ],
+      "русский": "функция (в программировании); назначение, роль; мероприятие, приём; функция (математическая)",
       "plural": "functions",
       "countability": "countable"
     },
@@ -1739,14 +2119,58 @@
       "term": "framework",
       "ipa": "/ˈfreɪmwɜːrk/",
       "respell": "FRAYM-wurk",
-      "meaning": "A ready-made structure that programs are built on top of. ---",
+      "meaning": "Framework has 3 distinct senses.",
       "examples": [
         "They rebuilt the site on a modern framework.",
         "New frameworks come out every six months.",
-        "The framework handles all the routing for you."
+        "The framework handles all the routing for you.",
+        "The two sides agreed on a framework for the talks.",
+        "Her thesis borrows a framework from economics.",
+        "The law provides a framework for handling complaints.",
+        "The steel framework of the tower went up in three weeks.",
+        "Vines climbed a wooden framework along the fence.",
+        "Workers welded the framework before adding the panels."
       ],
-      "senses": [],
-      "русский": "фреймворк, каркас",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A ready-made structure that programs are built on top of",
+          "body": [
+            "(фреймворк, каркас)"
+          ],
+          "examples": [
+            "They rebuilt the site on a modern framework.",
+            "New frameworks come out every six months.",
+            "The framework handles all the routing for you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of ideas, rules, or principles used for planning and making decisions",
+          "body": [
+            "(система принципов, концепция, рамки)"
+          ],
+          "examples": [
+            "The two sides agreed on a framework for the talks.",
+            "Her thesis borrows a framework from economics.",
+            "The law provides a framework for handling complaints."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A supporting structure of bars, beams, or poles",
+          "body": [
+            "(каркас, остов)",
+            "---"
+          ],
+          "examples": [
+            "The steel framework of the tower went up in three weeks.",
+            "Vines climbed a wooden framework along the fence.",
+            "Workers welded the framework before adding the panels."
+          ]
+        }
+      ],
+      "русский": "фреймворк, каркас; система принципов, концепция, рамки; каркас, остов",
       "plural": "frameworks",
       "countability": "countable"
     },
@@ -2822,14 +3246,43 @@
       "term": "cartridge",
       "ipa": "/ˈkɑːrtrɪdʒ/",
       "respell": "KAR-trij",
-      "meaning": "A small container that slides into a machine, such as one holding printer ink. ---",
+      "meaning": "Cartridge has 2 distinct senses.",
       "examples": [
         "The black cartridge is empty again.",
         "Replacement cartridges cost more than the printer did.",
-        "Shake the cartridge before you put it in."
+        "Shake the cartridge before you put it in.",
+        "He loaded three cartridges into the rifle.",
+        "Police found a spent cartridge on the driveway.",
+        "The box holds fifty cartridges."
       ],
-      "senses": [],
-      "русский": "картридж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small container that slides into a machine, such as one holding printer ink",
+          "body": [
+            "(картридж)"
+          ],
+          "examples": [
+            "The black cartridge is empty again.",
+            "Replacement cartridges cost more than the printer did.",
+            "Shake the cartridge before you put it in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tube holding a bullet and the powder that fires it",
+          "body": [
+            "(патрон)",
+            "---"
+          ],
+          "examples": [
+            "He loaded three cartridges into the rifle.",
+            "Police found a spent cartridge on the driveway.",
+            "The box holds fifty cartridges."
+          ]
+        }
+      ],
+      "русский": "картридж; патрон",
       "plural": "cartridges",
       "countability": "countable"
     },
@@ -2837,14 +3290,43 @@
       "term": "controller",
       "ipa": "/kənˈtroʊlər/",
       "respell": "kun-TROH-lur",
-      "meaning": "A handheld device used to control a game or machine. ---",
+      "meaning": "Controller has 2 distinct senses.",
       "examples": [
         "The controller needs new batteries.",
         "We only have two controllers, so somebody has to sit out.",
-        "He threw the controller across the room."
+        "He threw the controller across the room.",
+        "An air traffic controller talked the pilot down through the fog.",
+        "The company's controller signs off on every invoice.",
+        "Controllers in the tower work six-hour shifts."
       ],
-      "senses": [],
-      "русский": "контроллер, геймпад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A handheld device used to control a game or machine",
+          "body": [
+            "(контроллер, геймпад)"
+          ],
+          "examples": [
+            "The controller needs new batteries.",
+            "We only have two controllers, so somebody has to sit out.",
+            "He threw the controller across the room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose job is to direct aircraft or traffic, or to oversee a company's accounts",
+          "body": [
+            "(диспетчер; финансовый контролёр)",
+            "---"
+          ],
+          "examples": [
+            "An air traffic controller talked the pilot down through the fog.",
+            "The company's controller signs off on every invoice.",
+            "Controllers in the tower work six-hour shifts."
+          ]
+        }
+      ],
+      "русский": "контроллер, геймпад; диспетчер; финансовый контролёр",
       "plural": "controllers",
       "countability": "countable"
     },
@@ -3088,14 +3570,43 @@
       "term": "installation",
       "ipa": "/ˌɪnstəˈleɪʃən/",
       "respell": "in-stuh-LAY-shun",
-      "meaning": "The act of putting equipment or software in place, or a system that has been put in place. ---",
+      "meaning": "Installation has 2 distinct senses.",
       "examples": [
         "Installation takes about ten minutes.",
         "They handle installations all over the state.",
-        "The installation failed halfway through."
+        "The installation failed halfway through.",
+        "The museum's new installation fills the entire lobby.",
+        "Her installation uses mirrors and recorded voices.",
+        "We spent an hour walking through the light installations."
       ],
-      "senses": [],
-      "русский": "установка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of putting equipment or software in place, or a system that has been put in place",
+          "body": [
+            "(установка)"
+          ],
+          "examples": [
+            "Installation takes about ten minutes.",
+            "They handle installations all over the state.",
+            "The installation failed halfway through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large piece of modern art built for a particular space",
+          "body": [
+            "(инсталляция (в искусстве))",
+            "---"
+          ],
+          "examples": [
+            "The museum's new installation fills the entire lobby.",
+            "Her installation uses mirrors and recorded voices.",
+            "We spent an hour walking through the light installations."
+          ]
+        }
+      ],
+      "русский": "установка; инсталляция (в искусстве)",
       "plural": "installations",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -3103,14 +3614,43 @@
       "term": "maintenance",
       "ipa": "/ˈmeɪntənəns/",
       "respell": "MAYN-tuh-nuns",
-      "meaning": "The work of keeping equipment in good working order. ---",
+      "meaning": "Maintenance has 2 distinct senses.",
       "examples": [
         "The site is down for scheduled maintenance.",
         "Regular maintenance keeps the machines running.",
-        "Maintenance costs more than we budgeted."
+        "Maintenance costs more than we budgeted.",
+        "The treaty is about the maintenance of peace along the border.",
+        "Losing the weight was easy; maintenance is the hard part.",
+        "The city is responsible for the maintenance of order during the parade."
       ],
-      "senses": [],
-      "русский": "обслуживание, техобслуживание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of keeping equipment in good working order",
+          "body": [
+            "(обслуживание, техобслуживание)"
+          ],
+          "examples": [
+            "The site is down for scheduled maintenance.",
+            "Regular maintenance keeps the machines running.",
+            "Maintenance costs more than we budgeted."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of keeping something going or holding it at a certain level",
+          "body": [
+            "(поддержание (состояния, порядка, уровня))",
+            "---"
+          ],
+          "examples": [
+            "The treaty is about the maintenance of peace along the border.",
+            "Losing the weight was easy; maintenance is the hard part.",
+            "The city is responsible for the maintenance of order during the parade."
+          ]
+        }
+      ],
+      "русский": "обслуживание, техобслуживание; поддержание (состояния, порядка, уровня)",
       "countability": "uncountable",
       "contrast": "Spelled maintenance, not \"maintainance\" — the verb maintain loses its ai in the noun."
     },

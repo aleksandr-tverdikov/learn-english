@@ -1120,15 +1120,23 @@ The way things actually are, as opposed to how they seem or are imagined.
 ### realization
 
 **Pronunciation:** /ˌriːələˈzeɪʃən/ &middot; *ree-uh-luh-ZAY-shun*
-**Русский:** осознание, понимание
+**Русский:** осознание, понимание; осуществление, воплощение (мечты, замысла)
 **Plural:** *realizations*
 **Countability:** countable
 
-The moment of suddenly understanding something.
+Realization has 2 distinct senses.
+
+**1. The moment of suddenly understanding something.** (осознание, понимание)
 
 1. It came as a slow *realization* that nobody was coming.
 2. The *realization* hit him halfway home.
 3. Both *realizations* changed the way she ran the business.
+
+**2. The achieving of something that was planned, hoped for, or imagined.** (осуществление, воплощение (мечты, замысла))
+
+4. Opening the bakery was the *realization* of a lifelong dream.
+5. The park is the *realization* of an idea he had thirty years ago.
+6. Full *realization* of the plan will take another decade.
 
 ---
 
@@ -1411,14 +1419,22 @@ Another occurrence of something that happened before, especially an illness.
 ### redemption
 
 **Pronunciation:** /rɪˈdɛmpʃən/ &middot; *rih-DEMP-shuhn*
-**Русский:** искупление; выкуп
+**Русский:** искупление; выкуп; погашение купона, обмен баллов на товар
 **Countability:** uncountable
 
-The act of being freed from blame or sin, or of making up for a past wrong.
+Redemption has 2 distinct senses.
+
+**1. The act of being freed from blame or sin, or of making up for a past wrong.** (искупление; выкуп)
 
 1. The movie is a story of crime and *redemption*.
 2. He saw the job as a shot at *redemption*.
 3. There is no *redemption* without honesty.
+
+**2. The exchanging of a coupon, gift card, or points for goods, cash, or a service.** (погашение купона, обмен баллов на товар)
+
+4. The coupon lists a *redemption* deadline of March 1.
+5. Points *redemption* starts at ten thousand miles.
+6. The store tracks *redemption* of its gift cards.
 
 ---
 
@@ -1455,15 +1471,23 @@ Payment or action that makes up for a wrong someone has suffered.
 ### reduction
 
 **Pronunciation:** /rɪˈdʌkʃən/ &middot; *rih-DUK-shuhn*
-**Русский:** сокращение, снижение
+**Русский:** сокращение, снижение; уваренный соус, редукция (кулин.)
 **Plural:** *reductions*
 **Countability:** countable
 
-A decrease in the size, amount, or price of something.
+Reduction has 2 distinct senses.
+
+**1. A decrease in the size, amount, or price of something.** (сокращение, снижение)
 
 1. The plan calls for a ten percent *reduction* in staff.
 2. We saw a big *reduction* in noise after the fence went up.
 3. Both *reductions* take effect in January.
+
+**2. A thick, concentrated sauce made by boiling a liquid down.** (уваренный соус, редукция (кулин.))
+
+4. The steak came with a red wine *reduction*.
+5. Simmer the vinegar until it turns into a syrupy *reduction*.
+6. He drizzled a balsamic *reduction* over the strawberries.
 
 ---
 
@@ -2540,14 +2564,22 @@ The state of being unable to stay still or feel satisfied.
 ### restraint
 
 **Pronunciation:** /rɪˈstreɪnt/ &middot; *rih-STRAYNT*
-**Русский:** сдержанность; ограничение
+**Русский:** сдержанность; ограничение; удерживающее устройство, фиксирующий ремень
 **Countability:** uncountable
 
-Self-control, or a limit placed on what someone can do.
+Restraint has 2 distinct senses.
+
+**1. Self-control, or a limit placed on what someone can do.** (сдержанность; ограничение)
 
 1. The officers showed remarkable *restraint*.
 2. Spending *restraint* is back on the agenda.
 3. He wrote about it with unusual *restraint*.
+
+**2. A strap, belt, or device that holds a person or animal in place.** (удерживающее устройство, фиксирующий ремень)
+
+4. Every child under eight needs a proper car *restraint*.
+5. The nurse loosened the *restraints* on his wrists.
+6. The roller coaster's shoulder *restraints* lock automatically.
 
 ---
 
@@ -3898,14 +3930,22 @@ A selection of small portions of different things offered so you can try each on
 ### sampling
 
 **Pronunciation:** /ˈsæmplɪŋ/ &middot; *SAM-pling*
-**Русский:** выборка; отбор проб
+**Русский:** выборка; отбор проб; сэмплирование (в музыке)
 **Countability:** uncountable
 
-The practice of choosing a small group or amount to represent a much larger whole.
+Sampling has 2 distinct senses.
+
+**1. The practice of choosing a small group or amount to represent a much larger whole.** (выборка; отбор проб)
 
 1. Random *sampling* is what keeps the survey honest.
 2. Water *sampling* is done twice a month at each site.
 3. The study's *sampling* method has been questioned.
+
+**2. The use of a short piece of an existing recording inside a new song.** (сэмплирование (в музыке))
+
+4. The album leans heavily on *sampling* of old funk records.
+5. *Sampling* without permission can end in a lawsuit.
+6. He built the whole track out of *sampling* and a drum machine.
 
 ---
 
@@ -4545,15 +4585,23 @@ Something that causes great suffering to a lot of people.
 ### scramble
 
 **Pronunciation:** /ˈskræmbəl/ &middot; *SKRAM-buhl*
-**Русский:** спешка, суматоха; борьба за что-л.
+**Русский:** спешка, суматоха; борьба за что-л.; яичница-болтунья (с добавками)
 **Plural:** *scrambles*
 **Countability:** countable
 
-A hurried, disorganized rush to get or do something.
+Scramble has 2 distinct senses.
+
+**1. A hurried, disorganized rush to get or do something.** (спешка, суматоха; борьба за что-л.)
 
 1. There was a mad *scramble* for the last few tickets.
 2. The storm set off a *scramble* to board up windows.
 3. Every December turns into a *scramble* to spend the budget.
+
+**2. A breakfast dish of eggs stirred as they cook, usually with other things mixed in.** (яичница-болтунья (с добавками))
+
+4. I ordered the veggie *scramble* with wheat toast.
+5. She makes a tofu *scramble* every Sunday morning.
+6. Their *scramble* comes with bacon, peppers, and cheese.
 
 ---
 
@@ -4801,15 +4849,23 @@ A town or city with a harbor where ships load and unload.
 ### seascape
 
 **Pronunciation:** /ˈsiːskeɪp/ &middot; *SEE-skayp*
-**Русский:** морской пейзаж
+**Русский:** морской пейзаж; вид на море, морской вид
 **Plural:** *seascapes*
 **Countability:** countable
 
-A painting or photograph of a view of the sea.
+Seascape has 2 distinct senses.
+
+**1. A painting or photograph of a view of the sea.** (морской пейзаж)
 
 1. A gray *seascape* hangs above the fireplace.
 2. The gallery is full of *seascapes* and harbor scenes.
 3. He paints *seascapes* in oil every summer.
+
+**2. A wide view of the sea and the coast.** (вид на море, морской вид)
+
+4. The porch looks out on a stunning *seascape*.
+5. Fog rolled in and swallowed the whole *seascape*.
+6. We watched the *seascape* change color as the sun went down.
 
 ---
 
@@ -5366,15 +5422,23 @@ The wall of cartilage that divides the two sides of the nose.
 ### sequence
 
 **Pronunciation:** /ˈsiːkwəns/ &middot; *SEE-kwuhns*
-**Русский:** последовательность; эпизод (в фильме)
+**Русский:** последовательность; эпизод (в фильме); эпизод, сцена (в фильме)
 **Plural:** *sequences*
 **Countability:** countable
 
-A set of things that follow one another in a particular order.
+Sequence has 2 distinct senses.
+
+**1. A set of things that follow one another in a particular order.** (последовательность; эпизод (в фильме))
 
 1. Enter the numbers in the right *sequence*.
 2. The opening *sequence* of the movie is famous.
 3. Scientists mapped the whole DNA *sequence*.
+
+**2. A section of a movie showing one continuous piece of action.** (эпизод, сцена (в фильме))
+
+4. The opening *sequence* was shot in a single take.
+5. That chase *sequence* runs almost ten minutes.
+6. They cut the dream *sequence* from the final version.
 
 ---
 
@@ -5483,16 +5547,24 @@ A person employed to do household work in someone else's home.
 ### serviceman
 
 **Pronunciation:** /ˈsɜːrvɪsmən/ &middot; *SUR-vis-muhn*
-**Русский:** военнослужащий
+**Русский:** военнослужащий; мастер по ремонту, техник
 **Plural:** *servicemen*
 **Countability:** countable
 **Contrast:** Irregular plural: *servicemen*, not "servicemans".
 
-A man serving in the armed forces.
+Serviceman has 2 distinct senses.
+
+**1. A man serving in the armed forces.** (военнослужащий)
 
 1. The bill raises pay for *servicemen* and women.
 2. A young *serviceman* was honored before the game.
 3. Thousands of *servicemen* came home that spring.
+
+**2. A man whose job is to repair and maintain machines or appliances.** (мастер по ремонту, техник)
+
+4. The furnace quit overnight, so a *serviceman* came out first thing.
+5. Two *servicemen* from the cable company spent an hour on the roof.
+6. The *serviceman* said the compressor was shot and the fridge wasn't worth fixing.
 
 ---
 
@@ -7110,15 +7182,23 @@ Comfort felt at a time of sadness or trouble.
 ### solitaire
 
 **Pronunciation:** /ˈsɑːlətɛr/ &middot; *SAH-luh-tair*
-**Русский:** пасьянс
+**Русский:** пасьянс; солитер (одиночный камень в оправе)
 **Countability:** uncountable
 **Contrast:** British English usually calls this card game *patience*.
 
-A card game played alone.
+Solitaire has 2 distinct senses.
+
+**1. A card game played alone.** (пасьянс)
 
 1. He plays *solitaire* on his phone during layovers.
 2. My grandmother taught me *solitaire* on rainy days.
 3. A game of *solitaire* takes about five minutes.
+
+**2. A single gem, usually a diamond, set by itself in a ring or other piece of jewelry.** (солитер (одиночный камень в оправе))
+
+4. He proposed with a half-carat *solitaire*.
+5. She wears a plain gold band and a *solitaire*.
+6. The case held a row of diamond *solitaires*.
 
 ---
 
@@ -7407,29 +7487,45 @@ A common variety of mint used in gum, tea, and cooking.
 ### spectacle
 
 **Pronunciation:** /ˈspɛktəkəl/ &middot; *SPEK-tuh-kul*
-**Русский:** зрелище
+**Русский:** зрелище; очки
 **Plural:** *spectacles*
 **Countability:** countable
 
-An impressive or shocking sight or public display.
+Spectacle has 2 distinct senses.
+
+**1. An impressive or shocking sight or public display.** (зрелище)
 
 1. The fireworks were quite a *spectacle*.
 2. He got drunk and made a *spectacle* of himself.
 3. The parade is one of the great *spectacles* of the year.
+
+**2. Eyeglasses, in the plural form spectacles.** (очки)
+
+4. He polished his *spectacles* with the end of his tie.
+5. A pair of wire-rimmed *spectacles* sat on the desk.
+6. She peered over her *spectacles* at the class.
 
 ---
 
 ### speculation
 
 **Pronunciation:** /ˌspɛkjəˈleɪʃən/ &middot; *spek-yuh-LAY-shun*
-**Русский:** предположения, домыслы
+**Русский:** предположения, домыслы; спекуляция (биржевая, земельная)
 **Countability:** uncountable
 
-Guessing about something without firm evidence.
+Speculation has 2 distinct senses.
+
+**1. Guessing about something without firm evidence.** (предположения, домыслы)
 
 1. There's a lot of *speculation* about who will get the job.
 2. The company refused to comment on *speculation*.
 3. That's pure *speculation* at this point.
+
+**2. The buying of property, stocks, or goods in the hope of selling them later at a profit.** (спекуляция (биржевая, земельная))
+
+4. Land *speculation* pushed prices out of reach for local families.
+5. The crash was blamed on years of reckless *speculation*.
+6. He made and lost a fortune on currency *speculation*.
 
 ---
 
@@ -7814,16 +7910,30 @@ A flexible board used for jumping, or something that helps a career take off.
 ### sprinkle
 
 **Pronunciation:** /ˈsprɪŋkəl/ &middot; *SPRING-kul*
-**Русский:** щепотка, немного посыпанного сверху
+**Русский:** щепотка, немного посыпанного сверху; кондитерская посыпка; лёгкий дождик, морось
 **Plural:** *sprinkles*
 **Countability:** countable
 **Contrast:** In American English, *sprinkles* also means the tiny colored candy bits put on ice cream and cupcakes.
 
-A small amount of something scattered over a surface.
+Sprinkle has 3 distinct senses.
+
+**1. A small amount of something scattered over a surface.** (щепотка, немного посыпанного сверху)
 
 1. Add a *sprinkle* of salt before serving.
 2. There was just a *sprinkle* of rain this morning.
 3. The kids wanted extra *sprinkles* on their ice cream.
+
+**2. Tiny bits of colored candy scattered on ice cream or frosting.** (кондитерская посыпка)
+
+4. He asked for chocolate *sprinkles* on his cone.
+5. The cupcakes were covered in rainbow *sprinkles*.
+6. There is a jar of *sprinkles* in the baking cabinet.
+
+**3. A very light, brief fall of rain.** (лёгкий дождик, морось)
+
+7. It is just a *sprinkle*, so you do not need an umbrella.
+8. We got a *sprinkle* around noon and nothing after that.
+9. The forecast calls for a few *sprinkles* this evening.
 
 ---
 
@@ -8134,15 +8244,23 @@ A pointed mineral formation rising from the floor of a cave.
 ### stalemate
 
 **Pronunciation:** /ˈsteɪlmeɪt/ &middot; *STAYL-mayt*
-**Русский:** тупик, патовая ситуация
+**Русский:** тупик, патовая ситуация; пат (в шахматах)
 **Plural:** *stalemates*
 **Countability:** countable
 
-A situation in which neither side can win or move forward.
+Stalemate has 2 distinct senses.
+
+**1. A situation in which neither side can win or move forward.** (тупик, патовая ситуация)
 
 1. The talks ended in a *stalemate*.
 2. Congress is in a budget *stalemate*.
 3. Both *stalemates* were broken by outside pressure.
+
+**2. A chess position in which a player has no legal move and the game ends in a draw.** (пат (в шахматах))
+
+4. He was down to one pawn and managed to force a *stalemate*.
+5. The game ended in a *stalemate* on move fifty.
+6. A *stalemate* counts as a draw, not a loss.
 
 ---
 
@@ -8274,14 +8392,28 @@ A person or thing kept ready to be used if needed.
 ### standing
 
 **Pronunciation:** /ˈstændɪŋ/ &middot; *STAN-ding*
-**Русский:** репутация, положение
+**Русский:** репутация, положение; право на иск, процессуальная правоспособность; давность, срок существования
 **Countability:** uncountable
 
-A person's or group's rank or reputation among others.
+Standing has 3 distinct senses.
+
+**1. A person's or group's rank or reputation among others.** (репутация, положение)
 
 1. The company is in good *standing* with the state.
 2. Her *standing* in the party has slipped.
 3. He lost his *standing* as an expert after the scandal.
+
+**2. The legal right to bring a case before a court.** (право на иск, процессуальная правоспособность)
+
+4. The judge ruled that the group had no *standing* to sue.
+5. The case was thrown out for lack of *standing*.
+6. Only a customer of the bank would have *standing* here.
+
+**3. The length of time something has existed or continued.** (давность, срок существования)
+
+7. They have a dispute of long *standing* over the property line.
+8. It is a tradition of many years' *standing*.
+9. This is a friendship of thirty years' *standing*.
 
 ---
 
@@ -8647,14 +8779,22 @@ The condition of being unable to produce young, or of being free of germs.
 ### sterling
 
 **Pronunciation:** /ˈstɜːrlɪŋ/ &middot; *STUR-ling*
-**Русский:** стерлинговое серебро
+**Русский:** стерлинговое серебро; фунт стерлингов (валюта)
 **Countability:** uncountable
 
-Silver that is at least 92.5 percent pure.
+Sterling has 2 distinct senses.
+
+**1. Silver that is at least 92.5 percent pure.** (стерлинговое серебро)
 
 1. The spoons are solid *sterling*.
 2. She collects *sterling* at estate sales.
 3. The mark on the back says it's *sterling*.
+
+**2. The British pound as a currency.** (фунт стерлингов (валюта))
+
+4. The contract is priced in *sterling*, not dollars.
+5. *Sterling* fell sharply after the announcement.
+6. He keeps part of his savings in *sterling*.
 
 ---
 
@@ -9074,16 +9214,24 @@ Strain has 3 distinct senses.
 ### straitjacket
 
 **Pronunciation:** /ˈstreɪtdʒækɪt/ &middot; *STRAYT-jak-it*
-**Русский:** смирительная рубашка
+**Русский:** смирительная рубашка; жёсткие рамки, оковы
 **Plural:** *straitjackets*
 **Countability:** countable
 **Contrast:** Spelled *strait-*, not *straight-*.
 
-A strong coat that binds the arms, used to restrain a violent person.
+Straitjacket has 2 distinct senses.
+
+**1. A strong coat that binds the arms, used to restrain a violent person.** (смирительная рубашка)
 
 1. The magician escaped from a *straitjacket*.
 2. Old hospitals used *straitjackets* on patients.
 3. The new rules are a *straitjacket* for teachers.
+
+**2. A rule or situation that severely limits what someone can do.** (жёсткие рамки, оковы)
+
+4. The budget put the department in a fiscal *straitjacket*.
+5. He called the new rules a *straitjacket* on small business.
+6. The treaty became a *straitjacket* neither side could escape.
 
 ---
 
@@ -9120,14 +9268,22 @@ Someone skilled at planning how to reach a long-term goal.
 ### stratosphere
 
 **Pronunciation:** /ˈstrætəsfɪr/ &middot; *STRAT-uh-sfeer*
-**Русский:** стратосфера
+**Русский:** стратосфера; заоблачные высоты
 **Countability:** uncountable
 
-The layer of the atmosphere above the one where weather happens.
+Stratosphere has 2 distinct senses.
+
+**1. The layer of the atmosphere above the one where weather happens.** (стратосфера)
 
 1. The balloon rose into the *stratosphere*.
 2. Ozone is concentrated in the *stratosphere*.
 3. Jets cruise at the bottom of the *stratosphere*.
+
+**2. A very high level, especially of prices or success.** (заоблачные высоты)
+
+4. Housing prices downtown have gone into the *stratosphere*.
+5. One song sent her career into the *stratosphere*.
+6. Ticket prices for the final were up in the *stratosphere*.
 
 ---
 
@@ -9149,15 +9305,29 @@ A pet that has no home or has wandered away from one.
 ### strength
 
 **Pronunciation:** /strɛŋkθ/ &middot; *STRENGKTH*
-**Русский:** сила
+**Русский:** сила; сильная сторона, достоинство; крепость, концентрация
 **Countability:** uncountable
 **Contrast:** Americans usually slip a k sound in before the th: STRENGKTH.
 
-The physical power to lift, push, or resist things.
+Strength has 3 distinct senses.
+
+**1. The physical power to lift, push, or resist things.** (сила)
 
 1. He doesn't have the *strength* to lift it alone.
 2. She's slowly getting her *strength* back.
 3. The bridge was tested for *strength*.
+
+**2. A quality or ability that a person or thing is good at.** (сильная сторона, достоинство)
+
+4. Patience is her greatest *strength*.
+5. The report lists the program's *strengths* and weaknesses.
+6. Working with kids has always been his *strength*.
+
+**3. How concentrated a liquid, a drug, or a flavor is.** (крепость, концентрация)
+
+7. The pills come in three different *strengths*.
+8. Cut the cleaner to half *strength* before you use it.
+9. I like my coffee at full *strength*.
 
 ---
 
@@ -9326,15 +9496,23 @@ A pastry made of thin dough rolled around fruit, usually apples.
 ### struggle
 
 **Pronunciation:** /ˈstrʌɡəl/ &middot; *STRUG-ul*
-**Русский:** борьба
+**Русский:** борьба; схватка, потасовка
 **Plural:** *struggles*
 **Countability:** countable
 
-A hard effort against difficulty or opposition.
+Struggle has 2 distinct senses.
+
+**1. A hard effort against difficulty or opposition.** (борьба)
 
 1. Paying rent is a monthly *struggle*.
 2. The book describes his *struggle* with addiction.
 3. Their *struggles* are far from over.
+
+**2. A short physical fight in which people grab and push each other.** (схватка, потасовка)
+
+4. Police found signs of a *struggle* in the kitchen.
+5. The gun went off during the *struggle*.
+6. He tore his shirt in the *struggle* with the intruder.
 
 ---
 
@@ -9547,15 +9725,23 @@ A small craft built to operate deep underwater.
 ### submission
 
 **Pronunciation:** /səbˈmɪʃən/ &middot; *sub-MISH-un*
-**Русский:** поданный материал, заявка
+**Русский:** поданный материал, заявка; подчинение, покорность
 **Plural:** *submissions*
 **Countability:** countable
 
-A piece of work or a document handed in for consideration.
+Submission has 2 distinct senses.
+
+**1. A piece of work or a document handed in for consideration.** (поданный материал, заявка)
 
 1. The journal received four hundred *submissions*.
 2. Your *submission* must be in by Friday.
 3. Late *submissions* will not be read.
+
+**2. The act of giving in to someone else's power or authority.** (подчинение, покорность)
+
+4. The rebels were starved into *submission*.
+5. He nodded in *submission* and said nothing more.
+6. She refused to be bullied into *submission*.
 
 ---
 
@@ -9636,15 +9822,23 @@ The use of tricks or deception to reach a goal.
 ### subtlety
 
 **Pronunciation:** /ˈsʌtəlti/ &middot; *SUT-ul-tee*
-**Русский:** тонкость, деликатность
+**Русский:** тонкость, деликатность; тонкость, нюанс
 **Countability:** uncountable
 **Contrast:** The b is silent: SUT-ul-tee.
 
-The quality of being delicate, understated, and not obvious.
+Subtlety has 2 distinct senses.
+
+**1. The quality of being delicate, understated, and not obvious.** (тонкость, деликатность)
 
 1. His acting has real *subtlety*.
 2. The sauce lacks *subtlety*.
 3. There's no *subtlety* in their advertising.
+
+**2. A small, fine detail or distinction that is easy to miss.** (тонкость, нюанс)
+
+4. The translation loses the *subtleties* of the original.
+5. He explained the *subtleties* of the tax rule.
+6. There is a *subtlety* here that most readers skip right over.
 
 ---
 
@@ -9853,15 +10047,29 @@ The tall tropical grass whose stems are crushed to make sugar.
 ### suggestion
 
 **Pronunciation:** /səˈdʒɛstʃən/ &middot; *suh-JES-chun*
-**Русский:** предложение, совет
+**Русский:** предложение, совет; лёгкий намёк, оттенок; внушение
 **Plural:** *suggestions*
 **Countability:** countable
 
-An idea that you put forward for someone to consider.
+Suggestion has 3 distinct senses.
+
+**1. An idea that you put forward for someone to consider.** (предложение, совет)
 
 1. Can I make a *suggestion*?
 2. Her *suggestion* saved us two days of work.
 3. The box by the door is for comments and *suggestions*.
+
+**2. A slight trace or hint of something.** (лёгкий намёк, оттенок)
+
+4. There was the faintest *suggestion* of a smile on his face.
+5. The sauce has a *suggestion* of lemon in it.
+6. I caught a *suggestion* of movement behind the curtain.
+
+**3. The putting of an idea into someone's mind so that they accept it without questioning it.** (внушение)
+
+7. Half the cure was the power of *suggestion*.
+8. The therapist used hypnotic *suggestion* to help him quit smoking.
+9. Advertisers rely on *suggestion* far more than on facts.
 
 ---
 

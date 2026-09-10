@@ -513,14 +513,43 @@
       "term": "spotlight",
       "ipa": "/ˈspɑːtlaɪt/",
       "respell": "SPAHT-lyt",
-      "meaning": "A lamp that throws a narrow circle of bright light onto one performer. ---",
+      "meaning": "Spotlight has 2 distinct senses.",
       "examples": [
         "A single spotlight picked her out of the darkness.",
         "Two spotlights follow the dancers across the stage.",
-        "Step into the spotlight when the music starts."
+        "Step into the spotlight when the music starts.",
+        "The scandal put the mayor in the spotlight for weeks.",
+        "She has never been comfortable in the spotlight.",
+        "The report threw a spotlight on conditions at the nursing home."
       ],
-      "senses": [],
-      "русский": "прожектор направленного света",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A lamp that throws a narrow circle of bright light onto one performer",
+          "body": [
+            "(прожектор направленного света)"
+          ],
+          "examples": [
+            "A single spotlight picked her out of the darkness.",
+            "Two spotlights follow the dancers across the stage.",
+            "Step into the spotlight when the music starts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Public attention focused on one person or issue",
+          "body": [
+            "(центр внимания)",
+            "---"
+          ],
+          "examples": [
+            "The scandal put the mayor in the spotlight for weeks.",
+            "She has never been comfortable in the spotlight.",
+            "The report threw a spotlight on conditions at the nursing home."
+          ]
+        }
+      ],
+      "русский": "прожектор направленного света; центр внимания",
       "plural": "spotlights",
       "countability": "countable"
     },
@@ -528,14 +557,43 @@
       "term": "backdrop",
       "ipa": "/ˈbækdrɑːp/",
       "respell": "BAK-drahp",
-      "meaning": "A large painted cloth hung at the back of a stage. ---",
+      "meaning": "Backdrop has 2 distinct senses.",
       "examples": [
         "The backdrop is a painted city skyline.",
         "They rolled up both backdrops after the show.",
-        "A dark blue backdrop made the night scene work."
+        "A dark blue backdrop made the night scene work.",
+        "The talks opened against a backdrop of rising tension.",
+        "The novel unfolds against the backdrop of the Depression.",
+        "Rising rents form the backdrop to the entire debate."
       ],
-      "senses": [],
-      "русский": "задник, задняя декорация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large painted cloth hung at the back of a stage",
+          "body": [
+            "(задник, задняя декорация)"
+          ],
+          "examples": [
+            "The backdrop is a painted city skyline.",
+            "They rolled up both backdrops after the show.",
+            "A dark blue backdrop made the night scene work."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The general situation or set of conditions against which events happen",
+          "body": [
+            "(фон, общая обстановка (на фоне которой что-то происходит))",
+            "---"
+          ],
+          "examples": [
+            "The talks opened against a backdrop of rising tension.",
+            "The novel unfolds against the backdrop of the Depression.",
+            "Rising rents form the backdrop to the entire debate."
+          ]
+        }
+      ],
+      "русский": "задник, задняя декорация; фон, общая обстановка (на фоне которой что-то происходит)",
       "plural": "backdrops",
       "countability": "countable"
     },
@@ -574,14 +632,43 @@
       "term": "dialogue",
       "ipa": "/ˈdaɪəlɔːɡ/",
       "respell": "DY-uh-lawg",
-      "meaning": "The words that characters speak to one another in a play or film. ---",
+      "meaning": "Dialogue has 2 distinct senses.",
       "examples": [
         "The dialogue in the second act feels stiff.",
         "Critics praised the sharp, funny dialogue.",
-        "She rewrote most of the dialogue before opening night."
+        "She rewrote most of the dialogue before opening night.",
+        "The two sides have agreed to open a dialogue.",
+        "Years of quiet dialogue finally produced a deal.",
+        "The mayor called for an honest dialogue about policing."
       ],
-      "senses": [],
-      "русский": "диалог, реплики персонажей",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The words that characters speak to one another in a play or film",
+          "body": [
+            "(диалог, реплики персонажей)"
+          ],
+          "examples": [
+            "The dialogue in the second act feels stiff.",
+            "Critics praised the sharp, funny dialogue.",
+            "She rewrote most of the dialogue before opening night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A serious exchange of views between two sides who are trying to reach agreement",
+          "body": [
+            "(диалог, переговоры)",
+            "---"
+          ],
+          "examples": [
+            "The two sides have agreed to open a dialogue.",
+            "Years of quiet dialogue finally produced a deal.",
+            "The mayor called for an honest dialogue about policing."
+          ]
+        }
+      ],
+      "русский": "диалог, реплики персонажей; диалог, переговоры",
       "countability": "uncountable"
     },
     {
@@ -1116,14 +1203,43 @@
       "term": "magician",
       "ipa": "/məˈdʒɪʃən/",
       "respell": "muh-JISH-uhn",
-      "meaning": "A performer who entertains people with tricks that look impossible. ---",
+      "meaning": "Magician has 2 distinct senses.",
       "examples": [
         "They hired a magician for the kids' party.",
         "Two magicians share the stage in the second half.",
-        "The magician pulled a card out of my jacket pocket."
+        "The magician pulled a card out of my jacket pocket.",
+        "In the book, a magician turns the prince into a bear.",
+        "The kingdom's magicians guarded a stone that granted wishes.",
+        "He read every fantasy novel about dragons and magicians."
       ],
-      "senses": [],
-      "русский": "фокусник, иллюзионист",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A performer who entertains people with tricks that look impossible",
+          "body": [
+            "(фокусник, иллюзионист)"
+          ],
+          "examples": [
+            "They hired a magician for the kids' party.",
+            "Two magicians share the stage in the second half.",
+            "The magician pulled a card out of my jacket pocket."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person in stories who has real magical powers",
+          "body": [
+            "(волшебник, маг, чародей)",
+            "---"
+          ],
+          "examples": [
+            "In the book, a magician turns the prince into a bear.",
+            "The kingdom's magicians guarded a stone that granted wishes.",
+            "He read every fantasy novel about dragons and magicians."
+          ]
+        }
+      ],
+      "русский": "фокусник, иллюзионист; волшебник, маг, чародей",
       "plural": "magicians",
       "countability": "countable"
     },
@@ -1797,14 +1913,43 @@
       "term": "callback",
       "ipa": "/ˈkɔːlbæk/",
       "respell": "KAWL-bak",
-      "meaning": "A second audition that only some of the actors are invited to. ---",
+      "meaning": "Callback has 2 distinct senses.",
       "examples": [
         "She got a callback for the mother.",
         "Callbacks are on Saturday morning.",
-        "Three callbacks and he still did not get the part."
+        "Three callbacks and he still did not get the part.",
+        "I interviewed on Tuesday and never got a callback.",
+        "Press one to request a callback instead of waiting on hold.",
+        "The insurer promised a callback within twenty-four hours."
       ],
-      "senses": [],
-      "русский": "повторное прослушивание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A second audition that only some of the actors are invited to",
+          "body": [
+            "(повторное прослушивание)"
+          ],
+          "examples": [
+            "She got a callback for the mother.",
+            "Callbacks are on Saturday morning.",
+            "Three callbacks and he still did not get the part."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A return phone call, especially one you are waiting for from an employer or a company",
+          "body": [
+            "(ответный звонок)",
+            "---"
+          ],
+          "examples": [
+            "I interviewed on Tuesday and never got a callback.",
+            "Press one to request a callback instead of waiting on hold.",
+            "The insurer promised a callback within twenty-four hours."
+          ]
+        }
+      ],
+      "русский": "повторное прослушивание; ответный звонок",
       "plural": "callbacks",
       "countability": "countable"
     },
@@ -2082,14 +2227,43 @@
       "term": "counterweight",
       "ipa": "/ˈkaʊntərweɪt/",
       "respell": "KOWN-tur-wayt",
-      "meaning": "A heavy block used to balance the weight of scenery being flown. ---",
+      "meaning": "Counterweight has 2 distinct senses.",
       "examples": [
         "Add another counterweight or the drop will fly up too fast.",
         "The counterweights are stacked on a steel frame backstage.",
-        "One loose counterweight is a serious hazard."
+        "One loose counterweight is a serious hazard.",
+        "The courts act as a counterweight to the president.",
+        "Small states wanted a counterweight to the big ones in the Senate.",
+        "Her humor was a counterweight to his gloom."
       ],
-      "senses": [],
-      "русский": "противовес",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy block used to balance the weight of scenery being flown",
+          "body": [
+            "(противовес)"
+          ],
+          "examples": [
+            "Add another counterweight or the drop will fly up too fast.",
+            "The counterweights are stacked on a steel frame backstage.",
+            "One loose counterweight is a serious hazard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that balances or offsets an opposing force",
+          "body": [
+            "(противовес (переносно), сдерживающая сила)",
+            "---"
+          ],
+          "examples": [
+            "The courts act as a counterweight to the president.",
+            "Small states wanted a counterweight to the big ones in the Senate.",
+            "Her humor was a counterweight to his gloom."
+          ]
+        }
+      ],
+      "русский": "противовес; противовес (переносно), сдерживающая сила",
       "plural": "counterweights",
       "countability": "countable"
     },
@@ -2848,14 +3022,43 @@
       "term": "headliner",
       "ipa": "/ˈhɛdˌlaɪnər/",
       "respell": "HED-ly-nur",
-      "meaning": "The best-known performer on a bill, who goes on last. ---",
+      "meaning": "Headliner has 2 distinct senses.",
       "examples": [
         "The headliner did not come on until eleven.",
         "Both headliners canceled and the show fell apart.",
-        "She has been a headliner in Las Vegas for a decade."
+        "She has been a headliner in Las Vegas for a decade.",
+        "The headliner in my old Civic is starting to sag.",
+        "A leak around the sunroof stained the headliner.",
+        "The shop quoted me three hundred dollars to replace the headliner."
       ],
-      "senses": [],
-      "русский": "хедлайнер, главный участник программы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The best-known performer on a bill, who goes on last",
+          "body": [
+            "(хедлайнер, главный участник программы)"
+          ],
+          "examples": [
+            "The headliner did not come on until eleven.",
+            "Both headliners canceled and the show fell apart.",
+            "She has been a headliner in Las Vegas for a decade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The cloth-covered lining on the inside of a car's roof",
+          "body": [
+            "(обивка потолка салона (автомобиля))",
+            "---"
+          ],
+          "examples": [
+            "The headliner in my old Civic is starting to sag.",
+            "A leak around the sunroof stained the headliner.",
+            "The shop quoted me three hundred dollars to replace the headliner."
+          ]
+        }
+      ],
+      "русский": "хедлайнер, главный участник программы; обивка потолка салона (автомобиля)",
       "plural": "headliners",
       "countability": "countable"
     },
@@ -2939,14 +3142,43 @@
       "term": "playhouse",
       "ipa": "/ˈpleɪhaʊs/",
       "respell": "PLAY-hows",
-      "meaning": "A building where plays are performed. ---",
+      "meaning": "Playhouse has 2 distinct senses.",
       "examples": [
         "The old playhouse on Main Street is being restored.",
         "Two small playhouses share a parking lot.",
-        "The playhouse seats about four hundred people."
+        "The playhouse seats about four hundred people.",
+        "My uncle built a playhouse in the backyard.",
+        "The kids ate lunch inside the plastic playhouse.",
+        "She keeps her dolls out in the little playhouse."
       ],
-      "senses": [],
-      "русский": "театр (здание)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building where plays are performed",
+          "body": [
+            "(театр (здание))"
+          ],
+          "examples": [
+            "The old playhouse on Main Street is being restored.",
+            "Two small playhouses share a parking lot.",
+            "The playhouse seats about four hundred people."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small house for children to play in",
+          "body": [
+            "(детский игровой домик)",
+            "---"
+          ],
+          "examples": [
+            "My uncle built a playhouse in the backyard.",
+            "The kids ate lunch inside the plastic playhouse.",
+            "She keeps her dolls out in the little playhouse."
+          ]
+        }
+      ],
+      "русский": "театр (здание); детский игровой домик",
       "plural": "playhouses",
       "countability": "countable"
     },
@@ -3000,14 +3232,43 @@
       "term": "interlude",
       "ipa": "/ˈɪntərluːd/",
       "respell": "IN-tur-lood",
-      "meaning": "A short piece of music or performance between the main parts of a show. ---",
+      "meaning": "Interlude has 2 distinct senses.",
       "examples": [
         "A piano interlude covers the scene change.",
         "The two musical interludes are the best part of the evening.",
-        "The clowns come out during the interlude."
+        "The clowns come out during the interlude.",
+        "The rain gave us a quiet interlude before the crowds arrived.",
+        "After a brief interlude in Texas, the family moved back east.",
+        "Those two years were a happy interlude in a hard decade."
       ],
-      "senses": [],
-      "русский": "интермедия, вставной эпизод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short piece of music or performance between the main parts of a show",
+          "body": [
+            "(интермедия, вставной эпизод)"
+          ],
+          "examples": [
+            "A piano interlude covers the scene change.",
+            "The two musical interludes are the best part of the evening.",
+            "The clowns come out during the interlude."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short period of time between two longer or busier ones",
+          "body": [
+            "(промежуток, передышка)",
+            "---"
+          ],
+          "examples": [
+            "The rain gave us a quiet interlude before the crowds arrived.",
+            "After a brief interlude in Texas, the family moved back east.",
+            "Those two years were a happy interlude in a hard decade."
+          ]
+        }
+      ],
+      "русский": "интермедия, вставной эпизод; промежуток, передышка",
       "plural": "interludes",
       "countability": "countable"
     },

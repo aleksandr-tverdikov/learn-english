@@ -942,15 +942,29 @@ A place where beer is made.
 ### cocktail
 
 **Pronunciation:** /ˈkɑːkteɪl/ &middot; *KAHK-tayl*
-**Русский:** коктейль
+**Русский:** коктейль; смесь, коктейль (веществ, факторов); холодная закуска (креветочный, фруктовый коктейль)
 **Plural:** *cocktails*
 **Countability:** countable
 
-A mixed drink of liquor with juice, soda, or other flavors.
+Cocktail has 3 distinct senses.
+
+**1. A mixed drink of liquor with juice, soda, or other flavors.** (коктейль)
 
 1. She ordered a *cocktail* with grapefruit and gin.
 2. *Cocktails* are half price until seven.
 3. He makes a mean *cocktail*.
+
+**2. A mixture of several different substances or factors, often a harmful one.** (смесь, коктейль (веществ, факторов))
+
+4. Doctors put him on a *cocktail* of three drugs.
+5. Runoff carried a *cocktail* of chemicals into the creek.
+6. The crash was caused by a *cocktail* of fatigue, fog, and bad brakes.
+
+**3. A cold appetizer of seafood or chopped fruit served in a small glass or dish.** (холодная закуска (креветочный, фруктовый коктейль))
+
+7. We ordered a shrimp *cocktail* to start.
+8. She spooned fruit *cocktail* into little bowls for the kids.
+9. The crab *cocktail* is listed under appetizers, not drinks.
 
 ---
 
@@ -1926,15 +1940,23 @@ Tab has 3 distinct senses.
 ### hangover
 
 **Pronunciation:** /ˈhæŋoʊvər/ &middot; *HANG-oh-vur*
-**Русский:** похмелье
+**Русский:** похмелье; пережиток, наследие прошлого
 **Plural:** *hangovers*
 **Countability:** countable
 
-The headache and sickness that follow drinking too much.
+Hangover has 2 distinct senses.
+
+**1. The headache and sickness that follow drinking too much.** (похмелье)
 
 1. He woke up with a terrible *hangover*.
 2. Water before bed helps with the *hangover*.
 3. *Hangovers* get worse as you get older.
+
+**2. Something left over from an earlier time that no longer fits.** (пережиток, наследие прошлого)
+
+4. The rule is a *hangover* from the 1970s.
+5. That fee is a *hangover* from the old contract.
+6. Downtown is still working through the *hangover* of the building boom.
 
 ---
 

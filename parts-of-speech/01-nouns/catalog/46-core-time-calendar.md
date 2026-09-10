@@ -244,15 +244,29 @@ Age has 2 distinct senses.
 ### generation
 
 **Pronunciation:** /ˌdʒɛnəˈreɪʃən/ &middot; *jen-uh-RAY-shuhn*
-**Русский:** поколение
+**Русский:** поколение; поколение (модели, версии устройства); выработка, производство (энергии, дохода)
 **Plural:** *generations*
 **Countability:** countable
 
-All the people born and living at about the same time.
+Generation has 3 distinct senses.
+
+**1. All the people born and living at about the same time.** (поколение)
 
 1. My grandmother's *generation* saved everything.
 2. The farm has been in the family for four *generations*.
 3. This *generation* grew up with smartphones.
+
+**2. One model or version in a series of products, each replacing the one before it.** (поколение (модели, версии устройства))
+
+4. The new *generation* of electric trucks goes twice as far.
+5. This phone is two *generations* behind mine.
+6. The camera is in its fourth *generation* now.
+
+**3. The producing of something such as electricity, heat, or income.** (выработка, производство (энергии, дохода))
+
+7. Wind now accounts for a third of the state's power *generation*.
+8. The plant's *generation* dropped during the heat wave.
+9. Their whole marketing budget goes to lead *generation*.
 
 ---
 
@@ -2088,14 +2102,28 @@ The period when someone or something was most successful.
 ### antiquity
 
 **Pronunciation:** /ænˈtɪkwəti/ &middot; *an-TIK-wuh-tee*
-**Русский:** древность, античность
+**Русский:** древность, античность; древности, античные предметы; древность (возраст, старина)
 **Countability:** uncountable
 
-Ancient times, especially the age of Greece and Rome.
+Antiquity has 3 distinct senses.
+
+**1. Ancient times, especially the age of Greece and Rome.** (древность, античность)
 
 1. The custom dates back to *antiquity*.
 2. Scholars of *antiquity* still argue about the text.
 3. Olive oil has been traded since *antiquity*.
+
+**2. An object that has survived from ancient times, such as a statue or a coin.** (древности, античные предметы)
+
+4. The museum's Egyptian *antiquities* fill three rooms.
+5. Customs agents seized a shipment of stolen *antiquities*.
+6. He collects Roman *antiquities* and displays them at home.
+
+**3. The state of being very old.** (древность (возраст, старина))
+
+7. Carbon dating confirmed the manuscript's *antiquity*.
+8. It is a custom of great *antiquity*.
+9. Visitors are drawn by the cathedral's sheer *antiquity*.
 
 ---
 

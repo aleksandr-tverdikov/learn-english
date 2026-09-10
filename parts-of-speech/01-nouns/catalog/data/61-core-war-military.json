@@ -79,14 +79,43 @@
       "term": "conflict",
       "ipa": "/ˈkɑːnflɪkt/",
       "respell": "KAHN-flikt",
-      "meaning": "A serious disagreement or period of fighting between groups. ---",
+      "meaning": "Conflict has 2 distinct senses.",
       "examples": [
         "The conflict has displaced millions.",
         "Diplomats worked for months to end the conflict.",
-        "Armed conflicts broke out in three provinces."
+        "Armed conflicts broke out in three provinces.",
+        "I have a conflict on Tuesday at three.",
+        "We moved the meeting because of a scheduling conflict.",
+        "Check the calendar for conflicts before you book the room."
       ],
-      "senses": [],
-      "русский": "конфликт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A serious disagreement or period of fighting between groups",
+          "body": [
+            "(конфликт)"
+          ],
+          "examples": [
+            "The conflict has displaced millions.",
+            "Diplomats worked for months to end the conflict.",
+            "Armed conflicts broke out in three provinces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A clash between two things arranged for the same time",
+          "body": [
+            "(накладка в расписании)",
+            "---"
+          ],
+          "examples": [
+            "I have a conflict on Tuesday at three.",
+            "We moved the meeting because of a scheduling conflict.",
+            "Check the calendar for conflicts before you book the room."
+          ]
+        }
+      ],
+      "русский": "конфликт; накладка в расписании",
       "plural": "conflicts",
       "countability": "countable",
       "contrast": "The noun is stressed KAHN-flikt; the verb to conflict is kuhn-FLIKT."
@@ -95,14 +124,58 @@
       "term": "invasion",
       "ipa": "/ɪnˈveɪʒən/",
       "respell": "in-VAY-zhuhn",
-      "meaning": "The act of entering another country by force with an army. ---",
+      "meaning": "Invasion has 3 distinct senses.",
       "examples": [
         "The invasion began before dawn.",
         "They resisted the invasion for months.",
-        "Both invasions failed within weeks."
+        "Both invasions failed within weeks.",
+        "Every June the town braces for an invasion of tourists.",
+        "We had an invasion of ants in the kitchen after the rain.",
+        "Shop owners complained about the summer invasion of college kids.",
+        "She sued the magazine for invasion of privacy.",
+        "Reading someone's texts is a serious invasion of privacy.",
+        "Employees saw the tracking software as an invasion."
       ],
-      "senses": [],
-      "русский": "вторжение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of entering another country by force with an army",
+          "body": [
+            "(вторжение)"
+          ],
+          "examples": [
+            "The invasion began before dawn.",
+            "They resisted the invasion for months.",
+            "Both invasions failed within weeks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The arrival of a large number of unwanted people or things in a place",
+          "body": [
+            "(нашествие, наплыв)"
+          ],
+          "examples": [
+            "Every June the town braces for an invasion of tourists.",
+            "We had an invasion of ants in the kitchen after the rain.",
+            "Shop owners complained about the summer invasion of college kids."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An act of interfering with someone's privacy or personal rights",
+          "body": [
+            "(посягательство (на частную жизнь))",
+            "---"
+          ],
+          "examples": [
+            "She sued the magazine for invasion of privacy.",
+            "Reading someone's texts is a serious invasion of privacy.",
+            "Employees saw the tracking software as an invasion."
+          ]
+        }
+      ],
+      "русский": "вторжение; нашествие, наплыв; посягательство (на частную жизнь)",
       "plural": "invasions",
       "countability": "countable"
     },
@@ -318,14 +391,43 @@
       "term": "casualty",
       "ipa": "/ˈkæʒuəlti/",
       "respell": "KAZH-oo-uhl-tee",
-      "meaning": "A person killed or wounded in a war or an accident. ---",
+      "meaning": "Casualty has 2 distinct senses.",
       "examples": [
         "The battle produced heavy casualties.",
         "Civilian casualties rose sharply that spring.",
-        "Every casualty was flown out by helicopter."
+        "Every casualty was flown out by helicopter.",
+        "The music program was the first casualty of the budget cuts.",
+        "Privacy is often a casualty of new technology.",
+        "Small bookstores were the casualties of that merger."
       ],
-      "senses": [],
-      "русский": "потери; убитый или раненый",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person killed or wounded in a war or an accident",
+          "body": [
+            "(потери; убитый или раненый)"
+          ],
+          "examples": [
+            "The battle produced heavy casualties.",
+            "Civilian casualties rose sharply that spring.",
+            "Every casualty was flown out by helicopter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that is harmed or lost because of some event or decision",
+          "body": [
+            "(жертва, пострадавший (от чего-либо))",
+            "---"
+          ],
+          "examples": [
+            "The music program was the first casualty of the budget cuts.",
+            "Privacy is often a casualty of new technology.",
+            "Small bookstores were the casualties of that merger."
+          ]
+        }
+      ],
+      "русский": "потери; убитый или раненый; жертва, пострадавший (от чего-либо)",
       "plural": "casualties",
       "countability": "countable",
       "contrast": "Casualties covers both the dead and the wounded, not only the dead."
@@ -334,14 +436,43 @@
       "term": "massacre",
       "ipa": "/ˈmæsəkər/",
       "respell": "MAS-uh-kur",
-      "meaning": "The killing of many helpless people at one time. ---",
+      "meaning": "Massacre has 2 distinct senses.",
       "examples": [
         "The massacre shocked the world.",
         "Survivors described the massacre in detail.",
-        "Both massacres were later investigated."
+        "Both massacres were later investigated.",
+        "The second half was a massacre.",
+        "Nobody expected such a massacre in the season opener.",
+        "The last two games were massacres, 42-3 and 38-7."
       ],
-      "senses": [],
-      "русский": "резня, бойня",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The killing of many helpless people at one time",
+          "body": [
+            "(резня, бойня)"
+          ],
+          "examples": [
+            "The massacre shocked the world.",
+            "Survivors described the massacre in detail.",
+            "Both massacres were later investigated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A completely one-sided defeat in a game or contest",
+          "body": [
+            "(разгром (в игре, состязании))",
+            "---"
+          ],
+          "examples": [
+            "The second half was a massacre.",
+            "Nobody expected such a massacre in the season opener.",
+            "The last two games were massacres, 42-3 and 38-7."
+          ]
+        }
+      ],
+      "русский": "резня, бойня; разгром (в игре, состязании)",
       "plural": "massacres",
       "countability": "countable",
       "contrast": "Ends in -cre but sounds like -ker: MAS-uh-kur."
@@ -465,14 +596,43 @@
       "term": "conquest",
       "ipa": "/ˈkɑːŋkwɛst/",
       "respell": "KAHNG-kwest",
-      "meaning": "The taking of land or a people by military force. ---",
+      "meaning": "Conquest has 2 distinct senses.",
       "examples": [
         "The Norman conquest changed England forever.",
         "Their conquest of the valley took a month.",
-        "He wrote about the Spanish conquests in the Americas."
+        "He wrote about the Spanish conquests in the Americas.",
+        "He bragged to his friends about his latest conquest.",
+        "The novel lists his conquests in tiresome detail.",
+        "She had no interest in becoming another conquest."
       ],
-      "senses": [],
-      "русский": "завоевание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The taking of land or a people by military force",
+          "body": [
+            "(завоевание)"
+          ],
+          "examples": [
+            "The Norman conquest changed England forever.",
+            "Their conquest of the valley took a month.",
+            "He wrote about the Spanish conquests in the Americas."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose love or attention someone has won",
+          "body": [
+            "(любовная победа, покорённое сердце)",
+            "---"
+          ],
+          "examples": [
+            "He bragged to his friends about his latest conquest.",
+            "The novel lists his conquests in tiresome detail.",
+            "She had no interest in becoming another conquest."
+          ]
+        }
+      ],
+      "русский": "завоевание; любовная победа, покорённое сердце",
       "plural": "conquests",
       "countability": "countable"
     },
@@ -510,14 +670,43 @@
       "term": "aggression",
       "ipa": "/əˈɡrɛʃən/",
       "respell": "uh-GRESH-uhn",
-      "meaning": "An unprovoked attack on another country or person. ---",
+      "meaning": "Aggression has 2 distinct senses.",
       "examples": [
         "The invasion was condemned as an act of aggression.",
         "They accused their neighbor of open aggression.",
-        "The treaty was meant to prevent aggression."
+        "The treaty was meant to prevent aggression.",
+        "The dog showed aggression toward strangers.",
+        "He gets into fights and can't control his aggression.",
+        "Teachers watch for signs of aggression on the playground."
       ],
-      "senses": [],
-      "русский": "агрессия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unprovoked attack on another country or person",
+          "body": [
+            "(агрессия)"
+          ],
+          "examples": [
+            "The invasion was condemned as an act of aggression.",
+            "They accused their neighbor of open aggression.",
+            "The treaty was meant to prevent aggression."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Angry or violent behavior or feelings toward other people",
+          "body": [
+            "(агрессивность, агрессивное поведение)",
+            "---"
+          ],
+          "examples": [
+            "The dog showed aggression toward strangers.",
+            "He gets into fights and can't control his aggression.",
+            "Teachers watch for signs of aggression on the playground."
+          ]
+        }
+      ],
+      "русский": "агрессия; агрессивность, агрессивное поведение",
       "countability": "uncountable"
     },
     {
@@ -730,14 +919,88 @@
       "term": "division",
       "ipa": "/dɪˈvɪʒən/",
       "respell": "dih-VIZH-uhn",
-      "meaning": "A large army unit made up of several brigades. ---",
+      "meaning": "Division has 5 distinct senses.",
       "examples": [
         "An armored division crossed the border.",
         "The division suffered heavy losses.",
-        "Four divisions were committed to the offensive."
+        "Four divisions were committed to the offensive.",
+        "Third graders start long division this year.",
+        "She's fine at multiplication but still struggles with division.",
+        "Use division to find the average.",
+        "The will spells out the division of the property.",
+        "They argued for months over the division of assets.",
+        "The division of labor in that kitchen was never fair.",
+        "The vote exposed deep divisions within the party.",
+        "There's a growing division between the older and younger members.",
+        "The issue created divisions that never healed.",
+        "She runs the company's Latin American division.",
+        "The consumer products division had a strong quarter.",
+        "Two divisions were merged to cut costs."
       ],
-      "senses": [],
-      "русский": "дивизия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large army unit made up of several brigades",
+          "body": [
+            "(дивизия)"
+          ],
+          "examples": [
+            "An armored division crossed the border.",
+            "The division suffered heavy losses.",
+            "Four divisions were committed to the offensive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The arithmetic operation of finding how many times one number goes into another",
+          "body": [
+            "(деление (арифметическое действие))"
+          ],
+          "examples": [
+            "Third graders start long division this year.",
+            "She's fine at multiplication but still struggles with division.",
+            "Use division to find the average."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of splitting something into parts or sharing it out",
+          "body": [
+            "(раздел, разделение)"
+          ],
+          "examples": [
+            "The will spells out the division of the property.",
+            "They argued for months over the division of assets.",
+            "The division of labor in that kitchen was never fair."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A serious disagreement that splits a group into opposing sides",
+          "body": [
+            "(раскол, разногласия)"
+          ],
+          "examples": [
+            "The vote exposed deep divisions within the party.",
+            "There's a growing division between the older and younger members.",
+            "The issue created divisions that never healed."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "A large section of a company or organization",
+          "body": [
+            "(подразделение, отдел (компании))",
+            "---"
+          ],
+          "examples": [
+            "She runs the company's Latin American division.",
+            "The consumer products division had a strong quarter.",
+            "Two divisions were merged to cut costs."
+          ]
+        }
+      ],
+      "русский": "дивизия; деление (арифметическое действие); раздел, разделение; раскол, разногласия; подразделение, отдел (компании)",
       "plural": "divisions",
       "countability": "countable"
     },
@@ -852,14 +1115,43 @@
       "term": "lieutenant",
       "ipa": "/luːˈtɛnənt/",
       "respell": "loo-TEN-uhnt",
-      "meaning": "A junior officer who usually commands a platoon. ---",
+      "meaning": "Lieutenant has 2 distinct senses.",
       "examples": [
         "The lieutenant took over when the captain fell.",
         "Two lieutenants led the patrol.",
-        "He was promoted to lieutenant last spring."
+        "He was promoted to lieutenant last spring.",
+        "The mayor sent one of his lieutenants to the meeting.",
+        "She was the senator's chief lieutenant for twenty years.",
+        "The boss and his lieutenants ran the whole operation."
       ],
-      "senses": [],
-      "русский": "лейтенант",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A junior officer who usually commands a platoon",
+          "body": [
+            "(лейтенант)"
+          ],
+          "examples": [
+            "The lieutenant took over when the captain fell.",
+            "Two lieutenants led the patrol.",
+            "He was promoted to lieutenant last spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trusted assistant who carries out a leader's orders",
+          "body": [
+            "(помощник, доверенное лицо)",
+            "---"
+          ],
+          "examples": [
+            "The mayor sent one of his lieutenants to the meeting.",
+            "She was the senator's chief lieutenant for twenty years.",
+            "The boss and his lieutenants ran the whole operation."
+          ]
+        }
+      ],
+      "русский": "лейтенант; помощник, доверенное лицо",
       "plural": "lieutenants",
       "countability": "countable",
       "contrast": "Americans say loo-TEN-uhnt; the British say lef-TEN-uhnt."
@@ -2536,14 +2828,43 @@
       "term": "maneuver",
       "ipa": "/məˈnuːvər/",
       "respell": "muh-NOO-vur",
-      "meaning": "A planned movement of troops, ships, or vehicles. ---",
+      "meaning": "Maneuver has 2 distinct senses.",
       "examples": [
         "It was a bold maneuver that nearly worked.",
         "The fleet is on maneuvers off the coast.",
-        "A simple flanking maneuver won the battle."
+        "A simple flanking maneuver won the battle.",
+        "The buyout was a legal maneuver to avoid the tax.",
+        "Both parties tried the same procedural maneuvers on the floor.",
+        "Getting the mayor onto the committee was a smart maneuver."
       ],
-      "senses": [],
-      "русский": "манёвр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A planned movement of troops, ships, or vehicles",
+          "body": [
+            "(манёвр)"
+          ],
+          "examples": [
+            "It was a bold maneuver that nearly worked.",
+            "The fleet is on maneuvers off the coast.",
+            "A simple flanking maneuver won the battle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A clever move made to gain an advantage",
+          "body": [
+            "(манёвр, ловкий ход, уловка)",
+            "---"
+          ],
+          "examples": [
+            "The buyout was a legal maneuver to avoid the tax.",
+            "Both parties tried the same procedural maneuvers on the floor.",
+            "Getting the mayor onto the committee was a smart maneuver."
+          ]
+        }
+      ],
+      "русский": "манёвр; манёвр, ловкий ход, уловка",
       "plural": "maneuvers",
       "countability": "countable",
       "contrast": "American spelling maneuver; British manoeuvre."
@@ -2832,14 +3153,43 @@
       "term": "sacrifice",
       "ipa": "/ˈsækrəfaɪs/",
       "respell": "SAK-ruh-fyse",
-      "meaning": "Something valuable given up for the sake of others or a cause. ---",
+      "meaning": "Sacrifice has 2 distinct senses.",
       "examples": [
         "Their sacrifice is remembered every year.",
         "The war demanded enormous sacrifices.",
-        "He made the ultimate sacrifice."
+        "He made the ultimate sacrifice.",
+        "The priests performed a sacrifice at dawn.",
+        "A lamb was offered as a sacrifice for a good harvest.",
+        "The museum explains how such sacrifices were carried out."
       ],
-      "senses": [],
-      "русский": "жертва, самопожертвование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something valuable given up for the sake of others or a cause",
+          "body": [
+            "(жертва, самопожертвование)"
+          ],
+          "examples": [
+            "Their sacrifice is remembered every year.",
+            "The war demanded enormous sacrifices.",
+            "He made the ultimate sacrifice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An animal or object killed or offered to a god in a religious ceremony",
+          "body": [
+            "(жертвоприношение)",
+            "---"
+          ],
+          "examples": [
+            "The priests performed a sacrifice at dawn.",
+            "A lamb was offered as a sacrifice for a good harvest.",
+            "The museum explains how such sacrifices were carried out."
+          ]
+        }
+      ],
+      "русский": "жертва, самопожертвование; жертвоприношение",
       "plural": "sacrifices",
       "countability": "countable"
     },

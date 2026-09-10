@@ -1041,14 +1041,22 @@ Lilac has 2 distinct senses.
 ### lavender
 
 **Pronunciation:** /ˈlævəndər/ &middot; *LAV-uhn-dur*
-**Русский:** лаванда
+**Русский:** лаванда; бледно-лиловый, лавандовый цвет
 **Countability:** uncountable
 
-A low bush with narrow gray-green leaves and fragrant purple flowers.
+Lavender has 2 distinct senses.
+
+**1. A low bush with narrow gray-green leaves and fragrant purple flowers.** (лаванда)
 
 1. There's *lavender* planted all along the walk.
 2. She dries *lavender* and puts it in the drawers.
 3. Bees are all over the *lavender* in July.
+
+**2. A pale purple color.** (бледно-лиловый, лавандовый цвет)
+
+4. The bedroom walls were painted a soft *lavender*.
+5. She chose *lavender* for the bridesmaids' dresses.
+6. The sky turned *lavender* just after sunset.
 
 ---
 

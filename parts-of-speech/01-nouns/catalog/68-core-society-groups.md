@@ -42,15 +42,23 @@ A group of people who live in the same place or share the same interests.
 ### population
 
 **Pronunciation:** /ˌpɑːpjəˈleɪʃən/ &middot; *pah-pyuh-LAY-shun*
-**Русский:** население
+**Русский:** население; популяция (животных, растений)
 **Plural:** *populations*
 **Countability:** countable
 
-All the people living in a particular place.
+Population has 2 distinct senses.
+
+**1. All the people living in a particular place.** (население)
 
 1. The town's *population* has doubled since 1990.
 2. Rural *populations* are shrinking across the Midwest.
 3. About a third of the *population* voted.
+
+**2. All the animals or plants of one kind living in an area.** (популяция (животных, растений))
+
+4. The wolf *population* has recovered since the ban on hunting.
+5. Warmer water is shrinking the salmon *population*.
+6. Biologists count the deer *populations* in each county every spring.
 
 ---
 
@@ -73,46 +81,70 @@ An advanced, organized human society, or the condition of living in one.
 ### humanity
 
 **Pronunciation:** /hjuːˈmænəti/ &middot; *hyoo-MAN-uh-tee*
-**Русский:** человечество; человечность
+**Русский:** человечество; человечность; гуманитарные науки
 **Countability:** uncountable
 
-The human race as a whole, or the quality of being kind to others.
+Humanity has 2 distinct senses.
+
+**1. The human race as a whole, or the quality of being kind to others.** (человечество; человечность)
 
 1. A disease that threatens all of *humanity*.
 2. She showed real *humanity* toward the refugees.
 3. Crimes against *humanity* carry no statute of limitations.
+
+**2. The academic subjects that study human culture, such as literature, history, and philosophy, used in the plural.** (гуманитарные науки)
+
+4. She majored in the *humanities* and then went to law school.
+5. Federal funding for the *humanities* has been cut again.
+6. The college requires two years of *humanities* before you can graduate.
 
 ---
 
 ### institution
 
 **Pronunciation:** /ˌɪnstɪˈtuːʃən/ &middot; *in-stih-TOO-shun*
-**Русский:** учреждение, институт (организация)
+**Русский:** учреждение, институт (организация); устой, общественный институт (обычай)
 **Plural:** *institutions*
 **Countability:** countable
 **Contrast:** Americans say in-stih-TOO-shun; the British add a *y* sound: in-stih-TYOO-shun.
 
-A large, established organization such as a bank, a school, or a hospital.
+Institution has 2 distinct senses.
+
+**1. A large, established organization such as a bank, a school, or a hospital.** (учреждение, институт (организация))
 
 1. The university is the oldest *institution* in the state.
 2. Financial *institutions* tightened their lending rules.
 3. Marriage is an *institution* that keeps changing.
+
+**2. A custom or practice that has been an important part of a society for a long time.** (устой, общественный институт (обычай))
+
+4. The *institution* of marriage has changed a great deal in fifty years.
+5. Historians trace how the *institution* of slavery shaped the South.
+6. Friday night football is a small-town *institution*.
 
 ---
 
 ### hierarchy
 
 **Pronunciation:** /ˈhaɪəˌrɑːrki/ &middot; *HY-uh-rar-kee*
-**Русский:** иерархия
+**Русский:** иерархия; руководство, верхушка (организации)
 **Plural:** *hierarchies*
 **Countability:** countable
 **Contrast:** The *ch* is said like *k*, and the stress is on the first syllable: HY-uh-rar-kee.
 
-A system in which people or things are ranked one above another.
+Hierarchy has 2 distinct senses.
+
+**1. A system in which people or things are ranked one above another.** (иерархия)
 
 1. The company has a strict *hierarchy*.
 2. Wolves live in a clear social *hierarchy*.
 3. She rose quickly through the *hierarchy*.
+
+**2. The group of people who hold the top positions in an organization.** (руководство, верхушка (организации))
+
+4. The church *hierarchy* refused to comment on the report.
+5. Nobody in the company's *hierarchy* would take responsibility.
+6. The decision came straight from the party *hierarchy*.
 
 ---
 
@@ -166,14 +198,22 @@ The highest social class, usually one with inherited titles and land.
 ### nobility
 
 **Pronunciation:** /noʊˈbɪləti/ &middot; *noh-BIL-uh-tee*
-**Русский:** знать, дворянство
+**Русский:** знать, дворянство; благородство
 **Countability:** uncountable
 
-The people of the highest social rank, who hold inherited titles.
+Nobility has 2 distinct senses.
+
+**1. The people of the highest social rank, who hold inherited titles.** (знать, дворянство)
 
 1. The *nobility* paid almost no taxes.
 2. He can trace his family back to the medieval *nobility*.
 3. Members of the *nobility* were exempt from military service.
+
+**2. The quality of being honorable and generous in character.** (благородство)
+
+4. There was real *nobility* in the way he accepted the loss.
+5. She admired the quiet *nobility* of her grandmother's life.
+6. The film finds *nobility* in ordinary work.
 
 ---
 
@@ -279,15 +319,29 @@ A small, closed group of friends who keep other people out.
 ### association
 
 **Pronunciation:** /əˌsoʊsiˈeɪʃən/ &middot; *uh-soh-see-AY-shun*
-**Русский:** ассоциация, объединение
+**Русский:** ассоциация, объединение; ассоциация (мысленная связь); связь, взаимосвязь
 **Plural:** *associations*
 **Countability:** countable
 
-An organized group of people who share an interest or a profession.
+Association has 3 distinct senses.
+
+**1. An organized group of people who share an interest or a profession.** (ассоциация, объединение)
 
 1. The neighborhood *association* voted on the fence rules.
 2. He joined the state bar *association*.
 3. Several trade *associations* opposed the bill.
+
+**2. A feeling, memory, or idea that something brings to mind.** (ассоциация (мысленная связь))
+
+4. The word carries negative *associations* for a lot of people.
+5. That song has happy *associations* for me.
+6. The old house held painful *associations* she could not shake.
+
+**3. A connection or link between two things, or between a person and a group.** (связь, взаимосвязь)
+
+7. Studies show an *association* between smoking and heart disease.
+8. He ended his *association* with the firm last year.
+9. The town has a long *association* with the auto industry.
 
 ---
 
@@ -348,46 +402,70 @@ A group of people who have come together in one place.
 ### membership
 
 **Pronunciation:** /ˈmɛmbərʃɪp/ &middot; *MEM-bur-ship*
-**Русский:** членство
+**Русский:** членство; члены организации, состав
 **Plural:** *memberships*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable for belonging (*membership is voluntary*); countable for a subscription (*two memberships*).
 
-The state of belonging to a group, or a paid right to use something.
+Membership has 2 distinct senses.
+
+**1. The state of belonging to a group, or a paid right to use something.** (членство)
 
 1. *Membership* in the union is voluntary.
 2. He let his gym *membership* lapse.
 3. They sell family *memberships* at a discount.
+
+**2. All the people who belong to an organization, taken together.** (члены организации, состав)
+
+4. The union's *membership* voted to accept the contract.
+5. The club surveyed its *membership* about the dues increase.
+6. Our *membership* is mostly retired teachers and nurses.
 
 ---
 
 ### leadership
 
 **Pronunciation:** /ˈliːdərʃɪp/ &middot; *LEE-dur-ship*
-**Русский:** руководство, лидерство
+**Русский:** руководство, лидерство; руководство (руководящий состав)
 **Countability:** uncountable
 
-The position of leading a group, or the ability to lead one well.
+Leadership has 2 distinct senses.
+
+**1. The position of leading a group, or the ability to lead one well.** (руководство, лидерство)
 
 1. The company needs stronger *leadership*.
 2. Under her *leadership*, membership doubled.
 3. He showed real *leadership* during the crisis.
+
+**2. The people who lead an organization, taken together.** (руководство (руководящий состав))
+
+4. The union's *leadership* voted to accept the offer.
+5. Party *leadership* met behind closed doors.
+6. New *leadership* took over the company last spring.
 
 ---
 
 ### demographic
 
 **Pronunciation:** /ˌdɛməˈɡræfɪk/ &middot; *dem-uh-GRA-fik*
-**Русский:** демографическая группа
+**Русский:** демографическая группа; демографические характеристики, состав населения
 **Plural:** *demographics*
 **Countability:** countable
 **Contrast:** The plural *demographics* also means the statistics about a population.
 
-A particular group of people defined by age, income, or similar traits.
+Demographic has 2 distinct senses.
+
+**1. A particular group of people defined by age, income, or similar traits.** (демографическая группа)
 
 1. The show is aimed at a young *demographic*.
 2. Advertisers track several *demographics* at once.
 3. That *demographic* votes at very high rates.
+
+**2. The statistical make-up of a population, such as its age, income, and racial mix.** (демографические характеристики, состав населения)
+
+4. The *demographics* of the town have changed a lot in ten years.
+5. The chain studies the *demographics* of a neighborhood before opening a store.
+6. Shifting *demographics* are reshaping the school district.
 
 ---
 
@@ -891,15 +969,23 @@ A person who promises at a baptism to help raise a child.
 ### guardian
 
 **Pronunciation:** /ˈɡɑːrdiən/ &middot; *GAR-dee-un*
-**Русский:** опекун
+**Русский:** опекун; страж, защитник, хранитель
 **Plural:** *guardians*
 **Countability:** countable
 
-An adult who is legally responsible for a child who is not their own.
+Guardian has 2 distinct senses.
+
+**1. An adult who is legally responsible for a child who is not their own.** (опекун)
 
 1. A court appointed his aunt as his *guardian*.
 2. *Guardians* must sign the permission slip.
 3. She became the *guardian* of her two nephews.
+
+**2. A person or group that protects or defends something.** (страж, защитник, хранитель)
+
+4. The courts see themselves as *guardians* of the Constitution.
+5. She became the *guardian* of her grandfather's letters and photographs.
+6. Editors are supposed to be *guardians* of accuracy.
 
 ---
 
@@ -952,15 +1038,23 @@ A man whose wife has died.
 ### bachelor
 
 **Pronunciation:** /ˈbætʃələr/ &middot; *BATCH-uh-lur*
-**Русский:** холостяк
+**Русский:** холостяк; бакалавр (обладатель степени)
 **Plural:** *bachelors*
 **Countability:** countable
 
-A man who has never been married.
+Bachelor has 2 distinct senses.
+
+**1. A man who has never been married.** (холостяк)
 
 1. He stayed a *bachelor* until he was fifty.
 2. The apartment looked like a *bachelor* lived there.
 3. Two confirmed *bachelors* shared the house.
+
+**2. A person who holds a first university degree, used mainly in the name of the degree itself.** (бакалавр (обладатель степени))
+
+4. The job posting asks for a *bachelor*'s degree in accounting.
+5. He finished his *Bachelor* of Arts in three years.
+6. Both finalists hold *bachelor*'s degrees in nursing.
 
 ---
 
@@ -1020,15 +1114,35 @@ The legal ending of a marriage.
 ### engagement
 
 **Pronunciation:** /ɪnˈɡeɪdʒmənt/ &middot; *in-GAYJ-muhnt*
-**Русский:** помолвка
+**Русский:** помолвка; договорённость о встрече; ангажемент, выступление; вовлечённость, участие; бой, боестолкновение
 **Plural:** *engagements*
 **Countability:** countable
 
-An agreement between two people to marry.
+Engagement has 4 distinct senses.
+
+**1. An agreement between two people to marry.** (помолвка)
 
 1. They announced their *engagement* at dinner.
 2. The *engagement* lasted less than a year.
 3. Both *engagements* were called off.
+
+**2. An arrangement to be somewhere or do something at a set time.** (договорённость о встрече; ангажемент, выступление)
+
+4. She turned down the dinner because of a prior *engagement*.
+5. The band has three *engagements* lined up this month.
+6. He canceled a speaking *engagement* in Chicago.
+
+**3. Active involvement in something, or the attention an audience gives it.** (вовлечённость, участие)
+
+7. The mayor wants more community *engagement* in the planning process.
+8. The post got almost no *engagement* on social media.
+9. Teachers track student *engagement* as closely as test scores.
+
+**4. A period of fighting between opposing military forces.** (бой, боестолкновение)
+
+10. The *engagement* lasted less than an hour.
+11. Strict rules of *engagement* limit when troops may fire.
+12. Both ships were damaged in the *engagement*.
 
 ---
 
@@ -1087,15 +1201,23 @@ The state of being a mother.
 ### adoption
 
 **Pronunciation:** /əˈdɑːpʃən/ &middot; *uh-DAHP-shun*
-**Русский:** усыновление, удочерение
+**Русский:** усыновление, удочерение; принятие, внедрение (нового)
 **Plural:** *adoptions*
 **Countability:** countable
 
-The legal act of taking another person's child into your family as your own.
+Adoption has 2 distinct senses.
+
+**1. The legal act of taking another person's child into your family as your own.** (усыновление, удочерение)
 
 1. The *adoption* took eighteen months.
 2. International *adoptions* have dropped sharply.
 3. They're going through the *adoption* process now.
+
+**2. The act of starting to use or accept something new.** (принятие, внедрение (нового))
+
+4. The *adoption* of electric buses saved the city money.
+5. Wide *adoption* of the app took about two years.
+6. The board voted for *adoption* of the new safety rules.
 
 ---
 
@@ -1164,30 +1286,46 @@ The relationship between people who are friends.
 ### relationship
 
 **Pronunciation:** /rɪˈleɪʃənʃɪp/ &middot; *rih-LAY-shun-ship*
-**Русский:** отношения, взаимоотношения
+**Русский:** отношения, взаимоотношения; связь, зависимость (между явлениями)
 **Plural:** *relationships*
 **Countability:** countable
 
-The way two people or groups behave toward each other, especially romantically.
+Relationship has 2 distinct senses.
+
+**1. The way two people or groups behave toward each other, especially romantically.** (отношения, взаимоотношения)
 
 1. They've been in a *relationship* since college.
 2. The *relationship* between the two towns is tense.
 3. Long-distance *relationships* are hard.
+
+**2. A connection or link between two things, facts, or numbers.** (связь, зависимость (между явлениями))
+
+4. The study found a clear *relationship* between sleep and grades.
+5. There is no *relationship* between the two events.
+6. Economists argue about the *relationship* of wages to inflation.
 
 ---
 
 ### acquaintance
 
 **Pronunciation:** /əˈkweɪntəns/ &middot; *uh-KWAYN-tuhns*
-**Русский:** знакомый (человек)
+**Русский:** знакомый (человек); знакомство (с предметом), осведомлённость
 **Plural:** *acquaintances*
 **Countability:** countable
 
-Someone you know slightly but who is not a close friend.
+Acquaintance has 2 distinct senses.
+
+**1. Someone you know slightly but who is not a close friend.** (знакомый (человек))
 
 1. He's an *acquaintance* from the gym.
 2. She invited a few *acquaintances* to the opening.
 3. We're *acquaintances*, not friends.
+
+**2. Knowledge or experience of something, gained by having dealt with it.** (знакомство (с предметом), осведомлённость)
+
+4. She has a passing *acquaintance* with Spanish.
+5. His *acquaintance* with the law comes from years as a court reporter.
+6. I have only a slight *acquaintance* with that part of the city.
 
 ---
 
@@ -1359,15 +1497,23 @@ An agreement in which each side gives up part of what it wanted.
 ### influence
 
 **Pronunciation:** /ˈɪnfluəns/ &middot; *IN-floo-uhns*
-**Русский:** влияние
+**Русский:** влияние; человек (или фактор), влияющий на кого-л.
 **Plural:** *influences*
 **Countability:** countable
 
-The power to affect how people think or act.
+Influence has 2 distinct senses.
+
+**1. The power to affect how people think or act.** (влияние)
 
 1. She has a lot of *influence* on the board.
 2. His teacher was a good *influence*.
 3. Her early *influences* were all jazz musicians.
+
+**2. A person or thing that affects how someone behaves or develops.** (человек (или фактор), влияющий на кого-л.)
+
+4. His older brother was a bad *influence* on him.
+5. She was the biggest *influence* on my writing.
+6. Blues and gospel were early *influences* on the band.
 
 ---
 
@@ -1419,14 +1565,22 @@ Talk about other people's private lives, often unkind or untrue.
 ### hospitality
 
 **Pronunciation:** /ˌhɑːspəˈtæləti/ &middot; *hah-spuh-TA-luh-tee*
-**Русский:** гостеприимство
+**Русский:** гостеприимство; гостиничный и ресторанный бизнес, индустрия гостеприимства
 **Countability:** uncountable
 
-Friendly, generous treatment of guests.
+Hospitality has 2 distinct senses.
+
+**1. Friendly, generous treatment of guests.** (гостеприимство)
 
 1. Southern *hospitality* is not a myth.
 2. Thank you for your *hospitality* this weekend.
 3. She works in the *hospitality* industry.
+
+**2. The business of running hotels, restaurants, and other places that serve guests.** (гостиничный и ресторанный бизнес, индустрия гостеприимства)
+
+4. She has worked in *hospitality* since she was nineteen.
+5. The college offers a two-year degree in *hospitality*.
+6. *Hospitality* was the hardest-hit industry during the shutdown.
 
 ---
 
@@ -1516,15 +1670,23 @@ A standard of behavior that is usual or expected in a group.
 ### inequality
 
 **Pronunciation:** /ˌɪnɪˈkwɑːləti/ &middot; *in-ih-KWAH-luh-tee*
-**Русский:** неравенство
+**Русский:** неравенство; неравенство (матем.)
 **Plural:** *inequalities*
 **Countability:** countable
 
-An unfair difference between groups in wealth, rights, or opportunity.
+Inequality has 2 distinct senses.
+
+**1. An unfair difference between groups in wealth, rights, or opportunity.** (неравенство)
 
 1. Income *inequality* has grown for decades.
 2. The report lists *inequalities* in health care.
 3. *Inequality* between the two districts is obvious.
+
+**2. In mathematics, a statement that one quantity is larger or smaller than another.** (неравенство (матем.))
+
+4. He wrote the *inequality* x > 5 on the board.
+5. Solve the *inequality* and graph it on a number line.
+6. The homework was ten *inequalities* to solve.
 
 ---
 
@@ -1755,15 +1917,23 @@ The ideas and tastes shared by most people in a society.
 ### celebrity
 
 **Pronunciation:** /səˈlɛbrəti/ &middot; *suh-LEB-ruh-tee*
-**Русский:** знаменитость
+**Русский:** знаменитость; известность, слава
 **Plural:** *celebrities*
 **Countability:** countable
 
-A famous person, especially in entertainment or sports.
+Celebrity has 2 distinct senses.
+
+**1. A famous person, especially in entertainment or sports.** (знаменитость)
 
 1. Three *celebrities* showed up for the benefit.
 2. He became a minor *celebrity* overnight.
 3. *Celebrities* get treated differently everywhere.
+
+**2. The state of being famous.** (известность, слава)
+
+4. The book brought her sudden *celebrity*.
+5. He was never comfortable with his new *celebrity*.
+6. *Celebrity* did not make the job any easier.
 
 ---
 

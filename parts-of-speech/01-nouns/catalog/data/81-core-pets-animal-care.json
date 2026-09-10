@@ -699,14 +699,43 @@
       "term": "obedience",
       "ipa": "/oʊˈbiːdiəns/",
       "respell": "oh-BEE-dee-uhns",
-      "meaning": "An animal's readiness to do what it is told. ---",
+      "meaning": "Obedience has 2 distinct senses.",
       "examples": [
         "The dog has no obedience at all.",
         "We're working on basic obedience.",
-        "Obedience takes daily practice."
+        "Obedience takes daily practice.",
+        "The army expects complete obedience to orders.",
+        "He was raised to value obedience above everything else.",
+        "Obedience to the law is not optional, the judge told him."
       ],
-      "senses": [],
-      "русский": "послушание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An animal's readiness to do what it is told",
+          "body": [
+            "(послушание)"
+          ],
+          "examples": [
+            "The dog has no obedience at all.",
+            "We're working on basic obedience.",
+            "Obedience takes daily practice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The practice of doing what a person, law, or rule requires",
+          "body": [
+            "(повиновение, подчинение)",
+            "---"
+          ],
+          "examples": [
+            "The army expects complete obedience to orders.",
+            "He was raised to value obedience above everything else.",
+            "Obedience to the law is not optional, the judge told him."
+          ]
+        }
+      ],
+      "русский": "послушание; повиновение, подчинение",
       "countability": "uncountable",
       "contrast": "Stressed on the second syllable: oh-BEE-dee-uhns."
     },
@@ -1569,14 +1598,43 @@
       "term": "gestation",
       "ipa": "/dʒɛˈsteɪʃən/",
       "respell": "jeh-STAY-shuhn",
-      "meaning": "The time an animal carries its young before birth. ---",
+      "meaning": "Gestation has 2 distinct senses.",
       "examples": [
         "Gestation in dogs is about nine weeks.",
         "The cow is in the last month of gestation.",
-        "Gestation is shorter in smaller animals."
+        "Gestation is shorter in smaller animals.",
+        "The film had a ten-year gestation before it reached theaters.",
+        "After a long gestation, the bill finally came to a vote.",
+        "The album is still in gestation."
       ],
-      "senses": [],
-      "русский": "беременность (у животных)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The time an animal carries its young before birth",
+          "body": [
+            "(беременность (у животных))"
+          ],
+          "examples": [
+            "Gestation in dogs is about nine weeks.",
+            "The cow is in the last month of gestation.",
+            "Gestation is shorter in smaller animals."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The long period in which an idea or project develops before it appears",
+          "body": [
+            "(период вынашивания замысла, долгая подготовка)",
+            "---"
+          ],
+          "examples": [
+            "The film had a ten-year gestation before it reached theaters.",
+            "After a long gestation, the bill finally came to a vote.",
+            "The album is still in gestation."
+          ]
+        }
+      ],
+      "русский": "беременность (у животных); период вынашивания замысла, долгая подготовка",
       "countability": "uncountable"
     },
     {

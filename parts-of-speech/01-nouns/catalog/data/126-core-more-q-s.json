@@ -1225,14 +1225,43 @@
       "term": "realization",
       "ipa": "/ˌriːələˈzeɪʃən/",
       "respell": "ree-uh-luh-ZAY-shun",
-      "meaning": "The moment of suddenly understanding something. ---",
+      "meaning": "Realization has 2 distinct senses.",
       "examples": [
         "It came as a slow realization that nobody was coming.",
         "The realization hit him halfway home.",
-        "Both realizations changed the way she ran the business."
+        "Both realizations changed the way she ran the business.",
+        "Opening the bakery was the realization of a lifelong dream.",
+        "The park is the realization of an idea he had thirty years ago.",
+        "Full realization of the plan will take another decade."
       ],
-      "senses": [],
-      "русский": "осознание, понимание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The moment of suddenly understanding something",
+          "body": [
+            "(осознание, понимание)"
+          ],
+          "examples": [
+            "It came as a slow realization that nobody was coming.",
+            "The realization hit him halfway home.",
+            "Both realizations changed the way she ran the business."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The achieving of something that was planned, hoped for, or imagined",
+          "body": [
+            "(осуществление, воплощение (мечты, замысла))",
+            "---"
+          ],
+          "examples": [
+            "Opening the bakery was the realization of a lifelong dream.",
+            "The park is the realization of an idea he had thirty years ago.",
+            "Full realization of the plan will take another decade."
+          ]
+        }
+      ],
+      "русский": "осознание, понимание; осуществление, воплощение (мечты, замысла)",
       "plural": "realizations",
       "countability": "countable"
     },
@@ -1537,14 +1566,43 @@
       "term": "redemption",
       "ipa": "/rɪˈdɛmpʃən/",
       "respell": "rih-DEMP-shuhn",
-      "meaning": "The act of being freed from blame or sin, or of making up for a past wrong. ---",
+      "meaning": "Redemption has 2 distinct senses.",
       "examples": [
         "The movie is a story of crime and redemption.",
         "He saw the job as a shot at redemption.",
-        "There is no redemption without honesty."
+        "There is no redemption without honesty.",
+        "The coupon lists a redemption deadline of March 1.",
+        "Points redemption starts at ten thousand miles.",
+        "The store tracks redemption of its gift cards."
       ],
-      "senses": [],
-      "русский": "искупление; выкуп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of being freed from blame or sin, or of making up for a past wrong",
+          "body": [
+            "(искупление; выкуп)"
+          ],
+          "examples": [
+            "The movie is a story of crime and redemption.",
+            "He saw the job as a shot at redemption.",
+            "There is no redemption without honesty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The exchanging of a coupon, gift card, or points for goods, cash, or a service",
+          "body": [
+            "(погашение купона, обмен баллов на товар)",
+            "---"
+          ],
+          "examples": [
+            "The coupon lists a redemption deadline of March 1.",
+            "Points redemption starts at ten thousand miles.",
+            "The store tracks redemption of its gift cards."
+          ]
+        }
+      ],
+      "русский": "искупление; выкуп; погашение купона, обмен баллов на товар",
       "countability": "uncountable"
     },
     {
@@ -1581,14 +1639,43 @@
       "term": "reduction",
       "ipa": "/rɪˈdʌkʃən/",
       "respell": "rih-DUK-shuhn",
-      "meaning": "A decrease in the size, amount, or price of something. ---",
+      "meaning": "Reduction has 2 distinct senses.",
       "examples": [
         "The plan calls for a ten percent reduction in staff.",
         "We saw a big reduction in noise after the fence went up.",
-        "Both reductions take effect in January."
+        "Both reductions take effect in January.",
+        "The steak came with a red wine reduction.",
+        "Simmer the vinegar until it turns into a syrupy reduction.",
+        "He drizzled a balsamic reduction over the strawberries."
       ],
-      "senses": [],
-      "русский": "сокращение, снижение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A decrease in the size, amount, or price of something",
+          "body": [
+            "(сокращение, снижение)"
+          ],
+          "examples": [
+            "The plan calls for a ten percent reduction in staff.",
+            "We saw a big reduction in noise after the fence went up.",
+            "Both reductions take effect in January."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick, concentrated sauce made by boiling a liquid down",
+          "body": [
+            "(уваренный соус, редукция (кулин.))",
+            "---"
+          ],
+          "examples": [
+            "The steak came with a red wine reduction.",
+            "Simmer the vinegar until it turns into a syrupy reduction.",
+            "He drizzled a balsamic reduction over the strawberries."
+          ]
+        }
+      ],
+      "русский": "сокращение, снижение; уваренный соус, редукция (кулин.)",
       "plural": "reductions",
       "countability": "countable"
     },
@@ -2738,14 +2825,43 @@
       "term": "restraint",
       "ipa": "/rɪˈstreɪnt/",
       "respell": "rih-STRAYNT",
-      "meaning": "Self-control, or a limit placed on what someone can do. ---",
+      "meaning": "Restraint has 2 distinct senses.",
       "examples": [
         "The officers showed remarkable restraint.",
         "Spending restraint is back on the agenda.",
-        "He wrote about it with unusual restraint."
+        "He wrote about it with unusual restraint.",
+        "Every child under eight needs a proper car restraint.",
+        "The nurse loosened the restraints on his wrists.",
+        "The roller coaster's shoulder restraints lock automatically."
       ],
-      "senses": [],
-      "русский": "сдержанность; ограничение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Self-control, or a limit placed on what someone can do",
+          "body": [
+            "(сдержанность; ограничение)"
+          ],
+          "examples": [
+            "The officers showed remarkable restraint.",
+            "Spending restraint is back on the agenda.",
+            "He wrote about it with unusual restraint."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strap, belt, or device that holds a person or animal in place",
+          "body": [
+            "(удерживающее устройство, фиксирующий ремень)",
+            "---"
+          ],
+          "examples": [
+            "Every child under eight needs a proper car restraint.",
+            "The nurse loosened the restraints on his wrists.",
+            "The roller coaster's shoulder restraints lock automatically."
+          ]
+        }
+      ],
+      "русский": "сдержанность; ограничение; удерживающее устройство, фиксирующий ремень",
       "countability": "uncountable"
     },
     {
@@ -4138,14 +4254,43 @@
       "term": "sampling",
       "ipa": "/ˈsæmplɪŋ/",
       "respell": "SAM-pling",
-      "meaning": "The practice of choosing a small group or amount to represent a much larger whole. ---",
+      "meaning": "Sampling has 2 distinct senses.",
       "examples": [
         "Random sampling is what keeps the survey honest.",
         "Water sampling is done twice a month at each site.",
-        "The study's sampling method has been questioned."
+        "The study's sampling method has been questioned.",
+        "The album leans heavily on sampling of old funk records.",
+        "Sampling without permission can end in a lawsuit.",
+        "He built the whole track out of sampling and a drum machine."
       ],
-      "senses": [],
-      "русский": "выборка; отбор проб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The practice of choosing a small group or amount to represent a much larger whole",
+          "body": [
+            "(выборка; отбор проб)"
+          ],
+          "examples": [
+            "Random sampling is what keeps the survey honest.",
+            "Water sampling is done twice a month at each site.",
+            "The study's sampling method has been questioned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The use of a short piece of an existing recording inside a new song",
+          "body": [
+            "(сэмплирование (в музыке))",
+            "---"
+          ],
+          "examples": [
+            "The album leans heavily on sampling of old funk records.",
+            "Sampling without permission can end in a lawsuit.",
+            "He built the whole track out of sampling and a drum machine."
+          ]
+        }
+      ],
+      "русский": "выборка; отбор проб; сэмплирование (в музыке)",
       "countability": "uncountable"
     },
     {
@@ -4848,14 +4993,43 @@
       "term": "scramble",
       "ipa": "/ˈskræmbəl/",
       "respell": "SKRAM-buhl",
-      "meaning": "A hurried, disorganized rush to get or do something. ---",
+      "meaning": "Scramble has 2 distinct senses.",
       "examples": [
         "There was a mad scramble for the last few tickets.",
         "The storm set off a scramble to board up windows.",
-        "Every December turns into a scramble to spend the budget."
+        "Every December turns into a scramble to spend the budget.",
+        "I ordered the veggie scramble with wheat toast.",
+        "She makes a tofu scramble every Sunday morning.",
+        "Their scramble comes with bacon, peppers, and cheese."
       ],
-      "senses": [],
-      "русский": "спешка, суматоха; борьба за что-л.",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hurried, disorganized rush to get or do something",
+          "body": [
+            "(спешка, суматоха; борьба за что-л.)"
+          ],
+          "examples": [
+            "There was a mad scramble for the last few tickets.",
+            "The storm set off a scramble to board up windows.",
+            "Every December turns into a scramble to spend the budget."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A breakfast dish of eggs stirred as they cook, usually with other things mixed in",
+          "body": [
+            "(яичница-болтунья (с добавками))",
+            "---"
+          ],
+          "examples": [
+            "I ordered the veggie scramble with wheat toast.",
+            "She makes a tofu scramble every Sunday morning.",
+            "Their scramble comes with bacon, peppers, and cheese."
+          ]
+        }
+      ],
+      "русский": "спешка, суматоха; борьба за что-л.; яичница-болтунья (с добавками)",
       "plural": "scrambles",
       "countability": "countable"
     },
@@ -5134,14 +5308,43 @@
       "term": "seascape",
       "ipa": "/ˈsiːskeɪp/",
       "respell": "SEE-skayp",
-      "meaning": "A painting or photograph of a view of the sea. ---",
+      "meaning": "Seascape has 2 distinct senses.",
       "examples": [
         "A gray seascape hangs above the fireplace.",
         "The gallery is full of seascapes and harbor scenes.",
-        "He paints seascapes in oil every summer."
+        "He paints seascapes in oil every summer.",
+        "The porch looks out on a stunning seascape.",
+        "Fog rolled in and swallowed the whole seascape.",
+        "We watched the seascape change color as the sun went down."
       ],
-      "senses": [],
-      "русский": "морской пейзаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A painting or photograph of a view of the sea",
+          "body": [
+            "(морской пейзаж)"
+          ],
+          "examples": [
+            "A gray seascape hangs above the fireplace.",
+            "The gallery is full of seascapes and harbor scenes.",
+            "He paints seascapes in oil every summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wide view of the sea and the coast",
+          "body": [
+            "(вид на море, морской вид)",
+            "---"
+          ],
+          "examples": [
+            "The porch looks out on a stunning seascape.",
+            "Fog rolled in and swallowed the whole seascape.",
+            "We watched the seascape change color as the sun went down."
+          ]
+        }
+      ],
+      "русский": "морской пейзаж; вид на море, морской вид",
       "plural": "seascapes",
       "countability": "countable"
     },
@@ -5720,14 +5923,43 @@
       "term": "sequence",
       "ipa": "/ˈsiːkwəns/",
       "respell": "SEE-kwuhns",
-      "meaning": "A set of things that follow one another in a particular order. ---",
+      "meaning": "Sequence has 2 distinct senses.",
       "examples": [
         "Enter the numbers in the right sequence.",
         "The opening sequence of the movie is famous.",
-        "Scientists mapped the whole DNA sequence."
+        "Scientists mapped the whole DNA sequence.",
+        "The opening sequence was shot in a single take.",
+        "That chase sequence runs almost ten minutes.",
+        "They cut the dream sequence from the final version."
       ],
-      "senses": [],
-      "русский": "последовательность; эпизод (в фильме)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of things that follow one another in a particular order",
+          "body": [
+            "(последовательность; эпизод (в фильме))"
+          ],
+          "examples": [
+            "Enter the numbers in the right sequence.",
+            "The opening sequence of the movie is famous.",
+            "Scientists mapped the whole DNA sequence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A section of a movie showing one continuous piece of action",
+          "body": [
+            "(эпизод, сцена (в фильме))",
+            "---"
+          ],
+          "examples": [
+            "The opening sequence was shot in a single take.",
+            "That chase sequence runs almost ten minutes.",
+            "They cut the dream sequence from the final version."
+          ]
+        }
+      ],
+      "русский": "последовательность; эпизод (в фильме); эпизод, сцена (в фильме)",
       "plural": "sequences",
       "countability": "countable"
     },
@@ -5837,14 +6069,43 @@
       "term": "serviceman",
       "ipa": "/ˈsɜːrvɪsmən/",
       "respell": "SUR-vis-muhn",
-      "meaning": "A man serving in the armed forces. ---",
+      "meaning": "Serviceman has 2 distinct senses.",
       "examples": [
         "The bill raises pay for servicemen and women.",
         "A young serviceman was honored before the game.",
-        "Thousands of servicemen came home that spring."
+        "Thousands of servicemen came home that spring.",
+        "The furnace quit overnight, so a serviceman came out first thing.",
+        "Two servicemen from the cable company spent an hour on the roof.",
+        "The serviceman said the compressor was shot and the fridge wasn't worth fixing."
       ],
-      "senses": [],
-      "русский": "военнослужащий",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A man serving in the armed forces",
+          "body": [
+            "(военнослужащий)"
+          ],
+          "examples": [
+            "The bill raises pay for servicemen and women.",
+            "A young serviceman was honored before the game.",
+            "Thousands of servicemen came home that spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A man whose job is to repair and maintain machines or appliances",
+          "body": [
+            "(мастер по ремонту, техник)",
+            "---"
+          ],
+          "examples": [
+            "The furnace quit overnight, so a serviceman came out first thing.",
+            "Two servicemen from the cable company spent an hour on the roof.",
+            "The serviceman said the compressor was shot and the fridge wasn't worth fixing."
+          ]
+        }
+      ],
+      "русский": "военнослужащий; мастер по ремонту, техник",
       "plural": "servicemen",
       "countability": "countable",
       "contrast": "Irregular plural: servicemen, not \"servicemans\"."
@@ -7659,14 +7920,43 @@
       "term": "solitaire",
       "ipa": "/ˈsɑːlətɛr/",
       "respell": "SAH-luh-tair",
-      "meaning": "A card game played alone. ---",
+      "meaning": "Solitaire has 2 distinct senses.",
       "examples": [
         "He plays solitaire on his phone during layovers.",
         "My grandmother taught me solitaire on rainy days.",
-        "A game of solitaire takes about five minutes."
+        "A game of solitaire takes about five minutes.",
+        "He proposed with a half-carat solitaire.",
+        "She wears a plain gold band and a solitaire.",
+        "The case held a row of diamond solitaires."
       ],
-      "senses": [],
-      "русский": "пасьянс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A card game played alone",
+          "body": [
+            "(пасьянс)"
+          ],
+          "examples": [
+            "He plays solitaire on his phone during layovers.",
+            "My grandmother taught me solitaire on rainy days.",
+            "A game of solitaire takes about five minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single gem, usually a diamond, set by itself in a ring or other piece of jewelry",
+          "body": [
+            "(солитер (одиночный камень в оправе))",
+            "---"
+          ],
+          "examples": [
+            "He proposed with a half-carat solitaire.",
+            "She wears a plain gold band and a solitaire.",
+            "The case held a row of diamond solitaires."
+          ]
+        }
+      ],
+      "русский": "пасьянс; солитер (одиночный камень в оправе)",
       "countability": "uncountable",
       "contrast": "British English usually calls this card game patience."
     },
@@ -7956,14 +8246,43 @@
       "term": "spectacle",
       "ipa": "/ˈspɛktəkəl/",
       "respell": "SPEK-tuh-kul",
-      "meaning": "An impressive or shocking sight or public display. ---",
+      "meaning": "Spectacle has 2 distinct senses.",
       "examples": [
         "The fireworks were quite a spectacle.",
         "He got drunk and made a spectacle of himself.",
-        "The parade is one of the great spectacles of the year."
+        "The parade is one of the great spectacles of the year.",
+        "He polished his spectacles with the end of his tie.",
+        "A pair of wire-rimmed spectacles sat on the desk.",
+        "She peered over her spectacles at the class."
       ],
-      "senses": [],
-      "русский": "зрелище",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An impressive or shocking sight or public display",
+          "body": [
+            "(зрелище)"
+          ],
+          "examples": [
+            "The fireworks were quite a spectacle.",
+            "He got drunk and made a spectacle of himself.",
+            "The parade is one of the great spectacles of the year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Eyeglasses, in the plural form spectacles",
+          "body": [
+            "(очки)",
+            "---"
+          ],
+          "examples": [
+            "He polished his spectacles with the end of his tie.",
+            "A pair of wire-rimmed spectacles sat on the desk.",
+            "She peered over her spectacles at the class."
+          ]
+        }
+      ],
+      "русский": "зрелище; очки",
       "plural": "spectacles",
       "countability": "countable"
     },
@@ -7971,14 +8290,43 @@
       "term": "speculation",
       "ipa": "/ˌspɛkjəˈleɪʃən/",
       "respell": "spek-yuh-LAY-shun",
-      "meaning": "Guessing about something without firm evidence. ---",
+      "meaning": "Speculation has 2 distinct senses.",
       "examples": [
         "There's a lot of speculation about who will get the job.",
         "The company refused to comment on speculation.",
-        "That's pure speculation at this point."
+        "That's pure speculation at this point.",
+        "Land speculation pushed prices out of reach for local families.",
+        "The crash was blamed on years of reckless speculation.",
+        "He made and lost a fortune on currency speculation."
       ],
-      "senses": [],
-      "русский": "предположения, домыслы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Guessing about something without firm evidence",
+          "body": [
+            "(предположения, домыслы)"
+          ],
+          "examples": [
+            "There's a lot of speculation about who will get the job.",
+            "The company refused to comment on speculation.",
+            "That's pure speculation at this point."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The buying of property, stocks, or goods in the hope of selling them later at a profit",
+          "body": [
+            "(спекуляция (биржевая, земельная))",
+            "---"
+          ],
+          "examples": [
+            "Land speculation pushed prices out of reach for local families.",
+            "The crash was blamed on years of reckless speculation.",
+            "He made and lost a fortune on currency speculation."
+          ]
+        }
+      ],
+      "русский": "предположения, домыслы; спекуляция (биржевая, земельная)",
       "countability": "uncountable"
     },
     {
@@ -8456,14 +8804,58 @@
       "term": "sprinkle",
       "ipa": "/ˈsprɪŋkəl/",
       "respell": "SPRING-kul",
-      "meaning": "A small amount of something scattered over a surface. ---",
+      "meaning": "Sprinkle has 3 distinct senses.",
       "examples": [
         "Add a sprinkle of salt before serving.",
         "There was just a sprinkle of rain this morning.",
-        "The kids wanted extra sprinkles on their ice cream."
+        "The kids wanted extra sprinkles on their ice cream.",
+        "He asked for chocolate sprinkles on his cone.",
+        "The cupcakes were covered in rainbow sprinkles.",
+        "There is a jar of sprinkles in the baking cabinet.",
+        "It is just a sprinkle, so you do not need an umbrella.",
+        "We got a sprinkle around noon and nothing after that.",
+        "The forecast calls for a few sprinkles this evening."
       ],
-      "senses": [],
-      "русский": "щепотка, немного посыпанного сверху",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small amount of something scattered over a surface",
+          "body": [
+            "(щепотка, немного посыпанного сверху)"
+          ],
+          "examples": [
+            "Add a sprinkle of salt before serving.",
+            "There was just a sprinkle of rain this morning.",
+            "The kids wanted extra sprinkles on their ice cream."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Tiny bits of colored candy scattered on ice cream or frosting",
+          "body": [
+            "(кондитерская посыпка)"
+          ],
+          "examples": [
+            "He asked for chocolate sprinkles on his cone.",
+            "The cupcakes were covered in rainbow sprinkles.",
+            "There is a jar of sprinkles in the baking cabinet."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A very light, brief fall of rain",
+          "body": [
+            "(лёгкий дождик, морось)",
+            "---"
+          ],
+          "examples": [
+            "It is just a sprinkle, so you do not need an umbrella.",
+            "We got a sprinkle around noon and nothing after that.",
+            "The forecast calls for a few sprinkles this evening."
+          ]
+        }
+      ],
+      "русский": "щепотка, немного посыпанного сверху; кондитерская посыпка; лёгкий дождик, морось",
       "plural": "sprinkles",
       "countability": "countable",
       "contrast": "In American English, sprinkles also means the tiny colored candy bits put on ice cream and cupcakes."
@@ -8797,14 +9189,43 @@
       "term": "stalemate",
       "ipa": "/ˈsteɪlmeɪt/",
       "respell": "STAYL-mayt",
-      "meaning": "A situation in which neither side can win or move forward. ---",
+      "meaning": "Stalemate has 2 distinct senses.",
       "examples": [
         "The talks ended in a stalemate.",
         "Congress is in a budget stalemate.",
-        "Both stalemates were broken by outside pressure."
+        "Both stalemates were broken by outside pressure.",
+        "He was down to one pawn and managed to force a stalemate.",
+        "The game ended in a stalemate on move fifty.",
+        "A stalemate counts as a draw, not a loss."
       ],
-      "senses": [],
-      "русский": "тупик, патовая ситуация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A situation in which neither side can win or move forward",
+          "body": [
+            "(тупик, патовая ситуация)"
+          ],
+          "examples": [
+            "The talks ended in a stalemate.",
+            "Congress is in a budget stalemate.",
+            "Both stalemates were broken by outside pressure."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A chess position in which a player has no legal move and the game ends in a draw",
+          "body": [
+            "(пат (в шахматах))",
+            "---"
+          ],
+          "examples": [
+            "He was down to one pawn and managed to force a stalemate.",
+            "The game ended in a stalemate on move fifty.",
+            "A stalemate counts as a draw, not a loss."
+          ]
+        }
+      ],
+      "русский": "тупик, патовая ситуация; пат (в шахматах)",
       "plural": "stalemates",
       "countability": "countable"
     },
@@ -8976,14 +9397,58 @@
       "term": "standing",
       "ipa": "/ˈstændɪŋ/",
       "respell": "STAN-ding",
-      "meaning": "A person's or group's rank or reputation among others. ---",
+      "meaning": "Standing has 3 distinct senses.",
       "examples": [
         "The company is in good standing with the state.",
         "Her standing in the party has slipped.",
-        "He lost his standing as an expert after the scandal."
+        "He lost his standing as an expert after the scandal.",
+        "The judge ruled that the group had no standing to sue.",
+        "The case was thrown out for lack of standing.",
+        "Only a customer of the bank would have standing here.",
+        "They have a dispute of long standing over the property line.",
+        "It is a tradition of many years' standing.",
+        "This is a friendship of thirty years' standing."
       ],
-      "senses": [],
-      "русский": "репутация, положение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person's or group's rank or reputation among others",
+          "body": [
+            "(репутация, положение)"
+          ],
+          "examples": [
+            "The company is in good standing with the state.",
+            "Her standing in the party has slipped.",
+            "He lost his standing as an expert after the scandal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The legal right to bring a case before a court",
+          "body": [
+            "(право на иск, процессуальная правоспособность)"
+          ],
+          "examples": [
+            "The judge ruled that the group had no standing to sue.",
+            "The case was thrown out for lack of standing.",
+            "Only a customer of the bank would have standing here."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The length of time something has existed or continued",
+          "body": [
+            "(давность, срок существования)",
+            "---"
+          ],
+          "examples": [
+            "They have a dispute of long standing over the property line.",
+            "It is a tradition of many years' standing.",
+            "This is a friendship of thirty years' standing."
+          ]
+        }
+      ],
+      "русский": "репутация, положение; право на иск, процессуальная правоспособность; давность, срок существования",
       "countability": "uncountable"
     },
     {
@@ -9349,14 +9814,43 @@
       "term": "sterling",
       "ipa": "/ˈstɜːrlɪŋ/",
       "respell": "STUR-ling",
-      "meaning": "Silver that is at least 92.5 percent pure. ---",
+      "meaning": "Sterling has 2 distinct senses.",
       "examples": [
         "The spoons are solid sterling.",
         "She collects sterling at estate sales.",
-        "The mark on the back says it's sterling."
+        "The mark on the back says it's sterling.",
+        "The contract is priced in sterling, not dollars.",
+        "Sterling fell sharply after the announcement.",
+        "He keeps part of his savings in sterling."
       ],
-      "senses": [],
-      "русский": "стерлинговое серебро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Silver that is at least 92.5 percent pure",
+          "body": [
+            "(стерлинговое серебро)"
+          ],
+          "examples": [
+            "The spoons are solid sterling.",
+            "She collects sterling at estate sales.",
+            "The mark on the back says it's sterling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The British pound as a currency",
+          "body": [
+            "(фунт стерлингов (валюта))",
+            "---"
+          ],
+          "examples": [
+            "The contract is priced in sterling, not dollars.",
+            "Sterling fell sharply after the announcement.",
+            "He keeps part of his savings in sterling."
+          ]
+        }
+      ],
+      "русский": "стерлинговое серебро; фунт стерлингов (валюта)",
       "countability": "uncountable"
     },
     {
@@ -9848,14 +10342,43 @@
       "term": "straitjacket",
       "ipa": "/ˈstreɪtdʒækɪt/",
       "respell": "STRAYT-jak-it",
-      "meaning": "A strong coat that binds the arms, used to restrain a violent person. ---",
+      "meaning": "Straitjacket has 2 distinct senses.",
       "examples": [
         "The magician escaped from a straitjacket.",
         "Old hospitals used straitjackets on patients.",
-        "The new rules are a straitjacket for teachers."
+        "The new rules are a straitjacket for teachers.",
+        "The budget put the department in a fiscal straitjacket.",
+        "He called the new rules a straitjacket on small business.",
+        "The treaty became a straitjacket neither side could escape."
       ],
-      "senses": [],
-      "русский": "смирительная рубашка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong coat that binds the arms, used to restrain a violent person",
+          "body": [
+            "(смирительная рубашка)"
+          ],
+          "examples": [
+            "The magician escaped from a straitjacket.",
+            "Old hospitals used straitjackets on patients.",
+            "The new rules are a straitjacket for teachers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rule or situation that severely limits what someone can do",
+          "body": [
+            "(жёсткие рамки, оковы)",
+            "---"
+          ],
+          "examples": [
+            "The budget put the department in a fiscal straitjacket.",
+            "He called the new rules a straitjacket on small business.",
+            "The treaty became a straitjacket neither side could escape."
+          ]
+        }
+      ],
+      "русский": "смирительная рубашка; жёсткие рамки, оковы",
       "plural": "straitjackets",
       "countability": "countable",
       "contrast": "Spelled strait-, not straight-."
@@ -9894,14 +10417,43 @@
       "term": "stratosphere",
       "ipa": "/ˈstrætəsfɪr/",
       "respell": "STRAT-uh-sfeer",
-      "meaning": "The layer of the atmosphere above the one where weather happens. ---",
+      "meaning": "Stratosphere has 2 distinct senses.",
       "examples": [
         "The balloon rose into the stratosphere.",
         "Ozone is concentrated in the stratosphere.",
-        "Jets cruise at the bottom of the stratosphere."
+        "Jets cruise at the bottom of the stratosphere.",
+        "Housing prices downtown have gone into the stratosphere.",
+        "One song sent her career into the stratosphere.",
+        "Ticket prices for the final were up in the stratosphere."
       ],
-      "senses": [],
-      "русский": "стратосфера",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The layer of the atmosphere above the one where weather happens",
+          "body": [
+            "(стратосфера)"
+          ],
+          "examples": [
+            "The balloon rose into the stratosphere.",
+            "Ozone is concentrated in the stratosphere.",
+            "Jets cruise at the bottom of the stratosphere."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very high level, especially of prices or success",
+          "body": [
+            "(заоблачные высоты)",
+            "---"
+          ],
+          "examples": [
+            "Housing prices downtown have gone into the stratosphere.",
+            "One song sent her career into the stratosphere.",
+            "Ticket prices for the final were up in the stratosphere."
+          ]
+        }
+      ],
+      "русский": "стратосфера; заоблачные высоты",
       "countability": "uncountable"
     },
     {
@@ -9923,14 +10475,58 @@
       "term": "strength",
       "ipa": "/strɛŋkθ/",
       "respell": "STRENGKTH",
-      "meaning": "The physical power to lift, push, or resist things. ---",
+      "meaning": "Strength has 3 distinct senses.",
       "examples": [
         "He doesn't have the strength to lift it alone.",
         "She's slowly getting her strength back.",
-        "The bridge was tested for strength."
+        "The bridge was tested for strength.",
+        "Patience is her greatest strength.",
+        "The report lists the program's strengths and weaknesses.",
+        "Working with kids has always been his strength.",
+        "The pills come in three different strengths.",
+        "Cut the cleaner to half strength before you use it.",
+        "I like my coffee at full strength."
       ],
-      "senses": [],
-      "русский": "сила",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The physical power to lift, push, or resist things",
+          "body": [
+            "(сила)"
+          ],
+          "examples": [
+            "He doesn't have the strength to lift it alone.",
+            "She's slowly getting her strength back.",
+            "The bridge was tested for strength."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quality or ability that a person or thing is good at",
+          "body": [
+            "(сильная сторона, достоинство)"
+          ],
+          "examples": [
+            "Patience is her greatest strength.",
+            "The report lists the program's strengths and weaknesses.",
+            "Working with kids has always been his strength."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "How concentrated a liquid, a drug, or a flavor is",
+          "body": [
+            "(крепость, концентрация)",
+            "---"
+          ],
+          "examples": [
+            "The pills come in three different strengths.",
+            "Cut the cleaner to half strength before you use it.",
+            "I like my coffee at full strength."
+          ]
+        }
+      ],
+      "русский": "сила; сильная сторона, достоинство; крепость, концентрация",
       "countability": "uncountable",
       "contrast": "Americans usually slip a k sound in before the th: STRENGKTH."
     },
@@ -10100,14 +10696,43 @@
       "term": "struggle",
       "ipa": "/ˈstrʌɡəl/",
       "respell": "STRUG-ul",
-      "meaning": "A hard effort against difficulty or opposition. ---",
+      "meaning": "Struggle has 2 distinct senses.",
       "examples": [
         "Paying rent is a monthly struggle.",
         "The book describes his struggle with addiction.",
-        "Their struggles are far from over."
+        "Their struggles are far from over.",
+        "Police found signs of a struggle in the kitchen.",
+        "The gun went off during the struggle.",
+        "He tore his shirt in the struggle with the intruder."
       ],
-      "senses": [],
-      "русский": "борьба",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hard effort against difficulty or opposition",
+          "body": [
+            "(борьба)"
+          ],
+          "examples": [
+            "Paying rent is a monthly struggle.",
+            "The book describes his struggle with addiction.",
+            "Their struggles are far from over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short physical fight in which people grab and push each other",
+          "body": [
+            "(схватка, потасовка)",
+            "---"
+          ],
+          "examples": [
+            "Police found signs of a struggle in the kitchen.",
+            "The gun went off during the struggle.",
+            "He tore his shirt in the struggle with the intruder."
+          ]
+        }
+      ],
+      "русский": "борьба; схватка, потасовка",
       "plural": "struggles",
       "countability": "countable"
     },
@@ -10351,14 +10976,43 @@
       "term": "submission",
       "ipa": "/səbˈmɪʃən/",
       "respell": "sub-MISH-un",
-      "meaning": "A piece of work or a document handed in for consideration. ---",
+      "meaning": "Submission has 2 distinct senses.",
       "examples": [
         "The journal received four hundred submissions.",
         "Your submission must be in by Friday.",
-        "Late submissions will not be read."
+        "Late submissions will not be read.",
+        "The rebels were starved into submission.",
+        "He nodded in submission and said nothing more.",
+        "She refused to be bullied into submission."
       ],
-      "senses": [],
-      "русский": "поданный материал, заявка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of work or a document handed in for consideration",
+          "body": [
+            "(поданный материал, заявка)"
+          ],
+          "examples": [
+            "The journal received four hundred submissions.",
+            "Your submission must be in by Friday.",
+            "Late submissions will not be read."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of giving in to someone else's power or authority",
+          "body": [
+            "(подчинение, покорность)",
+            "---"
+          ],
+          "examples": [
+            "The rebels were starved into submission.",
+            "He nodded in submission and said nothing more.",
+            "She refused to be bullied into submission."
+          ]
+        }
+      ],
+      "русский": "поданный материал, заявка; подчинение, покорность",
       "plural": "submissions",
       "countability": "countable"
     },
@@ -10440,14 +11094,43 @@
       "term": "subtlety",
       "ipa": "/ˈsʌtəlti/",
       "respell": "SUT-ul-tee",
-      "meaning": "The quality of being delicate, understated, and not obvious. ---",
+      "meaning": "Subtlety has 2 distinct senses.",
       "examples": [
         "His acting has real subtlety.",
         "The sauce lacks subtlety.",
-        "There's no subtlety in their advertising."
+        "There's no subtlety in their advertising.",
+        "The translation loses the subtleties of the original.",
+        "He explained the subtleties of the tax rule.",
+        "There is a subtlety here that most readers skip right over."
       ],
-      "senses": [],
-      "русский": "тонкость, деликатность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The quality of being delicate, understated, and not obvious",
+          "body": [
+            "(тонкость, деликатность)"
+          ],
+          "examples": [
+            "His acting has real subtlety.",
+            "The sauce lacks subtlety.",
+            "There's no subtlety in their advertising."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small, fine detail or distinction that is easy to miss",
+          "body": [
+            "(тонкость, нюанс)",
+            "---"
+          ],
+          "examples": [
+            "The translation loses the subtleties of the original.",
+            "He explained the subtleties of the tax rule.",
+            "There is a subtlety here that most readers skip right over."
+          ]
+        }
+      ],
+      "русский": "тонкость, деликатность; тонкость, нюанс",
       "countability": "uncountable",
       "contrast": "The b is silent: SUT-ul-tee."
     },
@@ -10687,14 +11370,58 @@
       "term": "suggestion",
       "ipa": "/səˈdʒɛstʃən/",
       "respell": "suh-JES-chun",
-      "meaning": "An idea that you put forward for someone to consider. ---",
+      "meaning": "Suggestion has 3 distinct senses.",
       "examples": [
         "Can I make a suggestion?",
         "Her suggestion saved us two days of work.",
-        "The box by the door is for comments and suggestions."
+        "The box by the door is for comments and suggestions.",
+        "There was the faintest suggestion of a smile on his face.",
+        "The sauce has a suggestion of lemon in it.",
+        "I caught a suggestion of movement behind the curtain.",
+        "Half the cure was the power of suggestion.",
+        "The therapist used hypnotic suggestion to help him quit smoking.",
+        "Advertisers rely on suggestion far more than on facts."
       ],
-      "senses": [],
-      "русский": "предложение, совет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An idea that you put forward for someone to consider",
+          "body": [
+            "(предложение, совет)"
+          ],
+          "examples": [
+            "Can I make a suggestion?",
+            "Her suggestion saved us two days of work.",
+            "The box by the door is for comments and suggestions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slight trace or hint of something",
+          "body": [
+            "(лёгкий намёк, оттенок)"
+          ],
+          "examples": [
+            "There was the faintest suggestion of a smile on his face.",
+            "The sauce has a suggestion of lemon in it.",
+            "I caught a suggestion of movement behind the curtain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The putting of an idea into someone's mind so that they accept it without questioning it",
+          "body": [
+            "(внушение)",
+            "---"
+          ],
+          "examples": [
+            "Half the cure was the power of suggestion.",
+            "The therapist used hypnotic suggestion to help him quit smoking.",
+            "Advertisers rely on suggestion far more than on facts."
+          ]
+        }
+      ],
+      "русский": "предложение, совет; лёгкий намёк, оттенок; внушение",
       "plural": "suggestions",
       "countability": "countable"
     },

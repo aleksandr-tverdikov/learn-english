@@ -1260,42 +1260,129 @@
       "term": "gridlock",
       "ipa": "/ˈɡrɪdlɑːk/",
       "respell": "GRID-lahk",
-      "meaning": "Traffic so blocked in every direction that nothing can move. ---",
+      "meaning": "Gridlock has 2 distinct senses.",
       "examples": [
         "The parade turned downtown into total gridlock.",
         "Gridlock starts around four every weekday.",
-        "One broken light caused an hour of gridlock."
+        "One broken light caused an hour of gridlock.",
+        "Budget gridlock shut the government down for weeks.",
+        "Voters say they're tired of gridlock in Congress.",
+        "The two departments have been in gridlock since spring."
       ],
-      "senses": [],
-      "русский": "полный транспортный затор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Traffic so blocked in every direction that nothing can move",
+          "body": [
+            "(полный транспортный затор)"
+          ],
+          "examples": [
+            "The parade turned downtown into total gridlock.",
+            "Gridlock starts around four every weekday.",
+            "One broken light caused an hour of gridlock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A situation in which nothing gets decided because opposing sides block each other",
+          "body": [
+            "(тупик, паралич (в политике, переговорах))",
+            "---"
+          ],
+          "examples": [
+            "Budget gridlock shut the government down for weeks.",
+            "Voters say they're tired of gridlock in Congress.",
+            "The two departments have been in gridlock since spring."
+          ]
+        }
+      ],
+      "русский": "полный транспортный затор; тупик, паралич (в политике, переговорах)",
       "countability": "uncountable"
     },
     {
       "term": "congestion",
       "ipa": "/kənˈdʒɛstʃən/",
       "respell": "kuhn-JES-chuhn",
-      "meaning": "The condition of roads being too full of vehicles. ---",
+      "meaning": "Congestion has 2 distinct senses.",
       "examples": [
         "Congestion on the bridge gets worse every year.",
         "The new lanes did nothing for congestion.",
-        "Traffic apps route you around congestion."
+        "Traffic apps route you around congestion.",
+        "This syrup helps with chest congestion.",
+        "She had congestion and a low fever for three days.",
+        "Nasal congestion kept him up half the night."
       ],
-      "senses": [],
-      "русский": "заторы, перегруженность дорог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The condition of roads being too full of vehicles",
+          "body": [
+            "(заторы, перегруженность дорог)"
+          ],
+          "examples": [
+            "Congestion on the bridge gets worse every year.",
+            "The new lanes did nothing for congestion.",
+            "Traffic apps route you around congestion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Blockage of the nose or chest by mucus",
+          "body": [
+            "(заложенность носа, застой в лёгких)",
+            "---"
+          ],
+          "examples": [
+            "This syrup helps with chest congestion.",
+            "She had congestion and a low fever for three days.",
+            "Nasal congestion kept him up half the night."
+          ]
+        }
+      ],
+      "русский": "заторы, перегруженность дорог; заложенность носа, застой в лёгких",
       "countability": "uncountable"
     },
     {
       "term": "bottleneck",
       "ipa": "/ˈbɑːtəlnɛk/",
       "respell": "BAH-tuhl-nek",
-      "meaning": "A narrow point where traffic slows and backs up. ---",
+      "meaning": "Bottleneck has 2 distinct senses.",
       "examples": [
         "The tunnel is the worst bottleneck in the city.",
         "Two bottlenecks on this route add half an hour.",
-        "They widened the road to fix the bottleneck."
+        "They widened the road to fix the bottleneck.",
+        "Legal review is the real bottleneck in our hiring.",
+        "One slow machine created a bottleneck on the whole assembly line.",
+        "They hired two more inspectors to clear the bottleneck."
       ],
-      "senses": [],
-      "русский": "узкое место на дороге",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow point where traffic slows and backs up",
+          "body": [
+            "(узкое место на дороге)"
+          ],
+          "examples": [
+            "The tunnel is the worst bottleneck in the city.",
+            "Two bottlenecks on this route add half an hour.",
+            "They widened the road to fix the bottleneck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stage in a process that holds everything else up because it cannot go any faster",
+          "body": [
+            "(узкое место (в процессе), затор)",
+            "---"
+          ],
+          "examples": [
+            "Legal review is the real bottleneck in our hiring.",
+            "One slow machine created a bottleneck on the whole assembly line.",
+            "They hired two more inspectors to clear the bottleneck."
+          ]
+        }
+      ],
+      "русский": "узкое место на дороге; узкое место (в процессе), затор",
       "plural": "bottlenecks",
       "countability": "countable"
     },
@@ -1333,14 +1420,43 @@
       "term": "tailgating",
       "ipa": "/ˈteɪlɡeɪtɪŋ/",
       "respell": "TAYL-gay-ting",
-      "meaning": "Driving too close behind the car in front. ---",
+      "meaning": "Tailgating has 2 distinct senses.",
       "examples": [
         "Tailgating causes most rear-end crashes.",
         "He slowed down to discourage the tailgating.",
-        "The trooper pulled her over for tailgating."
+        "The trooper pulled her over for tailgating.",
+        "Tailgating starts four hours before kickoff.",
+        "We brought a grill and two coolers for tailgating.",
+        "The lot opens early on game day for tailgating."
       ],
-      "senses": [],
-      "русский": "езда вплотную за впереди идущей машиной",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Driving too close behind the car in front",
+          "body": [
+            "(езда вплотную за впереди идущей машиной)"
+          ],
+          "examples": [
+            "Tailgating causes most rear-end crashes.",
+            "He slowed down to discourage the tailgating.",
+            "The trooper pulled her over for tailgating."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Eating and drinking at a party in a stadium parking lot before a game",
+          "body": [
+            "(пикник у машины на парковке перед матчем)",
+            "---"
+          ],
+          "examples": [
+            "Tailgating starts four hours before kickoff.",
+            "We brought a grill and two coolers for tailgating.",
+            "The lot opens early on game day for tailgating."
+          ]
+        }
+      ],
+      "русский": "езда вплотную за впереди идущей машиной; пикник у машины на парковке перед матчем",
       "countability": "uncountable",
       "contrast": "In the US tailgating also means a parking-lot party before a football game."
     },

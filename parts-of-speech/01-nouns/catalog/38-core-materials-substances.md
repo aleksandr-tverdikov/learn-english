@@ -1200,46 +1200,76 @@ A substance that flows freely, such as water or oil.
 ### substance
 
 **Pronunciation:** /ˈsʌbstəns/ &middot; *SUB-stuhns*
-**Русский:** вещество
+**Русский:** вещество; суть, содержание
 **Plural:** *substances*
 **Countability:** countable
 
-A particular kind of material with definite properties.
+Substance has 2 distinct senses.
+
+**1. A particular kind of material with definite properties.** (вещество)
 
 1. There was a sticky *substance* on the door handle.
 2. Bleach and ammonia are both dangerous *substances*.
 3. The lab identified the *substance* as ordinary sugar.
+
+**2. The real meaning or important content of something, as opposed to its form.** (суть, содержание)
+
+4. The speech was long on style and short on *substance*.
+5. The *substance* of the complaint is that nobody was told.
+6. There is no *substance* to the rumor.
 
 ---
 
 ### material
 
 **Pronunciation:** /məˈtɪriəl/ &middot; *muh-TEER-ee-uhl*
-**Русский:** материал
+**Русский:** материал; материал (для книги, урока, выступления); ткань, материя
 **Plural:** *materials*
 **Countability:** countable, and uncountable as a substance
 
-Any substance from which something is made.
+Material has 3 distinct senses.
+
+**1. Any substance from which something is made.** (материал)
 
 1. What *material* is the roof made of?
 2. They ran out of building *materials* halfway through.
 3. The jacket is made of a waterproof *material*.
+
+**2. Facts, ideas, or writing gathered for use in a book, class, or performance.** (материал (для книги, урока, выступления))
+
+4. The comedian is trying out new *material* at small clubs.
+5. He spent a year in the archives collecting *material* for the biography.
+6. The teacher posts all the course *materials* online.
+
+**3. Cloth or fabric.** (ткань, материя)
+
+7. She bought three yards of *material* for the curtains.
+8. The dress is pretty, but the *material* wrinkles if you sit down.
+9. Heavy *materials* like canvas are harder to sew on a home machine.
 
 ---
 
 ### compound
 
 **Pronunciation:** /ˈkɑːmpaʊnd/ &middot; *KAHM-pownd*
-**Русский:** соединение (химическое); состав
+**Русский:** соединение (химическое); состав; огороженная территория, комплекс зданий
 **Plural:** *compounds*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable, KAHM-pownd; the verb *to compound* is stressed on the second, kuhm-POWND.
 
-A substance made of two or more elements chemically combined.
+Compound has 2 distinct senses.
+
+**1. A substance made of two or more elements chemically combined.** (соединение (химическое); состав)
 
 1. Water is a *compound* of hydrogen and oxygen.
 2. The soil test turned up several *compounds* nobody expected.
 3. Salt is a simple *compound*.
+
+**2. A fenced or walled area with a group of buildings inside it.** (огороженная территория, комплекс зданий)
+
+4. Guards stood at the gate of the embassy *compound*.
+5. The family lives in a *compound* a few miles outside town.
+6. Trucks rolled into the *compound* at dawn.
 
 ---
 

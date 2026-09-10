@@ -1186,15 +1186,23 @@ The vertical space between lines of type.
 ### ligature
 
 **Pronunciation:** /ˈlɪɡətʃər/ &middot; *LIG-uh-chur*
-**Русский:** лигатура (слитное написание букв)
+**Русский:** лигатура (слитное написание букв); лигатура, перевязочная нить
 **Plural:** *ligatures*
 **Countability:** countable
 
-Two or more letters joined into a single printed character.
+Ligature has 2 distinct senses.
+
+**1. Two or more letters joined into a single printed character.** (лигатура (слитное написание букв))
 
 1. The f and the i form a *ligature*.
 2. This typeface has a lovely *ligature*.
 3. Old books are full of *ligatures*.
+
+**2. A cord or thread tied tightly around something, especially a blood vessel in surgery.** (лигатура, перевязочная нить)
+
+4. The surgeon placed a *ligature* around the artery.
+5. The *ligature* slipped and the bleeding started again.
+6. Police found *ligature* marks on the victim's wrists.
 
 ---
 
@@ -1261,15 +1269,29 @@ The height of a lowercase letter without its rising or falling parts.
 ### baseline
 
 **Pronunciation:** /ˈbeɪslaɪn/ &middot; *BAYS-lyne*
-**Русский:** базовая линия (шрифта)
+**Русский:** базовая линия (шрифта); исходный уровень, точка отсчёта; задняя линия (корта, площадки)
 **Plural:** *baselines*
 **Countability:** countable
 
-The invisible line that letters sit on.
+Baseline has 3 distinct senses.
+
+**1. The invisible line that letters sit on.** (базовая линия (шрифта))
 
 1. The o dips slightly below the *baseline*.
 2. Align the caption to the *baseline* of the text.
 3. The two columns share the same *baselines*.
+
+**2. A starting measurement that later results are compared against.** (исходный уровень, точка отсчёта)
+
+4. The study used 2019 emissions as its *baseline*.
+5. We need a *baseline* before we can measure any progress.
+6. Reading scores came in ten points above the *baseline*.
+
+**3. The line marking each end of a tennis or basketball court.** (задняя линия (корта, площадки))
+
+7. She hit a forehand from well behind the *baseline*.
+8. He drove along the *baseline* for an easy layup.
+9. The serve landed just inside the *baseline*.
 
 ---
 
@@ -1334,14 +1356,22 @@ The empty area on a page around text and pictures.
 ### justification
 
 **Pronunciation:** /ˌdʒʌstəfəˈkeɪʃən/ &middot; *jus-tuh-fuh-KAY-shuhn*
-**Русский:** выключка, выравнивание текста по ширине
+**Русский:** выключка, выравнивание текста по ширине; оправдание, обоснование
 **Countability:** uncountable
 
-The spacing of words so lines end evenly at both margins.
+Justification has 2 distinct senses.
+
+**1. The spacing of words so lines end evenly at both margins.** (выключка, выравнивание текста по ширине)
 
 1. Turn off *justification* and use a ragged right edge.
 2. Bad *justification* leaves rivers of white down the column.
 3. *Justification* works better with hyphens turned on.
+
+**2. A good reason showing that an action was right or necessary.** (оправдание, обоснование)
+
+4. There was no *justification* for shouting at the clerk.
+5. The memo offered a detailed *justification* for the budget cut.
+6. He gave a long *justification* of his decision to quit.
 
 ---
 

@@ -773,28 +773,86 @@
       "term": "interference",
       "ipa": "/ˌɪntərˈfɪrəns/",
       "respell": "in-tur-FEER-uns",
-      "meaning": "Unwanted signals that disturb a radio, phone, or wireless connection. ---",
+      "meaning": "Interference has 2 distinct senses.",
       "examples": [
         "The microwave causes interference with the wifi.",
         "There's too much interference to hear you.",
-        "Power lines can create interference."
+        "Power lines can create interference.",
+        "The report found no evidence of foreign interference in the election.",
+        "She resented her mother-in-law's constant interference.",
+        "The judge warned him against interference with the investigation."
       ],
-      "senses": [],
-      "русский": "помехи",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Unwanted signals that disturb a radio, phone, or wireless connection",
+          "body": [
+            "(помехи)"
+          ],
+          "examples": [
+            "The microwave causes interference with the wifi.",
+            "There's too much interference to hear you.",
+            "Power lines can create interference."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Unwanted involvement in someone else's affairs or in a process",
+          "body": [
+            "(вмешательство)",
+            "---"
+          ],
+          "examples": [
+            "The report found no evidence of foreign interference in the election.",
+            "She resented her mother-in-law's constant interference.",
+            "The judge warned him against interference with the investigation."
+          ]
+        }
+      ],
+      "русский": "помехи; вмешательство",
       "countability": "uncountable"
     },
     {
       "term": "receiver",
       "ipa": "/rɪˈsiːvər/",
       "respell": "rih-SEE-vur",
-      "meaning": "The part of a phone you hold to your ear, or a device that picks up signals. ---",
+      "meaning": "Receiver has 2 distinct senses.",
       "examples": [
         "She picked up the receiver and said nothing.",
         "The radio receiver needs a new antenna.",
-        "Both receivers were off the hook."
+        "Both receivers were off the hook.",
+        "The receiver caught the ball in the end zone.",
+        "They drafted a fast receiver out of Alabama.",
+        "Two of their best receivers are out with injuries."
       ],
-      "senses": [],
-      "русский": "трубка (телефонная); приёмник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a phone you hold to your ear, or a device that picks up signals",
+          "body": [
+            "(трубка (телефонная); приёмник)"
+          ],
+          "examples": [
+            "She picked up the receiver and said nothing.",
+            "The radio receiver needs a new antenna.",
+            "Both receivers were off the hook."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A football player whose job is to catch passes thrown down the field",
+          "body": [
+            "(принимающий игрок, ресивер (амер. футбол))",
+            "---"
+          ],
+          "examples": [
+            "The receiver caught the ball in the end zone.",
+            "They drafted a fast receiver out of Alabama.",
+            "Two of their best receivers are out with injuries."
+          ]
+        }
+      ],
+      "русский": "трубка (телефонная); приёмник; принимающий игрок, ресивер (амер. футбол)",
       "plural": "receivers",
       "countability": "countable"
     },
@@ -934,14 +992,58 @@
       "term": "delivery",
       "ipa": "/dɪˈlɪvəri/",
       "respell": "dih-LIV-uh-ree",
-      "meaning": "The bringing of mail, packages, or goods to a place. ---",
+      "meaning": "Delivery has 3 distinct senses.",
       "examples": [
         "The delivery is running a day late.",
         "They make deliveries twice a week.",
-        "Free delivery on orders over thirty dollars."
+        "Free delivery on orders over thirty dollars.",
+        "She had an easy delivery and went home the next day.",
+        "Labor and delivery is on the fourth floor of the hospital.",
+        "Both deliveries were by cesarean section.",
+        "The jokes were fine, but his delivery was flat.",
+        "Her delivery was slow and clear enough for everyone to follow.",
+        "The speech was good on paper; the delivery ruined it."
       ],
-      "senses": [],
-      "русский": "доставка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bringing of mail, packages, or goods to a place",
+          "body": [
+            "(доставка)"
+          ],
+          "examples": [
+            "The delivery is running a day late.",
+            "They make deliveries twice a week.",
+            "Free delivery on orders over thirty dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The birth of a baby",
+          "body": [
+            "(роды, родоразрешение)"
+          ],
+          "examples": [
+            "She had an easy delivery and went home the next day.",
+            "Labor and delivery is on the fourth floor of the hospital.",
+            "Both deliveries were by cesarean section."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The way someone speaks lines, tells a joke, or gives a speech",
+          "body": [
+            "(манера подачи, исполнение (речи))",
+            "---"
+          ],
+          "examples": [
+            "The jokes were fine, but his delivery was flat.",
+            "Her delivery was slow and clear enough for everyone to follow.",
+            "The speech was good on paper; the delivery ruined it."
+          ]
+        }
+      ],
+      "русский": "доставка; роды, родоразрешение; манера подачи, исполнение (речи)",
       "plural": "deliveries",
       "countability": "countable"
     },

@@ -82,15 +82,29 @@ Plane has 2 distinct senses.
 ### terminal
 
 **Pronunciation:** /ˈtɜːrmɪnəl/ &middot; *TUR-mih-nuhl*
-**Русский:** терминал (здание аэропорта или вокзала)
+**Русский:** терминал (здание аэропорта или вокзала); терминал (компьютерный); клемма, вывод (электрический)
 **Plural:** *terminals*
 **Countability:** countable
 
-A building at an airport or station where passengers arrive and leave.
+Terminal has 3 distinct senses.
+
+**1. A building at an airport or station where passengers arrive and leave.** (терминал (здание аэропорта или вокзала))
 
 1. International flights leave from *terminal* B.
 2. The two *terminals* are connected by a train.
 3. There's a coffee place at the far end of the *terminal*.
+
+**2. A screen and keyboard connected to a computer, or the window where you type commands.** (терминал (компьютерный))
+
+4. The clerk typed the number into the *terminal*.
+5. Open a *terminal* and run the installer.
+6. The library still has a few old *terminals* by the door.
+
+**3. The point on a battery or an electrical device where a wire is attached.** (клемма, вывод (электрический))
+
+7. Clip the red cable to the positive *terminal*.
+8. Both battery *terminals* were covered in corrosion.
+9. Make sure the *terminal* is tight before you start the engine.
 
 ---
 
@@ -180,15 +194,23 @@ A short stay in a city on the way to your final destination.
 ### departure
 
 **Pronunciation:** /dɪˈpɑːrtʃər/ &middot; *dih-PAR-chur*
-**Русский:** отправление, вылет
+**Русский:** отправление, вылет; отход, отступление (от обычного)
 **Plural:** *departures*
 **Countability:** countable
 
-The act of leaving on a plane, train, or bus.
+Departure has 2 distinct senses.
+
+**1. The act of leaving on a plane, train, or bus.** (отправление, вылет)
 
 1. Our *departure* was pushed back an hour.
 2. *Departures* are on the upper level.
 3. Check the board for the *departure* time.
+
+**2. A change from what is usual or expected.** (отход, отступление (от обычного))
+
+4. The new album is a real *departure* for the band.
+5. Serving pie at a wedding is a nice *departure* from tradition.
+6. Her ruling was a sharp *departure* from earlier decisions.
 
 ---
 
@@ -247,15 +269,23 @@ Connection has 3 distinct senses.
 ### carousel
 
 **Pronunciation:** /ˌkærəˈsɛl/ &middot; *kar-uh-SEL*
-**Русский:** багажная лента
+**Русский:** багажная лента; карусель
 **Plural:** *carousels*
 **Countability:** countable
 
-The moving belt at an airport where checked bags come out.
+Carousel has 2 distinct senses.
+
+**1. The moving belt at an airport where checked bags come out.** (багажная лента)
 
 1. Our bags are on *carousel* four.
 2. All the *carousels* were jammed with luggage.
 3. I waited at the *carousel* for twenty minutes.
+
+**2. A fairground ride with wooden animals that go around as it turns.** (карусель)
+
+4. She rode the *carousel* four times in a row.
+5. The park's antique *carousel* still plays organ music.
+6. Both *carousels* at the fair had lines out to the sidewalk.
 
 ---
 
@@ -489,16 +519,24 @@ Checkpoint has 2 distinct senses.
 ### declaration
 
 **Pronunciation:** /ˌdɛkləˈreɪʃən/ &middot; *dek-luh-RAY-shuhn*
-**Русский:** декларация
+**Русский:** декларация; заявление, провозглашение
 **Plural:** *declarations*
 **Countability:** countable
 **Contrast:** The verb declare stresses the second syllable: dih-KLAIR.
 
-An official statement listing what you are bringing into a country.
+Declaration has 2 distinct senses.
+
+**1. An official statement listing what you are bringing into a country.** (декларация)
 
 1. Sign the customs *declaration* before landing.
 2. The crew handed out *declarations* on the plane.
 3. A false *declaration* can cost you a big fine.
+
+**2. A formal public statement or announcement.** (заявление, провозглашение)
+
+4. The colonies signed their *declaration* of independence in 1776.
+5. Congress has not issued a formal *declaration* of war since 1942.
+6. His speech was a *declaration* that he intends to run again.
 
 ---
 
@@ -555,29 +593,45 @@ An official paper allowing you to do something.
 ### identification
 
 **Pronunciation:** /aɪˌdɛntɪfɪˈkeɪʃən/ &middot; *eye-den-tih-fih-KAY-shuhn*
-**Русский:** удостоверение личности
+**Русский:** удостоверение личности; определение, опознание, установление
 **Countability:** uncountable
 **Contrast:** Shortened to ID in speech: Can I see your ID?
 
-A document that shows who you are.
+Identification has 2 distinct senses.
+
+**1. A document that shows who you are.** (удостоверение личности)
 
 1. You'll need photo *identification* to board.
 2. The clerk asked for some form of *identification*.
 3. Keep your *identification* somewhere safe.
+
+**2. The act of recognizing or naming what something is or who someone is.** (определение, опознание, установление)
+
+4. *Identification* of the body took several days.
+5. Early *identification* of the disease saves lives.
+6. The lab handles *identification* of unknown samples.
 
 ---
 
 ### citizenship
 
 **Pronunciation:** /ˈsɪtɪzənʃɪp/ &middot; *SIT-ih-zuhn-ship*
-**Русский:** гражданство
+**Русский:** гражданство; гражданская сознательность, поведение гражданина
 **Countability:** uncountable
 
-The legal status of belonging to a particular country.
+Citizenship has 2 distinct senses.
+
+**1. The legal status of belonging to a particular country.** (гражданство)
 
 1. She holds dual *citizenship*.
 2. He applied for *citizenship* after five years.
 3. *Citizenship* gives you the right to vote.
+
+**2. The way a person or organization behaves as a member of a community.** (гражданская сознательность, поведение гражданина)
+
+4. Her report card gives her an A in *citizenship*.
+5. Voting and jury duty are basic acts of *citizenship*.
+6. The company talks a lot about corporate *citizenship*.
 
 ---
 
@@ -667,15 +721,29 @@ Ticket has 2 distinct senses.
 ### reservation
 
 **Pronunciation:** /ˌrɛzərˈveɪʃən/ &middot; *rez-ur-VAY-shuhn*
-**Русский:** бронь, бронирование
+**Русский:** бронь, бронирование; сомнение, оговорка (внутреннее несогласие); резервация (индейская)
 **Plural:** *reservations*
 **Countability:** countable
 
-An arrangement to hold a room, seat, or table for you.
+Reservation has 3 distinct senses.
+
+**1. An arrangement to hold a room, seat, or table for you.** (бронь, бронирование)
 
 1. I made a *reservation* under Patterson.
 2. All our *reservations* were canceled by the storm.
 3. Do you have a *reservation* with us tonight?
+
+**2. A feeling of doubt that keeps you from fully agreeing or approving.** (сомнение, оговорка (внутреннее несогласие))
+
+4. I have serious *reservations* about hiring him.
+5. She accepted the offer without *reservation*.
+6. His only *reservation* was the price.
+
+**3. An area of land in the United States set aside for a Native American tribe.** (резервация (индейская))
+
+7. He grew up on a *reservation* in South Dakota.
+8. The tribe runs a health clinic on the *reservation*.
+9. Several *reservations* border the national forest.
 
 ---
 
@@ -697,15 +765,35 @@ An arrangement made in advance to buy travel or a room.
 ### confirmation
 
 **Pronunciation:** /ˌkɑːnfərˈmeɪʃən/ &middot; *kahn-fur-MAY-shuhn*
-**Русский:** подтверждение (брони)
+**Русский:** подтверждение (брони); подтверждение (факта); конфирмация, миропомазание; утверждение в должности
 **Plural:** *confirmations*
 **Countability:** countable
 
-A message or number proving that a booking was accepted.
+Confirmation has 4 distinct senses.
+
+**1. A message or number proving that a booking was accepted.** (подтверждение (брони))
 
 1. Bring a printed *confirmation* to the desk.
 2. I never got the *confirmations* for either room.
 3. Your *confirmation* should arrive within the hour.
+
+**2. Proof or an official statement that something is true.** (подтверждение (факта))
+
+4. We are still waiting for *confirmation* of the death toll.
+5. The photo was *confirmation* that he had been in the building.
+6. Her account got *confirmation* from two other witnesses.
+
+**3. A Christian ceremony in which a young person becomes a full member of the church.** (конфирмация, миропомазание)
+
+7. Her *confirmation* is on Sunday at ten o'clock.
+8. He gave his nephew a Bible for his *confirmation*.
+9. The whole family drove up for the *confirmation*.
+
+**4. Official approval of a person appointed to a government post.** (утверждение в должности)
+
+10. The Senate scheduled *confirmation* hearings for June.
+11. The nominee's *confirmation* passed by two votes.
+12. *Confirmation* of the new chief took almost four months.
 
 ---
 
@@ -946,15 +1034,23 @@ Getaway has 2 distinct senses.
 ### honeymoon
 
 **Pronunciation:** /ˈhʌnimuːn/ &middot; *HUH-nee-moon*
-**Русский:** медовый месяц
+**Русский:** медовый месяц; медовый месяц (период благосклонности)
 **Plural:** *honeymoons*
 **Countability:** countable
 
-A vacation taken by a couple right after their wedding.
+Honeymoon has 2 distinct senses.
+
+**1. A vacation taken by a couple right after their wedding.** (медовый месяц)
 
 1. They spent their *honeymoon* in Hawaii.
 2. Beach *honeymoons* are still the most popular.
 3. We're saving up for a *honeymoon* in Italy.
+
+**2. A short early period in which a new leader or arrangement is treated kindly before the criticism starts.** (медовый месяц (период благосклонности))
+
+4. The mayor's *honeymoon* with the press lasted about a month.
+5. Every new manager gets a *honeymoon*, and then the complaints begin.
+6. The *honeymoon* is over — the board wants results this quarter.
 
 ---
 
@@ -1242,16 +1338,24 @@ A large comfortable house, often rented for a vacation.
 ### guesthouse
 
 **Pronunciation:** /ˈɡɛsthaʊs/ &middot; *GEST-hows*
-**Русский:** гостевой дом
+**Русский:** гостевой дом; гостевой домик (на участке хозяев)
 **Plural:** *guesthouses*
 **Countability:** countable
 **Contrast:** The u after g is silent: GEST, not GYOOST.
 
-A small private house that rents rooms to travelers.
+Guesthouse has 2 distinct senses.
+
+**1. A small private house that rents rooms to travelers.** (гостевой дом)
 
 1. We found a family *guesthouse* near the market.
 2. Small *guesthouses* cost half what the hotels do.
 3. The *guesthouse* only has six rooms.
+
+**2. A small separate house on someone's property where guests stay.** (гостевой домик (на участке хозяев))
+
+4. My in-laws stay in the *guesthouse* when they visit.
+5. The listing includes a two-bedroom *guesthouse* out back.
+6. They turned the *guesthouse* into an office during the pandemic.
 
 ---
 
@@ -1335,14 +1439,22 @@ Porter has 2 distinct senses.
 ### housekeeping
 
 **Pronunciation:** /ˈhaʊskiːpɪŋ/ &middot; *HOWS-kee-ping*
-**Русский:** служба уборки номеров
+**Русский:** служба уборки номеров; организационные вопросы, текущие мелочи
 **Countability:** uncountable
 
-The hotel staff and service that clean the rooms.
+Housekeeping has 2 distinct senses.
+
+**1. The hotel staff and service that clean the rooms.** (служба уборки номеров)
 
 1. *Housekeeping* comes around eleven.
 2. I called *housekeeping* for extra pillows.
 3. Hang the sign if you don't want *housekeeping*.
+
+**2. Small routine matters that have to be dealt with before the real business begins.** (организационные вопросы, текущие мелочи)
+
+4. A little *housekeeping* before we start: the restrooms are down the hall.
+5. The first ten minutes of the meeting were pure *housekeeping*.
+6. We got the *housekeeping* out of the way and moved on to the budget.
 
 ---
 
@@ -1364,15 +1476,23 @@ A small refrigerator of drinks and snacks in a hotel room.
 ### checkout
 
 **Pronunciation:** /ˈtʃɛkaʊt/ &middot; *CHEK-owt*
-**Русский:** выезд из отеля, расчётный час
+**Русский:** выезд из отеля, расчётный час; касса (в магазине)
 **Plural:** *checkouts*
 **Countability:** countable
 
-The time or act of leaving a hotel and paying at the end of a stay.
+Checkout has 2 distinct senses.
+
+**1. The time or act of leaving a hotel and paying at the end of a stay.** (выезд из отеля, расчётный час)
 
 1. *Checkout* is at eleven in the morning.
 2. Late *checkouts* cost an extra thirty dollars.
 3. We left our bags at the desk after *checkout*.
+
+**2. The counter in a store where you pay for what you are buying.** (касса (в магазине))
+
+4. There were six people ahead of us at the *checkout*.
+5. Only two *checkouts* were open on a Saturday.
+6. She grabbed a magazine at the *checkout*.
 
 ---
 
@@ -2197,15 +2317,23 @@ A trip across water, or a place where you cross something.
 ### landmark
 
 **Pronunciation:** /ˈlændmɑːrk/ &middot; *LAND-mark*
-**Русский:** достопримечательность; ориентир
+**Русский:** достопримечательность; ориентир; веха, поворотный момент
 **Plural:** *landmarks*
 **Countability:** countable
 
-A well-known building or feature that helps you recognize a place.
+Landmark has 2 distinct senses.
+
+**1. A well-known building or feature that helps you recognize a place.** (достопримечательность; ориентир)
 
 1. The old clock tower is a city *landmark*.
 2. We saw all the usual *landmarks* in one day.
 3. The bridge is the most photographed *landmark* here.
+
+**2. An event or achievement that marks an important stage.** (веха, поворотный момент)
+
+4. The vaccine was a *landmark* in modern medicine.
+5. The ruling is considered a *landmark* in civil rights law.
+6. Her first novel was a *landmark* for writers of her generation.
 
 ---
 
@@ -2409,15 +2537,29 @@ Bridge has 4 distinct senses.
 ### attraction
 
 **Pronunciation:** /əˈtrækʃən/ &middot; *uh-TRAK-shuhn*
-**Русский:** достопримечательность
+**Русский:** достопримечательность; влечение, симпатия; притяжение (физическое)
 **Plural:** *attractions*
 **Countability:** countable
 
-A place that people come to see or enjoy.
+Attraction has 3 distinct senses.
+
+**1. A place that people come to see or enjoy.** (достопримечательность)
 
 1. The falls are the biggest *attraction* in the state.
 2. Most of the *attractions* are within walking distance.
 3. That museum is a major tourist *attraction*.
+
+**2. A feeling of liking someone, especially in a romantic or physical way.** (влечение, симпатия)
+
+4. There was an obvious *attraction* between them.
+5. She felt an immediate *attraction* to him.
+6. Physical *attraction* alone won't hold a marriage together.
+
+**3. The force that pulls objects toward each other.** (притяжение (физическое))
+
+7. The moon's gravitational *attraction* causes the tides.
+8. Magnetic *attraction* holds the two halves together.
+9. Opposite charges feel a strong *attraction*.
 
 ---
 

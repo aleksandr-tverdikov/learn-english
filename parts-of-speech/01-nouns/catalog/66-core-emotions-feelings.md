@@ -127,15 +127,23 @@ The good feeling you get when something you wanted happens.
 ### fulfillment
 
 **Pronunciation:** /fʊlˈfɪlmənt/ &middot; *fool-FIL-muhnt*
-**Русский:** самореализация, чувство удовлетворения
+**Русский:** самореализация, чувство удовлетворения; комплектация и отправка заказов
 **Countability:** uncountable
 **Contrast:** American spelling doubles the l: *fulfillment*; British writing uses *fulfilment*.
 
-A sense that your life or work has real meaning.
+Fulfillment has 2 distinct senses.
+
+**1. A sense that your life or work has real meaning.** (самореализация, чувство удовлетворения)
 
 1. She left banking looking for more *fulfillment*.
 2. Teaching gave him a *fulfillment* the money never did.
 3. Personal *fulfillment* is not the same as being busy.
+
+**2. The business of packing and shipping customer orders.** (комплектация и отправка заказов)
+
+4. She works nights at a *fulfillment* center outside Columbus.
+5. The company handles its own *fulfillment* instead of hiring a partner.
+6. The delay came from *fulfillment*, not from the factory.
 
 ---
 
@@ -164,14 +172,22 @@ Gratitude has 2 distinct senses.
 ### appreciation
 
 **Pronunciation:** /əˌpriːʃiˈeɪʃən/ &middot; *uh-pree-shee-AY-shuhn*
-**Русский:** признательность; понимание ценности
+**Русский:** признательность; понимание ценности; рост стоимости, удорожание
 **Countability:** uncountable
 
-Thankfulness, or an understanding of something's value.
+Appreciation has 2 distinct senses.
+
+**1. Thankfulness, or an understanding of something's value.** (признательность; понимание ценности)
 
 1. The team got a bonus as a sign of *appreciation*.
 2. He has a real *appreciation* for old buildings.
 3. A little *appreciation* goes a long way with volunteers.
+
+**2. An increase in the value of property or an investment over time.** (рост стоимости, удорожание)
+
+4. The house has seen steady *appreciation* since 2015.
+5. Investors are counting on capital *appreciation* rather than income.
+6. *Appreciation* in land values priced many families out of the county.
 
 ---
 
@@ -235,15 +251,23 @@ Sympathy for suffering, plus a wish to help.
 ### sympathy
 
 **Pronunciation:** /ˈsɪmpəθi/ &middot; *SIM-puh-thee*
-**Русский:** сочувствие
+**Русский:** сочувствие; согласие, поддержка (взглядов)
 **Countability:** uncountable
 **Contrast:** Not the same as *empathy*: *sympathy* is feeling sorry for someone; *empathy* is feeling what they feel.
 
-A feeling of sorrow for someone else's trouble.
+Sympathy has 2 distinct senses.
+
+**1. A feeling of sorrow for someone else's trouble.** (сочувствие)
 
 1. Please accept my *sympathy* for your loss.
 2. I have no *sympathy* for people who cheat.
 3. The whole office sent cards of *sympathy*.
+
+**2. Agreement with or support for an opinion, a group, or a cause.** (согласие, поддержка (взглядов))
+
+4. I have no *sympathy* for that argument.
+5. His *sympathies* have always been with the union.
+6. The senator is in *sympathy* with the protesters' demands.
 
 ---
 
@@ -375,14 +399,22 @@ Dignity has 2 distinct senses.
 ### confidence
 
 **Pronunciation:** /ˈkɑːnfədəns/ &middot; *KAHN-fuh-duhns*
-**Русский:** уверенность (в себе)
+**Русский:** уверенность (в себе); доверительное сообщение, секрет; конфиденциальность
 **Countability:** uncountable
 
-Belief in yourself or in someone else's ability.
+Confidence has 2 distinct senses.
+
+**1. Belief in yourself or in someone else's ability.** (уверенность (в себе))
 
 1. She answered with total *confidence*.
 2. A few small wins rebuilt his *confidence*.
 3. The board still has *confidence* in the new director.
+
+**2. A private matter told to someone you trust, or the trust that it will be kept secret.** (доверительное сообщение, секрет; конфиденциальность)
+
+4. She told me in *confidence* that she is leaving in June.
+5. He betrayed a *confidence* and lost a friend over it.
+6. The two sisters traded *confidences* late into the night.
 
 ---
 
@@ -403,14 +435,22 @@ Willingness to face danger or pain.
 ### determination
 
 **Pronunciation:** /dɪˌtɜːrməˈneɪʃən/ &middot; *dih-tur-muh-NAY-shuhn*
-**Русский:** решимость, целеустремлённость
+**Русский:** решимость, целеустремлённость; установление, определение (официальное)
 **Countability:** uncountable
 
-A firm refusal to give up.
+Determination has 2 distinct senses.
+
+**1. A firm refusal to give up.** (решимость, целеустремлённость)
 
 1. She finished the race on pure *determination*.
 2. You could see the *determination* on his face.
 3. It took years of *determination* to pay off the loan.
+
+**2. The act of officially deciding or establishing a fact or an amount.** (установление, определение (официальное))
+
+4. The *determination* of the cause of the fire took several weeks.
+5. The agency's *determination* that she qualified arrived in the mail.
+6. A final *determination* of benefits will be made by the state.
 
 ---
 
@@ -532,14 +572,22 @@ The pleasure you get from something.
 ### amusement
 
 **Pronunciation:** /əˈmjuːzmənt/ &middot; *uh-MYOOZ-muhnt*
-**Русский:** веселье, забава
+**Русский:** веселье, забава; развлечение, забава (занятие)
 **Countability:** uncountable
 
-The feeling of being entertained or quietly laughing at something.
+Amusement has 2 distinct senses.
+
+**1. The feeling of being entertained or quietly laughing at something.** (веселье, забава)
 
 1. He watched the whole thing with obvious *amusement*.
 2. To my *amusement*, the cat won.
 3. The kids' questions were a source of endless *amusement*.
+
+**2. An activity or attraction that entertains people.** (развлечение, забава (занятие))
+
+4. Reading was his chief *amusement* that winter.
+5. The boardwalk is lined with rides, arcades, and other *amusements*.
+6. There are few *amusements* for teenagers in a town that small.
 
 ---
 
@@ -946,14 +994,22 @@ Slow-burning anger at being treated unfairly.
 ### bitterness
 
 **Pronunciation:** /ˈbɪtərnəs/ &middot; *BIT-ur-nuhs*
-**Русский:** озлобленность, горечь
+**Русский:** озлобленность, горечь; горечь (вкус)
 **Countability:** uncountable
 
-Lasting anger and hurt about something unfair.
+Bitterness has 2 distinct senses.
+
+**1. Lasting anger and hurt about something unfair.** (озлобленность, горечь)
 
 1. You can hear the *bitterness* when he talks about the divorce.
 2. She said it without any *bitterness*.
 3. The strike left a lot of *bitterness* behind.
+
+**2. A sharp, harsh taste, like that of strong coffee or dark chocolate.** (горечь (вкус))
+
+4. A little sugar cuts the *bitterness* of the grapefruit.
+5. These greens have a pleasant *bitterness* to them.
+6. Roasting the beans too long adds *bitterness*.
 
 ---
 
@@ -1164,14 +1220,22 @@ Annoyance at being blocked from what you want.
 ### irritation
 
 **Pronunciation:** /ˌɪrəˈteɪʃən/ &middot; *ir-uh-TAY-shuhn*
-**Русский:** раздражение
+**Русский:** раздражение; раздражение (кожи, глаз)
 **Countability:** uncountable
 
-Mild anger at something bothersome.
+Irritation has 2 distinct senses.
+
+**1. Mild anger at something bothersome.** (раздражение)
 
 1. He answered with barely hidden *irritation*.
 2. The beeping caused real *irritation* by hour three.
 3. There was a note of *irritation* in her reply.
+
+**2. Soreness or redness where something has rubbed or stung the skin.** (раздражение (кожи, глаз))
+
+4. The new detergent caused *irritation* on her hands.
+5. Wearing the mask all day led to some skin *irritation*.
+6. These drops relieve *irritation* in dry eyes.
 
 ---
 
@@ -1246,15 +1310,35 @@ Meltdown has 2 distinct senses.
 ### breakdown
 
 **Pronunciation:** /ˈbreɪkdaʊn/ &middot; *BRAYK-down*
-**Русский:** нервный срыв
+**Русский:** нервный срыв; поломка, авария (машины); разбивка, детализация (по пунктам); срыв, развал (переговоров, отношений)
 **Plural:** *breakdowns*
 **Countability:** countable
 
-A collapse of a person's mental health under stress.
+Breakdown has 4 distinct senses.
+
+**1. A collapse of a person's mental health under stress.** (нервный срыв)
 
 1. He had a *breakdown* his second year of residency.
 2. She was headed for a *breakdown* and everyone saw it.
 3. Two *breakdowns* in one department is a warning sign.
+
+**2. A failure that stops a vehicle or machine from working.** (поломка, авария (машины))
+
+4. We had a *breakdown* on the interstate and waited two hours for a tow.
+5. The bus company reports a *breakdown* about once a month.
+6. Regular service prevents most *breakdowns*.
+
+**3. A division of something into its separate parts, usually with figures.** (разбивка, детализация (по пунктам))
+
+7. Can you send me a *breakdown* of the costs by department?
+8. The report includes a *breakdown* of voters by age.
+9. She asked the shop for an itemized *breakdown* of the repair bill.
+
+**4. A complete failure of something that had been working, such as talks, order, or a relationship.** (срыв, развал (переговоров, отношений))
+
+10. The strike followed a *breakdown* in negotiations.
+11. There was a total *breakdown* of communication between the two offices.
+12. A *breakdown* in law and order followed the storm.
 
 ---
 
@@ -1432,14 +1516,22 @@ Anxious excitement about how something will turn out.
 ### anticipation
 
 **Pronunciation:** /ænˌtɪsəˈpeɪʃən/ &middot; *an-tis-uh-PAY-shuhn*
-**Русский:** предвкушение, ожидание
+**Русский:** предвкушение, ожидание; предвидение, заблаговременная подготовка
 **Countability:** uncountable
 
-The feeling of looking forward to something.
+Anticipation has 2 distinct senses.
+
+**1. The feeling of looking forward to something.** (предвкушение, ожидание)
 
 1. The crowd buzzed with *anticipation*.
 2. She packed a week early out of pure *anticipation*.
 3. There is a lot of *anticipation* around the new album.
+
+**2. The act of expecting something and getting ready for it in advance.** (предвидение, заблаговременная подготовка)
+
+4. Stores stocked up on bottled water in *anticipation* of the hurricane.
+5. He bought a heavier coat in *anticipation* of a cold winter.
+6. The city closed two lanes in *anticipation* of game-day traffic.
 
 ---
 
@@ -1497,15 +1589,23 @@ A lack of confidence in someone's honesty.
 ### insecurity
 
 **Pronunciation:** /ˌɪnsɪˈkjʊrəti/ &middot; *in-sih-KYOOR-uh-tee*
-**Русский:** неуверенность в себе, комплекс
+**Русский:** неуверенность в себе, комплекс; нестабильность, отсутствие гарантий
 **Plural:** *insecurities*
 **Countability:** countable
 
-A lack of confidence about yourself.
+Insecurity has 2 distinct senses.
+
+**1. A lack of confidence about yourself.** (неуверенность в себе, комплекс)
 
 1. His *insecurity* comes out as bragging.
 2. Everyone has *insecurities*; his are just loud.
 3. The comment hit an old *insecurity*.
+
+**2. The state of not being safe or not being guaranteed.** (нестабильность, отсутствие гарантий)
+
+4. Food *insecurity* affects one in ten households in the county.
+5. Housing *insecurity* has risen sharply since the plant closed.
+6. Job *insecurity* kept them from buying a house.
 
 ---
 
@@ -1540,15 +1640,23 @@ Discomfort around other people.
 ### embarrassment
 
 **Pronunciation:** /ɪmˈbɛrəsmənt/ &middot; *im-BEH-ruhs-muhnt*
-**Русский:** смущение, неловкость
+**Русский:** смущение, неловкость; позор, источник неловкости
 **Countability:** uncountable
 **Contrast:** Spelled with double r and double s — em-b-a-r-r-a-s-s-ment.
 
-The uncomfortable feeling of looking foolish.
+Embarrassment has 2 distinct senses.
+
+**1. The uncomfortable feeling of looking foolish.** (смущение, неловкость)
 
 1. He turned red with *embarrassment*.
 2. To her *embarrassment*, the mic was still on.
 3. The typo caused some *embarrassment* upstairs.
+
+**2. A person or thing that makes others feel ashamed.** (позор, источник неловкости)
+
+4. The whole episode was an *embarrassment* to the department.
+5. He's become an *embarrassment* to his own family.
+6. The misspelled sign was a small *embarrassment* for the school.
 
 ---
 
@@ -1569,14 +1677,22 @@ The painful loss of dignity in front of others.
 ### disgrace
 
 **Pronunciation:** /dɪsˈɡreɪs/ &middot; *dis-GRAYS*
-**Русский:** позор, бесчестье
+**Русский:** позор, бесчестье; позор (о ком-то или чём-то)
 **Countability:** uncountable
 
-Loss of respect because of something shameful.
+Disgrace has 2 distinct senses.
+
+**1. Loss of respect because of something shameful.** (позор, бесчестье)
 
 1. He resigned in *disgrace*.
 2. The condition of that park is a *disgrace*.
 3. She brought no *disgrace* on the family.
+
+**2. A person or thing so bad that it brings shame on others.** (позор (о ком-то или чём-то))
+
+4. The condition of these sidewalks is a *disgrace*.
+5. He called the ruling a *disgrace* to the profession.
+6. The way they treated their workers was a national *disgrace*.
 
 ---
 
@@ -1708,14 +1824,22 @@ Deep respect mixed with a little fear.
 ### curiosity
 
 **Pronunciation:** /ˌkjʊriˈɑːsəti/ &middot; *kyoor-ee-AH-suh-tee*
-**Русский:** любопытство
+**Русский:** любопытство; диковинка, редкость
 **Countability:** uncountable
 
-The wish to know or learn something.
+Curiosity has 2 distinct senses.
+
+**1. The wish to know or learn something.** (любопытство)
 
 1. *Curiosity* got the better of me and I opened it.
 2. She asked out of simple *curiosity*.
 3. Good scientists run on *curiosity*.
+
+**2. A strange or rare object that people find interesting.** (диковинка, редкость)
+
+4. The shop is full of old *curiosities* from the sailing days.
+5. The machine is now just a museum *curiosity*.
+6. He kept the two-headed coin as a *curiosity*.
 
 ---
 
@@ -2008,30 +2132,52 @@ An opinion colored by feeling.
 ### attitude
 
 **Pronunciation:** /ˈætətuːd/ &middot; *AT-uh-tood*
-**Русский:** отношение, настрой
+**Русский:** отношение, настрой; дерзость, вызывающая манера
 **Plural:** *attitudes*
 **Countability:** countable
 **Contrast:** Americans say A-tih-tood; the British add a y sound: AT-ih-tyood.
 
-The way someone thinks and feels about something, shown in behavior.
+Attitude has 2 distinct senses.
+
+**1. The way someone thinks and feels about something, shown in behavior.** (отношение, настрой)
 
 1. He came in with a bad *attitude*.
 2. Her *attitude* toward the whole thing has softened.
 3. *Attitudes* about remote work changed fast.
+
+**2. A rude, aggressive, or boldly confident manner.** (дерзость, вызывающая манера)
+
+4. Don't give me *attitude*, young man.
+5. The new kid showed up with a lot of *attitude*.
+6. She sings the old standards with real *attitude*.
 
 ---
 
 ### sensitivity
 
 **Pronunciation:** /ˌsɛnsəˈtɪvəti/ &middot; *sen-suh-TIV-uh-tee*
-**Русский:** чувствительность, ранимость
+**Русский:** чувствительность, ранимость; повышенная чувствительность (к пище, свету и т. п.); тактичность, деликатность
 **Countability:** uncountable
 
-The tendency to feel things deeply or to be easily hurt.
+Sensitivity has 3 distinct senses.
+
+**1. The tendency to feel things deeply or to be easily hurt.** (чувствительность, ранимость)
 
 1. He handled the topic with real *sensitivity*.
 2. Her *sensitivity* to criticism has gotten better.
 3. The job calls for a certain *sensitivity*.
+
+**2. A tendency of the body to react badly to a food, a drug, or something such as light or cold.** (повышенная чувствительность (к пище, свету и т. п.))
+
+4. She has a *sensitivity* to dairy but not a true allergy.
+5. The whitening strips gave me tooth *sensitivity* for a week.
+6. *Sensitivity* to light is a common migraine symptom.
+
+**3. Care and understanding in dealing with other people's feelings.** (тактичность, деликатность)
+
+7. He handled the layoffs with real *sensitivity*.
+8. The reporter wrote about the family with unusual *sensitivity*.
+9. Her manager could use a little more *sensitivity*.
 
 ---
 

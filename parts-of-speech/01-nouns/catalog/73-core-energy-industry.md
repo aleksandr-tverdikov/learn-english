@@ -648,14 +648,22 @@ A large machine with a bucket on an arm for digging earth.
 ### extraction
 
 **Pronunciation:** /ɪkˈstrækʃən/ &middot; *ik-STRAK-shuhn*
-**Русский:** добыча, извлечение
+**Русский:** добыча, извлечение; происхождение (по предкам)
 **Countability:** uncountable
 
-The process of taking a resource such as oil or metal out of the ground.
+Extraction has 2 distinct senses.
+
+**1. The process of taking a resource such as oil or metal out of the ground.** (добыча, извлечение)
 
 1. Oil *extraction* uses a huge amount of water.
 2. The law taxes the *extraction* of coal and gas.
 3. *Extraction* costs rise as the easy deposits run out.
+
+**2. The family or country a person's ancestors came from.** (происхождение (по предкам))
+
+4. She's an American of Polish *extraction*.
+5. Half the town is of Norwegian *extraction*.
+6. He's of mixed *extraction* on his mother's side.
 
 ---
 
@@ -1048,15 +1056,29 @@ The metal box in a building that holds the fuses or breakers for its circuits.
 ### blackout
 
 **Pronunciation:** /ˈblækaʊt/ &middot; *BLAK-owt*
-**Русский:** отключение электроэнергии, блэкаут
+**Русский:** отключение электроэнергии, блэкаут; потеря сознания; провал в памяти; информационная блокада, запрет на освещение
 **Plural:** *blackouts*
 **Countability:** countable
 
-A period when the electricity fails across a whole area.
+Blackout has 3 distinct senses.
+
+**1. A period when the electricity fails across a whole area.** (отключение электроэнергии, блэкаут)
 
 1. The *blackout* left half the state without power.
 2. Rolling *blackouts* began in the afternoon.
 3. We kept candles in the drawer after that *blackout*.
+
+**2. A temporary loss of consciousness or of memory.** (потеря сознания; провал в памяти)
+
+4. He had a *blackout* and woke up on the kitchen floor.
+5. She has no memory of the drive home — a complete *blackout*.
+6. The doctor asked whether he had ever had *blackouts* before.
+
+**3. An official ban on reporting or releasing information.** (информационная блокада, запрет на освещение)
+
+7. The army imposed a news *blackout* on the operation.
+8. There was a media *blackout* until the families had been notified.
+9. The company kept a total *blackout* on the merger talks.
 
 ---
 
@@ -1326,14 +1348,28 @@ The amount of energy, fuel, or goods that is used up.
 ### efficiency
 
 **Pronunciation:** /ɪˈfɪʃənsi/ &middot; *ih-FIH-shuhn-see*
-**Русский:** КПД, эффективность
+**Русский:** КПД, эффективность; эффективность (в работе), слаженность; квартира-студия
 **Countability:** uncountable
 
-How much useful work a machine or building gets out of the energy it uses.
+Efficiency has 3 distinct senses.
+
+**1. How much useful work a machine or building gets out of the energy it uses.** (КПД, эффективность)
 
 1. The new boiler improved *efficiency* by fifteen percent.
 2. Energy *efficiency* saves more than new power plants do.
 3. *Efficiency* drops sharply when the filters are dirty.
+
+**2. The quality of doing a job well without wasting time, money, or effort.** (эффективность (в работе), слаженность)
+
+4. The new software improved the office's *efficiency*.
+5. He runs the warehouse with impressive *efficiency*.
+6. They cut costs by finding *efficiencies* in shipping.
+
+**3. A small apartment in which one room serves as living room, bedroom, and kitchen.** (квартира-студия)
+
+7. She rented an *efficiency* near campus.
+8. The building has six *efficiencies* on the top floor.
+9. It's only an *efficiency*, but the rent is cheap.
 
 ---
 
@@ -1926,15 +1962,23 @@ A fixed amount that must be produced or is allowed to be produced.
 ### inventory
 
 **Pronunciation:** /ˈɪnvəntɔːri/ &middot; *IN-vuhn-tor-ee*
-**Русский:** складские запасы, товарные запасы
+**Русский:** складские запасы, товарные запасы; опись, инвентарная ведомость
 **Countability:** uncountable
 **Contrast:** Americans say IN-vuhn-tor-ee; the British say in-VEN-tuh-ree.
 
-The stock of goods and materials a business is holding.
+Inventory has 2 distinct senses.
+
+**1. The stock of goods and materials a business is holding.** (складские запасы, товарные запасы)
 
 1. The plant is carrying too much *inventory*.
 2. They cut *inventory* to free up cash.
 3. Parts sat in *inventory* for eight months.
+
+**2. A complete list of the things in a place.** (опись, инвентарная ведомость)
+
+4. The manager took an *inventory* of everything in the storeroom.
+5. We keep an *inventory* of the tools in each truck.
+6. The insurance company asked for an *inventory* of the damaged items.
 
 ---
 
@@ -2068,15 +2112,23 @@ The movement of fresh air through a building or a mine.
 ### regulator
 
 **Pronunciation:** /ˈrɛɡjəleɪtər/ &middot; *REG-yuh-lay-tur*
-**Русский:** регулятор
+**Русский:** регулятор; регулирующий орган, надзорное ведомство
 **Plural:** *regulators*
 **Countability:** countable
 
-A device that keeps pressure, voltage, or flow at a steady level.
+Regulator has 2 distinct senses.
+
+**1. A device that keeps pressure, voltage, or flow at a steady level.** (регулятор)
 
 1. The *regulator* on the propane tank was frozen.
 2. A bad *regulator* let the voltage swing wildly.
 3. Both *regulators* were replaced during the overhaul.
+
+**2. A government agency or official that oversees an industry and enforces its rules.** (регулирующий орган, надзорное ведомство)
+
+4. Federal *regulators* opened an investigation into the bank.
+5. The company must satisfy the *regulator* before the merger closes.
+6. State *regulators* fined the utility ten million dollars.
 
 ---
 
@@ -2159,15 +2211,23 @@ Goods carried in bulk by truck, train, or ship.
 ### shipment
 
 **Pronunciation:** /ˈʃɪpmənt/ &middot; *SHIP-muhnt*
-**Русский:** партия груза, отгрузка
+**Русский:** партия груза, отгрузка; отправка, отгрузка (процесс)
 **Plural:** *shipments*
 **Countability:** countable
 
-A load of goods sent out together.
+Shipment has 2 distinct senses.
+
+**1. A load of goods sent out together.** (партия груза, отгрузка)
 
 1. The *shipment* is due Thursday morning.
 2. Three *shipments* were held up at the border.
 3. We rejected the whole *shipment* after testing it.
+
+**2. The act or process of sending goods somewhere.** (отправка, отгрузка (процесс))
+
+4. The order is packed and ready for *shipment*.
+5. *Shipment* of the vaccine began the week after approval.
+6. Delays in *shipment* cost the company its biggest customer.
 
 ---
 

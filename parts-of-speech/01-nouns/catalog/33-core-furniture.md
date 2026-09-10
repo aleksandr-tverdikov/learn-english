@@ -1423,15 +1423,23 @@ A small decorative object, especially one hung on a Christmas tree.
 ### decoration
 
 **Pronunciation:** /ˌdɛkəˈreɪʃən/ &middot; *dek-uh-RAY-shuhn*
-**Русский:** украшение; оформление
+**Русский:** украшение; оформление; награда, орден (за храбрость)
 **Plural:** *decorations*
 **Countability:** both — countable and uncountable with different meanings
 
-An object added to make a place look nicer, or the act of decorating.
+Decoration has 2 distinct senses.
+
+**1. An object added to make a place look nicer, or the act of decorating.** (украшение; оформление)
 
 1. The *decorations* stay up until after New Year's.
 2. That vase is just *decoration* — nobody puts flowers in it.
 3. We hung one *decoration* in every window.
+
+**2. A medal or award given for bravery or long service.** (награда, орден (за храбрость))
+
+4. The old sergeant wore every *decoration* he had earned overseas.
+5. She received the country's highest military *decoration*.
+6. His dress uniform was covered in *decorations* from three campaigns.
 
 ---
 
@@ -1539,15 +1547,29 @@ A pointed metal fastener with a spiral thread, turned with a screwdriver.
 ### hardware
 
 **Pronunciation:** /ˈhɑːrdwɛr/ &middot; *HARD-wair*
-**Русский:** фурнитура, скобяные изделия
+**Русский:** фурнитура, скобяные изделия; аппаратное обеспечение, «железо»; боевая техника, вооружение
 **Countability:** uncountable
 **Contrast:** Uncountable: *some hardware*, *a piece of hardware* — never *a hardware* or *hardwares*.
 
-The metal fittings of furniture and buildings — handles, hinges, screws, and locks.
+Hardware has 3 distinct senses.
+
+**1. The metal fittings of furniture and buildings — handles, hinges, screws, and locks.** (фурнитура, скобяные изделия)
 
 1. The dresser is solid, but the *hardware* is cheap.
 2. We picked up some *hardware* at the store on the corner.
 3. All the *hardware* in the kitchen is brushed nickel.
+
+**2. The physical parts of a computer or electronic system, as opposed to the programs.** (аппаратное обеспечение, «железо»)
+
+4. The software is fine; the problem is the *hardware*.
+5. Training a model that size takes expensive *hardware*.
+6. Our *hardware* is five years old and it shows.
+
+**3. Heavy weapons and military equipment.** (боевая техника, вооружение)
+
+7. The convoy carried millions of dollars of military *hardware*.
+8. Both sides moved *hardware* toward the border.
+9. The parade showed off the country's newest *hardware*.
 
 ---
 

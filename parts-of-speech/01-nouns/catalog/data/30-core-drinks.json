@@ -1191,14 +1191,58 @@
       "term": "cocktail",
       "ipa": "/ˈkɑːkteɪl/",
       "respell": "KAHK-tayl",
-      "meaning": "A mixed drink of liquor with juice, soda, or other flavors. ---",
+      "meaning": "Cocktail has 3 distinct senses.",
       "examples": [
         "She ordered a cocktail with grapefruit and gin.",
         "Cocktails are half price until seven.",
-        "He makes a mean cocktail."
+        "He makes a mean cocktail.",
+        "Doctors put him on a cocktail of three drugs.",
+        "Runoff carried a cocktail of chemicals into the creek.",
+        "The crash was caused by a cocktail of fatigue, fog, and bad brakes.",
+        "We ordered a shrimp cocktail to start.",
+        "She spooned fruit cocktail into little bowls for the kids.",
+        "The crab cocktail is listed under appetizers, not drinks."
       ],
-      "senses": [],
-      "русский": "коктейль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mixed drink of liquor with juice, soda, or other flavors",
+          "body": [
+            "(коктейль)"
+          ],
+          "examples": [
+            "She ordered a cocktail with grapefruit and gin.",
+            "Cocktails are half price until seven.",
+            "He makes a mean cocktail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mixture of several different substances or factors, often a harmful one",
+          "body": [
+            "(смесь, коктейль (веществ, факторов))"
+          ],
+          "examples": [
+            "Doctors put him on a cocktail of three drugs.",
+            "Runoff carried a cocktail of chemicals into the creek.",
+            "The crash was caused by a cocktail of fatigue, fog, and bad brakes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A cold appetizer of seafood or chopped fruit served in a small glass or dish",
+          "body": [
+            "(холодная закуска (креветочный, фруктовый коктейль))",
+            "---"
+          ],
+          "examples": [
+            "We ordered a shrimp cocktail to start.",
+            "She spooned fruit cocktail into little bowls for the kids.",
+            "The crab cocktail is listed under appetizers, not drinks."
+          ]
+        }
+      ],
+      "русский": "коктейль; смесь, коктейль (веществ, факторов); холодная закуска (креветочный, фруктовый коктейль)",
       "plural": "cocktails",
       "countability": "countable"
     },
@@ -2604,14 +2648,43 @@
       "term": "hangover",
       "ipa": "/ˈhæŋoʊvər/",
       "respell": "HANG-oh-vur",
-      "meaning": "The headache and sickness that follow drinking too much. ---",
+      "meaning": "Hangover has 2 distinct senses.",
       "examples": [
         "He woke up with a terrible hangover.",
         "Water before bed helps with the hangover.",
-        "Hangovers get worse as you get older."
+        "Hangovers get worse as you get older.",
+        "The rule is a hangover from the 1970s.",
+        "That fee is a hangover from the old contract.",
+        "Downtown is still working through the hangover of the building boom."
       ],
-      "senses": [],
-      "русский": "похмелье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The headache and sickness that follow drinking too much",
+          "body": [
+            "(похмелье)"
+          ],
+          "examples": [
+            "He woke up with a terrible hangover.",
+            "Water before bed helps with the hangover.",
+            "Hangovers get worse as you get older."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something left over from an earlier time that no longer fits",
+          "body": [
+            "(пережиток, наследие прошлого)",
+            "---"
+          ],
+          "examples": [
+            "The rule is a hangover from the 1970s.",
+            "That fee is a hangover from the old contract.",
+            "Downtown is still working through the hangover of the building boom."
+          ]
+        }
+      ],
+      "русский": "похмелье; пережиток, наследие прошлого",
       "plural": "hangovers",
       "countability": "countable"
     },

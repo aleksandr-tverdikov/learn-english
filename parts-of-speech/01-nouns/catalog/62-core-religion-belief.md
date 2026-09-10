@@ -355,15 +355,23 @@ Someone sent to another place to spread a religion and help people.
 ### evangelist
 
 **Pronunciation:** /ɪˈvændʒəlɪst/ &middot; *ih-VAN-juh-list*
-**Русский:** евангелист, проповедник
+**Русский:** евангелист, проповедник; горячий сторонник, популяризатор
 **Plural:** *evangelists*
 **Countability:** countable
 
-A preacher who travels around trying to convert people to Christianity.
+Evangelist has 2 distinct senses.
+
+**1. A preacher who travels around trying to convert people to Christianity.** (евангелист, проповедник)
 
 1. A traveling *evangelist* filled the stadium.
 2. The *evangelist* broadcasts his sermons on the radio.
 3. TV *evangelists* raised millions that year.
+
+**2. A person who enthusiastically promotes a product, idea, or cause.** (горячий сторонник, популяризатор)
+
+4. He's become an *evangelist* for open-source software.
+5. The company hired a developer *evangelist* to speak at conferences.
+6. She's an *evangelist* for biking to work.
 
 ---
 
@@ -795,15 +803,23 @@ The main religion of India, with many gods and sacred texts.
 ### denomination
 
 **Pronunciation:** /dɪˌnɑːməˈneɪʃən/ &middot; *dih-nah-muh-NAY-shuhn*
-**Русский:** конфессия, деноминация
+**Русский:** конфессия, деноминация; номинал (купюры, монеты)
 **Plural:** *denominations*
 **Countability:** countable
 
-A branch of a religion with its own organization and beliefs.
+Denomination has 2 distinct senses.
+
+**1. A branch of a religion with its own organization and beliefs.** (конфессия, деноминация)
 
 1. Their *denomination* ordains women.
 2. He switched to a smaller *denomination*.
 3. Twelve Christian *denominations* signed the letter.
+
+**2. The face value of a bill, coin, or stamp.** (номинал (купюры, монеты))
+
+4. The machine only takes bills in small *denominations*.
+5. Please bring the cash in mixed *denominations*.
+6. The post office sells stamps in several *denominations*.
 
 ---
 
@@ -987,15 +1003,29 @@ Gospel has 3 distinct senses.
 ### testament
 
 **Pronunciation:** /ˈtɛstəmənt/ &middot; *TESS-tuh-muhnt*
-**Русский:** завет (Ветхий, Новый)
+**Русский:** завет (Ветхий, Новый); свидетельство, доказательство; завещание
 **Plural:** *testaments*
 **Countability:** countable
 
-Either of the two main parts of the Christian Bible.
+Testament has 3 distinct senses.
+
+**1. Either of the two main parts of the Christian Bible.** (завет (Ветхий, Новый))
 
 1. That story comes from the Old *Testament*.
 2. He knows the New *Testament* almost by heart.
 3. The class reads both *testaments* in translation.
+
+**2. Clear proof that something is true or that someone has a certain quality.** (свидетельство, доказательство)
+
+4. The packed hall was a *testament* to her reputation.
+5. That the bridge still stands is a *testament* to its builders.
+6. His recovery is a *testament* to modern medicine.
+
+**3. A legal document saying who should get your property after you die.** (завещание)
+
+7. She signed her last will and *testament* in front of two witnesses.
+8. The date on the *testament* was three weeks before he died.
+9. Under his last will and *testament*, the farm goes to his nephew.
 
 ---
 
@@ -1131,15 +1161,29 @@ The showing of love and respect for a god through prayer and ceremony.
 ### blessing
 
 **Pronunciation:** /ˈblɛsɪŋ/ &middot; *BLESS-ing*
-**Русский:** благословение
+**Русский:** благословение; одобрение, согласие; благо, счастье, удача
 **Plural:** *blessings*
 **Countability:** countable
 
-God's favor, or words asking for it.
+Blessing has 3 distinct senses.
+
+**1. God's favor, or words asking for it.** (благословение)
 
 1. The priest gave the couple his *blessing*.
 2. Losing that job turned out to be a *blessing*.
 3. She counts her *blessings* every night.
+
+**2. Approval or permission from someone whose opinion carries weight.** (одобрение, согласие)
+
+4. The board gave the merger its *blessing*.
+5. They married with her father's *blessing*.
+6. He took the job without his family's *blessing*.
+
+**3. Something you are lucky and grateful to have.** (благо, счастье, удача)
+
+7. Having good neighbors is a real *blessing*.
+8. Losing that job turned out to be a *blessing* in disguise.
+9. She told the kids to count their *blessings*.
 
 ---
 
@@ -1161,14 +1205,22 @@ A Christian ceremony in which water is used to accept someone into the church.
 ### communion
 
 **Pronunciation:** /kəˈmjuːnjən/ &middot; *kuh-MYOON-yuhn*
-**Русский:** причастие
+**Русский:** причастие; духовная близость, общение
 **Countability:** uncountable
 
-The Christian ceremony of sharing bread and wine.
+Communion has 2 distinct senses.
+
+**1. The Christian ceremony of sharing bread and wine.** (причастие)
 
 1. They take *communion* on the first Sunday of the month.
 2. She received her first *communion* at eight.
 3. *Communion* is offered at the end of the service.
+
+**2. A deep sharing of feeling, or a close bond with nature or with God.** (духовная близость, общение)
+
+4. He hikes alone to feel some *communion* with nature.
+5. The two writers lived in close *communion* for twenty years.
+6. She described a quiet *communion* with the land she grew up on.
 
 ---
 
@@ -1206,31 +1258,53 @@ A formal religious ceremony with fixed words and actions.
 ### ceremony
 
 **Pronunciation:** /ˈsɛrəmoʊni/ &middot; *SEH-ruh-moh-nee*
-**Русский:** церемония, обряд
+**Русский:** церемония, обряд; церемонность, формальности
 **Plural:** *ceremonies*
 **Countability:** countable
 **Contrast:** Americans give the third syllable a full 'moh': SEH-ruh-moh-nee; the British say SERR-uh-muh-nee.
 
-A formal event held to mark an important occasion.
+Ceremony has 2 distinct senses.
+
+**1. A formal event held to mark an important occasion.** (церемония, обряд)
 
 1. The wedding *ceremony* lasted twenty minutes.
 2. She spoke at the graduation *ceremony*.
 3. Both *ceremonies* were held outdoors.
+
+**2. Formal manners and polite fuss on official occasions.** (церемонность, формальности)
+
+4. He dropped the papers on my desk without *ceremony* and walked out.
+5. Please don't stand on *ceremony* — just help yourself.
+6. The old club runs on tradition and *ceremony*.
 
 ---
 
 ### offering
 
 **Pronunciation:** /ˈɔːfərɪŋ/ &middot; *AW-fur-ing*
-**Русский:** приношение, пожертвование
+**Русский:** приношение, пожертвование; продукт, предложение (то, что предлагают); размещение акций, выпуск ценных бумаг
 **Plural:** *offerings*
 **Countability:** countable
 
-Money or a gift presented as part of worship.
+Offering has 3 distinct senses.
+
+**1. Money or a gift presented as part of worship.** (приношение, пожертвование)
 
 1. They collect the *offering* halfway through the service.
 2. He dropped a folded bill into the *offering*.
 3. Small *offerings* of fruit were left at the shrine.
+
+**2. Something a company, studio, or restaurant makes available to the public.** (продукт, предложение (то, что предлагают))
+
+4. The studio's latest *offering* is a remake of a 1970s thriller.
+5. The menu's vegetarian *offerings* have gotten much better.
+6. Their new *offering* costs half what the competition charges.
+
+**3. A sale of shares in a company to investors.** (размещение акций, выпуск ценных бумаг)
+
+7. The company raised two billion dollars in its public *offering*.
+8. Shares jumped on the first day of the *offering*.
+9. They delayed the stock *offering* until the market settled down.
 
 ---
 
@@ -1268,14 +1342,22 @@ Money or food given to poor people as a religious duty.
 ### meditation
 
 **Pronunciation:** /ˌmɛdɪˈteɪʃən/ &middot; *meh-dih-TAY-shuhn*
-**Русский:** медитация
+**Русский:** медитация; размышление, раздумье (текст, эссе)
 **Countability:** uncountable
 
-The practice of sitting quietly and focusing the mind.
+Meditation has 2 distinct senses.
+
+**1. The practice of sitting quietly and focusing the mind.** (медитация)
 
 1. He does twenty minutes of *meditation* every morning.
 2. *Meditation* helped her sleep better.
 3. The retreat teaches *meditation* to beginners.
+
+**2. A piece of writing or speech that reflects deeply on a subject.** (размышление, раздумье (текст, эссе))
+
+4. The novel is a *meditation* on grief and memory.
+5. His last album is a quiet *meditation* on getting older.
+6. The essay reads like a *meditation* rather than an argument.
 
 ---
 
@@ -1769,14 +1851,22 @@ The act of coming back to life after death.
 ### salvation
 
 **Pronunciation:** /sælˈveɪʃən/ &middot; *sal-VAY-shuhn*
-**Русский:** спасение (души)
+**Русский:** спасение (души); спасение, избавление (от беды)
 **Countability:** uncountable
 
-Being saved from sin and its punishment.
+Salvation has 2 distinct senses.
+
+**1. Being saved from sin and its punishment.** (спасение (души))
 
 1. The preacher spoke about *salvation* through faith.
 2. She found *salvation* in the church basement, she says.
 3. That loan was his *salvation*.
+
+**2. A person or thing that saves someone from trouble or ruin.** (спасение, избавление (от беды))
+
+4. That loan was the *salvation* of the family farm.
+5. Coaching kids became his *salvation* after the divorce.
+6. Air conditioning is my *salvation* in August.
 
 ---
 
@@ -1848,14 +1938,22 @@ Mercy has 2 distinct senses.
 ### forgiveness
 
 **Pronunciation:** /fərˈɡɪvnəs/ &middot; *fur-GIV-niss*
-**Русский:** прощение
+**Русский:** прощение; списание долга
 **Countability:** uncountable
 
-The act of stopping being angry at someone for a wrong.
+Forgiveness has 2 distinct senses.
+
+**1. The act of stopping being angry at someone for a wrong.** (прощение)
 
 1. He asked his brother for *forgiveness*.
 2. *Forgiveness* took her years.
 3. The whole sermon was about *forgiveness*.
+
+**2. The cancellation of a debt, so that it no longer has to be repaid.** (списание долга)
+
+4. The program offers student loan *forgiveness* after ten years of public service.
+5. Some borrowers qualify for partial *forgiveness*.
+6. The bill included *forgiveness* for small-business loans.
 
 ---
 

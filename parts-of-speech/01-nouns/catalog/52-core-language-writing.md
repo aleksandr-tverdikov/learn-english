@@ -42,15 +42,23 @@ Marker has 3 distinct senses.
 ### highlighter
 
 **Pronunciation:** /ˈhaɪlaɪtər/ &middot; *HY-ly-tur*
-**Русский:** маркер-выделитель, текстовыделитель
+**Русский:** маркер-выделитель, текстовыделитель; хайлайтер (косметическое средство)
 **Plural:** *highlighters*
 **Countability:** countable
 
-A pen with bright see-through ink for marking text you want to find again.
+Highlighter has 2 distinct senses.
+
+**1. A pen with bright see-through ink for marking text you want to find again.** (маркер-выделитель, текстовыделитель)
 
 1. She went through the contract with a yellow *highlighter*.
 2. My *highlighter* bled through the page.
 3. I keep three *highlighters* in different colors.
+
+**2. A cosmetic that puts a shine on the cheekbones and other high points of the face.** (хайлайтер (косметическое средство))
+
+4. She dusted a little *highlighter* along her cheekbones.
+5. This *highlighter* gives a soft glow instead of glitter.
+6. I keep my *highlighter* and my blush in the same drawer.
 
 ---
 
@@ -442,15 +450,23 @@ A small word such as in, on, or of that shows how words relate.
 ### conjunction
 
 **Pronunciation:** /kənˈdʒʌŋkʃən/ &middot; *kuhn-JUHNGK-shuhn*
-**Русский:** союз (часть речи)
+**Русский:** союз (часть речи); сочетание, совокупность
 **Plural:** *conjunctions*
 **Countability:** countable
 
-A word such as and, but, or because that joins parts of a sentence.
+Conjunction has 2 distinct senses.
+
+**1. A word such as and, but, or because that joins parts of a sentence.** (союз (часть речи))
 
 1. And is the most common *conjunction* in English.
 2. Start the second half with a *conjunction*.
 3. He strings whole paragraphs together with *conjunctions*.
+
+**2. A combination of two or more things happening or used together.** (сочетание, совокупность)
+
+4. The class is taught in *conjunction* with the state museum.
+5. A *conjunction* of bad weather and low staffing closed the store.
+6. The drug is used in *conjunction* with physical therapy.
 
 ---
 
@@ -774,16 +790,24 @@ The form of an adjective or adverb that compares two things.
 ### superlative
 
 **Pronunciation:** /suːˈpɜːrlətɪv/ &middot; *soo-PUR-luh-tiv*
-**Русский:** превосходная степень
+**Русский:** превосходная степень; восторженный эпитет, хвалебные отзывы
 **Plural:** *superlatives*
 **Countability:** countable
 **Contrast:** The stress falls on the second syllable: soo-PUR-luh-tiv, not SOO-pur-lay-tiv.
 
-The form of an adjective or adverb that marks the most or the least.
+Superlative has 2 distinct senses.
+
+**1. The form of an adjective or adverb that marks the most or the least.** (превосходная степень)
 
 1. Best is the *superlative* of good.
 2. Put the in front of a *superlative*.
 3. Ads are full of *superlatives*.
+
+**2. An exaggerated word of praise.** (восторженный эпитет, хвалебные отзывы)
+
+4. Reviewers ran out of *superlatives* for her performance.
+5. The coach heaped *superlatives* on his young quarterback.
+6. The brochure is written entirely in *superlatives*.
 
 ---
 
@@ -1257,16 +1281,24 @@ The history of where a word came from.
 ### linguist
 
 **Pronunciation:** /ˈlɪŋɡwɪst/ &middot; *LING-gwist*
-**Русский:** лингвист
+**Русский:** лингвист; полиглот, знаток языков
 **Plural:** *linguists*
 **Countability:** countable
 **Contrast:** In American usage a linguist is a language scientist; someone who simply speaks many languages is a polyglot.
 
-Someone who studies how language works.
+Linguist has 2 distinct senses.
+
+**1. Someone who studies how language works.** (лингвист)
 
 1. She's a *linguist* who works on child speech.
 2. A *linguist* would tell you that's a normal sound change.
 3. The team hired two *linguists*.
+
+**2. Someone who speaks several languages well.** (полиглот, знаток языков)
+
+4. He's a gifted *linguist* and picks up new languages fast.
+5. The team hired a *linguist* to interpret at the meetings.
+6. You don't have to be a *linguist* to get around Rome.
 
 ---
 
@@ -1355,14 +1387,22 @@ The ability to speak or write a language easily and smoothly.
 ### literacy
 
 **Pronunciation:** /ˈlɪtərəsi/ &middot; *LIT-ur-uh-see*
-**Русский:** грамотность
+**Русский:** грамотность; грамотность (в какой-л. области), базовые знания
 **Countability:** uncountable
 
-The ability to read and write.
+Literacy has 2 distinct senses.
+
+**1. The ability to read and write.** (грамотность)
 
 1. *Literacy* rates have climbed steadily.
 2. The library runs an adult *literacy* program.
 3. The grant is for early childhood *literacy*.
+
+**2. Basic knowledge of and skill in a particular subject.** (грамотность (в какой-л. области), базовые знания)
+
+4. The high school added a required course in financial *literacy*.
+5. Digital *literacy* is expected in almost every office job now.
+6. The museum's summer program builds science *literacy* in middle schoolers.
 
 ---
 
@@ -1457,16 +1497,30 @@ A short account that gives only the main points.
 ### abstract
 
 **Pronunciation:** /ˈæbstrækt/ &middot; *AB-strakt*
-**Русский:** аннотация, реферат
+**Русский:** аннотация, реферат; абстракция, абстрактная картина; отвлечённое, теоретическое (в отрыве от практики)
 **Plural:** *abstracts*
 **Countability:** countable
 **Contrast:** The noun stresses the first syllable, AB-strakt; the adjective meaning not concrete is ab-STRAKT.
 
-A short summary printed at the head of a paper or article.
+Abstract has 3 distinct senses.
+
+**1. A short summary printed at the head of a paper or article.** (аннотация, реферат)
 
 1. I only read the *abstract*.
 2. The *abstract* has to fit in two hundred words.
 3. You can search the *abstracts* without paying.
+
+**2. A painting or sculpture that does not show recognizable objects.** (абстракция, абстрактная картина)
+
+4. A big red *abstract* hung over the fireplace.
+5. The third floor is all *abstracts* from the fifties.
+6. She paints landscapes now, but her early work was mostly *abstracts*.
+
+**3. Theory or general ideas considered apart from real cases, used in the phrase in the abstract.** (отвлечённое, теоретическое (в отрыве от практики))
+
+7. Free speech is easy to defend in the *abstract* and hard in a real case.
+8. We discussed the budget in the *abstract* without naming a single number.
+9. In the *abstract* the plan sounds fine, but the details worry me.
 
 ---
 
@@ -1488,15 +1542,23 @@ A set of items written one after another.
 ### narrative
 
 **Pronunciation:** /ˈnærətɪv/ &middot; *NAR-uh-tiv*
-**Русский:** повествование, рассказ
+**Русский:** повествование, рассказ; нарратив, трактовка событий
 **Plural:** *narratives*
 **Countability:** countable
 
-An account of connected events, told as a story.
+Narrative has 2 distinct senses.
+
+**1. An account of connected events, told as a story.** (повествование, рассказ)
 
 1. The book is a first-person *narrative*.
 2. The two witnesses gave completely different *narratives*.
 3. Break up the *narrative* with some dialogue.
+
+**2. A particular way of explaining events that supports one side's point of view.** (нарратив, трактовка событий)
+
+4. The campaign lost control of the *narrative* after the leak.
+5. Both sides are pushing competing *narratives* about who started the fight.
+6. That *narrative* falls apart as soon as you look at the numbers.
 
 ---
 
@@ -1564,15 +1626,23 @@ A word that ends in the same sound as another, or a poem built on such words.
 ### metaphor
 
 **Pronunciation:** /ˈmɛtəfɔːr/ &middot; *MET-uh-for*
-**Русский:** метафора
+**Русский:** метафора; символ, олицетворение (чего-л.)
 **Plural:** *metaphors*
 **Countability:** countable
 
-A phrase that calls one thing another to make a point.
+Metaphor has 2 distinct senses.
+
+**1. A phrase that calls one thing another to make a point.** (метафора)
 
 1. Time is money is a *metaphor*.
 2. That *metaphor* falls apart if you push it.
 3. His speech was full of sports *metaphors*.
+
+**2. A thing or event that stands for something larger.** (символ, олицетворение (чего-л.))
+
+4. The empty factory became a *metaphor* for the whole town's decline.
+5. For her, the marathon was a *metaphor* for getting better.
+6. Critics read the storm in the film as a *metaphor* for grief.
 
 ---
 
@@ -1837,15 +1907,29 @@ Careless or unreadable marks made with a pen or pencil.
 ### correction
 
 **Pronunciation:** /kəˈrɛkʃən/ &middot; *kuh-REK-shuhn*
-**Русский:** исправление, поправка
+**Русский:** исправление, поправка; исправительная система, пенитенциарная система; коррекция (снижение цен на рынке)
 **Plural:** *corrections*
 **Countability:** countable
 
-A change made to fix a mistake.
+Correction has 3 distinct senses.
+
+**1. A change made to fix a mistake.** (исправление, поправка)
 
 1. The teacher wrote a *correction* over every error.
 2. The paper printed a *correction* the next day.
 3. Make these *corrections* and send it back.
+
+**2. The prison system and the work of running it.** (исправительная система, пенитенциарная система)
+
+4. He spent twenty years in *corrections* before he retired.
+5. The state department of *corrections* runs eleven facilities.
+6. A *corrections* officer walked us through the cell block.
+
+**3. A drop in stock prices after a long rise.** (коррекция (снижение цен на рынке))
+
+7. Analysts called the selloff a healthy *correction*.
+8. The market entered a *correction* in October.
+9. A ten percent *correction* is not a crash.
 
 ---
 

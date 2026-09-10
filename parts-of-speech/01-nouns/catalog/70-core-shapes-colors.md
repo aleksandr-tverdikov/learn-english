@@ -1057,15 +1057,23 @@ Material made of threads or wires with small open spaces between them.
 ### gradient
 
 **Pronunciation:** /ˈɡreɪdiənt/ &middot; *GRAY-dee-unt*
-**Русский:** градиент, плавный переход цвета
+**Русский:** градиент, плавный переход цвета; уклон, градиент
 **Plural:** *gradients*
 **Countability:** countable
 
-A smooth change from one color or shade to another.
+Gradient has 2 distinct senses.
+
+**1. A smooth change from one color or shade to another.** (градиент, плавный переход цвета)
 
 1. The background is a blue *gradient*.
 2. Add a soft *gradient* behind the title.
 3. The poster uses two overlapping *gradients*.
+
+**2. The steepness of a slope, or the rate at which something rises or falls.** (уклон, градиент)
+
+4. The road climbs at a steep *gradient* for two miles.
+5. Engineers eased the *gradient* so loaded trucks could make the hill.
+6. There's a sharp temperature *gradient* between the coast and the desert.
 
 ---
 
@@ -1810,15 +1818,29 @@ Opacity has 2 distinct senses.
 ### appearance
 
 **Pronunciation:** /əˈpɪrəns/ &middot; *uh-PEER-unss*
-**Русский:** внешность, внешний вид
+**Русский:** внешность, внешний вид; выступление, появление на публике; появление, возникновение
 **Plural:** *appearances*
 **Countability:** countable
 
-The way someone or something looks.
+Appearance has 3 distinct senses.
+
+**1. The way someone or something looks.** (внешность, внешний вид)
 
 1. He cares a lot about his *appearance*.
 2. The house has a neglected *appearance*.
 3. Do not judge people by *appearances*.
+
+**2. An act of taking part in a public event or performance.** (выступление, появление на публике)
+
+4. She made a brief *appearance* at the fundraiser.
+5. The band's first television *appearance* was in 1994.
+6. He has a court *appearance* scheduled for Monday.
+
+**3. The act of coming into view or starting to exist.** (появление, возникновение)
+
+7. The *appearance* of the first robins means spring is close.
+8. Cracks made their *appearance* in the ceiling last winter.
+9. Her sudden *appearance* in the doorway startled everyone.
 
 ---
 
@@ -1869,15 +1891,29 @@ The fact of looking like someone or something else.
 ### expression
 
 **Pronunciation:** /ɪkˈsprɛʃən/ &middot; *ik-SPRESH-un*
-**Русский:** выражение лица
+**Русский:** выражение лица; выражение, оборот речи; выражение (чувств, мыслей), самовыражение
 **Plural:** *expressions*
 **Countability:** countable
 
-The look on someone's face that shows what they feel.
+Expression has 3 distinct senses.
+
+**1. The look on someone's face that shows what they feel.** (выражение лица)
 
 1. She had a puzzled *expression*.
 2. His *expression* never changed.
 3. The photos catch a whole range of *expressions*.
+
+**2. A word or phrase used in a particular way.** (выражение, оборот речи)
+
+4. "Break a leg" is an old theater *expression*.
+5. I love that *expression* — I'd never heard it before.
+6. Some *expressions* just don't translate.
+
+**3. The act of putting feelings or ideas into words, art, or action.** (выражение (чувств, мыслей), самовыражение)
+
+7. The First Amendment protects freedom of *expression*.
+8. The flowers were an *expression* of sympathy.
+9. Dance is her main form of *expression*.
 
 ---
 

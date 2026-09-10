@@ -216,14 +216,43 @@
       "term": "playground",
       "ipa": "/ˈpleɪɡraʊnd/",
       "respell": "PLAY-grownd",
-      "meaning": "An outdoor area at a school where children play during breaks. ---",
+      "meaning": "Playground has 2 distinct senses.",
       "examples": [
         "The kids ran out to the playground.",
         "A teacher watches the playground at recess.",
-        "The city rebuilt three school playgrounds last year."
+        "The city rebuilt three school playgrounds last year.",
+        "The island has become a playground for the very rich.",
+        "Miami Beach was a playground for movie stars in the fifties.",
+        "Unsecured servers are a playground for hackers."
       ],
-      "senses": [],
-      "русский": "игровая площадка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An outdoor area at a school where children play during breaks",
+          "body": [
+            "(игровая площадка)"
+          ],
+          "examples": [
+            "The kids ran out to the playground.",
+            "A teacher watches the playground at recess.",
+            "The city rebuilt three school playgrounds last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where a particular group of people go to enjoy themselves",
+          "body": [
+            "(место развлечений (для определённой публики))",
+            "---"
+          ],
+          "examples": [
+            "The island has become a playground for the very rich.",
+            "Miami Beach was a playground for movie stars in the fifties.",
+            "Unsecured servers are a playground for hackers."
+          ]
+        }
+      ],
+      "русский": "игровая площадка; место развлечений (для определённой публики)",
       "plural": "playgrounds",
       "countability": "countable"
     },
@@ -504,14 +533,58 @@
       "term": "counselor",
       "ipa": "/ˈkaʊnsələr/",
       "respell": "KOWN-suh-lur",
-      "meaning": "Someone at a school who advises students about classes, colleges, and personal problems. ---",
+      "meaning": "Counselor has 3 distinct senses.",
       "examples": [
         "My guidance counselor helped me pick a college.",
         "Talk to a counselor if you're feeling overwhelmed.",
-        "The school hired two more counselors."
+        "The school hired two more counselors.",
+        "She spent three summers as a counselor at a camp in Maine.",
+        "Our cabin counselor woke us at seven every morning.",
+        "The camp is still hiring counselors for June.",
+        "Counselor, approach the bench.",
+        "Both counselors met with the judge in chambers.",
+        "The defendant conferred quietly with his counselor."
       ],
-      "senses": [],
-      "русский": "школьный консультант, психолог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone at a school who advises students about classes, colleges, and personal problems",
+          "body": [
+            "(школьный консультант, психолог)"
+          ],
+          "examples": [
+            "My guidance counselor helped me pick a college.",
+            "Talk to a counselor if you're feeling overwhelmed.",
+            "The school hired two more counselors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A young adult hired to supervise children at a summer camp",
+          "body": [
+            "(вожатый (в детском лагере))"
+          ],
+          "examples": [
+            "She spent three summers as a counselor at a camp in Maine.",
+            "Our cabin counselor woke us at seven every morning.",
+            "The camp is still hiring counselors for June."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A lawyer, especially one arguing a case in court",
+          "body": [
+            "(адвокат, защитник (обращение в суде))",
+            "---"
+          ],
+          "examples": [
+            "Counselor, approach the bench.",
+            "Both counselors met with the judge in chambers.",
+            "The defendant conferred quietly with his counselor."
+          ]
+        }
+      ],
+      "русский": "школьный консультант, психолог; вожатый (в детском лагере); адвокат, защитник (обращение в суде)",
       "plural": "counselors",
       "countability": "countable",
       "contrast": "American spelling has one l; the British write counsellor. Do not confuse it with councilor, a member of a council."
@@ -730,14 +803,58 @@
       "term": "substitute",
       "ipa": "/ˈsʌbstətuːt/",
       "respell": "SUB-stuh-toot",
-      "meaning": "A teacher who fills in when the regular teacher is absent. ---",
+      "meaning": "Substitute has 3 distinct senses.",
       "examples": [
         "We had a substitute in math all week.",
         "The substitute let us watch a movie.",
-        "The district is short on substitutes this winter."
+        "The district is short on substitutes this winter.",
+        "There is no substitute for hard work.",
+        "She uses a sugar substitute in her coffee.",
+        "Frozen berries make a decent substitute in this recipe.",
+        "The coach sent in a substitute at halftime.",
+        "He came on as a substitute and scored twice.",
+        "Each team may use three substitutes per game."
       ],
-      "senses": [],
-      "русский": "замещающий учитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A teacher who fills in when the regular teacher is absent",
+          "body": [
+            "(замещающий учитель)"
+          ],
+          "examples": [
+            "We had a substitute in math all week.",
+            "The substitute let us watch a movie.",
+            "The district is short on substitutes this winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing used in place of another",
+          "body": [
+            "(замена, заменитель)"
+          ],
+          "examples": [
+            "There is no substitute for hard work.",
+            "She uses a sugar substitute in her coffee.",
+            "Frozen berries make a decent substitute in this recipe."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A player sent onto the field to replace another during a game",
+          "body": [
+            "(запасной игрок, замена)",
+            "---"
+          ],
+          "examples": [
+            "The coach sent in a substitute at halftime.",
+            "He came on as a substitute and scored twice.",
+            "Each team may use three substitutes per game."
+          ]
+        }
+      ],
+      "русский": "замещающий учитель; замена, заменитель; запасной игрок, замена",
       "plural": "substitutes",
       "countability": "countable"
     },
@@ -745,14 +862,43 @@
       "term": "superintendent",
       "ipa": "/ˌsuːpərɪnˈtɛndənt/",
       "respell": "soo-pur-in-TEN-duhnt",
-      "meaning": "The official in charge of all the public schools in an American district. ---",
+      "meaning": "Superintendent has 2 distinct senses.",
       "examples": [
         "The superintendent canceled school because of the snow.",
         "Parents complained to the superintendent.",
-        "Three superintendents have come and gone in five years."
+        "Three superintendents have come and gone in five years.",
+        "Call the superintendent if the radiator stops working.",
+        "The superintendent lives in the basement apartment.",
+        "Our superintendent changed the lock the same afternoon."
       ],
-      "senses": [],
-      "русский": "начальник школьного округа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The official in charge of all the public schools in an American district",
+          "body": [
+            "(начальник школьного округа)"
+          ],
+          "examples": [
+            "The superintendent canceled school because of the snow.",
+            "Parents complained to the superintendent.",
+            "Three superintendents have come and gone in five years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person who manages an apartment building and takes care of repairs",
+          "body": [
+            "(управляющий домом, комендант)",
+            "---"
+          ],
+          "examples": [
+            "Call the superintendent if the radiator stops working.",
+            "The superintendent lives in the basement apartment.",
+            "Our superintendent changed the lock the same afternoon."
+          ]
+        }
+      ],
+      "русский": "начальник школьного округа; управляющий домом, комендант",
       "plural": "superintendents",
       "countability": "countable"
     },
@@ -819,14 +965,43 @@
       "term": "geometry",
       "ipa": "/dʒiˈɑːmətri/",
       "respell": "jee-AH-muh-tree",
-      "meaning": "The branch of math that deals with lines, angles, and shapes. ---",
+      "meaning": "Geometry has 2 distinct senses.",
       "examples": [
         "Geometry was my favorite class.",
         "You need a protractor for geometry.",
-        "She's teaching geometry to sophomores this year."
+        "She's teaching geometry to sophomores this year.",
+        "Engineers changed the geometry of the wing to cut drag.",
+        "The bike's geometry makes it steady on fast descents.",
+        "Every snowflake grows in a six-sided geometry."
       ],
-      "senses": [],
-      "русский": "геометрия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The branch of math that deals with lines, angles, and shapes",
+          "body": [
+            "(геометрия)"
+          ],
+          "examples": [
+            "Geometry was my favorite class.",
+            "You need a protractor for geometry.",
+            "She's teaching geometry to sophomores this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shape of an object and the way its parts are arranged",
+          "body": [
+            "(форма, конфигурация (расположение частей))",
+            "---"
+          ],
+          "examples": [
+            "Engineers changed the geometry of the wing to cut drag.",
+            "The bike's geometry makes it steady on fast descents.",
+            "Every snowflake grows in a six-sided geometry."
+          ]
+        }
+      ],
+      "русский": "геометрия; форма, конфигурация (расположение частей)",
       "countability": "uncountable"
     },
     {
@@ -890,14 +1065,43 @@
       "term": "chemistry",
       "ipa": "/ˈkɛməstri/",
       "respell": "KEM-uh-stree",
-      "meaning": "The science of substances and how they react with each other. ---",
+      "meaning": "Chemistry has 2 distinct senses.",
       "examples": [
         "Chemistry is my hardest class this semester.",
         "He got an A in chemistry.",
-        "You need goggles for chemistry lab."
+        "You need goggles for chemistry lab.",
+        "The two leads have real chemistry on screen.",
+        "The interview went fine, but the chemistry wasn't there.",
+        "This team has better chemistry than last year's."
       ],
-      "senses": [],
-      "русский": "химия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The science of substances and how they react with each other",
+          "body": [
+            "(химия)"
+          ],
+          "examples": [
+            "Chemistry is my hardest class this semester.",
+            "He got an A in chemistry.",
+            "You need goggles for chemistry lab."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The natural attraction or easy connection between people",
+          "body": [
+            "(взаимопонимание, «химия» между людьми)",
+            "---"
+          ],
+          "examples": [
+            "The two leads have real chemistry on screen.",
+            "The interview went fine, but the chemistry wasn't there.",
+            "This team has better chemistry than last year's."
+          ]
+        }
+      ],
+      "русский": "химия; взаимопонимание, «химия» между людьми",
       "countability": "uncountable",
       "contrast": "The ch is pronounced like k."
     },
@@ -905,14 +1109,43 @@
       "term": "geography",
       "ipa": "/dʒiˈɑːɡrəfi/",
       "respell": "jee-AH-gruh-fee",
-      "meaning": "The study of the earth's surface, its countries, and its features. ---",
+      "meaning": "Geography has 2 distinct senses.",
       "examples": [
         "American kids don't study much geography.",
         "We had a geography quiz on the state capitals.",
-        "Geography is taught as part of social studies here."
+        "Geography is taught as part of social studies here.",
+        "The geography of the valley makes flooding worse every spring.",
+        "A river on one side and cliffs on the other give the town an awkward geography.",
+        "The troops studied the geography of the coast before landing."
       ],
-      "senses": [],
-      "русский": "география",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The study of the earth's surface, its countries, and its features",
+          "body": [
+            "(география)"
+          ],
+          "examples": [
+            "American kids don't study much geography.",
+            "We had a geography quiz on the state capitals.",
+            "Geography is taught as part of social studies here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The physical features and layout of a particular place",
+          "body": [
+            "(рельеф и расположение местности)",
+            "---"
+          ],
+          "examples": [
+            "The geography of the valley makes flooding worse every spring.",
+            "A river on one side and cliffs on the other give the town an awkward geography.",
+            "The troops studied the geography of the coast before landing."
+          ]
+        }
+      ],
+      "русский": "география; рельеф и расположение местности",
       "countability": "uncountable"
     },
     {
@@ -2098,14 +2331,43 @@
       "term": "scholarship",
       "ipa": "/ˈskɑːlərʃɪp/",
       "respell": "SKAH-lur-ship",
-      "meaning": "Money given to a student to pay for school, usually for good grades or need. ---",
+      "meaning": "Scholarship has 2 distinct senses.",
       "examples": [
         "He got a full scholarship to play baseball.",
         "She's applying for every scholarship she can find.",
-        "The scholarship covers tuition but not housing."
+        "The scholarship covers tuition but not housing.",
+        "Her book is a fine piece of scholarship.",
+        "Recent scholarship has questioned that date.",
+        "The prize honors a lifetime of scholarship on the Civil War."
       ],
-      "senses": [],
-      "русский": "стипендия (грант на обучение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money given to a student to pay for school, usually for good grades or need",
+          "body": [
+            "(стипендия (грант на обучение))"
+          ],
+          "examples": [
+            "He got a full scholarship to play baseball.",
+            "She's applying for every scholarship she can find.",
+            "The scholarship covers tuition but not housing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Serious academic study and the deep knowledge that comes from it",
+          "body": [
+            "(учёность, научные исследования)",
+            "---"
+          ],
+          "examples": [
+            "Her book is a fine piece of scholarship.",
+            "Recent scholarship has questioned that date.",
+            "The prize honors a lifetime of scholarship on the Civil War."
+          ]
+        }
+      ],
+      "русский": "стипендия (грант на обучение); учёность, научные исследования",
       "plural": "scholarships",
       "countability": "countable"
     },
@@ -2113,14 +2375,43 @@
       "term": "fellowship",
       "ipa": "/ˈfɛloʊʃɪp/",
       "respell": "FEL-oh-ship",
-      "meaning": "Money awarded to a graduate student or researcher to support their work. ---",
+      "meaning": "Fellowship has 2 distinct senses.",
       "examples": [
         "The fellowship pays for two years of research.",
         "She won a teaching fellowship.",
-        "Only three fellowships are awarded each year."
+        "Only three fellowships are awarded each year.",
+        "The church serves coffee after the service to encourage fellowship.",
+        "There was a warm fellowship around the campfire that night.",
+        "She missed the fellowship of her old running club."
       ],
-      "senses": [],
-      "русский": "аспирантская стипендия, грант",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money awarded to a graduate student or researcher to support their work",
+          "body": [
+            "(аспирантская стипендия, грант)"
+          ],
+          "examples": [
+            "The fellowship pays for two years of research.",
+            "She won a teaching fellowship.",
+            "Only three fellowships are awarded each year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A friendly feeling of togetherness among people who share interests or beliefs",
+          "body": [
+            "(товарищество, дружеское общение)",
+            "---"
+          ],
+          "examples": [
+            "The church serves coffee after the service to encourage fellowship.",
+            "There was a warm fellowship around the campfire that night.",
+            "She missed the fellowship of her old running club."
+          ]
+        }
+      ],
+      "русский": "аспирантская стипендия, грант; товарищество, дружеское общение",
       "plural": "fellowships",
       "countability": "countable"
     },
@@ -2216,14 +2507,43 @@
       "term": "commencement",
       "ipa": "/kəˈmɛnsmənt/",
       "respell": "kuh-MENSS-muhnt",
-      "meaning": "The formal graduation ceremony at an American school or college. ---",
+      "meaning": "Commencement has 2 distinct senses.",
       "examples": [
         "The governor gave the commencement speech.",
         "Commencement is held on the football field.",
-        "Rain moved both commencements indoors."
+        "Rain moved both commencements indoors.",
+        "Rent is due at the commencement of the lease.",
+        "Rain delayed the commencement of play by two hours.",
+        "Attendance is taken at the commencement of each class."
       ],
-      "senses": [],
-      "русский": "выпускная церемония",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The formal graduation ceremony at an American school or college",
+          "body": [
+            "(выпускная церемония)"
+          ],
+          "examples": [
+            "The governor gave the commencement speech.",
+            "Commencement is held on the football field.",
+            "Rain moved both commencements indoors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The beginning or start of something",
+          "body": [
+            "(начало, старт)",
+            "---"
+          ],
+          "examples": [
+            "Rent is due at the commencement of the lease.",
+            "Rain delayed the commencement of play by two hours.",
+            "Attendance is taken at the commencement of each class."
+          ]
+        }
+      ],
+      "русский": "выпускная церемония; начало, старт",
       "plural": "commencements",
       "countability": "countable",
       "contrast": "In American schools commencement means graduation, even though the word literally means a beginning."
@@ -2321,14 +2641,43 @@
       "term": "detention",
       "ipa": "/dɪˈtɛnʃən/",
       "respell": "dih-TEN-shuhn",
-      "meaning": "A punishment where a student must stay at school after class. ---",
+      "meaning": "Detention has 2 distinct senses.",
       "examples": [
         "He got detention for talking back.",
         "Detention is in room 204 until four o'clock.",
-        "Three detentions mean a call to your parents."
+        "Three detentions mean a call to your parents.",
+        "He spent six months in detention before the hearing.",
+        "The family was released from immigration detention last week.",
+        "Her lawyers argued that the detention was unlawful."
       ],
-      "senses": [],
-      "русский": "оставление после уроков (наказание)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A punishment where a student must stay at school after class",
+          "body": [
+            "(оставление после уроков (наказание))"
+          ],
+          "examples": [
+            "He got detention for talking back.",
+            "Detention is in room 204 until four o'clock.",
+            "Three detentions mean a call to your parents."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The holding of someone in custody by the police or immigration authorities",
+          "body": [
+            "(содержание под стражей, задержание)",
+            "---"
+          ],
+          "examples": [
+            "He spent six months in detention before the hearing.",
+            "The family was released from immigration detention last week.",
+            "Her lawyers argued that the detention was unlawful."
+          ]
+        }
+      ],
+      "русский": "оставление после уроков (наказание); содержание под стражей, задержание",
       "plural": "detentions",
       "countability": "countable"
     },
@@ -2603,14 +2952,43 @@
       "term": "discipline",
       "ipa": "/ˈdɪsəplɪn/",
       "respell": "DIS-uh-plin",
-      "meaning": "Control over behavior, kept by rules and punishment. ---",
+      "meaning": "Discipline has 2 distinct senses.",
       "examples": [
         "The new principal is stricter about discipline.",
         "There's no discipline in that classroom.",
-        "Discipline problems dropped after the rule changed."
+        "Discipline problems dropped after the rule changed.",
+        "The conference brought together scholars from a dozen disciplines.",
+        "Economics is a younger discipline than physics.",
+        "The program lets students combine two disciplines."
       ],
-      "senses": [],
-      "русский": "дисциплина, порядок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Control over behavior, kept by rules and punishment",
+          "body": [
+            "(дисциплина, порядок)"
+          ],
+          "examples": [
+            "The new principal is stricter about discipline.",
+            "There's no discipline in that classroom.",
+            "Discipline problems dropped after the rule changed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A branch of knowledge or a field of study",
+          "body": [
+            "(дисциплина, отрасль знаний)",
+            "---"
+          ],
+          "examples": [
+            "The conference brought together scholars from a dozen disciplines.",
+            "Economics is a younger discipline than physics.",
+            "The program lets students combine two disciplines."
+          ]
+        }
+      ],
+      "русский": "дисциплина, порядок; дисциплина, отрасль знаний",
       "countability": "uncountable"
     },
     {
@@ -3138,14 +3516,43 @@
       "term": "learning",
       "ipa": "/ˈlɜːrnɪŋ/",
       "respell": "LUR-ning",
-      "meaning": "The process of gaining knowledge or skill. ---",
+      "meaning": "Learning has 2 distinct senses.",
       "examples": [
         "Learning a language takes years.",
         "The noise makes learning almost impossible.",
-        "Kids do a lot of their learning through play."
+        "Kids do a lot of their learning through play.",
+        "He was a man of great learning and great modesty.",
+        "The library holds centuries of learning.",
+        "She wore her learning lightly and never showed off."
       ],
-      "senses": [],
-      "русский": "обучение, усвоение знаний",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of gaining knowledge or skill",
+          "body": [
+            "(обучение, усвоение знаний)"
+          ],
+          "examples": [
+            "Learning a language takes years.",
+            "The noise makes learning almost impossible.",
+            "Kids do a lot of their learning through play."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Deep knowledge gained through years of study",
+          "body": [
+            "(учёность, эрудиция)",
+            "---"
+          ],
+          "examples": [
+            "He was a man of great learning and great modesty.",
+            "The library holds centuries of learning.",
+            "She wore her learning lightly and never showed off."
+          ]
+        }
+      ],
+      "русский": "обучение, усвоение знаний; учёность, эрудиция",
       "countability": "uncountable"
     },
     {
@@ -3388,14 +3795,43 @@
       "term": "definition",
       "ipa": "/ˌdɛfəˈnɪʃən/",
       "respell": "def-uh-NISH-uhn",
-      "meaning": "A statement of what a word or term means. ---",
+      "meaning": "Definition has 2 distinct senses.",
       "examples": [
         "Copy the definition into your notebook.",
         "The test asks for the definition of photosynthesis.",
-        "We had to memorize twenty definitions."
+        "We had to memorize twenty definitions.",
+        "The new screen shows every detail in high definition.",
+        "The old photograph has lost some of its definition.",
+        "Months of training gave his arms real muscle definition."
       ],
-      "senses": [],
-      "русский": "определение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A statement of what a word or term means",
+          "body": [
+            "(определение)"
+          ],
+          "examples": [
+            "Copy the definition into your notebook.",
+            "The test asks for the definition of photosynthesis.",
+            "We had to memorize twenty definitions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sharpness and clarity of an image, a sound, or an outline",
+          "body": [
+            "(чёткость, резкость (изображения))",
+            "---"
+          ],
+          "examples": [
+            "The new screen shows every detail in high definition.",
+            "The old photograph has lost some of its definition.",
+            "Months of training gave his arms real muscle definition."
+          ]
+        }
+      ],
+      "русский": "определение; чёткость, резкость (изображения)",
       "plural": "definitions",
       "countability": "countable"
     },
@@ -3418,14 +3854,58 @@
       "term": "citation",
       "ipa": "/saɪˈteɪʃən/",
       "respell": "sy-TAY-shuhn",
-      "meaning": "A note in a paper showing where a fact or quotation came from. ---",
+      "meaning": "Citation has 3 distinct senses.",
       "examples": [
         "Every quote needs a citation.",
         "He lost points for a sloppy citation.",
-        "The professor checks the citations carefully."
+        "The professor checks the citations carefully.",
+        "He got a citation for running the stop sign.",
+        "The restaurant received two health citations last year.",
+        "The officer wrote her a citation instead of arresting her.",
+        "He received a citation for valor after the warehouse fire.",
+        "Her citation was read aloud at the ceremony.",
+        "Three officers earned citations that night."
       ],
-      "senses": [],
-      "русский": "ссылка на источник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A note in a paper showing where a fact or quotation came from",
+          "body": [
+            "(ссылка на источник)"
+          ],
+          "examples": [
+            "Every quote needs a citation.",
+            "He lost points for a sloppy citation.",
+            "The professor checks the citations carefully."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official notice ordering someone to pay a fine or appear in court",
+          "body": [
+            "(штрафная квитанция, повестка за нарушение)"
+          ],
+          "examples": [
+            "He got a citation for running the stop sign.",
+            "The restaurant received two health citations last year.",
+            "The officer wrote her a citation instead of arresting her."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An official statement praising someone for bravery or achievement",
+          "body": [
+            "(благодарность в приказе, награда за заслуги)",
+            "---"
+          ],
+          "examples": [
+            "He received a citation for valor after the warehouse fire.",
+            "Her citation was read aloud at the ceremony.",
+            "Three officers earned citations that night."
+          ]
+        }
+      ],
+      "русский": "ссылка на источник; штрафная квитанция, повестка за нарушение; благодарность в приказе, награда за заслуги",
       "plural": "citations",
       "countability": "countable"
     },
@@ -3433,14 +3913,43 @@
       "term": "footnote",
       "ipa": "/ˈfʊtnoʊt/",
       "respell": "FUUT-noht",
-      "meaning": "A note at the bottom of a page explaining something in the text. ---",
+      "meaning": "Footnote has 2 distinct senses.",
       "examples": [
         "The explanation is in a footnote.",
         "Put the source in a footnote, not in the paragraph.",
-        "The chapter has ninety footnotes."
+        "The chapter has ninety footnotes.",
+        "The scandal is now just a footnote in the city's history.",
+        "He worries that one good season will make him a footnote.",
+        "Their protest became a footnote to a much bigger movement."
       ],
-      "senses": [],
-      "русский": "сноска",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A note at the bottom of a page explaining something in the text",
+          "body": [
+            "(сноска)"
+          ],
+          "examples": [
+            "The explanation is in a footnote.",
+            "Put the source in a footnote, not in the paragraph.",
+            "The chapter has ninety footnotes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small detail or person remembered only as a minor part of a larger story",
+          "body": [
+            "(малозначительный эпизод, примечание истории)",
+            "---"
+          ],
+          "examples": [
+            "The scandal is now just a footnote in the city's history.",
+            "He worries that one good season will make him a footnote.",
+            "Their protest became a footnote to a much bigger movement."
+          ]
+        }
+      ],
+      "русский": "сноска; малозначительный эпизод, примечание истории",
       "plural": "footnotes",
       "countability": "countable"
     },
@@ -3462,14 +3971,73 @@
       "term": "practice",
       "ipa": "/ˈpræktɪs/",
       "respell": "PRAK-tiss",
-      "meaning": "Doing something over and over in order to get better at it. ---",
+      "meaning": "Practice has 4 distinct senses.",
       "examples": [
         "It takes practice to get good at fractions.",
         "With enough practice, the times tables come easily.",
-        "She needs more practice before the recital."
+        "She needs more practice before the recital.",
+        "She runs a small family practice on Main Street.",
+        "He sold his dental practice and retired to Arizona.",
+        "Two lawyers left the firm to start their own practice.",
+        "Tipping the movers is standard practice around here.",
+        "The company ended the practice of paying in cash.",
+        "Some of their hiring practices are under investigation.",
+        "In theory it works; in practice it never has.",
+        "The rule is fine on paper but hard to put into practice.",
+        "The policy sounds simple, but practice is a lot messier."
       ],
-      "senses": [],
-      "русский": "практика, тренировка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Doing something over and over in order to get better at it",
+          "body": [
+            "(практика, тренировка)"
+          ],
+          "examples": [
+            "It takes practice to get good at fractions.",
+            "With enough practice, the times tables come easily.",
+            "She needs more practice before the recital."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The business of a doctor, dentist, or lawyer, along with its patients or clients",
+          "body": [
+            "(практика (врачебная, юридическая))"
+          ],
+          "examples": [
+            "She runs a small family practice on Main Street.",
+            "He sold his dental practice and retired to Arizona.",
+            "Two lawyers left the firm to start their own practice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A customary or usual way of doing something",
+          "body": [
+            "(обычай, принятая практика)"
+          ],
+          "examples": [
+            "Tipping the movers is standard practice around here.",
+            "The company ended the practice of paying in cash.",
+            "Some of their hiring practices are under investigation."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The actual doing of something, as opposed to the theory of it",
+          "body": [
+            "(практика (в отличие от теории))",
+            "---"
+          ],
+          "examples": [
+            "In theory it works; in practice it never has.",
+            "The rule is fine on paper but hard to put into practice.",
+            "The policy sounds simple, but practice is a lot messier."
+          ]
+        }
+      ],
+      "русский": "практика, тренировка; практика (врачебная, юридическая); обычай, принятая практика; практика (в отличие от теории)",
       "countability": "uncountable",
       "contrast": "Americans spell the noun and the verb the same way; the British write the noun practice and the verb practise."
     },
@@ -3477,14 +4045,43 @@
       "term": "motivation",
       "ipa": "/ˌmoʊtəˈveɪʃən/",
       "respell": "moh-tuh-VAY-shuhn",
-      "meaning": "The desire that makes someone want to work at something. ---",
+      "meaning": "Motivation has 2 distinct senses.",
       "examples": [
         "He has the ability but no motivation.",
         "Motivation drops off in the last week of the semester.",
-        "Good grades gave her the motivation to keep going."
+        "Good grades gave her the motivation to keep going.",
+        "Detectives never established a motivation for the crime.",
+        "Her motivation for taking the job was the health insurance.",
+        "The article questions the senator's motivations."
       ],
-      "senses": [],
-      "русский": "мотивация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The desire that makes someone want to work at something",
+          "body": [
+            "(мотивация)"
+          ],
+          "examples": [
+            "He has the ability but no motivation.",
+            "Motivation drops off in the last week of the semester.",
+            "Good grades gave her the motivation to keep going."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The reason someone has for doing a particular thing",
+          "body": [
+            "(мотив, причина поступка)",
+            "---"
+          ],
+          "examples": [
+            "Detectives never established a motivation for the crime.",
+            "Her motivation for taking the job was the health insurance.",
+            "The article questions the senator's motivations."
+          ]
+        }
+      ],
+      "русский": "мотивация; мотив, причина поступка",
       "countability": "uncountable"
     },
     {

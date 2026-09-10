@@ -249,15 +249,29 @@ Elbow has 2 distinct senses.
 ### shoulder
 
 **Pronunciation:** /ˈʃoʊldər/ &middot; *SHOHL-dur*
-**Русский:** плечо
+**Русский:** плечо; обочина; лопатка (мясной отруб)
 **Plural:** *shoulders*
 **Countability:** countable
 
-The joint where the arm meets the body.
+Shoulder has 3 distinct senses.
+
+**1. The joint where the arm meets the body.** (плечо)
 
 1. He carried the bag on one *shoulder*.
 2. My *shoulders* get tight after a day at the desk.
 3. She tapped him on the *shoulder*.
+
+**2. The strip of ground or pavement along the edge of a road, where a vehicle can pull over.** (обочина)
+
+4. He pulled onto the *shoulder* and put on his hazard lights.
+5. A deer was standing on the *shoulder* of the highway.
+6. The *shoulder* is soft here, so don't park off the pavement.
+
+**3. A cut of meat from the upper front leg of an animal.** (лопатка (мясной отруб))
+
+7. She braised a pork *shoulder* all afternoon.
+8. Lamb *shoulder* is cheaper than the leg and just as good.
+9. Ask the butcher for a five-pound *shoulder*.
 
 ---
 
@@ -1662,15 +1676,29 @@ Cell has 5 distinct senses.
 ### skeleton
 
 **Pronunciation:** /ˈskɛlətən/ &middot; *SKEL-uh-tun*
-**Русский:** скелет
+**Русский:** скелет; каркас, остов; костяк, основа (плана, текста)
 **Plural:** *skeletons*
 **Countability:** countable
 
-All the bones of a body taken together.
+Skeleton has 3 distinct senses.
+
+**1. All the bones of a body taken together.** (скелет)
 
 1. A human *skeleton* has 206 bones.
 2. They found a *skeleton* buried under the floor.
 3. The museum has a dinosaur *skeleton* in the lobby.
+
+**2. The supporting frame of a building, ship, or other structure.** (каркас, остов)
+
+4. The steel *skeleton* of the tower went up in four months.
+5. Only the *skeleton* of the old barn is still standing.
+6. Welders put the *skeleton* of the hull together in the yard.
+
+**3. The bare outline or essential structure of a plan, story, or argument.** (костяк, основа (плана, текста))
+
+7. He has the *skeleton* of a novel and not much else.
+8. We agreed on the *skeleton* of the deal and left the details to the lawyers.
+9. Start with a *skeleton* of the essay, then fill in the examples.
 
 ---
 
@@ -2495,16 +2523,30 @@ Colon has 2 distinct senses.
 ### diaphragm
 
 **Pronunciation:** /ˈdaɪəfræm/ &middot; *DY-uh-fram*
-**Русский:** диафрагма
+**Русский:** диафрагма; диафрагма (противозачаточный колпачок); диафрагма (объектива)
 **Plural:** *diaphragms*
 **Countability:** countable
 **Contrast:** The g is silent: DY-uh-fram.
 
-The sheet of muscle below the lungs that moves when you breathe.
+Diaphragm has 3 distinct senses.
+
+**1. The sheet of muscle below the lungs that moves when you breathe.** (диафрагма)
 
 1. Singers learn to breathe from the *diaphragm*.
 2. The *diaphragm* pulls air into the lungs.
 3. A spasm in the *diaphragm* is what causes hiccups.
+
+**2. A soft dome-shaped device a woman puts in place to prevent pregnancy.** (диафрагма (противозачаточный колпачок))
+
+4. Her doctor fitted her for a *diaphragm*.
+5. She keeps the *diaphragm* in a small plastic case.
+6. A *diaphragm* has to be used together with spermicide.
+
+**3. The ring of blades in a camera lens that controls how much light gets through.** (диафрагма (объектива))
+
+7. Closing the *diaphragm* keeps more of the scene in focus.
+8. This lens has a nine-blade *diaphragm*.
+9. Open the *diaphragm* wider when the light is poor.
 
 ---
 

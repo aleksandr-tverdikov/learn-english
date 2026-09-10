@@ -560,29 +560,51 @@ Careful thought or discussion before a decision.
 ### delicacy
 
 **Pronunciation:** /ˈdɛlɪkəsi/ &middot; *DEL-ih-kuh-see*
-**Русский:** деликатес
+**Русский:** деликатес; хрупкость, тонкость (изящество); деликатность, такт
 **Plural:** *delicacies*
 **Countability:** countable
 
-A rare or expensive food that people consider special.
+Delicacy has 3 distinct senses.
+
+**1. A rare or expensive food that people consider special.** (деликатес)
 
 1. Sea urchin is considered a *delicacy* in many countries.
 2. The market sells local *delicacies* you can't find at home.
 3. He served us a *delicacy* his grandmother used to make.
+
+**2. Fineness or fragility of structure, texture, or build.** (хрупкость, тонкость (изящество))
+
+4. The *delicacy* of the lace made it impossible to machine wash.
+5. She admired the *delicacy* of the hand-painted cups.
+6. For all her *delicacy*, she was surprisingly strong.
+
+**3. Care and tact in handling something that could easily upset people.** (деликатность, такт)
+
+7. The subject has to be raised with some *delicacy*.
+8. He handled the firing with real *delicacy*.
+9. Negotiations of this kind call for patience and *delicacy*.
 
 ---
 
 ### delinquency
 
 **Pronunciation:** /dɪˈlɪŋkwənsi/ &middot; *dih-LING-kwun-see*
-**Русский:** правонарушения (несовершеннолетних)
+**Русский:** правонарушения (несовершеннолетних); просрочка платежа, задолженность
 **Countability:** uncountable
 
-Criminal or antisocial behavior, especially by young people.
+Delinquency has 2 distinct senses.
+
+**1. Criminal or antisocial behavior, especially by young people.** (правонарушения (несовершеннолетних))
 
 1. The program aims to reduce juvenile *delinquency*.
 2. Poverty and *delinquency* are closely linked in the study.
 3. The court handles cases of truancy and *delinquency*.
+
+**2. Failure to pay a debt or bill on time.** (просрочка платежа, задолженность)
+
+4. Mortgage *delinquency* rates rose for the third straight month.
+5. The account went into *delinquency* after two missed payments.
+6. The bank watches *delinquencies* of ninety days or more very closely.
 
 ---
 
@@ -834,15 +856,23 @@ Denial has 2 distinct senses.
 ### denominator
 
 **Pronunciation:** /dɪˈnɑːmɪneɪtər/ &middot; *dih-NAH-mih-nay-tur*
-**Русский:** знаменатель (дроби)
+**Русский:** знаменатель (дроби); общая черта, общий знаменатель (перен.)
 **Plural:** *denominators*
 **Countability:** countable
 
-The number below the line in a fraction.
+Denominator has 2 distinct senses.
+
+**1. The number below the line in a fraction.** (знаменатель (дроби))
 
 1. In three fourths, the *denominator* is four.
 2. You need a common *denominator* before you can add them.
 3. Both *denominators* have to match first.
+
+**2. A feature or quality that several people or things have in common.** (общая черта, общий знаменатель (перен.))
+
+4. The common *denominator* in all three robberies was a stolen white van.
+5. Cheap shows aimed at the lowest common *denominator* fill the afternoon schedule.
+6. If there's a common *denominator* among the winners, it's hard work.
 
 ---
 
@@ -938,15 +968,23 @@ The reduction of a supply of something until little is left.
 ### deposition
 
 **Pronunciation:** /ˌdɛpəˈzɪʃən/ &middot; *dep-uh-ZISH-un*
-**Русский:** показания под присягой (до суда)
+**Русский:** показания под присягой (до суда); отложение осадков, осадконакопление
 **Plural:** *depositions*
 **Countability:** countable
 
-A sworn statement taken from a witness before a trial.
+Deposition has 2 distinct senses.
+
+**1. A sworn statement taken from a witness before a trial.** (показания под присягой (до суда))
 
 1. The CEO gave a six-hour *deposition* last week.
 2. Lawyers read parts of the *deposition* aloud in court.
 3. Both *depositions* contradicted the police report.
+
+**2. The laying down of sand, mud, or other material by wind or water.** (отложение осадков, осадконакопление)
+
+4. The delta grew through centuries of silt *deposition*.
+5. Geologists study the *deposition* of sediment along the riverbed.
+6. Layers formed by slow *deposition* are visible in the canyon wall.
 
 ---
 
@@ -1112,14 +1150,28 @@ What is going to happen to someone, seen as already decided.
 ### detachment
 
 **Pronunciation:** /dɪˈtætʃmənt/ &middot; *dih-TACH-munt*
-**Русский:** отстранённость, беспристрастность
+**Русский:** отстранённость, беспристрастность; отряд, подразделение (воен.); отслоение, отсоединение
 **Countability:** uncountable
 
-A calm lack of emotional involvement in something.
+Detachment has 3 distinct senses.
+
+**1. A calm lack of emotional involvement in something.** (отстранённость, беспристрастность)
 
 1. She described the crash with startling *detachment*.
 2. A doctor needs some *detachment* to work well.
 3. He watched the argument with cool *detachment*.
+
+**2. A small group of troops or police sent away from the main body for a particular job.** (отряд, подразделение (воен.))
+
+4. A *detachment* of marines guarded the embassy.
+5. The colonel sent a small *detachment* ahead to scout the bridge.
+6. Two *detachments* were posted at the crossing overnight.
+
+**3. The coming loose or separating of one thing from another.** (отслоение, отсоединение)
+
+7. Sudden flashes of light can be a sign of retinal *detachment*.
+8. The crash was caused by the *detachment* of a wheel.
+9. Surgeons repaired the *detachment* the same afternoon.
 
 ---
 
@@ -1296,14 +1348,28 @@ An official reduction in the value of a country's money.
 ### development
 
 **Pronunciation:** /dɪˈvɛləpmənt/ &middot; *dih-VEL-up-munt*
-**Русский:** развитие
+**Русский:** развитие; новое обстоятельство, поворот событий; жилой комплекс, новая застройка
 **Countability:** uncountable
 
-The process of growing or becoming more advanced.
+Development has 3 distinct senses.
+
+**1. The process of growing or becoming more advanced.** (развитие)
 
 1. The first two years are crucial for language *development*.
 2. The company spends heavily on research and *development*.
 3. Economic *development* has slowed since the spring.
+
+**2. A new event or piece of news that changes a situation.** (новое обстоятельство, поворот событий)
+
+4. We'll bring you the latest *developments* as they come in.
+5. There has been an important *development* in the case.
+6. Recent *developments* forced the company to change its plans.
+
+**3. A group of houses or buildings put up together on one piece of land.** (жилой комплекс, новая застройка)
+
+7. They bought a house in a new *development* outside town.
+8. The *development* off the highway has two hundred units.
+9. Several *developments* went up where the orchards used to be.
 
 ---
 
@@ -1442,15 +1508,29 @@ A trained expert who advises people on what to eat.
 ### difference
 
 **Pronunciation:** /ˈdɪfərəns/ &middot; *DIF-ur-uns*
-**Русский:** разница, различие
+**Русский:** разница, различие; разность (в математике); разногласия, ссора
 **Plural:** *differences*
 **Countability:** countable
 
-The way in which two things are not the same.
+Difference has 3 distinct senses.
+
+**1. The way in which two things are not the same.** (разница, различие)
 
 1. I can't hear the *difference* between the two words.
 2. There are real *differences* between the two plans.
 3. One good teacher made all the *difference*.
+
+**2. The amount left when one number is subtracted from another.** (разность (в математике))
+
+4. The *difference* between twelve and five is seven.
+5. Subtract the smaller number and write the *difference* below the line.
+6. The *difference* between the two bids was almost ten thousand dollars.
+
+**3. A disagreement or quarrel between people.** (разногласия, ссора)
+
+7. The two brothers finally settled their *differences*.
+8. They had a *difference* of opinion about where to eat.
+9. Let's set our *differences* aside and finish the job.
 
 ---
 
@@ -1632,15 +1712,23 @@ A wild dog found in Australia.
 ### dinosaur
 
 **Pronunciation:** /ˈdaɪnəsɔːr/ &middot; *DY-nuh-sor*
-**Русский:** динозавр
+**Русский:** динозавр; динозавр (отсталый человек, устаревшая вещь)
 **Plural:** *dinosaurs*
 **Countability:** countable
 
-A large reptile that lived millions of years ago and is now extinct.
+Dinosaur has 2 distinct senses.
+
+**1. A large reptile that lived millions of years ago and is now extinct.** (динозавр)
 
 1. My son can name every *dinosaur* in the book.
 2. The museum's *dinosaurs* are on the second floor.
 3. They found the bones of a *dinosaur* in the riverbank.
+
+**2. A person or thing that is hopelessly out of date.** (динозавр (отсталый человек, устаревшая вещь))
+
+4. My old laptop is a complete *dinosaur*.
+5. He calls himself a *dinosaur* because he still writes checks.
+6. The industry is full of *dinosaurs* who refuse to go online.
 
 ---
 
@@ -1758,15 +1846,29 @@ A vowel sound that glides from one position to another within a syllable.
 ### direction
 
 **Pronunciation:** /dəˈrɛkʃən/ &middot; *duh-REK-shun*
-**Русский:** направление
+**Русский:** направление; указания, инструкции; как проехать; руководство; цель, ориентир
 **Plural:** *directions*
 **Countability:** countable
 
-The line or course along which something moves or faces.
+Direction has 3 distinct senses.
+
+**1. The line or course along which something moves or faces.** (направление)
 
 1. We were headed in the wrong *direction* for an hour.
 2. Can you give me *directions* to the train station?
 3. The wind changed *direction* around noon.
+
+**2. Instructions telling you how to get somewhere or how to do something.** (указания, инструкции; как проехать)
+
+4. We stopped at a gas station to ask for *directions*.
+5. Follow the *directions* on the back of the box.
+6. The *directions* said to bake it for forty minutes.
+
+**3. Guidance or control over what someone does, or a clear sense of purpose.** (руководство; цель, ориентир)
+
+7. The choir sang under the *direction* of a new conductor.
+8. The company has drifted for years without clear *direction*.
+9. He felt his life lacked *direction* after graduation.
 
 ---
 
@@ -1788,15 +1890,23 @@ An official instruction issued by someone in authority.
 ### disability
 
 **Pronunciation:** /ˌdɪsəˈbɪləti/ &middot; *dis-uh-BIL-uh-tee*
-**Русский:** инвалидность, ограничение возможностей
+**Русский:** инвалидность, ограничение возможностей; пособие по инвалидности
 **Plural:** *disabilities*
 **Countability:** countable
 
-A physical or mental condition that limits what a person can do.
+Disability has 2 distinct senses.
+
+**1. A physical or mental condition that limits what a person can do.** (инвалидность, ограничение возможностей)
 
 1. He has a hearing *disability* from his years in the factory.
 2. The school serves students with learning *disabilities*.
 3. She has been on *disability* since the accident.
+
+**2. Money paid regularly by the government or an insurer to someone who cannot work.** (пособие по инвалидности)
+
+4. He's been on *disability* since the accident.
+5. Her *disability* check arrives on the third of the month.
+6. She applied for *disability* after the second surgery.
 
 ---
 
@@ -1862,16 +1972,24 @@ A state of confusion and lack of organization.
 ### discharge
 
 **Pronunciation:** /ˈdɪstʃɑːrdʒ/ &middot; *DIS-charj*
-**Русский:** выписка (из больницы); увольнение со службы
+**Русский:** выписка (из больницы); увольнение со службы; выделения; выброс, сброс (жидкости, газа)
 **Plural:** *discharges*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable, DIS-charj; the verb on the second, dis-CHARJ.
 
-An official release from a hospital, the military, or custody.
+Discharge has 2 distinct senses.
+
+**1. An official release from a hospital, the military, or custody.** (выписка (из больницы); увольнение со службы)
 
 1. The doctor signed her *discharge* on Sunday morning.
 2. He received an honorable *discharge* after four years.
 3. Hospital *discharges* usually happen before noon.
+
+**2. A flow of liquid, gas, or electricity coming out of something.** (выделения; выброс, сброс (жидкости, газа))
+
+4. The plant was fined for its *discharge* into the river.
+5. A yellow *discharge* from the eye can mean an infection.
+6. The lightning bolt was a single enormous electrical *discharge*.
 
 ---
 
@@ -1950,15 +2068,23 @@ Serious public discussion of a subject.
 ### discovery
 
 **Pronunciation:** /dɪˈskʌvəri/ &middot; *dih-SKUV-uh-ree*
-**Русский:** открытие, находка
+**Русский:** открытие, находка; раскрытие доказательств (досудебное)
 **Plural:** *discoveries*
 **Countability:** countable
 
-Something found or learned for the first time.
+Discovery has 2 distinct senses.
+
+**1. Something found or learned for the first time.** (открытие, находка)
 
 1. The *discovery* of the tomb made headlines worldwide.
 2. Two important *discoveries* came out of that lab.
 3. It was a painful *discovery* for the whole family.
+
+**2. The stage of a lawsuit in which each side must hand over its evidence to the other.** (раскрытие доказательств (досудебное))
+
+4. The company turned over thousands of emails during *discovery*.
+5. Both sides are still in *discovery*, so no trial date has been set.
+6. Her lawyer asked for the security tapes in *discovery*.
 
 ---
 
@@ -2070,15 +2196,23 @@ Something that discourages people from doing something.
 ### dislocation
 
 **Pronunciation:** /ˌdɪsloʊˈkeɪʃən/ &middot; *dis-loh-KAY-shun*
-**Русский:** вывих; смещение
+**Русский:** вывих; смещение; потрясение, разлад (в экономике, обществе)
 **Plural:** *dislocations*
 **Countability:** countable
 
-An injury in which a bone is pushed out of its joint.
+Dislocation has 2 distinct senses.
+
+**1. An injury in which a bone is pushed out of its joint.** (вывих; смещение)
 
 1. The X-ray showed a shoulder *dislocation*.
 2. He has had three *dislocations* in the same knee.
 3. A *dislocation* has to be put back by a doctor.
+
+**2. A serious upheaval that disturbs the normal working of a society or an economy.** (потрясение, разлад (в экономике, обществе))
+
+4. The plant closing caused real economic *dislocation* in the county.
+5. The war brought years of social *dislocation*.
+6. Automation is creating *dislocations* across the job market.
 
 ---
 
@@ -2113,15 +2247,29 @@ Refusal to do what you are told to do.
 ### disorder
 
 **Pronunciation:** /dɪsˈɔːrdər/ &middot; *dis-OR-dur*
-**Русский:** расстройство (заболевание)
+**Русский:** расстройство (заболевание); беспорядок, неразбериха; беспорядки, волнения
 **Plural:** *disorders*
 **Countability:** countable
 
-An illness that disturbs the normal working of the body or mind.
+Disorder has 3 distinct senses.
+
+**1. An illness that disturbs the normal working of the body or mind.** (расстройство (заболевание))
 
 1. She was treated for an eating *disorder* in college.
 2. Sleep *disorders* affect millions of Americans.
 3. The clinic specializes in blood *disorders*.
+
+**2. A confused or untidy state; a lack of order.** (беспорядок, неразбериха)
+
+4. The apartment was in complete *disorder* after the move.
+5. Papers lay in *disorder* all across the desk.
+6. The retreating troops fell back in *disorder*.
+
+**3. Violent or unruly behavior by a crowd.** (беспорядки, волнения)
+
+7. Police were called in after a night of *disorder* downtown.
+8. The new rules are meant to prevent *disorder* at the stadium.
+9. The city saw three days of *disorder* following the verdict.
 
 ---
 
@@ -2143,15 +2291,29 @@ A large and unfair difference between two things.
 ### dispatch
 
 **Pronunciation:** /ˈdɪspætʃ/ &middot; *DIS-pach*
-**Русский:** донесение, репортаж с места
+**Русский:** донесение, репортаж с места; отправка, отправление; диспетчерская служба
 **Plural:** *dispatches*
 **Countability:** countable
 
-An official report or news story sent from a distant place.
+Dispatch has 3 distinct senses.
+
+**1. An official report or news story sent from a distant place.** (донесение, репортаж с места)
 
 1. His *dispatch* from the border ran on the front page.
 2. The paper printed *dispatches* from three war zones.
 3. A short *dispatch* arrived from the field office.
+
+**2. The act of sending someone or something off to a destination.** (отправка, отправление)
+
+4. The governor ordered the *dispatch* of the National Guard.
+5. We got an email confirming the *dispatch* of our order.
+6. The *dispatch* of relief supplies began the next morning.
+
+**3. The office or crew that sends out police, fire, and ambulance units by radio.** (диспетчерская служба)
+
+7. *Dispatch* says the ambulance is four minutes out.
+8. She works nights in *dispatch* at the sheriff's office.
+9. Call it in to *dispatch* before you go inside.
 
 ---
 
@@ -2360,15 +2522,23 @@ The process of purifying a liquid by boiling it and cooling the vapor.
 ### distinction
 
 **Pronunciation:** /dɪˈstɪŋkʃən/ &middot; *dih-STINGK-shun*
-**Русский:** различие, отличие
+**Русский:** различие, отличие; отличие, почёт
 **Plural:** *distinctions*
 **Countability:** countable
 
-A clear difference between two similar things.
+Distinction has 2 distinct senses.
+
+**1. A clear difference between two similar things.** (различие, отличие)
 
 1. He drew a *distinction* between a promise and a plan.
 2. These fine *distinctions* matter in a courtroom.
 3. She graduated with *distinction* in history.
+
+**2. Special honor, or excellence that sets someone apart.** (отличие, почёт)
+
+4. She graduated with *distinction*.
+5. He's a scientist of real *distinction*.
+6. Her grandfather served with *distinction* in the Navy.
 
 ---
 
@@ -2443,15 +2613,29 @@ A growing difference between things that were once alike.
 ### diversion
 
 **Pronunciation:** /dɪˈvɜːrʒən/ &middot; *dih-VUR-zhun*
-**Русский:** отвлекающий манёвр; отвлечение
+**Русский:** отвлекающий манёвр; отвлечение; развлечение, отдушина; отвод, перенаправление (средств, воды, потока)
 **Plural:** *diversions*
 **Countability:** countable
 
-Something that draws attention away from what really matters.
+Diversion has 3 distinct senses.
+
+**1. Something that draws attention away from what really matters.** (отвлекающий манёвр; отвлечение)
 
 1. The fire alarm was a *diversion* while they emptied the safe.
 2. Card games were their only *diversion* on long nights.
 3. Critics called the announcement a *diversion*.
+
+**2. An enjoyable activity that takes your mind off things.** (развлечение, отдушина)
+
+4. Crossword puzzles are her favorite evening *diversion*.
+5. The county fair was a welcome *diversion* after a hard summer.
+6. He took up woodworking as a *diversion*.
+
+**3. The redirecting of money, water, or traffic to another use or route.** (отвод, перенаправление (средств, воды, потока))
+
+7. Auditors uncovered the *diversion* of grant money into private accounts.
+8. The dam allows the *diversion* of river water to farms.
+9. A *diversion* of northbound traffic sent us onto side streets.
 
 ---
 
@@ -3917,14 +4101,22 @@ A person chosen to cast a formal vote on behalf of voters.
 ### electrolysis
 
 **Pronunciation:** /ɪˌlɛkˈtrɑːləsɪs/ &middot; *ih-lek-TRAH-luh-sis*
-**Русский:** электролиз
+**Русский:** электролиз; электроэпиляция
 **Countability:** uncountable
 
-The splitting of a substance into parts by passing electricity through it.
+Electrolysis has 2 distinct senses.
+
+**1. The splitting of a substance into parts by passing electricity through it.** (электролиз)
 
 1. *Electrolysis* separates water into hydrogen and oxygen.
 2. The lab demonstrated *electrolysis* with a battery and two wires.
 3. Aluminum is produced by *electrolysis*.
+
+**2. The permanent removal of unwanted hair with a fine electric needle.** (электроэпиляция)
+
+4. She had *electrolysis* done on her upper lip.
+5. The spa offers waxing, laser, and *electrolysis*.
+6. *Electrolysis* takes several sessions to finish.
 
 ---
 
@@ -4384,15 +4576,23 @@ A small area whose people differ from those in the territory around it.
 ### enclosure
 
 **Pronunciation:** /ɪnˈkloʊʒər/ &middot; *in-KLOH-zhur*
-**Русский:** огороженное место, вольер
+**Русский:** огороженное место, вольер; приложение (к письму), вложение
 **Plural:** *enclosures*
 **Countability:** countable
 
-An area surrounded by a wall or fence, especially for animals.
+Enclosure has 2 distinct senses.
+
+**1. An area surrounded by a wall or fence, especially for animals.** (огороженное место, вольер)
 
 1. The tigers have a new outdoor *enclosure*.
 2. All the *enclosures* are cleaned twice a day.
 3. A goat got out of its *enclosure* again.
+
+**2. A document or item put in the same envelope as a letter.** (приложение (к письму), вложение)
+
+4. The cover letter lists two *enclosures* at the bottom of the page.
+5. Check the envelope again — the *enclosure* may have slipped out.
+6. Mail the application with all the required *enclosures*.
 
 ---
 
@@ -5570,16 +5770,24 @@ Official permission not to do or pay something that others must.
 ### exercise
 
 **Pronunciation:** /ˈɛksərsaɪz/ &middot; *EK-sur-syz*
-**Русский:** упражнение; физическая нагрузка
+**Русский:** упражнение; физическая нагрузка; осуществление, применение (права, власти)
 **Plural:** *exercises*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Always spelled *exercise* in American English — never *exercize*.
 
-Physical activity done to stay healthy, or a task done for practice.
+Exercise has 2 distinct senses.
+
+**1. Physical activity done to stay healthy, or a task done for practice.** (упражнение; физическая нагрузка)
 
 1. You need at least thirty minutes of *exercise* a day.
 2. Do the *exercises* on page forty for homework.
 3. The whole meeting was an *exercise* in patience.
+
+**2. The use of a right, power, or ability.** (осуществление, применение (права, власти))
+
+4. The march was a peaceful *exercise* of free speech.
+5. The veto was a rare *exercise* of presidential power.
+6. Voting is the simplest *exercise* of citizenship.
 
 ---
 
@@ -5791,14 +5999,22 @@ A clear explanation of an idea, or the part of a story that sets up the backgrou
 ### exposure
 
 **Pronunciation:** /ɪkˈspoʊʒər/ &middot; *ik-SPOH-zhur*
-**Русский:** воздействие, подверженность; огласка
+**Русский:** воздействие, подверженность; огласка; экспозиция, выдержка; кадр (плёнки)
 **Countability:** uncountable
 
-The state of being affected by something or made publicly known.
+Exposure has 2 distinct senses.
+
+**1. The state of being affected by something or made publicly known.** (воздействие, подверженность; огласка)
 
 1. Long *exposure* to loud noise damages hearing.
 2. The hikers died of *exposure* on the ridge.
 3. The article gave her band a lot of *exposure*.
+
+**2. The amount of light let into a camera, or a single picture on a roll of film.** (экспозиция, выдержка; кадр (плёнки))
+
+4. A long *exposure* turned the traffic into ribbons of light.
+5. The roll had thirty-six *exposures*.
+6. Bump up the *exposure* a little — the shot is too dark.
 
 ---
 
@@ -6128,15 +6344,29 @@ Someone who leads a discussion or meeting so that it runs well.
 ### facility
 
 **Pronunciation:** /fəˈsɪləti/ &middot; *fuh-SIL-uh-tee*
-**Русский:** объект, учреждение, комплекс
+**Русский:** объект, учреждение, комплекс; способность, лёгкость (в чём-л.); туалет, уборная (обычно мн. ч.)
 **Plural:** *facilities*
 **Countability:** countable
 
-A building or place built for a particular purpose.
+Facility has 3 distinct senses.
+
+**1. A building or place built for a particular purpose.** (объект, учреждение, комплекс)
 
 1. The company opened a new storage *facility* outside Denver.
 2. The park's *facilities* include showers and a laundry room.
 3. He's recovering at a rehab *facility*.
+
+**2. A natural ability to do something easily and well.** (способность, лёгкость (в чём-л.))
+
+4. She has a real *facility* for languages.
+5. He plays with a *facility* that makes it look effortless.
+6. His *facility* with numbers got him the job.
+
+**3. A restroom, especially in a public place.** (туалет, уборная (обычно мн. ч.))
+
+7. Excuse me — where are the *facilities*?
+8. He asked to use the *facilities* before the drive home.
+9. The rest stop has clean *facilities* and a coffee machine.
 
 ---
 
@@ -7977,15 +8207,23 @@ A traditional story passed down by word of mouth.
 ### following
 
 **Pronunciation:** /ˈfɑːloʊɪŋ/ &middot; *FAH-loh-ing*
-**Русский:** поклонники, аудитория
+**Русский:** поклонники, аудитория; нижеследующее, следующее (перечисление)
 **Plural:** *followings*
 **Countability:** countable
 
-A group of people who support or regularly watch someone.
+Following has 2 distinct senses.
+
+**1. A group of people who support or regularly watch someone.** (поклонники, аудитория)
 
 1. The chef has a loyal *following* in the city.
 2. Both shows built huge *followings* online.
 3. Her blog developed a small but devoted *following*.
+
+**2. The thing or things mentioned next, usually a list.** (нижеследующее, следующее (перечисление))
+
+4. Please bring the *following*: a photo ID, your lease, and two pay stubs.
+5. Answer the *following* in complete sentences.
+6. The *following* is a summary of the committee's findings.
 
 ---
 
@@ -8560,16 +8798,24 @@ The habit of saying what you really think, openly and directly.
 ### fraternity
 
 **Pronunciation:** /frəˈtɜːrnəti/ &middot; *fruh-TUR-nuh-tee*
-**Русский:** студенческое братство (мужское)
+**Русский:** студенческое братство (мужское); круг, сообщество (профессиональное)
 **Plural:** *fraternities*
 **Countability:** countable
 **Contrast:** Students shorten it to *frat*; the women's version is a *sorority*.
 
-A social club for male students at an American college.
+Fraternity has 2 distinct senses.
+
+**1. A social club for male students at an American college.** (студенческое братство (мужское))
 
 1. He joined a *fraternity* his sophomore year.
 2. Several *fraternities* were suspended after the incident.
 3. The party was at the *fraternity* house on Elm Street.
+
+**2. A group of people who share the same profession or interest.** (круг, сообщество (профессиональное))
+
+4. The crash shocked the tight-knit *fraternity* of bush pilots.
+5. She was the first woman admitted to that *fraternity* of surgeons.
+6. Long-haul truckers form a *fraternity* of their own.
 
 ---
 
@@ -8839,16 +9085,24 @@ The habit of spending very little money.
 ### fruitcake
 
 **Pronunciation:** /ˈfruːtkeɪk/ &middot; *FROOT-kayk*
-**Русский:** кекс с цукатами и сухофруктами
+**Русский:** кекс с цукатами и сухофруктами; чокнутый, псих (груб.)
 **Plural:** *fruitcakes*
 **Countability:** countable, and uncountable as food
 **Contrast:** Calling a person a *fruitcake* means they are crazy.
 
-A heavy cake full of dried fruit and nuts, traditionally eaten at Christmas.
+Fruitcake has 2 distinct senses.
+
+**1. A heavy cake full of dried fruit and nuts, traditionally eaten at Christmas.** (кекс с цукатами и сухофруктами)
 
 1. My aunt mails us a *fruitcake* every December.
 2. Nobody at the party would touch the *fruitcake*.
 3. He cut a thin slice of *fruitcake* to be polite.
+
+**2. An insulting informal word for someone who seems crazy or very strange.** (чокнутый, псих (груб.))
+
+4. The guy yelling at the parking meter is a total *fruitcake*.
+5. Half the letters we get are from *fruitcakes*.
+6. They treated her like a *fruitcake* for warning them.
 
 ---
 

@@ -12,15 +12,23 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### mountain
 
 **Pronunciation:** /ˈmaʊntən/ &middot; *MOWN-tuhn*
-**Русский:** гора
+**Русский:** гора; куча, груда, масса (чего-л.)
 **Plural:** *mountains*
 **Countability:** countable
 
-A very high, steep piece of land, much taller than a hill.
+Mountain has 2 distinct senses.
+
+**1. A very high, steep piece of land, much taller than a hill.** (гора)
 
 1. We hiked to the top of the *mountain* before noon.
 2. The *mountains* were still covered in snow in May.
 3. There's a cabin about halfway up the *mountain*.
+
+**2. A very large pile or amount of something.** (куча, груда, масса (чего-л.))
+
+4. There's a *mountain* of laundry on the bed.
+5. She came back from vacation to a *mountain* of email.
+6. They ran up *mountains* of debt paying for the treatment.
 
 ---
 
@@ -352,15 +360,23 @@ Range has 5 distinct senses.
 ### landslide
 
 **Pronunciation:** /ˈlændslaɪd/ &middot; *LAND-slyd*
-**Русский:** оползень
+**Русский:** оползень; убедительная победа на выборах
 **Plural:** *landslides*
 **Countability:** countable
 
-A mass of earth and rock that slides suddenly down a slope.
+Landslide has 2 distinct senses.
+
+**1. A mass of earth and rock that slides suddenly down a slope.** (оползень)
 
 1. A *landslide* closed the highway for three days.
 2. Heavy rain triggered *landslides* all over the county.
 3. You can still see where the *landslide* tore through the trees.
+
+**2. An election win by an enormous margin.** (убедительная победа на выборах)
+
+4. The governor was reelected in a *landslide*.
+5. Early returns already pointed to a *landslide*.
+6. She won the student council race by a *landslide*.
 
 ---
 
@@ -466,15 +482,35 @@ Land of a particular kind, thought of in terms of its physical features.
 ### landscape
 
 **Pronunciation:** /ˈlændskeɪp/ &middot; *LAND-skayp*
-**Русский:** пейзаж, ландшафт
+**Русский:** пейзаж, ландшафт; положение дел, обстановка (в какой-либо сфере); пейзаж (картина, фотография); альбомная ориентация (страницы)
 **Plural:** *landscapes*
 **Countability:** countable
 
-Everything you can see when you look across an area of land.
+Landscape has 4 distinct senses.
+
+**1. Everything you can see when you look across an area of land.** (пейзаж, ландшафт)
 
 1. The *landscape* changes completely once you cross the pass.
 2. She paints desert *landscapes*.
 3. Wind turbines have changed the *landscape* around here.
+
+**2. The whole set of conditions in an area of activity at a given time.** (положение дел, обстановка (в какой-либо сфере))
+
+4. Streaming changed the *landscape* of the music business.
+5. The political *landscape* looks very different after the election.
+6. Small firms have to survive in a crowded competitive *landscape*.
+
+**3. A painting or photograph of country scenery.** (пейзаж (картина, фотография))
+
+7. A small *landscape* hung above the fireplace.
+8. The museum's *landscapes* are mostly from the 1800s.
+9. He paints *landscapes* of the Hudson Valley.
+
+**4. The page format that is wider than it is tall.** (альбомная ориентация (страницы))
+
+10. Print the spreadsheet in *landscape* so the columns fit.
+11. Switch the page to *landscape* before you add the chart.
+12. The photo works better in *landscape* than in portrait.
 
 ---
 
@@ -1079,16 +1115,30 @@ Canal has 2 distinct senses.
 ### reservoir
 
 **Pronunciation:** /ˈrɛzərvwɑːr/ &middot; *REZ-ur-vwahr*
-**Русский:** водохранилище
+**Русский:** водохранилище; запас, резерв (большой); резервуар, ёмкость (в устройстве)
 **Plural:** *reservoirs*
 **Countability:** countable
 **Contrast:** The French ending *-voir* is said VWAHR: REZ-ur-vwahr.
 
-A lake, often man-made, where water is stored for later use.
+Reservoir has 3 distinct senses.
+
+**1. A lake, often man-made, where water is stored for later use.** (водохранилище)
 
 1. The *reservoir* is down twenty feet after two dry years.
 2. Fishing is allowed on the lower *reservoir*.
 3. The city gets its drinking water from three *reservoirs*.
+
+**2. A large supply of something that can be drawn on when needed.** (запас, резерв (большой))
+
+4. The mayor still has a deep *reservoir* of goodwill in the city.
+5. The country has a huge *reservoir* of untapped talent.
+6. Years of teaching gave her a *reservoir* of patience.
+
+**3. A container inside a machine that holds liquid until it is needed.** (резервуар, ёмкость (в устройстве))
+
+7. Fill the *reservoir* with cold water before you brew the coffee.
+8. The windshield washer *reservoir* is empty again.
+9. Both *reservoirs* on the humidifier need cleaning.
 
 ---
 
@@ -1649,15 +1699,23 @@ A very large piece of ice floating in the sea.
 ### avalanche
 
 **Pronunciation:** /ˈævəlæntʃ/ &middot; *AV-uh-lanch*
-**Русский:** лавина, снежная лавина
+**Русский:** лавина, снежная лавина; лавина, поток (писем, жалоб, заказов)
 **Plural:** *avalanches*
 **Countability:** countable
 
-A large mass of snow and ice that suddenly slides down a mountain.
+Avalanche has 2 distinct senses.
+
+**1. A large mass of snow and ice that suddenly slides down a mountain.** (лавина, снежная лавина)
 
 1. An *avalanche* buried a mile of the highway.
 2. The *avalanche* risk is high after a heavy snowfall.
 3. Two skiers set off a small *avalanche*.
+
+**2. A sudden flood of things arriving all at once.** (лавина, поток (писем, жалоб, заказов))
+
+4. The story set off an *avalanche* of angry email.
+5. She came back from vacation to an *avalanche* of paperwork.
+6. An *avalanche* of orders came in the day the ad aired.
 
 ---
 
@@ -1829,15 +1887,23 @@ Nature has 2 distinct senses.
 ### environment
 
 **Pronunciation:** /ɪnˈvaɪrənmənt/ &middot; *in-VY-ruhn-muhnt*
-**Русский:** окружающая среда
+**Русский:** окружающая среда; обстановка, среда (рабочая, домашняя)
 **Countability:** uncountable
 **Contrast:** Stressed on the second syllable, which rhymes with *fire*: in-VY-ruhn-muhnt.
 
-The natural world, especially as it is affected by human activity.
+Environment has 2 distinct senses.
+
+**1. The natural world, especially as it is affected by human activity.** (окружающая среда)
 
 1. The plant was fined for polluting the *environment*.
 2. Plastics stay in the *environment* for centuries.
 3. Voters around here care a lot about the *environment*.
+
+**2. The conditions and surroundings in which someone lives or works.** (обстановка, среда (рабочая, домашняя))
+
+4. The office has a relaxed *environment*.
+5. Kids do better in a calm home *environment*.
+6. She quit because of the toxic work *environment*.
 
 ---
 
@@ -1859,15 +1925,23 @@ The natural place where a particular animal or plant lives.
 ### ecosystem
 
 **Pronunciation:** /ˈiːkoʊsɪstəm/ &middot; *EE-koh-sis-tuhm*
-**Русский:** экосистема
+**Русский:** экосистема; экосистема (продуктов, бизнеса)
 **Plural:** *ecosystems*
 **Countability:** countable
 
-All the plants and animals of an area together with the environment they live in.
+Ecosystem has 2 distinct senses.
+
+**1. All the plants and animals of an area together with the environment they live in.** (экосистема)
 
 1. One invasive species can upset the whole *ecosystem*.
 2. The reef *ecosystem* is recovering slowly.
 3. Coastal *ecosystems* are especially fragile.
+
+**2. A network of connected companies, products, or people that depend on one another.** (экосистема (продуктов, бизнеса))
+
+4. Once you buy the phone, you're inside their whole *ecosystem*.
+5. The city has built a real startup *ecosystem*.
+6. Outside developers are the heart of the *ecosystem*.
 
 ---
 

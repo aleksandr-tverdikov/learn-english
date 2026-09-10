@@ -291,30 +291,46 @@ Cue has 2 distinct senses.
 ### spotlight
 
 **Pronunciation:** /ˈspɑːtlaɪt/ &middot; *SPAHT-lyt*
-**Русский:** прожектор направленного света
+**Русский:** прожектор направленного света; центр внимания
 **Plural:** *spotlights*
 **Countability:** countable
 
-A lamp that throws a narrow circle of bright light onto one performer.
+Spotlight has 2 distinct senses.
+
+**1. A lamp that throws a narrow circle of bright light onto one performer.** (прожектор направленного света)
 
 1. A single *spotlight* picked her out of the darkness.
 2. Two *spotlights* follow the dancers across the stage.
 3. Step into the *spotlight* when the music starts.
+
+**2. Public attention focused on one person or issue.** (центр внимания)
+
+4. The scandal put the mayor in the *spotlight* for weeks.
+5. She has never been comfortable in the *spotlight*.
+6. The report threw a *spotlight* on conditions at the nursing home.
 
 ---
 
 ### backdrop
 
 **Pronunciation:** /ˈbækdrɑːp/ &middot; *BAK-drahp*
-**Русский:** задник, задняя декорация
+**Русский:** задник, задняя декорация; фон, общая обстановка (на фоне которой что-то происходит)
 **Plural:** *backdrops*
 **Countability:** countable
 
-A large painted cloth hung at the back of a stage.
+Backdrop has 2 distinct senses.
+
+**1. A large painted cloth hung at the back of a stage.** (задник, задняя декорация)
 
 1. The *backdrop* is a painted city skyline.
 2. They rolled up both *backdrops* after the show.
 3. A dark blue *backdrop* made the night scene work.
+
+**2. The general situation or set of conditions against which events happen.** (фон, общая обстановка (на фоне которой что-то происходит))
+
+4. The talks opened against a *backdrop* of rising tension.
+5. The novel unfolds against the *backdrop* of the Depression.
+6. Rising rents form the *backdrop* to the entire debate.
 
 ---
 
@@ -352,14 +368,22 @@ The person who raises the money for a show and manages the business side.
 ### dialogue
 
 **Pronunciation:** /ˈdaɪəlɔːɡ/ &middot; *DY-uh-lawg*
-**Русский:** диалог, реплики персонажей
+**Русский:** диалог, реплики персонажей; диалог, переговоры
 **Countability:** uncountable
 
-The words that characters speak to one another in a play or film.
+Dialogue has 2 distinct senses.
+
+**1. The words that characters speak to one another in a play or film.** (диалог, реплики персонажей)
 
 1. The *dialogue* in the second act feels stiff.
 2. Critics praised the sharp, funny *dialogue*.
 3. She rewrote most of the *dialogue* before opening night.
+
+**2. A serious exchange of views between two sides who are trying to reach agreement.** (диалог, переговоры)
+
+4. The two sides have agreed to open a *dialogue*.
+5. Years of quiet *dialogue* finally produced a deal.
+6. The mayor called for an honest *dialogue* about policing.
 
 ---
 
@@ -852,15 +876,23 @@ An evening where anyone who signs up can perform for a few minutes.
 ### magician
 
 **Pronunciation:** /məˈdʒɪʃən/ &middot; *muh-JISH-uhn*
-**Русский:** фокусник, иллюзионист
+**Русский:** фокусник, иллюзионист; волшебник, маг, чародей
 **Plural:** *magicians*
 **Countability:** countable
 
-A performer who entertains people with tricks that look impossible.
+Magician has 2 distinct senses.
+
+**1. A performer who entertains people with tricks that look impossible.** (фокусник, иллюзионист)
 
 1. They hired a *magician* for the kids' party.
 2. Two *magicians* share the stage in the second half.
 3. The *magician* pulled a card out of my jacket pocket.
+
+**2. A person in stories who has real magical powers.** (волшебник, маг, чародей)
+
+4. In the book, a *magician* turns the prince into a bear.
+5. The kingdom's *magicians* guarded a stone that granted wishes.
+6. He read every fantasy novel about dragons and *magicians*.
 
 ---
 
@@ -1407,15 +1439,23 @@ A rehearsal of a whole show from start to finish without stopping.
 ### callback
 
 **Pronunciation:** /ˈkɔːlbæk/ &middot; *KAWL-bak*
-**Русский:** повторное прослушивание
+**Русский:** повторное прослушивание; ответный звонок
 **Plural:** *callbacks*
 **Countability:** countable
 
-A second audition that only some of the actors are invited to.
+Callback has 2 distinct senses.
+
+**1. A second audition that only some of the actors are invited to.** (повторное прослушивание)
 
 1. She got a *callback* for the mother.
 2. *Callbacks* are on Saturday morning.
 3. Three *callbacks* and he still did not get the part.
+
+**2. A return phone call, especially one you are waiting for from an employer or a company.** (ответный звонок)
+
+4. I interviewed on Tuesday and never got a *callback*.
+5. Press one to request a *callback* instead of waiting on hold.
+6. The insurer promised a *callback* within twenty-four hours.
 
 ---
 
@@ -1692,15 +1732,23 @@ The ropes, pulleys, and bars used to raise and lower scenery and lights.
 ### counterweight
 
 **Pronunciation:** /ˈkaʊntərweɪt/ &middot; *KOWN-tur-wayt*
-**Русский:** противовес
+**Русский:** противовес; противовес (переносно), сдерживающая сила
 **Plural:** *counterweights*
 **Countability:** countable
 
-A heavy block used to balance the weight of scenery being flown.
+Counterweight has 2 distinct senses.
+
+**1. A heavy block used to balance the weight of scenery being flown.** (противовес)
 
 1. Add another *counterweight* or the drop will fly up too fast.
 2. The *counterweights* are stacked on a steel frame backstage.
 3. One loose *counterweight* is a serious hazard.
+
+**2. Something that balances or offsets an opposing force.** (противовес (переносно), сдерживающая сила)
+
+4. The courts act as a *counterweight* to the president.
+5. Small states wanted a *counterweight* to the big ones in the Senate.
+6. Her humor was a *counterweight* to his gloom.
 
 ---
 
@@ -2248,15 +2296,23 @@ A song or number so good that the audience applauds until the show pauses.
 ### headliner
 
 **Pronunciation:** /ˈhɛdˌlaɪnər/ &middot; *HED-ly-nur*
-**Русский:** хедлайнер, главный участник программы
+**Русский:** хедлайнер, главный участник программы; обивка потолка салона (автомобиля)
 **Plural:** *headliners*
 **Countability:** countable
 
-The best-known performer on a bill, who goes on last.
+Headliner has 2 distinct senses.
+
+**1. The best-known performer on a bill, who goes on last.** (хедлайнер, главный участник программы)
 
 1. The *headliner* did not come on until eleven.
 2. Both *headliners* canceled and the show fell apart.
 3. She has been a *headliner* in Las Vegas for a decade.
+
+**2. The cloth-covered lining on the inside of a car's roof.** (обивка потолка салона (автомобиля))
+
+4. The *headliner* in my old Civic is starting to sag.
+5. A leak around the sunroof stained the *headliner*.
+6. The shop quoted me three hundred dollars to replace the *headliner*.
 
 ---
 
@@ -2339,15 +2395,23 @@ A college where people are trained as actors.
 ### playhouse
 
 **Pronunciation:** /ˈpleɪhaʊs/ &middot; *PLAY-hows*
-**Русский:** театр (здание)
+**Русский:** театр (здание); детский игровой домик
 **Plural:** *playhouses*
 **Countability:** countable
 
-A building where plays are performed.
+Playhouse has 2 distinct senses.
+
+**1. A building where plays are performed.** (театр (здание))
 
 1. The old *playhouse* on Main Street is being restored.
 2. Two small *playhouses* share a parking lot.
 3. The *playhouse* seats about four hundred people.
+
+**2. A small house for children to play in.** (детский игровой домик)
+
+4. My uncle built a *playhouse* in the backyard.
+5. The kids ate lunch inside the plastic *playhouse*.
+6. She keeps her dolls out in the little *playhouse*.
 
 ---
 
@@ -2400,15 +2464,23 @@ An open-air place with seats rising in curved rows around a stage.
 ### interlude
 
 **Pronunciation:** /ˈɪntərluːd/ &middot; *IN-tur-lood*
-**Русский:** интермедия, вставной эпизод
+**Русский:** интермедия, вставной эпизод; промежуток, передышка
 **Plural:** *interludes*
 **Countability:** countable
 
-A short piece of music or performance between the main parts of a show.
+Interlude has 2 distinct senses.
+
+**1. A short piece of music or performance between the main parts of a show.** (интермедия, вставной эпизод)
 
 1. A piano *interlude* covers the scene change.
 2. The two musical *interludes* are the best part of the evening.
 3. The clowns come out during the *interlude*.
+
+**2. A short period of time between two longer or busier ones.** (промежуток, передышка)
+
+4. The rain gave us a quiet *interlude* before the crowds arrived.
+5. After a brief *interlude* in Texas, the family moved back east.
+6. Those two years were a happy *interlude* in a hard decade.
 
 ---
 

@@ -378,14 +378,43 @@
       "term": "distance",
       "ipa": "/ˈdɪstəns/",
       "respell": "DIS-tuhns",
-      "meaning": "The amount of space between two places or things. ---",
+      "meaning": "Distance has 2 distinct senses.",
       "examples": [
         "What's the distance from here to the airport?",
         "He can throw a football a good distance.",
-        "They drove long distances every weekend."
+        "They drove long distances every weekend.",
+        "There's been a distance between the brothers ever since the funeral.",
+        "She kept a certain distance from her coworkers.",
+        "You could hear the distance in his voice."
       ],
-      "senses": [],
-      "русский": "расстояние, дистанция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of space between two places or things",
+          "body": [
+            "(расстояние, дистанция)"
+          ],
+          "examples": [
+            "What's the distance from here to the airport?",
+            "He can throw a football a good distance.",
+            "They drove long distances every weekend."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Coolness or a lack of warmth between people",
+          "body": [
+            "(отчуждённость, холодность)",
+            "---"
+          ],
+          "examples": [
+            "There's been a distance between the brothers ever since the funeral.",
+            "She kept a certain distance from her coworkers.",
+            "You could hear the distance in his voice."
+          ]
+        }
+      ],
+      "русский": "расстояние, дистанция; отчуждённость, холодность",
       "plural": "distances",
       "countability": "countable"
     },
@@ -525,14 +554,58 @@
       "term": "capacity",
       "ipa": "/kəˈpæsəti/",
       "respell": "kuh-PAS-uh-tee",
-      "meaning": "The amount that a container or a space can hold. ---",
+      "meaning": "Capacity has 3 distinct senses.",
       "examples": [
         "The tank has a capacity of twenty gallons.",
         "The stadium was filled to capacity.",
-        "The two coolers have different capacities."
+        "The two coolers have different capacities.",
+        "She was there in her capacity as school board president.",
+        "I'm speaking in a private capacity, not for the company.",
+        "He signed the letter in his capacity as trustee.",
+        "Children have an amazing capacity for languages.",
+        "He no longer has the mental capacity to manage his own money.",
+        "She has an enormous capacity for hard work."
       ],
-      "senses": [],
-      "русский": "вместимость, ёмкость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount that a container or a space can hold",
+          "body": [
+            "(вместимость, ёмкость)"
+          ],
+          "examples": [
+            "The tank has a capacity of twenty gallons.",
+            "The stadium was filled to capacity.",
+            "The two coolers have different capacities."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The official role or position in which someone is acting",
+          "body": [
+            "(качество, должность (в каком качестве))"
+          ],
+          "examples": [
+            "She was there in her capacity as school board president.",
+            "I'm speaking in a private capacity, not for the company.",
+            "He signed the letter in his capacity as trustee."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The ability to do or to understand something",
+          "body": [
+            "(способность (что-л. делать, понимать))",
+            "---"
+          ],
+          "examples": [
+            "Children have an amazing capacity for languages.",
+            "He no longer has the mental capacity to manage his own money.",
+            "She has an enormous capacity for hard work."
+          ]
+        }
+      ],
+      "русский": "вместимость, ёмкость; качество, должность (в каком качестве); способность (что-л. делать, понимать)",
       "plural": "capacities",
       "countability": "countable"
     },
@@ -762,14 +835,58 @@
       "term": "dimension",
       "ipa": "/dɪˈmɛnʃən/",
       "respell": "dih-MEN-shuhn",
-      "meaning": "A measurement such as length, width, or height. ---",
+      "meaning": "Dimension has 3 distinct senses.",
       "examples": [
         "Give me the dimensions of the room.",
         "The new box has the same dimensions as the old one.",
-        "Height is the third dimension."
+        "Height is the third dimension.",
+        "Her illness added a new dimension to the family's problems.",
+        "The report ignores the human dimension of the layoffs.",
+        "There is a political dimension to the decision as well.",
+        "The kids fall through a doorway into another dimension.",
+        "The show is about creatures from a parallel dimension.",
+        "He claims the machine can move objects between dimensions."
       ],
-      "senses": [],
-      "русский": "размер, измерение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A measurement such as length, width, or height",
+          "body": [
+            "(размер, измерение)"
+          ],
+          "examples": [
+            "Give me the dimensions of the room.",
+            "The new box has the same dimensions as the old one.",
+            "Height is the third dimension."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An aspect or side of a situation",
+          "body": [
+            "(аспект, сторона (вопроса))"
+          ],
+          "examples": [
+            "Her illness added a new dimension to the family's problems.",
+            "The report ignores the human dimension of the layoffs.",
+            "There is a political dimension to the decision as well."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "In stories and science fiction, a world or plane of existence separate from our own",
+          "body": [
+            "(измерение (параллельный мир))",
+            "---"
+          ],
+          "examples": [
+            "The kids fall through a doorway into another dimension.",
+            "The show is about creatures from a parallel dimension.",
+            "He claims the machine can move objects between dimensions."
+          ]
+        }
+      ],
+      "русский": "размер, измерение; аспект, сторона (вопроса); измерение (параллельный мир)",
       "plural": "dimensions",
       "countability": "countable"
     },
@@ -1355,14 +1472,58 @@
       "term": "standard",
       "ipa": "/ˈstændərd/",
       "respell": "STAN-durd",
-      "meaning": "An agreed level or measure that things are judged against. ---",
+      "meaning": "Standard has 3 distinct senses.",
       "examples": [
         "The meter is the international standard of length.",
         "This part doesn't meet the standard.",
-        "Safety standards have gotten stricter."
+        "Safety standards have gotten stricter.",
+        "The trio played jazz standards all night.",
+        "That tune became a standard within a few years.",
+        "Her album is half originals and half standards.",
+        "The cavalry rode out behind the regiment's standard.",
+        "Each unit carries its own standard in the parade.",
+        "The color guard lowered the standards at sunset."
       ],
-      "senses": [],
-      "русский": "стандарт, норма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An agreed level or measure that things are judged against",
+          "body": [
+            "(стандарт, норма)"
+          ],
+          "examples": [
+            "The meter is the international standard of length.",
+            "This part doesn't meet the standard.",
+            "Safety standards have gotten stricter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A song that has stayed popular for decades and is played by many performers",
+          "body": [
+            "(стандарт (классическая песня из репертуара))"
+          ],
+          "examples": [
+            "The trio played jazz standards all night.",
+            "That tune became a standard within a few years.",
+            "Her album is half originals and half standards."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A flag or banner carried as the emblem of a military unit or a ruler",
+          "body": [
+            "(штандарт, знамя)",
+            "---"
+          ],
+          "examples": [
+            "The cavalry rode out behind the regiment's standard.",
+            "Each unit carries its own standard in the parade.",
+            "The color guard lowered the standards at sunset."
+          ]
+        }
+      ],
+      "русский": "стандарт, норма; стандарт (классическая песня из репертуара); штандарт, знамя",
       "plural": "standards",
       "countability": "countable"
     },
@@ -3487,14 +3648,43 @@
       "term": "latitude",
       "ipa": "/ˈlætətuːd/",
       "respell": "LAT-uh-tood",
-      "meaning": "The distance north or south of the equator, measured in degrees. ---",
+      "meaning": "Latitude has 2 distinct senses.",
       "examples": [
         "Chicago sits at about 42 degrees latitude.",
         "Enter the latitude and longitude.",
-        "Northern latitudes get very little winter sun."
+        "Northern latitudes get very little winter sun.",
+        "Teachers here are given a lot of latitude in the classroom.",
+        "The contract allows some latitude on the deadline.",
+        "Judges have considerable latitude in sentencing."
       ],
-      "senses": [],
-      "русский": "широта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The distance north or south of the equator, measured in degrees",
+          "body": [
+            "(широта)"
+          ],
+          "examples": [
+            "Chicago sits at about 42 degrees latitude.",
+            "Enter the latitude and longitude.",
+            "Northern latitudes get very little winter sun."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Freedom to choose how to act or what to do",
+          "body": [
+            "(свобода действий)",
+            "---"
+          ],
+          "examples": [
+            "Teachers here are given a lot of latitude in the classroom.",
+            "The contract allows some latitude on the deadline.",
+            "Judges have considerable latitude in sentencing."
+          ]
+        }
+      ],
+      "русский": "широта; свобода действий",
       "plural": "latitudes",
       "countability": "countable",
       "contrast": "Americans say LAT-uh-tood; the British say LAT-i-tyood."
@@ -3519,14 +3709,43 @@
       "term": "elevation",
       "ipa": "/ˌɛləˈveɪʃən/",
       "respell": "el-uh-VAY-shuhn",
-      "meaning": "Height above sea level. ---",
+      "meaning": "Elevation has 2 distinct senses.",
       "examples": [
         "Denver sits at an elevation of about a mile.",
         "The trail gains 2,000 feet of elevation.",
-        "Water boils sooner at high elevations."
+        "Water boils sooner at high elevations.",
+        "His elevation to the Supreme Court took months of hearings.",
+        "Her elevation to partner surprised no one.",
+        "The elevation of a new archbishop drew a big crowd."
       ],
-      "senses": [],
-      "русский": "высота над уровнем моря",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Height above sea level",
+          "body": [
+            "(высота над уровнем моря)"
+          ],
+          "examples": [
+            "Denver sits at an elevation of about a mile.",
+            "The trail gains 2,000 feet of elevation.",
+            "Water boils sooner at high elevations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The raising of someone to a higher rank or position",
+          "body": [
+            "(возведение в должность, повышение)",
+            "---"
+          ],
+          "examples": [
+            "His elevation to the Supreme Court took months of hearings.",
+            "Her elevation to partner surprised no one.",
+            "The elevation of a new archbishop drew a big crowd."
+          ]
+        }
+      ],
+      "русский": "высота над уровнем моря; возведение в должность, повышение",
       "plural": "elevations",
       "countability": "countable"
     },
@@ -3788,14 +4007,42 @@
       "term": "conversion",
       "ipa": "/kənˈvɜːrʒən/",
       "respell": "kuhn-VUR-zhuhn",
-      "meaning": "The changing of a measurement from one unit into another.",
+      "meaning": "Conversion has 2 distinct senses.",
       "examples": [
         "The chart gives the conversion from inches to centimeters.",
         "Do the conversion before you order the parts.",
-        "Unit conversions trip up a lot of students."
+        "Unit conversions trip up a lot of students.",
+        "His conversion to Islam surprised his family.",
+        "The book describes her conversion and the quiet years that followed.",
+        "The missionaries counted a handful of conversions that first winter."
       ],
-      "senses": [],
-      "русский": "перевод (единиц измерения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The changing of a measurement from one unit into another",
+          "body": [
+            "(перевод (единиц измерения))"
+          ],
+          "examples": [
+            "The chart gives the conversion from inches to centimeters.",
+            "Do the conversion before you order the parts.",
+            "Unit conversions trip up a lot of students."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A change from one religion or set of beliefs to another",
+          "body": [
+            "(обращение (в веру))"
+          ],
+          "examples": [
+            "His conversion to Islam surprised his family.",
+            "The book describes her conversion and the quiet years that followed.",
+            "The missionaries counted a handful of conversions that first winter."
+          ]
+        }
+      ],
+      "русский": "перевод (единиц измерения); обращение (в веру)",
       "plural": "conversions",
       "countability": "countable"
     }

@@ -652,15 +652,23 @@ A small North American songbird with bright blue feathers.
 ### cardinal
 
 **Pronunciation:** /ˈkɑːrdənəl/ &middot; *KAR-duh-nul*
-**Русский:** кардинал (птица)
+**Русский:** кардинал (птица); кардинал (церковный сан)
 **Plural:** *cardinals*
 **Countability:** countable
 
-A North American songbird; the male is bright red with a crest.
+Cardinal has 2 distinct senses.
+
+**1. A North American songbird; the male is bright red with a crest.** (кардинал (птица))
 
 1. A male *cardinal* is impossible to miss against the snow.
 2. *Cardinals* come to the feeder all winter.
 3. The *cardinal* was singing from the top of the maple.
+
+**2. A senior official of the Roman Catholic Church, ranking just below the pope.** (кардинал (церковный сан))
+
+4. The *cardinals* met in Rome to elect a new pope.
+5. He was made a *cardinal* at the age of fifty-eight.
+6. The *cardinal* celebrated Mass at the cathedral downtown.
 
 ---
 
@@ -736,15 +744,23 @@ A small black and white sea bird with a large brightly striped bill.
 ### albatross
 
 **Pronunciation:** /ˈælbətrɔːs/ &middot; *AL-buh-traws*
-**Русский:** альбатрос
+**Русский:** альбатрос; обуза, камень на шее
 **Plural:** *albatrosses*
 **Countability:** countable
 
-A very large sea bird with long narrow wings that glides for hours.
+Albatross has 2 distinct senses.
+
+**1. A very large sea bird with long narrow wings that glides for hours.** (альбатрос)
 
 1. An *albatross* followed the ship for two days.
 2. *Albatrosses* can glide for hours without flapping.
 3. The *albatross* has the longest wingspan of any bird.
+
+**2. A burden or problem that someone is stuck with and cannot get rid of.** (обуза, камень на шее)
+
+4. The empty mall became an *albatross* for the county.
+5. That loan is an *albatross* around his neck.
+6. The old contract is an *albatross* the team can't shake.
 
 ---
 
@@ -1311,15 +1327,29 @@ Quill has 2 distinct senses.
 ### migration
 
 **Pronunciation:** /maɪˈɡreɪʃən/ &middot; *my-GRAY-shun*
-**Русский:** миграция, перелёт (птиц)
+**Русский:** миграция, перелёт (птиц); миграция (людей), переселение; перенос, миграция (данных, системы)
 **Plural:** *migrations*
 **Countability:** countable
 
-The seasonal journey birds make from one region to another.
+Migration has 3 distinct senses.
+
+**1. The seasonal journey birds make from one region to another.** (миграция, перелёт (птиц))
 
 1. The fall *migration* starts in late August.
 2. Their yearly *migration* covers eight thousand miles.
 3. Storms can throw whole *migrations* off course.
+
+**2. The movement of people from one country or region to another to live there.** (миграция (людей), переселение)
+
+4. The war set off the largest *migration* in the region's history.
+5. Economists study the *migration* of workers to the Sun Belt.
+6. *Migration* from the countryside emptied whole villages.
+
+**3. The moving of data or software from one system to another.** (перенос, миграция (данных, системы))
+
+7. The *migration* to the new database took all weekend.
+8. IT scheduled the *migration* for a Sunday night.
+9. We lost a few old files during the *migration*.
 
 ---
 

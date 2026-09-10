@@ -490,14 +490,43 @@
       "term": "carriage",
       "ipa": "/ˈkɛrɪdʒ/",
       "respell": "KEH-rij",
-      "meaning": "A wheeled passenger vehicle pulled by horses. ---",
+      "meaning": "Carriage has 2 distinct senses.",
       "examples": [
         "A horse-drawn carriage circled the park.",
         "Carriages line up near the hotel on summer evenings.",
-        "They rode home in an open carriage."
+        "They rode home in an open carriage.",
+        "You could pick out the dancer by her carriage alone.",
+        "He had the upright carriage of a former soldier.",
+        "Her carriage changed the moment she walked onstage."
       ],
-      "senses": [],
-      "русский": "карета, экипаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wheeled passenger vehicle pulled by horses",
+          "body": [
+            "(карета, экипаж)"
+          ],
+          "examples": [
+            "A horse-drawn carriage circled the park.",
+            "Carriages line up near the hotel on summer evenings.",
+            "They rode home in an open carriage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a person holds and moves their body",
+          "body": [
+            "(осанка, манера держаться)",
+            "---"
+          ],
+          "examples": [
+            "You could pick out the dancer by her carriage alone.",
+            "He had the upright carriage of a former soldier.",
+            "Her carriage changed the moment she walked onstage."
+          ]
+        }
+      ],
+      "русский": "карета, экипаж; осанка, манера держаться",
       "plural": "carriages",
       "countability": "countable",
       "contrast": "In Britain a carriage is also a railroad car; Americans say car for that."
@@ -1857,14 +1886,43 @@
       "term": "ignition",
       "ipa": "/ɪɡˈnɪʃən/",
       "respell": "ig-NISH-uhn",
-      "meaning": "The switch and system that start a vehicle's engine. ---",
+      "meaning": "Ignition has 2 distinct senses.",
       "examples": [
         "Put the key in the ignition and turn it.",
         "The ignition is worn out and the key sticks.",
-        "Push-button ignitions have replaced keys on newer cars."
+        "Push-button ignitions have replaced keys on newer cars.",
+        "A spark caused the ignition of gas that had built up in the basement.",
+        "The fire investigator was looking for the point of ignition.",
+        "The countdown reached zero and we had ignition."
       ],
-      "senses": [],
-      "русский": "зажигание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The switch and system that start a vehicle's engine",
+          "body": [
+            "(зажигание)"
+          ],
+          "examples": [
+            "Put the key in the ignition and turn it.",
+            "The ignition is worn out and the key sticks.",
+            "Push-button ignitions have replaced keys on newer cars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of catching fire, or the moment something starts to burn",
+          "body": [
+            "(воспламенение, возгорание)",
+            "---"
+          ],
+          "examples": [
+            "A spark caused the ignition of gas that had built up in the basement.",
+            "The fire investigator was looking for the point of ignition.",
+            "The countdown reached zero and we had ignition."
+          ]
+        }
+      ],
+      "русский": "зажигание; воспламенение, возгорание",
       "plural": "ignitions",
       "countability": "countable"
     },
@@ -1872,14 +1930,58 @@
       "term": "accelerator",
       "ipa": "/ækˈsɛləreɪtər/",
       "respell": "ak-SEL-uh-ray-tur",
-      "meaning": "The pedal that makes a vehicle go faster. ---",
+      "meaning": "Accelerator has 3 distinct senses.",
       "examples": [
         "She pressed the accelerator and pulled onto the highway.",
         "His foot slipped off the accelerator.",
-        "The accelerator felt stiff in the cold."
+        "The accelerator felt stiff in the cold.",
+        "The lab's accelerator runs in a tunnel two miles long.",
+        "Physicists use an accelerator to smash protons into each other.",
+        "Funding for two new accelerators was approved last year.",
+        "Their startup got into a three-month accelerator last spring.",
+        "The accelerator takes a small share of every company it backs.",
+        "The best accelerators are harder to get into than law school."
       ],
-      "senses": [],
-      "русский": "педаль газа, акселератор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pedal that makes a vehicle go faster",
+          "body": [
+            "(педаль газа, акселератор)"
+          ],
+          "examples": [
+            "She pressed the accelerator and pulled onto the highway.",
+            "His foot slipped off the accelerator.",
+            "The accelerator felt stiff in the cold."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large machine that speeds atomic particles up to enormous speeds for research",
+          "body": [
+            "(ускоритель (частиц))"
+          ],
+          "examples": [
+            "The lab's accelerator runs in a tunnel two miles long.",
+            "Physicists use an accelerator to smash protons into each other.",
+            "Funding for two new accelerators was approved last year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short program that gives young companies money and coaching to help them grow fast",
+          "body": [
+            "(акселератор (программа поддержки стартапов))",
+            "---"
+          ],
+          "examples": [
+            "Their startup got into a three-month accelerator last spring.",
+            "The accelerator takes a small share of every company it backs.",
+            "The best accelerators are harder to get into than law school."
+          ]
+        }
+      ],
+      "русский": "педаль газа, акселератор; ускоритель (частиц); акселератор (программа поддержки стартапов)",
       "plural": "accelerators",
       "countability": "countable"
     },

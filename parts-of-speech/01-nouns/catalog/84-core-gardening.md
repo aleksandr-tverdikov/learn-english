@@ -12,16 +12,24 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### backyard
 
 **Pronunciation:** /ˌbækˈjɑːrd/ &middot; *bak-YARD*
-**Русский:** задний двор, двор за домом
+**Русский:** задний двор, двор за домом; своя территория, задворки (перен.)
 **Plural:** *backyards*
 **Countability:** countable
 **Contrast:** Americans say *backyard*; the British say back garden.
 
-The open ground behind a house, often fenced.
+Backyard has 2 distinct senses.
+
+**1. The open ground behind a house, often fenced.** (задний двор, двор за домом)
 
 1. The kids are out in the *backyard*.
 2. We grilled in the *backyard* until it got dark.
 3. Most of the *backyards* on this street back onto the creek.
+
+**2. The area close to where you live or operate, thought of as your own territory.** (своя территория, задворки (перен.))
+
+4. Nobody wants a landfill in their own *backyard*.
+5. The company found its best customers right in its own *backyard*.
+6. The senator called the conflict a crisis in America's *backyard*.
 
 ---
 

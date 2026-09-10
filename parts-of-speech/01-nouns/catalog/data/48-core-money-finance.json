@@ -52,14 +52,43 @@
       "term": "currency",
       "ipa": "/ˈkɜːrənsi/",
       "respell": "KUR-uhn-see",
-      "meaning": "The system of money used in a particular country. ---",
+      "meaning": "Currency has 2 distinct senses.",
       "examples": [
         "The local currency is the peso.",
         "Several currencies fell against the dollar.",
-        "You can pay in either currency."
+        "You can pay in either currency.",
+        "The theory has gained currency among younger economists.",
+        "The rumor gained currency after the mayor refused to comment.",
+        "That word has lost its currency outside academic writing."
       ],
-      "senses": [],
-      "русский": "валюта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The system of money used in a particular country",
+          "body": [
+            "(валюта)"
+          ],
+          "examples": [
+            "The local currency is the peso.",
+            "Several currencies fell against the dollar.",
+            "You can pay in either currency."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of being widely accepted or used, especially of an idea or a word",
+          "body": [
+            "(распространённость, признание (идеи))",
+            "---"
+          ],
+          "examples": [
+            "The theory has gained currency among younger economists.",
+            "The rumor gained currency after the mayor refused to comment.",
+            "That word has lost its currency outside academic writing."
+          ]
+        }
+      ],
+      "русский": "валюта; распространённость, признание (идеи)",
       "plural": "currencies",
       "countability": "countable"
     },
@@ -514,14 +543,58 @@
       "term": "statement",
       "ipa": "/ˈsteɪtmənt/",
       "respell": "STAYT-muhnt",
-      "meaning": "A record from a bank listing the activity on an account. ---",
+      "meaning": "Statement has 3 distinct senses.",
       "examples": [
         "My bank statement came in the mail.",
         "Go through the last three statements.",
-        "The charge isn't on this statement."
+        "The charge isn't on this statement.",
+        "The company issued a statement denying the charges.",
+        "Police released a brief statement Tuesday morning.",
+        "She read a short statement and took no questions.",
+        "The bright yellow front door makes a statement.",
+        "Wearing the pin to work was a political statement.",
+        "Her resignation was meant as a statement about the leadership."
       ],
-      "senses": [],
-      "русский": "выписка со счёта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A record from a bank listing the activity on an account",
+          "body": [
+            "(выписка со счёта)"
+          ],
+          "examples": [
+            "My bank statement came in the mail.",
+            "Go through the last three statements.",
+            "The charge isn't on this statement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something said or written formally and publicly",
+          "body": [
+            "(заявление)"
+          ],
+          "examples": [
+            "The company issued a statement denying the charges.",
+            "Police released a brief statement Tuesday morning.",
+            "She read a short statement and took no questions."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something done or worn in order to express an idea or attitude",
+          "body": [
+            "(заявление, демонстрация позиции)",
+            "---"
+          ],
+          "examples": [
+            "The bright yellow front door makes a statement.",
+            "Wearing the pin to work was a political statement.",
+            "Her resignation was meant as a statement about the leadership."
+          ]
+        }
+      ],
+      "русский": "выписка со счёта; заявление; заявление, демонстрация позиции",
       "plural": "statements",
       "countability": "countable"
     },
@@ -529,14 +602,58 @@
       "term": "interest",
       "ipa": "/ˈɪntrəst/",
       "respell": "IN-truhst",
-      "meaning": "Money paid for the use of borrowed money, or earned on savings. ---",
+      "meaning": "Interest has 3 distinct senses.",
       "examples": [
         "The loan carries eight percent interest.",
         "You'll pay a lot of interest over thirty years.",
-        "The account earns almost no interest."
+        "The account earns almost no interest.",
+        "She has had an interest in birds since she was a child.",
+        "His main interests are hiking and photography.",
+        "The class lost interest halfway through the video.",
+        "He sold his interest in the restaurant last spring.",
+        "The family holds a controlling interest in the newspaper.",
+        "The judge disclosed a financial interest in the company."
       ],
-      "senses": [],
-      "русский": "проценты (по вкладу или кредиту)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money paid for the use of borrowed money, or earned on savings",
+          "body": [
+            "(проценты (по вкладу или кредиту))"
+          ],
+          "examples": [
+            "The loan carries eight percent interest.",
+            "You'll pay a lot of interest over thirty years.",
+            "The account earns almost no interest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of wanting to know about something or take part in it",
+          "body": [
+            "(интерес, увлечение)"
+          ],
+          "examples": [
+            "She has had an interest in birds since she was a child.",
+            "His main interests are hiking and photography.",
+            "The class lost interest halfway through the video."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A legal share in a business or a piece of property",
+          "body": [
+            "(доля, участие (в бизнесе))",
+            "---"
+          ],
+          "examples": [
+            "He sold his interest in the restaurant last spring.",
+            "The family holds a controlling interest in the newspaper.",
+            "The judge disclosed a financial interest in the company."
+          ]
+        }
+      ],
+      "русский": "проценты (по вкладу или кредиту); интерес, увлечение; доля, участие (в бизнесе)",
       "countability": "uncountable",
       "contrast": "In the money sense it is uncountable — never interests."
     },
@@ -872,14 +989,43 @@
       "term": "installment",
       "ipa": "/ɪnˈstɔːlmənt/",
       "respell": "in-STAWL-muhnt",
-      "meaning": "One of a series of regular payments toward a larger sum. ---",
+      "meaning": "Installment has 2 distinct senses.",
       "examples": [
         "You can pay in twelve monthly installments.",
         "The last installment is due in June.",
-        "He missed an installment and they called him."
+        "He missed an installment and they called him.",
+        "The next installment of the series comes out in June.",
+        "I read the final installment of her column this morning.",
+        "Each installment ends on a cliffhanger."
       ],
-      "senses": [],
-      "русский": "взнос, платёж в рассрочку",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of a series of regular payments toward a larger sum",
+          "body": [
+            "(взнос, платёж в рассрочку)"
+          ],
+          "examples": [
+            "You can pay in twelve monthly installments.",
+            "The last installment is due in June.",
+            "He missed an installment and they called him."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One part of a story, series, or set of movies released over time",
+          "body": [
+            "(часть (серии), выпуск)",
+            "---"
+          ],
+          "examples": [
+            "The next installment of the series comes out in June.",
+            "I read the final installment of her column this morning.",
+            "Each installment ends on a cliffhanger."
+          ]
+        }
+      ],
+      "русский": "взнос, платёж в рассрочку; часть (серии), выпуск",
       "plural": "installments",
       "countability": "countable",
       "contrast": "American spelling doubles the l — installment; the British write instalment."
@@ -917,14 +1063,43 @@
       "term": "bankruptcy",
       "ipa": "/ˈbæŋkrəptsi/",
       "respell": "BANK-ruhpt-see",
-      "meaning": "A legal state in which someone cannot pay what they owe. ---",
+      "meaning": "Bankruptcy has 2 distinct senses.",
       "examples": [
         "The airline filed for bankruptcy.",
         "Medical bills are a leading cause of bankruptcy.",
-        "Bankruptcies spiked after the crash."
+        "Bankruptcies spiked after the crash.",
+        "Critics saw the decision as proof of the party's moral bankruptcy.",
+        "The book argues that the whole theory ended in intellectual bankruptcy.",
+        "He accused the network of complete ethical bankruptcy."
       ],
-      "senses": [],
-      "русский": "банкротство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A legal state in which someone cannot pay what they owe",
+          "body": [
+            "(банкротство)"
+          ],
+          "examples": [
+            "The airline filed for bankruptcy.",
+            "Medical bills are a leading cause of bankruptcy.",
+            "Bankruptcies spiked after the crash."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A complete lack or collapse of something valued, such as honesty or ideas",
+          "body": [
+            "(полная несостоятельность, отсутствие (нравственности, идей))",
+            "---"
+          ],
+          "examples": [
+            "Critics saw the decision as proof of the party's moral bankruptcy.",
+            "The book argues that the whole theory ended in intellectual bankruptcy.",
+            "He accused the network of complete ethical bankruptcy."
+          ]
+        }
+      ],
+      "русский": "банкротство; полная несостоятельность, отсутствие (нравственности, идей)",
       "plural": "bankruptcies",
       "countability": "countable"
     },
@@ -1228,14 +1403,43 @@
       "term": "dividend",
       "ipa": "/ˈdɪvədɛnd/",
       "respell": "DIV-uh-dend",
-      "meaning": "A share of a company's profits paid out to its shareholders. ---",
+      "meaning": "Dividend has 2 distinct senses.",
       "examples": [
         "The company raised its dividend again.",
         "She lives off the dividends.",
-        "That stock hasn't paid a dividend in years."
+        "That stock hasn't paid a dividend in years.",
+        "The extra hours of practice paid dividends in the playoffs.",
+        "Learning a second language pays dividends for the rest of your life.",
+        "The cleanup brought an unexpected dividend: the tourists came back."
       ],
-      "senses": [],
-      "русский": "дивиденд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A share of a company's profits paid out to its shareholders",
+          "body": [
+            "(дивиденд)"
+          ],
+          "examples": [
+            "The company raised its dividend again.",
+            "She lives off the dividends.",
+            "That stock hasn't paid a dividend in years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A benefit that comes later from something you did earlier",
+          "body": [
+            "(отдача, выгода)",
+            "---"
+          ],
+          "examples": [
+            "The extra hours of practice paid dividends in the playoffs.",
+            "Learning a second language pays dividends for the rest of your life.",
+            "The cleanup brought an unexpected dividend: the tourists came back."
+          ]
+        }
+      ],
+      "русский": "дивиденд; отдача, выгода",
       "plural": "dividends",
       "countability": "countable"
     },
@@ -1391,14 +1595,58 @@
       "term": "liability",
       "ipa": "/ˌlaɪəˈbɪləti/",
       "respell": "ly-uh-BIL-uh-tee",
-      "meaning": "A debt or obligation that a person or company owes. ---",
+      "meaning": "Liability has 3 distinct senses.",
       "examples": [
         "The firm's liabilities exceed its assets.",
         "That old warehouse is a liability, not an asset.",
-        "We're reviewing every liability on the books."
+        "We're reviewing every liability on the books.",
+        "The company denies any liability for the accident.",
+        "Every contractor here has to carry liability insurance.",
+        "The waiver limits the gym's liability.",
+        "With that temper, he's a liability to the team.",
+        "The old boiler has become a real liability.",
+        "Not having a driver's license turned out to be a liability."
       ],
-      "senses": [],
-      "русский": "обязательство, пассив",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A debt or obligation that a person or company owes",
+          "body": [
+            "(обязательство, пассив)"
+          ],
+          "examples": [
+            "The firm's liabilities exceed its assets.",
+            "That old warehouse is a liability, not an asset.",
+            "We're reviewing every liability on the books."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Legal responsibility for damage, injury, or loss",
+          "body": [
+            "(ответственность (юридическая))"
+          ],
+          "examples": [
+            "The company denies any liability for the accident.",
+            "Every contractor here has to carry liability insurance.",
+            "The waiver limits the gym's liability."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person or thing that causes trouble or puts you at a disadvantage",
+          "body": [
+            "(обуза, помеха)",
+            "---"
+          ],
+          "examples": [
+            "With that temper, he's a liability to the team.",
+            "The old boiler has become a real liability.",
+            "Not having a driver's license turned out to be a liability."
+          ]
+        }
+      ],
+      "русский": "обязательство, пассив; ответственность (юридическая); обуза, помеха",
       "plural": "liabilities",
       "countability": "countable"
     },
@@ -1997,14 +2245,43 @@
       "term": "deduction",
       "ipa": "/dɪˈdʌkʃən/",
       "respell": "dih-DUK-shuhn",
-      "meaning": "An amount subtracted from income before tax is calculated. ---",
+      "meaning": "Deduction has 2 distinct senses.",
       "examples": [
         "You can take a deduction for the home office.",
         "Charitable deductions have limits.",
-        "The standard deduction went up again."
+        "The standard deduction went up again.",
+        "By simple deduction, she figured out who had taken the keys.",
+        "The detective's deduction turned out to be exactly right.",
+        "He reached the answer by deduction rather than guesswork."
       ],
-      "senses": [],
-      "русский": "вычет (налоговый)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount subtracted from income before tax is calculated",
+          "body": [
+            "(вычет (налоговый))"
+          ],
+          "examples": [
+            "You can take a deduction for the home office.",
+            "Charitable deductions have limits.",
+            "The standard deduction went up again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The process of reaching a conclusion by reasoning from the facts you already have",
+          "body": [
+            "(дедукция, умозаключение)",
+            "---"
+          ],
+          "examples": [
+            "By simple deduction, she figured out who had taken the keys.",
+            "The detective's deduction turned out to be exactly right.",
+            "He reached the answer by deduction rather than guesswork."
+          ]
+        }
+      ],
+      "русский": "вычет (налоговый); дедукция, умозаключение",
       "plural": "deductions",
       "countability": "countable"
     },
@@ -2028,14 +2305,43 @@
       "term": "inflation",
       "ipa": "/ɪnˈfleɪʃən/",
       "respell": "in-FLAY-shuhn",
-      "meaning": "A general rise in prices that makes money worth less. ---",
+      "meaning": "Inflation has 2 distinct senses.",
       "examples": [
         "Inflation ate up the raise.",
         "Groceries went up faster than inflation.",
-        "They're trying to bring inflation down."
+        "They're trying to bring inflation down.",
+        "The manual lists the correct inflation pressure for each tire.",
+        "The balloon burst during inflation.",
+        "Proper inflation makes your tires last longer."
       ],
-      "senses": [],
-      "русский": "инфляция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A general rise in prices that makes money worth less",
+          "body": [
+            "(инфляция)"
+          ],
+          "examples": [
+            "Inflation ate up the raise.",
+            "Groceries went up faster than inflation.",
+            "They're trying to bring inflation down."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The filling of something with air or gas",
+          "body": [
+            "(накачивание, надувание)",
+            "---"
+          ],
+          "examples": [
+            "The manual lists the correct inflation pressure for each tire.",
+            "The balloon burst during inflation.",
+            "Proper inflation makes your tires last longer."
+          ]
+        }
+      ],
+      "русский": "инфляция; накачивание, надувание",
       "countability": "uncountable"
     },
     {
@@ -2295,14 +2601,58 @@
       "term": "commission",
       "ipa": "/kəˈmɪʃən/",
       "respell": "kuh-MISH-uhn",
-      "meaning": "A payment based on a percentage of what someone sells. ---",
+      "meaning": "Commission has 3 distinct senses.",
       "examples": [
         "Real estate agents work on commission.",
         "He made a fat commission on that sale.",
-        "Commissions are paid at closing."
+        "Commissions are paid at closing.",
+        "A commission was set up to study the crash.",
+        "The planning commission meets on the first Thursday of the month.",
+        "Both commissions released their reports in the spring.",
+        "She got a commission to paint a mural downtown.",
+        "The composer accepted a commission for a new symphony.",
+        "Most of his income comes from private commissions."
       ],
-      "senses": [],
-      "русский": "комиссионные",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A payment based on a percentage of what someone sells",
+          "body": [
+            "(комиссионные)"
+          ],
+          "examples": [
+            "Real estate agents work on commission.",
+            "He made a fat commission on that sale.",
+            "Commissions are paid at closing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official group appointed to investigate something or to regulate an activity",
+          "body": [
+            "(комиссия (орган))"
+          ],
+          "examples": [
+            "A commission was set up to study the crash.",
+            "The planning commission meets on the first Thursday of the month.",
+            "Both commissions released their reports in the spring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A formal order for a piece of work, especially a work of art",
+          "body": [
+            "(заказ (на произведение, работу))",
+            "---"
+          ],
+          "examples": [
+            "She got a commission to paint a mural downtown.",
+            "The composer accepted a commission for a new symphony.",
+            "Most of his income comes from private commissions."
+          ]
+        }
+      ],
+      "русский": "комиссионные; комиссия (орган); заказ (на произведение, работу)",
       "plural": "commissions",
       "countability": "countable"
     },
@@ -2887,14 +3237,43 @@
       "term": "accounting",
       "ipa": "/əˈkaʊntɪŋ/",
       "respell": "uh-KOWN-ting",
-      "meaning": "The work of keeping and checking financial records. ---",
+      "meaning": "Accounting has 2 distinct senses.",
       "examples": [
         "She majored in accounting.",
         "Send the invoice down to accounting.",
-        "Their accounting was a mess."
+        "Their accounting was a mess.",
+        "The families want a full accounting of the mistakes made that night.",
+        "Voters are owed an accounting of where the money went.",
+        "No accounting of the missing hours was ever given."
       ],
-      "senses": [],
-      "русский": "бухгалтерский учёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of keeping and checking financial records",
+          "body": [
+            "(бухгалтерский учёт)"
+          ],
+          "examples": [
+            "She majored in accounting.",
+            "Send the invoice down to accounting.",
+            "Their accounting was a mess."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A full explanation of what happened or of how something was used",
+          "body": [
+            "(отчёт, объяснение (о случившемся))",
+            "---"
+          ],
+          "examples": [
+            "The families want a full accounting of the mistakes made that night.",
+            "Voters are owed an accounting of where the money went.",
+            "No accounting of the missing hours was ever given."
+          ]
+        }
+      ],
+      "русский": "бухгалтерский учёт; отчёт, объяснение (о случившемся)",
       "countability": "uncountable"
     },
     {
@@ -3186,14 +3565,58 @@
       "term": "allowance",
       "ipa": "/əˈlaʊəns/",
       "respell": "uh-LOW-uhns",
-      "meaning": "An amount of money given regularly for a particular purpose. ---",
+      "meaning": "Allowance has 3 distinct senses.",
       "examples": [
         "The kids get a weekly allowance.",
         "There's a travel allowance with the job.",
-        "Allowances haven't gone up in years."
+        "Allowances haven't gone up in years.",
+        "Your baggage allowance is one checked bag.",
+        "The daily salt allowance is smaller than most people think.",
+        "Both airlines cut their carry-on allowances.",
+        "You have to make allowances for how tired he was.",
+        "The teacher made allowances for the students who had been sick.",
+        "Even making allowances for the weather, the crew was slow."
       ],
-      "senses": [],
-      "русский": "карманные деньги; денежное содержание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount of money given regularly for a particular purpose",
+          "body": [
+            "(карманные деньги; денежное содержание)"
+          ],
+          "examples": [
+            "The kids get a weekly allowance.",
+            "There's a travel allowance with the job.",
+            "Allowances haven't gone up in years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of something that is officially permitted",
+          "body": [
+            "(норма, лимит (разрешённое количество))"
+          ],
+          "examples": [
+            "Your baggage allowance is one checked bag.",
+            "The daily salt allowance is smaller than most people think.",
+            "Both airlines cut their carry-on allowances."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Extra understanding given because of someone's circumstances, used mainly in the phrase make allowances",
+          "body": [
+            "(снисхождение, скидка на обстоятельства)",
+            "---"
+          ],
+          "examples": [
+            "You have to make allowances for how tired he was.",
+            "The teacher made allowances for the students who had been sick.",
+            "Even making allowances for the weather, the crew was slow."
+          ]
+        }
+      ],
+      "русский": "карманные деньги; денежное содержание; норма, лимит (разрешённое количество); снисхождение, скидка на обстоятельства",
       "plural": "allowances",
       "countability": "countable"
     },

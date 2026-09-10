@@ -106,30 +106,46 @@ The compartment or appliance that keeps food frozen.
 ### microwave
 
 **Pronunciation:** /ˈmaɪkrəweɪv/ &middot; *MY-kruh-wayv*
-**Русский:** микроволновая печь, микроволновка
+**Русский:** микроволновая печь, микроволновка; микроволна, СВЧ-излучение
 **Plural:** *microwaves*
 **Countability:** countable
 
-An oven that heats food quickly with microwave radiation.
+Microwave has 2 distinct senses.
+
+**1. An oven that heats food quickly with microwave radiation.** (микроволновая печь, микроволновка)
 
 1. Heat it in the *microwave* for two minutes.
 2. Don't put anything metal in the *microwave*.
 3. The dorm kitchen has two *microwaves* and one sink.
+
+**2. A very short radio wave, used to carry signals and to heat food.** (микроволна, СВЧ-излучение)
+
+4. The station relays the broadcast by *microwave*.
+5. *Microwaves* heat food by shaking the water in it.
+6. Radar works by bouncing *microwaves* off distant objects.
 
 ---
 
 ### dishwasher
 
 **Pronunciation:** /ˈdɪʃwɑːʃər/ &middot; *DISH-wah-shur*
-**Русский:** посудомоечная машина
+**Русский:** посудомоечная машина; посудомойщик
 **Plural:** *dishwashers*
 **Countability:** countable
 
-A machine that washes dishes automatically.
+Dishwasher has 2 distinct senses.
+
+**1. A machine that washes dishes automatically.** (посудомоечная машина)
 
 1. Can you load the *dishwasher* before you leave?
 2. The *dishwasher* is making that noise again.
 3. Older apartments here don't come with *dishwashers*.
+
+**2. A restaurant worker whose job is washing dishes.** (посудомойщик)
+
+4. He started as a *dishwasher* and worked his way up to line cook.
+5. The diner is hiring a *dishwasher* for the night shift.
+6. Two *dishwashers* quit the same week.
 
 ---
 
@@ -1157,15 +1173,29 @@ Gentle cooking in liquid just below boiling.
 ### dressing
 
 **Pronunciation:** /ˈdrɛsɪŋ/ &middot; *DREH-sing*
-**Русский:** заправка для салата
+**Русский:** заправка для салата; повязка (на рану); хлебная начинка к индейке (запечённая отдельно)
 **Plural:** *dressings*
 **Countability:** countable, and uncountable as food
 
-A sauce of oil and vinegar or cream poured over salad.
+Dressing has 3 distinct senses.
+
+**1. A sauce of oil and vinegar or cream poured over salad.** (заправка для салата)
 
 1. What kind of *dressing* do you want on your salad?
 2. Toss the greens with the *dressing* right before you serve it.
 3. The house *dressings* are all made from scratch.
+
+**2. A bandage or pad placed over a wound.** (повязка (на рану))
+
+4. The nurse changed the *dressing* on his leg twice a day.
+5. Keep the *dressing* dry until Friday.
+6. She packed gauze and sterile *dressings* in the first-aid kit.
+
+**3. A seasoned bread mixture baked in a pan and served with turkey.** (хлебная начинка к индейке (запечённая отдельно))
+
+7. Grandma makes cornbread *dressing* every Thanksgiving.
+8. Save room for the turkey and *dressing*.
+9. In our family the *dressing* is baked in a pan, not in the bird.
 
 ---
 

@@ -919,15 +919,23 @@ Gill has 2 distinct senses.
 ### tentacle
 
 **Pronunciation:** /ˈtɛntəkəl/ &middot; *TEN-tuh-kul*
-**Русский:** щупальце
+**Русский:** щупальце; щупальца (перен.), разветвлённое влияние
 **Plural:** *tentacles*
 **Countability:** countable
 
-A long flexible arm that a sea animal uses to feel, grab, or sting.
+Tentacle has 2 distinct senses.
+
+**1. A long flexible arm that a sea animal uses to feel, grab, or sting.** (щупальце)
 
 1. A squid has ten *tentacles*.
 2. One *tentacle* curled around the diver's wrist.
 3. The jellyfish's *tentacles* trailed for several feet.
+
+**2. A far-reaching branch of an organization's power or influence.** (щупальца (перен.), разветвлённое влияние)
+
+4. The cartel's *tentacles* reach into the police department.
+5. The agency has *tentacles* in every state capital.
+6. By then the scandal had spread its *tentacles* through the whole company.
 
 ---
 
@@ -2073,15 +2081,23 @@ A glass container of water where fish are kept.
 ### fishbowl
 
 **Pronunciation:** /ˈfɪʃboʊl/ &middot; *FISH-bohl*
-**Русский:** круглый аквариум
+**Русский:** круглый аквариум; жизнь на виду у всех, полная публичность
 **Plural:** *fishbowls*
 **Countability:** countable
 
-A round glass bowl for keeping a pet fish.
+Fishbowl has 2 distinct senses.
+
+**1. A round glass bowl for keeping a pet fish.** (круглый аквариум)
 
 1. The goldfish went around and around the *fishbowl*.
 2. A *fishbowl* is really too small for most fish.
 3. She used an empty *fishbowl* to hold candy.
+
+**2. A situation in which everything a person does is open to public view.** (жизнь на виду у всех, полная публичность)
+
+4. Living in the governor's mansion means living in a *fishbowl*.
+5. Small-town life can feel like a *fishbowl*.
+6. Fame put the whole family in a *fishbowl*.
 
 ---
 

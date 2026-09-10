@@ -1530,14 +1530,43 @@
       "term": "cesspool",
       "ipa": "/ˈsɛsˌpuːl/",
       "respell": "SESS-pool",
-      "meaning": "A covered pit that collects waste water and sewage. ---",
+      "meaning": "Cesspool has 2 distinct senses.",
       "examples": [
         "The old farmhouse still had a cesspool.",
         "The cesspool overflowed after the storm.",
-        "Health inspectors ordered the cesspools filled in."
+        "Health inspectors ordered the cesspools filled in.",
+        "He called the state capital a cesspool of favors and payoffs.",
+        "The comment section under that video is a cesspool.",
+        "She grew up hearing that the city was a cesspool."
       ],
-      "senses": [],
-      "русский": "выгребная яма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A covered pit that collects waste water and sewage",
+          "body": [
+            "(выгребная яма)"
+          ],
+          "examples": [
+            "The old farmhouse still had a cesspool.",
+            "The cesspool overflowed after the storm.",
+            "Health inspectors ordered the cesspools filled in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place or situation full of corruption or moral filth",
+          "body": [
+            "(рассадник порока, клоака)",
+            "---"
+          ],
+          "examples": [
+            "He called the state capital a cesspool of favors and payoffs.",
+            "The comment section under that video is a cesspool.",
+            "She grew up hearing that the city was a cesspool."
+          ]
+        }
+      ],
+      "русский": "выгребная яма; рассадник порока, клоака",
       "plural": "cesspools",
       "countability": "countable"
     },

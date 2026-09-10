@@ -334,16 +334,24 @@ The amount of food counted as one portion.
 ### specialty
 
 **Pronunciation:** /ˈspɛʃəlti/ &middot; *SPEH-shul-tee*
-**Русский:** фирменное блюдо
+**Русский:** фирменное блюдо; специальность, специализация
 **Plural:** *specialties*
 **Countability:** countable
 **Contrast:** Americans write specialty; the British write speciality, with an extra syllable.
 
-The dish a restaurant or a cook is best known for.
+Specialty has 2 distinct senses.
+
+**1. The dish a restaurant or a cook is best known for.** (фирменное блюдо)
 
 1. Crab cakes are the house *specialty*.
 2. Ask the waiter what the kitchen's *specialty* is.
 3. The menu lists a dozen regional *specialties*.
+
+**2. The particular branch of work or study that someone concentrates on.** (специальность, специализация)
+
+4. Her *specialty* is pediatric surgery.
+5. Tax law is not my *specialty*.
+6. The clinic has doctors in six different *specialties*.
 
 ---
 
@@ -1633,15 +1641,23 @@ Palate has 2 distinct senses.
 ### aftertaste
 
 **Pronunciation:** /ˈæftərteɪst/ &middot; *AF-tur-tayst*
-**Русский:** послевкусие
+**Русский:** послевкусие; неприятный осадок (после чего-л.)
 **Plural:** *aftertastes*
 **Countability:** countable
 
-The flavor that stays in the mouth after eating or drinking.
+Aftertaste has 2 distinct senses.
+
+**1. The flavor that stays in the mouth after eating or drinking.** (послевкусие)
 
 1. The coffee has a bitter *aftertaste*.
 2. There's a nice smoky *aftertaste* to the ribs.
 3. Diet sodas leave strange *aftertastes*.
+
+**2. A feeling, usually an unpleasant one, that stays with you after an experience.** (неприятный осадок (после чего-л.))
+
+4. The whole argument left a bitter *aftertaste*.
+5. Winning that way leaves a bad *aftertaste*.
+6. There was a sour *aftertaste* to the entire deal.
 
 ---
 

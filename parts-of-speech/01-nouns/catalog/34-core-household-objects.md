@@ -551,15 +551,23 @@ A tool with a heavy head for driving nails.
 ### screwdriver
 
 **Pronunciation:** /ˈskruːdraɪvər/ &middot; *SKROO-dry-vur*
-**Русский:** отвёртка
+**Русский:** отвёртка; коктейль «отвёртка» (водка с апельсиновым соком)
 **Plural:** *screwdrivers*
 **Countability:** countable
 
-A tool for turning screws.
+Screwdriver has 2 distinct senses.
+
+**1. A tool for turning screws.** (отвёртка)
 
 1. I need a small *screwdriver* for these screws.
 2. The *screwdriver* is in the junk drawer.
 3. The set came with six *screwdrivers*.
+
+**2. A mixed drink of vodka and orange juice.** (коктейль «отвёртка» (водка с апельсиновым соком))
+
+4. He ordered a *screwdriver* at the hotel bar.
+5. Brunch comes with a free mimosa or *screwdriver*.
+6. She makes *screwdrivers* with fresh-squeezed juice.
 
 ---
 

@@ -181,16 +181,30 @@ A small ornamental figure made of china, glass, or plastic.
 ### portrait
 
 **Pronunciation:** /ˈpɔːrtrət/ &middot; *POR-truht*
-**Русский:** портрет
+**Русский:** портрет; книжная ориентация (страницы); описание, портрет (в книге, фильме)
 **Plural:** *portraits*
 **Countability:** countable
 **Contrast:** The second syllable is reduced: POR-truht, not POR-trayt.
 
-A painting, drawing, or photograph of a particular person.
+Portrait has 3 distinct senses.
+
+**1. A painting, drawing, or photograph of a particular person.** (портрет)
 
 1. The *portrait* over the fireplace is of her grandfather.
 2. He painted *portraits* to pay the rent.
 3. It's the best-known *portrait* in the collection.
+
+**2. A page or image layout that is taller than it is wide.** (книжная ориентация (страницы))
+
+4. Print the flyer in *portrait*, not landscape.
+5. Turn the phone sideways and the video comes out of *portrait*.
+6. The report reads better in *portrait*.
+
+**3. A detailed description of someone or something in words or on film.** (описание, портрет (в книге, фильме))
+
+7. The book is a *portrait* of a factory town in decline.
+8. Her essay paints an unflattering *portrait* of the mayor.
+9. The documentary offers an honest *portrait* of farm life.
 
 ---
 
@@ -349,15 +363,23 @@ Print has 3 distinct senses.
 ### caricature
 
 **Pronunciation:** /ˈkɛrɪkətʃʊr/ &middot; *KER-ih-kuh-chur*
-**Русский:** шарж, карикатура
+**Русский:** шарж, карикатура; утрированный образ, карикатурное изображение
 **Plural:** *caricatures*
 **Countability:** countable
 
-A drawing of someone with certain features exaggerated for comic effect.
+Caricature has 2 distinct senses.
+
+**1. A drawing of someone with certain features exaggerated for comic effect.** (шарж, карикатура)
 
 1. A street artist drew a *caricature* of us with huge heads.
 2. The magazine ran a *caricature* of the mayor.
 3. His early *caricatures* got him fired from the paper.
+
+**2. A description or portrayal that exaggerates a few traits until the subject seems ridiculous.** (утрированный образ, карикатурное изображение)
+
+4. His speech was a *caricature* of what small-town voters actually believe.
+5. The villain is a *caricature*, not a character.
+6. Critics said the movie reduced the whole city to a *caricature*.
 
 ---
 
@@ -431,15 +453,23 @@ Mosaic has 2 distinct senses.
 ### tapestry
 
 **Pronunciation:** /ˈtæpəstri/ &middot; *TAP-uh-stree*
-**Русский:** гобелен
+**Русский:** гобелен; пёстрое переплетение, богатая смесь
 **Plural:** *tapestries*
 **Countability:** countable
 
-A heavy cloth with a picture woven into it, hung on a wall.
+Tapestry has 2 distinct senses.
+
+**1. A heavy cloth with a picture woven into it, hung on a wall.** (гобелен)
 
 1. A huge *tapestry* hangs in the great hall.
 2. The *tapestries* were woven in Belgium.
 3. Moths got into the *tapestry* years ago.
+
+**2. A rich, complicated mixture of many different things.** (пёстрое переплетение, богатая смесь)
+
+4. The neighborhood is a *tapestry* of languages and cuisines.
+5. Her novel weaves a *tapestry* of small-town lives.
+6. Immigration is part of the American *tapestry*.
 
 ---
 
@@ -690,29 +720,45 @@ An exact copy of an object, made openly rather than to deceive.
 ### restoration
 
 **Pronunciation:** /ˌrɛstəˈreɪʃən/ &middot; *res-tuh-RAY-shuhn*
-**Русский:** реставрация
+**Русский:** реставрация; восстановление (порядка, электроснабжения, прав)
 **Countability:** uncountable
 
-The work of repairing an old painting or building so it looks as it did.
+Restoration has 2 distinct senses.
+
+**1. The work of repairing an old painting or building so it looks as it did.** (реставрация)
 
 1. The *restoration* of the fresco took six years.
 2. The painting is off the wall for *restoration*.
 3. Careful *restoration* brought the colors back.
+
+**2. The bringing back of something that had stopped or been taken away.** (восстановление (порядка, электроснабжения, прав))
+
+4. Crews promised full *restoration* of power by midnight.
+5. The treaty led to the *restoration* of diplomatic ties.
+6. Voters approved the *restoration* of the library's funding.
 
 ---
 
 ### composition
 
 **Pronunciation:** /ˌkɑːmpəˈzɪʃən/ &middot; *kahm-puh-ZISH-uhn*
-**Русский:** композиция; произведение
+**Русский:** композиция; произведение; состав
 **Plural:** *compositions*
 **Countability:** both — countable and uncountable with different meanings
 
-The way the parts of a picture or piece of music are arranged, or a work itself.
+Composition has 2 distinct senses.
+
+**1. The way the parts of a picture or piece of music are arranged, or a work itself.** (композиция; произведение)
 
 1. The *composition* of the photograph is what makes it work.
 2. He studied *composition* before he studied color.
 3. She has written *compositions* for full orchestra.
+
+**2. The parts or ingredients that make something up.** (состав)
+
+4. The lab tested the chemical *composition* of the soil.
+5. The *composition* of the committee changed after the election.
+6. Scientists are studying the *composition* of distant planets.
 
 ---
 
@@ -771,15 +817,29 @@ The part of a picture that seems closest to the viewer.
 ### background
 
 **Pronunciation:** /ˈbækɡraʊnd/ &middot; *BAK-grownd*
-**Русский:** фон, задний план
+**Русский:** фон, задний план; происхождение, образование и опыт (человека); предыстория, контекст, справочная информация
 **Plural:** *backgrounds*
 **Countability:** countable
 
-The part of a picture that seems farthest from the viewer.
+Background has 3 distinct senses.
+
+**1. The part of a picture that seems farthest from the viewer.** (фон, задний план)
 
 1. The *background* of the portrait is just flat gold.
 2. She paints the *background* first and the figures last.
 3. The mountains in the *background* are barely visible.
+
+**2. A person's education, work experience, and family circumstances.** (происхождение, образование и опыт (человека))
+
+4. She has a *background* in software engineering.
+5. The company runs a *background* check on every new hire.
+6. The students come from very different *backgrounds*.
+
+**3. The facts and history a person needs in order to understand a present situation.** (предыстория, контекст, справочная информация)
+
+7. Let me give you some *background* on the case before we start.
+8. The article fills in the *background* to the strike.
+9. The reporter asked for *background* off the record.
 
 ---
 
@@ -826,15 +886,23 @@ A shade of a color.
 ### contrast
 
 **Pronunciation:** /ˈkɑːntræst/ &middot; *KAHN-trast*
-**Русский:** контраст
+**Русский:** контраст; различие, противоположность
 **Countability:** uncountable
 **Contrast:** The noun is stressed on the first syllable (KAHN-trast); the verb *to contrast* on the second (kuhn-TRAST).
 
-The difference between the light and dark parts of a picture.
+Contrast has 2 distinct senses.
+
+**1. The difference between the light and dark parts of a picture.** (контраст)
 
 1. The photo has way too much *contrast*.
 2. The painting gets its power from the *contrast* between light and shadow.
 3. Turn the *contrast* down a little.
+
+**2. A clear difference between two things seen side by side.** (различие, противоположность)
+
+4. The *contrast* between the two brothers could not be sharper.
+5. In *contrast* to last winter, this one has been mild.
+6. Her calm was a welcome *contrast* to the noise around her.
 
 ---
 
@@ -2131,15 +2199,23 @@ All the pieces a performer or group knows and can play.
 ### symphony
 
 **Pronunciation:** /ˈsɪmfəni/ &middot; *SIM-fuh-nee*
-**Русский:** симфония
+**Русский:** симфония; симфонический оркестр; концерт такого оркестра
 **Plural:** *symphonies*
 **Countability:** countable
 
-A long piece of music in several parts, written for a full orchestra.
+Symphony has 2 distinct senses.
+
+**1. A long piece of music in several parts, written for a full orchestra.** (симфония)
 
 1. The *symphony* has four movements.
 2. He wrote nine *symphonies* in thirty years.
 3. We heard his fifth *symphony* live last month.
+
+**2. A large orchestra, or a concert that it gives.** (симфонический оркестр; концерт такого оркестра)
+
+4. She plays second violin in the city *symphony*.
+5. We have tickets to the *symphony* on Friday.
+6. The *symphony* is looking for a new conductor.
 
 ---
 

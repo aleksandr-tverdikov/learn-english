@@ -390,15 +390,29 @@ A woman who promises at a baptism to help raise a child.
 ### godfather
 
 **Pronunciation:** /ˈɡɑːdfɑːðər/ &middot; *GAHD-fah-thur*
-**Русский:** крёстный отец
+**Русский:** крёстный отец; крёстный отец (глава мафиозного клана); основоположник, отец (направления, жанра)
 **Plural:** *godfathers*
 **Countability:** countable
 
-A man who promises at a baptism to help raise a child.
+Godfather has 3 distinct senses.
+
+**1. A man who promises at a baptism to help raise a child.** (крёстный отец)
 
 1. He asked his oldest friend to be the *godfather*.
 2. Her *godfather* sends a card every birthday.
 3. The *godfathers* stood on the left side of the altar.
+
+**2. The head of a Mafia family or other crime organization.** (крёстный отец (глава мафиозного клана))
+
+4. Prosecutors named him as the *godfather* of the city's crime family.
+5. Two *godfathers* met to divide up the territory.
+6. Agents spent years building a case against the *godfather*.
+
+**3. A man seen as the founder or leading early figure of a movement or style.** (основоположник, отец (направления, жанра))
+
+7. He's often called the *godfather* of hip-hop.
+8. Those two are the *godfathers* of modern stand-up.
+9. She thanked the *godfather* of the genre in her acceptance speech.
 
 ---
 
@@ -451,16 +465,24 @@ A young foreigner who lives with a family and helps with the children.
 ### caretaker
 
 **Pronunciation:** /ˈkɛrteɪkər/ &middot; *KAIR-tay-kur*
-**Русский:** тот, кто ухаживает (за ребёнком, больным)
+**Русский:** тот, кто ухаживает (за ребёнком, больным); смотритель, сторож (здания, участка)
 **Plural:** *caretakers*
 **Countability:** countable
 **Contrast:** In American English a *caretaker* looks after people; in British English it is the janitor of a building.
 
-Someone who looks after a person who cannot look after themselves.
+Caretaker has 2 distinct senses.
+
+**1. Someone who looks after a person who cannot look after themselves.** (тот, кто ухаживает (за ребёнком, больным))
 
 1. A child needs at least one steady *caretaker*.
 2. She became the main *caretaker* for both kids.
 3. The *caretakers* rotate on a weekly schedule.
+
+**2. A person paid to look after a building or piece of land.** (смотритель, сторож (здания, участка))
+
+4. The *caretaker* plows the driveway and keeps the pipes from freezing.
+5. We left a key with the *caretaker* of the cabin.
+6. Two *caretakers* mow the cemetery every week.
 
 ---
 

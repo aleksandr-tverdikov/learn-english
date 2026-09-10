@@ -54,28 +54,44 @@ Motion has 3 distinct senses.
 ### momentum
 
 **Pronunciation:** /moʊˈmɛntəm/ &middot; *moh-MEN-tuhm*
-**Русский:** импульс (количество движения)
+**Русский:** импульс (количество движения); набранный ход, динамика, инерция (процесса)
 **Countability:** uncountable
 
-The force a moving object has because of its mass and its speed.
+Momentum has 2 distinct senses.
+
+**1. The force a moving object has because of its mass and its speed.** (импульс (количество движения))
 
 1. A truck has far more *momentum* than a bicycle.
 2. The sled lost *momentum* on the flat ground.
 3. In a collision, the total *momentum* stays the same.
+
+**2. The growing strength that a process or campaign builds up as it goes on.** (набранный ход, динамика, инерция (процесса))
+
+4. The campaign gained *momentum* after the debate.
+5. We lost all our *momentum* when the funding dried up.
+6. The bill has real *momentum* in the Senate now.
 
 ---
 
 ### friction
 
 **Pronunciation:** /ˈfrɪkʃən/ &middot; *FRIK-shuhn*
-**Русский:** трение
+**Русский:** трение; трения, разногласия
 **Countability:** uncountable
 
-The force that slows down two surfaces rubbing against each other.
+Friction has 2 distinct senses.
+
+**1. The force that slows down two surfaces rubbing against each other.** (трение)
 
 1. *Friction* between the tires and the road slows the car.
 2. Oil reduces the *friction* inside the engine.
 3. Without *friction*, you couldn't walk across the floor.
+
+**2. Disagreement or tension between people.** (трения, разногласия)
+
+4. There has been *friction* between the two departments for years.
+5. The new schedule caused some *friction* at home.
+6. A little *friction* on a team is normal.
 
 ---
 
@@ -268,14 +284,28 @@ The process of getting larger in size.
 ### contraction
 
 **Pronunciation:** /kənˈtrækʃən/ &middot; *kuhn-TRAK-shuhn*
-**Русский:** сжатие, сокращение
+**Русский:** сжатие, сокращение; сокращённая форма слова (типа don't); схватка (при родах); сокращение мышцы
 **Countability:** uncountable
 
-The process of getting smaller in size.
+Contraction has 3 distinct senses.
+
+**1. The process of getting smaller in size.** (сжатие, сокращение)
 
 1. Cooling leads to the *contraction* of the metal.
 2. The rails leave room for *contraction* in winter.
 3. *Contraction* pulled the seams apart.
+
+**2. A shortened form of two words, written with an apostrophe.** (сокращённая форма слова (типа don't))
+
+4. "Don't" is a *contraction* of "do not."
+5. Avoid *contractions* in a formal cover letter.
+6. The teacher circled every *contraction* in the essay.
+
+**3. A tightening of a muscle, especially of the womb during childbirth.** (схватка (при родах); сокращение мышцы)
+
+7. Her *contractions* were five minutes apart by midnight.
+8. The nurse timed each *contraction* and wrote it down.
+9. A sudden *contraction* in his calf woke him up.
 
 ---
 
@@ -357,14 +387,22 @@ Magnet has 2 distinct senses.
 ### magnetism
 
 **Pronunciation:** /ˈmæɡnətɪzəm/ &middot; *MAG-nuh-tiz-uhm*
-**Русский:** магнетизм
+**Русский:** магнетизм; обаяние, притягательность
 **Countability:** uncountable
 
-The force by which magnets attract or push away other objects.
+Magnetism has 2 distinct senses.
+
+**1. The force by which magnets attract or push away other objects.** (магнетизм)
 
 1. *Magnetism* and electricity are closely related.
 2. Heating the metal destroyed its *magnetism*.
 3. The class covered *magnetism* last week.
+
+**2. A strong personal charm that draws people to someone.** (обаяние, притягательность)
+
+4. The candidate has a *magnetism* that no poll can measure.
+5. Even on a bad night, his stage *magnetism* filled the room.
+6. Her personal *magnetism* made strangers trust her right away.
 
 ---
 
@@ -386,15 +424,23 @@ A material that does not let electricity or heat pass through.
 ### filament
 
 **Pronunciation:** /ˈfɪləmənt/ &middot; *FIL-uh-muhnt*
-**Русский:** нить накала
+**Русский:** нить накала; нить, тонкое волокно
 **Plural:** *filaments*
 **Countability:** countable
 
-The thin wire inside a light bulb that glows when it heats up.
+Filament has 2 distinct senses.
+
+**1. The thin wire inside a light bulb that glows when it heats up.** (нить накала)
 
 1. The *filament* burned out after a year.
 2. You can see the *filament* through the clear glass.
 3. Old bulbs used tungsten *filaments*.
+
+**2. A very fine thread of material, such as the plastic thread fed into a 3D printer.** (нить, тонкое волокно)
+
+4. The printer ran out of *filament* halfway through the job.
+5. Under the microscope the mold showed long white *filaments*.
+6. A spider builds its web from *filaments* thinner than a hair.
 
 ---
 
@@ -723,15 +769,23 @@ A metal made by mixing two or more metals together.
 ### solution
 
 **Pronunciation:** /səˈluːʃən/ &middot; *suh-LOO-shuhn*
-**Русский:** раствор
+**Русский:** раствор; решение (проблемы, задачи)
 **Plural:** *solutions*
 **Countability:** countable, and uncountable as a substance
 
-A liquid with something dissolved in it.
+Solution has 2 distinct senses.
+
+**1. A liquid with something dissolved in it.** (раствор)
 
 1. Pour the salt *solution* into the beaker.
 2. Prepare two *solutions* of different strength.
 3. The *solution* turned blue when we added the powder.
+
+**2. A way of dealing with a problem, or the answer to a puzzle or question.** (решение (проблемы, задачи))
+
+4. Nobody at the meeting had a *solution* to the parking problem.
+5. The *solution* to the puzzle is printed on the last page.
+6. Cheaper housing is only part of the *solution*.
 
 ---
 
@@ -797,15 +851,23 @@ A material made of very long chains of repeating molecules.
 ### catalyst
 
 **Pronunciation:** /ˈkætəlɪst/ &middot; *KAT-uh-list*
-**Русский:** катализатор
+**Русский:** катализатор; толчок, побудительная причина
 **Plural:** *catalysts*
 **Countability:** countable
 
-A substance that speeds up a chemical reaction without being used up.
+Catalyst has 2 distinct senses.
+
+**1. A substance that speeds up a chemical reaction without being used up.** (катализатор)
 
 1. The reaction needs a *catalyst* to go quickly.
 2. Platinum acts as a *catalyst* in the exhaust system.
 3. Enzymes are biological *catalysts*.
+
+**2. A person or event that causes something important to start happening.** (толчок, побудительная причина)
+
+4. The video was the *catalyst* for months of protest.
+5. Her arrival was the *catalyst* the team needed.
+6. Cheap rent acted as a *catalyst* for the neighborhood's revival.
 
 ---
 
@@ -914,15 +976,29 @@ How well a material carries electricity or heat.
 ### reaction
 
 **Pronunciation:** /riˈækʃən/ &middot; *ree-AK-shuhn*
-**Русский:** реакция
+**Русский:** реакция; реакция, отклик (на события); аллергическая реакция (на лекарство, еду)
 **Plural:** *reactions*
 **Countability:** countable
 
-A process in which substances change into different substances.
+Reaction has 3 distinct senses.
+
+**1. A process in which substances change into different substances.** (реакция)
 
 1. The *reaction* gives off a lot of heat.
 2. Some *reactions* will not start without a catalyst.
 3. Mixing the two powders starts the *reaction*.
+
+**2. What a person feels, says, or does in answer to something that happens.** (реакция, отклик (на события))
+
+4. His first *reaction* was to laugh.
+5. The mayor's *reaction* to the report was cautious.
+6. We filmed people's *reactions* to the surprise.
+
+**3. A harmful physical response of the body to a food, drug, or other substance.** (аллергическая реакция (на лекарство, еду))
+
+7. She had a *reaction* to the antibiotic and broke out in hives.
+8. Peanuts can cause a severe *reaction* in some kids.
+9. Serious *reactions* to the shot are rare.
 
 ---
 
@@ -1461,15 +1537,23 @@ A part that slides up and down inside a cylinder to create movement.
 ### observation
 
 **Pronunciation:** /ˌɑːbzərˈveɪʃən/ &middot; *ahb-zur-VAY-shuhn*
-**Русский:** наблюдение
+**Русский:** наблюдение; замечание, реплика
 **Plural:** *observations*
 **Countability:** countable
 
-Something you notice and write down while watching carefully.
+Observation has 2 distinct senses.
+
+**1. Something you notice and write down while watching carefully.** (наблюдение)
 
 1. Write your *observations* in the notebook.
 2. One *observation* did not fit the pattern.
 3. The theory rests on years of careful *observations*.
+
+**2. A remark or comment about something you have noticed.** (замечание, реплика)
+
+4. That's a fair *observation*, and I don't have a good answer to it.
+5. She made a few sharp *observations* about the new manager.
+6. He offered the *observation* that nobody had actually read the contract.
 
 ---
 
@@ -1552,16 +1636,24 @@ Principle has 2 distinct senses.
 ### equation
 
 **Pronunciation:** /ɪˈkweɪʒən/ &middot; *ih-KWAY-zhuhn*
-**Русский:** уравнение
+**Русский:** уравнение; совокупность факторов, расклад
 **Plural:** *equations*
 **Countability:** countable
 **Contrast:** The ending is -ZHUHN, not -SHUHN.
 
-A mathematical statement that two amounts are equal.
+Equation has 2 distinct senses.
+
+**1. A mathematical statement that two amounts are equal.** (уравнение)
 
 1. Solve the *equation* for the unknown value.
 2. The *equation* balances on both sides.
 3. These *equations* describe how the wave moves.
+
+**2. The set of factors that have to be weighed in a situation.** (совокупность факторов, расклад)
+
+4. Salary is only one part of the *equation*.
+5. Once kids enter the *equation*, everything changes.
+6. Take emotion out of the *equation* and just look at the numbers.
 
 ---
 

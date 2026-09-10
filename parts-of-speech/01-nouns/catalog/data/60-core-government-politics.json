@@ -51,14 +51,43 @@
       "term": "representative",
       "ipa": "/ˌrɛprəˈzɛntətɪv/",
       "respell": "rep-ruh-ZEN-tuh-tiv",
-      "meaning": "A person elected to speak and vote for a group of citizens. ---",
+      "meaning": "Representative has 2 distinct senses.",
       "examples": [
         "Call your representative and tell her how you feel about it.",
         "He is the representative for our district.",
-        "Two hundred representatives signed the letter."
+        "Two hundred representatives signed the letter.",
+        "A customer service representative will be with you shortly.",
+        "She works as a pharmaceutical sales representative.",
+        "Union representatives met with management on Friday."
       ],
-      "senses": [],
-      "русский": "представитель; депутат (член Палаты представителей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person elected to speak and vote for a group of citizens",
+          "body": [
+            "(представитель; депутат (член Палаты представителей))"
+          ],
+          "examples": [
+            "Call your representative and tell her how you feel about it.",
+            "He is the representative for our district.",
+            "Two hundred representatives signed the letter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who acts, speaks, or sells on behalf of a company or group",
+          "body": [
+            "(представитель (компании), торговый агент)",
+            "---"
+          ],
+          "examples": [
+            "A customer service representative will be with you shortly.",
+            "She works as a pharmaceutical sales representative.",
+            "Union representatives met with management on Friday."
+          ]
+        }
+      ],
+      "русский": "представитель; депутат (член Палаты представителей); представитель (компании), торговый агент",
       "plural": "representatives",
       "countability": "countable"
     },
@@ -171,14 +200,58 @@
       "term": "administration",
       "ipa": "/ədˌmɪnəˈstreɪʃən/",
       "respell": "ud-min-uh-STRAY-shuhn",
-      "meaning": "The people who run a government during one leader's time in office. ---",
+      "meaning": "Administration has 3 distinct senses.",
       "examples": [
         "The current administration has cut taxes twice.",
         "That rule was written under the previous administration.",
-        "Both administrations handled the border the same way."
+        "Both administrations handled the border the same way.",
+        "She works in hospital administration.",
+        "The school administration canceled the field trip.",
+        "Too much of his day goes to administration and not enough to teaching.",
+        "The administration of the vaccine takes about a minute.",
+        "Nurses record the time of each administration.",
+        "Administration of the exam was delayed by the storm."
       ],
-      "senses": [],
-      "русский": "администрация (президента), правительство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The people who run a government during one leader's time in office",
+          "body": [
+            "(администрация (президента), правительство)"
+          ],
+          "examples": [
+            "The current administration has cut taxes twice.",
+            "That rule was written under the previous administration.",
+            "Both administrations handled the border the same way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of managing an organization, or the people who do that work",
+          "body": [
+            "(управление, руководство; администрация (учреждения))"
+          ],
+          "examples": [
+            "She works in hospital administration.",
+            "The school administration canceled the field trip.",
+            "Too much of his day goes to administration and not enough to teaching."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The giving of a drug, a treatment, or a test",
+          "body": [
+            "(введение (лекарства), проведение (процедуры, теста))",
+            "---"
+          ],
+          "examples": [
+            "The administration of the vaccine takes about a minute.",
+            "Nurses record the time of each administration.",
+            "Administration of the exam was delayed by the storm."
+          ]
+        }
+      ],
+      "русский": "администрация (президента), правительство; управление, руководство; администрация (учреждения); введение (лекарства), проведение (процедуры, теста)",
       "plural": "administrations",
       "countability": "countable"
     },
@@ -186,14 +259,43 @@
       "term": "authority",
       "ipa": "/əˈθɔːrəti/",
       "respell": "uh-THOR-uh-tee",
-      "meaning": "The legal right to give orders, or a public body that has that right. ---",
+      "meaning": "Authority has 2 distinct senses.",
       "examples": [
         "The mayor has no authority over the school district.",
         "The port authority owns all three bridges.",
-        "Local authorities closed the road for two days."
+        "Local authorities closed the road for two days.",
+        "She's a leading authority on colonial history.",
+        "He is considered an authority on tax law.",
+        "Two authorities on the subject disagree completely."
       ],
-      "senses": [],
-      "русский": "власть, полномочия; орган власти",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal right to give orders, or a public body that has that right",
+          "body": [
+            "(власть, полномочия; орган власти)"
+          ],
+          "examples": [
+            "The mayor has no authority over the school district.",
+            "The port authority owns all three bridges.",
+            "Local authorities closed the road for two days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose knowledge of a subject is widely respected",
+          "body": [
+            "(авторитет, знаток, эксперт)",
+            "---"
+          ],
+          "examples": [
+            "She's a leading authority on colonial history.",
+            "He is considered an authority on tax law.",
+            "Two authorities on the subject disagree completely."
+          ]
+        }
+      ],
+      "русский": "власть, полномочия; орган власти; авторитет, знаток, эксперт",
       "plural": "authorities",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Uncountable when it means power; countable when it means an official body."
@@ -202,14 +304,43 @@
       "term": "ministry",
       "ipa": "/ˈmɪnəstri/",
       "respell": "MIN-uh-stree",
-      "meaning": "A government department in charge of one area, such as defense or health. ---",
+      "meaning": "Ministry has 2 distinct senses.",
       "examples": [
         "The foreign ministry issued a statement.",
         "She spent ten years at the ministry of education.",
-        "Two ministries were merged to save money."
+        "Two ministries were merged to save money.",
+        "He left law school and entered the ministry.",
+        "Their church runs a prison ministry downtown.",
+        "After thirty years in the ministry, she retired last spring."
       ],
-      "senses": [],
-      "русский": "министерство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A government department in charge of one area, such as defense or health",
+          "body": [
+            "(министерство)"
+          ],
+          "examples": [
+            "The foreign ministry issued a statement.",
+            "She spent ten years at the ministry of education.",
+            "Two ministries were merged to save money."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of a religious minister, or a church program that carries it out",
+          "body": [
+            "(служение, духовный сан; церковная служба помощи)",
+            "---"
+          ],
+          "examples": [
+            "He left law school and entered the ministry.",
+            "Their church runs a prison ministry downtown.",
+            "After thirty years in the ministry, she retired last spring."
+          ]
+        }
+      ],
+      "русский": "министерство; служение, духовный сан; церковная служба помощи",
       "plural": "ministries",
       "countability": "countable",
       "contrast": "The US has no ministries; the same bodies are called departments."
@@ -324,14 +455,43 @@
       "term": "district",
       "ipa": "/ˈdɪstrɪkt/",
       "respell": "DIS-trikt",
-      "meaning": "An area marked out for voting, schools, or local administration. ---",
+      "meaning": "District has 2 distinct senses.",
       "examples": [
         "She represents the third district.",
         "The school district is closing two buildings.",
-        "The map redrew half the districts in the state."
+        "The map redrew half the districts in the state.",
+        "We had dinner in the theater district.",
+        "Old warehouses in the arts district have been turned into lofts.",
+        "The financial district empties out on weekends."
       ],
-      "senses": [],
-      "русский": "округ, район",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An area marked out for voting, schools, or local administration",
+          "body": [
+            "(округ, район)"
+          ],
+          "examples": [
+            "She represents the third district.",
+            "The school district is closing two buildings.",
+            "The map redrew half the districts in the state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A part of a city known for a particular business or character",
+          "body": [
+            "(квартал, район (города))",
+            "---"
+          ],
+          "examples": [
+            "We had dinner in the theater district.",
+            "Old warehouses in the arts district have been turned into lofts.",
+            "The financial district empties out on weekends."
+          ]
+        }
+      ],
+      "русский": "округ, район; квартал, район (города)",
       "plural": "districts",
       "countability": "countable"
     },
@@ -656,14 +816,58 @@
       "term": "governor",
       "ipa": "/ˈɡʌvərnər/",
       "respell": "GUV-ur-nur",
-      "meaning": "The elected head of a US state government. ---",
+      "meaning": "Governor has 3 distinct senses.",
       "examples": [
         "The governor declared a state of emergency.",
         "He was governor for two terms.",
-        "Ten governors signed the joint letter."
+        "Ten governors signed the joint letter.",
+        "The delivery vans have a governor set at 65.",
+        "Somebody had taken the governor off the go-kart.",
+        "A broken governor let the engine race until it seized.",
+        "The Fed governor voted against the rate cut.",
+        "The board of governors meets again in March.",
+        "Two governors dissented from the decision."
       ],
-      "senses": [],
-      "русский": "губернатор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The elected head of a US state government",
+          "body": [
+            "(губернатор)"
+          ],
+          "examples": [
+            "The governor declared a state of emergency.",
+            "He was governor for two terms.",
+            "Ten governors signed the joint letter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that keeps an engine from running faster than a set speed",
+          "body": [
+            "(регулятор оборотов, ограничитель скорости)"
+          ],
+          "examples": [
+            "The delivery vans have a governor set at 65.",
+            "Somebody had taken the governor off the go-kart.",
+            "A broken governor let the engine race until it seized."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A member of a board that runs an institution such as a central bank",
+          "body": [
+            "(член совета управляющих)",
+            "---"
+          ],
+          "examples": [
+            "The Fed governor voted against the rate cut.",
+            "The board of governors meets again in March.",
+            "Two governors dissented from the decision."
+          ]
+        }
+      ],
+      "русский": "губернатор; регулятор оборотов, ограничитель скорости; член совета управляющих",
       "plural": "governors",
       "countability": "countable",
       "contrast": "The first o sounds like uh: GUV-ur-nur, not GOV-."
@@ -718,14 +922,43 @@
       "term": "ambassador",
       "ipa": "/æmˈbæsədər/",
       "respell": "am-BASS-uh-dur",
-      "meaning": "The top official who represents one country in another. ---",
+      "meaning": "Ambassador has 2 distinct senses.",
       "examples": [
         "The ambassador was called home for consultations.",
         "He served as ambassador to Japan.",
-        "Both ambassadors skipped the ceremony."
+        "Both ambassadors skipped the ceremony.",
+        "She signed on as a brand ambassador for the shoe company.",
+        "He has been a great ambassador for the sport.",
+        "The charity named three new ambassadors this year."
       ],
-      "senses": [],
-      "русский": "посол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The top official who represents one country in another",
+          "body": [
+            "(посол)"
+          ],
+          "examples": [
+            "The ambassador was called home for consultations.",
+            "He served as ambassador to Japan.",
+            "Both ambassadors skipped the ceremony."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A well-known person chosen to represent and promote a product, a sport, or a cause",
+          "body": [
+            "(представитель, лицо бренда; посол (доброй воли))",
+            "---"
+          ],
+          "examples": [
+            "She signed on as a brand ambassador for the shoe company.",
+            "He has been a great ambassador for the sport.",
+            "The charity named three new ambassadors this year."
+          ]
+        }
+      ],
+      "русский": "посол; представитель, лицо бренда; посол (доброй воли)",
       "plural": "ambassadors",
       "countability": "countable"
     },
@@ -733,14 +966,43 @@
       "term": "official",
       "ipa": "/əˈfɪʃəl/",
       "respell": "uh-FISH-uhl",
-      "meaning": "A person who holds a position of authority in a government or organization. ---",
+      "meaning": "Official has 2 distinct senses.",
       "examples": [
         "A city official confirmed the closure.",
         "The official refused to give her name.",
-        "Health officials are urging people to stay home."
+        "Health officials are urging people to stay home.",
+        "The officials huddled for several minutes before making the call.",
+        "An official threw a flag on the play.",
+        "Fans booed the officials as they left the field."
       ],
-      "senses": [],
-      "русский": "чиновник, должностное лицо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who holds a position of authority in a government or organization",
+          "body": [
+            "(чиновник, должностное лицо)"
+          ],
+          "examples": [
+            "A city official confirmed the closure.",
+            "The official refused to give her name.",
+            "Health officials are urging people to stay home."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A referee, umpire, or other person who enforces the rules at a sporting event",
+          "body": [
+            "(судья, арбитр (в спорте))",
+            "---"
+          ],
+          "examples": [
+            "The officials huddled for several minutes before making the call.",
+            "An official threw a flag on the play.",
+            "Fans booed the officials as they left the field."
+          ]
+        }
+      ],
+      "русский": "чиновник, должностное лицо; судья, арбитр (в спорте)",
       "plural": "officials",
       "countability": "countable"
     },
@@ -1323,14 +1585,58 @@
       "term": "endorsement",
       "ipa": "/ɪnˈdɔːrsmənt/",
       "respell": "in-DORSS-muhnt",
-      "meaning": "A public statement of support for a candidate or proposal. ---",
+      "meaning": "Endorsement has 3 distinct senses.",
       "examples": [
         "The union's endorsement was worth a lot in that district.",
         "He picked up the endorsement of the local paper.",
-        "She has more endorsements than anyone in the race."
+        "She has more endorsements than anyone in the race.",
+        "The bank sent the check back because the endorsement was missing.",
+        "Write \"For deposit only\" above your endorsement.",
+        "Both names have to appear in the endorsement on a joint check.",
+        "You'll need a motorcycle endorsement on your driver's license.",
+        "We added a flood endorsement to the homeowner's policy.",
+        "The trucking company pays for the hazmat endorsement."
       ],
-      "senses": [],
-      "русский": "публичная поддержка (кандидата)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A public statement of support for a candidate or proposal",
+          "body": [
+            "(публичная поддержка (кандидата))"
+          ],
+          "examples": [
+            "The union's endorsement was worth a lot in that district.",
+            "He picked up the endorsement of the local paper.",
+            "She has more endorsements than anyone in the race."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A signature written on the back of a check so it can be cashed or deposited",
+          "body": [
+            "(передаточная надпись, индоссамент (на чеке))"
+          ],
+          "examples": [
+            "The bank sent the check back because the endorsement was missing.",
+            "Write \"For deposit only\" above your endorsement.",
+            "Both names have to appear in the endorsement on a joint check."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An official addition to a license, permit, or insurance policy",
+          "body": [
+            "(дополнение (к полису, лицензии), допуск)",
+            "---"
+          ],
+          "examples": [
+            "You'll need a motorcycle endorsement on your driver's license.",
+            "We added a flood endorsement to the homeowner's policy.",
+            "The trucking company pays for the hazmat endorsement."
+          ]
+        }
+      ],
+      "русский": "публичная поддержка (кандидата); передаточная надпись, индоссамент (на чеке); дополнение (к полису, лицензии), допуск",
       "plural": "endorsements",
       "countability": "countable"
     },
@@ -1412,14 +1718,43 @@
       "term": "convention",
       "ipa": "/kənˈvɛnʃən/",
       "respell": "kuhn-VEN-shuhn",
-      "meaning": "A large official meeting of a party or organization. ---",
+      "meaning": "Convention has 2 distinct senses.",
       "examples": [
         "The party convention runs for four days.",
         "She accepted the nomination at the convention.",
-        "Both conventions are held in the summer."
+        "Both conventions are held in the summer.",
+        "By convention, the bride's family sits on the left.",
+        "The novel breaks every convention of the detective story.",
+        "Social conventions about tipping vary from country to country."
       ],
-      "senses": [],
-      "русский": "съезд (партии)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large official meeting of a party or organization",
+          "body": [
+            "(съезд (партии))"
+          ],
+          "examples": [
+            "The party convention runs for four days.",
+            "She accepted the nomination at the convention.",
+            "Both conventions are held in the summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An accepted way of doing something that most people follow",
+          "body": [
+            "(обычай, условность, принятая норма)",
+            "---"
+          ],
+          "examples": [
+            "By convention, the bride's family sits on the left.",
+            "The novel breaks every convention of the detective story.",
+            "Social conventions about tipping vary from country to country."
+          ]
+        }
+      ],
+      "русский": "съезд (партии); обычай, условность, принятая норма",
       "plural": "conventions",
       "countability": "countable"
     },
@@ -1664,14 +1999,43 @@
       "term": "registration",
       "ipa": "/ˌrɛdʒəˈstreɪʃən/",
       "respell": "rej-uh-STRAY-shuhn",
-      "meaning": "The act of putting your name on an official list. ---",
+      "meaning": "Registration has 2 distinct senses.",
       "examples": [
         "Voter registration closes two weeks before the election.",
         "Registration is free and takes five minutes online.",
-        "They ran a registration drive at the college."
+        "They ran a registration drive at the college.",
+        "The officer asked for my license and registration.",
+        "My registration expires at the end of the month.",
+        "Keep the registration in the glove compartment."
       ],
-      "senses": [],
-      "русский": "регистрация (например, избирателей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of putting your name on an official list",
+          "body": [
+            "(регистрация (например, избирателей))"
+          ],
+          "examples": [
+            "Voter registration closes two weeks before the election.",
+            "Registration is free and takes five minutes online.",
+            "They ran a registration drive at the college."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The official document showing that a vehicle is legally recorded with the state",
+          "body": [
+            "(свидетельство о регистрации автомобиля)",
+            "---"
+          ],
+          "examples": [
+            "The officer asked for my license and registration.",
+            "My registration expires at the end of the month.",
+            "Keep the registration in the glove compartment."
+          ]
+        }
+      ],
+      "русский": "регистрация (например, избирателей); свидетельство о регистрации автомобиля",
       "countability": "uncountable"
     },
     {
@@ -1708,14 +2072,43 @@
       "term": "shutdown",
       "ipa": "/ˈʃʌtdaʊn/",
       "respell": "SHUT-down",
-      "meaning": "A period when a government stops most work because no budget has been approved. ---",
+      "meaning": "Shutdown has 2 distinct senses.",
       "examples": [
         "The shutdown lasted thirty-five days.",
         "Museums close during a government shutdown.",
-        "Two shutdowns happened in the same year."
+        "Two shutdowns happened in the same year.",
+        "The refinery is in a two-week shutdown for maintenance.",
+        "A safety sensor triggered an emergency shutdown of the reactor.",
+        "The plant shutdown put three hundred people out of work."
       ],
-      "senses": [],
-      "русский": "приостановка работы (правительства)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period when a government stops most work because no budget has been approved",
+          "body": [
+            "(приостановка работы (правительства))"
+          ],
+          "examples": [
+            "The shutdown lasted thirty-five days.",
+            "Museums close during a government shutdown.",
+            "Two shutdowns happened in the same year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The stopping of a machine, plant, or system, either for repairs or for good",
+          "body": [
+            "(остановка (завода, оборудования), отключение)",
+            "---"
+          ],
+          "examples": [
+            "The refinery is in a two-week shutdown for maintenance.",
+            "A safety sensor triggered an emergency shutdown of the reactor.",
+            "The plant shutdown put three hundred people out of work."
+          ]
+        }
+      ],
+      "русский": "приостановка работы (правительства); остановка (завода, оборудования), отключение",
       "plural": "shutdowns",
       "countability": "countable"
     },
@@ -1723,14 +2116,43 @@
       "term": "diplomacy",
       "ipa": "/dɪˈploʊməsi/",
       "respell": "dih-PLOH-muh-see",
-      "meaning": "The work of managing relations between countries through talks rather than force. ---",
+      "meaning": "Diplomacy has 2 distinct senses.",
       "examples": [
         "They are giving diplomacy one more chance.",
         "Quiet diplomacy ended the standoff.",
-        "It took years of diplomacy to get the deal."
+        "It took years of diplomacy to get the deal.",
+        "It took some diplomacy to get the two of them in the same room.",
+        "She handled the complaint with real diplomacy.",
+        "A little diplomacy would have prevented the whole argument."
       ],
-      "senses": [],
-      "русский": "дипломатия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of managing relations between countries through talks rather than force",
+          "body": [
+            "(дипломатия)"
+          ],
+          "examples": [
+            "They are giving diplomacy one more chance.",
+            "Quiet diplomacy ended the standoff.",
+            "It took years of diplomacy to get the deal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Skill and tact in dealing with people without upsetting them",
+          "body": [
+            "(дипломатичность, такт)",
+            "---"
+          ],
+          "examples": [
+            "It took some diplomacy to get the two of them in the same room.",
+            "She handled the complaint with real diplomacy.",
+            "A little diplomacy would have prevented the whole argument."
+          ]
+        }
+      ],
+      "русский": "дипломатия; дипломатичность, такт",
       "countability": "uncountable",
       "contrast": "Stress shifts: DIP-luh-mat, but dih-PLOH-muh-see."
     },
@@ -1812,14 +2234,43 @@
       "term": "delegation",
       "ipa": "/ˌdɛləˈɡeɪʃən/",
       "respell": "del-uh-GAY-shuhn",
-      "meaning": "A group of people sent to represent a country or organization. ---",
+      "meaning": "Delegation has 2 distinct senses.",
       "examples": [
         "A delegation from the state met with the president.",
         "The American delegation walked out.",
-        "Both delegations stayed at the same hotel."
+        "Both delegations stayed at the same hotel.",
+        "Good managers get better at delegation over time.",
+        "The delegation of authority to local offices sped everything up.",
+        "He does everything himself because delegation makes him nervous."
       ],
-      "senses": [],
-      "русский": "делегация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of people sent to represent a country or organization",
+          "body": [
+            "(делегация)"
+          ],
+          "examples": [
+            "A delegation from the state met with the president.",
+            "The American delegation walked out.",
+            "Both delegations stayed at the same hotel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of giving part of your work or authority to someone else",
+          "body": [
+            "(делегирование (полномочий))",
+            "---"
+          ],
+          "examples": [
+            "Good managers get better at delegation over time.",
+            "The delegation of authority to local offices sped everything up.",
+            "He does everything himself because delegation makes him nervous."
+          ]
+        }
+      ],
+      "русский": "делегация; делегирование (полномочий)",
       "plural": "delegations",
       "countability": "countable"
     },
@@ -1842,14 +2293,58 @@
       "term": "territory",
       "ipa": "/ˈtɛrətɔːri/",
       "respell": "TAIR-uh-tor-ee",
-      "meaning": "Land under the control of a government. ---",
+      "meaning": "Territory has 3 distinct senses.",
       "examples": [
         "Troops crossed into enemy territory.",
         "Puerto Rico is a US territory, not a state.",
-        "Several overseas territories still vote in their elections."
+        "Several overseas territories still vote in their elections.",
+        "The male robin defends his territory all spring.",
+        "Wolves mark the edges of their territory.",
+        "Two bucks fought over the same territory.",
+        "She covers the whole western territory.",
+        "The new rep was given a smaller territory.",
+        "He drives eight hundred miles a week across his territory."
       ],
-      "senses": [],
-      "русский": "территория",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Land under the control of a government",
+          "body": [
+            "(территория)"
+          ],
+          "examples": [
+            "Troops crossed into enemy territory.",
+            "Puerto Rico is a US territory, not a state.",
+            "Several overseas territories still vote in their elections."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The area that an animal treats as its own and defends against others",
+          "body": [
+            "(территория, участок (у животных))"
+          ],
+          "examples": [
+            "The male robin defends his territory all spring.",
+            "Wolves mark the edges of their territory.",
+            "Two bucks fought over the same territory."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The area a salesperson or a business is assigned to cover",
+          "body": [
+            "(участок, закреплённый регион (у торгового представителя))",
+            "---"
+          ],
+          "examples": [
+            "She covers the whole western territory.",
+            "The new rep was given a smaller territory.",
+            "He drives eight hundred miles a week across his territory."
+          ]
+        }
+      ],
+      "русский": "территория; территория, участок (у животных); участок, закреплённый регион (у торгового представителя)",
       "plural": "territories",
       "countability": "countable"
     },
@@ -2109,14 +2604,43 @@
       "term": "demonstration",
       "ipa": "/ˌdɛmənˈstreɪʃən/",
       "respell": "dem-uhn-STRAY-shuhn",
-      "meaning": "A public gathering held to show support for or opposition to something. ---",
+      "meaning": "Demonstration has 2 distinct senses.",
       "examples": [
         "The demonstration drew ten thousand people.",
         "Police estimated the demonstration at half that.",
-        "Demonstrations went on for three nights."
+        "Demonstrations went on for three nights.",
+        "The salesman gave us a quick demonstration of the mixer.",
+        "There's a free cooking demonstration at the store on Saturday.",
+        "After a short demonstration, the students tried it themselves."
       ],
-      "senses": [],
-      "русский": "демонстрация, манифестация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A public gathering held to show support for or opposition to something",
+          "body": [
+            "(демонстрация, манифестация)"
+          ],
+          "examples": [
+            "The demonstration drew ten thousand people.",
+            "Police estimated the demonstration at half that.",
+            "Demonstrations went on for three nights."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A practical showing of how something works or how something is done",
+          "body": [
+            "(показ, наглядная демонстрация)",
+            "---"
+          ],
+          "examples": [
+            "The salesman gave us a quick demonstration of the mixer.",
+            "There's a free cooking demonstration at the store on Saturday.",
+            "After a short demonstration, the students tried it themselves."
+          ]
+        }
+      ],
+      "русский": "демонстрация, манифестация; показ, наглядная демонстрация",
       "plural": "demonstrations",
       "countability": "countable"
     },
@@ -2124,14 +2648,58 @@
       "term": "revolution",
       "ipa": "/ˌrɛvəˈluːʃən/",
       "respell": "rev-uh-LOO-shuhn",
-      "meaning": "The overthrow of a government by the people, usually by force. ---",
+      "meaning": "Revolution has 3 distinct senses.",
       "examples": [
         "The revolution began with a strike at the shipyard.",
         "He wrote a book about the French revolution.",
-        "Two revolutions in one century wore the country out."
+        "Two revolutions in one century wore the country out.",
+        "The engine runs at three thousand revolutions per minute.",
+        "Each revolution of the crank pulls the bucket up a foot.",
+        "The Earth makes one revolution around the sun each year.",
+        "The digital revolution changed how we shop and read.",
+        "Antibiotics brought about a revolution in medicine.",
+        "She calls the new battery a revolution in clean energy."
       ],
-      "senses": [],
-      "русский": "революция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The overthrow of a government by the people, usually by force",
+          "body": [
+            "(революция)"
+          ],
+          "examples": [
+            "The revolution began with a strike at the shipyard.",
+            "He wrote a book about the French revolution.",
+            "Two revolutions in one century wore the country out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One complete turn of something around a center point",
+          "body": [
+            "(оборот, вращение)"
+          ],
+          "examples": [
+            "The engine runs at three thousand revolutions per minute.",
+            "Each revolution of the crank pulls the bucket up a foot.",
+            "The Earth makes one revolution around the sun each year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A complete and far-reaching change in the way people live or do things",
+          "body": [
+            "(переворот, коренные перемены)",
+            "---"
+          ],
+          "examples": [
+            "The digital revolution changed how we shop and read.",
+            "Antibiotics brought about a revolution in medicine.",
+            "She calls the new battery a revolution in clean energy."
+          ]
+        }
+      ],
+      "русский": "революция; оборот, вращение; переворот, коренные перемены",
       "plural": "revolutions",
       "countability": "countable"
     },
@@ -2199,14 +2767,58 @@
       "term": "movement",
       "ipa": "/ˈmuːvmənt/",
       "respell": "MOOV-muhnt",
-      "meaning": "A group of people working together for a shared political or social goal. ---",
+      "meaning": "Movement has 3 distinct senses.",
       "examples": [
         "The labor movement built this city.",
         "She joined the movement in her twenties.",
-        "Both movements grew out of the same protests."
+        "Both movements grew out of the same protests.",
+        "I caught a movement out of the corner of my eye.",
+        "The brace limits movement in her wrist.",
+        "Guards watched every movement on the security cameras.",
+        "The second movement is slow and very quiet.",
+        "The symphony has four movements.",
+        "He fell asleep during the last movement."
       ],
-      "senses": [],
-      "русский": "общественное движение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of people working together for a shared political or social goal",
+          "body": [
+            "(общественное движение)"
+          ],
+          "examples": [
+            "The labor movement built this city.",
+            "She joined the movement in her twenties.",
+            "Both movements grew out of the same protests."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of moving, or a change of position",
+          "body": [
+            "(движение, перемещение)"
+          ],
+          "examples": [
+            "I caught a movement out of the corner of my eye.",
+            "The brace limits movement in her wrist.",
+            "Guards watched every movement on the security cameras."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the main sections of a symphony or another long piece of music",
+          "body": [
+            "(часть (симфонии, сонаты))",
+            "---"
+          ],
+          "examples": [
+            "The second movement is slow and very quiet.",
+            "The symphony has four movements.",
+            "He fell asleep during the last movement."
+          ]
+        }
+      ],
+      "русский": "общественное движение; движение, перемещение; часть (симфонии, сонаты)",
       "plural": "movements",
       "countability": "countable"
     },
@@ -2214,14 +2826,43 @@
       "term": "petition",
       "ipa": "/pəˈtɪʃən/",
       "respell": "puh-TISH-uhn",
-      "meaning": "A signed request asking officials to do something. ---",
+      "meaning": "Petition has 2 distinct senses.",
       "examples": [
         "The petition got forty thousand signatures.",
         "Sign the petition if you agree.",
-        "Two petitions were filed with the county clerk."
+        "Two petitions were filed with the county clerk.",
+        "His lawyer filed a petition for custody of the children.",
+        "The judge dismissed the petition without a hearing.",
+        "The company filed a bankruptcy petition in federal court."
       ],
-      "senses": [],
-      "русский": "петиция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A signed request asking officials to do something",
+          "body": [
+            "(петиция)"
+          ],
+          "examples": [
+            "The petition got forty thousand signatures.",
+            "Sign the petition if you agree.",
+            "Two petitions were filed with the county clerk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal written request asking a court to take some action",
+          "body": [
+            "(заявление, ходатайство (в суд))",
+            "---"
+          ],
+          "examples": [
+            "His lawyer filed a petition for custody of the children.",
+            "The judge dismissed the petition without a hearing.",
+            "The company filed a bankruptcy petition in federal court."
+          ]
+        }
+      ],
+      "русский": "петиция; заявление, ходатайство (в суд)",
       "plural": "petitions",
       "countability": "countable"
     },
@@ -2229,14 +2870,43 @@
       "term": "opposition",
       "ipa": "/ˌɑːpəˈzɪʃən/",
       "respell": "ah-puh-ZISH-uhn",
-      "meaning": "The political parties or groups that are against the government in power. ---",
+      "meaning": "Opposition has 2 distinct senses.",
       "examples": [
         "The opposition walked out of the vote.",
         "There is strong opposition to the plan in rural areas.",
-        "Leaders of the opposition were arrested."
+        "Leaders of the opposition were arrested.",
+        "The proposal met fierce opposition from neighbors.",
+        "There's growing opposition to the new tax.",
+        "The bill passed despite opposition from both parties."
       ],
-      "senses": [],
-      "русский": "оппозиция; противодействие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The political parties or groups that are against the government in power",
+          "body": [
+            "(оппозиция; противодействие)"
+          ],
+          "examples": [
+            "The opposition walked out of the vote.",
+            "There is strong opposition to the plan in rural areas.",
+            "Leaders of the opposition were arrested."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Strong disagreement with a plan or idea, and the effort to stop it",
+          "body": [
+            "(сопротивление, противодействие)",
+            "---"
+          ],
+          "examples": [
+            "The proposal met fierce opposition from neighbors.",
+            "There's growing opposition to the new tax.",
+            "The bill passed despite opposition from both parties."
+          ]
+        }
+      ],
+      "русский": "оппозиция; противодействие; сопротивление, противодействие",
       "countability": "uncountable"
     },
     {
@@ -2376,14 +3046,43 @@
       "term": "independence",
       "ipa": "/ˌɪndəˈpɛndəns/",
       "respell": "in-duh-PEN-duhns",
-      "meaning": "Freedom from control by another country or authority. ---",
+      "meaning": "Independence has 2 distinct senses.",
       "examples": [
         "The country won its independence in 1960.",
         "The agency guards its independence from the White House.",
-        "The colonies declared independence in 1776."
+        "The colonies declared independence in 1776.",
+        "After the stroke, he fought to keep his independence.",
+        "A used car gave her a new sense of independence.",
+        "The program helps young adults build financial independence."
       ],
-      "senses": [],
-      "русский": "независимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Freedom from control by another country or authority",
+          "body": [
+            "(независимость)"
+          ],
+          "examples": [
+            "The country won its independence in 1960.",
+            "The agency guards its independence from the White House.",
+            "The colonies declared independence in 1776."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to support yourself and make your own decisions without help from others",
+          "body": [
+            "(самостоятельность)",
+            "---"
+          ],
+          "examples": [
+            "After the stroke, he fought to keep his independence.",
+            "A used car gave her a new sense of independence.",
+            "The program helps young adults build financial independence."
+          ]
+        }
+      ],
+      "русский": "независимость; самостоятельность",
       "countability": "uncountable"
     },
     {

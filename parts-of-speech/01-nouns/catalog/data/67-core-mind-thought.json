@@ -341,14 +341,43 @@
       "term": "conclusion",
       "ipa": "/kənˈkluːʒən/",
       "respell": "kuhn-KLOO-zhuhn",
-      "meaning": "A decision or opinion reached after thinking about the facts. ---",
+      "meaning": "Conclusion has 2 distinct senses.",
       "examples": [
         "I came to the conclusion that he was lying.",
         "Don't jump to conclusions before you hear the whole story.",
-        "The report's conclusion surprised everybody."
+        "The report's conclusion surprised everybody.",
+        "At the conclusion of the ceremony, everyone stood.",
+        "The trial reached its conclusion on Friday afternoon.",
+        "The conclusion of the book ties up every loose thread."
       ],
-      "senses": [],
-      "русский": "вывод, заключение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A decision or opinion reached after thinking about the facts",
+          "body": [
+            "(вывод, заключение)"
+          ],
+          "examples": [
+            "I came to the conclusion that he was lying.",
+            "Don't jump to conclusions before you hear the whole story.",
+            "The report's conclusion surprised everybody."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The end or final part of something",
+          "body": [
+            "(окончание, завершение)",
+            "---"
+          ],
+          "examples": [
+            "At the conclusion of the ceremony, everyone stood.",
+            "The trial reached its conclusion on Friday afternoon.",
+            "The conclusion of the book ties up every loose thread."
+          ]
+        }
+      ],
+      "русский": "вывод, заключение; окончание, завершение",
       "plural": "conclusions",
       "countability": "countable"
     },
@@ -356,14 +385,43 @@
       "term": "assumption",
       "ipa": "/əˈsʌmpʃən/",
       "respell": "uh-SUMP-shuhn",
-      "meaning": "Something you accept as true without proof. ---",
+      "meaning": "Assumption has 2 distinct senses.",
       "examples": [
         "I made the assumption that she was driving.",
         "The whole plan rests on two shaky assumptions.",
-        "Working on the assumption that it rains, bring an umbrella."
+        "Working on the assumption that it rains, bring an umbrella.",
+        "His assumption of command came at a difficult moment.",
+        "The assumption of power by the military drew protests.",
+        "Assumption of the seller's mortgage saved the buyers thousands."
       ],
-      "senses": [],
-      "русский": "предположение, допущение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you accept as true without proof",
+          "body": [
+            "(предположение, допущение)"
+          ],
+          "examples": [
+            "I made the assumption that she was driving.",
+            "The whole plan rests on two shaky assumptions.",
+            "Working on the assumption that it rains, bring an umbrella."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of taking on a role, a power, or a responsibility",
+          "body": [
+            "(принятие (должности, власти, обязательств))",
+            "---"
+          ],
+          "examples": [
+            "His assumption of command came at a difficult moment.",
+            "The assumption of power by the military drew protests.",
+            "Assumption of the seller's mortgage saved the buyers thousands."
+          ]
+        }
+      ],
+      "русский": "предположение, допущение; принятие (должности, власти, обязательств)",
       "plural": "assumptions",
       "countability": "countable"
     },
@@ -401,14 +459,43 @@
       "term": "attention",
       "ipa": "/əˈtɛnʃən/",
       "respell": "uh-TEN-shuhn",
-      "meaning": "The act of watching, listening to, or thinking about something carefully. ---",
+      "meaning": "Attention has 2 distinct senses.",
       "examples": [
         "Could I have your attention for a minute?",
         "The problem needs immediate attention.",
-        "She pays close attention to detail."
+        "She pays close attention to detail.",
+        "That cut needs medical attention.",
+        "The furnace is old and needs some attention.",
+        "Several items on the list still require your attention."
       ],
-      "senses": [],
-      "русский": "внимание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of watching, listening to, or thinking about something carefully",
+          "body": [
+            "(внимание)"
+          ],
+          "examples": [
+            "Could I have your attention for a minute?",
+            "The problem needs immediate attention.",
+            "She pays close attention to detail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Practical care or action given to something that needs it",
+          "body": [
+            "(уход, обслуживание; помощь)",
+            "---"
+          ],
+          "examples": [
+            "That cut needs medical attention.",
+            "The furnace is old and needs some attention.",
+            "Several items on the list still require your attention."
+          ]
+        }
+      ],
+      "русский": "внимание; уход, обслуживание; помощь",
       "countability": "uncountable"
     },
     {
@@ -429,14 +516,43 @@
       "term": "consciousness",
       "ipa": "/ˈkɑːnʃəsnəs/",
       "respell": "KAHN-shuhs-nuhs",
-      "meaning": "The state of being awake and able to think and perceive. ---",
+      "meaning": "Consciousness has 2 distinct senses.",
       "examples": [
         "She lost consciousness for about a minute.",
         "He slowly regained consciousness in the ambulance.",
-        "The memory floated up into consciousness years later."
+        "The memory floated up into consciousness years later.",
+        "The campaign raised public consciousness about recycling.",
+        "Those songs shaped the national consciousness for a generation.",
+        "Class consciousness grew during the long strike."
       ],
-      "senses": [],
-      "русский": "сознание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of being awake and able to think and perceive",
+          "body": [
+            "(сознание)"
+          ],
+          "examples": [
+            "She lost consciousness for about a minute.",
+            "He slowly regained consciousness in the ambulance.",
+            "The memory floated up into consciousness years later."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Awareness of a particular issue, or the shared ideas and feelings of a group",
+          "body": [
+            "(осознание (проблемы); сознание (общественное))",
+            "---"
+          ],
+          "examples": [
+            "The campaign raised public consciousness about recycling.",
+            "Those songs shaped the national consciousness for a generation.",
+            "Class consciousness grew during the long strike."
+          ]
+        }
+      ],
+      "русский": "сознание; осознание (проблемы); сознание (общественное)",
       "countability": "uncountable",
       "contrast": "The sc spells a single /ʃ/ sound: KAHN-shuhs-nuhs, not \"kon-skus\"."
     },
@@ -459,14 +575,58 @@
       "term": "impression",
       "ipa": "/ɪmˈprɛʃən/",
       "respell": "im-PRESH-uhn",
-      "meaning": "An idea or feeling you get about someone or something. ---",
+      "meaning": "Impression has 3 distinct senses.",
       "examples": [
         "My first impression of him was completely wrong.",
         "Write down your impressions while they're fresh.",
-        "I got the impression she wanted to leave."
+        "I got the impression she wanted to leave.",
+        "He does a great impression of the president.",
+        "Her impression of our boss had the whole office laughing.",
+        "The comedian is famous for his celebrity impressions.",
+        "The dentist made an impression of my teeth.",
+        "You could see the impression of a boot in the mud.",
+        "The seal left a clear impression in the wax."
       ],
-      "senses": [],
-      "русский": "впечатление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An idea or feeling you get about someone or something",
+          "body": [
+            "(впечатление)"
+          ],
+          "examples": [
+            "My first impression of him was completely wrong.",
+            "Write down your impressions while they're fresh.",
+            "I got the impression she wanted to leave."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A funny imitation of the way a well-known person talks and acts",
+          "body": [
+            "(пародия (на кого-л.))"
+          ],
+          "examples": [
+            "He does a great impression of the president.",
+            "Her impression of our boss had the whole office laughing.",
+            "The comedian is famous for his celebrity impressions."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A mark left when something is pressed into a soft surface",
+          "body": [
+            "(отпечаток, оттиск)",
+            "---"
+          ],
+          "examples": [
+            "The dentist made an impression of my teeth.",
+            "You could see the impression of a boot in the mud.",
+            "The seal left a clear impression in the wax."
+          ]
+        }
+      ],
+      "русский": "впечатление; пародия (на кого-л.); отпечаток, оттиск",
       "plural": "impressions",
       "countability": "countable"
     },
@@ -607,14 +767,43 @@
       "term": "personality",
       "ipa": "/ˌpɜːrsəˈnæləti/",
       "respell": "pur-suh-NAL-uh-tee",
-      "meaning": "The set of qualities that makes one person different from another. ---",
+      "meaning": "Personality has 2 distinct senses.",
       "examples": [
         "She has a warm, outgoing personality.",
         "The two roommates had clashing personalities.",
-        "The dog's personality changed after the surgery."
+        "The dog's personality changed after the surgery.",
+        "A local TV personality cut the ribbon at the new store.",
+        "The network hires former players as on-air personalities.",
+        "She became a radio personality after ten years of writing news."
       ],
-      "senses": [],
-      "русский": "личность, характер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The set of qualities that makes one person different from another",
+          "body": [
+            "(личность, характер)"
+          ],
+          "examples": [
+            "She has a warm, outgoing personality.",
+            "The two roommates had clashing personalities.",
+            "The dog's personality changed after the surgery."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who is well known from television, radio, or sports",
+          "body": [
+            "(известная личность, медийная персона)",
+            "---"
+          ],
+          "examples": [
+            "A local TV personality cut the ribbon at the new store.",
+            "The network hires former players as on-air personalities.",
+            "She became a radio personality after ten years of writing news."
+          ]
+        }
+      ],
+      "русский": "личность, характер; известная личность, медийная персона",
       "plural": "personalities",
       "countability": "countable"
     },
@@ -711,14 +900,43 @@
       "term": "integrity",
       "ipa": "/ɪnˈtɛɡrəti/",
       "respell": "in-TEG-ruh-tee",
-      "meaning": "The quality of being honest and holding to strong moral principles. ---",
+      "meaning": "Integrity has 2 distinct senses.",
       "examples": [
         "He's a man of real integrity.",
         "The job calls for judgment and integrity.",
-        "She kept her integrity even when it cost her."
+        "She kept her integrity even when it cost her.",
+        "Engineers questioned the structural integrity of the bridge.",
+        "The fire damaged the integrity of the roof beams.",
+        "Encryption protects the integrity of the data."
       ],
-      "senses": [],
-      "русский": "честность, порядочность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The quality of being honest and holding to strong moral principles",
+          "body": [
+            "(честность, порядочность)"
+          ],
+          "examples": [
+            "He's a man of real integrity.",
+            "The job calls for judgment and integrity.",
+            "She kept her integrity even when it cost her."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of being whole, sound, and undamaged",
+          "body": [
+            "(целостность, прочность)",
+            "---"
+          ],
+          "examples": [
+            "Engineers questioned the structural integrity of the bridge.",
+            "The fire damaged the integrity of the roof beams.",
+            "Encryption protects the integrity of the data."
+          ]
+        }
+      ],
+      "русский": "честность, порядочность; целостность, прочность",
       "countability": "uncountable"
     },
     {
@@ -1126,14 +1344,43 @@
       "term": "hallucination",
       "ipa": "/həˌluːsɪˈneɪʃən/",
       "respell": "huh-loo-sih-NAY-shuhn",
-      "meaning": "Something a person sees or hears that is not really there. ---",
+      "meaning": "Hallucination has 2 distinct senses.",
       "examples": [
         "The fever gave him hallucinations.",
         "She reported a hallucination the first night on the drug.",
-        "Sleep loss can cause mild hallucinations."
+        "Sleep loss can cause mild hallucinations.",
+        "The case he cited turned out to be a hallucination.",
+        "Two lawyers were fined for filing a brief full of hallucinations.",
+        "Newer models reduce hallucination but don't eliminate it."
       ],
-      "senses": [],
-      "русский": "галлюцинация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something a person sees or hears that is not really there",
+          "body": [
+            "(галлюцинация)"
+          ],
+          "examples": [
+            "The fever gave him hallucinations.",
+            "She reported a hallucination the first night on the drug.",
+            "Sleep loss can cause mild hallucinations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A made-up fact that an AI system states as if it were true",
+          "body": [
+            "(галлюцинация (выдуманный факт в ответе ИИ))",
+            "---"
+          ],
+          "examples": [
+            "The case he cited turned out to be a hallucination.",
+            "Two lawyers were fined for filing a brief full of hallucinations.",
+            "Newer models reduce hallucination but don't eliminate it."
+          ]
+        }
+      ],
+      "русский": "галлюцинация; галлюцинация (выдуманный факт в ответе ИИ)",
       "plural": "hallucinations",
       "countability": "countable"
     },
@@ -1244,14 +1491,43 @@
       "term": "relaxation",
       "ipa": "/ˌriːlækˈseɪʃən/",
       "respell": "ree-lak-SAY-shuhn",
-      "meaning": "The state of being calm and free from work or worry. ---",
+      "meaning": "Relaxation has 2 distinct senses.",
       "examples": [
         "Fishing is pure relaxation for him.",
         "The class teaches breathing and relaxation.",
-        "She needs a weekend of real relaxation."
+        "She needs a weekend of real relaxation.",
+        "Businesses welcomed the relaxation of the mask rules.",
+        "A slight relaxation of lending standards followed the vote.",
+        "The relaxation of travel limits came too late for summer."
       ],
-      "senses": [],
-      "русский": "расслабление, отдых",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of being calm and free from work or worry",
+          "body": [
+            "(расслабление, отдых)"
+          ],
+          "examples": [
+            "Fishing is pure relaxation for him.",
+            "The class teaches breathing and relaxation.",
+            "She needs a weekend of real relaxation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The easing or loosening of a rule, limit, or restriction",
+          "body": [
+            "(смягчение, ослабление (правил, ограничений))",
+            "---"
+          ],
+          "examples": [
+            "Businesses welcomed the relaxation of the mask rules.",
+            "A slight relaxation of lending standards followed the vote.",
+            "The relaxation of travel limits came too late for summer."
+          ]
+        }
+      ],
+      "русский": "расслабление, отдых; смягчение, ослабление (правил, ограничений)",
       "countability": "uncountable"
     },
     {

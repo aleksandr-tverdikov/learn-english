@@ -186,14 +186,43 @@
       "term": "raspberry",
       "ipa": "/ˈræzbɛri/",
       "respell": "RAZ-beh-ree",
-      "meaning": "A soft red berry made up of many tiny sections. ---",
+      "meaning": "Raspberry has 2 distinct senses.",
       "examples": [
         "Raspberries get moldy almost overnight.",
         "There's a raspberry stain on your shirt.",
-        "We planted raspberries along the back fence."
+        "We planted raspberries along the back fence.",
+        "The toddler blew a raspberry at his sister and giggled.",
+        "Fans blew raspberries when the umpire called him out.",
+        "She answered my question with a loud raspberry."
       ],
-      "senses": [],
-      "русский": "малина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft red berry made up of many tiny sections",
+          "body": [
+            "(малина)"
+          ],
+          "examples": [
+            "Raspberries get moldy almost overnight.",
+            "There's a raspberry stain on your shirt.",
+            "We planted raspberries along the back fence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rude noise made by sticking out the tongue and blowing",
+          "body": [
+            "(презрительный звук губами (в знак насмешки))",
+            "---"
+          ],
+          "examples": [
+            "The toddler blew a raspberry at his sister and giggled.",
+            "Fans blew raspberries when the umpire called him out.",
+            "She answered my question with a loud raspberry."
+          ]
+        }
+      ],
+      "русский": "малина; презрительный звук губами (в знак насмешки)",
       "plural": "raspberries",
       "countability": "countable",
       "contrast": "The p is silent: RAZ-beh-ree, never 'rasp-berry'."

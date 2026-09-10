@@ -1400,16 +1400,24 @@ A bar that turns on a fixed point to move a heavy load with less force.
 ### scaffold
 
 **Pronunciation:** /ˈskæfəld/ &middot; *SKAF-uld*
-**Русский:** строительные леса
+**Русский:** строительные леса; эшафот
 **Plural:** *scaffolds*
 **Countability:** countable
 **Contrast:** The second syllable is reduced: SKAF-uld, not skaf-FOLD.
 
-A temporary frame of poles and planks that workers stand on.
+Scaffold has 2 distinct senses.
+
+**1. A temporary frame of poles and planks that workers stand on.** (строительные леса)
 
 1. They put up a *scaffold* along the whole wall.
 2. Don't climb the *scaffold* without a harness.
 3. The *scaffolds* came down after the siding was finished.
+
+**2. A raised wooden platform on which a prisoner is hanged.** (эшафот)
+
+4. The condemned man was led to the *scaffold* at dawn.
+5. A crowd gathered around the *scaffold* in the town square.
+6. He went to the *scaffold* still insisting he was innocent.
 
 ---
 

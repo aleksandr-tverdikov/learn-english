@@ -176,15 +176,23 @@ An event that causes great damage or suffering.
 ### calculation
 
 **Pronunciation:** /ˌkælkjəˈleɪʃən/ &middot; *kal-kyuh-LAY-shuhn*
-**Русский:** расчёт, вычисление
+**Русский:** расчёт, вычисление; расчёт (холодный, корыстный)
 **Plural:** *calculations*
 **Countability:** countable
 
-The process of working something out with numbers, or the result of it.
+Calculation has 2 distinct senses.
+
+**1. The process of working something out with numbers, or the result of it.** (расчёт, вычисление)
 
 1. A quick *calculation* showed we were short by fifty dollars.
 2. Check your *calculations* before you submit the form.
 3. By my *calculation*, the trip will take nine hours.
+
+**2. A cold weighing of one's own advantage.** (расчёт (холодный, корыстный))
+
+4. His apology was pure *calculation*, not regret.
+5. The *calculation* was that voters would forget by November.
+6. There was a certain *calculation* in the way she chose her friends.
 
 ---
 
@@ -460,15 +468,23 @@ The practice of eating members of one's own species.
 ### cannonball
 
 **Pronunciation:** /ˈkænənbɔːl/ &middot; *KAN-uhn-bawl*
-**Русский:** пушечное ядро
+**Русский:** пушечное ядро; прыжок «бомбочкой»
 **Plural:** *cannonballs*
 **Countability:** countable
 
-A large iron ball fired from a cannon.
+Cannonball has 2 distinct senses.
+
+**1. A large iron ball fired from a cannon.** (пушечное ядро)
 
 1. A rusted *cannonball* sits on display at the old fort.
 2. The stone wall still shows where *cannonballs* struck it.
 3. He plowed up a Civil War *cannonball* in his field.
+
+**2. A jump into water with the knees pulled up to the chest to make a big splash.** (прыжок «бомбочкой»)
+
+4. He did a *cannonball* off the diving board and soaked everyone.
+5. No *cannonballs* in the shallow end!
+6. Her *cannonball* sent a wave over the side of the pool.
 
 ---
 
@@ -1219,15 +1235,23 @@ A machine that hurls heavy objects, used in war before cannons.
 ### cataract
 
 **Pronunciation:** /ˈkætərækt/ &middot; *KAT-uh-rakt*
-**Русский:** катаракта
+**Русский:** катаракта; водопад, стремнина
 **Plural:** *cataracts*
 **Countability:** countable
 
-A clouding of the lens of the eye that blurs vision.
+Cataract has 2 distinct senses.
+
+**1. A clouding of the lens of the eye that blurs vision.** (катаракта)
 
 1. My grandfather had surgery for a *cataract*.
 2. *Cataracts* are common after the age of seventy.
 3. The doctor found an early *cataract* in her left eye.
+
+**2. A large, steep waterfall on a river.** (водопад, стремнина)
+
+4. The river drops through a series of *cataracts* below the gorge.
+5. You can hear the *cataract* a mile before you see it.
+6. Early explorers had to carry their boats around the *cataracts*.
 
 ---
 
@@ -1765,15 +1789,23 @@ A rich braided bread eaten by Jewish families, especially on the Sabbath.
 ### challenge
 
 **Pronunciation:** /ˈtʃælɪndʒ/ &middot; *CHAL-inj*
-**Русский:** вызов, трудная задача
+**Русский:** вызов, трудная задача; оспаривание, протест
 **Plural:** *challenges*
 **Countability:** countable
 
-Something difficult that tests your ability.
+Challenge has 2 distinct senses.
+
+**1. Something difficult that tests your ability.** (вызов, трудная задача)
 
 1. Learning Japanese was a real *challenge*.
 2. The job comes with plenty of *challenges*.
 3. She always welcomes a *challenge*.
+
+**2. A formal objection questioning whether something is correct or lawful.** (оспаривание, протест)
+
+4. The law faces a court *challenge* from three states.
+5. His lawyers filed a *challenge* to the search warrant.
+6. Both *challenges* to the election results were dismissed.
 
 ---
 
@@ -2341,15 +2373,23 @@ Light, friendly talk about unimportant things.
 ### chivalry
 
 **Pronunciation:** /ˈʃɪvəlri/ &middot; *SHIV-uhl-ree*
-**Русский:** рыцарство, галантность
+**Русский:** рыцарство, галантность; рыцарство (средневековый кодекс чести)
 **Countability:** uncountable
 **Contrast:** The 'ch' is pronounced /ʃ/, like the 'sh' in *shiver*.
 
-Polite, protective behavior, especially by men toward women.
+Chivalry has 2 distinct senses.
+
+**1. Polite, protective behavior, especially by men toward women.** (рыцарство, галантность)
 
 1. He held the door and joked that *chivalry* is not dead.
 2. The poem celebrates medieval *chivalry*.
 3. *Chivalry* meant something different in the twelfth century.
+
+**2. The code of honor and conduct that medieval knights were expected to follow.** (рыцарство (средневековый кодекс чести))
+
+4. The poem celebrates *chivalry* and courtly love.
+5. Tournaments belonged to the world of *chivalry*.
+6. By 1500 the age of *chivalry* was over.
 
 ---
 
@@ -3624,15 +3664,23 @@ A cold salad of shredded cabbage in a creamy dressing.
 ### collaborator
 
 **Pronunciation:** /kəˈlæbəreɪtər/ &middot; *kuh-LAB-uh-ray-tur*
-**Русский:** соавтор, партнёр по работе
+**Русский:** соавтор, партнёр по работе; коллаборационист, пособник оккупантов
 **Plural:** *collaborators*
 **Countability:** countable
 
-A person you work with on a project.
+Collaborator has 2 distinct senses.
+
+**1. A person you work with on a project.** (соавтор, партнёр по работе)
 
 1. Her longtime *collaborator* wrote the music.
 2. The two *collaborators* met in Chicago.
 3. He thanked his *collaborators* in the preface.
+
+**2. Someone who helps an enemy army that is occupying their country.** (коллаборационист, пособник оккупантов)
+
+4. After the war, *collaborators* were put on trial.
+5. The resistance shot him as a *collaborator*.
+6. Half the village accused the other half of being *collaborators*.
 
 ---
 
@@ -3683,15 +3731,23 @@ A group of people who own or run something together.
 ### collector
 
 **Pronunciation:** /kəˈlɛktər/ &middot; *kuh-LEK-tur*
-**Русский:** коллекционер
+**Русский:** коллекционер; сборщик платежей; контролёр (билетов)
 **Plural:** *collectors*
 **Countability:** countable
 
-A person who gathers objects of one kind as a hobby or investment.
+Collector has 2 distinct senses.
+
+**1. A person who gathers objects of one kind as a hobby or investment.** (коллекционер)
 
 1. He is a serious *collector* of vintage guitars.
 2. *Collectors* paid thousands for the poster.
 3. The museum bought it from a private *collector*.
+
+**2. An official whose job is to take in money that is owed or tickets that are due.** (сборщик платежей; контролёр (билетов))
+
+4. A bill *collector* called the house twice a day.
+5. The tax *collector* sent a final notice in April.
+6. The ticket *collector* punched our stubs at the gate.
 
 ---
 
@@ -3828,15 +3884,23 @@ Someone who takes part in the fighting during a war.
 ### combination
 
 **Pronunciation:** /ˌkɑːmbəˈneɪʃən/ &middot; *kahm-buh-NAY-shuhn*
-**Русский:** сочетание, комбинация
+**Русский:** сочетание, комбинация; код, шифр (замка)
 **Plural:** *combinations*
 **Countability:** countable
 
-Two or more things joined or used together.
+Combination has 2 distinct senses.
+
+**1. Two or more things joined or used together.** (сочетание, комбинация)
 
 1. It's a great *combination* of flavors.
 2. I forgot the *combination* to my locker.
 3. They tried several *combinations* before one worked.
+
+**2. The series of numbers or letters that opens a lock.** (код, шифр (замка))
+
+4. I forgot the *combination* to my gym locker.
+5. The safe has a six-digit *combination*.
+6. He changed the *combination* on the bike lock after it was stolen.
 
 ---
 
@@ -4023,30 +4087,46 @@ Satisfaction with things as they are, so that you stop trying to improve.
 ### complement
 
 **Pronunciation:** /ˈkɑːmpləmənt/ &middot; *KAHM-pluh-muhnt*
-**Русский:** дополнение
+**Русский:** дополнение; полный состав, полный комплект
 **Plural:** *complements*
 **Countability:** countable
 **Contrast:** *Complement* (дополнение) and *compliment* (похвала) sound identical; the one spelled with an *e* completes something.
 
-Something that goes well with another thing and completes it.
+Complement has 2 distinct senses.
+
+**1. Something that goes well with another thing and completes it.** (дополнение)
 
 1. The wine is a perfect *complement* to the fish.
 2. Fresh herbs make a nice *complement* to the soup.
 3. The two skills are natural *complements*.
+
+**2. The full number of people or things needed to make something complete.** (полный состав, полный комплект)
+
+4. The ship sailed with a full *complement* of crew.
+5. The clinic is short of its usual *complement* of nurses.
+6. A full *complement* of jurors was seated by noon.
 
 ---
 
 ### completion
 
 **Pronunciation:** /kəmˈpliːʃən/ &middot; *kuhm-PLEE-shuhn*
-**Русский:** завершение, окончание
+**Русский:** завершение, окончание; принятая передача (в американском футболе)
 **Countability:** uncountable
 
-The finishing of something.
+Completion has 2 distinct senses.
+
+**1. The finishing of something.** (завершение, окончание)
 
 1. The bridge is nearing *completion*.
 2. Payment is due on *completion* of the work.
 3. *Completion* was delayed by bad weather.
+
+**2. A forward pass that is caught, in American football.** (принятая передача (в американском футболе))
+
+4. He had twenty-two *completions* in the game.
+5. The drive opened with a thirty-yard *completion*.
+6. The quarterback's *completions* dropped off in the second half.
 
 ---
 
@@ -4271,14 +4351,22 @@ A substance made stronger by taking out water or other liquid.
 ### conception
 
 **Pronunciation:** /kənˈsɛpʃən/ &middot; *kuhn-SEP-shuhn*
-**Русский:** зачатие
+**Русский:** зачатие; представление, понятие
 **Countability:** uncountable
 
-The start of a pregnancy, when an egg is fertilized.
+Conception has 2 distinct senses.
+
+**1. The start of a pregnancy, when an egg is fertilized.** (зачатие)
 
 1. The doctor asked about the date of *conception*.
 2. Folic acid matters even before *conception*.
 3. The film follows a child from *conception* to birth.
+
+**2. An idea or understanding of what something is or should be.** (представление, понятие)
+
+4. He has no *conception* of how much a house costs.
+5. Her *conception* of justice is not the same as mine.
+6. The book challenges our whole *conception* of memory.
 
 ---
 
@@ -4625,15 +4713,23 @@ Permission for something to happen.
 ### consequence
 
 **Pronunciation:** /ˈkɑːnsəkwɛns/ &middot; *KAHN-suh-kwens*
-**Русский:** последствие
+**Русский:** последствие; важность, значимость
 **Plural:** *consequences*
 **Countability:** countable
 
-Something that happens as a result of an action.
+Consequence has 2 distinct senses.
+
+**1. Something that happens as a result of an action.** (последствие)
 
 1. Every choice has *consequences*.
 2. He never thought about the *consequence* of quitting.
 3. The *consequences* were worse than anyone expected.
+
+**2. Importance or significance.** (важность, значимость)
+
+4. It was a small matter of no *consequence*.
+5. Nothing of *consequence* was said at the meeting.
+6. The delay is of little *consequence* to us.
 
 ---
 
@@ -4730,15 +4826,23 @@ A police officer, especially one elected in a small American town.
 ### constant
 
 **Pronunciation:** /ˈkɑːnstənt/ &middot; *KAHN-stuhnt*
-**Русский:** константа, постоянная величина
+**Русский:** константа, постоянная величина; нечто неизменное, постоянная величина (в жизни)
 **Plural:** *constants*
 **Countability:** countable
 
-A number or quantity that never changes.
+Constant has 2 distinct senses.
+
+**1. A number or quantity that never changes.** (константа, постоянная величина)
 
 1. The speed of light is a *constant*.
 2. Solve for the *constant* first.
 3. Some *constants* are named after the scientists who found them.
+
+**2. Something that stays the same while everything around it changes.** (нечто неизменное, постоянная величина (в жизни))
+
+4. Through every move and job change, music was the one *constant* in his life.
+5. Change is the only *constant* in this industry.
+6. Sunday dinner at her mother's is one of the few *constants* in her week.
 
 ---
 
@@ -4922,14 +5026,22 @@ The material inside something, especially text, video, or images.
 ### contention
 
 **Pronunciation:** /kənˈtɛnʃən/ &middot; *kuhn-TEN-shuhn*
-**Русский:** разногласие, спор; борьба за место
+**Русский:** разногласие, спор; борьба за место; утверждение, довод
 **Countability:** uncountable
 
-Disagreement between people, or a real chance of winning something.
+Contention has 2 distinct senses.
+
+**1. Disagreement between people, or a real chance of winning something.** (разногласие, спор; борьба за место)
 
 1. Pay is the main point of *contention*.
 2. The team is still in *contention* for a playoff spot.
 3. The proposal caused years of *contention*.
+
+**2. A claim that someone puts forward in an argument.** (утверждение, довод)
+
+4. His *contention* is that the tests were never run at all.
+5. The lawyer repeated her *contention* that the search was illegal.
+6. That *contention* is hard to square with the data.
 
 ---
 
@@ -4996,14 +5108,22 @@ A group of people from one place or organization within a larger group.
 ### continuity
 
 **Pronunciation:** /ˌkɑːntəˈnuːəti/ &middot; *kahn-tuh-NOO-uh-tee*
-**Русский:** непрерывность, преемственность
+**Русский:** непрерывность, преемственность; непрерывность (соответствие деталей в кадрах, в кино)
 **Countability:** uncountable
 
-The state of going on steadily without a break or a sudden change.
+Continuity has 2 distinct senses.
+
+**1. The state of going on steadily without a break or a sudden change.** (непрерывность, преемственность)
 
 1. The careful handover preserved *continuity*.
 2. There's no *continuity* between the two chapters.
 3. Viewers spotted a *continuity* error in the film.
+
+**2. The matching of small details from shot to shot in a film or show.** (непрерывность (соответствие деталей в кадрах, в кино))
+
+4. Fans spotted a *continuity* error: his glass is full again in the next shot.
+5. Someone on set is paid to keep track of *continuity*.
+6. The *continuity* in the fight scene falls apart halfway through.
 
 ---
 
@@ -5123,14 +5243,28 @@ A bruise, especially as a doctor would describe it.
 ### convenience
 
 **Pronunciation:** /kənˈviːniəns/ &middot; *kuhn-VEEN-yuhns*
-**Русский:** удобство
+**Русский:** удобство; удобство (бытовое), удобное приспособление; удобное время
 **Countability:** uncountable
 
-The quality of being easy to use and saving you time and effort.
+Convenience has 3 distinct senses.
+
+**1. The quality of being easy to use and saving you time and effort.** (удобство)
 
 1. I shop online mostly for the *convenience*.
 2. Call me back at your *convenience*.
 3. The apartment's selling point is *convenience*.
+
+**2. A device or service that makes daily life easier.** (удобство (бытовое), удобное приспособление)
+
+4. The cabin has no electricity and none of the usual *conveniences*.
+5. A dishwasher is one *convenience* she refuses to give up.
+6. The apartment is small but has every modern *convenience*.
+
+**3. A time that suits you.** (удобное время)
+
+7. Please call me back at your earliest *convenience*.
+8. Stop by the office at your *convenience*.
+9. We can move the meeting to suit your *convenience*.
 
 ---
 
@@ -5211,14 +5345,22 @@ A business owned and run jointly by the people who use it.
 ### coordination
 
 **Pronunciation:** /koʊˌɔːrdəˈneɪʃən/ &middot; *koh-or-duh-NAY-shuhn*
-**Русский:** координация, согласованность
+**Русский:** координация, согласованность; координация движений
 **Countability:** uncountable
 
-The organizing of people or parts so that they work well together.
+Coordination has 2 distinct senses.
+
+**1. The organizing of people or parts so that they work well together.** (координация, согласованность)
 
 1. The rescue required careful *coordination*.
 2. Toddlers are still developing hand-eye *coordination*.
 3. There was almost no *coordination* between the agencies.
+
+**2. The ability to make the parts of your body work together smoothly.** (координация движений)
+
+4. Catching a ball takes hand-eye *coordination*.
+5. The stroke left him with poor *coordination* on his left side.
+6. Toddlers are still working on their *coordination*.
 
 ---
 
@@ -6088,15 +6230,23 @@ A painful stiffness in the neck or back.
 ### criticism
 
 **Pronunciation:** /ˈkrɪtəsɪzəm/ &middot; *KRIT-uh-siz-uhm*
-**Русский:** критика; критическое замечание
+**Русский:** критика; критическое замечание; критика (как разбор искусства), литературоведение
 **Plural:** *criticisms*
 **Countability:** both — countable and uncountable with different meanings
 
-Disapproval expressed about someone or something, or one particular remark of that kind.
+Criticism has 2 distinct senses.
+
+**1. Disapproval expressed about someone or something, or one particular remark of that kind.** (критика; критическое замечание)
 
 1. The plan drew *criticism* from both parties.
 2. She takes *criticism* well.
 3. He listed three *criticisms* of the design.
+
+**2. The careful analysis and judgment of literature, film, or art.** (критика (как разбор искусства), литературоведение)
+
+4. She teaches film *criticism* at the university.
+5. The essay is a classic of literary *criticism*.
+6. He moved from reporting into art *criticism*.
 
 ---
 
@@ -6192,15 +6342,23 @@ Gunfire coming from two or more directions at once, often used of being caught i
 ### crossover
 
 **Pronunciation:** /ˈkrɔːsoʊvər/ &middot; *KRAWS-oh-vur*
-**Русский:** кроссовер (автомобиль)
+**Русский:** кроссовер (автомобиль); переход в другой жанр, кроссовер
 **Plural:** *crossovers*
 **Countability:** countable
 
-A vehicle built on a car frame but shaped like a small SUV.
+Crossover has 2 distinct senses.
+
+**1. A vehicle built on a car frame but shaped like a small SUV.** (кроссовер (автомобиль))
 
 1. They traded the minivan for a *crossover*.
 2. Compact *crossovers* outsell sedans now.
 3. The dealer had three *crossovers* on the lot.
+
+**2. A move into a different genre or a wider audience, or a work that makes one.** (переход в другой жанр, кроссовер)
+
+4. The single was her *crossover* from country to pop.
+5. The album was a rare *crossover*, charting on both the jazz and pop lists.
+6. The two shows did a *crossover* last season.
 
 ---
 
@@ -6334,15 +6492,23 @@ A long, determined campaign for a cause someone believes in.
 ### crusader
 
 **Pronunciation:** /kruːˈseɪdər/ &middot; *kroo-SAY-dur*
-**Русский:** борец за идею, поборник
+**Русский:** борец за идею, поборник; крестоносец
 **Plural:** *crusaders*
 **Countability:** countable
 
-Someone who campaigns hard and publicly for a cause.
+Crusader has 2 distinct senses.
+
+**1. Someone who campaigns hard and publicly for a cause.** (борец за идею, поборник)
 
 1. She was a lifelong *crusader* for voting rights.
 2. The paper called him a consumer *crusader*.
 3. Anti-corruption *crusaders* filled the square.
+
+**2. A European soldier who fought in the medieval Crusades.** (крестоносец)
+
+4. The *crusaders* laid siege to the city for months.
+5. The castle was built by *crusaders* in the twelfth century.
+6. Many *crusaders* never made it home.
 
 ---
 

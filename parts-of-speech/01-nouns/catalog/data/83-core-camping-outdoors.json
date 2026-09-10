@@ -260,14 +260,43 @@
       "term": "headlamp",
       "ipa": "/ˈhɛdlæmp/",
       "respell": "HED-lamp",
-      "meaning": "A small light on an elastic band worn on your forehead. ---",
+      "meaning": "Headlamp has 2 distinct senses.",
       "examples": [
         "A headlamp leaves both your hands free.",
         "We hiked the last mile by headlamp.",
-        "Pack spare batteries for your headlamp."
+        "Pack spare batteries for your headlamp.",
+        "A rock cracked the driver's-side headlamp.",
+        "The truck's headlamps cut through the fog.",
+        "Replacing a burned-out headlamp took me ten minutes."
       ],
-      "senses": [],
-      "русский": "налобный фонарь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small light on an elastic band worn on your forehead",
+          "body": [
+            "(налобный фонарь)"
+          ],
+          "examples": [
+            "A headlamp leaves both your hands free.",
+            "We hiked the last mile by headlamp.",
+            "Pack spare batteries for your headlamp."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large lamp at the front of a car or truck that lights the road ahead",
+          "body": [
+            "(фара (автомобильная))",
+            "---"
+          ],
+          "examples": [
+            "A rock cracked the driver's-side headlamp.",
+            "The truck's headlamps cut through the fog.",
+            "Replacing a burned-out headlamp took me ten minutes."
+          ]
+        }
+      ],
+      "русский": "налобный фонарь; фара (автомобильная)",
       "plural": "headlamps",
       "countability": "countable",
       "contrast": "For a car, Americans say headlight; a headlamp is the one you wear."
@@ -1834,14 +1863,43 @@
       "term": "foothold",
       "ipa": "/ˈfʊthoʊld/",
       "respell": "FUUT-hohld",
-      "meaning": "A place on rock where you can put your foot while climbing. ---",
+      "meaning": "Foothold has 2 distinct senses.",
       "examples": [
         "She found a foothold just above the crack.",
         "The footholds get tiny near the top.",
-        "There was no foothold on that smooth slab."
+        "There was no foothold on that smooth slab.",
+        "The company gained a foothold in the Asian market last year.",
+        "The party is trying to get a foothold in the suburbs.",
+        "That internship gave her a foothold in publishing."
       ],
-      "senses": [],
-      "русский": "опора для ноги, точка опоры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place on rock where you can put your foot while climbing",
+          "body": [
+            "(опора для ноги, точка опоры)"
+          ],
+          "examples": [
+            "She found a foothold just above the crack.",
+            "The footholds get tiny near the top.",
+            "There was no foothold on that smooth slab."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A secure position from which further progress can be made",
+          "body": [
+            "(плацдарм, закрепление позиций)",
+            "---"
+          ],
+          "examples": [
+            "The company gained a foothold in the Asian market last year.",
+            "The party is trying to get a foothold in the suburbs.",
+            "That internship gave her a foothold in publishing."
+          ]
+        }
+      ],
+      "русский": "опора для ноги, точка опоры; плацдарм, закрепление позиций",
       "plural": "footholds",
       "countability": "countable"
     },
@@ -2520,14 +2578,58 @@
       "term": "footprint",
       "ipa": "/ˈfʊtprɪnt/",
       "respell": "FUUT-print",
-      "meaning": "The mark a foot or shoe leaves in soft ground. ---",
+      "meaning": "Footprint has 3 distinct senses.",
       "examples": [
         "There was one footprint in the mud by the creek.",
         "We followed his footprints through the snow.",
-        "The rain washed every footprint off the trail."
+        "The rain washed every footprint off the trail.",
+        "The new store has a much smaller footprint than the old one.",
+        "They cut the server's footprint in half.",
+        "The chain expanded its footprint into twelve more states.",
+        "Flying less is the fastest way to shrink your carbon footprint.",
+        "The company promised to cut its footprint in half by 2030.",
+        "Beef has a far bigger footprint than beans."
       ],
-      "senses": [],
-      "русский": "след ноги, отпечаток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The mark a foot or shoe leaves in soft ground",
+          "body": [
+            "(след ноги, отпечаток)"
+          ],
+          "examples": [
+            "There was one footprint in the mud by the creek.",
+            "We followed his footprints through the snow.",
+            "The rain washed every footprint off the trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of ground or space that a building, machine, or business takes up",
+          "body": [
+            "(занимаемая площадь; охват, присутствие)"
+          ],
+          "examples": [
+            "The new store has a much smaller footprint than the old one.",
+            "They cut the server's footprint in half.",
+            "The chain expanded its footprint into twelve more states."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The total effect a person or company has on the environment, especially the carbon released",
+          "body": [
+            "(экологический (углеродный) след)",
+            "---"
+          ],
+          "examples": [
+            "Flying less is the fastest way to shrink your carbon footprint.",
+            "The company promised to cut its footprint in half by 2030.",
+            "Beef has a far bigger footprint than beans."
+          ]
+        }
+      ],
+      "русский": "след ноги, отпечаток; занимаемая площадь; охват, присутствие; экологический (углеродный) след",
       "plural": "footprints",
       "countability": "countable"
     },

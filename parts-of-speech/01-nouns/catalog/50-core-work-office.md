@@ -102,31 +102,47 @@ A room at work where employees can eat, rest, or make coffee.
 ### department
 
 **Pronunciation:** /dɪˈpɑːrtmənt/ &middot; *dih-PART-muhnt*
-**Русский:** отдел, департамент
+**Русский:** отдел, департамент; сфера, компетенция (чья-то «часть»)
 **Plural:** *departments*
 **Countability:** countable
 
-One of the sections a company or organization is divided into.
+Department has 2 distinct senses.
+
+**1. One of the sections a company or organization is divided into.** (отдел, департамент)
 
 1. She works in the accounting *department*.
 2. That's a question for the legal *department*.
 3. Three *departments* share the same floor.
+
+**2. An area of activity or responsibility that belongs to a particular person.** (сфера, компетенция (чья-то «часть»))
+
+4. Cooking is my husband's *department*, not mine.
+5. Sorry, that's not my *department* — you'll want to ask Rita.
+6. The car is great on gas but lacking in the comfort *department*.
 
 ---
 
 ### organization
 
 **Pronunciation:** /ˌɔːrɡənəˈzeɪʃən/ &middot; *or-guh-nuh-ZAY-shuhn*
-**Русский:** организация
+**Русский:** организация; упорядоченность, структура, организованность
 **Plural:** *organizations*
 **Countability:** countable
 **Contrast:** Americans spell it with a z; the British usually write organisation.
 
-A group of people working together for a shared purpose.
+Organization has 2 distinct senses.
+
+**1. A group of people working together for a shared purpose.** (организация)
 
 1. She runs a nonprofit *organization*.
 2. The whole *organization* got the same email.
 3. Several *organizations* signed the letter.
+
+**2. The way something is arranged, or the skill of keeping things in order.** (упорядоченность, структура, организованность)
+
+4. The essay has good ideas but poor *organization*.
+5. Her *organization* is what keeps the whole office running.
+6. The *organization* of these files makes no sense to me.
 
 ---
 
@@ -285,15 +301,23 @@ Monitor has 3 distinct senses.
 ### keyboard
 
 **Pronunciation:** /ˈkiːbɔːrd/ &middot; *KEE-bord*
-**Русский:** клавиатура
+**Русский:** клавиатура; клавиатура (музыкальная); синтезатор
 **Plural:** *keyboards*
 **Countability:** countable
 
-The set of keys you type on to control a computer.
+Keyboard has 2 distinct senses.
+
+**1. The set of keys you type on to control a computer.** (клавиатура)
 
 1. I spilled coffee on my *keyboard*.
 2. This *keyboard* is way too loud.
 3. They ordered new *keyboards* for the whole floor.
+
+**2. The row of keys on a piano or organ, or an electronic instrument with them.** (клавиатура (музыкальная); синтезатор)
+
+4. She bought a used *keyboard* to practice on at home.
+5. He plays guitar, and his sister plays *keyboards* in the band.
+6. His hands moved easily across the *keyboard* of the old piano.
 
 ---
 
@@ -330,15 +354,23 @@ An electronic machine for storing information and doing work with it.
 ### notebook
 
 **Pronunciation:** /ˈnoʊtbʊk/ &middot; *NOHT-buuk*
-**Русский:** блокнот, тетрадь
+**Русский:** блокнот, тетрадь; ноутбук
 **Plural:** *notebooks*
 **Countability:** countable
 
-A book of blank pages for writing notes in.
+Notebook has 2 distinct senses.
+
+**1. A book of blank pages for writing notes in.** (блокнот, тетрадь)
 
 1. She takes notes in a little *notebook*.
 2. I left my *notebook* in the conference room.
 3. There's a stack of *notebooks* in the supply closet.
+
+**2. A small portable computer, more often called a laptop.** (ноутбук)
+
+4. He travels with a light *notebook* instead of a full desktop.
+5. The store had a sale on *notebooks* and tablets.
+6. Her *notebook* only gets about four hours on a charge.
 
 ---
 
@@ -399,32 +431,48 @@ A small piece of rubber or felt used to rub out writing.
 ### envelope
 
 **Pronunciation:** /ˈɛnvəloʊp/ &middot; *EN-vuh-lohp*
-**Русский:** конверт
+**Русский:** конверт; предел возможностей, границы допустимого
 **Plural:** *envelopes*
 **Countability:** countable
 **Contrast:** Two American pronunciations are common: EN-vuh-lohp and AHN-vuh-lohp.
 
-A flat paper cover that a letter goes into for mailing.
+Envelope has 2 distinct senses.
+
+**1. A flat paper cover that a letter goes into for mailing.** (конверт)
 
 1. He sealed the check in an *envelope*.
 2. Write the address on the *envelope*.
 3. There's a box of *envelopes* by the printer.
+
+**2. The outer limit of what something or someone can do.** (предел возможностей, границы допустимого)
+
+4. The team keeps pushing the *envelope* on battery range.
+5. Test pilots fly right to the edge of the flight *envelope*.
+6. That script pushes the *envelope* of what network TV will air.
 
 ---
 
 ### calendar
 
 **Pronunciation:** /ˈkæləndər/ &middot; *KAL-uhn-dur*
-**Русский:** календарь
+**Русский:** календарь; календарь (система летосчисления)
 **Plural:** *calendars*
 **Countability:** countable
 **Contrast:** Ends in -ar, not -er, even though it sounds like -er.
 
-A chart or program showing the days of the year and what is planned on them.
+Calendar has 2 distinct senses.
+
+**1. A chart or program showing the days of the year and what is planned on them.** (календарь)
 
 1. Put it on the *calendar* so I don't forget.
 2. My *calendar* is packed all week.
 3. Our *calendars* never seem to line up.
+
+**2. A system for dividing up the year that a country or religion follows.** (календарь (система летосчисления))
+
+4. The Chinese *calendar* starts the new year in late January or February.
+5. Most of the world now uses the Gregorian *calendar*.
+6. Easter is set by a lunar *calendar*, so the date moves.
 
 ---
 
@@ -551,15 +599,29 @@ A piece of writing that gives official information or a record.
 ### agreement
 
 **Pronunciation:** /əˈɡriːmənt/ &middot; *uh-GREE-muhnt*
-**Русский:** соглашение, договорённость
+**Русский:** соглашение, договорённость; согласие, единство мнений; согласование (грамматическое)
 **Plural:** *agreements*
 **Countability:** countable
 
-An arrangement that two sides have accepted.
+Agreement has 3 distinct senses.
+
+**1. An arrangement that two sides have accepted.** (соглашение, договорённость)
 
 1. We finally reached an *agreement*.
 2. The *agreement* covers the next three years.
 3. Both *agreements* were signed the same day.
+
+**2. The state of holding the same opinion as someone else.** (согласие, единство мнений)
+
+4. The committee is in *agreement* about the deadline.
+5. There was broad *agreement* that the plan needed work.
+6. We are in complete *agreement* on that point.
+
+**3. In grammar, the matching of words with each other in number, person, or gender.** (согласование (грамматическое))
+
+7. Subject-verb *agreement* trips up a lot of writers.
+8. In Spanish there is *agreement* between the noun and the adjective.
+9. The sentence has an *agreement* error in the second clause.
 
 ---
 
@@ -661,31 +723,47 @@ Survey has 3 distinct senses.
 ### template
 
 **Pronunciation:** /ˈtɛmpleɪt/ &middot; *TEM-playt*
-**Русский:** шаблон
+**Русский:** шаблон; шаблон, лекало (физическое)
 **Plural:** *templates*
 **Countability:** countable
 
-A ready-made pattern you fill in to make a document.
+Template has 2 distinct senses.
+
+**1. A ready-made pattern you fill in to make a document.** (шаблон)
 
 1. Just use the *template* instead of starting over.
 2. The *template* already has the logo on it.
 3. There are *templates* for all the standard letters.
+
+**2. A thin shaped piece of metal, plastic, or card that you draw or cut around as a guide.** (шаблон, лекало (физическое))
+
+4. He cut a cardboard *template* for the countertop.
+5. Trace the *template* onto the fabric before you cut.
+6. The shop keeps a *template* for every size of window.
 
 ---
 
 ### signature
 
 **Pronunciation:** /ˈsɪɡnətʃər/ &middot; *SIG-nuh-chur*
-**Русский:** подпись
+**Русский:** подпись; характерный признак, отличительная черта
 **Plural:** *signatures*
 **Countability:** countable
 **Contrast:** The g is pronounced here, though it is silent in *sign*.
 
-Your name written by hand to show you agree to something.
+Signature has 2 distinct senses.
+
+**1. Your name written by hand to show you agree to something.** (подпись)
 
 1. We just need your *signature* here.
 2. The *signature* on the check didn't match.
 3. They collected *signatures* from everyone on the team.
+
+**2. A distinctive feature or pattern by which something can be recognized.** (характерный признак, отличительная черта)
+
+4. The satellite picks up the heat *signature* of a running engine.
+5. That chord change is a *signature* of his early records.
+6. Investigators matched the chemical *signature* of the two samples.
 
 ---
 
@@ -950,15 +1028,35 @@ Job has 3 distinct senses.
 ### position
 
 **Pronunciation:** /pəˈzɪʃən/ &middot; *puh-ZISH-uhn*
-**Русский:** должность
+**Русский:** должность; положение, местоположение; позиция, точка зрения; позиция, амплуа (в спорте)
 **Plural:** *positions*
 **Countability:** countable
 
-A particular job within an organization.
+Position has 4 distinct senses.
+
+**1. A particular job within an organization.** (должность)
 
 1. I'm applying for a *position* in marketing.
 2. The *position* has been open since March.
 3. They're filling three *positions* this fall.
+
+**2. The place where someone or something is, or the way they are set or held.** (положение, местоположение)
+
+4. Note the *position* of the sun just before it sets.
+5. The movers put the couch back in its old *position*.
+6. She shifted into a more comfortable *position* on the couch.
+
+**3. An opinion or stance that someone takes on an issue.** (позиция, точка зрения)
+
+7. What's your *position* on the new tax?
+8. The senator softened her *position* after the hearing.
+9. Both sides restated their *positions* and went home.
+
+**4. The particular role a player has on a sports team.** (позиция, амплуа (в спорте))
+
+10. Catcher is the hardest *position* on the field.
+11. He can play three *positions* in the infield.
+12. The coach moved her to a new *position* this season.
 
 ---
 
@@ -1018,32 +1116,48 @@ A move to a more senior job in the same organization.
 ### resignation
 
 **Pronunciation:** /ˌrɛzɪɡˈneɪʃən/ &middot; *rez-ig-NAY-shuhn*
-**Русский:** заявление об уходе, отставка
+**Русский:** заявление об уходе, отставка; смирение, покорность судьбе
 **Plural:** *resignations*
 **Countability:** countable
 **Contrast:** The g is pronounced here, though it is silent in *resign*.
 
-The act of formally quitting a job, or the letter announcing it.
+Resignation has 2 distinct senses.
+
+**1. The act of formally quitting a job, or the letter announcing it.** (заявление об уходе, отставка)
 
 1. He handed in his *resignation* on Monday.
 2. Her *resignation* took everyone by surprise.
 3. Two *resignations* landed in the same week.
+
+**2. Quiet acceptance of something unpleasant that cannot be changed.** (смирение, покорность судьбе)
+
+4. He shrugged with *resignation* and picked up the mop.
+5. There was *resignation* in her voice when she finally agreed.
+6. The crowd waited in tired *resignation*.
 
 ---
 
 ### benefits
 
 **Pronunciation:** /ˈbɛnəfɪts/ &middot; *BEN-uh-fits*
-**Русский:** соцпакет, льготы (от работодателя)
+**Русский:** соцпакет, льготы (от работодателя); польза, преимущества, выгоды
 **Plural:** *benefits*
 **Countability:** countable
 **Contrast:** Plural in this sense — *a benefit* on its own just means an advantage.
 
-The health insurance, paid leave, and other extras an employer provides.
+Benefits has 2 distinct senses.
+
+**1. The health insurance, paid leave, and other extras an employer provides.** (соцпакет, льготы (от работодателя))
 
 1. The pay is average but the *benefits* are great.
 2. Part-timers don't get *benefits*.
 3. *Benefits* kick in after ninety days.
+
+**2. The advantages or good effects that something produces.** (польза, преимущества, выгоды)
+
+4. The *benefits* of regular exercise show up within a few weeks.
+5. We weighed the costs against the *benefits* before deciding.
+6. Tax cuts of that kind bring few *benefits* to renters.
 
 ---
 
@@ -1139,15 +1253,23 @@ The regular trip between home and work.
 ### supervisor
 
 **Pronunciation:** /ˈsuːpərvaɪzər/ &middot; *SOO-pur-vy-zur*
-**Русский:** руководитель, непосредственный начальник
+**Русский:** руководитель, непосредственный начальник; член совета округа (выборная должность в США)
 **Plural:** *supervisors*
 **Countability:** countable
 
-The person who directs and checks another employee's work.
+Supervisor has 2 distinct senses.
+
+**1. The person who directs and checks another employee's work.** (руководитель, непосредственный начальник)
 
 1. Ask your *supervisor* before you leave early.
 2. My *supervisor* signed off on the request.
 3. Both *supervisors* were in the meeting.
+
+**2. An elected member of the governing board of an American county or township.** (член совета округа (выборная должность в США))
+
+4. The county *supervisors* meet on Tuesday evenings.
+5. She was elected *supervisor* for the third district.
+6. The board of *supervisors* voted to raise the sales tax.
 
 ---
 
@@ -1186,45 +1308,81 @@ A student or trainee doing short-term work to gain experience.
 ### candidate
 
 **Pronunciation:** /ˈkændɪdət/ &middot; *KAN-dih-duht*
-**Русский:** кандидат (на должность)
+**Русский:** кандидат (на должность); подходящий кандидат (на что-л.); тот, кому это грозит
 **Plural:** *candidates*
 **Countability:** countable
 
-A person being considered for a job.
+Candidate has 2 distinct senses.
+
+**1. A person being considered for a job.** (кандидат (на должность))
 
 1. He's the strongest *candidate* we've seen.
 2. The *candidate* asked good questions.
 3. They narrowed it down to three *candidates*.
+
+**2. A person or thing likely to get or to suffer something.** (подходящий кандидат (на что-л.); тот, кому это грозит)
+
+4. With that blood pressure, he's a prime *candidate* for a stroke.
+5. The old warehouse is an obvious *candidate* for demolition.
+6. Her knee makes her a good *candidate* for surgery.
 
 ---
 
 ### application
 
 **Pronunciation:** /ˌæpləˈkeɪʃən/ &middot; *ap-luh-KAY-shuhn*
-**Русский:** заявка, заявление (о приёме на работу)
+**Русский:** заявка, заявление (о приёме на работу); приложение, программа; применение, практическое использование; нанесение (крема, краски)
 **Plural:** *applications*
 **Countability:** countable
 
-A formal written request for a job or a place somewhere.
+Application has 4 distinct senses.
+
+**1. A formal written request for a job or a place somewhere.** (заявка, заявление (о приёме на работу))
 
 1. I sent in my *application* last night.
 2. The *application* takes about half an hour.
 3. They got six hundred *applications* for one job.
+
+**2. A computer program that does a particular job for the user.** (приложение, программа)
+
+4. Close any *applications* you aren't using.
+5. The bank's mobile *application* lets you deposit checks.
+6. It's a simple *application* that tracks your mileage.
+
+**3. A practical use for an idea, a method, or a discovery.** (применение, практическое использование)
+
+7. The theory turned out to have surprising *applications* in medicine.
+8. This material has dozens of industrial *applications*.
+9. He struggled to see the *application* of what he was learning.
+
+**4. The act of putting a substance onto a surface.** (нанесение (крема, краски))
+
+10. One *application* of the cream should be enough.
+11. Sunscreen needs a second *application* after you swim.
+12. The label recommends two *applications* of stain.
 
 ---
 
 ### interview
 
 **Pronunciation:** /ˈɪntərvjuː/ &middot; *IN-tur-vyoo*
-**Русский:** собеседование
+**Русский:** собеседование; интервью
 **Plural:** *interviews*
 **Countability:** countable
 
-A meeting where an employer questions someone applying for a job.
+Interview has 2 distinct senses.
+
+**1. A meeting where an employer questions someone applying for a job.** (собеседование)
 
 1. I have an *interview* Thursday afternoon.
 2. The *interview* lasted almost two hours.
 3. She went through four *interviews* before the offer.
+
+**2. A conversation in which a reporter asks someone questions to be printed or broadcast.** (интервью)
+
+4. The mayor gave an *interview* to the local paper.
+5. In a rare television *interview*, she talked about her illness.
+6. He turned down all *interviews* after the trial.
 
 ---
 
@@ -1386,15 +1544,23 @@ The general mood and confidence of a group of people.
 ### personnel
 
 **Pronunciation:** /ˌpɜːrsəˈnɛl/ &middot; *pur-suh-NEL*
-**Русский:** персонал, кадры
+**Русский:** персонал, кадры; отдел кадров
 **Countability:** uncountable
 **Contrast:** Stress falls on the last syllable, pur-suh-NEL — don't confuse it with *personal*.
 
-The people employed by an organization.
+Personnel has 2 distinct senses.
+
+**1. The people employed by an organization.** (персонал, кадры)
 
 1. All *personnel* have to badge in.
 2. *Personnel* were evacuated within minutes.
 3. Ask *personnel* about your benefits.
+
+**2. The department in an organization that handles hiring, pay, and employee records.** (отдел кадров)
+
+4. Take the signed form down to *personnel* on the third floor.
+5. *Personnel* keeps a file on every employee.
+6. He worked in *personnel* at the county office for years.
 
 ---
 
@@ -1608,29 +1774,51 @@ Inbox has 2 distinct senses.
 ### attachment
 
 **Pronunciation:** /əˈtætʃmənt/ &middot; *uh-TACH-muhnt*
-**Русский:** вложение (в письме)
+**Русский:** вложение (в письме); привязанность; насадка, приспособление
 **Plural:** *attachments*
 **Countability:** countable
 
-A file sent along with an email.
+Attachment has 3 distinct senses.
+
+**1. A file sent along with an email.** (вложение (в письме))
 
 1. You forgot the *attachment* again.
 2. The *attachment* is too big to send.
 3. Don't open *attachments* from people you don't know.
+
+**2. A strong feeling of affection or loyalty toward someone or something.** (привязанность)
+
+4. She formed a deep *attachment* to the dog.
+5. His *attachment* to his hometown never faded.
+6. Small children often have a fierce *attachment* to one blanket.
+
+**3. An extra part that can be fixed onto a machine or tool for a particular job.** (насадка, приспособление)
+
+7. The vacuum comes with three *attachments*.
+8. Use the narrow *attachment* to clean the corners.
+9. He bought a snowplow *attachment* for his tractor.
 
 ---
 
 ### management
 
 **Pronunciation:** /ˈmænɪdʒmənt/ &middot; *MAN-ij-muhnt*
-**Русский:** руководство, управление
+**Русский:** руководство, управление; управление (процессом), контроль
 **Countability:** uncountable
 
-The people who run a company, or the work of running it.
+Management has 2 distinct senses.
+
+**1. The people who run a company, or the work of running it.** (руководство, управление)
 
 1. *Management* decided to close the store.
 2. She moved into *management* last year.
 3. There's no trust between staff and *management*.
+
+**2. The process of dealing with or controlling a problem, resource, or condition.** (управление (процессом), контроль)
+
+4. The clinic offers a free class on pain *management*.
+5. Poor time *management* is why the project slipped a month.
+6. The county's waste *management* costs have doubled since 2019.
 
 ---
 

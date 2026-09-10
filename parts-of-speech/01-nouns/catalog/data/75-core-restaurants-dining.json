@@ -370,14 +370,43 @@
       "term": "specialty",
       "ipa": "/ˈspɛʃəlti/",
       "respell": "SPEH-shul-tee",
-      "meaning": "The dish a restaurant or a cook is best known for. ---",
+      "meaning": "Specialty has 2 distinct senses.",
       "examples": [
         "Crab cakes are the house specialty.",
         "Ask the waiter what the kitchen's specialty is.",
-        "The menu lists a dozen regional specialties."
+        "The menu lists a dozen regional specialties.",
+        "Her specialty is pediatric surgery.",
+        "Tax law is not my specialty.",
+        "The clinic has doctors in six different specialties."
       ],
-      "senses": [],
-      "русский": "фирменное блюдо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The dish a restaurant or a cook is best known for",
+          "body": [
+            "(фирменное блюдо)"
+          ],
+          "examples": [
+            "Crab cakes are the house specialty.",
+            "Ask the waiter what the kitchen's specialty is.",
+            "The menu lists a dozen regional specialties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The particular branch of work or study that someone concentrates on",
+          "body": [
+            "(специальность, специализация)",
+            "---"
+          ],
+          "examples": [
+            "Her specialty is pediatric surgery.",
+            "Tax law is not my specialty.",
+            "The clinic has doctors in six different specialties."
+          ]
+        }
+      ],
+      "русский": "фирменное блюдо; специальность, специализация",
       "plural": "specialties",
       "countability": "countable",
       "contrast": "Americans write specialty; the British write speciality, with an extra syllable."
@@ -1774,14 +1803,43 @@
       "term": "aftertaste",
       "ipa": "/ˈæftərteɪst/",
       "respell": "AF-tur-tayst",
-      "meaning": "The flavor that stays in the mouth after eating or drinking. ---",
+      "meaning": "Aftertaste has 2 distinct senses.",
       "examples": [
         "The coffee has a bitter aftertaste.",
         "There's a nice smoky aftertaste to the ribs.",
-        "Diet sodas leave strange aftertastes."
+        "Diet sodas leave strange aftertastes.",
+        "The whole argument left a bitter aftertaste.",
+        "Winning that way leaves a bad aftertaste.",
+        "There was a sour aftertaste to the entire deal."
       ],
-      "senses": [],
-      "русский": "послевкусие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flavor that stays in the mouth after eating or drinking",
+          "body": [
+            "(послевкусие)"
+          ],
+          "examples": [
+            "The coffee has a bitter aftertaste.",
+            "There's a nice smoky aftertaste to the ribs.",
+            "Diet sodas leave strange aftertastes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling, usually an unpleasant one, that stays with you after an experience",
+          "body": [
+            "(неприятный осадок (после чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "The whole argument left a bitter aftertaste.",
+            "Winning that way leaves a bad aftertaste.",
+            "There was a sour aftertaste to the entire deal."
+          ]
+        }
+      ],
+      "русский": "послевкусие; неприятный осадок (после чего-л.)",
       "plural": "aftertastes",
       "countability": "countable"
     },

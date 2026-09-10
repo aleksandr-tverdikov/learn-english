@@ -1215,43 +1215,67 @@ Someone who crosses the street away from a crosswalk or against the light.
 ### gridlock
 
 **Pronunciation:** /ˈɡrɪdlɑːk/ &middot; *GRID-lahk*
-**Русский:** полный транспортный затор
+**Русский:** полный транспортный затор; тупик, паралич (в политике, переговорах)
 **Countability:** uncountable
 
-Traffic so blocked in every direction that nothing can move.
+Gridlock has 2 distinct senses.
+
+**1. Traffic so blocked in every direction that nothing can move.** (полный транспортный затор)
 
 1. The parade turned downtown into total *gridlock*.
 2. *Gridlock* starts around four every weekday.
 3. One broken light caused an hour of *gridlock*.
+
+**2. A situation in which nothing gets decided because opposing sides block each other.** (тупик, паралич (в политике, переговорах))
+
+4. Budget *gridlock* shut the government down for weeks.
+5. Voters say they're tired of *gridlock* in Congress.
+6. The two departments have been in *gridlock* since spring.
 
 ---
 
 ### congestion
 
 **Pronunciation:** /kənˈdʒɛstʃən/ &middot; *kuhn-JES-chuhn*
-**Русский:** заторы, перегруженность дорог
+**Русский:** заторы, перегруженность дорог; заложенность носа, застой в лёгких
 **Countability:** uncountable
 
-The condition of roads being too full of vehicles.
+Congestion has 2 distinct senses.
+
+**1. The condition of roads being too full of vehicles.** (заторы, перегруженность дорог)
 
 1. *Congestion* on the bridge gets worse every year.
 2. The new lanes did nothing for *congestion*.
 3. Traffic apps route you around *congestion*.
+
+**2. Blockage of the nose or chest by mucus.** (заложенность носа, застой в лёгких)
+
+4. This syrup helps with chest *congestion*.
+5. She had *congestion* and a low fever for three days.
+6. Nasal *congestion* kept him up half the night.
 
 ---
 
 ### bottleneck
 
 **Pronunciation:** /ˈbɑːtəlnɛk/ &middot; *BAH-tuhl-nek*
-**Русский:** узкое место на дороге
+**Русский:** узкое место на дороге; узкое место (в процессе), затор
 **Plural:** *bottlenecks*
 **Countability:** countable
 
-A narrow point where traffic slows and backs up.
+Bottleneck has 2 distinct senses.
+
+**1. A narrow point where traffic slows and backs up.** (узкое место на дороге)
 
 1. The tunnel is the worst *bottleneck* in the city.
 2. Two *bottlenecks* on this route add half an hour.
 3. They widened the road to fix the *bottleneck*.
+
+**2. A stage in a process that holds everything else up because it cannot go any faster.** (узкое место (в процессе), затор)
+
+4. Legal review is the real *bottleneck* in our hiring.
+5. One slow machine created a *bottleneck* on the whole assembly line.
+6. They hired two more inspectors to clear the *bottleneck*.
 
 ---
 
@@ -1288,15 +1312,23 @@ A short broadcast telling drivers where the delays are.
 ### tailgating
 
 **Pronunciation:** /ˈteɪlɡeɪtɪŋ/ &middot; *TAYL-gay-ting*
-**Русский:** езда вплотную за впереди идущей машиной
+**Русский:** езда вплотную за впереди идущей машиной; пикник у машины на парковке перед матчем
 **Countability:** uncountable
 **Contrast:** In the US tailgating also means a parking-lot party before a football game.
 
-Driving too close behind the car in front.
+Tailgating has 2 distinct senses.
+
+**1. Driving too close behind the car in front.** (езда вплотную за впереди идущей машиной)
 
 1. *Tailgating* causes most rear-end crashes.
 2. He slowed down to discourage the *tailgating*.
 3. The trooper pulled her over for *tailgating*.
+
+**2. Eating and drinking at a party in a stadium parking lot before a game.** (пикник у машины на парковке перед матчем)
+
+4. *Tailgating* starts four hours before kickoff.
+5. We brought a grill and two coolers for *tailgating*.
+6. The lot opens early on game day for *tailgating*.
 
 ---
 

@@ -141,16 +141,24 @@ Cough has 2 distinct senses.
 ### headache
 
 **Pronunciation:** /ˈhɛdeɪk/ &middot; *HED-ayk*
-**Русский:** головная боль
+**Русский:** головная боль; головная боль (источник проблем)
 **Plural:** *headaches*
 **Countability:** countable
 **Contrast:** The -ache ending is /eɪk/, never /eɪtʃ/ — HED-ayk.
 
-A pain in the head.
+Headache has 2 distinct senses.
+
+**1. A pain in the head.** (головная боль)
 
 1. I have got a splitting *headache*.
 2. Skipping coffee gives me a *headache* by noon.
 3. Her *headaches* got better once she started sleeping more.
+
+**2. Something that causes a lot of trouble or annoyance.** (головная боль (источник проблем))
+
+4. The new billing system has been a *headache* from day one.
+5. Parking downtown is a real *headache*.
+6. Merging the two databases created *headaches* nobody predicted.
 
 ---
 
@@ -393,15 +401,29 @@ Burn has 2 distinct senses.
 ### fracture
 
 **Pronunciation:** /ˈfræktʃər/ &middot; *FRAK-chur*
-**Русский:** перелом, трещина в кости
+**Русский:** перелом, трещина в кости; трещина (в породе); раскол, разрыв
 **Plural:** *fractures*
 **Countability:** countable
 
-A crack or break in a bone.
+Fracture has 3 distinct senses.
+
+**1. A crack or break in a bone.** (перелом, трещина в кости)
 
 1. The X-ray showed a hairline *fracture*.
 2. She has a *fracture* in her left wrist.
 3. Stress *fractures* are common among runners.
+
+**2. A crack or split in rock or in the earth's crust.** (трещина (в породе))
+
+4. Rainwater works its way into every *fracture* in the limestone.
+5. Geologists mapped the *fractures* along the canyon wall.
+6. Gas escapes through *fractures* deep underground.
+
+**3. A serious split in a group, a party, or a relationship.** (раскол, разрыв)
+
+7. The vote exposed a deep *fracture* within the party.
+8. The strike left a *fracture* between management and the crew.
+9. Old *fractures* in the family reopened at the funeral.
 
 ---
 
@@ -533,14 +555,34 @@ Seizure has 2 distinct senses.
 ### depression
 
 **Pronunciation:** /dɪˈprɛʃən/ &middot; *dih-PRESH-uhn*
-**Русский:** депрессия
+**Русский:** депрессия; экономический кризис, депрессия (в экономике); впадина, углубление; область низкого давления; тропическая депрессия
 **Countability:** uncountable
 
-A mental illness marked by lasting sadness and loss of interest.
+Depression has 4 distinct senses.
+
+**1. A mental illness marked by lasting sadness and loss of interest.** (депрессия)
 
 1. She has been in therapy for *depression* since college.
 2. *Depression* is not the same thing as a bad week.
 3. Exercise helps his *depression* more than anything else.
+
+**2. A long period when an economy is very weak and many people are out of work.** (экономический кризис, депрессия (в экономике))
+
+4. My grandmother grew up during the *depression* and never wasted food.
+5. Economists argued over whether the slump was a recession or a *depression*.
+6. The *depression* of the 1930s left a quarter of workers without jobs.
+
+**3. A hollow or sunken place in a surface.** (впадина, углубление)
+
+7. Rainwater collected in a shallow *depression* in the yard.
+8. There was a *depression* in the mattress where he always slept.
+9. The map shows a wide *depression* between the two ridges.
+
+**4. An area of low air pressure that brings unsettled weather, especially the early stage of a tropical storm.** (область низкого давления; тропическая депрессия)
+
+10. The storm weakened into a tropical *depression* before it reached land.
+11. Forecasters are watching a *depression* forming off the coast.
+12. The *depression* is expected to strengthen into a hurricane by Friday.
 
 ---
 
@@ -691,15 +733,23 @@ A set of symptoms that regularly occur together.
 ### epidemic
 
 **Pronunciation:** /ˌɛpɪˈdɛmɪk/ &middot; *ep-ih-DEM-ik*
-**Русский:** эпидемия
+**Русский:** эпидемия; эпидемия (перен.), волна (чего-л. дурного)
 **Plural:** *epidemics*
 **Countability:** countable
 
-A fast spread of a disease through many people in one area.
+Epidemic has 2 distinct senses.
+
+**1. A fast spread of a disease through many people in one area.** (эпидемия)
 
 1. The city is dealing with an opioid *epidemic*.
 2. A measles *epidemic* closed two schools.
 3. Public health workers track *epidemics* in real time.
+
+**2. A sudden, widespread outbreak of something harmful other than disease.** (эпидемия (перен.), волна (чего-л. дурного))
+
+4. The city is dealing with an *epidemic* of car break-ins.
+5. Doctors now call teen loneliness an *epidemic*.
+6. There's an *epidemic* of fake reviews on shopping sites.
 
 ---
 
@@ -1053,30 +1103,58 @@ Medical treatment in which a doctor cuts into the body.
 ### operation
 
 **Pronunciation:** /ˌɑːpəˈreɪʃən/ &middot; *ah-puh-RAY-shuhn*
-**Русский:** операция
+**Русский:** операция; операция (военная, полицейская, спасательная); предприятие, дело; работа, функционирование, действие
 **Plural:** *operations*
 **Countability:** countable
 
-A single act of surgery on a patient.
+Operation has 4 distinct senses.
+
+**1. A single act of surgery on a patient.** (операция)
 
 1. The *operation* lasted four hours.
 2. He has had two *operations* on the same knee.
 3. It is a routine *operation* these days.
+
+**2. A planned action carried out by soldiers, police, or rescue workers.** (операция (военная, полицейская, спасательная))
+
+4. The rescue *operation* went on all through the night.
+5. Federal agents ran a year-long *operation* against the gang.
+6. *Operations* along the border have been scaled back.
+
+**3. A business or organized activity, or the place where it is run.** (предприятие, дело)
+
+7. They run a small farming *operation* outside of Boise.
+8. The whole *operation* employs about forty people.
+9. Police shut down an illegal gambling *operation* downtown.
+
+**4. The working of a machine, system, or law, or the fact that it is working.** (работа, функционирование, действие)
+
+10. The manual explains the safe *operation* of the saw.
+11. The new rules come into *operation* in January.
+12. Quiet *operation* is the main selling point of this dishwasher.
 
 ---
 
 ### injection
 
 **Pronunciation:** /ɪnˈdʒɛkʃən/ &middot; *in-JEK-shuhn*
-**Русский:** укол, инъекция
+**Русский:** укол, инъекция; вливание (денежных средств)
 **Plural:** *injections*
 **Countability:** countable
 
-Medicine put into the body with a needle.
+Injection has 2 distinct senses.
+
+**1. Medicine put into the body with a needle.** (укол, инъекция)
 
 1. The *injection* stung for a second.
 2. She gives herself *injections* twice a day.
 3. One *injection* every three months keeps it under control.
+
+**2. A sudden addition of money into a business, a project, or an economy.** (вливание (денежных средств))
+
+4. The startup survived on a last-minute *injection* of cash.
+5. The transit system needs a major *injection* of federal money.
+6. Two capital *injections* kept the airline flying.
 
 ---
 
@@ -1267,15 +1345,23 @@ Medicine that stops you from feeling pain during surgery.
 ### recovery
 
 **Pronunciation:** /rɪˈkʌvəri/ &middot; *rih-KUV-uh-ree*
-**Русский:** выздоровление, восстановление
+**Русский:** выздоровление, восстановление; возвращение, извлечение (утраченного)
 **Plural:** *recoveries*
 **Countability:** countable
 
-The process of getting well again after illness or injury.
+Recovery has 2 distinct senses.
+
+**1. The process of getting well again after illness or injury.** (выздоровление, восстановление)
 
 1. She made a full *recovery*.
 2. *Recovery* from the surgery takes about a month.
 3. The doctors called it one of the fastest *recoveries* they had seen.
+
+**2. The getting back of something that was lost, stolen, or damaged.** (возвращение, извлечение (утраченного))
+
+4. The *recovery* of the stolen paintings took years.
+5. Divers helped with the *recovery* of the wreckage.
+6. He paid a shop for data *recovery* after the drive failed.
 
 ---
 
@@ -1335,15 +1421,23 @@ A routine medical examination done when you are not sick.
 ### appointment
 
 **Pronunciation:** /əˈpɔɪntmənt/ &middot; *uh-POYNT-muhnt*
-**Русский:** приём у врача, запись
+**Русский:** приём у врача, запись; назначение (на должность)
 **Plural:** *appointments*
 **Countability:** countable
 
-An arranged time to see a doctor or other professional.
+Appointment has 2 distinct senses.
+
+**1. An arranged time to see a doctor or other professional.** (приём у врача, запись)
 
 1. I have a doctor's *appointment* at ten.
 2. Can I move my *appointment* to Friday?
 3. She had three *appointments* in one week.
+
+**2. The act of choosing someone for a job or position, or the position itself.** (назначение (на должность))
+
+4. Her *appointment* as chief of staff was announced Friday.
+5. A federal judge's *appointment* is for life.
+6. Several political *appointments* are still awaiting confirmation.
 
 ---
 
@@ -1434,15 +1528,23 @@ A natural substance the body needs in small amounts to stay healthy.
 ### supplement
 
 **Pronunciation:** /ˈsʌpləmənt/ &middot; *SUP-luh-muhnt*
-**Русский:** пищевая добавка, БАД
+**Русский:** пищевая добавка, БАД; приложение, вкладка (к изданию)
 **Plural:** *supplements*
 **Countability:** countable
 
-A pill or powder taken to add nutrients to the diet.
+Supplement has 2 distinct senses.
+
+**1. A pill or powder taken to add nutrients to the diet.** (пищевая добавка, БАД)
 
 1. He takes an iron *supplement*.
 2. Most *supplements* are not tested the way drugs are.
 3. Ask your doctor before starting a new *supplement*.
+
+**2. An extra section added to a book, a newspaper, or a report.** (приложение, вкладка (к изданию))
+
+4. The Sunday paper comes with a travel *supplement*.
+5. The new findings were published as a *supplement* to the original study.
+6. She kept the crossword *supplement* and threw the rest away.
 
 ---
 
@@ -1545,15 +1647,23 @@ Clinic has 2 distinct senses.
 ### pharmacy
 
 **Pronunciation:** /ˈfɑːrməsi/ &middot; *FAHR-muh-see*
-**Русский:** аптека
+**Русский:** аптека; фармация (наука, профессия)
 **Plural:** *pharmacies*
 **Countability:** countable
 
-A place where medicines are prepared and sold.
+Pharmacy has 2 distinct senses.
+
+**1. A place where medicines are prepared and sold.** (аптека)
 
 1. The *pharmacy* closes at nine.
 2. I will swing by the *pharmacy* on my way home.
 3. Most *pharmacies* give flu shots now.
+
+**2. The science and profession of preparing and dispensing medicines.** (фармация (наука, профессия))
+
+4. She studied *pharmacy* at the state university.
+5. He has a doctorate in *pharmacy*.
+6. *Pharmacy* is a six-year program at that school.
 
 ---
 
@@ -1792,15 +1902,23 @@ A doctor with expert training in one area of medicine.
 ### insurance
 
 **Pronunciation:** /ɪnˈʃʊrəns/ &middot; *in-SHOOR-uhns*
-**Русский:** страховка, страхование
+**Русский:** страховка, страхование; подстраховка, гарантия (перен.)
 **Countability:** uncountable
 **Contrast:** Uncountable — say *I have insurance*, never *an insurance*.
 
-An arrangement in which a company pays part of your medical costs.
+Insurance has 2 distinct senses.
+
+**1. An arrangement in which a company pays part of your medical costs.** (страховка, страхование)
 
 1. Does your *insurance* cover physical therapy?
 2. He lost his health *insurance* when the job ended.
 3. Bring your *insurance* card to the appointment.
+
+**2. Something you do or keep as protection in case things go wrong.** (подстраховка, гарантия (перен.))
+
+4. I packed a second flashlight as *insurance*.
+5. He saved the emails as *insurance* in case anyone denied it.
+6. Three months' pay in the bank is cheap *insurance* against a layoff.
 
 ---
 
@@ -2103,11 +2221,19 @@ Donor has 2 distinct senses.
 ### immunity
 
 **Pronunciation:** /ɪˈmjuːnəti/ &middot; *ih-MYOO-nuh-tee*
-**Русский:** иммунитет
+**Русский:** иммунитет; неприкосновенность, освобождение от ответственности
 **Countability:** uncountable
 
-The body's ability to resist a particular disease.
+Immunity has 2 distinct senses.
+
+**1. The body's ability to resist a particular disease.** (иммунитет)
 
 1. The shot gives you *immunity* for about a year.
 2. *Immunity* fades over time.
 3. Kids build *immunity* by getting sick a lot.
+
+**2. Legal protection that keeps someone from being prosecuted or punished.** (неприкосновенность, освобождение от ответственности)
+
+4. The witness testified only after prosecutors granted him *immunity*.
+5. The driver claimed diplomatic *immunity* and was never charged.
+6. The law gives police officers broad *immunity* from such lawsuits.

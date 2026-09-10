@@ -2360,14 +2360,73 @@
       "term": "collection",
       "ipa": "/kəˈlɛkʃən/",
       "respell": "kuh-LEK-shun",
-      "meaning": "The set of clothes a designer shows for one season. ---",
+      "meaning": "Collection has 4 distinct senses.",
       "examples": [
         "Her fall collection was all gray and black.",
         "The house shows two collections a year.",
-        "Nothing in the collection costs under a thousand dollars."
+        "Nothing in the collection costs under a thousand dollars.",
+        "His stamp collection fills four albums.",
+        "The museum's collection includes two Rembrandts.",
+        "She left her record collection to the town library.",
+        "They passed the plate for the Sunday collection.",
+        "The office took up a collection for her hospital bills.",
+        "The collection raised almost four hundred dollars.",
+        "Trash collection is on Tuesday mornings.",
+        "There is no mail collection on federal holidays.",
+        "The city moved recycling collection to every other week."
       ],
-      "senses": [],
-      "русский": "коллекция (одежды)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The set of clothes a designer shows for one season",
+          "body": [
+            "(коллекция (одежды))"
+          ],
+          "examples": [
+            "Her fall collection was all gray and black.",
+            "The house shows two collections a year.",
+            "Nothing in the collection costs under a thousand dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of objects of one kind that someone has gathered and keeps together",
+          "body": [
+            "(коллекция, собрание)"
+          ],
+          "examples": [
+            "His stamp collection fills four albums.",
+            "The museum's collection includes two Rembrandts.",
+            "She left her record collection to the town library."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Money gathered from a group of people for a church or a cause",
+          "body": [
+            "(сбор денег, пожертвования)"
+          ],
+          "examples": [
+            "They passed the plate for the Sunday collection.",
+            "The office took up a collection for her hospital bills.",
+            "The collection raised almost four hundred dollars."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The regular picking up of trash or mail",
+          "body": [
+            "(вывоз (мусора), выемка (почты))",
+            "---"
+          ],
+          "examples": [
+            "Trash collection is on Tuesday mornings.",
+            "There is no mail collection on federal holidays.",
+            "The city moved recycling collection to every other week."
+          ]
+        }
+      ],
+      "русский": "коллекция (одежды); коллекция, собрание; сбор денег, пожертвования; вывоз (мусора), выемка (почты)",
       "plural": "collections",
       "countability": "countable"
     },
@@ -2642,14 +2701,43 @@
       "term": "shrinkage",
       "ipa": "/ˈʃrɪŋkɪdʒ/",
       "respell": "SHRINK-ij",
-      "meaning": "The amount a fabric gets smaller when it is washed. ---",
+      "meaning": "Shrinkage has 2 distinct senses.",
       "examples": [
         "Allow for shrinkage when you cut the fabric.",
         "There's about five percent shrinkage in cotton.",
-        "Prewashing takes care of most of the shrinkage."
+        "Prewashing takes care of most of the shrinkage.",
+        "Shrinkage ate up almost two percent of the chain's sales.",
+        "Cameras at the exits cut shrinkage in half.",
+        "Store managers get a bonus if shrinkage stays under target."
       ],
-      "senses": [],
-      "русский": "усадка (ткани)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a fabric gets smaller when it is washed",
+          "body": [
+            "(усадка (ткани))"
+          ],
+          "examples": [
+            "Allow for shrinkage when you cut the fabric.",
+            "There's about five percent shrinkage in cotton.",
+            "Prewashing takes care of most of the shrinkage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The loss of a store's goods to theft, damage, or bookkeeping errors",
+          "body": [
+            "(потери товара (от краж и порчи))",
+            "---"
+          ],
+          "examples": [
+            "Shrinkage ate up almost two percent of the chain's sales.",
+            "Cameras at the exits cut shrinkage in half.",
+            "Store managers get a bonus if shrinkage stays under target."
+          ]
+        }
+      ],
+      "русский": "усадка (ткани); потери товара (от краж и порчи)",
       "countability": "uncountable",
       "contrast": "Uncountable — some shrinkage, never a shrinkage."
     },

@@ -1940,15 +1940,35 @@ A narrow raised walkway, especially the one used in fashion shows.
 ### collection
 
 **Pronunciation:** /kəˈlɛkʃən/ &middot; *kuh-LEK-shun*
-**Русский:** коллекция (одежды)
+**Русский:** коллекция (одежды); коллекция, собрание; сбор денег, пожертвования; вывоз (мусора), выемка (почты)
 **Plural:** *collections*
 **Countability:** countable
 
-The set of clothes a designer shows for one season.
+Collection has 4 distinct senses.
+
+**1. The set of clothes a designer shows for one season.** (коллекция (одежды))
 
 1. Her fall *collection* was all gray and black.
 2. The house shows two *collections* a year.
 3. Nothing in the *collection* costs under a thousand dollars.
+
+**2. A group of objects of one kind that someone has gathered and keeps together.** (коллекция, собрание)
+
+4. His stamp *collection* fills four albums.
+5. The museum's *collection* includes two Rembrandts.
+6. She left her record *collection* to the town library.
+
+**3. Money gathered from a group of people for a church or a cause.** (сбор денег, пожертвования)
+
+7. They passed the plate for the Sunday *collection*.
+8. The office took up a *collection* for her hospital bills.
+9. The *collection* raised almost four hundred dollars.
+
+**4. The regular picking up of trash or mail.** (вывоз (мусора), выемка (почты))
+
+10. Trash *collection* is on Tuesday mornings.
+11. There is no mail *collection* on federal holidays.
+12. The city moved recycling *collection* to every other week.
 
 ---
 
@@ -2132,15 +2152,23 @@ Snag has 2 distinct senses.
 ### shrinkage
 
 **Pronunciation:** /ˈʃrɪŋkɪdʒ/ &middot; *SHRINK-ij*
-**Русский:** усадка (ткани)
+**Русский:** усадка (ткани); потери товара (от краж и порчи)
 **Countability:** uncountable
 **Contrast:** Uncountable — some *shrinkage*, never a shrinkage.
 
-The amount a fabric gets smaller when it is washed.
+Shrinkage has 2 distinct senses.
+
+**1. The amount a fabric gets smaller when it is washed.** (усадка (ткани))
 
 1. Allow for *shrinkage* when you cut the fabric.
 2. There's about five percent *shrinkage* in cotton.
 3. Prewashing takes care of most of the *shrinkage*.
+
+**2. The loss of a store's goods to theft, damage, or bookkeeping errors.** (потери товара (от краж и порчи))
+
+4. *Shrinkage* ate up almost two percent of the chain's sales.
+5. Cameras at the exits cut *shrinkage* in half.
+6. Store managers get a bonus if *shrinkage* stays under target.
 
 ---
 

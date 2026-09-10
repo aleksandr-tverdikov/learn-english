@@ -170,14 +170,43 @@
       "term": "creature",
       "ipa": "/ˈkriːtʃər/",
       "respell": "KREE-chur",
-      "meaning": "Any living animal, especially one that seems strange or unfamiliar. ---",
+      "meaning": "Creature has 2 distinct senses.",
       "examples": [
         "Some creature was scratching around under the deck all night.",
         "Tide pools are full of tiny creatures.",
-        "It looked like a creature out of a science fiction movie."
+        "It looked like a creature out of a science fiction movie.",
+        "I'm a creature of habit — the same breakfast every day.",
+        "He is a creature of the party machine and always was.",
+        "She's a creature of the theater, at home nowhere else."
       ],
-      "senses": [],
-      "русский": "существо, тварь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Any living animal, especially one that seems strange or unfamiliar",
+          "body": [
+            "(существо, тварь)"
+          ],
+          "examples": [
+            "Some creature was scratching around under the deck all night.",
+            "Tide pools are full of tiny creatures.",
+            "It looked like a creature out of a science fiction movie."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose behavior is completely shaped by some habit or force",
+          "body": [
+            "(человек определённого склада; порождение (среды))",
+            "---"
+          ],
+          "examples": [
+            "I'm a creature of habit — the same breakfast every day.",
+            "He is a creature of the party machine and always was.",
+            "She's a creature of the theater, at home nowhere else."
+          ]
+        }
+      ],
+      "русский": "существо, тварь; человек определённого склада; порождение (среды)",
       "plural": "creatures",
       "countability": "countable"
     },
@@ -834,14 +863,58 @@
       "term": "butterfly",
       "ipa": "/ˈbʌtərflaɪ/",
       "respell": "BUT-ur-fly",
-      "meaning": "An insect with large colorful wings that flies during the day. ---",
+      "meaning": "Butterfly has 3 distinct senses.",
       "examples": [
         "A butterfly landed on the edge of the birdbath.",
         "The milkweed brings butterflies into the yard.",
-        "She photographed the butterfly before it flew off."
+        "She photographed the butterfly before it flew off.",
+        "She swims the butterfly in the two-hundred-meter final.",
+        "Butterfly is the hardest stroke to learn.",
+        "He shaved a second off his butterfly time this season.",
+        "I still get butterflies before a presentation.",
+        "She had butterflies the whole ride to the airport.",
+        "A few butterflies before a big game are perfectly normal."
       ],
-      "senses": [],
-      "русский": "бабочка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An insect with large colorful wings that flies during the day",
+          "body": [
+            "(бабочка)"
+          ],
+          "examples": [
+            "A butterfly landed on the edge of the birdbath.",
+            "The milkweed brings butterflies into the yard.",
+            "She photographed the butterfly before it flew off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fast swimming stroke in which both arms sweep forward over the water together",
+          "body": [
+            "(баттерфляй (стиль плавания))"
+          ],
+          "examples": [
+            "She swims the butterfly in the two-hundred-meter final.",
+            "Butterfly is the hardest stroke to learn.",
+            "He shaved a second off his butterfly time this season."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fluttering feeling of nervousness in the stomach, usually used in the plural",
+          "body": [
+            "(мандраж, «бабочки в животе»)",
+            "---"
+          ],
+          "examples": [
+            "I still get butterflies before a presentation.",
+            "She had butterflies the whole ride to the airport.",
+            "A few butterflies before a big game are perfectly normal."
+          ]
+        }
+      ],
+      "русский": "бабочка; баттерфляй (стиль плавания); мандраж, «бабочки в животе»",
       "plural": "butterflies",
       "countability": "countable"
     },
@@ -1230,14 +1303,43 @@
       "term": "exoskeleton",
       "ipa": "/ˌɛksoʊˈskɛlətən/",
       "respell": "ek-soh-SKEL-uh-tuhn",
-      "meaning": "The hard outer shell that supports and protects an insect's body. ---",
+      "meaning": "Exoskeleton has 2 distinct senses.",
       "examples": [
         "An insect grows by shedding its exoskeleton.",
         "The empty exoskeleton was still clinging to the bark.",
-        "Crabs and beetles both have exoskeletons."
+        "Crabs and beetles both have exoskeletons.",
+        "The warehouse gave its lifters a powered exoskeleton to protect their backs.",
+        "A robotic exoskeleton helped him walk again after the injury.",
+        "The Army is testing exoskeletons for soldiers carrying heavy packs."
       ],
-      "senses": [],
-      "русский": "наружный скелет, экзоскелет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard outer shell that supports and protects an insect's body",
+          "body": [
+            "(наружный скелет, экзоскелет)"
+          ],
+          "examples": [
+            "An insect grows by shedding its exoskeleton.",
+            "The empty exoskeleton was still clinging to the bark.",
+            "Crabs and beetles both have exoskeletons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A powered frame worn on the body to support or strengthen a person's movements",
+          "body": [
+            "(экзоскелет (носимое устройство))",
+            "---"
+          ],
+          "examples": [
+            "The warehouse gave its lifters a powered exoskeleton to protect their backs.",
+            "A robotic exoskeleton helped him walk again after the injury.",
+            "The Army is testing exoskeletons for soldiers carrying heavy packs."
+          ]
+        }
+      ],
+      "русский": "наружный скелет, экзоскелет; экзоскелет (носимое устройство)",
       "plural": "exoskeletons",
       "countability": "countable"
     },
@@ -1833,14 +1935,43 @@
       "term": "chameleon",
       "ipa": "/kəˈmiːliən/",
       "respell": "kuh-MEE-lee-uhn",
-      "meaning": "A lizard that can change the color of its skin. ---",
+      "meaning": "Chameleon has 2 distinct senses.",
       "examples": [
         "The chameleon turned nearly black when it got cold.",
         "Chameleons move one slow step at a time.",
-        "Each eye of a chameleon moves on its own."
+        "Each eye of a chameleon moves on its own.",
+        "As a candidate he was a chameleon, telling each crowd what it wanted to hear.",
+        "A good salesman has to be something of a chameleon.",
+        "She's a social chameleon and fits in anywhere."
       ],
-      "senses": [],
-      "русский": "хамелеон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A lizard that can change the color of its skin",
+          "body": [
+            "(хамелеон)"
+          ],
+          "examples": [
+            "The chameleon turned nearly black when it got cold.",
+            "Chameleons move one slow step at a time.",
+            "Each eye of a chameleon moves on its own."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who changes their behavior or opinions to suit whoever they are with",
+          "body": [
+            "(хамелеон (о человеке), приспособленец)",
+            "---"
+          ],
+          "examples": [
+            "As a candidate he was a chameleon, telling each crowd what it wanted to hear.",
+            "A good salesman has to be something of a chameleon.",
+            "She's a social chameleon and fits in anywhere."
+          ]
+        }
+      ],
+      "русский": "хамелеон; хамелеон (о человеке), приспособленец",
       "plural": "chameleons",
       "countability": "countable",
       "contrast": "The ch is a k sound: kuh-MEE-lee-uhn."
@@ -2305,14 +2436,43 @@
       "term": "camouflage",
       "ipa": "/ˈkæməflɑːʒ/",
       "respell": "KAM-uh-flahzh",
-      "meaning": "Coloring or shape that lets an animal blend into its surroundings. ---",
+      "meaning": "Camouflage has 2 distinct senses.",
       "examples": [
         "The moth's camouflage makes it invisible on bark.",
         "That lizard relies entirely on camouflage.",
-        "Snow gives the hare perfect camouflage in winter."
+        "Snow gives the hare perfect camouflage in winter.",
+        "He hunts in camouflage from head to toe.",
+        "Both boys wanted backpacks in camouflage.",
+        "Soldiers in desert camouflage were posted at the gate."
       ],
-      "senses": [],
-      "русский": "маскировка, камуфляж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Coloring or shape that lets an animal blend into its surroundings",
+          "body": [
+            "(маскировка, камуфляж)"
+          ],
+          "examples": [
+            "The moth's camouflage makes it invisible on bark.",
+            "That lizard relies entirely on camouflage.",
+            "Snow gives the hare perfect camouflage in winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Cloth or clothing printed in a mottled green-and-brown pattern, worn by soldiers and hunters",
+          "body": [
+            "(камуфляж (ткань, одежда))",
+            "---"
+          ],
+          "examples": [
+            "He hunts in camouflage from head to toe.",
+            "Both boys wanted backpacks in camouflage.",
+            "Soldiers in desert camouflage were posted at the gate."
+          ]
+        }
+      ],
+      "русский": "маскировка, камуфляж; камуфляж (ткань, одежда)",
       "countability": "uncountable",
       "contrast": "The ending is said -flahzh, with the soft zh of measure, not -flayj."
     },

@@ -36,14 +36,43 @@
       "term": "population",
       "ipa": "/ˌpɑːpjəˈleɪʃən/",
       "respell": "pah-pyuh-LAY-shun",
-      "meaning": "All the people living in a particular place. ---",
+      "meaning": "Population has 2 distinct senses.",
       "examples": [
         "The town's population has doubled since 1990.",
         "Rural populations are shrinking across the Midwest.",
-        "About a third of the population voted."
+        "About a third of the population voted.",
+        "The wolf population has recovered since the ban on hunting.",
+        "Warmer water is shrinking the salmon population.",
+        "Biologists count the deer populations in each county every spring."
       ],
-      "senses": [],
-      "русский": "население",
+      "senses": [
+        {
+          "n": "1",
+          "head": "All the people living in a particular place",
+          "body": [
+            "(население)"
+          ],
+          "examples": [
+            "The town's population has doubled since 1990.",
+            "Rural populations are shrinking across the Midwest.",
+            "About a third of the population voted."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "All the animals or plants of one kind living in an area",
+          "body": [
+            "(популяция (животных, растений))",
+            "---"
+          ],
+          "examples": [
+            "The wolf population has recovered since the ban on hunting.",
+            "Warmer water is shrinking the salmon population.",
+            "Biologists count the deer populations in each county every spring."
+          ]
+        }
+      ],
+      "русский": "население; популяция (животных, растений)",
       "plural": "populations",
       "countability": "countable"
     },
@@ -67,28 +96,86 @@
       "term": "humanity",
       "ipa": "/hjuːˈmænəti/",
       "respell": "hyoo-MAN-uh-tee",
-      "meaning": "The human race as a whole, or the quality of being kind to others. ---",
+      "meaning": "Humanity has 2 distinct senses.",
       "examples": [
         "A disease that threatens all of humanity.",
         "She showed real humanity toward the refugees.",
-        "Crimes against humanity carry no statute of limitations."
+        "Crimes against humanity carry no statute of limitations.",
+        "She majored in the humanities and then went to law school.",
+        "Federal funding for the humanities has been cut again.",
+        "The college requires two years of humanities before you can graduate."
       ],
-      "senses": [],
-      "русский": "человечество; человечность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The human race as a whole, or the quality of being kind to others",
+          "body": [
+            "(человечество; человечность)"
+          ],
+          "examples": [
+            "A disease that threatens all of humanity.",
+            "She showed real humanity toward the refugees.",
+            "Crimes against humanity carry no statute of limitations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The academic subjects that study human culture, such as literature, history, and philosophy, used in the plural",
+          "body": [
+            "(гуманитарные науки)",
+            "---"
+          ],
+          "examples": [
+            "She majored in the humanities and then went to law school.",
+            "Federal funding for the humanities has been cut again.",
+            "The college requires two years of humanities before you can graduate."
+          ]
+        }
+      ],
+      "русский": "человечество; человечность; гуманитарные науки",
       "countability": "uncountable"
     },
     {
       "term": "institution",
       "ipa": "/ˌɪnstɪˈtuːʃən/",
       "respell": "in-stih-TOO-shun",
-      "meaning": "A large, established organization such as a bank, a school, or a hospital. ---",
+      "meaning": "Institution has 2 distinct senses.",
       "examples": [
         "The university is the oldest institution in the state.",
         "Financial institutions tightened their lending rules.",
-        "Marriage is an institution that keeps changing."
+        "Marriage is an institution that keeps changing.",
+        "The institution of marriage has changed a great deal in fifty years.",
+        "Historians trace how the institution of slavery shaped the South.",
+        "Friday night football is a small-town institution."
       ],
-      "senses": [],
-      "русский": "учреждение, институт (организация)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large, established organization such as a bank, a school, or a hospital",
+          "body": [
+            "(учреждение, институт (организация))"
+          ],
+          "examples": [
+            "The university is the oldest institution in the state.",
+            "Financial institutions tightened their lending rules.",
+            "Marriage is an institution that keeps changing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A custom or practice that has been an important part of a society for a long time",
+          "body": [
+            "(устой, общественный институт (обычай))",
+            "---"
+          ],
+          "examples": [
+            "The institution of marriage has changed a great deal in fifty years.",
+            "Historians trace how the institution of slavery shaped the South.",
+            "Friday night football is a small-town institution."
+          ]
+        }
+      ],
+      "русский": "учреждение, институт (организация); устой, общественный институт (обычай)",
       "plural": "institutions",
       "countability": "countable",
       "contrast": "Americans say in-stih-TOO-shun; the British add a y sound: in-stih-TYOO-shun."
@@ -97,14 +184,43 @@
       "term": "hierarchy",
       "ipa": "/ˈhaɪəˌrɑːrki/",
       "respell": "HY-uh-rar-kee",
-      "meaning": "A system in which people or things are ranked one above another. ---",
+      "meaning": "Hierarchy has 2 distinct senses.",
       "examples": [
         "The company has a strict hierarchy.",
         "Wolves live in a clear social hierarchy.",
-        "She rose quickly through the hierarchy."
+        "She rose quickly through the hierarchy.",
+        "The church hierarchy refused to comment on the report.",
+        "Nobody in the company's hierarchy would take responsibility.",
+        "The decision came straight from the party hierarchy."
       ],
-      "senses": [],
-      "русский": "иерархия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A system in which people or things are ranked one above another",
+          "body": [
+            "(иерархия)"
+          ],
+          "examples": [
+            "The company has a strict hierarchy.",
+            "Wolves live in a clear social hierarchy.",
+            "She rose quickly through the hierarchy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The group of people who hold the top positions in an organization",
+          "body": [
+            "(руководство, верхушка (организации))",
+            "---"
+          ],
+          "examples": [
+            "The church hierarchy refused to comment on the report.",
+            "Nobody in the company's hierarchy would take responsibility.",
+            "The decision came straight from the party hierarchy."
+          ]
+        }
+      ],
+      "русский": "иерархия; руководство, верхушка (организации)",
       "plural": "hierarchies",
       "countability": "countable",
       "contrast": "The ch is said like k, and the stress is on the first syllable: HY-uh-rar-kee."
@@ -160,14 +276,43 @@
       "term": "nobility",
       "ipa": "/noʊˈbɪləti/",
       "respell": "noh-BIL-uh-tee",
-      "meaning": "The people of the highest social rank, who hold inherited titles. ---",
+      "meaning": "Nobility has 2 distinct senses.",
       "examples": [
         "The nobility paid almost no taxes.",
         "He can trace his family back to the medieval nobility.",
-        "Members of the nobility were exempt from military service."
+        "Members of the nobility were exempt from military service.",
+        "There was real nobility in the way he accepted the loss.",
+        "She admired the quiet nobility of her grandmother's life.",
+        "The film finds nobility in ordinary work."
       ],
-      "senses": [],
-      "русский": "знать, дворянство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The people of the highest social rank, who hold inherited titles",
+          "body": [
+            "(знать, дворянство)"
+          ],
+          "examples": [
+            "The nobility paid almost no taxes.",
+            "He can trace his family back to the medieval nobility.",
+            "Members of the nobility were exempt from military service."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of being honorable and generous in character",
+          "body": [
+            "(благородство)",
+            "---"
+          ],
+          "examples": [
+            "There was real nobility in the way he accepted the loss.",
+            "She admired the quiet nobility of her grandmother's life.",
+            "The film finds nobility in ordinary work."
+          ]
+        }
+      ],
+      "русский": "знать, дворянство; благородство",
       "countability": "uncountable"
     },
     {
@@ -294,14 +439,58 @@
       "term": "association",
       "ipa": "/əˌsoʊsiˈeɪʃən/",
       "respell": "uh-soh-see-AY-shun",
-      "meaning": "An organized group of people who share an interest or a profession. ---",
+      "meaning": "Association has 3 distinct senses.",
       "examples": [
         "The neighborhood association voted on the fence rules.",
         "He joined the state bar association.",
-        "Several trade associations opposed the bill."
+        "Several trade associations opposed the bill.",
+        "The word carries negative associations for a lot of people.",
+        "That song has happy associations for me.",
+        "The old house held painful associations she could not shake.",
+        "Studies show an association between smoking and heart disease.",
+        "He ended his association with the firm last year.",
+        "The town has a long association with the auto industry."
       ],
-      "senses": [],
-      "русский": "ассоциация, объединение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized group of people who share an interest or a profession",
+          "body": [
+            "(ассоциация, объединение)"
+          ],
+          "examples": [
+            "The neighborhood association voted on the fence rules.",
+            "He joined the state bar association.",
+            "Several trade associations opposed the bill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling, memory, or idea that something brings to mind",
+          "body": [
+            "(ассоциация (мысленная связь))"
+          ],
+          "examples": [
+            "The word carries negative associations for a lot of people.",
+            "That song has happy associations for me.",
+            "The old house held painful associations she could not shake."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A connection or link between two things, or between a person and a group",
+          "body": [
+            "(связь, взаимосвязь)",
+            "---"
+          ],
+          "examples": [
+            "Studies show an association between smoking and heart disease.",
+            "He ended his association with the firm last year.",
+            "The town has a long association with the auto industry."
+          ]
+        }
+      ],
+      "русский": "ассоциация, объединение; ассоциация (мысленная связь); связь, взаимосвязь",
       "plural": "associations",
       "countability": "countable"
     },
@@ -384,14 +573,43 @@
       "term": "membership",
       "ipa": "/ˈmɛmbərʃɪp/",
       "respell": "MEM-bur-ship",
-      "meaning": "The state of belonging to a group, or a paid right to use something. ---",
+      "meaning": "Membership has 2 distinct senses.",
       "examples": [
         "Membership in the union is voluntary.",
         "He let his gym membership lapse.",
-        "They sell family memberships at a discount."
+        "They sell family memberships at a discount.",
+        "The union's membership voted to accept the contract.",
+        "The club surveyed its membership about the dues increase.",
+        "Our membership is mostly retired teachers and nurses."
       ],
-      "senses": [],
-      "русский": "членство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of belonging to a group, or a paid right to use something",
+          "body": [
+            "(членство)"
+          ],
+          "examples": [
+            "Membership in the union is voluntary.",
+            "He let his gym membership lapse.",
+            "They sell family memberships at a discount."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "All the people who belong to an organization, taken together",
+          "body": [
+            "(члены организации, состав)",
+            "---"
+          ],
+          "examples": [
+            "The union's membership voted to accept the contract.",
+            "The club surveyed its membership about the dues increase.",
+            "Our membership is mostly retired teachers and nurses."
+          ]
+        }
+      ],
+      "русский": "членство; члены организации, состав",
       "plural": "memberships",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Uncountable for belonging (membership is voluntary); countable for a subscription (two memberships)."
@@ -400,28 +618,86 @@
       "term": "leadership",
       "ipa": "/ˈliːdərʃɪp/",
       "respell": "LEE-dur-ship",
-      "meaning": "The position of leading a group, or the ability to lead one well. ---",
+      "meaning": "Leadership has 2 distinct senses.",
       "examples": [
         "The company needs stronger leadership.",
         "Under her leadership, membership doubled.",
-        "He showed real leadership during the crisis."
+        "He showed real leadership during the crisis.",
+        "The union's leadership voted to accept the offer.",
+        "Party leadership met behind closed doors.",
+        "New leadership took over the company last spring."
       ],
-      "senses": [],
-      "русский": "руководство, лидерство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The position of leading a group, or the ability to lead one well",
+          "body": [
+            "(руководство, лидерство)"
+          ],
+          "examples": [
+            "The company needs stronger leadership.",
+            "Under her leadership, membership doubled.",
+            "He showed real leadership during the crisis."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The people who lead an organization, taken together",
+          "body": [
+            "(руководство (руководящий состав))",
+            "---"
+          ],
+          "examples": [
+            "The union's leadership voted to accept the offer.",
+            "Party leadership met behind closed doors.",
+            "New leadership took over the company last spring."
+          ]
+        }
+      ],
+      "русский": "руководство, лидерство; руководство (руководящий состав)",
       "countability": "uncountable"
     },
     {
       "term": "demographic",
       "ipa": "/ˌdɛməˈɡræfɪk/",
       "respell": "dem-uh-GRA-fik",
-      "meaning": "A particular group of people defined by age, income, or similar traits. ---",
+      "meaning": "Demographic has 2 distinct senses.",
       "examples": [
         "The show is aimed at a young demographic.",
         "Advertisers track several demographics at once.",
-        "That demographic votes at very high rates."
+        "That demographic votes at very high rates.",
+        "The demographics of the town have changed a lot in ten years.",
+        "The chain studies the demographics of a neighborhood before opening a store.",
+        "Shifting demographics are reshaping the school district."
       ],
-      "senses": [],
-      "русский": "демографическая группа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular group of people defined by age, income, or similar traits",
+          "body": [
+            "(демографическая группа)"
+          ],
+          "examples": [
+            "The show is aimed at a young demographic.",
+            "Advertisers track several demographics at once.",
+            "That demographic votes at very high rates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The statistical make-up of a population, such as its age, income, and racial mix",
+          "body": [
+            "(демографические характеристики, состав населения)",
+            "---"
+          ],
+          "examples": [
+            "The demographics of the town have changed a lot in ten years.",
+            "The chain studies the demographics of a neighborhood before opening a store.",
+            "Shifting demographics are reshaping the school district."
+          ]
+        }
+      ],
+      "русский": "демографическая группа; демографические характеристики, состав населения",
       "plural": "demographics",
       "countability": "countable",
       "contrast": "The plural demographics also means the statistics about a population."
@@ -978,14 +1254,43 @@
       "term": "guardian",
       "ipa": "/ˈɡɑːrdiən/",
       "respell": "GAR-dee-un",
-      "meaning": "An adult who is legally responsible for a child who is not their own. ---",
+      "meaning": "Guardian has 2 distinct senses.",
       "examples": [
         "A court appointed his aunt as his guardian.",
         "Guardians must sign the permission slip.",
-        "She became the guardian of her two nephews."
+        "She became the guardian of her two nephews.",
+        "The courts see themselves as guardians of the Constitution.",
+        "She became the guardian of her grandfather's letters and photographs.",
+        "Editors are supposed to be guardians of accuracy."
       ],
-      "senses": [],
-      "русский": "опекун",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An adult who is legally responsible for a child who is not their own",
+          "body": [
+            "(опекун)"
+          ],
+          "examples": [
+            "A court appointed his aunt as his guardian.",
+            "Guardians must sign the permission slip.",
+            "She became the guardian of her two nephews."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or group that protects or defends something",
+          "body": [
+            "(страж, защитник, хранитель)",
+            "---"
+          ],
+          "examples": [
+            "The courts see themselves as guardians of the Constitution.",
+            "She became the guardian of her grandfather's letters and photographs.",
+            "Editors are supposed to be guardians of accuracy."
+          ]
+        }
+      ],
+      "русский": "опекун; страж, защитник, хранитель",
       "plural": "guardians",
       "countability": "countable"
     },
@@ -1039,14 +1344,43 @@
       "term": "bachelor",
       "ipa": "/ˈbætʃələr/",
       "respell": "BATCH-uh-lur",
-      "meaning": "A man who has never been married. ---",
+      "meaning": "Bachelor has 2 distinct senses.",
       "examples": [
         "He stayed a bachelor until he was fifty.",
         "The apartment looked like a bachelor lived there.",
-        "Two confirmed bachelors shared the house."
+        "Two confirmed bachelors shared the house.",
+        "The job posting asks for a bachelor's degree in accounting.",
+        "He finished his Bachelor of Arts in three years.",
+        "Both finalists hold bachelor's degrees in nursing."
       ],
-      "senses": [],
-      "русский": "холостяк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A man who has never been married",
+          "body": [
+            "(холостяк)"
+          ],
+          "examples": [
+            "He stayed a bachelor until he was fifty.",
+            "The apartment looked like a bachelor lived there.",
+            "Two confirmed bachelors shared the house."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who holds a first university degree, used mainly in the name of the degree itself",
+          "body": [
+            "(бакалавр (обладатель степени))",
+            "---"
+          ],
+          "examples": [
+            "The job posting asks for a bachelor's degree in accounting.",
+            "He finished his Bachelor of Arts in three years.",
+            "Both finalists hold bachelor's degrees in nursing."
+          ]
+        }
+      ],
+      "русский": "холостяк; бакалавр (обладатель степени)",
       "plural": "bachelors",
       "countability": "countable"
     },
@@ -1128,14 +1462,73 @@
       "term": "engagement",
       "ipa": "/ɪnˈɡeɪdʒmənt/",
       "respell": "in-GAYJ-muhnt",
-      "meaning": "An agreement between two people to marry. ---",
+      "meaning": "Engagement has 4 distinct senses.",
       "examples": [
         "They announced their engagement at dinner.",
         "The engagement lasted less than a year.",
-        "Both engagements were called off."
+        "Both engagements were called off.",
+        "She turned down the dinner because of a prior engagement.",
+        "The band has three engagements lined up this month.",
+        "He canceled a speaking engagement in Chicago.",
+        "The mayor wants more community engagement in the planning process.",
+        "The post got almost no engagement on social media.",
+        "Teachers track student engagement as closely as test scores.",
+        "The engagement lasted less than an hour.",
+        "Strict rules of engagement limit when troops may fire.",
+        "Both ships were damaged in the engagement."
       ],
-      "senses": [],
-      "русский": "помолвка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An agreement between two people to marry",
+          "body": [
+            "(помолвка)"
+          ],
+          "examples": [
+            "They announced their engagement at dinner.",
+            "The engagement lasted less than a year.",
+            "Both engagements were called off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An arrangement to be somewhere or do something at a set time",
+          "body": [
+            "(договорённость о встрече; ангажемент, выступление)"
+          ],
+          "examples": [
+            "She turned down the dinner because of a prior engagement.",
+            "The band has three engagements lined up this month.",
+            "He canceled a speaking engagement in Chicago."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Active involvement in something, or the attention an audience gives it",
+          "body": [
+            "(вовлечённость, участие)"
+          ],
+          "examples": [
+            "The mayor wants more community engagement in the planning process.",
+            "The post got almost no engagement on social media.",
+            "Teachers track student engagement as closely as test scores."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A period of fighting between opposing military forces",
+          "body": [
+            "(бой, боестолкновение)",
+            "---"
+          ],
+          "examples": [
+            "The engagement lasted less than an hour.",
+            "Strict rules of engagement limit when troops may fire.",
+            "Both ships were damaged in the engagement."
+          ]
+        }
+      ],
+      "русский": "помолвка; договорённость о встрече; ангажемент, выступление; вовлечённость, участие; бой, боестолкновение",
       "plural": "engagements",
       "countability": "countable"
     },
@@ -1216,14 +1609,43 @@
       "term": "adoption",
       "ipa": "/əˈdɑːpʃən/",
       "respell": "uh-DAHP-shun",
-      "meaning": "The legal act of taking another person's child into your family as your own. ---",
+      "meaning": "Adoption has 2 distinct senses.",
       "examples": [
         "The adoption took eighteen months.",
         "International adoptions have dropped sharply.",
-        "They're going through the adoption process now."
+        "They're going through the adoption process now.",
+        "The adoption of electric buses saved the city money.",
+        "Wide adoption of the app took about two years.",
+        "The board voted for adoption of the new safety rules."
       ],
-      "senses": [],
-      "русский": "усыновление, удочерение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal act of taking another person's child into your family as your own",
+          "body": [
+            "(усыновление, удочерение)"
+          ],
+          "examples": [
+            "The adoption took eighteen months.",
+            "International adoptions have dropped sharply.",
+            "They're going through the adoption process now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of starting to use or accept something new",
+          "body": [
+            "(принятие, внедрение (нового))",
+            "---"
+          ],
+          "examples": [
+            "The adoption of electric buses saved the city money.",
+            "Wide adoption of the app took about two years.",
+            "The board voted for adoption of the new safety rules."
+          ]
+        }
+      ],
+      "русский": "усыновление, удочерение; принятие, внедрение (нового)",
       "plural": "adoptions",
       "countability": "countable"
     },
@@ -1293,14 +1715,43 @@
       "term": "relationship",
       "ipa": "/rɪˈleɪʃənʃɪp/",
       "respell": "rih-LAY-shun-ship",
-      "meaning": "The way two people or groups behave toward each other, especially romantically. ---",
+      "meaning": "Relationship has 2 distinct senses.",
       "examples": [
         "They've been in a relationship since college.",
         "The relationship between the two towns is tense.",
-        "Long-distance relationships are hard."
+        "Long-distance relationships are hard.",
+        "The study found a clear relationship between sleep and grades.",
+        "There is no relationship between the two events.",
+        "Economists argue about the relationship of wages to inflation."
       ],
-      "senses": [],
-      "русский": "отношения, взаимоотношения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way two people or groups behave toward each other, especially romantically",
+          "body": [
+            "(отношения, взаимоотношения)"
+          ],
+          "examples": [
+            "They've been in a relationship since college.",
+            "The relationship between the two towns is tense.",
+            "Long-distance relationships are hard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A connection or link between two things, facts, or numbers",
+          "body": [
+            "(связь, зависимость (между явлениями))",
+            "---"
+          ],
+          "examples": [
+            "The study found a clear relationship between sleep and grades.",
+            "There is no relationship between the two events.",
+            "Economists argue about the relationship of wages to inflation."
+          ]
+        }
+      ],
+      "русский": "отношения, взаимоотношения; связь, зависимость (между явлениями)",
       "plural": "relationships",
       "countability": "countable"
     },
@@ -1308,14 +1759,43 @@
       "term": "acquaintance",
       "ipa": "/əˈkweɪntəns/",
       "respell": "uh-KWAYN-tuhns",
-      "meaning": "Someone you know slightly but who is not a close friend. ---",
+      "meaning": "Acquaintance has 2 distinct senses.",
       "examples": [
         "He's an acquaintance from the gym.",
         "She invited a few acquaintances to the opening.",
-        "We're acquaintances, not friends."
+        "We're acquaintances, not friends.",
+        "She has a passing acquaintance with Spanish.",
+        "His acquaintance with the law comes from years as a court reporter.",
+        "I have only a slight acquaintance with that part of the city."
       ],
-      "senses": [],
-      "русский": "знакомый (человек)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone you know slightly but who is not a close friend",
+          "body": [
+            "(знакомый (человек))"
+          ],
+          "examples": [
+            "He's an acquaintance from the gym.",
+            "She invited a few acquaintances to the opening.",
+            "We're acquaintances, not friends."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Knowledge or experience of something, gained by having dealt with it",
+          "body": [
+            "(знакомство (с предметом), осведомлённость)",
+            "---"
+          ],
+          "examples": [
+            "She has a passing acquaintance with Spanish.",
+            "His acquaintance with the law comes from years as a court reporter.",
+            "I have only a slight acquaintance with that part of the city."
+          ]
+        }
+      ],
+      "русский": "знакомый (человек); знакомство (с предметом), осведомлённость",
       "plural": "acquaintances",
       "countability": "countable"
     },
@@ -1488,14 +1968,43 @@
       "term": "influence",
       "ipa": "/ˈɪnfluəns/",
       "respell": "IN-floo-uhns",
-      "meaning": "The power to affect how people think or act. ---",
+      "meaning": "Influence has 2 distinct senses.",
       "examples": [
         "She has a lot of influence on the board.",
         "His teacher was a good influence.",
-        "Her early influences were all jazz musicians."
+        "Her early influences were all jazz musicians.",
+        "His older brother was a bad influence on him.",
+        "She was the biggest influence on my writing.",
+        "Blues and gospel were early influences on the band."
       ],
-      "senses": [],
-      "русский": "влияние",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The power to affect how people think or act",
+          "body": [
+            "(влияние)"
+          ],
+          "examples": [
+            "She has a lot of influence on the board.",
+            "His teacher was a good influence.",
+            "Her early influences were all jazz musicians."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that affects how someone behaves or develops",
+          "body": [
+            "(человек (или фактор), влияющий на кого-л.)",
+            "---"
+          ],
+          "examples": [
+            "His older brother was a bad influence on him.",
+            "She was the biggest influence on my writing.",
+            "Blues and gospel were early influences on the band."
+          ]
+        }
+      ],
+      "русский": "влияние; человек (или фактор), влияющий на кого-л.",
       "plural": "influences",
       "countability": "countable"
     },
@@ -1548,14 +2057,43 @@
       "term": "hospitality",
       "ipa": "/ˌhɑːspəˈtæləti/",
       "respell": "hah-spuh-TA-luh-tee",
-      "meaning": "Friendly, generous treatment of guests. ---",
+      "meaning": "Hospitality has 2 distinct senses.",
       "examples": [
         "Southern hospitality is not a myth.",
         "Thank you for your hospitality this weekend.",
-        "She works in the hospitality industry."
+        "She works in the hospitality industry.",
+        "She has worked in hospitality since she was nineteen.",
+        "The college offers a two-year degree in hospitality.",
+        "Hospitality was the hardest-hit industry during the shutdown."
       ],
-      "senses": [],
-      "русский": "гостеприимство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Friendly, generous treatment of guests",
+          "body": [
+            "(гостеприимство)"
+          ],
+          "examples": [
+            "Southern hospitality is not a myth.",
+            "Thank you for your hospitality this weekend.",
+            "She works in the hospitality industry."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The business of running hotels, restaurants, and other places that serve guests",
+          "body": [
+            "(гостиничный и ресторанный бизнес, индустрия гостеприимства)",
+            "---"
+          ],
+          "examples": [
+            "She has worked in hospitality since she was nineteen.",
+            "The college offers a two-year degree in hospitality.",
+            "Hospitality was the hardest-hit industry during the shutdown."
+          ]
+        }
+      ],
+      "русский": "гостеприимство; гостиничный и ресторанный бизнес, индустрия гостеприимства",
       "countability": "uncountable"
     },
     {
@@ -1666,14 +2204,43 @@
       "term": "inequality",
       "ipa": "/ˌɪnɪˈkwɑːləti/",
       "respell": "in-ih-KWAH-luh-tee",
-      "meaning": "An unfair difference between groups in wealth, rights, or opportunity. ---",
+      "meaning": "Inequality has 2 distinct senses.",
       "examples": [
         "Income inequality has grown for decades.",
         "The report lists inequalities in health care.",
-        "Inequality between the two districts is obvious."
+        "Inequality between the two districts is obvious.",
+        "He wrote the inequality x > 5 on the board.",
+        "Solve the inequality and graph it on a number line.",
+        "The homework was ten inequalities to solve."
       ],
-      "senses": [],
-      "русский": "неравенство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unfair difference between groups in wealth, rights, or opportunity",
+          "body": [
+            "(неравенство)"
+          ],
+          "examples": [
+            "Income inequality has grown for decades.",
+            "The report lists inequalities in health care.",
+            "Inequality between the two districts is obvious."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In mathematics, a statement that one quantity is larger or smaller than another",
+          "body": [
+            "(неравенство (матем.))",
+            "---"
+          ],
+          "examples": [
+            "He wrote the inequality x > 5 on the board.",
+            "Solve the inequality and graph it on a number line.",
+            "The homework was ten inequalities to solve."
+          ]
+        }
+      ],
+      "русский": "неравенство; неравенство (матем.)",
       "plural": "inequalities",
       "countability": "countable"
     },
@@ -1926,14 +2493,43 @@
       "term": "celebrity",
       "ipa": "/səˈlɛbrəti/",
       "respell": "suh-LEB-ruh-tee",
-      "meaning": "A famous person, especially in entertainment or sports. ---",
+      "meaning": "Celebrity has 2 distinct senses.",
       "examples": [
         "Three celebrities showed up for the benefit.",
         "He became a minor celebrity overnight.",
-        "Celebrities get treated differently everywhere."
+        "Celebrities get treated differently everywhere.",
+        "The book brought her sudden celebrity.",
+        "He was never comfortable with his new celebrity.",
+        "Celebrity did not make the job any easier."
       ],
-      "senses": [],
-      "русский": "знаменитость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A famous person, especially in entertainment or sports",
+          "body": [
+            "(знаменитость)"
+          ],
+          "examples": [
+            "Three celebrities showed up for the benefit.",
+            "He became a minor celebrity overnight.",
+            "Celebrities get treated differently everywhere."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of being famous",
+          "body": [
+            "(известность, слава)",
+            "---"
+          ],
+          "examples": [
+            "The book brought her sudden celebrity.",
+            "He was never comfortable with his new celebrity.",
+            "Celebrity did not make the job any easier."
+          ]
+        }
+      ],
+      "русский": "знаменитость; известность, слава",
       "plural": "celebrities",
       "countability": "countable"
     },

@@ -164,15 +164,35 @@ Item has 3 distinct senses.
 ### exchange
 
 **Pronunciation:** /ɪksˈtʃeɪndʒ/ &middot; *iks-CHAYNJ*
-**Русский:** обмен (товара)
+**Русский:** обмен (товара); обмен (взаимный); разговор, перепалка, обмен репликами; биржа
 **Plural:** *exchanges*
 **Countability:** countable
 
-The act of trading a bought item for a different one.
+Exchange has 4 distinct senses.
+
+**1. The act of trading a bought item for a different one.** (обмен (товара))
 
 1. They gave me an even *exchange* for a larger size.
 2. The store allows *exchanges* within thirty days.
 3. Without the tag, no refund and no *exchange*.
+
+**2. An act of giving one thing and getting another in return.** (обмен (взаимный))
+
+4. The two sides agreed to an *exchange* of prisoners.
+5. He fixed my car in *exchange* for a week of dog-sitting.
+6. The treaty allows an *exchange* of scientific data.
+
+**3. A short conversation or argument between people.** (разговор, перепалка, обмен репликами)
+
+7. There was a heated *exchange* between the two senators.
+8. I only had a brief *exchange* with her at the door.
+9. The whole *exchange* was caught on video.
+
+**4. A market where stocks or commodities are bought and sold.** (биржа)
+
+10. The stock *exchange* closes at four.
+11. The company is listed on two *exchanges*.
+12. Trading was halted on the *exchange* for an hour.
 
 ---
 
@@ -520,15 +540,23 @@ Something expensive and pleasant that you do not really need.
 ### necessity
 
 **Pronunciation:** /nəˈsɛsəti/ &middot; *nuh-SES-uh-tee*
-**Русский:** предмет первой необходимости
+**Русский:** предмет первой необходимости; необходимость
 **Plural:** *necessities*
 **Countability:** countable
 
-Something you genuinely need rather than simply want.
+Necessity has 2 distinct senses.
+
+**1. Something you genuinely need rather than simply want.** (предмет первой необходимости)
 
 1. A phone is a *necessity* now, not a treat.
 2. We only bought *necessities* that month.
 3. Bread and milk are the sort of *necessity* the corner store sells.
+
+**2. The fact that something must be done or cannot be avoided.** (необходимость)
+
+4. We sold the car out of *necessity*, not because we wanted to.
+5. There's no *necessity* for you to come along.
+6. *Necessity* forced them to move in with her parents.
 
 ---
 
@@ -1338,15 +1366,23 @@ A small hand basket for carrying a few items around a store.
 ### selection
 
 **Pronunciation:** /səˈlɛkʃən/ &middot; *suh-LEK-shun*
-**Русский:** выбор, ассортимент
+**Русский:** выбор, ассортимент; выбор, отбор
 **Plural:** *selections*
 **Countability:** countable
 
-The range of goods a store offers to choose from.
+Selection has 2 distinct senses.
+
+**1. The range of goods a store offers to choose from.** (выбор, ассортимент)
 
 1. That store has a great *selection* of cheese.
 2. Their online *selections* are bigger than in the shop.
 3. The *selection* thins out by Sunday night.
+
+**2. The act of choosing someone or something, or the one that is chosen.** (выбор, отбор)
+
+4. The *selection* of a new principal took months.
+5. His *selection* for the national team surprised no one.
+6. The judges announced their *selections* on Friday.
 
 ---
 
@@ -1453,15 +1489,29 @@ A fake item made to pass as the genuine article.
 ### imitation
 
 **Pronunciation:** /ˌɪməˈteɪʃən/ &middot; *im-uh-TAY-shun*
-**Русский:** имитация, подделка
+**Русский:** имитация, подделка; подражание, копирование; пародия, изображение (кого-либо)
 **Plural:** *imitations*
 **Countability:** countable
 
-A copy of something better or more expensive.
+Imitation has 3 distinct senses.
+
+**1. A copy of something better or more expensive.** (имитация, подделка)
 
 1. The frame is an *imitation* of an antique.
 2. Cheap *imitations* showed up within a month.
 3. It's an *imitation*, but it looks convincing.
+
+**2. The act of copying the way someone else behaves, speaks, or works.** (подражание, копирование)
+
+4. Children learn most of what they know by *imitation*.
+5. His early paintings were pure *imitation* of his teacher.
+6. *Imitation* is the sincerest form of flattery.
+
+**3. A performance in which someone copies another person's voice and manner, usually to be funny.** (пародия, изображение (кого-либо))
+
+7. He does a great *imitation* of his history teacher.
+8. Her *imitation* of the boss had everyone in tears.
+9. He ran through his *imitations* of all the neighbors.
 
 ---
 
@@ -1575,15 +1625,23 @@ Something a store gives you at no cost.
 ### giveaway
 
 **Pronunciation:** /ˈɡɪvəweɪ/ &middot; *GIV-uh-way*
-**Русский:** раздача бесплатных товаров, розыгрыш
+**Русский:** раздача бесплатных товаров, розыгрыш; то, что выдаёт; явный признак
 **Plural:** *giveaways*
 **Countability:** countable
 
-An event where a store hands out free items or prizes.
+Giveaway has 2 distinct senses.
+
+**1. An event where a store hands out free items or prizes.** (раздача бесплатных товаров, розыгрыш)
 
 1. The store is holding a *giveaway* on opening day.
 2. Their *giveaways* always draw a crowd.
 3. I entered the *giveaway* for a free grill.
+
+**2. Something that accidentally reveals a secret or the truth.** (то, что выдаёт; явный признак)
+
+4. The paint under his fingernails was a dead *giveaway*.
+5. Her smile was the *giveaway* that she already knew.
+6. The misspelled address is a *giveaway* that the email is fake.
 
 ---
 

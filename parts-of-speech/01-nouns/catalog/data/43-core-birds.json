@@ -772,14 +772,43 @@
       "term": "cardinal",
       "ipa": "/ˈkɑːrdənəl/",
       "respell": "KAR-duh-nul",
-      "meaning": "A North American songbird; the male is bright red with a crest. ---",
+      "meaning": "Cardinal has 2 distinct senses.",
       "examples": [
         "A male cardinal is impossible to miss against the snow.",
         "Cardinals come to the feeder all winter.",
-        "The cardinal was singing from the top of the maple."
+        "The cardinal was singing from the top of the maple.",
+        "The cardinals met in Rome to elect a new pope.",
+        "He was made a cardinal at the age of fifty-eight.",
+        "The cardinal celebrated Mass at the cathedral downtown."
       ],
-      "senses": [],
-      "русский": "кардинал (птица)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A North American songbird; the male is bright red with a crest",
+          "body": [
+            "(кардинал (птица))"
+          ],
+          "examples": [
+            "A male cardinal is impossible to miss against the snow.",
+            "Cardinals come to the feeder all winter.",
+            "The cardinal was singing from the top of the maple."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A senior official of the Roman Catholic Church, ranking just below the pope",
+          "body": [
+            "(кардинал (церковный сан))",
+            "---"
+          ],
+          "examples": [
+            "The cardinals met in Rome to elect a new pope.",
+            "He was made a cardinal at the age of fifty-eight.",
+            "The cardinal celebrated Mass at the cathedral downtown."
+          ]
+        }
+      ],
+      "русский": "кардинал (птица); кардинал (церковный сан)",
       "plural": "cardinals",
       "countability": "countable"
     },
@@ -877,14 +906,43 @@
       "term": "albatross",
       "ipa": "/ˈælbətrɔːs/",
       "respell": "AL-buh-traws",
-      "meaning": "A very large sea bird with long narrow wings that glides for hours. ---",
+      "meaning": "Albatross has 2 distinct senses.",
       "examples": [
         "An albatross followed the ship for two days.",
         "Albatrosses can glide for hours without flapping.",
-        "The albatross has the longest wingspan of any bird."
+        "The albatross has the longest wingspan of any bird.",
+        "The empty mall became an albatross for the county.",
+        "That loan is an albatross around his neck.",
+        "The old contract is an albatross the team can't shake."
       ],
-      "senses": [],
-      "русский": "альбатрос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very large sea bird with long narrow wings that glides for hours",
+          "body": [
+            "(альбатрос)"
+          ],
+          "examples": [
+            "An albatross followed the ship for two days.",
+            "Albatrosses can glide for hours without flapping.",
+            "The albatross has the longest wingspan of any bird."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A burden or problem that someone is stuck with and cannot get rid of",
+          "body": [
+            "(обуза, камень на шее)",
+            "---"
+          ],
+          "examples": [
+            "The empty mall became an albatross for the county.",
+            "That loan is an albatross around his neck.",
+            "The old contract is an albatross the team can't shake."
+          ]
+        }
+      ],
+      "русский": "альбатрос; обуза, камень на шее",
       "plural": "albatrosses",
       "countability": "countable"
     },
@@ -1629,14 +1687,58 @@
       "term": "migration",
       "ipa": "/maɪˈɡreɪʃən/",
       "respell": "my-GRAY-shun",
-      "meaning": "The seasonal journey birds make from one region to another. ---",
+      "meaning": "Migration has 3 distinct senses.",
       "examples": [
         "The fall migration starts in late August.",
         "Their yearly migration covers eight thousand miles.",
-        "Storms can throw whole migrations off course."
+        "Storms can throw whole migrations off course.",
+        "The war set off the largest migration in the region's history.",
+        "Economists study the migration of workers to the Sun Belt.",
+        "Migration from the countryside emptied whole villages.",
+        "The migration to the new database took all weekend.",
+        "IT scheduled the migration for a Sunday night.",
+        "We lost a few old files during the migration."
       ],
-      "senses": [],
-      "русский": "миграция, перелёт (птиц)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The seasonal journey birds make from one region to another",
+          "body": [
+            "(миграция, перелёт (птиц))"
+          ],
+          "examples": [
+            "The fall migration starts in late August.",
+            "Their yearly migration covers eight thousand miles.",
+            "Storms can throw whole migrations off course."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The movement of people from one country or region to another to live there",
+          "body": [
+            "(миграция (людей), переселение)"
+          ],
+          "examples": [
+            "The war set off the largest migration in the region's history.",
+            "Economists study the migration of workers to the Sun Belt.",
+            "Migration from the countryside emptied whole villages."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The moving of data or software from one system to another",
+          "body": [
+            "(перенос, миграция (данных, системы))",
+            "---"
+          ],
+          "examples": [
+            "The migration to the new database took all weekend.",
+            "IT scheduled the migration for a Sunday night.",
+            "We lost a few old files during the migration."
+          ]
+        }
+      ],
+      "русский": "миграция, перелёт (птиц); миграция (людей), переселение; перенос, миграция (данных, системы)",
       "plural": "migrations",
       "countability": "countable"
     },

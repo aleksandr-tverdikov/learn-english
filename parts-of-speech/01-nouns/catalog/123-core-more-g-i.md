@@ -359,16 +359,24 @@ An entrance, or something that leads on to something bigger.
 ### gauntlet
 
 **Pronunciation:** /ˈɡɔːntlət/ &middot; *GAWNT-luht*
-**Русский:** латная перчатка; краги
+**Русский:** латная перчатка; краги; тяжёлое испытание, полоса нападок
 **Plural:** *gauntlets*
 **Countability:** countable
 **Contrast:** Two idioms: *throw down the gauntlet* (challenge someone) and *run the gauntlet* (face attacks from all sides).
 
-A heavy protective glove that covers part of the arm.
+Gauntlet has 2 distinct senses.
+
+**1. A heavy protective glove that covers part of the arm.** (латная перчатка; краги)
 
 1. The knight's *gauntlet* was dented from the fight.
 2. Welders wear leather *gauntlets*.
 3. He pulled off one *gauntlet* to shake hands.
+
+**2. A painful ordeal made up of one attack or test after another.** (тяжёлое испытание, полоса нападок)
+
+4. Every nominee has to run the *gauntlet* of Senate hearings.
+5. Reporters formed a *gauntlet* the mayor had to walk through.
+6. Getting the permit meant a *gauntlet* of city offices and forms.
 
 ---
 
@@ -880,16 +888,24 @@ The root of an Asian plant, taken as a medicine or tonic.
 ### girlfriend
 
 **Pronunciation:** /ˈɡɜːrlfrɛnd/ &middot; *GURL-frend*
-**Русский:** девушка (подруга в романтическом смысле)
+**Русский:** девушка (подруга в романтическом смысле); подруга (о подруге женщины)
 **Plural:** *girlfriends*
 **Countability:** countable
 **Contrast:** American women also call their close female friends *girlfriends*; context decides.
 
-A woman or girl someone is romantically involved with.
+Girlfriend has 2 distinct senses.
+
+**1. A woman or girl someone is romantically involved with.** (девушка (подруга в романтическом смысле))
 
 1. He brought his *girlfriend* to Thanksgiving.
 2. His *girlfriend* is studying to be a nurse.
 3. Both of my brothers brought their *girlfriends*.
+
+**2. A woman's close female friend.** (подруга (о подруге женщины))
+
+4. She's out to dinner with her *girlfriends*.
+5. My mom takes a trip with three *girlfriends* every fall.
+6. I called my oldest *girlfriend* the minute I heard the news.
 
 ---
 
@@ -2442,14 +2458,22 @@ A very small village.
 ### handball
 
 **Pronunciation:** /ˈhændbɔːl/ &middot; *HAND-bawl*
-**Русский:** гандбол, ручной мяч
+**Русский:** гандбол, ручной мяч; игра рукой (нарушение в футболе)
 **Countability:** uncountable
 
-A team sport in which players throw a ball into the other team's goal with their hands.
+Handball has 2 distinct senses.
+
+**1. A team sport in which players throw a ball into the other team's goal with their hands.** (гандбол, ручной мяч)
 
 1. She played *handball* in college.
 2. We used to play *handball* against the school wall.
 3. *Handball* is far more popular in Europe than in the United States.
+
+**2. In soccer, the foul of touching the ball with the hand or arm.** (игра рукой (нарушение в футболе))
+
+4. The referee called a *handball* in the box.
+5. That *handball* cost them a penalty kick.
+6. The replay showed it wasn't a *handball* at all.
 
 ---
 
@@ -2518,14 +2542,22 @@ A skill of making things by hand, or an object made that way.
 ### handling
 
 **Pronunciation:** /ˈhændlɪŋ/ &middot; *HAND-ling*
-**Русский:** обращение (с чем-л.); обработка
+**Русский:** обращение (с чем-л.); обработка; управляемость (автомобиля)
 **Countability:** uncountable
 
-The way something is touched, moved, or dealt with.
+Handling has 2 distinct senses.
+
+**1. The way something is touched, moved, or dealt with.** (обращение (с чем-л.); обработка)
 
 1. Shipping and *handling* is another twelve dollars.
 2. The box is marked for careful *handling*.
 3. People criticized the mayor's *handling* of the flood.
+
+**2. The way a vehicle responds to steering and to the road.** (управляемость (автомобиля))
+
+4. The new suspension improved the car's *handling*.
+5. Reviewers praised its *handling* on wet pavement.
+6. Oversized tires hurt the *handling* a little.
 
 ---
 
@@ -2692,14 +2724,22 @@ A sign that something is coming.
 ### hardball
 
 **Pronunciation:** /ˈhɑːrdbɔːl/ &middot; *HARD-bawl*
-**Русский:** жёсткая тактика, игра без правил
+**Русский:** жёсткая тактика, игра без правил; бейсбол (в отличие от софтбола)
 **Countability:** uncountable
 
-Tough, aggressive behavior used to win, especially in business or politics.
+Hardball has 2 distinct senses.
+
+**1. Tough, aggressive behavior used to win, especially in business or politics.** (жёсткая тактика, игра без правил)
 
 1. The union is playing *hardball* in the talks.
 2. This is *hardball* politics, not a debate club.
 3. He plays *hardball* whenever money is on the line.
+
+**2. Baseball played with a regulation hard ball, as opposed to softball.** (бейсбол (в отличие от софтбола))
+
+4. He played *hardball* all four years of high school.
+5. The league moves kids from tee-ball to *hardball* at age nine.
+6. Our office team plays softball, not *hardball*.
 
 ---
 
@@ -3088,15 +3128,23 @@ A square of cloth tied over the hair.
 ### headshot
 
 **Pronunciation:** /ˈhɛdʃɑːt/ &middot; *HED-shaht*
-**Русский:** портретное фото (для резюме, кастинга)
+**Русский:** портретное фото (для резюме, кастинга); выстрел (или удар) в голову
 **Plural:** *headshots*
 **Countability:** countable
 
-A photograph of a person's face and shoulders, used professionally.
+Headshot has 2 distinct senses.
+
+**1. A photograph of a person's face and shoulders, used professionally.** (портретное фото (для резюме, кастинга))
 
 1. Every actor needs a good *headshot*.
 2. Send us a *headshot* and a short bio.
 3. The firm updated all the *headshots* on its website.
+
+**2. A shot or blow that hits someone in the head, especially in a video game.** (выстрел (или удар) в голову)
+
+4. He won the round with a single *headshot*.
+5. In this game a *headshot* counts double.
+6. She landed three *headshots* in a row and the other team quit.
 
 ---
 
@@ -3132,15 +3180,23 @@ Forward progress toward a goal.
 ### headwind
 
 **Pronunciation:** /ˈhɛdwɪnd/ &middot; *HED-wind*
-**Русский:** встречный ветер
+**Русский:** встречный ветер; неблагоприятный фактор, препятствие
 **Plural:** *headwinds*
 **Countability:** countable
 
-A wind blowing straight against the direction you are moving.
+Headwind has 2 distinct senses.
+
+**1. A wind blowing straight against the direction you are moving.** (встречный ветер)
 
 1. A strong *headwind* added an hour to the flight.
 2. The riders fought a *headwind* the whole way home.
 3. The company is facing economic *headwinds*.
+
+**2. A force or condition that slows something down, especially in business or the economy.** (неблагоприятный фактор, препятствие)
+
+4. The company is facing serious *headwinds* going into next year.
+5. Higher interest rates are a *headwind* for the housing market.
+6. Sales grew anyway, despite all the *headwinds*.
 
 ---
 
@@ -3161,15 +3217,23 @@ The process of becoming healthy or whole again.
 ### heartbeat
 
 **Pronunciation:** /ˈhɑːrtbiːt/ &middot; *HART-beet*
-**Русский:** сердцебиение, удар сердца
+**Русский:** сердцебиение, удар сердца; мгновение, миг
 **Plural:** *heartbeats*
 **Countability:** countable
 
-One movement of the heart as it pumps blood, or the rhythm of those movements.
+Heartbeat has 2 distinct senses.
+
+**1. One movement of the heart as it pumps blood, or the rhythm of those movements.** (сердцебиение, удар сердца)
 
 1. The doctor listened for a *heartbeat*.
 2. Her *heartbeat* slowed as she calmed down.
 3. I'd move back in a *heartbeat*.
+
+**2. A very short moment of time.** (мгновение, миг)
+
+4. I'd take that job in a *heartbeat*.
+5. Everything changed in a *heartbeat*.
+6. She would move back to Chicago in a *heartbeat* if they asked.
 
 ---
 
@@ -3765,15 +3829,23 @@ A picture used as a written character in ancient Egyptian writing.
 ### highlight
 
 **Pronunciation:** /ˈhaɪlaɪt/ &middot; *HY-lyt*
-**Русский:** самое яркое событие, кульминация
+**Русский:** самое яркое событие, кульминация; светлый участок, блик (на фото, картине)
 **Plural:** *highlights*
 **Countability:** countable
 
-The best or most memorable part of something.
+Highlight has 2 distinct senses.
+
+**1. The best or most memorable part of something.** (самое яркое событие, кульминация)
 
 1. The trip to the coast was the *highlight* of our vacation.
 2. The news showed *highlights* from the game.
 3. Her speech was the *highlight* of the evening.
+
+**2. The lightest, brightest area of a photograph or a painting.** (светлый участок, блик (на фото, картине))
+
+4. The photo is overexposed and the *highlights* are completely blown out.
+5. Pull the *highlights* down a little and the sky will come back.
+6. A single white *highlight* in each eye makes the portrait look alive.
 
 ---
 
@@ -4582,14 +4654,22 @@ A place or program that cares for people who are dying.
 ### hostility
 
 **Pronunciation:** /hɑːˈstɪləti/ &middot; *hah-STIL-uh-tee*
-**Русский:** враждебность
+**Русский:** враждебность; военные действия, боевые действия
 **Countability:** uncountable
 
-Strong dislike or unfriendly feeling toward someone.
+Hostility has 2 distinct senses.
+
+**1. Strong dislike or unfriendly feeling toward someone.** (враждебность)
 
 1. She felt real *hostility* from her new coworkers.
 2. There was open *hostility* between the two groups.
 3. He answered with surprising *hostility*.
+
+**2. Fighting in a war, used in the plural.** (военные действия, боевые действия)
+
+4. *Hostilities* broke out along the border in the spring.
+5. Both sides agreed to a pause in *hostilities* over the holiday.
+6. The treaty formally ended *hostilities* after four years.
 
 ---
 
@@ -5066,15 +5146,23 @@ A common medicine for pain, fever, and swelling.
 ### icebreaker
 
 **Pronunciation:** /ˈaɪsbreɪkər/ &middot; *ICE-bray-kur*
-**Русский:** приём для разрядки обстановки
+**Русский:** приём для разрядки обстановки; ледокол
 **Plural:** *icebreakers*
 **Countability:** countable
 
-A game or question used to get people talking at the start of a meeting.
+Icebreaker has 2 distinct senses.
+
+**1. A game or question used to get people talking at the start of a meeting.** (приём для разрядки обстановки)
 
 1. We started with an *icebreaker* so people would loosen up.
 2. Her joke turned out to be a great *icebreaker*.
 3. The trainer ran two quick *icebreakers* before lunch.
+
+**2. A ship built to break through sea ice and open a path for other vessels.** (ледокол)
+
+4. An *icebreaker* cleared a channel to the port.
+5. The research team sailed north aboard a nuclear *icebreaker*.
+6. Two *icebreakers* work the Great Lakes all winter.
 
 ---
 
@@ -5395,15 +5483,23 @@ A slender African antelope known for its long leaps.
 ### imperative
 
 **Pronunciation:** /ɪmˈpɛrətɪv/ &middot; *im-PEH-ruh-tiv*
-**Русский:** настоятельная необходимость, императив
+**Русский:** настоятельная необходимость, императив; повелительное наклонение
 **Plural:** *imperatives*
 **Countability:** countable
 
-Something that must be done.
+Imperative has 2 distinct senses.
+
+**1. Something that must be done.** (настоятельная необходимость, императив)
 
 1. Cutting costs became a business *imperative*.
 2. There's a moral *imperative* to help.
 3. Safety and speed were the two *imperatives* on that job.
+
+**2. The form of a verb used to give an order or an instruction.** (повелительное наклонение)
+
+4. In "Close the door," the verb is an *imperative*.
+5. Recipes are almost always written in the *imperative*.
+6. The teacher showed us how to form *imperatives* in Spanish.
 
 ---
 
@@ -5529,15 +5625,23 @@ A person or company that brings goods into a country to sell.
 ### imposition
 
 **Pronunciation:** /ˌɪmpəˈzɪʃən/ &middot; *im-puh-ZISH-uhn*
-**Русский:** обременение, навязывание
+**Русский:** обременение, навязывание; введение, наложение (налога, запрета)
 **Plural:** *impositions*
 **Countability:** countable
 
-An unfair or unwelcome demand on someone's time or resources.
+Imposition has 2 distinct senses.
+
+**1. An unfair or unwelcome demand on someone's time or resources.** (обременение, навязывание)
 
 1. I hope this isn't an *imposition*.
 2. Staying an extra night felt like an *imposition*.
 3. Renters saw the new fee as an *imposition*.
+
+**2. The act of officially putting a tax, rule, or penalty into effect.** (введение, наложение (налога, запрета))
+
+4. The *imposition* of a curfew angered residents.
+5. Farmers fought the *imposition* of the new tariff.
+6. The judge explained the *imposition* of the fine.
 
 ---
 
@@ -5792,14 +5896,22 @@ A feeling that makes you want to do something, or a natural tendency.
 ### inclusion
 
 **Pronunciation:** /ɪnˈkluːʒən/ &middot; *in-KLOO-zhuhn*
-**Русский:** включение, инклюзивность
+**Русский:** включение, инклюзивность; включение (в список, состав)
 **Countability:** uncountable
 
-The practice of making sure everyone is included, especially people who are often left out.
+Inclusion has 2 distinct senses.
+
+**1. The practice of making sure everyone is included, especially people who are often left out.** (включение, инклюзивность)
 
 1. The company has a whole team working on diversity and *inclusion*.
 2. *Inclusion* means these students learn in the same classroom as everyone else.
 3. The award recognizes her work on *inclusion* in the arts.
+
+**2. The act of putting someone or something into a group, a list, or a total.** (включение (в список, состав))
+
+4. The *inclusion* of her name on the guest list surprised everyone.
+5. Several senators objected to the *inclusion* of the tax break in the bill.
+6. His *inclusion* on the roster was never in doubt.
 
 ---
 
@@ -7005,15 +7117,23 @@ Something that stops an activity for a while, or the act of breaking in on someo
 ### intervention
 
 **Pronunciation:** /ˌɪntərˈvɛnʃən/ &middot; *in-tur-VEN-shuhn*
-**Русский:** вмешательство
+**Русский:** вмешательство; разговор с зависимым (организованный близкими)
 **Plural:** *interventions*
 **Countability:** countable
 
-An action taken to change what is happening, especially to help or to stop harm.
+Intervention has 2 distinct senses.
+
+**1. An action taken to change what is happening, especially to help or to stop harm.** (вмешательство)
 
 1. The family staged an *intervention* to get him into treatment.
 2. Early *intervention* makes a big difference for these kids.
 3. The bank survived only because of government *intervention*.
+
+**2. A planned meeting in which family and friends confront someone about a drinking or drug problem.** (разговор с зависимым (организованный близкими))
+
+4. His sisters staged an *intervention* over Thanksgiving.
+5. A counselor walked the family through how an *intervention* works.
+6. After the *intervention* he agreed to go to rehab.
 
 ---
 
@@ -7244,15 +7364,23 @@ The exact opposite or reverse of something, especially in mathematics.
 ### inversion
 
 **Pronunciation:** /ɪnˈvɜːrʒən/ &middot; *in-VUR-zhuhn*
-**Русский:** инверсия, перестановка
+**Русский:** инверсия, перестановка; температурная инверсия
 **Plural:** *inversions*
 **Countability:** countable
 
-A reversal of the usual order or position of things.
+Inversion has 2 distinct senses.
+
+**1. A reversal of the usual order or position of things.** (инверсия, перестановка)
 
 1. A temperature *inversion* traps smog over the valley.
 2. The sentence uses an *inversion* for emphasis.
 3. The plot depends on a series of *inversions*.
+
+**2. A layer of warm air that traps cooler air and smog near the ground.** (температурная инверсия)
+
+4. An *inversion* held the smoke over the valley for a week.
+5. Air quality drops whenever a winter *inversion* settles in.
+6. The forecast calls for an *inversion* through Thursday.
 
 ---
 

@@ -432,15 +432,23 @@ A rough team game played with an oval ball that players carry, kick, and pass ba
 ### marathon
 
 **Pronunciation:** /ˈmærəθɑːn/ &middot; *MA-ruh-thahn*
-**Русский:** марафон
+**Русский:** марафон; марафон (что-л. долгое и изнурительное)
 **Plural:** *marathons*
 **Countability:** countable
 
-A running race of just over twenty-six miles.
+Marathon has 2 distinct senses.
+
+**1. A running race of just over twenty-six miles.** (марафон)
 
 1. She finished her first *marathon* in four hours.
 2. He's run six *marathons* since he turned fifty.
 3. Training for a *marathon* takes about four months.
+
+**2. Any long, tiring activity or event that goes on and on.** (марафон (что-л. долгое и изнурительное))
+
+4. We watched a *marathon* of old sitcoms on Thanksgiving.
+5. The budget hearing turned into a nine-hour *marathon*.
+6. Finals week is a *marathon*, not a sprint.
 
 ---
 
@@ -507,30 +515,46 @@ The official who calls plays in baseball, tennis, and some other sports.
 ### champion
 
 **Pronunciation:** /ˈtʃæmpiən/ &middot; *CHAM-pee-uhn*
-**Русский:** чемпион
+**Русский:** чемпион; поборник, защитник (дела, идеи)
 **Plural:** *champions*
 **Countability:** countable
 
-The person or team that finishes first in a competition.
+Champion has 2 distinct senses.
+
+**1. The person or team that finishes first in a competition.** (чемпион)
 
 1. She's the defending *champion*.
 2. The *champions* got a parade downtown.
 3. He was a state wrestling *champion* in high school.
+
+**2. Someone who publicly fights for a cause or defends other people.** (поборник, защитник (дела, идеи))
+
+4. She was a *champion* of open records long before it was popular.
+5. The mayor calls himself a *champion* of small business.
+6. Farmers lost their loudest *champion* in Congress.
 
 ---
 
 ### opponent
 
 **Pronunciation:** /əˈpoʊnənt/ &middot; *uh-POH-nuhnt*
-**Русский:** соперник, противник
+**Русский:** соперник, противник; противник (идеи, закона), оппонент
 **Plural:** *opponents*
 **Countability:** countable
 
-The person or team you are playing against.
+Opponent has 2 distinct senses.
+
+**1. The person or team you are playing against.** (соперник, противник)
 
 1. His *opponent* was a foot taller.
 2. They studied film on their next three *opponents*.
 3. Never underestimate an *opponent* you don't know.
+
+**2. Someone who is against a plan, idea, or law.** (противник (идеи, закона), оппонент)
+
+4. *Opponents* of the bill packed the hearing room.
+5. She became the leading *opponent* of the pipeline.
+6. Even *opponents* admit the program has saved money.
 
 ---
 
@@ -760,15 +784,23 @@ A racket game played over a high net with a light feathered shuttlecock.
 ### softball
 
 **Pronunciation:** /ˈsɔːftbɔːl/ &middot; *SAWFT-bawl*
-**Русский:** софтбол; мяч для софтбола
+**Русский:** софтбол; мяч для софтбола; лёгкий, заранее удобный вопрос
 **Plural:** *softballs*
 **Countability:** both — countable and uncountable with different meanings
 
-A game like baseball played with a larger, softer ball, or that ball itself.
+Softball has 2 distinct senses.
+
+**1. A game like baseball played with a larger, softer ball, or that ball itself.** (софтбол; мяч для софтбола)
 
 1. She pitched for her high school *softball* team.
 2. He hit the *softball* over the fence.
 3. The company league plays *softball* on Thursdays.
+
+**2. An easy question asked to let someone look good, especially in an interview.** (лёгкий, заранее удобный вопрос)
+
+4. The host lobbed him one *softball* after another.
+5. Reporters were promised a real interview and got nothing but *softballs*.
+6. That wasn't a tough question; it was a *softball*.
 
 ---
 
@@ -1317,16 +1349,24 @@ An enclosed sheet of ice or smooth floor for skating and hockey.
 ### ballpark
 
 **Pronunciation:** /ˈbɔːlpɑːrk/ &middot; *BAWL-park*
-**Русский:** бейсбольный стадион
+**Русский:** бейсбольный стадион; примерный диапазон, порядок величины
 **Plural:** *ballparks*
 **Countability:** countable
 **Contrast:** Also in the idiom *ballpark figure* — a rough estimate.
 
-A stadium built for baseball.
+Ballpark has 2 distinct senses.
+
+**1. A stadium built for baseball.** (бейсбольный стадион)
 
 1. The old *ballpark* holds forty thousand people.
 2. We've been to six *ballparks* this summer.
 3. Hot dogs taste better at the *ballpark*.
+
+**2. A rough range within which an amount is expected to fall.** (примерный диапазон, порядок величины)
+
+4. Give me a *ballpark* for what the repairs will cost.
+5. Your estimate is in the right *ballpark*.
+6. Fifty thousand was in the *ballpark*, but the winning bid came in higher.
 
 ---
 
@@ -1348,16 +1388,24 @@ The low covered bench where a baseball team sits during a game.
 ### sideline
 
 **Pronunciation:** /ˈsaɪdlaɪn/ &middot; *SYDE-lyne*
-**Русский:** боковая линия (поля)
+**Русский:** боковая линия (поля); побочное занятие, подработка
 **Plural:** *sidelines*
 **Countability:** countable
 **Contrast:** In the idiom *on the sidelines*, it means watching instead of taking part.
 
-The line marking the long edge of a field, and the area just outside it.
+Sideline has 2 distinct senses.
+
+**1. The line marking the long edge of a field, and the area just outside it.** (боковая линия (поля))
 
 1. He stepped over the *sideline* before the catch.
 2. The coaches paced the *sidelines* all night.
 3. Reporters wait on the *sideline* for the halftime interview.
+
+**2. A business or activity that someone does in addition to their main job.** (побочное занятие, подработка)
+
+4. He teaches history and repairs guitars as a *sideline*.
+5. What started as a *sideline* now brings in more than her salary.
+6. The farm has a couple of *sidelines*, like selling hay and boarding horses.
 
 ---
 
@@ -1493,15 +1541,23 @@ Striker has 2 distinct senses.
 ### defender
 
 **Pronunciation:** /dɪˈfɛndər/ &middot; *dih-FEN-dur*
-**Русский:** защитник
+**Русский:** защитник; защитник, сторонник (идеи, человека)
 **Plural:** *defenders*
 **Countability:** countable
 
-A player whose job is to stop the other team from scoring.
+Defender has 2 distinct senses.
+
+**1. A player whose job is to stop the other team from scoring.** (защитник)
 
 1. The *defender* cleared the ball off the line.
 2. Three *defenders* closed in on him at once.
 3. She's the best *defender* on the roster.
+
+**2. A person who publicly argues in support of someone or something.** (защитник, сторонник (идеи, человека))
+
+4. She is a fierce *defender* of free speech.
+5. Even his *defenders* admit that the plan has problems.
+6. The senator became the leading *defender* of the program in Congress.
 
 ---
 
@@ -1685,15 +1741,23 @@ An athlete who wins a medal in a competition.
 ### cheerleader
 
 **Pronunciation:** /ˈtʃɪrˌliːdər/ &middot; *CHEER-lee-dur*
-**Русский:** чирлидер (участник группы поддержки)
+**Русский:** чирлидер (участник группы поддержки); рьяный сторонник, пропагандист
 **Plural:** *cheerleaders*
 **Countability:** countable
 
-Someone who leads the crowd in cheers and routines at a game.
+Cheerleader has 2 distinct senses.
+
+**1. Someone who leads the crowd in cheers and routines at a game.** (чирлидер (участник группы поддержки))
 
 1. She was a *cheerleader* in high school.
 2. The *cheerleaders* came out at halftime.
 3. He's the team's biggest *cheerleader* off the field.
+
+**2. A person who loudly promotes and praises something.** (рьяный сторонник, пропагандист)
+
+4. The paper was a *cheerleader* for the stadium deal from day one.
+5. A manager should be a coach, not just a *cheerleader*.
+6. The plan's *cheerleaders* ignored every warning.
 
 ---
 
@@ -1994,15 +2058,23 @@ A baseball at-bat that ends with the batter missing three pitches.
 ### curveball
 
 **Pronunciation:** /ˈkɜːrvbɔːl/ &middot; *KURV-bawl*
-**Русский:** крученая подача (в бейсболе)
+**Русский:** крученая подача (в бейсболе); неожиданная проблема, сюрприз
 **Plural:** *curveballs*
 **Countability:** countable
 
-A baseball pitch thrown with spin so that it bends as it drops.
+Curveball has 2 distinct senses.
+
+**1. A baseball pitch thrown with spin so that it bends as it drops.** (крученая подача (в бейсболе))
 
 1. He can't hit a *curveball* to save his life.
 2. The pitcher mixed in two *curveballs*.
 3. Life threw her a *curveball* that spring.
+
+**2. An unexpected problem or surprise that is hard to deal with.** (неожиданная проблема, сюрприз)
+
+4. Life threw us a *curveball* in March.
+5. The interviewer opened with a *curveball*.
+6. Be ready for a few *curveballs* on moving day.
 
 ---
 
@@ -2249,15 +2321,23 @@ The extra game or rule used to decide a contest that is level.
 ### scrimmage
 
 **Pronunciation:** /ˈskrɪmɪdʒ/ &middot; *SKRIM-ij*
-**Русский:** тренировочная игра, двусторонка
+**Русский:** тренировочная игра, двусторонка; розыгрыш мяча; линия розыгрыша (амер. футбол)
 **Plural:** *scrimmages*
 **Countability:** countable
 
-A practice game played against your own team or another one.
+Scrimmage has 2 distinct senses.
+
+**1. A practice game played against your own team or another one.** (тренировочная игра, двусторонка)
 
 1. They have a *scrimmage* against the JV team Friday.
 2. Nobody gets hurt in these *scrimmages*, usually.
 3. The coach stopped the *scrimmage* to explain the play.
+
+**2. In football, the play that begins when the ball is snapped, or the line where the two teams face off.** (розыгрыш мяча; линия розыгрыша (амер. футбол))
+
+4. The quarterback read the defense at the line of *scrimmage*.
+5. He gained ninety yards from *scrimmage* on Sunday.
+6. A false start moved the line of *scrimmage* back five yards.
 
 ---
 
@@ -2318,30 +2398,46 @@ A ball dropped by the player carrying it.
 ### interception
 
 **Pronunciation:** /ˌɪntərˈsɛpʃən/ &middot; *in-tur-SEP-shuhn*
-**Русский:** перехват (мяча)
+**Русский:** перехват (мяча); перехват (сообщений, груза)
 **Plural:** *interceptions*
 **Countability:** countable
 
-A pass caught by the other team.
+Interception has 2 distinct senses.
+
+**1. A pass caught by the other team.** (перехват (мяча))
 
 1. He threw two *interceptions* in the first half.
 2. That *interception* changed the whole game.
 3. Her *interception* set up the winning score.
+
+**2. The act of stopping or catching something while it is on its way somewhere.** (перехват (сообщений, груза))
+
+4. The *interception* of the shipment led to six arrests.
+5. The court set limits on the *interception* of private messages.
+6. Radar made *interception* of the plane possible.
 
 ---
 
 ### comeback
 
 **Pronunciation:** /ˈkʌmbæk/ &middot; *KUM-bak*
-**Русский:** камбэк, возвращение (после отставания)
+**Русский:** камбэк, возвращение (после отставания); остроумный ответ, отповедь
 **Plural:** *comebacks*
 **Countability:** countable
 
-A recovery from being far behind, or a return after time away.
+Comeback has 2 distinct senses.
+
+**1. A recovery from being far behind, or a return after time away.** (камбэк, возвращение (после отставания))
 
 1. It was the biggest *comeback* in team history.
 2. He's attempting a *comeback* at thirty-eight.
 3. Their *comebacks* are why people watch.
+
+**2. A quick, clever reply to a remark or an insult.** (остроумный ответ, отповедь)
+
+4. I thought of a great *comeback* about an hour too late.
+5. Her *comeback* had the whole table laughing.
+6. He is never short of a *comeback*.
 
 ---
 
@@ -2379,15 +2475,23 @@ A second match between the same two opponents.
 ### knockout
 
 **Pronunciation:** /ˈnɑːkaʊt/ &middot; *NAHK-owt*
-**Русский:** нокаут
+**Русский:** нокаут; красавица, сногсшибательный человек
 **Plural:** *knockouts*
 **Countability:** countable
 
-A win in boxing when the other fighter cannot get back up.
+Knockout has 2 distinct senses.
+
+**1. A win in boxing when the other fighter cannot get back up.** (нокаут)
 
 1. He won by *knockout* in the third round.
 2. Twenty of her wins were *knockouts*.
 3. That punch was a clean *knockout*.
+
+**2. An extremely attractive person.** (красавица, сногсшибательный человек)
+
+4. She looked like a *knockout* in that dress.
+5. Their new singer is an absolute *knockout*.
+6. Everyone told him his date was a *knockout*.
 
 ---
 

@@ -6,14 +6,43 @@
       "term": "mountain",
       "ipa": "/ˈmaʊntən/",
       "respell": "MOWN-tuhn",
-      "meaning": "A very high, steep piece of land, much taller than a hill. ---",
+      "meaning": "Mountain has 2 distinct senses.",
       "examples": [
         "We hiked to the top of the mountain before noon.",
         "The mountains were still covered in snow in May.",
-        "There's a cabin about halfway up the mountain."
+        "There's a cabin about halfway up the mountain.",
+        "There's a mountain of laundry on the bed.",
+        "She came back from vacation to a mountain of email.",
+        "They ran up mountains of debt paying for the treatment."
       ],
-      "senses": [],
-      "русский": "гора",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very high, steep piece of land, much taller than a hill",
+          "body": [
+            "(гора)"
+          ],
+          "examples": [
+            "We hiked to the top of the mountain before noon.",
+            "The mountains were still covered in snow in May.",
+            "There's a cabin about halfway up the mountain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very large pile or amount of something",
+          "body": [
+            "(куча, груда, масса (чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "There's a mountain of laundry on the bed.",
+            "She came back from vacation to a mountain of email.",
+            "They ran up mountains of debt paying for the treatment."
+          ]
+        }
+      ],
+      "русский": "гора; куча, груда, масса (чего-л.)",
       "plural": "mountains",
       "countability": "countable"
     },
@@ -499,14 +528,43 @@
       "term": "landslide",
       "ipa": "/ˈlændslaɪd/",
       "respell": "LAND-slyd",
-      "meaning": "A mass of earth and rock that slides suddenly down a slope. ---",
+      "meaning": "Landslide has 2 distinct senses.",
       "examples": [
         "A landslide closed the highway for three days.",
         "Heavy rain triggered landslides all over the county.",
-        "You can still see where the landslide tore through the trees."
+        "You can still see where the landslide tore through the trees.",
+        "The governor was reelected in a landslide.",
+        "Early returns already pointed to a landslide.",
+        "She won the student council race by a landslide."
       ],
-      "senses": [],
-      "русский": "оползень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mass of earth and rock that slides suddenly down a slope",
+          "body": [
+            "(оползень)"
+          ],
+          "examples": [
+            "A landslide closed the highway for three days.",
+            "Heavy rain triggered landslides all over the county.",
+            "You can still see where the landslide tore through the trees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An election win by an enormous margin",
+          "body": [
+            "(убедительная победа на выборах)",
+            "---"
+          ],
+          "examples": [
+            "The governor was reelected in a landslide.",
+            "Early returns already pointed to a landslide.",
+            "She won the student council race by a landslide."
+          ]
+        }
+      ],
+      "русский": "оползень; убедительная победа на выборах",
       "plural": "landslides",
       "countability": "countable"
     },
@@ -703,14 +761,73 @@
       "term": "landscape",
       "ipa": "/ˈlændskeɪp/",
       "respell": "LAND-skayp",
-      "meaning": "Everything you can see when you look across an area of land. ---",
+      "meaning": "Landscape has 4 distinct senses.",
       "examples": [
         "The landscape changes completely once you cross the pass.",
         "She paints desert landscapes.",
-        "Wind turbines have changed the landscape around here."
+        "Wind turbines have changed the landscape around here.",
+        "Streaming changed the landscape of the music business.",
+        "The political landscape looks very different after the election.",
+        "Small firms have to survive in a crowded competitive landscape.",
+        "A small landscape hung above the fireplace.",
+        "The museum's landscapes are mostly from the 1800s.",
+        "He paints landscapes of the Hudson Valley.",
+        "Print the spreadsheet in landscape so the columns fit.",
+        "Switch the page to landscape before you add the chart.",
+        "The photo works better in landscape than in portrait."
       ],
-      "senses": [],
-      "русский": "пейзаж, ландшафт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Everything you can see when you look across an area of land",
+          "body": [
+            "(пейзаж, ландшафт)"
+          ],
+          "examples": [
+            "The landscape changes completely once you cross the pass.",
+            "She paints desert landscapes.",
+            "Wind turbines have changed the landscape around here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The whole set of conditions in an area of activity at a given time",
+          "body": [
+            "(положение дел, обстановка (в какой-либо сфере))"
+          ],
+          "examples": [
+            "Streaming changed the landscape of the music business.",
+            "The political landscape looks very different after the election.",
+            "Small firms have to survive in a crowded competitive landscape."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A painting or photograph of country scenery",
+          "body": [
+            "(пейзаж (картина, фотография))"
+          ],
+          "examples": [
+            "A small landscape hung above the fireplace.",
+            "The museum's landscapes are mostly from the 1800s.",
+            "He paints landscapes of the Hudson Valley."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The page format that is wider than it is tall",
+          "body": [
+            "(альбомная ориентация (страницы))",
+            "---"
+          ],
+          "examples": [
+            "Print the spreadsheet in landscape so the columns fit.",
+            "Switch the page to landscape before you add the chart.",
+            "The photo works better in landscape than in portrait."
+          ]
+        }
+      ],
+      "русский": "пейзаж, ландшафт; положение дел, обстановка (в какой-либо сфере); пейзаж (картина, фотография); альбомная ориентация (страницы)",
       "plural": "landscapes",
       "countability": "countable"
     },
@@ -1541,14 +1658,58 @@
       "term": "reservoir",
       "ipa": "/ˈrɛzərvwɑːr/",
       "respell": "REZ-ur-vwahr",
-      "meaning": "A lake, often man-made, where water is stored for later use. ---",
+      "meaning": "Reservoir has 3 distinct senses.",
       "examples": [
         "The reservoir is down twenty feet after two dry years.",
         "Fishing is allowed on the lower reservoir.",
-        "The city gets its drinking water from three reservoirs."
+        "The city gets its drinking water from three reservoirs.",
+        "The mayor still has a deep reservoir of goodwill in the city.",
+        "The country has a huge reservoir of untapped talent.",
+        "Years of teaching gave her a reservoir of patience.",
+        "Fill the reservoir with cold water before you brew the coffee.",
+        "The windshield washer reservoir is empty again.",
+        "Both reservoirs on the humidifier need cleaning."
       ],
-      "senses": [],
-      "русский": "водохранилище",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A lake, often man-made, where water is stored for later use",
+          "body": [
+            "(водохранилище)"
+          ],
+          "examples": [
+            "The reservoir is down twenty feet after two dry years.",
+            "Fishing is allowed on the lower reservoir.",
+            "The city gets its drinking water from three reservoirs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large supply of something that can be drawn on when needed",
+          "body": [
+            "(запас, резерв (большой))"
+          ],
+          "examples": [
+            "The mayor still has a deep reservoir of goodwill in the city.",
+            "The country has a huge reservoir of untapped talent.",
+            "Years of teaching gave her a reservoir of patience."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A container inside a machine that holds liquid until it is needed",
+          "body": [
+            "(резервуар, ёмкость (в устройстве))",
+            "---"
+          ],
+          "examples": [
+            "Fill the reservoir with cold water before you brew the coffee.",
+            "The windshield washer reservoir is empty again.",
+            "Both reservoirs on the humidifier need cleaning."
+          ]
+        }
+      ],
+      "русский": "водохранилище; запас, резерв (большой); резервуар, ёмкость (в устройстве)",
       "plural": "reservoirs",
       "countability": "countable",
       "contrast": "The French ending -voir is said VWAHR: REZ-ur-vwahr."
@@ -2336,14 +2497,43 @@
       "term": "avalanche",
       "ipa": "/ˈævəlæntʃ/",
       "respell": "AV-uh-lanch",
-      "meaning": "A large mass of snow and ice that suddenly slides down a mountain. ---",
+      "meaning": "Avalanche has 2 distinct senses.",
       "examples": [
         "An avalanche buried a mile of the highway.",
         "The avalanche risk is high after a heavy snowfall.",
-        "Two skiers set off a small avalanche."
+        "Two skiers set off a small avalanche.",
+        "The story set off an avalanche of angry email.",
+        "She came back from vacation to an avalanche of paperwork.",
+        "An avalanche of orders came in the day the ad aired."
       ],
-      "senses": [],
-      "русский": "лавина, снежная лавина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large mass of snow and ice that suddenly slides down a mountain",
+          "body": [
+            "(лавина, снежная лавина)"
+          ],
+          "examples": [
+            "An avalanche buried a mile of the highway.",
+            "The avalanche risk is high after a heavy snowfall.",
+            "Two skiers set off a small avalanche."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden flood of things arriving all at once",
+          "body": [
+            "(лавина, поток (писем, жалоб, заказов))",
+            "---"
+          ],
+          "examples": [
+            "The story set off an avalanche of angry email.",
+            "She came back from vacation to an avalanche of paperwork.",
+            "An avalanche of orders came in the day the ad aired."
+          ]
+        }
+      ],
+      "русский": "лавина, снежная лавина; лавина, поток (писем, жалоб, заказов)",
       "plural": "avalanches",
       "countability": "countable"
     },
@@ -2618,14 +2808,43 @@
       "term": "environment",
       "ipa": "/ɪnˈvaɪrənmənt/",
       "respell": "in-VY-ruhn-muhnt",
-      "meaning": "The natural world, especially as it is affected by human activity. ---",
+      "meaning": "Environment has 2 distinct senses.",
       "examples": [
         "The plant was fined for polluting the environment.",
         "Plastics stay in the environment for centuries.",
-        "Voters around here care a lot about the environment."
+        "Voters around here care a lot about the environment.",
+        "The office has a relaxed environment.",
+        "Kids do better in a calm home environment.",
+        "She quit because of the toxic work environment."
       ],
-      "senses": [],
-      "русский": "окружающая среда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The natural world, especially as it is affected by human activity",
+          "body": [
+            "(окружающая среда)"
+          ],
+          "examples": [
+            "The plant was fined for polluting the environment.",
+            "Plastics stay in the environment for centuries.",
+            "Voters around here care a lot about the environment."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The conditions and surroundings in which someone lives or works",
+          "body": [
+            "(обстановка, среда (рабочая, домашняя))",
+            "---"
+          ],
+          "examples": [
+            "The office has a relaxed environment.",
+            "Kids do better in a calm home environment.",
+            "She quit because of the toxic work environment."
+          ]
+        }
+      ],
+      "русский": "окружающая среда; обстановка, среда (рабочая, домашняя)",
       "countability": "uncountable",
       "contrast": "Stressed on the second syllable, which rhymes with fire: in-VY-ruhn-muhnt."
     },
@@ -2648,14 +2867,43 @@
       "term": "ecosystem",
       "ipa": "/ˈiːkoʊsɪstəm/",
       "respell": "EE-koh-sis-tuhm",
-      "meaning": "All the plants and animals of an area together with the environment they live in. ---",
+      "meaning": "Ecosystem has 2 distinct senses.",
       "examples": [
         "One invasive species can upset the whole ecosystem.",
         "The reef ecosystem is recovering slowly.",
-        "Coastal ecosystems are especially fragile."
+        "Coastal ecosystems are especially fragile.",
+        "Once you buy the phone, you're inside their whole ecosystem.",
+        "The city has built a real startup ecosystem.",
+        "Outside developers are the heart of the ecosystem."
       ],
-      "senses": [],
-      "русский": "экосистема",
+      "senses": [
+        {
+          "n": "1",
+          "head": "All the plants and animals of an area together with the environment they live in",
+          "body": [
+            "(экосистема)"
+          ],
+          "examples": [
+            "One invasive species can upset the whole ecosystem.",
+            "The reef ecosystem is recovering slowly.",
+            "Coastal ecosystems are especially fragile."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A network of connected companies, products, or people that depend on one another",
+          "body": [
+            "(экосистема (продуктов, бизнеса))",
+            "---"
+          ],
+          "examples": [
+            "Once you buy the phone, you're inside their whole ecosystem.",
+            "The city has built a real startup ecosystem.",
+            "Outside developers are the heart of the ecosystem."
+          ]
+        }
+      ],
+      "русский": "экосистема; экосистема (продуктов, бизнеса)",
       "plural": "ecosystems",
       "countability": "countable"
     },

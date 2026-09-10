@@ -283,14 +283,22 @@ The soft half-light in the sky before sunrise or after sunset.
 ### daylight
 
 **Pronunciation:** /ˈdeɪlaɪt/ &middot; *DAY-lyt*
-**Русский:** дневной свет; светлое время суток
+**Русский:** дневной свет; светлое время суток; просвет, зазор; расхождение (во мнениях)
 **Countability:** uncountable
 
-The natural light of day, or the hours when it is light outside.
+Daylight has 2 distinct senses.
+
+**1. The natural light of day, or the hours when it is light outside.** (дневной свет; светлое время суток)
 
 1. We only have about two hours of *daylight* left.
 2. The colors look completely different in *daylight*.
 3. Try to get off the mountain while there's still *daylight*.
+
+**2. A gap or clear space between two people, things, or positions.** (просвет, зазор; расхождение (во мнениях))
+
+4. There was no *daylight* between the mayor and the governor on the budget.
+5. The lead runner opened up some *daylight* between herself and the pack.
+6. You could see *daylight* under the door where it didn't sit flush.
 
 ---
 
@@ -364,16 +372,24 @@ Climate has 2 distinct senses.
 ### atmosphere
 
 **Pronunciation:** /ˈætməsfɪr/ &middot; *AT-muhs-feer*
-**Русский:** атмосфера
+**Русский:** атмосфера; атмосфера, обстановка (настроение)
 **Plural:** *atmospheres*
 **Countability:** countable
 **Contrast:** Stress the first syllable — AT-muhs-feer, unlike Russian «атмосфЕра».
 
-The layer of gases surrounding a planet.
+Atmosphere has 2 distinct senses.
+
+**1. The layer of gases surrounding a planet.** (атмосфера)
 
 1. Most meteors burn up in the *atmosphere*.
 2. The upper *atmosphere* is far colder than that.
 3. Mars has a thin *atmosphere* with almost no oxygen.
+
+**2. The mood or feeling of a place or a situation.** (атмосфера, обстановка (настроение))
+
+4. The café has a warm, relaxed *atmosphere*.
+5. There was a tense *atmosphere* in the meeting.
+6. Candles and old photos gave the room a cozy *atmosphere*.
 
 ---
 
@@ -494,15 +510,23 @@ How far you can see, given the weather conditions.
 ### barometer
 
 **Pronunciation:** /bəˈrɑːmətər/ &middot; *buh-RAH-muh-tur*
-**Русский:** барометр
+**Русский:** барометр; барометр, показатель (настроений, тенденций)
 **Plural:** *barometers*
 **Countability:** countable
 
-An instrument that measures air pressure to help predict weather.
+Barometer has 2 distinct senses.
+
+**1. An instrument that measures air pressure to help predict weather.** (барометр)
 
 1. The *barometer* is falling, so expect a storm.
 2. My grandfather had a brass *barometer* by the door.
 3. *Barometers* were standard equipment on every ship.
+
+**2. Something that shows how a situation or a public mood is changing.** (барометр, показатель (настроений, тенденций))
+
+4. Consumer spending is a good *barometer* of the economy.
+5. Local elections often serve as a *barometer* of the national mood.
+6. Ticket sales are the industry's *barometer* of what audiences want.
 
 ---
 
@@ -775,15 +799,23 @@ Snow that has partly melted into a wet, dirty mush.
 ### snowflake
 
 **Pronunciation:** /ˈsnoʊfleɪk/ &middot; *SNOH-flayk*
-**Русский:** снежинка
+**Русский:** снежинка; неженка, обидчивый человек (пренебр.)
 **Plural:** *snowflakes*
 **Countability:** countable
 
-A single piece of falling snow.
+Snowflake has 2 distinct senses.
+
+**1. A single piece of falling snow.** (снежинка)
 
 1. A *snowflake* landed on her glove and melted.
 2. Big wet *snowflakes* were coming down fast.
 3. No two *snowflakes* are supposed to be alike.
+
+**2. An insulting word for someone thought to be too easily offended or too fragile.** (неженка, обидчивый человек (пренебр.))
+
+4. He calls anyone who disagrees with him a *snowflake*.
+5. The column dismissed the protesting students as *snowflakes*.
+6. Don't be such a *snowflake* — it was a joke.
 
 ---
 
@@ -1629,15 +1661,23 @@ An object placed in orbit around a planet, or a moon that orbits naturally.
 ### constellation
 
 **Pronunciation:** /ˌkɑːnstəˈleɪʃən/ &middot; *kahn-stuh-LAY-shuhn*
-**Русский:** созвездие
+**Русский:** созвездие; совокупность, набор (связанных вещей)
 **Plural:** *constellations*
 **Countability:** countable
 
-A group of stars that people picture as forming a shape.
+Constellation has 2 distinct senses.
+
+**1. A group of stars that people picture as forming a shape.** (созвездие)
 
 1. That *constellation* is easy to find in winter.
 2. My dad taught me a few *constellations* when I was a kid.
 3. The app tells you which *constellation* you're looking at.
+
+**2. A group of related people or things that appear together.** (совокупность, набор (связанных вещей))
+
+4. The doctor looked at the whole *constellation* of symptoms before deciding.
+5. A *constellation* of small startups has grown up around the university.
+6. The album brought together a *constellation* of guest singers.
 
 ---
 
@@ -1788,15 +1828,23 @@ A building with telescopes, used for studying the sky.
 ### hemisphere
 
 **Pronunciation:** /ˈhɛməsfɪr/ &middot; *HEM-uh-sfeer*
-**Русский:** полушарие
+**Русский:** полушарие; полушарие (мозга)
 **Plural:** *hemispheres*
 **Countability:** countable
 
-One half of the earth, divided north and south or east and west.
+Hemisphere has 2 distinct senses.
+
+**1. One half of the earth, divided north and south or east and west.** (полушарие)
 
 1. It's winter here and summer in the southern *hemisphere*.
 2. That plant only grows in the northern *hemisphere*.
 3. The seasons are reversed between the two *hemispheres*.
+
+**2. One of the two halves of the brain.** (полушарие (мозга))
+
+4. Language is handled mostly by the left *hemisphere*.
+5. The stroke damaged the right *hemisphere*.
+6. The two *hemispheres* are joined by a thick band of nerve fibers.
 
 ---
 

@@ -159,15 +159,29 @@ A short introduction at the front of a book written by someone other than the au
 ### introduction
 
 **Pronunciation:** /ˌɪntrəˈdʌkʃən/ &middot; *in-truh-DUK-shuhn*
-**Русский:** введение
+**Русский:** введение; представление (при знакомстве); введение, внедрение (нового)
 **Plural:** *introductions*
 **Countability:** countable
 
-The opening section of a book or article that explains what it will cover.
+Introduction has 3 distinct senses.
+
+**1. The opening section of a book or article that explains what it will cover.** (введение)
 
 1. Read the *introduction* first so you know the argument.
 2. The *introduction* lays out three main questions.
 3. Textbook *introductions* are usually the driest part.
+
+**2. The act of telling two people each other's names so that they can meet.** (представление (при знакомстве))
+
+4. Let me make the *introductions*.
+5. We met through a mutual friend's *introduction*.
+6. She was too shy to wait for an *introduction*.
+
+**3. The bringing of something new into use or into a place.** (введение, внедрение (нового))
+
+7. The *introduction* of the smartphone changed everything.
+8. The *introduction* of rabbits to Australia was a disaster.
+9. Sales fell right after the *introduction* of the new fee.
 
 ---
 
@@ -445,15 +459,23 @@ A short piece of praise or description printed on a book's cover to sell it.
 ### manuscript
 
 **Pronunciation:** /ˈmænjəskrɪpt/ &middot; *MAN-yuh-skript*
-**Русский:** рукопись
+**Русский:** рукопись; манускрипт, старинная рукопись
 **Plural:** *manuscripts*
 **Countability:** countable
 
-The text of a book as the author wrote it, before it is printed.
+Manuscript has 2 distinct senses.
+
+**1. The text of a book as the author wrote it, before it is printed.** (рукопись)
 
 1. She sent the *manuscript* to her agent in March.
 2. The *manuscript* came back covered in red ink.
 3. Publishers get thousands of unsolicited *manuscripts*.
+
+**2. An old book or document written out by hand.** (манускрипт, старинная рукопись)
+
+4. The library keeps a medieval *manuscript* in a climate-controlled case.
+5. Monks copied *manuscripts* by candlelight.
+6. The exhibit includes an illuminated *manuscript* from the 1300s.
 
 ---
 
@@ -1123,15 +1145,29 @@ A book or film about what happened before the story of an earlier one.
 ### adaptation
 
 **Pronunciation:** /ˌædæpˈteɪʃən/ &middot; *ad-ap-TAY-shuhn*
-**Русский:** экранизация, адаптация
+**Русский:** экранизация, адаптация; приспособление, адаптация (биологическая); адаптация, приспособление (к новым условиям)
 **Plural:** *adaptations*
 **Countability:** countable
 
-A film, play, or show made from a book or other existing work.
+Adaptation has 3 distinct senses.
+
+**1. A film, play, or show made from a book or other existing work.** (экранизация, адаптация)
 
 1. The film *adaptation* cuts half the book.
 2. There have been four *adaptations* of that novel.
 3. She's writing a stage *adaptation*.
+
+**2. A feature or behavior that has developed to help a living thing survive where it lives.** (приспособление, адаптация (биологическая))
+
+4. Thick fur is an *adaptation* to the cold.
+5. The cactus has several *adaptations* for storing water.
+6. Long legs are an *adaptation* for running in open country.
+
+**3. The process of changing in order to fit new conditions.** (адаптация, приспособление (к новым условиям))
+
+7. *Adaptation* to life in a new country takes a year or two.
+8. Coastal cities are spending billions on climate *adaptation*.
+9. His *adaptation* to the night shift was slow and painful.
 
 ---
 
@@ -1432,15 +1468,23 @@ Article has 4 distinct senses.
 ### headline
 
 **Pronunciation:** /ˈhɛdlaɪn/ &middot; *HED-lyn*
-**Русский:** заголовок (в газете)
+**Русский:** заголовок (в газете); главное, суть (самое важное)
 **Plural:** *headlines*
 **Countability:** countable
 
-The title printed in large type above a news story.
+Headline has 2 distinct senses.
+
+**1. The title printed in large type above a news story.** (заголовок (в газете))
 
 1. The *headline* was bigger than the story deserved.
 2. He only reads the *headlines*.
 3. That verdict made *headlines* across the country.
+
+**2. The single most important point of a report, a speech, or a set of results.** (главное, суть (самое важное))
+
+4. The *headline* from the earnings call was a 20 percent jump in sales.
+5. Skip the details for now and just give me the *headline*.
+6. The *headline* of the study is that the drug works better in older patients.
 
 ---
 
@@ -1493,15 +1537,29 @@ A writer with a regular signed piece in a paper or magazine.
 ### contributor
 
 **Pronunciation:** /kənˈtrɪbjətər/ &middot; *kuhn-TRIB-yuh-tur*
-**Русский:** внештатный автор
+**Русский:** внештатный автор; жертвователь, спонсор; фактор, способствующий (чему-л.)
 **Plural:** *contributors*
 **Countability:** countable
 
-A writer who supplies pieces to a magazine or site without being on staff.
+Contributor has 3 distinct senses.
+
+**1. A writer who supplies pieces to a magazine or site without being on staff.** (внештатный автор)
 
 1. She's a regular *contributor* to the food section.
 2. The masthead lists forty *contributors*.
 3. They pay *contributors* by the word.
+
+**2. Someone who gives money to a campaign, a charity, or a fund.** (жертвователь, спонсор)
+
+4. The senator returned the money to several *contributors*.
+5. The museum lists every *contributor* on a plaque in the lobby.
+6. She was the campaign's largest *contributor* last year.
+
+**3. A thing that helps to cause something, usually something bad.** (фактор, способствующий (чему-л.))
+
+7. Smoking is a major *contributor* to heart disease.
+8. Cars are the biggest *contributor* to the city's smog.
+9. Poor sleep is a known *contributor* to anxiety.
 
 ---
 
@@ -1621,14 +1679,28 @@ Feature has 3 distinct senses.
 ### coverage
 
 **Pronunciation:** /ˈkʌvərɪdʒ/ &middot; *KUV-uh-rij*
-**Русский:** освещение (в СМИ)
+**Русский:** освещение (в СМИ); страховое покрытие; зона покрытия (сети)
 **Countability:** uncountable
 
-The reporting a story gets in newspapers, on TV, or online.
+Coverage has 3 distinct senses.
+
+**1. The reporting a story gets in newspapers, on TV, or online.** (освещение (в СМИ))
 
 1. The trial got wall-to-wall *coverage*.
 2. Local *coverage* of the storm was excellent.
 3. There was almost no *coverage* of the vote.
+
+**2. The protection an insurance policy gives you, and what it includes.** (страховое покрытие)
+
+4. Does your plan include dental *coverage*?
+5. She lost her health *coverage* when the job ended.
+6. Flood damage is not part of the *coverage*.
+
+**3. The area in which a phone or radio signal can be received.** (зона покрытия (сети))
+
+7. There's no cell *coverage* past the ridge.
+8. The carrier claims *coverage* in ninety-eight percent of the state.
+9. We lost *coverage* somewhere in the canyon.
 
 ---
 
@@ -1827,15 +1899,23 @@ A short regular report emailed or mailed to members or subscribers.
 ### bulletin
 
 **Pronunciation:** /ˈbʊlətən/ &middot; *BUUL-uh-tin*
-**Русский:** сводка новостей, бюллетень
+**Русский:** сводка новостей, бюллетень; бюллетень, информационный листок (организации)
 **Plural:** *bulletins*
 **Countability:** countable
 
-A short news announcement or report, especially an urgent one.
+Bulletin has 2 distinct senses.
+
+**1. A short news announcement or report, especially an urgent one.** (сводка новостей, бюллетень)
 
 1. They broke into the show with a news *bulletin*.
 2. The station runs a weather *bulletin* every hour.
 3. The first *bulletin* said only that a plane was down.
+
+**2. A short magazine or newsletter that an organization publishes regularly for its members.** (бюллетень, информационный листок (организации))
+
+4. The wedding was announced in the church *bulletin*.
+5. The club mails a *bulletin* to members every quarter.
+6. I read about her prize in the alumni *bulletin*.
 
 ---
 
@@ -1857,14 +1937,28 @@ A meeting where officials give reporters information about a situation.
 ### circulation
 
 **Pronunciation:** /ˌsɜːrkjəˈleɪʃən/ &middot; *sur-kyuh-LAY-shuhn*
-**Русский:** тираж (газеты, журнала)
+**Русский:** тираж (газеты, журнала); кровообращение; обращение, хождение (денег, вещей)
 **Countability:** uncountable
 
-The number of copies of a paper or magazine that are sold.
+Circulation has 3 distinct senses.
+
+**1. The number of copies of a paper or magazine that are sold.** (тираж (газеты, журнала))
 
 1. The paper's *circulation* has fallen by half.
 2. *Circulation* peaked in the eighties.
 3. The magazine claims a *circulation* of 90,000.
+
+**2. The movement of blood around the body.** (кровообращение)
+
+4. Cold hands can be a sign of poor *circulation*.
+5. Walking every day improves your *circulation*.
+6. The bandage was so tight it cut off *circulation* to her fingers.
+
+**3. The passing of something from person to person, or its availability for public use.** (обращение, хождение (денег, вещей))
+
+7. Those old bills are no longer in *circulation*.
+8. The library pulled the damaged copies out of *circulation*.
+9. He's been sick and out of *circulation* for a month.
 
 ---
 
@@ -2379,15 +2473,23 @@ The script of a movie, with the dialogue and the action.
 ### subtitle
 
 **Pronunciation:** /ˈsʌbtaɪtəl/ &middot; *SUB-ty-tuhl*
-**Русский:** субтитры
+**Русский:** субтитры; подзаголовок
 **Plural:** *subtitles*
 **Countability:** countable
 
-Words shown at the bottom of the screen giving what is being said.
+Subtitle has 2 distinct senses.
+
+**1. Words shown at the bottom of the screen giving what is being said.** (субтитры)
 
 1. I watch everything with *subtitles* on.
 2. The *subtitles* were a few seconds behind.
 3. The film is in Korean with English *subtitles*.
+
+**2. A second, longer title printed under the main title of a book or article.** (подзаголовок)
+
+4. The book's *subtitle* explains what it is actually about.
+5. Her article carried the *subtitle* 'A Year on the River'.
+6. Publishers often add a *subtitle* to help sales.
 
 ---
 

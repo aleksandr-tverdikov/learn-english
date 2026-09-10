@@ -304,16 +304,24 @@ Verdict has 2 distinct senses.
 ### sentence
 
 **Pronunciation:** /ˈsɛntəns/ &middot; *SEN-tuhns*
-**Русский:** приговор (наказание)
+**Русский:** приговор (наказание); предложение (в грамматике)
 **Plural:** *sentences*
 **Countability:** countable
 **Contrast:** The same word means a sentence in grammar; only context tells you which.
 
-The punishment a court orders for someone found guilty.
+Sentence has 2 distinct senses.
+
+**1. The punishment a court orders for someone found guilty.** (приговор (наказание))
 
 1. He got a five-year *sentence*.
 2. The judge suspended the *sentence*.
 3. Longer *sentences* haven't reduced the crime rate.
+
+**2. A group of words that expresses a complete thought.** (предложение (в грамматике))
+
+4. Write your answer in one complete *sentence*.
+5. That *sentence* is missing a verb.
+6. He reads the first two *sentences* of an article and stops.
 
 ---
 
@@ -349,14 +357,22 @@ Appeal has 3 distinct senses.
 ### testimony
 
 **Pronunciation:** /ˈtɛstɪmoʊni/ &middot; *TESS-tih-moh-nee*
-**Русский:** показания (свидетельские)
+**Русский:** показания (свидетельские); свидетельство, доказательство
 **Countability:** uncountable
 
-What a witness formally states in court, usually under oath.
+Testimony has 2 distinct senses.
+
+**1. What a witness formally states in court, usually under oath.** (показания (свидетельские))
 
 1. Her *testimony* took most of the afternoon.
 2. The jury heard *testimony* from six witnesses.
 3. Without his *testimony*, the case falls apart.
+
+**2. Something that serves as clear proof of a fact or a quality.** (свидетельство, доказательство)
+
+4. The crowded gym is *testimony* to the coach's popularity.
+5. The old barn stands as *testimony* to how carefully they built things.
+6. Her steady hands are *testimony* to years of practice.
 
 ---
 
@@ -426,16 +442,24 @@ Plea has 2 distinct senses.
 ### indictment
 
 **Pronunciation:** /ɪnˈdaɪtmənt/ &middot; *in-DYT-muhnt*
-**Русский:** обвинительное заключение
+**Русский:** обвинительное заключение; суровый упрёк, обвинение (перен.)
 **Plural:** *indictments*
 **Countability:** countable
 **Contrast:** The c is silent: in-DYT-muhnt, as if it were spelled *inditement*.
 
-A formal written accusation charging someone with a serious crime.
+Indictment has 2 distinct senses.
+
+**1. A formal written accusation charging someone with a serious crime.** (обвинительное заключение)
 
 1. The *indictment* runs to forty pages.
 2. He was named in the *indictment*.
 3. Two more *indictments* came down that week.
+
+**2. A sign that something has failed badly and deserves harsh criticism.** (суровый упрёк, обвинение (перен.))
+
+4. The report is a damning *indictment* of the agency's safety record.
+5. Six-hour waits are an *indictment* of the whole system.
+6. Critics called the movie an *indictment* of American greed.
 
 ---
 
@@ -534,15 +558,23 @@ Judgment has 3 distinct senses.
 ### settlement
 
 **Pronunciation:** /ˈsɛtəlmənt/ &middot; *SET-uhl-muhnt*
-**Русский:** мировое соглашение
+**Русский:** мировое соглашение; поселение, посёлок
 **Plural:** *settlements*
 **Countability:** countable
 
-An agreement that ends a legal dispute without a trial.
+Settlement has 2 distinct senses.
+
+**1. An agreement that ends a legal dispute without a trial.** (мировое соглашение)
 
 1. They reached a *settlement* on the courthouse steps.
 2. The *settlement* was worth two million dollars.
 3. Most *settlements* include a confidentiality clause.
+
+**2. A place where a group of people have come to live, especially a small or newly founded one.** (поселение, посёлок)
+
+4. The first *settlement* here was a trading post on the river.
+5. Archaeologists found three ancient *settlements* under the field.
+6. A few families started a *settlement* at the edge of the desert.
 
 ---
 
@@ -579,15 +611,23 @@ Money a court orders one side to pay another for harm or loss.
 ### compensation
 
 **Pronunciation:** /ˌkɑːmpənˈseɪʃən/ &middot; *kahm-puhn-SAY-shun*
-**Русский:** компенсация, возмещение
+**Русский:** компенсация, возмещение; оплата труда, вознаграждение
 **Countability:** uncountable
 **Contrast:** Uncountable — never *compensations*.
 
-Money paid to someone for injury, loss, or unfair treatment.
+Compensation has 2 distinct senses.
+
+**1. Money paid to someone for injury, loss, or unfair treatment.** (компенсация, возмещение)
 
 1. Workers got *compensation* for the layoffs.
 2. She received no *compensation* for the damage to her car.
 3. The *compensation* barely covered her medical bills.
+
+**2. The pay and benefits an employee receives for work.** (оплата труда, вознаграждение)
+
+4. Her *compensation* package includes stock options.
+5. The board voted to cut executive *compensation*.
+6. Total *compensation* runs about ninety thousand a year.
 
 ---
 
@@ -707,31 +747,47 @@ Laws considered together, or the process of making them.
 ### regulation
 
 **Pronunciation:** /ˌrɛɡjəˈleɪʃən/ &middot; *reg-yuh-LAY-shun*
-**Русский:** норма, предписание, правило
+**Русский:** норма, предписание, правило; регулирование, контроль
 **Plural:** *regulations*
 **Countability:** countable
 
-An official rule made by a government agency.
+Regulation has 2 distinct senses.
+
+**1. An official rule made by a government agency.** (норма, предписание, правило)
 
 1. The new *regulation* limits overtime.
 2. Safety *regulations* changed after the fire.
 3. They were fined for breaking a federal *regulation*.
+
+**2. The controlling of an activity or process by rules or by a system.** (регулирование, контроль)
+
+4. The bill calls for tighter *regulation* of online lenders.
+5. Sweating helps with the *regulation* of body temperature.
+6. The industry has resisted *regulation* for decades.
 
 ---
 
 ### constitution
 
 **Pronunciation:** /ˌkɑːnstəˈtuːʃən/ &middot; *kahn-stuh-TOO-shun*
-**Русский:** конституция
+**Русский:** конституция; телосложение, здоровье, организм
 **Plural:** *constitutions*
 **Countability:** countable
 **Contrast:** Americans say -TOO-shuhn; the British say -TYOO-shuhn.
 
-The basic set of laws by which a country or state is governed.
+Constitution has 2 distinct senses.
+
+**1. The basic set of laws by which a country or state is governed.** (конституция)
 
 1. The *constitution* protects free speech.
 2. That law was found to violate the state *constitution*.
 3. Most state *constitutions* are far longer than the federal one.
+
+**2. The general health and physical strength of a person's body.** (телосложение, здоровье, организм)
+
+4. He has a strong *constitution* and shook off the flu in a day.
+5. The climb is not for anyone with a weak *constitution*.
+6. Her *constitution* has never been the same since the surgery.
 
 ---
 
@@ -844,14 +900,22 @@ Confession has 2 distinct senses.
 ### innocence
 
 **Pronunciation:** /ˈɪnəsəns/ &middot; *IN-uh-suhns*
-**Русский:** невиновность
+**Русский:** невиновность; невинность, наивность
 **Countability:** uncountable
 
-The state of not being guilty of a crime.
+Innocence has 2 distinct senses.
+
+**1. The state of not being guilty of a crime.** (невиновность)
 
 1. He maintained his *innocence* for twenty years.
 2. New evidence proved her *innocence*.
 3. The whole town believed in his *innocence*.
+
+**2. A lack of experience of the harder or uglier parts of life.** (невинность, наивность)
+
+4. The photographs capture the *innocence* of childhood.
+5. He lost his *innocence* the summer his father left.
+6. There is a sweet *innocence* about the way she asks questions.
 
 ---
 
@@ -1955,15 +2019,23 @@ The punishment of being kept in prison.
 ### execution
 
 **Pronunciation:** /ˌɛksɪˈkjuːʃən/ &middot; *ek-sih-KYOO-shun*
-**Русский:** казнь
+**Русский:** казнь; исполнение, реализация
 **Plural:** *executions*
 **Countability:** countable
 
-The act of killing someone as a legal punishment.
+Execution has 2 distinct senses.
+
+**1. The act of killing someone as a legal punishment.** (казнь)
 
 1. The *execution* was stayed at the last minute.
 2. Protesters gathered outside the prison before the *execution*.
 3. *Executions* have become rare in most states.
+
+**2. The carrying out of a plan, or the way something is performed.** (исполнение, реализация)
+
+4. The idea was fine; the *execution* was terrible.
+5. The gymnast lost points on *execution*, not difficulty.
+6. Strategy is the easy part — *execution* is what separates them.
 
 ---
 
@@ -2239,30 +2311,46 @@ An official who investigates deaths that are sudden or suspicious.
 ### forensics
 
 **Pronunciation:** /fəˈrɛnzɪks/ &middot; *fuh-REN-ziks*
-**Русский:** криминалистика
+**Русский:** криминалистика; риторика и дебаты (школьные соревнования)
 **Countability:** uncountable
 **Contrast:** Ends in -s but takes a singular verb: *forensics is*, not *forensics are*.
 
-The use of science to examine evidence from crimes.
+Forensics has 2 distinct senses.
+
+**1. The use of science to examine evidence from crimes.** (криминалистика)
 
 1. *Forensics* tied him to the scene.
 2. She studied *forensics* in college.
 3. The lab sent the sample to *forensics*.
+
+**2. Competitive public speaking and debate as a school activity.** (риторика и дебаты (школьные соревнования))
+
+4. She joined the *forensics* team her sophomore year.
+5. The *forensics* tournament runs all day Saturday.
+6. He won a state medal in *forensics* for dramatic interpretation.
 
 ---
 
 ### fingerprint
 
 **Pronunciation:** /ˈfɪŋɡərprɪnt/ &middot; *FING-gur-print*
-**Русский:** отпечаток пальца
+**Русский:** отпечаток пальца; отличительный след, характерный «отпечаток»
 **Plural:** *fingerprints*
 **Countability:** countable
 
-The mark left by the pattern of lines on a fingertip.
+Fingerprint has 2 distinct senses.
+
+**1. The mark left by the pattern of lines on a fingertip.** (отпечаток пальца)
 
 1. They lifted a *fingerprint* off the glass.
 2. His *fingerprints* were on the steering wheel.
 3. A single *fingerprint* broke the case open.
+
+**2. A pattern or trace so distinctive that it identifies where something came from.** (отличительный след, характерный «отпечаток»)
+
+4. Every star leaves a chemical *fingerprint* in its light.
+5. The virus has a genetic *fingerprint* that researchers can track.
+6. Analysts matched the software's digital *fingerprint* to an earlier attack.
 
 ---
 
@@ -2345,15 +2433,23 @@ A weapon that fires bullets from a metal tube.
 ### ammunition
 
 **Pronunciation:** /ˌæmjəˈnɪʃən/ &middot; *am-yuh-NISH-un*
-**Русский:** боеприпасы, патроны
+**Русский:** боеприпасы, патроны; аргументы против, компромат
 **Countability:** uncountable
 **Contrast:** Uncountable in English although Russian *патроны* is plural — say *some ammunition*, never *ammunitions*.
 
-Bullets and shells fired from guns.
+Ammunition has 2 distinct senses.
+
+**1. Bullets and shells fired from guns.** (боеприпасы, патроны)
 
 1. They found *ammunition* stored in the closet.
 2. He bought a box of *ammunition* at the sporting goods store.
 3. The rifle was seized along with the *ammunition*.
+
+**2. Facts or information used to attack someone in an argument.** (аргументы против, компромат)
+
+4. The leaked emails gave his critics plenty of *ammunition*.
+5. Don't hand them *ammunition* by missing the deadline.
+6. Every small mistake became *ammunition* for the other side.
 
 ---
 

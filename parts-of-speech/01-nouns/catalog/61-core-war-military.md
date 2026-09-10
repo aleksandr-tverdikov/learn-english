@@ -64,31 +64,53 @@ Actual fighting between armed forces.
 ### conflict
 
 **Pronunciation:** /ˈkɑːnflɪkt/ &middot; *KAHN-flikt*
-**Русский:** конфликт
+**Русский:** конфликт; накладка в расписании
 **Plural:** *conflicts*
 **Countability:** countable
 **Contrast:** The noun is stressed KAHN-flikt; the verb to conflict is kuhn-FLIKT.
 
-A serious disagreement or period of fighting between groups.
+Conflict has 2 distinct senses.
+
+**1. A serious disagreement or period of fighting between groups.** (конфликт)
 
 1. The *conflict* has displaced millions.
 2. Diplomats worked for months to end the *conflict*.
 3. Armed *conflicts* broke out in three provinces.
+
+**2. A clash between two things arranged for the same time.** (накладка в расписании)
+
+4. I have a *conflict* on Tuesday at three.
+5. We moved the meeting because of a scheduling *conflict*.
+6. Check the calendar for *conflicts* before you book the room.
 
 ---
 
 ### invasion
 
 **Pronunciation:** /ɪnˈveɪʒən/ &middot; *in-VAY-zhuhn*
-**Русский:** вторжение
+**Русский:** вторжение; нашествие, наплыв; посягательство (на частную жизнь)
 **Plural:** *invasions*
 **Countability:** countable
 
-The act of entering another country by force with an army.
+Invasion has 3 distinct senses.
+
+**1. The act of entering another country by force with an army.** (вторжение)
 
 1. The *invasion* began before dawn.
 2. They resisted the *invasion* for months.
 3. Both *invasions* failed within weeks.
+
+**2. The arrival of a large number of unwanted people or things in a place.** (нашествие, наплыв)
+
+4. Every June the town braces for an *invasion* of tourists.
+5. We had an *invasion* of ants in the kitchen after the rain.
+6. Shop owners complained about the summer *invasion* of college kids.
+
+**3. An act of interfering with someone's privacy or personal rights.** (посягательство (на частную жизнь))
+
+7. She sued the magazine for *invasion* of privacy.
+8. Reading someone's texts is a serious *invasion* of privacy.
+9. Employees saw the tracking software as an *invasion*.
 
 ---
 
@@ -252,32 +274,48 @@ A loss in a battle, a war, or a contest.
 ### casualty
 
 **Pronunciation:** /ˈkæʒuəlti/ &middot; *KAZH-oo-uhl-tee*
-**Русский:** потери; убитый или раненый
+**Русский:** потери; убитый или раненый; жертва, пострадавший (от чего-либо)
 **Plural:** *casualties*
 **Countability:** countable
 **Contrast:** Casualties covers both the dead and the wounded, not only the dead.
 
-A person killed or wounded in a war or an accident.
+Casualty has 2 distinct senses.
+
+**1. A person killed or wounded in a war or an accident.** (потери; убитый или раненый)
 
 1. The battle produced heavy *casualties*.
 2. Civilian *casualties* rose sharply that spring.
 3. Every *casualty* was flown out by helicopter.
+
+**2. A person or thing that is harmed or lost because of some event or decision.** (жертва, пострадавший (от чего-либо))
+
+4. The music program was the first *casualty* of the budget cuts.
+5. Privacy is often a *casualty* of new technology.
+6. Small bookstores were the *casualties* of that merger.
 
 ---
 
 ### massacre
 
 **Pronunciation:** /ˈmæsəkər/ &middot; *MAS-uh-kur*
-**Русский:** резня, бойня
+**Русский:** резня, бойня; разгром (в игре, состязании)
 **Plural:** *massacres*
 **Countability:** countable
 **Contrast:** Ends in -cre but sounds like -ker: MAS-uh-kur.
 
-The killing of many helpless people at one time.
+Massacre has 2 distinct senses.
+
+**1. The killing of many helpless people at one time.** (резня, бойня)
 
 1. The *massacre* shocked the world.
 2. Survivors described the *massacre* in detail.
 3. Both *massacres* were later investigated.
+
+**2. A completely one-sided defeat in a game or contest.** (разгром (в игре, состязании))
+
+4. The second half was a *massacre*.
+5. Nobody expected such a *massacre* in the season opener.
+6. The last two games were *massacres*, 42-3 and 38-7.
 
 ---
 
@@ -357,15 +395,23 @@ Occupation has 2 distinct senses.
 ### conquest
 
 **Pronunciation:** /ˈkɑːŋkwɛst/ &middot; *KAHNG-kwest*
-**Русский:** завоевание
+**Русский:** завоевание; любовная победа, покорённое сердце
 **Plural:** *conquests*
 **Countability:** countable
 
-The taking of land or a people by military force.
+Conquest has 2 distinct senses.
+
+**1. The taking of land or a people by military force.** (завоевание)
 
 1. The Norman *conquest* changed England forever.
 2. Their *conquest* of the valley took a month.
 3. He wrote about the Spanish *conquests* in the Americas.
+
+**2. A person whose love or attention someone has won.** (любовная победа, покорённое сердце)
+
+4. He bragged to his friends about his latest *conquest*.
+5. The novel lists his *conquests* in tiresome detail.
+6. She had no interest in becoming another *conquest*.
 
 ---
 
@@ -402,14 +448,22 @@ Something that could cause harm, or a warning that harm is coming.
 ### aggression
 
 **Pronunciation:** /əˈɡrɛʃən/ &middot; *uh-GRESH-uhn*
-**Русский:** агрессия
+**Русский:** агрессия; агрессивность, агрессивное поведение
 **Countability:** uncountable
 
-An unprovoked attack on another country or person.
+Aggression has 2 distinct senses.
+
+**1. An unprovoked attack on another country or person.** (агрессия)
 
 1. The invasion was condemned as an act of *aggression*.
 2. They accused their neighbor of open *aggression*.
 3. The treaty was meant to prevent *aggression*.
+
+**2. Angry or violent behavior or feelings toward other people.** (агрессивность, агрессивное поведение)
+
+4. The dog showed *aggression* toward strangers.
+5. He gets into fights and can't control his *aggression*.
+6. Teachers watch for signs of *aggression* on the playground.
 
 ---
 
@@ -580,15 +634,41 @@ An army unit of several thousand soldiers.
 ### division
 
 **Pronunciation:** /dɪˈvɪʒən/ &middot; *dih-VIZH-uhn*
-**Русский:** дивизия
+**Русский:** дивизия; деление (арифметическое действие); раздел, разделение; раскол, разногласия; подразделение, отдел (компании)
 **Plural:** *divisions*
 **Countability:** countable
 
-A large army unit made up of several brigades.
+Division has 5 distinct senses.
+
+**1. A large army unit made up of several brigades.** (дивизия)
 
 1. An armored *division* crossed the border.
 2. The *division* suffered heavy losses.
 3. Four *divisions* were committed to the offensive.
+
+**2. The arithmetic operation of finding how many times one number goes into another.** (деление (арифметическое действие))
+
+4. Third graders start long *division* this year.
+5. She's fine at multiplication but still struggles with *division*.
+6. Use *division* to find the average.
+
+**3. The act of splitting something into parts or sharing it out.** (раздел, разделение)
+
+7. The will spells out the *division* of the property.
+8. They argued for months over the *division* of assets.
+9. The *division* of labor in that kitchen was never fair.
+
+**4. A serious disagreement that splits a group into opposing sides.** (раскол, разногласия)
+
+10. The vote exposed deep *divisions* within the party.
+11. There's a growing *division* between the older and younger members.
+12. The issue created *divisions* that never healed.
+
+**5. A large section of a company or organization.** (подразделение, отдел (компании))
+
+13. She runs the company's Latin American *division*.
+14. The consumer products *division* had a strong quarter.
+15. Two *divisions* were merged to cut costs.
 
 ---
 
@@ -681,16 +761,24 @@ A non-commissioned officer ranking above a corporal.
 ### lieutenant
 
 **Pronunciation:** /luːˈtɛnənt/ &middot; *loo-TEN-uhnt*
-**Русский:** лейтенант
+**Русский:** лейтенант; помощник, доверенное лицо
 **Plural:** *lieutenants*
 **Countability:** countable
 **Contrast:** Americans say loo-TEN-uhnt; the British say lef-TEN-uhnt.
 
-A junior officer who usually commands a platoon.
+Lieutenant has 2 distinct senses.
+
+**1. A junior officer who usually commands a platoon.** (лейтенант)
 
 1. The *lieutenant* took over when the captain fell.
 2. Two *lieutenants* led the patrol.
 3. He was promoted to *lieutenant* last spring.
+
+**2. A trusted assistant who carries out a leader's orders.** (помощник, доверенное лицо)
+
+4. The mayor sent one of his *lieutenants* to the meeting.
+5. She was the senator's chief *lieutenant* for twenty years.
+6. The boss and his *lieutenants* ran the whole operation.
 
 ---
 
@@ -1840,16 +1928,24 @@ A general plan for winning a war or reaching a long-term goal.
 ### maneuver
 
 **Pronunciation:** /məˈnuːvər/ &middot; *muh-NOO-vur*
-**Русский:** манёвр
+**Русский:** манёвр; манёвр, ловкий ход, уловка
 **Plural:** *maneuvers*
 **Countability:** countable
 **Contrast:** American spelling maneuver; British manoeuvre.
 
-A planned movement of troops, ships, or vehicles.
+Maneuver has 2 distinct senses.
+
+**1. A planned movement of troops, ships, or vehicles.** (манёвр)
 
 1. It was a bold *maneuver* that nearly worked.
 2. The fleet is on *maneuvers* off the coast.
 3. A simple flanking *maneuver* won the battle.
+
+**2. A clever move made to gain an advantage.** (манёвр, ловкий ход, уловка)
+
+4. The buyout was a legal *maneuver* to avoid the tax.
+5. Both parties tried the same procedural *maneuvers* on the floor.
+6. Getting the mayor onto the committee was a smart *maneuver*.
 
 ---
 
@@ -2043,15 +2139,23 @@ Great courage shown in battle.
 ### sacrifice
 
 **Pronunciation:** /ˈsækrəfaɪs/ &middot; *SAK-ruh-fyse*
-**Русский:** жертва, самопожертвование
+**Русский:** жертва, самопожертвование; жертвоприношение
 **Plural:** *sacrifices*
 **Countability:** countable
 
-Something valuable given up for the sake of others or a cause.
+Sacrifice has 2 distinct senses.
+
+**1. Something valuable given up for the sake of others or a cause.** (жертва, самопожертвование)
 
 1. Their *sacrifice* is remembered every year.
 2. The war demanded enormous *sacrifices*.
 3. He made the ultimate *sacrifice*.
+
+**2. An animal or object killed or offered to a god in a religious ceremony.** (жертвоприношение)
+
+4. The priests performed a *sacrifice* at dawn.
+5. A lamb was offered as a *sacrifice* for a good harvest.
+6. The museum explains how such *sacrifices* were carried out.
 
 ---
 

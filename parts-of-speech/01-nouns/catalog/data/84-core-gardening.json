@@ -6,14 +6,43 @@
       "term": "backyard",
       "ipa": "/ˌbækˈjɑːrd/",
       "respell": "bak-YARD",
-      "meaning": "The open ground behind a house, often fenced. ---",
+      "meaning": "Backyard has 2 distinct senses.",
       "examples": [
         "The kids are out in the backyard.",
         "We grilled in the backyard until it got dark.",
-        "Most of the backyards on this street back onto the creek."
+        "Most of the backyards on this street back onto the creek.",
+        "Nobody wants a landfill in their own backyard.",
+        "The company found its best customers right in its own backyard.",
+        "The senator called the conflict a crisis in America's backyard."
       ],
-      "senses": [],
-      "русский": "задний двор, двор за домом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The open ground behind a house, often fenced",
+          "body": [
+            "(задний двор, двор за домом)"
+          ],
+          "examples": [
+            "The kids are out in the backyard.",
+            "We grilled in the backyard until it got dark.",
+            "Most of the backyards on this street back onto the creek."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The area close to where you live or operate, thought of as your own territory",
+          "body": [
+            "(своя территория, задворки (перен.))",
+            "---"
+          ],
+          "examples": [
+            "Nobody wants a landfill in their own backyard.",
+            "The company found its best customers right in its own backyard.",
+            "The senator called the conflict a crisis in America's backyard."
+          ]
+        }
+      ],
+      "русский": "задний двор, двор за домом; своя территория, задворки (перен.)",
       "plural": "backyards",
       "countability": "countable",
       "contrast": "Americans say backyard; the British say back garden."

@@ -118,15 +118,29 @@ A large building where goods are stored before they are sold or shipped.
 ### franchise
 
 **Pronunciation:** /ˈfræntʃaɪz/ &middot; *FRAN-chyze*
-**Русский:** франшиза; франчайзинговая точка
+**Русский:** франшиза; франчайзинговая точка; франшиза (серия фильмов, игр); клуб, команда лиги
 **Plural:** *franchises*
 **Countability:** countable
 
-The right to run a business under a big company's name, or a store run that way.
+Franchise has 3 distinct senses.
+
+**1. The right to run a business under a big company's name, or a store run that way.** (франшиза; франчайзинговая точка)
 
 1. He bought a pizza *franchise* in Tulsa.
 2. The *franchise* costs about two hundred thousand up front.
 3. There are over forty *franchises* in the state.
+
+**2. A series of movies, games, or books built around the same characters or world.** (франшиза (серия фильмов, игр))
+
+4. The studio is rebooting the *franchise* with a new cast.
+5. That sequel nearly killed the *franchise*.
+6. The game *franchise* has sold forty million copies.
+
+**3. A professional sports team that holds a place in a league.** (клуб, команда лиги)
+
+7. The *franchise* moved to Las Vegas after thirty years downtown.
+8. He's the best player in *franchise* history.
+9. The owners paid a record price for the *franchise*.
 
 ---
 
@@ -148,30 +162,46 @@ A business owned by two or more people, or a working tie between companies.
 ### competition
 
 **Pronunciation:** /ˌkɑːmpəˈtɪʃən/ &middot; *kahm-puh-TISH-un*
-**Русский:** конкуренция; конкурс
+**Русский:** конкуренция; конкурс; конкуренты, соперники
 **Plural:** *competitions*
 **Countability:** both — countable and uncountable with different meanings
 
-Rivalry between sellers, or an organized contest.
+Competition has 2 distinct senses.
+
+**1. Rivalry between sellers, or an organized contest.** (конкуренция; конкурс)
 
 1. There's a lot of *competition* in the coffee business.
 2. We keep an eye on what the *competition* is charging.
 3. She won a baking *competition* at the state fair.
+
+**2. The people or companies that you are competing against.** (конкуренты, соперники)
+
+4. We have to price below the *competition*.
+5. Our *competition* opened a second store on Main Street.
+6. He studied the *competition* for a week before the tournament.
 
 ---
 
 ### executive
 
 **Pronunciation:** /ɪɡˈzɛkjətɪv/ &middot; *ig-ZEK-yuh-tiv*
-**Русский:** руководитель, топ-менеджер
+**Русский:** руководитель, топ-менеджер; исполнительная власть
 **Plural:** *executives*
 **Countability:** countable
 
-A senior person who helps run a company and makes the big decisions.
+Executive has 2 distinct senses.
+
+**1. A senior person who helps run a company and makes the big decisions.** (руководитель, топ-менеджер)
 
 1. The *executive* who hired me is retiring.
 2. Three *executives* resigned in the same week.
 3. She's an *executive* at a software company.
+
+**2. The branch of government that carries out the laws.** (исполнительная власть)
+
+4. The Constitution splits power between the *executive*, the legislature, and the courts.
+5. The court blocked the *executive* from withholding the funds.
+6. Critics argue that the *executive* has grown too powerful.
 
 ---
 
@@ -467,14 +497,22 @@ A small design a company uses as its symbol.
 ### branding
 
 **Pronunciation:** /ˈbrændɪŋ/ &middot; *BRAN-ding*
-**Русский:** брендинг, создание образа марки
+**Русский:** брендинг, создание образа марки; клеймение (скота)
 **Countability:** uncountable
 
-The work of giving a company or product a recognizable image.
+Branding has 2 distinct senses.
+
+**1. The work of giving a company or product a recognizable image.** (брендинг, создание образа марки)
 
 1. The *branding* on the new packaging looks cheap.
 2. *Branding* matters more than most people admit.
 3. They hired an agency to handle the *branding*.
+
+**2. The burning of an owner's mark into the hide of cattle.** (клеймение (скота))
+
+4. *Branding* day brings every neighbor out to the ranch.
+5. The calves are sorted and roped before the *branding* starts.
+6. She learned to ride working spring *branding* in Montana.
 
 ---
 
@@ -511,15 +549,23 @@ Goods that are bought and sold.
 ### commodity
 
 **Pronunciation:** /kəˈmɑːdəti/ &middot; *kuh-MAH-duh-tee*
-**Русский:** сырьевой товар; предмет торговли
+**Русский:** сырьевой товар; предмет торговли; ценность, дефицитная вещь
 **Plural:** *commodities*
 **Countability:** countable
 
-A basic good such as oil, wheat, or copper that is traded in large amounts.
+Commodity has 2 distinct senses.
+
+**1. A basic good such as oil, wheat, or copper that is traded in large amounts.** (сырьевой товар; предмет торговли)
 
 1. Coffee is a *commodity*, just like corn or metal.
 2. *Commodity* prices dropped sharply in June.
 3. Water is becoming a valuable *commodity* out west.
+
+**2. Something useful or valuable, especially something that is in short supply.** (ценность, дефицитная вещь)
+
+4. Time is the scarcest *commodity* in this house.
+5. Trust is a rare *commodity* in that business.
+6. Clean water became a precious *commodity* after the storm.
 
 ---
 
@@ -1245,44 +1291,68 @@ The business of giving expert advice to companies for a fee.
 ### networking
 
 **Pronunciation:** /ˈnɛtwɜːrkɪŋ/ &middot; *NET-wur-king*
-**Русский:** налаживание деловых связей, нетворкинг
+**Русский:** налаживание деловых связей, нетворкинг; компьютерные сети, сетевые технологии
 **Countability:** uncountable
 
-Meeting people who might help your business or career.
+Networking has 2 distinct senses.
+
+**1. Meeting people who might help your business or career.** (налаживание деловых связей, нетворкинг)
 
 1. He got the job through *networking*, not the website.
 2. The conference is really just *networking*.
 3. *Networking* comes easily to her.
+
+**2. The linking of computers so that they can share files and connections.** (компьютерные сети, сетевые технологии)
+
+4. Her degree is in *networking* and systems administration.
+5. He teaches an evening class on *networking* and server security.
+6. The office upgrade covered new *networking* gear and faster wiring.
 
 ---
 
 ### competitor
 
 **Pronunciation:** /kəmˈpɛtətər/ &middot; *kum-PET-uh-tur*
-**Русский:** конкурент
+**Русский:** конкурент; участник соревнования
 **Plural:** *competitors*
 **Countability:** countable
 
-A company or person trying to sell to the same customers as you.
+Competitor has 2 distinct senses.
+
+**1. A company or person trying to sell to the same customers as you.** (конкурент)
 
 1. Our biggest *competitor* just cut prices.
 2. Three *competitors* opened stores on the same block.
 3. They bought their main *competitor*.
+
+**2. Someone taking part in a contest or a race.** (участник соревнования)
+
+4. Forty *competitors* signed up for the marathon.
+5. The youngest *competitor* was eleven years old.
+6. Each *competitor* gets three attempts at the bar.
 
 ---
 
 ### monopoly
 
 **Pronunciation:** /məˈnɑːpəli/ &middot; *muh-NAH-puh-lee*
-**Русский:** монополия
+**Русский:** монополия; исключительное право, монополия (на что-л.)
 **Plural:** *monopolies*
 **Countability:** countable
 
-Complete control of the supply of something by a single company.
+Monopoly has 2 distinct senses.
+
+**1. Complete control of the supply of something by a single company.** (монополия)
 
 1. The company had a *monopoly* on long-distance calls.
 2. The court broke up the *monopoly*.
 3. Local cable *monopolies* keep prices high.
+
+**2. Sole possession of something that other people also want or claim.** (исключительное право, монополия (на что-л.))
+
+4. Neither party has a *monopoly* on good ideas.
+5. The church once held a *monopoly* on education here.
+6. He talks as if he had a *monopoly* on suffering.
 
 ---
 
@@ -1384,14 +1454,22 @@ Import has 2 distinct senses.
 ### distribution
 
 **Pronunciation:** /ˌdɪstrəˈbjuːʃən/ &middot; *dis-truh-BYOO-shun*
-**Русский:** сбыт, дистрибуция; распределение
+**Русский:** сбыт, дистрибуция; распределение; распределение (по территории, среди людей)
 **Countability:** uncountable
 
-The work of getting goods from the maker out to sellers and buyers.
+Distribution has 2 distinct senses.
+
+**1. The work of getting goods from the maker out to sellers and buyers.** (сбыт, дистрибуция; распределение)
 
 1. Their *distribution* covers most of the Midwest.
 2. The company handles its own *distribution*.
 3. Bad weather slowed *distribution* for a week.
+
+**2. The way something is spread out across an area or a group.** (распределение (по территории, среди людей))
+
+4. The map shows the *distribution* of oak trees across the state.
+5. Economists argue about the *distribution* of income.
+6. The test scores followed a normal *distribution*.
 
 ---
 
@@ -1606,15 +1684,23 @@ An estimate of what a company or property is worth.
 ### appraisal
 
 **Pronunciation:** /əˈpreɪzəl/ &middot; *uh-PRAY-zul*
-**Русский:** оценка (имущества)
+**Русский:** оценка (имущества); оценка (работы, ситуации)
 **Plural:** *appraisals*
 **Countability:** countable
 
-An official estimate of the value of something.
+Appraisal has 2 distinct senses.
+
+**1. An official estimate of the value of something.** (оценка (имущества))
 
 1. The lender wants an *appraisal* before closing.
 2. The *appraisal* came in below the asking price.
 3. We paid for two *appraisals*.
+
+**2. A careful judgment of how well someone is doing or what a situation really is.** (оценка (работы, ситуации))
+
+4. Every employee gets an annual performance *appraisal*.
+5. His *appraisal* of the team's chances was blunt.
+6. The report offers a sober *appraisal* of the risks.
 
 ---
 
@@ -1764,15 +1850,23 @@ One company gaining control of another.
 ### acquisition
 
 **Pronunciation:** /ˌækwəˈzɪʃən/ &middot; *ak-wuh-ZISH-un*
-**Русский:** приобретение, покупка компании
+**Русский:** приобретение, покупка компании; усвоение, овладение (навыком, знанием)
 **Plural:** *acquisitions*
 **Countability:** countable
 
-A company or asset that has been bought, or the buying of one.
+Acquisition has 2 distinct senses.
+
+**1. A company or asset that has been bought, or the buying of one.** (приобретение, покупка компании)
 
 1. The bakery chain was their third *acquisition* this year.
 2. The *acquisition* closed in October.
 3. *Acquisitions* have doubled the company's size.
+
+**2. The gaining of a skill, a habit, or knowledge.** (усвоение, овладение (навыком, знанием))
+
+4. The book is about language *acquisition* in small children.
+5. Vocabulary *acquisition* speeds up once you start reading novels.
+6. Skill *acquisition* takes steady practice, not talent.
 
 ---
 
@@ -1973,29 +2067,51 @@ A neutral person helping two sides reach an agreement themselves.
 ### concession
 
 **Pronunciation:** /kənˈsɛʃən/ &middot; *kun-SESH-un*
-**Русский:** уступка
+**Русский:** уступка; киоск с едой и напитками (на стадионе, в кинотеатре)
 **Plural:** *concessions*
 **Countability:** countable
 
-Something you give up in order to reach an agreement.
+Concession has 2 distinct senses.
+
+**1. Something you give up in order to reach an agreement.** (уступка)
 
 1. Neither side would make a *concession*.
 2. The union won several *concessions* on scheduling.
 3. That was a big *concession* for management.
+
+**2. A stand that sells food and drinks at a stadium, theater, or park.** (киоск с едой и напитками (на стадионе, в кинотеатре))
+
+4. We got popcorn at the *concession* stand.
+5. The *concessions* close at the end of the seventh inning.
+6. Money from the *concession* pays for the team's uniforms.
 
 ---
 
 ### leverage
 
 **Pronunciation:** /ˈlɛvərɪdʒ/ &middot; *LEV-ur-ij*
-**Русский:** рычаг влияния, преимущество в переговорах
+**Русский:** рычаг влияния, преимущество в переговорах; рычажное усилие, выигрыш в силе; заёмные средства, кредитное плечо
 **Countability:** uncountable
 
-Power that helps you get what you want in a negotiation.
+Leverage has 3 distinct senses.
+
+**1. Power that helps you get what you want in a negotiation.** (рычаг влияния, преимущество в переговорах)
 
 1. Without another offer you have no *leverage*.
 2. The strike gave the workers real *leverage*.
 3. Her experience is her *leverage* in salary talks.
+
+**2. The extra force you get by pushing on a bar or handle.** (рычажное усилие, выигрыш в силе)
+
+4. Use a longer wrench for more *leverage*.
+5. He couldn't get enough *leverage* to pry the lid off.
+6. Up on the ladder, she had no *leverage* at all.
+
+**3. Borrowed money used to increase the possible return on an investment.** (заёмные средства, кредитное плечо)
+
+7. The firm took on too much *leverage* before the crash.
+8. High *leverage* magnifies both gains and losses.
+9. The fund cut its *leverage* in half after a bad quarter.
 
 ---
 
@@ -2172,14 +2288,22 @@ The quality of being believed and trusted by others.
 ### goodwill
 
 **Pronunciation:** /ˌɡʊdˈwɪl/ &middot; *good-WIL*
-**Русский:** деловая репутация; доброжелательность
+**Русский:** деловая репутация; доброжелательность; доброжелательность, расположение
 **Countability:** uncountable
 
-The good name a business has built up, counted as part of its value.
+Goodwill has 2 distinct senses.
+
+**1. The good name a business has built up, counted as part of its value.** (деловая репутация; доброжелательность)
 
 1. Most of the purchase price was *goodwill*.
 2. Years of fair dealing built up a lot of *goodwill*.
 3. They refunded him as a gesture of *goodwill*.
+
+**2. A friendly, helpful feeling toward other people.** (доброжелательность, расположение)
+
+4. The apology was meant as a gesture of *goodwill*.
+5. Years of *goodwill* between the two towns ended over the water dispute.
+6. He built up a lot of *goodwill* helping neighbors shovel snow.
 
 ---
 
@@ -2377,26 +2501,48 @@ An extra benefit that comes with a job.
 ### severance
 
 **Pronunciation:** /ˈsɛvərəns/ &middot; *SEV-ur-uns*
-**Русский:** выходное пособие
+**Русский:** выходное пособие; разрыв (связей, отношений)
 **Countability:** uncountable
 
-Money paid to an employee who is let go.
+Severance has 2 distinct senses.
+
+**1. Money paid to an employee who is let go.** (выходное пособие)
 
 1. He got six months of *severance*.
 2. The company offered *severance* to anyone who left early.
 3. *Severance* isn't required by law in most states.
+
+**2. The act of cutting something off or breaking off a connection completely.** (разрыв (связей, отношений))
+
+4. The *severance* of diplomatic ties came after months of warnings.
+5. His *severance* from the family business was sudden and bitter.
+6. The vote led to a complete *severance* of trade between the two countries.
 
 ---
 
 ### dismissal
 
 **Pronunciation:** /dɪsˈmɪsəl/ &middot; *dis-MIS-ul*
-**Русский:** увольнение
+**Русский:** увольнение; пренебрежительное отклонение, отмахивание; прекращение дела, отклонение иска
 **Plural:** *dismissals*
 **Countability:** countable
 
-The removing of someone from a job.
+Dismissal has 3 distinct senses.
+
+**1. The removing of someone from a job.** (увольнение)
 
 1. The *dismissal* came without warning.
 2. She's fighting her *dismissal* in court.
 3. Three *dismissals* followed the investigation.
+
+**2. A refusal to take an idea, a person, or a complaint seriously.** (пренебрежительное отклонение, отмахивание)
+
+4. Her casual *dismissal* of their concerns only made things worse.
+5. The mayor's *dismissal* of the report angered residents.
+6. I was surprised by his quick *dismissal* of such a promising idea.
+
+**3. A judge's decision to throw a case out of court.** (прекращение дела, отклонение иска)
+
+7. Her attorney filed a motion for *dismissal*.
+8. The judge granted a *dismissal* of all charges.
+9. The company is hoping for an early *dismissal* of the lawsuit.

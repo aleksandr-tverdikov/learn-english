@@ -58,15 +58,23 @@ A flat piece of metal used as money.
 ### currency
 
 **Pronunciation:** /ˈkɜːrənsi/ &middot; *KUR-uhn-see*
-**Русский:** валюта
+**Русский:** валюта; распространённость, признание (идеи)
 **Plural:** *currencies*
 **Countability:** countable
 
-The system of money used in a particular country.
+Currency has 2 distinct senses.
+
+**1. The system of money used in a particular country.** (валюта)
 
 1. The local *currency* is the peso.
 2. Several *currencies* fell against the dollar.
 3. You can pay in either *currency*.
+
+**2. The state of being widely accepted or used, especially of an idea or a word.** (распространённость, признание (идеи))
+
+4. The theory has gained *currency* among younger economists.
+5. The rumor gained *currency* after the mayor refused to comment.
+6. That word has lost its *currency* outside academic writing.
 
 ---
 
@@ -331,30 +339,58 @@ Check has 5 distinct senses.
 ### statement
 
 **Pronunciation:** /ˈsteɪtmənt/ &middot; *STAYT-muhnt*
-**Русский:** выписка со счёта
+**Русский:** выписка со счёта; заявление; заявление, демонстрация позиции
 **Plural:** *statements*
 **Countability:** countable
 
-A record from a bank listing the activity on an account.
+Statement has 3 distinct senses.
+
+**1. A record from a bank listing the activity on an account.** (выписка со счёта)
 
 1. My bank *statement* came in the mail.
 2. Go through the last three *statements*.
 3. The charge isn't on this *statement*.
+
+**2. Something said or written formally and publicly.** (заявление)
+
+4. The company issued a *statement* denying the charges.
+5. Police released a brief *statement* Tuesday morning.
+6. She read a short *statement* and took no questions.
+
+**3. Something done or worn in order to express an idea or attitude.** (заявление, демонстрация позиции)
+
+7. The bright yellow front door makes a *statement*.
+8. Wearing the pin to work was a political *statement*.
+9. Her resignation was meant as a *statement* about the leadership.
 
 ---
 
 ### interest
 
 **Pronunciation:** /ˈɪntrəst/ &middot; *IN-truhst*
-**Русский:** проценты (по вкладу или кредиту)
+**Русский:** проценты (по вкладу или кредиту); интерес, увлечение; доля, участие (в бизнесе)
 **Countability:** uncountable
 **Contrast:** In the money sense it is uncountable — never *interests*.
 
-Money paid for the use of borrowed money, or earned on savings.
+Interest has 3 distinct senses.
+
+**1. Money paid for the use of borrowed money, or earned on savings.** (проценты (по вкладу или кредиту))
 
 1. The loan carries eight percent *interest*.
 2. You'll pay a lot of *interest* over thirty years.
 3. The account earns almost no *interest*.
+
+**2. A feeling of wanting to know about something or take part in it.** (интерес, увлечение)
+
+4. She has had an *interest* in birds since she was a child.
+5. His main *interests* are hiking and photography.
+6. The class lost *interest* halfway through the video.
+
+**3. A legal share in a business or a piece of property.** (доля, участие (в бизнесе))
+
+7. He sold his *interest* in the restaurant last spring.
+8. The family holds a controlling *interest* in the newspaper.
+9. The judge disclosed a financial *interest* in the company.
 
 ---
 
@@ -587,16 +623,24 @@ A person or company that lends money.
 ### installment
 
 **Pronunciation:** /ɪnˈstɔːlmənt/ &middot; *in-STAWL-muhnt*
-**Русский:** взнос, платёж в рассрочку
+**Русский:** взнос, платёж в рассрочку; часть (серии), выпуск
 **Plural:** *installments*
 **Countability:** countable
 **Contrast:** American spelling doubles the l — *installment*; the British write *instalment*.
 
-One of a series of regular payments toward a larger sum.
+Installment has 2 distinct senses.
+
+**1. One of a series of regular payments toward a larger sum.** (взнос, платёж в рассрочку)
 
 1. You can pay in twelve monthly *installments*.
 2. The last *installment* is due in June.
 3. He missed an *installment* and they called him.
+
+**2. One part of a story, series, or set of movies released over time.** (часть (серии), выпуск)
+
+4. The next *installment* of the series comes out in June.
+5. I read the final *installment* of her column this morning.
+6. Each *installment* ends on a cliffhanger.
 
 ---
 
@@ -632,15 +676,23 @@ A person or company that is owed money.
 ### bankruptcy
 
 **Pronunciation:** /ˈbæŋkrəptsi/ &middot; *BANK-ruhpt-see*
-**Русский:** банкротство
+**Русский:** банкротство; полная несостоятельность, отсутствие (нравственности, идей)
 **Plural:** *bankruptcies*
 **Countability:** countable
 
-A legal state in which someone cannot pay what they owe.
+Bankruptcy has 2 distinct senses.
+
+**1. A legal state in which someone cannot pay what they owe.** (банкротство)
 
 1. The airline filed for *bankruptcy*.
 2. Medical bills are a leading cause of *bankruptcy*.
 3. *Bankruptcies* spiked after the crash.
+
+**2. A complete lack or collapse of something valued, such as honesty or ideas.** (полная несостоятельность, отсутствие (нравственности, идей))
+
+4. Critics saw the decision as proof of the party's moral *bankruptcy*.
+5. The book argues that the whole theory ended in intellectual *bankruptcy*.
+6. He accused the network of complete ethical *bankruptcy*.
 
 ---
 
@@ -841,15 +893,23 @@ Bond has 3 distinct senses.
 ### dividend
 
 **Pronunciation:** /ˈdɪvədɛnd/ &middot; *DIV-uh-dend*
-**Русский:** дивиденд
+**Русский:** дивиденд; отдача, выгода
 **Plural:** *dividends*
 **Countability:** countable
 
-A share of a company's profits paid out to its shareholders.
+Dividend has 2 distinct senses.
+
+**1. A share of a company's profits paid out to its shareholders.** (дивиденд)
 
 1. The company raised its *dividend* again.
 2. She lives off the *dividends*.
 3. That stock hasn't paid a *dividend* in years.
+
+**2. A benefit that comes later from something you did earlier.** (отдача, выгода)
+
+4. The extra hours of practice paid *dividends* in the playoffs.
+5. Learning a second language pays *dividends* for the rest of your life.
+6. The cleanup brought an unexpected *dividend*: the tourists came back.
 
 ---
 
@@ -953,15 +1013,29 @@ Asset has 2 distinct senses.
 ### liability
 
 **Pronunciation:** /ˌlaɪəˈbɪləti/ &middot; *ly-uh-BIL-uh-tee*
-**Русский:** обязательство, пассив
+**Русский:** обязательство, пассив; ответственность (юридическая); обуза, помеха
 **Plural:** *liabilities*
 **Countability:** countable
 
-A debt or obligation that a person or company owes.
+Liability has 3 distinct senses.
+
+**1. A debt or obligation that a person or company owes.** (обязательство, пассив)
 
 1. The firm's *liabilities* exceed its assets.
 2. That old warehouse is a *liability*, not an asset.
 3. We're reviewing every *liability* on the books.
+
+**2. Legal responsibility for damage, injury, or loss.** (ответственность (юридическая))
+
+4. The company denies any *liability* for the accident.
+5. Every contractor here has to carry *liability* insurance.
+6. The waiver limits the gym's *liability*.
+
+**3. A person or thing that causes trouble or puts you at a disadvantage.** (обуза, помеха)
+
+7. With that temper, he's a *liability* to the team.
+8. The old boiler has become a real *liability*.
+9. Not having a driver's license turned out to be a *liability*.
 
 ---
 
@@ -1328,15 +1402,23 @@ Money the government requires people and businesses to pay.
 ### deduction
 
 **Pronunciation:** /dɪˈdʌkʃən/ &middot; *dih-DUK-shuhn*
-**Русский:** вычет (налоговый)
+**Русский:** вычет (налоговый); дедукция, умозаключение
 **Plural:** *deductions*
 **Countability:** countable
 
-An amount subtracted from income before tax is calculated.
+Deduction has 2 distinct senses.
+
+**1. An amount subtracted from income before tax is calculated.** (вычет (налоговый))
 
 1. You can take a *deduction* for the home office.
 2. Charitable *deductions* have limits.
 3. The standard *deduction* went up again.
+
+**2. The process of reaching a conclusion by reasoning from the facts you already have.** (дедукция, умозаключение)
+
+4. By simple *deduction*, she figured out who had taken the keys.
+5. The detective's *deduction* turned out to be exactly right.
+6. He reached the answer by *deduction* rather than guesswork.
 
 ---
 
@@ -1359,14 +1441,22 @@ Money paid back to you for something returned or overpaid.
 ### inflation
 
 **Pronunciation:** /ɪnˈfleɪʃən/ &middot; *in-FLAY-shuhn*
-**Русский:** инфляция
+**Русский:** инфляция; накачивание, надувание
 **Countability:** uncountable
 
-A general rise in prices that makes money worth less.
+Inflation has 2 distinct senses.
+
+**1. A general rise in prices that makes money worth less.** (инфляция)
 
 1. *Inflation* ate up the raise.
 2. Groceries went up faster than *inflation*.
 3. They're trying to bring *inflation* down.
+
+**2. The filling of something with air or gas.** (накачивание, надувание)
+
+4. The manual lists the correct *inflation* pressure for each tire.
+5. The balloon burst during *inflation*.
+6. Proper *inflation* makes your tires last longer.
 
 ---
 
@@ -1524,15 +1614,29 @@ Raise has 2 distinct senses.
 ### commission
 
 **Pronunciation:** /kəˈmɪʃən/ &middot; *kuh-MISH-uhn*
-**Русский:** комиссионные
+**Русский:** комиссионные; комиссия (орган); заказ (на произведение, работу)
 **Plural:** *commissions*
 **Countability:** countable
 
-A payment based on a percentage of what someone sells.
+Commission has 3 distinct senses.
+
+**1. A payment based on a percentage of what someone sells.** (комиссионные)
 
 1. Real estate agents work on *commission*.
 2. He made a fat *commission* on that sale.
 3. *Commissions* are paid at closing.
+
+**2. An official group appointed to investigate something or to regulate an activity.** (комиссия (орган))
+
+4. A *commission* was set up to study the crash.
+5. The planning *commission* meets on the first Thursday of the month.
+6. Both *commissions* released their reports in the spring.
+
+**3. A formal order for a piece of work, especially a work of art.** (заказ (на произведение, работу))
+
+7. She got a *commission* to paint a mural downtown.
+8. The composer accepted a *commission* for a new symphony.
+9. Most of his income comes from private *commissions*.
 
 ---
 
@@ -1930,14 +2034,22 @@ Audit has 2 distinct senses.
 ### accounting
 
 **Pronunciation:** /əˈkaʊntɪŋ/ &middot; *uh-KOWN-ting*
-**Русский:** бухгалтерский учёт
+**Русский:** бухгалтерский учёт; отчёт, объяснение (о случившемся)
 **Countability:** uncountable
 
-The work of keeping and checking financial records.
+Accounting has 2 distinct senses.
+
+**1. The work of keeping and checking financial records.** (бухгалтерский учёт)
 
 1. She majored in *accounting*.
 2. Send the invoice down to *accounting*.
 3. Their *accounting* was a mess.
+
+**2. A full explanation of what happened or of how something was used.** (отчёт, объяснение (о случившемся))
+
+4. The families want a full *accounting* of the mistakes made that night.
+5. Voters are owed an *accounting* of where the money went.
+6. No *accounting* of the missing hours was ever given.
 
 ---
 
@@ -2157,15 +2269,29 @@ Benefit has 3 distinct senses.
 ### allowance
 
 **Pronunciation:** /əˈlaʊəns/ &middot; *uh-LOW-uhns*
-**Русский:** карманные деньги; денежное содержание
+**Русский:** карманные деньги; денежное содержание; норма, лимит (разрешённое количество); снисхождение, скидка на обстоятельства
 **Plural:** *allowances*
 **Countability:** countable
 
-An amount of money given regularly for a particular purpose.
+Allowance has 3 distinct senses.
+
+**1. An amount of money given regularly for a particular purpose.** (карманные деньги; денежное содержание)
 
 1. The kids get a weekly *allowance*.
 2. There's a travel *allowance* with the job.
 3. *Allowances* haven't gone up in years.
+
+**2. An amount of something that is officially permitted.** (норма, лимит (разрешённое количество))
+
+4. Your baggage *allowance* is one checked bag.
+5. The daily salt *allowance* is smaller than most people think.
+6. Both airlines cut their carry-on *allowances*.
+
+**3. Extra understanding given because of someone's circumstances, used mainly in the phrase make allowances.** (снисхождение, скидка на обстоятельства)
+
+7. You have to make *allowances* for how tired he was.
+8. The teacher made *allowances* for the students who had been sick.
+9. Even making *allowances* for the weather, the crew was slow.
 
 ---
 

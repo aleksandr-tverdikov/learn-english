@@ -126,15 +126,23 @@ The person who leads a wedding or other ceremony and makes it official.
 ### registry
 
 **Pronunciation:** /ˈrɛdʒɪstri/ &middot; *REJ-ih-stree*
-**Русский:** список желаемых подарков (свадебный)
+**Русский:** список желаемых подарков (свадебный); реестр, официальный список
 **Plural:** *registries*
 **Countability:** countable
 
-A list of gifts a couple has asked for, kept at a store or website.
+Registry has 2 distinct senses.
+
+**1. A list of gifts a couple has asked for, kept at a store or website.** (список желаемых подарков (свадебный))
 
 1. Their *registry* is at Target if you want to send something.
 2. We picked the towels off the *registry*.
 3. Most couples set up two or three *registries*.
+
+**2. An official list or record kept by a government or organization.** (реестр, официальный список)
+
+4. His name showed up on the state sex offender *registry*.
+5. She signed up for the national bone marrow *registry*.
+6. County *registries* hold every deed going back a century.
 
 ---
 
@@ -306,15 +314,23 @@ Dance has 3 distinct senses.
 ### masquerade
 
 **Pronunciation:** /ˌmæskəˈreɪd/ &middot; *mas-kuh-RAYD*
-**Русский:** маскарад
+**Русский:** маскарад; притворство, маска, обман
 **Plural:** *masquerades*
 **Countability:** countable
 
-A party where guests wear masks and costumes.
+Masquerade has 2 distinct senses.
+
+**1. A party where guests wear masks and costumes.** (маскарад)
 
 1. The Halloween *masquerade* is at the old opera house.
 2. Guests at the *masquerade* didn't take off their masks until midnight.
 3. She's been to *masquerades* in Venice and New Orleans.
+
+**2. A false show put on to hide the truth.** (притворство, маска, обман)
+
+4. Their friendly lunches were a *masquerade*.
+5. He kept up the *masquerade* of being a rich investor for two years.
+6. The audit ended the company's *masquerade* of profitability.
 
 ---
 
@@ -471,15 +487,23 @@ A relaxed get-together, or the place where a group regularly spends time.
 ### homecoming
 
 **Pronunciation:** /ˈhoʊmkʌmɪŋ/ &middot; *HOHM-kum-ing*
-**Русский:** школьный осенний праздник (встреча выпускников)
+**Русский:** школьный осенний праздник (встреча выпускников); возвращение домой
 **Plural:** *homecomings*
 **Countability:** countable
 
-An annual fall celebration at an American school or college, with a football game, a parade, and a dance.
+Homecoming has 2 distinct senses.
+
+**1. An annual fall celebration at an American school or college, with a football game, a parade, and a dance.** (школьный осенний праздник (встреча выпускников))
 
 1. She's on the *homecoming* court this year.
 2. The *homecoming* game drew the biggest crowd of the season.
 3. Alumni come back for *homecoming* every October.
+
+**2. A person's return home after being away for a long time.** (возвращение домой)
+
+4. The whole family drove to the airport for his *homecoming*.
+5. After two years overseas, her *homecoming* felt strange.
+6. The town threw a party to celebrate the soldiers' *homecoming*.
 
 ---
 
@@ -669,15 +693,23 @@ A person who takes an active part in an event or activity.
 ### invitation
 
 **Pronunciation:** /ˌɪnvəˈteɪʃən/ &middot; *in-vuh-TAY-shuhn*
-**Русский:** приглашение
+**Русский:** приглашение; повод, соблазн (для чего-то плохого)
 **Plural:** *invitations*
 **Countability:** countable
 
-A written or spoken request asking someone to come to an event.
+Invitation has 2 distinct senses.
+
+**1. A written or spoken request asking someone to come to an event.** (приглашение)
 
 1. The *invitation* said seven o'clock, dinner to follow.
 2. We mailed out a hundred and twenty *invitations*.
 3. Thanks for the *invitation* — we'd love to come.
+
+**2. Something that makes an unwanted result likely.** (повод, соблазн (для чего-то плохого))
+
+4. Leaving a laptop on the seat is an *invitation* to thieves.
+5. An unlocked garage is just an *invitation* for trouble.
+6. Those loose wires are an *invitation* to a fire.
 
 ---
 
@@ -957,15 +989,23 @@ Balloon has 2 distinct senses.
 ### streamer
 
 **Pronunciation:** /ˈstriːmər/ &middot; *STREE-mur*
-**Русский:** серпантин, бумажная лента
+**Русский:** серпантин, бумажная лента; стример (ведущий онлайн-трансляций)
 **Plural:** *streamers*
 **Countability:** countable
 
-A long, narrow strip of colored paper hung up as a party decoration.
+Streamer has 2 distinct senses.
+
+**1. A long, narrow strip of colored paper hung up as a party decoration.** (серпантин, бумажная лента)
 
 1. They taped orange and black *streamers* across the doorway.
 2. A *streamer* had come loose and was hanging over the punch bowl.
 3. *Streamers* and balloons took about an hour to put up.
+
+**2. Someone who broadcasts video of themselves live online.** (стример (ведущий онлайн-трансляций))
+
+4. He quit his job to be a full-time *streamer*.
+5. Thousands of *streamers* play the game every night.
+6. Her favorite *streamer* goes live at eight.
 
 ---
 
@@ -1010,16 +1050,24 @@ Banner has 2 distinct senses.
 ### centerpiece
 
 **Pronunciation:** /ˈsɛntərpiːs/ &middot; *SEN-tur-peess*
-**Русский:** украшение в центре стола
+**Русский:** украшение в центре стола; главный элемент, центральное звено
 **Plural:** *centerpieces*
 **Countability:** countable
 **Contrast:** American spelling *centerpiece*; British English writes *centrepiece*.
 
-A decoration placed in the middle of a table at a formal meal.
+Centerpiece has 2 distinct senses.
+
+**1. A decoration placed in the middle of a table at a formal meal.** (украшение в центре стола)
 
 1. Each *centerpiece* was a low bowl of white roses.
 2. Guests were told to take the *centerpieces* home.
 3. The *centerpiece* was so tall nobody could see across the table.
+
+**2. The most important or most noticeable part of something.** (главный элемент, центральное звено)
+
+4. Tax reform was the *centerpiece* of his campaign.
+5. The glass wing is the *centerpiece* of the new museum.
+6. That song is the *centerpiece* of the album.
 
 ---
 
@@ -1072,31 +1120,47 @@ A bunch of hanging threads tied at one end, worn on a graduation cap or used as 
 ### firework
 
 **Pronunciation:** /ˈfaɪərwɜːrk/ &middot; *FYR-wurk*
-**Русский:** фейерверк (обычно мн. ч.)
+**Русский:** фейерверк (обычно мн. ч.); бурная сцена, взрыв эмоций
 **Plural:** *fireworks*
 **Countability:** countable
 **Contrast:** Almost always plural in American speech: people say *the fireworks*, rarely *a firework*.
 
-A device that explodes in the sky with colored light and noise at a celebration.
+Firework has 2 distinct senses.
+
+**1. A device that explodes in the sky with colored light and noise at a celebration.** (фейерверк (обычно мн. ч.))
 
 1. The *fireworks* start at dusk down by the river.
 2. We watched the *fireworks* from the roof.
 3. A single *firework* went off early and startled everyone.
+
+**2. A dramatic outburst of anger or excitement, used in the plural.** (бурная сцена, взрыв эмоций)
+
+4. There were *fireworks* at the school board meeting last night.
+5. Expect *fireworks* when those two lawyers are in the same room.
+6. The debate produced more *fireworks* than answers.
 
 ---
 
 ### firecracker
 
 **Pronunciation:** /ˈfaɪərkrækər/ &middot; *FYR-krak-ur*
-**Русский:** петарда
+**Русский:** петарда; живчик, огонь (о человеке)
 **Plural:** *firecrackers*
 **Countability:** countable
 
-A small paper tube that makes a loud bang when it explodes.
+Firecracker has 2 distinct senses.
+
+**1. A small paper tube that makes a loud bang when it explodes.** (петарда)
 
 1. Someone set off a *firecracker* in the alley.
 2. *Firecrackers* are illegal in this county.
 3. The dog hides under the bed whenever she hears a *firecracker*.
+
+**2. A lively, spirited person, often a small one.** (живчик, огонь (о человеке))
+
+4. Grandma is eighty-two and still a *firecracker*.
+5. Their youngest is a real *firecracker* — she never sits still.
+6. The new point guard is a *firecracker* on defense.
 
 ---
 
@@ -1268,15 +1332,23 @@ A performance or movie showing held in the afternoon.
 ### screening
 
 **Pronunciation:** /ˈskriːnɪŋ/ &middot; *SKREE-ning*
-**Русский:** показ фильма
+**Русский:** показ фильма; обследование; проверка, отбор
 **Plural:** *screenings*
 **Countability:** countable
 
-An occasion when a movie is shown to an audience.
+Screening has 2 distinct senses.
+
+**1. An occasion when a movie is shown to an audience.** (показ фильма)
 
 1. There's a *screening* of the documentary at seven.
 2. The festival added two more *screenings* after the first sold out.
 3. The director spoke after the *screening*.
+
+**2. The testing or checking of many people to catch a disease or to filter out anyone unsuitable.** (обследование; проверка, отбор)
+
+4. The clinic offers free *screening* for high blood pressure.
+5. *Screening* at the airport took almost an hour.
+6. Every volunteer goes through a background *screening*.
 
 ---
 
@@ -1636,15 +1708,23 @@ A person's or thing's first public appearance.
 ### showcase
 
 **Pronunciation:** /ˈʃoʊkeɪs/ &middot; *SHOH-kayss*
-**Русский:** смотр, показ (мероприятие)
+**Русский:** смотр, показ (мероприятие); витрина (застеклённая)
 **Plural:** *showcases*
 **Countability:** countable
 
-An event that presents someone's or something's best work to an audience.
+Showcase has 2 distinct senses.
+
+**1. An event that presents someone's or something's best work to an audience.** (смотр, показ (мероприятие))
 
 1. The spring *showcase* gives every student ten minutes on stage.
 2. The festival is a *showcase* for new directors.
 3. They hold two *showcases* a year for local bands.
+
+**2. A glass case in a store or museum in which things are displayed.** (витрина (застеклённая))
+
+4. The bakery's *showcase* was full of pies.
+5. The rings are locked in the *showcase* by the register.
+6. Someone smashed one of the *showcases* and took two watches.
 
 ---
 
@@ -1998,15 +2078,23 @@ A hole in the ground where a dead body is buried, and the spot marking it.
 ### graveyard
 
 **Pronunciation:** /ˈɡreɪvjɑːrd/ &middot; *GRAYV-yard*
-**Русский:** кладбище
+**Русский:** кладбище; свалка, кладбище (старой техники и т. п.)
 **Plural:** *graveyards*
 **Countability:** countable
 
-A piece of ground where people are buried, usually next to a church.
+Graveyard has 2 distinct senses.
+
+**1. A piece of ground where people are buried, usually next to a church.** (кладбище)
 
 1. The old *graveyard* behind the chapel dates to 1790.
 2. We cut through the *graveyard* on the way to school.
 3. There are two *graveyards* on that road.
+
+**2. A place where old, broken, or unwanted things are left to sit.** (свалка, кладбище (старой техники и т. п.))
+
+4. The desert base is a *graveyard* for retired airliners.
+5. That drawer is a *graveyard* of dead batteries and old cables.
+6. The late time slot became a *graveyard* for new shows.
 
 ---
 

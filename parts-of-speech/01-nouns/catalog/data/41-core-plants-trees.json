@@ -1338,14 +1338,43 @@
       "term": "lavender",
       "ipa": "/ˈlævəndər/",
       "respell": "LAV-uhn-dur",
-      "meaning": "A low bush with narrow gray-green leaves and fragrant purple flowers. ---",
+      "meaning": "Lavender has 2 distinct senses.",
       "examples": [
         "There's lavender planted all along the walk.",
         "She dries lavender and puts it in the drawers.",
-        "Bees are all over the lavender in July."
+        "Bees are all over the lavender in July.",
+        "The bedroom walls were painted a soft lavender.",
+        "She chose lavender for the bridesmaids' dresses.",
+        "The sky turned lavender just after sunset."
       ],
-      "senses": [],
-      "русский": "лаванда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low bush with narrow gray-green leaves and fragrant purple flowers",
+          "body": [
+            "(лаванда)"
+          ],
+          "examples": [
+            "There's lavender planted all along the walk.",
+            "She dries lavender and puts it in the drawers.",
+            "Bees are all over the lavender in July."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pale purple color",
+          "body": [
+            "(бледно-лиловый, лавандовый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The bedroom walls were painted a soft lavender.",
+            "She chose lavender for the bridesmaids' dresses.",
+            "The sky turned lavender just after sunset."
+          ]
+        }
+      ],
+      "русский": "лаванда; бледно-лиловый, лавандовый цвет",
       "countability": "uncountable"
     },
     {

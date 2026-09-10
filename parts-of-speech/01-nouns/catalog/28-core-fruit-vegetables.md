@@ -171,16 +171,24 @@ A small dark blue berry that grows on a bush.
 ### raspberry
 
 **Pronunciation:** /ˈræzbɛri/ &middot; *RAZ-beh-ree*
-**Русский:** малина
+**Русский:** малина; презрительный звук губами (в знак насмешки)
 **Plural:** *raspberries*
 **Countability:** countable
 **Contrast:** The p is silent: RAZ-beh-ree, never 'rasp-berry'.
 
-A soft red berry made up of many tiny sections.
+Raspberry has 2 distinct senses.
+
+**1. A soft red berry made up of many tiny sections.** (малина)
 
 1. *Raspberries* get moldy almost overnight.
 2. There's a *raspberry* stain on your shirt.
 3. We planted *raspberries* along the back fence.
+
+**2. A rude noise made by sticking out the tongue and blowing.** (презрительный звук губами (в знак насмешки))
+
+4. The toddler blew a *raspberry* at his sister and giggled.
+5. Fans blew *raspberries* when the umpire called him out.
+6. She answered my question with a loud *raspberry*.
 
 ---
 

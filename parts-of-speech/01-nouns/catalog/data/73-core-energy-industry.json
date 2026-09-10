@@ -723,14 +723,43 @@
       "term": "extraction",
       "ipa": "/ɪkˈstrækʃən/",
       "respell": "ik-STRAK-shuhn",
-      "meaning": "The process of taking a resource such as oil or metal out of the ground. ---",
+      "meaning": "Extraction has 2 distinct senses.",
       "examples": [
         "Oil extraction uses a huge amount of water.",
         "The law taxes the extraction of coal and gas.",
-        "Extraction costs rise as the easy deposits run out."
+        "Extraction costs rise as the easy deposits run out.",
+        "She's an American of Polish extraction.",
+        "Half the town is of Norwegian extraction.",
+        "He's of mixed extraction on his mother's side."
       ],
-      "senses": [],
-      "русский": "добыча, извлечение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of taking a resource such as oil or metal out of the ground",
+          "body": [
+            "(добыча, извлечение)"
+          ],
+          "examples": [
+            "Oil extraction uses a huge amount of water.",
+            "The law taxes the extraction of coal and gas.",
+            "Extraction costs rise as the easy deposits run out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The family or country a person's ancestors came from",
+          "body": [
+            "(происхождение (по предкам))",
+            "---"
+          ],
+          "examples": [
+            "She's an American of Polish extraction.",
+            "Half the town is of Norwegian extraction.",
+            "He's of mixed extraction on his mother's side."
+          ]
+        }
+      ],
+      "русский": "добыча, извлечение; происхождение (по предкам)",
       "countability": "uncountable"
     },
     {
@@ -1153,14 +1182,58 @@
       "term": "blackout",
       "ipa": "/ˈblækaʊt/",
       "respell": "BLAK-owt",
-      "meaning": "A period when the electricity fails across a whole area. ---",
+      "meaning": "Blackout has 3 distinct senses.",
       "examples": [
         "The blackout left half the state without power.",
         "Rolling blackouts began in the afternoon.",
-        "We kept candles in the drawer after that blackout."
+        "We kept candles in the drawer after that blackout.",
+        "He had a blackout and woke up on the kitchen floor.",
+        "She has no memory of the drive home — a complete blackout.",
+        "The doctor asked whether he had ever had blackouts before.",
+        "The army imposed a news blackout on the operation.",
+        "There was a media blackout until the families had been notified.",
+        "The company kept a total blackout on the merger talks."
       ],
-      "senses": [],
-      "русский": "отключение электроэнергии, блэкаут",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period when the electricity fails across a whole area",
+          "body": [
+            "(отключение электроэнергии, блэкаут)"
+          ],
+          "examples": [
+            "The blackout left half the state without power.",
+            "Rolling blackouts began in the afternoon.",
+            "We kept candles in the drawer after that blackout."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A temporary loss of consciousness or of memory",
+          "body": [
+            "(потеря сознания; провал в памяти)"
+          ],
+          "examples": [
+            "He had a blackout and woke up on the kitchen floor.",
+            "She has no memory of the drive home — a complete blackout.",
+            "The doctor asked whether he had ever had blackouts before."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An official ban on reporting or releasing information",
+          "body": [
+            "(информационная блокада, запрет на освещение)",
+            "---"
+          ],
+          "examples": [
+            "The army imposed a news blackout on the operation.",
+            "There was a media blackout until the families had been notified.",
+            "The company kept a total blackout on the merger talks."
+          ]
+        }
+      ],
+      "русский": "отключение электроэнергии, блэкаут; потеря сознания; провал в памяти; информационная блокада, запрет на освещение",
       "plural": "blackouts",
       "countability": "countable"
     },
@@ -1482,14 +1555,58 @@
       "term": "efficiency",
       "ipa": "/ɪˈfɪʃənsi/",
       "respell": "ih-FIH-shuhn-see",
-      "meaning": "How much useful work a machine or building gets out of the energy it uses. ---",
+      "meaning": "Efficiency has 3 distinct senses.",
       "examples": [
         "The new boiler improved efficiency by fifteen percent.",
         "Energy efficiency saves more than new power plants do.",
-        "Efficiency drops sharply when the filters are dirty."
+        "Efficiency drops sharply when the filters are dirty.",
+        "The new software improved the office's efficiency.",
+        "He runs the warehouse with impressive efficiency.",
+        "They cut costs by finding efficiencies in shipping.",
+        "She rented an efficiency near campus.",
+        "The building has six efficiencies on the top floor.",
+        "It's only an efficiency, but the rent is cheap."
       ],
-      "senses": [],
-      "русский": "КПД, эффективность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much useful work a machine or building gets out of the energy it uses",
+          "body": [
+            "(КПД, эффективность)"
+          ],
+          "examples": [
+            "The new boiler improved efficiency by fifteen percent.",
+            "Energy efficiency saves more than new power plants do.",
+            "Efficiency drops sharply when the filters are dirty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of doing a job well without wasting time, money, or effort",
+          "body": [
+            "(эффективность (в работе), слаженность)"
+          ],
+          "examples": [
+            "The new software improved the office's efficiency.",
+            "He runs the warehouse with impressive efficiency.",
+            "They cut costs by finding efficiencies in shipping."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small apartment in which one room serves as living room, bedroom, and kitchen",
+          "body": [
+            "(квартира-студия)",
+            "---"
+          ],
+          "examples": [
+            "She rented an efficiency near campus.",
+            "The building has six efficiencies on the top floor.",
+            "It's only an efficiency, but the rent is cheap."
+          ]
+        }
+      ],
+      "русский": "КПД, эффективность; эффективность (в работе), слаженность; квартира-студия",
       "countability": "uncountable"
     },
     {
@@ -2187,14 +2304,43 @@
       "term": "inventory",
       "ipa": "/ˈɪnvəntɔːri/",
       "respell": "IN-vuhn-tor-ee",
-      "meaning": "The stock of goods and materials a business is holding. ---",
+      "meaning": "Inventory has 2 distinct senses.",
       "examples": [
         "The plant is carrying too much inventory.",
         "They cut inventory to free up cash.",
-        "Parts sat in inventory for eight months."
+        "Parts sat in inventory for eight months.",
+        "The manager took an inventory of everything in the storeroom.",
+        "We keep an inventory of the tools in each truck.",
+        "The insurance company asked for an inventory of the damaged items."
       ],
-      "senses": [],
-      "русский": "складские запасы, товарные запасы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stock of goods and materials a business is holding",
+          "body": [
+            "(складские запасы, товарные запасы)"
+          ],
+          "examples": [
+            "The plant is carrying too much inventory.",
+            "They cut inventory to free up cash.",
+            "Parts sat in inventory for eight months."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A complete list of the things in a place",
+          "body": [
+            "(опись, инвентарная ведомость)",
+            "---"
+          ],
+          "examples": [
+            "The manager took an inventory of everything in the storeroom.",
+            "We keep an inventory of the tools in each truck.",
+            "The insurance company asked for an inventory of the damaged items."
+          ]
+        }
+      ],
+      "русский": "складские запасы, товарные запасы; опись, инвентарная ведомость",
       "countability": "uncountable",
       "contrast": "Americans say IN-vuhn-tor-ee; the British say in-VEN-tuh-ree."
     },
@@ -2380,14 +2526,43 @@
       "term": "regulator",
       "ipa": "/ˈrɛɡjəleɪtər/",
       "respell": "REG-yuh-lay-tur",
-      "meaning": "A device that keeps pressure, voltage, or flow at a steady level. ---",
+      "meaning": "Regulator has 2 distinct senses.",
       "examples": [
         "The regulator on the propane tank was frozen.",
         "A bad regulator let the voltage swing wildly.",
-        "Both regulators were replaced during the overhaul."
+        "Both regulators were replaced during the overhaul.",
+        "Federal regulators opened an investigation into the bank.",
+        "The company must satisfy the regulator before the merger closes.",
+        "State regulators fined the utility ten million dollars."
       ],
-      "senses": [],
-      "русский": "регулятор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that keeps pressure, voltage, or flow at a steady level",
+          "body": [
+            "(регулятор)"
+          ],
+          "examples": [
+            "The regulator on the propane tank was frozen.",
+            "A bad regulator let the voltage swing wildly.",
+            "Both regulators were replaced during the overhaul."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A government agency or official that oversees an industry and enforces its rules",
+          "body": [
+            "(регулирующий орган, надзорное ведомство)",
+            "---"
+          ],
+          "examples": [
+            "Federal regulators opened an investigation into the bank.",
+            "The company must satisfy the regulator before the merger closes.",
+            "State regulators fined the utility ten million dollars."
+          ]
+        }
+      ],
+      "русский": "регулятор; регулирующий орган, надзорное ведомство",
       "plural": "regulators",
       "countability": "countable"
     },
@@ -2471,14 +2646,43 @@
       "term": "shipment",
       "ipa": "/ˈʃɪpmənt/",
       "respell": "SHIP-muhnt",
-      "meaning": "A load of goods sent out together. ---",
+      "meaning": "Shipment has 2 distinct senses.",
       "examples": [
         "The shipment is due Thursday morning.",
         "Three shipments were held up at the border.",
-        "We rejected the whole shipment after testing it."
+        "We rejected the whole shipment after testing it.",
+        "The order is packed and ready for shipment.",
+        "Shipment of the vaccine began the week after approval.",
+        "Delays in shipment cost the company its biggest customer."
       ],
-      "senses": [],
-      "русский": "партия груза, отгрузка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A load of goods sent out together",
+          "body": [
+            "(партия груза, отгрузка)"
+          ],
+          "examples": [
+            "The shipment is due Thursday morning.",
+            "Three shipments were held up at the border.",
+            "We rejected the whole shipment after testing it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act or process of sending goods somewhere",
+          "body": [
+            "(отправка, отгрузка (процесс))",
+            "---"
+          ],
+          "examples": [
+            "The order is packed and ready for shipment.",
+            "Shipment of the vaccine began the week after approval.",
+            "Delays in shipment cost the company its biggest customer."
+          ]
+        }
+      ],
+      "русский": "партия груза, отгрузка; отправка, отгрузка (процесс)",
       "plural": "shipments",
       "countability": "countable"
     },

@@ -147,15 +147,23 @@ The spoken telling of a story, or the voice that tells it over a film.
 ### national
 
 **Pronunciation:** /ˈnæʃənəl/ &middot; *NASH-uh-nuhl*
-**Русский:** гражданин (какой-либо страны), подданный
+**Русский:** гражданин (какой-либо страны), подданный; национальный чемпионат (обычно nationals)
 **Plural:** *nationals*
 **Countability:** countable
 
-A citizen of a particular country, especially one who is abroad.
+National has 2 distinct senses.
+
+**1. A citizen of a particular country, especially one who is abroad.** (гражданин (какой-либо страны), подданный)
 
 1. Three French *nationals* were on the flight.
 2. The embassy is helping any American *national* who wants to leave.
 3. The visa is only for foreign *nationals* with a job offer.
+
+**2. A national championship competition, usually spoken of in the plural.** (национальный чемпионат (обычно nationals))
+
+4. Her team qualified for *nationals* for the first time in years.
+5. He finished fourth at *nationals* last spring.
+6. Winners of the regional meet go on to *nationals* in July.
 
 ---
 
@@ -281,15 +289,23 @@ The act of making a statement mean the opposite, as with the word not.
 ### negative
 
 **Pronunciation:** /ˈnɛɡətɪv/ &middot; *NEG-uh-tiv*
-**Русский:** минус, отрицательная сторона
+**Русский:** минус, отрицательная сторона; негатив (фотоплёнки)
 **Plural:** *negatives*
 **Countability:** countable
 
-A bad or unwanted feature of something.
+Negative has 2 distinct senses.
+
+**1. A bad or unwanted feature of something.** (минус, отрицательная сторона)
 
 1. Every job has its *negatives*.
 2. The only *negative* is the commute.
 3. List the positives and the *negatives* before you decide.
+
+**2. A piece of developed photographic film in which light and dark are reversed.** (негатив (фотоплёнки))
+
+4. She found the old *negatives* in a shoebox in the attic.
+5. The lab can print another copy if you still have the *negative*.
+6. Hold the *negative* up to the light and you can just make out his face.
 
 ---
 
@@ -872,14 +888,22 @@ A sudden steep drop, either of an aircraft or of something like prices.
 ### notation
 
 **Pronunciation:** /noʊˈteɪʃən/ &middot; *noh-TAY-shun*
-**Русский:** система записи, нотация
+**Русский:** система записи, нотация; запись, пометка
 **Countability:** uncountable
 
-A set of written signs used to record music, math, or moves in a game.
+Notation has 2 distinct senses.
+
+**1. A set of written signs used to record music, math, or moves in a game.** (система записи, нотация)
 
 1. The score uses standard musical *notation*.
 2. Chess *notation* takes about a day to learn.
 3. The teacher explained the *notation* used in the textbook.
+
+**2. A short note written down as a record.** (запись, пометка)
+
+4. The nurse made a *notation* in his chart.
+5. Her copy of the script was covered in penciled *notations*.
+6. I found a *notation* in the margin explaining the change.
 
 ---
 
@@ -2032,15 +2056,29 @@ A wild party involving a lot of sex or drinking, or any excessive indulgence.
 ### orientation
 
 **Pronunciation:** /ˌɔːriənˈteɪʃən/ &middot; *OR-ee-uhn-TAY-shuhn*
-**Русский:** вводный курс, ознакомительное занятие
+**Русский:** вводный курс, ознакомительное занятие; ориентация, расположение (в пространстве); сексуальная ориентация
 **Plural:** *orientations*
 **Countability:** countable
 
-A meeting or program that introduces newcomers to a place, school, or job.
+Orientation has 3 distinct senses.
+
+**1. A meeting or program that introduces newcomers to a place, school, or job.** (вводный курс, ознакомительное занятие)
 
 1. New hires attend a two-day *orientation*.
 2. Freshman *orientation* starts in August.
 3. Both *orientations* were canceled because of the storm.
+
+**2. The direction in which something faces or is placed.** (ориентация, расположение (в пространстве))
+
+4. The house's *orientation* keeps the porch shaded all afternoon.
+5. Change the page *orientation* to landscape before you print.
+6. The panels' *orientation* was adjusted to catch more sun.
+
+**3. The sex a person is romantically attracted to, usually called sexual orientation.** (сексуальная ориентация)
+
+7. The policy bans discrimination based on sexual *orientation*.
+8. She never hid her *orientation* from her coworkers.
+9. The survey asked about age, race, and sexual *orientation*.
 
 ---
 
@@ -4819,14 +4857,22 @@ A soft orange fruit that is sweet when fully ripe and harsh before that.
 ### persuasion
 
 **Pronunciation:** /pərˈsweɪʒən/ &middot; *pur-SWAY-zhun*
-**Русский:** убеждение
+**Русский:** убеждение; убеждения, взгляды
 **Countability:** uncountable
 
-The act of getting someone to agree or to do something by talking to them.
+Persuasion has 2 distinct senses.
+
+**1. The act of getting someone to agree or to do something by talking to them.** (убеждение)
 
 1. It took a lot of *persuasion* to get him on the plane.
 2. The class is really about the art of *persuasion*.
 3. She came along without much *persuasion*.
+
+**2. A particular set of beliefs, or the group of people who hold them.** (убеждения, взгляды)
+
+4. The rally drew activists of every political *persuasion*.
+5. Her father was a Baptist, but her mother was of a different *persuasion*.
+6. Economists of both *persuasions* agreed the forecast was too rosy.
 
 ---
 
@@ -5889,15 +5935,23 @@ Something put in temporarily until the real thing is ready.
 ### placement
 
 **Pronunciation:** /ˈpleɪsmənt/ &middot; *PLAYSS-munt*
-**Русский:** размещение, расположение
+**Русский:** размещение, расположение; трудоустройство; определение (в класс, в семью)
 **Plural:** *placements*
 **Countability:** countable
 
-The act of putting something in a particular position, or the position chosen.
+Placement has 2 distinct senses.
+
+**1. The act of putting something in a particular position, or the position chosen.** (размещение, расположение)
 
 1. The *placement* of the outlets is all wrong.
 2. She's happy with her job *placement* after graduation.
 3. They tried three different *placements* for the couch.
+
+**2. The assignment of a person to a job, a class, or a home.** (трудоустройство; определение (в класс, в семью))
+
+4. The college has a strong job *placement* record.
+5. The child's first foster *placement* lasted two years.
+6. Her *placement* in the advanced class surprised everyone.
 
 ---
 
@@ -6907,14 +6961,22 @@ The strength or effectiveness of something, especially a drug or an argument.
 ### potential
 
 **Pronunciation:** /pəˈtɛnʃəl/ &middot; *puh-TEN-shul*
-**Русский:** потенциал, возможности
+**Русский:** потенциал, возможности; вероятность, возможность (чего-л.)
 **Countability:** uncountable
 
-Qualities that could be developed and lead to future success.
+Potential has 2 distinct senses.
+
+**1. Qualities that could be developed and lead to future success.** (потенциал, возможности)
 
 1. The kid has real *potential*.
 2. The empty lot has *potential* for a small park.
 3. Investors saw enormous *potential* in the technology.
+
+**2. The possibility that something will happen or develop.** (вероятность, возможность (чего-л.))
+
+4. There's real *potential* for flooding tonight.
+5. The deal has the *potential* to save thousands of jobs.
+6. Officials warned of the *potential* for violence downtown.
 
 ---
 

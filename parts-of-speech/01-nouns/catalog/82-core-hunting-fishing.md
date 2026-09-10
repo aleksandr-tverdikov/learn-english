@@ -336,14 +336,28 @@ Someone who hunts or fishes illegally.
 ### poaching
 
 **Pronunciation:** /ˈpoʊtʃɪŋ/ &middot; *POH-ching*
-**Русский:** браконьерство
+**Русский:** браконьерство; варка на медленном огне, припускание; переманивание (сотрудников, клиентов)
 **Countability:** uncountable
 
-The crime of hunting or fishing without the right to do so.
+Poaching has 3 distinct senses.
+
+**1. The crime of hunting or fishing without the right to do so.** (браконьерство)
 
 1. *Poaching* carries a heavy fine in this state.
 2. He lost his license for three years for *poaching*.
 3. Elephant *poaching* has dropped in some countries.
+
+**2. A way of cooking food gently in liquid that is barely simmering.** (варка на медленном огне, припускание)
+
+4. *Poaching* keeps the salmon moist and tender.
+5. Gentle *poaching* is the whole trick with eggs.
+6. She recommends *poaching* the pears in red wine.
+
+**3. The practice of hiring away employees or taking customers from a rival.** (переманивание (сотрудников, клиентов))
+
+7. The contract has a clause against *poaching* their staff.
+8. Talent *poaching* got worse once the startups moved in.
+9. He accused the bank of *poaching* his best clients.
 
 ---
 
@@ -1485,15 +1499,23 @@ The moment at a tournament when the fish are put on the scale.
 ### stringer
 
 **Pronunciation:** /ˈstrɪŋər/ &middot; *STRING-ur*
-**Русский:** кукан (для рыбы)
+**Русский:** кукан (для рыбы); внештатный корреспондент
 **Plural:** *stringers*
 **Countability:** countable
 
-A cord or chain used to hold caught fish in the water beside you.
+Stringer has 2 distinct senses.
+
+**1. A cord or chain used to hold caught fish in the water beside you.** (кукан (для рыбы))
 
 1. He had five bluegill on the *stringer*.
 2. Keep the *stringer* in the shade so the fish stay fresh.
 3. A turtle got into one of our *stringers*.
+
+**2. A part-time reporter who sends stories to a news organization from a place it does not staff.** (внештатный корреспондент)
+
+4. The paper pays a *stringer* to cover the state capital.
+5. She started out as a *stringer* for a wire service.
+6. *Stringers* filed the first reports from the border.
 
 ---
 

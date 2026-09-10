@@ -675,15 +675,23 @@ A business that looks after dogs during the working day.
 ### obedience
 
 **Pronunciation:** /oʊˈbiːdiəns/ &middot; *oh-BEE-dee-uhns*
-**Русский:** послушание
+**Русский:** послушание; повиновение, подчинение
 **Countability:** uncountable
 **Contrast:** Stressed on the second syllable: oh-BEE-dee-uhns.
 
-An animal's readiness to do what it is told.
+Obedience has 2 distinct senses.
+
+**1. An animal's readiness to do what it is told.** (послушание)
 
 1. The dog has no *obedience* at all.
 2. We're working on basic *obedience*.
 3. *Obedience* takes daily practice.
+
+**2. The practice of doing what a person, law, or rule requires.** (повиновение, подчинение)
+
+4. The army expects complete *obedience* to orders.
+5. He was raised to value *obedience* above everything else.
+6. *Obedience* to the law is not optional, the judge told him.
 
 ---
 
@@ -1440,14 +1448,22 @@ The coming together of a male and female animal to produce young.
 ### gestation
 
 **Pronunciation:** /dʒɛˈsteɪʃən/ &middot; *jeh-STAY-shuhn*
-**Русский:** беременность (у животных)
+**Русский:** беременность (у животных); период вынашивания замысла, долгая подготовка
 **Countability:** uncountable
 
-The time an animal carries its young before birth.
+Gestation has 2 distinct senses.
+
+**1. The time an animal carries its young before birth.** (беременность (у животных))
 
 1. *Gestation* in dogs is about nine weeks.
 2. The cow is in the last month of *gestation*.
 3. *Gestation* is shorter in smaller animals.
+
+**2. The long period in which an idea or project develops before it appears.** (период вынашивания замысла, долгая подготовка)
+
+4. The film had a ten-year *gestation* before it reached theaters.
+5. After a long *gestation*, the bill finally came to a vote.
+6. The album is still in *gestation*.
 
 ---
 

@@ -57,15 +57,23 @@ The national lawmaking body of a country, especially the House and Senate in the
 ### representative
 
 **Pronunciation:** /ˌrɛprəˈzɛntətɪv/ &middot; *rep-ruh-ZEN-tuh-tiv*
-**Русский:** представитель; депутат (член Палаты представителей)
+**Русский:** представитель; депутат (член Палаты представителей); представитель (компании), торговый агент
 **Plural:** *representatives*
 **Countability:** countable
 
-A person elected to speak and vote for a group of citizens.
+Representative has 2 distinct senses.
+
+**1. A person elected to speak and vote for a group of citizens.** (представитель; депутат (член Палаты представителей))
 
 1. Call your *representative* and tell her how you feel about it.
 2. He is the *representative* for our district.
 3. Two hundred *representatives* signed the letter.
+
+**2. A person who acts, speaks, or sells on behalf of a company or group.** (представитель (компании), торговый агент)
+
+4. A customer service *representative* will be with you shortly.
+5. She works as a pharmaceutical sales *representative*.
+6. Union *representatives* met with management on Friday.
 
 ---
 
@@ -147,47 +155,77 @@ Agency has 3 distinct senses.
 ### administration
 
 **Pronunciation:** /ədˌmɪnəˈstreɪʃən/ &middot; *ud-min-uh-STRAY-shuhn*
-**Русский:** администрация (президента), правительство
+**Русский:** администрация (президента), правительство; управление, руководство; администрация (учреждения); введение (лекарства), проведение (процедуры, теста)
 **Plural:** *administrations*
 **Countability:** countable
 
-The people who run a government during one leader's time in office.
+Administration has 3 distinct senses.
+
+**1. The people who run a government during one leader's time in office.** (администрация (президента), правительство)
 
 1. The current *administration* has cut taxes twice.
 2. That rule was written under the previous *administration*.
 3. Both *administrations* handled the border the same way.
+
+**2. The work of managing an organization, or the people who do that work.** (управление, руководство; администрация (учреждения))
+
+4. She works in hospital *administration*.
+5. The school *administration* canceled the field trip.
+6. Too much of his day goes to *administration* and not enough to teaching.
+
+**3. The giving of a drug, a treatment, or a test.** (введение (лекарства), проведение (процедуры, теста))
+
+7. The *administration* of the vaccine takes about a minute.
+8. Nurses record the time of each *administration*.
+9. *Administration* of the exam was delayed by the storm.
 
 ---
 
 ### authority
 
 **Pronunciation:** /əˈθɔːrəti/ &middot; *uh-THOR-uh-tee*
-**Русский:** власть, полномочия; орган власти
+**Русский:** власть, полномочия; орган власти; авторитет, знаток, эксперт
 **Plural:** *authorities*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable when it means power; countable when it means an official body.
 
-The legal right to give orders, or a public body that has that right.
+Authority has 2 distinct senses.
+
+**1. The legal right to give orders, or a public body that has that right.** (власть, полномочия; орган власти)
 
 1. The mayor has no *authority* over the school district.
 2. The port *authority* owns all three bridges.
 3. Local *authorities* closed the road for two days.
+
+**2. A person whose knowledge of a subject is widely respected.** (авторитет, знаток, эксперт)
+
+4. She's a leading *authority* on colonial history.
+5. He is considered an *authority* on tax law.
+6. Two *authorities* on the subject disagree completely.
 
 ---
 
 ### ministry
 
 **Pronunciation:** /ˈmɪnəstri/ &middot; *MIN-uh-stree*
-**Русский:** министерство
+**Русский:** министерство; служение, духовный сан; церковная служба помощи
 **Plural:** *ministries*
 **Countability:** countable
 **Contrast:** The US has no ministries; the same bodies are called departments.
 
-A government department in charge of one area, such as defense or health.
+Ministry has 2 distinct senses.
+
+**1. A government department in charge of one area, such as defense or health.** (министерство)
 
 1. The foreign *ministry* issued a statement.
 2. She spent ten years at the *ministry* of education.
 3. Two *ministries* were merged to save money.
+
+**2. The work of a religious minister, or a church program that carries it out.** (служение, духовный сан; церковная служба помощи)
+
+4. He left law school and entered the *ministry*.
+5. Their church runs a prison *ministry* downtown.
+6. After thirty years in the *ministry*, she retired last spring.
 
 ---
 
@@ -279,15 +317,23 @@ A local division of a state, with its own courts, sheriff, and officials.
 ### district
 
 **Pronunciation:** /ˈdɪstrɪkt/ &middot; *DIS-trikt*
-**Русский:** округ, район
+**Русский:** округ, район; квартал, район (города)
 **Plural:** *districts*
 **Countability:** countable
 
-An area marked out for voting, schools, or local administration.
+District has 2 distinct senses.
+
+**1. An area marked out for voting, schools, or local administration.** (округ, район)
 
 1. She represents the third *district*.
 2. The school *district* is closing two buildings.
 3. The map redrew half the *districts* in the state.
+
+**2. A part of a city known for a particular business or character.** (квартал, район (города))
+
+4. We had dinner in the theater *district*.
+5. Old warehouses in the arts *district* have been turned into lofts.
+6. The financial *district* empties out on weekends.
 
 ---
 
@@ -527,16 +573,30 @@ The head of government in a country that has a parliament.
 ### governor
 
 **Pronunciation:** /ˈɡʌvərnər/ &middot; *GUV-ur-nur*
-**Русский:** губернатор
+**Русский:** губернатор; регулятор оборотов, ограничитель скорости; член совета управляющих
 **Plural:** *governors*
 **Countability:** countable
 **Contrast:** The first o sounds like uh: GUV-ur-nur, not GOV-.
 
-The elected head of a US state government.
+Governor has 3 distinct senses.
+
+**1. The elected head of a US state government.** (губернатор)
 
 1. The *governor* declared a state of emergency.
 2. He was *governor* for two terms.
 3. Ten *governors* signed the joint letter.
+
+**2. A device that keeps an engine from running faster than a set speed.** (регулятор оборотов, ограничитель скорости)
+
+4. The delivery vans have a *governor* set at 65.
+5. Somebody had taken the *governor* off the go-kart.
+6. A broken *governor* let the engine race until it seized.
+
+**3. A member of a board that runs an institution such as a central bank.** (член совета управляющих)
+
+7. The Fed *governor* voted against the rate cut.
+8. The board of *governors* meets again in March.
+9. Two *governors* dissented from the decision.
 
 ---
 
@@ -589,30 +649,46 @@ An official who represents his or her country in another country.
 ### ambassador
 
 **Pronunciation:** /æmˈbæsədər/ &middot; *am-BASS-uh-dur*
-**Русский:** посол
+**Русский:** посол; представитель, лицо бренда; посол (доброй воли)
 **Plural:** *ambassadors*
 **Countability:** countable
 
-The top official who represents one country in another.
+Ambassador has 2 distinct senses.
+
+**1. The top official who represents one country in another.** (посол)
 
 1. The *ambassador* was called home for consultations.
 2. He served as *ambassador* to Japan.
 3. Both *ambassadors* skipped the ceremony.
+
+**2. A well-known person chosen to represent and promote a product, a sport, or a cause.** (представитель, лицо бренда; посол (доброй воли))
+
+4. She signed on as a brand *ambassador* for the shoe company.
+5. He has been a great *ambassador* for the sport.
+6. The charity named three new *ambassadors* this year.
 
 ---
 
 ### official
 
 **Pronunciation:** /əˈfɪʃəl/ &middot; *uh-FISH-uhl*
-**Русский:** чиновник, должностное лицо
+**Русский:** чиновник, должностное лицо; судья, арбитр (в спорте)
 **Plural:** *officials*
 **Countability:** countable
 
-A person who holds a position of authority in a government or organization.
+Official has 2 distinct senses.
+
+**1. A person who holds a position of authority in a government or organization.** (чиновник, должностное лицо)
 
 1. A city *official* confirmed the closure.
 2. The *official* refused to give her name.
 3. Health *officials* are urging people to stay home.
+
+**2. A referee, umpire, or other person who enforces the rules at a sporting event.** (судья, арбитр (в спорте))
+
+4. The *officials* huddled for several minutes before making the call.
+5. An *official* threw a flag on the play.
+6. Fans booed the *officials* as they left the field.
 
 ---
 
@@ -1080,15 +1156,29 @@ The authority a government claims from voters, or an official order to do someth
 ### endorsement
 
 **Pronunciation:** /ɪnˈdɔːrsmənt/ &middot; *in-DORSS-muhnt*
-**Русский:** публичная поддержка (кандидата)
+**Русский:** публичная поддержка (кандидата); передаточная надпись, индоссамент (на чеке); дополнение (к полису, лицензии), допуск
 **Plural:** *endorsements*
 **Countability:** countable
 
-A public statement of support for a candidate or proposal.
+Endorsement has 3 distinct senses.
+
+**1. A public statement of support for a candidate or proposal.** (публичная поддержка (кандидата))
 
 1. The union's *endorsement* was worth a lot in that district.
 2. He picked up the *endorsement* of the local paper.
 3. She has more *endorsements* than anyone in the race.
+
+**2. A signature written on the back of a check so it can be cashed or deposited.** (передаточная надпись, индоссамент (на чеке))
+
+4. The bank sent the check back because the *endorsement* was missing.
+5. Write "For deposit only" above your *endorsement*.
+6. Both names have to appear in the *endorsement* on a joint check.
+
+**3. An official addition to a license, permit, or insurance policy.** (дополнение (к полису, лицензии), допуск)
+
+7. You'll need a motorcycle *endorsement* on your driver's license.
+8. We added a flood *endorsement* to the homeowner's policy.
+9. The trucking company pays for the hazmat *endorsement*.
 
 ---
 
@@ -1139,15 +1229,23 @@ Rally has 3 distinct senses.
 ### convention
 
 **Pronunciation:** /kənˈvɛnʃən/ &middot; *kuhn-VEN-shuhn*
-**Русский:** съезд (партии)
+**Русский:** съезд (партии); обычай, условность, принятая норма
 **Plural:** *conventions*
 **Countability:** countable
 
-A large official meeting of a party or organization.
+Convention has 2 distinct senses.
+
+**1. A large official meeting of a party or organization.** (съезд (партии))
 
 1. The party *convention* runs for four days.
 2. She accepted the nomination at the *convention*.
 3. Both *conventions* are held in the summer.
+
+**2. An accepted way of doing something that most people follow.** (обычай, условность, принятая норма)
+
+4. By *convention*, the bride's family sits on the left.
+5. The novel breaks every *convention* of the detective story.
+6. Social *conventions* about tipping vary from country to country.
 
 ---
 
@@ -1349,14 +1447,22 @@ Money provided for a program or organization.
 ### registration
 
 **Pronunciation:** /ˌrɛdʒəˈstreɪʃən/ &middot; *rej-uh-STRAY-shuhn*
-**Русский:** регистрация (например, избирателей)
+**Русский:** регистрация (например, избирателей); свидетельство о регистрации автомобиля
 **Countability:** uncountable
 
-The act of putting your name on an official list.
+Registration has 2 distinct senses.
+
+**1. The act of putting your name on an official list.** (регистрация (например, избирателей))
 
 1. Voter *registration* closes two weeks before the election.
 2. *Registration* is free and takes five minutes online.
 3. They ran a *registration* drive at the college.
+
+**2. The official document showing that a vehicle is legally recorded with the state.** (свидетельство о регистрации автомобиля)
+
+4. The officer asked for my license and *registration*.
+5. My *registration* expires at the end of the month.
+6. Keep the *registration* in the glove compartment.
 
 ---
 
@@ -1393,30 +1499,46 @@ A long speech or delay used in the Senate to block a vote.
 ### shutdown
 
 **Pronunciation:** /ˈʃʌtdaʊn/ &middot; *SHUT-down*
-**Русский:** приостановка работы (правительства)
+**Русский:** приостановка работы (правительства); остановка (завода, оборудования), отключение
 **Plural:** *shutdowns*
 **Countability:** countable
 
-A period when a government stops most work because no budget has been approved.
+Shutdown has 2 distinct senses.
+
+**1. A period when a government stops most work because no budget has been approved.** (приостановка работы (правительства))
 
 1. The *shutdown* lasted thirty-five days.
 2. Museums close during a government *shutdown*.
 3. Two *shutdowns* happened in the same year.
+
+**2. The stopping of a machine, plant, or system, either for repairs or for good.** (остановка (завода, оборудования), отключение)
+
+4. The refinery is in a two-week *shutdown* for maintenance.
+5. A safety sensor triggered an emergency *shutdown* of the reactor.
+6. The plant *shutdown* put three hundred people out of work.
 
 ---
 
 ### diplomacy
 
 **Pronunciation:** /dɪˈploʊməsi/ &middot; *dih-PLOH-muh-see*
-**Русский:** дипломатия
+**Русский:** дипломатия; дипломатичность, такт
 **Countability:** uncountable
 **Contrast:** Stress shifts: DIP-luh-mat, but dih-PLOH-muh-see.
 
-The work of managing relations between countries through talks rather than force.
+Diplomacy has 2 distinct senses.
+
+**1. The work of managing relations between countries through talks rather than force.** (дипломатия)
 
 1. They are giving *diplomacy* one more chance.
 2. Quiet *diplomacy* ended the standoff.
 3. It took years of *diplomacy* to get the deal.
+
+**2. Skill and tact in dealing with people without upsetting them.** (дипломатичность, такт)
+
+4. It took some *diplomacy* to get the two of them in the same room.
+5. She handled the complaint with real *diplomacy*.
+6. A little *diplomacy* would have prevented the whole argument.
 
 ---
 
@@ -1476,15 +1598,23 @@ Formal discussion aimed at reaching an agreement.
 ### delegation
 
 **Pronunciation:** /ˌdɛləˈɡeɪʃən/ &middot; *del-uh-GAY-shuhn*
-**Русский:** делегация
+**Русский:** делегация; делегирование (полномочий)
 **Plural:** *delegations*
 **Countability:** countable
 
-A group of people sent to represent a country or organization.
+Delegation has 2 distinct senses.
+
+**1. A group of people sent to represent a country or organization.** (делегация)
 
 1. A *delegation* from the state met with the president.
 2. The American *delegation* walked out.
 3. Both *delegations* stayed at the same hotel.
+
+**2. The act of giving part of your work or authority to someone else.** (делегирование (полномочий))
+
+4. Good managers get better at *delegation* over time.
+5. The *delegation* of authority to local offices sped everything up.
+6. He does everything himself because *delegation* makes him nervous.
 
 ---
 
@@ -1506,15 +1636,29 @@ A country's right to govern itself without outside control.
 ### territory
 
 **Pronunciation:** /ˈtɛrətɔːri/ &middot; *TAIR-uh-tor-ee*
-**Русский:** территория
+**Русский:** территория; территория, участок (у животных); участок, закреплённый регион (у торгового представителя)
 **Plural:** *territories*
 **Countability:** countable
 
-Land under the control of a government.
+Territory has 3 distinct senses.
+
+**1. Land under the control of a government.** (территория)
 
 1. Troops crossed into enemy *territory*.
 2. Puerto Rico is a US *territory*, not a state.
 3. Several overseas *territories* still vote in their elections.
+
+**2. The area that an animal treats as its own and defends against others.** (территория, участок (у животных))
+
+4. The male robin defends his *territory* all spring.
+5. Wolves mark the edges of their *territory*.
+6. Two bucks fought over the same *territory*.
+
+**3. The area a salesperson or a business is assigned to cover.** (участок, закреплённый регион (у торгового представителя))
+
+7. She covers the whole western *territory*.
+8. The new rep was given a smaller *territory*.
+9. He drives eight hundred miles a week across his *territory*.
 
 ---
 
@@ -1701,30 +1845,52 @@ Protest has 2 distinct senses.
 ### demonstration
 
 **Pronunciation:** /ˌdɛmənˈstreɪʃən/ &middot; *dem-uhn-STRAY-shuhn*
-**Русский:** демонстрация, манифестация
+**Русский:** демонстрация, манифестация; показ, наглядная демонстрация
 **Plural:** *demonstrations*
 **Countability:** countable
 
-A public gathering held to show support for or opposition to something.
+Demonstration has 2 distinct senses.
+
+**1. A public gathering held to show support for or opposition to something.** (демонстрация, манифестация)
 
 1. The *demonstration* drew ten thousand people.
 2. Police estimated the *demonstration* at half that.
 3. *Demonstrations* went on for three nights.
+
+**2. A practical showing of how something works or how something is done.** (показ, наглядная демонстрация)
+
+4. The salesman gave us a quick *demonstration* of the mixer.
+5. There's a free cooking *demonstration* at the store on Saturday.
+6. After a short *demonstration*, the students tried it themselves.
 
 ---
 
 ### revolution
 
 **Pronunciation:** /ˌrɛvəˈluːʃən/ &middot; *rev-uh-LOO-shuhn*
-**Русский:** революция
+**Русский:** революция; оборот, вращение; переворот, коренные перемены
 **Plural:** *revolutions*
 **Countability:** countable
 
-The overthrow of a government by the people, usually by force.
+Revolution has 3 distinct senses.
+
+**1. The overthrow of a government by the people, usually by force.** (революция)
 
 1. The *revolution* began with a strike at the shipyard.
 2. He wrote a book about the French *revolution*.
 3. Two *revolutions* in one century wore the country out.
+
+**2. One complete turn of something around a center point.** (оборот, вращение)
+
+4. The engine runs at three thousand *revolutions* per minute.
+5. Each *revolution* of the crank pulls the bucket up a foot.
+6. The Earth makes one *revolution* around the sun each year.
+
+**3. A complete and far-reaching change in the way people live or do things.** (переворот, коренные перемены)
+
+7. The digital *revolution* changed how we shop and read.
+8. Antibiotics brought about a *revolution* in medicine.
+9. She calls the new battery a *revolution* in clean energy.
 
 ---
 
@@ -1770,44 +1936,74 @@ An organized armed or open refusal to obey a government.
 ### movement
 
 **Pronunciation:** /ˈmuːvmənt/ &middot; *MOOV-muhnt*
-**Русский:** общественное движение
+**Русский:** общественное движение; движение, перемещение; часть (симфонии, сонаты)
 **Plural:** *movements*
 **Countability:** countable
 
-A group of people working together for a shared political or social goal.
+Movement has 3 distinct senses.
+
+**1. A group of people working together for a shared political or social goal.** (общественное движение)
 
 1. The labor *movement* built this city.
 2. She joined the *movement* in her twenties.
 3. Both *movements* grew out of the same protests.
+
+**2. The act of moving, or a change of position.** (движение, перемещение)
+
+4. I caught a *movement* out of the corner of my eye.
+5. The brace limits *movement* in her wrist.
+6. Guards watched every *movement* on the security cameras.
+
+**3. One of the main sections of a symphony or another long piece of music.** (часть (симфонии, сонаты))
+
+7. The second *movement* is slow and very quiet.
+8. The symphony has four *movements*.
+9. He fell asleep during the last *movement*.
 
 ---
 
 ### petition
 
 **Pronunciation:** /pəˈtɪʃən/ &middot; *puh-TISH-uhn*
-**Русский:** петиция
+**Русский:** петиция; заявление, ходатайство (в суд)
 **Plural:** *petitions*
 **Countability:** countable
 
-A signed request asking officials to do something.
+Petition has 2 distinct senses.
+
+**1. A signed request asking officials to do something.** (петиция)
 
 1. The *petition* got forty thousand signatures.
 2. Sign the *petition* if you agree.
 3. Two *petitions* were filed with the county clerk.
+
+**2. A formal written request asking a court to take some action.** (заявление, ходатайство (в суд))
+
+4. His lawyer filed a *petition* for custody of the children.
+5. The judge dismissed the *petition* without a hearing.
+6. The company filed a bankruptcy *petition* in federal court.
 
 ---
 
 ### opposition
 
 **Pronunciation:** /ˌɑːpəˈzɪʃən/ &middot; *ah-puh-ZISH-uhn*
-**Русский:** оппозиция; противодействие
+**Русский:** оппозиция; противодействие; сопротивление, противодействие
 **Countability:** uncountable
 
-The political parties or groups that are against the government in power.
+Opposition has 2 distinct senses.
+
+**1. The political parties or groups that are against the government in power.** (оппозиция; противодействие)
 
 1. The *opposition* walked out of the vote.
 2. There is strong *opposition* to the plan in rural areas.
 3. Leaders of the *opposition* were arrested.
+
+**2. Strong disagreement with a plan or idea, and the effort to stop it.** (сопротивление, противодействие)
+
+4. The proposal met fierce *opposition* from neighbors.
+5. There's growing *opposition* to the new tax.
+6. The bill passed despite *opposition* from both parties.
 
 ---
 
@@ -1947,14 +2143,22 @@ Love of and pride in one's own country.
 ### independence
 
 **Pronunciation:** /ˌɪndəˈpɛndəns/ &middot; *in-duh-PEN-duhns*
-**Русский:** независимость
+**Русский:** независимость; самостоятельность
 **Countability:** uncountable
 
-Freedom from control by another country or authority.
+Independence has 2 distinct senses.
+
+**1. Freedom from control by another country or authority.** (независимость)
 
 1. The country won its *independence* in 1960.
 2. The agency guards its *independence* from the White House.
 3. The colonies declared *independence* in 1776.
+
+**2. The ability to support yourself and make your own decisions without help from others.** (самостоятельность)
+
+4. After the stroke, he fought to keep his *independence*.
+5. A used car gave her a new sense of *independence*.
+6. The program helps young adults build financial *independence*.
 
 ---
 

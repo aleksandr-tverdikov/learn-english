@@ -441,14 +441,58 @@
       "term": "shoulder",
       "ipa": "/ˈʃoʊldər/",
       "respell": "SHOHL-dur",
-      "meaning": "The joint where the arm meets the body. ---",
+      "meaning": "Shoulder has 3 distinct senses.",
       "examples": [
         "He carried the bag on one shoulder.",
         "My shoulders get tight after a day at the desk.",
-        "She tapped him on the shoulder."
+        "She tapped him on the shoulder.",
+        "He pulled onto the shoulder and put on his hazard lights.",
+        "A deer was standing on the shoulder of the highway.",
+        "The shoulder is soft here, so don't park off the pavement.",
+        "She braised a pork shoulder all afternoon.",
+        "Lamb shoulder is cheaper than the leg and just as good.",
+        "Ask the butcher for a five-pound shoulder."
       ],
-      "senses": [],
-      "русский": "плечо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The joint where the arm meets the body",
+          "body": [
+            "(плечо)"
+          ],
+          "examples": [
+            "He carried the bag on one shoulder.",
+            "My shoulders get tight after a day at the desk.",
+            "She tapped him on the shoulder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The strip of ground or pavement along the edge of a road, where a vehicle can pull over",
+          "body": [
+            "(обочина)"
+          ],
+          "examples": [
+            "He pulled onto the shoulder and put on his hazard lights.",
+            "A deer was standing on the shoulder of the highway.",
+            "The shoulder is soft here, so don't park off the pavement."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A cut of meat from the upper front leg of an animal",
+          "body": [
+            "(лопатка (мясной отруб))",
+            "---"
+          ],
+          "examples": [
+            "She braised a pork shoulder all afternoon.",
+            "Lamb shoulder is cheaper than the leg and just as good.",
+            "Ask the butcher for a five-pound shoulder."
+          ]
+        }
+      ],
+      "русский": "плечо; обочина; лопатка (мясной отруб)",
       "plural": "shoulders",
       "countability": "countable"
     },
@@ -2826,14 +2870,58 @@
       "term": "skeleton",
       "ipa": "/ˈskɛlətən/",
       "respell": "SKEL-uh-tun",
-      "meaning": "All the bones of a body taken together. ---",
+      "meaning": "Skeleton has 3 distinct senses.",
       "examples": [
         "A human skeleton has 206 bones.",
         "They found a skeleton buried under the floor.",
-        "The museum has a dinosaur skeleton in the lobby."
+        "The museum has a dinosaur skeleton in the lobby.",
+        "The steel skeleton of the tower went up in four months.",
+        "Only the skeleton of the old barn is still standing.",
+        "Welders put the skeleton of the hull together in the yard.",
+        "He has the skeleton of a novel and not much else.",
+        "We agreed on the skeleton of the deal and left the details to the lawyers.",
+        "Start with a skeleton of the essay, then fill in the examples."
       ],
-      "senses": [],
-      "русский": "скелет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "All the bones of a body taken together",
+          "body": [
+            "(скелет)"
+          ],
+          "examples": [
+            "A human skeleton has 206 bones.",
+            "They found a skeleton buried under the floor.",
+            "The museum has a dinosaur skeleton in the lobby."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The supporting frame of a building, ship, or other structure",
+          "body": [
+            "(каркас, остов)"
+          ],
+          "examples": [
+            "The steel skeleton of the tower went up in four months.",
+            "Only the skeleton of the old barn is still standing.",
+            "Welders put the skeleton of the hull together in the yard."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The bare outline or essential structure of a plan, story, or argument",
+          "body": [
+            "(костяк, основа (плана, текста))",
+            "---"
+          ],
+          "examples": [
+            "He has the skeleton of a novel and not much else.",
+            "We agreed on the skeleton of the deal and left the details to the lawyers.",
+            "Start with a skeleton of the essay, then fill in the examples."
+          ]
+        }
+      ],
+      "русский": "скелет; каркас, остов; костяк, основа (плана, текста)",
       "plural": "skeletons",
       "countability": "countable"
     },
@@ -3950,14 +4038,58 @@
       "term": "diaphragm",
       "ipa": "/ˈdaɪəfræm/",
       "respell": "DY-uh-fram",
-      "meaning": "The sheet of muscle below the lungs that moves when you breathe. ---",
+      "meaning": "Diaphragm has 3 distinct senses.",
       "examples": [
         "Singers learn to breathe from the diaphragm.",
         "The diaphragm pulls air into the lungs.",
-        "A spasm in the diaphragm is what causes hiccups."
+        "A spasm in the diaphragm is what causes hiccups.",
+        "Her doctor fitted her for a diaphragm.",
+        "She keeps the diaphragm in a small plastic case.",
+        "A diaphragm has to be used together with spermicide.",
+        "Closing the diaphragm keeps more of the scene in focus.",
+        "This lens has a nine-blade diaphragm.",
+        "Open the diaphragm wider when the light is poor."
       ],
-      "senses": [],
-      "русский": "диафрагма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sheet of muscle below the lungs that moves when you breathe",
+          "body": [
+            "(диафрагма)"
+          ],
+          "examples": [
+            "Singers learn to breathe from the diaphragm.",
+            "The diaphragm pulls air into the lungs.",
+            "A spasm in the diaphragm is what causes hiccups."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft dome-shaped device a woman puts in place to prevent pregnancy",
+          "body": [
+            "(диафрагма (противозачаточный колпачок))"
+          ],
+          "examples": [
+            "Her doctor fitted her for a diaphragm.",
+            "She keeps the diaphragm in a small plastic case.",
+            "A diaphragm has to be used together with spermicide."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The ring of blades in a camera lens that controls how much light gets through",
+          "body": [
+            "(диафрагма (объектива))",
+            "---"
+          ],
+          "examples": [
+            "Closing the diaphragm keeps more of the scene in focus.",
+            "This lens has a nine-blade diaphragm.",
+            "Open the diaphragm wider when the light is poor."
+          ]
+        }
+      ],
+      "русский": "диафрагма; диафрагма (противозачаточный колпачок); диафрагма (объектива)",
       "plural": "diaphragms",
       "countability": "countable",
       "contrast": "The g is silent: DY-uh-fram."

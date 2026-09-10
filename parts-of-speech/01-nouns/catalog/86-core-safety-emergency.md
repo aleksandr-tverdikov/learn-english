@@ -351,30 +351,46 @@ The work of stopping something bad before it happens.
 ### survivor
 
 **Pronunciation:** /sərˈvaɪvər/ &middot; *sur-VY-vur*
-**Русский:** выживший, уцелевший
+**Русский:** выживший, уцелевший; живучий человек, тот, кто не сдаётся
 **Plural:** *survivors*
 **Countability:** countable
 
-A person who stays alive through an accident or disaster.
+Survivor has 2 distinct senses.
+
+**1. A person who stays alive through an accident or disaster.** (выживший, уцелевший)
 
 1. The only *survivor* was a boy in the back seat.
 2. Crews searched the rubble for *survivors*.
 3. *Survivors* were taken to a shelter downtown.
+
+**2. Someone who keeps going and copes well no matter what happens to them.** (живучий человек, тот, кто не сдаётся)
+
+4. Don't worry about her — she's a *survivor*.
+5. He lost the business twice and started over at fifty; the man is a real *survivor*.
+6. After the year she's had, I'd call her a *survivor*.
 
 ---
 
 ### disaster
 
 **Pronunciation:** /dɪˈzæstər/ &middot; *dih-ZAS-tur*
-**Русский:** бедствие, катастрофа
+**Русский:** бедствие, катастрофа; провал, полный крах
 **Plural:** *disasters*
 **Countability:** countable
 
-A sudden event that causes great damage or loss of life.
+Disaster has 2 distinct senses.
+
+**1. A sudden event that causes great damage or loss of life.** (бедствие, катастрофа)
 
 1. The flood was the worst *disaster* in the county's history.
 2. Natural *disasters* cost the state billions last year.
 3. The governor declared the fire a *disaster*.
+
+**2. A complete failure, or something that has gone badly wrong.** (провал, полный крах)
+
+4. The dinner party was a *disaster* from start to finish.
+5. His first attempt at cutting my hair was a *disaster*.
+6. The movie was a box-office *disaster*.
 
 ---
 
@@ -397,15 +413,23 @@ A disaster of the very worst kind.
 ### collision
 
 **Pronunciation:** /kəˈlɪʒən/ &middot; *kuh-LIZH-un*
-**Русский:** столкновение
+**Русский:** столкновение; столкновение (интересов, взглядов)
 **Plural:** *collisions*
 **Countability:** countable
 
-A crash in which two moving things hit each other.
+Collision has 2 distinct senses.
+
+**1. A crash in which two moving things hit each other.** (столкновение)
 
 1. The *collision* happened at the intersection.
 2. Nobody was hurt in the *collision*.
 3. Head-on *collisions* are the deadliest kind.
+
+**2. A sharp clash between opposing ideas, groups, or interests.** (столкновение (интересов, взглядов))
+
+4. The hearing exposed a *collision* between science and politics.
+5. The movie is about the *collision* of two very different cultures.
+6. Their ambitions put the two men on a *collision* course.
 
 ---
 
@@ -504,15 +528,23 @@ A landing a pilot has to make right away because something has gone wrong.
 ### collapse
 
 **Pronunciation:** /kəˈlæps/ &middot; *kuh-LAPS*
-**Русский:** обрушение, обвал
+**Русский:** обрушение, обвал; крах, обвал (системы, рынка)
 **Plural:** *collapses*
 **Countability:** countable
 
-The sudden falling down of a building, roof, or other structure.
+Collapse has 2 distinct senses.
+
+**1. The sudden falling down of a building, roof, or other structure.** (обрушение, обвал)
 
 1. The *collapse* trapped four workers in the basement.
 2. Heavy snow caused the roof *collapse*.
 3. Two *collapses* in one week shut down the mine.
+
+**2. A sudden and complete failure of a system, business, or plan.** (крах, обвал (системы, рынка))
+
+4. The *collapse* of the bank wiped out their savings.
+5. Nobody at the firm predicted the *collapse* of the housing market.
+6. The talks ended in *collapse* after three days.
 
 ---
 
@@ -736,15 +768,23 @@ The wall of seawater a hurricane pushes onto the shore.
 ### aftershock
 
 **Pronunciation:** /ˈæftərʃɑːk/ &middot; *AF-tur-shahk*
-**Русский:** повторный подземный толчок
+**Русский:** повторный подземный толчок; отголосок, отсроченное последствие (потрясения)
 **Plural:** *aftershocks*
 **Countability:** countable
 
-A smaller earthquake that follows a larger one.
+Aftershock has 2 distinct senses.
+
+**1. A smaller earthquake that follows a larger one.** (повторный подземный толчок)
 
 1. An *aftershock* woke everybody at four in the morning.
 2. There were dozens of *aftershocks* that week.
 3. Rescue work stopped during each *aftershock*.
+
+**2. A later effect or reaction that follows a shocking event.** (отголосок, отсроченное последствие (потрясения))
+
+4. The layoffs sent *aftershocks* through the whole town.
+5. We are still feeling the *aftershocks* of that decision.
+6. The scandal's political *aftershocks* lasted for years.
 
 ---
 
@@ -960,15 +1000,23 @@ Illness or death caused by a poisonous substance getting into the body.
 ### antidote
 
 **Pronunciation:** /ˈæntɪdoʊt/ &middot; *AN-tih-doht*
-**Русский:** противоядие, антидот
+**Русский:** противоядие, антидот; средство против (чего-то плохого), противовес
 **Plural:** *antidotes*
 **Countability:** countable
 
-A medicine that works against a particular poison.
+Antidote has 2 distinct senses.
+
+**1. A medicine that works against a particular poison.** (противоядие, антидот)
 
 1. There is an *antidote* for that snake's venom.
 2. The hospital keeps the *antidote* on hand.
 3. Some poisons have no *antidotes* at all.
+
+**2. Something that takes away a bad feeling or improves a bad situation.** (средство против (чего-то плохого), противовес)
+
+4. A weekend at the lake was the perfect *antidote* to a stressful week.
+5. Comedy can be an *antidote* to despair.
+6. Volunteering became her *antidote* for loneliness.
 
 ---
 
@@ -1434,15 +1482,23 @@ Bright yellow plastic ribbon strung around a dangerous or restricted area.
 ### roadblock
 
 **Pronunciation:** /ˈroʊdblɑːk/ &middot; *ROHD-blahk*
-**Русский:** дорожное заграждение, блокпост
+**Русский:** дорожное заграждение, блокпост; препятствие, помеха
 **Plural:** *roadblocks*
 **Countability:** countable
 
-A barrier across a road that stops or turns back traffic.
+Roadblock has 2 distinct senses.
+
+**1. A barrier across a road that stops or turns back traffic.** (дорожное заграждение, блокпост)
 
 1. There's a *roadblock* at the bottom of the hill.
 2. Police set up a *roadblock* on the bridge.
 3. *Roadblocks* kept everyone out of the burn area.
+
+**2. Something that stops progress on a plan or project.** (препятствие, помеха)
+
+4. Funding turned out to be the biggest *roadblock*.
+5. We hit a *roadblock* when the supplier backed out.
+6. Their lawyers threw up one *roadblock* after another.
 
 ---
 
@@ -1488,15 +1544,23 @@ Emergency brake has 2 distinct senses.
 ### respirator
 
 **Pronunciation:** /ˈrɛspəreɪtər/ &middot; *RES-puh-ray-tur*
-**Русский:** респиратор
+**Русский:** респиратор; аппарат искусственной вентиляции лёгких
 **Plural:** *respirators*
 **Countability:** countable
 
-A mask with filters that keeps dust, fumes, or germs out of the lungs.
+Respirator has 2 distinct senses.
+
+**1. A mask with filters that keeps dust, fumes, or germs out of the lungs.** (респиратор)
 
 1. Wear a *respirator* when you sand that paint.
 2. His *respirator* fogged up in the heat.
 3. The shop keeps *respirators* by the door.
+
+**2. A machine that breathes for a patient who cannot breathe alone.** (аппарат искусственной вентиляции лёгких)
+
+4. He spent two weeks on a *respirator* after the accident.
+5. The hospital ran short of *respirators* during the surge.
+6. Doctors took her off the *respirator* on Sunday.
 
 ---
 
@@ -1656,29 +1720,45 @@ Anything designed to keep a person afloat in water.
 ### lifeline
 
 **Pronunciation:** /ˈlaɪflaɪn/ &middot; *LYF-lyne*
-**Русский:** страховочный трос, спасательный конец
+**Русский:** страховочный трос, спасательный конец; спасательный круг, жизненно важная поддержка
 **Plural:** *lifelines*
 **Countability:** countable
 
-A rope thrown or fixed to keep someone from being lost or swept away.
+Lifeline has 2 distinct senses.
+
+**1. A rope thrown or fixed to keep someone from being lost or swept away.** (страховочный трос, спасательный конец)
 
 1. He tied a *lifeline* around his waist before going out on the ice.
 2. A *lifeline* runs the length of the deck.
 3. The radio was their only *lifeline*.
+
+**2. Something that provides essential help or keeps something going.** (спасательный круг, жизненно важная поддержка)
+
+4. The loan was a *lifeline* for the family business.
+5. The ferry is the island's only *lifeline* in winter.
+6. For a lot of seniors, that daily call is a *lifeline*.
 
 ---
 
 ### distress
 
 **Pronunciation:** /dɪˈstrɛs/ &middot; *dih-STRES*
-**Русский:** бедствие, тяжёлое положение
+**Русский:** бедствие, тяжёлое положение; страдание, душевная боль
 **Countability:** uncountable
 
-The state of being in serious trouble and needing help.
+Distress has 2 distinct senses.
+
+**1. The state of being in serious trouble and needing help.** (бедствие, тяжёлое положение)
 
 1. The boat was in *distress* about two miles out.
 2. They picked up a *distress* call at midnight.
 3. The plane signaled *distress* and turned back.
+
+**2. Great mental pain, worry, or sorrow.** (страдание, душевная боль)
+
+4. She sued the company for emotional *distress*.
+5. The fireworks caused the dogs obvious *distress*.
+6. He hid his *distress* well, but his hands were shaking.
 
 ---
 

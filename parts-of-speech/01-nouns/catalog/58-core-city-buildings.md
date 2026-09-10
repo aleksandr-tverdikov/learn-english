@@ -642,15 +642,23 @@ A wall built across a river to hold back water.
 ### pipeline
 
 **Pronunciation:** /ˈpaɪplaɪn/ &middot; *PYP-lyn*
-**Русский:** трубопровод
+**Русский:** трубопровод; процесс подготовки; поток (проектов, кадров)
 **Plural:** *pipelines*
 **Countability:** countable
 
-A long line of connected pipes carrying oil, gas or water over a distance.
+Pipeline has 2 distinct senses.
+
+**1. A long line of connected pipes carrying oil, gas or water over a distance.** (трубопровод)
 
 1. The *pipeline* runs under the whole valley.
 2. Two *pipelines* were shut down for inspection.
 3. A leak in the *pipeline* closed the road.
+
+**2. A process or channel through which things move steadily toward completion.** (процесс подготовки; поток (проектов, кадров))
+
+4. Two new drugs are in the *pipeline* for next year.
+5. The company built a *pipeline* of young engineers straight out of college.
+6. There's a long *pipeline* of orders still waiting to ship.
 
 ---
 
@@ -1386,15 +1394,23 @@ The part of a city that borders a river, lake or harbor.
 ### memorial
 
 **Pronunciation:** /məˈmɔːriəl/ &middot; *muh-MOR-ee-ul*
-**Русский:** мемориал
+**Русский:** мемориал; поминальная служба, панихида
 **Plural:** *memorials*
 **Countability:** countable
 
-A structure or place built in memory of people who died.
+Memorial has 2 distinct senses.
+
+**1. A structure or place built in memory of people who died.** (мемориал)
 
 1. They laid flowers at the *memorial*.
 2. Two new *memorials* were built near the river.
 3. The *memorial* lists every name in stone.
+
+**2. A ceremony held to honor someone who has died.** (поминальная служба, панихида)
+
+4. The family is holding a *memorial* on Saturday afternoon.
+5. About two hundred people came to his *memorial*.
+6. She spoke at her coworker's *memorial* last month.
 
 ---
 
@@ -1896,15 +1912,23 @@ An old, crowded apartment building in a poor part of a city.
 ### subdivision
 
 **Pronunciation:** /ˈsʌbdɪˌvɪʒən/ &middot; *SUHB-dih-vih-zhun*
-**Русский:** жилой массив, коттеджный посёлок
+**Русский:** жилой массив, коттеджный посёлок; подразделение, часть целого
 **Plural:** *subdivisions*
 **Countability:** countable
 
-An area of land split into lots and built up with similar new houses.
+Subdivision has 2 distinct senses.
+
+**1. An area of land split into lots and built up with similar new houses.** (жилой массив, коттеджный посёлок)
 
 1. They bought in a *subdivision* out past the mall.
 2. New *subdivisions* keep pushing into the farmland.
 3. Every house in the *subdivision* has the same floor plan.
+
+**2. One of the smaller parts into which something larger is divided.** (подразделение, часть целого)
+
+4. The county is the largest political *subdivision* in the state.
+5. Each chapter is broken into three *subdivisions*.
+6. The agency is a *subdivision* of the state health department.
 
 ---
 
@@ -2017,15 +2041,23 @@ Walls built of stone or brick, or the work of building them.
 ### blueprint
 
 **Pronunciation:** /ˈbluːˌprɪnt/ &middot; *BLOO-print*
-**Русский:** чертёж, план здания
+**Русский:** чертёж, план здания; план, программа действий, схема
 **Plural:** *blueprints*
 **Countability:** countable
 
-A detailed technical drawing showing how a building is to be built.
+Blueprint has 2 distinct senses.
+
+**1. A detailed technical drawing showing how a building is to be built.** (чертёж, план здания)
 
 1. The architect spread the *blueprint* across the table.
 2. The city keeps *blueprints* for every building downtown.
 3. That wall isn't on the original *blueprint*.
+
+**2. A detailed plan for how something should be done.** (план, программа действий, схема)
+
+4. The report offers a *blueprint* for fixing the school system.
+5. His campaign became a *blueprint* for other candidates.
+6. The team had no *blueprint* for handling a crisis like this.
 
 ---
 
@@ -2123,15 +2155,23 @@ One of the rounded stones used to pave old streets.
 ### guardrail
 
 **Pronunciation:** /ˈɡɑːrdreɪl/ &middot; *GARD-rayl*
-**Русский:** отбойник, дорожное ограждение
+**Русский:** отбойник, дорожное ограждение; ограничитель, страховочное правило
 **Plural:** *guardrails*
 **Countability:** countable
 
-A metal barrier along the edge of a road to stop cars leaving it.
+Guardrail has 2 distinct senses.
+
+**1. A metal barrier along the edge of a road to stop cars leaving it.** (отбойник, дорожное ограждение)
 
 1. The car slid into the *guardrail*.
 2. New *guardrails* went up along the mountain road.
 3. The *guardrail* is the only thing between you and the drop.
+
+**2. A rule or limit put in place to keep something from going badly wrong.** (ограничитель, страховочное правило)
+
+4. The law puts *guardrails* on how the data can be used.
+5. Every trading desk needs *guardrails*.
+6. Without some kind of *guardrail*, the costs will get away from us.
 
 ---
 

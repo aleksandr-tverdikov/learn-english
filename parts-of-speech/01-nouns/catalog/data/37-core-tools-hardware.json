@@ -2234,14 +2234,43 @@
       "term": "scaffold",
       "ipa": "/ˈskæfəld/",
       "respell": "SKAF-uld",
-      "meaning": "A temporary frame of poles and planks that workers stand on. ---",
+      "meaning": "Scaffold has 2 distinct senses.",
       "examples": [
         "They put up a scaffold along the whole wall.",
         "Don't climb the scaffold without a harness.",
-        "The scaffolds came down after the siding was finished."
+        "The scaffolds came down after the siding was finished.",
+        "The condemned man was led to the scaffold at dawn.",
+        "A crowd gathered around the scaffold in the town square.",
+        "He went to the scaffold still insisting he was innocent."
       ],
-      "senses": [],
-      "русский": "строительные леса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A temporary frame of poles and planks that workers stand on",
+          "body": [
+            "(строительные леса)"
+          ],
+          "examples": [
+            "They put up a scaffold along the whole wall.",
+            "Don't climb the scaffold without a harness.",
+            "The scaffolds came down after the siding was finished."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A raised wooden platform on which a prisoner is hanged",
+          "body": [
+            "(эшафот)",
+            "---"
+          ],
+          "examples": [
+            "The condemned man was led to the scaffold at dawn.",
+            "A crowd gathered around the scaffold in the town square.",
+            "He went to the scaffold still insisting he was innocent."
+          ]
+        }
+      ],
+      "русский": "строительные леса; эшафот",
       "plural": "scaffolds",
       "countability": "countable",
       "contrast": "The second syllable is reduced: SKAF-uld, not skaf-FOLD."

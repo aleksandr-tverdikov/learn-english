@@ -384,14 +384,58 @@
       "term": "godfather",
       "ipa": "/ˈɡɑːdfɑːðər/",
       "respell": "GAHD-fah-thur",
-      "meaning": "A man who promises at a baptism to help raise a child. ---",
+      "meaning": "Godfather has 3 distinct senses.",
       "examples": [
         "He asked his oldest friend to be the godfather.",
         "Her godfather sends a card every birthday.",
-        "The godfathers stood on the left side of the altar."
+        "The godfathers stood on the left side of the altar.",
+        "Prosecutors named him as the godfather of the city's crime family.",
+        "Two godfathers met to divide up the territory.",
+        "Agents spent years building a case against the godfather.",
+        "He's often called the godfather of hip-hop.",
+        "Those two are the godfathers of modern stand-up.",
+        "She thanked the godfather of the genre in her acceptance speech."
       ],
-      "senses": [],
-      "русский": "крёстный отец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A man who promises at a baptism to help raise a child",
+          "body": [
+            "(крёстный отец)"
+          ],
+          "examples": [
+            "He asked his oldest friend to be the godfather.",
+            "Her godfather sends a card every birthday.",
+            "The godfathers stood on the left side of the altar."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The head of a Mafia family or other crime organization",
+          "body": [
+            "(крёстный отец (глава мафиозного клана))"
+          ],
+          "examples": [
+            "Prosecutors named him as the godfather of the city's crime family.",
+            "Two godfathers met to divide up the territory.",
+            "Agents spent years building a case against the godfather."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A man seen as the founder or leading early figure of a movement or style",
+          "body": [
+            "(основоположник, отец (направления, жанра))",
+            "---"
+          ],
+          "examples": [
+            "He's often called the godfather of hip-hop.",
+            "Those two are the godfathers of modern stand-up.",
+            "She thanked the godfather of the genre in her acceptance speech."
+          ]
+        }
+      ],
+      "русский": "крёстный отец; крёстный отец (глава мафиозного клана); основоположник, отец (направления, жанра)",
       "plural": "godfathers",
       "countability": "countable"
     },
@@ -445,14 +489,43 @@
       "term": "caretaker",
       "ipa": "/ˈkɛrteɪkər/",
       "respell": "KAIR-tay-kur",
-      "meaning": "Someone who looks after a person who cannot look after themselves. ---",
+      "meaning": "Caretaker has 2 distinct senses.",
       "examples": [
         "A child needs at least one steady caretaker.",
         "She became the main caretaker for both kids.",
-        "The caretakers rotate on a weekly schedule."
+        "The caretakers rotate on a weekly schedule.",
+        "The caretaker plows the driveway and keeps the pipes from freezing.",
+        "We left a key with the caretaker of the cabin.",
+        "Two caretakers mow the cemetery every week."
       ],
-      "senses": [],
-      "русский": "тот, кто ухаживает (за ребёнком, больным)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who looks after a person who cannot look after themselves",
+          "body": [
+            "(тот, кто ухаживает (за ребёнком, больным))"
+          ],
+          "examples": [
+            "A child needs at least one steady caretaker.",
+            "She became the main caretaker for both kids.",
+            "The caretakers rotate on a weekly schedule."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person paid to look after a building or piece of land",
+          "body": [
+            "(смотритель, сторож (здания, участка))",
+            "---"
+          ],
+          "examples": [
+            "The caretaker plows the driveway and keeps the pipes from freezing.",
+            "We left a key with the caretaker of the cabin.",
+            "Two caretakers mow the cemetery every week."
+          ]
+        }
+      ],
+      "русский": "тот, кто ухаживает (за ребёнком, больным); смотритель, сторож (здания, участка)",
       "plural": "caretakers",
       "countability": "countable",
       "contrast": "In American English a caretaker looks after people; in British English it is the janitor of a building."

@@ -1556,14 +1556,43 @@
       "term": "accessory",
       "ipa": "/əkˈsɛsəri/",
       "respell": "uhk-SES-uh-ree",
-      "meaning": "Something like a bag, belt, or scarf worn to complete an outfit. ---",
+      "meaning": "Accessory has 2 distinct senses.",
       "examples": [
         "A scarf is the only accessory she ever wears.",
         "The store carries bags, belts, and other accessories.",
-        "The right accessory can pull a whole outfit together."
+        "The right accessory can pull a whole outfit together.",
+        "He was charged as an accessory to armed robbery.",
+        "Driving the getaway car makes you an accessory.",
+        "Two accessories were arrested a week after the shooting."
       ],
-      "senses": [],
-      "русский": "аксессуар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something like a bag, belt, or scarf worn to complete an outfit",
+          "body": [
+            "(аксессуар)"
+          ],
+          "examples": [
+            "A scarf is the only accessory she ever wears.",
+            "The store carries bags, belts, and other accessories.",
+            "The right accessory can pull a whole outfit together."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who helps someone commit a crime or helps them get away with it",
+          "body": [
+            "(соучастник (преступления))",
+            "---"
+          ],
+          "examples": [
+            "He was charged as an accessory to armed robbery.",
+            "Driving the getaway car makes you an accessory.",
+            "Two accessories were arrested a week after the shooting."
+          ]
+        }
+      ],
+      "русский": "аксессуар; соучастник (преступления)",
       "plural": "accessories",
       "countability": "countable",
       "contrast": "The cc is pronounced ks: uhk-SES-uh-ree, not uh-SES-uh-ree."

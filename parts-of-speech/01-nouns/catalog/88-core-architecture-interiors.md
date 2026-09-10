@@ -1259,15 +1259,23 @@ A layout where the kitchen, dining, and living areas share one large space.
 ### interior
 
 **Pronunciation:** /ɪnˈtɪriər/ &middot; *in-TEER-ee-ur*
-**Русский:** интерьер, внутреннее пространство
+**Русский:** интерьер, внутреннее пространство; внутренние районы страны, глубинка
 **Plural:** *interiors*
 **Countability:** countable
 
-The inside of a building or a vehicle.
+Interior has 2 distinct senses.
+
+**1. The inside of a building or a vehicle.** (интерьер, внутреннее пространство)
 
 1. The *interior* of the church is plain white.
 2. They gutted the *interior* and started over.
 3. The *interiors* in that magazine are all beige.
+
+**2. The inland part of a country or region, away from the coast.** (внутренние районы страны, глубинка)
+
+4. Most of the state's wheat is grown in the *interior*.
+5. Small planes fly supplies into the *interior*.
+6. Roads in the *interior* are mostly gravel.
 
 ---
 
@@ -1836,15 +1844,23 @@ The horizontal beam across the top of a door or window opening.
 ### keystone
 
 **Pronunciation:** /ˈkiːstoʊn/ &middot; *KEE-stohn*
-**Русский:** замковый камень (в арке)
+**Русский:** замковый камень (в арке); краеугольный камень, основа
 **Plural:** *keystones*
 **Countability:** countable
 
-The wedge-shaped stone at the top of an arch that locks the others in place.
+Keystone has 2 distinct senses.
+
+**1. The wedge-shaped stone at the top of an arch that locks the others in place.** (замковый камень (в арке))
 
 1. The *keystone* is carved with a lion's head.
 2. Pull out the *keystone* and the arch collapses.
 3. Each window has a painted *keystone* above it.
+
+**2. The part of something that everything else depends on.** (краеугольный камень, основа)
+
+4. Trust is the *keystone* of any partnership.
+5. The tax credit was the *keystone* of the whole plan.
+6. Reading is the *keystone* of the early curriculum.
 
 ---
 

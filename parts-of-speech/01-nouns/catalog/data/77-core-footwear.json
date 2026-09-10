@@ -494,14 +494,43 @@
       "term": "moccasin",
       "ipa": "/ˈmɑːkəsɪn/",
       "respell": "MAH-kuh-sin",
-      "meaning": "A soft flat leather shoe with the sole wrapped up and stitched to the top. ---",
+      "meaning": "Moccasin has 2 distinct senses.",
       "examples": [
         "He drives in a pair of old moccasins.",
         "The stitching on that moccasin is done by hand.",
-        "Deerskin moccasins are soft as socks."
+        "Deerskin moccasins are soft as socks.",
+        "A moccasin was sunning itself on the fallen log.",
+        "Watch the bank down there — the creek is full of moccasins.",
+        "He swore the snake in the pond was a moccasin, not a harmless water snake."
       ],
-      "senses": [],
-      "русский": "мокасин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft flat leather shoe with the sole wrapped up and stitched to the top",
+          "body": [
+            "(мокасин)"
+          ],
+          "examples": [
+            "He drives in a pair of old moccasins.",
+            "The stitching on that moccasin is done by hand.",
+            "Deerskin moccasins are soft as socks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick venomous snake of the American South that lives near water",
+          "body": [
+            "(щитомордник, водяная мокасиновая змея)",
+            "---"
+          ],
+          "examples": [
+            "A moccasin was sunning itself on the fallen log.",
+            "Watch the bank down there — the creek is full of moccasins.",
+            "He swore the snake in the pond was a moccasin, not a harmless water snake."
+          ]
+        }
+      ],
+      "русский": "мокасин; щитомордник, водяная мокасиновая змея",
       "plural": "moccasins",
       "countability": "countable"
     },
@@ -630,14 +659,43 @@
       "term": "stiletto",
       "ipa": "/stɪˈlɛtoʊ/",
       "respell": "stih-LET-oh",
-      "meaning": "A very thin, very high heel, or a shoe with one. ---",
+      "meaning": "Stiletto has 2 distinct senses.",
       "examples": [
         "Her stilettos sank into the wet grass.",
         "A four-inch stiletto is not made for cobblestones.",
-        "Stilettos can dent a hardwood floor."
+        "Stilettos can dent a hardwood floor.",
+        "The coroner said the wound was made by a stiletto.",
+        "He carried a stiletto in his boot.",
+        "The museum case held two old stilettos with ivory handles."
       ],
-      "senses": [],
-      "русский": "шпилька (тонкий высокий каблук)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very thin, very high heel, or a shoe with one",
+          "body": [
+            "(шпилька (тонкий высокий каблук))"
+          ],
+          "examples": [
+            "Her stilettos sank into the wet grass.",
+            "A four-inch stiletto is not made for cobblestones.",
+            "Stilettos can dent a hardwood floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A knife with a slim, sharply pointed blade",
+          "body": [
+            "(стилет (узкий кинжал))",
+            "---"
+          ],
+          "examples": [
+            "The coroner said the wound was made by a stiletto.",
+            "He carried a stiletto in his boot.",
+            "The museum case held two old stilettos with ivory handles."
+          ]
+        }
+      ],
+      "русский": "шпилька (тонкий высокий каблук); стилет (узкий кинжал)",
       "plural": "stilettos",
       "countability": "countable"
     },

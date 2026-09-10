@@ -141,14 +141,43 @@
       "term": "building",
       "ipa": "/ˈbɪldɪŋ/",
       "respell": "BIL-ding",
-      "meaning": "A structure with a roof and walls, such as a house or office block. ---",
+      "meaning": "Building has 2 distinct senses.",
       "examples": [
         "Our office is in the tall building across from the park.",
         "Half the buildings downtown are empty now.",
-        "You need a keycard to get into the building after six."
+        "You need a keycard to get into the building after six.",
+        "The building of the new bridge took four years.",
+        "Building has slowed since interest rates went up.",
+        "The city halted all building near the shoreline."
       ],
-      "senses": [],
-      "русский": "здание, постройка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A structure with a roof and walls, such as a house or office block",
+          "body": [
+            "(здание, постройка)"
+          ],
+          "examples": [
+            "Our office is in the tall building across from the park.",
+            "Half the buildings downtown are empty now.",
+            "You need a keycard to get into the building after six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work or process of constructing something",
+          "body": [
+            "(строительство, постройка (процесс))",
+            "---"
+          ],
+          "examples": [
+            "The building of the new bridge took four years.",
+            "Building has slowed since interest rates went up.",
+            "The city halted all building near the shoreline."
+          ]
+        }
+      ],
+      "русский": "здание, постройка; строительство, постройка (процесс)",
       "plural": "buildings",
       "countability": "countable"
     },
@@ -620,14 +649,43 @@
       "term": "corridor",
       "ipa": "/ˈkɔːrɪdər/",
       "respell": "KOR-ih-dur",
-      "meaning": "A long passage in a building with doors along it. ---",
+      "meaning": "Corridor has 2 distinct senses.",
       "examples": [
         "His office is at the end of the corridor.",
         "We got lost in the corridors of the hospital.",
-        "The corridor was lined with framed photographs."
+        "The corridor was lined with framed photographs.",
+        "Traffic along the I-95 corridor backs up every Friday.",
+        "The state is protecting a wildlife corridor between the two parks.",
+        "Rents have soared all along the tech corridor."
       ],
-      "senses": [],
-      "русский": "коридор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long passage in a building with doors along it",
+          "body": [
+            "(коридор)"
+          ],
+          "examples": [
+            "His office is at the end of the corridor.",
+            "We got lost in the corridors of the hospital.",
+            "The corridor was lined with framed photographs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long narrow strip of land or route that links two places",
+          "body": [
+            "(коридор (транспортный), полоса территории)",
+            "---"
+          ],
+          "examples": [
+            "Traffic along the I-95 corridor backs up every Friday.",
+            "The state is protecting a wildlife corridor between the two parks.",
+            "Rents have soared all along the tech corridor."
+          ]
+        }
+      ],
+      "русский": "коридор; коридор (транспортный), полоса территории",
       "plural": "corridors",
       "countability": "countable"
     },
@@ -1826,14 +1884,58 @@
       "term": "entrance",
       "ipa": "/ˈɛntrəns/",
       "respell": "EN-truhns",
-      "meaning": "The door or gate by which you go into a place. ---",
+      "meaning": "Entrance has 3 distinct senses.",
       "examples": [
         "Use the side entrance after nine.",
         "We'll meet you at the main entrance.",
-        "The building has entrances on two streets."
+        "The building has entrances on two streets.",
+        "She made a dramatic entrance in a red dress.",
+        "The actor missed his entrance in the second act.",
+        "His entrance stopped every conversation in the room.",
+        "Entrance to the museum is free on Sundays.",
+        "The guard refused us entrance without a badge.",
+        "She passed the entrance exam on her first try."
       ],
-      "senses": [],
-      "русский": "вход",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The door or gate by which you go into a place",
+          "body": [
+            "(вход)"
+          ],
+          "examples": [
+            "Use the side entrance after nine.",
+            "We'll meet you at the main entrance.",
+            "The building has entrances on two streets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of coming into a place, especially a noticeable one",
+          "body": [
+            "(появление, выход (на сцену))"
+          ],
+          "examples": [
+            "She made a dramatic entrance in a red dress.",
+            "The actor missed his entrance in the second act.",
+            "His entrance stopped every conversation in the room."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Permission or the right to go into a place or join an institution",
+          "body": [
+            "(право входа; поступление (в учебное заведение))",
+            "---"
+          ],
+          "examples": [
+            "Entrance to the museum is free on Sundays.",
+            "The guard refused us entrance without a badge.",
+            "She passed the entrance exam on her first try."
+          ]
+        }
+      ],
+      "русский": "вход; появление, выход (на сцену); право входа; поступление (в учебное заведение)",
       "plural": "entrances",
       "countability": "countable",
       "contrast": "The noun is EN-truhns; the unrelated verb entrance (to enchant) is en-TRANS."
@@ -2750,14 +2852,43 @@
       "term": "plumbing",
       "ipa": "/ˈplʌmɪŋ/",
       "respell": "PLUHM-ing",
-      "meaning": "The system of pipes and fixtures that carries water through a building. ---",
+      "meaning": "Plumbing has 2 distinct senses.",
       "examples": [
         "The plumbing in this place is a hundred years old.",
         "They had to redo all the plumbing before we moved in.",
-        "Something's wrong with the plumbing upstairs."
+        "Something's wrong with the plumbing upstairs.",
+        "He learned plumbing from his father.",
+        "She's taking classes in plumbing and electrical work.",
+        "Plumbing pays better than most people think."
       ],
-      "senses": [],
-      "русский": "водопровод, сантехника",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The system of pipes and fixtures that carries water through a building",
+          "body": [
+            "(водопровод, сантехника)"
+          ],
+          "examples": [
+            "The plumbing in this place is a hundred years old.",
+            "They had to redo all the plumbing before we moved in.",
+            "Something's wrong with the plumbing upstairs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work or trade of installing and repairing pipes and fixtures",
+          "body": [
+            "(сантехническое дело, профессия сантехника)",
+            "---"
+          ],
+          "examples": [
+            "He learned plumbing from his father.",
+            "She's taking classes in plumbing and electrical work.",
+            "Plumbing pays better than most people think."
+          ]
+        }
+      ],
+      "русский": "водопровод, сантехника; сантехническое дело, профессия сантехника",
       "countability": "uncountable",
       "contrast": "The b is silent: PLUHM-ing."
     },
@@ -2898,14 +3029,43 @@
       "term": "radiator",
       "ipa": "/ˈreɪdieɪtər/",
       "respell": "RAY-dee-ay-tur",
-      "meaning": "A metal heating unit that warms a room with hot water or steam. ---",
+      "meaning": "Radiator has 2 distinct senses.",
       "examples": [
         "The radiator clanks all night long.",
         "Don't put the couch right against the radiator.",
-        "Half the radiators in the building are cold."
+        "Half the radiators in the building are cold.",
+        "Steam poured out of the radiator, so we pulled over.",
+        "The mechanic found a slow leak in the radiator.",
+        "Older radiators need a mix of coolant and water."
       ],
-      "senses": [],
-      "русский": "батарея отопления, радиатор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A metal heating unit that warms a room with hot water or steam",
+          "body": [
+            "(батарея отопления, радиатор)"
+          ],
+          "examples": [
+            "The radiator clanks all night long.",
+            "Don't put the couch right against the radiator.",
+            "Half the radiators in the building are cold."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a vehicle's engine cooling system that lets heat escape",
+          "body": [
+            "(радиатор (автомобильный))",
+            "---"
+          ],
+          "examples": [
+            "Steam poured out of the radiator, so we pulled over.",
+            "The mechanic found a slow leak in the radiator.",
+            "Older radiators need a mix of coolant and water."
+          ]
+        }
+      ],
+      "русский": "батарея отопления, радиатор; радиатор (автомобильный)",
       "plural": "radiators",
       "countability": "countable",
       "contrast": "Stress falls on the first syllable — RAY-dee-ay-tur — not on the second as in Russian радиатор."
@@ -3539,28 +3699,86 @@
       "term": "architecture",
       "ipa": "/ˈɑːrkɪtɛktʃər/",
       "respell": "AR-kih-tek-chur",
-      "meaning": "The art and style of designing buildings. ---",
+      "meaning": "Architecture has 2 distinct senses.",
       "examples": [
         "She studied architecture for two years and switched to design.",
         "The architecture downtown is mostly nineteenth century.",
-        "I love the architecture in that part of the city."
+        "I love the architecture in that part of the city.",
+        "The chip uses a completely new architecture.",
+        "Their software architecture makes updates easy.",
+        "We had to redesign the system architecture from scratch."
       ],
-      "senses": [],
-      "русский": "архитектура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The art and style of designing buildings",
+          "body": [
+            "(архитектура)"
+          ],
+          "examples": [
+            "She studied architecture for two years and switched to design.",
+            "The architecture downtown is mostly nineteenth century.",
+            "I love the architecture in that part of the city."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The basic structure and design of a computer system or other complex system",
+          "body": [
+            "(архитектура (системы), структура)",
+            "---"
+          ],
+          "examples": [
+            "The chip uses a completely new architecture.",
+            "Their software architecture makes updates easy.",
+            "We had to redesign the system architecture from scratch."
+          ]
+        }
+      ],
+      "русский": "архитектура; архитектура (системы), структура",
       "countability": "uncountable"
     },
     {
       "term": "construction",
       "ipa": "/kənˈstrʌkʃən/",
       "respell": "kuhn-STRUHK-shuhn",
-      "meaning": "The work of building things such as houses and roads. ---",
+      "meaning": "Construction has 2 distinct senses.",
       "examples": [
         "The new wing is still under construction.",
         "He's worked in construction since high school.",
-        "Construction on the bridge starts in the spring."
+        "Construction on the bridge starts in the spring.",
+        "The passive construction makes the sentence sound stiff.",
+        "Spanish has a construction here that English simply lacks.",
+        "He keeps mixing up two similar constructions."
       ],
-      "senses": [],
-      "русский": "строительство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of building things such as houses and roads",
+          "body": [
+            "(строительство)"
+          ],
+          "examples": [
+            "The new wing is still under construction.",
+            "He's worked in construction since high school.",
+            "Construction on the bridge starts in the spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of words put together according to the rules of grammar",
+          "body": [
+            "(конструкция (грамматическая))",
+            "---"
+          ],
+          "examples": [
+            "The passive construction makes the sentence sound stiff.",
+            "Spanish has a construction here that English simply lacks.",
+            "He keeps mixing up two similar constructions."
+          ]
+        }
+      ],
+      "русский": "строительство; конструкция (грамматическая)",
       "countability": "uncountable"
     },
     {

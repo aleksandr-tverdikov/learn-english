@@ -166,14 +166,22 @@ Signal has 2 distinct senses.
 ### bandwidth
 
 **Pronunciation:** /ˈbændwɪdθ/ &middot; *BAND-width*
-**Русский:** пропускная способность
+**Русский:** пропускная способность; ресурс времени и сил, «пропускная способность» человека
 **Countability:** uncountable
 
-The amount of data a connection can carry in a given time.
+Bandwidth has 2 distinct senses.
+
+**1. The amount of data a connection can carry in a given time.** (пропускная способность)
 
 1. Streaming in 4K eats a lot of *bandwidth*.
 2. We don't have enough *bandwidth* for four people working from home.
 3. The video call is using most of our *bandwidth*.
+
+**2. The time and energy a person or team has available for something.** (ресурс времени и сил, «пропускная способность» человека)
+
+4. I don't have the *bandwidth* to take on another project this month.
+5. Her team is out of *bandwidth* until the audit is done.
+6. Do you have the *bandwidth* for a quick call this afternoon?
 
 ---
 
@@ -275,15 +283,23 @@ Link has 3 distinct senses.
 ### bookmark
 
 **Pronunciation:** /ˈbʊkmɑːrk/ &middot; *BUUK-mark*
-**Русский:** закладка
+**Русский:** закладка; закладка (в книге)
 **Plural:** *bookmarks*
 **Countability:** countable
 
-A saved link that lets you return to a page quickly.
+Bookmark has 2 distinct senses.
+
+**1. A saved link that lets you return to a page quickly.** (закладка)
 
 1. Save it as a *bookmark* so you don't lose it.
 2. My *bookmarks* are a complete mess.
 3. I have a *bookmark* for the company intranet.
+
+**2. A strip of paper, ribbon, or leather put between the pages of a book to mark your place.** (закладка (в книге))
+
+4. She slid a *bookmark* between the pages and set the novel down.
+5. He uses old receipts as *bookmarks*.
+6. The museum shop sells leather *bookmarks* stamped with its logo.
 
 ---
 
@@ -420,30 +436,46 @@ User has 2 distinct senses.
 ### follower
 
 **Pronunciation:** /ˈfɑːloʊər/ &middot; *FAH-loh-ur*
-**Русский:** подписчик (в соцсети)
+**Русский:** подписчик (в соцсети); последователь, сторонник
 **Plural:** *followers*
 **Countability:** countable
 
-Someone who has chosen to see another person's posts online.
+Follower has 2 distinct senses.
+
+**1. Someone who has chosen to see another person's posts online.** (подписчик (в соцсети))
 
 1. He gained ten thousand *followers* in a month.
 2. Most of her *followers* are from overseas.
 3. One *follower* pointed out the typo right away.
+
+**2. Someone who believes in and supports a leader, a religion, or a set of ideas.** (последователь, сторонник)
+
+4. The preacher and his *followers* marched to the courthouse.
+5. The movement's earliest *followers* met in a church basement.
+6. She is a devoted *follower* of the diet's founder.
 
 ---
 
 ### notification
 
 **Pronunciation:** /ˌnoʊtɪfɪˈkeɪʃən/ &middot; *noh-tuh-fuh-KAY-shun*
-**Русский:** уведомление
+**Русский:** уведомление; официальное уведомление, извещение
 **Plural:** *notifications*
 **Countability:** countable
 
-A short message a device shows to tell you something has happened.
+Notification has 2 distinct senses.
+
+**1. A short message a device shows to tell you something has happened.** (уведомление)
 
 1. I turned off *notifications* for that group chat.
 2. A *notification* popped up in the middle of my presentation.
 3. You'll get a *notification* when the package ships.
+
+**2. An official act of informing someone, or the notice that does it.** (официальное уведомление, извещение)
+
+4. You'll get written *notification* of the decision within ten days.
+5. The school sends *notification* to parents before any field trip.
+6. The bank gave no *notification* that the fee had gone up.
 
 ---
 
@@ -690,15 +722,23 @@ Version has 2 distinct senses.
 ### interface
 
 **Pronunciation:** /ˈɪntərfeɪs/ &middot; *IN-tur-fays*
-**Русский:** интерфейс
+**Русский:** интерфейс; точка соприкосновения, граница
 **Plural:** *interfaces*
 **Countability:** countable
 
-The part of a program you see and interact with.
+Interface has 2 distinct senses.
+
+**1. The part of a program you see and interact with.** (интерфейс)
 
 1. The *interface* is clean and easy to learn.
 2. Their *interfaces* look the same on the phone and the web.
 3. A confusing *interface* will cost you customers.
+
+**2. The point or area where two things meet and affect each other.** (точка соприкосновения, граница)
+
+4. Her research sits at the *interface* of medicine and law.
+5. Scientists study the *interface* between the ice and the ocean.
+6. The clinic works at the *interface* of housing and health care.
 
 ---
 
@@ -743,15 +783,29 @@ The moving mark on a screen that shows where you are typing or pointing.
 ### shortcut
 
 **Pronunciation:** /ˈʃɔːrtkʌt/ &middot; *SHORT-kut*
-**Русский:** сочетание клавиш; ярлык
+**Русский:** сочетание клавиш; ярлык; короткий путь, срезка; лёгкий путь, способ схитрить
 **Plural:** *shortcuts*
 **Countability:** countable
 
-A quick key combination or link that saves you steps.
+Shortcut has 3 distinct senses.
+
+**1. A quick key combination or link that saves you steps.** (сочетание клавиш; ярлык)
 
 1. There's a keyboard *shortcut* for that.
 2. He knows every *shortcut* in the program.
 3. I made a *shortcut* to the folder on my desktop.
+
+**2. A route that is shorter or quicker than the usual one.** (короткий путь, срезка)
+
+4. We took a *shortcut* through the parking lot.
+5. There's no *shortcut* to the lake; you have to follow the road around.
+6. He knows every *shortcut* in the city and still got us there late.
+
+**3. A quicker way of doing something that skips the usual steps, often at some cost.** (лёгкий путь, способ схитрить)
+
+7. There are no *shortcuts* to learning an instrument.
+8. The contractor took *shortcuts*, and the deck fell apart in two years.
+9. She wanted a *shortcut*, but the paperwork had to be done properly.
 
 ---
 
@@ -819,15 +873,23 @@ The way things are arranged on a page or screen.
 ### clipboard
 
 **Pronunciation:** /ˈklɪpbɔːrd/ &middot; *KLIP-bord*
-**Русский:** буфер обмена
+**Русский:** буфер обмена; планшет с зажимом (для бумаг)
 **Plural:** *clipboards*
 **Countability:** countable
 
-The temporary place a computer keeps whatever you last copied.
+Clipboard has 2 distinct senses.
+
+**1. The temporary place a computer keeps whatever you last copied.** (буфер обмена)
 
 1. The link is already on your *clipboard*.
 2. Phones and computers keep separate *clipboards*.
 3. Copying the password put it on the *clipboard*.
+
+**2. A stiff flat board with a clip at the top for holding papers while you write.** (планшет с зажимом (для бумаг))
+
+4. The nurse checked the chart on her *clipboard*.
+5. A man with a *clipboard* was taking everyone's name at the door.
+6. Two *clipboards* hung on a nail beside the shop door.
 
 ---
 
@@ -917,15 +979,35 @@ One of the tiny dots that make up a picture on a screen.
 ### resolution
 
 **Pronunciation:** /ˌrɛzəˈluːʃən/ &middot; *rez-uh-LOO-shun*
-**Русский:** разрешение (экрана)
+**Русский:** разрешение (экрана); твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); резолюция, постановление
 **Plural:** *resolutions*
 **Countability:** countable
 
-How much detail a screen or image holds, counted in pixels.
+Resolution has 4 distinct senses.
+
+**1. How much detail a screen or image holds, counted in pixels.** (разрешение (экрана))
 
 1. Shoot it at the highest *resolution* you can.
 2. The two monitors run at different *resolutions*.
 3. Low *resolution* looks awful on a big TV.
+
+**2. A firm decision to do or stop doing something.** (твёрдое решение, зарок (напр. новогодний))
+
+4. My New Year's *resolution* is to run three times a week.
+5. She made a *resolution* to call her parents every Sunday.
+6. Most *resolutions* are broken by February.
+
+**3. The solving or settling of a problem, argument, or difficult situation.** (разрешение (проблемы, конфликта))
+
+7. Both sides say they want a peaceful *resolution*.
+8. The case dragged on for years without *resolution*.
+9. The company pays for conflict *resolution* training.
+
+**4. A formal statement that a group votes on and adopts.** (резолюция, постановление)
+
+10. The city council passed a *resolution* honoring the firefighters.
+11. The U.N. *resolution* demanded an immediate ceasefire.
+12. Two *resolutions* failed by a single vote.
 
 ---
 
@@ -970,15 +1052,29 @@ The right to keep your personal information from being seen or shared.
 ### firewall
 
 **Pronunciation:** /ˈfaɪərwɔːl/ &middot; *FYRE-wawl*
-**Русский:** брандмауэр, файрвол
+**Русский:** брандмауэр, файрвол; противопожарная стена, перегородка; барьер, разделение (между подразделениями)
 **Plural:** *firewalls*
 **Countability:** countable
 
-Software or hardware that blocks unwanted traffic into a network.
+Firewall has 3 distinct senses.
+
+**1. Software or hardware that blocks unwanted traffic into a network.** (брандмауэр, файрвол)
 
 1. The *firewall* is blocking that port.
 2. Corporate *firewalls* won't let you reach the site.
 3. Turn the *firewall* back on when you're done testing.
+
+**2. A wall built to stop a fire from spreading, as between a garage and a house or between a car's engine and its cabin.** (противопожарная стена, перегородка)
+
+4. Code requires a *firewall* between the garage and the living space.
+5. The wiring runs through a rubber grommet in the *firewall*.
+6. The *firewall* kept the flames out of the second unit.
+
+**3. A barrier that keeps two parts of an organization separate so one cannot influence the other.** (барьер, разделение (между подразделениями))
+
+7. There is supposed to be a *firewall* between the newsroom and the ad department.
+8. The bank keeps a *firewall* between its research and trading desks.
+9. Critics say the *firewall* between the campaign and the outside group is a fiction.
 
 ---
 
@@ -1132,15 +1228,35 @@ A step-by-step method a computer follows to solve a problem.
 ### function
 
 **Pronunciation:** /ˈfʌŋkʃən/ &middot; *FUNK-shun*
-**Русский:** функция (в программировании)
+**Русский:** функция (в программировании); назначение, роль; мероприятие, приём; функция (математическая)
 **Plural:** *functions*
 **Countability:** countable
 
-A named block of code that does one job and can be reused.
+Function has 4 distinct senses.
+
+**1. A named block of code that does one job and can be reused.** (функция (в программировании))
 
 1. Pull that logic out into its own *function*.
 2. The file has about forty *functions* in it.
 3. The *function* returns an empty list if nothing matches.
+
+**2. The purpose something has or the job it is meant to do.** (назначение, роль)
+
+4. The building's original *function* was a grain store.
+5. Every part of the engine has a clear *function*.
+6. Sleep serves several *functions* in the body.
+
+**3. A formal or organized social event.** (мероприятие, приём)
+
+7. He had to wear a tie to a work *function*.
+8. The hotel hosts weddings and other *functions*.
+9. She skipped the department *function* to finish grading.
+
+**4. In mathematics, a rule that gives exactly one output for each input.** (функция (математическая))
+
+10. Graph the *function* and label the intercepts.
+11. Temperature is a *function* of altitude.
+12. The homework covers linear and quadratic *functions*.
 
 ---
 
@@ -1199,15 +1315,29 @@ A program that turns human-written code into something a machine can run.
 ### framework
 
 **Pronunciation:** /ˈfreɪmwɜːrk/ &middot; *FRAYM-wurk*
-**Русский:** фреймворк, каркас
+**Русский:** фреймворк, каркас; система принципов, концепция, рамки; каркас, остов
 **Plural:** *frameworks*
 **Countability:** countable
 
-A ready-made structure that programs are built on top of.
+Framework has 3 distinct senses.
+
+**1. A ready-made structure that programs are built on top of.** (фреймворк, каркас)
 
 1. They rebuilt the site on a modern *framework*.
 2. New *frameworks* come out every six months.
 3. The *framework* handles all the routing for you.
+
+**2. A set of ideas, rules, or principles used for planning and making decisions.** (система принципов, концепция, рамки)
+
+4. The two sides agreed on a *framework* for the talks.
+5. Her thesis borrows a *framework* from economics.
+6. The law provides a *framework* for handling complaints.
+
+**3. A supporting structure of bars, beams, or poles.** (каркас, остов)
+
+7. The steel *framework* of the tower went up in three weeks.
+8. Vines climbed a wooden *framework* along the fence.
+9. Workers welded the *framework* before adding the panels.
 
 ---
 
@@ -1913,30 +2043,46 @@ The box that connects your home network to your internet provider.
 ### cartridge
 
 **Pronunciation:** /ˈkɑːrtrɪdʒ/ &middot; *KAR-trij*
-**Русский:** картридж
+**Русский:** картридж; патрон
 **Plural:** *cartridges*
 **Countability:** countable
 
-A small container that slides into a machine, such as one holding printer ink.
+Cartridge has 2 distinct senses.
+
+**1. A small container that slides into a machine, such as one holding printer ink.** (картридж)
 
 1. The black *cartridge* is empty again.
 2. Replacement *cartridges* cost more than the printer did.
 3. Shake the *cartridge* before you put it in.
+
+**2. A tube holding a bullet and the powder that fires it.** (патрон)
+
+4. He loaded three *cartridges* into the rifle.
+5. Police found a spent *cartridge* on the driveway.
+6. The box holds fifty *cartridges*.
 
 ---
 
 ### controller
 
 **Pronunciation:** /kənˈtroʊlər/ &middot; *kun-TROH-lur*
-**Русский:** контроллер, геймпад
+**Русский:** контроллер, геймпад; диспетчер; финансовый контролёр
 **Plural:** *controllers*
 **Countability:** countable
 
-A handheld device used to control a game or machine.
+Controller has 2 distinct senses.
+
+**1. A handheld device used to control a game or machine.** (контроллер, геймпад)
 
 1. The *controller* needs new batteries.
 2. We only have two *controllers*, so somebody has to sit out.
 3. He threw the *controller* across the room.
+
+**2. A person whose job is to direct aircraft or traffic, or to oversee a company's accounts.** (диспетчер; финансовый контролёр)
+
+4. An air traffic *controller* talked the pilot down through the fog.
+5. The company's *controller* signs off on every invoice.
+6. *Controllers* in the tower work six-hour shifts.
 
 ---
 
@@ -2116,30 +2262,46 @@ A self-contained part that fits together with others to make a whole.
 ### installation
 
 **Pronunciation:** /ˌɪnstəˈleɪʃən/ &middot; *in-stuh-LAY-shun*
-**Русский:** установка
+**Русский:** установка; инсталляция (в искусстве)
 **Plural:** *installations*
 **Countability:** both — countable and uncountable with different meanings
 
-The act of putting equipment or software in place, or a system that has been put in place.
+Installation has 2 distinct senses.
+
+**1. The act of putting equipment or software in place, or a system that has been put in place.** (установка)
 
 1. *Installation* takes about ten minutes.
 2. They handle *installations* all over the state.
 3. The *installation* failed halfway through.
+
+**2. A large piece of modern art built for a particular space.** (инсталляция (в искусстве))
+
+4. The museum's new *installation* fills the entire lobby.
+5. Her *installation* uses mirrors and recorded voices.
+6. We spent an hour walking through the light *installations*.
 
 ---
 
 ### maintenance
 
 **Pronunciation:** /ˈmeɪntənəns/ &middot; *MAYN-tuh-nuns*
-**Русский:** обслуживание, техобслуживание
+**Русский:** обслуживание, техобслуживание; поддержание (состояния, порядка, уровня)
 **Countability:** uncountable
 **Contrast:** Spelled *maintenance*, not "maintainance" — the verb *maintain* loses its *ai* in the noun.
 
-The work of keeping equipment in good working order.
+Maintenance has 2 distinct senses.
+
+**1. The work of keeping equipment in good working order.** (обслуживание, техобслуживание)
 
 1. The site is down for scheduled *maintenance*.
 2. Regular *maintenance* keeps the machines running.
 3. *Maintenance* costs more than we budgeted.
+
+**2. The act of keeping something going or holding it at a certain level.** (поддержание (состояния, порядка, уровня))
+
+4. The treaty is about the *maintenance* of peace along the border.
+5. Losing the weight was easy; *maintenance* is the hard part.
+6. The city is responsible for the *maintenance* of order during the parade.
 
 ---
 

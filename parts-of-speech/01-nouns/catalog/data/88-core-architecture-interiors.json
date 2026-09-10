@@ -1379,14 +1379,43 @@
       "term": "interior",
       "ipa": "/ɪnˈtɪriər/",
       "respell": "in-TEER-ee-ur",
-      "meaning": "The inside of a building or a vehicle. ---",
+      "meaning": "Interior has 2 distinct senses.",
       "examples": [
         "The interior of the church is plain white.",
         "They gutted the interior and started over.",
-        "The interiors in that magazine are all beige."
+        "The interiors in that magazine are all beige.",
+        "Most of the state's wheat is grown in the interior.",
+        "Small planes fly supplies into the interior.",
+        "Roads in the interior are mostly gravel."
       ],
-      "senses": [],
-      "русский": "интерьер, внутреннее пространство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The inside of a building or a vehicle",
+          "body": [
+            "(интерьер, внутреннее пространство)"
+          ],
+          "examples": [
+            "The interior of the church is plain white.",
+            "They gutted the interior and started over.",
+            "The interiors in that magazine are all beige."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The inland part of a country or region, away from the coast",
+          "body": [
+            "(внутренние районы страны, глубинка)",
+            "---"
+          ],
+          "examples": [
+            "Most of the state's wheat is grown in the interior.",
+            "Small planes fly supplies into the interior.",
+            "Roads in the interior are mostly gravel."
+          ]
+        }
+      ],
+      "русский": "интерьер, внутреннее пространство; внутренние районы страны, глубинка",
       "plural": "interiors",
       "countability": "countable"
     },
@@ -2061,14 +2090,43 @@
       "term": "keystone",
       "ipa": "/ˈkiːstoʊn/",
       "respell": "KEE-stohn",
-      "meaning": "The wedge-shaped stone at the top of an arch that locks the others in place. ---",
+      "meaning": "Keystone has 2 distinct senses.",
       "examples": [
         "The keystone is carved with a lion's head.",
         "Pull out the keystone and the arch collapses.",
-        "Each window has a painted keystone above it."
+        "Each window has a painted keystone above it.",
+        "Trust is the keystone of any partnership.",
+        "The tax credit was the keystone of the whole plan.",
+        "Reading is the keystone of the early curriculum."
       ],
-      "senses": [],
-      "русский": "замковый камень (в арке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The wedge-shaped stone at the top of an arch that locks the others in place",
+          "body": [
+            "(замковый камень (в арке))"
+          ],
+          "examples": [
+            "The keystone is carved with a lion's head.",
+            "Pull out the keystone and the arch collapses.",
+            "Each window has a painted keystone above it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of something that everything else depends on",
+          "body": [
+            "(краеугольный камень, основа)",
+            "---"
+          ],
+          "examples": [
+            "Trust is the keystone of any partnership.",
+            "The tax credit was the keystone of the whole plan.",
+            "Reading is the keystone of the early curriculum."
+          ]
+        }
+      ],
+      "русский": "замковый камень (в арке); краеугольный камень, основа",
       "plural": "keystones",
       "countability": "countable"
     },

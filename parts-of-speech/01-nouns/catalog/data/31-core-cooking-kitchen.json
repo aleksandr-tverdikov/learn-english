@@ -100,14 +100,43 @@
       "term": "microwave",
       "ipa": "/ˈmaɪkrəweɪv/",
       "respell": "MY-kruh-wayv",
-      "meaning": "An oven that heats food quickly with microwave radiation. ---",
+      "meaning": "Microwave has 2 distinct senses.",
       "examples": [
         "Heat it in the microwave for two minutes.",
         "Don't put anything metal in the microwave.",
-        "The dorm kitchen has two microwaves and one sink."
+        "The dorm kitchen has two microwaves and one sink.",
+        "The station relays the broadcast by microwave.",
+        "Microwaves heat food by shaking the water in it.",
+        "Radar works by bouncing microwaves off distant objects."
       ],
-      "senses": [],
-      "русский": "микроволновая печь, микроволновка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An oven that heats food quickly with microwave radiation",
+          "body": [
+            "(микроволновая печь, микроволновка)"
+          ],
+          "examples": [
+            "Heat it in the microwave for two minutes.",
+            "Don't put anything metal in the microwave.",
+            "The dorm kitchen has two microwaves and one sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very short radio wave, used to carry signals and to heat food",
+          "body": [
+            "(микроволна, СВЧ-излучение)",
+            "---"
+          ],
+          "examples": [
+            "The station relays the broadcast by microwave.",
+            "Microwaves heat food by shaking the water in it.",
+            "Radar works by bouncing microwaves off distant objects."
+          ]
+        }
+      ],
+      "русский": "микроволновая печь, микроволновка; микроволна, СВЧ-излучение",
       "plural": "microwaves",
       "countability": "countable"
     },
@@ -115,14 +144,43 @@
       "term": "dishwasher",
       "ipa": "/ˈdɪʃwɑːʃər/",
       "respell": "DISH-wah-shur",
-      "meaning": "A machine that washes dishes automatically. ---",
+      "meaning": "Dishwasher has 2 distinct senses.",
       "examples": [
         "Can you load the dishwasher before you leave?",
         "The dishwasher is making that noise again.",
-        "Older apartments here don't come with dishwashers."
+        "Older apartments here don't come with dishwashers.",
+        "He started as a dishwasher and worked his way up to line cook.",
+        "The diner is hiring a dishwasher for the night shift.",
+        "Two dishwashers quit the same week."
       ],
-      "senses": [],
-      "русский": "посудомоечная машина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that washes dishes automatically",
+          "body": [
+            "(посудомоечная машина)"
+          ],
+          "examples": [
+            "Can you load the dishwasher before you leave?",
+            "The dishwasher is making that noise again.",
+            "Older apartments here don't come with dishwashers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A restaurant worker whose job is washing dishes",
+          "body": [
+            "(посудомойщик)",
+            "---"
+          ],
+          "examples": [
+            "He started as a dishwasher and worked his way up to line cook.",
+            "The diner is hiring a dishwasher for the night shift.",
+            "Two dishwashers quit the same week."
+          ]
+        }
+      ],
+      "русский": "посудомоечная машина; посудомойщик",
       "plural": "dishwashers",
       "countability": "countable"
     },
@@ -1640,14 +1698,58 @@
       "term": "dressing",
       "ipa": "/ˈdrɛsɪŋ/",
       "respell": "DREH-sing",
-      "meaning": "A sauce of oil and vinegar or cream poured over salad. ---",
+      "meaning": "Dressing has 3 distinct senses.",
       "examples": [
         "What kind of dressing do you want on your salad?",
         "Toss the greens with the dressing right before you serve it.",
-        "The house dressings are all made from scratch."
+        "The house dressings are all made from scratch.",
+        "The nurse changed the dressing on his leg twice a day.",
+        "Keep the dressing dry until Friday.",
+        "She packed gauze and sterile dressings in the first-aid kit.",
+        "Grandma makes cornbread dressing every Thanksgiving.",
+        "Save room for the turkey and dressing.",
+        "In our family the dressing is baked in a pan, not in the bird."
       ],
-      "senses": [],
-      "русский": "заправка для салата",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sauce of oil and vinegar or cream poured over salad",
+          "body": [
+            "(заправка для салата)"
+          ],
+          "examples": [
+            "What kind of dressing do you want on your salad?",
+            "Toss the greens with the dressing right before you serve it.",
+            "The house dressings are all made from scratch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bandage or pad placed over a wound",
+          "body": [
+            "(повязка (на рану))"
+          ],
+          "examples": [
+            "The nurse changed the dressing on his leg twice a day.",
+            "Keep the dressing dry until Friday.",
+            "She packed gauze and sterile dressings in the first-aid kit."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A seasoned bread mixture baked in a pan and served with turkey",
+          "body": [
+            "(хлебная начинка к индейке (запечённая отдельно))",
+            "---"
+          ],
+          "examples": [
+            "Grandma makes cornbread dressing every Thanksgiving.",
+            "Save room for the turkey and dressing.",
+            "In our family the dressing is baked in a pan, not in the bird."
+          ]
+        }
+      ],
+      "русский": "заправка для салата; повязка (на рану); хлебная начинка к индейке (запечённая отдельно)",
       "plural": "dressings",
       "countability": "countable, and uncountable as food"
     },

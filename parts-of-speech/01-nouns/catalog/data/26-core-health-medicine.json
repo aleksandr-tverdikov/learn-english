@@ -198,14 +198,43 @@
       "term": "headache",
       "ipa": "/ˈhɛdeɪk/",
       "respell": "HED-ayk",
-      "meaning": "A pain in the head. ---",
+      "meaning": "Headache has 2 distinct senses.",
       "examples": [
         "I have got a splitting headache.",
         "Skipping coffee gives me a headache by noon.",
-        "Her headaches got better once she started sleeping more."
+        "Her headaches got better once she started sleeping more.",
+        "The new billing system has been a headache from day one.",
+        "Parking downtown is a real headache.",
+        "Merging the two databases created headaches nobody predicted."
       ],
-      "senses": [],
-      "русский": "головная боль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pain in the head",
+          "body": [
+            "(головная боль)"
+          ],
+          "examples": [
+            "I have got a splitting headache.",
+            "Skipping coffee gives me a headache by noon.",
+            "Her headaches got better once she started sleeping more."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that causes a lot of trouble or annoyance",
+          "body": [
+            "(головная боль (источник проблем))",
+            "---"
+          ],
+          "examples": [
+            "The new billing system has been a headache from day one.",
+            "Parking downtown is a real headache.",
+            "Merging the two databases created headaches nobody predicted."
+          ]
+        }
+      ],
+      "русский": "головная боль; головная боль (источник проблем)",
       "plural": "headaches",
       "countability": "countable",
       "contrast": "The -ache ending is /eɪk/, never /eɪtʃ/ — HED-ayk."
@@ -513,14 +542,58 @@
       "term": "fracture",
       "ipa": "/ˈfræktʃər/",
       "respell": "FRAK-chur",
-      "meaning": "A crack or break in a bone. ---",
+      "meaning": "Fracture has 3 distinct senses.",
       "examples": [
         "The X-ray showed a hairline fracture.",
         "She has a fracture in her left wrist.",
-        "Stress fractures are common among runners."
+        "Stress fractures are common among runners.",
+        "Rainwater works its way into every fracture in the limestone.",
+        "Geologists mapped the fractures along the canyon wall.",
+        "Gas escapes through fractures deep underground.",
+        "The vote exposed a deep fracture within the party.",
+        "The strike left a fracture between management and the crew.",
+        "Old fractures in the family reopened at the funeral."
       ],
-      "senses": [],
-      "русский": "перелом, трещина в кости",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A crack or break in a bone",
+          "body": [
+            "(перелом, трещина в кости)"
+          ],
+          "examples": [
+            "The X-ray showed a hairline fracture.",
+            "She has a fracture in her left wrist.",
+            "Stress fractures are common among runners."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A crack or split in rock or in the earth's crust",
+          "body": [
+            "(трещина (в породе))"
+          ],
+          "examples": [
+            "Rainwater works its way into every fracture in the limestone.",
+            "Geologists mapped the fractures along the canyon wall.",
+            "Gas escapes through fractures deep underground."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A serious split in a group, a party, or a relationship",
+          "body": [
+            "(раскол, разрыв)",
+            "---"
+          ],
+          "examples": [
+            "The vote exposed a deep fracture within the party.",
+            "The strike left a fracture between management and the crew.",
+            "Old fractures in the family reopened at the funeral."
+          ]
+        }
+      ],
+      "русский": "перелом, трещина в кости; трещина (в породе); раскол, разрыв",
       "plural": "fractures",
       "countability": "countable"
     },
@@ -734,14 +807,73 @@
       "term": "depression",
       "ipa": "/dɪˈprɛʃən/",
       "respell": "dih-PRESH-uhn",
-      "meaning": "A mental illness marked by lasting sadness and loss of interest. ---",
+      "meaning": "Depression has 4 distinct senses.",
       "examples": [
         "She has been in therapy for depression since college.",
         "Depression is not the same thing as a bad week.",
-        "Exercise helps his depression more than anything else."
+        "Exercise helps his depression more than anything else.",
+        "My grandmother grew up during the depression and never wasted food.",
+        "Economists argued over whether the slump was a recession or a depression.",
+        "The depression of the 1930s left a quarter of workers without jobs.",
+        "Rainwater collected in a shallow depression in the yard.",
+        "There was a depression in the mattress where he always slept.",
+        "The map shows a wide depression between the two ridges.",
+        "The storm weakened into a tropical depression before it reached land.",
+        "Forecasters are watching a depression forming off the coast.",
+        "The depression is expected to strengthen into a hurricane by Friday."
       ],
-      "senses": [],
-      "русский": "депрессия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mental illness marked by lasting sadness and loss of interest",
+          "body": [
+            "(депрессия)"
+          ],
+          "examples": [
+            "She has been in therapy for depression since college.",
+            "Depression is not the same thing as a bad week.",
+            "Exercise helps his depression more than anything else."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long period when an economy is very weak and many people are out of work",
+          "body": [
+            "(экономический кризис, депрессия (в экономике))"
+          ],
+          "examples": [
+            "My grandmother grew up during the depression and never wasted food.",
+            "Economists argued over whether the slump was a recession or a depression.",
+            "The depression of the 1930s left a quarter of workers without jobs."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A hollow or sunken place in a surface",
+          "body": [
+            "(впадина, углубление)"
+          ],
+          "examples": [
+            "Rainwater collected in a shallow depression in the yard.",
+            "There was a depression in the mattress where he always slept.",
+            "The map shows a wide depression between the two ridges."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An area of low air pressure that brings unsettled weather, especially the early stage of a tropical storm",
+          "body": [
+            "(область низкого давления; тропическая депрессия)",
+            "---"
+          ],
+          "examples": [
+            "The storm weakened into a tropical depression before it reached land.",
+            "Forecasters are watching a depression forming off the coast.",
+            "The depression is expected to strengthen into a hurricane by Friday."
+          ]
+        }
+      ],
+      "русский": "депрессия; экономический кризис, депрессия (в экономике); впадина, углубление; область низкого давления; тропическая депрессия",
       "countability": "uncountable"
     },
     {
@@ -913,14 +1045,43 @@
       "term": "epidemic",
       "ipa": "/ˌɛpɪˈdɛmɪk/",
       "respell": "ep-ih-DEM-ik",
-      "meaning": "A fast spread of a disease through many people in one area. ---",
+      "meaning": "Epidemic has 2 distinct senses.",
       "examples": [
         "The city is dealing with an opioid epidemic.",
         "A measles epidemic closed two schools.",
-        "Public health workers track epidemics in real time."
+        "Public health workers track epidemics in real time.",
+        "The city is dealing with an epidemic of car break-ins.",
+        "Doctors now call teen loneliness an epidemic.",
+        "There's an epidemic of fake reviews on shopping sites."
       ],
-      "senses": [],
-      "русский": "эпидемия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fast spread of a disease through many people in one area",
+          "body": [
+            "(эпидемия)"
+          ],
+          "examples": [
+            "The city is dealing with an opioid epidemic.",
+            "A measles epidemic closed two schools.",
+            "Public health workers track epidemics in real time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden, widespread outbreak of something harmful other than disease",
+          "body": [
+            "(эпидемия (перен.), волна (чего-л. дурного))",
+            "---"
+          ],
+          "examples": [
+            "The city is dealing with an epidemic of car break-ins.",
+            "Doctors now call teen loneliness an epidemic.",
+            "There's an epidemic of fake reviews on shopping sites."
+          ]
+        }
+      ],
+      "русский": "эпидемия; эпидемия (перен.), волна (чего-л. дурного)",
       "plural": "epidemics",
       "countability": "countable"
     },
@@ -1419,14 +1580,73 @@
       "term": "operation",
       "ipa": "/ˌɑːpəˈreɪʃən/",
       "respell": "ah-puh-RAY-shuhn",
-      "meaning": "A single act of surgery on a patient. ---",
+      "meaning": "Operation has 4 distinct senses.",
       "examples": [
         "The operation lasted four hours.",
         "He has had two operations on the same knee.",
-        "It is a routine operation these days."
+        "It is a routine operation these days.",
+        "The rescue operation went on all through the night.",
+        "Federal agents ran a year-long operation against the gang.",
+        "Operations along the border have been scaled back.",
+        "They run a small farming operation outside of Boise.",
+        "The whole operation employs about forty people.",
+        "Police shut down an illegal gambling operation downtown.",
+        "The manual explains the safe operation of the saw.",
+        "The new rules come into operation in January.",
+        "Quiet operation is the main selling point of this dishwasher."
       ],
-      "senses": [],
-      "русский": "операция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single act of surgery on a patient",
+          "body": [
+            "(операция)"
+          ],
+          "examples": [
+            "The operation lasted four hours.",
+            "He has had two operations on the same knee.",
+            "It is a routine operation these days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A planned action carried out by soldiers, police, or rescue workers",
+          "body": [
+            "(операция (военная, полицейская, спасательная))"
+          ],
+          "examples": [
+            "The rescue operation went on all through the night.",
+            "Federal agents ran a year-long operation against the gang.",
+            "Operations along the border have been scaled back."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A business or organized activity, or the place where it is run",
+          "body": [
+            "(предприятие, дело)"
+          ],
+          "examples": [
+            "They run a small farming operation outside of Boise.",
+            "The whole operation employs about forty people.",
+            "Police shut down an illegal gambling operation downtown."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The working of a machine, system, or law, or the fact that it is working",
+          "body": [
+            "(работа, функционирование, действие)",
+            "---"
+          ],
+          "examples": [
+            "The manual explains the safe operation of the saw.",
+            "The new rules come into operation in January.",
+            "Quiet operation is the main selling point of this dishwasher."
+          ]
+        }
+      ],
+      "русский": "операция; операция (военная, полицейская, спасательная); предприятие, дело; работа, функционирование, действие",
       "plural": "operations",
       "countability": "countable"
     },
@@ -1434,14 +1654,43 @@
       "term": "injection",
       "ipa": "/ɪnˈdʒɛkʃən/",
       "respell": "in-JEK-shuhn",
-      "meaning": "Medicine put into the body with a needle. ---",
+      "meaning": "Injection has 2 distinct senses.",
       "examples": [
         "The injection stung for a second.",
         "She gives herself injections twice a day.",
-        "One injection every three months keeps it under control."
+        "One injection every three months keeps it under control.",
+        "The startup survived on a last-minute injection of cash.",
+        "The transit system needs a major injection of federal money.",
+        "Two capital injections kept the airline flying."
       ],
-      "senses": [],
-      "русский": "укол, инъекция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Medicine put into the body with a needle",
+          "body": [
+            "(укол, инъекция)"
+          ],
+          "examples": [
+            "The injection stung for a second.",
+            "She gives herself injections twice a day.",
+            "One injection every three months keeps it under control."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden addition of money into a business, a project, or an economy",
+          "body": [
+            "(вливание (денежных средств))",
+            "---"
+          ],
+          "examples": [
+            "The startup survived on a last-minute injection of cash.",
+            "The transit system needs a major injection of federal money.",
+            "Two capital injections kept the airline flying."
+          ]
+        }
+      ],
+      "русский": "укол, инъекция; вливание (денежных средств)",
       "plural": "injections",
       "countability": "countable"
     },
@@ -1675,14 +1924,43 @@
       "term": "recovery",
       "ipa": "/rɪˈkʌvəri/",
       "respell": "rih-KUV-uh-ree",
-      "meaning": "The process of getting well again after illness or injury. ---",
+      "meaning": "Recovery has 2 distinct senses.",
       "examples": [
         "She made a full recovery.",
         "Recovery from the surgery takes about a month.",
-        "The doctors called it one of the fastest recoveries they had seen."
+        "The doctors called it one of the fastest recoveries they had seen.",
+        "The recovery of the stolen paintings took years.",
+        "Divers helped with the recovery of the wreckage.",
+        "He paid a shop for data recovery after the drive failed."
       ],
-      "senses": [],
-      "русский": "выздоровление, восстановление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of getting well again after illness or injury",
+          "body": [
+            "(выздоровление, восстановление)"
+          ],
+          "examples": [
+            "She made a full recovery.",
+            "Recovery from the surgery takes about a month.",
+            "The doctors called it one of the fastest recoveries they had seen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The getting back of something that was lost, stolen, or damaged",
+          "body": [
+            "(возвращение, извлечение (утраченного))",
+            "---"
+          ],
+          "examples": [
+            "The recovery of the stolen paintings took years.",
+            "Divers helped with the recovery of the wreckage.",
+            "He paid a shop for data recovery after the drive failed."
+          ]
+        }
+      ],
+      "русский": "выздоровление, восстановление; возвращение, извлечение (утраченного)",
       "plural": "recoveries",
       "countability": "countable"
     },
@@ -1764,14 +2042,43 @@
       "term": "appointment",
       "ipa": "/əˈpɔɪntmənt/",
       "respell": "uh-POYNT-muhnt",
-      "meaning": "An arranged time to see a doctor or other professional. ---",
+      "meaning": "Appointment has 2 distinct senses.",
       "examples": [
         "I have a doctor's appointment at ten.",
         "Can I move my appointment to Friday?",
-        "She had three appointments in one week."
+        "She had three appointments in one week.",
+        "Her appointment as chief of staff was announced Friday.",
+        "A federal judge's appointment is for life.",
+        "Several political appointments are still awaiting confirmation."
       ],
-      "senses": [],
-      "русский": "приём у врача, запись",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arranged time to see a doctor or other professional",
+          "body": [
+            "(приём у врача, запись)"
+          ],
+          "examples": [
+            "I have a doctor's appointment at ten.",
+            "Can I move my appointment to Friday?",
+            "She had three appointments in one week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of choosing someone for a job or position, or the position itself",
+          "body": [
+            "(назначение (на должность))",
+            "---"
+          ],
+          "examples": [
+            "Her appointment as chief of staff was announced Friday.",
+            "A federal judge's appointment is for life.",
+            "Several political appointments are still awaiting confirmation."
+          ]
+        }
+      ],
+      "русский": "приём у врача, запись; назначение (на должность)",
       "plural": "appointments",
       "countability": "countable"
     },
@@ -1914,14 +2221,43 @@
       "term": "supplement",
       "ipa": "/ˈsʌpləmənt/",
       "respell": "SUP-luh-muhnt",
-      "meaning": "A pill or powder taken to add nutrients to the diet. ---",
+      "meaning": "Supplement has 2 distinct senses.",
       "examples": [
         "He takes an iron supplement.",
         "Most supplements are not tested the way drugs are.",
-        "Ask your doctor before starting a new supplement."
+        "Ask your doctor before starting a new supplement.",
+        "The Sunday paper comes with a travel supplement.",
+        "The new findings were published as a supplement to the original study.",
+        "She kept the crossword supplement and threw the rest away."
       ],
-      "senses": [],
-      "русский": "пищевая добавка, БАД",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pill or powder taken to add nutrients to the diet",
+          "body": [
+            "(пищевая добавка, БАД)"
+          ],
+          "examples": [
+            "He takes an iron supplement.",
+            "Most supplements are not tested the way drugs are.",
+            "Ask your doctor before starting a new supplement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An extra section added to a book, a newspaper, or a report",
+          "body": [
+            "(приложение, вкладка (к изданию))",
+            "---"
+          ],
+          "examples": [
+            "The Sunday paper comes with a travel supplement.",
+            "The new findings were published as a supplement to the original study.",
+            "She kept the crossword supplement and threw the rest away."
+          ]
+        }
+      ],
+      "русский": "пищевая добавка, БАД; приложение, вкладка (к изданию)",
       "plural": "supplements",
       "countability": "countable"
     },
@@ -2076,14 +2412,43 @@
       "term": "pharmacy",
       "ipa": "/ˈfɑːrməsi/",
       "respell": "FAHR-muh-see",
-      "meaning": "A place where medicines are prepared and sold. ---",
+      "meaning": "Pharmacy has 2 distinct senses.",
       "examples": [
         "The pharmacy closes at nine.",
         "I will swing by the pharmacy on my way home.",
-        "Most pharmacies give flu shots now."
+        "Most pharmacies give flu shots now.",
+        "She studied pharmacy at the state university.",
+        "He has a doctorate in pharmacy.",
+        "Pharmacy is a six-year program at that school."
       ],
-      "senses": [],
-      "русский": "аптека",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where medicines are prepared and sold",
+          "body": [
+            "(аптека)"
+          ],
+          "examples": [
+            "The pharmacy closes at nine.",
+            "I will swing by the pharmacy on my way home.",
+            "Most pharmacies give flu shots now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The science and profession of preparing and dispensing medicines",
+          "body": [
+            "(фармация (наука, профессия))",
+            "---"
+          ],
+          "examples": [
+            "She studied pharmacy at the state university.",
+            "He has a doctorate in pharmacy.",
+            "Pharmacy is a six-year program at that school."
+          ]
+        }
+      ],
+      "русский": "аптека; фармация (наука, профессия)",
       "plural": "pharmacies",
       "countability": "countable"
     },
@@ -2353,14 +2718,43 @@
       "term": "insurance",
       "ipa": "/ɪnˈʃʊrəns/",
       "respell": "in-SHOOR-uhns",
-      "meaning": "An arrangement in which a company pays part of your medical costs. ---",
+      "meaning": "Insurance has 2 distinct senses.",
       "examples": [
         "Does your insurance cover physical therapy?",
         "He lost his health insurance when the job ended.",
-        "Bring your insurance card to the appointment."
+        "Bring your insurance card to the appointment.",
+        "I packed a second flashlight as insurance.",
+        "He saved the emails as insurance in case anyone denied it.",
+        "Three months' pay in the bank is cheap insurance against a layoff."
       ],
-      "senses": [],
-      "русский": "страховка, страхование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arrangement in which a company pays part of your medical costs",
+          "body": [
+            "(страховка, страхование)"
+          ],
+          "examples": [
+            "Does your insurance cover physical therapy?",
+            "He lost his health insurance when the job ended.",
+            "Bring your insurance card to the appointment."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something you do or keep as protection in case things go wrong",
+          "body": [
+            "(подстраховка, гарантия (перен.))",
+            "---"
+          ],
+          "examples": [
+            "I packed a second flashlight as insurance.",
+            "He saved the emails as insurance in case anyone denied it.",
+            "Three months' pay in the bank is cheap insurance against a layoff."
+          ]
+        }
+      ],
+      "русский": "страховка, страхование; подстраховка, гарантия (перен.)",
       "countability": "uncountable",
       "contrast": "Uncountable — say I have insurance, never an insurance."
     },
@@ -2799,14 +3193,42 @@
       "term": "immunity",
       "ipa": "/ɪˈmjuːnəti/",
       "respell": "ih-MYOO-nuh-tee",
-      "meaning": "The body's ability to resist a particular disease.",
+      "meaning": "Immunity has 2 distinct senses.",
       "examples": [
         "The shot gives you immunity for about a year.",
         "Immunity fades over time.",
-        "Kids build immunity by getting sick a lot."
+        "Kids build immunity by getting sick a lot.",
+        "The witness testified only after prosecutors granted him immunity.",
+        "The driver claimed diplomatic immunity and was never charged.",
+        "The law gives police officers broad immunity from such lawsuits."
       ],
-      "senses": [],
-      "русский": "иммунитет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The body's ability to resist a particular disease",
+          "body": [
+            "(иммунитет)"
+          ],
+          "examples": [
+            "The shot gives you immunity for about a year.",
+            "Immunity fades over time.",
+            "Kids build immunity by getting sick a lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Legal protection that keeps someone from being prosecuted or punished",
+          "body": [
+            "(неприкосновенность, освобождение от ответственности)"
+          ],
+          "examples": [
+            "The witness testified only after prosecutors granted him immunity.",
+            "The driver claimed diplomatic immunity and was never charged.",
+            "The law gives police officers broad immunity from such lawsuits."
+          ]
+        }
+      ],
+      "русский": "иммунитет; неприкосновенность, освобождение от ответственности",
       "countability": "uncountable"
     }
   ]

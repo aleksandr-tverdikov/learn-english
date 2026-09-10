@@ -510,14 +510,43 @@
       "term": "acceptance",
       "ipa": "/əkˈsɛptəns/",
       "respell": "uhk-SEP-tuhns",
-      "meaning": "The act of agreeing to take something, or of coming to terms with a fact. ---",
+      "meaning": "Acceptance has 2 distinct senses.",
       "examples": [
         "Her acceptance letter came in March.",
         "Acceptance of the new rules took about a year.",
-        "He reached a kind of quiet acceptance after the diagnosis."
+        "He reached a kind of quiet acceptance after the diagnosis.",
+        "The new kid slowly won acceptance from his classmates.",
+        "The idea has gained wide acceptance among doctors.",
+        "All he wanted was acceptance from the people he grew up with."
       ],
-      "senses": [],
-      "русский": "принятие; согласие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of agreeing to take something, or of coming to terms with a fact",
+          "body": [
+            "(принятие; согласие)"
+          ],
+          "examples": [
+            "Her acceptance letter came in March.",
+            "Acceptance of the new rules took about a year.",
+            "He reached a kind of quiet acceptance after the diagnosis."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Approval or welcome from other people",
+          "body": [
+            "(признание, принятие (окружающими))",
+            "---"
+          ],
+          "examples": [
+            "The new kid slowly won acceptance from his classmates.",
+            "The idea has gained wide acceptance among doctors.",
+            "All he wanted was acceptance from the people he grew up with."
+          ]
+        }
+      ],
+      "русский": "принятие; согласие; признание, принятие (окружающими)",
       "countability": "uncountable"
     },
     {
@@ -671,14 +700,43 @@
       "term": "acrobatics",
       "ipa": "/ˌækrəˈbætɪks/",
       "respell": "ak-ruh-BAT-iks",
-      "meaning": "Difficult jumps, flips, and balancing performed as a skill. ---",
+      "meaning": "Acrobatics has 2 distinct senses.",
       "examples": [
         "The show mixes dance with acrobatics.",
         "Her acrobatics on the balance beam brought the crowd to its feet.",
-        "It took some verbal acrobatics to explain the delay."
+        "It took some verbal acrobatics to explain the delay.",
+        "It took real verbal acrobatics to avoid answering the question.",
+        "The budget balances only after some accounting acrobatics.",
+        "No amount of legal acrobatics will make that contract valid."
       ],
-      "senses": [],
-      "русский": "акробатика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Difficult jumps, flips, and balancing performed as a skill",
+          "body": [
+            "(акробатика)"
+          ],
+          "examples": [
+            "The show mixes dance with acrobatics.",
+            "Her acrobatics on the balance beam brought the crowd to its feet.",
+            "It took some verbal acrobatics to explain the delay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Clever, complicated maneuvering with words, numbers, or ideas",
+          "body": [
+            "(словесная (умственная) эквилибристика)",
+            "---"
+          ],
+          "examples": [
+            "It took real verbal acrobatics to avoid answering the question.",
+            "The budget balances only after some accounting acrobatics.",
+            "No amount of legal acrobatics will make that contract valid."
+          ]
+        }
+      ],
+      "русский": "акробатика; словесная (умственная) эквилибристика",
       "countability": "uncountable"
     },
     {
@@ -2868,14 +2926,43 @@
       "term": "animation",
       "ipa": "/ˌænɪˈmeɪʃən/",
       "respell": "an-ih-MAY-shuhn",
-      "meaning": "The technique of making drawings or models appear to move on screen. ---",
+      "meaning": "Animation has 2 distinct senses.",
       "examples": [
         "The animation in that film took four years to finish.",
         "He studied animation at art school.",
-        "Hand-drawn animation is rare these days."
+        "Hand-drawn animation is rare these days.",
+        "She described the trip with great animation.",
+        "His face lit up with animation when we mentioned fishing.",
+        "He talks about his grandchildren with unusual animation."
       ],
-      "senses": [],
-      "русский": "анимация, мультипликация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The technique of making drawings or models appear to move on screen",
+          "body": [
+            "(анимация, мультипликация)"
+          ],
+          "examples": [
+            "The animation in that film took four years to finish.",
+            "He studied animation at art school.",
+            "Hand-drawn animation is rare these days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Liveliness and energy in the way a person speaks or acts",
+          "body": [
+            "(оживление, воодушевление)",
+            "---"
+          ],
+          "examples": [
+            "She described the trip with great animation.",
+            "His face lit up with animation when we mentioned fishing.",
+            "He talks about his grandchildren with unusual animation."
+          ]
+        }
+      ],
+      "русский": "анимация, мультипликация; оживление, воодушевление",
       "countability": "uncountable"
     },
     {
@@ -3553,28 +3640,101 @@
       "term": "apprehension",
       "ipa": "/ˌæprɪˈhɛnʃən/",
       "respell": "ap-rih-HEN-shun",
-      "meaning": "A feeling of worry that something bad is about to happen. ---",
+      "meaning": "Apprehension has 2 distinct senses.",
       "examples": [
         "She opened the letter with some apprehension.",
         "There is real apprehension about the layoffs.",
-        "He watched the storm approach with growing apprehension."
+        "He watched the storm approach with growing apprehension.",
+        "The tip led to the apprehension of two suspects.",
+        "Police credited a neighbor with the apprehension of the burglar.",
+        "A reward was offered for information leading to his apprehension."
       ],
-      "senses": [],
-      "русский": "опасение, тревога",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A feeling of worry that something bad is about to happen",
+          "body": [
+            "(опасение, тревога)"
+          ],
+          "examples": [
+            "She opened the letter with some apprehension.",
+            "There is real apprehension about the layoffs.",
+            "He watched the storm approach with growing apprehension."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The catching and arresting of someone by the police",
+          "body": [
+            "(задержание, арест)",
+            "---"
+          ],
+          "examples": [
+            "The tip led to the apprehension of two suspects.",
+            "Police credited a neighbor with the apprehension of the burglar.",
+            "A reward was offered for information leading to his apprehension."
+          ]
+        }
+      ],
+      "русский": "опасение, тревога; задержание, арест",
       "countability": "uncountable"
     },
     {
       "term": "approach",
       "ipa": "/əˈproʊtʃ/",
       "respell": "uh-PROHCH",
-      "meaning": "A way of dealing with a problem or a task. ---",
+      "meaning": "Approach has 3 distinct senses.",
       "examples": [
         "Her approach to teaching is very hands-on.",
         "We tried three different approaches before one worked.",
-        "The company needs a fresh approach to hiring."
+        "The company needs a fresh approach to hiring.",
+        "At our approach, the deer bolted into the woods.",
+        "The approach of winter emptied the campground.",
+        "The pilot began his final approach to the runway.",
+        "The approach to the bridge was backed up for a mile.",
+        "A gravel approach leads to the farmhouse.",
+        "Crews are repaving both approaches to the tunnel."
       ],
-      "senses": [],
-      "русский": "подход (способ); приближение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A way of dealing with a problem or a task",
+          "body": [
+            "(подход (способ); приближение)"
+          ],
+          "examples": [
+            "Her approach to teaching is very hands-on.",
+            "We tried three different approaches before one worked.",
+            "The company needs a fresh approach to hiring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of coming nearer in space or in time",
+          "body": [
+            "(приближение)"
+          ],
+          "examples": [
+            "At our approach, the deer bolted into the woods.",
+            "The approach of winter emptied the campground.",
+            "The pilot began his final approach to the runway."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A road or path that leads up to a place",
+          "body": [
+            "(подъезд, подход (дорога))",
+            "---"
+          ],
+          "examples": [
+            "The approach to the bridge was backed up for a mile.",
+            "A gravel approach leads to the farmhouse.",
+            "Crews are repaving both approaches to the tunnel."
+          ]
+        }
+      ],
+      "русский": "подход (способ); приближение; приближение; подъезд, подход (дорога)",
       "plural": "approaches",
       "countability": "countable"
     },
@@ -4004,14 +4164,43 @@
       "term": "arrangement",
       "ipa": "/əˈreɪndʒmənt/",
       "respell": "uh-RAYNJ-munt",
-      "meaning": "A plan agreed with someone, or the way things are placed. ---",
+      "meaning": "Arrangement has 2 distinct senses.",
       "examples": [
         "We have an arrangement about who picks up the kids.",
         "The new seating arrangement works much better.",
-        "Travel arrangements will be emailed to you."
+        "Travel arrangements will be emailed to you.",
+        "The band played a jazz arrangement of the national anthem.",
+        "Her arrangement for strings is gorgeous.",
+        "He wrote arrangements for a big band in the fifties."
       ],
-      "senses": [],
-      "русский": "договорённость; расположение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plan agreed with someone, or the way things are placed",
+          "body": [
+            "(договорённость; расположение)"
+          ],
+          "examples": [
+            "We have an arrangement about who picks up the kids.",
+            "The new seating arrangement works much better.",
+            "Travel arrangements will be emailed to you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A version of a piece of music adapted for particular voices or instruments",
+          "body": [
+            "(аранжировка)",
+            "---"
+          ],
+          "examples": [
+            "The band played a jazz arrangement of the national anthem.",
+            "Her arrangement for strings is gorgeous.",
+            "He wrote arrangements for a big band in the fifties."
+          ]
+        }
+      ],
+      "русский": "договорённость; расположение; аранжировка",
       "plural": "arrangements",
       "countability": "countable"
     },
@@ -4078,14 +4267,43 @@
       "term": "artifact",
       "ipa": "/ˈɑːrtɪfækt/",
       "respell": "AR-tih-fakt",
-      "meaning": "An object made by people, especially an old one studied by historians. ---",
+      "meaning": "Artifact has 2 distinct senses.",
       "examples": [
         "The artifact dates from about 800 BC.",
         "Thousands of artifacts were dug up at the site.",
-        "Every artifact in the case is labeled."
+        "Every artifact in the case is labeled.",
+        "The photo is full of compression artifacts.",
+        "Movement during the scan created an artifact on the image.",
+        "That spike in the data is an artifact of the sampling method."
       ],
-      "senses": [],
-      "русский": "артефакт, древний предмет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An object made by people, especially an old one studied by historians",
+          "body": [
+            "(артефакт, древний предмет)"
+          ],
+          "examples": [
+            "The artifact dates from about 800 BC.",
+            "Thousands of artifacts were dug up at the site.",
+            "Every artifact in the case is labeled."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unwanted mark or distortion in an image, a recording, or data, caused by the equipment or the process",
+          "body": [
+            "(артефакт (искажение изображения или данных))",
+            "---"
+          ],
+          "examples": [
+            "The photo is full of compression artifacts.",
+            "Movement during the scan created an artifact on the image.",
+            "That spike in the data is an artifact of the sampling method."
+          ]
+        }
+      ],
+      "русский": "артефакт, древний предмет; артефакт (искажение изображения или данных)",
       "plural": "artifacts",
       "countability": "countable",
       "contrast": "Americans write artifact; the British write artefact."
@@ -4214,14 +4432,43 @@
       "term": "assessment",
       "ipa": "/əˈsɛsmənt/",
       "respell": "uh-SESS-munt",
-      "meaning": "A judgment about how good, valuable, or serious something is. ---",
+      "meaning": "Assessment has 2 distinct senses.",
       "examples": [
         "Her assessment of the risk turned out to be right.",
         "Students take a reading assessment twice a year.",
-        "The two assessments reached opposite conclusions."
+        "The two assessments reached opposite conclusions.",
+        "The condo board approved a special assessment of $2,000 per unit.",
+        "Our property tax assessment went up after the remodel.",
+        "Homeowners have thirty days to appeal the county's assessment."
       ],
-      "senses": [],
-      "русский": "оценка (положения, знаний)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A judgment about how good, valuable, or serious something is",
+          "body": [
+            "(оценка (положения, знаний))"
+          ],
+          "examples": [
+            "Her assessment of the risk turned out to be right.",
+            "Students take a reading assessment twice a year.",
+            "The two assessments reached opposite conclusions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sum charged to owners or members, or the official valuation it is based on",
+          "body": [
+            "(оценка стоимости (для налога); взнос, сбор)",
+            "---"
+          ],
+          "examples": [
+            "The condo board approved a special assessment of $2,000 per unit.",
+            "Our property tax assessment went up after the remodel.",
+            "Homeowners have thirty days to appeal the county's assessment."
+          ]
+        }
+      ],
+      "русский": "оценка (положения, знаний); оценка стоимости (для налога); взнос, сбор",
       "plural": "assessments",
       "countability": "countable"
     },
@@ -4259,14 +4506,43 @@
       "term": "assurance",
       "ipa": "/əˈʃʊrəns/",
       "respell": "uh-SHOOR-unss",
-      "meaning": "A promise meant to make someone feel confident that something will happen. ---",
+      "meaning": "Assurance has 2 distinct senses.",
       "examples": [
         "He gave us his assurance that the roof would hold.",
         "The airline's assurances meant nothing by then.",
-        "We need written assurance before we sign."
+        "We need written assurance before we sign.",
+        "She answered the questions with quiet assurance.",
+        "He handled the crisis with the assurance of a veteran.",
+        "The young pitcher throws with surprising assurance."
       ],
-      "senses": [],
-      "русский": "заверение, гарантия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A promise meant to make someone feel confident that something will happen",
+          "body": [
+            "(заверение, гарантия)"
+          ],
+          "examples": [
+            "He gave us his assurance that the roof would hold.",
+            "The airline's assurances meant nothing by then.",
+            "We need written assurance before we sign."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Confidence in yourself and in what you are doing",
+          "body": [
+            "(уверенность (в себе))",
+            "---"
+          ],
+          "examples": [
+            "She answered the questions with quiet assurance.",
+            "He handled the crisis with the assurance of a veteran.",
+            "The young pitcher throws with surprising assurance."
+          ]
+        }
+      ],
+      "русский": "заверение, гарантия; уверенность (в себе)",
       "plural": "assurances",
       "countability": "countable"
     },
@@ -4694,14 +4970,43 @@
       "term": "autopilot",
       "ipa": "/ˈɔːtoʊˌpaɪlət/",
       "respell": "AW-toh-py-luht",
-      "meaning": "A device that steers an aircraft or ship without a person controlling it. ---",
+      "meaning": "Autopilot has 2 distinct senses.",
       "examples": [
         "The captain switched on the autopilot once we reached cruising altitude.",
         "I drove home on autopilot and barely remember the trip.",
-        "Big jets carry two independent autopilots."
+        "Big jets carry two independent autopilots.",
+        "I was so tired I drove home on autopilot.",
+        "After twenty years at the desk, she answers those calls on autopilot.",
+        "He sat through the whole meeting on autopilot and remembers none of it."
       ],
-      "senses": [],
-      "русский": "автопилот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that steers an aircraft or ship without a person controlling it",
+          "body": [
+            "(автопилот)"
+          ],
+          "examples": [
+            "The captain switched on the autopilot once we reached cruising altitude.",
+            "I drove home on autopilot and barely remember the trip.",
+            "Big jets carry two independent autopilots."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of doing something automatically, without thinking about it",
+          "body": [
+            "(автоматизм, действие «на автомате»)",
+            "---"
+          ],
+          "examples": [
+            "I was so tired I drove home on autopilot.",
+            "After twenty years at the desk, she answers those calls on autopilot.",
+            "He sat through the whole meeting on autopilot and remembers none of it."
+          ]
+        }
+      ],
+      "русский": "автопилот; автоматизм, действие «на автомате»",
       "plural": "autopilots",
       "countability": "countable"
     },
@@ -5153,14 +5458,43 @@
       "term": "ballgame",
       "ipa": "/ˈbɔːlɡeɪm/",
       "respell": "BAWL-gaym",
-      "meaning": "A game played with a ball, especially a baseball game. ---",
+      "meaning": "Ballgame has 2 distinct senses.",
       "examples": [
         "We're taking the kids to a ballgame on Saturday.",
         "Rain delayed the ballgame by two hours.",
-        "Once he joined the team, it was a whole new ballgame."
+        "Once he joined the team, it was a whole new ballgame.",
+        "Once the funding came through, it was a whole new ballgame.",
+        "Coaching high school and coaching college are two different ballgames.",
+        "With rates this high, buying a house is a different ballgame."
       ],
-      "senses": [],
-      "русский": "матч (обычно бейсбольный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A game played with a ball, especially a baseball game",
+          "body": [
+            "(матч (обычно бейсбольный))"
+          ],
+          "examples": [
+            "We're taking the kids to a ballgame on Saturday.",
+            "Rain delayed the ballgame by two hours.",
+            "Once he joined the team, it was a whole new ballgame."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A situation or set of circumstances, especially one that has completely changed",
+          "body": [
+            "(ситуация, расклад)",
+            "---"
+          ],
+          "examples": [
+            "Once the funding came through, it was a whole new ballgame.",
+            "Coaching high school and coaching college are two different ballgames.",
+            "With rates this high, buying a house is a different ballgame."
+          ]
+        }
+      ],
+      "русский": "матч (обычно бейсбольный); ситуация, расклад",
       "plural": "ballgames",
       "countability": "countable"
     },
@@ -6034,14 +6368,43 @@
       "term": "belonging",
       "ipa": "/bɪˈlɔːŋɪŋ/",
       "respell": "bih-LAWNG-ing",
-      "meaning": "The feeling of being accepted as part of a group or place. ---",
+      "meaning": "Belonging has 2 distinct senses.",
       "examples": [
         "The club gave her a real sense of belonging.",
         "Belonging matters more to teenagers than they admit.",
-        "New employees need a feeling of belonging early on."
+        "New employees need a feeling of belonging early on.",
+        "Please take all your belongings with you when you leave the train.",
+        "The fire destroyed most of their belongings.",
+        "She packed her belongings into two suitcases and moved out."
       ],
-      "senses": [],
-      "русский": "чувство принадлежности, сопричастность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The feeling of being accepted as part of a group or place",
+          "body": [
+            "(чувство принадлежности, сопричастность)"
+          ],
+          "examples": [
+            "The club gave her a real sense of belonging.",
+            "Belonging matters more to teenagers than they admit.",
+            "New employees need a feeling of belonging early on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The things a person owns, especially ones they carry or keep with them (used only in the plural)",
+          "body": [
+            "(вещи, пожитки, личные принадлежности)",
+            "---"
+          ],
+          "examples": [
+            "Please take all your belongings with you when you leave the train.",
+            "The fire destroyed most of their belongings.",
+            "She packed her belongings into two suitcases and moved out."
+          ]
+        }
+      ],
+      "русский": "чувство принадлежности, сопричастность; вещи, пожитки, личные принадлежности",
       "countability": "uncountable",
       "contrast": "The plural belongings means your possessions, not this feeling."
     },
@@ -7012,14 +7375,43 @@
       "term": "bluegrass",
       "ipa": "/ˈbluːɡræs/",
       "respell": "BLOO-gras",
-      "meaning": "A fast style of American country music played on banjo, fiddle, and guitar. ---",
+      "meaning": "Bluegrass has 2 distinct senses.",
       "examples": [
         "The festival is all bluegrass and barbecue.",
         "He grew up playing bluegrass in Kentucky.",
-        "Bluegrass borrows a lot from old Irish tunes."
+        "Bluegrass borrows a lot from old Irish tunes.",
+        "He reseeded the front lawn with Kentucky bluegrass.",
+        "The pasture is mostly bluegrass and clover.",
+        "Bluegrass holds up well through a cold winter."
       ],
-      "senses": [],
-      "русский": "блюграсс (стиль американской кантри-музыки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fast style of American country music played on banjo, fiddle, and guitar",
+          "body": [
+            "(блюграсс (стиль американской кантри-музыки))"
+          ],
+          "examples": [
+            "The festival is all bluegrass and barbecue.",
+            "He grew up playing bluegrass in Kentucky.",
+            "Bluegrass borrows a lot from old Irish tunes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tough lawn and pasture grass with a bluish-green color",
+          "body": [
+            "(мятлик (газонная и пастбищная трава))",
+            "---"
+          ],
+          "examples": [
+            "He reseeded the front lawn with Kentucky bluegrass.",
+            "The pasture is mostly bluegrass and clover.",
+            "Bluegrass holds up well through a cold winter."
+          ]
+        }
+      ],
+      "русский": "блюграсс (стиль американской кантри-музыки); мятлик (газонная и пастбищная трава)",
       "countability": "uncountable"
     },
     {
@@ -7221,14 +7613,43 @@
       "term": "bombshell",
       "ipa": "/ˈbɑːmʃɛl/",
       "respell": "BAHM-shel",
-      "meaning": "A piece of shocking, completely unexpected news. ---",
+      "meaning": "Bombshell has 2 distinct senses.",
       "examples": [
         "The report dropped a bombshell.",
         "Her resignation was a bombshell.",
-        "The hearing produced two bombshells in one afternoon."
+        "The hearing produced two bombshells in one afternoon.",
+        "She was cast as the blonde bombshell in the detective picture.",
+        "In the fifties the studio marketed her as a bombshell.",
+        "The part called for a bombshell, not the girl next door."
       ],
-      "senses": [],
-      "русский": "сенсация, ошеломляющая новость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of shocking, completely unexpected news",
+          "body": [
+            "(сенсация, ошеломляющая новость)"
+          ],
+          "examples": [
+            "The report dropped a bombshell.",
+            "Her resignation was a bombshell.",
+            "The hearing produced two bombshells in one afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal word for a strikingly attractive woman",
+          "body": [
+            "(секс-бомба, эффектная красотка)",
+            "---"
+          ],
+          "examples": [
+            "She was cast as the blonde bombshell in the detective picture.",
+            "In the fifties the studio marketed her as a bombshell.",
+            "The part called for a bombshell, not the girl next door."
+          ]
+        }
+      ],
+      "русский": "сенсация, ошеломляющая новость; секс-бомба, эффектная красотка",
       "plural": "bombshells",
       "countability": "countable"
     },
@@ -7872,14 +8293,43 @@
       "term": "breadcrumb",
       "ipa": "/ˈbrɛdkrʌm/",
       "respell": "BRED-krum",
-      "meaning": "A tiny piece of bread, often dried and used to coat food before frying. ---",
+      "meaning": "Breadcrumb has 2 distinct senses.",
       "examples": [
         "Dip the chicken in egg, then roll it in breadcrumbs.",
         "A single breadcrumb was all that was left on the plate.",
-        "She scattered breadcrumbs on the path for the ducks."
+        "She scattered breadcrumbs on the path for the ducks.",
+        "The author drops breadcrumbs in chapter one that only make sense at the end.",
+        "Click the breadcrumbs at the top of the page to get back to the main category.",
+        "Investigators followed a breadcrumb trail of small cash payments."
       ],
-      "senses": [],
-      "русский": "хлебная крошка; панировочные сухари",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tiny piece of bread, often dried and used to coat food before frying",
+          "body": [
+            "(хлебная крошка; панировочные сухари)"
+          ],
+          "examples": [
+            "Dip the chicken in egg, then roll it in breadcrumbs.",
+            "A single breadcrumb was all that was left on the plate.",
+            "She scattered breadcrumbs on the path for the ducks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of a trail of small clues or links left behind to show the way",
+          "body": [
+            "(хлебная крошка (след, подсказка); навигационная цепочка)",
+            "---"
+          ],
+          "examples": [
+            "The author drops breadcrumbs in chapter one that only make sense at the end.",
+            "Click the breadcrumbs at the top of the page to get back to the main category.",
+            "Investigators followed a breadcrumb trail of small cash payments."
+          ]
+        }
+      ],
+      "русский": "хлебная крошка; панировочные сухари; хлебная крошка (след, подсказка); навигационная цепочка",
       "plural": "breadcrumbs",
       "countability": "countable",
       "contrast": "The b in crumb is silent: BRED-krum."

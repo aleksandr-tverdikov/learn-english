@@ -400,14 +400,43 @@
       "term": "evangelist",
       "ipa": "/ɪˈvændʒəlɪst/",
       "respell": "ih-VAN-juh-list",
-      "meaning": "A preacher who travels around trying to convert people to Christianity. ---",
+      "meaning": "Evangelist has 2 distinct senses.",
       "examples": [
         "A traveling evangelist filled the stadium.",
         "The evangelist broadcasts his sermons on the radio.",
-        "TV evangelists raised millions that year."
+        "TV evangelists raised millions that year.",
+        "He's become an evangelist for open-source software.",
+        "The company hired a developer evangelist to speak at conferences.",
+        "She's an evangelist for biking to work."
       ],
-      "senses": [],
-      "русский": "евангелист, проповедник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A preacher who travels around trying to convert people to Christianity",
+          "body": [
+            "(евангелист, проповедник)"
+          ],
+          "examples": [
+            "A traveling evangelist filled the stadium.",
+            "The evangelist broadcasts his sermons on the radio.",
+            "TV evangelists raised millions that year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who enthusiastically promotes a product, idea, or cause",
+          "body": [
+            "(горячий сторонник, популяризатор)",
+            "---"
+          ],
+          "examples": [
+            "He's become an evangelist for open-source software.",
+            "The company hired a developer evangelist to speak at conferences.",
+            "She's an evangelist for biking to work."
+          ]
+        }
+      ],
+      "русский": "евангелист, проповедник; горячий сторонник, популяризатор",
       "plural": "evangelists",
       "countability": "countable"
     },
@@ -882,14 +911,43 @@
       "term": "denomination",
       "ipa": "/dɪˌnɑːməˈneɪʃən/",
       "respell": "dih-nah-muh-NAY-shuhn",
-      "meaning": "A branch of a religion with its own organization and beliefs. ---",
+      "meaning": "Denomination has 2 distinct senses.",
       "examples": [
         "Their denomination ordains women.",
         "He switched to a smaller denomination.",
-        "Twelve Christian denominations signed the letter."
+        "Twelve Christian denominations signed the letter.",
+        "The machine only takes bills in small denominations.",
+        "Please bring the cash in mixed denominations.",
+        "The post office sells stamps in several denominations."
       ],
-      "senses": [],
-      "русский": "конфессия, деноминация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A branch of a religion with its own organization and beliefs",
+          "body": [
+            "(конфессия, деноминация)"
+          ],
+          "examples": [
+            "Their denomination ordains women.",
+            "He switched to a smaller denomination.",
+            "Twelve Christian denominations signed the letter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The face value of a bill, coin, or stamp",
+          "body": [
+            "(номинал (купюры, монеты))",
+            "---"
+          ],
+          "examples": [
+            "The machine only takes bills in small denominations.",
+            "Please bring the cash in mixed denominations.",
+            "The post office sells stamps in several denominations."
+          ]
+        }
+      ],
+      "русский": "конфессия, деноминация; номинал (купюры, монеты)",
       "plural": "denominations",
       "countability": "countable"
     },
@@ -1146,14 +1204,58 @@
       "term": "testament",
       "ipa": "/ˈtɛstəmənt/",
       "respell": "TESS-tuh-muhnt",
-      "meaning": "Either of the two main parts of the Christian Bible. ---",
+      "meaning": "Testament has 3 distinct senses.",
       "examples": [
         "That story comes from the Old Testament.",
         "He knows the New Testament almost by heart.",
-        "The class reads both testaments in translation."
+        "The class reads both testaments in translation.",
+        "The packed hall was a testament to her reputation.",
+        "That the bridge still stands is a testament to its builders.",
+        "His recovery is a testament to modern medicine.",
+        "She signed her last will and testament in front of two witnesses.",
+        "The date on the testament was three weeks before he died.",
+        "Under his last will and testament, the farm goes to his nephew."
       ],
-      "senses": [],
-      "русский": "завет (Ветхий, Новый)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two main parts of the Christian Bible",
+          "body": [
+            "(завет (Ветхий, Новый))"
+          ],
+          "examples": [
+            "That story comes from the Old Testament.",
+            "He knows the New Testament almost by heart.",
+            "The class reads both testaments in translation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Clear proof that something is true or that someone has a certain quality",
+          "body": [
+            "(свидетельство, доказательство)"
+          ],
+          "examples": [
+            "The packed hall was a testament to her reputation.",
+            "That the bridge still stands is a testament to its builders.",
+            "His recovery is a testament to modern medicine."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A legal document saying who should get your property after you die",
+          "body": [
+            "(завещание)",
+            "---"
+          ],
+          "examples": [
+            "She signed her last will and testament in front of two witnesses.",
+            "The date on the testament was three weeks before he died.",
+            "Under his last will and testament, the farm goes to his nephew."
+          ]
+        }
+      ],
+      "русский": "завет (Ветхий, Новый); свидетельство, доказательство; завещание",
       "plural": "testaments",
       "countability": "countable"
     },
@@ -1311,14 +1413,58 @@
       "term": "blessing",
       "ipa": "/ˈblɛsɪŋ/",
       "respell": "BLESS-ing",
-      "meaning": "God's favor, or words asking for it. ---",
+      "meaning": "Blessing has 3 distinct senses.",
       "examples": [
         "The priest gave the couple his blessing.",
         "Losing that job turned out to be a blessing.",
-        "She counts her blessings every night."
+        "She counts her blessings every night.",
+        "The board gave the merger its blessing.",
+        "They married with her father's blessing.",
+        "He took the job without his family's blessing.",
+        "Having good neighbors is a real blessing.",
+        "Losing that job turned out to be a blessing in disguise.",
+        "She told the kids to count their blessings."
       ],
-      "senses": [],
-      "русский": "благословение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "God's favor, or words asking for it",
+          "body": [
+            "(благословение)"
+          ],
+          "examples": [
+            "The priest gave the couple his blessing.",
+            "Losing that job turned out to be a blessing.",
+            "She counts her blessings every night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Approval or permission from someone whose opinion carries weight",
+          "body": [
+            "(одобрение, согласие)"
+          ],
+          "examples": [
+            "The board gave the merger its blessing.",
+            "They married with her father's blessing.",
+            "He took the job without his family's blessing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something you are lucky and grateful to have",
+          "body": [
+            "(благо, счастье, удача)",
+            "---"
+          ],
+          "examples": [
+            "Having good neighbors is a real blessing.",
+            "Losing that job turned out to be a blessing in disguise.",
+            "She told the kids to count their blessings."
+          ]
+        }
+      ],
+      "русский": "благословение; одобрение, согласие; благо, счастье, удача",
       "plural": "blessings",
       "countability": "countable"
     },
@@ -1341,14 +1487,43 @@
       "term": "communion",
       "ipa": "/kəˈmjuːnjən/",
       "respell": "kuh-MYOON-yuhn",
-      "meaning": "The Christian ceremony of sharing bread and wine. ---",
+      "meaning": "Communion has 2 distinct senses.",
       "examples": [
         "They take communion on the first Sunday of the month.",
         "She received her first communion at eight.",
-        "Communion is offered at the end of the service."
+        "Communion is offered at the end of the service.",
+        "He hikes alone to feel some communion with nature.",
+        "The two writers lived in close communion for twenty years.",
+        "She described a quiet communion with the land she grew up on."
       ],
-      "senses": [],
-      "русский": "причастие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The Christian ceremony of sharing bread and wine",
+          "body": [
+            "(причастие)"
+          ],
+          "examples": [
+            "They take communion on the first Sunday of the month.",
+            "She received her first communion at eight.",
+            "Communion is offered at the end of the service."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep sharing of feeling, or a close bond with nature or with God",
+          "body": [
+            "(духовная близость, общение)",
+            "---"
+          ],
+          "examples": [
+            "He hikes alone to feel some communion with nature.",
+            "The two writers lived in close communion for twenty years.",
+            "She described a quiet communion with the land she grew up on."
+          ]
+        }
+      ],
+      "русский": "причастие; духовная близость, общение",
       "countability": "uncountable"
     },
     {
@@ -1386,14 +1561,43 @@
       "term": "ceremony",
       "ipa": "/ˈsɛrəmoʊni/",
       "respell": "SEH-ruh-moh-nee",
-      "meaning": "A formal event held to mark an important occasion. ---",
+      "meaning": "Ceremony has 2 distinct senses.",
       "examples": [
         "The wedding ceremony lasted twenty minutes.",
         "She spoke at the graduation ceremony.",
-        "Both ceremonies were held outdoors."
+        "Both ceremonies were held outdoors.",
+        "He dropped the papers on my desk without ceremony and walked out.",
+        "Please don't stand on ceremony — just help yourself.",
+        "The old club runs on tradition and ceremony."
       ],
-      "senses": [],
-      "русский": "церемония, обряд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal event held to mark an important occasion",
+          "body": [
+            "(церемония, обряд)"
+          ],
+          "examples": [
+            "The wedding ceremony lasted twenty minutes.",
+            "She spoke at the graduation ceremony.",
+            "Both ceremonies were held outdoors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Formal manners and polite fuss on official occasions",
+          "body": [
+            "(церемонность, формальности)",
+            "---"
+          ],
+          "examples": [
+            "He dropped the papers on my desk without ceremony and walked out.",
+            "Please don't stand on ceremony — just help yourself.",
+            "The old club runs on tradition and ceremony."
+          ]
+        }
+      ],
+      "русский": "церемония, обряд; церемонность, формальности",
       "plural": "ceremonies",
       "countability": "countable",
       "contrast": "Americans give the third syllable a full 'moh': SEH-ruh-moh-nee; the British say SERR-uh-muh-nee."
@@ -1402,14 +1606,58 @@
       "term": "offering",
       "ipa": "/ˈɔːfərɪŋ/",
       "respell": "AW-fur-ing",
-      "meaning": "Money or a gift presented as part of worship. ---",
+      "meaning": "Offering has 3 distinct senses.",
       "examples": [
         "They collect the offering halfway through the service.",
         "He dropped a folded bill into the offering.",
-        "Small offerings of fruit were left at the shrine."
+        "Small offerings of fruit were left at the shrine.",
+        "The studio's latest offering is a remake of a 1970s thriller.",
+        "The menu's vegetarian offerings have gotten much better.",
+        "Their new offering costs half what the competition charges.",
+        "The company raised two billion dollars in its public offering.",
+        "Shares jumped on the first day of the offering.",
+        "They delayed the stock offering until the market settled down."
       ],
-      "senses": [],
-      "русский": "приношение, пожертвование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money or a gift presented as part of worship",
+          "body": [
+            "(приношение, пожертвование)"
+          ],
+          "examples": [
+            "They collect the offering halfway through the service.",
+            "He dropped a folded bill into the offering.",
+            "Small offerings of fruit were left at the shrine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a company, studio, or restaurant makes available to the public",
+          "body": [
+            "(продукт, предложение (то, что предлагают))"
+          ],
+          "examples": [
+            "The studio's latest offering is a remake of a 1970s thriller.",
+            "The menu's vegetarian offerings have gotten much better.",
+            "Their new offering costs half what the competition charges."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sale of shares in a company to investors",
+          "body": [
+            "(размещение акций, выпуск ценных бумаг)",
+            "---"
+          ],
+          "examples": [
+            "The company raised two billion dollars in its public offering.",
+            "Shares jumped on the first day of the offering.",
+            "They delayed the stock offering until the market settled down."
+          ]
+        }
+      ],
+      "русский": "приношение, пожертвование; продукт, предложение (то, что предлагают); размещение акций, выпуск ценных бумаг",
       "plural": "offerings",
       "countability": "countable"
     },
@@ -1448,14 +1696,43 @@
       "term": "meditation",
       "ipa": "/ˌmɛdɪˈteɪʃən/",
       "respell": "meh-dih-TAY-shuhn",
-      "meaning": "The practice of sitting quietly and focusing the mind. ---",
+      "meaning": "Meditation has 2 distinct senses.",
       "examples": [
         "He does twenty minutes of meditation every morning.",
         "Meditation helped her sleep better.",
-        "The retreat teaches meditation to beginners."
+        "The retreat teaches meditation to beginners.",
+        "The novel is a meditation on grief and memory.",
+        "His last album is a quiet meditation on getting older.",
+        "The essay reads like a meditation rather than an argument."
       ],
-      "senses": [],
-      "русский": "медитация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The practice of sitting quietly and focusing the mind",
+          "body": [
+            "(медитация)"
+          ],
+          "examples": [
+            "He does twenty minutes of meditation every morning.",
+            "Meditation helped her sleep better.",
+            "The retreat teaches meditation to beginners."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of writing or speech that reflects deeply on a subject",
+          "body": [
+            "(размышление, раздумье (текст, эссе))",
+            "---"
+          ],
+          "examples": [
+            "The novel is a meditation on grief and memory.",
+            "His last album is a quiet meditation on getting older.",
+            "The essay reads like a meditation rather than an argument."
+          ]
+        }
+      ],
+      "русский": "медитация; размышление, раздумье (текст, эссе)",
       "countability": "uncountable"
     },
     {
@@ -2117,14 +2394,43 @@
       "term": "salvation",
       "ipa": "/sælˈveɪʃən/",
       "respell": "sal-VAY-shuhn",
-      "meaning": "Being saved from sin and its punishment. ---",
+      "meaning": "Salvation has 2 distinct senses.",
       "examples": [
         "The preacher spoke about salvation through faith.",
         "She found salvation in the church basement, she says.",
-        "That loan was his salvation."
+        "That loan was his salvation.",
+        "That loan was the salvation of the family farm.",
+        "Coaching kids became his salvation after the divorce.",
+        "Air conditioning is my salvation in August."
       ],
-      "senses": [],
-      "русский": "спасение (души)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Being saved from sin and its punishment",
+          "body": [
+            "(спасение (души))"
+          ],
+          "examples": [
+            "The preacher spoke about salvation through faith.",
+            "She found salvation in the church basement, she says.",
+            "That loan was his salvation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that saves someone from trouble or ruin",
+          "body": [
+            "(спасение, избавление (от беды))",
+            "---"
+          ],
+          "examples": [
+            "That loan was the salvation of the family farm.",
+            "Coaching kids became his salvation after the divorce.",
+            "Air conditioning is my salvation in August."
+          ]
+        }
+      ],
+      "русский": "спасение (души); спасение, избавление (от беды)",
       "countability": "uncountable"
     },
     {
@@ -2247,14 +2553,43 @@
       "term": "forgiveness",
       "ipa": "/fərˈɡɪvnəs/",
       "respell": "fur-GIV-niss",
-      "meaning": "The act of stopping being angry at someone for a wrong. ---",
+      "meaning": "Forgiveness has 2 distinct senses.",
       "examples": [
         "He asked his brother for forgiveness.",
         "Forgiveness took her years.",
-        "The whole sermon was about forgiveness."
+        "The whole sermon was about forgiveness.",
+        "The program offers student loan forgiveness after ten years of public service.",
+        "Some borrowers qualify for partial forgiveness.",
+        "The bill included forgiveness for small-business loans."
       ],
-      "senses": [],
-      "русский": "прощение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of stopping being angry at someone for a wrong",
+          "body": [
+            "(прощение)"
+          ],
+          "examples": [
+            "He asked his brother for forgiveness.",
+            "Forgiveness took her years.",
+            "The whole sermon was about forgiveness."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The cancellation of a debt, so that it no longer has to be repaid",
+          "body": [
+            "(списание долга)",
+            "---"
+          ],
+          "examples": [
+            "The program offers student loan forgiveness after ten years of public service.",
+            "Some borrowers qualify for partial forgiveness.",
+            "The bill included forgiveness for small-business loans."
+          ]
+        }
+      ],
+      "русский": "прощение; списание долга",
       "countability": "uncountable"
     },
     {

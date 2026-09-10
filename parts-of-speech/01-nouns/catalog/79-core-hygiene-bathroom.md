@@ -1284,15 +1284,23 @@ An underground tank that holds household waste where there are no sewers.
 ### cesspool
 
 **Pronunciation:** /ˈsɛsˌpuːl/ &middot; *SESS-pool*
-**Русский:** выгребная яма
+**Русский:** выгребная яма; рассадник порока, клоака
 **Plural:** *cesspools*
 **Countability:** countable
 
-A covered pit that collects waste water and sewage.
+Cesspool has 2 distinct senses.
+
+**1. A covered pit that collects waste water and sewage.** (выгребная яма)
 
 1. The old farmhouse still had a *cesspool*.
 2. The *cesspool* overflowed after the storm.
 3. Health inspectors ordered the *cesspools* filled in.
+
+**2. A place or situation full of corruption or moral filth.** (рассадник порока, клоака)
+
+4. He called the state capital a *cesspool* of favors and payoffs.
+5. The comment section under that video is a *cesspool*.
+6. She grew up hearing that the city was a *cesspool*.
 
 ---
 

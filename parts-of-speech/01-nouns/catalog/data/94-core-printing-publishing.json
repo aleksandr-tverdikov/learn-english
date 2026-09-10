@@ -1252,14 +1252,43 @@
       "term": "ligature",
       "ipa": "/ˈlɪɡətʃər/",
       "respell": "LIG-uh-chur",
-      "meaning": "Two or more letters joined into a single printed character. ---",
+      "meaning": "Ligature has 2 distinct senses.",
       "examples": [
         "The f and the i form a ligature.",
         "This typeface has a lovely ligature.",
-        "Old books are full of ligatures."
+        "Old books are full of ligatures.",
+        "The surgeon placed a ligature around the artery.",
+        "The ligature slipped and the bleeding started again.",
+        "Police found ligature marks on the victim's wrists."
       ],
-      "senses": [],
-      "русский": "лигатура (слитное написание букв)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Two or more letters joined into a single printed character",
+          "body": [
+            "(лигатура (слитное написание букв))"
+          ],
+          "examples": [
+            "The f and the i form a ligature.",
+            "This typeface has a lovely ligature.",
+            "Old books are full of ligatures."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cord or thread tied tightly around something, especially a blood vessel in surgery",
+          "body": [
+            "(лигатура, перевязочная нить)",
+            "---"
+          ],
+          "examples": [
+            "The surgeon placed a ligature around the artery.",
+            "The ligature slipped and the bleeding started again.",
+            "Police found ligature marks on the victim's wrists."
+          ]
+        }
+      ],
+      "русский": "лигатура (слитное написание букв); лигатура, перевязочная нить",
       "plural": "ligatures",
       "countability": "countable"
     },
@@ -1327,14 +1356,58 @@
       "term": "baseline",
       "ipa": "/ˈbeɪslaɪn/",
       "respell": "BAYS-lyne",
-      "meaning": "The invisible line that letters sit on. ---",
+      "meaning": "Baseline has 3 distinct senses.",
       "examples": [
         "The o dips slightly below the baseline.",
         "Align the caption to the baseline of the text.",
-        "The two columns share the same baselines."
+        "The two columns share the same baselines.",
+        "The study used 2019 emissions as its baseline.",
+        "We need a baseline before we can measure any progress.",
+        "Reading scores came in ten points above the baseline.",
+        "She hit a forehand from well behind the baseline.",
+        "He drove along the baseline for an easy layup.",
+        "The serve landed just inside the baseline."
       ],
-      "senses": [],
-      "русский": "базовая линия (шрифта)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The invisible line that letters sit on",
+          "body": [
+            "(базовая линия (шрифта))"
+          ],
+          "examples": [
+            "The o dips slightly below the baseline.",
+            "Align the caption to the baseline of the text.",
+            "The two columns share the same baselines."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A starting measurement that later results are compared against",
+          "body": [
+            "(исходный уровень, точка отсчёта)"
+          ],
+          "examples": [
+            "The study used 2019 emissions as its baseline.",
+            "We need a baseline before we can measure any progress.",
+            "Reading scores came in ten points above the baseline."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The line marking each end of a tennis or basketball court",
+          "body": [
+            "(задняя линия (корта, площадки))",
+            "---"
+          ],
+          "examples": [
+            "She hit a forehand from well behind the baseline.",
+            "He drove along the baseline for an easy layup.",
+            "The serve landed just inside the baseline."
+          ]
+        }
+      ],
+      "русский": "базовая линия (шрифта); исходный уровень, точка отсчёта; задняя линия (корта, площадки)",
       "plural": "baselines",
       "countability": "countable"
     },
@@ -1400,14 +1473,43 @@
       "term": "justification",
       "ipa": "/ˌdʒʌstəfəˈkeɪʃən/",
       "respell": "jus-tuh-fuh-KAY-shuhn",
-      "meaning": "The spacing of words so lines end evenly at both margins. ---",
+      "meaning": "Justification has 2 distinct senses.",
       "examples": [
         "Turn off justification and use a ragged right edge.",
         "Bad justification leaves rivers of white down the column.",
-        "Justification works better with hyphens turned on."
+        "Justification works better with hyphens turned on.",
+        "There was no justification for shouting at the clerk.",
+        "The memo offered a detailed justification for the budget cut.",
+        "He gave a long justification of his decision to quit."
       ],
-      "senses": [],
-      "русский": "выключка, выравнивание текста по ширине",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The spacing of words so lines end evenly at both margins",
+          "body": [
+            "(выключка, выравнивание текста по ширине)"
+          ],
+          "examples": [
+            "Turn off justification and use a ragged right edge.",
+            "Bad justification leaves rivers of white down the column.",
+            "Justification works better with hyphens turned on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A good reason showing that an action was right or necessary",
+          "body": [
+            "(оправдание, обоснование)",
+            "---"
+          ],
+          "examples": [
+            "There was no justification for shouting at the clerk.",
+            "The memo offered a detailed justification for the budget cut.",
+            "He gave a long justification of his decision to quit."
+          ]
+        }
+      ],
+      "русский": "выключка, выравнивание текста по ширине; оправдание, обоснование",
       "countability": "uncountable"
     },
     {

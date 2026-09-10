@@ -1061,16 +1061,24 @@ Badge has 2 distinct senses.
 ### accessory
 
 **Pronunciation:** /əkˈsɛsəri/ &middot; *uhk-SES-uh-ree*
-**Русский:** аксессуар
+**Русский:** аксессуар; соучастник (преступления)
 **Plural:** *accessories*
 **Countability:** countable
 **Contrast:** The cc is pronounced ks: uhk-SES-uh-ree, not uh-SES-uh-ree.
 
-Something like a bag, belt, or scarf worn to complete an outfit.
+Accessory has 2 distinct senses.
+
+**1. Something like a bag, belt, or scarf worn to complete an outfit.** (аксессуар)
 
 1. A scarf is the only *accessory* she ever wears.
 2. The store carries bags, belts, and other *accessories*.
 3. The right *accessory* can pull a whole outfit together.
+
+**2. A person who helps someone commit a crime or helps them get away with it.** (соучастник (преступления))
+
+4. He was charged as an *accessory* to armed robbery.
+5. Driving the getaway car makes you an *accessory*.
+6. Two *accessories* were arrested a week after the shooting.
 
 ---
 

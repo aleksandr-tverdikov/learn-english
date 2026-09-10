@@ -1795,14 +1795,43 @@
       "term": "disposal",
       "ipa": "/dɪˈspoʊzəl/",
       "respell": "dih-SPOH-zuhl",
-      "meaning": "The act of getting rid of waste properly. ---",
+      "meaning": "Disposal has 2 distinct senses.",
       "examples": [
         "The city handles disposal of household waste.",
         "Proper disposal of paint means a special drop-off.",
-        "Disposal of the old mattress cost forty dollars."
+        "Disposal of the old mattress cost forty dollars.",
+        "Don't put coffee grounds down the disposal.",
+        "The disposal is jammed again.",
+        "Run cold water while the disposal is going."
       ],
-      "senses": [],
-      "русский": "утилизация, вывоз (отходов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of getting rid of waste properly",
+          "body": [
+            "(утилизация, вывоз (отходов))"
+          ],
+          "examples": [
+            "The city handles disposal of household waste.",
+            "Proper disposal of paint means a special drop-off.",
+            "Disposal of the old mattress cost forty dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The grinder in a kitchen sink drain that chops up food waste",
+          "body": [
+            "(измельчитель пищевых отходов (в раковине))",
+            "---"
+          ],
+          "examples": [
+            "Don't put coffee grounds down the disposal.",
+            "The disposal is jammed again.",
+            "Run cold water while the disposal is going."
+          ]
+        }
+      ],
+      "русский": "утилизация, вывоз (отходов); измельчитель пищевых отходов (в раковине)",
       "countability": "uncountable"
     },
     {
@@ -1915,14 +1944,43 @@
       "term": "custodian",
       "ipa": "/kʌˈstoʊdiən/",
       "respell": "kuh-STOH-dee-uhn",
-      "meaning": "A person who cleans and takes care of a building. ---",
+      "meaning": "Custodian has 2 distinct senses.",
       "examples": [
         "The custodian unlocked the gym for us.",
         "Ask the custodian for a mop.",
-        "The school kept two custodians on the night shift."
+        "The school kept two custodians on the night shift.",
+        "The family served as custodians of the letters for a century.",
+        "The library is the custodian of the town's records.",
+        "He saw himself as a custodian of the tradition, not its owner."
       ],
-      "senses": [],
-      "русский": "уборщик, завхоз (в школе, здании)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who cleans and takes care of a building",
+          "body": [
+            "(уборщик, завхоз (в школе, здании))"
+          ],
+          "examples": [
+            "The custodian unlocked the gym for us.",
+            "Ask the custodian for a mop.",
+            "The school kept two custodians on the night shift."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or body responsible for looking after something valuable",
+          "body": [
+            "(хранитель, попечитель)",
+            "---"
+          ],
+          "examples": [
+            "The family served as custodians of the letters for a century.",
+            "The library is the custodian of the town's records.",
+            "He saw himself as a custodian of the tradition, not its owner."
+          ]
+        }
+      ],
+      "русский": "уборщик, завхоз (в школе, здании); хранитель, попечитель",
       "plural": "custodians",
       "countability": "countable"
     },
@@ -1991,14 +2049,43 @@
       "term": "housecleaning",
       "ipa": "/ˈhaʊsˌkliːnɪŋ/",
       "respell": "HOWS-klee-ning",
-      "meaning": "The work of cleaning a home from top to bottom. ---",
+      "meaning": "Housecleaning has 2 distinct senses.",
       "examples": [
         "Saturday is for housecleaning.",
         "Housecleaning takes her most of the day.",
-        "He does the housecleaning and she cooks."
+        "He does the housecleaning and she cooks.",
+        "The new owner did some housecleaning in the front office.",
+        "After a losing season, fans expected a major housecleaning.",
+        "The scandal led to a housecleaning at the top of the agency."
       ],
-      "senses": [],
-      "русский": "уборка дома",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of cleaning a home from top to bottom",
+          "body": [
+            "(уборка дома)"
+          ],
+          "examples": [
+            "Saturday is for housecleaning.",
+            "Housecleaning takes her most of the day.",
+            "He does the housecleaning and she cooks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The removal of a number of people from an organization in order to fix it",
+          "body": [
+            "(чистка кадров, кадровые перестановки)",
+            "---"
+          ],
+          "examples": [
+            "The new owner did some housecleaning in the front office.",
+            "After a losing season, fans expected a major housecleaning.",
+            "The scandal led to a housecleaning at the top of the agency."
+          ]
+        }
+      ],
+      "русский": "уборка дома; чистка кадров, кадровые перестановки",
       "countability": "uncountable",
       "contrast": "Written as one word; the verb phrase is clean house."
     },

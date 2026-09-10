@@ -997,14 +997,43 @@
       "term": "tentacle",
       "ipa": "/ˈtɛntəkəl/",
       "respell": "TEN-tuh-kul",
-      "meaning": "A long flexible arm that a sea animal uses to feel, grab, or sting. ---",
+      "meaning": "Tentacle has 2 distinct senses.",
       "examples": [
         "A squid has ten tentacles.",
         "One tentacle curled around the diver's wrist.",
-        "The jellyfish's tentacles trailed for several feet."
+        "The jellyfish's tentacles trailed for several feet.",
+        "The cartel's tentacles reach into the police department.",
+        "The agency has tentacles in every state capital.",
+        "By then the scandal had spread its tentacles through the whole company."
       ],
-      "senses": [],
-      "русский": "щупальце",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long flexible arm that a sea animal uses to feel, grab, or sting",
+          "body": [
+            "(щупальце)"
+          ],
+          "examples": [
+            "A squid has ten tentacles.",
+            "One tentacle curled around the diver's wrist.",
+            "The jellyfish's tentacles trailed for several feet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A far-reaching branch of an organization's power or influence",
+          "body": [
+            "(щупальца (перен.), разветвлённое влияние)",
+            "---"
+          ],
+          "examples": [
+            "The cartel's tentacles reach into the police department.",
+            "The agency has tentacles in every state capital.",
+            "By then the scandal had spread its tentacles through the whole company."
+          ]
+        }
+      ],
+      "русский": "щупальце; щупальца (перен.), разветвлённое влияние",
       "plural": "tentacles",
       "countability": "countable"
     },
@@ -2370,14 +2399,43 @@
       "term": "fishbowl",
       "ipa": "/ˈfɪʃboʊl/",
       "respell": "FISH-bohl",
-      "meaning": "A round glass bowl for keeping a pet fish. ---",
+      "meaning": "Fishbowl has 2 distinct senses.",
       "examples": [
         "The goldfish went around and around the fishbowl.",
         "A fishbowl is really too small for most fish.",
-        "She used an empty fishbowl to hold candy."
+        "She used an empty fishbowl to hold candy.",
+        "Living in the governor's mansion means living in a fishbowl.",
+        "Small-town life can feel like a fishbowl.",
+        "Fame put the whole family in a fishbowl."
       ],
-      "senses": [],
-      "русский": "круглый аквариум",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A round glass bowl for keeping a pet fish",
+          "body": [
+            "(круглый аквариум)"
+          ],
+          "examples": [
+            "The goldfish went around and around the fishbowl.",
+            "A fishbowl is really too small for most fish.",
+            "She used an empty fishbowl to hold candy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A situation in which everything a person does is open to public view",
+          "body": [
+            "(жизнь на виду у всех, полная публичность)",
+            "---"
+          ],
+          "examples": [
+            "Living in the governor's mansion means living in a fishbowl.",
+            "Small-town life can feel like a fishbowl.",
+            "Fame put the whole family in a fishbowl."
+          ]
+        }
+      ],
+      "русский": "круглый аквариум; жизнь на виду у всех, полная публичность",
       "plural": "fishbowls",
       "countability": "countable"
     },

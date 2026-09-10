@@ -116,15 +116,23 @@ An organism that lives on or in another creature and feeds off it.
 ### creature
 
 **Pronunciation:** /ˈkriːtʃər/ &middot; *KREE-chur*
-**Русский:** существо, тварь
+**Русский:** существо, тварь; человек определённого склада; порождение (среды)
 **Plural:** *creatures*
 **Countability:** countable
 
-Any living animal, especially one that seems strange or unfamiliar.
+Creature has 2 distinct senses.
+
+**1. Any living animal, especially one that seems strange or unfamiliar.** (существо, тварь)
 
 1. Some *creature* was scratching around under the deck all night.
 2. Tide pools are full of tiny *creatures*.
 3. It looked like a *creature* out of a science fiction movie.
+
+**2. A person whose behavior is completely shaped by some habit or force.** (человек определённого склада; порождение (среды))
+
+4. I'm a *creature* of habit — the same breakfast every day.
+5. He is a *creature* of the party machine and always was.
+6. She's a *creature* of the theater, at home nowhere else.
 
 ---
 
@@ -645,15 +653,29 @@ A shield-shaped bug that gives off a bad smell when disturbed.
 ### butterfly
 
 **Pronunciation:** /ˈbʌtərflaɪ/ &middot; *BUT-ur-fly*
-**Русский:** бабочка
+**Русский:** бабочка; баттерфляй (стиль плавания); мандраж, «бабочки в животе»
 **Plural:** *butterflies*
 **Countability:** countable
 
-An insect with large colorful wings that flies during the day.
+Butterfly has 3 distinct senses.
+
+**1. An insect with large colorful wings that flies during the day.** (бабочка)
 
 1. A *butterfly* landed on the edge of the birdbath.
 2. The milkweed brings *butterflies* into the yard.
 3. She photographed the *butterfly* before it flew off.
+
+**2. A fast swimming stroke in which both arms sweep forward over the water together.** (баттерфляй (стиль плавания))
+
+4. She swims the *butterfly* in the two-hundred-meter final.
+5. *Butterfly* is the hardest stroke to learn.
+6. He shaved a second off his *butterfly* time this season.
+
+**3. A fluttering feeling of nervousness in the stomach, usually used in the plural.** (мандраж, «бабочки в животе»)
+
+7. I still get *butterflies* before a presentation.
+8. She had *butterflies* the whole ride to the airport.
+9. A few *butterflies* before a big game are perfectly normal.
 
 ---
 
@@ -978,15 +1000,23 @@ A microscopic relative of the tick that lives in dust, bedding, or on plants.
 ### exoskeleton
 
 **Pronunciation:** /ˌɛksoʊˈskɛlətən/ &middot; *ek-soh-SKEL-uh-tuhn*
-**Русский:** наружный скелет, экзоскелет
+**Русский:** наружный скелет, экзоскелет; экзоскелет (носимое устройство)
 **Plural:** *exoskeletons*
 **Countability:** countable
 
-The hard outer shell that supports and protects an insect's body.
+Exoskeleton has 2 distinct senses.
+
+**1. The hard outer shell that supports and protects an insect's body.** (наружный скелет, экзоскелет)
 
 1. An insect grows by shedding its *exoskeleton*.
 2. The empty *exoskeleton* was still clinging to the bark.
 3. Crabs and beetles both have *exoskeletons*.
+
+**2. A powered frame worn on the body to support or strengthen a person's movements.** (экзоскелет (носимое устройство))
+
+4. The warehouse gave its lifters a powered *exoskeleton* to protect their backs.
+5. A robotic *exoskeleton* helped him walk again after the injury.
+6. The Army is testing *exoskeletons* for soldiers carrying heavy packs.
 
 ---
 
@@ -1428,16 +1458,24 @@ A large tropical lizard with a ridge of spines down its back.
 ### chameleon
 
 **Pronunciation:** /kəˈmiːliən/ &middot; *kuh-MEE-lee-uhn*
-**Русский:** хамелеон
+**Русский:** хамелеон; хамелеон (о человеке), приспособленец
 **Plural:** *chameleons*
 **Countability:** countable
 **Contrast:** The ch is a k sound: kuh-MEE-lee-uhn.
 
-A lizard that can change the color of its skin.
+Chameleon has 2 distinct senses.
+
+**1. A lizard that can change the color of its skin.** (хамелеон)
 
 1. The *chameleon* turned nearly black when it got cold.
 2. *Chameleons* move one slow step at a time.
 3. Each eye of a *chameleon* moves on its own.
+
+**2. A person who changes their behavior or opinions to suit whoever they are with.** (хамелеон (о человеке), приспособленец)
+
+4. As a candidate he was a *chameleon*, telling each crowd what it wanted to hear.
+5. A good salesman has to be something of a *chameleon*.
+6. She's a social *chameleon* and fits in anywhere.
 
 ---
 
@@ -1858,15 +1896,23 @@ A glass tank set up for keeping reptiles, amphibians, or plants.
 ### camouflage
 
 **Pronunciation:** /ˈkæməflɑːʒ/ &middot; *KAM-uh-flahzh*
-**Русский:** маскировка, камуфляж
+**Русский:** маскировка, камуфляж; камуфляж (ткань, одежда)
 **Countability:** uncountable
 **Contrast:** The ending is said -flahzh, with the soft zh of measure, not -flayj.
 
-Coloring or shape that lets an animal blend into its surroundings.
+Camouflage has 2 distinct senses.
+
+**1. Coloring or shape that lets an animal blend into its surroundings.** (маскировка, камуфляж)
 
 1. The moth's *camouflage* makes it invisible on bark.
 2. That lizard relies entirely on *camouflage*.
 3. Snow gives the hare perfect *camouflage* in winter.
+
+**2. Cloth or clothing printed in a mottled green-and-brown pattern, worn by soldiers and hunters.** (камуфляж (ткань, одежда))
+
+4. He hunts in *camouflage* from head to toe.
+5. Both boys wanted backpacks in *camouflage*.
+6. Soldiers in desert *camouflage* were posted at the gate.
 
 ---
 

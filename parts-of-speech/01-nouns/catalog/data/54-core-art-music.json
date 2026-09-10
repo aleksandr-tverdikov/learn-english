@@ -247,14 +247,58 @@
       "term": "portrait",
       "ipa": "/ˈpɔːrtrət/",
       "respell": "POR-truht",
-      "meaning": "A painting, drawing, or photograph of a particular person. ---",
+      "meaning": "Portrait has 3 distinct senses.",
       "examples": [
         "The portrait over the fireplace is of her grandfather.",
         "He painted portraits to pay the rent.",
-        "It's the best-known portrait in the collection."
+        "It's the best-known portrait in the collection.",
+        "Print the flyer in portrait, not landscape.",
+        "Turn the phone sideways and the video comes out of portrait.",
+        "The report reads better in portrait.",
+        "The book is a portrait of a factory town in decline.",
+        "Her essay paints an unflattering portrait of the mayor.",
+        "The documentary offers an honest portrait of farm life."
       ],
-      "senses": [],
-      "русский": "портрет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A painting, drawing, or photograph of a particular person",
+          "body": [
+            "(портрет)"
+          ],
+          "examples": [
+            "The portrait over the fireplace is of her grandfather.",
+            "He painted portraits to pay the rent.",
+            "It's the best-known portrait in the collection."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A page or image layout that is taller than it is wide",
+          "body": [
+            "(книжная ориентация (страницы))"
+          ],
+          "examples": [
+            "Print the flyer in portrait, not landscape.",
+            "Turn the phone sideways and the video comes out of portrait.",
+            "The report reads better in portrait."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A detailed description of someone or something in words or on film",
+          "body": [
+            "(описание, портрет (в книге, фильме))",
+            "---"
+          ],
+          "examples": [
+            "The book is a portrait of a factory town in decline.",
+            "Her essay paints an unflattering portrait of the mayor.",
+            "The documentary offers an honest portrait of farm life."
+          ]
+        }
+      ],
+      "русский": "портрет; книжная ориентация (страницы); описание, портрет (в книге, фильме)",
       "plural": "portraits",
       "countability": "countable",
       "contrast": "The second syllable is reduced: POR-truht, not POR-trayt."
@@ -487,14 +531,43 @@
       "term": "caricature",
       "ipa": "/ˈkɛrɪkətʃʊr/",
       "respell": "KER-ih-kuh-chur",
-      "meaning": "A drawing of someone with certain features exaggerated for comic effect. ---",
+      "meaning": "Caricature has 2 distinct senses.",
       "examples": [
         "A street artist drew a caricature of us with huge heads.",
         "The magazine ran a caricature of the mayor.",
-        "His early caricatures got him fired from the paper."
+        "His early caricatures got him fired from the paper.",
+        "His speech was a caricature of what small-town voters actually believe.",
+        "The villain is a caricature, not a character.",
+        "Critics said the movie reduced the whole city to a caricature."
       ],
-      "senses": [],
-      "русский": "шарж, карикатура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A drawing of someone with certain features exaggerated for comic effect",
+          "body": [
+            "(шарж, карикатура)"
+          ],
+          "examples": [
+            "A street artist drew a caricature of us with huge heads.",
+            "The magazine ran a caricature of the mayor.",
+            "His early caricatures got him fired from the paper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A description or portrayal that exaggerates a few traits until the subject seems ridiculous",
+          "body": [
+            "(утрированный образ, карикатурное изображение)",
+            "---"
+          ],
+          "examples": [
+            "His speech was a caricature of what small-town voters actually believe.",
+            "The villain is a caricature, not a character.",
+            "Critics said the movie reduced the whole city to a caricature."
+          ]
+        }
+      ],
+      "русский": "шарж, карикатура; утрированный образ, карикатурное изображение",
       "plural": "caricatures",
       "countability": "countable"
     },
@@ -590,14 +663,43 @@
       "term": "tapestry",
       "ipa": "/ˈtæpəstri/",
       "respell": "TAP-uh-stree",
-      "meaning": "A heavy cloth with a picture woven into it, hung on a wall. ---",
+      "meaning": "Tapestry has 2 distinct senses.",
       "examples": [
         "A huge tapestry hangs in the great hall.",
         "The tapestries were woven in Belgium.",
-        "Moths got into the tapestry years ago."
+        "Moths got into the tapestry years ago.",
+        "The neighborhood is a tapestry of languages and cuisines.",
+        "Her novel weaves a tapestry of small-town lives.",
+        "Immigration is part of the American tapestry."
       ],
-      "senses": [],
-      "русский": "гобелен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy cloth with a picture woven into it, hung on a wall",
+          "body": [
+            "(гобелен)"
+          ],
+          "examples": [
+            "A huge tapestry hangs in the great hall.",
+            "The tapestries were woven in Belgium.",
+            "Moths got into the tapestry years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rich, complicated mixture of many different things",
+          "body": [
+            "(пёстрое переплетение, богатая смесь)",
+            "---"
+          ],
+          "examples": [
+            "The neighborhood is a tapestry of languages and cuisines.",
+            "Her novel weaves a tapestry of small-town lives.",
+            "Immigration is part of the American tapestry."
+          ]
+        }
+      ],
+      "русский": "гобелен; пёстрое переплетение, богатая смесь",
       "plural": "tapestries",
       "countability": "countable"
     },
@@ -933,28 +1035,86 @@
       "term": "restoration",
       "ipa": "/ˌrɛstəˈreɪʃən/",
       "respell": "res-tuh-RAY-shuhn",
-      "meaning": "The work of repairing an old painting or building so it looks as it did. ---",
+      "meaning": "Restoration has 2 distinct senses.",
       "examples": [
         "The restoration of the fresco took six years.",
         "The painting is off the wall for restoration.",
-        "Careful restoration brought the colors back."
+        "Careful restoration brought the colors back.",
+        "Crews promised full restoration of power by midnight.",
+        "The treaty led to the restoration of diplomatic ties.",
+        "Voters approved the restoration of the library's funding."
       ],
-      "senses": [],
-      "русский": "реставрация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of repairing an old painting or building so it looks as it did",
+          "body": [
+            "(реставрация)"
+          ],
+          "examples": [
+            "The restoration of the fresco took six years.",
+            "The painting is off the wall for restoration.",
+            "Careful restoration brought the colors back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The bringing back of something that had stopped or been taken away",
+          "body": [
+            "(восстановление (порядка, электроснабжения, прав))",
+            "---"
+          ],
+          "examples": [
+            "Crews promised full restoration of power by midnight.",
+            "The treaty led to the restoration of diplomatic ties.",
+            "Voters approved the restoration of the library's funding."
+          ]
+        }
+      ],
+      "русский": "реставрация; восстановление (порядка, электроснабжения, прав)",
       "countability": "uncountable"
     },
     {
       "term": "composition",
       "ipa": "/ˌkɑːmpəˈzɪʃən/",
       "respell": "kahm-puh-ZISH-uhn",
-      "meaning": "The way the parts of a picture or piece of music are arranged, or a work itself. ---",
+      "meaning": "Composition has 2 distinct senses.",
       "examples": [
         "The composition of the photograph is what makes it work.",
         "He studied composition before he studied color.",
-        "She has written compositions for full orchestra."
+        "She has written compositions for full orchestra.",
+        "The lab tested the chemical composition of the soil.",
+        "The composition of the committee changed after the election.",
+        "Scientists are studying the composition of distant planets."
       ],
-      "senses": [],
-      "русский": "композиция; произведение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way the parts of a picture or piece of music are arranged, or a work itself",
+          "body": [
+            "(композиция; произведение)"
+          ],
+          "examples": [
+            "The composition of the photograph is what makes it work.",
+            "He studied composition before he studied color.",
+            "She has written compositions for full orchestra."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The parts or ingredients that make something up",
+          "body": [
+            "(состав)",
+            "---"
+          ],
+          "examples": [
+            "The lab tested the chemical composition of the soil.",
+            "The composition of the committee changed after the election.",
+            "Scientists are studying the composition of distant planets."
+          ]
+        }
+      ],
+      "русский": "композиция; произведение; состав",
       "plural": "compositions",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1035,14 +1195,58 @@
       "term": "background",
       "ipa": "/ˈbækɡraʊnd/",
       "respell": "BAK-grownd",
-      "meaning": "The part of a picture that seems farthest from the viewer. ---",
+      "meaning": "Background has 3 distinct senses.",
       "examples": [
         "The background of the portrait is just flat gold.",
         "She paints the background first and the figures last.",
-        "The mountains in the background are barely visible."
+        "The mountains in the background are barely visible.",
+        "She has a background in software engineering.",
+        "The company runs a background check on every new hire.",
+        "The students come from very different backgrounds.",
+        "Let me give you some background on the case before we start.",
+        "The article fills in the background to the strike.",
+        "The reporter asked for background off the record."
       ],
-      "senses": [],
-      "русский": "фон, задний план",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a picture that seems farthest from the viewer",
+          "body": [
+            "(фон, задний план)"
+          ],
+          "examples": [
+            "The background of the portrait is just flat gold.",
+            "She paints the background first and the figures last.",
+            "The mountains in the background are barely visible."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's education, work experience, and family circumstances",
+          "body": [
+            "(происхождение, образование и опыт (человека))"
+          ],
+          "examples": [
+            "She has a background in software engineering.",
+            "The company runs a background check on every new hire.",
+            "The students come from very different backgrounds."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The facts and history a person needs in order to understand a present situation",
+          "body": [
+            "(предыстория, контекст, справочная информация)",
+            "---"
+          ],
+          "examples": [
+            "Let me give you some background on the case before we start.",
+            "The article fills in the background to the strike.",
+            "The reporter asked for background off the record."
+          ]
+        }
+      ],
+      "русский": "фон, задний план; происхождение, образование и опыт (человека); предыстория, контекст, справочная информация",
       "plural": "backgrounds",
       "countability": "countable"
     },
@@ -1111,14 +1315,43 @@
       "term": "contrast",
       "ipa": "/ˈkɑːntræst/",
       "respell": "KAHN-trast",
-      "meaning": "The difference between the light and dark parts of a picture. ---",
+      "meaning": "Contrast has 2 distinct senses.",
       "examples": [
         "The photo has way too much contrast.",
         "The painting gets its power from the contrast between light and shadow.",
-        "Turn the contrast down a little."
+        "Turn the contrast down a little.",
+        "The contrast between the two brothers could not be sharper.",
+        "In contrast to last winter, this one has been mild.",
+        "Her calm was a welcome contrast to the noise around her."
       ],
-      "senses": [],
-      "русский": "контраст",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The difference between the light and dark parts of a picture",
+          "body": [
+            "(контраст)"
+          ],
+          "examples": [
+            "The photo has way too much contrast.",
+            "The painting gets its power from the contrast between light and shadow.",
+            "Turn the contrast down a little."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A clear difference between two things seen side by side",
+          "body": [
+            "(различие, противоположность)",
+            "---"
+          ],
+          "examples": [
+            "The contrast between the two brothers could not be sharper.",
+            "In contrast to last winter, this one has been mild.",
+            "Her calm was a welcome contrast to the noise around her."
+          ]
+        }
+      ],
+      "русский": "контраст; различие, противоположность",
       "countability": "uncountable",
       "contrast": "The noun is stressed on the first syllable (KAHN-trast); the verb to contrast on the second (kuhn-TRAST)."
     },
@@ -2923,14 +3156,43 @@
       "term": "symphony",
       "ipa": "/ˈsɪmfəni/",
       "respell": "SIM-fuh-nee",
-      "meaning": "A long piece of music in several parts, written for a full orchestra. ---",
+      "meaning": "Symphony has 2 distinct senses.",
       "examples": [
         "The symphony has four movements.",
         "He wrote nine symphonies in thirty years.",
-        "We heard his fifth symphony live last month."
+        "We heard his fifth symphony live last month.",
+        "She plays second violin in the city symphony.",
+        "We have tickets to the symphony on Friday.",
+        "The symphony is looking for a new conductor."
       ],
-      "senses": [],
-      "русский": "симфония",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long piece of music in several parts, written for a full orchestra",
+          "body": [
+            "(симфония)"
+          ],
+          "examples": [
+            "The symphony has four movements.",
+            "He wrote nine symphonies in thirty years.",
+            "We heard his fifth symphony live last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large orchestra, or a concert that it gives",
+          "body": [
+            "(симфонический оркестр; концерт такого оркестра)",
+            "---"
+          ],
+          "examples": [
+            "She plays second violin in the city symphony.",
+            "We have tickets to the symphony on Friday.",
+            "The symphony is looking for a new conductor."
+          ]
+        }
+      ],
+      "русский": "симфония; симфонический оркестр; концерт такого оркестра",
       "plural": "symphonies",
       "countability": "countable"
     },

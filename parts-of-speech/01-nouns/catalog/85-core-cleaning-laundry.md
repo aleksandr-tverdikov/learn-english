@@ -1492,14 +1492,22 @@ A furnace built to burn waste.
 ### disposal
 
 **Pronunciation:** /dɪˈspoʊzəl/ &middot; *dih-SPOH-zuhl*
-**Русский:** утилизация, вывоз (отходов)
+**Русский:** утилизация, вывоз (отходов); измельчитель пищевых отходов (в раковине)
 **Countability:** uncountable
 
-The act of getting rid of waste properly.
+Disposal has 2 distinct senses.
+
+**1. The act of getting rid of waste properly.** (утилизация, вывоз (отходов))
 
 1. The city handles *disposal* of household waste.
 2. Proper *disposal* of paint means a special drop-off.
 3. *Disposal* of the old mattress cost forty dollars.
+
+**2. The grinder in a kitchen sink drain that chops up food waste.** (измельчитель пищевых отходов (в раковине))
+
+4. Don't put coffee grounds down the *disposal*.
+5. The *disposal* is jammed again.
+6. Run cold water while the *disposal* is going.
 
 ---
 
@@ -1612,15 +1620,23 @@ Someone whose job is picking up household waste.
 ### custodian
 
 **Pronunciation:** /kʌˈstoʊdiən/ &middot; *kuh-STOH-dee-uhn*
-**Русский:** уборщик, завхоз (в школе, здании)
+**Русский:** уборщик, завхоз (в школе, здании); хранитель, попечитель
 **Plural:** *custodians*
 **Countability:** countable
 
-A person who cleans and takes care of a building.
+Custodian has 2 distinct senses.
+
+**1. A person who cleans and takes care of a building.** (уборщик, завхоз (в школе, здании))
 
 1. The *custodian* unlocked the gym for us.
 2. Ask the *custodian* for a mop.
 3. The school kept two *custodians* on the night shift.
+
+**2. A person or body responsible for looking after something valuable.** (хранитель, попечитель)
+
+4. The family served as *custodians* of the letters for a century.
+5. The library is the *custodian* of the town's records.
+6. He saw himself as a *custodian* of the tradition, not its owner.
 
 ---
 
@@ -1688,15 +1704,23 @@ A company you pay to send people to clean your home or office.
 ### housecleaning
 
 **Pronunciation:** /ˈhaʊsˌkliːnɪŋ/ &middot; *HOWS-klee-ning*
-**Русский:** уборка дома
+**Русский:** уборка дома; чистка кадров, кадровые перестановки
 **Countability:** uncountable
 **Contrast:** Written as one word; the verb phrase is *clean house*.
 
-The work of cleaning a home from top to bottom.
+Housecleaning has 2 distinct senses.
+
+**1. The work of cleaning a home from top to bottom.** (уборка дома)
 
 1. Saturday is for *housecleaning*.
 2. *Housecleaning* takes her most of the day.
 3. He does the *housecleaning* and she cooks.
+
+**2. The removal of a number of people from an organization in order to fix it.** (чистка кадров, кадровые перестановки)
+
+4. The new owner did some *housecleaning* in the front office.
+5. After a losing season, fans expected a major *housecleaning*.
+6. The scandal led to a *housecleaning* at the top of the agency.
 
 ---
 

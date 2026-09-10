@@ -129,15 +129,23 @@ A steep out-of-control fall, either of an airplane or of something like prices o
 ### tailwind
 
 **Pronunciation:** /ˈteɪlwɪnd/ &middot; *TAYL-wind*
-**Русский:** попутный ветер
+**Русский:** попутный ветер; благоприятный фактор, попутный ветер (перен.)
 **Plural:** *tailwinds*
 **Countability:** countable
 
-A wind blowing from behind, which helps you move faster.
+Tailwind has 2 distinct senses.
+
+**1. A wind blowing from behind, which helps you move faster.** (попутный ветер)
 
 1. A strong *tailwind* got us to Denver twenty minutes early.
 2. Cyclists love a *tailwind* on the ride home.
 3. Low interest rates were a *tailwind* for the housing market.
+
+**2. A condition that helps a business or an economy make progress.** (благоприятный фактор, попутный ветер (перен.))
+
+4. Lower interest rates gave the housing market a *tailwind*.
+5. The company expects a *tailwind* from the new tax rules.
+6. Cheap fuel has been a *tailwind* for the airlines all year.
 
 ---
 
@@ -167,16 +175,24 @@ Take has 2 distinct senses.
 ### takeaway
 
 **Pronunciation:** /ˈteɪkəweɪ/ &middot; *TAYK-uh-way*
-**Русский:** главный вывод, ключевая мысль
+**Русский:** главный вывод, ключевая мысль; перехват, отбор мяча (в спорте)
 **Plural:** *takeaways*
 **Countability:** countable
 **Contrast:** In American English a *takeaway* is a main point; the British also use it for food ordered to go, which Americans call *takeout*.
 
-The main point you are meant to remember from a talk, meeting, or article.
+Takeaway has 2 distinct senses.
+
+**1. The main point you are meant to remember from a talk, meeting, or article.** (главный вывод, ключевая мысль)
 
 1. The big *takeaway* is that costs are rising faster than sales.
 2. Here are three *takeaways* from last night's debate.
 3. My *takeaway* from the class was to start earlier.
+
+**2. A turnover that a defense forces in football or basketball.** (перехват, отбор мяча (в спорте))
+
+4. The defense had three *takeaways* in the first half.
+5. That fumble was the *takeaway* that won the game.
+6. They lead the league in *takeaways* this season.
 
 ---
 
@@ -452,14 +468,22 @@ A system for sorting things into named groups, especially living things.
 ### teaching
 
 **Pronunciation:** /ˈtiːtʃɪŋ/ &middot; *TEE-ching*
-**Русский:** преподавание, обучение
+**Русский:** преподавание, обучение; учение, наставления
 **Countability:** uncountable
 
-The work or profession of giving lessons.
+Teaching has 2 distinct senses.
+
+**1. The work or profession of giving lessons.** (преподавание, обучение)
 
 1. She went into *teaching* right after college.
 2. *Teaching* pays less than she expected.
 3. He splits his time between research and *teaching*.
+
+**2. The ideas and beliefs handed down by a religion or a great figure.** (учение, наставления)
+
+4. The book explains the *teachings* of the Buddha.
+5. He lived his whole life by the *teachings* of his church.
+6. Some of these *teachings* are two thousand years old.
 
 ---
 

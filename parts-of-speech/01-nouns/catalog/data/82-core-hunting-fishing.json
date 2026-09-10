@@ -351,14 +351,58 @@
       "term": "poaching",
       "ipa": "/ˈpoʊtʃɪŋ/",
       "respell": "POH-ching",
-      "meaning": "The crime of hunting or fishing without the right to do so. ---",
+      "meaning": "Poaching has 3 distinct senses.",
       "examples": [
         "Poaching carries a heavy fine in this state.",
         "He lost his license for three years for poaching.",
-        "Elephant poaching has dropped in some countries."
+        "Elephant poaching has dropped in some countries.",
+        "Poaching keeps the salmon moist and tender.",
+        "Gentle poaching is the whole trick with eggs.",
+        "She recommends poaching the pears in red wine.",
+        "The contract has a clause against poaching their staff.",
+        "Talent poaching got worse once the startups moved in.",
+        "He accused the bank of poaching his best clients."
       ],
-      "senses": [],
-      "русский": "браконьерство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crime of hunting or fishing without the right to do so",
+          "body": [
+            "(браконьерство)"
+          ],
+          "examples": [
+            "Poaching carries a heavy fine in this state.",
+            "He lost his license for three years for poaching.",
+            "Elephant poaching has dropped in some countries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of cooking food gently in liquid that is barely simmering",
+          "body": [
+            "(варка на медленном огне, припускание)"
+          ],
+          "examples": [
+            "Poaching keeps the salmon moist and tender.",
+            "Gentle poaching is the whole trick with eggs.",
+            "She recommends poaching the pears in red wine."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The practice of hiring away employees or taking customers from a rival",
+          "body": [
+            "(переманивание (сотрудников, клиентов))",
+            "---"
+          ],
+          "examples": [
+            "The contract has a clause against poaching their staff.",
+            "Talent poaching got worse once the startups moved in.",
+            "He accused the bank of poaching his best clients."
+          ]
+        }
+      ],
+      "русский": "браконьерство; варка на медленном огне, припускание; переманивание (сотрудников, клиентов)",
       "countability": "uncountable"
     },
     {
@@ -1848,14 +1892,43 @@
       "term": "stringer",
       "ipa": "/ˈstrɪŋər/",
       "respell": "STRING-ur",
-      "meaning": "A cord or chain used to hold caught fish in the water beside you. ---",
+      "meaning": "Stringer has 2 distinct senses.",
       "examples": [
         "He had five bluegill on the stringer.",
         "Keep the stringer in the shade so the fish stay fresh.",
-        "A turtle got into one of our stringers."
+        "A turtle got into one of our stringers.",
+        "The paper pays a stringer to cover the state capital.",
+        "She started out as a stringer for a wire service.",
+        "Stringers filed the first reports from the border."
       ],
-      "senses": [],
-      "русский": "кукан (для рыбы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cord or chain used to hold caught fish in the water beside you",
+          "body": [
+            "(кукан (для рыбы))"
+          ],
+          "examples": [
+            "He had five bluegill on the stringer.",
+            "Keep the stringer in the shade so the fish stay fresh.",
+            "A turtle got into one of our stringers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A part-time reporter who sends stories to a news organization from a place it does not staff",
+          "body": [
+            "(внештатный корреспондент)",
+            "---"
+          ],
+          "examples": [
+            "The paper pays a stringer to cover the state capital.",
+            "She started out as a stringer for a wire service.",
+            "Stringers filed the first reports from the border."
+          ]
+        }
+      ],
+      "русский": "кукан (для рыбы); внештатный корреспондент",
       "plural": "stringers",
       "countability": "countable"
     },

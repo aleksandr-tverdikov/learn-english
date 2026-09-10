@@ -78,28 +78,86 @@
       "term": "momentum",
       "ipa": "/moʊˈmɛntəm/",
       "respell": "moh-MEN-tuhm",
-      "meaning": "The force a moving object has because of its mass and its speed. ---",
+      "meaning": "Momentum has 2 distinct senses.",
       "examples": [
         "A truck has far more momentum than a bicycle.",
         "The sled lost momentum on the flat ground.",
-        "In a collision, the total momentum stays the same."
+        "In a collision, the total momentum stays the same.",
+        "The campaign gained momentum after the debate.",
+        "We lost all our momentum when the funding dried up.",
+        "The bill has real momentum in the Senate now."
       ],
-      "senses": [],
-      "русский": "импульс (количество движения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The force a moving object has because of its mass and its speed",
+          "body": [
+            "(импульс (количество движения))"
+          ],
+          "examples": [
+            "A truck has far more momentum than a bicycle.",
+            "The sled lost momentum on the flat ground.",
+            "In a collision, the total momentum stays the same."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The growing strength that a process or campaign builds up as it goes on",
+          "body": [
+            "(набранный ход, динамика, инерция (процесса))",
+            "---"
+          ],
+          "examples": [
+            "The campaign gained momentum after the debate.",
+            "We lost all our momentum when the funding dried up.",
+            "The bill has real momentum in the Senate now."
+          ]
+        }
+      ],
+      "русский": "импульс (количество движения); набранный ход, динамика, инерция (процесса)",
       "countability": "uncountable"
     },
     {
       "term": "friction",
       "ipa": "/ˈfrɪkʃən/",
       "respell": "FRIK-shuhn",
-      "meaning": "The force that slows down two surfaces rubbing against each other. ---",
+      "meaning": "Friction has 2 distinct senses.",
       "examples": [
         "Friction between the tires and the road slows the car.",
         "Oil reduces the friction inside the engine.",
-        "Without friction, you couldn't walk across the floor."
+        "Without friction, you couldn't walk across the floor.",
+        "There has been friction between the two departments for years.",
+        "The new schedule caused some friction at home.",
+        "A little friction on a team is normal."
       ],
-      "senses": [],
-      "русский": "трение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The force that slows down two surfaces rubbing against each other",
+          "body": [
+            "(трение)"
+          ],
+          "examples": [
+            "Friction between the tires and the road slows the car.",
+            "Oil reduces the friction inside the engine.",
+            "Without friction, you couldn't walk across the floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Disagreement or tension between people",
+          "body": [
+            "(трения, разногласия)",
+            "---"
+          ],
+          "examples": [
+            "There has been friction between the two departments for years.",
+            "The new schedule caused some friction at home.",
+            "A little friction on a team is normal."
+          ]
+        }
+      ],
+      "русский": "трение; трения, разногласия",
       "countability": "uncountable"
     },
     {
@@ -394,14 +452,58 @@
       "term": "contraction",
       "ipa": "/kənˈtrækʃən/",
       "respell": "kuhn-TRAK-shuhn",
-      "meaning": "The process of getting smaller in size. ---",
+      "meaning": "Contraction has 3 distinct senses.",
       "examples": [
         "Cooling leads to the contraction of the metal.",
         "The rails leave room for contraction in winter.",
-        "Contraction pulled the seams apart."
+        "Contraction pulled the seams apart.",
+        "\"Don't\" is a contraction of \"do not.\"",
+        "Avoid contractions in a formal cover letter.",
+        "The teacher circled every contraction in the essay.",
+        "Her contractions were five minutes apart by midnight.",
+        "The nurse timed each contraction and wrote it down.",
+        "A sudden contraction in his calf woke him up."
       ],
-      "senses": [],
-      "русский": "сжатие, сокращение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of getting smaller in size",
+          "body": [
+            "(сжатие, сокращение)"
+          ],
+          "examples": [
+            "Cooling leads to the contraction of the metal.",
+            "The rails leave room for contraction in winter.",
+            "Contraction pulled the seams apart."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shortened form of two words, written with an apostrophe",
+          "body": [
+            "(сокращённая форма слова (типа don't))"
+          ],
+          "examples": [
+            "\"Don't\" is a contraction of \"do not.\"",
+            "Avoid contractions in a formal cover letter.",
+            "The teacher circled every contraction in the essay."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A tightening of a muscle, especially of the womb during childbirth",
+          "body": [
+            "(схватка (при родах); сокращение мышцы)",
+            "---"
+          ],
+          "examples": [
+            "Her contractions were five minutes apart by midnight.",
+            "The nurse timed each contraction and wrote it down.",
+            "A sudden contraction in his calf woke him up."
+          ]
+        }
+      ],
+      "русский": "сжатие, сокращение; сокращённая форма слова (типа don't); схватка (при родах); сокращение мышцы",
       "countability": "uncountable"
     },
     {
@@ -525,14 +627,43 @@
       "term": "magnetism",
       "ipa": "/ˈmæɡnətɪzəm/",
       "respell": "MAG-nuh-tiz-uhm",
-      "meaning": "The force by which magnets attract or push away other objects. ---",
+      "meaning": "Magnetism has 2 distinct senses.",
       "examples": [
         "Magnetism and electricity are closely related.",
         "Heating the metal destroyed its magnetism.",
-        "The class covered magnetism last week."
+        "The class covered magnetism last week.",
+        "The candidate has a magnetism that no poll can measure.",
+        "Even on a bad night, his stage magnetism filled the room.",
+        "Her personal magnetism made strangers trust her right away."
       ],
-      "senses": [],
-      "русский": "магнетизм",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The force by which magnets attract or push away other objects",
+          "body": [
+            "(магнетизм)"
+          ],
+          "examples": [
+            "Magnetism and electricity are closely related.",
+            "Heating the metal destroyed its magnetism.",
+            "The class covered magnetism last week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong personal charm that draws people to someone",
+          "body": [
+            "(обаяние, притягательность)",
+            "---"
+          ],
+          "examples": [
+            "The candidate has a magnetism that no poll can measure.",
+            "Even on a bad night, his stage magnetism filled the room.",
+            "Her personal magnetism made strangers trust her right away."
+          ]
+        }
+      ],
+      "русский": "магнетизм; обаяние, притягательность",
       "countability": "uncountable"
     },
     {
@@ -554,14 +685,43 @@
       "term": "filament",
       "ipa": "/ˈfɪləmənt/",
       "respell": "FIL-uh-muhnt",
-      "meaning": "The thin wire inside a light bulb that glows when it heats up. ---",
+      "meaning": "Filament has 2 distinct senses.",
       "examples": [
         "The filament burned out after a year.",
         "You can see the filament through the clear glass.",
-        "Old bulbs used tungsten filaments."
+        "Old bulbs used tungsten filaments.",
+        "The printer ran out of filament halfway through the job.",
+        "Under the microscope the mold showed long white filaments.",
+        "A spider builds its web from filaments thinner than a hair."
       ],
-      "senses": [],
-      "русский": "нить накала",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thin wire inside a light bulb that glows when it heats up",
+          "body": [
+            "(нить накала)"
+          ],
+          "examples": [
+            "The filament burned out after a year.",
+            "You can see the filament through the clear glass.",
+            "Old bulbs used tungsten filaments."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very fine thread of material, such as the plastic thread fed into a 3D printer",
+          "body": [
+            "(нить, тонкое волокно)",
+            "---"
+          ],
+          "examples": [
+            "The printer ran out of filament halfway through the job.",
+            "Under the microscope the mold showed long white filaments.",
+            "A spider builds its web from filaments thinner than a hair."
+          ]
+        }
+      ],
+      "русский": "нить накала; нить, тонкое волокно",
       "plural": "filaments",
       "countability": "countable"
     },
@@ -984,14 +1144,43 @@
       "term": "solution",
       "ipa": "/səˈluːʃən/",
       "respell": "suh-LOO-shuhn",
-      "meaning": "A liquid with something dissolved in it. ---",
+      "meaning": "Solution has 2 distinct senses.",
       "examples": [
         "Pour the salt solution into the beaker.",
         "Prepare two solutions of different strength.",
-        "The solution turned blue when we added the powder."
+        "The solution turned blue when we added the powder.",
+        "Nobody at the meeting had a solution to the parking problem.",
+        "The solution to the puzzle is printed on the last page.",
+        "Cheaper housing is only part of the solution."
       ],
-      "senses": [],
-      "русский": "раствор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid with something dissolved in it",
+          "body": [
+            "(раствор)"
+          ],
+          "examples": [
+            "Pour the salt solution into the beaker.",
+            "Prepare two solutions of different strength.",
+            "The solution turned blue when we added the powder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of dealing with a problem, or the answer to a puzzle or question",
+          "body": [
+            "(решение (проблемы, задачи))",
+            "---"
+          ],
+          "examples": [
+            "Nobody at the meeting had a solution to the parking problem.",
+            "The solution to the puzzle is printed on the last page.",
+            "Cheaper housing is only part of the solution."
+          ]
+        }
+      ],
+      "русский": "раствор; решение (проблемы, задачи)",
       "plural": "solutions",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1058,14 +1247,43 @@
       "term": "catalyst",
       "ipa": "/ˈkætəlɪst/",
       "respell": "KAT-uh-list",
-      "meaning": "A substance that speeds up a chemical reaction without being used up. ---",
+      "meaning": "Catalyst has 2 distinct senses.",
       "examples": [
         "The reaction needs a catalyst to go quickly.",
         "Platinum acts as a catalyst in the exhaust system.",
-        "Enzymes are biological catalysts."
+        "Enzymes are biological catalysts.",
+        "The video was the catalyst for months of protest.",
+        "Her arrival was the catalyst the team needed.",
+        "Cheap rent acted as a catalyst for the neighborhood's revival."
       ],
-      "senses": [],
-      "русский": "катализатор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A substance that speeds up a chemical reaction without being used up",
+          "body": [
+            "(катализатор)"
+          ],
+          "examples": [
+            "The reaction needs a catalyst to go quickly.",
+            "Platinum acts as a catalyst in the exhaust system.",
+            "Enzymes are biological catalysts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or event that causes something important to start happening",
+          "body": [
+            "(толчок, побудительная причина)",
+            "---"
+          ],
+          "examples": [
+            "The video was the catalyst for months of protest.",
+            "Her arrival was the catalyst the team needed.",
+            "Cheap rent acted as a catalyst for the neighborhood's revival."
+          ]
+        }
+      ],
+      "русский": "катализатор; толчок, побудительная причина",
       "plural": "catalysts",
       "countability": "countable"
     },
@@ -1217,14 +1435,58 @@
       "term": "reaction",
       "ipa": "/riˈækʃən/",
       "respell": "ree-AK-shuhn",
-      "meaning": "A process in which substances change into different substances. ---",
+      "meaning": "Reaction has 3 distinct senses.",
       "examples": [
         "The reaction gives off a lot of heat.",
         "Some reactions will not start without a catalyst.",
-        "Mixing the two powders starts the reaction."
+        "Mixing the two powders starts the reaction.",
+        "His first reaction was to laugh.",
+        "The mayor's reaction to the report was cautious.",
+        "We filmed people's reactions to the surprise.",
+        "She had a reaction to the antibiotic and broke out in hives.",
+        "Peanuts can cause a severe reaction in some kids.",
+        "Serious reactions to the shot are rare."
       ],
-      "senses": [],
-      "русский": "реакция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A process in which substances change into different substances",
+          "body": [
+            "(реакция)"
+          ],
+          "examples": [
+            "The reaction gives off a lot of heat.",
+            "Some reactions will not start without a catalyst.",
+            "Mixing the two powders starts the reaction."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "What a person feels, says, or does in answer to something that happens",
+          "body": [
+            "(реакция, отклик (на события))"
+          ],
+          "examples": [
+            "His first reaction was to laugh.",
+            "The mayor's reaction to the report was cautious.",
+            "We filmed people's reactions to the surprise."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A harmful physical response of the body to a food, drug, or other substance",
+          "body": [
+            "(аллергическая реакция (на лекарство, еду))",
+            "---"
+          ],
+          "examples": [
+            "She had a reaction to the antibiotic and broke out in hives.",
+            "Peanuts can cause a severe reaction in some kids.",
+            "Serious reactions to the shot are rare."
+          ]
+        }
+      ],
+      "русский": "реакция; реакция, отклик (на события); аллергическая реакция (на лекарство, еду)",
       "plural": "reactions",
       "countability": "countable"
     },
@@ -1959,14 +2221,43 @@
       "term": "observation",
       "ipa": "/ˌɑːbzərˈveɪʃən/",
       "respell": "ahb-zur-VAY-shuhn",
-      "meaning": "Something you notice and write down while watching carefully. ---",
+      "meaning": "Observation has 2 distinct senses.",
       "examples": [
         "Write your observations in the notebook.",
         "One observation did not fit the pattern.",
-        "The theory rests on years of careful observations."
+        "The theory rests on years of careful observations.",
+        "That's a fair observation, and I don't have a good answer to it.",
+        "She made a few sharp observations about the new manager.",
+        "He offered the observation that nobody had actually read the contract."
       ],
-      "senses": [],
-      "русский": "наблюдение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you notice and write down while watching carefully",
+          "body": [
+            "(наблюдение)"
+          ],
+          "examples": [
+            "Write your observations in the notebook.",
+            "One observation did not fit the pattern.",
+            "The theory rests on years of careful observations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A remark or comment about something you have noticed",
+          "body": [
+            "(замечание, реплика)",
+            "---"
+          ],
+          "examples": [
+            "That's a fair observation, and I don't have a good answer to it.",
+            "She made a few sharp observations about the new manager.",
+            "He offered the observation that nobody had actually read the contract."
+          ]
+        }
+      ],
+      "русский": "наблюдение; замечание, реплика",
       "plural": "observations",
       "countability": "countable"
     },
@@ -2122,14 +2413,43 @@
       "term": "equation",
       "ipa": "/ɪˈkweɪʒən/",
       "respell": "ih-KWAY-zhuhn",
-      "meaning": "A mathematical statement that two amounts are equal. ---",
+      "meaning": "Equation has 2 distinct senses.",
       "examples": [
         "Solve the equation for the unknown value.",
         "The equation balances on both sides.",
-        "These equations describe how the wave moves."
+        "These equations describe how the wave moves.",
+        "Salary is only one part of the equation.",
+        "Once kids enter the equation, everything changes.",
+        "Take emotion out of the equation and just look at the numbers."
       ],
-      "senses": [],
-      "русский": "уравнение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mathematical statement that two amounts are equal",
+          "body": [
+            "(уравнение)"
+          ],
+          "examples": [
+            "Solve the equation for the unknown value.",
+            "The equation balances on both sides.",
+            "These equations describe how the wave moves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The set of factors that have to be weighed in a situation",
+          "body": [
+            "(совокупность факторов, расклад)",
+            "---"
+          ],
+          "examples": [
+            "Salary is only one part of the equation.",
+            "Once kids enter the equation, everything changes.",
+            "Take emotion out of the equation and just look at the numbers."
+          ]
+        }
+      ],
+      "русский": "уравнение; совокупность факторов, расклад",
       "plural": "equations",
       "countability": "countable",
       "contrast": "The ending is -ZHUHN, not -SHUHN."

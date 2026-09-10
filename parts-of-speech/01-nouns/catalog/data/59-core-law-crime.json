@@ -481,14 +481,43 @@
       "term": "sentence",
       "ipa": "/ˈsɛntəns/",
       "respell": "SEN-tuhns",
-      "meaning": "The punishment a court orders for someone found guilty. ---",
+      "meaning": "Sentence has 2 distinct senses.",
       "examples": [
         "He got a five-year sentence.",
         "The judge suspended the sentence.",
-        "Longer sentences haven't reduced the crime rate."
+        "Longer sentences haven't reduced the crime rate.",
+        "Write your answer in one complete sentence.",
+        "That sentence is missing a verb.",
+        "He reads the first two sentences of an article and stops."
       ],
-      "senses": [],
-      "русский": "приговор (наказание)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The punishment a court orders for someone found guilty",
+          "body": [
+            "(приговор (наказание))"
+          ],
+          "examples": [
+            "He got a five-year sentence.",
+            "The judge suspended the sentence.",
+            "Longer sentences haven't reduced the crime rate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of words that expresses a complete thought",
+          "body": [
+            "(предложение (в грамматике))",
+            "---"
+          ],
+          "examples": [
+            "Write your answer in one complete sentence.",
+            "That sentence is missing a verb.",
+            "He reads the first two sentences of an article and stops."
+          ]
+        }
+      ],
+      "русский": "приговор (наказание); предложение (в грамматике)",
       "plural": "sentences",
       "countability": "countable",
       "contrast": "The same word means a sentence in grammar; only context tells you which."
@@ -556,14 +585,43 @@
       "term": "testimony",
       "ipa": "/ˈtɛstɪmoʊni/",
       "respell": "TESS-tih-moh-nee",
-      "meaning": "What a witness formally states in court, usually under oath. ---",
+      "meaning": "Testimony has 2 distinct senses.",
       "examples": [
         "Her testimony took most of the afternoon.",
         "The jury heard testimony from six witnesses.",
-        "Without his testimony, the case falls apart."
+        "Without his testimony, the case falls apart.",
+        "The crowded gym is testimony to the coach's popularity.",
+        "The old barn stands as testimony to how carefully they built things.",
+        "Her steady hands are testimony to years of practice."
       ],
-      "senses": [],
-      "русский": "показания (свидетельские)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What a witness formally states in court, usually under oath",
+          "body": [
+            "(показания (свидетельские))"
+          ],
+          "examples": [
+            "Her testimony took most of the afternoon.",
+            "The jury heard testimony from six witnesses.",
+            "Without his testimony, the case falls apart."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that serves as clear proof of a fact or a quality",
+          "body": [
+            "(свидетельство, доказательство)",
+            "---"
+          ],
+          "examples": [
+            "The crowded gym is testimony to the coach's popularity.",
+            "The old barn stands as testimony to how carefully they built things.",
+            "Her steady hands are testimony to years of practice."
+          ]
+        }
+      ],
+      "русский": "показания (свидетельские); свидетельство, доказательство",
       "countability": "uncountable"
     },
     {
@@ -675,14 +733,43 @@
       "term": "indictment",
       "ipa": "/ɪnˈdaɪtmənt/",
       "respell": "in-DYT-muhnt",
-      "meaning": "A formal written accusation charging someone with a serious crime. ---",
+      "meaning": "Indictment has 2 distinct senses.",
       "examples": [
         "The indictment runs to forty pages.",
         "He was named in the indictment.",
-        "Two more indictments came down that week."
+        "Two more indictments came down that week.",
+        "The report is a damning indictment of the agency's safety record.",
+        "Six-hour waits are an indictment of the whole system.",
+        "Critics called the movie an indictment of American greed."
       ],
-      "senses": [],
-      "русский": "обвинительное заключение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal written accusation charging someone with a serious crime",
+          "body": [
+            "(обвинительное заключение)"
+          ],
+          "examples": [
+            "The indictment runs to forty pages.",
+            "He was named in the indictment.",
+            "Two more indictments came down that week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sign that something has failed badly and deserves harsh criticism",
+          "body": [
+            "(суровый упрёк, обвинение (перен.))",
+            "---"
+          ],
+          "examples": [
+            "The report is a damning indictment of the agency's safety record.",
+            "Six-hour waits are an indictment of the whole system.",
+            "Critics called the movie an indictment of American greed."
+          ]
+        }
+      ],
+      "русский": "обвинительное заключение; суровый упрёк, обвинение (перен.)",
       "plural": "indictments",
       "countability": "countable",
       "contrast": "The c is silent: in-DYT-muhnt, as if it were spelled inditement."
@@ -813,14 +900,43 @@
       "term": "settlement",
       "ipa": "/ˈsɛtəlmənt/",
       "respell": "SET-uhl-muhnt",
-      "meaning": "An agreement that ends a legal dispute without a trial. ---",
+      "meaning": "Settlement has 2 distinct senses.",
       "examples": [
         "They reached a settlement on the courthouse steps.",
         "The settlement was worth two million dollars.",
-        "Most settlements include a confidentiality clause."
+        "Most settlements include a confidentiality clause.",
+        "The first settlement here was a trading post on the river.",
+        "Archaeologists found three ancient settlements under the field.",
+        "A few families started a settlement at the edge of the desert."
       ],
-      "senses": [],
-      "русский": "мировое соглашение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An agreement that ends a legal dispute without a trial",
+          "body": [
+            "(мировое соглашение)"
+          ],
+          "examples": [
+            "They reached a settlement on the courthouse steps.",
+            "The settlement was worth two million dollars.",
+            "Most settlements include a confidentiality clause."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where a group of people have come to live, especially a small or newly founded one",
+          "body": [
+            "(поселение, посёлок)",
+            "---"
+          ],
+          "examples": [
+            "The first settlement here was a trading post on the river.",
+            "Archaeologists found three ancient settlements under the field.",
+            "A few families started a settlement at the edge of the desert."
+          ]
+        }
+      ],
+      "русский": "мировое соглашение; поселение, посёлок",
       "plural": "settlements",
       "countability": "countable"
     },
@@ -858,14 +974,43 @@
       "term": "compensation",
       "ipa": "/ˌkɑːmpənˈseɪʃən/",
       "respell": "kahm-puhn-SAY-shun",
-      "meaning": "Money paid to someone for injury, loss, or unfair treatment. ---",
+      "meaning": "Compensation has 2 distinct senses.",
       "examples": [
         "Workers got compensation for the layoffs.",
         "She received no compensation for the damage to her car.",
-        "The compensation barely covered her medical bills."
+        "The compensation barely covered her medical bills.",
+        "Her compensation package includes stock options.",
+        "The board voted to cut executive compensation.",
+        "Total compensation runs about ninety thousand a year."
       ],
-      "senses": [],
-      "русский": "компенсация, возмещение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money paid to someone for injury, loss, or unfair treatment",
+          "body": [
+            "(компенсация, возмещение)"
+          ],
+          "examples": [
+            "Workers got compensation for the layoffs.",
+            "She received no compensation for the damage to her car.",
+            "The compensation barely covered her medical bills."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pay and benefits an employee receives for work",
+          "body": [
+            "(оплата труда, вознаграждение)",
+            "---"
+          ],
+          "examples": [
+            "Her compensation package includes stock options.",
+            "The board voted to cut executive compensation.",
+            "Total compensation runs about ninety thousand a year."
+          ]
+        }
+      ],
+      "русский": "компенсация, возмещение; оплата труда, вознаграждение",
       "countability": "uncountable",
       "contrast": "Uncountable — never compensations."
     },
@@ -1007,14 +1152,43 @@
       "term": "regulation",
       "ipa": "/ˌrɛɡjəˈleɪʃən/",
       "respell": "reg-yuh-LAY-shun",
-      "meaning": "An official rule made by a government agency. ---",
+      "meaning": "Regulation has 2 distinct senses.",
       "examples": [
         "The new regulation limits overtime.",
         "Safety regulations changed after the fire.",
-        "They were fined for breaking a federal regulation."
+        "They were fined for breaking a federal regulation.",
+        "The bill calls for tighter regulation of online lenders.",
+        "Sweating helps with the regulation of body temperature.",
+        "The industry has resisted regulation for decades."
       ],
-      "senses": [],
-      "русский": "норма, предписание, правило",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official rule made by a government agency",
+          "body": [
+            "(норма, предписание, правило)"
+          ],
+          "examples": [
+            "The new regulation limits overtime.",
+            "Safety regulations changed after the fire.",
+            "They were fined for breaking a federal regulation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The controlling of an activity or process by rules or by a system",
+          "body": [
+            "(регулирование, контроль)",
+            "---"
+          ],
+          "examples": [
+            "The bill calls for tighter regulation of online lenders.",
+            "Sweating helps with the regulation of body temperature.",
+            "The industry has resisted regulation for decades."
+          ]
+        }
+      ],
+      "русский": "норма, предписание, правило; регулирование, контроль",
       "plural": "regulations",
       "countability": "countable"
     },
@@ -1022,14 +1196,43 @@
       "term": "constitution",
       "ipa": "/ˌkɑːnstəˈtuːʃən/",
       "respell": "kahn-stuh-TOO-shun",
-      "meaning": "The basic set of laws by which a country or state is governed. ---",
+      "meaning": "Constitution has 2 distinct senses.",
       "examples": [
         "The constitution protects free speech.",
         "That law was found to violate the state constitution.",
-        "Most state constitutions are far longer than the federal one."
+        "Most state constitutions are far longer than the federal one.",
+        "He has a strong constitution and shook off the flu in a day.",
+        "The climb is not for anyone with a weak constitution.",
+        "Her constitution has never been the same since the surgery."
       ],
-      "senses": [],
-      "русский": "конституция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The basic set of laws by which a country or state is governed",
+          "body": [
+            "(конституция)"
+          ],
+          "examples": [
+            "The constitution protects free speech.",
+            "That law was found to violate the state constitution.",
+            "Most state constitutions are far longer than the federal one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The general health and physical strength of a person's body",
+          "body": [
+            "(телосложение, здоровье, организм)",
+            "---"
+          ],
+          "examples": [
+            "He has a strong constitution and shook off the flu in a day.",
+            "The climb is not for anyone with a weak constitution.",
+            "Her constitution has never been the same since the surgery."
+          ]
+        }
+      ],
+      "русский": "конституция; телосложение, здоровье, организм",
       "plural": "constitutions",
       "countability": "countable",
       "contrast": "Americans say -TOO-shuhn; the British say -TYOO-shuhn."
@@ -1216,14 +1419,43 @@
       "term": "innocence",
       "ipa": "/ˈɪnəsəns/",
       "respell": "IN-uh-suhns",
-      "meaning": "The state of not being guilty of a crime. ---",
+      "meaning": "Innocence has 2 distinct senses.",
       "examples": [
         "He maintained his innocence for twenty years.",
         "New evidence proved her innocence.",
-        "The whole town believed in his innocence."
+        "The whole town believed in his innocence.",
+        "The photographs capture the innocence of childhood.",
+        "He lost his innocence the summer his father left.",
+        "There is a sweet innocence about the way she asks questions."
       ],
-      "senses": [],
-      "русский": "невиновность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of not being guilty of a crime",
+          "body": [
+            "(невиновность)"
+          ],
+          "examples": [
+            "He maintained his innocence for twenty years.",
+            "New evidence proved her innocence.",
+            "The whole town believed in his innocence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lack of experience of the harder or uglier parts of life",
+          "body": [
+            "(невинность, наивность)",
+            "---"
+          ],
+          "examples": [
+            "The photographs capture the innocence of childhood.",
+            "He lost his innocence the summer his father left.",
+            "There is a sweet innocence about the way she asks questions."
+          ]
+        }
+      ],
+      "русский": "невиновность; невинность, наивность",
       "countability": "uncountable"
     },
     {
@@ -2630,14 +2862,43 @@
       "term": "execution",
       "ipa": "/ˌɛksɪˈkjuːʃən/",
       "respell": "ek-sih-KYOO-shun",
-      "meaning": "The act of killing someone as a legal punishment. ---",
+      "meaning": "Execution has 2 distinct senses.",
       "examples": [
         "The execution was stayed at the last minute.",
         "Protesters gathered outside the prison before the execution.",
-        "Executions have become rare in most states."
+        "Executions have become rare in most states.",
+        "The idea was fine; the execution was terrible.",
+        "The gymnast lost points on execution, not difficulty.",
+        "Strategy is the easy part — execution is what separates them."
       ],
-      "senses": [],
-      "русский": "казнь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of killing someone as a legal punishment",
+          "body": [
+            "(казнь)"
+          ],
+          "examples": [
+            "The execution was stayed at the last minute.",
+            "Protesters gathered outside the prison before the execution.",
+            "Executions have become rare in most states."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The carrying out of a plan, or the way something is performed",
+          "body": [
+            "(исполнение, реализация)",
+            "---"
+          ],
+          "examples": [
+            "The idea was fine; the execution was terrible.",
+            "The gymnast lost points on execution, not difficulty.",
+            "Strategy is the easy part — execution is what separates them."
+          ]
+        }
+      ],
+      "русский": "казнь; исполнение, реализация",
       "plural": "executions",
       "countability": "countable"
     },
@@ -3061,14 +3322,43 @@
       "term": "forensics",
       "ipa": "/fəˈrɛnzɪks/",
       "respell": "fuh-REN-ziks",
-      "meaning": "The use of science to examine evidence from crimes. ---",
+      "meaning": "Forensics has 2 distinct senses.",
       "examples": [
         "Forensics tied him to the scene.",
         "She studied forensics in college.",
-        "The lab sent the sample to forensics."
+        "The lab sent the sample to forensics.",
+        "She joined the forensics team her sophomore year.",
+        "The forensics tournament runs all day Saturday.",
+        "He won a state medal in forensics for dramatic interpretation."
       ],
-      "senses": [],
-      "русский": "криминалистика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The use of science to examine evidence from crimes",
+          "body": [
+            "(криминалистика)"
+          ],
+          "examples": [
+            "Forensics tied him to the scene.",
+            "She studied forensics in college.",
+            "The lab sent the sample to forensics."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Competitive public speaking and debate as a school activity",
+          "body": [
+            "(риторика и дебаты (школьные соревнования))",
+            "---"
+          ],
+          "examples": [
+            "She joined the forensics team her sophomore year.",
+            "The forensics tournament runs all day Saturday.",
+            "He won a state medal in forensics for dramatic interpretation."
+          ]
+        }
+      ],
+      "русский": "криминалистика; риторика и дебаты (школьные соревнования)",
       "countability": "uncountable",
       "contrast": "Ends in -s but takes a singular verb: forensics is, not forensics are."
     },
@@ -3076,14 +3366,43 @@
       "term": "fingerprint",
       "ipa": "/ˈfɪŋɡərprɪnt/",
       "respell": "FING-gur-print",
-      "meaning": "The mark left by the pattern of lines on a fingertip. ---",
+      "meaning": "Fingerprint has 2 distinct senses.",
       "examples": [
         "They lifted a fingerprint off the glass.",
         "His fingerprints were on the steering wheel.",
-        "A single fingerprint broke the case open."
+        "A single fingerprint broke the case open.",
+        "Every star leaves a chemical fingerprint in its light.",
+        "The virus has a genetic fingerprint that researchers can track.",
+        "Analysts matched the software's digital fingerprint to an earlier attack."
       ],
-      "senses": [],
-      "русский": "отпечаток пальца",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The mark left by the pattern of lines on a fingertip",
+          "body": [
+            "(отпечаток пальца)"
+          ],
+          "examples": [
+            "They lifted a fingerprint off the glass.",
+            "His fingerprints were on the steering wheel.",
+            "A single fingerprint broke the case open."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pattern or trace so distinctive that it identifies where something came from",
+          "body": [
+            "(отличительный след, характерный «отпечаток»)",
+            "---"
+          ],
+          "examples": [
+            "Every star leaves a chemical fingerprint in its light.",
+            "The virus has a genetic fingerprint that researchers can track.",
+            "Analysts matched the software's digital fingerprint to an earlier attack."
+          ]
+        }
+      ],
+      "русский": "отпечаток пальца; отличительный след, характерный «отпечаток»",
       "plural": "fingerprints",
       "countability": "countable"
     },
@@ -3167,14 +3486,43 @@
       "term": "ammunition",
       "ipa": "/ˌæmjəˈnɪʃən/",
       "respell": "am-yuh-NISH-un",
-      "meaning": "Bullets and shells fired from guns. ---",
+      "meaning": "Ammunition has 2 distinct senses.",
       "examples": [
         "They found ammunition stored in the closet.",
         "He bought a box of ammunition at the sporting goods store.",
-        "The rifle was seized along with the ammunition."
+        "The rifle was seized along with the ammunition.",
+        "The leaked emails gave his critics plenty of ammunition.",
+        "Don't hand them ammunition by missing the deadline.",
+        "Every small mistake became ammunition for the other side."
       ],
-      "senses": [],
-      "русский": "боеприпасы, патроны",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Bullets and shells fired from guns",
+          "body": [
+            "(боеприпасы, патроны)"
+          ],
+          "examples": [
+            "They found ammunition stored in the closet.",
+            "He bought a box of ammunition at the sporting goods store.",
+            "The rifle was seized along with the ammunition."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Facts or information used to attack someone in an argument",
+          "body": [
+            "(аргументы против, компромат)",
+            "---"
+          ],
+          "examples": [
+            "The leaked emails gave his critics plenty of ammunition.",
+            "Don't hand them ammunition by missing the deadline.",
+            "Every small mistake became ammunition for the other side."
+          ]
+        }
+      ],
+      "русский": "боеприпасы, патроны; аргументы против, компромат",
       "countability": "uncountable",
       "contrast": "Uncountable in English although Russian патроны is plural — say some ammunition, never ammunitions."
     },

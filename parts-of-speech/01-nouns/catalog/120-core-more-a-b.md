@@ -495,14 +495,22 @@ A thorny tree or shrub of warm regions, often with small yellow flowers.
 ### acceptance
 
 **Pronunciation:** /əkˈsɛptəns/ &middot; *uhk-SEP-tuhns*
-**Русский:** принятие; согласие
+**Русский:** принятие; согласие; признание, принятие (окружающими)
 **Countability:** uncountable
 
-The act of agreeing to take something, or of coming to terms with a fact.
+Acceptance has 2 distinct senses.
+
+**1. The act of agreeing to take something, or of coming to terms with a fact.** (принятие; согласие)
 
 1. Her *acceptance* letter came in March.
 2. *Acceptance* of the new rules took about a year.
 3. He reached a kind of quiet *acceptance* after the diagnosis.
+
+**2. Approval or welcome from other people.** (признание, принятие (окружающими))
+
+4. The new kid slowly won *acceptance* from his classmates.
+5. The idea has gained wide *acceptance* among doctors.
+6. All he wanted was *acceptance* from the people he grew up with.
 
 ---
 
@@ -656,14 +664,22 @@ A devoted follower or assistant, especially of a leader or a religious figure.
 ### acrobatics
 
 **Pronunciation:** /ˌækrəˈbætɪks/ &middot; *ak-ruh-BAT-iks*
-**Русский:** акробатика
+**Русский:** акробатика; словесная (умственная) эквилибристика
 **Countability:** uncountable
 
-Difficult jumps, flips, and balancing performed as a skill.
+Acrobatics has 2 distinct senses.
+
+**1. Difficult jumps, flips, and balancing performed as a skill.** (акробатика)
 
 1. The show mixes dance with *acrobatics*.
 2. Her *acrobatics* on the balance beam brought the crowd to its feet.
 3. It took some verbal *acrobatics* to explain the delay.
+
+**2. Clever, complicated maneuvering with words, numbers, or ideas.** (словесная (умственная) эквилибристика)
+
+4. It took real verbal *acrobatics* to avoid answering the question.
+5. The budget balances only after some accounting *acrobatics*.
+6. No amount of legal *acrobatics* will make that contract valid.
 
 ---
 
@@ -2802,14 +2818,22 @@ Animal has 2 distinct senses.
 ### animation
 
 **Pronunciation:** /ˌænɪˈmeɪʃən/ &middot; *an-ih-MAY-shuhn*
-**Русский:** анимация, мультипликация
+**Русский:** анимация, мультипликация; оживление, воодушевление
 **Countability:** uncountable
 
-The technique of making drawings or models appear to move on screen.
+Animation has 2 distinct senses.
+
+**1. The technique of making drawings or models appear to move on screen.** (анимация, мультипликация)
 
 1. The *animation* in that film took four years to finish.
 2. He studied *animation* at art school.
 3. Hand-drawn *animation* is rare these days.
+
+**2. Liveliness and energy in the way a person speaks or acts.** (оживление, воодушевление)
+
+4. She described the trip with great *animation*.
+5. His face lit up with *animation* when we mentioned fishing.
+6. He talks about his grandchildren with unusual *animation*.
 
 ---
 
@@ -3487,29 +3511,51 @@ Someone whose job is to decide what property is worth.
 ### apprehension
 
 **Pronunciation:** /ˌæprɪˈhɛnʃən/ &middot; *ap-rih-HEN-shun*
-**Русский:** опасение, тревога
+**Русский:** опасение, тревога; задержание, арест
 **Countability:** uncountable
 
-A feeling of worry that something bad is about to happen.
+Apprehension has 2 distinct senses.
+
+**1. A feeling of worry that something bad is about to happen.** (опасение, тревога)
 
 1. She opened the letter with some *apprehension*.
 2. There is real *apprehension* about the layoffs.
 3. He watched the storm approach with growing *apprehension*.
+
+**2. The catching and arresting of someone by the police.** (задержание, арест)
+
+4. The tip led to the *apprehension* of two suspects.
+5. Police credited a neighbor with the *apprehension* of the burglar.
+6. A reward was offered for information leading to his *apprehension*.
 
 ---
 
 ### approach
 
 **Pronunciation:** /əˈproʊtʃ/ &middot; *uh-PROHCH*
-**Русский:** подход (способ); приближение
+**Русский:** подход (способ); приближение; приближение; подъезд, подход (дорога)
 **Plural:** *approaches*
 **Countability:** countable
 
-A way of dealing with a problem or a task.
+Approach has 3 distinct senses.
+
+**1. A way of dealing with a problem or a task.** (подход (способ); приближение)
 
 1. Her *approach* to teaching is very hands-on.
 2. We tried three different *approaches* before one worked.
 3. The company needs a fresh *approach* to hiring.
+
+**2. The act of coming nearer in space or in time.** (приближение)
+
+4. At our *approach*, the deer bolted into the woods.
+5. The *approach* of winter emptied the campground.
+6. The pilot began his final *approach* to the runway.
+
+**3. A road or path that leads up to a place.** (подъезд, подход (дорога))
+
+7. The *approach* to the bridge was backed up for a mile.
+8. A gravel *approach* leads to the farmhouse.
+9. Crews are repaving both *approaches* to the tunnel.
 
 ---
 
@@ -3917,15 +3963,23 @@ The court hearing where a person is formally charged and enters a plea.
 ### arrangement
 
 **Pronunciation:** /əˈreɪndʒmənt/ &middot; *uh-RAYNJ-munt*
-**Русский:** договорённость; расположение
+**Русский:** договорённость; расположение; аранжировка
 **Plural:** *arrangements*
 **Countability:** countable
 
-A plan agreed with someone, or the way things are placed.
+Arrangement has 2 distinct senses.
+
+**1. A plan agreed with someone, or the way things are placed.** (договорённость; расположение)
 
 1. We have an *arrangement* about who picks up the kids.
 2. The new seating *arrangement* works much better.
 3. Travel *arrangements* will be emailed to you.
+
+**2. A version of a piece of music adapted for particular voices or instruments.** (аранжировка)
+
+4. The band played a jazz *arrangement* of the national anthem.
+5. Her *arrangement* for strings is gorgeous.
+6. He wrote *arrangements* for a big band in the fifties.
 
 ---
 
@@ -3991,16 +4045,24 @@ An animal with a hard outer shell and jointed legs, such as an insect, spider, o
 ### artifact
 
 **Pronunciation:** /ˈɑːrtɪfækt/ &middot; *AR-tih-fakt*
-**Русский:** артефакт, древний предмет
+**Русский:** артефакт, древний предмет; артефакт (искажение изображения или данных)
 **Plural:** *artifacts*
 **Countability:** countable
 **Contrast:** Americans write *artifact*; the British write *artefact*.
 
-An object made by people, especially an old one studied by historians.
+Artifact has 2 distinct senses.
+
+**1. An object made by people, especially an old one studied by historians.** (артефакт, древний предмет)
 
 1. The *artifact* dates from about 800 BC.
 2. Thousands of *artifacts* were dug up at the site.
 3. Every *artifact* in the case is labeled.
+
+**2. An unwanted mark or distortion in an image, a recording, or data, caused by the equipment or the process.** (артефакт (искажение изображения или данных))
+
+4. The photo is full of compression *artifacts*.
+5. Movement during the scan created an *artifact* on the image.
+6. That spike in the data is an *artifact* of the sampling method.
 
 ---
 
@@ -4127,15 +4189,23 @@ A confident statement that something is true, given without proof.
 ### assessment
 
 **Pronunciation:** /əˈsɛsmənt/ &middot; *uh-SESS-munt*
-**Русский:** оценка (положения, знаний)
+**Русский:** оценка (положения, знаний); оценка стоимости (для налога); взнос, сбор
 **Plural:** *assessments*
 **Countability:** countable
 
-A judgment about how good, valuable, or serious something is.
+Assessment has 2 distinct senses.
+
+**1. A judgment about how good, valuable, or serious something is.** (оценка (положения, знаний))
 
 1. Her *assessment* of the risk turned out to be right.
 2. Students take a reading *assessment* twice a year.
 3. The two *assessments* reached opposite conclusions.
+
+**2. A sum charged to owners or members, or the official valuation it is based on.** (оценка стоимости (для налога); взнос, сбор)
+
+4. The condo board approved a special *assessment* of $2,000 per unit.
+5. Our property tax *assessment* went up after the remodel.
+6. Homeowners have thirty days to appeal the county's *assessment*.
 
 ---
 
@@ -4172,15 +4242,23 @@ Someone you work with, especially a junior partner or a store employee.
 ### assurance
 
 **Pronunciation:** /əˈʃʊrəns/ &middot; *uh-SHOOR-unss*
-**Русский:** заверение, гарантия
+**Русский:** заверение, гарантия; уверенность (в себе)
 **Plural:** *assurances*
 **Countability:** countable
 
-A promise meant to make someone feel confident that something will happen.
+Assurance has 2 distinct senses.
+
+**1. A promise meant to make someone feel confident that something will happen.** (заверение, гарантия)
 
 1. He gave us his *assurance* that the roof would hold.
 2. The airline's *assurances* meant nothing by then.
 3. We need written *assurance* before we sign.
+
+**2. Confidence in yourself and in what you are doing.** (уверенность (в себе))
+
+4. She answered the questions with quiet *assurance*.
+5. He handled the crisis with the *assurance* of a veteran.
+6. The young pitcher throws with surprising *assurance*.
 
 ---
 
@@ -4607,15 +4685,23 @@ The freedom to govern yourself or make your own decisions.
 ### autopilot
 
 **Pronunciation:** /ˈɔːtoʊˌpaɪlət/ &middot; *AW-toh-py-luht*
-**Русский:** автопилот
+**Русский:** автопилот; автоматизм, действие «на автомате»
 **Plural:** *autopilots*
 **Countability:** countable
 
-A device that steers an aircraft or ship without a person controlling it.
+Autopilot has 2 distinct senses.
+
+**1. A device that steers an aircraft or ship without a person controlling it.** (автопилот)
 
 1. The captain switched on the *autopilot* once we reached cruising altitude.
 2. I drove home on *autopilot* and barely remember the trip.
 3. Big jets carry two independent *autopilots*.
+
+**2. A state of doing something automatically, without thinking about it.** (автоматизм, действие «на автомате»)
+
+4. I was so tired I drove home on *autopilot*.
+5. After twenty years at the desk, she answers those calls on *autopilot*.
+6. He sat through the whole meeting on *autopilot* and remembers none of it.
 
 ---
 
@@ -5045,15 +5131,23 @@ A Russian string instrument with a triangular body and three strings.
 ### ballgame
 
 **Pronunciation:** /ˈbɔːlɡeɪm/ &middot; *BAWL-gaym*
-**Русский:** матч (обычно бейсбольный)
+**Русский:** матч (обычно бейсбольный); ситуация, расклад
 **Plural:** *ballgames*
 **Countability:** countable
 
-A game played with a ball, especially a baseball game.
+Ballgame has 2 distinct senses.
+
+**1. A game played with a ball, especially a baseball game.** (матч (обычно бейсбольный))
 
 1. We're taking the kids to a *ballgame* on Saturday.
 2. Rain delayed the *ballgame* by two hours.
 3. Once he joined the team, it was a whole new *ballgame*.
+
+**2. A situation or set of circumstances, especially one that has completely changed.** (ситуация, расклад)
+
+4. Once the funding came through, it was a whole new *ballgame*.
+5. Coaching high school and coaching college are two different *ballgames*.
+6. With rates this high, buying a house is a different *ballgame*.
 
 ---
 
@@ -5905,15 +5999,23 @@ Something that shows how a larger trend is likely to go.
 ### belonging
 
 **Pronunciation:** /bɪˈlɔːŋɪŋ/ &middot; *bih-LAWNG-ing*
-**Русский:** чувство принадлежности, сопричастность
+**Русский:** чувство принадлежности, сопричастность; вещи, пожитки, личные принадлежности
 **Countability:** uncountable
 **Contrast:** The plural *belongings* means your possessions, not this feeling.
 
-The feeling of being accepted as part of a group or place.
+Belonging has 2 distinct senses.
+
+**1. The feeling of being accepted as part of a group or place.** (чувство принадлежности, сопричастность)
 
 1. The club gave her a real sense of *belonging*.
 2. *Belonging* matters more to teenagers than they admit.
 3. New employees need a feeling of *belonging* early on.
+
+**2. The things a person owns, especially ones they carry or keep with them (used only in the plural).** (вещи, пожитки, личные принадлежности)
+
+4. Please take all your *belongings* with you when you leave the train.
+5. The fire destroyed most of their *belongings*.
+6. She packed her *belongings* into two suitcases and moved out.
 
 ---
 
@@ -6820,14 +6922,22 @@ A tool that makes a very hot flame for melting or burning things.
 ### bluegrass
 
 **Pronunciation:** /ˈbluːɡræs/ &middot; *BLOO-gras*
-**Русский:** блюграсс (стиль американской кантри-музыки)
+**Русский:** блюграсс (стиль американской кантри-музыки); мятлик (газонная и пастбищная трава)
 **Countability:** uncountable
 
-A fast style of American country music played on banjo, fiddle, and guitar.
+Bluegrass has 2 distinct senses.
+
+**1. A fast style of American country music played on banjo, fiddle, and guitar.** (блюграсс (стиль американской кантри-музыки))
 
 1. The festival is all *bluegrass* and barbecue.
 2. He grew up playing *bluegrass* in Kentucky.
 3. *Bluegrass* borrows a lot from old Irish tunes.
+
+**2. A tough lawn and pasture grass with a bluish-green color.** (мятлик (газонная и пастбищная трава))
+
+4. He reseeded the front lawn with Kentucky *bluegrass*.
+5. The pasture is mostly *bluegrass* and clover.
+6. *Bluegrass* holds up well through a cold winter.
 
 ---
 
@@ -7029,15 +7139,23 @@ An attack in which a bomb is dropped or set off.
 ### bombshell
 
 **Pronunciation:** /ˈbɑːmʃɛl/ &middot; *BAHM-shel*
-**Русский:** сенсация, ошеломляющая новость
+**Русский:** сенсация, ошеломляющая новость; секс-бомба, эффектная красотка
 **Plural:** *bombshells*
 **Countability:** countable
 
-A piece of shocking, completely unexpected news.
+Bombshell has 2 distinct senses.
+
+**1. A piece of shocking, completely unexpected news.** (сенсация, ошеломляющая новость)
 
 1. The report dropped a *bombshell*.
 2. Her resignation was a *bombshell*.
 3. The hearing produced two *bombshells* in one afternoon.
+
+**2. An informal word for a strikingly attractive woman.** (секс-бомба, эффектная красотка)
+
+4. She was cast as the blonde *bombshell* in the detective picture.
+5. In the fifties the studio marketed her as a *bombshell*.
+6. The part called for a *bombshell*, not the girl next door.
 
 ---
 
@@ -7566,16 +7684,24 @@ Physical strength, especially muscle.
 ### breadcrumb
 
 **Pronunciation:** /ˈbrɛdkrʌm/ &middot; *BRED-krum*
-**Русский:** хлебная крошка; панировочные сухари
+**Русский:** хлебная крошка; панировочные сухари; хлебная крошка (след, подсказка); навигационная цепочка
 **Plural:** *breadcrumbs*
 **Countability:** countable
 **Contrast:** The b in crumb is silent: BRED-krum.
 
-A tiny piece of bread, often dried and used to coat food before frying.
+Breadcrumb has 2 distinct senses.
+
+**1. A tiny piece of bread, often dried and used to coat food before frying.** (хлебная крошка; панировочные сухари)
 
 1. Dip the chicken in egg, then roll it in *breadcrumbs*.
 2. A single *breadcrumb* was all that was left on the plate.
 3. She scattered *breadcrumbs* on the path for the ducks.
+
+**2. One of a trail of small clues or links left behind to show the way.** (хлебная крошка (след, подсказка); навигационная цепочка)
+
+4. The author drops *breadcrumbs* in chapter one that only make sense at the end.
+5. Click the *breadcrumbs* at the top of the page to get back to the main category.
+6. Investigators followed a *breadcrumb* trail of small cash payments.
 
 ---
 

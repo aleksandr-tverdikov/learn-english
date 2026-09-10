@@ -1243,31 +1243,47 @@ Dye used to change the shade of someone's hair.
 ### highlights
 
 **Pronunciation:** /ˈhaɪlaɪts/ &middot; *HY-lyts*
-**Русский:** мелирование
+**Русский:** мелирование; лучшие моменты, нарезка (обзор матча)
 **Plural:** *highlights*
 **Countability:** countable
 **Contrast:** In the hair sense the word is nearly always plural: *highlights*.
 
-Lighter streaks put into the hair with color or bleach.
+Highlights has 2 distinct senses.
+
+**1. Lighter streaks put into the hair with color or bleach.** (мелирование)
 
 1. She got *highlights* around her face.
 2. The *highlights* have grown out an inch.
 3. *Highlights* take twice as long as a single color.
+
+**2. The best moments of a game or event, especially shown afterward as a short video.** (лучшие моменты, нарезка (обзор матча))
+
+4. I missed the game, so I watched the *highlights* on my phone.
+5. The station shows *highlights* from every Sunday game.
+6. The team posted the *highlights* right after the final whistle.
 
 ---
 
 ### lowlights
 
 **Pronunciation:** /ˈloʊlaɪts/ &middot; *LOH-lyts*
-**Русский:** тёмное мелирование
+**Русский:** тёмное мелирование; худшие моменты, провалы
 **Plural:** *lowlights*
 **Countability:** countable
 
-Darker streaks put into the hair to add depth.
+Lowlights has 2 distinct senses.
+
+**1. Darker streaks put into the hair to add depth.** (тёмное мелирование)
 
 1. She added *lowlights* to break up the blonde.
 2. The *lowlights* made her hair look thicker.
 3. *Lowlights* are cheaper than a full color.
+
+**2. The worst or least impressive moments of an event or a period.** (худшие моменты, провалы)
+
+4. The late show replayed the season's *lowlights* with a laugh track.
+5. His whole speech was a string of *lowlights*.
+6. She walked the board through the quarter's highlights and *lowlights*.
 
 ---
 
@@ -1490,15 +1506,23 @@ A small pointed beard on the chin.
 ### makeover
 
 **Pronunciation:** /ˈmeɪkˌoʊvər/ &middot; *MAYK-oh-vur*
-**Русский:** смена имиджа, преображение
+**Русский:** смена имиджа, преображение; обновление, преображение (помещения, бренда)
 **Plural:** *makeovers*
 **Countability:** countable
 
-A complete change of someone's hair, makeup, and clothes.
+Makeover has 2 distinct senses.
+
+**1. A complete change of someone's hair, makeup, and clothes.** (смена имиджа, преображение)
 
 1. Her sister gave her a *makeover* before the party.
 2. The show does a *makeover* in every episode.
 3. Free *makeovers* at the cosmetics counter bring people in.
+
+**2. A complete change in the look of a place, product, or organization.** (обновление, преображение (помещения, бренда))
+
+4. The kitchen got a *makeover* over the summer.
+5. The airline gave its logo and cabins a *makeover*.
+6. Two of the branch offices are due for *makeovers* next year.
 
 ---
 
@@ -2190,15 +2214,23 @@ A small pimple with a white top.
 ### breakout
 
 **Pronunciation:** /ˈbreɪkaʊt/ &middot; *BRAYK-owt*
-**Русский:** высыпание на коже
+**Русский:** высыпание на коже; побег (из тюрьмы)
 **Plural:** *breakouts*
 **Countability:** countable
 
-A sudden appearance of several pimples at once.
+Breakout has 2 distinct senses.
+
+**1. A sudden appearance of several pimples at once.** (высыпание на коже)
 
 1. Stress gives her a *breakout* every time.
 2. The new cream caused a *breakout*.
 3. He gets *breakouts* along his hairline.
+
+**2. An escape from a prison or another guarded place.** (побег (из тюрьмы))
+
+4. Three inmates planned the *breakout* for months.
+5. The prison *breakout* made national news.
+6. Guards stopped a *breakout* attempt last spring.
 
 ---
 

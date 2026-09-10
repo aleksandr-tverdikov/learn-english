@@ -1177,14 +1177,43 @@
       "term": "stocking",
       "ipa": "/ˈstɑːkɪŋ/",
       "respell": "STAH-king",
-      "meaning": "A close-fitting covering for the foot and leg, usually of thin material. ---",
+      "meaning": "Stocking has 2 distinct senses.",
       "examples": [
         "She snagged her stocking on the chair.",
         "The dancers wore black stockings.",
-        "The kids hung their stockings by the fireplace."
+        "The kids hung their stockings by the fireplace.",
+        "The kids hung their stockings over the fireplace.",
+        "There was an orange in the toe of every stocking.",
+        "Her stocking was full of candy and a new toothbrush."
       ],
-      "senses": [],
-      "русский": "чулок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A close-fitting covering for the foot and leg, usually of thin material",
+          "body": [
+            "(чулок)"
+          ],
+          "examples": [
+            "She snagged her stocking on the chair.",
+            "The dancers wore black stockings.",
+            "The kids hung their stockings by the fireplace."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large decorated sock hung up at Christmas to be filled with small gifts",
+          "body": [
+            "(рождественский чулок (для подарков))",
+            "---"
+          ],
+          "examples": [
+            "The kids hung their stockings over the fireplace.",
+            "There was an orange in the toe of every stocking.",
+            "Her stocking was full of candy and a new toothbrush."
+          ]
+        }
+      ],
+      "русский": "чулок; рождественский чулок (для подарков)",
       "plural": "stockings",
       "countability": "countable"
     },

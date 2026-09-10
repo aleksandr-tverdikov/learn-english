@@ -515,29 +515,45 @@ Operator has 2 distinct senses.
 ### interference
 
 **Pronunciation:** /ˌɪntərˈfɪrəns/ &middot; *in-tur-FEER-uns*
-**Русский:** помехи
+**Русский:** помехи; вмешательство
 **Countability:** uncountable
 
-Unwanted signals that disturb a radio, phone, or wireless connection.
+Interference has 2 distinct senses.
+
+**1. Unwanted signals that disturb a radio, phone, or wireless connection.** (помехи)
 
 1. The microwave causes *interference* with the wifi.
 2. There's too much *interference* to hear you.
 3. Power lines can create *interference*.
+
+**2. Unwanted involvement in someone else's affairs or in a process.** (вмешательство)
+
+4. The report found no evidence of foreign *interference* in the election.
+5. She resented her mother-in-law's constant *interference*.
+6. The judge warned him against *interference* with the investigation.
 
 ---
 
 ### receiver
 
 **Pronunciation:** /rɪˈsiːvər/ &middot; *rih-SEE-vur*
-**Русский:** трубка (телефонная); приёмник
+**Русский:** трубка (телефонная); приёмник; принимающий игрок, ресивер (амер. футбол)
 **Plural:** *receivers*
 **Countability:** countable
 
-The part of a phone you hold to your ear, or a device that picks up signals.
+Receiver has 2 distinct senses.
+
+**1. The part of a phone you hold to your ear, or a device that picks up signals.** (трубка (телефонная); приёмник)
 
 1. She picked up the *receiver* and said nothing.
 2. The radio *receiver* needs a new antenna.
 3. Both *receivers* were off the hook.
+
+**2. A football player whose job is to catch passes thrown down the field.** (принимающий игрок, ресивер (амер. футбол))
+
+4. The *receiver* caught the ball in the end zone.
+5. They drafted a fast *receiver* out of Alabama.
+6. Two of their best *receivers* are out with injuries.
 
 ---
 
@@ -613,15 +629,29 @@ Package has 2 distinct senses.
 ### delivery
 
 **Pronunciation:** /dɪˈlɪvəri/ &middot; *dih-LIV-uh-ree*
-**Русский:** доставка
+**Русский:** доставка; роды, родоразрешение; манера подачи, исполнение (речи)
 **Plural:** *deliveries*
 **Countability:** countable
 
-The bringing of mail, packages, or goods to a place.
+Delivery has 3 distinct senses.
+
+**1. The bringing of mail, packages, or goods to a place.** (доставка)
 
 1. The *delivery* is running a day late.
 2. They make *deliveries* twice a week.
 3. Free *delivery* on orders over thirty dollars.
+
+**2. The birth of a baby.** (роды, родоразрешение)
+
+4. She had an easy *delivery* and went home the next day.
+5. Labor and *delivery* is on the fourth floor of the hospital.
+6. Both *deliveries* were by cesarean section.
+
+**3. The way someone speaks lines, tells a joke, or gives a speech.** (манера подачи, исполнение (речи))
+
+7. The jokes were fine, but his *delivery* was flat.
+8. Her *delivery* was slow and clear enough for everyone to follow.
+9. The speech was good on paper; the *delivery* ruined it.
 
 ---
 

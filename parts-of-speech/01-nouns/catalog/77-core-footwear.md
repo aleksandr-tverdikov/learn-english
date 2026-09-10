@@ -470,15 +470,23 @@ Clog has 3 distinct senses.
 ### moccasin
 
 **Pronunciation:** /ˈmɑːkəsɪn/ &middot; *MAH-kuh-sin*
-**Русский:** мокасин
+**Русский:** мокасин; щитомордник, водяная мокасиновая змея
 **Plural:** *moccasins*
 **Countability:** countable
 
-A soft flat leather shoe with the sole wrapped up and stitched to the top.
+Moccasin has 2 distinct senses.
+
+**1. A soft flat leather shoe with the sole wrapped up and stitched to the top.** (мокасин)
 
 1. He drives in a pair of old *moccasins*.
 2. The stitching on that *moccasin* is done by hand.
 3. Deerskin *moccasins* are soft as socks.
+
+**2. A thick venomous snake of the American South that lives near water.** (щитомордник, водяная мокасиновая змея)
+
+4. A *moccasin* was sunning itself on the fallen log.
+5. Watch the bank down there — the creek is full of *moccasins*.
+6. He swore the snake in the pond was a *moccasin*, not a harmless water snake.
 
 ---
 
@@ -585,15 +593,23 @@ A flat sandal held on by many straps running up the ankle.
 ### stiletto
 
 **Pronunciation:** /stɪˈlɛtoʊ/ &middot; *stih-LET-oh*
-**Русский:** шпилька (тонкий высокий каблук)
+**Русский:** шпилька (тонкий высокий каблук); стилет (узкий кинжал)
 **Plural:** *stilettos*
 **Countability:** countable
 
-A very thin, very high heel, or a shoe with one.
+Stiletto has 2 distinct senses.
+
+**1. A very thin, very high heel, or a shoe with one.** (шпилька (тонкий высокий каблук))
 
 1. Her *stilettos* sank into the wet grass.
 2. A four-inch *stiletto* is not made for cobblestones.
 3. *Stilettos* can dent a hardwood floor.
+
+**2. A knife with a slim, sharply pointed blade.** (стилет (узкий кинжал))
+
+4. The coroner said the wound was made by a *stiletto*.
+5. He carried a *stiletto* in his boot.
+6. The museum case held two old *stilettos* with ivory handles.
 
 ---
 

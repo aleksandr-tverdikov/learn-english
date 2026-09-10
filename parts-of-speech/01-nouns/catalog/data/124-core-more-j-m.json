@@ -574,14 +574,43 @@
       "term": "juncture",
       "ipa": "/ˈdʒʌŋktʃər/",
       "respell": "JUNGK-chur",
-      "meaning": "A particular point in time, especially an important one in a series of events. ---",
+      "meaning": "Juncture has 2 distinct senses.",
       "examples": [
         "At this juncture we can't afford to lose another supplier.",
         "The talks reached a critical juncture on Friday.",
-        "This is a delicate juncture in the investigation."
+        "This is a delicate juncture in the investigation.",
+        "The leak was at the juncture of the two pipes.",
+        "A crack ran along the juncture of the wall and the ceiling.",
+        "The town sits at the juncture of two rivers."
       ],
-      "senses": [],
-      "русский": "момент, этап (в ходе событий)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular point in time, especially an important one in a series of events",
+          "body": [
+            "(момент, этап (в ходе событий))"
+          ],
+          "examples": [
+            "At this juncture we can't afford to lose another supplier.",
+            "The talks reached a critical juncture on Friday.",
+            "This is a delicate juncture in the investigation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where two things are joined",
+          "body": [
+            "(место соединения, стык)",
+            "---"
+          ],
+          "examples": [
+            "The leak was at the juncture of the two pipes.",
+            "A crack ran along the juncture of the wall and the ceiling.",
+            "The town sits at the juncture of two rivers."
+          ]
+        }
+      ],
+      "русский": "момент, этап (в ходе событий); место соединения, стык",
       "plural": "junctures",
       "countability": "countable"
     },
@@ -650,14 +679,43 @@
       "term": "kaleidoscope",
       "ipa": "/kəˈlaɪdəskoʊp/",
       "respell": "kuh-LY-duh-skohp",
-      "meaning": "A tube you look through that shows changing colored patterns as you turn it. ---",
+      "meaning": "Kaleidoscope has 2 distinct senses.",
       "examples": [
         "Every kid at the party got a kaleidoscope.",
         "She turned the kaleidoscope slowly and watched the shapes fall apart.",
-        "The market was a kaleidoscope of color and noise."
+        "The market was a kaleidoscope of color and noise.",
+        "The market was a kaleidoscope of colors and smells.",
+        "The novel gives us a kaleidoscope of New York voices.",
+        "Her first year abroad was a kaleidoscope of new experiences."
       ],
-      "senses": [],
-      "русский": "калейдоскоп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tube you look through that shows changing colored patterns as you turn it",
+          "body": [
+            "(калейдоскоп)"
+          ],
+          "examples": [
+            "Every kid at the party got a kaleidoscope.",
+            "She turned the kaleidoscope slowly and watched the shapes fall apart.",
+            "The market was a kaleidoscope of color and noise."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A constantly changing mixture of colors, people, or events",
+          "body": [
+            "(калейдоскоп (пёстрая смена))",
+            "---"
+          ],
+          "examples": [
+            "The market was a kaleidoscope of colors and smells.",
+            "The novel gives us a kaleidoscope of New York voices.",
+            "Her first year abroad was a kaleidoscope of new experiences."
+          ]
+        }
+      ],
+      "русский": "калейдоскоп; калейдоскоп (пёстрая смена)",
       "plural": "kaleidoscopes",
       "countability": "countable"
     },
@@ -844,14 +902,43 @@
       "term": "kickback",
       "ipa": "/ˈkɪkbæk/",
       "respell": "KIK-bak",
-      "meaning": "A secret illegal payment made to someone in return for a favor or a contract. ---",
+      "meaning": "Kickback has 2 distinct senses.",
       "examples": [
         "The inspector took kickbacks from three contractors.",
         "Prosecutors say the deal involved a fifty-thousand-dollar kickback.",
-        "The company fired two managers over kickbacks."
+        "The company fired two managers over kickbacks.",
+        "Hold the saw with both hands to control the kickback.",
+        "Kickback causes most chainsaw injuries.",
+        "The blade guard is there to reduce kickback."
       ],
-      "senses": [],
-      "русский": "откат (незаконная выплата)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A secret illegal payment made to someone in return for a favor or a contract",
+          "body": [
+            "(откат (незаконная выплата))"
+          ],
+          "examples": [
+            "The inspector took kickbacks from three contractors.",
+            "Prosecutors say the deal involved a fifty-thousand-dollar kickback.",
+            "The company fired two managers over kickbacks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden backward jerk of a power tool when the blade catches",
+          "body": [
+            "(отдача, обратный удар (инструмента))",
+            "---"
+          ],
+          "examples": [
+            "Hold the saw with both hands to control the kickback.",
+            "Kickback causes most chainsaw injuries.",
+            "The blade guard is there to reduce kickback."
+          ]
+        }
+      ],
+      "русский": "откат (незаконная выплата); отдача, обратный удар (инструмента)",
       "plural": "kickbacks",
       "countability": "countable"
     },
@@ -1681,14 +1768,43 @@
       "term": "laundering",
       "ipa": "/ˈlɔːndərɪŋ/",
       "respell": "LAWN-dur-ing",
-      "meaning": "The crime of hiding where illegal money came from by moving it through legal businesses. ---",
+      "meaning": "Laundering has 2 distinct senses.",
       "examples": [
         "He was convicted of money laundering.",
         "The bank paid a fine for failing to stop laundering.",
-        "Laundering cash through restaurants is a common scheme."
+        "Laundering cash through restaurants is a common scheme.",
+        "The contract covers laundering of all the table linens.",
+        "Frequent laundering faded the color out of the shirt.",
+        "The label warns that laundering may shrink the fabric."
       ],
-      "senses": [],
-      "русский": "отмывание денег",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crime of hiding where illegal money came from by moving it through legal businesses",
+          "body": [
+            "(отмывание денег)"
+          ],
+          "examples": [
+            "He was convicted of money laundering.",
+            "The bank paid a fine for failing to stop laundering.",
+            "Laundering cash through restaurants is a common scheme."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The washing of clothes, sheets, and towels",
+          "body": [
+            "(стирка (белья))",
+            "---"
+          ],
+          "examples": [
+            "The contract covers laundering of all the table linens.",
+            "Frequent laundering faded the color out of the shirt.",
+            "The label warns that laundering may shrink the fabric."
+          ]
+        }
+      ],
+      "русский": "отмывание денег; стирка (белья)",
       "countability": "uncountable"
     },
     {
@@ -2651,14 +2767,43 @@
       "term": "lightness",
       "ipa": "/ˈlaɪtnəs/",
       "respell": "LYT-nuhs",
-      "meaning": "The quality of not weighing much, or of not being heavy in feeling. ---",
+      "meaning": "Lightness has 2 distinct senses.",
       "examples": [
         "The lightness of the frame makes the bike fast.",
         "There was a surprising lightness in her voice.",
-        "He admired the lightness of the pastry."
+        "He admired the lightness of the pastry.",
+        "Adjust the lightness of the image until the text is readable.",
+        "The two paints differ only in lightness.",
+        "She liked the lightness of the oak floor against the dark walls."
       ],
-      "senses": [],
-      "русский": "лёгкость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The quality of not weighing much, or of not being heavy in feeling",
+          "body": [
+            "(лёгкость)"
+          ],
+          "examples": [
+            "The lightness of the frame makes the bike fast.",
+            "There was a surprising lightness in her voice.",
+            "He admired the lightness of the pastry."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How pale or bright a color is",
+          "body": [
+            "(светлота (цвета))",
+            "---"
+          ],
+          "examples": [
+            "Adjust the lightness of the image until the text is readable.",
+            "The two paints differ only in lightness.",
+            "She liked the lightness of the oak floor against the dark walls."
+          ]
+        }
+      ],
+      "русский": "лёгкость; светлота (цвета)",
       "countability": "uncountable"
     },
     {
@@ -3311,14 +3456,43 @@
       "term": "location",
       "ipa": "/loʊˈkeɪʃən/",
       "respell": "loh-KAY-shuhn",
-      "meaning": "The place where something is or where something happens. ---",
+      "meaning": "Location has 2 distinct senses.",
       "examples": [
         "The store moved to a new location downtown.",
         "Share your location so I can find you.",
-        "They scouted three locations for the shoot."
+        "They scouted three locations for the shoot.",
+        "The chain just opened its fortieth location in Ohio.",
+        "Both locations are closed on Sundays.",
+        "Our downtown location has a lot more parking than this one."
       ],
-      "senses": [],
-      "русский": "место, местоположение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place where something is or where something happens",
+          "body": [
+            "(место, местоположение)"
+          ],
+          "examples": [
+            "The store moved to a new location downtown.",
+            "Share your location so I can find you.",
+            "They scouted three locations for the shoot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the stores or offices that a business operates",
+          "body": [
+            "(точка, филиал (магазина, сети))",
+            "---"
+          ],
+          "examples": [
+            "The chain just opened its fortieth location in Ohio.",
+            "Both locations are closed on Sundays.",
+            "Our downtown location has a lot more parking than this one."
+          ]
+        }
+      ],
+      "русский": "место, местоположение; точка, филиал (магазина, сети)",
       "plural": "locations",
       "countability": "countable"
     },
@@ -3428,14 +3602,43 @@
       "term": "loggerhead",
       "ipa": "/ˈlɔːɡərhɛd/",
       "respell": "LAW-gur-hed",
-      "meaning": "A large sea turtle with a big head and a reddish-brown shell. ---",
+      "meaning": "Loggerhead has 2 distinct senses.",
       "examples": [
         "A loggerhead laid her eggs on the beach.",
         "Loggerheads are protected along this coast.",
-        "The aquarium rescued an injured loggerhead."
+        "The aquarium rescued an injured loggerhead.",
+        "The governor and the legislature are at loggerheads over the budget.",
+        "The two departments have been at loggerheads for years.",
+        "Negotiators are still at loggerheads about overtime pay."
       ],
-      "senses": [],
-      "русский": "логгерхед, головастая морская черепаха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large sea turtle with a big head and a reddish-brown shell",
+          "body": [
+            "(логгерхед, головастая морская черепаха)"
+          ],
+          "examples": [
+            "A loggerhead laid her eggs on the beach.",
+            "Loggerheads are protected along this coast.",
+            "The aquarium rescued an injured loggerhead."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Angry disagreement, used only in the phrase at loggerheads",
+          "body": [
+            "(разлад, ссора (в обороте at loggerheads — в контрах))",
+            "---"
+          ],
+          "examples": [
+            "The governor and the legislature are at loggerheads over the budget.",
+            "The two departments have been at loggerheads for years.",
+            "Negotiators are still at loggerheads about overtime pay."
+          ]
+        }
+      ],
+      "русский": "логгерхед, головастая морская черепаха; разлад, ссора (в обороте at loggerheads — в контрах)",
       "plural": "loggerheads",
       "countability": "countable",
       "contrast": "The plural also appears in the idiom at loggerheads, meaning in bitter disagreement."
@@ -4896,14 +5099,43 @@
       "term": "manipulation",
       "ipa": "/məˌnɪpjuˈleɪʃən/",
       "respell": "muh-nip-yuh-LAY-shuhn",
-      "meaning": "The act of controlling someone or something in a clever, often dishonest, way. ---",
+      "meaning": "Manipulation has 2 distinct senses.",
       "examples": [
         "The book is about media manipulation.",
         "He was charged with market manipulation.",
-        "It felt less like advice and more like manipulation."
+        "It felt less like advice and more like manipulation.",
+        "The surgery requires careful manipulation of very small instruments.",
+        "The chiropractor used gentle manipulation of the spine.",
+        "The software is built for fast manipulation of huge image files."
       ],
-      "senses": [],
-      "русский": "манипуляция, манипулирование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of controlling someone or something in a clever, often dishonest, way",
+          "body": [
+            "(манипуляция, манипулирование)"
+          ],
+          "examples": [
+            "The book is about media manipulation.",
+            "He was charged with market manipulation.",
+            "It felt less like advice and more like manipulation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Skillful handling or working of something with the hands or with tools",
+          "body": [
+            "(манипулирование (предметами), обработка)",
+            "---"
+          ],
+          "examples": [
+            "The surgery requires careful manipulation of very small instruments.",
+            "The chiropractor used gentle manipulation of the spine.",
+            "The software is built for fast manipulation of huge image files."
+          ]
+        }
+      ],
+      "русский": "манипуляция, манипулирование; манипулирование (предметами), обработка",
       "countability": "uncountable"
     },
     {
@@ -5753,14 +5985,43 @@
       "term": "maturity",
       "ipa": "/məˈtʃʊrəti/",
       "respell": "muh-CHOOR-uh-tee",
-      "meaning": "The state of being fully grown or of behaving in a sensible, adult way. ---",
+      "meaning": "Maturity has 2 distinct senses.",
       "examples": [
         "She handled the criticism with real maturity.",
         "These trees reach maturity in about forty years.",
-        "The bond pays out at maturity."
+        "The bond pays out at maturity.",
+        "The bond reaches maturity in ten years.",
+        "You'll pay a penalty for cashing the CD before maturity.",
+        "The notes have different maturities, from one year to thirty."
       ],
-      "senses": [],
-      "русский": "зрелость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of being fully grown or of behaving in a sensible, adult way",
+          "body": [
+            "(зрелость)"
+          ],
+          "examples": [
+            "She handled the criticism with real maturity.",
+            "These trees reach maturity in about forty years.",
+            "The bond pays out at maturity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The time when a loan, bond, or insurance policy comes due to be paid",
+          "body": [
+            "(срок погашения (займа, облигации))",
+            "---"
+          ],
+          "examples": [
+            "The bond reaches maturity in ten years.",
+            "You'll pay a penalty for cashing the CD before maturity.",
+            "The notes have different maturities, from one year to thirty."
+          ]
+        }
+      ],
+      "русский": "зрелость; срок погашения (займа, облигации)",
       "countability": "uncountable"
     },
     {
@@ -6003,14 +6264,43 @@
       "term": "medallion",
       "ipa": "/məˈdæljən/",
       "respell": "muh-DAL-yuhn",
-      "meaning": "A large flat metal disc worn on a chain, or a round decorative panel. ---",
+      "meaning": "Medallion has 2 distinct senses.",
       "examples": [
         "He wore a gold medallion over an open collar.",
         "Carved medallions run along the top of the building.",
-        "Every cab has a numbered medallion."
+        "Every cab has a numbered medallion.",
+        "The special was pork medallions in a mustard sauce.",
+        "She seared the beef medallions two minutes a side.",
+        "Each medallion is wrapped in bacon before it goes in the oven."
       ],
-      "senses": [],
-      "русский": "медальон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large flat metal disc worn on a chain, or a round decorative panel",
+          "body": [
+            "(медальон)"
+          ],
+          "examples": [
+            "He wore a gold medallion over an open collar.",
+            "Carved medallions run along the top of the building.",
+            "Every cab has a numbered medallion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small round slice of meat or fish served as a portion",
+          "body": [
+            "(медальон (круглый кусочек мяса))",
+            "---"
+          ],
+          "examples": [
+            "The special was pork medallions in a mustard sauce.",
+            "She seared the beef medallions two minutes a side.",
+            "Each medallion is wrapped in bacon before it goes in the oven."
+          ]
+        }
+      ],
+      "русский": "медальон; медальон (круглый кусочек мяса)",
       "plural": "medallions",
       "countability": "countable"
     },
@@ -7932,28 +8222,86 @@
       "term": "moderation",
       "ipa": "/ˌmɑːdəˈreɪʃən/",
       "respell": "mah-duh-RAY-shuhn",
-      "meaning": "The habit of avoiding extremes, especially in eating or drinking. ---",
+      "meaning": "Moderation has 2 distinct senses.",
       "examples": [
         "Wine is fine in moderation.",
         "He preaches moderation and then eats a whole pizza.",
-        "Everything in moderation, my mother used to say."
+        "Everything in moderation, my mother used to say.",
+        "The company hired hundreds of people for content moderation.",
+        "Moderation on that forum is pretty light.",
+        "Weak moderation let the comment section turn ugly."
       ],
-      "senses": [],
-      "русский": "умеренность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The habit of avoiding extremes, especially in eating or drinking",
+          "body": [
+            "(умеренность)"
+          ],
+          "examples": [
+            "Wine is fine in moderation.",
+            "He preaches moderation and then eats a whole pizza.",
+            "Everything in moderation, my mother used to say."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The checking of posts on a website and the removal of ones that break its rules",
+          "body": [
+            "(модерация (контента))",
+            "---"
+          ],
+          "examples": [
+            "The company hired hundreds of people for content moderation.",
+            "Moderation on that forum is pretty light.",
+            "Weak moderation let the comment section turn ugly."
+          ]
+        }
+      ],
+      "русский": "умеренность; модерация (контента)",
       "countability": "uncountable"
     },
     {
       "term": "moderator",
       "ipa": "/ˈmɑːdəreɪtər/",
       "respell": "MAH-duh-ray-tur",
-      "meaning": "Someone who runs a debate or discussion and keeps it orderly. ---",
+      "meaning": "Moderator has 2 distinct senses.",
       "examples": [
         "The moderator cut off both candidates.",
         "Forum moderators deleted the thread.",
-        "She served as moderator of the panel."
+        "She served as moderator of the panel.",
+        "A moderator deleted the thread within minutes.",
+        "She volunteers as a moderator for a parenting group.",
+        "The moderators banned him for a week."
       ],
-      "senses": [],
-      "русский": "модератор, ведущий",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who runs a debate or discussion and keeps it orderly",
+          "body": [
+            "(модератор, ведущий)"
+          ],
+          "examples": [
+            "The moderator cut off both candidates.",
+            "Forum moderators deleted the thread.",
+            "She served as moderator of the panel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who checks posts on a website and removes ones that break the rules",
+          "body": [
+            "(модератор (сайта, чата))",
+            "---"
+          ],
+          "examples": [
+            "A moderator deleted the thread within minutes.",
+            "She volunteers as a moderator for a parenting group.",
+            "The moderators banned him for a week."
+          ]
+        }
+      ],
+      "русский": "модератор, ведущий; модератор (сайта, чата)",
       "plural": "moderators",
       "countability": "countable"
     },
@@ -8252,14 +8600,43 @@
       "term": "moonwalk",
       "ipa": "/ˈmuːnwɔːk/",
       "respell": "MOON-wawk",
-      "meaning": "A dance step in which you seem to glide backward while walking forward. ---",
+      "meaning": "Moonwalk has 2 distinct senses.",
       "examples": [
         "He ended the routine with a moonwalk.",
         "Her moonwalk across the gym floor got applause.",
-        "Kids still try to copy that moonwalk."
+        "Kids still try to copy that moonwalk.",
+        "The crew's first moonwalk lasted almost three hours.",
+        "Cameras recorded every step of the moonwalk.",
+        "NASA cut the second moonwalk short because of a suit problem."
       ],
-      "senses": [],
-      "русский": "лунная походка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dance step in which you seem to glide backward while walking forward",
+          "body": [
+            "(лунная походка)"
+          ],
+          "examples": [
+            "He ended the routine with a moonwalk.",
+            "Her moonwalk across the gym floor got applause.",
+            "Kids still try to copy that moonwalk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A walk taken by an astronaut on the surface of the moon",
+          "body": [
+            "(выход на поверхность Луны)",
+            "---"
+          ],
+          "examples": [
+            "The crew's first moonwalk lasted almost three hours.",
+            "Cameras recorded every step of the moonwalk.",
+            "NASA cut the second moonwalk short because of a suit problem."
+          ]
+        }
+      ],
+      "русский": "лунная походка; выход на поверхность Луны",
       "plural": "moonwalks",
       "countability": "countable"
     },
@@ -8533,14 +8910,43 @@
       "term": "mouthpiece",
       "ipa": "/ˈmaʊθpiːs/",
       "respell": "MOWTH-pees",
-      "meaning": "The part of an instrument or phone you put to your mouth, or a person who speaks for someone else. ---",
+      "meaning": "Mouthpiece has 2 distinct senses.",
       "examples": [
         "He cleaned the mouthpiece of his trumpet.",
         "The paper is a mouthpiece for the governor.",
-        "Spare mouthpieces are in the case."
+        "Spare mouthpieces are in the case.",
+        "The boxer spat out his mouthpiece between rounds.",
+        "No player takes the field without a mouthpiece.",
+        "He boiled the mouthpiece to fit it to his teeth."
       ],
-      "senses": [],
-      "русский": "мундштук; рупор (чьих-л. взглядов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of an instrument or phone you put to your mouth, or a person who speaks for someone else",
+          "body": [
+            "(мундштук; рупор (чьих-л. взглядов))"
+          ],
+          "examples": [
+            "He cleaned the mouthpiece of his trumpet.",
+            "The paper is a mouthpiece for the governor.",
+            "Spare mouthpieces are in the case."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A molded plastic guard worn over the teeth in sports",
+          "body": [
+            "(капа (защита для зубов))",
+            "---"
+          ],
+          "examples": [
+            "The boxer spat out his mouthpiece between rounds.",
+            "No player takes the field without a mouthpiece.",
+            "He boiled the mouthpiece to fit it to his teeth."
+          ]
+        }
+      ],
+      "русский": "мундштук; рупор (чьих-л. взглядов); капа (защита для зубов)",
       "plural": "mouthpieces",
       "countability": "countable"
     },

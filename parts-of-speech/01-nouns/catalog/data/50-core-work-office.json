@@ -96,14 +96,43 @@
       "term": "department",
       "ipa": "/dɪˈpɑːrtmənt/",
       "respell": "dih-PART-muhnt",
-      "meaning": "One of the sections a company or organization is divided into. ---",
+      "meaning": "Department has 2 distinct senses.",
       "examples": [
         "She works in the accounting department.",
         "That's a question for the legal department.",
-        "Three departments share the same floor."
+        "Three departments share the same floor.",
+        "Cooking is my husband's department, not mine.",
+        "Sorry, that's not my department — you'll want to ask Rita.",
+        "The car is great on gas but lacking in the comfort department."
       ],
-      "senses": [],
-      "русский": "отдел, департамент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the sections a company or organization is divided into",
+          "body": [
+            "(отдел, департамент)"
+          ],
+          "examples": [
+            "She works in the accounting department.",
+            "That's a question for the legal department.",
+            "Three departments share the same floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of activity or responsibility that belongs to a particular person",
+          "body": [
+            "(сфера, компетенция (чья-то «часть»))",
+            "---"
+          ],
+          "examples": [
+            "Cooking is my husband's department, not mine.",
+            "Sorry, that's not my department — you'll want to ask Rita.",
+            "The car is great on gas but lacking in the comfort department."
+          ]
+        }
+      ],
+      "русский": "отдел, департамент; сфера, компетенция (чья-то «часть»)",
       "plural": "departments",
       "countability": "countable"
     },
@@ -111,14 +140,43 @@
       "term": "organization",
       "ipa": "/ˌɔːrɡənəˈzeɪʃən/",
       "respell": "or-guh-nuh-ZAY-shuhn",
-      "meaning": "A group of people working together for a shared purpose. ---",
+      "meaning": "Organization has 2 distinct senses.",
       "examples": [
         "She runs a nonprofit organization.",
         "The whole organization got the same email.",
-        "Several organizations signed the letter."
+        "Several organizations signed the letter.",
+        "The essay has good ideas but poor organization.",
+        "Her organization is what keeps the whole office running.",
+        "The organization of these files makes no sense to me."
       ],
-      "senses": [],
-      "русский": "организация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of people working together for a shared purpose",
+          "body": [
+            "(организация)"
+          ],
+          "examples": [
+            "She runs a nonprofit organization.",
+            "The whole organization got the same email.",
+            "Several organizations signed the letter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way something is arranged, or the skill of keeping things in order",
+          "body": [
+            "(упорядоченность, структура, организованность)",
+            "---"
+          ],
+          "examples": [
+            "The essay has good ideas but poor organization.",
+            "Her organization is what keeps the whole office running.",
+            "The organization of these files makes no sense to me."
+          ]
+        }
+      ],
+      "русский": "организация; упорядоченность, структура, организованность",
       "plural": "organizations",
       "countability": "countable",
       "contrast": "Americans spell it with a z; the British usually write organisation."
@@ -351,14 +409,43 @@
       "term": "keyboard",
       "ipa": "/ˈkiːbɔːrd/",
       "respell": "KEE-bord",
-      "meaning": "The set of keys you type on to control a computer. ---",
+      "meaning": "Keyboard has 2 distinct senses.",
       "examples": [
         "I spilled coffee on my keyboard.",
         "This keyboard is way too loud.",
-        "They ordered new keyboards for the whole floor."
+        "They ordered new keyboards for the whole floor.",
+        "She bought a used keyboard to practice on at home.",
+        "He plays guitar, and his sister plays keyboards in the band.",
+        "His hands moved easily across the keyboard of the old piano."
       ],
-      "senses": [],
-      "русский": "клавиатура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The set of keys you type on to control a computer",
+          "body": [
+            "(клавиатура)"
+          ],
+          "examples": [
+            "I spilled coffee on my keyboard.",
+            "This keyboard is way too loud.",
+            "They ordered new keyboards for the whole floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The row of keys on a piano or organ, or an electronic instrument with them",
+          "body": [
+            "(клавиатура (музыкальная); синтезатор)",
+            "---"
+          ],
+          "examples": [
+            "She bought a used keyboard to practice on at home.",
+            "He plays guitar, and his sister plays keyboards in the band.",
+            "His hands moved easily across the keyboard of the old piano."
+          ]
+        }
+      ],
+      "русский": "клавиатура; клавиатура (музыкальная); синтезатор",
       "plural": "keyboards",
       "countability": "countable"
     },
@@ -396,14 +483,43 @@
       "term": "notebook",
       "ipa": "/ˈnoʊtbʊk/",
       "respell": "NOHT-buuk",
-      "meaning": "A book of blank pages for writing notes in. ---",
+      "meaning": "Notebook has 2 distinct senses.",
       "examples": [
         "She takes notes in a little notebook.",
         "I left my notebook in the conference room.",
-        "There's a stack of notebooks in the supply closet."
+        "There's a stack of notebooks in the supply closet.",
+        "He travels with a light notebook instead of a full desktop.",
+        "The store had a sale on notebooks and tablets.",
+        "Her notebook only gets about four hours on a charge."
       ],
-      "senses": [],
-      "русский": "блокнот, тетрадь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A book of blank pages for writing notes in",
+          "body": [
+            "(блокнот, тетрадь)"
+          ],
+          "examples": [
+            "She takes notes in a little notebook.",
+            "I left my notebook in the conference room.",
+            "There's a stack of notebooks in the supply closet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small portable computer, more often called a laptop",
+          "body": [
+            "(ноутбук)",
+            "---"
+          ],
+          "examples": [
+            "He travels with a light notebook instead of a full desktop.",
+            "The store had a sale on notebooks and tablets.",
+            "Her notebook only gets about four hours on a charge."
+          ]
+        }
+      ],
+      "русский": "блокнот, тетрадь; ноутбук",
       "plural": "notebooks",
       "countability": "countable"
     },
@@ -486,14 +602,43 @@
       "term": "envelope",
       "ipa": "/ˈɛnvəloʊp/",
       "respell": "EN-vuh-lohp",
-      "meaning": "A flat paper cover that a letter goes into for mailing. ---",
+      "meaning": "Envelope has 2 distinct senses.",
       "examples": [
         "He sealed the check in an envelope.",
         "Write the address on the envelope.",
-        "There's a box of envelopes by the printer."
+        "There's a box of envelopes by the printer.",
+        "The team keeps pushing the envelope on battery range.",
+        "Test pilots fly right to the edge of the flight envelope.",
+        "That script pushes the envelope of what network TV will air."
       ],
-      "senses": [],
-      "русский": "конверт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat paper cover that a letter goes into for mailing",
+          "body": [
+            "(конверт)"
+          ],
+          "examples": [
+            "He sealed the check in an envelope.",
+            "Write the address on the envelope.",
+            "There's a box of envelopes by the printer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The outer limit of what something or someone can do",
+          "body": [
+            "(предел возможностей, границы допустимого)",
+            "---"
+          ],
+          "examples": [
+            "The team keeps pushing the envelope on battery range.",
+            "Test pilots fly right to the edge of the flight envelope.",
+            "That script pushes the envelope of what network TV will air."
+          ]
+        }
+      ],
+      "русский": "конверт; предел возможностей, границы допустимого",
       "plural": "envelopes",
       "countability": "countable",
       "contrast": "Two American pronunciations are common: EN-vuh-lohp and AHN-vuh-lohp."
@@ -502,14 +647,43 @@
       "term": "calendar",
       "ipa": "/ˈkæləndər/",
       "respell": "KAL-uhn-dur",
-      "meaning": "A chart or program showing the days of the year and what is planned on them. ---",
+      "meaning": "Calendar has 2 distinct senses.",
       "examples": [
         "Put it on the calendar so I don't forget.",
         "My calendar is packed all week.",
-        "Our calendars never seem to line up."
+        "Our calendars never seem to line up.",
+        "The Chinese calendar starts the new year in late January or February.",
+        "Most of the world now uses the Gregorian calendar.",
+        "Easter is set by a lunar calendar, so the date moves."
       ],
-      "senses": [],
-      "русский": "календарь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A chart or program showing the days of the year and what is planned on them",
+          "body": [
+            "(календарь)"
+          ],
+          "examples": [
+            "Put it on the calendar so I don't forget.",
+            "My calendar is packed all week.",
+            "Our calendars never seem to line up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A system for dividing up the year that a country or religion follows",
+          "body": [
+            "(календарь (система летосчисления))",
+            "---"
+          ],
+          "examples": [
+            "The Chinese calendar starts the new year in late January or February.",
+            "Most of the world now uses the Gregorian calendar.",
+            "Easter is set by a lunar calendar, so the date moves."
+          ]
+        }
+      ],
+      "русский": "календарь; календарь (система летосчисления)",
       "plural": "calendars",
       "countability": "countable",
       "contrast": "Ends in -ar, not -er, even though it sounds like -er."
@@ -668,14 +842,58 @@
       "term": "agreement",
       "ipa": "/əˈɡriːmənt/",
       "respell": "uh-GREE-muhnt",
-      "meaning": "An arrangement that two sides have accepted. ---",
+      "meaning": "Agreement has 3 distinct senses.",
       "examples": [
         "We finally reached an agreement.",
         "The agreement covers the next three years.",
-        "Both agreements were signed the same day."
+        "Both agreements were signed the same day.",
+        "The committee is in agreement about the deadline.",
+        "There was broad agreement that the plan needed work.",
+        "We are in complete agreement on that point.",
+        "Subject-verb agreement trips up a lot of writers.",
+        "In Spanish there is agreement between the noun and the adjective.",
+        "The sentence has an agreement error in the second clause."
       ],
-      "senses": [],
-      "русский": "соглашение, договорённость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arrangement that two sides have accepted",
+          "body": [
+            "(соглашение, договорённость)"
+          ],
+          "examples": [
+            "We finally reached an agreement.",
+            "The agreement covers the next three years.",
+            "Both agreements were signed the same day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of holding the same opinion as someone else",
+          "body": [
+            "(согласие, единство мнений)"
+          ],
+          "examples": [
+            "The committee is in agreement about the deadline.",
+            "There was broad agreement that the plan needed work.",
+            "We are in complete agreement on that point."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "In grammar, the matching of words with each other in number, person, or gender",
+          "body": [
+            "(согласование (грамматическое))",
+            "---"
+          ],
+          "examples": [
+            "Subject-verb agreement trips up a lot of writers.",
+            "In Spanish there is agreement between the noun and the adjective.",
+            "The sentence has an agreement error in the second clause."
+          ]
+        }
+      ],
+      "русский": "соглашение, договорённость; согласие, единство мнений; согласование (грамматическое)",
       "plural": "agreements",
       "countability": "countable"
     },
@@ -847,14 +1065,43 @@
       "term": "template",
       "ipa": "/ˈtɛmpleɪt/",
       "respell": "TEM-playt",
-      "meaning": "A ready-made pattern you fill in to make a document. ---",
+      "meaning": "Template has 2 distinct senses.",
       "examples": [
         "Just use the template instead of starting over.",
         "The template already has the logo on it.",
-        "There are templates for all the standard letters."
+        "There are templates for all the standard letters.",
+        "He cut a cardboard template for the countertop.",
+        "Trace the template onto the fabric before you cut.",
+        "The shop keeps a template for every size of window."
       ],
-      "senses": [],
-      "русский": "шаблон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A ready-made pattern you fill in to make a document",
+          "body": [
+            "(шаблон)"
+          ],
+          "examples": [
+            "Just use the template instead of starting over.",
+            "The template already has the logo on it.",
+            "There are templates for all the standard letters."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin shaped piece of metal, plastic, or card that you draw or cut around as a guide",
+          "body": [
+            "(шаблон, лекало (физическое))",
+            "---"
+          ],
+          "examples": [
+            "He cut a cardboard template for the countertop.",
+            "Trace the template onto the fabric before you cut.",
+            "The shop keeps a template for every size of window."
+          ]
+        }
+      ],
+      "русский": "шаблон; шаблон, лекало (физическое)",
       "plural": "templates",
       "countability": "countable"
     },
@@ -862,14 +1109,43 @@
       "term": "signature",
       "ipa": "/ˈsɪɡnətʃər/",
       "respell": "SIG-nuh-chur",
-      "meaning": "Your name written by hand to show you agree to something. ---",
+      "meaning": "Signature has 2 distinct senses.",
       "examples": [
         "We just need your signature here.",
         "The signature on the check didn't match.",
-        "They collected signatures from everyone on the team."
+        "They collected signatures from everyone on the team.",
+        "The satellite picks up the heat signature of a running engine.",
+        "That chord change is a signature of his early records.",
+        "Investigators matched the chemical signature of the two samples."
       ],
-      "senses": [],
-      "русский": "подпись",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Your name written by hand to show you agree to something",
+          "body": [
+            "(подпись)"
+          ],
+          "examples": [
+            "We just need your signature here.",
+            "The signature on the check didn't match.",
+            "They collected signatures from everyone on the team."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A distinctive feature or pattern by which something can be recognized",
+          "body": [
+            "(характерный признак, отличительная черта)",
+            "---"
+          ],
+          "examples": [
+            "The satellite picks up the heat signature of a running engine.",
+            "That chord change is a signature of his early records.",
+            "Investigators matched the chemical signature of the two samples."
+          ]
+        }
+      ],
+      "русский": "подпись; характерный признак, отличительная черта",
       "plural": "signatures",
       "countability": "countable",
       "contrast": "The g is pronounced here, though it is silent in sign."
@@ -1268,14 +1544,73 @@
       "term": "position",
       "ipa": "/pəˈzɪʃən/",
       "respell": "puh-ZISH-uhn",
-      "meaning": "A particular job within an organization. ---",
+      "meaning": "Position has 4 distinct senses.",
       "examples": [
         "I'm applying for a position in marketing.",
         "The position has been open since March.",
-        "They're filling three positions this fall."
+        "They're filling three positions this fall.",
+        "Note the position of the sun just before it sets.",
+        "The movers put the couch back in its old position.",
+        "She shifted into a more comfortable position on the couch.",
+        "What's your position on the new tax?",
+        "The senator softened her position after the hearing.",
+        "Both sides restated their positions and went home.",
+        "Catcher is the hardest position on the field.",
+        "He can play three positions in the infield.",
+        "The coach moved her to a new position this season."
       ],
-      "senses": [],
-      "русский": "должность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular job within an organization",
+          "body": [
+            "(должность)"
+          ],
+          "examples": [
+            "I'm applying for a position in marketing.",
+            "The position has been open since March.",
+            "They're filling three positions this fall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place where someone or something is, or the way they are set or held",
+          "body": [
+            "(положение, местоположение)"
+          ],
+          "examples": [
+            "Note the position of the sun just before it sets.",
+            "The movers put the couch back in its old position.",
+            "She shifted into a more comfortable position on the couch."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An opinion or stance that someone takes on an issue",
+          "body": [
+            "(позиция, точка зрения)"
+          ],
+          "examples": [
+            "What's your position on the new tax?",
+            "The senator softened her position after the hearing.",
+            "Both sides restated their positions and went home."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The particular role a player has on a sports team",
+          "body": [
+            "(позиция, амплуа (в спорте))",
+            "---"
+          ],
+          "examples": [
+            "Catcher is the hardest position on the field.",
+            "He can play three positions in the infield.",
+            "The coach moved her to a new position this season."
+          ]
+        }
+      ],
+      "русский": "должность; положение, местоположение; позиция, точка зрения; позиция, амплуа (в спорте)",
       "plural": "positions",
       "countability": "countable"
     },
@@ -1357,14 +1692,43 @@
       "term": "resignation",
       "ipa": "/ˌrɛzɪɡˈneɪʃən/",
       "respell": "rez-ig-NAY-shuhn",
-      "meaning": "The act of formally quitting a job, or the letter announcing it. ---",
+      "meaning": "Resignation has 2 distinct senses.",
       "examples": [
         "He handed in his resignation on Monday.",
         "Her resignation took everyone by surprise.",
-        "Two resignations landed in the same week."
+        "Two resignations landed in the same week.",
+        "He shrugged with resignation and picked up the mop.",
+        "There was resignation in her voice when she finally agreed.",
+        "The crowd waited in tired resignation."
       ],
-      "senses": [],
-      "русский": "заявление об уходе, отставка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of formally quitting a job, or the letter announcing it",
+          "body": [
+            "(заявление об уходе, отставка)"
+          ],
+          "examples": [
+            "He handed in his resignation on Monday.",
+            "Her resignation took everyone by surprise.",
+            "Two resignations landed in the same week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Quiet acceptance of something unpleasant that cannot be changed",
+          "body": [
+            "(смирение, покорность судьбе)",
+            "---"
+          ],
+          "examples": [
+            "He shrugged with resignation and picked up the mop.",
+            "There was resignation in her voice when she finally agreed.",
+            "The crowd waited in tired resignation."
+          ]
+        }
+      ],
+      "русский": "заявление об уходе, отставка; смирение, покорность судьбе",
       "plural": "resignations",
       "countability": "countable",
       "contrast": "The g is pronounced here, though it is silent in resign."
@@ -1373,14 +1737,43 @@
       "term": "benefits",
       "ipa": "/ˈbɛnəfɪts/",
       "respell": "BEN-uh-fits",
-      "meaning": "The health insurance, paid leave, and other extras an employer provides. ---",
+      "meaning": "Benefits has 2 distinct senses.",
       "examples": [
         "The pay is average but the benefits are great.",
         "Part-timers don't get benefits.",
-        "Benefits kick in after ninety days."
+        "Benefits kick in after ninety days.",
+        "The benefits of regular exercise show up within a few weeks.",
+        "We weighed the costs against the benefits before deciding.",
+        "Tax cuts of that kind bring few benefits to renters."
       ],
-      "senses": [],
-      "русский": "соцпакет, льготы (от работодателя)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The health insurance, paid leave, and other extras an employer provides",
+          "body": [
+            "(соцпакет, льготы (от работодателя))"
+          ],
+          "examples": [
+            "The pay is average but the benefits are great.",
+            "Part-timers don't get benefits.",
+            "Benefits kick in after ninety days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The advantages or good effects that something produces",
+          "body": [
+            "(польза, преимущества, выгоды)",
+            "---"
+          ],
+          "examples": [
+            "The benefits of regular exercise show up within a few weeks.",
+            "We weighed the costs against the benefits before deciding.",
+            "Tax cuts of that kind bring few benefits to renters."
+          ]
+        }
+      ],
+      "русский": "соцпакет, льготы (от работодателя); польза, преимущества, выгоды",
       "plural": "benefits",
       "countability": "countable",
       "contrast": "Plural in this sense — a benefit on its own just means an advantage."
@@ -1508,14 +1901,43 @@
       "term": "supervisor",
       "ipa": "/ˈsuːpərvaɪzər/",
       "respell": "SOO-pur-vy-zur",
-      "meaning": "The person who directs and checks another employee's work. ---",
+      "meaning": "Supervisor has 2 distinct senses.",
       "examples": [
         "Ask your supervisor before you leave early.",
         "My supervisor signed off on the request.",
-        "Both supervisors were in the meeting."
+        "Both supervisors were in the meeting.",
+        "The county supervisors meet on Tuesday evenings.",
+        "She was elected supervisor for the third district.",
+        "The board of supervisors voted to raise the sales tax."
       ],
-      "senses": [],
-      "русский": "руководитель, непосредственный начальник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person who directs and checks another employee's work",
+          "body": [
+            "(руководитель, непосредственный начальник)"
+          ],
+          "examples": [
+            "Ask your supervisor before you leave early.",
+            "My supervisor signed off on the request.",
+            "Both supervisors were in the meeting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An elected member of the governing board of an American county or township",
+          "body": [
+            "(член совета округа (выборная должность в США))",
+            "---"
+          ],
+          "examples": [
+            "The county supervisors meet on Tuesday evenings.",
+            "She was elected supervisor for the third district.",
+            "The board of supervisors voted to raise the sales tax."
+          ]
+        }
+      ],
+      "русский": "руководитель, непосредственный начальник; член совета округа (выборная должность в США)",
       "plural": "supervisors",
       "countability": "countable"
     },
@@ -1555,14 +1977,43 @@
       "term": "candidate",
       "ipa": "/ˈkændɪdət/",
       "respell": "KAN-dih-duht",
-      "meaning": "A person being considered for a job. ---",
+      "meaning": "Candidate has 2 distinct senses.",
       "examples": [
         "He's the strongest candidate we've seen.",
         "The candidate asked good questions.",
-        "They narrowed it down to three candidates."
+        "They narrowed it down to three candidates.",
+        "With that blood pressure, he's a prime candidate for a stroke.",
+        "The old warehouse is an obvious candidate for demolition.",
+        "Her knee makes her a good candidate for surgery."
       ],
-      "senses": [],
-      "русский": "кандидат (на должность)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person being considered for a job",
+          "body": [
+            "(кандидат (на должность))"
+          ],
+          "examples": [
+            "He's the strongest candidate we've seen.",
+            "The candidate asked good questions.",
+            "They narrowed it down to three candidates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing likely to get or to suffer something",
+          "body": [
+            "(подходящий кандидат (на что-л.); тот, кому это грозит)",
+            "---"
+          ],
+          "examples": [
+            "With that blood pressure, he's a prime candidate for a stroke.",
+            "The old warehouse is an obvious candidate for demolition.",
+            "Her knee makes her a good candidate for surgery."
+          ]
+        }
+      ],
+      "русский": "кандидат (на должность); подходящий кандидат (на что-л.); тот, кому это грозит",
       "plural": "candidates",
       "countability": "countable"
     },
@@ -1570,14 +2021,73 @@
       "term": "application",
       "ipa": "/ˌæpləˈkeɪʃən/",
       "respell": "ap-luh-KAY-shuhn",
-      "meaning": "A formal written request for a job or a place somewhere. ---",
+      "meaning": "Application has 4 distinct senses.",
       "examples": [
         "I sent in my application last night.",
         "The application takes about half an hour.",
-        "They got six hundred applications for one job."
+        "They got six hundred applications for one job.",
+        "Close any applications you aren't using.",
+        "The bank's mobile application lets you deposit checks.",
+        "It's a simple application that tracks your mileage.",
+        "The theory turned out to have surprising applications in medicine.",
+        "This material has dozens of industrial applications.",
+        "He struggled to see the application of what he was learning.",
+        "One application of the cream should be enough.",
+        "Sunscreen needs a second application after you swim.",
+        "The label recommends two applications of stain."
       ],
-      "senses": [],
-      "русский": "заявка, заявление (о приёме на работу)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal written request for a job or a place somewhere",
+          "body": [
+            "(заявка, заявление (о приёме на работу))"
+          ],
+          "examples": [
+            "I sent in my application last night.",
+            "The application takes about half an hour.",
+            "They got six hundred applications for one job."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A computer program that does a particular job for the user",
+          "body": [
+            "(приложение, программа)"
+          ],
+          "examples": [
+            "Close any applications you aren't using.",
+            "The bank's mobile application lets you deposit checks.",
+            "It's a simple application that tracks your mileage."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A practical use for an idea, a method, or a discovery",
+          "body": [
+            "(применение, практическое использование)"
+          ],
+          "examples": [
+            "The theory turned out to have surprising applications in medicine.",
+            "This material has dozens of industrial applications.",
+            "He struggled to see the application of what he was learning."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The act of putting a substance onto a surface",
+          "body": [
+            "(нанесение (крема, краски))",
+            "---"
+          ],
+          "examples": [
+            "One application of the cream should be enough.",
+            "Sunscreen needs a second application after you swim.",
+            "The label recommends two applications of stain."
+          ]
+        }
+      ],
+      "русский": "заявка, заявление (о приёме на работу); приложение, программа; применение, практическое использование; нанесение (крема, краски)",
       "plural": "applications",
       "countability": "countable"
     },
@@ -1585,14 +2095,43 @@
       "term": "interview",
       "ipa": "/ˈɪntərvjuː/",
       "respell": "IN-tur-vyoo",
-      "meaning": "A meeting where an employer questions someone applying for a job. ---",
+      "meaning": "Interview has 2 distinct senses.",
       "examples": [
         "I have an interview Thursday afternoon.",
         "The interview lasted almost two hours.",
-        "She went through four interviews before the offer."
+        "She went through four interviews before the offer.",
+        "The mayor gave an interview to the local paper.",
+        "In a rare television interview, she talked about her illness.",
+        "He turned down all interviews after the trial."
       ],
-      "senses": [],
-      "русский": "собеседование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meeting where an employer questions someone applying for a job",
+          "body": [
+            "(собеседование)"
+          ],
+          "examples": [
+            "I have an interview Thursday afternoon.",
+            "The interview lasted almost two hours.",
+            "She went through four interviews before the offer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A conversation in which a reporter asks someone questions to be printed or broadcast",
+          "body": [
+            "(интервью)",
+            "---"
+          ],
+          "examples": [
+            "The mayor gave an interview to the local paper.",
+            "In a rare television interview, she talked about her illness.",
+            "He turned down all interviews after the trial."
+          ]
+        }
+      ],
+      "русский": "собеседование; интервью",
       "plural": "interviews",
       "countability": "countable"
     },
@@ -1836,14 +2375,43 @@
       "term": "personnel",
       "ipa": "/ˌpɜːrsəˈnɛl/",
       "respell": "pur-suh-NEL",
-      "meaning": "The people employed by an organization. ---",
+      "meaning": "Personnel has 2 distinct senses.",
       "examples": [
         "All personnel have to badge in.",
         "Personnel were evacuated within minutes.",
-        "Ask personnel about your benefits."
+        "Ask personnel about your benefits.",
+        "Take the signed form down to personnel on the third floor.",
+        "Personnel keeps a file on every employee.",
+        "He worked in personnel at the county office for years."
       ],
-      "senses": [],
-      "русский": "персонал, кадры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The people employed by an organization",
+          "body": [
+            "(персонал, кадры)"
+          ],
+          "examples": [
+            "All personnel have to badge in.",
+            "Personnel were evacuated within minutes.",
+            "Ask personnel about your benefits."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The department in an organization that handles hiring, pay, and employee records",
+          "body": [
+            "(отдел кадров)",
+            "---"
+          ],
+          "examples": [
+            "Take the signed form down to personnel on the third floor.",
+            "Personnel keeps a file on every employee.",
+            "He worked in personnel at the county office for years."
+          ]
+        }
+      ],
+      "русский": "персонал, кадры; отдел кадров",
       "countability": "uncountable",
       "contrast": "Stress falls on the last syllable, pur-suh-NEL — don't confuse it with personal."
     },
@@ -2121,14 +2689,58 @@
       "term": "attachment",
       "ipa": "/əˈtætʃmənt/",
       "respell": "uh-TACH-muhnt",
-      "meaning": "A file sent along with an email. ---",
+      "meaning": "Attachment has 3 distinct senses.",
       "examples": [
         "You forgot the attachment again.",
         "The attachment is too big to send.",
-        "Don't open attachments from people you don't know."
+        "Don't open attachments from people you don't know.",
+        "She formed a deep attachment to the dog.",
+        "His attachment to his hometown never faded.",
+        "Small children often have a fierce attachment to one blanket.",
+        "The vacuum comes with three attachments.",
+        "Use the narrow attachment to clean the corners.",
+        "He bought a snowplow attachment for his tractor."
       ],
-      "senses": [],
-      "русский": "вложение (в письме)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A file sent along with an email",
+          "body": [
+            "(вложение (в письме))"
+          ],
+          "examples": [
+            "You forgot the attachment again.",
+            "The attachment is too big to send.",
+            "Don't open attachments from people you don't know."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong feeling of affection or loyalty toward someone or something",
+          "body": [
+            "(привязанность)"
+          ],
+          "examples": [
+            "She formed a deep attachment to the dog.",
+            "His attachment to his hometown never faded.",
+            "Small children often have a fierce attachment to one blanket."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An extra part that can be fixed onto a machine or tool for a particular job",
+          "body": [
+            "(насадка, приспособление)",
+            "---"
+          ],
+          "examples": [
+            "The vacuum comes with three attachments.",
+            "Use the narrow attachment to clean the corners.",
+            "He bought a snowplow attachment for his tractor."
+          ]
+        }
+      ],
+      "русский": "вложение (в письме); привязанность; насадка, приспособление",
       "plural": "attachments",
       "countability": "countable"
     },
@@ -2136,14 +2748,43 @@
       "term": "management",
       "ipa": "/ˈmænɪdʒmənt/",
       "respell": "MAN-ij-muhnt",
-      "meaning": "The people who run a company, or the work of running it. ---",
+      "meaning": "Management has 2 distinct senses.",
       "examples": [
         "Management decided to close the store.",
         "She moved into management last year.",
-        "There's no trust between staff and management."
+        "There's no trust between staff and management.",
+        "The clinic offers a free class on pain management.",
+        "Poor time management is why the project slipped a month.",
+        "The county's waste management costs have doubled since 2019."
       ],
-      "senses": [],
-      "русский": "руководство, управление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The people who run a company, or the work of running it",
+          "body": [
+            "(руководство, управление)"
+          ],
+          "examples": [
+            "Management decided to close the store.",
+            "She moved into management last year.",
+            "There's no trust between staff and management."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The process of dealing with or controlling a problem, resource, or condition",
+          "body": [
+            "(управление (процессом), контроль)",
+            "---"
+          ],
+          "examples": [
+            "The clinic offers a free class on pain management.",
+            "Poor time management is why the project slipped a month.",
+            "The county's waste management costs have doubled since 2019."
+          ]
+        }
+      ],
+      "русский": "руководство, управление; управление (процессом), контроль",
       "countability": "uncountable"
     },
     {

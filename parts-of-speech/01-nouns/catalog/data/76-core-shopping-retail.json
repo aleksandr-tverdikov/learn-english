@@ -188,14 +188,73 @@
       "term": "exchange",
       "ipa": "/ɪksˈtʃeɪndʒ/",
       "respell": "iks-CHAYNJ",
-      "meaning": "The act of trading a bought item for a different one. ---",
+      "meaning": "Exchange has 4 distinct senses.",
       "examples": [
         "They gave me an even exchange for a larger size.",
         "The store allows exchanges within thirty days.",
-        "Without the tag, no refund and no exchange."
+        "Without the tag, no refund and no exchange.",
+        "The two sides agreed to an exchange of prisoners.",
+        "He fixed my car in exchange for a week of dog-sitting.",
+        "The treaty allows an exchange of scientific data.",
+        "There was a heated exchange between the two senators.",
+        "I only had a brief exchange with her at the door.",
+        "The whole exchange was caught on video.",
+        "The stock exchange closes at four.",
+        "The company is listed on two exchanges.",
+        "Trading was halted on the exchange for an hour."
       ],
-      "senses": [],
-      "русский": "обмен (товара)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of trading a bought item for a different one",
+          "body": [
+            "(обмен (товара))"
+          ],
+          "examples": [
+            "They gave me an even exchange for a larger size.",
+            "The store allows exchanges within thirty days.",
+            "Without the tag, no refund and no exchange."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act of giving one thing and getting another in return",
+          "body": [
+            "(обмен (взаимный))"
+          ],
+          "examples": [
+            "The two sides agreed to an exchange of prisoners.",
+            "He fixed my car in exchange for a week of dog-sitting.",
+            "The treaty allows an exchange of scientific data."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short conversation or argument between people",
+          "body": [
+            "(разговор, перепалка, обмен репликами)"
+          ],
+          "examples": [
+            "There was a heated exchange between the two senators.",
+            "I only had a brief exchange with her at the door.",
+            "The whole exchange was caught on video."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A market where stocks or commodities are bought and sold",
+          "body": [
+            "(биржа)",
+            "---"
+          ],
+          "examples": [
+            "The stock exchange closes at four.",
+            "The company is listed on two exchanges.",
+            "Trading was halted on the exchange for an hour."
+          ]
+        }
+      ],
+      "русский": "обмен (товара); обмен (взаимный); разговор, перепалка, обмен репликами; биржа",
       "plural": "exchanges",
       "countability": "countable"
     },
@@ -544,14 +603,43 @@
       "term": "necessity",
       "ipa": "/nəˈsɛsəti/",
       "respell": "nuh-SES-uh-tee",
-      "meaning": "Something you genuinely need rather than simply want. ---",
+      "meaning": "Necessity has 2 distinct senses.",
       "examples": [
         "A phone is a necessity now, not a treat.",
         "We only bought necessities that month.",
-        "Bread and milk are the sort of necessity the corner store sells."
+        "Bread and milk are the sort of necessity the corner store sells.",
+        "We sold the car out of necessity, not because we wanted to.",
+        "There's no necessity for you to come along.",
+        "Necessity forced them to move in with her parents."
       ],
-      "senses": [],
-      "русский": "предмет первой необходимости",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you genuinely need rather than simply want",
+          "body": [
+            "(предмет первой необходимости)"
+          ],
+          "examples": [
+            "A phone is a necessity now, not a treat.",
+            "We only bought necessities that month.",
+            "Bread and milk are the sort of necessity the corner store sells."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fact that something must be done or cannot be avoided",
+          "body": [
+            "(необходимость)",
+            "---"
+          ],
+          "examples": [
+            "We sold the car out of necessity, not because we wanted to.",
+            "There's no necessity for you to come along.",
+            "Necessity forced them to move in with her parents."
+          ]
+        }
+      ],
+      "русский": "предмет первой необходимости; необходимость",
       "plural": "necessities",
       "countability": "countable"
     },
@@ -1404,14 +1492,43 @@
       "term": "selection",
       "ipa": "/səˈlɛkʃən/",
       "respell": "suh-LEK-shun",
-      "meaning": "The range of goods a store offers to choose from. ---",
+      "meaning": "Selection has 2 distinct senses.",
       "examples": [
         "That store has a great selection of cheese.",
         "Their online selections are bigger than in the shop.",
-        "The selection thins out by Sunday night."
+        "The selection thins out by Sunday night.",
+        "The selection of a new principal took months.",
+        "His selection for the national team surprised no one.",
+        "The judges announced their selections on Friday."
       ],
-      "senses": [],
-      "русский": "выбор, ассортимент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The range of goods a store offers to choose from",
+          "body": [
+            "(выбор, ассортимент)"
+          ],
+          "examples": [
+            "That store has a great selection of cheese.",
+            "Their online selections are bigger than in the shop.",
+            "The selection thins out by Sunday night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of choosing someone or something, or the one that is chosen",
+          "body": [
+            "(выбор, отбор)",
+            "---"
+          ],
+          "examples": [
+            "The selection of a new principal took months.",
+            "His selection for the national team surprised no one.",
+            "The judges announced their selections on Friday."
+          ]
+        }
+      ],
+      "русский": "выбор, ассортимент; выбор, отбор",
       "plural": "selections",
       "countability": "countable"
     },
@@ -1540,14 +1657,58 @@
       "term": "imitation",
       "ipa": "/ˌɪməˈteɪʃən/",
       "respell": "im-uh-TAY-shun",
-      "meaning": "A copy of something better or more expensive. ---",
+      "meaning": "Imitation has 3 distinct senses.",
       "examples": [
         "The frame is an imitation of an antique.",
         "Cheap imitations showed up within a month.",
-        "It's an imitation, but it looks convincing."
+        "It's an imitation, but it looks convincing.",
+        "Children learn most of what they know by imitation.",
+        "His early paintings were pure imitation of his teacher.",
+        "Imitation is the sincerest form of flattery.",
+        "He does a great imitation of his history teacher.",
+        "Her imitation of the boss had everyone in tears.",
+        "He ran through his imitations of all the neighbors."
       ],
-      "senses": [],
-      "русский": "имитация, подделка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A copy of something better or more expensive",
+          "body": [
+            "(имитация, подделка)"
+          ],
+          "examples": [
+            "The frame is an imitation of an antique.",
+            "Cheap imitations showed up within a month.",
+            "It's an imitation, but it looks convincing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of copying the way someone else behaves, speaks, or works",
+          "body": [
+            "(подражание, копирование)"
+          ],
+          "examples": [
+            "Children learn most of what they know by imitation.",
+            "His early paintings were pure imitation of his teacher.",
+            "Imitation is the sincerest form of flattery."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A performance in which someone copies another person's voice and manner, usually to be funny",
+          "body": [
+            "(пародия, изображение (кого-либо))",
+            "---"
+          ],
+          "examples": [
+            "He does a great imitation of his history teacher.",
+            "Her imitation of the boss had everyone in tears.",
+            "He ran through his imitations of all the neighbors."
+          ]
+        }
+      ],
+      "русский": "имитация, подделка; подражание, копирование; пародия, изображение (кого-либо)",
       "plural": "imitations",
       "countability": "countable"
     },
@@ -1662,14 +1823,43 @@
       "term": "giveaway",
       "ipa": "/ˈɡɪvəweɪ/",
       "respell": "GIV-uh-way",
-      "meaning": "An event where a store hands out free items or prizes. ---",
+      "meaning": "Giveaway has 2 distinct senses.",
       "examples": [
         "The store is holding a giveaway on opening day.",
         "Their giveaways always draw a crowd.",
-        "I entered the giveaway for a free grill."
+        "I entered the giveaway for a free grill.",
+        "The paint under his fingernails was a dead giveaway.",
+        "Her smile was the giveaway that she already knew.",
+        "The misspelled address is a giveaway that the email is fake."
       ],
-      "senses": [],
-      "русский": "раздача бесплатных товаров, розыгрыш",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An event where a store hands out free items or prizes",
+          "body": [
+            "(раздача бесплатных товаров, розыгрыш)"
+          ],
+          "examples": [
+            "The store is holding a giveaway on opening day.",
+            "Their giveaways always draw a crowd.",
+            "I entered the giveaway for a free grill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that accidentally reveals a secret or the truth",
+          "body": [
+            "(то, что выдаёт; явный признак)",
+            "---"
+          ],
+          "examples": [
+            "The paint under his fingernails was a dead giveaway.",
+            "Her smile was the giveaway that she already knew.",
+            "The misspelled address is a giveaway that the email is fake."
+          ]
+        }
+      ],
+      "русский": "раздача бесплатных товаров, розыгрыш; то, что выдаёт; явный признак",
       "plural": "giveaways",
       "countability": "countable"
     },

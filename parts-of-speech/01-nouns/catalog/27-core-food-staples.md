@@ -243,15 +243,23 @@ Recipe has 2 distinct senses.
 ### ingredient
 
 **Pronunciation:** /ɪnˈɡriːdiənt/ &middot; *in-GREE-dee-uhnt*
-**Русский:** ингредиент, составная часть
+**Русский:** ингредиент, составная часть; составляющая, слагаемое (успеха)
 **Plural:** *ingredients*
 **Countability:** countable
 
-One of the foods that go into a dish.
+Ingredient has 2 distinct senses.
+
+**1. One of the foods that go into a dish.** (ингредиент, составная часть)
 
 1. You only need five *ingredients* for this.
 2. Butter is the key *ingredient*.
 3. Check the *ingredients* on the label.
+
+**2. One of the parts or qualities that make something work or succeed.** (составляющая, слагаемое (успеха))
+
+4. Trust is the key *ingredient* in any partnership.
+5. The town has all the *ingredients* of a great weekend trip.
+6. Hard work is only one *ingredient* of success.
 
 ---
 
@@ -1538,15 +1546,23 @@ Roast has 2 distinct senses.
 ### hamburger
 
 **Pronunciation:** /ˈhæmbɜːrɡər/ &middot; *HAM-bur-gur*
-**Русский:** гамбургер
+**Русский:** гамбургер; говяжий фарш
 **Plural:** *hamburgers*
 **Countability:** countable
 
-A flat cake of ground beef served in a round bun.
+Hamburger has 2 distinct senses.
+
+**1. A flat cake of ground beef served in a round bun.** (гамбургер)
 
 1. He ordered a *hamburger* and fries.
 2. The *hamburgers* are on the grill.
 3. This place makes a decent *hamburger*.
+
+**2. Ground beef sold raw by weight and cooked loose rather than as a patty.** (говяжий фарш)
+
+4. Pick up a pound of *hamburger* for the chili.
+5. Brown the *hamburger* before you add the sauce.
+6. *Hamburger* was on sale, so I bought two packages.
 
 ---
 

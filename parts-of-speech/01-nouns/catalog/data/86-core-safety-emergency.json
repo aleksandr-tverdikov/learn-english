@@ -408,14 +408,43 @@
       "term": "survivor",
       "ipa": "/sərˈvaɪvər/",
       "respell": "sur-VY-vur",
-      "meaning": "A person who stays alive through an accident or disaster. ---",
+      "meaning": "Survivor has 2 distinct senses.",
       "examples": [
         "The only survivor was a boy in the back seat.",
         "Crews searched the rubble for survivors.",
-        "Survivors were taken to a shelter downtown."
+        "Survivors were taken to a shelter downtown.",
+        "Don't worry about her — she's a survivor.",
+        "He lost the business twice and started over at fifty; the man is a real survivor.",
+        "After the year she's had, I'd call her a survivor."
       ],
-      "senses": [],
-      "русский": "выживший, уцелевший",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who stays alive through an accident or disaster",
+          "body": [
+            "(выживший, уцелевший)"
+          ],
+          "examples": [
+            "The only survivor was a boy in the back seat.",
+            "Crews searched the rubble for survivors.",
+            "Survivors were taken to a shelter downtown."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who keeps going and copes well no matter what happens to them",
+          "body": [
+            "(живучий человек, тот, кто не сдаётся)",
+            "---"
+          ],
+          "examples": [
+            "Don't worry about her — she's a survivor.",
+            "He lost the business twice and started over at fifty; the man is a real survivor.",
+            "After the year she's had, I'd call her a survivor."
+          ]
+        }
+      ],
+      "русский": "выживший, уцелевший; живучий человек, тот, кто не сдаётся",
       "plural": "survivors",
       "countability": "countable"
     },
@@ -423,14 +452,43 @@
       "term": "disaster",
       "ipa": "/dɪˈzæstər/",
       "respell": "dih-ZAS-tur",
-      "meaning": "A sudden event that causes great damage or loss of life. ---",
+      "meaning": "Disaster has 2 distinct senses.",
       "examples": [
         "The flood was the worst disaster in the county's history.",
         "Natural disasters cost the state billions last year.",
-        "The governor declared the fire a disaster."
+        "The governor declared the fire a disaster.",
+        "The dinner party was a disaster from start to finish.",
+        "His first attempt at cutting my hair was a disaster.",
+        "The movie was a box-office disaster."
       ],
-      "senses": [],
-      "русский": "бедствие, катастрофа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden event that causes great damage or loss of life",
+          "body": [
+            "(бедствие, катастрофа)"
+          ],
+          "examples": [
+            "The flood was the worst disaster in the county's history.",
+            "Natural disasters cost the state billions last year.",
+            "The governor declared the fire a disaster."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A complete failure, or something that has gone badly wrong",
+          "body": [
+            "(провал, полный крах)",
+            "---"
+          ],
+          "examples": [
+            "The dinner party was a disaster from start to finish.",
+            "His first attempt at cutting my hair was a disaster.",
+            "The movie was a box-office disaster."
+          ]
+        }
+      ],
+      "русский": "бедствие, катастрофа; провал, полный крах",
       "plural": "disasters",
       "countability": "countable"
     },
@@ -454,14 +512,43 @@
       "term": "collision",
       "ipa": "/kəˈlɪʒən/",
       "respell": "kuh-LIZH-un",
-      "meaning": "A crash in which two moving things hit each other. ---",
+      "meaning": "Collision has 2 distinct senses.",
       "examples": [
         "The collision happened at the intersection.",
         "Nobody was hurt in the collision.",
-        "Head-on collisions are the deadliest kind."
+        "Head-on collisions are the deadliest kind.",
+        "The hearing exposed a collision between science and politics.",
+        "The movie is about the collision of two very different cultures.",
+        "Their ambitions put the two men on a collision course."
       ],
-      "senses": [],
-      "русский": "столкновение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A crash in which two moving things hit each other",
+          "body": [
+            "(столкновение)"
+          ],
+          "examples": [
+            "The collision happened at the intersection.",
+            "Nobody was hurt in the collision.",
+            "Head-on collisions are the deadliest kind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp clash between opposing ideas, groups, or interests",
+          "body": [
+            "(столкновение (интересов, взглядов))",
+            "---"
+          ],
+          "examples": [
+            "The hearing exposed a collision between science and politics.",
+            "The movie is about the collision of two very different cultures.",
+            "Their ambitions put the two men on a collision course."
+          ]
+        }
+      ],
+      "русский": "столкновение; столкновение (интересов, взглядов)",
       "plural": "collisions",
       "countability": "countable"
     },
@@ -561,14 +648,43 @@
       "term": "collapse",
       "ipa": "/kəˈlæps/",
       "respell": "kuh-LAPS",
-      "meaning": "The sudden falling down of a building, roof, or other structure. ---",
+      "meaning": "Collapse has 2 distinct senses.",
       "examples": [
         "The collapse trapped four workers in the basement.",
         "Heavy snow caused the roof collapse.",
-        "Two collapses in one week shut down the mine."
+        "Two collapses in one week shut down the mine.",
+        "The collapse of the bank wiped out their savings.",
+        "Nobody at the firm predicted the collapse of the housing market.",
+        "The talks ended in collapse after three days."
       ],
-      "senses": [],
-      "русский": "обрушение, обвал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sudden falling down of a building, roof, or other structure",
+          "body": [
+            "(обрушение, обвал)"
+          ],
+          "examples": [
+            "The collapse trapped four workers in the basement.",
+            "Heavy snow caused the roof collapse.",
+            "Two collapses in one week shut down the mine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden and complete failure of a system, business, or plan",
+          "body": [
+            "(крах, обвал (системы, рынка))",
+            "---"
+          ],
+          "examples": [
+            "The collapse of the bank wiped out their savings.",
+            "Nobody at the firm predicted the collapse of the housing market.",
+            "The talks ended in collapse after three days."
+          ]
+        }
+      ],
+      "русский": "обрушение, обвал; крах, обвал (системы, рынка)",
       "plural": "collapses",
       "countability": "countable"
     },
@@ -844,14 +960,43 @@
       "term": "aftershock",
       "ipa": "/ˈæftərʃɑːk/",
       "respell": "AF-tur-shahk",
-      "meaning": "A smaller earthquake that follows a larger one. ---",
+      "meaning": "Aftershock has 2 distinct senses.",
       "examples": [
         "An aftershock woke everybody at four in the morning.",
         "There were dozens of aftershocks that week.",
-        "Rescue work stopped during each aftershock."
+        "Rescue work stopped during each aftershock.",
+        "The layoffs sent aftershocks through the whole town.",
+        "We are still feeling the aftershocks of that decision.",
+        "The scandal's political aftershocks lasted for years."
       ],
-      "senses": [],
-      "русский": "повторный подземный толчок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A smaller earthquake that follows a larger one",
+          "body": [
+            "(повторный подземный толчок)"
+          ],
+          "examples": [
+            "An aftershock woke everybody at four in the morning.",
+            "There were dozens of aftershocks that week.",
+            "Rescue work stopped during each aftershock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A later effect or reaction that follows a shocking event",
+          "body": [
+            "(отголосок, отсроченное последствие (потрясения))",
+            "---"
+          ],
+          "examples": [
+            "The layoffs sent aftershocks through the whole town.",
+            "We are still feeling the aftershocks of that decision.",
+            "The scandal's political aftershocks lasted for years."
+          ]
+        }
+      ],
+      "русский": "повторный подземный толчок; отголосок, отсроченное последствие (потрясения)",
       "plural": "aftershocks",
       "countability": "countable"
     },
@@ -1110,14 +1255,43 @@
       "term": "antidote",
       "ipa": "/ˈæntɪdoʊt/",
       "respell": "AN-tih-doht",
-      "meaning": "A medicine that works against a particular poison. ---",
+      "meaning": "Antidote has 2 distinct senses.",
       "examples": [
         "There is an antidote for that snake's venom.",
         "The hospital keeps the antidote on hand.",
-        "Some poisons have no antidotes at all."
+        "Some poisons have no antidotes at all.",
+        "A weekend at the lake was the perfect antidote to a stressful week.",
+        "Comedy can be an antidote to despair.",
+        "Volunteering became her antidote for loneliness."
       ],
-      "senses": [],
-      "русский": "противоядие, антидот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A medicine that works against a particular poison",
+          "body": [
+            "(противоядие, антидот)"
+          ],
+          "examples": [
+            "There is an antidote for that snake's venom.",
+            "The hospital keeps the antidote on hand.",
+            "Some poisons have no antidotes at all."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that takes away a bad feeling or improves a bad situation",
+          "body": [
+            "(средство против (чего-то плохого), противовес)",
+            "---"
+          ],
+          "examples": [
+            "A weekend at the lake was the perfect antidote to a stressful week.",
+            "Comedy can be an antidote to despair.",
+            "Volunteering became her antidote for loneliness."
+          ]
+        }
+      ],
+      "русский": "противоядие, антидот; средство против (чего-то плохого), противовес",
       "plural": "antidotes",
       "countability": "countable"
     },
@@ -1647,14 +1821,43 @@
       "term": "roadblock",
       "ipa": "/ˈroʊdblɑːk/",
       "respell": "ROHD-blahk",
-      "meaning": "A barrier across a road that stops or turns back traffic. ---",
+      "meaning": "Roadblock has 2 distinct senses.",
       "examples": [
         "There's a roadblock at the bottom of the hill.",
         "Police set up a roadblock on the bridge.",
-        "Roadblocks kept everyone out of the burn area."
+        "Roadblocks kept everyone out of the burn area.",
+        "Funding turned out to be the biggest roadblock.",
+        "We hit a roadblock when the supplier backed out.",
+        "Their lawyers threw up one roadblock after another."
       ],
-      "senses": [],
-      "русский": "дорожное заграждение, блокпост",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A barrier across a road that stops or turns back traffic",
+          "body": [
+            "(дорожное заграждение, блокпост)"
+          ],
+          "examples": [
+            "There's a roadblock at the bottom of the hill.",
+            "Police set up a roadblock on the bridge.",
+            "Roadblocks kept everyone out of the burn area."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that stops progress on a plan or project",
+          "body": [
+            "(препятствие, помеха)",
+            "---"
+          ],
+          "examples": [
+            "Funding turned out to be the biggest roadblock.",
+            "We hit a roadblock when the supplier backed out.",
+            "Their lawyers threw up one roadblock after another."
+          ]
+        }
+      ],
+      "русский": "дорожное заграждение, блокпост; препятствие, помеха",
       "plural": "roadblocks",
       "countability": "countable"
     },
@@ -1722,14 +1925,43 @@
       "term": "respirator",
       "ipa": "/ˈrɛspəreɪtər/",
       "respell": "RES-puh-ray-tur",
-      "meaning": "A mask with filters that keeps dust, fumes, or germs out of the lungs. ---",
+      "meaning": "Respirator has 2 distinct senses.",
       "examples": [
         "Wear a respirator when you sand that paint.",
         "His respirator fogged up in the heat.",
-        "The shop keeps respirators by the door."
+        "The shop keeps respirators by the door.",
+        "He spent two weeks on a respirator after the accident.",
+        "The hospital ran short of respirators during the surge.",
+        "Doctors took her off the respirator on Sunday."
       ],
-      "senses": [],
-      "русский": "респиратор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mask with filters that keeps dust, fumes, or germs out of the lungs",
+          "body": [
+            "(респиратор)"
+          ],
+          "examples": [
+            "Wear a respirator when you sand that paint.",
+            "His respirator fogged up in the heat.",
+            "The shop keeps respirators by the door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine that breathes for a patient who cannot breathe alone",
+          "body": [
+            "(аппарат искусственной вентиляции лёгких)",
+            "---"
+          ],
+          "examples": [
+            "He spent two weeks on a respirator after the accident.",
+            "The hospital ran short of respirators during the surge.",
+            "Doctors took her off the respirator on Sunday."
+          ]
+        }
+      ],
+      "русский": "респиратор; аппарат искусственной вентиляции лёгких",
       "plural": "respirators",
       "countability": "countable"
     },
@@ -1890,14 +2122,43 @@
       "term": "lifeline",
       "ipa": "/ˈlaɪflaɪn/",
       "respell": "LYF-lyne",
-      "meaning": "A rope thrown or fixed to keep someone from being lost or swept away. ---",
+      "meaning": "Lifeline has 2 distinct senses.",
       "examples": [
         "He tied a lifeline around his waist before going out on the ice.",
         "A lifeline runs the length of the deck.",
-        "The radio was their only lifeline."
+        "The radio was their only lifeline.",
+        "The loan was a lifeline for the family business.",
+        "The ferry is the island's only lifeline in winter.",
+        "For a lot of seniors, that daily call is a lifeline."
       ],
-      "senses": [],
-      "русский": "страховочный трос, спасательный конец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rope thrown or fixed to keep someone from being lost or swept away",
+          "body": [
+            "(страховочный трос, спасательный конец)"
+          ],
+          "examples": [
+            "He tied a lifeline around his waist before going out on the ice.",
+            "A lifeline runs the length of the deck.",
+            "The radio was their only lifeline."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that provides essential help or keeps something going",
+          "body": [
+            "(спасательный круг, жизненно важная поддержка)",
+            "---"
+          ],
+          "examples": [
+            "The loan was a lifeline for the family business.",
+            "The ferry is the island's only lifeline in winter.",
+            "For a lot of seniors, that daily call is a lifeline."
+          ]
+        }
+      ],
+      "русский": "страховочный трос, спасательный конец; спасательный круг, жизненно важная поддержка",
       "plural": "lifelines",
       "countability": "countable"
     },
@@ -1905,14 +2166,43 @@
       "term": "distress",
       "ipa": "/dɪˈstrɛs/",
       "respell": "dih-STRES",
-      "meaning": "The state of being in serious trouble and needing help. ---",
+      "meaning": "Distress has 2 distinct senses.",
       "examples": [
         "The boat was in distress about two miles out.",
         "They picked up a distress call at midnight.",
-        "The plane signaled distress and turned back."
+        "The plane signaled distress and turned back.",
+        "She sued the company for emotional distress.",
+        "The fireworks caused the dogs obvious distress.",
+        "He hid his distress well, but his hands were shaking."
       ],
-      "senses": [],
-      "русский": "бедствие, тяжёлое положение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The state of being in serious trouble and needing help",
+          "body": [
+            "(бедствие, тяжёлое положение)"
+          ],
+          "examples": [
+            "The boat was in distress about two miles out.",
+            "They picked up a distress call at midnight.",
+            "The plane signaled distress and turned back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Great mental pain, worry, or sorrow",
+          "body": [
+            "(страдание, душевная боль)",
+            "---"
+          ],
+          "examples": [
+            "She sued the company for emotional distress.",
+            "The fireworks caused the dogs obvious distress.",
+            "He hid his distress well, but his hands were shaking."
+          ]
+        }
+      ],
+      "русский": "бедствие, тяжёлое положение; страдание, душевная боль",
       "countability": "uncountable"
     },
     {

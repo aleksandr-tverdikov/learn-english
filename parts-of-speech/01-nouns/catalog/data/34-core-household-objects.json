@@ -851,14 +851,43 @@
       "term": "screwdriver",
       "ipa": "/ˈskruːdraɪvər/",
       "respell": "SKROO-dry-vur",
-      "meaning": "A tool for turning screws. ---",
+      "meaning": "Screwdriver has 2 distinct senses.",
       "examples": [
         "I need a small screwdriver for these screws.",
         "The screwdriver is in the junk drawer.",
-        "The set came with six screwdrivers."
+        "The set came with six screwdrivers.",
+        "He ordered a screwdriver at the hotel bar.",
+        "Brunch comes with a free mimosa or screwdriver.",
+        "She makes screwdrivers with fresh-squeezed juice."
       ],
-      "senses": [],
-      "русский": "отвёртка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool for turning screws",
+          "body": [
+            "(отвёртка)"
+          ],
+          "examples": [
+            "I need a small screwdriver for these screws.",
+            "The screwdriver is in the junk drawer.",
+            "The set came with six screwdrivers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mixed drink of vodka and orange juice",
+          "body": [
+            "(коктейль «отвёртка» (водка с апельсиновым соком))",
+            "---"
+          ],
+          "examples": [
+            "He ordered a screwdriver at the hotel bar.",
+            "Brunch comes with a free mimosa or screwdriver.",
+            "She makes screwdrivers with fresh-squeezed juice."
+          ]
+        }
+      ],
+      "русский": "отвёртка; коктейль «отвёртка» (водка с апельсиновым соком)",
       "plural": "screwdrivers",
       "countability": "countable"
     },

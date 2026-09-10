@@ -257,30 +257,46 @@ The ability to make new things or think of original ideas.
 ### conclusion
 
 **Pronunciation:** /kənˈkluːʒən/ &middot; *kuhn-KLOO-zhuhn*
-**Русский:** вывод, заключение
+**Русский:** вывод, заключение; окончание, завершение
 **Plural:** *conclusions*
 **Countability:** countable
 
-A decision or opinion reached after thinking about the facts.
+Conclusion has 2 distinct senses.
+
+**1. A decision or opinion reached after thinking about the facts.** (вывод, заключение)
 
 1. I came to the *conclusion* that he was lying.
 2. Don't jump to *conclusions* before you hear the whole story.
 3. The report's *conclusion* surprised everybody.
+
+**2. The end or final part of something.** (окончание, завершение)
+
+4. At the *conclusion* of the ceremony, everyone stood.
+5. The trial reached its *conclusion* on Friday afternoon.
+6. The *conclusion* of the book ties up every loose thread.
 
 ---
 
 ### assumption
 
 **Pronunciation:** /əˈsʌmpʃən/ &middot; *uh-SUMP-shuhn*
-**Русский:** предположение, допущение
+**Русский:** предположение, допущение; принятие (должности, власти, обязательств)
 **Plural:** *assumptions*
 **Countability:** countable
 
-Something you accept as true without proof.
+Assumption has 2 distinct senses.
+
+**1. Something you accept as true without proof.** (предположение, допущение)
 
 1. I made the *assumption* that she was driving.
 2. The whole plan rests on two shaky *assumptions*.
 3. Working on the *assumption* that it rains, bring an umbrella.
+
+**2. The act of taking on a role, a power, or a responsibility.** (принятие (должности, власти, обязательств))
+
+4. His *assumption* of command came at a difficult moment.
+5. The *assumption* of power by the military drew protests.
+6. *Assumption* of the seller's mortgage saved the buyers thousands.
 
 ---
 
@@ -317,14 +333,22 @@ The process of thinking about something in a logical way.
 ### attention
 
 **Pronunciation:** /əˈtɛnʃən/ &middot; *uh-TEN-shuhn*
-**Русский:** внимание
+**Русский:** внимание; уход, обслуживание; помощь
 **Countability:** uncountable
 
-The act of watching, listening to, or thinking about something carefully.
+Attention has 2 distinct senses.
+
+**1. The act of watching, listening to, or thinking about something carefully.** (внимание)
 
 1. Could I have your *attention* for a minute?
 2. The problem needs immediate *attention*.
 3. She pays close *attention* to detail.
+
+**2. Practical care or action given to something that needs it.** (уход, обслуживание; помощь)
+
+4. That cut needs medical *attention*.
+5. The furnace is old and needs some *attention*.
+6. Several items on the list still require your *attention*.
 
 ---
 
@@ -345,15 +369,23 @@ Knowledge that something exists or is happening.
 ### consciousness
 
 **Pronunciation:** /ˈkɑːnʃəsnəs/ &middot; *KAHN-shuhs-nuhs*
-**Русский:** сознание
+**Русский:** сознание; осознание (проблемы); сознание (общественное)
 **Countability:** uncountable
 **Contrast:** The sc spells a single /ʃ/ sound: KAHN-shuhs-nuhs, not "kon-skus".
 
-The state of being awake and able to think and perceive.
+Consciousness has 2 distinct senses.
+
+**1. The state of being awake and able to think and perceive.** (сознание)
 
 1. She lost *consciousness* for about a minute.
 2. He slowly regained *consciousness* in the ambulance.
 3. The memory floated up into *consciousness* years later.
+
+**2. Awareness of a particular issue, or the shared ideas and feelings of a group.** (осознание (проблемы); сознание (общественное))
+
+4. The campaign raised public *consciousness* about recycling.
+5. Those songs shaped the national *consciousness* for a generation.
+6. Class *consciousness* grew during the long strike.
 
 ---
 
@@ -375,15 +407,29 @@ The way you notice things with your senses, or an opinion about what something i
 ### impression
 
 **Pronunciation:** /ɪmˈprɛʃən/ &middot; *im-PRESH-uhn*
-**Русский:** впечатление
+**Русский:** впечатление; пародия (на кого-л.); отпечаток, оттиск
 **Plural:** *impressions*
 **Countability:** countable
 
-An idea or feeling you get about someone or something.
+Impression has 3 distinct senses.
+
+**1. An idea or feeling you get about someone or something.** (впечатление)
 
 1. My first *impression* of him was completely wrong.
 2. Write down your *impressions* while they're fresh.
 3. I got the *impression* she wanted to leave.
+
+**2. A funny imitation of the way a well-known person talks and acts.** (пародия (на кого-л.))
+
+4. He does a great *impression* of the president.
+5. Her *impression* of our boss had the whole office laughing.
+6. The comedian is famous for his celebrity *impressions*.
+
+**3. A mark left when something is pressed into a soft surface.** (отпечаток, оттиск)
+
+7. The dentist made an *impression* of my teeth.
+8. You could see the *impression* of a boot in the mud.
+9. The seal left a clear *impression* in the wax.
 
 ---
 
@@ -523,15 +569,23 @@ Loss of memory, usually after an injury or an illness.
 ### personality
 
 **Pronunciation:** /ˌpɜːrsəˈnæləti/ &middot; *pur-suh-NAL-uh-tee*
-**Русский:** личность, характер
+**Русский:** личность, характер; известная личность, медийная персона
 **Plural:** *personalities*
 **Countability:** countable
 
-The set of qualities that makes one person different from another.
+Personality has 2 distinct senses.
+
+**1. The set of qualities that makes one person different from another.** (личность, характер)
 
 1. She has a warm, outgoing *personality*.
 2. The two roommates had clashing *personalities*.
 3. The dog's *personality* changed after the surgery.
+
+**2. A person who is well known from television, radio, or sports.** (известная личность, медийная персона)
+
+4. A local TV *personality* cut the ribbon at the new store.
+5. The network hires former players as on-air *personalities*.
+6. She became a radio *personality* after ten years of writing news.
 
 ---
 
@@ -606,14 +660,22 @@ A person's sense of their own importance.
 ### integrity
 
 **Pronunciation:** /ɪnˈtɛɡrəti/ &middot; *in-TEG-ruh-tee*
-**Русский:** честность, порядочность
+**Русский:** честность, порядочность; целостность, прочность
 **Countability:** uncountable
 
-The quality of being honest and holding to strong moral principles.
+Integrity has 2 distinct senses.
+
+**1. The quality of being honest and holding to strong moral principles.** (честность, порядочность)
 
 1. He's a man of real *integrity*.
 2. The job calls for judgment and *integrity*.
 3. She kept her *integrity* even when it cost her.
+
+**2. The state of being whole, sound, and undamaged.** (целостность, прочность)
+
+4. Engineers questioned the structural *integrity* of the bridge.
+5. The fire damaged the *integrity* of the roof beams.
+6. Encryption protects the *integrity* of the data.
 
 ---
 
@@ -919,15 +981,23 @@ A firm false belief held despite clear evidence.
 ### hallucination
 
 **Pronunciation:** /həˌluːsɪˈneɪʃən/ &middot; *huh-loo-sih-NAY-shuhn*
-**Русский:** галлюцинация
+**Русский:** галлюцинация; галлюцинация (выдуманный факт в ответе ИИ)
 **Plural:** *hallucinations*
 **Countability:** countable
 
-Something a person sees or hears that is not really there.
+Hallucination has 2 distinct senses.
+
+**1. Something a person sees or hears that is not really there.** (галлюцинация)
 
 1. The fever gave him *hallucinations*.
 2. She reported a *hallucination* the first night on the drug.
 3. Sleep loss can cause mild *hallucinations*.
+
+**2. A made-up fact that an AI system states as if it were true.** (галлюцинация (выдуманный факт в ответе ИИ))
+
+4. The case he cited turned out to be a *hallucination*.
+5. Two lawyers were fined for filing a brief full of *hallucinations*.
+6. Newer models reduce *hallucination* but don't eliminate it.
 
 ---
 
@@ -1016,14 +1086,22 @@ Nap has 2 distinct senses.
 ### relaxation
 
 **Pronunciation:** /ˌriːlækˈseɪʃən/ &middot; *ree-lak-SAY-shuhn*
-**Русский:** расслабление, отдых
+**Русский:** расслабление, отдых; смягчение, ослабление (правил, ограничений)
 **Countability:** uncountable
 
-The state of being calm and free from work or worry.
+Relaxation has 2 distinct senses.
+
+**1. The state of being calm and free from work or worry.** (расслабление, отдых)
 
 1. Fishing is pure *relaxation* for him.
 2. The class teaches breathing and *relaxation*.
 3. She needs a weekend of real *relaxation*.
+
+**2. The easing or loosening of a rule, limit, or restriction.** (смягчение, ослабление (правил, ограничений))
+
+4. Businesses welcomed the *relaxation* of the mask rules.
+5. A slight *relaxation* of lending standards followed the vote.
+6. The *relaxation* of travel limits came too late for summer.
 
 ---
 

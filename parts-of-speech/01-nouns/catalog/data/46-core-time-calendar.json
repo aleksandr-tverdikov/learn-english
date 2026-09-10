@@ -280,14 +280,58 @@
       "term": "generation",
       "ipa": "/ˌdʒɛnəˈreɪʃən/",
       "respell": "jen-uh-RAY-shuhn",
-      "meaning": "All the people born and living at about the same time. ---",
+      "meaning": "Generation has 3 distinct senses.",
       "examples": [
         "My grandmother's generation saved everything.",
         "The farm has been in the family for four generations.",
-        "This generation grew up with smartphones."
+        "This generation grew up with smartphones.",
+        "The new generation of electric trucks goes twice as far.",
+        "This phone is two generations behind mine.",
+        "The camera is in its fourth generation now.",
+        "Wind now accounts for a third of the state's power generation.",
+        "The plant's generation dropped during the heat wave.",
+        "Their whole marketing budget goes to lead generation."
       ],
-      "senses": [],
-      "русский": "поколение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "All the people born and living at about the same time",
+          "body": [
+            "(поколение)"
+          ],
+          "examples": [
+            "My grandmother's generation saved everything.",
+            "The farm has been in the family for four generations.",
+            "This generation grew up with smartphones."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One model or version in a series of products, each replacing the one before it",
+          "body": [
+            "(поколение (модели, версии устройства))"
+          ],
+          "examples": [
+            "The new generation of electric trucks goes twice as far.",
+            "This phone is two generations behind mine.",
+            "The camera is in its fourth generation now."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The producing of something such as electricity, heat, or income",
+          "body": [
+            "(выработка, производство (энергии, дохода))",
+            "---"
+          ],
+          "examples": [
+            "Wind now accounts for a third of the state's power generation.",
+            "The plant's generation dropped during the heat wave.",
+            "Their whole marketing budget goes to lead generation."
+          ]
+        }
+      ],
+      "русский": "поколение; поколение (модели, версии устройства); выработка, производство (энергии, дохода)",
       "plural": "generations",
       "countability": "countable"
     },
@@ -2622,14 +2666,58 @@
       "term": "antiquity",
       "ipa": "/ænˈtɪkwəti/",
       "respell": "an-TIK-wuh-tee",
-      "meaning": "Ancient times, especially the age of Greece and Rome. ---",
+      "meaning": "Antiquity has 3 distinct senses.",
       "examples": [
         "The custom dates back to antiquity.",
         "Scholars of antiquity still argue about the text.",
-        "Olive oil has been traded since antiquity."
+        "Olive oil has been traded since antiquity.",
+        "The museum's Egyptian antiquities fill three rooms.",
+        "Customs agents seized a shipment of stolen antiquities.",
+        "He collects Roman antiquities and displays them at home.",
+        "Carbon dating confirmed the manuscript's antiquity.",
+        "It is a custom of great antiquity.",
+        "Visitors are drawn by the cathedral's sheer antiquity."
       ],
-      "senses": [],
-      "русский": "древность, античность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Ancient times, especially the age of Greece and Rome",
+          "body": [
+            "(древность, античность)"
+          ],
+          "examples": [
+            "The custom dates back to antiquity.",
+            "Scholars of antiquity still argue about the text.",
+            "Olive oil has been traded since antiquity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An object that has survived from ancient times, such as a statue or a coin",
+          "body": [
+            "(древности, античные предметы)"
+          ],
+          "examples": [
+            "The museum's Egyptian antiquities fill three rooms.",
+            "Customs agents seized a shipment of stolen antiquities.",
+            "He collects Roman antiquities and displays them at home."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The state of being very old",
+          "body": [
+            "(древность (возраст, старина))",
+            "---"
+          ],
+          "examples": [
+            "Carbon dating confirmed the manuscript's antiquity.",
+            "It is a custom of great antiquity.",
+            "Visitors are drawn by the cathedral's sheer antiquity."
+          ]
+        }
+      ],
+      "русский": "древность, античность; древности, античные предметы; древность (возраст, старина)",
       "countability": "uncountable"
     },
     {

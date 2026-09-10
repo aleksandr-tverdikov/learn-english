@@ -697,14 +697,43 @@
       "term": "fertility",
       "ipa": "/fərˈtɪləti/",
       "respell": "fur-TIL-uh-tee",
-      "meaning": "The ability of soil to grow healthy crops. ---",
+      "meaning": "Fertility has 2 distinct senses.",
       "examples": [
         "Manure restored some of the field's fertility.",
         "Constant corn drains the soil's fertility.",
-        "They test each field for fertility every spring."
+        "They test each field for fertility every spring.",
+        "The couple went to a fertility clinic after two years of trying.",
+        "The country's fertility rate has fallen below replacement level.",
+        "Stress and smoking can both affect fertility."
       ],
-      "senses": [],
-      "русский": "плодородие (почвы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The ability of soil to grow healthy crops",
+          "body": [
+            "(плодородие (почвы))"
+          ],
+          "examples": [
+            "Manure restored some of the field's fertility.",
+            "Constant corn drains the soil's fertility.",
+            "They test each field for fertility every spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability of a person or animal to produce offspring",
+          "body": [
+            "(фертильность, способность иметь детей)",
+            "---"
+          ],
+          "examples": [
+            "The couple went to a fertility clinic after two years of trying.",
+            "The country's fertility rate has fallen below replacement level.",
+            "Stress and smoking can both affect fertility."
+          ]
+        }
+      ],
+      "русский": "плодородие (почвы); фертильность, способность иметь детей",
       "countability": "uncountable"
     },
     {
@@ -1827,14 +1856,43 @@
       "term": "implement",
       "ipa": "/ˈɪmpləmənt/",
       "respell": "IM-pluh-muhnt",
-      "meaning": "A tool or piece of equipment pulled behind a tractor to work the land. ---",
+      "meaning": "Implement has 2 distinct senses.",
       "examples": [
         "Every implement on the place needs greasing.",
         "The dealer sells tractors and implements.",
-        "He backed the tractor up to hook onto the implement."
+        "He backed the tractor up to hook onto the implement.",
+        "Keep the writing implements in the top drawer.",
+        "A whisk is the right implement for the job.",
+        "The museum displays stone implements made thousands of years ago."
       ],
-      "senses": [],
-      "русский": "сельхозорудие, инвентарь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool or piece of equipment pulled behind a tractor to work the land",
+          "body": [
+            "(сельхозорудие, инвентарь)"
+          ],
+          "examples": [
+            "Every implement on the place needs greasing.",
+            "The dealer sells tractors and implements.",
+            "He backed the tractor up to hook onto the implement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool or utensil used for a particular job",
+          "body": [
+            "(орудие, инструмент)",
+            "---"
+          ],
+          "examples": [
+            "Keep the writing implements in the top drawer.",
+            "A whisk is the right implement for the job.",
+            "The museum displays stone implements made thousands of years ago."
+          ]
+        }
+      ],
+      "русский": "сельхозорудие, инвентарь; орудие, инструмент",
       "plural": "implements",
       "countability": "countable",
       "contrast": "The noun ends in a weak -muhnt; the verb to implement usually ends in a full -MENT."

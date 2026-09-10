@@ -141,14 +141,43 @@
       "term": "national",
       "ipa": "/ˈnæʃənəl/",
       "respell": "NASH-uh-nuhl",
-      "meaning": "A citizen of a particular country, especially one who is abroad. ---",
+      "meaning": "National has 2 distinct senses.",
       "examples": [
         "Three French nationals were on the flight.",
         "The embassy is helping any American national who wants to leave.",
-        "The visa is only for foreign nationals with a job offer."
+        "The visa is only for foreign nationals with a job offer.",
+        "Her team qualified for nationals for the first time in years.",
+        "He finished fourth at nationals last spring.",
+        "Winners of the regional meet go on to nationals in July."
       ],
-      "senses": [],
-      "русский": "гражданин (какой-либо страны), подданный",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A citizen of a particular country, especially one who is abroad",
+          "body": [
+            "(гражданин (какой-либо страны), подданный)"
+          ],
+          "examples": [
+            "Three French nationals were on the flight.",
+            "The embassy is helping any American national who wants to leave.",
+            "The visa is only for foreign nationals with a job offer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A national championship competition, usually spoken of in the plural",
+          "body": [
+            "(национальный чемпионат (обычно nationals))",
+            "---"
+          ],
+          "examples": [
+            "Her team qualified for nationals for the first time in years.",
+            "He finished fourth at nationals last spring.",
+            "Winners of the regional meet go on to nationals in July."
+          ]
+        }
+      ],
+      "русский": "гражданин (какой-либо страны), подданный; национальный чемпионат (обычно nationals)",
       "plural": "nationals",
       "countability": "countable"
     },
@@ -275,14 +304,43 @@
       "term": "negative",
       "ipa": "/ˈnɛɡətɪv/",
       "respell": "NEG-uh-tiv",
-      "meaning": "A bad or unwanted feature of something. ---",
+      "meaning": "Negative has 2 distinct senses.",
       "examples": [
         "Every job has its negatives.",
         "The only negative is the commute.",
-        "List the positives and the negatives before you decide."
+        "List the positives and the negatives before you decide.",
+        "She found the old negatives in a shoebox in the attic.",
+        "The lab can print another copy if you still have the negative.",
+        "Hold the negative up to the light and you can just make out his face."
       ],
-      "senses": [],
-      "русский": "минус, отрицательная сторона",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bad or unwanted feature of something",
+          "body": [
+            "(минус, отрицательная сторона)"
+          ],
+          "examples": [
+            "Every job has its negatives.",
+            "The only negative is the commute.",
+            "List the positives and the negatives before you decide."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of developed photographic film in which light and dark are reversed",
+          "body": [
+            "(негатив (фотоплёнки))",
+            "---"
+          ],
+          "examples": [
+            "She found the old negatives in a shoebox in the attic.",
+            "The lab can print another copy if you still have the negative.",
+            "Hold the negative up to the light and you can just make out his face."
+          ]
+        }
+      ],
+      "русский": "минус, отрицательная сторона; негатив (фотоплёнки)",
       "plural": "negatives",
       "countability": "countable"
     },
@@ -896,14 +954,43 @@
       "term": "notation",
       "ipa": "/noʊˈteɪʃən/",
       "respell": "noh-TAY-shun",
-      "meaning": "A set of written signs used to record music, math, or moves in a game. ---",
+      "meaning": "Notation has 2 distinct senses.",
       "examples": [
         "The score uses standard musical notation.",
         "Chess notation takes about a day to learn.",
-        "The teacher explained the notation used in the textbook."
+        "The teacher explained the notation used in the textbook.",
+        "The nurse made a notation in his chart.",
+        "Her copy of the script was covered in penciled notations.",
+        "I found a notation in the margin explaining the change."
       ],
-      "senses": [],
-      "русский": "система записи, нотация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of written signs used to record music, math, or moves in a game",
+          "body": [
+            "(система записи, нотация)"
+          ],
+          "examples": [
+            "The score uses standard musical notation.",
+            "Chess notation takes about a day to learn.",
+            "The teacher explained the notation used in the textbook."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short note written down as a record",
+          "body": [
+            "(запись, пометка)",
+            "---"
+          ],
+          "examples": [
+            "The nurse made a notation in his chart.",
+            "Her copy of the script was covered in penciled notations.",
+            "I found a notation in the margin explaining the change."
+          ]
+        }
+      ],
+      "русский": "система записи, нотация; запись, пометка",
       "countability": "uncountable"
     },
     {
@@ -2098,14 +2185,58 @@
       "term": "orientation",
       "ipa": "/ˌɔːriənˈteɪʃən/",
       "respell": "OR-ee-uhn-TAY-shuhn",
-      "meaning": "A meeting or program that introduces newcomers to a place, school, or job. ---",
+      "meaning": "Orientation has 3 distinct senses.",
       "examples": [
         "New hires attend a two-day orientation.",
         "Freshman orientation starts in August.",
-        "Both orientations were canceled because of the storm."
+        "Both orientations were canceled because of the storm.",
+        "The house's orientation keeps the porch shaded all afternoon.",
+        "Change the page orientation to landscape before you print.",
+        "The panels' orientation was adjusted to catch more sun.",
+        "The policy bans discrimination based on sexual orientation.",
+        "She never hid her orientation from her coworkers.",
+        "The survey asked about age, race, and sexual orientation."
       ],
-      "senses": [],
-      "русский": "вводный курс, ознакомительное занятие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meeting or program that introduces newcomers to a place, school, or job",
+          "body": [
+            "(вводный курс, ознакомительное занятие)"
+          ],
+          "examples": [
+            "New hires attend a two-day orientation.",
+            "Freshman orientation starts in August.",
+            "Both orientations were canceled because of the storm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The direction in which something faces or is placed",
+          "body": [
+            "(ориентация, расположение (в пространстве))"
+          ],
+          "examples": [
+            "The house's orientation keeps the porch shaded all afternoon.",
+            "Change the page orientation to landscape before you print.",
+            "The panels' orientation was adjusted to catch more sun."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The sex a person is romantically attracted to, usually called sexual orientation",
+          "body": [
+            "(сексуальная ориентация)",
+            "---"
+          ],
+          "examples": [
+            "The policy bans discrimination based on sexual orientation.",
+            "She never hid her orientation from her coworkers.",
+            "The survey asked about age, race, and sexual orientation."
+          ]
+        }
+      ],
+      "русский": "вводный курс, ознакомительное занятие; ориентация, расположение (в пространстве); сексуальная ориентация",
       "plural": "orientations",
       "countability": "countable"
     },
@@ -4948,14 +5079,43 @@
       "term": "persuasion",
       "ipa": "/pərˈsweɪʒən/",
       "respell": "pur-SWAY-zhun",
-      "meaning": "The act of getting someone to agree or to do something by talking to them. ---",
+      "meaning": "Persuasion has 2 distinct senses.",
       "examples": [
         "It took a lot of persuasion to get him on the plane.",
         "The class is really about the art of persuasion.",
-        "She came along without much persuasion."
+        "She came along without much persuasion.",
+        "The rally drew activists of every political persuasion.",
+        "Her father was a Baptist, but her mother was of a different persuasion.",
+        "Economists of both persuasions agreed the forecast was too rosy."
       ],
-      "senses": [],
-      "русский": "убеждение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of getting someone to agree or to do something by talking to them",
+          "body": [
+            "(убеждение)"
+          ],
+          "examples": [
+            "It took a lot of persuasion to get him on the plane.",
+            "The class is really about the art of persuasion.",
+            "She came along without much persuasion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular set of beliefs, or the group of people who hold them",
+          "body": [
+            "(убеждения, взгляды)",
+            "---"
+          ],
+          "examples": [
+            "The rally drew activists of every political persuasion.",
+            "Her father was a Baptist, but her mother was of a different persuasion.",
+            "Economists of both persuasions agreed the forecast was too rosy."
+          ]
+        }
+      ],
+      "русский": "убеждение; убеждения, взгляды",
       "countability": "uncountable"
     },
     {
@@ -6150,14 +6310,43 @@
       "term": "placement",
       "ipa": "/ˈpleɪsmənt/",
       "respell": "PLAYSS-munt",
-      "meaning": "The act of putting something in a particular position, or the position chosen. ---",
+      "meaning": "Placement has 2 distinct senses.",
       "examples": [
         "The placement of the outlets is all wrong.",
         "She's happy with her job placement after graduation.",
-        "They tried three different placements for the couch."
+        "They tried three different placements for the couch.",
+        "The college has a strong job placement record.",
+        "The child's first foster placement lasted two years.",
+        "Her placement in the advanced class surprised everyone."
       ],
-      "senses": [],
-      "русский": "размещение, расположение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of putting something in a particular position, or the position chosen",
+          "body": [
+            "(размещение, расположение)"
+          ],
+          "examples": [
+            "The placement of the outlets is all wrong.",
+            "She's happy with her job placement after graduation.",
+            "They tried three different placements for the couch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The assignment of a person to a job, a class, or a home",
+          "body": [
+            "(трудоустройство; определение (в класс, в семью))",
+            "---"
+          ],
+          "examples": [
+            "The college has a strong job placement record.",
+            "The child's first foster placement lasted two years.",
+            "Her placement in the advanced class surprised everyone."
+          ]
+        }
+      ],
+      "русский": "размещение, расположение; трудоустройство; определение (в класс, в семью)",
       "plural": "placements",
       "countability": "countable"
     },
@@ -7210,14 +7399,43 @@
       "term": "potential",
       "ipa": "/pəˈtɛnʃəl/",
       "respell": "puh-TEN-shul",
-      "meaning": "Qualities that could be developed and lead to future success. ---",
+      "meaning": "Potential has 2 distinct senses.",
       "examples": [
         "The kid has real potential.",
         "The empty lot has potential for a small park.",
-        "Investors saw enormous potential in the technology."
+        "Investors saw enormous potential in the technology.",
+        "There's real potential for flooding tonight.",
+        "The deal has the potential to save thousands of jobs.",
+        "Officials warned of the potential for violence downtown."
       ],
-      "senses": [],
-      "русский": "потенциал, возможности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Qualities that could be developed and lead to future success",
+          "body": [
+            "(потенциал, возможности)"
+          ],
+          "examples": [
+            "The kid has real potential.",
+            "The empty lot has potential for a small park.",
+            "Investors saw enormous potential in the technology."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The possibility that something will happen or develop",
+          "body": [
+            "(вероятность, возможность (чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "There's real potential for flooding tonight.",
+            "The deal has the potential to save thousands of jobs.",
+            "Officials warned of the potential for violence downtown."
+          ]
+        }
+      ],
+      "русский": "потенциал, возможности; вероятность, возможность (чего-л.)",
       "countability": "uncountable"
     },
     {

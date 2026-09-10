@@ -403,16 +403,24 @@ A large sled pulled by horses or reindeer.
 ### carriage
 
 **Pronunciation:** /ˈkɛrɪdʒ/ &middot; *KEH-rij*
-**Русский:** карета, экипаж
+**Русский:** карета, экипаж; осанка, манера держаться
 **Plural:** *carriages*
 **Countability:** countable
 **Contrast:** In Britain a carriage is also a railroad car; Americans say car for that.
 
-A wheeled passenger vehicle pulled by horses.
+Carriage has 2 distinct senses.
+
+**1. A wheeled passenger vehicle pulled by horses.** (карета, экипаж)
 
 1. A horse-drawn *carriage* circled the park.
 2. *Carriages* line up near the hotel on summer evenings.
 3. They rode home in an open *carriage*.
+
+**2. The way a person holds and moves their body.** (осанка, манера держаться)
+
+4. You could pick out the dancer by her *carriage* alone.
+5. He had the upright *carriage* of a former soldier.
+6. Her *carriage* changed the moment she walked onstage.
 
 ---
 
@@ -1500,30 +1508,52 @@ Starter has 3 distinct senses.
 ### ignition
 
 **Pronunciation:** /ɪɡˈnɪʃən/ &middot; *ig-NISH-uhn*
-**Русский:** зажигание
+**Русский:** зажигание; воспламенение, возгорание
 **Plural:** *ignitions*
 **Countability:** countable
 
-The switch and system that start a vehicle's engine.
+Ignition has 2 distinct senses.
+
+**1. The switch and system that start a vehicle's engine.** (зажигание)
 
 1. Put the key in the *ignition* and turn it.
 2. The *ignition* is worn out and the key sticks.
 3. Push-button *ignitions* have replaced keys on newer cars.
+
+**2. The act of catching fire, or the moment something starts to burn.** (воспламенение, возгорание)
+
+4. A spark caused the *ignition* of gas that had built up in the basement.
+5. The fire investigator was looking for the point of *ignition*.
+6. The countdown reached zero and we had *ignition*.
 
 ---
 
 ### accelerator
 
 **Pronunciation:** /ækˈsɛləreɪtər/ &middot; *ak-SEL-uh-ray-tur*
-**Русский:** педаль газа, акселератор
+**Русский:** педаль газа, акселератор; ускоритель (частиц); акселератор (программа поддержки стартапов)
 **Plural:** *accelerators*
 **Countability:** countable
 
-The pedal that makes a vehicle go faster.
+Accelerator has 3 distinct senses.
+
+**1. The pedal that makes a vehicle go faster.** (педаль газа, акселератор)
 
 1. She pressed the *accelerator* and pulled onto the highway.
 2. His foot slipped off the *accelerator*.
 3. The *accelerator* felt stiff in the cold.
+
+**2. A large machine that speeds atomic particles up to enormous speeds for research.** (ускоритель (частиц))
+
+4. The lab's *accelerator* runs in a tunnel two miles long.
+5. Physicists use an *accelerator* to smash protons into each other.
+6. Funding for two new *accelerators* was approved last year.
+
+**3. A short program that gives young companies money and coaching to help them grow fast.** (акселератор (программа поддержки стартапов))
+
+7. Their startup got into a three-month *accelerator* last spring.
+8. The *accelerator* takes a small share of every company it backs.
+9. The best *accelerators* are harder to get into than law school.
 
 ---
 
