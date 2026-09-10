@@ -539,7 +539,7 @@ A single piece of a clear mineral, or the fine cut glass used for good glassware
 
 ### carat
 
-**Pronunciation:** /ˈkærət/ &middot; *KAR-ut*
+**Pronunciation:** /ˈkærət/ &middot; *KAR-uht*
 **Русский:** карат (мера веса камня)
 **Plural:** *carats*
 **Countability:** countable

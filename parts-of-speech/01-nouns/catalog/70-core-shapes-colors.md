@@ -358,7 +358,7 @@ A line that bends smoothly without any sharp angles.
 
 ### arc
 
-**Pronunciation:** /ɑːrk/ &middot; *AHRK*
+**Pronunciation:** /ɑːrk/ &middot; *ARK*
 **Русский:** дуга
 **Plural:** *arcs*
 **Countability:** countable

@@ -1679,7 +1679,7 @@ Petroleum; also any greasy liquid.
 
 ### wine
 
-**Pronunciation:** /waɪn/ &middot; *wyne*
+**Pronunciation:** /waɪn/ &middot; *WYN*
 **Русский:** вино
 **Countability:** uncountable as a substance; countable as types or servings
 **Agreement:** singular verb — *the wine is chilled*

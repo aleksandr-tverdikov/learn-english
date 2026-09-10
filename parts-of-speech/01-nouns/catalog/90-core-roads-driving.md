@@ -653,7 +653,7 @@ A place beside a highway with parking and restrooms where drivers can stop.
 
 ### weigh station
 
-**Pronunciation:** /ˈweɪ ˌsteɪʃən/ &middot; *WAY-stay-shuhn*
+**Pronunciation:** /ˈweɪ ˌsteɪʃən/ &middot; *WAY STAY-shuhn*
 **Русский:** весовой пункт для грузовиков
 **Plural:** *weigh stations*
 **Countability:** countable

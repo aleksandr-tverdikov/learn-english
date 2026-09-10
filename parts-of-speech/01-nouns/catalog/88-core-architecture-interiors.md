@@ -1282,7 +1282,7 @@ Decorative detail added to a building or an object.
 
 ### finish
 
-**Pronunciation:** /ˈfɪnɪʃ/ &middot; *FIH-nish*
+**Pronunciation:** /ˈfɪnɪʃ/ &middot; *FIN-ish*
 **Русский:** покрытие, отделка поверхности
 **Plural:** *finishes*
 **Countability:** countable

@@ -1621,7 +1621,7 @@ A long bridge on arches carrying a road or railroad across a valley.
 
 ### levee
 
-**Pronunciation:** /ˈlɛvi/ &middot; *LEH-vee*
+**Pronunciation:** /ˈlɛvi/ &middot; *LEV-ee*
 **Русский:** дамба (вдоль реки)
 **Plural:** *levees*
 **Countability:** countable

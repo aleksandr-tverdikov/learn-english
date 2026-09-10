@@ -641,7 +641,7 @@ One of the hard pieces that make up the skeleton.
 
 ### muscle
 
-**Pronunciation:** /ˈmʌsəl/ &middot; *MUS-ul*
+**Pronunciation:** /ˈmʌsəl/ &middot; *MUH-suhl*
 **Русский:** мышца
 **Plural:** *muscles*
 **Countability:** countable, and uncountable as a substance

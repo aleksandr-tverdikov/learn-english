@@ -1113,7 +1113,7 @@ A set of actions always performed the same way, often for religious reasons.
 
 ### rite
 
-**Pronunciation:** /raɪt/ &middot; *RYTE*
+**Pronunciation:** /raɪt/ &middot; *RYT*
 **Русский:** обряд
 **Plural:** *rites*
 **Countability:** countable

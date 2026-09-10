@@ -716,7 +716,7 @@ A brave fighter, especially in an army of long ago.
 
 ### knight
 
-**Pronunciation:** /naɪt/ &middot; *NYTE*
+**Pronunciation:** /naɪt/ &middot; *NYT*
 **Русский:** рыцарь
 **Plural:** *knights*
 **Countability:** countable

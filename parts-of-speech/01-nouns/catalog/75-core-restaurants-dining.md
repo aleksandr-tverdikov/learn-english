@@ -1559,7 +1559,7 @@ Illness caused by eating contaminated food.
 
 ### palate
 
-**Pronunciation:** /ˈpælət/ &middot; *PAL-ut*
+**Pronunciation:** /ˈpælət/ &middot; *PAL-uht*
 **Русский:** вкус, вкусовое восприятие; нёбо
 **Plural:** *palates*
 **Countability:** countable

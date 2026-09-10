@@ -1271,7 +1271,7 @@ A short, everyday word for a kilogram.
 
 ### karat
 
-**Pronunciation:** /ˈkɛrət/ &middot; *KAIR-uht*
+**Pronunciation:** /ˈkɛrət/ &middot; *KER-uht*
 **Русский:** карат (проба золота)
 **Plural:** *karats*
 **Countability:** countable

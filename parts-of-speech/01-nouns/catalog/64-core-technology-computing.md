@@ -1102,7 +1102,7 @@ An organized store of information a computer can search.
 
 ### byte
 
-**Pronunciation:** /baɪt/ &middot; *BYTE*
+**Pronunciation:** /baɪt/ &middot; *BYT*
 **Русский:** байт
 **Plural:** *bytes*
 **Countability:** countable

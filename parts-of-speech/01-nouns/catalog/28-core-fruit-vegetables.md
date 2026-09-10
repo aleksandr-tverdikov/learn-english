@@ -481,7 +481,7 @@ A small soft round fruit with seeds and no pit.
 
 ### currant
 
-**Pronunciation:** /ˈkɜːrənt/ &middot; *KUR-unt*
+**Pronunciation:** /ˈkɜːrənt/ &middot; *KUR-uhnt*
 **Русский:** смородина
 **Plural:** *currants*
 **Countability:** countable
@@ -557,7 +557,7 @@ A large starchy relative of the banana that is cooked before eating.
 
 ### carrot
 
-**Pronunciation:** /ˈkɛrət/ &middot; *KEHR-ut*
+**Pronunciation:** /ˈkɛrət/ &middot; *KER-uht*
 **Русский:** морковь, морковка
 **Plural:** *carrots*
 **Countability:** countable
@@ -1391,7 +1391,7 @@ A plant whose small flat seeds are used on bread and pressed for oil.
 
 ### kernel
 
-**Pronunciation:** /ˈkɜːrnəl/ &middot; *KUR-nul*
+**Pronunciation:** /ˈkɜːrnəl/ &middot; *KUR-nuhl*
 **Русский:** ядро (ореха), зерно
 **Plural:** *kernels*
 **Countability:** countable

@@ -10123,7 +10123,7 @@ Someone who flatters powerful people in order to gain something.
 
 ### symbol
 
-**Pronunciation:** /ˈsɪmbəl/ &middot; *SIM-bul*
+**Pronunciation:** /ˈsɪmbəl/ &middot; *SIM-buhl*
 **Русский:** символ, знак
 **Plural:** *symbols*
 **Countability:** countable

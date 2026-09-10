@@ -453,7 +453,7 @@ The bad character in a story or play.
 
 ### heroine
 
-**Pronunciation:** /ˈhɛroʊɪn/ &middot; *HEH-roh-in*
+**Pronunciation:** /ˈhɛroʊɪn/ &middot; *HER-oh-in*
 **Русский:** героиня
 **Plural:** *heroines*
 **Countability:** countable

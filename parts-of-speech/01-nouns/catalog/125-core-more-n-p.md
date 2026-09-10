@@ -5626,7 +5626,7 @@ A full turn on one foot in ballet or figure skating.
 
 ### pistil
 
-**Pronunciation:** /ˈpɪstəl/ &middot; *PIS-tul*
+**Pronunciation:** /ˈpɪstəl/ &middot; *PIS-tuhl*
 **Русский:** пестик (часть цветка)
 **Plural:** *pistils*
 **Countability:** countable

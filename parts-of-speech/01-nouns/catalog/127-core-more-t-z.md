@@ -3736,7 +3736,7 @@ A slight, rapid wavering in a musical note.
 
 ### vice
 
-**Pronunciation:** /vaɪs/ &middot; *VYSS*
+**Pronunciation:** /vaɪs/ &middot; *VYS*
 **Русский:** порок, дурная привычка
 **Plural:** *vices*
 **Countability:** both — countable and uncountable with different meanings
