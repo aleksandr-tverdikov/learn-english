@@ -34,7 +34,7 @@ for cfg in CATALOGS:
     d = os.path.join(ROOT, cfg['dir'])
     if not os.path.isdir(d):
         continue
-    files = sorted(f for f in os.listdir(d) if re.match(r'^\d\d-.*\.md$', f))
+    files = sorted(f for f in os.listdir(d) if re.match(r'^\d+-.*\.md$', f))
     n = sum(len(parse_catalog_file(os.path.join(d, f))) for f in files)
     ex = 0
     for jf in glob.glob(os.path.join(d, 'data', '*.json')):

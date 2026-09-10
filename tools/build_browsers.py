@@ -181,7 +181,7 @@ def pattern_tags(labels):
 
 def build(cfg):
     cat_dir = os.path.join(ROOT, cfg['dir'])
-    files = sorted(f for f in os.listdir(cat_dir) if re.match(r'^\d\d-.*\.md$', f))
+    files = sorted(f for f in os.listdir(cat_dir) if re.match(r'^\d+-.*\.md$', f))
     cats, entries = [], []
     tag_fields = cfg.get('tag_fields') or []
     all_labels = [e['labels'] for f in files for e in parse_catalog_file(os.path.join(cat_dir, f))]

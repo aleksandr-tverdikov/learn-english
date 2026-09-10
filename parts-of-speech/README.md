@@ -8,7 +8,7 @@ The nine word classes of American English, one folder each. Every folder holds a
 
 | # | Class | Grammar reference | Dictionary |
 |---|---|---|---|
-| 1 | Nouns | [01-nouns](01-nouns/README.md) | **[9,004 entries](01-nouns/catalog/README.md)** &middot; [browse](01-nouns/catalog/browse.html) |
+| 1 | Nouns | [01-nouns](01-nouns/README.md) | **[12,048 entries](01-nouns/catalog/README.md)** &middot; [browse](01-nouns/catalog/browse.html) |
 | 2 | Pronouns | [02-pronouns](02-pronouns/README.md) | **[512 entries](02-pronouns/catalog/README.md)** &middot; [browse](02-pronouns/catalog/browse.html) |
 | 3 | Verbs | [03-verbs](03-verbs/README.md) | **[1,291 verbs](03-verbs/catalog/README.md)** &middot; [browse](03-verbs/catalog/browse.html) |
 | 4 | Adjectives | [04-adjectives](04-adjectives/README.md) | — |

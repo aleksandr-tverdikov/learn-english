@@ -190,13 +190,82 @@ def main():
         written += 1
         total += len(kept)
 
+    gfiles, gentries = build_gap(seen, grammar, problems)
+    written += gfiles
+    total += gentries
+
     print(f'\nwrote {written} core files, {total} entries')
+    if gfiles:
+        print(f'  of which {gfiles} A-Z files hold {gentries} entries from the gap pass')
     if problems:
         print(f'dropped {len(problems)} entries:')
         for p in problems[:25]:
             print('   ', p)
         if len(problems) > 25:
             print(f'    ... and {len(problems) - 25} more')
+
+
+def build_gap(seen, grammar, problems):
+    """Fold the alphabetical gap slices into a few readable A-Z files.
+
+    The 40 slices are an artifact of how the work was divided among agents, not
+    something a reader should ever see, so they collapse into a handful of
+    ranges named by their initial letters.
+    """
+    entries = []
+    for src in sorted(glob.glob(os.path.join(CORE, 'gap-*.json'))):
+        try:
+            data = json.load(open(src))
+        except Exception as exc:
+            problems.append(f'{os.path.basename(src)}: BAD JSON ({exc})')
+            continue
+        if isinstance(data, dict):
+            data = data.get('entries') or []
+        entries += [e for e in data if isinstance(e, dict)]
+    if not entries:
+        return 0, 0
+
+    entries.sort(key=lambda e: (e.get('term') or '').lower())
+    kept = []
+    for e in entries:
+        if valid(e, seen, grammar, problems, 'gap'):
+            seen[e['term'].lower()] = 'gap'
+            kept.append(e)
+    if not kept:
+        return 0, 0
+
+    # split into ranges of roughly equal size, cutting only between letters
+    target = 400
+    groups, cur, letter = [], [], kept[0]['term'][0].lower()
+    for e in kept:
+        l = e['term'][0].lower()
+        if l != letter and len(cur) >= target:
+            groups.append(cur)
+            cur = []
+        letter = l
+        cur.append(e)
+    if cur:
+        groups.append(cur)
+
+    num = 120
+    for g in groups:
+        lo, hi = g[0]['term'][0].upper(), g[-1]['term'][0].upper()
+        span = lo if lo == hi else f'{lo}-{hi}'
+        rows = [(e['term'], e['ipa'], e['respell'], e['ru'], e.get('plural') or '',
+                 e['countability'], e['gloss'], e['examples'], e.get('contrast') or None)
+                for e in g]
+        build(os.path.join(CAT, f'{num}-core-more-{span.lower()}.md'),
+              f'Core vocabulary: more nouns {span}',
+              f'Further everyday nouns, {span} — what a coverage check against WordNet '
+              'showed was still missing.',
+              'Part of the **core-vocabulary tier**, gathered by checking the dictionary against a '
+              '40,940-word WordNet noun list and writing entries for what was genuinely absent.\n\n'
+              'Most of that list was not worth writing — proper nouns, Latin taxonomy, obsolete '
+              'units and archaic terms — so these are the survivors of a deliberate rejection pass '
+              'that threw out roughly six of every seven candidates, not the list itself.',
+              rows)
+        num += 1
+    return len(groups), len(kept)
 
 
 if __name__ == '__main__':
