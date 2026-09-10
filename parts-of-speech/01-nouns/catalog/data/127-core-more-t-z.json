@@ -2621,14 +2621,43 @@
       "term": "transport",
       "ipa": "/ˈtrænspɔːrt/",
       "respell": "TRANS-pawrt",
-      "meaning": "The moving of people or goods from one place to another. ---",
+      "meaning": "Transport has 2 distinct senses.",
       "examples": [
         "The company handles the transport of frozen food.",
         "Air transport is faster but far more expensive.",
-        "Transport of the equipment took two full days."
+        "Transport of the equipment took two full days.",
+        "The troops flew home on a military transport.",
+        "A cargo transport touched down just before dawn.",
+        "The wounded were loaded onto a transport headed for the base."
       ],
-      "senses": [],
-      "русский": "перевозка, транспортировка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The moving of people or goods from one place to another",
+          "body": [
+            "(перевозка, транспортировка)"
+          ],
+          "examples": [
+            "The company handles the transport of frozen food.",
+            "Air transport is faster but far more expensive.",
+            "Transport of the equipment took two full days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A ship, plane, or truck used to carry troops or supplies",
+          "body": [
+            "(транспортное судно, военно-транспортный самолёт)",
+            "---"
+          ],
+          "examples": [
+            "The troops flew home on a military transport.",
+            "A cargo transport touched down just before dawn.",
+            "The wounded were loaded onto a transport headed for the base."
+          ]
+        }
+      ],
+      "русский": "перевозка, транспортировка; транспортное судно, военно-транспортный самолёт",
       "countability": "uncountable",
       "contrast": "The noun is stressed TRANS-port, the verb trans-PORT. For the public system Americans normally say transportation."
     },
@@ -2650,14 +2679,43 @@
       "term": "treadmill",
       "ipa": "/ˈtrɛdmɪl/",
       "respell": "TRED-mil",
-      "meaning": "An exercise machine with a moving belt that you walk or run on. ---",
+      "meaning": "Treadmill has 2 distinct senses.",
       "examples": [
         "I do thirty minutes on the treadmill every morning.",
         "All the treadmills at the gym were taken.",
-        "He hates running outside, so he bought a treadmill."
+        "He hates running outside, so he bought a treadmill.",
+        "He quit his job to get off the corporate treadmill.",
+        "Grading papers every weekend felt like a treadmill.",
+        "Once you're on the debt treadmill, it's hard to step off."
       ],
-      "senses": [],
-      "русский": "беговая дорожка (тренажёр)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An exercise machine with a moving belt that you walk or run on",
+          "body": [
+            "(беговая дорожка (тренажёр))"
+          ],
+          "examples": [
+            "I do thirty minutes on the treadmill every morning.",
+            "All the treadmills at the gym were taken.",
+            "He hates running outside, so he bought a treadmill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dull, exhausting routine that never seems to lead anywhere",
+          "body": [
+            "(рутина, беличье колесо)",
+            "---"
+          ],
+          "examples": [
+            "He quit his job to get off the corporate treadmill.",
+            "Grading papers every weekend felt like a treadmill.",
+            "Once you're on the debt treadmill, it's hard to step off."
+          ]
+        }
+      ],
+      "русский": "беговая дорожка (тренажёр); рутина, беличье колесо",
       "plural": "treadmills",
       "countability": "countable",
       "contrast": "The first syllable is TRED, rhyming with bed, even though it is spelled like tread."
@@ -2666,14 +2724,43 @@
       "term": "treasure",
       "ipa": "/ˈtrɛʒər/",
       "respell": "TREZH-ur",
-      "meaning": "Gold, jewels, and other riches, or a single object of great value. ---",
+      "meaning": "Treasure has 2 distinct senses.",
       "examples": [
         "Divers found buried treasure in the wreck.",
         "The museum's greatest treasures are on the second floor.",
-        "That old map is a real treasure."
+        "That old map is a real treasure.",
+        "Our librarian is a real treasure.",
+        "That old photo album is a family treasure.",
+        "The town considers the little theater one of its treasures."
       ],
-      "senses": [],
-      "русский": "сокровище, клад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Gold, jewels, and other riches, or a single object of great value",
+          "body": [
+            "(сокровище, клад)"
+          ],
+          "examples": [
+            "Divers found buried treasure in the wreck.",
+            "The museum's greatest treasures are on the second floor.",
+            "That old map is a real treasure."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that is greatly loved and valued",
+          "body": [
+            "(сокровище (о человеке или вещи))",
+            "---"
+          ],
+          "examples": [
+            "Our librarian is a real treasure.",
+            "That old photo album is a family treasure.",
+            "The town considers the little theater one of its treasures."
+          ]
+        }
+      ],
+      "русский": "сокровище, клад; сокровище (о человеке или вещи)",
       "plural": "treasures",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -3903,14 +3990,43 @@
       "term": "variance",
       "ipa": "/ˈvɛriəns/",
       "respell": "VER-ee-uns",
-      "meaning": "The amount by which two things differ or fail to agree. ---",
+      "meaning": "Variance has 2 distinct senses.",
       "examples": [
         "His account is at variance with the video.",
         "There was little variance between the two estimates.",
-        "The report explains the variance in monthly costs."
+        "The report explains the variance in monthly costs.",
+        "They needed a variance to build the garage that close to the property line.",
+        "The zoning board denied the variance.",
+        "The restaurant finally got a variance for its outdoor seating."
       ],
-      "senses": [],
-      "русский": "расхождение, отклонение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount by which two things differ or fail to agree",
+          "body": [
+            "(расхождение, отклонение)"
+          ],
+          "examples": [
+            "His account is at variance with the video.",
+            "There was little variance between the two estimates.",
+            "The report explains the variance in monthly costs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Official permission to do something that local zoning or building rules do not normally allow",
+          "body": [
+            "(разрешение на отступление от норм (застройки, зонирования))",
+            "---"
+          ],
+          "examples": [
+            "They needed a variance to build the garage that close to the property line.",
+            "The zoning board denied the variance.",
+            "The restaurant finally got a variance for its outdoor seating."
+          ]
+        }
+      ],
+      "русский": "расхождение, отклонение; разрешение на отступление от норм (застройки, зонирования)",
       "countability": "uncountable"
     },
     {
@@ -4348,14 +4464,43 @@
       "term": "vignette",
       "ipa": "/vɪnˈjɛt/",
       "respell": "vin-YET",
-      "meaning": "A short descriptive scene or sketch in writing or on film. ---",
+      "meaning": "Vignette has 2 distinct senses.",
       "examples": [
         "The book is a series of vignettes about small-town life.",
         "Each vignette lasts about two minutes.",
-        "She opens with a vignette from her childhood."
+        "She opens with a vignette from her childhood.",
+        "Her great-grandmother's portrait is a soft vignette in an oval frame.",
+        "I added a slight vignette to pull the eye toward her face.",
+        "Cheap lenses often leave a dark vignette in the corners of the shot."
       ],
-      "senses": [],
-      "русский": "зарисовка; виньетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short descriptive scene or sketch in writing or on film",
+          "body": [
+            "(зарисовка; виньетка)"
+          ],
+          "examples": [
+            "The book is a series of vignettes about small-town life.",
+            "Each vignette lasts about two minutes.",
+            "She opens with a vignette from her childhood."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A picture whose edges fade gradually into the background, or the darkening around the edges of a photograph",
+          "body": [
+            "(виньетка; затемнение по краям снимка)",
+            "---"
+          ],
+          "examples": [
+            "Her great-grandmother's portrait is a soft vignette in an oval frame.",
+            "I added a slight vignette to pull the eye toward her face.",
+            "Cheap lenses often leave a dark vignette in the corners of the shot."
+          ]
+        }
+      ],
+      "русский": "зарисовка; виньетка; виньетка; затемнение по краям снимка",
       "plural": "vignettes",
       "countability": "countable",
       "contrast": "The gn sounds like the ny in canyon: vin-YET."
@@ -5509,28 +5654,86 @@
       "term": "whiplash",
       "ipa": "/ˈwɪplæʃ/",
       "respell": "WIP-lash",
-      "meaning": "A neck injury caused when the head is thrown suddenly forward and back. ---",
+      "meaning": "Whiplash has 2 distinct senses.",
       "examples": [
         "She suffered whiplash when the truck hit her from behind.",
         "He was treated for whiplash after the accident.",
-        "Whiplash can take weeks to heal."
+        "Whiplash can take weeks to heal.",
+        "The constant changes to the rules gave teachers whiplash.",
+        "Investors got whiplash from two rate cuts in a single month.",
+        "Ninety degrees one week and snow the next is weather whiplash."
       ],
-      "senses": [],
-      "русский": "хлыстовая травма шеи",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A neck injury caused when the head is thrown suddenly forward and back",
+          "body": [
+            "(хлыстовая травма шеи)"
+          ],
+          "examples": [
+            "She suffered whiplash when the truck hit her from behind.",
+            "He was treated for whiplash after the accident.",
+            "Whiplash can take weeks to heal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden sharp change or reversal that leaves people shaken",
+          "body": [
+            "(резкая перемена, «встряска» от неожиданного разворота)",
+            "---"
+          ],
+          "examples": [
+            "The constant changes to the rules gave teachers whiplash.",
+            "Investors got whiplash from two rate cuts in a single month.",
+            "Ninety degrees one week and snow the next is weather whiplash."
+          ]
+        }
+      ],
+      "русский": "хлыстовая травма шеи; резкая перемена, «встряска» от неожиданного разворота",
       "countability": "uncountable"
     },
     {
       "term": "whirlpool",
       "ipa": "/ˈwɜːrlpuːl/",
       "respell": "WURL-pool",
-      "meaning": "A spinning current of water that pulls things toward its center. ---",
+      "meaning": "Whirlpool has 2 distinct senses.",
       "examples": [
         "A whirlpool formed where the two rivers met.",
         "Swimmers are warned about whirlpools below the dam.",
-        "The little boat was caught in a whirlpool."
+        "The little boat was caught in a whirlpool.",
+        "The trainer had him soak his ankle in the whirlpool.",
+        "The hotel room came with a whirlpool in the bathroom.",
+        "After practice half the team was sitting in the whirlpool."
       ],
-      "senses": [],
-      "русский": "водоворот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A spinning current of water that pulls things toward its center",
+          "body": [
+            "(водоворот)"
+          ],
+          "examples": [
+            "A whirlpool formed where the two rivers met.",
+            "Swimmers are warned about whirlpools below the dam.",
+            "The little boat was caught in a whirlpool."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tub of hot water with jets, used for relaxing or for treating a sore muscle or joint",
+          "body": [
+            "(гидромассажная ванна, джакузи)",
+            "---"
+          ],
+          "examples": [
+            "The trainer had him soak his ankle in the whirlpool.",
+            "The hotel room came with a whirlpool in the bathroom.",
+            "After practice half the team was sitting in the whirlpool."
+          ]
+        }
+      ],
+      "русский": "водоворот; гидромассажная ванна, джакузи",
       "plural": "whirlpools",
       "countability": "countable"
     },

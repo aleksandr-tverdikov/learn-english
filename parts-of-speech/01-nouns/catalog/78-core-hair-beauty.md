@@ -1526,30 +1526,6 @@ Makeover has 2 distinct senses.
 
 ---
 
-### primer
-
-**Pronunciation:** /ˈpraɪmər/ &middot; *PRY-mur*
-**Русский:** грунтовка; праймер, база под макияж
-**Plural:** *primers*
-**Countability:** countable, and uncountable as a substance
-**Contrast:** The makeup sense is PRY-mur; the beginner's schoolbook called a *primer* is PRIM-ur in the US.
-
-Primer has 2 distinct senses.
-
-**1. A first coat of paint that seals a surface so the finish coat will stick.** (грунтовка)
-
-1. Put *primer* on before you paint the color.
-2. The stain bled through two coats of *primer*.
-3. Tinted *primers* can save you a coat.
-
-**2. A cream put on the skin before makeup so it goes on smoothly and lasts.** (праймер, база под макияж)
-
-4. A little *primer* keeps her foundation from sliding.
-5. This *primer* fills in large pores.
-6. She tried four *primers* before finding one she liked.
-
----
-
 ### bronzer
 
 **Pronunciation:** /ˈbrɑːnzər/ &middot; *BRAHN-zur*

@@ -1793,14 +1793,22 @@ The giving of money and effort to help other people.
 ### unemployment
 
 **Pronunciation:** /ˌʌnɪmˈplɔɪmənt/ &middot; *un-im-PLOY-muhnt*
-**Русский:** безработица
+**Русский:** безработица; пособие по безработице
 **Countability:** uncountable
 
-The condition of having no job, or the number of people without one.
+Unemployment has 2 distinct senses.
+
+**1. The condition of having no job, or the number of people without one.** (безработица)
 
 1. *Unemployment* fell to four percent.
 2. He's been collecting *unemployment* since March.
 3. Youth *unemployment* is the real problem.
+
+**2. Money paid by the government to someone who has lost a job.** (пособие по безработице)
+
+4. He filed for *unemployment* the day after the layoff.
+5. She's been living on *unemployment* since March.
+6. *Unemployment* runs out after twenty-six weeks in most states.
 
 ---
 

@@ -2348,14 +2348,43 @@
       "term": "unemployment",
       "ipa": "/ˌʌnɪmˈplɔɪmənt/",
       "respell": "un-im-PLOY-muhnt",
-      "meaning": "The condition of having no job, or the number of people without one. ---",
+      "meaning": "Unemployment has 2 distinct senses.",
       "examples": [
         "Unemployment fell to four percent.",
         "He's been collecting unemployment since March.",
-        "Youth unemployment is the real problem."
+        "Youth unemployment is the real problem.",
+        "He filed for unemployment the day after the layoff.",
+        "She's been living on unemployment since March.",
+        "Unemployment runs out after twenty-six weeks in most states."
       ],
-      "senses": [],
-      "русский": "безработица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The condition of having no job, or the number of people without one",
+          "body": [
+            "(безработица)"
+          ],
+          "examples": [
+            "Unemployment fell to four percent.",
+            "He's been collecting unemployment since March.",
+            "Youth unemployment is the real problem."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money paid by the government to someone who has lost a job",
+          "body": [
+            "(пособие по безработице)",
+            "---"
+          ],
+          "examples": [
+            "He filed for unemployment the day after the layoff.",
+            "She's been living on unemployment since March.",
+            "Unemployment runs out after twenty-six weeks in most states."
+          ]
+        }
+      ],
+      "русский": "безработица; пособие по безработице",
       "countability": "uncountable"
     },
     {

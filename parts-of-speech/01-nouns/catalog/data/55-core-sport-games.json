@@ -2454,14 +2454,43 @@
       "term": "touchdown",
       "ipa": "/ˈtʌtʃdaʊn/",
       "respell": "TUCH-down",
-      "meaning": "The six-point score in football, made by carrying or catching the ball in the end zone. ---",
+      "meaning": "Touchdown has 2 distinct senses.",
       "examples": [
         "He ran forty yards for a touchdown.",
         "They scored three touchdowns in the fourth quarter.",
-        "That touchdown won the game."
+        "That touchdown won the game.",
+        "The lander sent back photos minutes after touchdown.",
+        "We felt a hard bump at touchdown.",
+        "The crew announced touchdown at 6:15 local time."
       ],
-      "senses": [],
-      "русский": "тачдаун (занос мяча в зачётную зону)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The six-point score in football, made by carrying or catching the ball in the end zone",
+          "body": [
+            "(тачдаун (занос мяча в зачётную зону))"
+          ],
+          "examples": [
+            "He ran forty yards for a touchdown.",
+            "They scored three touchdowns in the fourth quarter.",
+            "That touchdown won the game."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The moment when an aircraft or spacecraft lands",
+          "body": [
+            "(приземление, касание (при посадке))",
+            "---"
+          ],
+          "examples": [
+            "The lander sent back photos minutes after touchdown.",
+            "We felt a hard bump at touchdown.",
+            "The crew announced touchdown at 6:15 local time."
+          ]
+        }
+      ],
+      "русский": "тачдаун (занос мяча в зачётную зону); приземление, касание (при посадке)",
       "plural": "touchdowns",
       "countability": "countable"
     },

@@ -3222,14 +3222,43 @@
       "term": "vulnerability",
       "ipa": "/ˌvʌlnərəˈbɪləti/",
       "respell": "vul-nuh-ruh-BIL-uh-tee",
-      "meaning": "Openness to being hurt emotionally. ---",
+      "meaning": "Vulnerability has 2 distinct senses.",
       "examples": [
         "The song's power comes from its vulnerability.",
         "He showed a vulnerability nobody expected.",
-        "There is strength in vulnerability."
+        "There is strength in vulnerability.",
+        "Researchers found a vulnerability in the bank's login page.",
+        "The update patches four serious vulnerabilities.",
+        "The vulnerability let anyone read other users' files."
       ],
-      "senses": [],
-      "русский": "уязвимость, ранимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Openness to being hurt emotionally",
+          "body": [
+            "(уязвимость, ранимость)"
+          ],
+          "examples": [
+            "The song's power comes from its vulnerability.",
+            "He showed a vulnerability nobody expected.",
+            "There is strength in vulnerability."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A weak point in a computer system that an attacker can use to break in",
+          "body": [
+            "(уязвимость (в программе, системе))",
+            "---"
+          ],
+          "examples": [
+            "Researchers found a vulnerability in the bank's login page.",
+            "The update patches four serious vulnerabilities.",
+            "The vulnerability let anyone read other users' files."
+          ]
+        }
+      ],
+      "русский": "уязвимость, ранимость; уязвимость (в программе, системе)",
       "countability": "uncountable"
     },
     {

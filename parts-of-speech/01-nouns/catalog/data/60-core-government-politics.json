@@ -769,14 +769,43 @@
       "term": "president",
       "ipa": "/ˈprɛzədənt/",
       "respell": "PREZ-uh-duhnt",
-      "meaning": "The elected head of state in a republic. ---",
+      "meaning": "President has 2 distinct senses.",
       "examples": [
         "The president signed the bill on Tuesday.",
         "She is running for president next year.",
-        "Four presidents attended the funeral."
+        "Four presidents attended the funeral.",
+        "She was named president of the bank last spring.",
+        "The college president sent an email to every student.",
+        "Both presidents of the union locals spoke at the rally."
       ],
-      "senses": [],
-      "русский": "президент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The elected head of state in a republic",
+          "body": [
+            "(президент)"
+          ],
+          "examples": [
+            "The president signed the bill on Tuesday.",
+            "She is running for president next year.",
+            "Four presidents attended the funeral."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person who heads a company, bank, university, or other organization",
+          "body": [
+            "(президент компании, председатель, ректор)",
+            "---"
+          ],
+          "examples": [
+            "She was named president of the bank last spring.",
+            "The college president sent an email to every student.",
+            "Both presidents of the union locals spoke at the rally."
+          ]
+        }
+      ],
+      "русский": "президент; президент компании, председатель, ректор",
       "plural": "presidents",
       "countability": "countable",
       "contrast": "Do not confuse it with precedent (PRESS-uh-duhnt), an earlier case used as an example."

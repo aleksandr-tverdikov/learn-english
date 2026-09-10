@@ -1950,14 +1950,43 @@
       "term": "production",
       "ipa": "/prəˈdʌkʃən/",
       "respell": "pruh-DUK-shuhn",
-      "meaning": "The making of goods in large quantities. ---",
+      "meaning": "Production has 2 distinct senses.",
       "examples": [
         "Production fell sharply after the strike.",
         "The plant will start production in the fall.",
-        "They moved production to another state."
+        "They moved production to another state.",
+        "The theater's new production runs through May.",
+        "Her first Broadway production closed after eleven performances.",
+        "It is a modern production set in a subway station."
       ],
-      "senses": [],
-      "русский": "производство, выпуск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The making of goods in large quantities",
+          "body": [
+            "(производство, выпуск)"
+          ],
+          "examples": [
+            "Production fell sharply after the strike.",
+            "The plant will start production in the fall.",
+            "They moved production to another state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A play, opera, or show as it is staged and performed",
+          "body": [
+            "(постановка, спектакль)",
+            "---"
+          ],
+          "examples": [
+            "The theater's new production runs through May.",
+            "Her first Broadway production closed after eleven performances.",
+            "It is a modern production set in a subway station."
+          ]
+        }
+      ],
+      "русский": "производство, выпуск; постановка, спектакль",
       "countability": "uncountable"
     },
     {

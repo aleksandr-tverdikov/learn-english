@@ -2128,22 +2128,6 @@ Sweat has 2 distinct senses.
 
 ---
 
-### tear
-
-**Pronunciation:** /tɪr/ &middot; *TEER*
-**Русский:** слеза
-**Plural:** *tears*
-**Countability:** countable
-**Contrast:** This tear rhymes with here; the unrelated verb tear, meaning rip, rhymes with air.
-
-A drop of the liquid that comes from the eye when you cry.
-
-1. A *tear* ran down her cheek.
-2. He wiped away a *tear*.
-3. The onions had all of us in *tears*.
-
----
-
 ### breath
 
 **Pronunciation:** /brɛθ/ &middot; *BRETH*

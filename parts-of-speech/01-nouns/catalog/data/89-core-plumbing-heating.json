@@ -1373,14 +1373,43 @@
       "term": "overflow",
       "ipa": "/ˈoʊvərfloʊ/",
       "respell": "OH-vur-floh",
-      "meaning": "An opening or pipe that carries away water when a basin gets too full. ---",
+      "meaning": "Overflow has 2 distinct senses.",
       "examples": [
         "Water runs out the overflow before the sink can spill.",
         "The overflow on the tub was plugged with soap.",
-        "Both sinks have overflows near the rim."
+        "Both sinks have overflows near the rim.",
+        "The church seated the overflow in the basement and piped in the sound.",
+        "An overflow crowd watched the game from the parking lot.",
+        "We rented a second van for the overflow."
       ],
-      "senses": [],
-      "русский": "перелив; переполнение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An opening or pipe that carries away water when a basin gets too full",
+          "body": [
+            "(перелив; переполнение)"
+          ],
+          "examples": [
+            "Water runs out the overflow before the sink can spill.",
+            "The overflow on the tub was plugged with soap.",
+            "Both sinks have overflows near the rim."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The people or things left over because a space cannot hold them all",
+          "body": [
+            "(избыток, не поместившиеся (люди, вещи))",
+            "---"
+          ],
+          "examples": [
+            "The church seated the overflow in the basement and piped in the sound.",
+            "An overflow crowd watched the game from the parking lot.",
+            "We rented a second van for the overflow."
+          ]
+        }
+      ],
+      "русский": "перелив; переполнение; избыток, не поместившиеся (люди, вещи)",
       "plural": "overflows",
       "countability": "countable",
       "contrast": "The noun is stressed on the first syllable, OH-vur-floh; the verb is oh-vur-FLOH."

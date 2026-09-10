@@ -1958,15 +1958,23 @@ Compass has 2 distinct senses.
 ### yardstick
 
 **Pronunciation:** /ˈjɑːrdstɪk/ &middot; *YARD-stik*
-**Русский:** линейка длиной в ярд (91 см); мерило
+**Русский:** линейка длиной в ярд (91 см); мерило; мерило, критерий оценки
 **Plural:** *yardsticks*
 **Countability:** countable
 
-A flat stick one yard long, marked off in inches.
+Yardstick has 2 distinct senses.
+
+**1. A flat stick one yard long, marked off in inches.** (линейка длиной в ярд (91 см); мерило)
 
 1. Measure the curtain with a *yardstick*.
 2. There's a *yardstick* behind the door.
 3. Hardware stores used to give away *yardsticks*.
+
+**2. A standard used for judging or comparing things.** (мерило, критерий оценки)
+
+4. Test scores are a poor *yardstick* for a good teacher.
+5. By any *yardstick*, last season was a success.
+6. Profit is not the only *yardstick* this company uses.
 
 ---
 

@@ -1195,14 +1195,43 @@
       "term": "psychology",
       "ipa": "/saɪˈkɑːlədʒi/",
       "respell": "sy-KAH-luh-jee",
-      "meaning": "The study of the mind and how people behave. ---",
+      "meaning": "Psychology has 2 distinct senses.",
       "examples": [
         "Psychology is one of the most popular majors.",
         "She's taking intro to psychology this fall.",
-        "He wrote his paper on child psychology."
+        "He wrote his paper on child psychology.",
+        "You have to understand the psychology of a hungry crowd.",
+        "Coaches spend as much time on psychology as on drills.",
+        "Reverse psychology never works on my kids."
       ],
-      "senses": [],
-      "русский": "психология",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The study of the mind and how people behave",
+          "body": [
+            "(психология)"
+          ],
+          "examples": [
+            "Psychology is one of the most popular majors.",
+            "She's taking intro to psychology this fall.",
+            "He wrote his paper on child psychology."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a particular person or group thinks and reacts",
+          "body": [
+            "(психология (склад ума, настрой))",
+            "---"
+          ],
+          "examples": [
+            "You have to understand the psychology of a hungry crowd.",
+            "Coaches spend as much time on psychology as on drills.",
+            "Reverse psychology never works on my kids."
+          ]
+        }
+      ],
+      "русский": "психология; психология (склад ума, настрой)",
       "countability": "uncountable",
       "contrast": "The p is silent: sy-KAH-luh-jee."
     },
@@ -1991,14 +2020,43 @@
       "term": "question",
       "ipa": "/ˈkwɛstʃən/",
       "respell": "KWES-chuhn",
-      "meaning": "A sentence that asks for information or an answer. ---",
+      "meaning": "Question has 2 distinct senses.",
       "examples": [
         "Does anyone have a question?",
         "I got the last question wrong.",
-        "The test had fifty multiple-choice questions."
+        "The test had fifty multiple-choice questions.",
+        "The question of funding was left for the next meeting.",
+        "Whether the law applies here is an open question.",
+        "That brings us to the question of who pays for repairs."
       ],
-      "senses": [],
-      "русский": "вопрос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sentence that asks for information or an answer",
+          "body": [
+            "(вопрос)"
+          ],
+          "examples": [
+            "Does anyone have a question?",
+            "I got the last question wrong.",
+            "The test had fifty multiple-choice questions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A matter or issue that is being discussed or decided",
+          "body": [
+            "(вопрос (проблема, предмет обсуждения))",
+            "---"
+          ],
+          "examples": [
+            "The question of funding was left for the next meeting.",
+            "Whether the law applies here is an open question.",
+            "That brings us to the question of who pays for repairs."
+          ]
+        }
+      ],
+      "русский": "вопрос; вопрос (проблема, предмет обсуждения)",
       "plural": "questions",
       "countability": "countable"
     },

@@ -2184,14 +2184,22 @@ Sensitivity has 3 distinct senses.
 ### vulnerability
 
 **Pronunciation:** /ˌvʌlnərəˈbɪləti/ &middot; *vul-nuh-ruh-BIL-uh-tee*
-**Русский:** уязвимость, ранимость
+**Русский:** уязвимость, ранимость; уязвимость (в программе, системе)
 **Countability:** uncountable
 
-Openness to being hurt emotionally.
+Vulnerability has 2 distinct senses.
+
+**1. Openness to being hurt emotionally.** (уязвимость, ранимость)
 
 1. The song's power comes from its *vulnerability*.
 2. He showed a *vulnerability* nobody expected.
 3. There is strength in *vulnerability*.
+
+**2. A weak point in a computer system that an attacker can use to break in.** (уязвимость (в программе, системе))
+
+4. Researchers found a *vulnerability* in the bank's login page.
+5. The update patches four serious *vulnerabilities*.
+6. The *vulnerability* let anyone read other users' files.
 
 ---
 

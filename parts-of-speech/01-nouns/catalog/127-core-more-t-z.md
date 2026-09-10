@@ -2342,15 +2342,23 @@ A device that receives a signal and automatically sends one back, used on aircra
 ### transport
 
 **Pronunciation:** /ˈtrænspɔːrt/ &middot; *TRANS-pawrt*
-**Русский:** перевозка, транспортировка
+**Русский:** перевозка, транспортировка; транспортное судно, военно-транспортный самолёт
 **Countability:** uncountable
 **Contrast:** The noun is stressed TRANS-port, the verb trans-PORT. For the public system Americans normally say transportation.
 
-The moving of people or goods from one place to another.
+Transport has 2 distinct senses.
+
+**1. The moving of people or goods from one place to another.** (перевозка, транспортировка)
 
 1. The company handles the *transport* of frozen food.
 2. Air *transport* is faster but far more expensive.
 3. *Transport* of the equipment took two full days.
+
+**2. A ship, plane, or truck used to carry troops or supplies.** (транспортное судно, военно-транспортный самолёт)
+
+4. The troops flew home on a military *transport*.
+5. A cargo *transport* touched down just before dawn.
+6. The wounded were loaded onto a *transport* headed for the base.
 
 ---
 
@@ -2371,31 +2379,47 @@ Behavior that betrays someone who trusted you.
 ### treadmill
 
 **Pronunciation:** /ˈtrɛdmɪl/ &middot; *TRED-mil*
-**Русский:** беговая дорожка (тренажёр)
+**Русский:** беговая дорожка (тренажёр); рутина, беличье колесо
 **Plural:** *treadmills*
 **Countability:** countable
 **Contrast:** The first syllable is TRED, rhyming with bed, even though it is spelled like tread.
 
-An exercise machine with a moving belt that you walk or run on.
+Treadmill has 2 distinct senses.
+
+**1. An exercise machine with a moving belt that you walk or run on.** (беговая дорожка (тренажёр))
 
 1. I do thirty minutes on the *treadmill* every morning.
 2. All the *treadmills* at the gym were taken.
 3. He hates running outside, so he bought a *treadmill*.
+
+**2. A dull, exhausting routine that never seems to lead anywhere.** (рутина, беличье колесо)
+
+4. He quit his job to get off the corporate *treadmill*.
+5. Grading papers every weekend felt like a *treadmill*.
+6. Once you're on the debt *treadmill*, it's hard to step off.
 
 ---
 
 ### treasure
 
 **Pronunciation:** /ˈtrɛʒər/ &middot; *TREZH-ur*
-**Русский:** сокровище, клад
+**Русский:** сокровище, клад; сокровище (о человеке или вещи)
 **Plural:** *treasures*
 **Countability:** both — countable and uncountable with different meanings
 
-Gold, jewels, and other riches, or a single object of great value.
+Treasure has 2 distinct senses.
+
+**1. Gold, jewels, and other riches, or a single object of great value.** (сокровище, клад)
 
 1. Divers found buried *treasure* in the wreck.
 2. The museum's greatest *treasures* are on the second floor.
 3. That old map is a real *treasure*.
+
+**2. A person or thing that is greatly loved and valued.** (сокровище (о человеке или вещи))
+
+4. Our librarian is a real *treasure*.
+5. That old photo album is a family *treasure*.
+6. The town considers the little theater one of its *treasures*.
 
 ---
 
@@ -3561,14 +3585,22 @@ The extent to which something changes or differs from case to case.
 ### variance
 
 **Pronunciation:** /ˈvɛriəns/ &middot; *VER-ee-uns*
-**Русский:** расхождение, отклонение
+**Русский:** расхождение, отклонение; разрешение на отступление от норм (застройки, зонирования)
 **Countability:** uncountable
 
-The amount by which two things differ or fail to agree.
+Variance has 2 distinct senses.
+
+**1. The amount by which two things differ or fail to agree.** (расхождение, отклонение)
 
 1. His account is at *variance* with the video.
 2. There was little *variance* between the two estimates.
 3. The report explains the *variance* in monthly costs.
+
+**2. Official permission to do something that local zoning or building rules do not normally allow.** (разрешение на отступление от норм (застройки, зонирования))
+
+4. They needed a *variance* to build the garage that close to the property line.
+5. The zoning board denied the *variance*.
+6. The restaurant finally got a *variance* for its outdoor seating.
 
 ---
 
@@ -3985,16 +4017,24 @@ Someone who punishes crime personally instead of leaving it to the police.
 ### vignette
 
 **Pronunciation:** /vɪnˈjɛt/ &middot; *vin-YET*
-**Русский:** зарисовка; виньетка
+**Русский:** зарисовка; виньетка; виньетка; затемнение по краям снимка
 **Plural:** *vignettes*
 **Countability:** countable
 **Contrast:** The gn sounds like the ny in *canyon*: vin-YET.
 
-A short descriptive scene or sketch in writing or on film.
+Vignette has 2 distinct senses.
+
+**1. A short descriptive scene or sketch in writing or on film.** (зарисовка; виньетка)
 
 1. The book is a series of *vignettes* about small-town life.
 2. Each *vignette* lasts about two minutes.
 3. She opens with a *vignette* from her childhood.
+
+**2. A picture whose edges fade gradually into the background, or the darkening around the edges of a photograph.** (виньетка; затемнение по краям снимка)
+
+4. Her great-grandmother's portrait is a soft *vignette* in an oval frame.
+5. I added a slight *vignette* to pull the eye toward her face.
+6. Cheap lenses often leave a dark *vignette* in the corners of the shot.
 
 ---
 
@@ -5053,29 +5093,45 @@ Whip has 2 distinct senses.
 ### whiplash
 
 **Pronunciation:** /ˈwɪplæʃ/ &middot; *WIP-lash*
-**Русский:** хлыстовая травма шеи
+**Русский:** хлыстовая травма шеи; резкая перемена, «встряска» от неожиданного разворота
 **Countability:** uncountable
 
-A neck injury caused when the head is thrown suddenly forward and back.
+Whiplash has 2 distinct senses.
+
+**1. A neck injury caused when the head is thrown suddenly forward and back.** (хлыстовая травма шеи)
 
 1. She suffered *whiplash* when the truck hit her from behind.
 2. He was treated for *whiplash* after the accident.
 3. *Whiplash* can take weeks to heal.
+
+**2. A sudden sharp change or reversal that leaves people shaken.** (резкая перемена, «встряска» от неожиданного разворота)
+
+4. The constant changes to the rules gave teachers *whiplash*.
+5. Investors got *whiplash* from two rate cuts in a single month.
+6. Ninety degrees one week and snow the next is weather *whiplash*.
 
 ---
 
 ### whirlpool
 
 **Pronunciation:** /ˈwɜːrlpuːl/ &middot; *WURL-pool*
-**Русский:** водоворот
+**Русский:** водоворот; гидромассажная ванна, джакузи
 **Plural:** *whirlpools*
 **Countability:** countable
 
-A spinning current of water that pulls things toward its center.
+Whirlpool has 2 distinct senses.
+
+**1. A spinning current of water that pulls things toward its center.** (водоворот)
 
 1. A *whirlpool* formed where the two rivers met.
 2. Swimmers are warned about *whirlpools* below the dam.
 3. The little boat was caught in a *whirlpool*.
+
+**2. A tub of hot water with jets, used for relaxing or for treating a sore muscle or joint.** (гидромассажная ванна, джакузи)
+
+4. The trainer had him soak his ankle in the *whirlpool*.
+5. The hotel room came with a *whirlpool* in the bathroom.
+6. After practice half the team was sitting in the *whirlpool*.
 
 ---
 

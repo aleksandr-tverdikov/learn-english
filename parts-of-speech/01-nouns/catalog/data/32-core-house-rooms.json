@@ -1331,14 +1331,43 @@
       "term": "threshold",
       "ipa": "/ˈθrɛʃhoʊld/",
       "respell": "THRESH-hohld",
-      "meaning": "The strip of floor at the bottom of a doorway. ---",
+      "meaning": "Threshold has 2 distinct senses.",
       "examples": [
         "He carried her over the threshold.",
         "The wood at the threshold is worn smooth.",
-        "New thresholds went in with the flooring."
+        "New thresholds went in with the flooring.",
+        "Her income is just above the threshold for financial aid.",
+        "Everyone has a different pain threshold.",
+        "Sales have to cross a certain threshold before the bonus kicks in."
       ],
-      "senses": [],
-      "русский": "порог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The strip of floor at the bottom of a doorway",
+          "body": [
+            "(порог)"
+          ],
+          "examples": [
+            "He carried her over the threshold.",
+            "The wood at the threshold is worn smooth.",
+            "New thresholds went in with the flooring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The level or point at which something begins to happen or take effect",
+          "body": [
+            "(порог, предел (уровень, с которого что-л. начинается))",
+            "---"
+          ],
+          "examples": [
+            "Her income is just above the threshold for financial aid.",
+            "Everyone has a different pain threshold.",
+            "Sales have to cross a certain threshold before the bonus kicks in."
+          ]
+        }
+      ],
+      "русский": "порог; порог, предел (уровень, с которого что-л. начинается)",
       "plural": "thresholds",
       "countability": "countable"
     },
@@ -2540,14 +2569,43 @@
       "term": "wallpaper",
       "ipa": "/ˈwɔːlpeɪpər/",
       "respell": "WAWL-pay-pur",
-      "meaning": "Decorated paper glued to the walls of a room. ---",
+      "meaning": "Wallpaper has 2 distinct senses.",
       "examples": [
         "The wallpaper is peeling in the corner.",
         "We steamed off three layers of old wallpaper.",
-        "She picked out wallpaper with little blue flowers."
+        "She picked out wallpaper with little blue flowers.",
+        "He changed his wallpaper to a photo of his dog.",
+        "The default wallpaper on the new laptop is a mountain at dawn.",
+        "I keep different wallpapers on my phone and my work computer."
       ],
-      "senses": [],
-      "русский": "обои",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Decorated paper glued to the walls of a room",
+          "body": [
+            "(обои)"
+          ],
+          "examples": [
+            "The wallpaper is peeling in the corner.",
+            "We steamed off three layers of old wallpaper.",
+            "She picked out wallpaper with little blue flowers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The picture set as the background on a computer or phone screen",
+          "body": [
+            "(обои (фоновая картинка на экране))",
+            "---"
+          ],
+          "examples": [
+            "He changed his wallpaper to a photo of his dog.",
+            "The default wallpaper on the new laptop is a mountain at dawn.",
+            "I keep different wallpapers on my phone and my work computer."
+          ]
+        }
+      ],
+      "русский": "обои; обои (фоновая картинка на экране)",
       "countability": "uncountable",
       "contrast": "Uncountable in English, though «обои» is plural in Russian: the wallpaper is peeling, never \"wallpapers are\"."
     },

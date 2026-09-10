@@ -5008,21 +5008,6 @@ A harmful substance that gets into something that should be clean.
 
 ---
 
-### content
-
-**Pronunciation:** /ˈkɑːntɛnt/ &middot; *KAHN-tent*
-**Русский:** содержание, контент
-**Countability:** uncountable
-**Contrast:** The noun is KAHN-tent, stressed first; the adjective *content* (довольный) is kuhn-TENT.
-
-The material inside something, especially text, video, or images.
-
-1. The site posts new *content* every day.
-2. She creates *content* for a travel brand.
-3. Check the fat *content* on the label.
-
----
-
 ### contention
 
 **Pronunciation:** /kənˈtɛnʃən/ &middot; *kuhn-TEN-shuhn*

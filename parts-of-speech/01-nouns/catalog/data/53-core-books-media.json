@@ -1073,14 +1073,58 @@
       "term": "printing",
       "ipa": "/ˈprɪntɪŋ/",
       "respell": "PRIN-ting",
-      "meaning": "The process of making words and pictures on paper by machine. ---",
+      "meaning": "Printing has 3 distinct senses.",
       "examples": [
         "Printing costs went up again this year.",
         "The book is at the printing stage now.",
-        "Color printing is what makes it expensive."
+        "Color printing is what makes it expensive.",
+        "Please use printing, not cursive, on the form.",
+        "His printing is much neater than his signature.",
+        "First graders are graded on their printing.",
+        "The novel is already in its fourth printing.",
+        "The first printing sold out in a week.",
+        "Later printings fixed the typo on page thirty."
       ],
-      "senses": [],
-      "русский": "печать, книгопечатание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of making words and pictures on paper by machine",
+          "body": [
+            "(печать, книгопечатание)"
+          ],
+          "examples": [
+            "Printing costs went up again this year.",
+            "The book is at the printing stage now.",
+            "Color printing is what makes it expensive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Handwriting made with separate letters instead of joined cursive",
+          "body": [
+            "(печатные буквы, печатный почерк)"
+          ],
+          "examples": [
+            "Please use printing, not cursive, on the form.",
+            "His printing is much neater than his signature.",
+            "First graders are graded on their printing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "All the copies of a book produced at one time",
+          "body": [
+            "(тираж, выпуск тиража)",
+            "---"
+          ],
+          "examples": [
+            "The novel is already in its fourth printing.",
+            "The first printing sold out in a week.",
+            "Later printings fixed the typo on page thirty."
+          ]
+        }
+      ],
+      "русский": "печать, книгопечатание; печатные буквы, печатный почерк; тираж, выпуск тиража",
       "countability": "uncountable"
     },
     {
@@ -2736,14 +2780,43 @@
       "term": "quotation",
       "ipa": "/kwoʊˈteɪʃən/",
       "respell": "kwoh-TAY-shuhn",
-      "meaning": "A group of words taken from a book or speech and repeated exactly. ---",
+      "meaning": "Quotation has 2 distinct senses.",
       "examples": [
         "The chapter opens with a quotation from Twain.",
         "He collects quotations in a little notebook.",
-        "That quotation is usually misattributed."
+        "That quotation is usually misattributed.",
+        "We got three quotations before hiring a roofer.",
+        "The contractor's quotation came in under budget.",
+        "Ask for a written quotation rather than a verbal estimate."
       ],
-      "senses": [],
-      "русский": "цитата",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of words taken from a book or speech and repeated exactly",
+          "body": [
+            "(цитата)"
+          ],
+          "examples": [
+            "The chapter opens with a quotation from Twain.",
+            "He collects quotations in a little notebook.",
+            "That quotation is usually misattributed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stated price for a job or for goods",
+          "body": [
+            "(расценка, ценовое предложение, смета)",
+            "---"
+          ],
+          "examples": [
+            "We got three quotations before hiring a roofer.",
+            "The contractor's quotation came in under budget.",
+            "Ask for a written quotation rather than a verbal estimate."
+          ]
+        }
+      ],
+      "русский": "цитата; расценка, ценовое предложение, смета",
       "plural": "quotations",
       "countability": "countable"
     },

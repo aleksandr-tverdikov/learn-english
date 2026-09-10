@@ -2930,14 +2930,43 @@
       "term": "yardstick",
       "ipa": "/ˈjɑːrdstɪk/",
       "respell": "YARD-stik",
-      "meaning": "A flat stick one yard long, marked off in inches. ---",
+      "meaning": "Yardstick has 2 distinct senses.",
       "examples": [
         "Measure the curtain with a yardstick.",
         "There's a yardstick behind the door.",
-        "Hardware stores used to give away yardsticks."
+        "Hardware stores used to give away yardsticks.",
+        "Test scores are a poor yardstick for a good teacher.",
+        "By any yardstick, last season was a success.",
+        "Profit is not the only yardstick this company uses."
       ],
-      "senses": [],
-      "русский": "линейка длиной в ярд (91 см); мерило",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat stick one yard long, marked off in inches",
+          "body": [
+            "(линейка длиной в ярд (91 см); мерило)"
+          ],
+          "examples": [
+            "Measure the curtain with a yardstick.",
+            "There's a yardstick behind the door.",
+            "Hardware stores used to give away yardsticks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A standard used for judging or comparing things",
+          "body": [
+            "(мерило, критерий оценки)",
+            "---"
+          ],
+          "examples": [
+            "Test scores are a poor yardstick for a good teacher.",
+            "By any yardstick, last season was a success.",
+            "Profit is not the only yardstick this company uses."
+          ]
+        }
+      ],
+      "русский": "линейка длиной в ярд (91 см); мерило; мерило, критерий оценки",
       "plural": "yardsticks",
       "countability": "countable"
     },

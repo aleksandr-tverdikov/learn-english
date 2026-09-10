@@ -1632,15 +1632,23 @@ The day a baby is expected to be born.
 ### ultrasound
 
 **Pronunciation:** /ˈʌltrəsaʊnd/ &middot; *UL-truh-sownd*
-**Русский:** УЗИ
+**Русский:** УЗИ; ультразвук
 **Plural:** *ultrasounds*
 **Countability:** countable
 
-A scan that shows a picture of a baby inside the womb.
+Ultrasound has 2 distinct senses.
+
+**1. A scan that shows a picture of a baby inside the womb.** (УЗИ)
 
 1. We found out it is a girl at the *ultrasound*.
 2. The *ultrasound* is scheduled for Thursday.
 3. She has had three *ultrasounds* so far.
+
+**2. Sound waves pitched too high for people to hear.** (ультразвук)
+
+4. Bats find their way in the dark using *ultrasound*.
+5. The jeweler cleans rings with *ultrasound*.
+6. *Ultrasound* travels well through water.
 
 ---
 
@@ -1818,14 +1826,22 @@ Money one parent pays the other for a child's expenses.
 ### visitation
 
 **Pronunciation:** /ˌvɪzəˈteɪʃən/ &middot; *viz-uh-TAY-shuhn*
-**Русский:** право на встречи с ребёнком (после развода)
+**Русский:** право на встречи с ребёнком (после развода); прощание с покойным (в похоронном бюро накануне похорон)
 **Countability:** uncountable
 
-A divorced parent's legal right to spend time with a child.
+Visitation has 2 distinct senses.
+
+**1. A divorced parent's legal right to spend time with a child.** (право на встречи с ребёнком (после развода))
 
 1. He has *visitation* every other weekend.
 2. The *visitation* schedule is in the court order.
 3. They went back to court over *visitation*.
+
+**2. A gathering at a funeral home where people come to see the body and comfort the family before the funeral.** (прощание с покойным (в похоронном бюро накануне похорон))
+
+4. *Visitation* will be Thursday from six to eight at Miller Funeral Home.
+5. Close to two hundred people came to the *visitation*.
+6. We drove up for the *visitation* and stayed through the burial the next day.
 
 ---
 

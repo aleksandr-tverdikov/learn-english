@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core vocabulary: words spelled alike, said differently</title>
+<style>
+:root{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;--text:#1a1815;
+--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b;--measure:72ch}
+@media(prefers-color-scheme:dark){:root{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;
+--border:#33332a;--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}}
+:root[data-theme=dark]{--bg:#14140f;--surface:#1d1d17;--surface2:#25251d;--border:#33332a;
+--text:#eeeae1;--dim:#a8a293;--faint:#7d776b;--accent:#d09b72}
+:root[data-theme=light]{--bg:#faf9f7;--surface:#fff;--surface2:#f2f0ec;--border:#e2ded6;
+--text:#1a1815;--dim:#5f594f;--faint:#8a8377;--accent:#8a5a3b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+font:17px/1.72 ui-serif,Georgia,"Iowan Old Style",Palatino,serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:min(var(--measure),100%);margin:0 auto;padding:0 22px}
+nav.crumb{border-bottom:1px solid var(--border);padding:13px 0;font-size:13.5px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;position:sticky;top:0;background:var(--bg);z-index:20}
+nav.crumb .wrap{max-width:none;display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+nav.crumb a{color:var(--dim);text-decoration:none}
+nav.crumb a:hover{color:var(--accent)}
+nav.crumb .sep{color:var(--faint)}
+main{padding:8px 0 80px}
+h1{font-size:clamp(28px,5vw,38px);line-height:1.15;letter-spacing:-.015em;margin:34px 0 18px}
+h2{font-size:25px;margin:46px 0 14px;letter-spacing:-.01em;padding-bottom:7px;border-bottom:1px solid var(--border)}
+h3{font-size:19px;margin:34px 0 10px;color:var(--accent)}
+h4{font-size:16px;margin:24px 0 8px;font-family:-apple-system,sans-serif}
+p{margin:0 0 16px}
+a{color:var(--accent)}
+.hash{opacity:0;margin-left:8px;font-weight:400;font-size:.65em;text-decoration:none;color:var(--faint)}
+h2:hover .hash,h3:hover .hash{opacity:1}
+blockquote{margin:0 0 20px;padding:14px 18px;background:var(--surface2);
+border-left:3px solid var(--accent);border-radius:0 8px 8px 0}
+blockquote p:last-child{margin-bottom:0}
+ol,ul{margin:0 0 18px;padding-left:26px}
+li{margin-bottom:8px}
+li>ul,li>ol{margin:8px 0 0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.87em;
+background:var(--surface2);padding:1px 5px;border-radius:4px}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:15px 17px;overflow-x:auto;margin:0 0 20px}
+pre code{background:none;padding:0;font-size:13px;line-height:1.6}
+.tw{overflow-x:auto;margin:0 0 22px;border:1px solid var(--border);border-radius:9px}
+table{border-collapse:collapse;width:100%;font-size:15px;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+th,td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface2);font-size:12px;text-transform:uppercase;
+letter-spacing:.06em;color:var(--dim);font-weight:700;white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+hr{border:none;border-top:1px solid var(--border);margin:38px 0}
+details{background:var(--surface2);border:1px solid var(--border);border-radius:9px;
+padding:13px 17px;margin:0 0 20px}
+summary{cursor:pointer;font-weight:600;font-family:-apple-system,sans-serif;font-size:15px}
+details[open] summary{margin-bottom:12px}
+del{color:var(--faint)}
+dl.fields{margin:0 0 20px;padding:0}
+dl.fields dt{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+font-weight:700;margin:14px 0 4px}
+dl.fields dt:first-child{margin-top:0}
+dl.fields dd{margin:0;font-size:16px;color:var(--dim);line-height:1.62}
+dl.fields dd em{color:var(--text)}
+dl.fields dt.ru{color:var(--accent)}
+dl.fields dd strong{color:var(--text)}
+.toc{background:var(--surface2);border:1px solid var(--border);border-radius:10px;
+padding:16px 20px;margin:26px 0 34px;font-family:-apple-system,sans-serif;font-size:14px}
+.toc b{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+color:var(--faint);margin-bottom:9px}
+.toc a{display:block;padding:3px 0;color:var(--dim);text-decoration:none}
+.toc a:hover{color:var(--accent)}
+.themebtn{position:fixed;right:18px;bottom:18px;z-index:60;font-family:-apple-system,sans-serif;
+font-size:12.5px;font-weight:600;cursor:pointer;background:var(--surface);border:1px solid var(--border);
+border-radius:99px;padding:9px 16px;color:var(--text)}
+@media(max-width:600px){body{font-size:16px}.wrap{padding:0 17px}}
+</style></head><body>
+<nav class="crumb"><div class="wrap"><a href="../../../index.html">Learn English</a><span class="sep">/</span><a href="../../README.html">Parts of speech</a><span class="sep">/</span><a href="../README.html">01-nouns</a><span class="sep">/</span><span>catalog</span></div></nav>
+<main><div class="wrap"><h1 id="core-vocabulary-words-spelled-alike-said-differently">Core vocabulary: words spelled alike, said differently<a class="hash" href="#core-vocabulary-words-spelled-alike-said-differently" aria-label="link">#</a></h1>
+<blockquote><p>One spelling, two pronunciations, two meanings — <em>bass</em> the fish and <em>bass</em> the low notes are different words that happen to look the same.</p></blockquote>
+<p><a href="../README.html">← The grammar of nouns</a> &middot; <a href="README.html">All groups</a></p>
+<p>Every other entry in this dictionary gives one pronunciation and lists its meanings underneath, because the meanings sound the same. These do not.</p>
+<p><em>Bass</em> the fish is /bæs/ and <em>bass</em> the low musical range is /beɪs/. <em>Lead</em> the metal is /lɛd/ and <em>lead</em> meaning first place is /liːd/. Treating those as one entry with two senses would attach a pronunciation to a meaning it does not have, so each gets its own entry and each points at the other.</p>
+<p>Noun/verb pairs are deliberately excluded — <em>record</em>, <em>contrast</em>, <em>permit</em> shift stress between a noun and a verb, and this is a dictionary of nouns.</p>
+<hr>
+<h3 id="alum">alum<a class="hash" href="#alum" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/əˈlʌm/ &middot; <em>uh-LUM</em></dd><dt>Русский</dt><dd>выпускник, выпускница (разг.)</dd><dt>Plural</dt><dd><em>alums</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>alum</em> /ˈæləm/, the chemical, but stressed on the second syllable — a different word.</dd></dl>
+<p>An informal short word for a graduate of a school or a former member of a group.</p>
+<ol><li>She's an <em>alum</em> of the same high school as my brother.</li><li>The firm hires a lot of <em>alums</em> from that program.</li><li>Two <em>alums</em> came back to coach the team.</li></ol>
+<hr>
+<h3 id="alum-1">alum<a class="hash" href="#alum-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈæləm/ &middot; <em>AL-uhm</em></dd><dt>Русский</dt><dd>квасцы</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>alum</em> /əˈlʌm/, a graduate, but said AL-uhm with the stress up front — a different word.</dd></dl>
+<p>A white powdery chemical used in pickling and to stop small cuts from bleeding.</p>
+<ol><li>A little <em>alum</em> keeps the pickles crisp.</li><li>He touched <em>alum</em> to the nick from shaving.</li><li>The recipe calls for a teaspoon of <em>alum</em>.</li></ol>
+<hr>
+<h3 id="bass">bass<a class="hash" href="#bass" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/beɪs/ &middot; <em>BAYSS</em></dd><dt>Русский</dt><dd>бас, низкие частоты</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>bass</em> /bæs/, the fish — a different word entirely. The fish has a zero plural (<em>two bass</em>); this one is regular (<em>two basses</em>).</dd></dl>
+<p>The lowest range of musical sound.</p>
+<ol><li>Turn the <em>bass</em> down — the whole building can hear it.</li><li>You could feel the <em>bass</em> through the floor.</li><li>This mix has too much <em>bass</em> and no melody.</li></ol>
+<hr>
+<h3 id="bow">bow<a class="hash" href="#bow" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/baʊ/ &middot; <em>BOW</em></dd><dt>Русский</dt><dd>нос (корабля)</dd><dt>Plural</dt><dd><em>bows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>bow</em> /boʊ/, a knot or the weapon that shoots arrows, but said BOW to rhyme with <em>cow</em> — a different word. Bending forward to an audience — <em>take a bow</em> — is this one too.</dd></dl>
+<p>The front end of a ship or boat.</p>
+<ol><li>Waves broke over the <em>bow</em> all afternoon.</li><li>She stood at the <em>bow</em> watching for whales.</li><li>The <em>bows</em> of the old fishing boats were painted blue.</li></ol>
+<hr>
+<h3 id="bow-1">bow<a class="hash" href="#bow-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/boʊ/ &middot; <em>BOH</em></dd><dt>Русский</dt><dd>лук (оружие)</dd><dt>Plural</dt><dd><em>bows</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>bow</em> /baʊ/, the front of a ship, but said BOH to rhyme with <em>go</em> — a different word. The ribbon <em>bow</em> on a gift is this one.</dd></dl>
+<p>A curved piece of wood strung tight, used to shoot arrows.</p>
+<ol><li>He drew the <em>bow</em> back and let the arrow go.</li><li>Both <em>bows</em> were locked in the case.</li><li>She has shot a <em>bow</em> since she was ten.</li></ol>
+<hr>
+<h3 id="chamois">chamois<a class="hash" href="#chamois" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ʃæmˈwɑː/ &middot; <em>sham-WAH</em></dd><dt>Русский</dt><dd>серна</dd><dt>Plural</dt><dd><em>chamois</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>chamois</em> /ˈʃæmi/, the polishing cloth, but said sham-WAH — a different word. The plural is spelled the same.</dd></dl>
+<p>A small goat-antelope that lives high in the mountains of Europe.</p>
+<ol><li>A <em>chamois</em> can climb almost vertical rock.</li><li>We spotted two <em>chamois</em> on the ridge above the trail.</li><li>The soft leather was originally made from <em>chamois</em>.</li></ol>
+<hr>
+<h3 id="chamois-1">chamois<a class="hash" href="#chamois-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈʃæmi/ &middot; <em>SHAM-ee</em></dd><dt>Русский</dt><dd>замшевая салфетка</dd><dt>Plural</dt><dd><em>chamois</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>chamois</em> /ʃæmˈwɑː/, the mountain animal, but said SHAM-ee — a different word. The plural is spelled the same.</dd></dl>
+<p>A soft leather cloth used to dry glass and car paint without streaks.</p>
+<ol><li>Dry the car with a <em>chamois</em> so it doesn't spot.</li><li>He kept a damp <em>chamois</em> in a bucket by the hose.</li><li>Good <em>chamois</em> cost more than a pack of towels.</li></ol>
+<hr>
+<h3 id="content">content<a class="hash" href="#content" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/kənˈtɛnt/ &middot; <em>kuhn-TENT</em></dd><dt>Русский</dt><dd>довольство, удовлетворённость</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>content</em> /ˈkɑːntɛnt/, the material inside something, but stressed on the second syllable — a different word. Heard most often in <em>to one's heart's content</em>.</dd></dl>
+<p>A calm feeling of being satisfied with what you have.</p>
+<ol><li>She read on the porch to her heart's <em>content</em>.</li><li>The kids ate ice cream to their heart's <em>content</em>.</li><li>There was a look of quiet <em>content</em> on his face.</li></ol>
+<hr>
+<h3 id="content-1">content<a class="hash" href="#content-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈkɑːntɛnt/ &middot; <em>KAHN-tent</em></dd><dt>Русский</dt><dd>содержание, контент</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>content</em> /kənˈtɛnt/, a feeling of quiet satisfaction, but stressed on the first syllable — a different word.</dd></dl>
+<p>What is inside something, especially the text, video, or material it holds.</p>
+<ol><li>The channel posts new <em>content</em> every Friday.</li><li>Check the sugar <em>content</em> on the label.</li><li>Most of the <em>content</em> on that site is copied.</li></ol>
+<hr>
+<h3 id="desert">desert<a class="hash" href="#desert" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/dɪˈzɜːrt/ &middot; <em>dih-ZURT</em></dd><dt>Русский</dt><dd>заслуженное, по заслугам</dd><dt>Plural</dt><dd><em>deserts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>desert</em> /ˈdɛzərt/, the dry land, but stressed on the second syllable, like <em>dessert</em> — a different word. Almost always plural, in <em>just deserts</em>.</dd></dl>
+<p>What a person deserves, whether reward or punishment.</p>
+<ol><li>The swindler finally got his just <em>deserts</em>.</li><li>Everyone in that story gets their just <em>deserts</em>.</li><li>The judge said the sentence was no more than his just <em>deserts</em>.</li></ol>
+<hr>
+<h3 id="desert-1">desert<a class="hash" href="#desert-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈdɛzərt/ &middot; <em>DEZ-urt</em></dd><dt>Русский</dt><dd>пустыня</dd><dt>Plural</dt><dd><em>deserts</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>desert</em> /dɪˈzɜːrt/, what a person deserves, but stressed on the first syllable — a different word.</dd></dl>
+<p>A large dry region with very little rain and almost no plants.</p>
+<ol><li>Nights in the <em>desert</em> get surprisingly cold.</li><li>They crossed the <em>desert</em> before sunrise.</li><li>Several of the world's <em>deserts</em> are spreading.</li></ol>
+<hr>
+<h3 id="lead">lead<a class="hash" href="#lead" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/liːd/ &middot; <em>LEED</em></dd><dt>Русский</dt><dd>лидерство, первое место</dd><dt>Plural</dt><dd><em>leads</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>lead</em> /lɛd/, the gray metal, but said LEED to rhyme with <em>need</em> — a different word. A dog's <em>lead</em> and the starring role are this one too.</dd></dl>
+<p>The front position in a race, game, or contest.</p>
+<ol><li>She held the <em>lead</em> for three laps.</li><li>The home team gave up a ten-point <em>lead</em>.</li><li>Small <em>leads</em> disappear fast in this league.</li></ol>
+<hr>
+<h3 id="lead-1">lead<a class="hash" href="#lead-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/lɛd/ &middot; <em>LED</em></dd><dt>Русский</dt><dd>свинец</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>lead</em> /liːd/, the front position in a race, but said LED, exactly like <em>led</em> — a different word.</dd></dl>
+<p>A heavy, soft, gray metal that is poisonous to people.</p>
+<ol><li>The inspector found <em>lead</em> in the old paint.</li><li><em>Lead</em> feels much heavier than it looks.</li><li>They test the water for <em>lead</em> twice a year.</li></ol>
+<hr>
+<h3 id="primer">primer<a class="hash" href="#primer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈpraɪmər/ &middot; <em>PRY-mur</em></dd><dt>Русский</dt><dd>грунтовка</dd><dt>Plural</dt><dd><em>primers</em></dd><dt>Countability</dt><dd>countable, and uncountable as a substance</dd><dt>Contrast</dt><dd>Spelled like <em>primer</em> /ˈprɪmər/, the beginner's book, but said PRY-mur — a different word.</dd></dl>
+<p>A first coat of paint that seals a surface so the color coat will stick.</p>
+<ol><li>Roll on <em>primer</em> before you paint the walls.</li><li>The stain bled through two coats of <em>primer</em>.</li><li>Tinted <em>primers</em> can save you a coat of paint.</li></ol>
+<hr>
+<h3 id="primer-1">primer<a class="hash" href="#primer-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈprɪmər/ &middot; <em>PRIM-ur</em></dd><dt>Русский</dt><dd>букварь, вводный учебник</dd><dt>Plural</dt><dd><em>primers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>primer</em> /ˈpraɪmər/, the base coat of paint, but said PRIM-ur in American English — a different word.</dd></dl>
+<p>A short book that teaches the basics of a subject.</p>
+<ol><li>The article is a good <em>primer</em> on how tariffs work.</li><li>She wrote a <em>primer</em> for first-time landlords.</li><li>Children once learned to read from <em>primers</em>.</li></ol>
+<hr>
+<h3 id="sake">sake<a class="hash" href="#sake" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/seɪk/ &middot; <em>SAYK</em></dd><dt>Русский</dt><dd>благо, ради (в оборотах)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>sake</em> /ˈsɑːki/, the Japanese rice wine, but said SAYK, like <em>cake</em> — a different word.</dd></dl>
+<p>The benefit or purpose for which something is done.</p>
+<ol><li>They stayed in town for the kids' <em>sake</em>.</li><li>For the <em>sake</em> of argument, say she's right.</li><li>Oh, for goodness' <em>sake</em>, just call her back.</li></ol>
+<hr>
+<h3 id="sake-1">sake<a class="hash" href="#sake-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsɑːki/ &middot; <em>SAH-kee</em></dd><dt>Русский</dt><dd>саке (японское рисовое вино)</dd><dt>Countability</dt><dd>uncountable</dd><dt>Contrast</dt><dd>Spelled like <em>sake</em> /seɪk/, as in <em>for the sake of</em>, but said SAH-kee in two syllables — a different word.</dd></dl>
+<p>A Japanese alcoholic drink brewed from rice.</p>
+<ol><li>They warmed the <em>sake</em> and poured it into tiny cups.</li><li>He ordered cold <em>sake</em> with dinner.</li><li>The restaurant has a long <em>sake</em> list.</li></ol>
+<hr>
+<h3 id="sewer">sewer<a class="hash" href="#sewer" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsoʊər/ &middot; <em>SOH-ur</em></dd><dt>Русский</dt><dd>швея, тот, кто шьёт</dd><dt>Plural</dt><dd><em>sewers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>sewer</em> /ˈsuːər/, the waste pipe, but said SOH-ur, from <em>sew</em> — a different word.</dd></dl>
+<p>A person who sews.</p>
+<ol><li>My grandmother was a fine <em>sewer</em>.</li><li>Experienced <em>sewers</em> can fix a hem in minutes.</li><li>You don't have to be an expert <em>sewer</em> to make a pillowcase.</li></ol>
+<hr>
+<h3 id="sewer-1">sewer<a class="hash" href="#sewer-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/ˈsuːər/ &middot; <em>SOO-ur</em></dd><dt>Русский</dt><dd>канализационная труба, коллектор</dd><dt>Plural</dt><dd><em>sewers</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>sewer</em> /ˈsoʊər/, a person who sews, but said SOO-ur — a different word.</dd></dl>
+<p>An underground pipe that carries away waste water.</p>
+<ol><li>The <em>sewer</em> backed up after the storm.</li><li>Crews are replacing century-old <em>sewers</em> downtown.</li><li>That smell is coming from the <em>sewer</em>.</li></ol>
+<hr>
+<h3 id="tear">tear<a class="hash" href="#tear" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɛr/ &middot; <em>TAIR</em></dd><dt>Русский</dt><dd>разрыв, дыра (в ткани)</dd><dt>Plural</dt><dd><em>tears</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>tear</em> /tɪr/, a drop from the eye, but said TAIR to rhyme with <em>air</em> — a different word.</dd></dl>
+<p>A hole made by pulling cloth or paper apart.</p>
+<ol><li>There's a <em>tear</em> in the knee of my jeans.</li><li>He taped the <em>tear</em> in the map back together.</li><li>Two small <em>tears</em> in the seam turned into one big one.</li></ol>
+<hr>
+<h3 id="tear-1">tear<a class="hash" href="#tear-1" aria-label="link">#</a></h3>
+<dl class="fields"><dt>Pronunciation</dt><dd>/tɪr/ &middot; <em>TEER</em></dd><dt>Русский</dt><dd>слеза</dd><dt>Plural</dt><dd><em>tears</em></dd><dt>Countability</dt><dd>countable</dd><dt>Contrast</dt><dd>Spelled like <em>tear</em> /tɛr/, a rip in cloth, but said TEER to rhyme with <em>here</em> — a different word.</dd></dl>
+<p>A drop of the liquid that runs from the eye when you cry.</p>
+<ol><li>A <em>tear</em> ran down his cheek before he could stop it.</li><li>She brushed away a <em>tear</em> and kept reading.</li><li>The whole ending had us in <em>tears</em>.</li></ol></div></main>
+<button class="themebtn" id="themeBtn">Dark</button>
+<script>
+const tb=document.getElementById('themeBtn');
+function setTheme(x){document.documentElement.dataset.theme=x;tb.textContent=x==='dark'?'Light':'Dark';
+ try{localStorage.setItem('site-theme',x)}catch(e){}}
+tb.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');
+try{const s=localStorage.getItem('site-theme');
+ setTheme(s||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))}catch(e){setTheme('light')}
+</script></body></html>

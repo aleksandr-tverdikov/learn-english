@@ -880,15 +880,23 @@ Philosophy has 2 distinct senses.
 ### psychology
 
 **Pronunciation:** /saɪˈkɑːlədʒi/ &middot; *sy-KAH-luh-jee*
-**Русский:** психология
+**Русский:** психология; психология (склад ума, настрой)
 **Countability:** uncountable
 **Contrast:** The p is silent: sy-KAH-luh-jee.
 
-The study of the mind and how people behave.
+Psychology has 2 distinct senses.
+
+**1. The study of the mind and how people behave.** (психология)
 
 1. *Psychology* is one of the most popular majors.
 2. She's taking intro to *psychology* this fall.
 3. He wrote his paper on child *psychology*.
+
+**2. The way a particular person or group thinks and reacts.** (психология (склад ума, настрой))
+
+4. You have to understand the *psychology* of a hungry crowd.
+5. Coaches spend as much time on *psychology* as on drills.
+6. Reverse *psychology* never works on my kids.
 
 ---
 
@@ -1409,15 +1417,23 @@ Answer has 2 distinct senses.
 ### question
 
 **Pronunciation:** /ˈkwɛstʃən/ &middot; *KWES-chuhn*
-**Русский:** вопрос
+**Русский:** вопрос; вопрос (проблема, предмет обсуждения)
 **Plural:** *questions*
 **Countability:** countable
 
-A sentence that asks for information or an answer.
+Question has 2 distinct senses.
+
+**1. A sentence that asks for information or an answer.** (вопрос)
 
 1. Does anyone have a *question*?
 2. I got the last *question* wrong.
 3. The test had fifty multiple-choice *questions*.
+
+**2. A matter or issue that is being discussed or decided.** (вопрос (проблема, предмет обсуждения))
+
+4. The *question* of funding was left for the next meeting.
+5. Whether the law applies here is an open *question*.
+6. That brings us to the *question* of who pays for repairs.
 
 ---
 

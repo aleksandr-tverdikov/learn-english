@@ -1681,14 +1681,43 @@
       "term": "workshop",
       "ipa": "/ˈwɜːrkʃɑːp/",
       "respell": "WURK-shahp",
-      "meaning": "A room or building where things are made and repaired with tools. ---",
+      "meaning": "Workshop has 2 distinct senses.",
       "examples": [
         "His workshop is out behind the garage.",
         "The workshop smells like sawdust.",
-        "They rent workshops to local woodworkers."
+        "They rent workshops to local woodworkers.",
+        "She's teaching a two-day workshop on résumé writing.",
+        "I signed up for a pottery workshop at the community center.",
+        "Fifteen people came to the first workshop and only six to the second."
       ],
-      "senses": [],
-      "русский": "мастерская",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room or building where things are made and repaired with tools",
+          "body": [
+            "(мастерская)"
+          ],
+          "examples": [
+            "His workshop is out behind the garage.",
+            "The workshop smells like sawdust.",
+            "They rent workshops to local woodworkers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short class in which a small group practices a skill together",
+          "body": [
+            "(семинар-практикум, мастер-класс)",
+            "---"
+          ],
+          "examples": [
+            "She's teaching a two-day workshop on résumé writing.",
+            "I signed up for a pottery workshop at the community center.",
+            "Fifteen people came to the first workshop and only six to the second."
+          ]
+        }
+      ],
+      "русский": "мастерская; семинар-практикум, мастер-класс",
       "plural": "workshops",
       "countability": "countable"
     },

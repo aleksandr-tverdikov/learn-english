@@ -1422,14 +1422,43 @@
       "term": "propagation",
       "ipa": "/ˌprɑːpəˈɡeɪʃən/",
       "respell": "prah-puh-GAY-shuhn",
-      "meaning": "The growing of new plants from seeds, cuttings, or division. ---",
+      "meaning": "Propagation has 2 distinct senses.",
       "examples": [
         "Propagation by cuttings is the fastest way to fill a bed.",
         "The class covers seed starting and propagation.",
-        "She keeps a whole shelf for propagation."
+        "She keeps a whole shelf for propagation.",
+        "Hills interfere with the propagation of radio signals.",
+        "Social media speeds the propagation of rumors.",
+        "The propagation of sound is slower in cold air."
       ],
-      "senses": [],
-      "русский": "размножение растений",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The growing of new plants from seeds, cuttings, or division",
+          "body": [
+            "(размножение растений)"
+          ],
+          "examples": [
+            "Propagation by cuttings is the fastest way to fill a bed.",
+            "The class covers seed starting and propagation.",
+            "She keeps a whole shelf for propagation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spreading of something such as a wave, a signal, or an idea",
+          "body": [
+            "(распространение (волн, сигналов, идей))",
+            "---"
+          ],
+          "examples": [
+            "Hills interfere with the propagation of radio signals.",
+            "Social media speeds the propagation of rumors.",
+            "The propagation of sound is slower in cold air."
+          ]
+        }
+      ],
+      "русский": "размножение растений; распространение (волн, сигналов, идей)",
       "countability": "uncountable"
     },
     {

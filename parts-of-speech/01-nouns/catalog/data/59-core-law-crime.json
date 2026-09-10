@@ -2789,14 +2789,43 @@
       "term": "punishment",
       "ipa": "/ˈpʌnɪʃmənt/",
       "respell": "PUHN-ish-muhnt",
-      "meaning": "Something unpleasant done to someone because they broke a rule or law. ---",
+      "meaning": "Punishment has 2 distinct senses.",
       "examples": [
         "The punishment doesn't fit the crime.",
         "He accepted his punishment without complaint.",
-        "Harsher punishments haven't helped."
+        "Harsher punishments haven't helped.",
+        "These boots can take a lot of punishment.",
+        "The old truck took real punishment on the logging roads.",
+        "His knees have absorbed years of punishment from running."
       ],
-      "senses": [],
-      "русский": "наказание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something unpleasant done to someone because they broke a rule or law",
+          "body": [
+            "(наказание)"
+          ],
+          "examples": [
+            "The punishment doesn't fit the crime.",
+            "He accepted his punishment without complaint.",
+            "Harsher punishments haven't helped."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Rough treatment or hard wear that something has to stand",
+          "body": [
+            "(нагрузка, испытание на прочность)",
+            "---"
+          ],
+          "examples": [
+            "These boots can take a lot of punishment.",
+            "The old truck took real punishment on the logging roads.",
+            "His knees have absorbed years of punishment from running."
+          ]
+        }
+      ],
+      "русский": "наказание; нагрузка, испытание на прочность",
       "plural": "punishments",
       "countability": "countable"
     },

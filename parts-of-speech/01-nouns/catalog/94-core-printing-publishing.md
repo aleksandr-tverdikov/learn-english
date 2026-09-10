@@ -1645,15 +1645,23 @@ A printed picture built from tiny dots that imitate shades of gray.
 ### watermark
 
 **Pronunciation:** /ˈwɔːtərmɑːrk/ &middot; *WAW-tur-mark*
-**Русский:** водяной знак
+**Русский:** водяной знак; водяной знак (на изображении, документе)
 **Plural:** *watermarks*
 **Countability:** countable
 
-A faint design pressed into paper that shows when you hold it to the light.
+Watermark has 2 distinct senses.
+
+**1. A faint design pressed into paper that shows when you hold it to the light.** (водяной знак)
 
 1. Hold the bill up and look for the *watermark*.
 2. The stationery has the school's *watermark*.
 3. Forgers have trouble with *watermarks*.
+
+**2. A logo or words laid faintly over a digital image or document to show who owns it or that it is not final.** (водяной знак (на изображении, документе))
+
+4. The preview photos all have the studio's *watermark* across them.
+5. You have to pay to download the file without the *watermark*.
+6. Every page of the draft carries a gray DRAFT *watermark*.
 
 ---
 
@@ -2252,15 +2260,23 @@ A larger, better-made paperback sold mainly in bookstores.
 ### pressroom
 
 **Pronunciation:** /ˈprɛsruːm/ &middot; *PRESS-room*
-**Русский:** печатный цех
+**Русский:** печатный цех; пресс-центр, комната для журналистов
 **Plural:** *pressrooms*
 **Countability:** countable
 
-The part of a printing plant where the presses run.
+Pressroom has 2 distinct senses.
+
+**1. The part of a printing plant where the presses run.** (печатный цех)
 
 1. You can't hear yourself think in the *pressroom*.
 2. He spent forty years in the *pressroom*.
 3. The old *pressrooms* were full of noise and ink.
+
+**2. A room set aside at an event or a building for reporters to work in.** (пресс-центр, комната для журналистов)
+
+4. Reporters filed their stories from the *pressroom* in the basement.
+5. The coach came into the *pressroom* twenty minutes after the game.
+6. Only credentialed journalists are allowed in the *pressroom*.
 
 ---
 

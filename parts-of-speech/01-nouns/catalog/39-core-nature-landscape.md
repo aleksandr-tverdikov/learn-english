@@ -607,22 +607,6 @@ A wide area of flat grassland in North America.
 
 ---
 
-### desert
-
-**Pronunciation:** /ˈdɛzərt/ &middot; *DEZ-urt*
-**Русский:** пустыня
-**Plural:** *deserts*
-**Countability:** countable
-**Contrast:** The noun is DEZ-urt; the verb *desert* (покинуть) is dih-ZURT, and so is *dessert* (десерт).
-
-A large dry area with little rain and almost no plants.
-
-1. Nights in the *desert* get surprisingly cold.
-2. They drove across the *desert* at night to avoid the heat.
-3. Some of the world's *deserts* are growing every year.
-
----
-
 ### tundra
 
 **Pronunciation:** /ˈtʌndrə/ &middot; *TUN-druh*

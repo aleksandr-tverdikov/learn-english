@@ -353,15 +353,23 @@ A person who writes plays.
 ### producer
 
 **Pronunciation:** /prəˈduːsər/ &middot; *pruh-DOO-sur*
-**Русский:** продюсер
+**Русский:** продюсер; производитель
 **Plural:** *producers*
 **Countability:** countable
 
-The person who raises the money for a show and manages the business side.
+Producer has 2 distinct senses.
+
+**1. The person who raises the money for a show and manages the business side.** (продюсер)
 
 1. The *producer* decided to extend the run by a month.
 2. Two *producers* pulled out before rehearsals began.
 3. She works as a *producer* for a small downtown company.
+
+**2. A person, company, or country that grows or makes something.** (производитель)
+
+4. Iowa is the top corn *producer* in the country.
+5. Small dairy *producers* are being squeezed out by the big ones.
+6. The firm is the world's largest *producer* of lithium batteries.
 
 ---
 
@@ -1238,14 +1246,28 @@ Diction has 2 distinct senses.
 ### projection
 
 **Pronunciation:** /prəˈdʒɛkʃən/ &middot; *pruh-JEK-shuhn*
-**Русский:** сила голоса, посыл звука в зал
+**Русский:** сила голоса, посыл звука в зал; прогноз, прогнозная оценка; проекция (психол.)
 **Countability:** uncountable
 
-The ability to make the voice carry to the back of a hall.
+Projection has 3 distinct senses.
+
+**1. The ability to make the voice carry to the back of a hall.** (сила голоса, посыл звука в зал)
 
 1. She has wonderful *projection* for such a small person.
 2. We spent the class working on *projection*.
 3. Without a microphone you need real *projection*.
+
+**2. An estimate of what a number will be at some future point.** (прогноз, прогнозная оценка)
+
+4. Sales fell well short of the company's *projections*.
+5. The budget rests on a *projection* of three percent growth.
+6. Early *projections* gave her a narrow lead.
+
+**3. The habit of seeing your own unwanted feelings in other people instead.** (проекция (психол.))
+
+7. Calling everyone else lazy sounds like *projection* to me.
+8. The therapist explained *projection* with a simple example.
+9. That accusation is pure *projection*.
 
 ---
 

@@ -818,15 +818,23 @@ Lock has 3 distinct senses.
 ### threshold
 
 **Pronunciation:** /ˈθrɛʃhoʊld/ &middot; *THRESH-hohld*
-**Русский:** порог
+**Русский:** порог; порог, предел (уровень, с которого что-л. начинается)
 **Plural:** *thresholds*
 **Countability:** countable
 
-The strip of floor at the bottom of a doorway.
+Threshold has 2 distinct senses.
+
+**1. The strip of floor at the bottom of a doorway.** (порог)
 
 1. He carried her over the *threshold*.
 2. The wood at the *threshold* is worn smooth.
 3. New *thresholds* went in with the flooring.
+
+**2. The level or point at which something begins to happen or take effect.** (порог, предел (уровень, с которого что-л. начинается))
+
+4. Her income is just above the *threshold* for financial aid.
+5. Everyone has a different pain *threshold*.
+6. Sales have to cross a certain *threshold* before the bonus kicks in.
 
 ---
 
@@ -1607,15 +1615,23 @@ Carpet has 2 distinct senses.
 ### wallpaper
 
 **Pronunciation:** /ˈwɔːlpeɪpər/ &middot; *WAWL-pay-pur*
-**Русский:** обои
+**Русский:** обои; обои (фоновая картинка на экране)
 **Countability:** uncountable
 **Contrast:** Uncountable in English, though «обои» is plural in Russian: the wallpaper *is* peeling, never "wallpapers are".
 
-Decorated paper glued to the walls of a room.
+Wallpaper has 2 distinct senses.
+
+**1. Decorated paper glued to the walls of a room.** (обои)
 
 1. The *wallpaper* is peeling in the corner.
 2. We steamed off three layers of old *wallpaper*.
 3. She picked out *wallpaper* with little blue flowers.
+
+**2. The picture set as the background on a computer or phone screen.** (обои (фоновая картинка на экране))
+
+4. He changed his *wallpaper* to a photo of his dog.
+5. The default *wallpaper* on the new laptop is a mountain at dawn.
+6. I keep different *wallpapers* on my phone and my work computer.
 
 ---
 

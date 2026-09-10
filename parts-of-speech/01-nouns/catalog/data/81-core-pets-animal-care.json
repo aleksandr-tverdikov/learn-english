@@ -967,14 +967,43 @@
       "term": "pedigree",
       "ipa": "/ˈpɛdəɡriː/",
       "respell": "PED-uh-gree",
-      "meaning": "A written record of an animal's ancestors. ---",
+      "meaning": "Pedigree has 2 distinct senses.",
       "examples": [
         "The breeder showed us the puppy's pedigree.",
         "His pedigree goes back four generations.",
-        "Pedigrees are registered with the kennel club."
+        "Pedigrees are registered with the kennel club.",
+        "The new coach arrived with an impressive pedigree.",
+        "Her academic pedigree opened a lot of doors.",
+        "Two of the finalists had the same pedigree: state school, then a clerkship."
       ],
-      "senses": [],
-      "русский": "родословная",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A written record of an animal's ancestors",
+          "body": [
+            "(родословная)"
+          ],
+          "examples": [
+            "The breeder showed us the puppy's pedigree.",
+            "His pedigree goes back four generations.",
+            "Pedigrees are registered with the kennel club."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's background and record of past achievements",
+          "body": [
+            "(послужной список, происхождение (о человеке))",
+            "---"
+          ],
+          "examples": [
+            "The new coach arrived with an impressive pedigree.",
+            "Her academic pedigree opened a lot of doors.",
+            "Two of the finalists had the same pedigree: state school, then a clerkship."
+          ]
+        }
+      ],
+      "русский": "родословная; послужной список, происхождение (о человеке)",
       "plural": "pedigrees",
       "countability": "countable"
     },
@@ -1268,14 +1297,43 @@
       "term": "watchdog",
       "ipa": "/ˈwɑːtʃdɔːɡ/",
       "respell": "WAHCH-dawg",
-      "meaning": "A dog kept to bark a warning when strangers come. ---",
+      "meaning": "Watchdog has 2 distinct senses.",
       "examples": [
         "They keep a watchdog at the lot.",
         "Watchdogs bark at anything that moves.",
-        "The watchdog woke the whole street."
+        "The watchdog woke the whole street.",
+        "A consumer watchdog sued the airline over hidden fees.",
+        "The agency is supposed to be a watchdog, not a partner.",
+        "Ethics watchdogs filed a complaint against the governor last week."
       ],
-      "senses": [],
-      "русский": "сторожевая собака",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dog kept to bark a warning when strangers come",
+          "body": [
+            "(сторожевая собака)"
+          ],
+          "examples": [
+            "They keep a watchdog at the lot.",
+            "Watchdogs bark at anything that moves.",
+            "The watchdog woke the whole street."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or organization that keeps watch on a company or a government and reports bad behavior",
+          "body": [
+            "(надзорная организация, контролёр)",
+            "---"
+          ],
+          "examples": [
+            "A consumer watchdog sued the airline over hidden fees.",
+            "The agency is supposed to be a watchdog, not a partner.",
+            "Ethics watchdogs filed a complaint against the governor last week."
+          ]
+        }
+      ],
+      "русский": "сторожевая собака; надзорная организация, контролёр",
       "plural": "watchdogs",
       "countability": "countable",
       "contrast": "A watchdog is also a group that keeps an eye on a government or an industry."

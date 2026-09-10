@@ -1746,14 +1746,43 @@
       "term": "trademark",
       "ipa": "/ˈtreɪdmɑːrk/",
       "respell": "TRAYD-mark",
-      "meaning": "A name or symbol legally registered to one company. ---",
+      "meaning": "Trademark has 2 distinct senses.",
       "examples": [
         "The name is a registered trademark.",
         "They own trademarks in a dozen countries.",
-        "Using that trademark got the shop a letter from a lawyer."
+        "Using that trademark got the shop a letter from a lawyer.",
+        "That sly grin was his trademark.",
+        "Long guitar solos became the band's trademark.",
+        "Showing up ten minutes late is her trademark."
       ],
-      "senses": [],
-      "русский": "товарный знак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A name or symbol legally registered to one company",
+          "body": [
+            "(товарный знак)"
+          ],
+          "examples": [
+            "The name is a registered trademark.",
+            "They own trademarks in a dozen countries.",
+            "Using that trademark got the shop a letter from a lawyer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A habit, feature, or style so typical of one person or group that everyone recognizes it",
+          "body": [
+            "(фирменная черта, отличительный признак)",
+            "---"
+          ],
+          "examples": [
+            "That sly grin was his trademark.",
+            "Long guitar solos became the band's trademark.",
+            "Showing up ten minutes late is her trademark."
+          ]
+        }
+      ],
+      "русский": "товарный знак; фирменная черта, отличительный признак",
       "plural": "trademarks",
       "countability": "countable"
     },

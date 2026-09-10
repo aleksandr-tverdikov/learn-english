@@ -1347,14 +1347,22 @@ The pulling out of extra seedlings so the rest have room.
 ### propagation
 
 **Pronunciation:** /ˌprɑːpəˈɡeɪʃən/ &middot; *prah-puh-GAY-shuhn*
-**Русский:** размножение растений
+**Русский:** размножение растений; распространение (волн, сигналов, идей)
 **Countability:** uncountable
 
-The growing of new plants from seeds, cuttings, or division.
+Propagation has 2 distinct senses.
+
+**1. The growing of new plants from seeds, cuttings, or division.** (размножение растений)
 
 1. *Propagation* by cuttings is the fastest way to fill a bed.
 2. The class covers seed starting and *propagation*.
 3. She keeps a whole shelf for *propagation*.
+
+**2. The spreading of something such as a wave, a signal, or an idea.** (распространение (волн, сигналов, идей))
+
+4. Hills interfere with the *propagation* of radio signals.
+5. Social media speeds the *propagation* of rumors.
+6. The *propagation* of sound is slower in cold air.
 
 ---
 

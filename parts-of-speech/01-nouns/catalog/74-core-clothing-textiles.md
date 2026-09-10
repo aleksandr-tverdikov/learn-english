@@ -1288,14 +1288,22 @@ The craft of stitching layers of cloth and filling together.
 ### patchwork
 
 **Pronunciation:** /ˈpætʃwɜːrk/ &middot; *PATCH-wurk*
-**Русский:** лоскутное шитьё
+**Русский:** лоскутное шитьё; мозаика, пёстрая смесь
 **Countability:** uncountable
 
-Sewing that joins small pieces of different fabrics into one cloth.
+Patchwork has 2 distinct senses.
+
+**1. Sewing that joins small pieces of different fabrics into one cloth.** (лоскутное шитьё)
 
 1. The quilt is *patchwork* in reds and blues.
 2. She makes bags out of *patchwork*.
 3. *Patchwork* uses up every last scrap.
+
+**2. A thing made up of many different parts that do not fit together neatly.** (мозаика, пёстрая смесь)
+
+4. State privacy rules are a *patchwork* that changes at every border.
+5. From the plane the farmland was a *patchwork* of green and brown.
+6. His coverage is a *patchwork* of three different plans.
 
 ---
 

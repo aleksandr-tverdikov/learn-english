@@ -1915,14 +1915,43 @@
       "term": "pantograph",
       "ipa": "/ˈpæntəɡræf/",
       "respell": "PAN-tuh-graf",
-      "meaning": "The hinged arm on the roof of an electric train that touches the overhead wire. ---",
+      "meaning": "Pantograph has 2 distinct senses.",
       "examples": [
         "The pantograph slid up against the wire with a spark.",
         "Both pantographs are lowered before the train enters the shed.",
-        "A bent pantograph stopped service for an hour."
+        "A bent pantograph stopped service for an hour.",
+        "He used a pantograph to enlarge the sketch onto the wall.",
+        "The trophy shop still engraves plates with an old pantograph.",
+        "A pantograph traces the shape and redraws it at whatever size you set."
       ],
-      "senses": [],
-      "русский": "токоприёмник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hinged arm on the roof of an electric train that touches the overhead wire",
+          "body": [
+            "(токоприёмник)"
+          ],
+          "examples": [
+            "The pantograph slid up against the wire with a spark.",
+            "Both pantographs are lowered before the train enters the shed.",
+            "A bent pantograph stopped service for an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An instrument of hinged rods that copies a drawing at a larger or smaller scale",
+          "body": [
+            "(пантограф (прибор для копирования чертежей))",
+            "---"
+          ],
+          "examples": [
+            "He used a pantograph to enlarge the sketch onto the wall.",
+            "The trophy shop still engraves plates with an old pantograph.",
+            "A pantograph traces the shape and redraws it at whatever size you set."
+          ]
+        }
+      ],
+      "русский": "токоприёмник; пантограф (прибор для копирования чертежей)",
       "plural": "pantographs",
       "countability": "countable"
     },
@@ -2049,14 +2078,43 @@
       "term": "turntable",
       "ipa": "/ˈtɜːrnˌteɪbəl/",
       "respell": "TURN-tay-buhl",
-      "meaning": "A rotating platform used to turn a locomotive around. ---",
+      "meaning": "Turntable has 2 distinct senses.",
       "examples": [
         "They ran the engine onto the turntable and swung it around.",
         "The turntable still works after ninety years.",
-        "Two men could turn the turntable by hand."
+        "Two men could turn the turntable by hand.",
+        "He set the needle down gently on the turntable.",
+        "She bought a turntable and started collecting records again.",
+        "The DJ worked two turntables and a mixer."
       ],
-      "senses": [],
-      "русский": "поворотный круг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rotating platform used to turn a locomotive around",
+          "body": [
+            "(поворотный круг)"
+          ],
+          "examples": [
+            "They ran the engine onto the turntable and swung it around.",
+            "The turntable still works after ninety years.",
+            "Two men could turn the turntable by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The flat spinning platform of a record player, or the player itself",
+          "body": [
+            "(проигрыватель винила, вертушка)",
+            "---"
+          ],
+          "examples": [
+            "He set the needle down gently on the turntable.",
+            "She bought a turntable and started collecting records again.",
+            "The DJ worked two turntables and a mixer."
+          ]
+        }
+      ],
+      "русский": "поворотный круг; проигрыватель винила, вертушка",
       "plural": "turntables",
       "countability": "countable"
     },

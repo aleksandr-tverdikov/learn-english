@@ -1008,14 +1008,43 @@
       "term": "voicemail",
       "ipa": "/ˈvɔɪsmeɪl/",
       "respell": "VOYS-mayl",
-      "meaning": "A recorded spoken message left for someone who didn't answer. ---",
+      "meaning": "Voicemail has 2 distinct senses.",
       "examples": [
         "I left you a voicemail this morning.",
         "He never checks his voicemails.",
-        "Her voicemail was four minutes long."
+        "Her voicemail was four minutes long.",
+        "Her voicemail is full, so I texted her instead.",
+        "I still haven't set up voicemail on the new phone.",
+        "I called twice and it went straight to voicemail both times."
       ],
-      "senses": [],
-      "русский": "голосовое сообщение (на автоответчике)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A recorded spoken message left for someone who didn't answer",
+          "body": [
+            "(голосовое сообщение (на автоответчике))"
+          ],
+          "examples": [
+            "I left you a voicemail this morning.",
+            "He never checks his voicemails.",
+            "Her voicemail was four minutes long."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The phone service that records messages when you cannot answer",
+          "body": [
+            "(голосовая почта (услуга автоответчика))",
+            "---"
+          ],
+          "examples": [
+            "Her voicemail is full, so I texted her instead.",
+            "I still haven't set up voicemail on the new phone.",
+            "I called twice and it went straight to voicemail both times."
+          ]
+        }
+      ],
+      "русский": "голосовое сообщение (на автоответчике); голосовая почта (услуга автоответчика)",
       "plural": "voicemails",
       "countability": "countable"
     },
@@ -1484,14 +1513,43 @@
       "term": "thumbnail",
       "ipa": "/ˈθʌmneɪl/",
       "respell": "THUM-nayl",
-      "meaning": "A small version of an image used as a preview. ---",
+      "meaning": "Thumbnail has 2 distinct senses.",
       "examples": [
         "Click the thumbnail to see the full photo.",
         "The thumbnails load before the video does.",
-        "A good thumbnail gets more clicks."
+        "A good thumbnail gets more clicks.",
+        "He chewed his thumbnail while the results loaded.",
+        "I split my thumbnail prying open the box.",
+        "She scraped the price sticker off with her thumbnail."
       ],
-      "senses": [],
-      "русский": "миниатюра, эскиз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small version of an image used as a preview",
+          "body": [
+            "(миниатюра, эскиз)"
+          ],
+          "examples": [
+            "Click the thumbnail to see the full photo.",
+            "The thumbnails load before the video does.",
+            "A good thumbnail gets more clicks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The nail on a person's thumb",
+          "body": [
+            "(ноготь большого пальца)",
+            "---"
+          ],
+          "examples": [
+            "He chewed his thumbnail while the results loaded.",
+            "I split my thumbnail prying open the box.",
+            "She scraped the price sticker off with her thumbnail."
+          ]
+        }
+      ],
+      "русский": "миниатюра, эскиз; ноготь большого пальца",
       "plural": "thumbnails",
       "countability": "countable",
       "contrast": "The b is silent: THUM-nayl, the same thumb sound as in the finger."
@@ -3066,14 +3124,43 @@
       "term": "processor",
       "ipa": "/ˈprɑːsɛsər/",
       "respell": "PRAH-ses-ur",
-      "meaning": "The chip that does the main work inside a computer. ---",
+      "meaning": "Processor has 2 distinct senses.",
       "examples": [
         "The new processor is twice as fast.",
         "These processors run hot under load.",
-        "A faster processor won't help if you're short on memory."
+        "A faster processor won't help if you're short on memory.",
+        "The country's largest meat processor recalled a million pounds of beef.",
+        "Our payment processor charges three percent on every sale.",
+        "Local growers sell to a tomato processor in the next county."
       ],
-      "senses": [],
-      "русский": "процессор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The chip that does the main work inside a computer",
+          "body": [
+            "(процессор)"
+          ],
+          "examples": [
+            "The new processor is twice as fast.",
+            "These processors run hot under load.",
+            "A faster processor won't help if you're short on memory."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company or plant that treats raw material or handles transactions in bulk",
+          "body": [
+            "(перерабатывающее предприятие; обработчик платежей)",
+            "---"
+          ],
+          "examples": [
+            "The country's largest meat processor recalled a million pounds of beef.",
+            "Our payment processor charges three percent on every sale.",
+            "Local growers sell to a tomato processor in the next county."
+          ]
+        }
+      ],
+      "русский": "процессор; перерабатывающее предприятие; обработчик платежей",
       "plural": "processors",
       "countability": "countable"
     },

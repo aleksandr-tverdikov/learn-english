@@ -95,15 +95,23 @@ One of four babies born at the same time to one mother.
 ### qualifier
 
 **Pronunciation:** /ˈkwɑːləfaɪər/ &middot; *KWAH-luh-fy-ur*
-**Русский:** отборочный матч, квалификация
+**Русский:** отборочный матч, квалификация; оговорка; уточняющее слово
 **Plural:** *qualifiers*
 **Countability:** countable
 
-A game or round that decides who advances to the main competition.
+Qualifier has 2 distinct senses.
+
+**1. A game or round that decides who advances to the main competition.** (отборочный матч, квалификация)
 
 1. The team won its World Cup *qualifier* on Tuesday.
 2. She lost in the *qualifiers* and missed the main draw.
 3. Only the top two finishers in the *qualifier* move on.
+
+**2. A word or remark added to limit what has just been said.** (оговорка; уточняющее слово)
+
+4. He agreed, but with the *qualifier* that the price could change.
+5. Words like usually and mostly are *qualifiers*.
+6. Notice the *qualifier* in her answer: she said probably.
 
 ---
 

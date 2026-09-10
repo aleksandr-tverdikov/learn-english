@@ -554,15 +554,23 @@ Report has 3 distinct senses.
 ### presentation
 
 **Pronunciation:** /ˌprɛzənˈteɪʃən/ &middot; *prez-uhn-TAY-shuhn*
-**Русский:** презентация
+**Русский:** презентация; подача, оформление (внешний вид)
 **Plural:** *presentations*
 **Countability:** countable
 
-A talk in which someone shows and explains information to a group.
+Presentation has 2 distinct senses.
+
+**1. A talk in which someone shows and explains information to a group.** (презентация)
 
 1. I'm giving a *presentation* to the whole department.
 2. His *presentation* ran about ten minutes long.
 3. We sat through four *presentations* in a row.
+
+**2. The way something is arranged and offered to be looked at.** (подача, оформление (внешний вид))
+
+4. The food tasted fine, but the *presentation* was sloppy.
+5. Judges score the cakes on flavor and on *presentation*.
+6. A little parsley improves the *presentation* of the dish.
 
 ---
 
@@ -1086,30 +1094,46 @@ Role has 2 distinct senses.
 ### profession
 
 **Pronunciation:** /prəˈfɛʃən/ &middot; *pruh-FESH-uhn*
-**Русский:** профессия
+**Русский:** профессия; заверение, изъявление (веры, чувств)
 **Plural:** *professions*
 **Countability:** countable
 
-A kind of work that requires training and a formal qualification.
+Profession has 2 distinct senses.
+
+**1. A kind of work that requires training and a formal qualification.** (профессия)
 
 1. Teaching is a demanding *profession*.
 2. He left the legal *profession* at forty.
 3. Nursing and law are very different *professions*.
+
+**2. An open statement of a belief or feeling, often one that others doubt.** (заверение, изъявление (веры, чувств))
+
+4. His *professions* of innocence convinced no one on the jury.
+5. She made a public *profession* of faith at the church.
+6. The letter was full of *professions* of loyalty.
 
 ---
 
 ### promotion
 
 **Pronunciation:** /prəˈmoʊʃən/ &middot; *pruh-MOH-shuhn*
-**Русский:** повышение (по службе)
+**Русский:** повышение (по службе); рекламная акция, промоакция
 **Plural:** *promotions*
 **Countability:** countable
 
-A move to a more senior job in the same organization.
+Promotion has 2 distinct senses.
+
+**1. A move to a more senior job in the same organization.** (повышение (по службе))
 
 1. She got a *promotion* after two years.
 2. The *promotion* came with a bigger office.
 3. They announced three *promotions* at once.
+
+**2. A special offer or campaign used to sell something.** (рекламная акция, промоакция)
+
+4. The store is running a two-for-one *promotion* this week.
+5. Free shipping is just a holiday *promotion*.
+6. The team ran a bobblehead *promotion* to fill the seats.
 
 ---
 
@@ -1195,14 +1219,22 @@ Officially approved time away from work.
 ### overtime
 
 **Pronunciation:** /ˈoʊvərtaɪm/ &middot; *OH-vur-tym*
-**Русский:** сверхурочная работа, сверхурочные
+**Русский:** сверхурочная работа, сверхурочные; овертайм, дополнительное время
 **Countability:** uncountable
 
-Hours worked beyond the normal schedule, or the extra pay for them.
+Overtime has 2 distinct senses.
+
+**1. Hours worked beyond the normal schedule, or the extra pay for them.** (сверхурочная работа, сверхурочные)
 
 1. He's been working a lot of *overtime*.
 2. *Overtime* pays time and a half.
 3. There's no *overtime* in the budget this month.
+
+**2. An extra period of play added when a game is tied at the end of regulation.** (овертайм, дополнительное время)
+
+4. The game went to *overtime* and they lost on a field goal.
+5. She scored twice in *overtime*.
+6. Two of their last three games have gone into *overtime*.
 
 ---
 

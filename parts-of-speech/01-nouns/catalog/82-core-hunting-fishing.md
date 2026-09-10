@@ -1754,15 +1754,23 @@ Casting has 2 distinct senses.
 ### trolling
 
 **Pronunciation:** /ˈtroʊlɪŋ/ &middot; *TROH-ling*
-**Русский:** троллинг (ловля на ходу за лодкой)
+**Русский:** троллинг (ловля на ходу за лодкой); троллинг (провокации в интернете)
 **Countability:** uncountable
 **Contrast:** Spelled and said the same as internet *trolling* — the fishing sense came first.
 
-Fishing by dragging a baited line slowly behind a moving boat.
+Trolling has 2 distinct senses.
+
+**1. Fishing by dragging a baited line slowly behind a moving boat.** (троллинг (ловля на ходу за лодкой))
 
 1. *Trolling* along the drop-off got us two lake trout.
 2. *Trolling* covers a lot of water in a short time.
 3. He does most of his *trolling* early in the morning.
+
+**2. The practice of posting deliberately offensive or provocative messages online to upset people.** (троллинг (провокации в интернете))
+
+4. The comment section was shut down because of constant *trolling*.
+5. She reported him for *trolling* and blocked the account.
+6. Half of what he posts is just *trolling*.
 
 ---
 

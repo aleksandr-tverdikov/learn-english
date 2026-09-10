@@ -526,16 +526,24 @@ Empire has 2 distinct senses.
 ### president
 
 **Pronunciation:** /ˈprɛzədənt/ &middot; *PREZ-uh-duhnt*
-**Русский:** президент
+**Русский:** президент; президент компании, председатель, ректор
 **Plural:** *presidents*
 **Countability:** countable
 **Contrast:** Do not confuse it with precedent (PRESS-uh-duhnt), an earlier case used as an example.
 
-The elected head of state in a republic.
+President has 2 distinct senses.
+
+**1. The elected head of state in a republic.** (президент)
 
 1. The *president* signed the bill on Tuesday.
 2. She is running for *president* next year.
 3. Four *presidents* attended the funeral.
+
+**2. The person who heads a company, bank, university, or other organization.** (президент компании, председатель, ректор)
+
+4. She was named *president* of the bank last spring.
+5. The college *president* sent an email to every student.
+6. Both *presidents* of the union locals spoke at the rally.
 
 ---
 

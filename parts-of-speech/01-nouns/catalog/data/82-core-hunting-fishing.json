@@ -2261,14 +2261,43 @@
       "term": "trolling",
       "ipa": "/ˈtroʊlɪŋ/",
       "respell": "TROH-ling",
-      "meaning": "Fishing by dragging a baited line slowly behind a moving boat. ---",
+      "meaning": "Trolling has 2 distinct senses.",
       "examples": [
         "Trolling along the drop-off got us two lake trout.",
         "Trolling covers a lot of water in a short time.",
-        "He does most of his trolling early in the morning."
+        "He does most of his trolling early in the morning.",
+        "The comment section was shut down because of constant trolling.",
+        "She reported him for trolling and blocked the account.",
+        "Half of what he posts is just trolling."
       ],
-      "senses": [],
-      "русский": "троллинг (ловля на ходу за лодкой)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Fishing by dragging a baited line slowly behind a moving boat",
+          "body": [
+            "(троллинг (ловля на ходу за лодкой))"
+          ],
+          "examples": [
+            "Trolling along the drop-off got us two lake trout.",
+            "Trolling covers a lot of water in a short time.",
+            "He does most of his trolling early in the morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The practice of posting deliberately offensive or provocative messages online to upset people",
+          "body": [
+            "(троллинг (провокации в интернете))",
+            "---"
+          ],
+          "examples": [
+            "The comment section was shut down because of constant trolling.",
+            "She reported him for trolling and blocked the account.",
+            "Half of what he posts is just trolling."
+          ]
+        }
+      ],
+      "русский": "троллинг (ловля на ходу за лодкой); троллинг (провокации в интернете)",
       "countability": "uncountable",
       "contrast": "Spelled and said the same as internet trolling — the fishing sense came first."
     },

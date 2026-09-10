@@ -269,14 +269,22 @@ The dim light at the end of the day, just after sunset.
 ### twilight
 
 **Pronunciation:** /ˈtwaɪlaɪt/ &middot; *TWY-lyt*
-**Русский:** сумерки, полумрак
+**Русский:** сумерки, полумрак; закат (карьеры, эпохи)
 **Countability:** uncountable
 
-The soft half-light in the sky before sunrise or after sunset.
+Twilight has 2 distinct senses.
+
+**1. The soft half-light in the sky before sunrise or after sunset.** (сумерки, полумрак)
 
 1. We hiked the last mile in *twilight*.
 2. In summer the *twilight* lasts almost an hour up here.
 3. The lake looked silver in the *twilight*.
+
+**2. The last stage of something, when it is fading or coming to an end.** (закат (карьеры, эпохи))
+
+4. He hit thirty home runs in the *twilight* of his career.
+5. The novel is set in the *twilight* of the Roman Empire.
+6. In the *twilight* of her life she took up painting.
 
 ---
 
@@ -496,14 +504,22 @@ Water that falls from the sky as rain, snow, sleet, or hail.
 ### visibility
 
 **Pronunciation:** /ˌvɪzəˈbɪləti/ &middot; *viz-uh-BIL-uh-tee*
-**Русский:** видимость
+**Русский:** видимость; известность, заметность (для публики)
 **Countability:** uncountable
 
-How far you can see, given the weather conditions.
+Visibility has 2 distinct senses.
+
+**1. How far you can see, given the weather conditions.** (видимость)
 
 1. *Visibility* was down to about a hundred feet.
 2. Flights were delayed because of poor *visibility*.
 3. The fog lifted and *visibility* improved.
+
+**2. The amount of public attention that something or someone receives.** (известность, заметность (для публики))
+
+4. The lawsuit gave the issue national *visibility*.
+5. She took the job for the *visibility* it would give her career.
+6. The brand has almost no *visibility* outside the Northeast.
 
 ---
 
@@ -1532,15 +1548,23 @@ The earth seen as a whole, or a round model of it.
 ### universe
 
 **Pronunciation:** /ˈjuːnəvɜːrs/ &middot; *YOO-nuh-vurs*
-**Русский:** вселенная
+**Русский:** вселенная; мир, вселенная (сфера деятельности; вымышленный мир)
 **Plural:** *universes*
 **Countability:** countable
 
-All of space and everything in it.
+Universe has 2 distinct senses.
+
+**1. All of space and everything in it.** (вселенная)
 
 1. The *universe* is still expanding.
 2. Nobody knows how big the *universe* actually is.
 3. Some physicists argue for a whole set of parallel *universes*.
+
+**2. A particular world of activity, or the whole imagined world of a story.** (мир, вселенная (сфера деятельности; вымышленный мир))
+
+4. The show takes place in the same *universe* as the comics.
+5. In the *universe* of college sports, that's a huge salary.
+6. The two movies belong to completely different *universes*.
 
 ---
 

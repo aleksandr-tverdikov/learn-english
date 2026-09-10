@@ -3215,14 +3215,43 @@
       "term": "overture",
       "ipa": "/ˈoʊvərtʃʊr/",
       "respell": "OH-vur-chur",
-      "meaning": "The orchestral piece played at the beginning of an opera or a show. ---",
+      "meaning": "Overture has 2 distinct senses.",
       "examples": [
         "The overture is the best-known part of the opera.",
         "The orchestra opened with a short overture.",
-        "Both overtures were written after the operas were finished."
+        "Both overtures were written after the operas were finished.",
+        "The company made overtures to a smaller rival about a merger.",
+        "He ignored her overtures of friendship for months.",
+        "Both sides brushed aside the early peace overtures."
       ],
-      "senses": [],
-      "русский": "увертюра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The orchestral piece played at the beginning of an opera or a show",
+          "body": [
+            "(увертюра)"
+          ],
+          "examples": [
+            "The overture is the best-known part of the opera.",
+            "The orchestra opened with a short overture.",
+            "Both overtures were written after the operas were finished."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An approach made to someone in order to open talks or begin a relationship",
+          "body": [
+            "(первый шаг, предложение начать переговоры)",
+            "---"
+          ],
+          "examples": [
+            "The company made overtures to a smaller rival about a merger.",
+            "He ignored her overtures of friendship for months.",
+            "Both sides brushed aside the early peace overtures."
+          ]
+        }
+      ],
+      "русский": "увертюра; первый шаг, предложение начать переговоры",
       "plural": "overtures",
       "countability": "countable"
     },

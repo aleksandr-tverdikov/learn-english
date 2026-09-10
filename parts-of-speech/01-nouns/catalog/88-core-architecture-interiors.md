@@ -588,15 +588,23 @@ A recessed part of a room set back from the main wall.
 ### partition
 
 **Pronunciation:** /pɑːrˈtɪʃən/ &middot; *par-TIH-shun*
-**Русский:** перегородка
+**Русский:** перегородка; раздел (страны на части)
 **Plural:** *partitions*
 **Countability:** countable
 
-A thin wall or screen that divides a room.
+Partition has 2 distinct senses.
+
+**1. A thin wall or screen that divides a room.** (перегородка)
 
 1. A glass *partition* separates the two offices.
 2. They took down the *partition* to make one big room.
 3. The *partitions* don't reach the ceiling.
+
+**2. The dividing of a country into separate states or zones.** (раздел (страны на части))
+
+4. The *partition* of India uprooted millions of people.
+5. They argued for *partition* along ethnic lines.
+6. The *partition* left families stranded on opposite sides of a new border.
 
 ---
 

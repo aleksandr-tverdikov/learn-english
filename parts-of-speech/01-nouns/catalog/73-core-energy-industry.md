@@ -1671,14 +1671,22 @@ The area of a factory where the actual work is done.
 ### production
 
 **Pronunciation:** /prəˈdʌkʃən/ &middot; *pruh-DUK-shuhn*
-**Русский:** производство, выпуск
+**Русский:** производство, выпуск; постановка, спектакль
 **Countability:** uncountable
 
-The making of goods in large quantities.
+Production has 2 distinct senses.
+
+**1. The making of goods in large quantities.** (производство, выпуск)
 
 1. *Production* fell sharply after the strike.
 2. The plant will start *production* in the fall.
 3. They moved *production* to another state.
+
+**2. A play, opera, or show as it is staged and performed.** (постановка, спектакль)
+
+4. The theater's new *production* runs through May.
+5. Her first Broadway *production* closed after eleven performances.
+6. It is a modern *production* set in a subway station.
 
 ---
 

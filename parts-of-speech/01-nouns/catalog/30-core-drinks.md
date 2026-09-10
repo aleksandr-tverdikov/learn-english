@@ -880,21 +880,6 @@ A fine brandy from a region of western France.
 
 ---
 
-### sake
-
-**Pronunciation:** /ˈsɑːki/ &middot; *SAH-kee*
-**Русский:** саке (японское рисовое вино)
-**Countability:** uncountable
-**Contrast:** Two syllables, SAH-kee — not like the sake in 'for heaven's sake'.
-
-A Japanese alcoholic drink brewed from rice.
-
-1. They served the *sake* warm in tiny cups.
-2. *Sake* goes well with sushi.
-3. He ordered a bottle of cold *sake*.
-
----
-
 ### moonshine
 
 **Pronunciation:** /ˈmuːnʃaɪn/ &middot; *MOON-shyne*

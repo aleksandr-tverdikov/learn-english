@@ -617,14 +617,43 @@
       "term": "producer",
       "ipa": "/prəˈduːsər/",
       "respell": "pruh-DOO-sur",
-      "meaning": "The person who raises the money for a show and manages the business side. ---",
+      "meaning": "Producer has 2 distinct senses.",
       "examples": [
         "The producer decided to extend the run by a month.",
         "Two producers pulled out before rehearsals began.",
-        "She works as a producer for a small downtown company."
+        "She works as a producer for a small downtown company.",
+        "Iowa is the top corn producer in the country.",
+        "Small dairy producers are being squeezed out by the big ones.",
+        "The firm is the world's largest producer of lithium batteries."
       ],
-      "senses": [],
-      "русский": "продюсер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person who raises the money for a show and manages the business side",
+          "body": [
+            "(продюсер)"
+          ],
+          "examples": [
+            "The producer decided to extend the run by a month.",
+            "Two producers pulled out before rehearsals began.",
+            "She works as a producer for a small downtown company."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person, company, or country that grows or makes something",
+          "body": [
+            "(производитель)",
+            "---"
+          ],
+          "examples": [
+            "Iowa is the top corn producer in the country.",
+            "Small dairy producers are being squeezed out by the big ones.",
+            "The firm is the world's largest producer of lithium batteries."
+          ]
+        }
+      ],
+      "русский": "продюсер; производитель",
       "plural": "producers",
       "countability": "countable"
     },
@@ -1649,14 +1678,58 @@
       "term": "projection",
       "ipa": "/prəˈdʒɛkʃən/",
       "respell": "pruh-JEK-shuhn",
-      "meaning": "The ability to make the voice carry to the back of a hall. ---",
+      "meaning": "Projection has 3 distinct senses.",
       "examples": [
         "She has wonderful projection for such a small person.",
         "We spent the class working on projection.",
-        "Without a microphone you need real projection."
+        "Without a microphone you need real projection.",
+        "Sales fell well short of the company's projections.",
+        "The budget rests on a projection of three percent growth.",
+        "Early projections gave her a narrow lead.",
+        "Calling everyone else lazy sounds like projection to me.",
+        "The therapist explained projection with a simple example.",
+        "That accusation is pure projection."
       ],
-      "senses": [],
-      "русский": "сила голоса, посыл звука в зал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The ability to make the voice carry to the back of a hall",
+          "body": [
+            "(сила голоса, посыл звука в зал)"
+          ],
+          "examples": [
+            "She has wonderful projection for such a small person.",
+            "We spent the class working on projection.",
+            "Without a microphone you need real projection."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An estimate of what a number will be at some future point",
+          "body": [
+            "(прогноз, прогнозная оценка)"
+          ],
+          "examples": [
+            "Sales fell well short of the company's projections.",
+            "The budget rests on a projection of three percent growth.",
+            "Early projections gave her a narrow lead."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The habit of seeing your own unwanted feelings in other people instead",
+          "body": [
+            "(проекция (психол.))",
+            "---"
+          ],
+          "examples": [
+            "Calling everyone else lazy sounds like projection to me.",
+            "The therapist explained projection with a simple example.",
+            "That accusation is pure projection."
+          ]
+        }
+      ],
+      "русский": "сила голоса, посыл звука в зал; прогноз, прогнозная оценка; проекция (психол.)",
       "countability": "uncountable"
     },
     {

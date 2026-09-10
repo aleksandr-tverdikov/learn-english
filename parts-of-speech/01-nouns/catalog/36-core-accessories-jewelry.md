@@ -637,15 +637,23 @@ Amber has 2 distinct senses.
 ### turquoise
 
 **Pronunciation:** /ˈtɜːrkɔɪz/ &middot; *TUR-koyz*
-**Русский:** бирюза
+**Русский:** бирюза; бирюзовый цвет
 **Countability:** uncountable
 **Contrast:** In American English the qu is usually just a k sound: TUR-koyz.
 
-A blue-green stone used in silver jewelry.
+Turquoise has 2 distinct senses.
+
+**1. A blue-green stone used in silver jewelry.** (бирюза)
 
 1. The ring is silver with a big chunk of *turquoise*.
 2. She sells *turquoise* jewelry at the market on weekends.
 3. Real *turquoise* has dark veins running through it.
+
+**2. A greenish-blue color.** (бирюзовый цвет)
+
+4. The water in the cove was a brilliant *turquoise*.
+5. The walls were painted a soft *turquoise*.
+6. She picked *turquoise* for the bridesmaids' dresses.
 
 ---
 
@@ -876,48 +884,26 @@ A watch worn on a strap around the wrist.
 
 ---
 
-### bow
-
-**Pronunciation:** /boʊ/ &middot; *BOH*
-**Русский:** бант, бантик; лук (оружие); смычок
-**Plural:** *bows*
-**Countability:** countable
-**Contrast:** This bow rhymes with go; the bow that means bending forward rhymes with cow.
-
-Bow has 3 distinct senses.
-
-**1. A knot with two loops, tied for decoration.** (бант, бантик)
-
-1. She tied a red *bow* around the box.
-2. The dress has a *bow* at the waist.
-3. There were paper *bows* taped to every chair.
-
-**2. A curved piece of wood with a tight string, used to shoot arrows.** (лук (оружие))
-
-4. He drew the *bow* and let the arrow fly.
-5. The museum displays *bows* made by Plains hunters.
-6. She practices with a *bow* at the archery range every Saturday.
-
-**3. The thin stick with stretched hairs that is drawn across the strings of a violin or cello.** (смычок)
-
-7. She raised her *bow* and the orchestra began.
-8. A good *bow* can cost as much as the violin itself.
-9. He rubbed rosin along the *bow* before the concert.
-
----
-
 ### umbrella
 
 **Pronunciation:** /ʌmˈbrɛlə/ &middot; *um-BREL-uh*
-**Русский:** зонт
+**Русский:** зонт; зонтичная структура; общее название
 **Plural:** *umbrellas*
 **Countability:** countable
 
-A folding cloth canopy on a frame that keeps rain off you.
+Umbrella has 2 distinct senses.
+
+**1. A folding cloth canopy on a frame that keeps rain off you.** (зонт)
 
 1. Take an *umbrella*, it's supposed to rain all afternoon.
 2. The wind turned my *umbrella* inside out.
 3. There are three broken *umbrellas* by the door.
+
+**2. A single organization or term that covers many smaller groups or parts.** (зонтичная структура; общее название)
+
+4. The clinic works under the *umbrella* of the state health department.
+5. Six local clubs now meet under one *umbrella*.
+6. The phrase serves as an *umbrella* for several different conditions.
 
 ---
 

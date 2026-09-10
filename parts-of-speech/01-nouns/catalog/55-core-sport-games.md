@@ -1824,15 +1824,23 @@ The full list of players who belong to a team.
 ### touchdown
 
 **Pronunciation:** /ˈtʌtʃdaʊn/ &middot; *TUCH-down*
-**Русский:** тачдаун (занос мяча в зачётную зону)
+**Русский:** тачдаун (занос мяча в зачётную зону); приземление, касание (при посадке)
 **Plural:** *touchdowns*
 **Countability:** countable
 
-The six-point score in football, made by carrying or catching the ball in the end zone.
+Touchdown has 2 distinct senses.
+
+**1. The six-point score in football, made by carrying or catching the ball in the end zone.** (тачдаун (занос мяча в зачётную зону))
 
 1. He ran forty yards for a *touchdown*.
 2. They scored three *touchdowns* in the fourth quarter.
 3. That *touchdown* won the game.
+
+**2. The moment when an aircraft or spacecraft lands.** (приземление, касание (при посадке))
+
+4. The lander sent back photos minutes after *touchdown*.
+5. We felt a hard bump at *touchdown*.
+6. The crew announced *touchdown* at 6:15 local time.
 
 ---
 

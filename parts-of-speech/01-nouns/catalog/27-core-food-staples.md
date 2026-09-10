@@ -1826,16 +1826,24 @@ Salsa has 2 distinct senses.
 ### vegetable
 
 **Pronunciation:** /ˈvɛdʒtəbl/ &middot; *VEJ-tuh-buhl*
-**Русский:** овощ
+**Русский:** овощ; «овощ» — человек в вегетативном состоянии (оскорбительно)
 **Plural:** *vegetables*
 **Countability:** countable
 **Contrast:** Three syllables in speech — VEJ-tuh-buhl. The e after the g disappears.
 
-A plant or part of a plant eaten as food.
+Vegetable has 2 distinct senses.
+
+**1. A plant or part of a plant eaten as food.** (овощ)
 
 1. Eat your *vegetables*.
 2. The soup is mostly *vegetables*.
 3. He grows every *vegetable* he eats.
+
+**2. An offensive word for a person who has lost brain function and can no longer move or respond.** («овощ» — человек в вегетативном состоянии (оскорбительно))
+
+4. Calling a patient a *vegetable* is cruel, and most doctors refuse to do it.
+5. He was terrified that the stroke would leave him a *vegetable*.
+6. Families object when the news calls coma patients *vegetables*.
 
 ---
 

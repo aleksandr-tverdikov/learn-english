@@ -899,14 +899,43 @@
       "term": "tomorrow",
       "ipa": "/təˈmɔːroʊ/",
       "respell": "tuh-MOR-oh",
-      "meaning": "The day after today. ---",
+      "meaning": "Tomorrow has 2 distinct senses.",
       "examples": [
         "Tomorrow is supposed to be sunny.",
         "Let's finish this tomorrow.",
-        "Tomorrow never seems to come."
+        "Tomorrow never seems to come.",
+        "These students are the leaders of tomorrow.",
+        "The whole exhibit was about the city of tomorrow.",
+        "He spends money like there's no tomorrow."
       ],
-      "senses": [],
-      "русский": "завтрашний день",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The day after today",
+          "body": [
+            "(завтрашний день)"
+          ],
+          "examples": [
+            "Tomorrow is supposed to be sunny.",
+            "Let's finish this tomorrow.",
+            "Tomorrow never seems to come."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The future",
+          "body": [
+            "(будущее)",
+            "---"
+          ],
+          "examples": [
+            "These students are the leaders of tomorrow.",
+            "The whole exhibit was about the city of tomorrow.",
+            "He spends money like there's no tomorrow."
+          ]
+        }
+      ],
+      "русский": "завтрашний день; будущее",
       "countability": "uncountable"
     },
     {

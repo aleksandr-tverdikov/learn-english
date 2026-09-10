@@ -580,16 +580,24 @@ Dresser has 2 distinct senses.
 ### wardrobe
 
 **Pronunciation:** /ˈwɔːrdroʊb/ &middot; *WOR-drohb*
-**Русский:** платяной шкаф; гардероб
+**Русский:** платяной шкаф; гардероб; гардероб (вся одежда человека)
 **Plural:** *wardrobes*
 **Countability:** countable
 **Contrast:** In the US a *wardrobe* is a freestanding piece of furniture; built-in storage in the wall is a *closet*.
 
-A tall freestanding cupboard for hanging clothes.
+Wardrobe has 2 distinct senses.
+
+**1. A tall freestanding cupboard for hanging clothes.** (платяной шкаф; гардероб)
 
 1. The old house has no closets, just a *wardrobe* in each room.
 2. They hauled the *wardrobe* up two flights of stairs.
 3. Antique *wardrobes* barely fit through modern doorways.
+
+**2. All the clothes that one person owns.** (гардероб (вся одежда человека))
+
+4. She got rid of half her *wardrobe* before the move.
+5. A good coat is worth the money even if the rest of your *wardrobe* is cheap.
+6. He built his whole work *wardrobe* around two gray suits.
 
 ---
 

@@ -155,14 +155,43 @@
       "term": "parasite",
       "ipa": "/ˈpɛrəsaɪt/",
       "respell": "PEHR-uh-syt",
-      "meaning": "An organism that lives on or in another creature and feeds off it. ---",
+      "meaning": "Parasite has 2 distinct senses.",
       "examples": [
         "A tapeworm is a parasite that lives in the gut.",
         "The vet tested the puppy for parasites.",
-        "Some wasps lay eggs inside caterpillars and live as parasites."
+        "Some wasps lay eggs inside caterpillars and live as parasites.",
+        "He called his brother-in-law a parasite living off the family.",
+        "The article painted the whole board as parasites.",
+        "He'd work two jobs before he'd feel like a parasite."
       ],
-      "senses": [],
-      "русский": "паразит",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organism that lives on or in another creature and feeds off it",
+          "body": [
+            "(паразит)"
+          ],
+          "examples": [
+            "A tapeworm is a parasite that lives in the gut.",
+            "The vet tested the puppy for parasites.",
+            "Some wasps lay eggs inside caterpillars and live as parasites."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who lives off other people and gives nothing back",
+          "body": [
+            "(паразит, тунеядец)",
+            "---"
+          ],
+          "examples": [
+            "He called his brother-in-law a parasite living off the family.",
+            "The article painted the whole board as parasites.",
+            "He'd work two jobs before he'd feel like a parasite."
+          ]
+        }
+      ],
+      "русский": "паразит; паразит, тунеядец",
       "plural": "parasites",
       "countability": "countable"
     },

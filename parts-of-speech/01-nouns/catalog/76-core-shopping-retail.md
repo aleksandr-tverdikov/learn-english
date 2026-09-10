@@ -1548,15 +1548,23 @@ The name a manufacturer gives its product line.
 ### trademark
 
 **Pronunciation:** /ˈtreɪdmɑːrk/ &middot; *TRAYD-mark*
-**Русский:** товарный знак
+**Русский:** товарный знак; фирменная черта, отличительный признак
 **Plural:** *trademarks*
 **Countability:** countable
 
-A name or symbol legally registered to one company.
+Trademark has 2 distinct senses.
+
+**1. A name or symbol legally registered to one company.** (товарный знак)
 
 1. The name is a registered *trademark*.
 2. They own *trademarks* in a dozen countries.
 3. Using that *trademark* got the shop a letter from a lawyer.
+
+**2. A habit, feature, or style so typical of one person or group that everyone recognizes it.** (фирменная черта, отличительный признак)
+
+4. That sly grin was his *trademark*.
+5. Long guitar solos became the band's *trademark*.
+6. Showing up ten minutes late is her *trademark*.
 
 ---
 

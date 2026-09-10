@@ -2212,22 +2212,6 @@ The first letter of the Greek alphabet, often used to mean the first or the stro
 
 ---
 
-### alum
-
-**Pronunciation:** /əˈlʌm/ &middot; *uh-LUM*
-**Русский:** выпускник, выпускница (разг.)
-**Plural:** *alums*
-**Countability:** countable
-**Contrast:** Spelled like the chemical *alum* /ˈæləm/ (AL-uhm, квасцы), but stressed on the second syllable when it means a graduate.
-
-An informal short word for a graduate of a school or a former member of an organization.
-
-1. She's an *alum* of the same high school as my brother.
-2. The company hires a lot of *alums* from that program.
-3. Two *alums* came back to coach the team.
-
----
-
 ### amalgam
 
 **Pronunciation:** /əˈmælɡəm/ &middot; *uh-MAL-guhm*

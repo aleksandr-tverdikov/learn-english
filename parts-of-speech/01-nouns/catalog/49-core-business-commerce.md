@@ -1201,14 +1201,22 @@ Anyone with an interest in how a business or project turns out.
 ### ownership
 
 **Pronunciation:** /ˈoʊnərʃɪp/ &middot; *OH-nur-ship*
-**Русский:** право собственности, владение
+**Русский:** право собственности, владение; ответственность (за задачу, за проблему)
 **Countability:** uncountable
 
-The fact of owning something, or who owns it.
+Ownership has 2 distinct senses.
+
+**1. The fact of owning something, or who owns it.** (право собственности, владение)
 
 1. *Ownership* of the building changed twice.
 2. The restaurant is under new *ownership*.
 3. Employee *ownership* keeps people from leaving.
+
+**2. Responsibility that a person willingly takes on for a task or a problem.** (ответственность (за задачу, за проблему))
+
+4. Somebody needs to take *ownership* of this bug.
+5. She showed real *ownership* of the project from her first week.
+6. The manager keeps asking for more *ownership* from her team.
 
 ---
 
@@ -2024,15 +2032,29 @@ Something you are required to do, especially under a contract.
 ### provision
 
 **Pronunciation:** /prəˈvɪʒən/ &middot; *pruh-VIZH-un*
-**Русский:** положение, условие (договора)
+**Русский:** положение, условие (договора); провизия, припасы; предоставление, обеспечение
 **Plural:** *provisions*
 **Countability:** countable
 
-A particular condition written into a contract or a law.
+Provision has 3 distinct senses.
+
+**1. A particular condition written into a contract or a law.** (положение, условие (договора))
 
 1. One *provision* lets either side walk away.
 2. The *provisions* on late payment are on page four.
 3. They added a *provision* about overtime.
+
+**2. Food and other supplies gathered for a trip or a stay.** (провизия, припасы)
+
+4. We loaded the canoe with *provisions* for five days.
+5. The lighthouse keeper got *provisions* once a month.
+6. They ran short of *provisions* halfway through the trek.
+
+**3. The act of supplying something that people need.** (предоставление, обеспечение)
+
+7. The law deals with the *provision* of clean drinking water.
+8. The city is responsible for the *provision* of trash collection.
+9. Federal money covers the *provision* of free school lunches.
 
 ---
 
@@ -2259,15 +2281,23 @@ The sending of a customer to a business, or the customer sent that way.
 ### prospect
 
 **Pronunciation:** /ˈprɑːspɛkt/ &middot; *PRAH-spekt*
-**Русский:** потенциальный клиент; перспектива
+**Русский:** потенциальный клиент; перспектива; перспективный игрок, талант
 **Plural:** *prospects*
 **Countability:** countable
 
-A possible customer, or a chance that something good will happen.
+Prospect has 2 distinct senses.
+
+**1. A possible customer, or a chance that something good will happen.** (потенциальный клиент; перспектива)
 
 1. The salesman had forty *prospects* on his list.
 2. She's a serious *prospect*, not just a browser.
 3. The *prospects* for a deal look better this week.
+
+**2. A young player expected to become very good.** (перспективный игрок, талант)
+
+4. He was the team's top pitching *prospect* two years ago.
+5. Scouts rank her among the best *prospects* in the state.
+6. The trade brought back two *prospects* and a draft pick.
 
 ---
 

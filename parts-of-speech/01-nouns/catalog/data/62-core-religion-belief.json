@@ -2903,14 +2903,43 @@
       "term": "purgatory",
       "ipa": "/ˈpɜːrɡətɔːri/",
       "respell": "PUR-guh-taw-ree",
-      "meaning": "In Catholic belief, a place where souls are cleansed before heaven. ---",
+      "meaning": "Purgatory has 2 distinct senses.",
       "examples": [
         "Catholic teaching describes purgatory as temporary.",
         "The airport at midnight felt like purgatory.",
-        "Souls in purgatory are prayed for by the living."
+        "Souls in purgatory are prayed for by the living.",
+        "We spent four hours in airport purgatory waiting out the storm.",
+        "The bill sat in committee purgatory for two years.",
+        "Being on hold with the insurance company is my idea of purgatory."
       ],
-      "senses": [],
-      "русский": "чистилище",
+      "senses": [
+        {
+          "n": "1",
+          "head": "In Catholic belief, a place where souls are cleansed before heaven",
+          "body": [
+            "(чистилище)"
+          ],
+          "examples": [
+            "Catholic teaching describes purgatory as temporary.",
+            "The airport at midnight felt like purgatory.",
+            "Souls in purgatory are prayed for by the living."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A miserable state of waiting or suffering that seems to have no end",
+          "body": [
+            "(мучительное ожидание, сущий ад (перен.))",
+            "---"
+          ],
+          "examples": [
+            "We spent four hours in airport purgatory waiting out the storm.",
+            "The bill sat in committee purgatory for two years.",
+            "Being on hold with the insurance company is my idea of purgatory."
+          ]
+        }
+      ],
+      "русский": "чистилище; мучительное ожидание, сущий ад (перен.)",
       "countability": "uncountable"
     },
     {

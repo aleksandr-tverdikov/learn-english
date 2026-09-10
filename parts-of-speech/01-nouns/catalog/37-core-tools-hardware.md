@@ -1060,15 +1060,23 @@ A sturdy table where tools are used and things are built.
 ### workshop
 
 **Pronunciation:** /ˈwɜːrkʃɑːp/ &middot; *WURK-shahp*
-**Русский:** мастерская
+**Русский:** мастерская; семинар-практикум, мастер-класс
 **Plural:** *workshops*
 **Countability:** countable
 
-A room or building where things are made and repaired with tools.
+Workshop has 2 distinct senses.
+
+**1. A room or building where things are made and repaired with tools.** (мастерская)
 
 1. His *workshop* is out behind the garage.
 2. The *workshop* smells like sawdust.
 3. They rent *workshops* to local woodworkers.
+
+**2. A short class in which a small group practices a skill together.** (семинар-практикум, мастер-класс)
+
+4. She's teaching a two-day *workshop* on résumé writing.
+5. I signed up for a pottery *workshop* at the community center.
+6. Fifteen people came to the first *workshop* and only six to the second.
 
 ---
 

@@ -1653,14 +1653,43 @@
       "term": "predator",
       "ipa": "/ˈprɛdətər/",
       "respell": "PRED-uh-tur",
-      "meaning": "An animal that hunts and eats other animals. ---",
+      "meaning": "Predator has 2 distinct senses.",
       "examples": [
         "Wolves are the main predator here.",
         "Deer freeze the moment they sense a predator.",
-        "The island has almost no predators."
+        "The island has almost no predators.",
+        "The article described him as a predator who targeted teenage girls.",
+        "Payday lenders have been called financial predators.",
+        "Parents worry about online predators in gaming chats."
       ],
-      "senses": [],
-      "русский": "хищник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An animal that hunts and eats other animals",
+          "body": [
+            "(хищник)"
+          ],
+          "examples": [
+            "Wolves are the main predator here.",
+            "Deer freeze the moment they sense a predator.",
+            "The island has almost no predators."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who takes advantage of others in a harmful way, especially sexually or financially",
+          "body": [
+            "(хищник (о человеке), растлитель)",
+            "---"
+          ],
+          "examples": [
+            "The article described him as a predator who targeted teenage girls.",
+            "Payday lenders have been called financial predators.",
+            "Parents worry about online predators in gaming chats."
+          ]
+        }
+      ],
+      "русский": "хищник; хищник (о человеке), растлитель",
       "plural": "predators",
       "countability": "countable"
     },

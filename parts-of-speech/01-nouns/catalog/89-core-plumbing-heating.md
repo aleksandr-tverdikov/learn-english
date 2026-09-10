@@ -1295,16 +1295,24 @@ How clean and healthy the air in a place is.
 ### overflow
 
 **Pronunciation:** /ˈoʊvərfloʊ/ &middot; *OH-vur-floh*
-**Русский:** перелив; переполнение
+**Русский:** перелив; переполнение; избыток, не поместившиеся (люди, вещи)
 **Plural:** *overflows*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable, OH-vur-floh; the verb is oh-vur-FLOH.
 
-An opening or pipe that carries away water when a basin gets too full.
+Overflow has 2 distinct senses.
+
+**1. An opening or pipe that carries away water when a basin gets too full.** (перелив; переполнение)
 
 1. Water runs out the *overflow* before the sink can spill.
 2. The *overflow* on the tub was plugged with soap.
 3. Both sinks have *overflows* near the rim.
+
+**2. The people or things left over because a space cannot hold them all.** (избыток, не поместившиеся (люди, вещи))
+
+4. The church seated the *overflow* in the basement and piped in the sound.
+5. An *overflow* crowd watched the game from the parking lot.
+6. We rented a second van for the *overflow*.
 
 ---
 

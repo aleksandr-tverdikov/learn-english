@@ -78,15 +78,29 @@ The act of breaking into computer systems without permission.
 ### provider
 
 **Pronunciation:** /prəˈvaɪdər/ &middot; *pruh-VY-dur*
-**Русский:** провайдер, поставщик услуг
+**Русский:** провайдер, поставщик услуг; поставщик медицинских услуг, лечащий специалист; кормилец
 **Plural:** *providers*
 **Countability:** countable
 
-A company that sells internet or phone service.
+Provider has 3 distinct senses.
+
+**1. A company that sells internet or phone service.** (провайдер, поставщик услуг)
 
 1. We switched *providers* to save thirty dollars a month.
 2. My internet *provider* raised the price again.
 3. There's only one *provider* in this whole town.
+
+**2. A doctor, nurse, or clinic that gives medical care.** (поставщик медицинских услуг, лечащий специалист)
+
+4. Check that the clinic is in your network before choosing a *provider*.
+5. Your primary care *provider* can refer you to a specialist.
+6. Rural counties keep losing health care *providers*.
+
+**3. Someone who earns the money that supports a family.** (кормилец)
+
+7. He was a steady *provider* who never missed a day of work.
+8. After the layoff she became the family's only *provider*.
+9. In their parents' generation the husband was expected to be the *provider*.
 
 ---
 

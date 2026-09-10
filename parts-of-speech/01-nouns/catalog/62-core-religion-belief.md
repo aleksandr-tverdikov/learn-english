@@ -2183,14 +2183,22 @@ Speech that shows disrespect for God or sacred things.
 ### purgatory
 
 **Pronunciation:** /ˈpɜːrɡətɔːri/ &middot; *PUR-guh-taw-ree*
-**Русский:** чистилище
+**Русский:** чистилище; мучительное ожидание, сущий ад (перен.)
 **Countability:** uncountable
 
-In Catholic belief, a place where souls are cleansed before heaven.
+Purgatory has 2 distinct senses.
+
+**1. In Catholic belief, a place where souls are cleansed before heaven.** (чистилище)
 
 1. Catholic teaching describes *purgatory* as temporary.
 2. The airport at midnight felt like *purgatory*.
 3. Souls in *purgatory* are prayed for by the living.
+
+**2. A miserable state of waiting or suffering that seems to have no end.** (мучительное ожидание, сущий ад (перен.))
+
+4. We spent four hours in airport *purgatory* waiting out the storm.
+5. The bill sat in committee *purgatory* for two years.
+6. Being on hold with the insurance company is my idea of *purgatory*.
 
 ---
 

@@ -1445,14 +1445,43 @@
       "term": "parchment",
       "ipa": "/ˈpɑːrtʃmənt/",
       "respell": "PARCH-munt",
-      "meaning": "Heat-resistant paper used to line baking pans. ---",
+      "meaning": "Parchment has 2 distinct senses.",
       "examples": [
         "Line the sheet pan with parchment.",
         "The cookies won't stick if you use parchment.",
-        "One roll of parchment lasts me a year."
+        "One roll of parchment lasts me a year.",
+        "The museum keeps the treaty, written on parchment, in a sealed case.",
+        "Monks copied whole books onto parchment by hand.",
+        "The old deed was inked on parchment that had gone brown at the edges."
       ],
-      "senses": [],
-      "русский": "пергамент, пергаментная бумага для выпечки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Heat-resistant paper used to line baking pans",
+          "body": [
+            "(пергамент, пергаментная бумага для выпечки)"
+          ],
+          "examples": [
+            "Line the sheet pan with parchment.",
+            "The cookies won't stick if you use parchment.",
+            "One roll of parchment lasts me a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A writing material made from prepared animal skin, used for documents before paper",
+          "body": [
+            "(пергамент (материал для письма))",
+            "---"
+          ],
+          "examples": [
+            "The museum keeps the treaty, written on parchment, in a sealed case.",
+            "Monks copied whole books onto parchment by hand.",
+            "The old deed was inked on parchment that had gone brown at the edges."
+          ]
+        }
+      ],
+      "русский": "пергамент, пергаментная бумага для выпечки; пергамент (материал для письма)",
       "countability": "uncountable"
     },
     {

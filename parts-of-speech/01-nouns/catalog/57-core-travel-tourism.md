@@ -165,14 +165,22 @@ The moment when a plane leaves the ground.
 ### turbulence
 
 **Pronunciation:** /ˈtɜːrbjələns/ &middot; *TUR-byuh-luhns*
-**Русский:** турбулентность
+**Русский:** турбулентность; потрясения, нестабильность
 **Countability:** uncountable
 
-Rough air that shakes a plane during flight.
+Turbulence has 2 distinct senses.
+
+**1. Rough air that shakes a plane during flight.** (турбулентность)
 
 1. We hit some *turbulence* over the mountains.
 2. The *turbulence* lasted about ten minutes.
 3. She's a nervous flyer, so any *turbulence* upsets her.
+
+**2. A period of confusion, conflict, or sudden change in a situation.** (потрясения, нестабильность)
+
+4. The company survived a year of financial *turbulence*.
+5. There was real political *turbulence* after the vote.
+6. The family went through some *turbulence* after the move.
 
 ---
 
@@ -427,16 +435,24 @@ Baggage has 2 distinct senses.
 ### passport
 
 **Pronunciation:** /ˈpæspɔːrt/ &middot; *PAS-port*
-**Русский:** загранпаспорт
+**Русский:** загранпаспорт; путь, пропуск (к чему-либо)
 **Plural:** *passports*
 **Countability:** countable
 **Contrast:** An American passport is for foreign travel; the domestic ID Russians call паспорт has no US equivalent.
 
-An official document that proves your nationality and lets you travel abroad.
+Passport has 2 distinct senses.
+
+**1. An official document that proves your nationality and lets you travel abroad.** (загранпаспорт)
 
 1. My *passport* expires next spring.
 2. Have your *passports* out for the officer.
 3. He renewed his *passport* just in time.
+
+**2. Something that gives a person access to a better position or opportunity.** (путь, пропуск (к чему-либо))
+
+4. A degree is no longer a *passport* to a good job.
+5. The scholarship was her *passport* out of the mill town.
+6. Solid English is a *passport* to work almost anywhere.
 
 ---
 

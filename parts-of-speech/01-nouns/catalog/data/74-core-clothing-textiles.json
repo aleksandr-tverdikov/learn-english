@@ -1531,14 +1531,43 @@
       "term": "patchwork",
       "ipa": "/ˈpætʃwɜːrk/",
       "respell": "PATCH-wurk",
-      "meaning": "Sewing that joins small pieces of different fabrics into one cloth. ---",
+      "meaning": "Patchwork has 2 distinct senses.",
       "examples": [
         "The quilt is patchwork in reds and blues.",
         "She makes bags out of patchwork.",
-        "Patchwork uses up every last scrap."
+        "Patchwork uses up every last scrap.",
+        "State privacy rules are a patchwork that changes at every border.",
+        "From the plane the farmland was a patchwork of green and brown.",
+        "His coverage is a patchwork of three different plans."
       ],
-      "senses": [],
-      "русский": "лоскутное шитьё",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sewing that joins small pieces of different fabrics into one cloth",
+          "body": [
+            "(лоскутное шитьё)"
+          ],
+          "examples": [
+            "The quilt is patchwork in reds and blues.",
+            "She makes bags out of patchwork.",
+            "Patchwork uses up every last scrap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thing made up of many different parts that do not fit together neatly",
+          "body": [
+            "(мозаика, пёстрая смесь)",
+            "---"
+          ],
+          "examples": [
+            "State privacy rules are a patchwork that changes at every border.",
+            "From the plane the farmland was a patchwork of green and brown.",
+            "His coverage is a patchwork of three different plans."
+          ]
+        }
+      ],
+      "русский": "лоскутное шитьё; мозаика, пёстрая смесь",
       "countability": "uncountable"
     },
     {

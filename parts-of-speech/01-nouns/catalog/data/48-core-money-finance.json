@@ -333,14 +333,58 @@
       "term": "withdrawal",
       "ipa": "/wɪðˈdrɔːəl/",
       "respell": "with-DRAW-uhl",
-      "meaning": "An act of taking money out of a bank account. ---",
+      "meaning": "Withdrawal has 3 distinct senses.",
       "examples": [
         "There's a limit on daily withdrawals.",
         "The withdrawal showed up on my statement.",
-        "She made a large withdrawal on Friday afternoon."
+        "She made a large withdrawal on Friday afternoon.",
+        "The withdrawal of American troops took eighteen months.",
+        "His withdrawal from the race surprised everyone at the party.",
+        "The company announced its withdrawal from the European market.",
+        "He spent three days in withdrawal before the worst of it passed.",
+        "Caffeine withdrawal gave her a headache for most of a week.",
+        "The clinic treats withdrawal with medication and counseling."
       ],
-      "senses": [],
-      "русский": "снятие денег со счёта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of taking money out of a bank account",
+          "body": [
+            "(снятие денег со счёта)"
+          ],
+          "examples": [
+            "There's a limit on daily withdrawals.",
+            "The withdrawal showed up on my statement.",
+            "She made a large withdrawal on Friday afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of pulling out of a place or taking something back, especially of troops leaving a country",
+          "body": [
+            "(вывод (войск); отказ от участия, отзыв)"
+          ],
+          "examples": [
+            "The withdrawal of American troops took eighteen months.",
+            "His withdrawal from the race surprised everyone at the party.",
+            "The company announced its withdrawal from the European market."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The sick, shaky period a person goes through after quitting a drug the body has come to depend on",
+          "body": [
+            "(синдром отмены, ломка)",
+            "---"
+          ],
+          "examples": [
+            "He spent three days in withdrawal before the worst of it passed.",
+            "Caffeine withdrawal gave her a headache for most of a week.",
+            "The clinic treats withdrawal with medication and counseling."
+          ]
+        }
+      ],
+      "русский": "снятие денег со счёта; вывод (войск); отказ от участия, отзыв; синдром отмены, ломка",
       "plural": "withdrawals",
       "countability": "countable"
     },
@@ -407,14 +451,58 @@
       "term": "transfer",
       "ipa": "/ˈtrænsfɜːr/",
       "respell": "TRANS-fur",
-      "meaning": "A movement of money from one account to another. ---",
+      "meaning": "Transfer has 3 distinct senses.",
       "examples": [
         "The wire transfer takes two business days.",
         "I set up an automatic transfer to savings.",
-        "International transfers cost extra."
+        "International transfers cost extra.",
+        "He put in for a transfer to the Denver office.",
+        "Her transfer to the day shift comes through in March.",
+        "Two of the team's starters asked for transfers.",
+        "Ask the driver for a transfer when you get on.",
+        "My transfer expired before the second bus showed up.",
+        "One fare includes two free transfers."
       ],
-      "senses": [],
-      "русский": "перевод (денег)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A movement of money from one account to another",
+          "body": [
+            "(перевод (денег))"
+          ],
+          "examples": [
+            "The wire transfer takes two business days.",
+            "I set up an automatic transfer to savings.",
+            "International transfers cost extra."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A move of a person from one place, job, school, or team to another",
+          "body": [
+            "(перевод (на другую работу, в другую школу, в другой клуб))"
+          ],
+          "examples": [
+            "He put in for a transfer to the Denver office.",
+            "Her transfer to the day shift comes through in March.",
+            "Two of the team's starters asked for transfers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A ticket that lets a passenger change to another bus or train without paying again",
+          "body": [
+            "(пересадочный билет)",
+            "---"
+          ],
+          "examples": [
+            "Ask the driver for a transfer when you get on.",
+            "My transfer expired before the second bus showed up.",
+            "One fare includes two free transfers."
+          ]
+        }
+      ],
+      "русский": "перевод (денег); перевод (на другую работу, в другую школу, в другой клуб); пересадочный билет",
       "plural": "transfers",
       "countability": "countable",
       "contrast": "Noun stress falls on the first syllable (TRANS-fer); the verb stresses the second (trans-FER)."
@@ -1151,14 +1239,43 @@
       "term": "principal",
       "ipa": "/ˈprɪnsəpəl/",
       "respell": "PRIN-suh-puhl",
-      "meaning": "The original amount of a loan, apart from the interest on it. ---",
+      "meaning": "Principal has 2 distinct senses.",
       "examples": [
         "Most of the early payments go to interest, not principal.",
         "She put an extra hundred a month toward the principal.",
-        "The principal on the loan is still forty thousand."
+        "The principal on the loan is still forty thousand.",
+        "The principal called my parents about the fight.",
+        "She has been the principal at Lincoln Elementary for nine years.",
+        "Two principals from the district came to the board meeting."
       ],
-      "senses": [],
-      "русский": "основная сумма долга",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The original amount of a loan, apart from the interest on it",
+          "body": [
+            "(основная сумма долга)"
+          ],
+          "examples": [
+            "Most of the early payments go to interest, not principal.",
+            "She put an extra hundred a month toward the principal.",
+            "The principal on the loan is still forty thousand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person in charge of a school",
+          "body": [
+            "(директор школы)",
+            "---"
+          ],
+          "examples": [
+            "The principal called my parents about the fight.",
+            "She has been the principal at Lincoln Elementary for nine years.",
+            "Two principals from the district came to the board meeting."
+          ]
+        }
+      ],
+      "русский": "основная сумма долга; директор школы",
       "countability": "uncountable",
       "contrast": "Sounds exactly like principle, a rule; the money sense is spelled principal."
     },
@@ -2986,14 +3103,43 @@
       "term": "purchase",
       "ipa": "/ˈpɜːrtʃəs/",
       "respell": "PUR-chuhs",
-      "meaning": "Something bought, or the act of buying it. ---",
+      "meaning": "Purchase has 2 distinct senses.",
       "examples": [
         "It was an impulse purchase.",
         "Keep receipts for all major purchases.",
-        "The purchase went through this morning."
+        "The purchase went through this morning.",
+        "The ladder could not get any purchase on the icy step.",
+        "He grabbed the branch, lost his purchase, and slid down.",
+        "New tires give the truck better purchase in mud."
       ],
-      "senses": [],
-      "русский": "покупка, приобретение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something bought, or the act of buying it",
+          "body": [
+            "(покупка, приобретение)"
+          ],
+          "examples": [
+            "It was an impulse purchase.",
+            "Keep receipts for all major purchases.",
+            "The purchase went through this morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A firm grip or foothold that keeps something from slipping",
+          "body": [
+            "(точка опоры, сцепление, зацеп)",
+            "---"
+          ],
+          "examples": [
+            "The ladder could not get any purchase on the icy step.",
+            "He grabbed the branch, lost his purchase, and slid down.",
+            "New tires give the truck better purchase in mud."
+          ]
+        }
+      ],
+      "русский": "покупка, приобретение; точка опоры, сцепление, зацеп",
       "plural": "purchases",
       "countability": "countable"
     },
@@ -3477,14 +3623,58 @@
       "term": "turnover",
       "ipa": "/ˈtɜːrnoʊvər/",
       "respell": "TUR-noh-vur",
-      "meaning": "The rate at which employees leave and are replaced, or the money a business takes in. ---",
+      "meaning": "Turnover has 3 distinct senses.",
       "examples": [
         "Turnover in that department is brutal.",
         "High turnover costs more than people think.",
-        "They cut turnover by raising starting pay."
+        "They cut turnover by raising starting pay.",
+        "She warmed up an apple turnover for breakfast.",
+        "The bakery makes a good peach turnover in the summer.",
+        "He ate half a cherry turnover and left the rest.",
+        "The defense forced a turnover on the very first drive.",
+        "That turnover in the fourth quarter cost them the game.",
+        "He scored sixteen points with only one turnover."
       ],
-      "senses": [],
-      "русский": "текучка кадров; оборот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The rate at which employees leave and are replaced, or the money a business takes in",
+          "body": [
+            "(текучка кадров; оборот)"
+          ],
+          "examples": [
+            "Turnover in that department is brutal.",
+            "High turnover costs more than people think.",
+            "They cut turnover by raising starting pay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small folded pastry with fruit sealed inside",
+          "body": [
+            "(слоёный пирожок с начинкой)"
+          ],
+          "examples": [
+            "She warmed up an apple turnover for breakfast.",
+            "The bakery makes a good peach turnover in the summer.",
+            "He ate half a cherry turnover and left the rest."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A play in which a team loses the ball to the other side",
+          "body": [
+            "(потеря мяча (в игре))",
+            "---"
+          ],
+          "examples": [
+            "The defense forced a turnover on the very first drive.",
+            "That turnover in the fourth quarter cost them the game.",
+            "He scored sixteen points with only one turnover."
+          ]
+        }
+      ],
+      "русский": "текучка кадров; оборот; слоёный пирожок с начинкой; потеря мяча (в игре)",
       "countability": "uncountable",
       "contrast": "In American business English turnover usually means staff churn; the British use it for sales revenue."
     },

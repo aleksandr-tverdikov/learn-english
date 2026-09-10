@@ -728,14 +728,22 @@ This present day.
 ### tomorrow
 
 **Pronunciation:** /təˈmɔːroʊ/ &middot; *tuh-MOR-oh*
-**Русский:** завтрашний день
+**Русский:** завтрашний день; будущее
 **Countability:** uncountable
 
-The day after today.
+Tomorrow has 2 distinct senses.
+
+**1. The day after today.** (завтрашний день)
 
 1. *Tomorrow* is supposed to be sunny.
 2. Let's finish this *tomorrow*.
 3. *Tomorrow* never seems to come.
+
+**2. The future.** (будущее)
+
+4. These students are the leaders of *tomorrow*.
+5. The whole exhibit was about the city of *tomorrow*.
+6. He spends money like there's no *tomorrow*.
 
 ---
 

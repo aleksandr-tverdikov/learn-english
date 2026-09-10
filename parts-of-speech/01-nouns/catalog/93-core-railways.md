@@ -1726,15 +1726,23 @@ The electric line strung above the track that a train draws power from.
 ### pantograph
 
 **Pronunciation:** /ˈpæntəɡræf/ &middot; *PAN-tuh-graf*
-**Русский:** токоприёмник
+**Русский:** токоприёмник; пантограф (прибор для копирования чертежей)
 **Plural:** *pantographs*
 **Countability:** countable
 
-The hinged arm on the roof of an electric train that touches the overhead wire.
+Pantograph has 2 distinct senses.
+
+**1. The hinged arm on the roof of an electric train that touches the overhead wire.** (токоприёмник)
 
 1. The *pantograph* slid up against the wire with a spark.
 2. Both *pantographs* are lowered before the train enters the shed.
 3. A bent *pantograph* stopped service for an hour.
+
+**2. An instrument of hinged rods that copies a drawing at a larger or smaller scale.** (пантограф (прибор для копирования чертежей))
+
+4. He used a *pantograph* to enlarge the sketch onto the wall.
+5. The trophy shop still engraves plates with an old *pantograph*.
+6. A *pantograph* traces the shape and redraws it at whatever size you set.
 
 ---
 
@@ -1860,15 +1868,23 @@ A circular engine shed built around a turntable.
 ### turntable
 
 **Pronunciation:** /ˈtɜːrnˌteɪbəl/ &middot; *TURN-tay-buhl*
-**Русский:** поворотный круг
+**Русский:** поворотный круг; проигрыватель винила, вертушка
 **Plural:** *turntables*
 **Countability:** countable
 
-A rotating platform used to turn a locomotive around.
+Turntable has 2 distinct senses.
+
+**1. A rotating platform used to turn a locomotive around.** (поворотный круг)
 
 1. They ran the engine onto the *turntable* and swung it around.
 2. The *turntable* still works after ninety years.
 3. Two men could turn the *turntable* by hand.
+
+**2. The flat spinning platform of a record player, or the player itself.** (проигрыватель винила, вертушка)
+
+4. He set the needle down gently on the *turntable*.
+5. She bought a *turntable* and started collecting records again.
+6. The DJ worked two *turntables* and a mixer.
 
 ---
 

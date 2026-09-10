@@ -962,14 +962,22 @@ Foil has 3 distinct senses.
 ### parchment
 
 **Pronunciation:** /ˈpɑːrtʃmənt/ &middot; *PARCH-munt*
-**Русский:** пергамент, пергаментная бумага для выпечки
+**Русский:** пергамент, пергаментная бумага для выпечки; пергамент (материал для письма)
 **Countability:** uncountable
 
-Heat-resistant paper used to line baking pans.
+Parchment has 2 distinct senses.
+
+**1. Heat-resistant paper used to line baking pans.** (пергамент, пергаментная бумага для выпечки)
 
 1. Line the sheet pan with *parchment*.
 2. The cookies won't stick if you use *parchment*.
 3. One roll of *parchment* lasts me a year.
+
+**2. A writing material made from prepared animal skin, used for documents before paper.** (пергамент (материал для письма))
+
+4. The museum keeps the treaty, written on *parchment*, in a sealed case.
+5. Monks copied whole books onto *parchment* by hand.
+6. The old deed was inked on *parchment* that had gone brown at the edges.
 
 ---
 

@@ -707,15 +707,23 @@ A particle with no electric charge found in the center of an atom.
 ### particle
 
 **Pronunciation:** /ˈpɑːrtɪkəl/ &middot; *PAHR-tih-kuhl*
-**Русский:** частица
+**Русский:** частица; частица (грамматическая)
 **Plural:** *particles*
 **Countability:** countable
 
-An extremely small piece of matter.
+Particle has 2 distinct senses.
+
+**1. An extremely small piece of matter.** (частица)
 
 1. Dust *particles* floated in the sunlight.
 2. The filter traps any *particle* larger than a micron.
 3. Physicists study how one *particle* hits another.
+
+**2. A short function word, such as 'up' or 'to', that does grammatical work but carries little meaning alone.** (частица (грамматическая))
+
+4. In 'give up', the word 'up' is a *particle*, not a preposition.
+5. The *particle* 'to' marks the infinitive.
+6. A phrasal verb is a verb plus a *particle*.
 
 ---
 
@@ -1675,15 +1683,23 @@ A planned way of doing something.
 ### procedure
 
 **Pronunciation:** /prəˈsiːdʒər/ &middot; *pruh-SEE-jur*
-**Русский:** процедура, методика
+**Русский:** процедура, методика; медицинская процедура, вмешательство
 **Plural:** *procedures*
 **Countability:** countable
 
-The set of steps you follow to do something correctly.
+Procedure has 2 distinct senses.
+
+**1. The set of steps you follow to do something correctly.** (процедура, методика)
 
 1. Follow the safety *procedure* exactly.
 2. The whole *procedure* takes about twenty minutes.
 3. Lab *procedures* are posted on the wall.
+
+**2. A medical operation or treatment.** (медицинская процедура, вмешательство)
+
+4. She is having a minor *procedure* on Thursday.
+5. The *procedure* takes an hour and needs no overnight stay.
+6. Insurance covers most outpatient *procedures*.
 
 ---
 

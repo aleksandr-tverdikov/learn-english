@@ -110,14 +110,43 @@
       "term": "qualifier",
       "ipa": "/ˈkwɑːləfaɪər/",
       "respell": "KWAH-luh-fy-ur",
-      "meaning": "A game or round that decides who advances to the main competition. ---",
+      "meaning": "Qualifier has 2 distinct senses.",
       "examples": [
         "The team won its World Cup qualifier on Tuesday.",
         "She lost in the qualifiers and missed the main draw.",
-        "Only the top two finishers in the qualifier move on."
+        "Only the top two finishers in the qualifier move on.",
+        "He agreed, but with the qualifier that the price could change.",
+        "Words like usually and mostly are qualifiers.",
+        "Notice the qualifier in her answer: she said probably."
       ],
-      "senses": [],
-      "русский": "отборочный матч, квалификация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A game or round that decides who advances to the main competition",
+          "body": [
+            "(отборочный матч, квалификация)"
+          ],
+          "examples": [
+            "The team won its World Cup qualifier on Tuesday.",
+            "She lost in the qualifiers and missed the main draw.",
+            "Only the top two finishers in the qualifier move on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word or remark added to limit what has just been said",
+          "body": [
+            "(оговорка; уточняющее слово)",
+            "---"
+          ],
+          "examples": [
+            "He agreed, but with the qualifier that the price could change.",
+            "Words like usually and mostly are qualifiers.",
+            "Notice the qualifier in her answer: she said probably."
+          ]
+        }
+      ],
+      "русский": "отборочный матч, квалификация; оговорка; уточняющее слово",
       "plural": "qualifiers",
       "countability": "countable"
     },

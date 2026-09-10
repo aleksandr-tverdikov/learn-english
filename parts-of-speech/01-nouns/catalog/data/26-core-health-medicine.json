@@ -1519,14 +1519,43 @@
       "term": "prescription",
       "ipa": "/prɪˈskrɪpʃən/",
       "respell": "prih-SKRIP-shuhn",
-      "meaning": "A doctor's written order for a specific medicine. ---",
+      "meaning": "Prescription has 2 distinct senses.",
       "examples": [
         "I need to pick up a prescription at the pharmacy.",
         "This is prescription strength, not what you buy off the shelf.",
-        "She has three prescriptions to refill."
+        "She has three prescriptions to refill.",
+        "His prescription for the economy is lower taxes and less regulation.",
+        "The report is long on diagnosis and short on prescriptions.",
+        "Cutting the budget that fast is a prescription for disaster."
       ],
-      "senses": [],
-      "русский": "рецепт на лекарство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A doctor's written order for a specific medicine",
+          "body": [
+            "(рецепт на лекарство)"
+          ],
+          "examples": [
+            "I need to pick up a prescription at the pharmacy.",
+            "This is prescription strength, not what you buy off the shelf.",
+            "She has three prescriptions to refill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A recommended course of action for fixing a problem",
+          "body": [
+            "(рецепт (перен.), рекомендация)",
+            "---"
+          ],
+          "examples": [
+            "His prescription for the economy is lower taxes and less regulation.",
+            "The report is long on diagnosis and short on prescriptions.",
+            "Cutting the budget that fast is a prescription for disaster."
+          ]
+        }
+      ],
+      "русский": "рецепт на лекарство; рецепт (перен.), рекомендация",
       "plural": "prescriptions",
       "countability": "countable",
       "contrast": "A medical prescription, not a cooking recipe — Russian «рецепт» covers both, English does not."
@@ -1535,14 +1564,58 @@
       "term": "treatment",
       "ipa": "/ˈtriːtmənt/",
       "respell": "TREET-muhnt",
-      "meaning": "Medical care given to cure or manage an illness. ---",
+      "meaning": "Treatment has 3 distinct senses.",
       "examples": [
         "She is starting treatment next Monday.",
         "There are several treatments for this type of arthritis.",
-        "The treatment worked better than anyone expected."
+        "The treatment worked better than anyone expected.",
+        "The workers complained about unfair treatment.",
+        "The book's treatment of the war is surprisingly gentle.",
+        "Guests get the same treatment whether they're famous or not.",
+        "The city's water treatment plant runs around the clock.",
+        "The deck needs a treatment of sealant every spring.",
+        "Heat treatments make the steel much harder."
       ],
-      "senses": [],
-      "русский": "лечение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Medical care given to cure or manage an illness",
+          "body": [
+            "(лечение)"
+          ],
+          "examples": [
+            "She is starting treatment next Monday.",
+            "There are several treatments for this type of arthritis.",
+            "The treatment worked better than anyone expected."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way someone or something is dealt with or behaved toward",
+          "body": [
+            "(обращение, отношение (к кому-л. или чему-л.))"
+          ],
+          "examples": [
+            "The workers complained about unfair treatment.",
+            "The book's treatment of the war is surprisingly gentle.",
+            "Guests get the same treatment whether they're famous or not."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A process in which something is cleaned, protected, or given new properties",
+          "body": [
+            "(обработка (воды, материала))",
+            "---"
+          ],
+          "examples": [
+            "The city's water treatment plant runs around the clock.",
+            "The deck needs a treatment of sealant every spring.",
+            "Heat treatments make the steel much harder."
+          ]
+        }
+      ],
+      "русский": "лечение; обращение, отношение (к кому-л. или чему-л.); обработка (воды, материала)",
       "plural": "treatments",
       "countability": "countable"
     },
@@ -1878,14 +1951,43 @@
       "term": "transplant",
       "ipa": "/ˈtrænsplænt/",
       "respell": "TRANS-plant",
-      "meaning": "An operation that moves an organ from one body into another. ---",
+      "meaning": "Transplant has 2 distinct senses.",
       "examples": [
         "He has been on the list for a kidney transplant for two years.",
         "The transplant was a success.",
-        "Heart transplants are far more common than they used to be."
+        "Heart transplants are far more common than they used to be.",
+        "As a New York transplant, he still can't get used to the quiet.",
+        "Half the neighborhood is transplants from California.",
+        "The town has filled up with transplants since the plant opened."
       ],
-      "senses": [],
-      "русский": "пересадка органа, трансплантация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An operation that moves an organ from one body into another",
+          "body": [
+            "(пересадка органа, трансплантация)"
+          ],
+          "examples": [
+            "He has been on the list for a kidney transplant for two years.",
+            "The transplant was a success.",
+            "Heart transplants are far more common than they used to be."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who has moved from another part of the country to live somewhere new",
+          "body": [
+            "(приезжий, переселенец)",
+            "---"
+          ],
+          "examples": [
+            "As a New York transplant, he still can't get used to the quiet.",
+            "Half the neighborhood is transplants from California.",
+            "The town has filled up with transplants since the plant opened."
+          ]
+        }
+      ],
+      "русский": "пересадка органа, трансплантация; приезжий, переселенец",
       "plural": "transplants",
       "countability": "countable",
       "contrast": "The noun stresses the first syllable — TRANS-plant; the verb is trans-PLANT."

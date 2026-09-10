@@ -612,15 +612,23 @@ Chat has 2 distinct senses.
 ### voicemail
 
 **Pronunciation:** /ˈvɔɪsmeɪl/ &middot; *VOYS-mayl*
-**Русский:** голосовое сообщение (на автоответчике)
+**Русский:** голосовое сообщение (на автоответчике); голосовая почта (услуга автоответчика)
 **Plural:** *voicemails*
 **Countability:** countable
 
-A recorded spoken message left for someone who didn't answer.
+Voicemail has 2 distinct senses.
+
+**1. A recorded spoken message left for someone who didn't answer.** (голосовое сообщение (на автоответчике))
 
 1. I left you a *voicemail* this morning.
 2. He never checks his *voicemails*.
 3. Her *voicemail* was four minutes long.
+
+**2. The phone service that records messages when you cannot answer.** (голосовая почта (услуга автоответчика))
+
+4. Her *voicemail* is full, so I texted her instead.
+5. I still haven't set up *voicemail* on the new phone.
+6. I called twice and it went straight to *voicemail* both times.
 
 ---
 
@@ -911,16 +919,24 @@ A picture of whatever is on your screen at that moment.
 ### thumbnail
 
 **Pronunciation:** /ˈθʌmneɪl/ &middot; *THUM-nayl*
-**Русский:** миниатюра, эскиз
+**Русский:** миниатюра, эскиз; ноготь большого пальца
 **Plural:** *thumbnails*
 **Countability:** countable
 **Contrast:** The *b* is silent: THUM-nayl, the same *thumb* sound as in the finger.
 
-A small version of an image used as a preview.
+Thumbnail has 2 distinct senses.
+
+**1. A small version of an image used as a preview.** (миниатюра, эскиз)
 
 1. Click the *thumbnail* to see the full photo.
 2. The *thumbnails* load before the video does.
 3. A good *thumbnail* gets more clicks.
+
+**2. The nail on a person's thumb.** (ноготь большого пальца)
+
+4. He chewed his *thumbnail* while the results loaded.
+5. I split my *thumbnail* prying open the box.
+6. She scraped the price sticker off with her *thumbnail*.
 
 ---
 
@@ -1893,15 +1909,23 @@ Display has 3 distinct senses.
 ### processor
 
 **Pronunciation:** /ˈprɑːsɛsər/ &middot; *PRAH-ses-ur*
-**Русский:** процессор
+**Русский:** процессор; перерабатывающее предприятие; обработчик платежей
 **Plural:** *processors*
 **Countability:** countable
 
-The chip that does the main work inside a computer.
+Processor has 2 distinct senses.
+
+**1. The chip that does the main work inside a computer.** (процессор)
 
 1. The new *processor* is twice as fast.
 2. These *processors* run hot under load.
 3. A faster *processor* won't help if you're short on memory.
+
+**2. A company or plant that treats raw material or handles transactions in bulk.** (перерабатывающее предприятие; обработчик платежей)
+
+4. The country's largest meat *processor* recalled a million pounds of beef.
+5. Our payment *processor* charges three percent on every sale.
+6. Local growers sell to a tomato *processor* in the next county.
 
 ---
 

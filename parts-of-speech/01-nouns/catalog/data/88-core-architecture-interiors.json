@@ -666,14 +666,43 @@
       "term": "partition",
       "ipa": "/pɑːrˈtɪʃən/",
       "respell": "par-TIH-shun",
-      "meaning": "A thin wall or screen that divides a room. ---",
+      "meaning": "Partition has 2 distinct senses.",
       "examples": [
         "A glass partition separates the two offices.",
         "They took down the partition to make one big room.",
-        "The partitions don't reach the ceiling."
+        "The partitions don't reach the ceiling.",
+        "The partition of India uprooted millions of people.",
+        "They argued for partition along ethnic lines.",
+        "The partition left families stranded on opposite sides of a new border."
       ],
-      "senses": [],
-      "русский": "перегородка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin wall or screen that divides a room",
+          "body": [
+            "(перегородка)"
+          ],
+          "examples": [
+            "A glass partition separates the two offices.",
+            "They took down the partition to make one big room.",
+            "The partitions don't reach the ceiling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dividing of a country into separate states or zones",
+          "body": [
+            "(раздел (страны на части))",
+            "---"
+          ],
+          "examples": [
+            "The partition of India uprooted millions of people.",
+            "They argued for partition along ethnic lines.",
+            "The partition left families stranded on opposite sides of a new border."
+          ]
+        }
+      ],
+      "русский": "перегородка; раздел (страны на части)",
       "plural": "partitions",
       "countability": "countable"
     },

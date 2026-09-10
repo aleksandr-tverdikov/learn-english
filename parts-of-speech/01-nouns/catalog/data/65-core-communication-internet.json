@@ -93,14 +93,58 @@
       "term": "provider",
       "ipa": "/prəˈvaɪdər/",
       "respell": "pruh-VY-dur",
-      "meaning": "A company that sells internet or phone service. ---",
+      "meaning": "Provider has 3 distinct senses.",
       "examples": [
         "We switched providers to save thirty dollars a month.",
         "My internet provider raised the price again.",
-        "There's only one provider in this whole town."
+        "There's only one provider in this whole town.",
+        "Check that the clinic is in your network before choosing a provider.",
+        "Your primary care provider can refer you to a specialist.",
+        "Rural counties keep losing health care providers.",
+        "He was a steady provider who never missed a day of work.",
+        "After the layoff she became the family's only provider.",
+        "In their parents' generation the husband was expected to be the provider."
       ],
-      "senses": [],
-      "русский": "провайдер, поставщик услуг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A company that sells internet or phone service",
+          "body": [
+            "(провайдер, поставщик услуг)"
+          ],
+          "examples": [
+            "We switched providers to save thirty dollars a month.",
+            "My internet provider raised the price again.",
+            "There's only one provider in this whole town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A doctor, nurse, or clinic that gives medical care",
+          "body": [
+            "(поставщик медицинских услуг, лечащий специалист)"
+          ],
+          "examples": [
+            "Check that the clinic is in your network before choosing a provider.",
+            "Your primary care provider can refer you to a specialist.",
+            "Rural counties keep losing health care providers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Someone who earns the money that supports a family",
+          "body": [
+            "(кормилец)",
+            "---"
+          ],
+          "examples": [
+            "He was a steady provider who never missed a day of work.",
+            "After the layoff she became the family's only provider.",
+            "In their parents' generation the husband was expected to be the provider."
+          ]
+        }
+      ],
+      "русский": "провайдер, поставщик услуг; поставщик медицинских услуг, лечащий специалист; кормилец",
       "plural": "providers",
       "countability": "countable"
     },

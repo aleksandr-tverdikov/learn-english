@@ -1042,31 +1042,53 @@ Dose has 2 distinct senses.
 ### prescription
 
 **Pronunciation:** /prɪˈskrɪpʃən/ &middot; *prih-SKRIP-shuhn*
-**Русский:** рецепт на лекарство
+**Русский:** рецепт на лекарство; рецепт (перен.), рекомендация
 **Plural:** *prescriptions*
 **Countability:** countable
 **Contrast:** A medical *prescription*, not a cooking *recipe* — Russian «рецепт» covers both, English does not.
 
-A doctor's written order for a specific medicine.
+Prescription has 2 distinct senses.
+
+**1. A doctor's written order for a specific medicine.** (рецепт на лекарство)
 
 1. I need to pick up a *prescription* at the pharmacy.
 2. This is *prescription* strength, not what you buy off the shelf.
 3. She has three *prescriptions* to refill.
+
+**2. A recommended course of action for fixing a problem.** (рецепт (перен.), рекомендация)
+
+4. His *prescription* for the economy is lower taxes and less regulation.
+5. The report is long on diagnosis and short on *prescriptions*.
+6. Cutting the budget that fast is a *prescription* for disaster.
 
 ---
 
 ### treatment
 
 **Pronunciation:** /ˈtriːtmənt/ &middot; *TREET-muhnt*
-**Русский:** лечение
+**Русский:** лечение; обращение, отношение (к кому-л. или чему-л.); обработка (воды, материала)
 **Plural:** *treatments*
 **Countability:** countable
 
-Medical care given to cure or manage an illness.
+Treatment has 3 distinct senses.
+
+**1. Medical care given to cure or manage an illness.** (лечение)
 
 1. She is starting *treatment* next Monday.
 2. There are several *treatments* for this type of arthritis.
 3. The *treatment* worked better than anyone expected.
+
+**2. The way someone or something is dealt with or behaved toward.** (обращение, отношение (к кому-л. или чему-л.))
+
+4. The workers complained about unfair *treatment*.
+5. The book's *treatment* of the war is surprisingly gentle.
+6. Guests get the same *treatment* whether they're famous or not.
+
+**3. A process in which something is cleaned, protected, or given new properties.** (обработка (воды, материала))
+
+7. The city's water *treatment* plant runs around the clock.
+8. The deck needs a *treatment* of sealant every spring.
+9. Heat *treatments* make the steel much harder.
 
 ---
 
@@ -1299,16 +1321,24 @@ Stitch has 2 distinct senses.
 ### transplant
 
 **Pronunciation:** /ˈtrænsplænt/ &middot; *TRANS-plant*
-**Русский:** пересадка органа, трансплантация
+**Русский:** пересадка органа, трансплантация; приезжий, переселенец
 **Plural:** *transplants*
 **Countability:** countable
 **Contrast:** The noun stresses the first syllable — TRANS-plant; the verb is trans-PLANT.
 
-An operation that moves an organ from one body into another.
+Transplant has 2 distinct senses.
+
+**1. An operation that moves an organ from one body into another.** (пересадка органа, трансплантация)
 
 1. He has been on the list for a kidney *transplant* for two years.
 2. The *transplant* was a success.
 3. Heart *transplants* are far more common than they used to be.
+
+**2. A person who has moved from another part of the country to live somewhere new.** (приезжий, переселенец)
+
+4. As a New York *transplant*, he still can't get used to the quiet.
+5. Half the neighborhood is *transplants* from California.
+6. The town has filled up with *transplants* since the plant opened.
 
 ---
 

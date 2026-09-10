@@ -1967,15 +1967,23 @@ Heir has 2 distinct senses.
 ### punishment
 
 **Pronunciation:** /ˈpʌnɪʃmənt/ &middot; *PUHN-ish-muhnt*
-**Русский:** наказание
+**Русский:** наказание; нагрузка, испытание на прочность
 **Plural:** *punishments*
 **Countability:** countable
 
-Something unpleasant done to someone because they broke a rule or law.
+Punishment has 2 distinct senses.
+
+**1. Something unpleasant done to someone because they broke a rule or law.** (наказание)
 
 1. The *punishment* doesn't fit the crime.
 2. He accepted his *punishment* without complaint.
 3. Harsher *punishments* haven't helped.
+
+**2. Rough treatment or hard wear that something has to stand.** (нагрузка, испытание на прочность)
+
+4. These boots can take a lot of *punishment*.
+5. The old truck took real *punishment* on the logging roads.
+6. His knees have absorbed years of *punishment* from running.
 
 ---
 

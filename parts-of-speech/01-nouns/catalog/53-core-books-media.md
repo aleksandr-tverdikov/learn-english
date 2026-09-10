@@ -692,14 +692,28 @@ Press has 2 distinct senses.
 ### printing
 
 **Pronunciation:** /ˈprɪntɪŋ/ &middot; *PRIN-ting*
-**Русский:** печать, книгопечатание
+**Русский:** печать, книгопечатание; печатные буквы, печатный почерк; тираж, выпуск тиража
 **Countability:** uncountable
 
-The process of making words and pictures on paper by machine.
+Printing has 3 distinct senses.
+
+**1. The process of making words and pictures on paper by machine.** (печать, книгопечатание)
 
 1. *Printing* costs went up again this year.
 2. The book is at the *printing* stage now.
 3. Color *printing* is what makes it expensive.
+
+**2. Handwriting made with separate letters instead of joined cursive.** (печатные буквы, печатный почерк)
+
+4. Please use *printing*, not cursive, on the form.
+5. His *printing* is much neater than his signature.
+6. First graders are graded on their *printing*.
+
+**3. All the copies of a book produced at one time.** (тираж, выпуск тиража)
+
+7. The novel is already in its fourth *printing*.
+8. The first *printing* sold out in a week.
+9. Later *printings* fixed the typo on page thirty.
 
 ---
 
@@ -1794,15 +1808,23 @@ Quote has 3 distinct senses.
 ### quotation
 
 **Pronunciation:** /kwoʊˈteɪʃən/ &middot; *kwoh-TAY-shuhn*
-**Русский:** цитата
+**Русский:** цитата; расценка, ценовое предложение, смета
 **Plural:** *quotations*
 **Countability:** countable
 
-A group of words taken from a book or speech and repeated exactly.
+Quotation has 2 distinct senses.
+
+**1. A group of words taken from a book or speech and repeated exactly.** (цитата)
 
 1. The chapter opens with a *quotation* from Twain.
 2. He collects *quotations* in a little notebook.
 3. That *quotation* is usually misattributed.
+
+**2. A stated price for a job or for goods.** (расценка, ценовое предложение, смета)
+
+4. We got three *quotations* before hiring a roofer.
+5. The contractor's *quotation* came in under budget.
+6. Ask for a written *quotation* rather than a verbal estimate.
 
 ---
 

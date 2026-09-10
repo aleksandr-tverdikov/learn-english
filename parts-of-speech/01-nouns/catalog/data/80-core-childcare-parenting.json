@@ -1812,14 +1812,43 @@
       "term": "ultrasound",
       "ipa": "/ˈʌltrəsaʊnd/",
       "respell": "UL-truh-sownd",
-      "meaning": "A scan that shows a picture of a baby inside the womb. ---",
+      "meaning": "Ultrasound has 2 distinct senses.",
       "examples": [
         "We found out it is a girl at the ultrasound.",
         "The ultrasound is scheduled for Thursday.",
-        "She has had three ultrasounds so far."
+        "She has had three ultrasounds so far.",
+        "Bats find their way in the dark using ultrasound.",
+        "The jeweler cleans rings with ultrasound.",
+        "Ultrasound travels well through water."
       ],
-      "senses": [],
-      "русский": "УЗИ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A scan that shows a picture of a baby inside the womb",
+          "body": [
+            "(УЗИ)"
+          ],
+          "examples": [
+            "We found out it is a girl at the ultrasound.",
+            "The ultrasound is scheduled for Thursday.",
+            "She has had three ultrasounds so far."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sound waves pitched too high for people to hear",
+          "body": [
+            "(ультразвук)",
+            "---"
+          ],
+          "examples": [
+            "Bats find their way in the dark using ultrasound.",
+            "The jeweler cleans rings with ultrasound.",
+            "Ultrasound travels well through water."
+          ]
+        }
+      ],
+      "русский": "УЗИ; ультразвук",
       "plural": "ultrasounds",
       "countability": "countable"
     },
@@ -2019,14 +2048,43 @@
       "term": "visitation",
       "ipa": "/ˌvɪzəˈteɪʃən/",
       "respell": "viz-uh-TAY-shuhn",
-      "meaning": "A divorced parent's legal right to spend time with a child. ---",
+      "meaning": "Visitation has 2 distinct senses.",
       "examples": [
         "He has visitation every other weekend.",
         "The visitation schedule is in the court order.",
-        "They went back to court over visitation."
+        "They went back to court over visitation.",
+        "Visitation will be Thursday from six to eight at Miller Funeral Home.",
+        "Close to two hundred people came to the visitation.",
+        "We drove up for the visitation and stayed through the burial the next day."
       ],
-      "senses": [],
-      "русский": "право на встречи с ребёнком (после развода)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A divorced parent's legal right to spend time with a child",
+          "body": [
+            "(право на встречи с ребёнком (после развода))"
+          ],
+          "examples": [
+            "He has visitation every other weekend.",
+            "The visitation schedule is in the court order.",
+            "They went back to court over visitation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gathering at a funeral home where people come to see the body and comfort the family before the funeral",
+          "body": [
+            "(прощание с покойным (в похоронном бюро накануне похорон))",
+            "---"
+          ],
+          "examples": [
+            "Visitation will be Thursday from six to eight at Miller Funeral Home.",
+            "Close to two hundred people came to the visitation.",
+            "We drove up for the visitation and stayed through the burial the next day."
+          ]
+        }
+      ],
+      "русский": "право на встречи с ребёнком (после развода); прощание с покойным (в похоронном бюро накануне похорон)",
       "countability": "uncountable"
     },
     {

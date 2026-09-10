@@ -1338,15 +1338,23 @@ A mammal that carries its young in a pouch.
 ### predator
 
 **Pronunciation:** /ˈprɛdətər/ &middot; *PRED-uh-tur*
-**Русский:** хищник
+**Русский:** хищник; хищник (о человеке), растлитель
 **Plural:** *predators*
 **Countability:** countable
 
-An animal that hunts and eats other animals.
+Predator has 2 distinct senses.
+
+**1. An animal that hunts and eats other animals.** (хищник)
 
 1. Wolves are the main *predator* here.
 2. Deer freeze the moment they sense a *predator*.
 3. The island has almost no *predators*.
+
+**2. A person who takes advantage of others in a harmful way, especially sexually or financially.** (хищник (о человеке), растлитель)
+
+4. The article described him as a *predator* who targeted teenage girls.
+5. Payday lenders have been called financial *predators*.
+6. Parents worry about online *predators* in gaming chats.
 
 ---
 

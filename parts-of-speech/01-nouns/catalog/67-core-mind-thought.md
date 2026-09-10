@@ -186,14 +186,22 @@ An idea or belief, often a vague or mistaken one.
 ### understanding
 
 **Pronunciation:** /ˌʌndərˈstændɪŋ/ &middot; *un-dur-STAN-ding*
-**Русский:** понимание
+**Русский:** понимание; договорённость, уговор
 **Countability:** uncountable
 
-Knowledge of how something works or what someone means.
+Understanding has 2 distinct senses.
+
+**1. Knowledge of how something works or what someone means.** (понимание)
 
 1. She has a deep *understanding* of how children learn.
 2. My *understanding* is that the office closes at five.
 3. The two sides showed little *understanding* of each other.
+
+**2. An informal agreement between people.** (договорённость, уговор)
+
+4. We have an *understanding* about who pays for what.
+5. They reached an *understanding* after two hours of talks.
+6. There's an unwritten *understanding* that nobody parks in that spot.
 
 ---
 
@@ -436,15 +444,23 @@ Impression has 3 distinct senses.
 ### viewpoint
 
 **Pronunciation:** /ˈvjuːpɔɪnt/ &middot; *VYOO-poynt*
-**Русский:** точка зрения
+**Русский:** точка зрения; смотровая площадка, видовая точка
 **Plural:** *viewpoints*
 **Countability:** countable
 
-The position from which someone judges a matter.
+Viewpoint has 2 distinct senses.
+
+**1. The position from which someone judges a matter.** (точка зрения)
 
 1. The article ignores the tenants' *viewpoint*.
 2. Both *viewpoints* deserve a hearing.
 3. Try to see it from my *viewpoint* for a second.
+
+**2. A spot beside a road or trail where people stop to look at the scenery.** (смотровая площадка, видовая точка)
+
+4. We pulled off at a *viewpoint* to watch the sun go down over the canyon.
+5. There are three marked *viewpoints* along the rim trail.
+6. The *viewpoint* has a small parking lot and a coin-operated telescope.
 
 ---
 
@@ -496,14 +512,22 @@ An unfair preference for or against someone or something.
 ### prejudice
 
 **Pronunciation:** /ˈprɛdʒədɪs/ &middot; *PREJ-uh-dis*
-**Русский:** предрассудок, предубеждение
+**Русский:** предрассудок, предубеждение; ущерб правам, вред (юр.)
 **Countability:** uncountable
 
-An unfair opinion about a group of people formed without knowing them.
+Prejudice has 2 distinct senses.
+
+**1. An unfair opinion about a group of people formed without knowing them.** (предрассудок, предубеждение)
 
 1. He grew up surrounded by *prejudice*.
 2. The law was written to fight racial *prejudice*.
 3. *Prejudice* against renters is still common here.
+
+**2. Harm to someone's rights or legal position, especially in the phrases with prejudice and without prejudice.** (ущерб правам, вред (юр.))
+
+4. The judge dismissed the case with *prejudice*, so it can never be refiled.
+5. She resigned without *prejudice* to her right to sue later.
+6. The two-year delay caused real *prejudice* to the defense.
 
 ---
 

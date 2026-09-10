@@ -682,22 +682,6 @@
       "countability": "countable"
     },
     {
-      "term": "sewer",
-      "ipa": "/ˈsuːər/",
-      "respell": "SOO-ur",
-      "meaning": "An underground pipe that carries away waste water. ---",
-      "examples": [
-        "The sewer backed up after the storm.",
-        "Crews are replacing century-old sewers downtown.",
-        "That smell is coming from the sewer."
-      ],
-      "senses": [],
-      "русский": "канализационная труба, коллектор",
-      "plural": "sewers",
-      "countability": "countable",
-      "contrast": "Pronounced SOO-ur. A 'sewer' meaning a person who sews is SOH-ur — same spelling, different word."
-    },
-    {
       "term": "manhole",
       "ipa": "/ˈmænhoʊl/",
       "respell": "MAN-hohl",
@@ -2020,14 +2004,43 @@
       "term": "property",
       "ipa": "/ˈprɑːpərti/",
       "respell": "PRAH-pur-tee",
-      "meaning": "A building and its land as a countable unit, or ownership and possessions in general. ---",
+      "meaning": "Property has 2 distinct senses.",
       "examples": [
         "They own a property just outside the city.",
         "The company manages forty rental properties.",
-        "Damage to public property carries a fine."
+        "Damage to public property carries a fine.",
+        "Aloe is said to have healing properties.",
+        "Heat changes the chemical properties of the metal.",
+        "One useful property of salt is that it melts ice."
       ],
-      "senses": [],
-      "русский": "недвижимость; участок с домом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building and its land as a countable unit, or ownership and possessions in general",
+          "body": [
+            "(недвижимость; участок с домом)"
+          ],
+          "examples": [
+            "They own a property just outside the city.",
+            "The company manages forty rental properties.",
+            "Damage to public property carries a fine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quality or characteristic that belongs to a substance or a thing",
+          "body": [
+            "(свойство)",
+            "---"
+          ],
+          "examples": [
+            "Aloe is said to have healing properties.",
+            "Heat changes the chemical properties of the metal.",
+            "One useful property of salt is that it melts ice."
+          ]
+        }
+      ],
+      "русский": "недвижимость; участок с домом; свойство",
       "plural": "properties",
       "countability": "both — countable and uncountable with different meanings"
     },

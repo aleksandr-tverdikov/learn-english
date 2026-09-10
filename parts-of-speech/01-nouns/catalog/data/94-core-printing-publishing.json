@@ -1813,14 +1813,43 @@
       "term": "watermark",
       "ipa": "/ˈwɔːtərmɑːrk/",
       "respell": "WAW-tur-mark",
-      "meaning": "A faint design pressed into paper that shows when you hold it to the light. ---",
+      "meaning": "Watermark has 2 distinct senses.",
       "examples": [
         "Hold the bill up and look for the watermark.",
         "The stationery has the school's watermark.",
-        "Forgers have trouble with watermarks."
+        "Forgers have trouble with watermarks.",
+        "The preview photos all have the studio's watermark across them.",
+        "You have to pay to download the file without the watermark.",
+        "Every page of the draft carries a gray DRAFT watermark."
       ],
-      "senses": [],
-      "русский": "водяной знак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A faint design pressed into paper that shows when you hold it to the light",
+          "body": [
+            "(водяной знак)"
+          ],
+          "examples": [
+            "Hold the bill up and look for the watermark.",
+            "The stationery has the school's watermark.",
+            "Forgers have trouble with watermarks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A logo or words laid faintly over a digital image or document to show who owns it or that it is not final",
+          "body": [
+            "(водяной знак (на изображении, документе))",
+            "---"
+          ],
+          "examples": [
+            "The preview photos all have the studio's watermark across them.",
+            "You have to pay to download the file without the watermark.",
+            "Every page of the draft carries a gray DRAFT watermark."
+          ]
+        }
+      ],
+      "русский": "водяной знак; водяной знак (на изображении, документе)",
       "plural": "watermarks",
       "countability": "countable"
     },
@@ -2540,14 +2569,43 @@
       "term": "pressroom",
       "ipa": "/ˈprɛsruːm/",
       "respell": "PRESS-room",
-      "meaning": "The part of a printing plant where the presses run. ---",
+      "meaning": "Pressroom has 2 distinct senses.",
       "examples": [
         "You can't hear yourself think in the pressroom.",
         "He spent forty years in the pressroom.",
-        "The old pressrooms were full of noise and ink."
+        "The old pressrooms were full of noise and ink.",
+        "Reporters filed their stories from the pressroom in the basement.",
+        "The coach came into the pressroom twenty minutes after the game.",
+        "Only credentialed journalists are allowed in the pressroom."
       ],
-      "senses": [],
-      "русский": "печатный цех",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a printing plant where the presses run",
+          "body": [
+            "(печатный цех)"
+          ],
+          "examples": [
+            "You can't hear yourself think in the pressroom.",
+            "He spent forty years in the pressroom.",
+            "The old pressrooms were full of noise and ink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A room set aside at an event or a building for reporters to work in",
+          "body": [
+            "(пресс-центр, комната для журналистов)",
+            "---"
+          ],
+          "examples": [
+            "Reporters filed their stories from the pressroom in the basement.",
+            "The coach came into the pressroom twenty minutes after the game.",
+            "Only credentialed journalists are allowed in the pressroom."
+          ]
+        }
+      ],
+      "русский": "печатный цех; пресс-центр, комната для журналистов",
       "plural": "pressrooms",
       "countability": "countable"
     },

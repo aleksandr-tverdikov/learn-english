@@ -968,22 +968,6 @@ A handle tipped with soft feathers for dusting delicate things.
 
 ---
 
-### chamois
-
-**Pronunciation:** /ˈʃæmi/ &middot; *SHAM-ee*
-**Русский:** замшевая салфетка
-**Plural:** *chamois*
-**Countability:** countable
-**Contrast:** Said SHAM-ee, and the plural is spelled the same: *chamois*.
-
-A soft leather cloth used to dry glass and car paint without streaks.
-
-1. Dry the car with a *chamois* so it doesn't spot.
-2. He kept a damp *chamois* in a bucket.
-3. Good *chamois* cost more than a pack of towels.
-
----
-
 ### rubber glove
 
 **Pronunciation:** /ˈrʌbər ɡlʌv/ &middot; *RUB-ur GLUV*

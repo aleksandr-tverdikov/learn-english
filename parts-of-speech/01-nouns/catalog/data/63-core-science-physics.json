@@ -1082,14 +1082,43 @@
       "term": "particle",
       "ipa": "/ˈpɑːrtɪkəl/",
       "respell": "PAHR-tih-kuhl",
-      "meaning": "An extremely small piece of matter. ---",
+      "meaning": "Particle has 2 distinct senses.",
       "examples": [
         "Dust particles floated in the sunlight.",
         "The filter traps any particle larger than a micron.",
-        "Physicists study how one particle hits another."
+        "Physicists study how one particle hits another.",
+        "In 'give up', the word 'up' is a particle, not a preposition.",
+        "The particle 'to' marks the infinitive.",
+        "A phrasal verb is a verb plus a particle."
       ],
-      "senses": [],
-      "русский": "частица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An extremely small piece of matter",
+          "body": [
+            "(частица)"
+          ],
+          "examples": [
+            "Dust particles floated in the sunlight.",
+            "The filter traps any particle larger than a micron.",
+            "Physicists study how one particle hits another."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short function word, such as 'up' or 'to', that does grammatical work but carries little meaning alone",
+          "body": [
+            "(частица (грамматическая))",
+            "---"
+          ],
+          "examples": [
+            "In 'give up', the word 'up' is a particle, not a preposition.",
+            "The particle 'to' marks the infinitive.",
+            "A phrasal verb is a verb plus a particle."
+          ]
+        }
+      ],
+      "русский": "частица; частица (грамматическая)",
       "plural": "particles",
       "countability": "countable"
     },
@@ -2473,14 +2502,43 @@
       "term": "procedure",
       "ipa": "/prəˈsiːdʒər/",
       "respell": "pruh-SEE-jur",
-      "meaning": "The set of steps you follow to do something correctly. ---",
+      "meaning": "Procedure has 2 distinct senses.",
       "examples": [
         "Follow the safety procedure exactly.",
         "The whole procedure takes about twenty minutes.",
-        "Lab procedures are posted on the wall."
+        "Lab procedures are posted on the wall.",
+        "She is having a minor procedure on Thursday.",
+        "The procedure takes an hour and needs no overnight stay.",
+        "Insurance covers most outpatient procedures."
       ],
-      "senses": [],
-      "русский": "процедура, методика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The set of steps you follow to do something correctly",
+          "body": [
+            "(процедура, методика)"
+          ],
+          "examples": [
+            "Follow the safety procedure exactly.",
+            "The whole procedure takes about twenty minutes.",
+            "Lab procedures are posted on the wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A medical operation or treatment",
+          "body": [
+            "(медицинская процедура, вмешательство)",
+            "---"
+          ],
+          "examples": [
+            "She is having a minor procedure on Thursday.",
+            "The procedure takes an hour and needs no overnight stay.",
+            "Insurance covers most outpatient procedures."
+          ]
+        }
+      ],
+      "русский": "процедура, методика; медицинская процедура, вмешательство",
       "plural": "procedures",
       "countability": "countable"
     },

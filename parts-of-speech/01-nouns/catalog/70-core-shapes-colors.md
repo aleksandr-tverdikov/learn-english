@@ -58,15 +58,23 @@ Circle has 2 distinct senses.
 ### triangle
 
 **Pronunciation:** /ˈtraɪæŋɡəl/ &middot; *TRY-ang-gul*
-**Русский:** треугольник
+**Русский:** треугольник; треугольник (музыкальный инструмент)
 **Plural:** *triangles*
 **Countability:** countable
 
-A flat shape with three straight sides and three angles.
+Triangle has 2 distinct senses.
+
+**1. A flat shape with three straight sides and three angles.** (треугольник)
 
 1. Cut each sandwich into two *triangles*.
 2. The roof forms a perfect *triangle*.
 3. A *triangle* has angles that add up to 180 degrees.
+
+**2. A percussion instrument made of a bent steel bar, struck with a metal stick.** (треугольник (музыкальный инструмент))
+
+4. She played the *triangle* in the school orchestra.
+5. You can hear the *triangle* ringing over the strings.
+6. The music teacher handed out tambourines and *triangles*.
 
 ---
 
@@ -1782,14 +1790,22 @@ Blur has 2 distinct senses.
 ### transparency
 
 **Pronunciation:** /trænsˈpɛrənsi/ &middot; *trans-PAIR-un-see*
-**Русский:** прозрачность
+**Русский:** прозрачность; прозрачность, открытость (в делах, в управлении)
 **Countability:** uncountable
 
-The quality of letting light through so you can see the other side.
+Transparency has 2 distinct senses.
+
+**1. The quality of letting light through so you can see the other side.** (прозрачность)
 
 1. The glaze keeps the *transparency* of the glass.
 2. Reduce the *transparency* of that layer.
 3. The plastic loses its *transparency* over time.
+
+**2. Openness about how decisions are made and money is spent.** (прозрачность, открытость (в делах, в управлении))
+
+4. Voters are demanding more *transparency* from city hall.
+5. The company promised full *transparency* about the layoffs.
+6. There is very little *transparency* in how the grants are awarded.
 
 ---
 

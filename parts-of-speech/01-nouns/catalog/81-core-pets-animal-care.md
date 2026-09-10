@@ -901,15 +901,23 @@ A dog of mixed and unknown breeding.
 ### pedigree
 
 **Pronunciation:** /ˈpɛdəɡriː/ &middot; *PED-uh-gree*
-**Русский:** родословная
+**Русский:** родословная; послужной список, происхождение (о человеке)
 **Plural:** *pedigrees*
 **Countability:** countable
 
-A written record of an animal's ancestors.
+Pedigree has 2 distinct senses.
+
+**1. A written record of an animal's ancestors.** (родословная)
 
 1. The breeder showed us the puppy's *pedigree*.
 2. His *pedigree* goes back four generations.
 3. *Pedigrees* are registered with the kennel club.
+
+**2. A person's background and record of past achievements.** (послужной список, происхождение (о человеке))
+
+4. The new coach arrived with an impressive *pedigree*.
+5. Her academic *pedigree* opened a lot of doors.
+6. Two of the finalists had the same *pedigree*: state school, then a clerkship.
 
 ---
 
@@ -1160,16 +1168,24 @@ Lapdog has 2 distinct senses.
 ### watchdog
 
 **Pronunciation:** /ˈwɑːtʃdɔːɡ/ &middot; *WAHCH-dawg*
-**Русский:** сторожевая собака
+**Русский:** сторожевая собака; надзорная организация, контролёр
 **Plural:** *watchdogs*
 **Countability:** countable
 **Contrast:** A *watchdog* is also a group that keeps an eye on a government or an industry.
 
-A dog kept to bark a warning when strangers come.
+Watchdog has 2 distinct senses.
+
+**1. A dog kept to bark a warning when strangers come.** (сторожевая собака)
 
 1. They keep a *watchdog* at the lot.
 2. *Watchdogs* bark at anything that moves.
 3. The *watchdog* woke the whole street.
+
+**2. A person or organization that keeps watch on a company or a government and reports bad behavior.** (надзорная организация, контролёр)
+
+4. A consumer *watchdog* sued the airline over hidden fees.
+5. The agency is supposed to be a *watchdog*, not a partner.
+6. Ethics *watchdogs* filed a complaint against the governor last week.
 
 ---
 

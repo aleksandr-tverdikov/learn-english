@@ -446,14 +446,43 @@
       "term": "twilight",
       "ipa": "/ˈtwaɪlaɪt/",
       "respell": "TWY-lyt",
-      "meaning": "The soft half-light in the sky before sunrise or after sunset. ---",
+      "meaning": "Twilight has 2 distinct senses.",
       "examples": [
         "We hiked the last mile in twilight.",
         "In summer the twilight lasts almost an hour up here.",
-        "The lake looked silver in the twilight."
+        "The lake looked silver in the twilight.",
+        "He hit thirty home runs in the twilight of his career.",
+        "The novel is set in the twilight of the Roman Empire.",
+        "In the twilight of her life she took up painting."
       ],
-      "senses": [],
-      "русский": "сумерки, полумрак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft half-light in the sky before sunrise or after sunset",
+          "body": [
+            "(сумерки, полумрак)"
+          ],
+          "examples": [
+            "We hiked the last mile in twilight.",
+            "In summer the twilight lasts almost an hour up here.",
+            "The lake looked silver in the twilight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The last stage of something, when it is fading or coming to an end",
+          "body": [
+            "(закат (карьеры, эпохи))",
+            "---"
+          ],
+          "examples": [
+            "He hit thirty home runs in the twilight of his career.",
+            "The novel is set in the twilight of the Roman Empire.",
+            "In the twilight of her life she took up painting."
+          ]
+        }
+      ],
+      "русский": "сумерки, полумрак; закат (карьеры, эпохи)",
       "countability": "uncountable"
     },
     {
@@ -796,14 +825,43 @@
       "term": "visibility",
       "ipa": "/ˌvɪzəˈbɪləti/",
       "respell": "viz-uh-BIL-uh-tee",
-      "meaning": "How far you can see, given the weather conditions. ---",
+      "meaning": "Visibility has 2 distinct senses.",
       "examples": [
         "Visibility was down to about a hundred feet.",
         "Flights were delayed because of poor visibility.",
-        "The fog lifted and visibility improved."
+        "The fog lifted and visibility improved.",
+        "The lawsuit gave the issue national visibility.",
+        "She took the job for the visibility it would give her career.",
+        "The brand has almost no visibility outside the Northeast."
       ],
-      "senses": [],
-      "русский": "видимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How far you can see, given the weather conditions",
+          "body": [
+            "(видимость)"
+          ],
+          "examples": [
+            "Visibility was down to about a hundred feet.",
+            "Flights were delayed because of poor visibility.",
+            "The fog lifted and visibility improved."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of public attention that something or someone receives",
+          "body": [
+            "(известность, заметность (для публики))",
+            "---"
+          ],
+          "examples": [
+            "The lawsuit gave the issue national visibility.",
+            "She took the job for the visibility it would give her career.",
+            "The brand has almost no visibility outside the Northeast."
+          ]
+        }
+      ],
+      "русский": "видимость; известность, заметность (для публики)",
       "countability": "uncountable"
     },
     {
@@ -2183,14 +2241,43 @@
       "term": "universe",
       "ipa": "/ˈjuːnəvɜːrs/",
       "respell": "YOO-nuh-vurs",
-      "meaning": "All of space and everything in it. ---",
+      "meaning": "Universe has 2 distinct senses.",
       "examples": [
         "The universe is still expanding.",
         "Nobody knows how big the universe actually is.",
-        "Some physicists argue for a whole set of parallel universes."
+        "Some physicists argue for a whole set of parallel universes.",
+        "The show takes place in the same universe as the comics.",
+        "In the universe of college sports, that's a huge salary.",
+        "The two movies belong to completely different universes."
       ],
-      "senses": [],
-      "русский": "вселенная",
+      "senses": [
+        {
+          "n": "1",
+          "head": "All of space and everything in it",
+          "body": [
+            "(вселенная)"
+          ],
+          "examples": [
+            "The universe is still expanding.",
+            "Nobody knows how big the universe actually is.",
+            "Some physicists argue for a whole set of parallel universes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular world of activity, or the whole imagined world of a story",
+          "body": [
+            "(мир, вселенная (сфера деятельности; вымышленный мир))",
+            "---"
+          ],
+          "examples": [
+            "The show takes place in the same universe as the comics.",
+            "In the universe of college sports, that's a huge salary.",
+            "The two movies belong to completely different universes."
+          ]
+        }
+      ],
+      "русский": "вселенная; мир, вселенная (сфера деятельности; вымышленный мир)",
       "plural": "universes",
       "countability": "countable"
     },

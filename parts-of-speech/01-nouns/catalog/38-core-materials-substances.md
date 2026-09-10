@@ -135,29 +135,6 @@ Tin has 2 distinct senses.
 
 ---
 
-### lead
-
-**Pronunciation:** /lɛd/ &middot; *LED*
-**Русский:** свинец; грифель (карандаша)
-**Countability:** uncountable
-**Contrast:** The metal *lead* is said LED, like the past tense *led* — not LEED, which is the verb *to lead*.
-
-Lead has 2 distinct senses.
-
-**1. A heavy, soft, gray metal that is poisonous to people.** (свинец)
-
-1. Older houses may still have *lead* paint.
-2. The water tested positive for *lead*.
-3. *Lead* is surprisingly heavy for its size.
-
-**2. The thin gray stick inside a pencil that leaves the marks.** (грифель (карандаша))
-
-4. The *lead* snapped as soon as I pressed down.
-5. Mechanical pencils take thin refill *leads*.
-6. Sharpen it until the *lead* comes to a point.
-
----
-
 ### zinc
 
 **Pronunciation:** /zɪŋk/ &middot; *ZINGK*

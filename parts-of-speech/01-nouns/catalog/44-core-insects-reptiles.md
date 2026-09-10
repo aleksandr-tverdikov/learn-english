@@ -101,15 +101,23 @@ Small harmful animals such as rats, mice, and lice, taken as a group.
 ### parasite
 
 **Pronunciation:** /ˈpɛrəsaɪt/ &middot; *PEHR-uh-syt*
-**Русский:** паразит
+**Русский:** паразит; паразит, тунеядец
 **Plural:** *parasites*
 **Countability:** countable
 
-An organism that lives on or in another creature and feeds off it.
+Parasite has 2 distinct senses.
+
+**1. An organism that lives on or in another creature and feeds off it.** (паразит)
 
 1. A tapeworm is a *parasite* that lives in the gut.
 2. The vet tested the puppy for *parasites*.
 3. Some wasps lay eggs inside caterpillars and live as *parasites*.
+
+**2. A person who lives off other people and gives nothing back.** (паразит, тунеядец)
+
+4. He called his brother-in-law a *parasite* living off the family.
+5. The article painted the whole board as *parasites*.
+6. He'd work two jobs before he'd feel like a *parasite*.
 
 ---
 

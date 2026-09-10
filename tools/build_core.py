@@ -174,6 +174,63 @@ def extra_senses():
 
 EXTRA = None
 ORDERING = None
+HOMOGRAPHS = None
+
+
+def homographs():
+    """Words spelled alike but pronounced differently, one entry per pronunciation.
+
+    Every other entry in this dictionary carries a single IPA shared by all its
+    senses, which is right for `bank` (both senses /bæŋk/) and wrong for `bass`,
+    where the fish is /bæs/ and the low musical range /beɪs/. Those are two words
+    that happen to share a spelling, so they get two entries.
+
+    This is the one place a repeated headword is correct rather than a bug, so
+    these terms are held out of the normal term dedupe and rendered together in
+    their own group, where the contrast between the pronunciations is the point.
+    """
+    src = os.path.join(CORE, 'homographs.json')
+    if not os.path.exists(src):
+        return []
+    try:
+        data = json.load(open(src))
+    except Exception:
+        return []
+    return [e for e in (data if isinstance(data, list) else []) if isinstance(e, dict)]
+
+
+def build_homographs(grammar, problems):
+    rows = []
+    for e in HOMOGRAPHS:
+        for k in ('term', 'ipa', 'respell', 'ru', 'gloss'):
+            if not (e.get(k) or '').strip():
+                problems.append(f"homograph {e.get('term','?')}: missing {k}")
+                break
+        else:
+            ex = [x for x in (e.get('examples') or []) if isinstance(x, str)][:3]
+            if len(ex) < 3:
+                problems.append(f"homograph {e['term']}: {len(ex)} examples")
+                continue
+            rows.append((e['term'], e['ipa'].strip('/'), e['respell'], e['ru'],
+                         e.get('plural') or '', e.get('countability') or 'countable',
+                         e['gloss'], ex, e.get('contrast') or None, None))
+    if not rows:
+        return 0, 0
+    rows.sort(key=lambda r: (r[0].lower(), r[1]))
+    build(os.path.join(CAT, '130-core-homographs.md'),
+          'Core vocabulary: words spelled alike, said differently',
+          'One spelling, two pronunciations, two meanings — *bass* the fish and *bass* the '
+          'low notes are different words that happen to look the same.',
+          'Every other entry in this dictionary gives one pronunciation and lists its meanings '
+          'underneath, because the meanings sound the same. These do not.\n\n'
+          '*Bass* the fish is /bæs/ and *bass* the low musical range is /beɪs/. *Lead* the metal '
+          'is /lɛd/ and *lead* meaning first place is /liːd/. Treating those as one entry with '
+          'two senses would attach a pronunciation to a meaning it does not have, so each gets '
+          'its own entry and each points at the other.\n\n'
+          'Noun/verb pairs are deliberately excluded — *record*, *contrast*, *permit* shift '
+          'stress between a noun and a verb, and this is a dictionary of nouns.',
+          rows)
+    return 1, len(rows)
 
 
 def sense_order():
@@ -294,9 +351,10 @@ def merge(entries):
 
 
 def main():
-    global EXTRA, ORDERING
+    global EXTRA, ORDERING, HOMOGRAPHS
     EXTRA = extra_senses()
     ORDERING = sense_order()
+    HOMOGRAPHS = homographs()
 
     grammar = set()
     for f in sorted(glob.glob(f'{CAT}/[0-9]*.md')):
@@ -307,6 +365,8 @@ def main():
 
     idx = sense_index()
     seen, problems, written, total, multi = {}, [], 0, 0, 0
+    for e in HOMOGRAPHS:                      # handled in their own group
+        seen[(e.get('term') or '').lower()] = 'homographs' 
     for i, slug in enumerate(ORDER):
         src = os.path.join(CORE, slug + '.json')
         if not os.path.exists(src):
@@ -349,11 +409,17 @@ def main():
     written += gfiles
     total += gentries
 
+    hfiles, hentries = build_homographs(grammar, problems)
+    written += hfiles
+    total += hentries
+
     print(f'\nwrote {written} core files, {total} entries')
     if multi:
         print(f'  {multi} entries carry more than one sense, merged from separate fields')
     if ORDERING:
         print(f'  {len(ORDERING)} entries have a judged sense order applied')
+    if HOMOGRAPHS:
+        print(f'  {hentries} homograph entries across {len({e["term"].lower() for e in HOMOGRAPHS})} spellings')
     for p in MERGE_PROBLEMS[:5]:
         print('   ', p)
     if gfiles:

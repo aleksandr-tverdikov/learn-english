@@ -2420,15 +2420,23 @@ The amount by which you spend more than the money in your bank account.
 ### overdrive
 
 **Pronunciation:** /ˈoʊvərdraɪv/ &middot; *OH-vur-dryve*
-**Русский:** форсированный режим, работа на пределе
+**Русский:** форсированный режим, работа на пределе; овердрайв, повышающая передача
 **Countability:** uncountable
 **Contrast:** As a noun it mostly appears in *go into overdrive*, meaning to work at full intensity.
 
-A state of working much harder or faster than normal.
+Overdrive has 2 distinct senses.
+
+**1. A state of working much harder or faster than normal.** (форсированный режим, работа на пределе)
 
 1. The rumor mill went into *overdrive*.
 2. Her imagination shifted into *overdrive*.
 3. The campaign is in *overdrive* before the vote.
+
+**2. An extra top gear that lets a car's engine turn slower at highway speed.** (овердрайв, повышающая передача)
+
+4. The truck drops out of *overdrive* on the long climbs.
+5. At sixty it shifts into *overdrive* and the engine quiets right down.
+6. Older cars had no *overdrive*, so freeway driving was loud.
 
 ---
 
@@ -2601,15 +2609,23 @@ The removal of a government or ruler by force.
 ### overtone
 
 **Pronunciation:** /ˈoʊvərˌtoʊn/ &middot; *OH-vur-tohn*
-**Русский:** оттенок, подтекст
+**Русский:** оттенок, подтекст; обертон
 **Plural:** *overtones*
 **Countability:** countable
 
-An extra meaning or feeling suggested by something without being said directly.
+Overtone has 2 distinct senses.
+
+**1. An extra meaning or feeling suggested by something without being said directly.** (оттенок, подтекст)
 
 1. The speech had clear political *overtones*.
 2. There was an *overtone* of anger in her voice.
 3. The film's religious *overtones* upset some viewers.
+
+**2. A higher tone that sounds faintly along with a played note and gives an instrument its color.** (обертон)
+
+4. The bell's *overtones* hung in the air long after it was struck.
+5. A flute and a violin on the same note differ in their *overtones*.
+6. Tune the string until that ringing *overtone* disappears.
 
 ---
 
@@ -2918,14 +2934,22 @@ Religious belief and practice outside the main world religions, often centered o
 ### paintball
 
 **Pronunciation:** /ˈpeɪntˌbɔːl/ &middot; *PAYNT-bawl*
-**Русский:** пейнтбол
+**Русский:** пейнтбол; шарик с краской (для пейнтбола)
 **Countability:** uncountable
 
-A game in which players shoot capsules of paint at each other with air guns.
+Paintball has 2 distinct senses.
+
+**1. A game in which players shoot capsules of paint at each other with air guns.** (пейнтбол)
 
 1. We played *paintball* for his bachelor party.
 2. *Paintball* leaves bruises, so wear a couple of layers.
 3. There's a *paintball* field out past the highway.
+
+**2. One of the small capsules of paint fired from an air gun in the game.** (шарик с краской (для пейнтбола))
+
+4. A *paintball* caught him square in the mask.
+5. We went through two bags of *paintballs* in an hour.
+6. The *paintballs* leave a yellow splatter that washes right out.
 
 ---
 
@@ -7409,15 +7433,23 @@ Premise has 2 distinct senses.
 ### preparation
 
 **Pronunciation:** /ˌprɛpəˈreɪʃən/ &middot; *prep-uh-RAY-shun*
-**Русский:** подготовка; (мн.) приготовления
+**Русский:** подготовка; (мн.) приготовления; препарат, состав, средство
 **Plural:** *preparations*
 **Countability:** both — countable and uncountable with different meanings
 
-The work of getting ready for something, or in the plural the arrangements made.
+Preparation has 2 distinct senses.
+
+**1. The work of getting ready for something, or in the plural the arrangements made.** (подготовка; (мн.) приготовления)
 
 1. Months of *preparation* went into the show.
 2. *Preparations* for the storm began Tuesday morning.
 3. She passed the test with almost no *preparation*.
+
+**2. A substance mixed or made up for a particular use, such as a medicine or a cosmetic.** (препарат, состав, средство)
+
+4. The pharmacist recommended an over-the-counter *preparation* for the itching.
+5. This *preparation* has to be refrigerated after it is opened.
+6. Some herbal *preparations* interact badly with prescription drugs.
 
 ---
 
@@ -7527,16 +7559,30 @@ A substance added to food or wood to keep it from spoiling or rotting.
 ### preserve
 
 **Pronunciation:** /prɪˈzɜːrv/ &middot; *prih-ZURV*
-**Русский:** заповедник, охраняемая территория
+**Русский:** заповедник, охраняемая территория; варенье, конфитюр; вотчина, исключительная сфера
 **Plural:** *preserves*
 **Countability:** countable
 **Contrast:** In the plural, preserves also means fruit jam: a jar of peach preserves.
 
-An area of land or water where wildlife is protected.
+Preserve has 3 distinct senses.
+
+**1. An area of land or water where wildlife is protected.** (заповедник, охраняемая территория)
 
 1. Elk winter in the state *preserve*.
 2. The family donated the land as a nature *preserve*.
 3. Hunting is banned in both *preserves*.
+
+**2. Fruit cooked with sugar and sealed in jars, chunkier than jelly.** (варенье, конфитюр)
+
+4. She spread strawberry *preserves* on her toast.
+5. The farm stand sells honey and homemade *preserves*.
+6. We put up six jars of peach *preserves* every August.
+
+**3. An activity or area treated as belonging to one group alone.** (вотчина, исключительная сфера)
+
+7. Coding was once the *preserve* of a few specialists.
+8. The club stayed the *preserve* of a handful of old families.
+9. Space flight is no longer the sole *preserve* of governments.
 
 ---
 
@@ -8000,15 +8046,23 @@ A gradual movement forward through a series of stages.
 ### progressive
 
 **Pronunciation:** /prəˈɡrɛsɪv/ &middot; *pruh-GRES-iv*
-**Русский:** прогрессист, сторонник реформ
+**Русский:** прогрессист, сторонник реформ; продолженное (длительное) время
 **Plural:** *progressives*
 **Countability:** countable
 
-Someone who supports social reform and change in politics.
+Progressive has 2 distinct senses.
+
+**1. Someone who supports social reform and change in politics.** (прогрессист, сторонник реформ)
 
 1. *Progressives* pushed hard for the amendment.
 2. She ran as a *progressive* and won the primary.
 3. The party's *progressives* voted against the compromise.
+
+**2. The verb form ending in -ing, used for an action that is going on.** (продолженное (длительное) время)
+
+4. Use the present *progressive* for something happening right now.
+5. Stative verbs are rarely used in the *progressive*.
+6. The past *progressive* sets the scene for another event.
 
 ---
 
@@ -8113,15 +8167,23 @@ One of the pointed parts of a fork, plug, or similar object.
 ### proposition
 
 **Pronunciation:** /ˌprɑːpəˈzɪʃən/ &middot; *prah-puh-ZISH-un*
-**Русский:** предложение; утверждение
+**Русский:** предложение; утверждение; вопрос, вынесенный на голосование (в бюллетене)
 **Plural:** *propositions*
 **Countability:** countable
 
-An offer or suggestion, or a statement that can be judged true or false.
+Proposition has 2 distinct senses.
+
+**1. An offer or suggestion, or a statement that can be judged true or false.** (предложение; утверждение)
 
 1. He made me an interesting business *proposition*.
 2. The ballot *proposition* failed by a wide margin.
 3. Running a restaurant is a risky *proposition*.
+
+**2. A measure put directly to voters on a ballot.** (вопрос, вынесенный на голосование (в бюллетене))
+
+4. The *proposition* to raise the sales tax failed by six points.
+5. There are five *propositions* on the November ballot.
+6. Voters approved the school bond *proposition*.
 
 ---
 

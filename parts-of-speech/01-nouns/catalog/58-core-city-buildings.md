@@ -547,22 +547,6 @@ A passage dug underground or through a hill.
 
 ---
 
-### sewer
-
-**Pronunciation:** /ˈsuːər/ &middot; *SOO-ur*
-**Русский:** канализационная труба, коллектор
-**Plural:** *sewers*
-**Countability:** countable
-**Contrast:** Pronounced SOO-ur. A 'sewer' meaning a person who sews is SOH-ur — same spelling, different word.
-
-An underground pipe that carries away waste water.
-
-1. The *sewer* backed up after the storm.
-2. Crews are replacing century-old *sewers* downtown.
-3. That smell is coming from the *sewer*.
-
----
-
 ### manhole
 
 **Pronunciation:** /ˈmænhoʊl/ &middot; *MAN-hohl*
@@ -1606,15 +1590,23 @@ Land and the buildings on it, thought of as property to buy and sell.
 ### property
 
 **Pronunciation:** /ˈprɑːpərti/ &middot; *PRAH-pur-tee*
-**Русский:** недвижимость; участок с домом
+**Русский:** недвижимость; участок с домом; свойство
 **Plural:** *properties*
 **Countability:** both — countable and uncountable with different meanings
 
-A building and its land as a countable unit, or ownership and possessions in general.
+Property has 2 distinct senses.
+
+**1. A building and its land as a countable unit, or ownership and possessions in general.** (недвижимость; участок с домом)
 
 1. They own a *property* just outside the city.
 2. The company manages forty rental *properties*.
 3. Damage to public *property* carries a fine.
+
+**2. A quality or characteristic that belongs to a substance or a thing.** (свойство)
+
+4. Aloe is said to have healing *properties*.
+5. Heat changes the chemical *properties* of the metal.
+6. One useful *property* of salt is that it melts ice.
 
 ---
 

@@ -2237,15 +2237,23 @@ A piece of classical music for one or two instruments, usually in three parts.
 ### overture
 
 **Pronunciation:** /ˈoʊvərtʃʊr/ &middot; *OH-vur-chur*
-**Русский:** увертюра
+**Русский:** увертюра; первый шаг, предложение начать переговоры
 **Plural:** *overtures*
 **Countability:** countable
 
-The orchestral piece played at the beginning of an opera or a show.
+Overture has 2 distinct senses.
+
+**1. The orchestral piece played at the beginning of an opera or a show.** (увертюра)
 
 1. The *overture* is the best-known part of the opera.
 2. The orchestra opened with a short *overture*.
 3. Both *overtures* were written after the operas were finished.
+
+**2. An approach made to someone in order to open talks or begin a relationship.** (первый шаг, предложение начать переговоры)
+
+4. The company made *overtures* to a smaller rival about a merger.
+5. He ignored her *overtures* of friendship for months.
+6. Both sides brushed aside the early peace *overtures*.
 
 ---
 

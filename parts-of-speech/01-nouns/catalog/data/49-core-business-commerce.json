@@ -1813,14 +1813,43 @@
       "term": "ownership",
       "ipa": "/ˈoʊnərʃɪp/",
       "respell": "OH-nur-ship",
-      "meaning": "The fact of owning something, or who owns it. ---",
+      "meaning": "Ownership has 2 distinct senses.",
       "examples": [
         "Ownership of the building changed twice.",
         "The restaurant is under new ownership.",
-        "Employee ownership keeps people from leaving."
+        "Employee ownership keeps people from leaving.",
+        "Somebody needs to take ownership of this bug.",
+        "She showed real ownership of the project from her first week.",
+        "The manager keeps asking for more ownership from her team."
       ],
-      "senses": [],
-      "русский": "право собственности, владение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The fact of owning something, or who owns it",
+          "body": [
+            "(право собственности, владение)"
+          ],
+          "examples": [
+            "Ownership of the building changed twice.",
+            "The restaurant is under new ownership.",
+            "Employee ownership keeps people from leaving."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Responsibility that a person willingly takes on for a task or a problem",
+          "body": [
+            "(ответственность (за задачу, за проблему))",
+            "---"
+          ],
+          "examples": [
+            "Somebody needs to take ownership of this bug.",
+            "She showed real ownership of the project from her first week.",
+            "The manager keeps asking for more ownership from her team."
+          ]
+        }
+      ],
+      "русский": "право собственности, владение; ответственность (за задачу, за проблему)",
       "countability": "uncountable"
     },
     {
@@ -2909,14 +2938,58 @@
       "term": "provision",
       "ipa": "/prəˈvɪʒən/",
       "respell": "pruh-VIZH-un",
-      "meaning": "A particular condition written into a contract or a law. ---",
+      "meaning": "Provision has 3 distinct senses.",
       "examples": [
         "One provision lets either side walk away.",
         "The provisions on late payment are on page four.",
-        "They added a provision about overtime."
+        "They added a provision about overtime.",
+        "We loaded the canoe with provisions for five days.",
+        "The lighthouse keeper got provisions once a month.",
+        "They ran short of provisions halfway through the trek.",
+        "The law deals with the provision of clean drinking water.",
+        "The city is responsible for the provision of trash collection.",
+        "Federal money covers the provision of free school lunches."
       ],
-      "senses": [],
-      "русский": "положение, условие (договора)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular condition written into a contract or a law",
+          "body": [
+            "(положение, условие (договора))"
+          ],
+          "examples": [
+            "One provision lets either side walk away.",
+            "The provisions on late payment are on page four.",
+            "They added a provision about overtime."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Food and other supplies gathered for a trip or a stay",
+          "body": [
+            "(провизия, припасы)"
+          ],
+          "examples": [
+            "We loaded the canoe with provisions for five days.",
+            "The lighthouse keeper got provisions once a month.",
+            "They ran short of provisions halfway through the trek."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of supplying something that people need",
+          "body": [
+            "(предоставление, обеспечение)",
+            "---"
+          ],
+          "examples": [
+            "The law deals with the provision of clean drinking water.",
+            "The city is responsible for the provision of trash collection.",
+            "Federal money covers the provision of free school lunches."
+          ]
+        }
+      ],
+      "русский": "положение, условие (договора); провизия, припасы; предоставление, обеспечение",
       "plural": "provisions",
       "countability": "countable"
     },
@@ -3216,14 +3289,43 @@
       "term": "prospect",
       "ipa": "/ˈprɑːspɛkt/",
       "respell": "PRAH-spekt",
-      "meaning": "A possible customer, or a chance that something good will happen. ---",
+      "meaning": "Prospect has 2 distinct senses.",
       "examples": [
         "The salesman had forty prospects on his list.",
         "She's a serious prospect, not just a browser.",
-        "The prospects for a deal look better this week."
+        "The prospects for a deal look better this week.",
+        "He was the team's top pitching prospect two years ago.",
+        "Scouts rank her among the best prospects in the state.",
+        "The trade brought back two prospects and a draft pick."
       ],
-      "senses": [],
-      "русский": "потенциальный клиент; перспектива",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A possible customer, or a chance that something good will happen",
+          "body": [
+            "(потенциальный клиент; перспектива)"
+          ],
+          "examples": [
+            "The salesman had forty prospects on his list.",
+            "She's a serious prospect, not just a browser.",
+            "The prospects for a deal look better this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A young player expected to become very good",
+          "body": [
+            "(перспективный игрок, талант)",
+            "---"
+          ],
+          "examples": [
+            "He was the team's top pitching prospect two years ago.",
+            "Scouts rank her among the best prospects in the state.",
+            "The trade brought back two prospects and a draft pick."
+          ]
+        }
+      ],
+      "русский": "потенциальный клиент; перспектива; перспективный игрок, талант",
       "plural": "prospects",
       "countability": "countable"
     },

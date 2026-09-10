@@ -207,15 +207,29 @@ Deposit has 2 distinct senses.
 ### withdrawal
 
 **Pronunciation:** /wɪðˈdrɔːəl/ &middot; *with-DRAW-uhl*
-**Русский:** снятие денег со счёта
+**Русский:** снятие денег со счёта; вывод (войск); отказ от участия, отзыв; синдром отмены, ломка
 **Plural:** *withdrawals*
 **Countability:** countable
 
-An act of taking money out of a bank account.
+Withdrawal has 3 distinct senses.
+
+**1. An act of taking money out of a bank account.** (снятие денег со счёта)
 
 1. There's a limit on daily *withdrawals*.
 2. The *withdrawal* showed up on my statement.
 3. She made a large *withdrawal* on Friday afternoon.
+
+**2. The act of pulling out of a place or taking something back, especially of troops leaving a country.** (вывод (войск); отказ от участия, отзыв)
+
+4. The *withdrawal* of American troops took eighteen months.
+5. His *withdrawal* from the race surprised everyone at the party.
+6. The company announced its *withdrawal* from the European market.
+
+**3. The sick, shaky period a person goes through after quitting a drug the body has come to depend on.** (синдром отмены, ломка)
+
+7. He spent three days in *withdrawal* before the worst of it passed.
+8. Caffeine *withdrawal* gave her a headache for most of a week.
+9. The clinic treats *withdrawal* with medication and counseling.
 
 ---
 
@@ -251,16 +265,30 @@ Balance has 3 distinct senses.
 ### transfer
 
 **Pronunciation:** /ˈtrænsfɜːr/ &middot; *TRANS-fur*
-**Русский:** перевод (денег)
+**Русский:** перевод (денег); перевод (на другую работу, в другую школу, в другой клуб); пересадочный билет
 **Plural:** *transfers*
 **Countability:** countable
 **Contrast:** Noun stress falls on the first syllable (TRANS-fer); the verb stresses the second (trans-FER).
 
-A movement of money from one account to another.
+Transfer has 3 distinct senses.
+
+**1. A movement of money from one account to another.** (перевод (денег))
 
 1. The wire *transfer* takes two business days.
 2. I set up an automatic *transfer* to savings.
 3. International *transfers* cost extra.
+
+**2. A move of a person from one place, job, school, or team to another.** (перевод (на другую работу, в другую школу, в другой клуб))
+
+4. He put in for a *transfer* to the Denver office.
+5. Her *transfer* to the day shift comes through in March.
+6. Two of the team's starters asked for *transfers*.
+
+**3. A ticket that lets a passenger change to another bus or train without paying again.** (пересадочный билет)
+
+7. Ask the driver for a *transfer* when you get on.
+8. My *transfer* expired before the second bus showed up.
+9. One fare includes two free *transfers*.
 
 ---
 
@@ -722,15 +750,23 @@ Default has 2 distinct senses.
 ### principal
 
 **Pronunciation:** /ˈprɪnsəpəl/ &middot; *PRIN-suh-puhl*
-**Русский:** основная сумма долга
+**Русский:** основная сумма долга; директор школы
 **Countability:** uncountable
 **Contrast:** Sounds exactly like *principle*, a rule; the money sense is spelled *principal*.
 
-The original amount of a loan, apart from the interest on it.
+Principal has 2 distinct senses.
+
+**1. The original amount of a loan, apart from the interest on it.** (основная сумма долга)
 
 1. Most of the early payments go to interest, not *principal*.
 2. She put an extra hundred a month toward the *principal*.
 3. The *principal* on the loan is still forty thousand.
+
+**2. The person in charge of a school.** (директор школы)
+
+4. The *principal* called my parents about the fight.
+5. She has been the *principal* at Lincoln Elementary for nine years.
+6. Two *principals* from the district came to the board meeting.
 
 ---
 
@@ -1876,15 +1912,23 @@ A printed or digital slip that gives you money off a purchase.
 ### purchase
 
 **Pronunciation:** /ˈpɜːrtʃəs/ &middot; *PUR-chuhs*
-**Русский:** покупка, приобретение
+**Русский:** покупка, приобретение; точка опоры, сцепление, зацеп
 **Plural:** *purchases*
 **Countability:** countable
 
-Something bought, or the act of buying it.
+Purchase has 2 distinct senses.
+
+**1. Something bought, or the act of buying it.** (покупка, приобретение)
 
 1. It was an impulse *purchase*.
 2. Keep receipts for all major *purchases*.
 3. The *purchase* went through this morning.
+
+**2. A firm grip or foothold that keeps something from slipping.** (точка опоры, сцепление, зацеп)
+
+4. The ladder could not get any *purchase* on the icy step.
+5. He grabbed the branch, lost his *purchase*, and slid down.
+6. New tires give the truck better *purchase* in mud.
 
 ---
 
@@ -2211,15 +2255,29 @@ Startup has 2 distinct senses.
 ### turnover
 
 **Pronunciation:** /ˈtɜːrnoʊvər/ &middot; *TUR-noh-vur*
-**Русский:** текучка кадров; оборот
+**Русский:** текучка кадров; оборот; слоёный пирожок с начинкой; потеря мяча (в игре)
 **Countability:** uncountable
 **Contrast:** In American business English *turnover* usually means staff churn; the British use it for sales revenue.
 
-The rate at which employees leave and are replaced, or the money a business takes in.
+Turnover has 3 distinct senses.
+
+**1. The rate at which employees leave and are replaced, or the money a business takes in.** (текучка кадров; оборот)
 
 1. *Turnover* in that department is brutal.
 2. High *turnover* costs more than people think.
 3. They cut *turnover* by raising starting pay.
+
+**2. A small folded pastry with fruit sealed inside.** (слоёный пирожок с начинкой)
+
+4. She warmed up an apple *turnover* for breakfast.
+5. The bakery makes a good peach *turnover* in the summer.
+6. He ate half a cherry *turnover* and left the rest.
+
+**3. A play in which a team loses the ball to the other side.** (потеря мяча (в игре))
+
+7. The defense forced a *turnover* on the very first drive.
+8. That *turnover* in the fourth quarter cost them the game.
+9. He scored sixteen points with only one *turnover*.
 
 ---
 

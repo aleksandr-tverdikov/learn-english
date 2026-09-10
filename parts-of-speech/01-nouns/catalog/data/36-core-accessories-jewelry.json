@@ -928,14 +928,43 @@
       "term": "turquoise",
       "ipa": "/ˈtɜːrkɔɪz/",
       "respell": "TUR-koyz",
-      "meaning": "A blue-green stone used in silver jewelry. ---",
+      "meaning": "Turquoise has 2 distinct senses.",
       "examples": [
         "The ring is silver with a big chunk of turquoise.",
         "She sells turquoise jewelry at the market on weekends.",
-        "Real turquoise has dark veins running through it."
+        "Real turquoise has dark veins running through it.",
+        "The water in the cove was a brilliant turquoise.",
+        "The walls were painted a soft turquoise.",
+        "She picked turquoise for the bridesmaids' dresses."
       ],
-      "senses": [],
-      "русский": "бирюза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A blue-green stone used in silver jewelry",
+          "body": [
+            "(бирюза)"
+          ],
+          "examples": [
+            "The ring is silver with a big chunk of turquoise.",
+            "She sells turquoise jewelry at the market on weekends.",
+            "Real turquoise has dark veins running through it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A greenish-blue color",
+          "body": [
+            "(бирюзовый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The water in the cove was a brilliant turquoise.",
+            "The walls were painted a soft turquoise.",
+            "She picked turquoise for the bridesmaids' dresses."
+          ]
+        }
+      ],
+      "русский": "бирюза; бирюзовый цвет",
       "countability": "uncountable",
       "contrast": "In American English the qu is usually just a k sound: TUR-koyz."
     },
@@ -1299,77 +1328,46 @@
       "contrast": "The w in wrist is silent: RIST-wahch."
     },
     {
-      "term": "bow",
-      "ipa": "/boʊ/",
-      "respell": "BOH",
-      "meaning": "Bow has 3 distinct senses.",
+      "term": "umbrella",
+      "ipa": "/ʌmˈbrɛlə/",
+      "respell": "um-BREL-uh",
+      "meaning": "Umbrella has 2 distinct senses.",
       "examples": [
-        "She tied a red bow around the box.",
-        "The dress has a bow at the waist.",
-        "There were paper bows taped to every chair.",
-        "He drew the bow and let the arrow fly.",
-        "The museum displays bows made by Plains hunters.",
-        "She practices with a bow at the archery range every Saturday.",
-        "She raised her bow and the orchestra began.",
-        "A good bow can cost as much as the violin itself.",
-        "He rubbed rosin along the bow before the concert."
+        "Take an umbrella, it's supposed to rain all afternoon.",
+        "The wind turned my umbrella inside out.",
+        "There are three broken umbrellas by the door.",
+        "The clinic works under the umbrella of the state health department.",
+        "Six local clubs now meet under one umbrella.",
+        "The phrase serves as an umbrella for several different conditions."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A knot with two loops, tied for decoration",
+          "head": "A folding cloth canopy on a frame that keeps rain off you",
           "body": [
-            "(бант, бантик)"
+            "(зонт)"
           ],
           "examples": [
-            "She tied a red bow around the box.",
-            "The dress has a bow at the waist.",
-            "There were paper bows taped to every chair."
+            "Take an umbrella, it's supposed to rain all afternoon.",
+            "The wind turned my umbrella inside out.",
+            "There are three broken umbrellas by the door."
           ]
         },
         {
           "n": "2",
-          "head": "A curved piece of wood with a tight string, used to shoot arrows",
+          "head": "A single organization or term that covers many smaller groups or parts",
           "body": [
-            "(лук (оружие))"
-          ],
-          "examples": [
-            "He drew the bow and let the arrow fly.",
-            "The museum displays bows made by Plains hunters.",
-            "She practices with a bow at the archery range every Saturday."
-          ]
-        },
-        {
-          "n": "3",
-          "head": "The thin stick with stretched hairs that is drawn across the strings of a violin or cello",
-          "body": [
-            "(смычок)",
+            "(зонтичная структура; общее название)",
             "---"
           ],
           "examples": [
-            "She raised her bow and the orchestra began.",
-            "A good bow can cost as much as the violin itself.",
-            "He rubbed rosin along the bow before the concert."
+            "The clinic works under the umbrella of the state health department.",
+            "Six local clubs now meet under one umbrella.",
+            "The phrase serves as an umbrella for several different conditions."
           ]
         }
       ],
-      "русский": "бант, бантик; лук (оружие); смычок",
-      "plural": "bows",
-      "countability": "countable",
-      "contrast": "This bow rhymes with go; the bow that means bending forward rhymes with cow."
-    },
-    {
-      "term": "umbrella",
-      "ipa": "/ʌmˈbrɛlə/",
-      "respell": "um-BREL-uh",
-      "meaning": "A folding cloth canopy on a frame that keeps rain off you. ---",
-      "examples": [
-        "Take an umbrella, it's supposed to rain all afternoon.",
-        "The wind turned my umbrella inside out.",
-        "There are three broken umbrellas by the door."
-      ],
-      "senses": [],
-      "русский": "зонт",
+      "русский": "зонт; зонтичная структура; общее название",
       "plural": "umbrellas",
       "countability": "countable"
     },

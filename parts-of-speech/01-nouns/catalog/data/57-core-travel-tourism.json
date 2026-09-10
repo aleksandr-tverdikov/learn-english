@@ -231,14 +231,43 @@
       "term": "turbulence",
       "ipa": "/ˈtɜːrbjələns/",
       "respell": "TUR-byuh-luhns",
-      "meaning": "Rough air that shakes a plane during flight. ---",
+      "meaning": "Turbulence has 2 distinct senses.",
       "examples": [
         "We hit some turbulence over the mountains.",
         "The turbulence lasted about ten minutes.",
-        "She's a nervous flyer, so any turbulence upsets her."
+        "She's a nervous flyer, so any turbulence upsets her.",
+        "The company survived a year of financial turbulence.",
+        "There was real political turbulence after the vote.",
+        "The family went through some turbulence after the move."
       ],
-      "senses": [],
-      "русский": "турбулентность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Rough air that shakes a plane during flight",
+          "body": [
+            "(турбулентность)"
+          ],
+          "examples": [
+            "We hit some turbulence over the mountains.",
+            "The turbulence lasted about ten minutes.",
+            "She's a nervous flyer, so any turbulence upsets her."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period of confusion, conflict, or sudden change in a situation",
+          "body": [
+            "(потрясения, нестабильность)",
+            "---"
+          ],
+          "examples": [
+            "The company survived a year of financial turbulence.",
+            "There was real political turbulence after the vote.",
+            "The family went through some turbulence after the move."
+          ]
+        }
+      ],
+      "русский": "турбулентность; потрясения, нестабильность",
       "countability": "uncountable"
     },
     {
@@ -628,14 +657,43 @@
       "term": "passport",
       "ipa": "/ˈpæspɔːrt/",
       "respell": "PAS-port",
-      "meaning": "An official document that proves your nationality and lets you travel abroad. ---",
+      "meaning": "Passport has 2 distinct senses.",
       "examples": [
         "My passport expires next spring.",
         "Have your passports out for the officer.",
-        "He renewed his passport just in time."
+        "He renewed his passport just in time.",
+        "A degree is no longer a passport to a good job.",
+        "The scholarship was her passport out of the mill town.",
+        "Solid English is a passport to work almost anywhere."
       ],
-      "senses": [],
-      "русский": "загранпаспорт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official document that proves your nationality and lets you travel abroad",
+          "body": [
+            "(загранпаспорт)"
+          ],
+          "examples": [
+            "My passport expires next spring.",
+            "Have your passports out for the officer.",
+            "He renewed his passport just in time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that gives a person access to a better position or opportunity",
+          "body": [
+            "(путь, пропуск (к чему-либо))",
+            "---"
+          ],
+          "examples": [
+            "A degree is no longer a passport to a good job.",
+            "The scholarship was her passport out of the mill town.",
+            "Solid English is a passport to work almost anywhere."
+          ]
+        }
+      ],
+      "русский": "загранпаспорт; путь, пропуск (к чему-либо)",
       "plural": "passports",
       "countability": "countable",
       "contrast": "An American passport is for foreign travel; the domestic ID Russians call паспорт has no US equivalent."

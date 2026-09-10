@@ -94,14 +94,43 @@
       "term": "triangle",
       "ipa": "/ˈtraɪæŋɡəl/",
       "respell": "TRY-ang-gul",
-      "meaning": "A flat shape with three straight sides and three angles. ---",
+      "meaning": "Triangle has 2 distinct senses.",
       "examples": [
         "Cut each sandwich into two triangles.",
         "The roof forms a perfect triangle.",
-        "A triangle has angles that add up to 180 degrees."
+        "A triangle has angles that add up to 180 degrees.",
+        "She played the triangle in the school orchestra.",
+        "You can hear the triangle ringing over the strings.",
+        "The music teacher handed out tambourines and triangles."
       ],
-      "senses": [],
-      "русский": "треугольник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat shape with three straight sides and three angles",
+          "body": [
+            "(треугольник)"
+          ],
+          "examples": [
+            "Cut each sandwich into two triangles.",
+            "The roof forms a perfect triangle.",
+            "A triangle has angles that add up to 180 degrees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A percussion instrument made of a bent steel bar, struck with a metal stick",
+          "body": [
+            "(треугольник (музыкальный инструмент))",
+            "---"
+          ],
+          "examples": [
+            "She played the triangle in the school orchestra.",
+            "You can hear the triangle ringing over the strings.",
+            "The music teacher handed out tambourines and triangles."
+          ]
+        }
+      ],
+      "русский": "треугольник; треугольник (музыкальный инструмент)",
       "plural": "triangles",
       "countability": "countable"
     },
@@ -2814,14 +2843,43 @@
       "term": "transparency",
       "ipa": "/trænsˈpɛrənsi/",
       "respell": "trans-PAIR-un-see",
-      "meaning": "The quality of letting light through so you can see the other side. ---",
+      "meaning": "Transparency has 2 distinct senses.",
       "examples": [
         "The glaze keeps the transparency of the glass.",
         "Reduce the transparency of that layer.",
-        "The plastic loses its transparency over time."
+        "The plastic loses its transparency over time.",
+        "Voters are demanding more transparency from city hall.",
+        "The company promised full transparency about the layoffs.",
+        "There is very little transparency in how the grants are awarded."
       ],
-      "senses": [],
-      "русский": "прозрачность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The quality of letting light through so you can see the other side",
+          "body": [
+            "(прозрачность)"
+          ],
+          "examples": [
+            "The glaze keeps the transparency of the glass.",
+            "Reduce the transparency of that layer.",
+            "The plastic loses its transparency over time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Openness about how decisions are made and money is spent",
+          "body": [
+            "(прозрачность, открытость (в делах, в управлении))",
+            "---"
+          ],
+          "examples": [
+            "Voters are demanding more transparency from city hall.",
+            "The company promised full transparency about the layoffs.",
+            "There is very little transparency in how the grants are awarded."
+          ]
+        }
+      ],
+      "русский": "прозрачность; прозрачность, открытость (в делах, в управлении)",
       "countability": "uncountable"
     },
     {

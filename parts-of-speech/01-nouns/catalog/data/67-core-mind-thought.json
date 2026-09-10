@@ -270,14 +270,43 @@
       "term": "understanding",
       "ipa": "/ˌʌndərˈstændɪŋ/",
       "respell": "un-dur-STAN-ding",
-      "meaning": "Knowledge of how something works or what someone means. ---",
+      "meaning": "Understanding has 2 distinct senses.",
       "examples": [
         "She has a deep understanding of how children learn.",
         "My understanding is that the office closes at five.",
-        "The two sides showed little understanding of each other."
+        "The two sides showed little understanding of each other.",
+        "We have an understanding about who pays for what.",
+        "They reached an understanding after two hours of talks.",
+        "There's an unwritten understanding that nobody parks in that spot."
       ],
-      "senses": [],
-      "русский": "понимание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Knowledge of how something works or what someone means",
+          "body": [
+            "(понимание)"
+          ],
+          "examples": [
+            "She has a deep understanding of how children learn.",
+            "My understanding is that the office closes at five.",
+            "The two sides showed little understanding of each other."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal agreement between people",
+          "body": [
+            "(договорённость, уговор)",
+            "---"
+          ],
+          "examples": [
+            "We have an understanding about who pays for what.",
+            "They reached an understanding after two hours of talks.",
+            "There's an unwritten understanding that nobody parks in that spot."
+          ]
+        }
+      ],
+      "русский": "понимание; договорённость, уговор",
       "countability": "uncountable"
     },
     {
@@ -634,14 +663,43 @@
       "term": "viewpoint",
       "ipa": "/ˈvjuːpɔɪnt/",
       "respell": "VYOO-poynt",
-      "meaning": "The position from which someone judges a matter. ---",
+      "meaning": "Viewpoint has 2 distinct senses.",
       "examples": [
         "The article ignores the tenants' viewpoint.",
         "Both viewpoints deserve a hearing.",
-        "Try to see it from my viewpoint for a second."
+        "Try to see it from my viewpoint for a second.",
+        "We pulled off at a viewpoint to watch the sun go down over the canyon.",
+        "There are three marked viewpoints along the rim trail.",
+        "The viewpoint has a small parking lot and a coin-operated telescope."
       ],
-      "senses": [],
-      "русский": "точка зрения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The position from which someone judges a matter",
+          "body": [
+            "(точка зрения)"
+          ],
+          "examples": [
+            "The article ignores the tenants' viewpoint.",
+            "Both viewpoints deserve a hearing.",
+            "Try to see it from my viewpoint for a second."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A spot beside a road or trail where people stop to look at the scenery",
+          "body": [
+            "(смотровая площадка, видовая точка)",
+            "---"
+          ],
+          "examples": [
+            "We pulled off at a viewpoint to watch the sun go down over the canyon.",
+            "There are three marked viewpoints along the rim trail.",
+            "The viewpoint has a small parking lot and a coin-operated telescope."
+          ]
+        }
+      ],
+      "русский": "точка зрения; смотровая площадка, видовая точка",
       "plural": "viewpoints",
       "countability": "countable"
     },
@@ -694,14 +752,43 @@
       "term": "prejudice",
       "ipa": "/ˈprɛdʒədɪs/",
       "respell": "PREJ-uh-dis",
-      "meaning": "An unfair opinion about a group of people formed without knowing them. ---",
+      "meaning": "Prejudice has 2 distinct senses.",
       "examples": [
         "He grew up surrounded by prejudice.",
         "The law was written to fight racial prejudice.",
-        "Prejudice against renters is still common here."
+        "Prejudice against renters is still common here.",
+        "The judge dismissed the case with prejudice, so it can never be refiled.",
+        "She resigned without prejudice to her right to sue later.",
+        "The two-year delay caused real prejudice to the defense."
       ],
-      "senses": [],
-      "русский": "предрассудок, предубеждение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unfair opinion about a group of people formed without knowing them",
+          "body": [
+            "(предрассудок, предубеждение)"
+          ],
+          "examples": [
+            "He grew up surrounded by prejudice.",
+            "The law was written to fight racial prejudice.",
+            "Prejudice against renters is still common here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Harm to someone's rights or legal position, especially in the phrases with prejudice and without prejudice",
+          "body": [
+            "(ущерб правам, вред (юр.))",
+            "---"
+          ],
+          "examples": [
+            "The judge dismissed the case with prejudice, so it can never be refiled.",
+            "She resigned without prejudice to her right to sue later.",
+            "The two-year delay caused real prejudice to the defense."
+          ]
+        }
+      ],
+      "русский": "предрассудок, предубеждение; ущерб правам, вред (юр.)",
       "countability": "uncountable"
     },
     {

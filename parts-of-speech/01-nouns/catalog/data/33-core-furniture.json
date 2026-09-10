@@ -913,14 +913,43 @@
       "term": "wardrobe",
       "ipa": "/ˈwɔːrdroʊb/",
       "respell": "WOR-drohb",
-      "meaning": "A tall freestanding cupboard for hanging clothes. ---",
+      "meaning": "Wardrobe has 2 distinct senses.",
       "examples": [
         "The old house has no closets, just a wardrobe in each room.",
         "They hauled the wardrobe up two flights of stairs.",
-        "Antique wardrobes barely fit through modern doorways."
+        "Antique wardrobes barely fit through modern doorways.",
+        "She got rid of half her wardrobe before the move.",
+        "A good coat is worth the money even if the rest of your wardrobe is cheap.",
+        "He built his whole work wardrobe around two gray suits."
       ],
-      "senses": [],
-      "русский": "платяной шкаф; гардероб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall freestanding cupboard for hanging clothes",
+          "body": [
+            "(платяной шкаф; гардероб)"
+          ],
+          "examples": [
+            "The old house has no closets, just a wardrobe in each room.",
+            "They hauled the wardrobe up two flights of stairs.",
+            "Antique wardrobes barely fit through modern doorways."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "All the clothes that one person owns",
+          "body": [
+            "(гардероб (вся одежда человека))",
+            "---"
+          ],
+          "examples": [
+            "She got rid of half her wardrobe before the move.",
+            "A good coat is worth the money even if the rest of your wardrobe is cheap.",
+            "He built his whole work wardrobe around two gray suits."
+          ]
+        }
+      ],
+      "русский": "платяной шкаф; гардероб; гардероб (вся одежда человека)",
       "plural": "wardrobes",
       "countability": "countable",
       "contrast": "In the US a wardrobe is a freestanding piece of furniture; built-in storage in the wall is a closet."
