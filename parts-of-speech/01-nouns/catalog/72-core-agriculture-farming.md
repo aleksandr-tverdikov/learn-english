@@ -100,16 +100,24 @@ A large machine that cuts grain and separates the seed from the stalks in one pa
 ### plow
 
 **Pronunciation:** /plaʊ/ &middot; *PLOW*
-**Русский:** плуг
+**Русский:** плуг; снегоуборочная машина, отвал
 **Plural:** *plows*
 **Countability:** countable
 **Contrast:** Americans spell it *plow*; the British spell the same word *plough*. Both rhyme with *cow*.
 
-A farm tool with heavy blades, pulled through soil to turn it over before planting.
+Plow has 2 distinct senses.
+
+**1. A farm tool with heavy blades, pulled through soil to turn it over before planting.** (плуг)
 
 1. The *plow* is hitched to the back of the tractor.
 2. He keeps two old *plows* rusting behind the barn.
 3. A single *plow* used to take a whole team of horses.
+
+**2. A truck or blade that pushes snow off roads.** (снегоуборочная машина, отвал)
+
+4. The *plow* came through around four in the morning.
+5. *Plows* were out all night on the interstate.
+6. The *plow* left a wall of snow at the end of the driveway.
 
 ---
 
@@ -138,15 +146,23 @@ Irrigation has 2 distinct senses.
 ### yield
 
 **Pronunciation:** /jiːld/ &middot; *YEELD*
-**Русский:** урожай, урожайность
+**Русский:** урожай, урожайность; доходность (вклада, облигации)
 **Plural:** *yields*
 **Countability:** countable
 
-The amount of a crop that a piece of land produces.
+Yield has 2 distinct senses.
+
+**1. The amount of a crop that a piece of land produces.** (урожай, урожайность)
 
 1. This year's corn *yield* was the best in a decade.
 2. Wet weather cut *yields* by almost a third.
 3. The new seed promises a higher *yield* per acre.
+
+**2. The income an investment produces, usually given as a percentage.** (доходность (вклада, облигации))
+
+4. The bond has a *yield* of about four percent.
+5. Falling rates pushed *yields* down all year.
+6. Savers chase the highest *yield* they can find.
 
 ---
 
@@ -195,15 +211,29 @@ Open, unplanted land where livestock are left to graze.
 ### ranch
 
 **Pronunciation:** /ræntʃ/ &middot; *RANCH*
-**Русский:** ранчо, скотоводческая ферма
+**Русский:** ранчо, скотоводческая ферма; соус «ранч»; одноэтажный дом (типа «ранчо»)
 **Plural:** *ranches*
 **Countability:** countable
 
-A large farm in the western United States where cattle, sheep, or horses are raised.
+Ranch has 3 distinct senses.
+
+**1. A large farm in the western United States where cattle, sheep, or horses are raised.** (ранчо, скотоводческая ферма)
 
 1. They run a cattle *ranch* out west.
 2. Both *ranches* were sold to the same buyer.
 3. We spent a week on a working *ranch* last summer.
+
+**2. A creamy buttermilk salad dressing popular in the United States.** (соус «ранч»)
+
+4. Can I get a side of *ranch* with the wings?
+5. He puts *ranch* on everything, even pizza.
+6. The salad comes with *ranch* or vinaigrette.
+
+**3. A low, wide house with all the rooms on one floor.** (одноэтажный дом (типа «ранчо»))
+
+7. They bought a three-bedroom *ranch* out in the suburbs.
+8. Most of the houses on that street are brick *ranches*.
+9. A *ranch* is easier to keep up than a two-story.
 
 ---
 
@@ -384,16 +414,30 @@ A set of pens where livestock are held before being sold or shipped.
 ### tract
 
 **Pronunciation:** /trækt/ &middot; *TRAKT*
-**Русский:** участок земли, надел
+**Русский:** участок земли, надел; тракт (пищеварительный, дыхательный); брошюра, трактат (агитационный)
 **Plural:** *tracts*
 **Countability:** countable
 **Contrast:** Sounds exactly like *tracked*, the past tense of *track*.
 
-A large, continuous piece of land.
+Tract has 3 distinct senses.
+
+**1. A large, continuous piece of land.** (участок земли, надел)
 
 1. He bought a forty-acre *tract* next to the creek.
 2. Several *tracts* of farmland came up for auction.
 3. The state protected a *tract* of prairie from development.
+
+**2. A system of connected organs that something passes through in the body.** (тракт (пищеварительный, дыхательный))
+
+4. Fiber keeps the digestive *tract* healthy.
+5. The infection spread to her upper respiratory *tract*.
+6. The drug is absorbed in the intestinal *tract*.
+
+**3. A short printed pamphlet arguing a religious or political point.** (брошюра, трактат (агитационный))
+
+7. A man on the corner handed out religious *tracts*.
+8. The *tract* ran to only eight pages.
+9. He published a *tract* against the new tax.
 
 ---
 
@@ -471,15 +515,23 @@ Fine soil carried by moving water and left behind when it slows.
 ### erosion
 
 **Pronunciation:** /ɪˈroʊʒən/ &middot; *ih-ROH-zhuhn*
-**Русский:** эрозия (почвы)
+**Русский:** эрозия (почвы); постепенная утрата, размывание (прав, доверия)
 **Countability:** uncountable
 **Contrast:** The *s* is pronounced like the *s* in *measure*: ih-ROH-zhuhn.
 
-The gradual wearing away of soil by wind or water.
+Erosion has 2 distinct senses.
+
+**1. The gradual wearing away of soil by wind or water.** (эрозия (почвы))
 
 1. Cover crops slow *erosion* over the winter.
 2. You can see *erosion* along every ditch bank.
 3. Plowing up and down the slope makes *erosion* worse.
+
+**2. The gradual weakening or loss of something valued.** (постепенная утрата, размывание (прав, доверия))
+
+4. The scandal caused a slow *erosion* of trust.
+5. Judges warned of a steady *erosion* of basic rights.
+6. Inflation means the quiet *erosion* of everyone's savings.
 
 ---
 
@@ -992,15 +1044,23 @@ Silage has 2 distinct senses.
 ### fodder
 
 **Pronunciation:** /ˈfɑːdər/ &middot; *FAH-dur*
-**Русский:** корм для скота, фураж
+**Русский:** корм для скота, фураж; материал, пища (для сплетен, критики)
 **Countability:** uncountable
 **Contrast:** Uncountable: some *fodder*, never 'a fodder'.
 
-Dried food such as hay or straw given to farm animals.
+Fodder has 2 distinct senses.
+
+**1. Dried food such as hay or straw given to farm animals.** (корм для скота, фураж)
 
 1. There's barely enough *fodder* to last till spring.
 2. The barn is stacked with *fodder*.
 3. Corn stalks make rough but usable *fodder*.
+
+**2. Material used up for some purpose, especially to feed talk or criticism.** (материал, пища (для сплетен, критики))
+
+4. The scandal was perfect *fodder* for late-night comedians.
+5. His private life became tabloid *fodder*.
+6. The leaked memo gave his critics plenty of *fodder*.
 
 ---
 
@@ -1096,16 +1156,24 @@ A thick underground part of a stem, such as a potato, that stores food for the p
 ### shoot
 
 **Pronunciation:** /ʃuːt/ &middot; *SHOOT*
-**Русский:** росток, побег
+**Русский:** росток, побег; съёмка, фотосессия
 **Plural:** *shoots*
 **Countability:** countable
 **Contrast:** Sounds exactly like *chute*, a sloping channel — same sound, different word.
 
-A new stem or branch growing from a plant.
+Shoot has 2 distinct senses.
+
+**1. A new stem or branch growing from a plant.** (росток, побег)
 
 1. Green *shoots* came up a week after the rain.
 2. He pinched off the weak *shoot* near the base.
 3. The vine sends out a new *shoot* every few days.
+
+**2. A session of taking photographs or filming.** (съёмка, фотосессия)
+
+4. The magazine *shoot* took all morning on the roof.
+5. She booked a family photo *shoot* for the fall.
+6. Both *shoots* were rained out and had to be rescheduled.
 
 ---
 
@@ -1248,15 +1316,23 @@ Cultivator has 2 distinct senses.
 ### tiller
 
 **Pronunciation:** /ˈtɪlər/ &middot; *TIL-ur*
-**Русский:** мотоблок, культиватор (садовый)
+**Русский:** мотоблок, культиватор (садовый); румпель
 **Plural:** *tillers*
 **Countability:** countable
 
-A small machine with turning blades that breaks up garden or field soil.
+Tiller has 2 distinct senses.
+
+**1. A small machine with turning blades that breaks up garden or field soil.** (мотоблок, культиватор (садовый))
 
 1. He borrowed a *tiller* to work up the garden.
 2. The *tiller* wouldn't start after sitting all winter.
 3. Rear-tine *tillers* handle heavy clay better.
+
+**2. The bar attached to a boat's rudder that you push to steer.** (румпель)
+
+4. He kept one hand on the *tiller* and one on the sail.
+5. Push the *tiller* left and the bow swings right.
+6. The old wooden *tiller* was worn smooth.
 
 ---
 
@@ -1500,31 +1576,47 @@ A building where threshed grain is stored.
 ### sty
 
 **Pronunciation:** /staɪ/ &middot; *STY*
-**Русский:** свинарник, свиной загон
+**Русский:** свинарник, свиной загон; ячмень (на глазу)
 **Plural:** *sties*
 **Countability:** countable
 **Contrast:** Sounds the same as *stye*, the swollen spot on an eyelid; the plural is *sties*.
 
-A pen where pigs are kept.
+Sty has 2 distinct senses.
+
+**1. A pen where pigs are kept.** (свинарник, свиной загон)
 
 1. He forked clean straw into the *sty*.
 2. The pigs came running to the front of the *sty*.
 3. Both *sties* were rebuilt with concrete floors.
+
+**2. A small painful swelling on the edge of the eyelid.** (ячмень (на глазу))
+
+4. She woke up with a *sty* on her left eye.
+5. Warm compresses help a *sty* drain.
+6. The *sty* cleared up in a few days.
 
 ---
 
 ### pigpen
 
 **Pronunciation:** /ˈpɪɡpɛn/ &middot; *PIG-pen*
-**Русский:** свинарник, загон для свиней
+**Русский:** свинарник, загон для свиней; свинарник (о беспорядке)
 **Plural:** *pigpens*
 **Countability:** countable
 
-A fenced enclosure where pigs are raised.
+Pigpen has 2 distinct senses.
+
+**1. A fenced enclosure where pigs are raised.** (свинарник, загон для свиней)
 
 1. The *pigpen* sits well away from the house.
 2. He hosed out the *pigpen* every other day.
 3. Your room looks like a *pigpen*.
+
+**2. A very dirty or messy place.** (свинарник (о беспорядке))
+
+4. Clean your room — it's a *pigpen*.
+5. The apartment was a *pigpen* the morning after the party.
+6. His truck is a rolling *pigpen*.
 
 ---
 
@@ -1697,15 +1789,23 @@ A long narrow channel dug to carry water away from or onto a field.
 ### furrow
 
 **Pronunciation:** /ˈfɜːroʊ/ &middot; *FUR-oh*
-**Русский:** борозда
+**Русский:** борозда; глубокая морщина (на лбу)
 **Plural:** *furrows*
 **Countability:** countable
 
-A long narrow groove cut in the soil by a plow.
+Furrow has 2 distinct senses.
+
+**1. A long narrow groove cut in the soil by a plow.** (борозда)
 
 1. Water ran down every *furrow*.
 2. He drove a straight *furrow* the whole length of the field.
 3. The seed drops into the *furrow* and gets covered over.
+
+**2. A deep line or wrinkle in the skin, especially on the forehead.** (глубокая морщина (на лбу))
+
+4. Worry had cut deep *furrows* in his brow.
+5. A *furrow* appeared between her eyebrows as she read the letter.
+6. Years of sun and wind left *furrows* across his face.
 
 ---
 
@@ -2269,15 +2369,23 @@ Vet has 2 distinct senses.
 ### blight
 
 **Pronunciation:** /blaɪt/ &middot; *BLYTE*
-**Русский:** фитофтороз, болезнь растений
+**Русский:** фитофтороз, болезнь растений; упадок, разруха (городская); бич, бедствие
 **Countability:** uncountable
 **Contrast:** The *gh* is silent; it rhymes with *light*.
 
-A plant disease that makes leaves and stems wither and die.
+Blight has 2 distinct senses.
+
+**1. A plant disease that makes leaves and stems wither and die.** (фитофтороз, болезнь растений)
 
 1. *Blight* wiped out the whole potato patch.
 2. Wet weather brings on *blight* in the tomatoes.
 3. They sprayed early to hold off the *blight*.
+
+**2. Something that spoils or ruins a place or situation.** (упадок, разруха (городская); бич, бедствие)
+
+4. Empty factories left decades of urban *blight*.
+5. Litter is a *blight* on the whole neighborhood.
+6. The city has a plan to fight *blight* downtown.
 
 ---
 

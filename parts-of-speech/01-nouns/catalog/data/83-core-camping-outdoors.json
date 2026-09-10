@@ -426,14 +426,43 @@
       "term": "axe",
       "ipa": "/æks/",
       "respell": "AKS",
-      "meaning": "A tool with a heavy blade on a long handle for chopping wood. ---",
+      "meaning": "Axe has 2 distinct senses.",
       "examples": [
         "The axe was stuck in a stump behind the cabin.",
         "Both axes could use sharpening.",
-        "He swung the axe and split the log clean through."
+        "He swung the axe and split the log clean through.",
+        "The network gave the sitcom the axe.",
+        "Half the department got the axe last quarter.",
+        "His pet project was first in line for the axe."
       ],
-      "senses": [],
-      "русский": "топор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool with a heavy blade on a long handle for chopping wood",
+          "body": [
+            "(топор)"
+          ],
+          "examples": [
+            "The axe was stuck in a stump behind the cabin.",
+            "Both axes could use sharpening.",
+            "He swung the axe and split the log clean through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sudden dismissal from a job, or the cancellation of a program",
+          "body": [
+            "(увольнение; закрытие (проекта))",
+            "---"
+          ],
+          "examples": [
+            "The network gave the sitcom the axe.",
+            "Half the department got the axe last quarter.",
+            "His pet project was first in line for the axe."
+          ]
+        }
+      ],
+      "русский": "топор; увольнение; закрытие (проекта)",
       "plural": "axes",
       "countability": "countable",
       "contrast": "Americans often spell it ax. The plural axes is said AK-siz here, but AK-seez when it means more than one axis."
@@ -881,14 +910,43 @@
       "term": "outing",
       "ipa": "/ˈaʊtɪŋ/",
       "respell": "OW-ting",
-      "meaning": "A short trip away from home for pleasure. ---",
+      "meaning": "Outing has 2 distinct senses.",
       "examples": [
         "The whole family came on the outing.",
         "Weekend outings to the lake are a tradition here.",
-        "Bad weather cut the outing short."
+        "Bad weather cut the outing short.",
+        "It was the pitcher's best outing of the season.",
+        "She struck out nine batters in her last outing.",
+        "He gave up four runs in a short outing."
       ],
-      "senses": [],
-      "русский": "вылазка, прогулка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short trip away from home for pleasure",
+          "body": [
+            "(вылазка, прогулка)"
+          ],
+          "examples": [
+            "The whole family came on the outing.",
+            "Weekend outings to the lake are a tradition here.",
+            "Bad weather cut the outing short."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A player's appearance in a single game or race",
+          "body": [
+            "(выступление, игра (спортсмена))",
+            "---"
+          ],
+          "examples": [
+            "It was the pitcher's best outing of the season.",
+            "She struck out nine batters in her last outing.",
+            "He gave up four runs in a short outing."
+          ]
+        }
+      ],
+      "русский": "вылазка, прогулка; выступление, игра (спортсмена)",
       "plural": "outings",
       "countability": "countable"
     },
@@ -1569,14 +1627,43 @@
       "term": "climber",
       "ipa": "/ˈklaɪmər/",
       "respell": "KLY-mur",
-      "meaning": "Someone who climbs rock, ice or mountains. ---",
+      "meaning": "Climber has 2 distinct senses.",
       "examples": [
         "A climber fell on that route last summer.",
         "Two climbers were already on the wall at sunrise.",
-        "The climber rested on a narrow ledge."
+        "The climber rested on a narrow ledge.",
+        "Ivy is a fast climber that will cover the fence in a year.",
+        "Plant a climber at the base of the trellis.",
+        "These roses are climbers and need something to hold on to."
       ],
-      "senses": [],
-      "русский": "скалолаз, альпинист",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who climbs rock, ice or mountains",
+          "body": [
+            "(скалолаз, альпинист)"
+          ],
+          "examples": [
+            "A climber fell on that route last summer.",
+            "Two climbers were already on the wall at sunrise.",
+            "The climber rested on a narrow ledge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plant that grows upward by clinging to a wall or support",
+          "body": [
+            "(вьющееся растение, лиана)",
+            "---"
+          ],
+          "examples": [
+            "Ivy is a fast climber that will cover the fence in a year.",
+            "Plant a climber at the base of the trellis.",
+            "These roses are climbers and need something to hold on to."
+          ]
+        }
+      ],
+      "русский": "скалолаз, альпинист; вьющееся растение, лиана",
       "plural": "climbers",
       "countability": "countable",
       "contrast": "The b is silent: KLY-mur."
@@ -1642,14 +1729,43 @@
       "term": "ascent",
       "ipa": "/əˈsɛnt/",
       "respell": "uh-SENT",
-      "meaning": "A climb up a mountain or slope. ---",
+      "meaning": "Ascent has 2 distinct senses.",
       "examples": [
         "The ascent took us six hours.",
         "He has made three ascents of that peak.",
-        "The last part of the ascent is on loose rock."
+        "The last part of the ascent is on loose rock.",
+        "His ascent from the mailroom to vice president took nine years.",
+        "The book traces the party's ascent after the war.",
+        "Her ascent in the polls surprised everyone."
       ],
-      "senses": [],
-      "русский": "подъём, восхождение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A climb up a mountain or slope",
+          "body": [
+            "(подъём, восхождение)"
+          ],
+          "examples": [
+            "The ascent took us six hours.",
+            "He has made three ascents of that peak.",
+            "The last part of the ascent is on loose rock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rise to a higher rank, position, or level of success",
+          "body": [
+            "(восхождение (к власти, успеху), взлёт)",
+            "---"
+          ],
+          "examples": [
+            "His ascent from the mailroom to vice president took nine years.",
+            "The book traces the party's ascent after the war.",
+            "Her ascent in the polls surprised everyone."
+          ]
+        }
+      ],
+      "русский": "подъём, восхождение; восхождение (к власти, успеху), взлёт",
       "plural": "ascents",
       "countability": "countable",
       "contrast": "Sounds almost exactly like assent, which means agreement."
@@ -1658,14 +1774,58 @@
       "term": "descent",
       "ipa": "/dɪˈsɛnt/",
       "respell": "dih-SENT",
-      "meaning": "A climb or walk down from a high place. ---",
+      "meaning": "Descent has 3 distinct senses.",
       "examples": [
         "The descent is harder on the knees than the climb.",
         "Both descents follow the same gully.",
-        "We started the descent as the weather turned."
+        "We started the descent as the weather turned.",
+        "She is an American of Korean descent.",
+        "The name suggests French descent.",
+        "He traces his descent from a family of farmers.",
+        "The book charts his descent into addiction.",
+        "The coup began the country's descent into chaos.",
+        "It was a slow descent from success into debt."
       ],
-      "senses": [],
-      "русский": "спуск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A climb or walk down from a high place",
+          "body": [
+            "(спуск)"
+          ],
+          "examples": [
+            "The descent is harder on the knees than the climb.",
+            "Both descents follow the same gully.",
+            "We started the descent as the weather turned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The family or nation that someone comes from",
+          "body": [
+            "(происхождение, родословная)"
+          ],
+          "examples": [
+            "She is an American of Korean descent.",
+            "The name suggests French descent.",
+            "He traces his descent from a family of farmers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A slide into a worse condition",
+          "body": [
+            "(скатывание, сползание (в дурное состояние))",
+            "---"
+          ],
+          "examples": [
+            "The book charts his descent into addiction.",
+            "The coup began the country's descent into chaos.",
+            "It was a slow descent from success into debt."
+          ]
+        }
+      ],
+      "русский": "спуск; происхождение, родословная; скатывание, сползание (в дурное состояние)",
       "plural": "descents",
       "countability": "countable",
       "contrast": "Said just like dissent, which means disagreement."
@@ -2009,14 +2169,43 @@
       "term": "lookout",
       "ipa": "/ˈlʊkaʊt/",
       "respell": "LUUK-owt",
-      "meaning": "A high place with a wide view, or the tower built there. ---",
+      "meaning": "Lookout has 2 distinct senses.",
       "examples": [
         "The lookout is a mile up the fire road.",
         "Old fire lookouts are scattered along the range.",
-        "We watched the sunset from the lookout."
+        "We watched the sunset from the lookout.",
+        "One of them stayed outside as a lookout.",
+        "The lookout spotted the boat at first light.",
+        "They posted lookouts at both ends of the street."
       ],
-      "senses": [],
-      "русский": "смотровая площадка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A high place with a wide view, or the tower built there",
+          "body": [
+            "(смотровая площадка)"
+          ],
+          "examples": [
+            "The lookout is a mile up the fire road.",
+            "Old fire lookouts are scattered along the range.",
+            "We watched the sunset from the lookout."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who watches for danger while others work",
+          "body": [
+            "(дозорный, наблюдатель)",
+            "---"
+          ],
+          "examples": [
+            "One of them stayed outside as a lookout.",
+            "The lookout spotted the boat at first light.",
+            "They posted lookouts at both ends of the street."
+          ]
+        }
+      ],
+      "русский": "смотровая площадка; дозорный, наблюдатель",
       "plural": "lookouts",
       "countability": "countable",
       "contrast": "One word as a noun; the verb is two words: look out."
@@ -2256,14 +2445,43 @@
       "term": "flare",
       "ipa": "/flɛr/",
       "respell": "FLAIR",
-      "meaning": "A bright burning light fired or lit to signal for help. ---",
+      "meaning": "Flare has 2 distinct senses.",
       "examples": [
         "He set off a flare from the ridge.",
         "There are two flares in the emergency kit.",
-        "A flare is visible for miles at night."
+        "A flare is visible for miles at night.",
+        "A flare of orange lit up the window.",
+        "A solar flare knocked out radio signals for hours.",
+        "Flares of lightning showed the road ahead."
       ],
-      "senses": [],
-      "русский": "сигнальная ракета, фальшфейер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bright burning light fired or lit to signal for help",
+          "body": [
+            "(сигнальная ракета, фальшфейер)"
+          ],
+          "examples": [
+            "He set off a flare from the ridge.",
+            "There are two flares in the emergency kit.",
+            "A flare is visible for miles at night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden burst of bright flame or light",
+          "body": [
+            "(вспышка (пламени, света))",
+            "---"
+          ],
+          "examples": [
+            "A flare of orange lit up the window.",
+            "A solar flare knocked out radio signals for hours.",
+            "Flares of lightning showed the road ahead."
+          ]
+        }
+      ],
+      "русский": "сигнальная ракета, фальшфейер; вспышка (пламени, света)",
       "plural": "flares",
       "countability": "countable",
       "contrast": "Sounds exactly like flair, which means a natural talent."

@@ -6,14 +6,43 @@
       "term": "shape",
       "ipa": "/ʃeɪp/",
       "respell": "SHAYP",
-      "meaning": "The outer form of something, seen as an outline. ---",
+      "meaning": "Shape has 2 distinct senses.",
       "examples": [
         "The cookies were cut in the shape of stars.",
         "Draw three different shapes on the board.",
-        "That cloud has a funny shape."
+        "That cloud has a funny shape.",
+        "He's in good shape for a man of seventy.",
+        "The car is in rough shape but it still runs.",
+        "The roof is in better shape than we expected."
       ],
-      "senses": [],
-      "русский": "форма, очертание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The outer form of something, seen as an outline",
+          "body": [
+            "(форма, очертание)"
+          ],
+          "examples": [
+            "The cookies were cut in the shape of stars.",
+            "Draw three different shapes on the board.",
+            "That cloud has a funny shape."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The condition that a person or thing is in",
+          "body": [
+            "(состояние, форма (физическая))",
+            "---"
+          ],
+          "examples": [
+            "He's in good shape for a man of seventy.",
+            "The car is in rough shape but it still runs.",
+            "The roof is in better shape than we expected."
+          ]
+        }
+      ],
+      "русский": "форма, очертание; состояние, форма (физическая)",
       "plural": "shapes",
       "countability": "countable"
     },
@@ -21,14 +50,43 @@
       "term": "circle",
       "ipa": "/ˈsɜːrkəl/",
       "respell": "SUR-kul",
-      "meaning": "A perfectly round flat shape. ---",
+      "meaning": "Circle has 2 distinct senses.",
       "examples": [
         "The kids sat in a circle on the rug.",
         "She drew a circle around the right answer.",
-        "Cut the dough into small circles."
+        "Cut the dough into small circles.",
+        "He is well known in academic circles.",
+        "She has a small circle of close friends.",
+        "The story spread quickly through his circle."
       ],
-      "senses": [],
-      "русский": "круг, окружность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A perfectly round flat shape",
+          "body": [
+            "(круг, окружность)"
+          ],
+          "examples": [
+            "The kids sat in a circle on the rug.",
+            "She drew a circle around the right answer.",
+            "Cut the dough into small circles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people connected by friendship or a shared interest",
+          "body": [
+            "(круг (людей), окружение)",
+            "---"
+          ],
+          "examples": [
+            "He is well known in academic circles.",
+            "She has a small circle of close friends.",
+            "The story spread quickly through his circle."
+          ]
+        }
+      ],
+      "русский": "круг, окружность; круг (людей), окружение",
       "plural": "circles",
       "countability": "countable"
     },
@@ -203,14 +261,43 @@
       "term": "sphere",
       "ipa": "/sfɪr/",
       "respell": "SFEER",
-      "meaning": "A perfectly round solid object, like a ball. ---",
+      "meaning": "Sphere has 2 distinct senses.",
       "examples": [
         "The earth is not a perfect sphere.",
         "The lamp is a frosted glass sphere.",
-        "We made spheres out of clay."
+        "We made spheres out of clay.",
+        "In the political sphere, nothing moves quickly.",
+        "The two powers divided the region into spheres of influence.",
+        "She is well known in the sphere of medical research."
       ],
-      "senses": [],
-      "русский": "сфера, шар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A perfectly round solid object, like a ball",
+          "body": [
+            "(сфера, шар)"
+          ],
+          "examples": [
+            "The earth is not a perfect sphere.",
+            "The lamp is a frosted glass sphere.",
+            "We made spheres out of clay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of activity, knowledge, or influence",
+          "body": [
+            "(сфера (деятельности), область)",
+            "---"
+          ],
+          "examples": [
+            "In the political sphere, nothing moves quickly.",
+            "The two powers divided the region into spheres of influence.",
+            "She is well known in the sphere of medical research."
+          ]
+        }
+      ],
+      "русский": "сфера, шар; сфера (деятельности), область",
       "plural": "spheres",
       "countability": "countable"
     },
@@ -218,14 +305,43 @@
       "term": "cube",
       "ipa": "/kjuːb/",
       "respell": "KYOOB",
-      "meaning": "A solid shape with six equal square faces. ---",
+      "meaning": "Cube has 2 distinct senses.",
       "examples": [
         "Drop two cubes of ice in the glass.",
         "The box is a perfect cube.",
-        "Cut the cheese into small cubes."
+        "Cut the cheese into small cubes.",
+        "The cube of three is twenty-seven.",
+        "Ask the calculator for the cube of seven.",
+        "Cubes grow much faster than squares."
       ],
-      "senses": [],
-      "русский": "куб, кубик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A solid shape with six equal square faces",
+          "body": [
+            "(куб, кубик)"
+          ],
+          "examples": [
+            "Drop two cubes of ice in the glass.",
+            "The box is a perfect cube.",
+            "Cut the cheese into small cubes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The result of multiplying a number by itself twice",
+          "body": [
+            "(куб (третья степень числа))",
+            "---"
+          ],
+          "examples": [
+            "The cube of three is twenty-seven.",
+            "Ask the calculator for the cube of seven.",
+            "Cubes grow much faster than squares."
+          ]
+        }
+      ],
+      "русский": "куб, кубик; куб (третья степень числа)",
       "plural": "cubes",
       "countability": "countable"
     },
@@ -233,14 +349,73 @@
       "term": "cone",
       "ipa": "/koʊn/",
       "respell": "KOHN",
-      "meaning": "A solid shape with a round base that narrows to a point at the top. ---",
+      "meaning": "Cone has 4 distinct senses.",
       "examples": [
         "Orange cones blocked off the lane.",
         "Roll the paper into a cone.",
-        "The mountain rises in a near-perfect cone."
+        "The mountain rises in a near-perfect cone.",
+        "She ordered two scoops in a cone.",
+        "My cone dripped all down my hand.",
+        "The kids picked sugar cones instead of cups.",
+        "Cones narrowed the highway to one lane.",
+        "A worker set a cone behind the truck.",
+        "Somebody knocked over the last cone.",
+        "The kids collected pine cones for the wreath.",
+        "A squirrel sat on the stump chewing a cone.",
+        "The tree drops its cones in late fall."
       ],
-      "senses": [],
-      "русский": "конус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A solid shape with a round base that narrows to a point at the top",
+          "body": [
+            "(конус)"
+          ],
+          "examples": [
+            "Orange cones blocked off the lane.",
+            "Roll the paper into a cone.",
+            "The mountain rises in a near-perfect cone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A crisp cone-shaped holder that ice cream is served in",
+          "body": [
+            "(вафельный рожок)"
+          ],
+          "examples": [
+            "She ordered two scoops in a cone.",
+            "My cone dripped all down my hand.",
+            "The kids picked sugar cones instead of cups."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A bright orange plastic marker set on a road to guide traffic",
+          "body": [
+            "(дорожный конус)"
+          ],
+          "examples": [
+            "Cones narrowed the highway to one lane.",
+            "A worker set a cone behind the truck.",
+            "Somebody knocked over the last cone."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The hard scaly seed case of a pine or fir tree",
+          "body": [
+            "(шишка (хвойного дерева))",
+            "---"
+          ],
+          "examples": [
+            "The kids collected pine cones for the wreath.",
+            "A squirrel sat on the stump chewing a cone.",
+            "The tree drops its cones in late fall."
+          ]
+        }
+      ],
+      "русский": "конус; вафельный рожок; дорожный конус; шишка (хвойного дерева)",
       "plural": "cones",
       "countability": "countable"
     },
@@ -263,14 +438,88 @@
       "term": "line",
       "ipa": "/laɪn/",
       "respell": "LYNE",
-      "meaning": "A long thin mark on a surface. ---",
+      "meaning": "Line has 5 distinct senses.",
       "examples": [
         "Draw a straight line from corner to corner.",
         "Write your name on the dotted line.",
-        "The parking lines had faded away."
+        "The parking lines had faded away.",
+        "There was a line out the door at the bakery.",
+        "We stood in line for forty minutes.",
+        "The lines at the DMV are shorter on Wednesdays.",
+        "Hang the sheets on the line to dry.",
+        "A fish snapped his line right at the boat.",
+        "Crews strung new power lines along the highway.",
+        "The line went dead in the middle of the call.",
+        "Please hold — I have another line ringing.",
+        "We had two lines installed in the office.",
+        "Read the third line of the poem again.",
+        "He forgot his lines on opening night.",
+        "Her best line in the movie is only four words long."
       ],
-      "senses": [],
-      "русский": "линия, черта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long thin mark on a surface",
+          "body": [
+            "(линия, черта)"
+          ],
+          "examples": [
+            "Draw a straight line from corner to corner.",
+            "Write your name on the dotted line.",
+            "The parking lines had faded away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A row of people or cars waiting their turn",
+          "body": [
+            "(очередь)"
+          ],
+          "examples": [
+            "There was a line out the door at the bakery.",
+            "We stood in line for forty minutes.",
+            "The lines at the DMV are shorter on Wednesdays."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A length of rope, cord, or wire used for a purpose",
+          "body": [
+            "(верёвка, шнур, леска)"
+          ],
+          "examples": [
+            "Hang the sheets on the line to dry.",
+            "A fish snapped his line right at the boat.",
+            "Crews strung new power lines along the highway."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A telephone connection",
+          "body": [
+            "(телефонная линия, связь)"
+          ],
+          "examples": [
+            "The line went dead in the middle of the call.",
+            "Please hold — I have another line ringing.",
+            "We had two lines installed in the office."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "A row of words in a text, or the words an actor speaks",
+          "body": [
+            "(строка; реплика (актёра))",
+            "---"
+          ],
+          "examples": [
+            "Read the third line of the poem again.",
+            "He forgot his lines on opening night.",
+            "Her best line in the movie is only four words long."
+          ]
+        }
+      ],
+      "русский": "линия, черта; очередь; верёвка, шнур, леска; телефонная линия, связь; строка; реплика (актёра)",
       "plural": "lines",
       "countability": "countable"
     },
@@ -293,14 +542,73 @@
       "term": "point",
       "ipa": "/pɔɪnt/",
       "respell": "POYNT",
-      "meaning": "An exact spot, or the sharp end of something. ---",
+      "meaning": "Point has 4 distinct senses.",
       "examples": [
         "Mark the point where the two lines cross.",
         "The pencil has a very sharp point.",
-        "Connect the points with a ruler."
+        "Connect the points with a ruler.",
+        "The Lakers won by three points.",
+        "She lost a point for turning the paper in late.",
+        "Each correct answer is worth two points.",
+        "I don't see the point of arguing about it.",
+        "Get to the point — we only have ten minutes.",
+        "That's a fair point, but the numbers say otherwise.",
+        "At that point I decided to quit.",
+        "We reached a point where nobody trusted anyone.",
+        "There's no turning back at this point."
       ],
-      "senses": [],
-      "русский": "точка; острый конец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An exact spot, or the sharp end of something",
+          "body": [
+            "(точка; острый конец)"
+          ],
+          "examples": [
+            "Mark the point where the two lines cross.",
+            "The pencil has a very sharp point.",
+            "Connect the points with a ruler."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit of scoring in a game, contest, or grading system",
+          "body": [
+            "(очко, балл)"
+          ],
+          "examples": [
+            "The Lakers won by three points.",
+            "She lost a point for turning the paper in late.",
+            "Each correct answer is worth two points."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The main idea or purpose of what someone says or does",
+          "body": [
+            "(суть, смысл)"
+          ],
+          "examples": [
+            "I don't see the point of arguing about it.",
+            "Get to the point — we only have ten minutes.",
+            "That's a fair point, but the numbers say otherwise."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular moment or stage in a process",
+          "body": [
+            "(момент, этап)",
+            "---"
+          ],
+          "examples": [
+            "At that point I decided to quit.",
+            "We reached a point where nobody trusted anyone.",
+            "There's no turning back at this point."
+          ]
+        }
+      ],
+      "русский": "точка; острый конец; очко, балл; суть, смысл; момент, этап",
       "plural": "points",
       "countability": "countable"
     },
@@ -308,14 +616,73 @@
       "term": "spot",
       "ipa": "/spɑːt/",
       "respell": "SPAHT",
-      "meaning": "A small round mark of a different color from what is around it. ---",
+      "meaning": "Spot has 4 distinct senses.",
       "examples": [
         "There is a grease spot on your tie.",
         "The puppy is white with brown spots.",
-        "I got a coffee spot on the rug."
+        "I got a coffee spot on the rug.",
+        "This is a good spot for a picnic.",
+        "I found a parking spot right in front.",
+        "We picked a shady spot under the trees.",
+        "She earned a spot on the varsity team.",
+        "The song held the top spot for six weeks.",
+        "There's one spot left in the morning class.",
+        "The company bought a thirty-second spot during the game.",
+        "They filmed three spots for the new campaign.",
+        "Radio spots cost a lot less than television."
       ],
-      "senses": [],
-      "русский": "пятно, пятнышко",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small round mark of a different color from what is around it",
+          "body": [
+            "(пятно, пятнышко)"
+          ],
+          "examples": [
+            "There is a grease spot on your tie.",
+            "The puppy is white with brown spots.",
+            "I got a coffee spot on the rug."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular place or area",
+          "body": [
+            "(место, местечко)"
+          ],
+          "examples": [
+            "This is a good spot for a picnic.",
+            "I found a parking spot right in front.",
+            "We picked a shady spot under the trees."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A position in a group, a list, or a schedule",
+          "body": [
+            "(место (в списке, команде), позиция)"
+          ],
+          "examples": [
+            "She earned a spot on the varsity team.",
+            "The song held the top spot for six weeks.",
+            "There's one spot left in the morning class."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A short advertisement on television or radio",
+          "body": [
+            "(рекламный ролик)",
+            "---"
+          ],
+          "examples": [
+            "The company bought a thirty-second spot during the game.",
+            "They filmed three spots for the new campaign.",
+            "Radio spots cost a lot less than television."
+          ]
+        }
+      ],
+      "русский": "пятно, пятнышко; место, местечко; место (в списке, команде), позиция; рекламный ролик",
       "plural": "spots",
       "countability": "countable"
     },
@@ -338,14 +705,43 @@
       "term": "curve",
       "ipa": "/kɜːrv/",
       "respell": "KURV",
-      "meaning": "A line that bends smoothly without any sharp angles. ---",
+      "meaning": "Curve has 2 distinct senses.",
       "examples": [
         "Slow down before the curve in the road.",
         "The chair follows the curve of your back.",
-        "The graph shows two rising curves."
+        "The graph shows two rising curves.",
+        "The professor grades on a curve.",
+        "Without the curve, half the class would have failed.",
+        "He got a B only because of the curve."
       ],
-      "senses": [],
-      "русский": "кривая, изгиб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line that bends smoothly without any sharp angles",
+          "body": [
+            "(кривая, изгиб)"
+          ],
+          "examples": [
+            "Slow down before the curve in the road.",
+            "The chair follows the curve of your back.",
+            "The graph shows two rising curves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A grading scale that adjusts students' scores against how the whole class did",
+          "body": [
+            "(относительная шкала оценок, кривая распределения)",
+            "---"
+          ],
+          "examples": [
+            "The professor grades on a curve.",
+            "Without the curve, half the class would have failed.",
+            "He got a B only because of the curve."
+          ]
+        }
+      ],
+      "русский": "кривая, изгиб; относительная шкала оценок, кривая распределения",
       "plural": "curves",
       "countability": "countable"
     },
@@ -353,14 +749,58 @@
       "term": "arc",
       "ipa": "/ɑːrk/",
       "respell": "ARK",
-      "meaning": "A curved line that forms part of a circle. ---",
+      "meaning": "Arc has 3 distinct senses.",
       "examples": [
         "The ball rose in a high arc over the fence.",
         "Draw an arc with the compass.",
-        "The sprinkler sprayed water in wide arcs."
+        "The sprinkler sprayed water in wide arcs.",
+        "The show gives the villain a full redemption arc.",
+        "Her character arc takes up the whole second season.",
+        "The novel's emotional arc builds slowly toward the last chapter.",
+        "A blue arc jumped between the two terminals.",
+        "The welder struck an arc against the steel plate.",
+        "Loose wiring can throw arcs that start a fire."
       ],
-      "senses": [],
-      "русский": "дуга",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A curved line that forms part of a circle",
+          "body": [
+            "(дуга)"
+          ],
+          "examples": [
+            "The ball rose in a high arc over the fence.",
+            "Draw an arc with the compass.",
+            "The sprinkler sprayed water in wide arcs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a character or story develops from start to finish",
+          "body": [
+            "(сюжетная арка, линия развития (персонажа))"
+          ],
+          "examples": [
+            "The show gives the villain a full redemption arc.",
+            "Her character arc takes up the whole second season.",
+            "The novel's emotional arc builds slowly toward the last chapter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A flash of electricity that jumps across a gap",
+          "body": [
+            "(электрическая дуга)",
+            "---"
+          ],
+          "examples": [
+            "A blue arc jumped between the two terminals.",
+            "The welder struck an arc against the steel plate.",
+            "Loose wiring can throw arcs that start a fire."
+          ]
+        }
+      ],
+      "русский": "дуга; сюжетная арка, линия развития (персонажа); электрическая дуга",
       "plural": "arcs",
       "countability": "countable",
       "contrast": "Sounds exactly like ark, the boat in the flood story."
@@ -384,14 +824,58 @@
       "term": "loop",
       "ipa": "/luːp/",
       "respell": "LOOP",
-      "meaning": "A shape made when a line curves around and crosses itself. ---",
+      "meaning": "Loop has 3 distinct senses.",
       "examples": [
         "Make a loop with the shoelace.",
         "Her handwriting is full of fancy loops.",
-        "The roller coaster does a full loop."
+        "The roller coaster does a full loop.",
+        "We hiked a five-mile loop around the lake.",
+        "The shuttle runs a loop through downtown.",
+        "There are two easy loops marked on the trail map.",
+        "The program got stuck in an endless loop.",
+        "Move that calculation outside the loop.",
+        "Nested loops made the code very slow."
       ],
-      "senses": [],
-      "русский": "петля",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shape made when a line curves around and crosses itself",
+          "body": [
+            "(петля)"
+          ],
+          "examples": [
+            "Make a loop with the shoelace.",
+            "Her handwriting is full of fancy loops.",
+            "The roller coaster does a full loop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A route or trail that comes back to where it started",
+          "body": [
+            "(кольцевой маршрут, круг)"
+          ],
+          "examples": [
+            "We hiked a five-mile loop around the lake.",
+            "The shuttle runs a loop through downtown.",
+            "There are two easy loops marked on the trail map."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A set of instructions that a computer repeats until a condition is met",
+          "body": [
+            "(цикл (в программировании))",
+            "---"
+          ],
+          "examples": [
+            "The program got stuck in an endless loop.",
+            "Move that calculation outside the loop.",
+            "Nested loops made the code very slow."
+          ]
+        }
+      ],
+      "русский": "петля; кольцевой маршрут, круг; цикл (в программировании)",
       "plural": "loops",
       "countability": "countable"
     },
@@ -399,14 +883,43 @@
       "term": "spiral",
       "ipa": "/ˈspaɪrəl/",
       "respell": "SPY-rul",
-      "meaning": "A curve that winds around a center point, getting wider or tighter. ---",
+      "meaning": "Spiral has 2 distinct senses.",
       "examples": [
         "The staircase climbs in a tight spiral.",
         "A snail shell is a natural spiral.",
-        "She doodled little spirals in the margin."
+        "She doodled little spirals in the margin.",
+        "The company went into a financial spiral after the recall.",
+        "Losing the job started a downward spiral.",
+        "Officials worried about an inflationary spiral."
       ],
-      "senses": [],
-      "русский": "спираль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A curve that winds around a center point, getting wider or tighter",
+          "body": [
+            "(спираль)"
+          ],
+          "examples": [
+            "The staircase climbs in a tight spiral.",
+            "A snail shell is a natural spiral.",
+            "She doodled little spirals in the margin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A steady uncontrolled rise or fall that keeps feeding itself",
+          "body": [
+            "(спираль (нарастающий процесс), штопор)",
+            "---"
+          ],
+          "examples": [
+            "The company went into a financial spiral after the recall.",
+            "Losing the job started a downward spiral.",
+            "Officials worried about an inflationary spiral."
+          ]
+        }
+      ],
+      "русский": "спираль; спираль (нарастающий процесс), штопор",
       "plural": "spirals",
       "countability": "countable"
     },
@@ -458,14 +971,43 @@
       "term": "twist",
       "ipa": "/twɪst/",
       "respell": "TWIST",
-      "meaning": "A bend or turn in something long and thin. ---",
+      "meaning": "Twist has 2 distinct senses.",
       "examples": [
         "The path has more twists than I remembered.",
         "Give the wire one more twist.",
-        "There is a twist in the cord behind the desk."
+        "There is a twist in the cord behind the desk.",
+        "The movie's twist caught everyone off guard.",
+        "In a strange twist, the thief called the police himself.",
+        "The case took another twist this week."
       ],
-      "senses": [],
-      "русский": "изгиб, виток, поворот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bend or turn in something long and thin",
+          "body": [
+            "(изгиб, виток, поворот)"
+          ],
+          "examples": [
+            "The path has more twists than I remembered.",
+            "Give the wire one more twist.",
+            "There is a twist in the cord behind the desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unexpected change in a story or a situation",
+          "body": [
+            "(неожиданный поворот (сюжета, событий))",
+            "---"
+          ],
+          "examples": [
+            "The movie's twist caught everyone off guard.",
+            "In a strange twist, the thief called the police himself.",
+            "The case took another twist this week."
+          ]
+        }
+      ],
+      "русский": "изгиб, виток, поворот; неожиданный поворот (сюжета, событий)",
       "plural": "twists",
       "countability": "countable"
     },
@@ -488,14 +1030,73 @@
       "term": "side",
       "ipa": "/saɪd/",
       "respell": "SYDE",
-      "meaning": "One of the flat surfaces or straight edges that form a shape. ---",
+      "meaning": "Side has 4 distinct senses.",
       "examples": [
         "A triangle has three sides.",
         "Write on one side of the paper only.",
-        "The box is dented on the left side."
+        "The box is dented on the left side.",
+        "Whose side are you on?",
+        "Neither side would agree to a compromise.",
+        "The losing side shook hands and walked off the field.",
+        "The sandwich comes with a side of fries.",
+        "I ordered coleslaw as my side.",
+        "Their sides are better than their main dishes.",
+        "The red hair comes from my mother's side.",
+        "Everyone on his father's side is tall.",
+        "The two sides of the family met for the first time at the wedding."
       ],
-      "senses": [],
-      "русский": "сторона",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the flat surfaces or straight edges that form a shape",
+          "body": [
+            "(сторона)"
+          ],
+          "examples": [
+            "A triangle has three sides.",
+            "Write on one side of the paper only.",
+            "The box is dented on the left side."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the people or groups opposing each other in a fight, an argument, or a game",
+          "body": [
+            "(сторона (в споре, конфликте); команда)"
+          ],
+          "examples": [
+            "Whose side are you on?",
+            "Neither side would agree to a compromise.",
+            "The losing side shook hands and walked off the field."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small dish of food served along with the main course",
+          "body": [
+            "(гарнир)"
+          ],
+          "examples": [
+            "The sandwich comes with a side of fries.",
+            "I ordered coleslaw as my side.",
+            "Their sides are better than their main dishes."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "One branch of a family, traced through the mother or the father",
+          "body": [
+            "(линия родства (по отцу, по матери))",
+            "---"
+          ],
+          "examples": [
+            "The red hair comes from my mother's side.",
+            "Everyone on his father's side is tall.",
+            "The two sides of the family met for the first time at the wedding."
+          ]
+        }
+      ],
+      "русский": "сторона; сторона (в споре, конфликте); команда; гарнир; линия родства (по отцу, по матери)",
       "plural": "sides",
       "countability": "countable"
     },
@@ -503,14 +1104,58 @@
       "term": "edge",
       "ipa": "/ɛdʒ/",
       "respell": "EJ",
-      "meaning": "The outer line or border where something ends. ---",
+      "meaning": "Edge has 3 distinct senses.",
       "examples": [
         "Careful, the edge of that paper is sharp.",
         "He sat on the edge of the bed.",
-        "Sand the rough edges smooth."
+        "Sand the rough edges smooth.",
+        "Speaking Spanish gave her an edge in the interview.",
+        "The company lost its edge to cheaper competitors.",
+        "A full night's sleep is a real edge on game day.",
+        "There was an edge in his voice when he answered.",
+        "She asked a second time, this time with an edge.",
+        "His jokes always have an edge to them."
       ],
-      "senses": [],
-      "русский": "край, кромка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The outer line or border where something ends",
+          "body": [
+            "(край, кромка)"
+          ],
+          "examples": [
+            "Careful, the edge of that paper is sharp.",
+            "He sat on the edge of the bed.",
+            "Sand the rough edges smooth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An advantage over other people or over a rival",
+          "body": [
+            "(преимущество, превосходство)"
+          ],
+          "examples": [
+            "Speaking Spanish gave her an edge in the interview.",
+            "The company lost its edge to cheaper competitors.",
+            "A full night's sleep is a real edge on game day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sharp, angry quality in someone's voice",
+          "body": [
+            "(резкость (в голосе))",
+            "---"
+          ],
+          "examples": [
+            "There was an edge in his voice when he answered.",
+            "She asked a second time, this time with an edge.",
+            "His jokes always have an edge to them."
+          ]
+        }
+      ],
+      "русский": "край, кромка; преимущество, превосходство; резкость (в голосе)",
       "plural": "edges",
       "countability": "countable"
     },
@@ -518,14 +1163,43 @@
       "term": "surface",
       "ipa": "/ˈsɜːrfɪs/",
       "respell": "SUR-fiss",
-      "meaning": "The outside or top layer of something. ---",
+      "meaning": "Surface has 2 distinct senses.",
       "examples": [
         "Wipe the surface before you paint it.",
         "Leaves floated on the surface of the pond.",
-        "Clean all the kitchen surfaces."
+        "Clean all the kitchen surfaces.",
+        "On the surface, the deal looks great.",
+        "Beneath the surface, the two sides still disagree.",
+        "Old tensions came to the surface during the meeting."
       ],
-      "senses": [],
-      "русский": "поверхность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The outside or top layer of something",
+          "body": [
+            "(поверхность)"
+          ],
+          "examples": [
+            "Wipe the surface before you paint it.",
+            "Leaves floated on the surface of the pond.",
+            "Clean all the kitchen surfaces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a situation looks from outside, as opposed to what is really going on",
+          "body": [
+            "(внешняя сторона, видимость)",
+            "---"
+          ],
+          "examples": [
+            "On the surface, the deal looks great.",
+            "Beneath the surface, the two sides still disagree.",
+            "Old tensions came to the surface during the meeting."
+          ]
+        }
+      ],
+      "русский": "поверхность; внешняя сторона, видимость",
       "plural": "surfaces",
       "countability": "countable"
     },
@@ -592,14 +1266,43 @@
       "term": "groove",
       "ipa": "/ɡruːv/",
       "respell": "GROOV",
-      "meaning": "A long narrow cut in a surface. ---",
+      "meaning": "Groove has 2 distinct senses.",
       "examples": [
         "Rainwater runs down the groove in the tile.",
         "The record has fine grooves.",
-        "Slide the panel into the groove."
+        "Slide the panel into the groove.",
+        "The bass player laid down a deep groove.",
+        "The band finally found its groove in the second set.",
+        "That song has an easy summer groove."
       ],
-      "senses": [],
-      "русский": "канавка, желобок, паз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long narrow cut in a surface",
+          "body": [
+            "(канавка, желобок, паз)"
+          ],
+          "examples": [
+            "Rainwater runs down the groove in the tile.",
+            "The record has fine grooves.",
+            "Slide the panel into the groove."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A steady, catchy rhythm in music that makes people want to move",
+          "body": [
+            "(грув, ритмический драйв)",
+            "---"
+          ],
+          "examples": [
+            "The bass player laid down a deep groove.",
+            "The band finally found its groove in the second set.",
+            "That song has an easy summer groove."
+          ]
+        }
+      ],
+      "русский": "канавка, желобок, паз; грув, ритмический драйв",
       "plural": "grooves",
       "countability": "countable"
     },
@@ -666,14 +1369,43 @@
       "term": "notch",
       "ipa": "/nɑːtʃ/",
       "respell": "NAHCH",
-      "meaning": "A small V-shaped cut in an edge or surface. ---",
+      "meaning": "Notch has 2 distinct senses.",
       "examples": [
         "He cut a notch in the stick to mark the day.",
         "Tighten the belt one notch.",
-        "There are small notches along the ruler."
+        "There are small notches along the ruler.",
+        "Turn the heat down a notch.",
+        "This year's team is a notch above last year's.",
+        "Prices went up another notch."
       ],
-      "senses": [],
-      "русский": "зарубка, выемка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small V-shaped cut in an edge or surface",
+          "body": [
+            "(зарубка, выемка)"
+          ],
+          "examples": [
+            "He cut a notch in the stick to mark the day.",
+            "Tighten the belt one notch.",
+            "There are small notches along the ruler."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A step or level on a scale of quality or amount",
+          "body": [
+            "(уровень, ступень)",
+            "---"
+          ],
+          "examples": [
+            "Turn the heat down a notch.",
+            "This year's team is a notch above last year's.",
+            "Prices went up another notch."
+          ]
+        }
+      ],
+      "русский": "зарубка, выемка; уровень, ступень",
       "plural": "notches",
       "countability": "countable"
     },
@@ -681,14 +1413,43 @@
       "term": "dent",
       "ipa": "/dɛnt/",
       "respell": "DENT",
-      "meaning": "A hollow place in a surface where it has been hit. ---",
+      "meaning": "Dent has 2 distinct senses.",
       "examples": [
         "There is a dent in the car door.",
         "The can has a big dent in the side.",
-        "Small dents covered the old toolbox."
+        "Small dents covered the old toolbox.",
+        "The bonus barely made a dent in our debt.",
+        "A week of work put a real dent in the backlog.",
+        "The new clinic has made a dent in waiting times."
       ],
-      "senses": [],
-      "русский": "вмятина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hollow place in a surface where it has been hit",
+          "body": [
+            "(вмятина)"
+          ],
+          "examples": [
+            "There is a dent in the car door.",
+            "The can has a big dent in the side.",
+            "Small dents covered the old toolbox."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A noticeable reduction in an amount or a problem",
+          "body": [
+            "(заметное сокращение, ощутимый результат)",
+            "---"
+          ],
+          "examples": [
+            "The bonus barely made a dent in our debt.",
+            "A week of work put a real dent in the backlog.",
+            "The new clinic has made a dent in waiting times."
+          ]
+        }
+      ],
+      "русский": "вмятина; заметное сокращение, ощутимый результат",
       "plural": "dents",
       "countability": "countable"
     },
@@ -696,14 +1457,43 @@
       "term": "bump",
       "ipa": "/bʌmp/",
       "respell": "BUMP",
-      "meaning": "A raised round part on an otherwise flat surface. ---",
+      "meaning": "Bump has 2 distinct senses.",
       "examples": [
         "Slow down, there is a bump in the road.",
         "He has a bump on his forehead.",
-        "The wall is covered with little bumps of dried paint."
+        "The wall is covered with little bumps of dried paint.",
+        "Everyone got a small bump in pay this year.",
+        "The ad campaign gave sales a nice bump.",
+        "Polls showed a bump for the governor after the speech."
       ],
-      "senses": [],
-      "русский": "выпуклость, бугорок, шишка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A raised round part on an otherwise flat surface",
+          "body": [
+            "(выпуклость, бугорок, шишка)"
+          ],
+          "examples": [
+            "Slow down, there is a bump in the road.",
+            "He has a bump on his forehead.",
+            "The wall is covered with little bumps of dried paint."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small increase in an amount or level",
+          "body": [
+            "(прибавка, небольшой рост)",
+            "---"
+          ],
+          "examples": [
+            "Everyone got a small bump in pay this year.",
+            "The ad campaign gave sales a nice bump.",
+            "Polls showed a bump for the governor after the speech."
+          ]
+        }
+      ],
+      "русский": "выпуклость, бугорок, шишка; прибавка, небольшой рост",
       "plural": "bumps",
       "countability": "countable"
     },
@@ -711,14 +1501,73 @@
       "term": "crack",
       "ipa": "/kræk/",
       "respell": "KRAK",
-      "meaning": "A thin line where something is broken but not in pieces. ---",
+      "meaning": "Crack has 4 distinct senses.",
       "examples": [
         "There is a crack in the windshield.",
         "Weeds grow up through the cracks in the sidewalk.",
-        "A hairline crack runs across the plate."
+        "A hairline crack runs across the plate.",
+        "We heard the crack of a rifle across the valley.",
+        "The bat made a clean crack and the ball was gone.",
+        "Thunder came in short, dry cracks.",
+        "He made a crack about my driving and I let it go.",
+        "One more crack like that and you're walking home.",
+        "Her cracks about the boss finally got her in trouble.",
+        "Let me take a crack at fixing the sink.",
+        "She had two cracks at the exam and passed the second time.",
+        "Give it a crack before you call a plumber."
       ],
-      "senses": [],
-      "русский": "трещина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin line where something is broken but not in pieces",
+          "body": [
+            "(трещина)"
+          ],
+          "examples": [
+            "There is a crack in the windshield.",
+            "Weeds grow up through the cracks in the sidewalk.",
+            "A hairline crack runs across the plate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden sharp, loud sound",
+          "body": [
+            "(треск, щелчок, хлопок)"
+          ],
+          "examples": [
+            "We heard the crack of a rifle across the valley.",
+            "The bat made a clean crack and the ball was gone.",
+            "Thunder came in short, dry cracks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A joking or unkind remark",
+          "body": [
+            "(шутка, колкость)"
+          ],
+          "examples": [
+            "He made a crack about my driving and I let it go.",
+            "One more crack like that and you're walking home.",
+            "Her cracks about the boss finally got her in trouble."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An attempt at doing something",
+          "body": [
+            "(попытка)",
+            "---"
+          ],
+          "examples": [
+            "Let me take a crack at fixing the sink.",
+            "She had two cracks at the exam and passed the second time.",
+            "Give it a crack before you call a plumber."
+          ]
+        }
+      ],
+      "русский": "трещина; треск, щелчок, хлопок; шутка, колкость; попытка",
       "plural": "cracks",
       "countability": "countable"
     },
@@ -907,14 +1756,58 @@
       "term": "design",
       "ipa": "/dɪˈzaɪn/",
       "respell": "dih-ZYNE",
-      "meaning": "A pattern or arrangement of lines and shapes made for decoration. ---",
+      "meaning": "Design has 3 distinct senses.",
       "examples": [
         "The rug has a simple geometric design.",
         "She painted a design on the mailbox.",
-        "The mugs come in four designs."
+        "The mugs come in four designs.",
+        "The design for the new bridge is on display at city hall.",
+        "Engineers changed the design after the crash tests.",
+        "Several designs were submitted for the memorial.",
+        "She studied graphic design in college.",
+        "Good design makes the app easy to use.",
+        "The company is known for careful design."
       ],
-      "senses": [],
-      "русский": "узор, рисунок; дизайн",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pattern or arrangement of lines and shapes made for decoration",
+          "body": [
+            "(узор, рисунок; дизайн)"
+          ],
+          "examples": [
+            "The rug has a simple geometric design.",
+            "She painted a design on the mailbox.",
+            "The mugs come in four designs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plan or drawing showing how something will be made or how it works",
+          "body": [
+            "(проект, чертёж, конструкция)"
+          ],
+          "examples": [
+            "The design for the new bridge is on display at city hall.",
+            "Engineers changed the design after the crash tests.",
+            "Several designs were submitted for the memorial."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The work of deciding how something will look and function",
+          "body": [
+            "(дизайн (как область деятельности))",
+            "---"
+          ],
+          "examples": [
+            "She studied graphic design in college.",
+            "Good design makes the app easy to use.",
+            "The company is known for careful design."
+          ]
+        }
+      ],
+      "русский": "узор, рисунок; дизайн; проект, чертёж, конструкция; дизайн (как область деятельности)",
       "plural": "designs",
       "countability": "countable",
       "contrast": "The g is silent: dih-ZYNE, never dih-ZIG-n."
@@ -923,14 +1816,58 @@
       "term": "color",
       "ipa": "/ˈkʌlər/",
       "respell": "KUL-ur",
-      "meaning": "Red, blue, green and so on, or the quality that makes things look that way. ---",
+      "meaning": "Color has 3 distinct senses.",
       "examples": [
         "What color is your new car?",
         "The garden is full of color in June.",
-        "The shirt comes in six colors."
+        "The shirt comes in six colors.",
+        "The law applies to everyone regardless of color.",
+        "She was the first woman of color elected to the seat.",
+        "They were judged by the color of their skin, not their work.",
+        "Fans showed up in the school colors.",
+        "The team's colors are green and gold.",
+        "Soldiers raised the regiment's colors at dawn."
       ],
-      "senses": [],
-      "русский": "цвет; окраска",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Red, blue, green and so on, or the quality that makes things look that way",
+          "body": [
+            "(цвет; окраска)"
+          ],
+          "examples": [
+            "What color is your new car?",
+            "The garden is full of color in June.",
+            "The shirt comes in six colors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The color of a person's skin, seen as a mark of race",
+          "body": [
+            "(цвет кожи, расовая принадлежность)"
+          ],
+          "examples": [
+            "The law applies to everyone regardless of color.",
+            "She was the first woman of color elected to the seat.",
+            "They were judged by the color of their skin, not their work."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The colors that stand for a team, school, or country, usually in the plural",
+          "body": [
+            "(цвета (клуба, школы, флага))",
+            "---"
+          ],
+          "examples": [
+            "Fans showed up in the school colors.",
+            "The team's colors are green and gold.",
+            "Soldiers raised the regiment's colors at dawn."
+          ]
+        }
+      ],
+      "русский": "цвет; окраска; цвет кожи, расовая принадлежность; цвета (клуба, школы, флага)",
       "plural": "colors",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "American spelling; the British write colour."
@@ -939,14 +1876,58 @@
       "term": "red",
       "ipa": "/rɛd/",
       "respell": "RED",
-      "meaning": "The color of blood and ripe tomatoes. ---",
+      "meaning": "Red has 3 distinct senses.",
       "examples": [
         "Red is her favorite color.",
         "The painting uses several deep reds.",
-        "That bright red is hard to miss."
+        "That bright red is hard to miss.",
+        "The airline is deep in the red again.",
+        "We finished the quarter in the red.",
+        "Two good months pulled the store out of the red.",
+        "Would you like a red or a white?",
+        "He ordered a glass of the house red.",
+        "Most of the reds on the list are from California."
       ],
-      "senses": [],
-      "русский": "красный цвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The color of blood and ripe tomatoes",
+          "body": [
+            "(красный цвет)"
+          ],
+          "examples": [
+            "Red is her favorite color.",
+            "The painting uses several deep reds.",
+            "That bright red is hard to miss."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of owing money or losing money",
+          "body": [
+            "(убытки, минус (на счету))"
+          ],
+          "examples": [
+            "The airline is deep in the red again.",
+            "We finished the quarter in the red.",
+            "Two good months pulled the store out of the red."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Red wine",
+          "body": [
+            "(красное вино)",
+            "---"
+          ],
+          "examples": [
+            "Would you like a red or a white?",
+            "He ordered a glass of the house red.",
+            "Most of the reds on the list are from California."
+          ]
+        }
+      ],
+      "русский": "красный цвет; убытки, минус (на счету); красное вино",
       "plural": "reds",
       "countability": "countable",
       "contrast": "Sounds exactly like read in the past tense, as in I read the book yesterday."
@@ -971,14 +1952,58 @@
       "term": "green",
       "ipa": "/ɡriːn/",
       "respell": "GREEN",
-      "meaning": "The color of grass and leaves. ---",
+      "meaning": "Green has 3 distinct senses.",
       "examples": [
         "The kitchen is a pale green.",
         "The hills show a dozen shades of green.",
-        "She mixed two greens to get the right tone."
+        "She mixed two greens to get the right tone.",
+        "His second shot landed on the green.",
+        "She sank a long putt from the edge of the green.",
+        "The greens were still wet from the morning rain.",
+        "She served collard greens with the ham.",
+        "Wash the greens before you dress the salad.",
+        "Eat your greens."
       ],
-      "senses": [],
-      "русский": "зелёный цвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The color of grass and leaves",
+          "body": [
+            "(зелёный цвет)"
+          ],
+          "examples": [
+            "The kitchen is a pale green.",
+            "The hills show a dozen shades of green.",
+            "She mixed two greens to get the right tone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The area of very short grass around a hole on a golf course",
+          "body": [
+            "(грин (площадка вокруг лунки))"
+          ],
+          "examples": [
+            "His second shot landed on the green.",
+            "She sank a long putt from the edge of the green.",
+            "The greens were still wet from the morning rain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Leafy vegetables eaten cooked or raw in salads",
+          "body": [
+            "(зелень, листовые овощи)",
+            "---"
+          ],
+          "examples": [
+            "She served collard greens with the ham.",
+            "Wash the greens before you dress the salad.",
+            "Eat your greens."
+          ]
+        }
+      ],
+      "русский": "зелёный цвет; грин (площадка вокруг лунки); зелень, листовые овощи",
       "plural": "greens",
       "countability": "countable"
     },
@@ -1061,14 +2086,58 @@
       "term": "white",
       "ipa": "/waɪt/",
       "respell": "WYTE",
-      "meaning": "The lightest color, like fresh snow. ---",
+      "meaning": "White has 3 distinct senses.",
       "examples": [
         "The trim is painted a clean white.",
         "Wash the whites separately.",
-        "White makes the room look bigger."
+        "White makes the room look bigger.",
+        "Beat the egg whites until they hold a peak.",
+        "She eats only the whites and throws out the yolks.",
+        "Separate the white from the yolk carefully.",
+        "The whites of his eyes were red from the smoke.",
+        "Yellow in the whites can be a sign of liver trouble.",
+        "She rolled her eyes until only the whites showed."
       ],
-      "senses": [],
-      "русский": "белый цвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lightest color, like fresh snow",
+          "body": [
+            "(белый цвет)"
+          ],
+          "examples": [
+            "The trim is painted a clean white.",
+            "Wash the whites separately.",
+            "White makes the room look bigger."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The clear part of an egg, which turns white when cooked",
+          "body": [
+            "(белок (яйца))"
+          ],
+          "examples": [
+            "Beat the egg whites until they hold a peak.",
+            "She eats only the whites and throws out the yolks.",
+            "Separate the white from the yolk carefully."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The pale part of the eyeball around the colored center",
+          "body": [
+            "(белок глаза)",
+            "---"
+          ],
+          "examples": [
+            "The whites of his eyes were red from the smoke.",
+            "Yellow in the whites can be a sign of liver trouble.",
+            "She rolled her eyes until only the whites showed."
+          ]
+        }
+      ],
+      "русский": "белый цвет; белок (яйца); белок глаза",
       "plural": "whites",
       "countability": "countable"
     },
@@ -1164,14 +2233,43 @@
       "term": "teal",
       "ipa": "/tiːl/",
       "respell": "TEEL",
-      "meaning": "A dark blue-green color. ---",
+      "meaning": "Teal has 2 distinct senses.",
       "examples": [
         "The bathroom tile is a soft teal.",
         "I love that jacket in teal.",
-        "Teal looks good next to gray."
+        "Teal looks good next to gray.",
+        "A pair of teal landed on the far side of the pond.",
+        "Hunters were out before dawn looking for teal.",
+        "We counted a dozen teal along the shoreline."
       ],
-      "senses": [],
-      "русский": "сине-зелёный цвет, бирюзовый",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dark blue-green color",
+          "body": [
+            "(сине-зелёный цвет, бирюзовый)"
+          ],
+          "examples": [
+            "The bathroom tile is a soft teal.",
+            "I love that jacket in teal.",
+            "Teal looks good next to gray."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small wild duck of ponds and marshes, smaller than a mallard",
+          "body": [
+            "(чирок (утка))",
+            "---"
+          ],
+          "examples": [
+            "A pair of teal landed on the far side of the pond.",
+            "Hunters were out before dawn looking for teal.",
+            "We counted a dozen teal along the shoreline."
+          ]
+        }
+      ],
+      "русский": "сине-зелёный цвет, бирюзовый; чирок (утка)",
       "countability": "uncountable"
     },
     {
@@ -1192,28 +2290,86 @@
       "term": "indigo",
       "ipa": "/ˈɪndɪɡoʊ/",
       "respell": "IN-dih-goh",
-      "meaning": "A deep blue color with a hint of violet. ---",
+      "meaning": "Indigo has 2 distinct senses.",
       "examples": [
         "Real jeans are dyed with indigo.",
         "The sky over the desert was pure indigo.",
-        "The scarf is indigo with silver thread."
+        "The scarf is indigo with silver thread.",
+        "The jeans are dyed with natural indigo.",
+        "Farmers here once grew indigo for export.",
+        "Indigo fades a little with every wash."
       ],
-      "senses": [],
-      "русский": "индиго (тёмно-синий цвет)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A deep blue color with a hint of violet",
+          "body": [
+            "(индиго (тёмно-синий цвет))"
+          ],
+          "examples": [
+            "Real jeans are dyed with indigo.",
+            "The sky over the desert was pure indigo.",
+            "The scarf is indigo with silver thread."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dark blue dye, originally made from a plant, used especially on denim",
+          "body": [
+            "(индиго (краситель))",
+            "---"
+          ],
+          "examples": [
+            "The jeans are dyed with natural indigo.",
+            "Farmers here once grew indigo for export.",
+            "Indigo fades a little with every wash."
+          ]
+        }
+      ],
+      "русский": "индиго (тёмно-синий цвет); индиго (краситель)",
       "countability": "uncountable"
     },
     {
       "term": "olive",
       "ipa": "/ˈɑːlɪv/",
       "respell": "AH-liv",
-      "meaning": "A dull yellowish green. ---",
+      "meaning": "Olive has 2 distinct senses.",
       "examples": [
         "The jacket comes in black or olive.",
         "The walls were painted a muddy olive.",
-        "Olive was everywhere in military clothing."
+        "Olive was everywhere in military clothing.",
+        "I ordered the salad with extra olives.",
+        "He dropped an olive into his martini.",
+        "These green olives are stuffed with garlic."
       ],
-      "senses": [],
-      "русский": "оливковый цвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dull yellowish green",
+          "body": [
+            "(оливковый цвет)"
+          ],
+          "examples": [
+            "The jacket comes in black or olive.",
+            "The walls were painted a muddy olive.",
+            "Olive was everywhere in military clothing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small oval fruit with a pit, eaten salted or pressed for oil",
+          "body": [
+            "(олива, маслина)",
+            "---"
+          ],
+          "examples": [
+            "I ordered the salad with extra olives.",
+            "He dropped an olive into his martini.",
+            "These green olives are stuffed with garlic."
+          ]
+        }
+      ],
+      "русский": "оливковый цвет; олива, маслина",
       "countability": "uncountable"
     },
     {
@@ -1339,14 +2495,58 @@
       "term": "tone",
       "ipa": "/toʊn/",
       "respell": "TOHN",
-      "meaning": "A shade of a color, especially how light or dark it is. ---",
+      "meaning": "Tone has 3 distinct senses.",
       "examples": [
         "The room is done in warm earth tones.",
         "Pick a tone that matches your skin.",
-        "The photo has a bluish tone."
+        "The photo has a bluish tone.",
+        "Don't take that tone with me.",
+        "Her email had a friendly tone.",
+        "He apologized in a serious tone.",
+        "Please leave your message after the tone.",
+        "There was no dial tone when I picked up the phone.",
+        "The elevator gives a soft tone at each floor."
       ],
-      "senses": [],
-      "русский": "тон (цвета)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shade of a color, especially how light or dark it is",
+          "body": [
+            "(тон (цвета))"
+          ],
+          "examples": [
+            "The room is done in warm earth tones.",
+            "Pick a tone that matches your skin.",
+            "The photo has a bluish tone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of a voice or piece of writing that shows the speaker's feeling or attitude",
+          "body": [
+            "(тон (интонация, манера))"
+          ],
+          "examples": [
+            "Don't take that tone with me.",
+            "Her email had a friendly tone.",
+            "He apologized in a serious tone."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A single electronic sound, such as the beep before you leave a message",
+          "body": [
+            "(сигнал, гудок)",
+            "---"
+          ],
+          "examples": [
+            "Please leave your message after the tone.",
+            "There was no dial tone when I picked up the phone.",
+            "The elevator gives a soft tone at each floor."
+          ]
+        }
+      ],
+      "русский": "тон (цвета); тон (интонация, манера); сигнал, гудок",
       "plural": "tones",
       "countability": "countable"
     },
@@ -1397,14 +2597,43 @@
       "term": "gloss",
       "ipa": "/ɡlɔːs/",
       "respell": "GLAWSS",
-      "meaning": "A smooth shiny finish on a surface. ---",
+      "meaning": "Gloss has 2 distinct senses.",
       "examples": [
         "The paint dries to a high gloss.",
         "Her hair had a beautiful gloss.",
-        "We chose gloss rather than flat for the trim."
+        "We chose gloss rather than flat for the trim.",
+        "The editor added a gloss for every legal term.",
+        "Old manuscripts often carry glosses in the margins.",
+        "A one-line gloss at the bottom of the page tells you what it means."
       ],
-      "senses": [],
-      "русский": "глянец, блеск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A smooth shiny finish on a surface",
+          "body": [
+            "(глянец, блеск)"
+          ],
+          "examples": [
+            "The paint dries to a high gloss.",
+            "Her hair had a beautiful gloss.",
+            "We chose gloss rather than flat for the trim."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short note that explains a difficult word in a text",
+          "body": [
+            "(глосса, пояснение к слову)",
+            "---"
+          ],
+          "examples": [
+            "The editor added a gloss for every legal term.",
+            "Old manuscripts often carry glosses in the margins.",
+            "A one-line gloss at the bottom of the page tells you what it means."
+          ]
+        }
+      ],
+      "русский": "глянец, блеск; глосса, пояснение к слову",
       "countability": "uncountable"
     },
     {
@@ -1512,14 +2741,43 @@
       "term": "blur",
       "ipa": "/blɜːr/",
       "respell": "BLUR",
-      "meaning": "A shape that cannot be seen clearly because its edges are not sharp. ---",
+      "meaning": "Blur has 2 distinct senses.",
       "examples": [
         "Without my glasses everything is a blur.",
         "The car went by in a red blur.",
-        "The photo shows two gray blurs in the background."
+        "The photo shows two gray blurs in the background.",
+        "The first month with a newborn was a total blur.",
+        "The whole trip is a blur now.",
+        "Everything after the crash is a blur."
       ],
-      "senses": [],
-      "русский": "размытое пятно, расплывчатое изображение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shape that cannot be seen clearly because its edges are not sharp",
+          "body": [
+            "(размытое пятно, расплывчатое изображение)"
+          ],
+          "examples": [
+            "Without my glasses everything is a blur.",
+            "The car went by in a red blur.",
+            "The photo shows two gray blurs in the background."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stretch of time that you cannot remember clearly",
+          "body": [
+            "(смутное воспоминание, время как в тумане)",
+            "---"
+          ],
+          "examples": [
+            "The first month with a newborn was a total blur.",
+            "The whole trip is a blur now.",
+            "Everything after the crash is a blur."
+          ]
+        }
+      ],
+      "русский": "размытое пятно, расплывчатое изображение; смутное воспоминание, время как в тумане",
       "plural": "blurs",
       "countability": "countable"
     },
@@ -1541,14 +2799,43 @@
       "term": "opacity",
       "ipa": "/oʊˈpæsəti/",
       "respell": "oh-PAS-uh-tee",
-      "meaning": "The quality of not letting light through. ---",
+      "meaning": "Opacity has 2 distinct senses.",
       "examples": [
         "Set the opacity to fifty percent.",
         "Two coats of paint give better opacity.",
-        "The fabric has enough opacity for a curtain."
+        "The fabric has enough opacity for a curtain.",
+        "The opacity of the tax code keeps accountants in business.",
+        "Critics complained about the opacity of the hiring process.",
+        "There is an opacity to his poems that some readers love."
       ],
-      "senses": [],
-      "русский": "непрозрачность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The quality of not letting light through",
+          "body": [
+            "(непрозрачность)"
+          ],
+          "examples": [
+            "Set the opacity to fifty percent.",
+            "Two coats of paint give better opacity.",
+            "The fabric has enough opacity for a curtain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of being unclear or hard to understand",
+          "body": [
+            "(непонятность, туманность (изложения, процесса))",
+            "---"
+          ],
+          "examples": [
+            "The opacity of the tax code keeps accountants in business.",
+            "Critics complained about the opacity of the hiring process.",
+            "There is an opacity to his poems that some readers love."
+          ]
+        }
+      ],
+      "русский": "непрозрачность; непонятность, туманность (изложения, процесса)",
       "countability": "uncountable"
     },
     {
@@ -1570,14 +2857,58 @@
       "term": "look",
       "ipa": "/lʊk/",
       "respell": "LUUK",
-      "meaning": "The particular appearance or style of a person or thing. ---",
+      "meaning": "Look has 3 distinct senses.",
       "examples": [
         "She has a very natural look.",
         "White paint gave the room a fresh look.",
-        "The band tried out several different looks."
+        "The band tried out several different looks.",
+        "Take a look at this photo.",
+        "One look at the sky and we canceled the picnic.",
+        "The mechanic had a quick look under the hood.",
+        "She gave me a look that ended the conversation.",
+        "There was a worried look on his face.",
+        "I know that look — you forgot again, didn't you?"
       ],
-      "senses": [],
-      "русский": "вид, внешность, образ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The particular appearance or style of a person or thing",
+          "body": [
+            "(вид, внешность, образ)"
+          ],
+          "examples": [
+            "She has a very natural look.",
+            "White paint gave the room a fresh look.",
+            "The band tried out several different looks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act of looking at something",
+          "body": [
+            "(взгляд, беглый осмотр)"
+          ],
+          "examples": [
+            "Take a look at this photo.",
+            "One look at the sky and we canceled the picnic.",
+            "The mechanic had a quick look under the hood."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An expression on someone's face",
+          "body": [
+            "(выражение лица, взгляд)",
+            "---"
+          ],
+          "examples": [
+            "She gave me a look that ended the conversation.",
+            "There was a worried look on his face.",
+            "I know that look — you forgot again, didn't you?"
+          ]
+        }
+      ],
+      "русский": "вид, внешность, образ; взгляд, беглый осмотр; выражение лица, взгляд",
       "plural": "looks",
       "countability": "countable"
     },
@@ -1646,28 +2977,86 @@
       "term": "posture",
       "ipa": "/ˈpɑːstʃər/",
       "respell": "PAHSS-chur",
-      "meaning": "The way you hold your body when you stand or sit. ---",
+      "meaning": "Posture has 2 distinct senses.",
       "examples": [
         "Sitting all day is bad for your posture.",
         "She has excellent posture.",
-        "The trainer worked on his posture first."
+        "The trainer worked on his posture first.",
+        "The company's legal posture softened after the ruling.",
+        "Both countries adopted a defensive posture.",
+        "It was a bargaining posture, not a real offer."
       ],
-      "senses": [],
-      "русский": "осанка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way you hold your body when you stand or sit",
+          "body": [
+            "(осанка)"
+          ],
+          "examples": [
+            "Sitting all day is bad for your posture.",
+            "She has excellent posture.",
+            "The trainer worked on his posture first."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official position or attitude taken toward something",
+          "body": [
+            "(позиция, установка)",
+            "---"
+          ],
+          "examples": [
+            "The company's legal posture softened after the ruling.",
+            "Both countries adopted a defensive posture.",
+            "It was a bargaining posture, not a real offer."
+          ]
+        }
+      ],
+      "русский": "осанка; позиция, установка",
       "countability": "uncountable"
     },
     {
       "term": "stature",
       "ipa": "/ˈstætʃər/",
       "respell": "STACH-ur",
-      "meaning": "A person's natural height. ---",
+      "meaning": "Stature has 2 distinct senses.",
       "examples": [
         "He is small in stature but very strong.",
         "Her stature made her easy to spot in a crowd.",
-        "Jockeys tend to be short in stature."
+        "Jockeys tend to be short in stature.",
+        "She is a scientist of international stature.",
+        "The prize raised his stature in the field.",
+        "The paper has lost stature over the years."
       ],
-      "senses": [],
-      "русский": "рост (человека)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person's natural height",
+          "body": [
+            "(рост (человека))"
+          ],
+          "examples": [
+            "He is small in stature but very strong.",
+            "Her stature made her easy to spot in a crowd.",
+            "Jockeys tend to be short in stature."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The importance or respect a person or institution has earned",
+          "body": [
+            "(авторитет, положение, значимость)",
+            "---"
+          ],
+          "examples": [
+            "She is a scientist of international stature.",
+            "The prize raised his stature in the field.",
+            "The paper has lost stature over the years."
+          ]
+        }
+      ],
+      "русский": "рост (человека); авторитет, положение, значимость",
       "countability": "uncountable"
     },
     {
@@ -1750,14 +3139,43 @@
       "term": "stubble",
       "ipa": "/ˈstʌbəl/",
       "respell": "STUB-ul",
-      "meaning": "Short hair on a man's face when he has not shaved for a day or two. ---",
+      "meaning": "Stubble has 2 distinct senses.",
       "examples": [
         "He had two days of stubble on his chin.",
         "The stubble scratched her cheek.",
-        "A little stubble actually looks good on him."
+        "A little stubble actually looks good on him.",
+        "Geese fed in the corn stubble all morning.",
+        "The tractor turned the stubble back into the soil.",
+        "Wheat stubble covered the field until spring."
       ],
-      "senses": [],
-      "русский": "щетина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Short hair on a man's face when he has not shaved for a day or two",
+          "body": [
+            "(щетина)"
+          ],
+          "examples": [
+            "He had two days of stubble on his chin.",
+            "The stubble scratched her cheek.",
+            "A little stubble actually looks good on him."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The short stalks left standing in a field after the crop is cut",
+          "body": [
+            "(жнивьё, стерня)",
+            "---"
+          ],
+          "examples": [
+            "Geese fed in the corn stubble all morning.",
+            "The tractor turned the stubble back into the soil.",
+            "Wheat stubble covered the field until spring."
+          ]
+        }
+      ],
+      "русский": "щетина; жнивьё, стерня",
       "countability": "uncountable"
     },
     {
@@ -1839,14 +3257,43 @@
       "term": "scratch",
       "ipa": "/skrætʃ/",
       "respell": "SKRACH",
-      "meaning": "A thin shallow mark cut into a surface or the skin. ---",
+      "meaning": "Scratch has 2 distinct senses.",
       "examples": [
         "There is a scratch on the hood of my car.",
         "The cat left three scratches on his arm.",
-        "The screen has a tiny scratch in the corner."
+        "The screen has a tiny scratch in the corner.",
+        "She makes the pie crust from scratch.",
+        "After the fire they had to start again from scratch.",
+        "The new coach built the program from scratch."
       ],
-      "senses": [],
-      "русский": "царапина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin shallow mark cut into a surface or the skin",
+          "body": [
+            "(царапина)"
+          ],
+          "examples": [
+            "There is a scratch on the hood of my car.",
+            "The cat left three scratches on his arm.",
+            "The screen has a tiny scratch in the corner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The starting point, with nothing prepared in advance, used mainly in the phrase from scratch",
+          "body": [
+            "(нулевая отметка, начало с нуля)",
+            "---"
+          ],
+          "examples": [
+            "She makes the pie crust from scratch.",
+            "After the fire they had to start again from scratch.",
+            "The new coach built the program from scratch."
+          ]
+        }
+      ],
+      "русский": "царапина; нулевая отметка, начало с нуля",
       "plural": "scratches",
       "countability": "countable"
     },
@@ -1869,14 +3316,58 @@
       "term": "streak",
       "ipa": "/striːk/",
       "respell": "STREEK",
-      "meaning": "A long thin line of a different color from what is around it. ---",
+      "meaning": "Streak has 3 distinct senses.",
       "examples": [
         "She has gray streaks in her hair.",
         "There are dirty streaks on the window.",
-        "A streak of light crossed the ceiling."
+        "A streak of light crossed the ceiling.",
+        "The team is on a six-game winning streak.",
+        "His hot streak ended in April.",
+        "She hit a losing streak and stopped playing.",
+        "He has a stubborn streak.",
+        "There's a mean streak in that dog.",
+        "She has a romantic streak under all that logic."
       ],
-      "senses": [],
-      "русский": "полоска, прядь; след",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long thin line of a different color from what is around it",
+          "body": [
+            "(полоска, прядь; след)"
+          ],
+          "examples": [
+            "She has gray streaks in her hair.",
+            "There are dirty streaks on the window.",
+            "A streak of light crossed the ceiling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unbroken run of wins, losses, or luck",
+          "body": [
+            "(серия (побед, неудач), полоса)"
+          ],
+          "examples": [
+            "The team is on a six-game winning streak.",
+            "His hot streak ended in April.",
+            "She hit a losing streak and stopped playing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A noticeable part of someone's character",
+          "body": [
+            "(жилка, черта (характера))",
+            "---"
+          ],
+          "examples": [
+            "He has a stubborn streak.",
+            "There's a mean streak in that dog.",
+            "She has a romantic streak under all that logic."
+          ]
+        }
+      ],
+      "русский": "полоска, прядь; след; серия (побед, неудач), полоса; жилка, черта (характера)",
       "plural": "streaks",
       "countability": "countable"
     },
@@ -1914,14 +3405,72 @@
       "term": "mark",
       "ipa": "/mɑːrk/",
       "respell": "MARK",
-      "meaning": "A spot or line on a surface that spoils its appearance.",
+      "meaning": "Mark has 4 distinct senses.",
       "examples": [
         "The glass left a ring mark on the wood.",
         "There were muddy marks all over the floor.",
-        "The burn left a small mark on her arm."
+        "The burn left a small mark on her arm.",
+        "His first arrow fell short of the mark.",
+        "Her guess about the price was close to the mark.",
+        "The critics' complaints were wide of the mark.",
+        "The flags were lowered as a mark of respect.",
+        "Patience is the mark of a good teacher.",
+        "Hand stitching is a mark of quality in a boot.",
+        "Donations passed the million-dollar mark last night.",
+        "He was pulled from the game just before the ten-minute mark.",
+        "Water rose above the flood mark on the wall."
       ],
-      "senses": [],
-      "русский": "след, отметина, пятно",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A spot or line on a surface that spoils its appearance",
+          "body": [
+            "(след, отметина, пятно)"
+          ],
+          "examples": [
+            "The glass left a ring mark on the wood.",
+            "There were muddy marks all over the floor.",
+            "The burn left a small mark on her arm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thing you aim at when you shoot or throw",
+          "body": [
+            "(цель, мишень)"
+          ],
+          "examples": [
+            "His first arrow fell short of the mark.",
+            "Her guess about the price was close to the mark.",
+            "The critics' complaints were wide of the mark."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sign or feature that shows the presence or quality of something",
+          "body": [
+            "(знак, признак)"
+          ],
+          "examples": [
+            "The flags were lowered as a mark of respect.",
+            "Patience is the mark of a good teacher.",
+            "Hand stitching is a mark of quality in a boot."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular point on a scale or in a stretch of time",
+          "body": [
+            "(отметка, рубеж)"
+          ],
+          "examples": [
+            "Donations passed the million-dollar mark last night.",
+            "He was pulled from the game just before the ten-minute mark.",
+            "Water rose above the flood mark on the wall."
+          ]
+        }
+      ],
+      "русский": "след, отметина, пятно; цель, мишень; знак, признак; отметка, рубеж",
       "plural": "marks",
       "countability": "countable"
     }

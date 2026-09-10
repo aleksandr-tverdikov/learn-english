@@ -6,14 +6,58 @@
       "term": "mess",
       "ipa": "/mɛs/",
       "respell": "MES",
-      "meaning": "A dirty or untidy state of a place or thing. ---",
+      "meaning": "Mess has 3 distinct senses.",
       "examples": [
         "The kitchen was a mess after the party.",
         "Clean up your mess before you go out.",
-        "The kids make three messes a day."
+        "The kids make three messes a day.",
+        "The scheduling system is a complete mess.",
+        "He made a mess of his first semester.",
+        "After the layoffs her finances were a mess.",
+        "The recruits lined up outside the mess at six.",
+        "He ate every meal that year in the officers' mess.",
+        "Both messes were closed for the holiday."
       ],
-      "senses": [],
-      "русский": "беспорядок, бардак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dirty or untidy state of a place or thing",
+          "body": [
+            "(беспорядок, бардак)"
+          ],
+          "examples": [
+            "The kitchen was a mess after the party.",
+            "Clean up your mess before you go out.",
+            "The kids make three messes a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A confused or badly handled situation",
+          "body": [
+            "(неразбериха, плачевное положение)"
+          ],
+          "examples": [
+            "The scheduling system is a complete mess.",
+            "He made a mess of his first semester.",
+            "After the layoffs her finances were a mess."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A room where soldiers or sailors eat together",
+          "body": [
+            "(столовая (в армии, на флоте))",
+            "---"
+          ],
+          "examples": [
+            "The recruits lined up outside the mess at six.",
+            "He ate every meal that year in the officers' mess.",
+            "Both messes were closed for the holiday."
+          ]
+        }
+      ],
+      "русский": "беспорядок, бардак; неразбериха, плачевное положение; столовая (в армии, на флоте)",
       "plural": "messes",
       "countability": "countable"
     },
@@ -113,14 +157,58 @@
       "term": "cleaner",
       "ipa": "/ˈkliːnər/",
       "respell": "KLEE-nur",
-      "meaning": "A liquid or powder made for cleaning a particular surface. ---",
+      "meaning": "Cleaner has 3 distinct senses.",
       "examples": [
         "Spray the cleaner on and let it sit a minute.",
         "This cleaner is safe on granite.",
-        "The store carries a dozen different bathroom cleaners."
+        "The store carries a dozen different bathroom cleaners.",
+        "The cleaners come to the office on Friday nights.",
+        "She works as a cleaner at the hospital.",
+        "Our cleaner has a key to the apartment.",
+        "My suit is still at the cleaners.",
+        "Drop the coat off at the cleaners on your way in.",
+        "The cleaners on Third Street closes at six."
       ],
-      "senses": [],
-      "русский": "чистящее средство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid or powder made for cleaning a particular surface",
+          "body": [
+            "(чистящее средство)"
+          ],
+          "examples": [
+            "Spray the cleaner on and let it sit a minute.",
+            "This cleaner is safe on granite.",
+            "The store carries a dozen different bathroom cleaners."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone whose job is cleaning offices or homes",
+          "body": [
+            "(уборщик, уборщица)"
+          ],
+          "examples": [
+            "The cleaners come to the office on Friday nights.",
+            "She works as a cleaner at the hospital.",
+            "Our cleaner has a key to the apartment."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A shop that dry-cleans clothes, usually spoken of in the plural",
+          "body": [
+            "(химчистка)",
+            "---"
+          ],
+          "examples": [
+            "My suit is still at the cleaners.",
+            "Drop the coat off at the cleaners on your way in.",
+            "The cleaners on Third Street closes at six."
+          ]
+        }
+      ],
+      "русский": "чистящее средство; уборщик, уборщица; химчистка",
       "plural": "cleaners",
       "countability": "countable, and uncountable as a substance",
       "contrast": "Cleaner is also the person who cleans: the cleaner comes Fridays."
@@ -129,14 +217,43 @@
       "term": "wash",
       "ipa": "/wɑːʃ/",
       "respell": "WAHSH",
-      "meaning": "One cleaning of something with water, or the clothes being washed. ---",
+      "meaning": "Wash has 2 distinct senses.",
       "examples": [
         "My jeans are in the wash.",
         "The car could use a wash.",
-        "The color faded after three washes."
+        "The color faded after three washes.",
+        "After the new fees, the raise was basically a wash.",
+        "We saved on gas but paid more for parking, so it was a wash.",
+        "For the company the whole quarter came out a wash."
       ],
-      "senses": [],
-      "русский": "стирка; мойка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One cleaning of something with water, or the clothes being washed",
+          "body": [
+            "(стирка; мойка)"
+          ],
+          "examples": [
+            "My jeans are in the wash.",
+            "The car could use a wash.",
+            "The color faded after three washes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A situation in which gains and losses cancel out, leaving no real change",
+          "body": [
+            "(нулевой результат, «баш на баш»)",
+            "---"
+          ],
+          "examples": [
+            "After the new fees, the raise was basically a wash.",
+            "We saved on gas but paid more for parking, so it was a wash.",
+            "For the company the whole quarter came out a wash."
+          ]
+        }
+      ],
+      "русский": "стирка; мойка; нулевой результат, «баш на баш»",
       "plural": "washes",
       "countability": "countable",
       "contrast": "Americans say in the wash; the British say in the washing."
@@ -389,14 +506,43 @@
       "term": "steamer",
       "ipa": "/ˈstiːmər/",
       "respell": "STEE-mur",
-      "meaning": "A handheld device that smooths clothes with hot vapor. ---",
+      "meaning": "Steamer has 2 distinct senses.",
       "examples": [
         "Run the steamer over that jacket before you wear it.",
         "A steamer is faster than ironing for curtains.",
-        "The shop keeps two steamers by the fitting rooms."
+        "The shop keeps two steamers by the fitting rooms.",
+        "Put the broccoli in the steamer for five minutes.",
+        "We got a bamboo steamer for dumplings.",
+        "The rice cooker came with a steamer tray."
       ],
-      "senses": [],
-      "русский": "отпариватель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A handheld device that smooths clothes with hot vapor",
+          "body": [
+            "(отпариватель)"
+          ],
+          "examples": [
+            "Run the steamer over that jacket before you wear it.",
+            "A steamer is faster than ironing for curtains.",
+            "The shop keeps two steamers by the fitting rooms."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pot or basket with holes, used to cook food over boiling water",
+          "body": [
+            "(пароварка)",
+            "---"
+          ],
+          "examples": [
+            "Put the broccoli in the steamer for five minutes.",
+            "We got a bamboo steamer for dumplings.",
+            "The rice cooker came with a steamer tray."
+          ]
+        }
+      ],
+      "русский": "отпариватель; пароварка",
       "plural": "steamers",
       "countability": "countable"
     },
@@ -433,28 +579,101 @@
       "term": "scum",
       "ipa": "/skʌm/",
       "respell": "SKUM",
-      "meaning": "A dirty film that forms on the top of water or on a wet surface. ---",
+      "meaning": "Scum has 2 distinct senses.",
       "examples": [
         "There was scum floating on the dishwater.",
         "Wipe the scum off the waterline of the tub.",
-        "Green scum covered the top of the barrel."
+        "Green scum covered the top of the barrel.",
+        "Anyone who steals from a food bank is scum.",
+        "The officers called them scum right to their faces.",
+        "He treated her like scum for years."
       ],
-      "senses": [],
-      "русский": "налёт, грязная пена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dirty film that forms on the top of water or on a wet surface",
+          "body": [
+            "(налёт, грязная пена)"
+          ],
+          "examples": [
+            "There was scum floating on the dishwater.",
+            "Wipe the scum off the waterline of the tub.",
+            "Green scum covered the top of the barrel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cruel or worthless person, or such people taken as a group",
+          "body": [
+            "(подонок, мразь)",
+            "---"
+          ],
+          "examples": [
+            "Anyone who steals from a food bank is scum.",
+            "The officers called them scum right to their faces.",
+            "He treated her like scum for years."
+          ]
+        }
+      ],
+      "русский": "налёт, грязная пена; подонок, мразь",
       "countability": "uncountable"
     },
     {
       "term": "buildup",
       "ipa": "/ˈbɪldʌp/",
       "respell": "BILD-up",
-      "meaning": "A layer of dirt or residue that has collected slowly over time. ---",
+      "meaning": "Buildup has 3 distinct senses.",
       "examples": [
         "There's a buildup of grease behind the stove.",
         "The showerhead had a mineral buildup.",
-        "Regular cleaning prevents buildups like that."
+        "Regular cleaning prevents buildups like that.",
+        "The country announced a military buildup along its border.",
+        "A slow buildup of pressure finally cracked the pipe.",
+        "Doctors watched for a buildup of fluid in his lungs.",
+        "The buildup to the Super Bowl lasts two weeks.",
+        "There was so much buildup that the movie couldn't live up to it.",
+        "In the buildup to the election, both sides spent heavily."
       ],
-      "senses": [],
-      "русский": "налёт, отложения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A layer of dirt or residue that has collected slowly over time",
+          "body": [
+            "(налёт, отложения)"
+          ],
+          "examples": [
+            "There's a buildup of grease behind the stove.",
+            "The showerhead had a mineral buildup.",
+            "Regular cleaning prevents buildups like that."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gradual increase in the number or strength of something",
+          "body": [
+            "(наращивание, накопление (сил, давления))"
+          ],
+          "examples": [
+            "The country announced a military buildup along its border.",
+            "A slow buildup of pressure finally cracked the pipe.",
+            "Doctors watched for a buildup of fluid in his lungs."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The stretch of preparation and excitement before a big event",
+          "body": [
+            "(подготовка и ожидание перед событием)",
+            "---"
+          ],
+          "examples": [
+            "The buildup to the Super Bowl lasts two weeks.",
+            "There was so much buildup that the movie couldn't live up to it.",
+            "In the buildup to the election, both sides spent heavily."
+          ]
+        }
+      ],
+      "русский": "налёт, отложения; наращивание, накопление (сил, давления); подготовка и ожидание перед событием",
       "plural": "buildups",
       "countability": "countable"
     },
@@ -546,28 +765,86 @@
       "term": "grit",
       "ipa": "/ɡrɪt/",
       "respell": "GRIT",
-      "meaning": "Tiny hard bits of sand or dirt you can feel underfoot. ---",
+      "meaning": "Grit has 2 distinct senses.",
       "examples": [
         "There's grit all over the kitchen floor.",
         "Rinse the grit out of the lettuce.",
-        "You could feel the grit between your teeth."
+        "You could feel the grit between your teeth.",
+        "It took real grit to finish the race on a bad ankle.",
+        "The coach praised his team's grit.",
+        "She has more grit than anyone I know."
       ],
-      "senses": [],
-      "русский": "песок, мелкий сор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Tiny hard bits of sand or dirt you can feel underfoot",
+          "body": [
+            "(песок, мелкий сор)"
+          ],
+          "examples": [
+            "There's grit all over the kitchen floor.",
+            "Rinse the grit out of the lettuce.",
+            "You could feel the grit between your teeth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Courage and determination that keep someone going through hard times",
+          "body": [
+            "(твёрдость характера, упорство)",
+            "---"
+          ],
+          "examples": [
+            "It took real grit to finish the race on a bad ankle.",
+            "The coach praised his team's grit.",
+            "She has more grit than anyone I know."
+          ]
+        }
+      ],
+      "русский": "песок, мелкий сор; твёрдость характера, упорство",
       "countability": "uncountable"
     },
     {
       "term": "smear",
       "ipa": "/smɪr/",
       "respell": "SMEER",
-      "meaning": "A dirty mark made by rubbing something wet or greasy. ---",
+      "meaning": "Smear has 2 distinct senses.",
       "examples": [
         "There's a smear of jam on the counter.",
         "The window was full of smears after he wiped it.",
-        "A smear of grease ran down the cabinet door."
+        "A smear of grease ran down the cabinet door.",
+        "The ad was a smear, and everyone knew it.",
+        "He called the accusation a political smear.",
+        "Smears like that follow a candidate for years."
       ],
-      "senses": [],
-      "русский": "размазанное пятно, развод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dirty mark made by rubbing something wet or greasy",
+          "body": [
+            "(размазанное пятно, развод)"
+          ],
+          "examples": [
+            "There's a smear of jam on the counter.",
+            "The window was full of smears after he wiped it.",
+            "A smear of grease ran down the cabinet door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A false story spread in order to damage someone's reputation",
+          "body": [
+            "(клевета, очернение)",
+            "---"
+          ],
+          "examples": [
+            "The ad was a smear, and everyone knew it.",
+            "He called the accusation a political smear.",
+            "Smears like that follow a candidate for years."
+          ]
+        }
+      ],
+      "русский": "размазанное пятно, развод; клевета, очернение",
       "plural": "smears",
       "countability": "countable"
     },
@@ -696,14 +973,43 @@
       "term": "smell",
       "ipa": "/smɛl/",
       "respell": "SMEL",
-      "meaning": "Something you notice with your nose, good or bad. ---",
+      "meaning": "Smell has 2 distinct senses.",
       "examples": [
         "What's that smell in the basement?",
         "The smell of bleach filled the bathroom.",
-        "Cooking smells stay in the curtains."
+        "Cooking smells stay in the curtains.",
+        "Dogs rely on smell far more than on sight.",
+        "She lost her sense of smell after the infection.",
+        "Smell brings back memories faster than any other sense."
       ],
-      "senses": [],
-      "русский": "запах",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you notice with your nose, good or bad",
+          "body": [
+            "(запах)"
+          ],
+          "examples": [
+            "What's that smell in the basement?",
+            "The smell of bleach filled the bathroom.",
+            "Cooking smells stay in the curtains."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sense that lets you notice odors through your nose",
+          "body": [
+            "(обоняние)",
+            "---"
+          ],
+          "examples": [
+            "Dogs rely on smell far more than on sight.",
+            "She lost her sense of smell after the infection.",
+            "Smell brings back memories faster than any other sense."
+          ]
+        }
+      ],
+      "русский": "запах; обоняние",
       "plural": "smells",
       "countability": "countable"
     },
@@ -906,14 +1212,58 @@
       "term": "spray",
       "ipa": "/spreɪ/",
       "respell": "SPRAY",
-      "meaning": "A liquid product that is pushed out of a container in a mist. ---",
+      "meaning": "Spray has 3 distinct senses.",
       "examples": [
         "Give the counter a quick shot of spray.",
         "This spray takes grease off the stovetop.",
-        "The shelf was full of cleaning sprays."
+        "The shelf was full of cleaning sprays.",
+        "Spray from the waterfall soaked our jackets.",
+        "Salt spray had rusted the railings.",
+        "The wind picked up and sent spray over the bow.",
+        "She carried a spray of white roses.",
+        "A spray of lilies lay on the casket.",
+        "He tucked a spray of baby's breath into the vase."
       ],
-      "senses": [],
-      "русский": "спрей, распыляемое средство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid product that is pushed out of a container in a mist",
+          "body": [
+            "(спрей, распыляемое средство)"
+          ],
+          "examples": [
+            "Give the counter a quick shot of spray.",
+            "This spray takes grease off the stovetop.",
+            "The shelf was full of cleaning sprays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Very fine drops of water blown or thrown through the air",
+          "body": [
+            "(брызги, водяная пыль)"
+          ],
+          "examples": [
+            "Spray from the waterfall soaked our jackets.",
+            "Salt spray had rusted the railings.",
+            "The wind picked up and sent spray over the bow."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small arrangement of cut flowers or leafy branches",
+          "body": [
+            "(букетик, ветка (цветов))",
+            "---"
+          ],
+          "examples": [
+            "She carried a spray of white roses.",
+            "A spray of lilies lay on the casket.",
+            "He tucked a spray of baby's breath into the vase."
+          ]
+        }
+      ],
+      "русский": "спрей, распыляемое средство; брызги, водяная пыль; букетик, ветка (цветов)",
       "plural": "sprays",
       "countability": "countable, and uncountable as a substance"
     },
@@ -921,14 +1271,43 @@
       "term": "aerosol",
       "ipa": "/ˈɛrəˌsɔːl/",
       "respell": "ER-uh-sawl",
-      "meaning": "A pressurized can that releases its contents as a fine mist. ---",
+      "meaning": "Aerosol has 2 distinct senses.",
       "examples": [
         "Don't throw an aerosol in the fire.",
         "The polish comes in an aerosol.",
-        "Some aerosols are banned in this state."
+        "Some aerosols are banned in this state.",
+        "The virus travels in aerosols that hang in the air indoors.",
+        "Volcanic aerosols cooled the planet for two summers.",
+        "Ocean spray puts a fine salt aerosol into the atmosphere."
       ],
-      "senses": [],
-      "русский": "аэрозоль, аэрозольный баллончик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pressurized can that releases its contents as a fine mist",
+          "body": [
+            "(аэрозоль, аэрозольный баллончик)"
+          ],
+          "examples": [
+            "Don't throw an aerosol in the fire.",
+            "The polish comes in an aerosol.",
+            "Some aerosols are banned in this state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Tiny particles or droplets floating in the air",
+          "body": [
+            "(аэрозоль, взвесь мельчайших частиц в воздухе)",
+            "---"
+          ],
+          "examples": [
+            "The virus travels in aerosols that hang in the air indoors.",
+            "Volcanic aerosols cooled the planet for two summers.",
+            "Ocean spray puts a fine salt aerosol into the atmosphere."
+          ]
+        }
+      ],
+      "русский": "аэрозоль, аэрозольный баллончик; аэрозоль, взвесь мельчайших частиц в воздухе",
       "plural": "aerosols",
       "countability": "countable"
     },
@@ -1341,14 +1720,43 @@
       "term": "dump",
       "ipa": "/dʌmp/",
       "respell": "DUMP",
-      "meaning": "A place where people leave trash and unwanted things. ---",
+      "meaning": "Dump has 2 distinct senses.",
       "examples": [
         "He took the old couch to the dump.",
         "The dump charges by the pound now.",
-        "There used to be dumps at the edge of every town."
+        "There used to be dumps at the edge of every town.",
+        "The motel turned out to be a total dump.",
+        "I'm not eating in that dump.",
+        "They fixed up the old dump and sold it for a profit."
       ],
-      "senses": [],
-      "русский": "свалка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where people leave trash and unwanted things",
+          "body": [
+            "(свалка)"
+          ],
+          "examples": [
+            "He took the old couch to the dump.",
+            "The dump charges by the pound now.",
+            "There used to be dumps at the edge of every town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dirty, unpleasant, run-down place",
+          "body": [
+            "(помойка, дыра (о месте))",
+            "---"
+          ],
+          "examples": [
+            "The motel turned out to be a total dump.",
+            "I'm not eating in that dump.",
+            "They fixed up the old dump and sold it for a profit."
+          ]
+        }
+      ],
+      "русский": "свалка; помойка, дыра (о месте)",
       "plural": "dumps",
       "countability": "countable"
     },

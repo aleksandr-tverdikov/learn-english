@@ -278,15 +278,23 @@ Thick coated paper made for printing photographs.
 ### ream
 
 **Pronunciation:** /riːm/ &middot; *REEM*
-**Русский:** пачка бумаги (500 листов)
+**Русский:** пачка бумаги (500 листов); кипы, горы (бумаг, записей)
 **Plural:** *reams*
 **Countability:** countable
 
-A standard package of five hundred sheets of paper.
+Ream has 2 distinct senses.
+
+**1. A standard package of five hundred sheets of paper.** (пачка бумаги (500 листов))
 
 1. Grab a *ream* of paper from the closet.
 2. A *ream* is five hundred sheets.
 3. The report went through six *reams* of paper.
+
+**2. A very large amount of paper or writing.** (кипы, горы (бумаг, записей))
+
+4. The lawsuit produced *reams* of paperwork.
+5. She took *reams* of notes at the hearing.
+6. There are *reams* of data and nobody to read it.
 
 ---
 
@@ -559,14 +567,28 @@ The particular kind and weight of paper a job is printed on.
 ### pulp
 
 **Pronunciation:** /pʌlp/ &middot; *PULP*
-**Русский:** бумажная масса, целлюлоза
+**Русский:** бумажная масса, целлюлоза; мякоть (плода); бульварное чтиво
 **Countability:** uncountable
 
-The soft wet mass of wood fiber that paper is made from.
+Pulp has 3 distinct senses.
+
+**1. The soft wet mass of wood fiber that paper is made from.** (бумажная масса, целлюлоза)
 
 1. The mill grinds the logs into *pulp*.
 2. Recycled paper is mixed back into the *pulp*.
 3. Wet *pulp* is pressed and dried into sheets.
+
+**2. The soft juicy part of a fruit or vegetable.** (мякоть (плода))
+
+4. I like orange juice with plenty of *pulp*.
+5. Scoop the *pulp* out of the melon.
+6. Strain the juice to get rid of the *pulp*.
+
+**3. Cheap sensational fiction, originally printed on rough paper.** (бульварное чтиво)
+
+7. He wrote detective *pulp* for a penny a word.
+8. The store keeps a shelf of old *pulp* by the window.
+9. Critics dismissed the novel as *pulp*.
 
 ---
 
@@ -1007,14 +1029,22 @@ A person who sets text into type for printing.
 ### type
 
 **Pronunciation:** /taɪp/ &middot; *TYPE*
-**Русский:** шрифт, литеры
+**Русский:** шрифт, литеры; тип, вид, разновидность
 **Countability:** uncountable
 
-Printed letters and characters considered as a whole.
+Type has 2 distinct senses.
+
+**1. Printed letters and characters considered as a whole.** (шрифт, литеры)
 
 1. The book is set in ten-point *type*.
 2. The *type* is too small for me to read comfortably.
 3. Old presses printed from metal *type*.
+
+**2. A kind or category of person or thing.** (тип, вид, разновидность)
+
+4. What *type* of car does she drive?
+5. This *type* of soil holds water well.
+6. The store carries three *types* of batteries.
 
 ---
 
@@ -1362,15 +1392,29 @@ The point where text stops on one page and continues on the next.
 ### header
 
 **Pronunciation:** /ˈhɛdər/ &middot; *HED-ur*
-**Русский:** верхний колонтитул
+**Русский:** верхний колонтитул; удар головой (в футболе); падение головой вперёд
 **Plural:** *headers*
 **Countability:** countable
 
-A line of text repeated at the top of every page.
+Header has 3 distinct senses.
+
+**1. A line of text repeated at the top of every page.** (верхний колонтитул)
 
 1. Put the chapter title in the *header*.
 2. The *header* shows the date on every page.
 3. The two sections use different *headers*.
+
+**2. In soccer, a shot or pass made by hitting the ball with the head.** (удар головой (в футболе))
+
+4. She scored on a *header* from six yards out.
+5. His *header* went just over the crossbar.
+6. The goalie punched away two dangerous *headers*.
+
+**3. A fall or dive headfirst.** (падение головой вперёд)
+
+7. He took a *header* off his bike and split his lip.
+8. The waiter tripped on the rug and took a *header*.
+9. One wrong step on that ladder and you'll take a *header*.
 
 ---
 
@@ -1806,16 +1850,30 @@ A copy of a magazine or newspaper from an earlier date.
 ### galley
 
 **Pronunciation:** /ˈɡæli/ &middot; *GAL-ee*
-**Русский:** гранка, корректурный оттиск
+**Русский:** гранка, корректурный оттиск; камбуз; кухня (в самолёте); галера
 **Plural:** *galleys*
 **Countability:** countable
 **Contrast:** Same word as a ship's kitchen; in publishing it means an early proof.
 
-An early printed copy of a text sent out for correction or review.
+Galley has 3 distinct senses.
+
+**1. An early printed copy of a text sent out for correction or review.** (гранка, корректурный оттиск)
 
 1. The publisher sent a *galley* to every major critic.
 2. I read it in *galley* six months before it came out.
 3. Reviewers get *galleys* with plain paper covers.
+
+**2. The kitchen on a ship or an airplane.** (камбуз; кухня (в самолёте))
+
+4. The cook was busy in the *galley*.
+5. Flight attendants stowed the carts in the *galley*.
+6. The boat has a tiny *galley* with a two-burner stove.
+
+**3. A long ancient ship driven by rows of oars.** (галера)
+
+7. Roman *galleys* once patrolled these waters.
+8. The museum has a model of a Greek *galley*.
+9. Prisoners were sentenced to row in the *galleys*.
 
 ---
 
@@ -1867,14 +1925,22 @@ Someone who checks a text for grammar, spelling, and consistency before it is pr
 ### editing
 
 **Pronunciation:** /ˈɛdətɪŋ/ &middot; *ED-uh-ting*
-**Русский:** редактирование
+**Русский:** редактирование; монтаж (фильма, видео)
 **Countability:** uncountable
 
-The work of correcting and improving a text for publication.
+Editing has 2 distinct senses.
+
+**1. The work of correcting and improving a text for publication.** (редактирование)
 
 1. The book needs another round of *editing*.
 2. She does freelance *editing* for two publishers.
 3. Careful *editing* cut a hundred pages.
+
+**2. The work of cutting and arranging film or video into its final form.** (монтаж (фильма, видео))
+
+4. The *editing* in the chase scene is brilliant.
+5. She spent a month on the *editing* of the documentary.
+6. Sloppy *editing* made the interview look choppy.
 
 ---
 
@@ -1911,15 +1977,35 @@ A short printed note telling a writer a publisher will not take the work.
 ### advance
 
 **Pronunciation:** /ədˈvæns/ &middot; *ad-VANS*
-**Русский:** аванс (гонорара)
+**Русский:** аванс (гонорара); продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания
 **Plural:** *advances*
 **Countability:** countable
 
-Money a publisher pays an author before the book earns anything.
+Advance has 4 distinct senses.
+
+**1. Money a publisher pays an author before the book earns anything.** (аванс (гонорара))
 
 1. The *advance* was fifteen thousand dollars.
 2. She spent the *advance* before she finished the draft.
 3. *Advances* for first novels have shrunk.
+
+**2. A forward movement toward a place or position.** (продвижение, наступление)
+
+4. The army's *advance* stopped at the river.
+5. Nothing could slow the *advance* of the fire.
+6. Farmers watched the *advance* of the desert year by year.
+
+**3. An improvement or new development in knowledge or technology.** (достижение, прогресс (в науке, технике))
+
+7. *Advances* in surgery have cut recovery time in half.
+8. The last real *advance* in battery design was years ago.
+9. The new engine is a big *advance* over the old one.
+
+**4. An attempt to start a romantic or sexual relationship with someone.** (ухаживания, приставания)
+
+10. She made it clear that his *advances* were unwelcome.
+11. He apologized for the *advance* and left the party.
+12. Employees can report unwanted *advances* to human resources.
 
 ---
 
@@ -2076,16 +2162,30 @@ The price printed on a book or magazine.
 ### imprint
 
 **Pronunciation:** /ˈɪmprɪnt/ &middot; *IM-print*
-**Русский:** импринт, издательская марка
+**Русский:** импринт, издательская марка; отпечаток, оттиск; след, отпечаток (влияние)
 **Plural:** *imprints*
 **Countability:** countable
 **Contrast:** Noun stress on the first syllable, IM-print; the verb is im-PRINT.
 
-A brand name a publisher prints its books under.
+Imprint has 3 distinct senses.
+
+**1. A brand name a publisher prints its books under.** (импринт, издательская марка)
 
 1. The novel came out under their children's *imprint*.
 2. The *imprint* has its own editor and logo.
 3. One company owns a dozen *imprints*.
+
+**2. A mark left on a surface by pressing something into it.** (отпечаток, оттиск)
+
+4. Her boots left deep *imprints* in the wet sand.
+5. The tire left a clear *imprint* in the mud.
+6. You could still see the *imprint* of the coin in the clay.
+
+**3. A lasting effect that a person or event leaves on something.** (след, отпечаток (влияние))
+
+7. Her teaching left an *imprint* on a whole generation of students.
+8. The war left its *imprint* on every family in town.
+9. You can see the architect's *imprint* all over the building.
 
 ---
 
@@ -2137,16 +2237,24 @@ The part of a printing plant where the presses run.
 ### insert
 
 **Pronunciation:** /ˈɪnsɜːrt/ &middot; *IN-surt*
-**Русский:** вкладка, вкладыш (в газете)
+**Русский:** вкладка, вкладыш (в газете); вкладыш, вставка
 **Plural:** *inserts*
 **Countability:** countable
 **Contrast:** Noun stress on the first syllable, IN-surt; the verb is in-SURT.
 
-A separate sheet or booklet placed loose inside a newspaper or magazine.
+Insert has 2 distinct senses.
+
+**1. A separate sheet or booklet placed loose inside a newspaper or magazine.** (вкладка, вкладыш (в газете))
 
 1. The coupons come in the Sunday *insert*.
 2. A glossy *insert* fell out of the magazine.
 3. Half the paper's weight is advertising *inserts*.
+
+**2. A piece made to fit inside something else.** (вкладыш, вставка)
+
+4. She wears gel *inserts* in her running shoes.
+5. The mold has a steel *insert* that shapes the hole.
+6. The crib mattress came with a waterproof *insert*.
 
 ---
 

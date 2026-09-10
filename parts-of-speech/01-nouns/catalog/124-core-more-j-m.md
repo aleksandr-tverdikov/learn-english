@@ -312,15 +312,23 @@ In Islam, a struggle in defense of the faith, sometimes meaning a holy war.
 ### jingle
 
 **Pronunciation:** /ˈdʒɪŋɡəl/ &middot; *JING-guhl*
-**Русский:** рекламная песенка
+**Русский:** рекламная песенка; звяканье, позвякивание
 **Plural:** *jingles*
 **Countability:** countable
 
-A short catchy song used in an advertisement.
+Jingle has 2 distinct senses.
+
+**1. A short catchy song used in an advertisement.** (рекламная песенка)
 
 1. I still remember the *jingle* from that cereal commercial.
 2. She writes *jingles* for a small ad agency.
 3. The *jingle* was stuck in my head all afternoon.
+
+**2. A light ringing sound made by small metal objects knocking together.** (звяканье, позвякивание)
+
+4. I heard the *jingle* of keys in the hallway.
+5. The dog came running at the *jingle* of his leash.
+6. There was a faint *jingle* of coins in his pocket.
 
 ---
 
@@ -762,15 +770,29 @@ A single press of a key on a keyboard.
 ### kick
 
 **Pronunciation:** /kɪk/ &middot; *KIK*
-**Русский:** удар ногой, пинок
+**Русский:** удар ногой, пинок; удовольствие, кайф; увлечение, полоса увлечения (чем-л.)
 **Plural:** *kicks*
 **Countability:** countable
 
-A blow or push made with the foot.
+Kick has 3 distinct senses.
+
+**1. A blow or push made with the foot.** (удар ногой, пинок)
 
 1. The goalie stopped the *kick* with one hand.
 2. He gave the door a *kick* to get it open.
 3. She felt the baby's *kicks* all night.
+
+**2. A feeling of pleasure or excitement.** (удовольствие, кайф)
+
+4. She gets a real *kick* out of watching the kids play.
+5. He rides motorcycles for the *kick*.
+6. I got a *kick* out of that movie.
+
+**3. A short period of being very enthusiastic about one thing.** (увлечение, полоса увлечения (чем-л.))
+
+7. He's on a health *kick* this month.
+8. She's been on a baking *kick* since January.
+9. My daughter is on a dinosaur *kick* right now.
 
 ---
 
@@ -822,15 +844,23 @@ A person who takes someone away by force and holds them, usually for money.
 ### killing
 
 **Pronunciation:** /ˈkɪlɪŋ/ &middot; *KIL-ing*
-**Русский:** убийство
+**Русский:** убийство; куш, крупный барыш
 **Plural:** *killings*
 **Countability:** countable
 
-An act of causing someone's death.
+Killing has 2 distinct senses.
+
+**1. An act of causing someone's death.** (убийство)
 
 1. The *killing* took place outside a bar downtown.
 2. There have been four *killings* in the county this year.
 3. He denied any part in the *killing*.
+
+**2. A large amount of money made quickly.** (куш, крупный барыш)
+
+4. They made a *killing* on that house.
+5. He made a *killing* in the stock market last year.
+6. A few early sellers made a *killing*.
 
 ---
 
@@ -898,15 +928,23 @@ A group of people or things that share the same qualities.
 ### kingdom
 
 **Pronunciation:** /ˈkɪŋdəm/ &middot; *KING-duhm*
-**Русский:** королевство
+**Русский:** королевство; царство (в биологии)
 **Plural:** *kingdoms*
 **Countability:** countable
 
-A country ruled by a king or a queen.
+Kingdom has 2 distinct senses.
+
+**1. A country ruled by a king or a queen.** (королевство)
 
 1. Spain is still a *kingdom*.
 2. The story is set in a small mountain *kingdom*.
 3. The two *kingdoms* were joined by a marriage.
+
+**2. One of the largest groups that scientists divide living things into.** (царство (в биологии))
+
+4. Mushrooms belong to the fungus *kingdom*.
+5. The animal *kingdom* runs from sponges to whales.
+6. Biology once recognized only two *kingdoms*.
 
 ---
 
@@ -1002,15 +1040,23 @@ Pots, pans, and other equipment used for cooking.
 ### kite
 
 **Pronunciation:** /kaɪt/ &middot; *KYTE*
-**Русский:** воздушный змей
+**Русский:** воздушный змей; коршун
 **Plural:** *kites*
 **Countability:** countable
 
-A light frame covered with paper or cloth, flown in the wind on a long string.
+Kite has 2 distinct senses.
+
+**1. A light frame covered with paper or cloth, flown in the wind on a long string.** (воздушный змей)
 
 1. The kids flew a *kite* on the beach all afternoon.
 2. His *kite* got caught in a tree.
 3. There were dozens of *kites* over the park.
+
+**2. A bird of prey with long narrow wings and a forked tail.** (коршун)
+
+4. A *kite* circled slowly over the field.
+5. *Kites* often nest in tall trees near rivers.
+6. We watched a *kite* snatch a fish off the water.
 
 ---
 
@@ -1348,15 +1394,23 @@ An operation done through small cuts using a camera on a thin tube.
 ### lapse
 
 **Pronunciation:** /læps/ &middot; *LAPS*
-**Русский:** оплошность, упущение; провал (в памяти)
+**Русский:** оплошность, упущение; провал (в памяти); прекращение действия (полиса, права), просрочка
 **Plural:** *lapses*
 **Countability:** countable
 
-A short failure of memory, judgment, or attention.
+Lapse has 2 distinct senses.
+
+**1. A short failure of memory, judgment, or attention.** (оплошность, упущение; провал (в памяти))
 
 1. A brief *lapse* in concentration cost him the match.
 2. The bank blamed the error on a *lapse* in security.
 3. He apologized for his *lapses* of memory.
+
+**2. The ending of a right, policy, or membership because it was not kept up.** (прекращение действия (полиса, права), просрочка)
+
+4. A *lapse* in coverage can cost you a lot later.
+5. There was a two-month *lapse* in his health insurance.
+6. The *lapse* of the patent let other companies copy the drug.
 
 ---
 
@@ -1527,15 +1581,23 @@ Someone who has won a major honor, especially a Nobel Prize.
 ### laurel
 
 **Pronunciation:** /ˈlɔːrəl/ &middot; *LAWR-uhl*
-**Русский:** лавр, лавровое дерево
+**Русский:** лавр, лавровое дерево; лавры, почести
 **Plural:** *laurels*
 **Countability:** countable
 
-An evergreen tree with shiny leaves, once used to make wreaths for winners.
+Laurel has 2 distinct senses.
+
+**1. An evergreen tree with shiny leaves, once used to make wreaths for winners.** (лавр, лавровое дерево)
 
 1. *Laurels* line the path to the garden.
 2. He planted a small *laurel* by the gate.
 3. Don't rest on your *laurels* — the season isn't over.
+
+**2. Honor or praise earned by an achievement, usually used in the plural.** (лавры, почести)
+
+4. He has been resting on his *laurels* since the first book.
+5. The team brought home new *laurels* from the state meet.
+6. She earned those *laurels* the hard way.
 
 ---
 
@@ -1775,15 +1837,29 @@ The act of making legal something that was against the law.
 ### legend
 
 **Pronunciation:** /ˈlɛdʒənd/ &middot; *LEJ-uhnd*
-**Русский:** легенда, предание
+**Русский:** легенда, предание; легендарный человек, легенда; легенда (карты), условные обозначения
 **Plural:** *legends*
 **Countability:** countable
 
-An old story that many people believe but that may not be true.
+Legend has 3 distinct senses.
+
+**1. An old story that many people believe but that may not be true.** (легенда, предание)
 
 1. Every town here has its own *legend* about the lake.
 2. According to *legend*, a giant once lived on the mountain.
 3. The *legends* were collected in one thin book.
+
+**2. A very famous and admired person in some field.** (легендарный человек, легенда)
+
+4. He is a *legend* in country music.
+5. The old coach is a local *legend*.
+6. Two boxing *legends* met in the ring that night.
+
+**3. The part of a map or chart that explains what its symbols mean.** (легенда (карты), условные обозначения)
+
+7. The *legend* says a dotted line is a hiking trail.
+8. Check the *legend* to see what the colors stand for.
+9. Both charts share one *legend*.
 
 ---
 
@@ -2098,15 +2174,23 @@ An amount of money collected by a government, especially an extra tax.
 ### liaison
 
 **Pronunciation:** /ˈliːeɪzɑːn/ &middot; *LEE-ay-zahn*
-**Русский:** связной, посредник; взаимодействие
+**Русский:** связной, посредник; взаимодействие; любовная связь, интрижка
 **Plural:** *liaisons*
 **Countability:** countable
 
-A person who keeps two groups in contact with each other.
+Liaison has 2 distinct senses.
+
+**1. A person who keeps two groups in contact with each other.** (связной, посредник; взаимодействие)
 
 1. She's the *liaison* between the school and the police.
 2. The company hired two community *liaisons*.
 3. Every department has a safety *liaison*.
+
+**2. A secret romantic or sexual relationship.** (любовная связь, интрижка)
+
+4. He denied any *liaison* with the actress.
+5. Their *liaison* lasted a single summer.
+6. The novel turns on a secret *liaison* between neighbors.
 
 ---
 
@@ -2291,16 +2375,30 @@ The thing that something depends on to keep going.
 ### lift
 
 **Pronunciation:** /lɪft/ &middot; *LIFT*
-**Русский:** поездка на попутной машине, подвоз
+**Русский:** поездка на попутной машине, подвоз; лифт (брит.); прилив бодрости, поднятие настроения
 **Plural:** *lifts*
 **Countability:** countable
 **Contrast:** In American English a lift is a ride; the British use lift for what Americans call an elevator.
 
-A free ride in someone's car.
+Lift has 3 distinct senses.
+
+**1. A free ride in someone's car.** (поездка на попутной машине, подвоз)
 
 1. Can you give me a *lift* to the airport?
 2. I got a *lift* home from a neighbor.
 3. He offers *lifts* to anyone heading his way.
+
+**2. An elevator — the British word for it.** (лифт (брит.))
+
+4. Take the *lift* to the fourth floor and turn left.
+5. In London the sign says *lift*, not elevator.
+6. Both *lifts* were out of order, so we walked up.
+
+**3. A feeling of being cheered up or encouraged.** (прилив бодрости, поднятие настроения)
+
+7. Her phone call gave me a real *lift*.
+8. The good news was a *lift* for the whole office.
+9. A walk outside usually gives him a *lift*.
 
 ---
 
@@ -2379,14 +2477,22 @@ A feeling of enjoying something or being fond of someone.
 ### limbo
 
 **Pronunciation:** /ˈlɪmboʊ/ &middot; *LIM-boh*
-**Русский:** неопределённость, подвешенное состояние
+**Русский:** неопределённость, подвешенное состояние; лимбо (танец-игра под планкой)
 **Countability:** uncountable
 
-A state of waiting in which nothing has been decided.
+Limbo has 2 distinct senses.
+
+**1. A state of waiting in which nothing has been decided.** (неопределённость, подвешенное состояние)
 
 1. Our application has been in *limbo* for months.
 2. The project sits in legal *limbo*.
 3. The layoffs left the staff in *limbo*.
+
+**2. A party game in which dancers bend backward to pass under a low bar.** (лимбо (танец-игра под планкой))
+
+4. The kids played *limbo* at the birthday party.
+5. He won the *limbo* by bending almost flat.
+6. Somebody put on music and started a game of *limbo*.
 
 ---
 
@@ -2498,15 +2604,23 @@ A football player in the front row, or a worker who repairs power lines.
 ### liner
 
 **Pronunciation:** /ˈlaɪnər/ &middot; *LY-nur*
-**Русский:** вкладыш, внутренний мешок (напр. для мусорного ведра)
+**Русский:** вкладыш, внутренний мешок (напр. для мусорного ведра); лайнер (пассажирское судно)
 **Plural:** *liners*
 **Countability:** countable
 
-A bag or sheet that covers the inside of a container.
+Liner has 2 distinct senses.
+
+**1. A bag or sheet that covers the inside of a container.** (вкладыш, внутренний мешок (напр. для мусорного ведра))
 
 1. Put a fresh *liner* in the trash can.
 2. The pool *liner* has a small tear.
 3. She uses paper *liners* for muffins.
+
+**2. A large passenger ship that sails a regular route.** (лайнер (пассажирское судно))
+
+4. The *liner* docked in Miami at dawn.
+5. Her grandparents crossed the Atlantic on an ocean *liner*.
+6. Two cruise *liners* were tied up at the pier.
 
 ---
 
@@ -2659,15 +2773,23 @@ A bacterium found in contaminated food that can cause serious illness.
 ### listing
 
 **Pronunciation:** /ˈlɪstɪŋ/ &middot; *LIS-ting*
-**Русский:** объявление (о продаже, аренде); позиция в списке
+**Русский:** объявление (о продаже, аренде); позиция в списке; запись в справочнике; строка в программе передач
 **Plural:** *listings*
 **Countability:** countable
 
-An item advertised for sale or rent, especially online.
+Listing has 2 distinct senses.
+
+**1. An item advertised for sale or rent, especially online.** (объявление (о продаже, аренде); позиция в списке)
 
 1. The *listing* says the apartment has parking.
 2. She looked at twenty *listings* in one afternoon.
 3. The agent pulled the *listing* off the site.
+
+**2. An entry in a directory or in a published schedule.** (запись в справочнике; строка в программе передач)
+
+4. Check the movie *listings* for showtimes.
+5. The phone book *listing* had the wrong address.
+6. Her name appears in the faculty *listing*.
 
 ---
 
@@ -2761,15 +2883,23 @@ The fixed set of words and actions used in a church service.
 ### living
 
 **Pronunciation:** /ˈlɪvɪŋ/ &middot; *LIV-ing*
-**Русский:** заработок, средства к существованию
+**Русский:** заработок, средства к существованию; быт, повседневная жизнь
 **Plural:** *livings*
 **Countability:** countable
 
-The money a person earns to support themselves.
+Living has 2 distinct senses.
+
+**1. The money a person earns to support themselves.** (заработок, средства к существованию)
 
 1. She makes a *living* as a translator.
 2. He earns a good *living* fixing cars.
 3. What do you do for a *living*?
+
+**2. The way people live from day to day.** (быт, повседневная жизнь)
+
+4. The cost of *living* has gone up again.
+5. They moved south for cheaper *living*.
+6. Country *living* suits him better than the city.
 
 ---
 
@@ -3177,15 +3307,23 @@ Someone who does not win, or an unsuccessful and unpopular person.
 ### lottery
 
 **Pronunciation:** /ˈlɑːtəri/ &middot; *LAH-tuh-ree*
-**Русский:** лотерея
+**Русский:** лотерея; распределение по жребию, лотерея (мест)
 **Plural:** *lotteries*
 **Countability:** countable
 
-A game in which numbered tickets are sold and prizes go to the numbers drawn at random.
+Lottery has 2 distinct senses.
+
+**1. A game in which numbered tickets are sold and prizes go to the numbers drawn at random.** (лотерея)
 
 1. She won the state *lottery* twice.
 2. Getting a good teacher can feel like a *lottery*.
 3. Most states run their own *lotteries*.
+
+**2. A way of choosing at random among more applicants than there are places.** (распределение по жребию, лотерея (мест))
+
+4. Spots in the charter school are filled by *lottery*.
+5. Her family entered the visa *lottery* three years running.
+6. Permits for the river are handed out in a spring *lottery*.
 
 ---
 
@@ -3667,15 +3805,29 @@ A small chewy cookie made from egg whites with shredded coconut or ground almond
 ### mace
 
 **Pronunciation:** /meɪs/ &middot; *MAYS*
-**Русский:** булава; жезл
+**Русский:** булава; жезл; газовый (перцовый) баллончик; мацис, мускатный цвет (пряность)
 **Plural:** *maces*
 **Countability:** countable
 
-A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff.
+Mace has 3 distinct senses.
+
+**1. A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff.** (булава; жезл)
 
 1. The knight swung a *mace* instead of a sword.
 2. Two ceremonial *maces* stood beside the speaker's chair.
 3. A *mace* could crush armor that a blade couldn't cut.
+
+**2. A chemical spray carried to blind and disable an attacker.** (газовый (перцовый) баллончик)
+
+4. She keeps a can of *mace* in her purse.
+5. The guard used *mace* to break up the fight.
+6. *Mace* is legal to carry in most states.
+
+**3. A warm orange-brown spice made from the covering of the nutmeg seed.** (мацис, мускатный цвет (пряность))
+
+7. The recipe calls for a pinch of *mace*.
+8. *Mace* tastes like a milder, sweeter nutmeg.
+9. She grinds her own *mace* for the pound cake.
 
 ---
 
@@ -3710,31 +3862,47 @@ The craft of knotting cord into decorative patterns such as plant hangers and wa
 ### macro
 
 **Pronunciation:** /ˈmækroʊ/ &middot; *MAK-roh*
-**Русский:** макрос (в программе)
+**Русский:** макрос (в программе); макронутриенты, БЖУ
 **Plural:** *macros*
 **Countability:** countable
 
-A single command or key combination that runs a saved sequence of steps in a program.
+Macro has 2 distinct senses.
+
+**1. A single command or key combination that runs a saved sequence of steps in a program.** (макрос (в программе))
 
 1. I wrote a *macro* to format the report automatically.
 2. Word won't run *macros* from files it doesn't trust.
 3. Record a *macro* instead of doing it by hand every week.
+
+**2. The amount of protein, carbohydrate, and fat in what a person eats.** (макронутриенты, БЖУ)
+
+4. He tracks his *macros* in an app.
+5. Her trainer set new *macros* for the off-season.
+6. This bowl fits my *macros* almost exactly.
 
 ---
 
 ### madam
 
 **Pronunciation:** /ˈmædəm/ &middot; *MAD-uhm*
-**Русский:** мадам, госпожа (вежливое обращение)
+**Русский:** мадам, госпожа (вежливое обращение); содержательница борделя
 **Plural:** *madams*
 **Countability:** countable
 **Contrast:** In everyday American speech the form is ma'am; madam is reserved for formal writing and titles like Madam Chair.
 
-A formal, polite way to address a woman whose name you do not know.
+Madam has 2 distinct senses.
+
+**1. A formal, polite way to address a woman whose name you do not know.** (мадам, госпожа (вежливое обращение))
 
 1. Can I help you, *madam*?
 2. The letter began, "Dear Sir or *Madam*."
 3. "Right away, *madam*," the waiter said.
+
+**2. A woman who runs a brothel.** (содержательница борделя)
+
+4. The *madam* was arrested along with two of her employees.
+5. She ran the house as its *madam* for twenty years.
+6. The novel's *madam* knows every secret in town.
 
 ---
 
@@ -4426,15 +4594,23 @@ A word or phrase repeated in meditation, or a saying someone repeats as a guidin
 ### manual
 
 **Pronunciation:** /ˈmænjuəl/ &middot; *MAN-yoo-uhl*
-**Русский:** руководство, инструкция
+**Русский:** руководство, инструкция; машина с механической коробкой передач
 **Plural:** *manuals*
 **Countability:** countable
 
-A book of instructions explaining how to use or repair something.
+Manual has 2 distinct senses.
+
+**1. A book of instructions explaining how to use or repair something.** (руководство, инструкция)
 
 1. Check the owner's *manual* for the tire pressure.
 2. The software came with a two-hundred-page *manual*.
 3. He keeps all the appliance *manuals* in a drawer.
+
+**2. A car whose gears the driver shifts by hand.** (машина с механической коробкой передач)
+
+4. She learned to drive on a *manual*.
+5. The rental company had one *manual* left on the lot.
+6. *Manuals* are getting hard to find in the US.
 
 ---
 
@@ -4810,15 +4986,23 @@ A woman whose job is giving massages.
 ### master
 
 **Pronunciation:** /ˈmæstər/ &middot; *MAS-tur*
-**Русский:** хозяин; мастер, знаток
+**Русский:** хозяин; мастер, знаток; оригинал записи, мастер-копия
 **Plural:** *masters*
 **Countability:** countable
 
-A person who controls something or someone, or who is extremely skilled at something.
+Master has 2 distinct senses.
+
+**1. A person who controls something or someone, or who is extremely skilled at something.** (хозяин; мастер, знаток)
 
 1. The dog wouldn't leave its *master*'s side.
 2. He's a *master* of the short story.
 3. The old *masters* painted on wooden panels.
+
+**2. The original recording that all copies are made from.** (оригинал записи, мастер-копия)
+
+4. The studio lost the *master* of their first album.
+5. They cleaned up the old tapes and cut a new *master*.
+6. Every record was pressed from a single *master*.
 
 ---
 
@@ -4957,16 +5141,30 @@ The thin stick of a match, especially a burned or unused one.
 ### mate
 
 **Pronunciation:** /meɪt/ &middot; *MAYT*
-**Русский:** пара, партнёр (супруг или самец/самка)
+**Русский:** пара, партнёр (супруг или самец/самка); помощник капитана, старпом; вторая половина пары (носка, перчатки)
 **Plural:** *mates*
 **Countability:** countable
 **Contrast:** In British English *mate* also means "buddy"; Americans almost never use it that way.
 
-The partner an animal or a person lives and breeds with.
+Mate has 3 distinct senses.
+
+**1. The partner an animal or a person lives and breeds with.** (пара, партнёр (супруг или самец/самка))
 
 1. Swans usually keep the same *mate* for life.
 2. The male bird sings to attract a *mate*.
 3. Both *mates* take turns sitting on the eggs.
+
+**2. An officer on a ship who ranks below the captain.** (помощник капитана, старпом)
+
+4. The first *mate* took the wheel at midnight.
+5. He worked two seasons as a *mate* on a fishing boat.
+6. The captain and the *mate* argued about the route.
+
+**3. One of a pair of things that belong together.** (вторая половина пары (носка, перчатки))
+
+7. I can never find the *mate* to this sock.
+8. One glove turned up, but its *mate* is gone.
+9. The vase lost its *mate* years ago.
 
 ---
 
@@ -5384,15 +5582,23 @@ A neutral person who helps two sides reach an agreement.
 ### medley
 
 **Pronunciation:** /ˈmɛdli/ &middot; *MED-lee*
-**Русский:** попурри; ассорти
+**Русский:** попурри; ассорти; комплексное плавание
 **Plural:** *medleys*
 **Countability:** countable
 
-A mixture of different things, especially several songs played as one piece.
+Medley has 2 distinct senses.
+
+**1. A mixture of different things, especially several songs played as one piece.** (попурри; ассорти)
 
 1. The band closed with a *medley* of their old hits.
 2. Dinner came with a *medley* of roasted vegetables.
 3. She swims the individual *medley*.
+
+**2. A swimming race in which the strokes change from one leg to the next.** (комплексное плавание)
+
+4. She won gold in the 400-meter individual *medley*.
+5. Our team came in second in the *medley* relay.
+6. He swims the breaststroke leg of the *medley*.
 
 ---
 
@@ -5636,15 +5842,23 @@ The act of learning something by heart.
 ### menace
 
 **Pronunciation:** /ˈmɛnəs/ &middot; *MEN-uhs*
-**Русский:** угроза, опасность
+**Русский:** угроза, опасность; угроза, угрожающий тон
 **Plural:** *menaces*
 **Countability:** countable
 
-Someone or something that is a danger or a nuisance.
+Menace has 2 distinct senses.
+
+**1. Someone or something that is a danger or a nuisance.** (угроза, опасность)
 
 1. That pothole is a *menace* to cyclists.
 2. The neighbors call his dog a *menace*.
 3. Distracted drivers are a *menace* on this road.
+
+**2. A threatening quality in the way someone looks, sounds, or behaves.** (угроза, угрожающий тон)
+
+4. There was real *menace* in his voice.
+5. The music slowly builds a sense of *menace*.
+6. She said it quietly, with a hint of *menace*.
 
 ---
 
@@ -6838,15 +7052,23 @@ Hatred of or strong prejudice against women.
 ### miss
 
 **Pronunciation:** /mɪs/ &middot; *MIS*
-**Русский:** промах
+**Русский:** промах; мисс (обращение к девушке)
 **Plural:** *misses*
 **Countability:** countable
 
-A failure to hit, catch, or reach something.
+Miss has 2 distinct senses.
+
+**1. A failure to hit, catch, or reach something.** (промах)
 
 1. Two shots on goal, two *misses*.
 2. That was a near *miss* — the car came within inches.
 3. After another *miss*, he handed the darts back.
+
+**2. A polite title or form of address for a young or unmarried woman.** (мисс (обращение к девушке))
+
+4. *Miss* Parker teaches third grade.
+5. Excuse me, *miss*, you dropped your scarf.
+6. The letter was addressed to *Miss* Alcott.
 
 ---
 
@@ -7049,30 +7271,52 @@ The act of gathering troops, people, or resources for action.
 ### mode
 
 **Pronunciation:** /moʊd/ &middot; *MOHD*
-**Русский:** режим, способ
+**Русский:** режим, способ; мода (наиболее частое значение)
 **Plural:** *modes*
 **Countability:** countable
 
-A particular way of doing something, or a setting a machine can be switched into.
+Mode has 2 distinct senses.
+
+**1. A particular way of doing something, or a setting a machine can be switched into.** (режим, способ)
 
 1. Put your phone in airplane *mode*.
 2. The camera has three shooting *modes*.
 3. Bicycles are his preferred *mode* of transportation.
+
+**2. The value that appears most often in a set of numbers.** (мода (наиболее частое значение))
+
+4. The *mode* of the test scores was 85.
+5. In this data set the *mode* and the mean are far apart.
+6. Find the mean, the median, and the *mode*.
 
 ---
 
 ### model
 
 **Pronunciation:** /ˈmɑːdəl/ &middot; *MAH-duhl*
-**Русский:** модель, макет; манекенщица
+**Русский:** модель, макет; манекенщица; модель (расчётная, научная); образец, пример для подражания
 **Plural:** *models*
 **Countability:** countable
 
-A small copy of something, a particular version of a product, or a person who wears clothes for photographs.
+Model has 3 distinct senses.
+
+**1. A small copy of something, a particular version of a product, or a person who wears clothes for photographs.** (модель, макет; манекенщица)
 
 1. He built a *model* of the Golden Gate Bridge.
 2. The 2019 *model* had a bigger engine.
 3. Three *models* walked the runway.
+
+**2. A simplified description of a system, used to explain or predict how it behaves.** (модель (расчётная, научная))
+
+4. Every climate *model* points the same direction.
+5. Their economic *model* failed to predict the crash.
+6. The forecast comes out of a computer *model*.
+
+**3. A person or thing held up as an excellent example to copy.** (образец, пример для подражания)
+
+7. He's a *model* of patience with the kids.
+8. The program became a *model* for other cities.
+9. Her grandmother was a *model* of quiet generosity.
 
 ---
 
@@ -7138,14 +7382,22 @@ An artist or writer who breaks with tradition in favor of new forms.
 ### modesty
 
 **Pronunciation:** /ˈmɑːdəsti/ &middot; *MAH-duh-stee*
-**Русский:** скромность
+**Русский:** скромность; скромность в одежде, целомудренность
 **Countability:** uncountable
 
-The quality of not boasting about your abilities or achievements.
+Modesty has 2 distinct senses.
+
+**1. The quality of not boasting about your abilities or achievements.** (скромность)
 
 1. His *modesty* is genuine, not an act.
 2. She accepted the award with real *modesty*.
 3. False *modesty* annoys everyone.
+
+**2. Care not to show too much of the body or attract attention to it.** (скромность в одежде, целомудренность)
+
+4. She pulled the blanket up for *modesty*.
+5. The dress code is about *modesty*, not fashion.
+6. He changed behind a towel to preserve his *modesty*.
 
 ---
 
@@ -7400,15 +7652,23 @@ A dance step in which you seem to glide backward while walking forward.
 ### moral
 
 **Pronunciation:** /ˈmɔːrəl/ &middot; *MOR-uhl*
-**Русский:** мораль, вывод (из истории)
+**Русский:** мораль, вывод (из истории); нравственные принципы, мораль
 **Plural:** *morals*
 **Countability:** countable
 
-The lesson that a story or an experience teaches.
+Moral has 2 distinct senses.
+
+**1. The lesson that a story or an experience teaches.** (мораль, вывод (из истории))
 
 1. The *moral* of the story is to keep your promises.
 2. Every fable ends with a *moral*.
 3. If there's a *moral* here, I missed it.
+
+**2. Standards of right and wrong that guide how a person behaves.** (нравственные принципы, мораль)
+
+4. He's a man with no *morals* at all.
+5. The scandal raised questions about the mayor's *morals*.
+6. Her *morals* wouldn't let her keep the money.
 
 ---
 
@@ -7548,15 +7808,23 @@ Someone who is riding a motorcycle.
 ### mount
 
 **Pronunciation:** /maʊnt/ &middot; *MOWNT*
-**Русский:** крепление, кронштейн
+**Русский:** крепление, кронштейн; верховая лошадь
 **Plural:** *mounts*
 **Countability:** countable
 
-A support that holds a piece of equipment in place.
+Mount has 2 distinct senses.
+
+**1. A support that holds a piece of equipment in place.** (крепление, кронштейн)
 
 1. The camera screws onto a tripod *mount*.
 2. He bought a wall *mount* for the TV.
 3. Both *mounts* came with the wrong screws.
+
+**2. A horse that someone rides.** (верховая лошадь)
+
+4. She walked her *mount* back to the stable.
+5. Each rider picked a *mount* from the corral.
+6. His *mount* shied at the sound of the shot.
 
 ---
 
@@ -7623,15 +7891,23 @@ The part of an instrument or phone you put to your mouth, or a person who speaks
 ### move
 
 **Pronunciation:** /muːv/ &middot; *MOOV*
-**Русский:** ход, шаг, действие
+**Русский:** ход, шаг, действие; переезд
 **Plural:** *moves*
 **Countability:** countable
 
-An action taken to get a result, or a turn in a game.
+Move has 2 distinct senses.
+
+**1. An action taken to get a result, or a turn in a game.** (ход, шаг, действие)
 
 1. Selling now would be a smart *move*.
 2. It's your *move*.
 3. Her first few *moves* surprised everyone.
+
+**2. The act of changing where you live or work.** (переезд)
+
+4. The *move* to Denver took us three days.
+5. We hired a company to handle the *move*.
+6. Her *move* to the new office happens in June.
 
 ---
 
@@ -7653,15 +7929,23 @@ Someone whose job is carrying furniture and boxes when people change homes.
 ### movie
 
 **Pronunciation:** /ˈmuːvi/ &middot; *MOO-vee*
-**Русский:** фильм, кино
+**Русский:** фильм, кино; кино, кинотеатр (поход в кино)
 **Plural:** *movies*
 **Countability:** countable
 
-A story told in moving pictures, shown in a theater or at home.
+Movie has 2 distinct senses.
+
+**1. A story told in moving pictures, shown in a theater or at home.** (фильм, кино)
 
 1. We watched a *movie* after dinner.
 2. She's seen that *movie* six times.
 3. Old *movies* play on channel nine.
+
+**2. A movie theater, or a trip there to see a film, usually as 'the movies'.** (кино, кинотеатр (поход в кино))
+
+4. We took the kids to the *movies* on Saturday.
+5. There's nothing worth seeing at the *movies* this week.
+6. Dinner and the *movies* is our usual Friday.
 
 ---
 
@@ -8042,14 +8326,22 @@ An open refusal by sailors or soldiers to obey the people in charge.
 ### myopia
 
 **Pronunciation:** /maɪˈoʊpiə/ &middot; *my-OH-pee-uh*
-**Русский:** близорукость
+**Русский:** близорукость; недальновидность
 **Countability:** uncountable
 
-The condition of not being able to see distant things clearly.
+Myopia has 2 distinct senses.
+
+**1. The condition of not being able to see distant things clearly.** (близорукость)
 
 1. The eye doctor said her *myopia* had gotten worse since last year.
 2. *Myopia* is common in kids who spend little time outdoors.
 3. Glasses correct *myopia* by bending the light before it reaches the eye.
+
+**2. A failure to think about anything beyond the immediate future.** (недальновидность)
+
+4. The report blames the crisis on corporate *myopia*.
+5. That kind of *myopia* costs a country decades of progress.
+6. There's real *myopia* in planning only for the next quarter.
 
 ---
 
@@ -8101,15 +8393,23 @@ An evergreen shrub with shiny leaves and small flowers, often planted in yards.
 ### mystery
 
 **Pronunciation:** /ˈmɪstəri/ &middot; *MIS-tuh-ree*
-**Русский:** тайна, загадка
+**Русский:** тайна, загадка; детектив (книга, фильм)
 **Plural:** *mysteries*
 **Countability:** countable
 
-Something that cannot be explained or understood.
+Mystery has 2 distinct senses.
+
+**1. Something that cannot be explained or understood.** (тайна, загадка)
 
 1. How he passed that exam is a *mystery* to me.
 2. She reads a *mystery* every week.
 3. The police never solved the two *mysteries* from that summer.
+
+**2. A novel, film, or show about solving a crime.** (детектив (книга, фильм))
+
+4. She reads a *mystery* every week.
+5. The library's *mystery* section is by the window.
+6. It's a British *mystery* set in the 1920s.
 
 ---
 

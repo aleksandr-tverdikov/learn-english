@@ -6,14 +6,43 @@
       "term": "metal",
       "ipa": "/ˈmɛtəl/",
       "respell": "MET-uhl",
-      "meaning": "A hard, shiny material such as iron, gold, or copper that conducts heat and electricity. ---",
+      "meaning": "Metal has 2 distinct senses.",
       "examples": [
         "The handle is metal, so it gets hot fast.",
         "Copper and zinc are both metals.",
-        "You can hear the metal creaking when a truck crosses the bridge."
+        "You can hear the metal creaking when a truck crosses the bridge.",
+        "He's been into metal since middle school.",
+        "The bar books punk and metal bands on weekends.",
+        "That drummer came out of the metal scene."
       ],
-      "senses": [],
-      "русский": "металл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hard, shiny material such as iron, gold, or copper that conducts heat and electricity",
+          "body": [
+            "(металл)"
+          ],
+          "examples": [
+            "The handle is metal, so it gets hot fast.",
+            "Copper and zinc are both metals.",
+            "You can hear the metal creaking when a truck crosses the bridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A loud, heavy style of rock music",
+          "body": [
+            "(метал (стиль музыки))",
+            "---"
+          ],
+          "examples": [
+            "He's been into metal since middle school.",
+            "The bar books punk and metal bands on weekends.",
+            "That drummer came out of the metal scene."
+          ]
+        }
+      ],
+      "русский": "металл; метал (стиль музыки)",
       "plural": "metals",
       "countability": "countable, and uncountable as a substance",
       "contrast": "In American English the t is flapped, so metal sounds exactly like medal — only context separates them."
@@ -51,42 +80,144 @@
       "term": "brass",
       "ipa": "/bræs/",
       "respell": "BRAS",
-      "meaning": "A yellow metal made from copper and zinc. ---",
+      "meaning": "Brass has 3 distinct senses.",
       "examples": [
         "The door handles are solid brass.",
         "She polishes the brass on the boat every spring.",
-        "A brass band played in the park all afternoon."
+        "A brass band played in the park all afternoon.",
+        "The brass came in too loud in the second movement.",
+        "She plays in the brass section of the marching band.",
+        "The arrangement is heavy on brass and drums.",
+        "The brass flew in from headquarters to watch the drill.",
+        "Department brass refused to comment on the case.",
+        "Nobody tells the top brass what they don't want to hear."
       ],
-      "senses": [],
-      "русский": "латунь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A yellow metal made from copper and zinc",
+          "body": [
+            "(латунь)"
+          ],
+          "examples": [
+            "The door handles are solid brass.",
+            "She polishes the brass on the boat every spring.",
+            "A brass band played in the park all afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The instruments of a band or orchestra that are made of brass, such as trumpets and trombones",
+          "body": [
+            "(медные духовые инструменты)"
+          ],
+          "examples": [
+            "The brass came in too loud in the second movement.",
+            "She plays in the brass section of the marching band.",
+            "The arrangement is heavy on brass and drums."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The highest-ranking officers or officials in an organization",
+          "body": [
+            "(начальство, высшее руководство)",
+            "---"
+          ],
+          "examples": [
+            "The brass flew in from headquarters to watch the drill.",
+            "Department brass refused to comment on the case.",
+            "Nobody tells the top brass what they don't want to hear."
+          ]
+        }
+      ],
+      "русский": "латунь; медные духовые инструменты; начальство, высшее руководство",
       "countability": "uncountable"
     },
     {
       "term": "bronze",
       "ipa": "/brɑːnz/",
       "respell": "BRAHNZ",
-      "meaning": "A brown metal made from copper and tin, used for statues and medals. ---",
+      "meaning": "Bronze has 2 distinct senses.",
       "examples": [
         "The statue in the square is bronze.",
         "He took home the bronze in the 400 meters.",
-        "Bronze darkens as it ages."
+        "Bronze darkens as it ages.",
+        "She took bronze in the 400 meters.",
+        "The team settled for bronze after losing the semifinal.",
+        "He has two golds and a bronze from the last games."
       ],
-      "senses": [],
-      "русский": "бронза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A brown metal made from copper and tin, used for statues and medals",
+          "body": [
+            "(бронза)"
+          ],
+          "examples": [
+            "The statue in the square is bronze.",
+            "He took home the bronze in the 400 meters.",
+            "Bronze darkens as it ages."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bronze medal, awarded for third place",
+          "body": [
+            "(бронза, бронзовая медаль)",
+            "---"
+          ],
+          "examples": [
+            "She took bronze in the 400 meters.",
+            "The team settled for bronze after losing the semifinal.",
+            "He has two golds and a bronze from the last games."
+          ]
+        }
+      ],
+      "русский": "бронза; бронза, бронзовая медаль",
       "countability": "uncountable"
     },
     {
       "term": "tin",
       "ipa": "/tɪn/",
       "respell": "TIN",
-      "meaning": "A soft, silvery metal, often used as a coating on other metals. ---",
+      "meaning": "Tin has 2 distinct senses.",
       "examples": [
         "The roof is tin, so the rain is deafening.",
         "Solder is mostly tin and lead.",
-        "The old toy soldiers were cast from tin."
+        "The old toy soldiers were cast from tin.",
+        "She keeps her cookies in a big red tin.",
+        "There's a tin of shortbread on the counter.",
+        "He used an old candy tin to hold his buttons."
       ],
-      "senses": [],
-      "русский": "олово",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft, silvery metal, often used as a coating on other metals",
+          "body": [
+            "(олово)"
+          ],
+          "examples": [
+            "The roof is tin, so the rain is deafening.",
+            "Solder is mostly tin and lead.",
+            "The old toy soldiers were cast from tin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A metal container with a lid, used for food such as cookies or candy",
+          "body": [
+            "(жестяная банка, коробка)",
+            "---"
+          ],
+          "examples": [
+            "She keeps her cookies in a big red tin.",
+            "There's a tin of shortbread on the counter.",
+            "He used an old candy tin to hold his buttons."
+          ]
+        }
+      ],
+      "русский": "олово; жестяная банка, коробка",
       "countability": "uncountable",
       "contrast": "In American English tin is the metal; the British also use a tin for what Americans call a can."
     },
@@ -94,14 +225,43 @@
       "term": "lead",
       "ipa": "/lɛd/",
       "respell": "LED",
-      "meaning": "A heavy, soft, gray metal that is poisonous to people. ---",
+      "meaning": "Lead has 2 distinct senses.",
       "examples": [
         "Older houses may still have lead paint.",
         "The water tested positive for lead.",
-        "Lead is surprisingly heavy for its size."
+        "Lead is surprisingly heavy for its size.",
+        "The lead snapped as soon as I pressed down.",
+        "Mechanical pencils take thin refill leads.",
+        "Sharpen it until the lead comes to a point."
       ],
-      "senses": [],
-      "русский": "свинец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy, soft, gray metal that is poisonous to people",
+          "body": [
+            "(свинец)"
+          ],
+          "examples": [
+            "Older houses may still have lead paint.",
+            "The water tested positive for lead.",
+            "Lead is surprisingly heavy for its size."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thin gray stick inside a pencil that leaves the marks",
+          "body": [
+            "(грифель (карандаша))",
+            "---"
+          ],
+          "examples": [
+            "The lead snapped as soon as I pressed down.",
+            "Mechanical pencils take thin refill leads.",
+            "Sharpen it until the lead comes to a point."
+          ]
+        }
+      ],
+      "русский": "свинец; грифель (карандаша)",
       "countability": "uncountable",
       "contrast": "The metal lead is said LED, like the past tense led — not LEED, which is the verb to lead."
     },
@@ -343,14 +503,43 @@
       "term": "bark",
       "ipa": "/bɑːrk/",
       "respell": "BARK",
-      "meaning": "The tough outer covering of a tree trunk and its branches. ---",
+      "meaning": "Bark has 2 distinct senses.",
       "examples": [
         "The deer stripped the bark off the young trees.",
         "Bark mulch keeps the weeds down.",
-        "You can tell a birch by its white bark."
+        "You can tell a birch by its white bark.",
+        "One sharp bark woke the whole house.",
+        "The barks got louder as I came up the walk.",
+        "Her dog has a deep bark for such a small animal."
       ],
-      "senses": [],
-      "русский": "кора (дерева)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The tough outer covering of a tree trunk and its branches",
+          "body": [
+            "(кора (дерева))"
+          ],
+          "examples": [
+            "The deer stripped the bark off the young trees.",
+            "Bark mulch keeps the weeds down.",
+            "You can tell a birch by its white bark."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The short, loud sound a dog makes",
+          "body": [
+            "(лай)",
+            "---"
+          ],
+          "examples": [
+            "One sharp bark woke the whole house.",
+            "The barks got louder as I came up the walk.",
+            "Her dog has a deep bark for such a small animal."
+          ]
+        }
+      ],
+      "русский": "кора (дерева); лай",
       "countability": "uncountable"
     },
     {
@@ -385,14 +574,43 @@
       "term": "nylon",
       "ipa": "/ˈnaɪlɑːn/",
       "respell": "NY-lahn",
-      "meaning": "A strong artificial fiber used in rope, brushes, and clothing. ---",
+      "meaning": "Nylon has 2 distinct senses.",
       "examples": [
         "The tent is lightweight nylon.",
         "Nylon dries fast, which is why hikers like it.",
-        "The strap is nylon webbing."
+        "The strap is nylon webbing.",
+        "She snagged her nylons on the corner of the chair.",
+        "A pair of nylons costs almost nothing now.",
+        "Back then no woman went to church without nylons."
       ],
-      "senses": [],
-      "русский": "нейлон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong artificial fiber used in rope, brushes, and clothing",
+          "body": [
+            "(нейлон)"
+          ],
+          "examples": [
+            "The tent is lightweight nylon.",
+            "Nylon dries fast, which is why hikers like it.",
+            "The strap is nylon webbing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Women's thin stockings, usually called nylons",
+          "body": [
+            "(капроновые чулки, колготки)",
+            "---"
+          ],
+          "examples": [
+            "She snagged her nylons on the corner of the chair.",
+            "A pair of nylons costs almost nothing now.",
+            "Back then no woman went to church without nylons."
+          ]
+        }
+      ],
+      "русский": "нейлон; капроновые чулки, колготки",
       "countability": "uncountable"
     },
     {
@@ -430,14 +648,43 @@
       "term": "yarn",
       "ipa": "/jɑːrn/",
       "respell": "YARN",
-      "meaning": "Thick spun fiber used for knitting. ---",
+      "meaning": "Yarn has 2 distinct senses.",
       "examples": [
         "She bought yarn for a baby blanket.",
         "The cat got into the yarn again.",
-        "That shop carries hand-dyed yarns."
+        "That shop carries hand-dyed yarns.",
+        "Grandpa spun a yarn about a bear on the porch.",
+        "It's a good yarn, but I don't believe a word of it.",
+        "The old sailors traded yarns late into the night."
       ],
-      "senses": [],
-      "русский": "пряжа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Thick spun fiber used for knitting",
+          "body": [
+            "(пряжа)"
+          ],
+          "examples": [
+            "She bought yarn for a baby blanket.",
+            "The cat got into the yarn again.",
+            "That shop carries hand-dyed yarns."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long story told for entertainment, often hard to believe",
+          "body": [
+            "(байка, небылица)",
+            "---"
+          ],
+          "examples": [
+            "Grandpa spun a yarn about a bear on the porch.",
+            "It's a good yarn, but I don't believe a word of it.",
+            "The old sailors traded yarns late into the night."
+          ]
+        }
+      ],
+      "русский": "пряжа; байка, небылица",
       "plural": "yarns",
       "countability": "countable, and uncountable as a substance"
     },
@@ -517,14 +764,43 @@
       "term": "vinyl",
       "ipa": "/ˈvaɪnəl/",
       "respell": "VY-nuhl",
-      "meaning": "A tough plastic used for flooring, siding, and records. ---",
+      "meaning": "Vinyl has 2 distinct senses.",
       "examples": [
         "The kitchen floor is vinyl.",
         "He still buys his music on vinyl.",
-        "Vinyl siding never needs painting."
+        "Vinyl siding never needs painting.",
+        "He collects old jazz on vinyl.",
+        "The album came out on vinyl and streaming the same day.",
+        "Her vinyl takes up a whole wall of the living room."
       ],
-      "senses": [],
-      "русский": "винил",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tough plastic used for flooring, siding, and records",
+          "body": [
+            "(винил)"
+          ],
+          "examples": [
+            "The kitchen floor is vinyl.",
+            "He still buys his music on vinyl.",
+            "Vinyl siding never needs painting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Records as a music format, or the records themselves",
+          "body": [
+            "(винил, виниловые пластинки)",
+            "---"
+          ],
+          "examples": [
+            "He collects old jazz on vinyl.",
+            "The album came out on vinyl and streaming the same day.",
+            "Her vinyl takes up a whole wall of the living room."
+          ]
+        }
+      ],
+      "русский": "винил; винил, виниловые пластинки",
       "countability": "uncountable",
       "contrast": "Said VY-nuhl, with the first syllable like vine — not VIN-il."
     },
@@ -577,14 +853,43 @@
       "term": "acrylic",
       "ipa": "/əˈkrɪlɪk/",
       "respell": "uh-KRIL-ik",
-      "meaning": "A clear plastic, or the fast-drying paint made from it. ---",
+      "meaning": "Acrylic has 2 distinct senses.",
       "examples": [
         "The tub surround is acrylic.",
         "She paints in acrylics now instead of oils.",
-        "The sweater is acrylic, not wool."
+        "The sweater is acrylic, not wool.",
+        "The tag says the sweater is 100% acrylic.",
+        "Acrylic is warm and cheap, but it pills after a season.",
+        "She knits baby blankets out of acrylic so they can go in the wash."
       ],
-      "senses": [],
-      "русский": "акрил",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A clear plastic, or the fast-drying paint made from it",
+          "body": [
+            "(акрил)"
+          ],
+          "examples": [
+            "The tub surround is acrylic.",
+            "She paints in acrylics now instead of oils.",
+            "The sweater is acrylic, not wool."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A synthetic fiber used to make sweaters, blankets, and yarn",
+          "body": [
+            "(акрил (синтетическое волокно, пряжа))",
+            "---"
+          ],
+          "examples": [
+            "The tag says the sweater is 100% acrylic.",
+            "Acrylic is warm and cheap, but it pills after a season.",
+            "She knits baby blankets out of acrylic so they can go in the wash."
+          ]
+        }
+      ],
+      "русский": "акрил; акрил (синтетическое волокно, пряжа)",
       "plural": "acrylics",
       "countability": "countable, and uncountable as a substance"
     },
@@ -636,14 +941,58 @@
       "term": "rock",
       "ipa": "/rɑːk/",
       "respell": "RAHK",
-      "meaning": "The hard material that makes up the earth's surface, or a loose piece of it. ---",
+      "meaning": "Rock has 3 distinct senses.",
       "examples": [
         "They hit solid rock two feet down.",
         "Somebody threw a rock through the window.",
-        "The kids climbed all over the rocks."
+        "The kids climbed all over the rocks.",
+        "He grew up on classic rock.",
+        "The station plays rock all afternoon.",
+        "Her first band was straight-ahead rock.",
+        "My sister was my rock that whole year.",
+        "He's been a rock for the family since the accident.",
+        "Every team needs a rock in the locker room."
       ],
-      "senses": [],
-      "русский": "камень; горная порода",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard material that makes up the earth's surface, or a loose piece of it",
+          "body": [
+            "(камень; горная порода)"
+          ],
+          "examples": [
+            "They hit solid rock two feet down.",
+            "Somebody threw a rock through the window.",
+            "The kids climbed all over the rocks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Loud popular music played mainly on guitars and drums",
+          "body": [
+            "(рок (музыка))"
+          ],
+          "examples": [
+            "He grew up on classic rock.",
+            "The station plays rock all afternoon.",
+            "Her first band was straight-ahead rock."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Someone who stays steady and supports you through hard times",
+          "body": [
+            "(опора, надёжный человек)",
+            "---"
+          ],
+          "examples": [
+            "My sister was my rock that whole year.",
+            "He's been a rock for the family since the accident.",
+            "Every team needs a rock in the locker room."
+          ]
+        }
+      ],
+      "русский": "камень; горная порода; рок (музыка); опора, надёжный человек",
       "plural": "rocks",
       "countability": "countable, and uncountable as a substance"
     },
@@ -710,14 +1059,43 @@
       "term": "slate",
       "ipa": "/sleɪt/",
       "respell": "SLAYT",
-      "meaning": "A gray rock that splits into flat sheets, used for roofs and floors. ---",
+      "meaning": "Slate has 2 distinct senses.",
       "examples": [
         "The roof is original slate.",
         "The patio is laid with slate.",
-        "Slate cracks if you drop something heavy on it."
+        "Slate cracks if you drop something heavy on it.",
+        "The party put up a full slate of candidates.",
+        "The studio announced its slate for next year.",
+        "We have a light slate of games this weekend."
       ],
-      "senses": [],
-      "русский": "сланец; шифер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A gray rock that splits into flat sheets, used for roofs and floors",
+          "body": [
+            "(сланец; шифер)"
+          ],
+          "examples": [
+            "The roof is original slate.",
+            "The patio is laid with slate.",
+            "Slate cracks if you drop something heavy on it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A list of candidates, or a set of events planned one after another",
+          "body": [
+            "(список кандидатов; программа (мероприятий))",
+            "---"
+          ],
+          "examples": [
+            "The party put up a full slate of candidates.",
+            "The studio announced its slate for next year.",
+            "We have a light slate of games this weekend."
+          ]
+        }
+      ],
+      "русский": "сланец; шифер; список кандидатов; программа (мероприятий)",
       "countability": "uncountable"
     },
     {
@@ -767,14 +1145,43 @@
       "term": "mineral",
       "ipa": "/ˈmɪnərəl/",
       "respell": "MIN-ur-uhl",
-      "meaning": "A natural solid substance found in the ground, such as quartz or salt. ---",
+      "meaning": "Mineral has 2 distinct senses.",
       "examples": [
         "The rock is full of shiny minerals.",
         "Spinach is a good source of iron and other minerals.",
-        "The well water has a strong mineral taste."
+        "The well water has a strong mineral taste.",
+        "Leafy greens are full of vitamins and minerals.",
+        "The doctor said she was short on one mineral.",
+        "The label lists every mineral added to the cereal."
       ],
-      "senses": [],
-      "русский": "минерал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A natural solid substance found in the ground, such as quartz or salt",
+          "body": [
+            "(минерал)"
+          ],
+          "examples": [
+            "The rock is full of shiny minerals.",
+            "Spinach is a good source of iron and other minerals.",
+            "The well water has a strong mineral taste."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A substance such as iron or calcium that the body needs in small amounts from food",
+          "body": [
+            "(минеральное вещество, микроэлемент)",
+            "---"
+          ],
+          "examples": [
+            "Leafy greens are full of vitamins and minerals.",
+            "The doctor said she was short on one mineral.",
+            "The label lists every mineral added to the cereal."
+          ]
+        }
+      ],
+      "русский": "минерал; минеральное вещество, микроэлемент",
       "plural": "minerals",
       "countability": "countable"
     },
@@ -812,14 +1219,43 @@
       "term": "ivory",
       "ipa": "/ˈaɪvəri/",
       "respell": "EYE-vuh-ree",
-      "meaning": "The hard, creamy-white substance of elephant tusks. ---",
+      "meaning": "Ivory has 2 distinct senses.",
       "examples": [
         "The handle is carved ivory.",
         "Selling ivory is illegal almost everywhere now.",
-        "The walls are painted a soft ivory."
+        "The walls are painted a soft ivory.",
+        "We painted the trim a soft ivory.",
+        "She chose ivory instead of white for the dress.",
+        "The walls are done in ivory with white molding."
       ],
-      "senses": [],
-      "русский": "слоновая кость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard, creamy-white substance of elephant tusks",
+          "body": [
+            "(слоновая кость)"
+          ],
+          "examples": [
+            "The handle is carved ivory.",
+            "Selling ivory is illegal almost everywhere now.",
+            "The walls are painted a soft ivory."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A creamy white color, a little warmer than pure white",
+          "body": [
+            "(цвет слоновой кости)",
+            "---"
+          ],
+          "examples": [
+            "We painted the trim a soft ivory.",
+            "She chose ivory instead of white for the dress.",
+            "The walls are done in ivory with white molding."
+          ]
+        }
+      ],
+      "русский": "слоновая кость; цвет слоновой кости",
       "countability": "uncountable"
     },
     {
@@ -840,28 +1276,86 @@
       "term": "soil",
       "ipa": "/sɔɪl/",
       "respell": "SOYL",
-      "meaning": "The top layer of earth in which plants grow. ---",
+      "meaning": "Soil has 2 distinct senses.",
       "examples": [
         "The soil here is too sandy for tomatoes.",
         "Add compost to improve the soil.",
-        "Erosion has washed away the best soil."
+        "Erosion has washed away the best soil.",
+        "It was the first attack on American soil in years.",
+        "He hasn't set foot on his native soil since he was twelve.",
+        "Foreign troops were never allowed on their soil."
       ],
-      "senses": [],
-      "русский": "почва, грунт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The top layer of earth in which plants grow",
+          "body": [
+            "(почва, грунт)"
+          ],
+          "examples": [
+            "The soil here is too sandy for tomatoes.",
+            "Add compost to improve the soil.",
+            "Erosion has washed away the best soil."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The land of a particular country, thought of as its territory",
+          "body": [
+            "(земля, территория (страны))",
+            "---"
+          ],
+          "examples": [
+            "It was the first attack on American soil in years.",
+            "He hasn't set foot on his native soil since he was twelve.",
+            "Foreign troops were never allowed on their soil."
+          ]
+        }
+      ],
+      "русский": "почва, грунт; земля, территория (страны)",
       "countability": "uncountable"
     },
     {
       "term": "acid",
       "ipa": "/ˈæsɪd/",
       "respell": "AS-id",
-      "meaning": "A chemical that tastes sour and can burn or dissolve other substances. ---",
+      "meaning": "Acid has 2 distinct senses.",
       "examples": [
         "Battery acid ate a hole in the floor mat.",
         "Lemon juice is a mild acid.",
-        "Some acids will burn right through metal."
+        "Some acids will burn right through metal.",
+        "Half the band was on acid when they recorded that album.",
+        "He tried acid once in college and never again.",
+        "Acid was everywhere in the music scene of the late sixties."
       ],
-      "senses": [],
-      "русский": "кислота",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A chemical that tastes sour and can burn or dissolve other substances",
+          "body": [
+            "(кислота)"
+          ],
+          "examples": [
+            "Battery acid ate a hole in the floor mat.",
+            "Lemon juice is a mild acid.",
+            "Some acids will burn right through metal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "LSD, an illegal drug that causes hallucinations",
+          "body": [
+            "(ЛСД, «кислота» (сленг))",
+            "---"
+          ],
+          "examples": [
+            "Half the band was on acid when they recorded that album.",
+            "He tried acid once in college and never again.",
+            "Acid was everywhere in the music scene of the late sixties."
+          ]
+        }
+      ],
+      "русский": "кислота; ЛСД, «кислота» (сленг)",
       "plural": "acids",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1046,14 +1540,58 @@
       "term": "mortar",
       "ipa": "/ˈmɔːrtər/",
       "respell": "MOR-tur",
-      "meaning": "The paste of cement and sand that holds bricks or stones together. ---",
+      "meaning": "Mortar has 3 distinct senses.",
       "examples": [
         "The mortar between the bricks is crumbling.",
         "He scraped out the old mortar and repacked it.",
-        "Fresh mortar has to stay damp while it cures."
+        "Fresh mortar has to stay damp while it cures.",
+        "Grind the garlic and salt together in a mortar.",
+        "She keeps a marble mortar and pestle by the stove.",
+        "The old pharmacy sign shows a brass mortar.",
+        "Mortar fire hit the edge of the camp.",
+        "Soldiers set up a mortar behind the wall.",
+        "The town came under mortar attack at dawn."
       ],
-      "senses": [],
-      "русский": "строительный раствор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The paste of cement and sand that holds bricks or stones together",
+          "body": [
+            "(строительный раствор)"
+          ],
+          "examples": [
+            "The mortar between the bricks is crumbling.",
+            "He scraped out the old mortar and repacked it.",
+            "Fresh mortar has to stay damp while it cures."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A heavy bowl in which spices or medicines are crushed with a pestle",
+          "body": [
+            "(ступка)"
+          ],
+          "examples": [
+            "Grind the garlic and salt together in a mortar.",
+            "She keeps a marble mortar and pestle by the stove.",
+            "The old pharmacy sign shows a brass mortar."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short, heavy gun that fires shells high into the air",
+          "body": [
+            "(миномёт)",
+            "---"
+          ],
+          "examples": [
+            "Mortar fire hit the edge of the camp.",
+            "Soldiers set up a mortar behind the wall.",
+            "The town came under mortar attack at dawn."
+          ]
+        }
+      ],
+      "русский": "строительный раствор; ступка; миномёт",
       "countability": "uncountable"
     },
     {
@@ -1149,14 +1687,73 @@
       "term": "element",
       "ipa": "/ˈɛləmənt/",
       "respell": "EL-uh-muhnt",
-      "meaning": "A pure substance that cannot be broken down into anything simpler. ---",
+      "meaning": "Element has 4 distinct senses.",
       "examples": [
         "Gold is an element; brass is not.",
         "About ninety elements occur in nature.",
-        "Carbon is the element all life is built on."
+        "Carbon is the element all life is built on.",
+        "There's an element of risk in any investment.",
+        "The story has all the elements of a good thriller.",
+        "An element of truth ran through the rumor.",
+        "A tarp protects the stacked wood from the elements.",
+        "The hikers were out in the elements all night.",
+        "Old barns take a beating from the elements.",
+        "The element in the water heater burned out.",
+        "One element on the stove no longer glows red.",
+        "Replacing an oven element takes about ten minutes."
       ],
-      "senses": [],
-      "русский": "химический элемент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pure substance that cannot be broken down into anything simpler",
+          "body": [
+            "(химический элемент)"
+          ],
+          "examples": [
+            "Gold is an element; brass is not.",
+            "About ninety elements occur in nature.",
+            "Carbon is the element all life is built on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the parts or qualities that make up a whole",
+          "body": [
+            "(элемент, составная часть; доля (чего-либо))"
+          ],
+          "examples": [
+            "There's an element of risk in any investment.",
+            "The story has all the elements of a good thriller.",
+            "An element of truth ran through the rumor."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The weather, especially when it is cold, wet, or rough",
+          "body": [
+            "(стихия, непогода)"
+          ],
+          "examples": [
+            "A tarp protects the stacked wood from the elements.",
+            "The hikers were out in the elements all night.",
+            "Old barns take a beating from the elements."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The metal coil that produces heat in a stove, oven, or water heater",
+          "body": [
+            "(нагревательный элемент, тэн)",
+            "---"
+          ],
+          "examples": [
+            "The element in the water heater burned out.",
+            "One element on the stove no longer glows red.",
+            "Replacing an oven element takes about ten minutes."
+          ]
+        }
+      ],
+      "русский": "химический элемент; элемент, составная часть; доля (чего-либо); стихия, непогода; нагревательный элемент, тэн",
       "plural": "elements",
       "countability": "countable"
     },

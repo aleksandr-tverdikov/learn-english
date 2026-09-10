@@ -303,14 +303,43 @@
       "term": "chop",
       "ipa": "/tʃɑːp/",
       "respell": "CHAHP",
-      "meaning": "A thick slice of meat, usually pork or lamb, cut with the bone still in. ---",
+      "meaning": "Chop has 2 distinct senses.",
       "examples": [
         "She pan-fried two pork chops in butter.",
         "The lamb chop was cooked perfectly.",
-        "Chops dry out fast, so watch the heat."
+        "Chops dry out fast, so watch the heat.",
+        "He knocked the board apart with one chop.",
+        "A karate chop to the neck ended the fight.",
+        "Two quick chops of the axe split the kindling."
       ],
-      "senses": [],
-      "русский": "отбивная (на косточке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick slice of meat, usually pork or lamb, cut with the bone still in",
+          "body": [
+            "(отбивная (на косточке))"
+          ],
+          "examples": [
+            "She pan-fried two pork chops in butter.",
+            "The lamb chop was cooked perfectly.",
+            "Chops dry out fast, so watch the heat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short, sharp downward blow with the side of the hand or with an axe",
+          "body": [
+            "(рубящий удар; удар ребром ладони)",
+            "---"
+          ],
+          "examples": [
+            "He knocked the board apart with one chop.",
+            "A karate chop to the neck ended the fight.",
+            "Two quick chops of the axe split the kindling."
+          ]
+        }
+      ],
+      "русский": "отбивная (на косточке); рубящий удар; удар ребром ладони",
       "plural": "chops",
       "countability": "countable"
     },
@@ -363,14 +392,58 @@
       "term": "flank",
       "ipa": "/flæŋk/",
       "respell": "FLANGK",
-      "meaning": "A lean cut of beef from the belly area below the ribs. ---",
+      "meaning": "Flank has 3 distinct senses.",
       "examples": [
         "Flank steak is best sliced against the grain.",
         "She marinated the flank for two hours.",
-        "Grill the flank hot and fast."
+        "Grill the flank hot and fast.",
+        "The horse's flanks were dark with sweat.",
+        "He felt a sharp pain in his left flank.",
+        "She patted the cow's flank and stepped back.",
+        "The enemy attacked on the left flank.",
+        "Their defense is weak on both flanks.",
+        "He sent riders out to protect the flank."
       ],
-      "senses": [],
-      "русский": "пашина (мясной отруб)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A lean cut of beef from the belly area below the ribs",
+          "body": [
+            "(пашина (мясной отруб))"
+          ],
+          "examples": [
+            "Flank steak is best sliced against the grain.",
+            "She marinated the flank for two hours.",
+            "Grill the flank hot and fast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The side of a person's or animal's body between the ribs and the hip",
+          "body": [
+            "(бок (тела))"
+          ],
+          "examples": [
+            "The horse's flanks were dark with sweat.",
+            "He felt a sharp pain in his left flank.",
+            "She patted the cow's flank and stepped back."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The far left or right side of an army, a team, or a formation",
+          "body": [
+            "(фланг)",
+            "---"
+          ],
+          "examples": [
+            "The enemy attacked on the left flank.",
+            "Their defense is weak on both flanks.",
+            "He sent riders out to protect the flank."
+          ]
+        }
+      ],
+      "русский": "пашина (мясной отруб); бок (тела); фланг",
       "plural": "flanks",
       "countability": "countable, and uncountable as food"
     },
@@ -966,14 +1039,43 @@
       "term": "catfish",
       "ipa": "/ˈkætfɪʃ/",
       "respell": "KAT-fish",
-      "meaning": "A freshwater fish with long feelers around its mouth, often fried. ---",
+      "meaning": "Catfish has 2 distinct senses.",
       "examples": [
         "Fried catfish and hush puppies is a Friday tradition.",
         "He caught three catfish off the dock.",
-        "Catfish has a muddier flavor than tilapia."
+        "Catfish has a muddier flavor than tilapia.",
+        "The man in the photos was a catfish using a model's pictures.",
+        "She realized she had been talking to a catfish for months.",
+        "Dating apps try to weed out catfish before anyone gets hurt."
       ],
-      "senses": [],
-      "русский": "сом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A freshwater fish with long feelers around its mouth, often fried",
+          "body": [
+            "(сом)"
+          ],
+          "examples": [
+            "Fried catfish and hush puppies is a Friday tradition.",
+            "He caught three catfish off the dock.",
+            "Catfish has a muddier flavor than tilapia."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who pretends online to be a different person, usually to fool a romantic partner",
+          "body": [
+            "(кэтфишер (человек с фальшивым профилем в сети))",
+            "---"
+          ],
+          "examples": [
+            "The man in the photos was a catfish using a model's pictures.",
+            "She realized she had been talking to a catfish for months.",
+            "Dating apps try to weed out catfish before anyone gets hurt."
+          ]
+        }
+      ],
+      "русский": "сом; кэтфишер (человек с фальшивым профилем в сети)",
       "plural": "catfish",
       "countability": "countable, and uncountable as food",
       "contrast": "The plural is catfish, unchanged."
@@ -1303,14 +1405,43 @@
       "term": "creamer",
       "ipa": "/ˈkriːmər/",
       "respell": "KREE-mur",
-      "meaning": "A liquid or powder added to coffee in place of cream. ---",
+      "meaning": "Creamer has 2 distinct senses.",
       "examples": [
         "The office only has powdered creamer.",
         "She uses vanilla creamer in everything.",
-        "We're out of creamer again."
+        "We're out of creamer again.",
+        "She filled the creamer and set it beside the sugar bowl.",
+        "The creamer matches the teapot.",
+        "Both creamers in the set are chipped."
       ],
-      "senses": [],
-      "русский": "сливки для кофе (в т. ч. сухие)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid or powder added to coffee in place of cream",
+          "body": [
+            "(сливки для кофе (в т. ч. сухие))"
+          ],
+          "examples": [
+            "The office only has powdered creamer.",
+            "She uses vanilla creamer in everything.",
+            "We're out of creamer again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small pitcher for serving cream at the table",
+          "body": [
+            "(молочник, сливочник)",
+            "---"
+          ],
+          "examples": [
+            "She filled the creamer and set it beside the sugar bowl.",
+            "The creamer matches the teapot.",
+            "Both creamers in the set are chipped."
+          ]
+        }
+      ],
+      "русский": "сливки для кофе (в т. ч. сухие); молочник, сливочник",
       "countability": "uncountable"
     },
     {

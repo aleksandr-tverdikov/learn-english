@@ -462,14 +462,43 @@
       "term": "bypass",
       "ipa": "/ˈbaɪpæs/",
       "respell": "BY-pas",
-      "meaning": "A road built around a town so traffic does not have to go through it. ---",
+      "meaning": "Bypass has 2 distinct senses.",
       "examples": [
         "Take the bypass and skip downtown altogether.",
         "The two new bypasses cut travel time in half.",
-        "The bypass was built in the seventies."
+        "The bypass was built in the seventies.",
+        "He had a triple bypass last spring.",
+        "Bypass surgery kept her in the hospital for a week.",
+        "The doctor recommended a bypass rather than a stent."
       ],
-      "senses": [],
-      "русский": "объездная дорога",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A road built around a town so traffic does not have to go through it",
+          "body": [
+            "(объездная дорога)"
+          ],
+          "examples": [
+            "Take the bypass and skip downtown altogether.",
+            "The two new bypasses cut travel time in half.",
+            "The bypass was built in the seventies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An operation that routes blood around a blocked artery of the heart",
+          "body": [
+            "(шунтирование (сердца))",
+            "---"
+          ],
+          "examples": [
+            "He had a triple bypass last spring.",
+            "Bypass surgery kept her in the hospital for a week.",
+            "The doctor recommended a bypass rather than a stent."
+          ]
+        }
+      ],
+      "русский": "объездная дорога; шунтирование (сердца)",
       "plural": "bypasses",
       "countability": "countable"
     },
@@ -890,14 +919,58 @@
       "term": "reverse",
       "ipa": "/rɪˈvɜːrs/",
       "respell": "rih-VURS",
-      "meaning": "The gear that makes a vehicle move backward. ---",
+      "meaning": "Reverse has 3 distinct senses.",
       "examples": [
         "Put it in reverse and back out slowly.",
         "The car rolled forward because it wasn't in reverse.",
-        "Reverse grinds a little in this old truck."
+        "Reverse grinds a little in this old truck.",
+        "I thought he'd be angry, but the reverse was true.",
+        "The order of names is the reverse of last year's.",
+        "Far from helping, it did the reverse.",
+        "The reverse of the quarter shows an eagle.",
+        "Sign your name on the reverse of the check.",
+        "The date is stamped on the reverse."
       ],
-      "senses": [],
-      "русский": "задний ход",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The gear that makes a vehicle move backward",
+          "body": [
+            "(задний ход)"
+          ],
+          "examples": [
+            "Put it in reverse and back out slowly.",
+            "The car rolled forward because it wasn't in reverse.",
+            "Reverse grinds a little in this old truck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The opposite of what has just been said or expected",
+          "body": [
+            "(противоположность, обратное)"
+          ],
+          "examples": [
+            "I thought he'd be angry, but the reverse was true.",
+            "The order of names is the reverse of last year's.",
+            "Far from helping, it did the reverse."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The back side of a coin, medal, or sheet of paper",
+          "body": [
+            "(оборотная сторона, реверс)",
+            "---"
+          ],
+          "examples": [
+            "The reverse of the quarter shows an eagle.",
+            "Sign your name on the reverse of the check.",
+            "The date is stamped on the reverse."
+          ]
+        }
+      ],
+      "русский": "задний ход; противоположность, обратное; оборотная сторона, реверс",
       "countability": "uncountable"
     },
     {

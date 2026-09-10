@@ -195,15 +195,23 @@ The act of leaving on a plane, train, or bus.
 ### arrival
 
 **Pronunciation:** /əˈraɪvəl/ &middot; *uh-RY-vuhl*
-**Русский:** прибытие
+**Русский:** прибытие; прибывший, новоприбывший
 **Plural:** *arrivals*
 **Countability:** countable
 
-The act of reaching a place at the end of a trip.
+Arrival has 2 distinct senses.
+
+**1. The act of reaching a place at the end of a trip.** (прибытие)
 
 1. Our *arrival* time is listed as 6:40.
 2. Meet me downstairs in *arrivals*.
 3. Rain greeted us on *arrival*.
+
+**2. A person or thing that has just come to a place.** (прибывший, новоприбывший)
+
+4. The shelter takes in new *arrivals* every night.
+5. She's a recent *arrival* from Chicago.
+6. The store puts new *arrivals* in the front window.
 
 ---
 
@@ -284,15 +292,23 @@ The document that lets you get on a plane.
 ### vacancy
 
 **Pronunciation:** /ˈveɪkənsi/ &middot; *VAY-kuhn-see*
-**Русский:** свободный номер (в отеле)
+**Русский:** свободный номер (в отеле); вакансия, свободная должность
 **Plural:** *vacancies*
 **Countability:** countable
 
-A room that is free for someone to rent.
+Vacancy has 2 distinct senses.
+
+**1. A room that is free for someone to rent.** (свободный номер (в отеле))
 
 1. The motel sign said no *vacancy*.
 2. Call around; some place will have *vacancies* tonight.
 3. We took the last *vacancy* in town.
+
+**2. A job that has not been filled.** (вакансия, свободная должность)
+
+4. The school has two teaching *vacancies*.
+5. She applied for a *vacancy* in the front office.
+6. The *vacancy* was posted online yesterday.
 
 ---
 
@@ -358,15 +374,23 @@ The act of passing through a place on the way somewhere else, or public transpor
 ### baggage
 
 **Pronunciation:** /ˈbæɡɪdʒ/ &middot; *BAG-ij*
-**Русский:** багаж
+**Русский:** багаж; груз прошлого, психологический багаж
 **Countability:** uncountable
 **Contrast:** Uncountable: never baggages. Count with two pieces of baggage.
 
-The bags and suitcases a traveler takes on a trip.
+Baggage has 2 distinct senses.
+
+**1. The bags and suitcases a traveler takes on a trip.** (багаж)
 
 1. *Baggage* claim is downstairs to your left.
 2. How much *baggage* are you checking?
 3. All our *baggage* went to the wrong city.
+
+**2. Painful past experiences that still affect how someone behaves.** (груз прошлого, психологический багаж)
+
+4. He brings a lot of emotional *baggage* to the relationship.
+5. Every candidate carries some political *baggage*.
+6. She left the marriage with plenty of *baggage*.
 
 ---
 
@@ -733,16 +757,24 @@ The place you are traveling to.
 ### fare
 
 **Pronunciation:** /fɛr/ &middot; *FAIR*
-**Русский:** плата за проезд
+**Русский:** плата за проезд; еда, кухня (в заведении)
 **Plural:** *fares*
 **Countability:** countable
 **Contrast:** Sounds exactly like fair (just, or a county fair).
 
-The money you pay to ride a bus, train, taxi, or plane.
+Fare has 2 distinct senses.
+
+**1. The money you pay to ride a bus, train, taxi, or plane.** (плата за проезд)
 
 1. The bus *fare* went up to three dollars.
 2. Airline *fares* drop after the holidays.
 3. He paid my *fare* with his transit card.
+
+**2. The kind of food and drink served in a particular place.** (еда, кухня (в заведении))
+
+4. The menu is standard diner *fare*.
+5. The festival offers everything from street *fare* to fine dining.
+6. You'll find simple, hearty *fare* at that little cafe.
 
 ---
 
@@ -764,30 +796,52 @@ A journey to a place and usually back again.
 ### journey
 
 **Pronunciation:** /ˈdʒɜːrni/ &middot; *JUR-nee*
-**Русский:** путешествие, поездка (долгая)
+**Русский:** путешествие, поездка (долгая); путь (жизненный), процесс перемен
 **Plural:** *journeys*
 **Countability:** countable
 
-An act of traveling from one place to another, especially a long one.
+Journey has 2 distinct senses.
+
+**1. An act of traveling from one place to another, especially a long one.** (путешествие, поездка (долгая))
 
 1. It was a long *journey* by bus and boat.
 2. Their *journeys* across the desert took weeks.
 3. The *journey* home felt twice as long.
+
+**2. A long process of personal change or growth.** (путь (жизненный), процесс перемен)
+
+4. The book follows her *journey* from addiction to recovery.
+5. Learning a language is a slow *journey*.
+6. He spoke openly about his *journey* through grief.
 
 ---
 
 ### tour
 
 **Pronunciation:** /tʊr/ &middot; *TOOR*
-**Русский:** тур, экскурсия
+**Русский:** тур, экскурсия; гастроли, турне; срок службы (командировка)
 **Plural:** *tours*
 **Countability:** countable
 
-An organized visit to a place, often with a guide.
+Tour has 3 distinct senses.
+
+**1. An organized visit to a place, often with a guide.** (тур, экскурсия)
 
 1. We took a walking *tour* of the old city.
 2. Boat *tours* leave every hour from the pier.
 3. The *tour* lasts about ninety minutes.
+
+**2. A series of performances or games given in different places.** (гастроли, турне)
+
+4. The band is on *tour* in Europe this fall.
+5. She played forty cities on her last *tour*.
+6. The *tour* ends with two nights in Chicago.
+
+**3. A fixed period of duty served in one place, especially by a soldier.** (срок службы (командировка))
+
+7. He served two *tours* in Afghanistan.
+8. Her *tour* lasted thirteen months.
+9. He came home between *tours*.
 
 ---
 
@@ -869,15 +923,23 @@ An exciting or risky experience.
 ### getaway
 
 **Pronunciation:** /ˈɡɛtəweɪ/ &middot; *GET-uh-way*
-**Русский:** короткая поездка на отдых
+**Русский:** короткая поездка на отдых; побег, бегство (после преступления)
 **Plural:** *getaways*
 **Countability:** countable
 
-A short vacation, usually somewhere relaxing.
+Getaway has 2 distinct senses.
+
+**1. A short vacation, usually somewhere relaxing.** (короткая поездка на отдых)
 
 1. We booked a weekend *getaway* in the mountains.
 2. Romantic *getaways* are their whole business.
 3. That cabin makes a perfect *getaway*.
+
+**2. An escape, especially one made by criminals right after a crime.** (побег, бегство (после преступления))
+
+4. The robbers made their *getaway* in a stolen van.
+5. A witness wrote down the *getaway* car's plate number.
+6. Police blocked every road to cut off their *getaway*.
 
 ---
 
@@ -998,15 +1060,23 @@ A long, difficult walk, usually over rough country.
 ### hike
 
 **Pronunciation:** /haɪk/ &middot; *HYK*
-**Русский:** пеший поход, прогулка по маршруту
+**Русский:** пеший поход, прогулка по маршруту; резкое повышение (цен, ставок)
 **Plural:** *hikes*
 **Countability:** countable
 
-A long walk in the country or mountains.
+Hike has 2 distinct senses.
+
+**1. A long walk in the country or mountains.** (пеший поход, прогулка по маршруту)
 
 1. We went on a short *hike* before breakfast.
 2. The park has *hikes* for every level.
 3. That *hike* nearly killed my knees.
+
+**2. A sharp increase in a price, rate, or amount.** (резкое повышение (цен, ставок))
+
+4. Tenants are protesting the rent *hike*.
+5. The board approved a five percent tuition *hike*.
+6. Another interest rate *hike* would slow the housing market.
 
 ---
 
@@ -1105,30 +1175,52 @@ A small country hotel, often an old one.
 ### resort
 
 **Pronunciation:** /rɪˈzɔːrt/ &middot; *rih-ZORT*
-**Русский:** курорт
+**Русский:** курорт; крайняя мера, последнее средство
 **Plural:** *resorts*
 **Countability:** countable
 
-A hotel or place built for vacations, with pools, restaurants, and activities.
+Resort has 2 distinct senses.
+
+**1. A hotel or place built for vacations, with pools, restaurants, and activities.** (курорт)
 
 1. They stayed at a beach *resort* in Mexico.
 2. Ski *resorts* open in late November.
 3. The *resort* has three pools and a golf course.
+
+**2. A course of action someone turns to when nothing else has worked.** (крайняя мера, последнее средство)
+
+4. Surgery is a last *resort*, not a first step.
+5. They settled the dispute without *resort* to the courts.
+6. Calling his parents was a desperate last *resort*.
 
 ---
 
 ### lodge
 
 **Pronunciation:** /lɑːdʒ/ &middot; *LAHJ*
-**Русский:** турбаза, гостиница на природе
+**Русский:** турбаза, гостиница на природе; ложа (общества), местное отделение братства; хатка (бобровая)
 **Plural:** *lodges*
 **Countability:** countable
 
-A hotel or large cabin in the mountains, woods, or a park.
+Lodge has 3 distinct senses.
+
+**1. A hotel or large cabin in the mountains, woods, or a park.** (турбаза, гостиница на природе)
 
 1. We booked a room at the park *lodge*.
 2. Fishing *lodges* fill up early in the season.
 3. The *lodge* has a huge stone fireplace.
+
+**2. A local branch of a fraternal society, or the hall where it meets.** (ложа (общества), местное отделение братства)
+
+4. The *lodge* meets on the first Tuesday of every month.
+5. Her father joined the *lodge* when he was thirty.
+6. Both *lodges* in town raise money for scholarships.
+
+**3. The dome of sticks and mud that beavers build to live in.** (хатка (бобровая))
+
+7. The beavers built a *lodge* at the far end of the pond.
+8. You can see the *lodge* sticking up through the ice.
+9. Beaver *lodges* have their entrances underwater.
 
 ---
 
@@ -1220,15 +1312,23 @@ A hotel worker who carries guests' bags to their rooms.
 ### porter
 
 **Pronunciation:** /ˈpɔːrtər/ &middot; *POR-tur*
-**Русский:** носильщик
+**Русский:** носильщик; портер (тёмное пиво)
 **Plural:** *porters*
 **Countability:** countable
 
-A person paid to carry luggage at a station, airport, or hotel.
+Porter has 2 distinct senses.
+
+**1. A person paid to carry luggage at a station, airport, or hotel.** (носильщик)
 
 1. A *porter* helped us with the trunks.
 2. The *porters* line up outside the station.
 3. We hired a *porter* to carry the gear up the trail.
+
+**2. A dark heavy beer made with roasted malt.** (портер (тёмное пиво))
+
+4. He ordered a *porter* and a plate of fries.
+5. This brewery's *porter* tastes like coffee.
+6. They have three *porters* on tap tonight.
 
 ---
 
@@ -1368,15 +1468,29 @@ An outdoor fire built at a camp for warmth or cooking.
 ### trailer
 
 **Pronunciation:** /ˈtreɪlər/ &middot; *TRAY-lur*
-**Русский:** прицеп; жилой прицеп
+**Русский:** прицеп; жилой прицеп; трейлер, анонс (фильма); трейлер, дом на колёсах
 **Plural:** *trailers*
 **Countability:** countable
 
-A vehicle without an engine that is pulled behind a car or truck.
+Trailer has 3 distinct senses.
+
+**1. A vehicle without an engine that is pulled behind a car or truck.** (прицеп; жилой прицеп)
 
 1. They tow a small *trailer* behind the pickup.
 2. Half the *trailers* in the park are permanent.
 3. We slept in the *trailer* instead of a tent.
+
+**2. A short set of clips advertising a movie or show before it comes out.** (трейлер, анонс (фильма))
+
+4. The *trailer* looked better than the movie.
+5. They showed four *trailers* before the film started.
+6. The studio put the first *trailer* online yesterday.
+
+**3. A long low home built to be hauled to a lot and lived in.** (трейлер, дом на колёсах)
+
+7. They live in a *trailer* just outside of town.
+8. The storm flattened half the *trailers* in the park.
+9. She grew up in a two-bedroom *trailer*.
 
 ---
 
@@ -1399,15 +1513,29 @@ A large vehicle you can drive and live in on a trip.
 ### train
 
 **Pronunciation:** /treɪn/ &middot; *TRAYN*
-**Русский:** поезд
+**Русский:** поезд; шлейф (платья); цепь, вереница (мыслей, событий)
 **Plural:** *trains*
 **Countability:** countable
 
-A line of connected railroad cars pulled along tracks.
+Train has 3 distinct senses.
+
+**1. A line of connected railroad cars pulled along tracks.** (поезд)
 
 1. The *train* to Boston leaves at 7:15.
 2. *Trains* run every twenty minutes on weekdays.
 3. We took the night *train* to save on a hotel.
+
+**2. The long part of a gown that trails on the ground behind the wearer.** (шлейф (платья))
+
+4. Two girls carried the bride's *train*.
+5. Her gown had a six-foot *train*.
+6. He stepped on the *train* of her dress.
+
+**3. A series of connected thoughts or events.** (цепь, вереница (мыслей, событий))
+
+7. The phone rang and I lost my *train* of thought.
+8. The letter set off a *train* of events no one expected.
+9. A long *train* of small mistakes led to the crash.
 
 ---
 
@@ -1574,15 +1702,23 @@ A car with a driver that you pay to take you somewhere.
 ### cab
 
 **Pronunciation:** /kæb/ &middot; *KAB*
-**Русский:** такси
+**Русский:** такси; кабина (водителя, машиниста)
 **Plural:** *cabs*
 **Countability:** countable
 
-A taxi, in everyday American speech.
+Cab has 2 distinct senses.
+
+**1. A taxi, in everyday American speech.** (такси)
 
 1. Let's just take a *cab*.
 2. No *cabs* were out in that snowstorm.
 3. The *cab* ride cost more than the train ticket.
+
+**2. The part of a truck, train, or crane where the driver sits.** (кабина (водителя, машиниста))
+
+4. He climbed up into the *cab* of the semi.
+5. The *cab* of the tractor has air conditioning.
+6. Two men were riding in the *cab* of the locomotive.
 
 ---
 
@@ -1635,31 +1771,53 @@ A wide highway with no traffic lights and no toll.
 ### route
 
 **Pronunciation:** /ruːt/ &middot; *ROOT*
-**Русский:** маршрут, дорога
+**Русский:** маршрут, дорога; шоссе, трасса (с номером); участок доставки (напр. разносчика газет)
 **Plural:** *routes*
 **Countability:** countable
 **Contrast:** Many Americans also say it like rout, rhyming with out.
 
-The way you go from one place to another.
+Route has 3 distinct senses.
+
+**1. The way you go from one place to another.** (маршрут, дорога)
 
 1. The scenic *route* adds an hour.
 2. Both *routes* end up at the same lake.
 3. We planned our *route* the night before.
+
+**2. A numbered highway.** (шоссе, трасса (с номером))
+
+4. Take *Route* 9 north for about ten miles.
+5. The diner sits right off the old *route*.
+6. Both *routes* run parallel to the river.
+
+**3. The fixed set of stops a person covers to deliver something.** (участок доставки (напр. разносчика газет))
+
+7. He had a paper *route* when he was twelve.
+8. Her delivery *route* covers three neighborhoods.
+9. The driver's *route* changed after the merger.
 
 ---
 
 ### toll
 
 **Pronunciation:** /toʊl/ &middot; *TOHL*
-**Русский:** плата за проезд (по дороге, мосту)
+**Русский:** плата за проезд (по дороге, мосту); число жертв; ущерб, урон
 **Plural:** *tolls*
 **Countability:** countable
 
-Money you pay to use a road, bridge, or tunnel.
+Toll has 2 distinct senses.
+
+**1. Money you pay to use a road, bridge, or tunnel.** (плата за проезд (по дороге, мосту))
 
 1. The *toll* on that bridge is nine dollars.
 2. *Tolls* add up fast on the turnpike.
 3. We paid the *toll* with a transponder.
+
+**2. The total damage or number of deaths caused by something bad.** (число жертв; ущерб, урон)
+
+4. The death *toll* from the earthquake rose to 300.
+5. Years of night shifts took a *toll* on his health.
+6. The storm's *toll* on local farms was enormous.
 
 ---
 
@@ -1926,15 +2084,29 @@ Port has 2 distinct senses.
 ### dock
 
 **Pronunciation:** /dɑːk/ &middot; *DAHK*
-**Русский:** причал, док
+**Русский:** причал, док; погрузочная платформа, рампа; док-станция
 **Plural:** *docks*
 **Countability:** countable
 
-A structure at the edge of water where boats tie up.
+Dock has 3 distinct senses.
+
+**1. A structure at the edge of water where boats tie up.** (причал, док)
 
 1. We waited on the *dock* for the ferry.
 2. The old *docks* have been turned into restaurants.
 3. He tied the boat to the *dock*.
+
+**2. A raised platform where trucks are loaded and unloaded.** (погрузочная платформа, рампа)
+
+4. The pallets are waiting on the loading *dock*.
+5. Drivers back up to the *dock* to unload.
+6. Deliveries come in through the *dock* in back.
+
+**3. A stand that a phone, laptop, or other device sits in to charge or connect.** (док-станция)
+
+7. He left his laptop in the *dock* at the office.
+8. The speaker has a *dock* for your phone.
+9. Both *docks* charge and transfer data at the same time.
 
 ---
 
@@ -2078,16 +2250,24 @@ Cathedral has 2 distinct senses.
 ### castle
 
 **Pronunciation:** /ˈkæsəl/ &middot; *KAS-uhl*
-**Русский:** замок (крепость)
+**Русский:** замок (крепость); ладья (шахматная фигура)
 **Plural:** *castles*
 **Countability:** countable
 **Contrast:** The t is silent: KAS-uhl, not KAST-uhl.
 
-A large old building with thick walls, built for defense.
+Castle has 2 distinct senses.
+
+**1. A large old building with thick walls, built for defense.** (замок (крепость))
 
 1. The *castle* sits on a hill above the river.
 2. Ruined *castles* are everywhere in that valley.
 3. Tickets to the *castle* are twelve euros.
+
+**2. The chess piece shaped like a tower, also called a rook.** (ладья (шахматная фигура))
+
+4. He slid his *castle* down the open file.
+5. She traded a bishop for a *castle*.
+6. The *castle* moves only in straight lines.
 
 ---
 
@@ -2194,15 +2374,35 @@ Plaza has 2 distinct senses.
 ### bridge
 
 **Pronunciation:** /brɪdʒ/ &middot; *BRIJ*
-**Русский:** мост
+**Русский:** мост; переносица; бридж (карточная игра); капитанский мостик
 **Plural:** *bridges*
 **Countability:** countable
 
-A structure built to carry a road or path over water or a gap.
+Bridge has 4 distinct senses.
+
+**1. A structure built to carry a road or path over water or a gap.** (мост)
 
 1. The *bridge* is closed for repairs.
 2. Seven *bridges* cross the river downtown.
 3. You get the best view from the middle of the *bridge*.
+
+**2. The bony ridge at the top of the nose, between the eyes.** (переносица)
+
+4. His glasses left a red mark on the *bridge* of his nose.
+5. She pinched the *bridge* of her nose and sighed.
+6. The ball broke the *bridge* of his nose in two places.
+
+**3. A card game for four players in two teams.** (бридж (карточная игра))
+
+7. My grandparents play *bridge* every Thursday night.
+8. She belongs to a *bridge* club downtown.
+9. He taught me *bridge* the summer I turned twelve.
+
+**4. The raised platform on a ship from which the captain gives orders.** (капитанский мостик)
+
+10. The captain stayed on the *bridge* all night.
+11. Three officers were on the *bridge* when the storm hit.
+12. Passengers are not allowed on the *bridge*.
 
 ---
 
@@ -2240,15 +2440,23 @@ A high spot with a view, usually with a place to park.
 ### guide
 
 **Pronunciation:** /ɡaɪd/ &middot; *GYD*
-**Русский:** гид, экскурсовод
+**Русский:** гид, экскурсовод; путеводитель, руководство, справочник
 **Plural:** *guides*
 **Countability:** countable
 
-A person who shows visitors around a place and explains it.
+Guide has 2 distinct senses.
+
+**1. A person who shows visitors around a place and explains it.** (гид, экскурсовод)
 
 1. Our *guide* spoke perfect English.
 2. The park hires *guides* for the summer season.
 3. Ask the *guide* how old the church is.
+
+**2. A book or set of instructions telling you how to do something or what to see.** (путеводитель, руководство, справочник)
+
+4. We bought a *guide* to the national parks.
+5. The user's *guide* is in the box.
+6. Her study *guide* covers every chapter on the test.
 
 ---
 
@@ -2300,15 +2508,35 @@ A stiff card with a picture on one side, mailed without an envelope.
 ### pool
 
 **Pronunciation:** /puːl/ &middot; *POOL*
-**Русский:** бассейн
+**Русский:** бассейн; пул, американский бильярд; общий фонд, резерв; лужа, лужица
 **Plural:** *pools*
 **Countability:** countable
 
-A large container of water built for swimming.
+Pool has 4 distinct senses.
+
+**1. A large container of water built for swimming.** (бассейн)
 
 1. The kids were in the *pool* all afternoon.
 2. The resort has three *pools* and a hot tub.
 3. Our room looks right out over the *pool*.
+
+**2. A game played on a cloth-covered table in which balls are hit into pockets with a long stick.** (пул, американский бильярд)
+
+4. We shot *pool* in the basement all afternoon.
+5. There's a *pool* table in the back of the bar.
+6. He hustled tourists at *pool* for spending money.
+
+**3. A shared supply of money, people, or things that others can draw on.** (общий фонд, резерв)
+
+7. The company draws from a small *pool* of translators.
+8. Everyone chipped in for the office betting *pool*.
+9. A shrinking *pool* of applicants worries the school district.
+
+**4. A small amount of liquid lying on a surface.** (лужа, лужица)
+
+10. A *pool* of oil spread under the truck.
+11. Blood had collected in a *pool* by the door.
+12. Candle wax dried in *pools* on the table.
 
 ---
 

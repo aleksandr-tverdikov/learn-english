@@ -509,14 +509,43 @@
       "term": "oxford",
       "ipa": "/ˈɑːksfərd/",
       "respell": "AHKS-furd",
-      "meaning": "A low dress shoe whose lace flaps are stitched closed at the bottom. ---",
+      "meaning": "Oxford has 2 distinct senses.",
       "examples": [
         "Black oxfords are the safest choice with a dark suit.",
         "He had one oxford resoled and the other polished.",
-        "Those brown oxfords need new laces."
+        "Those brown oxfords need new laces.",
+        "He wore a blue oxford and khakis.",
+        "I keep two white oxfords pressed for interviews.",
+        "That oxford looks better with the sleeves rolled up."
       ],
-      "senses": [],
-      "русский": "оксфорды (туфли на закрытой шнуровке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low dress shoe whose lace flaps are stitched closed at the bottom",
+          "body": [
+            "(оксфорды (туфли на закрытой шнуровке))"
+          ],
+          "examples": [
+            "Black oxfords are the safest choice with a dark suit.",
+            "He had one oxford resoled and the other polished.",
+            "Those brown oxfords need new laces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cotton shirt made of slightly rough, basket-woven cloth",
+          "body": [
+            "(рубашка из оксфордской ткани)",
+            "---"
+          ],
+          "examples": [
+            "He wore a blue oxford and khakis.",
+            "I keep two white oxfords pressed for interviews.",
+            "That oxford looks better with the sleeves rolled up."
+          ]
+        }
+      ],
+      "русский": "оксфорды (туфли на закрытой шнуровке); рубашка из оксфордской ткани",
       "plural": "oxfords",
       "countability": "countable"
     },
@@ -768,14 +797,43 @@
       "term": "wingtip",
       "ipa": "/ˈwɪŋtɪp/",
       "respell": "WING-tip",
-      "meaning": "A dress shoe with a pointed leather cap shaped like wings across the toe. ---",
+      "meaning": "Wingtip has 2 distinct senses.",
       "examples": [
         "He wore brown wingtips with a gray suit.",
         "The perforations on a wingtip are purely decorative.",
-        "Those wingtips have been in his closet for a decade."
+        "Those wingtips have been in his closet for a decade.",
+        "The plane's wingtip clipped a light pole.",
+        "Red lights blink at each wingtip.",
+        "The eagle's wingtips spread out like fingers."
       ],
-      "senses": [],
-      "русский": "туфли-броги с фигурным носком",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dress shoe with a pointed leather cap shaped like wings across the toe",
+          "body": [
+            "(туфли-броги с фигурным носком)"
+          ],
+          "examples": [
+            "He wore brown wingtips with a gray suit.",
+            "The perforations on a wingtip are purely decorative.",
+            "Those wingtips have been in his closet for a decade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The outer end of a bird's wing or an airplane's wing",
+          "body": [
+            "(законцовка крыла, кончик крыла)",
+            "---"
+          ],
+          "examples": [
+            "The plane's wingtip clipped a light pole.",
+            "Red lights blink at each wingtip.",
+            "The eagle's wingtips spread out like fingers."
+          ]
+        }
+      ],
+      "русский": "туфли-броги с фигурным носком; законцовка крыла, кончик крыла",
       "plural": "wingtips",
       "countability": "countable"
     },
@@ -783,14 +841,43 @@
       "term": "brogue",
       "ipa": "/broʊɡ/",
       "respell": "BROHG",
-      "meaning": "A sturdy leather shoe decorated with rows of punched holes. ---",
+      "meaning": "Brogue has 2 distinct senses.",
       "examples": [
         "He bought a pair of tan brogues for the spring.",
         "The pattern on that brogue is beautiful.",
-        "Brogues look good with tweed."
+        "Brogues look good with tweed.",
+        "He answered in a thick Irish brogue.",
+        "Her brogue got stronger when she was tired.",
+        "You could hear the brogue in the way he said the word."
       ],
-      "senses": [],
-      "русский": "броги (туфли с перфорацией)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sturdy leather shoe decorated with rows of punched holes",
+          "body": [
+            "(броги (туфли с перфорацией))"
+          ],
+          "examples": [
+            "He bought a pair of tan brogues for the spring.",
+            "The pattern on that brogue is beautiful.",
+            "Brogues look good with tweed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong regional accent, especially an Irish or Scottish one",
+          "body": [
+            "(сильный ирландский (шотландский) акцент)",
+            "---"
+          ],
+          "examples": [
+            "He answered in a thick Irish brogue.",
+            "Her brogue got stronger when she was tired.",
+            "You could hear the brogue in the way he said the word."
+          ]
+        }
+      ],
+      "русский": "броги (туфли с перфорацией); сильный ирландский (шотландский) акцент",
       "plural": "brogues",
       "countability": "countable",
       "contrast": "The same word also means a strong regional accent, especially an Irish one: \"he spoke with a soft brogue.\""
@@ -967,14 +1054,58 @@
       "term": "spike",
       "ipa": "/spaɪk/",
       "respell": "SPYK",
-      "meaning": "A short metal point screwed into the sole of a track or golf shoe. ---",
+      "meaning": "Spike has 3 distinct senses.",
       "examples": [
         "She laced up her spikes for the 400.",
         "You can replace a worn spike with a small wrench.",
-        "Metal spikes tear up the turf."
+        "Metal spikes tear up the turf.",
+        "The city saw a spike in emergency calls during the heat wave.",
+        "There was a brief spike in gas prices last spring.",
+        "Doctors reported a spike in flu cases in January.",
+        "The fence around the yard is topped with iron spikes.",
+        "He drove a spike into the railroad tie.",
+        "Steel spikes held the tent lines to the ground."
       ],
-      "senses": [],
-      "русский": "шип (на спортивной подошве); (мн.) шиповки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short metal point screwed into the sole of a track or golf shoe",
+          "body": [
+            "(шип (на спортивной подошве); (мн.) шиповки)"
+          ],
+          "examples": [
+            "She laced up her spikes for the 400.",
+            "You can replace a worn spike with a small wrench.",
+            "Metal spikes tear up the turf."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden sharp increase in a number or level",
+          "body": [
+            "(резкий скачок, всплеск)"
+          ],
+          "examples": [
+            "The city saw a spike in emergency calls during the heat wave.",
+            "There was a brief spike in gas prices last spring.",
+            "Doctors reported a spike in flu cases in January."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long thick pointed piece of metal or wood",
+          "body": [
+            "(штырь, костыль, острый шип)",
+            "---"
+          ],
+          "examples": [
+            "The fence around the yard is topped with iron spikes.",
+            "He drove a spike into the railroad tie.",
+            "Steel spikes held the tent lines to the ground."
+          ]
+        }
+      ],
+      "русский": "шип (на спортивной подошве); (мн.) шиповки; резкий скачок, всплеск; штырь, костыль, острый шип",
       "plural": "spikes",
       "countability": "countable"
     },
@@ -1208,14 +1339,43 @@
       "term": "welt",
       "ipa": "/wɛlt/",
       "respell": "WELT",
-      "meaning": "A strip of leather stitched between the upper and the sole of a shoe. ---",
+      "meaning": "Welt has 2 distinct senses.",
       "examples": [
         "A shoe with a welt can be resoled many times.",
         "The stitching along the welt had rotted.",
-        "Both welts were replaced during the rebuild."
+        "Both welts were replaced during the rebuild.",
+        "The belt left welts across his back.",
+        "A mosquito bite raised a welt on her arm.",
+        "He had a welt under one eye after the fight."
       ],
-      "senses": [],
-      "русский": "рант",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strip of leather stitched between the upper and the sole of a shoe",
+          "body": [
+            "(рант)"
+          ],
+          "examples": [
+            "A shoe with a welt can be resoled many times.",
+            "The stitching along the welt had rotted.",
+            "Both welts were replaced during the rebuild."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A raised red mark left on the skin by a blow or a sting",
+          "body": [
+            "(рубец, вздувшийся след (от удара))",
+            "---"
+          ],
+          "examples": [
+            "The belt left welts across his back.",
+            "A mosquito bite raised a welt on her arm.",
+            "He had a welt under one eye after the fight."
+          ]
+        }
+      ],
+      "русский": "рант; рубец, вздувшийся след (от удара)",
       "plural": "welts",
       "countability": "countable",
       "contrast": "The same word also means a raised red mark on the skin from a blow."
@@ -2176,14 +2336,72 @@
       "term": "slide",
       "ipa": "/slaɪd/",
       "respell": "SLYD",
-      "meaning": "A flat backless sandal with one wide band across the foot.",
+      "meaning": "Slide has 4 distinct senses.",
       "examples": [
         "He wears slides to the pool and nowhere else.",
         "One slide floated off down the lake.",
-        "Rubber slides dry in about a minute."
+        "Rubber slides dry in about a minute.",
+        "She went down the slide headfirst.",
+        "The park put in a new twisting slide.",
+        "Both slides were too hot to touch by noon.",
+        "Go back to the slide with the sales figures.",
+        "He crammed six charts onto one slide.",
+        "Her presentation ran to forty slides.",
+        "Put a drop of pond water on the slide.",
+        "The lab labels every slide with a date.",
+        "He clipped the slide onto the microscope."
       ],
-      "senses": [],
-      "русский": "шлёпанцы (сандалии без задника)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat backless sandal with one wide band across the foot",
+          "body": [
+            "(шлёпанцы (сандалии без задника))"
+          ],
+          "examples": [
+            "He wears slides to the pool and nowhere else.",
+            "One slide floated off down the lake.",
+            "Rubber slides dry in about a minute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A smooth sloping structure that children climb up and slide down",
+          "body": [
+            "(горка (детская))"
+          ],
+          "examples": [
+            "She went down the slide headfirst.",
+            "The park put in a new twisting slide.",
+            "Both slides were too hot to touch by noon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One page of a presentation shown on a screen",
+          "body": [
+            "(слайд (в презентации))"
+          ],
+          "examples": [
+            "Go back to the slide with the sales figures.",
+            "He crammed six charts onto one slide.",
+            "Her presentation ran to forty slides."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small glass plate holding a sample to be viewed under a microscope",
+          "body": [
+            "(предметное стекло)"
+          ],
+          "examples": [
+            "Put a drop of pond water on the slide.",
+            "The lab labels every slide with a date.",
+            "He clipped the slide onto the microscope."
+          ]
+        }
+      ],
+      "русский": "шлёпанцы (сандалии без задника); горка (детская); слайд (в презентации); предметное стекло",
       "plural": "slides",
       "countability": "countable",
       "contrast": "The same word also means a playground slide or a photographic slide; the sandal sense is nearly always plural."

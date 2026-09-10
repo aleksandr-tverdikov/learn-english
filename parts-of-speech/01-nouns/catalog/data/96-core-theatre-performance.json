@@ -6,14 +6,73 @@
       "term": "play",
       "ipa": "/pleɪ/",
       "respell": "PLAY",
-      "meaning": "A story written to be acted out on a stage. ---",
+      "meaning": "Play has 4 distinct senses.",
       "examples": [
         "We saw a play about two brothers running a diner.",
         "She has written six plays, and three of them were produced.",
-        "The play runs two hours with one intermission."
+        "The play runs two hours with one intermission.",
+        "Young children learn through play.",
+        "The yard gives them room for outdoor play.",
+        "It's all work and no play around here.",
+        "That catch was the best play of the game.",
+        "The coach drew up a play during the timeout.",
+        "They ran the same play three times in a row.",
+        "There's too much play in the steering wheel.",
+        "A little play in the chain is normal.",
+        "The hinge has some play now that the screws are loose."
       ],
-      "senses": [],
-      "русский": "пьеса, спектакль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A story written to be acted out on a stage",
+          "body": [
+            "(пьеса, спектакль)"
+          ],
+          "examples": [
+            "We saw a play about two brothers running a diner.",
+            "She has written six plays, and three of them were produced.",
+            "The play runs two hours with one intermission."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Activity done for fun, especially by children",
+          "body": [
+            "(игра (как занятие))"
+          ],
+          "examples": [
+            "Young children learn through play.",
+            "The yard gives them room for outdoor play.",
+            "It's all work and no play around here."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A single action or planned move in a sports game",
+          "body": [
+            "(игровой момент, комбинация (в спорте))"
+          ],
+          "examples": [
+            "That catch was the best play of the game.",
+            "The coach drew up a play during the timeout.",
+            "They ran the same play three times in a row."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small amount of loose movement in a mechanical part",
+          "body": [
+            "(люфт, свободный ход)",
+            "---"
+          ],
+          "examples": [
+            "There's too much play in the steering wheel.",
+            "A little play in the chain is normal.",
+            "The hinge has some play now that the screws are loose."
+          ]
+        }
+      ],
+      "русский": "пьеса, спектакль; игра (как занятие); игровой момент, комбинация (в спорте); люфт, свободный ход",
       "plural": "plays",
       "countability": "countable"
     },
@@ -37,14 +96,73 @@
       "term": "scene",
       "ipa": "/siːn/",
       "respell": "SEEN",
-      "meaning": "A section of a play or film that happens in one place and time. ---",
+      "meaning": "Scene has 4 distinct senses.",
       "examples": [
         "The best scene is the argument in the kitchen.",
         "We rehearsed the last two scenes all afternoon.",
-        "He forgot his lines in the opening scene."
+        "He forgot his lines in the opening scene.",
+        "Police were on the scene within four minutes.",
+        "He left the scene of the accident without stopping.",
+        "Reporters were kept a block away from the scene.",
+        "Please don't make a scene in front of the neighbors.",
+        "She caused quite a scene at the restaurant.",
+        "He walked out rather than have a scene in the lobby.",
+        "Austin has a great live music scene.",
+        "She's been part of the art scene here for years.",
+        "The city's restaurant scene has changed completely."
       ],
-      "senses": [],
-      "русский": "сцена, эпизод (часть акта)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A section of a play or film that happens in one place and time",
+          "body": [
+            "(сцена, эпизод (часть акта))"
+          ],
+          "examples": [
+            "The best scene is the argument in the kitchen.",
+            "We rehearsed the last two scenes all afternoon.",
+            "He forgot his lines in the opening scene."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place where something happened, especially a crime or an accident",
+          "body": [
+            "(место происшествия, место преступления)"
+          ],
+          "examples": [
+            "Police were on the scene within four minutes.",
+            "He left the scene of the accident without stopping.",
+            "Reporters were kept a block away from the scene."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A noisy public display of anger or emotion",
+          "body": [
+            "(сцена, скандал (на людях))"
+          ],
+          "examples": [
+            "Please don't make a scene in front of the neighbors.",
+            "She caused quite a scene at the restaurant.",
+            "He walked out rather than have a scene in the lobby."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular area of activity together with the people involved in it",
+          "body": [
+            "(среда, тусовка, сфера (музыкальная, гастрономическая))",
+            "---"
+          ],
+          "examples": [
+            "Austin has a great live music scene.",
+            "She's been part of the art scene here for years.",
+            "The city's restaurant scene has changed completely."
+          ]
+        }
+      ],
+      "русский": "сцена, эпизод (часть акта); место происшествия, место преступления; сцена, скандал (на людях); среда, тусовка, сфера (музыкальная, гастрономическая)",
       "plural": "scenes",
       "countability": "countable",
       "contrast": "Sounds exactly like seen, the past participle of see."
@@ -53,14 +171,73 @@
       "term": "act",
       "ipa": "/ækt/",
       "respell": "AKT",
-      "meaning": "A main division of a play, or a short self-contained performance. ---",
+      "meaning": "Act has 4 distinct senses.",
       "examples": [
         "The first act runs almost an hour.",
         "Most modern plays have two acts instead of five.",
-        "Her comedy act is about twenty minutes long."
+        "Her comedy act is about twenty minutes long.",
+        "Holding the door open is a small act of kindness.",
+        "The fire was ruled a deliberate act.",
+        "The policy does not cover acts of war.",
+        "Congress passed an act banning the practice.",
+        "The new act takes effect in January.",
+        "Both acts cleared the Senate on the same day.",
+        "She seems confident, but it's an act.",
+        "Don't fall for the helpless act.",
+        "He kept up the cheerful act until the last guest left."
       ],
-      "senses": [],
-      "русский": "акт, действие (пьесы); номер (эстрадный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A main division of a play, or a short self-contained performance",
+          "body": [
+            "(акт, действие (пьесы); номер (эстрадный))"
+          ],
+          "examples": [
+            "The first act runs almost an hour.",
+            "Most modern plays have two acts instead of five.",
+            "Her comedy act is about twenty minutes long."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single thing that a person does",
+          "body": [
+            "(поступок, действие)"
+          ],
+          "examples": [
+            "Holding the door open is a small act of kindness.",
+            "The fire was ruled a deliberate act.",
+            "The policy does not cover acts of war."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A law passed by a legislature",
+          "body": [
+            "(закон, законодательный акт)"
+          ],
+          "examples": [
+            "Congress passed an act banning the practice.",
+            "The new act takes effect in January.",
+            "Both acts cleared the Senate on the same day."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Behavior that is put on to hide how someone really feels",
+          "body": [
+            "(притворство, игра на публику)",
+            "---"
+          ],
+          "examples": [
+            "She seems confident, but it's an act.",
+            "Don't fall for the helpless act.",
+            "He kept up the cheerful act until the last guest left."
+          ]
+        }
+      ],
+      "русский": "акт, действие (пьесы); номер (эстрадный); поступок, действие; закон, законодательный акт; притворство, игра на публику",
       "plural": "acts",
       "countability": "countable"
     },
@@ -83,14 +260,43 @@
       "term": "tragedy",
       "ipa": "/ˈtrædʒədi/",
       "respell": "TRAJ-uh-dee",
-      "meaning": "A serious play that ends unhappily for the main character. ---",
+      "meaning": "Tragedy has 2 distinct senses.",
       "examples": [
         "Hamlet is the best known tragedy in English.",
         "Greek tragedies were performed outdoors.",
-        "The director staged the tragedy in modern dress."
+        "The director staged the tragedy in modern dress.",
+        "The fire was a tragedy for the whole town.",
+        "It would be a tragedy to lose the old theater.",
+        "The family has suffered two tragedies in one year."
       ],
-      "senses": [],
-      "русский": "трагедия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A serious play that ends unhappily for the main character",
+          "body": [
+            "(трагедия)"
+          ],
+          "examples": [
+            "Hamlet is the best known tragedy in English.",
+            "Greek tragedies were performed outdoors.",
+            "The director staged the tragedy in modern dress."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very sad event, especially one in which people die",
+          "body": [
+            "(трагедия, несчастье)",
+            "---"
+          ],
+          "examples": [
+            "The fire was a tragedy for the whole town.",
+            "It would be a tragedy to lose the old theater.",
+            "The family has suffered two tragedies in one year."
+          ]
+        }
+      ],
+      "русский": "трагедия; трагедия, несчастье",
       "plural": "tragedies",
       "countability": "countable"
     },
@@ -129,14 +335,58 @@
       "term": "prop",
       "ipa": "/prɑːp/",
       "respell": "PRAHP",
-      "meaning": "An object an actor carries or uses on stage. ---",
+      "meaning": "Prop has 3 distinct senses.",
       "examples": [
         "The only prop in the whole scene is a coffee cup.",
         "Someone left the props on the wrong side of the stage.",
-        "That knife is a rubber prop, not a real one."
+        "That knife is a rubber prop, not a real one.",
+        "Wooden props held up the sagging ceiling.",
+        "He wedged a prop under the loaded branch.",
+        "The miners set new props along the tunnel.",
+        "Give the guy props for showing up at all.",
+        "She deserves props for finishing the race.",
+        "He got props from everyone in the room."
       ],
-      "senses": [],
-      "русский": "реквизит (отдельный предмет на сцене)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An object an actor carries or uses on stage",
+          "body": [
+            "(реквизит (отдельный предмет на сцене))"
+          ],
+          "examples": [
+            "The only prop in the whole scene is a coffee cup.",
+            "Someone left the props on the wrong side of the stage.",
+            "That knife is a rubber prop, not a real one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pole or beam used to hold something up",
+          "body": [
+            "(подпорка, опора)"
+          ],
+          "examples": [
+            "Wooden props held up the sagging ceiling.",
+            "He wedged a prop under the loaded branch.",
+            "The miners set new props along the tunnel."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Credit or respect given to someone, used in the plural",
+          "body": [
+            "(уважение, признание (разг.))",
+            "---"
+          ],
+          "examples": [
+            "Give the guy props for showing up at all.",
+            "She deserves props for finishing the race.",
+            "He got props from everyone in the room."
+          ]
+        }
+      ],
+      "русский": "реквизит (отдельный предмет на сцене); подпорка, опора; уважение, признание (разг.)",
       "plural": "props",
       "countability": "countable"
     },
@@ -144,14 +394,73 @@
       "term": "set",
       "ipa": "/sɛt/",
       "respell": "SET",
-      "meaning": "The scenery and furniture that show where a scene takes place. ---",
+      "meaning": "Set has 4 distinct senses.",
       "examples": [
         "The set for the second act is a hotel lobby.",
         "They built both sets in a week.",
-        "The set rotates to become the outside of the house."
+        "The set rotates to become the outside of the house.",
+        "I lost my whole set of keys.",
+        "They gave us a set of steak knives as a wedding gift.",
+        "A chess set was laid out on the table by the window.",
+        "She won the first set six to four.",
+        "The match went to five sets.",
+        "He dropped the second set but came back strong.",
+        "The band played a short set and left.",
+        "They open every set with the same three songs.",
+        "Her second set ran past midnight."
       ],
-      "senses": [],
-      "русский": "декорация, оформление сцены",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The scenery and furniture that show where a scene takes place",
+          "body": [
+            "(декорация, оформление сцены)"
+          ],
+          "examples": [
+            "The set for the second act is a hotel lobby.",
+            "They built both sets in a week.",
+            "The set rotates to become the outside of the house."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of things that belong together and are used together",
+          "body": [
+            "(набор, комплект)"
+          ],
+          "examples": [
+            "I lost my whole set of keys.",
+            "They gave us a set of steak knives as a wedding gift.",
+            "A chess set was laid out on the table by the window."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the parts that a tennis or volleyball match is divided into",
+          "body": [
+            "(сет, партия)"
+          ],
+          "examples": [
+            "She won the first set six to four.",
+            "The match went to five sets.",
+            "He dropped the second set but came back strong."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A block of songs that a band or DJ plays without a break",
+          "body": [
+            "(сет, отделение (концерта))",
+            "---"
+          ],
+          "examples": [
+            "The band played a short set and left.",
+            "They open every set with the same three songs.",
+            "Her second set ran past midnight."
+          ]
+        }
+      ],
+      "русский": "декорация, оформление сцены; набор, комплект; сет, партия; сет, отделение (концерта)",
       "plural": "sets",
       "countability": "countable"
     },
@@ -159,14 +468,43 @@
       "term": "cue",
       "ipa": "/kjuː/",
       "respell": "KYOO",
-      "meaning": "A word or signal that tells a performer or technician to do something. ---",
+      "meaning": "Cue has 2 distinct senses.",
       "examples": [
         "That line is your cue to come on stage.",
         "The lighting cues are all in the stage manager's book.",
-        "He missed his cue and came on ten seconds late."
+        "He missed his cue and came on ten seconds late.",
+        "He chalked his cue and leaned over the table.",
+        "A rack of cues hung by the door.",
+        "She bought her own cue after joining the league."
       ],
-      "senses": [],
-      "русский": "реплика-сигнал, сигнал к выходу",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A word or signal that tells a performer or technician to do something",
+          "body": [
+            "(реплика-сигнал, сигнал к выходу)"
+          ],
+          "examples": [
+            "That line is your cue to come on stage.",
+            "The lighting cues are all in the stage manager's book.",
+            "He missed his cue and came on ten seconds late."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The long tapered stick used to strike the ball in pool or billiards",
+          "body": [
+            "(кий)",
+            "---"
+          ],
+          "examples": [
+            "He chalked his cue and leaned over the table.",
+            "A rack of cues hung by the door.",
+            "She bought her own cue after joining the league."
+          ]
+        }
+      ],
+      "русский": "реплика-сигнал, сигнал к выходу; кий",
       "plural": "cues",
       "countability": "countable",
       "contrast": "Sounds exactly like queue, a line of waiting people."
@@ -448,14 +786,43 @@
       "term": "heroine",
       "ipa": "/ˈhɛroʊɪn/",
       "respell": "HER-oh-in",
-      "meaning": "The main female character in a play, film, or book. ---",
+      "meaning": "Heroine has 2 distinct senses.",
       "examples": [
         "The heroine leaves home in the very first scene.",
         "Both heroines are played by the same actress.",
-        "She is a heroine you actually want to root for."
+        "She is a heroine you actually want to root for.",
+        "The nurse who stayed behind was hailed as a heroine.",
+        "She became a heroine of the civil rights movement.",
+        "The town honored two heroines of the rescue."
       ],
-      "senses": [],
-      "русский": "героиня",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main female character in a play, film, or book",
+          "body": [
+            "(героиня)"
+          ],
+          "examples": [
+            "The heroine leaves home in the very first scene.",
+            "Both heroines are played by the same actress.",
+            "She is a heroine you actually want to root for."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A woman admired for her courage or for something great she has done",
+          "body": [
+            "(героиня (отважная женщина))",
+            "---"
+          ],
+          "examples": [
+            "The nurse who stayed behind was hailed as a heroine.",
+            "She became a heroine of the civil rights movement.",
+            "The town honored two heroines of the rescue."
+          ]
+        }
+      ],
+      "русский": "героиня; героиня (отважная женщина)",
       "plural": "heroines",
       "countability": "countable",
       "contrast": "Sounds exactly like heroin, the drug."
@@ -659,14 +1026,43 @@
       "term": "gag",
       "ipa": "/ɡæɡ/",
       "respell": "GAG",
-      "meaning": "A joke or funny piece of business in a performance. ---",
+      "meaning": "Gag has 2 distinct senses.",
       "examples": [
         "The falling-ladder gag gets a laugh every night.",
         "Half the gags in the second act are physical.",
-        "It is an old gag, but it still works."
+        "It is an old gag, but it still works.",
+        "The robbers tied her hands and put a gag in her mouth.",
+        "He worked the gag loose with his tongue.",
+        "Police found ropes and gags in the trunk of the car."
       ],
-      "senses": [],
-      "русский": "гэг, комический трюк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A joke or funny piece of business in a performance",
+          "body": [
+            "(гэг, комический трюк)"
+          ],
+          "examples": [
+            "The falling-ladder gag gets a laugh every night.",
+            "Half the gags in the second act are physical.",
+            "It is an old gag, but it still works."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of cloth or tape put over someone's mouth to keep them from speaking",
+          "body": [
+            "(кляп)",
+            "---"
+          ],
+          "examples": [
+            "The robbers tied her hands and put a gag in her mouth.",
+            "He worked the gag loose with his tongue.",
+            "Police found ropes and gags in the trunk of the car."
+          ]
+        }
+      ],
+      "русский": "гэг, комический трюк; кляп",
       "plural": "gags",
       "countability": "countable"
     },
@@ -750,14 +1146,43 @@
       "term": "clown",
       "ipa": "/klaʊn/",
       "respell": "KLOWN",
-      "meaning": "A performer in funny makeup and costume who does silly things to make people laugh. ---",
+      "meaning": "Clown has 2 distinct senses.",
       "examples": [
         "A clown came out and made balloon animals.",
         "The clowns work the crowd between the animal acts.",
-        "He trained as a clown at a circus school in Florida."
+        "He trained as a clown at a circus school in Florida.",
+        "Quit acting like a clown and sit down.",
+        "Some clown parked across two spaces.",
+        "He was the class clown all through high school."
       ],
-      "senses": [],
-      "русский": "клоун",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A performer in funny makeup and costume who does silly things to make people laugh",
+          "body": [
+            "(клоун)"
+          ],
+          "examples": [
+            "A clown came out and made balloon animals.",
+            "The clowns work the crowd between the animal acts.",
+            "He trained as a clown at a circus school in Florida."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who behaves foolishly or cannot be taken seriously",
+          "body": [
+            "(клоун, шут (о человеке))",
+            "---"
+          ],
+          "examples": [
+            "Quit acting like a clown and sit down.",
+            "Some clown parked across two spaces.",
+            "He was the class clown all through high school."
+          ]
+        }
+      ],
+      "русский": "клоун; клоун, шут (о человеке)",
       "plural": "clowns",
       "countability": "countable"
     },
@@ -795,14 +1220,43 @@
       "term": "puppet",
       "ipa": "/ˈpʌpɪt/",
       "respell": "PUP-it",
-      "meaning": "A doll moved by hand or by strings to act out a story. ---",
+      "meaning": "Puppet has 2 distinct senses.",
       "examples": [
         "The puppet is worked by two people at once.",
         "All the puppets were made out of foam and cloth.",
-        "She talked to the puppet as if it were a person."
+        "She talked to the puppet as if it were a person.",
+        "The general installed a puppet in the capital.",
+        "Voters saw him as a puppet of the oil companies.",
+        "The council became a puppet of the mayor's office."
       ],
-      "senses": [],
-      "русский": "кукла (театральная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A doll moved by hand or by strings to act out a story",
+          "body": [
+            "(кукла (театральная))"
+          ],
+          "examples": [
+            "The puppet is worked by two people at once.",
+            "All the puppets were made out of foam and cloth.",
+            "She talked to the puppet as if it were a person."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or government secretly controlled by someone else",
+          "body": [
+            "(марионетка, ставленник)",
+            "---"
+          ],
+          "examples": [
+            "The general installed a puppet in the capital.",
+            "Voters saw him as a puppet of the oil companies.",
+            "The council became a puppet of the mayor's office."
+          ]
+        }
+      ],
+      "русский": "кукла (театральная); марионетка, ставленник",
       "plural": "puppets",
       "countability": "countable"
     },
@@ -1036,14 +1490,43 @@
       "term": "diction",
       "ipa": "/ˈdɪkʃən/",
       "respell": "DIK-shuhn",
-      "meaning": "How clearly a speaker or singer pronounces words. ---",
+      "meaning": "Diction has 2 distinct senses.",
       "examples": [
         "His diction is so clear you catch every word from the balcony.",
         "The class works on breathing and diction.",
-        "Her diction got sloppy when she rushed."
+        "Her diction got sloppy when she rushed.",
+        "The poem's plain diction makes it easy to read.",
+        "Her diction is formal, almost legal.",
+        "We were asked to compare the diction of the two speeches."
       ],
-      "senses": [],
-      "русский": "дикция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How clearly a speaker or singer pronounces words",
+          "body": [
+            "(дикция)"
+          ],
+          "examples": [
+            "His diction is so clear you catch every word from the balcony.",
+            "The class works on breathing and diction.",
+            "Her diction got sloppy when she rushed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The choice of words a writer or speaker uses",
+          "body": [
+            "(выбор слов, слог)",
+            "---"
+          ],
+          "examples": [
+            "The poem's plain diction makes it easy to read.",
+            "Her diction is formal, almost legal.",
+            "We were asked to compare the diction of the two speeches."
+          ]
+        }
+      ],
+      "русский": "дикция; выбор слов, слог",
       "countability": "uncountable"
     },
     {
@@ -1064,28 +1547,86 @@
       "term": "timing",
       "ipa": "/ˈtaɪmɪŋ/",
       "respell": "TY-ming",
-      "meaning": "The sense of exactly when to say or do something for the best effect. ---",
+      "meaning": "Timing has 2 distinct senses.",
       "examples": [
         "His comic timing is perfect.",
         "Good timing cannot really be taught.",
-        "The timing of the blackout was off by a beat."
+        "The timing of the blackout was off by a beat.",
+        "The timing of the announcement surprised everyone.",
+        "The timing of the layoffs, right before the holidays, made people angry.",
+        "The timing of the two storms was pure coincidence."
       ],
-      "senses": [],
-      "русский": "чувство времени, тайминг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sense of exactly when to say or do something for the best effect",
+          "body": [
+            "(чувство времени, тайминг)"
+          ],
+          "examples": [
+            "His comic timing is perfect.",
+            "Good timing cannot really be taught.",
+            "The timing of the blackout was off by a beat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The particular moment at which something happens or is done",
+          "body": [
+            "(выбор момента, время (события))",
+            "---"
+          ],
+          "examples": [
+            "The timing of the announcement surprised everyone.",
+            "The timing of the layoffs, right before the holidays, made people angry.",
+            "The timing of the two storms was pure coincidence."
+          ]
+        }
+      ],
+      "русский": "чувство времени, тайминг; выбор момента, время (события)",
       "countability": "uncountable"
     },
     {
       "term": "gesture",
       "ipa": "/ˈdʒɛstʃər/",
       "respell": "JES-chur",
-      "meaning": "A movement of the hands, head, or body that expresses something. ---",
+      "meaning": "Gesture has 2 distinct senses.",
       "examples": [
         "One small gesture told us everything about the character.",
         "The director cut half her gestures to make the scene simpler.",
-        "He made a gesture toward the door without looking at it."
+        "He made a gesture toward the door without looking at it.",
+        "Sending flowers was a nice gesture.",
+        "The company offered refunds as a gesture of goodwill.",
+        "Small gestures like that mean a lot to patients."
       ],
-      "senses": [],
-      "русский": "жест",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A movement of the hands, head, or body that expresses something",
+          "body": [
+            "(жест)"
+          ],
+          "examples": [
+            "One small gesture told us everything about the character.",
+            "The director cut half her gestures to make the scene simpler.",
+            "He made a gesture toward the door without looking at it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something done to show a feeling or an intention toward other people",
+          "body": [
+            "(жест (знак внимания, поступок))",
+            "---"
+          ],
+          "examples": [
+            "Sending flowers was a nice gesture.",
+            "The company offered refunds as a gesture of goodwill.",
+            "Small gestures like that mean a lot to patients."
+          ]
+        }
+      ],
+      "русский": "жест; жест (знак внимания, поступок)",
       "plural": "gestures",
       "countability": "countable"
     },
@@ -1138,14 +1679,43 @@
       "term": "aside",
       "ipa": "/əˈsaɪd/",
       "respell": "uh-SYD",
-      "meaning": "A remark a character makes to the audience that the other characters do not hear. ---",
+      "meaning": "Aside has 2 distinct senses.",
       "examples": [
         "He turns and delivers an aside right to the front row.",
         "The play is full of asides to the audience.",
-        "That one aside explains the whole plot."
+        "That one aside explains the whole plot.",
+        "As an aside, the coffee in that building is terrible.",
+        "He added a short aside about his childhood.",
+        "Her lecture was full of funny asides."
       ],
-      "senses": [],
-      "русский": "реплика в сторону",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A remark a character makes to the audience that the other characters do not hear",
+          "body": [
+            "(реплика в сторону)"
+          ],
+          "examples": [
+            "He turns and delivers an aside right to the front row.",
+            "The play is full of asides to the audience.",
+            "That one aside explains the whole plot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A remark that steps away from the main subject",
+          "body": [
+            "(отступление, попутное замечание)",
+            "---"
+          ],
+          "examples": [
+            "As an aside, the coffee in that building is terrible.",
+            "He added a short aside about his childhood.",
+            "Her lecture was full of funny asides."
+          ]
+        }
+      ],
+      "русский": "реплика в сторону; отступление, попутное замечание",
       "plural": "asides",
       "countability": "countable"
     },
@@ -1649,14 +2219,43 @@
       "term": "tier",
       "ipa": "/tɪr/",
       "respell": "TEER",
-      "meaning": "One of the levels of seating rising above the main floor. ---",
+      "meaning": "Tier has 2 distinct senses.",
       "examples": [
         "The top tier is the cheapest place to sit.",
         "The old opera house has four tiers of boxes.",
-        "We were on the second tier, right over the stage."
+        "We were on the second tier, right over the stage.",
+        "The basic plan is the cheapest tier of service.",
+        "She moved up to the top tier of management.",
+        "The league has three tiers, and the bottom teams drop down."
       ],
-      "senses": [],
-      "русский": "ярус (в зрительном зале)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the levels of seating rising above the main floor",
+          "body": [
+            "(ярус (в зрительном зале))"
+          ],
+          "examples": [
+            "The top tier is the cheapest place to sit.",
+            "The old opera house has four tiers of boxes.",
+            "We were on the second tier, right over the stage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of several levels in a system, each ranked above or below the others",
+          "body": [
+            "(уровень, разряд)",
+            "---"
+          ],
+          "examples": [
+            "The basic plan is the cheapest tier of service.",
+            "She moved up to the top tier of management.",
+            "The league has three tiers, and the bottom teams drop down."
+          ]
+        }
+      ],
+      "русский": "ярус (в зрительном зале); уровень, разряд",
       "plural": "tiers",
       "countability": "countable",
       "contrast": "Sounds like tear meaning a drop from the eye, not like tear meaning to rip."
@@ -1665,14 +2264,43 @@
       "term": "row",
       "ipa": "/roʊ/",
       "respell": "ROH",
-      "meaning": "A line of seats side by side in a theater. ---",
+      "meaning": "Row has 2 distinct senses.",
       "examples": [
         "Our seats are in row G, near the middle.",
         "The first three rows get splashed in this show.",
-        "She stood up and made everyone in the row move."
+        "She stood up and made everyone in the row move.",
+        "Put the totals in the bottom row.",
+        "Each row holds one customer's information.",
+        "Delete the empty rows before you print it."
       ],
-      "senses": [],
-      "русский": "ряд (кресел)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of seats side by side in a theater",
+          "body": [
+            "(ряд (кресел))"
+          ],
+          "examples": [
+            "Our seats are in row G, near the middle.",
+            "The first three rows get splashed in this show.",
+            "She stood up and made everyone in the row move."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A line of boxes running across a table or spreadsheet",
+          "body": [
+            "(строка (в таблице))",
+            "---"
+          ],
+          "examples": [
+            "Put the totals in the bottom row.",
+            "Each row holds one customer's information.",
+            "Delete the empty rows before you print it."
+          ]
+        }
+      ],
+      "русский": "ряд (кресел); строка (в таблице)",
       "plural": "rows",
       "countability": "countable",
       "contrast": "Here it rhymes with go. The same spelling said /raʊ/, rhyming with cow, means a noisy argument."
@@ -1742,14 +2370,43 @@
       "term": "sellout",
       "ipa": "/ˈsɛlaʊt/",
       "respell": "SEL-owt",
-      "meaning": "A performance for which every ticket has been sold. ---",
+      "meaning": "Sellout has 2 distinct senses.",
       "examples": [
         "Friday night was a complete sellout.",
         "The tour was a string of sellouts.",
-        "Nobody expected a sellout on a Tuesday."
+        "Nobody expected a sellout on a Tuesday.",
+        "Fans called the band sellouts after the commercial.",
+        "He'd rather stay poor than be a sellout.",
+        "There's a fine line between growing up and being a sellout."
       ],
-      "senses": [],
-      "русский": "аншлаг, полная продажа билетов",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A performance for which every ticket has been sold",
+          "body": [
+            "(аншлаг, полная продажа билетов)"
+          ],
+          "examples": [
+            "Friday night was a complete sellout.",
+            "The tour was a string of sellouts.",
+            "Nobody expected a sellout on a Tuesday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who gives up their principles for money or success",
+          "body": [
+            "(предатель своих принципов, продажный человек)",
+            "---"
+          ],
+          "examples": [
+            "Fans called the band sellouts after the commercial.",
+            "He'd rather stay poor than be a sellout.",
+            "There's a fine line between growing up and being a sellout."
+          ]
+        }
+      ],
+      "русский": "аншлаг, полная продажа билетов; предатель своих принципов, продажный человек",
       "plural": "sellouts",
       "countability": "countable"
     },
@@ -1865,14 +2522,58 @@
       "term": "preview",
       "ipa": "/ˈpriːvjuː/",
       "respell": "PREE-vyoo",
-      "meaning": "A performance given to a paying audience before the official opening. ---",
+      "meaning": "Preview has 3 distinct senses.",
       "examples": [
         "We saw it in preview, before the reviews came out.",
         "They cut ten minutes during previews.",
-        "The first preview is a week from Thursday."
+        "The first preview is a week from Thursday.",
+        "We got there early to catch the previews.",
+        "The preview gave away the whole ending.",
+        "There were twenty minutes of previews before the film started.",
+        "Reporters got a preview of the report on Monday.",
+        "The app shows a preview of the message.",
+        "Here's a quick preview of what we'll cover tomorrow."
       ],
-      "senses": [],
-      "русский": "предпремьерный показ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A performance given to a paying audience before the official opening",
+          "body": [
+            "(предпремьерный показ)"
+          ],
+          "examples": [
+            "We saw it in preview, before the reviews came out.",
+            "They cut ten minutes during previews.",
+            "The first preview is a week from Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short clip shown before a movie to advertise another one",
+          "body": [
+            "(трейлер, анонс фильма)"
+          ],
+          "examples": [
+            "We got there early to catch the previews.",
+            "The preview gave away the whole ending.",
+            "There were twenty minutes of previews before the film started."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An early look at something before it is generally available",
+          "body": [
+            "(предварительный просмотр, ознакомление заранее)",
+            "---"
+          ],
+          "examples": [
+            "Reporters got a preview of the report on Monday.",
+            "The app shows a preview of the message.",
+            "Here's a quick preview of what we'll cover tomorrow."
+          ]
+        }
+      ],
+      "русский": "предпремьерный показ; трейлер, анонс фильма; предварительный просмотр, ознакомление заранее",
       "plural": "previews",
       "countability": "countable"
     },
@@ -1880,14 +2581,58 @@
       "term": "revival",
       "ipa": "/rɪˈvaɪvəl/",
       "respell": "rih-VY-vuhl",
-      "meaning": "A new production of a play that was performed years earlier. ---",
+      "meaning": "Revival has 3 distinct senses.",
       "examples": [
         "The revival is better than the original production.",
         "There have been four revivals since the sixties.",
-        "It is a stripped-down revival with only six actors."
+        "It is a stripped-down revival with only six actors.",
+        "The neighborhood is enjoying a real revival.",
+        "There's been a revival of interest in vinyl records.",
+        "Cheap gas fueled a revival of big trucks.",
+        "A tent revival came through town every August.",
+        "Her grandfather preached at revivals across the South.",
+        "The church is holding a week-long revival."
       ],
-      "senses": [],
-      "русский": "возобновление постановки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A new production of a play that was performed years earlier",
+          "body": [
+            "(возобновление постановки)"
+          ],
+          "examples": [
+            "The revival is better than the original production.",
+            "There have been four revivals since the sixties.",
+            "It is a stripped-down revival with only six actors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A return of interest in something, or a return to strength after a decline",
+          "body": [
+            "(возрождение, оживление)"
+          ],
+          "examples": [
+            "The neighborhood is enjoying a real revival.",
+            "There's been a revival of interest in vinyl records.",
+            "Cheap gas fueled a revival of big trucks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A series of religious meetings held to reawaken people's faith",
+          "body": [
+            "(молитвенное собрание, религиозное пробуждение)",
+            "---"
+          ],
+          "examples": [
+            "A tent revival came through town every August.",
+            "Her grandfather preached at revivals across the South.",
+            "The church is holding a week-long revival."
+          ]
+        }
+      ],
+      "русский": "возобновление постановки; возрождение, оживление; молитвенное собрание, религиозное пробуждение",
       "plural": "revivals",
       "countability": "countable"
     },
@@ -1895,14 +2640,88 @@
       "term": "run",
       "ipa": "/rʌn/",
       "respell": "RUN",
-      "meaning": "The period during which a show is performed regularly. ---",
+      "meaning": "Run has 5 distinct senses.",
       "examples": [
         "The play had a six-month run downtown.",
         "Both runs were extended twice.",
-        "The show ends its run on the thirtieth."
+        "The show ends its run on the thirtieth.",
+        "I go for a run before work most days.",
+        "That was a slow five-mile run.",
+        "Her morning runs keep her sane.",
+        "They scored four runs in the seventh inning.",
+        "One more run would have tied the game.",
+        "He drove in the winning run.",
+        "The team is on a six-game winning run.",
+        "She's had a bad run of luck this year.",
+        "After a long run of warm days, it finally rained.",
+        "There's a run in my pantyhose.",
+        "Clear nail polish will stop the run from spreading.",
+        "She noticed the run right before the interview."
       ],
-      "senses": [],
-      "русский": "прокат, серия представлений",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The period during which a show is performed regularly",
+          "body": [
+            "(прокат, серия представлений)"
+          ],
+          "examples": [
+            "The play had a six-month run downtown.",
+            "Both runs were extended twice.",
+            "The show ends its run on the thirtieth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period of running for exercise",
+          "body": [
+            "(пробежка)"
+          ],
+          "examples": [
+            "I go for a run before work most days.",
+            "That was a slow five-mile run.",
+            "Her morning runs keep her sane."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A point scored in baseball when a player reaches home plate",
+          "body": [
+            "(ран, очко (в бейсболе))"
+          ],
+          "examples": [
+            "They scored four runs in the seventh inning.",
+            "One more run would have tied the game.",
+            "He drove in the winning run."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A stretch of time in which the same kind of thing keeps happening",
+          "body": [
+            "(полоса, серия (везения, неудач))"
+          ],
+          "examples": [
+            "The team is on a six-game winning run.",
+            "She's had a bad run of luck this year.",
+            "After a long run of warm days, it finally rained."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "A line where the threads have come apart in a stocking",
+          "body": [
+            "(спущенная петля, стрелка (на колготках))",
+            "---"
+          ],
+          "examples": [
+            "There's a run in my pantyhose.",
+            "Clear nail polish will stop the run from spreading.",
+            "She noticed the run right before the interview."
+          ]
+        }
+      ],
+      "русский": "прокат, серия представлений; пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); спущенная петля, стрелка (на колготках)",
       "plural": "runs",
       "countability": "countable"
     },
@@ -1910,14 +2729,73 @@
       "term": "hit",
       "ipa": "/hɪt/",
       "respell": "HIT",
-      "meaning": "A show that is very popular and successful. ---",
+      "meaning": "Hit has 4 distinct senses.",
       "examples": [
         "Nobody expected the play to be a hit.",
         "He wrote two hits and a lot of flops.",
-        "It was the biggest hit of the season."
+        "It was the biggest hit of the season.",
+        "He took a hard hit in the third quarter and left the game.",
+        "The car took a hit on the passenger side.",
+        "One more hit like that and the helmet would have cracked.",
+        "The video got a hundred thousand hits in one day.",
+        "Searching her name brings up only three hits.",
+        "Every hit on the page is counted in the traffic report.",
+        "Investigators believe the shooting was a professional hit.",
+        "He was arrested for ordering a hit on a rival.",
+        "The movie opens with a hit in a parking garage."
       ],
-      "senses": [],
-      "русский": "хит, успешная постановка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A show that is very popular and successful",
+          "body": [
+            "(хит, успешная постановка)"
+          ],
+          "examples": [
+            "Nobody expected the play to be a hit.",
+            "He wrote two hits and a lot of flops.",
+            "It was the biggest hit of the season."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A blow, or the impact of something striking something else",
+          "body": [
+            "(удар)"
+          ],
+          "examples": [
+            "He took a hard hit in the third quarter and left the game.",
+            "The car took a hit on the passenger side.",
+            "One more hit like that and the helmet would have cracked."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A visit to a website, or a result returned by a search",
+          "body": [
+            "(посещение сайта; результат поиска)"
+          ],
+          "examples": [
+            "The video got a hundred thousand hits in one day.",
+            "Searching her name brings up only three hits.",
+            "Every hit on the page is counted in the traffic report."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A murder arranged and paid for by someone",
+          "body": [
+            "(заказное убийство)",
+            "---"
+          ],
+          "examples": [
+            "Investigators believe the shooting was a professional hit.",
+            "He was arrested for ordering a hit on a rival.",
+            "The movie opens with a hit in a parking garage."
+          ]
+        }
+      ],
+      "русский": "хит, успешная постановка; удар; посещение сайта; результат поиска; заказное убийство",
       "plural": "hits",
       "countability": "countable"
     },

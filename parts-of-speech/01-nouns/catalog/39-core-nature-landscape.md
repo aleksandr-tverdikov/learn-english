@@ -103,76 +103,116 @@ A small, steep-sided valley cut into the ground by running water.
 ### peak
 
 **Pronunciation:** /piːk/ &middot; *PEEK*
-**Русский:** вершина, пик
+**Русский:** вершина, пик; пик, максимум
 **Plural:** *peaks*
 **Countability:** countable
 **Contrast:** Sounds exactly like *peek* (быстро взглянуть).
 
-The pointed top of a mountain.
+Peak has 2 distinct senses.
+
+**1. The pointed top of a mountain.** (вершина, пик)
 
 1. Three snowy *peaks* rise above the tree line.
 2. Clouds hid the *peak* all afternoon.
 3. From here you can see the highest *peak* in the state.
+
+**2. The highest point or level that something reaches.** (пик, максимум)
+
+4. Ticket sales hit their *peak* in early June.
+5. At its *peak*, the company employed four thousand people.
+6. Traffic reaches a *peak* right around five o'clock.
 
 ---
 
 ### summit
 
 **Pronunciation:** /ˈsʌmɪt/ &middot; *SUM-it*
-**Русский:** вершина (горы)
+**Русский:** вершина (горы); саммит, встреча на высшем уровне
 **Plural:** *summits*
 **Countability:** countable
 
-The highest point of a mountain.
+Summit has 2 distinct senses.
+
+**1. The highest point of a mountain.** (вершина (горы))
 
 1. They reached the *summit* just after sunrise.
 2. The last mile to the *summit* is all loose rock.
 3. Bad weather turned us back well below the *summit*.
+
+**2. A meeting between the leaders of governments or large organizations.** (саммит, встреча на высшем уровне)
+
+4. The two leaders met at a *summit* in Geneva.
+5. Climate *summits* draw thousands of delegates.
+6. Nothing was signed at the *summit*.
 
 ---
 
 ### ridge
 
 **Pronunciation:** /rɪdʒ/ &middot; *RIJ*
-**Русский:** хребет, гребень (горы)
+**Русский:** хребет, гребень (горы); выступ, ребро; конёк (крыши)
 **Plural:** *ridges*
 **Countability:** countable
 
-A long, narrow strip of high land along the top of hills or mountains.
+Ridge has 2 distinct senses.
+
+**1. A long, narrow strip of high land along the top of hills or mountains.** (хребет, гребень (горы))
 
 1. The trail follows the *ridge* for about four miles.
 2. The wind hits hard once you're up on the *ridge*.
 3. A line of pines grows along the *ridge*.
+
+**2. A long raised line along the surface of something.** (выступ, ребро; конёк (крыши))
+
+4. Snow slid off both sides of the roof *ridge*.
+5. You can feel the *ridges* on a corduroy jacket.
+6. The chip has *ridges* so it won't break in the dip.
 
 ---
 
 ### slope
 
 **Pronunciation:** /sloʊp/ &middot; *SLOHP*
-**Русский:** склон
+**Русский:** склон; угловой коэффициент (наклон прямой)
 **Plural:** *slopes*
 **Countability:** countable
 
-A surface of ground that goes up or down at an angle.
+Slope has 2 distinct senses.
+
+**1. A surface of ground that goes up or down at an angle.** (склон)
 
 1. Wildflowers cover the southern *slope* in June.
 2. The *slope* was too steep to drive up.
 3. They planted grapes on the *slopes* above the lake.
+
+**2. In math, a number showing how steeply a line rises or falls.** (угловой коэффициент (наклон прямой))
+
+4. Find the *slope* of the line through those two points.
+5. A horizontal line has a *slope* of zero.
+6. The two graphs have the same *slope* but different starting points.
 
 ---
 
 ### bluff
 
 **Pronunciation:** /blʌf/ &middot; *BLUF*
-**Русский:** обрыв, крутой берег
+**Русский:** обрыв, крутой берег; блеф, обман
 **Plural:** *bluffs*
 **Countability:** countable
 
-A steep cliff or bank, especially one above a river or the sea.
+Bluff has 2 distinct senses.
+
+**1. A steep cliff or bank, especially one above a river or the sea.** (обрыв, крутой берег)
 
 1. The old lighthouse stands on a *bluff* above the bay.
 2. Erosion has eaten away part of the *bluff*.
 3. We watched the sunset from the *bluffs*.
+
+**2. An attempt to fool someone by pretending you will do something.** (блеф, обман)
+
+4. His threat to quit was just a *bluff*.
+5. She called his *bluff* and he backed down.
+6. The whole demand turned out to be a *bluff*.
 
 ---
 
@@ -271,15 +311,41 @@ The sloping side of a hill.
 ### range
 
 **Pronunciation:** /reɪndʒ/ &middot; *RAYNJ*
-**Русский:** горная цепь, хребет
+**Русский:** горная цепь, хребет; диапазон; ассортимент, круг (вопросов); кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)
 **Plural:** *ranges*
 **Countability:** countable
 
-A line or group of mountains or hills.
+Range has 5 distinct senses.
+
+**1. A line or group of mountains or hills.** (горная цепь, хребет)
 
 1. The *range* runs north to south for three hundred miles.
 2. Snow stays on the higher *ranges* into July.
 3. A storm was building over the coastal *range*.
+
+**2. The space between the lowest and highest amounts, or the whole set of things covered.** (диапазон; ассортимент, круг (вопросов))
+
+4. Houses here are well out of our price *range*.
+5. The store carries a wide *range* of hand tools.
+6. The class covers a broad *range* of topics.
+
+**3. A large kitchen appliance with burners on top and an oven below.** (кухонная плита)
+
+7. She cooks on a six-burner gas *range*.
+8. The new *range* barely fit through the kitchen door.
+9. Wipe down the *range* after you fry anything.
+
+**4. An outdoor area set aside for shooting practice or for hitting golf balls.** (стрельбище; тренировочное поле для гольфа)
+
+10. He spends Saturday mornings at the shooting *range*.
+11. We hit a bucket of balls at the driving *range*.
+12. The *range* is closed until the new backstop goes in.
+
+**5. The greatest distance something can travel or reach.** (дальность (хода, полёта, выстрела))
+
+13. The electric car has a *range* of about 250 miles.
+14. The deer was well within *range*.
+15. These little radios have a *range* of two miles.
 
 ---
 
@@ -301,14 +367,34 @@ A mass of earth and rock that slides suddenly down a slope.
 ### ground
 
 **Pronunciation:** /ɡraʊnd/ &middot; *GROWND*
-**Русский:** земля, поверхность земли
+**Русский:** земля, поверхность земли; основание, причина, повод; территория вокруг здания, парк при усадьбе; кофейная гуща
 **Countability:** uncountable
 
-The solid surface of the earth that you walk on.
+Ground has 4 distinct senses.
+
+**1. The solid surface of the earth that you walk on.** (земля, поверхность земли)
 
 1. The *ground* was still frozen in early April.
 2. He dropped his keys on the *ground*.
 3. Roots spread out just under the *ground*.
+
+**2. A reason or basis for an action, a belief, or a decision.** (основание, причина, повод)
+
+4. Lying on the application is *grounds* for dismissal.
+5. She had good *grounds* for the complaint.
+6. On what *grounds* was the case thrown out?
+
+**3. The land and gardens that belong to a large building.** (территория вокруг здания, парк при усадьбе)
+
+7. Visitors are welcome to walk the hospital *grounds*.
+8. The *grounds* stay open until sunset.
+9. They held the wedding on the *grounds* of an old estate.
+
+**4. The wet bits of coffee left in the pot after brewing.** (кофейная гуща)
+
+10. Dump the coffee *grounds* in the compost.
+11. There were *grounds* at the bottom of my cup.
+12. She spreads used *grounds* around the roses.
 
 ---
 
@@ -337,14 +423,28 @@ Earth has 2 distinct senses.
 ### land
 
 **Pronunciation:** /lænd/ &middot; *LAND*
-**Русский:** земля, суша
+**Русский:** земля, суша; земля, земельный участок; страна, край
 **Countability:** uncountable
 
-The solid part of the earth's surface, as opposed to the sea.
+Land has 3 distinct senses.
+
+**1. The solid part of the earth's surface, as opposed to the sea.** (земля, суша)
 
 1. After six weeks at sea they finally sighted *land*.
 2. His family has farmed this *land* for a century.
 3. Most of the *land* east of the river is protected.
+
+**2. Ground that someone owns, farms, or builds on.** (земля, земельный участок)
+
+4. They bought forty acres of *land* outside town.
+5. His family has farmed this *land* for a century.
+6. The company owns *land* on both sides of the river.
+
+**3. A country or region.** (страна, край)
+
+7. America is still called a *land* of opportunity.
+8. The story is set in a distant *land*.
+9. Her grandparents came from a *land* she has never seen.
 
 ---
 
@@ -381,30 +481,46 @@ Everything you can see when you look across an area of land.
 ### scenery
 
 **Pronunciation:** /ˈsiːnəri/ &middot; *SEE-nuh-ree*
-**Русский:** пейзаж, живописные виды
+**Русский:** пейзаж, живописные виды; декорации
 **Countability:** uncountable
 
-The natural features of an area, especially when they are beautiful.
+Scenery has 2 distinct senses.
+
+**1. The natural features of an area, especially when they are beautiful.** (пейзаж, живописные виды)
 
 1. The drive is slow, but the *scenery* is worth it.
 2. We kept stopping to take pictures of the *scenery*.
 3. You get better *scenery* on the north side of the lake.
+
+**2. The painted backgrounds and structures used on a theater stage.** (декорации)
+
+4. Volunteers spent the weekend painting *scenery*.
+5. The *scenery* for the second act rolls on from the wings.
+6. They store the old *scenery* in a warehouse behind the theater.
 
 ---
 
 ### horizon
 
 **Pronunciation:** /həˈraɪzən/ &middot; *huh-RY-zuhn*
-**Русский:** горизонт
+**Русский:** горизонт; кругозор, горизонты
 **Plural:** *horizons*
 **Countability:** countable
 **Contrast:** Stressed on the second syllable: huh-RY-zuhn, not HOR-ih-zuhn.
 
-The line where the land or sea seems to meet the sky.
+Horizon has 2 distinct senses.
+
+**1. The line where the land or sea seems to meet the sky.** (горизонт)
 
 1. A ship appeared on the *horizon* just before dark.
 2. The sun was already below the *horizon*.
 3. You can see storms coming from miles off on a flat *horizon*.
+
+**2. The range of a person's knowledge, interests, and experience.** (кругозор, горизонты)
+
+4. Travel broadened her *horizons*.
+5. A year abroad will widen your *horizons*.
+6. The new job opened up *horizons* he had never considered.
 
 ---
 
@@ -503,15 +619,41 @@ A wide, flat grassland in a hot region, with a few scattered trees.
 ### field
 
 **Pronunciation:** /fiːld/ &middot; *FEELD*
-**Русский:** поле
+**Русский:** поле; область, сфера деятельности; поле, площадка (спортивная); поле (в форме, базе данных); поле (магнитное, гравитационное)
 **Plural:** *fields*
 **Countability:** countable
 
-An open piece of land, usually used for growing crops or keeping animals.
+Field has 5 distinct senses.
+
+**1. An open piece of land, usually used for growing crops or keeping animals.** (поле)
 
 1. The *field* behind the barn is planted in soybeans.
 2. Cows were standing in the far *field*.
 3. We cut through a *field* to get back to the road.
+
+**2. A subject or area of work that someone specializes in.** (область, сфера деятельности)
+
+4. She's a leading expert in her *field*.
+5. The conference brings together people from several *fields*.
+6. He left law for a *field* with better hours.
+
+**3. A marked area of ground where a sport is played.** (поле, площадка (спортивная))
+
+7. The team took the *field* to a roar from the crowd.
+8. Rain left the *field* too muddy to play on.
+9. The high school built two new soccer *fields*.
+
+**4. A space on a form or screen where you type one piece of information.** (поле (в форме, базе данных))
+
+10. Fill in every required *field* before you hit submit.
+11. Leave the middle name *field* blank.
+12. The database has separate *fields* for phone and email.
+
+**5. The area in which a force such as magnetism or gravity acts.** (поле (магнитное, гравитационное))
+
+13. Iron filings show the shape of a magnetic *field*.
+14. The satellite measures the earth's gravitational *field*.
+15. Strong magnetic *fields* can wipe a hotel key card.
 
 ---
 
@@ -610,15 +752,23 @@ A large area thickly covered with trees.
 ### jungle
 
 **Pronunciation:** /ˈdʒʌŋɡəl/ &middot; *JUNG-guhl*
-**Русский:** джунгли
+**Русский:** джунгли; джунгли (перен.), дебри, путаница
 **Plural:** *jungles*
 **Countability:** countable
 
-A thick tropical forest with dense plants growing close together.
+Jungle has 2 distinct senses.
+
+**1. A thick tropical forest with dense plants growing close together.** (джунгли)
 
 1. The village is a two-day walk into the *jungle*.
 2. Everything in the *jungle* was wet and green.
 3. They cleared a strip of *jungle* for a landing strip.
+
+**2. A confusing tangle of things that is hard to find your way through.** (джунгли (перен.), дебри, путаница)
+
+4. The tax code is a *jungle*.
+5. Her desk is a *jungle* of cords and paper.
+6. Getting a permit means fighting through a *jungle* of forms.
 
 ---
 
@@ -708,31 +858,47 @@ An open space in a forest where there are no trees.
 ### trail
 
 **Pronunciation:** /treɪl/ &middot; *TRAYL*
-**Русский:** тропа, тропинка
+**Русский:** тропа, тропинка; след (по которому идут)
 **Plural:** *trails*
 **Countability:** countable
 
-A rough path through the countryside or the woods.
+Trail has 2 distinct senses.
+
+**1. A rough path through the countryside or the woods.** (тропа, тропинка)
 
 1. The *trail* to the falls is about two miles.
 2. Bikes aren't allowed on this *trail*.
 3. Several *trails* start from the same parking lot.
+
+**2. A line of marks, smells, or objects left behind that can be followed.** (след (по которому идут))
+
+4. The dog picked up the *trail* near the creek.
+5. He left a *trail* of muddy footprints down the hall.
+6. Investigators followed a paper *trail* to the account.
 
 ---
 
 ### sea
 
 **Pronunciation:** /siː/ &middot; *SEE*
-**Русский:** море
+**Русский:** море; море (перен.), масса
 **Plural:** *seas*
 **Countability:** countable
 **Contrast:** Sounds exactly like *see* (видеть).
 
-A large area of salt water, smaller than an ocean.
+Sea has 2 distinct senses.
+
+**1. A large area of salt water, smaller than an ocean.** (море)
 
 1. The *sea* was rough all week.
 2. Their house looks out over the *sea*.
 3. He spent thirty years at *sea*.
+
+**2. A very large quantity of something spread out in front of you.** (море (перен.), масса)
+
+4. He looked out from the stage at a *sea* of faces.
+5. The parking lot was a *sea* of red taillights.
+6. We waded through a *sea* of paperwork to get the permit.
 
 ---
 
@@ -799,15 +965,29 @@ A large natural stream of water flowing toward the sea or a lake.
 ### stream
 
 **Pronunciation:** /striːm/ &middot; *STREEM*
-**Русский:** ручей, поток
+**Русский:** ручей, поток; поток; трансляция, стрим
 **Plural:** *streams*
 **Countability:** countable
 
-A small, narrow river.
+Stream has 3 distinct senses.
+
+**1. A small, narrow river.** (ручей, поток)
 
 1. A cold *stream* runs behind the cabin.
 2. We crossed three *streams* on the way up.
 3. The *stream* dries up completely by August.
+
+**2. A steady flow of people, vehicles, or things.** (поток)
+
+4. A steady *stream* of customers came through the door.
+5. There was an endless *stream* of cars on the highway.
+6. The office got a *stream* of complaints all week.
+
+**3. A live video or audio broadcast sent over the internet.** (трансляция, стрим)
+
+7. Thousands watched the *stream* of the concert.
+8. The *stream* kept freezing during the game.
+9. He starts his *stream* around eight every night.
 
 ---
 
@@ -876,15 +1056,23 @@ A stretch of river where the water runs fast over rocks.
 ### canal
 
 **Pronunciation:** /kəˈnæl/ &middot; *kuh-NAL*
-**Русский:** канал (искусственный)
+**Русский:** канал (искусственный); канал (в теле), проход
 **Plural:** *canals*
 **Countability:** countable
 
-A long, narrow channel dug to carry water or boats.
+Canal has 2 distinct senses.
+
+**1. A long, narrow channel dug to carry water or boats.** (канал (искусственный))
 
 1. Barges still move grain along the *canal*.
 2. The *canal* was drained for repairs.
 3. A network of *canals* irrigates the whole valley.
+
+**2. A narrow tube or passage inside the body.** (канал (в теле), проход)
+
+4. The dentist says I need a root *canal*.
+5. Water got trapped in my ear *canal* after swimming.
+6. A tiny *canal* drains tears from the eye into the nose.
 
 ---
 
@@ -907,15 +1095,23 @@ A lake, often man-made, where water is stored for later use.
 ### basin
 
 **Pronunciation:** /ˈbeɪsən/ &middot; *BAY-suhn*
-**Русский:** бассейн (реки), котловина
+**Русский:** бассейн (реки), котловина; таз, миска для воды
 **Plural:** *basins*
 **Countability:** countable
 
-The whole area of land that drains into a particular river, or a wide hollow in the land.
+Basin has 2 distinct senses.
+
+**1. The whole area of land that drains into a particular river, or a wide hollow in the land.** (бассейн (реки), котловина)
 
 1. Snowmelt from the whole *basin* feeds this river.
 2. The town sits in a shallow *basin* between two ridges.
 3. Rainfall across the *basin* has dropped five years running.
+
+**2. A wide round bowl used for holding water.** (таз, миска для воды)
+
+4. She filled a *basin* with warm water.
+5. The nurse set a *basin* beside the bed.
+6. He rinsed the brushes in a shallow *basin*.
 
 ---
 
@@ -968,15 +1164,23 @@ A natural spring that shoots hot water and steam into the air.
 ### bay
 
 **Pronunciation:** /beɪ/ &middot; *BAY*
-**Русский:** залив, бухта
+**Русский:** залив, бухта; отсек, бокс (помещения)
 **Plural:** *bays*
 **Countability:** countable
 
-A part of the sea or a lake that curves into the land.
+Bay has 2 distinct senses.
+
+**1. A part of the sea or a lake that curves into the land.** (залив, бухта)
 
 1. Sailboats filled the *bay* all weekend.
 2. Fog rolls in across the *bay* most evenings.
 3. Small *bays* along this coast make good anchorages.
+
+**2. A separate section or compartment of a building, ship, or vehicle.** (отсек, бокс (помещения))
+
+4. The truck backed up to the loading *bay*.
+5. All three service *bays* at the garage were full.
+6. The injured sailor was carried down to the sick *bay*.
 
 ---
 
@@ -998,15 +1202,23 @@ A small sheltered bay.
 ### inlet
 
 **Pronunciation:** /ˈɪnlɛt/ &middot; *IN-let*
-**Русский:** узкий залив, бухта
+**Русский:** узкий залив, бухта; впускное отверстие, впуск
 **Plural:** *inlets*
 **Countability:** countable
 
-A narrow strip of water reaching from the sea into the land.
+Inlet has 2 distinct senses.
+
+**1. A narrow strip of water reaching from the sea into the land.** (узкий залив, бухта)
 
 1. An *inlet* cuts a mile inland from the harbor.
 2. Fishing boats tie up in the *inlet*.
 3. The tide runs fast through the narrow *inlet*.
+
+**2. An opening through which liquid or air enters a machine.** (впускное отверстие, впуск)
+
+4. Check that the water *inlet* isn't clogged.
+5. Cold air is drawn in through the *inlet* on the side.
+6. The pump has an *inlet* at the bottom and an outlet on top.
 
 ---
 
@@ -1175,62 +1387,112 @@ A narrow passage of water joining two larger areas of sea.
 ### channel
 
 **Pronunciation:** /ˈtʃænəl/ &middot; *CHAN-uhl*
-**Русский:** пролив; русло, фарватер
+**Русский:** пролив; русло, фарватер; телеканал; канал (связи, сбыта)
 **Plural:** *channels*
 **Countability:** countable
 
-A narrow stretch of water between two seas, or the deeper part of a river where boats pass.
+Channel has 3 distinct senses.
+
+**1. A narrow stretch of water between two seas, or the deeper part of a river where boats pass.** (пролив; русло, фарватер)
 
 1. The ferry crosses the *channel* in about an hour.
 2. Dredgers keep the shipping *channel* open.
 3. Storms have shifted the *channel* twice in ten years.
+
+**2. A television or radio station, and the number you tune to for it.** (телеканал)
+
+4. What *channel* is the game on?
+5. He flipped through the *channels* twice and gave up.
+6. The news *channel* has run the same story all day.
+
+**3. An official route through which information, money, or goods pass.** (канал (связи, сбыта))
+
+7. Complaints have to go through the proper *channels*.
+8. The company sells through three different *channels*.
+9. We heard about it through unofficial *channels*.
 
 ---
 
 ### tide
 
 **Pronunciation:** /taɪd/ &middot; *TYD*
-**Русский:** прилив и отлив
+**Русский:** прилив и отлив; тенденция, ход (событий, настроений)
 **Plural:** *tides*
 **Countability:** countable
 **Contrast:** Sounds exactly like *tied* (связанный).
 
-The regular rise and fall of the sea during the day.
+Tide has 2 distinct senses.
+
+**1. The regular rise and fall of the sea during the day.** (прилив и отлив)
 
 1. The *tide* comes in fast here, so watch your gear.
 2. We launched the boat at high *tide*.
 3. The *tides* are strongest around a full moon.
+
+**2. The general direction in which opinion or events are moving.** (тенденция, ход (событий, настроений))
+
+4. The *tide* of public opinion turned against the war.
+5. Two early wins turned the *tide* for the team.
+6. He was swimming against the *tide* of company policy.
 
 ---
 
 ### wave
 
 **Pronunciation:** /weɪv/ &middot; *WAYV*
-**Русский:** волна
+**Русский:** волна; взмах руки, приветственный жест; волна, всплеск (событий, явлений); волна (звуковая, световая, радиоволна)
 **Plural:** *waves*
 **Countability:** countable
 
-A raised line of water moving across the surface of the sea.
+Wave has 4 distinct senses.
+
+**1. A raised line of water moving across the surface of the sea.** (волна)
 
 1. *Waves* were breaking over the seawall.
 2. One *wave* knocked him right off the board.
 3. The *waves* are usually flat in the morning.
+
+**2. A movement of the raised hand used to greet someone or say goodbye.** (взмах руки, приветственный жест)
+
+4. She gave us a quick *wave* from the car.
+5. He said goodbye with a *wave* and walked off.
+6. A friendly *wave* from a neighbor made her whole day.
+
+**3. A sudden increase in something that spreads through a place or a group.** (волна, всплеск (событий, явлений))
+
+7. A *wave* of layoffs hit the whole industry.
+8. The city is bracing for another heat *wave*.
+9. *Waves* of protesters filled the square.
+
+**4. A form in which energy such as sound, light, or a radio signal travels.** (волна (звуковая, световая, радиоволна))
+
+10. Sound *waves* travel faster through water than through air.
+11. Radio *waves* carry the signal to the tower.
+12. Doctors use sound *waves* to look at the baby.
 
 ---
 
 ### current
 
 **Pronunciation:** /ˈkɜːrənt/ &middot; *KUR-uhnt*
-**Русский:** течение
+**Русский:** течение; электрический ток
 **Plural:** *currents*
 **Countability:** countable
 **Contrast:** Sounds exactly like *currant* (смородина).
 
-A steady flow of water moving in one direction in a river or the sea.
+Current has 2 distinct senses.
+
+**1. A steady flow of water moving in one direction in a river or the sea.** (течение)
 
 1. The *current* is strong in the middle of the river.
 2. Swimmers get pulled out by the *current* every summer.
 3. Warm ocean *currents* keep this coast mild.
+
+**2. A flow of electricity through a wire.** (электрический ток)
+
+4. Shut off the breaker so there's no *current* in the wire.
+5. The device draws very little *current*.
+6. A loose connection can interrupt the *current*.
 
 ---
 
@@ -1267,15 +1529,29 @@ A hard substance formed in warm seas by tiny animals, often brightly colored.
 ### shell
 
 **Pronunciation:** /ʃɛl/ &middot; *SHEL*
-**Русский:** раковина, ракушка
+**Русский:** раковина, ракушка; снаряд; остов, коробка (здания)
 **Plural:** *shells*
 **Countability:** countable
 
-The hard outer covering of a sea creature such as a clam or a snail.
+Shell has 3 distinct senses.
+
+**1. The hard outer covering of a sea creature such as a clam or a snail.** (раковина, ракушка)
 
 1. She collected *shells* along the waterline.
 2. A crab was living in an empty *shell*.
 3. The beach is covered in broken *shells*.
+
+**2. A large explosive projectile fired from a big gun.** (снаряд)
+
+4. *Shells* landed on the far side of the river all night.
+5. A *shell* took out the top floor of the building.
+6. The museum has an unexploded *shell* from the war.
+
+**3. The outer walls of a building left standing after fire or ruin.** (остов, коробка (здания))
+
+7. Only the brick *shell* of the factory is left.
+8. The fire left a blackened *shell* where the store had been.
+9. They built a new house inside the old *shell*.
 
 ---
 
@@ -1388,16 +1664,30 @@ A large mass of snow and ice that suddenly slides down a mountain.
 ### island
 
 **Pronunciation:** /ˈaɪlənd/ &middot; *Y-luhnd*
-**Русский:** остров
+**Русский:** остров; островок безопасности, разделительный островок; кухонный остров
 **Plural:** *islands*
 **Countability:** countable
 **Contrast:** The *s* is silent: Y-luhnd.
 
-A piece of land completely surrounded by water.
+Island has 3 distinct senses.
+
+**1. A piece of land completely surrounded by water.** (остров)
 
 1. The *island* is a forty-minute ferry ride from the mainland.
 2. There are hundreds of small *islands* in the bay.
 3. Only twelve people live on the *island* year-round.
+
+**2. A raised area in the middle of a road that divides the lanes or shelters people crossing.** (островок безопасности, разделительный островок)
+
+4. Wait on the *island* until the light changes.
+5. The truck jumped the curb and hit the concrete *island*.
+6. A row of shrubs runs down the *island* between the lanes.
+
+**3. A freestanding counter unit standing in the middle of a kitchen.** (кухонный остров)
+
+7. The kids do their homework at the kitchen *island*.
+8. We put the sink in the *island*.
+9. There are four stools along one side of the *island*.
 
 ---
 
@@ -1449,16 +1739,30 @@ The imaginary line around the middle of the earth, halfway between the poles.
 ### pole
 
 **Pronunciation:** /poʊl/ &middot; *POHL*
-**Русский:** полюс
+**Русский:** полюс; шест, столб; полюс (магнита, батареи)
 **Plural:** *poles*
 **Countability:** countable
 **Contrast:** Sounds exactly like *poll* (опрос).
 
-Either of the two points at the very top and bottom of the earth.
+Pole has 3 distinct senses.
+
+**1. Either of the two points at the very top and bottom of the earth.** (полюс)
 
 1. Ice is melting at both *poles*.
 2. The expedition reached the *pole* in January.
 3. A compass needle points toward the magnetic *pole*.
+
+**2. A long slender rod of wood or metal, usually standing upright.** (шест, столб)
+
+4. A crew was replacing a rotten telephone *pole*.
+5. He hung the flag from a *pole* on the porch.
+6. Two tent *poles* snapped in the wind.
+
+**3. Either end of a magnet or battery, where the force is concentrated.** (полюс (магнита, батареи))
+
+7. Two magnets snap together unless you turn one *pole* around.
+8. Attach the red clamp to the positive *pole* of the battery.
+9. Opposite *poles* attract each other.
 
 ---
 
@@ -1480,29 +1784,45 @@ A large area of a country or of the world with its own character.
 ### border
 
 **Pronunciation:** /ˈbɔːrdər/ &middot; *BOR-dur*
-**Русский:** граница
+**Русский:** граница; кайма, бордюр
 **Plural:** *borders*
 **Countability:** countable
 
-The line separating two countries, states, or areas.
+Border has 2 distinct senses.
+
+**1. The line separating two countries, states, or areas.** (граница)
 
 1. The river forms the *border* between the two states.
 2. We crossed the *border* around midnight.
 3. Both *borders* run through heavy forest.
+
+**2. A decorative strip or band running along the edge of something.** (кайма, бордюр)
+
+4. The tablecloth has a red *border* stitched along the edge.
+5. She picked wallpaper with a floral *border* near the ceiling.
+6. Photos printed with white *borders* look old-fashioned now.
 
 ---
 
 ### nature
 
 **Pronunciation:** /ˈneɪtʃər/ &middot; *NAY-chur*
-**Русский:** природа
+**Русский:** природа; характер, натура; сущность
 **Countability:** uncountable
 
-The physical world of plants, animals, and landscapes, apart from people.
+Nature has 2 distinct senses.
+
+**1. The physical world of plants, animals, and landscapes, apart from people.** (природа)
 
 1. He'd rather spend a weekend out in *nature* than in a city.
 2. *Nature* takes an abandoned field back within a few years.
 3. Kids need more time outdoors in *nature*.
+
+**2. The basic character or qualities of a person or thing.** (характер, натура; сущность)
+
+4. It isn't in his *nature* to hold a grudge.
+5. The *nature* of the job changed completely after the merger.
+6. Cats are curious by *nature*.
 
 ---
 
@@ -1612,32 +1932,48 @@ A sudden violent shaking of the ground.
 ### flood
 
 **Pronunciation:** /flʌd/ &middot; *FLUD*
-**Русский:** наводнение, паводок
+**Русский:** наводнение, паводок; поток, лавина (звонков, писем)
 **Plural:** *floods*
 **Countability:** countable
 **Contrast:** The *oo* is /ʌ/ as in *blood*: FLUD, not FLOOD.
 
-A large amount of water covering land that is usually dry.
+Flood has 2 distinct senses.
+
+**1. A large amount of water covering land that is usually dry.** (наводнение, паводок)
 
 1. The *flood* reached the second floor of some houses.
 2. Spring *floods* are normal along this river.
 3. *Flood* damage ran into the millions.
+
+**2. A very large number of things arriving at the same time.** (поток, лавина (звонков, писем))
+
+4. The station got a *flood* of calls after the story aired.
+5. A *flood* of applications came in overnight.
+6. She faced *floods* of questions from reporters.
 
 ---
 
 ### drought
 
 **Pronunciation:** /draʊt/ &middot; *DROWT*
-**Русский:** засуха
+**Русский:** засуха; затяжной период отсутствия (успехов, чего-либо нужного)
 **Plural:** *droughts*
 **Countability:** countable
 **Contrast:** The *gh* is silent and *ou* is /aʊ/: DROWT, rhyming with *out*.
 
-A long period with little or no rain.
+Drought has 2 distinct senses.
+
+**1. A long period with little or no rain.** (засуха)
 
 1. The *drought* has lasted three summers now.
 2. Reservoirs are low after a year of *drought*.
 3. Farmers lost most of the crop to the *drought*.
+
+**2. A long period without something that is needed or wanted.** (затяжной период отсутствия (успехов, чего-либо нужного))
+
+4. The team ended a nine-game scoring *drought*.
+5. It's been a *drought* of good news around here.
+6. The studio is coming off a two-year *drought* of hits.
 
 ---
 

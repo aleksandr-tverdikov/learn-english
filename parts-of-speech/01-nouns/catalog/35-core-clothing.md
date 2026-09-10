@@ -134,30 +134,52 @@ A knitted sweater that opens down the front and fastens with buttons.
 ### jacket
 
 **Pronunciation:** /ˈdʒækɪt/ &middot; *JAK-it*
-**Русский:** куртка, пиджак
+**Русский:** куртка, пиджак; суперобложка; конверт (пластинки)
 **Plural:** *jackets*
 **Countability:** countable
 
-A short coat worn on the upper body.
+Jacket has 2 distinct senses.
+
+**1. A short coat worn on the upper body.** (куртка, пиджак)
 
 1. Grab your *jacket*, it's windy out.
 2. He keeps his keys in his *jacket* pocket.
 3. Both *jackets* were left on the back of the chair.
+
+**2. A paper or cardboard cover that goes around a book or a record.** (суперобложка; конверт (пластинки))
+
+4. The dust *jacket* was torn, but the book was fine.
+5. His photo is on the back of the *jacket*.
+6. The album *jackets* were stacked against the wall.
 
 ---
 
 ### coat
 
 **Pronunciation:** /koʊt/ &middot; *KOHT*
-**Русский:** пальто
+**Русский:** пальто; слой (краски, лака); шерсть, шкура (животного)
 **Plural:** *coats*
 **Countability:** countable
 
-A long outer garment worn over other clothes for warmth.
+Coat has 3 distinct senses.
+
+**1. A long outer garment worn over other clothes for warmth.** (пальто)
 
 1. She hung her *coat* by the door.
 2. The *coats* are in the front closet.
 3. You'll need a heavier *coat* in Chicago.
+
+**2. A layer of paint or another substance spread over a surface.** (слой (краски, лака))
+
+4. The door needs a second *coat* of paint.
+5. Give the table a thin *coat* of varnish.
+6. Two *coats* should cover the old color.
+
+**3. The fur or hair that covers an animal's body.** (шерсть, шкура (животного))
+
+7. The dog has a thick winter *coat*.
+8. Brush the horse's *coat* until it shines.
+9. Their *coats* turn white in the fall.
 
 ---
 
@@ -270,16 +292,36 @@ A tailored jacket worn as part of an outfit but not with matching pants.
 ### suit
 
 **Pronunciation:** /suːt/ &middot; *SOOT*
-**Русский:** костюм (деловой)
+**Русский:** костюм (деловой); масть (в картах); иск, судебное дело; начальство, «пиджаки»
 **Plural:** *suits*
 **Countability:** countable
 **Contrast:** Say SOOT in American English, and don't confuse it with suite /swiːt/, a set of rooms.
 
-A set of matching jacket and pants or skirt worn together.
+Suit has 4 distinct senses.
+
+**1. A set of matching jacket and pants or skirt worn together.** (костюм (деловой))
 
 1. He wore a dark gray *suit* to the wedding.
 2. Her *suits* are all custom made.
 3. You don't need a *suit* for this interview.
+
+**2. One of the four sets a deck of playing cards is divided into.** (масть (в картах))
+
+4. You have to follow *suit* if you can.
+5. Hearts is the strongest *suit* this round.
+6. Sort your cards by *suit* first.
+
+**3. A case brought against someone in a court of law.** (иск, судебное дело)
+
+7. They filed a *suit* against the landlord.
+8. The *suit* was settled out of court.
+9. Three former workers joined the *suit*.
+
+**4. An executive or manager, seen as distant from ordinary workers.** (начальство, «пиджаки»)
+
+10. The *suits* upstairs killed the project.
+11. A couple of *suits* from headquarters showed up.
+12. He quit the band and became a *suit*.
 
 ---
 
@@ -317,15 +359,23 @@ A set of clothes worn by all the members of a school, team, or organization.
 ### dress
 
 **Pronunciation:** /drɛs/ &middot; *DRESS*
-**Русский:** платье
+**Русский:** платье; одежда, наряд (определённого стиля)
 **Plural:** *dresses*
 **Countability:** countable
 
-A one-piece garment for women that covers the body and part of the legs.
+Dress has 2 distinct senses.
+
+**1. A one-piece garment for women that covers the body and part of the legs.** (платье)
 
 1. She bought a red *dress* for the party.
 2. All the bridesmaids wore the same *dress*.
 3. These *dresses* are on the clearance rack.
+
+**2. Clothing of a particular kind or style.** (одежда, наряд (определённого стиля))
+
+4. The invitation said formal *dress*.
+5. The dancers wore traditional *dress*.
+6. Casual *dress* is fine for the picnic.
 
 ---
 
@@ -393,15 +443,23 @@ A sweater or shirt with a high collar that folds over and covers the neck.
 ### jersey
 
 **Pronunciation:** /ˈdʒɜːrzi/ &middot; *JUR-zee*
-**Русский:** спортивная майка, футболка команды
+**Русский:** спортивная майка, футболка команды; джерси (трикотажная ткань)
 **Plural:** *jerseys*
 **Countability:** countable
 
-A shirt worn by a member of a sports team, usually with a number on the back.
+Jersey has 2 distinct senses.
+
+**1. A shirt worn by a member of a sports team, usually with a number on the back.** (спортивная майка, футболка команды)
 
 1. He got the goalie to sign his *jersey*.
 2. The team is wearing their away *jerseys* tonight.
 3. Her *jersey* had her last name across the shoulders.
+
+**2. A soft, stretchy knitted cloth used for T-shirts and casual clothes.** (джерси (трикотажная ткань))
+
+4. The sheets are cotton *jersey*, soft as an old T-shirt.
+5. She wore a gray *jersey* dress to the office.
+6. *Jersey* stretches, so it hardly wrinkles.
 
 ---
 
@@ -582,15 +640,23 @@ A set of clothes worn to look like someone or something else, as in a play or at
 ### outfit
 
 **Pronunciation:** /ˈaʊtfɪt/ &middot; *OWT-fit*
-**Русский:** наряд, комплект одежды
+**Русский:** наряд, комплект одежды; фирма, команда; воинское подразделение
 **Plural:** *outfits*
 **Countability:** countable
 
-A set of clothes worn together.
+Outfit has 2 distinct senses.
+
+**1. A set of clothes worn together.** (наряд, комплект одежды)
 
 1. She picked out her *outfit* the night before.
 2. He wore the same *outfit* three days in a row.
 3. Those *outfits* are way too formal for a picnic.
+
+**2. A group of people working together as a company, team, or military unit.** (фирма, команда; воинское подразделение)
+
+4. He works for a small *outfit* out on Route 9.
+5. Their moving company is a two-truck *outfit*.
+6. My grandfather's *outfit* landed in Normandy.
 
 ---
 
@@ -734,31 +800,47 @@ A piece of cloth or plastic tied under a child's chin to keep food off their clo
 ### shoe
 
 **Pronunciation:** /ʃuː/ &middot; *SHOO*
-**Русский:** туфля, ботинок
+**Русский:** туфля, ботинок; подкова
 **Plural:** *shoes*
 **Countability:** countable
 
-A covering for the foot with a firm sole, not reaching above the ankle.
+Shoe has 2 distinct senses.
+
+**1. A covering for the foot with a firm sole, not reaching above the ankle.** (туфля, ботинок)
 
 1. Take your *shoes* off at the door.
 2. He tied his *shoe* and kept running.
 3. These *shoes* are killing my feet.
+
+**2. A curved piece of iron nailed to the bottom of a horse's hoof.** (подкова)
+
+4. The mare threw a *shoe* on the trail and came up lame.
+5. The farrier nailed a new *shoe* onto each front hoof.
+6. Worn *shoes* make a horse slip on hard ground.
 
 ---
 
 ### boot
 
 **Pronunciation:** /buːt/ &middot; *BOOT*
-**Русский:** сапог, ботинок
+**Русский:** сапог, ботинок; блокиратор колеса
 **Plural:** *boots*
 **Countability:** countable
 **Contrast:** In Britain the boot is also the trunk of a car.
 
-A heavy shoe that covers the ankle and sometimes part of the leg.
+Boot has 2 distinct senses.
+
+**1. A heavy shoe that covers the ankle and sometimes part of the leg.** (сапог, ботинок)
 
 1. She pulled on her rain *boots*.
 2. One *boot* is still sitting by the back door.
 3. You'll want hiking *boots* on that trail.
+
+**2. A metal clamp locked onto a car's wheel so it cannot be driven away.** (блокиратор колеса)
+
+4. The city put a *boot* on my car for unpaid tickets.
+5. It costs a hundred dollars to get the *boot* taken off.
+6. There was a bright yellow *boot* on the front tire.
 
 ---
 
@@ -811,15 +893,23 @@ A soft comfortable shoe worn indoors.
 ### loafer
 
 **Pronunciation:** /ˈloʊfər/ &middot; *LOH-fur*
-**Русский:** лоферы, туфли без шнурков
+**Русский:** лоферы, туфли без шнурков; бездельник, лодырь
 **Plural:** *loafers*
 **Countability:** countable
 
-A flat leather shoe with no laces that you slip onto your foot.
+Loafer has 2 distinct senses.
+
+**1. A flat leather shoe with no laces that you slip onto your foot.** (лоферы, туфли без шнурков)
 
 1. He wore brown *loafers* with khakis.
 2. That *loafer* has a hole worn through the sole.
 3. *Loafers* are a lot easier than lacing up boots.
+
+**2. A lazy person who avoids work.** (бездельник, лодырь)
+
+4. He called his brother-in-law a *loafer*.
+5. A few *loafers* were hanging around outside the store.
+6. The foreman has no patience for *loafers*.
 
 ---
 
@@ -916,15 +1006,29 @@ A covering for the head, often with a brim.
 ### cap
 
 **Pronunciation:** /kæp/ &middot; *KAP*
-**Русский:** кепка, бейсболка
+**Русский:** кепка, бейсболка; крышка, колпачок; предел, потолок (ограничение)
 **Plural:** *caps*
 **Countability:** countable
 
-A soft flat hat, usually with a stiff curved brim at the front.
+Cap has 3 distinct senses.
+
+**1. A soft flat hat, usually with a stiff curved brim at the front.** (кепка, бейсболка)
 
 1. He wore a baseball *cap* backwards.
 2. The team handed out free *caps* at the gate.
 3. Take your *cap* off at the table.
+
+**2. A lid or cover that screws or snaps onto a bottle, tube, or pen.** (крышка, колпачок)
+
+4. Put the *cap* back on the toothpaste.
+5. The *cap* on this bottle is too tight to twist off.
+6. He lost the *cap* to his favorite pen.
+
+**3. An upper limit set on an amount.** (предел, потолок (ограничение))
+
+7. The league plays under a strict salary *cap*.
+8. Lawmakers set a *cap* on interest rates.
+9. There is a *cap* of two tickets per customer.
 
 ---
 
@@ -961,32 +1065,54 @@ A hard hat that protects the head.
 ### hood
 
 **Pronunciation:** /hʊd/ &middot; *HUUD*
-**Русский:** капюшон
+**Русский:** капюшон; капот; район, свой квартал (разг.)
 **Plural:** *hoods*
 **Countability:** countable
 **Contrast:** The vowel is short, like book, not like food. In American English the hood is also the front cover over a car engine.
 
-The part of a coat or sweatshirt that covers the head.
+Hood has 3 distinct senses.
+
+**1. The part of a coat or sweatshirt that covers the head.** (капюшон)
 
 1. He put his *hood* up when it started to drizzle.
 2. The jacket has a *hood* that zips off.
 3. Both coats have fur-lined *hoods*.
+
+**2. The metal cover over the engine of a car.** (капот)
+
+4. Steam was pouring out from under the *hood*.
+5. He popped the *hood* and checked the oil.
+6. A rock chipped the paint on the *hood*.
+
+**3. The neighborhood someone lives in, in informal speech.** (район, свой квартал (разг.))
+
+7. He still lives in the old *hood*.
+8. Everybody in the *hood* knew her grandmother.
+9. There's a new coffee place in my *hood*.
 
 ---
 
 ### veil
 
 **Pronunciation:** /veɪl/ &middot; *VAYL*
-**Русский:** вуаль, фата
+**Русский:** вуаль, фата; завеса, покров
 **Plural:** *veils*
 **Countability:** countable
 **Contrast:** Sounds exactly like vale, a valley.
 
-A piece of thin cloth worn over the face or head.
+Veil has 2 distinct senses.
+
+**1. A piece of thin cloth worn over the face or head.** (вуаль, фата)
 
 1. The bride lifted her *veil*.
 2. The shop sells *veils* in three different lengths.
 3. Her *veil* caught on the church door.
+
+**2. Something that hides the truth or keeps something out of sight.** (завеса, покров)
+
+4. The deal was made under a *veil* of secrecy.
+5. A *veil* of mist hid the far shore.
+6. He finally lifted the *veil* on how the company operates.
 
 ---
 
@@ -1085,15 +1211,23 @@ Headband has 2 distinct senses.
 ### sleeve
 
 **Pronunciation:** /sliːv/ &middot; *SLEEV*
-**Русский:** рукав
+**Русский:** рукав; конверт, чехол, футляр
 **Plural:** *sleeves*
 **Countability:** countable
 
-The part of a garment that covers the arm.
+Sleeve has 2 distinct senses.
+
+**1. The part of a garment that covers the arm.** (рукав)
 
 1. He rolled up his *sleeves* and got to work.
 2. There's a stain on your left *sleeve*.
 3. The dress has long *sleeves* and a high collar.
+
+**2. A stiff paper or plastic cover that something slides into.** (конверт, чехол, футляр)
+
+4. The record was still in its original *sleeve*.
+5. The barista slipped a cardboard *sleeve* onto my cup.
+6. He keeps the discs in paper *sleeves*.
 
 ---
 
@@ -1116,30 +1250,52 @@ The band of material around the neck of a shirt or coat.
 ### cuff
 
 **Pronunciation:** /kʌf/ &middot; *KUF*
-**Русский:** манжета
+**Русский:** манжета; наручник (обычно мн. — наручники)
 **Plural:** *cuffs*
 **Countability:** countable
 
-The band of material at the end of a sleeve, or the turned-up bottom of a pant leg.
+Cuff has 2 distinct senses.
+
+**1. The band of material at the end of a sleeve, or the turned-up bottom of a pant leg.** (манжета)
 
 1. He unbuttoned his *cuffs* and rolled up his sleeves.
 2. There was ink all over his *cuff*.
 3. The tailor let out the *cuffs* on the pants.
+
+**2. One of a pair of metal rings locked around a prisoner's wrists.** (наручник (обычно мн. — наручники))
+
+4. The officer put the *cuffs* on him at the curb.
+5. He sat in the back of the car in *cuffs*.
+6. One *cuff* was too tight and left a mark.
 
 ---
 
 ### pocket
 
 **Pronunciation:** /ˈpɑːkɪt/ &middot; *PAH-kit*
-**Русский:** карман
+**Русский:** карман; очаг, изолированный участок; кошелёк, средства
 **Plural:** *pockets*
 **Countability:** countable
 
-A small bag sewn into a garment for carrying things.
+Pocket has 3 distinct senses.
+
+**1. A small bag sewn into a garment for carrying things.** (карман)
 
 1. He shoved his hands in his *pockets*.
 2. My phone is in my back *pocket*.
 3. This coat has *pockets* on the inside too.
+
+**2. A small area or group that is different from everything around it.** (очаг, изолированный участок)
+
+4. There are still *pockets* of snow on the north slope.
+5. The census found *pockets* of deep poverty in the county.
+6. We hit a *pocket* of rough air over the mountains.
+
+**3. The money a person or group has available to spend.** (кошелёк, средства)
+
+7. The repair came straight out of my own *pocket*.
+8. The lawsuit was funded by donors with deep *pockets*.
+9. Rising rents are hitting renters' *pockets* hard.
 
 ---
 
@@ -1161,31 +1317,47 @@ The bottom edge of a garment, folded over and sewn.
 ### seam
 
 **Pronunciation:** /siːm/ &middot; *SEEM*
-**Русский:** шов
+**Русский:** шов; пласт (угля, руды)
 **Plural:** *seams*
 **Countability:** countable
 **Contrast:** Sounds exactly like seem, the verb.
 
-The line where two pieces of cloth are sewn together.
+Seam has 2 distinct senses.
+
+**1. The line where two pieces of cloth are sewn together.** (шов)
 
 1. The *seam* split right down the side.
 2. Check the *seams* before you buy it.
 3. She sewed the *seam* back up by hand.
+
+**2. A layer of coal or ore lying between layers of rock.** (пласт (угля, руды))
+
+4. The mine follows a *seam* of coal three feet thick.
+5. They struck a rich *seam* of silver in 1889.
+6. The *seam* runs for miles under the mountain.
 
 ---
 
 ### lining
 
 **Pronunciation:** /ˈlaɪnɪŋ/ &middot; *LY-ning*
-**Русский:** подкладка
+**Русский:** подкладка; выстилка, внутренняя оболочка
 **Plural:** *linings*
 **Countability:** countable
 
-A layer of material sewn inside a garment.
+Lining has 2 distinct senses.
+
+**1. A layer of material sewn inside a garment.** (подкладка)
 
 1. The jacket has a silk *lining*.
 2. The *lining* of my coat is torn at the shoulder.
 3. Winter boots with fleece *linings* are worth the money.
+
+**2. The layer that covers the inside surface of an organ or a container.** (выстилка, внутренняя оболочка)
+
+4. Aspirin can irritate the *lining* of the stomach.
+5. The furnace *lining* has to be replaced every few years.
+6. Infection had inflamed the *lining* of his lungs.
 
 ---
 
@@ -1269,60 +1441,116 @@ A fold pressed or sewn into cloth.
 ### patch
 
 **Pronunciation:** /pætʃ/ &middot; *PACH*
-**Русский:** заплатка, нашивка
+**Русский:** заплатка, нашивка; участок, клочок, пятно; патч, обновление (для программы); полоса, период (обычно трудный)
 **Plural:** *patches*
 **Countability:** countable
 
-A small piece of cloth sewn over a hole or onto a garment as a decoration.
+Patch has 4 distinct senses.
+
+**1. A small piece of cloth sewn over a hole or onto a garment as a decoration.** (заплатка, нашивка)
 
 1. She sewed a *patch* over the hole in his jeans.
 2. His jacket is covered in band *patches*.
 3. The scouts get a *patch* for every skill they learn.
+
+**2. A small area of ground or of a surface that differs from what is around it.** (участок, клочок, пятно)
+
+4. The car slid on a *patch* of ice.
+5. We planted a *patch* of tomatoes behind the garage.
+6. A *patch* of blue showed through the clouds.
+
+**3. A small update that fixes a problem in software.** (патч, обновление (для программы))
+
+7. The company released a security *patch* overnight.
+8. Install the *patch* before you open the file.
+9. Two *patches* later, the bug is still there.
+
+**4. A short period of a particular kind, usually a difficult one.** (полоса, период (обычно трудный))
+
+10. The team is going through a rough *patch*.
+11. We hit a bad *patch* after the layoffs.
+12. It was a bumpy *patch*, but the marriage survived.
 
 ---
 
 ### label
 
 **Pronunciation:** /ˈleɪbl/ &middot; *LAY-bul*
-**Русский:** этикетка, ярлык (на одежде)
+**Русский:** этикетка, ярлык (на одежде); лейбл, звукозаписывающая компания; ярлык, клеймо
 **Plural:** *labels*
 **Countability:** countable
 
-A small piece of material inside a garment giving its size and care instructions.
+Label has 3 distinct senses.
+
+**1. A small piece of material inside a garment giving its size and care instructions.** (этикетка, ярлык (на одежде))
 
 1. The *label* says dry clean only.
 2. He cut the itchy *label* out of his shirt.
 3. Check the *labels* before you put anything in the dryer.
+
+**2. A company that records and sells music.** (лейбл, звукозаписывающая компания)
+
+4. The band signed with a major *label*.
+5. She started her own *label* after leaving the group.
+6. Several independent *labels* are based in Nashville.
+
+**3. A word used to describe a person or a group, often unfairly.** (ярлык, клеймо)
+
+7. He hates the *label* 'genius'.
+8. Once a kid gets a *label* like that, it sticks.
+9. She refuses all political *labels*.
 
 ---
 
 ### tag
 
 **Pronunciation:** /tæɡ/ &middot; *TAG*
-**Русский:** бирка, ценник
+**Русский:** бирка, ценник; салки, догонялки; тег, метка
 **Plural:** *tags*
 **Countability:** countable
 
-A small piece of card or plastic attached to a new garment showing the price or size.
+Tag has 3 distinct senses.
+
+**1. A small piece of card or plastic attached to a new garment showing the price or size.** (бирка, ценник)
 
 1. The *tag* is still on your sweater.
 2. She checked the price *tag* and put it back.
 3. Cut the *tags* off before you wear it.
+
+**2. A children's game in which one player chases the others and tries to touch one.** (салки, догонялки)
+
+4. The kids played *tag* in the backyard until dinner.
+5. He's so fast that nobody can catch him at *tag*.
+6. A game of *tag* broke out at recess.
+
+**3. A word attached to a photo, post, or file so that it can be found later.** (тег, метка)
+
+7. Add a few *tags* so people can find the recipe.
+8. The photo had my sister's name as a *tag*.
+9. Search by *tag* instead of scrolling through everything.
 
 ---
 
 ### brim
 
 **Pronunciation:** /brɪm/ &middot; *BRIM*
-**Русский:** поля (шляпы)
+**Русский:** поля (шляпы); край (сосуда), кромка
 **Plural:** *brims*
 **Countability:** countable
 
-The flat edge that sticks out around the bottom of a hat.
+Brim has 2 distinct senses.
+
+**1. The flat edge that sticks out around the bottom of a hat.** (поля (шляпы))
 
 1. He tipped the *brim* of his hat.
 2. A wide *brim* keeps the sun off your face.
 3. The rain ran off the *brims* of their hats.
+
+**2. The top edge of a cup, bowl, or other container.** (край (сосуда), кромка)
+
+4. He filled the glass right to the *brim*.
+5. Coffee slopped over the *brim* of the mug.
+6. The bucket was full to the *brim* with rainwater.
 
 ---
 
@@ -1374,16 +1602,36 @@ A metal fastener at the end of a belt or strap.
 ### snap
 
 **Pronunciation:** /snæp/ &middot; *SNAP*
-**Русский:** кнопка (застёжка)
+**Русский:** кнопка (застёжка); щелчок, треск; резкое похолодание; пустяк, лёгкое дело
 **Plural:** *snaps*
 **Countability:** countable
 **Contrast:** Americans call it a snap; the British call it a press stud or a popper.
 
-A fastener with two parts that press together to close a garment.
+Snap has 4 distinct senses.
+
+**1. A fastener with two parts that press together to close a garment.** (кнопка (застёжка))
 
 1. The shirt closes with *snaps* instead of buttons.
 2. One *snap* on the jacket is broken.
 3. Baby clothes with *snaps* are so much easier.
+
+**2. A short sharp sound made by something breaking or shutting.** (щелчок, треск)
+
+4. We heard the *snap* of a twig behind us.
+5. The lid closed with a satisfying *snap*.
+6. Small *snaps* came from the fire all evening.
+
+**3. A short spell of unusually cold weather.** (резкое похолодание)
+
+7. A late cold *snap* killed the tomato plants.
+8. The *snap* lasted four days and then it warmed up.
+9. Early *snaps* like that are rough on the citrus groves.
+
+**4. Something very easy to do.** (пустяк, лёгкое дело)
+
+10. The test was a *snap*.
+11. Changing the filter is a *snap*.
+12. Getting the kids to bed is never a *snap*.
 
 ---
 
@@ -1458,15 +1706,29 @@ Fastener has 2 distinct senses.
 ### belt
 
 **Pronunciation:** /bɛlt/ &middot; *BELT*
-**Русский:** ремень, пояс
+**Русский:** ремень, пояс; приводной ремень; лента конвейера; пояс, зона (район)
 **Plural:** *belts*
 **Countability:** countable
 
-A strip of leather or cloth worn around the waist.
+Belt has 3 distinct senses.
+
+**1. A strip of leather or cloth worn around the waist.** (ремень, пояс)
 
 1. He tightened his *belt* one more notch.
 2. That dress comes with a matching *belt*.
 3. His *belts* are all hanging on the closet door.
+
+**2. A loop of rubber or metal that carries things or turns parts inside a machine.** (приводной ремень; лента конвейера)
+
+4. The mechanic replaced a cracked fan *belt*.
+5. Boxes came down the conveyor *belt* one at a time.
+6. A worn *belt* was making the dryer squeal.
+
+**3. A long stretch of land known for one particular feature.** (пояс, зона (район))
+
+7. Corn grows across a wide *belt* of the Midwest.
+8. The storm hit the coastal *belt* hardest.
+9. He grew up in the farm *belt* of central Illinois.
 
 ---
 
@@ -1527,15 +1789,35 @@ A hand covering with one section for the thumb and one for all the other fingers
 ### tie
 
 **Pronunciation:** /taɪ/ &middot; *TY*
-**Русский:** галстук
+**Русский:** галстук; ничья; связь, узы; шпала
 **Plural:** *ties*
 **Countability:** countable
 
-A long narrow piece of cloth worn around the neck under a shirt collar.
+Tie has 4 distinct senses.
+
+**1. A long narrow piece of cloth worn around the neck under a shirt collar.** (галстук)
 
 1. He loosened his *tie* on the way home.
 2. She gave him a silk *tie* for his birthday.
 3. All his *ties* hang on a rack in the closet.
+
+**2. A result in which two players or teams finish with the same score.** (ничья)
+
+4. The game ended in a 2-2 *tie*.
+5. A *tie* in the first round means they play again on Friday.
+6. Both runners crossed the line together, so the judges called it a *tie*.
+
+**3. A close connection or relationship between people, groups, or countries.** (связь, узы)
+
+7. She still has strong family *ties* in Ohio.
+8. The two countries have close economic *ties*.
+9. He cut every *tie* with his old firm.
+
+**4. One of the heavy wooden beams that a railroad track is laid across.** (шпала)
+
+10. The crew replaced a hundred rotten *ties* last summer.
+11. We edged the flower bed with old railroad *ties*.
+12. He counted the *ties* as he walked along the track.
 
 ---
 

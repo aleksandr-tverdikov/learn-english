@@ -990,14 +990,43 @@
       "term": "mailer",
       "ipa": "/ˈmeɪlər/",
       "respell": "MAY-lur",
-      "meaning": "A sturdy envelope or light box made for mailing something. ---",
+      "meaning": "Mailer has 2 distinct senses.",
       "examples": [
         "Slide the book into a cardboard mailer.",
         "Returns go back in the prepaid mailer.",
-        "We keep a stack of mailers by the printer."
+        "We keep a stack of mailers by the printer.",
+        "Voters got three mailers from the same candidate.",
+        "The dealership sends a mailer every spring.",
+        "That attack mailer probably cost him the election."
       ],
-      "senses": [],
-      "русский": "почтовый конверт-пакет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sturdy envelope or light box made for mailing something",
+          "body": [
+            "(почтовый конверт-пакет)"
+          ],
+          "examples": [
+            "Slide the book into a cardboard mailer.",
+            "Returns go back in the prepaid mailer.",
+            "We keep a stack of mailers by the printer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of advertising or campaign literature sent through the mail",
+          "body": [
+            "(рекламная (агитационная) рассылка по почте)",
+            "---"
+          ],
+          "examples": [
+            "Voters got three mailers from the same candidate.",
+            "The dealership sends a mailer every spring.",
+            "That attack mailer probably cost him the election."
+          ]
+        }
+      ],
+      "русский": "почтовый конверт-пакет; рекламная (агитационная) рассылка по почте",
       "plural": "mailers",
       "countability": "countable"
     },
@@ -1020,14 +1049,43 @@
       "term": "parcel",
       "ipa": "/ˈpɑːrsəl/",
       "respell": "PAR-suhl",
-      "meaning": "A wrapped package sent through the mail. ---",
+      "meaning": "Parcel has 2 distinct senses.",
       "examples": [
         "A parcel came for you this morning.",
         "The post office holds parcels for ten days.",
-        "She tied the parcel with string."
+        "She tied the parcel with string.",
+        "They bought a five-acre parcel outside town.",
+        "County records list the owner of every parcel.",
+        "The old farm was sold off in small parcels."
       ],
-      "senses": [],
-      "русский": "посылка, свёрток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wrapped package sent through the mail",
+          "body": [
+            "(посылка, свёрток)"
+          ],
+          "examples": [
+            "A parcel came for you this morning.",
+            "The post office holds parcels for ten days.",
+            "She tied the parcel with string."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of land",
+          "body": [
+            "(земельный участок)",
+            "---"
+          ],
+          "examples": [
+            "They bought a five-acre parcel outside town.",
+            "County records list the owner of every parcel.",
+            "The old farm was sold off in small parcels."
+          ]
+        }
+      ],
+      "русский": "посылка, свёрток; земельный участок",
       "plural": "parcels",
       "countability": "countable",
       "contrast": "Americans usually say package; parcel survives mostly in postal language."
@@ -1036,14 +1094,43 @@
       "term": "packet",
       "ipa": "/ˈpækɪt/",
       "respell": "PAK-it",
-      "meaning": "A small flat paper or plastic envelope holding one serving of something. ---",
+      "meaning": "Packet has 2 distinct senses.",
       "examples": [
         "He tore open a packet of sugar.",
         "There are ketchup packets in the glove box.",
-        "Stir one packet of yeast into the warm water."
+        "Stir one packet of yeast into the warm water.",
+        "The router breaks the file into packets.",
+        "Some packets get lost and have to be sent again.",
+        "The software counts every packet that crosses the network."
       ],
-      "senses": [],
-      "русский": "пакетик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small flat paper or plastic envelope holding one serving of something",
+          "body": [
+            "(пакетик)"
+          ],
+          "examples": [
+            "He tore open a packet of sugar.",
+            "There are ketchup packets in the glove box.",
+            "Stir one packet of yeast into the warm water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small unit of data sent across a computer network",
+          "body": [
+            "(пакет данных)",
+            "---"
+          ],
+          "examples": [
+            "The router breaks the file into packets.",
+            "Some packets get lost and have to be sent again.",
+            "The software counts every packet that crosses the network."
+          ]
+        }
+      ],
+      "русский": "пакетик; пакет данных",
       "plural": "packets",
       "countability": "countable",
       "contrast": "In the US a packet is small — sugar, ketchup, seasoning; the British use packet where Americans say pack or bag."
@@ -1068,14 +1155,43 @@
       "term": "sack",
       "ipa": "/sæk/",
       "respell": "SAK",
-      "meaning": "A large bag of paper, cloth, or plastic for carrying bulky goods. ---",
+      "meaning": "Sack has 2 distinct senses.",
       "examples": [
         "He hauled a sack of potatoes up the steps.",
         "There were sacks of flour stacked in the back.",
-        "Santa came in with a sack over his shoulder."
+        "Santa came in with a sack over his shoulder.",
+        "He had three sacks in the first half.",
+        "The sack pushed them back fifteen yards.",
+        "Their defense leads the league in sacks."
       ],
-      "senses": [],
-      "русский": "мешок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large bag of paper, cloth, or plastic for carrying bulky goods",
+          "body": [
+            "(мешок)"
+          ],
+          "examples": [
+            "He hauled a sack of potatoes up the steps.",
+            "There were sacks of flour stacked in the back.",
+            "Santa came in with a sack over his shoulder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A play in football in which the quarterback is tackled behind the line",
+          "body": [
+            "(сэк (захват квотербека))",
+            "---"
+          ],
+          "examples": [
+            "He had three sacks in the first half.",
+            "The sack pushed them back fifteen yards.",
+            "Their defense leads the league in sacks."
+          ]
+        }
+      ],
+      "русский": "мешок; сэк (захват квотербека)",
       "plural": "sacks",
       "countability": "countable"
     },
@@ -1416,14 +1532,43 @@
       "term": "caddy",
       "ipa": "/ˈkædi/",
       "respell": "KAD-ee",
-      "meaning": "A small carrier with compartments for holding supplies. ---",
+      "meaning": "Caddy has 2 distinct senses.",
       "examples": [
         "She keeps her shampoo in a shower caddy.",
         "The cleaning caddy has everything in one place.",
-        "There are utensil caddies on each table."
+        "There are utensil caddies on each table.",
+        "His caddy handed him a seven iron.",
+        "She worked as a caddy at the country club in high school.",
+        "The caddies walked ahead to read the green."
       ],
-      "senses": [],
-      "русский": "органайзер, подставка (для принадлежностей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small carrier with compartments for holding supplies",
+          "body": [
+            "(органайзер, подставка (для принадлежностей))"
+          ],
+          "examples": [
+            "She keeps her shampoo in a shower caddy.",
+            "The cleaning caddy has everything in one place.",
+            "There are utensil caddies on each table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who carries a golfer's clubs and advises on shots during a round",
+          "body": [
+            "(кэдди (помощник гольфиста))",
+            "---"
+          ],
+          "examples": [
+            "His caddy handed him a seven iron.",
+            "She worked as a caddy at the country club in high school.",
+            "The caddies walked ahead to read the green."
+          ]
+        }
+      ],
+      "русский": "органайзер, подставка (для принадлежностей); кэдди (помощник гольфиста)",
       "plural": "caddies",
       "countability": "countable",
       "contrast": "Sounds exactly like caddie, the person who carries a golfer's clubs."
@@ -1627,14 +1772,43 @@
       "term": "trough",
       "ipa": "/trɔːf/",
       "respell": "TRAWF",
-      "meaning": "A long narrow open container that animals eat or drink from. ---",
+      "meaning": "Trough has 2 distinct senses.",
       "examples": [
         "The horses lined up at the water trough.",
         "He filled the feed trough before dawn.",
-        "Ice had formed on top of the trough."
+        "Ice had formed on top of the trough.",
+        "The economy hit a trough in early spring.",
+        "Sales rise in December and fall to a trough in July.",
+        "The boat rose on the crest and dropped into the trough."
       ],
-      "senses": [],
-      "русский": "корыто, кормушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long narrow open container that animals eat or drink from",
+          "body": [
+            "(корыто, кормушка)"
+          ],
+          "examples": [
+            "The horses lined up at the water trough.",
+            "He filled the feed trough before dawn.",
+            "Ice had formed on top of the trough."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The low point in a cycle, between two high points",
+          "body": [
+            "(спад, низшая точка)",
+            "---"
+          ],
+          "examples": [
+            "The economy hit a trough in early spring.",
+            "Sales rise in December and fall to a trough in July.",
+            "The boat rose on the crest and dropped into the trough."
+          ]
+        }
+      ],
+      "русский": "корыто, кормушка; спад, низшая точка",
       "plural": "troughs",
       "countability": "countable",
       "contrast": "The gh sounds like f: TRAWF rhymes with off."
@@ -1780,14 +1954,43 @@
       "term": "pillbox",
       "ipa": "/ˈpɪlbɑːks/",
       "respell": "PIL-bahks",
-      "meaning": "A small case with compartments for a week's pills. ---",
+      "meaning": "Pillbox has 2 distinct senses.",
       "examples": [
         "She fills her pillbox every Sunday.",
         "He carries a pillbox in his coat pocket.",
-        "Two pillboxes sat next to the sink."
+        "Two pillboxes sat next to the sink.",
+        "Concrete pillboxes still line the beach.",
+        "The squad took fire from a pillbox on the ridge.",
+        "An abandoned pillbox sits at the edge of the field."
       ],
-      "senses": [],
-      "русский": "таблетница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small case with compartments for a week's pills",
+          "body": [
+            "(таблетница)"
+          ],
+          "examples": [
+            "She fills her pillbox every Sunday.",
+            "He carries a pillbox in his coat pocket.",
+            "Two pillboxes sat next to the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small low concrete shelter with narrow slits for guns",
+          "body": [
+            "(дот, огневая точка)",
+            "---"
+          ],
+          "examples": [
+            "Concrete pillboxes still line the beach.",
+            "The squad took fire from a pillbox on the ridge.",
+            "An abandoned pillbox sits at the edge of the field."
+          ]
+        }
+      ],
+      "русский": "таблетница; дот, огневая точка",
       "plural": "pillboxes",
       "countability": "countable",
       "contrast": "A pillbox is also a small round hat and a low concrete gun shelter."
@@ -2263,14 +2466,43 @@
       "term": "canteen",
       "ipa": "/kænˈtiːn/",
       "respell": "kan-TEEN",
-      "meaning": "A flat metal or plastic bottle carried on a strap or belt. ---",
+      "meaning": "Canteen has 2 distinct senses.",
       "examples": [
         "He took a long drink from his canteen.",
         "Her canteen was empty by noon.",
-        "Every scout carried a canteen."
+        "Every scout carried a canteen.",
+        "The crew eats lunch in the factory canteen.",
+        "The base canteen serves breakfast until nine.",
+        "We bought candy bars at the camp canteen."
       ],
-      "senses": [],
-      "русский": "фляга",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat metal or plastic bottle carried on a strap or belt",
+          "body": [
+            "(фляга)"
+          ],
+          "examples": [
+            "He took a long drink from his canteen.",
+            "Her canteen was empty by noon.",
+            "Every scout carried a canteen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place at a workplace, camp, or military base where food is served",
+          "body": [
+            "(столовая (при базе, лагере, заводе))",
+            "---"
+          ],
+          "examples": [
+            "The crew eats lunch in the factory canteen.",
+            "The base canteen serves breakfast until nine.",
+            "We bought candy bars at the camp canteen."
+          ]
+        }
+      ],
+      "русский": "фляга; столовая (при базе, лагере, заводе)",
       "plural": "canteens",
       "countability": "countable",
       "contrast": "In American English a canteen is a water flask; in Britain it is usually a workplace cafeteria."

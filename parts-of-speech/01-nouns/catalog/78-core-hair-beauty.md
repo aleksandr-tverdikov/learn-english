@@ -338,16 +338,30 @@ A hairstyle in which the hair is pinned up off the neck.
 ### fringe
 
 **Pronunciation:** /frɪndʒ/ &middot; *FRINJ*
-**Русский:** чёлка (британское)
+**Русский:** чёлка (британское); бахрома; окраина; периферия, крайние круги
 **Plural:** *fringes*
 **Countability:** countable
 **Contrast:** British word; Americans say *bangs* for hair cut across the forehead.
 
-Hair cut short and straight across the forehead.
+Fringe has 3 distinct senses.
+
+**1. Hair cut short and straight across the forehead.** (чёлка (британское))
 
 1. Her *fringe* had grown into her eyes.
 2. A short *fringe* suits a round face, she says.
 3. British magazines talk about *fringes*, not bangs.
+
+**2. A border of hanging threads or cords on a rug, a lampshade, or a piece of clothing.** (бахрома)
+
+4. Her jacket had leather *fringe* along the sleeves.
+5. The rug's *fringe* was starting to unravel.
+6. Silk *fringe* hung from the edge of the lampshade.
+
+**3. The outer edge of an area, or the part of a group farthest from the center.** (окраина; периферия, крайние круги)
+
+7. They live on the *fringe* of town, past the last stoplight.
+8. The idea started on the *fringes* of the party and slowly moved to the center.
+9. Deer feed along the *fringe* of the woods at dusk.
 
 ---
 
@@ -625,15 +639,23 @@ Hair that stands out in small rough curls instead of lying smooth.
 ### tangle
 
 **Pronunciation:** /ˈtæŋɡəl/ &middot; *TANG-guhl*
-**Русский:** колтун, спутанные волосы
+**Русский:** колтун, спутанные волосы; клубок, путаница (проводов, веток)
 **Plural:** *tangles*
 **Countability:** countable
 
-A knotted, twisted mass of hair that is hard to comb through.
+Tangle has 2 distinct senses.
+
+**1. A knotted, twisted mass of hair that is hard to comb through.** (колтун, спутанные волосы)
 
 1. She worked a *tangle* out of the back of my hair.
 2. Wet hair gets *tangles* faster.
 3. There was one big *tangle* right behind her ear.
+
+**2. A twisted, knotted mass of things such as wires, string, or branches.** (клубок, путаница (проводов, веток))
+
+4. A *tangle* of cords sat behind the TV.
+5. The trail disappeared into a *tangle* of vines.
+6. She spent ten minutes undoing the *tangle* in her headphones.
 
 ---
 
@@ -993,15 +1015,23 @@ A small tube that hair is rolled around to make it curl.
 ### trimmer
 
 **Pronunciation:** /ˈtrɪmər/ &middot; *TRIM-ur*
-**Русский:** триммер (машинка для стрижки)
+**Русский:** триммер (машинка для стрижки); триммер (садовый), кусторез
 **Plural:** *trimmers*
 **Countability:** countable
 
-A small electric tool for cutting hair or beard to an even length.
+Trimmer has 2 distinct senses.
+
+**1. A small electric tool for cutting hair or beard to an even length.** (триммер (машинка для стрижки))
 
 1. He tidies up his beard with a *trimmer*.
 2. The *trimmer* needs charging again.
 3. The kit came with two *trimmers* and four guards.
+
+**2. A powered garden tool for cutting hedges or the edges of a lawn.** (триммер (садовый), кусторез)
+
+4. He edged the sidewalk with a string *trimmer*.
+5. The hedge *trimmer* needs a new blade.
+6. She ran the *trimmer* along the fence line.
 
 ---
 
@@ -1130,15 +1160,23 @@ A thick clear substance rubbed into hair to hold a style.
 ### mousse
 
 **Pronunciation:** /muːs/ &middot; *MOOS*
-**Русский:** мусс (для волос)
+**Русский:** мусс (для волос); мусс (десерт)
 **Countability:** uncountable
 **Contrast:** Sounds exactly like *moose*, the animal.
 
-A light foam worked into hair to give it body and hold.
+Mousse has 2 distinct senses.
+
+**1. A light foam worked into hair to give it body and hold.** (мусс (для волос))
 
 1. She works *mousse* through her hair while it's damp.
 2. A little *mousse* keeps the curls from falling.
 3. The can of *mousse* was almost empty.
+
+**2. A soft, airy dessert made with whipped cream and flavoring.** (мусс (десерт))
+
+4. We split a chocolate *mousse* for dessert.
+5. The *mousse* was so light it barely held its shape.
+6. He topped the *mousse* with fresh raspberries.
 
 ---
 
@@ -1317,15 +1355,23 @@ The washing, conditioning, and treatment of hair.
 ### shave
 
 **Pronunciation:** /ʃeɪv/ &middot; *SHAYV*
-**Русский:** бритьё
+**Русский:** бритьё; опасность, которой едва избежали
 **Plural:** *shaves*
 **Countability:** countable
 
-An act of cutting the hair off the face or body with a razor.
+Shave has 2 distinct senses.
+
+**1. An act of cutting the hair off the face or body with a razor.** (бритьё)
 
 1. He went in for a haircut and a *shave*.
 2. That's the closest *shave* I've had in years.
 3. Two *shaves* a week is enough for him.
+
+**2. A narrow escape from danger or trouble, used in the phrase a close shave.** (опасность, которой едва избежали)
+
+4. That was a close *shave*; the truck missed us by inches.
+5. He's had a couple of close *shaves* on that highway.
+6. We passed the inspection, but it was a close *shave*.
 
 ---
 
@@ -1405,15 +1451,23 @@ Red, irritated skin caused by shaving.
 ### nick
 
 **Pronunciation:** /nɪk/ &middot; *NIK*
-**Русский:** порез (при бритье)
+**Русский:** порез (при бритье); щербинка, зазубрина, скол
 **Plural:** *nicks*
 **Countability:** countable
 
-A small cut in the skin, especially one made while shaving.
+Nick has 2 distinct senses.
+
+**1. A small cut in the skin, especially one made while shaving.** (порез (при бритье))
 
 1. He had a *nick* on his chin from shaving.
 2. One *nick* and the whole sink turns pink.
 3. There were two *nicks* along his jaw.
+
+**2. A small chip or dent in the edge or surface of a thing.** (щербинка, зазубрина, скол)
+
+4. There's a *nick* in the blade of the knife.
+5. The movers left a *nick* in the doorframe.
+6. A few *nicks* in the paint won't hurt the value.
 
 ---
 
@@ -1544,16 +1598,24 @@ A pencil used to draw an outline around the lips.
 ### brow
 
 **Pronunciation:** /braʊ/ &middot; *BROW*
-**Русский:** бровь
+**Русский:** бровь; лоб
 **Plural:** *brows*
 **Countability:** countable
 **Contrast:** Rhymes with *cow*, not with *low*.
 
-An eyebrow, especially as something that is shaped and made up.
+Brow has 2 distinct senses.
+
+**1. An eyebrow, especially as something that is shaped and made up.** (бровь)
 
 1. She gets her *brows* waxed every month.
 2. One *brow* is higher than the other.
 3. Thick *brows* came back in fashion.
+
+**2. The forehead.** (лоб)
+
+4. He wiped the sweat from his *brow*.
+5. Her *brow* wrinkled as she read the letter.
+6. A cold cloth on the *brow* brought the fever down.
 
 ---
 
@@ -1575,15 +1637,23 @@ A pencil used to darken and shape the eyebrows.
 ### lash
 
 **Pronunciation:** /læʃ/ &middot; *LASH*
-**Русский:** ресница
+**Русский:** ресница; удар плетью
 **Plural:** *lashes*
 **Countability:** countable
 
-One of the hairs growing along the edge of the eyelid.
+Lash has 2 distinct senses.
+
+**1. One of the hairs growing along the edge of the eyelid.** (ресница)
 
 1. She has a *lash* in her eye.
 2. Two coats of mascara and her *lashes* looked twice as long.
 3. The glue holds the false *lashes* for about a week.
+
+**2. A blow with a whip.** (удар плетью)
+
+4. The sentence was forty *lashes*.
+5. Every *lash* left a red mark across his back.
+6. The driver gave the mule a *lash* to keep it moving.
 
 ---
 

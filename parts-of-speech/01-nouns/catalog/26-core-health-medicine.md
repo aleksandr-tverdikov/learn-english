@@ -71,46 +71,70 @@ A common viral illness with fever, aches, and a cough.
 ### cold
 
 **Pronunciation:** /koʊld/ &middot; *KOHLD*
-**Русский:** простуда
+**Русский:** простуда; холод, стужа
 **Plural:** *colds*
 **Countability:** countable
 
-A mild illness that gives you a runny nose and a sore throat.
+Cold has 2 distinct senses.
+
+**1. A mild illness that gives you a runny nose and a sore throat.** (простуда)
 
 1. I have had this *cold* for almost two weeks.
 2. Do not kiss the baby if you are catching a *cold*.
 3. Kids pick up six or seven *colds* a year.
+
+**2. Low temperature, especially cold outdoor air.** (холод, стужа)
+
+4. Come in out of the *cold*.
+5. The *cold* kept us inside all week.
+6. He stood in the bitter *cold* waiting for the bus.
 
 ---
 
 ### fever
 
 **Pronunciation:** /ˈfiːvər/ &middot; *FEE-vur*
-**Русский:** жар, повышенная температура
+**Русский:** жар, повышенная температура; лихорадка, ажиотаж
 **Plural:** *fevers*
 **Countability:** countable
 
-A body temperature higher than normal, usually caused by illness.
+Fever has 2 distinct senses.
+
+**1. A body temperature higher than normal, usually caused by illness.** (жар, повышенная температура)
 
 1. She is running a *fever* of 102.
 2. Give him this if the *fever* does not break by morning.
 3. High *fevers* in small children can be scary.
+
+**2. A state of intense excitement shared by many people.** (лихорадка, ажиотаж)
+
+4. The whole town is in a *fever* over the playoffs.
+5. Election *fever* took over the newsroom.
+6. By June the excitement had reached a *fever* pitch.
 
 ---
 
 ### cough
 
 **Pronunciation:** /kɔːf/ &middot; *KAWF*
-**Русский:** кашель
+**Русский:** кашель; кашель (как болезненное состояние)
 **Plural:** *coughs*
 **Countability:** countable
 **Contrast:** The gh is pronounced /f/ — *cough* rhymes with *off*, not with *dough* or *through*.
 
-A sudden noisy push of air from the lungs.
+Cough has 2 distinct senses.
+
+**1. A sudden noisy push of air from the lungs.** (кашель)
 
 1. That *cough* has been hanging on since January.
 2. He woke up with a dry *cough* and a sore throat.
 3. Take something for the *cough* before bed.
+
+**2. An illness or condition in which someone coughs again and again.** (кашель (как болезненное состояние))
+
+4. He's had a bad *cough* since Christmas.
+5. That *cough* sounds like it's turning into bronchitis.
+6. Half the class came back from break with *coughs*.
 
 ---
 
@@ -164,15 +188,23 @@ A small painful spot on the skin that is infected or has not healed.
 ### rash
 
 **Pronunciation:** /ræʃ/ &middot; *RASH*
-**Русский:** сыпь
+**Русский:** сыпь; волна, всплеск (происшествий)
 **Plural:** *rashes*
 **Countability:** countable
 
-An area of red, irritated spots on the skin.
+Rash has 2 distinct senses.
+
+**1. An area of red, irritated spots on the skin.** (сыпь)
 
 1. The antibiotic gave her a *rash* all over her arms.
 2. That *rash* looks like poison ivy.
 3. Diaper *rashes* clear up fast with the right cream.
+
+**2. A sudden burst of unpleasant events happening close together.** (волна, всплеск (происшествий))
+
+4. There has been a *rash* of break-ins on our block.
+5. A *rash* of resignations followed the report.
+6. Police are looking into a *rash* of car thefts downtown.
 
 ---
 
@@ -210,14 +242,22 @@ A condition that narrows the airways and makes breathing hard.
 ### cancer
 
 **Pronunciation:** /ˈkænsər/ &middot; *KAN-sur*
-**Русский:** рак (болезнь)
+**Русский:** рак (болезнь); зло, разъедающее общество; язва
 **Countability:** uncountable
 
-A disease in which abnormal cells grow out of control.
+Cancer has 2 distinct senses.
+
+**1. A disease in which abnormal cells grow out of control.** (рак (болезнь))
 
 1. Her mother beat *cancer* twice.
 2. Smoking is the leading cause of lung *cancer*.
 3. He was treated for *cancer* last spring.
+
+**2. Something evil that spreads through a group and destroys it.** (зло, разъедающее общество; язва)
+
+4. Corruption is a *cancer* on the whole system.
+5. He called the gangs a *cancer* eating the neighborhood.
+6. Distrust spread through the team like a *cancer*.
 
 ---
 
@@ -330,15 +370,23 @@ Physical harm done to the body.
 ### burn
 
 **Pronunciation:** /bɜːrn/ &middot; *BURN*
-**Русский:** ожог
+**Русский:** ожог; подколка, колкость (разг.)
 **Plural:** *burns*
 **Countability:** countable
 
-An injury caused by heat, fire, or chemicals.
+Burn has 2 distinct senses.
+
+**1. An injury caused by heat, fire, or chemicals.** (ожог)
 
 1. He got a nasty *burn* from the oven rack.
 2. Run cold water over the *burn*.
 3. The *burns* on her hands took months to heal.
+
+**2. A sharp, clever insult. Informal.** (подколка, колкость (разг.))
+
+4. Ouch — that was a *burn*.
+5. Her reply was the *burn* of the night.
+6. He laughed off the *burn* and kept talking.
 
 ---
 
@@ -375,15 +423,23 @@ An injury from twisting a joint too far.
 ### scar
 
 **Pronunciation:** /skɑːr/ &middot; *SKAHR*
-**Русский:** шрам, рубец
+**Русский:** шрам, рубец; душевная травма, глубокий след (перен.)
 **Plural:** *scars*
 **Countability:** countable
 
-The mark left on the skin after a wound heals.
+Scar has 2 distinct senses.
+
+**1. The mark left on the skin after a wound heals.** (шрам, рубец)
 
 1. He still has a *scar* above his eyebrow.
 2. The surgery left a thin *scar*.
 3. Her *scars* have faded a lot over the years.
+
+**2. Lasting emotional damage left by a painful experience.** (душевная травма, глубокий след (перен.))
+
+4. The war left *scars* that never really healed.
+5. You can hear the *scars* of that childhood when she talks about her family.
+6. Losing the farm left a *scar* on all of them.
 
 ---
 
@@ -419,30 +475,58 @@ An abnormal increase in the size of part of the body.
 ### stroke
 
 **Pronunciation:** /stroʊk/ &middot; *STROHK*
-**Русский:** инсульт
+**Русский:** инсульт; мазок, штрих; гребок; стиль плавания; внезапный случай (удачи, озарения)
 **Plural:** *strokes*
 **Countability:** countable
 
-A sudden loss of blood flow to the brain that damages it.
+Stroke has 4 distinct senses.
+
+**1. A sudden loss of blood flow to the brain that damages it.** (инсульт)
 
 1. Her grandfather had a *stroke* last year.
 2. He is relearning to walk after the *stroke*.
 3. High blood pressure raises the risk of *strokes*.
+
+**2. A single movement of a brush, a pen, or a hand across a surface.** (мазок, штрих)
+
+4. He finished the sky with a few broad *strokes*.
+5. The letters are drawn with very thin *strokes*.
+6. She fixed the mistake with one *stroke* of the pen.
+
+**3. A movement of the arms and legs in swimming, or a style of swimming.** (гребок; стиль плавания)
+
+7. She swam with long, easy *strokes*.
+8. Which *stroke* are you racing tomorrow?
+9. He can swim all four competitive *strokes*.
+
+**4. A sudden lucky or brilliant occurrence.** (внезапный случай (удачи, озарения))
+
+10. By a *stroke* of luck, the store was still open.
+11. Hiring her was a *stroke* of genius.
+12. It was a *stroke* of bad timing, nothing more.
 
 ---
 
 ### seizure
 
 **Pronunciation:** /ˈsiːʒər/ &middot; *SEE-zhur*
-**Русский:** припадок, судорожный приступ
+**Русский:** припадок, судорожный приступ; изъятие, конфискация; захват
 **Plural:** *seizures*
 **Countability:** countable
 
-A sudden burst of abnormal electrical activity in the brain.
+Seizure has 2 distinct senses.
+
+**1. A sudden burst of abnormal electrical activity in the brain.** (припадок, судорожный приступ)
 
 1. He had a *seizure* in the parking lot.
 2. The new medication cut her *seizures* in half.
 3. Roll the person onto their side during a *seizure*.
+
+**2. The act of taking something away by force or by legal authority.** (изъятие, конфискация; захват)
+
+4. The *seizure* of the shipment made the evening news.
+5. Agents reported the largest drug *seizure* of the year.
+6. The law allows the *seizure* of property used in a crime.
 
 ---
 
@@ -569,15 +653,23 @@ Redness, heat, and swelling in a part of the body that is hurt or infected.
 ### symptom
 
 **Pronunciation:** /ˈsɪmptəm/ &middot; *SIMP-tuhm*
-**Русский:** симптом, признак болезни
+**Русский:** симптом, признак болезни; признак, проявление (проблемы)
 **Plural:** *symptoms*
 **Countability:** countable
 
-A sign in the body that shows a disease is present.
+Symptom has 2 distinct senses.
+
+**1. A sign in the body that shows a disease is present.** (симптом, признак болезни)
 
 1. A dry cough was the first *symptom*.
 2. Call us if the *symptoms* get worse.
 3. She had every *symptom* except the fever.
+
+**2. A sign that something is wrong in a situation or a system.** (признак, проявление (проблемы))
+
+4. Long lines at the airport are just a *symptom* of a bigger problem.
+5. Rising rents are a *symptom* of the housing shortage.
+6. The plan treats the *symptoms* of the crisis, not its causes.
 
 ---
 
@@ -658,30 +750,52 @@ A brain injury caused by a blow to the head.
 ### fatigue
 
 **Pronunciation:** /fəˈtiːɡ/ &middot; *fuh-TEEG*
-**Русский:** усталость, утомляемость
+**Русский:** усталость, утомляемость; усталость материала; полевая военная форма
 **Countability:** uncountable
 **Contrast:** French spelling, English stress: fuh-TEEG, ending in a hard /ɡ/.
 
-Extreme tiredness that rest does not fix.
+Fatigue has 3 distinct senses.
+
+**1. Extreme tiredness that rest does not fix.** (усталость, утомляемость)
 
 1. *Fatigue* is the most common side effect.
 2. She is dealing with constant *fatigue*.
 3. The *fatigue* hit him around week three.
+
+**2. Weakening of metal or another material caused by repeated stress.** (усталость материала)
+
+4. The crack in the wing came from metal *fatigue*.
+5. Inspectors look for signs of *fatigue* in the welds.
+6. *Fatigue* in the old bridge cables worried the engineers.
+
+**3. The plain, sturdy uniform that soldiers wear for work and training.** (полевая военная форма)
+
+7. He showed up in green *fatigues* and heavy boots.
+8. The troops changed out of their *fatigues* before dinner.
+9. She still keeps her old army *fatigues* in the closet.
 
 ---
 
 ### itch
 
 **Pronunciation:** /ɪtʃ/ &middot; *ICH*
-**Русский:** зуд
+**Русский:** зуд; тяга, сильное желание
 **Plural:** *itches*
 **Countability:** countable
 
-An uncomfortable feeling on the skin that makes you want to scratch.
+Itch has 2 distinct senses.
+
+**1. An uncomfortable feeling on the skin that makes you want to scratch.** (зуд)
 
 1. The cream stopped the *itch* right away.
 2. I have got an *itch* right between my shoulder blades.
 3. Bug bites leave an *itch* that lasts for days.
+
+**2. A restless desire to do something.** (тяга, сильное желание)
+
+4. He had an *itch* to get back on the road.
+5. She felt the old *itch* to start painting again.
+6. After two years in one town, the *itch* came back.
 
 ---
 
@@ -719,15 +833,23 @@ A dull pain that lasts a while.
 ### germ
 
 **Pronunciation:** /dʒɜːrm/ &middot; *JURM*
-**Русский:** микроб
+**Русский:** микроб; зародыш, зачаток (идеи)
 **Plural:** *germs*
 **Countability:** countable
 
-A tiny organism that can cause disease.
+Germ has 2 distinct senses.
+
+**1. A tiny organism that can cause disease.** (микроб)
 
 1. Wash your hands — *germs* are everywhere in daycare.
 2. The wipes kill most *germs* on contact.
 3. A single *germ* can multiply fast in warm food.
+
+**2. The first small beginning of an idea or plan, from which it can grow.** (зародыш, зачаток (идеи))
+
+4. The novel started as the *germ* of an idea on a napkin.
+5. There's the *germ* of a good plan in what you just said.
+6. His notebooks are full of the *germs* of stories he never wrote.
 
 ---
 
@@ -794,46 +916,76 @@ A small solid piece of medicine that you swallow.
 ### tablet
 
 **Pronunciation:** /ˈtæblət/ &middot; *TAB-luht*
-**Русский:** таблетка
+**Русский:** таблетка; планшет; плита, табличка (с надписью)
 **Plural:** *tablets*
 **Countability:** countable
 
-A flat, pressed piece of medicine.
+Tablet has 3 distinct senses.
+
+**1. A flat, pressed piece of medicine.** (таблетка)
 
 1. Dissolve the *tablet* in a glass of water.
 2. Two *tablets* every six hours.
 3. The *tablet* has a line down the middle so you can split it.
+
+**2. A flat, thin computer with a touchscreen and no attached keyboard.** (планшет)
+
+4. She reads the news on her *tablet* every morning.
+5. The kids share a *tablet* for schoolwork.
+6. My *tablet* needs charging again.
+
+**3. A flat piece of stone or metal with words cut into it.** (плита, табличка (с надписью))
+
+7. The museum displays a clay *tablet* covered in ancient writing.
+8. A bronze *tablet* by the door lists the building's donors.
+9. The commandments were carved on stone *tablets*.
 
 ---
 
 ### capsule
 
 **Pronunciation:** /ˈkæpsəl/ &middot; *KAP-suhl*
-**Русский:** капсула
+**Русский:** капсула; капсула космического корабля, спускаемый аппарат
 **Plural:** *capsules*
 **Countability:** countable
 **Contrast:** Americans say KAP-suhl; the British say KAP-syool.
 
-A small container of medicine that dissolves in the stomach.
+Capsule has 2 distinct senses.
+
+**1. A small container of medicine that dissolves in the stomach.** (капсула)
 
 1. Each *capsule* has 500 milligrams.
 2. Swallow the *capsules* whole — do not chew them.
 3. He opened the *capsule* and mixed it into applesauce.
+
+**2. The part of a spacecraft in which the crew rides.** (капсула космического корабля, спускаемый аппарат)
+
+4. The *capsule* splashed down in the Pacific.
+5. Four astronauts squeezed into the *capsule*.
+6. The *capsule* separated from the rocket right on schedule.
 
 ---
 
 ### dose
 
 **Pronunciation:** /doʊs/ &middot; *DOHS*
-**Русский:** доза
+**Русский:** доза; доля, порция (чего-либо)
 **Plural:** *doses*
 **Countability:** countable
 
-The amount of medicine taken at one time.
+Dose has 2 distinct senses.
+
+**1. The amount of medicine taken at one time.** (доза)
 
 1. Do not double the *dose* if you miss one.
 2. The second *dose* comes three weeks later.
 3. Kids get smaller *doses* than adults.
+
+**2. An amount of something that someone experiences.** (доля, порция (чего-либо))
+
+4. The trip gave us a healthy *dose* of reality.
+5. Take his advice with a *dose* of skepticism.
+6. A small *dose* of praise goes a long way.
 
 ---
 
@@ -1145,15 +1297,23 @@ Something that makes a disease go away completely.
 ### remedy
 
 **Pronunciation:** /ˈrɛmədi/ &middot; *REM-uh-dee*
-**Русский:** лечебное средство
+**Русский:** лечебное средство; средство решения проблемы, выход
 **Plural:** *remedies*
 **Countability:** countable
 
-A treatment, often a simple or homemade one, for a minor problem.
+Remedy has 2 distinct senses.
+
+**1. A treatment, often a simple or homemade one, for a minor problem.** (лечебное средство)
 
 1. Honey and lemon is my grandmother's *remedy* for a sore throat.
 2. Half these home *remedies* do not do anything.
 3. The pharmacist suggested an over-the-counter *remedy*.
+
+**2. A way of dealing with a problem or putting something right.** (средство решения проблемы, выход)
+
+4. More buses are only a partial *remedy* for the traffic.
+5. The report describes the problem but offers no *remedy*.
+6. The courts are the last *remedy* left to them.
 
 ---
 
@@ -1190,15 +1350,29 @@ An arranged time to see a doctor or other professional.
 ### scan
 
 **Pronunciation:** /skæn/ &middot; *SKAN*
-**Русский:** снимок, сканирование (КТ, МРТ)
+**Русский:** снимок, сканирование (КТ, МРТ); беглый просмотр; скан, отсканированная копия
 **Plural:** *scans*
 **Countability:** countable
 
-A detailed medical image of the inside of the body.
+Scan has 3 distinct senses.
+
+**1. A detailed medical image of the inside of the body.** (снимок, сканирование (КТ, МРТ))
 
 1. The *scan* came back clean.
 2. They ordered a CT *scan* of his head.
 3. Both *scans* showed the same thing.
+
+**2. A quick look through something to find or check the main points.** (беглый просмотр)
+
+4. A quick *scan* of the menu told me there was nothing for vegetarians.
+5. Give the contract a *scan* before the meeting.
+6. One *scan* of the room and she knew he wasn't there.
+
+**3. A digital copy of a document or photo made by a scanner.** (скан, отсканированная копия)
+
+7. Email me a *scan* of your driver's license.
+8. The *scan* came out crooked, so I did it again.
+9. They keep *scans* of every receipt in a shared folder.
 
 ---
 
@@ -1290,14 +1464,28 @@ A dangerous amount of a drug taken at one time.
 ### relief
 
 **Pronunciation:** /rɪˈliːf/ &middot; *rih-LEEF*
-**Русский:** облегчение (боли)
+**Русский:** облегчение (боли); помощь пострадавшим, гуманитарная помощь; рельеф, барельеф
 **Countability:** uncountable
 
-The easing of pain or discomfort.
+Relief has 3 distinct senses.
+
+**1. The easing of pain or discomfort.** (облегчение (боли))
 
 1. The shot gave him instant *relief*.
 2. She has had no *relief* from the headaches.
 3. This cream promises fast *relief* from itching.
+
+**2. Help such as food, money, or shelter given to people in trouble.** (помощь пострадавшим, гуманитарная помощь)
+
+4. Trucks carried *relief* to the flooded towns.
+5. The church is collecting money for disaster *relief*.
+6. *Relief* workers set up tents outside the city.
+
+**3. A design carved so that it stands out from a flat surface.** (рельеф, барельеф)
+
+7. The bronze doors are covered in carved *relief*.
+8. A marble *relief* shows a hunting scene.
+9. The letters are cut in low *relief*.
 
 ---
 
@@ -1334,15 +1522,23 @@ A place where sick and injured people are treated and stay overnight.
 ### clinic
 
 **Pronunciation:** /ˈklɪnɪk/ &middot; *KLIN-ik*
-**Русский:** клиника, поликлиника
+**Русский:** клиника, поликлиника; мастер-класс, практический семинар
 **Plural:** *clinics*
 **Countability:** countable
 
-A place where people get medical care without staying overnight.
+Clinic has 2 distinct senses.
+
+**1. A place where people get medical care without staying overnight.** (клиника, поликлиника)
 
 1. There is a walk-in *clinic* two blocks from here.
 2. The *clinic* opens at seven.
 3. Free *clinics* fill up fast.
+
+**2. A short class in which an expert teaches one particular skill.** (мастер-класс, практический семинар)
+
+4. The team is running a free pitching *clinic* for kids.
+5. She signed up for a weekend ski *clinic*.
+6. The store holds bike repair *clinics* every spring.
 
 ---
 
@@ -1380,15 +1576,29 @@ An American store that sells medicine along with everyday goods.
 ### ward
 
 **Pronunciation:** /wɔːrd/ &middot; *WAWRD*
-**Русский:** отделение, палата в больнице
+**Русский:** отделение, палата в больнице; избирательный округ, район города; подопечный, опекаемый
 **Plural:** *wards*
 **Countability:** countable
 
-A large room or section of a hospital for one type of patient.
+Ward has 3 distinct senses.
+
+**1. A large room or section of a hospital for one type of patient.** (отделение, палата в больнице)
 
 1. She was moved to the maternity *ward*.
 2. Visitors are not allowed on that *ward* after eight.
 3. The children's *wards* were full.
+
+**2. A district of a city, used for elections and local government.** (избирательный округ, район города)
+
+4. She represents the Ninth *Ward* on the council.
+5. Each *ward* elects one member.
+6. Turnout was highest in the downtown *ward*.
+
+**3. A child or adult placed under the legal care of a guardian or a court.** (подопечный, опекаемый)
+
+7. He became a *ward* of the state at nine.
+8. The judge made the twins *wards* of the court.
+9. Her uncle's *ward* inherited the farm.
 
 ---
 
@@ -1612,15 +1822,23 @@ A chair on wheels for someone who cannot walk.
 ### crutch
 
 **Pronunciation:** /krʌtʃ/ &middot; *KRUCH*
-**Русский:** костыль
+**Русский:** костыль; костыль (перен.), подпорка
 **Plural:** *crutches*
 **Countability:** countable
 
-A support that fits under the arm and helps you walk with an injured leg.
+Crutch has 2 distinct senses.
+
+**1. A support that fits under the arm and helps you walk with an injured leg.** (костыль)
 
 1. She is on *crutches* for another two weeks.
 2. One *crutch* slipped on the wet floor.
 3. He hobbled in on *crutches*.
+
+**2. Something a person leans on too much instead of coping without it.** (костыль (перен.), подпорка)
+
+4. He used humor as a *crutch* whenever things got serious.
+5. The spell checker had become a *crutch*.
+6. She worried the medication was turning into a *crutch*.
 
 ---
 
@@ -1735,30 +1953,52 @@ Thin, loosely woven cloth used to cover wounds.
 ### mask
 
 **Pronunciation:** /mæsk/ &middot; *MASK*
-**Русский:** медицинская маска
+**Русский:** медицинская маска; маска для лица (косметическая); маска, личина (притворство)
 **Plural:** *masks*
 **Countability:** countable
 
-A covering worn over the nose and mouth to block germs.
+Mask has 3 distinct senses.
+
+**1. A covering worn over the nose and mouth to block germs.** (медицинская маска)
 
 1. The surgeon pulled down his *mask* to talk.
 2. *Masks* are still required in the oncology wing.
 3. She keeps a spare *mask* in her bag.
+
+**2. A cream or sheet spread on the face as a beauty treatment.** (маска для лица (косметическая))
+
+4. She puts on a clay *mask* every Sunday night.
+5. The facial ends with a warm *mask*.
+6. These sheet *masks* are supposed to hydrate your skin.
+
+**3. A false outward appearance that hides someone's real feelings.** (маска, личина (притворство))
+
+7. He listened behind a *mask* of polite interest.
+8. Her cheerfulness was a *mask* for real worry.
+9. The *mask* slipped and he finally yelled at us.
 
 ---
 
 ### cavity
 
 **Pronunciation:** /ˈkævəti/ &middot; *KAV-uh-tee*
-**Русский:** кариес, дырка в зубе
+**Русский:** кариес, дырка в зубе; полость
 **Plural:** *cavities*
 **Countability:** countable
 
-A hole in a tooth caused by decay.
+Cavity has 2 distinct senses.
+
+**1. A hole in a tooth caused by decay.** (кариес, дырка в зубе)
 
 1. The dentist found two *cavities*.
 2. That *cavity* needs a filling.
 3. Soda gave him *cavities* by the time he was ten.
+
+**2. A hollow space inside a body or an object.** (полость)
+
+4. The surgeon opened the chest *cavity*.
+5. Insulation fills the *cavity* between the walls.
+6. Air trapped in the *cavity* made the wood sound hollow.
 
 ---
 
@@ -1840,15 +2080,23 @@ The condition of carrying a developing baby.
 ### donor
 
 **Pronunciation:** /ˈdoʊnər/ &middot; *DOH-nur*
-**Русский:** донор
+**Русский:** донор; жертвователь, спонсор
 **Plural:** *donors*
 **Countability:** countable
 
-A person who gives blood or an organ to someone else.
+Donor has 2 distinct senses.
+
+**1. A person who gives blood or an organ to someone else.** (донор)
 
 1. They finally found a matching *donor*.
 2. He is a registered organ *donor*.
 3. Blood *donors* get juice and cookies afterward.
+
+**2. A person or group that gives money to a charity or a cause.** (жертвователь, спонсор)
+
+4. The museum thanked its major *donors* at the dinner.
+5. A single *donor* paid for the new wing.
+6. The campaign lost several large *donors* after the scandal.
 
 ---
 

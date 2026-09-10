@@ -12,30 +12,52 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### plant
 
 **Pronunciation:** /plænt/ &middot; *PLANT*
-**Русский:** растение
+**Русский:** растение; завод; электростанция; подставное лицо, засланный человек
 **Plural:** *plants*
 **Countability:** countable
 
-A living thing that grows in soil and usually has leaves and roots.
+Plant has 3 distinct senses.
+
+**1. A living thing that grows in soil and usually has leaves and roots.** (растение)
 
 1. I killed every *plant* I owned until somebody gave me a pothos.
 2. She waters the *plants* on Sunday mornings.
 3. That *plant* needs a lot more light than it's getting.
+
+**2. A factory or a building where power is produced or goods are made.** (завод; электростанция)
+
+4. The assembly *plant* employs two thousand people.
+5. A power *plant* sits on the far side of the river.
+6. The *plant* shuts down for two weeks every July.
+
+**3. A person secretly placed in a group to spy on it or influence it.** (подставное лицо, засланный человек)
+
+7. The heckler turned out to be a *plant*.
+8. Police used a *plant* inside the gang.
+9. Half the audience suspected the volunteer was a *plant*.
 
 ---
 
 ### tree
 
 **Pronunciation:** /triː/ &middot; *TREE*
-**Русский:** дерево
+**Русский:** дерево; древовидная схема (родословное древо)
 **Plural:** *trees*
 **Countability:** countable
 
-A tall plant with a woody trunk and branches.
+Tree has 2 distinct senses.
+
+**1. A tall plant with a woody trunk and branches.** (дерево)
 
 1. There's a huge oak *tree* in the front yard.
 2. They planted two *trees* the year their daughter was born.
 3. The storm knocked a *tree* down across the road.
+
+**2. A diagram that branches out to show how things are connected.** (древовидная схема (родословное древо))
+
+4. She traced the family *tree* back to 1820.
+5. The lawyer drew a *tree* showing who inherits what.
+6. Each choice adds another branch to the decision *tree*.
 
 ---
 
@@ -96,15 +118,23 @@ A very small thin branch.
 ### bud
 
 **Pronunciation:** /bʌd/ &middot; *BUD*
-**Русский:** почка, бутон
+**Русский:** почка, бутон; приятель, дружище (обращение)
 **Plural:** *buds*
 **Countability:** countable
 
-A small swelling on a plant that will open into a leaf or flower.
+Bud has 2 distinct senses.
+
+**1. A small swelling on a plant that will open into a leaf or flower.** (почка, бутон)
 
 1. The *buds* are already showing on the lilac.
 2. Don't pick it while it's still a *bud*.
 3. Warm weather brought the *buds* out early this year.
+
+**2. A friendly word for a man or boy, used when speaking to him.** (приятель, дружище (обращение))
+
+4. Hey, *bud*, you dropped your wallet.
+5. Thanks, *bud* — I owe you one.
+6. Watch where you're going, *bud*.
 
 ---
 
@@ -156,14 +186,22 @@ One of the colored parts that make up a flower.
 ### nectar
 
 **Pronunciation:** /ˈnɛktər/ &middot; *NEK-tur*
-**Русский:** нектар
+**Русский:** нектар; нектар (густой фруктовый сок)
 **Countability:** uncountable
 
-The sweet liquid inside flowers that insects and birds feed on.
+Nectar has 2 distinct senses.
+
+**1. The sweet liquid inside flowers that insects and birds feed on.** (нектар)
 
 1. Hummingbirds drink the *nectar* out of those red flowers.
 2. We fill the feeder with sugar water instead of real *nectar*.
 3. Bees turn *nectar* into honey.
+
+**2. A thick, sweet fruit juice sold as a drink.** (нектар (густой фруктовый сок))
+
+4. I grabbed a can of peach *nectar*.
+5. The recipe calls for apricot *nectar*.
+6. They serve mango *nectar* with breakfast.
 
 ---
 
@@ -200,14 +238,22 @@ A young tree with a thin trunk.
 ### sap
 
 **Pronunciation:** /sæp/ &middot; *SAP*
-**Русский:** сок (растения), смола
+**Русский:** сок (растения), смола; простофиля, простак
 **Countability:** uncountable
 
-The liquid that carries water and food through a plant or tree.
+Sap has 2 distinct senses.
+
+**1. The liquid that carries water and food through a plant or tree.** (сок (растения), смола)
 
 1. Maple *sap* boils down into syrup.
 2. There's *sap* all over the windshield.
 3. Pine *sap* is almost impossible to get off your hands.
+
+**2. A foolish person who is easy to fool, in informal speech.** (простофиля, простак)
+
+4. Some poor *sap* paid full price for it.
+5. Don't be a *sap* and lend him money again.
+6. He felt like a *sap* for believing the story.
 
 ---
 
@@ -229,30 +275,46 @@ A sharp point growing on the stem of a plant.
 ### stump
 
 **Pronunciation:** /stʌmp/ &middot; *STUMP*
-**Русский:** пень
+**Русский:** пень; предвыборная агитация (поездки с речами)
 **Plural:** *stumps*
 **Countability:** countable
 
-The short part of a trunk left in the ground after a tree is cut down.
+Stump has 2 distinct senses.
+
+**1. The short part of a trunk left in the ground after a tree is cut down.** (пень)
 
 1. We're still trying to get that *stump* out.
 2. He sat down on a *stump* to rest.
 3. There are three *stumps* left from the old orchard.
+
+**2. The round of speeches a political candidate gives while campaigning.** (предвыборная агитация (поездки с речами))
+
+4. The senator is back on the *stump* this week.
+5. He tried out a new line on the *stump*.
+6. Her *stump* speech has barely changed since March.
 
 ---
 
 ### log
 
 **Pronunciation:** /lɔːɡ/ &middot; *LAWG*
-**Русский:** бревно, полено
+**Русский:** бревно, полено; журнал (записей), бортовой журнал
 **Plural:** *logs*
 **Countability:** countable
 
-A thick piece of a tree trunk or branch that has been cut.
+Log has 2 distinct senses.
+
+**1. A thick piece of a tree trunk or branch that has been cut.** (бревно, полено)
 
 1. Throw another *log* on the fire.
 2. We split *logs* all afternoon.
 3. A rotten *log* was blocking the trail.
+
+**2. A written record of trips, hours, or events kept in order.** (журнал (записей), бортовой журнал)
+
+4. The captain wrote the storm up in the ship's *log*.
+5. Keep a *log* of every mile you drive for work.
+6. Her flight *log* shows two hundred hours.
 
 ---
 
@@ -288,15 +350,23 @@ The leaves of a plant or tree taken together.
 ### canopy
 
 **Pronunciation:** /ˈkænəpi/ &middot; *KAN-uh-pee*
-**Русский:** полог леса, крона
+**Русский:** полог леса, крона; навес, балдахин
 **Plural:** *canopies*
 **Countability:** countable
 
-The layer of leaves and branches formed by the tops of trees.
+Canopy has 2 distinct senses.
+
+**1. The layer of leaves and branches formed by the tops of trees.** (полог леса, крона)
 
 1. Almost no light gets through the *canopy*.
 2. Monkeys spend their whole lives up in the *canopy*.
 3. A hole opened in the *canopy* where the tree came down.
+
+**2. A cloth cover fixed above a bed, a window, or an entrance.** (навес, балдахин)
+
+4. A striped *canopy* shades the tables outside the cafe.
+5. The bed had a lace *canopy* over it.
+6. Guests waited under the hotel *canopy* until the rain let up.
 
 ---
 
@@ -332,15 +402,23 @@ A plant with long feathery leaves and no flowers.
 ### weed
 
 **Pronunciation:** /wiːd/ &middot; *WEED*
-**Русский:** сорняк
+**Русский:** сорняк; травка, марихуана (сленг)
 **Plural:** *weeds*
 **Countability:** countable
 
-A wild plant growing somewhere it isn't wanted.
+Weed has 2 distinct senses.
+
+**1. A wild plant growing somewhere it isn't wanted.** (сорняк)
 
 1. The *weeds* were back within a week.
 2. I pulled one *weed* and found twenty more under it.
 3. Nothing kills those *weeds* for good.
+
+**2. A slang word for marijuana.** (травка, марихуана (сленг))
+
+4. The whole car smelled like *weed*.
+5. *Weed* is legal in a lot of states now.
+6. He quit smoking *weed* in college.
 
 ---
 
@@ -568,15 +646,23 @@ A machine for cutting grass.
 ### spade
 
 **Pronunciation:** /speɪd/ &middot; *SPAYD*
-**Русский:** лопата (штыковая), заступ
+**Русский:** лопата (штыковая), заступ; пика (карточная масть)
 **Plural:** *spades*
 **Countability:** countable
 
-A digging tool with a flat blade, used for turning over soil.
+Spade has 2 distinct senses.
+
+**1. A digging tool with a flat blade, used for turning over soil.** (лопата (штыковая), заступ)
 
 1. Turn the bed over with a *spade* before you plant.
 2. A *spade* cuts through roots better than a shovel does.
 3. He sharpened both *spades* over the winter.
+
+**2. A playing card of the suit marked with black pointed leaf shapes.** (пика (карточная масть))
+
+4. He led with the ace of *spades*.
+5. *Spades* were trump for that hand.
+6. She had four *spades* and nothing else worth playing.
 
 ---
 
@@ -598,15 +684,23 @@ A tool with a flat blade on a long handle, used for breaking soil and cutting we
 ### trowel
 
 **Pronunciation:** /ˈtraʊəl/ &middot; *TROW-uhl*
-**Русский:** садовый совок
+**Русский:** садовый совок; мастерок, кельма
 **Plural:** *trowels*
 **Countability:** countable
 
-A small hand tool with a curved blade for digging in a garden.
+Trowel has 2 distinct senses.
+
+**1. A small hand tool with a curved blade for digging in a garden.** (садовый совок)
 
 1. She dug all the holes with a *trowel*.
 2. I left the *trowel* out in the rain again.
 3. You only need a *trowel* for something that small.
+
+**2. A flat-bladed hand tool used to spread mortar, cement, or plaster.** (мастерок, кельма)
+
+4. The bricklayer scooped mortar with his *trowel*.
+5. Smooth the patch with a wide *trowel*.
+6. He cleaned the *trowel* before the cement dried.
 
 ---
 
@@ -871,15 +965,23 @@ A yellow spring flower with a trumpet-shaped center, grown from a bulb.
 ### violet
 
 **Pronunciation:** /ˈvaɪələt/ &middot; *VY-uh-lit*
-**Русский:** фиалка
+**Русский:** фиалка; фиолетовый цвет
 **Plural:** *violets*
 **Countability:** countable
 
-A small purple or blue flower that grows low to the ground.
+Violet has 2 distinct senses.
+
+**1. A small purple or blue flower that grows low to the ground.** (фиалка)
 
 1. *Violets* spread through the whole lawn.
 2. She keeps an African *violet* on the windowsill.
 3. A few *violets* came up between the stones.
+
+**2. A bluish purple color.** (фиолетовый цвет)
+
+4. The sky turned a deep *violet* after sunset.
+5. The rainbow runs from red through blue to *violet*.
+6. She painted the front door a soft *violet*.
 
 ---
 
@@ -916,15 +1018,23 @@ A flower with ruffled petals and a spicy smell, common in bouquets.
 ### lilac
 
 **Pronunciation:** /ˈlaɪlæk/ &middot; *LY-lak*
-**Русский:** сирень
+**Русский:** сирень; сиреневый цвет
 **Plural:** *lilacs*
 **Countability:** countable
 
-A bush with clusters of small purple or white flowers and a strong scent.
+Lilac has 2 distinct senses.
+
+**1. A bush with clusters of small purple or white flowers and a strong scent.** (сирень)
 
 1. The *lilac* by the back door blooms for about two weeks.
 2. You can smell the *lilacs* from the street.
 3. She cut an armful of *lilac* for the table.
+
+**2. A pale purple color.** (сиреневый цвет)
+
+4. The bedroom walls are a soft *lilac*.
+5. She wore *lilac* to the wedding.
+6. The sky turned *lilac* just after sunset.
 
 ---
 
@@ -1006,16 +1116,24 @@ A round full flower that blooms in the fall.
 ### bouquet
 
 **Pronunciation:** /boʊˈkeɪ/ &middot; *boh-KAY*
-**Русский:** букет
+**Русский:** букет; букет (аромат вина)
 **Plural:** *bouquets*
 **Countability:** countable
 **Contrast:** The t is silent and the stress is on the second syllable: boh-KAY.
 
-A bunch of flowers arranged and tied together.
+Bouquet has 2 distinct senses.
+
+**1. A bunch of flowers arranged and tied together.** (букет)
 
 1. She caught the *bouquet* at the wedding.
 2. He showed up with a *bouquet* and an apology.
 3. They deliver *bouquets* the same day.
+
+**2. The smell of a wine.** (букет (аромат вина))
+
+4. This red has a *bouquet* of cherry and black pepper.
+5. He swirled the glass and breathed in the *bouquet*.
+6. Aging in oak gives the wine a richer *bouquet*.
 
 ---
 

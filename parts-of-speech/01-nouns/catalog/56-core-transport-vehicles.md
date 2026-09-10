@@ -12,31 +12,47 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### vehicle
 
 **Pronunciation:** /ˈviːəkəl/ &middot; *VEE-uh-kuhl*
-**Русский:** транспортное средство
+**Русский:** транспортное средство; средство (выражения, достижения)
 **Plural:** *vehicles*
 **Countability:** countable
 **Contrast:** The h is silent in American speech: VEE-uh-kuhl, not vee-HIK-ul.
 
-A machine that carries people or goods from place to place.
+Vehicle has 2 distinct senses.
+
+**1. A machine that carries people or goods from place to place.** (транспортное средство)
 
 1. No *vehicles* are allowed on the beach after dark.
 2. The police stopped a *vehicle* with no license plate.
 3. Electric *vehicles* are getting cheaper every year.
+
+**2. A means of expressing, achieving, or spreading something.** (средство (выражения, достижения))
+
+4. The show was really a *vehicle* for her comedy.
+5. Art can be a *vehicle* for protest.
+6. The fund is a *vehicle* for saving on taxes.
 
 ---
 
 ### car
 
 **Pronunciation:** /kɑːr/ &middot; *KAHR*
-**Русский:** автомобиль, машина
+**Русский:** автомобиль, машина; вагон
 **Plural:** *cars*
 **Countability:** countable
 
-A road vehicle with four wheels that carries a small number of people.
+Car has 2 distinct senses.
+
+**1. A road vehicle with four wheels that carries a small number of people.** (автомобиль, машина)
 
 1. We bought a used *car* last spring.
 2. There were three *cars* in the driveway.
 3. I left my phone in the *car*.
+
+**2. One of the separate sections of a train.** (вагон)
+
+4. The dining *car* is at the back of the train.
+5. Freight *cars* rolled past the crossing for ten minutes.
+6. We rode in the last *car* of the subway.
 
 ---
 
@@ -210,15 +226,29 @@ A tall family car with sliding doors and three rows of seats.
 ### pickup
 
 **Pronunciation:** /ˈpɪkʌp/ &middot; *PIK-up*
-**Русский:** пикап
+**Русский:** пикап; получение заказа, вывоз; забор (детей, груза); оживление, рост (активности)
 **Plural:** *pickups*
 **Countability:** countable
 
-A light truck with an open cargo bed behind the cab.
+Pickup has 3 distinct senses.
+
+**1. A light truck with an open cargo bed behind the cab.** (пикап)
 
 1. He threw the ladder in the back of his *pickup*.
 2. *Pickups* outsell every other vehicle in this state.
 3. Her *pickup* has over two hundred thousand miles on it.
+
+**2. The act of collecting someone or something at an arranged time and place.** (получение заказа, вывоз; забор (детей, груза))
+
+4. Your order will be ready for *pickup* at noon.
+5. Trash *pickup* is on Tuesday mornings.
+6. School *pickup* is a madhouse at three o'clock.
+
+**3. An increase or improvement in activity.** (оживление, рост (активности))
+
+7. Dealers reported a *pickup* in sales this spring.
+8. Economists expect a *pickup* in hiring later this year.
+9. There's been a nice *pickup* in traffic to the site.
 
 ---
 
@@ -301,16 +331,24 @@ A four-wheeled cart pulled by animals or by hand.
 ### cart
 
 **Pronunciation:** /kɑːrt/ &middot; *KAHRT*
-**Русский:** тележка
+**Русский:** тележка; корзина (в интернет-магазине)
 **Plural:** *carts*
 **Countability:** countable
 **Contrast:** A store cart in the US is a trolley in Britain.
 
-A small wheeled container you push or pull.
+Cart has 2 distinct senses.
+
+**1. A small wheeled container you push or pull.** (тележка)
 
 1. My shopping *cart* had a bad wheel.
 2. *Carts* are stacked by the store entrance.
 3. He wheeled the *cart* out to the parking lot.
+
+**2. The list of items you have picked out to buy on a website.** (корзина (в интернет-магазине))
+
+4. I added the boots to my *cart*.
+5. There are three items sitting in your *cart*.
+6. She emptied her *cart* when she saw the shipping cost.
 
 ---
 
@@ -381,15 +419,23 @@ A wheeled passenger vehicle pulled by horses.
 ### camper
 
 **Pronunciation:** /ˈkæmpər/ &middot; *KAM-pur*
-**Русский:** дом на колёсах, кемпер
+**Русский:** дом на колёсах, кемпер; отдыхающий в лагере; турист с палаткой
 **Plural:** *campers*
 **Countability:** countable
 
-A vehicle or trailer fitted out to sleep and cook in.
+Camper has 2 distinct senses.
+
+**1. A vehicle or trailer fitted out to sleep and cook in.** (дом на колёсах, кемпер)
 
 1. They spent the summer living out of a *camper*.
 2. *Campers* have to park in the lower lot.
 3. He backed the *camper* into the campsite.
+
+**2. A person staying at a camp or sleeping outdoors in a tent.** (отдыхающий в лагере; турист с палаткой)
+
+4. Each *camper* gets a bunk and a footlocker.
+5. The *campers* hiked to the waterfall before breakfast.
+6. He was not a happy *camper* when he saw the repair bill.
 
 ---
 
@@ -564,30 +610,46 @@ An enclosed freight car with sliding side doors.
 ### jet
 
 **Pronunciation:** /dʒɛt/ &middot; *JET*
-**Русский:** реактивный самолёт
+**Русский:** реактивный самолёт; струя (под давлением)
 **Plural:** *jets*
 **Countability:** countable
 
-An airplane driven by jet engines.
+Jet has 2 distinct senses.
+
+**1. An airplane driven by jet engines.** (реактивный самолёт)
 
 1. A private *jet* was parked at the far end of the field.
 2. Fighter *jets* flew over the stadium.
 3. The *jet* climbed steeply after takeoff.
+
+**2. A narrow stream of liquid or gas forced out under pressure.** (струя (под давлением))
+
+4. A *jet* of steam shot out of the valve.
+5. *Jets* of water rose from the fountain.
+6. He aimed a *jet* of water at the muddy tires.
 
 ---
 
 ### glider
 
 **Pronunciation:** /ˈɡlaɪdər/ &middot; *GLY-dur*
-**Русский:** планёр
+**Русский:** планёр; кресло-качалка на полозьях; скамья-качели
 **Plural:** *gliders*
 **Countability:** countable
 
-A light aircraft that flies without an engine.
+Glider has 2 distinct senses.
+
+**1. A light aircraft that flies without an engine.** (планёр)
 
 1. A *glider* circled silently over the ridge.
 2. *Gliders* are towed into the air by a small plane.
 3. He learned to fly in a *glider* first.
+
+**2. A chair or bench that swings gently back and forth on a fixed frame.** (кресло-качалка на полозьях; скамья-качели)
+
+4. She rocked the baby to sleep in the nursery *glider*.
+5. Two old *gliders* sat on the front porch.
+6. We bought a *glider* for the patio instead of a swing.
 
 ---
 
@@ -851,15 +913,23 @@ A very small boat, often carried by a larger one.
 ### paddle
 
 **Pronunciation:** /ˈpædəl/ &middot; *PAD-uhl*
-**Русский:** весло (байдарочное)
+**Русский:** весло (байдарочное); ракетка (для настольного тенниса, пиклбола)
 **Plural:** *paddles*
 **Countability:** countable
 
-A short pole with a flat blade, held in the hands to move a canoe.
+Paddle has 2 distinct senses.
+
+**1. A short pole with a flat blade, held in the hands to move a canoe.** (весло (байдарочное))
 
 1. He dropped his *paddle* in the water.
 2. There are two *paddles* under the seat.
 3. She dug the *paddle* in and turned the canoe.
+
+**2. A short bat with a wide flat face, used in table tennis and pickleball.** (ракетка (для настольного тенниса, пиклбола))
+
+4. Grab a *paddle* and I'll get the ball.
+5. She bought a new pickleball *paddle*.
+6. The ping-pong *paddles* are in the drawer under the table.
 
 ---
 
@@ -882,16 +952,24 @@ A long pole with a blade that rests in a fitting on a rowboat.
 ### sail
 
 **Pronunciation:** /seɪl/ &middot; *SAYL*
-**Русский:** парус
+**Русский:** парус; прогулка под парусом
 **Plural:** *sails*
 **Countability:** countable
 **Contrast:** Sounds exactly like sale.
 
-A large sheet of cloth that catches the wind to move a boat.
+Sail has 2 distinct senses.
+
+**1. A large sheet of cloth that catches the wind to move a boat.** (парус)
 
 1. The wind filled the *sail*.
 2. They lowered the *sails* before the storm hit.
 3. One *sail* was torn along the bottom edge.
+
+**2. A trip taken in a sailboat.** (прогулка под парусом)
+
+4. We went for a *sail* around the harbor.
+5. It was a rough *sail* back to the dock.
+6. A sunset *sail* costs forty dollars a person.
 
 ---
 
@@ -928,15 +1006,23 @@ A flat blade at the back of a boat or plane used for steering.
 ### hull
 
 **Pronunciation:** /hʌl/ &middot; *HUL*
-**Русский:** корпус (судна)
+**Русский:** корпус (судна); шелуха, оболочка (семени)
 **Plural:** *hulls*
 **Countability:** countable
 
-The main body of a boat or ship that sits in the water.
+Hull has 2 distinct senses.
+
+**1. The main body of a boat or ship that sits in the water.** (корпус (судна))
 
 1. The *hull* was scraped and repainted.
 2. Fiberglass *hulls* are lighter than wooden ones.
 3. Water was coming in through a crack in the *hull*.
+
+**2. The dry outer covering of a seed, grain, or berry.** (шелуха, оболочка (семени))
+
+4. Spit the *hulls* into the cup when you eat sunflower seeds.
+5. Brown rice still has part of the *hull* on it.
+6. Pull the green *hulls* off the strawberries before you slice them.
 
 ---
 
@@ -973,15 +1059,23 @@ A padded vest that keeps a person afloat in water.
 ### wheel
 
 **Pronunciation:** /wiːl/ &middot; *WEEL*
-**Русский:** колесо
+**Русский:** колесо; руль
 **Plural:** *wheels*
 **Countability:** countable
 
-A round part that turns on an axle and lets a vehicle roll.
+Wheel has 2 distinct senses.
+
+**1. A round part that turns on an axle and lets a vehicle roll.** (колесо)
 
 1. The front *wheel* was bent in the crash.
 2. All four *wheels* need to be balanced.
 3. A shopping cart *wheel* kept sticking.
+
+**2. The round control a driver turns to steer a car.** (руль)
+
+4. Don't text behind the *wheel*.
+5. She took the *wheel* for the last hundred miles.
+6. He fell asleep at the *wheel* and hit the guardrail.
 
 ---
 
@@ -1181,15 +1275,23 @@ The part of the exhaust system that quiets the engine noise.
 ### exhaust
 
 **Pronunciation:** /ɪɡˈzɔːst/ &middot; *ig-ZAWST*
-**Русский:** выхлопные газы, выхлоп
+**Русский:** выхлопные газы, выхлоп; выхлопная труба, выхлопная система
 **Countability:** uncountable
 **Contrast:** The h is silent and exh- sounds like igz-: ig-ZAWST.
 
-The burned gas an engine pushes out.
+Exhaust has 2 distinct senses.
+
+**1. The burned gas an engine pushes out.** (выхлопные газы, выхлоп)
 
 1. Black *exhaust* poured out of the old bus.
 2. Never run the engine in a closed garage; the *exhaust* can kill you.
 3. You could smell the *exhaust* from the highway.
+
+**2. The pipe and muffler that carry burned gas away from an engine.** (выхлопная труба, выхлопная система)
+
+4. The *exhaust* rusted through and now the truck roars.
+5. He put a new *exhaust* on the car last weekend.
+6. Both *exhausts* on that sports car are chrome.
 
 ---
 
@@ -1369,15 +1471,29 @@ The part driven by the engine that charges the battery.
 ### starter
 
 **Pronunciation:** /ˈstɑːrtər/ &middot; *STAHR-tur*
-**Русский:** стартер
+**Русский:** стартер; игрок стартового состава; закваска
 **Plural:** *starters*
 **Countability:** countable
 
-The small motor that turns an engine over to get it running.
+Starter has 3 distinct senses.
+
+**1. The small motor that turns an engine over to get it running.** (стартер)
 
 1. The *starter* just clicks and nothing happens.
 2. He replaced the *starter* in the parking lot.
 3. *Starters* on these cars are hard to reach.
+
+**2. A player who is in the lineup when a game begins.** (игрок стартового состава)
+
+4. He's been a *starter* since his sophomore year.
+5. Two *starters* were out with injuries.
+6. The coach named tonight's *starter* after practice.
+
+**3. A mixture of flour and water kept alive to make bread rise.** (закваска)
+
+7. She feeds her sourdough *starter* every morning.
+8. The *starter* has to bubble before you use it.
+9. He gave me a jar of *starter* from his own batch.
 
 ---
 
@@ -1802,31 +1918,53 @@ Someone employed to drive another person's car.
 ### ride
 
 **Pronunciation:** /raɪd/ &middot; *RYD*
-**Русский:** поездка
+**Русский:** поездка; аттракцион; тачка (разг. машина)
 **Plural:** *rides*
 **Countability:** countable
 
-A trip in a vehicle, especially one someone gives you.
+Ride has 3 distinct senses.
+
+**1. A trip in a vehicle, especially one someone gives you.** (поездка)
 
 1. Can you give me a *ride* to the airport?
 2. It's a two-hour *ride* on the bus.
 3. She offered *rides* to anyone going downtown.
+
+**2. A machine at a fair or amusement park that people get on for fun.** (аттракцион)
+
+4. The kids went straight for the *rides*.
+5. That *ride* spins you upside down twice.
+6. You have to be four feet tall for this *ride*.
+
+**3. A person's car, in informal speech.** (тачка (разг. машина))
+
+7. Nice *ride* — is it new?
+8. He washes his *ride* every Sunday.
+9. My *ride* is in the shop until Thursday.
 
 ---
 
 ### wreck
 
 **Pronunciation:** /rɛk/ &middot; *REK*
-**Русский:** авария; разбитая машина
+**Русский:** авария; разбитая машина; развалина, издёрганный человек
 **Plural:** *wrecks*
 **Countability:** countable
 **Contrast:** The w is silent: REK, the same sound as the start of wrench.
 
-A bad vehicle crash, or what is left of the vehicle after one.
+Wreck has 2 distinct senses.
+
+**1. A bad vehicle crash, or what is left of the vehicle after one.** (авария; разбитая машина)
 
 1. There was a *wreck* on the interstate this morning.
 2. Two *wrecks* were towed off before rush hour.
 3. He walked away from the *wreck* without a scratch.
+
+**2. A person who is exhausted or badly upset.** (развалина, издёрганный человек)
+
+4. I was a nervous *wreck* before the interview.
+5. After three nights with the baby, he's a *wreck*.
+6. She's been a *wreck* since the funeral.
 
 ---
 

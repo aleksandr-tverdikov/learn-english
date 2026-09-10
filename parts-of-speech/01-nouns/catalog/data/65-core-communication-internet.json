@@ -20,14 +20,43 @@
       "term": "click",
       "ipa": "/klɪk/",
       "respell": "KLIK",
-      "meaning": "One press of a mouse button, or one visit made by clicking a link. ---",
+      "meaning": "Click has 2 distinct senses.",
       "examples": [
         "The whole form takes about three clicks.",
         "Every click on that ad costs the company money.",
-        "One more click and you're done."
+        "One more click and you're done.",
+        "I heard the click of the lock behind me.",
+        "The pen makes a loud click when you press it.",
+        "There were two clicks on the line before the call dropped."
       ],
-      "senses": [],
-      "русский": "щелчок, клик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One press of a mouse button, or one visit made by clicking a link",
+          "body": [
+            "(щелчок, клик)"
+          ],
+          "examples": [
+            "The whole form takes about three clicks.",
+            "Every click on that ad costs the company money.",
+            "One more click and you're done."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short sharp sound like two hard things tapping together",
+          "body": [
+            "(щелчок (звук))",
+            "---"
+          ],
+          "examples": [
+            "I heard the click of the lock behind me.",
+            "The pen makes a loud click when you press it.",
+            "There were two clicks on the line before the call dropped."
+          ]
+        }
+      ],
+      "русский": "щелчок, клик; щелчок (звук)",
       "plural": "clicks",
       "countability": "countable"
     },
@@ -123,14 +152,73 @@
       "term": "post",
       "ipa": "/poʊst/",
       "respell": "POHST",
-      "meaning": "Something written or shared on a website for others to see. ---",
+      "meaning": "Post has 4 distinct senses.",
       "examples": [
         "Her post about the storm got shared everywhere.",
         "He deletes his posts after a few days.",
-        "That was the first post on the whole page."
+        "That was the first post on the whole page.",
+        "The gate hangs on a rotting post.",
+        "He tied the horse to a post by the barn.",
+        "The ball bounced off the goal post.",
+        "She left her post at the embassy last spring.",
+        "He held the post of treasurer for nine years.",
+        "Three teaching posts went unfilled.",
+        "The guard never left his post.",
+        "Families live on the post in base housing.",
+        "He was transferred to a post in Texas."
       ],
-      "senses": [],
-      "русский": "пост, публикация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something written or shared on a website for others to see",
+          "body": [
+            "(пост, публикация)"
+          ],
+          "examples": [
+            "Her post about the storm got shared everywhere.",
+            "He deletes his posts after a few days.",
+            "That was the first post on the whole page."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong upright piece of wood or metal fixed in the ground",
+          "body": [
+            "(столб, стойка)"
+          ],
+          "examples": [
+            "The gate hangs on a rotting post.",
+            "He tied the horse to a post by the barn.",
+            "The ball bounced off the goal post."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A job or official position",
+          "body": [
+            "(должность, пост)"
+          ],
+          "examples": [
+            "She left her post at the embassy last spring.",
+            "He held the post of treasurer for nine years.",
+            "Three teaching posts went unfilled."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The place where a soldier or guard is stationed, or an army base",
+          "body": [
+            "(пост (караульный); военная база)",
+            "---"
+          ],
+          "examples": [
+            "The guard never left his post.",
+            "Families live on the post in base housing.",
+            "He was transferred to a post in Texas."
+          ]
+        }
+      ],
+      "русский": "пост, публикация; столб, стойка; должность, пост; пост (караульный); военная база",
       "plural": "posts",
       "countability": "countable"
     },
@@ -138,14 +226,43 @@
       "term": "comment",
       "ipa": "/ˈkɑːmɛnt/",
       "respell": "KAH-ment",
-      "meaning": "A short written response left under a post or article. ---",
+      "meaning": "Comment has 2 distinct senses.",
       "examples": [
         "Read the comments if you want to lose your faith in people.",
         "She left a nice comment on my photo.",
-        "The paper turned off comments on that story."
+        "The paper turned off comments on that story.",
+        "The senator had no comment on the report.",
+        "His comment about her accent was rude.",
+        "She made a few comments at the end of the meeting."
       ],
-      "senses": [],
-      "русский": "комментарий",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short written response left under a post or article",
+          "body": [
+            "(комментарий)"
+          ],
+          "examples": [
+            "Read the comments if you want to lose your faith in people.",
+            "She left a nice comment on my photo.",
+            "The paper turned off comments on that story."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something said or written to give an opinion",
+          "body": [
+            "(замечание, высказывание)",
+            "---"
+          ],
+          "examples": [
+            "The senator had no comment on the report.",
+            "His comment about her accent was rude.",
+            "She made a few comments at the end of the meeting."
+          ]
+        }
+      ],
+      "русский": "комментарий; замечание, высказывание",
       "plural": "comments",
       "countability": "countable"
     },
@@ -183,14 +300,43 @@
       "term": "troll",
       "ipa": "/troʊl/",
       "respell": "TROHL",
-      "meaning": "Someone who posts rude things online just to upset people. ---",
+      "meaning": "Troll has 2 distinct senses.",
       "examples": [
         "Don't feed the troll.",
         "The trolls found her post within an hour.",
-        "One troll can ruin a whole comment section."
+        "One troll can ruin a whole comment section.",
+        "In the story, a troll guards the bridge.",
+        "The kids drew trolls with huge noses.",
+        "He read them a tale about a troll who turned to stone in the sun."
       ],
-      "senses": [],
-      "русский": "тролль (интернет-провокатор)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who posts rude things online just to upset people",
+          "body": [
+            "(тролль (интернет-провокатор))"
+          ],
+          "examples": [
+            "Don't feed the troll.",
+            "The trolls found her post within an hour.",
+            "One troll can ruin a whole comment section."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An ugly creature in old northern European stories, said to live in caves or under bridges",
+          "body": [
+            "(тролль (сказочное существо))",
+            "---"
+          ],
+          "examples": [
+            "In the story, a troll guards the bridge.",
+            "The kids drew trolls with huge noses.",
+            "He read them a tale about a troll who turned to stone in the sun."
+          ]
+        }
+      ],
+      "русский": "тролль (интернет-провокатор); тролль (сказочное существо)",
       "plural": "trolls",
       "countability": "countable"
     },
@@ -257,14 +403,43 @@
       "term": "like",
       "ipa": "/laɪk/",
       "respell": "LYKE",
-      "meaning": "A click that shows you approve of a post. ---",
+      "meaning": "Like has 2 distinct senses.",
       "examples": [
         "The photo got two hundred likes overnight.",
         "He counts every like on every post.",
-        "One like from her and he was happy all day."
+        "One like from her and he was happy all day.",
+        "She knows all my likes and dislikes.",
+        "The form asks about your likes in music and food.",
+        "Their likes and dislikes are almost identical."
       ],
-      "senses": [],
-      "русский": "лайк, отметка «нравится»",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A click that shows you approve of a post",
+          "body": [
+            "(лайк, отметка «нравится»)"
+          ],
+          "examples": [
+            "The photo got two hundred likes overnight.",
+            "He counts every like on every post.",
+            "One like from her and he was happy all day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that a person enjoys or prefers",
+          "body": [
+            "(вкусы, пристрастия)",
+            "---"
+          ],
+          "examples": [
+            "She knows all my likes and dislikes.",
+            "The form asks about your likes in music and food.",
+            "Their likes and dislikes are almost identical."
+          ]
+        }
+      ],
+      "русский": "лайк, отметка «нравится»; вкусы, пристрастия",
       "plural": "likes",
       "countability": "countable"
     },
@@ -272,14 +447,58 @@
       "term": "setting",
       "ipa": "/ˈsɛtɪŋ/",
       "respell": "SET-ing",
-      "meaning": "One of the choices you can change to control how something works. ---",
+      "meaning": "Setting has 3 distinct senses.",
       "examples": [
         "Change that setting and the noise stops.",
         "All my settings got wiped in the update.",
-        "There's a setting to turn off autoplay."
+        "There's a setting to turn off autoplay.",
+        "The inn sits in a beautiful setting above the lake.",
+        "It was an odd setting for a business meeting.",
+        "The garden makes a lovely setting for a wedding.",
+        "The novel's setting is a small town in the 1930s.",
+        "The setting shifts to Chicago in the second half.",
+        "Half the class missed the question about the setting."
       ],
-      "senses": [],
-      "русский": "настройка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the choices you can change to control how something works",
+          "body": [
+            "(настройка)"
+          ],
+          "examples": [
+            "Change that setting and the noise stops.",
+            "All my settings got wiped in the update.",
+            "There's a setting to turn off autoplay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place and surroundings in which something happens or stands",
+          "body": [
+            "(обстановка, окружение, место)"
+          ],
+          "examples": [
+            "The inn sits in a beautiful setting above the lake.",
+            "It was an odd setting for a business meeting.",
+            "The garden makes a lovely setting for a wedding."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The time and place in which a story or film takes place",
+          "body": [
+            "(место и время действия (в произведении))",
+            "---"
+          ],
+          "examples": [
+            "The novel's setting is a small town in the 1930s.",
+            "The setting shifts to Chicago in the second half.",
+            "Half the class missed the question about the setting."
+          ]
+        }
+      ],
+      "русский": "настройка; обстановка, окружение, место; место и время действия (в произведении)",
       "plural": "settings",
       "countability": "countable"
     },
@@ -287,14 +506,43 @@
       "term": "option",
       "ipa": "/ˈɑːpʃən/",
       "respell": "AHP-shun",
-      "meaning": "One of the choices available to you. ---",
+      "meaning": "Option has 2 distinct senses.",
       "examples": [
         "Pick the second option on the list.",
         "You have three options for shipping.",
-        "Canceling isn't really an option right now."
+        "Canceling isn't really an option right now.",
+        "Her pay package includes stock options.",
+        "He exercised his options as soon as they vested.",
+        "The studio bought an option on her novel."
       ],
-      "senses": [],
-      "русский": "вариант, опция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the choices available to you",
+          "body": [
+            "(вариант, опция)"
+          ],
+          "examples": [
+            "Pick the second option on the list.",
+            "You have three options for shipping.",
+            "Canceling isn't really an option right now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A contract giving the right to buy or sell something at a set price",
+          "body": [
+            "(опцион)",
+            "---"
+          ],
+          "examples": [
+            "Her pay package includes stock options.",
+            "He exercised his options as soon as they vested.",
+            "The studio bought an option on her novel."
+          ]
+        }
+      ],
+      "русский": "вариант, опция; опцион",
       "plural": "options",
       "countability": "countable"
     },
@@ -332,14 +580,58 @@
       "term": "text",
       "ipa": "/tɛkst/",
       "respell": "TEKST",
-      "meaning": "A short written message sent from one phone to another. ---",
+      "meaning": "Text has 3 distinct senses.",
       "examples": [
         "Send me a text when you land.",
         "I have four unread texts from my mom.",
-        "His last text just said okay."
+        "His last text just said okay.",
+        "The text of the speech was posted online that night.",
+        "The pictures are nice, but the text is hard to follow.",
+        "She compared the two texts line by line.",
+        "The required texts cost almost four hundred dollars.",
+        "He still has his old chemistry text.",
+        "The professor wrote the text we're using."
       ],
-      "senses": [],
-      "русский": "СМС, текстовое сообщение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short written message sent from one phone to another",
+          "body": [
+            "(СМС, текстовое сообщение)"
+          ],
+          "examples": [
+            "Send me a text when you land.",
+            "I have four unread texts from my mom.",
+            "His last text just said okay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The written words of a book, an article, or a document",
+          "body": [
+            "(текст)"
+          ],
+          "examples": [
+            "The text of the speech was posted online that night.",
+            "The pictures are nice, but the text is hard to follow.",
+            "She compared the two texts line by line."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A book used for study in a course",
+          "body": [
+            "(учебник, учебное пособие)",
+            "---"
+          ],
+          "examples": [
+            "The required texts cost almost four hundred dollars.",
+            "He still has his old chemistry text.",
+            "The professor wrote the text we're using."
+          ]
+        }
+      ],
+      "русский": "СМС, текстовое сообщение; текст; учебник, учебное пособие",
       "plural": "texts",
       "countability": "countable"
     },
@@ -347,14 +639,73 @@
       "term": "contact",
       "ipa": "/ˈkɑːntækt/",
       "respell": "KAHN-takt",
-      "meaning": "A person whose phone number or address you have saved. ---",
+      "meaning": "Contact has 4 distinct senses.",
       "examples": [
         "Add me as a contact so I don't go to spam.",
         "I lost all my contacts when the phone died.",
-        "She has a contact at the newspaper."
+        "She has a contact at the newspaper.",
+        "Do not let the wire come into contact with water.",
+        "The disease spreads through contact with the skin.",
+        "His hand made contact with the hot pan.",
+        "We lost contact with them after the move.",
+        "She has had no contact with her father in years.",
+        "Stay in contact while you're away.",
+        "I wear contacts during the week and glasses at night.",
+        "One of my contacts fell out on the bus.",
+        "She keeps a spare contact in her bag."
       ],
-      "senses": [],
-      "русский": "контакт (запись в телефоне)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person whose phone number or address you have saved",
+          "body": [
+            "(контакт (запись в телефоне))"
+          ],
+          "examples": [
+            "Add me as a contact so I don't go to spam.",
+            "I lost all my contacts when the phone died.",
+            "She has a contact at the newspaper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of two things touching each other",
+          "body": [
+            "(соприкосновение, контакт)"
+          ],
+          "examples": [
+            "Do not let the wire come into contact with water.",
+            "The disease spreads through contact with the skin.",
+            "His hand made contact with the hot pan."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Communication between people who are apart",
+          "body": [
+            "(связь, общение)"
+          ],
+          "examples": [
+            "We lost contact with them after the move.",
+            "She has had no contact with her father in years.",
+            "Stay in contact while you're away."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A thin lens worn on the eye instead of glasses, usually used in the plural",
+          "body": [
+            "(контактная линза)",
+            "---"
+          ],
+          "examples": [
+            "I wear contacts during the week and glasses at night.",
+            "One of my contacts fell out on the bus.",
+            "She keeps a spare contact in her bag."
+          ]
+        }
+      ],
+      "русский": "контакт (запись в телефоне); соприкосновение, контакт; связь, общение; контактная линза",
       "plural": "contacts",
       "countability": "countable",
       "contrast": "The noun is stressed on the first syllable, KAHN-takt; the verb is kun-TAKT."
@@ -451,14 +802,43 @@
       "term": "message",
       "ipa": "/ˈmɛsɪdʒ/",
       "respell": "MES-ij",
-      "meaning": "A piece of information sent from one person to another. ---",
+      "meaning": "Message has 2 distinct senses.",
       "examples": [
         "I left a message with his secretary.",
         "She sent three messages before I woke up.",
-        "The message never went through."
+        "The message never went through.",
+        "The film's message is that it's never too late to change.",
+        "Her speech had a simple message: show up.",
+        "The ads send a mixed message to kids."
       ],
-      "senses": [],
-      "русский": "сообщение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of information sent from one person to another",
+          "body": [
+            "(сообщение)"
+          ],
+          "examples": [
+            "I left a message with his secretary.",
+            "She sent three messages before I woke up.",
+            "The message never went through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main idea that a book, movie, or speech is trying to get across",
+          "body": [
+            "(идея, посыл (произведения))",
+            "---"
+          ],
+          "examples": [
+            "The film's message is that it's never too late to change.",
+            "Her speech had a simple message: show up.",
+            "The ads send a mixed message to kids."
+          ]
+        }
+      ],
+      "русский": "сообщение; идея, посыл (произведения)",
       "plural": "messages",
       "countability": "countable"
     },
@@ -466,14 +846,43 @@
       "term": "letter",
       "ipa": "/ˈlɛtər/",
       "respell": "LET-ur",
-      "meaning": "A written message sent to someone, usually by mail. ---",
+      "meaning": "Letter has 2 distinct senses.",
       "examples": [
         "He wrote her a letter every week that summer.",
         "The letters were tied with a ribbon in a shoebox.",
-        "A letter from the IRS is never good news."
+        "A letter from the IRS is never good news.",
+        "The word 'rhythm' has six letters.",
+        "She wrote her name in capital letters.",
+        "The last letter on the sign had fallen off."
       ],
-      "senses": [],
-      "русский": "письмо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A written message sent to someone, usually by mail",
+          "body": [
+            "(письмо)"
+          ],
+          "examples": [
+            "He wrote her a letter every week that summer.",
+            "The letters were tied with a ribbon in a shoebox.",
+            "A letter from the IRS is never good news."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the written signs that make up an alphabet",
+          "body": [
+            "(буква)",
+            "---"
+          ],
+          "examples": [
+            "The word 'rhythm' has six letters.",
+            "She wrote her name in capital letters.",
+            "The last letter on the sign had fallen off."
+          ]
+        }
+      ],
+      "русский": "письмо; буква",
       "plural": "letters",
       "countability": "countable"
     },
@@ -481,14 +890,43 @@
       "term": "package",
       "ipa": "/ˈpækɪdʒ/",
       "respell": "PAK-ij",
-      "meaning": "Something wrapped or boxed and sent through the mail. ---",
+      "meaning": "Package has 2 distinct senses.",
       "examples": [
         "A package is sitting on the porch.",
         "Two packages went to the wrong house.",
-        "The package should get there by Thursday."
+        "The package should get there by Thursday.",
+        "The job came with a good benefits package.",
+        "Congress passed a relief package in December.",
+        "We booked a vacation package that includes the flight."
       ],
-      "senses": [],
-      "русский": "посылка, бандероль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something wrapped or boxed and sent through the mail",
+          "body": [
+            "(посылка, бандероль)"
+          ],
+          "examples": [
+            "A package is sitting on the porch.",
+            "Two packages went to the wrong house.",
+            "The package should get there by Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of things offered together as one deal",
+          "body": [
+            "(пакет (услуг, льгот), комплект)",
+            "---"
+          ],
+          "examples": [
+            "The job came with a good benefits package.",
+            "Congress passed a relief package in December.",
+            "We booked a vacation package that includes the flight."
+          ]
+        }
+      ],
+      "русский": "посылка, бандероль; пакет (услуг, льгот), комплект",
       "plural": "packages",
       "countability": "countable"
     },
@@ -541,14 +979,58 @@
       "term": "notice",
       "ipa": "/ˈnoʊtɪs/",
       "respell": "NOH-tus",
-      "meaning": "A written or printed statement giving information or a warning. ---",
+      "meaning": "Notice has 3 distinct senses.",
       "examples": [
         "There's a notice posted on the front door.",
         "The bank mailed notices to every account holder.",
-        "We got a notice that rent is going up."
+        "We got a notice that rent is going up.",
+        "The mistake escaped everyone's notice.",
+        "Her work finally came to the director's notice.",
+        "Take no notice of what he says.",
+        "She gave her boss two weeks' notice.",
+        "The rules can change without notice.",
+        "They canceled the flight on short notice."
       ],
-      "senses": [],
-      "русский": "уведомление, объявление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A written or printed statement giving information or a warning",
+          "body": [
+            "(уведомление, объявление)"
+          ],
+          "examples": [
+            "There's a notice posted on the front door.",
+            "The bank mailed notices to every account holder.",
+            "We got a notice that rent is going up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Attention paid to someone or something",
+          "body": [
+            "(внимание)"
+          ],
+          "examples": [
+            "The mistake escaped everyone's notice.",
+            "Her work finally came to the director's notice.",
+            "Take no notice of what he says."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A warning given ahead of time that something will happen",
+          "body": [
+            "(предупреждение заранее, уведомление (об уходе))",
+            "---"
+          ],
+          "examples": [
+            "She gave her boss two weeks' notice.",
+            "The rules can change without notice.",
+            "They canceled the flight on short notice."
+          ]
+        }
+      ],
+      "русский": "уведомление, объявление; внимание; предупреждение заранее, уведомление (об уходе)",
       "plural": "notices",
       "countability": "countable"
     },
@@ -631,14 +1113,58 @@
       "term": "support",
       "ipa": "/səˈpɔːrt/",
       "respell": "suh-PORT",
-      "meaning": "Help given to customers who have trouble with a product or service. ---",
+      "meaning": "Support has 3 distinct senses.",
       "examples": [
         "I was on hold with support for forty minutes.",
         "Technical support is only open on weekdays.",
-        "Their customer support is the reason I stayed."
+        "Their customer support is the reason I stayed.",
+        "Her family gave her a lot of support after the accident.",
+        "The bill has strong support in the Senate.",
+        "He pays child support every month.",
+        "Steel supports hold up the balcony.",
+        "The shelf needs another support in the middle.",
+        "Crews put temporary supports under the sagging roof."
       ],
-      "senses": [],
-      "русский": "поддержка, техподдержка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Help given to customers who have trouble with a product or service",
+          "body": [
+            "(поддержка, техподдержка)"
+          ],
+          "examples": [
+            "I was on hold with support for forty minutes.",
+            "Technical support is only open on weekdays.",
+            "Their customer support is the reason I stayed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Help, encouragement, or money given to a person or a cause",
+          "body": [
+            "(поддержка, помощь)"
+          ],
+          "examples": [
+            "Her family gave her a lot of support after the accident.",
+            "The bill has strong support in the Senate.",
+            "He pays child support every month."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A part that holds the weight of something and keeps it from falling",
+          "body": [
+            "(опора, подпорка)",
+            "---"
+          ],
+          "examples": [
+            "Steel supports hold up the balcony.",
+            "The shelf needs another support in the middle.",
+            "Crews put temporary supports under the sagging roof."
+          ]
+        }
+      ],
+      "русский": "поддержка, техподдержка; поддержка, помощь; опора, подпорка",
       "countability": "uncountable"
     },
     {
@@ -660,14 +1186,42 @@
       "term": "search",
       "ipa": "/sɜːrtʃ/",
       "respell": "SURCH",
-      "meaning": "An attempt to find something, especially by typing words into a website.",
+      "meaning": "Search has 2 distinct senses.",
       "examples": [
         "A quick search turned up her phone number.",
         "The site logs every search you make.",
-        "Two searches gave me completely different results."
+        "Two searches gave me completely different results.",
+        "The search of the apartment turned up nothing.",
+        "Officers need a warrant for a search like that.",
+        "A quick search at the gate found the knife."
       ],
-      "senses": [],
-      "русский": "поиск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An attempt to find something, especially by typing words into a website",
+          "body": [
+            "(поиск)"
+          ],
+          "examples": [
+            "A quick search turned up her phone number.",
+            "The site logs every search you make.",
+            "Two searches gave me completely different results."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An examination of a person, a bag, or a building by officers looking for something",
+          "body": [
+            "(обыск, досмотр)"
+          ],
+          "examples": [
+            "The search of the apartment turned up nothing.",
+            "Officers need a warrant for a search like that.",
+            "A quick search at the gate found the knife."
+          ]
+        }
+      ],
+      "русский": "поиск; обыск, досмотр",
       "plural": "searches",
       "countability": "countable"
     }

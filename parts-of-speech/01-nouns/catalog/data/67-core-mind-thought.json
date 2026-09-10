@@ -6,14 +6,58 @@
       "term": "mind",
       "ipa": "/maɪnd/",
       "respell": "MYND",
-      "meaning": "The part of a person that thinks, feels, and remembers. ---",
+      "meaning": "Mind has 3 distinct senses.",
       "examples": [
         "Something was on her mind all afternoon.",
         "He has one of the sharpest minds in the department.",
-        "I've changed my mind about the job offer."
+        "I've changed my mind about the job offer.",
+        "She was one of the finest minds of her generation.",
+        "The lab attracts the best young minds in the field.",
+        "It took a great mind to see the pattern at all.",
+        "She changed her mind about going.",
+        "He always speaks his mind at meetings.",
+        "We were of the same mind on the budget."
       ],
-      "senses": [],
-      "русский": "разум, ум",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a person that thinks, feels, and remembers",
+          "body": [
+            "(разум, ум)"
+          ],
+          "examples": [
+            "Something was on her mind all afternoon.",
+            "He has one of the sharpest minds in the department.",
+            "I've changed my mind about the job offer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person of great intelligence",
+          "body": [
+            "(ум, светлая голова (о человеке))"
+          ],
+          "examples": [
+            "She was one of the finest minds of her generation.",
+            "The lab attracts the best young minds in the field.",
+            "It took a great mind to see the pattern at all."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person's opinion or intention about something",
+          "body": [
+            "(мнение, намерение)",
+            "---"
+          ],
+          "examples": [
+            "She changed her mind about going.",
+            "He always speaks his mind at meetings.",
+            "We were of the same mind on the budget."
+          ]
+        }
+      ],
+      "русский": "разум, ум; ум, светлая голова (о человеке); мнение, намерение",
       "plural": "minds",
       "countability": "countable"
     },
@@ -36,14 +80,58 @@
       "term": "opinion",
       "ipa": "/əˈpɪnjən/",
       "respell": "uh-PIN-yuhn",
-      "meaning": "What a person thinks or believes about something. ---",
+      "meaning": "Opinion has 3 distinct senses.",
       "examples": [
         "In my opinion, the second draft is much better.",
         "People have strong opinions about the new law.",
-        "The doctor wants a second opinion before operating."
+        "The doctor wants a second opinion before operating.",
+        "The court's opinion ran to ninety pages.",
+        "Two justices wrote dissenting opinions.",
+        "The opinion did not settle the question for good.",
+        "Get a second opinion before you agree to surgery.",
+        "The insurance company wants an opinion from its own doctor.",
+        "Her lawyer gave a written opinion on the contract."
       ],
-      "senses": [],
-      "русский": "мнение, взгляд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What a person thinks or believes about something",
+          "body": [
+            "(мнение, взгляд)"
+          ],
+          "examples": [
+            "In my opinion, the second draft is much better.",
+            "People have strong opinions about the new law.",
+            "The doctor wants a second opinion before operating."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A judge's written explanation of a court's decision",
+          "body": [
+            "(решение суда с обоснованием, заключение суда)"
+          ],
+          "examples": [
+            "The court's opinion ran to ninety pages.",
+            "Two justices wrote dissenting opinions.",
+            "The opinion did not settle the question for good."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Professional advice from an expert, especially a doctor",
+          "body": [
+            "(заключение специалиста, мнение врача)",
+            "---"
+          ],
+          "examples": [
+            "Get a second opinion before you agree to surgery.",
+            "The insurance company wants an opinion from its own doctor.",
+            "Her lawyer gave a written opinion on the contract."
+          ]
+        }
+      ],
+      "русский": "мнение, взгляд; решение суда с обоснованием, заключение суда; заключение специалиста, мнение врача",
       "plural": "opinions",
       "countability": "countable"
     },
@@ -80,14 +168,58 @@
       "term": "sense",
       "ipa": "/sɛns/",
       "respell": "SENS",
-      "meaning": "One of the body's powers of perception, or practical good judgment. ---",
+      "meaning": "Sense has 3 distinct senses.",
       "examples": [
         "A dog's sense of smell is remarkable.",
         "The cold water woke up all five of his senses.",
-        "Have the sense to wear a coat when it's ten degrees out."
+        "Have the sense to wear a coat when it's ten degrees out.",
+        "I felt a huge sense of relief when the call finally came.",
+        "He has no sense of direction at all.",
+        "There's a growing sense that nothing will change.",
+        "The word has at least four senses in this dictionary.",
+        "In what sense are you using the word free?",
+        "He meant it in the older sense of the word."
       ],
-      "senses": [],
-      "русский": "чувство (ощущение); смысл, здравый смысл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the body's powers of perception, or practical good judgment",
+          "body": [
+            "(чувство (ощущение); смысл, здравый смысл)"
+          ],
+          "examples": [
+            "A dog's sense of smell is remarkable.",
+            "The cold water woke up all five of his senses.",
+            "Have the sense to wear a coat when it's ten degrees out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling or awareness of something",
+          "body": [
+            "(чувство, ощущение (чего-л.))"
+          ],
+          "examples": [
+            "I felt a huge sense of relief when the call finally came.",
+            "He has no sense of direction at all.",
+            "There's a growing sense that nothing will change."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the meanings of a word or phrase",
+          "body": [
+            "(значение (слова))",
+            "---"
+          ],
+          "examples": [
+            "The word has at least four senses in this dictionary.",
+            "In what sense are you using the word free?",
+            "He meant it in the older sense of the word."
+          ]
+        }
+      ],
+      "русский": "чувство (ощущение); смысл, здравый смысл; чувство, ощущение (чего-л.); значение (слова)",
       "plural": "senses",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -638,14 +770,58 @@
       "term": "plan",
       "ipa": "/plæn/",
       "respell": "PLAN",
-      "meaning": "An arrangement worked out in advance for doing something. ---",
+      "meaning": "Plan has 3 distinct senses.",
       "examples": [
         "We need a plan before we start knocking down walls.",
         "Their weekend plans fell apart on Friday night.",
-        "The plan is to leave around six."
+        "The plan is to leave around six.",
+        "The architect emailed us the floor plans.",
+        "The plan shows where the outlets go.",
+        "They changed the plans to add a second bathroom.",
+        "My phone plan includes unlimited data.",
+        "The company offers a decent health plan.",
+        "We switched to a cheaper plan last month."
       ],
-      "senses": [],
-      "русский": "план",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arrangement worked out in advance for doing something",
+          "body": [
+            "(план)"
+          ],
+          "examples": [
+            "We need a plan before we start knocking down walls.",
+            "Their weekend plans fell apart on Friday night.",
+            "The plan is to leave around six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A drawing that shows a building or a room as seen from above",
+          "body": [
+            "(план, чертёж (здания))"
+          ],
+          "examples": [
+            "The architect emailed us the floor plans.",
+            "The plan shows where the outlets go.",
+            "They changed the plans to add a second bathroom."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An arrangement with a company for a service you pay for regularly",
+          "body": [
+            "(тарифный план; программа (страхования))",
+            "---"
+          ],
+          "examples": [
+            "My phone plan includes unlimited data.",
+            "The company offers a decent health plan.",
+            "We switched to a cheaper plan last month."
+          ]
+        }
+      ],
+      "русский": "план; план, чертёж (здания); тарифный план; программа (страхования)",
       "plural": "plans",
       "countability": "countable"
     },
@@ -668,14 +844,58 @@
       "term": "choice",
       "ipa": "/tʃɔɪs/",
       "respell": "CHOYS",
-      "meaning": "An act of picking one thing rather than another. ---",
+      "meaning": "Choice has 3 distinct senses.",
       "examples": [
         "You made the right choice.",
         "The menu offers plenty of vegetarian choices.",
-        "I had no choice but to walk home."
+        "I had no choice but to walk home.",
+        "The menu offers a wide choice of salads.",
+        "There is not much choice in a town this small.",
+        "Buyers have more choice today than ever.",
+        "That school was her first choice.",
+        "He was the obvious choice for the job.",
+        "Vanilla would not be my choice."
       ],
-      "senses": [],
-      "русский": "выбор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of picking one thing rather than another",
+          "body": [
+            "(выбор)"
+          ],
+          "examples": [
+            "You made the right choice.",
+            "The menu offers plenty of vegetarian choices.",
+            "I had no choice but to walk home."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The range of things available to pick from",
+          "body": [
+            "(выбор (ассортимент, набор вариантов))"
+          ],
+          "examples": [
+            "The menu offers a wide choice of salads.",
+            "There is not much choice in a town this small.",
+            "Buyers have more choice today than ever."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The person or thing that is picked",
+          "body": [
+            "(выбранный вариант, избранник)",
+            "---"
+          ],
+          "examples": [
+            "That school was her first choice.",
+            "He was the obvious choice for the job.",
+            "Vanilla would not be my choice."
+          ]
+        }
+      ],
+      "русский": "выбор; выбор (ассортимент, набор вариантов); выбранный вариант, избранник",
       "plural": "choices",
       "countability": "countable"
     },
@@ -698,14 +918,43 @@
       "term": "habit",
       "ipa": "/ˈhæbɪt/",
       "respell": "HA-bit",
-      "meaning": "Something a person does regularly, often without thinking about it. ---",
+      "meaning": "Habit has 2 distinct senses.",
       "examples": [
         "Biting your nails is a hard habit to break.",
         "She has good study habits.",
-        "I got into the habit of walking after dinner."
+        "I got into the habit of walking after dinner.",
+        "The sisters still wear the traditional habit.",
+        "A nun in a gray habit opened the door.",
+        "Their habits were made of rough wool."
       ],
-      "senses": [],
-      "русский": "привычка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something a person does regularly, often without thinking about it",
+          "body": [
+            "(привычка)"
+          ],
+          "examples": [
+            "Biting your nails is a hard habit to break.",
+            "She has good study habits.",
+            "I got into the habit of walking after dinner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The long plain robe worn by a monk or a nun",
+          "body": [
+            "(монашеское одеяние, ряса)",
+            "---"
+          ],
+          "examples": [
+            "The sisters still wear the traditional habit.",
+            "A nun in a gray habit opened the door.",
+            "Their habits were made of rough wool."
+          ]
+        }
+      ],
+      "русский": "привычка; монашеское одеяние, ряса",
       "plural": "habits",
       "countability": "countable"
     },
@@ -802,14 +1051,43 @@
       "term": "fantasy",
       "ipa": "/ˈfæntəsi/",
       "respell": "FAN-tuh-see",
-      "meaning": "An imagined situation that is pleasant but unlikely. ---",
+      "meaning": "Fantasy has 2 distinct senses.",
       "examples": [
         "Winning the lottery is a common fantasy.",
         "His fantasies about the job didn't match the reality.",
-        "The whole plan was pure fantasy."
+        "The whole plan was pure fantasy.",
+        "He reads nothing but fantasy.",
+        "The store keeps fantasy and science fiction on the same shelf.",
+        "It's a fantasy novel about a kingdom of dragons."
       ],
-      "senses": [],
-      "русский": "фантазия, вымысел",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An imagined situation that is pleasant but unlikely",
+          "body": [
+            "(фантазия, вымысел)"
+          ],
+          "examples": [
+            "Winning the lottery is a common fantasy.",
+            "His fantasies about the job didn't match the reality.",
+            "The whole plan was pure fantasy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The kind of story or film set in an imaginary world with magic",
+          "body": [
+            "(фэнтези (жанр))",
+            "---"
+          ],
+          "examples": [
+            "He reads nothing but fantasy.",
+            "The store keeps fantasy and science fiction on the same shelf.",
+            "It's a fantasy novel about a kingdom of dragons."
+          ]
+        }
+      ],
+      "русский": "фантазия, вымысел; фэнтези (жанр)",
       "plural": "fantasies",
       "countability": "both — countable and uncountable with different meanings"
     },

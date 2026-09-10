@@ -74,15 +74,23 @@ An Arctic whale whose long straight tusk sticks out from its head.
 ### shark
 
 **Pronunciation:** /ʃɑːrk/ &middot; *SHARK*
-**Русский:** акула
+**Русский:** акула; мошенник, хищник; ростовщик
 **Plural:** *sharks*
 **Countability:** countable
 
-A large fish with rows of sharp teeth and a fin that shows above the water.
+Shark has 2 distinct senses.
+
+**1. A large fish with rows of sharp teeth and a fin that shows above the water.** (акула)
 
 1. They closed the beach after someone spotted a *shark*.
 2. Most *sharks* have no interest in people at all.
 3. The aquarium's tunnel takes you right under the *sharks*.
+
+**2. A person who cheats others or lends money at cruel rates.** (мошенник, хищник; ростовщик)
+
+4. He borrowed from a loan *shark* and never got clear of it.
+5. Watch out for *sharks* at that end of the business.
+6. The quiet old man turned out to be a pool *shark*.
 
 ---
 
@@ -590,16 +598,24 @@ A cheap white ocean fish used in fish sticks and fast-food sandwiches.
 ### mullet
 
 **Pronunciation:** /ˈmʌlət/ &middot; *MUL-uht*
-**Русский:** кефаль
+**Русский:** кефаль; маллет (стрижка: спереди коротко, сзади длинно)
 **Plural:** *mullet*
 **Countability:** countable, and uncountable as food
 **Contrast:** The same word also names the haircut — only context tells you which.
 
-A silvery coastal fish that travels in schools and often jumps.
+Mullet has 2 distinct senses.
+
+**1. A silvery coastal fish that travels in schools and often jumps.** (кефаль)
 
 1. A school of *mullet* boiled up right off the beach.
 2. Smoked *mullet* is a Florida tradition.
 3. He threw a cast net and came up with a dozen *mullet*.
+
+**2. A haircut that is short at the front and sides and left long at the back.** (маллет (стрижка: спереди коротко, сзади длинно))
+
+4. He had a *mullet* all through high school.
+5. The old band photo is nothing but *mullets* and denim.
+6. *Mullets* are apparently back in style.
 
 ---
 
@@ -879,16 +895,24 @@ The fin on the back of a fish or whale, the one you see above the water.
 ### gill
 
 **Pronunciation:** /ɡɪl/ &middot; *GIL*
-**Русский:** жабра
+**Русский:** жабра; пластинка (на нижней стороне шляпки гриба)
 **Plural:** *gills*
 **Countability:** countable
 **Contrast:** Almost always used in the plural: *gills*.
 
-One of the organs a fish uses to take oxygen out of water.
+Gill has 2 distinct senses.
+
+**1. One of the organs a fish uses to take oxygen out of water.** (жабра)
 
 1. Fish breathe through their *gills*.
 2. You can judge how fresh a fish is by the color of its *gills*.
 3. A single damaged *gill* can kill the fish.
+
+**2. One of the thin ribs on the underside of a mushroom cap.** (пластинка (на нижней стороне шляпки гриба))
+
+4. The *gills* under the cap were dark brown.
+5. You can identify many mushrooms by the color of their *gills*.
+6. Brush the dirt off the cap without tearing the *gills*.
 
 ---
 
@@ -910,15 +934,23 @@ A long flexible arm that a sea animal uses to feel, grab, or sting.
 ### flipper
 
 **Pronunciation:** /ˈflɪpər/ &middot; *FLIP-ur*
-**Русский:** ласт
+**Русский:** ласт; ласт (для плавания)
 **Plural:** *flippers*
 **Countability:** countable
 
-A broad flat limb that a sea mammal or turtle uses to swim.
+Flipper has 2 distinct senses.
+
+**1. A broad flat limb that a sea mammal or turtle uses to swim.** (ласт)
 
 1. The seal pushed itself along on its front *flippers*.
 2. A turtle dug a nest with its back *flippers*.
 3. The whale slapped the water with one huge *flipper*.
+
+**2. A long flat rubber shoe worn for swimming and diving.** (ласт (для плавания))
+
+4. He pulled on his mask and *flippers*.
+5. One *flipper* washed up on the beach a day later.
+6. *Flippers* make you much faster in the water.
 
 ---
 
@@ -1241,16 +1273,24 @@ The ground at the bottom of the sea.
 ### shoal
 
 **Pronunciation:** /ʃoʊl/ &middot; *SHOHL*
-**Русский:** мель, отмель
+**Русский:** мель, отмель; косяк (рыбы), стая
 **Plural:** *shoals*
 **Countability:** countable
 **Contrast:** *Shoal* can also mean a group of fish, the way *school* does.
 
-A shallow place in the sea where sand or rock rises near the surface.
+Shoal has 2 distinct senses.
+
+**1. A shallow place in the sea where sand or rock rises near the surface.** (мель, отмель)
 
 1. The chart shows a *shoal* just past the entrance.
 2. Two boats have gone aground on that *shoal* this year.
 3. *Shoals* shift after every big storm.
+
+**2. A large group of fish swimming together.** (косяк (рыбы), стая)
+
+4. A *shoal* of silver fish turned all at once under the boat.
+5. Dolphins drive *shoals* of herring into a tight ball.
+6. The diver swam straight through a *shoal* of tiny blue fish.
 
 ---
 
@@ -1363,30 +1403,46 @@ A long rolling movement of the sea, without breaking waves.
 ### breaker
 
 **Pronunciation:** /ˈbreɪkər/ &middot; *BRAY-kur*
-**Русский:** бурун, накатная волна
+**Русский:** бурун, накатная волна; автоматический выключатель, автомат (в щитке)
 **Plural:** *breakers*
 **Countability:** countable
 
-A wave that curls over and breaks into white water as it reaches shore.
+Breaker has 2 distinct senses.
+
+**1. A wave that curls over and breaks into white water as it reaches shore.** (бурун, накатная волна)
 
 1. The *breakers* were head-high all morning.
 2. A *breaker* knocked the board out of his hands.
 3. You could hear the *breakers* from the parking lot.
+
+**2. A switch that cuts off an electrical circuit when it carries too much current.** (автоматический выключатель, автомат (в щитке))
+
+4. The space heater tripped the *breaker* again.
+5. Flip the *breaker* before you change that outlet.
+6. The *breakers* are in a gray box in the garage.
 
 ---
 
 ### ripple
 
 **Pronunciation:** /ˈrɪpəl/ &middot; *RIP-ul*
-**Русский:** рябь, мелкая волна
+**Русский:** рябь, мелкая волна; волна (смеха, беспокойства), отголосок
 **Plural:** *ripples*
 **Countability:** countable
 
-A very small wave on the surface of water.
+Ripple has 2 distinct senses.
+
+**1. A very small wave on the surface of water.** (рябь, мелкая волна)
 
 1. There wasn't a *ripple* on the water.
 2. *Ripples* spread out from where the fish jumped.
 3. A breeze put a light *ripple* across the bay.
+
+**2. A feeling, sound, or effect that spreads gradually through a group.** (волна (смеха, беспокойства), отголосок)
+
+4. A *ripple* of laughter ran through the audience.
+5. The layoffs sent *ripples* through the whole town.
+6. There was a *ripple* of applause when she finished.
 
 ---
 
@@ -1836,15 +1892,23 @@ A fishing boat that drags a large net behind it.
 ### bait
 
 **Pronunciation:** /beɪt/ &middot; *BAYT*
-**Русский:** наживка, приманка
+**Русский:** наживка, приманка; приманка (для человека)
 **Countability:** uncountable
 **Contrast:** Uncountable: *some bait*, never 'a bait'.
 
-Food put on a hook or in a trap to attract fish.
+Bait has 2 distinct senses.
+
+**1. Food put on a hook or in a trap to attract fish.** (наживка, приманка)
 
 1. We stopped for gas and *bait*.
 2. Something took the *bait* right off the hook.
 3. Cut *bait* works better than lures out here.
+
+**2. Something offered to tempt a person into a trap or a reaction.** (приманка (для человека))
+
+4. The low price was just *bait* to get you into the store.
+5. Don't take the *bait* when he insults you.
+6. Police left an unlocked car as *bait*.
 
 ---
 

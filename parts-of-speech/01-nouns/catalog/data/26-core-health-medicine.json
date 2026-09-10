@@ -65,14 +65,43 @@
       "term": "cold",
       "ipa": "/koʊld/",
       "respell": "KOHLD",
-      "meaning": "A mild illness that gives you a runny nose and a sore throat. ---",
+      "meaning": "Cold has 2 distinct senses.",
       "examples": [
         "I have had this cold for almost two weeks.",
         "Do not kiss the baby if you are catching a cold.",
-        "Kids pick up six or seven colds a year."
+        "Kids pick up six or seven colds a year.",
+        "Come in out of the cold.",
+        "The cold kept us inside all week.",
+        "He stood in the bitter cold waiting for the bus."
       ],
-      "senses": [],
-      "русский": "простуда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mild illness that gives you a runny nose and a sore throat",
+          "body": [
+            "(простуда)"
+          ],
+          "examples": [
+            "I have had this cold for almost two weeks.",
+            "Do not kiss the baby if you are catching a cold.",
+            "Kids pick up six or seven colds a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Low temperature, especially cold outdoor air",
+          "body": [
+            "(холод, стужа)",
+            "---"
+          ],
+          "examples": [
+            "Come in out of the cold.",
+            "The cold kept us inside all week.",
+            "He stood in the bitter cold waiting for the bus."
+          ]
+        }
+      ],
+      "русский": "простуда; холод, стужа",
       "plural": "colds",
       "countability": "countable"
     },
@@ -80,14 +109,43 @@
       "term": "fever",
       "ipa": "/ˈfiːvər/",
       "respell": "FEE-vur",
-      "meaning": "A body temperature higher than normal, usually caused by illness. ---",
+      "meaning": "Fever has 2 distinct senses.",
       "examples": [
         "She is running a fever of 102.",
         "Give him this if the fever does not break by morning.",
-        "High fevers in small children can be scary."
+        "High fevers in small children can be scary.",
+        "The whole town is in a fever over the playoffs.",
+        "Election fever took over the newsroom.",
+        "By June the excitement had reached a fever pitch."
       ],
-      "senses": [],
-      "русский": "жар, повышенная температура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A body temperature higher than normal, usually caused by illness",
+          "body": [
+            "(жар, повышенная температура)"
+          ],
+          "examples": [
+            "She is running a fever of 102.",
+            "Give him this if the fever does not break by morning.",
+            "High fevers in small children can be scary."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of intense excitement shared by many people",
+          "body": [
+            "(лихорадка, ажиотаж)",
+            "---"
+          ],
+          "examples": [
+            "The whole town is in a fever over the playoffs.",
+            "Election fever took over the newsroom.",
+            "By June the excitement had reached a fever pitch."
+          ]
+        }
+      ],
+      "русский": "жар, повышенная температура; лихорадка, ажиотаж",
       "plural": "fevers",
       "countability": "countable"
     },
@@ -95,14 +153,43 @@
       "term": "cough",
       "ipa": "/kɔːf/",
       "respell": "KAWF",
-      "meaning": "A sudden noisy push of air from the lungs. ---",
+      "meaning": "Cough has 2 distinct senses.",
       "examples": [
         "That cough has been hanging on since January.",
         "He woke up with a dry cough and a sore throat.",
-        "Take something for the cough before bed."
+        "Take something for the cough before bed.",
+        "He's had a bad cough since Christmas.",
+        "That cough sounds like it's turning into bronchitis.",
+        "Half the class came back from break with coughs."
       ],
-      "senses": [],
-      "русский": "кашель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden noisy push of air from the lungs",
+          "body": [
+            "(кашель)"
+          ],
+          "examples": [
+            "That cough has been hanging on since January.",
+            "He woke up with a dry cough and a sore throat.",
+            "Take something for the cough before bed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An illness or condition in which someone coughs again and again",
+          "body": [
+            "(кашель (как болезненное состояние))",
+            "---"
+          ],
+          "examples": [
+            "He's had a bad cough since Christmas.",
+            "That cough sounds like it's turning into bronchitis.",
+            "Half the class came back from break with coughs."
+          ]
+        }
+      ],
+      "русский": "кашель; кашель (как болезненное состояние)",
       "plural": "coughs",
       "countability": "countable",
       "contrast": "The gh is pronounced /f/ — cough rhymes with off, not with dough or through."
@@ -158,14 +245,43 @@
       "term": "rash",
       "ipa": "/ræʃ/",
       "respell": "RASH",
-      "meaning": "An area of red, irritated spots on the skin. ---",
+      "meaning": "Rash has 2 distinct senses.",
       "examples": [
         "The antibiotic gave her a rash all over her arms.",
         "That rash looks like poison ivy.",
-        "Diaper rashes clear up fast with the right cream."
+        "Diaper rashes clear up fast with the right cream.",
+        "There has been a rash of break-ins on our block.",
+        "A rash of resignations followed the report.",
+        "Police are looking into a rash of car thefts downtown."
       ],
-      "senses": [],
-      "русский": "сыпь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An area of red, irritated spots on the skin",
+          "body": [
+            "(сыпь)"
+          ],
+          "examples": [
+            "The antibiotic gave her a rash all over her arms.",
+            "That rash looks like poison ivy.",
+            "Diaper rashes clear up fast with the right cream."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden burst of unpleasant events happening close together",
+          "body": [
+            "(волна, всплеск (происшествий))",
+            "---"
+          ],
+          "examples": [
+            "There has been a rash of break-ins on our block.",
+            "A rash of resignations followed the report.",
+            "Police are looking into a rash of car thefts downtown."
+          ]
+        }
+      ],
+      "русский": "сыпь; волна, всплеск (происшествий)",
       "plural": "rashes",
       "countability": "countable"
     },
@@ -204,14 +320,43 @@
       "term": "cancer",
       "ipa": "/ˈkænsər/",
       "respell": "KAN-sur",
-      "meaning": "A disease in which abnormal cells grow out of control. ---",
+      "meaning": "Cancer has 2 distinct senses.",
       "examples": [
         "Her mother beat cancer twice.",
         "Smoking is the leading cause of lung cancer.",
-        "He was treated for cancer last spring."
+        "He was treated for cancer last spring.",
+        "Corruption is a cancer on the whole system.",
+        "He called the gangs a cancer eating the neighborhood.",
+        "Distrust spread through the team like a cancer."
       ],
-      "senses": [],
-      "русский": "рак (болезнь)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A disease in which abnormal cells grow out of control",
+          "body": [
+            "(рак (болезнь))"
+          ],
+          "examples": [
+            "Her mother beat cancer twice.",
+            "Smoking is the leading cause of lung cancer.",
+            "He was treated for cancer last spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something evil that spreads through a group and destroys it",
+          "body": [
+            "(зло, разъедающее общество; язва)",
+            "---"
+          ],
+          "examples": [
+            "Corruption is a cancer on the whole system.",
+            "He called the gangs a cancer eating the neighborhood.",
+            "Distrust spread through the team like a cancer."
+          ]
+        }
+      ],
+      "русский": "рак (болезнь); зло, разъедающее общество; язва",
       "countability": "uncountable"
     },
     {
@@ -324,14 +469,43 @@
       "term": "burn",
       "ipa": "/bɜːrn/",
       "respell": "BURN",
-      "meaning": "An injury caused by heat, fire, or chemicals. ---",
+      "meaning": "Burn has 2 distinct senses.",
       "examples": [
         "He got a nasty burn from the oven rack.",
         "Run cold water over the burn.",
-        "The burns on her hands took months to heal."
+        "The burns on her hands took months to heal.",
+        "Ouch — that was a burn.",
+        "Her reply was the burn of the night.",
+        "He laughed off the burn and kept talking."
       ],
-      "senses": [],
-      "русский": "ожог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An injury caused by heat, fire, or chemicals",
+          "body": [
+            "(ожог)"
+          ],
+          "examples": [
+            "He got a nasty burn from the oven rack.",
+            "Run cold water over the burn.",
+            "The burns on her hands took months to heal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp, clever insult. Informal",
+          "body": [
+            "(подколка, колкость (разг.))",
+            "---"
+          ],
+          "examples": [
+            "Ouch — that was a burn.",
+            "Her reply was the burn of the night.",
+            "He laughed off the burn and kept talking."
+          ]
+        }
+      ],
+      "русский": "ожог; подколка, колкость (разг.)",
       "plural": "burns",
       "countability": "countable"
     },
@@ -369,14 +543,43 @@
       "term": "scar",
       "ipa": "/skɑːr/",
       "respell": "SKAHR",
-      "meaning": "The mark left on the skin after a wound heals. ---",
+      "meaning": "Scar has 2 distinct senses.",
       "examples": [
         "He still has a scar above his eyebrow.",
         "The surgery left a thin scar.",
-        "Her scars have faded a lot over the years."
+        "Her scars have faded a lot over the years.",
+        "The war left scars that never really healed.",
+        "You can hear the scars of that childhood when she talks about her family.",
+        "Losing the farm left a scar on all of them."
       ],
-      "senses": [],
-      "русский": "шрам, рубец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The mark left on the skin after a wound heals",
+          "body": [
+            "(шрам, рубец)"
+          ],
+          "examples": [
+            "He still has a scar above his eyebrow.",
+            "The surgery left a thin scar.",
+            "Her scars have faded a lot over the years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Lasting emotional damage left by a painful experience",
+          "body": [
+            "(душевная травма, глубокий след (перен.))",
+            "---"
+          ],
+          "examples": [
+            "The war left scars that never really healed.",
+            "You can hear the scars of that childhood when she talks about her family.",
+            "Losing the farm left a scar on all of them."
+          ]
+        }
+      ],
+      "русский": "шрам, рубец; душевная травма, глубокий след (перен.)",
       "plural": "scars",
       "countability": "countable"
     },
@@ -413,14 +616,73 @@
       "term": "stroke",
       "ipa": "/stroʊk/",
       "respell": "STROHK",
-      "meaning": "A sudden loss of blood flow to the brain that damages it. ---",
+      "meaning": "Stroke has 4 distinct senses.",
       "examples": [
         "Her grandfather had a stroke last year.",
         "He is relearning to walk after the stroke.",
-        "High blood pressure raises the risk of strokes."
+        "High blood pressure raises the risk of strokes.",
+        "He finished the sky with a few broad strokes.",
+        "The letters are drawn with very thin strokes.",
+        "She fixed the mistake with one stroke of the pen.",
+        "She swam with long, easy strokes.",
+        "Which stroke are you racing tomorrow?",
+        "He can swim all four competitive strokes.",
+        "By a stroke of luck, the store was still open.",
+        "Hiring her was a stroke of genius.",
+        "It was a stroke of bad timing, nothing more."
       ],
-      "senses": [],
-      "русский": "инсульт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden loss of blood flow to the brain that damages it",
+          "body": [
+            "(инсульт)"
+          ],
+          "examples": [
+            "Her grandfather had a stroke last year.",
+            "He is relearning to walk after the stroke.",
+            "High blood pressure raises the risk of strokes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single movement of a brush, a pen, or a hand across a surface",
+          "body": [
+            "(мазок, штрих)"
+          ],
+          "examples": [
+            "He finished the sky with a few broad strokes.",
+            "The letters are drawn with very thin strokes.",
+            "She fixed the mistake with one stroke of the pen."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A movement of the arms and legs in swimming, or a style of swimming",
+          "body": [
+            "(гребок; стиль плавания)"
+          ],
+          "examples": [
+            "She swam with long, easy strokes.",
+            "Which stroke are you racing tomorrow?",
+            "He can swim all four competitive strokes."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A sudden lucky or brilliant occurrence",
+          "body": [
+            "(внезапный случай (удачи, озарения))",
+            "---"
+          ],
+          "examples": [
+            "By a stroke of luck, the store was still open.",
+            "Hiring her was a stroke of genius.",
+            "It was a stroke of bad timing, nothing more."
+          ]
+        }
+      ],
+      "русский": "инсульт; мазок, штрих; гребок; стиль плавания; внезапный случай (удачи, озарения)",
       "plural": "strokes",
       "countability": "countable"
     },
@@ -428,14 +690,43 @@
       "term": "seizure",
       "ipa": "/ˈsiːʒər/",
       "respell": "SEE-zhur",
-      "meaning": "A sudden burst of abnormal electrical activity in the brain. ---",
+      "meaning": "Seizure has 2 distinct senses.",
       "examples": [
         "He had a seizure in the parking lot.",
         "The new medication cut her seizures in half.",
-        "Roll the person onto their side during a seizure."
+        "Roll the person onto their side during a seizure.",
+        "The seizure of the shipment made the evening news.",
+        "Agents reported the largest drug seizure of the year.",
+        "The law allows the seizure of property used in a crime."
       ],
-      "senses": [],
-      "русский": "припадок, судорожный приступ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden burst of abnormal electrical activity in the brain",
+          "body": [
+            "(припадок, судорожный приступ)"
+          ],
+          "examples": [
+            "He had a seizure in the parking lot.",
+            "The new medication cut her seizures in half.",
+            "Roll the person onto their side during a seizure."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of taking something away by force or by legal authority",
+          "body": [
+            "(изъятие, конфискация; захват)",
+            "---"
+          ],
+          "examples": [
+            "The seizure of the shipment made the evening news.",
+            "Agents reported the largest drug seizure of the year.",
+            "The law allows the seizure of property used in a crime."
+          ]
+        }
+      ],
+      "русский": "припадок, судорожный приступ; изъятие, конфискация; захват",
       "plural": "seizures",
       "countability": "countable"
     },
@@ -563,14 +854,43 @@
       "term": "symptom",
       "ipa": "/ˈsɪmptəm/",
       "respell": "SIMP-tuhm",
-      "meaning": "A sign in the body that shows a disease is present. ---",
+      "meaning": "Symptom has 2 distinct senses.",
       "examples": [
         "A dry cough was the first symptom.",
         "Call us if the symptoms get worse.",
-        "She had every symptom except the fever."
+        "She had every symptom except the fever.",
+        "Long lines at the airport are just a symptom of a bigger problem.",
+        "Rising rents are a symptom of the housing shortage.",
+        "The plan treats the symptoms of the crisis, not its causes."
       ],
-      "senses": [],
-      "русский": "симптом, признак болезни",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sign in the body that shows a disease is present",
+          "body": [
+            "(симптом, признак болезни)"
+          ],
+          "examples": [
+            "A dry cough was the first symptom.",
+            "Call us if the symptoms get worse.",
+            "She had every symptom except the fever."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sign that something is wrong in a situation or a system",
+          "body": [
+            "(признак, проявление (проблемы))",
+            "---"
+          ],
+          "examples": [
+            "Long lines at the airport are just a symptom of a bigger problem.",
+            "Rising rents are a symptom of the housing shortage.",
+            "The plan treats the symptoms of the crisis, not its causes."
+          ]
+        }
+      ],
+      "русский": "симптом, признак болезни; признак, проявление (проблемы)",
       "plural": "symptoms",
       "countability": "countable"
     },
@@ -652,14 +972,58 @@
       "term": "fatigue",
       "ipa": "/fəˈtiːɡ/",
       "respell": "fuh-TEEG",
-      "meaning": "Extreme tiredness that rest does not fix. ---",
+      "meaning": "Fatigue has 3 distinct senses.",
       "examples": [
         "Fatigue is the most common side effect.",
         "She is dealing with constant fatigue.",
-        "The fatigue hit him around week three."
+        "The fatigue hit him around week three.",
+        "The crack in the wing came from metal fatigue.",
+        "Inspectors look for signs of fatigue in the welds.",
+        "Fatigue in the old bridge cables worried the engineers.",
+        "He showed up in green fatigues and heavy boots.",
+        "The troops changed out of their fatigues before dinner.",
+        "She still keeps her old army fatigues in the closet."
       ],
-      "senses": [],
-      "русский": "усталость, утомляемость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Extreme tiredness that rest does not fix",
+          "body": [
+            "(усталость, утомляемость)"
+          ],
+          "examples": [
+            "Fatigue is the most common side effect.",
+            "She is dealing with constant fatigue.",
+            "The fatigue hit him around week three."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Weakening of metal or another material caused by repeated stress",
+          "body": [
+            "(усталость материала)"
+          ],
+          "examples": [
+            "The crack in the wing came from metal fatigue.",
+            "Inspectors look for signs of fatigue in the welds.",
+            "Fatigue in the old bridge cables worried the engineers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The plain, sturdy uniform that soldiers wear for work and training",
+          "body": [
+            "(полевая военная форма)",
+            "---"
+          ],
+          "examples": [
+            "He showed up in green fatigues and heavy boots.",
+            "The troops changed out of their fatigues before dinner.",
+            "She still keeps her old army fatigues in the closet."
+          ]
+        }
+      ],
+      "русский": "усталость, утомляемость; усталость материала; полевая военная форма",
       "countability": "uncountable",
       "contrast": "French spelling, English stress: fuh-TEEG, ending in a hard /ɡ/."
     },
@@ -667,14 +1031,43 @@
       "term": "itch",
       "ipa": "/ɪtʃ/",
       "respell": "ICH",
-      "meaning": "An uncomfortable feeling on the skin that makes you want to scratch. ---",
+      "meaning": "Itch has 2 distinct senses.",
       "examples": [
         "The cream stopped the itch right away.",
         "I have got an itch right between my shoulder blades.",
-        "Bug bites leave an itch that lasts for days."
+        "Bug bites leave an itch that lasts for days.",
+        "He had an itch to get back on the road.",
+        "She felt the old itch to start painting again.",
+        "After two years in one town, the itch came back."
       ],
-      "senses": [],
-      "русский": "зуд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An uncomfortable feeling on the skin that makes you want to scratch",
+          "body": [
+            "(зуд)"
+          ],
+          "examples": [
+            "The cream stopped the itch right away.",
+            "I have got an itch right between my shoulder blades.",
+            "Bug bites leave an itch that lasts for days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A restless desire to do something",
+          "body": [
+            "(тяга, сильное желание)",
+            "---"
+          ],
+          "examples": [
+            "He had an itch to get back on the road.",
+            "She felt the old itch to start painting again.",
+            "After two years in one town, the itch came back."
+          ]
+        }
+      ],
+      "русский": "зуд; тяга, сильное желание",
       "plural": "itches",
       "countability": "countable"
     },
@@ -713,14 +1106,43 @@
       "term": "germ",
       "ipa": "/dʒɜːrm/",
       "respell": "JURM",
-      "meaning": "A tiny organism that can cause disease. ---",
+      "meaning": "Germ has 2 distinct senses.",
       "examples": [
         "Wash your hands — germs are everywhere in daycare.",
         "The wipes kill most germs on contact.",
-        "A single germ can multiply fast in warm food."
+        "A single germ can multiply fast in warm food.",
+        "The novel started as the germ of an idea on a napkin.",
+        "There's the germ of a good plan in what you just said.",
+        "His notebooks are full of the germs of stories he never wrote."
       ],
-      "senses": [],
-      "русский": "микроб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tiny organism that can cause disease",
+          "body": [
+            "(микроб)"
+          ],
+          "examples": [
+            "Wash your hands — germs are everywhere in daycare.",
+            "The wipes kill most germs on contact.",
+            "A single germ can multiply fast in warm food."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The first small beginning of an idea or plan, from which it can grow",
+          "body": [
+            "(зародыш, зачаток (идеи))",
+            "---"
+          ],
+          "examples": [
+            "The novel started as the germ of an idea on a napkin.",
+            "There's the germ of a good plan in what you just said.",
+            "His notebooks are full of the germs of stories he never wrote."
+          ]
+        }
+      ],
+      "русский": "микроб; зародыш, зачаток (идеи)",
       "plural": "germs",
       "countability": "countable"
     },
@@ -788,14 +1210,58 @@
       "term": "tablet",
       "ipa": "/ˈtæblət/",
       "respell": "TAB-luht",
-      "meaning": "A flat, pressed piece of medicine. ---",
+      "meaning": "Tablet has 3 distinct senses.",
       "examples": [
         "Dissolve the tablet in a glass of water.",
         "Two tablets every six hours.",
-        "The tablet has a line down the middle so you can split it."
+        "The tablet has a line down the middle so you can split it.",
+        "She reads the news on her tablet every morning.",
+        "The kids share a tablet for schoolwork.",
+        "My tablet needs charging again.",
+        "The museum displays a clay tablet covered in ancient writing.",
+        "A bronze tablet by the door lists the building's donors.",
+        "The commandments were carved on stone tablets."
       ],
-      "senses": [],
-      "русский": "таблетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat, pressed piece of medicine",
+          "body": [
+            "(таблетка)"
+          ],
+          "examples": [
+            "Dissolve the tablet in a glass of water.",
+            "Two tablets every six hours.",
+            "The tablet has a line down the middle so you can split it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat, thin computer with a touchscreen and no attached keyboard",
+          "body": [
+            "(планшет)"
+          ],
+          "examples": [
+            "She reads the news on her tablet every morning.",
+            "The kids share a tablet for schoolwork.",
+            "My tablet needs charging again."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A flat piece of stone or metal with words cut into it",
+          "body": [
+            "(плита, табличка (с надписью))",
+            "---"
+          ],
+          "examples": [
+            "The museum displays a clay tablet covered in ancient writing.",
+            "A bronze tablet by the door lists the building's donors.",
+            "The commandments were carved on stone tablets."
+          ]
+        }
+      ],
+      "русский": "таблетка; планшет; плита, табличка (с надписью)",
       "plural": "tablets",
       "countability": "countable"
     },
@@ -803,14 +1269,43 @@
       "term": "capsule",
       "ipa": "/ˈkæpsəl/",
       "respell": "KAP-suhl",
-      "meaning": "A small container of medicine that dissolves in the stomach. ---",
+      "meaning": "Capsule has 2 distinct senses.",
       "examples": [
         "Each capsule has 500 milligrams.",
         "Swallow the capsules whole — do not chew them.",
-        "He opened the capsule and mixed it into applesauce."
+        "He opened the capsule and mixed it into applesauce.",
+        "The capsule splashed down in the Pacific.",
+        "Four astronauts squeezed into the capsule.",
+        "The capsule separated from the rocket right on schedule."
       ],
-      "senses": [],
-      "русский": "капсула",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small container of medicine that dissolves in the stomach",
+          "body": [
+            "(капсула)"
+          ],
+          "examples": [
+            "Each capsule has 500 milligrams.",
+            "Swallow the capsules whole — do not chew them.",
+            "He opened the capsule and mixed it into applesauce."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a spacecraft in which the crew rides",
+          "body": [
+            "(капсула космического корабля, спускаемый аппарат)",
+            "---"
+          ],
+          "examples": [
+            "The capsule splashed down in the Pacific.",
+            "Four astronauts squeezed into the capsule.",
+            "The capsule separated from the rocket right on schedule."
+          ]
+        }
+      ],
+      "русский": "капсула; капсула космического корабля, спускаемый аппарат",
       "plural": "capsules",
       "countability": "countable",
       "contrast": "Americans say KAP-suhl; the British say KAP-syool."
@@ -819,14 +1314,43 @@
       "term": "dose",
       "ipa": "/doʊs/",
       "respell": "DOHS",
-      "meaning": "The amount of medicine taken at one time. ---",
+      "meaning": "Dose has 2 distinct senses.",
       "examples": [
         "Do not double the dose if you miss one.",
         "The second dose comes three weeks later.",
-        "Kids get smaller doses than adults."
+        "Kids get smaller doses than adults.",
+        "The trip gave us a healthy dose of reality.",
+        "Take his advice with a dose of skepticism.",
+        "A small dose of praise goes a long way."
       ],
-      "senses": [],
-      "русский": "доза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of medicine taken at one time",
+          "body": [
+            "(доза)"
+          ],
+          "examples": [
+            "Do not double the dose if you miss one.",
+            "The second dose comes three weeks later.",
+            "Kids get smaller doses than adults."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of something that someone experiences",
+          "body": [
+            "(доля, порция (чего-либо))",
+            "---"
+          ],
+          "examples": [
+            "The trip gave us a healthy dose of reality.",
+            "Take his advice with a dose of skepticism.",
+            "A small dose of praise goes a long way."
+          ]
+        }
+      ],
+      "русский": "доза; доля, порция (чего-либо)",
       "plural": "doses",
       "countability": "countable"
     },
@@ -1181,14 +1705,43 @@
       "term": "remedy",
       "ipa": "/ˈrɛmədi/",
       "respell": "REM-uh-dee",
-      "meaning": "A treatment, often a simple or homemade one, for a minor problem. ---",
+      "meaning": "Remedy has 2 distinct senses.",
       "examples": [
         "Honey and lemon is my grandmother's remedy for a sore throat.",
         "Half these home remedies do not do anything.",
-        "The pharmacist suggested an over-the-counter remedy."
+        "The pharmacist suggested an over-the-counter remedy.",
+        "More buses are only a partial remedy for the traffic.",
+        "The report describes the problem but offers no remedy.",
+        "The courts are the last remedy left to them."
       ],
-      "senses": [],
-      "русский": "лечебное средство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A treatment, often a simple or homemade one, for a minor problem",
+          "body": [
+            "(лечебное средство)"
+          ],
+          "examples": [
+            "Honey and lemon is my grandmother's remedy for a sore throat.",
+            "Half these home remedies do not do anything.",
+            "The pharmacist suggested an over-the-counter remedy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of dealing with a problem or putting something right",
+          "body": [
+            "(средство решения проблемы, выход)",
+            "---"
+          ],
+          "examples": [
+            "More buses are only a partial remedy for the traffic.",
+            "The report describes the problem but offers no remedy.",
+            "The courts are the last remedy left to them."
+          ]
+        }
+      ],
+      "русский": "лечебное средство; средство решения проблемы, выход",
       "plural": "remedies",
       "countability": "countable"
     },
@@ -1226,14 +1779,58 @@
       "term": "scan",
       "ipa": "/skæn/",
       "respell": "SKAN",
-      "meaning": "A detailed medical image of the inside of the body. ---",
+      "meaning": "Scan has 3 distinct senses.",
       "examples": [
         "The scan came back clean.",
         "They ordered a CT scan of his head.",
-        "Both scans showed the same thing."
+        "Both scans showed the same thing.",
+        "A quick scan of the menu told me there was nothing for vegetarians.",
+        "Give the contract a scan before the meeting.",
+        "One scan of the room and she knew he wasn't there.",
+        "Email me a scan of your driver's license.",
+        "The scan came out crooked, so I did it again.",
+        "They keep scans of every receipt in a shared folder."
       ],
-      "senses": [],
-      "русский": "снимок, сканирование (КТ, МРТ)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A detailed medical image of the inside of the body",
+          "body": [
+            "(снимок, сканирование (КТ, МРТ))"
+          ],
+          "examples": [
+            "The scan came back clean.",
+            "They ordered a CT scan of his head.",
+            "Both scans showed the same thing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick look through something to find or check the main points",
+          "body": [
+            "(беглый просмотр)"
+          ],
+          "examples": [
+            "A quick scan of the menu told me there was nothing for vegetarians.",
+            "Give the contract a scan before the meeting.",
+            "One scan of the room and she knew he wasn't there."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A digital copy of a document or photo made by a scanner",
+          "body": [
+            "(скан, отсканированная копия)",
+            "---"
+          ],
+          "examples": [
+            "Email me a scan of your driver's license.",
+            "The scan came out crooked, so I did it again.",
+            "They keep scans of every receipt in a shared folder."
+          ]
+        }
+      ],
+      "русский": "снимок, сканирование (КТ, МРТ); беглый просмотр; скан, отсканированная копия",
       "plural": "scans",
       "countability": "countable"
     },
@@ -1347,14 +1944,58 @@
       "term": "relief",
       "ipa": "/rɪˈliːf/",
       "respell": "rih-LEEF",
-      "meaning": "The easing of pain or discomfort. ---",
+      "meaning": "Relief has 3 distinct senses.",
       "examples": [
         "The shot gave him instant relief.",
         "She has had no relief from the headaches.",
-        "This cream promises fast relief from itching."
+        "This cream promises fast relief from itching.",
+        "Trucks carried relief to the flooded towns.",
+        "The church is collecting money for disaster relief.",
+        "Relief workers set up tents outside the city.",
+        "The bronze doors are covered in carved relief.",
+        "A marble relief shows a hunting scene.",
+        "The letters are cut in low relief."
       ],
-      "senses": [],
-      "русский": "облегчение (боли)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The easing of pain or discomfort",
+          "body": [
+            "(облегчение (боли))"
+          ],
+          "examples": [
+            "The shot gave him instant relief.",
+            "She has had no relief from the headaches.",
+            "This cream promises fast relief from itching."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Help such as food, money, or shelter given to people in trouble",
+          "body": [
+            "(помощь пострадавшим, гуманитарная помощь)"
+          ],
+          "examples": [
+            "Trucks carried relief to the flooded towns.",
+            "The church is collecting money for disaster relief.",
+            "Relief workers set up tents outside the city."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A design carved so that it stands out from a flat surface",
+          "body": [
+            "(рельеф, барельеф)",
+            "---"
+          ],
+          "examples": [
+            "The bronze doors are covered in carved relief.",
+            "A marble relief shows a hunting scene.",
+            "The letters are cut in low relief."
+          ]
+        }
+      ],
+      "русский": "облегчение (боли); помощь пострадавшим, гуманитарная помощь; рельеф, барельеф",
       "countability": "uncountable"
     },
     {
@@ -1391,14 +2032,43 @@
       "term": "clinic",
       "ipa": "/ˈklɪnɪk/",
       "respell": "KLIN-ik",
-      "meaning": "A place where people get medical care without staying overnight. ---",
+      "meaning": "Clinic has 2 distinct senses.",
       "examples": [
         "There is a walk-in clinic two blocks from here.",
         "The clinic opens at seven.",
-        "Free clinics fill up fast."
+        "Free clinics fill up fast.",
+        "The team is running a free pitching clinic for kids.",
+        "She signed up for a weekend ski clinic.",
+        "The store holds bike repair clinics every spring."
       ],
-      "senses": [],
-      "русский": "клиника, поликлиника",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where people get medical care without staying overnight",
+          "body": [
+            "(клиника, поликлиника)"
+          ],
+          "examples": [
+            "There is a walk-in clinic two blocks from here.",
+            "The clinic opens at seven.",
+            "Free clinics fill up fast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short class in which an expert teaches one particular skill",
+          "body": [
+            "(мастер-класс, практический семинар)",
+            "---"
+          ],
+          "examples": [
+            "The team is running a free pitching clinic for kids.",
+            "She signed up for a weekend ski clinic.",
+            "The store holds bike repair clinics every spring."
+          ]
+        }
+      ],
+      "русский": "клиника, поликлиника; мастер-класс, практический семинар",
       "plural": "clinics",
       "countability": "countable"
     },
@@ -1437,14 +2107,58 @@
       "term": "ward",
       "ipa": "/wɔːrd/",
       "respell": "WAWRD",
-      "meaning": "A large room or section of a hospital for one type of patient. ---",
+      "meaning": "Ward has 3 distinct senses.",
       "examples": [
         "She was moved to the maternity ward.",
         "Visitors are not allowed on that ward after eight.",
-        "The children's wards were full."
+        "The children's wards were full.",
+        "She represents the Ninth Ward on the council.",
+        "Each ward elects one member.",
+        "Turnout was highest in the downtown ward.",
+        "He became a ward of the state at nine.",
+        "The judge made the twins wards of the court.",
+        "Her uncle's ward inherited the farm."
       ],
-      "senses": [],
-      "русский": "отделение, палата в больнице",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large room or section of a hospital for one type of patient",
+          "body": [
+            "(отделение, палата в больнице)"
+          ],
+          "examples": [
+            "She was moved to the maternity ward.",
+            "Visitors are not allowed on that ward after eight.",
+            "The children's wards were full."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A district of a city, used for elections and local government",
+          "body": [
+            "(избирательный округ, район города)"
+          ],
+          "examples": [
+            "She represents the Ninth Ward on the council.",
+            "Each ward elects one member.",
+            "Turnout was highest in the downtown ward."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A child or adult placed under the legal care of a guardian or a court",
+          "body": [
+            "(подопечный, опекаемый)",
+            "---"
+          ],
+          "examples": [
+            "He became a ward of the state at nine.",
+            "The judge made the twins wards of the court.",
+            "Her uncle's ward inherited the farm."
+          ]
+        }
+      ],
+      "русский": "отделение, палата в больнице; избирательный округ, район города; подопечный, опекаемый",
       "plural": "wards",
       "countability": "countable"
     },
@@ -1669,14 +2383,43 @@
       "term": "crutch",
       "ipa": "/krʌtʃ/",
       "respell": "KRUCH",
-      "meaning": "A support that fits under the arm and helps you walk with an injured leg. ---",
+      "meaning": "Crutch has 2 distinct senses.",
       "examples": [
         "She is on crutches for another two weeks.",
         "One crutch slipped on the wet floor.",
-        "He hobbled in on crutches."
+        "He hobbled in on crutches.",
+        "He used humor as a crutch whenever things got serious.",
+        "The spell checker had become a crutch.",
+        "She worried the medication was turning into a crutch."
       ],
-      "senses": [],
-      "русский": "костыль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A support that fits under the arm and helps you walk with an injured leg",
+          "body": [
+            "(костыль)"
+          ],
+          "examples": [
+            "She is on crutches for another two weeks.",
+            "One crutch slipped on the wet floor.",
+            "He hobbled in on crutches."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a person leans on too much instead of coping without it",
+          "body": [
+            "(костыль (перен.), подпорка)",
+            "---"
+          ],
+          "examples": [
+            "He used humor as a crutch whenever things got serious.",
+            "The spell checker had become a crutch.",
+            "She worried the medication was turning into a crutch."
+          ]
+        }
+      ],
+      "русский": "костыль; костыль (перен.), подпорка",
       "plural": "crutches",
       "countability": "countable"
     },
@@ -1834,14 +2577,58 @@
       "term": "mask",
       "ipa": "/mæsk/",
       "respell": "MASK",
-      "meaning": "A covering worn over the nose and mouth to block germs. ---",
+      "meaning": "Mask has 3 distinct senses.",
       "examples": [
         "The surgeon pulled down his mask to talk.",
         "Masks are still required in the oncology wing.",
-        "She keeps a spare mask in her bag."
+        "She keeps a spare mask in her bag.",
+        "She puts on a clay mask every Sunday night.",
+        "The facial ends with a warm mask.",
+        "These sheet masks are supposed to hydrate your skin.",
+        "He listened behind a mask of polite interest.",
+        "Her cheerfulness was a mask for real worry.",
+        "The mask slipped and he finally yelled at us."
       ],
-      "senses": [],
-      "русский": "медицинская маска",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A covering worn over the nose and mouth to block germs",
+          "body": [
+            "(медицинская маска)"
+          ],
+          "examples": [
+            "The surgeon pulled down his mask to talk.",
+            "Masks are still required in the oncology wing.",
+            "She keeps a spare mask in her bag."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cream or sheet spread on the face as a beauty treatment",
+          "body": [
+            "(маска для лица (косметическая))"
+          ],
+          "examples": [
+            "She puts on a clay mask every Sunday night.",
+            "The facial ends with a warm mask.",
+            "These sheet masks are supposed to hydrate your skin."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A false outward appearance that hides someone's real feelings",
+          "body": [
+            "(маска, личина (притворство))",
+            "---"
+          ],
+          "examples": [
+            "He listened behind a mask of polite interest.",
+            "Her cheerfulness was a mask for real worry.",
+            "The mask slipped and he finally yelled at us."
+          ]
+        }
+      ],
+      "русский": "медицинская маска; маска для лица (косметическая); маска, личина (притворство)",
       "plural": "masks",
       "countability": "countable"
     },
@@ -1849,14 +2636,43 @@
       "term": "cavity",
       "ipa": "/ˈkævəti/",
       "respell": "KAV-uh-tee",
-      "meaning": "A hole in a tooth caused by decay. ---",
+      "meaning": "Cavity has 2 distinct senses.",
       "examples": [
         "The dentist found two cavities.",
         "That cavity needs a filling.",
-        "Soda gave him cavities by the time he was ten."
+        "Soda gave him cavities by the time he was ten.",
+        "The surgeon opened the chest cavity.",
+        "Insulation fills the cavity between the walls.",
+        "Air trapped in the cavity made the wood sound hollow."
       ],
-      "senses": [],
-      "русский": "кариес, дырка в зубе",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hole in a tooth caused by decay",
+          "body": [
+            "(кариес, дырка в зубе)"
+          ],
+          "examples": [
+            "The dentist found two cavities.",
+            "That cavity needs a filling.",
+            "Soda gave him cavities by the time he was ten."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow space inside a body or an object",
+          "body": [
+            "(полость)",
+            "---"
+          ],
+          "examples": [
+            "The surgeon opened the chest cavity.",
+            "Insulation fills the cavity between the walls.",
+            "Air trapped in the cavity made the wood sound hollow."
+          ]
+        }
+      ],
+      "русский": "кариес, дырка в зубе; полость",
       "plural": "cavities",
       "countability": "countable"
     },
@@ -1939,14 +2755,43 @@
       "term": "donor",
       "ipa": "/ˈdoʊnər/",
       "respell": "DOH-nur",
-      "meaning": "A person who gives blood or an organ to someone else. ---",
+      "meaning": "Donor has 2 distinct senses.",
       "examples": [
         "They finally found a matching donor.",
         "He is a registered organ donor.",
-        "Blood donors get juice and cookies afterward."
+        "Blood donors get juice and cookies afterward.",
+        "The museum thanked its major donors at the dinner.",
+        "A single donor paid for the new wing.",
+        "The campaign lost several large donors after the scandal."
       ],
-      "senses": [],
-      "русский": "донор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who gives blood or an organ to someone else",
+          "body": [
+            "(донор)"
+          ],
+          "examples": [
+            "They finally found a matching donor.",
+            "He is a registered organ donor.",
+            "Blood donors get juice and cookies afterward."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or group that gives money to a charity or a cause",
+          "body": [
+            "(жертвователь, спонсор)",
+            "---"
+          ],
+          "examples": [
+            "The museum thanked its major donors at the dinner.",
+            "A single donor paid for the new wing.",
+            "The campaign lost several large donors after the scandal."
+          ]
+        }
+      ],
+      "русский": "донор; жертвователь, спонсор",
       "plural": "donors",
       "countability": "countable"
     },

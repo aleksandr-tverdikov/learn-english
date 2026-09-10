@@ -288,15 +288,23 @@ A steak cut from the rib section, known for its marbling.
 ### chop
 
 **Pronunciation:** /tʃɑːp/ &middot; *CHAHP*
-**Русский:** отбивная (на косточке)
+**Русский:** отбивная (на косточке); рубящий удар; удар ребром ладони
 **Plural:** *chops*
 **Countability:** countable
 
-A thick slice of meat, usually pork or lamb, cut with the bone still in.
+Chop has 2 distinct senses.
+
+**1. A thick slice of meat, usually pork or lamb, cut with the bone still in.** (отбивная (на косточке))
 
 1. She pan-fried two pork *chops* in butter.
 2. The lamb *chop* was cooked perfectly.
 3. *Chops* dry out fast, so watch the heat.
+
+**2. A short, sharp downward blow with the side of the hand or with an axe.** (рубящий удар; удар ребром ладони)
+
+4. He knocked the board apart with one *chop*.
+5. A karate *chop* to the neck ended the fight.
+6. Two quick *chops* of the axe split the kindling.
 
 ---
 
@@ -348,15 +356,29 @@ The lower part of an animal's leg, cooked slowly as a cut of meat.
 ### flank
 
 **Pronunciation:** /flæŋk/ &middot; *FLANGK*
-**Русский:** пашина (мясной отруб)
+**Русский:** пашина (мясной отруб); бок (тела); фланг
 **Plural:** *flanks*
 **Countability:** countable, and uncountable as food
 
-A lean cut of beef from the belly area below the ribs.
+Flank has 3 distinct senses.
+
+**1. A lean cut of beef from the belly area below the ribs.** (пашина (мясной отруб))
 
 1. *Flank* steak is best sliced against the grain.
 2. She marinated the *flank* for two hours.
 3. Grill the *flank* hot and fast.
+
+**2. The side of a person's or animal's body between the ribs and the hip.** (бок (тела))
+
+4. The horse's *flanks* were dark with sweat.
+5. He felt a sharp pain in his left *flank*.
+6. She patted the cow's *flank* and stepped back.
+
+**3. The far left or right side of an army, a team, or a formation.** (фланг)
+
+7. The enemy attacked on the left *flank*.
+8. Their defense is weak on both *flanks*.
+9. He sent riders out to protect the *flank*.
 
 ---
 
@@ -867,16 +889,24 @@ A mild white farmed fish, sold cheaply as fillets.
 ### catfish
 
 **Pronunciation:** /ˈkætfɪʃ/ &middot; *KAT-fish*
-**Русский:** сом
+**Русский:** сом; кэтфишер (человек с фальшивым профилем в сети)
 **Plural:** *catfish*
 **Countability:** countable, and uncountable as food
 **Contrast:** The plural is *catfish*, unchanged.
 
-A freshwater fish with long feelers around its mouth, often fried.
+Catfish has 2 distinct senses.
+
+**1. A freshwater fish with long feelers around its mouth, often fried.** (сом)
 
 1. Fried *catfish* and hush puppies is a Friday tradition.
 2. He caught three *catfish* off the dock.
 3. *Catfish* has a muddier flavor than tilapia.
+
+**2. Someone who pretends online to be a different person, usually to fool a romantic partner.** (кэтфишер (человек с фальшивым профилем в сети))
+
+4. The man in the photos was a *catfish* using a model's pictures.
+5. She realized she had been talking to a *catfish* for months.
+6. Dating apps try to weed out *catfish* before anyone gets hurt.
 
 ---
 
@@ -1204,14 +1234,22 @@ A mix of equal parts milk and cream, used mainly in coffee.
 ### creamer
 
 **Pronunciation:** /ˈkriːmər/ &middot; *KREE-mur*
-**Русский:** сливки для кофе (в т. ч. сухие)
+**Русский:** сливки для кофе (в т. ч. сухие); молочник, сливочник
 **Countability:** uncountable
 
-A liquid or powder added to coffee in place of cream.
+Creamer has 2 distinct senses.
+
+**1. A liquid or powder added to coffee in place of cream.** (сливки для кофе (в т. ч. сухие))
 
 1. The office only has powdered *creamer*.
 2. She uses vanilla *creamer* in everything.
 3. We're out of *creamer* again.
+
+**2. A small pitcher for serving cream at the table.** (молочник, сливочник)
+
+4. She filled the *creamer* and set it beside the sugar bowl.
+5. The *creamer* matches the teapot.
+6. Both *creamers* in the set are chipped.
 
 ---
 

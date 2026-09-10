@@ -20,14 +20,43 @@
       "term": "battle",
       "ipa": "/ˈbætəl/",
       "respell": "BAT-uhl",
-      "meaning": "A fight between two armies in one place at one time. ---",
+      "meaning": "Battle has 2 distinct senses.",
       "examples": [
         "The battle lasted three days.",
         "He died in battle.",
-        "Several battles were fought along the river."
+        "Several battles were fought along the river.",
+        "She lost her battle with cancer last spring.",
+        "The company faces a legal battle over the patent.",
+        "Getting my kids to eat vegetables is a daily battle."
       ],
-      "senses": [],
-      "русский": "битва, сражение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fight between two armies in one place at one time",
+          "body": [
+            "(битва, сражение)"
+          ],
+          "examples": [
+            "The battle lasted three days.",
+            "He died in battle.",
+            "Several battles were fought along the river."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long, hard struggle against a problem or an opponent",
+          "body": [
+            "(борьба, противостояние)",
+            "---"
+          ],
+          "examples": [
+            "She lost her battle with cancer last spring.",
+            "The company faces a legal battle over the patent.",
+            "Getting my kids to eat vegetables is a daily battle."
+          ]
+        }
+      ],
+      "русский": "битва, сражение; борьба, противостояние",
       "plural": "battles",
       "countability": "countable"
     },
@@ -81,14 +110,58 @@
       "term": "attack",
       "ipa": "/əˈtæk/",
       "respell": "uh-TAK",
-      "meaning": "An act of violence aimed at hurting an enemy. ---",
+      "meaning": "Attack has 3 distinct senses.",
       "examples": [
         "The attack came from the north.",
         "Two attacks were repelled that night.",
-        "They launched a surprise attack on the airfield."
+        "They launched a surprise attack on the airfield.",
+        "He had a heart attack while shoveling snow.",
+        "Cold air can trigger an asthma attack.",
+        "She gets panic attacks in crowded stores.",
+        "The senator launched a bitter attack on the press.",
+        "The column was a direct attack on the mayor's record.",
+        "He's used to attacks from both parties."
       ],
-      "senses": [],
-      "русский": "атака, нападение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of violence aimed at hurting an enemy",
+          "body": [
+            "(атака, нападение)"
+          ],
+          "examples": [
+            "The attack came from the north.",
+            "Two attacks were repelled that night.",
+            "They launched a surprise attack on the airfield."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden short period of an illness or strong feeling",
+          "body": [
+            "(приступ (болезни, паники))"
+          ],
+          "examples": [
+            "He had a heart attack while shoveling snow.",
+            "Cold air can trigger an asthma attack.",
+            "She gets panic attacks in crowded stores."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Strong public criticism of a person or an idea",
+          "body": [
+            "(нападки, резкая критика)",
+            "---"
+          ],
+          "examples": [
+            "The senator launched a bitter attack on the press.",
+            "The column was a direct attack on the mayor's record.",
+            "He's used to attacks from both parties."
+          ]
+        }
+      ],
+      "русский": "атака, нападение; приступ (болезни, паники); нападки, резкая критика",
       "plural": "attacks",
       "countability": "countable"
     },
@@ -672,14 +745,43 @@
       "term": "fleet",
       "ipa": "/fliːt/",
       "respell": "FLEET",
-      "meaning": "A group of warships under one command. ---",
+      "meaning": "Fleet has 2 distinct senses.",
       "examples": [
         "The fleet sailed at first light.",
         "Half the fleet was sunk in the harbor.",
-        "Both fleets met off the coast."
+        "Both fleets met off the coast.",
+        "The airline is replacing its aging fleet.",
+        "The company runs a fleet of delivery vans.",
+        "The city added twenty electric buses to its fleet."
       ],
-      "senses": [],
-      "русский": "флот, эскадра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of warships under one command",
+          "body": [
+            "(флот, эскадра)"
+          ],
+          "examples": [
+            "The fleet sailed at first light.",
+            "Half the fleet was sunk in the harbor.",
+            "Both fleets met off the coast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "All the vehicles, ships, or planes owned by one company or organization",
+          "body": [
+            "(автопарк, парк (машин, самолётов))",
+            "---"
+          ],
+          "examples": [
+            "The airline is replacing its aging fleet.",
+            "The company runs a fleet of delivery vans.",
+            "The city added twenty electric buses to its fleet."
+          ]
+        }
+      ],
+      "русский": "флот, эскадра; автопарк, парк (машин, самолётов)",
       "plural": "fleets",
       "countability": "countable"
     },
@@ -811,14 +913,43 @@
       "term": "recruit",
       "ipa": "/rɪˈkruːt/",
       "respell": "rih-KROOT",
-      "meaning": "Someone who has just joined the armed forces. ---",
+      "meaning": "Recruit has 2 distinct senses.",
       "examples": [
         "The new recruits arrived on Monday.",
         "Every recruit gets a haircut on the first day.",
-        "He was still a recruit when the war started."
+        "He was still a recruit when the war started.",
+        "The firm trains its recruits for six weeks.",
+        "We need a few new recruits for the choir.",
+        "She's the newest recruit on the sales team."
       ],
-      "senses": [],
-      "русский": "новобранец, призывник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who has just joined the armed forces",
+          "body": [
+            "(новобранец, призывник)"
+          ],
+          "examples": [
+            "The new recruits arrived on Monday.",
+            "Every recruit gets a haircut on the first day.",
+            "He was still a recruit when the war started."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who has just joined a company, club, or other organization",
+          "body": [
+            "(новичок, новый сотрудник, новый член)",
+            "---"
+          ],
+          "examples": [
+            "The firm trains its recruits for six weeks.",
+            "We need a few new recruits for the choir.",
+            "She's the newest recruit on the sales team."
+          ]
+        }
+      ],
+      "русский": "новобранец, призывник; новичок, новый сотрудник, новый член",
       "plural": "recruits",
       "countability": "countable"
     },
@@ -856,14 +987,43 @@
       "term": "knight",
       "ipa": "/naɪt/",
       "respell": "NYT",
-      "meaning": "An armored soldier on horseback in medieval Europe. ---",
+      "meaning": "Knight has 2 distinct senses.",
       "examples": [
         "The knight wore a full suit of armor.",
         "Two knights fought on horseback.",
-        "A knight swore loyalty to his lord."
+        "A knight swore loyalty to his lord.",
+        "She moved her knight to threaten the queen.",
+        "A knight is the only piece that can jump over others.",
+        "He lost both knights in the first ten moves."
       ],
-      "senses": [],
-      "русский": "рыцарь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An armored soldier on horseback in medieval Europe",
+          "body": [
+            "(рыцарь)"
+          ],
+          "examples": [
+            "The knight wore a full suit of armor.",
+            "Two knights fought on horseback.",
+            "A knight swore loyalty to his lord."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The chess piece shaped like a horse's head, which moves in an L shape",
+          "body": [
+            "(конь (шахматная фигура))",
+            "---"
+          ],
+          "examples": [
+            "She moved her knight to threaten the queen.",
+            "A knight is the only piece that can jump over others.",
+            "He lost both knights in the first ten moves."
+          ]
+        }
+      ],
+      "русский": "рыцарь; конь (шахматная фигура)",
       "plural": "knights",
       "countability": "countable",
       "contrast": "The k is silent; it sounds exactly like night."
@@ -947,14 +1107,43 @@
       "term": "rebel",
       "ipa": "/ˈrɛbəl/",
       "respell": "REB-uhl",
-      "meaning": "Someone who fights against the government of his own country. ---",
+      "meaning": "Rebel has 2 distinct senses.",
       "examples": [
         "The rebels controlled half the country.",
         "A captured rebel gave up their position.",
-        "Government troops pushed the rebels back."
+        "Government troops pushed the rebels back.",
+        "She was a bit of a rebel in high school.",
+        "Artists like to think of themselves as rebels.",
+        "He's always been the rebel of the family."
       ],
-      "senses": [],
-      "русский": "повстанец, мятежник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who fights against the government of his own country",
+          "body": [
+            "(повстанец, мятежник)"
+          ],
+          "examples": [
+            "The rebels controlled half the country.",
+            "A captured rebel gave up their position.",
+            "Government troops pushed the rebels back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who refuses to follow the usual rules or customs",
+          "body": [
+            "(бунтарь, нонконформист)",
+            "---"
+          ],
+          "examples": [
+            "She was a bit of a rebel in high school.",
+            "Artists like to think of themselves as rebels.",
+            "He's always been the rebel of the family."
+          ]
+        }
+      ],
+      "русский": "повстанец, мятежник; бунтарь, нонконформист",
       "plural": "rebels",
       "countability": "countable",
       "contrast": "The noun is REB-uhl; the verb to rebel is rih-BEL."
@@ -1024,14 +1213,58 @@
       "term": "scout",
       "ipa": "/skaʊt/",
       "respell": "SKOWT",
-      "meaning": "A soldier sent ahead to gather information about the enemy. ---",
+      "meaning": "Scout has 3 distinct senses.",
       "examples": [
         "The scout returned with a map of the valley.",
         "Scouts reported enemy tanks on the road.",
-        "They sent a scout ahead of the column."
+        "They sent a scout ahead of the column.",
+        "Scouts from three colleges came to watch him pitch.",
+        "A scout saw her play in a summer league.",
+        "The team's scouts spend the whole season on the road.",
+        "The scouts sold popcorn outside the grocery store.",
+        "My son has been a scout since third grade.",
+        "A troop of scouts camped down by the river."
       ],
-      "senses": [],
-      "русский": "разведчик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soldier sent ahead to gather information about the enemy",
+          "body": [
+            "(разведчик)"
+          ],
+          "examples": [
+            "The scout returned with a map of the valley.",
+            "Scouts reported enemy tanks on the road.",
+            "They sent a scout ahead of the column."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone whose job is to look for talented players or performers",
+          "body": [
+            "(скаут, селекционер (по поиску талантов))"
+          ],
+          "examples": [
+            "Scouts from three colleges came to watch him pitch.",
+            "A scout saw her play in a summer league.",
+            "The team's scouts spend the whole season on the road."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A boy or girl who belongs to a youth group that teaches camping and outdoor skills",
+          "body": [
+            "(скаут (член детской организации))",
+            "---"
+          ],
+          "examples": [
+            "The scouts sold popcorn outside the grocery store.",
+            "My son has been a scout since third grade.",
+            "A troop of scouts camped down by the river."
+          ]
+        }
+      ],
+      "русский": "разведчик; скаут, селекционер (по поиску талантов); скаут (член детской организации)",
       "plural": "scouts",
       "countability": "countable"
     },
@@ -1084,14 +1317,43 @@
       "term": "shotgun",
       "ipa": "/ˈʃɑːtɡʌn/",
       "respell": "SHAHT-guhn",
-      "meaning": "A long gun that fires a spray of small pellets. ---",
+      "meaning": "Shotgun has 2 distinct senses.",
       "examples": [
         "The farmer kept a shotgun behind the door.",
         "He fired the shotgun into the air.",
-        "Two shotguns were found in the truck."
+        "Two shotguns were found in the truck.",
+        "My brother called shotgun before we reached the driveway.",
+        "You rode shotgun the whole way here.",
+        "Whoever gets to the car first gets shotgun."
       ],
-      "senses": [],
-      "русский": "дробовик, ружьё",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long gun that fires a spray of small pellets",
+          "body": [
+            "(дробовик, ружьё)"
+          ],
+          "examples": [
+            "The farmer kept a shotgun behind the door.",
+            "He fired the shotgun into the air.",
+            "Two shotguns were found in the truck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The front passenger seat of a car, next to the driver",
+          "body": [
+            "(переднее пассажирское сиденье)",
+            "---"
+          ],
+          "examples": [
+            "My brother called shotgun before we reached the driveway.",
+            "You rode shotgun the whole way here.",
+            "Whoever gets to the car first gets shotgun."
+          ]
+        }
+      ],
+      "русский": "дробовик, ружьё; переднее пассажирское сиденье",
       "plural": "shotguns",
       "countability": "countable"
     },
@@ -1115,14 +1377,43 @@
       "term": "bullet",
       "ipa": "/ˈbʊlɪt/",
       "respell": "BUUL-it",
-      "meaning": "The small piece of metal fired from a gun. ---",
+      "meaning": "Bullet has 2 distinct senses.",
       "examples": [
         "A bullet went straight through the door.",
         "He still carries the bullet in his shoulder.",
-        "Bullets pinged off the wall above them."
+        "Bullets pinged off the wall above them.",
+        "Put your main results in three bullets.",
+        "No slide should have more than five bullets.",
+        "She rewrote the paragraph as a set of bullets."
       ],
-      "senses": [],
-      "русский": "пуля",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small piece of metal fired from a gun",
+          "body": [
+            "(пуля)"
+          ],
+          "examples": [
+            "A bullet went straight through the door.",
+            "He still carries the bullet in his shoulder.",
+            "Bullets pinged off the wall above them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dot marking one item in a list, or the short line of text beside it",
+          "body": [
+            "(маркер списка, пункт списка)",
+            "---"
+          ],
+          "examples": [
+            "Put your main results in three bullets.",
+            "No slide should have more than five bullets.",
+            "She rewrote the paragraph as a set of bullets."
+          ]
+        }
+      ],
+      "русский": "пуля; маркер списка, пункт списка",
       "plural": "bullets",
       "countability": "countable"
     },
@@ -1144,14 +1435,43 @@
       "term": "bomb",
       "ipa": "/bɑːm/",
       "respell": "BAHM",
-      "meaning": "A container of explosive designed to blow up and destroy. ---",
+      "meaning": "Bomb has 2 distinct senses.",
       "examples": [
         "The bomb fell two blocks away.",
         "Bombs destroyed most of the old town.",
-        "Engineers defused the bomb at dawn."
+        "Engineers defused the bomb at dawn.",
+        "The film was a bomb at the box office.",
+        "His first restaurant was a bomb.",
+        "The season opener turned out to be a total bomb."
       ],
-      "senses": [],
-      "русский": "бомба",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A container of explosive designed to blow up and destroy",
+          "body": [
+            "(бомба)"
+          ],
+          "examples": [
+            "The bomb fell two blocks away.",
+            "Bombs destroyed most of the old town.",
+            "Engineers defused the bomb at dawn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A complete failure, especially a movie or a show",
+          "body": [
+            "(провал, фиаско)",
+            "---"
+          ],
+          "examples": [
+            "The film was a bomb at the box office.",
+            "His first restaurant was a bomb.",
+            "The season opener turned out to be a total bomb."
+          ]
+        }
+      ],
+      "русский": "бомба; провал, фиаско",
       "plural": "bombs",
       "countability": "countable",
       "contrast": "The final b is silent: BAHM, rhyming with mom."
@@ -1206,14 +1526,58 @@
       "term": "mine",
       "ipa": "/maɪn/",
       "respell": "MYNE",
-      "meaning": "A hidden explosive that goes off when someone steps on it or drives over it. ---",
+      "meaning": "Mine has 3 distinct senses.",
       "examples": [
         "The truck hit a mine on the dirt road.",
         "They cleared the mines one by one.",
-        "A single mine can close a road for days."
+        "A single mine can close a road for days.",
+        "His grandfather worked in a coal mine for thirty years.",
+        "The copper mine closed in the 1980s.",
+        "Old mines run under the hills above town.",
+        "That old census is a mine of information.",
+        "Her notebooks are a mine of ideas.",
+        "For a historian the archive is a gold mine."
       ],
-      "senses": [],
-      "русский": "мина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hidden explosive that goes off when someone steps on it or drives over it",
+          "body": [
+            "(мина)"
+          ],
+          "examples": [
+            "The truck hit a mine on the dirt road.",
+            "They cleared the mines one by one.",
+            "A single mine can close a road for days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep hole or system of tunnels dug to take coal or metal out of the ground",
+          "body": [
+            "(шахта, рудник)"
+          ],
+          "examples": [
+            "His grandfather worked in a coal mine for thirty years.",
+            "The copper mine closed in the 1980s.",
+            "Old mines run under the hills above town."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A rich source of something, especially information",
+          "body": [
+            "(кладезь, источник (сведений))",
+            "---"
+          ],
+          "examples": [
+            "That old census is a mine of information.",
+            "Her notebooks are a mine of ideas.",
+            "For a historian the archive is a gold mine."
+          ]
+        }
+      ],
+      "русский": "мина; шахта, рудник; кладезь, источник (сведений)",
       "plural": "mines",
       "countability": "countable",
       "contrast": "Same spelling and sound as mine, a coal mine, and as the possessive mine."
@@ -1283,14 +1647,43 @@
       "term": "spear",
       "ipa": "/spɪr/",
       "respell": "SPEER",
-      "meaning": "A long pole with a sharp point, thrown or thrust at an enemy. ---",
+      "meaning": "Spear has 2 distinct senses.",
       "examples": [
         "The warriors carried short spears.",
         "He threw the spear with both hands.",
-        "Their spears had iron tips."
+        "Their spears had iron tips.",
+        "Steam the asparagus spears for about four minutes.",
+        "She packed a pickle spear next to the sandwich.",
+        "Serve the broccoli spears with a squeeze of lemon."
       ],
-      "senses": [],
-      "русский": "копьё",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long pole with a sharp point, thrown or thrust at an enemy",
+          "body": [
+            "(копьё)"
+          ],
+          "examples": [
+            "The warriors carried short spears.",
+            "He threw the spear with both hands.",
+            "Their spears had iron tips."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long thin piece of a vegetable, either a whole shoot or a lengthwise slice",
+          "body": [
+            "(стебель, длинный ломтик (овоща))",
+            "---"
+          ],
+          "examples": [
+            "Steam the asparagus spears for about four minutes.",
+            "She packed a pickle spear next to the sandwich.",
+            "Serve the broccoli spears with a squeeze of lemon."
+          ]
+        }
+      ],
+      "русский": "копьё; стебель, длинный ломтик (овоща)",
       "plural": "spears",
       "countability": "countable"
     },
@@ -1342,14 +1735,43 @@
       "term": "shield",
       "ipa": "/ʃiːld/",
       "respell": "SHEELD",
-      "meaning": "A broad piece of metal or wood held up to block blows. ---",
+      "meaning": "Shield has 2 distinct senses.",
       "examples": [
         "He raised his shield against the blow.",
         "Their shields formed a solid wall.",
-        "The shield was made of wood and leather."
+        "The shield was made of wood and leather.",
+        "Sunscreen is your best shield against burns.",
+        "The heat shield on the spacecraft held.",
+        "Her lawyer acted as a shield between her and the press."
       ],
-      "senses": [],
-      "русский": "щит",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A broad piece of metal or wood held up to block blows",
+          "body": [
+            "(щит)"
+          ],
+          "examples": [
+            "He raised his shield against the blow.",
+            "Their shields formed a solid wall.",
+            "The shield was made of wood and leather."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Anything that protects a person or thing from harm",
+          "body": [
+            "(защита, защитный экран)",
+            "---"
+          ],
+          "examples": [
+            "Sunscreen is your best shield against burns.",
+            "The heat shield on the spacecraft held.",
+            "Her lawyer acted as a shield between her and the press."
+          ]
+        }
+      ],
+      "русский": "щит; защита, защитный экран",
       "plural": "shields",
       "countability": "countable"
     },
@@ -1372,14 +1794,43 @@
       "term": "trigger",
       "ipa": "/ˈtrɪɡər/",
       "respell": "TRIG-ur",
-      "meaning": "The small lever you pull to fire a gun. ---",
+      "meaning": "Trigger has 2 distinct senses.",
       "examples": [
         "He put his finger on the trigger.",
         "Never touch the trigger until you are ready.",
-        "The trigger was jammed with sand."
+        "The trigger was jammed with sand.",
+        "Stress is a common trigger for migraines.",
+        "The arrest was the trigger for weeks of protests.",
+        "Certain foods are triggers for her allergy."
       ],
-      "senses": [],
-      "русский": "спусковой крючок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small lever you pull to fire a gun",
+          "body": [
+            "(спусковой крючок)"
+          ],
+          "examples": [
+            "He put his finger on the trigger.",
+            "Never touch the trigger until you are ready.",
+            "The trigger was jammed with sand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that causes another thing to start or happen",
+          "body": [
+            "(причина, толчок)",
+            "---"
+          ],
+          "examples": [
+            "Stress is a common trigger for migraines.",
+            "The arrest was the trigger for weeks of protests.",
+            "Certain foods are triggers for her allergy."
+          ]
+        }
+      ],
+      "русский": "спусковой крючок; причина, толчок",
       "plural": "triggers",
       "countability": "countable"
     },
@@ -1387,14 +1838,43 @@
       "term": "arsenal",
       "ipa": "/ˈɑːrsənəl/",
       "respell": "AHR-suh-nuhl",
-      "meaning": "A store of weapons, or all the weapons a country has. ---",
+      "meaning": "Arsenal has 2 distinct senses.",
       "examples": [
         "The country's nuclear arsenal has shrunk.",
         "They raided the government arsenal.",
-        "Both arsenals were destroyed in the raid."
+        "Both arsenals were destroyed in the raid.",
+        "A changeup is the best pitch in his arsenal.",
+        "Patience is the strongest tool in a teacher's arsenal.",
+        "The lawyer had an arsenal of precedents ready."
       ],
-      "senses": [],
-      "русский": "арсенал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A store of weapons, or all the weapons a country has",
+          "body": [
+            "(арсенал)"
+          ],
+          "examples": [
+            "The country's nuclear arsenal has shrunk.",
+            "They raided the government arsenal.",
+            "Both arsenals were destroyed in the raid."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The whole set of skills or resources someone can draw on",
+          "body": [
+            "(арсенал (средств, приёмов))",
+            "---"
+          ],
+          "examples": [
+            "A changeup is the best pitch in his arsenal.",
+            "Patience is the strongest tool in a teacher's arsenal.",
+            "The lawyer had an arsenal of precedents ready."
+          ]
+        }
+      ],
+      "русский": "арсенал; арсенал (средств, приёмов)",
       "plural": "arsenals",
       "countability": "countable"
     },
@@ -1402,14 +1882,43 @@
       "term": "tank",
       "ipa": "/tæŋk/",
       "respell": "TANK",
-      "meaning": "An armored fighting vehicle that moves on tracks and carries a big gun. ---",
+      "meaning": "Tank has 2 distinct senses.",
       "examples": [
         "A column of tanks rolled through the square.",
         "The tank threw a track in the mud.",
-        "Fifty tanks were lost in a single day."
+        "Fifty tanks were lost in a single day.",
+        "The gas tank is almost empty.",
+        "We keep goldfish in a ten-gallon tank.",
+        "The water heater's tank sprang a leak."
       ],
-      "senses": [],
-      "русский": "танк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An armored fighting vehicle that moves on tracks and carries a big gun",
+          "body": [
+            "(танк)"
+          ],
+          "examples": [
+            "A column of tanks rolled through the square.",
+            "The tank threw a track in the mud.",
+            "Fifty tanks were lost in a single day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large container for holding liquid or gas",
+          "body": [
+            "(бак, резервуар, цистерна; аквариум)",
+            "---"
+          ],
+          "examples": [
+            "The gas tank is almost empty.",
+            "We keep goldfish in a ten-gallon tank.",
+            "The water heater's tank sprang a leak."
+          ]
+        }
+      ],
+      "русский": "танк; бак, резервуар, цистерна; аквариум",
       "plural": "tanks",
       "countability": "countable"
     },
@@ -1432,14 +1941,43 @@
       "term": "bomber",
       "ipa": "/ˈbɑːmər/",
       "respell": "BAH-mur",
-      "meaning": "A military aircraft built to drop bombs. ---",
+      "meaning": "Bomber has 2 distinct senses.",
       "examples": [
         "The bombers came in at ten thousand feet.",
         "A single bomber was shot down.",
-        "Heavy bombers struck the rail yards."
+        "Heavy bombers struck the rail yards.",
+        "The bomber was arrested two days later.",
+        "Police say the bomber acted alone.",
+        "The bombers left the package near the entrance."
       ],
-      "senses": [],
-      "русский": "бомбардировщик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A military aircraft built to drop bombs",
+          "body": [
+            "(бомбардировщик)"
+          ],
+          "examples": [
+            "The bombers came in at ten thousand feet.",
+            "A single bomber was shot down.",
+            "Heavy bombers struck the rail yards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who sets off a bomb",
+          "body": [
+            "(подрывник, террорист с бомбой)",
+            "---"
+          ],
+          "examples": [
+            "The bomber was arrested two days later.",
+            "Police say the bomber acted alone.",
+            "The bombers left the package near the entrance."
+          ]
+        }
+      ],
+      "русский": "бомбардировщик; подрывник, террорист с бомбой",
       "plural": "bombers",
       "countability": "countable",
       "contrast": "The b in bomb- is silent: BAH-mur."
@@ -1448,14 +1986,58 @@
       "term": "fighter",
       "ipa": "/ˈfaɪtər/",
       "respell": "FY-tur",
-      "meaning": "A fast military aircraft built to attack other aircraft. ---",
+      "meaning": "Fighter has 3 distinct senses.",
       "examples": [
         "Two fighters escorted the transport.",
         "The fighter rolled and dove.",
-        "Enemy fighters met them over the channel."
+        "Enemy fighters met them over the channel.",
+        "Both fighters made weight on Friday.",
+        "He's the most exciting fighter in the division.",
+        "The fighter wore his opponent down in the later rounds.",
+        "The doctors say she's a fighter.",
+        "He was a fighter right up to the end.",
+        "Kids who grow up like that turn into fighters."
       ],
-      "senses": [],
-      "русский": "истребитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fast military aircraft built to attack other aircraft",
+          "body": [
+            "(истребитель)"
+          ],
+          "examples": [
+            "Two fighters escorted the transport.",
+            "The fighter rolled and dove.",
+            "Enemy fighters met them over the channel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who fights in a boxing or martial arts contest",
+          "body": [
+            "(боец, боксёр)"
+          ],
+          "examples": [
+            "Both fighters made weight on Friday.",
+            "He's the most exciting fighter in the division.",
+            "The fighter wore his opponent down in the later rounds."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person who refuses to give up when things get hard",
+          "body": [
+            "(боец (о стойком человеке))",
+            "---"
+          ],
+          "examples": [
+            "The doctors say she's a fighter.",
+            "He was a fighter right up to the end.",
+            "Kids who grow up like that turn into fighters."
+          ]
+        }
+      ],
+      "русский": "истребитель; боец, боксёр; боец (о стойком человеке)",
       "plural": "fighters",
       "countability": "countable"
     },
@@ -1463,14 +2045,58 @@
       "term": "drone",
       "ipa": "/droʊn/",
       "respell": "DROHN",
-      "meaning": "An aircraft flown without a pilot on board. ---",
+      "meaning": "Drone has 3 distinct senses.",
       "examples": [
         "A drone circled overhead for hours.",
         "Drones now do most of the reconnaissance.",
-        "They shot the drone down with a rifle."
+        "They shot the drone down with a rifle.",
+        "The drone of the highway kept me awake.",
+        "He fell asleep to the drone of the lecture.",
+        "A steady drone came from the machine room.",
+        "The workers drive the drones out of the hive in the fall.",
+        "A drone exists only to mate with the queen.",
+        "Drones are stockier than worker bees."
       ],
-      "senses": [],
-      "русский": "беспилотник, дрон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An aircraft flown without a pilot on board",
+          "body": [
+            "(беспилотник, дрон)"
+          ],
+          "examples": [
+            "A drone circled overhead for hours.",
+            "Drones now do most of the reconnaissance.",
+            "They shot the drone down with a rifle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A low, steady humming sound that goes on and on",
+          "body": [
+            "(гул, монотонный звук)"
+          ],
+          "examples": [
+            "The drone of the highway kept me awake.",
+            "He fell asleep to the drone of the lecture.",
+            "A steady drone came from the machine room."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A male bee that does no work and cannot sting",
+          "body": [
+            "(трутень)",
+            "---"
+          ],
+          "examples": [
+            "The workers drive the drones out of the hive in the fall.",
+            "A drone exists only to mate with the queen.",
+            "Drones are stockier than worker bees."
+          ]
+        }
+      ],
+      "русский": "беспилотник, дрон; гул, монотонный звук; трутень",
       "plural": "drones",
       "countability": "countable"
     },
@@ -1643,14 +2269,43 @@
       "term": "bunker",
       "ipa": "/ˈbʌŋkər/",
       "respell": "BUNG-kur",
-      "meaning": "A shelter built underground or of thick concrete to survive attack. ---",
+      "meaning": "Bunker has 2 distinct senses.",
       "examples": [
         "They took shelter in a concrete bunker.",
         "The bunker survived the bombing.",
-        "Machine-gun bunkers covered the beach."
+        "Machine-gun bunkers covered the beach.",
+        "His tee shot rolled into the bunker.",
+        "She got up and down from the greenside bunker.",
+        "The new course has sixty bunkers."
       ],
-      "senses": [],
-      "русский": "бункер, блиндаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shelter built underground or of thick concrete to survive attack",
+          "body": [
+            "(бункер, блиндаж)"
+          ],
+          "examples": [
+            "They took shelter in a concrete bunker.",
+            "The bunker survived the bombing.",
+            "Machine-gun bunkers covered the beach."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow filled with sand on a golf course, placed to catch bad shots",
+          "body": [
+            "(бункер (песчаная ловушка на поле для гольфа))",
+            "---"
+          ],
+          "examples": [
+            "His tee shot rolled into the bunker.",
+            "She got up and down from the greenside bunker.",
+            "The new course has sixty bunkers."
+          ]
+        }
+      ],
+      "русский": "бункер, блиндаж; бункер (песчаная ловушка на поле для гольфа)",
       "plural": "bunkers",
       "countability": "countable"
     },
@@ -1658,14 +2313,58 @@
       "term": "trench",
       "ipa": "/trɛntʃ/",
       "respell": "TRENCH",
-      "meaning": "A long narrow ditch dug for soldiers to fight from. ---",
+      "meaning": "Trench has 3 distinct senses.",
       "examples": [
         "The men dug a trench along the ridge.",
         "Life in the trenches was miserable.",
-        "A shell collapsed part of the trench."
+        "A shell collapsed part of the trench.",
+        "The crew dug a trench for the water line.",
+        "Don't fall in the trench they cut across the driveway.",
+        "Gravel goes in the bottom of the trench.",
+        "The Pacific has the deepest trenches on earth.",
+        "Strange creatures live at the bottom of the trench.",
+        "The submarine descended slowly into the trench."
       ],
-      "senses": [],
-      "русский": "окоп, траншея",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long narrow ditch dug for soldiers to fight from",
+          "body": [
+            "(окоп, траншея)"
+          ],
+          "examples": [
+            "The men dug a trench along the ridge.",
+            "Life in the trenches was miserable.",
+            "A shell collapsed part of the trench."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long narrow hole dug in the ground for pipes, cables, or drainage",
+          "body": [
+            "(траншея, канава (под трубы, кабель))"
+          ],
+          "examples": [
+            "The crew dug a trench for the water line.",
+            "Don't fall in the trench they cut across the driveway.",
+            "Gravel goes in the bottom of the trench."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A very deep narrow valley in the ocean floor",
+          "body": [
+            "(океанский жёлоб, впадина)",
+            "---"
+          ],
+          "examples": [
+            "The Pacific has the deepest trenches on earth.",
+            "Strange creatures live at the bottom of the trench.",
+            "The submarine descended slowly into the trench."
+          ]
+        }
+      ],
+      "русский": "окоп, траншея; траншея, канава (под трубы, кабель); океанский жёлоб, впадина",
       "plural": "trenches",
       "countability": "countable"
     },
@@ -1763,14 +2462,58 @@
       "term": "mission",
       "ipa": "/ˈmɪʃən/",
       "respell": "MISH-uhn",
-      "meaning": "A particular military job that a person or unit is sent to do. ---",
+      "meaning": "Mission has 3 distinct senses.",
       "examples": [
         "He flew thirty missions over Germany.",
         "The mission was called off at the last minute.",
-        "Their mission was to blow up the bridge."
+        "Their mission was to blow up the bridge.",
+        "Their mission is to get books into rural schools.",
+        "He's on a mission to fix the city's bus routes.",
+        "The charity's mission statement fits on one line.",
+        "The old Spanish mission still holds services.",
+        "He slept at a downtown mission that winter.",
+        "The church supports two missions overseas."
       ],
-      "senses": [],
-      "русский": "задание, боевая задача",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular military job that a person or unit is sent to do",
+          "body": [
+            "(задание, боевая задача)"
+          ],
+          "examples": [
+            "He flew thirty missions over Germany.",
+            "The mission was called off at the last minute.",
+            "Their mission was to blow up the bridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An important job or purpose that a person or organization takes on",
+          "body": [
+            "(миссия, задача, призвание)"
+          ],
+          "examples": [
+            "Their mission is to get books into rural schools.",
+            "He's on a mission to fix the city's bus routes.",
+            "The charity's mission statement fits on one line."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A place run by a religious group to spread its faith or help the poor",
+          "body": [
+            "(миссия (религиозная); приют)",
+            "---"
+          ],
+          "examples": [
+            "The old Spanish mission still holds services.",
+            "He slept at a downtown mission that winter.",
+            "The church supports two missions overseas."
+          ]
+        }
+      ],
+      "русский": "задание, боевая задача; миссия, задача, призвание; миссия (религиозная); приют",
       "plural": "missions",
       "countability": "countable"
     },
@@ -1971,14 +2714,43 @@
       "term": "target",
       "ipa": "/ˈtɑːrɡət/",
       "respell": "TAHR-guht",
-      "meaning": "The thing or place that an attack or shot is aimed at. ---",
+      "meaning": "Target has 2 distinct senses.",
       "examples": [
         "The bridge was the primary target.",
         "They hit both targets on the first pass.",
-        "Civilians should never be a target."
+        "Civilians should never be a target.",
+        "The team hit its sales target for the quarter.",
+        "The city set a target of 500 new apartments a year.",
+        "We're behind target on the fundraising."
       ],
-      "senses": [],
-      "русский": "цель, мишень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thing or place that an attack or shot is aimed at",
+          "body": [
+            "(цель, мишень)"
+          ],
+          "examples": [
+            "The bridge was the primary target.",
+            "They hit both targets on the first pass.",
+            "Civilians should never be a target."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A result or figure that you are trying to reach",
+          "body": [
+            "(цель, плановый показатель)",
+            "---"
+          ],
+          "examples": [
+            "The team hit its sales target for the quarter.",
+            "The city set a target of 500 new apartments a year.",
+            "We're behind target on the fundraising."
+          ]
+        }
+      ],
+      "русский": "цель, мишень; цель, плановый показатель",
       "plural": "targets",
       "countability": "countable"
     },
@@ -2119,14 +2891,43 @@
       "term": "rank",
       "ipa": "/ræŋk/",
       "respell": "RANK",
-      "meaning": "A person's official position in the armed forces. ---",
+      "meaning": "Rank has 2 distinct senses.",
       "examples": [
         "She holds the rank of major.",
         "He rose through the ranks quickly.",
-        "Officers of every rank attended the ceremony."
+        "Officers of every rank attended the ceremony.",
+        "Layoffs thinned the ranks of middle managers.",
+        "She joined the ranks of the unemployed in March.",
+        "The party keeps losing members from its ranks."
       ],
-      "senses": [],
-      "русский": "воинское звание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person's official position in the armed forces",
+          "body": [
+            "(воинское звание)"
+          ],
+          "examples": [
+            "She holds the rank of major.",
+            "He rose through the ranks quickly.",
+            "Officers of every rank attended the ceremony."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ordinary members of a large group, taken together",
+          "body": [
+            "(ряды (организации), рядовые члены)",
+            "---"
+          ],
+          "examples": [
+            "Layoffs thinned the ranks of middle managers.",
+            "She joined the ranks of the unemployed in March.",
+            "The party keeps losing members from its ranks."
+          ]
+        }
+      ],
+      "русский": "воинское звание; ряды (организации), рядовые члены",
       "plural": "ranks",
       "countability": "countable"
     },

@@ -6,14 +6,58 @@
       "term": "cloud",
       "ipa": "/klaʊd/",
       "respell": "KLOWD",
-      "meaning": "A white or gray mass of water droplets floating in the sky. ---",
+      "meaning": "Cloud has 3 distinct senses.",
       "examples": [
         "A dark cloud moved in over the lake.",
         "The clouds finally broke around noon.",
-        "You could see his breath turn into a little cloud of steam."
+        "You could see his breath turn into a little cloud of steam.",
+        "The truck left a cloud of dust behind it.",
+        "A cloud of smoke hung over the valley for days.",
+        "Clouds of insects rose out of the grass.",
+        "All my photos are backed up to the cloud.",
+        "The company moved its records to the cloud.",
+        "You can open the file from the cloud on any device."
       ],
-      "senses": [],
-      "русский": "облако, туча",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A white or gray mass of water droplets floating in the sky",
+          "body": [
+            "(облако, туча)"
+          ],
+          "examples": [
+            "A dark cloud moved in over the lake.",
+            "The clouds finally broke around noon.",
+            "You could see his breath turn into a little cloud of steam."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mass of smoke, dust, or tiny particles floating in the air",
+          "body": [
+            "(облако (пыли, дыма), клубы)"
+          ],
+          "examples": [
+            "The truck left a cloud of dust behind it.",
+            "A cloud of smoke hung over the valley for days.",
+            "Clouds of insects rose out of the grass."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Storage and computing power provided over the internet instead of on your own machine",
+          "body": [
+            "(облако, облачное хранилище)",
+            "---"
+          ],
+          "examples": [
+            "All my photos are backed up to the cloud.",
+            "The company moved its records to the cloud.",
+            "You can open the file from the cloud on any device."
+          ]
+        }
+      ],
+      "русский": "облако, туча; облако (пыли, дыма), клубы; облако, облачное хранилище",
       "plural": "clouds",
       "countability": "countable"
     },
@@ -21,14 +65,43 @@
       "term": "sun",
       "ipa": "/sʌn/",
       "respell": "SUN",
-      "meaning": "The star that the earth goes around and that gives us light and heat. ---",
+      "meaning": "Sun has 2 distinct senses.",
       "examples": [
         "The sun comes up around six this time of year.",
         "Don't sit in the sun too long without a hat.",
-        "Some of those planets orbit two suns."
+        "Some of those planets orbit two suns.",
+        "The kids were out in the sun all afternoon.",
+        "This corner of the yard gets very little sun.",
+        "Put a hat on and stay out of the sun."
       ],
-      "senses": [],
-      "русский": "солнце",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The star that the earth goes around and that gives us light and heat",
+          "body": [
+            "(солнце)"
+          ],
+          "examples": [
+            "The sun comes up around six this time of year.",
+            "Don't sit in the sun too long without a hat.",
+            "Some of those planets orbit two suns."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sunlight and its warmth, thought of as something you sit in or keep out of",
+          "body": [
+            "(солнце, солнечный свет (тепло и свет))",
+            "---"
+          ],
+          "examples": [
+            "The kids were out in the sun all afternoon.",
+            "This corner of the yard gets very little sun.",
+            "Put a hat on and stay out of the sun."
+          ]
+        }
+      ],
+      "русский": "солнце; солнце, солнечный свет (тепло и свет)",
       "plural": "suns",
       "countability": "countable",
       "contrast": "Sun and son are perfect homophones in American English."
@@ -37,14 +110,43 @@
       "term": "moon",
       "ipa": "/muːn/",
       "respell": "MOON",
-      "meaning": "The large round object that circles the earth and shines at night. ---",
+      "meaning": "Moon has 2 distinct senses.",
       "examples": [
         "There's a full moon tonight.",
         "The moon was so bright we didn't need a flashlight.",
-        "Jupiter has dozens of moons."
+        "Jupiter has dozens of moons.",
+        "Jupiter has dozens of moons.",
+        "Titan is the largest moon of Saturn.",
+        "The probe photographed two small moons nobody had seen before."
       ],
-      "senses": [],
-      "русский": "луна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The large round object that circles the earth and shines at night",
+          "body": [
+            "(луна)"
+          ],
+          "examples": [
+            "There's a full moon tonight.",
+            "The moon was so bright we didn't need a flashlight.",
+            "Jupiter has dozens of moons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A natural body that circles a planet other than the earth",
+          "body": [
+            "(спутник (планеты))",
+            "---"
+          ],
+          "examples": [
+            "Jupiter has dozens of moons.",
+            "Titan is the largest moon of Saturn.",
+            "The probe photographed two small moons nobody had seen before."
+          ]
+        }
+      ],
+      "русский": "луна; спутник (планеты)",
       "plural": "moons",
       "countability": "countable"
     },
@@ -52,14 +154,58 @@
       "term": "star",
       "ipa": "/stɑːr/",
       "respell": "STAHR",
-      "meaning": "A huge ball of burning gas that looks like a point of light at night. ---",
+      "meaning": "Star has 3 distinct senses.",
       "examples": [
         "Out in the desert you can see thousands of stars.",
         "That bright star is actually Venus.",
-        "We lay on the roof and counted stars."
+        "We lay on the roof and counted stars.",
+        "He became a star after his first album.",
+        "The movie stars arrived in dark glasses.",
+        "She was the star of the school play.",
+        "The teacher put a gold star on her paper.",
+        "The restaurant earned three stars in the guide.",
+        "Draw a star at the top of the tree."
       ],
-      "senses": [],
-      "русский": "звезда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A huge ball of burning gas that looks like a point of light at night",
+          "body": [
+            "(звезда)"
+          ],
+          "examples": [
+            "Out in the desert you can see thousands of stars.",
+            "That bright star is actually Venus.",
+            "We lay on the roof and counted stars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A famous and successful performer or athlete",
+          "body": [
+            "(звезда (знаменитость))"
+          ],
+          "examples": [
+            "He became a star after his first album.",
+            "The movie stars arrived in dark glasses.",
+            "She was the star of the school play."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A pointed shape used as a symbol, a reward, or a rating",
+          "body": [
+            "(звезда (фигура, знак отличия, оценка))",
+            "---"
+          ],
+          "examples": [
+            "The teacher put a gold star on her paper.",
+            "The restaurant earned three stars in the guide.",
+            "Draw a star at the top of the tree."
+          ]
+        }
+      ],
+      "русский": "звезда; звезда (знаменитость); звезда (фигура, знак отличия, оценка)",
       "plural": "stars",
       "countability": "countable"
     },
@@ -109,14 +255,43 @@
       "term": "ray",
       "ipa": "/reɪ/",
       "respell": "RAY",
-      "meaning": "A narrow line of light or heat traveling from something. ---",
+      "meaning": "Ray has 2 distinct senses.",
       "examples": [
         "A ray of sun came through the curtains.",
         "Sunscreen blocks the rays that burn your skin.",
-        "The first rays hit the top of the mountain."
+        "The first rays hit the top of the mountain.",
+        "A ray glided over the sand right below us.",
+        "Rays often bury themselves in the shallows.",
+        "The aquarium has a tank where you can touch the rays."
       ],
-      "senses": [],
-      "русский": "луч",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow line of light or heat traveling from something",
+          "body": [
+            "(луч)"
+          ],
+          "examples": [
+            "A ray of sun came through the curtains.",
+            "Sunscreen blocks the rays that burn your skin.",
+            "The first rays hit the top of the mountain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat sea fish with wide winglike fins and a long thin tail",
+          "body": [
+            "(скат (рыба))",
+            "---"
+          ],
+          "examples": [
+            "A ray glided over the sand right below us.",
+            "Rays often bury themselves in the shallows.",
+            "The aquarium has a tank where you can touch the rays."
+          ]
+        }
+      ],
+      "русский": "луч; скат (рыба)",
       "plural": "rays",
       "countability": "countable"
     },
@@ -124,14 +299,73 @@
       "term": "shade",
       "ipa": "/ʃeɪd/",
       "respell": "SHAYD",
-      "meaning": "An area that is cooler and darker because something blocks the sun. ---",
+      "meaning": "Shade has 4 distinct senses.",
       "examples": [
         "Let's eat in the shade — it's ninety degrees out here.",
         "That old oak gives the whole yard shade.",
-        "There's no shade anywhere on this beach."
+        "There's no shade anywhere on this beach.",
+        "Pull the shades down before the sun hits that window.",
+        "She raised the shade and looked out at the street.",
+        "The lamp in the hall needs a new shade.",
+        "The wall is a darker shade of blue than I wanted.",
+        "They sell the same shirt in eight shades of gray.",
+        "Her hair had gone a lighter shade over the summer.",
+        "The two words carry different shades of meaning.",
+        "There was a shade of doubt in his voice.",
+        "Every answer came with a shade of sarcasm."
       ],
-      "senses": [],
-      "русский": "тень (прохладное место)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An area that is cooler and darker because something blocks the sun",
+          "body": [
+            "(тень (прохладное место))"
+          ],
+          "examples": [
+            "Let's eat in the shade — it's ninety degrees out here.",
+            "That old oak gives the whole yard shade.",
+            "There's no shade anywhere on this beach."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cover pulled down over a window, or the cover over a lamp",
+          "body": [
+            "(штора, жалюзи; абажур)"
+          ],
+          "examples": [
+            "Pull the shades down before the sun hits that window.",
+            "She raised the shade and looked out at the street.",
+            "The lamp in the hall needs a new shade."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular variety or depth of a color",
+          "body": [
+            "(оттенок (цвета))"
+          ],
+          "examples": [
+            "The wall is a darker shade of blue than I wanted.",
+            "They sell the same shirt in eight shades of gray.",
+            "Her hair had gone a lighter shade over the summer."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A slight difference or a small amount of something",
+          "body": [
+            "(нюанс, лёгкая примесь, чуточка)",
+            "---"
+          ],
+          "examples": [
+            "The two words carry different shades of meaning.",
+            "There was a shade of doubt in his voice.",
+            "Every answer came with a shade of sarcasm."
+          ]
+        }
+      ],
+      "русский": "тень (прохладное место); штора, жалюзи; абажур; оттенок (цвета); нюанс, лёгкая примесь, чуточка",
       "countability": "uncountable",
       "contrast": "Russian «тень» splits in two: shade is the cool area out of the sun, shadow is the dark shape an object casts."
     },
@@ -154,14 +388,43 @@
       "term": "dawn",
       "ipa": "/dɔːn/",
       "respell": "DAWN",
-      "meaning": "The first light of the day, just before the sun comes up. ---",
+      "meaning": "Dawn has 2 distinct senses.",
       "examples": [
         "The crew starts work at dawn.",
         "We drove all night and got there at dawn.",
-        "It was a cold, gray dawn."
+        "It was a cold, gray dawn.",
+        "This was the dawn of the personal computer.",
+        "The treaty promised the dawn of a new era.",
+        "Storytelling goes back to the dawn of human history."
       ],
-      "senses": [],
-      "русский": "рассвет, заря",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The first light of the day, just before the sun comes up",
+          "body": [
+            "(рассвет, заря)"
+          ],
+          "examples": [
+            "The crew starts work at dawn.",
+            "We drove all night and got there at dawn.",
+            "It was a cold, gray dawn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The beginning of a period or of a new state of things",
+          "body": [
+            "(начало, заря (эпохи))",
+            "---"
+          ],
+          "examples": [
+            "This was the dawn of the personal computer.",
+            "The treaty promised the dawn of a new era.",
+            "Storytelling goes back to the dawn of human history."
+          ]
+        }
+      ],
+      "русский": "рассвет, заря; начало, заря (эпохи)",
       "plural": "dawns",
       "countability": "countable"
     },
@@ -255,14 +518,43 @@
       "term": "climate",
       "ipa": "/ˈklaɪmət/",
       "respell": "KLY-muht",
-      "meaning": "The usual weather a place has over many years. ---",
+      "meaning": "Climate has 2 distinct senses.",
       "examples": [
         "Arizona has a dry climate.",
         "My knees do better in a warm climate.",
-        "These grapes only grow in cool climates."
+        "These grapes only grow in cool climates.",
+        "The political climate has changed since the election.",
+        "Small firms are struggling in the current economic climate.",
+        "A climate of fear kept people from speaking up."
       ],
-      "senses": [],
-      "русский": "климат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The usual weather a place has over many years",
+          "body": [
+            "(климат)"
+          ],
+          "examples": [
+            "Arizona has a dry climate.",
+            "My knees do better in a warm climate.",
+            "These grapes only grow in cool climates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The general mood or set of conditions surrounding a situation",
+          "body": [
+            "(обстановка, атмосфера (общественная))",
+            "---"
+          ],
+          "examples": [
+            "The political climate has changed since the election.",
+            "Small firms are struggling in the current economic climate.",
+            "A climate of fear kept people from speaking up."
+          ]
+        }
+      ],
+      "русский": "климат; обстановка, атмосфера (общественная)",
       "plural": "climates",
       "countability": "countable"
     },
@@ -286,14 +578,58 @@
       "term": "season",
       "ipa": "/ˈsiːzən/",
       "respell": "SEE-zuhn",
-      "meaning": "One of the four parts of the year, or a period with typical weather. ---",
+      "meaning": "Season has 3 distinct senses.",
       "examples": [
         "Fall is my favorite season.",
         "We get all four seasons here.",
-        "Hurricane season runs from June through November."
+        "Hurricane season runs from June through November.",
+        "The football season starts in September.",
+        "Hotels double their rates during the busy season.",
+        "He hit thirty home runs last season.",
+        "The third season comes out in October.",
+        "We watched a whole season in one weekend.",
+        "The show was canceled after two seasons."
       ],
-      "senses": [],
-      "русский": "время года, сезон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the four parts of the year, or a period with typical weather",
+          "body": [
+            "(время года, сезон)"
+          ],
+          "examples": [
+            "Fall is my favorite season.",
+            "We get all four seasons here.",
+            "Hurricane season runs from June through November."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of the year when a particular sport, crop, or business is at its height",
+          "body": [
+            "(сезон (спортивный, туристический, уборочный))"
+          ],
+          "examples": [
+            "The football season starts in September.",
+            "Hotels double their rates during the busy season.",
+            "He hit thirty home runs last season."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A set of episodes of a television show released over one period",
+          "body": [
+            "(сезон (сериала))",
+            "---"
+          ],
+          "examples": [
+            "The third season comes out in October.",
+            "We watched a whole season in one weekend.",
+            "The show was canceled after two seasons."
+          ]
+        }
+      ],
+      "русский": "время года, сезон; сезон (спортивный, туристический, уборочный); сезон (сериала)",
       "plural": "seasons",
       "countability": "countable"
     },
@@ -301,14 +637,58 @@
       "term": "degree",
       "ipa": "/dɪˈɡriː/",
       "respell": "dih-GREE",
-      "meaning": "A unit for measuring temperature. ---",
+      "meaning": "Degree has 3 distinct senses.",
       "examples": [
         "It's supposed to hit ninety degrees tomorrow.",
         "The temperature dropped twenty degrees in an hour.",
-        "Water freezes at thirty-two degrees Fahrenheit."
+        "Water freezes at thirty-two degrees Fahrenheit.",
+        "She has a degree in civil engineering.",
+        "He finished his degree at night school.",
+        "Both degrees hang framed in her office.",
+        "There is a degree of risk in any investment.",
+        "To some degree, we were all responsible.",
+        "The work requires a high degree of accuracy."
       ],
-      "senses": [],
-      "русский": "градус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit for measuring temperature",
+          "body": [
+            "(градус)"
+          ],
+          "examples": [
+            "It's supposed to hit ninety degrees tomorrow.",
+            "The temperature dropped twenty degrees in an hour.",
+            "Water freezes at thirty-two degrees Fahrenheit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A qualification given by a university to a student who completes a course of study",
+          "body": [
+            "(учёная степень, диплом о высшем образовании)"
+          ],
+          "examples": [
+            "She has a degree in civil engineering.",
+            "He finished his degree at night school.",
+            "Both degrees hang framed in her office."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The amount or extent to which something is true or present",
+          "body": [
+            "(степень, мера)",
+            "---"
+          ],
+          "examples": [
+            "There is a degree of risk in any investment.",
+            "To some degree, we were all responsible.",
+            "The work requires a high degree of accuracy."
+          ]
+        }
+      ],
+      "русский": "градус; учёная степень, диплом о высшем образовании; степень, мера",
       "plural": "degrees",
       "countability": "countable"
     },
@@ -402,14 +782,73 @@
       "term": "front",
       "ipa": "/frʌnt/",
       "respell": "FRUNT",
-      "meaning": "The boundary between two masses of air, which usually brings a change in weather. ---",
+      "meaning": "Front has 4 distinct senses.",
       "examples": [
         "A cold front is moving in tonight.",
         "The front stalled over the valley and it rained for three days.",
-        "Warm fronts usually bring steady rain instead of thunderstorms."
+        "Warm fronts usually bring steady rain instead of thunderstorms.",
+        "There's a long scratch on the front of the car.",
+        "We sat at the front of the classroom.",
+        "The front of the building is all glass.",
+        "Her grandfather was wounded at the front.",
+        "Fresh troops were sent to the eastern front.",
+        "Letters from the front took weeks to arrive.",
+        "The car wash was a front for a gambling ring.",
+        "Police say the charity was just a front.",
+        "Several fronts were set up to move the money."
       ],
-      "senses": [],
-      "русский": "атмосферный фронт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The boundary between two masses of air, which usually brings a change in weather",
+          "body": [
+            "(атмосферный фронт)"
+          ],
+          "examples": [
+            "A cold front is moving in tonight.",
+            "The front stalled over the valley and it rained for three days.",
+            "Warm fronts usually bring steady rain instead of thunderstorms."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part or side of something that faces forward",
+          "body": [
+            "(передняя часть, фасад)"
+          ],
+          "examples": [
+            "There's a long scratch on the front of the car.",
+            "We sat at the front of the classroom.",
+            "The front of the building is all glass."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The line along which two armies are fighting in a war",
+          "body": [
+            "(фронт (линия боевых действий))"
+          ],
+          "examples": [
+            "Her grandfather was wounded at the front.",
+            "Fresh troops were sent to the eastern front.",
+            "Letters from the front took weeks to arrive."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A person or business used to hide an illegal or secret activity",
+          "body": [
+            "(прикрытие, ширма)",
+            "---"
+          ],
+          "examples": [
+            "The car wash was a front for a gambling ring.",
+            "Police say the charity was just a front.",
+            "Several fronts were set up to move the money."
+          ]
+        }
+      ],
+      "русский": "атмосферный фронт; передняя часть, фасад; фронт (линия боевых действий); прикрытие, ширма",
       "plural": "fronts",
       "countability": "countable",
       "contrast": "Spelled with an o but pronounced FRUNT, rhyming with hunt."
@@ -418,14 +857,43 @@
       "term": "storm",
       "ipa": "/stɔːrm/",
       "respell": "STORM",
-      "meaning": "A period of violent weather with strong wind and usually rain or snow. ---",
+      "meaning": "Storm has 2 distinct senses.",
       "examples": [
         "We lost power during the storm.",
         "A big storm is supposed to come through Friday night.",
-        "Three storms hit the coast in two weeks."
+        "Three storms hit the coast in two weeks.",
+        "The remark set off a storm of criticism.",
+        "The bill passed after a political storm.",
+        "Her resignation caused a media storm."
       ],
-      "senses": [],
-      "русский": "буря, гроза, шторм",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of violent weather with strong wind and usually rain or snow",
+          "body": [
+            "(буря, гроза, шторм)"
+          ],
+          "examples": [
+            "We lost power during the storm.",
+            "A big storm is supposed to come through Friday night.",
+            "Three storms hit the coast in two weeks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden violent outburst of public feeling or trouble",
+          "body": [
+            "(буря (возмущения), шквал)",
+            "---"
+          ],
+          "examples": [
+            "The remark set off a storm of criticism.",
+            "The bill passed after a political storm.",
+            "Her resignation caused a media storm."
+          ]
+        }
+      ],
+      "русский": "буря, гроза, шторм; буря (возмущения), шквал",
       "plural": "storms",
       "countability": "countable"
     },
@@ -478,14 +946,43 @@
       "term": "drizzle",
       "ipa": "/ˈdrɪzəl/",
       "respell": "DRIZ-uhl",
-      "meaning": "Very light rain made of fine drops. ---",
+      "meaning": "Drizzle has 2 distinct senses.",
       "examples": [
         "It's just drizzle — you don't need an umbrella.",
         "The game went on through a steady drizzle.",
-        "Cold drizzle is somehow worse than real rain."
+        "Cold drizzle is somehow worse than real rain.",
+        "Finish the salad with a drizzle of olive oil.",
+        "The cake came with a drizzle of lemon glaze.",
+        "Add a drizzle of honey to the yogurt."
       ],
-      "senses": [],
-      "русский": "моросящий дождь, морось",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Very light rain made of fine drops",
+          "body": [
+            "(моросящий дождь, морось)"
+          ],
+          "examples": [
+            "It's just drizzle — you don't need an umbrella.",
+            "The game went on through a steady drizzle.",
+            "Cold drizzle is somehow worse than real rain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin stream of liquid poured over food",
+          "body": [
+            "(тонкая струйка (соуса, масла))",
+            "---"
+          ],
+          "examples": [
+            "Finish the salad with a drizzle of olive oil.",
+            "The cake came with a drizzle of lemon glaze.",
+            "Add a drizzle of honey to the yogurt."
+          ]
+        }
+      ],
+      "русский": "моросящий дождь, морось; тонкая струйка (соуса, масла)",
       "countability": "uncountable"
     },
     {
@@ -551,14 +1048,43 @@
       "term": "hail",
       "ipa": "/heɪl/",
       "respell": "HAYL",
-      "meaning": "Small balls of ice that fall from storm clouds. ---",
+      "meaning": "Hail has 2 distinct senses.",
       "examples": [
         "Hail the size of quarters dented every car on the lot.",
         "We pulled over and waited out the hail.",
-        "The storm brought wind, rain, and hail."
+        "The storm brought wind, rain, and hail.",
+        "The car was hit by a hail of bullets.",
+        "Her proposal met a hail of criticism.",
+        "A hail of stones came down from the ridge."
       ],
-      "senses": [],
-      "русский": "град",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Small balls of ice that fall from storm clouds",
+          "body": [
+            "(град)"
+          ],
+          "examples": [
+            "Hail the size of quarters dented every car on the lot.",
+            "We pulled over and waited out the hail.",
+            "The storm brought wind, rain, and hail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large number of things thrown, fired, or aimed at once",
+          "body": [
+            "(град (пуль, упрёков))",
+            "---"
+          ],
+          "examples": [
+            "The car was hit by a hail of bullets.",
+            "Her proposal met a hail of criticism.",
+            "A hail of stones came down from the ridge."
+          ]
+        }
+      ],
+      "русский": "град; град (пуль, упрёков)",
       "countability": "uncountable",
       "contrast": "Hail is uncountable — one piece of it is a hailstone, never \"a hail\"."
     },
@@ -669,14 +1195,43 @@
       "term": "flurry",
       "ipa": "/ˈflɜːri/",
       "respell": "FLUR-ee",
-      "meaning": "A brief, light fall of snow. ---",
+      "meaning": "Flurry has 2 distinct senses.",
       "examples": [
         "We're expecting flurries tonight, nothing serious.",
         "A flurry blew past the window and stopped.",
-        "There were flurries on the drive up, but nothing stuck."
+        "There were flurries on the drive up, but nothing stuck.",
+        "There was a flurry of calls right before closing.",
+        "The announcement set off a flurry of trading.",
+        "After a few early flurries, the day went quiet."
       ],
-      "senses": [],
-      "русский": "лёгкий снегопад, кратковременный снег",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A brief, light fall of snow",
+          "body": [
+            "(лёгкий снегопад, кратковременный снег)"
+          ],
+          "examples": [
+            "We're expecting flurries tonight, nothing serious.",
+            "A flurry blew past the window and stopped.",
+            "There were flurries on the drive up, but nothing stuck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden short burst of activity",
+          "body": [
+            "(шквал, всплеск (активности))",
+            "---"
+          ],
+          "examples": [
+            "There was a flurry of calls right before closing.",
+            "The announcement set off a flurry of trading.",
+            "After a few early flurries, the day went quiet."
+          ]
+        }
+      ],
+      "русский": "лёгкий снегопад, кратковременный снег; шквал, всплеск (активности)",
       "plural": "flurries",
       "countability": "countable"
     },
@@ -760,14 +1315,43 @@
       "term": "thaw",
       "ipa": "/θɔː/",
       "respell": "THAW",
-      "meaning": "A period of warmer weather when snow and ice melt. ---",
+      "meaning": "Thaw has 2 distinct senses.",
       "examples": [
         "We got a thaw in the middle of January.",
         "The river floods every spring during the thaw.",
-        "A couple of thaws turned the yard into mud."
+        "A couple of thaws turned the yard into mud.",
+        "The visit marked a thaw in relations between the two countries.",
+        "There's been a slight thaw between the brothers.",
+        "Trade talks brought a brief thaw."
       ],
-      "senses": [],
-      "русский": "оттепель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of warmer weather when snow and ice melt",
+          "body": [
+            "(оттепель)"
+          ],
+          "examples": [
+            "We got a thaw in the middle of January.",
+            "The river floods every spring during the thaw.",
+            "A couple of thaws turned the yard into mud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An improvement in relations between people or countries that had been unfriendly",
+          "body": [
+            "(потепление (в отношениях))",
+            "---"
+          ],
+          "examples": [
+            "The visit marked a thaw in relations between the two countries.",
+            "There's been a slight thaw between the brothers.",
+            "Trade talks brought a brief thaw."
+          ]
+        }
+      ],
+      "русский": "оттепель; потепление (в отношениях)",
       "plural": "thaws",
       "countability": "countable"
     },
@@ -804,14 +1388,43 @@
       "term": "fog",
       "ipa": "/fɔːɡ/",
       "respell": "FAWG",
-      "meaning": "A thick cloud of water droplets near the ground that makes it hard to see. ---",
+      "meaning": "Fog has 2 distinct senses.",
       "examples": [
         "The fog was so thick I couldn't see the mailbox.",
         "Fog rolls in off the bay almost every morning.",
-        "The bridge was closed because of fog."
+        "The bridge was closed because of fog.",
+        "I got through the whole week in a fog.",
+        "The medication left her in a mental fog.",
+        "The first months after the baby were a complete fog."
       ],
-      "senses": [],
-      "русский": "туман",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick cloud of water droplets near the ground that makes it hard to see",
+          "body": [
+            "(туман)"
+          ],
+          "examples": [
+            "The fog was so thick I couldn't see the mailbox.",
+            "Fog rolls in off the bay almost every morning.",
+            "The bridge was closed because of fog."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of confusion in which you cannot think clearly",
+          "body": [
+            "(туман в голове, помутнение сознания)",
+            "---"
+          ],
+          "examples": [
+            "I got through the whole week in a fog.",
+            "The medication left her in a mental fog.",
+            "The first months after the baby were a complete fog."
+          ]
+        }
+      ],
+      "русский": "туман; туман в голове, помутнение сознания",
       "countability": "uncountable"
     },
     {
@@ -832,14 +1445,43 @@
       "term": "haze",
       "ipa": "/heɪz/",
       "respell": "HAYZ",
-      "meaning": "A slight cloudiness in the air from dust, smoke, or heat. ---",
+      "meaning": "Haze has 2 distinct senses.",
       "examples": [
         "There's a haze over the whole valley from the wildfires.",
         "You could barely make out the skyline through the haze.",
-        "Summer haze makes the mountains look blue."
+        "Summer haze makes the mountains look blue.",
+        "I got through the baby's first month in a haze.",
+        "After the surgery he spent two days in a haze of painkillers.",
+        "The whole evening is a haze — I don't even remember leaving."
       ],
-      "senses": [],
-      "русский": "дымка, мгла",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A slight cloudiness in the air from dust, smoke, or heat",
+          "body": [
+            "(дымка, мгла)"
+          ],
+          "examples": [
+            "There's a haze over the whole valley from the wildfires.",
+            "You could barely make out the skyline through the haze.",
+            "Summer haze makes the mountains look blue."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state in which someone cannot think clearly",
+          "body": [
+            "(туман в голове, помутнение сознания)",
+            "---"
+          ],
+          "examples": [
+            "I got through the baby's first month in a haze.",
+            "After the surgery he spent two days in a haze of painkillers.",
+            "The whole evening is a haze — I don't even remember leaving."
+          ]
+        }
+      ],
+      "русский": "дымка, мгла; туман в голове, помутнение сознания",
       "countability": "uncountable"
     },
     {
@@ -917,14 +1559,43 @@
       "term": "wind",
       "ipa": "/wɪnd/",
       "respell": "WIND",
-      "meaning": "Air moving across the land or the sea. ---",
+      "meaning": "Wind has 2 distinct senses.",
       "examples": [
         "A cold wind was coming off the lake.",
         "The wind took my hat halfway down the block.",
-        "Winds of forty miles an hour knocked out the power."
+        "Winds of forty miles an hour knocked out the power.",
+        "The fall knocked the wind out of me.",
+        "Give me a second to get my wind back.",
+        "He found his second wind on the last mile."
       ],
-      "senses": [],
-      "русский": "ветер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Air moving across the land or the sea",
+          "body": [
+            "(ветер)"
+          ],
+          "examples": [
+            "A cold wind was coming off the lake.",
+            "The wind took my hat halfway down the block.",
+            "Winds of forty miles an hour knocked out the power."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to breathe normally, especially during hard effort",
+          "body": [
+            "(дыхание)",
+            "---"
+          ],
+          "examples": [
+            "The fall knocked the wind out of me.",
+            "Give me a second to get my wind back.",
+            "He found his second wind on the last mile."
+          ]
+        }
+      ],
+      "русский": "ветер; дыхание",
       "plural": "winds",
       "countability": "countable",
       "contrast": "The noun is WIND (rhymes with pinned); the verb to wind a clock is WYND (rhymes with find)."
@@ -933,14 +1604,43 @@
       "term": "breeze",
       "ipa": "/briːz/",
       "respell": "BREEZ",
-      "meaning": "A light, pleasant wind. ---",
+      "meaning": "Breeze has 2 distinct senses.",
       "examples": [
         "There's a nice breeze on the porch.",
         "The breeze off the ocean keeps it from getting too hot.",
-        "Evening breezes make August almost bearable."
+        "Evening breezes make August almost bearable.",
+        "The final exam turned out to be a breeze.",
+        "With the new software, payroll is a breeze.",
+        "The hike looked hard, but it was a breeze."
       ],
-      "senses": [],
-      "русский": "лёгкий ветер, ветерок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light, pleasant wind",
+          "body": [
+            "(лёгкий ветер, ветерок)"
+          ],
+          "examples": [
+            "There's a nice breeze on the porch.",
+            "The breeze off the ocean keeps it from getting too hot.",
+            "Evening breezes make August almost bearable."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that is very easy to do",
+          "body": [
+            "(лёгкое дело, пустяк)",
+            "---"
+          ],
+          "examples": [
+            "The final exam turned out to be a breeze.",
+            "With the new software, payroll is a breeze.",
+            "The hike looked hard, but it was a breeze."
+          ]
+        }
+      ],
+      "русский": "лёгкий ветер, ветерок; лёгкое дело, пустяк",
       "plural": "breezes",
       "countability": "countable"
     },
@@ -1113,14 +1813,43 @@
       "term": "warmth",
       "ipa": "/wɔːrmθ/",
       "respell": "WORMTH",
-      "meaning": "The pleasant quality of being warm. ---",
+      "meaning": "Warmth has 2 distinct senses.",
       "examples": [
         "You could feel the warmth coming off the sidewalk.",
         "We stepped inside for a little warmth.",
-        "Wool keeps its warmth even when it's wet."
+        "Wool keeps its warmth even when it's wet.",
+        "She greeted every guest with real warmth.",
+        "There was no warmth in his voice at all.",
+        "I still remember the warmth of that welcome."
       ],
-      "senses": [],
-      "русский": "тепло",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pleasant quality of being warm",
+          "body": [
+            "(тепло)"
+          ],
+          "examples": [
+            "You could feel the warmth coming off the sidewalk.",
+            "We stepped inside for a little warmth.",
+            "Wool keeps its warmth even when it's wet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Friendliness and kind feeling toward other people",
+          "body": [
+            "(теплота, сердечность)",
+            "---"
+          ],
+          "examples": [
+            "She greeted every guest with real warmth.",
+            "There was no warmth in his voice at all.",
+            "I still remember the warmth of that welcome."
+          ]
+        }
+      ],
+      "русский": "тепло; теплота, сердечность",
       "countability": "uncountable"
     },
     {
@@ -1172,14 +1901,73 @@
       "term": "fall",
       "ipa": "/fɔːl/",
       "respell": "FAWL",
-      "meaning": "The season between summer and winter, when leaves change color. ---",
+      "meaning": "Fall has 4 distinct senses.",
       "examples": [
         "The leaves are beautiful here in the fall.",
         "She starts law school this fall.",
-        "We've had some cold falls lately."
+        "We've had some cold falls lately.",
+        "She broke her wrist in a fall on the ice.",
+        "He took a bad fall off the ladder.",
+        "Most falls at home happen in the bathroom.",
+        "The report showed a sharp fall in unemployment.",
+        "A steady fall in prices hurt local growers.",
+        "Falls in temperature overnight can ruin the crop.",
+        "The class spent a week on the fall of the empire.",
+        "The fall of the city ended the war.",
+        "His fall from power took less than a month."
       ],
-      "senses": [],
-      "русский": "осень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The season between summer and winter, when leaves change color",
+          "body": [
+            "(осень)"
+          ],
+          "examples": [
+            "The leaves are beautiful here in the fall.",
+            "She starts law school this fall.",
+            "We've had some cold falls lately."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act of dropping to the ground, usually by accident",
+          "body": [
+            "(падение)"
+          ],
+          "examples": [
+            "She broke her wrist in a fall on the ice.",
+            "He took a bad fall off the ladder.",
+            "Most falls at home happen in the bathroom."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A drop in the amount, level, or price of something",
+          "body": [
+            "(падение, снижение (цен, уровня))"
+          ],
+          "examples": [
+            "The report showed a sharp fall in unemployment.",
+            "A steady fall in prices hurt local growers.",
+            "Falls in temperature overnight can ruin the crop."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The loss of power by a government, or the capture of a city",
+          "body": [
+            "(падение, крушение (власти, города))",
+            "---"
+          ],
+          "examples": [
+            "The class spent a week on the fall of the empire.",
+            "The fall of the city ended the war.",
+            "His fall from power took less than a month."
+          ]
+        }
+      ],
+      "русский": "осень; падение; падение, снижение (цен, уровня); падение, крушение (власти, города)",
       "plural": "falls",
       "countability": "countable",
       "contrast": "Americans normally say fall; the British say autumn. Both are understood in the US."
@@ -1370,14 +2158,43 @@
       "term": "orbit",
       "ipa": "/ˈɔːrbɪt/",
       "respell": "OR-bit",
-      "meaning": "The curved path one object takes around another in space. ---",
+      "meaning": "Orbit has 2 distinct senses.",
       "examples": [
         "The satellite is in a low orbit.",
         "The moon's orbit isn't a perfect circle.",
-        "It completes sixteen orbits a day."
+        "It completes sixteen orbits a day.",
+        "Several small nations remain in Moscow's orbit.",
+        "He drifted out of our orbit after college.",
+        "The startup was pulled into the orbit of a much bigger firm."
       ],
-      "senses": [],
-      "русский": "орбита",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The curved path one object takes around another in space",
+          "body": [
+            "(орбита)"
+          ],
+          "examples": [
+            "The satellite is in a low orbit.",
+            "The moon's orbit isn't a perfect circle.",
+            "It completes sixteen orbits a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The area of influence or control that a person or country has",
+          "body": [
+            "(сфера влияния)",
+            "---"
+          ],
+          "examples": [
+            "Several small nations remain in Moscow's orbit.",
+            "He drifted out of our orbit after college.",
+            "The startup was pulled into the orbit of a much bigger firm."
+          ]
+        }
+      ],
+      "русский": "орбита; сфера влияния",
       "plural": "orbits",
       "countability": "countable"
     },
@@ -1522,14 +2339,43 @@
       "term": "gravity",
       "ipa": "/ˈɡrævəti/",
       "respell": "GRAV-uh-tee",
-      "meaning": "The force that pulls objects toward each other, and things toward the earth. ---",
+      "meaning": "Gravity has 2 distinct senses.",
       "examples": [
         "Gravity on the moon is about a sixth of what it is here.",
         "You don't notice gravity until you try to carry something heavy.",
-        "Their bones weaken without gravity."
+        "Their bones weaken without gravity.",
+        "He didn't grasp the gravity of the charges.",
+        "Her voice made the gravity of the news clear.",
+        "The gravity of the moment silenced the room."
       ],
-      "senses": [],
-      "русский": "сила тяжести, гравитация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The force that pulls objects toward each other, and things toward the earth",
+          "body": [
+            "(сила тяжести, гравитация)"
+          ],
+          "examples": [
+            "Gravity on the moon is about a sixth of what it is here.",
+            "You don't notice gravity until you try to carry something heavy.",
+            "Their bones weaken without gravity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The serious or dangerous nature of a situation",
+          "body": [
+            "(серьёзность, тяжесть (положения))",
+            "---"
+          ],
+          "examples": [
+            "He didn't grasp the gravity of the charges.",
+            "Her voice made the gravity of the news clear.",
+            "The gravity of the moment silenced the room."
+          ]
+        }
+      ],
+      "русский": "сила тяжести, гравитация; серьёзность, тяжесть (положения)",
       "countability": "uncountable"
     },
     {

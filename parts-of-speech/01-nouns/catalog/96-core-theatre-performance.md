@@ -12,15 +12,35 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### play
 
 **Pronunciation:** /pleɪ/ &middot; *PLAY*
-**Русский:** пьеса, спектакль
+**Русский:** пьеса, спектакль; игра (как занятие); игровой момент, комбинация (в спорте); люфт, свободный ход
 **Plural:** *plays*
 **Countability:** countable
 
-A story written to be acted out on a stage.
+Play has 4 distinct senses.
+
+**1. A story written to be acted out on a stage.** (пьеса, спектакль)
 
 1. We saw a *play* about two brothers running a diner.
 2. She has written six *plays*, and three of them were produced.
 3. The *play* runs two hours with one intermission.
+
+**2. Activity done for fun, especially by children.** (игра (как занятие))
+
+4. Young children learn through *play*.
+5. The yard gives them room for outdoor *play*.
+6. It's all work and no *play* around here.
+
+**3. A single action or planned move in a sports game.** (игровой момент, комбинация (в спорте))
+
+7. That catch was the best *play* of the game.
+8. The coach drew up a *play* during the timeout.
+9. They ran the same *play* three times in a row.
+
+**4. A small amount of loose movement in a mechanical part.** (люфт, свободный ход)
+
+10. There's too much *play* in the steering wheel.
+11. A little *play* in the chain is normal.
+12. The hinge has some *play* now that the screws are loose.
 
 ---
 
@@ -43,31 +63,71 @@ A woman who performs a part in a play, film, or television show.
 ### scene
 
 **Pronunciation:** /siːn/ &middot; *SEEN*
-**Русский:** сцена, эпизод (часть акта)
+**Русский:** сцена, эпизод (часть акта); место происшествия, место преступления; сцена, скандал (на людях); среда, тусовка, сфера (музыкальная, гастрономическая)
 **Plural:** *scenes*
 **Countability:** countable
 **Contrast:** Sounds exactly like *seen*, the past participle of see.
 
-A section of a play or film that happens in one place and time.
+Scene has 4 distinct senses.
+
+**1. A section of a play or film that happens in one place and time.** (сцена, эпизод (часть акта))
 
 1. The best *scene* is the argument in the kitchen.
 2. We rehearsed the last two *scenes* all afternoon.
 3. He forgot his lines in the opening *scene*.
+
+**2. The place where something happened, especially a crime or an accident.** (место происшествия, место преступления)
+
+4. Police were on the *scene* within four minutes.
+5. He left the *scene* of the accident without stopping.
+6. Reporters were kept a block away from the *scene*.
+
+**3. A noisy public display of anger or emotion.** (сцена, скандал (на людях))
+
+7. Please don't make a *scene* in front of the neighbors.
+8. She caused quite a *scene* at the restaurant.
+9. He walked out rather than have a *scene* in the lobby.
+
+**4. A particular area of activity together with the people involved in it.** (среда, тусовка, сфера (музыкальная, гастрономическая))
+
+10. Austin has a great live music *scene*.
+11. She's been part of the art *scene* here for years.
+12. The city's restaurant *scene* has changed completely.
 
 ---
 
 ### act
 
 **Pronunciation:** /ækt/ &middot; *AKT*
-**Русский:** акт, действие (пьесы); номер (эстрадный)
+**Русский:** акт, действие (пьесы); номер (эстрадный); поступок, действие; закон, законодательный акт; притворство, игра на публику
 **Plural:** *acts*
 **Countability:** countable
 
-A main division of a play, or a short self-contained performance.
+Act has 4 distinct senses.
+
+**1. A main division of a play, or a short self-contained performance.** (акт, действие (пьесы); номер (эстрадный))
 
 1. The first *act* runs almost an hour.
 2. Most modern plays have two *acts* instead of five.
 3. Her comedy *act* is about twenty minutes long.
+
+**2. A single thing that a person does.** (поступок, действие)
+
+4. Holding the door open is a small *act* of kindness.
+5. The fire was ruled a deliberate *act*.
+6. The policy does not cover *acts* of war.
+
+**3. A law passed by a legislature.** (закон, законодательный акт)
+
+7. Congress passed an *act* banning the practice.
+8. The new *act* takes effect in January.
+9. Both *acts* cleared the Senate on the same day.
+
+**4. Behavior that is put on to hide how someone really feels.** (притворство, игра на публику)
+
+10. She seems confident, but it's an *act*.
+11. Don't fall for the helpless *act*.
+12. He kept up the cheerful *act* until the last guest left.
 
 ---
 
@@ -89,15 +149,23 @@ A play or film meant to be funny and to end happily.
 ### tragedy
 
 **Pronunciation:** /ˈtrædʒədi/ &middot; *TRAJ-uh-dee*
-**Русский:** трагедия
+**Русский:** трагедия; трагедия, несчастье
 **Plural:** *tragedies*
 **Countability:** countable
 
-A serious play that ends unhappily for the main character.
+Tragedy has 2 distinct senses.
+
+**1. A serious play that ends unhappily for the main character.** (трагедия)
 
 1. Hamlet is the best known *tragedy* in English.
 2. Greek *tragedies* were performed outdoors.
 3. The director staged the *tragedy* in modern dress.
+
+**2. A very sad event, especially one in which people die.** (трагедия, несчастье)
+
+4. The fire was a *tragedy* for the whole town.
+5. It would be a *tragedy* to lose the old theater.
+6. The family has suffered two *tragedies* in one year.
 
 ---
 
@@ -135,46 +203,88 @@ A stage performance that tells a story through formal dancing and music.
 ### prop
 
 **Pronunciation:** /prɑːp/ &middot; *PRAHP*
-**Русский:** реквизит (отдельный предмет на сцене)
+**Русский:** реквизит (отдельный предмет на сцене); подпорка, опора; уважение, признание (разг.)
 **Plural:** *props*
 **Countability:** countable
 
-An object an actor carries or uses on stage.
+Prop has 3 distinct senses.
+
+**1. An object an actor carries or uses on stage.** (реквизит (отдельный предмет на сцене))
 
 1. The only *prop* in the whole scene is a coffee cup.
 2. Someone left the *props* on the wrong side of the stage.
 3. That knife is a rubber *prop*, not a real one.
+
+**2. A pole or beam used to hold something up.** (подпорка, опора)
+
+4. Wooden *props* held up the sagging ceiling.
+5. He wedged a *prop* under the loaded branch.
+6. The miners set new *props* along the tunnel.
+
+**3. Credit or respect given to someone, used in the plural.** (уважение, признание (разг.))
+
+7. Give the guy *props* for showing up at all.
+8. She deserves *props* for finishing the race.
+9. He got *props* from everyone in the room.
 
 ---
 
 ### set
 
 **Pronunciation:** /sɛt/ &middot; *SET*
-**Русский:** декорация, оформление сцены
+**Русский:** декорация, оформление сцены; набор, комплект; сет, партия; сет, отделение (концерта)
 **Plural:** *sets*
 **Countability:** countable
 
-The scenery and furniture that show where a scene takes place.
+Set has 4 distinct senses.
+
+**1. The scenery and furniture that show where a scene takes place.** (декорация, оформление сцены)
 
 1. The *set* for the second act is a hotel lobby.
 2. They built both *sets* in a week.
 3. The *set* rotates to become the outside of the house.
+
+**2. A group of things that belong together and are used together.** (набор, комплект)
+
+4. I lost my whole *set* of keys.
+5. They gave us a *set* of steak knives as a wedding gift.
+6. A chess *set* was laid out on the table by the window.
+
+**3. One of the parts that a tennis or volleyball match is divided into.** (сет, партия)
+
+7. She won the first *set* six to four.
+8. The match went to five *sets*.
+9. He dropped the second *set* but came back strong.
+
+**4. A block of songs that a band or DJ plays without a break.** (сет, отделение (концерта))
+
+10. The band played a short *set* and left.
+11. They open every *set* with the same three songs.
+12. Her second *set* ran past midnight.
 
 ---
 
 ### cue
 
 **Pronunciation:** /kjuː/ &middot; *KYOO*
-**Русский:** реплика-сигнал, сигнал к выходу
+**Русский:** реплика-сигнал, сигнал к выходу; кий
 **Plural:** *cues*
 **Countability:** countable
 **Contrast:** Sounds exactly like *queue*, a line of waiting people.
 
-A word or signal that tells a performer or technician to do something.
+Cue has 2 distinct senses.
+
+**1. A word or signal that tells a performer or technician to do something.** (реплика-сигнал, сигнал к выходу)
 
 1. That line is your *cue* to come on stage.
 2. The lighting *cues* are all in the stage manager's book.
 3. He missed his *cue* and came on ten seconds late.
+
+**2. The long tapered stick used to strike the ball in pool or billiards.** (кий)
+
+4. He chalked his *cue* and leaned over the table.
+5. A rack of *cues* hung by the door.
+6. She bought her own *cue* after joining the league.
 
 ---
 
@@ -454,16 +564,24 @@ The bad character in a story or play.
 ### heroine
 
 **Pronunciation:** /ˈhɛroʊɪn/ &middot; *HER-oh-in*
-**Русский:** героиня
+**Русский:** героиня; героиня (отважная женщина)
 **Plural:** *heroines*
 **Countability:** countable
 **Contrast:** Sounds exactly like *heroin*, the drug.
 
-The main female character in a play, film, or book.
+Heroine has 2 distinct senses.
+
+**1. The main female character in a play, film, or book.** (героиня)
 
 1. The *heroine* leaves home in the very first scene.
 2. Both *heroines* are played by the same actress.
 3. She is a *heroine* you actually want to root for.
+
+**2. A woman admired for her courage or for something great she has done.** (героиня (отважная женщина))
+
+4. The nurse who stayed behind was hailed as a *heroine*.
+5. She became a *heroine* of the civil rights movement.
+6. The town honored two *heroines* of the rescue.
 
 ---
 
@@ -665,15 +783,23 @@ A short funny scene performed by a few people.
 ### gag
 
 **Pronunciation:** /ɡæɡ/ &middot; *GAG*
-**Русский:** гэг, комический трюк
+**Русский:** гэг, комический трюк; кляп
 **Plural:** *gags*
 **Countability:** countable
 
-A joke or funny piece of business in a performance.
+Gag has 2 distinct senses.
+
+**1. A joke or funny piece of business in a performance.** (гэг, комический трюк)
 
 1. The falling-ladder *gag* gets a laugh every night.
 2. Half the *gags* in the second act are physical.
 3. It is an old *gag*, but it still works.
+
+**2. A piece of cloth or tape put over someone's mouth to keep them from speaking.** (кляп)
+
+4. The robbers tied her hands and put a *gag* in her mouth.
+5. He worked the *gag* loose with his tongue.
+6. Police found ropes and *gags* in the trunk of the car.
 
 ---
 
@@ -756,15 +882,23 @@ A single act of stage magic that fools the audience.
 ### clown
 
 **Pronunciation:** /klaʊn/ &middot; *KLOWN*
-**Русский:** клоун
+**Русский:** клоун; клоун, шут (о человеке)
 **Plural:** *clowns*
 **Countability:** countable
 
-A performer in funny makeup and costume who does silly things to make people laugh.
+Clown has 2 distinct senses.
+
+**1. A performer in funny makeup and costume who does silly things to make people laugh.** (клоун)
 
 1. A *clown* came out and made balloon animals.
 2. The *clowns* work the crowd between the animal acts.
 3. He trained as a *clown* at a circus school in Florida.
+
+**2. Someone who behaves foolishly or cannot be taken seriously.** (клоун, шут (о человеке))
+
+4. Quit acting like a *clown* and sit down.
+5. Some *clown* parked across two spaces.
+6. He was the class *clown* all through high school.
 
 ---
 
@@ -801,15 +935,23 @@ A performer who keeps several objects in the air at once.
 ### puppet
 
 **Pronunciation:** /ˈpʌpɪt/ &middot; *PUP-it*
-**Русский:** кукла (театральная)
+**Русский:** кукла (театральная); марионетка, ставленник
 **Plural:** *puppets*
 **Countability:** countable
 
-A doll moved by hand or by strings to act out a story.
+Puppet has 2 distinct senses.
+
+**1. A doll moved by hand or by strings to act out a story.** (кукла (театральная))
 
 1. The *puppet* is worked by two people at once.
 2. All the *puppets* were made out of foam and cloth.
 3. She talked to the *puppet* as if it were a person.
+
+**2. A person or government secretly controlled by someone else.** (марионетка, ставленник)
+
+4. The general installed a *puppet* in the capital.
+5. Voters saw him as a *puppet* of the oil companies.
+6. The council became a *puppet* of the mayor's office.
 
 ---
 
@@ -1042,14 +1184,22 @@ The act or skill of making music with the voice.
 ### diction
 
 **Pronunciation:** /ˈdɪkʃən/ &middot; *DIK-shuhn*
-**Русский:** дикция
+**Русский:** дикция; выбор слов, слог
 **Countability:** uncountable
 
-How clearly a speaker or singer pronounces words.
+Diction has 2 distinct senses.
+
+**1. How clearly a speaker or singer pronounces words.** (дикция)
 
 1. His *diction* is so clear you catch every word from the balcony.
 2. The class works on breathing and *diction*.
 3. Her *diction* got sloppy when she rushed.
+
+**2. The choice of words a writer or speaker uses.** (выбор слов, слог)
+
+4. The poem's plain *diction* makes it easy to read.
+5. Her *diction* is formal, almost legal.
+6. We were asked to compare the *diction* of the two speeches.
 
 ---
 
@@ -1070,29 +1220,45 @@ The ability to make the voice carry to the back of a hall.
 ### timing
 
 **Pronunciation:** /ˈtaɪmɪŋ/ &middot; *TY-ming*
-**Русский:** чувство времени, тайминг
+**Русский:** чувство времени, тайминг; выбор момента, время (события)
 **Countability:** uncountable
 
-The sense of exactly when to say or do something for the best effect.
+Timing has 2 distinct senses.
+
+**1. The sense of exactly when to say or do something for the best effect.** (чувство времени, тайминг)
 
 1. His comic *timing* is perfect.
 2. Good *timing* cannot really be taught.
 3. The *timing* of the blackout was off by a beat.
+
+**2. The particular moment at which something happens or is done.** (выбор момента, время (события))
+
+4. The *timing* of the announcement surprised everyone.
+5. The *timing* of the layoffs, right before the holidays, made people angry.
+6. The *timing* of the two storms was pure coincidence.
 
 ---
 
 ### gesture
 
 **Pronunciation:** /ˈdʒɛstʃər/ &middot; *JES-chur*
-**Русский:** жест
+**Русский:** жест; жест (знак внимания, поступок)
 **Plural:** *gestures*
 **Countability:** countable
 
-A movement of the hands, head, or body that expresses something.
+Gesture has 2 distinct senses.
+
+**1. A movement of the hands, head, or body that expresses something.** (жест)
 
 1. One small *gesture* told us everything about the character.
 2. The director cut half her *gestures* to make the scene simpler.
 3. He made a *gesture* toward the door without looking at it.
+
+**2. Something done to show a feeling or an intention toward other people.** (жест (знак внимания, поступок))
+
+4. Sending flowers was a nice *gesture*.
+5. The company offered refunds as a *gesture* of goodwill.
+6. Small *gestures* like that mean a lot to patients.
 
 ---
 
@@ -1144,15 +1310,23 @@ A loud whisper meant to be heard by everyone listening.
 ### aside
 
 **Pronunciation:** /əˈsaɪd/ &middot; *uh-SYD*
-**Русский:** реплика в сторону
+**Русский:** реплика в сторону; отступление, попутное замечание
 **Plural:** *asides*
 **Countability:** countable
 
-A remark a character makes to the audience that the other characters do not hear.
+Aside has 2 distinct senses.
+
+**1. A remark a character makes to the audience that the other characters do not hear.** (реплика в сторону)
 
 1. He turns and delivers an *aside* right to the front row.
 2. The play is full of *asides* to the audience.
 3. That one *aside* explains the whole plot.
+
+**2. A remark that steps away from the main subject.** (отступление, попутное замечание)
+
+4. As an *aside*, the coffee in that building is terrible.
+5. He added a short *aside* about his childhood.
+6. Her lecture was full of funny *asides*.
 
 ---
 
@@ -1655,32 +1829,48 @@ A seat in a small separate section at the side of a theater.
 ### tier
 
 **Pronunciation:** /tɪr/ &middot; *TEER*
-**Русский:** ярус (в зрительном зале)
+**Русский:** ярус (в зрительном зале); уровень, разряд
 **Plural:** *tiers*
 **Countability:** countable
 **Contrast:** Sounds like *tear* meaning a drop from the eye, not like *tear* meaning to rip.
 
-One of the levels of seating rising above the main floor.
+Tier has 2 distinct senses.
+
+**1. One of the levels of seating rising above the main floor.** (ярус (в зрительном зале))
 
 1. The top *tier* is the cheapest place to sit.
 2. The old opera house has four *tiers* of boxes.
 3. We were on the second *tier*, right over the stage.
+
+**2. One of several levels in a system, each ranked above or below the others.** (уровень, разряд)
+
+4. The basic plan is the cheapest *tier* of service.
+5. She moved up to the top *tier* of management.
+6. The league has three *tiers*, and the bottom teams drop down.
 
 ---
 
 ### row
 
 **Pronunciation:** /roʊ/ &middot; *ROH*
-**Русский:** ряд (кресел)
+**Русский:** ряд (кресел); строка (в таблице)
 **Plural:** *rows*
 **Countability:** countable
 **Contrast:** Here it rhymes with go. The same spelling said /raʊ/, rhyming with cow, means a noisy argument.
 
-A line of seats side by side in a theater.
+Row has 2 distinct senses.
+
+**1. A line of seats side by side in a theater.** (ряд (кресел))
 
 1. Our seats are in *row* G, near the middle.
 2. The first three *rows* get splashed in this show.
 3. She stood up and made everyone in the *row* move.
+
+**2. A line of boxes running across a table or spreadsheet.** (строка (в таблице))
+
+4. Put the totals in the bottom *row*.
+5. Each *row* holds one customer's information.
+6. Delete the empty *rows* before you print it.
 
 ---
 
@@ -1748,15 +1938,23 @@ Space at the back of a theater for people without seats.
 ### sellout
 
 **Pronunciation:** /ˈsɛlaʊt/ &middot; *SEL-owt*
-**Русский:** аншлаг, полная продажа билетов
+**Русский:** аншлаг, полная продажа билетов; предатель своих принципов, продажный человек
 **Plural:** *sellouts*
 **Countability:** countable
 
-A performance for which every ticket has been sold.
+Sellout has 2 distinct senses.
+
+**1. A performance for which every ticket has been sold.** (аншлаг, полная продажа билетов)
 
 1. Friday night was a complete *sellout*.
 2. The tour was a string of *sellouts*.
 3. Nobody expected a *sellout* on a Tuesday.
+
+**2. Someone who gives up their principles for money or success.** (предатель своих принципов, продажный человек)
+
+4. Fans called the band *sellouts* after the commercial.
+5. He'd rather stay poor than be a *sellout*.
+6. There's a fine line between growing up and being a *sellout*.
 
 ---
 
@@ -1871,60 +2069,134 @@ A person who often goes to see plays.
 ### preview
 
 **Pronunciation:** /ˈpriːvjuː/ &middot; *PREE-vyoo*
-**Русский:** предпремьерный показ
+**Русский:** предпремьерный показ; трейлер, анонс фильма; предварительный просмотр, ознакомление заранее
 **Plural:** *previews*
 **Countability:** countable
 
-A performance given to a paying audience before the official opening.
+Preview has 3 distinct senses.
+
+**1. A performance given to a paying audience before the official opening.** (предпремьерный показ)
 
 1. We saw it in *preview*, before the reviews came out.
 2. They cut ten minutes during *previews*.
 3. The first *preview* is a week from Thursday.
+
+**2. A short clip shown before a movie to advertise another one.** (трейлер, анонс фильма)
+
+4. We got there early to catch the *previews*.
+5. The *preview* gave away the whole ending.
+6. There were twenty minutes of *previews* before the film started.
+
+**3. An early look at something before it is generally available.** (предварительный просмотр, ознакомление заранее)
+
+7. Reporters got a *preview* of the report on Monday.
+8. The app shows a *preview* of the message.
+9. Here's a quick *preview* of what we'll cover tomorrow.
 
 ---
 
 ### revival
 
 **Pronunciation:** /rɪˈvaɪvəl/ &middot; *rih-VY-vuhl*
-**Русский:** возобновление постановки
+**Русский:** возобновление постановки; возрождение, оживление; молитвенное собрание, религиозное пробуждение
 **Plural:** *revivals*
 **Countability:** countable
 
-A new production of a play that was performed years earlier.
+Revival has 3 distinct senses.
+
+**1. A new production of a play that was performed years earlier.** (возобновление постановки)
 
 1. The *revival* is better than the original production.
 2. There have been four *revivals* since the sixties.
 3. It is a stripped-down *revival* with only six actors.
+
+**2. A return of interest in something, or a return to strength after a decline.** (возрождение, оживление)
+
+4. The neighborhood is enjoying a real *revival*.
+5. There's been a *revival* of interest in vinyl records.
+6. Cheap gas fueled a *revival* of big trucks.
+
+**3. A series of religious meetings held to reawaken people's faith.** (молитвенное собрание, религиозное пробуждение)
+
+7. A tent *revival* came through town every August.
+8. Her grandfather preached at *revivals* across the South.
+9. The church is holding a week-long *revival*.
 
 ---
 
 ### run
 
 **Pronunciation:** /rʌn/ &middot; *RUN*
-**Русский:** прокат, серия представлений
+**Русский:** прокат, серия представлений; пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); спущенная петля, стрелка (на колготках)
 **Plural:** *runs*
 **Countability:** countable
 
-The period during which a show is performed regularly.
+Run has 5 distinct senses.
+
+**1. The period during which a show is performed regularly.** (прокат, серия представлений)
 
 1. The play had a six-month *run* downtown.
 2. Both *runs* were extended twice.
 3. The show ends its *run* on the thirtieth.
+
+**2. A period of running for exercise.** (пробежка)
+
+4. I go for a *run* before work most days.
+5. That was a slow five-mile *run*.
+6. Her morning *runs* keep her sane.
+
+**3. A point scored in baseball when a player reaches home plate.** (ран, очко (в бейсболе))
+
+7. They scored four *runs* in the seventh inning.
+8. One more *run* would have tied the game.
+9. He drove in the winning *run*.
+
+**4. A stretch of time in which the same kind of thing keeps happening.** (полоса, серия (везения, неудач))
+
+10. The team is on a six-game winning *run*.
+11. She's had a bad *run* of luck this year.
+12. After a long *run* of warm days, it finally rained.
+
+**5. A line where the threads have come apart in a stocking.** (спущенная петля, стрелка (на колготках))
+
+13. There's a *run* in my pantyhose.
+14. Clear nail polish will stop the *run* from spreading.
+15. She noticed the *run* right before the interview.
 
 ---
 
 ### hit
 
 **Pronunciation:** /hɪt/ &middot; *HIT*
-**Русский:** хит, успешная постановка
+**Русский:** хит, успешная постановка; удар; посещение сайта; результат поиска; заказное убийство
 **Plural:** *hits*
 **Countability:** countable
 
-A show that is very popular and successful.
+Hit has 4 distinct senses.
+
+**1. A show that is very popular and successful.** (хит, успешная постановка)
 
 1. Nobody expected the play to be a *hit*.
 2. He wrote two *hits* and a lot of flops.
 3. It was the biggest *hit* of the season.
+
+**2. A blow, or the impact of something striking something else.** (удар)
+
+4. He took a hard *hit* in the third quarter and left the game.
+5. The car took a *hit* on the passenger side.
+6. One more *hit* like that and the helmet would have cracked.
+
+**3. A visit to a website, or a result returned by a search.** (посещение сайта; результат поиска)
+
+7. The video got a hundred thousand *hits* in one day.
+8. Searching her name brings up only three *hits*.
+9. Every *hit* on the page is counted in the traffic report.
+
+**4. A murder arranged and paid for by someone.** (заказное убийство)
+
+10. Investigators believe the shooting was a professional *hit*.
+11. He was arrested for ordering a *hit* on a rival.
+12. The movie opens with a *hit* in a parking garage.
 
 ---
 

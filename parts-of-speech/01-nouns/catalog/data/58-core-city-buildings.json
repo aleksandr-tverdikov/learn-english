@@ -98,14 +98,73 @@
       "term": "block",
       "ipa": "/blɑːk/",
       "respell": "BLAHK",
-      "meaning": "The stretch of a street between two cross streets, or the buildings on it. ---",
+      "meaning": "Block has 4 distinct senses.",
       "examples": [
         "The pharmacy is two blocks from here.",
         "They live on the same block as my sister.",
-        "We walked around the block to cool off."
+        "We walked around the block to cool off.",
+        "He carved the bird out of a block of wood.",
+        "A block of ice sat melting in the cooler.",
+        "The wall is built of concrete blocks.",
+        "She has had a mental block about math since third grade.",
+        "There's a block somewhere in the drain.",
+        "Fear can be a real block to learning.",
+        "The school bought a block of tickets for the show.",
+        "I set aside a block of time every morning to write.",
+        "A block of seats was reserved for the family."
       ],
-      "senses": [],
-      "русский": "квартал (между двумя улицами)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stretch of a street between two cross streets, or the buildings on it",
+          "body": [
+            "(квартал (между двумя улицами))"
+          ],
+          "examples": [
+            "The pharmacy is two blocks from here.",
+            "They live on the same block as my sister.",
+            "We walked around the block to cool off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A solid piece of hard material with flat sides",
+          "body": [
+            "(брусок, кусок (дерева, льда, камня))"
+          ],
+          "examples": [
+            "He carved the bird out of a block of wood.",
+            "A block of ice sat melting in the cooler.",
+            "The wall is built of concrete blocks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that stops movement or progress",
+          "body": [
+            "(препятствие, затор; психологический блок)"
+          ],
+          "examples": [
+            "She has had a mental block about math since third grade.",
+            "There's a block somewhere in the drain.",
+            "Fear can be a real block to learning."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A group or quantity of things handled together",
+          "body": [
+            "(блок, партия (билетов, времени))",
+            "---"
+          ],
+          "examples": [
+            "The school bought a block of tickets for the show.",
+            "I set aside a block of time every morning to write.",
+            "A block of seats was reserved for the family."
+          ]
+        }
+      ],
+      "русский": "квартал (между двумя улицами); брусок, кусок (дерева, льда, камня); препятствие, затор; психологический блок; блок, партия (билетов, времени)",
       "plural": "blocks",
       "countability": "countable",
       "contrast": "Americans measure walking distance in blocks; British English has no everyday equivalent."
@@ -205,14 +264,43 @@
       "term": "avenue",
       "ipa": "/ˈævənuː/",
       "respell": "A-vuh-noo",
-      "meaning": "A wide city street, often lined with trees. ---",
+      "meaning": "Avenue has 2 distinct senses.",
       "examples": [
         "The parade goes straight down Fifth Avenue.",
         "Most of the avenues here run north to south.",
-        "Her office is on a busy avenue near the park."
+        "Her office is on a busy avenue near the park.",
+        "We've explored every avenue and come up empty.",
+        "Selling online opened a new avenue for the shop.",
+        "Appealing the ruling is her only remaining avenue."
       ],
-      "senses": [],
-      "русский": "проспект, авеню",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wide city street, often lined with trees",
+          "body": [
+            "(проспект, авеню)"
+          ],
+          "examples": [
+            "The parade goes straight down Fifth Avenue.",
+            "Most of the avenues here run north to south.",
+            "Her office is on a busy avenue near the park."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A possible way of doing something or making progress",
+          "body": [
+            "(путь, способ (достижения цели))",
+            "---"
+          ],
+          "examples": [
+            "We've explored every avenue and come up empty.",
+            "Selling online opened a new avenue for the shop.",
+            "Appealing the ruling is her only remaining avenue."
+          ]
+        }
+      ],
+      "русский": "проспект, авеню; путь, способ (достижения цели)",
       "plural": "avenues",
       "countability": "countable",
       "contrast": "American /-nuː/ (A-vuh-noo); British speakers say /-njuː/ (A-vuh-nyoo)."
@@ -281,14 +369,43 @@
       "term": "curb",
       "ipa": "/kɜːrb/",
       "respell": "KURB",
-      "meaning": "The raised stone edge between a sidewalk and the road. ---",
+      "meaning": "Curb has 2 distinct senses.",
       "examples": [
         "Leave the trash cans by the curb.",
         "The city repainted all the yellow curbs.",
-        "She tripped stepping off the curb."
+        "She tripped stepping off the curb.",
+        "The city put a curb on short-term rentals.",
+        "There is no real curb on what they can charge.",
+        "New curbs on spending take effect in July."
       ],
-      "senses": [],
-      "русский": "бордюр, поребрик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The raised stone edge between a sidewalk and the road",
+          "body": [
+            "(бордюр, поребрик)"
+          ],
+          "examples": [
+            "Leave the trash cans by the curb.",
+            "The city repainted all the yellow curbs.",
+            "She tripped stepping off the curb."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that limits or holds back an activity",
+          "body": [
+            "(ограничение, сдерживающая мера)",
+            "---"
+          ],
+          "examples": [
+            "The city put a curb on short-term rentals.",
+            "There is no real curb on what they can charge.",
+            "New curbs on spending take effect in July."
+          ]
+        }
+      ],
+      "русский": "бордюр, поребрик; ограничение, сдерживающая мера",
       "plural": "curbs",
       "countability": "countable",
       "contrast": "American spelling; British English writes 'kerb' for the stone edge."
@@ -433,14 +550,73 @@
       "term": "track",
       "ipa": "/træk/",
       "respell": "TRAK",
-      "meaning": "The pair of metal rails a train runs on. ---",
+      "meaning": "Track has 4 distinct senses.",
       "examples": [
         "Never walk on the tracks.",
         "A freight train blocked the track for an hour.",
-        "The old tracks were torn up and turned into a trail."
+        "The old tracks were torn up and turned into a trail.",
+        "The third track is my favorite.",
+        "The album has twelve tracks.",
+        "They released one track early as a single.",
+        "She runs four miles on the track every morning.",
+        "The horses came around the far turn of the track.",
+        "Our school just resurfaced the track.",
+        "There were deer tracks in the snow.",
+        "Muddy tracks led from the door to the garage.",
+        "The hunter followed the bear's tracks for a mile."
       ],
-      "senses": [],
-      "русский": "железнодорожный путь, рельсы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pair of metal rails a train runs on",
+          "body": [
+            "(железнодорожный путь, рельсы)"
+          ],
+          "examples": [
+            "Never walk on the tracks.",
+            "A freight train blocked the track for an hour.",
+            "The old tracks were torn up and turned into a trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single song or piece of music on an album",
+          "body": [
+            "(трек, дорожка (запись))"
+          ],
+          "examples": [
+            "The third track is my favorite.",
+            "The album has twelve tracks.",
+            "They released one track early as a single."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A course, usually oval, for running or racing",
+          "body": [
+            "(беговая дорожка, трек)"
+          ],
+          "examples": [
+            "She runs four miles on the track every morning.",
+            "The horses came around the far turn of the track.",
+            "Our school just resurfaced the track."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A line of marks left on the ground by an animal, person, or vehicle",
+          "body": [
+            "(след, следы)",
+            "---"
+          ],
+          "examples": [
+            "There were deer tracks in the snow.",
+            "Muddy tracks led from the door to the garage.",
+            "The hunter followed the bear's tracks for a mile."
+          ]
+        }
+      ],
+      "русский": "железнодорожный путь, рельсы; трек, дорожка (запись); беговая дорожка, трек; след, следы",
       "plural": "tracks",
       "countability": "countable"
     },
@@ -875,14 +1051,58 @@
       "term": "theater",
       "ipa": "/ˈθiːətər/",
       "respell": "THEE-uh-tur",
-      "meaning": "A building where plays or movies are shown to an audience. ---",
+      "meaning": "Theater has 3 distinct senses.",
       "examples": [
         "The theater on Broadway seats a thousand people.",
         "Two movie theaters closed during the pandemic.",
-        "We got to the theater just before the curtain."
+        "We got to the theater just before the curtain.",
+        "She studied theater in college.",
+        "He has worked in theater for thirty years.",
+        "Community theater keeps the old playhouse busy.",
+        "He served in the Pacific theater during the war.",
+        "Supplies were flown into the theater every week.",
+        "Commanders in the theater asked for more troops."
       ],
-      "senses": [],
-      "русский": "театр; кинотеатр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building where plays or movies are shown to an audience",
+          "body": [
+            "(театр; кинотеатр)"
+          ],
+          "examples": [
+            "The theater on Broadway seats a thousand people.",
+            "Two movie theaters closed during the pandemic.",
+            "We got to the theater just before the curtain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The art and business of writing and performing plays",
+          "body": [
+            "(театр (искусство, театральная сфера))"
+          ],
+          "examples": [
+            "She studied theater in college.",
+            "He has worked in theater for thirty years.",
+            "Community theater keeps the old playhouse busy."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large area where a war is being fought",
+          "body": [
+            "(театр военных действий)",
+            "---"
+          ],
+          "examples": [
+            "He served in the Pacific theater during the war.",
+            "Supplies were flown into the theater every week.",
+            "Commanders in the theater asked for more troops."
+          ]
+        }
+      ],
+      "русский": "театр; кинотеатр; театр (искусство, театральная сфера); театр военных действий",
       "plural": "theaters",
       "countability": "countable",
       "contrast": "American spelling 'theater'; British English writes 'theatre'."
@@ -907,14 +1127,43 @@
       "term": "arena",
       "ipa": "/əˈriːnə/",
       "respell": "uh-REE-nuh",
-      "meaning": "A large indoor building with seats around a central floor for sports and concerts. ---",
+      "meaning": "Arena has 2 distinct senses.",
       "examples": [
         "The arena holds eighteen thousand fans.",
         "Two new arenas opened the same year.",
-        "The concert sold out the arena in an hour."
+        "The concert sold out the arena in an hour.",
+        "She entered the political arena at twenty-six.",
+        "Two startups are fighting it out in the same arena.",
+        "The courtroom became the arena for their long feud."
       ],
-      "senses": [],
-      "русский": "арена, спортивно-концертный комплекс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large indoor building with seats around a central floor for sports and concerts",
+          "body": [
+            "(арена, спортивно-концертный комплекс)"
+          ],
+          "examples": [
+            "The arena holds eighteen thousand fans.",
+            "Two new arenas opened the same year.",
+            "The concert sold out the arena in an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of public activity where people compete or argue",
+          "body": [
+            "(арена, поприще (деятельности))",
+            "---"
+          ],
+          "examples": [
+            "She entered the political arena at twenty-six.",
+            "Two startups are fighting it out in the same arena.",
+            "The courtroom became the arena for their long feud."
+          ]
+        }
+      ],
+      "русский": "арена, спортивно-концертный комплекс; арена, поприще (деятельности)",
       "plural": "arenas",
       "countability": "countable"
     },
@@ -952,14 +1201,43 @@
       "term": "store",
       "ipa": "/stɔːr/",
       "respell": "STOR",
-      "meaning": "A place that sells goods to the public. ---",
+      "meaning": "Store has 2 distinct senses.",
       "examples": [
         "The store on the corner is open till midnight.",
         "Three stores on this block went out of business.",
-        "I'm running to the store for milk."
+        "I'm running to the store for milk.",
+        "Squirrels build up a store of nuts for winter.",
+        "The town keeps a store of salt for icy roads.",
+        "She has a deep store of patience."
       ],
-      "senses": [],
-      "русский": "магазин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place that sells goods to the public",
+          "body": [
+            "(магазин)"
+          ],
+          "examples": [
+            "The store on the corner is open till midnight.",
+            "Three stores on this block went out of business.",
+            "I'm running to the store for milk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A supply of something kept for future use",
+          "body": [
+            "(запас)",
+            "---"
+          ],
+          "examples": [
+            "Squirrels build up a store of nuts for winter.",
+            "The town keeps a store of salt for icy roads.",
+            "She has a deep store of patience."
+          ]
+        }
+      ],
+      "русский": "магазин; запас",
       "plural": "stores",
       "countability": "countable",
       "contrast": "American. Where Americans say 'store', British speakers usually say 'shop'."
@@ -968,14 +1246,43 @@
       "term": "shop",
       "ipa": "/ʃɑːp/",
       "respell": "SHAHP",
-      "meaning": "A small store, or a place where things are made or repaired. ---",
+      "meaning": "Shop has 2 distinct senses.",
       "examples": [
         "There's a little coffee shop next door.",
         "Repair shops line the road out of town.",
-        "He took the car to a body shop."
+        "He took the car to a body shop.",
+        "He built a birdhouse in shop last semester.",
+        "Shop was the only class he looked forward to.",
+        "The high school cut both shop and home economics."
       ],
-      "senses": [],
-      "русский": "магазин, лавка; мастерская",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small store, or a place where things are made or repaired",
+          "body": [
+            "(магазин, лавка; мастерская)"
+          ],
+          "examples": [
+            "There's a little coffee shop next door.",
+            "Repair shops line the road out of town.",
+            "He took the car to a body shop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A school class in which students learn woodworking or metalworking",
+          "body": [
+            "(уроки труда (столярное, слесарное дело))",
+            "---"
+          ],
+          "examples": [
+            "He built a birdhouse in shop last semester.",
+            "Shop was the only class he looked forward to.",
+            "The high school cut both shop and home economics."
+          ]
+        }
+      ],
+      "русский": "магазин, лавка; мастерская; уроки труда (столярное, слесарное дело)",
       "plural": "shops",
       "countability": "countable",
       "contrast": "In American English 'shop' often means a workshop; for a place that sells things, 'store' is the usual word."
@@ -1120,14 +1427,43 @@
       "term": "diner",
       "ipa": "/ˈdaɪnər/",
       "respell": "DY-nur",
-      "meaning": "A small informal American restaurant serving simple food all day. ---",
+      "meaning": "Diner has 2 distinct senses.",
       "examples": [
         "We stopped at a diner for pancakes.",
         "Old chrome diners still line that stretch of highway.",
-        "The diner has been there since 1954."
+        "The diner has been there since 1954.",
+        "Diners were asked to leave when the alarm went off.",
+        "The waiter brought menus to the last two diners.",
+        "Most diners order the special."
       ],
-      "senses": [],
-      "русский": "придорожное кафе, закусочная",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small informal American restaurant serving simple food all day",
+          "body": [
+            "(придорожное кафе, закусочная)"
+          ],
+          "examples": [
+            "We stopped at a diner for pancakes.",
+            "Old chrome diners still line that stretch of highway.",
+            "The diner has been there since 1954."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who is eating a meal in a restaurant",
+          "body": [
+            "(посетитель ресторана)",
+            "---"
+          ],
+          "examples": [
+            "Diners were asked to leave when the alarm went off.",
+            "The waiter brought menus to the last two diners.",
+            "Most diners order the special."
+          ]
+        }
+      ],
+      "русский": "придорожное кафе, закусочная; посетитель ресторана",
       "plural": "diners",
       "countability": "countable"
     },
@@ -1211,14 +1547,73 @@
       "term": "park",
       "ipa": "/pɑːrk/",
       "respell": "PARK",
-      "meaning": "A public area of grass and trees in a town for people to relax in. ---",
+      "meaning": "Park has 4 distinct senses.",
       "examples": [
         "We walk the dog in the park every morning.",
         "The city keeps up over sixty parks.",
-        "The park has a pond and a bandstand."
+        "The park has a pond and a bandstand.",
+        "Put it in park before you get out.",
+        "The car won't start unless it's in park.",
+        "He shifted into park and killed the engine.",
+        "Her office is out in the business park by the airport.",
+        "The city rezoned the land for an industrial park.",
+        "The tech park has its own shuttle bus.",
+        "He hit that one clean out of the park.",
+        "It was a cold night at the park.",
+        "Their new park seats forty thousand."
       ],
-      "senses": [],
-      "русский": "парк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A public area of grass and trees in a town for people to relax in",
+          "body": [
+            "(парк)"
+          ],
+          "examples": [
+            "We walk the dog in the park every morning.",
+            "The city keeps up over sixty parks.",
+            "The park has a pond and a bandstand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The gear setting that keeps a car from rolling when it is stopped",
+          "body": [
+            "(режим парковки (P) в автоматической коробке)"
+          ],
+          "examples": [
+            "Put it in park before you get out.",
+            "The car won't start unless it's in park.",
+            "He shifted into park and killed the engine."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An area of land developed for one kind of business or industry",
+          "body": [
+            "(парк (промышленный, технологический), деловая зона)"
+          ],
+          "examples": [
+            "Her office is out in the business park by the airport.",
+            "The city rezoned the land for an industrial park.",
+            "The tech park has its own shuttle bus."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A baseball field together with the stands around it",
+          "body": [
+            "(бейсбольный стадион)",
+            "---"
+          ],
+          "examples": [
+            "He hit that one clean out of the park.",
+            "It was a cold night at the park.",
+            "Their new park seats forty thousand."
+          ]
+        }
+      ],
+      "русский": "парк; режим парковки (P) в автоматической коробке; парк (промышленный, технологический), деловая зона; бейсбольный стадион",
       "plural": "parks",
       "countability": "countable"
     },
@@ -1390,14 +1785,43 @@
       "term": "pillar",
       "ipa": "/ˈpɪlər/",
       "respell": "PIH-lur",
-      "meaning": "A tall upright post that supports part of a building. ---",
+      "meaning": "Pillar has 2 distinct senses.",
       "examples": [
         "A stone pillar holds up the corner of the porch.",
         "Six white pillars line the front of the courthouse.",
-        "The pillar is cracked at the base."
+        "The pillar is cracked at the base.",
+        "She was a pillar of the community for forty years.",
+        "Free speech is one of the pillars of democracy.",
+        "Trust is the pillar the whole business rests on."
       ],
-      "senses": [],
-      "русский": "колонна, столб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall upright post that supports part of a building",
+          "body": [
+            "(колонна, столб)"
+          ],
+          "examples": [
+            "A stone pillar holds up the corner of the porch.",
+            "Six white pillars line the front of the courthouse.",
+            "The pillar is cracked at the base."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or idea that something important depends on",
+          "body": [
+            "(опора, столп)",
+            "---"
+          ],
+          "examples": [
+            "She was a pillar of the community for forty years.",
+            "Free speech is one of the pillars of democracy.",
+            "Trust is the pillar the whole business rests on."
+          ]
+        }
+      ],
+      "русский": "колонна, столб; опора, столп",
       "plural": "pillars",
       "countability": "countable"
     },
@@ -1481,14 +1905,43 @@
       "term": "housing",
       "ipa": "/ˈhaʊzɪŋ/",
       "respell": "HOW-zing",
-      "meaning": "Buildings for people to live in, considered together. ---",
+      "meaning": "Housing has 2 distinct senses.",
       "examples": [
         "Affordable housing is scarce in this city.",
         "The town approved housing for two hundred families.",
-        "Student housing fills up by April."
+        "Student housing fills up by April.",
+        "The pump's plastic housing had cracked.",
+        "Water got inside the housing and shorted out the motor.",
+        "The bearing sits in a steel housing."
       ],
-      "senses": [],
-      "русский": "жильё, жилой фонд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Buildings for people to live in, considered together",
+          "body": [
+            "(жильё, жилой фонд)"
+          ],
+          "examples": [
+            "Affordable housing is scarce in this city.",
+            "The town approved housing for two hundred families.",
+            "Student housing fills up by April."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hard cover that holds and protects a machine or a moving part",
+          "body": [
+            "(корпус, кожух (механизма))",
+            "---"
+          ],
+          "examples": [
+            "The pump's plastic housing had cracked.",
+            "Water got inside the housing and shorted out the motor.",
+            "The bearing sits in a steel housing."
+          ]
+        }
+      ],
+      "русский": "жильё, жилой фонд; корпус, кожух (механизма)",
       "countability": "uncountable"
     },
     {
@@ -1524,14 +1977,73 @@
       "term": "lot",
       "ipa": "/lɑːt/",
       "respell": "LAHT",
-      "meaning": "A marked-off piece of land, especially one meant to be built on. ---",
+      "meaning": "Lot has 4 distinct senses.",
       "examples": [
         "They bought an empty lot on the corner.",
         "Three lots on this street are still for sale.",
-        "Kids play ball in the vacant lot."
+        "Kids play ball in the vacant lot.",
+        "A lot of people showed up early.",
+        "That's a lot to ask of a ten-year-old.",
+        "We learned lots about the neighborhood that summer.",
+        "Lot 42 is a set of silver spoons.",
+        "The first three lots sold in under a minute.",
+        "She bid on a lot of old postcards.",
+        "He accepted his lot without complaining.",
+        "Education improved the lot of the whole family.",
+        "It is the lot of every parent to worry."
       ],
-      "senses": [],
-      "русский": "участок земли",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A marked-off piece of land, especially one meant to be built on",
+          "body": [
+            "(участок земли)"
+          ],
+          "examples": [
+            "They bought an empty lot on the corner.",
+            "Three lots on this street are still for sale.",
+            "Kids play ball in the vacant lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large number or amount of something",
+          "body": [
+            "(много, масса)"
+          ],
+          "examples": [
+            "A lot of people showed up early.",
+            "That's a lot to ask of a ten-year-old.",
+            "We learned lots about the neighborhood that summer."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An item or group of items sold together at an auction",
+          "body": [
+            "(лот (на аукционе))"
+          ],
+          "examples": [
+            "Lot 42 is a set of silver spoons.",
+            "The first three lots sold in under a minute.",
+            "She bid on a lot of old postcards."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A person's situation or fate in life",
+          "body": [
+            "(участь, доля, судьба)",
+            "---"
+          ],
+          "examples": [
+            "He accepted his lot without complaining.",
+            "Education improved the lot of the whole family.",
+            "It is the lot of every parent to worry."
+          ]
+        }
+      ],
+      "русский": "участок земли; много, масса; лот (на аукционе); участь, доля, судьба",
       "plural": "lots",
       "countability": "countable"
     },
@@ -1539,14 +2051,43 @@
       "term": "site",
       "ipa": "/saɪt/",
       "respell": "SYT",
-      "meaning": "A piece of ground where something is built or where something happens. ---",
+      "meaning": "Site has 2 distinct senses.",
       "examples": [
         "Hard hats are required on the construction site.",
         "The city inspected all four building sites.",
-        "This is the site of the old train station."
+        "This is the site of the old train station.",
+        "Their site has been down all morning.",
+        "You can order tickets on the theater's site.",
+        "He blocks news sites while he's working."
       ],
-      "senses": [],
-      "русский": "участок, площадка (строительная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of ground where something is built or where something happens",
+          "body": [
+            "(участок, площадка (строительная))"
+          ],
+          "examples": [
+            "Hard hats are required on the construction site.",
+            "The city inspected all four building sites.",
+            "This is the site of the old train station."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place on the internet where a person or company keeps its pages",
+          "body": [
+            "(сайт)",
+            "---"
+          ],
+          "examples": [
+            "Their site has been down all morning.",
+            "You can order tickets on the theater's site.",
+            "He blocks news sites while he's working."
+          ]
+        }
+      ],
+      "русский": "участок, площадка (строительная); сайт",
       "plural": "sites",
       "countability": "countable",
       "contrast": "Sounds exactly like 'sight' and 'cite'."
@@ -1853,14 +2394,43 @@
       "term": "atrium",
       "ipa": "/ˈeɪtriəm/",
       "respell": "AY-tree-um",
-      "meaning": "A tall open space inside a building, usually with a glass roof. ---",
+      "meaning": "Atrium has 2 distinct senses.",
       "examples": [
         "Trees grow in the hotel's atrium.",
         "Both office towers have six-story atriums.",
-        "The atrium fills with light in the afternoon."
+        "The atrium fills with light in the afternoon.",
+        "Blood enters the right atrium from the veins.",
+        "The scan showed a small hole between the atria.",
+        "The left atrium pushes blood into the ventricle."
       ],
-      "senses": [],
-      "русский": "атриум (крытый внутренний двор)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall open space inside a building, usually with a glass roof",
+          "body": [
+            "(атриум (крытый внутренний двор))"
+          ],
+          "examples": [
+            "Trees grow in the hotel's atrium.",
+            "Both office towers have six-story atriums.",
+            "The atrium fills with light in the afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the two upper chambers of the heart",
+          "body": [
+            "(предсердие)",
+            "---"
+          ],
+          "examples": [
+            "Blood enters the right atrium from the veins.",
+            "The scan showed a small hole between the atria.",
+            "The left atrium pushes blood into the ventricle."
+          ]
+        }
+      ],
+      "русский": "атриум (крытый внутренний двор); предсердие",
       "plural": "atriums",
       "countability": "countable",
       "contrast": "Plural is 'atriums' or, in formal writing, the Latin 'atria'."
@@ -1915,14 +2485,43 @@
       "term": "siding",
       "ipa": "/ˈsaɪdɪŋ/",
       "respell": "SY-ding",
-      "meaning": "The boards or panels covering the outside walls of a house. ---",
+      "meaning": "Siding has 2 distinct senses.",
       "examples": [
         "The hail cracked the vinyl siding.",
         "They're replacing the siding on the whole house.",
-        "Peeling siding makes the place look abandoned."
+        "Peeling siding makes the place look abandoned.",
+        "The freight train pulled onto a siding to let us by.",
+        "Old boxcars sat rusting on a weedy siding.",
+        "The mill had its own siding for loading lumber."
       ],
-      "senses": [],
-      "русский": "сайдинг, наружная обшивка стен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The boards or panels covering the outside walls of a house",
+          "body": [
+            "(сайдинг, наружная обшивка стен)"
+          ],
+          "examples": [
+            "The hail cracked the vinyl siding.",
+            "They're replacing the siding on the whole house.",
+            "Peeling siding makes the place look abandoned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short track beside a railroad's main line where cars can be parked or passed",
+          "body": [
+            "(запасный путь, разъезд)",
+            "---"
+          ],
+          "examples": [
+            "The freight train pulled onto a siding to let us by.",
+            "Old boxcars sat rusting on a weedy siding.",
+            "The mill had its own siding for loading lumber."
+          ]
+        }
+      ],
+      "русский": "сайдинг, наружная обшивка стен; запасный путь, разъезд",
       "countability": "uncountable"
     },
     {

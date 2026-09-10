@@ -272,14 +272,43 @@
       "term": "ream",
       "ipa": "/riːm/",
       "respell": "REEM",
-      "meaning": "A standard package of five hundred sheets of paper. ---",
+      "meaning": "Ream has 2 distinct senses.",
       "examples": [
         "Grab a ream of paper from the closet.",
         "A ream is five hundred sheets.",
-        "The report went through six reams of paper."
+        "The report went through six reams of paper.",
+        "The lawsuit produced reams of paperwork.",
+        "She took reams of notes at the hearing.",
+        "There are reams of data and nobody to read it."
       ],
-      "senses": [],
-      "русский": "пачка бумаги (500 листов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A standard package of five hundred sheets of paper",
+          "body": [
+            "(пачка бумаги (500 листов))"
+          ],
+          "examples": [
+            "Grab a ream of paper from the closet.",
+            "A ream is five hundred sheets.",
+            "The report went through six reams of paper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very large amount of paper or writing",
+          "body": [
+            "(кипы, горы (бумаг, записей))",
+            "---"
+          ],
+          "examples": [
+            "The lawsuit produced reams of paperwork.",
+            "She took reams of notes at the hearing.",
+            "There are reams of data and nobody to read it."
+          ]
+        }
+      ],
+      "русский": "пачка бумаги (500 листов); кипы, горы (бумаг, записей)",
       "plural": "reams",
       "countability": "countable"
     },
@@ -553,14 +582,58 @@
       "term": "pulp",
       "ipa": "/pʌlp/",
       "respell": "PULP",
-      "meaning": "The soft wet mass of wood fiber that paper is made from. ---",
+      "meaning": "Pulp has 3 distinct senses.",
       "examples": [
         "The mill grinds the logs into pulp.",
         "Recycled paper is mixed back into the pulp.",
-        "Wet pulp is pressed and dried into sheets."
+        "Wet pulp is pressed and dried into sheets.",
+        "I like orange juice with plenty of pulp.",
+        "Scoop the pulp out of the melon.",
+        "Strain the juice to get rid of the pulp.",
+        "He wrote detective pulp for a penny a word.",
+        "The store keeps a shelf of old pulp by the window.",
+        "Critics dismissed the novel as pulp."
       ],
-      "senses": [],
-      "русский": "бумажная масса, целлюлоза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft wet mass of wood fiber that paper is made from",
+          "body": [
+            "(бумажная масса, целлюлоза)"
+          ],
+          "examples": [
+            "The mill grinds the logs into pulp.",
+            "Recycled paper is mixed back into the pulp.",
+            "Wet pulp is pressed and dried into sheets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft juicy part of a fruit or vegetable",
+          "body": [
+            "(мякоть (плода))"
+          ],
+          "examples": [
+            "I like orange juice with plenty of pulp.",
+            "Scoop the pulp out of the melon.",
+            "Strain the juice to get rid of the pulp."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Cheap sensational fiction, originally printed on rough paper",
+          "body": [
+            "(бульварное чтиво)",
+            "---"
+          ],
+          "examples": [
+            "He wrote detective pulp for a penny a word.",
+            "The store keeps a shelf of old pulp by the window.",
+            "Critics dismissed the novel as pulp."
+          ]
+        }
+      ],
+      "русский": "бумажная масса, целлюлоза; мякоть (плода); бульварное чтиво",
       "countability": "uncountable"
     },
     {
@@ -1001,14 +1074,43 @@
       "term": "type",
       "ipa": "/taɪp/",
       "respell": "TYPE",
-      "meaning": "Printed letters and characters considered as a whole. ---",
+      "meaning": "Type has 2 distinct senses.",
       "examples": [
         "The book is set in ten-point type.",
         "The type is too small for me to read comfortably.",
-        "Old presses printed from metal type."
+        "Old presses printed from metal type.",
+        "What type of car does she drive?",
+        "This type of soil holds water well.",
+        "The store carries three types of batteries."
       ],
-      "senses": [],
-      "русский": "шрифт, литеры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Printed letters and characters considered as a whole",
+          "body": [
+            "(шрифт, литеры)"
+          ],
+          "examples": [
+            "The book is set in ten-point type.",
+            "The type is too small for me to read comfortably.",
+            "Old presses printed from metal type."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A kind or category of person or thing",
+          "body": [
+            "(тип, вид, разновидность)",
+            "---"
+          ],
+          "examples": [
+            "What type of car does she drive?",
+            "This type of soil holds water well.",
+            "The store carries three types of batteries."
+          ]
+        }
+      ],
+      "русский": "шрифт, литеры; тип, вид, разновидность",
       "countability": "uncountable"
     },
     {
@@ -1356,14 +1458,58 @@
       "term": "header",
       "ipa": "/ˈhɛdər/",
       "respell": "HED-ur",
-      "meaning": "A line of text repeated at the top of every page. ---",
+      "meaning": "Header has 3 distinct senses.",
       "examples": [
         "Put the chapter title in the header.",
         "The header shows the date on every page.",
-        "The two sections use different headers."
+        "The two sections use different headers.",
+        "She scored on a header from six yards out.",
+        "His header went just over the crossbar.",
+        "The goalie punched away two dangerous headers.",
+        "He took a header off his bike and split his lip.",
+        "The waiter tripped on the rug and took a header.",
+        "One wrong step on that ladder and you'll take a header."
       ],
-      "senses": [],
-      "русский": "верхний колонтитул",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of text repeated at the top of every page",
+          "body": [
+            "(верхний колонтитул)"
+          ],
+          "examples": [
+            "Put the chapter title in the header.",
+            "The header shows the date on every page.",
+            "The two sections use different headers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In soccer, a shot or pass made by hitting the ball with the head",
+          "body": [
+            "(удар головой (в футболе))"
+          ],
+          "examples": [
+            "She scored on a header from six yards out.",
+            "His header went just over the crossbar.",
+            "The goalie punched away two dangerous headers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fall or dive headfirst",
+          "body": [
+            "(падение головой вперёд)",
+            "---"
+          ],
+          "examples": [
+            "He took a header off his bike and split his lip.",
+            "The waiter tripped on the rug and took a header.",
+            "One wrong step on that ladder and you'll take a header."
+          ]
+        }
+      ],
+      "русский": "верхний колонтитул; удар головой (в футболе); падение головой вперёд",
       "plural": "headers",
       "countability": "countable"
     },
@@ -1800,14 +1946,58 @@
       "term": "galley",
       "ipa": "/ˈɡæli/",
       "respell": "GAL-ee",
-      "meaning": "An early printed copy of a text sent out for correction or review. ---",
+      "meaning": "Galley has 3 distinct senses.",
       "examples": [
         "The publisher sent a galley to every major critic.",
         "I read it in galley six months before it came out.",
-        "Reviewers get galleys with plain paper covers."
+        "Reviewers get galleys with plain paper covers.",
+        "The cook was busy in the galley.",
+        "Flight attendants stowed the carts in the galley.",
+        "The boat has a tiny galley with a two-burner stove.",
+        "Roman galleys once patrolled these waters.",
+        "The museum has a model of a Greek galley.",
+        "Prisoners were sentenced to row in the galleys."
       ],
-      "senses": [],
-      "русский": "гранка, корректурный оттиск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An early printed copy of a text sent out for correction or review",
+          "body": [
+            "(гранка, корректурный оттиск)"
+          ],
+          "examples": [
+            "The publisher sent a galley to every major critic.",
+            "I read it in galley six months before it came out.",
+            "Reviewers get galleys with plain paper covers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The kitchen on a ship or an airplane",
+          "body": [
+            "(камбуз; кухня (в самолёте))"
+          ],
+          "examples": [
+            "The cook was busy in the galley.",
+            "Flight attendants stowed the carts in the galley.",
+            "The boat has a tiny galley with a two-burner stove."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long ancient ship driven by rows of oars",
+          "body": [
+            "(галера)",
+            "---"
+          ],
+          "examples": [
+            "Roman galleys once patrolled these waters.",
+            "The museum has a model of a Greek galley.",
+            "Prisoners were sentenced to row in the galleys."
+          ]
+        }
+      ],
+      "русский": "гранка, корректурный оттиск; камбуз; кухня (в самолёте); галера",
       "plural": "galleys",
       "countability": "countable",
       "contrast": "Same word as a ship's kitchen; in publishing it means an early proof."
@@ -1861,14 +2051,43 @@
       "term": "editing",
       "ipa": "/ˈɛdətɪŋ/",
       "respell": "ED-uh-ting",
-      "meaning": "The work of correcting and improving a text for publication. ---",
+      "meaning": "Editing has 2 distinct senses.",
       "examples": [
         "The book needs another round of editing.",
         "She does freelance editing for two publishers.",
-        "Careful editing cut a hundred pages."
+        "Careful editing cut a hundred pages.",
+        "The editing in the chase scene is brilliant.",
+        "She spent a month on the editing of the documentary.",
+        "Sloppy editing made the interview look choppy."
       ],
-      "senses": [],
-      "русский": "редактирование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of correcting and improving a text for publication",
+          "body": [
+            "(редактирование)"
+          ],
+          "examples": [
+            "The book needs another round of editing.",
+            "She does freelance editing for two publishers.",
+            "Careful editing cut a hundred pages."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of cutting and arranging film or video into its final form",
+          "body": [
+            "(монтаж (фильма, видео))",
+            "---"
+          ],
+          "examples": [
+            "The editing in the chase scene is brilliant.",
+            "She spent a month on the editing of the documentary.",
+            "Sloppy editing made the interview look choppy."
+          ]
+        }
+      ],
+      "русский": "редактирование; монтаж (фильма, видео)",
       "countability": "uncountable"
     },
     {
@@ -1905,14 +2124,73 @@
       "term": "advance",
       "ipa": "/ədˈvæns/",
       "respell": "ad-VANS",
-      "meaning": "Money a publisher pays an author before the book earns anything. ---",
+      "meaning": "Advance has 4 distinct senses.",
       "examples": [
         "The advance was fifteen thousand dollars.",
         "She spent the advance before she finished the draft.",
-        "Advances for first novels have shrunk."
+        "Advances for first novels have shrunk.",
+        "The army's advance stopped at the river.",
+        "Nothing could slow the advance of the fire.",
+        "Farmers watched the advance of the desert year by year.",
+        "Advances in surgery have cut recovery time in half.",
+        "The last real advance in battery design was years ago.",
+        "The new engine is a big advance over the old one.",
+        "She made it clear that his advances were unwelcome.",
+        "He apologized for the advance and left the party.",
+        "Employees can report unwanted advances to human resources."
       ],
-      "senses": [],
-      "русский": "аванс (гонорара)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money a publisher pays an author before the book earns anything",
+          "body": [
+            "(аванс (гонорара))"
+          ],
+          "examples": [
+            "The advance was fifteen thousand dollars.",
+            "She spent the advance before she finished the draft.",
+            "Advances for first novels have shrunk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A forward movement toward a place or position",
+          "body": [
+            "(продвижение, наступление)"
+          ],
+          "examples": [
+            "The army's advance stopped at the river.",
+            "Nothing could slow the advance of the fire.",
+            "Farmers watched the advance of the desert year by year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An improvement or new development in knowledge or technology",
+          "body": [
+            "(достижение, прогресс (в науке, технике))"
+          ],
+          "examples": [
+            "Advances in surgery have cut recovery time in half.",
+            "The last real advance in battery design was years ago.",
+            "The new engine is a big advance over the old one."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An attempt to start a romantic or sexual relationship with someone",
+          "body": [
+            "(ухаживания, приставания)",
+            "---"
+          ],
+          "examples": [
+            "She made it clear that his advances were unwelcome.",
+            "He apologized for the advance and left the party.",
+            "Employees can report unwanted advances to human resources."
+          ]
+        }
+      ],
+      "русский": "аванс (гонорара); продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания",
       "plural": "advances",
       "countability": "countable"
     },
@@ -2070,14 +2348,58 @@
       "term": "imprint",
       "ipa": "/ˈɪmprɪnt/",
       "respell": "IM-print",
-      "meaning": "A brand name a publisher prints its books under. ---",
+      "meaning": "Imprint has 3 distinct senses.",
       "examples": [
         "The novel came out under their children's imprint.",
         "The imprint has its own editor and logo.",
-        "One company owns a dozen imprints."
+        "One company owns a dozen imprints.",
+        "Her boots left deep imprints in the wet sand.",
+        "The tire left a clear imprint in the mud.",
+        "You could still see the imprint of the coin in the clay.",
+        "Her teaching left an imprint on a whole generation of students.",
+        "The war left its imprint on every family in town.",
+        "You can see the architect's imprint all over the building."
       ],
-      "senses": [],
-      "русский": "импринт, издательская марка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A brand name a publisher prints its books under",
+          "body": [
+            "(импринт, издательская марка)"
+          ],
+          "examples": [
+            "The novel came out under their children's imprint.",
+            "The imprint has its own editor and logo.",
+            "One company owns a dozen imprints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mark left on a surface by pressing something into it",
+          "body": [
+            "(отпечаток, оттиск)"
+          ],
+          "examples": [
+            "Her boots left deep imprints in the wet sand.",
+            "The tire left a clear imprint in the mud.",
+            "You could still see the imprint of the coin in the clay."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A lasting effect that a person or event leaves on something",
+          "body": [
+            "(след, отпечаток (влияние))",
+            "---"
+          ],
+          "examples": [
+            "Her teaching left an imprint on a whole generation of students.",
+            "The war left its imprint on every family in town.",
+            "You can see the architect's imprint all over the building."
+          ]
+        }
+      ],
+      "русский": "импринт, издательская марка; отпечаток, оттиск; след, отпечаток (влияние)",
       "plural": "imprints",
       "countability": "countable",
       "contrast": "Noun stress on the first syllable, IM-print; the verb is im-PRINT."
@@ -2131,14 +2453,43 @@
       "term": "insert",
       "ipa": "/ˈɪnsɜːrt/",
       "respell": "IN-surt",
-      "meaning": "A separate sheet or booklet placed loose inside a newspaper or magazine. ---",
+      "meaning": "Insert has 2 distinct senses.",
       "examples": [
         "The coupons come in the Sunday insert.",
         "A glossy insert fell out of the magazine.",
-        "Half the paper's weight is advertising inserts."
+        "Half the paper's weight is advertising inserts.",
+        "She wears gel inserts in her running shoes.",
+        "The mold has a steel insert that shapes the hole.",
+        "The crib mattress came with a waterproof insert."
       ],
-      "senses": [],
-      "русский": "вкладка, вкладыш (в газете)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A separate sheet or booklet placed loose inside a newspaper or magazine",
+          "body": [
+            "(вкладка, вкладыш (в газете))"
+          ],
+          "examples": [
+            "The coupons come in the Sunday insert.",
+            "A glossy insert fell out of the magazine.",
+            "Half the paper's weight is advertising inserts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece made to fit inside something else",
+          "body": [
+            "(вкладыш, вставка)",
+            "---"
+          ],
+          "examples": [
+            "She wears gel inserts in her running shoes.",
+            "The mold has a steel insert that shapes the hole.",
+            "The crib mattress came with a waterproof insert."
+          ]
+        }
+      ],
+      "русский": "вкладка, вкладыш (в газете); вкладыш, вставка",
       "plural": "inserts",
       "countability": "countable",
       "contrast": "Noun stress on the first syllable, IN-surt; the verb is in-SURT."

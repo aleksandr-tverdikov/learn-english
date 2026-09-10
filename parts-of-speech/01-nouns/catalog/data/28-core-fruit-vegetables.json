@@ -36,14 +36,43 @@
       "term": "orange",
       "ipa": "/ˈɔːrɪndʒ/",
       "respell": "OR-inj",
-      "meaning": "A round citrus fruit with thick skin and sweet juicy segments. ---",
+      "meaning": "Orange has 2 distinct senses.",
       "examples": [
         "I peeled an orange for the kids.",
         "The oranges in this bag are seedless.",
-        "Fresh-squeezed orange juice costs twice as much."
+        "Fresh-squeezed orange juice costs twice as much.",
+        "The whole sky turned orange just before sunset.",
+        "Their team colors are orange and black.",
+        "She painted the front door a bright orange."
       ],
-      "senses": [],
-      "русский": "апельсин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A round citrus fruit with thick skin and sweet juicy segments",
+          "body": [
+            "(апельсин)"
+          ],
+          "examples": [
+            "I peeled an orange for the kids.",
+            "The oranges in this bag are seedless.",
+            "Fresh-squeezed orange juice costs twice as much."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A color between red and yellow, like the skin of the fruit",
+          "body": [
+            "(оранжевый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The whole sky turned orange just before sunset.",
+            "Their team colors are orange and black.",
+            "She painted the front door a bright orange."
+          ]
+        }
+      ],
+      "русский": "апельсин; оранжевый цвет",
       "plural": "oranges",
       "countability": "countable"
     },
@@ -188,14 +217,43 @@
       "term": "lemon",
       "ipa": "/ˈlɛmən/",
       "respell": "LEH-mun",
-      "meaning": "A yellow citrus fruit with very sour juice. ---",
+      "meaning": "Lemon has 2 distinct senses.",
       "examples": [
         "Squeeze half a lemon over the fish.",
         "The lemons were the size of softballs.",
-        "Can I get water with lemon?"
+        "Can I get water with lemon?",
+        "The used car turned out to be a lemon.",
+        "State lemon laws protect people who buy new cars.",
+        "That printer was a lemon from day one."
       ],
-      "senses": [],
-      "русский": "лимон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A yellow citrus fruit with very sour juice",
+          "body": [
+            "(лимон)"
+          ],
+          "examples": [
+            "Squeeze half a lemon over the fish.",
+            "The lemons were the size of softballs.",
+            "Can I get water with lemon?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A car or product that turns out to be badly made and full of faults",
+          "body": [
+            "(барахло, бракованная вещь (особ. машина))",
+            "---"
+          ],
+          "examples": [
+            "The used car turned out to be a lemon.",
+            "State lemon laws protect people who buy new cars.",
+            "That printer was a lemon from day one."
+          ]
+        }
+      ],
+      "русский": "лимон; барахло, бракованная вещь (особ. машина)",
       "plural": "lemons",
       "countability": "countable"
     },
@@ -203,14 +261,43 @@
       "term": "lime",
       "ipa": "/laɪm/",
       "respell": "LYME",
-      "meaning": "A small green citrus fruit with sour juice. ---",
+      "meaning": "Lime has 2 distinct senses.",
       "examples": [
         "Every taco stand puts a lime wedge on the plate.",
         "We ran out of limes halfway through the party.",
-        "Roll the lime before you cut it and you'll get more juice."
+        "Roll the lime before you cut it and you'll get more juice.",
+        "The farmer spread lime to cut the acid in the soil.",
+        "Mix the lime with sand and water to make mortar.",
+        "A bag of garden lime costs about six dollars."
       ],
-      "senses": [],
-      "русский": "лайм",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small green citrus fruit with sour juice",
+          "body": [
+            "(лайм)"
+          ],
+          "examples": [
+            "Every taco stand puts a lime wedge on the plate.",
+            "We ran out of limes halfway through the party.",
+            "Roll the lime before you cut it and you'll get more juice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A white powder made from limestone, spread on soil or mixed into mortar",
+          "body": [
+            "(известь)",
+            "---"
+          ],
+          "examples": [
+            "The farmer spread lime to cut the acid in the soil.",
+            "Mix the lime with sand and water to make mortar.",
+            "A bag of garden lime costs about six dollars."
+          ]
+        }
+      ],
+      "русский": "лайм; известь",
       "plural": "limes",
       "countability": "countable"
     },
@@ -414,14 +501,73 @@
       "term": "date",
       "ipa": "/deɪt/",
       "respell": "DAYT",
-      "meaning": "A very sweet sticky brown fruit that grows on a palm tree. ---",
+      "meaning": "Date has 4 distinct senses.",
       "examples": [
         "Dates are sweet enough to use instead of sugar.",
         "She stuffed each date with an almond.",
-        "There's a bag of dates in the pantry."
+        "There's a bag of dates in the pantry.",
+        "Write today's date at the top of the form.",
+        "We still haven't picked a date for the wedding.",
+        "Check the dates on the milk before you buy it.",
+        "They met for coffee on their first date.",
+        "He's been on three dates this month.",
+        "Dinner and a movie is a pretty standard date.",
+        "He brought his date to the office party.",
+        "Her date showed up twenty minutes late.",
+        "All the dates ended up talking to each other."
       ],
-      "senses": [],
-      "русский": "финик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very sweet sticky brown fruit that grows on a palm tree",
+          "body": [
+            "(финик)"
+          ],
+          "examples": [
+            "Dates are sweet enough to use instead of sugar.",
+            "She stuffed each date with an almond.",
+            "There's a bag of dates in the pantry."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular day of the month or year",
+          "body": [
+            "(дата, число)"
+          ],
+          "examples": [
+            "Write today's date at the top of the form.",
+            "We still haven't picked a date for the wedding.",
+            "Check the dates on the milk before you buy it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A social meeting arranged with someone you are romantically interested in",
+          "body": [
+            "(свидание)"
+          ],
+          "examples": [
+            "They met for coffee on their first date.",
+            "He's been on three dates this month.",
+            "Dinner and a movie is a pretty standard date."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The person you take to a social event or go out with",
+          "body": [
+            "(спутник, спутница (на свидании))",
+            "---"
+          ],
+          "examples": [
+            "He brought his date to the office party.",
+            "Her date showed up twenty minutes late.",
+            "All the dates ended up talking to each other."
+          ]
+        }
+      ],
+      "русский": "финик; дата, число; свидание; спутник, спутница (на свидании)",
       "plural": "dates",
       "countability": "countable",
       "contrast": "Spelled and pronounced exactly like date 'calendar day' — only context separates them."
@@ -582,14 +728,43 @@
       "term": "carrot",
       "ipa": "/ˈkɛrət/",
       "respell": "KER-uht",
-      "meaning": "A long orange root vegetable that grows underground. ---",
+      "meaning": "Carrot has 2 distinct senses.",
       "examples": [
         "She fed the horse a carrot.",
         "Chop the carrots into coins.",
-        "There's one sad carrot left in the drawer."
+        "There's one sad carrot left in the drawer.",
+        "The state dangled tax breaks as a carrot for new employers.",
+        "Management tried the carrot before reaching for the stick.",
+        "A bonus is a better carrot than a threat."
       ],
-      "senses": [],
-      "русский": "морковь, морковка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long orange root vegetable that grows underground",
+          "body": [
+            "(морковь, морковка)"
+          ],
+          "examples": [
+            "She fed the horse a carrot.",
+            "Chop the carrots into coins.",
+            "There's one sad carrot left in the drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A reward offered to persuade someone to do something",
+          "body": [
+            "(пряник, поощрение (стимул))",
+            "---"
+          ],
+          "examples": [
+            "The state dangled tax breaks as a carrot for new employers.",
+            "Management tried the carrot before reaching for the stick.",
+            "A bonus is a better carrot than a threat."
+          ]
+        }
+      ],
+      "русский": "морковь, морковка; пряник, поощрение (стимул)",
       "plural": "carrots",
       "countability": "countable"
     },
@@ -777,14 +952,43 @@
       "term": "squash",
       "ipa": "/skwɑːʃ/",
       "respell": "SKWAHSH",
-      "meaning": "Any of several thick-skinned vegetables from the gourd family. ---",
+      "meaning": "Squash has 2 distinct senses.",
       "examples": [
         "Butternut squash soup is on the menu all fall.",
         "The squash took forty minutes to roast.",
-        "Squashes keep for months in a cool basement."
+        "Squashes keep for months in a cool basement.",
+        "They play squash every Tuesday at the gym.",
+        "He hurt his shoulder during a game of squash.",
+        "The club has four squash courts in the basement."
       ],
-      "senses": [],
-      "русский": "тыква, кабачок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Any of several thick-skinned vegetables from the gourd family",
+          "body": [
+            "(тыква, кабачок)"
+          ],
+          "examples": [
+            "Butternut squash soup is on the menu all fall.",
+            "The squash took forty minutes to roast.",
+            "Squashes keep for months in a cool basement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An indoor game in which two players hit a small rubber ball against the walls of a court",
+          "body": [
+            "(сквош (игра))",
+            "---"
+          ],
+          "examples": [
+            "They play squash every Tuesday at the gym.",
+            "He hurt his shoulder during a game of squash.",
+            "The club has four squash courts in the basement."
+          ]
+        }
+      ],
+      "русский": "тыква, кабачок; сквош (игра)",
       "plural": "squashes",
       "countability": "countable, and uncountable as food"
     },
@@ -1073,14 +1277,58 @@
       "term": "mint",
       "ipa": "/mɪnt/",
       "respell": "MINT",
-      "meaning": "A herb with a strong cool taste, or a small candy flavored with it. ---",
+      "meaning": "Mint has 3 distinct senses.",
       "examples": [
         "There's mint growing all over the yard.",
         "He put a sprig of mint in the iced tea.",
-        "She keeps mints in her purse."
+        "She keeps mints in her purse.",
+        "The coin was struck at the Denver mint.",
+        "The mint is releasing a new quarter this year.",
+        "Tours of the mint sell out weeks ahead.",
+        "That kitchen must have cost a mint.",
+        "He made a mint selling the patent.",
+        "They spent a mint on the wedding."
       ],
-      "senses": [],
-      "русский": "мята; мятная конфета",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A herb with a strong cool taste, or a small candy flavored with it",
+          "body": [
+            "(мята; мятная конфета)"
+          ],
+          "examples": [
+            "There's mint growing all over the yard.",
+            "He put a sprig of mint in the iced tea.",
+            "She keeps mints in her purse."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place where a country's coins are made",
+          "body": [
+            "(монетный двор)"
+          ],
+          "examples": [
+            "The coin was struck at the Denver mint.",
+            "The mint is releasing a new quarter this year.",
+            "Tours of the mint sell out weeks ahead."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A very large amount of money",
+          "body": [
+            "(куча денег, целое состояние)",
+            "---"
+          ],
+          "examples": [
+            "That kitchen must have cost a mint.",
+            "He made a mint selling the patent.",
+            "They spent a mint on the wedding."
+          ]
+        }
+      ],
+      "русский": "мята; мятная конфета; монетный двор; куча денег, целое состояние",
       "plural": "mints",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Uncountable as the plant or flavor (some mint), countable as the candy (two mints)."
@@ -1162,14 +1410,43 @@
       "term": "sage",
       "ipa": "/seɪdʒ/",
       "respell": "SAYJ",
-      "meaning": "A herb with soft gray-green leaves and a strong savory taste. ---",
+      "meaning": "Sage has 2 distinct senses.",
       "examples": [
         "Brown the butter with a few leaves of sage.",
         "The stuffing needs more sage.",
-        "Sage has a fuzzy gray-green leaf you can spot anywhere."
+        "Sage has a fuzzy gray-green leaf you can spot anywhere.",
+        "The old man was treated as the village sage.",
+        "Reporters quoted him like some kind of sage.",
+        "Ancient sages wrote about the same questions."
       ],
-      "senses": [],
-      "русский": "шалфей",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A herb with soft gray-green leaves and a strong savory taste",
+          "body": [
+            "(шалфей)"
+          ],
+          "examples": [
+            "Brown the butter with a few leaves of sage.",
+            "The stuffing needs more sage.",
+            "Sage has a fuzzy gray-green leaf you can spot anywhere."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very wise person, especially an older one",
+          "body": [
+            "(мудрец)",
+            "---"
+          ],
+          "examples": [
+            "The old man was treated as the village sage.",
+            "Reporters quoted him like some kind of sage.",
+            "Ancient sages wrote about the same questions."
+          ]
+        }
+      ],
+      "русский": "шалфей; мудрец",
       "countability": "uncountable"
     },
     {
@@ -1292,14 +1569,43 @@
       "term": "peanut",
       "ipa": "/ˈpiːnʌt/",
       "respell": "PEE-nut",
-      "meaning": "A small oval seed in a thin shell, eaten roasted or made into butter. ---",
+      "meaning": "Peanut has 2 distinct senses.",
       "examples": [
         "Peanuts aren't really nuts — they're legumes.",
         "The flight attendant handed out peanuts.",
-        "He shelled a peanut and ate it."
+        "He shelled a peanut and ate it.",
+        "They pay their interns peanuts.",
+        "He sold the truck for peanuts.",
+        "A fine like that is peanuts to a company this size."
       ],
-      "senses": [],
-      "русский": "арахис",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small oval seed in a thin shell, eaten roasted or made into butter",
+          "body": [
+            "(арахис)"
+          ],
+          "examples": [
+            "Peanuts aren't really nuts — they're legumes.",
+            "The flight attendant handed out peanuts.",
+            "He shelled a peanut and ate it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very small amount of money, used in the plural",
+          "body": [
+            "(гроши, копейки)",
+            "---"
+          ],
+          "examples": [
+            "They pay their interns peanuts.",
+            "He sold the truck for peanuts.",
+            "A fine like that is peanuts to a company this size."
+          ]
+        }
+      ],
+      "русский": "арахис; гроши, копейки",
       "plural": "peanuts",
       "countability": "countable"
     },
@@ -1517,14 +1823,58 @@
       "term": "seed",
       "ipa": "/siːd/",
       "respell": "SEED",
-      "meaning": "The small hard part of a plant from which a new plant grows. ---",
+      "meaning": "Seed has 3 distinct senses.",
       "examples": [
         "Save the seeds and plant them next spring.",
         "There's a seed stuck in my teeth.",
-        "Sunflower seeds are the standard dugout snack."
+        "Sunflower seeds are the standard dugout snack.",
+        "She's the top seed going into the tournament.",
+        "The number one seed lost in the first round.",
+        "Two of the top four seeds were knocked out on Tuesday.",
+        "That trip planted the seed of the whole business.",
+        "The report sowed seeds of doubt about the company.",
+        "His remark planted a seed she couldn't ignore."
       ],
-      "senses": [],
-      "русский": "семя, семечко",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small hard part of a plant from which a new plant grows",
+          "body": [
+            "(семя, семечко)"
+          ],
+          "examples": [
+            "Save the seeds and plant them next spring.",
+            "There's a seed stuck in my teeth.",
+            "Sunflower seeds are the standard dugout snack."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A player or team ranked in advance in a tournament",
+          "body": [
+            "(сеяный игрок, посев (в турнире))"
+          ],
+          "examples": [
+            "She's the top seed going into the tournament.",
+            "The number one seed lost in the first round.",
+            "Two of the top four seeds were knocked out on Tuesday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The small beginning of something that later grows much bigger",
+          "body": [
+            "(зачаток, зерно (перен.))",
+            "---"
+          ],
+          "examples": [
+            "That trip planted the seed of the whole business.",
+            "The report sowed seeds of doubt about the company.",
+            "His remark planted a seed she couldn't ignore."
+          ]
+        }
+      ],
+      "русский": "семя, семечко; сеяный игрок, посев (в турнире); зачаток, зерно (перен.)",
       "plural": "seeds",
       "countability": "countable"
     },
@@ -1561,14 +1911,58 @@
       "term": "kernel",
       "ipa": "/ˈkɜːrnəl/",
       "respell": "KUR-nuhl",
-      "meaning": "The soft edible part inside a nut, or a single grain of corn or wheat. ---",
+      "meaning": "Kernel has 3 distinct senses.",
       "examples": [
         "A few kernels never pop.",
         "Cut the kernels off the cob with a sharp knife.",
-        "One popcorn kernel got stuck in my tooth."
+        "One popcorn kernel got stuck in my tooth.",
+        "There is a kernel of truth in what he said.",
+        "The whole company grew out of one kernel of an idea.",
+        "Strip away the jokes and you find a hard kernel of anger.",
+        "The update fixes a security hole in the kernel.",
+        "Linux kernels are numbered by version.",
+        "A crash in the kernel takes down the whole machine."
       ],
-      "senses": [],
-      "русский": "ядро (ореха), зерно",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft edible part inside a nut, or a single grain of corn or wheat",
+          "body": [
+            "(ядро (ореха), зерно)"
+          ],
+          "examples": [
+            "A few kernels never pop.",
+            "Cut the kernels off the cob with a sharp knife.",
+            "One popcorn kernel got stuck in my tooth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The central or most important part of an idea or a statement",
+          "body": [
+            "(суть, зерно (истины))"
+          ],
+          "examples": [
+            "There is a kernel of truth in what he said.",
+            "The whole company grew out of one kernel of an idea.",
+            "Strip away the jokes and you find a hard kernel of anger."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The core part of a computer's operating system",
+          "body": [
+            "(ядро (операционной системы))",
+            "---"
+          ],
+          "examples": [
+            "The update fixes a security hole in the kernel.",
+            "Linux kernels are numbered by version.",
+            "A crash in the kernel takes down the whole machine."
+          ]
+        }
+      ],
+      "русский": "ядро (ореха), зерно; суть, зерно (истины); ядро (операционной системы)",
       "plural": "kernels",
       "countability": "countable",
       "contrast": "Homophone of colonel."
@@ -1606,14 +2000,73 @@
       "term": "root",
       "ipa": "/ruːt/",
       "respell": "ROOT",
-      "meaning": "The part of a plant that grows underground and takes in water. ---",
+      "meaning": "Root has 4 distinct senses.",
       "examples": [
         "The plant's roots had filled the whole pot.",
         "Ginger root keeps for weeks in the freezer.",
-        "He pulled the weed out by the root."
+        "He pulled the weed out by the root.",
+        "Money is at the root of most of their arguments.",
+        "We need to get to the root of the problem.",
+        "The report traced the roots of the crisis to 2008.",
+        "Her roots are in a small town in Kansas.",
+        "He went to Ireland to look into his roots.",
+        "The festival celebrates the city's Mexican roots.",
+        "The dentist said the root was infected.",
+        "Her dark roots were starting to show.",
+        "The shampoo adds volume at the roots."
       ],
-      "senses": [],
-      "русский": "корень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a plant that grows underground and takes in water",
+          "body": [
+            "(корень)"
+          ],
+          "examples": [
+            "The plant's roots had filled the whole pot.",
+            "Ginger root keeps for weeks in the freezer.",
+            "He pulled the weed out by the root."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The basic cause or source of a problem or situation",
+          "body": [
+            "(корень, первопричина)"
+          ],
+          "examples": [
+            "Money is at the root of most of their arguments.",
+            "We need to get to the root of the problem.",
+            "The report traced the roots of the crisis to 2008."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The family, place, or culture a person comes from",
+          "body": [
+            "(корни, происхождение)"
+          ],
+          "examples": [
+            "Her roots are in a small town in Kansas.",
+            "He went to Ireland to look into his roots.",
+            "The festival celebrates the city's Mexican roots."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The part of a tooth or a hair that sits below the surface",
+          "body": [
+            "(корень (зуба, волоса))",
+            "---"
+          ],
+          "examples": [
+            "The dentist said the root was infected.",
+            "Her dark roots were starting to show.",
+            "The shampoo adds volume at the roots."
+          ]
+        }
+      ],
+      "русский": "корень; корень, первопричина; корни, происхождение; корень (зуба, волоса)",
       "plural": "roots",
       "countability": "countable",
       "contrast": "Many Americans say route exactly like root; others say it ROWT. The plant word is always ROOT."
@@ -1725,14 +2178,58 @@
       "term": "pit",
       "ipa": "/pɪt/",
       "respell": "PIT",
-      "meaning": "The single hard seed in the middle of a peach, cherry, or similar fruit. ---",
+      "meaning": "Pit has 3 distinct senses.",
       "examples": [
         "Watch out for the pit in the middle.",
         "She spit the cherry pits into a napkin.",
-        "Remove the pit before you blend it."
+        "Remove the pit before you blend it.",
+        "They dug a pit for the fire.",
+        "Gravel is hauled out of the pit all summer.",
+        "He nearly fell into an open pit at the construction site.",
+        "He came into the pits on lap thirty.",
+        "The crew changed four tires in the pit in seven seconds.",
+        "A slow stop in the pits cost her the race."
       ],
-      "senses": [],
-      "русский": "косточка (плода)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The single hard seed in the middle of a peach, cherry, or similar fruit",
+          "body": [
+            "(косточка (плода))"
+          ],
+          "examples": [
+            "Watch out for the pit in the middle.",
+            "She spit the cherry pits into a napkin.",
+            "Remove the pit before you blend it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep hole dug in the ground",
+          "body": [
+            "(яма, котлован)"
+          ],
+          "examples": [
+            "They dug a pit for the fire.",
+            "Gravel is hauled out of the pit all summer.",
+            "He nearly fell into an open pit at the construction site."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The area beside a racetrack where cars stop for fuel and tires",
+          "body": [
+            "(боксы, пит-лейн (в автогонках))",
+            "---"
+          ],
+          "examples": [
+            "He came into the pits on lap thirty.",
+            "The crew changed four tires in the pit in seven seconds.",
+            "A slow stop in the pits cost her the race."
+          ]
+        }
+      ],
+      "русский": "косточка (плода); яма, котлован; боксы, пит-лейн (в автогонках)",
       "plural": "pits",
       "countability": "countable",
       "contrast": "American English for the hard seed; British English says stone."
@@ -1741,14 +2238,58 @@
       "term": "core",
       "ipa": "/kɔːr/",
       "respell": "KOR",
-      "meaning": "The hard central part of a fruit that holds the seeds. ---",
+      "meaning": "Core has 3 distinct senses.",
       "examples": [
         "Cut around the core of the apple.",
         "He tossed the core out the car window.",
-        "The cores go in the compost bin."
+        "The cores go in the compost bin.",
+        "Trust is at the core of any good marriage.",
+        "That question goes to the core of the problem.",
+        "A small core of volunteers runs the whole festival.",
+        "The earth's core is mostly iron.",
+        "Heat moves slowly outward from the core.",
+        "Scientists study how the core makes the magnetic field."
       ],
-      "senses": [],
-      "русский": "сердцевина, огрызок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard central part of a fruit that holds the seeds",
+          "body": [
+            "(сердцевина, огрызок)"
+          ],
+          "examples": [
+            "Cut around the core of the apple.",
+            "He tossed the core out the car window.",
+            "The cores go in the compost bin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The most important or central part of something",
+          "body": [
+            "(суть, основа, ядро)"
+          ],
+          "examples": [
+            "Trust is at the core of any good marriage.",
+            "That question goes to the core of the problem.",
+            "A small core of volunteers runs the whole festival."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The hot center of the earth or of another planet",
+          "body": [
+            "(ядро (планеты))",
+            "---"
+          ],
+          "examples": [
+            "The earth's core is mostly iron.",
+            "Heat moves slowly outward from the core.",
+            "Scientists study how the core makes the magnetic field."
+          ]
+        }
+      ],
+      "русский": "сердцевина, огрызок; суть, основа, ядро; ядро (планеты)",
       "plural": "cores",
       "countability": "countable"
     },
@@ -1875,14 +2416,42 @@
       "term": "crop",
       "ipa": "/krɑːp/",
       "respell": "KRAHP",
-      "meaning": "A plant grown in large amounts for food, or the amount produced in a season.",
+      "meaning": "Crop has 2 distinct senses.",
       "examples": [
         "Corn is the biggest crop in the state.",
         "The crops need rain badly.",
-        "They rotate crops to keep the soil healthy."
+        "They rotate crops to keep the soil healthy.",
+        "This year's crop of rookies is the best in a decade.",
+        "The new crop of restaurants downtown is worth trying.",
+        "Each crop of interns stays for the summer."
       ],
-      "senses": [],
-      "русский": "сельскохозяйственная культура, урожай",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plant grown in large amounts for food, or the amount produced in a season",
+          "body": [
+            "(сельскохозяйственная культура, урожай)"
+          ],
+          "examples": [
+            "Corn is the biggest crop in the state.",
+            "The crops need rain badly.",
+            "They rotate crops to keep the soil healthy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people or things that appear at the same time",
+          "body": [
+            "(поколение, набор (появившихся одновременно))"
+          ],
+          "examples": [
+            "This year's crop of rookies is the best in a decade.",
+            "The new crop of restaurants downtown is worth trying.",
+            "Each crop of interns stays for the summer."
+          ]
+        }
+      ],
+      "русский": "сельскохозяйственная культура, урожай; поколение, набор (появившихся одновременно)",
       "plural": "crops",
       "countability": "countable"
     }

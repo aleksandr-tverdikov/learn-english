@@ -26,14 +26,28 @@ The rate at which something speeds up.
 ### motion
 
 **Pronunciation:** /ˈmoʊʃən/ &middot; *MOH-shuhn*
-**Русский:** движение
+**Русский:** движение; предложение (поставленное на голосование); ходатайство (в суде)
 **Countability:** uncountable
 
-The act or state of moving.
+Motion has 3 distinct senses.
+
+**1. The act or state of moving.** (движение)
 
 1. Newton's laws describe the *motion* of objects.
 2. The camera captures the *motion* of the bird's wings.
 3. The bus was already in *motion* when he jumped off.
+
+**2. A formal proposal put to a vote at a meeting.** (предложение (поставленное на голосование))
+
+4. The *motion* passed by a single vote.
+5. I'd like to make a *motion* to adjourn.
+6. Two members seconded her *motion*.
+
+**3. A formal request asking a judge to make a ruling.** (ходатайство (в суде))
+
+7. His lawyer filed a *motion* to dismiss the case.
+8. The judge denied the *motion* for a new trial.
+9. Both sides argued the *motion* on Friday.
 
 ---
 
@@ -68,14 +82,22 @@ The force that slows down two surfaces rubbing against each other.
 ### inertia
 
 **Pronunciation:** /ɪˈnɜːrʃə/ &middot; *ih-NUR-shuh*
-**Русский:** инерция
+**Русский:** инерция; инертность, косность
 **Countability:** uncountable
 
-The tendency of an object to keep doing whatever it is already doing.
+Inertia has 2 distinct senses.
+
+**1. The tendency of an object to keep doing whatever it is already doing.** (инерция)
 
 1. *Inertia* is why you lurch forward when the bus stops.
 2. A heavy flywheel has a lot of *inertia*.
 3. The seatbelt works against your body's *inertia*.
+
+**2. An unwillingness to act or change that keeps things as they are.** (инертность, косность)
+
+4. Nothing changed, mostly out of plain *inertia*.
+5. The bill died of bureaucratic *inertia*.
+6. It took a crisis to overcome the company's *inertia*.
 
 ---
 
@@ -104,14 +126,28 @@ Tension has 2 distinct senses.
 ### thrust
 
 **Pronunciation:** /θrʌst/ &middot; *THRUST*
-**Русский:** тяга (двигателя)
+**Русский:** тяга (двигателя); суть, основная мысль; выпад, толчок
 **Countability:** uncountable
 
-The forward force produced by an engine or a rocket.
+Thrust has 3 distinct senses.
+
+**1. The forward force produced by an engine or a rocket.** (тяга (двигателя))
 
 1. The engines produce enough *thrust* to lift the rocket.
 2. The pilot cut the *thrust* just before landing.
 3. Each booster adds *thrust* at liftoff.
+
+**2. The main point of what someone is saying.** (суть, основная мысль)
+
+4. The *thrust* of her argument was that the plan costs too much.
+5. I missed the details, but I got the general *thrust*.
+6. That's the whole *thrust* of the report.
+
+**3. A sudden strong push, especially with a weapon.** (выпад, толчок)
+
+7. He blocked the *thrust* with his shield.
+8. One quick *thrust* of the shovel broke through the ice.
+9. The fencer scored with a low *thrust*.
 
 ---
 
@@ -161,15 +197,29 @@ The hot glowing gas you see when something burns.
 ### spark
 
 **Pronunciation:** /spɑːrk/ &middot; *SPAHRK*
-**Русский:** искра
+**Русский:** искра; искра, толчок (к событию); искорка, проблеск (чувства)
 **Plural:** *sparks*
 **Countability:** countable
 
-A tiny piece of burning material or a small flash of electricity.
+Spark has 3 distinct senses.
+
+**1. A tiny piece of burning material or a small flash of electricity.** (искра)
 
 1. A single *spark* set off the whole fire.
 2. *Sparks* flew when the metal hit the grinder.
 3. The plug fires a *spark* on every cycle.
+
+**2. The event or remark that sets off something much bigger.** (искра, толчок (к событию))
+
+4. The arrest was the *spark* that set off weeks of protests.
+5. One careless comment was the *spark* for the whole argument.
+6. Cheap credit provided the *spark* for the housing boom.
+
+**3. A small trace of a feeling, quality, or energy.** (искорка, проблеск (чувства))
+
+7. There was still a *spark* of hope in her voice.
+8. The team played without a *spark* of energy.
+9. I saw a *spark* of interest when I mentioned the job.
 
 ---
 
@@ -260,31 +310,47 @@ Energy that travels out from a source as waves or particles.
 ### circuit
 
 **Pronunciation:** /ˈsɜːrkɪt/ &middot; *SUR-kit*
-**Русский:** электрическая цепь
+**Русский:** электрическая цепь; серия площадок и мероприятий, тур
 **Plural:** *circuits*
 **Countability:** countable
 **Contrast:** Spelled with *-uit*, but pronounced simply *-kit*.
 
-A complete path that electricity can flow around.
+Circuit has 2 distinct senses.
+
+**1. A complete path that electricity can flow around.** (электрическая цепь)
 
 1. The *circuit* is broken somewhere near the switch.
 2. Never work on a live *circuit*.
 3. Both *circuits* are protected by fuses.
+
+**2. A regular round of places or events that someone travels between.** (серия площадок и мероприятий, тур)
+
+4. After the book came out she joined the lecture *circuit*.
+5. He plays the club *circuit* in the Midwest.
+6. The tournament is a stop on the pro tennis *circuit*.
 
 ---
 
 ### magnet
 
 **Pronunciation:** /ˈmæɡnət/ &middot; *MAG-nuht*
-**Русский:** магнит
+**Русский:** магнит; магнит (перен.), центр притяжения
 **Plural:** *magnets*
 **Countability:** countable
 
-A piece of metal that attracts iron and steel.
+Magnet has 2 distinct senses.
+
+**1. A piece of metal that attracts iron and steel.** (магнит)
 
 1. Hold the *magnet* near the paper clips.
 2. We stuck the drawing to the fridge with a *magnet*.
 3. Two *magnets* will push apart if you flip one around.
+
+**2. A person, place, or thing that attracts people strongly.** (магнит (перен.), центр притяжения)
+
+4. The new library has become a *magnet* for teenagers after school.
+5. Cheap rent turned the block into a *magnet* for artists.
+6. Warm weather makes the boardwalk a *magnet* on weekends.
 
 ---
 
@@ -402,15 +468,23 @@ The bending of light as it passes from one material into another.
 ### prism
 
 **Pronunciation:** /ˈprɪzəm/ &middot; *PRIZ-uhm*
-**Русский:** призма
+**Русский:** призма; призма (геометрическое тело)
 **Plural:** *prisms*
 **Countability:** countable
 
-A clear block of glass that splits light into colors.
+Prism has 2 distinct senses.
+
+**1. A clear block of glass that splits light into colors.** (призма)
 
 1. Hold the *prism* up in the sunlight.
 2. The *prism* spread the beam into a rainbow.
 3. Two glass *prisms* sat on the lab bench.
+
+**2. A solid figure whose two ends are identical parallel shapes joined by flat sides.** (призма (геометрическое тело))
+
+4. A cereal box is a rectangular *prism*.
+5. Find the volume of the *prism*.
+6. The kids built *prisms* out of cardboard.
 
 ---
 
@@ -432,14 +506,28 @@ A device that produces a narrow, very bright beam of light.
 ### matter
 
 **Pronunciation:** /ˈmætər/ &middot; *MAT-ur*
-**Русский:** вещество, материя
+**Русский:** вещество, материя; дело, вопрос; проблема, беда (что случилось)
 **Countability:** uncountable
 
-Anything that has mass and takes up space.
+Matter has 3 distinct senses.
+
+**1. Anything that has mass and takes up space.** (вещество, материя)
 
 1. Solids, liquids, and gases are all forms of *matter*.
 2. *Matter* cannot be created or destroyed.
 3. The telescope detects *matter* falling into the black hole.
+
+**2. A subject or situation that has to be dealt with.** (дело, вопрос)
+
+4. We'll take up the *matter* at the next meeting.
+5. It's a serious *matter* and the police are involved.
+6. Getting a visa is just a *matter* of paperwork.
+
+**3. The trouble or problem that someone or something has.** (проблема, беда (что случилось))
+
+7. What's the *matter*? You look upset.
+8. Something's the *matter* with the printer again.
+9. There's nothing the *matter* with the car.
 
 ---
 
@@ -461,14 +549,22 @@ A substance that keeps its own shape, such as ice or wood.
 ### plasma
 
 **Pronunciation:** /ˈplæzmə/ &middot; *PLAZ-muh*
-**Русский:** плазма
+**Русский:** плазма; плазма крови
 **Countability:** uncountable
 
-A very hot gas whose particles carry an electric charge.
+Plasma has 2 distinct senses.
+
+**1. A very hot gas whose particles carry an electric charge.** (плазма)
 
 1. Stars are made of *plasma*.
 2. The lamp glows because the gas turns into *plasma*.
 3. *Plasma* is often called the fourth state of matter.
+
+**2. The clear yellowish liquid part of blood that carries the cells.** (плазма крови)
+
+4. He donates *plasma* twice a month.
+5. The lab spun the sample to separate the *plasma*.
+6. Burn patients often need *plasma*.
 
 ---
 
@@ -782,14 +878,22 @@ How thick a liquid is and how slowly it flows.
 ### purity
 
 **Pronunciation:** /ˈpjʊrəti/ &middot; *PYUR-uh-tee*
-**Русский:** чистота (вещества)
+**Русский:** чистота (вещества); чистота (нравственная), непорочность
 **Countability:** uncountable
 
-How free a substance is from other materials mixed into it.
+Purity has 2 distinct senses.
+
+**1. How free a substance is from other materials mixed into it.** (чистота (вещества))
 
 1. The lab checks the *purity* of every batch.
 2. Gold is sold by weight and *purity*.
 3. A *purity* above ninety-nine percent is required.
+
+**2. Freedom from moral wrongdoing.** (чистота (нравственная), непорочность)
+
+4. The sect preached *purity* and hard work.
+5. He questioned the *purity* of their motives.
+6. White is worn there as a sign of *purity*.
 
 ---
 
@@ -853,14 +957,22 @@ The slow damage caused when a metal reacts with air or water.
 ### decay
 
 **Pronunciation:** /dɪˈkeɪ/ &middot; *dih-KAY*
-**Русский:** распад; гниение
+**Русский:** распад; гниение; упадок, разрушение
 **Countability:** uncountable
 
-The gradual breaking down of a substance or of a radioactive material.
+Decay has 2 distinct senses.
+
+**1. The gradual breaking down of a substance or of a radioactive material.** (распад; гниение)
 
 1. Radioactive *decay* releases energy over time.
 2. The rate of *decay* is measured in half-lives.
 3. Bacteria cause *decay* in dead plants.
+
+**2. A slow decline of a place, an institution, or standards.** (упадок, разрушение)
+
+4. Whole blocks of the city fell into *decay* after the plant closed.
+5. The novel traces the *decay* of a once-proud family.
+6. Critics blamed the schools' *decay* on years of budget cuts.
 
 ---
 
@@ -881,14 +993,22 @@ The splitting of an atom's nucleus, which releases energy.
 ### fusion
 
 **Pronunciation:** /ˈfjuːʒən/ &middot; *FYOO-zhuhn*
-**Русский:** синтез (ядерный)
+**Русский:** синтез (ядерный); слияние, смешение (стилей, культур)
 **Countability:** uncountable
 
-The joining of two atomic nuclei, which releases a huge amount of energy.
+Fusion has 2 distinct senses.
+
+**1. The joining of two atomic nuclei, which releases a huge amount of energy.** (синтез (ядерный))
 
 1. The sun is powered by *fusion*.
 2. *Fusion* would give us almost limitless energy.
 3. Scientists have struggled for decades to control *fusion*.
+
+**2. A blending of two or more different things into a single one.** (слияние, смешение (стилей, культур))
+
+4. The restaurant serves a *fusion* of Korean and Mexican food.
+5. Their sound is a *fusion* of jazz and hip-hop.
+6. The merger created a *fusion* of two very different company cultures.
 
 ---
 
@@ -1044,15 +1164,23 @@ Petroleum has 2 distinct senses.
 ### ash
 
 **Pronunciation:** /æʃ/ &middot; *ASH*
-**Русский:** зола, пепел
+**Русский:** зола, пепел; ясень
 **Countability:** uncountable
 **Contrast:** *Ashes* is a separate word, used for the remains of a fire or a body.
 
-The gray powder that is left after something has burned.
+Ash has 2 distinct senses.
+
+**1. The gray powder that is left after something has burned.** (зола, пепел)
 
 1. There was *ash* all over the grill.
 2. Volcanic *ash* closed the airport for two days.
 3. Sweep the *ash* out of the fireplace.
+
+**2. A hardwood tree with tough pale timber, or the wood itself.** (ясень)
+
+4. A row of *ash* trees lines the driveway.
+5. Baseball bats used to be turned from *ash*.
+6. A beetle has killed millions of *ash* trees in the Midwest.
 
 ---
 
@@ -1103,15 +1231,23 @@ Solid material that settles at the bottom of a liquid.
 ### lab
 
 **Pronunciation:** /læb/ &middot; *LAB*
-**Русский:** лаборатория (разг.)
+**Русский:** лаборатория (разг.); лабрадор (порода собак)
 **Plural:** *labs*
 **Countability:** countable
 
-An informal word for a laboratory.
+Lab has 2 distinct senses.
+
+**1. An informal word for a laboratory.** (лаборатория (разг.))
 
 1. We ran the test in the *lab*.
 2. Her *lab* is on the third floor.
 3. Most of the *labs* close at six.
+
+**2. A Labrador retriever, one of the most common family dogs in America.** (лабрадор (порода собак))
+
+4. They adopted a chocolate *Lab* from the shelter.
+5. *Labs* are friendly and easy to train.
+6. Our yellow *Lab* swims in the lake all summer.
 
 ---
 
@@ -1178,15 +1314,29 @@ A plug of rubber, glass, or cork that closes a bottle or a tube.
 ### filter
 
 **Pronunciation:** /ˈfɪltər/ &middot; *FIL-tur*
-**Русский:** фильтр
+**Русский:** фильтр; фильтр (для фото, видео); фильтр (программный: спам, поиск)
 **Plural:** *filters*
 **Countability:** countable
 
-A device that removes solid pieces or unwanted material from a liquid or gas.
+Filter has 3 distinct senses.
+
+**1. A device that removes solid pieces or unwanted material from a liquid or gas.** (фильтр)
 
 1. Pour the mixture through a paper *filter*.
 2. Change the air *filter* once a year.
 3. The *filters* clogged after an hour.
+
+**2. An effect applied to a photo or video to change how it looks.** (фильтр (для фото, видео))
+
+4. She posted the picture with no *filter* at all.
+5. That *filter* makes everything look like the seventies.
+6. The app comes with dozens of *filters*.
+
+**3. A program or setting that automatically blocks or sorts items.** (фильтр (программный: спам, поиск))
+
+7. Your email must have landed in the spam *filter*.
+8. Set a *filter* to show only orders from last month.
+9. School computers have *filters* on most video sites.
 
 ---
 
@@ -1208,15 +1358,29 @@ A very thin layer that lets some substances pass through it.
 ### probe
 
 **Pronunciation:** /proʊb/ &middot; *PROHB*
-**Русский:** зонд, щуп
+**Русский:** зонд, щуп; расследование, проверка; космический зонд
 **Plural:** *probes*
 **Countability:** countable
 
-A thin instrument used to measure or examine something.
+Probe has 3 distinct senses.
+
+**1. A thin instrument used to measure or examine something.** (зонд, щуп)
 
 1. Insert the temperature *probe* into the sample.
 2. The *probe* sends data back every second.
 3. Two *probes* recorded the voltage.
+
+**2. A thorough official investigation.** (расследование, проверка)
+
+4. A federal *probe* into the contracts is under way.
+5. The *probe* found no evidence of fraud.
+6. Two *probes* were opened after the crash.
+
+**3. An unmanned spacecraft sent to study a planet or other object in space.** (космический зонд)
+
+7. The *probe* sent back the first close-up of the surface.
+8. Ground control lost contact with the *probe* in March.
+9. Two *probes* are still transmitting after forty years.
 
 ---
 
@@ -1238,15 +1402,29 @@ A device that finds the presence of something such as smoke or radiation.
 ### engine
 
 **Pronunciation:** /ˈɛndʒɪn/ &middot; *EN-jin*
-**Русский:** двигатель
+**Русский:** двигатель; локомотив, тепловоз; движущая сила, двигатель (перен.)
 **Plural:** *engines*
 **Countability:** countable
 
-A machine that turns fuel or electricity into movement.
+Engine has 3 distinct senses.
+
+**1. A machine that turns fuel or electricity into movement.** (двигатель)
 
 1. The *engine* burns a mixture of fuel and air.
 2. Both *engines* shut down at the same moment.
 3. A diesel *engine* is more efficient than a gasoline one.
+
+**2. A locomotive that pulls a train.** (локомотив, тепловоз)
+
+4. The *engine* hauled forty cars over the pass.
+5. Two *engines* were needed for that grade.
+6. The kids waved at the *engine* from the crossing.
+
+**3. Something that drives growth or change.** (движущая сила, двигатель (перен.))
+
+7. Small business is the *engine* of the local economy.
+8. Cheap oil was the *engine* behind the boom.
+9. Immigration has long been an *engine* of growth.
 
 ---
 
@@ -1298,15 +1476,23 @@ Something you notice and write down while watching carefully.
 ### result
 
 **Pronunciation:** /rɪˈzʌlt/ &middot; *rih-ZULT*
-**Русский:** результат
+**Русский:** результат; следствие, последствие
 **Plural:** *results*
 **Countability:** countable
 
-What you find out at the end of an experiment or test.
+Result has 2 distinct senses.
+
+**1. What you find out at the end of an experiment or test.** (результат)
 
 1. The *results* surprised everyone in the lab.
 2. We got the same *result* three times in a row.
 3. Her *results* were published last spring.
+
+**2. Something that happens because of an earlier action or event.** (следствие, последствие)
+
+4. The flooding was a direct *result* of the storm.
+5. Prices went up as a *result* of the new tariff.
+6. Skipping practice had *results* he didn't like.
 
 ---
 

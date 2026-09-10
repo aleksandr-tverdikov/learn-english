@@ -20,14 +20,43 @@
       "term": "quad",
       "ipa": "/kwɑːd/",
       "respell": "KWAHD",
-      "meaning": "The open square of lawn in the middle of a college campus. ---",
+      "meaning": "Quad has 2 distinct senses.",
       "examples": [
         "Students were throwing a frisbee on the quad.",
         "Meet me by the library on the quad.",
-        "Both quads are lined with old oak trees."
+        "Both quads are lined with old oak trees.",
+        "My quads are sore from squats.",
+        "He tore a quad during the game.",
+        "Stretch your quads before you run."
       ],
-      "senses": [],
-      "русский": "внутренний двор кампуса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The open square of lawn in the middle of a college campus",
+          "body": [
+            "(внутренний двор кампуса)"
+          ],
+          "examples": [
+            "Students were throwing a frisbee on the quad.",
+            "Meet me by the library on the quad.",
+            "Both quads are lined with old oak trees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The large muscle at the front of the thigh, usually in the plural",
+          "body": [
+            "(квадрицепс, четырёхглавая мышца бедра)",
+            "---"
+          ],
+          "examples": [
+            "My quads are sore from squats.",
+            "He tore a quad during the game.",
+            "Stretch your quads before you run."
+          ]
+        }
+      ],
+      "русский": "внутренний двор кампуса; квадрицепс, четырёхглавая мышца бедра",
       "plural": "quads",
       "countability": "countable"
     },
@@ -187,14 +216,73 @@
       "term": "queen",
       "ipa": "/kwiːn/",
       "respell": "KWEEN",
-      "meaning": "A woman who rules a country, or the wife of a king. ---",
+      "meaning": "Queen has 4 distinct senses.",
       "examples": [
         "The queen opened parliament in November.",
         "Two queens ruled the island in succession.",
-        "In chess the queen is the strongest piece."
+        "In chess the queen is the strongest piece.",
+        "He lost his queen on the twelfth move.",
+        "The queen can move in any direction.",
+        "She traded her queen for a rook and a bishop.",
+        "He was holding two queens and a pair of eights.",
+        "She drew the queen of hearts.",
+        "Queens count as ten points in this game.",
+        "The hive died out after the queen was lost.",
+        "A new queen hatches and the swarm splits in two.",
+        "Worker bees feed the queen royal jelly."
       ],
-      "senses": [],
-      "русский": "королева",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A woman who rules a country, or the wife of a king",
+          "body": [
+            "(королева)"
+          ],
+          "examples": [
+            "The queen opened parliament in November.",
+            "Two queens ruled the island in succession.",
+            "In chess the queen is the strongest piece."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The most powerful piece in chess",
+          "body": [
+            "(ферзь, королева (шахматная фигура))"
+          ],
+          "examples": [
+            "He lost his queen on the twelfth move.",
+            "The queen can move in any direction.",
+            "She traded her queen for a rook and a bishop."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A playing card with a picture of a queen on it",
+          "body": [
+            "(дама (игральная карта))"
+          ],
+          "examples": [
+            "He was holding two queens and a pair of eights.",
+            "She drew the queen of hearts.",
+            "Queens count as ten points in this game."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The single egg-laying female in a colony of bees, ants, or wasps",
+          "body": [
+            "(матка (пчелиная, муравьиная))",
+            "---"
+          ],
+          "examples": [
+            "The hive died out after the queen was lost.",
+            "A new queen hatches and the swarm splits in two.",
+            "Worker bees feed the queen royal jelly."
+          ]
+        }
+      ],
+      "русский": "королева; ферзь, королева (шахматная фигура); дама (игральная карта); матка (пчелиная, муравьиная)",
       "plural": "queens",
       "countability": "countable"
     },
@@ -513,14 +601,43 @@
       "term": "radical",
       "ipa": "/ˈrædɪkəl/",
       "respell": "RAD-ih-kul",
-      "meaning": "A person who favors extreme political or social change. ---",
+      "meaning": "Radical has 2 distinct senses.",
       "examples": [
         "He was a radical in his twenties and a banker by forty.",
         "The party was taken over by radicals.",
-        "Each side called the other side radicals."
+        "Each side called the other side radicals.",
+        "Antioxidants mop up free radicals in the body.",
+        "A free radical reacts with almost anything it touches.",
+        "Sunlight produces radicals in the skin."
       ],
-      "senses": [],
-      "русский": "радикал (сторонник крайних мер)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who favors extreme political or social change",
+          "body": [
+            "(радикал (сторонник крайних мер))"
+          ],
+          "examples": [
+            "He was a radical in his twenties and a banker by forty.",
+            "The party was taken over by radicals.",
+            "Each side called the other side radicals."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An atom or group of atoms with an unpaired electron, which reacts easily and can damage cells",
+          "body": [
+            "(радикал (хим.), свободный радикал)",
+            "---"
+          ],
+          "examples": [
+            "Antioxidants mop up free radicals in the body.",
+            "A free radical reacts with almost anything it touches.",
+            "Sunlight produces radicals in the skin."
+          ]
+        }
+      ],
+      "русский": "радикал (сторонник крайних мер); радикал (хим.), свободный радикал",
       "plural": "radicals",
       "countability": "countable"
     },
@@ -760,14 +877,58 @@
       "term": "rap",
       "ipa": "/ræp/",
       "respell": "RAP",
-      "meaning": "A style of music in which words are spoken in rhythm over a beat. ---",
+      "meaning": "Rap has 3 distinct senses.",
       "examples": [
         "He listens to rap on the way to work.",
         "Rap took over American pop music in the 1990s.",
-        "The song mixes rap with old soul samples."
+        "The song mixes rap with old soul samples.",
+        "There was a rap at the door just after midnight.",
+        "He gave the desk a rap with his knuckles.",
+        "A sharp rap on the window woke me up.",
+        "He took the rap for something his brother did.",
+        "She beat a drug rap last year.",
+        "The kid already has a long rap sheet."
       ],
-      "senses": [],
-      "русский": "рэп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A style of music in which words are spoken in rhythm over a beat",
+          "body": [
+            "(рэп)"
+          ],
+          "examples": [
+            "He listens to rap on the way to work.",
+            "Rap took over American pop music in the 1990s.",
+            "The song mixes rap with old soul samples."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick, sharp knock",
+          "body": [
+            "(стук, резкий удар)"
+          ],
+          "examples": [
+            "There was a rap at the door just after midnight.",
+            "He gave the desk a rap with his knuckles.",
+            "A sharp rap on the window woke me up."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Blame, or a criminal charge",
+          "body": [
+            "(обвинение; вина)",
+            "---"
+          ],
+          "examples": [
+            "He took the rap for something his brother did.",
+            "She beat a drug rap last year.",
+            "The kid already has a long rap sheet."
+          ]
+        }
+      ],
+      "русский": "рэп; стук, резкий удар; обвинение; вина",
       "countability": "uncountable"
     },
     {
@@ -1095,14 +1256,43 @@
       "term": "rear",
       "ipa": "/rɪr/",
       "respell": "REER",
-      "meaning": "The back part of something. ---",
+      "meaning": "Rear has 2 distinct senses.",
       "examples": [
         "The kitchen is at the rear of the house.",
         "Two officers rode at the rear of the column.",
-        "We parked around the rear of the building."
+        "We parked around the rear of the building.",
+        "He slipped on the ice and landed on his rear.",
+        "The pants were torn across the rear.",
+        "Sitting in that chair all day makes my rear sore."
       ],
-      "senses": [],
-      "русский": "задняя часть, тыл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The back part of something",
+          "body": [
+            "(задняя часть, тыл)"
+          ],
+          "examples": [
+            "The kitchen is at the rear of the house.",
+            "Two officers rode at the rear of the column.",
+            "We parked around the rear of the building."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's bottom",
+          "body": [
+            "(зад, попа)",
+            "---"
+          ],
+          "examples": [
+            "He slipped on the ice and landed on his rear.",
+            "The pants were torn across the rear.",
+            "Sitting in that chair all day makes my rear sore."
+          ]
+        }
+      ],
+      "русский": "задняя часть, тыл; зад, попа",
       "plural": "rears",
       "countability": "countable"
     },
@@ -1603,14 +1793,43 @@
       "term": "regard",
       "ipa": "/rɪˈɡɑːrd/",
       "respell": "rih-GARD",
-      "meaning": "Respect or careful attention given to someone or something. ---",
+      "meaning": "Regard has 2 distinct senses.",
       "examples": [
         "She is held in high regard by her colleagues.",
         "He drove with no regard for the speed limit.",
-        "With regard to your question, the answer is yes."
+        "With regard to your question, the answer is yes.",
+        "Give my regards to your parents.",
+        "He signed off with 'Best regards.'",
+        "Send her my regards the next time you write."
       ],
-      "senses": [],
-      "русский": "уважение; внимание, отношение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Respect or careful attention given to someone or something",
+          "body": [
+            "(уважение; внимание, отношение)"
+          ],
+          "examples": [
+            "She is held in high regard by her colleagues.",
+            "He drove with no regard for the speed limit.",
+            "With regard to your question, the answer is yes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Friendly greetings sent to someone",
+          "body": [
+            "(привет, поклон (в письме))",
+            "---"
+          ],
+          "examples": [
+            "Give my regards to your parents.",
+            "He signed off with 'Best regards.'",
+            "Send her my regards the next time you write."
+          ]
+        }
+      ],
+      "русский": "уважение; внимание, отношение; привет, поклон (в письме)",
       "countability": "uncountable"
     },
     {
@@ -2267,14 +2486,58 @@
       "term": "reserve",
       "ipa": "/rɪˈzɜːrv/",
       "respell": "rih-ZURV",
-      "meaning": "A supply kept back for later use, or an area of land protected for wildlife. ---",
+      "meaning": "Reserve has 3 distinct senses.",
       "examples": [
         "The bank keeps cash in reserve.",
         "We hiked through a nature reserve.",
-        "The country's oil reserves are shrinking."
+        "The country's oil reserves are shrinking.",
+        "He spent eight years in the reserves.",
+        "Her unit was called up from the reserves.",
+        "After active duty he joined the reserves.",
+        "It took months to get past his reserve.",
+        "She spoke with a certain reserve about the divorce.",
+        "His natural reserve is often mistaken for coldness."
       ],
-      "senses": [],
-      "русский": "запас, резерв; заповедник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A supply kept back for later use, or an area of land protected for wildlife",
+          "body": [
+            "(запас, резерв; заповедник)"
+          ],
+          "examples": [
+            "The bank keeps cash in reserve.",
+            "We hiked through a nature reserve.",
+            "The country's oil reserves are shrinking."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A part of a country's armed forces whose members serve part-time",
+          "body": [
+            "(резерв вооружённых сил, запас)"
+          ],
+          "examples": [
+            "He spent eight years in the reserves.",
+            "Her unit was called up from the reserves.",
+            "After active duty he joined the reserves."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quiet, self-controlled manner that keeps feelings hidden",
+          "body": [
+            "(сдержанность, замкнутость)",
+            "---"
+          ],
+          "examples": [
+            "It took months to get past his reserve.",
+            "She spoke with a certain reserve about the divorce.",
+            "His natural reserve is often mistaken for coldness."
+          ]
+        }
+      ],
+      "русский": "запас, резерв; заповедник; резерв вооружённых сил, запас; сдержанность, замкнутость",
       "plural": "reserves",
       "countability": "countable"
     },
@@ -2417,14 +2680,43 @@
       "term": "rest",
       "ipa": "/rɛst/",
       "respell": "REST",
-      "meaning": "A period of relaxing or sleeping, or the part of something that remains. ---",
+      "meaning": "Rest has 2 distinct senses.",
       "examples": [
         "Get some rest before the drive.",
         "I'll finish the rest tomorrow.",
-        "The score has two whole rests in that measure."
+        "The score has two whole rests in that measure.",
+        "Hold the rest for two full beats before you come in.",
+        "The piece opens with a quarter rest.",
+        "She counted the rests under her breath."
       ],
-      "senses": [],
-      "русский": "отдых; остаток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of relaxing or sleeping, or the part of something that remains",
+          "body": [
+            "(отдых; остаток)"
+          ],
+          "examples": [
+            "Get some rest before the drive.",
+            "I'll finish the rest tomorrow.",
+            "The score has two whole rests in that measure."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A silence of a set length in written music",
+          "body": [
+            "(пауза (в нотах))",
+            "---"
+          ],
+          "examples": [
+            "Hold the rest for two full beats before you come in.",
+            "The piece opens with a quarter rest.",
+            "She counted the rests under her breath."
+          ]
+        }
+      ],
+      "русский": "отдых; остаток; пауза (в нотах)",
       "plural": "rests",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -2874,14 +3166,43 @@
       "term": "rise",
       "ipa": "/raɪz/",
       "respell": "RYZ",
-      "meaning": "An increase in amount, level, or importance. ---",
+      "meaning": "Rise has 2 distinct senses.",
       "examples": [
         "The rise in rents pushed families out.",
         "We watched the rise of a whole new industry.",
-        "There have been three price rises this year."
+        "There have been three price rises this year.",
+        "The house sits on a small rise above the river.",
+        "You'll see the barn once you're over the rise.",
+        "We pulled the sled up the rise and rode back down."
       ],
-      "senses": [],
-      "русский": "рост, подъём, повышение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An increase in amount, level, or importance",
+          "body": [
+            "(рост, подъём, повышение)"
+          ],
+          "examples": [
+            "The rise in rents pushed families out.",
+            "We watched the rise of a whole new industry.",
+            "There have been three price rises this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where the ground slopes upward",
+          "body": [
+            "(возвышенность, подъём (местности))",
+            "---"
+          ],
+          "examples": [
+            "The house sits on a small rise above the river.",
+            "You'll see the barn once you're over the rise.",
+            "We pulled the sled up the rise and rode back down."
+          ]
+        }
+      ],
+      "русский": "рост, подъём, повышение; возвышенность, подъём (местности)",
       "plural": "rises",
       "countability": "countable",
       "contrast": "In the US a pay increase is a raise; British speakers call that a rise."
@@ -3276,14 +3597,43 @@
       "term": "rub",
       "ipa": "/rʌb/",
       "respell": "RUB",
-      "meaning": "An act of pressing your hand over something and moving it back and forth. ---",
+      "meaning": "Rub has 2 distinct senses.",
       "examples": [
         "She gave the dog a quick rub behind the ears.",
         "A back rub would feel wonderful right now.",
-        "He gave the windshield one last rub with the cloth."
+        "He gave the windshield one last rub with the cloth.",
+        "He puts a brown-sugar rub on the ribs.",
+        "The rub is mostly paprika, salt, and pepper.",
+        "Let the rub sit on the brisket overnight."
       ],
-      "senses": [],
-      "русский": "растирание, массаж (растирающими движениями)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of pressing your hand over something and moving it back and forth",
+          "body": [
+            "(растирание, массаж (растирающими движениями))"
+          ],
+          "examples": [
+            "She gave the dog a quick rub behind the ears.",
+            "A back rub would feel wonderful right now.",
+            "He gave the windshield one last rub with the cloth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mix of dry spices pressed onto meat before it is cooked",
+          "body": [
+            "(сухая приправа для мяса (натирка))",
+            "---"
+          ],
+          "examples": [
+            "He puts a brown-sugar rub on the ribs.",
+            "The rub is mostly paprika, salt, and pepper.",
+            "Let the rub sit on the brisket overnight."
+          ]
+        }
+      ],
+      "русский": "растирание, массаж (растирающими движениями); сухая приправа для мяса (натирка)",
       "plural": "rubs",
       "countability": "countable"
     },
@@ -3874,14 +4224,43 @@
       "term": "sash",
       "ipa": "/sæʃ/",
       "respell": "SASH",
-      "meaning": "A wide band of cloth worn around the waist or over one shoulder. ---",
+      "meaning": "Sash has 2 distinct senses.",
       "examples": [
         "The mayor wore a ceremonial sash.",
         "Her dress had a pale blue sash at the waist.",
-        "The winners were given sashes and flowers."
+        "The winners were given sashes and flowers.",
+        "The bottom sash sticks unless you push both sides at once.",
+        "Painters had sealed the sash shut with three coats of latex.",
+        "We replaced the rotted sashes on the front of the house."
       ],
-      "senses": [],
-      "русский": "кушак; лента (через плечо)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wide band of cloth worn around the waist or over one shoulder",
+          "body": [
+            "(кушак; лента (через плечо))"
+          ],
+          "examples": [
+            "The mayor wore a ceremonial sash.",
+            "Her dress had a pale blue sash at the waist.",
+            "The winners were given sashes and flowers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The wooden or metal frame that holds the glass in a window and slides up and down",
+          "body": [
+            "(оконная створка, подъёмная рама)",
+            "---"
+          ],
+          "examples": [
+            "The bottom sash sticks unless you push both sides at once.",
+            "Painters had sealed the sash shut with three coats of latex.",
+            "We replaced the rotted sashes on the front of the house."
+          ]
+        }
+      ],
+      "русский": "кушак; лента (через плечо); оконная створка, подъёмная рама",
       "plural": "sashes",
       "countability": "countable"
     },
@@ -4035,14 +4414,43 @@
       "term": "scab",
       "ipa": "/skæb/",
       "respell": "SKAB",
-      "meaning": "The hard crust that forms over a healing wound. ---",
+      "meaning": "Scab has 2 distinct senses.",
       "examples": [
         "Don't pick at that scab or it will scar.",
         "The scab fell off after about a week.",
-        "His knees were covered in scabs from the fall."
+        "His knees were covered in scabs from the fall.",
+        "The union called anyone who crossed the picket line a scab.",
+        "The plant kept running with scabs bused in from out of state.",
+        "Nobody in that family would ever work as a scab."
       ],
-      "senses": [],
-      "русский": "струп, корка (на ране)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard crust that forms over a healing wound",
+          "body": [
+            "(струп, корка (на ране))"
+          ],
+          "examples": [
+            "Don't pick at that scab or it will scar.",
+            "The scab fell off after about a week.",
+            "His knees were covered in scabs from the fall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A worker who stays on the job during a strike, or one hired to replace a striker",
+          "body": [
+            "(штрейкбрехер)",
+            "---"
+          ],
+          "examples": [
+            "The union called anyone who crossed the picket line a scab.",
+            "The plant kept running with scabs bused in from out of state.",
+            "Nobody in that family would ever work as a scab."
+          ]
+        }
+      ],
+      "русский": "струп, корка (на ране); штрейкбрехер",
       "plural": "scabs",
       "countability": "countable"
     },
@@ -4213,14 +4621,43 @@
       "term": "scheme",
       "ipa": "/skiːm/",
       "respell": "SKEEM",
-      "meaning": "A plan, especially a clever or dishonest one. ---",
+      "meaning": "Scheme has 2 distinct senses.",
       "examples": [
         "The whole thing was a scheme to avoid taxes.",
         "He fell for a get-rich-quick scheme.",
-        "Their schemes finally caught up with them."
+        "Their schemes finally caught up with them.",
+        "The whole apartment follows a gray and white color scheme.",
+        "We picked a scheme of soft blues for the nursery.",
+        "The poem keeps the same rhyme scheme all the way through."
       ],
-      "senses": [],
-      "русский": "замысел, махинация; схема",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plan, especially a clever or dishonest one",
+          "body": [
+            "(замысел, махинация; схема)"
+          ],
+          "examples": [
+            "The whole thing was a scheme to avoid taxes.",
+            "He fell for a get-rich-quick scheme.",
+            "Their schemes finally caught up with them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An arrangement of parts that are chosen to go together, especially colors in a design",
+          "body": [
+            "(гамма, схема оформления (сочетание цветов))",
+            "---"
+          ],
+          "examples": [
+            "The whole apartment follows a gray and white color scheme.",
+            "We picked a scheme of soft blues for the nursery.",
+            "The poem keeps the same rhyme scheme all the way through."
+          ]
+        }
+      ],
+      "русский": "замысел, махинация; схема; гамма, схема оформления (сочетание цветов)",
       "plural": "schemes",
       "countability": "countable",
       "contrast": "In American English a scheme usually sounds dishonest; in British English it is a neutral word for an official program."
@@ -4441,14 +4878,58 @@
       "term": "scrape",
       "ipa": "/skreɪp/",
       "respell": "SKRAYP",
-      "meaning": "A shallow wound or mark made by rubbing against something rough. ---",
+      "meaning": "Scrape has 3 distinct senses.",
       "examples": [
         "She came home with a scrape on her elbow.",
         "There are a couple of scrapes on the rear bumper.",
-        "It's just a scrape — it'll heal in a few days."
+        "It's just a scrape — it'll heal in a few days.",
+        "We heard the scrape of a shovel on the sidewalk.",
+        "The scrape of chairs filled the room as everyone stood up.",
+        "There was a scrape, and then the gate swung open.",
+        "He got into a few scrapes as a teenager.",
+        "Her brother is always in some kind of scrape.",
+        "It took a good lawyer to get him out of that scrape."
       ],
-      "senses": [],
-      "русский": "ссадина, царапина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shallow wound or mark made by rubbing against something rough",
+          "body": [
+            "(ссадина, царапина)"
+          ],
+          "examples": [
+            "She came home with a scrape on her elbow.",
+            "There are a couple of scrapes on the rear bumper.",
+            "It's just a scrape — it'll heal in a few days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The harsh sound made when something hard rubs against a surface",
+          "body": [
+            "(скрежет, скрип)"
+          ],
+          "examples": [
+            "We heard the scrape of a shovel on the sidewalk.",
+            "The scrape of chairs filled the room as everyone stood up.",
+            "There was a scrape, and then the gate swung open."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An awkward situation that someone gets into through carelessness",
+          "body": [
+            "(переделка, неприятность)",
+            "---"
+          ],
+          "examples": [
+            "He got into a few scrapes as a teenager.",
+            "Her brother is always in some kind of scrape.",
+            "It took a good lawyer to get him out of that scrape."
+          ]
+        }
+      ],
+      "русский": "ссадина, царапина; скрежет, скрип; переделка, неприятность",
       "plural": "scrapes",
       "countability": "countable"
     },
@@ -4724,14 +5205,43 @@
       "term": "secret",
       "ipa": "/ˈsiːkrət/",
       "respell": "SEE-krit",
-      "meaning": "A piece of information kept hidden from other people. ---",
+      "meaning": "Secret has 2 distinct senses.",
       "examples": [
         "Can you keep a secret?",
         "She told me her family's biggest secret.",
-        "Half the town knew the secret by Monday."
+        "Half the town knew the secret by Monday.",
+        "The secret to a good crust is very cold butter.",
+        "Everyone wants to know the secret of her energy.",
+        "He says the secret is starting early and never rushing."
       ],
-      "senses": [],
-      "русский": "секрет, тайна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of information kept hidden from other people",
+          "body": [
+            "(секрет, тайна)"
+          ],
+          "examples": [
+            "Can you keep a secret?",
+            "She told me her family's biggest secret.",
+            "Half the town knew the secret by Monday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The method or quality that explains why something works so well",
+          "body": [
+            "(секрет, залог (успеха))",
+            "---"
+          ],
+          "examples": [
+            "The secret to a good crust is very cold butter.",
+            "Everyone wants to know the secret of her energy.",
+            "He says the secret is starting early and never rushing."
+          ]
+        }
+      ],
+      "русский": "секрет, тайна; секрет, залог (успеха)",
       "plural": "secrets",
       "countability": "countable"
     },
@@ -5669,14 +6179,43 @@
       "term": "shooter",
       "ipa": "/ˈʃuːtər/",
       "respell": "SHOO-tur",
-      "meaning": "A person who fires a gun, or a player who shoots at the basket or goal. ---",
+      "meaning": "Shooter has 2 distinct senses.",
       "examples": [
         "Police identified the shooter within hours.",
         "He's the best three-point shooter on the team.",
-        "The shooter was arrested two blocks away."
+        "The shooter was arrested two blocks away.",
+        "He plays first-person shooters with his cousins online.",
+        "The studio's new shooter sold two million copies.",
+        "I'm terrible at shooters but I love racing games."
       ],
-      "senses": [],
-      "русский": "стрелок; бросающий (в баскетболе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who fires a gun, or a player who shoots at the basket or goal",
+          "body": [
+            "(стрелок; бросающий (в баскетболе))"
+          ],
+          "examples": [
+            "Police identified the shooter within hours.",
+            "He's the best three-point shooter on the team.",
+            "The shooter was arrested two blocks away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A video game whose action is built around firing weapons",
+          "body": [
+            "(шутер (жанр видеоигр))",
+            "---"
+          ],
+          "examples": [
+            "He plays first-person shooters with his cousins online.",
+            "The studio's new shooter sold two million copies.",
+            "I'm terrible at shooters but I love racing games."
+          ]
+        }
+      ],
+      "русский": "стрелок; бросающий (в баскетболе); шутер (жанр видеоигр)",
       "plural": "shooters",
       "countability": "countable"
     },
@@ -5904,14 +6443,43 @@
       "term": "sidebar",
       "ipa": "/ˈsaɪdbɑːr/",
       "respell": "SYD-bar",
-      "meaning": "A column of extra material beside the main text or web page. ---",
+      "meaning": "Sidebar has 2 distinct senses.",
       "examples": [
         "The menu is in the sidebar on the left.",
         "The article has a sidebar explaining how to apply.",
-        "You can hide the sidebar for more room."
+        "You can hide the sidebar for more room.",
+        "The judge called both attorneys up for a sidebar.",
+        "After a brief sidebar, the question was withdrawn.",
+        "The transcript leaves out whatever was said in the sidebars."
       ],
-      "senses": [],
-      "русский": "боковая панель; врезка (в статье)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A column of extra material beside the main text or web page",
+          "body": [
+            "(боковая панель; врезка (в статье))"
+          ],
+          "examples": [
+            "The menu is in the sidebar on the left.",
+            "The article has a sidebar explaining how to apply.",
+            "You can hide the sidebar for more room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short private conversation at the judge's bench, out of the jury's hearing",
+          "body": [
+            "(совещание у судейского стола (без присяжных))",
+            "---"
+          ],
+          "examples": [
+            "The judge called both attorneys up for a sidebar.",
+            "After a brief sidebar, the question was withdrawn.",
+            "The transcript leaves out whatever was said in the sidebars."
+          ]
+        }
+      ],
+      "русский": "боковая панель; врезка (в статье); совещание у судейского стола (без присяжных)",
       "plural": "sidebars",
       "countability": "countable"
     },
@@ -5964,14 +6532,43 @@
       "term": "sight",
       "ipa": "/saɪt/",
       "respell": "SYT",
-      "meaning": "The ability to see, or something that is seen. ---",
+      "meaning": "Sight has 2 distinct senses.",
       "examples": [
         "He lost the sight in one eye.",
         "The sunset over the bay was a beautiful sight.",
-        "We saw all the sights of the city in one day."
+        "We saw all the sights of the city in one day.",
+        "He adjusted the rear sight before the first shot.",
+        "The buck stepped right into his sights.",
+        "Cheap sights drift after a few hundred rounds."
       ],
-      "senses": [],
-      "русский": "зрение; вид, зрелище",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The ability to see, or something that is seen",
+          "body": [
+            "(зрение; вид, зрелище)"
+          ],
+          "examples": [
+            "He lost the sight in one eye.",
+            "The sunset over the bay was a beautiful sight.",
+            "We saw all the sights of the city in one day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The device on a gun or telescope that you look through to aim",
+          "body": [
+            "(прицел)",
+            "---"
+          ],
+          "examples": [
+            "He adjusted the rear sight before the first shot.",
+            "The buck stepped right into his sights.",
+            "Cheap sights drift after a few hundred rounds."
+          ]
+        }
+      ],
+      "русский": "зрение; вид, зрелище; прицел",
       "plural": "sights",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Sounds exactly like site and cite — three different words."
@@ -5995,14 +6592,58 @@
       "term": "sign",
       "ipa": "/saɪn/",
       "respell": "SYN",
-      "meaning": "A board with words or a picture that gives information, or an indication that something exists. ---",
+      "meaning": "Sign has 3 distinct senses.",
       "examples": [
         "The sign says the store closes at nine.",
         "A high fever can be a sign of infection.",
-        "Somebody knocked down the stop sign on the corner."
+        "Somebody knocked down the stop sign on the corner.",
+        "What's your sign?",
+        "She reads the horoscope for every sign but her own.",
+        "The two of them were born under the same sign.",
+        "Put a dollar sign in front of the number.",
+        "The kids are learning the plus and minus signs.",
+        "He wrote the equals sign twice by mistake."
       ],
-      "senses": [],
-      "русский": "знак; вывеска; признак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A board with words or a picture that gives information, or an indication that something exists",
+          "body": [
+            "(знак; вывеска; признак)"
+          ],
+          "examples": [
+            "The sign says the store closes at nine.",
+            "A high fever can be a sign of infection.",
+            "Somebody knocked down the stop sign on the corner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the twelve parts of the zodiac that a person is born under",
+          "body": [
+            "(знак зодиака)"
+          ],
+          "examples": [
+            "What's your sign?",
+            "She reads the horoscope for every sign but her own.",
+            "The two of them were born under the same sign."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A written mark standing for a word, a number, or an operation",
+          "body": [
+            "(знак (символ))",
+            "---"
+          ],
+          "examples": [
+            "Put a dollar sign in front of the number.",
+            "The kids are learning the plus and minus signs.",
+            "He wrote the equals sign twice by mistake."
+          ]
+        }
+      ],
+      "русский": "знак; вывеска; признак; знак зодиака; знак (символ)",
       "plural": "signs",
       "countability": "countable",
       "contrast": "The g is silent — SYN — but it comes back in signal and signature."
@@ -6471,14 +7112,58 @@
       "term": "slider",
       "ipa": "/ˈslaɪdər/",
       "respell": "SLY-dur",
-      "meaning": "A control that you move along a track to change a setting. ---",
+      "meaning": "Slider has 3 distinct senses.",
       "examples": [
         "Drag the slider to adjust the brightness.",
         "The app has sliders for bass and treble.",
-        "Move the slider all the way to the left to mute it."
+        "Move the slider all the way to the left to mute it.",
+        "We ordered a plate of sliders to share.",
+        "Each slider comes with pickles and grilled onion.",
+        "The bar sells sliders three for eight dollars.",
+        "He struck him out on a nasty slider.",
+        "Her slider breaks late and low.",
+        "Young pitchers throw too many sliders."
       ],
-      "senses": [],
-      "русский": "ползунок (регулятор)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A control that you move along a track to change a setting",
+          "body": [
+            "(ползунок (регулятор))"
+          ],
+          "examples": [
+            "Drag the slider to adjust the brightness.",
+            "The app has sliders for bass and treble.",
+            "Move the slider all the way to the left to mute it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small hamburger served on a soft little bun",
+          "body": [
+            "(слайдер, мини-бургер)"
+          ],
+          "examples": [
+            "We ordered a plate of sliders to share.",
+            "Each slider comes with pickles and grilled onion.",
+            "The bar sells sliders three for eight dollars."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fast baseball pitch that breaks sideways as it reaches the plate",
+          "body": [
+            "(слайдер (подача в бейсболе))",
+            "---"
+          ],
+          "examples": [
+            "He struck him out on a nasty slider.",
+            "Her slider breaks late and low.",
+            "Young pitchers throw too many sliders."
+          ]
+        }
+      ],
+      "русский": "ползунок (регулятор); слайдер, мини-бургер; слайдер (подача в бейсболе)",
       "plural": "sliders",
       "countability": "countable"
     },
@@ -6502,14 +7187,58 @@
       "term": "slip",
       "ipa": "/slɪp/",
       "respell": "SLIP",
-      "meaning": "A small piece of paper, often a printed form or a receipt. ---",
+      "meaning": "Slip has 3 distinct senses.",
       "examples": [
         "Fill out the deposit slip before you get in line.",
         "She handed me a slip with her number on it.",
-        "Keep your parking slips for reimbursement."
+        "Keep your parking slips for reimbursement.",
+        "She wore a silk slip under the thin dress.",
+        "The lining had pulled away from the slip.",
+        "Slips are hard to find in stores now.",
+        "It was just a slip of the tongue.",
+        "One slip in the code cost them a whole day.",
+        "He apologized for the slip and moved on."
       ],
-      "senses": [],
-      "русский": "листок, квитанция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of paper, often a printed form or a receipt",
+          "body": [
+            "(листок, квитанция)"
+          ],
+          "examples": [
+            "Fill out the deposit slip before you get in line.",
+            "She handed me a slip with her number on it.",
+            "Keep your parking slips for reimbursement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A light dress-shaped undergarment worn beneath a dress or skirt",
+          "body": [
+            "(комбинация (нижнее бельё))"
+          ],
+          "examples": [
+            "She wore a silk slip under the thin dress.",
+            "The lining had pulled away from the slip.",
+            "Slips are hard to find in stores now."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small careless mistake, especially in speaking",
+          "body": [
+            "(оплошность, обмолвка)",
+            "---"
+          ],
+          "examples": [
+            "It was just a slip of the tongue.",
+            "One slip in the code cost them a whole day.",
+            "He apologized for the slip and moved on."
+          ]
+        }
+      ],
+      "русский": "листок, квитанция; комбинация (нижнее бельё); оплошность, обмолвка",
       "plural": "slips",
       "countability": "countable"
     },
@@ -6547,14 +7276,43 @@
       "term": "slot",
       "ipa": "/slɑːt/",
       "respell": "SLAHT",
-      "meaning": "A narrow opening for putting something in, or a reserved place in a schedule. ---",
+      "meaning": "Slot has 2 distinct senses.",
       "examples": [
         "Drop the coin in the slot and press the button.",
         "I got the last appointment slot on Friday.",
-        "The show moved to a better time slot."
+        "The show moved to a better time slot.",
+        "She spent the whole evening at the slots.",
+        "The casino floor is wall-to-wall slots.",
+        "He won forty dollars on a quarter slot."
       ],
-      "senses": [],
-      "русский": "прорезь, щель; окно в расписании",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow opening for putting something in, or a reserved place in a schedule",
+          "body": [
+            "(прорезь, щель; окно в расписании)"
+          ],
+          "examples": [
+            "Drop the coin in the slot and press the button.",
+            "I got the last appointment slot on Friday.",
+            "The show moved to a better time slot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A coin-operated gambling machine",
+          "body": [
+            "(игровой автомат)",
+            "---"
+          ],
+          "examples": [
+            "She spent the whole evening at the slots.",
+            "The casino floor is wall-to-wall slots.",
+            "He won forty dollars on a quarter slot."
+          ]
+        }
+      ],
+      "русский": "прорезь, щель; окно в расписании; игровой автомат",
       "plural": "slots",
       "countability": "countable"
     },
@@ -6636,14 +7394,43 @@
       "term": "smoker",
       "ipa": "/ˈsmoʊkər/",
       "respell": "SMOH-kur",
-      "meaning": "Someone who smokes tobacco regularly. ---",
+      "meaning": "Smoker has 2 distinct senses.",
       "examples": [
         "He was a heavy smoker for thirty years.",
         "The hotel has no rooms for smokers.",
-        "As a former smoker, she notices the smell right away."
+        "As a former smoker, she notices the smell right away.",
+        "He runs the smoker all night before a party.",
+        "Brisket needs twelve hours in the smoker.",
+        "Backyard smokers start at a couple hundred dollars."
       ],
-      "senses": [],
-      "русский": "курильщик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who smokes tobacco regularly",
+          "body": [
+            "(курильщик)"
+          ],
+          "examples": [
+            "He was a heavy smoker for thirty years.",
+            "The hotel has no rooms for smokers.",
+            "As a former smoker, she notices the smell right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A covered cooker that cooks meat slowly in hot smoke",
+          "body": [
+            "(коптильня, смокер (для мяса))",
+            "---"
+          ],
+          "examples": [
+            "He runs the smoker all night before a party.",
+            "Brisket needs twelve hours in the smoker.",
+            "Backyard smokers start at a couple hundred dollars."
+          ]
+        }
+      ],
+      "русский": "курильщик; коптильня, смокер (для мяса)",
       "plural": "smokers",
       "countability": "countable"
     },
@@ -7213,14 +8000,43 @@
       "term": "spell",
       "ipa": "/spɛl/",
       "respell": "SPEL",
-      "meaning": "A set of words believed to have magic power. ---",
+      "meaning": "Spell has 2 distinct senses.",
       "examples": [
         "The witch put a spell on the whole village.",
         "He learns three new spells in the second book.",
-        "Only true love could break the spell."
+        "Only true love could break the spell.",
+        "We had a dry spell that lasted all of July.",
+        "She had a dizzy spell and had to sit down.",
+        "He worked at the paper for a spell after college."
       ],
-      "senses": [],
-      "русский": "заклинание, чары",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of words believed to have magic power",
+          "body": [
+            "(заклинание, чары)"
+          ],
+          "examples": [
+            "The witch put a spell on the whole village.",
+            "He learns three new spells in the second book.",
+            "Only true love could break the spell."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period of time, especially one of particular weather or a brief bout of illness",
+          "body": [
+            "(период, промежуток времени; приступ (недомогания))",
+            "---"
+          ],
+          "examples": [
+            "We had a dry spell that lasted all of July.",
+            "She had a dizzy spell and had to sit down.",
+            "He worked at the paper for a spell after college."
+          ]
+        }
+      ],
+      "русский": "заклинание, чары; период, промежуток времени; приступ (недомогания)",
       "plural": "spells",
       "countability": "countable"
     },
@@ -7332,14 +8148,43 @@
       "term": "spit",
       "ipa": "/spɪt/",
       "respell": "SPIT",
-      "meaning": "Saliva, especially when forced out of the mouth. ---",
+      "meaning": "Spit has 2 distinct senses.",
       "examples": [
         "There was spit on the sidewalk outside the bar.",
         "He wiped the spit off his chin.",
-        "The baby got spit all over my shirt."
+        "The baby got spit all over my shirt.",
+        "A whole pig was turning slowly on the spit.",
+        "He basted the chicken as it rotated on the spit.",
+        "The restaurant roasts lamb on an open spit."
       ],
-      "senses": [],
-      "русский": "слюна, плевок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Saliva, especially when forced out of the mouth",
+          "body": [
+            "(слюна, плевок)"
+          ],
+          "examples": [
+            "There was spit on the sidewalk outside the bar.",
+            "He wiped the spit off his chin.",
+            "The baby got spit all over my shirt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long metal rod that meat is turned on over a fire",
+          "body": [
+            "(вертел)",
+            "---"
+          ],
+          "examples": [
+            "A whole pig was turning slowly on the spit.",
+            "He basted the chicken as it rotated on the spit.",
+            "The restaurant roasts lamb on an open spit."
+          ]
+        }
+      ],
+      "русский": "слюна, плевок; вертел",
       "countability": "uncountable"
     },
     {
@@ -7390,14 +8235,43 @@
       "term": "spoiler",
       "ipa": "/ˈspɔɪlər/",
       "respell": "SPOY-lur",
-      "meaning": "A detail about how a story ends that ruins the surprise for someone. ---",
+      "meaning": "Spoiler has 2 distinct senses.",
       "examples": [
         "Don't post spoilers before the finale airs.",
         "Sorry for the spoiler — I thought you'd seen it.",
-        "She warned us there was a spoiler in the review."
+        "She warned us there was a spoiler in the review.",
+        "The car came with a rear spoiler.",
+        "The pilot raised the spoilers as the plane touched down.",
+        "He added a spoiler and new wheels to the old Mustang."
       ],
-      "senses": [],
-      "русский": "спойлер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A detail about how a story ends that ruins the surprise for someone",
+          "body": [
+            "(спойлер)"
+          ],
+          "examples": [
+            "Don't post spoilers before the finale airs.",
+            "Sorry for the spoiler — I thought you'd seen it.",
+            "She warned us there was a spoiler in the review."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A raised part fitted to a car or an airplane wing to control airflow",
+          "body": [
+            "(спойлер (антикрыло))",
+            "---"
+          ],
+          "examples": [
+            "The car came with a rear spoiler.",
+            "The pilot raised the spoilers as the plane touched down.",
+            "He added a spoiler and new wheels to the old Mustang."
+          ]
+        }
+      ],
+      "русский": "спойлер; спойлер (антикрыло)",
       "plural": "spoilers",
       "countability": "countable"
     },
@@ -7494,14 +8368,58 @@
       "term": "spread",
       "ipa": "/sprɛd/",
       "respell": "SPRED",
-      "meaning": "The movement of something into more places or among more people. ---",
+      "meaning": "Spread has 3 distinct senses.",
       "examples": [
         "Masks slowed the spread of the virus.",
         "Social media speeds the spread of rumors.",
-        "Health workers are tracking the spread of the outbreak."
+        "Health workers are tracking the spread of the outbreak.",
+        "Try the olive spread on the toast.",
+        "I bought a cheese spread for the crackers.",
+        "This spread has less fat than butter.",
+        "They put out quite a spread for the holidays.",
+        "The hotel offers a breakfast spread every morning.",
+        "Her mother laid out a spread that fed twenty people."
       ],
-      "senses": [],
-      "русский": "распространение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The movement of something into more places or among more people",
+          "body": [
+            "(распространение)"
+          ],
+          "examples": [
+            "Masks slowed the spread of the virus.",
+            "Social media speeds the spread of rumors.",
+            "Health workers are tracking the spread of the outbreak."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft food that is put on bread or crackers",
+          "body": [
+            "(паста, намазка (на хлеб))"
+          ],
+          "examples": [
+            "Try the olive spread on the toast.",
+            "I bought a cheese spread for the crackers.",
+            "This spread has less fat than butter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large amount of food laid out for guests",
+          "body": [
+            "(накрытый стол, угощение)",
+            "---"
+          ],
+          "examples": [
+            "They put out quite a spread for the holidays.",
+            "The hotel offers a breakfast spread every morning.",
+            "Her mother laid out a spread that fed twenty people."
+          ]
+        }
+      ],
+      "русский": "распространение; паста, намазка (на хлеб); накрытый стол, угощение",
       "countability": "uncountable"
     },
     {
@@ -7717,14 +8635,43 @@
       "term": "stab",
       "ipa": "/stæb/",
       "respell": "STAB",
-      "meaning": "A thrust with a pointed weapon; also, an attempt at something. ---",
+      "meaning": "Stab has 2 distinct senses.",
       "examples": [
         "The victim had three stab wounds.",
         "He died from a single stab to the chest.",
-        "Let me take a stab at the answer."
+        "Let me take a stab at the answer.",
+        "She felt a stab of pain in her side.",
+        "A stab of guilt hit him when he read the letter.",
+        "There was a stab of jealousy in his voice."
       ],
-      "senses": [],
-      "русский": "удар ножом; попытка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thrust with a pointed weapon; also, an attempt at something",
+          "body": [
+            "(удар ножом; попытка)"
+          ],
+          "examples": [
+            "The victim had three stab wounds.",
+            "He died from a single stab to the chest.",
+            "Let me take a stab at the answer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden sharp feeling of pain or emotion",
+          "body": [
+            "(укол, приступ (боли, чувства))",
+            "---"
+          ],
+          "examples": [
+            "She felt a stab of pain in her side.",
+            "A stab of guilt hit him when he read the letter.",
+            "There was a stab of jealousy in his voice."
+          ]
+        }
+      ],
+      "русский": "удар ножом; попытка; укол, приступ (боли, чувства)",
       "plural": "stabs",
       "countability": "countable"
     },
@@ -7940,14 +8887,73 @@
       "term": "stand",
       "ipa": "/stænd/",
       "respell": "STAND",
-      "meaning": "A small stall or table where things are sold or displayed. ---",
+      "meaning": "Stand has 4 distinct senses.",
       "examples": [
         "The kids set up a lemonade stand.",
         "We bought corn at a farm stand.",
-        "Food stands line the edge of the fair."
+        "Food stands line the edge of the fair.",
+        "Put the sheet music on the stand.",
+        "The TV sits on a low metal stand.",
+        "He bought a stand for his new guitar.",
+        "The stands were packed for the final.",
+        "Her parents cheered from the stands.",
+        "We sat high in the stands behind home plate.",
+        "The officer took the stand on Thursday morning.",
+        "She was visibly nervous on the stand.",
+        "The defense called three witnesses to the stand."
       ],
-      "senses": [],
-      "русский": "ларёк, лоток; стенд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small stall or table where things are sold or displayed",
+          "body": [
+            "(ларёк, лоток; стенд)"
+          ],
+          "examples": [
+            "The kids set up a lemonade stand.",
+            "We bought corn at a farm stand.",
+            "Food stands line the edge of the fair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A frame or base made to hold something up",
+          "body": [
+            "(подставка, стойка)"
+          ],
+          "examples": [
+            "Put the sheet music on the stand.",
+            "The TV sits on a low metal stand.",
+            "He bought a stand for his new guitar."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The rows of seats where people watch a game, usually in the plural",
+          "body": [
+            "(трибуны)"
+          ],
+          "examples": [
+            "The stands were packed for the final.",
+            "Her parents cheered from the stands.",
+            "We sat high in the stands behind home plate."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The place in a courtroom where a witness sits to give evidence",
+          "body": [
+            "(место свидетеля (в суде))",
+            "---"
+          ],
+          "examples": [
+            "The officer took the stand on Thursday morning.",
+            "She was visibly nervous on the stand.",
+            "The defense called three witnesses to the stand."
+          ]
+        }
+      ],
+      "русский": "ларёк, лоток; стенд; подставка, стойка; трибуны; место свидетеля (в суде)",
       "plural": "stands",
       "countability": "countable"
     },
@@ -8444,14 +9450,43 @@
       "term": "stigma",
       "ipa": "/ˈstɪɡmə/",
       "respell": "STIG-muh",
-      "meaning": "Strong social disapproval attached to a condition or a choice. ---",
+      "meaning": "Stigma has 2 distinct senses.",
       "examples": [
         "There is still a stigma around mental illness.",
         "The campaign aims to reduce stigma.",
-        "He talked openly in order to fight the stigma."
+        "He talked openly in order to fight the stigma.",
+        "Pollen sticks to the stigma and fertilizes the flower.",
+        "Saffron is made from the dried stigmas of a crocus.",
+        "Draw an arrow from the anther to the stigma."
       ],
-      "senses": [],
-      "русский": "клеймо, стигма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Strong social disapproval attached to a condition or a choice",
+          "body": [
+            "(клеймо, стигма)"
+          ],
+          "examples": [
+            "There is still a stigma around mental illness.",
+            "The campaign aims to reduce stigma.",
+            "He talked openly in order to fight the stigma."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The tip at the center of a flower, where pollen lands",
+          "body": [
+            "(рыльце (пестика))",
+            "---"
+          ],
+          "examples": [
+            "Pollen sticks to the stigma and fertilizes the flower.",
+            "Saffron is made from the dried stigmas of a crocus.",
+            "Draw an arrow from the anther to the stigma."
+          ]
+        }
+      ],
+      "русский": "клеймо, стигма; рыльце (пестика)",
       "countability": "uncountable"
     },
     {
@@ -8561,14 +9596,43 @@
       "term": "stir",
       "ipa": "/stɜːr/",
       "respell": "STUR",
-      "meaning": "A wave of excitement, interest, or anger among people. ---",
+      "meaning": "Stir has 2 distinct senses.",
       "examples": [
         "Her resignation caused quite a stir.",
         "The painting created a stir at the auction.",
-        "His remarks made a bigger stir than expected."
+        "His remarks made a bigger stir than expected.",
+        "Give the soup a stir before you serve it.",
+        "The sauce needs a stir every few minutes.",
+        "A quick stir will keep the rice from sticking."
       ],
-      "senses": [],
-      "русский": "переполох, шумиха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wave of excitement, interest, or anger among people",
+          "body": [
+            "(переполох, шумиха)"
+          ],
+          "examples": [
+            "Her resignation caused quite a stir.",
+            "The painting created a stir at the auction.",
+            "His remarks made a bigger stir than expected."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act of mixing something with a spoon or a stick",
+          "body": [
+            "(помешивание)",
+            "---"
+          ],
+          "examples": [
+            "Give the soup a stir before you serve it.",
+            "The sauce needs a stir every few minutes.",
+            "A quick stir will keep the rice from sticking."
+          ]
+        }
+      ],
+      "русский": "переполох, шумиха; помешивание",
       "plural": "stirs",
       "countability": "countable"
     },
@@ -8725,14 +9789,58 @@
       "term": "strain",
       "ipa": "/streɪn/",
       "respell": "STRAYN",
-      "meaning": "An injury caused by stretching a muscle too far. ---",
+      "meaning": "Strain has 3 distinct senses.",
       "examples": [
         "He's out with a hamstring strain.",
         "The doctor said it's just a mild strain.",
-        "Two players have muscle strains."
+        "Two players have muscle strains.",
+        "The long hours put a strain on their marriage.",
+        "The heat wave put a strain on the power grid.",
+        "You can hear the strain in his voice.",
+        "A new strain of flu is going around.",
+        "Farmers planted a strain of wheat that resists drought.",
+        "The lab identified two strains of the bacteria."
       ],
-      "senses": [],
-      "русский": "растяжение (мышцы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An injury caused by stretching a muscle too far",
+          "body": [
+            "(растяжение (мышцы))"
+          ],
+          "examples": [
+            "He's out with a hamstring strain.",
+            "The doctor said it's just a mild strain.",
+            "Two players have muscle strains."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Pressure or worry that is hard to bear, or the force pulling on something",
+          "body": [
+            "(напряжение, нагрузка)"
+          ],
+          "examples": [
+            "The long hours put a strain on their marriage.",
+            "The heat wave put a strain on the power grid.",
+            "You can hear the strain in his voice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular type of a virus, bacterium, or plant",
+          "body": [
+            "(штамм, разновидность)",
+            "---"
+          ],
+          "examples": [
+            "A new strain of flu is going around.",
+            "Farmers planted a strain of wheat that resists drought.",
+            "The lab identified two strains of the bacteria."
+          ]
+        }
+      ],
+      "русский": "растяжение (мышцы); напряжение, нагрузка; штамм, разновидность",
       "plural": "strains",
       "countability": "countable"
     },
@@ -9051,14 +10159,58 @@
       "term": "study",
       "ipa": "/ˈstʌdi/",
       "respell": "STUH-dee",
-      "meaning": "A piece of research into a particular subject. ---",
+      "meaning": "Study has 3 distinct senses.",
       "examples": [
         "A new study links the drug to headaches.",
         "Two studies reached opposite conclusions.",
-        "The study followed five thousand people for a decade."
+        "The study followed five thousand people for a decade.",
+        "He keeps all his books in the study.",
+        "She was on a call in the study.",
+        "They turned the spare bedroom into a study.",
+        "The job leaves him little time for study.",
+        "She devoted years to the study of Chinese.",
+        "The library is a quiet place for study."
       ],
-      "senses": [],
-      "русский": "исследование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of research into a particular subject",
+          "body": [
+            "(исследование)"
+          ],
+          "examples": [
+            "A new study links the drug to headaches.",
+            "Two studies reached opposite conclusions.",
+            "The study followed five thousand people for a decade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A room in a home used for reading and working",
+          "body": [
+            "(кабинет (комната))"
+          ],
+          "examples": [
+            "He keeps all his books in the study.",
+            "She was on a call in the study.",
+            "They turned the spare bedroom into a study."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The activity of learning about a subject",
+          "body": [
+            "(учёба, изучение)",
+            "---"
+          ],
+          "examples": [
+            "The job leaves him little time for study.",
+            "She devoted years to the study of Chinese.",
+            "The library is a quiet place for study."
+          ]
+        }
+      ],
+      "русский": "исследование; кабинет (комната); учёба, изучение",
       "plural": "studies",
       "countability": "countable"
     },
@@ -9374,14 +10526,58 @@
       "term": "sucker",
       "ipa": "/ˈsʌkər/",
       "respell": "SUK-ur",
-      "meaning": "Someone who is easily tricked or cheated. ---",
+      "meaning": "Sucker has 3 distinct senses.",
       "examples": [
         "Don't be a sucker — read the fine print.",
         "The scam targets suckers who want easy money.",
-        "I'm a sucker for old movies."
+        "I'm a sucker for old movies.",
+        "The bank teller handed the kids suckers.",
+        "He picked a grape sucker out of the bowl.",
+        "She finished her sucker and asked for another.",
+        "Pull the suckers off the tomato plants.",
+        "Suckers were sprouting all around the old apple tree.",
+        "Cut the suckers off at the base of the trunk."
       ],
-      "senses": [],
-      "русский": "простофиля, лох",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who is easily tricked or cheated",
+          "body": [
+            "(простофиля, лох)"
+          ],
+          "examples": [
+            "Don't be a sucker — read the fine print.",
+            "The scam targets suckers who want easy money.",
+            "I'm a sucker for old movies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hard candy on a stick",
+          "body": [
+            "(леденец на палочке)"
+          ],
+          "examples": [
+            "The bank teller handed the kids suckers.",
+            "He picked a grape sucker out of the bowl.",
+            "She finished her sucker and asked for another."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A shoot that grows from the base or the roots of a plant",
+          "body": [
+            "(побег от корня, поросль)",
+            "---"
+          ],
+          "examples": [
+            "Pull the suckers off the tomato plants.",
+            "Suckers were sprouting all around the old apple tree.",
+            "Cut the suckers off at the base of the trunk."
+          ]
+        }
+      ],
+      "русский": "простофиля, лох; леденец на палочке; побег от корня, поросль",
       "plural": "suckers",
       "countability": "countable"
     },

@@ -96,14 +96,73 @@
       "term": "unit",
       "ipa": "/ˈjuːnɪt/",
       "respell": "YOO-nit",
-      "meaning": "A fixed amount used as a standard for measuring. ---",
+      "meaning": "Unit has 4 distinct senses.",
       "examples": [
         "The meter is the basic unit of length in the metric system.",
         "Convert both numbers to the same units before you add them.",
-        "Electricity is billed by the unit."
+        "Electricity is billed by the unit.",
+        "His unit was stationed in Germany for two years.",
+        "She works in the department's research unit.",
+        "Both units report to the same commander.",
+        "The building has forty-eight units.",
+        "Their unit is on the third floor, facing the park.",
+        "Two units are still available for rent.",
+        "The air conditioning unit sits on the roof.",
+        "A new heating unit runs a few thousand dollars.",
+        "The unit quit in the middle of the heat wave."
       ],
-      "senses": [],
-      "русский": "единица измерения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fixed amount used as a standard for measuring",
+          "body": [
+            "(единица измерения)"
+          ],
+          "examples": [
+            "The meter is the basic unit of length in the metric system.",
+            "Convert both numbers to the same units before you add them.",
+            "Electricity is billed by the unit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people forming one part of a larger organization",
+          "body": [
+            "(подразделение, отряд, отдел)"
+          ],
+          "examples": [
+            "His unit was stationed in Germany for two years.",
+            "She works in the department's research unit.",
+            "Both units report to the same commander."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A single apartment or home inside a larger building or complex",
+          "body": [
+            "(квартира (в жилом комплексе))"
+          ],
+          "examples": [
+            "The building has forty-eight units.",
+            "Their unit is on the third floor, facing the park.",
+            "Two units are still available for rent."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A separate machine or piece of equipment that does one job",
+          "body": [
+            "(агрегат, блок, установка)",
+            "---"
+          ],
+          "examples": [
+            "The air conditioning unit sits on the roof.",
+            "A new heating unit runs a few thousand dollars.",
+            "The unit quit in the middle of the heat wave."
+          ]
+        }
+      ],
+      "русский": "единица измерения; подразделение, отряд, отдел; квартира (в жилом комплексе); агрегат, блок, установка",
       "plural": "units",
       "countability": "countable",
       "contrast": "It starts with a y sound, so it takes a, not an: a unit."
@@ -156,14 +215,43 @@
       "term": "length",
       "ipa": "/lɛŋθ/",
       "respell": "LENGTH",
-      "meaning": "The measurement of something from one end to the other. ---",
+      "meaning": "Length has 2 distinct senses.",
       "examples": [
         "Measure the length of the table first.",
         "The pool is fifty meters in length.",
-        "Cut two lengths of rope the same size."
+        "Cut two lengths of rope the same size.",
+        "The length of the movie surprised me.",
+        "Our meetings vary in length.",
+        "There is a limit on the length of each visit."
       ],
-      "senses": [],
-      "русский": "длина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The measurement of something from one end to the other",
+          "body": [
+            "(длина)"
+          ],
+          "examples": [
+            "Measure the length of the table first.",
+            "The pool is fifty meters in length.",
+            "Cut two lengths of rope the same size."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of time that something lasts",
+          "body": [
+            "(продолжительность)",
+            "---"
+          ],
+          "examples": [
+            "The length of the movie surprised me.",
+            "Our meetings vary in length.",
+            "There is a limit on the length of each visit."
+          ]
+        }
+      ],
+      "русский": "длина; продолжительность",
       "plural": "lengths",
       "countability": "countable"
     },
@@ -232,14 +320,43 @@
       "term": "depth",
       "ipa": "/dɛpθ/",
       "respell": "DEPTH",
-      "meaning": "How deep something is from the top down. ---",
+      "meaning": "Depth has 2 distinct senses.",
       "examples": [
         "The lake reaches a depth of sixty feet.",
         "Plant the bulbs at a depth of four inches.",
-        "Divers explored the depths of the canyon."
+        "Divers explored the depths of the canyon.",
+        "Her essay has real depth.",
+        "He speaks about the region with unusual depth of knowledge.",
+        "The villain is entertaining but lacks depth."
       ],
-      "senses": [],
-      "русский": "глубина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How deep something is from the top down",
+          "body": [
+            "(глубина)"
+          ],
+          "examples": [
+            "The lake reaches a depth of sixty feet.",
+            "Plant the bulbs at a depth of four inches.",
+            "Divers explored the depths of the canyon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Serious quality in someone's thought, feeling, or knowledge",
+          "body": [
+            "(глубина (мысли, чувств), содержательность)",
+            "---"
+          ],
+          "examples": [
+            "Her essay has real depth.",
+            "He speaks about the region with unusual depth of knowledge.",
+            "The villain is entertaining but lacks depth."
+          ]
+        }
+      ],
+      "русский": "глубина; глубина (мысли, чувств), содержательность",
       "plural": "depths",
       "countability": "countable"
     },
@@ -276,14 +393,43 @@
       "term": "weight",
       "ipa": "/weɪt/",
       "respell": "WAYT",
-      "meaning": "How heavy something is, or a heavy object used for lifting or holding something down. ---",
+      "meaning": "Weight has 2 distinct senses.",
       "examples": [
         "The scale shows my weight in pounds.",
         "He lifts weights three mornings a week.",
-        "Put a weight on the papers so they don't blow away."
+        "Put a weight on the papers so they don't blow away.",
+        "Her opinion carries a lot of weight around here.",
+        "The judge gave little weight to that testimony.",
+        "He threw his weight behind the new proposal."
       ],
-      "senses": [],
-      "русский": "вес; гиря, гантель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How heavy something is, or a heavy object used for lifting or holding something down",
+          "body": [
+            "(вес; гиря, гантель)"
+          ],
+          "examples": [
+            "The scale shows my weight in pounds.",
+            "He lifts weights three mornings a week.",
+            "Put a weight on the papers so they don't blow away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The importance or influence that something or someone has",
+          "body": [
+            "(вес, влияние, значимость)",
+            "---"
+          ],
+          "examples": [
+            "Her opinion carries a lot of weight around here.",
+            "The judge gave little weight to that testimony.",
+            "He threw his weight behind the new proposal."
+          ]
+        }
+      ],
+      "русский": "вес; гиря, гантель; вес, влияние, значимость",
       "plural": "weights",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Sounds exactly like wait; the gh is silent."
@@ -468,14 +614,43 @@
       "term": "pace",
       "ipa": "/peɪs/",
       "respell": "PAYS",
-      "meaning": "The speed at which someone walks, runs, or works. ---",
+      "meaning": "Pace has 2 distinct senses.",
       "examples": [
         "She set a fast pace for the rest of us.",
         "He walked at a steady pace.",
-        "The runners hit very different paces in the last mile."
+        "The runners hit very different paces in the last mile.",
+        "Take three paces back from the line.",
+        "The well is about twenty paces from the door.",
+        "He walked ten paces, turned, and fired."
       ],
-      "senses": [],
-      "русский": "темп, скорость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The speed at which someone walks, runs, or works",
+          "body": [
+            "(темп, скорость)"
+          ],
+          "examples": [
+            "She set a fast pace for the rest of us.",
+            "He walked at a steady pace.",
+            "The runners hit very different paces in the last mile."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single step, used as a rough measure of distance",
+          "body": [
+            "(шаг (как мера расстояния))",
+            "---"
+          ],
+          "examples": [
+            "Take three paces back from the line.",
+            "The well is about twenty paces from the door.",
+            "He walked ten paces, turned, and fired."
+          ]
+        }
+      ],
+      "русский": "темп, скорость; шаг (как мера расстояния)",
       "plural": "paces",
       "countability": "countable"
     },
@@ -483,14 +658,43 @@
       "term": "rate",
       "ipa": "/reɪt/",
       "respell": "RAYT",
-      "meaning": "How fast something happens, measured against time or another amount. ---",
+      "meaning": "Rate has 2 distinct senses.",
       "examples": [
         "Water was leaking at a rate of a gallon an hour.",
         "His heart rate dropped once he sat down.",
-        "Interest rates went up again."
+        "Interest rates went up again.",
+        "The hotel's winter rates are much lower.",
+        "What's your hourly rate?",
+        "Postal rates go up again in July."
       ],
-      "senses": [],
-      "русский": "скорость, темп; ставка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How fast something happens, measured against time or another amount",
+          "body": [
+            "(скорость, темп; ставка)"
+          ],
+          "examples": [
+            "Water was leaking at a rate of a gallon an hour.",
+            "His heart rate dropped once he sat down.",
+            "Interest rates went up again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fixed price charged for a service",
+          "body": [
+            "(тариф, расценка, ставка (оплаты))",
+            "---"
+          ],
+          "examples": [
+            "The hotel's winter rates are much lower.",
+            "What's your hourly rate?",
+            "Postal rates go up again in July."
+          ]
+        }
+      ],
+      "русский": "скорость, темп; ставка; тариф, расценка, ставка (оплаты)",
       "plural": "rates",
       "countability": "countable"
     },
@@ -573,14 +777,43 @@
       "term": "density",
       "ipa": "/ˈdɛnsəti/",
       "respell": "DEN-suh-tee",
-      "meaning": "How much mass a material has for its size. ---",
+      "meaning": "Density has 2 distinct senses.",
       "examples": [
         "Lead has a much higher density than aluminum.",
         "Oil floats on water because of its lower density.",
-        "The lab measured the density of each sample."
+        "The lab measured the density of each sample.",
+        "The city has the highest population density in the state.",
+        "Traffic density doubles during the morning rush.",
+        "New zoning rules allow greater density downtown."
       ],
-      "senses": [],
-      "русский": "плотность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much mass a material has for its size",
+          "body": [
+            "(плотность)"
+          ],
+          "examples": [
+            "Lead has a much higher density than aluminum.",
+            "Oil floats on water because of its lower density.",
+            "The lab measured the density of each sample."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How many people or things there are in a given area",
+          "body": [
+            "(плотность (населения, застройки))",
+            "---"
+          ],
+          "examples": [
+            "The city has the highest population density in the state.",
+            "Traffic density doubles during the morning rush.",
+            "New zoning rules allow greater density downtown."
+          ]
+        }
+      ],
+      "русский": "плотность; плотность (населения, застройки)",
       "countability": "uncountable"
     },
     {
@@ -958,14 +1191,73 @@
       "term": "reading",
       "ipa": "/ˈriːdɪŋ/",
       "respell": "REE-ding",
-      "meaning": "A figure shown by a measuring instrument. ---",
+      "meaning": "Reading has 4 distinct senses.",
       "examples": [
         "The meter reading was higher than last month.",
         "Take a reading every hour.",
-        "Both readings came out the same."
+        "Both readings came out the same.",
+        "Reading is her favorite way to spend an evening.",
+        "The school added twenty minutes of reading to every day.",
+        "His reading has improved a lot this year.",
+        "The poet is giving a reading at the library on Friday.",
+        "About forty people showed up for the reading.",
+        "There's a reading and a signing afterward.",
+        "My reading of the contract is that we can cancel anytime.",
+        "That's one reading of the poem, but not the only one.",
+        "His reading of the situation turned out to be right."
       ],
-      "senses": [],
-      "русский": "показание (прибора)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A figure shown by a measuring instrument",
+          "body": [
+            "(показание (прибора))"
+          ],
+          "examples": [
+            "The meter reading was higher than last month.",
+            "Take a reading every hour.",
+            "Both readings came out the same."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The activity or skill of getting meaning from written words",
+          "body": [
+            "(чтение (занятие, навык))"
+          ],
+          "examples": [
+            "Reading is her favorite way to spend an evening.",
+            "The school added twenty minutes of reading to every day.",
+            "His reading has improved a lot this year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An event at which a writer reads work aloud to an audience",
+          "body": [
+            "(публичное чтение (авторское))"
+          ],
+          "examples": [
+            "The poet is giving a reading at the library on Friday.",
+            "About forty people showed up for the reading.",
+            "There's a reading and a signing afterward."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular way of understanding something",
+          "body": [
+            "(толкование, трактовка)",
+            "---"
+          ],
+          "examples": [
+            "My reading of the contract is that we can cancel anytime.",
+            "That's one reading of the poem, but not the only one.",
+            "His reading of the situation turned out to be right."
+          ]
+        }
+      ],
+      "русский": "показание (прибора); чтение (занятие, навык); публичное чтение (авторское); толкование, трактовка",
       "plural": "readings",
       "countability": "countable"
     },
@@ -988,14 +1280,58 @@
       "term": "sample",
       "ipa": "/ˈsæmpəl/",
       "respell": "SAM-puhl",
-      "meaning": "A small part taken from something so that it can be tested. ---",
+      "meaning": "Sample has 3 distinct senses.",
       "examples": [
         "The lab tested a water sample from the well.",
         "Take a sample from the middle of the batch.",
-        "All three samples came back clean."
+        "All three samples came back clean.",
+        "They were handing out samples of the new cereal.",
+        "The counter gave me a sample of the perfume.",
+        "Free samples always draw a crowd.",
+        "The chorus is built around a sample from a 70s record.",
+        "He cleared the sample before releasing the track.",
+        "You can hear two samples layered under the beat."
       ],
-      "senses": [],
-      "русский": "образец, проба",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small part taken from something so that it can be tested",
+          "body": [
+            "(образец, проба)"
+          ],
+          "examples": [
+            "The lab tested a water sample from the well.",
+            "Take a sample from the middle of the batch.",
+            "All three samples came back clean."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small free portion given out so people can try a product",
+          "body": [
+            "(пробник, бесплатный образец)"
+          ],
+          "examples": [
+            "They were handing out samples of the new cereal.",
+            "The counter gave me a sample of the perfume.",
+            "Free samples always draw a crowd."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short piece of an existing recording used in a new song",
+          "body": [
+            "(сэмпл (фрагмент записи))",
+            "---"
+          ],
+          "examples": [
+            "The chorus is built around a sample from a 70s record.",
+            "He cleared the sample before releasing the track.",
+            "You can hear two samples layered under the beat."
+          ]
+        }
+      ],
+      "русский": "образец, проба; пробник, бесплатный образец; сэмпл (фрагмент записи)",
       "plural": "samples",
       "countability": "countable",
       "contrast": "Americans say SAM-puhl with a short a; the British say SAHM-puhl."
@@ -1079,14 +1415,43 @@
       "term": "limit",
       "ipa": "/ˈlɪmɪt/",
       "respell": "LIM-it",
-      "meaning": "The greatest amount that is allowed or possible. ---",
+      "meaning": "Limit has 2 distinct senses.",
       "examples": [
         "The speed limit here is thirty-five.",
         "There's a limit to how much that shelf will hold.",
-        "Both weight limits were raised last year."
+        "Both weight limits were raised last year.",
+        "The speed drops to 25 inside the city limits.",
+        "Their farm sits just outside the town limits.",
+        "Fireworks are banned within the village limits."
       ],
-      "senses": [],
-      "русский": "предел, ограничение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The greatest amount that is allowed or possible",
+          "body": [
+            "(предел, ограничение)"
+          ],
+          "examples": [
+            "The speed limit here is thirty-five.",
+            "There's a limit to how much that shelf will hold.",
+            "Both weight limits were raised last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The line where an area ends; its boundary",
+          "body": [
+            "(граница, черта (города))",
+            "---"
+          ],
+          "examples": [
+            "The speed drops to 25 inside the city limits.",
+            "Their farm sits just outside the town limits.",
+            "Fireworks are banned within the village limits."
+          ]
+        }
+      ],
+      "русский": "предел, ограничение; граница, черта (города)",
       "plural": "limits",
       "countability": "countable"
     },
@@ -1094,14 +1459,58 @@
       "term": "load",
       "ipa": "/loʊd/",
       "respell": "LOHD",
-      "meaning": "The weight carried or supported by something. ---",
+      "meaning": "Load has 3 distinct senses.",
       "examples": [
         "The truck was carrying a full load.",
         "That beam takes the whole load of the roof.",
-        "Heavy loads wear out the springs."
+        "Heavy loads wear out the springs.",
+        "I still have two loads of laundry to fold.",
+        "Wash the towels in a separate load.",
+        "The truck hauled three loads of gravel before noon.",
+        "There were loads of people at the game.",
+        "We have a load of work to get through today.",
+        "She brought back loads of photos from the trip."
       ],
-      "senses": [],
-      "русский": "нагрузка, груз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The weight carried or supported by something",
+          "body": [
+            "(нагрузка, груз)"
+          ],
+          "examples": [
+            "The truck was carrying a full load.",
+            "That beam takes the whole load of the roof.",
+            "Heavy loads wear out the springs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of laundry or other material handled at one time",
+          "body": [
+            "(загрузка (стиральной машины); партия груза)"
+          ],
+          "examples": [
+            "I still have two loads of laundry to fold.",
+            "Wash the towels in a separate load.",
+            "The truck hauled three loads of gravel before noon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large amount or number of something",
+          "body": [
+            "(куча, масса (чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "There were loads of people at the game.",
+            "We have a load of work to get through today.",
+            "She brought back loads of photos from the trip."
+          ]
+        }
+      ],
+      "русский": "нагрузка, груз; загрузка (стиральной машины); партия груза; куча, масса (чего-л.)",
       "plural": "loads",
       "countability": "countable"
     },
@@ -1109,28 +1518,101 @@
       "term": "bulk",
       "ipa": "/bʌlk/",
       "respell": "BULK",
-      "meaning": "Large size or volume, especially when it makes something hard to handle. ---",
+      "meaning": "Bulk has 2 distinct senses.",
       "examples": [
         "The bulk of the shipment is still in the warehouse.",
         "We buy rice in bulk.",
-        "The sheer bulk of the machine made it hard to move."
+        "The sheer bulk of the machine made it hard to move.",
+        "The bulk of the money went to salaries.",
+        "She spent the bulk of her career overseas.",
+        "The bulk of the crowd had already gone home."
       ],
-      "senses": [],
-      "русский": "объём, масса; основная часть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Large size or volume, especially when it makes something hard to handle",
+          "body": [
+            "(объём, масса; основная часть)"
+          ],
+          "examples": [
+            "The bulk of the shipment is still in the warehouse.",
+            "We buy rice in bulk.",
+            "The sheer bulk of the machine made it hard to move."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The greater part of something",
+          "body": [
+            "(основная часть, большинство)",
+            "---"
+          ],
+          "examples": [
+            "The bulk of the money went to salaries.",
+            "She spent the bulk of her career overseas.",
+            "The bulk of the crowd had already gone home."
+          ]
+        }
+      ],
+      "русский": "объём, масса; основная часть; основная часть, большинство",
       "countability": "uncountable"
     },
     {
       "term": "count",
       "ipa": "/kaʊnt/",
       "respell": "KOWNT",
-      "meaning": "The total number found by counting. ---",
+      "meaning": "Count has 3 distinct senses.",
       "examples": [
         "The final count was two hundred people.",
         "Her white blood cell count is low.",
-        "The two counts didn't match."
+        "The two counts didn't match.",
+        "The jury found him guilty on all three counts.",
+        "The first count carries a ten-year sentence.",
+        "Her lawyer got two counts dismissed before trial.",
+        "The count owned every acre in the valley.",
+        "Two counts and a duchess were seated at the head table.",
+        "In the novel the count never leaves his castle."
       ],
-      "senses": [],
-      "русский": "подсчёт, количество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The total number found by counting",
+          "body": [
+            "(подсчёт, количество)"
+          ],
+          "examples": [
+            "The final count was two hundred people.",
+            "Her white blood cell count is low.",
+            "The two counts didn't match."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One separate charge in a legal case against someone",
+          "body": [
+            "(пункт обвинения)"
+          ],
+          "examples": [
+            "The jury found him guilty on all three counts.",
+            "The first count carries a ten-year sentence.",
+            "Her lawyer got two counts dismissed before trial."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A European nobleman of a rank similar to an English earl",
+          "body": [
+            "(граф)",
+            "---"
+          ],
+          "examples": [
+            "The count owned every acre in the valley.",
+            "Two counts and a duchess were seated at the head table.",
+            "In the novel the count never leaves his castle."
+          ]
+        }
+      ],
+      "русский": "подсчёт, количество; пункт обвинения; граф",
       "plural": "counts",
       "countability": "countable"
     },
@@ -1243,14 +1725,43 @@
       "term": "digit",
       "ipa": "/ˈdɪdʒɪt/",
       "respell": "DIJ-it",
-      "meaning": "Any one of the symbols from 0 to 9. ---",
+      "meaning": "Digit has 2 distinct senses.",
       "examples": [
         "The code is four digits long.",
         "The last digit was smudged.",
-        "Drop the final digit and round up."
+        "Drop the final digit and round up.",
+        "Frostbite can cost a climber several digits.",
+        "The surgeon reattached the severed digit.",
+        "Each hand has five digits."
       ],
-      "senses": [],
-      "русский": "цифра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Any one of the symbols from 0 to 9",
+          "body": [
+            "(цифра)"
+          ],
+          "examples": [
+            "The code is four digits long.",
+            "The last digit was smudged.",
+            "Drop the final digit and round up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A finger or a toe",
+          "body": [
+            "(палец (руки или ноги))",
+            "---"
+          ],
+          "examples": [
+            "Frostbite can cost a climber several digits.",
+            "The surgeon reattached the severed digit.",
+            "Each hand has five digits."
+          ]
+        }
+      ],
+      "русский": "цифра; палец (руки или ноги)",
       "plural": "digits",
       "countability": "countable"
     },
@@ -1288,14 +1799,58 @@
       "term": "meter",
       "ipa": "/ˈmiːtər/",
       "respell": "MEE-tur",
-      "meaning": "The basic metric unit of length, equal to about 39 inches. ---",
+      "meaning": "Meter has 3 distinct senses.",
       "examples": [
         "The pool is fifty meters long.",
         "Add another meter of cable.",
-        "The two rooms differ by half a meter."
+        "The two rooms differ by half a meter.",
+        "The gas meter is in the basement.",
+        "I fed quarters into the parking meter.",
+        "A technician comes out once a month to read the meters.",
+        "Shakespeare wrote most of his lines in a five-beat meter.",
+        "The poem breaks its meter in the very last line.",
+        "The class learned to clap out the meter."
       ],
-      "senses": [],
-      "русский": "метр; счётчик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The basic metric unit of length, equal to about 39 inches",
+          "body": [
+            "(метр; счётчик)"
+          ],
+          "examples": [
+            "The pool is fifty meters long.",
+            "Add another meter of cable.",
+            "The two rooms differ by half a meter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that measures and records how much of something is used",
+          "body": [
+            "(счётчик; парковочный автомат)"
+          ],
+          "examples": [
+            "The gas meter is in the basement.",
+            "I fed quarters into the parking meter.",
+            "A technician comes out once a month to read the meters."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The pattern of rhythm in a line of poetry or a piece of music",
+          "body": [
+            "(стихотворный размер; музыкальный размер)",
+            "---"
+          ],
+          "examples": [
+            "Shakespeare wrote most of his lines in a five-beat meter.",
+            "The poem breaks its meter in the very last line.",
+            "The class learned to clap out the meter."
+          ]
+        }
+      ],
+      "русский": "метр; счётчик; счётчик; парковочный автомат; стихотворный размер; музыкальный размер",
       "plural": "meters",
       "countability": "countable",
       "contrast": "Americans spell it meter, the British metre. The same American spelling also names a measuring device, as in a gas meter."
@@ -1516,14 +2071,43 @@
       "term": "breadth",
       "ipa": "/brɛdθ/",
       "respell": "BREDTH",
-      "meaning": "The distance across something from one side to the other. ---",
+      "meaning": "Breadth has 2 distinct senses.",
       "examples": [
         "The field measures a hundred feet in breadth.",
         "The river's breadth surprised us.",
-        "They measured the length and breadth of the room."
+        "They measured the length and breadth of the room.",
+        "The breadth of his reading surprised the committee.",
+        "The program is praised for its breadth rather than its depth.",
+        "Few candidates bring that breadth of experience."
       ],
-      "senses": [],
-      "русский": "ширина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The distance across something from one side to the other",
+          "body": [
+            "(ширина)"
+          ],
+          "examples": [
+            "The field measures a hundred feet in breadth.",
+            "The river's breadth surprised us.",
+            "They measured the length and breadth of the room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The wide range of subjects or activities that something covers",
+          "body": [
+            "(широта (охвата, знаний))",
+            "---"
+          ],
+          "examples": [
+            "The breadth of his reading surprised the committee.",
+            "The program is praised for its breadth rather than its depth.",
+            "Few candidates bring that breadth of experience."
+          ]
+        }
+      ],
+      "русский": "ширина; широта (охвата, знаний)",
       "countability": "uncountable",
       "contrast": "It comes from broad, but the vowel is a short e: BREDTH."
     },
@@ -1622,14 +2206,43 @@
       "term": "ounce",
       "ipa": "/aʊns/",
       "respell": "OWNSS",
-      "meaning": "A unit of weight equal to about 28 grams. ---",
+      "meaning": "Ounce has 2 distinct senses.",
       "examples": [
         "The letter weighs less than an ounce.",
         "Add four ounces of cheese.",
-        "The package came to sixteen ounces."
+        "The package came to sixteen ounces.",
+        "There isn't an ounce of truth in that story.",
+        "It took every ounce of patience I had.",
+        "He hasn't got an ounce of common sense."
       ],
-      "senses": [],
-      "русский": "унция (28,35 г)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit of weight equal to about 28 grams",
+          "body": [
+            "(унция (28,35 г))"
+          ],
+          "examples": [
+            "The letter weighs less than an ounce.",
+            "Add four ounces of cheese.",
+            "The package came to sixteen ounces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very small amount of a quality or feeling",
+          "body": [
+            "(капля, крупица (чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "There isn't an ounce of truth in that story.",
+            "It took every ounce of patience I had.",
+            "He hasn't got an ounce of common sense."
+          ]
+        }
+      ],
+      "русский": "унция (28,35 г); капля, крупица (чего-л.)",
       "plural": "ounces",
       "countability": "countable",
       "contrast": "Written oz on labels, even though there is no z in the word."
@@ -1638,14 +2251,73 @@
       "term": "pound",
       "ipa": "/paʊnd/",
       "respell": "POWND",
-      "meaning": "A unit of weight equal to sixteen ounces, or about 454 grams. ---",
+      "meaning": "Pound has 4 distinct senses.",
       "examples": [
         "I bought two pounds of ground beef.",
         "He lost fifteen pounds over the winter.",
-        "The baby weighed seven pounds."
+        "The baby weighed seven pounds.",
+        "The room cost ninety pounds a night.",
+        "The pound fell against the dollar again.",
+        "I still have a few pounds left from the trip.",
+        "We adopted her from the city pound.",
+        "His car spent two days at the pound.",
+        "Someone found the dog and took it to the pound.",
+        "Enter your account number, then press pound.",
+        "Dial the extension followed by the pound sign.",
+        "Leave a message and hit pound when you're done."
       ],
-      "senses": [],
-      "русский": "фунт (454 г)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit of weight equal to sixteen ounces, or about 454 grams",
+          "body": [
+            "(фунт (454 г))"
+          ],
+          "examples": [
+            "I bought two pounds of ground beef.",
+            "He lost fifteen pounds over the winter.",
+            "The baby weighed seven pounds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The unit of money used in Britain",
+          "body": [
+            "(фунт стерлингов)"
+          ],
+          "examples": [
+            "The room cost ninety pounds a night.",
+            "The pound fell against the dollar again.",
+            "I still have a few pounds left from the trip."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A place where stray animals or towed cars are held",
+          "body": [
+            "(приют для бездомных животных; штрафстоянка)"
+          ],
+          "examples": [
+            "We adopted her from the city pound.",
+            "His car spent two days at the pound.",
+            "Someone found the dog and took it to the pound."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The # key on a telephone",
+          "body": [
+            "(решётка (клавиша #))",
+            "---"
+          ],
+          "examples": [
+            "Enter your account number, then press pound.",
+            "Dial the extension followed by the pound sign.",
+            "Leave a message and hit pound when you're done."
+          ]
+        }
+      ],
+      "русский": "фунт (454 г); фунт стерлингов; приют для бездомных животных; штрафстоянка; решётка (клавиша #)",
       "plural": "pounds",
       "countability": "countable",
       "contrast": "Abbreviated lb, from Latin. The same word is also the British unit of money."
@@ -1654,14 +2326,43 @@
       "term": "ton",
       "ipa": "/tʌn/",
       "respell": "TUN",
-      "meaning": "An American unit of weight equal to 2,000 pounds. ---",
+      "meaning": "Ton has 2 distinct senses.",
       "examples": [
         "The truck hauls twenty tons of gravel.",
         "That rock must weigh a ton.",
-        "They shipped several tons of steel."
+        "They shipped several tons of steel.",
+        "I have a ton of homework tonight.",
+        "They spent tons of money on the wedding.",
+        "There were tons of people at the fair."
       ],
-      "senses": [],
-      "русский": "тонна (в США 907 кг)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An American unit of weight equal to 2,000 pounds",
+          "body": [
+            "(тонна (в США 907 кг))"
+          ],
+          "examples": [
+            "The truck hauls twenty tons of gravel.",
+            "That rock must weigh a ton.",
+            "They shipped several tons of steel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very large amount or number",
+          "body": [
+            "(куча, масса (очень много))",
+            "---"
+          ],
+          "examples": [
+            "I have a ton of homework tonight.",
+            "They spent tons of money on the wedding.",
+            "There were tons of people at the fair."
+          ]
+        }
+      ],
+      "русский": "тонна (в США 907 кг); куча, масса (очень много)",
       "plural": "tons",
       "countability": "countable",
       "contrast": "It rhymes with fun. An American ton is 2,000 pounds, not the metric 1,000 kilograms."
@@ -2190,14 +2891,43 @@
       "term": "radar",
       "ipa": "/ˈreɪdɑːr/",
       "respell": "RAY-dar",
-      "meaning": "Equipment that finds the position and speed of objects using radio waves. ---",
+      "meaning": "Radar has 2 distinct senses.",
       "examples": [
         "A trooper caught him on radar doing eighty.",
         "The storm showed up clearly on radar.",
-        "Airport radars track every flight."
+        "Airport radars track every flight.",
+        "That band was never on my radar until last year.",
+        "The company grew for years under everyone's radar.",
+        "Homelessness is finally on the city council's radar."
       ],
-      "senses": [],
-      "русский": "радар, радиолокатор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Equipment that finds the position and speed of objects using radio waves",
+          "body": [
+            "(радар, радиолокатор)"
+          ],
+          "examples": [
+            "A trooper caught him on radar doing eighty.",
+            "The storm showed up clearly on radar.",
+            "Airport radars track every flight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Attention or notice",
+          "body": [
+            "(поле зрения, внимание)",
+            "---"
+          ],
+          "examples": [
+            "That band was never on my radar until last year.",
+            "The company grew for years under everyone's radar.",
+            "Homelessness is finally on the city council's radar."
+          ]
+        }
+      ],
+      "русский": "радар, радиолокатор; поле зрения, внимание",
       "plural": "radars",
       "countability": "countable"
     },
@@ -2486,14 +3216,43 @@
       "term": "amp",
       "ipa": "/æmp/",
       "respell": "AMP",
-      "meaning": "A unit of electric current, short for ampere. ---",
+      "meaning": "Amp has 2 distinct senses.",
       "examples": [
         "That circuit is rated for fifteen amps.",
         "The motor pulls about six amps.",
-        "The breaker trips at twenty amps."
+        "The breaker trips at twenty amps.",
+        "He plugged his guitar into a small amp.",
+        "The amp hummed until I moved the cable.",
+        "They rented two amps for the show."
       ],
-      "senses": [],
-      "русский": "ампер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit of electric current, short for ampere",
+          "body": [
+            "(ампер)"
+          ],
+          "examples": [
+            "That circuit is rated for fifteen amps.",
+            "The motor pulls about six amps.",
+            "The breaker trips at twenty amps."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amplifier that makes an instrument or a sound system louder",
+          "body": [
+            "(усилитель (гитарный, звуковой))",
+            "---"
+          ],
+          "examples": [
+            "He plugged his guitar into a small amp.",
+            "The amp hummed until I moved the cable.",
+            "They rented two amps for the show."
+          ]
+        }
+      ],
+      "русский": "ампер; усилитель (гитарный, звуковой)",
       "plural": "amps",
       "countability": "countable",
       "contrast": "Amp is also short for amplifier, as in a guitar amp."
@@ -2789,14 +3548,58 @@
       "term": "angle",
       "ipa": "/ˈæŋɡəl/",
       "respell": "ANG-guhl",
-      "meaning": "The space between two lines that meet, measured in degrees. ---",
+      "meaning": "Angle has 3 distinct senses.",
       "examples": [
         "Cut the trim at a 45-degree angle.",
         "Measure the angle with a protractor.",
-        "All three angles add up to 180 degrees."
+        "All three angles add up to 180 degrees.",
+        "Try looking at the problem from a different angle.",
+        "The reporter needed a fresh angle on a very old story.",
+        "We studied the deal from every angle before signing.",
+        "Everybody kept asking what his angle was.",
+        "She's helping for nothing, and I don't see an angle.",
+        "There's always an angle with that guy."
       ],
-      "senses": [],
-      "русский": "угол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The space between two lines that meet, measured in degrees",
+          "body": [
+            "(угол)"
+          ],
+          "examples": [
+            "Cut the trim at a 45-degree angle.",
+            "Measure the angle with a protractor.",
+            "All three angles add up to 180 degrees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular way of looking at or presenting something",
+          "body": [
+            "(точка зрения, подход, ракурс)"
+          ],
+          "examples": [
+            "Try looking at the problem from a different angle.",
+            "The reporter needed a fresh angle on a very old story.",
+            "We studied the deal from every angle before signing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A hidden, selfish reason for doing something",
+          "body": [
+            "(скрытый умысел, свой интерес)",
+            "---"
+          ],
+          "examples": [
+            "Everybody kept asking what his angle was.",
+            "She's helping for nothing, and I don't see an angle.",
+            "There's always an angle with that guy."
+          ]
+        }
+      ],
+      "русский": "угол; точка зрения, подход, ракурс; скрытый умысел, свой интерес",
       "plural": "angles",
       "countability": "countable"
     },
@@ -2820,14 +3623,43 @@
       "term": "stride",
       "ipa": "/straɪd/",
       "respell": "STRYD",
-      "meaning": "One long step, or the distance covered by it. ---",
+      "meaning": "Stride has 2 distinct senses.",
       "examples": [
         "He crossed the room in three strides.",
         "The runner's stride got shorter near the end.",
-        "Long strides eat up the distance."
+        "Long strides eat up the distance.",
+        "The company has made great strides in safety.",
+        "Medicine has made huge strides since then.",
+        "She made real strides with her English this year."
       ],
-      "senses": [],
-      "русский": "шаг (широкий)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One long step, or the distance covered by it",
+          "body": [
+            "(шаг (широкий))"
+          ],
+          "examples": [
+            "He crossed the room in three strides.",
+            "The runner's stride got shorter near the end.",
+            "Long strides eat up the distance."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A clear step forward in progress, usually used in the plural",
+          "body": [
+            "(успехи, заметный прогресс)",
+            "---"
+          ],
+          "examples": [
+            "The company has made great strides in safety.",
+            "Medicine has made huge strides since then.",
+            "She made real strides with her English this year."
+          ]
+        }
+      ],
+      "русский": "шаг (широкий); успехи, заметный прогресс",
       "plural": "strides",
       "countability": "countable"
     },
@@ -2835,14 +3667,43 @@
       "term": "caliber",
       "ipa": "/ˈkæləbər/",
       "respell": "KAL-uh-bur",
-      "meaning": "The inside diameter of a gun barrel. ---",
+      "meaning": "Caliber has 2 distinct senses.",
       "examples": [
         "The rifle is a .22 caliber.",
         "Police recovered a bullet of the same caliber.",
-        "The shop stocks several calibers."
+        "The shop stocks several calibers.",
+        "A player of his caliber doesn't come along often.",
+        "The school attracts teachers of very high caliber.",
+        "We need someone of the same caliber to replace her."
       ],
-      "senses": [],
-      "русский": "калибр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The inside diameter of a gun barrel",
+          "body": [
+            "(калибр)"
+          ],
+          "examples": [
+            "The rifle is a .22 caliber.",
+            "Police recovered a bullet of the same caliber.",
+            "The shop stocks several calibers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The level of quality or ability of a person or thing",
+          "body": [
+            "(уровень, класс (качества))",
+            "---"
+          ],
+          "examples": [
+            "A player of his caliber doesn't come along often.",
+            "The school attracts teachers of very high caliber.",
+            "We need someone of the same caliber to replace her."
+          ]
+        }
+      ],
+      "русский": "калибр; уровень, класс (качества)",
       "plural": "calibers",
       "countability": "countable",
       "contrast": "Americans spell it caliber; the British write calibre."
@@ -2851,14 +3712,43 @@
       "term": "bore",
       "ipa": "/bɔːr/",
       "respell": "BOR",
-      "meaning": "The hollow inside of a tube or a gun barrel, or the width of it. ---",
+      "meaning": "Bore has 2 distinct senses.",
       "examples": [
         "The engine has a four-inch bore.",
         "Clean the bore after every trip to the range.",
-        "The two cylinders have identical bores."
+        "The two cylinders have identical bores.",
+        "Her uncle is a terrible bore at parties.",
+        "Don't be such a bore — come dance with us.",
+        "The panel was two bores reading their slides out loud."
       ],
-      "senses": [],
-      "русский": "внутренний диаметр, канал ствола",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hollow inside of a tube or a gun barrel, or the width of it",
+          "body": [
+            "(внутренний диаметр, канал ствола)"
+          ],
+          "examples": [
+            "The engine has a four-inch bore.",
+            "Clean the bore after every trip to the range.",
+            "The two cylinders have identical bores."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dull person who tires everyone out with uninteresting talk",
+          "body": [
+            "(зануда, скучный человек)",
+            "---"
+          ],
+          "examples": [
+            "Her uncle is a terrible bore at parties.",
+            "Don't be such a bore — come dance with us.",
+            "The panel was two bores reading their slides out loud."
+          ]
+        }
+      ],
+      "русский": "внутренний диаметр, канал ствола; зануда, скучный человек",
       "plural": "bores",
       "countability": "countable",
       "contrast": "Sounds the same as boar, a wild pig, and as bore, the past tense of bear."

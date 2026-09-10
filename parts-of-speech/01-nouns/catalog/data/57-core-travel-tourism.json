@@ -231,14 +231,43 @@
       "term": "arrival",
       "ipa": "/əˈraɪvəl/",
       "respell": "uh-RY-vuhl",
-      "meaning": "The act of reaching a place at the end of a trip. ---",
+      "meaning": "Arrival has 2 distinct senses.",
       "examples": [
         "Our arrival time is listed as 6:40.",
         "Meet me downstairs in arrivals.",
-        "Rain greeted us on arrival."
+        "Rain greeted us on arrival.",
+        "The shelter takes in new arrivals every night.",
+        "She's a recent arrival from Chicago.",
+        "The store puts new arrivals in the front window."
       ],
-      "senses": [],
-      "русский": "прибытие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of reaching a place at the end of a trip",
+          "body": [
+            "(прибытие)"
+          ],
+          "examples": [
+            "Our arrival time is listed as 6:40.",
+            "Meet me downstairs in arrivals.",
+            "Rain greeted us on arrival."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that has just come to a place",
+          "body": [
+            "(прибывший, новоприбывший)",
+            "---"
+          ],
+          "examples": [
+            "The shelter takes in new arrivals every night.",
+            "She's a recent arrival from Chicago.",
+            "The store puts new arrivals in the front window."
+          ]
+        }
+      ],
+      "русский": "прибытие; прибывший, новоприбывший",
       "plural": "arrivals",
       "countability": "countable"
     },
@@ -350,14 +379,43 @@
       "term": "vacancy",
       "ipa": "/ˈveɪkənsi/",
       "respell": "VAY-kuhn-see",
-      "meaning": "A room that is free for someone to rent. ---",
+      "meaning": "Vacancy has 2 distinct senses.",
       "examples": [
         "The motel sign said no vacancy.",
         "Call around; some place will have vacancies tonight.",
-        "We took the last vacancy in town."
+        "We took the last vacancy in town.",
+        "The school has two teaching vacancies.",
+        "She applied for a vacancy in the front office.",
+        "The vacancy was posted online yesterday."
       ],
-      "senses": [],
-      "русский": "свободный номер (в отеле)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room that is free for someone to rent",
+          "body": [
+            "(свободный номер (в отеле))"
+          ],
+          "examples": [
+            "The motel sign said no vacancy.",
+            "Call around; some place will have vacancies tonight.",
+            "We took the last vacancy in town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A job that has not been filled",
+          "body": [
+            "(вакансия, свободная должность)",
+            "---"
+          ],
+          "examples": [
+            "The school has two teaching vacancies.",
+            "She applied for a vacancy in the front office.",
+            "The vacancy was posted online yesterday."
+          ]
+        }
+      ],
+      "русский": "свободный номер (в отеле); вакансия, свободная должность",
       "plural": "vacancies",
       "countability": "countable"
     },
@@ -424,14 +482,43 @@
       "term": "baggage",
       "ipa": "/ˈbæɡɪdʒ/",
       "respell": "BAG-ij",
-      "meaning": "The bags and suitcases a traveler takes on a trip. ---",
+      "meaning": "Baggage has 2 distinct senses.",
       "examples": [
         "Baggage claim is downstairs to your left.",
         "How much baggage are you checking?",
-        "All our baggage went to the wrong city."
+        "All our baggage went to the wrong city.",
+        "He brings a lot of emotional baggage to the relationship.",
+        "Every candidate carries some political baggage.",
+        "She left the marriage with plenty of baggage."
       ],
-      "senses": [],
-      "русский": "багаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bags and suitcases a traveler takes on a trip",
+          "body": [
+            "(багаж)"
+          ],
+          "examples": [
+            "Baggage claim is downstairs to your left.",
+            "How much baggage are you checking?",
+            "All our baggage went to the wrong city."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Painful past experiences that still affect how someone behaves",
+          "body": [
+            "(груз прошлого, психологический багаж)",
+            "---"
+          ],
+          "examples": [
+            "He brings a lot of emotional baggage to the relationship.",
+            "Every candidate carries some political baggage.",
+            "She left the marriage with plenty of baggage."
+          ]
+        }
+      ],
+      "русский": "багаж; груз прошлого, психологический багаж",
       "countability": "uncountable",
       "contrast": "Uncountable: never baggages. Count with two pieces of baggage."
     },
@@ -901,14 +988,43 @@
       "term": "fare",
       "ipa": "/fɛr/",
       "respell": "FAIR",
-      "meaning": "The money you pay to ride a bus, train, taxi, or plane. ---",
+      "meaning": "Fare has 2 distinct senses.",
       "examples": [
         "The bus fare went up to three dollars.",
         "Airline fares drop after the holidays.",
-        "He paid my fare with his transit card."
+        "He paid my fare with his transit card.",
+        "The menu is standard diner fare.",
+        "The festival offers everything from street fare to fine dining.",
+        "You'll find simple, hearty fare at that little cafe."
       ],
-      "senses": [],
-      "русский": "плата за проезд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The money you pay to ride a bus, train, taxi, or plane",
+          "body": [
+            "(плата за проезд)"
+          ],
+          "examples": [
+            "The bus fare went up to three dollars.",
+            "Airline fares drop after the holidays.",
+            "He paid my fare with his transit card."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The kind of food and drink served in a particular place",
+          "body": [
+            "(еда, кухня (в заведении))",
+            "---"
+          ],
+          "examples": [
+            "The menu is standard diner fare.",
+            "The festival offers everything from street fare to fine dining.",
+            "You'll find simple, hearty fare at that little cafe."
+          ]
+        }
+      ],
+      "русский": "плата за проезд; еда, кухня (в заведении)",
       "plural": "fares",
       "countability": "countable",
       "contrast": "Sounds exactly like fair (just, or a county fair)."
@@ -932,14 +1048,43 @@
       "term": "journey",
       "ipa": "/ˈdʒɜːrni/",
       "respell": "JUR-nee",
-      "meaning": "An act of traveling from one place to another, especially a long one. ---",
+      "meaning": "Journey has 2 distinct senses.",
       "examples": [
         "It was a long journey by bus and boat.",
         "Their journeys across the desert took weeks.",
-        "The journey home felt twice as long."
+        "The journey home felt twice as long.",
+        "The book follows her journey from addiction to recovery.",
+        "Learning a language is a slow journey.",
+        "He spoke openly about his journey through grief."
       ],
-      "senses": [],
-      "русский": "путешествие, поездка (долгая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of traveling from one place to another, especially a long one",
+          "body": [
+            "(путешествие, поездка (долгая))"
+          ],
+          "examples": [
+            "It was a long journey by bus and boat.",
+            "Their journeys across the desert took weeks.",
+            "The journey home felt twice as long."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long process of personal change or growth",
+          "body": [
+            "(путь (жизненный), процесс перемен)",
+            "---"
+          ],
+          "examples": [
+            "The book follows her journey from addiction to recovery.",
+            "Learning a language is a slow journey.",
+            "He spoke openly about his journey through grief."
+          ]
+        }
+      ],
+      "русский": "путешествие, поездка (долгая); путь (жизненный), процесс перемен",
       "plural": "journeys",
       "countability": "countable"
     },
@@ -947,14 +1092,58 @@
       "term": "tour",
       "ipa": "/tʊr/",
       "respell": "TOOR",
-      "meaning": "An organized visit to a place, often with a guide. ---",
+      "meaning": "Tour has 3 distinct senses.",
       "examples": [
         "We took a walking tour of the old city.",
         "Boat tours leave every hour from the pier.",
-        "The tour lasts about ninety minutes."
+        "The tour lasts about ninety minutes.",
+        "The band is on tour in Europe this fall.",
+        "She played forty cities on her last tour.",
+        "The tour ends with two nights in Chicago.",
+        "He served two tours in Afghanistan.",
+        "Her tour lasted thirteen months.",
+        "He came home between tours."
       ],
-      "senses": [],
-      "русский": "тур, экскурсия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized visit to a place, often with a guide",
+          "body": [
+            "(тур, экскурсия)"
+          ],
+          "examples": [
+            "We took a walking tour of the old city.",
+            "Boat tours leave every hour from the pier.",
+            "The tour lasts about ninety minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A series of performances or games given in different places",
+          "body": [
+            "(гастроли, турне)"
+          ],
+          "examples": [
+            "The band is on tour in Europe this fall.",
+            "She played forty cities on her last tour.",
+            "The tour ends with two nights in Chicago."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fixed period of duty served in one place, especially by a soldier",
+          "body": [
+            "(срок службы (командировка))",
+            "---"
+          ],
+          "examples": [
+            "He served two tours in Afghanistan.",
+            "Her tour lasted thirteen months.",
+            "He came home between tours."
+          ]
+        }
+      ],
+      "русский": "тур, экскурсия; гастроли, турне; срок службы (командировка)",
       "plural": "tours",
       "countability": "countable"
     },
@@ -1037,14 +1226,43 @@
       "term": "getaway",
       "ipa": "/ˈɡɛtəweɪ/",
       "respell": "GET-uh-way",
-      "meaning": "A short vacation, usually somewhere relaxing. ---",
+      "meaning": "Getaway has 2 distinct senses.",
       "examples": [
         "We booked a weekend getaway in the mountains.",
         "Romantic getaways are their whole business.",
-        "That cabin makes a perfect getaway."
+        "That cabin makes a perfect getaway.",
+        "The robbers made their getaway in a stolen van.",
+        "A witness wrote down the getaway car's plate number.",
+        "Police blocked every road to cut off their getaway."
       ],
-      "senses": [],
-      "русский": "короткая поездка на отдых",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short vacation, usually somewhere relaxing",
+          "body": [
+            "(короткая поездка на отдых)"
+          ],
+          "examples": [
+            "We booked a weekend getaway in the mountains.",
+            "Romantic getaways are their whole business.",
+            "That cabin makes a perfect getaway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An escape, especially one made by criminals right after a crime",
+          "body": [
+            "(побег, бегство (после преступления))",
+            "---"
+          ],
+          "examples": [
+            "The robbers made their getaway in a stolen van.",
+            "A witness wrote down the getaway car's plate number.",
+            "Police blocked every road to cut off their getaway."
+          ]
+        }
+      ],
+      "русский": "короткая поездка на отдых; побег, бегство (после преступления)",
       "plural": "getaways",
       "countability": "countable"
     },
@@ -1187,14 +1405,43 @@
       "term": "hike",
       "ipa": "/haɪk/",
       "respell": "HYK",
-      "meaning": "A long walk in the country or mountains. ---",
+      "meaning": "Hike has 2 distinct senses.",
       "examples": [
         "We went on a short hike before breakfast.",
         "The park has hikes for every level.",
-        "That hike nearly killed my knees."
+        "That hike nearly killed my knees.",
+        "Tenants are protesting the rent hike.",
+        "The board approved a five percent tuition hike.",
+        "Another interest rate hike would slow the housing market."
       ],
-      "senses": [],
-      "русский": "пеший поход, прогулка по маршруту",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long walk in the country or mountains",
+          "body": [
+            "(пеший поход, прогулка по маршруту)"
+          ],
+          "examples": [
+            "We went on a short hike before breakfast.",
+            "The park has hikes for every level.",
+            "That hike nearly killed my knees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp increase in a price, rate, or amount",
+          "body": [
+            "(резкое повышение (цен, ставок))",
+            "---"
+          ],
+          "examples": [
+            "Tenants are protesting the rent hike.",
+            "The board approved a five percent tuition hike.",
+            "Another interest rate hike would slow the housing market."
+          ]
+        }
+      ],
+      "русский": "пеший поход, прогулка по маршруту; резкое повышение (цен, ставок)",
       "plural": "hikes",
       "countability": "countable"
     },
@@ -1294,14 +1541,43 @@
       "term": "resort",
       "ipa": "/rɪˈzɔːrt/",
       "respell": "rih-ZORT",
-      "meaning": "A hotel or place built for vacations, with pools, restaurants, and activities. ---",
+      "meaning": "Resort has 2 distinct senses.",
       "examples": [
         "They stayed at a beach resort in Mexico.",
         "Ski resorts open in late November.",
-        "The resort has three pools and a golf course."
+        "The resort has three pools and a golf course.",
+        "Surgery is a last resort, not a first step.",
+        "They settled the dispute without resort to the courts.",
+        "Calling his parents was a desperate last resort."
       ],
-      "senses": [],
-      "русский": "курорт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hotel or place built for vacations, with pools, restaurants, and activities",
+          "body": [
+            "(курорт)"
+          ],
+          "examples": [
+            "They stayed at a beach resort in Mexico.",
+            "Ski resorts open in late November.",
+            "The resort has three pools and a golf course."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A course of action someone turns to when nothing else has worked",
+          "body": [
+            "(крайняя мера, последнее средство)",
+            "---"
+          ],
+          "examples": [
+            "Surgery is a last resort, not a first step.",
+            "They settled the dispute without resort to the courts.",
+            "Calling his parents was a desperate last resort."
+          ]
+        }
+      ],
+      "русский": "курорт; крайняя мера, последнее средство",
       "plural": "resorts",
       "countability": "countable"
     },
@@ -1309,14 +1585,58 @@
       "term": "lodge",
       "ipa": "/lɑːdʒ/",
       "respell": "LAHJ",
-      "meaning": "A hotel or large cabin in the mountains, woods, or a park. ---",
+      "meaning": "Lodge has 3 distinct senses.",
       "examples": [
         "We booked a room at the park lodge.",
         "Fishing lodges fill up early in the season.",
-        "The lodge has a huge stone fireplace."
+        "The lodge has a huge stone fireplace.",
+        "The lodge meets on the first Tuesday of every month.",
+        "Her father joined the lodge when he was thirty.",
+        "Both lodges in town raise money for scholarships.",
+        "The beavers built a lodge at the far end of the pond.",
+        "You can see the lodge sticking up through the ice.",
+        "Beaver lodges have their entrances underwater."
       ],
-      "senses": [],
-      "русский": "турбаза, гостиница на природе",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hotel or large cabin in the mountains, woods, or a park",
+          "body": [
+            "(турбаза, гостиница на природе)"
+          ],
+          "examples": [
+            "We booked a room at the park lodge.",
+            "Fishing lodges fill up early in the season.",
+            "The lodge has a huge stone fireplace."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A local branch of a fraternal society, or the hall where it meets",
+          "body": [
+            "(ложа (общества), местное отделение братства)"
+          ],
+          "examples": [
+            "The lodge meets on the first Tuesday of every month.",
+            "Her father joined the lodge when he was thirty.",
+            "Both lodges in town raise money for scholarships."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The dome of sticks and mud that beavers build to live in",
+          "body": [
+            "(хатка (бобровая))",
+            "---"
+          ],
+          "examples": [
+            "The beavers built a lodge at the far end of the pond.",
+            "You can see the lodge sticking up through the ice.",
+            "Beaver lodges have their entrances underwater."
+          ]
+        }
+      ],
+      "русский": "турбаза, гостиница на природе; ложа (общества), местное отделение братства; хатка (бобровая)",
       "plural": "lodges",
       "countability": "countable"
     },
@@ -1430,14 +1750,43 @@
       "term": "porter",
       "ipa": "/ˈpɔːrtər/",
       "respell": "POR-tur",
-      "meaning": "A person paid to carry luggage at a station, airport, or hotel. ---",
+      "meaning": "Porter has 2 distinct senses.",
       "examples": [
         "A porter helped us with the trunks.",
         "The porters line up outside the station.",
-        "We hired a porter to carry the gear up the trail."
+        "We hired a porter to carry the gear up the trail.",
+        "He ordered a porter and a plate of fries.",
+        "This brewery's porter tastes like coffee.",
+        "They have three porters on tap tonight."
       ],
-      "senses": [],
-      "русский": "носильщик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person paid to carry luggage at a station, airport, or hotel",
+          "body": [
+            "(носильщик)"
+          ],
+          "examples": [
+            "A porter helped us with the trunks.",
+            "The porters line up outside the station.",
+            "We hired a porter to carry the gear up the trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dark heavy beer made with roasted malt",
+          "body": [
+            "(портер (тёмное пиво))",
+            "---"
+          ],
+          "examples": [
+            "He ordered a porter and a plate of fries.",
+            "This brewery's porter tastes like coffee.",
+            "They have three porters on tap tonight."
+          ]
+        }
+      ],
+      "русский": "носильщик; портер (тёмное пиво)",
       "plural": "porters",
       "countability": "countable"
     },
@@ -1578,14 +1927,58 @@
       "term": "trailer",
       "ipa": "/ˈtreɪlər/",
       "respell": "TRAY-lur",
-      "meaning": "A vehicle without an engine that is pulled behind a car or truck. ---",
+      "meaning": "Trailer has 3 distinct senses.",
       "examples": [
         "They tow a small trailer behind the pickup.",
         "Half the trailers in the park are permanent.",
-        "We slept in the trailer instead of a tent."
+        "We slept in the trailer instead of a tent.",
+        "The trailer looked better than the movie.",
+        "They showed four trailers before the film started.",
+        "The studio put the first trailer online yesterday.",
+        "They live in a trailer just outside of town.",
+        "The storm flattened half the trailers in the park.",
+        "She grew up in a two-bedroom trailer."
       ],
-      "senses": [],
-      "русский": "прицеп; жилой прицеп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A vehicle without an engine that is pulled behind a car or truck",
+          "body": [
+            "(прицеп; жилой прицеп)"
+          ],
+          "examples": [
+            "They tow a small trailer behind the pickup.",
+            "Half the trailers in the park are permanent.",
+            "We slept in the trailer instead of a tent."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short set of clips advertising a movie or show before it comes out",
+          "body": [
+            "(трейлер, анонс (фильма))"
+          ],
+          "examples": [
+            "The trailer looked better than the movie.",
+            "They showed four trailers before the film started.",
+            "The studio put the first trailer online yesterday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long low home built to be hauled to a lot and lived in",
+          "body": [
+            "(трейлер, дом на колёсах)",
+            "---"
+          ],
+          "examples": [
+            "They live in a trailer just outside of town.",
+            "The storm flattened half the trailers in the park.",
+            "She grew up in a two-bedroom trailer."
+          ]
+        }
+      ],
+      "русский": "прицеп; жилой прицеп; трейлер, анонс (фильма); трейлер, дом на колёсах",
       "plural": "trailers",
       "countability": "countable"
     },
@@ -1609,14 +2002,58 @@
       "term": "train",
       "ipa": "/treɪn/",
       "respell": "TRAYN",
-      "meaning": "A line of connected railroad cars pulled along tracks. ---",
+      "meaning": "Train has 3 distinct senses.",
       "examples": [
         "The train to Boston leaves at 7:15.",
         "Trains run every twenty minutes on weekdays.",
-        "We took the night train to save on a hotel."
+        "We took the night train to save on a hotel.",
+        "Two girls carried the bride's train.",
+        "Her gown had a six-foot train.",
+        "He stepped on the train of her dress.",
+        "The phone rang and I lost my train of thought.",
+        "The letter set off a train of events no one expected.",
+        "A long train of small mistakes led to the crash."
       ],
-      "senses": [],
-      "русский": "поезд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of connected railroad cars pulled along tracks",
+          "body": [
+            "(поезд)"
+          ],
+          "examples": [
+            "The train to Boston leaves at 7:15.",
+            "Trains run every twenty minutes on weekdays.",
+            "We took the night train to save on a hotel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The long part of a gown that trails on the ground behind the wearer",
+          "body": [
+            "(шлейф (платья))"
+          ],
+          "examples": [
+            "Two girls carried the bride's train.",
+            "Her gown had a six-foot train.",
+            "He stepped on the train of her dress."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A series of connected thoughts or events",
+          "body": [
+            "(цепь, вереница (мыслей, событий))",
+            "---"
+          ],
+          "examples": [
+            "The phone rang and I lost my train of thought.",
+            "The letter set off a train of events no one expected.",
+            "A long train of small mistakes led to the crash."
+          ]
+        }
+      ],
+      "русский": "поезд; шлейф (платья); цепь, вереница (мыслей, событий)",
       "plural": "trains",
       "countability": "countable"
     },
@@ -1907,14 +2344,43 @@
       "term": "cab",
       "ipa": "/kæb/",
       "respell": "KAB",
-      "meaning": "A taxi, in everyday American speech. ---",
+      "meaning": "Cab has 2 distinct senses.",
       "examples": [
         "Let's just take a cab.",
         "No cabs were out in that snowstorm.",
-        "The cab ride cost more than the train ticket."
+        "The cab ride cost more than the train ticket.",
+        "He climbed up into the cab of the semi.",
+        "The cab of the tractor has air conditioning.",
+        "Two men were riding in the cab of the locomotive."
       ],
-      "senses": [],
-      "русский": "такси",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A taxi, in everyday American speech",
+          "body": [
+            "(такси)"
+          ],
+          "examples": [
+            "Let's just take a cab.",
+            "No cabs were out in that snowstorm.",
+            "The cab ride cost more than the train ticket."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a truck, train, or crane where the driver sits",
+          "body": [
+            "(кабина (водителя, машиниста))",
+            "---"
+          ],
+          "examples": [
+            "He climbed up into the cab of the semi.",
+            "The cab of the tractor has air conditioning.",
+            "Two men were riding in the cab of the locomotive."
+          ]
+        }
+      ],
+      "русский": "такси; кабина (водителя, машиниста)",
       "plural": "cabs",
       "countability": "countable"
     },
@@ -1968,14 +2434,58 @@
       "term": "route",
       "ipa": "/ruːt/",
       "respell": "ROOT",
-      "meaning": "The way you go from one place to another. ---",
+      "meaning": "Route has 3 distinct senses.",
       "examples": [
         "The scenic route adds an hour.",
         "Both routes end up at the same lake.",
-        "We planned our route the night before."
+        "We planned our route the night before.",
+        "Take Route 9 north for about ten miles.",
+        "The diner sits right off the old route.",
+        "Both routes run parallel to the river.",
+        "He had a paper route when he was twelve.",
+        "Her delivery route covers three neighborhoods.",
+        "The driver's route changed after the merger."
       ],
-      "senses": [],
-      "русский": "маршрут, дорога",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way you go from one place to another",
+          "body": [
+            "(маршрут, дорога)"
+          ],
+          "examples": [
+            "The scenic route adds an hour.",
+            "Both routes end up at the same lake.",
+            "We planned our route the night before."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A numbered highway",
+          "body": [
+            "(шоссе, трасса (с номером))"
+          ],
+          "examples": [
+            "Take Route 9 north for about ten miles.",
+            "The diner sits right off the old route.",
+            "Both routes run parallel to the river."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The fixed set of stops a person covers to deliver something",
+          "body": [
+            "(участок доставки (напр. разносчика газет))",
+            "---"
+          ],
+          "examples": [
+            "He had a paper route when he was twelve.",
+            "Her delivery route covers three neighborhoods.",
+            "The driver's route changed after the merger."
+          ]
+        }
+      ],
+      "русский": "маршрут, дорога; шоссе, трасса (с номером); участок доставки (напр. разносчика газет)",
       "plural": "routes",
       "countability": "countable",
       "contrast": "Many Americans also say it like rout, rhyming with out."
@@ -1984,14 +2494,43 @@
       "term": "toll",
       "ipa": "/toʊl/",
       "respell": "TOHL",
-      "meaning": "Money you pay to use a road, bridge, or tunnel. ---",
+      "meaning": "Toll has 2 distinct senses.",
       "examples": [
         "The toll on that bridge is nine dollars.",
         "Tolls add up fast on the turnpike.",
-        "We paid the toll with a transponder."
+        "We paid the toll with a transponder.",
+        "The death toll from the earthquake rose to 300.",
+        "Years of night shifts took a toll on his health.",
+        "The storm's toll on local farms was enormous."
       ],
-      "senses": [],
-      "русский": "плата за проезд (по дороге, мосту)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money you pay to use a road, bridge, or tunnel",
+          "body": [
+            "(плата за проезд (по дороге, мосту))"
+          ],
+          "examples": [
+            "The toll on that bridge is nine dollars.",
+            "Tolls add up fast on the turnpike.",
+            "We paid the toll with a transponder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The total damage or number of deaths caused by something bad",
+          "body": [
+            "(число жертв; ущерб, урон)",
+            "---"
+          ],
+          "examples": [
+            "The death toll from the earthquake rose to 300.",
+            "Years of night shifts took a toll on his health.",
+            "The storm's toll on local farms was enormous."
+          ]
+        }
+      ],
+      "русский": "плата за проезд (по дороге, мосту); число жертв; ущерб, урон",
       "plural": "tolls",
       "countability": "countable"
     },
@@ -2301,14 +2840,58 @@
       "term": "dock",
       "ipa": "/dɑːk/",
       "respell": "DAHK",
-      "meaning": "A structure at the edge of water where boats tie up. ---",
+      "meaning": "Dock has 3 distinct senses.",
       "examples": [
         "We waited on the dock for the ferry.",
         "The old docks have been turned into restaurants.",
-        "He tied the boat to the dock."
+        "He tied the boat to the dock.",
+        "The pallets are waiting on the loading dock.",
+        "Drivers back up to the dock to unload.",
+        "Deliveries come in through the dock in back.",
+        "He left his laptop in the dock at the office.",
+        "The speaker has a dock for your phone.",
+        "Both docks charge and transfer data at the same time."
       ],
-      "senses": [],
-      "русский": "причал, док",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A structure at the edge of water where boats tie up",
+          "body": [
+            "(причал, док)"
+          ],
+          "examples": [
+            "We waited on the dock for the ferry.",
+            "The old docks have been turned into restaurants.",
+            "He tied the boat to the dock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A raised platform where trucks are loaded and unloaded",
+          "body": [
+            "(погрузочная платформа, рампа)"
+          ],
+          "examples": [
+            "The pallets are waiting on the loading dock.",
+            "Drivers back up to the dock to unload.",
+            "Deliveries come in through the dock in back."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A stand that a phone, laptop, or other device sits in to charge or connect",
+          "body": [
+            "(док-станция)",
+            "---"
+          ],
+          "examples": [
+            "He left his laptop in the dock at the office.",
+            "The speaker has a dock for your phone.",
+            "Both docks charge and transfer data at the same time."
+          ]
+        }
+      ],
+      "русский": "причал, док; погрузочная платформа, рампа; док-станция",
       "plural": "docks",
       "countability": "countable"
     },
@@ -2495,14 +3078,43 @@
       "term": "castle",
       "ipa": "/ˈkæsəl/",
       "respell": "KAS-uhl",
-      "meaning": "A large old building with thick walls, built for defense. ---",
+      "meaning": "Castle has 2 distinct senses.",
       "examples": [
         "The castle sits on a hill above the river.",
         "Ruined castles are everywhere in that valley.",
-        "Tickets to the castle are twelve euros."
+        "Tickets to the castle are twelve euros.",
+        "He slid his castle down the open file.",
+        "She traded a bishop for a castle.",
+        "The castle moves only in straight lines."
       ],
-      "senses": [],
-      "русский": "замок (крепость)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large old building with thick walls, built for defense",
+          "body": [
+            "(замок (крепость))"
+          ],
+          "examples": [
+            "The castle sits on a hill above the river.",
+            "Ruined castles are everywhere in that valley.",
+            "Tickets to the castle are twelve euros."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The chess piece shaped like a tower, also called a rook",
+          "body": [
+            "(ладья (шахматная фигура))",
+            "---"
+          ],
+          "examples": [
+            "He slid his castle down the open file.",
+            "She traded a bishop for a castle.",
+            "The castle moves only in straight lines."
+          ]
+        }
+      ],
+      "русский": "замок (крепость); ладья (шахматная фигура)",
       "plural": "castles",
       "countability": "countable",
       "contrast": "The t is silent: KAS-uhl, not KAST-uhl."
@@ -2632,14 +3244,73 @@
       "term": "bridge",
       "ipa": "/brɪdʒ/",
       "respell": "BRIJ",
-      "meaning": "A structure built to carry a road or path over water or a gap. ---",
+      "meaning": "Bridge has 4 distinct senses.",
       "examples": [
         "The bridge is closed for repairs.",
         "Seven bridges cross the river downtown.",
-        "You get the best view from the middle of the bridge."
+        "You get the best view from the middle of the bridge.",
+        "His glasses left a red mark on the bridge of his nose.",
+        "She pinched the bridge of her nose and sighed.",
+        "The ball broke the bridge of his nose in two places.",
+        "My grandparents play bridge every Thursday night.",
+        "She belongs to a bridge club downtown.",
+        "He taught me bridge the summer I turned twelve.",
+        "The captain stayed on the bridge all night.",
+        "Three officers were on the bridge when the storm hit.",
+        "Passengers are not allowed on the bridge."
       ],
-      "senses": [],
-      "русский": "мост",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A structure built to carry a road or path over water or a gap",
+          "body": [
+            "(мост)"
+          ],
+          "examples": [
+            "The bridge is closed for repairs.",
+            "Seven bridges cross the river downtown.",
+            "You get the best view from the middle of the bridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The bony ridge at the top of the nose, between the eyes",
+          "body": [
+            "(переносица)"
+          ],
+          "examples": [
+            "His glasses left a red mark on the bridge of his nose.",
+            "She pinched the bridge of her nose and sighed.",
+            "The ball broke the bridge of his nose in two places."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A card game for four players in two teams",
+          "body": [
+            "(бридж (карточная игра))"
+          ],
+          "examples": [
+            "My grandparents play bridge every Thursday night.",
+            "She belongs to a bridge club downtown.",
+            "He taught me bridge the summer I turned twelve."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The raised platform on a ship from which the captain gives orders",
+          "body": [
+            "(капитанский мостик)",
+            "---"
+          ],
+          "examples": [
+            "The captain stayed on the bridge all night.",
+            "Three officers were on the bridge when the storm hit.",
+            "Passengers are not allowed on the bridge."
+          ]
+        }
+      ],
+      "русский": "мост; переносица; бридж (карточная игра); капитанский мостик",
       "plural": "bridges",
       "countability": "countable"
     },
@@ -2678,14 +3349,43 @@
       "term": "guide",
       "ipa": "/ɡaɪd/",
       "respell": "GYD",
-      "meaning": "A person who shows visitors around a place and explains it. ---",
+      "meaning": "Guide has 2 distinct senses.",
       "examples": [
         "Our guide spoke perfect English.",
         "The park hires guides for the summer season.",
-        "Ask the guide how old the church is."
+        "Ask the guide how old the church is.",
+        "We bought a guide to the national parks.",
+        "The user's guide is in the box.",
+        "Her study guide covers every chapter on the test."
       ],
-      "senses": [],
-      "русский": "гид, экскурсовод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who shows visitors around a place and explains it",
+          "body": [
+            "(гид, экскурсовод)"
+          ],
+          "examples": [
+            "Our guide spoke perfect English.",
+            "The park hires guides for the summer season.",
+            "Ask the guide how old the church is."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A book or set of instructions telling you how to do something or what to see",
+          "body": [
+            "(путеводитель, руководство, справочник)",
+            "---"
+          ],
+          "examples": [
+            "We bought a guide to the national parks.",
+            "The user's guide is in the box.",
+            "Her study guide covers every chapter on the test."
+          ]
+        }
+      ],
+      "русский": "гид, экскурсовод; путеводитель, руководство, справочник",
       "plural": "guides",
       "countability": "countable"
     },
@@ -2738,14 +3438,73 @@
       "term": "pool",
       "ipa": "/puːl/",
       "respell": "POOL",
-      "meaning": "A large container of water built for swimming. ---",
+      "meaning": "Pool has 4 distinct senses.",
       "examples": [
         "The kids were in the pool all afternoon.",
         "The resort has three pools and a hot tub.",
-        "Our room looks right out over the pool."
+        "Our room looks right out over the pool.",
+        "We shot pool in the basement all afternoon.",
+        "There's a pool table in the back of the bar.",
+        "He hustled tourists at pool for spending money.",
+        "The company draws from a small pool of translators.",
+        "Everyone chipped in for the office betting pool.",
+        "A shrinking pool of applicants worries the school district.",
+        "A pool of oil spread under the truck.",
+        "Blood had collected in a pool by the door.",
+        "Candle wax dried in pools on the table."
       ],
-      "senses": [],
-      "русский": "бассейн",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large container of water built for swimming",
+          "body": [
+            "(бассейн)"
+          ],
+          "examples": [
+            "The kids were in the pool all afternoon.",
+            "The resort has three pools and a hot tub.",
+            "Our room looks right out over the pool."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A game played on a cloth-covered table in which balls are hit into pockets with a long stick",
+          "body": [
+            "(пул, американский бильярд)"
+          ],
+          "examples": [
+            "We shot pool in the basement all afternoon.",
+            "There's a pool table in the back of the bar.",
+            "He hustled tourists at pool for spending money."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A shared supply of money, people, or things that others can draw on",
+          "body": [
+            "(общий фонд, резерв)"
+          ],
+          "examples": [
+            "The company draws from a small pool of translators.",
+            "Everyone chipped in for the office betting pool.",
+            "A shrinking pool of applicants worries the school district."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small amount of liquid lying on a surface",
+          "body": [
+            "(лужа, лужица)",
+            "---"
+          ],
+          "examples": [
+            "A pool of oil spread under the truck.",
+            "Blood had collected in a pool by the door.",
+            "Candle wax dried in pools on the table."
+          ]
+        }
+      ],
+      "русский": "бассейн; пул, американский бильярд; общий фонд, резерв; лужа, лужица",
       "plural": "pools",
       "countability": "countable"
     },

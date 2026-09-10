@@ -6,14 +6,43 @@
       "term": "tool",
       "ipa": "/tuːl/",
       "respell": "TOOL",
-      "meaning": "A device held in the hand and used to do a particular job. ---",
+      "meaning": "Tool has 2 distinct senses.",
       "examples": [
         "Every tool in the garage has its own hook on the wall.",
         "You'll need a few basic tools to put this together.",
-        "A screwdriver is the one tool I use almost every day."
+        "A screwdriver is the one tool I use almost every day.",
+        "Language is a writer's most important tool.",
+        "The app is a useful tool for tracking spending.",
+        "Taxes are a blunt tool for fixing the housing market."
       ],
-      "senses": [],
-      "русский": "инструмент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device held in the hand and used to do a particular job",
+          "body": [
+            "(инструмент)"
+          ],
+          "examples": [
+            "Every tool in the garage has its own hook on the wall.",
+            "You'll need a few basic tools to put this together.",
+            "A screwdriver is the one tool I use almost every day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Anything used as a means of doing a job or getting a result",
+          "body": [
+            "(средство, инструмент (в переносном смысле))",
+            "---"
+          ],
+          "examples": [
+            "Language is a writer's most important tool.",
+            "The app is a useful tool for tracking spending.",
+            "Taxes are a blunt tool for fixing the housing market."
+          ]
+        }
+      ],
+      "русский": "инструмент; средство, инструмент (в переносном смысле)",
       "plural": "tools",
       "countability": "countable"
     },
@@ -51,14 +80,43 @@
       "term": "saw",
       "ipa": "/sɔː/",
       "respell": "SAW",
-      "meaning": "A tool with a toothed blade for cutting wood, metal, or stone. ---",
+      "meaning": "Saw has 2 distinct senses.",
       "examples": [
         "This saw is too dull to cut anything.",
         "He cut the board in half with a hand saw.",
-        "The shop had saws hanging along the back wall."
+        "The shop had saws hanging along the back wall.",
+        "He trotted out the old saw about money not buying happiness.",
+        "The book opens with the familiar saw that history repeats itself.",
+        "Grandpa had a saw ready for every occasion."
       ],
-      "senses": [],
-      "русский": "пила",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool with a toothed blade for cutting wood, metal, or stone",
+          "body": [
+            "(пила)"
+          ],
+          "examples": [
+            "This saw is too dull to cut anything.",
+            "He cut the board in half with a hand saw.",
+            "The shop had saws hanging along the back wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An old saying that everyone has heard many times",
+          "body": [
+            "(избитая поговорка, прописная истина)",
+            "---"
+          ],
+          "examples": [
+            "He trotted out the old saw about money not buying happiness.",
+            "The book opens with the familiar saw that history repeats itself.",
+            "Grandpa had a saw ready for every occasion."
+          ]
+        }
+      ],
+      "русский": "пила; избитая поговорка, прописная истина",
       "plural": "saws",
       "countability": "countable",
       "contrast": "Sounds exactly like saw, the past tense of see."
@@ -97,14 +155,58 @@
       "term": "drill",
       "ipa": "/drɪl/",
       "respell": "DRIL",
-      "meaning": "A tool that spins a pointed bit to make holes. ---",
+      "meaning": "Drill has 3 distinct senses.",
       "examples": [
         "Can I borrow your drill for an hour?",
         "The battery on my cordless drill is dead.",
-        "They keep the drills locked in the back."
+        "They keep the drills locked in the back.",
+        "The school holds a fire drill every month.",
+        "The coach ran passing drills for an hour.",
+        "Spelling drills start the school day.",
+        "You know the drill — badge in, bag on the belt.",
+        "New hires learn the drill in about a week.",
+        "Same drill as last year, folks."
       ],
-      "senses": [],
-      "русский": "дрель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool that spins a pointed bit to make holes",
+          "body": [
+            "(дрель)"
+          ],
+          "examples": [
+            "Can I borrow your drill for an hour?",
+            "The battery on my cordless drill is dead.",
+            "They keep the drills locked in the back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An exercise repeated so that people learn a skill or a routine",
+          "body": [
+            "(тренировка, упражнение)"
+          ],
+          "examples": [
+            "The school holds a fire drill every month.",
+            "The coach ran passing drills for an hour.",
+            "Spelling drills start the school day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The usual way that something is done",
+          "body": [
+            "(заведённый порядок, известная процедура)",
+            "---"
+          ],
+          "examples": [
+            "You know the drill — badge in, bag on the belt.",
+            "New hires learn the drill in about a week.",
+            "Same drill as last year, folks."
+          ]
+        }
+      ],
+      "русский": "дрель; тренировка, упражнение; заведённый порядок, известная процедура",
       "plural": "drills",
       "countability": "countable"
     },
@@ -127,14 +229,58 @@
       "term": "blade",
       "ipa": "/bleɪd/",
       "respell": "BLAYD",
-      "meaning": "The flat cutting part of a knife, saw, or similar tool. ---",
+      "meaning": "Blade has 3 distinct senses.",
       "examples": [
         "Change the blade before you cut the tile.",
         "The blade on this saw is chipped.",
-        "Razor blades are behind the counter."
+        "Razor blades are behind the counter.",
+        "Not a blade of grass grew in the shade.",
+        "A single blade stuck to his wet shoe.",
+        "Dew sat on every blade in the yard.",
+        "The helicopter's blades began to turn.",
+        "Dust had built up on the fan blades.",
+        "He dipped the blade of the paddle into the water."
       ],
-      "senses": [],
-      "русский": "лезвие; полотно (пилы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat cutting part of a knife, saw, or similar tool",
+          "body": [
+            "(лезвие; полотно (пилы))"
+          ],
+          "examples": [
+            "Change the blade before you cut the tile.",
+            "The blade on this saw is chipped.",
+            "Razor blades are behind the counter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single long narrow leaf of grass",
+          "body": [
+            "(травинка, былинка)"
+          ],
+          "examples": [
+            "Not a blade of grass grew in the shade.",
+            "A single blade stuck to his wet shoe.",
+            "Dew sat on every blade in the yard."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the flat arms of a fan, propeller, or oar that pushes air or water",
+          "body": [
+            "(лопасть (вентилятора, винта, весла))",
+            "---"
+          ],
+          "examples": [
+            "The helicopter's blades began to turn.",
+            "Dust had built up on the fan blades.",
+            "He dipped the blade of the paddle into the water."
+          ]
+        }
+      ],
+      "русский": "лезвие; полотно (пилы); травинка, былинка; лопасть (вентилятора, винта, весла)",
       "plural": "blades",
       "countability": "countable"
     },
@@ -231,14 +377,43 @@
       "term": "ax",
       "ipa": "/æks/",
       "respell": "AKS",
-      "meaning": "A tool with a heavy blade on a handle, used for chopping wood. ---",
+      "meaning": "Ax has 2 distinct senses.",
       "examples": [
         "He split the firewood with an ax.",
         "The ax is hanging in the shed.",
-        "Both axes needed sharpening."
+        "Both axes needed sharpening.",
+        "Two hundred workers got the ax in March.",
+        "The show faced the ax after one season.",
+        "Nobody knew who would be next for the ax."
       ],
-      "senses": [],
-      "русский": "топор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool with a heavy blade on a handle, used for chopping wood",
+          "body": [
+            "(топор)"
+          ],
+          "examples": [
+            "He split the firewood with an ax.",
+            "The ax is hanging in the shed.",
+            "Both axes needed sharpening."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sudden dismissal from a job, or the cancellation of a program",
+          "body": [
+            "(увольнение; закрытие (проекта))",
+            "---"
+          ],
+          "examples": [
+            "Two hundred workers got the ax in March.",
+            "The show faced the ax after one season.",
+            "Nobody knew who would be next for the ax."
+          ]
+        }
+      ],
+      "русский": "топор; увольнение; закрытие (проекта)",
       "plural": "axes",
       "countability": "countable",
       "contrast": "Americans write ax or axe; the British write only axe. The plural axes is AK-siz — the plural of axis is AK-seez."
@@ -278,14 +453,58 @@
       "term": "socket",
       "ipa": "/ˈsɑːkət/",
       "respell": "SAH-kit",
-      "meaning": "A hollow metal cap that fits over a nut or bolt head and turns on a handle. ---",
+      "meaning": "Socket has 3 distinct senses.",
       "examples": [
         "Grab the half-inch socket for that nut.",
         "The socket wouldn't fit over the bolt head.",
-        "Half the sockets are missing from the set."
+        "Half the sockets are missing from the set.",
+        "There's only one socket in the whole bedroom.",
+        "The bulb wouldn't screw into the socket.",
+        "All the sockets on that wall are dead.",
+        "He popped his shoulder out of its socket.",
+        "Her eyes were sunk deep in their sockets.",
+        "The dentist packed the empty socket with gauze."
       ],
-      "senses": [],
-      "русский": "торцевая головка (для ключа)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hollow metal cap that fits over a nut or bolt head and turns on a handle",
+          "body": [
+            "(торцевая головка (для ключа))"
+          ],
+          "examples": [
+            "Grab the half-inch socket for that nut.",
+            "The socket wouldn't fit over the bolt head.",
+            "Half the sockets are missing from the set."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fitting that a plug or a light bulb goes into",
+          "body": [
+            "(розетка; патрон (для лампы))"
+          ],
+          "examples": [
+            "There's only one socket in the whole bedroom.",
+            "The bulb wouldn't screw into the socket.",
+            "All the sockets on that wall are dead."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A hollow in the body that another part fits into",
+          "body": [
+            "(впадина (глазница, суставная))",
+            "---"
+          ],
+          "examples": [
+            "He popped his shoulder out of its socket.",
+            "Her eyes were sunk deep in their sockets.",
+            "The dentist packed the empty socket with gauze."
+          ]
+        }
+      ],
+      "русский": "торцевая головка (для ключа); розетка; патрон (для лампы); впадина (глазница, суставная)",
       "plural": "sockets",
       "countability": "countable"
     },
@@ -293,14 +512,73 @@
       "term": "bolt",
       "ipa": "/boʊlt/",
       "respell": "BOHLT",
-      "meaning": "A thick metal pin with a head and a thread, fastened with a nut. ---",
+      "meaning": "Bolt has 4 distinct senses.",
       "examples": [
         "Tighten the bolt until it's snug.",
         "One bolt had rusted solid.",
-        "Four bolts hold the seat to the floor."
+        "Four bolts hold the seat to the floor.",
+        "A bolt struck the tree in our yard.",
+        "Bolts of lightning lit up the whole valley.",
+        "The news hit him like a bolt out of the blue.",
+        "She bought a whole bolt of blue cotton.",
+        "Bolts of fabric leaned against the shop wall.",
+        "One bolt was enough for all the curtains.",
+        "He slid the bolt across the door.",
+        "The old barn door has a rusty bolt.",
+        "She drew back the bolt and looked outside."
       ],
-      "senses": [],
-      "русский": "болт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick metal pin with a head and a thread, fastened with a nut",
+          "body": [
+            "(болт)"
+          ],
+          "examples": [
+            "Tighten the bolt until it's snug.",
+            "One bolt had rusted solid.",
+            "Four bolts hold the seat to the floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flash of lightning",
+          "body": [
+            "(молния (разряд))"
+          ],
+          "examples": [
+            "A bolt struck the tree in our yard.",
+            "Bolts of lightning lit up the whole valley.",
+            "The news hit him like a bolt out of the blue."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large roll of cloth",
+          "body": [
+            "(рулон, штука (ткани))"
+          ],
+          "examples": [
+            "She bought a whole bolt of blue cotton.",
+            "Bolts of fabric leaned against the shop wall.",
+            "One bolt was enough for all the curtains."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A sliding metal bar that fastens a door",
+          "body": [
+            "(засов, задвижка)",
+            "---"
+          ],
+          "examples": [
+            "He slid the bolt across the door.",
+            "The old barn door has a rusty bolt.",
+            "She drew back the bolt and looked outside."
+          ]
+        }
+      ],
+      "русский": "болт; молния (разряд); рулон, штука (ткани); засов, задвижка",
       "plural": "bolts",
       "countability": "countable"
     },
@@ -308,14 +586,43 @@
       "term": "washer",
       "ipa": "/ˈwɑːʃər/",
       "respell": "WAH-shur",
-      "meaning": "A flat ring placed under a nut or bolt to spread the pressure. ---",
+      "meaning": "Washer has 2 distinct senses.",
       "examples": [
         "Put a washer under the bolt head.",
         "The faucet was leaking because of a worn washer.",
-        "The bag had a hundred washers in it."
+        "The bag had a hundred washers in it.",
+        "The apartment comes with a washer and dryer.",
+        "Don't put that sweater in the washer.",
+        "Our washer leaked all over the basement floor."
       ],
-      "senses": [],
-      "русский": "шайба; прокладка (в кране)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat ring placed under a nut or bolt to spread the pressure",
+          "body": [
+            "(шайба; прокладка (в кране))"
+          ],
+          "examples": [
+            "Put a washer under the bolt head.",
+            "The faucet was leaking because of a worn washer.",
+            "The bag had a hundred washers in it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine that washes clothes",
+          "body": [
+            "(стиральная машина)",
+            "---"
+          ],
+          "examples": [
+            "The apartment comes with a washer and dryer.",
+            "Don't put that sweater in the washer.",
+            "Our washer leaked all over the basement floor."
+          ]
+        }
+      ],
+      "русский": "шайба; прокладка (в кране); стиральная машина",
       "plural": "washers",
       "countability": "countable"
     },
@@ -382,14 +689,73 @@
       "term": "anchor",
       "ipa": "/ˈæŋkər/",
       "respell": "ANG-kur",
-      "meaning": "A sleeve pushed into a wall so a screw can grip where there is no wood. ---",
+      "meaning": "Anchor has 4 distinct senses.",
       "examples": [
         "Use a drywall anchor if there's no stud.",
         "The anchor pulled right out of the plaster.",
-        "The mirror came with four anchors and screws."
+        "The mirror came with four anchors and screws.",
+        "They dropped anchor in a quiet little bay.",
+        "The anchor caught on a rock and wouldn't come up.",
+        "Two men hauled the anchor back onto the deck.",
+        "The evening news anchor has been on the air for twenty years.",
+        "She started as a reporter and became an anchor at thirty.",
+        "Both anchors were in the studio on election night.",
+        "His grandmother was the anchor of the whole family.",
+        "Sunday dinner is the anchor of our week.",
+        "After the layoffs, that job was her only anchor."
       ],
-      "senses": [],
-      "русский": "дюбель, анкер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sleeve pushed into a wall so a screw can grip where there is no wood",
+          "body": [
+            "(дюбель, анкер)"
+          ],
+          "examples": [
+            "Use a drywall anchor if there's no stud.",
+            "The anchor pulled right out of the plaster.",
+            "The mirror came with four anchors and screws."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A heavy metal hook lowered from a boat to hold it in one place",
+          "body": [
+            "(якорь)"
+          ],
+          "examples": [
+            "They dropped anchor in a quiet little bay.",
+            "The anchor caught on a rock and wouldn't come up.",
+            "Two men hauled the anchor back onto the deck."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The person who presents a television or radio news program",
+          "body": [
+            "(ведущий (новостей))"
+          ],
+          "examples": [
+            "The evening news anchor has been on the air for twenty years.",
+            "She started as a reporter and became an anchor at thirty.",
+            "Both anchors were in the studio on election night."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Someone or something that gives a person stability and support",
+          "body": [
+            "(опора, точка опоры)",
+            "---"
+          ],
+          "examples": [
+            "His grandmother was the anchor of the whole family.",
+            "Sunday dinner is the anchor of our week.",
+            "After the layoffs, that job was her only anchor."
+          ]
+        }
+      ],
+      "русский": "дюбель, анкер; якорь; ведущий (новостей); опора, точка опоры",
       "plural": "anchors",
       "countability": "countable",
       "contrast": "The ch is a hard k: ANG-kur."
@@ -443,14 +809,58 @@
       "term": "clip",
       "ipa": "/klɪp/",
       "respell": "KLIP",
-      "meaning": "A small springy fitting that grips something and holds it in place. ---",
+      "meaning": "Clip has 3 distinct senses.",
       "examples": [
         "A plastic clip holds the wire in place.",
         "The clip snapped when I pulled too hard.",
-        "Those clips keep the hose from sliding off."
+        "Those clips keep the hose from sliding off.",
+        "They played a clip from the interview on the news.",
+        "The clip went viral over the weekend.",
+        "He posted two clips of the concert.",
+        "The officer loaded a fresh clip.",
+        "He kept a spare clip in his jacket.",
+        "The rifle came with two clips."
       ],
-      "senses": [],
-      "русский": "зажим, клипса, скоба",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small springy fitting that grips something and holds it in place",
+          "body": [
+            "(зажим, клипса, скоба)"
+          ],
+          "examples": [
+            "A plastic clip holds the wire in place.",
+            "The clip snapped when I pulled too hard.",
+            "Those clips keep the hose from sliding off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short piece taken from a film, show, or recording",
+          "body": [
+            "(фрагмент, отрывок, клип)"
+          ],
+          "examples": [
+            "They played a clip from the interview on the news.",
+            "The clip went viral over the weekend.",
+            "He posted two clips of the concert."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A container that holds bullets and feeds them into a gun",
+          "body": [
+            "(магазин, обойма)",
+            "---"
+          ],
+          "examples": [
+            "The officer loaded a fresh clip.",
+            "He kept a spare clip in his jacket.",
+            "The rifle came with two clips."
+          ]
+        }
+      ],
+      "русский": "зажим, клипса, скоба; фрагмент, отрывок, клип; магазин, обойма",
       "plural": "clips",
       "countability": "countable"
     },
@@ -517,14 +927,43 @@
       "term": "gear",
       "ipa": "/ɡɪr/",
       "respell": "GEER",
-      "meaning": "A toothed wheel that turns another one; also equipment for an activity. ---",
+      "meaning": "Gear has 2 distinct senses.",
       "examples": [
         "One gear inside the drill was stripped.",
         "Bring your own safety gear to the job site.",
-        "The gears grind if you shift too fast."
+        "The gears grind if you shift too fast.",
+        "Shift into a lower gear before the hill.",
+        "The truck was stuck in first gear.",
+        "My bike has twenty-one gears."
       ],
-      "senses": [],
-      "русский": "шестерня; снаряжение, оснастка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A toothed wheel that turns another one; also equipment for an activity",
+          "body": [
+            "(шестерня; снаряжение, оснастка)"
+          ],
+          "examples": [
+            "One gear inside the drill was stripped.",
+            "Bring your own safety gear to the job site.",
+            "The gears grind if you shift too fast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the settings of a vehicle's transmission that controls speed and power",
+          "body": [
+            "(передача, скорость (в коробке передач))",
+            "---"
+          ],
+          "examples": [
+            "Shift into a lower gear before the hill.",
+            "The truck was stuck in first gear.",
+            "My bike has twenty-one gears."
+          ]
+        }
+      ],
+      "русский": "шестерня; снаряжение, оснастка; передача, скорость (в коробке передач)",
       "plural": "gears",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "A toothed wheel is countable (two gears); equipment is uncountable (a lot of gear, never 'gears')."
@@ -533,14 +972,43 @@
       "term": "wedge",
       "ipa": "/wɛdʒ/",
       "respell": "WEJ",
-      "meaning": "A block that is thick at one end and thin at the other, driven in to split or hold. ---",
+      "meaning": "Wedge has 2 distinct senses.",
       "examples": [
         "Drive a wedge into the crack to split the log.",
         "He used a wedge to hold the door open.",
-        "A couple of wedges will level that post."
+        "A couple of wedges will level that post.",
+        "She cut the lime into wedges.",
+        "He ordered a wedge of apple pie.",
+        "Serve the potato wedges with sour cream."
       ],
-      "senses": [],
-      "русский": "клин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A block that is thick at one end and thin at the other, driven in to split or hold",
+          "body": [
+            "(клин)"
+          ],
+          "examples": [
+            "Drive a wedge into the crack to split the log.",
+            "He used a wedge to hold the door open.",
+            "A couple of wedges will level that post."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick triangular piece cut from something such as cheese, cake, or fruit",
+          "body": [
+            "(долька, клинообразный кусок)",
+            "---"
+          ],
+          "examples": [
+            "She cut the lime into wedges.",
+            "He ordered a wedge of apple pie.",
+            "Serve the potato wedges with sour cream."
+          ]
+        }
+      ],
+      "русский": "клин; долька, клинообразный кусок",
       "plural": "wedges",
       "countability": "countable"
     },
@@ -622,14 +1090,43 @@
       "term": "cable",
       "ipa": "/ˈkeɪbəl/",
       "respell": "KAY-bul",
-      "meaning": "A thick wire or bundle of wires inside a protective covering. ---",
+      "meaning": "Cable has 2 distinct senses.",
       "examples": [
         "The cable runs under the floor.",
         "We pulled two hundred feet of cable through the attic.",
-        "Label both cables before you unplug them."
+        "Label both cables before you unplug them.",
+        "We canceled cable and stream everything now.",
+        "The game is only on cable.",
+        "Our cable bill went up again this year."
       ],
-      "senses": [],
-      "русский": "кабель; трос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick wire or bundle of wires inside a protective covering",
+          "body": [
+            "(кабель; трос)"
+          ],
+          "examples": [
+            "The cable runs under the floor.",
+            "We pulled two hundred feet of cable through the attic.",
+            "Label both cables before you unplug them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Television delivered to homes through wires, and the service that supplies it",
+          "body": [
+            "(кабельное телевидение)",
+            "---"
+          ],
+          "examples": [
+            "We canceled cable and stream everything now.",
+            "The game is only on cable.",
+            "Our cable bill went up again this year."
+          ]
+        }
+      ],
+      "русский": "кабель; трос; кабельное телевидение",
       "plural": "cables",
       "countability": "countable, and uncountable as a substance"
     },
@@ -653,14 +1150,43 @@
       "term": "fuse",
       "ipa": "/fjuːz/",
       "respell": "FYOOZ",
-      "meaning": "A safety part that melts and breaks a circuit when the current is too high. ---",
+      "meaning": "Fuse has 2 distinct senses.",
       "examples": [
         "A blown fuse killed the whole circuit.",
         "Replace the fuse with the same rating.",
-        "Older houses have fuses instead of breakers."
+        "Older houses have fuses instead of breakers.",
+        "He lit the fuse and stepped back.",
+        "The fuse burned down in a few seconds.",
+        "The bomb squad cut the fuses on the device."
       ],
-      "senses": [],
-      "русский": "предохранитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A safety part that melts and breaks a circuit when the current is too high",
+          "body": [
+            "(предохранитель)"
+          ],
+          "examples": [
+            "A blown fuse killed the whole circuit.",
+            "Replace the fuse with the same rating.",
+            "Older houses have fuses instead of breakers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cord or device that is lit or set to make a bomb or a firework go off",
+          "body": [
+            "(фитиль, запал)",
+            "---"
+          ],
+          "examples": [
+            "He lit the fuse and stepped back.",
+            "The fuse burned down in a few seconds.",
+            "The bomb squad cut the fuses on the device."
+          ]
+        }
+      ],
+      "русский": "предохранитель; фитиль, запал",
       "plural": "fuses",
       "countability": "countable"
     },
@@ -727,14 +1253,43 @@
       "term": "valve",
       "ipa": "/vælv/",
       "respell": "VALV",
-      "meaning": "A fitting that opens and closes to control the flow in a pipe. ---",
+      "meaning": "Valve has 2 distinct senses.",
       "examples": [
         "Shut the valve before you cut the line.",
         "The valve under the sink is corroded.",
-        "There are shutoff valves on both sides."
+        "There are shutoff valves on both sides.",
+        "He had surgery to replace a heart valve.",
+        "The valves keep blood from flowing backward.",
+        "A leaky valve showed up on the scan."
       ],
-      "senses": [],
-      "русский": "вентиль, клапан",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fitting that opens and closes to control the flow in a pipe",
+          "body": [
+            "(вентиль, клапан)"
+          ],
+          "examples": [
+            "Shut the valve before you cut the line.",
+            "The valve under the sink is corroded.",
+            "There are shutoff valves on both sides."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flap inside the heart or a body tube that keeps liquid flowing one way",
+          "body": [
+            "(клапан (сердечный, венозный))",
+            "---"
+          ],
+          "examples": [
+            "He had surgery to replace a heart valve.",
+            "The valves keep blood from flowing backward.",
+            "A leaky valve showed up on the scan."
+          ]
+        }
+      ],
+      "русский": "вентиль, клапан; клапан (сердечный, венозный)",
       "plural": "valves",
       "countability": "countable"
     },
@@ -742,14 +1297,43 @@
       "term": "pump",
       "ipa": "/pʌmp/",
       "respell": "PUMP",
-      "meaning": "A machine that moves liquid or air from one place to another. ---",
+      "meaning": "Pump has 2 distinct senses.",
       "examples": [
         "The sump pump runs every time it rains.",
         "The pump burned out after ten years.",
-        "They keep two pumps in the basement."
+        "They keep two pumps in the basement.",
+        "She wore black pumps with the suit.",
+        "These pumps kill my feet by noon.",
+        "A pair of low pumps sat by the door."
       ],
-      "senses": [],
-      "русский": "насос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that moves liquid or air from one place to another",
+          "body": [
+            "(насос)"
+          ],
+          "examples": [
+            "The sump pump runs every time it rains.",
+            "The pump burned out after ten years.",
+            "They keep two pumps in the basement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A woman's plain shoe with a raised heel and no strap or laces",
+          "body": [
+            "(лодочки (женские туфли))",
+            "---"
+          ],
+          "examples": [
+            "She wore black pumps with the suit.",
+            "These pumps kill my feet by noon.",
+            "A pair of low pumps sat by the door."
+          ]
+        }
+      ],
+      "русский": "насос; лодочки (женские туфли)",
       "plural": "pumps",
       "countability": "countable"
     },
@@ -918,14 +1502,43 @@
       "term": "router",
       "ipa": "/ˈraʊtər/",
       "respell": "ROW-tur",
-      "meaning": "A power tool with a spinning bit that cuts grooves and shaped edges in wood. ---",
+      "meaning": "Router has 2 distinct senses.",
       "examples": [
         "He rounded the edge with a router.",
         "The router left burn marks in the oak.",
-        "Both routers take the same bits."
+        "Both routers take the same bits.",
+        "Try unplugging the router and plugging it back in.",
+        "The Wi-Fi router sits in the hall closet.",
+        "Our old router couldn't handle four laptops."
       ],
-      "senses": [],
-      "русский": "фрезер (по дереву)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A power tool with a spinning bit that cuts grooves and shaped edges in wood",
+          "body": [
+            "(фрезер (по дереву))"
+          ],
+          "examples": [
+            "He rounded the edge with a router.",
+            "The router left burn marks in the oak.",
+            "Both routers take the same bits."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A box that connects the devices in a home or office to the internet",
+          "body": [
+            "(роутер, маршрутизатор)",
+            "---"
+          ],
+          "examples": [
+            "Try unplugging the router and plugging it back in.",
+            "The Wi-Fi router sits in the hall closet.",
+            "Our old router couldn't handle four laptops."
+          ]
+        }
+      ],
+      "русский": "фрезер (по дереву); роутер, маршрутизатор",
       "plural": "routers",
       "countability": "countable",
       "contrast": "In America it rhymes with out: ROW-tur. The British say ROO-tur."
@@ -964,14 +1577,43 @@
       "term": "machine",
       "ipa": "/məˈʃiːn/",
       "respell": "muh-SHEEN",
-      "meaning": "A powered device with moving parts that does a particular kind of work. ---",
+      "meaning": "Machine has 2 distinct senses.",
       "examples": [
         "This machine hasn't been serviced in years.",
         "Shut the machine off before you clean it.",
-        "The shop is full of old machines."
+        "The shop is full of old machines.",
+        "The city was run by a political machine for fifty years.",
+        "The party machine backed her from the start.",
+        "Old machines handed out city jobs to loyal voters."
       ],
-      "senses": [],
-      "русский": "машина, станок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A powered device with moving parts that does a particular kind of work",
+          "body": [
+            "(машина, станок)"
+          ],
+          "examples": [
+            "This machine hasn't been serviced in years.",
+            "Shut the machine off before you clean it.",
+            "The shop is full of old machines."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tightly run organization, especially a political one that controls votes and jobs",
+          "body": [
+            "((партийная) машина, политический аппарат)",
+            "---"
+          ],
+          "examples": [
+            "The city was run by a political machine for fifty years.",
+            "The party machine backed her from the start.",
+            "Old machines handed out city jobs to loyal voters."
+          ]
+        }
+      ],
+      "русский": "машина, станок; (партийная) машина, политический аппарат",
       "plural": "machines",
       "countability": "countable",
       "contrast": "The ch sounds like sh: muh-SHEEN."
@@ -980,14 +1622,43 @@
       "term": "device",
       "ipa": "/dɪˈvaɪs/",
       "respell": "dih-VYS",
-      "meaning": "A piece of equipment made for a specific purpose. ---",
+      "meaning": "Device has 2 distinct senses.",
       "examples": [
         "It's a simple device with one moving part.",
         "Every safety device on the saw had been removed.",
-        "These devices measure moisture inside a wall."
+        "These devices measure moisture inside a wall.",
+        "Repetition is a common device in speeches.",
+        "The novel uses a diary as a narrative device.",
+        "The poem relies on a few simple rhetorical devices."
       ],
-      "senses": [],
-      "русский": "устройство, приспособление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of equipment made for a specific purpose",
+          "body": [
+            "(устройство, приспособление)"
+          ],
+          "examples": [
+            "It's a simple device with one moving part.",
+            "Every safety device on the saw had been removed.",
+            "These devices measure moisture inside a wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A technique a writer or speaker uses to create an effect",
+          "body": [
+            "(приём (литературный, риторический))",
+            "---"
+          ],
+          "examples": [
+            "Repetition is a common device in speeches.",
+            "The novel uses a diary as a narrative device.",
+            "The poem relies on a few simple rhetorical devices."
+          ]
+        }
+      ],
+      "русский": "устройство, приспособление; приём (литературный, риторический)",
       "plural": "devices",
       "countability": "countable"
     },
@@ -1040,14 +1711,58 @@
       "term": "roller",
       "ipa": "/ˈroʊlər/",
       "respell": "ROH-lur",
-      "meaning": "A covered cylinder on a handle, rolled over a surface to spread paint. ---",
+      "meaning": "Roller has 3 distinct senses.",
       "examples": [
         "A roller covers a wall much faster than a brush.",
         "Load the roller evenly.",
-        "The rollers are in the paint aisle."
+        "The rollers are in the paint aisle.",
+        "She answered the door with rollers still in her hair.",
+        "Heat the rollers for ten minutes first.",
+        "My grandmother slept in rollers every night.",
+        "A worn roller was jamming the printer.",
+        "Boxes slid down the conveyor on metal rollers.",
+        "The shop replaced the rollers in the garage door."
       ],
-      "senses": [],
-      "русский": "валик (малярный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A covered cylinder on a handle, rolled over a surface to spread paint",
+          "body": [
+            "(валик (малярный))"
+          ],
+          "examples": [
+            "A roller covers a wall much faster than a brush.",
+            "Load the roller evenly.",
+            "The rollers are in the paint aisle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small tube that hair is wound onto to make it curl",
+          "body": [
+            "(бигуди)"
+          ],
+          "examples": [
+            "She answered the door with rollers still in her hair.",
+            "Heat the rollers for ten minutes first.",
+            "My grandmother slept in rollers every night."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A turning cylinder inside a machine that moves or presses things",
+          "body": [
+            "(валик, ролик (в механизме))",
+            "---"
+          ],
+          "examples": [
+            "A worn roller was jamming the printer.",
+            "Boxes slid down the conveyor on metal rollers.",
+            "The shop replaced the rollers in the garage door."
+          ]
+        }
+      ],
+      "русский": "валик (малярный); бигуди; валик, ролик (в механизме)",
       "plural": "rollers",
       "countability": "countable"
     },
@@ -1055,14 +1770,43 @@
       "term": "plunger",
       "ipa": "/ˈplʌndʒər/",
       "respell": "PLUN-jur",
-      "meaning": "A rubber cup on a stick used to push a blockage through a drain. ---",
+      "meaning": "Plunger has 2 distinct senses.",
       "examples": [
         "Every apartment needs a plunger.",
         "He cleared the drain with a plunger.",
-        "There are plungers in the cleaning closet."
+        "There are plungers in the cleaning closet.",
+        "The nurse pressed the plunger slowly.",
+        "Push the plunger down to strain the coffee.",
+        "The plunger on the syringe was stuck."
       ],
-      "senses": [],
-      "русский": "вантуз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rubber cup on a stick used to push a blockage through a drain",
+          "body": [
+            "(вантуз)"
+          ],
+          "examples": [
+            "Every apartment needs a plunger.",
+            "He cleared the drain with a plunger.",
+            "There are plungers in the cleaning closet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a syringe or similar device that you push down",
+          "body": [
+            "(поршень (шприца, френч-пресса))",
+            "---"
+          ],
+          "examples": [
+            "The nurse pressed the plunger slowly.",
+            "Push the plunger down to strain the coffee.",
+            "The plunger on the syringe was stuck."
+          ]
+        }
+      ],
+      "русский": "вантуз; поршень (шприца, френч-пресса)",
       "plural": "plungers",
       "countability": "countable"
     },
@@ -1160,14 +1904,43 @@
       "term": "ruler",
       "ipa": "/ˈruːlər/",
       "respell": "ROO-lur",
-      "meaning": "A straight strip marked with units, used to measure and draw lines. ---",
+      "meaning": "Ruler has 2 distinct senses.",
       "examples": [
         "Draw the line against a ruler.",
         "A metal ruler works better than plastic.",
-        "The rulers are in the desk drawer."
+        "The rulers are in the desk drawer.",
+        "He was the last ruler of the old kingdom.",
+        "The ruler refused to give up power.",
+        "Ancient rulers were buried with their treasure."
       ],
-      "senses": [],
-      "русский": "линейка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A straight strip marked with units, used to measure and draw lines",
+          "body": [
+            "(линейка)"
+          ],
+          "examples": [
+            "Draw the line against a ruler.",
+            "A metal ruler works better than plastic.",
+            "The rulers are in the desk drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who governs a country or people",
+          "body": [
+            "(правитель)",
+            "---"
+          ],
+          "examples": [
+            "He was the last ruler of the old kingdom.",
+            "The ruler refused to give up power.",
+            "Ancient rulers were buried with their treasure."
+          ]
+        }
+      ],
+      "русский": "линейка; правитель",
       "plural": "rulers",
       "countability": "countable"
     },
@@ -1175,14 +1948,73 @@
       "term": "level",
       "ipa": "/ˈlɛvəl/",
       "respell": "LEV-ul",
-      "meaning": "A tool with a bubble in liquid that shows whether a surface is flat or upright. ---",
+      "meaning": "Level has 4 distinct senses.",
       "examples": [
         "Set the level on top of the shelf.",
         "The bubble in the level is off center.",
-        "Laser levels have gotten cheap."
+        "Laser levels have gotten cheap.",
+        "The river reached a record level on Tuesday.",
+        "Noise levels downtown keep rising.",
+        "Her stress level dropped after the move.",
+        "Shoes are on the second level.",
+        "I parked on level three.",
+        "The mall has four levels.",
+        "He can't get past level nine.",
+        "The final level takes about an hour.",
+        "Each level is harder than the one before."
       ],
-      "senses": [],
-      "русский": "уровень (строительный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool with a bubble in liquid that shows whether a surface is flat or upright",
+          "body": [
+            "(уровень (строительный))"
+          ],
+          "examples": [
+            "Set the level on top of the shelf.",
+            "The bubble in the level is off center.",
+            "Laser levels have gotten cheap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount, size, or degree of something measured against a scale",
+          "body": [
+            "(уровень (величина, степень))"
+          ],
+          "examples": [
+            "The river reached a record level on Tuesday.",
+            "Noise levels downtown keep rising.",
+            "Her stress level dropped after the move."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A floor of a building or a parking garage",
+          "body": [
+            "(этаж, ярус)"
+          ],
+          "examples": [
+            "Shoes are on the second level.",
+            "I parked on level three.",
+            "The mall has four levels."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A stage in a video game that a player must finish to reach the next",
+          "body": [
+            "(уровень (в игре))",
+            "---"
+          ],
+          "examples": [
+            "He can't get past level nine.",
+            "The final level takes about an hour.",
+            "Each level is harder than the one before."
+          ]
+        }
+      ],
+      "русский": "уровень (строительный); уровень (величина, степень); этаж, ярус; уровень (в игре)",
       "plural": "levels",
       "countability": "countable"
     },
@@ -1190,14 +2022,58 @@
       "term": "gauge",
       "ipa": "/ɡeɪdʒ/",
       "respell": "GAYJ",
-      "meaning": "An instrument that shows a measurement such as pressure or thickness. ---",
+      "meaning": "Gauge has 3 distinct senses.",
       "examples": [
         "Check the tire pressure with a gauge.",
         "The gauge reads sixty pounds.",
-        "Both gauges were stuck at zero."
+        "Both gauges were stuck at zero.",
+        "Sheet metal comes in several gauges, from thin to heavy.",
+        "Use a heavier gauge of wire for the kitchen outlets.",
+        "Nurses pick a smaller gauge of needle for children.",
+        "Turnout is a rough gauge of how people feel about the mayor.",
+        "Ticket sales are the best gauge of a show's success.",
+        "Early polls are a poor gauge of the final result."
       ],
-      "senses": [],
-      "русский": "измерительный прибор, манометр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An instrument that shows a measurement such as pressure or thickness",
+          "body": [
+            "(измерительный прибор, манометр)"
+          ],
+          "examples": [
+            "Check the tire pressure with a gauge.",
+            "The gauge reads sixty pounds.",
+            "Both gauges were stuck at zero."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A standard measure of the thickness of wire or metal, or of the size of a shotgun barrel",
+          "body": [
+            "(калибр; толщина (провода, металла))"
+          ],
+          "examples": [
+            "Sheet metal comes in several gauges, from thin to heavy.",
+            "Use a heavier gauge of wire for the kitchen outlets.",
+            "Nurses pick a smaller gauge of needle for children."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fact or test used to judge how much of something there is",
+          "body": [
+            "(показатель, мерило)",
+            "---"
+          ],
+          "examples": [
+            "Turnout is a rough gauge of how people feel about the mayor.",
+            "Ticket sales are the best gauge of a show's success.",
+            "Early polls are a poor gauge of the final result."
+          ]
+        }
+      ],
+      "русский": "измерительный прибор, манометр; калибр; толщина (провода, металла); показатель, мерило",
       "plural": "gauges",
       "countability": "countable",
       "contrast": "Spelled g-a-u-g-e but said GAYJ, rhyming with page."
@@ -1222,14 +2098,43 @@
       "term": "torch",
       "ipa": "/tɔːrtʃ/",
       "respell": "TORCH",
-      "meaning": "A tool that burns gas in a hot flame for soldering, welding, or heating. ---",
+      "meaning": "Torch has 2 distinct senses.",
       "examples": [
         "He heated the pipe with a torch before soldering it.",
         "Keep the torch away from anything flammable.",
-        "The plumber carried two torches in his kit."
+        "The plumber carried two torches in his kit.",
+        "Runners carried the Olympic torch through town.",
+        "Torches lit the path down to the barn.",
+        "The guide held a torch above his head in the cave."
       ],
-      "senses": [],
-      "русский": "горелка, паяльная лампа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool that burns gas in a hot flame for soldering, welding, or heating",
+          "body": [
+            "(горелка, паяльная лампа)"
+          ],
+          "examples": [
+            "He heated the pipe with a torch before soldering it.",
+            "Keep the torch away from anything flammable.",
+            "The plumber carried two torches in his kit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stick with a flame burning at one end, carried for light or ceremony",
+          "body": [
+            "(факел)",
+            "---"
+          ],
+          "examples": [
+            "Runners carried the Olympic torch through town.",
+            "Torches lit the path down to the barn.",
+            "The guide held a torch above his head in the cave."
+          ]
+        }
+      ],
+      "русский": "горелка, паяльная лампа; факел",
       "plural": "torches",
       "countability": "countable",
       "contrast": "In America a torch makes a flame; in Britain a torch is what Americans call a flashlight."
@@ -1238,14 +2143,58 @@
       "term": "jack",
       "ipa": "/dʒæk/",
       "respell": "JAK",
-      "meaning": "A device that lifts a heavy object a short distance off the ground. ---",
+      "meaning": "Jack has 3 distinct senses.",
       "examples": [
         "Put the jack under the frame, not the body panel.",
         "The jack slipped and the car dropped.",
-        "Both jacks are rated for two tons."
+        "Both jacks are rated for two tons.",
+        "She drew the jack of hearts.",
+        "A pair of jacks was enough to win the hand.",
+        "He needed a jack to finish the straight.",
+        "The new phone has no headphone jack.",
+        "Plug the microphone into the jack on the front panel.",
+        "Every room has a phone jack by the door."
       ],
-      "senses": [],
-      "русский": "домкрат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that lifts a heavy object a short distance off the ground",
+          "body": [
+            "(домкрат)"
+          ],
+          "examples": [
+            "Put the jack under the frame, not the body panel.",
+            "The jack slipped and the car dropped.",
+            "Both jacks are rated for two tons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The playing card ranking between the ten and the queen",
+          "body": [
+            "(валет)"
+          ],
+          "examples": [
+            "She drew the jack of hearts.",
+            "A pair of jacks was enough to win the hand.",
+            "He needed a jack to finish the straight."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A socket that a plug fits into for sound, phone, or network cables",
+          "body": [
+            "(гнездо, разъём)",
+            "---"
+          ],
+          "examples": [
+            "The new phone has no headphone jack.",
+            "Plug the microphone into the jack on the front panel.",
+            "Every room has a phone jack by the door."
+          ]
+        }
+      ],
+      "русский": "домкрат; валет; гнездо, разъём",
       "plural": "jacks",
       "countability": "countable"
     },
@@ -1330,14 +2279,43 @@
       "term": "plank",
       "ipa": "/plæŋk/",
       "respell": "PLANGK",
-      "meaning": "A long thick flat piece of sawn wood. ---",
+      "meaning": "Plank has 2 distinct senses.",
       "examples": [
         "One plank on the deck is rotting.",
         "He walked out on a plank laid across the joists.",
-        "The planks were warped from the rain."
+        "The planks were warped from the rain.",
+        "Tax reform was the central plank of his campaign.",
+        "The party added a plank on climate change.",
+        "Both planks were dropped from the final platform."
       ],
-      "senses": [],
-      "русский": "доска (толстая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long thick flat piece of sawn wood",
+          "body": [
+            "(доска (толстая))"
+          ],
+          "examples": [
+            "One plank on the deck is rotting.",
+            "He walked out on a plank laid across the joists.",
+            "The planks were warped from the rain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the main points in a political party's program",
+          "body": [
+            "(пункт программы (партии))",
+            "---"
+          ],
+          "examples": [
+            "Tax reform was the central plank of his campaign.",
+            "The party added a plank on climate change.",
+            "Both planks were dropped from the final platform."
+          ]
+        }
+      ],
+      "русский": "доска (толстая); пункт программы (партии)",
       "plural": "planks",
       "countability": "countable"
     },

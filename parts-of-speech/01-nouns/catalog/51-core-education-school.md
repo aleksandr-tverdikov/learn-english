@@ -178,15 +178,23 @@ A large hall in a school where assemblies and performances are held.
 ### gym
 
 **Pronunciation:** /dʒɪm/ &middot; *JIM*
-**Русский:** спортзал, физкультура
+**Русский:** спортзал, физкультура; тренажёрный зал, фитнес-клуб
 **Plural:** *gyms*
 **Countability:** countable
 
-The large indoor room at a school used for sports and exercise classes.
+Gym has 2 distinct senses.
+
+**1. The large indoor room at a school used for sports and exercise classes.** (спортзал, физкультура)
 
 1. We have *gym* right after lunch.
 2. The basketball game is in the school *gym*.
 3. Both *gyms* were built in the seventies.
+
+**2. A club or business with exercise equipment that people pay to use.** (тренажёрный зал, фитнес-клуб)
+
+4. I go to the *gym* three mornings a week.
+5. A new *gym* is opening downtown.
+6. Both *gyms* near my office have pools.
 
 ---
 
@@ -507,30 +515,46 @@ A student in the second year of high school or college.
 ### junior
 
 **Pronunciation:** /ˈdʒuːnjər/ &middot; *JOON-yur*
-**Русский:** третьекурсник; одиннадцатиклассник
+**Русский:** третьекурсник; одиннадцатиклассник; младший (по возрасту)
 **Plural:** *juniors*
 **Countability:** countable
 
-A student in the third year of high school or college.
+Junior has 2 distinct senses.
+
+**1. A student in the third year of high school or college.** (третьекурсник; одиннадцатиклассник)
 
 1. *Juniors* take the college entrance exam in the spring.
 2. She's a *junior* majoring in biology.
 3. Most of my friends are *juniors*.
+
+**2. Someone who is younger than another person by a stated number of years.** (младший (по возрасту))
+
+4. My brother is my *junior* by four years.
+5. He married a woman twenty years his *junior*.
+6. The new supervisor turned out to be her *junior* by a decade.
 
 ---
 
 ### senior
 
 **Pronunciation:** /ˈsiːnjər/ &middot; *SEEN-yur*
-**Русский:** выпускник (последний год школы или вуза)
+**Русский:** выпускник (последний год школы или вуза); пожилой человек, пенсионер
 **Plural:** *seniors*
 **Countability:** countable
 
-A student in the final year of high school or college.
+Senior has 2 distinct senses.
+
+**1. A student in the final year of high school or college.** (выпускник (последний год школы или вуза))
 
 1. The *seniors* get out of class early on Fridays.
 2. As a *senior*, he only needs three more credits.
 3. *Seniors* have their own parking lot.
+
+**2. An older person, especially one who has retired.** (пожилой человек, пенсионер)
+
+4. The theater offers a discount for *seniors*.
+5. The center serves lunch to about eighty *seniors* a day.
+6. Many *seniors* in the county live alone.
 
 ---
 
@@ -715,14 +739,22 @@ The branch of math dealing with triangles and the ratios of their sides.
 ### biology
 
 **Pronunciation:** /baɪˈɑːlədʒi/ &middot; *by-AH-luh-jee*
-**Русский:** биология
+**Русский:** биология; физиология, устройство организма
 **Countability:** uncountable
 
-The science of living things.
+Biology has 2 distinct senses.
+
+**1. The science of living things.** (биология)
 
 1. We dissected a frog in *biology*.
 2. She majored in *biology* and went to medical school.
 3. *Biology* meets in the lab on Tuesdays.
+
+**2. The physical makeup and workings of a living thing.** (физиология, устройство организма)
+
+4. Human *biology* has not changed much in ten thousand years.
+5. Researchers are studying the *biology* of the tumor.
+6. Her *biology* made the medication risky.
 
 ---
 
@@ -960,31 +992,59 @@ Basic math with numbers: adding, subtracting, multiplying, and dividing.
 ### subject
 
 **Pronunciation:** /ˈsʌbdʒɪkt/ &middot; *SUB-jikt*
-**Русский:** предмет (учебный)
+**Русский:** предмет (учебный); тема, предмет (разговора); испытуемый, объект исследования; подлежащее
 **Plural:** *subjects*
 **Countability:** countable
 **Contrast:** Stress moves: the noun is SUB-jikt, the verb to subject is sub-JEKT.
 
-An area of knowledge studied at school, such as history or math.
+Subject has 4 distinct senses.
+
+**1. An area of knowledge studied at school, such as history or math.** (предмет (учебный))
 
 1. What's your favorite *subject*?
 2. History is the one *subject* he really likes.
 3. She's strong in all her *subjects*.
+
+**2. The thing being talked or written about.** (тема, предмет (разговора))
+
+4. Let's change the *subject*.
+5. The *subject* line of the email was blank.
+6. Money is a touchy *subject* in that family.
+
+**3. A person or animal taking part in an experiment or a study.** (испытуемый, объект исследования)
+
+7. The *subjects* were paid forty dollars each.
+8. Half the *subjects* were given a placebo.
+9. Every *subject* filled out a questionnaire first.
+
+**4. The word or phrase in a sentence that does the action of the verb.** (подлежащее)
+
+10. In "the dog barked," the *subject* is "the dog."
+11. The verb has to agree with the *subject*.
+12. Underline the *subject* of each sentence.
 
 ---
 
 ### exam
 
 **Pronunciation:** /ɪɡˈzæm/ &middot; *ig-ZAM*
-**Русский:** экзамен
+**Русский:** экзамен; осмотр, обследование (медицинское)
 **Plural:** *exams*
 **Countability:** countable
 
-An important formal test of what a student has learned.
+Exam has 2 distinct senses.
+
+**1. An important formal test of what a student has learned.** (экзамен)
 
 1. The *exam* is on Thursday at nine.
 2. He passed the *exam* on his second try.
 3. *Exams* are worth half the grade.
+
+**2. A careful check of the body carried out by a doctor.** (осмотр, обследование (медицинское))
+
+4. Her yearly *exam* is on Tuesday morning.
+5. The eye *exam* took about twenty minutes.
+6. Every player needs a physical *exam* before the season.
 
 ---
 
@@ -1014,16 +1074,24 @@ Test has 2 distinct senses.
 ### quiz
 
 **Pronunciation:** /kwɪz/ &middot; *KWIZ*
-**Русский:** проверочная работа, короткий тест
+**Русский:** проверочная работа, короткий тест; викторина
 **Plural:** *quizzes*
 **Countability:** countable
 **Contrast:** The plural doubles the z: quiz, quizzes.
 
-A short test, usually on a small amount of material.
+Quiz has 2 distinct senses.
+
+**1. A short test, usually on a small amount of material.** (проверочная работа, короткий тест)
 
 1. There's a vocabulary *quiz* every Monday.
 2. The *quiz* only took ten minutes.
 3. He drops the two lowest *quizzes*.
+
+**2. A game or contest in which people answer questions.** (викторина)
+
+4. Our team wins the trivia *quiz* at the bar most Tuesdays.
+5. He got on a TV *quiz* and won four thousand dollars.
+6. The whole family plays a history *quiz* on long car trips.
 
 ---
 
@@ -1045,46 +1113,82 @@ A short test given with no warning.
 ### midterm
 
 **Pronunciation:** /ˈmɪdtɜːrm/ &middot; *MID-turm*
-**Русский:** экзамен в середине семестра
+**Русский:** экзамен в середине семестра; промежуточные выборы (в Конгресс)
 **Plural:** *midterms*
 **Countability:** countable
 
-An exam given halfway through a course.
+Midterm has 2 distinct senses.
+
+**1. An exam given halfway through a course.** (экзамен в середине семестра)
 
 1. The *midterm* covers everything through chapter seven.
 2. I bombed the *midterm* but did well on the final.
 3. *Midterms* start next week.
+
+**2. A congressional election held halfway through a president's term.** (промежуточные выборы (в Конгресс))
+
+4. The party lost the House in the *midterms*.
+5. Turnout is lower in a *midterm* than in a presidential year.
+6. Both candidates are already campaigning for the *midterms*.
 
 ---
 
 ### final
 
 **Pronunciation:** /ˈfaɪnəl/ &middot; *FY-nuhl*
-**Русский:** итоговый экзамен
+**Русский:** итоговый экзамен; финал (соревнования)
 **Plural:** *finals*
 **Countability:** countable
 
-The exam at the end of a course.
+Final has 2 distinct senses.
+
+**1. The exam at the end of a course.** (итоговый экзамен)
 
 1. My chemistry *final* is at eight in the morning.
 2. *Finals* week is the worst week of the semester.
 3. She skipped the party to study for *finals*.
+
+**2. The last game of a competition, which decides the winner.** (финал (соревнования))
+
+4. They lost in the *final* by two points.
+5. The *final* is on Sunday night.
+6. She has reached three *finals* this season.
 
 ---
 
 ### grade
 
 **Pronunciation:** /ɡreɪd/ &middot; *GRAYD*
-**Русский:** оценка; класс (год обучения)
+**Русский:** оценка; класс (год обучения); класс (год обучения); сорт, категория, качество; уклон, подъём (дороги)
 **Plural:** *grades*
 **Countability:** countable
 **Contrast:** American *grade* where the British say mark; *grade* also means a school year, as in fifth grade, where the British say year or form.
 
-A letter or number showing how well a student did.
+Grade has 4 distinct senses.
+
+**1. A letter or number showing how well a student did.** (оценка; класс (год обучения))
 
 1. She got a good *grade* on her essay.
 2. My *grades* went up this semester.
 3. He needs a passing *grade* to graduate.
+
+**2. A year or level of school, counted from first to twelfth.** (класс (год обучения))
+
+4. My son is in the fourth *grade*.
+5. She teaches second *grade*.
+6. The younger *grades* eat lunch first.
+
+**3. A level of quality or rank within a range.** (сорт, категория, качество)
+
+7. This is the highest *grade* of maple syrup.
+8. They used a cheaper *grade* of steel.
+9. The two *grades* of gasoline differ by a few cents.
+
+**4. A slope in a road or a railroad track.** (уклон, подъём (дороги))
+
+10. The truck slowed down on the steep *grade*.
+11. There's a long *grade* just before the pass.
+12. Loaded trains struggle on *grades* like that.
 
 ---
 
@@ -1213,16 +1317,24 @@ A long piece of original research written for a doctoral degree.
 ### answer
 
 **Pronunciation:** /ˈænsər/ &middot; *AN-sur*
-**Русский:** ответ
+**Русский:** ответ; решение, выход (из положения)
 **Plural:** *answers*
 **Countability:** countable
 **Contrast:** The w is silent: AN-sur.
 
-What you say or write in reply to a question.
+Answer has 2 distinct senses.
+
+**1. What you say or write in reply to a question.** (ответ)
 
 1. Write your *answer* in the blank.
 2. I knew the *answer* but forgot it during the test.
 3. The *answers* are in the back of the book.
+
+**2. A way of solving a problem or dealing with a difficulty.** (решение, выход (из положения))
+
+4. More prisons are not the *answer* to crime.
+5. There is no easy *answer* to the housing shortage.
+6. She thinks money is the *answer* to everything.
 
 ---
 
@@ -1296,15 +1408,23 @@ The fact of being present at school or class, or the number of people present.
 ### absence
 
 **Pronunciation:** /ˈæbsəns/ &middot; *AB-suhnss*
-**Русский:** отсутствие, пропуск занятия
+**Русский:** отсутствие, пропуск занятия; отсутствие (чего-л.), нехватка
 **Plural:** *absences*
 **Countability:** countable
 
-An occasion when someone is not at school or work.
+Absence has 2 distinct senses.
+
+**1. An occasion when someone is not at school or work.** (отсутствие, пропуск занятия)
 
 1. You need a note to excuse an *absence*.
 2. Three unexcused *absences* mean a phone call home.
 3. Her long *absence* put her behind in every class.
+
+**2. The fact that something is not there or does not exist.** (отсутствие (чего-л.), нехватка)
+
+4. In the *absence* of any real evidence, the charges were dropped.
+5. The *absence* of streetlights makes that road dangerous at night.
+6. What struck me about the room was the *absence* of color.
 
 ---
 
@@ -1394,31 +1514,47 @@ The highest university degree, earned by doing original research.
 ### major
 
 **Pronunciation:** /ˈmeɪdʒər/ &middot; *MAY-jur*
-**Русский:** основная специальность (в вузе)
+**Русский:** основная специальность (в вузе); майор (воинское звание)
 **Plural:** *majors*
 **Countability:** countable
 
-The main subject a college student studies for a degree.
+Major has 2 distinct senses.
+
+**1. The main subject a college student studies for a degree.** (основная специальность (в вузе))
 
 1. What's your *major*?
 2. She changed her *major* twice.
 3. Engineering and nursing are the most popular *majors* here.
+
+**2. An army or air force officer ranking just above a captain.** (майор (воинское звание))
+
+4. She was promoted to *major* last year.
+5. The *major* briefed the unit at dawn.
+6. Two *majors* signed the report.
 
 ---
 
 ### minor
 
 **Pronunciation:** /ˈmaɪnər/ &middot; *MY-nur*
-**Русский:** дополнительная специальность
+**Русский:** дополнительная специальность; несовершеннолетний
 **Plural:** *minors*
 **Countability:** countable
 **Contrast:** Sounds exactly like miner, someone who digs in a mine.
 
-A second, smaller field of study alongside a college major.
+Minor has 2 distinct senses.
+
+**1. A second, smaller field of study alongside a college major.** (дополнительная специальность)
 
 1. He's got a *minor* in Spanish.
 2. A *minor* takes about six classes.
 3. The college offers over forty *minors*.
+
+**2. A person who is not yet legally an adult.** (несовершеннолетний)
+
+4. The bar was fined for serving a *minor*.
+5. Both drivers were *minors*.
+6. As a *minor*, she needed a parent's signature.
 
 ---
 
@@ -1659,15 +1795,23 @@ Suspension has 2 distinct senses.
 ### bell
 
 **Pronunciation:** /bɛl/ &middot; *BEL*
-**Русский:** звонок
+**Русский:** звонок; колокол, колокольчик
 **Plural:** *bells*
 **Countability:** countable
 
-The sound that marks the beginning and end of a class period.
+Bell has 2 distinct senses.
+
+**1. The sound that marks the beginning and end of a class period.** (звонок)
 
 1. The *bell* rang before I finished the last question.
 2. Stay seated until the *bell*.
 3. The *bells* are two minutes fast.
+
+**2. A hollow metal object that makes a ringing sound when it is struck.** (колокол, колокольчик)
+
+4. The church *bells* rang at noon.
+5. He tied a small *bell* to the cat's collar.
+6. A *bell* over the shop door jingled as we walked in.
 
 ---
 
@@ -1764,15 +1908,41 @@ A book published each year with photos of the students and school events.
 ### club
 
 **Pronunciation:** /klʌb/ &middot; *KLUB*
-**Русский:** кружок, клуб
+**Русский:** кружок, клуб; клуб, ночной клуб; клюшка (для гольфа); дубина, дубинка; трефы (масть)
 **Plural:** *clubs*
 **Countability:** countable
 
-A group of students who meet regularly to share an interest.
+Club has 5 distinct senses.
+
+**1. A group of students who meet regularly to share an interest.** (кружок, клуб)
 
 1. She joined the chess *club*.
 2. The Spanish *club* meets on Tuesdays.
 3. Colleges like to see that you joined *clubs*.
+
+**2. A place open late at night where people drink and dance to music.** (клуб, ночной клуб)
+
+4. We danced at a *club* downtown until two in the morning.
+5. The band plays small *clubs* around the city.
+6. There's a line outside the *club* every Saturday.
+
+**3. A long stick with a shaped head, used to hit a golf ball.** (клюшка (для гольфа))
+
+7. He pulled a *club* out of the bag and lined up his shot.
+8. You may carry fourteen *clubs* in a round.
+9. She swung the *club* too hard and missed.
+
+**4. A thick heavy stick used as a weapon.** (дубина, дубинка)
+
+10. The guard carried a wooden *club*.
+11. The protesters were driven back with *clubs*.
+12. He grabbed a branch and used it as a *club*.
+
+**5. One of the four suits in a deck of cards, marked with a black clover shape.** (трефы (масть))
+
+13. She led with the ace of *clubs*.
+14. *Clubs* are trump this hand.
+15. I was dealt three *clubs* and two hearts.
 
 ---
 
@@ -1793,16 +1963,24 @@ Control over behavior, kept by rules and punishment.
 ### lesson
 
 **Pronunciation:** /ˈlɛsən/ &middot; *LES-uhn*
-**Русский:** урок
+**Русский:** урок; урок (жизненный опыт)
 **Plural:** *lessons*
 **Countability:** countable
 **Contrast:** Sounds exactly like lessen, the verb meaning to reduce.
 
-A period of teaching on one topic.
+Lesson has 2 distinct senses.
+
+**1. A period of teaching on one topic.** (урок)
 
 1. Today's *lesson* is about fractions.
 2. She takes piano *lessons* on Saturdays.
 3. The *lesson* ran ten minutes long.
+
+**2. Something useful that experience teaches you.** (урок (жизненный опыт))
+
+4. Let that be a *lesson* to you.
+5. The flood taught the town a hard *lesson*.
+6. He learned his *lesson* about lending money to friends.
 
 ---
 
@@ -1824,15 +2002,29 @@ The subject that something is written or spoken about.
 ### chapter
 
 **Pronunciation:** /ˈtʃæptər/ &middot; *CHAP-tur*
-**Русский:** глава
+**Русский:** глава; отделение (местное отделение организации); этап, глава (жизни)
 **Plural:** *chapters*
 **Countability:** countable
 
-One of the numbered parts a book is divided into.
+Chapter has 3 distinct senses.
+
+**1. One of the numbered parts a book is divided into.** (глава)
 
 1. Read *chapter* six for Thursday.
 2. The test covers the first four *chapters*.
 3. Each *chapter* ends with review questions.
+
+**2. A local branch of a national club or organization.** (отделение (местное отделение организации))
+
+4. The local *chapter* meets on Tuesday nights.
+5. She started a *chapter* of the club at her school.
+6. Every *chapter* sends two delegates to the convention.
+
+**3. A distinct period in someone's life or in history.** (этап, глава (жизни))
+
+7. Moving west opened a new *chapter* for the family.
+8. That was a dark *chapter* in the country's history.
+9. She is closing this *chapter* and starting over.
 
 ---
 
@@ -1884,15 +2076,23 @@ A printed page of problems or questions for students to fill in.
 ### handout
 
 **Pronunciation:** /ˈhændaʊt/ &middot; *HAND-owt*
-**Русский:** раздаточный материал
+**Русский:** раздаточный материал; подачка, пособие
 **Plural:** *handouts*
 **Countability:** countable
 
-A printed sheet given to everyone in a class or meeting.
+Handout has 2 distinct senses.
+
+**1. A printed sheet given to everyone in a class or meeting.** (раздаточный материал)
 
 1. The *handout* has the formulas on it.
 2. Grab a *handout* on your way in.
 3. All the *handouts* are posted online too.
+
+**2. Money, food, or goods given free to someone in need.** (подачка, пособие)
+
+4. He was too proud to take a *handout*.
+5. The program is a hand up, not a *handout*.
+6. Farmers said they wanted fair prices, not government *handouts*.
 
 ---
 
@@ -2043,16 +2243,24 @@ A small container a child carries food to school in.
 ### whistle
 
 **Pronunciation:** /ˈwɪsəl/ &middot; *WISS-uhl*
-**Русский:** свисток
+**Русский:** свисток; свист
 **Plural:** *whistles*
 **Countability:** countable
 **Contrast:** The t is silent: WISS-uhl.
 
-A small device blown to make a loud sound, used to get attention.
+Whistle has 2 distinct senses.
+
+**1. A small device blown to make a loud sound, used to get attention.** (свисток)
 
 1. The gym teacher blew his *whistle*.
 2. She wears a *whistle* around her neck at recess.
 3. You could hear the *whistles* from the field.
+
+**2. The high clear sound made by blowing through your lips or by a device.** (свист)
+
+4. He let out a low *whistle* when he saw the price.
+5. The *whistle* of the kettle woke everyone up.
+6. We heard the train's *whistle* across the valley.
 
 ---
 
@@ -2146,30 +2354,46 @@ The process of gaining knowledge or skill.
 ### lecture
 
 **Pronunciation:** /ˈlɛktʃər/ &middot; *LEK-chur*
-**Русский:** лекция
+**Русский:** лекция; нотация, нравоучение
 **Plural:** *lectures*
 **Countability:** countable
 
-A long talk given to teach a group of students.
+Lecture has 2 distinct senses.
+
+**1. A long talk given to teach a group of students.** (лекция)
 
 1. The *lecture* lasted fifty minutes.
 2. I fell asleep during the *lecture*.
 3. His *lectures* are posted as videos.
+
+**2. A long scolding about how someone ought to behave.** (нотация, нравоучение)
+
+4. I got a *lecture* from my dad about the car.
+5. Spare me the *lecture*.
+6. The coach gave the team a *lecture* about showing up late.
 
 ---
 
 ### seminar
 
 **Pronunciation:** /ˈsɛmənɑːr/ &middot; *SEM-uh-nar*
-**Русский:** семинар
+**Русский:** семинар; семинар (обучающий), тренинг
 **Plural:** *seminars*
 **Countability:** countable
 
-A small class where students discuss a subject with a teacher.
+Seminar has 2 distinct senses.
+
+**1. A small class where students discuss a subject with a teacher.** (семинар)
 
 1. The *seminar* has only twelve students.
 2. Everyone has to present once in the *seminar*.
 3. She teaches two graduate *seminars*.
+
+**2. A meeting at which a subject is taught or discussed, held for professionals or the public.** (семинар (обучающий), тренинг)
+
+4. The bank runs a free *seminar* on buying your first home.
+5. She flew to Dallas for a two-day sales *seminar*.
+6. The *seminar* covers everything from taxes to insurance.
 
 ---
 
@@ -2206,15 +2430,23 @@ A talk in which people share ideas about a subject.
 ### debate
 
 **Pronunciation:** /dɪˈbeɪt/ &middot; *dih-BAYT*
-**Русский:** дебаты, спор
+**Русский:** дебаты, спор; обсуждение, полемика
 **Plural:** *debates*
 **Countability:** countable
 
-A formal argument in which two sides give opposing views.
+Debate has 2 distinct senses.
+
+**1. A formal argument in which two sides give opposing views.** (дебаты, спор)
 
 1. She joined the *debate* team her sophomore year.
 2. The *debate* was about school uniforms.
 3. They won three *debates* in a row.
+
+**2. General discussion of a question that people disagree about.** (обсуждение, полемика)
+
+4. There is still *debate* about how the fire started.
+5. The proposal set off fierce *debate* among the neighbors.
+6. Whether the law actually helped remains open to *debate*.
 
 ---
 

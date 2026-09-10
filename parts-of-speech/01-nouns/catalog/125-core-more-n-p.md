@@ -619,15 +619,29 @@ A chemical compound of nitrogen used to cure meat and keep it pink.
 ### nod
 
 **Pronunciation:** /nɑːd/ &middot; *NAHD*
-**Русский:** кивок
+**Русский:** кивок; одобрение; выбор в чью-л. пользу; отсылка, дань уважения
 **Plural:** *nods*
 **Countability:** countable
 
-A quick downward movement of the head to show agreement or greeting.
+Nod has 3 distinct senses.
+
+**1. A quick downward movement of the head to show agreement or greeting.** (кивок)
 
 1. He gave a quick *nod* and walked past.
 2. She agreed with a *nod*.
 3. A few *nods* around the table told me the plan was fine.
+
+**2. Approval, or the choice of one person over others.** (одобрение; выбор в чью-л. пользу)
+
+4. She got the *nod* to lead the project.
+5. The rookie got the *nod* to start on Sunday.
+6. The plan still needs a *nod* from the board.
+
+**3. A small detail that refers to or honors something else.** (отсылка, дань уважения)
+
+7. The remake is full of *nods* to the original.
+8. The menu includes a *nod* to the owner's grandmother.
+9. That line is a clear *nod* to Shakespeare.
 
 ---
 
@@ -948,15 +962,23 @@ The quality of being new and interesting, or a small cheap object sold because i
 ### novice
 
 **Pronunciation:** /ˈnɑːvɪs/ &middot; *NAH-vis*
-**Русский:** новичок
+**Русский:** новичок; послушник, послушница
 **Plural:** *novices*
 **Countability:** countable
 
-Someone who is new to an activity and has little experience of it.
+Novice has 2 distinct senses.
+
+**1. Someone who is new to an activity and has little experience of it.** (новичок)
 
 1. I'm still a *novice* at chess.
 2. The class is open to *novices* and experts alike.
 3. As a *novice*, she asked a lot of questions.
+
+**2. A person who has joined a religious order but has not yet taken final vows.** (послушник, послушница)
+
+4. Three *novices* entered the convent that spring.
+5. As a *novice* he spent his first year almost entirely in silence.
+6. The abbot meets with the *novices* every morning.
 
 ---
 
@@ -1008,15 +1030,23 @@ Someone who prefers to go without clothes, usually in places set aside for it.
 ### nugget
 
 **Pronunciation:** /ˈnʌɡɪt/ &middot; *NUG-it*
-**Русский:** самородок; кусочек (наггетс)
+**Русский:** самородок; кусочек (наггетс); крупица (информации), ценная мысль
 **Plural:** *nuggets*
 **Countability:** countable
 
-A small lump of something solid, especially gold or breaded meat.
+Nugget has 2 distinct senses.
+
+**1. A small lump of something solid, especially gold or breaded meat.** (самородок; кусочек (наггетс))
 
 1. He found a gold *nugget* in the creek.
 2. The kids want chicken *nuggets* again.
 3. There's a *nugget* of truth in what she said.
+
+**2. A small piece of valuable information or advice.** (крупица (информации), ценная мысль)
+
+4. The report has a few *nuggets* worth reading.
+5. He gave me a *nugget* of advice I still use.
+6. Buried in the footnotes was a real *nugget*.
 
 ---
 
@@ -2031,15 +2061,23 @@ The Japanese art of folding paper into shapes.
 ### origin
 
 **Pronunciation:** /ˈɔːrədʒɪn/ &middot; *OR-uh-jin*
-**Русский:** происхождение, начало
+**Русский:** происхождение, начало; происхождение (человека), корни
 **Plural:** *origins*
 **Countability:** countable
 
-The point or source from which something begins.
+Origin has 2 distinct senses.
+
+**1. The point or source from which something begins.** (происхождение, начало)
 
 1. The word has a Latin *origin*.
 2. Police are still looking into the fire's *origin*.
 3. He never talks about his family *origins*.
+
+**2. The family, country, or social class a person comes from.** (происхождение (человека), корни)
+
+4. Her family is of Portuguese *origin*.
+5. The form asks for your country of *origin*.
+6. He never hid his humble *origins*.
 
 ---
 
@@ -2759,15 +2797,23 @@ A person who keeps far too many things, or the American rodent known for hoardin
 ### pad
 
 **Pronunciation:** /pæd/ &middot; *PAD*
-**Русский:** блокнот; подушечка, прокладка
+**Русский:** блокнот; подушечка, прокладка; площадка (посадочная, стартовая)
 **Plural:** *pads*
 **Countability:** countable
 
-A thick soft piece of material used for protection or cleaning, or a block of writing paper.
+Pad has 2 distinct senses.
+
+**1. A thick soft piece of material used for protection or cleaning, or a block of writing paper.** (блокнот; подушечка, прокладка)
 
 1. She scribbled the address on a yellow legal *pad*.
 2. The goalie wears a *pad* on each knee.
 3. Put a couple of felt *pads* under the chair legs.
+
+**2. A flat surface where a helicopter lands or a rocket is launched.** (площадка (посадочная, стартовая))
+
+4. The helicopter set down on the hospital *pad*.
+5. The rocket sat on the *pad* through two days of delays.
+6. There's a landing *pad* on the roof of the building.
 
 ---
 
@@ -3963,15 +4009,23 @@ Revenge for something bad, or the return you get on money you spent.
 ### payday
 
 **Pronunciation:** /ˈpeɪˌdeɪ/ &middot; *PAY-day*
-**Русский:** день зарплаты
+**Русский:** день зарплаты; крупный заработок, большой куш
 **Plural:** *paydays*
 **Countability:** countable
 
-The day on which you receive your wages.
+Payday has 2 distinct senses.
+
+**1. The day on which you receive your wages.** (день зарплаты)
 
 1. Friday is *payday*.
 2. We're broke until *payday*.
 3. The store is busiest on *paydays*.
+
+**2. A large sum of money earned from a single event or deal.** (крупный заработок, большой куш)
+
+4. The fight was the biggest *payday* of his career.
+5. The sale gave the founders an eight-figure *payday*.
+6. A win here means a serious *payday* for the whole team.
 
 ---
 
@@ -5226,45 +5280,75 @@ A small flute that plays an octave higher than a regular one.
 ### pick
 
 **Pronunciation:** /pɪk/ &middot; *PIK*
-**Русский:** выбор
+**Русский:** выбор; медиатор, плектр; кирка
 **Plural:** *picks*
 **Countability:** countable
 
-A choice, or the person or thing that someone chooses.
+Pick has 3 distinct senses.
+
+**1. A choice, or the person or thing that someone chooses.** (выбор)
 
 1. Take your *pick* — they're all the same price.
 2. The team traded away its first-round *pick*.
 3. Her *picks* for the weekend games were all wrong.
+
+**2. A small flat piece of plastic used to pluck the strings of a guitar.** (медиатор, плектр)
+
+4. He keeps a *pick* tucked under the strings.
+5. I dropped my *pick* inside the guitar.
+6. She plays with her fingers instead of a *pick*.
+
+**3. A heavy tool with a pointed metal head, swung to break up rock or hard ground.** (кирка)
+
+7. The crew broke the frozen ground with *picks* and shovels.
+8. He swung the *pick* into the packed clay.
+9. A rusted miner's *pick* hung by the door.
 
 ---
 
 ### picket
 
 **Pronunciation:** /ˈpɪkɪt/ &middot; *PIK-it*
-**Русский:** пикетчик, пикет
+**Русский:** пикетчик, пикет; штакетина, кол (в заборе)
 **Plural:** *pickets*
 **Countability:** countable
 
-A striking worker or protester standing outside a workplace to discourage others from entering.
+Picket has 2 distinct senses.
+
+**1. A striking worker or protester standing outside a workplace to discourage others from entering.** (пикетчик, пикет)
 
 1. A *picket* handed me a flyer at the gate.
 2. The *pickets* stayed out there in the rain all afternoon.
 3. Drivers honked as they passed the *picket*.
+
+**2. A pointed wooden stake used to build a fence.** (штакетина, кол (в заборе))
+
+4. Two *pickets* had rotted at the base.
+5. He painted every *picket* by hand.
+6. The fence is made of pointed cedar *pickets*.
 
 ---
 
 ### pickle
 
 **Pronunciation:** /ˈpɪkəl/ &middot; *PIK-ul*
-**Русский:** соленый (маринованный) огурец
+**Русский:** соленый (маринованный) огурец; затруднительное положение, переплёт
 **Plural:** *pickles*
 **Countability:** countable
 
-A cucumber preserved in salty or sour liquid.
+Pickle has 2 distinct senses.
+
+**1. A cucumber preserved in salty or sour liquid.** (соленый (маринованный) огурец)
 
 1. The sandwich comes with a *pickle* on the side.
 2. He eats *pickles* straight out of the jar.
 3. Do you want *pickle* on your burger?
+
+**2. A difficult or awkward situation.** (затруднительное положение, переплёт)
+
+4. We're in a real *pickle* now that the car won't start.
+5. His lie got him into quite a *pickle*.
+6. She helped me out of a *pickle* last year.
 
 ---
 
@@ -5597,15 +5681,23 @@ A small sharp-toothed South American river fish that feeds in groups.
 ### pirate
 
 **Pronunciation:** /ˈpaɪrət/ &middot; *PY-rut*
-**Русский:** пират
+**Русский:** пират; пират (нарушитель авторских прав)
 **Plural:** *pirates*
 **Countability:** countable
 
-Someone who attacks and robs ships at sea.
+Pirate has 2 distinct senses.
+
+**1. Someone who attacks and robs ships at sea.** (пират)
 
 1. *Pirates* seized a tanker off the coast.
 2. He dressed as a *pirate* for Halloween.
 3. The museum has a whole room about Caribbean *pirates*.
+
+**2. Someone who illegally copies and sells films, music, or software.** (пират (нарушитель авторских прав))
+
+4. Software *pirates* had the game online within a day.
+5. The studio sued a group of *pirates* overseas.
+6. Video *pirates* filmed the movie from a theater seat.
 
 ---
 
@@ -5732,15 +5824,35 @@ The fixed point something turns on, or a sudden change of direction or strategy.
 ### place
 
 **Pronunciation:** /pleɪs/ &middot; *PLAYSS*
-**Русский:** место
+**Русский:** место; жильё, дом (чей-л.); место (в очереди, за столом); место (в соревновании)
 **Plural:** *places*
 **Countability:** countable
 
-A particular point, area, or building.
+Place has 4 distinct senses.
+
+**1. A particular point, area, or building.** (место)
 
 1. This is a good *place* to stop for lunch.
 2. We looked in all the usual *places*.
 3. Put it back in its *place* when you're done.
+
+**2. The house or apartment where someone lives.** (жильё, дом (чей-л.))
+
+4. We're having dinner at my *place* tonight.
+5. Her new *place* is a lot closer to work.
+6. They're looking for a bigger *place* downtown.
+
+**3. A seat or spot kept for a particular person.** (место (в очереди, за столом))
+
+7. Save my *place* in line while I get coffee.
+8. Set a *place* for your grandmother.
+9. She took her *place* at the front of the room.
+
+**4. The position someone finishes in a race or competition.** (место (в соревновании))
+
+10. She finished in second *place*.
+11. Our team took last *place* again.
+12. First *place* pays a thousand dollars.
 
 ---
 
@@ -5957,15 +6069,23 @@ A clever trick used to get an advantage over someone.
 ### plume
 
 **Pronunciation:** /pluːm/ &middot; *PLOOM*
-**Русский:** шлейф (дыма, пара); плюмаж
+**Русский:** шлейф (дыма, пара); плюмаж; перо (украшение), султан
 **Plural:** *plumes*
 **Countability:** countable
 
-A tall column of smoke, steam, or dust rising into the air.
+Plume has 2 distinct senses.
+
+**1. A tall column of smoke, steam, or dust rising into the air.** (шлейф (дыма, пара); плюмаж)
 
 1. A *plume* of smoke rose over the ridge.
 2. Ash *plumes* from the volcano grounded flights for two days.
 3. The chimney sent up a thin *plume* of steam.
+
+**2. A large showy feather worn as decoration.** (перо (украшение), султан)
+
+4. The hat was trimmed with an ostrich *plume*.
+5. White *plumes* nodded above the horses' heads.
+6. A single *plume* stood up from his helmet.
 
 ---
 
@@ -6544,15 +6664,23 @@ The way someone or something is shown in a book, film, or performance.
 ### pose
 
 **Pronunciation:** /poʊz/ &middot; *POHZ*
-**Русский:** поза
+**Русский:** поза; поза, притворство
 **Plural:** *poses*
 **Countability:** countable
 
-A particular position in which someone holds the body, especially for a photo or a painting.
+Pose has 2 distinct senses.
+
+**1. A particular position in which someone holds the body, especially for a photo or a painting.** (поза)
 
 1. Hold that *pose* while I focus the camera.
 2. The yoga class ended with a resting *pose*.
 3. He struck a dramatic *pose* on the courthouse steps.
+
+**2. A way of behaving that is not sincere, put on to impress people.** (поза, притворство)
+
+4. His modesty is just a *pose*.
+5. The tough-guy act is a *pose* he learned from movies.
+6. Behind the *pose* of indifference, he was terrified.
 
 ---
 
@@ -7195,16 +7323,24 @@ Something that comes before and leads into a more important event, or a short pi
 ### premise
 
 **Pronunciation:** /ˈprɛməs/ &middot; *PREM-iss*
-**Русский:** посылка, исходное положение
+**Русский:** посылка, исходное положение; помещение, здание (с прилегающей территорией)
 **Plural:** *premises*
 **Countability:** countable
 **Contrast:** The plural premises usually means a building and its grounds: no smoking on the premises.
 
-A statement or idea that an argument is built on.
+Premise has 2 distinct senses.
+
+**1. A statement or idea that an argument is built on.** (посылка, исходное положение)
 
 1. The whole plan rests on a false *premise*.
 2. Accept that *premise* and the rest follows.
 3. Her argument has two unstated *premises*.
+
+**2. The building and grounds occupied by a business or organization, used in the plural.** (помещение, здание (с прилегающей территорией))
+
+4. No food or drink is allowed on the *premises*.
+5. Security escorted him off the *premises*.
+6. The firm moved to larger *premises* downtown.
 
 ---
 
@@ -7862,15 +7998,23 @@ The state of being important and widely known.
 ### promise
 
 **Pronunciation:** /ˈprɑːməs/ &middot; *PRAH-muss*
-**Русский:** обещание
+**Русский:** обещание; задатки, многообещающие признаки
 **Plural:** *promises*
 **Countability:** countable
 
-A statement that you will certainly do something.
+Promise has 2 distinct senses.
+
+**1. A statement that you will certainly do something.** (обещание)
 
 1. He made a *promise* he couldn't keep.
 2. She kept her *promise* to call every Sunday.
 3. Campaign *promises* are easy to make and hard to fund.
+
+**2. Signs that someone or something will be successful later on.** (задатки, многообещающие признаки)
+
+4. The young pitcher shows real *promise*.
+5. Her first novel was full of *promise*.
+6. The project began with great *promise* and ended badly.
 
 ---
 
@@ -8425,15 +8569,23 @@ A small hole made by a sharp object.
 ### punk
 
 **Pronunciation:** /pʌŋk/ &middot; *PUNGK*
-**Русский:** панк (стиль музыки; человек)
+**Русский:** панк (стиль музыки; человек); хулиган, шпана
 **Plural:** *punks*
 **Countability:** both — countable and uncountable with different meanings
 
-A loud, rough style of rock music, or a young person who follows it.
+Punk has 2 distinct senses.
+
+**1. A loud, rough style of rock music, or a young person who follows it.** (панк (стиль музыки; человек))
 
 1. He grew up listening to *punk* and metal.
 2. A couple of *punks* with green hair walked past.
 3. The band's early records are pure *punk*.
+
+**2. A rude, worthless young man.** (хулиган, шпана)
+
+4. Some *punk* keyed my car.
+5. He was a scared little *punk* back then.
+6. The *punks* on the corner scattered when the cruiser pulled in.
 
 ---
 
@@ -8559,15 +8711,23 @@ A person with very strict moral standards, especially about pleasure.
 ### pursuit
 
 **Pronunciation:** /pərˈsuːt/ &middot; *pur-SOOT*
-**Русский:** погоня; занятие, стремление
+**Русский:** погоня; занятие, стремление; занятие, увлечение
 **Plural:** *pursuits*
 **Countability:** countable
 
-The act of chasing someone, or of trying to achieve something.
+Pursuit has 2 distinct senses.
+
+**1. The act of chasing someone, or of trying to achieve something.** (погоня; занятие, стремление)
 
 1. The chase ended after a ten-mile *pursuit* on the freeway.
 2. She gave up a good salary in *pursuit* of a degree.
 3. Hiking and photography are his favorite weekend *pursuits*.
+
+**2. An activity that someone spends time on, used mostly in the plural.** (занятие, увлечение)
+
+4. He went back to his scientific *pursuits*.
+5. Weekends are for outdoor *pursuits*.
+6. Reading was her main *pursuit* that winter.
 
 ---
 

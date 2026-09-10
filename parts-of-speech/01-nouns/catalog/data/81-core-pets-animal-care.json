@@ -93,14 +93,58 @@
       "term": "treat",
       "ipa": "/triːt/",
       "respell": "TREET",
-      "meaning": "A small piece of tasty food given to an animal as a reward. ---",
+      "meaning": "Treat has 3 distinct senses.",
       "examples": [
         "Give him a treat when he sits.",
         "She keeps treats in her coat pocket.",
-        "One more treat and that's it for tonight."
+        "One more treat and that's it for tonight.",
+        "Lunch is my treat today.",
+        "Going to the movies was a rare treat for us.",
+        "As a treat, he took the kids to the ballpark.",
+        "The kids came home with a bag of Halloween treats.",
+        "She baked treats for the whole class.",
+        "One treat after dinner, that's the rule."
       ],
-      "senses": [],
-      "русский": "лакомство (для животного)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of tasty food given to an animal as a reward",
+          "body": [
+            "(лакомство (для животного))"
+          ],
+          "examples": [
+            "Give him a treat when he sits.",
+            "She keeps treats in her coat pocket.",
+            "One more treat and that's it for tonight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something enjoyable that is out of the ordinary, often paid for by someone else",
+          "body": [
+            "(удовольствие, угощение (за чей-то счёт))"
+          ],
+          "examples": [
+            "Lunch is my treat today.",
+            "Going to the movies was a rare treat for us.",
+            "As a treat, he took the kids to the ballpark."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small sweet food, especially one given to children",
+          "body": [
+            "(сладость, лакомство)",
+            "---"
+          ],
+          "examples": [
+            "The kids came home with a bag of Halloween treats.",
+            "She baked treats for the whole class.",
+            "One treat after dinner, that's the rule."
+          ]
+        }
+      ],
+      "русский": "лакомство (для животного); удовольствие, угощение (за чей-то счёт); сладость, лакомство",
       "plural": "treats",
       "countability": "countable"
     },
@@ -745,14 +789,43 @@
       "term": "handler",
       "ipa": "/ˈhændlər/",
       "respell": "HAND-lur",
-      "meaning": "A person who controls and works with a trained animal. ---",
+      "meaning": "Handler has 2 distinct senses.",
       "examples": [
         "The handler led the dog around the ring.",
         "Police dogs live with their handlers.",
-        "She's been a handler at dog shows for years."
+        "She's been a handler at dog shows for years.",
+        "His handlers kept him away from reporters.",
+        "The candidate ignored her handlers and answered the question.",
+        "A handler steered him toward the next interview."
       ],
-      "senses": [],
-      "русский": "хендлер, кинолог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who controls and works with a trained animal",
+          "body": [
+            "(хендлер, кинолог)"
+          ],
+          "examples": [
+            "The handler led the dog around the ring.",
+            "Police dogs live with their handlers.",
+            "She's been a handler at dog shows for years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who manages a politician's or celebrity's public appearances",
+          "body": [
+            "(сопровождающий помощник, имиджмейкер)",
+            "---"
+          ],
+          "examples": [
+            "His handlers kept him away from reporters.",
+            "The candidate ignored her handlers and answered the question.",
+            "A handler steered him toward the next interview."
+          ]
+        }
+      ],
+      "русский": "хендлер, кинолог; сопровождающий помощник, имиджмейкер",
       "plural": "handlers",
       "countability": "countable"
     },
@@ -1122,14 +1195,43 @@
       "term": "lapdog",
       "ipa": "/ˈlæpdɔːɡ/",
       "respell": "LAP-dawg",
-      "meaning": "A small dog kept purely as company. ---",
+      "meaning": "Lapdog has 2 distinct senses.",
       "examples": [
         "The little lapdog never leaves her side.",
         "Lapdogs were bred for company, not work.",
-        "He's a sixty-pound lapdog in his own mind."
+        "He's a sixty-pound lapdog in his own mind.",
+        "Critics called the agency a lapdog of the industry.",
+        "He refused to be anyone's lapdog.",
+        "The paper was accused of being a lapdog for the mayor."
       ],
-      "senses": [],
-      "русский": "комнатная собачка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small dog kept purely as company",
+          "body": [
+            "(комнатная собачка)"
+          ],
+          "examples": [
+            "The little lapdog never leaves her side.",
+            "Lapdogs were bred for company, not work.",
+            "He's a sixty-pound lapdog in his own mind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or organization that obeys someone powerful without question",
+          "body": [
+            "(прихвостень, послушная марионетка)",
+            "---"
+          ],
+          "examples": [
+            "Critics called the agency a lapdog of the industry.",
+            "He refused to be anyone's lapdog.",
+            "The paper was accused of being a lapdog for the mayor."
+          ]
+        }
+      ],
+      "русский": "комнатная собачка; прихвостень, послушная марионетка",
       "plural": "lapdogs",
       "countability": "countable"
     },
@@ -1228,14 +1330,43 @@
       "term": "kitty",
       "ipa": "/ˈkɪti/",
       "respell": "KIT-ee",
-      "meaning": "An affectionate word for a cat, especially a young one. ---",
+      "meaning": "Kitty has 2 distinct senses.",
       "examples": [
         "Come here, kitty.",
         "The kids named the kitty Waffles.",
-        "Two kitties were curled up in the box."
+        "Two kitties were curled up in the box.",
+        "Everyone put five dollars in the kitty for pizza.",
+        "The office kitty pays for coffee and snacks.",
+        "Whatever is left in the kitty gets split at the end."
       ],
-      "senses": [],
-      "русский": "киска, кошечка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An affectionate word for a cat, especially a young one",
+          "body": [
+            "(киска, кошечка)"
+          ],
+          "examples": [
+            "Come here, kitty.",
+            "The kids named the kitty Waffles.",
+            "Two kitties were curled up in the box."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pool of money that several people put into for a shared purpose",
+          "body": [
+            "(общая касса, общий котёл)",
+            "---"
+          ],
+          "examples": [
+            "Everyone put five dollars in the kitty for pizza.",
+            "The office kitty pays for coffee and snacks.",
+            "Whatever is left in the kitty gets split at the end."
+          ]
+        }
+      ],
+      "русский": "киска, кошечка; общая касса, общий котёл",
       "plural": "kitties",
       "countability": "countable"
     },
@@ -1303,14 +1434,43 @@
       "term": "canine",
       "ipa": "/ˈkeɪnaɪn/",
       "respell": "KAY-nyn",
-      "meaning": "A dog, or any animal of the dog family. ---",
+      "meaning": "Canine has 2 distinct senses.",
       "examples": [
         "The vaccine protects canines against several viruses.",
         "This unit works with a canine partner.",
-        "Canines and felines need different diets."
+        "Canines and felines need different diets.",
+        "The dentist capped a chipped canine.",
+        "Her upper canines came in crooked.",
+        "A wolf's canines can crack bone."
       ],
-      "senses": [],
-      "русский": "собака, представитель псовых",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dog, or any animal of the dog family",
+          "body": [
+            "(собака, представитель псовых)"
+          ],
+          "examples": [
+            "The vaccine protects canines against several viruses.",
+            "This unit works with a canine partner.",
+            "Canines and felines need different diets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the four pointed teeth near the front of the mouth",
+          "body": [
+            "(клык)",
+            "---"
+          ],
+          "examples": [
+            "The dentist capped a chipped canine.",
+            "Her upper canines came in crooked.",
+            "A wolf's canines can crack bone."
+          ]
+        }
+      ],
+      "русский": "собака, представитель псовых; клык",
       "plural": "canines",
       "countability": "countable",
       "contrast": "Canine is also the name of the pointed tooth on each side of your front teeth."
@@ -1528,14 +1688,43 @@
       "term": "rein",
       "ipa": "/reɪn/",
       "respell": "RAYN",
-      "meaning": "A long strap running from the bridle that the rider holds to steer. ---",
+      "meaning": "Rein has 2 distinct senses.",
       "examples": [
         "She pulled on the left rein.",
         "Hold the reins in both hands.",
-        "One rein had snapped clean through."
+        "One rein had snapped clean through.",
+        "She took over the reins of the company in May.",
+        "He finally handed the reins to his daughter.",
+        "The board keeps a tight rein on spending."
       ],
-      "senses": [],
-      "русский": "повод, вожжа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long strap running from the bridle that the rider holds to steer",
+          "body": [
+            "(повод, вожжа)"
+          ],
+          "examples": [
+            "She pulled on the left rein.",
+            "Hold the reins in both hands.",
+            "One rein had snapped clean through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Control of an organization or a situation",
+          "body": [
+            "(бразды правления, контроль)",
+            "---"
+          ],
+          "examples": [
+            "She took over the reins of the company in May.",
+            "He finally handed the reins to his daughter.",
+            "The board keeps a tight rein on spending."
+          ]
+        }
+      ],
+      "русский": "повод, вожжа; бразды правления, контроль",
       "plural": "reins",
       "countability": "countable",
       "contrast": "Rein sounds like rain and like reign — three different words."
@@ -1559,14 +1748,43 @@
       "term": "spur",
       "ipa": "/spɜːr/",
       "respell": "SPUR",
-      "meaning": "A small metal point on a rider's heel, used to urge a horse on. ---",
+      "meaning": "Spur has 2 distinct senses.",
       "examples": [
         "The rider touched the horse with a spur.",
         "Spurs should be used lightly, if at all.",
-        "One spur had come off in the dirt."
+        "One spur had come off in the dirt.",
+        "Tax breaks acted as a spur to new building.",
+        "The award was a spur to keep writing.",
+        "We bought the tickets on the spur of the moment."
       ],
-      "senses": [],
-      "русский": "шпора",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small metal point on a rider's heel, used to urge a horse on",
+          "body": [
+            "(шпора)"
+          ],
+          "examples": [
+            "The rider touched the horse with a spur.",
+            "Spurs should be used lightly, if at all.",
+            "One spur had come off in the dirt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that encourages an action or speeds up a development",
+          "body": [
+            "(стимул, толчок)",
+            "---"
+          ],
+          "examples": [
+            "Tax breaks acted as a spur to new building.",
+            "The award was a spur to keep writing.",
+            "We bought the tickets on the spur of the moment."
+          ]
+        }
+      ],
+      "русский": "шпора; стимул, толчок",
       "plural": "spurs",
       "countability": "countable"
     },
@@ -1680,14 +1898,43 @@
       "term": "snarl",
       "ipa": "/snɑːrl/",
       "respell": "SNARL",
-      "meaning": "An angry growl made with the teeth showing. ---",
+      "meaning": "Snarl has 2 distinct senses.",
       "examples": [
         "He curled his lip in a snarl.",
         "The snarl was enough to back the stranger off.",
-        "Snarls came from both sides of the fence."
+        "Snarls came from both sides of the fence.",
+        "The wind left a snarl in her hair.",
+        "The accident caused a two-hour traffic snarl.",
+        "He worked the snarls out of the fishing line."
       ],
-      "senses": [],
-      "русский": "рычание с оскалом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An angry growl made with the teeth showing",
+          "body": [
+            "(рычание с оскалом)"
+          ],
+          "examples": [
+            "He curled his lip in a snarl.",
+            "The snarl was enough to back the stranger off.",
+            "Snarls came from both sides of the fence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tangled mass of something such as hair, wire, or stopped traffic",
+          "body": [
+            "(клубок, путаница; затор)",
+            "---"
+          ],
+          "examples": [
+            "The wind left a snarl in her hair.",
+            "The accident caused a two-hour traffic snarl.",
+            "He worked the snarls out of the fishing line."
+          ]
+        }
+      ],
+      "русский": "рычание с оскалом; клубок, путаница; затор",
       "plural": "snarls",
       "countability": "countable"
     },

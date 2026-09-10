@@ -21,14 +21,43 @@
       "term": "groom",
       "ipa": "/ɡruːm/",
       "respell": "GROOM",
-      "meaning": "The man who is getting married on his wedding day. ---",
+      "meaning": "Groom has 2 distinct senses.",
       "examples": [
         "The groom looked nervous at the altar.",
         "The bride and groom cut the cake together.",
-        "Traditionally the groom doesn't see the dress beforehand."
+        "Traditionally the groom doesn't see the dress beforehand.",
+        "The groom led the mare back to her stall.",
+        "He worked as a groom at a racing stable.",
+        "Two grooms were brushing the horses down."
       ],
-      "senses": [],
-      "русский": "жених (на свадьбе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The man who is getting married on his wedding day",
+          "body": [
+            "(жених (на свадьбе))"
+          ],
+          "examples": [
+            "The groom looked nervous at the altar.",
+            "The bride and groom cut the cake together.",
+            "Traditionally the groom doesn't see the dress beforehand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose job is to feed and take care of horses",
+          "body": [
+            "(конюх)",
+            "---"
+          ],
+          "examples": [
+            "The groom led the mare back to her stall.",
+            "He worked as a groom at a racing stable.",
+            "Two grooms were brushing the horses down."
+          ]
+        }
+      ],
+      "русский": "жених (на свадьбе); конюх",
       "plural": "grooms",
       "countability": "countable"
     },
@@ -204,14 +233,58 @@
       "term": "ball",
       "ipa": "/bɔːl/",
       "respell": "BAWL",
-      "meaning": "A large formal party with dancing. ---",
+      "meaning": "Ball has 3 distinct senses.",
       "examples": [
         "The charity ball is black tie.",
         "She's been to two balls this season.",
-        "The governor's inaugural ball was held downtown."
+        "The governor's inaugural ball was held downtown.",
+        "The dog brought the ball back every time.",
+        "He hit the ball over the fence.",
+        "We lost three balls in the tall grass.",
+        "Roll the dough into a ball and let it rest.",
+        "The cat unwound a whole ball of yarn.",
+        "He crushed the letter into a ball."
       ],
-      "senses": [],
-      "русский": "бал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large formal party with dancing",
+          "body": [
+            "(бал)"
+          ],
+          "examples": [
+            "The charity ball is black tie.",
+            "She's been to two balls this season.",
+            "The governor's inaugural ball was held downtown."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A round object that is thrown, kicked, or hit in games",
+          "body": [
+            "(мяч)"
+          ],
+          "examples": [
+            "The dog brought the ball back every time.",
+            "He hit the ball over the fence.",
+            "We lost three balls in the tall grass."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something squeezed or rolled into a round mass",
+          "body": [
+            "(шар, комок, клубок)",
+            "---"
+          ],
+          "examples": [
+            "Roll the dough into a ball and let it rest.",
+            "The cat unwound a whole ball of yarn.",
+            "He crushed the letter into a ball."
+          ]
+        }
+      ],
+      "русский": "бал; мяч; шар, комок, клубок",
       "plural": "balls",
       "countability": "countable"
     },
@@ -249,14 +322,58 @@
       "term": "dance",
       "ipa": "/dæns/",
       "respell": "DANSS",
-      "meaning": "A social event where people come to dance. ---",
+      "meaning": "Dance has 3 distinct senses.",
       "examples": [
         "There's a dance at the school gym on Friday.",
         "She went to every dance her senior year.",
-        "The fire department holds a dance every spring."
+        "The fire department holds a dance every spring.",
+        "She studied dance for twelve years.",
+        "Modern dance was his first love.",
+        "The school cut dance from the curriculum.",
+        "The waltz is a slow dance in three-quarter time.",
+        "They learned three folk dances before the trip.",
+        "He asked her for one last dance."
       ],
-      "senses": [],
-      "русский": "танцевальный вечер, танцы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A social event where people come to dance",
+          "body": [
+            "(танцевальный вечер, танцы)"
+          ],
+          "examples": [
+            "There's a dance at the school gym on Friday.",
+            "She went to every dance her senior year.",
+            "The fire department holds a dance every spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The art or activity of moving the body in time to music",
+          "body": [
+            "(танец (как искусство), танцы)"
+          ],
+          "examples": [
+            "She studied dance for twelve years.",
+            "Modern dance was his first love.",
+            "The school cut dance from the curriculum."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular set of steps performed to a piece of music",
+          "body": [
+            "(танец (конкретный))",
+            "---"
+          ],
+          "examples": [
+            "The waltz is a slow dance in three-quarter time.",
+            "They learned three folk dances before the trip.",
+            "He asked her for one last dance."
+          ]
+        }
+      ],
+      "русский": "танцевальный вечер, танцы; танец (как искусство), танцы; танец (конкретный)",
       "plural": "dances",
       "countability": "countable"
     },
@@ -521,14 +638,43 @@
       "term": "circus",
       "ipa": "/ˈsɜːrkəs/",
       "respell": "SUR-kuhs",
-      "meaning": "A traveling show with acrobats, clowns, and performing acts. ---",
+      "meaning": "Circus has 2 distinct senses.",
       "examples": [
         "The circus is in town for three nights.",
         "He ran off and joined the circus at nineteen.",
-        "Traveling circuses aren't what they were fifty years ago."
+        "Traveling circuses aren't what they were fifty years ago.",
+        "The press turned the trial into a circus.",
+        "Last night's meeting was a complete circus.",
+        "Reporters made her arrival a media circus."
       ],
-      "senses": [],
-      "русский": "цирк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A traveling show with acrobats, clowns, and performing acts",
+          "body": [
+            "(цирк)"
+          ],
+          "examples": [
+            "The circus is in town for three nights.",
+            "He ran off and joined the circus at nineteen.",
+            "Traveling circuses aren't what they were fifty years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A noisy, chaotic scene in which nothing is done seriously",
+          "body": [
+            "(балаган, цирк (о неразберихе))",
+            "---"
+          ],
+          "examples": [
+            "The press turned the trial into a circus.",
+            "Last night's meeting was a complete circus.",
+            "Reporters made her arrival a media circus."
+          ]
+        }
+      ],
+      "русский": "цирк; балаган, цирк (о неразберихе)",
       "plural": "circuses",
       "countability": "countable"
     },
@@ -566,14 +712,43 @@
       "term": "hostess",
       "ipa": "/ˈhoʊstəs/",
       "respell": "HOHSS-tuhs",
-      "meaning": "A woman who invites and takes care of guests at an event. ---",
+      "meaning": "Hostess has 2 distinct senses.",
       "examples": [
         "Bring the hostess a bottle of wine.",
         "She's a wonderful hostess — nobody's glass stayed empty.",
-        "The hostesses greeted everyone at the door."
+        "The hostesses greeted everyone at the door.",
+        "Ask the hostess for a table by the window.",
+        "She worked as a hostess at a steakhouse during college.",
+        "The hostess said the wait would be twenty minutes."
       ],
-      "senses": [],
-      "русский": "хозяйка (принимающая гостей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A woman who invites and takes care of guests at an event",
+          "body": [
+            "(хозяйка (принимающая гостей))"
+          ],
+          "examples": [
+            "Bring the hostess a bottle of wine.",
+            "She's a wonderful hostess — nobody's glass stayed empty.",
+            "The hostesses greeted everyone at the door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A woman who greets customers at a restaurant and shows them to a table",
+          "body": [
+            "(хостес (администратор зала в ресторане))",
+            "---"
+          ],
+          "examples": [
+            "Ask the hostess for a table by the window.",
+            "She worked as a hostess at a steakhouse during college.",
+            "The hostess said the wait would be twenty minutes."
+          ]
+        }
+      ],
+      "русский": "хозяйка (принимающая гостей); хостес (администратор зала в ресторане)",
       "plural": "hostesses",
       "countability": "countable"
     },
@@ -700,14 +875,58 @@
       "term": "theme",
       "ipa": "/θiːm/",
       "respell": "THEEM",
-      "meaning": "The subject or style that an event's decorations and costumes follow. ---",
+      "meaning": "Theme has 3 distinct senses.",
       "examples": [
         "The party has a 1920s theme.",
         "Her birthday themes have gotten more elaborate every year.",
-        "Pick a theme and the decorations get a lot easier."
+        "Pick a theme and the decorations get a lot easier.",
+        "Loneliness is the main theme of the novel.",
+        "Several themes came up again and again in the interviews.",
+        "The theme of her talk was second chances.",
+        "Everyone recognizes the theme from that movie.",
+        "The show's opening theme is only fifteen seconds long.",
+        "He hummed the theme all the way home."
       ],
-      "senses": [],
-      "русский": "тема (оформления праздника)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The subject or style that an event's decorations and costumes follow",
+          "body": [
+            "(тема (оформления праздника))"
+          ],
+          "examples": [
+            "The party has a 1920s theme.",
+            "Her birthday themes have gotten more elaborate every year.",
+            "Pick a theme and the decorations get a lot easier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main idea that runs through a book, a film, or a discussion",
+          "body": [
+            "(тема, основная мысль)"
+          ],
+          "examples": [
+            "Loneliness is the main theme of the novel.",
+            "Several themes came up again and again in the interviews.",
+            "The theme of her talk was second chances."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A tune played again and again in a film, a show, or a piece of music",
+          "body": [
+            "(музыкальная тема, заглавная мелодия)",
+            "---"
+          ],
+          "examples": [
+            "Everyone recognizes the theme from that movie.",
+            "The show's opening theme is only fifteen seconds long.",
+            "He hummed the theme all the way home."
+          ]
+        }
+      ],
+      "русский": "тема (оформления праздника); тема, основная мысль; музыкальная тема, заглавная мелодия",
       "plural": "themes",
       "countability": "countable"
     },
@@ -759,14 +978,73 @@
       "term": "card",
       "ipa": "/kɑːrd/",
       "respell": "KARD",
-      "meaning": "A folded piece of stiff paper with a printed message, sent to mark an occasion. ---",
+      "meaning": "Card has 4 distinct senses.",
       "examples": [
         "Don't forget to sign the birthday card.",
         "She still has every card he ever sent her.",
-        "We got about forty holiday cards this year."
+        "We got about forty holiday cards this year.",
+        "He dealt each player five cards.",
+        "She keeps a deck of cards in the glove box.",
+        "Pick a card and do not show it to me.",
+        "I paid with a card instead of cash.",
+        "The machine would not read my card.",
+        "Her card was declined at the register.",
+        "He handed me his business card.",
+        "You need a library card to check out books.",
+        "Show your ID card at the gate."
       ],
-      "senses": [],
-      "русский": "открытка (поздравительная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A folded piece of stiff paper with a printed message, sent to mark an occasion",
+          "body": [
+            "(открытка (поздравительная))"
+          ],
+          "examples": [
+            "Don't forget to sign the birthday card.",
+            "She still has every card he ever sent her.",
+            "We got about forty holiday cards this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of a set of stiff pieces of paper marked with numbers and suits, used to play games",
+          "body": [
+            "(игральная карта)"
+          ],
+          "examples": [
+            "He dealt each player five cards.",
+            "She keeps a deck of cards in the glove box.",
+            "Pick a card and do not show it to me."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small plastic rectangle used to pay for things or take out money",
+          "body": [
+            "(карта (банковская, кредитная))"
+          ],
+          "examples": [
+            "I paid with a card instead of cash.",
+            "The machine would not read my card.",
+            "Her card was declined at the register."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small stiff rectangle printed with information about a person or a right they hold",
+          "body": [
+            "(карточка (визитная, удостоверение))",
+            "---"
+          ],
+          "examples": [
+            "He handed me his business card.",
+            "You need a library card to check out books.",
+            "Show your ID card at the gate."
+          ]
+        }
+      ],
+      "русский": "открытка (поздравительная); игральная карта; карта (банковская, кредитная); карточка (визитная, удостоверение)",
       "plural": "cards",
       "countability": "countable"
     },
@@ -774,14 +1052,58 @@
       "term": "favor",
       "ipa": "/ˈfeɪvər/",
       "respell": "FAY-vur",
-      "meaning": "A small gift given to each guest at a party or wedding. ---",
+      "meaning": "Favor has 3 distinct senses.",
       "examples": [
         "The party favors were little bags of candy.",
         "Each guest took a favor from the table on the way out.",
-        "We're making the wedding favors ourselves."
+        "We're making the wedding favors ourselves.",
+        "Can you do me a favor and watch the dog?",
+        "I owe him a favor after last week.",
+        "She's always asking for favors and never returning them.",
+        "The plan found favor with the city council.",
+        "That style has fallen out of favor.",
+        "He spent years trying to win the boss's favor."
       ],
-      "senses": [],
-      "русский": "сувенир гостям (на празднике)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small gift given to each guest at a party or wedding",
+          "body": [
+            "(сувенир гостям (на празднике))"
+          ],
+          "examples": [
+            "The party favors were little bags of candy.",
+            "Each guest took a favor from the table on the way out.",
+            "We're making the wedding favors ourselves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A kind act you do for someone because they asked",
+          "body": [
+            "(одолжение, услуга)"
+          ],
+          "examples": [
+            "Can you do me a favor and watch the dog?",
+            "I owe him a favor after last week.",
+            "She's always asking for favors and never returning them."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Approval or support for a person or an idea",
+          "body": [
+            "(благосклонность, одобрение, поддержка)",
+            "---"
+          ],
+          "examples": [
+            "The plan found favor with the city council.",
+            "That style has fallen out of favor.",
+            "He spent years trying to win the boss's favor."
+          ]
+        }
+      ],
+      "русский": "сувенир гостям (на празднике); одолжение, услуга; благосклонность, одобрение, поддержка",
       "plural": "favors",
       "countability": "countable",
       "contrast": "American spelling favor; British English writes favour. Same pronunciation."
@@ -790,14 +1112,43 @@
       "term": "gift",
       "ipa": "/ɡɪft/",
       "respell": "GIFT",
-      "meaning": "Something given to someone to mark an occasion. ---",
+      "meaning": "Gift has 2 distinct senses.",
       "examples": [
         "The gifts piled up on the table by the door.",
         "It's a small gift, but I hope you like it.",
-        "She opened her gifts after the cake."
+        "She opened her gifts after the cake.",
+        "She has a gift for languages.",
+        "His gift for making people laugh got him the job.",
+        "Not everyone is born with musical gifts."
       ],
-      "senses": [],
-      "русский": "подарок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something given to someone to mark an occasion",
+          "body": [
+            "(подарок)"
+          ],
+          "examples": [
+            "The gifts piled up on the table by the door.",
+            "It's a small gift, but I hope you like it.",
+            "She opened her gifts after the cake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A natural ability to do something well",
+          "body": [
+            "(дар, талант)",
+            "---"
+          ],
+          "examples": [
+            "She has a gift for languages.",
+            "His gift for making people laugh got him the job.",
+            "Not everyone is born with musical gifts."
+          ]
+        }
+      ],
+      "русский": "подарок; дар, талант",
       "plural": "gifts",
       "countability": "countable"
     },
@@ -820,14 +1171,43 @@
       "term": "balloon",
       "ipa": "/bəˈluːn/",
       "respell": "buh-LOON",
-      "meaning": "A thin rubber bag filled with air or gas, used as a decoration at parties. ---",
+      "meaning": "Balloon has 2 distinct senses.",
       "examples": [
         "The kids tied balloons to the mailbox.",
         "One balloon popped and made the baby cry.",
-        "We ordered a dozen helium balloons for the party."
+        "We ordered a dozen helium balloons for the party.",
+        "We went up in a hot-air balloon at sunrise.",
+        "Dozens of balloons rose over the valley.",
+        "The balloon landed in a soybean field."
       ],
-      "senses": [],
-      "русский": "воздушный шарик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin rubber bag filled with air or gas, used as a decoration at parties",
+          "body": [
+            "(воздушный шарик)"
+          ],
+          "examples": [
+            "The kids tied balloons to the mailbox.",
+            "One balloon popped and made the baby cry.",
+            "We ordered a dozen helium balloons for the party."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large bag of hot air with a basket that carries people",
+          "body": [
+            "(воздушный шар, аэростат)",
+            "---"
+          ],
+          "examples": [
+            "We went up in a hot-air balloon at sunrise.",
+            "Dozens of balloons rose over the valley.",
+            "The balloon landed in a soybean field."
+          ]
+        }
+      ],
+      "русский": "воздушный шарик; воздушный шар, аэростат",
       "plural": "balloons",
       "countability": "countable"
     },
@@ -865,14 +1245,43 @@
       "term": "banner",
       "ipa": "/ˈbænər/",
       "respell": "BAN-ur",
-      "meaning": "A long strip of cloth or paper with a message on it, hung up at an event. ---",
+      "meaning": "Banner has 2 distinct senses.",
       "examples": [
         "A banner over the stage read WELCOME HOME.",
         "They hung banners along the parade route.",
-        "The banner came loose in the wind."
+        "The banner came loose in the wind.",
+        "Ad blockers strip out most banners.",
+        "The site's banner follows you as you scroll.",
+        "We paid for a banner on the homepage."
       ],
-      "senses": [],
-      "русский": "транспарант, растяжка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long strip of cloth or paper with a message on it, hung up at an event",
+          "body": [
+            "(транспарант, растяжка)"
+          ],
+          "examples": [
+            "A banner over the stage read WELCOME HOME.",
+            "They hung banners along the parade route.",
+            "The banner came loose in the wind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wide advertisement across the top of a web page",
+          "body": [
+            "(баннер (интернет-реклама))",
+            "---"
+          ],
+          "examples": [
+            "Ad blockers strip out most banners.",
+            "The site's banner follows you as you scroll.",
+            "We paid for a banner on the homepage."
+          ]
+        }
+      ],
+      "русский": "транспарант, растяжка; баннер (интернет-реклама)",
       "plural": "banners",
       "countability": "countable"
     },
@@ -1018,14 +1427,43 @@
       "term": "cheer",
       "ipa": "/tʃɪr/",
       "respell": "CHEER",
-      "meaning": "A loud shout of approval or encouragement from a crowd. ---",
+      "meaning": "Cheer has 2 distinct senses.",
       "examples": [
         "A cheer went up when the doors finally opened.",
         "You could hear the cheers three blocks away.",
-        "The announcement was met with a cheer from the back of the room."
+        "The announcement was met with a cheer from the back of the room.",
+        "The lobby was decked out with holiday cheer.",
+        "A bowl of soup and some good cheer fixed him right up.",
+        "She brought cheer to everyone on the ward."
       ],
-      "senses": [],
-      "русский": "приветственный возглас",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A loud shout of approval or encouragement from a crowd",
+          "body": [
+            "(приветственный возглас)"
+          ],
+          "examples": [
+            "A cheer went up when the doors finally opened.",
+            "You could hear the cheers three blocks away.",
+            "The announcement was met with a cheer from the back of the room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of warmth and happiness, especially one that is shared",
+          "body": [
+            "(радость, веселье)",
+            "---"
+          ],
+          "examples": [
+            "The lobby was decked out with holiday cheer.",
+            "A bowl of soup and some good cheer fixed him right up.",
+            "She brought cheer to everyone on the ward."
+          ]
+        }
+      ],
+      "русский": "приветственный возглас; радость, веселье",
       "plural": "cheers",
       "countability": "countable"
     },
@@ -1033,14 +1471,43 @@
       "term": "chant",
       "ipa": "/tʃænt/",
       "respell": "CHANT",
-      "meaning": "Words or a phrase repeated over and over by a crowd. ---",
+      "meaning": "Chant has 2 distinct senses.",
       "examples": [
         "The chant started in one corner and spread through the stadium.",
         "Marchers kept up the same chants for two miles.",
-        "You could barely make out the words of the chant."
+        "You could barely make out the words of the chant.",
+        "The monks' evening chant echoed off the stone walls.",
+        "The service ended with a slow chant in Latin.",
+        "She recorded old chants sung in village churches."
       ],
-      "senses": [],
-      "русский": "скандирование, речёвка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Words or a phrase repeated over and over by a crowd",
+          "body": [
+            "(скандирование, речёвка)"
+          ],
+          "examples": [
+            "The chant started in one corner and spread through the stadium.",
+            "Marchers kept up the same chants for two miles.",
+            "You could barely make out the words of the chant."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A simple tune in which words are sung on only one or two notes, especially in worship",
+          "body": [
+            "(песнопение, распев)",
+            "---"
+          ],
+          "examples": [
+            "The monks' evening chant echoed off the stone walls.",
+            "The service ended with a slow chant in Latin.",
+            "She recorded old chants sung in village churches."
+          ]
+        }
+      ],
+      "русский": "скандирование, речёвка; песнопение, распев",
       "plural": "chants",
       "countability": "countable"
     },
@@ -1063,14 +1530,58 @@
       "term": "float",
       "ipa": "/floʊt/",
       "respell": "FLOHT",
-      "meaning": "A decorated platform on wheels that is driven in a parade. ---",
+      "meaning": "Float has 3 distinct senses.",
       "examples": [
         "The senior class built a float out of chicken wire and tissue paper.",
         "Twelve floats rolled down Main Street.",
-        "Kids on the float threw candy to the crowd."
+        "Kids on the float threw candy to the crowd.",
+        "He ordered a root beer float.",
+        "The diner on Main Street makes great floats.",
+        "A float is just soda and a scoop of vanilla.",
+        "Watch the float — it just went under.",
+        "He clipped a red and white float onto the line.",
+        "The floats bobbed in the current all afternoon."
       ],
-      "senses": [],
-      "русский": "платформа на параде",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A decorated platform on wheels that is driven in a parade",
+          "body": [
+            "(платформа на параде)"
+          ],
+          "examples": [
+            "The senior class built a float out of chicken wire and tissue paper.",
+            "Twelve floats rolled down Main Street.",
+            "Kids on the float threw candy to the crowd."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A drink made of soda with ice cream floating in it",
+          "body": [
+            "(флоут (газировка с мороженым))"
+          ],
+          "examples": [
+            "He ordered a root beer float.",
+            "The diner on Main Street makes great floats.",
+            "A float is just soda and a scoop of vanilla."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small object on a fishing line that rests on the surface and dips when a fish bites",
+          "body": [
+            "(поплавок)",
+            "---"
+          ],
+          "examples": [
+            "Watch the float — it just went under.",
+            "He clipped a red and white float onto the line.",
+            "The floats bobbed in the current all afternoon."
+          ]
+        }
+      ],
+      "русский": "платформа на параде; флоут (газировка с мороженым); поплавок",
       "plural": "floats",
       "countability": "countable"
     },
@@ -1231,14 +1742,43 @@
       "term": "award",
       "ipa": "/əˈwɔːrd/",
       "respell": "uh-WORD",
-      "meaning": "A prize or honor given to someone for an achievement. ---",
+      "meaning": "Award has 2 distinct senses.",
       "examples": [
         "He picked up an award for best teacher.",
         "The awards are handed out at the end of the banquet.",
-        "Her film won three awards at the festival."
+        "Her film won three awards at the festival.",
+        "The jury's award came to two million dollars.",
+        "The judge cut the award in half on appeal.",
+        "She won a research award of fifty thousand dollars."
       ],
-      "senses": [],
-      "русский": "награда, премия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A prize or honor given to someone for an achievement",
+          "body": [
+            "(награда, премия)"
+          ],
+          "examples": [
+            "He picked up an award for best teacher.",
+            "The awards are handed out at the end of the banquet.",
+            "Her film won three awards at the festival."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sum of money granted to someone by a court or official body",
+          "body": [
+            "(присуждённая сумма, компенсация)",
+            "---"
+          ],
+          "examples": [
+            "The jury's award came to two million dollars.",
+            "The judge cut the award in half on appeal.",
+            "She won a research award of fifty thousand dollars."
+          ]
+        }
+      ],
+      "русский": "награда, премия; присуждённая сумма, компенсация",
       "plural": "awards",
       "countability": "countable"
     },
@@ -1307,14 +1847,43 @@
       "term": "birth",
       "ipa": "/bɜːrθ/",
       "respell": "BURTH",
-      "meaning": "The occasion of a baby coming into the world. ---",
+      "meaning": "Birth has 2 distinct senses.",
       "examples": [
         "They celebrated the birth of their first grandchild.",
         "There were four births at the hospital that night.",
-        "He was there for the birth of both his kids."
+        "He was there for the birth of both his kids.",
+        "New Orleans saw the birth of jazz.",
+        "The strike marked the birth of the union.",
+        "The birth of the internet changed everything."
       ],
-      "senses": [],
-      "русский": "рождение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The occasion of a baby coming into the world",
+          "body": [
+            "(рождение)"
+          ],
+          "examples": [
+            "They celebrated the birth of their first grandchild.",
+            "There were four births at the hospital that night.",
+            "He was there for the birth of both his kids."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The beginning or origin of something",
+          "body": [
+            "(зарождение, возникновение)",
+            "---"
+          ],
+          "examples": [
+            "New Orleans saw the birth of jazz.",
+            "The strike marked the birth of the union.",
+            "The birth of the internet changed everything."
+          ]
+        }
+      ],
+      "русский": "рождение; зарождение, возникновение",
       "plural": "births",
       "countability": "countable",
       "contrast": "Sounds exactly like berth (a bed on a ship or a docking space). Both are /bɜːrθ/."
@@ -1368,14 +1937,43 @@
       "term": "launch",
       "ipa": "/lɔːntʃ/",
       "respell": "LAWNCH",
-      "meaning": "An event marking the start of something new, such as a product or a book. ---",
+      "meaning": "Launch has 2 distinct senses.",
       "examples": [
         "The book launch is at the bookstore on Tenth.",
         "They've done three product launches this year.",
-        "Half the office came to the launch."
+        "Half the office came to the launch.",
+        "The launch was delayed by bad weather.",
+        "Thousands watched the rocket launch from the beach.",
+        "Two more launches are scheduled for next month."
       ],
-      "senses": [],
-      "русский": "запуск, презентация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An event marking the start of something new, such as a product or a book",
+          "body": [
+            "(запуск, презентация)"
+          ],
+          "examples": [
+            "The book launch is at the bookstore on Tenth.",
+            "They've done three product launches this year.",
+            "Half the office came to the launch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sending of a rocket, missile, or satellite into the air",
+          "body": [
+            "(запуск (ракеты))",
+            "---"
+          ],
+          "examples": [
+            "The launch was delayed by bad weather.",
+            "Thousands watched the rocket launch from the beach.",
+            "Two more launches are scheduled for next month."
+          ]
+        }
+      ],
+      "русский": "запуск, презентация; запуск (ракеты)",
       "plural": "launches",
       "countability": "countable"
     },
@@ -1383,14 +1981,43 @@
       "term": "opening",
       "ipa": "/ˈoʊpənɪŋ/",
       "respell": "OH-puh-ning",
-      "meaning": "An event celebrating the first day a business, show, or exhibit is open to the public. ---",
+      "meaning": "Opening has 2 distinct senses.",
       "examples": [
         "The gallery opening is Thursday from six to nine.",
         "We went to the opening of the new restaurant downtown.",
-        "Gallery openings usually mean free wine and cheese."
+        "Gallery openings usually mean free wine and cheese.",
+        "The dog squeezed through an opening in the fence.",
+        "Sunlight came through an opening in the clouds.",
+        "We cut an opening for the new window."
       ],
-      "senses": [],
-      "русский": "открытие (мероприятие)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An event celebrating the first day a business, show, or exhibit is open to the public",
+          "body": [
+            "(открытие (мероприятие))"
+          ],
+          "examples": [
+            "The gallery opening is Thursday from six to nine.",
+            "We went to the opening of the new restaurant downtown.",
+            "Gallery openings usually mean free wine and cheese."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gap or hole that something can pass through",
+          "body": [
+            "(отверстие, проём, просвет)",
+            "---"
+          ],
+          "examples": [
+            "The dog squeezed through an opening in the fence.",
+            "Sunlight came through an opening in the clouds.",
+            "We cut an opening for the new window."
+          ]
+        }
+      ],
+      "русский": "открытие (мероприятие); отверстие, проём, просвет",
       "plural": "openings",
       "countability": "countable"
     },
@@ -1564,14 +2191,43 @@
       "term": "tribute",
       "ipa": "/ˈtrɪbjuːt/",
       "respell": "TRIB-yoot",
-      "meaning": "Something said or done to show respect and admiration for someone. ---",
+      "meaning": "Tribute has 2 distinct senses.",
       "examples": [
         "The concert was a tribute to her late husband.",
         "Tributes poured in from all over the state.",
-        "He paid tribute to the volunteers in his speech."
+        "He paid tribute to the volunteers in his speech.",
+        "The conquered towns paid tribute to Rome every year.",
+        "The king demanded tribute in gold and grain.",
+        "Refusing to send tribute meant war."
       ],
-      "senses": [],
-      "русский": "дань уважения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something said or done to show respect and admiration for someone",
+          "body": [
+            "(дань уважения)"
+          ],
+          "examples": [
+            "The concert was a tribute to her late husband.",
+            "Tributes poured in from all over the state.",
+            "He paid tribute to the volunteers in his speech."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A payment made by one ruler or country to a stronger one",
+          "body": [
+            "(дань)",
+            "---"
+          ],
+          "examples": [
+            "The conquered towns paid tribute to Rome every year.",
+            "The king demanded tribute in gold and grain.",
+            "Refusing to send tribute meant war."
+          ]
+        }
+      ],
+      "русский": "дань уважения; дань",
       "plural": "tributes",
       "countability": "countable"
     },
@@ -1670,14 +2326,43 @@
       "term": "urn",
       "ipa": "/ɜːrn/",
       "respell": "URN",
-      "meaning": "A container that holds the ashes of a person who has been cremated. ---",
+      "meaning": "Urn has 2 distinct senses.",
       "examples": [
         "The urn sits on the shelf above the fireplace.",
         "They picked out a simple brass urn.",
-        "Two urns were buried side by side."
+        "Two urns were buried side by side.",
+        "There's a coffee urn at the back of the hall.",
+        "Someone refilled the urn before the second service.",
+        "The church keeps two urns for potluck suppers."
       ],
-      "senses": [],
-      "русский": "урна (для праха)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A container that holds the ashes of a person who has been cremated",
+          "body": [
+            "(урна (для праха))"
+          ],
+          "examples": [
+            "The urn sits on the shelf above the fireplace.",
+            "They picked out a simple brass urn.",
+            "Two urns were buried side by side."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large metal container with a tap, used for serving coffee or tea to a crowd",
+          "body": [
+            "(бак-термос (для кофе, чая))",
+            "---"
+          ],
+          "examples": [
+            "There's a coffee urn at the back of the hall.",
+            "Someone refilled the urn before the second service.",
+            "The church keeps two urns for potluck suppers."
+          ]
+        }
+      ],
+      "русский": "урна (для праха); бак-термос (для кофе, чая)",
       "plural": "urns",
       "countability": "countable",
       "contrast": "Sounds exactly like earn (to be paid). Both are /ɜːrn/."
@@ -1746,14 +2431,58 @@
       "term": "wake",
       "ipa": "/weɪk/",
       "respell": "WAYK",
-      "meaning": "A gathering held before or after a funeral where people remember the person who died. ---",
+      "meaning": "Wake has 3 distinct senses.",
       "examples": [
         "The wake is at the funeral home from four to eight.",
         "Half the town came to the wake.",
-        "Irish wakes in his family went on all night."
+        "Irish wakes in his family went on all night.",
+        "Ducks bobbed in the boat's wake.",
+        "The skier cut back and forth across the wake.",
+        "The ferry left a wide wake across the bay.",
+        "Thousands lost power in the wake of the storm.",
+        "In the wake of the scandal, two officials resigned.",
+        "Rebuilding began in the wake of the fire."
       ],
-      "senses": [],
-      "русский": "поминки (перед похоронами)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A gathering held before or after a funeral where people remember the person who died",
+          "body": [
+            "(поминки (перед похоронами))"
+          ],
+          "examples": [
+            "The wake is at the funeral home from four to eight.",
+            "Half the town came to the wake.",
+            "Irish wakes in his family went on all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The track of disturbed water left behind a moving boat",
+          "body": [
+            "(кильватерный след, след за судном)"
+          ],
+          "examples": [
+            "Ducks bobbed in the boat's wake.",
+            "The skier cut back and forth across the wake.",
+            "The ferry left a wide wake across the bay."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The period and the conditions that follow an important event",
+          "body": [
+            "(последствия, период после события)",
+            "---"
+          ],
+          "examples": [
+            "Thousands lost power in the wake of the storm.",
+            "In the wake of the scandal, two officials resigned.",
+            "Rebuilding began in the wake of the fire."
+          ]
+        }
+      ],
+      "русский": "поминки (перед похоронами); кильватерный след, след за судном; последствия, период после события",
       "plural": "wakes",
       "countability": "countable"
     },
@@ -1883,14 +2612,43 @@
       "term": "shroud",
       "ipa": "/ʃraʊd/",
       "respell": "SHROWD",
-      "meaning": "A cloth used to wrap a dead body for burial. ---",
+      "meaning": "Shroud has 2 distinct senses.",
       "examples": [
         "The body was wrapped in a plain linen shroud.",
         "Green burials use a simple shroud instead of a casket.",
-        "The museum displayed two ancient shrouds."
+        "The museum displayed two ancient shrouds.",
+        "The valley disappeared under a shroud of morning fog.",
+        "The whole deal was kept behind a shroud of secrecy.",
+        "Smoke lay over the city in a gray shroud."
       ],
-      "senses": [],
-      "русский": "саван",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cloth used to wrap a dead body for burial",
+          "body": [
+            "(саван)"
+          ],
+          "examples": [
+            "The body was wrapped in a plain linen shroud.",
+            "Green burials use a simple shroud instead of a casket.",
+            "The museum displayed two ancient shrouds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that covers and hides what is underneath",
+          "body": [
+            "(пелена, покров, завеса)",
+            "---"
+          ],
+          "examples": [
+            "The valley disappeared under a shroud of morning fog.",
+            "The whole deal was kept behind a shroud of secrecy.",
+            "Smoke lay over the city in a gray shroud."
+          ]
+        }
+      ],
+      "русский": "саван; пелена, покров, завеса",
       "plural": "shrouds",
       "countability": "countable"
     },
@@ -1942,14 +2700,43 @@
       "term": "viewing",
       "ipa": "/ˈvjuːɪŋ/",
       "respell": "VYOO-ing",
-      "meaning": "A time before a funeral when people come to see the body and pay their respects. ---",
+      "meaning": "Viewing has 2 distinct senses.",
       "examples": [
         "The viewing is Thursday evening at the funeral home.",
         "They held two viewings, one in the afternoon and one at night.",
-        "A long line formed outside the viewing."
+        "A long line formed outside the viewing.",
+        "The museum held a private viewing for members.",
+        "A second viewing of the movie showed me details I'd missed.",
+        "The gallery scheduled a viewing of the new paintings."
       ],
-      "senses": [],
-      "русский": "прощание с покойным",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A time before a funeral when people come to see the body and pay their respects",
+          "body": [
+            "(прощание с покойным)"
+          ],
+          "examples": [
+            "The viewing is Thursday evening at the funeral home.",
+            "They held two viewings, one in the afternoon and one at night.",
+            "A long line formed outside the viewing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An occasion of watching or looking at something, such as a film or an exhibition",
+          "body": [
+            "(просмотр, показ (фильма, выставки))",
+            "---"
+          ],
+          "examples": [
+            "The museum held a private viewing for members.",
+            "A second viewing of the movie showed me details I'd missed.",
+            "The gallery scheduled a viewing of the new paintings."
+          ]
+        }
+      ],
+      "русский": "прощание с покойным; просмотр, показ (фильма, выставки)",
       "plural": "viewings",
       "countability": "countable"
     },
@@ -1972,14 +2759,57 @@
       "term": "camp",
       "ipa": "/kæmp/",
       "respell": "KAMP",
-      "meaning": "A place and program where children stay for part of the summer to do activities together.",
+      "meaning": "Camp has 3 distinct senses.",
       "examples": [
         "He goes to camp in Maine for three weeks every July.",
         "There are soccer camps and music camps all summer.",
-        "She met her best friend at camp."
+        "She met her best friend at camp.",
+        "The refugees have lived in the camp for two years.",
+        "The soldiers set up camp beside the river.",
+        "Our camp was three tents and a fire ring.",
+        "The party split into two camps over the tax bill.",
+        "Both camps claim the poll proves them right.",
+        "She belongs to the camp that wants to start over from scratch."
       ],
-      "senses": [],
-      "русский": "лагерь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place and program where children stay for part of the summer to do activities together",
+          "body": [
+            "(лагерь)"
+          ],
+          "examples": [
+            "He goes to camp in Maine for three weeks every July.",
+            "There are soccer camps and music camps all summer.",
+            "She met her best friend at camp."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where people live for a time in tents or temporary shelters",
+          "body": [
+            "(лагерь (палаточный, военный, беженцев))"
+          ],
+          "examples": [
+            "The refugees have lived in the camp for two years.",
+            "The soldiers set up camp beside the river.",
+            "Our camp was three tents and a fire ring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A group of people who share the same opinion or support the same side",
+          "body": [
+            "(лагерь (сторонников), стан)"
+          ],
+          "examples": [
+            "The party split into two camps over the tax bill.",
+            "Both camps claim the poll proves them right.",
+            "She belongs to the camp that wants to start over from scratch."
+          ]
+        }
+      ],
+      "русский": "лагерь; лагерь (палаточный, военный, беженцев); лагерь (сторонников), стан",
       "plural": "camps",
       "countability": "countable"
     }

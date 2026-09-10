@@ -167,31 +167,47 @@ A metal frame over a fire or gas flame for cooking food outdoors.
 ### broiler
 
 **Pronunciation:** /ˈbrɔɪlər/ &middot; *BROY-lur*
-**Русский:** верхний гриль в духовке
+**Русский:** верхний гриль в духовке; бройлер (цыплёнок на мясо)
 **Plural:** *broilers*
 **Countability:** countable
 **Contrast:** An American broiler is a British grill; an American grill is the outdoor kind.
 
-The part of an oven that cooks food with heat from directly above.
+Broiler has 2 distinct senses.
+
+**1. The part of an oven that cooks food with heat from directly above.** (верхний гриль в духовке)
 
 1. Put it under the *broiler* for two minutes to brown the top.
 2. On this stove the *broiler* is the drawer underneath.
 3. Watch it closely — *broilers* burn things in seconds.
+
+**2. A young chicken raised for its meat.** (бройлер (цыплёнок на мясо))
+
+4. The farm raises about ten thousand *broilers* a year.
+5. *Broiler* prices rose after the feed shortage.
+6. A *broiler* reaches market weight in about six weeks.
 
 ---
 
 ### burner
 
 **Pronunciation:** /ˈbɜːrnər/ &middot; *BUR-nur*
-**Русский:** конфорка
+**Русский:** конфорка; одноразовый телефон (или аккаунт)
 **Plural:** *burners*
 **Countability:** countable
 
-One of the cooking rings or elements on top of a stove.
+Burner has 2 distinct senses.
+
+**1. One of the cooking rings or elements on top of a stove.** (конфорка)
 
 1. Move the pan to the back *burner*.
 2. One *burner* on this stove never lights.
 3. Turn the *burner* down before it boils over.
+
+**2. A cheap phone or account used for a short time and then thrown away.** (одноразовый телефон (или аккаунт))
+
+4. He called her from a *burner*.
+5. The dealer switched to a new *burner* every month.
+6. She set up a *burner* just to sign up for free trials.
 
 ---
 
@@ -312,15 +328,23 @@ Drawer has 2 distinct senses.
 ### rack
 
 **Pronunciation:** /ræk/ &middot; *RAK*
-**Русский:** решётка, подставка (в духовке, для сушки)
+**Русский:** решётка, подставка (в духовке, для сушки); корейка на кости, рёбра одним куском
 **Plural:** *racks*
 **Countability:** countable
 
-A frame of bars used to hold or cool things.
+Rack has 2 distinct senses.
+
+**1. A frame of bars used to hold or cool things.** (решётка, подставка (в духовке, для сушки))
 
 1. Move the oven *rack* up one position.
 2. Let the cookies cool on a wire *rack*.
 3. The dish *rack* by the sink is always full.
+
+**2. A cut of meat made up of several ribs still joined together.** (корейка на кости, рёбра одним куском)
+
+4. She roasted a *rack* of lamb for the holidays.
+5. The two of us split a *rack* of ribs.
+6. The place serves a half *rack* at lunch for twelve dollars.
 
 ---
 
@@ -365,31 +389,83 @@ A device that counts down and signals when cooking time is up.
 ### scale
 
 **Pronunciation:** /skeɪl/ &middot; *SKAYL*
-**Русский:** весы (кухонные)
+**Русский:** весы (кухонные); масштаб, размах; шкала; масштаб (карты, модели); чешуйка, чешуя; гамма (музыкальная)
 **Plural:** *scales*
 **Countability:** countable
 **Contrast:** One device is a scale, singular, even though Russian весы is plural.
 
-A device for weighing ingredients.
+Scale has 6 distinct senses.
+
+**1. A device for weighing ingredients.** (весы (кухонные))
 
 1. A kitchen *scale* makes baking much more accurate.
 2. Put the bowl on the *scale* and hit tare.
 3. Digital *scales* are cheap now.
+
+**2. The size or extent of something, especially when it is very large.** (масштаб, размах)
+
+4. Nobody expected a disaster on this *scale*.
+5. The company farms on a *scale* no family operation can match.
+6. The photos give you some idea of the *scale* of the damage.
+
+**3. A range of numbers or levels used for measuring or ranking something.** (шкала)
+
+7. Rate your pain on a *scale* of one to ten.
+8. The quake measured 6.1 on the Richter *scale*.
+9. Salaries follow a fixed *scale* based on years of service.
+
+**4. The ratio between a distance on a map or model and the real distance.** (масштаб (карты, модели))
+
+10. At this *scale*, one inch equals a mile.
+11. The whole model is built to *scale*.
+12. Check the *scale* in the corner before you measure the trail.
+
+**5. One of the small thin plates that cover the body of a fish or reptile.** (чешуйка, чешуя)
+
+13. He scraped the *scales* off the trout with the back of a knife.
+14. The snake's *scales* caught the light as it moved.
+15. A single silver *scale* was stuck to the cutting board.
+
+**6. A series of musical notes going up or down in fixed steps.** (гамма (музыкальная))
+
+16. She practices *scales* for twenty minutes every morning.
+17. Beginners start with the C major *scale*.
+18. He can play every *scale* without looking at his hands.
 
 ---
 
 ### pot
 
 **Pronunciation:** /pɑːt/ &middot; *PAHT*
-**Русский:** кастрюля
+**Русский:** кастрюля; марихуана, травка; банк (в карточной игре); общая касса; горшок (цветочный)
 **Plural:** *pots*
 **Countability:** countable
 
-A deep round container with a handle for cooking on a stove.
+Pot has 4 distinct senses.
+
+**1. A deep round container with a handle for cooking on a stove.** (кастрюля)
 
 1. Bring a big *pot* of water to a boil.
 2. She stirred the *pot* every few minutes.
 3. All my *pots* are stacked in the bottom cabinet.
+
+**2. Marijuana.** (марихуана, травка)
+
+4. The whole car smelled like *pot*.
+5. *Pot* is legal in this state now.
+6. He got caught with a little *pot* in high school.
+
+**3. All the money bet in a single hand of cards, or a shared fund collected from a group.** (банк (в карточной игре); общая касса)
+
+7. She pushed all her chips into the *pot*.
+8. The *pot* was over two hundred dollars by the last round.
+9. Everyone put five bucks in the *pot* for pizza.
+
+**4. A clay or plastic container that a plant grows in.** (горшок (цветочный))
+
+10. The basil needs a bigger *pot*.
+11. Clay *pots* dry out faster than plastic ones.
+12. She carried the *pots* inside before the frost.
 
 ---
 
@@ -626,15 +702,23 @@ A utensil with a shallow bowl on a handle, used for eating and stirring.
 ### fork
 
 **Pronunciation:** /fɔːrk/ &middot; *FORK*
-**Русский:** вилка
+**Русский:** вилка; развилка (дороги, реки)
 **Plural:** *forks*
 **Countability:** countable
 
-A utensil with prongs for picking up food.
+Fork has 2 distinct senses.
+
+**1. A utensil with prongs for picking up food.** (вилка)
 
 1. Test the potatoes with a *fork*.
 2. He set a knife and *fork* at every place.
 3. The *forks* go on the left.
+
+**2. A place where a road or river divides into two branches, or one of those branches.** (развилка (дороги, реки))
+
+4. Turn left at the *fork* in the road.
+5. The trail splits at a *fork* about a mile in.
+6. Both *forks* of the river meet again below the dam.
 
 ---
 
@@ -701,16 +785,24 @@ A long pin that holds pieces of food together for grilling.
 ### mold
 
 **Pronunciation:** /moʊld/ &middot; *MOHLD*
-**Русский:** форма (для выпечки, желе, шоколада)
+**Русский:** форма (для выпечки, желе, шоколада); плесень
 **Plural:** *molds*
 **Countability:** countable
 **Contrast:** American spelling is mold; British English writes mould.
 
-A hollow container that gives food its shape as it sets.
+Mold has 2 distinct senses.
+
+**1. A hollow container that gives food its shape as it sets.** (форма (для выпечки, желе, шоколада))
 
 1. Pour the jelly into a *mold* and chill it overnight.
 2. She turned the cake out of a bundt *mold*.
 3. Silicone *molds* make it easy to get chocolate out.
+
+**2. A fuzzy growth of fungus on damp surfaces or old food.** (плесень)
+
+4. There's *mold* on the bread again.
+5. Black *mold* was growing behind the shower tile.
+6. The basement smells of damp and *mold*.
 
 ---
 
@@ -733,15 +825,23 @@ A flat board you chop food on.
 ### mitt
 
 **Pronunciation:** /mɪt/ &middot; *MIT*
-**Русский:** прихватка-варежка
+**Русский:** прихватка-варежка; лапа, рука (разг.)
 **Plural:** *mitts*
 **Countability:** countable
 
-A padded glove for handling hot pans.
+Mitt has 2 distinct senses.
+
+**1. A padded glove for handling hot pans.** (прихватка-варежка)
 
 1. Grab an oven *mitt* before you touch that.
 2. The *mitt* has a hole burned through the thumb.
 3. Both *mitts* are in the drawer by the stove.
+
+**2. A person's hand, in informal speech.** (лапа, рука (разг.))
+
+4. Get your *mitts* off my fries.
+5. He wiped his *mitts* on his jeans.
+6. Keep your *mitts* to yourself.
 
 ---
 
@@ -817,15 +917,29 @@ Detergent has 3 distinct senses.
 ### foil
 
 **Pronunciation:** /fɔɪl/ &middot; *FOYL*
-**Русский:** фольга
+**Русский:** фольга; контраст, оттеняющий фон (о персонаже); рапира
 **Countability:** uncountable
 **Contrast:** Uncountable: a sheet of foil, never 'a foil' or 'foils' in the kitchen sense.
 
-Thin sheet metal used to wrap or cover food.
+Foil has 3 distinct senses.
+
+**1. Thin sheet metal used to wrap or cover food.** (фольга)
 
 1. Cover the pan with *foil* and bake it another hour.
 2. Wrap the potatoes in *foil* before they go on the grill.
 3. We're out of *foil* — use parchment instead.
+
+**2. A person or thing whose differences make another's qualities stand out.** (контраст, оттеняющий фон (о персонаже))
+
+4. The quiet brother is a *foil* for the loud one.
+5. Her calm serves as a *foil* to his temper.
+6. Every hero in the book has a *foil*.
+
+**3. A light sword with a thin blade, used in fencing.** (рапира)
+
+7. She competes with the *foil*.
+8. He raised his *foil* and saluted his opponent.
+9. The rack held a dozen *foils* and masks.
 
 ---
 
@@ -1005,15 +1119,23 @@ The activity of cooking bread, cakes, and pastry in an oven.
 ### boil
 
 **Pronunciation:** /bɔɪl/ &middot; *BOYL*
-**Русский:** кипение (в оборотах bring to a boil)
+**Русский:** кипение (в оборотах bring to a boil); фурункул, чирей
 **Plural:** *boils*
 **Countability:** countable
 
-The state of a liquid bubbling at its highest temperature.
+Boil has 2 distinct senses.
+
+**1. The state of a liquid bubbling at its highest temperature.** (кипение (в оборотах bring to a boil))
 
 1. Bring the water to a *boil* before you add the pasta.
 2. The soup came to a *boil* faster than I expected.
 3. Turn it down as soon as you get a rolling *boil*.
+
+**2. A painful red swelling on the skin caused by infection.** (фурункул, чирей)
+
+4. A *boil* on his neck kept him home from work.
+5. The doctor lanced the *boil* and cleaned it out.
+6. *Boils* often form where clothing rubs the skin.
 
 ---
 
@@ -1066,15 +1188,23 @@ A seasoned liquid that food soaks in before cooking.
 ### glaze
 
 **Pronunciation:** /ɡleɪz/ &middot; *GLAYZ*
-**Русский:** глазурь, блестящая заливка
+**Русский:** глазурь, блестящая заливка; глазурь (керамическая), полива
 **Plural:** *glazes*
 **Countability:** countable, and uncountable as food
 
-A shiny coating brushed or poured over food.
+Glaze has 2 distinct senses.
+
+**1. A shiny coating brushed or poured over food.** (глазурь, блестящая заливка)
 
 1. Brush a honey *glaze* over the ham.
 2. The donuts have a thin sugar *glaze*.
 3. Sweet *glazes* burn if the oven's too hot.
+
+**2. A glassy coating baked onto pottery to seal and decorate it.** (глазурь (керамическая), полива)
+
+4. The bowl has a deep blue *glaze*.
+5. She mixes her own *glazes* in the studio.
+6. The *glaze* cracked in the kiln.
 
 ---
 
@@ -1126,44 +1256,80 @@ A style of cooking associated with a country or region.
 ### taste
 
 **Pronunciation:** /teɪst/ &middot; *TAYST*
-**Русский:** вкус (ощущение); привкус
+**Русский:** вкус (ощущение); привкус; вкус (о предпочтениях, чувство стиля)
 **Plural:** *tastes*
 **Countability:** both — countable and uncountable with different meanings
 
-The sensation food produces in your mouth, or a small sample of it.
+Taste has 2 distinct senses.
+
+**1. The sensation food produces in your mouth, or a small sample of it.** (вкус (ощущение); привкус)
 
 1. It has a slightly bitter *taste*.
 2. A bad cold ruins your sense of *taste*.
 3. Give me a *taste* before you add more salt.
+
+**2. A person's sense of what is good or attractive in things like clothes, music, or art.** (вкус (о предпочтениях, чувство стиля))
+
+4. She has excellent *taste* in furniture.
+5. That joke was in poor *taste*.
+6. His *tastes* run to old jazz records.
 
 ---
 
 ### texture
 
 **Pronunciation:** /ˈtɛkstʃər/ &middot; *TEKS-chur*
-**Русский:** текстура, консистенция
+**Русский:** текстура, консистенция; фактура, текстура (поверхности)
 **Plural:** *textures*
 **Countability:** countable
 
-The way food feels in the mouth.
+Texture has 2 distinct senses.
+
+**1. The way food feels in the mouth.** (текстура, консистенция)
 
 1. The bread has a nice chewy *texture*.
 2. Overcooking ruins the *texture* of shrimp.
 3. The two sauces have completely different *textures*.
+
+**2. The way a surface feels or looks when you touch it.** (фактура, текстура (поверхности))
+
+4. The wall has a rough *texture*.
+5. She likes fabrics with an interesting *texture*.
+6. Sand the board until the *texture* is smooth.
 
 ---
 
 ### heat
 
 **Pronunciation:** /hiːt/ &middot; *HEET*
-**Русский:** огонь, нагрев (на плите)
+**Русский:** огонь, нагрев (на плите); жара; тепло (исходящее от чего-л.); забег, заплыв (отборочный); давление, нападки (критика)
 **Countability:** uncountable
 
-The level of warmth used to cook something.
+Heat has 4 distinct senses.
+
+**1. The level of warmth used to cook something.** (огонь, нагрев (на плите))
 
 1. Cook it over medium *heat*.
 2. Turn the *heat* down before it scorches.
 3. Cast iron holds *heat* better than aluminum.
+
+**2. Great warmth, especially hot weather or the warmth coming off something.** (жара; тепло (исходящее от чего-л.))
+
+4. The *heat* in August is brutal here.
+5. We stood by the fire and felt the *heat* on our faces.
+6. Never leave a dog in the car in this kind of *heat*.
+
+**3. One of the early races or rounds that decide who reaches the final.** (забег, заплыв (отборочный))
+
+7. She won her *heat* and qualified for the final.
+8. The first *heat* starts at nine in the morning.
+9. He was disqualified in the opening *heat*.
+
+**4. Strong pressure or criticism aimed at someone.** (давление, нападки (критика))
+
+10. The mayor took a lot of *heat* for that decision.
+11. The *heat* is on the coach after four straight losses.
+12. If this goes wrong, I'm the one who catches the *heat*.
 
 ---
 
@@ -1192,44 +1358,68 @@ Steam has 2 distinct senses.
 ### batch
 
 **Pronunciation:** /bætʃ/ &middot; *BACH*
-**Русский:** партия, порция (приготовленного за раз)
+**Русский:** партия, порция (приготовленного за раз); партия, группа (обрабатываемых за раз)
 **Plural:** *batches*
 **Countability:** countable
 
-An amount of food made or baked at one time.
+Batch has 2 distinct senses.
+
+**1. An amount of food made or baked at one time.** (партия, порция (приготовленного за раз))
 
 1. The first *batch* of cookies burned.
 2. She makes a big *batch* of soup on Sundays.
 3. We froze two *batches* of sauce.
+
+**2. A group of things or people dealt with at the same time.** (партия, группа (обрабатываемых за раз))
+
+4. The office processes a *batch* of applications every Monday.
+5. A new *batch* of recruits arrived at the base.
+6. We sent the letters out in three *batches*.
 
 ---
 
 ### mixture
 
 **Pronunciation:** /ˈmɪkstʃər/ &middot; *MIKS-chur*
-**Русский:** смесь
+**Русский:** смесь; сочетание, смешанное чувство
 **Plural:** *mixtures*
 **Countability:** countable
 
-Ingredients that have been combined together.
+Mixture has 2 distinct senses.
+
+**1. Ingredients that have been combined together.** (смесь)
 
 1. Stir the *mixture* until it's smooth.
 2. Pour the *mixture* over the crust.
 3. Both *mixtures* need to chill for an hour.
+
+**2. A combination of different qualities, feelings, or kinds of thing.** (сочетание, смешанное чувство)
+
+4. She watched with a *mixture* of pride and worry.
+5. The block is a *mixture* of old houses and new condos.
+6. His answer was a strange *mixture* of honesty and bluff.
 
 ---
 
 ### zest
 
 **Pronunciation:** /zɛst/ &middot; *ZEST*
-**Русский:** цедра
+**Русский:** цедра; энтузиазм, вкус к жизни
 **Countability:** uncountable
 
-The colored outer part of citrus peel, grated for flavor.
+Zest has 2 distinct senses.
+
+**1. The colored outer part of citrus peel, grated for flavor.** (цедра)
 
 1. Add the *zest* of one lemon.
 2. Orange *zest* makes the whole thing taste brighter.
 3. Grate the *zest* off before you juice the fruit.
+
+**2. Great enjoyment and energy for something.** (энтузиазм, вкус к жизни)
+
+4. She has a real *zest* for life.
+5. He attacked the job with *zest*.
+6. Age hasn't dulled his *zest* for a good argument.
 
 ---
 

@@ -21,14 +21,73 @@
       "term": "bug",
       "ipa": "/bʌɡ/",
       "respell": "BUG",
-      "meaning": "Any small crawling or flying insect, in everyday speech. ---",
+      "meaning": "Bug has 4 distinct senses.",
       "examples": [
         "There's a bug crawling up the wall behind you.",
         "The screen door keeps most of the bugs out.",
-        "Some kind of bug landed in my coffee."
+        "Some kind of bug landed in my coffee.",
+        "The update fixed a bug that erased saved files.",
+        "Testers filed a dozen bugs on the first day.",
+        "There's a bug in the checkout page.",
+        "Half the office caught a stomach bug.",
+        "She's home with some kind of bug.",
+        "A nasty bug went through the daycare in January.",
+        "Agents planted a bug in the hotel room.",
+        "They swept the office for bugs every month.",
+        "A bug under the table recorded the whole meeting."
       ],
-      "senses": [],
-      "русский": "жучок, насекомое (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Any small crawling or flying insect, in everyday speech",
+          "body": [
+            "(жучок, насекомое (разг.))"
+          ],
+          "examples": [
+            "There's a bug crawling up the wall behind you.",
+            "The screen door keeps most of the bugs out.",
+            "Some kind of bug landed in my coffee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mistake in a computer program that makes it behave wrongly",
+          "body": [
+            "(баг, ошибка в программе)"
+          ],
+          "examples": [
+            "The update fixed a bug that erased saved files.",
+            "Testers filed a dozen bugs on the first day.",
+            "There's a bug in the checkout page."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A minor infection passed from one person to another",
+          "body": [
+            "(инфекция, вирус (лёгкое недомогание))"
+          ],
+          "examples": [
+            "Half the office caught a stomach bug.",
+            "She's home with some kind of bug.",
+            "A nasty bug went through the daycare in January."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A tiny hidden microphone used to listen in secretly",
+          "body": [
+            "(жучок (подслушивающее устройство))",
+            "---"
+          ],
+          "examples": [
+            "Agents planted a bug in the hotel room.",
+            "They swept the office for bugs every month.",
+            "A bug under the table recorded the whole meeting."
+          ]
+        }
+      ],
+      "русский": "жучок, насекомое (разг.); баг, ошибка в программе; инфекция, вирус (лёгкое недомогание); жучок (подслушивающее устройство)",
       "plural": "bugs",
       "countability": "countable",
       "contrast": "In casual American English bug covers almost any small creepy-crawly, including spiders — insect is the precise word."
@@ -37,14 +96,43 @@
       "term": "pest",
       "ipa": "/pɛst/",
       "respell": "PEST",
-      "meaning": "An insect or animal that damages crops, food, or property. ---",
+      "meaning": "Pest has 2 distinct senses.",
       "examples": [
         "Deer are the worst pest in this garden.",
         "The farm loses about a tenth of its corn to pests.",
-        "We hired someone to deal with the pests in the attic."
+        "We hired someone to deal with the pests in the attic.",
+        "Stop being such a pest and let me finish this.",
+        "The kids next door are complete pests.",
+        "He made a pest of himself calling every hour."
       ],
-      "senses": [],
-      "русский": "вредитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An insect or animal that damages crops, food, or property",
+          "body": [
+            "(вредитель)"
+          ],
+          "examples": [
+            "Deer are the worst pest in this garden.",
+            "The farm loses about a tenth of its corn to pests.",
+            "We hired someone to deal with the pests in the attic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An annoying person who keeps bothering you",
+          "body": [
+            "(надоеда, приставала)",
+            "---"
+          ],
+          "examples": [
+            "Stop being such a pest and let me finish this.",
+            "The kids next door are complete pests.",
+            "He made a pest of himself calling every hour."
+          ]
+        }
+      ],
+      "русский": "вредитель; надоеда, приставала",
       "plural": "pests",
       "countability": "countable"
     },
@@ -112,14 +200,58 @@
       "term": "fly",
       "ipa": "/flaɪ/",
       "respell": "FLY",
-      "meaning": "A small flying insect with two wings that is often found around food and garbage. ---",
+      "meaning": "Fly has 3 distinct senses.",
       "examples": [
         "There's a fly buzzing against the kitchen window.",
         "Close the lid or you'll have flies all over the trash.",
-        "He swatted the fly with a rolled-up magazine."
+        "He swatted the fly with a rolled-up magazine.",
+        "Your fly is open.",
+        "The zipper on his fly broke on the way to work.",
+        "These jeans have a button fly.",
+        "He ties his own flies all winter.",
+        "She cast a small dry fly upstream.",
+        "That fly has caught more trout than anything else in my box."
       ],
-      "senses": [],
-      "русский": "муха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small flying insect with two wings that is often found around food and garbage",
+          "body": [
+            "(муха)"
+          ],
+          "examples": [
+            "There's a fly buzzing against the kitchen window.",
+            "Close the lid or you'll have flies all over the trash.",
+            "He swatted the fly with a rolled-up magazine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The opening at the front of a pair of pants, closed with a zipper or buttons",
+          "body": [
+            "(ширинка)"
+          ],
+          "examples": [
+            "Your fly is open.",
+            "The zipper on his fly broke on the way to work.",
+            "These jeans have a button fly."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An artificial bait made to look like an insect, used in fishing",
+          "body": [
+            "(мушка (рыболовная приманка))",
+            "---"
+          ],
+          "examples": [
+            "He ties his own flies all winter.",
+            "She cast a small dry fly upstream.",
+            "That fly has caught more trout than anything else in my box."
+          ]
+        }
+      ],
+      "русский": "муха; ширинка; мушка (рыболовная приманка)",
       "plural": "flies",
       "countability": "countable"
     },
@@ -203,14 +335,43 @@
       "term": "grub",
       "ipa": "/ɡrʌb/",
       "respell": "GRUB",
-      "meaning": "The thick pale larva of a beetle, usually found in soil. ---",
+      "meaning": "Grub has 2 distinct senses.",
       "examples": [
         "The lawn died because grubs ate the roots.",
         "I turned over a rock and found a fat white grub.",
-        "Skunks dig up the yard looking for grubs."
+        "Skunks dig up the yard looking for grubs.",
+        "Let's grab some grub before the movie.",
+        "The diner serves good, cheap grub.",
+        "There's plenty of grub left in the cooler."
       ],
-      "senses": [],
-      "русский": "личинка (жука)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thick pale larva of a beetle, usually found in soil",
+          "body": [
+            "(личинка (жука))"
+          ],
+          "examples": [
+            "The lawn died because grubs ate the roots.",
+            "I turned over a rock and found a fat white grub.",
+            "Skunks dig up the yard looking for grubs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Food, in casual speech",
+          "body": [
+            "(еда, жратва (разг.))",
+            "---"
+          ],
+          "examples": [
+            "Let's grab some grub before the movie.",
+            "The diner serves good, cheap grub.",
+            "There's plenty of grub left in the cooler."
+          ]
+        }
+      ],
+      "русский": "личинка (жука); еда, жратва (разг.)",
       "plural": "grubs",
       "countability": "countable"
     },
@@ -218,14 +379,43 @@
       "term": "bee",
       "ipa": "/biː/",
       "respell": "BEE",
-      "meaning": "A flying insect that gathers nectar from flowers and can sting. ---",
+      "meaning": "Bee has 2 distinct senses.",
       "examples": [
         "A bee landed on the rim of my soda can.",
         "The lavender out front is always covered in bees.",
-        "He's allergic, so a bee sting is a real emergency."
+        "He's allergic, so a bee sting is a real emergency.",
+        "She won the school spelling bee two years running.",
+        "The neighbors held a quilting bee in the church hall.",
+        "Our town still has a sewing bee every winter."
       ],
-      "senses": [],
-      "русский": "пчела",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flying insect that gathers nectar from flowers and can sting",
+          "body": [
+            "(пчела)"
+          ],
+          "examples": [
+            "A bee landed on the rim of my soda can.",
+            "The lavender out front is always covered in bees.",
+            "He's allergic, so a bee sting is a real emergency."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gathering where people compete at something or work together",
+          "body": [
+            "(конкурс, коллективные посиделки (напр. spelling bee))",
+            "---"
+          ],
+          "examples": [
+            "She won the school spelling bee two years running.",
+            "The neighbors held a quilting bee in the church hall.",
+            "Our town still has a sewing bee every winter."
+          ]
+        }
+      ],
+      "русский": "пчела; конкурс, коллективные посиделки (напр. spelling bee)",
       "plural": "bees",
       "countability": "countable",
       "contrast": "Bee sounds exactly like the verb be — only context tells them apart in speech."
@@ -311,14 +501,43 @@
       "term": "hive",
       "ipa": "/haɪv/",
       "respell": "HYV",
-      "meaning": "A structure where a colony of bees lives. ---",
+      "meaning": "Hive has 2 distinct senses.",
       "examples": [
         "He keeps four hives behind the barn.",
         "The whole hive went quiet when it got cold.",
-        "Smoke calms the bees before you open the hive."
+        "Smoke calms the bees before you open the hive.",
+        "Peanuts give her hives.",
+        "He broke out in hives after taking the antibiotic.",
+        "The doctor said the hives would fade in a day or two."
       ],
-      "senses": [],
-      "русский": "улей",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A structure where a colony of bees lives",
+          "body": [
+            "(улей)"
+          ],
+          "examples": [
+            "He keeps four hives behind the barn.",
+            "The whole hive went quiet when it got cold.",
+            "Smoke calms the bees before you open the hive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An itchy rash of raised red patches, usually caused by an allergy",
+          "body": [
+            "(крапивница (сыпь))",
+            "---"
+          ],
+          "examples": [
+            "Peanuts give her hives.",
+            "He broke out in hives after taking the antibiotic.",
+            "The doctor said the hives would fade in a day or two."
+          ]
+        }
+      ],
+      "русский": "улей; крапивница (сыпь)",
       "plural": "hives",
       "countability": "countable"
     },
@@ -417,14 +636,43 @@
       "term": "sting",
       "ipa": "/stɪŋ/",
       "respell": "STING",
-      "meaning": "A painful wound made by a bee, wasp, or scorpion. ---",
+      "meaning": "Sting has 2 distinct senses.",
       "examples": [
         "The sting swelled up by the next morning.",
         "He's had three wasp stings this summer.",
-        "A scorpion sting is rarely fatal in this country."
+        "A scorpion sting is rarely fatal in this country.",
+        "Detectives arrested six people in the sting.",
+        "The sting was run out of a rented storefront.",
+        "Federal agents set up a sting to catch the dealers."
       ],
-      "senses": [],
-      "русский": "укус (жалящего насекомого)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A painful wound made by a bee, wasp, or scorpion",
+          "body": [
+            "(укус (жалящего насекомого))"
+          ],
+          "examples": [
+            "The sting swelled up by the next morning.",
+            "He's had three wasp stings this summer.",
+            "A scorpion sting is rarely fatal in this country."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A secret police operation set up to catch someone breaking the law",
+          "body": [
+            "(операция под прикрытием, подстава)",
+            "---"
+          ],
+          "examples": [
+            "Detectives arrested six people in the sting.",
+            "The sting was run out of a rented storefront.",
+            "Federal agents set up a sting to catch the dealers."
+          ]
+        }
+      ],
+      "русский": "укус (жалящего насекомого); операция под прикрытием, подстава",
       "plural": "stings",
       "countability": "countable",
       "contrast": "Bees and wasps sting; mosquitoes and spiders bite. Russian укус covers both, but English never says a bee bite."
@@ -433,14 +681,43 @@
       "term": "bite",
       "ipa": "/baɪt/",
       "respell": "BYT",
-      "meaning": "A mark or wound left where an insect or animal has bitten. ---",
+      "meaning": "Bite has 2 distinct senses.",
       "examples": [
         "I woke up with three bites on my ankle.",
         "Don't scratch the bite or it'll get infected.",
-        "A spider bite can take weeks to heal."
+        "A spider bite can take weeks to heal.",
+        "He took a bite of the sandwich and made a face.",
+        "Let's grab a bite before the movie.",
+        "There wasn't a bite of food left in the house."
       ],
-      "senses": [],
-      "русский": "укус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mark or wound left where an insect or animal has bitten",
+          "body": [
+            "(укус)"
+          ],
+          "examples": [
+            "I woke up with three bites on my ankle.",
+            "Don't scratch the bite or it'll get infected.",
+            "A spider bite can take weeks to heal."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of food taken into the mouth at one time, or a quick small meal",
+          "body": [
+            "(кусок (пищи); перекус)",
+            "---"
+          ],
+          "examples": [
+            "He took a bite of the sandwich and made a face.",
+            "Let's grab a bite before the movie.",
+            "There wasn't a bite of food left in the house."
+          ]
+        }
+      ],
+      "русский": "укус; кусок (пищи); перекус",
       "plural": "bites",
       "countability": "countable",
       "contrast": "Use bite for mosquitoes, spiders, ticks, and snakes, but sting for bees and wasps."
@@ -634,14 +911,43 @@
       "term": "cricket",
       "ipa": "/ˈkrɪkɪt/",
       "respell": "KRIK-it",
-      "meaning": "A small dark jumping insect that chirps loudly at night. ---",
+      "meaning": "Cricket has 2 distinct senses.",
       "examples": [
         "A cricket got into the basement and chirped all night.",
         "You could hear crickets through the open window.",
-        "The pet store sells crickets to feed to lizards."
+        "The pet store sells crickets to feed to lizards.",
+        "He grew up playing cricket in the street.",
+        "A cricket match can last five days.",
+        "Americans find the rules of cricket baffling."
       ],
-      "senses": [],
-      "русский": "сверчок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small dark jumping insect that chirps loudly at night",
+          "body": [
+            "(сверчок)"
+          ],
+          "examples": [
+            "A cricket got into the basement and chirped all night.",
+            "You could hear crickets through the open window.",
+            "The pet store sells crickets to feed to lizards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A team ball game played with flat bats and a hard ball, popular in Britain and India",
+          "body": [
+            "(крикет (игра))",
+            "---"
+          ],
+          "examples": [
+            "He grew up playing cricket in the street.",
+            "A cricket match can last five days.",
+            "Americans find the rules of cricket baffling."
+          ]
+        }
+      ],
+      "русский": "сверчок; крикет (игра)",
       "plural": "crickets",
       "countability": "countable"
     },
@@ -649,14 +955,43 @@
       "term": "locust",
       "ipa": "/ˈloʊkəst/",
       "respell": "LOH-kuhst",
-      "meaning": "A grasshopper that travels in huge destructive swarms. ---",
+      "meaning": "Locust has 2 distinct senses.",
       "examples": [
         "Locusts ate everything in the fields.",
         "A single locust is harmless; a million of them are not.",
-        "The swarm of locusts darkened the sky."
+        "The swarm of locusts darkened the sky.",
+        "They planted a locust by the fence for shade.",
+        "Black locust makes good fence posts.",
+        "The old locust in the yard blooms white in May."
       ],
-      "senses": [],
-      "русский": "саранча",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A grasshopper that travels in huge destructive swarms",
+          "body": [
+            "(саранча)"
+          ],
+          "examples": [
+            "Locusts ate everything in the fields.",
+            "A single locust is harmless; a million of them are not.",
+            "The swarm of locusts darkened the sky."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A North American tree with feathery leaves, hard wood, and thorny twigs",
+          "body": [
+            "(робиния, белая акация (дерево))",
+            "---"
+          ],
+          "examples": [
+            "They planted a locust by the fence for shade.",
+            "Black locust makes good fence posts.",
+            "The old locust in the yard blooms white in May."
+          ]
+        }
+      ],
+      "русский": "саранча; робиния, белая акация (дерево)",
       "plural": "locusts",
       "countability": "countable"
     },
@@ -834,14 +1169,43 @@
       "term": "tick",
       "ipa": "/tɪk/",
       "respell": "TIK",
-      "meaning": "A small blood-sucking creature that attaches itself to skin and can carry disease. ---",
+      "meaning": "Tick has 2 distinct senses.",
       "examples": [
         "Check the kids for ticks after they come in from the woods.",
         "He pulled a tick off his ankle with tweezers.",
-        "Ticks around here carry Lyme disease."
+        "Ticks around here carry Lyme disease.",
+        "The only sound was the tick of the kitchen clock.",
+        "He counted the ticks while he waited.",
+        "The watch has a very quiet tick."
       ],
-      "senses": [],
-      "русский": "клещ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small blood-sucking creature that attaches itself to skin and can carry disease",
+          "body": [
+            "(клещ)"
+          ],
+          "examples": [
+            "Check the kids for ticks after they come in from the woods.",
+            "He pulled a tick off his ankle with tweezers.",
+            "Ticks around here carry Lyme disease."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The short sharp sound a clock makes",
+          "body": [
+            "(тиканье, щелчок (часов))",
+            "---"
+          ],
+          "examples": [
+            "The only sound was the tick of the kitchen clock.",
+            "He counted the ticks while he waited.",
+            "The watch has a very quiet tick."
+          ]
+        }
+      ],
+      "русский": "клещ; тиканье, щелчок (часов)",
       "plural": "ticks",
       "countability": "countable",
       "contrast": "In American English a checkmark is a check, not a tick — tick is the insect or the sound of a clock."
@@ -881,14 +1245,43 @@
       "term": "thorax",
       "ipa": "/ˈθɔːræks/",
       "respell": "THOR-aks",
-      "meaning": "The middle section of an insect's body, where the legs and wings attach. ---",
+      "meaning": "Thorax has 2 distinct senses.",
       "examples": [
         "All six legs come out of the thorax.",
         "The wasp's thorax was banded in yellow.",
-        "You can tell the species apart by the markings on their thoraxes."
+        "You can tell the species apart by the markings on their thoraxes.",
+        "The X-ray showed a shadow in the thorax.",
+        "The surgeon opened the thorax to reach the heart.",
+        "Pain in the thorax should be checked right away."
       ],
-      "senses": [],
-      "русский": "грудь (у насекомого)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The middle section of an insect's body, where the legs and wings attach",
+          "body": [
+            "(грудь (у насекомого))"
+          ],
+          "examples": [
+            "All six legs come out of the thorax.",
+            "The wasp's thorax was banded in yellow.",
+            "You can tell the species apart by the markings on their thoraxes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of the human body between the neck and the abdomen; the chest",
+          "body": [
+            "(грудная клетка)",
+            "---"
+          ],
+          "examples": [
+            "The X-ray showed a shadow in the thorax.",
+            "The surgeon opened the thorax to reach the heart.",
+            "Pain in the thorax should be checked right away."
+          ]
+        }
+      ],
+      "русский": "грудь (у насекомого); грудная клетка",
       "plural": "thoraxes",
       "countability": "countable",
       "contrast": "Both thoraxes and the Latin plural thoraces are used; thoraxes is the safer everyday choice."
@@ -913,14 +1306,43 @@
       "term": "web",
       "ipa": "/wɛb/",
       "respell": "WEB",
-      "meaning": "The net of silk threads a spider spins to catch prey. ---",
+      "meaning": "Web has 2 distinct senses.",
       "examples": [
         "A web stretched right across the doorway.",
         "The morning dew made the webs visible.",
-        "A moth was struggling in the web."
+        "A moth was struggling in the web.",
+        "You can find the form on the web.",
+        "He spent all afternoon searching the web.",
+        "The article is only on the web, not in print."
       ],
-      "senses": [],
-      "русский": "паутина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The net of silk threads a spider spins to catch prey",
+          "body": [
+            "(паутина)"
+          ],
+          "examples": [
+            "A web stretched right across the doorway.",
+            "The morning dew made the webs visible.",
+            "A moth was struggling in the web."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The system of linked pages and sites on the internet",
+          "body": [
+            "(интернет, всемирная паутина)",
+            "---"
+          ],
+          "examples": [
+            "You can find the form on the web.",
+            "He spent all afternoon searching the web.",
+            "The article is only on the web, not in print."
+          ]
+        }
+      ],
+      "русский": "паутина; интернет, всемирная паутина",
       "plural": "webs",
       "countability": "countable"
     },
@@ -1007,14 +1429,58 @@
       "term": "worm",
       "ipa": "/wɜːrm/",
       "respell": "WURM",
-      "meaning": "A long soft creature with no legs that lives in soil. ---",
+      "meaning": "Worm has 3 distinct senses.",
       "examples": [
         "The rain brought worms out onto the sidewalk.",
         "He cut the worm in half for bait.",
-        "Good soil is full of worms."
+        "Good soil is full of worms.",
+        "A worm shut down the hospital's network for two days.",
+        "The worm spread through email attachments.",
+        "Security teams patched the hole the worm used.",
+        "The puppy has worms and needs medicine.",
+        "Every child in the village was treated for worms.",
+        "The vet checks a stool sample for worms."
       ],
-      "senses": [],
-      "русский": "червь, червяк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long soft creature with no legs that lives in soil",
+          "body": [
+            "(червь, червяк)"
+          ],
+          "examples": [
+            "The rain brought worms out onto the sidewalk.",
+            "He cut the worm in half for bait.",
+            "Good soil is full of worms."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A harmful program that copies itself from computer to computer over a network",
+          "body": [
+            "(червь (компьютерный вирус))"
+          ],
+          "examples": [
+            "A worm shut down the hospital's network for two days.",
+            "The worm spread through email attachments.",
+            "Security teams patched the hole the worm used."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A parasite that lives in the gut of a person or an animal",
+          "body": [
+            "(глисты, гельминты)",
+            "---"
+          ],
+          "examples": [
+            "The puppy has worms and needs medicine.",
+            "Every child in the village was treated for worms.",
+            "The vet checks a stool sample for worms."
+          ]
+        }
+      ],
+      "русский": "червь, червяк; червь (компьютерный вирус); глисты, гельминты",
       "plural": "worms",
       "countability": "countable",
       "contrast": "Worm and warm differ only in the vowel: WURM has the vowel of bird, WARM the vowel of for."
@@ -1038,14 +1504,58 @@
       "term": "slug",
       "ipa": "/slʌɡ/",
       "respell": "SLUG",
-      "meaning": "A soft slimy creature like a snail without a shell. ---",
+      "meaning": "Slug has 3 distinct senses.",
       "examples": [
         "Slugs got into the lettuce again.",
         "There was a slug on the back step this morning.",
-        "A little salt kills a slug instantly."
+        "A little salt kills a slug instantly.",
+        "The surgeon dug a slug out of his shoulder.",
+        "A single slug went through the door.",
+        "Deer season here is slugs only, no buckshot.",
+        "He took a slug of coffee and kept driving.",
+        "She poured a slug of bourbon into the batter.",
+        "Two slugs of that stuff and he was done for the night."
       ],
-      "senses": [],
-      "русский": "слизень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft slimy creature like a snail without a shell",
+          "body": [
+            "(слизень)"
+          ],
+          "examples": [
+            "Slugs got into the lettuce again.",
+            "There was a slug on the back step this morning.",
+            "A little salt kills a slug instantly."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lump of lead fired from a gun",
+          "body": [
+            "(пуля (свинцовая))"
+          ],
+          "examples": [
+            "The surgeon dug a slug out of his shoulder.",
+            "A single slug went through the door.",
+            "Deer season here is slugs only, no buckshot."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large mouthful of a drink, especially liquor",
+          "body": [
+            "(большой глоток (спиртного))",
+            "---"
+          ],
+          "examples": [
+            "He took a slug of coffee and kept driving.",
+            "She poured a slug of bourbon into the batter.",
+            "Two slugs of that stuff and he was done for the night."
+          ]
+        }
+      ],
+      "русский": "слизень; пуля (свинцовая); большой глоток (спиртного)",
       "plural": "slugs",
       "countability": "countable"
     },
@@ -1098,14 +1608,43 @@
       "term": "leech",
       "ipa": "/liːtʃ/",
       "respell": "LEECH",
-      "meaning": "A flat worm that attaches to skin and sucks blood. ---",
+      "meaning": "Leech has 2 distinct senses.",
       "examples": [
         "He came out of the pond with a leech on his calf.",
         "Leeches are still used in some kinds of surgery.",
-        "Salt makes a leech let go."
+        "Salt makes a leech let go.",
+        "Her cousin is a total leech.",
+        "He got tired of supporting a leech.",
+        "He called them leeches living off the family fortune."
       ],
-      "senses": [],
-      "русский": "пиявка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat worm that attaches to skin and sucks blood",
+          "body": [
+            "(пиявка)"
+          ],
+          "examples": [
+            "He came out of the pond with a leech on his calf.",
+            "Leeches are still used in some kinds of surgery.",
+            "Salt makes a leech let go."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who lives off other people's money or effort",
+          "body": [
+            "(нахлебник, паразит)",
+            "---"
+          ],
+          "examples": [
+            "Her cousin is a total leech.",
+            "He got tired of supporting a leech.",
+            "He called them leeches living off the family fortune."
+          ]
+        }
+      ],
+      "русский": "пиявка; нахлебник, паразит",
       "plural": "leeches",
       "countability": "countable",
       "contrast": "Leech the animal sounds the same as leach, the verb meaning to drain away through soil."
@@ -1174,14 +1713,58 @@
       "term": "snake",
       "ipa": "/sneɪk/",
       "respell": "SNAYK",
-      "meaning": "A long legless reptile that moves by sliding along the ground. ---",
+      "meaning": "Snake has 3 distinct senses.",
       "examples": [
         "A snake crossed the trail right in front of us.",
         "Most snakes around here are not venomous.",
-        "He grabbed the rake and moved the snake off the porch."
+        "He grabbed the rake and moved the snake off the porch.",
+        "The plumber ran a snake down the kitchen drain.",
+        "You can rent a snake at the hardware store.",
+        "Neither the plunger nor the snake opened the pipe.",
+        "He turned out to be a snake.",
+        "Don't trust her with that; she's a snake.",
+        "Snakes like that will smile at you and take your job."
       ],
-      "senses": [],
-      "русский": "змея",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long legless reptile that moves by sliding along the ground",
+          "body": [
+            "(змея)"
+          ],
+          "examples": [
+            "A snake crossed the trail right in front of us.",
+            "Most snakes around here are not venomous.",
+            "He grabbed the rake and moved the snake off the porch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long flexible metal coil pushed down a drain to clear a clog",
+          "body": [
+            "(сантехнический трос (для прочистки труб))"
+          ],
+          "examples": [
+            "The plumber ran a snake down the kitchen drain.",
+            "You can rent a snake at the hardware store.",
+            "Neither the plunger nor the snake opened the pipe."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person who betrays others while pretending to be a friend",
+          "body": [
+            "(змея, коварный человек)",
+            "---"
+          ],
+          "examples": [
+            "He turned out to be a snake.",
+            "Don't trust her with that; she's a snake.",
+            "Snakes like that will smile at you and take your job."
+          ]
+        }
+      ],
+      "русский": "змея; сантехнический трос (для прочистки труб); змея, коварный человек",
       "plural": "snakes",
       "countability": "countable"
     },
@@ -1405,14 +1988,43 @@
       "term": "boa",
       "ipa": "/ˈboʊə/",
       "respell": "BOH-uh",
-      "meaning": "A heavy tropical snake that wraps around its prey and crushes it. ---",
+      "meaning": "Boa has 2 distinct senses.",
       "examples": [
         "His brother keeps a boa in the garage.",
         "Boas give birth to live young instead of laying eggs.",
-        "The boa wrapped itself around the branch."
+        "The boa wrapped itself around the branch.",
+        "She wore a pink feather boa to the party.",
+        "The costume came with a boa and long gloves.",
+        "Boas and sequins filled the dressing room."
       ],
-      "senses": [],
-      "русский": "удав",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy tropical snake that wraps around its prey and crushes it",
+          "body": [
+            "(удав)"
+          ],
+          "examples": [
+            "His brother keeps a boa in the garage.",
+            "Boas give birth to live young instead of laying eggs.",
+            "The boa wrapped itself around the branch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long fluffy scarf made of feathers",
+          "body": [
+            "(боа (шарф из перьев))",
+            "---"
+          ],
+          "examples": [
+            "She wore a pink feather boa to the party.",
+            "The costume came with a boa and long gloves.",
+            "Boas and sequins filled the dressing room."
+          ]
+        }
+      ],
+      "русский": "удав; боа (шарф из перьев)",
       "plural": "boas",
       "countability": "countable"
     },
@@ -1466,14 +2078,43 @@
       "term": "venom",
       "ipa": "/ˈvɛnəm/",
       "respell": "VEN-uhm",
-      "meaning": "The poison that a snake, spider, or scorpion injects with a bite or sting. ---",
+      "meaning": "Venom has 2 distinct senses.",
       "examples": [
         "The venom attacks the blood, not the nerves.",
         "They milk the snakes for venom to make antivenom.",
-        "Only a small amount of venom got into the wound."
+        "Only a small amount of venom got into the wound.",
+        "He talked about his old boss with real venom.",
+        "There was venom in her voice.",
+        "The letter was three pages of pure venom."
       ],
-      "senses": [],
-      "русский": "яд (змеиный, паучий)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The poison that a snake, spider, or scorpion injects with a bite or sting",
+          "body": [
+            "(яд (змеиный, паучий))"
+          ],
+          "examples": [
+            "The venom attacks the blood, not the nerves.",
+            "They milk the snakes for venom to make antivenom.",
+            "Only a small amount of venom got into the wound."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Extreme bitterness or hatred in what someone says",
+          "body": [
+            "(злоба, яд (в словах))",
+            "---"
+          ],
+          "examples": [
+            "He talked about his old boss with real venom.",
+            "There was venom in her voice.",
+            "The letter was three pages of pure venom."
+          ]
+        }
+      ],
+      "русский": "яд (змеиный, паучий); злоба, яд (в словах)",
       "countability": "uncountable",
       "contrast": "Venom is injected by a bite or sting, so the animal is venomous; poison is swallowed or absorbed, so a poisonous mushroom is a different idea entirely."
     },
@@ -1799,14 +2440,43 @@
       "term": "nymph",
       "ipa": "/nɪmf/",
       "respell": "NIMF",
-      "meaning": "A young insect that looks like a small wingless version of the adult. ---",
+      "meaning": "Nymph has 2 distinct senses.",
       "examples": [
         "A dragonfly nymph lives underwater for a year or more.",
         "Cicada nymphs feed on roots in the dark.",
-        "The nymph climbed out of the water and split open."
+        "The nymph climbed out of the water and split open.",
+        "The painting shows nymphs bathing in a pool.",
+        "A nymph was said to guard the spring.",
+        "In the story a river nymph falls in love with a hunter."
       ],
-      "senses": [],
-      "русский": "нимфа (личинка насекомого)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A young insect that looks like a small wingless version of the adult",
+          "body": [
+            "(нимфа (личинка насекомого))"
+          ],
+          "examples": [
+            "A dragonfly nymph lives underwater for a year or more.",
+            "Cicada nymphs feed on roots in the dark.",
+            "The nymph climbed out of the water and split open."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In Greek and Roman myths, a young female spirit living in a river, tree, or hill",
+          "body": [
+            "(нимфа (мифическая дева природы))",
+            "---"
+          ],
+          "examples": [
+            "The painting shows nymphs bathing in a pool.",
+            "A nymph was said to guard the spring.",
+            "In the story a river nymph falls in love with a hunter."
+          ]
+        }
+      ],
+      "русский": "нимфа (личинка насекомого); нимфа (мифическая дева природы)",
       "plural": "nymphs",
       "countability": "countable"
     },

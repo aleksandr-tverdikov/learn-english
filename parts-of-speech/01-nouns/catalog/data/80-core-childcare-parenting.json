@@ -652,14 +652,43 @@
       "term": "bouncer",
       "ipa": "/ˈbaʊnsər/",
       "respell": "BOWN-sur",
-      "meaning": "A soft springy seat that rocks a baby up and down. ---",
+      "meaning": "Bouncer has 2 distinct senses.",
       "examples": [
         "She naps best in the bouncer.",
         "Set the bouncer on the floor, never on a table.",
-        "Both bouncers came from a garage sale."
+        "Both bouncers came from a garage sale.",
+        "The bouncer checked our IDs at the door.",
+        "Two bouncers walked the drunk guy outside.",
+        "He worked as a bouncer while he was in college."
       ],
-      "senses": [],
-      "русский": "детский шезлонг-качалка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft springy seat that rocks a baby up and down",
+          "body": [
+            "(детский шезлонг-качалка)"
+          ],
+          "examples": [
+            "She naps best in the bouncer.",
+            "Set the bouncer on the floor, never on a table.",
+            "Both bouncers came from a garage sale."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong man employed by a bar or club to keep out or throw out troublemakers",
+          "body": [
+            "(вышибала, охранник в клубе)",
+            "---"
+          ],
+          "examples": [
+            "The bouncer checked our IDs at the door.",
+            "Two bouncers walked the drunk guy outside.",
+            "He worked as a bouncer while he was in college."
+          ]
+        }
+      ],
+      "русский": "детский шезлонг-качалка; вышибала, охранник в клубе",
       "plural": "bouncers",
       "countability": "countable",
       "contrast": "The same word also means the man who throws people out of a bar."
@@ -668,14 +697,58 @@
       "term": "walker",
       "ipa": "/ˈwɔːkər/",
       "respell": "WAW-kur",
-      "meaning": "A wheeled frame with a seat that a baby scoots around in. ---",
+      "meaning": "Walker has 3 distinct senses.",
       "examples": [
         "He raced across the kitchen in his walker.",
         "Doctors here discourage the use of a walker.",
-        "Old-style walkers are banned in Canada."
+        "Old-style walkers are banned in Canada.",
+        "She gets around the house with a walker.",
+        "After the hip surgery he needed a walker for a month.",
+        "The hallway is wide enough for two walkers to pass.",
+        "The trail is popular with walkers and runners.",
+        "Early-morning walkers filled the park.",
+        "She's a fast walker, so I had trouble keeping up."
       ],
-      "senses": [],
-      "русский": "ходунки (детские)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wheeled frame with a seat that a baby scoots around in",
+          "body": [
+            "(ходунки (детские))"
+          ],
+          "examples": [
+            "He raced across the kitchen in his walker.",
+            "Doctors here discourage the use of a walker.",
+            "Old-style walkers are banned in Canada."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A metal frame that a person leans on for support while walking",
+          "body": [
+            "(ходунки (для пожилых, больных))"
+          ],
+          "examples": [
+            "She gets around the house with a walker.",
+            "After the hip surgery he needed a walker for a month.",
+            "The hallway is wide enough for two walkers to pass."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person who is walking, especially for exercise",
+          "body": [
+            "(пешеход, любитель ходьбы)",
+            "---"
+          ],
+          "examples": [
+            "The trail is popular with walkers and runners.",
+            "Early-morning walkers filled the park.",
+            "She's a fast walker, so I had trouble keeping up."
+          ]
+        }
+      ],
+      "русский": "ходунки (детские); ходунки (для пожилых, больных); пешеход, любитель ходьбы",
       "plural": "walkers",
       "countability": "countable",
       "contrast": "Russian ходунки is plural, but English uses a singular: a walker."
@@ -759,14 +832,43 @@
       "term": "rattle",
       "ipa": "/ˈrætl/",
       "respell": "RAT-uhl",
-      "meaning": "A baby's toy that makes a noise when it is shaken. ---",
+      "meaning": "Rattle has 2 distinct senses.",
       "examples": [
         "He shook the rattle and laughed.",
         "The rattle rolled under the couch.",
-        "Wooden rattles were a popular shower gift."
+        "Wooden rattles were a popular shower gift.",
+        "There's a rattle under the hood at low speeds.",
+        "The wind set up a rattle in the storm door.",
+        "I keep hearing a rattle somewhere in the dashboard."
       ],
-      "senses": [],
-      "русский": "погремушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A baby's toy that makes a noise when it is shaken",
+          "body": [
+            "(погремушка)"
+          ],
+          "examples": [
+            "He shook the rattle and laughed.",
+            "The rattle rolled under the couch.",
+            "Wooden rattles were a popular shower gift."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick series of short knocking sounds",
+          "body": [
+            "(дребезжание, стук, грохот)",
+            "---"
+          ],
+          "examples": [
+            "There's a rattle under the hood at low speeds.",
+            "The wind set up a rattle in the storm door.",
+            "I keep hearing a rattle somewhere in the dashboard."
+          ]
+        }
+      ],
+      "русский": "погремушка; дребезжание, стук, грохот",
       "plural": "rattles",
       "countability": "countable"
     },
@@ -1075,14 +1177,43 @@
       "term": "nursing",
       "ipa": "/ˈnɜːrsɪŋ/",
       "respell": "NUR-sing",
-      "meaning": "Feeding a baby at the breast. ---",
+      "meaning": "Nursing has 2 distinct senses.",
       "examples": [
         "Nursing every two hours wore her out.",
         "She found a quiet room for nursing.",
-        "Nursing got easier after the first month."
+        "Nursing got easier after the first month.",
+        "She's going back to school for nursing.",
+        "Twenty years of nursing taught him patience.",
+        "The hospital has a serious nursing shortage."
       ],
-      "senses": [],
-      "русский": "кормление грудью",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Feeding a baby at the breast",
+          "body": [
+            "(кормление грудью)"
+          ],
+          "examples": [
+            "Nursing every two hours wore her out.",
+            "She found a quiet room for nursing.",
+            "Nursing got easier after the first month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The profession of caring for sick and injured people",
+          "body": [
+            "(сестринское дело, профессия медсестры)",
+            "---"
+          ],
+          "examples": [
+            "She's going back to school for nursing.",
+            "Twenty years of nursing taught him patience.",
+            "The hospital has a serious nursing shortage."
+          ]
+        }
+      ],
+      "русский": "кормление грудью; сестринское дело, профессия медсестры",
       "countability": "uncountable",
       "contrast": "The same word also means the profession of a nurse — context decides."
     },
@@ -1307,14 +1438,43 @@
       "term": "babble",
       "ipa": "/ˈbæbl/",
       "respell": "BAB-uhl",
-      "meaning": "The repeated sounds a baby makes before real words. ---",
+      "meaning": "Babble has 2 distinct senses.",
       "examples": [
         "Her babble is starting to sound like sentences.",
         "We heard happy babble through the monitor.",
-        "That babble turns into words faster than you think."
+        "That babble turns into words faster than you think.",
+        "A babble of voices filled the hallway.",
+        "I couldn't hear the announcement over the babble.",
+        "The room went from a babble to total silence."
       ],
-      "senses": [],
-      "русский": "лепет (младенца)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The repeated sounds a baby makes before real words",
+          "body": [
+            "(лепет (младенца))"
+          ],
+          "examples": [
+            "Her babble is starting to sound like sentences.",
+            "We heard happy babble through the monitor.",
+            "That babble turns into words faster than you think."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A confused noise of many people talking at once",
+          "body": [
+            "(гул голосов, невнятный говор)",
+            "---"
+          ],
+          "examples": [
+            "A babble of voices filled the hallway.",
+            "I couldn't hear the announcement over the babble.",
+            "The room went from a babble to total silence."
+          ]
+        }
+      ],
+      "русский": "лепет (младенца); гул голосов, невнятный говор",
       "countability": "uncountable"
     },
     {
@@ -2047,14 +2207,43 @@
       "term": "sandbox",
       "ipa": "/ˈsændbɑːks/",
       "respell": "SAND-bahks",
-      "meaning": "A low box of sand where small children dig and build. ---",
+      "meaning": "Sandbox has 2 distinct senses.",
       "examples": [
         "The kids spent an hour in the sandbox.",
         "We covered the sandbox so the cats stay out.",
-        "Both sandboxes at the park need new sand."
+        "Both sandboxes at the park need new sand.",
+        "Run the code in a sandbox first.",
+        "The bank gives developers a sandbox to test payments.",
+        "Nothing in the sandbox touches real customer data."
       ],
-      "senses": [],
-      "русский": "песочница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low box of sand where small children dig and build",
+          "body": [
+            "(песочница)"
+          ],
+          "examples": [
+            "The kids spent an hour in the sandbox.",
+            "We covered the sandbox so the cats stay out.",
+            "Both sandboxes at the park need new sand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A separated area where new software can be tested safely",
+          "body": [
+            "(песочница (изолированная среда для тестов))",
+            "---"
+          ],
+          "examples": [
+            "Run the code in a sandbox first.",
+            "The bank gives developers a sandbox to test payments.",
+            "Nothing in the sandbox touches real customer data."
+          ]
+        }
+      ],
+      "русский": "песочница; песочница (изолированная среда для тестов)",
       "plural": "sandboxes",
       "countability": "countable",
       "contrast": "American sandbox, British sandpit."
@@ -2079,14 +2268,58 @@
       "term": "swing",
       "ipa": "/swɪŋ/",
       "respell": "SWING",
-      "meaning": "A seat hung on ropes or chains for a child to ride back and forth. ---",
+      "meaning": "Swing has 3 distinct senses.",
       "examples": [
         "Push me higher on the swing!",
         "The baby swing has a bar across the front.",
-        "All four swings were taken."
+        "All four swings were taken.",
+        "He worked on his golf swing all summer.",
+        "She took a big swing and missed the ball.",
+        "The coach filmed each player's swing in slow motion.",
+        "There was a big swing toward the challenger in the final week.",
+        "Her mood swings worried her parents.",
+        "A ten-point swing in the polls decided the race."
       ],
-      "senses": [],
-      "русский": "качели",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A seat hung on ropes or chains for a child to ride back and forth",
+          "body": [
+            "(качели)"
+          ],
+          "examples": [
+            "Push me higher on the swing!",
+            "The baby swing has a bar across the front.",
+            "All four swings were taken."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single act of swinging your arm, a bat, or a club at something",
+          "body": [
+            "(замах, удар (в гольфе, бейсболе))"
+          ],
+          "examples": [
+            "He worked on his golf swing all summer.",
+            "She took a big swing and missed the ball.",
+            "The coach filmed each player's swing in slow motion."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A clear shift from one position, mood, or result to another",
+          "body": [
+            "(сдвиг, резкая перемена)",
+            "---"
+          ],
+          "examples": [
+            "There was a big swing toward the challenger in the final week.",
+            "Her mood swings worried her parents.",
+            "A ten-point swing in the polls decided the race."
+          ]
+        }
+      ],
+      "русский": "качели; замах, удар (в гольфе, бейсболе); сдвиг, резкая перемена",
       "plural": "swings",
       "countability": "countable",
       "contrast": "Russian качели is plural, but one seat in English is a swing."

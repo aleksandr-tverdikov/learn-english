@@ -6,14 +6,43 @@
       "term": "book",
       "ipa": "/bʊk/",
       "respell": "BUUK",
-      "meaning": "A set of printed or written pages bound together inside a cover. ---",
+      "meaning": "Book has 2 distinct senses.",
       "examples": [
         "I'm reading a book about the Civil War.",
         "She keeps her books in alphabetical order.",
-        "The book came out last spring."
+        "The book came out last spring.",
+        "An accountant goes over the books every quarter.",
+        "The restaurant's books were a mess.",
+        "He was accused of cooking the books."
       ],
-      "senses": [],
-      "русский": "книга",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of printed or written pages bound together inside a cover",
+          "body": [
+            "(книга)"
+          ],
+          "examples": [
+            "I'm reading a book about the Civil War.",
+            "She keeps her books in alphabetical order.",
+            "The book came out last spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A record of the money a business takes in and pays out, usually in the plural",
+          "body": [
+            "(бухгалтерские книги, отчётность)",
+            "---"
+          ],
+          "examples": [
+            "An accountant goes over the books every quarter.",
+            "The restaurant's books were a mess.",
+            "He was accused of cooking the books."
+          ]
+        }
+      ],
+      "русский": "книга; бухгалтерские книги, отчётность",
       "plural": "books",
       "countability": "countable"
     },
@@ -65,14 +94,73 @@
       "term": "cover",
       "ipa": "/ˈkʌvər/",
       "respell": "KUV-ur",
-      "meaning": "The stiff outside of a book or magazine that protects the pages. ---",
+      "meaning": "Cover has 4 distinct senses.",
       "examples": [
         "Don't judge a book by its cover.",
         "Her photo was on the cover of the magazine.",
-        "The paperback covers are already curling."
+        "The paperback covers are already curling.",
+        "We ran for cover when the hail started.",
+        "The soldiers took cover behind a low wall.",
+        "They crossed the field under cover of darkness.",
+        "Her cover of the old country song went viral.",
+        "The band plays covers until midnight, then their own songs.",
+        "It's a cover, but most people think it's the original.",
+        "One careless phone call blew his cover.",
+        "The import business was just a cover for smuggling.",
+        "She held her cover for three years inside the gang."
       ],
-      "senses": [],
-      "русский": "обложка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stiff outside of a book or magazine that protects the pages",
+          "body": [
+            "(обложка)"
+          ],
+          "examples": [
+            "Don't judge a book by its cover.",
+            "Her photo was on the cover of the magazine.",
+            "The paperback covers are already curling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Shelter or protection from weather, gunfire, or being seen",
+          "body": [
+            "(укрытие, прикрытие)"
+          ],
+          "examples": [
+            "We ran for cover when the hail started.",
+            "The soldiers took cover behind a low wall.",
+            "They crossed the field under cover of darkness."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A new recording of a song first made famous by someone else",
+          "body": [
+            "(кавер, перепевка)"
+          ],
+          "examples": [
+            "Her cover of the old country song went viral.",
+            "The band plays covers until midnight, then their own songs.",
+            "It's a cover, but most people think it's the original."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A false identity or story that hides what someone is really doing",
+          "body": [
+            "(прикрытие, легенда (агента))",
+            "---"
+          ],
+          "examples": [
+            "One careless phone call blew his cover.",
+            "The import business was just a cover for smuggling.",
+            "She held her cover for three years inside the gang."
+          ]
+        }
+      ],
+      "русский": "обложка; укрытие, прикрытие; кавер, перепевка; прикрытие, легенда (агента)",
       "plural": "covers",
       "countability": "countable"
     },
@@ -80,14 +168,73 @@
       "term": "title",
       "ipa": "/ˈtaɪtəl/",
       "respell": "TY-tuhl",
-      "meaning": "The name given to a book, article, film, or song. ---",
+      "meaning": "Title has 4 distinct senses.",
       "examples": [
         "I forget the title, but the cover was blue.",
         "The publisher releases about forty titles a year.",
-        "He changed the title three times before it went to print."
+        "He changed the title three times before it went to print.",
+        "Her official title is director of research.",
+        "He was given the title of duke.",
+        "People with fancy titles don't always do much work.",
+        "You can't sell the car without the title.",
+        "The bank holds the title until the loan is paid off.",
+        "They found a problem with the title to the land.",
+        "She won her third title in a row.",
+        "The team hasn't taken the title since 1994.",
+        "He defends his title in Las Vegas next month."
       ],
-      "senses": [],
-      "русский": "название, заглавие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The name given to a book, article, film, or song",
+          "body": [
+            "(название, заглавие)"
+          ],
+          "examples": [
+            "I forget the title, but the cover was blue.",
+            "The publisher releases about forty titles a year.",
+            "He changed the title three times before it went to print."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word used before someone's name or for a position, showing rank or job",
+          "body": [
+            "(титул; звание, должность)"
+          ],
+          "examples": [
+            "Her official title is director of research.",
+            "He was given the title of duke.",
+            "People with fancy titles don't always do much work."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The legal right to own something, or the document that proves it",
+          "body": [
+            "(право собственности; документ на владение)"
+          ],
+          "examples": [
+            "You can't sell the car without the title.",
+            "The bank holds the title until the loan is paid off.",
+            "They found a problem with the title to the land."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The position of champion in a sport",
+          "body": [
+            "(титул чемпиона)",
+            "---"
+          ],
+          "examples": [
+            "She won her third title in a row.",
+            "The team hasn't taken the title since 1994.",
+            "He defends his title in Las Vegas next month."
+          ]
+        }
+      ],
+      "русский": "название, заглавие; титул; звание, должность; право собственности; документ на владение; титул чемпиона",
       "plural": "titles",
       "countability": "countable"
     },
@@ -275,14 +422,43 @@
       "term": "caption",
       "ipa": "/ˈkæpʃən/",
       "respell": "KAP-shuhn",
-      "meaning": "A short line of text printed under a photo or drawing to say what it shows. ---",
+      "meaning": "Caption has 2 distinct senses.",
       "examples": [
         "The caption got the mayor's name wrong.",
         "Write a one-line caption for each photo.",
-        "Half the captions are missing from the proof."
+        "Half the captions are missing from the proof.",
+        "Turn on the captions — I can barely hear the dialogue.",
+        "The video offers captions in Spanish.",
+        "On a live broadcast the captions run a second behind."
       ],
-      "senses": [],
-      "русский": "подпись (под фото или рисунком)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short line of text printed under a photo or drawing to say what it shows",
+          "body": [
+            "(подпись (под фото или рисунком))"
+          ],
+          "examples": [
+            "The caption got the mayor's name wrong.",
+            "Write a one-line caption for each photo.",
+            "Half the captions are missing from the proof."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Text on a screen showing what people are saying, for viewers who cannot hear it",
+          "body": [
+            "(субтитры)",
+            "---"
+          ],
+          "examples": [
+            "Turn on the captions — I can barely hear the dialogue.",
+            "The video offers captions in Spanish.",
+            "On a live broadcast the captions run a second behind."
+          ]
+        }
+      ],
+      "русский": "подпись (под фото или рисунком); субтитры",
       "plural": "captions",
       "countability": "countable"
     },
@@ -305,14 +481,73 @@
       "term": "chart",
       "ipa": "/tʃɑːrt/",
       "respell": "CHART",
-      "meaning": "A drawing that shows numbers or facts as bars, lines, or slices. ---",
+      "meaning": "Chart has 4 distinct senses.",
       "examples": [
         "The chart shows sales month by month.",
         "Put the numbers in a chart so people can see the trend.",
-        "All three charts use the same scale."
+        "All three charts use the same scale.",
+        "The captain spread the chart across the table.",
+        "Old charts put the reef in the wrong place.",
+        "He plotted the course on a nautical chart.",
+        "The nurse updated his chart after every visit.",
+        "Her allergies are noted at the top of the chart.",
+        "The doctor flipped through the chart before coming in.",
+        "The single topped the charts for six weeks.",
+        "Their album fell off the charts in March.",
+        "Three of her songs are on the charts right now."
       ],
-      "senses": [],
-      "русский": "график, диаграмма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A drawing that shows numbers or facts as bars, lines, or slices",
+          "body": [
+            "(график, диаграмма)"
+          ],
+          "examples": [
+            "The chart shows sales month by month.",
+            "Put the numbers in a chart so people can see the trend.",
+            "All three charts use the same scale."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A map of the sea or the stars used for navigation",
+          "body": [
+            "(карта (морская, звёздная))"
+          ],
+          "examples": [
+            "The captain spread the chart across the table.",
+            "Old charts put the reef in the wrong place.",
+            "He plotted the course on a nautical chart."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The record of a patient's condition and treatment in a hospital",
+          "body": [
+            "(медицинская карта)"
+          ],
+          "examples": [
+            "The nurse updated his chart after every visit.",
+            "Her allergies are noted at the top of the chart.",
+            "The doctor flipped through the chart before coming in."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The weekly list ranking the most popular songs or albums",
+          "body": [
+            "(хит-парад, чарты)",
+            "---"
+          ],
+          "examples": [
+            "The single topped the charts for six weeks.",
+            "Their album fell off the charts in March.",
+            "Three of her songs are on the charts right now."
+          ]
+        }
+      ],
+      "русский": "график, диаграмма; карта (морская, звёздная); медицинская карта; хит-парад, чарты",
       "plural": "charts",
       "countability": "countable"
     },
@@ -441,14 +676,58 @@
       "term": "copy",
       "ipa": "/ˈkɑːpi/",
       "respell": "KAH-pee",
-      "meaning": "One single example of a book, magazine, or record out of many printed. ---",
+      "meaning": "Copy has 3 distinct senses.",
       "examples": [
         "The book sold two million copies.",
         "Can I borrow your copy of the report?",
-        "There's a signed copy in the window."
+        "There's a signed copy in the window.",
+        "Make a copy of the key for your sister.",
+        "The painting on the wall is a very good copy.",
+        "Send copies of the signed form to both offices.",
+        "The ad copy needs to be shorter.",
+        "She writes copy for a marketing firm.",
+        "The editor cut half of his copy."
       ],
-      "senses": [],
-      "русский": "экземпляр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One single example of a book, magazine, or record out of many printed",
+          "body": [
+            "(экземпляр)"
+          ],
+          "examples": [
+            "The book sold two million copies.",
+            "Can I borrow your copy of the report?",
+            "There's a signed copy in the window."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something made to look exactly like an original",
+          "body": [
+            "(копия, дубликат)"
+          ],
+          "examples": [
+            "Make a copy of the key for your sister.",
+            "The painting on the wall is a very good copy.",
+            "Send copies of the signed form to both offices."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Written text prepared for printing or for an advertisement",
+          "body": [
+            "(текст (рекламный, редакционный))",
+            "---"
+          ],
+          "examples": [
+            "The ad copy needs to be shorter.",
+            "She writes copy for a marketing firm.",
+            "The editor cut half of his copy."
+          ]
+        }
+      ],
+      "русский": "экземпляр; копия, дубликат; текст (рекламный, редакционный)",
       "plural": "copies",
       "countability": "countable"
     },
@@ -780,14 +1059,43 @@
       "term": "fiction",
       "ipa": "/ˈfɪkʃən/",
       "respell": "FIK-shuhn",
-      "meaning": "Writing about people and events that are made up rather than real. ---",
+      "meaning": "Fiction has 2 distinct senses.",
       "examples": [
         "I read mostly fiction on vacation.",
         "The fiction section is upstairs.",
-        "She writes both fiction and essays."
+        "She writes both fiction and essays.",
+        "The idea that both sides agreed is a convenient fiction.",
+        "His entire resume turned out to be fiction.",
+        "The audit exposed the fiction behind the company's numbers."
       ],
-      "senses": [],
-      "русский": "художественная литература",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Writing about people and events that are made up rather than real",
+          "body": [
+            "(художественная литература)"
+          ],
+          "examples": [
+            "I read mostly fiction on vacation.",
+            "The fiction section is upstairs.",
+            "She writes both fiction and essays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something invented that people accept as if it were true",
+          "body": [
+            "(вымысел, выдумка)",
+            "---"
+          ],
+          "examples": [
+            "The idea that both sides agreed is a convenient fiction.",
+            "His entire resume turned out to be fiction.",
+            "The audit exposed the fiction behind the company's numbers."
+          ]
+        }
+      ],
+      "русский": "художественная литература; вымысел, выдумка",
       "countability": "uncountable"
     },
     {
@@ -976,14 +1284,43 @@
       "term": "comic",
       "ipa": "/ˈkɑːmɪk/",
       "respell": "KAH-mik",
-      "meaning": "A magazine or book that tells a story in drawn panels. ---",
+      "meaning": "Comic has 2 distinct senses.",
       "examples": [
         "He spent his allowance on comics.",
         "The comic came out every Wednesday.",
-        "There's a comic shop two blocks over."
+        "There's a comic shop two blocks over.",
+        "The comic opened with a joke about the weather.",
+        "She's a stand-up comic from Chicago.",
+        "Three comics are on the bill tonight."
       ],
-      "senses": [],
-      "русский": "комикс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A magazine or book that tells a story in drawn panels",
+          "body": [
+            "(комикс)"
+          ],
+          "examples": [
+            "He spent his allowance on comics.",
+            "The comic came out every Wednesday.",
+            "There's a comic shop two blocks over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A performer whose job is making an audience laugh",
+          "body": [
+            "(комик, юморист)",
+            "---"
+          ],
+          "examples": [
+            "The comic opened with a joke about the weather.",
+            "She's a stand-up comic from Chicago.",
+            "Three comics are on the bill tonight."
+          ]
+        }
+      ],
+      "русский": "комикс; комик, юморист",
       "plural": "comics",
       "countability": "countable"
     },
@@ -1037,14 +1374,58 @@
       "term": "plot",
       "ipa": "/plɑːt/",
       "respell": "PLAHT",
-      "meaning": "The series of events that make up a story. ---",
+      "meaning": "Plot has 3 distinct senses.",
       "examples": [
         "The plot falls apart in the last act.",
         "Don't tell me the plot — I haven't seen it.",
-        "Both books have almost identical plots."
+        "Both books have almost identical plots.",
+        "Police uncovered a plot to rob the bank.",
+        "The plot against the mayor fell apart.",
+        "He went to prison for his part in the plot.",
+        "They bought a plot of land outside town.",
+        "Each family tends its own plot in the community garden.",
+        "My grandparents bought burial plots years ago."
       ],
-      "senses": [],
-      "русский": "сюжет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The series of events that make up a story",
+          "body": [
+            "(сюжет)"
+          ],
+          "examples": [
+            "The plot falls apart in the last act.",
+            "Don't tell me the plot — I haven't seen it.",
+            "Both books have almost identical plots."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A secret plan by several people to do something harmful or illegal",
+          "body": [
+            "(заговор)"
+          ],
+          "examples": [
+            "Police uncovered a plot to rob the bank.",
+            "The plot against the mayor fell apart.",
+            "He went to prison for his part in the plot."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small marked-off piece of ground",
+          "body": [
+            "(участок земли)",
+            "---"
+          ],
+          "examples": [
+            "They bought a plot of land outside town.",
+            "Each family tends its own plot in the community garden.",
+            "My grandparents bought burial plots years ago."
+          ]
+        }
+      ],
+      "русский": "сюжет; заговор; участок земли",
       "plural": "plots",
       "countability": "countable"
     },
@@ -1216,14 +1597,43 @@
       "term": "royalty",
       "ipa": "/ˈrɔɪəlti/",
       "respell": "ROY-uhl-tee",
-      "meaning": "Money paid to an author or musician for each copy of their work that sells. ---",
+      "meaning": "Royalty has 2 distinct senses.",
       "examples": [
         "She still gets royalties from her first book.",
         "The contract sets the royalty at ten percent.",
-        "His royalties barely cover the rent."
+        "His royalties barely cover the rent.",
+        "The crowd hoped to catch a glimpse of royalty.",
+        "They were treated like royalty all weekend.",
+        "The museum displays jewelry once worn by royalty."
       ],
-      "senses": [],
-      "русский": "авторские отчисления, роялти",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money paid to an author or musician for each copy of their work that sells",
+          "body": [
+            "(авторские отчисления, роялти)"
+          ],
+          "examples": [
+            "She still gets royalties from her first book.",
+            "The contract sets the royalty at ten percent.",
+            "His royalties barely cover the rent."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Kings, queens, and the members of their families",
+          "body": [
+            "(члены королевской семьи, царственные особы)",
+            "---"
+          ],
+          "examples": [
+            "The crowd hoped to catch a glimpse of royalty.",
+            "They were treated like royalty all weekend.",
+            "The museum displays jewelry once worn by royalty."
+          ]
+        }
+      ],
+      "русский": "авторские отчисления, роялти; члены королевской семьи, царственные особы",
       "plural": "royalties",
       "countability": "countable"
     },
@@ -1290,14 +1700,58 @@
       "term": "reader",
       "ipa": "/ˈriːdər/",
       "respell": "REE-dur",
-      "meaning": "A person who reads a book, paper, or website. ---",
+      "meaning": "Reader has 3 distinct senses.",
       "examples": [
         "Readers wrote in by the hundreds.",
         "She's a slow but careful reader.",
-        "The column has loyal readers."
+        "The column has loyal readers.",
+        "Swipe your badge through the card reader.",
+        "The barcode reader at the register keeps failing.",
+        "Her e-book reader holds a thousand titles.",
+        "Every first grader gets a reader in September.",
+        "The passage comes from an old third-grade reader.",
+        "Those readers are full of little moral tales."
       ],
-      "senses": [],
-      "русский": "читатель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who reads a book, paper, or website",
+          "body": [
+            "(читатель)"
+          ],
+          "examples": [
+            "Readers wrote in by the hundreds.",
+            "She's a slow but careful reader.",
+            "The column has loyal readers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine, or part of one, that takes in information from cards, codes, or discs",
+          "body": [
+            "(считыватель, ридер)"
+          ],
+          "examples": [
+            "Swipe your badge through the card reader.",
+            "The barcode reader at the register keeps failing.",
+            "Her e-book reader holds a thousand titles."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A school book of stories and passages used to practice reading",
+          "body": [
+            "(книга для чтения, хрестоматия)",
+            "---"
+          ],
+          "examples": [
+            "Every first grader gets a reader in September.",
+            "The passage comes from an old third-grade reader.",
+            "Those readers are full of little moral tales."
+          ]
+        }
+      ],
+      "русский": "читатель; считыватель, ридер; книга для чтения, хрестоматия",
       "plural": "readers",
       "countability": "countable"
     },
@@ -1501,14 +1955,73 @@
       "term": "article",
       "ipa": "/ˈɑːrtɪkəl/",
       "respell": "AR-tih-kuhl",
-      "meaning": "A piece of writing about one subject in a newspaper, magazine, or website. ---",
+      "meaning": "Article has 4 distinct senses.",
       "examples": [
         "Did you read the article about the bridge?",
         "She's filed three articles this week.",
-        "The article is behind a paywall."
+        "The article is behind a paywall.",
+        "Every article of clothing was folded in tissue paper.",
+        "Customs asks you to declare articles worth over 800 dollars.",
+        "Not one article in the case was worth stealing.",
+        "Russian has no articles, so English ones take practice.",
+        "Use the definite article when both speakers know which one you mean.",
+        "He dropped every article from his notes to save space.",
+        "Article II lays out the president's powers.",
+        "The union cited Article 12 of the contract.",
+        "Both sides broke several articles of the treaty."
       ],
-      "senses": [],
-      "русский": "статья",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of writing about one subject in a newspaper, magazine, or website",
+          "body": [
+            "(статья)"
+          ],
+          "examples": [
+            "Did you read the article about the bridge?",
+            "She's filed three articles this week.",
+            "The article is behind a paywall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single object, especially one of a set",
+          "body": [
+            "(предмет, вещь, изделие)"
+          ],
+          "examples": [
+            "Every article of clothing was folded in tissue paper.",
+            "Customs asks you to declare articles worth over 800 dollars.",
+            "Not one article in the case was worth stealing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the words a, an, or the, used in front of a noun",
+          "body": [
+            "(артикль)"
+          ],
+          "examples": [
+            "Russian has no articles, so English ones take practice.",
+            "Use the definite article when both speakers know which one you mean.",
+            "He dropped every article from his notes to save space."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A separately numbered section of a treaty, contract, or constitution",
+          "body": [
+            "(статья (договора, конституции))",
+            "---"
+          ],
+          "examples": [
+            "Article II lays out the president's powers.",
+            "The union cited Article 12 of the contract.",
+            "Both sides broke several articles of the treaty."
+          ]
+        }
+      ],
+      "русский": "статья; предмет, вещь, изделие; артикль; статья (договора, конституции)",
       "plural": "articles",
       "countability": "countable"
     },
@@ -1680,14 +2193,43 @@
       "term": "critic",
       "ipa": "/ˈkrɪtɪk/",
       "respell": "KRIT-ik",
-      "meaning": "Someone whose job is to judge books, films, food, or art in public. ---",
+      "meaning": "Critic has 2 distinct senses.",
       "examples": [
         "The film critic gave it two stars.",
         "Critics loved it; nobody went to see it.",
-        "She's the restaurant critic for the paper."
+        "She's the restaurant critic for the paper.",
+        "Critics of the bill say it will cost jobs.",
+        "Even her harshest critic admitted the numbers were right.",
+        "The mayor's critics packed the meeting."
       ],
-      "senses": [],
-      "русский": "критик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone whose job is to judge books, films, food, or art in public",
+          "body": [
+            "(критик)"
+          ],
+          "examples": [
+            "The film critic gave it two stars.",
+            "Critics loved it; nobody went to see it.",
+            "She's the restaurant critic for the paper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who publicly disagrees with a person, plan, or policy",
+          "body": [
+            "(противник, критикующий (план, политику))",
+            "---"
+          ],
+          "examples": [
+            "Critics of the bill say it will cost jobs.",
+            "Even her harshest critic admitted the numbers were right.",
+            "The mayor's critics packed the meeting."
+          ]
+        }
+      ],
+      "русский": "критик; противник, критикующий (план, политику)",
       "plural": "critics",
       "countability": "countable"
     },
@@ -1783,14 +2325,58 @@
       "term": "scoop",
       "ipa": "/skuːp/",
       "respell": "SKOOP",
-      "meaning": "An important news story that one reporter gets before anyone else. ---",
+      "meaning": "Scoop has 3 distinct senses.",
       "examples": [
         "That story was a real scoop.",
         "She got the scoop from a source at city hall.",
-        "The paper has had two big scoops this month."
+        "The paper has had two big scoops this month.",
+        "Use the scoop in the flour bin, not a coffee cup.",
+        "The ice cream scoop is in the top drawer.",
+        "He dug into the dog food with a plastic scoop.",
+        "I'll take two scoops of chocolate in a cone.",
+        "Add one scoop of protein powder to the milk.",
+        "She ordered a single scoop and ate it in the car."
       ],
-      "senses": [],
-      "русский": "сенсация, эксклюзивный материал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An important news story that one reporter gets before anyone else",
+          "body": [
+            "(сенсация, эксклюзивный материал)"
+          ],
+          "examples": [
+            "That story was a real scoop.",
+            "She got the scoop from a source at city hall.",
+            "The paper has had two big scoops this month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep spoon or small shovel for lifting loose food",
+          "body": [
+            "(совок, ложка (для мороженого, муки))"
+          ],
+          "examples": [
+            "Use the scoop in the flour bin, not a coffee cup.",
+            "The ice cream scoop is in the top drawer.",
+            "He dug into the dog food with a plastic scoop."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The amount that such a spoon holds",
+          "body": [
+            "(порция, черпак (мера))",
+            "---"
+          ],
+          "examples": [
+            "I'll take two scoops of chocolate in a cone.",
+            "Add one scoop of protein powder to the milk.",
+            "She ordered a single scoop and ate it in the car."
+          ]
+        }
+      ],
+      "русский": "сенсация, эксклюзивный материал; совок, ложка (для мороженого, муки); порция, черпак (мера)",
       "plural": "scoops",
       "countability": "countable"
     },
@@ -1798,14 +2384,58 @@
       "term": "source",
       "ipa": "/sɔːrs/",
       "respell": "SORS",
-      "meaning": "A person or document that gives a reporter information. ---",
+      "meaning": "Source has 3 distinct senses.",
       "examples": [
         "He won't name his source.",
         "Two sources confirmed the story.",
-        "A source inside the company leaked the memo."
+        "A source inside the company leaked the memo.",
+        "They hiked all day to the source of the river.",
+        "The creek's source is a spring under the ridge.",
+        "Both rivers have their sources high in the mountains.",
+        "Beans are a cheap source of protein.",
+        "Tourism is the town's main source of income.",
+        "They traced the smell back to its source."
       ],
-      "senses": [],
-      "русский": "источник (информации)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or document that gives a reporter information",
+          "body": [
+            "(источник (информации))"
+          ],
+          "examples": [
+            "He won't name his source.",
+            "Two sources confirmed the story.",
+            "A source inside the company leaked the memo."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spring or lake where a river begins",
+          "body": [
+            "(исток (реки))"
+          ],
+          "examples": [
+            "They hiked all day to the source of the river.",
+            "The creek's source is a spring under the ridge.",
+            "Both rivers have their sources high in the mountains."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A thing that provides or produces something",
+          "body": [
+            "(источник (чего-либо))",
+            "---"
+          ],
+          "examples": [
+            "Beans are a cheap source of protein.",
+            "Tourism is the town's main source of income.",
+            "They traced the smell back to its source."
+          ]
+        }
+      ],
+      "русский": "источник (информации); исток (реки); источник (чего-либо)",
       "plural": "sources",
       "countability": "countable"
     },
@@ -1813,14 +2443,58 @@
       "term": "quote",
       "ipa": "/kwoʊt/",
       "respell": "KWOHT",
-      "meaning": "Someone's exact words repeated in a story or book. ---",
+      "meaning": "Quote has 3 distinct senses.",
       "examples": [
         "That quote was taken out of context.",
         "The article is just three quotes and no facts.",
-        "Can I use that as a quote?"
+        "Can I use that as a quote?",
+        "We got three quotes before we hired a roofer.",
+        "The plumber's quote came to eight hundred dollars.",
+        "Always ask the shop for a written quote.",
+        "Put the title of the song in quotes.",
+        "He made air quotes with his fingers when he said 'expert.'",
+        "The whole phrase belongs inside the quotes."
       ],
-      "senses": [],
-      "русский": "цитата",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone's exact words repeated in a story or book",
+          "body": [
+            "(цитата)"
+          ],
+          "examples": [
+            "That quote was taken out of context.",
+            "The article is just three quotes and no facts.",
+            "Can I use that as a quote?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stated price for a job, given before the work starts",
+          "body": [
+            "(смета, расценка (от подрядчика))"
+          ],
+          "examples": [
+            "We got three quotes before we hired a roofer.",
+            "The plumber's quote came to eight hundred dollars.",
+            "Always ask the shop for a written quote."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quotation mark",
+          "body": [
+            "(кавычка)",
+            "---"
+          ],
+          "examples": [
+            "Put the title of the song in quotes.",
+            "He made air quotes with his fingers when he said 'expert.'",
+            "The whole phrase belongs inside the quotes."
+          ]
+        }
+      ],
+      "русский": "цитата; смета, расценка (от подрядчика); кавычка",
       "plural": "quotes",
       "countability": "countable"
     },
@@ -2038,14 +2712,58 @@
       "term": "issue",
       "ipa": "/ˈɪʃuː/",
       "respell": "ISH-oo",
-      "meaning": "One numbered edition of a magazine or newspaper. ---",
+      "meaning": "Issue has 3 distinct senses.",
       "examples": [
         "The April issue has her interview in it.",
         "I've saved every issue since the first one.",
-        "The next issue comes out Thursday."
+        "The next issue comes out Thursday.",
+        "Health care was the biggest issue in the election.",
+        "The mayor refused to take a position on the issue.",
+        "They disagree on almost every issue.",
+        "We're having issues with the printer again.",
+        "If there's any issue with your order, call us.",
+        "The car has an issue with the transmission."
       ],
-      "senses": [],
-      "русский": "номер, выпуск (издания)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One numbered edition of a magazine or newspaper",
+          "body": [
+            "(номер, выпуск (издания))"
+          ],
+          "examples": [
+            "The April issue has her interview in it.",
+            "I've saved every issue since the first one.",
+            "The next issue comes out Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An important subject that people discuss or disagree about",
+          "body": [
+            "(вопрос, проблема (тема обсуждения))"
+          ],
+          "examples": [
+            "Health care was the biggest issue in the election.",
+            "The mayor refused to take a position on the issue.",
+            "They disagree on almost every issue."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A problem or fault with something",
+          "body": [
+            "(неполадка, сбой, проблема)",
+            "---"
+          ],
+          "examples": [
+            "We're having issues with the printer again.",
+            "If there's any issue with your order, call us.",
+            "The car has an issue with the transmission."
+          ]
+        }
+      ],
+      "русский": "номер, выпуск (издания); вопрос, проблема (тема обсуждения); неполадка, сбой, проблема",
       "plural": "issues",
       "countability": "countable"
     },
@@ -2217,14 +2935,58 @@
       "term": "show",
       "ipa": "/ʃoʊ/",
       "respell": "SHOH",
-      "meaning": "A television or radio program, especially an entertaining one. ---",
+      "meaning": "Show has 3 distinct senses.",
       "examples": [
         "That show has been on for nine seasons.",
         "She hosts a morning show.",
-        "We binged three shows over the weekend."
+        "We binged three shows over the weekend.",
+        "The show starts at eight, so let's eat early.",
+        "We caught a late show at a club downtown.",
+        "Both shows sold out in a single afternoon.",
+        "We spent Saturday at the auto show.",
+        "Her collie won best in breed at the dog show.",
+        "Galleries all over town open new shows on the first Friday."
       ],
-      "senses": [],
-      "русский": "шоу, передача",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A television or radio program, especially an entertaining one",
+          "body": [
+            "(шоу, передача)"
+          ],
+          "examples": [
+            "That show has been on for nine seasons.",
+            "She hosts a morning show.",
+            "We binged three shows over the weekend."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A performance given in front of an audience, such as a play or a concert",
+          "body": [
+            "(спектакль, концерт, представление)"
+          ],
+          "examples": [
+            "The show starts at eight, so let's eat early.",
+            "We caught a late show at a club downtown.",
+            "Both shows sold out in a single afternoon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A public event where things are put on display or judged",
+          "body": [
+            "(выставка, показ)",
+            "---"
+          ],
+          "examples": [
+            "We spent Saturday at the auto show.",
+            "Her collie won best in breed at the dog show.",
+            "Galleries all over town open new shows on the first Friday."
+          ]
+        }
+      ],
+      "русский": "шоу, передача; спектакль, концерт, представление; выставка, показ",
       "plural": "shows",
       "countability": "countable"
     },
@@ -2232,14 +2994,58 @@
       "term": "episode",
       "ipa": "/ˈɛpəsoʊd/",
       "respell": "EP-uh-sohd",
-      "meaning": "One separate part of a television series or podcast. ---",
+      "meaning": "Episode has 3 distinct senses.",
       "examples": [
         "The last episode airs next week.",
         "There are ten episodes in the season.",
-        "I fell asleep halfway through the episode."
+        "I fell asleep halfway through the episode.",
+        "He'd rather forget the whole episode.",
+        "The episode at the airport made the evening news.",
+        "It was an ugly episode in the town's history.",
+        "She had another episode of dizziness at work.",
+        "The medication cuts the number of episodes in half.",
+        "His first episode put him in the hospital for a week."
       ],
-      "senses": [],
-      "русский": "серия, эпизод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One separate part of a television series or podcast",
+          "body": [
+            "(серия, эпизод)"
+          ],
+          "examples": [
+            "The last episode airs next week.",
+            "There are ten episodes in the season.",
+            "I fell asleep halfway through the episode."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single event or short period in someone's life",
+          "body": [
+            "(случай, происшествие)"
+          ],
+          "examples": [
+            "He'd rather forget the whole episode.",
+            "The episode at the airport made the evening news.",
+            "It was an ugly episode in the town's history."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A period when an illness or condition flares up",
+          "body": [
+            "(приступ, обострение)",
+            "---"
+          ],
+          "examples": [
+            "She had another episode of dizziness at work.",
+            "The medication cuts the number of episodes in half.",
+            "His first episode put him in the hospital for a week."
+          ]
+        }
+      ],
+      "русский": "серия, эпизод; случай, происшествие; приступ, обострение",
       "plural": "episodes",
       "countability": "countable"
     },
@@ -2352,14 +3158,43 @@
       "term": "rating",
       "ipa": "/ˈreɪtɪŋ/",
       "respell": "RAY-ting",
-      "meaning": "A measure of how many people watch or listen to a program. ---",
+      "meaning": "Rating has 2 distinct senses.",
       "examples": [
         "The show's ratings dropped after the move.",
         "The finale got the highest rating of the year.",
-        "Ratings decide what gets canceled."
+        "Ratings decide what gets canceled.",
+        "The movie got an R rating.",
+        "This hotel has a four-star rating.",
+        "The city's credit rating was downgraded last month."
       ],
-      "senses": [],
-      "русский": "рейтинг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A measure of how many people watch or listen to a program",
+          "body": [
+            "(рейтинг)"
+          ],
+          "examples": [
+            "The show's ratings dropped after the move.",
+            "The finale got the highest rating of the year.",
+            "Ratings decide what gets canceled."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A score or level given to something to show how good or how suitable it is",
+          "body": [
+            "(оценка, категория, класс)",
+            "---"
+          ],
+          "examples": [
+            "The movie got an R rating.",
+            "This hotel has a four-star rating.",
+            "The city's credit rating was downgraded last month."
+          ]
+        }
+      ],
+      "русский": "рейтинг; оценка, категория, класс",
       "plural": "ratings",
       "countability": "countable"
     },
@@ -2798,14 +3633,43 @@
       "term": "static",
       "ipa": "/ˈstætɪk/",
       "respell": "STAT-ik",
-      "meaning": "The crackling noise that interferes with a radio or TV signal. ---",
+      "meaning": "Static has 2 distinct senses.",
       "examples": [
         "All I could hear was static.",
         "The storm filled the radio with static.",
-        "The line went to static halfway through."
+        "The line went to static halfway through.",
+        "The dry air gives my hair static.",
+        "I got a shock of static off the doorknob.",
+        "Dryer sheets cut down on static."
       ],
-      "senses": [],
-      "русский": "помехи (в эфире)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crackling noise that interferes with a radio or TV signal",
+          "body": [
+            "(помехи (в эфире))"
+          ],
+          "examples": [
+            "All I could hear was static.",
+            "The storm filled the radio with static.",
+            "The line went to static halfway through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The electrical charge that builds up on hair, clothes, or carpet",
+          "body": [
+            "(статическое электричество)",
+            "---"
+          ],
+          "examples": [
+            "The dry air gives my hair static.",
+            "I got a shock of static off the doorknob.",
+            "Dryer sheets cut down on static."
+          ]
+        }
+      ],
+      "русский": "помехи (в эфире); статическое электричество",
       "countability": "uncountable"
     },
     {

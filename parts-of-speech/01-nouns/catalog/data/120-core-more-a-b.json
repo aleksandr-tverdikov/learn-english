@@ -421,14 +421,43 @@
       "term": "abuse",
       "ipa": "/əˈbjuːs/",
       "respell": "uh-BYOOS",
-      "meaning": "Cruel treatment of a person or animal, or the wrong use of something. ---",
+      "meaning": "Abuse has 2 distinct senses.",
       "examples": [
         "The hotline takes reports of child abuse.",
         "He was treated for years of alcohol abuse.",
-        "The audit turned up abuse of the expense system."
+        "The audit turned up abuse of the expense system.",
+        "The umpire took a stream of abuse from the stands.",
+        "She hung up when he started shouting abuse at her.",
+        "Players report racist abuse online after almost every game."
       ],
-      "senses": [],
-      "русский": "жестокое обращение, насилие; злоупотребление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Cruel treatment of a person or animal, or the wrong use of something",
+          "body": [
+            "(жестокое обращение, насилие; злоупотребление)"
+          ],
+          "examples": [
+            "The hotline takes reports of child abuse.",
+            "He was treated for years of alcohol abuse.",
+            "The audit turned up abuse of the expense system."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Rude and insulting language shouted at someone",
+          "body": [
+            "(брань, оскорбления)",
+            "---"
+          ],
+          "examples": [
+            "The umpire took a stream of abuse from the stands.",
+            "She hung up when he started shouting abuse at her.",
+            "Players report racist abuse online after almost every game."
+          ]
+        }
+      ],
+      "русский": "жестокое обращение, насилие; злоупотребление; брань, оскорбления",
       "countability": "uncountable",
       "contrast": "The noun ends in a hissing /s/ (uh-BYOOS); the verb abuse ends in /z/ (uh-BYOOZ)."
     },
@@ -670,14 +699,58 @@
       "term": "action",
       "ipa": "/ˈækʃən/",
       "respell": "AK-shuhn",
-      "meaning": "Something that someone does, or the process of doing things rather than talking about them. ---",
+      "meaning": "Action has 3 distinct senses.",
       "examples": [
         "The city finally took action on the potholes.",
         "Her actions spoke louder than any speech.",
-        "The second half of the movie is nonstop action."
+        "The second half of the movie is nonstop action.",
+        "Her grandfather was killed in action in 1944.",
+        "The unit saw action in three countries.",
+        "He was wounded in action and sent home.",
+        "The family filed a civil action against the hospital.",
+        "A class action on behalf of thousands of customers is pending.",
+        "Both actions were settled out of court."
       ],
-      "senses": [],
-      "русский": "действие, поступок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something that someone does, or the process of doing things rather than talking about them",
+          "body": [
+            "(действие, поступок)"
+          ],
+          "examples": [
+            "The city finally took action on the potholes.",
+            "Her actions spoke louder than any speech.",
+            "The second half of the movie is nonstop action."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Fighting in a war",
+          "body": [
+            "(боевые действия, бой)"
+          ],
+          "examples": [
+            "Her grandfather was killed in action in 1944.",
+            "The unit saw action in three countries.",
+            "He was wounded in action and sent home."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A case brought against someone in a court of law",
+          "body": [
+            "(иск, судебное дело)",
+            "---"
+          ],
+          "examples": [
+            "The family filed a civil action against the hospital.",
+            "A class action on behalf of thousands of customers is pending.",
+            "Both actions were settled out of court."
+          ]
+        }
+      ],
+      "русский": "действие, поступок; боевые действия, бой; иск, судебное дело",
       "plural": "actions",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -2751,14 +2824,43 @@
       "term": "animal",
       "ipa": "/ˈænɪməl/",
       "respell": "AN-ih-muhl",
-      "meaning": "A living creature that moves and eats, as opposed to a plant. ---",
+      "meaning": "Animal has 2 distinct senses.",
       "examples": [
         "Wild animals come down to the creek at dusk.",
         "A dolphin is a smart animal.",
-        "The farm keeps about forty animals through the winter."
+        "The farm keeps about forty animals through the winter.",
+        "Whoever did this to a child is an animal.",
+        "The crowd turned into animals as soon as the doors opened.",
+        "He eats like an animal."
       ],
-      "senses": [],
-      "русский": "животное",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A living creature that moves and eats, as opposed to a plant",
+          "body": [
+            "(животное)"
+          ],
+          "examples": [
+            "Wild animals come down to the creek at dusk.",
+            "A dolphin is a smart animal.",
+            "The farm keeps about forty animals through the winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who behaves in a cruel or wild, uncontrolled way",
+          "body": [
+            "(зверь, животное (о человеке))",
+            "---"
+          ],
+          "examples": [
+            "Whoever did this to a child is an animal.",
+            "The crowd turned into animals as soon as the doors opened.",
+            "He eats like an animal."
+          ]
+        }
+      ],
+      "русский": "животное; зверь, животное (о человеке)",
       "plural": "animals",
       "countability": "countable"
     },
@@ -3616,14 +3718,43 @@
       "term": "archive",
       "ipa": "/ˈɑːrkaɪv/",
       "respell": "AR-kyve",
-      "meaning": "A collection of old documents or records, or the place where they are kept. ---",
+      "meaning": "Archive has 2 distinct senses.",
       "examples": [
         "The letters are in the university archive.",
         "He spent a week in the city archives.",
-        "The newspaper put its whole archive online."
+        "The newspaper put its whole archive online.",
+        "Download the archive and unzip it into this folder.",
+        "The whole project fits in one 40-megabyte archive.",
+        "She emailed me a password-protected archive."
       ],
-      "senses": [],
-      "русский": "архив",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A collection of old documents or records, or the place where they are kept",
+          "body": [
+            "(архив)"
+          ],
+          "examples": [
+            "The letters are in the university archive.",
+            "He spent a week in the city archives.",
+            "The newspaper put its whole archive online."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single compressed file that holds a group of other files",
+          "body": [
+            "(архив (сжатый файл))",
+            "---"
+          ],
+          "examples": [
+            "Download the archive and unzip it into this folder.",
+            "The whole project fits in one 40-megabyte archive.",
+            "She emailed me a password-protected archive."
+          ]
+        }
+      ],
+      "русский": "архив; архив (сжатый файл)",
       "plural": "archives",
       "countability": "countable",
       "contrast": "The ch sounds like k: AR-kyve."
@@ -4622,14 +4753,43 @@
       "term": "aviator",
       "ipa": "/ˈeɪvieɪtər/",
       "respell": "AY-vee-ay-tur",
-      "meaning": "A person who flies an aircraft, especially in the early days of flying. ---",
+      "meaning": "Aviator has 2 distinct senses.",
       "examples": [
         "Early aviators flew without radios or radar.",
         "The museum honors a pioneering aviator from this state.",
-        "He wore the round sunglasses that aviators made famous."
+        "He wore the round sunglasses that aviators made famous.",
+        "He wore mirrored aviators the whole flight.",
+        "She pushed her aviators up onto her head.",
+        "A pair of gold aviators sat on the dashboard."
       ],
-      "senses": [],
-      "русский": "лётчик, авиатор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who flies an aircraft, especially in the early days of flying",
+          "body": [
+            "(лётчик, авиатор)"
+          ],
+          "examples": [
+            "Early aviators flew without radios or radar.",
+            "The museum honors a pioneering aviator from this state.",
+            "He wore the round sunglasses that aviators made famous."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Sunglasses with thin metal frames and large teardrop lenses",
+          "body": [
+            "(очки-авиаторы, очки-капли)",
+            "---"
+          ],
+          "examples": [
+            "He wore mirrored aviators the whole flight.",
+            "She pushed her aviators up onto her head.",
+            "A pair of gold aviators sat on the dashboard."
+          ]
+        }
+      ],
+      "русский": "лётчик, авиатор; очки-авиаторы, очки-капли",
       "plural": "aviators",
       "countability": "countable"
     },
@@ -5737,14 +5897,43 @@
       "term": "being",
       "ipa": "/ˈbiːɪŋ/",
       "respell": "BEE-ing",
-      "meaning": "A living creature, especially one able to think. ---",
+      "meaning": "Being has 2 distinct senses.",
       "examples": [
         "Every human being deserves respect.",
         "The film is about beings from another planet.",
-        "She talks to the dog as if it were a rational being."
+        "She talks to the dog as if it were a rational being.",
+        "The company came into being in a garage in 1978.",
+        "The treaty brought a new nation into being.",
+        "No one can say how the universe came into being."
       ],
-      "senses": [],
-      "русский": "существо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A living creature, especially one able to think",
+          "body": [
+            "(существо)"
+          ],
+          "examples": [
+            "Every human being deserves respect.",
+            "The film is about beings from another planet.",
+            "She talks to the dog as if it were a rational being."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of existing",
+          "body": [
+            "(существование, бытие)",
+            "---"
+          ],
+          "examples": [
+            "The company came into being in a garage in 1978.",
+            "The treaty brought a new nation into being.",
+            "No one can say how the universe came into being."
+          ]
+        }
+      ],
+      "русский": "существо; существование, бытие",
       "plural": "beings",
       "countability": "countable"
     },
@@ -5949,14 +6138,43 @@
       "term": "bet",
       "ipa": "/bɛt/",
       "respell": "BET",
-      "meaning": "An amount of money risked on the result of something uncertain. ---",
+      "meaning": "Bet has 2 distinct senses.",
       "examples": [
         "I made a small bet on the game.",
         "He lost the bet and had to buy dinner.",
-        "Sports bets are legal in most states now."
+        "Sports bets are legal in most states now.",
+        "Your best bet is to take the train.",
+        "A used sedan is a safer bet on that budget.",
+        "Calling ahead is a good bet on holidays."
       ],
-      "senses": [],
-      "русский": "ставка, пари",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount of money risked on the result of something uncertain",
+          "body": [
+            "(ставка, пари)"
+          ],
+          "examples": [
+            "I made a small bet on the game.",
+            "He lost the bet and had to buy dinner.",
+            "Sports bets are legal in most states now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A choice or course of action that is likely to work well",
+          "body": [
+            "(надёжный вариант, лучший выбор)",
+            "---"
+          ],
+          "examples": [
+            "Your best bet is to take the train.",
+            "A used sedan is a safer bet on that budget.",
+            "Calling ahead is a good bet on holidays."
+          ]
+        }
+      ],
+      "русский": "ставка, пари; надёжный вариант, лучший выбор",
       "plural": "bets",
       "countability": "countable"
     },
@@ -6289,14 +6507,43 @@
       "term": "birdie",
       "ipa": "/ˈbɜːrdi/",
       "respell": "BUR-dee",
-      "meaning": "A golf score of one stroke under par on a hole. ---",
+      "meaning": "Birdie has 2 distinct senses.",
       "examples": [
         "She made a birdie on the last hole.",
         "Three birdies in a row put him in the lead.",
-        "He needed a birdie to force a playoff."
+        "He needed a birdie to force a playoff.",
+        "The birdie landed just inside the line.",
+        "He served the birdie high over the net.",
+        "We lost the birdie in the hedge."
       ],
-      "senses": [],
-      "русский": "бёрди (в гольфе — на удар ниже пара)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A golf score of one stroke under par on a hole",
+          "body": [
+            "(бёрди (в гольфе — на удар ниже пара))"
+          ],
+          "examples": [
+            "She made a birdie on the last hole.",
+            "Three birdies in a row put him in the lead.",
+            "He needed a birdie to force a playoff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The light feathered object hit back and forth in badminton",
+          "body": [
+            "(волан (в бадминтоне))",
+            "---"
+          ],
+          "examples": [
+            "The birdie landed just inside the line.",
+            "He served the birdie high over the net.",
+            "We lost the birdie in the hedge."
+          ]
+        }
+      ],
+      "русский": "бёрди (в гольфе — на удар ниже пара); волан (в бадминтоне)",
       "plural": "birdies",
       "countability": "countable"
     },
@@ -6558,14 +6805,43 @@
       "term": "blip",
       "ipa": "/blɪp/",
       "respell": "BLIP",
-      "meaning": "A small, temporary change or problem that does not last. ---",
+      "meaning": "Blip has 2 distinct senses.",
       "examples": [
         "The drop in sales was just a blip.",
         "Analysts called the number a statistical blip.",
-        "There were a few blips in the data."
+        "There were a few blips in the data.",
+        "A blip appeared at the edge of the radar screen.",
+        "The blip vanished as the plane dropped low.",
+        "Each blip on the monitor matched a heartbeat."
       ],
-      "senses": [],
-      "русский": "кратковременный сбой, временное отклонение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small, temporary change or problem that does not last",
+          "body": [
+            "(кратковременный сбой, временное отклонение)"
+          ],
+          "examples": [
+            "The drop in sales was just a blip.",
+            "Analysts called the number a statistical blip.",
+            "There were a few blips in the data."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small flashing dot on a radar or monitor screen",
+          "body": [
+            "(отметка, точка на экране радара)",
+            "---"
+          ],
+          "examples": [
+            "A blip appeared at the edge of the radar screen.",
+            "The blip vanished as the plane dropped low.",
+            "Each blip on the monitor matched a heartbeat."
+          ]
+        }
+      ],
+      "русский": "кратковременный сбой, временное отклонение; отметка, точка на экране радара",
       "plural": "blips",
       "countability": "countable"
     },
@@ -7035,14 +7311,58 @@
       "term": "boom",
       "ipa": "/buːm/",
       "respell": "BOOM",
-      "meaning": "A period of rapid growth in business, building, or population. ---",
+      "meaning": "Boom has 3 distinct senses.",
       "examples": [
         "The town grew fast during the oil boom.",
         "A housing boom pushed prices up.",
-        "The industry has been through several booms and busts."
+        "The industry has been through several booms and busts.",
+        "The boom of thunder rattled the windows.",
+        "We heard the boom of fireworks across the river.",
+        "A sonic boom startled the whole town.",
+        "Duck, the boom is swinging around!",
+        "The sound man held the boom just out of frame.",
+        "A gust threw the boom hard to the left."
       ],
-      "senses": [],
-      "русский": "бум, резкий подъём",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of rapid growth in business, building, or population",
+          "body": [
+            "(бум, резкий подъём)"
+          ],
+          "examples": [
+            "The town grew fast during the oil boom.",
+            "A housing boom pushed prices up.",
+            "The industry has been through several booms and busts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep loud sound",
+          "body": [
+            "(гул, грохот, раскат)"
+          ],
+          "examples": [
+            "The boom of thunder rattled the windows.",
+            "We heard the boom of fireworks across the river.",
+            "A sonic boom startled the whole town."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long movable pole that holds a microphone or the bottom edge of a sail",
+          "body": [
+            "(гик (на парусе); выносная штанга микрофона)",
+            "---"
+          ],
+          "examples": [
+            "Duck, the boom is swinging around!",
+            "The sound man held the boom just out of frame.",
+            "A gust threw the boom hard to the left."
+          ]
+        }
+      ],
+      "русский": "бум, резкий подъём; гул, грохот, раскат; гик (на парусе); выносная штанга микрофона",
       "plural": "booms",
       "countability": "countable"
     },
@@ -7124,14 +7444,43 @@
       "term": "bottom",
       "ipa": "/ˈbɑːtəm/",
       "respell": "BAH-tuhm",
-      "meaning": "The lowest part or surface of something. ---",
+      "meaning": "Bottom has 2 distinct senses.",
       "examples": [
         "The keys were at the bottom of my bag.",
         "Write your name at the bottom of the page.",
-        "The bottoms of the pots were burned."
+        "The bottoms of the pots were burned.",
+        "The toddler landed on his bottom and laughed.",
+        "She wiped the baby's bottom and put on a clean diaper.",
+        "These jeans are too tight across the bottom."
       ],
-      "senses": [],
-      "русский": "дно, низ, нижняя часть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lowest part or surface of something",
+          "body": [
+            "(дно, низ, нижняя часть)"
+          ],
+          "examples": [
+            "The keys were at the bottom of my bag.",
+            "Write your name at the bottom of the page.",
+            "The bottoms of the pots were burned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of the body you sit on, in mild everyday speech",
+          "body": [
+            "(попа, ягодицы)",
+            "---"
+          ],
+          "examples": [
+            "The toddler landed on his bottom and laughed.",
+            "She wiped the baby's bottom and put on a clean diaper.",
+            "These jeans are too tight across the bottom."
+          ]
+        }
+      ],
+      "русский": "дно, низ, нижняя часть; попа, ягодицы",
       "plural": "bottoms",
       "countability": "countable"
     },
@@ -7215,14 +7564,43 @@
       "term": "bounty",
       "ipa": "/ˈbaʊnti/",
       "respell": "BOWN-tee",
-      "meaning": "A reward offered for catching someone or for getting rid of something. ---",
+      "meaning": "Bounty has 2 distinct senses.",
       "examples": [
         "The state pays a bounty for each wild hog.",
         "There's a bounty on his head.",
-        "Tech companies pay bounties for security bugs."
+        "Tech companies pay bounties for security bugs.",
+        "The table was loaded with the bounty of the fall harvest.",
+        "Families here still live off the bounty of the bay.",
+        "Our garden gave us a summer bounty of tomatoes and squash."
       ],
-      "senses": [],
-      "русский": "вознаграждение, награда (за поимку)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A reward offered for catching someone or for getting rid of something",
+          "body": [
+            "(вознаграждение, награда (за поимку))"
+          ],
+          "examples": [
+            "The state pays a bounty for each wild hog.",
+            "There's a bounty on his head.",
+            "Tech companies pay bounties for security bugs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large, generous supply of something, especially food from the land or sea",
+          "body": [
+            "(изобилие, щедрые дары)",
+            "---"
+          ],
+          "examples": [
+            "The table was loaded with the bounty of the fall harvest.",
+            "Families here still live off the bounty of the bay.",
+            "Our garden gave us a summer bounty of tomatoes and squash."
+          ]
+        }
+      ],
+      "русский": "вознаграждение, награда (за поимку); изобилие, щедрые дары",
       "plural": "bounties",
       "countability": "countable"
     },
@@ -7230,14 +7608,43 @@
       "term": "bout",
       "ipa": "/baʊt/",
       "respell": "BOWT",
-      "meaning": "A short period of something unpleasant, such as an illness. ---",
+      "meaning": "Bout has 2 distinct senses.",
       "examples": [
         "She's getting over a bout of the flu.",
         "He had another bout of insomnia.",
-        "Two bouts of bad weather delayed the harvest."
+        "Two bouts of bad weather delayed the harvest.",
+        "The title bout went all twelve rounds.",
+        "He lost his first professional bout on points.",
+        "Two heavyweight bouts are on the card tonight."
       ],
-      "senses": [],
-      "русский": "приступ (болезни), период",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short period of something unpleasant, such as an illness",
+          "body": [
+            "(приступ (болезни), период)"
+          ],
+          "examples": [
+            "She's getting over a bout of the flu.",
+            "He had another bout of insomnia.",
+            "Two bouts of bad weather delayed the harvest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A boxing or wrestling match",
+          "body": [
+            "(бой, схватка (в боксе, борьбе))",
+            "---"
+          ],
+          "examples": [
+            "The title bout went all twelve rounds.",
+            "He lost his first professional bout on points.",
+            "Two heavyweight bouts are on the card tonight."
+          ]
+        }
+      ],
+      "русский": "приступ (болезни), период; бой, схватка (в боксе, борьбе)",
       "plural": "bouts",
       "countability": "countable"
     },
@@ -7305,14 +7712,43 @@
       "term": "brace",
       "ipa": "/breɪs/",
       "respell": "BRAYS",
-      "meaning": "A support worn on part of the body to hold it in place while it heals. ---",
+      "meaning": "Brace has 2 distinct senses.",
       "examples": [
         "He wore a knee brace all season.",
         "The doctor fitted her with a back brace.",
-        "Two ankle braces are in the gym bag."
+        "Two ankle braces are in the gym bag.",
+        "The carpenter nailed a diagonal brace to the wall frame.",
+        "Steel braces keep the old church from leaning any further.",
+        "Put a brace under that shelf so it doesn't sag."
       ],
-      "senses": [],
-      "русский": "фиксатор, бандаж (ортопедический)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A support worn on part of the body to hold it in place while it heals",
+          "body": [
+            "(фиксатор, бандаж (ортопедический))"
+          ],
+          "examples": [
+            "He wore a knee brace all season.",
+            "The doctor fitted her with a back brace.",
+            "Two ankle braces are in the gym bag."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of wood or metal fixed across a structure to hold it steady",
+          "body": [
+            "(распорка, укосина, подпорка)",
+            "---"
+          ],
+          "examples": [
+            "The carpenter nailed a diagonal brace to the wall frame.",
+            "Steel braces keep the old church from leaning any further.",
+            "Put a brace under that shelf so it doesn't sag."
+          ]
+        }
+      ],
+      "русский": "фиксатор, бандаж (ортопедический); распорка, укосина, подпорка",
       "plural": "braces",
       "countability": "countable"
     },
@@ -7882,14 +8318,43 @@
       "term": "buffer",
       "ipa": "/ˈbʌfər/",
       "respell": "BUF-ur",
-      "meaning": "Something placed between two things to soften the effect of one on the other. ---",
+      "meaning": "Buffer has 2 distinct senses.",
       "examples": [
         "Savings act as a buffer against unexpected bills.",
         "A row of trees serves as a buffer between the road and the houses.",
-        "The agreement created a buffer zone along the border."
+        "The agreement created a buffer zone along the border.",
+        "The video froze while the buffer filled.",
+        "Sound is copied into a buffer before it reaches the speakers.",
+        "A full buffer can crash the whole program."
       ],
-      "senses": [],
-      "русский": "буфер, буферная зона",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something placed between two things to soften the effect of one on the other",
+          "body": [
+            "(буфер, буферная зона)"
+          ],
+          "examples": [
+            "Savings act as a buffer against unexpected bills.",
+            "A row of trees serves as a buffer between the road and the houses.",
+            "The agreement created a buffer zone along the border."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A part of a computer's memory that holds data briefly while it is being moved or played",
+          "body": [
+            "(буфер (памяти))",
+            "---"
+          ],
+          "examples": [
+            "The video froze while the buffer filled.",
+            "Sound is copied into a buffer before it reaches the speakers.",
+            "A full buffer can crash the whole program."
+          ]
+        }
+      ],
+      "русский": "буфер, буферная зона; буфер (памяти)",
       "plural": "buffers",
       "countability": "countable"
     },
@@ -8266,14 +8731,58 @@
       "term": "butt",
       "ipa": "/bʌt/",
       "respell": "BUT",
-      "meaning": "An informal word for the part of the body you sit on. ---",
+      "meaning": "Butt has 3 distinct senses.",
       "examples": [
         "Get off your butt and help me.",
         "He slipped on the ice and landed on his butt.",
-        "The jeans were too tight in the butt."
+        "The jeans were too tight in the butt.",
+        "He crushed the butt under his heel.",
+        "Butts littered the sidewalk outside the bar.",
+        "There were three butts in the ashtray.",
+        "He was the butt of every joke in the locker room.",
+        "Her accent made her the butt of jokes at school.",
+        "Nobody enjoys being the butt of the family's teasing."
       ],
-      "senses": [],
-      "русский": "зад, попа (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An informal word for the part of the body you sit on",
+          "body": [
+            "(зад, попа (разг.))"
+          ],
+          "examples": [
+            "Get off your butt and help me.",
+            "He slipped on the ice and landed on his butt.",
+            "The jeans were too tight in the butt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The short end left when a cigarette has been smoked",
+          "body": [
+            "(окурок)"
+          ],
+          "examples": [
+            "He crushed the butt under his heel.",
+            "Butts littered the sidewalk outside the bar.",
+            "There were three butts in the ashtray."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The person or thing that a joke is aimed at",
+          "body": [
+            "(мишень для насмешек, объект шуток)",
+            "---"
+          ],
+          "examples": [
+            "He was the butt of every joke in the locker room.",
+            "Her accent made her the butt of jokes at school.",
+            "Nobody enjoys being the butt of the family's teasing."
+          ]
+        }
+      ],
+      "русский": "зад, попа (разг.); окурок; мишень для насмешек, объект шуток",
       "plural": "butts",
       "countability": "countable"
     },
@@ -8326,14 +8835,43 @@
       "term": "buzz",
       "ipa": "/bʌz/",
       "respell": "BUZ",
-      "meaning": "A low humming sound, or excited talk about something new. ---",
+      "meaning": "Buzz has 2 distinct senses.",
       "examples": [
         "There's a lot of buzz about her new album.",
         "I heard a buzz and found a wasp at the window.",
-        "The refrigerator makes strange buzzes at night."
+        "The refrigerator makes strange buzzes at night.",
+        "Two beers gave him a nice buzz.",
+        "There's a real buzz when you walk out on stage.",
+        "The coffee gave me a buzz that lasted all morning."
       ],
-      "senses": [],
-      "русский": "жужжание; ажиотаж, шумиха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low humming sound, or excited talk about something new",
+          "body": [
+            "(жужжание; ажиотаж, шумиха)"
+          ],
+          "examples": [
+            "There's a lot of buzz about her new album.",
+            "I heard a buzz and found a wasp at the window.",
+            "The refrigerator makes strange buzzes at night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pleasant feeling of excitement or of being slightly drunk",
+          "body": [
+            "(приятное возбуждение; лёгкое опьянение)",
+            "---"
+          ],
+          "examples": [
+            "Two beers gave him a nice buzz.",
+            "There's a real buzz when you walk out on stage.",
+            "The coffee gave me a buzz that lasted all morning."
+          ]
+        }
+      ],
+      "русский": "жужжание; ажиотаж, шумиха; приятное возбуждение; лёгкое опьянение",
       "plural": "buzzes",
       "countability": "both — countable and uncountable with different meanings"
     },

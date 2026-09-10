@@ -870,15 +870,23 @@ A mailing envelope lined with bubbles or paper padding.
 ### mailer
 
 **Pronunciation:** /ˈmeɪlər/ &middot; *MAY-lur*
-**Русский:** почтовый конверт-пакет
+**Русский:** почтовый конверт-пакет; рекламная (агитационная) рассылка по почте
 **Plural:** *mailers*
 **Countability:** countable
 
-A sturdy envelope or light box made for mailing something.
+Mailer has 2 distinct senses.
+
+**1. A sturdy envelope or light box made for mailing something.** (почтовый конверт-пакет)
 
 1. Slide the book into a cardboard *mailer*.
 2. Returns go back in the prepaid *mailer*.
 3. We keep a stack of *mailers* by the printer.
+
+**2. A piece of advertising or campaign literature sent through the mail.** (рекламная (агитационная) рассылка по почте)
+
+4. Voters got three *mailers* from the same candidate.
+5. The dealership sends a *mailer* every spring.
+6. That attack *mailer* probably cost him the election.
 
 ---
 
@@ -900,32 +908,48 @@ A stiff cardboard cylinder for mailing posters and drawings.
 ### parcel
 
 **Pronunciation:** /ˈpɑːrsəl/ &middot; *PAR-suhl*
-**Русский:** посылка, свёрток
+**Русский:** посылка, свёрток; земельный участок
 **Plural:** *parcels*
 **Countability:** countable
 **Contrast:** Americans usually say package; parcel survives mostly in postal language.
 
-A wrapped package sent through the mail.
+Parcel has 2 distinct senses.
+
+**1. A wrapped package sent through the mail.** (посылка, свёрток)
 
 1. A *parcel* came for you this morning.
 2. The post office holds *parcels* for ten days.
 3. She tied the *parcel* with string.
+
+**2. A piece of land.** (земельный участок)
+
+4. They bought a five-acre *parcel* outside town.
+5. County records list the owner of every *parcel*.
+6. The old farm was sold off in small *parcels*.
 
 ---
 
 ### packet
 
 **Pronunciation:** /ˈpækɪt/ &middot; *PAK-it*
-**Русский:** пакетик
+**Русский:** пакетик; пакет данных
 **Plural:** *packets*
 **Countability:** countable
 **Contrast:** In the US a packet is small — sugar, ketchup, seasoning; the British use packet where Americans say pack or bag.
 
-A small flat paper or plastic envelope holding one serving of something.
+Packet has 2 distinct senses.
+
+**1. A small flat paper or plastic envelope holding one serving of something.** (пакетик)
 
 1. He tore open a *packet* of sugar.
 2. There are ketchup *packets* in the glove box.
 3. Stir one *packet* of yeast into the warm water.
+
+**2. A small unit of data sent across a computer network.** (пакет данных)
+
+4. The router breaks the file into *packets*.
+5. Some *packets* get lost and have to be sent again.
+6. The software counts every *packet* that crosses the network.
 
 ---
 
@@ -948,15 +972,23 @@ A small cloth bag of scented material, or a sealed pouch of powder.
 ### sack
 
 **Pronunciation:** /sæk/ &middot; *SAK*
-**Русский:** мешок
+**Русский:** мешок; сэк (захват квотербека)
 **Plural:** *sacks*
 **Countability:** countable
 
-A large bag of paper, cloth, or plastic for carrying bulky goods.
+Sack has 2 distinct senses.
+
+**1. A large bag of paper, cloth, or plastic for carrying bulky goods.** (мешок)
 
 1. He hauled a *sack* of potatoes up the steps.
 2. There were *sacks* of flour stacked in the back.
 3. Santa came in with a *sack* over his shoulder.
+
+**2. A play in football in which the quarterback is tackled behind the line.** (сэк (захват квотербека))
+
+4. He had three *sacks* in the first half.
+5. The *sack* pushed them back fifteen yards.
+6. Their defense leads the league in *sacks*.
 
 ---
 
@@ -1275,16 +1307,24 @@ A small open compartment for one person's things.
 ### caddy
 
 **Pronunciation:** /ˈkædi/ &middot; *KAD-ee*
-**Русский:** органайзер, подставка (для принадлежностей)
+**Русский:** органайзер, подставка (для принадлежностей); кэдди (помощник гольфиста)
 **Plural:** *caddies*
 **Countability:** countable
 **Contrast:** Sounds exactly like caddie, the person who carries a golfer's clubs.
 
-A small carrier with compartments for holding supplies.
+Caddy has 2 distinct senses.
+
+**1. A small carrier with compartments for holding supplies.** (органайзер, подставка (для принадлежностей))
 
 1. She keeps her shampoo in a shower *caddy*.
 2. The cleaning *caddy* has everything in one place.
 3. There are utensil *caddies* on each table.
+
+**2. Someone who carries a golfer's clubs and advises on shots during a round.** (кэдди (помощник гольфиста))
+
+4. His *caddy* handed him a seven iron.
+5. She worked as a *caddy* at the country club in high school.
+6. The *caddies* walked ahead to read the green.
 
 ---
 
@@ -1444,16 +1484,24 @@ A very large tub for holding liquid in making food, drink, or chemicals.
 ### trough
 
 **Pronunciation:** /trɔːf/ &middot; *TRAWF*
-**Русский:** корыто, кормушка
+**Русский:** корыто, кормушка; спад, низшая точка
 **Plural:** *troughs*
 **Countability:** countable
 **Contrast:** The gh sounds like f: TRAWF rhymes with off.
 
-A long narrow open container that animals eat or drink from.
+Trough has 2 distinct senses.
+
+**1. A long narrow open container that animals eat or drink from.** (корыто, кормушка)
 
 1. The horses lined up at the water *trough*.
 2. He filled the feed *trough* before dawn.
 3. Ice had formed on top of the *trough*.
+
+**2. The low point in a cycle, between two high points.** (спад, низшая точка)
+
+4. The economy hit a *trough* in early spring.
+5. Sales rise in December and fall to a *trough* in July.
+6. The boat rose on the crest and dropped into the *trough*.
 
 ---
 
@@ -1597,16 +1645,24 @@ A card with sealed plastic bubbles holding pills or small goods.
 ### pillbox
 
 **Pronunciation:** /ˈpɪlbɑːks/ &middot; *PIL-bahks*
-**Русский:** таблетница
+**Русский:** таблетница; дот, огневая точка
 **Plural:** *pillboxes*
 **Countability:** countable
 **Contrast:** A pillbox is also a small round hat and a low concrete gun shelter.
 
-A small case with compartments for a week's pills.
+Pillbox has 2 distinct senses.
+
+**1. A small case with compartments for a week's pills.** (таблетница)
 
 1. She fills her *pillbox* every Sunday.
 2. He carries a *pillbox* in his coat pocket.
 3. Two *pillboxes* sat next to the sink.
+
+**2. A small low concrete shelter with narrow slits for guns.** (дот, огневая точка)
+
+4. Concrete *pillboxes* still line the beach.
+5. The squad took fire from a *pillbox* on the ridge.
+6. An abandoned *pillbox* sits at the edge of the field.
 
 ---
 
@@ -2038,16 +2094,24 @@ A large container with a handle for carrying drinking water.
 ### canteen
 
 **Pronunciation:** /kænˈtiːn/ &middot; *kan-TEEN*
-**Русский:** фляга
+**Русский:** фляга; столовая (при базе, лагере, заводе)
 **Plural:** *canteens*
 **Countability:** countable
 **Contrast:** In American English a canteen is a water flask; in Britain it is usually a workplace cafeteria.
 
-A flat metal or plastic bottle carried on a strap or belt.
+Canteen has 2 distinct senses.
+
+**1. A flat metal or plastic bottle carried on a strap or belt.** (фляга)
 
 1. He took a long drink from his *canteen*.
 2. Her *canteen* was empty by noon.
 3. Every scout carried a *canteen*.
+
+**2. A place at a workplace, camp, or military base where food is served.** (столовая (при базе, лагере, заводе))
+
+4. The crew eats lunch in the factory *canteen*.
+5. The base *canteen* serves breakfast until nine.
+6. We bought candy bars at the camp *canteen*.
 
 ---
 

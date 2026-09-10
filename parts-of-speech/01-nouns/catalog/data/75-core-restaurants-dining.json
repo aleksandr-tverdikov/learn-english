@@ -83,14 +83,43 @@
       "term": "special",
       "ipa": "/ˈspɛʃəl/",
       "respell": "SPEH-shul",
-      "meaning": "A dish a restaurant offers on a particular day, often at a lower price. ---",
+      "meaning": "Special has 2 distinct senses.",
       "examples": [
         "Tonight's special is blackened catfish.",
         "Let me tell you about our specials.",
-        "The lunch special comes with soup and a drink."
+        "The lunch special comes with soup and a drink.",
+        "The network aired a two-hour holiday special.",
+        "Her stand-up special comes out next month.",
+        "We watch the same Christmas special every year."
       ],
-      "senses": [],
-      "русский": "блюдо дня, спецпредложение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dish a restaurant offers on a particular day, often at a lower price",
+          "body": [
+            "(блюдо дня, спецпредложение)"
+          ],
+          "examples": [
+            "Tonight's special is blackened catfish.",
+            "Let me tell you about our specials.",
+            "The lunch special comes with soup and a drink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A television program made as a single show outside the regular schedule",
+          "body": [
+            "(специальный выпуск (телепередачи))",
+            "---"
+          ],
+          "examples": [
+            "The network aired a two-hour holiday special.",
+            "Her stand-up special comes out next month.",
+            "We watch the same Christmas special every year."
+          ]
+        }
+      ],
+      "русский": "блюдо дня, спецпредложение; специальный выпуск (телепередачи)",
       "plural": "specials",
       "countability": "countable"
     },
@@ -236,14 +265,43 @@
       "term": "hunger",
       "ipa": "/ˈhʌŋɡər/",
       "respell": "HUNG-gur",
-      "meaning": "The uncomfortable feeling of needing food. ---",
+      "meaning": "Hunger has 2 distinct senses.",
       "examples": [
         "A handful of nuts took the edge off my hunger.",
         "Hunger makes everything taste better.",
-        "She ate out of hunger, not out of pleasure."
+        "She ate out of hunger, not out of pleasure.",
+        "She has a real hunger for success.",
+        "His hunger to win made him a hard teammate.",
+        "There's a hunger for honest reporting right now."
       ],
-      "senses": [],
-      "русский": "голод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The uncomfortable feeling of needing food",
+          "body": [
+            "(голод)"
+          ],
+          "examples": [
+            "A handful of nuts took the edge off my hunger.",
+            "Hunger makes everything taste better.",
+            "She ate out of hunger, not out of pleasure."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong desire for something",
+          "body": [
+            "(жажда, сильное стремление (к чему-л.))",
+            "---"
+          ],
+          "examples": [
+            "She has a real hunger for success.",
+            "His hunger to win made him a hard teammate.",
+            "There's a hunger for honest reporting right now."
+          ]
+        }
+      ],
+      "русский": "голод; жажда, сильное стремление (к чему-л.)",
       "countability": "uncountable",
       "contrast": "Uncountable: you feel hunger, but you have an appetite."
     },
@@ -1064,14 +1122,43 @@
       "term": "queue",
       "ipa": "/kjuː/",
       "respell": "KYOO",
-      "meaning": "A line of people waiting their turn. ---",
+      "meaning": "Queue has 2 distinct senses.",
       "examples": [
         "There was a queue out the door and around the corner.",
         "We joined the queue for the buffet.",
-        "The queues move fast once they open the second register."
+        "The queues move fast once they open the second register.",
+        "Your document is third in the print queue.",
+        "I added the movie to my queue and forgot about it.",
+        "Support tickets sit in a queue until someone picks them up."
       ],
-      "senses": [],
-      "русский": "очередь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of people waiting their turn",
+          "body": [
+            "(очередь)"
+          ],
+          "examples": [
+            "There was a queue out the door and around the corner.",
+            "We joined the queue for the buffet.",
+            "The queues move fast once they open the second register."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A list of items waiting to be handled by a computer or saved to use later",
+          "body": [
+            "(очередь (заданий), список отложенного)",
+            "---"
+          ],
+          "examples": [
+            "Your document is third in the print queue.",
+            "I added the movie to my queue and forgot about it.",
+            "Support tickets sit in a queue until someone picks them up."
+          ]
+        }
+      ],
+      "русский": "очередь; очередь (заданий), список отложенного",
       "plural": "queues",
       "countability": "countable",
       "contrast": "Americans normally say 'line'; queue sounds British — and only the first letter is pronounced."
@@ -1109,14 +1196,43 @@
       "term": "patron",
       "ipa": "/ˈpeɪtrən/",
       "respell": "PAY-trun",
-      "meaning": "A customer of a restaurant, bar, or shop. ---",
+      "meaning": "Patron has 2 distinct senses.",
       "examples": [
         "Patrons must be twenty-one to sit at the bar.",
         "A regular patron complained about the music.",
-        "The sign asks patrons to wait to be seated."
+        "The sign asks patrons to wait to be seated.",
+        "The museum thanked its patrons at the opening.",
+        "A wealthy patron paid for the composer's travels.",
+        "Patrons who give over a thousand dollars get their names on the wall."
       ],
-      "senses": [],
-      "русский": "посетитель, клиент (заведения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A customer of a restaurant, bar, or shop",
+          "body": [
+            "(посетитель, клиент (заведения))"
+          ],
+          "examples": [
+            "Patrons must be twenty-one to sit at the bar.",
+            "A regular patron complained about the music.",
+            "The sign asks patrons to wait to be seated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who gives money to support an artist, a museum, or a cause",
+          "body": [
+            "(меценат, покровитель, спонсор)",
+            "---"
+          ],
+          "examples": [
+            "The museum thanked its patrons at the opening.",
+            "A wealthy patron paid for the composer's travels.",
+            "Patrons who give over a thousand dollars get their names on the wall."
+          ]
+        }
+      ],
+      "русский": "посетитель, клиент (заведения); меценат, покровитель, спонсор",
       "plural": "patrons",
       "countability": "countable",
       "contrast": "Said PAY-trun in American English, with the stress on the first syllable."
@@ -1613,14 +1729,43 @@
       "term": "palate",
       "ipa": "/ˈpælət/",
       "respell": "PAL-uht",
-      "meaning": "A person's sense of taste, or their ability to judge flavors. ---",
+      "meaning": "Palate has 2 distinct senses.",
       "examples": [
         "He has a good palate for wine.",
         "The sorbet clears your palate between courses.",
-        "A chef cooks for a lot of different palates."
+        "A chef cooks for a lot of different palates.",
+        "The hot cheese burned my palate.",
+        "The baby was born with a cleft palate.",
+        "Press your tongue against your palate to make that sound."
       ],
-      "senses": [],
-      "русский": "вкус, вкусовое восприятие; нёбо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person's sense of taste, or their ability to judge flavors",
+          "body": [
+            "(вкус, вкусовое восприятие; нёбо)"
+          ],
+          "examples": [
+            "He has a good palate for wine.",
+            "The sorbet clears your palate between courses.",
+            "A chef cooks for a lot of different palates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The roof of the mouth",
+          "body": [
+            "(нёбо)",
+            "---"
+          ],
+          "examples": [
+            "The hot cheese burned my palate.",
+            "The baby was born with a cleft palate.",
+            "Press your tongue against your palate to make that sound."
+          ]
+        }
+      ],
+      "русский": "вкус, вкусовое восприятие; нёбо; нёбо",
       "plural": "palates",
       "countability": "countable",
       "contrast": "Sounds exactly like palette (an artist's board) and pallet (a wooden shipping platform)."

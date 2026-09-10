@@ -485,15 +485,23 @@ A soft flat leather shoe with the sole wrapped up and stitched to the top.
 ### oxford
 
 **Pronunciation:** /ˈɑːksfərd/ &middot; *AHKS-furd*
-**Русский:** оксфорды (туфли на закрытой шнуровке)
+**Русский:** оксфорды (туфли на закрытой шнуровке); рубашка из оксфордской ткани
 **Plural:** *oxfords*
 **Countability:** countable
 
-A low dress shoe whose lace flaps are stitched closed at the bottom.
+Oxford has 2 distinct senses.
+
+**1. A low dress shoe whose lace flaps are stitched closed at the bottom.** (оксфорды (туфли на закрытой шнуровке))
 
 1. Black *oxfords* are the safest choice with a dark suit.
 2. He had one *oxford* resoled and the other polished.
 3. Those brown *oxfords* need new laces.
+
+**2. A cotton shirt made of slightly rough, basket-woven cloth.** (рубашка из оксфордской ткани)
+
+4. He wore a blue *oxford* and khakis.
+5. I keep two white *oxfords* pressed for interviews.
+6. That *oxford* looks better with the sleeves rolled up.
 
 ---
 
@@ -744,31 +752,47 @@ A sneaker cut below the ankle.
 ### wingtip
 
 **Pronunciation:** /ˈwɪŋtɪp/ &middot; *WING-tip*
-**Русский:** туфли-броги с фигурным носком
+**Русский:** туфли-броги с фигурным носком; законцовка крыла, кончик крыла
 **Plural:** *wingtips*
 **Countability:** countable
 
-A dress shoe with a pointed leather cap shaped like wings across the toe.
+Wingtip has 2 distinct senses.
+
+**1. A dress shoe with a pointed leather cap shaped like wings across the toe.** (туфли-броги с фигурным носком)
 
 1. He wore brown *wingtips* with a gray suit.
 2. The perforations on a *wingtip* are purely decorative.
 3. Those *wingtips* have been in his closet for a decade.
+
+**2. The outer end of a bird's wing or an airplane's wing.** (законцовка крыла, кончик крыла)
+
+4. The plane's *wingtip* clipped a light pole.
+5. Red lights blink at each *wingtip*.
+6. The eagle's *wingtips* spread out like fingers.
 
 ---
 
 ### brogue
 
 **Pronunciation:** /broʊɡ/ &middot; *BROHG*
-**Русский:** броги (туфли с перфорацией)
+**Русский:** броги (туфли с перфорацией); сильный ирландский (шотландский) акцент
 **Plural:** *brogues*
 **Countability:** countable
 **Contrast:** The same word also means a strong regional accent, especially an Irish one: "he spoke with a soft brogue."
 
-A sturdy leather shoe decorated with rows of punched holes.
+Brogue has 2 distinct senses.
+
+**1. A sturdy leather shoe decorated with rows of punched holes.** (броги (туфли с перфорацией))
 
 1. He bought a pair of tan *brogues* for the spring.
 2. The pattern on that *brogue* is beautiful.
 3. *Brogues* look good with tweed.
+
+**2. A strong regional accent, especially an Irish or Scottish one.** (сильный ирландский (шотландский) акцент)
+
+4. He answered in a thick Irish *brogue*.
+5. Her *brogue* got stronger when she was tired.
+6. You could hear the *brogue* in the way he said the word.
 
 ---
 
@@ -943,15 +967,29 @@ A shoe with gripping studs in the sole, worn on a golf course.
 ### spike
 
 **Pronunciation:** /spaɪk/ &middot; *SPYK*
-**Русский:** шип (на спортивной подошве); (мн.) шиповки
+**Русский:** шип (на спортивной подошве); (мн.) шиповки; резкий скачок, всплеск; штырь, костыль, острый шип
 **Plural:** *spikes*
 **Countability:** countable
 
-A short metal point screwed into the sole of a track or golf shoe.
+Spike has 3 distinct senses.
+
+**1. A short metal point screwed into the sole of a track or golf shoe.** (шип (на спортивной подошве); (мн.) шиповки)
 
 1. She laced up her *spikes* for the 400.
 2. You can replace a worn *spike* with a small wrench.
 3. Metal *spikes* tear up the turf.
+
+**2. A sudden sharp increase in a number or level.** (резкий скачок, всплеск)
+
+4. The city saw a *spike* in emergency calls during the heat wave.
+5. There was a brief *spike* in gas prices last spring.
+6. Doctors reported a *spike* in flu cases in January.
+
+**3. A long thick pointed piece of metal or wood.** (штырь, костыль, острый шип)
+
+7. The fence around the yard is topped with iron *spikes*.
+8. He drove a *spike* into the railroad tie.
+9. Steel *spikes* held the tent lines to the ground.
 
 ---
 
@@ -1184,16 +1222,24 @@ How far a shoe raises the back of the foot off the ground.
 ### welt
 
 **Pronunciation:** /wɛlt/ &middot; *WELT*
-**Русский:** рант
+**Русский:** рант; рубец, вздувшийся след (от удара)
 **Plural:** *welts*
 **Countability:** countable
 **Contrast:** The same word also means a raised red mark on the skin from a blow.
 
-A strip of leather stitched between the upper and the sole of a shoe.
+Welt has 2 distinct senses.
+
+**1. A strip of leather stitched between the upper and the sole of a shoe.** (рант)
 
 1. A shoe with a *welt* can be resoled many times.
 2. The stitching along the *welt* had rotted.
 3. Both *welts* were replaced during the rebuild.
+
+**2. A raised red mark left on the skin by a blow or a sting.** (рубец, вздувшийся след (от удара))
+
+4. The belt left *welts* across his back.
+5. A mosquito bite raised a *welt* on her arm.
+6. He had a *welt* under one eye after the fight.
 
 ---
 
@@ -2131,13 +2177,33 @@ A new piece of sole put on the front part of a shoe only.
 ### slide
 
 **Pronunciation:** /slaɪd/ &middot; *SLYD*
-**Русский:** шлёпанцы (сандалии без задника)
+**Русский:** шлёпанцы (сандалии без задника); горка (детская); слайд (в презентации); предметное стекло
 **Plural:** *slides*
 **Countability:** countable
 **Contrast:** The same word also means a playground slide or a photographic slide; the sandal sense is nearly always plural.
 
-A flat backless sandal with one wide band across the foot.
+Slide has 4 distinct senses.
+
+**1. A flat backless sandal with one wide band across the foot.** (шлёпанцы (сандалии без задника))
 
 1. He wears *slides* to the pool and nowhere else.
 2. One *slide* floated off down the lake.
 3. Rubber *slides* dry in about a minute.
+
+**2. A smooth sloping structure that children climb up and slide down.** (горка (детская))
+
+4. She went down the *slide* headfirst.
+5. The park put in a new twisting *slide*.
+6. Both *slides* were too hot to touch by noon.
+
+**3. One page of a presentation shown on a screen.** (слайд (в презентации))
+
+7. Go back to the *slide* with the sales figures.
+8. He crammed six charts onto one *slide*.
+9. Her presentation ran to forty *slides*.
+
+**4. A small glass plate holding a sample to be viewed under a microscope.** (предметное стекло)
+
+10. Put a drop of pond water on the *slide*.
+11. The lab labels every *slide* with a date.
+12. He clipped the *slide* onto the microscope.

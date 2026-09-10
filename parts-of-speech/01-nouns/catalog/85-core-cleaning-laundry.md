@@ -12,15 +12,29 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### mess
 
 **Pronunciation:** /mɛs/ &middot; *MES*
-**Русский:** беспорядок, бардак
+**Русский:** беспорядок, бардак; неразбериха, плачевное положение; столовая (в армии, на флоте)
 **Plural:** *messes*
 **Countability:** countable
 
-A dirty or untidy state of a place or thing.
+Mess has 3 distinct senses.
+
+**1. A dirty or untidy state of a place or thing.** (беспорядок, бардак)
 
 1. The kitchen was a *mess* after the party.
 2. Clean up your *mess* before you go out.
 3. The kids make three *messes* a day.
+
+**2. A confused or badly handled situation.** (неразбериха, плачевное положение)
+
+4. The scheduling system is a complete *mess*.
+5. He made a *mess* of his first semester.
+6. After the layoffs her finances were a *mess*.
+
+**3. A room where soldiers or sailors eat together.** (столовая (в армии, на флоте))
+
+7. The recruits lined up outside the *mess* at six.
+8. He ate every meal that year in the officers' *mess*.
+9. Both *messes* were closed for the holiday.
 
 ---
 
@@ -119,32 +133,54 @@ A small cloth used to wash dishes and wipe counters.
 ### cleaner
 
 **Pronunciation:** /ˈkliːnər/ &middot; *KLEE-nur*
-**Русский:** чистящее средство
+**Русский:** чистящее средство; уборщик, уборщица; химчистка
 **Plural:** *cleaners*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** *Cleaner* is also the person who cleans: *the cleaner comes Fridays*.
 
-A liquid or powder made for cleaning a particular surface.
+Cleaner has 3 distinct senses.
+
+**1. A liquid or powder made for cleaning a particular surface.** (чистящее средство)
 
 1. Spray the *cleaner* on and let it sit a minute.
 2. This *cleaner* is safe on granite.
 3. The store carries a dozen different bathroom *cleaners*.
+
+**2. Someone whose job is cleaning offices or homes.** (уборщик, уборщица)
+
+4. The *cleaners* come to the office on Friday nights.
+5. She works as a *cleaner* at the hospital.
+6. Our *cleaner* has a key to the apartment.
+
+**3. A shop that dry-cleans clothes, usually spoken of in the plural.** (химчистка)
+
+7. My suit is still at the *cleaners*.
+8. Drop the coat off at the *cleaners* on your way in.
+9. The *cleaners* on Third Street closes at six.
 
 ---
 
 ### wash
 
 **Pronunciation:** /wɑːʃ/ &middot; *WAHSH*
-**Русский:** стирка; мойка
+**Русский:** стирка; мойка; нулевой результат, «баш на баш»
 **Plural:** *washes*
 **Countability:** countable
 **Contrast:** Americans say *in the wash*; the British say *in the washing*.
 
-One cleaning of something with water, or the clothes being washed.
+Wash has 2 distinct senses.
+
+**1. One cleaning of something with water, or the clothes being washed.** (стирка; мойка)
 
 1. My jeans are in the *wash*.
 2. The car could use a *wash*.
 3. The color faded after three *washes*.
+
+**2. A situation in which gains and losses cancel out, leaving no real change.** (нулевой результат, «баш на баш»)
+
+4. After the new fees, the raise was basically a *wash*.
+5. We saved on gas but paid more for parking, so it was a *wash*.
+6. For the company the whole quarter came out a *wash*.
 
 ---
 
@@ -395,15 +431,23 @@ An iron that pushes hot vapor through cloth to smooth it.
 ### steamer
 
 **Pronunciation:** /ˈstiːmər/ &middot; *STEE-mur*
-**Русский:** отпариватель
+**Русский:** отпариватель; пароварка
 **Plural:** *steamers*
 **Countability:** countable
 
-A handheld device that smooths clothes with hot vapor.
+Steamer has 2 distinct senses.
+
+**1. A handheld device that smooths clothes with hot vapor.** (отпариватель)
 
 1. Run the *steamer* over that jacket before you wear it.
 2. A *steamer* is faster than ironing for curtains.
 3. The shop keeps two *steamers* by the fitting rooms.
+
+**2. A pot or basket with holes, used to cook food over boiling water.** (пароварка)
+
+4. Put the broccoli in the *steamer* for five minutes.
+5. We got a bamboo *steamer* for dumplings.
+6. The rice cooker came with a *steamer* tray.
 
 ---
 
@@ -439,29 +483,51 @@ Loose broken pieces left lying around after damage or use.
 ### scum
 
 **Pronunciation:** /skʌm/ &middot; *SKUM*
-**Русский:** налёт, грязная пена
+**Русский:** налёт, грязная пена; подонок, мразь
 **Countability:** uncountable
 
-A dirty film that forms on the top of water or on a wet surface.
+Scum has 2 distinct senses.
+
+**1. A dirty film that forms on the top of water or on a wet surface.** (налёт, грязная пена)
 
 1. There was *scum* floating on the dishwater.
 2. Wipe the *scum* off the waterline of the tub.
 3. Green *scum* covered the top of the barrel.
+
+**2. A cruel or worthless person, or such people taken as a group.** (подонок, мразь)
+
+4. Anyone who steals from a food bank is *scum*.
+5. The officers called them *scum* right to their faces.
+6. He treated her like *scum* for years.
 
 ---
 
 ### buildup
 
 **Pronunciation:** /ˈbɪldʌp/ &middot; *BILD-up*
-**Русский:** налёт, отложения
+**Русский:** налёт, отложения; наращивание, накопление (сил, давления); подготовка и ожидание перед событием
 **Plural:** *buildups*
 **Countability:** countable
 
-A layer of dirt or residue that has collected slowly over time.
+Buildup has 3 distinct senses.
+
+**1. A layer of dirt or residue that has collected slowly over time.** (налёт, отложения)
 
 1. There's a *buildup* of grease behind the stove.
 2. The showerhead had a mineral *buildup*.
 3. Regular cleaning prevents *buildups* like that.
+
+**2. A gradual increase in the number or strength of something.** (наращивание, накопление (сил, давления))
+
+4. The country announced a military *buildup* along its border.
+5. A slow *buildup* of pressure finally cracked the pipe.
+6. Doctors watched for a *buildup* of fluid in his lungs.
+
+**3. The stretch of preparation and excitement before a big event.** (подготовка и ожидание перед событием)
+
+7. The *buildup* to the Super Bowl lasts two weeks.
+8. There was so much *buildup* that the movie couldn't live up to it.
+9. In the *buildup* to the election, both sides spent heavily.
 
 ---
 
@@ -552,29 +618,45 @@ A sticky, wet substance that is hard to wipe off.
 ### grit
 
 **Pronunciation:** /ɡrɪt/ &middot; *GRIT*
-**Русский:** песок, мелкий сор
+**Русский:** песок, мелкий сор; твёрдость характера, упорство
 **Countability:** uncountable
 
-Tiny hard bits of sand or dirt you can feel underfoot.
+Grit has 2 distinct senses.
+
+**1. Tiny hard bits of sand or dirt you can feel underfoot.** (песок, мелкий сор)
 
 1. There's *grit* all over the kitchen floor.
 2. Rinse the *grit* out of the lettuce.
 3. You could feel the *grit* between your teeth.
+
+**2. Courage and determination that keep someone going through hard times.** (твёрдость характера, упорство)
+
+4. It took real *grit* to finish the race on a bad ankle.
+5. The coach praised his team's *grit*.
+6. She has more *grit* than anyone I know.
 
 ---
 
 ### smear
 
 **Pronunciation:** /smɪr/ &middot; *SMEER*
-**Русский:** размазанное пятно, развод
+**Русский:** размазанное пятно, развод; клевета, очернение
 **Plural:** *smears*
 **Countability:** countable
 
-A dirty mark made by rubbing something wet or greasy.
+Smear has 2 distinct senses.
+
+**1. A dirty mark made by rubbing something wet or greasy.** (размазанное пятно, развод)
 
 1. There's a *smear* of jam on the counter.
 2. The window was full of *smears* after he wiped it.
 3. A *smear* of grease ran down the cabinet door.
+
+**2. A false story spread in order to damage someone's reputation.** (клевета, очернение)
+
+4. The ad was a *smear*, and everyone knew it.
+5. He called the accusation a political *smear*.
+6. *Smears* like that follow a candidate for years.
 
 ---
 
@@ -702,15 +784,23 @@ An old soft cloth kept for wiping dust off surfaces.
 ### smell
 
 **Pronunciation:** /smɛl/ &middot; *SMEL*
-**Русский:** запах
+**Русский:** запах; обоняние
 **Plural:** *smells*
 **Countability:** countable
 
-Something you notice with your nose, good or bad.
+Smell has 2 distinct senses.
+
+**1. Something you notice with your nose, good or bad.** (запах)
 
 1. What's that *smell* in the basement?
 2. The *smell* of bleach filled the bathroom.
 3. Cooking *smells* stay in the curtains.
+
+**2. The sense that lets you notice odors through your nose.** (обоняние)
+
+4. Dogs rely on *smell* far more than on sight.
+5. She lost her sense of *smell* after the infection.
+6. *Smell* brings back memories faster than any other sense.
 
 ---
 
@@ -912,30 +1002,52 @@ A waterproof glove worn to protect the hands while cleaning.
 ### spray
 
 **Pronunciation:** /spreɪ/ &middot; *SPRAY*
-**Русский:** спрей, распыляемое средство
+**Русский:** спрей, распыляемое средство; брызги, водяная пыль; букетик, ветка (цветов)
 **Plural:** *sprays*
 **Countability:** countable, and uncountable as a substance
 
-A liquid product that is pushed out of a container in a mist.
+Spray has 3 distinct senses.
+
+**1. A liquid product that is pushed out of a container in a mist.** (спрей, распыляемое средство)
 
 1. Give the counter a quick shot of *spray*.
 2. This *spray* takes grease off the stovetop.
 3. The shelf was full of cleaning *sprays*.
+
+**2. Very fine drops of water blown or thrown through the air.** (брызги, водяная пыль)
+
+4. *Spray* from the waterfall soaked our jackets.
+5. Salt *spray* had rusted the railings.
+6. The wind picked up and sent *spray* over the bow.
+
+**3. A small arrangement of cut flowers or leafy branches.** (букетик, ветка (цветов))
+
+7. She carried a *spray* of white roses.
+8. A *spray* of lilies lay on the casket.
+9. He tucked a *spray* of baby's breath into the vase.
 
 ---
 
 ### aerosol
 
 **Pronunciation:** /ˈɛrəˌsɔːl/ &middot; *ER-uh-sawl*
-**Русский:** аэрозоль, аэрозольный баллончик
+**Русский:** аэрозоль, аэрозольный баллончик; аэрозоль, взвесь мельчайших частиц в воздухе
 **Plural:** *aerosols*
 **Countability:** countable
 
-A pressurized can that releases its contents as a fine mist.
+Aerosol has 2 distinct senses.
+
+**1. A pressurized can that releases its contents as a fine mist.** (аэрозоль, аэрозольный баллончик)
 
 1. Don't throw an *aerosol* in the fire.
 2. The polish comes in an *aerosol*.
 3. Some *aerosols* are banned in this state.
+
+**2. Tiny particles or droplets floating in the air.** (аэрозоль, взвесь мельчайших частиц в воздухе)
+
+4. The virus travels in *aerosols* that hang in the air indoors.
+5. Volcanic *aerosols* cooled the planet for two summers.
+6. Ocean spray puts a fine salt *aerosol* into the atmosphere.
 
 ---
 
@@ -1326,15 +1438,23 @@ A large site where waste is buried under earth.
 ### dump
 
 **Pronunciation:** /dʌmp/ &middot; *DUMP*
-**Русский:** свалка
+**Русский:** свалка; помойка, дыра (о месте)
 **Plural:** *dumps*
 **Countability:** countable
 
-A place where people leave trash and unwanted things.
+Dump has 2 distinct senses.
+
+**1. A place where people leave trash and unwanted things.** (свалка)
 
 1. He took the old couch to the *dump*.
 2. The *dump* charges by the pound now.
 3. There used to be *dumps* at the edge of every town.
+
+**2. A dirty, unpleasant, run-down place.** (помойка, дыра (о месте))
+
+4. The motel turned out to be a total *dump*.
+5. I'm not eating in that *dump*.
+6. They fixed up the old *dump* and sold it for a profit.
 
 ---
 

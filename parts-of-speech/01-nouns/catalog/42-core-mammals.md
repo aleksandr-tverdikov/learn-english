@@ -73,30 +73,52 @@ A full-grown female of the cattle, kept for milk and beef.
 ### bull
 
 **Pronunciation:** /bʊl/ &middot; *BUUL*
-**Русский:** бык
+**Русский:** бык; чушь, брехня (разг.); «бык» (играющий на повышение)
 **Plural:** *bulls*
 **Countability:** countable
 
-An adult male of the cattle, usually kept for breeding.
+Bull has 3 distinct senses.
+
+**1. An adult male of the cattle, usually kept for breeding.** (бык)
 
 1. Don't cut across that field — there's a *bull* in it.
 2. The *bull* got out through a broken gate.
 3. They sold two *bulls* at the auction.
+
+**2. Nonsense, or something said that is plainly untrue. Informal.** (чушь, брехня (разг.))
+
+4. That excuse is a bunch of *bull*.
+5. He fed us a lot of *bull* about being sick.
+6. Cut the *bull* and tell me what really happened.
+
+**3. An investor who expects prices to rise.** («бык» (играющий на повышение))
+
+7. *Bulls* argue that the rally still has room to run.
+8. He has been a *bull* on energy stocks all year.
+9. The *bulls* pushed the index to a record close.
 
 ---
 
 ### pig
 
 **Pronunciation:** /pɪɡ/ &middot; *PIG*
-**Русский:** свинья
+**Русский:** свинья; свинья (о человеке)
 **Plural:** *pigs*
 **Countability:** countable
 
-A farm animal with a broad snout, raised for pork.
+Pig has 2 distinct senses.
+
+**1. A farm animal with a broad snout, raised for pork.** (свинья)
 
 1. The *pigs* got into the feed shed again.
 2. He raises *pigs* on a small farm upstate.
 3. A *pig* is a lot smarter than most people think.
+
+**2. A greedy, rude, or dirty person.** (свинья (о человеке))
+
+4. Don't be a *pig* — leave some for your sister.
+5. He eats like a *pig*.
+6. Those guys left the kitchen like *pigs*.
 
 ---
 
@@ -133,15 +155,29 @@ A small long-eared relative of the horse, used to carry loads.
 ### mule
 
 **Pronunciation:** /mjuːl/ &middot; *MYOOL*
-**Русский:** мул
+**Русский:** мул; перевозчик наркотиков; мюли (туфли без задника)
 **Plural:** *mules*
 **Countability:** countable
 
-The offspring of a donkey and a horse, bred for hauling.
+Mule has 3 distinct senses.
+
+**1. The offspring of a donkey and a horse, bred for hauling.** (мул)
 
 1. The outfitters run *mules* down into the canyon.
 2. That *mule* carried sixty pounds all day.
 3. A *mule* is stronger than it looks.
+
+**2. A person paid to carry illegal drugs from one country to another.** (перевозчик наркотиков)
+
+4. Customs agents arrested two *mules* at the airport.
+5. The cartel recruits *mules* who need the money.
+6. She was used as a *mule* without knowing what she carried.
+
+**3. A shoe or slipper with no back, so the heel is open.** (мюли (туфли без задника))
+
+7. She kicked off her *mules* at the door.
+8. Black leather *mules* go with almost anything.
+9. These *mules* slip right on.
 
 ---
 
@@ -378,15 +414,23 @@ A rabbit, especially a young one — the affectionate everyday word.
 ### pet
 
 **Pronunciation:** /pɛt/ &middot; *PET*
-**Русский:** домашнее животное, питомец
+**Русский:** домашнее животное, питомец; любимчик
 **Plural:** *pets*
 **Countability:** countable
 
-An animal kept at home for company.
+Pet has 2 distinct senses.
+
+**1. An animal kept at home for company.** (домашнее животное, питомец)
 
 1. The building doesn't allow *pets*.
 2. Their first *pet* was a rescue cat.
 3. He talks to his *pet* like it's a coworker.
+
+**2. A person treated as a favorite by someone in charge.** (любимчик)
+
+4. Everyone knew he was the teacher's *pet*.
+5. She was always the boss's *pet*.
+6. Being the coach's *pet* didn't win him any friends.
 
 ---
 
@@ -531,16 +575,24 @@ A powerful spotted cat of Central and South America.
 ### cougar
 
 **Pronunciation:** /ˈkuːɡər/ &middot; *KOO-gur*
-**Русский:** пума, кугуар
+**Русский:** пума, кугуар; женщина в возрасте, встречающаяся с молодыми мужчинами
 **Plural:** *cougars*
 **Countability:** countable
 **Contrast:** The same animal as a mountain lion or a puma — all three names are used in the US.
 
-A large tan wild cat of the Americas.
+Cougar has 2 distinct senses.
+
+**1. A large tan wild cat of the Americas.** (пума, кугуар)
 
 1. A *cougar* was spotted near the trailhead.
 2. *Cougars* mostly stay away from people.
 3. He's lived here thirty years and never seen a *cougar*.
+
+**2. An informal and often unkind word for an older woman who dates much younger men.** (женщина в возрасте, встречающаяся с молодыми мужчинами)
+
+4. She hated being called a *cougar* just for dating a guy in his twenties.
+5. The show ran the *cougar* joke into the ground.
+6. Reality TV made *cougars* a punchline for a whole decade.
 
 ---
 
@@ -593,31 +645,47 @@ A small wild dog of Africa and Asia.
 ### coyote
 
 **Pronunciation:** /kaɪˈoʊti/ &middot; *ky-OH-tee*
-**Русский:** койот
+**Русский:** койот; проводник-контрабандист (переправляющий мигрантов)
 **Plural:** *coyotes*
 **Countability:** countable
 **Contrast:** Two American pronunciations: ky-OH-tee, and KY-oht mostly in the West.
 
-A wild dog of North America, smaller than a wolf.
+Coyote has 2 distinct senses.
+
+**1. A wild dog of North America, smaller than a wolf.** (койот)
 
 1. *Coyotes* were howling behind the house.
 2. Keep the cat in — there are *coyotes* around.
 3. A *coyote* trotted right across the road.
+
+**2. A person paid to guide migrants illegally across the border.** (проводник-контрабандист (переправляющий мигрантов))
+
+4. The family paid a *coyote* four thousand dollars.
+5. *Coyotes* abandoned the group in the desert.
+6. Prosecutors charged the *coyote* with smuggling.
 
 ---
 
 ### fox
 
 **Pronunciation:** /fɑːks/ &middot; *FAHKS*
-**Русский:** лиса, лисица
+**Русский:** лиса, лисица; хитрец, хитрая лиса
 **Plural:** *foxes*
 **Countability:** countable
 
-A small wild dog with a pointed face and a bushy tail.
+Fox has 2 distinct senses.
+
+**1. A small wild dog with a pointed face and a bushy tail.** (лиса, лисица)
 
 1. A *fox* got into the chicken coop.
 2. We see *foxes* in the yard all the time now.
 3. The *fox* froze, then bolted.
+
+**2. A clever, crafty person who is hard to outwit.** (хитрец, хитрая лиса)
+
+4. That old *fox* saw the trap coming a mile away.
+5. Her grandfather was a sly *fox* in business.
+6. You'll never outsmart him; he's a *fox*.
 
 ---
 
@@ -841,16 +909,24 @@ A large black-and-white bear from China that lives on bamboo.
 ### sloth
 
 **Pronunciation:** /slɔːθ/ &middot; *SLAWTH*
-**Русский:** ленивец
+**Русский:** ленивец; лень, праздность
 **Plural:** *sloths*
 **Countability:** countable
 **Contrast:** Two American pronunciations, SLAWTH and SLOHTH; both are standard.
 
-A very slow tree-dwelling animal of Central and South America.
+Sloth has 2 distinct senses.
+
+**1. A very slow tree-dwelling animal of Central and South America.** (ленивец)
 
 1. A *sloth* was hanging right over the trail.
 2. *Sloths* come down from the tree about once a week.
 3. The *sloth* took a full minute to move one arm.
+
+**2. Laziness and unwillingness to work.** (лень, праздность)
+
+4. He blamed the delay on plain *sloth*.
+5. *Sloth* is one of the seven deadly sins.
+6. A summer of *sloth* left the yard a jungle.
 
 ---
 
@@ -888,15 +964,23 @@ A small striped ground squirrel of North America.
 ### rat
 
 **Pronunciation:** /ræt/ &middot; *RAT*
-**Русский:** крыса
+**Русский:** крыса; стукач, предатель, крыса (о человеке)
 **Plural:** *rats*
 **Countability:** countable
 
-A large rodent with a long bare tail, common in cities.
+Rat has 2 distinct senses.
+
+**1. A large rodent with a long bare tail, common in cities.** (крыса)
 
 1. They found *rats* behind the dumpster.
 2. A *rat* ran along the subway track.
 3. The building has a *rat* problem.
+
+**2. Someone who betrays his friends or informs on them.** (стукач, предатель, крыса (о человеке))
+
+4. Nobody trusts him around here; he's a *rat*.
+5. Somebody on the crew was a *rat*.
+6. They called her a *rat* for going to the police.
 
 ---
 
@@ -1047,31 +1131,47 @@ A small spiny animal that rolls into a ball when frightened.
 ### bat
 
 **Pronunciation:** /bæt/ &middot; *BAT*
-**Русский:** летучая мышь
+**Русский:** летучая мышь; бита
 **Plural:** *bats*
 **Countability:** countable
 **Contrast:** Same word as a baseball bat — only context tells you which.
 
-The only mammal that truly flies, active at night.
+Bat has 2 distinct senses.
+
+**1. The only mammal that truly flies, active at night.** (летучая мышь)
 
 1. *Bats* come out from under the bridge at sunset.
 2. A *bat* got into the house through the chimney.
 3. *Bats* eat an enormous number of mosquitoes.
+
+**2. A wooden or metal club used to hit the ball in baseball.** (бита)
+
+4. He swung the *bat* and missed.
+5. The kid picked out an aluminum *bat*.
+6. Both *bats* were still in the trunk of the car.
 
 ---
 
 ### weasel
 
 **Pronunciation:** /ˈwiːzəl/ &middot; *WEE-zuhl*
-**Русский:** ласка (зверёк)
+**Русский:** ласка (зверёк); хитрец, пройдоха, подлец
 **Plural:** *weasels*
 **Countability:** countable
 
-A small slim predator with a long body and short legs.
+Weasel has 2 distinct senses.
+
+**1. A small slim predator with a long body and short legs.** (ласка (зверёк))
 
 1. A *weasel* got into the henhouse.
 2. *Weasels* can fit through a gap the width of a quarter.
 3. The *weasel* disappeared into the stone wall.
+
+**2. An informal word for a sneaky, dishonest person you cannot trust.** (хитрец, пройдоха, подлец)
+
+4. That *weasel* took credit for my work.
+5. Don't be a *weasel* — just tell her the truth.
+6. The landlord is a *weasel* about returning deposits.
 
 ---
 
@@ -1117,16 +1217,30 @@ Dolphin has 2 distinct senses.
 ### seal
 
 **Pronunciation:** /siːl/ &middot; *SEEL*
-**Русский:** тюлень
+**Русский:** тюлень; печать, гербовая печать; уплотнитель, прокладка (герметизирующая)
 **Plural:** *seals*
 **Countability:** countable
 **Contrast:** Spelled and said like the seal on a package — only context separates them.
 
-A sea mammal with flippers that comes ashore to rest and breed.
+Seal has 3 distinct senses.
+
+**1. A sea mammal with flippers that comes ashore to rest and breed.** (тюлень)
 
 1. *Seals* were sunning themselves on the rocks.
 2. A *seal* followed the boat for half a mile.
 3. The *seals* bark all night down at the harbor.
+
+**2. An official mark stamped on a document, or the stamp used to make it.** (печать, гербовая печать)
+
+4. The certificate carries the university's *seal*.
+5. He broke the wax *seal* on the envelope.
+6. Every page had to be stamped with the notary's *seal*.
+
+**3. A ring or strip that closes a joint tightly so that nothing leaks through.** (уплотнитель, прокладка (герметизирующая))
+
+7. The *seal* on the refrigerator door is cracked.
+8. A bad *seal* let water into the trunk.
+9. Don't buy it if the *seal* on the jar is broken.
 
 ---
 
@@ -1239,15 +1353,23 @@ An animal that hunts and eats other animals.
 ### prey
 
 **Pronunciation:** /preɪ/ &middot; *PRAY*
-**Русский:** добыча (жертва хищника)
+**Русский:** добыча (жертва хищника); жертва (мошенника, преступника)
 **Countability:** uncountable
 **Contrast:** Homophone of pray (to speak to God), and it has no plural — never preys.
 
-The animals that a predator hunts and eats.
+Prey has 2 distinct senses.
+
+**1. The animals that a predator hunts and eats.** (добыча (жертва хищника))
 
 1. Owls hunt small *prey* at night.
 2. The cat dropped its *prey* on the doormat.
 3. A cheetah has to get close to its *prey* first.
+
+**2. A person who is easily cheated or harmed by someone else.** (жертва (мошенника, преступника))
+
+4. Lonely widows are easy *prey* for these scammers.
+5. New arrivals became *prey* for anyone selling fake papers.
+6. He saw the tourists as *prey*.
 
 ---
 
@@ -1491,16 +1613,24 @@ A hole or tunnel that an animal digs to live in.
 ### lair
 
 **Pronunciation:** /lɛr/ &middot; *LAIR*
-**Русский:** логово
+**Русский:** логово; убежище, логово (человека)
 **Plural:** *lairs*
 **Countability:** countable
 **Contrast:** One syllable, LAIR — not the two syllables of layer.
 
-The resting place of a wild animal, especially a large predator.
+Lair has 2 distinct senses.
+
+**1. The resting place of a wild animal, especially a large predator.** (логово)
 
 1. The tracks led back toward the *lair*.
 2. A wolf will move its *lair* if people come near.
 3. They finally located the animal's *lair*.
+
+**2. A private place where a person hides away or works undisturbed.** (убежище, логово (человека))
+
+4. The villain's *lair* was hidden inside a volcano.
+5. His basement workshop is his *lair*.
+6. Reporters finally tracked the billionaire to his mountain *lair*.
 
 ---
 
@@ -1522,31 +1652,47 @@ A shelter for a dog, or a business that boards dogs.
 ### stable
 
 **Pronunciation:** /ˈsteɪbəl/ &middot; *STAY-buhl*
-**Русский:** конюшня
+**Русский:** конюшня; конюшня (одного владельца); группа подопечных (агентства)
 **Plural:** *stables*
 **Countability:** countable
 **Contrast:** Spelled like the adjective stable (steady); the horse building is a separate noun.
 
-A building where horses are kept.
+Stable has 2 distinct senses.
+
+**1. A building where horses are kept.** (конюшня)
 
 1. She mucks out the *stable* every morning.
 2. The *stables* are behind the main house.
 3. We keep the horse at a *stable* down the road.
+
+**2. A group of racehorses, athletes, or performers managed by one owner or company.** (конюшня (одного владельца); группа подопечных (агентства))
+
+4. The trainer keeps a *stable* of twenty horses.
+5. The agency has a *stable* of young writers.
+6. He fought for the same *stable* his whole career.
 
 ---
 
 ### hutch
 
 **Pronunciation:** /hʌtʃ/ &middot; *HUCH*
-**Русский:** клетка для кроликов
+**Русский:** клетка для кроликов; буфет, сервант (с открытыми полками)
 **Plural:** *hutches*
 **Countability:** countable
 
-A wooden cage for rabbits or other small pets.
+Hutch has 2 distinct senses.
+
+**1. A wooden cage for rabbits or other small pets.** (клетка для кроликов)
 
 1. The rabbits live in a *hutch* by the garage.
 2. He built the *hutch* out of scrap lumber.
 3. Both *hutches* need new wire.
+
+**2. A piece of furniture with open shelves on top and a closed cabinet below.** (буфет, сервант (с открытыми полками))
+
+4. Her grandmother's china is displayed in the *hutch*.
+5. We're refinishing an old oak *hutch* for the dining room.
+6. The desk came with a *hutch* for books and files.
 
 ---
 
@@ -1600,16 +1746,24 @@ The long hair along the neck of a horse or a male lion.
 ### whisker
 
 **Pronunciation:** /ˈwɪskər/ &middot; *WIS-kur*
-**Русский:** ус (у животного), вибрисса
+**Русский:** ус (у животного), вибрисса; щетина, волоски бороды
 **Plural:** *whiskers*
 **Countability:** countable
 **Contrast:** Nearly always plural for an animal: a cat has whiskers, and a single one is a whisker.
 
-One of the long stiff hairs that grow near an animal's mouth.
+Whisker has 2 distinct senses.
+
+**1. One of the long stiff hairs that grow near an animal's mouth.** (ус (у животного), вибрисса)
 
 1. The cat's *whiskers* twitched.
 2. A seal uses its *whiskers* to find fish.
 3. One *whisker* had been broken off.
+
+**2. One of the hairs of a man's beard or the stubble on his face.** (щетина, волоски бороды)
+
+4. Gray *whiskers* covered his chin.
+5. He hadn't shaved, and the *whiskers* scratched her cheek.
+6. A few white *whiskers* showed along his jaw.
 
 ---
 
@@ -1655,15 +1809,29 @@ The foot of an animal that has claws and soft pads.
 ### claw
 
 **Pronunciation:** /klɔː/ &middot; *KLAW*
-**Русский:** коготь
+**Русский:** коготь; клешня; гвоздодёр (у молотка); захват
 **Plural:** *claws*
 **Countability:** countable
 
-A sharp curved nail on an animal's foot.
+Claw has 3 distinct senses.
+
+**1. A sharp curved nail on an animal's foot.** (коготь)
 
 1. The cat sank her *claws* into the arm of the chair.
 2. A bear's *claws* are as long as your fingers.
 3. He clipped the dog's *claws* a little too short.
+
+**2. The large pincer of a crab or lobster.** (клешня)
+
+4. The lobster's *claws* were held shut with rubber bands.
+5. He cracked the crab *claw* with a small mallet.
+6. A crab waved one *claw* at us from the rocks.
+
+**3. The forked or curved part of a tool or machine that grips and pulls.** (гвоздодёр (у молотка); захват)
+
+7. Use the *claw* of the hammer to pull that nail out.
+8. The *claw* in the arcade machine dropped the toy every time.
+9. The crane lowered its steel *claw* into the scrap pile.
 
 ---
 
@@ -1700,31 +1868,53 @@ The long nose and jaws that stick out from an animal's face.
 ### muzzle
 
 **Pronunciation:** /ˈmʌzəl/ &middot; *MUZ-uhl*
-**Русский:** морда; намордник
+**Русский:** морда; намордник; дуло, срез ствола
 **Plural:** *muzzles*
 **Countability:** countable
 **Contrast:** Two meanings: the animal's own nose and mouth, and the strap you buckle over them.
 
-An animal's nose and mouth, or a strap that fits over them.
+Muzzle has 2 distinct senses.
+
+**1. An animal's nose and mouth, or a strap that fits over them.** (морда; намордник)
 
 1. The dog rested his *muzzle* on my knee.
 2. The horse's *muzzle* had gone gray with age.
 3. They put a *muzzle* on him at the vet.
+
+**2. The open front end of a gun barrel.** (дуло, срез ствола)
+
+4. Smoke curled from the *muzzle* of the rifle.
+5. Never point the *muzzle* at anyone.
+6. *Muzzle* velocity is measured in feet per second.
 
 ---
 
 ### horn
 
 **Pronunciation:** /hɔːrn/ &middot; *HORN*
-**Русский:** рог
+**Русский:** рог; клаксон, гудок; духовой инструмент (валторна, труба)
 **Plural:** *horns*
 **Countability:** countable
 
-A hard pointed growth on the head of cattle, goats, or sheep.
+Horn has 3 distinct senses.
+
+**1. A hard pointed growth on the head of cattle, goats, or sheep.** (рог)
 
 1. The goat caught its *horns* in the fence.
 2. A bull's *horns* curve forward.
 3. One *horn* had broken off years ago.
+
+**2. The device on a vehicle that makes a loud warning sound.** (клаксон, гудок)
+
+4. The driver behind me leaned on his *horn*.
+5. Somebody honked a *horn* under our window at midnight.
+6. My *horn* stopped working after the accident.
+
+**3. A brass musical instrument that you play by blowing into it.** (духовой инструмент (валторна, труба))
+
+7. He played *horn* in his high school band.
+8. The song opens with a blast of *horns*.
+9. She packed up her *horn* after the last set.
 
 ---
 

@@ -97,14 +97,43 @@
       "term": "peak",
       "ipa": "/piːk/",
       "respell": "PEEK",
-      "meaning": "The pointed top of a mountain. ---",
+      "meaning": "Peak has 2 distinct senses.",
       "examples": [
         "Three snowy peaks rise above the tree line.",
         "Clouds hid the peak all afternoon.",
-        "From here you can see the highest peak in the state."
+        "From here you can see the highest peak in the state.",
+        "Ticket sales hit their peak in early June.",
+        "At its peak, the company employed four thousand people.",
+        "Traffic reaches a peak right around five o'clock."
       ],
-      "senses": [],
-      "русский": "вершина, пик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pointed top of a mountain",
+          "body": [
+            "(вершина, пик)"
+          ],
+          "examples": [
+            "Three snowy peaks rise above the tree line.",
+            "Clouds hid the peak all afternoon.",
+            "From here you can see the highest peak in the state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The highest point or level that something reaches",
+          "body": [
+            "(пик, максимум)",
+            "---"
+          ],
+          "examples": [
+            "Ticket sales hit their peak in early June.",
+            "At its peak, the company employed four thousand people.",
+            "Traffic reaches a peak right around five o'clock."
+          ]
+        }
+      ],
+      "русский": "вершина, пик; пик, максимум",
       "plural": "peaks",
       "countability": "countable",
       "contrast": "Sounds exactly like peek (быстро взглянуть)."
@@ -113,14 +142,43 @@
       "term": "summit",
       "ipa": "/ˈsʌmɪt/",
       "respell": "SUM-it",
-      "meaning": "The highest point of a mountain. ---",
+      "meaning": "Summit has 2 distinct senses.",
       "examples": [
         "They reached the summit just after sunrise.",
         "The last mile to the summit is all loose rock.",
-        "Bad weather turned us back well below the summit."
+        "Bad weather turned us back well below the summit.",
+        "The two leaders met at a summit in Geneva.",
+        "Climate summits draw thousands of delegates.",
+        "Nothing was signed at the summit."
       ],
-      "senses": [],
-      "русский": "вершина (горы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The highest point of a mountain",
+          "body": [
+            "(вершина (горы))"
+          ],
+          "examples": [
+            "They reached the summit just after sunrise.",
+            "The last mile to the summit is all loose rock.",
+            "Bad weather turned us back well below the summit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A meeting between the leaders of governments or large organizations",
+          "body": [
+            "(саммит, встреча на высшем уровне)",
+            "---"
+          ],
+          "examples": [
+            "The two leaders met at a summit in Geneva.",
+            "Climate summits draw thousands of delegates.",
+            "Nothing was signed at the summit."
+          ]
+        }
+      ],
+      "русский": "вершина (горы); саммит, встреча на высшем уровне",
       "plural": "summits",
       "countability": "countable"
     },
@@ -128,14 +186,43 @@
       "term": "ridge",
       "ipa": "/rɪdʒ/",
       "respell": "RIJ",
-      "meaning": "A long, narrow strip of high land along the top of hills or mountains. ---",
+      "meaning": "Ridge has 2 distinct senses.",
       "examples": [
         "The trail follows the ridge for about four miles.",
         "The wind hits hard once you're up on the ridge.",
-        "A line of pines grows along the ridge."
+        "A line of pines grows along the ridge.",
+        "Snow slid off both sides of the roof ridge.",
+        "You can feel the ridges on a corduroy jacket.",
+        "The chip has ridges so it won't break in the dip."
       ],
-      "senses": [],
-      "русский": "хребет, гребень (горы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long, narrow strip of high land along the top of hills or mountains",
+          "body": [
+            "(хребет, гребень (горы))"
+          ],
+          "examples": [
+            "The trail follows the ridge for about four miles.",
+            "The wind hits hard once you're up on the ridge.",
+            "A line of pines grows along the ridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long raised line along the surface of something",
+          "body": [
+            "(выступ, ребро; конёк (крыши))",
+            "---"
+          ],
+          "examples": [
+            "Snow slid off both sides of the roof ridge.",
+            "You can feel the ridges on a corduroy jacket.",
+            "The chip has ridges so it won't break in the dip."
+          ]
+        }
+      ],
+      "русский": "хребет, гребень (горы); выступ, ребро; конёк (крыши)",
       "plural": "ridges",
       "countability": "countable"
     },
@@ -143,14 +230,43 @@
       "term": "slope",
       "ipa": "/sloʊp/",
       "respell": "SLOHP",
-      "meaning": "A surface of ground that goes up or down at an angle. ---",
+      "meaning": "Slope has 2 distinct senses.",
       "examples": [
         "Wildflowers cover the southern slope in June.",
         "The slope was too steep to drive up.",
-        "They planted grapes on the slopes above the lake."
+        "They planted grapes on the slopes above the lake.",
+        "Find the slope of the line through those two points.",
+        "A horizontal line has a slope of zero.",
+        "The two graphs have the same slope but different starting points."
       ],
-      "senses": [],
-      "русский": "склон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A surface of ground that goes up or down at an angle",
+          "body": [
+            "(склон)"
+          ],
+          "examples": [
+            "Wildflowers cover the southern slope in June.",
+            "The slope was too steep to drive up.",
+            "They planted grapes on the slopes above the lake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In math, a number showing how steeply a line rises or falls",
+          "body": [
+            "(угловой коэффициент (наклон прямой))",
+            "---"
+          ],
+          "examples": [
+            "Find the slope of the line through those two points.",
+            "A horizontal line has a slope of zero.",
+            "The two graphs have the same slope but different starting points."
+          ]
+        }
+      ],
+      "русский": "склон; угловой коэффициент (наклон прямой)",
       "plural": "slopes",
       "countability": "countable"
     },
@@ -158,14 +274,43 @@
       "term": "bluff",
       "ipa": "/blʌf/",
       "respell": "BLUF",
-      "meaning": "A steep cliff or bank, especially one above a river or the sea. ---",
+      "meaning": "Bluff has 2 distinct senses.",
       "examples": [
         "The old lighthouse stands on a bluff above the bay.",
         "Erosion has eaten away part of the bluff.",
-        "We watched the sunset from the bluffs."
+        "We watched the sunset from the bluffs.",
+        "His threat to quit was just a bluff.",
+        "She called his bluff and he backed down.",
+        "The whole demand turned out to be a bluff."
       ],
-      "senses": [],
-      "русский": "обрыв, крутой берег",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A steep cliff or bank, especially one above a river or the sea",
+          "body": [
+            "(обрыв, крутой берег)"
+          ],
+          "examples": [
+            "The old lighthouse stands on a bluff above the bay.",
+            "Erosion has eaten away part of the bluff.",
+            "We watched the sunset from the bluffs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An attempt to fool someone by pretending you will do something",
+          "body": [
+            "(блеф, обман)",
+            "---"
+          ],
+          "examples": [
+            "His threat to quit was just a bluff.",
+            "She called his bluff and he backed down.",
+            "The whole demand turned out to be a bluff."
+          ]
+        }
+      ],
+      "русский": "обрыв, крутой берег; блеф, обман",
       "plural": "bluffs",
       "countability": "countable"
     },
@@ -265,14 +410,88 @@
       "term": "range",
       "ipa": "/reɪndʒ/",
       "respell": "RAYNJ",
-      "meaning": "A line or group of mountains or hills. ---",
+      "meaning": "Range has 5 distinct senses.",
       "examples": [
         "The range runs north to south for three hundred miles.",
         "Snow stays on the higher ranges into July.",
-        "A storm was building over the coastal range."
+        "A storm was building over the coastal range.",
+        "Houses here are well out of our price range.",
+        "The store carries a wide range of hand tools.",
+        "The class covers a broad range of topics.",
+        "She cooks on a six-burner gas range.",
+        "The new range barely fit through the kitchen door.",
+        "Wipe down the range after you fry anything.",
+        "He spends Saturday mornings at the shooting range.",
+        "We hit a bucket of balls at the driving range.",
+        "The range is closed until the new backstop goes in.",
+        "The electric car has a range of about 250 miles.",
+        "The deer was well within range.",
+        "These little radios have a range of two miles."
       ],
-      "senses": [],
-      "русский": "горная цепь, хребет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line or group of mountains or hills",
+          "body": [
+            "(горная цепь, хребет)"
+          ],
+          "examples": [
+            "The range runs north to south for three hundred miles.",
+            "Snow stays on the higher ranges into July.",
+            "A storm was building over the coastal range."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The space between the lowest and highest amounts, or the whole set of things covered",
+          "body": [
+            "(диапазон; ассортимент, круг (вопросов))"
+          ],
+          "examples": [
+            "Houses here are well out of our price range.",
+            "The store carries a wide range of hand tools.",
+            "The class covers a broad range of topics."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large kitchen appliance with burners on top and an oven below",
+          "body": [
+            "(кухонная плита)"
+          ],
+          "examples": [
+            "She cooks on a six-burner gas range.",
+            "The new range barely fit through the kitchen door.",
+            "Wipe down the range after you fry anything."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An outdoor area set aside for shooting practice or for hitting golf balls",
+          "body": [
+            "(стрельбище; тренировочное поле для гольфа)"
+          ],
+          "examples": [
+            "He spends Saturday mornings at the shooting range.",
+            "We hit a bucket of balls at the driving range.",
+            "The range is closed until the new backstop goes in."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "The greatest distance something can travel or reach",
+          "body": [
+            "(дальность (хода, полёта, выстрела))",
+            "---"
+          ],
+          "examples": [
+            "The electric car has a range of about 250 miles.",
+            "The deer was well within range.",
+            "These little radios have a range of two miles."
+          ]
+        }
+      ],
+      "русский": "горная цепь, хребет; диапазон; ассортимент, круг (вопросов); кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)",
       "plural": "ranges",
       "countability": "countable"
     },
@@ -295,14 +514,73 @@
       "term": "ground",
       "ipa": "/ɡraʊnd/",
       "respell": "GROWND",
-      "meaning": "The solid surface of the earth that you walk on. ---",
+      "meaning": "Ground has 4 distinct senses.",
       "examples": [
         "The ground was still frozen in early April.",
         "He dropped his keys on the ground.",
-        "Roots spread out just under the ground."
+        "Roots spread out just under the ground.",
+        "Lying on the application is grounds for dismissal.",
+        "She had good grounds for the complaint.",
+        "On what grounds was the case thrown out?",
+        "Visitors are welcome to walk the hospital grounds.",
+        "The grounds stay open until sunset.",
+        "They held the wedding on the grounds of an old estate.",
+        "Dump the coffee grounds in the compost.",
+        "There were grounds at the bottom of my cup.",
+        "She spreads used grounds around the roses."
       ],
-      "senses": [],
-      "русский": "земля, поверхность земли",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The solid surface of the earth that you walk on",
+          "body": [
+            "(земля, поверхность земли)"
+          ],
+          "examples": [
+            "The ground was still frozen in early April.",
+            "He dropped his keys on the ground.",
+            "Roots spread out just under the ground."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A reason or basis for an action, a belief, or a decision",
+          "body": [
+            "(основание, причина, повод)"
+          ],
+          "examples": [
+            "Lying on the application is grounds for dismissal.",
+            "She had good grounds for the complaint.",
+            "On what grounds was the case thrown out?"
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The land and gardens that belong to a large building",
+          "body": [
+            "(территория вокруг здания, парк при усадьбе)"
+          ],
+          "examples": [
+            "Visitors are welcome to walk the hospital grounds.",
+            "The grounds stay open until sunset.",
+            "They held the wedding on the grounds of an old estate."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The wet bits of coffee left in the pot after brewing",
+          "body": [
+            "(кофейная гуща)",
+            "---"
+          ],
+          "examples": [
+            "Dump the coffee grounds in the compost.",
+            "There were grounds at the bottom of my cup.",
+            "She spreads used grounds around the roses."
+          ]
+        }
+      ],
+      "русский": "земля, поверхность земли; основание, причина, повод; территория вокруг здания, парк при усадьбе; кофейная гуща",
       "countability": "uncountable"
     },
     {
@@ -352,14 +630,58 @@
       "term": "land",
       "ipa": "/lænd/",
       "respell": "LAND",
-      "meaning": "The solid part of the earth's surface, as opposed to the sea. ---",
+      "meaning": "Land has 3 distinct senses.",
       "examples": [
         "After six weeks at sea they finally sighted land.",
         "His family has farmed this land for a century.",
-        "Most of the land east of the river is protected."
+        "Most of the land east of the river is protected.",
+        "They bought forty acres of land outside town.",
+        "His family has farmed this land for a century.",
+        "The company owns land on both sides of the river.",
+        "America is still called a land of opportunity.",
+        "The story is set in a distant land.",
+        "Her grandparents came from a land she has never seen."
       ],
-      "senses": [],
-      "русский": "земля, суша",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The solid part of the earth's surface, as opposed to the sea",
+          "body": [
+            "(земля, суша)"
+          ],
+          "examples": [
+            "After six weeks at sea they finally sighted land.",
+            "His family has farmed this land for a century.",
+            "Most of the land east of the river is protected."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Ground that someone owns, farms, or builds on",
+          "body": [
+            "(земля, земельный участок)"
+          ],
+          "examples": [
+            "They bought forty acres of land outside town.",
+            "His family has farmed this land for a century.",
+            "The company owns land on both sides of the river."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A country or region",
+          "body": [
+            "(страна, край)",
+            "---"
+          ],
+          "examples": [
+            "America is still called a land of opportunity.",
+            "The story is set in a distant land.",
+            "Her grandparents came from a land she has never seen."
+          ]
+        }
+      ],
+      "русский": "земля, суша; земля, земельный участок; страна, край",
       "countability": "uncountable"
     },
     {
@@ -396,28 +718,86 @@
       "term": "scenery",
       "ipa": "/ˈsiːnəri/",
       "respell": "SEE-nuh-ree",
-      "meaning": "The natural features of an area, especially when they are beautiful. ---",
+      "meaning": "Scenery has 2 distinct senses.",
       "examples": [
         "The drive is slow, but the scenery is worth it.",
         "We kept stopping to take pictures of the scenery.",
-        "You get better scenery on the north side of the lake."
+        "You get better scenery on the north side of the lake.",
+        "Volunteers spent the weekend painting scenery.",
+        "The scenery for the second act rolls on from the wings.",
+        "They store the old scenery in a warehouse behind the theater."
       ],
-      "senses": [],
-      "русский": "пейзаж, живописные виды",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The natural features of an area, especially when they are beautiful",
+          "body": [
+            "(пейзаж, живописные виды)"
+          ],
+          "examples": [
+            "The drive is slow, but the scenery is worth it.",
+            "We kept stopping to take pictures of the scenery.",
+            "You get better scenery on the north side of the lake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The painted backgrounds and structures used on a theater stage",
+          "body": [
+            "(декорации)",
+            "---"
+          ],
+          "examples": [
+            "Volunteers spent the weekend painting scenery.",
+            "The scenery for the second act rolls on from the wings.",
+            "They store the old scenery in a warehouse behind the theater."
+          ]
+        }
+      ],
+      "русский": "пейзаж, живописные виды; декорации",
       "countability": "uncountable"
     },
     {
       "term": "horizon",
       "ipa": "/həˈraɪzən/",
       "respell": "huh-RY-zuhn",
-      "meaning": "The line where the land or sea seems to meet the sky. ---",
+      "meaning": "Horizon has 2 distinct senses.",
       "examples": [
         "A ship appeared on the horizon just before dark.",
         "The sun was already below the horizon.",
-        "You can see storms coming from miles off on a flat horizon."
+        "You can see storms coming from miles off on a flat horizon.",
+        "Travel broadened her horizons.",
+        "A year abroad will widen your horizons.",
+        "The new job opened up horizons he had never considered."
       ],
-      "senses": [],
-      "русский": "горизонт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The line where the land or sea seems to meet the sky",
+          "body": [
+            "(горизонт)"
+          ],
+          "examples": [
+            "A ship appeared on the horizon just before dark.",
+            "The sun was already below the horizon.",
+            "You can see storms coming from miles off on a flat horizon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The range of a person's knowledge, interests, and experience",
+          "body": [
+            "(кругозор, горизонты)",
+            "---"
+          ],
+          "examples": [
+            "Travel broadened her horizons.",
+            "A year abroad will widen your horizons.",
+            "The new job opened up horizons he had never considered."
+          ]
+        }
+      ],
+      "русский": "горизонт; кругозор, горизонты",
       "plural": "horizons",
       "countability": "countable",
       "contrast": "Stressed on the second syllable: huh-RY-zuhn, not HOR-ih-zuhn."
@@ -518,14 +898,88 @@
       "term": "field",
       "ipa": "/fiːld/",
       "respell": "FEELD",
-      "meaning": "An open piece of land, usually used for growing crops or keeping animals. ---",
+      "meaning": "Field has 5 distinct senses.",
       "examples": [
         "The field behind the barn is planted in soybeans.",
         "Cows were standing in the far field.",
-        "We cut through a field to get back to the road."
+        "We cut through a field to get back to the road.",
+        "She's a leading expert in her field.",
+        "The conference brings together people from several fields.",
+        "He left law for a field with better hours.",
+        "The team took the field to a roar from the crowd.",
+        "Rain left the field too muddy to play on.",
+        "The high school built two new soccer fields.",
+        "Fill in every required field before you hit submit.",
+        "Leave the middle name field blank.",
+        "The database has separate fields for phone and email.",
+        "Iron filings show the shape of a magnetic field.",
+        "The satellite measures the earth's gravitational field.",
+        "Strong magnetic fields can wipe a hotel key card."
       ],
-      "senses": [],
-      "русский": "поле",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open piece of land, usually used for growing crops or keeping animals",
+          "body": [
+            "(поле)"
+          ],
+          "examples": [
+            "The field behind the barn is planted in soybeans.",
+            "Cows were standing in the far field.",
+            "We cut through a field to get back to the road."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A subject or area of work that someone specializes in",
+          "body": [
+            "(область, сфера деятельности)"
+          ],
+          "examples": [
+            "She's a leading expert in her field.",
+            "The conference brings together people from several fields.",
+            "He left law for a field with better hours."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A marked area of ground where a sport is played",
+          "body": [
+            "(поле, площадка (спортивная))"
+          ],
+          "examples": [
+            "The team took the field to a roar from the crowd.",
+            "Rain left the field too muddy to play on.",
+            "The high school built two new soccer fields."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A space on a form or screen where you type one piece of information",
+          "body": [
+            "(поле (в форме, базе данных))"
+          ],
+          "examples": [
+            "Fill in every required field before you hit submit.",
+            "Leave the middle name field blank.",
+            "The database has separate fields for phone and email."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "The area in which a force such as magnetism or gravity acts",
+          "body": [
+            "(поле (магнитное, гравитационное))",
+            "---"
+          ],
+          "examples": [
+            "Iron filings show the shape of a magnetic field.",
+            "The satellite measures the earth's gravitational field.",
+            "Strong magnetic fields can wipe a hotel key card."
+          ]
+        }
+      ],
+      "русский": "поле; область, сфера деятельности; поле, площадка (спортивная); поле (в форме, базе данных); поле (магнитное, гравитационное)",
       "plural": "fields",
       "countability": "countable"
     },
@@ -625,14 +1079,43 @@
       "term": "jungle",
       "ipa": "/ˈdʒʌŋɡəl/",
       "respell": "JUNG-guhl",
-      "meaning": "A thick tropical forest with dense plants growing close together. ---",
+      "meaning": "Jungle has 2 distinct senses.",
       "examples": [
         "The village is a two-day walk into the jungle.",
         "Everything in the jungle was wet and green.",
-        "They cleared a strip of jungle for a landing strip."
+        "They cleared a strip of jungle for a landing strip.",
+        "The tax code is a jungle.",
+        "Her desk is a jungle of cords and paper.",
+        "Getting a permit means fighting through a jungle of forms."
       ],
-      "senses": [],
-      "русский": "джунгли",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick tropical forest with dense plants growing close together",
+          "body": [
+            "(джунгли)"
+          ],
+          "examples": [
+            "The village is a two-day walk into the jungle.",
+            "Everything in the jungle was wet and green.",
+            "They cleared a strip of jungle for a landing strip."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A confusing tangle of things that is hard to find your way through",
+          "body": [
+            "(джунгли (перен.), дебри, путаница)",
+            "---"
+          ],
+          "examples": [
+            "The tax code is a jungle.",
+            "Her desk is a jungle of cords and paper.",
+            "Getting a permit means fighting through a jungle of forms."
+          ]
+        }
+      ],
+      "русский": "джунгли; джунгли (перен.), дебри, путаница",
       "plural": "jungles",
       "countability": "countable"
     },
@@ -744,14 +1227,43 @@
       "term": "trail",
       "ipa": "/treɪl/",
       "respell": "TRAYL",
-      "meaning": "A rough path through the countryside or the woods. ---",
+      "meaning": "Trail has 2 distinct senses.",
       "examples": [
         "The trail to the falls is about two miles.",
         "Bikes aren't allowed on this trail.",
-        "Several trails start from the same parking lot."
+        "Several trails start from the same parking lot.",
+        "The dog picked up the trail near the creek.",
+        "He left a trail of muddy footprints down the hall.",
+        "Investigators followed a paper trail to the account."
       ],
-      "senses": [],
-      "русский": "тропа, тропинка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rough path through the countryside or the woods",
+          "body": [
+            "(тропа, тропинка)"
+          ],
+          "examples": [
+            "The trail to the falls is about two miles.",
+            "Bikes aren't allowed on this trail.",
+            "Several trails start from the same parking lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A line of marks, smells, or objects left behind that can be followed",
+          "body": [
+            "(след (по которому идут))",
+            "---"
+          ],
+          "examples": [
+            "The dog picked up the trail near the creek.",
+            "He left a trail of muddy footprints down the hall.",
+            "Investigators followed a paper trail to the account."
+          ]
+        }
+      ],
+      "русский": "тропа, тропинка; след (по которому идут)",
       "plural": "trails",
       "countability": "countable"
     },
@@ -759,14 +1271,43 @@
       "term": "sea",
       "ipa": "/siː/",
       "respell": "SEE",
-      "meaning": "A large area of salt water, smaller than an ocean. ---",
+      "meaning": "Sea has 2 distinct senses.",
       "examples": [
         "The sea was rough all week.",
         "Their house looks out over the sea.",
-        "He spent thirty years at sea."
+        "He spent thirty years at sea.",
+        "He looked out from the stage at a sea of faces.",
+        "The parking lot was a sea of red taillights.",
+        "We waded through a sea of paperwork to get the permit."
       ],
-      "senses": [],
-      "русский": "море",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large area of salt water, smaller than an ocean",
+          "body": [
+            "(море)"
+          ],
+          "examples": [
+            "The sea was rough all week.",
+            "Their house looks out over the sea.",
+            "He spent thirty years at sea."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very large quantity of something spread out in front of you",
+          "body": [
+            "(море (перен.), масса)",
+            "---"
+          ],
+          "examples": [
+            "He looked out from the stage at a sea of faces.",
+            "The parking lot was a sea of red taillights.",
+            "We waded through a sea of paperwork to get the permit."
+          ]
+        }
+      ],
+      "русский": "море; море (перен.), масса",
       "plural": "seas",
       "countability": "countable",
       "contrast": "Sounds exactly like see (видеть)."
@@ -835,14 +1376,58 @@
       "term": "stream",
       "ipa": "/striːm/",
       "respell": "STREEM",
-      "meaning": "A small, narrow river. ---",
+      "meaning": "Stream has 3 distinct senses.",
       "examples": [
         "A cold stream runs behind the cabin.",
         "We crossed three streams on the way up.",
-        "The stream dries up completely by August."
+        "The stream dries up completely by August.",
+        "A steady stream of customers came through the door.",
+        "There was an endless stream of cars on the highway.",
+        "The office got a stream of complaints all week.",
+        "Thousands watched the stream of the concert.",
+        "The stream kept freezing during the game.",
+        "He starts his stream around eight every night."
       ],
-      "senses": [],
-      "русский": "ручей, поток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small, narrow river",
+          "body": [
+            "(ручей, поток)"
+          ],
+          "examples": [
+            "A cold stream runs behind the cabin.",
+            "We crossed three streams on the way up.",
+            "The stream dries up completely by August."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A steady flow of people, vehicles, or things",
+          "body": [
+            "(поток)"
+          ],
+          "examples": [
+            "A steady stream of customers came through the door.",
+            "There was an endless stream of cars on the highway.",
+            "The office got a stream of complaints all week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A live video or audio broadcast sent over the internet",
+          "body": [
+            "(трансляция, стрим)",
+            "---"
+          ],
+          "examples": [
+            "Thousands watched the stream of the concert.",
+            "The stream kept freezing during the game.",
+            "He starts his stream around eight every night."
+          ]
+        }
+      ],
+      "русский": "ручей, поток; поток; трансляция, стрим",
       "plural": "streams",
       "countability": "countable"
     },
@@ -912,14 +1497,43 @@
       "term": "canal",
       "ipa": "/kəˈnæl/",
       "respell": "kuh-NAL",
-      "meaning": "A long, narrow channel dug to carry water or boats. ---",
+      "meaning": "Canal has 2 distinct senses.",
       "examples": [
         "Barges still move grain along the canal.",
         "The canal was drained for repairs.",
-        "A network of canals irrigates the whole valley."
+        "A network of canals irrigates the whole valley.",
+        "The dentist says I need a root canal.",
+        "Water got trapped in my ear canal after swimming.",
+        "A tiny canal drains tears from the eye into the nose."
       ],
-      "senses": [],
-      "русский": "канал (искусственный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long, narrow channel dug to carry water or boats",
+          "body": [
+            "(канал (искусственный))"
+          ],
+          "examples": [
+            "Barges still move grain along the canal.",
+            "The canal was drained for repairs.",
+            "A network of canals irrigates the whole valley."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A narrow tube or passage inside the body",
+          "body": [
+            "(канал (в теле), проход)",
+            "---"
+          ],
+          "examples": [
+            "The dentist says I need a root canal.",
+            "Water got trapped in my ear canal after swimming.",
+            "A tiny canal drains tears from the eye into the nose."
+          ]
+        }
+      ],
+      "русский": "канал (искусственный); канал (в теле), проход",
       "plural": "canals",
       "countability": "countable"
     },
@@ -943,14 +1557,43 @@
       "term": "basin",
       "ipa": "/ˈbeɪsən/",
       "respell": "BAY-suhn",
-      "meaning": "The whole area of land that drains into a particular river, or a wide hollow in the land. ---",
+      "meaning": "Basin has 2 distinct senses.",
       "examples": [
         "Snowmelt from the whole basin feeds this river.",
         "The town sits in a shallow basin between two ridges.",
-        "Rainfall across the basin has dropped five years running."
+        "Rainfall across the basin has dropped five years running.",
+        "She filled a basin with warm water.",
+        "The nurse set a basin beside the bed.",
+        "He rinsed the brushes in a shallow basin."
       ],
-      "senses": [],
-      "русский": "бассейн (реки), котловина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The whole area of land that drains into a particular river, or a wide hollow in the land",
+          "body": [
+            "(бассейн (реки), котловина)"
+          ],
+          "examples": [
+            "Snowmelt from the whole basin feeds this river.",
+            "The town sits in a shallow basin between two ridges.",
+            "Rainfall across the basin has dropped five years running."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wide round bowl used for holding water",
+          "body": [
+            "(таз, миска для воды)",
+            "---"
+          ],
+          "examples": [
+            "She filled a basin with warm water.",
+            "The nurse set a basin beside the bed.",
+            "He rinsed the brushes in a shallow basin."
+          ]
+        }
+      ],
+      "русский": "бассейн (реки), котловина; таз, миска для воды",
       "plural": "basins",
       "countability": "countable"
     },
@@ -1004,14 +1647,43 @@
       "term": "bay",
       "ipa": "/beɪ/",
       "respell": "BAY",
-      "meaning": "A part of the sea or a lake that curves into the land. ---",
+      "meaning": "Bay has 2 distinct senses.",
       "examples": [
         "Sailboats filled the bay all weekend.",
         "Fog rolls in across the bay most evenings.",
-        "Small bays along this coast make good anchorages."
+        "Small bays along this coast make good anchorages.",
+        "The truck backed up to the loading bay.",
+        "All three service bays at the garage were full.",
+        "The injured sailor was carried down to the sick bay."
       ],
-      "senses": [],
-      "русский": "залив, бухта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A part of the sea or a lake that curves into the land",
+          "body": [
+            "(залив, бухта)"
+          ],
+          "examples": [
+            "Sailboats filled the bay all weekend.",
+            "Fog rolls in across the bay most evenings.",
+            "Small bays along this coast make good anchorages."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A separate section or compartment of a building, ship, or vehicle",
+          "body": [
+            "(отсек, бокс (помещения))",
+            "---"
+          ],
+          "examples": [
+            "The truck backed up to the loading bay.",
+            "All three service bays at the garage were full.",
+            "The injured sailor was carried down to the sick bay."
+          ]
+        }
+      ],
+      "русский": "залив, бухта; отсек, бокс (помещения)",
       "plural": "bays",
       "countability": "countable"
     },
@@ -1034,14 +1706,43 @@
       "term": "inlet",
       "ipa": "/ˈɪnlɛt/",
       "respell": "IN-let",
-      "meaning": "A narrow strip of water reaching from the sea into the land. ---",
+      "meaning": "Inlet has 2 distinct senses.",
       "examples": [
         "An inlet cuts a mile inland from the harbor.",
         "Fishing boats tie up in the inlet.",
-        "The tide runs fast through the narrow inlet."
+        "The tide runs fast through the narrow inlet.",
+        "Check that the water inlet isn't clogged.",
+        "Cold air is drawn in through the inlet on the side.",
+        "The pump has an inlet at the bottom and an outlet on top."
       ],
-      "senses": [],
-      "русский": "узкий залив, бухта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow strip of water reaching from the sea into the land",
+          "body": [
+            "(узкий залив, бухта)"
+          ],
+          "examples": [
+            "An inlet cuts a mile inland from the harbor.",
+            "Fishing boats tie up in the inlet.",
+            "The tide runs fast through the narrow inlet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An opening through which liquid or air enters a machine",
+          "body": [
+            "(впускное отверстие, впуск)",
+            "---"
+          ],
+          "examples": [
+            "Check that the water inlet isn't clogged.",
+            "Cold air is drawn in through the inlet on the side.",
+            "The pump has an inlet at the bottom and an outlet on top."
+          ]
+        }
+      ],
+      "русский": "узкий залив, бухта; впускное отверстие, впуск",
       "plural": "inlets",
       "countability": "countable"
     },
@@ -1232,14 +1933,58 @@
       "term": "channel",
       "ipa": "/ˈtʃænəl/",
       "respell": "CHAN-uhl",
-      "meaning": "A narrow stretch of water between two seas, or the deeper part of a river where boats pass. ---",
+      "meaning": "Channel has 3 distinct senses.",
       "examples": [
         "The ferry crosses the channel in about an hour.",
         "Dredgers keep the shipping channel open.",
-        "Storms have shifted the channel twice in ten years."
+        "Storms have shifted the channel twice in ten years.",
+        "What channel is the game on?",
+        "He flipped through the channels twice and gave up.",
+        "The news channel has run the same story all day.",
+        "Complaints have to go through the proper channels.",
+        "The company sells through three different channels.",
+        "We heard about it through unofficial channels."
       ],
-      "senses": [],
-      "русский": "пролив; русло, фарватер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow stretch of water between two seas, or the deeper part of a river where boats pass",
+          "body": [
+            "(пролив; русло, фарватер)"
+          ],
+          "examples": [
+            "The ferry crosses the channel in about an hour.",
+            "Dredgers keep the shipping channel open.",
+            "Storms have shifted the channel twice in ten years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A television or radio station, and the number you tune to for it",
+          "body": [
+            "(телеканал)"
+          ],
+          "examples": [
+            "What channel is the game on?",
+            "He flipped through the channels twice and gave up.",
+            "The news channel has run the same story all day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An official route through which information, money, or goods pass",
+          "body": [
+            "(канал (связи, сбыта))",
+            "---"
+          ],
+          "examples": [
+            "Complaints have to go through the proper channels.",
+            "The company sells through three different channels.",
+            "We heard about it through unofficial channels."
+          ]
+        }
+      ],
+      "русский": "пролив; русло, фарватер; телеканал; канал (связи, сбыта)",
       "plural": "channels",
       "countability": "countable"
     },
@@ -1247,14 +1992,43 @@
       "term": "tide",
       "ipa": "/taɪd/",
       "respell": "TYD",
-      "meaning": "The regular rise and fall of the sea during the day. ---",
+      "meaning": "Tide has 2 distinct senses.",
       "examples": [
         "The tide comes in fast here, so watch your gear.",
         "We launched the boat at high tide.",
-        "The tides are strongest around a full moon."
+        "The tides are strongest around a full moon.",
+        "The tide of public opinion turned against the war.",
+        "Two early wins turned the tide for the team.",
+        "He was swimming against the tide of company policy."
       ],
-      "senses": [],
-      "русский": "прилив и отлив",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The regular rise and fall of the sea during the day",
+          "body": [
+            "(прилив и отлив)"
+          ],
+          "examples": [
+            "The tide comes in fast here, so watch your gear.",
+            "We launched the boat at high tide.",
+            "The tides are strongest around a full moon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The general direction in which opinion or events are moving",
+          "body": [
+            "(тенденция, ход (событий, настроений))",
+            "---"
+          ],
+          "examples": [
+            "The tide of public opinion turned against the war.",
+            "Two early wins turned the tide for the team.",
+            "He was swimming against the tide of company policy."
+          ]
+        }
+      ],
+      "русский": "прилив и отлив; тенденция, ход (событий, настроений)",
       "plural": "tides",
       "countability": "countable",
       "contrast": "Sounds exactly like tied (связанный)."
@@ -1263,14 +2037,73 @@
       "term": "wave",
       "ipa": "/weɪv/",
       "respell": "WAYV",
-      "meaning": "A raised line of water moving across the surface of the sea. ---",
+      "meaning": "Wave has 4 distinct senses.",
       "examples": [
         "Waves were breaking over the seawall.",
         "One wave knocked him right off the board.",
-        "The waves are usually flat in the morning."
+        "The waves are usually flat in the morning.",
+        "She gave us a quick wave from the car.",
+        "He said goodbye with a wave and walked off.",
+        "A friendly wave from a neighbor made her whole day.",
+        "A wave of layoffs hit the whole industry.",
+        "The city is bracing for another heat wave.",
+        "Waves of protesters filled the square.",
+        "Sound waves travel faster through water than through air.",
+        "Radio waves carry the signal to the tower.",
+        "Doctors use sound waves to look at the baby."
       ],
-      "senses": [],
-      "русский": "волна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A raised line of water moving across the surface of the sea",
+          "body": [
+            "(волна)"
+          ],
+          "examples": [
+            "Waves were breaking over the seawall.",
+            "One wave knocked him right off the board.",
+            "The waves are usually flat in the morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A movement of the raised hand used to greet someone or say goodbye",
+          "body": [
+            "(взмах руки, приветственный жест)"
+          ],
+          "examples": [
+            "She gave us a quick wave from the car.",
+            "He said goodbye with a wave and walked off.",
+            "A friendly wave from a neighbor made her whole day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sudden increase in something that spreads through a place or a group",
+          "body": [
+            "(волна, всплеск (событий, явлений))"
+          ],
+          "examples": [
+            "A wave of layoffs hit the whole industry.",
+            "The city is bracing for another heat wave.",
+            "Waves of protesters filled the square."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A form in which energy such as sound, light, or a radio signal travels",
+          "body": [
+            "(волна (звуковая, световая, радиоволна))",
+            "---"
+          ],
+          "examples": [
+            "Sound waves travel faster through water than through air.",
+            "Radio waves carry the signal to the tower.",
+            "Doctors use sound waves to look at the baby."
+          ]
+        }
+      ],
+      "русский": "волна; взмах руки, приветственный жест; волна, всплеск (событий, явлений); волна (звуковая, световая, радиоволна)",
       "plural": "waves",
       "countability": "countable"
     },
@@ -1278,14 +2111,43 @@
       "term": "current",
       "ipa": "/ˈkɜːrənt/",
       "respell": "KUR-uhnt",
-      "meaning": "A steady flow of water moving in one direction in a river or the sea. ---",
+      "meaning": "Current has 2 distinct senses.",
       "examples": [
         "The current is strong in the middle of the river.",
         "Swimmers get pulled out by the current every summer.",
-        "Warm ocean currents keep this coast mild."
+        "Warm ocean currents keep this coast mild.",
+        "Shut off the breaker so there's no current in the wire.",
+        "The device draws very little current.",
+        "A loose connection can interrupt the current."
       ],
-      "senses": [],
-      "русский": "течение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A steady flow of water moving in one direction in a river or the sea",
+          "body": [
+            "(течение)"
+          ],
+          "examples": [
+            "The current is strong in the middle of the river.",
+            "Swimmers get pulled out by the current every summer.",
+            "Warm ocean currents keep this coast mild."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flow of electricity through a wire",
+          "body": [
+            "(электрический ток)",
+            "---"
+          ],
+          "examples": [
+            "Shut off the breaker so there's no current in the wire.",
+            "The device draws very little current.",
+            "A loose connection can interrupt the current."
+          ]
+        }
+      ],
+      "русский": "течение; электрический ток",
       "plural": "currents",
       "countability": "countable",
       "contrast": "Sounds exactly like currant (смородина)."
@@ -1324,14 +2186,58 @@
       "term": "shell",
       "ipa": "/ʃɛl/",
       "respell": "SHEL",
-      "meaning": "The hard outer covering of a sea creature such as a clam or a snail. ---",
+      "meaning": "Shell has 3 distinct senses.",
       "examples": [
         "She collected shells along the waterline.",
         "A crab was living in an empty shell.",
-        "The beach is covered in broken shells."
+        "The beach is covered in broken shells.",
+        "Shells landed on the far side of the river all night.",
+        "A shell took out the top floor of the building.",
+        "The museum has an unexploded shell from the war.",
+        "Only the brick shell of the factory is left.",
+        "The fire left a blackened shell where the store had been.",
+        "They built a new house inside the old shell."
       ],
-      "senses": [],
-      "русский": "раковина, ракушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard outer covering of a sea creature such as a clam or a snail",
+          "body": [
+            "(раковина, ракушка)"
+          ],
+          "examples": [
+            "She collected shells along the waterline.",
+            "A crab was living in an empty shell.",
+            "The beach is covered in broken shells."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large explosive projectile fired from a big gun",
+          "body": [
+            "(снаряд)"
+          ],
+          "examples": [
+            "Shells landed on the far side of the river all night.",
+            "A shell took out the top floor of the building.",
+            "The museum has an unexploded shell from the war."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The outer walls of a building left standing after fire or ruin",
+          "body": [
+            "(остов, коробка (здания))",
+            "---"
+          ],
+          "examples": [
+            "Only the brick shell of the factory is left.",
+            "The fire left a blackened shell where the store had been.",
+            "They built a new house inside the old shell."
+          ]
+        }
+      ],
+      "русский": "раковина, ракушка; снаряд; остов, коробка (здания)",
       "plural": "shells",
       "countability": "countable"
     },
@@ -1445,14 +2351,58 @@
       "term": "island",
       "ipa": "/ˈaɪlənd/",
       "respell": "Y-luhnd",
-      "meaning": "A piece of land completely surrounded by water. ---",
+      "meaning": "Island has 3 distinct senses.",
       "examples": [
         "The island is a forty-minute ferry ride from the mainland.",
         "There are hundreds of small islands in the bay.",
-        "Only twelve people live on the island year-round."
+        "Only twelve people live on the island year-round.",
+        "Wait on the island until the light changes.",
+        "The truck jumped the curb and hit the concrete island.",
+        "A row of shrubs runs down the island between the lanes.",
+        "The kids do their homework at the kitchen island.",
+        "We put the sink in the island.",
+        "There are four stools along one side of the island."
       ],
-      "senses": [],
-      "русский": "остров",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of land completely surrounded by water",
+          "body": [
+            "(остров)"
+          ],
+          "examples": [
+            "The island is a forty-minute ferry ride from the mainland.",
+            "There are hundreds of small islands in the bay.",
+            "Only twelve people live on the island year-round."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A raised area in the middle of a road that divides the lanes or shelters people crossing",
+          "body": [
+            "(островок безопасности, разделительный островок)"
+          ],
+          "examples": [
+            "Wait on the island until the light changes.",
+            "The truck jumped the curb and hit the concrete island.",
+            "A row of shrubs runs down the island between the lanes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A freestanding counter unit standing in the middle of a kitchen",
+          "body": [
+            "(кухонный остров)",
+            "---"
+          ],
+          "examples": [
+            "The kids do their homework at the kitchen island.",
+            "We put the sink in the island.",
+            "There are four stools along one side of the island."
+          ]
+        }
+      ],
+      "русский": "остров; островок безопасности, разделительный островок; кухонный остров",
       "plural": "islands",
       "countability": "countable",
       "contrast": "The s is silent: Y-luhnd."
@@ -1506,14 +2456,58 @@
       "term": "pole",
       "ipa": "/poʊl/",
       "respell": "POHL",
-      "meaning": "Either of the two points at the very top and bottom of the earth. ---",
+      "meaning": "Pole has 3 distinct senses.",
       "examples": [
         "Ice is melting at both poles.",
         "The expedition reached the pole in January.",
-        "A compass needle points toward the magnetic pole."
+        "A compass needle points toward the magnetic pole.",
+        "A crew was replacing a rotten telephone pole.",
+        "He hung the flag from a pole on the porch.",
+        "Two tent poles snapped in the wind.",
+        "Two magnets snap together unless you turn one pole around.",
+        "Attach the red clamp to the positive pole of the battery.",
+        "Opposite poles attract each other."
       ],
-      "senses": [],
-      "русский": "полюс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two points at the very top and bottom of the earth",
+          "body": [
+            "(полюс)"
+          ],
+          "examples": [
+            "Ice is melting at both poles.",
+            "The expedition reached the pole in January.",
+            "A compass needle points toward the magnetic pole."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long slender rod of wood or metal, usually standing upright",
+          "body": [
+            "(шест, столб)"
+          ],
+          "examples": [
+            "A crew was replacing a rotten telephone pole.",
+            "He hung the flag from a pole on the porch.",
+            "Two tent poles snapped in the wind."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Either end of a magnet or battery, where the force is concentrated",
+          "body": [
+            "(полюс (магнита, батареи))",
+            "---"
+          ],
+          "examples": [
+            "Two magnets snap together unless you turn one pole around.",
+            "Attach the red clamp to the positive pole of the battery.",
+            "Opposite poles attract each other."
+          ]
+        }
+      ],
+      "русский": "полюс; шест, столб; полюс (магнита, батареи)",
       "plural": "poles",
       "countability": "countable",
       "contrast": "Sounds exactly like poll (опрос)."
@@ -1537,14 +2531,43 @@
       "term": "border",
       "ipa": "/ˈbɔːrdər/",
       "respell": "BOR-dur",
-      "meaning": "The line separating two countries, states, or areas. ---",
+      "meaning": "Border has 2 distinct senses.",
       "examples": [
         "The river forms the border between the two states.",
         "We crossed the border around midnight.",
-        "Both borders run through heavy forest."
+        "Both borders run through heavy forest.",
+        "The tablecloth has a red border stitched along the edge.",
+        "She picked wallpaper with a floral border near the ceiling.",
+        "Photos printed with white borders look old-fashioned now."
       ],
-      "senses": [],
-      "русский": "граница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The line separating two countries, states, or areas",
+          "body": [
+            "(граница)"
+          ],
+          "examples": [
+            "The river forms the border between the two states.",
+            "We crossed the border around midnight.",
+            "Both borders run through heavy forest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A decorative strip or band running along the edge of something",
+          "body": [
+            "(кайма, бордюр)",
+            "---"
+          ],
+          "examples": [
+            "The tablecloth has a red border stitched along the edge.",
+            "She picked wallpaper with a floral border near the ceiling.",
+            "Photos printed with white borders look old-fashioned now."
+          ]
+        }
+      ],
+      "русский": "граница; кайма, бордюр",
       "plural": "borders",
       "countability": "countable"
     },
@@ -1552,14 +2575,43 @@
       "term": "nature",
       "ipa": "/ˈneɪtʃər/",
       "respell": "NAY-chur",
-      "meaning": "The physical world of plants, animals, and landscapes, apart from people. ---",
+      "meaning": "Nature has 2 distinct senses.",
       "examples": [
         "He'd rather spend a weekend out in nature than in a city.",
         "Nature takes an abandoned field back within a few years.",
-        "Kids need more time outdoors in nature."
+        "Kids need more time outdoors in nature.",
+        "It isn't in his nature to hold a grudge.",
+        "The nature of the job changed completely after the merger.",
+        "Cats are curious by nature."
       ],
-      "senses": [],
-      "русский": "природа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The physical world of plants, animals, and landscapes, apart from people",
+          "body": [
+            "(природа)"
+          ],
+          "examples": [
+            "He'd rather spend a weekend out in nature than in a city.",
+            "Nature takes an abandoned field back within a few years.",
+            "Kids need more time outdoors in nature."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The basic character or qualities of a person or thing",
+          "body": [
+            "(характер, натура; сущность)",
+            "---"
+          ],
+          "examples": [
+            "It isn't in his nature to hold a grudge.",
+            "The nature of the job changed completely after the merger.",
+            "Cats are curious by nature."
+          ]
+        }
+      ],
+      "русский": "природа; характер, натура; сущность",
       "countability": "uncountable"
     },
     {
@@ -1669,14 +2721,43 @@
       "term": "flood",
       "ipa": "/flʌd/",
       "respell": "FLUD",
-      "meaning": "A large amount of water covering land that is usually dry. ---",
+      "meaning": "Flood has 2 distinct senses.",
       "examples": [
         "The flood reached the second floor of some houses.",
         "Spring floods are normal along this river.",
-        "Flood damage ran into the millions."
+        "Flood damage ran into the millions.",
+        "The station got a flood of calls after the story aired.",
+        "A flood of applications came in overnight.",
+        "She faced floods of questions from reporters."
       ],
-      "senses": [],
-      "русский": "наводнение, паводок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large amount of water covering land that is usually dry",
+          "body": [
+            "(наводнение, паводок)"
+          ],
+          "examples": [
+            "The flood reached the second floor of some houses.",
+            "Spring floods are normal along this river.",
+            "Flood damage ran into the millions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very large number of things arriving at the same time",
+          "body": [
+            "(поток, лавина (звонков, писем))",
+            "---"
+          ],
+          "examples": [
+            "The station got a flood of calls after the story aired.",
+            "A flood of applications came in overnight.",
+            "She faced floods of questions from reporters."
+          ]
+        }
+      ],
+      "русский": "наводнение, паводок; поток, лавина (звонков, писем)",
       "plural": "floods",
       "countability": "countable",
       "contrast": "The oo is /ʌ/ as in blood: FLUD, not FLOOD."
@@ -1685,14 +2766,43 @@
       "term": "drought",
       "ipa": "/draʊt/",
       "respell": "DROWT",
-      "meaning": "A long period with little or no rain. ---",
+      "meaning": "Drought has 2 distinct senses.",
       "examples": [
         "The drought has lasted three summers now.",
         "Reservoirs are low after a year of drought.",
-        "Farmers lost most of the crop to the drought."
+        "Farmers lost most of the crop to the drought.",
+        "The team ended a nine-game scoring drought.",
+        "It's been a drought of good news around here.",
+        "The studio is coming off a two-year drought of hits."
       ],
-      "senses": [],
-      "русский": "засуха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long period with little or no rain",
+          "body": [
+            "(засуха)"
+          ],
+          "examples": [
+            "The drought has lasted three summers now.",
+            "Reservoirs are low after a year of drought.",
+            "Farmers lost most of the crop to the drought."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long period without something that is needed or wanted",
+          "body": [
+            "(затяжной период отсутствия (успехов, чего-либо нужного))",
+            "---"
+          ],
+          "examples": [
+            "The team ended a nine-game scoring drought.",
+            "It's been a drought of good news around here.",
+            "The studio is coming off a two-year drought of hits."
+          ]
+        }
+      ],
+      "русский": "засуха; затяжной период отсутствия (успехов, чего-либо нужного)",
       "plural": "droughts",
       "countability": "countable",
       "contrast": "The gh is silent and ou is /aʊ/: DROWT, rhyming with out."

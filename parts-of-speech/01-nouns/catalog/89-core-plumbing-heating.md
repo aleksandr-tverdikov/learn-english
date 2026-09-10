@@ -617,14 +617,22 @@ The soft flexible material squeezed into seams to seal them.
 ### flux
 
 **Pronunciation:** /flʌks/ &middot; *FLUKS*
-**Русский:** флюс (для пайки)
+**Русский:** флюс (для пайки); постоянные изменения, неустойчивость
 **Countability:** uncountable
 
-A paste brushed on metal so that solder will flow and stick.
+Flux has 2 distinct senses.
+
+**1. A paste brushed on metal so that solder will flow and stick.** (флюс (для пайки))
 
 1. Brush *flux* on both ends before you heat the joint.
 2. Too much *flux* just makes a mess.
 3. Wipe the leftover *flux* off with a rag.
+
+**2. A state of constant change.** (постоянные изменения, неустойчивость)
+
+4. The schedule is still in *flux*.
+5. The whole industry is in a state of *flux*.
+6. Prices have been in *flux* all year.
 
 ---
 
@@ -825,15 +833,23 @@ The part inside a toilet tank that refills it after a flush.
 ### flapper
 
 **Pronunciation:** /ˈflæpər/ &middot; *FLAP-ur*
-**Русский:** клапан-заслонка (в бачке унитаза)
+**Русский:** клапан-заслонка (в бачке унитаза); флэппер (модница 1920-х годов)
 **Plural:** *flappers*
 **Countability:** countable
 
-The rubber flap at the bottom of a toilet tank that lifts to release water.
+Flapper has 2 distinct senses.
+
+**1. The rubber flap at the bottom of a toilet tank that lifts to release water.** (клапан-заслонка (в бачке унитаза))
 
 1. A worn *flapper* is why the toilet runs at night.
 2. Drop the new *flapper* over the posts and hook up the chain.
 3. *Flappers* get stiff after a few years.
+
+**2. A fashionable young woman of the 1920s who broke with older customs.** (флэппер (модница 1920-х годов))
+
+4. She came to the party dressed as a *flapper*.
+5. The photo shows two *flappers* with bobbed hair.
+6. The novel follows a *flapper* through one long summer.
 
 ---
 
@@ -988,15 +1004,23 @@ The fan inside a furnace or air handler that pushes air through the ducts.
 ### damper
 
 **Pronunciation:** /ˈdæmpər/ &middot; *DAM-pur*
-**Русский:** заслонка, шибер
+**Русский:** заслонка, шибер; то, что портит настроение; охлаждающий фактор
 **Plural:** *dampers*
 **Countability:** countable
 
-A movable plate inside a duct or flue that controls how much air passes.
+Damper has 2 distinct senses.
+
+**1. A movable plate inside a duct or flue that controls how much air passes.** (заслонка, шибер)
 
 1. Close the *damper* when the fireplace isn't in use.
 2. Somebody shut the *damper* in the upstairs duct.
 3. The *dampers* are adjusted twice a year.
+
+**2. Something that spoils enjoyment or cools enthusiasm.** (то, что портит настроение; охлаждающий фактор)
+
+4. The rain put a *damper* on the picnic.
+5. His mood was a *damper* on the whole evening.
+6. Bad news from the bank was a *damper* on their plans.
 
 ---
 

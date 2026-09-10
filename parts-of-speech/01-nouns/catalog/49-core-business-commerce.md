@@ -12,15 +12,23 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### trade
 
 **Pronunciation:** /treɪd/ &middot; *TRAYD*
-**Русский:** торговля; ремесло
+**Русский:** торговля; ремесло; обмен; обмен игроками
 **Plural:** *trades*
 **Countability:** both — countable and uncountable with different meanings
 
-The buying and selling of goods, or a skilled job learned by training.
+Trade has 2 distinct senses.
+
+**1. The buying and selling of goods, or a skilled job learned by training.** (торговля; ремесло)
 
 1. *Trade* between the two countries has doubled since 2019.
 2. He learned a *trade* instead of going to college.
 3. The new tariffs hurt small shops that live on cross-border *trade*.
+
+**2. An exchange in which each side gives something and gets something back.** (обмен; обмен игроками)
+
+4. The Yankees got two pitchers in the *trade*.
+5. I gave him my sandwich for his chips, an even *trade*.
+6. It was a fair *trade*: he fixed my car and I painted his fence.
 
 ---
 
@@ -269,45 +277,87 @@ The series of jobs a person holds over a working life.
 ### product
 
 **Pronunciation:** /ˈprɑːdəkt/ &middot; *PRAH-dukt*
-**Русский:** продукт, товар; изделие
+**Русский:** продукт, товар; изделие; результат, порождение; произведение (в математике)
 **Plural:** *products*
 **Countability:** countable
 
-Something made or grown to be sold.
+Product has 3 distinct senses.
+
+**1. Something made or grown to be sold.** (продукт, товар; изделие)
 
 1. The company launched a new *product* in the spring.
 2. Their *products* are sold in every state.
 3. This *product* comes with a two-year warranty.
+
+**2. Something that has come about as the result of a particular cause or set of conditions.** (результат, порождение)
+
+4. His caution is a *product* of a rough childhood.
+5. The law was the *product* of years of argument.
+6. That attitude is a *product* of the time she grew up in.
+
+**3. The number you get by multiplying numbers together.** (произведение (в математике))
+
+7. The *product* of six and seven is forty-two.
+8. Write the *product* in the last column.
+9. Both *products* came out the same.
 
 ---
 
 ### service
 
 **Pronunciation:** /ˈsɜːrvɪs/ &middot; *SUR-vis*
-**Русский:** услуга; обслуживание
+**Русский:** услуга; обслуживание; богослужение; панихида; сообщение, служба (транспортная, почтовая); военная служба, армия
 **Plural:** *services*
 **Countability:** both — countable and uncountable with different meanings
 
-Work sold to customers, or the way customers are treated.
+Service has 4 distinct senses.
+
+**1. Work sold to customers, or the way customers are treated.** (услуга; обслуживание)
 
 1. The food was fine, but the *service* was slow.
 2. We offer cleaning *services* for offices.
 3. Their repair *service* comes right to your house.
+
+**2. A religious ceremony held in a church or at a funeral.** (богослужение; панихида)
+
+4. The *service* starts at ten on Sunday.
+5. A memorial *service* is planned for Saturday morning.
+6. We got to the church halfway through the *service*.
+
+**3. A system that supplies something the public needs, such as transport or mail.** (сообщение, служба (транспортная, почтовая))
+
+7. Bus *service* to the airport runs every twenty minutes.
+8. Ice knocked out power and phone *service* for two days.
+9. The town has no rail *service* anymore.
+
+**4. The armed forces, or a period spent in them.** (военная служба, армия)
+
+10. He joined the *service* right out of high school.
+11. Both of her sons are in the *service*.
+12. He was wounded during his second year of *service*.
 
 ---
 
 ### deal
 
 **Pronunciation:** /diːl/ &middot; *DEEL*
-**Русский:** сделка; выгодная покупка
+**Русский:** сделка; выгодная покупка; большое количество, многое
 **Plural:** *deals*
 **Countability:** countable
 
-An agreement in business, or a purchase at a good price.
+Deal has 2 distinct senses.
+
+**1. An agreement in business, or a purchase at a good price.** (сделка; выгодная покупка)
 
 1. The two companies signed a *deal* on Friday.
 2. Twenty bucks for these? That's a great *deal*.
 3. We closed three *deals* last month.
+
+**2. A large amount or degree, used mainly in the phrase 'a great deal'.** (большое количество, многое)
+
+4. The repairs cost a great *deal* more than we expected.
+5. She knows a good *deal* about local history.
+6. A great *deal* depends on the weather.
 
 ---
 
@@ -338,30 +388,64 @@ Sale has 2 distinct senses.
 ### order
 
 **Pronunciation:** /ˈɔːrdər/ &middot; *OR-dur*
-**Русский:** заказ
+**Русский:** заказ; порядок, последовательность; приказ, распоряжение; порядок, спокойствие
 **Plural:** *orders*
 **Countability:** countable
 
-A request for goods to be supplied, or the goods requested.
+Order has 4 distinct senses.
+
+**1. A request for goods to be supplied, or the goods requested.** (заказ)
 
 1. Your *order* should arrive Thursday.
 2. We got a big *order* from a hotel chain.
 3. Two *orders* came in overnight.
+
+**2. The way things are arranged, one after another.** (порядок, последовательность)
+
+4. Put the files back in alphabetical *order*.
+5. The names are listed in *order* of height.
+6. You did the steps in the wrong *order*.
+
+**3. An instruction that must be obeyed.** (приказ, распоряжение)
+
+7. The sergeant gave the *order* to move out.
+8. A judge signed an *order* freezing the accounts.
+9. Doctor's *orders*: no salt and no coffee.
+
+**4. A calm state in which rules are obeyed.** (порядок, спокойствие)
+
+10. The mayor promised to restore *order* downtown.
+11. It took the teacher a minute to bring the class to *order*.
+12. Troops were sent in to keep *order* after the storm.
 
 ---
 
 ### brand
 
 **Pronunciation:** /brænd/ &middot; *BRAND*
-**Русский:** бренд, торговая марка
+**Русский:** бренд, торговая марка; клеймо, тавро; разновидность, манера (свойственная кому-л.)
 **Plural:** *brands*
 **Countability:** countable
 
-A name a company puts on its products so buyers recognize them.
+Brand has 3 distinct senses.
+
+**1. A name a company puts on its products so buyers recognize them.** (бренд, торговая марка)
 
 1. She only buys one *brand* of coffee.
 2. The store carries all the big *brands*.
 3. They spent millions building the *brand*.
+
+**2. A mark burned into an animal's hide to show who owns it.** (клеймо, тавро)
+
+4. Every calf on the ranch carries the same *brand*.
+5. The *brand* on the horse's flank matched the county records.
+6. Cattle thieves used to alter *brands* with a hot iron.
+
+**3. A particular kind or style of something that belongs to one person or group.** (разновидность, манера (свойственная кому-л.))
+
+7. His *brand* of humor isn't for everyone.
+8. Voters seem tired of that *brand* of politics.
+9. The team plays a rough, physical *brand* of basketball.
 
 ---
 
@@ -634,16 +718,30 @@ Storefront has 2 distinct senses.
 ### booth
 
 **Pronunciation:** /buːθ/ &middot; *BOOTH*
-**Русский:** стенд (на выставке)
+**Русский:** стенд (на выставке); кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования)
 **Plural:** *booths*
 **Countability:** countable
 **Contrast:** Americans say BOOTH with the *th* of *tooth*; the British often voice it, like *smooth*.
 
-A small stand where a company shows its products at a fair or trade show.
+Booth has 3 distinct senses.
+
+**1. A small stand where a company shows its products at a fair or trade show.** (стенд (на выставке))
 
 1. Our *booth* is right by the entrance.
 2. She handed out samples at the *booth* all day.
 3. The bigger companies had *booths* twice this size.
+
+**2. A restaurant table with high padded seats along the sides.** (кабинка со столиком (в кафе))
+
+4. We asked for a *booth* by the window.
+5. The diner has six *booths* and a long counter.
+6. He slid into the *booth* across from me.
+
+**3. A small enclosed space where one person does something.** (кабина, будка (телефонная, для голосования))
+
+7. She stepped into the voting *booth* and closed the curtain.
+8. The old phone *booth* is still on the corner.
+9. Buy your tickets at the *booth* by the gate.
 
 ---
 
@@ -775,15 +873,23 @@ A very rich and powerful businessperson.
 ### mogul
 
 **Pronunciation:** /ˈmoʊɡəl/ &middot; *MOH-gul*
-**Русский:** магнат (в СМИ, кино и т. п.)
+**Русский:** магнат (в СМИ, кино и т. п.); бугор на горнолыжном склоне
 **Plural:** *moguls*
 **Countability:** countable
 
-A powerful owner in an industry such as media, film, or real estate.
+Mogul has 2 distinct senses.
+
+**1. A powerful owner in an industry such as media, film, or real estate.** (магнат (в СМИ, кино и т. п.))
 
 1. The paper was bought by a media *mogul*.
 2. Hollywood *moguls* ran the studios for decades.
 3. She became a real estate *mogul* before she was forty.
+
+**2. A hard bump of packed snow on a ski slope.** (бугор на горнолыжном склоне)
+
+4. The lower run was covered in *moguls*.
+5. She took the *moguls* fast and never lost her line.
+6. By afternoon the powder had been chopped into *moguls*.
 
 ---
 
@@ -912,15 +1018,23 @@ Someone whose job is selling goods or services.
 ### dealer
 
 **Pronunciation:** /ˈdiːlər/ &middot; *DEE-lur*
-**Русский:** дилер, торговец
+**Русский:** дилер, торговец; сдающий, дилер (в карточной игре)
 **Plural:** *dealers*
 **Countability:** countable
 
-A person or business that buys and sells a particular kind of goods.
+Dealer has 2 distinct senses.
+
+**1. A person or business that buys and sells a particular kind of goods.** (дилер, торговец)
 
 1. We bought the truck from a *dealer* in Reno.
 2. Art *dealers* took most of the seats.
 3. The *dealer* threw in free floor mats.
+
+**2. The person who hands out the cards in a card game.** (сдающий, дилер (в карточной игре))
+
+4. The *dealer* slid two cards to each player.
+5. In blackjack you play against the *dealer*.
+6. *Dealers* at the casino change tables every hour.
 
 ---
 
@@ -1175,16 +1289,24 @@ Complete control of the supply of something by a single company.
 ### cartel
 
 **Pronunciation:** /kɑːrˈtɛl/ &middot; *kar-TEL*
-**Русский:** картель, ценовой сговор
+**Русский:** картель, ценовой сговор; наркокартель
 **Plural:** *cartels*
 **Countability:** countable
 **Contrast:** Stress the second syllable: kar-TEL.
 
-A group of companies that agree to fix prices instead of competing.
+Cartel has 2 distinct senses.
+
+**1. A group of companies that agree to fix prices instead of competing.** (картель, ценовой сговор)
 
 1. The oil *cartel* cut production again.
 2. Regulators broke up a shipping *cartel*.
 3. *Cartels* are illegal in most countries.
+
+**2. A large criminal organization that produces and sells drugs.** (наркокартель)
+
+4. The *cartel* controls the smuggling routes near the border.
+5. Two *cartels* have been fighting over the same territory.
+6. He testified against the *cartel* leaders.
 
 ---
 
@@ -1238,16 +1360,24 @@ A product sold to another country.
 ### import
 
 **Pronunciation:** /ˈɪmpɔːrt/ &middot; *IM-port*
-**Русский:** импорт; ввозимый товар
+**Русский:** импорт; ввозимый товар; импорт, ввоз (процесс)
 **Plural:** *imports*
 **Countability:** countable
 **Contrast:** The noun is stressed in front (IM-port); the verb is im-PORT.
 
-A product brought in from another country to be sold.
+Import has 2 distinct senses.
+
+**1. A product brought in from another country to be sold.** (импорт; ввозимый товар)
 
 1. Most of our *imports* come through the West Coast ports.
 2. Cheap *imports* put the factory out of business.
 3. The tax applies to every *import* over a hundred dollars.
+
+**2. The business or act of bringing goods into a country from abroad.** (импорт, ввоз (процесс))
+
+4. The *import* of foreign steel fell sharply last year.
+5. Congress voted to restrict the *import* of certain pesticides.
+6. Her job is managing the *import* of coffee from Brazil.
 
 ---
 
@@ -1410,14 +1540,22 @@ A pile of orders or work that has not been dealt with yet.
 ### growth
 
 **Pronunciation:** /ɡroʊθ/ &middot; *GROHTH*
-**Русский:** рост, увеличение
+**Русский:** рост, увеличение; новообразование, опухоль
 **Countability:** uncountable
 
-An increase in size, sales, or value.
+Growth has 2 distinct senses.
+
+**1. An increase in size, sales, or value.** (рост, увеличение)
 
 1. Sales *growth* slowed in the second half.
 2. The company's *growth* surprised everybody.
 3. There isn't much room for *growth* in this market.
+
+**2. A lump of tissue growing where it should not, such as a tumor.** (новообразование, опухоль)
+
+4. The vet found a small *growth* on the dog's leg.
+5. The *growth* turned out to be harmless.
+6. Doctors removed two *growths* from her thyroid.
 
 ---
 
@@ -1700,15 +1838,23 @@ How good something is, or a feature a person has.
 ### bid
 
 **Pronunciation:** /bɪd/ &middot; *BID*
-**Русский:** предложение цены, заявка на торгах
+**Русский:** предложение цены, заявка на торгах; попытка добиться; заявка (на пост, на проведение)
 **Plural:** *bids*
 **Countability:** countable
 
-An offer of a price to buy something or to do a job.
+Bid has 2 distinct senses.
+
+**1. An offer of a price to buy something or to do a job.** (предложение цены, заявка на торгах)
 
 1. We put in a *bid* on the house.
 2. The city took the lowest *bid*.
 3. Three *bids* came in under budget.
+
+**2. An attempt to win or achieve something.** (попытка добиться; заявка (на пост, на проведение))
+
+4. She announced a *bid* for a second term.
+5. The city's *bid* to host the games failed.
+6. His *bid* for a promotion went nowhere.
 
 ---
 
@@ -1730,16 +1876,24 @@ Someone who offers a price at an auction or for a contract.
 ### renewal
 
 **Pronunciation:** /rɪˈnuːəl/ &middot; *rih-NOO-ul*
-**Русский:** продление, возобновление договора
+**Русский:** продление, возобновление договора; возрождение, оживление, обновление
 **Plural:** *renewals*
 **Countability:** countable
 **Contrast:** Americans say rih-NOO-ul; the British add a y sound: rih-NYOO-ul.
 
-The extending of a contract or license for another period.
+Renewal has 2 distinct senses.
+
+**1. The extending of a contract or license for another period.** (продление, возобновление договора)
 
 1. The lease comes up for *renewal* in June.
 2. They raised the price at *renewal*.
 3. Most *renewals* go through automatically.
+
+**2. The return of something to strength, activity, or freshness.** (возрождение, оживление, обновление)
+
+4. There's been a *renewal* of interest in vinyl records.
+5. The whole neighborhood is going through a *renewal*.
+6. The talks brought a *renewal* of fighting instead of peace.
 
 ---
 
@@ -2076,16 +2230,30 @@ Official proof that a person or product meets a standard.
 ### recall
 
 **Pronunciation:** /ˈriːkɔːl/ &middot; *REE-kawl*
-**Русский:** отзыв товара из продажи
+**Русский:** отзыв товара из продажи; память, способность вспоминать; отзыв выборного лица (голосование)
 **Plural:** *recalls*
 **Countability:** countable
 **Contrast:** The noun is stressed in front (REE-kawl); the verb is rih-KAWL.
 
-A company's order for customers to return an unsafe product.
+Recall has 3 distinct senses.
+
+**1. A company's order for customers to return an unsafe product.** (отзыв товара из продажи)
 
 1. The *recall* covers two million cars.
 2. There have been three *recalls* this year.
 3. Check whether your model is part of the *recall*.
+
+**2. The ability to remember things.** (память, способность вспоминать)
+
+4. Her *recall* of that night is hazy at best.
+5. Witnesses rarely have perfect *recall*.
+6. The test measures *recall* of word lists.
+
+**3. A special vote on whether to remove an elected official before the term ends.** (отзыв выборного лица (голосование))
+
+7. Voters forced a *recall* of the governor.
+8. The *recall* failed by a wide margin.
+9. Organizers gathered enough signatures for a *recall*.
 
 ---
 

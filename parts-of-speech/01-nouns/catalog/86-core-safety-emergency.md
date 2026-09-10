@@ -142,15 +142,23 @@ A lighted sign that shows the way out of a building.
 ### escape
 
 **Pronunciation:** /ɪˈskeɪp/ &middot; *ih-SKAYP*
-**Русский:** спасение бегством, побег
+**Русский:** спасение бегством, побег; отдушина, способ отвлечься
 **Plural:** *escapes*
 **Countability:** countable
 
-The act of getting away from a dangerous place or situation.
+Escape has 2 distinct senses.
+
+**1. The act of getting away from a dangerous place or situation.** (спасение бегством, побег)
 
 1. Their *escape* from the burning building was captured on video.
 2. It was a narrow *escape* — the roof fell in a minute later.
 3. Both *escapes* happened through a basement window.
+
+**2. Something that lets you forget your troubles for a while.** (отдушина, способ отвлечься)
+
+4. For her, gardening is an *escape*.
+5. Movies were his only *escape* that winter.
+6. Cheap paperbacks offer a quick *escape* on a long flight.
 
 ---
 
@@ -233,15 +241,23 @@ The part of a hospital that treats people who need help immediately.
 ### warning
 
 **Pronunciation:** /ˈwɔːrnɪŋ/ &middot; *WOR-ning*
-**Русский:** предупреждение
+**Русский:** предупреждение; предупреждение, замечание (вместо наказания)
 **Plural:** *warnings*
 **Countability:** countable
 
-Something said or shown to tell people that danger is coming.
+Warning has 2 distinct senses.
+
+**1. Something said or shown to tell people that danger is coming.** (предупреждение)
 
 1. The storm hit without any *warning*.
 2. He ignored the *warnings* and swam out anyway.
 3. The weather service issued a *warning* for three counties.
+
+**2. An official caution given instead of a punishment, telling someone not to do it again.** (предупреждение, замечание (вместо наказания))
+
+4. The officer let me off with a *warning*.
+5. He got a written *warning* from his manager.
+6. One more *warning* and you're off the team.
 
 ---
 
@@ -503,15 +519,29 @@ The sudden falling down of a building, roof, or other structure.
 ### blast
 
 **Pronunciation:** /blæst/ &middot; *BLAST*
-**Русский:** взрыв, взрывная волна
+**Русский:** взрыв, взрывная волна; кайф, отличное веселье (разг.); гудок, резкий громкий звук
 **Plural:** *blasts*
 **Countability:** countable
 
-A violent explosion, or the rush of air it sends out.
+Blast has 3 distinct senses.
+
+**1. A violent explosion, or the rush of air it sends out.** (взрыв, взрывная волна)
 
 1. The *blast* blew out windows two blocks away.
 2. She was knocked down by the *blast*.
 3. Neighbors heard two *blasts* before the fire started.
+
+**2. A very enjoyable time.** (кайф, отличное веселье (разг.))
+
+4. We had a *blast* at the lake.
+5. The party was a *blast*.
+6. Her birthday trip was an absolute *blast*.
+
+**3. A sudden loud sound from a horn, whistle, or instrument.** (гудок, резкий громкий звук)
+
+7. A *blast* from the ship's horn made us jump.
+8. Three short *blasts* of the whistle meant trouble.
+9. The band opened with a *blast* of trumpets.
 
 ---
 
@@ -639,14 +669,22 @@ A period when people must stay inside a building or area for safety.
 ### refuge
 
 **Pronunciation:** /ˈrɛfjuːdʒ/ &middot; *REF-yooj*
-**Русский:** убежище, укрытие
+**Русский:** убежище, укрытие; заповедник; приют, убежище (место)
 **Countability:** uncountable
 
-Shelter or safety from danger or bad weather.
+Refuge has 2 distinct senses.
+
+**1. Shelter or safety from danger or bad weather.** (убежище, укрытие)
 
 1. They took *refuge* in the basement.
 2. The church offered *refuge* to families who lost their homes.
 3. Hikers found *refuge* from the storm in an old cabin.
+
+**2. A place that gives protection, especially an area set aside for wild animals.** (заповедник; приют, убежище (место))
+
+4. The lake is part of a national wildlife *refuge*.
+5. Thousands of birds winter in the *refuge*.
+6. She spent a month in a *refuge* for women leaving violent homes.
 
 ---
 
@@ -713,15 +751,23 @@ A smaller earthquake that follows a larger one.
 ### tremor
 
 **Pronunciation:** /ˈtrɛmər/ &middot; *TREM-ur*
-**Русский:** подземный толчок, сотрясение
+**Русский:** подземный толчок, сотрясение; дрожь, тремор
 **Plural:** *tremors*
 **Countability:** countable
 
-A small shaking of the ground.
+Tremor has 2 distinct senses.
+
+**1. A small shaking of the ground.** (подземный толчок, сотрясение)
 
 1. A *tremor* rattled the windows.
 2. Residents felt two *tremors* before dawn.
 3. The *tremor* lasted only a few seconds.
+
+**2. A slight uncontrollable shaking of the body or voice.** (дрожь, тремор)
+
+4. There was a *tremor* in her voice as she read the letter.
+5. The medication reduced the *tremor* in his hands.
+6. A *tremor* ran through him when he heard the news.
 
 ---
 
@@ -1313,15 +1359,23 @@ A bar along stairs or a walkway that you hold for support.
 ### barrier
 
 **Pronunciation:** /ˈbæriər/ &middot; *BAIR-ee-ur*
-**Русский:** барьер, ограждение
+**Русский:** барьер, ограждение; препятствие, преграда
 **Plural:** *barriers*
 **Countability:** countable
 
-A fence, wall, or bar that keeps people out of a dangerous place.
+Barrier has 2 distinct senses.
+
+**1. A fence, wall, or bar that keeps people out of a dangerous place.** (барьер, ограждение)
 
 1. A concrete *barrier* separates the lanes.
 2. Police put up a *barrier* around the sinkhole.
 3. The crowd pushed against the *barriers*.
+
+**2. Something that keeps people apart or stops progress.** (препятствие, преграда)
+
+4. Language was the biggest *barrier* at her new job.
+5. Cost is still a *barrier* to treatment.
+6. The law removed several *barriers* for small businesses.
 
 ---
 
@@ -1662,15 +1716,23 @@ A wide-barreled pistol that fires a signal flare into the sky.
 ### beacon
 
 **Pronunciation:** /ˈbiːkən/ &middot; *BEE-kun*
-**Русский:** маяк, сигнальный маячок
+**Русский:** маяк, сигнальный маячок; маяк, ориентир (перен.)
 **Plural:** *beacons*
 **Countability:** countable
 
-A light or radio signal that guides rescuers or warns of danger.
+Beacon has 2 distinct senses.
+
+**1. A light or radio signal that guides rescuers or warns of danger.** (маяк, сигнальный маячок)
 
 1. The plane's emergency *beacon* led searchers to the wreck.
 2. A *beacon* flashes on top of the tower.
 3. Climbers carry avalanche *beacons*.
+
+**2. A person or thing that gives other people hope or guidance.** (маяк, ориентир (перен.))
+
+4. The clinic became a *beacon* of hope for the whole valley.
+5. Her third-grade teacher was a *beacon* in a hard year.
+6. The paper was long seen as a *beacon* of free speech.
 
 ---
 

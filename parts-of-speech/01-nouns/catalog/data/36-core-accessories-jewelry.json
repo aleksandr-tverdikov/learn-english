@@ -6,14 +6,43 @@
       "term": "purse",
       "ipa": "/pɜːrs/",
       "respell": "PURS",
-      "meaning": "A small bag a woman carries money and personal things in. ---",
+      "meaning": "Purse has 2 distinct senses.",
       "examples": [
         "She dug through her purse looking for her keys.",
         "Someone grabbed her purse right off the back of the chair.",
-        "All the purses on that rack are half off."
+        "All the purses on that rack are half off.",
+        "The winner takes a purse of two million.",
+        "The purse for the derby went up again this year.",
+        "The two fighters split the purse evenly."
       ],
-      "senses": [],
-      "русский": "дамская сумочка, сумка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small bag a woman carries money and personal things in",
+          "body": [
+            "(дамская сумочка, сумка)"
+          ],
+          "examples": [
+            "She dug through her purse looking for her keys.",
+            "Someone grabbed her purse right off the back of the chair.",
+            "All the purses on that rack are half off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The prize money offered in a boxing match, race, or tournament",
+          "body": [
+            "(призовой фонд)",
+            "---"
+          ],
+          "examples": [
+            "The winner takes a purse of two million.",
+            "The purse for the derby went up again this year.",
+            "The two fighters split the purse evenly."
+          ]
+        }
+      ],
+      "русский": "дамская сумочка, сумка; призовой фонд",
       "plural": "purses",
       "countability": "countable",
       "contrast": "In American English a purse is what the British call a handbag; a British purse is a small wallet for coins."
@@ -219,14 +248,88 @@
       "term": "ring",
       "ipa": "/rɪŋ/",
       "respell": "RING",
-      "meaning": "A circular band of metal worn on a finger. ---",
+      "meaning": "Ring has 5 distinct senses.",
       "examples": [
         "She still wears her grandmother's ring.",
         "He lost his wedding ring at the beach.",
-        "The case was full of cheap silver rings."
+        "The case was full of cheap silver rings.",
+        "The mug left a ring on the table.",
+        "The children sat in a ring around the teacher.",
+        "You can count the rings to tell the tree's age.",
+        "The champ climbed into the ring to a huge cheer.",
+        "He was knocked out of the ring in the third round.",
+        "The elephants entered the center ring.",
+        "Police broke up a car-theft ring.",
+        "A smuggling ring operated out of the port for years.",
+        "Two officers were tied to the drug ring.",
+        "The ring of the doorbell woke everyone up.",
+        "She picked up on the first ring.",
+        "I heard the ring of church bells across the valley."
       ],
-      "senses": [],
-      "русский": "кольцо, перстень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A circular band of metal worn on a finger",
+          "body": [
+            "(кольцо, перстень)"
+          ],
+          "examples": [
+            "She still wears her grandmother's ring.",
+            "He lost his wedding ring at the beach.",
+            "The case was full of cheap silver rings."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A circle, or a circular mark or arrangement of things",
+          "body": [
+            "(круг, кольцо (след, окружность))"
+          ],
+          "examples": [
+            "The mug left a ring on the table.",
+            "The children sat in a ring around the teacher.",
+            "You can count the rings to tell the tree's age."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The square platform where boxers or wrestlers fight",
+          "body": [
+            "(ринг; арена)"
+          ],
+          "examples": [
+            "The champ climbed into the ring to a huge cheer.",
+            "He was knocked out of the ring in the third round.",
+            "The elephants entered the center ring."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An organized group of people working together at something illegal",
+          "body": [
+            "(преступная группировка, шайка)"
+          ],
+          "examples": [
+            "Police broke up a car-theft ring.",
+            "A smuggling ring operated out of the port for years.",
+            "Two officers were tied to the drug ring."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "The sound made by a bell or a phone",
+          "body": [
+            "(звонок, звон)",
+            "---"
+          ],
+          "examples": [
+            "The ring of the doorbell woke everyone up.",
+            "She picked up on the first ring.",
+            "I heard the ring of church bells across the valley."
+          ]
+        }
+      ],
+      "русский": "кольцо, перстень; круг, кольцо (след, окружность); ринг; арена; преступная группировка, шайка; звонок, звон",
       "plural": "rings",
       "countability": "countable"
     },
@@ -326,14 +429,58 @@
       "term": "chain",
       "ipa": "/tʃeɪn/",
       "respell": "CHAYN",
-      "meaning": "A line of connected metal links worn as jewelry. ---",
+      "meaning": "Chain has 3 distinct senses.",
       "examples": [
         "He wears a thick gold chain under his shirt.",
         "The chain broke and the pendant fell off.",
-        "She keeps both rings on a chain around her neck."
+        "She keeps both rings on a chain around her neck.",
+        "A national chain bought out the local pharmacy.",
+        "The hotel chain has four hundred locations.",
+        "She would rather eat at a diner than at a chain.",
+        "One small mistake set off a chain of failures.",
+        "Investigators reconstructed the whole chain of events.",
+        "A chain of islands runs south from the mainland."
       ],
-      "senses": [],
-      "русский": "цепочка, цепь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of connected metal links worn as jewelry",
+          "body": [
+            "(цепочка, цепь)"
+          ],
+          "examples": [
+            "He wears a thick gold chain under his shirt.",
+            "The chain broke and the pendant fell off.",
+            "She keeps both rings on a chain around her neck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of stores, restaurants, or hotels owned by one company",
+          "body": [
+            "(сеть (магазинов, ресторанов))"
+          ],
+          "examples": [
+            "A national chain bought out the local pharmacy.",
+            "The hotel chain has four hundred locations.",
+            "She would rather eat at a diner than at a chain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A series of connected events or things",
+          "body": [
+            "(цепочка, череда)",
+            "---"
+          ],
+          "examples": [
+            "One small mistake set off a chain of failures.",
+            "Investigators reconstructed the whole chain of events.",
+            "A chain of islands runs south from the mainland."
+          ]
+        }
+      ],
+      "русский": "цепочка, цепь; сеть (магазинов, ресторанов); цепочка, череда",
       "plural": "chains",
       "countability": "countable"
     },
@@ -341,14 +488,43 @@
       "term": "bead",
       "ipa": "/biːd/",
       "respell": "BEED",
-      "meaning": "A small ball with a hole through it, strung to make jewelry. ---",
+      "meaning": "Bead has 2 distinct senses.",
       "examples": [
         "One bead rolled under the couch and disappeared.",
         "The dress is covered in tiny glass beads.",
-        "She strung the beads onto a wire."
+        "She strung the beads onto a wire.",
+        "Beads of sweat stood out on his forehead.",
+        "A bead of water rolled down the cold glass.",
+        "Beads of dew clung to the grass at dawn."
       ],
-      "senses": [],
-      "русский": "бусина, бисер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small ball with a hole through it, strung to make jewelry",
+          "body": [
+            "(бусина, бисер)"
+          ],
+          "examples": [
+            "One bead rolled under the couch and disappeared.",
+            "The dress is covered in tiny glass beads.",
+            "She strung the beads onto a wire."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small drop of liquid on a surface",
+          "body": [
+            "(капелька (пота, воды))",
+            "---"
+          ],
+          "examples": [
+            "Beads of sweat stood out on his forehead.",
+            "A bead of water rolled down the cold glass.",
+            "Beads of dew clung to the grass at dawn."
+          ]
+        }
+      ],
+      "русский": "бусина, бисер; капелька (пота, воды)",
       "plural": "beads",
       "countability": "countable"
     },
@@ -400,14 +576,43 @@
       "term": "jewel",
       "ipa": "/ˈdʒuːəl/",
       "respell": "JOO-uhl",
-      "meaning": "A precious stone, or a piece of jewelry containing one. ---",
+      "meaning": "Jewel has 2 distinct senses.",
       "examples": [
         "One jewel was missing from the crown.",
         "The jewels were locked in a hotel safe.",
-        "She finally sold the last of her mother's jewels."
+        "She finally sold the last of her mother's jewels.",
+        "That little bakery is the jewel of the neighborhood.",
+        "The old library is the jewel of the campus.",
+        "Our babysitter is a jewel."
       ],
-      "senses": [],
-      "русский": "драгоценный камень, драгоценность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A precious stone, or a piece of jewelry containing one",
+          "body": [
+            "(драгоценный камень, драгоценность)"
+          ],
+          "examples": [
+            "One jewel was missing from the crown.",
+            "The jewels were locked in a hotel safe.",
+            "She finally sold the last of her mother's jewels."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that is greatly valued",
+          "body": [
+            "(сокровище, жемчужина)",
+            "---"
+          ],
+          "examples": [
+            "That little bakery is the jewel of the neighborhood.",
+            "The old library is the jewel of the campus.",
+            "Our babysitter is a jewel."
+          ]
+        }
+      ],
+      "русский": "драгоценный камень, драгоценность; сокровище, жемчужина",
       "plural": "jewels",
       "countability": "countable",
       "contrast": "Americans write jewelry; the British write jewellery."
@@ -522,28 +727,101 @@
       "term": "gold",
       "ipa": "/ɡoʊld/",
       "respell": "GOHLD",
-      "meaning": "A yellow precious metal used for coins and jewelry. ---",
+      "meaning": "Gold has 2 distinct senses.",
       "examples": [
         "The ring is fourteen-karat gold.",
         "She only wears gold, never silver.",
-        "The price of gold went up again this week."
+        "The price of gold went up again this week.",
+        "She won gold in the 200 meters.",
+        "The team took gold for the third year in a row.",
+        "Nobody expected the underdog to take home gold."
       ],
-      "senses": [],
-      "русский": "золото",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A yellow precious metal used for coins and jewelry",
+          "body": [
+            "(золото)"
+          ],
+          "examples": [
+            "The ring is fourteen-karat gold.",
+            "She only wears gold, never silver.",
+            "The price of gold went up again this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A first-place medal in a competition",
+          "body": [
+            "(золотая медаль, золото)",
+            "---"
+          ],
+          "examples": [
+            "She won gold in the 200 meters.",
+            "The team took gold for the third year in a row.",
+            "Nobody expected the underdog to take home gold."
+          ]
+        }
+      ],
+      "русский": "золото; золотая медаль, золото",
       "countability": "uncountable"
     },
     {
       "term": "silver",
       "ipa": "/ˈsɪlvər/",
       "respell": "SIL-vur",
-      "meaning": "A shiny white precious metal used for jewelry and utensils. ---",
+      "meaning": "Silver has 3 distinct senses.",
       "examples": [
         "The chain is real silver, not plated.",
         "Silver tarnishes if you don't wear it.",
-        "She likes silver better than gold."
+        "She likes silver better than gold.",
+        "Grandma got out the good silver for Thanksgiving.",
+        "He polished the silver the night before the party.",
+        "The silver is in the bottom drawer of the hutch.",
+        "She took silver in the two hundred meters.",
+        "The team settled for silver after losing the final.",
+        "Nobody remembers who won silver."
       ],
-      "senses": [],
-      "русский": "серебро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shiny white precious metal used for jewelry and utensils",
+          "body": [
+            "(серебро)"
+          ],
+          "examples": [
+            "The chain is real silver, not plated.",
+            "Silver tarnishes if you don't wear it.",
+            "She likes silver better than gold."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Forks, knives, and spoons, especially the good set kept for guests",
+          "body": [
+            "(столовое серебро)"
+          ],
+          "examples": [
+            "Grandma got out the good silver for Thanksgiving.",
+            "He polished the silver the night before the party.",
+            "The silver is in the bottom drawer of the hutch."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The medal given for second place",
+          "body": [
+            "(серебро (медаль за второе место))",
+            "---"
+          ],
+          "examples": [
+            "She took silver in the two hundred meters.",
+            "The team settled for silver after losing the final.",
+            "Nobody remembers who won silver."
+          ]
+        }
+      ],
+      "русский": "серебро; столовое серебро; серебро (медаль за второе место)",
       "countability": "uncountable"
     },
     {
@@ -607,14 +885,43 @@
       "term": "amber",
       "ipa": "/ˈæmbər/",
       "respell": "AM-bur",
-      "meaning": "Hard yellow-brown fossilized tree resin used in jewelry. ---",
+      "meaning": "Amber has 2 distinct senses.",
       "examples": [
         "The beads are real amber, not plastic.",
         "There's an insect trapped in that piece of amber.",
-        "Amber feels warm against your skin."
+        "Amber feels warm against your skin.",
+        "The whiskey glowed a deep amber in the glass.",
+        "At sunset the whole valley turned to amber.",
+        "The kitchen is painted in warm ambers and browns."
       ],
-      "senses": [],
-      "русский": "янтарь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hard yellow-brown fossilized tree resin used in jewelry",
+          "body": [
+            "(янтарь)"
+          ],
+          "examples": [
+            "The beads are real amber, not plastic.",
+            "There's an insect trapped in that piece of amber.",
+            "Amber feels warm against your skin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A warm yellow-orange color",
+          "body": [
+            "(янтарный цвет, оранжево-жёлтый)",
+            "---"
+          ],
+          "examples": [
+            "The whiskey glowed a deep amber in the glass.",
+            "At sunset the whole valley turned to amber.",
+            "The kitchen is painted in warm ambers and browns."
+          ]
+        }
+      ],
+      "русский": "янтарь; янтарный цвет, оранжево-жёлтый",
       "countability": "uncountable"
     },
     {
@@ -756,14 +1063,58 @@
       "term": "crown",
       "ipa": "/kraʊn/",
       "respell": "KROWN",
-      "meaning": "A circular ornament worn on the head by a king or queen. ---",
+      "meaning": "Crown has 3 distinct senses.",
       "examples": [
         "The crown is a lot heavier than it looks.",
         "Both crowns are behind glass at the museum.",
-        "He put a paper crown on his head at dinner."
+        "He put a paper crown on his head at dinner.",
+        "The dentist put a crown on his back molar.",
+        "Two crowns cost more than the whole trip.",
+        "Her crown came loose on a piece of caramel.",
+        "They took the crown for the third year running.",
+        "She lost her crown to a nineteen-year-old.",
+        "Both teams are chasing the same crown."
       ],
-      "senses": [],
-      "русский": "корона, венец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A circular ornament worn on the head by a king or queen",
+          "body": [
+            "(корона, венец)"
+          ],
+          "examples": [
+            "The crown is a lot heavier than it looks.",
+            "Both crowns are behind glass at the museum.",
+            "He put a paper crown on his head at dinner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An artificial cap fitted over a damaged tooth",
+          "body": [
+            "(коронка (зубная))"
+          ],
+          "examples": [
+            "The dentist put a crown on his back molar.",
+            "Two crowns cost more than the whole trip.",
+            "Her crown came loose on a piece of caramel."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The title held by a champion",
+          "body": [
+            "(чемпионский титул)",
+            "---"
+          ],
+          "examples": [
+            "They took the crown for the third year running.",
+            "She lost her crown to a nineteen-year-old.",
+            "Both teams are chasing the same crown."
+          ]
+        }
+      ],
+      "русский": "корона, венец; коронка (зубная); чемпионский титул",
       "plural": "crowns",
       "countability": "countable"
     },
@@ -815,14 +1166,43 @@
       "term": "hoop",
       "ipa": "/huːp/",
       "respell": "HOOP",
-      "meaning": "A large circular earring, or any ring-shaped band. ---",
+      "meaning": "Hoop has 2 distinct senses.",
       "examples": [
         "She wore big gold hoops to the party.",
         "One hoop got caught in her scarf.",
-        "Small hoops are easier to sleep in."
+        "Small hoops are easier to sleep in.",
+        "There's a hoop over the garage door.",
+        "The kids play hoops at the park every evening.",
+        "He put up a hoop in the driveway for his son."
       ],
-      "senses": [],
-      "русский": "серьга-кольцо; обруч",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large circular earring, or any ring-shaped band",
+          "body": [
+            "(серьга-кольцо; обруч)"
+          ],
+          "examples": [
+            "She wore big gold hoops to the party.",
+            "One hoop got caught in her scarf.",
+            "Small hoops are easier to sleep in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ring and net used in basketball, or the game itself",
+          "body": [
+            "(баскетбольное кольцо; баскетбол (разг.))",
+            "---"
+          ],
+          "examples": [
+            "There's a hoop over the garage door.",
+            "The kids play hoops at the park every evening.",
+            "He put up a hoop in the driveway for his son."
+          ]
+        }
+      ],
+      "русский": "серьга-кольцо; обруч; баскетбольное кольцо; баскетбол (разг.)",
       "plural": "hoops",
       "countability": "countable"
     },
@@ -846,14 +1226,58 @@
       "term": "watch",
       "ipa": "/wɑːtʃ/",
       "respell": "WAHCH",
-      "meaning": "A small clock worn on the wrist or carried in a pocket. ---",
+      "meaning": "Watch has 3 distinct senses.",
       "examples": [
         "My watch is running five minutes fast.",
         "He collects old mechanical watches.",
-        "She got a watch for graduation."
+        "She got a watch for graduation.",
+        "The sailors stood the night watch in shifts.",
+        "Someone has to keep watch while the others sleep.",
+        "He had the four-hour watch on deck.",
+        "The county is under a tornado watch until nine.",
+        "A flash flood watch covers most of the valley.",
+        "A watch means get ready; a warning means take cover."
       ],
-      "senses": [],
-      "русский": "часы (наручные)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small clock worn on the wrist or carried in a pocket",
+          "body": [
+            "(часы (наручные))"
+          ],
+          "examples": [
+            "My watch is running five minutes fast.",
+            "He collects old mechanical watches.",
+            "She got a watch for graduation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period of time spent guarding a place or looking out for danger",
+          "body": [
+            "(вахта, дежурство, караул)"
+          ],
+          "examples": [
+            "The sailors stood the night watch in shifts.",
+            "Someone has to keep watch while the others sleep.",
+            "He had the four-hour watch on deck."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An official alert that dangerous weather is possible in an area",
+          "body": [
+            "(оповещение о возможной опасной погоде)",
+            "---"
+          ],
+          "examples": [
+            "The county is under a tornado watch until nine.",
+            "A flash flood watch covers most of the valley.",
+            "A watch means get ready; a warning means take cover."
+          ]
+        }
+      ],
+      "русский": "часы (наручные); вахта, дежурство, караул; оповещение о возможной опасной погоде",
       "plural": "watches",
       "countability": "countable",
       "contrast": "Singular in English even though the Russian часы is plural: one watch, two watches."
@@ -878,14 +1302,58 @@
       "term": "bow",
       "ipa": "/boʊ/",
       "respell": "BOH",
-      "meaning": "A knot with two loops, tied for decoration. ---",
+      "meaning": "Bow has 3 distinct senses.",
       "examples": [
         "She tied a red bow around the box.",
         "The dress has a bow at the waist.",
-        "There were paper bows taped to every chair."
+        "There were paper bows taped to every chair.",
+        "He drew the bow and let the arrow fly.",
+        "The museum displays bows made by Plains hunters.",
+        "She practices with a bow at the archery range every Saturday.",
+        "She raised her bow and the orchestra began.",
+        "A good bow can cost as much as the violin itself.",
+        "He rubbed rosin along the bow before the concert."
       ],
-      "senses": [],
-      "русский": "бант, бантик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A knot with two loops, tied for decoration",
+          "body": [
+            "(бант, бантик)"
+          ],
+          "examples": [
+            "She tied a red bow around the box.",
+            "The dress has a bow at the waist.",
+            "There were paper bows taped to every chair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A curved piece of wood with a tight string, used to shoot arrows",
+          "body": [
+            "(лук (оружие))"
+          ],
+          "examples": [
+            "He drew the bow and let the arrow fly.",
+            "The museum displays bows made by Plains hunters.",
+            "She practices with a bow at the archery range every Saturday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The thin stick with stretched hairs that is drawn across the strings of a violin or cello",
+          "body": [
+            "(смычок)",
+            "---"
+          ],
+          "examples": [
+            "She raised her bow and the orchestra began.",
+            "A good bow can cost as much as the violin itself.",
+            "He rubbed rosin along the bow before the concert."
+          ]
+        }
+      ],
+      "русский": "бант, бантик; лук (оружие); смычок",
       "plural": "bows",
       "countability": "countable",
       "contrast": "This bow rhymes with go; the bow that means bending forward rhymes with cow."
@@ -970,14 +1438,43 @@
       "term": "cane",
       "ipa": "/keɪn/",
       "respell": "KAYN",
-      "meaning": "A stick used to help you walk. ---",
+      "meaning": "Cane has 2 distinct senses.",
       "examples": [
         "He's been walking with a cane since the surgery.",
         "Her cane is leaning against the chair.",
-        "The gift shop downstairs even sells canes."
+        "The gift shop downstairs even sells canes.",
+        "Workers cut the sugar cane by hand.",
+        "The fence was built from split bamboo canes.",
+        "Raspberry canes have to be tied to a wire each spring."
       ],
-      "senses": [],
-      "русский": "трость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A stick used to help you walk",
+          "body": [
+            "(трость)"
+          ],
+          "examples": [
+            "He's been walking with a cane since the surgery.",
+            "Her cane is leaning against the chair.",
+            "The gift shop downstairs even sells canes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hard, hollow, jointed stem of tall plants such as sugar or bamboo",
+          "body": [
+            "(стебель тростника, бамбука; тростник)",
+            "---"
+          ],
+          "examples": [
+            "Workers cut the sugar cane by hand.",
+            "The fence was built from split bamboo canes.",
+            "Raspberry canes have to be tied to a wire each spring."
+          ]
+        }
+      ],
+      "русский": "трость; стебель тростника, бамбука; тростник",
       "plural": "canes",
       "countability": "countable"
     },
@@ -1015,14 +1512,43 @@
       "term": "badge",
       "ipa": "/bædʒ/",
       "respell": "BAJ",
-      "meaning": "A small card or piece of metal worn to show who you are. ---",
+      "meaning": "Badge has 2 distinct senses.",
       "examples": [
         "You need a badge to get past the front desk.",
         "He flashed his badge and walked right in.",
-        "Visitor badges are at the security desk."
+        "Visitor badges are at the security desk.",
+        "He wears the nickname as a badge of honor.",
+        "Calluses were a badge of hard work.",
+        "For them the scar is a badge of survival."
       ],
-      "senses": [],
-      "русский": "значок, бейдж, удостоверение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small card or piece of metal worn to show who you are",
+          "body": [
+            "(значок, бейдж, удостоверение)"
+          ],
+          "examples": [
+            "You need a badge to get past the front desk.",
+            "He flashed his badge and walked right in.",
+            "Visitor badges are at the security desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sign or mark that shows a quality or an achievement",
+          "body": [
+            "(знак, символ (отличия, качества))",
+            "---"
+          ],
+          "examples": [
+            "He wears the nickname as a badge of honor.",
+            "Calluses were a badge of hard work.",
+            "For them the scar is a badge of survival."
+          ]
+        }
+      ],
+      "русский": "значок, бейдж, удостоверение; знак, символ (отличия, качества)",
       "plural": "badges",
       "countability": "countable"
     },
@@ -1077,14 +1603,58 @@
       "term": "lens",
       "ipa": "/lɛnz/",
       "respell": "LENZ",
-      "meaning": "A curved piece of glass or plastic that focuses light. ---",
+      "meaning": "Lens has 3 distinct senses.",
       "examples": [
         "One lens popped right out of my glasses.",
         "He wears contact lenses now instead of frames.",
-        "The lenses fog up every time I come inside."
+        "The lenses fog up every time I come inside.",
+        "Surgeons replaced the clouded lens in her right eye.",
+        "The lens stiffens as a person gets older.",
+        "A cataract forms when the lens turns cloudy.",
+        "He sees every issue through the lens of economics.",
+        "The book tells the war through the lens of ordinary soldiers.",
+        "Try looking at the problem through a different lens."
       ],
-      "senses": [],
-      "русский": "линза, стекло очков",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A curved piece of glass or plastic that focuses light",
+          "body": [
+            "(линза, стекло очков)"
+          ],
+          "examples": [
+            "One lens popped right out of my glasses.",
+            "He wears contact lenses now instead of frames.",
+            "The lenses fog up every time I come inside."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The clear part inside the eye that focuses light onto the retina",
+          "body": [
+            "(хрусталик)"
+          ],
+          "examples": [
+            "Surgeons replaced the clouded lens in her right eye.",
+            "The lens stiffens as a person gets older.",
+            "A cataract forms when the lens turns cloudy."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular way of looking at or understanding something",
+          "body": [
+            "(призма (восприятия), ракурс)",
+            "---"
+          ],
+          "examples": [
+            "He sees every issue through the lens of economics.",
+            "The book tells the war through the lens of ordinary soldiers.",
+            "Try looking at the problem through a different lens."
+          ]
+        }
+      ],
+      "русский": "линза, стекло очков; хрусталик; призма (восприятия), ракурс",
       "plural": "lenses",
       "countability": "countable",
       "contrast": "Lens is already singular despite the s on the end; the plural is lenses."
@@ -1093,14 +1663,43 @@
       "term": "makeup",
       "ipa": "/ˈmeɪkʌp/",
       "respell": "MAYK-up",
-      "meaning": "Colored products put on the face to change how it looks. ---",
+      "meaning": "Makeup has 2 distinct senses.",
       "examples": [
         "She doesn't wear much makeup.",
         "He took the stage makeup off with a wipe.",
-        "All her makeup is in a bag under the sink."
+        "All her makeup is in a bag under the sink.",
+        "The makeup of the jury worried both lawyers.",
+        "Soil makeup varies from one field to the next.",
+        "Genetic makeup explains only part of the risk."
       ],
-      "senses": [],
-      "русский": "макияж, декоративная косметика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Colored products put on the face to change how it looks",
+          "body": [
+            "(макияж, декоративная косметика)"
+          ],
+          "examples": [
+            "She doesn't wear much makeup.",
+            "He took the stage makeup off with a wipe.",
+            "All her makeup is in a bag under the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The combination of parts or people that form something",
+          "body": [
+            "(состав, структура)",
+            "---"
+          ],
+          "examples": [
+            "The makeup of the jury worried both lawyers.",
+            "Soil makeup varies from one field to the next.",
+            "Genetic makeup explains only part of the risk."
+          ]
+        }
+      ],
+      "русский": "макияж, декоративная косметика; состав, структура",
       "countability": "uncountable"
     },
     {
@@ -1164,14 +1763,43 @@
       "term": "blush",
       "ipa": "/blʌʃ/",
       "respell": "BLUSH",
-      "meaning": "Pink or red powder put on the cheeks. ---",
+      "meaning": "Blush has 2 distinct senses.",
       "examples": [
         "She added a little blush to her cheeks.",
         "That blush is way too pink for her.",
-        "I ran out of blush two weeks ago."
+        "I ran out of blush two weeks ago.",
+        "A blush spread across her cheeks.",
+        "He felt a blush rising as everyone turned to look.",
+        "The compliment brought a deep blush to his face."
       ],
-      "senses": [],
-      "русский": "румяна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Pink or red powder put on the cheeks",
+          "body": [
+            "(румяна)"
+          ],
+          "examples": [
+            "She added a little blush to her cheeks.",
+            "That blush is way too pink for her.",
+            "I ran out of blush two weeks ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A reddening of the face caused by embarrassment",
+          "body": [
+            "(румянец, краска стыда)",
+            "---"
+          ],
+          "examples": [
+            "A blush spread across her cheeks.",
+            "He felt a blush rising as everyone turned to look.",
+            "The compliment brought a deep blush to his face."
+          ]
+        }
+      ],
+      "русский": "румяна; румянец, краска стыда",
       "countability": "uncountable"
     },
     {
@@ -1502,14 +2130,58 @@
       "term": "compact",
       "ipa": "/ˈkɑːmpækt/",
       "respell": "KAHM-pakt",
-      "meaning": "A small flat case holding face powder and a mirror. ---",
+      "meaning": "Compact has 3 distinct senses.",
       "examples": [
         "She snapped the compact shut and put it away.",
         "The compact has a little mirror inside the lid.",
-        "Her purse was full of old compacts."
+        "Her purse was full of old compacts.",
+        "The states signed a compact on water rights.",
+        "The settlers drew up a compact before going ashore.",
+        "Such compacts need the approval of Congress.",
+        "We rented a compact for the week.",
+        "A compact is much easier to park downtown.",
+        "Compacts get far better mileage."
       ],
-      "senses": [],
-      "русский": "пудреница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small flat case holding face powder and a mirror",
+          "body": [
+            "(пудреница)"
+          ],
+          "examples": [
+            "She snapped the compact shut and put it away.",
+            "The compact has a little mirror inside the lid.",
+            "Her purse was full of old compacts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal agreement between people, groups, or states",
+          "body": [
+            "(договор, соглашение, пакт)"
+          ],
+          "examples": [
+            "The states signed a compact on water rights.",
+            "The settlers drew up a compact before going ashore.",
+            "Such compacts need the approval of Congress."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small car, smaller than a full-size model",
+          "body": [
+            "(малолитражка, компактный автомобиль)",
+            "---"
+          ],
+          "examples": [
+            "We rented a compact for the week.",
+            "A compact is much easier to park downtown.",
+            "Compacts get far better mileage."
+          ]
+        }
+      ],
+      "русский": "пудреница; договор, соглашение, пакт; малолитражка, компактный автомобиль",
       "plural": "compacts",
       "countability": "countable",
       "contrast": "The noun stresses the first syllable, KAHM-pakt; the adjective stresses the second, kuhm-PAKT."

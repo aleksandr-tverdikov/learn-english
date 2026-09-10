@@ -12,16 +12,24 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### metal
 
 **Pronunciation:** /ˈmɛtəl/ &middot; *MET-uhl*
-**Русский:** металл
+**Русский:** металл; метал (стиль музыки)
 **Plural:** *metals*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** In American English the t is flapped, so *metal* sounds exactly like *medal* — only context separates them.
 
-A hard, shiny material such as iron, gold, or copper that conducts heat and electricity.
+Metal has 2 distinct senses.
+
+**1. A hard, shiny material such as iron, gold, or copper that conducts heat and electricity.** (металл)
 
 1. The handle is *metal*, so it gets hot fast.
 2. Copper and zinc are both *metals*.
 3. You can hear the *metal* creaking when a truck crosses the bridge.
+
+**2. A loud, heavy style of rock music.** (метал (стиль музыки))
+
+4. He's been into *metal* since middle school.
+5. The bar books punk and *metal* bands on weekends.
+6. That drummer came out of the *metal* scene.
 
 ---
 
@@ -57,58 +65,96 @@ A reddish-brown metal used mainly for wiring and water pipes.
 ### brass
 
 **Pronunciation:** /bræs/ &middot; *BRAS*
-**Русский:** латунь
+**Русский:** латунь; медные духовые инструменты; начальство, высшее руководство
 **Countability:** uncountable
 
-A yellow metal made from copper and zinc.
+Brass has 3 distinct senses.
+
+**1. A yellow metal made from copper and zinc.** (латунь)
 
 1. The door handles are solid *brass*.
 2. She polishes the *brass* on the boat every spring.
 3. A *brass* band played in the park all afternoon.
+
+**2. The instruments of a band or orchestra that are made of brass, such as trumpets and trombones.** (медные духовые инструменты)
+
+4. The *brass* came in too loud in the second movement.
+5. She plays in the *brass* section of the marching band.
+6. The arrangement is heavy on *brass* and drums.
+
+**3. The highest-ranking officers or officials in an organization.** (начальство, высшее руководство)
+
+7. The *brass* flew in from headquarters to watch the drill.
+8. Department *brass* refused to comment on the case.
+9. Nobody tells the top *brass* what they don't want to hear.
 
 ---
 
 ### bronze
 
 **Pronunciation:** /brɑːnz/ &middot; *BRAHNZ*
-**Русский:** бронза
+**Русский:** бронза; бронза, бронзовая медаль
 **Countability:** uncountable
 
-A brown metal made from copper and tin, used for statues and medals.
+Bronze has 2 distinct senses.
+
+**1. A brown metal made from copper and tin, used for statues and medals.** (бронза)
 
 1. The statue in the square is *bronze*.
 2. He took home the *bronze* in the 400 meters.
 3. *Bronze* darkens as it ages.
+
+**2. A bronze medal, awarded for third place.** (бронза, бронзовая медаль)
+
+4. She took *bronze* in the 400 meters.
+5. The team settled for *bronze* after losing the semifinal.
+6. He has two golds and a *bronze* from the last games.
 
 ---
 
 ### tin
 
 **Pronunciation:** /tɪn/ &middot; *TIN*
-**Русский:** олово
+**Русский:** олово; жестяная банка, коробка
 **Countability:** uncountable
 **Contrast:** In American English *tin* is the metal; the British also use *a tin* for what Americans call *a can*.
 
-A soft, silvery metal, often used as a coating on other metals.
+Tin has 2 distinct senses.
+
+**1. A soft, silvery metal, often used as a coating on other metals.** (олово)
 
 1. The roof is *tin*, so the rain is deafening.
 2. Solder is mostly *tin* and lead.
 3. The old toy soldiers were cast from *tin*.
+
+**2. A metal container with a lid, used for food such as cookies or candy.** (жестяная банка, коробка)
+
+4. She keeps her cookies in a big red *tin*.
+5. There's a *tin* of shortbread on the counter.
+6. He used an old candy *tin* to hold his buttons.
 
 ---
 
 ### lead
 
 **Pronunciation:** /lɛd/ &middot; *LED*
-**Русский:** свинец
+**Русский:** свинец; грифель (карандаша)
 **Countability:** uncountable
 **Contrast:** The metal *lead* is said LED, like the past tense *led* — not LEED, which is the verb *to lead*.
 
-A heavy, soft, gray metal that is poisonous to people.
+Lead has 2 distinct senses.
+
+**1. A heavy, soft, gray metal that is poisonous to people.** (свинец)
 
 1. Older houses may still have *lead* paint.
 2. The water tested positive for *lead*.
 3. *Lead* is surprisingly heavy for its size.
+
+**2. The thin gray stick inside a pencil that leaves the marks.** (грифель (карандаша))
+
+4. The *lead* snapped as soon as I pressed down.
+5. Mechanical pencils take thin refill *leads*.
+6. Sharpen it until the *lead* comes to a point.
 
 ---
 
@@ -307,14 +353,22 @@ A tall, fast-growing grass with hard hollow stems used as a material.
 ### bark
 
 **Pronunciation:** /bɑːrk/ &middot; *BARK*
-**Русский:** кора (дерева)
+**Русский:** кора (дерева); лай
 **Countability:** uncountable
 
-The tough outer covering of a tree trunk and its branches.
+Bark has 2 distinct senses.
+
+**1. The tough outer covering of a tree trunk and its branches.** (кора (дерева))
 
 1. The deer stripped the *bark* off the young trees.
 2. *Bark* mulch keeps the weeds down.
 3. You can tell a birch by its white *bark*.
+
+**2. The short, loud sound a dog makes.** (лай)
+
+4. One sharp *bark* woke the whole house.
+5. The *barks* got louder as I came up the walk.
+6. Her dog has a deep *bark* for such a small animal.
 
 ---
 
@@ -349,14 +403,22 @@ Dense wood from broad-leaved trees such as oak or maple.
 ### nylon
 
 **Pronunciation:** /ˈnaɪlɑːn/ &middot; *NY-lahn*
-**Русский:** нейлон
+**Русский:** нейлон; капроновые чулки, колготки
 **Countability:** uncountable
 
-A strong artificial fiber used in rope, brushes, and clothing.
+Nylon has 2 distinct senses.
+
+**1. A strong artificial fiber used in rope, brushes, and clothing.** (нейлон)
 
 1. The tent is lightweight *nylon*.
 2. *Nylon* dries fast, which is why hikers like it.
 3. The strap is *nylon* webbing.
+
+**2. Women's thin stockings, usually called nylons.** (капроновые чулки, колготки)
+
+4. She snagged her *nylons* on the corner of the chair.
+5. A pair of *nylons* costs almost nothing now.
+6. Back then no woman went to church without *nylons*.
 
 ---
 
@@ -394,15 +456,23 @@ A thick cloth made by pressing wool fibers together instead of weaving them.
 ### yarn
 
 **Pronunciation:** /jɑːrn/ &middot; *YARN*
-**Русский:** пряжа
+**Русский:** пряжа; байка, небылица
 **Plural:** *yarns*
 **Countability:** countable, and uncountable as a substance
 
-Thick spun fiber used for knitting.
+Yarn has 2 distinct senses.
+
+**1. Thick spun fiber used for knitting.** (пряжа)
 
 1. She bought *yarn* for a baby blanket.
 2. The cat got into the *yarn* again.
 3. That shop carries hand-dyed *yarns*.
+
+**2. A long story told for entertainment, often hard to believe.** (байка, небылица)
+
+4. Grandpa spun a *yarn* about a bear on the porch.
+5. It's a good *yarn*, but I don't believe a word of it.
+6. The old sailors traded *yarns* late into the night.
 
 ---
 
@@ -481,15 +551,23 @@ A stretchy, waterproof material made from tree sap or produced synthetically.
 ### vinyl
 
 **Pronunciation:** /ˈvaɪnəl/ &middot; *VY-nuhl*
-**Русский:** винил
+**Русский:** винил; винил, виниловые пластинки
 **Countability:** uncountable
 **Contrast:** Said VY-nuhl, with the first syllable like *vine* — not VIN-il.
 
-A tough plastic used for flooring, siding, and records.
+Vinyl has 2 distinct senses.
+
+**1. A tough plastic used for flooring, siding, and records.** (винил)
 
 1. The kitchen floor is *vinyl*.
 2. He still buys his music on *vinyl*.
 3. *Vinyl* siding never needs painting.
+
+**2. Records as a music format, or the records themselves.** (винил, виниловые пластинки)
+
+4. He collects old jazz on *vinyl*.
+5. The album came out on *vinyl* and streaming the same day.
+6. Her *vinyl* takes up a whole wall of the living room.
 
 ---
 
@@ -541,15 +619,23 @@ A material of fine glass threads, used for insulation and boat hulls.
 ### acrylic
 
 **Pronunciation:** /əˈkrɪlɪk/ &middot; *uh-KRIL-ik*
-**Русский:** акрил
+**Русский:** акрил; акрил (синтетическое волокно, пряжа)
 **Plural:** *acrylics*
 **Countability:** countable, and uncountable as a substance
 
-A clear plastic, or the fast-drying paint made from it.
+Acrylic has 2 distinct senses.
+
+**1. A clear plastic, or the fast-drying paint made from it.** (акрил)
 
 1. The tub surround is *acrylic*.
 2. She paints in *acrylics* now instead of oils.
 3. The sweater is *acrylic*, not wool.
+
+**2. A synthetic fiber used to make sweaters, blankets, and yarn.** (акрил (синтетическое волокно, пряжа))
+
+4. The tag says the sweater is 100% *acrylic*.
+5. *Acrylic* is warm and cheap, but it pills after a season.
+6. She knits baby blankets out of *acrylic* so they can go in the wash.
 
 ---
 
@@ -579,15 +665,29 @@ Stone has 2 distinct senses.
 ### rock
 
 **Pronunciation:** /rɑːk/ &middot; *RAHK*
-**Русский:** камень; горная порода
+**Русский:** камень; горная порода; рок (музыка); опора, надёжный человек
 **Plural:** *rocks*
 **Countability:** countable, and uncountable as a substance
 
-The hard material that makes up the earth's surface, or a loose piece of it.
+Rock has 3 distinct senses.
+
+**1. The hard material that makes up the earth's surface, or a loose piece of it.** (камень; горная порода)
 
 1. They hit solid *rock* two feet down.
 2. Somebody threw a *rock* through the window.
 3. The kids climbed all over the *rocks*.
+
+**2. Loud popular music played mainly on guitars and drums.** (рок (музыка))
+
+4. He grew up on classic *rock*.
+5. The station plays *rock* all afternoon.
+6. Her first band was straight-ahead *rock*.
+
+**3. Someone who stays steady and supports you through hard times.** (опора, надёжный человек)
+
+7. My sister was my *rock* that whole year.
+8. He's been a *rock* for the family since the accident.
+9. Every team needs a *rock* in the locker room.
 
 ---
 
@@ -653,14 +753,22 @@ A hard, glassy mineral found in many rocks and used in watches.
 ### slate
 
 **Pronunciation:** /sleɪt/ &middot; *SLAYT*
-**Русский:** сланец; шифер
+**Русский:** сланец; шифер; список кандидатов; программа (мероприятий)
 **Countability:** uncountable
 
-A gray rock that splits into flat sheets, used for roofs and floors.
+Slate has 2 distinct senses.
+
+**1. A gray rock that splits into flat sheets, used for roofs and floors.** (сланец; шифер)
 
 1. The roof is original *slate*.
 2. The patio is laid with *slate*.
 3. *Slate* cracks if you drop something heavy on it.
+
+**2. A list of candidates, or a set of events planned one after another.** (список кандидатов; программа (мероприятий))
+
+4. The party put up a full *slate* of candidates.
+5. The studio announced its *slate* for next year.
+6. We have a light *slate* of games this weekend.
 
 ---
 
@@ -710,15 +818,23 @@ A soft white rock, or the sticks of it used for writing.
 ### mineral
 
 **Pronunciation:** /ˈmɪnərəl/ &middot; *MIN-ur-uhl*
-**Русский:** минерал
+**Русский:** минерал; минеральное вещество, микроэлемент
 **Plural:** *minerals*
 **Countability:** countable
 
-A natural solid substance found in the ground, such as quartz or salt.
+Mineral has 2 distinct senses.
+
+**1. A natural solid substance found in the ground, such as quartz or salt.** (минерал)
 
 1. The rock is full of shiny *minerals*.
 2. Spinach is a good source of iron and other *minerals*.
 3. The well water has a strong *mineral* taste.
+
+**2. A substance such as iron or calcium that the body needs in small amounts from food.** (минеральное вещество, микроэлемент)
+
+4. Leafy greens are full of vitamins and *minerals*.
+5. The doctor said she was short on one *mineral*.
+6. The label lists every *mineral* added to the cereal.
 
 ---
 
@@ -755,14 +871,22 @@ A fibrous mineral once used for insulation, now known to cause cancer.
 ### ivory
 
 **Pronunciation:** /ˈaɪvəri/ &middot; *EYE-vuh-ree*
-**Русский:** слоновая кость
+**Русский:** слоновая кость; цвет слоновой кости
 **Countability:** uncountable
 
-The hard, creamy-white substance of elephant tusks.
+Ivory has 2 distinct senses.
+
+**1. The hard, creamy-white substance of elephant tusks.** (слоновая кость)
 
 1. The handle is carved *ivory*.
 2. Selling *ivory* is illegal almost everywhere now.
 3. The walls are painted a soft *ivory*.
+
+**2. A creamy white color, a little warmer than pure white.** (цвет слоновой кости)
+
+4. We painted the trim a soft *ivory*.
+5. She chose *ivory* instead of white for the dress.
+6. The walls are done in *ivory* with white molding.
 
 ---
 
@@ -783,29 +907,45 @@ Wet, soft earth.
 ### soil
 
 **Pronunciation:** /sɔɪl/ &middot; *SOYL*
-**Русский:** почва, грунт
+**Русский:** почва, грунт; земля, территория (страны)
 **Countability:** uncountable
 
-The top layer of earth in which plants grow.
+Soil has 2 distinct senses.
+
+**1. The top layer of earth in which plants grow.** (почва, грунт)
 
 1. The *soil* here is too sandy for tomatoes.
 2. Add compost to improve the *soil*.
 3. Erosion has washed away the best *soil*.
+
+**2. The land of a particular country, thought of as its territory.** (земля, территория (страны))
+
+4. It was the first attack on American *soil* in years.
+5. He hasn't set foot on his native *soil* since he was twelve.
+6. Foreign troops were never allowed on their *soil*.
 
 ---
 
 ### acid
 
 **Pronunciation:** /ˈæsɪd/ &middot; *AS-id*
-**Русский:** кислота
+**Русский:** кислота; ЛСД, «кислота» (сленг)
 **Plural:** *acids*
 **Countability:** countable, and uncountable as a substance
 
-A chemical that tastes sour and can burn or dissolve other substances.
+Acid has 2 distinct senses.
+
+**1. A chemical that tastes sour and can burn or dissolve other substances.** (кислота)
 
 1. Battery *acid* ate a hole in the floor mat.
 2. Lemon juice is a mild *acid*.
 3. Some *acids* will burn right through metal.
+
+**2. LSD, an illegal drug that causes hallucinations.** (ЛСД, «кислота» (сленг))
+
+4. Half the band was on *acid* when they recorded that album.
+5. He tried *acid* once in college and never again.
+6. *Acid* was everywhere in the music scene of the late sixties.
 
 ---
 
@@ -989,14 +1129,28 @@ A heavy fuel oil burned in truck and bus engines.
 ### mortar
 
 **Pronunciation:** /ˈmɔːrtər/ &middot; *MOR-tur*
-**Русский:** строительный раствор
+**Русский:** строительный раствор; ступка; миномёт
 **Countability:** uncountable
 
-The paste of cement and sand that holds bricks or stones together.
+Mortar has 3 distinct senses.
+
+**1. The paste of cement and sand that holds bricks or stones together.** (строительный раствор)
 
 1. The *mortar* between the bricks is crumbling.
 2. He scraped out the old *mortar* and repacked it.
 3. Fresh *mortar* has to stay damp while it cures.
+
+**2. A heavy bowl in which spices or medicines are crushed with a pestle.** (ступка)
+
+4. Grind the garlic and salt together in a *mortar*.
+5. She keeps a marble *mortar* and pestle by the stove.
+6. The old pharmacy sign shows a brass *mortar*.
+
+**3. A short, heavy gun that fires shells high into the air.** (миномёт)
+
+7. *Mortar* fire hit the edge of the camp.
+8. Soldiers set up a *mortar* behind the wall.
+9. The town came under *mortar* attack at dawn.
 
 ---
 
@@ -1092,15 +1246,35 @@ A substance made of two or more elements chemically combined.
 ### element
 
 **Pronunciation:** /ˈɛləmənt/ &middot; *EL-uh-muhnt*
-**Русский:** химический элемент
+**Русский:** химический элемент; элемент, составная часть; доля (чего-либо); стихия, непогода; нагревательный элемент, тэн
 **Plural:** *elements*
 **Countability:** countable
 
-A pure substance that cannot be broken down into anything simpler.
+Element has 4 distinct senses.
+
+**1. A pure substance that cannot be broken down into anything simpler.** (химический элемент)
 
 1. Gold is an *element*; brass is not.
 2. About ninety *elements* occur in nature.
 3. Carbon is the *element* all life is built on.
+
+**2. One of the parts or qualities that make up a whole.** (элемент, составная часть; доля (чего-либо))
+
+4. There's an *element* of risk in any investment.
+5. The story has all the *elements* of a good thriller.
+6. An *element* of truth ran through the rumor.
+
+**3. The weather, especially when it is cold, wet, or rough.** (стихия, непогода)
+
+7. A tarp protects the stacked wood from the *elements*.
+8. The hikers were out in the *elements* all night.
+9. Old barns take a beating from the *elements*.
+
+**4. The metal coil that produces heat in a stove, oven, or water heater.** (нагревательный элемент, тэн)
+
+10. The *element* in the water heater burned out.
+11. One *element* on the stove no longer glows red.
+12. Replacing an oven *element* takes about ten minutes.
 
 ---
 

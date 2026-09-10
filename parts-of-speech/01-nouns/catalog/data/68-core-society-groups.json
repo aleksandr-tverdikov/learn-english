@@ -190,14 +190,43 @@
       "term": "slave",
       "ipa": "/sleɪv/",
       "respell": "SLAYV",
-      "meaning": "A person who is legally owned by someone else and forced to work. ---",
+      "meaning": "Slave has 2 distinct senses.",
       "examples": [
         "Her ancestors were freed slaves.",
         "The plantation was worked by slaves.",
-        "No one should be treated like a slave."
+        "No one should be treated like a slave.",
+        "He's a slave to his phone.",
+        "I refuse to be a slave to fashion.",
+        "Dairy farmers are slaves to the milking schedule."
       ],
-      "senses": [],
-      "русский": "раб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who is legally owned by someone else and forced to work",
+          "body": [
+            "(раб)"
+          ],
+          "examples": [
+            "Her ancestors were freed slaves.",
+            "The plantation was worked by slaves.",
+            "No one should be treated like a slave."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone completely controlled by a habit, a feeling, or a routine",
+          "body": [
+            "(раб (привычки, чего-либо))",
+            "---"
+          ],
+          "examples": [
+            "He's a slave to his phone.",
+            "I refuse to be a slave to fashion.",
+            "Dairy farmers are slaves to the milking schedule."
+          ]
+        }
+      ],
+      "русский": "раб; раб (привычки, чего-либо)",
       "plural": "slaves",
       "countability": "countable"
     },
@@ -416,14 +445,58 @@
       "term": "race",
       "ipa": "/reɪs/",
       "respell": "RAYS",
-      "meaning": "A group of people seen as sharing physical features and ancestry. ---",
+      "meaning": "Race has 3 distinct senses.",
       "examples": [
         "The law bans discrimination based on race.",
         "People of all races live on this block.",
-        "Race is still a difficult subject in America."
+        "Race is still a difficult subject in America.",
+        "She won the 400-meter race by half a second.",
+        "The race was called off because of rain.",
+        "We watched the sailboat races from the pier.",
+        "Three candidates entered the race for mayor.",
+        "The Senate race is still too close to call.",
+        "He dropped out of the race in January."
       ],
-      "senses": [],
-      "русский": "раса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of people seen as sharing physical features and ancestry",
+          "body": [
+            "(раса)"
+          ],
+          "examples": [
+            "The law bans discrimination based on race.",
+            "People of all races live on this block.",
+            "Race is still a difficult subject in America."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A contest to see who is fastest",
+          "body": [
+            "(гонка, забег, заезд)"
+          ],
+          "examples": [
+            "She won the 400-meter race by half a second.",
+            "The race was called off because of rain.",
+            "We watched the sailboat races from the pier."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A competition for a position or a prize, especially in politics",
+          "body": [
+            "(борьба за пост, предвыборная гонка)",
+            "---"
+          ],
+          "examples": [
+            "Three candidates entered the race for mayor.",
+            "The Senate race is still too close to call.",
+            "He dropped out of the race in January."
+          ]
+        }
+      ],
+      "русский": "раса; гонка, забег, заезд; борьба за пост, предвыборная гонка",
       "plural": "races",
       "countability": "countable",
       "contrast": "The same word also means a speed contest: a horse race."
@@ -554,14 +627,43 @@
       "term": "migrant",
       "ipa": "/ˈmaɪɡrənt/",
       "respell": "MY-gruhnt",
-      "meaning": "A person who moves from one place to another to find work or a better life. ---",
+      "meaning": "Migrant has 2 distinct senses.",
       "examples": [
         "Migrants pick most of the fruit in this valley.",
         "The camp houses several hundred migrants.",
-        "He came here as a migrant worker in the eighties."
+        "He came here as a migrant worker in the eighties.",
+        "The first migrants show up at the feeder in April.",
+        "Warblers are long-distance migrants.",
+        "Storms can blow migrants hundreds of miles off course."
       ],
-      "senses": [],
-      "русский": "мигрант",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who moves from one place to another to find work or a better life",
+          "body": [
+            "(мигрант)"
+          ],
+          "examples": [
+            "Migrants pick most of the fruit in this valley.",
+            "The camp houses several hundred migrants.",
+            "He came here as a migrant worker in the eighties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bird or animal that travels to another region with the seasons",
+          "body": [
+            "(перелётная птица, мигрирующее животное)",
+            "---"
+          ],
+          "examples": [
+            "The first migrants show up at the feeder in April.",
+            "Warblers are long-distance migrants.",
+            "Storms can blow migrants hundreds of miles off course."
+          ]
+        }
+      ],
+      "русский": "мигрант; перелётная птица, мигрирующее животное",
       "plural": "migrants",
       "countability": "countable"
     },
@@ -1041,14 +1143,43 @@
       "term": "partner",
       "ipa": "/ˈpɑːrtnər/",
       "respell": "PART-nur",
-      "meaning": "The person someone shares their life with, or someone who shares a business. ---",
+      "meaning": "Partner has 2 distinct senses.",
       "examples": [
         "She brought her partner to the office party.",
         "The two partners split the profits evenly.",
-        "He introduced me to his partner of twelve years."
+        "He introduced me to his partner of twelve years.",
+        "My tennis partner pulled a hamstring.",
+        "The teacher had us pick lab partners.",
+        "Change partners when the music stops."
       ],
-      "senses": [],
-      "русский": "партнёр; спутник жизни",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person someone shares their life with, or someone who shares a business",
+          "body": [
+            "(партнёр; спутник жизни)"
+          ],
+          "examples": [
+            "She brought her partner to the office party.",
+            "The two partners split the profits evenly.",
+            "He introduced me to his partner of twelve years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person you are paired with in a game, a dance, or an activity",
+          "body": [
+            "(партнёр (в игре, танце, паре))",
+            "---"
+          ],
+          "examples": [
+            "My tennis partner pulled a hamstring.",
+            "The teacher had us pick lab partners.",
+            "Change partners when the music stops."
+          ]
+        }
+      ],
+      "русский": "партнёр; спутник жизни; партнёр (в игре, танце, паре)",
       "plural": "partners",
       "countability": "countable"
     },
@@ -1722,14 +1853,43 @@
       "term": "labor",
       "ipa": "/ˈleɪbər/",
       "respell": "LAY-bur",
-      "meaning": "Work, especially hard physical work, or the workers who do it. ---",
+      "meaning": "Labor has 2 distinct senses.",
       "examples": [
         "The price includes parts and labor.",
         "Organized labor backed the candidate.",
-        "Farms here depend on seasonal labor."
+        "Farms here depend on seasonal labor.",
+        "She went into labor just after midnight.",
+        "Labor lasted almost fourteen hours.",
+        "He drove her to the hospital as soon as labor started."
       ],
-      "senses": [],
-      "русский": "труд; рабочая сила",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Work, especially hard physical work, or the workers who do it",
+          "body": [
+            "(труд; рабочая сила)"
+          ],
+          "examples": [
+            "The price includes parts and labor.",
+            "Organized labor backed the candidate.",
+            "Farms here depend on seasonal labor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The process of giving birth, from the first contractions onward",
+          "body": [
+            "(роды, родовые схватки)",
+            "---"
+          ],
+          "examples": [
+            "She went into labor just after midnight.",
+            "Labor lasted almost fourteen hours.",
+            "He drove her to the hospital as soon as labor started."
+          ]
+        }
+      ],
+      "русский": "труд; рабочая сила; роды, родовые схватки",
       "countability": "uncountable",
       "contrast": "Americans write labor; the British write labour."
     },

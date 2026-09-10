@@ -27,15 +27,29 @@ The flat upper surface of a table.
 ### tack
 
 **Pronunciation:** /tæk/ &middot; *TAK*
-**Русский:** кнопка, гвоздик с широкой шляпкой
+**Русский:** кнопка, гвоздик с широкой шляпкой; подход, курс действий; конская упряжь, амуниция
 **Plural:** *tacks*
 **Countability:** countable
 
-A short nail with a broad flat head, used to fasten something to a surface.
+Tack has 3 distinct senses.
+
+**1. A short nail with a broad flat head, used to fasten something to a surface.** (кнопка, гвоздик с широкой шляпкой)
 
 1. She hung the poster with four *tacks*.
 2. A *tack* was stuck in the front tire.
 3. Push the map into the corkboard with a *tack*.
+
+**2. A way of dealing with a problem; an approach.** (подход, курс действий)
+
+4. When arguing didn't work, she tried a different *tack*.
+5. The company took a softer *tack* with unhappy customers.
+6. That *tack* got us nowhere, so let's start over.
+
+**3. The saddle, bridle, and other equipment used on a horse.** (конская упряжь, амуниция)
+
+7. She cleans her *tack* after every ride.
+8. The barn has a room just for *tack*.
+9. He bought a used saddle at the *tack* shop.
 
 ---
 
@@ -130,15 +144,23 @@ A wind blowing from behind, which helps you move faster.
 ### take
 
 **Pronunciation:** /teɪk/ &middot; *TAYK*
-**Русский:** мнение, точка зрения; дубль (в кино)
+**Русский:** мнение, точка зрения; дубль (в кино); выручка, сборы
 **Plural:** *takes*
 **Countability:** countable
 
-Someone's particular opinion on a subject, or one filmed attempt at a scene.
+Take has 2 distinct senses.
+
+**1. Someone's particular opinion on a subject, or one filmed attempt at a scene.** (мнение, точка зрения; дубль (в кино))
 
 1. What is your *take* on the new policy?
 2. The director kept the third *take*.
 3. Her *take* on the book is worth reading.
+
+**2. The money collected from a sale, a show, or a game.** (выручка, сборы)
+
+4. The night's *take* was over three thousand dollars.
+5. They split the *take* evenly.
+6. The movie's opening-weekend *take* surprised everyone.
 
 ---
 
@@ -176,15 +198,29 @@ A very soft mineral ground into the fine white powder used on skin.
 ### talk
 
 **Pronunciation:** /tɔːk/ &middot; *TAWK*
-**Русский:** беседа; доклад, лекция
+**Русский:** беседа; доклад, лекция; переговоры; разговоры, слухи
 **Plural:** *talks*
 **Countability:** countable
 
-A speech or a serious conversation about a particular subject.
+Talk has 3 distinct senses.
+
+**1. A speech or a serious conversation about a particular subject.** (беседа; доклад, лекция)
 
 1. She gave a *talk* on climate policy.
 2. We need to have a *talk* about your grades.
 3. There are three *talks* before lunch.
+
+**2. Formal discussions between two sides trying to reach an agreement.** (переговоры)
+
+4. Peace *talks* resumed on Monday.
+5. The two companies are in *talks* about a merger.
+6. Contract *talks* broke down again last night.
+
+**3. Rumor or gossip going around about someone or something.** (разговоры, слухи)
+
+7. There's *talk* of layoffs in the spring.
+8. Their new house is the *talk* of the neighborhood.
+9. Don't pay attention to idle *talk*.
 
 ---
 
@@ -654,16 +690,24 @@ A protective cap at the end of a chromosome that gets shorter as cells divide.
 ### temp
 
 **Pronunciation:** /tɛmp/ &middot; *TEMP*
-**Русский:** временный работник
+**Русский:** временный работник; температура (разг.)
 **Plural:** *temps*
 **Countability:** countable
 **Contrast:** In speech *temp* is also short for *temperature*, as in "check the temp on the oven."
 
-A worker hired for a short period, usually through an agency.
+Temp has 2 distinct senses.
+
+**1. A worker hired for a short period, usually through an agency.** (временный работник)
 
 1. They brought in a *temp* to cover the front desk.
 2. Two *temps* handled the holiday rush.
 3. She worked as a *temp* for a year before they hired her full time.
+
+**2. Temperature, in everyday informal speech.** (температура (разг.))
+
+4. What's the *temp* outside?
+5. Check the water *temp* before you get in.
+6. The engine *temp* is running high again.
 
 ---
 
@@ -1038,15 +1082,23 @@ The layer of the atmosphere above the mesosphere, where temperature rises with h
 ### thing
 
 **Pronunciation:** /θɪŋ/ &middot; *THING*
-**Русский:** вещь, предмет; дело
+**Русский:** вещь, предмет; дело; вещи, пожитки
 **Plural:** *things*
 **Countability:** countable
 
-An object, event, or matter that you do not name more exactly.
+Thing has 2 distinct senses.
+
+**1. An object, event, or matter that you do not name more exactly.** (вещь, предмет; дело)
 
 1. What's that *thing* on the top shelf?
 2. A few *things* still bother me about the plan.
 3. The best *thing* about the job is the people.
+
+**2. Something a person owns; a personal belonging.** (вещи, пожитки)
+
+4. Pack your *things* — we leave at six.
+5. She left a few *things* at my apartment.
+6. He put his *things* in a locker by the door.
 
 ---
 
@@ -1187,15 +1239,23 @@ An act of throwing something, or a light blanket for a couch or chair.
 ### thrush
 
 **Pronunciation:** /θrʌʃ/ &middot; *THRUHSH*
-**Русский:** дрозд
+**Русский:** дрозд; молочница, кандидоз (полости рта)
 **Plural:** *thrushes*
 **Countability:** countable
 
-A songbird with a spotted breast and a musical call.
+Thrush has 2 distinct senses.
+
+**1. A songbird with a spotted breast and a musical call.** (дрозд)
 
 1. A *thrush* sang from the hedge at dawn.
 2. *Thrushes* nest in the woods behind the house.
 3. The wood *thrush* is common in the eastern states.
+
+**2. A fungal infection that leaves white patches in the mouth, common in babies.** (молочница, кандидоз (полости рта))
+
+4. The baby has *thrush* and won't nurse.
+5. The doctor prescribed drops for the *thrush*.
+6. *Thrush* can pass back and forth between a nursing mother and her baby.
 
 ---
 
@@ -1728,15 +1788,35 @@ The total weight or carrying capacity of cargo or ships, measured in tons.
 ### top
 
 **Pronunciation:** /tɑːp/ &middot; *TAHP*
-**Русский:** верх, верхняя часть; топ (одежда)
+**Русский:** верх, верхняя часть; топ (одежда); топ, кофточка; крышка, колпачок; волчок, юла
 **Plural:** *tops*
 **Countability:** countable
 
-The highest part or upper surface of something.
+Top has 4 distinct senses.
+
+**1. The highest part or upper surface of something.** (верх, верхняя часть; топ (одежда))
 
 1. There's dust on the *top* of the fridge.
 2. We hiked to the *top* in two hours.
 3. She wore a black *top* with jeans.
+
+**2. A piece of clothing worn on the upper half of the body.** (топ, кофточка)
+
+4. She wore a black *top* with jeans.
+5. I need a *top* that goes with this skirt.
+6. All the summer *tops* were on sale.
+
+**3. The lid or cap that closes a container.** (крышка, колпачок)
+
+7. I can't get the *top* off this jar.
+8. Put the *top* back on the marker so it doesn't dry out.
+9. The bottle *top* rolled under the table.
+
+**4. A toy that spins on a point when you twist or pull it.** (волчок, юла)
+
+10. The little wooden *top* spun for almost a minute.
+11. He wound the string around the *top* and let it go.
+12. She got a set of painted *tops* for her birthday.
 
 ---
 
@@ -1948,14 +2028,34 @@ An animal or object treated as the emblem of a family, clan, or group.
 ### touch
 
 **Pronunciation:** /tʌtʃ/ &middot; *TUHCH*
-**Русский:** осязание; прикосновение
+**Русский:** осязание; прикосновение; капелька, чуточка; особая манера, умение; контакт, связь (общение)
 **Countability:** uncountable
 
-The sense that lets you feel things through your skin, or physical contact itself.
+Touch has 4 distinct senses.
+
+**1. The sense that lets you feel things through your skin, or physical contact itself.** (осязание; прикосновение)
 
 1. She could tell the fabric by *touch* alone.
 2. The cat flinched at his *touch*.
 3. Let's stay in *touch* after graduation.
+
+**2. A very small amount of something added.** (капелька, чуточка)
+
+4. The soup needs a *touch* of salt.
+5. There's a *touch* of gray at his temples.
+6. Add a *touch* of lemon to the sauce.
+
+**3. A person's own special skill or way of doing something.** (особая манера, умение)
+
+7. She has a wonderful *touch* with nervous horses.
+8. After twenty years the pitcher has lost his *touch*.
+9. A few flowers gave the room a personal *touch*.
+
+**4. Contact or communication with someone.** (контакт, связь (общение))
+
+10. Let's keep in *touch* after graduation.
+11. I lost *touch* with most of my classmates.
+12. Get in *touch* with me when you land.
 
 ---
 
@@ -2384,15 +2484,23 @@ A large plant-eating dinosaur with three horns on its head.
 ### trick
 
 **Pronunciation:** /trɪk/ &middot; *TRIK*
-**Русский:** трюк, фокус; хитрость
+**Русский:** трюк, фокус; хитрость; приём, хитрость (способ)
 **Plural:** *tricks*
 **Countability:** countable
 
-A clever act done to entertain people or to deceive them.
+Trick has 2 distinct senses.
+
+**1. A clever act done to entertain people or to deceive them.** (трюк, фокус; хитрость)
 
 1. The dog knows three *tricks*.
 2. That's an old *trick* salesmen use.
 3. There's a *trick* to opening this window.
+
+**2. A clever method that makes something easier to do.** (приём, хитрость (способ))
+
+4. The *trick* is to add the eggs slowly.
+5. There's a *trick* to opening that window.
+6. She showed me a few *tricks* for saving battery.
 
 ---
 
@@ -2639,15 +2747,23 @@ A small bunch of hair, grass, or feathers growing or held together.
 ### tug
 
 **Pronunciation:** /tʌɡ/ &middot; *TUG*
-**Русский:** рывок, дёрганье
+**Русский:** рывок, дёрганье; буксир (судно)
 **Plural:** *tugs*
 **Countability:** countable
 
-A short, strong pull.
+Tug has 2 distinct senses.
+
+**1. A short, strong pull.** (рывок, дёрганье)
 
 1. She felt a *tug* on the fishing line.
 2. Give the rope a couple of *tugs* when you're ready.
 3. He felt a *tug* of guilt as he drove away.
+
+**2. A small powerful boat that pushes and pulls larger ships.** (буксир (судно))
+
+4. Two *tugs* guided the tanker into the harbor.
+5. The *tug* blew its horn twice.
+6. A *tug* pushed the loaded barge upriver.
 
 ---
 
@@ -2964,15 +3080,23 @@ A feeling of sadness or dissatisfaction.
 ### unicorn
 
 **Pronunciation:** /ˈjuːnɪkɔːrn/ &middot; *YOO-nih-kawrn*
-**Русский:** единорог
+**Русский:** единорог; редкость, недостижимая мечта
 **Plural:** *unicorns*
 **Countability:** countable
 
-An imaginary white horse with a single horn on its forehead.
+Unicorn has 2 distinct senses.
+
+**1. An imaginary white horse with a single horn on its forehead.** (единорог)
 
 1. Her backpack is covered in *unicorns*.
 2. The tapestry shows a *unicorn* in a walled garden.
 3. In tech, a startup worth a billion dollars is called a *unicorn*.
+
+**2. Someone or something that is greatly wanted but almost impossible to find.** (редкость, недостижимая мечта)
+
+4. A quiet, affordable apartment downtown is a *unicorn*.
+5. Candidates with both skills are *unicorns* in this field.
+6. A landlord who returns your deposit is a total *unicorn*.
 
 ---
 
@@ -3798,15 +3922,23 @@ Magnetic tape used to record pictures and sound, or a recording made on it.
 ### view
 
 **Pronunciation:** /vjuː/ &middot; *VYOO*
-**Русский:** вид; взгляд, мнение
+**Русский:** вид; взгляд, мнение; просмотр (видео, страницы)
 **Plural:** *views*
 **Countability:** countable
 
-What can be seen from a particular place, or an opinion about something.
+View has 2 distinct senses.
+
+**1. What can be seen from a particular place, or an opinion about something.** (вид; взгляд, мнение)
 
 1. Our room had a *view* of the ocean.
 2. In my *view*, the price is too high.
 3. Stop at the overlook and enjoy the *view*.
+
+**2. One instance of a video or web page being watched or looked at online.** (просмотр (видео, страницы))
+
+4. The video hit a million *views* in a day.
+5. Her channel averages five thousand *views* a post.
+6. That clip got more *views* than the whole series.
 
 ---
 
@@ -3976,15 +4108,23 @@ Great technical skill, especially in music or another art.
 ### vision
 
 **Pronunciation:** /ˈvɪʒən/ &middot; *VIZH-un*
-**Русский:** зрение; видение, представление о будущем
+**Русский:** зрение; видение, представление о будущем; видение
 **Plural:** *visions*
 **Countability:** both — countable and uncountable with different meanings
 
-The ability to see, or a clear mental picture of how things could be.
+Vision has 2 distinct senses.
+
+**1. The ability to see, or a clear mental picture of how things could be.** (зрение; видение, представление о будущем)
 
 1. My *vision* gets blurry at the end of the day.
 2. She has a *vision* for what the neighborhood could become.
 3. He described a *vision* he had as a boy.
+
+**2. Something seen in a dream or a religious experience.** (видение)
+
+4. The saint reported a *vision* of an angel.
+5. He woke from a *vision* of a burning city.
+6. *Visions* of her grandmother came to her during the fever.
 
 ---
 
@@ -4225,16 +4365,30 @@ A very thin, crisp cookie, or a thin flat disc of some other material.
 ### walk
 
 **Pronunciation:** /wɔːk/ &middot; *WAWK*
-**Русский:** прогулка пешком
+**Русский:** прогулка пешком; походка; уок (выход на первую базу после четырёх болов)
 **Plural:** *walks*
 **Countability:** countable
 **Contrast:** The l is silent: WAWK, rhyming with *talk*.
 
-A trip made on foot, usually for exercise or pleasure.
+Walk has 3 distinct senses.
+
+**1. A trip made on foot, usually for exercise or pleasure.** (прогулка пешком)
 
 1. We took a long *walk* along the river.
 2. It's a ten-minute *walk* from the station.
 3. The dog needs two *walks* a day.
+
+**2. The way a person or animal moves on foot.** (походка)
+
+4. I recognized him from across the street by his *walk*.
+5. The horse has an easy, rolling *walk*.
+6. Her *walk* changed after the surgery.
+
+**3. In baseball, first base awarded to a batter after four balls.** (уок (выход на первую базу после четырёх болов))
+
+7. He drew a *walk* to load the bases.
+8. The pitcher gave up three *walks* in one inning.
+9. A leadoff *walk* often comes back to hurt you.
 
 ---
 
@@ -4646,15 +4800,23 @@ Weapons considered together as a group.
 ### wear
 
 **Pronunciation:** /wɛr/ &middot; *WAIR*
-**Русский:** износ
+**Русский:** износ; одежда (определённого вида)
 **Countability:** uncountable
 **Contrast:** *Wear* sounds exactly like *where*; it does not rhyme with *hear*.
 
-The damage or thinning that comes from ordinary use over time.
+Wear has 2 distinct senses.
+
+**1. The damage or thinning that comes from ordinary use over time.** (износ)
 
 1. The tires are showing a lot of *wear*.
 2. The lease covers normal *wear* and tear.
 3. These boots take heavy *wear* and still look new.
+
+**2. Clothing of a particular kind, especially as sold in stores.** (одежда (определённого вида))
+
+4. The store's children's *wear* is on the second floor.
+5. She designs evening *wear* for a small label.
+6. Formal *wear* is required at the dinner.
 
 ---
 
@@ -4844,15 +5006,23 @@ A whistling sound made when someone has trouble breathing.
 ### whip
 
 **Pronunciation:** /wɪp/ &middot; *WIP*
-**Русский:** кнут, плеть
+**Русский:** кнут, плеть; парламентский организатор партии (следит за дисциплиной голосования)
 **Plural:** *whips*
 **Countability:** countable
 
-A long piece of leather or rope on a handle, used to drive animals or to strike.
+Whip has 2 distinct senses.
+
+**1. A long piece of leather or rope on a handle, used to drive animals or to strike.** (кнут, плеть)
 
 1. The driver cracked his *whip* and the horses started forward.
 2. Old *whips* hung on the barn wall.
 3. He never used a *whip* on his horses.
+
+**2. A member of a political party whose job is to keep other members voting with the party.** (парламентский организатор партии (следит за дисциплиной голосования))
+
+4. The majority *whip* counted votes before the session.
+5. Both *whips* said the bill would pass.
+6. She served as party *whip* for six years.
 
 ---
 
@@ -5247,14 +5417,22 @@ A person who takes part in a religious service or prays to a god.
 ### worth
 
 **Pronunciation:** /wɜːrθ/ &middot; *WURTH*
-**Русский:** ценность, стоимость
+**Русский:** ценность, стоимость; на (какую-л.) сумму; запас на (какой-л.) срок
 **Countability:** uncountable
 
-The value or importance of something or someone.
+Worth has 2 distinct senses.
+
+**1. The value or importance of something or someone.** (ценность, стоимость)
 
 1. The painting's *worth* has doubled since 1990.
 2. He wanted to prove his *worth* to the team.
 3. Her net *worth* is listed in the report.
+
+**2. The amount of something that a stated sum of money buys or a stated time uses.** (на (какую-л.) сумму; запас на (какой-л.) срок)
+
+4. He put twenty dollars' *worth* of gas in the truck.
+5. We have a week's *worth* of food in the pantry.
+6. She bought a year's *worth* of contact lenses.
 
 ---
 
@@ -5412,16 +5590,24 @@ An involuntary opening of the mouth when you are tired or bored.
 ### yen
 
 **Pronunciation:** /jɛn/ &middot; *YEN*
-**Русский:** иена (денежная единица Японии)
+**Русский:** иена (денежная единица Японии); тяга, сильное желание
 **Plural:** *yen*
 **Countability:** countable
 **Contrast:** The plural takes no -s: *five hundred yen*.
 
-The unit of money used in Japan.
+Yen has 2 distinct senses.
+
+**1. The unit of money used in Japan.** (иена (денежная единица Японии))
 
 1. The ticket cost eight thousand *yen*.
 2. The *yen* fell against the dollar this week.
 3. He changed his dollars into *yen* at the airport.
+
+**2. A strong desire or longing for something.** (тяга, сильное желание)
+
+4. She had a *yen* for the ocean after years inland.
+5. I've got a *yen* for something sweet.
+6. His *yen* to travel never went away.
 
 ---
 
@@ -5519,15 +5705,23 @@ In horror stories, a dead body brought back to life and able to walk.
 ### zone
 
 **Pronunciation:** /zoʊn/ &middot; *ZOHN*
-**Русский:** зона, участок
+**Русский:** зона, участок; состояние полной сосредоточенности, «в ударе»
 **Plural:** *zones*
 **Countability:** countable
 
-An area set apart by a particular purpose, rule, or quality.
+Zone has 2 distinct senses.
+
+**1. An area set apart by a particular purpose, rule, or quality.** (зона, участок)
 
 1. Parking is not allowed in the loading *zone*.
 2. The city divided the area into three residential *zones*.
 3. Slow down — you're in a school *zone*.
+
+**2. A state of easy, complete focus in which you perform at your best.** (состояние полной сосредоточенности, «в ударе»)
+
+4. He was in the *zone* and hit every shot.
+5. Once I'm in the *zone*, hours go by without my noticing.
+6. She got in the *zone* and finished the draft in one night.
 
 ---
 

@@ -658,32 +658,54 @@ A barrier across a doorway or stairs to keep a small child out.
 ### bouncer
 
 **Pronunciation:** /ˈbaʊnsər/ &middot; *BOWN-sur*
-**Русский:** детский шезлонг-качалка
+**Русский:** детский шезлонг-качалка; вышибала, охранник в клубе
 **Plural:** *bouncers*
 **Countability:** countable
 **Contrast:** The same word also means the man who throws people out of a bar.
 
-A soft springy seat that rocks a baby up and down.
+Bouncer has 2 distinct senses.
+
+**1. A soft springy seat that rocks a baby up and down.** (детский шезлонг-качалка)
 
 1. She naps best in the *bouncer*.
 2. Set the *bouncer* on the floor, never on a table.
 3. Both *bouncers* came from a garage sale.
+
+**2. A strong man employed by a bar or club to keep out or throw out troublemakers.** (вышибала, охранник в клубе)
+
+4. The *bouncer* checked our IDs at the door.
+5. Two *bouncers* walked the drunk guy outside.
+6. He worked as a *bouncer* while he was in college.
 
 ---
 
 ### walker
 
 **Pronunciation:** /ˈwɔːkər/ &middot; *WAW-kur*
-**Русский:** ходунки (детские)
+**Русский:** ходунки (детские); ходунки (для пожилых, больных); пешеход, любитель ходьбы
 **Plural:** *walkers*
 **Countability:** countable
 **Contrast:** Russian *ходунки* is plural, but English uses a singular: *a walker*.
 
-A wheeled frame with a seat that a baby scoots around in.
+Walker has 3 distinct senses.
+
+**1. A wheeled frame with a seat that a baby scoots around in.** (ходунки (детские))
 
 1. He raced across the kitchen in his *walker*.
 2. Doctors here discourage the use of a *walker*.
 3. Old-style *walkers* are banned in Canada.
+
+**2. A metal frame that a person leans on for support while walking.** (ходунки (для пожилых, больных))
+
+4. She gets around the house with a *walker*.
+5. After the hip surgery he needed a *walker* for a month.
+6. The hallway is wide enough for two *walkers* to pass.
+
+**3. A person who is walking, especially for exercise.** (пешеход, любитель ходьбы)
+
+7. The trail is popular with *walkers* and runners.
+8. Early-morning *walkers* filled the park.
+9. She's a fast *walker*, so I had trouble keeping up.
 
 ---
 
@@ -744,15 +766,23 @@ A casual word for a baby's pacifier.
 ### rattle
 
 **Pronunciation:** /ˈrætl/ &middot; *RAT-uhl*
-**Русский:** погремушка
+**Русский:** погремушка; дребезжание, стук, грохот
 **Plural:** *rattles*
 **Countability:** countable
 
-A baby's toy that makes a noise when it is shaken.
+Rattle has 2 distinct senses.
+
+**1. A baby's toy that makes a noise when it is shaken.** (погремушка)
 
 1. He shook the *rattle* and laughed.
 2. The *rattle* rolled under the couch.
 3. Wooden *rattles* were a popular shower gift.
+
+**2. A quick series of short knocking sounds.** (дребезжание, стук, грохот)
+
+4. There's a *rattle* under the hood at low speeds.
+5. The wind set up a *rattle* in the storm door.
+6. I keep hearing a *rattle* somewhere in the dashboard.
 
 ---
 
@@ -1060,15 +1090,23 @@ Feeding a baby with milk from the mother's breast.
 ### nursing
 
 **Pronunciation:** /ˈnɜːrsɪŋ/ &middot; *NUR-sing*
-**Русский:** кормление грудью
+**Русский:** кормление грудью; сестринское дело, профессия медсестры
 **Countability:** uncountable
 **Contrast:** The same word also means the profession of a nurse — context decides.
 
-Feeding a baby at the breast.
+Nursing has 2 distinct senses.
+
+**1. Feeding a baby at the breast.** (кормление грудью)
 
 1. *Nursing* every two hours wore her out.
 2. She found a quiet room for *nursing*.
 3. *Nursing* got easier after the first month.
+
+**2. The profession of caring for sick and injured people.** (сестринское дело, профессия медсестры)
+
+4. She's going back to school for *nursing*.
+5. Twenty years of *nursing* taught him patience.
+6. The hospital has a serious *nursing* shortage.
 
 ---
 
@@ -1292,14 +1330,22 @@ Wetting the bed during sleep, common in young children.
 ### babble
 
 **Pronunciation:** /ˈbæbl/ &middot; *BAB-uhl*
-**Русский:** лепет (младенца)
+**Русский:** лепет (младенца); гул голосов, невнятный говор
 **Countability:** uncountable
 
-The repeated sounds a baby makes before real words.
+Babble has 2 distinct senses.
+
+**1. The repeated sounds a baby makes before real words.** (лепет (младенца))
 
 1. Her *babble* is starting to sound like sentences.
 2. We heard happy *babble* through the monitor.
 3. That *babble* turns into words faster than you think.
+
+**2. A confused noise of many people talking at once.** (гул голосов, невнятный говор)
+
+4. A *babble* of voices filled the hallway.
+5. I couldn't hear the announcement over the *babble*.
+6. The room went from a *babble* to total silence.
 
 ---
 
@@ -2011,16 +2057,24 @@ The care and upbringing a child receives, as opposed to inherited traits.
 ### sandbox
 
 **Pronunciation:** /ˈsændbɑːks/ &middot; *SAND-bahks*
-**Русский:** песочница
+**Русский:** песочница; песочница (изолированная среда для тестов)
 **Plural:** *sandboxes*
 **Countability:** countable
 **Contrast:** American *sandbox*, British *sandpit*.
 
-A low box of sand where small children dig and build.
+Sandbox has 2 distinct senses.
+
+**1. A low box of sand where small children dig and build.** (песочница)
 
 1. The kids spent an hour in the *sandbox*.
 2. We covered the *sandbox* so the cats stay out.
 3. Both *sandboxes* at the park need new sand.
+
+**2. A separated area where new software can be tested safely.** (песочница (изолированная среда для тестов))
+
+4. Run the code in a *sandbox* first.
+5. The bank gives developers a *sandbox* to test payments.
+6. Nothing in the *sandbox* touches real customer data.
 
 ---
 
@@ -2043,16 +2097,30 @@ A long board balanced in the middle so two children can go up and down.
 ### swing
 
 **Pronunciation:** /swɪŋ/ &middot; *SWING*
-**Русский:** качели
+**Русский:** качели; замах, удар (в гольфе, бейсболе); сдвиг, резкая перемена
 **Plural:** *swings*
 **Countability:** countable
 **Contrast:** Russian *качели* is plural, but one seat in English is *a swing*.
 
-A seat hung on ropes or chains for a child to ride back and forth.
+Swing has 3 distinct senses.
+
+**1. A seat hung on ropes or chains for a child to ride back and forth.** (качели)
 
 1. Push me higher on the *swing*!
 2. The baby *swing* has a bar across the front.
 3. All four *swings* were taken.
+
+**2. A single act of swinging your arm, a bat, or a club at something.** (замах, удар (в гольфе, бейсболе))
+
+4. He worked on his golf *swing* all summer.
+5. She took a big *swing* and missed the ball.
+6. The coach filmed each player's *swing* in slow motion.
+
+**3. A clear shift from one position, mood, or result to another.** (сдвиг, резкая перемена)
+
+7. There was a big *swing* toward the challenger in the final week.
+8. Her mood *swings* worried her parents.
+9. A ten-point *swing* in the polls decided the race.
 
 ---
 

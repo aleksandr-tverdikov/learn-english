@@ -12,32 +12,66 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### house
 
 **Pronunciation:** /haʊs/ &middot; *HOWS*
-**Русский:** дом (строение)
+**Русский:** дом (строение); зрительный зал; публика; фирма; дом (издательский, модный); заведение; палата (парламента)
 **Plural:** *houses*
 **Countability:** countable
 **Contrast:** The plural *houses* is pronounced HOW-ziz — the s turns into a z sound.
 
-A building that people live in, usually one family per building.
+House has 4 distinct senses.
+
+**1. A building that people live in, usually one family per building.** (дом (строение))
 
 1. They bought a *house* on the north side of town.
 2. All the *houses* on this street were built in the fifties.
 3. Come over to my *house* after work.
+
+**2. The audience at a theater or club, or the part of the building where they sit.** (зрительный зал; публика)
+
+4. The show played to a full *house*.
+5. The *house* lights went down and the curtain rose.
+6. It was a tough *house* — nobody laughed at anything.
+
+**3. A company or firm, especially a publisher, restaurant, or fashion business.** (фирма; дом (издательский, модный); заведение)
+
+7. The book was turned down by three *houses* before it sold.
+8. Dessert is on the *house* tonight.
+9. She designs for an Italian fashion *house*.
+
+**4. One of the two parts of a lawmaking body.** (палата (парламента))
+
+10. The bill passed both *houses* by a wide margin.
+11. The upper *house* rejected the amendment.
+12. Each *house* sets its own rules for debate.
 
 ---
 
 ### home
 
 **Pronunciation:** /hoʊm/ &middot; *HOHM*
-**Русский:** дом (жильё), родной дом
+**Русский:** дом (жильё), родной дом; дом престарелых, приют, интернат; родина; естественная среда обитания
 **Plural:** *homes*
 **Countability:** countable
 **Contrast:** A *house* is the building; a *home* is where you live. And you go home, never "to home".
 
-The place where someone lives and feels they belong.
+Home has 3 distinct senses.
+
+**1. The place where someone lives and feels they belong.** (дом (жильё), родной дом)
 
 1. I work from *home* three days a week.
 2. They're saving up for their first *home*.
 3. It took him two hours to get *home* in the snow.
+
+**2. A place where people who need care live and are looked after.** (дом престарелых, приют, интернат)
+
+4. Her mother moved into a nursing *home* last spring.
+5. He grew up in a children's *home* outside the city.
+6. The *home* has room for forty residents.
+
+**3. The place where something began, or where a plant or animal naturally lives.** (родина; естественная среда обитания)
+
+7. Memphis is the *home* of the blues.
+8. These wetlands are *home* to hundreds of bird species.
+9. Italy is the *home* of espresso.
 
 ---
 
@@ -166,16 +200,24 @@ The space directly under the roof of a house, often used for storage.
 ### garage
 
 **Pronunciation:** /ɡəˈrɑːʒ/ &middot; *guh-RAHZH*
-**Русский:** гараж
+**Русский:** гараж; автомастерская, автосервис
 **Plural:** *garages*
 **Countability:** countable
 **Contrast:** Americans stress the second syllable, guh-RAHZH; the British say GA-rij.
 
-A building or part of a house where a car is kept.
+Garage has 2 distinct senses.
+
+**1. A building or part of a house where a car is kept.** (гараж)
 
 1. Park in the *garage* — it's supposed to hail.
 2. His band practices in the *garage*.
 3. The house has a two-car *garage*.
+
+**2. A shop where cars are repaired and serviced.** (автомастерская, автосервис)
+
+4. My car has been at the *garage* all week.
+5. He runs a small *garage* out on Route 9.
+6. Both *garages* in town quoted me the same price.
 
 ---
 
@@ -236,46 +278,82 @@ A covered platform at the entrance to a house.
 ### balcony
 
 **Pronunciation:** /ˈbælkəni/ &middot; *BAL-kuh-nee*
-**Русский:** балкон
+**Русский:** балкон; балкон, ярус (в театре)
 **Plural:** *balconies*
 **Countability:** countable
 
-A platform with a railing that sticks out from an upper wall of a building.
+Balcony has 2 distinct senses.
+
+**1. A platform with a railing that sticks out from an upper wall of a building.** (балкон)
 
 1. Our room had a small *balcony* facing the ocean.
 2. She keeps herbs out on the *balcony*.
 3. The apartments with *balconies* cost more.
+
+**2. The upper floor of seats in a theater or movie house.** (балкон, ярус (в театре))
+
+4. Our tickets were in the second row of the *balcony*.
+5. The *balcony* was closed for the matinee.
+6. Kids used to sneak up to the *balcony*.
 
 ---
 
 ### deck
 
 **Pronunciation:** /dɛk/ &middot; *DEK*
-**Русский:** деревянная терраса, настил
+**Русский:** деревянная терраса, настил; колода (карт); палуба
 **Plural:** *decks*
 **Countability:** countable
 
-A flat wooden platform built outside a house for sitting on.
+Deck has 3 distinct senses.
+
+**1. A flat wooden platform built outside a house for sitting on.** (деревянная терраса, настил)
 
 1. We're grilling out on the *deck*.
 2. The *deck* needs to be resealed this summer.
 3. He built the *deck* himself over two weekends.
+
+**2. A complete set of playing cards.** (колода (карт))
+
+4. Shuffle the *deck* and deal seven cards each.
+5. He keeps a *deck* of cards in the glove box.
+6. Two of the *decks* were missing a queen.
+
+**3. One of the floors of a ship, especially the open top one.** (палуба)
+
+7. Passengers gathered on the *deck* to watch the harbor.
+8. The lower *decks* were already flooded.
+9. She went up on *deck* for some air.
 
 ---
 
 ### yard
 
 **Pronunciation:** /jɑːrd/ &middot; *YAHRD*
-**Русский:** двор, участок у дома
+**Русский:** двор, участок у дома; ярд (мера длины, 0,91 м); двор, площадка (складская, железнодорожная)
 **Plural:** *yards*
 **Countability:** countable
 **Contrast:** The grass around an American house is the *yard*; the British would call it the garden.
 
-The area of ground around a house, usually with grass.
+Yard has 3 distinct senses.
+
+**1. The area of ground around a house, usually with grass.** (двор, участок у дома)
 
 1. The kids are playing in the back *yard*.
 2. We have a huge *yard* and nobody to mow it.
 3. Most of the *yards* on this block have fences.
+
+**2. A unit of length equal to three feet, about 0.91 meters.** (ярд (мера длины, 0,91 м))
+
+4. The store sells fabric by the *yard*.
+5. He ran for eighty *yards* on the first play.
+6. Give me another *yard* of rope.
+
+**3. An enclosed outdoor area where a business stores goods or works on them.** (двор, площадка (складская, железнодорожная))
+
+7. The lumber *yard* opens at seven.
+8. Freight cars sat in the rail *yard* all week.
+9. They keep the trucks in a fenced *yard* behind the shop.
 
 ---
 
@@ -312,15 +390,23 @@ A short private road leading from the street to a house or garage.
 ### lobby
 
 **Pronunciation:** /ˈlɑːbi/ &middot; *LAH-bee*
-**Русский:** вестибюль, холл
+**Русский:** вестибюль, холл; лобби, группа давления
 **Plural:** *lobbies*
 **Countability:** countable
 
-The open area just inside the main entrance of a large building.
+Lobby has 2 distinct senses.
+
+**1. The open area just inside the main entrance of a large building.** (вестибюль, холл)
 
 1. Wait for me in the *lobby*.
 2. The hotel *lobby* smelled like chlorine.
 3. They redid the *lobbies* in both towers.
+
+**2. A group that tries to influence lawmakers on behalf of an industry or cause.** (лобби, группа давления)
+
+4. The gun *lobby* fought the bill in committee.
+5. Farmers have a powerful *lobby* in Washington.
+6. Both *lobbies* spent millions on advertising.
 
 ---
 
@@ -456,62 +542,118 @@ The small entrance area just inside the front door of a house or theater.
 ### suite
 
 **Pronunciation:** /swiːt/ &middot; *SWEET*
-**Русский:** номер люкс, комплект комнат
+**Русский:** номер люкс, комплект комнат; пакет (программ), набор; сюита
 **Plural:** *suites*
 **Countability:** countable
 **Contrast:** Sounds exactly like *sweet* — not like *suit*.
 
-A set of connected rooms, especially in a hotel.
+Suite has 3 distinct senses.
+
+**1. A set of connected rooms, especially in a hotel.** (номер люкс, комплект комнат)
 
 1. They put us in a *suite* on the top floor.
 2. The office *suite* takes up half the eighth floor.
 3. All the *suites* come with a small kitchen.
+
+**2. A set of programs or tools sold together as one package.** (пакет (программ), набор)
+
+4. The office *suite* includes a spreadsheet program.
+5. We switched to a cheaper software *suite*.
+6. The security *suite* updates itself every week.
+
+**3. A piece of music made up of several short related parts.** (сюита)
+
+7. The orchestra played a *suite* from the ballet.
+8. He recorded a jazz *suite* in three movements.
+9. The *suite* opens with a slow march.
 
 ---
 
 ### wall
 
 **Pronunciation:** /wɔːl/ &middot; *WAWL*
-**Русский:** стена
+**Русский:** стена; стена, преграда; стенка (сосуда, органа, трубы)
 **Plural:** *walls*
 **Countability:** countable
 
-A vertical structure that encloses a room or building.
+Wall has 3 distinct senses.
+
+**1. A vertical structure that encloses a room or building.** (стена)
 
 1. Hang the mirror on that *wall*.
 2. The *walls* are so thin you can hear everything.
 3. We knocked out a *wall* to open up the kitchen.
+
+**2. Something that blocks progress or keeps people apart.** (стена, преграда)
+
+4. The investigators ran into a *wall* of silence.
+5. At mile twenty, runners hit the *wall*.
+6. Years of arguing built a *wall* between them.
+
+**3. The side or lining of a container, a pipe, or a part of the body.** (стенка (сосуда, органа, трубы))
+
+7. Fat builds up on the *walls* of the arteries.
+8. The *walls* of the tank are two inches thick.
+9. Acid had eaten through the *wall* of the pipe.
 
 ---
 
 ### ceiling
 
 **Pronunciation:** /ˈsiːlɪŋ/ &middot; *SEE-ling*
-**Русский:** потолок
+**Русский:** потолок; верхний предел, потолок (ограничение)
 **Plural:** *ceilings*
 **Countability:** countable
 **Contrast:** Sounds exactly like *sealing*.
 
-The upper inside surface of a room.
+Ceiling has 2 distinct senses.
+
+**1. The upper inside surface of a room.** (потолок)
 
 1. There's a water stain on the *ceiling*.
 2. The apartment has ten-foot *ceilings*.
 3. He painted the *ceiling* and got more on himself than on it.
+
+**2. The highest level that something is allowed to reach.** (верхний предел, потолок (ограничение))
+
+4. Congress voted again to raise the debt *ceiling*.
+5. The plan puts a *ceiling* on out-of-pocket costs.
+6. She hit a *ceiling* on what that job would ever pay.
 
 ---
 
 ### floor
 
 **Pronunciation:** /flɔːr/ &middot; *FLOR*
-**Русский:** пол; этаж
+**Русский:** пол; этаж; дно (океана); земля (в лесу, долине); нижний предел, минимум; зал заседаний; право выступить
 **Plural:** *floors*
 **Countability:** countable
 
-The flat surface you walk on inside a building, or one level of a building.
+Floor has 4 distinct senses.
+
+**1. The flat surface you walk on inside a building, or one level of a building.** (пол; этаж)
 
 1. Don't leave your bag on the *floor*.
 2. We're on the fourth *floor*.
 3. The kitchen *floor* is real oak under that linoleum.
+
+**2. The ground at the bottom of the ocean, a forest, or a valley.** (дно (океана); земля (в лесу, долине))
+
+4. Strange creatures live on the ocean *floor*.
+5. Fallen leaves cover the forest *floor*.
+6. The valley *floor* is the best farmland around.
+
+**3. The lowest level that a price or amount is allowed to fall to.** (нижний предел, минимум)
+
+7. The law sets a *floor* under wages.
+8. Traders think the market has finally found a *floor*.
+9. There's a price *floor* for milk.
+
+**4. The part of a legislature or meeting where members speak and vote.** (зал заседаний; право выступить)
+
+10. The bill finally reached the *floor*.
+11. The senator asked for the *floor*.
+12. Debate on the *floor* lasted six hours.
 
 ---
 
@@ -533,15 +675,29 @@ A flat panel that opens and closes an entrance to a room or building.
 ### window
 
 **Pronunciation:** /ˈwɪndoʊ/ &middot; *WIN-doh*
-**Русский:** окно
+**Русский:** окно; окно (на экране компьютера); окно, промежуток времени (для чего-л.)
 **Plural:** *windows*
 **Countability:** countable
 
-An opening in a wall filled with glass that lets in light.
+Window has 3 distinct senses.
+
+**1. An opening in a wall filled with glass that lets in light.** (окно)
 
 1. Open a *window* — it's stuffy in here.
 2. The *windows* rattle whenever a truck goes by.
 3. She sat by the *window* and watched it rain.
+
+**2. A separate area on a computer screen showing one program or file.** (окно (на экране компьютера))
+
+4. Open the file in a new *window*.
+5. I had six *windows* open and lost track of them.
+6. Drag the *window* over to the second monitor.
+
+**3. A limited period of time in which something can be done.** (окно, промежуток времени (для чего-л.))
+
+7. The cable guy gave me a four-hour *window*.
+8. There's a short *window* to file an appeal.
+9. We missed our *window* to book cheap tickets.
 
 ---
 
@@ -617,15 +773,29 @@ The metal joint that a door or lid swings on.
 ### lock
 
 **Pronunciation:** /lɑːk/ &middot; *LAHK*
-**Русский:** замок (дверной)
+**Русский:** замок (дверной); прядь, локон; шлюз
 **Plural:** *locks*
 **Countability:** countable
 
-A device on a door that keeps it shut until it is opened with a key or code.
+Lock has 3 distinct senses.
+
+**1. A device on a door that keeps it shut until it is opened with a key or code.** (замок (дверной))
 
 1. The *lock* on the back door is broken.
 2. We changed the *locks* after we moved in.
 3. He jiggled the key in the *lock* until it turned.
+
+**2. A piece of hair that hangs together.** (прядь, локон)
+
+4. A *lock* of hair fell across her forehead.
+5. They kept a *lock* of the baby's hair in an envelope.
+6. Gray *locks* stuck out from under his cap.
+
+**3. A gated section of a canal that raises or lowers boats.** (шлюз)
+
+7. The barge waited an hour to enter the *lock*.
+8. There are eight *locks* between the two lakes.
+9. Water poured in and lifted the boat inside the *lock*.
 
 ---
 
@@ -662,15 +832,29 @@ The step just outside an outer door.
 ### step
 
 **Pronunciation:** /stɛp/ &middot; *STEP*
-**Русский:** ступенька
+**Русский:** ступенька; шаг; этап, шаг (действие)
 **Plural:** *steps*
 **Countability:** countable
 
-One of the flat surfaces you put your foot on when going up or down.
+Step has 3 distinct senses.
+
+**1. One of the flat surfaces you put your foot on when going up or down.** (ступенька)
 
 1. Watch that bottom *step* — it's loose.
 2. The kids were sitting on the front *steps*.
 3. There's one more *step* than you think at the top.
+
+**2. A single movement made by lifting a foot and putting it down.** (шаг)
+
+4. Take two *steps* to your left.
+5. The baby took her first *steps* last week.
+6. He was only a few *steps* behind me.
+
+**3. One action or stage in a process.** (этап, шаг (действие))
+
+7. The first *step* is to gather your documents.
+8. Follow the *steps* in the order they are listed.
+9. Filing the report was an important *step* forward.
 
 ---
 
@@ -738,15 +922,29 @@ A machine that carries people up and down between floors of a building.
 ### landing
 
 **Pronunciation:** /ˈlændɪŋ/ &middot; *LAN-ding*
-**Русский:** лестничная площадка
+**Русский:** лестничная площадка; посадка, приземление; пристань, причал
 **Plural:** *landings*
 **Countability:** countable
 
-The flat area at the top of a flight of stairs or between two flights.
+Landing has 3 distinct senses.
+
+**1. The flat area at the top of a flight of stairs or between two flights.** (лестничная площадка)
 
 1. There's a window on the *landing*.
 2. He stopped on the *landing* to catch his breath.
 3. The *landings* are wide enough for a chair.
+
+**2. The act of bringing an aircraft or a spacecraft down to the ground.** (посадка, приземление)
+
+4. The pilot made a smooth *landing* in heavy wind.
+5. Bad weather forced an emergency *landing* in Denver.
+6. The moon *landing* was watched by millions.
+
+**3. A place on a shore where boats load and unload.** (пристань, причал)
+
+7. We put the canoe in at the public boat *landing*.
+8. The ferry *landing* is at the end of this road.
+9. Kids were fishing off the old *landing*.
 
 ---
 
@@ -830,46 +1028,82 @@ A channel along the edge of a roof that carries rainwater away.
 ### beam
 
 **Pronunciation:** /biːm/ &middot; *BEEM*
-**Русский:** балка
+**Русский:** балка; луч (света)
 **Plural:** *beams*
 **Countability:** countable
 
-A long thick piece of wood or metal that supports part of a building.
+Beam has 2 distinct senses.
+
+**1. A long thick piece of wood or metal that supports part of a building.** (балка)
 
 1. That wall can't come out — there's a *beam* behind it.
 2. The ceiling has exposed wooden *beams*.
 3. A steel *beam* runs the length of the basement.
+
+**2. A line of light shining out from something.** (луч (света))
+
+4. The flashlight's *beam* swept across the yard.
+5. A *beam* of sunlight came through the kitchen window.
+6. The truck's high *beams* blinded me for a second.
 
 ---
 
 ### column
 
 **Pronunciation:** /ˈkɑːləm/ &middot; *KAH-luhm*
-**Русский:** колонна
+**Русский:** колонна; колонка (авторская рубрика); столбец, колонка (таблицы, текста); колонна (людей, машин)
 **Plural:** *columns*
 **Countability:** countable
 **Contrast:** The final n is silent: KAH-luhm.
 
-A tall upright post that supports part of a building.
+Column has 4 distinct senses.
+
+**1. A tall upright post that supports part of a building.** (колонна)
 
 1. The courthouse has six white *columns* out front.
 2. A concrete *column* holds up the parking deck.
 3. They wrapped the porch *columns* in new trim.
+
+**2. A regular piece of writing by the same person in a newspaper or magazine.** (колонка (авторская рубрика))
+
+4. She writes a weekly *column* on food.
+5. His *column* runs on Sundays.
+6. The paper dropped two of its *columns* last year.
+
+**3. One of the vertical sections into which numbers or text are arranged.** (столбец, колонка (таблицы, текста))
+
+7. Add up the numbers in the third *column*.
+8. The last name goes in the left *column*.
+9. Widen the *columns* so the dates fit.
+
+**4. A long line of people or vehicles moving one behind another.** (колонна (людей, машин))
+
+10. A *column* of trucks rolled through the town.
+11. Marchers formed a *column* two miles long.
+12. *Columns* of refugees moved along the highway.
 
 ---
 
 ### arch
 
 **Pronunciation:** /ɑːrtʃ/ &middot; *AHRCH*
-**Русский:** арка, свод
+**Русский:** арка, свод; свод стопы
 **Plural:** *arches*
 **Countability:** countable
 
-A curved structure over an opening such as a door or window.
+Arch has 2 distinct senses.
+
+**1. A curved structure over an opening such as a door or window.** (арка, свод)
 
 1. There's a stone *arch* over the front gate.
 2. The hallway ends in a low *arch*.
 3. The *arches* along the courtyard are original.
+
+**2. The curved underside of the foot between the heel and the toes.** (свод стопы)
+
+4. These insoles support the *arch* of your foot.
+5. He has high *arches*, so most sneakers hurt.
+6. Flat feet mean the *arch* has collapsed.
 
 ---
 
@@ -914,16 +1148,24 @@ Foundation has 2 distinct senses.
 ### facade
 
 **Pronunciation:** /fəˈsɑːd/ &middot; *fuh-SAHD*
-**Русский:** фасад
+**Русский:** фасад; видимость, притворство
 **Plural:** *facades*
 **Countability:** countable
 **Contrast:** The c is pronounced like s — fuh-SAHD, from French façade.
 
-The front outside face of a building.
+Facade has 2 distinct senses.
+
+**1. The front outside face of a building.** (фасад)
 
 1. They kept the original *facade* and gutted everything behind it.
 2. The glass *facade* reflects the whole square.
 3. Several *facades* on the block are landmarked.
+
+**2. A false outward appearance that hides how someone really feels.** (видимость, притворство)
+
+4. He kept up a *facade* of calm all through dinner.
+5. Her cheerfulness was a *facade*.
+6. The *facade* cracked when they asked about the money.
 
 ---
 
@@ -946,15 +1188,29 @@ The door or gate by which you go into a place.
 ### exit
 
 **Pronunciation:** /ˈɛɡzɪt/ &middot; *EG-zit*
-**Русский:** выход
+**Русский:** выход; съезд с шоссе; уход, отбытие
 **Plural:** *exits*
 **Countability:** countable
 
-A door or opening for going out of a building.
+Exit has 3 distinct senses.
+
+**1. A door or opening for going out of a building.** (выход)
 
 1. The emergency *exit* is at the back of the theater.
 2. Please note the nearest *exit*.
 3. All the *exits* were blocked with boxes.
+
+**2. A place where cars leave a highway.** (съезд с шоссе)
+
+4. Take *exit* 42 and turn left at the light.
+5. We missed our *exit* in the rain.
+6. The next two *exits* are closed for construction.
+
+**3. The act of leaving a place, a job, or a stage.** (уход, отбытие)
+
+7. She made a quiet *exit* before the speeches started.
+8. His *exit* from the company surprised everyone.
+9. Reporters kept asking about the coach's sudden *exit*.
 
 ---
 
@@ -1031,16 +1287,24 @@ Shutter has 2 distinct senses.
 ### blind
 
 **Pronunciation:** /blaɪnd/ &middot; *BLYND*
-**Русский:** жалюзи, рулонная штора
+**Русский:** жалюзи, рулонная штора; скрадок, укрытие (охотничье)
 **Plural:** *blinds*
 **Countability:** countable
 **Contrast:** Same spelling as the adjective *blind*, and usually spoken of in the plural: *the blinds*.
 
-A window cover made of slats or a roll of material that pulls down.
+Blind has 2 distinct senses.
+
+**1. A window cover made of slats or a roll of material that pulls down.** (жалюзи, рулонная штора)
 
 1. Can you close the *blinds*? The sun's in my eyes.
 2. One slat on the *blind* is bent.
 3. We put up wooden *blinds* in the bedroom.
+
+**2. A hidden shelter used by hunters or bird watchers.** (скрадок, укрытие (охотничье))
+
+4. They were sitting in a duck *blind* before sunrise.
+5. The photographer built a *blind* near the nest.
+6. We waited in the *blind* for three hours and saw nothing.
 
 ---
 
@@ -1085,16 +1349,24 @@ The narrow ledge along the bottom of a window.
 ### pane
 
 **Pronunciation:** /peɪn/ &middot; *PAYN*
-**Русский:** оконное стекло (одно)
+**Русский:** оконное стекло (одно); панель, область окна (на экране)
 **Plural:** *panes*
 **Countability:** countable
 **Contrast:** Sounds exactly like *pain*.
 
-A single sheet of glass in a window or door.
+Pane has 2 distinct senses.
+
+**1. A single sheet of glass in a window or door.** (оконное стекло (одно))
 
 1. A *pane* cracked when the ball hit it.
 2. The old windows have six *panes* each.
 3. He replaced the broken *pane* himself.
+
+**2. A separate section of a computer screen or window.** (панель, область окна (на экране))
+
+4. Drag the file into the left *pane*.
+5. You can hide the preview *pane* in the settings.
+6. The editor splits the screen into two *panes*.
 
 ---
 
@@ -1124,15 +1396,29 @@ Frame has 2 distinct senses.
 ### screen
 
 **Pronunciation:** /skriːn/ &middot; *SKREEN*
-**Русский:** москитная сетка; экран
+**Русский:** москитная сетка; экран; экран (телевизора, компьютера, телефона); ширма, перегородка
 **Plural:** *screens*
 **Countability:** countable
 
-A fine mesh in a window or door that keeps insects out.
+Screen has 3 distinct senses.
+
+**1. A fine mesh in a window or door that keeps insects out.** (москитная сетка; экран)
 
 1. There's a hole in the *screen* and the flies are getting in.
 2. We take the *screens* out every fall.
 3. The porch has *screens* on three sides.
+
+**2. The flat surface of a TV, computer, or phone on which images appear.** (экран (телевизора, компьютера, телефона))
+
+4. My phone *screen* cracked when I dropped it.
+5. He stares at a *screen* all day at work.
+6. Her name came up on the *screen* right away.
+
+**3. A movable panel used to divide a room or hide something from view.** (ширма, перегородка)
+
+7. A folding *screen* separates the bed from the desk.
+8. The nurse pulled a *screen* around the bed.
+9. An old painted *screen* stood in the corner of the shop.
 
 ---
 
@@ -1244,15 +1530,23 @@ Flat panels of gypsum board used to make interior walls.
 ### tile
 
 **Pronunciation:** /taɪl/ &middot; *TYL*
-**Русский:** плитка; черепица
+**Русский:** плитка; черепица; фишка (игровая)
 **Plural:** *tiles*
 **Countability:** countable, and uncountable as a substance
 
-A thin flat piece of baked clay or stone used to cover floors, walls or roofs.
+Tile has 2 distinct senses.
+
+**1. A thin flat piece of baked clay or stone used to cover floors, walls or roofs.** (плитка; черепица)
 
 1. The bathroom floor is *tile*.
 2. Two *tiles* cracked when he dropped the wrench.
 3. They're putting subway *tile* behind the stove.
+
+**2. A small flat piece used as a playing piece in certain games.** (фишка (игровая))
+
+4. He drew seven *tiles* from the Scrabble bag.
+5. One *tile* was missing from the game box.
+6. She turned her *tiles* face down at the end of the round.
 
 ---
 
@@ -1452,15 +1746,29 @@ An opening that lets air move into or out of a room.
 ### pipe
 
 **Pronunciation:** /paɪp/ &middot; *PYP*
-**Русский:** труба
+**Русский:** труба; курительная трубка; труба (органа), дудка
 **Plural:** *pipes*
 **Countability:** countable
 
-A tube that carries water, gas or waste through a building.
+Pipe has 3 distinct senses.
+
+**1. A tube that carries water, gas or waste through a building.** (труба)
 
 1. A *pipe* burst under the sink.
 2. The *pipes* rattle whenever someone runs the shower.
 3. Wrap the outside *pipes* before the first freeze.
+
+**2. A short tube with a bowl at one end, used for smoking tobacco.** (курительная трубка)
+
+4. My grandfather smoked a *pipe* on the porch every evening.
+5. He tapped the ash out of his *pipe*.
+6. The shop sells *pipes* and loose tobacco.
+
+**3. A tube that sounds a musical note when air passes through it.** (труба (органа), дудка)
+
+7. The church organ has over two thousand *pipes*.
+8. The tallest *pipes* reach almost to the ceiling.
+9. He played a simple tune on a wooden *pipe*.
 
 ---
 
@@ -1496,16 +1804,36 @@ The system of electrical wires inside a building.
 ### outlet
 
 **Pronunciation:** /ˈaʊtlɛt/ &middot; *OWT-let*
-**Русский:** электрическая розетка
+**Русский:** электрическая розетка; магазин, торговая точка; аутлет; отдушина, выход (для чувств); СМИ, издание
 **Plural:** *outlets*
 **Countability:** countable
 **Contrast:** American *outlet* = British *socket* or *power point*.
 
-The place in a wall where you plug in an electrical device.
+Outlet has 4 distinct senses.
+
+**1. The place in a wall where you plug in an electrical device.** (электрическая розетка)
 
 1. Is there an *outlet* behind the couch?
 2. This room only has two *outlets*.
 3. The *outlet* by the sink stopped working.
+
+**2. A store that sells goods, often at reduced prices.** (магазин, торговая точка; аутлет)
+
+4. There's a shoe *outlet* just off the interstate.
+5. The brand has *outlets* in forty states.
+6. We drove out to the *outlet* mall for winter coats.
+
+**3. A way of releasing or expressing strong feelings or energy.** (отдушина, выход (для чувств))
+
+7. Running is his *outlet* after a hard week.
+8. Kids need an *outlet* for all that energy.
+9. Painting became an *outlet* for her grief.
+
+**4. A newspaper, TV station, or website that reports the news.** (СМИ, издание)
+
+10. The story was picked up by every major news *outlet*.
+11. Several *outlets* ran the photo on the front page.
+12. She writes for a small local *outlet*.
 
 ---
 
@@ -1551,15 +1879,23 @@ A metal heating unit that warms a room with hot water or steam.
 ### furnace
 
 **Pronunciation:** /ˈfɜːrnɪs/ &middot; *FUR-nis*
-**Русский:** отопительный котёл, печь
+**Русский:** отопительный котёл, печь; печь (плавильная, промышленная)
 **Plural:** *furnaces*
 **Countability:** countable
 
-The machine that heats a whole house, usually in the basement.
+Furnace has 2 distinct senses.
+
+**1. The machine that heats a whole house, usually in the basement.** (отопительный котёл, печь)
 
 1. The *furnace* quit on the coldest night of the year.
 2. We had the *furnace* serviced in October.
 3. New *furnaces* are a lot more efficient.
+
+**2. An enclosed chamber that produces intense heat for melting metal or making glass.** (печь (плавильная, промышленная))
+
+4. The steel mill's *furnace* runs day and night.
+5. Workers fed scrap iron into the *furnace*.
+6. Glassblowers pull molten glass straight from the *furnace*.
 
 ---
 
@@ -1589,62 +1925,100 @@ Thermostat has 2 distinct senses.
 ### gate
 
 **Pronunciation:** /ɡeɪt/ &middot; *GAYT*
-**Русский:** ворота, калитка
+**Русский:** ворота, калитка; выход на посадку (в аэропорту)
 **Plural:** *gates*
 **Countability:** countable
 **Contrast:** One gate is *a gate* — countable and singular — even though «ворота» is plural in Russian.
 
-A door in a fence or wall around a yard or property.
+Gate has 2 distinct senses.
+
+**1. A door in a fence or wall around a yard or property.** (ворота, калитка)
 
 1. Latch the *gate* so the dog doesn't get out.
 2. The *gate* squeaks every time it swings.
 3. Both *gates* are padlocked at night.
+
+**2. The place in an airport where passengers wait and board a plane.** (выход на посадку (в аэропорту))
+
+4. Our flight leaves from *gate* 12.
+5. They changed the *gate* twenty minutes before boarding.
+6. We ran the whole length of the terminal to our *gate*.
 
 ---
 
 ### fence
 
 **Pronunciation:** /fɛns/ &middot; *FENS*
-**Русский:** забор, ограда
+**Русский:** забор, ограда; скупщик краденого
 **Plural:** *fences*
 **Countability:** countable
 
-A barrier of wood, wire or metal around a piece of land.
+Fence has 2 distinct senses.
+
+**1. A barrier of wood, wire or metal around a piece of land.** (забор, ограда)
 
 1. The *fence* between us and the neighbors is falling down.
 2. They put up a six-foot *fence* around the pool.
 3. All the *fences* on that side blew over.
+
+**2. Someone who buys stolen goods and sells them on.** (скупщик краденого)
+
+4. Detectives finally found the *fence* who moved the jewelry.
+5. He worked as a *fence* out of a pawn shop.
+6. Most of the *fences* in the city were under watch.
 
 ---
 
 ### path
 
 **Pronunciation:** /pæθ/ &middot; *PATH*
-**Русский:** тропинка, дорожка
+**Русский:** тропинка, дорожка; траектория, путь движения; путь (к цели), курс действий
 **Plural:** *paths*
 **Countability:** countable
 **Contrast:** Americans say /pæθ/ with the vowel of *cat*; the plural *paths* ends in a voiced sound, PATHZ.
 
-A narrow way for walking, made by use or laid with stone.
+Path has 3 distinct senses.
+
+**1. A narrow way for walking, made by use or laid with stone.** (тропинка, дорожка)
 
 1. A stone *path* runs from the driveway to the door.
 2. Stay on the *path* — the grass is wet.
 3. The *paths* through the park are lit until midnight.
+
+**2. The line along which something moves.** (траектория, путь движения)
+
+4. The storm's *path* took it straight up the coast.
+5. The plane strayed from its flight *path*.
+6. Anything in the fire's *path* burned.
+
+**3. A course of action leading toward a goal.** (путь (к цели), курс действий)
+
+7. There's no easy *path* to fluency.
+8. The two countries are on a *path* to war.
+9. She chose a different career *path* after grad school.
 
 ---
 
 ### terrace
 
 **Pronunciation:** /ˈtɛrəs/ &middot; *TER-uhs*
-**Русский:** терраса
+**Русский:** терраса; терраса (уступ на склоне)
 **Plural:** *terraces*
 **Countability:** countable
 
-A flat paved outdoor area next to a building.
+Terrace has 2 distinct senses.
+
+**1. A flat paved outdoor area next to a building.** (терраса)
 
 1. They serve lunch on the *terrace* in good weather.
 2. The *terrace* looks out over the whole valley.
 3. The upper *terraces* are for residents only.
+
+**2. A flat step cut into a hillside for growing crops.** (терраса (уступ на склоне))
+
+4. Rice grows on *terraces* up the side of the valley.
+5. The farmers cut *terraces* to keep the soil from washing away.
+6. Each *terrace* is held in place by a low stone wall.
 
 ---
 
@@ -1711,15 +2085,23 @@ An area of short cut grass around a house or building.
 ### hedge
 
 **Pronunciation:** /hɛdʒ/ &middot; *HEJ*
-**Русский:** живая изгородь
+**Русский:** живая изгородь; страховка от убытков, хедж
 **Plural:** *hedges*
 **Countability:** countable
 
-A row of bushes planted close together as a boundary.
+Hedge has 2 distinct senses.
+
+**1. A row of bushes planted close together as a boundary.** (живая изгородь)
 
 1. The *hedge* along the driveway needs trimming.
 2. A tall *hedge* blocks the view from the road.
 3. He spent all Saturday cutting the *hedges*.
+
+**2. Something bought or done to protect against a possible loss.** (страховка от убытков, хедж)
+
+4. Gold is often bought as a *hedge* against inflation.
+5. The contract is a *hedge* in case fuel prices rise.
+6. Owning both stocks and bonds is a simple *hedge*.
 
 ---
 
@@ -1757,15 +2139,23 @@ A small simple house, usually in the country or by a lake.
 ### cabin
 
 **Pronunciation:** /ˈkæbɪn/ &middot; *KAB-in*
-**Русский:** хижина, домик (в лесу)
+**Русский:** хижина, домик (в лесу); салон (самолёта); каюта (на судне)
 **Plural:** *cabins*
 **Countability:** countable
 
-A small house made of wood, usually in the woods or mountains.
+Cabin has 2 distinct senses.
+
+**1. A small house made of wood, usually in the woods or mountains.** (хижина, домик (в лесу))
 
 1. We spent the weekend at his *cabin* in the mountains.
 2. The *cabin* has no running water.
 3. The camp has twelve *cabins* along the creek.
+
+**2. The part of a plane or ship where the passengers sit or sleep.** (салон (самолёта); каюта (на судне))
+
+4. The crew walked through the *cabin* before takeoff.
+5. Our *cabin* on the ship had one small window.
+6. *Cabin* pressure dropped and the masks came down.
 
 ---
 
@@ -1817,16 +2207,30 @@ A very tall building with many floors.
 ### story
 
 **Pronunciation:** /ˈstɔːri/ &middot; *STOR-ee*
-**Русский:** этаж
+**Русский:** этаж; рассказ, история; материал, статья, репортаж
 **Plural:** *stories*
 **Countability:** countable
 **Contrast:** Americans spell the level of a building *story*; the British write *storey*.
 
-One level of a building.
+Story has 3 distinct senses.
+
+**1. One level of a building.** (этаж)
 
 1. It's a two-*story* house with a finished basement.
 2. The parking garage is six *stories* tall.
 3. He fell one *story* and walked away without a scratch.
+
+**2. An account of events, real or invented, told to entertain or inform.** (рассказ, история)
+
+4. Grandpa told us ghost *stories* on the porch.
+5. It's a *story* about two brothers in Ohio.
+6. She never got to finish the *story*.
+
+**3. A report in a newspaper or on a news program.** (материал, статья, репортаж)
+
+7. The *story* ran on the front page.
+8. A reporter has been working on the *story* for months.
+9. That *story* has been all over the news.
 
 ---
 
@@ -1849,15 +2253,23 @@ A piece of furniture or recess with a door, used for storing dishes or food.
 ### counter
 
 **Pronunciation:** /ˈkaʊntər/ &middot; *KOWN-tur*
-**Русский:** столешница, стойка
+**Русский:** столешница, стойка; счётчик
 **Plural:** *counters*
 **Countability:** countable
 
-A flat work surface in a kitchen, or a long table you are served at.
+Counter has 2 distinct senses.
+
+**1. A flat work surface in a kitchen, or a long table you are served at.** (столешница, стойка)
 
 1. Just set the groceries on the *counter*.
 2. We wiped down all the *counters* after dinner.
 3. He ate at the *counter* instead of taking a booth.
+
+**2. A device or program that keeps a running total of something.** (счётчик)
+
+4. The step *counter* on her phone said nine thousand.
+5. A Geiger *counter* clicked as they walked toward the site.
+6. Reset the *counter* before you start the next batch.
 
 ---
 

@@ -12,46 +12,88 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### sport
 
 **Pronunciation:** /spɔːrt/ &middot; *SPORT*
-**Русский:** спорт, вид спорта
+**Русский:** спорт, вид спорта; человек, умеющий держаться (в игре, при поражении)
 **Plural:** *sports*
 **Countability:** countable
 **Contrast:** Americans say *sports* where the British say *sport*: he plays sports vs. he plays sport.
 
-A physical activity played by rules for competition or fun.
+Sport has 2 distinct senses.
+
+**1. A physical activity played by rules for competition or fun.** (спорт, вид спорта)
 
 1. Soccer is the only *sport* he really follows.
 2. The school offers a dozen different *sports* in the fall.
 3. Swimming is a good *sport* for people with bad knees.
+
+**2. A person judged by how well they take teasing, losing, or a joke.** (человек, умеющий держаться (в игре, при поражении))
+
+4. Be a good *sport* and let your sister go first.
+5. He was a good *sport* about the whole prank.
+6. She's a terrible *sport* when she loses at cards.
 
 ---
 
 ### game
 
 **Pronunciation:** /ɡeɪm/ &middot; *GAYM*
-**Русский:** игра, матч
+**Русский:** игра, матч; дичь; сфера деятельности, бизнес (разг.)
 **Plural:** *games*
 **Countability:** countable
 
-A contest played by set rules, or one single contest in a series.
+Game has 3 distinct senses.
+
+**1. A contest played by set rules, or one single contest in a series.** (игра, матч)
 
 1. We won the *game* by three points.
 2. There are two *games* left in the season.
 3. Chess is a *game* of patience.
+
+**2. Wild animals or birds hunted for sport or for food.** (дичь)
+
+4. The lodge serves venison and other *game*.
+5. *Game* is scarce in these hills now.
+6. He grew up hunting small *game* with his father.
+
+**3. A particular line of business or activity, especially a competitive one.** (сфера деятельности, бизнес (разг.))
+
+7. She's been in the restaurant *game* for twenty years.
+8. He got out of the news *game* after the layoffs.
+9. New to the real estate *game*, he made a few costly mistakes.
 
 ---
 
 ### match
 
 **Pronunciation:** /mætʃ/ &middot; *MACH*
-**Русский:** матч, поединок
+**Русский:** матч, поединок; спичка; совпадение; подходящая пара; ровня, достойный соперник
 **Plural:** *matches*
 **Countability:** countable
 
-A single contest between two players or two teams.
+Match has 4 distinct senses.
+
+**1. A single contest between two players or two teams.** (матч, поединок)
 
 1. The tennis *match* went on for four hours.
 2. Both *matches* got rained out.
 3. He lost the *match* in straight sets.
+
+**2. A short stick that makes a flame when you strike it.** (спичка)
+
+4. He struck a *match* and lit the candle.
+5. There's a box of *matches* above the stove.
+6. The wind blew out three *matches* in a row.
+
+**3. Something that is the same as another thing or goes well with it.** (совпадение; подходящая пара)
+
+7. The lab found a *match* for the fingerprints.
+8. That scarf is a perfect *match* for your coat.
+9. The search came back with no *matches*.
+
+**4. Someone who is equal to another in strength or skill.** (ровня, достойный соперник)
+
+10. The rookie was no *match* for the champion.
+11. In an argument she's more than a *match* for him.
+12. After forty years of winning, he finally met his *match*.
 
 ---
 
@@ -405,15 +447,29 @@ A running race of just over twenty-six miles.
 ### player
 
 **Pronunciation:** /ˈpleɪər/ &middot; *PLAY-ur*
-**Русский:** игрок
+**Русский:** игрок; проигрыватель, плеер; игрок (на рынке), значимый участник
 **Plural:** *players*
 **Countability:** countable
 
-Someone who takes part in a game or sport.
+Player has 3 distinct senses.
+
+**1. Someone who takes part in a game or sport.** (игрок)
 
 1. He's the best *player* on the team.
 2. Two *players* got hurt in the first half.
 3. She's a solid *player*, just not a star.
+
+**2. A machine or program that plays recorded sound or video.** (проигрыватель, плеер)
+
+4. The DVD *player* won't read the disc.
+5. He still keeps a record *player* in the den.
+6. The video *player* on that site keeps buffering.
+
+**3. A company or person that is active and important in a particular field.** (игрок (на рынке), значимый участник)
+
+7. The startup became a major *player* in cloud storage.
+8. Three big *players* control most of the market.
+9. She's a serious *player* in state politics.
 
 ---
 
@@ -542,15 +598,29 @@ The football player who directs the attack and throws most of the passes.
 ### boxer
 
 **Pronunciation:** /ˈbɑːksər/ &middot; *BAHK-sur*
-**Русский:** боксёр
+**Русский:** боксёр; боксёр (порода собак); боксеры, трусы-боксеры
 **Plural:** *boxers*
 **Countability:** countable
 
-Someone who fights in the sport of boxing.
+Boxer has 3 distinct senses.
+
+**1. Someone who fights in the sport of boxing.** (боксёр)
 
 1. The *boxer* went down in the third round.
 2. Both *boxers* made weight.
 3. He trains amateur *boxers* on weekends.
+
+**2. A medium-sized dog with a short brown coat and a flat, wrinkled face.** (боксёр (порода собак))
+
+4. Their *boxer* jumps on everyone who walks in.
+5. *Boxers* need a lot of exercise every day.
+6. We adopted a three-year-old *boxer* from the shelter.
+
+**3. Loose men's underpants with short legs, always used in the plural.** (боксеры, трусы-боксеры)
+
+7. He answered the door in *boxers* and a T-shirt.
+8. I bought a three-pack of striped *boxers*.
+9. Cotton *boxers* are cooler in the summer.
 
 ---
 
@@ -588,15 +658,23 @@ Someone who guides a person's training or treats athletes' injuries.
 ### rookie
 
 **Pronunciation:** /ˈrʊki/ &middot; *RUUK-ee*
-**Русский:** новичок (в первом сезоне)
+**Русский:** новичок (в первом сезоне); новичок, стажёр
 **Plural:** *rookies*
 **Countability:** countable
 
-A player in his or her first season on a professional team.
+Rookie has 2 distinct senses.
+
+**1. A player in his or her first season on a professional team.** (новичок (в первом сезоне))
 
 1. The *rookie* scored twenty points in his first start.
 2. Three *rookies* made the roster.
 3. For a *rookie*, she's incredibly calm.
+
+**2. Anyone who is new and inexperienced at a job or activity.** (новичок, стажёр)
+
+4. He's a *rookie* cop, three weeks out of the academy.
+5. That was a *rookie* mistake and she knew it.
+6. The *rookies* got all the night shifts.
 
 ---
 
@@ -633,15 +711,35 @@ The team or player everyone expects to lose.
 ### runner
 
 **Pronunciation:** /ˈrʌnər/ &middot; *RUN-ur*
-**Русский:** бегун
+**Русский:** бегун; дорожка (узкий ковёр или скатерть); полоз; ус, побег (растения)
 **Plural:** *runners*
 **Countability:** countable
 
-Someone who runs, especially as a sport.
+Runner has 4 distinct senses.
+
+**1. Someone who runs, especially as a sport.** (бегун)
 
 1. He's a long-distance *runner*.
 2. Thousands of *runners* lined up at the start.
 3. She's the fastest *runner* in her grade.
+
+**2. A long narrow strip of cloth or carpet laid on a table, hall, or stairs.** (дорожка (узкий ковёр или скатерть))
+
+4. A linen *runner* went down the middle of the table.
+5. They put a *runner* on the stairs so nobody slips.
+6. The hallway *runner* needs cleaning.
+
+**3. One of the long narrow blades a sled or a skate slides on.** (полоз)
+
+7. The sled's *runners* were caked with ice.
+8. He waxed the *runners* to make it go faster.
+9. One *runner* had bent in the crash.
+
+**4. A stem a plant sends out along the ground to start new plants.** (ус, побег (растения))
+
+10. Strawberries spread by sending out *runners*.
+11. Snip the *runners* if you want bigger berries.
+12. The plant put out a *runner* into the next bed.
 
 ---
 
@@ -705,15 +803,23 @@ The sport of shooting arrows at a target with a bow.
 ### fencing
 
 **Pronunciation:** /ˈfɛnsɪŋ/ &middot; *FEN-sing*
-**Русский:** фехтование
+**Русский:** фехтование; ограждение; материал для забора
 **Countability:** uncountable
 **Contrast:** The same word also means the fences around a yard: a hundred feet of fencing.
 
-The sport of fighting with thin swords under strict rules.
+Fencing has 2 distinct senses.
+
+**1. The sport of fighting with thin swords under strict rules.** (фехтование)
 
 1. She started *fencing* in middle school.
 2. *Fencing* is one of the oldest Olympic sports.
 3. The club teaches *fencing* twice a week.
+
+**2. Fences in general, or the material used to build them.** (ограждение; материал для забора)
+
+4. We need another hundred feet of *fencing*.
+5. The storm knocked down the *fencing* along the road.
+6. Chain-link *fencing* runs around the whole lot.
 
 ---
 
@@ -851,14 +957,22 @@ A race combining swimming, cycling, and running in one event.
 ### poker
 
 **Pronunciation:** /ˈpoʊkər/ &middot; *POH-kur*
-**Русский:** покер
+**Русский:** покер; кочерга
 **Countability:** uncountable
 
-A card game in which players bet on the value of the hand they hold.
+Poker has 2 distinct senses.
+
+**1. A card game in which players bet on the value of the hand they hold.** (покер)
 
 1. They play *poker* in the garage on Friday nights.
 2. He lost eighty dollars at *poker*.
 3. *Poker* is as much about reading people as about cards.
+
+**2. A metal rod used to stir a fire.** (кочерга)
+
+4. He pushed the log back with a *poker*.
+5. A brass *poker* hung beside the fireplace.
+6. She stirred the coals with the *poker* until they glowed.
 
 ---
 
@@ -955,16 +1069,24 @@ The move in chess that traps the king and ends the game.
 ### pawn
 
 **Pronunciation:** /pɔːn/ &middot; *PAWN*
-**Русский:** пешка
+**Русский:** пешка; пешка, орудие в чужих руках
 **Plural:** *pawns*
 **Countability:** countable
 **Contrast:** The same spelling and sound also mean an item left at a pawn shop.
 
-The smallest and most numerous chess piece.
+Pawn has 2 distinct senses.
+
+**1. The smallest and most numerous chess piece.** (пешка)
 
 1. He opened by pushing a *pawn* two squares.
 2. She traded a *pawn* for a better position.
 3. You start with eight *pawns* across the second row.
+
+**2. Someone used by more powerful people for their own purposes.** (пешка, орудие в чужих руках)
+
+4. The workers were *pawns* in a fight between two billionaires.
+5. He felt like a *pawn* in his parents' divorce.
+6. Small countries became *pawns* during the Cold War.
 
 ---
 
@@ -985,16 +1107,30 @@ A children's game where one player looks for the others, who hide.
 ### racket
 
 **Pronunciation:** /ˈrækɪt/ &middot; *RAK-it*
-**Русский:** ракетка
+**Русский:** ракетка; шум, грохот; афера, мошенническая схема, рэкет
 **Plural:** *rackets*
 **Countability:** countable
 **Contrast:** Also spelled *racquet*; the same word means a loud noise or a criminal scheme.
 
-The stringed frame with a handle used to hit a ball in tennis and similar games.
+Racket has 3 distinct senses.
+
+**1. The stringed frame with a handle used to hit a ball in tennis and similar games.** (ракетка)
 
 1. He restrung his *racket* before the match.
 2. Two of her *rackets* cracked in one season.
 3. You can rent a *racket* at the front desk.
+
+**2. A loud, unpleasant noise.** (шум, грохот)
+
+4. The neighbors made a terrible *racket* until two in the morning.
+5. What's all that *racket* in the kitchen?
+6. The old furnace makes a *racket* every time it kicks on.
+
+**3. A dishonest business or scheme for making money.** (афера, мошенническая схема, рэкет)
+
+7. The FBI broke up a protection *racket* downtown.
+8. Charging that much for bottled water is a *racket*.
+9. He ran a *racket* selling fake parking permits.
 
 ---
 
@@ -1142,16 +1278,24 @@ The heavy hanging bag a boxer hits for practice.
 ### hurdle
 
 **Pronunciation:** /ˈhɜːrdəl/ &middot; *HUR-duhl*
-**Русский:** барьер (в беге)
+**Русский:** барьер (в беге); препятствие, преграда
 **Plural:** *hurdles*
 **Countability:** countable
 **Contrast:** Don't confuse it with *hurtle*, which means to rush along fast.
 
-One of the light barriers a runner jumps over in a race.
+Hurdle has 2 distinct senses.
+
+**1. One of the light barriers a runner jumps over in a race.** (барьер (в беге))
 
 1. She clipped the last *hurdle* and still won.
 2. He runs the four hundred meter *hurdles*.
 3. Setting up the *hurdles* takes ten minutes.
+
+**2. A difficulty that has to be dealt with before you can go on.** (препятствие, преграда)
+
+4. Getting the visa was the biggest *hurdle*.
+5. The bill still faces several *hurdles* in the Senate.
+6. We cleared the first *hurdle* when the bank approved the loan.
 
 ---
 
@@ -1251,15 +1395,29 @@ The scoring area at each end of a football field.
 ### mound
 
 **Pronunciation:** /maʊnd/ &middot; *MOWND*
-**Русский:** горка питчера
+**Русский:** горка питчера; холмик, насыпь, курган; куча, груда
 **Plural:** *mounds*
 **Countability:** countable
 
-The raised circle of dirt a baseball pitcher throws from.
+Mound has 3 distinct senses.
+
+**1. The raised circle of dirt a baseball pitcher throws from.** (горка питчера)
 
 1. The pitcher walked slowly to the *mound*.
 2. He's been on the *mound* for six innings.
 3. The groundskeepers rebuild the *mound* every spring.
+
+**2. A small hill or a raised pile of earth.** (холмик, насыпь, курган)
+
+4. Gophers left *mounds* of dirt all over the yard.
+5. The trail climbs a grassy *mound* above the river.
+6. Archaeologists dug into an ancient burial *mound*.
+
+**3. A large heap of something piled up.** (куча, груда)
+
+7. There's a *mound* of laundry on the bed.
+8. He served us each a *mound* of mashed potatoes.
+9. A *mound* of paperwork was waiting on my desk.
 
 ---
 
@@ -1312,15 +1470,23 @@ The player whose job is to stop shots from entering the goal.
 ### striker
 
 **Pronunciation:** /ˈstraɪkər/ &middot; *STRY-kur*
-**Русский:** нападающий (в футболе)
+**Русский:** нападающий (в футболе); забастовщик
 **Plural:** *strikers*
 **Countability:** countable
 
-The forward whose main job is to score goals in soccer.
+Striker has 2 distinct senses.
+
+**1. The forward whose main job is to score goals in soccer.** (нападающий (в футболе))
 
 1. Their *striker* scored twice in the first half.
 2. The club paid a fortune for two *strikers*.
 3. He was a *striker* until his knee gave out.
+
+**2. A worker who has stopped working as part of a labor protest.** (забастовщик)
+
+4. *Strikers* gathered outside the plant gate.
+5. The company met with the *strikers* on Friday.
+6. Police kept the *strikers* off the road.
 
 ---
 
@@ -1549,16 +1715,30 @@ The costumed animal or figure that represents a team.
 ### lineup
 
 **Pronunciation:** /ˈlaɪnʌp/ &middot; *LYNE-up*
-**Русский:** состав (команды на игру)
+**Русский:** состав (команды на игру); опознание (шеренга для опознания); состав участников, программа (фестиваля, вечера)
 **Plural:** *lineups*
 **Countability:** countable
 **Contrast:** One word as a noun; the verb is two words: the players *line up*.
 
-The list of players a team starts a game with.
+Lineup has 3 distinct senses.
+
+**1. The list of players a team starts a game with.** (состав (команды на игру))
 
 1. He's batting third in the *lineup*.
 2. The coach posted both *lineups* an hour before the game.
 3. Her name was left off the *lineup* again.
+
+**2. A row of people shown to a witness so that a suspect can be picked out.** (опознание (шеренга для опознания))
+
+4. She picked him out of a police *lineup*.
+5. The suspect stood third from the left in the *lineup*.
+6. No witness could identify anyone in either *lineup*.
+
+**3. The set of acts, shows, or events scheduled for a program.** (состав участников, программа (фестиваля, вечера))
+
+7. The festival announced its *lineup* in March.
+8. The network changed its Thursday night *lineup*.
+9. This year's *lineup* includes three bands from Texas.
 
 ---
 
@@ -1670,16 +1850,30 @@ A basketball shot pushed straight down through the hoop from above.
 ### rebound
 
 **Pronunciation:** /ˈriːbaʊnd/ &middot; *REE-bownd*
-**Русский:** подбор (мяча под кольцом)
+**Русский:** подбор (мяча под кольцом); восстановление, подъём после спада; период сразу после разрыва отношений
 **Plural:** *rebounds*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable, REE-bownd; the verb is rih-BOWND.
 
-A basketball grabbed after a missed shot bounces off the rim or board.
+Rebound has 3 distinct senses.
+
+**1. A basketball grabbed after a missed shot bounces off the rim or board.** (подбор (мяча под кольцом))
 
 1. He grabbed the *rebound* with one hand.
 2. She had twelve points and nine *rebounds*.
 3. They lost the game on the *rebound* battle.
+
+**2. A recovery after a fall or a decline.** (восстановление, подъём после спада)
+
+4. Home sales showed a strong *rebound* in June.
+5. Economists expect a *rebound* next year.
+6. The *rebound* in tourism came faster than anyone expected.
+
+**3. The unsettled period right after a love relationship ends.** (период сразу после разрыва отношений)
+
+7. She met him on the *rebound* from a long marriage.
+8. Don't date anyone who's on the *rebound*.
+9. That whole relationship was pure *rebound*.
 
 ---
 
@@ -1701,16 +1895,24 @@ A pass that leads directly to a teammate's score.
 ### foul
 
 **Pronunciation:** /faʊl/ &middot; *FOWL*
-**Русский:** фол, нарушение правил
+**Русский:** фол, нарушение правил; фол-бол (мяч за пределами игровой зоны, бейсбол)
 **Plural:** *fouls*
 **Countability:** countable
 **Contrast:** Sounds exactly like *fowl*, meaning a bird.
 
-A move against the rules of a game, usually punished by the referee.
+Foul has 2 distinct senses.
+
+**1. A move against the rules of a game, usually punished by the referee.** (фол, нарушение правил)
 
 1. The referee called a *foul* on the play.
 2. He picked up his fifth *foul* and sat down.
 3. Two *fouls* in a row cost them the lead.
+
+**2. In baseball, a ball hit outside the lines that mark fair territory.** (фол-бол (мяч за пределами игровой зоны, бейсбол))
+
+4. He hit two *fouls* down the third-base line.
+5. The umpire called it a *foul* by inches.
+6. Every *foul* into the stands sent kids scrambling for the ball.
 
 ---
 
@@ -1748,15 +1950,29 @@ The stroke that puts the ball into play in tennis and similar games.
 ### ace
 
 **Pronunciation:** /eɪs/ &middot; *AYSE*
-**Русский:** эйс (подача навылет)
+**Русский:** эйс (подача навылет); туз; ас, мастер своего дела
 **Plural:** *aces*
 **Countability:** countable
 
-A serve so good the opponent cannot touch it.
+Ace has 3 distinct senses.
+
+**1. A serve so good the opponent cannot touch it.** (эйс (подача навылет))
 
 1. He finished the match with eighteen *aces*.
 2. That *ace* saved the set.
 3. She hit an *ace* on match point.
+
+**2. A playing card marked with a single symbol, usually the highest card in a game.** (туз)
+
+4. She turned over an *ace* and took the hand.
+5. He was holding two *aces* and said nothing.
+6. The *ace* of spades was missing from the deck.
+
+**3. Someone who is extremely good at a particular thing.** (ас, мастер своего дела)
+
+7. Ask Dana about the budget — she's an *ace* with spreadsheets.
+8. His grandfather was a fighter *ace* in the Pacific.
+9. The hospital's *ace* surgeon takes the hardest cases.
 
 ---
 
@@ -1793,14 +2009,22 @@ A baseball pitch thrown with spin so that it bends as it drops.
 ### par
 
 **Pronunciation:** /pɑːr/ &middot; *PAR*
-**Русский:** пар (норма ударов в гольфе)
+**Русский:** пар (норма ударов в гольфе); норма, обычный уровень
 **Countability:** uncountable
 
-The number of strokes a good golfer is expected to need for a hole or course.
+Par has 2 distinct senses.
+
+**1. The number of strokes a good golfer is expected to need for a hole or course.** (пар (норма ударов в гольфе))
 
 1. He finished the round two under *par*.
 2. The seventh hole is a *par* five.
 3. Her score was right at *par*.
+
+**2. The usual or expected standard.** (норма, обычный уровень)
+
+4. Long lines at the DMV are *par* for the course.
+5. His work hasn't been up to *par* lately.
+6. I've been feeling a little under *par* all week.
 
 ---
 
@@ -1823,15 +2047,41 @@ The kick that starts play in football or soccer, or the start of an event.
 ### pass
 
 **Pronunciation:** /pæs/ &middot; *PAS*
-**Русский:** пас, передача
+**Русский:** пас, передача; пропуск, абонемент, проездной; перевал; заход, подход, проход (в работе); заигрывание, попытка ухаживания
 **Plural:** *passes*
 **Countability:** countable
 
-A throw or kick that sends the ball to a teammate.
+Pass has 5 distinct senses.
+
+**1. A throw or kick that sends the ball to a teammate.** (пас, передача)
 
 1. He threw a perfect *pass* down the sideline.
 2. Three of her *passes* led to goals.
 3. The *pass* was tipped at the line.
+
+**2. A card or ticket that lets you enter, ride, or go somewhere.** (пропуск, абонемент, проездной)
+
+4. You need a *pass* to get past the front desk.
+5. A monthly bus *pass* is cheaper than paying each day.
+6. She got us backstage *passes*.
+
+**3. A low route through mountains.** (перевал)
+
+7. The *pass* is closed by snow until May.
+8. We took the old wagon road over the *pass*.
+9. There's one gas station on the far side of the *pass*.
+
+**4. One complete attempt at or run through a piece of work.** (заход, подход, проход (в работе))
+
+10. This is just a first *pass* at the design.
+11. The editor made another *pass* through the manuscript.
+12. One more *pass* with the sander and it's done.
+
+**5. An attempt to start a romantic or sexual relationship with someone.** (заигрывание, попытка ухаживания)
+
+13. He made a *pass* at her at the office party.
+14. She spent all night fending off *passes* from customers.
+15. It wasn't a *pass*; he was just being friendly.
 
 ---
 

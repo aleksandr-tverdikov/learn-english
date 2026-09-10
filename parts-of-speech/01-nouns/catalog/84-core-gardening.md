@@ -436,15 +436,29 @@ A piece of stem cut from a plant and rooted to grow a new one.
 ### graft
 
 **Pronunciation:** /ɡræft/ &middot; *GRAFT*
-**Русский:** прививка (растения)
+**Русский:** прививка (растения); трансплантат, пересадка ткани; коррупция, взяточничество
 **Plural:** *grafts*
 **Countability:** countable
 
-A shoot joined onto another plant so the two grow as one.
+Graft has 3 distinct senses.
+
+**1. A shoot joined onto another plant so the two grow as one.** (прививка (растения))
 
 1. You can see the *graft* right above the soil line.
 2. The *graft* never took, so he tried again in spring.
 3. All the *grafts* on that apple tree are different varieties.
+
+**2. A piece of skin, bone, or tissue moved to another place on the body.** (трансплантат, пересадка ткани)
+
+4. The burn needed a skin *graft*.
+5. Surgeons took the *graft* from her own hip.
+6. Both *grafts* healed without infection.
+
+**3. The use of a public position to get money dishonestly.** (коррупция, взяточничество)
+
+7. The mayor went to prison for *graft*.
+8. The city was once famous for *graft* and kickbacks.
+9. Reporters spent a year documenting the *graft*.
 
 ---
 
@@ -573,15 +587,29 @@ A plant that grows leaves the first year and flowers the second.
 ### hybrid
 
 **Pronunciation:** /ˈhaɪbrɪd/ &middot; *HY-brid*
-**Русский:** гибрид
+**Русский:** гибрид; гибридный автомобиль; гибрид, сочетание (двух разных вещей)
 **Plural:** *hybrids*
 **Countability:** countable
 
-A plant bred from two different varieties.
+Hybrid has 3 distinct senses.
+
+**1. A plant bred from two different varieties.** (гибрид)
 
 1. This tomato is a *hybrid* bred for disease resistance.
 2. Seeds saved from a *hybrid* rarely come out the same.
 3. Most of the corn in the store is from *hybrids*.
+
+**2. A car that runs on both a gasoline engine and an electric motor.** (гибридный автомобиль)
+
+4. They traded the pickup for a *hybrid* to save on gas.
+5. *Hybrids* get much better mileage in city traffic.
+6. The dealership had one *hybrid* left on the lot.
+
+**3. Something that combines two different types or styles.** (гибрид, сочетание (двух разных вещей))
+
+7. The show is a *hybrid* of talk show and game show.
+8. Their schedule is a *hybrid*: three days in the office, two at home.
+9. This bike is a *hybrid*, part road bike and part mountain bike.
 
 ---
 

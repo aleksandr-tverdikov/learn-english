@@ -145,6 +145,36 @@ def valid(e, seen, grammar, problems, slug):
     return True
 
 
+def extra_senses():
+    """term -> [(gloss, ru, examples)] written by the sense-expansion pass.
+
+    Merging recovered the senses that different fields happened to write. It
+    could not recover a sense nobody wrote at all: `fracture` was only ever
+    described as a broken bone, `pupil` only as a schoolchild. These files hold
+    those missing meanings, written against the gloss already present so they
+    do not repeat it.
+    """
+    out = defaultdict(list)
+    for src in sorted(glob.glob(os.path.join(CORE, 'senses', 'add-*.json'))):
+        try:
+            data = json.load(open(src))
+        except Exception:
+            continue
+        for row in data if isinstance(data, list) else []:
+            if not isinstance(row, dict):
+                continue
+            t = (row.get('term') or '').strip().lower()
+            for sn in row.get('senses') or []:
+                g = (sn.get('gloss') or '').strip()
+                ex = [x for x in (sn.get('examples') or []) if isinstance(x, str)][:3]
+                if t and g and len(ex) == 3:
+                    out[t].append((g, (sn.get('ru') or '').strip(), ex))
+    return out
+
+
+EXTRA = None
+
+
 def sense_index():
     """term -> [(slug, entry)] across every source, in ORDER then gap order.
 
@@ -191,7 +221,10 @@ def merge(entries):
     """Fold [(slug, entry)] for one term into a single row for the renderer."""
     first = entries[0][1]
     senses, rus = [], []
-    for _, e in entries:
+    pool = [(None, e) for _, e in entries]
+    for g, ru, ex in EXTRA.get(first['term'].lower(), []):
+        pool.append((None, {'gloss': g, 'ru': ru, 'examples': ex}))
+    for _, e in pool:
         g = (e.get('gloss') or '').strip()
         if not g:
             continue
@@ -211,6 +244,9 @@ def merge(entries):
 
 
 def main():
+    global EXTRA
+    EXTRA = extra_senses()
+
     grammar = set()
     for f in sorted(glob.glob(f'{CAT}/[0-9]*.md')):
         if '-core-' in os.path.basename(f):
@@ -297,6 +333,9 @@ def build_gap(seen, grammar, problems):
 
     entries.sort(key=lambda e: (e.get('term') or '').lower())
     idx = sense_index()
+    global EXTRA
+    if EXTRA is None:
+        EXTRA = extra_senses()
     kept = []
     for e in entries:
         if valid(e, seen, grammar, problems, 'gap'):

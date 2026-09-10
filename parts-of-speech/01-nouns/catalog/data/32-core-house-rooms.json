@@ -6,14 +6,73 @@
       "term": "house",
       "ipa": "/haʊs/",
       "respell": "HOWS",
-      "meaning": "A building that people live in, usually one family per building. ---",
+      "meaning": "House has 4 distinct senses.",
       "examples": [
         "They bought a house on the north side of town.",
         "All the houses on this street were built in the fifties.",
-        "Come over to my house after work."
+        "Come over to my house after work.",
+        "The show played to a full house.",
+        "The house lights went down and the curtain rose.",
+        "It was a tough house — nobody laughed at anything.",
+        "The book was turned down by three houses before it sold.",
+        "Dessert is on the house tonight.",
+        "She designs for an Italian fashion house.",
+        "The bill passed both houses by a wide margin.",
+        "The upper house rejected the amendment.",
+        "Each house sets its own rules for debate."
       ],
-      "senses": [],
-      "русский": "дом (строение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building that people live in, usually one family per building",
+          "body": [
+            "(дом (строение))"
+          ],
+          "examples": [
+            "They bought a house on the north side of town.",
+            "All the houses on this street were built in the fifties.",
+            "Come over to my house after work."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The audience at a theater or club, or the part of the building where they sit",
+          "body": [
+            "(зрительный зал; публика)"
+          ],
+          "examples": [
+            "The show played to a full house.",
+            "The house lights went down and the curtain rose.",
+            "It was a tough house — nobody laughed at anything."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A company or firm, especially a publisher, restaurant, or fashion business",
+          "body": [
+            "(фирма; дом (издательский, модный); заведение)"
+          ],
+          "examples": [
+            "The book was turned down by three houses before it sold.",
+            "Dessert is on the house tonight.",
+            "She designs for an Italian fashion house."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "One of the two parts of a lawmaking body",
+          "body": [
+            "(палата (парламента))",
+            "---"
+          ],
+          "examples": [
+            "The bill passed both houses by a wide margin.",
+            "The upper house rejected the amendment.",
+            "Each house sets its own rules for debate."
+          ]
+        }
+      ],
+      "русский": "дом (строение); зрительный зал; публика; фирма; дом (издательский, модный); заведение; палата (парламента)",
       "plural": "houses",
       "countability": "countable",
       "contrast": "The plural houses is pronounced HOW-ziz — the s turns into a z sound."
@@ -22,14 +81,58 @@
       "term": "home",
       "ipa": "/hoʊm/",
       "respell": "HOHM",
-      "meaning": "The place where someone lives and feels they belong. ---",
+      "meaning": "Home has 3 distinct senses.",
       "examples": [
         "I work from home three days a week.",
         "They're saving up for their first home.",
-        "It took him two hours to get home in the snow."
+        "It took him two hours to get home in the snow.",
+        "Her mother moved into a nursing home last spring.",
+        "He grew up in a children's home outside the city.",
+        "The home has room for forty residents.",
+        "Memphis is the home of the blues.",
+        "These wetlands are home to hundreds of bird species.",
+        "Italy is the home of espresso."
       ],
-      "senses": [],
-      "русский": "дом (жильё), родной дом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place where someone lives and feels they belong",
+          "body": [
+            "(дом (жильё), родной дом)"
+          ],
+          "examples": [
+            "I work from home three days a week.",
+            "They're saving up for their first home.",
+            "It took him two hours to get home in the snow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where people who need care live and are looked after",
+          "body": [
+            "(дом престарелых, приют, интернат)"
+          ],
+          "examples": [
+            "Her mother moved into a nursing home last spring.",
+            "He grew up in a children's home outside the city.",
+            "The home has room for forty residents."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The place where something began, or where a plant or animal naturally lives",
+          "body": [
+            "(родина; естественная среда обитания)",
+            "---"
+          ],
+          "examples": [
+            "Memphis is the home of the blues.",
+            "These wetlands are home to hundreds of bird species.",
+            "Italy is the home of espresso."
+          ]
+        }
+      ],
+      "русский": "дом (жильё), родной дом; дом престарелых, приют, интернат; родина; естественная среда обитания",
       "plural": "homes",
       "countability": "countable",
       "contrast": "A house is the building; a home is where you live. And you go home, never \"to home\"."
@@ -160,14 +263,43 @@
       "term": "garage",
       "ipa": "/ɡəˈrɑːʒ/",
       "respell": "guh-RAHZH",
-      "meaning": "A building or part of a house where a car is kept. ---",
+      "meaning": "Garage has 2 distinct senses.",
       "examples": [
         "Park in the garage — it's supposed to hail.",
         "His band practices in the garage.",
-        "The house has a two-car garage."
+        "The house has a two-car garage.",
+        "My car has been at the garage all week.",
+        "He runs a small garage out on Route 9.",
+        "Both garages in town quoted me the same price."
       ],
-      "senses": [],
-      "русский": "гараж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building or part of a house where a car is kept",
+          "body": [
+            "(гараж)"
+          ],
+          "examples": [
+            "Park in the garage — it's supposed to hail.",
+            "His band practices in the garage.",
+            "The house has a two-car garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shop where cars are repaired and serviced",
+          "body": [
+            "(автомастерская, автосервис)",
+            "---"
+          ],
+          "examples": [
+            "My car has been at the garage all week.",
+            "He runs a small garage out on Route 9.",
+            "Both garages in town quoted me the same price."
+          ]
+        }
+      ],
+      "русский": "гараж; автомастерская, автосервис",
       "plural": "garages",
       "countability": "countable",
       "contrast": "Americans stress the second syllable, guh-RAHZH; the British say GA-rij."
@@ -251,14 +383,43 @@
       "term": "balcony",
       "ipa": "/ˈbælkəni/",
       "respell": "BAL-kuh-nee",
-      "meaning": "A platform with a railing that sticks out from an upper wall of a building. ---",
+      "meaning": "Balcony has 2 distinct senses.",
       "examples": [
         "Our room had a small balcony facing the ocean.",
         "She keeps herbs out on the balcony.",
-        "The apartments with balconies cost more."
+        "The apartments with balconies cost more.",
+        "Our tickets were in the second row of the balcony.",
+        "The balcony was closed for the matinee.",
+        "Kids used to sneak up to the balcony."
       ],
-      "senses": [],
-      "русский": "балкон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A platform with a railing that sticks out from an upper wall of a building",
+          "body": [
+            "(балкон)"
+          ],
+          "examples": [
+            "Our room had a small balcony facing the ocean.",
+            "She keeps herbs out on the balcony.",
+            "The apartments with balconies cost more."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The upper floor of seats in a theater or movie house",
+          "body": [
+            "(балкон, ярус (в театре))",
+            "---"
+          ],
+          "examples": [
+            "Our tickets were in the second row of the balcony.",
+            "The balcony was closed for the matinee.",
+            "Kids used to sneak up to the balcony."
+          ]
+        }
+      ],
+      "русский": "балкон; балкон, ярус (в театре)",
       "plural": "balconies",
       "countability": "countable"
     },
@@ -266,14 +427,58 @@
       "term": "deck",
       "ipa": "/dɛk/",
       "respell": "DEK",
-      "meaning": "A flat wooden platform built outside a house for sitting on. ---",
+      "meaning": "Deck has 3 distinct senses.",
       "examples": [
         "We're grilling out on the deck.",
         "The deck needs to be resealed this summer.",
-        "He built the deck himself over two weekends."
+        "He built the deck himself over two weekends.",
+        "Shuffle the deck and deal seven cards each.",
+        "He keeps a deck of cards in the glove box.",
+        "Two of the decks were missing a queen.",
+        "Passengers gathered on the deck to watch the harbor.",
+        "The lower decks were already flooded.",
+        "She went up on deck for some air."
       ],
-      "senses": [],
-      "русский": "деревянная терраса, настил",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat wooden platform built outside a house for sitting on",
+          "body": [
+            "(деревянная терраса, настил)"
+          ],
+          "examples": [
+            "We're grilling out on the deck.",
+            "The deck needs to be resealed this summer.",
+            "He built the deck himself over two weekends."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A complete set of playing cards",
+          "body": [
+            "(колода (карт))"
+          ],
+          "examples": [
+            "Shuffle the deck and deal seven cards each.",
+            "He keeps a deck of cards in the glove box.",
+            "Two of the decks were missing a queen."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the floors of a ship, especially the open top one",
+          "body": [
+            "(палуба)",
+            "---"
+          ],
+          "examples": [
+            "Passengers gathered on the deck to watch the harbor.",
+            "The lower decks were already flooded.",
+            "She went up on deck for some air."
+          ]
+        }
+      ],
+      "русский": "деревянная терраса, настил; колода (карт); палуба",
       "plural": "decks",
       "countability": "countable"
     },
@@ -281,14 +486,58 @@
       "term": "yard",
       "ipa": "/jɑːrd/",
       "respell": "YAHRD",
-      "meaning": "The area of ground around a house, usually with grass. ---",
+      "meaning": "Yard has 3 distinct senses.",
       "examples": [
         "The kids are playing in the back yard.",
         "We have a huge yard and nobody to mow it.",
-        "Most of the yards on this block have fences."
+        "Most of the yards on this block have fences.",
+        "The store sells fabric by the yard.",
+        "He ran for eighty yards on the first play.",
+        "Give me another yard of rope.",
+        "The lumber yard opens at seven.",
+        "Freight cars sat in the rail yard all week.",
+        "They keep the trucks in a fenced yard behind the shop."
       ],
-      "senses": [],
-      "русский": "двор, участок у дома",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The area of ground around a house, usually with grass",
+          "body": [
+            "(двор, участок у дома)"
+          ],
+          "examples": [
+            "The kids are playing in the back yard.",
+            "We have a huge yard and nobody to mow it.",
+            "Most of the yards on this block have fences."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit of length equal to three feet, about 0.91 meters",
+          "body": [
+            "(ярд (мера длины, 0,91 м))"
+          ],
+          "examples": [
+            "The store sells fabric by the yard.",
+            "He ran for eighty yards on the first play.",
+            "Give me another yard of rope."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An enclosed outdoor area where a business stores goods or works on them",
+          "body": [
+            "(двор, площадка (складская, железнодорожная))",
+            "---"
+          ],
+          "examples": [
+            "The lumber yard opens at seven.",
+            "Freight cars sat in the rail yard all week.",
+            "They keep the trucks in a fenced yard behind the shop."
+          ]
+        }
+      ],
+      "русский": "двор, участок у дома; ярд (мера длины, 0,91 м); двор, площадка (складская, железнодорожная)",
       "plural": "yards",
       "countability": "countable",
       "contrast": "The grass around an American house is the yard; the British would call it the garden."
@@ -327,14 +576,43 @@
       "term": "lobby",
       "ipa": "/ˈlɑːbi/",
       "respell": "LAH-bee",
-      "meaning": "The open area just inside the main entrance of a large building. ---",
+      "meaning": "Lobby has 2 distinct senses.",
       "examples": [
         "Wait for me in the lobby.",
         "The hotel lobby smelled like chlorine.",
-        "They redid the lobbies in both towers."
+        "They redid the lobbies in both towers.",
+        "The gun lobby fought the bill in committee.",
+        "Farmers have a powerful lobby in Washington.",
+        "Both lobbies spent millions on advertising."
       ],
-      "senses": [],
-      "русский": "вестибюль, холл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The open area just inside the main entrance of a large building",
+          "body": [
+            "(вестибюль, холл)"
+          ],
+          "examples": [
+            "Wait for me in the lobby.",
+            "The hotel lobby smelled like chlorine.",
+            "They redid the lobbies in both towers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group that tries to influence lawmakers on behalf of an industry or cause",
+          "body": [
+            "(лобби, группа давления)",
+            "---"
+          ],
+          "examples": [
+            "The gun lobby fought the bill in committee.",
+            "Farmers have a powerful lobby in Washington.",
+            "Both lobbies spent millions on advertising."
+          ]
+        }
+      ],
+      "русский": "вестибюль, холл; лобби, группа давления",
       "plural": "lobbies",
       "countability": "countable"
     },
@@ -534,14 +812,58 @@
       "term": "suite",
       "ipa": "/swiːt/",
       "respell": "SWEET",
-      "meaning": "A set of connected rooms, especially in a hotel. ---",
+      "meaning": "Suite has 3 distinct senses.",
       "examples": [
         "They put us in a suite on the top floor.",
         "The office suite takes up half the eighth floor.",
-        "All the suites come with a small kitchen."
+        "All the suites come with a small kitchen.",
+        "The office suite includes a spreadsheet program.",
+        "We switched to a cheaper software suite.",
+        "The security suite updates itself every week.",
+        "The orchestra played a suite from the ballet.",
+        "He recorded a jazz suite in three movements.",
+        "The suite opens with a slow march."
       ],
-      "senses": [],
-      "русский": "номер люкс, комплект комнат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of connected rooms, especially in a hotel",
+          "body": [
+            "(номер люкс, комплект комнат)"
+          ],
+          "examples": [
+            "They put us in a suite on the top floor.",
+            "The office suite takes up half the eighth floor.",
+            "All the suites come with a small kitchen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of programs or tools sold together as one package",
+          "body": [
+            "(пакет (программ), набор)"
+          ],
+          "examples": [
+            "The office suite includes a spreadsheet program.",
+            "We switched to a cheaper software suite.",
+            "The security suite updates itself every week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A piece of music made up of several short related parts",
+          "body": [
+            "(сюита)",
+            "---"
+          ],
+          "examples": [
+            "The orchestra played a suite from the ballet.",
+            "He recorded a jazz suite in three movements.",
+            "The suite opens with a slow march."
+          ]
+        }
+      ],
+      "русский": "номер люкс, комплект комнат; пакет (программ), набор; сюита",
       "plural": "suites",
       "countability": "countable",
       "contrast": "Sounds exactly like sweet — not like suit."
@@ -550,14 +872,58 @@
       "term": "wall",
       "ipa": "/wɔːl/",
       "respell": "WAWL",
-      "meaning": "A vertical structure that encloses a room or building. ---",
+      "meaning": "Wall has 3 distinct senses.",
       "examples": [
         "Hang the mirror on that wall.",
         "The walls are so thin you can hear everything.",
-        "We knocked out a wall to open up the kitchen."
+        "We knocked out a wall to open up the kitchen.",
+        "The investigators ran into a wall of silence.",
+        "At mile twenty, runners hit the wall.",
+        "Years of arguing built a wall between them.",
+        "Fat builds up on the walls of the arteries.",
+        "The walls of the tank are two inches thick.",
+        "Acid had eaten through the wall of the pipe."
       ],
-      "senses": [],
-      "русский": "стена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A vertical structure that encloses a room or building",
+          "body": [
+            "(стена)"
+          ],
+          "examples": [
+            "Hang the mirror on that wall.",
+            "The walls are so thin you can hear everything.",
+            "We knocked out a wall to open up the kitchen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that blocks progress or keeps people apart",
+          "body": [
+            "(стена, преграда)"
+          ],
+          "examples": [
+            "The investigators ran into a wall of silence.",
+            "At mile twenty, runners hit the wall.",
+            "Years of arguing built a wall between them."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The side or lining of a container, a pipe, or a part of the body",
+          "body": [
+            "(стенка (сосуда, органа, трубы))",
+            "---"
+          ],
+          "examples": [
+            "Fat builds up on the walls of the arteries.",
+            "The walls of the tank are two inches thick.",
+            "Acid had eaten through the wall of the pipe."
+          ]
+        }
+      ],
+      "русский": "стена; стена, преграда; стенка (сосуда, органа, трубы)",
       "plural": "walls",
       "countability": "countable"
     },
@@ -565,14 +931,43 @@
       "term": "ceiling",
       "ipa": "/ˈsiːlɪŋ/",
       "respell": "SEE-ling",
-      "meaning": "The upper inside surface of a room. ---",
+      "meaning": "Ceiling has 2 distinct senses.",
       "examples": [
         "There's a water stain on the ceiling.",
         "The apartment has ten-foot ceilings.",
-        "He painted the ceiling and got more on himself than on it."
+        "He painted the ceiling and got more on himself than on it.",
+        "Congress voted again to raise the debt ceiling.",
+        "The plan puts a ceiling on out-of-pocket costs.",
+        "She hit a ceiling on what that job would ever pay."
       ],
-      "senses": [],
-      "русский": "потолок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The upper inside surface of a room",
+          "body": [
+            "(потолок)"
+          ],
+          "examples": [
+            "There's a water stain on the ceiling.",
+            "The apartment has ten-foot ceilings.",
+            "He painted the ceiling and got more on himself than on it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The highest level that something is allowed to reach",
+          "body": [
+            "(верхний предел, потолок (ограничение))",
+            "---"
+          ],
+          "examples": [
+            "Congress voted again to raise the debt ceiling.",
+            "The plan puts a ceiling on out-of-pocket costs.",
+            "She hit a ceiling on what that job would ever pay."
+          ]
+        }
+      ],
+      "русский": "потолок; верхний предел, потолок (ограничение)",
       "plural": "ceilings",
       "countability": "countable",
       "contrast": "Sounds exactly like sealing."
@@ -581,14 +976,73 @@
       "term": "floor",
       "ipa": "/flɔːr/",
       "respell": "FLOR",
-      "meaning": "The flat surface you walk on inside a building, or one level of a building. ---",
+      "meaning": "Floor has 4 distinct senses.",
       "examples": [
         "Don't leave your bag on the floor.",
         "We're on the fourth floor.",
-        "The kitchen floor is real oak under that linoleum."
+        "The kitchen floor is real oak under that linoleum.",
+        "Strange creatures live on the ocean floor.",
+        "Fallen leaves cover the forest floor.",
+        "The valley floor is the best farmland around.",
+        "The law sets a floor under wages.",
+        "Traders think the market has finally found a floor.",
+        "There's a price floor for milk.",
+        "The bill finally reached the floor.",
+        "The senator asked for the floor.",
+        "Debate on the floor lasted six hours."
       ],
-      "senses": [],
-      "русский": "пол; этаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat surface you walk on inside a building, or one level of a building",
+          "body": [
+            "(пол; этаж)"
+          ],
+          "examples": [
+            "Don't leave your bag on the floor.",
+            "We're on the fourth floor.",
+            "The kitchen floor is real oak under that linoleum."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ground at the bottom of the ocean, a forest, or a valley",
+          "body": [
+            "(дно (океана); земля (в лесу, долине))"
+          ],
+          "examples": [
+            "Strange creatures live on the ocean floor.",
+            "Fallen leaves cover the forest floor.",
+            "The valley floor is the best farmland around."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The lowest level that a price or amount is allowed to fall to",
+          "body": [
+            "(нижний предел, минимум)"
+          ],
+          "examples": [
+            "The law sets a floor under wages.",
+            "Traders think the market has finally found a floor.",
+            "There's a price floor for milk."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The part of a legislature or meeting where members speak and vote",
+          "body": [
+            "(зал заседаний; право выступить)",
+            "---"
+          ],
+          "examples": [
+            "The bill finally reached the floor.",
+            "The senator asked for the floor.",
+            "Debate on the floor lasted six hours."
+          ]
+        }
+      ],
+      "русский": "пол; этаж; дно (океана); земля (в лесу, долине); нижний предел, минимум; зал заседаний; право выступить",
       "plural": "floors",
       "countability": "countable"
     },
@@ -611,14 +1065,58 @@
       "term": "window",
       "ipa": "/ˈwɪndoʊ/",
       "respell": "WIN-doh",
-      "meaning": "An opening in a wall filled with glass that lets in light. ---",
+      "meaning": "Window has 3 distinct senses.",
       "examples": [
         "Open a window — it's stuffy in here.",
         "The windows rattle whenever a truck goes by.",
-        "She sat by the window and watched it rain."
+        "She sat by the window and watched it rain.",
+        "Open the file in a new window.",
+        "I had six windows open and lost track of them.",
+        "Drag the window over to the second monitor.",
+        "The cable guy gave me a four-hour window.",
+        "There's a short window to file an appeal.",
+        "We missed our window to book cheap tickets."
       ],
-      "senses": [],
-      "русский": "окно",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An opening in a wall filled with glass that lets in light",
+          "body": [
+            "(окно)"
+          ],
+          "examples": [
+            "Open a window — it's stuffy in here.",
+            "The windows rattle whenever a truck goes by.",
+            "She sat by the window and watched it rain."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A separate area on a computer screen showing one program or file",
+          "body": [
+            "(окно (на экране компьютера))"
+          ],
+          "examples": [
+            "Open the file in a new window.",
+            "I had six windows open and lost track of them.",
+            "Drag the window over to the second monitor."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A limited period of time in which something can be done",
+          "body": [
+            "(окно, промежуток времени (для чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "The cable guy gave me a four-hour window.",
+            "There's a short window to file an appeal.",
+            "We missed our window to book cheap tickets."
+          ]
+        }
+      ],
+      "русский": "окно; окно (на экране компьютера); окно, промежуток времени (для чего-л.)",
       "plural": "windows",
       "countability": "countable"
     },
@@ -716,14 +1214,58 @@
       "term": "lock",
       "ipa": "/lɑːk/",
       "respell": "LAHK",
-      "meaning": "A device on a door that keeps it shut until it is opened with a key or code. ---",
+      "meaning": "Lock has 3 distinct senses.",
       "examples": [
         "The lock on the back door is broken.",
         "We changed the locks after we moved in.",
-        "He jiggled the key in the lock until it turned."
+        "He jiggled the key in the lock until it turned.",
+        "A lock of hair fell across her forehead.",
+        "They kept a lock of the baby's hair in an envelope.",
+        "Gray locks stuck out from under his cap.",
+        "The barge waited an hour to enter the lock.",
+        "There are eight locks between the two lakes.",
+        "Water poured in and lifted the boat inside the lock."
       ],
-      "senses": [],
-      "русский": "замок (дверной)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device on a door that keeps it shut until it is opened with a key or code",
+          "body": [
+            "(замок (дверной))"
+          ],
+          "examples": [
+            "The lock on the back door is broken.",
+            "We changed the locks after we moved in.",
+            "He jiggled the key in the lock until it turned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of hair that hangs together",
+          "body": [
+            "(прядь, локон)"
+          ],
+          "examples": [
+            "A lock of hair fell across her forehead.",
+            "They kept a lock of the baby's hair in an envelope.",
+            "Gray locks stuck out from under his cap."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A gated section of a canal that raises or lowers boats",
+          "body": [
+            "(шлюз)",
+            "---"
+          ],
+          "examples": [
+            "The barge waited an hour to enter the lock.",
+            "There are eight locks between the two lakes.",
+            "Water poured in and lifted the boat inside the lock."
+          ]
+        }
+      ],
+      "русский": "замок (дверной); прядь, локон; шлюз",
       "plural": "locks",
       "countability": "countable"
     },
@@ -761,14 +1303,58 @@
       "term": "step",
       "ipa": "/stɛp/",
       "respell": "STEP",
-      "meaning": "One of the flat surfaces you put your foot on when going up or down. ---",
+      "meaning": "Step has 3 distinct senses.",
       "examples": [
         "Watch that bottom step — it's loose.",
         "The kids were sitting on the front steps.",
-        "There's one more step than you think at the top."
+        "There's one more step than you think at the top.",
+        "Take two steps to your left.",
+        "The baby took her first steps last week.",
+        "He was only a few steps behind me.",
+        "The first step is to gather your documents.",
+        "Follow the steps in the order they are listed.",
+        "Filing the report was an important step forward."
       ],
-      "senses": [],
-      "русский": "ступенька",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the flat surfaces you put your foot on when going up or down",
+          "body": [
+            "(ступенька)"
+          ],
+          "examples": [
+            "Watch that bottom step — it's loose.",
+            "The kids were sitting on the front steps.",
+            "There's one more step than you think at the top."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single movement made by lifting a foot and putting it down",
+          "body": [
+            "(шаг)"
+          ],
+          "examples": [
+            "Take two steps to your left.",
+            "The baby took her first steps last week.",
+            "He was only a few steps behind me."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One action or stage in a process",
+          "body": [
+            "(этап, шаг (действие))",
+            "---"
+          ],
+          "examples": [
+            "The first step is to gather your documents.",
+            "Follow the steps in the order they are listed.",
+            "Filing the report was an important step forward."
+          ]
+        }
+      ],
+      "русский": "ступенька; шаг; этап, шаг (действие)",
       "plural": "steps",
       "countability": "countable"
     },
@@ -837,14 +1423,58 @@
       "term": "landing",
       "ipa": "/ˈlændɪŋ/",
       "respell": "LAN-ding",
-      "meaning": "The flat area at the top of a flight of stairs or between two flights. ---",
+      "meaning": "Landing has 3 distinct senses.",
       "examples": [
         "There's a window on the landing.",
         "He stopped on the landing to catch his breath.",
-        "The landings are wide enough for a chair."
+        "The landings are wide enough for a chair.",
+        "The pilot made a smooth landing in heavy wind.",
+        "Bad weather forced an emergency landing in Denver.",
+        "The moon landing was watched by millions.",
+        "We put the canoe in at the public boat landing.",
+        "The ferry landing is at the end of this road.",
+        "Kids were fishing off the old landing."
       ],
-      "senses": [],
-      "русский": "лестничная площадка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat area at the top of a flight of stairs or between two flights",
+          "body": [
+            "(лестничная площадка)"
+          ],
+          "examples": [
+            "There's a window on the landing.",
+            "He stopped on the landing to catch his breath.",
+            "The landings are wide enough for a chair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of bringing an aircraft or a spacecraft down to the ground",
+          "body": [
+            "(посадка, приземление)"
+          ],
+          "examples": [
+            "The pilot made a smooth landing in heavy wind.",
+            "Bad weather forced an emergency landing in Denver.",
+            "The moon landing was watched by millions."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A place on a shore where boats load and unload",
+          "body": [
+            "(пристань, причал)",
+            "---"
+          ],
+          "examples": [
+            "We put the canoe in at the public boat landing.",
+            "The ferry landing is at the end of this road.",
+            "Kids were fishing off the old landing."
+          ]
+        }
+      ],
+      "русский": "лестничная площадка; посадка, приземление; пристань, причал",
       "plural": "landings",
       "countability": "countable"
     },
@@ -929,14 +1559,43 @@
       "term": "beam",
       "ipa": "/biːm/",
       "respell": "BEEM",
-      "meaning": "A long thick piece of wood or metal that supports part of a building. ---",
+      "meaning": "Beam has 2 distinct senses.",
       "examples": [
         "That wall can't come out — there's a beam behind it.",
         "The ceiling has exposed wooden beams.",
-        "A steel beam runs the length of the basement."
+        "A steel beam runs the length of the basement.",
+        "The flashlight's beam swept across the yard.",
+        "A beam of sunlight came through the kitchen window.",
+        "The truck's high beams blinded me for a second."
       ],
-      "senses": [],
-      "русский": "балка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long thick piece of wood or metal that supports part of a building",
+          "body": [
+            "(балка)"
+          ],
+          "examples": [
+            "That wall can't come out — there's a beam behind it.",
+            "The ceiling has exposed wooden beams.",
+            "A steel beam runs the length of the basement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A line of light shining out from something",
+          "body": [
+            "(луч (света))",
+            "---"
+          ],
+          "examples": [
+            "The flashlight's beam swept across the yard.",
+            "A beam of sunlight came through the kitchen window.",
+            "The truck's high beams blinded me for a second."
+          ]
+        }
+      ],
+      "русский": "балка; луч (света)",
       "plural": "beams",
       "countability": "countable"
     },
@@ -944,14 +1603,73 @@
       "term": "column",
       "ipa": "/ˈkɑːləm/",
       "respell": "KAH-luhm",
-      "meaning": "A tall upright post that supports part of a building. ---",
+      "meaning": "Column has 4 distinct senses.",
       "examples": [
         "The courthouse has six white columns out front.",
         "A concrete column holds up the parking deck.",
-        "They wrapped the porch columns in new trim."
+        "They wrapped the porch columns in new trim.",
+        "She writes a weekly column on food.",
+        "His column runs on Sundays.",
+        "The paper dropped two of its columns last year.",
+        "Add up the numbers in the third column.",
+        "The last name goes in the left column.",
+        "Widen the columns so the dates fit.",
+        "A column of trucks rolled through the town.",
+        "Marchers formed a column two miles long.",
+        "Columns of refugees moved along the highway."
       ],
-      "senses": [],
-      "русский": "колонна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall upright post that supports part of a building",
+          "body": [
+            "(колонна)"
+          ],
+          "examples": [
+            "The courthouse has six white columns out front.",
+            "A concrete column holds up the parking deck.",
+            "They wrapped the porch columns in new trim."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A regular piece of writing by the same person in a newspaper or magazine",
+          "body": [
+            "(колонка (авторская рубрика))"
+          ],
+          "examples": [
+            "She writes a weekly column on food.",
+            "His column runs on Sundays.",
+            "The paper dropped two of its columns last year."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the vertical sections into which numbers or text are arranged",
+          "body": [
+            "(столбец, колонка (таблицы, текста))"
+          ],
+          "examples": [
+            "Add up the numbers in the third column.",
+            "The last name goes in the left column.",
+            "Widen the columns so the dates fit."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A long line of people or vehicles moving one behind another",
+          "body": [
+            "(колонна (людей, машин))",
+            "---"
+          ],
+          "examples": [
+            "A column of trucks rolled through the town.",
+            "Marchers formed a column two miles long.",
+            "Columns of refugees moved along the highway."
+          ]
+        }
+      ],
+      "русский": "колонна; колонка (авторская рубрика); столбец, колонка (таблицы, текста); колонна (людей, машин)",
       "plural": "columns",
       "countability": "countable",
       "contrast": "The final n is silent: KAH-luhm."
@@ -960,14 +1678,43 @@
       "term": "arch",
       "ipa": "/ɑːrtʃ/",
       "respell": "AHRCH",
-      "meaning": "A curved structure over an opening such as a door or window. ---",
+      "meaning": "Arch has 2 distinct senses.",
       "examples": [
         "There's a stone arch over the front gate.",
         "The hallway ends in a low arch.",
-        "The arches along the courtyard are original."
+        "The arches along the courtyard are original.",
+        "These insoles support the arch of your foot.",
+        "He has high arches, so most sneakers hurt.",
+        "Flat feet mean the arch has collapsed."
       ],
-      "senses": [],
-      "русский": "арка, свод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A curved structure over an opening such as a door or window",
+          "body": [
+            "(арка, свод)"
+          ],
+          "examples": [
+            "There's a stone arch over the front gate.",
+            "The hallway ends in a low arch.",
+            "The arches along the courtyard are original."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The curved underside of the foot between the heel and the toes",
+          "body": [
+            "(свод стопы)",
+            "---"
+          ],
+          "examples": [
+            "These insoles support the arch of your foot.",
+            "He has high arches, so most sneakers hurt.",
+            "Flat feet mean the arch has collapsed."
+          ]
+        }
+      ],
+      "русский": "арка, свод; свод стопы",
       "plural": "arches",
       "countability": "countable"
     },
@@ -1034,14 +1781,43 @@
       "term": "facade",
       "ipa": "/fəˈsɑːd/",
       "respell": "fuh-SAHD",
-      "meaning": "The front outside face of a building. ---",
+      "meaning": "Facade has 2 distinct senses.",
       "examples": [
         "They kept the original facade and gutted everything behind it.",
         "The glass facade reflects the whole square.",
-        "Several facades on the block are landmarked."
+        "Several facades on the block are landmarked.",
+        "He kept up a facade of calm all through dinner.",
+        "Her cheerfulness was a facade.",
+        "The facade cracked when they asked about the money."
       ],
-      "senses": [],
-      "русский": "фасад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The front outside face of a building",
+          "body": [
+            "(фасад)"
+          ],
+          "examples": [
+            "They kept the original facade and gutted everything behind it.",
+            "The glass facade reflects the whole square.",
+            "Several facades on the block are landmarked."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A false outward appearance that hides how someone really feels",
+          "body": [
+            "(видимость, притворство)",
+            "---"
+          ],
+          "examples": [
+            "He kept up a facade of calm all through dinner.",
+            "Her cheerfulness was a facade.",
+            "The facade cracked when they asked about the money."
+          ]
+        }
+      ],
+      "русский": "фасад; видимость, притворство",
       "plural": "facades",
       "countability": "countable",
       "contrast": "The c is pronounced like s — fuh-SAHD, from French façade."
@@ -1066,14 +1842,58 @@
       "term": "exit",
       "ipa": "/ˈɛɡzɪt/",
       "respell": "EG-zit",
-      "meaning": "A door or opening for going out of a building. ---",
+      "meaning": "Exit has 3 distinct senses.",
       "examples": [
         "The emergency exit is at the back of the theater.",
         "Please note the nearest exit.",
-        "All the exits were blocked with boxes."
+        "All the exits were blocked with boxes.",
+        "Take exit 42 and turn left at the light.",
+        "We missed our exit in the rain.",
+        "The next two exits are closed for construction.",
+        "She made a quiet exit before the speeches started.",
+        "His exit from the company surprised everyone.",
+        "Reporters kept asking about the coach's sudden exit."
       ],
-      "senses": [],
-      "русский": "выход",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A door or opening for going out of a building",
+          "body": [
+            "(выход)"
+          ],
+          "examples": [
+            "The emergency exit is at the back of the theater.",
+            "Please note the nearest exit.",
+            "All the exits were blocked with boxes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where cars leave a highway",
+          "body": [
+            "(съезд с шоссе)"
+          ],
+          "examples": [
+            "Take exit 42 and turn left at the light.",
+            "We missed our exit in the rain.",
+            "The next two exits are closed for construction."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of leaving a place, a job, or a stage",
+          "body": [
+            "(уход, отбытие)",
+            "---"
+          ],
+          "examples": [
+            "She made a quiet exit before the speeches started.",
+            "His exit from the company surprised everyone.",
+            "Reporters kept asking about the coach's sudden exit."
+          ]
+        }
+      ],
+      "русский": "выход; съезд с шоссе; уход, отбытие",
       "plural": "exits",
       "countability": "countable"
     },
@@ -1172,14 +1992,43 @@
       "term": "blind",
       "ipa": "/blaɪnd/",
       "respell": "BLYND",
-      "meaning": "A window cover made of slats or a roll of material that pulls down. ---",
+      "meaning": "Blind has 2 distinct senses.",
       "examples": [
         "Can you close the blinds? The sun's in my eyes.",
         "One slat on the blind is bent.",
-        "We put up wooden blinds in the bedroom."
+        "We put up wooden blinds in the bedroom.",
+        "They were sitting in a duck blind before sunrise.",
+        "The photographer built a blind near the nest.",
+        "We waited in the blind for three hours and saw nothing."
       ],
-      "senses": [],
-      "русский": "жалюзи, рулонная штора",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A window cover made of slats or a roll of material that pulls down",
+          "body": [
+            "(жалюзи, рулонная штора)"
+          ],
+          "examples": [
+            "Can you close the blinds? The sun's in my eyes.",
+            "One slat on the blind is bent.",
+            "We put up wooden blinds in the bedroom."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hidden shelter used by hunters or bird watchers",
+          "body": [
+            "(скрадок, укрытие (охотничье))",
+            "---"
+          ],
+          "examples": [
+            "They were sitting in a duck blind before sunrise.",
+            "The photographer built a blind near the nest.",
+            "We waited in the blind for three hours and saw nothing."
+          ]
+        }
+      ],
+      "русский": "жалюзи, рулонная штора; скрадок, укрытие (охотничье)",
       "plural": "blinds",
       "countability": "countable",
       "contrast": "Same spelling as the adjective blind, and usually spoken of in the plural: the blinds."
@@ -1247,14 +2096,43 @@
       "term": "pane",
       "ipa": "/peɪn/",
       "respell": "PAYN",
-      "meaning": "A single sheet of glass in a window or door. ---",
+      "meaning": "Pane has 2 distinct senses.",
       "examples": [
         "A pane cracked when the ball hit it.",
         "The old windows have six panes each.",
-        "He replaced the broken pane himself."
+        "He replaced the broken pane himself.",
+        "Drag the file into the left pane.",
+        "You can hide the preview pane in the settings.",
+        "The editor splits the screen into two panes."
       ],
-      "senses": [],
-      "русский": "оконное стекло (одно)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single sheet of glass in a window or door",
+          "body": [
+            "(оконное стекло (одно))"
+          ],
+          "examples": [
+            "A pane cracked when the ball hit it.",
+            "The old windows have six panes each.",
+            "He replaced the broken pane himself."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A separate section of a computer screen or window",
+          "body": [
+            "(панель, область окна (на экране))",
+            "---"
+          ],
+          "examples": [
+            "Drag the file into the left pane.",
+            "You can hide the preview pane in the settings.",
+            "The editor splits the screen into two panes."
+          ]
+        }
+      ],
+      "русский": "оконное стекло (одно); панель, область окна (на экране)",
       "plural": "panes",
       "countability": "countable",
       "contrast": "Sounds exactly like pain."
@@ -1307,14 +2185,58 @@
       "term": "screen",
       "ipa": "/skriːn/",
       "respell": "SKREEN",
-      "meaning": "A fine mesh in a window or door that keeps insects out. ---",
+      "meaning": "Screen has 3 distinct senses.",
       "examples": [
         "There's a hole in the screen and the flies are getting in.",
         "We take the screens out every fall.",
-        "The porch has screens on three sides."
+        "The porch has screens on three sides.",
+        "My phone screen cracked when I dropped it.",
+        "He stares at a screen all day at work.",
+        "Her name came up on the screen right away.",
+        "A folding screen separates the bed from the desk.",
+        "The nurse pulled a screen around the bed.",
+        "An old painted screen stood in the corner of the shop."
       ],
-      "senses": [],
-      "русский": "москитная сетка; экран",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fine mesh in a window or door that keeps insects out",
+          "body": [
+            "(москитная сетка; экран)"
+          ],
+          "examples": [
+            "There's a hole in the screen and the flies are getting in.",
+            "We take the screens out every fall.",
+            "The porch has screens on three sides."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The flat surface of a TV, computer, or phone on which images appear",
+          "body": [
+            "(экран (телевизора, компьютера, телефона))"
+          ],
+          "examples": [
+            "My phone screen cracked when I dropped it.",
+            "He stares at a screen all day at work.",
+            "Her name came up on the screen right away."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A movable panel used to divide a room or hide something from view",
+          "body": [
+            "(ширма, перегородка)",
+            "---"
+          ],
+          "examples": [
+            "A folding screen separates the bed from the desk.",
+            "The nurse pulled a screen around the bed.",
+            "An old painted screen stood in the corner of the shop."
+          ]
+        }
+      ],
+      "русский": "москитная сетка; экран; экран (телевизора, компьютера, телефона); ширма, перегородка",
       "plural": "screens",
       "countability": "countable"
     },
@@ -1427,14 +2349,43 @@
       "term": "tile",
       "ipa": "/taɪl/",
       "respell": "TYL",
-      "meaning": "A thin flat piece of baked clay or stone used to cover floors, walls or roofs. ---",
+      "meaning": "Tile has 2 distinct senses.",
       "examples": [
         "The bathroom floor is tile.",
         "Two tiles cracked when he dropped the wrench.",
-        "They're putting subway tile behind the stove."
+        "They're putting subway tile behind the stove.",
+        "He drew seven tiles from the Scrabble bag.",
+        "One tile was missing from the game box.",
+        "She turned her tiles face down at the end of the round."
       ],
-      "senses": [],
-      "русский": "плитка; черепица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin flat piece of baked clay or stone used to cover floors, walls or roofs",
+          "body": [
+            "(плитка; черепица)"
+          ],
+          "examples": [
+            "The bathroom floor is tile.",
+            "Two tiles cracked when he dropped the wrench.",
+            "They're putting subway tile behind the stove."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small flat piece used as a playing piece in certain games",
+          "body": [
+            "(фишка (игровая))",
+            "---"
+          ],
+          "examples": [
+            "He drew seven tiles from the Scrabble bag.",
+            "One tile was missing from the game box.",
+            "She turned her tiles face down at the end of the round."
+          ]
+        }
+      ],
+      "русский": "плитка; черепица; фишка (игровая)",
       "plural": "tiles",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1740,14 +2691,58 @@
       "term": "pipe",
       "ipa": "/paɪp/",
       "respell": "PYP",
-      "meaning": "A tube that carries water, gas or waste through a building. ---",
+      "meaning": "Pipe has 3 distinct senses.",
       "examples": [
         "A pipe burst under the sink.",
         "The pipes rattle whenever someone runs the shower.",
-        "Wrap the outside pipes before the first freeze."
+        "Wrap the outside pipes before the first freeze.",
+        "My grandfather smoked a pipe on the porch every evening.",
+        "He tapped the ash out of his pipe.",
+        "The shop sells pipes and loose tobacco.",
+        "The church organ has over two thousand pipes.",
+        "The tallest pipes reach almost to the ceiling.",
+        "He played a simple tune on a wooden pipe."
       ],
-      "senses": [],
-      "русский": "труба",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tube that carries water, gas or waste through a building",
+          "body": [
+            "(труба)"
+          ],
+          "examples": [
+            "A pipe burst under the sink.",
+            "The pipes rattle whenever someone runs the shower.",
+            "Wrap the outside pipes before the first freeze."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short tube with a bowl at one end, used for smoking tobacco",
+          "body": [
+            "(курительная трубка)"
+          ],
+          "examples": [
+            "My grandfather smoked a pipe on the porch every evening.",
+            "He tapped the ash out of his pipe.",
+            "The shop sells pipes and loose tobacco."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A tube that sounds a musical note when air passes through it",
+          "body": [
+            "(труба (органа), дудка)",
+            "---"
+          ],
+          "examples": [
+            "The church organ has over two thousand pipes.",
+            "The tallest pipes reach almost to the ceiling.",
+            "He played a simple tune on a wooden pipe."
+          ]
+        }
+      ],
+      "русский": "труба; курительная трубка; труба (органа), дудка",
       "plural": "pipes",
       "countability": "countable"
     },
@@ -1784,14 +2779,73 @@
       "term": "outlet",
       "ipa": "/ˈaʊtlɛt/",
       "respell": "OWT-let",
-      "meaning": "The place in a wall where you plug in an electrical device. ---",
+      "meaning": "Outlet has 4 distinct senses.",
       "examples": [
         "Is there an outlet behind the couch?",
         "This room only has two outlets.",
-        "The outlet by the sink stopped working."
+        "The outlet by the sink stopped working.",
+        "There's a shoe outlet just off the interstate.",
+        "The brand has outlets in forty states.",
+        "We drove out to the outlet mall for winter coats.",
+        "Running is his outlet after a hard week.",
+        "Kids need an outlet for all that energy.",
+        "Painting became an outlet for her grief.",
+        "The story was picked up by every major news outlet.",
+        "Several outlets ran the photo on the front page.",
+        "She writes for a small local outlet."
       ],
-      "senses": [],
-      "русский": "электрическая розетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place in a wall where you plug in an electrical device",
+          "body": [
+            "(электрическая розетка)"
+          ],
+          "examples": [
+            "Is there an outlet behind the couch?",
+            "This room only has two outlets.",
+            "The outlet by the sink stopped working."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A store that sells goods, often at reduced prices",
+          "body": [
+            "(магазин, торговая точка; аутлет)"
+          ],
+          "examples": [
+            "There's a shoe outlet just off the interstate.",
+            "The brand has outlets in forty states.",
+            "We drove out to the outlet mall for winter coats."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A way of releasing or expressing strong feelings or energy",
+          "body": [
+            "(отдушина, выход (для чувств))"
+          ],
+          "examples": [
+            "Running is his outlet after a hard week.",
+            "Kids need an outlet for all that energy.",
+            "Painting became an outlet for her grief."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A newspaper, TV station, or website that reports the news",
+          "body": [
+            "(СМИ, издание)",
+            "---"
+          ],
+          "examples": [
+            "The story was picked up by every major news outlet.",
+            "Several outlets ran the photo on the front page.",
+            "She writes for a small local outlet."
+          ]
+        }
+      ],
+      "русский": "электрическая розетка; магазин, торговая точка; аутлет; отдушина, выход (для чувств); СМИ, издание",
       "plural": "outlets",
       "countability": "countable",
       "contrast": "American outlet = British socket or power point."
@@ -1860,14 +2914,43 @@
       "term": "furnace",
       "ipa": "/ˈfɜːrnɪs/",
       "respell": "FUR-nis",
-      "meaning": "The machine that heats a whole house, usually in the basement. ---",
+      "meaning": "Furnace has 2 distinct senses.",
       "examples": [
         "The furnace quit on the coldest night of the year.",
         "We had the furnace serviced in October.",
-        "New furnaces are a lot more efficient."
+        "New furnaces are a lot more efficient.",
+        "The steel mill's furnace runs day and night.",
+        "Workers fed scrap iron into the furnace.",
+        "Glassblowers pull molten glass straight from the furnace."
       ],
-      "senses": [],
-      "русский": "отопительный котёл, печь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The machine that heats a whole house, usually in the basement",
+          "body": [
+            "(отопительный котёл, печь)"
+          ],
+          "examples": [
+            "The furnace quit on the coldest night of the year.",
+            "We had the furnace serviced in October.",
+            "New furnaces are a lot more efficient."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An enclosed chamber that produces intense heat for melting metal or making glass",
+          "body": [
+            "(печь (плавильная, промышленная))",
+            "---"
+          ],
+          "examples": [
+            "The steel mill's furnace runs day and night.",
+            "Workers fed scrap iron into the furnace.",
+            "Glassblowers pull molten glass straight from the furnace."
+          ]
+        }
+      ],
+      "русский": "отопительный котёл, печь; печь (плавильная, промышленная)",
       "plural": "furnaces",
       "countability": "countable"
     },
@@ -1919,14 +3002,43 @@
       "term": "gate",
       "ipa": "/ɡeɪt/",
       "respell": "GAYT",
-      "meaning": "A door in a fence or wall around a yard or property. ---",
+      "meaning": "Gate has 2 distinct senses.",
       "examples": [
         "Latch the gate so the dog doesn't get out.",
         "The gate squeaks every time it swings.",
-        "Both gates are padlocked at night."
+        "Both gates are padlocked at night.",
+        "Our flight leaves from gate 12.",
+        "They changed the gate twenty minutes before boarding.",
+        "We ran the whole length of the terminal to our gate."
       ],
-      "senses": [],
-      "русский": "ворота, калитка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A door in a fence or wall around a yard or property",
+          "body": [
+            "(ворота, калитка)"
+          ],
+          "examples": [
+            "Latch the gate so the dog doesn't get out.",
+            "The gate squeaks every time it swings.",
+            "Both gates are padlocked at night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place in an airport where passengers wait and board a plane",
+          "body": [
+            "(выход на посадку (в аэропорту))",
+            "---"
+          ],
+          "examples": [
+            "Our flight leaves from gate 12.",
+            "They changed the gate twenty minutes before boarding.",
+            "We ran the whole length of the terminal to our gate."
+          ]
+        }
+      ],
+      "русский": "ворота, калитка; выход на посадку (в аэропорту)",
       "plural": "gates",
       "countability": "countable",
       "contrast": "One gate is a gate — countable and singular — even though «ворота» is plural in Russian."
@@ -1935,14 +3047,43 @@
       "term": "fence",
       "ipa": "/fɛns/",
       "respell": "FENS",
-      "meaning": "A barrier of wood, wire or metal around a piece of land. ---",
+      "meaning": "Fence has 2 distinct senses.",
       "examples": [
         "The fence between us and the neighbors is falling down.",
         "They put up a six-foot fence around the pool.",
-        "All the fences on that side blew over."
+        "All the fences on that side blew over.",
+        "Detectives finally found the fence who moved the jewelry.",
+        "He worked as a fence out of a pawn shop.",
+        "Most of the fences in the city were under watch."
       ],
-      "senses": [],
-      "русский": "забор, ограда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A barrier of wood, wire or metal around a piece of land",
+          "body": [
+            "(забор, ограда)"
+          ],
+          "examples": [
+            "The fence between us and the neighbors is falling down.",
+            "They put up a six-foot fence around the pool.",
+            "All the fences on that side blew over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who buys stolen goods and sells them on",
+          "body": [
+            "(скупщик краденого)",
+            "---"
+          ],
+          "examples": [
+            "Detectives finally found the fence who moved the jewelry.",
+            "He worked as a fence out of a pawn shop.",
+            "Most of the fences in the city were under watch."
+          ]
+        }
+      ],
+      "русский": "забор, ограда; скупщик краденого",
       "plural": "fences",
       "countability": "countable"
     },
@@ -1950,14 +3091,58 @@
       "term": "path",
       "ipa": "/pæθ/",
       "respell": "PATH",
-      "meaning": "A narrow way for walking, made by use or laid with stone. ---",
+      "meaning": "Path has 3 distinct senses.",
       "examples": [
         "A stone path runs from the driveway to the door.",
         "Stay on the path — the grass is wet.",
-        "The paths through the park are lit until midnight."
+        "The paths through the park are lit until midnight.",
+        "The storm's path took it straight up the coast.",
+        "The plane strayed from its flight path.",
+        "Anything in the fire's path burned.",
+        "There's no easy path to fluency.",
+        "The two countries are on a path to war.",
+        "She chose a different career path after grad school."
       ],
-      "senses": [],
-      "русский": "тропинка, дорожка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow way for walking, made by use or laid with stone",
+          "body": [
+            "(тропинка, дорожка)"
+          ],
+          "examples": [
+            "A stone path runs from the driveway to the door.",
+            "Stay on the path — the grass is wet.",
+            "The paths through the park are lit until midnight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The line along which something moves",
+          "body": [
+            "(траектория, путь движения)"
+          ],
+          "examples": [
+            "The storm's path took it straight up the coast.",
+            "The plane strayed from its flight path.",
+            "Anything in the fire's path burned."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A course of action leading toward a goal",
+          "body": [
+            "(путь (к цели), курс действий)",
+            "---"
+          ],
+          "examples": [
+            "There's no easy path to fluency.",
+            "The two countries are on a path to war.",
+            "She chose a different career path after grad school."
+          ]
+        }
+      ],
+      "русский": "тропинка, дорожка; траектория, путь движения; путь (к цели), курс действий",
       "plural": "paths",
       "countability": "countable",
       "contrast": "Americans say /pæθ/ with the vowel of cat; the plural paths ends in a voiced sound, PATHZ."
@@ -1966,14 +3151,43 @@
       "term": "terrace",
       "ipa": "/ˈtɛrəs/",
       "respell": "TER-uhs",
-      "meaning": "A flat paved outdoor area next to a building. ---",
+      "meaning": "Terrace has 2 distinct senses.",
       "examples": [
         "They serve lunch on the terrace in good weather.",
         "The terrace looks out over the whole valley.",
-        "The upper terraces are for residents only."
+        "The upper terraces are for residents only.",
+        "Rice grows on terraces up the side of the valley.",
+        "The farmers cut terraces to keep the soil from washing away.",
+        "Each terrace is held in place by a low stone wall."
       ],
-      "senses": [],
-      "русский": "терраса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat paved outdoor area next to a building",
+          "body": [
+            "(терраса)"
+          ],
+          "examples": [
+            "They serve lunch on the terrace in good weather.",
+            "The terrace looks out over the whole valley.",
+            "The upper terraces are for residents only."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat step cut into a hillside for growing crops",
+          "body": [
+            "(терраса (уступ на склоне))",
+            "---"
+          ],
+          "examples": [
+            "Rice grows on terraces up the side of the valley.",
+            "The farmers cut terraces to keep the soil from washing away.",
+            "Each terrace is held in place by a low stone wall."
+          ]
+        }
+      ],
+      "русский": "терраса; терраса (уступ на склоне)",
       "plural": "terraces",
       "countability": "countable"
     },
@@ -2041,14 +3255,43 @@
       "term": "hedge",
       "ipa": "/hɛdʒ/",
       "respell": "HEJ",
-      "meaning": "A row of bushes planted close together as a boundary. ---",
+      "meaning": "Hedge has 2 distinct senses.",
       "examples": [
         "The hedge along the driveway needs trimming.",
         "A tall hedge blocks the view from the road.",
-        "He spent all Saturday cutting the hedges."
+        "He spent all Saturday cutting the hedges.",
+        "Gold is often bought as a hedge against inflation.",
+        "The contract is a hedge in case fuel prices rise.",
+        "Owning both stocks and bonds is a simple hedge."
       ],
-      "senses": [],
-      "русский": "живая изгородь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A row of bushes planted close together as a boundary",
+          "body": [
+            "(живая изгородь)"
+          ],
+          "examples": [
+            "The hedge along the driveway needs trimming.",
+            "A tall hedge blocks the view from the road.",
+            "He spent all Saturday cutting the hedges."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something bought or done to protect against a possible loss",
+          "body": [
+            "(страховка от убытков, хедж)",
+            "---"
+          ],
+          "examples": [
+            "Gold is often bought as a hedge against inflation.",
+            "The contract is a hedge in case fuel prices rise.",
+            "Owning both stocks and bonds is a simple hedge."
+          ]
+        }
+      ],
+      "русский": "живая изгородь; страховка от убытков, хедж",
       "plural": "hedges",
       "countability": "countable"
     },
@@ -2087,14 +3330,43 @@
       "term": "cabin",
       "ipa": "/ˈkæbɪn/",
       "respell": "KAB-in",
-      "meaning": "A small house made of wood, usually in the woods or mountains. ---",
+      "meaning": "Cabin has 2 distinct senses.",
       "examples": [
         "We spent the weekend at his cabin in the mountains.",
         "The cabin has no running water.",
-        "The camp has twelve cabins along the creek."
+        "The camp has twelve cabins along the creek.",
+        "The crew walked through the cabin before takeoff.",
+        "Our cabin on the ship had one small window.",
+        "Cabin pressure dropped and the masks came down."
       ],
-      "senses": [],
-      "русский": "хижина, домик (в лесу)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small house made of wood, usually in the woods or mountains",
+          "body": [
+            "(хижина, домик (в лесу))"
+          ],
+          "examples": [
+            "We spent the weekend at his cabin in the mountains.",
+            "The cabin has no running water.",
+            "The camp has twelve cabins along the creek."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a plane or ship where the passengers sit or sleep",
+          "body": [
+            "(салон (самолёта); каюта (на судне))",
+            "---"
+          ],
+          "examples": [
+            "The crew walked through the cabin before takeoff.",
+            "Our cabin on the ship had one small window.",
+            "Cabin pressure dropped and the masks came down."
+          ]
+        }
+      ],
+      "русский": "хижина, домик (в лесу); салон (самолёта); каюта (на судне)",
       "plural": "cabins",
       "countability": "countable"
     },
@@ -2147,14 +3419,58 @@
       "term": "story",
       "ipa": "/ˈstɔːri/",
       "respell": "STOR-ee",
-      "meaning": "One level of a building. ---",
+      "meaning": "Story has 3 distinct senses.",
       "examples": [
         "It's a two-story house with a finished basement.",
         "The parking garage is six stories tall.",
-        "He fell one story and walked away without a scratch."
+        "He fell one story and walked away without a scratch.",
+        "Grandpa told us ghost stories on the porch.",
+        "It's a story about two brothers in Ohio.",
+        "She never got to finish the story.",
+        "The story ran on the front page.",
+        "A reporter has been working on the story for months.",
+        "That story has been all over the news."
       ],
-      "senses": [],
-      "русский": "этаж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One level of a building",
+          "body": [
+            "(этаж)"
+          ],
+          "examples": [
+            "It's a two-story house with a finished basement.",
+            "The parking garage is six stories tall.",
+            "He fell one story and walked away without a scratch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An account of events, real or invented, told to entertain or inform",
+          "body": [
+            "(рассказ, история)"
+          ],
+          "examples": [
+            "Grandpa told us ghost stories on the porch.",
+            "It's a story about two brothers in Ohio.",
+            "She never got to finish the story."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A report in a newspaper or on a news program",
+          "body": [
+            "(материал, статья, репортаж)",
+            "---"
+          ],
+          "examples": [
+            "The story ran on the front page.",
+            "A reporter has been working on the story for months.",
+            "That story has been all over the news."
+          ]
+        }
+      ],
+      "русский": "этаж; рассказ, история; материал, статья, репортаж",
       "plural": "stories",
       "countability": "countable",
       "contrast": "Americans spell the level of a building story; the British write storey."
@@ -2179,14 +3495,43 @@
       "term": "counter",
       "ipa": "/ˈkaʊntər/",
       "respell": "KOWN-tur",
-      "meaning": "A flat work surface in a kitchen, or a long table you are served at. ---",
+      "meaning": "Counter has 2 distinct senses.",
       "examples": [
         "Just set the groceries on the counter.",
         "We wiped down all the counters after dinner.",
-        "He ate at the counter instead of taking a booth."
+        "He ate at the counter instead of taking a booth.",
+        "The step counter on her phone said nine thousand.",
+        "A Geiger counter clicked as they walked toward the site.",
+        "Reset the counter before you start the next batch."
       ],
-      "senses": [],
-      "русский": "столешница, стойка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat work surface in a kitchen, or a long table you are served at",
+          "body": [
+            "(столешница, стойка)"
+          ],
+          "examples": [
+            "Just set the groceries on the counter.",
+            "We wiped down all the counters after dinner.",
+            "He ate at the counter instead of taking a booth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device or program that keeps a running total of something",
+          "body": [
+            "(счётчик)",
+            "---"
+          ],
+          "examples": [
+            "The step counter on her phone said nine thousand.",
+            "A Geiger counter clicked as they walked toward the site.",
+            "Reset the counter before you start the next batch."
+          ]
+        }
+      ],
+      "русский": "столешница, стойка; счётчик",
       "plural": "counters",
       "countability": "countable"
     },

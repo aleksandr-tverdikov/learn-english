@@ -12,15 +12,23 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### book
 
 **Pronunciation:** /bʊk/ &middot; *BUUK*
-**Русский:** книга
+**Русский:** книга; бухгалтерские книги, отчётность
 **Plural:** *books*
 **Countability:** countable
 
-A set of printed or written pages bound together inside a cover.
+Book has 2 distinct senses.
+
+**1. A set of printed or written pages bound together inside a cover.** (книга)
 
 1. I'm reading a *book* about the Civil War.
 2. She keeps her *books* in alphabetical order.
 3. The *book* came out last spring.
+
+**2. A record of the money a business takes in and pays out, usually in the plural.** (бухгалтерские книги, отчётность)
+
+4. An accountant goes over the *books* every quarter.
+5. The restaurant's *books* were a mess.
+6. He was accused of cooking the *books*.
 
 ---
 
@@ -50,30 +58,70 @@ Page has 2 distinct senses.
 ### cover
 
 **Pronunciation:** /ˈkʌvər/ &middot; *KUV-ur*
-**Русский:** обложка
+**Русский:** обложка; укрытие, прикрытие; кавер, перепевка; прикрытие, легенда (агента)
 **Plural:** *covers*
 **Countability:** countable
 
-The stiff outside of a book or magazine that protects the pages.
+Cover has 4 distinct senses.
+
+**1. The stiff outside of a book or magazine that protects the pages.** (обложка)
 
 1. Don't judge a book by its *cover*.
 2. Her photo was on the *cover* of the magazine.
 3. The paperback *covers* are already curling.
+
+**2. Shelter or protection from weather, gunfire, or being seen.** (укрытие, прикрытие)
+
+4. We ran for *cover* when the hail started.
+5. The soldiers took *cover* behind a low wall.
+6. They crossed the field under *cover* of darkness.
+
+**3. A new recording of a song first made famous by someone else.** (кавер, перепевка)
+
+7. Her *cover* of the old country song went viral.
+8. The band plays *covers* until midnight, then their own songs.
+9. It's a *cover*, but most people think it's the original.
+
+**4. A false identity or story that hides what someone is really doing.** (прикрытие, легенда (агента))
+
+10. One careless phone call blew his *cover*.
+11. The import business was just a *cover* for smuggling.
+12. She held her *cover* for three years inside the gang.
 
 ---
 
 ### title
 
 **Pronunciation:** /ˈtaɪtəl/ &middot; *TY-tuhl*
-**Русский:** название, заглавие
+**Русский:** название, заглавие; титул; звание, должность; право собственности; документ на владение; титул чемпиона
 **Plural:** *titles*
 **Countability:** countable
 
-The name given to a book, article, film, or song.
+Title has 4 distinct senses.
+
+**1. The name given to a book, article, film, or song.** (название, заглавие)
 
 1. I forget the *title*, but the cover was blue.
 2. The publisher releases about forty *titles* a year.
 3. He changed the *title* three times before it went to print.
+
+**2. A word used before someone's name or for a position, showing rank or job.** (титул; звание, должность)
+
+4. Her official *title* is director of research.
+5. He was given the *title* of duke.
+6. People with fancy *titles* don't always do much work.
+
+**3. The legal right to own something, or the document that proves it.** (право собственности; документ на владение)
+
+7. You can't sell the car without the *title*.
+8. The bank holds the *title* until the loan is paid off.
+9. They found a problem with the *title* to the land.
+
+**4. The position of champion in a sport.** (титул чемпиона)
+
+10. She won her third *title* in a row.
+11. The team hasn't taken the *title* since 1994.
+12. He defends his *title* in Las Vegas next month.
 
 ---
 
@@ -239,15 +287,23 @@ An artist who draws the pictures for books or magazines.
 ### caption
 
 **Pronunciation:** /ˈkæpʃən/ &middot; *KAP-shuhn*
-**Русский:** подпись (под фото или рисунком)
+**Русский:** подпись (под фото или рисунком); субтитры
 **Plural:** *captions*
 **Countability:** countable
 
-A short line of text printed under a photo or drawing to say what it shows.
+Caption has 2 distinct senses.
+
+**1. A short line of text printed under a photo or drawing to say what it shows.** (подпись (под фото или рисунком))
 
 1. The *caption* got the mayor's name wrong.
 2. Write a one-line *caption* for each photo.
 3. Half the *captions* are missing from the proof.
+
+**2. Text on a screen showing what people are saying, for viewers who cannot hear it.** (субтитры)
+
+4. Turn on the *captions* — I can barely hear the dialogue.
+5. The video offers *captions* in Spanish.
+6. On a live broadcast the *captions* run a second behind.
 
 ---
 
@@ -269,15 +325,35 @@ A simple drawing that shows how something is arranged or how it works.
 ### chart
 
 **Pronunciation:** /tʃɑːrt/ &middot; *CHART*
-**Русский:** график, диаграмма
+**Русский:** график, диаграмма; карта (морская, звёздная); медицинская карта; хит-парад, чарты
 **Plural:** *charts*
 **Countability:** countable
 
-A drawing that shows numbers or facts as bars, lines, or slices.
+Chart has 4 distinct senses.
+
+**1. A drawing that shows numbers or facts as bars, lines, or slices.** (график, диаграмма)
 
 1. The *chart* shows sales month by month.
 2. Put the numbers in a *chart* so people can see the trend.
 3. All three *charts* use the same scale.
+
+**2. A map of the sea or the stars used for navigation.** (карта (морская, звёздная))
+
+4. The captain spread the *chart* across the table.
+5. Old *charts* put the reef in the wrong place.
+6. He plotted the course on a nautical *chart*.
+
+**3. The record of a patient's condition and treatment in a hospital.** (медицинская карта)
+
+7. The nurse updated his *chart* after every visit.
+8. Her allergies are noted at the top of the *chart*.
+9. The doctor flipped through the *chart* before coming in.
+
+**4. The weekly list ranking the most popular songs or albums.** (хит-парад, чарты)
+
+10. The single topped the *charts* for six weeks.
+11. Their album fell off the *charts* in March.
+12. Three of her songs are on the *charts* right now.
 
 ---
 
@@ -384,15 +460,29 @@ The text of a book as the author wrote it, before it is printed.
 ### copy
 
 **Pronunciation:** /ˈkɑːpi/ &middot; *KAH-pee*
-**Русский:** экземпляр
+**Русский:** экземпляр; копия, дубликат; текст (рекламный, редакционный)
 **Plural:** *copies*
 **Countability:** countable
 
-One single example of a book, magazine, or record out of many printed.
+Copy has 3 distinct senses.
+
+**1. One single example of a book, magazine, or record out of many printed.** (экземпляр)
 
 1. The book sold two million *copies*.
 2. Can I borrow your *copy* of the report?
 3. There's a signed *copy* in the window.
+
+**2. Something made to look exactly like an original.** (копия, дубликат)
+
+4. Make a *copy* of the key for your sister.
+5. The painting on the wall is a very good *copy*.
+6. Send *copies* of the signed form to both offices.
+
+**3. Written text prepared for printing or for an advertisement.** (текст (рекламный, редакционный))
+
+7. The ad *copy* needs to be shorter.
+8. She writes *copy* for a marketing firm.
+9. The editor cut half of his *copy*.
 
 ---
 
@@ -639,14 +729,22 @@ A writer of novels.
 ### fiction
 
 **Pronunciation:** /ˈfɪkʃən/ &middot; *FIK-shuhn*
-**Русский:** художественная литература
+**Русский:** художественная литература; вымысел, выдумка
 **Countability:** uncountable
 
-Writing about people and events that are made up rather than real.
+Fiction has 2 distinct senses.
+
+**1. Writing about people and events that are made up rather than real.** (художественная литература)
 
 1. I read mostly *fiction* on vacation.
 2. The *fiction* section is upstairs.
 3. She writes both *fiction* and essays.
+
+**2. Something invented that people accept as if it were true.** (вымысел, выдумка)
+
+4. The idea that both sides agreed is a convenient *fiction*.
+5. His entire resume turned out to be *fiction*.
+6. The audit exposed the *fiction* behind the company's numbers.
 
 ---
 
@@ -835,15 +933,23 @@ A small printed sheet advertising an event or business.
 ### comic
 
 **Pronunciation:** /ˈkɑːmɪk/ &middot; *KAH-mik*
-**Русский:** комикс
+**Русский:** комикс; комик, юморист
 **Plural:** *comics*
 **Countability:** countable
 
-A magazine or book that tells a story in drawn panels.
+Comic has 2 distinct senses.
+
+**1. A magazine or book that tells a story in drawn panels.** (комикс)
 
 1. He spent his allowance on *comics*.
 2. The *comic* came out every Wednesday.
 3. There's a *comic* shop two blocks over.
+
+**2. A performer whose job is making an audience laugh.** (комик, юморист)
+
+4. The *comic* opened with a joke about the weather.
+5. She's a stand-up *comic* from Chicago.
+6. Three *comics* are on the bill tonight.
 
 ---
 
@@ -896,15 +1002,29 @@ A short piece taken out of a longer book, article, or speech.
 ### plot
 
 **Pronunciation:** /plɑːt/ &middot; *PLAHT*
-**Русский:** сюжет
+**Русский:** сюжет; заговор; участок земли
 **Plural:** *plots*
 **Countability:** countable
 
-The series of events that make up a story.
+Plot has 3 distinct senses.
+
+**1. The series of events that make up a story.** (сюжет)
 
 1. The *plot* falls apart in the last act.
 2. Don't tell me the *plot* — I haven't seen it.
 3. Both books have almost identical *plots*.
+
+**2. A secret plan by several people to do something harmful or illegal.** (заговор)
+
+4. Police uncovered a *plot* to rob the bank.
+5. The *plot* against the mayor fell apart.
+6. He went to prison for his part in the *plot*.
+
+**3. A small marked-off piece of ground.** (участок земли)
+
+7. They bought a *plot* of land outside town.
+8. Each family tends its own *plot* in the community garden.
+9. My grandparents bought burial *plots* years ago.
 
 ---
 
@@ -1033,15 +1153,23 @@ A version of a text put into another language.
 ### royalty
 
 **Pronunciation:** /ˈrɔɪəlti/ &middot; *ROY-uhl-tee*
-**Русский:** авторские отчисления, роялти
+**Русский:** авторские отчисления, роялти; члены королевской семьи, царственные особы
 **Plural:** *royalties*
 **Countability:** countable
 
-Money paid to an author or musician for each copy of their work that sells.
+Royalty has 2 distinct senses.
+
+**1. Money paid to an author or musician for each copy of their work that sells.** (авторские отчисления, роялти)
 
 1. She still gets *royalties* from her first book.
 2. The contract sets the *royalty* at ten percent.
 3. His *royalties* barely cover the rent.
+
+**2. Kings, queens, and the members of their families.** (члены королевской семьи, царственные особы)
+
+4. The crowd hoped to catch a glimpse of *royalty*.
+5. They were treated like *royalty* all weekend.
+6. The museum displays jewelry once worn by *royalty*.
 
 ---
 
@@ -1086,15 +1214,29 @@ The group of people who read a particular paper, magazine, or writer.
 ### reader
 
 **Pronunciation:** /ˈriːdər/ &middot; *REE-dur*
-**Русский:** читатель
+**Русский:** читатель; считыватель, ридер; книга для чтения, хрестоматия
 **Plural:** *readers*
 **Countability:** countable
 
-A person who reads a book, paper, or website.
+Reader has 3 distinct senses.
+
+**1. A person who reads a book, paper, or website.** (читатель)
 
 1. *Readers* wrote in by the hundreds.
 2. She's a slow but careful *reader*.
 3. The column has loyal *readers*.
+
+**2. A machine, or part of one, that takes in information from cards, codes, or discs.** (считыватель, ридер)
+
+4. Swipe your badge through the card *reader*.
+5. The barcode *reader* at the register keeps failing.
+6. Her e-book *reader* holds a thousand titles.
+
+**3. A school book of stories and passages used to practice reading.** (книга для чтения, хрестоматия)
+
+7. Every first grader gets a *reader* in September.
+8. The passage comes from an old third-grade *reader*.
+9. Those *readers* are full of little moral tales.
 
 ---
 
@@ -1255,15 +1397,35 @@ The room or department where reporters and editors put the news together.
 ### article
 
 **Pronunciation:** /ˈɑːrtɪkəl/ &middot; *AR-tih-kuhl*
-**Русский:** статья
+**Русский:** статья; предмет, вещь, изделие; артикль; статья (договора, конституции)
 **Plural:** *articles*
 **Countability:** countable
 
-A piece of writing about one subject in a newspaper, magazine, or website.
+Article has 4 distinct senses.
+
+**1. A piece of writing about one subject in a newspaper, magazine, or website.** (статья)
 
 1. Did you read the *article* about the bridge?
 2. She's filed three *articles* this week.
 3. The *article* is behind a paywall.
+
+**2. A single object, especially one of a set.** (предмет, вещь, изделие)
+
+4. Every *article* of clothing was folded in tissue paper.
+5. Customs asks you to declare *articles* worth over 800 dollars.
+6. Not one *article* in the case was worth stealing.
+
+**3. One of the words a, an, or the, used in front of a noun.** (артикль)
+
+7. Russian has no *articles*, so English ones take practice.
+8. Use the definite *article* when both speakers know which one you mean.
+9. He dropped every *article* from his notes to save space.
+
+**4. A separately numbered section of a treaty, contract, or constitution.** (статья (договора, конституции))
+
+10. *Article* II lays out the president's powers.
+11. The union cited *Article* 12 of the contract.
+12. Both sides broke several *articles* of the treaty.
 
 ---
 
@@ -1392,15 +1554,23 @@ Correspondent has 2 distinct senses.
 ### critic
 
 **Pronunciation:** /ˈkrɪtɪk/ &middot; *KRIT-ik*
-**Русский:** критик
+**Русский:** критик; противник, критикующий (план, политику)
 **Plural:** *critics*
 **Countability:** countable
 
-Someone whose job is to judge books, films, food, or art in public.
+Critic has 2 distinct senses.
+
+**1. Someone whose job is to judge books, films, food, or art in public.** (критик)
 
 1. The film *critic* gave it two stars.
 2. *Critics* loved it; nobody went to see it.
 3. She's the restaurant *critic* for the paper.
+
+**2. Someone who publicly disagrees with a person, plan, or policy.** (противник, критикующий (план, политику))
+
+4. *Critics* of the bill say it will cost jobs.
+5. Even her harshest *critic* admitted the numbers were right.
+6. The mayor's *critics* packed the meeting.
 
 ---
 
@@ -1465,45 +1635,87 @@ The reporting a story gets in newspapers, on TV, or online.
 ### scoop
 
 **Pronunciation:** /skuːp/ &middot; *SKOOP*
-**Русский:** сенсация, эксклюзивный материал
+**Русский:** сенсация, эксклюзивный материал; совок, ложка (для мороженого, муки); порция, черпак (мера)
 **Plural:** *scoops*
 **Countability:** countable
 
-An important news story that one reporter gets before anyone else.
+Scoop has 3 distinct senses.
+
+**1. An important news story that one reporter gets before anyone else.** (сенсация, эксклюзивный материал)
 
 1. That story was a real *scoop*.
 2. She got the *scoop* from a source at city hall.
 3. The paper has had two big *scoops* this month.
+
+**2. A deep spoon or small shovel for lifting loose food.** (совок, ложка (для мороженого, муки))
+
+4. Use the *scoop* in the flour bin, not a coffee cup.
+5. The ice cream *scoop* is in the top drawer.
+6. He dug into the dog food with a plastic *scoop*.
+
+**3. The amount that such a spoon holds.** (порция, черпак (мера))
+
+7. I'll take two *scoops* of chocolate in a cone.
+8. Add one *scoop* of protein powder to the milk.
+9. She ordered a single *scoop* and ate it in the car.
 
 ---
 
 ### source
 
 **Pronunciation:** /sɔːrs/ &middot; *SORS*
-**Русский:** источник (информации)
+**Русский:** источник (информации); исток (реки); источник (чего-либо)
 **Plural:** *sources*
 **Countability:** countable
 
-A person or document that gives a reporter information.
+Source has 3 distinct senses.
+
+**1. A person or document that gives a reporter information.** (источник (информации))
 
 1. He won't name his *source*.
 2. Two *sources* confirmed the story.
 3. A *source* inside the company leaked the memo.
+
+**2. The spring or lake where a river begins.** (исток (реки))
+
+4. They hiked all day to the *source* of the river.
+5. The creek's *source* is a spring under the ridge.
+6. Both rivers have their *sources* high in the mountains.
+
+**3. A thing that provides or produces something.** (источник (чего-либо))
+
+7. Beans are a cheap *source* of protein.
+8. Tourism is the town's main *source* of income.
+9. They traced the smell back to its *source*.
 
 ---
 
 ### quote
 
 **Pronunciation:** /kwoʊt/ &middot; *KWOHT*
-**Русский:** цитата
+**Русский:** цитата; смета, расценка (от подрядчика); кавычка
 **Plural:** *quotes*
 **Countability:** countable
 
-Someone's exact words repeated in a story or book.
+Quote has 3 distinct senses.
+
+**1. Someone's exact words repeated in a story or book.** (цитата)
 
 1. That *quote* was taken out of context.
 2. The article is just three *quotes* and no facts.
 3. Can I use that as a *quote*?
+
+**2. A stated price for a job, given before the work starts.** (смета, расценка (от подрядчика))
+
+4. We got three *quotes* before we hired a roofer.
+5. The plumber's *quote* came to eight hundred dollars.
+6. Always ask the shop for a written *quote*.
+
+**3. A quotation mark.** (кавычка)
+
+7. Put the title of the song in *quotes*.
+8. He made air *quotes* with his fingers when he said 'expert.'
+9. The whole phrase belongs inside the *quotes*.
 
 ---
 
@@ -1720,15 +1932,29 @@ Newspapers, television, radio, and websites taken together as a source of news.
 ### issue
 
 **Pronunciation:** /ˈɪʃuː/ &middot; *ISH-oo*
-**Русский:** номер, выпуск (издания)
+**Русский:** номер, выпуск (издания); вопрос, проблема (тема обсуждения); неполадка, сбой, проблема
 **Plural:** *issues*
 **Countability:** countable
 
-One numbered edition of a magazine or newspaper.
+Issue has 3 distinct senses.
+
+**1. One numbered edition of a magazine or newspaper.** (номер, выпуск (издания))
 
 1. The April *issue* has her interview in it.
 2. I've saved every *issue* since the first one.
 3. The next *issue* comes out Thursday.
+
+**2. An important subject that people discuss or disagree about.** (вопрос, проблема (тема обсуждения))
+
+4. Health care was the biggest *issue* in the election.
+5. The mayor refused to take a position on the *issue*.
+6. They disagree on almost every *issue*.
+
+**3. A problem or fault with something.** (неполадка, сбой, проблема)
+
+7. We're having *issues* with the printer again.
+8. If there's any *issue* with your order, call us.
+9. The car has an *issue* with the transmission.
 
 ---
 
@@ -1857,30 +2083,58 @@ Program has 2 distinct senses.
 ### show
 
 **Pronunciation:** /ʃoʊ/ &middot; *SHOH*
-**Русский:** шоу, передача
+**Русский:** шоу, передача; спектакль, концерт, представление; выставка, показ
 **Plural:** *shows*
 **Countability:** countable
 
-A television or radio program, especially an entertaining one.
+Show has 3 distinct senses.
+
+**1. A television or radio program, especially an entertaining one.** (шоу, передача)
 
 1. That *show* has been on for nine seasons.
 2. She hosts a morning *show*.
 3. We binged three *shows* over the weekend.
+
+**2. A performance given in front of an audience, such as a play or a concert.** (спектакль, концерт, представление)
+
+4. The *show* starts at eight, so let's eat early.
+5. We caught a late *show* at a club downtown.
+6. Both *shows* sold out in a single afternoon.
+
+**3. A public event where things are put on display or judged.** (выставка, показ)
+
+7. We spent Saturday at the auto *show*.
+8. Her collie won best in breed at the dog *show*.
+9. Galleries all over town open new *shows* on the first Friday.
 
 ---
 
 ### episode
 
 **Pronunciation:** /ˈɛpəsoʊd/ &middot; *EP-uh-sohd*
-**Русский:** серия, эпизод
+**Русский:** серия, эпизод; случай, происшествие; приступ, обострение
 **Plural:** *episodes*
 **Countability:** countable
 
-One separate part of a television series or podcast.
+Episode has 3 distinct senses.
+
+**1. One separate part of a television series or podcast.** (серия, эпизод)
 
 1. The last *episode* airs next week.
 2. There are ten *episodes* in the season.
 3. I fell asleep halfway through the *episode*.
+
+**2. A single event or short period in someone's life.** (случай, происшествие)
+
+4. He'd rather forget the whole *episode*.
+5. The *episode* at the airport made the evening news.
+6. It was an ugly *episode* in the town's history.
+
+**3. A period when an illness or condition flares up.** (приступ, обострение)
+
+7. She had another *episode* of dizziness at work.
+8. The medication cuts the number of *episodes* in half.
+9. His first *episode* put him in the hospital for a week.
 
 ---
 
@@ -1950,15 +2204,23 @@ Ad has 2 distinct senses.
 ### rating
 
 **Pronunciation:** /ˈreɪtɪŋ/ &middot; *RAY-ting*
-**Русский:** рейтинг
+**Русский:** рейтинг; оценка, категория, класс
 **Plural:** *ratings*
 **Countability:** countable
 
-A measure of how many people watch or listen to a program.
+Rating has 2 distinct senses.
+
+**1. A measure of how many people watch or listen to a program.** (рейтинг)
 
 1. The show's *ratings* dropped after the move.
 2. The finale got the highest *rating* of the year.
 3. *Ratings* decide what gets canceled.
+
+**2. A score or level given to something to show how good or how suitable it is.** (оценка, категория, класс)
+
+4. The movie got an R *rating*.
+5. This hotel has a four-star *rating*.
+6. The city's credit *rating* was downgraded last month.
 
 ---
 
@@ -2312,14 +2574,22 @@ Sound or video that has been captured so it can be played back.
 ### static
 
 **Pronunciation:** /ˈstætɪk/ &middot; *STAT-ik*
-**Русский:** помехи (в эфире)
+**Русский:** помехи (в эфире); статическое электричество
 **Countability:** uncountable
 
-The crackling noise that interferes with a radio or TV signal.
+Static has 2 distinct senses.
+
+**1. The crackling noise that interferes with a radio or TV signal.** (помехи (в эфире))
 
 1. All I could hear was *static*.
 2. The storm filled the radio with *static*.
 3. The line went to *static* halfway through.
+
+**2. The electrical charge that builds up on hair, clothes, or carpet.** (статическое электричество)
+
+4. The dry air gives my hair *static*.
+5. I got a shock of *static* off the doorknob.
+6. Dryer sheets cut down on *static*.
 
 ---
 

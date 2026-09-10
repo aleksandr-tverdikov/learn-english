@@ -26,15 +26,23 @@ Anything people or animals eat to stay alive.
 ### meal
 
 **Pronunciation:** /miːl/ &middot; *MEEL*
-**Русский:** приём пищи, еда
+**Русский:** приём пищи, еда; мука грубого помола, крупа
 **Plural:** *meals*
 **Countability:** countable
 
-An occasion when food is eaten, such as breakfast or dinner.
+Meal has 2 distinct senses.
+
+**1. An occasion when food is eaten, such as breakfast or dinner.** (приём пищи, еда)
 
 1. Dinner is the only *meal* we eat together.
 2. He hasn't had a hot *meal* in days.
 3. Skipping *meals* isn't going to help.
+
+**2. Grain that has been coarsely ground.** (мука грубого помола, крупа)
+
+4. Stir the *meal* slowly into boiling salted water.
+5. He works bone *meal* into the soil before planting.
+6. The mill grinds oats into a coarse *meal*.
 
 ---
 
@@ -211,16 +219,24 @@ Dish has 2 distinct senses.
 ### recipe
 
 **Pronunciation:** /ˈrɛsəpi/ &middot; *RES-uh-pee*
-**Русский:** рецепт (кулинарный)
+**Русский:** рецепт (кулинарный); верный путь к чему-л. (рецепт успеха, катастрофы)
 **Plural:** *recipes*
 **Countability:** countable
 **Contrast:** Three syllables, RES-uh-pee — the final e is pronounced, so it does not rhyme with ripe.
 
-A set of instructions for cooking a particular dish.
+Recipe has 2 distinct senses.
+
+**1. A set of instructions for cooking a particular dish.** (рецепт (кулинарный))
 
 1. Can you send me the *recipe* for that soup?
 2. I followed the *recipe* exactly and it still came out flat.
 3. She has a whole box of her mother's *recipes*.
+
+**2. A set of conditions likely to bring about a particular result.** (верный путь к чему-л. (рецепт успеха, катастрофы))
+
+4. Cutting the budget now is a *recipe* for disaster.
+5. Long hours and no sleep are a *recipe* for mistakes.
+6. There's no single *recipe* for success in this business.
 
 ---
 
@@ -242,15 +258,23 @@ One of the foods that go into a dish.
 ### portion
 
 **Pronunciation:** /ˈpɔːrʃn/ &middot; *POR-shuhn*
-**Русский:** порция
+**Русский:** порция; часть, доля
 **Plural:** *portions*
 **Countability:** countable
 
-The amount of food served to one person.
+Portion has 2 distinct senses.
+
+**1. The amount of food served to one person.** (порция)
 
 1. The *portions* here are huge.
 2. He asked for a smaller *portion*.
 3. Split it into four *portions*.
+
+**2. A part of something larger.** (часть, доля)
+
+4. A large *portion* of the budget goes to salaries.
+5. Only a small *portion* of the land is farmed.
+6. She donates a *portion* of every paycheck.
 
 ---
 
@@ -273,15 +297,23 @@ A meal where guests serve themselves from a table of dishes.
 ### picnic
 
 **Pronunciation:** /ˈpɪknɪk/ &middot; *PIK-nik*
-**Русский:** пикник
+**Русский:** пикник; лёгкое дело, приятное занятие (обычно с отрицанием)
 **Plural:** *picnics*
 **Countability:** countable
 
-A meal eaten outdoors, away from home.
+Picnic has 2 distinct senses.
+
+**1. A meal eaten outdoors, away from home.** (пикник)
 
 1. We had a *picnic* by the lake.
 2. Rain ruined the *picnic*.
 3. They pack the same *picnic* every year.
+
+**2. An easy or pleasant experience, almost always used in the negative.** (лёгкое дело, приятное занятие (обычно с отрицанием))
+
+4. Recovering from the surgery was no *picnic*.
+5. Two weeks with three toddlers is no *picnic*.
+6. Moving in August was no *picnic*, believe me.
 
 ---
 
@@ -395,30 +427,46 @@ Wheat has 2 distinct senses.
 ### corn
 
 **Pronunciation:** /kɔːrn/ &middot; *KORN*
-**Русский:** кукуруза
+**Русский:** кукуруза; мозоль (на пальце ноги)
 **Countability:** uncountable
 **Contrast:** In the US corn means кукуруза; the British call that maize, and their corn means grain in general.
 
-A tall grain plant with large yellow kernels, eaten as a vegetable.
+Corn has 2 distinct senses.
+
+**1. A tall grain plant with large yellow kernels, eaten as a vegetable.** (кукуруза)
 
 1. We grilled *corn* on the cob.
 2. The fields around here are all *corn*.
 3. Add a can of *corn* to the soup.
+
+**2. A small hard painful patch of thickened skin on a toe.** (мозоль (на пальце ноги))
+
+4. New shoes gave him a *corn* on his little toe.
+5. She soaked her foot to soften the *corn*.
+6. The pharmacy sells pads for *corns*.
 
 ---
 
 ### rye
 
 **Pronunciation:** /raɪ/ &middot; *RY*
-**Русский:** рожь, ржаной хлеб
+**Русский:** рожь, ржаной хлеб; ржаной виски
 **Countability:** uncountable
 **Contrast:** One syllable, RY — a homophone of wry.
 
-A grain used to make dark bread, and the bread made from it.
+Rye has 2 distinct senses.
+
+**1. A grain used to make dark bread, and the bread made from it.** (рожь, ржаной хлеб)
 
 1. He ordered pastrami on *rye*.
 2. *Rye* grows in poorer soil than wheat.
 3. The *rye* has caraway seeds in it.
+
+**2. A whiskey distilled mostly from rye grain.** (ржаной виски)
+
+4. He ordered a *rye* on the rocks.
+5. The bar keeps three kinds of *rye*.
+6. This cocktail works better with *rye* than bourbon.
 
 ---
 
@@ -539,14 +587,22 @@ Dough has 2 distinct senses.
 ### batter
 
 **Pronunciation:** /ˈbætər/ &middot; *BAT-ur*
-**Русский:** жидкое тесто, кляр
+**Русский:** жидкое тесто, кляр; бэттер, отбивающий
 **Countability:** uncountable
 
-A thin liquid mixture of flour, eggs, and milk used for frying or baking.
+Batter has 2 distinct senses.
+
+**1. A thin liquid mixture of flour, eggs, and milk used for frying or baking.** (жидкое тесто, кляр)
 
 1. Pour the *batter* into the hot pan.
 2. The *batter* should be smooth, not lumpy.
 3. She dipped the fish in *batter*.
+
+**2. The player whose turn it is to hit the ball in baseball.** (бэттер, отбивающий)
+
+4. The *batter* fouled off six pitches in a row.
+5. He struck out the first three *batters*.
+6. The *batter* stepped out of the box.
 
 ---
 
@@ -592,15 +648,23 @@ Two slices of bread with a filling between them.
 ### bun
 
 **Pronunciation:** /bʌn/ &middot; *BUHN*
-**Русский:** булочка
+**Русский:** булочка; пучок (причёска)
 **Plural:** *buns*
 **Countability:** countable
 
-A small round bread roll, often sweet or used for a sandwich.
+Bun has 2 distinct senses.
+
+**1. A small round bread roll, often sweet or used for a sandwich.** (булочка)
 
 1. The burger *buns* are in the freezer.
 2. She warmed the *buns* in the oven.
 3. This *bun* is stale.
+
+**2. Hair gathered and twisted into a round knot at the back of the head.** (пучок (причёска))
+
+4. She twisted her hair into a *bun* before her shift.
+5. Dancers wear their hair in tight *buns*.
+6. He pulled his long hair up into a messy *bun*.
 
 ---
 
@@ -699,16 +763,24 @@ A crisp batter cake baked in a grid-patterned iron.
 ### cookie
 
 **Pronunciation:** /ˈkʊki/ &middot; *KUUK-ee*
-**Русский:** печенье
+**Русский:** печенье; куки (файл, сохраняемый сайтом в браузере)
 **Plural:** *cookies*
 **Countability:** countable
 **Contrast:** Americans say cookie; the British call it a biscuit.
 
-A small flat sweet baked cake.
+Cookie has 2 distinct senses.
+
+**1. A small flat sweet baked cake.** (печенье)
 
 1. The *cookies* are still in the oven.
 2. He ate three *cookies* before dinner.
 3. She sent us a tin of homemade *cookies*.
+
+**2. A small file a website stores in your browser to remember you.** (куки (файл, сохраняемый сайтом в браузере))
+
+4. The site asks you to accept *cookies*.
+5. Clear your *cookies* and try logging in again.
+6. A *cookie* keeps you signed in between visits.
 
 ---
 
@@ -730,30 +802,46 @@ A thin, dry, salty baked wafer.
 ### cake
 
 **Pronunciation:** /keɪk/ &middot; *KAYK*
-**Русский:** торт, кекс
+**Русский:** торт, кекс; брусок, лепёшка (спрессованная масса)
 **Plural:** *cakes*
 **Countability:** countable, and uncountable as food
 
-A sweet baked food made from flour, sugar, eggs, and fat.
+Cake has 2 distinct senses.
+
+**1. A sweet baked food made from flour, sugar, eggs, and fat.** (торт, кекс)
 
 1. She made a carrot *cake* for his birthday.
 2. There's still half a *cake* on the counter.
 3. Would you like a piece of *cake*?
+
+**2. A flat, pressed block of something such as soap, or of food shaped and fried.** (брусок, лепёшка (спрессованная масса))
+
+4. A *cake* of soap sat on the edge of the tub.
+5. We ordered crab *cakes* to start.
+6. She fried the leftover rice into small *cakes*.
 
 ---
 
 ### pie
 
 **Pronunciation:** /paɪ/ &middot; *PY*
-**Русский:** пирог
+**Русский:** пирог; общий объём средств, «пирог» для дележа
 **Plural:** *pies*
 **Countability:** countable, and uncountable as food
 
-A baked dish of fruit or meat inside a pastry crust.
+Pie has 2 distinct senses.
+
+**1. A baked dish of fruit or meat inside a pastry crust.** (пирог)
 
 1. My mom makes an apple *pie* every fall.
 2. Save me a slice of *pie*.
 3. The *pies* sold out by noon.
+
+**2. The whole amount of money or benefit that is to be divided up.** (общий объём средств, «пирог» для дележа)
+
+4. Every department wants a bigger slice of the *pie*.
+5. Growing the *pie* helps everyone, he argued.
+6. Streaming services took a large piece of the *pie*.
 
 ---
 
@@ -890,117 +978,199 @@ A thick, slightly sour food made from fermented milk.
 ### cream
 
 **Pronunciation:** /kriːm/ &middot; *KREEM*
-**Русский:** сливки
+**Русский:** сливки; крем (косметический, лечебный); сливки, лучшая часть
 **Countability:** uncountable
 
-The thick fatty part of milk.
+Cream has 3 distinct senses.
+
+**1. The thick fatty part of milk.** (сливки)
 
 1. Do you take *cream* in your coffee?
 2. Whip the *cream* until it holds a peak.
 3. The sauce needs a little *cream*.
+
+**2. A thick, soft substance rubbed into the skin as medicine or makeup.** (крем (косметический, лечебный))
+
+4. The doctor prescribed a *cream* for the rash.
+5. She keeps a hand *cream* in her desk drawer.
+6. The drugstore has a whole aisle of face *creams*.
+
+**3. The best people or things in a group.** (сливки, лучшая часть)
+
+7. The academy takes the *cream* of each graduating class.
+8. These horses are the *cream* of the crop.
+9. Only the *cream* of the applicants get an interview.
 
 ---
 
 ### dairy
 
 **Pronunciation:** /ˈdɛri/ &middot; *DAIR-ee*
-**Русский:** молочные продукты
+**Русский:** молочные продукты; молочная ферма, молокозавод
 **Countability:** uncountable
 **Contrast:** DAIR-ee. Do not mix it up with diary (DY-uh-ree, дневник) — the letters are nearly the same.
 
-Milk and the foods made from it.
+Dairy has 2 distinct senses.
+
+**1. Milk and the foods made from it.** (молочные продукты)
 
 1. He cut out *dairy* completely.
 2. The *dairy* aisle is in the back.
 3. She can't digest *dairy*.
+
+**2. A farm or plant where milk is produced and processed.** (молочная ферма, молокозавод)
+
+4. Her family has run the *dairy* for four generations.
+5. The *dairy* ships milk to three counties.
+6. Several small *dairies* closed last year.
 
 ---
 
 ### jam
 
 **Pronunciation:** /dʒæm/ &middot; *JAM*
-**Русский:** варенье, джем
+**Русский:** варенье, джем; затор, пробка; замятие (бумаги); переплёт, затруднительное положение; джем, джем-сейшн
 **Countability:** uncountable
 
-A sweet spread made by boiling fruit with sugar.
+Jam has 4 distinct senses.
+
+**1. A sweet spread made by boiling fruit with sugar.** (варенье, джем)
 
 1. She put *jam* on her toast.
 2. We made strawberry *jam* last summer.
 3. There's a jar of *jam* in the pantry.
+
+**2. A mass of people, vehicles, or things packed so tightly that nothing can move.** (затор, пробка; замятие (бумаги))
+
+4. We sat in a *jam* on the interstate for an hour.
+5. The copier has a paper *jam* again.
+6. There was a *jam* at the exit doors after the concert.
+
+**3. A difficult situation that is hard to get out of (informal).** (переплёт, затруднительное положение)
+
+7. He called from the police station; he was in a real *jam*.
+8. She got into a *jam* with her landlord over the rent.
+9. Thanks for getting me out of a *jam*.
+
+**4. An informal session where musicians play together without planning it.** (джем, джем-сейшн)
+
+10. There's an open *jam* at the bar on Thursdays.
+11. The band's best songs came out of late-night *jams*.
+12. A few friends came over for a *jam* in the garage.
 
 ---
 
 ### jelly
 
 **Pronunciation:** /ˈdʒɛli/ &middot; *JEL-ee*
-**Русский:** джем без кусочков фруктов
+**Русский:** джем без кусочков фруктов; желе, студенистая масса
 **Countability:** uncountable
 **Contrast:** In the US jelly is a seedless fruit spread; the wobbly British dessert called jelly is Jell-O here.
 
-A clear fruit spread made from strained juice, with no pieces of fruit in it.
+Jelly has 2 distinct senses.
+
+**1. A clear fruit spread made from strained juice, with no pieces of fruit in it.** (джем без кусочков фруктов)
 
 1. He wanted peanut butter and *jelly*.
 2. The grape *jelly* is almost gone.
 3. She spread *jelly* on the bread.
+
+**2. A soft, semi-solid substance that shakes when it is moved.** (желе, студенистая масса)
+
+4. Petroleum *jelly* keeps chapped lips from cracking.
+5. His legs turned to *jelly* at the top of the ladder.
+6. The broth cooled overnight into a firm *jelly*.
 
 ---
 
 ### honey
 
 **Pronunciation:** /ˈhʌni/ &middot; *HUHN-ee*
-**Русский:** мёд
+**Русский:** мёд; милый, дорогая (обращение)
 **Countability:** uncountable
 **Contrast:** The o sounds like UH — HUHN-ee, not HOH-nee.
 
-A thick sweet substance made by bees.
+Honey has 2 distinct senses.
+
+**1. A thick sweet substance made by bees.** (мёд)
 
 1. He stirred *honey* into his tea.
 2. Local *honey* tastes completely different.
 3. There's a jar of *honey* in the cupboard.
+
+**2. A friendly or loving way of addressing someone.** (милый, дорогая (обращение))
+
+4. *Honey*, can you get the door?
+5. Thanks, *honey*, I'll be right there.
+6. The waitress called everybody *honey*.
 
 ---
 
 ### syrup
 
 **Pronunciation:** /ˈsɪrəp/ &middot; *SIR-uhp*
-**Русский:** сироп
+**Русский:** сироп; сироп (лекарственный)
 **Countability:** uncountable
 
-A thick sweet liquid poured over food or added to drinks.
+Syrup has 2 distinct senses.
+
+**1. A thick sweet liquid poured over food or added to drinks.** (сироп)
 
 1. Pass the maple *syrup*.
 2. The pancakes were swimming in *syrup*.
 3. Add a splash of *syrup* to the coffee.
+
+**2. A thick sweet liquid medicine, especially one taken for a cough.** (сироп (лекарственный))
+
+4. Take two spoonfuls of cough *syrup* before bed.
+5. The pharmacist recommended a *syrup* for younger kids.
+6. She measured the *syrup* into the little plastic cup.
 
 ---
 
 ### sauce
 
 **Pronunciation:** /sɔːs/ &middot; *SAWS*
-**Русский:** соус
+**Русский:** соус; спиртное, выпивка (разг.)
 **Plural:** *sauces*
 **Countability:** countable, and uncountable as food
 **Contrast:** SAWS has no r in it — keep it apart from source (SORS).
 
-A thick liquid served with or poured over food.
+Sauce has 2 distinct senses.
+
+**1. A thick liquid served with or poured over food.** (соус)
 
 1. The *sauce* needs more salt.
 2. He puts hot *sauce* on everything.
 3. There are three dipping *sauces*.
+
+**2. Alcohol, in informal talk about someone who drinks too much.** (спиртное, выпивка (разг.))
+
+4. He's been off the *sauce* since January.
+5. After the divorce he hit the *sauce* pretty hard.
+6. Her uncle finally gave up the *sauce* for good.
 
 ---
 
 ### gravy
 
 **Pronunciation:** /ˈɡreɪvi/ &middot; *GRAY-vee*
-**Русский:** подливка, мясной соус
+**Русский:** подливка, мясной соус; лёгкая нажива, приятное дополнение
 **Countability:** uncountable
 
-A sauce made from the juices of cooked meat.
+Gravy has 2 distinct senses.
+
+**1. A sauce made from the juices of cooked meat.** (подливка, мясной соус)
 
 1. Pour the *gravy* over the potatoes.
 2. The turkey came with *gravy* and stuffing.
 3. She makes *gravy* from scratch.
+
+**2. Money or benefit that comes easily on top of what you already have.** (лёгкая нажива, приятное дополнение)
+
+4. We covered our costs in the first hour, and the rest was *gravy*.
+5. Any bonus after that is pure *gravy*.
+6. For a rookie, playoff money is all *gravy*.
 
 ---
 
@@ -1178,15 +1348,23 @@ Flavor has 2 distinct senses.
 ### filling
 
 **Pronunciation:** /ˈfɪlɪŋ/ &middot; *FIL-ing*
-**Русский:** начинка
+**Русский:** начинка; пломба
 **Plural:** *fillings*
 **Countability:** countable
 
-The food put inside a pie, sandwich, or pastry.
+Filling has 2 distinct senses.
+
+**1. The food put inside a pie, sandwich, or pastry.** (начинка)
 
 1. The pie *filling* was too runny.
 2. What *filling* do you want in your omelet?
 3. These pastries have three different *fillings*.
+
+**2. The hard material a dentist puts into a drilled tooth.** (пломба)
+
+4. I need a *filling* in one of my back teeth.
+5. One of my old *fillings* fell out over the weekend.
+6. The dentist replaced a silver *filling* with a white one.
 
 ---
 
@@ -1216,28 +1394,44 @@ Beef has 2 distinct senses.
 ### pork
 
 **Pronunciation:** /pɔːrk/ &middot; *PORK*
-**Русский:** свинина
+**Русский:** свинина; бюджетные траты в угоду избирателям, «кормушка»
 **Countability:** uncountable
 
-Meat from a pig.
+Pork has 2 distinct senses.
+
+**1. Meat from a pig.** (свинина)
 
 1. We're having *pork* chops tonight.
 2. The *pork* needs another ten minutes.
 3. Roast *pork* is her specialty.
+
+**2. Government money spent on local projects mainly to please voters.** (бюджетные траты в угоду избирателям, «кормушка»)
+
+4. Critics called the highway money pure *pork*.
+5. The bill was loaded with *pork* for a dozen districts.
+6. Every senator claims to hate *pork* until it comes home.
 
 ---
 
 ### ham
 
 **Pronunciation:** /hæm/ &middot; *HAM*
-**Русский:** ветчина
+**Русский:** ветчина; актёр, играющий наигранно; позёр
 **Countability:** uncountable
 
-Salted or smoked meat from the leg of a pig.
+Ham has 2 distinct senses.
+
+**1. Salted or smoked meat from the leg of a pig.** (ветчина)
 
 1. She sliced the *ham* thin.
 2. We had *ham* for Easter dinner.
 3. There's *ham* and cheese in the fridge.
+
+**2. A performer who overacts, or anyone who plays to an audience.** (актёр, играющий наигранно; позёр)
+
+4. My little brother is a total *ham* in front of the camera.
+5. The old *ham* milked his death scene for a full minute.
+6. Put those two *hams* on a stage and nobody else gets a word.
 
 ---
 
@@ -1505,16 +1699,30 @@ A small ball or pocket of dough, boiled or steamed, often with a filling.
 ### wrap
 
 **Pronunciation:** /ræp/ &middot; *RAP*
-**Русский:** ролл, лаваш с начинкой
+**Русский:** ролл, лаваш с начинкой; плёнка, обёртка (упаковочный материал); завершение съёмок
 **Plural:** *wraps*
 **Countability:** countable
 **Contrast:** The w is silent — RAP, exactly like the music.
 
-A sandwich made by rolling a filling inside a soft flatbread.
+Wrap has 3 distinct senses.
+
+**1. A sandwich made by rolling a filling inside a soft flatbread.** (ролл, лаваш с начинкой)
 
 1. He got a chicken *wrap* for lunch.
 2. The *wraps* are cheaper than the sandwiches.
 3. She cut the *wrap* in half.
+
+**2. Thin material such as plastic or paper used to cover food or gifts.** (плёнка, обёртка (упаковочный материал))
+
+4. Cover the bowl with plastic *wrap*.
+5. We ran out of gift *wrap* on Christmas Eve.
+6. Bubble *wrap* kept the glasses from breaking.
+
+**3. The end of filming on a movie or a scene.** (завершение съёмок)
+
+7. The director called it a *wrap* at midnight.
+8. That's a *wrap* on season three.
+9. The cast had a *wrap* party on Friday.
 
 ---
 
@@ -1580,14 +1788,22 @@ A dish of meat or vegetables cooked in a spiced sauce.
 ### salsa
 
 **Pronunciation:** /ˈsɑːlsə/ &middot; *SAHL-suh*
-**Русский:** сальса (соус)
+**Русский:** сальса (соус); сальса (танец и музыка)
 **Countability:** uncountable
 
-A spicy sauce of chopped tomatoes, onions, and peppers.
+Salsa has 2 distinct senses.
+
+**1. A spicy sauce of chopped tomatoes, onions, and peppers.** (сальса (соус))
 
 1. Put the *salsa* on the table.
 2. This *salsa* is way too hot.
 3. She makes her own *salsa* in the summer.
+
+**2. A lively Latin American dance, or the music played for it.** (сальса (танец и музыка))
+
+4. They take *salsa* lessons on Thursday nights.
+5. The band played *salsa* until two in the morning.
+6. She learned to dance *salsa* in Miami.
 
 ---
 
@@ -1747,16 +1963,36 @@ Long thin strips of potato fried until crisp.
 ### chip
 
 **Pronunciation:** /tʃɪp/ &middot; *CHIP*
-**Русский:** чипсы (амер.)
+**Русский:** чипсы (амер.); щепка, кусочек, осколок; чип, микросхема; фишка (в казино)
 **Plural:** *chips*
 **Countability:** countable
 **Contrast:** American chips are British crisps; what the British call chips, Americans call fries.
 
-A thin crisp slice of potato fried and eaten as a snack.
+Chip has 4 distinct senses.
+
+**1. A thin crisp slice of potato fried and eaten as a snack.** (чипсы (амер.))
 
 1. He opened a bag of *chips*.
 2. There's salsa but no *chips*.
 3. One *chip* fell behind the couch.
+
+**2. A small piece broken or cut off something larger.** (щепка, кусочек, осколок)
+
+4. Wood *chips* cover the whole playground.
+5. A *chip* of paint flaked off the door frame.
+6. The recipe calls for a cup of chocolate *chips*.
+
+**3. A tiny piece of silicon holding the circuits that run a computer or phone.** (чип, микросхема)
+
+7. The new *chip* runs twice as fast.
+8. A shortage of *chips* slowed car production for a year.
+9. This card has a *chip* you tap at the register.
+
+**4. A small round plastic counter used instead of money in gambling.** (фишка (в казино))
+
+10. He pushed a stack of *chips* into the middle of the table.
+11. Each *chip* is worth twenty-five dollars.
+12. She cashed in her *chips* and went to bed.
 
 ---
 
@@ -1854,14 +2090,28 @@ A sweet coating spread over a cake.
 ### juice
 
 **Pronunciation:** /dʒuːs/ &middot; *JOOS*
-**Русский:** сок
+**Русский:** сок; заряд, электричество (разг.); мясной сок
 **Countability:** uncountable
 
-The liquid squeezed from fruit or vegetables.
+Juice has 3 distinct senses.
+
+**1. The liquid squeezed from fruit or vegetables.** (сок)
 
 1. Pour yourself some orange *juice*.
 2. The *juice* is in the fridge door.
 3. She squeezed the *juice* of two lemons.
+
+**2. Electric power or fuel (informal).** (заряд, электричество (разг.))
+
+4. My phone is out of *juice*.
+5. The storm knocked out the *juice* to half the block.
+6. The old drill still has plenty of *juice*.
+
+**3. The liquid that runs out of meat as it cooks.** (мясной сок)
+
+7. Let the roast rest so the *juices* settle.
+8. Spoon the pan *juices* over the chicken.
+9. The steak was still pink, with *juices* pooling on the plate.
 
 ---
 
@@ -1882,16 +2132,24 @@ A hot drink made by pouring boiling water over dried leaves.
 ### soda
 
 **Pronunciation:** /ˈsoʊdə/ &middot; *SOH-duh*
-**Русский:** газировка
+**Русский:** газировка; пищевая сода
 **Plural:** *sodas*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** Called soda or pop in the US, a fizzy drink in Britain.
 
-A sweet fizzy soft drink.
+Soda has 2 distinct senses.
+
+**1. A sweet fizzy soft drink.** (газировка)
 
 1. He drinks too much *soda*.
 2. Grab a couple of *sodas* from the cooler.
 3. The *soda* went flat.
+
+**2. A white powder used to make baked goods rise.** (пищевая сода)
+
+4. The recipe calls for a teaspoon of *soda*.
+5. Baking *soda* takes the smell out of the fridge.
+6. We were out of *soda*, so the biscuits came out flat.
 
 ---
 

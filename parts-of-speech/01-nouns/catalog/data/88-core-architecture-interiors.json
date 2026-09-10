@@ -1184,14 +1184,43 @@
       "term": "artwork",
       "ipa": "/ˈɑːrtwɜːrk/",
       "respell": "ART-wurk",
-      "meaning": "Paintings, prints, and other art considered together. ---",
+      "meaning": "Artwork has 2 distinct senses.",
       "examples": [
         "The hotel spent a fortune on artwork.",
         "There's not much artwork on the walls.",
-        "We packed the artwork last."
+        "We packed the artwork last.",
+        "The band approved the album artwork last week.",
+        "Send the artwork to the printer by Friday.",
+        "The cover artwork was done by a local illustrator."
       ],
-      "senses": [],
-      "русский": "предметы искусства, картины (собирательно)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Paintings, prints, and other art considered together",
+          "body": [
+            "(предметы искусства, картины (собирательно))"
+          ],
+          "examples": [
+            "The hotel spent a fortune on artwork.",
+            "There's not much artwork on the walls.",
+            "We packed the artwork last."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The drawings, photos, and layout prepared for a book, album, or ad",
+          "body": [
+            "(иллюстрации, оформление, макет)",
+            "---"
+          ],
+          "examples": [
+            "The band approved the album artwork last week.",
+            "Send the artwork to the printer by Friday.",
+            "The cover artwork was done by a local illustrator."
+          ]
+        }
+      ],
+      "русский": "предметы искусства, картины (собирательно); иллюстрации, оформление, макет",
       "countability": "uncountable",
       "contrast": "Uncountable in everyday American English: 'a lot of artwork', not 'artworks'."
     },
@@ -1422,14 +1451,43 @@
       "term": "finish",
       "ipa": "/ˈfɪnɪʃ/",
       "respell": "FIN-ish",
-      "meaning": "The final coating or surface treatment on wood, metal, or a wall. ---",
+      "meaning": "Finish has 2 distinct senses.",
       "examples": [
         "The table has a glossy finish.",
         "We picked a matte finish for the trim.",
-        "The finishes throughout the house are brushed nickel."
+        "The finishes throughout the house are brushed nickel.",
+        "It was a photo finish.",
+        "The team faded badly in the finish.",
+        "He's known for a strong finish in the last mile."
       ],
-      "senses": [],
-      "русский": "покрытие, отделка поверхности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The final coating or surface treatment on wood, metal, or a wall",
+          "body": [
+            "(покрытие, отделка поверхности)"
+          ],
+          "examples": [
+            "The table has a glossy finish.",
+            "We picked a matte finish for the trim.",
+            "The finishes throughout the house are brushed nickel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The end of a race or contest, especially its closing stage",
+          "body": [
+            "(финиш; концовка)",
+            "---"
+          ],
+          "examples": [
+            "It was a photo finish.",
+            "The team faded badly in the finish.",
+            "He's known for a strong finish in the last mile."
+          ]
+        }
+      ],
+      "русский": "покрытие, отделка поверхности; финиш; концовка",
       "plural": "finishes",
       "countability": "countable"
     },
@@ -1569,14 +1627,43 @@
       "term": "framing",
       "ipa": "/ˈfreɪmɪŋ/",
       "respell": "FRAY-ming",
-      "meaning": "The wooden or steel skeleton that a building is built on. ---",
+      "meaning": "Framing has 2 distinct senses.",
       "examples": [
         "The framing goes up this week.",
         "Termites got into the framing.",
-        "You can see the framing through the open drywall."
+        "You can see the framing through the open drywall.",
+        "The framing of the question pushed people toward one answer.",
+        "Both papers reported the same facts with very different framing.",
+        "Changing the framing from 'cost' to 'investment' won over the board."
       ],
-      "senses": [],
-      "русский": "каркас здания",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The wooden or steel skeleton that a building is built on",
+          "body": [
+            "(каркас здания)"
+          ],
+          "examples": [
+            "The framing goes up this week.",
+            "Termites got into the framing.",
+            "You can see the framing through the open drywall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a subject or question is presented, which shapes how people understand it",
+          "body": [
+            "(подача, формулировка (угол подачи темы))",
+            "---"
+          ],
+          "examples": [
+            "The framing of the question pushed people toward one answer.",
+            "Both papers reported the same facts with very different framing.",
+            "Changing the framing from 'cost' to 'investment' won over the board."
+          ]
+        }
+      ],
+      "русский": "каркас здания; подача, формулировка (угол подачи темы)",
       "countability": "uncountable"
     },
     {
@@ -1658,14 +1745,43 @@
       "term": "slab",
       "ipa": "/slæb/",
       "respell": "SLAB",
-      "meaning": "A thick flat piece of concrete poured as a floor or a foundation. ---",
+      "meaning": "Slab has 2 distinct senses.",
       "examples": [
         "The house sits on a concrete slab.",
         "They poured the slab on Monday.",
-        "Cracks in these slabs are common down here."
+        "Cracks in these slabs are common down here.",
+        "He cut a slab of cheddar off the block.",
+        "The butcher wrapped a slab of ribs in white paper.",
+        "The counter is a single slab of marble."
       ],
-      "senses": [],
-      "русский": "плита (бетонная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick flat piece of concrete poured as a floor or a foundation",
+          "body": [
+            "(плита (бетонная))"
+          ],
+          "examples": [
+            "The house sits on a concrete slab.",
+            "They poured the slab on Monday.",
+            "Cracks in these slabs are common down here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick flat piece cut from something such as meat, cheese, or stone",
+          "body": [
+            "(толстый кусок, ломоть; плита (камня))",
+            "---"
+          ],
+          "examples": [
+            "He cut a slab of cheddar off the block.",
+            "The butcher wrapped a slab of ribs in white paper.",
+            "The counter is a single slab of marble."
+          ]
+        }
+      ],
+      "русский": "плита (бетонная); толстый кусок, ломоть; плита (камня)",
       "plural": "slabs",
       "countability": "countable"
     },
@@ -1718,14 +1834,43 @@
       "term": "shingle",
       "ipa": "/ˈʃɪŋɡəl/",
       "respell": "SHING-gul",
-      "meaning": "One of the thin overlapping pieces that cover a roof or a wall. ---",
+      "meaning": "Shingle has 2 distinct senses.",
       "examples": [
         "The storm tore shingles off the roof.",
         "A missing shingle let water into the attic.",
-        "Asphalt shingles last about twenty years."
+        "Asphalt shingles last about twenty years.",
+        "My aunt came down with shingles right after the move.",
+        "The vaccine cuts your risk of shingles after fifty.",
+        "Shingles left a rash across his ribs for three weeks."
       ],
-      "senses": [],
-      "русский": "кровельная плитка, гонт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the thin overlapping pieces that cover a roof or a wall",
+          "body": [
+            "(кровельная плитка, гонт)"
+          ],
+          "examples": [
+            "The storm tore shingles off the roof.",
+            "A missing shingle let water into the attic.",
+            "Asphalt shingles last about twenty years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A painful viral illness that raises a burning rash in a band across the skin",
+          "body": [
+            "(опоясывающий лишай)",
+            "---"
+          ],
+          "examples": [
+            "My aunt came down with shingles right after the move.",
+            "The vaccine cuts your risk of shingles after fifty.",
+            "Shingles left a rash across his ribs for three weeks."
+          ]
+        }
+      ],
+      "русский": "кровельная плитка, гонт; опоясывающий лишай",
       "plural": "shingles",
       "countability": "countable",
       "contrast": "In Britain 'shingle' usually means the pebbles on a beach."
@@ -1842,14 +1987,43 @@
       "term": "turret",
       "ipa": "/ˈtɜːrət/",
       "respell": "TUR-it",
-      "meaning": "A small tower built onto the corner of a building. ---",
+      "meaning": "Turret has 2 distinct senses.",
       "examples": [
         "The old house on the corner has a round turret.",
         "Her bedroom is inside the turret.",
-        "Stone turrets stand at each end of the castle."
+        "Stone turrets stand at each end of the castle.",
+        "The tank's turret swung slowly to the right.",
+        "A shell struck the forward turret.",
+        "The gunner sat in a glass turret under the plane."
       ],
-      "senses": [],
-      "русский": "башенка (угловая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small tower built onto the corner of a building",
+          "body": [
+            "(башенка (угловая))"
+          ],
+          "examples": [
+            "The old house on the corner has a round turret.",
+            "Her bedroom is inside the turret.",
+            "Stone turrets stand at each end of the castle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The rotating structure on a tank, ship, or aircraft that holds a gun",
+          "body": [
+            "(башня (танковая, орудийная))",
+            "---"
+          ],
+          "examples": [
+            "The tank's turret swung slowly to the right.",
+            "A shell struck the forward turret.",
+            "The gunner sat in a glass turret under the plane."
+          ]
+        }
+      ],
+      "русский": "башенка (угловая); башня (танковая, орудийная)",
       "plural": "turrets",
       "countability": "countable"
     },
@@ -2038,14 +2212,58 @@
       "term": "vault",
       "ipa": "/vɔːlt/",
       "respell": "VAWLT",
-      "meaning": "An arched ceiling or roof made of stone or brick. ---",
+      "meaning": "Vault has 3 distinct senses.",
       "examples": [
         "The vault over the nave is painted blue.",
         "Ribbed vaults let builders span wider rooms.",
-        "Water stains run down the vault."
+        "Water stains run down the vault.",
+        "The bank keeps the gold in an underground vault.",
+        "The original documents are locked in the vault.",
+        "Two guards stood outside the vault all night.",
+        "She scored highest on the vault.",
+        "His second vault was nearly perfect.",
+        "The vault has always been her strongest event."
       ],
-      "senses": [],
-      "русский": "свод (потолка)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arched ceiling or roof made of stone or brick",
+          "body": [
+            "(свод (потолка))"
+          ],
+          "examples": [
+            "The vault over the nave is painted blue.",
+            "Ribbed vaults let builders span wider rooms.",
+            "Water stains run down the vault."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong locked room where money or valuables are kept",
+          "body": [
+            "(хранилище, сейфовая комната)"
+          ],
+          "examples": [
+            "The bank keeps the gold in an underground vault.",
+            "The original documents are locked in the vault.",
+            "Two guards stood outside the vault all night."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A jump over a piece of equipment in gymnastics, or the apparatus itself",
+          "body": [
+            "(опорный прыжок (в гимнастике))",
+            "---"
+          ],
+          "examples": [
+            "She scored highest on the vault.",
+            "His second vault was nearly perfect.",
+            "The vault has always been her strongest event."
+          ]
+        }
+      ],
+      "русский": "свод (потолка); хранилище, сейфовая комната; опорный прыжок (в гимнастике)",
       "plural": "vaults",
       "countability": "countable"
     },

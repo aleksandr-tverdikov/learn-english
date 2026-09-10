@@ -22,14 +22,43 @@
       "term": "rail",
       "ipa": "/reɪl/",
       "respell": "RAYL",
-      "meaning": "One of the two steel bars a train runs on, or train transportation taken as a whole. ---",
+      "meaning": "Rail has 2 distinct senses.",
       "examples": [
         "A crew replaced a cracked rail just south of the bridge.",
         "Two steel rails ran straight out to the horizon.",
-        "We shipped the whole load by rail instead of by truck."
+        "We shipped the whole load by rail instead of by truck.",
+        "Hold the rail on your way down the stairs.",
+        "Wet towels were hanging on the rail.",
+        "A brass rail runs along the front of the bar."
       ],
-      "senses": [],
-      "русский": "рельс; железнодорожный транспорт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the two steel bars a train runs on, or train transportation taken as a whole",
+          "body": [
+            "(рельс; железнодорожный транспорт)"
+          ],
+          "examples": [
+            "A crew replaced a cracked rail just south of the bridge.",
+            "Two steel rails ran straight out to the horizon.",
+            "We shipped the whole load by rail instead of by truck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fixed horizontal bar for holding onto or for hanging things from",
+          "body": [
+            "(поручень; перекладина, штанга)",
+            "---"
+          ],
+          "examples": [
+            "Hold the rail on your way down the stairs.",
+            "Wet towels were hanging on the rail.",
+            "A brass rail runs along the front of the bar."
+          ]
+        }
+      ],
+      "русский": "рельс; железнодорожный транспорт; поручень; перекладина, штанга",
       "plural": "rails",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -379,14 +408,43 @@
       "term": "metro",
       "ipa": "/ˈmɛtroʊ/",
       "respell": "MET-roh",
-      "meaning": "An urban underground railroad system. ---",
+      "meaning": "Metro has 2 distinct senses.",
       "examples": [
         "We bought a day pass for the metro.",
         "The metro runs until one in the morning.",
-        "Several European metros are older than ours."
+        "Several European metros are older than ours.",
+        "Half a million people live in the Portland metro.",
+        "Rents are climbing across the whole metro.",
+        "The chain has stores in four metros."
       ],
-      "senses": [],
-      "русский": "метро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An urban underground railroad system",
+          "body": [
+            "(метро)"
+          ],
+          "examples": [
+            "We bought a day pass for the metro.",
+            "The metro runs until one in the morning.",
+            "Several European metros are older than ours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large city taken together with the suburbs around it",
+          "body": [
+            "(агломерация, город с пригородами)",
+            "---"
+          ],
+          "examples": [
+            "Half a million people live in the Portland metro.",
+            "Rents are climbing across the whole metro.",
+            "The chain has stores in four metros."
+          ]
+        }
+      ],
+      "русский": "метро; агломерация, город с пригородами",
       "plural": "metros",
       "countability": "countable",
       "contrast": "Americans call their own systems the subway; metro is used mostly for foreign systems and for the one in Washington."
@@ -411,14 +469,43 @@
       "term": "tram",
       "ipa": "/træm/",
       "respell": "TRAM",
-      "meaning": "A streetcar, especially outside the United States. ---",
+      "meaning": "Tram has 2 distinct senses.",
       "examples": [
         "We took a tram from the station to the old town.",
         "Trams in Lisbon climb some very steep streets.",
-        "The tram was crowded with tourists."
+        "The tram was crowded with tourists.",
+        "Take the tram from the parking lot to the terminal.",
+        "We rode the tram around the zoo.",
+        "The tram stops at every hotel on the strip."
       ],
-      "senses": [],
-      "русский": "трамвай",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A streetcar, especially outside the United States",
+          "body": [
+            "(трамвай)"
+          ],
+          "examples": [
+            "We took a tram from the station to the old town.",
+            "Trams in Lisbon climb some very steep streets.",
+            "The tram was crowded with tourists."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small open vehicle that carries people short distances at an airport, park, or resort",
+          "body": [
+            "(вагончик-шаттл (в аэропорту, парке))",
+            "---"
+          ],
+          "examples": [
+            "Take the tram from the parking lot to the terminal.",
+            "We rode the tram around the zoo.",
+            "The tram stops at every hotel on the strip."
+          ]
+        }
+      ],
+      "русский": "трамвай; вагончик-шаттл (в аэропорту, парке)",
       "plural": "trams",
       "countability": "countable",
       "contrast": "Tram is the British word; Americans usually say streetcar or trolley."
@@ -1197,14 +1284,58 @@
       "term": "sleeper",
       "ipa": "/ˈsliːpər/",
       "respell": "SLEE-pur",
-      "meaning": "A sleeping car, or a train that has one. ---",
+      "meaning": "Sleeper has 3 distinct senses.",
       "examples": [
         "We took the sleeper from Chicago to Los Angeles.",
         "There were two sleepers at the back of the train.",
-        "A berth in the sleeper costs about twice the coach fare."
+        "A berth in the sleeper costs about twice the coach fare.",
+        "I'm a light sleeper, so any noise wakes me.",
+        "He's such a heavy sleeper that he slept through the alarm.",
+        "The sleepers in the next tent never stirred.",
+        "The movie was a sleeper that ran for months.",
+        "Their second album turned into a quiet sleeper.",
+        "Scouts love finding sleepers in the late rounds."
       ],
-      "senses": [],
-      "русский": "спальный вагон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sleeping car, or a train that has one",
+          "body": [
+            "(спальный вагон)"
+          ],
+          "examples": [
+            "We took the sleeper from Chicago to Los Angeles.",
+            "There were two sleepers at the back of the train.",
+            "A berth in the sleeper costs about twice the coach fare."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person thought of in terms of how deeply or lightly they sleep",
+          "body": [
+            "(спящий (чутко или крепко))"
+          ],
+          "examples": [
+            "I'm a light sleeper, so any noise wakes me.",
+            "He's such a heavy sleeper that he slept through the alarm.",
+            "The sleepers in the next tent never stirred."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that becomes a success after nobody expected it to",
+          "body": [
+            "(неожиданный успех, тёмная лошадка)",
+            "---"
+          ],
+          "examples": [
+            "The movie was a sleeper that ran for months.",
+            "Their second album turned into a quiet sleeper.",
+            "Scouts love finding sleepers in the late rounds."
+          ]
+        }
+      ],
+      "русский": "спальный вагон; спящий (чутко или крепко); неожиданный успех, тёмная лошадка",
       "plural": "sleepers",
       "countability": "countable",
       "contrast": "In American English a sleeper is a sleeping car; in British English a sleeper is also a railroad tie."
@@ -1379,14 +1510,58 @@
       "term": "tender",
       "ipa": "/ˈtɛndər/",
       "respell": "TEN-dur",
-      "meaning": "The car behind a steam locomotive that carries its fuel and water. ---",
+      "meaning": "Tender has 3 distinct senses.",
       "examples": [
         "The fireman shoveled coal from the tender all night.",
         "The engine and its tender weigh over two hundred tons.",
-        "Both tenders were repainted for the excursion."
+        "Both tenders were repainted for the excursion.",
+        "The kids ordered chicken tenders and fries.",
+        "He dipped a tender in honey mustard.",
+        "A basket of tenders comes with two sides.",
+        "Every bill says it is legal tender for all debts, public and private.",
+        "Congress decides what counts as legal tender.",
+        "Old coins are still legal tender even if stores dislike them."
       ],
-      "senses": [],
-      "русский": "тендер (вагон с углём и водой)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The car behind a steam locomotive that carries its fuel and water",
+          "body": [
+            "(тендер (вагон с углём и водой))"
+          ],
+          "examples": [
+            "The fireman shoveled coal from the tender all night.",
+            "The engine and its tender weigh over two hundred tons.",
+            "Both tenders were repainted for the excursion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strip of chicken breast, usually breaded and fried",
+          "body": [
+            "(куриные стрипсы, полоски куриного филе)"
+          ],
+          "examples": [
+            "The kids ordered chicken tenders and fries.",
+            "He dipped a tender in honey mustard.",
+            "A basket of tenders comes with two sides."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Money that must legally be accepted as payment",
+          "body": [
+            "(законное платёжное средство)",
+            "---"
+          ],
+          "examples": [
+            "Every bill says it is legal tender for all debts, public and private.",
+            "Congress decides what counts as legal tender.",
+            "Old coins are still legal tender even if stores dislike them."
+          ]
+        }
+      ],
+      "русский": "тендер (вагон с углём и водой); куриные стрипсы, полоски куриного филе; законное платёжное средство",
       "plural": "tenders",
       "countability": "countable"
     },
@@ -1485,14 +1660,58 @@
       "term": "berth",
       "ipa": "/bɜːrθ/",
       "respell": "BURTH",
-      "meaning": "A bed built into the wall of a sleeping car. ---",
+      "meaning": "Berth has 3 distinct senses.",
       "examples": [
         "I had the upper berth and slept badly.",
         "The compartment has two berths and a small sink.",
-        "He folded the berth back against the wall."
+        "He folded the berth back against the wall.",
+        "The freighter pulled into its berth just after dawn.",
+        "Every berth at the marina was taken.",
+        "The ship left its berth an hour late.",
+        "A win tonight clinches a playoff berth.",
+        "The team earned a berth in the national tournament.",
+        "She lost her berth on the Olympic squad after the injury."
       ],
-      "senses": [],
-      "русский": "спальное место, полка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bed built into the wall of a sleeping car",
+          "body": [
+            "(спальное место, полка)"
+          ],
+          "examples": [
+            "I had the upper berth and slept badly.",
+            "The compartment has two berths and a small sink.",
+            "He folded the berth back against the wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place at a dock where a ship ties up",
+          "body": [
+            "(причал, место стоянки судна)"
+          ],
+          "examples": [
+            "The freighter pulled into its berth just after dawn.",
+            "Every berth at the marina was taken.",
+            "The ship left its berth an hour late."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A place in a competition or on a team that a player or club earns",
+          "body": [
+            "(путёвка, место (в плей-офф, в команде))",
+            "---"
+          ],
+          "examples": [
+            "A win tonight clinches a playoff berth.",
+            "The team earned a berth in the national tournament.",
+            "She lost her berth on the Olympic squad after the injury."
+          ]
+        }
+      ],
+      "русский": "спальное место, полка; причал, место стоянки судна; путёвка, место (в плей-офф, в команде)",
       "plural": "berths",
       "countability": "countable",
       "contrast": "Berth sounds exactly like birth."
@@ -1516,14 +1735,43 @@
       "term": "carload",
       "ipa": "/ˈkɑːrloʊd/",
       "respell": "KAHR-lohd",
-      "meaning": "The amount of freight that fills one railroad car. ---",
+      "meaning": "Carload has 2 distinct senses.",
       "examples": [
         "The mill ships forty carloads of paper a month.",
         "Rates are lower if you order a full carload.",
-        "One carload of lumber was damaged in the storm."
+        "One carload of lumber was damaged in the storm.",
+        "A carload of teenagers pulled into the lot.",
+        "We took a carload of old clothes to the donation center.",
+        "Two carloads of relatives showed up for dinner."
       ],
-      "senses": [],
-      "русский": "вагон (груза)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of freight that fills one railroad car",
+          "body": [
+            "(вагон (груза))"
+          ],
+          "examples": [
+            "The mill ships forty carloads of paper a month.",
+            "Rates are lower if you order a full carload.",
+            "One carload of lumber was damaged in the storm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "As many people or things as a car will hold",
+          "body": [
+            "(полная машина (людей, вещей))",
+            "---"
+          ],
+          "examples": [
+            "A carload of teenagers pulled into the lot.",
+            "We took a carload of old clothes to the donation center.",
+            "Two carloads of relatives showed up for dinner."
+          ]
+        }
+      ],
+      "русский": "вагон (груза); полная машина (людей, вещей)",
       "plural": "carloads",
       "countability": "countable"
     },
@@ -1562,14 +1810,43 @@
       "term": "ballast",
       "ipa": "/ˈbæləst/",
       "respell": "BAL-uhst",
-      "meaning": "The crushed stone spread under and around railroad ties to hold the track steady. ---",
+      "meaning": "Ballast has 2 distinct senses.",
       "examples": [
         "Fresh ballast was dumped along the whole stretch of track.",
         "Rain washed the ballast out from under the rails.",
-        "The train hauls ballast to wherever the crews are working."
+        "The train hauls ballast to wherever the crews are working.",
+        "The tanker took on seawater as ballast.",
+        "They dumped ballast to gain altitude.",
+        "Without ballast the boat rides too high."
       ],
-      "senses": [],
-      "русский": "балласт (щебень под шпалами)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crushed stone spread under and around railroad ties to hold the track steady",
+          "body": [
+            "(балласт (щебень под шпалами))"
+          ],
+          "examples": [
+            "Fresh ballast was dumped along the whole stretch of track.",
+            "Rain washed the ballast out from under the rails.",
+            "The train hauls ballast to wherever the crews are working."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Heavy material carried in a ship or balloon to keep it steady",
+          "body": [
+            "(балласт (на судне, аэростате))",
+            "---"
+          ],
+          "examples": [
+            "The tanker took on seawater as ballast.",
+            "They dumped ballast to gain altitude.",
+            "Without ballast the boat rides too high."
+          ]
+        }
+      ],
+      "русский": "балласт (щебень под шпалами); балласт (на судне, аэростате)",
       "countability": "uncountable",
       "contrast": "Ballast is uncountable — a load of ballast, never two ballasts."
     },

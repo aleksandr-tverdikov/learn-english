@@ -21,14 +21,43 @@
       "term": "eagle",
       "ipa": "/ˈiːɡəl/",
       "respell": "EE-gul",
-      "meaning": "A large bird of prey with a hooked beak and very good eyesight. ---",
+      "meaning": "Eagle has 2 distinct senses.",
       "examples": [
         "An eagle circled over the canyon for almost an hour.",
         "Two bald eagles nest on the island every spring.",
-        "The eagle dropped out of the sky and grabbed a fish."
+        "The eagle dropped out of the sky and grabbed a fish.",
+        "He sank a long putt for an eagle on the par five.",
+        "Two eagles in one round is almost unheard of.",
+        "Her eagle on the sixteenth won the tournament."
       ],
-      "senses": [],
-      "русский": "орёл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large bird of prey with a hooked beak and very good eyesight",
+          "body": [
+            "(орёл)"
+          ],
+          "examples": [
+            "An eagle circled over the canyon for almost an hour.",
+            "Two bald eagles nest on the island every spring.",
+            "The eagle dropped out of the sky and grabbed a fish."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A golf score of two strokes under par on one hole",
+          "body": [
+            "(игл (на два удара ниже пара))",
+            "---"
+          ],
+          "examples": [
+            "He sank a long putt for an eagle on the par five.",
+            "Two eagles in one round is almost unheard of.",
+            "Her eagle on the sixteenth won the tournament."
+          ]
+        }
+      ],
+      "русский": "орёл; игл (на два удара ниже пара)",
       "plural": "eagles",
       "countability": "countable"
     },
@@ -36,14 +65,43 @@
       "term": "hawk",
       "ipa": "/hɔːk/",
       "respell": "HAWK",
-      "meaning": "A medium-sized bird of prey that hunts small animals by day. ---",
+      "meaning": "Hawk has 2 distinct senses.",
       "examples": [
         "A hawk was sitting on the fence post, watching the field.",
         "Hawks around here go after squirrels and rabbits.",
-        "We saw a red-tailed hawk on the drive up."
+        "We saw a red-tailed hawk on the drive up.",
+        "The hawks in Congress pushed for airstrikes.",
+        "He was a hawk on the deficit and voted against every spending bill.",
+        "The president's advisers split into hawks and doves."
       ],
-      "senses": [],
-      "русский": "ястреб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A medium-sized bird of prey that hunts small animals by day",
+          "body": [
+            "(ястреб)"
+          ],
+          "examples": [
+            "A hawk was sitting on the fence post, watching the field.",
+            "Hawks around here go after squirrels and rabbits.",
+            "We saw a red-tailed hawk on the drive up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who supports military force or a tough, aggressive policy",
+          "body": [
+            "(ястреб (сторонник жёсткого курса))",
+            "---"
+          ],
+          "examples": [
+            "The hawks in Congress pushed for airstrikes.",
+            "He was a hawk on the deficit and voted against every spending bill.",
+            "The president's advisers split into hawks and doves."
+          ]
+        }
+      ],
+      "русский": "ястреб; ястреб (сторонник жёсткого курса)",
       "plural": "hawks",
       "countability": "countable"
     },
@@ -81,14 +139,43 @@
       "term": "vulture",
       "ipa": "/ˈvʌltʃər/",
       "respell": "VUL-chur",
-      "meaning": "A large bird that feeds on dead animals. ---",
+      "meaning": "Vulture has 2 distinct senses.",
       "examples": [
         "A couple of vultures were circling over the highway.",
         "The vulture waited until the coyote left.",
-        "Vultures clean up carcasses that would otherwise rot."
+        "Vultures clean up carcasses that would otherwise rot.",
+        "Vultures moved into the neighborhood after the flood, buying homes cheap.",
+        "Investors circled the failing company like vultures.",
+        "He called the payday lenders vultures."
       ],
-      "senses": [],
-      "русский": "гриф, стервятник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large bird that feeds on dead animals",
+          "body": [
+            "(гриф, стервятник)"
+          ],
+          "examples": [
+            "A couple of vultures were circling over the highway.",
+            "The vulture waited until the coyote left.",
+            "Vultures clean up carcasses that would otherwise rot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who takes advantage of other people's troubles for profit",
+          "body": [
+            "(стервятник (наживающийся на чужой беде))",
+            "---"
+          ],
+          "examples": [
+            "Vultures moved into the neighborhood after the flood, buying homes cheap.",
+            "Investors circled the failing company like vultures.",
+            "He called the payday lenders vultures."
+          ]
+        }
+      ],
+      "русский": "гриф, стервятник; стервятник (наживающийся на чужой беде)",
       "plural": "vultures",
       "countability": "countable"
     },
@@ -157,14 +244,43 @@
       "term": "dove",
       "ipa": "/dʌv/",
       "respell": "DUV",
-      "meaning": "A small pale pigeon, often used as a symbol of peace. ---",
+      "meaning": "Dove has 2 distinct senses.",
       "examples": [
         "A dove landed on the windowsill and cooed.",
         "Two white doves were released at the wedding.",
-        "The dove is a symbol of peace in a lot of countries."
+        "The dove is a symbol of peace in a lot of countries.",
+        "The debate split the cabinet into hawks and doves.",
+        "He was known as a dove on foreign policy.",
+        "Even the doves voted for the sanctions."
       ],
-      "senses": [],
-      "русский": "голубь (символ мира)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small pale pigeon, often used as a symbol of peace",
+          "body": [
+            "(голубь (символ мира))"
+          ],
+          "examples": [
+            "A dove landed on the windowsill and cooed.",
+            "Two white doves were released at the wedding.",
+            "The dove is a symbol of peace in a lot of countries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A politician or official who prefers peace and negotiation to force",
+          "body": [
+            "(сторонник мирного урегулирования, «голубь»)",
+            "---"
+          ],
+          "examples": [
+            "The debate split the cabinet into hawks and doves.",
+            "He was known as a dove on foreign policy.",
+            "Even the doves voted for the sanctions."
+          ]
+        }
+      ],
+      "русский": "голубь (символ мира); сторонник мирного урегулирования, «голубь»",
       "plural": "doves",
       "countability": "countable",
       "contrast": "The bird rhymes with love: /dʌv/. The identically spelled past tense of dive is /doʊv/, rhyming with stove."
@@ -355,14 +471,43 @@
       "term": "crane",
       "ipa": "/kreɪn/",
       "respell": "KRAYN",
-      "meaning": "A tall long-necked bird that lives in wetlands. ---",
+      "meaning": "Crane has 2 distinct senses.",
       "examples": [
         "A crane took off from the marsh as we drove by.",
         "Thousands of cranes stop here on their way south.",
-        "The crane stood on one leg for almost ten minutes."
+        "The crane stood on one leg for almost ten minutes.",
+        "A crane lifted the steel beams onto the roof.",
+        "Three cranes stood over the half-built tower.",
+        "The crane operator worked from a cab a hundred feet up."
       ],
-      "senses": [],
-      "русский": "журавль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall long-necked bird that lives in wetlands",
+          "body": [
+            "(журавль)"
+          ],
+          "examples": [
+            "A crane took off from the marsh as we drove by.",
+            "Thousands of cranes stop here on their way south.",
+            "The crane stood on one leg for almost ten minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tall machine with a long arm for lifting heavy loads",
+          "body": [
+            "(подъёмный кран)",
+            "---"
+          ],
+          "examples": [
+            "A crane lifted the steel beams onto the roof.",
+            "Three cranes stood over the half-built tower.",
+            "The crane operator worked from a cab a hundred feet up."
+          ]
+        }
+      ],
+      "русский": "журавль; подъёмный кран",
       "plural": "cranes",
       "countability": "countable",
       "contrast": "The same word also means a lifting machine on a building site; only context tells you which."
@@ -401,14 +546,43 @@
       "term": "swallow",
       "ipa": "/ˈswɑːloʊ/",
       "respell": "SWAH-loh",
-      "meaning": "A small fast bird with pointed wings and a forked tail. ---",
+      "meaning": "Swallow has 2 distinct senses.",
       "examples": [
         "A swallow built a mud nest under the eaves.",
         "Swallows come back to the barn every April.",
-        "The swallow caught a bug in midair."
+        "The swallow caught a bug in midair.",
+        "He took a long swallow of coffee.",
+        "There were only a few swallows left in the bottle.",
+        "She washed the pill down with a swallow of water."
       ],
-      "senses": [],
-      "русский": "ласточка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small fast bird with pointed wings and a forked tail",
+          "body": [
+            "(ласточка)"
+          ],
+          "examples": [
+            "A swallow built a mud nest under the eaves.",
+            "Swallows come back to the barn every April.",
+            "The swallow caught a bug in midair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of food or drink taken down the throat at one time",
+          "body": [
+            "(глоток)",
+            "---"
+          ],
+          "examples": [
+            "He took a long swallow of coffee.",
+            "There were only a few swallows left in the bottle.",
+            "She washed the pill down with a swallow of water."
+          ]
+        }
+      ],
+      "русский": "ласточка; глоток",
       "plural": "swallows",
       "countability": "countable",
       "contrast": "Spelled and said exactly like the verb swallow (to send food down your throat)."
@@ -629,14 +803,43 @@
       "term": "lark",
       "ipa": "/lɑːrk/",
       "respell": "LARK",
-      "meaning": "A brown field bird that sings while flying high in the air. ---",
+      "meaning": "Lark has 2 distinct senses.",
       "examples": [
         "A lark rose straight up over the field, singing.",
         "Larks nest right on the ground.",
-        "We heard a lark long before we saw it."
+        "We heard a lark long before we saw it.",
+        "We drove to the coast on a lark.",
+        "He entered the contest as a lark and won.",
+        "What started as a lark turned into a real business."
       ],
-      "senses": [],
-      "русский": "жаворонок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A brown field bird that sings while flying high in the air",
+          "body": [
+            "(жаворонок)"
+          ],
+          "examples": [
+            "A lark rose straight up over the field, singing.",
+            "Larks nest right on the ground.",
+            "We heard a lark long before we saw it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something done just for fun or on a sudden whim",
+          "body": [
+            "(забава, затея ради развлечения)",
+            "---"
+          ],
+          "examples": [
+            "We drove to the coast on a lark.",
+            "He entered the contest as a lark and won.",
+            "What started as a lark turned into a real business."
+          ]
+        }
+      ],
+      "русский": "жаворонок; забава, затея ради развлечения",
       "plural": "larks",
       "countability": "countable"
     },
@@ -797,14 +1000,43 @@
       "term": "chick",
       "ipa": "/tʃɪk/",
       "respell": "CHIK",
-      "meaning": "A very young bird, especially a young chicken. ---",
+      "meaning": "Chick has 2 distinct senses.",
       "examples": [
         "A chick poked its head out of the shell.",
         "All twelve chicks hatched over two days.",
-        "The mother bird kept bringing worms back to the chick."
+        "The mother bird kept bringing worms back to the chick.",
+        "Some chick from accounting left you a note.",
+        "He calls every woman a chick, and nobody appreciates it.",
+        "A couple of chicks in the front row started laughing."
       ],
-      "senses": [],
-      "русский": "птенец, цыплёнок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very young bird, especially a young chicken",
+          "body": [
+            "(птенец, цыплёнок)"
+          ],
+          "examples": [
+            "A chick poked its head out of the shell.",
+            "All twelve chicks hatched over two days.",
+            "The mother bird kept bringing worms back to the chick."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal and often disrespectful word for a young woman",
+          "body": [
+            "(девчонка, тёлка (разг., часто пренебрежительно))",
+            "---"
+          ],
+          "examples": [
+            "Some chick from accounting left you a note.",
+            "He calls every woman a chick, and nobody appreciates it.",
+            "A couple of chicks in the front row started laughing."
+          ]
+        }
+      ],
+      "русский": "птенец, цыплёнок; девчонка, тёлка (разг., часто пренебрежительно)",
       "plural": "chicks",
       "countability": "countable"
     },
@@ -874,14 +1106,43 @@
       "term": "gander",
       "ipa": "/ˈɡændər/",
       "respell": "GAN-dur",
-      "meaning": "A male goose. ---",
+      "meaning": "Gander has 2 distinct senses.",
       "examples": [
         "The gander hissed and came at me with his neck out.",
         "One gander can guard a whole yard.",
-        "The ganders were fighting over territory by the water."
+        "The ganders were fighting over territory by the water.",
+        "Take a gander at this photo.",
+        "Let me have a gander at the menu.",
+        "He stopped to take a gander at the car in the driveway."
       ],
-      "senses": [],
-      "русский": "гусак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A male goose",
+          "body": [
+            "(гусак)"
+          ],
+          "examples": [
+            "The gander hissed and came at me with his neck out.",
+            "One gander can guard a whole yard.",
+            "The ganders were fighting over territory by the water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick look at something",
+          "body": [
+            "(взгляд (разг.: «взглянуть»))",
+            "---"
+          ],
+          "examples": [
+            "Take a gander at this photo.",
+            "Let me have a gander at the menu.",
+            "He stopped to take a gander at the car in the driveway."
+          ]
+        }
+      ],
+      "русский": "гусак; взгляд (разг.: «взглянуть»)",
       "plural": "ganders",
       "countability": "countable"
     },
@@ -919,14 +1180,43 @@
       "term": "loon",
       "ipa": "/luːn/",
       "respell": "LOON",
-      "meaning": "A diving water bird of northern lakes with a haunting call. ---",
+      "meaning": "Loon has 2 distinct senses.",
       "examples": [
         "A loon called out across the lake at sunset.",
         "Loons dive and stay under for a surprisingly long time.",
-        "We watched a loon carry its chick on its back."
+        "We watched a loon carry its chick on its back.",
+        "The guy on the corner is a harmless loon.",
+        "You'd have to be a loon to swim in that water.",
+        "A few loons showed up in shorts in January."
       ],
-      "senses": [],
-      "русский": "гагара",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A diving water bird of northern lakes with a haunting call",
+          "body": [
+            "(гагара)"
+          ],
+          "examples": [
+            "A loon called out across the lake at sunset.",
+            "Loons dive and stay under for a surprisingly long time.",
+            "We watched a loon carry its chick on its back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A silly or crazy person",
+          "body": [
+            "(чудак, псих)",
+            "---"
+          ],
+          "examples": [
+            "The guy on the corner is a harmless loon.",
+            "You'd have to be a loon to swim in that water.",
+            "A few loons showed up in shorts in January."
+          ]
+        }
+      ],
+      "русский": "гагара; чудак, псих",
       "plural": "loons",
       "countability": "countable"
     },
@@ -1011,14 +1301,43 @@
       "term": "raptor",
       "ipa": "/ˈræptər/",
       "respell": "RAP-tur",
-      "meaning": "A bird that hunts other animals, such as a hawk, eagle, or owl. ---",
+      "meaning": "Raptor has 2 distinct senses.",
       "examples": [
         "A raptor was perched on the light pole over the interstate.",
         "Raptors have hooked beaks and very sharp talons.",
-        "The center takes in injured raptors and releases them."
+        "The center takes in injured raptors and releases them.",
+        "The kids wanted to see the raptors at the natural history museum.",
+        "A raptor had one long curved claw on each foot.",
+        "In the movie the raptors learn how to open doors."
       ],
-      "senses": [],
-      "русский": "хищная птица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bird that hunts other animals, such as a hawk, eagle, or owl",
+          "body": [
+            "(хищная птица)"
+          ],
+          "examples": [
+            "A raptor was perched on the light pole over the interstate.",
+            "Raptors have hooked beaks and very sharp talons.",
+            "The center takes in injured raptors and releases them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small, fast, meat-eating dinosaur",
+          "body": [
+            "(раптор (хищный динозавр))",
+            "---"
+          ],
+          "examples": [
+            "The kids wanted to see the raptors at the natural history museum.",
+            "A raptor had one long curved claw on each foot.",
+            "In the movie the raptors learn how to open doors."
+          ]
+        }
+      ],
+      "русский": "хищная птица; раптор (хищный динозавр)",
       "plural": "raptors",
       "countability": "countable"
     },
@@ -1148,14 +1467,58 @@
       "term": "crest",
       "ipa": "/krɛst/",
       "respell": "KREST",
-      "meaning": "A tuft of feathers on top of a bird's head. ---",
+      "meaning": "Crest has 3 distinct senses.",
       "examples": [
         "The bird raised its crest when it got excited.",
         "Cardinals have a pointed crest on the head.",
-        "Both crests went up the moment the dog appeared."
+        "Both crests went up the moment the dog appeared.",
+        "The house sits on the crest of the hill.",
+        "Surfers waited for the crest of the next wave.",
+        "You can see the ocean once you reach the crest.",
+        "The school crest is stitched on every blazer.",
+        "He wore a ring with his family crest.",
+        "Both team crests were painted at midfield."
       ],
-      "senses": [],
-      "русский": "хохолок, гребень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tuft of feathers on top of a bird's head",
+          "body": [
+            "(хохолок, гребень)"
+          ],
+          "examples": [
+            "The bird raised its crest when it got excited.",
+            "Cardinals have a pointed crest on the head.",
+            "Both crests went up the moment the dog appeared."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The highest part of a hill, a wave, or a rise in the road",
+          "body": [
+            "(гребень (волны), вершина (холма))"
+          ],
+          "examples": [
+            "The house sits on the crest of the hill.",
+            "Surfers waited for the crest of the next wave.",
+            "You can see the ocean once you reach the crest."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A design used as the emblem of a family, school, or team",
+          "body": [
+            "(герб, эмблема)",
+            "---"
+          ],
+          "examples": [
+            "The school crest is stitched on every blazer.",
+            "He wore a ring with his family crest.",
+            "Both team crests were painted at midfield."
+          ]
+        }
+      ],
+      "русский": "хохолок, гребень; гребень (волны), вершина (холма); герб, эмблема",
       "plural": "crests",
       "countability": "countable"
     },
@@ -1178,14 +1541,43 @@
       "term": "down",
       "ipa": "/daʊn/",
       "respell": "DOWN",
-      "meaning": "The soft fine feathers under a bird's outer feathers. ---",
+      "meaning": "Down has 2 distinct senses.",
       "examples": [
         "The chicks are covered in soft gray down.",
         "The jacket is filled with goose down.",
-        "Down is warmer than any synthetic filling."
+        "Down is warmer than any synthetic filling.",
+        "It's third down and eight yards to go.",
+        "They picked up a first down on the next play.",
+        "The offense wasted two downs running out the clock."
       ],
-      "senses": [],
-      "русский": "пух",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft fine feathers under a bird's outer feathers",
+          "body": [
+            "(пух)"
+          ],
+          "examples": [
+            "The chicks are covered in soft gray down.",
+            "The jacket is filled with goose down.",
+            "Down is warmer than any synthetic filling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In football, one of the four tries a team gets to advance the ball ten yards",
+          "body": [
+            "(попытка (в американском футболе))",
+            "---"
+          ],
+          "examples": [
+            "It's third down and eight yards to go.",
+            "They picked up a first down on the next play.",
+            "The offense wasted two downs running out the clock."
+          ]
+        }
+      ],
+      "русский": "пух; попытка (в американском футболе)",
       "countability": "uncountable",
       "contrast": "Uncountable: some down, never a down or downs. Spelled like the direction word down."
     },
@@ -1193,14 +1585,43 @@
       "term": "quill",
       "ipa": "/kwɪl/",
       "respell": "KWIL",
-      "meaning": "A large stiff feather, or a pen made from one. ---",
+      "meaning": "Quill has 2 distinct senses.",
       "examples": [
         "A single quill had fallen out of the wing.",
         "People used to write with goose quills.",
-        "The quill was stiff and hollow at the base."
+        "The quill was stiff and hollow at the base.",
+        "The dog came home with quills in his nose.",
+        "A porcupine raises its quills when it feels threatened.",
+        "Each quill has a barbed tip that is hard to pull out."
       ],
-      "senses": [],
-      "русский": "маховое перо; гусиное перо (для письма)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large stiff feather, or a pen made from one",
+          "body": [
+            "(маховое перо; гусиное перо (для письма))"
+          ],
+          "examples": [
+            "A single quill had fallen out of the wing.",
+            "People used to write with goose quills.",
+            "The quill was stiff and hollow at the base."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the sharp stiff spines on a porcupine",
+          "body": [
+            "(игла (дикобраза))",
+            "---"
+          ],
+          "examples": [
+            "The dog came home with quills in his nose.",
+            "A porcupine raises its quills when it feels threatened.",
+            "Each quill has a barbed tip that is hard to pull out."
+          ]
+        }
+      ],
+      "русский": "маховое перо; гусиное перо (для письма); игла (дикобраза)",
       "plural": "quills",
       "countability": "countable"
     },
@@ -1223,14 +1644,73 @@
       "term": "flight",
       "ipa": "/flaɪt/",
       "respell": "FLYT",
-      "meaning": "The act or manner of flying through the air. ---",
+      "meaning": "Flight has 4 distinct senses.",
       "examples": [
         "The owl's flight is completely silent.",
         "We tracked the bird's flight until it went behind the trees.",
-        "A pelican's flight looks awkward until it hits the water."
+        "A pelican's flight looks awkward until it hits the water.",
+        "Our flight was delayed three hours.",
+        "She booked a flight home for the holidays.",
+        "All flights out of the airport were canceled.",
+        "Her apartment is up two flights.",
+        "He carried the boxes up a flight of stairs.",
+        "There's one more flight to the roof.",
+        "The war caused the flight of thousands of families.",
+        "Fear triggers the fight-or-flight response.",
+        "His sudden flight from the city surprised everyone."
       ],
-      "senses": [],
-      "русский": "полёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act or manner of flying through the air",
+          "body": [
+            "(полёт)"
+          ],
+          "examples": [
+            "The owl's flight is completely silent.",
+            "We tracked the bird's flight until it went behind the trees.",
+            "A pelican's flight looks awkward until it hits the water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trip made by airplane, or the plane making that trip",
+          "body": [
+            "(рейс, авиарейс)"
+          ],
+          "examples": [
+            "Our flight was delayed three hours.",
+            "She booked a flight home for the holidays.",
+            "All flights out of the airport were canceled."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A set of stairs running between two floors or landings",
+          "body": [
+            "(лестничный марш)"
+          ],
+          "examples": [
+            "Her apartment is up two flights.",
+            "He carried the boxes up a flight of stairs.",
+            "There's one more flight to the roof."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The act of running away from danger",
+          "body": [
+            "(бегство)",
+            "---"
+          ],
+          "examples": [
+            "The war caused the flight of thousands of families.",
+            "Fear triggers the fight-or-flight response.",
+            "His sudden flight from the city surprised everyone."
+          ]
+        }
+      ],
+      "русский": "полёт; рейс, авиарейс; лестничный марш; бегство",
       "plural": "flights",
       "countability": "countable"
     },
@@ -1284,14 +1764,43 @@
       "term": "tweet",
       "ipa": "/twiːt/",
       "respell": "TWEET",
-      "meaning": "A short high sound made by a small bird. ---",
+      "meaning": "Tweet has 2 distinct senses.",
       "examples": [
         "A tweet came from the nest above the door.",
         "The little tweets got louder when the mother came back.",
-        "I heard one tweet and then nothing."
+        "I heard one tweet and then nothing.",
+        "His tweet got thousands of replies overnight.",
+        "She deleted the tweet an hour after posting it.",
+        "The whole story started with a single tweet."
       ],
-      "senses": [],
-      "русский": "чирик, щебет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short high sound made by a small bird",
+          "body": [
+            "(чирик, щебет)"
+          ],
+          "examples": [
+            "A tweet came from the nest above the door.",
+            "The little tweets got louder when the mother came back.",
+            "I heard one tweet and then nothing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short message posted on a social media site, especially Twitter or X",
+          "body": [
+            "(твит, короткий пост в соцсети)",
+            "---"
+          ],
+          "examples": [
+            "His tweet got thousands of replies overnight.",
+            "She deleted the tweet an hour after posting it.",
+            "The whole story started with a single tweet."
+          ]
+        }
+      ],
+      "русский": "чирик, щебет; твит, короткий пост в соцсети",
       "plural": "tweets",
       "countability": "countable",
       "contrast": "Far more common now as an online post, but the bird sound is the original meaning."
@@ -1330,14 +1839,43 @@
       "term": "hoot",
       "ipa": "/huːt/",
       "respell": "HOOT",
-      "meaning": "The low call of an owl. ---",
+      "meaning": "Hoot has 2 distinct senses.",
       "examples": [
         "A hoot came from the woods behind the house.",
         "We counted four hoots and then silence.",
-        "The owl gave one long hoot and flew off."
+        "The owl gave one long hoot and flew off.",
+        "Your uncle is a hoot at parties.",
+        "The whole evening was a hoot.",
+        "That movie is a hoot from start to finish."
       ],
-      "senses": [],
-      "русский": "уханье (совы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The low call of an owl",
+          "body": [
+            "(уханье (совы))"
+          ],
+          "examples": [
+            "A hoot came from the woods behind the house.",
+            "We counted four hoots and then silence.",
+            "The owl gave one long hoot and flew off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something or someone very funny",
+          "body": [
+            "(умора, потеха)",
+            "---"
+          ],
+          "examples": [
+            "Your uncle is a hoot at parties.",
+            "The whole evening was a hoot.",
+            "That movie is a hoot from start to finish."
+          ]
+        }
+      ],
+      "русский": "уханье (совы); умора, потеха",
       "plural": "hoots",
       "countability": "countable"
     },
@@ -1360,14 +1898,43 @@
       "term": "quack",
       "ipa": "/kwæk/",
       "respell": "KWAK",
-      "meaning": "The sound a duck makes. ---",
+      "meaning": "Quack has 2 distinct senses.",
       "examples": [
         "We heard a quack from the reeds.",
         "The quacks got frantic when the bread came out.",
-        "A loud quack woke the whole campsite."
+        "A loud quack woke the whole campsite.",
+        "The clinic turned out to be run by a quack.",
+        "Don't waste money on some quack selling cures online.",
+        "Nineteenth-century quacks sold colored water as medicine."
       ],
-      "senses": [],
-      "русский": "кряканье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sound a duck makes",
+          "body": [
+            "(кряканье)"
+          ],
+          "examples": [
+            "We heard a quack from the reeds.",
+            "The quacks got frantic when the bread came out.",
+            "A loud quack woke the whole campsite."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who pretends to have medical skill",
+          "body": [
+            "(шарлатан, знахарь)",
+            "---"
+          ],
+          "examples": [
+            "The clinic turned out to be run by a quack.",
+            "Don't waste money on some quack selling cures online.",
+            "Nineteenth-century quacks sold colored water as medicine."
+          ]
+        }
+      ],
+      "русский": "кряканье; шарлатан, знахарь",
       "plural": "quacks",
       "countability": "countable"
     },

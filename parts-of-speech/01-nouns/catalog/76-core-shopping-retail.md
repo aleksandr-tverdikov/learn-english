@@ -135,15 +135,29 @@ The small label on an item showing what it costs.
 ### item
 
 **Pronunciation:** /ˈaɪtəm/ &middot; *EYE-tum*
-**Русский:** товар, предмет, позиция
+**Русский:** товар, предмет, позиция; заметка, новостное сообщение; пара (о влюблённых, разг.)
 **Plural:** *items*
 **Countability:** countable
 
-One single thing among the things being bought or sold.
+Item has 3 distinct senses.
+
+**1. One single thing among the things being bought or sold.** (товар, предмет, позиция)
 
 1. That lane is for ten *items* or fewer.
 2. Each *item* is rung up separately.
 3. The last *item* on my list was coffee.
+
+**2. A short piece of news in a paper or a broadcast.** (заметка, новостное сообщение)
+
+4. There was a small *item* about the fire on page six.
+5. The station ran a two-minute *item* on the flood.
+6. She reads the business *items* first.
+
+**3. Two people who are dating each other (informal).** (пара (о влюблённых, разг.))
+
+7. Everyone at work knows they're an *item*.
+8. The two of them became an *item* over the summer.
+9. Are those two an *item* now?
 
 ---
 
@@ -1121,16 +1135,24 @@ A person who owns or runs a small store.
 ### seller
 
 **Pronunciation:** /ˈsɛlər/ &middot; *SEL-ur*
-**Русский:** продавец (сторона сделки)
+**Русский:** продавец (сторона сделки); ходовой товар
 **Plural:** *sellers*
 **Countability:** countable
 **Contrast:** Sounds exactly like 'cellar', the room under a house.
 
-The person or business offering something for sale.
+Seller has 2 distinct senses.
+
+**1. The person or business offering something for sale.** (продавец (сторона сделки))
 
 1. The *seller* shipped it the same day.
 2. Some *sellers* on that site have no reviews.
 3. I messaged the *seller* about the scratch on the lens.
+
+**2. A product that sells well.** (ходовой товар)
+
+4. That jacket is our best *seller*.
+5. The plain black mug turned out to be a big *seller*.
+6. Cookbooks are steady *sellers* around the holidays.
 
 ---
 

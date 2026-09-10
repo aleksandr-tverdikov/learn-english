@@ -6,14 +6,58 @@
       "term": "marker",
       "ipa": "/ˈmɑːrkər/",
       "respell": "MAR-kur",
-      "meaning": "A pen with a thick felt tip that writes in bold color. ---",
+      "meaning": "Marker has 3 distinct senses.",
       "examples": [
         "Somebody used a permanent marker on the whiteboard.",
         "Label the box with a black marker.",
-        "Half these markers are dried out."
+        "Half these markers are dried out.",
+        "A stone marker shows where the trail crosses the river.",
+        "Mile markers count down to the state line.",
+        "The family finally put a marker on the grave.",
+        "The blood test looks for markers of inflammation.",
+        "Researchers found a genetic marker linked to the disease.",
+        "Vocabulary size is a rough marker of reading ability."
       ],
-      "senses": [],
-      "русский": "маркер, фломастер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pen with a thick felt tip that writes in bold color",
+          "body": [
+            "(маркер, фломастер)"
+          ],
+          "examples": [
+            "Somebody used a permanent marker on the whiteboard.",
+            "Label the box with a black marker.",
+            "Half these markers are dried out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An object or sign put in place to show where something is",
+          "body": [
+            "(указатель, метка (столбик, знак))"
+          ],
+          "examples": [
+            "A stone marker shows where the trail crosses the river.",
+            "Mile markers count down to the state line.",
+            "The family finally put a marker on the grave."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sign in the body or in data that shows something is present",
+          "body": [
+            "(маркер, показатель (в анализах, данных))",
+            "---"
+          ],
+          "examples": [
+            "The blood test looks for markers of inflammation.",
+            "Researchers found a genetic marker linked to the disease.",
+            "Vocabulary size is a rough marker of reading ability."
+          ]
+        }
+      ],
+      "русский": "маркер, фломастер; указатель, метка (столбик, знак); маркер, показатель (в анализах, данных)",
       "plural": "markers",
       "countability": "countable",
       "contrast": "American; the British usually say felt-tip or marker pen."
@@ -52,28 +96,101 @@
       "term": "ink",
       "ipa": "/ɪŋk/",
       "respell": "INGK",
-      "meaning": "The colored liquid that pens and printers write with. ---",
+      "meaning": "Ink has 3 distinct senses.",
       "examples": [
         "The printer is out of ink again.",
         "Sign it in blue or black ink.",
-        "The rain smeared the ink on the envelope."
+        "The rain smeared the ink on the envelope.",
+        "The squid shot out a cloud of ink and vanished.",
+        "The pasta is colored black with squid ink.",
+        "An octopus releases ink when a predator comes close.",
+        "He's got a lot of ink on his forearms.",
+        "She got her first ink at eighteen.",
+        "Most of his ink stays hidden under his sleeves."
       ],
-      "senses": [],
-      "русский": "чернила",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The colored liquid that pens and printers write with",
+          "body": [
+            "(чернила)"
+          ],
+          "examples": [
+            "The printer is out of ink again.",
+            "Sign it in blue or black ink.",
+            "The rain smeared the ink on the envelope."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dark liquid a squid or octopus squirts out to hide itself",
+          "body": [
+            "(чернила (кальмара))"
+          ],
+          "examples": [
+            "The squid shot out a cloud of ink and vanished.",
+            "The pasta is colored black with squid ink.",
+            "An octopus releases ink when a predator comes close."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Tattoos on a person's skin (informal)",
+          "body": [
+            "(татуировки, наколки (разг.))",
+            "---"
+          ],
+          "examples": [
+            "He's got a lot of ink on his forearms.",
+            "She got her first ink at eighteen.",
+            "Most of his ink stays hidden under his sleeves."
+          ]
+        }
+      ],
+      "русский": "чернила; чернила (кальмара); татуировки, наколки (разг.)",
       "countability": "uncountable"
     },
     {
       "term": "stamp",
       "ipa": "/stæmp/",
       "respell": "STAMP",
-      "meaning": "A small printed square you stick on mail to pay for delivery. ---",
+      "meaning": "Stamp has 2 distinct senses.",
       "examples": [
         "This letter needs another stamp.",
         "He's collected stamps since he was a kid.",
-        "A book of stamps went up in price again."
+        "A book of stamps went up in price again.",
+        "The clerk put a stamp in my passport.",
+        "She keeps a rubber stamp with the return address on it.",
+        "The document still needs the notary's stamp."
       ],
-      "senses": [],
-      "русский": "почтовая марка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small printed square you stick on mail to pay for delivery",
+          "body": [
+            "(почтовая марка)"
+          ],
+          "examples": [
+            "This letter needs another stamp.",
+            "He's collected stamps since he was a kid.",
+            "A book of stamps went up in price again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool for pressing a design onto a surface, or the mark it leaves",
+          "body": [
+            "(штамп, печать; оттиск)",
+            "---"
+          ],
+          "examples": [
+            "The clerk put a stamp in my passport.",
+            "She keeps a rubber stamp with the return address on it.",
+            "The document still needs the notary's stamp."
+          ]
+        }
+      ],
+      "русский": "почтовая марка; штамп, печать; оттиск",
       "plural": "stamps",
       "countability": "countable"
     },
@@ -95,14 +212,73 @@
       "term": "period",
       "ipa": "/ˈpɪriəd/",
       "respell": "PEER-ee-uhd",
-      "meaning": "The dot that ends a sentence. ---",
+      "meaning": "Period has 4 distinct senses.",
       "examples": [
         "You forgot the period at the end of that line.",
         "Put a period there, not a comma.",
-        "He writes in short sentences with a lot of periods."
+        "He writes in short sentences with a lot of periods.",
+        "Sales were flat over a six-month period.",
+        "He went through a rough period after the divorce.",
+        "Rain is expected for short periods tomorrow afternoon.",
+        "I have chemistry third period.",
+        "She grades papers during her free period.",
+        "The fire drill ate up most of second period.",
+        "Her period is usually right on schedule.",
+        "The cramps are worst on the first day of my period.",
+        "She hasn't had a period since March."
       ],
-      "senses": [],
-      "русский": "точка (знак препинания)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The dot that ends a sentence",
+          "body": [
+            "(точка (знак препинания))"
+          ],
+          "examples": [
+            "You forgot the period at the end of that line.",
+            "Put a period there, not a comma.",
+            "He writes in short sentences with a lot of periods."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A length of time with a beginning and an end",
+          "body": [
+            "(период, отрезок времени)"
+          ],
+          "examples": [
+            "Sales were flat over a six-month period.",
+            "He went through a rough period after the divorce.",
+            "Rain is expected for short periods tomorrow afternoon."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the parts a school day is divided into for classes",
+          "body": [
+            "(урок, учебный час)"
+          ],
+          "examples": [
+            "I have chemistry third period.",
+            "She grades papers during her free period.",
+            "The fire drill ate up most of second period."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The monthly flow of blood from a woman's body",
+          "body": [
+            "(менструация, месячные)",
+            "---"
+          ],
+          "examples": [
+            "Her period is usually right on schedule.",
+            "The cramps are worst on the first day of my period.",
+            "She hasn't had a period since March."
+          ]
+        }
+      ],
+      "русский": "точка (знак препинания); период, отрезок времени; урок, учебный час; менструация, месячные",
       "plural": "periods",
       "countability": "countable",
       "contrast": "American; the British call this mark a full stop."
@@ -189,14 +365,43 @@
       "term": "slash",
       "ipa": "/slæʃ/",
       "respell": "SLASH",
-      "meaning": "The forward-leaning line used between alternatives or in web addresses. ---",
+      "meaning": "Slash has 2 distinct senses.",
       "examples": [
         "Write and/or with a slash between them.",
         "There's an extra slash in that link.",
-        "The date is written with slashes."
+        "The date is written with slashes.",
+        "There was a slash across the canvas of the painting.",
+        "A thorn left a slash on the back of his hand.",
+        "Deep slashes in the sidewall had flattened all four tires."
       ],
-      "senses": [],
-      "русский": "косая черта, слэш",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The forward-leaning line used between alternatives or in web addresses",
+          "body": [
+            "(косая черта, слэш)"
+          ],
+          "examples": [
+            "Write and/or with a slash between them.",
+            "There's an extra slash in that link.",
+            "The date is written with slashes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long cut made by a sweeping stroke of something sharp",
+          "body": [
+            "(резаная рана, порез)",
+            "---"
+          ],
+          "examples": [
+            "There was a slash across the canvas of the painting.",
+            "A thorn left a slash on the back of his hand.",
+            "Deep slashes in the sidewall had flattened all four tires."
+          ]
+        }
+      ],
+      "русский": "косая черта, слэш; резаная рана, порез",
       "plural": "slashes",
       "countability": "countable",
       "contrast": "The line leaning forward is a slash; the one leaning the other way is a backslash."
@@ -418,14 +623,58 @@
       "term": "object",
       "ipa": "/ˈɑːbdʒɪkt/",
       "respell": "AHB-jikt",
-      "meaning": "The word in a sentence that receives the action of the verb. ---",
+      "meaning": "Object has 3 distinct senses.",
       "examples": [
         "In I read the book, book is the object.",
         "The verb takes a direct object.",
-        "Underline the subjects and circle the objects."
+        "Underline the subjects and circle the objects.",
+        "Please take all metal objects out of your pockets.",
+        "A strange object was floating in the pool.",
+        "The museum holds thousands of small objects from the dig.",
+        "The object of the game is to collect all four cards.",
+        "The whole object of the exercise was to save time.",
+        "Winning was never the object."
       ],
-      "senses": [],
-      "русский": "дополнение (в предложении)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The word in a sentence that receives the action of the verb",
+          "body": [
+            "(дополнение (в предложении))"
+          ],
+          "examples": [
+            "In I read the book, book is the object.",
+            "The verb takes a direct object.",
+            "Underline the subjects and circle the objects."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thing that you can see and touch",
+          "body": [
+            "(предмет, вещь)"
+          ],
+          "examples": [
+            "Please take all metal objects out of your pockets.",
+            "A strange object was floating in the pool.",
+            "The museum holds thousands of small objects from the dig."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The aim or purpose of an action or a game",
+          "body": [
+            "(цель, задача)",
+            "---"
+          ],
+          "examples": [
+            "The object of the game is to collect all four cards.",
+            "The whole object of the exercise was to save time.",
+            "Winning was never the object."
+          ]
+        }
+      ],
+      "русский": "дополнение (в предложении); предмет, вещь; цель, задача",
       "plural": "objects",
       "countability": "countable",
       "contrast": "The noun is AHB-jikt with the stress up front; the verb meaning to protest is uhb-JEKT."
@@ -584,14 +833,58 @@
       "term": "voice",
       "ipa": "/vɔɪs/",
       "respell": "VOYS",
-      "meaning": "The sound a person makes when speaking or singing. ---",
+      "meaning": "Voice has 3 distinct senses.",
       "examples": [
         "I didn't recognize her voice on the phone.",
         "Keep your voice down in the library.",
-        "I could hear voices in the next room."
+        "I could hear voices in the next room.",
+        "Renters deserve a voice in the decision.",
+        "The union gives workers a voice.",
+        "Students had no voice in setting the schedule.",
+        "Scientists often write in the passive voice.",
+        "The editor asked her to switch to the active voice.",
+        "English has two voices, active and passive."
       ],
-      "senses": [],
-      "русский": "голос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sound a person makes when speaking or singing",
+          "body": [
+            "(голос)"
+          ],
+          "examples": [
+            "I didn't recognize her voice on the phone.",
+            "Keep your voice down in the library.",
+            "I could hear voices in the next room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The right or chance to express an opinion and be listened to",
+          "body": [
+            "(право голоса, возможность высказаться)"
+          ],
+          "examples": [
+            "Renters deserve a voice in the decision.",
+            "The union gives workers a voice.",
+            "Students had no voice in setting the schedule."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The form of a verb that shows whether the subject acts or is acted on",
+          "body": [
+            "(залог (глагола))",
+            "---"
+          ],
+          "examples": [
+            "Scientists often write in the passive voice.",
+            "The editor asked her to switch to the active voice.",
+            "English has two voices, active and passive."
+          ]
+        }
+      ],
+      "русский": "голос; право голоса, возможность высказаться; залог (глагола)",
       "plural": "voices",
       "countability": "countable"
     },
@@ -659,14 +952,43 @@
       "term": "ending",
       "ipa": "/ˈɛndɪŋ/",
       "respell": "EN-ding",
-      "meaning": "The letters at the end of a word that show its grammatical form. ---",
+      "meaning": "Ending has 2 distinct senses.",
       "examples": [
         "The verb takes an -s ending in the third person.",
         "Russian nouns change their endings depending on the case.",
-        "He keeps dropping the past-tense ending."
+        "He keeps dropping the past-tense ending.",
+        "The book has a surprisingly happy ending.",
+        "Don't tell me the ending.",
+        "Both endings were filmed and shown to test audiences."
       ],
-      "senses": [],
-      "русский": "окончание (грамматическое)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The letters at the end of a word that show its grammatical form",
+          "body": [
+            "(окончание (грамматическое))"
+          ],
+          "examples": [
+            "The verb takes an -s ending in the third person.",
+            "Russian nouns change their endings depending on the case.",
+            "He keeps dropping the past-tense ending."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a story, film, or event finishes",
+          "body": [
+            "(концовка, финал)",
+            "---"
+          ],
+          "examples": [
+            "The book has a surprisingly happy ending.",
+            "Don't tell me the ending.",
+            "Both endings were filmed and shown to test audiences."
+          ]
+        }
+      ],
+      "русский": "окончание (грамматическое); концовка, финал",
       "plural": "endings",
       "countability": "countable"
     },
@@ -705,14 +1027,43 @@
       "term": "usage",
       "ipa": "/ˈjuːsɪdʒ/",
       "respell": "YOO-sij",
-      "meaning": "The way words are actually used by the people who speak a language. ---",
+      "meaning": "Usage has 2 distinct senses.",
       "examples": [
         "That spelling is fine in American usage.",
         "The dictionary has a note on usage at the bottom.",
-        "Usage changes faster than the rule books do."
+        "Usage changes faster than the rule books do.",
+        "Our water usage went up in July.",
+        "Check your data usage before you stream the game.",
+        "The app tracks your screen usage by the hour."
       ],
-      "senses": [],
-      "русский": "словоупотребление, узус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way words are actually used by the people who speak a language",
+          "body": [
+            "(словоупотребление, узус)"
+          ],
+          "examples": [
+            "That spelling is fine in American usage.",
+            "The dictionary has a note on usage at the bottom.",
+            "Usage changes faster than the rule books do."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of something that is used",
+          "body": [
+            "(расход, потребление)",
+            "---"
+          ],
+          "examples": [
+            "Our water usage went up in July.",
+            "Check your data usage before you stream the game.",
+            "The app tracks your screen usage by the hour."
+          ]
+        }
+      ],
+      "русский": "словоупотребление, узус; расход, потребление",
       "countability": "uncountable",
       "contrast": "The s hisses here: YOO-sij. The verb use has a z sound: YOOZ."
     },
@@ -720,14 +1071,43 @@
       "term": "rule",
       "ipa": "/ruːl/",
       "respell": "ROOL",
-      "meaning": "A statement of how something is supposed to be done. ---",
+      "meaning": "Rule has 2 distinct senses.",
       "examples": [
         "The rule is i before e except after c.",
         "That rule has more exceptions than examples.",
-        "Grammar rules are easier to state than to follow."
+        "Grammar rules are easier to state than to follow.",
+        "The island was under Spanish rule for centuries.",
+        "The country returned to civilian rule in 1990.",
+        "Life under military rule was tightly controlled."
       ],
-      "senses": [],
-      "русский": "правило",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A statement of how something is supposed to be done",
+          "body": [
+            "(правило)"
+          ],
+          "examples": [
+            "The rule is i before e except after c.",
+            "That rule has more exceptions than examples.",
+            "Grammar rules are easier to state than to follow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The power to govern a country or people, or the period of that power",
+          "body": [
+            "(правление, власть)",
+            "---"
+          ],
+          "examples": [
+            "The island was under Spanish rule for centuries.",
+            "The country returned to civilian rule in 1990.",
+            "Life under military rule was tightly controlled."
+          ]
+        }
+      ],
+      "русский": "правило; правление, власть",
       "plural": "rules",
       "countability": "countable"
     },
@@ -735,14 +1115,73 @@
       "term": "word",
       "ipa": "/wɜːrd/",
       "respell": "WURD",
-      "meaning": "A single unit of language, written with spaces on either side. ---",
+      "meaning": "Word has 4 distinct senses.",
       "examples": [
         "I don't know that word — let me look it up.",
         "Say it in your own words.",
-        "The essay has to be under five hundred words."
+        "The essay has to be under five hundred words.",
+        "You have my word that it stays between us.",
+        "He's a man of his word.",
+        "She gave me her word and then broke it.",
+        "Word came that the flight was canceled.",
+        "Send word as soon as you land.",
+        "There's still no word from the hospital.",
+        "Can I have a word with you?",
+        "The coach had a quiet word with the rookie.",
+        "A quick word before you head out?"
       ],
-      "senses": [],
-      "русский": "слово",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single unit of language, written with spaces on either side",
+          "body": [
+            "(слово)"
+          ],
+          "examples": [
+            "I don't know that word — let me look it up.",
+            "Say it in your own words.",
+            "The essay has to be under five hundred words."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A promise that you will do something",
+          "body": [
+            "(слово, обещание)"
+          ],
+          "examples": [
+            "You have my word that it stays between us.",
+            "He's a man of his word.",
+            "She gave me her word and then broke it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "News or a message about something",
+          "body": [
+            "(весть, известие)"
+          ],
+          "examples": [
+            "Word came that the flight was canceled.",
+            "Send word as soon as you land.",
+            "There's still no word from the hospital."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A short conversation with someone",
+          "body": [
+            "(разговор, пара слов)",
+            "---"
+          ],
+          "examples": [
+            "Can I have a word with you?",
+            "The coach had a quiet word with the rookie.",
+            "A quick word before you head out?"
+          ]
+        }
+      ],
+      "русский": "слово; слово, обещание; весть, известие; разговор, пара слов",
       "plural": "words",
       "countability": "countable"
     },
@@ -825,14 +1264,73 @@
       "term": "accent",
       "ipa": "/ˈæksɛnt/",
       "respell": "AK-sent",
-      "meaning": "The way someone's speech sounds because of where they come from. ---",
+      "meaning": "Accent has 4 distinct senses.",
       "examples": [
         "She still has a slight accent.",
         "He can do a pretty good Southern accent.",
-        "There are dozens of accents just in this state."
+        "There are dozens of accents just in this state.",
+        "Don't forget the accent on the e in cafe.",
+        "Spanish words often carry an accent over one vowel.",
+        "The keyboard has a shortcut for typing accents.",
+        "In the noun 'record' the accent falls on the first syllable.",
+        "Move the accent to the second word and the sentence changes meaning.",
+        "The drummer put the accent on the offbeat.",
+        "The gray couch has two red pillows as an accent.",
+        "We painted one wall navy for an accent.",
+        "Gold accents run along the edge of every plate."
       ],
-      "senses": [],
-      "русский": "акцент (в речи)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way someone's speech sounds because of where they come from",
+          "body": [
+            "(акцент (в речи))"
+          ],
+          "examples": [
+            "She still has a slight accent.",
+            "He can do a pretty good Southern accent.",
+            "There are dozens of accents just in this state."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mark written above or below a letter to show how it is pronounced",
+          "body": [
+            "(диакритический знак, значок над буквой)"
+          ],
+          "examples": [
+            "Don't forget the accent on the e in cafe.",
+            "Spanish words often carry an accent over one vowel.",
+            "The keyboard has a shortcut for typing accents."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The extra stress given to a syllable, a word, or a musical beat",
+          "body": [
+            "(ударение, акцент (в слове, в такте))"
+          ],
+          "examples": [
+            "In the noun 'record' the accent falls on the first syllable.",
+            "Move the accent to the second word and the sentence changes meaning.",
+            "The drummer put the accent on the offbeat."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A detail added to a room or an outfit so that it stands out against the rest",
+          "body": [
+            "(акцент (яркая деталь в интерьере, одежде))",
+            "---"
+          ],
+          "examples": [
+            "The gray couch has two red pillows as an accent.",
+            "We painted one wall navy for an accent.",
+            "Gold accents run along the edge of every plate."
+          ]
+        }
+      ],
+      "русский": "акцент (в речи); диакритический знак, значок над буквой; ударение, акцент (в слове, в такте); акцент (яркая деталь в интерьере, одежде)",
       "plural": "accents",
       "countability": "countable"
     },
@@ -1004,14 +1502,43 @@
       "term": "meaning",
       "ipa": "/ˈmiːnɪŋ/",
       "respell": "MEE-ning",
-      "meaning": "What a word, sign, or sentence stands for. ---",
+      "meaning": "Meaning has 2 distinct senses.",
       "examples": [
         "What's the meaning of that word?",
         "The word has a second meaning in medicine.",
-        "One comma can change the meaning completely."
+        "One comma can change the meaning completely.",
+        "Volunteering gave her life new meaning.",
+        "He went looking for meaning after the divorce.",
+        "The ceremony has deep meaning for the whole family."
       ],
-      "senses": [],
-      "русский": "значение, смысл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What a word, sign, or sentence stands for",
+          "body": [
+            "(значение, смысл)"
+          ],
+          "examples": [
+            "What's the meaning of that word?",
+            "The word has a second meaning in medicine.",
+            "One comma can change the meaning completely."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sense of purpose or importance that something gives a person's life",
+          "body": [
+            "(смысл, значимость)",
+            "---"
+          ],
+          "examples": [
+            "Volunteering gave her life new meaning.",
+            "He went looking for meaning after the divorce.",
+            "The ceremony has deep meaning for the whole family."
+          ]
+        }
+      ],
+      "русский": "значение, смысл; смысл, значимость",
       "plural": "meanings",
       "countability": "countable"
     },
@@ -1124,14 +1651,58 @@
       "term": "name",
       "ipa": "/neɪm/",
       "respell": "NAYM",
-      "meaning": "The word or words a person or thing is called by. ---",
+      "meaning": "Name has 3 distinct senses.",
       "examples": [
         "What's the name of that street?",
         "I forgot her name the second she said it.",
-        "Put your names at the top of the page."
+        "Put your names at the top of the page.",
+        "He spent years clearing his name.",
+        "The company guards its good name.",
+        "She made a name for herself in local politics.",
+        "Several big names signed on to the project.",
+        "He's the biggest name in country music right now.",
+        "The conference drew a few famous names."
       ],
-      "senses": [],
-      "русский": "имя, название",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The word or words a person or thing is called by",
+          "body": [
+            "(имя, название)"
+          ],
+          "examples": [
+            "What's the name of that street?",
+            "I forgot her name the second she said it.",
+            "Put your names at the top of the page."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The reputation that a person or a business has",
+          "body": [
+            "(репутация, доброе имя)"
+          ],
+          "examples": [
+            "He spent years clearing his name.",
+            "The company guards its good name.",
+            "She made a name for herself in local politics."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A well-known person in a particular field",
+          "body": [
+            "(известная личность, знаменитость)",
+            "---"
+          ],
+          "examples": [
+            "Several big names signed on to the project.",
+            "He's the biggest name in country music right now.",
+            "The conference drew a few famous names."
+          ]
+        }
+      ],
+      "русский": "имя, название; репутация, доброе имя; известная личность, знаменитость",
       "plural": "names",
       "countability": "countable"
     },
@@ -1242,14 +1813,43 @@
       "term": "heading",
       "ipa": "/ˈhɛdɪŋ/",
       "respell": "HED-ing",
-      "meaning": "The short title printed above a section of text. ---",
+      "meaning": "Heading has 2 distinct senses.",
       "examples": [
         "Put a heading over each part.",
         "The heading is in bold.",
-        "Just skim the headings to find it."
+        "Just skim the headings to find it.",
+        "The pilot changed heading to get around the storm.",
+        "Hold this heading until you see the lighthouse.",
+        "The boat was on a northerly heading when the engine quit."
       ],
-      "senses": [],
-      "русский": "заголовок (раздела)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The short title printed above a section of text",
+          "body": [
+            "(заголовок (раздела))"
+          ],
+          "examples": [
+            "Put a heading over each part.",
+            "The heading is in bold.",
+            "Just skim the headings to find it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The compass direction in which a ship, plane, or vehicle is moving",
+          "body": [
+            "(курс (направление движения))",
+            "---"
+          ],
+          "examples": [
+            "The pilot changed heading to get around the storm.",
+            "Hold this heading until you see the lighthouse.",
+            "The boat was on a northerly heading when the engine quit."
+          ]
+        }
+      ],
+      "русский": "заголовок (раздела); курс (направление движения)",
       "plural": "headings",
       "countability": "countable"
     },
@@ -1257,14 +1857,73 @@
       "term": "passage",
       "ipa": "/ˈpæsɪdʒ/",
       "respell": "PAS-ij",
-      "meaning": "A short piece taken out of a longer text. ---",
+      "meaning": "Passage has 4 distinct senses.",
       "examples": [
         "Read the passage and answer the questions.",
         "She quoted a passage from the letter.",
-        "The test has four reading passages."
+        "The test has four reading passages.",
+        "A dark passage led from the kitchen to the pantry.",
+        "The cave narrows into a low passage.",
+        "Boxes lined both sides of the passage.",
+        "The passage of time has softened the memory.",
+        "The bridge is too low for the passage of tall trucks.",
+        "The house settled a little with the passage of each winter.",
+        "The bill's passage took nearly two years.",
+        "Supporters celebrated the passage of the amendment.",
+        "The measure won passage by a single vote."
       ],
-      "senses": [],
-      "русский": "отрывок, фрагмент текста",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short piece taken out of a longer text",
+          "body": [
+            "(отрывок, фрагмент текста)"
+          ],
+          "examples": [
+            "Read the passage and answer the questions.",
+            "She quoted a passage from the letter.",
+            "The test has four reading passages."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long narrow way that connects one place to another",
+          "body": [
+            "(коридор, проход)"
+          ],
+          "examples": [
+            "A dark passage led from the kitchen to the pantry.",
+            "The cave narrows into a low passage.",
+            "Boxes lined both sides of the passage."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The act of moving through or past something, or of time going by",
+          "body": [
+            "(прохождение; течение (времени))"
+          ],
+          "examples": [
+            "The passage of time has softened the memory.",
+            "The bridge is too low for the passage of tall trucks.",
+            "The house settled a little with the passage of each winter."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The approval of a law by a legislature",
+          "body": [
+            "(принятие (закона))",
+            "---"
+          ],
+          "examples": [
+            "The bill's passage took nearly two years.",
+            "Supporters celebrated the passage of the amendment.",
+            "The measure won passage by a single vote."
+          ]
+        }
+      ],
+      "русский": "отрывок, фрагмент текста; коридор, проход; прохождение; течение (времени); принятие (закона)",
       "plural": "passages",
       "countability": "countable"
     },
@@ -1440,14 +2099,43 @@
       "term": "joke",
       "ipa": "/dʒoʊk/",
       "respell": "JOHK",
-      "meaning": "Something said to make people laugh. ---",
+      "meaning": "Joke has 2 distinct senses.",
       "examples": [
         "He told the same joke twice.",
         "I didn't get the joke.",
-        "Her jokes land better in person."
+        "Her jokes land better in person.",
+        "The whole investigation was a joke.",
+        "Their customer service is a complete joke.",
+        "After the third delay, the schedule became a joke."
       ],
-      "senses": [],
-      "русский": "шутка, анекдот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something said to make people laugh",
+          "body": [
+            "(шутка, анекдот)"
+          ],
+          "examples": [
+            "He told the same joke twice.",
+            "I didn't get the joke.",
+            "Her jokes land better in person."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something or someone too poor or ridiculous to be taken seriously",
+          "body": [
+            "(посмешище, фарс, ерунда)",
+            "---"
+          ],
+          "examples": [
+            "The whole investigation was a joke.",
+            "Their customer service is a complete joke.",
+            "After the third delay, the schedule became a joke."
+          ]
+        }
+      ],
+      "русский": "шутка, анекдот; посмешище, фарс, ерунда",
       "plural": "jokes",
       "countability": "countable"
     },
@@ -1591,14 +2279,43 @@
       "term": "blank",
       "ipa": "/blæŋk/",
       "respell": "BLANGK",
-      "meaning": "An empty space left in a text for someone to write in. ---",
+      "meaning": "Blank has 2 distinct senses.",
       "examples": [
         "Fill in the blank with the right verb.",
         "Leave the last blank empty for now.",
-        "The worksheet has twenty blanks."
+        "The worksheet has twenty blanks.",
+        "The starter's pistol was loaded with blanks.",
+        "The soldiers fired blanks during the rehearsal.",
+        "A blank can still hurt you at close range."
       ],
-      "senses": [],
-      "русский": "пропуск (место для заполнения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An empty space left in a text for someone to write in",
+          "body": [
+            "(пропуск (место для заполнения))"
+          ],
+          "examples": [
+            "Fill in the blank with the right verb.",
+            "Leave the last blank empty for now.",
+            "The worksheet has twenty blanks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cartridge that makes a bang but fires no bullet",
+          "body": [
+            "(холостой патрон)",
+            "---"
+          ],
+          "examples": [
+            "The starter's pistol was loaded with blanks.",
+            "The soldiers fired blanks during the rehearsal.",
+            "A blank can still hurt you at close range."
+          ]
+        }
+      ],
+      "русский": "пропуск (место для заполнения); холостой патрон",
       "plural": "blanks",
       "countability": "countable"
     },

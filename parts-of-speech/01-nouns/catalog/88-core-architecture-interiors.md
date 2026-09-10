@@ -1106,15 +1106,23 @@ A small decorative object of little value.
 ### artwork
 
 **Pronunciation:** /ˈɑːrtwɜːrk/ &middot; *ART-wurk*
-**Русский:** предметы искусства, картины (собирательно)
+**Русский:** предметы искусства, картины (собирательно); иллюстрации, оформление, макет
 **Countability:** uncountable
 **Contrast:** Uncountable in everyday American English: 'a lot of artwork', not 'artworks'.
 
-Paintings, prints, and other art considered together.
+Artwork has 2 distinct senses.
+
+**1. Paintings, prints, and other art considered together.** (предметы искусства, картины (собирательно))
 
 1. The hotel spent a fortune on *artwork*.
 2. There's not much *artwork* on the walls.
 3. We packed the *artwork* last.
+
+**2. The drawings, photos, and layout prepared for a book, album, or ad.** (иллюстрации, оформление, макет)
+
+4. The band approved the album *artwork* last week.
+5. Send the *artwork* to the printer by Friday.
+6. The cover *artwork* was done by a local illustrator.
 
 ---
 
@@ -1323,15 +1331,23 @@ Decorative detail added to a building or an object.
 ### finish
 
 **Pronunciation:** /ˈfɪnɪʃ/ &middot; *FIN-ish*
-**Русский:** покрытие, отделка поверхности
+**Русский:** покрытие, отделка поверхности; финиш; концовка
 **Plural:** *finishes*
 **Countability:** countable
 
-The final coating or surface treatment on wood, metal, or a wall.
+Finish has 2 distinct senses.
+
+**1. The final coating or surface treatment on wood, metal, or a wall.** (покрытие, отделка поверхности)
 
 1. The table has a glossy *finish*.
 2. We picked a matte *finish* for the trim.
 3. The *finishes* throughout the house are brushed nickel.
+
+**2. The end of a race or contest, especially its closing stage.** (финиш; концовка)
+
+4. It was a photo *finish*.
+5. The team faded badly in the *finish*.
+6. He's known for a strong *finish* in the last mile.
 
 ---
 
@@ -1470,14 +1486,22 @@ The wooden trim, doors, and molding inside a house.
 ### framing
 
 **Pronunciation:** /ˈfreɪmɪŋ/ &middot; *FRAY-ming*
-**Русский:** каркас здания
+**Русский:** каркас здания; подача, формулировка (угол подачи темы)
 **Countability:** uncountable
 
-The wooden or steel skeleton that a building is built on.
+Framing has 2 distinct senses.
+
+**1. The wooden or steel skeleton that a building is built on.** (каркас здания)
 
 1. The *framing* goes up this week.
 2. Termites got into the *framing*.
 3. You can see the *framing* through the open drywall.
+
+**2. The way a subject or question is presented, which shapes how people understand it.** (подача, формулировка (угол подачи темы))
+
+4. The *framing* of the question pushed people toward one answer.
+5. Both papers reported the same facts with very different *framing*.
+6. Changing the *framing* from 'cost' to 'investment' won over the board.
 
 ---
 
@@ -1559,15 +1583,23 @@ The rough floor laid over the joists, under the finished flooring.
 ### slab
 
 **Pronunciation:** /slæb/ &middot; *SLAB*
-**Русский:** плита (бетонная)
+**Русский:** плита (бетонная); толстый кусок, ломоть; плита (камня)
 **Plural:** *slabs*
 **Countability:** countable
 
-A thick flat piece of concrete poured as a floor or a foundation.
+Slab has 2 distinct senses.
+
+**1. A thick flat piece of concrete poured as a floor or a foundation.** (плита (бетонная))
 
 1. The house sits on a concrete *slab*.
 2. They poured the *slab* on Monday.
 3. Cracks in these *slabs* are common down here.
+
+**2. A thick flat piece cut from something such as meat, cheese, or stone.** (толстый кусок, ломоть; плита (камня))
+
+4. He cut a *slab* of cheddar off the block.
+5. The butcher wrapped a *slab* of ribs in white paper.
+6. The counter is a single *slab* of marble.
 
 ---
 
@@ -1619,16 +1651,24 @@ A hard plaster coating spread on outside walls.
 ### shingle
 
 **Pronunciation:** /ˈʃɪŋɡəl/ &middot; *SHING-gul*
-**Русский:** кровельная плитка, гонт
+**Русский:** кровельная плитка, гонт; опоясывающий лишай
 **Plural:** *shingles*
 **Countability:** countable
 **Contrast:** In Britain 'shingle' usually means the pebbles on a beach.
 
-One of the thin overlapping pieces that cover a roof or a wall.
+Shingle has 2 distinct senses.
+
+**1. One of the thin overlapping pieces that cover a roof or a wall.** (кровельная плитка, гонт)
 
 1. The storm tore *shingles* off the roof.
 2. A missing *shingle* let water into the attic.
 3. Asphalt *shingles* last about twenty years.
+
+**2. A painful viral illness that raises a burning rash in a band across the skin.** (опоясывающий лишай)
+
+4. My aunt came down with *shingles* right after the move.
+5. The vaccine cuts your risk of *shingles* after fifty.
+6. *Shingles* left a rash across his ribs for three weeks.
 
 ---
 
@@ -1743,15 +1783,23 @@ A small dome-shaped structure built on top of a roof.
 ### turret
 
 **Pronunciation:** /ˈtɜːrət/ &middot; *TUR-it*
-**Русский:** башенка (угловая)
+**Русский:** башенка (угловая); башня (танковая, орудийная)
 **Plural:** *turrets*
 **Countability:** countable
 
-A small tower built onto the corner of a building.
+Turret has 2 distinct senses.
+
+**1. A small tower built onto the corner of a building.** (башенка (угловая))
 
 1. The old house on the corner has a round *turret*.
 2. Her bedroom is inside the *turret*.
 3. Stone *turrets* stand at each end of the castle.
+
+**2. The rotating structure on a tank, ship, or aircraft that holds a gun.** (башня (танковая, орудийная))
+
+4. The tank's *turret* swung slowly to the right.
+5. A shell struck the forward *turret*.
+6. The gunner sat in a glass *turret* under the plane.
 
 ---
 
@@ -1939,15 +1987,29 @@ A support built against a wall to keep it from leaning outward.
 ### vault
 
 **Pronunciation:** /vɔːlt/ &middot; *VAWLT*
-**Русский:** свод (потолка)
+**Русский:** свод (потолка); хранилище, сейфовая комната; опорный прыжок (в гимнастике)
 **Plural:** *vaults*
 **Countability:** countable
 
-An arched ceiling or roof made of stone or brick.
+Vault has 3 distinct senses.
+
+**1. An arched ceiling or roof made of stone or brick.** (свод (потолка))
 
 1. The *vault* over the nave is painted blue.
 2. Ribbed *vaults* let builders span wider rooms.
 3. Water stains run down the *vault*.
+
+**2. A strong locked room where money or valuables are kept.** (хранилище, сейфовая комната)
+
+4. The bank keeps the gold in an underground *vault*.
+5. The original documents are locked in the *vault*.
+6. Two guards stood outside the *vault* all night.
+
+**3. A jump over a piece of equipment in gymnastics, or the apparatus itself.** (опорный прыжок (в гимнастике))
+
+7. She scored highest on the *vault*.
+8. His second *vault* was nearly perfect.
+9. The *vault* has always been her strongest event.
 
 ---
 

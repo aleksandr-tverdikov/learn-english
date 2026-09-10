@@ -104,16 +104,36 @@ A small part of a town or city where people live.
 ### block
 
 **Pronunciation:** /blɑːk/ &middot; *BLAHK*
-**Русский:** квартал (между двумя улицами)
+**Русский:** квартал (между двумя улицами); брусок, кусок (дерева, льда, камня); препятствие, затор; психологический блок; блок, партия (билетов, времени)
 **Plural:** *blocks*
 **Countability:** countable
 **Contrast:** Americans measure walking distance in blocks; British English has no everyday equivalent.
 
-The stretch of a street between two cross streets, or the buildings on it.
+Block has 4 distinct senses.
+
+**1. The stretch of a street between two cross streets, or the buildings on it.** (квартал (между двумя улицами))
 
 1. The pharmacy is two *blocks* from here.
 2. They live on the same *block* as my sister.
 3. We walked around the *block* to cool off.
+
+**2. A solid piece of hard material with flat sides.** (брусок, кусок (дерева, льда, камня))
+
+4. He carved the bird out of a *block* of wood.
+5. A *block* of ice sat melting in the cooler.
+6. The wall is built of concrete *blocks*.
+
+**3. Something that stops movement or progress.** (препятствие, затор; психологический блок)
+
+7. She has had a mental *block* about math since third grade.
+8. There's a *block* somewhere in the drain.
+9. Fear can be a real *block* to learning.
+
+**4. A group or quantity of things handled together.** (блок, партия (билетов, времени))
+
+10. The school bought a *block* of tickets for the show.
+11. I set aside a *block* of time every morning to write.
+12. A *block* of seats was reserved for the family.
 
 ---
 
@@ -190,16 +210,24 @@ A hard surface built for vehicles to travel on between places.
 ### avenue
 
 **Pronunciation:** /ˈævənuː/ &middot; *A-vuh-noo*
-**Русский:** проспект, авеню
+**Русский:** проспект, авеню; путь, способ (достижения цели)
 **Plural:** *avenues*
 **Countability:** countable
 **Contrast:** American /-nuː/ (A-vuh-noo); British speakers say /-njuː/ (A-vuh-nyoo).
 
-A wide city street, often lined with trees.
+Avenue has 2 distinct senses.
+
+**1. A wide city street, often lined with trees.** (проспект, авеню)
 
 1. The parade goes straight down Fifth *Avenue*.
 2. Most of the *avenues* here run north to south.
 3. Her office is on a busy *avenue* near the park.
+
+**2. A possible way of doing something or making progress.** (путь, способ (достижения цели))
+
+4. We've explored every *avenue* and come up empty.
+5. Selling online opened a new *avenue* for the shop.
+6. Appealing the ruling is her only remaining *avenue*.
 
 ---
 
@@ -266,16 +294,24 @@ One of the numbered national highways running between US states.
 ### curb
 
 **Pronunciation:** /kɜːrb/ &middot; *KURB*
-**Русский:** бордюр, поребрик
+**Русский:** бордюр, поребрик; ограничение, сдерживающая мера
 **Plural:** *curbs*
 **Countability:** countable
 **Contrast:** American spelling; British English writes 'kerb' for the stone edge.
 
-The raised stone edge between a sidewalk and the road.
+Curb has 2 distinct senses.
+
+**1. The raised stone edge between a sidewalk and the road.** (бордюр, поребрик)
 
 1. Leave the trash cans by the *curb*.
 2. The city repainted all the yellow *curbs*.
 3. She tripped stepping off the *curb*.
+
+**2. Something that limits or holds back an activity.** (ограничение, сдерживающая мера)
+
+4. The city put a *curb* on short-term rentals.
+5. There is no real *curb* on what they can charge.
+6. New *curbs* on spending take effect in July.
 
 ---
 
@@ -418,15 +454,35 @@ A marked place along a street where a bus picks up passengers.
 ### track
 
 **Pronunciation:** /træk/ &middot; *TRAK*
-**Русский:** железнодорожный путь, рельсы
+**Русский:** железнодорожный путь, рельсы; трек, дорожка (запись); беговая дорожка, трек; след, следы
 **Plural:** *tracks*
 **Countability:** countable
 
-The pair of metal rails a train runs on.
+Track has 4 distinct senses.
+
+**1. The pair of metal rails a train runs on.** (железнодорожный путь, рельсы)
 
 1. Never walk on the *tracks*.
 2. A freight train blocked the *track* for an hour.
 3. The old *tracks* were torn up and turned into a trail.
+
+**2. A single song or piece of music on an album.** (трек, дорожка (запись))
+
+4. The third *track* is my favorite.
+5. The album has twelve *tracks*.
+6. They released one *track* early as a single.
+
+**3. A course, usually oval, for running or racing.** (беговая дорожка, трек)
+
+7. She runs four miles on the *track* every morning.
+8. The horses came around the far turn of the *track*.
+9. Our school just resurfaced the *track*.
+
+**4. A line of marks left on the ground by an animal, person, or vehicle.** (след, следы)
+
+10. There were deer *tracks* in the snow.
+11. Muddy *tracks* led from the door to the garage.
+12. The hunter followed the bear's *tracks* for a mile.
 
 ---
 
@@ -860,16 +916,30 @@ The local building where police officers work.
 ### theater
 
 **Pronunciation:** /ˈθiːətər/ &middot; *THEE-uh-tur*
-**Русский:** театр; кинотеатр
+**Русский:** театр; кинотеатр; театр (искусство, театральная сфера); театр военных действий
 **Plural:** *theaters*
 **Countability:** countable
 **Contrast:** American spelling 'theater'; British English writes 'theatre'.
 
-A building where plays or movies are shown to an audience.
+Theater has 3 distinct senses.
+
+**1. A building where plays or movies are shown to an audience.** (театр; кинотеатр)
 
 1. The *theater* on Broadway seats a thousand people.
 2. Two movie *theaters* closed during the pandemic.
 3. We got to the *theater* just before the curtain.
+
+**2. The art and business of writing and performing plays.** (театр (искусство, театральная сфера))
+
+4. She studied *theater* in college.
+5. He has worked in *theater* for thirty years.
+6. Community *theater* keeps the old playhouse busy.
+
+**3. A large area where a war is being fought.** (театр военных действий)
+
+7. He served in the Pacific *theater* during the war.
+8. Supplies were flown into the *theater* every week.
+9. Commanders in the *theater* asked for more troops.
 
 ---
 
@@ -892,15 +962,23 @@ Film as an art form, or a building where films are shown.
 ### arena
 
 **Pronunciation:** /əˈriːnə/ &middot; *uh-REE-nuh*
-**Русский:** арена, спортивно-концертный комплекс
+**Русский:** арена, спортивно-концертный комплекс; арена, поприще (деятельности)
 **Plural:** *arenas*
 **Countability:** countable
 
-A large indoor building with seats around a central floor for sports and concerts.
+Arena has 2 distinct senses.
+
+**1. A large indoor building with seats around a central floor for sports and concerts.** (арена, спортивно-концертный комплекс)
 
 1. The *arena* holds eighteen thousand fans.
 2. Two new *arenas* opened the same year.
 3. The concert sold out the *arena* in an hour.
+
+**2. An area of public activity where people compete or argue.** (арена, поприще (деятельности))
+
+4. She entered the political *arena* at twenty-six.
+5. Two startups are fighting it out in the same *arena*.
+6. The courtroom became the *arena* for their long feud.
 
 ---
 
@@ -937,32 +1015,48 @@ A large outdoor place with rides and games for entertainment.
 ### store
 
 **Pronunciation:** /stɔːr/ &middot; *STOR*
-**Русский:** магазин
+**Русский:** магазин; запас
 **Plural:** *stores*
 **Countability:** countable
 **Contrast:** American. Where Americans say 'store', British speakers usually say 'shop'.
 
-A place that sells goods to the public.
+Store has 2 distinct senses.
+
+**1. A place that sells goods to the public.** (магазин)
 
 1. The *store* on the corner is open till midnight.
 2. Three *stores* on this block went out of business.
 3. I'm running to the *store* for milk.
+
+**2. A supply of something kept for future use.** (запас)
+
+4. Squirrels build up a *store* of nuts for winter.
+5. The town keeps a *store* of salt for icy roads.
+6. She has a deep *store* of patience.
 
 ---
 
 ### shop
 
 **Pronunciation:** /ʃɑːp/ &middot; *SHAHP*
-**Русский:** магазин, лавка; мастерская
+**Русский:** магазин, лавка; мастерская; уроки труда (столярное, слесарное дело)
 **Plural:** *shops*
 **Countability:** countable
 **Contrast:** In American English 'shop' often means a workshop; for a place that sells things, 'store' is the usual word.
 
-A small store, or a place where things are made or repaired.
+Shop has 2 distinct senses.
+
+**1. A small store, or a place where things are made or repaired.** (магазин, лавка; мастерская)
 
 1. There's a little coffee *shop* next door.
 2. Repair *shops* line the road out of town.
 3. He took the car to a body *shop*.
+
+**2. A school class in which students learn woodworking or metalworking.** (уроки труда (столярное, слесарное дело))
+
+4. He built a birdhouse in *shop* last semester.
+5. *Shop* was the only class he looked forward to.
+6. The high school cut both *shop* and home economics.
 
 ---
 
@@ -1105,15 +1199,23 @@ A small place serving coffee, drinks and light food.
 ### diner
 
 **Pronunciation:** /ˈdaɪnər/ &middot; *DY-nur*
-**Русский:** придорожное кафе, закусочная
+**Русский:** придорожное кафе, закусочная; посетитель ресторана
 **Plural:** *diners*
 **Countability:** countable
 
-A small informal American restaurant serving simple food all day.
+Diner has 2 distinct senses.
+
+**1. A small informal American restaurant serving simple food all day.** (придорожное кафе, закусочная)
 
 1. We stopped at a *diner* for pancakes.
 2. Old chrome *diners* still line that stretch of highway.
 3. The *diner* has been there since 1954.
+
+**2. A person who is eating a meal in a restaurant.** (посетитель ресторана)
+
+4. *Diners* were asked to leave when the alarm went off.
+5. The waiter brought menus to the last two *diners*.
+6. Most *diners* order the special.
 
 ---
 
@@ -1196,15 +1298,35 @@ A truck fitted out as a kitchen that sells meals on the street.
 ### park
 
 **Pronunciation:** /pɑːrk/ &middot; *PARK*
-**Русский:** парк
+**Русский:** парк; режим парковки (P) в автоматической коробке; парк (промышленный, технологический), деловая зона; бейсбольный стадион
 **Plural:** *parks*
 **Countability:** countable
 
-A public area of grass and trees in a town for people to relax in.
+Park has 4 distinct senses.
+
+**1. A public area of grass and trees in a town for people to relax in.** (парк)
 
 1. We walk the dog in the *park* every morning.
 2. The city keeps up over sixty *parks*.
 3. The *park* has a pond and a bandstand.
+
+**2. The gear setting that keeps a car from rolling when it is stopped.** (режим парковки (P) в автоматической коробке)
+
+4. Put it in *park* before you get out.
+5. The car won't start unless it's in *park*.
+6. He shifted into *park* and killed the engine.
+
+**3. An area of land developed for one kind of business or industry.** (парк (промышленный, технологический), деловая зона)
+
+7. Her office is out in the business *park* by the airport.
+8. The city rezoned the land for an industrial *park*.
+9. The tech *park* has its own shuttle bus.
+
+**4. A baseball field together with the stands around it.** (бейсбольный стадион)
+
+10. He hit that one clean out of the *park*.
+11. It was a cold night at the *park*.
+12. Their new *park* seats forty thousand.
 
 ---
 
@@ -1354,15 +1476,23 @@ A sheet of canvas or metal stretched over a door or window for shade.
 ### pillar
 
 **Pronunciation:** /ˈpɪlər/ &middot; *PIH-lur*
-**Русский:** колонна, столб
+**Русский:** колонна, столб; опора, столп
 **Plural:** *pillars*
 **Countability:** countable
 
-A tall upright post that supports part of a building.
+Pillar has 2 distinct senses.
+
+**1. A tall upright post that supports part of a building.** (колонна, столб)
 
 1. A stone *pillar* holds up the corner of the porch.
 2. Six white *pillars* line the front of the courthouse.
 3. The *pillar* is cracked at the base.
+
+**2. A person or idea that something important depends on.** (опора, столп)
+
+4. She was a *pillar* of the community for forty years.
+5. Free speech is one of the *pillars* of democracy.
+6. Trust is the *pillar* the whole business rests on.
 
 ---
 
@@ -1424,14 +1554,22 @@ The number that identifies a postal area in the United States.
 ### housing
 
 **Pronunciation:** /ˈhaʊzɪŋ/ &middot; *HOW-zing*
-**Русский:** жильё, жилой фонд
+**Русский:** жильё, жилой фонд; корпус, кожух (механизма)
 **Countability:** uncountable
 
-Buildings for people to live in, considered together.
+Housing has 2 distinct senses.
+
+**1. Buildings for people to live in, considered together.** (жильё, жилой фонд)
 
 1. Affordable *housing* is scarce in this city.
 2. The town approved *housing* for two hundred families.
 3. Student *housing* fills up by April.
+
+**2. A hard cover that holds and protects a machine or a moving part.** (корпус, кожух (механизма))
+
+4. The pump's plastic *housing* had cracked.
+5. Water got inside the *housing* and shorted out the motor.
+6. The bearing sits in a steel *housing*.
 
 ---
 
@@ -1467,31 +1605,59 @@ A building and its land as a countable unit, or ownership and possessions in gen
 ### lot
 
 **Pronunciation:** /lɑːt/ &middot; *LAHT*
-**Русский:** участок земли
+**Русский:** участок земли; много, масса; лот (на аукционе); участь, доля, судьба
 **Plural:** *lots*
 **Countability:** countable
 
-A marked-off piece of land, especially one meant to be built on.
+Lot has 4 distinct senses.
+
+**1. A marked-off piece of land, especially one meant to be built on.** (участок земли)
 
 1. They bought an empty *lot* on the corner.
 2. Three *lots* on this street are still for sale.
 3. Kids play ball in the vacant *lot*.
+
+**2. A large number or amount of something.** (много, масса)
+
+4. A *lot* of people showed up early.
+5. That's a *lot* to ask of a ten-year-old.
+6. We learned *lots* about the neighborhood that summer.
+
+**3. An item or group of items sold together at an auction.** (лот (на аукционе))
+
+7. *Lot* 42 is a set of silver spoons.
+8. The first three *lots* sold in under a minute.
+9. She bid on a *lot* of old postcards.
+
+**4. A person's situation or fate in life.** (участь, доля, судьба)
+
+10. He accepted his *lot* without complaining.
+11. Education improved the *lot* of the whole family.
+12. It is the *lot* of every parent to worry.
 
 ---
 
 ### site
 
 **Pronunciation:** /saɪt/ &middot; *SYT*
-**Русский:** участок, площадка (строительная)
+**Русский:** участок, площадка (строительная); сайт
 **Plural:** *sites*
 **Countability:** countable
 **Contrast:** Sounds exactly like 'sight' and 'cite'.
 
-A piece of ground where something is built or where something happens.
+Site has 2 distinct senses.
+
+**1. A piece of ground where something is built or where something happens.** (участок, площадка (строительная))
 
 1. Hard hats are required on the construction *site*.
 2. The city inspected all four building *sites*.
 3. This is the *site* of the old train station.
+
+**2. A place on the internet where a person or company keeps its pages.** (сайт)
+
+4. Their *site* has been down all morning.
+5. You can order tickets on the theater's *site*.
+6. He blocks news *sites* while he's working.
 
 ---
 
@@ -1745,16 +1911,24 @@ An area of land split into lots and built up with similar new houses.
 ### atrium
 
 **Pronunciation:** /ˈeɪtriəm/ &middot; *AY-tree-um*
-**Русский:** атриум (крытый внутренний двор)
+**Русский:** атриум (крытый внутренний двор); предсердие
 **Plural:** *atriums*
 **Countability:** countable
 **Contrast:** Plural is 'atriums' or, in formal writing, the Latin 'atria'.
 
-A tall open space inside a building, usually with a glass roof.
+Atrium has 2 distinct senses.
+
+**1. A tall open space inside a building, usually with a glass roof.** (атриум (крытый внутренний двор))
 
 1. Trees grow in the hotel's *atrium*.
 2. Both office towers have six-story *atriums*.
 3. The *atrium* fills with light in the afternoon.
+
+**2. One of the two upper chambers of the heart.** (предсердие)
+
+4. Blood enters the right *atrium* from the veins.
+5. The scan showed a small hole between the *atria*.
+6. The left *atrium* pushes blood into the ventricle.
 
 ---
 
@@ -1807,14 +1981,22 @@ A window set into a roof to let daylight in.
 ### siding
 
 **Pronunciation:** /ˈsaɪdɪŋ/ &middot; *SY-ding*
-**Русский:** сайдинг, наружная обшивка стен
+**Русский:** сайдинг, наружная обшивка стен; запасный путь, разъезд
 **Countability:** uncountable
 
-The boards or panels covering the outside walls of a house.
+Siding has 2 distinct senses.
+
+**1. The boards or panels covering the outside walls of a house.** (сайдинг, наружная обшивка стен)
 
 1. The hail cracked the vinyl *siding*.
 2. They're replacing the *siding* on the whole house.
 3. Peeling *siding* makes the place look abandoned.
+
+**2. A short track beside a railroad's main line where cars can be parked or passed.** (запасный путь, разъезд)
+
+4. The freight train pulled onto a *siding* to let us by.
+5. Old boxcars sat rusting on a weedy *siding*.
+6. The mill had its own *siding* for loading lumber.
 
 ---
 

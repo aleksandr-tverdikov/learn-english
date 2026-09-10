@@ -6,14 +6,58 @@
       "term": "court",
       "ipa": "/kɔːrt/",
       "respell": "KORT",
-      "meaning": "The place where a judge decides legal cases, or the body of officials who decide them. ---",
+      "meaning": "Court has 3 distinct senses.",
       "examples": [
         "The case goes to court on Monday.",
         "She spent two days in court as a witness.",
-        "Higher courts have already ruled on this question."
+        "Higher courts have already ruled on this question.",
+        "The kids were shooting baskets on the court behind the school.",
+        "Both tennis courts were booked all afternoon.",
+        "He's the fastest player on the court.",
+        "The young poet spent two years at court.",
+        "Rumors moved through the court faster than the news did.",
+        "European courts copied French fashion for a century."
       ],
-      "senses": [],
-      "русский": "суд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place where a judge decides legal cases, or the body of officials who decide them",
+          "body": [
+            "(суд)"
+          ],
+          "examples": [
+            "The case goes to court on Monday.",
+            "She spent two days in court as a witness.",
+            "Higher courts have already ruled on this question."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A marked area where games such as tennis or basketball are played",
+          "body": [
+            "(корт, площадка (для игры))"
+          ],
+          "examples": [
+            "The kids were shooting baskets on the court behind the school.",
+            "Both tennis courts were booked all afternoon.",
+            "He's the fastest player on the court."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The household and officials surrounding a king or queen",
+          "body": [
+            "(двор (королевский))",
+            "---"
+          ],
+          "examples": [
+            "The young poet spent two years at court.",
+            "Rumors moved through the court faster than the news did.",
+            "European courts copied French fashion for a century."
+          ]
+        }
+      ],
+      "русский": "суд; корт, площадка (для игры); двор (королевский)",
       "plural": "courts",
       "countability": "countable"
     },
@@ -112,14 +156,43 @@
       "term": "counsel",
       "ipa": "/ˈkaʊnsəl/",
       "respell": "KOWN-suhl",
-      "meaning": "The lawyer or lawyers representing someone in a legal matter. ---",
+      "meaning": "Counsel has 2 distinct senses.",
       "examples": [
         "Counsel for the defense objected.",
         "He has the right to speak with counsel.",
-        "Opposing counsel asked for a delay."
+        "Opposing counsel asked for a delay.",
+        "He offered a few words of quiet counsel before the interview.",
+        "She kept her own counsel until the vote was over.",
+        "The pastor's counsel carried the family through a hard year."
       ],
-      "senses": [],
-      "русский": "адвокат (сторона в суде)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lawyer or lawyers representing someone in a legal matter",
+          "body": [
+            "(адвокат (сторона в суде))"
+          ],
+          "examples": [
+            "Counsel for the defense objected.",
+            "He has the right to speak with counsel.",
+            "Opposing counsel asked for a delay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Advice, especially serious advice given after careful thought",
+          "body": [
+            "(совет, наставление)",
+            "---"
+          ],
+          "examples": [
+            "He offered a few words of quiet counsel before the interview.",
+            "She kept her own counsel until the vote was over.",
+            "The pastor's counsel carried the family through a hard year."
+          ]
+        }
+      ],
+      "русский": "адвокат (сторона в суде); совет, наставление",
       "countability": "uncountable",
       "contrast": "Sounds exactly like council, a group of elected officials — different word, different spelling."
     },
@@ -246,14 +319,43 @@
       "term": "hearing",
       "ipa": "/ˈhɪrɪŋ/",
       "respell": "HEER-ing",
-      "meaning": "A meeting in court or before officials where evidence and arguments are heard. ---",
+      "meaning": "Hearing has 2 distinct senses.",
       "examples": [
         "The hearing is set for the tenth.",
         "She testified at a Senate hearing.",
-        "Two hearings were postponed."
+        "Two hearings were postponed.",
+        "My grandfather's hearing isn't what it used to be.",
+        "Years of loud concerts damaged his hearing.",
+        "She lost the hearing in one ear after the infection."
       ],
-      "senses": [],
-      "русский": "слушание (в суде)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meeting in court or before officials where evidence and arguments are heard",
+          "body": [
+            "(слушание (в суде))"
+          ],
+          "examples": [
+            "The hearing is set for the tenth.",
+            "She testified at a Senate hearing.",
+            "Two hearings were postponed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to hear",
+          "body": [
+            "(слух)",
+            "---"
+          ],
+          "examples": [
+            "My grandfather's hearing isn't what it used to be.",
+            "Years of loud concerts damaged his hearing.",
+            "She lost the hearing in one ear after the infection."
+          ]
+        }
+      ],
+      "русский": "слушание (в суде); слух",
       "plural": "hearings",
       "countability": "countable"
     },
@@ -261,14 +363,73 @@
       "term": "case",
       "ipa": "/keɪs/",
       "respell": "KAYS",
-      "meaning": "A matter investigated by police or decided in a court. ---",
+      "meaning": "Case has 4 distinct senses.",
       "examples": [
         "The judge threw the case out.",
         "Detectives reopened the case last year.",
-        "She handles about forty cases a month."
+        "She handles about forty cases a month.",
+        "He snapped the guitar back into its case.",
+        "I dropped my phone, but the case saved it.",
+        "They carried in a case of bottled water.",
+        "The county reported forty new cases of flu.",
+        "It turned out to be a mild case of food poisoning.",
+        "Doctors traced the first case to a traveler.",
+        "In that case, we should leave early.",
+        "This is a classic case of bad timing.",
+        "There are cases where the machine simply stops working."
       ],
-      "senses": [],
-      "русский": "дело (судебное, следственное)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A matter investigated by police or decided in a court",
+          "body": [
+            "(дело (судебное, следственное))"
+          ],
+          "examples": [
+            "The judge threw the case out.",
+            "Detectives reopened the case last year.",
+            "She handles about forty cases a month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A container or box made to hold and protect something",
+          "body": [
+            "(футляр, чехол; ящик)"
+          ],
+          "examples": [
+            "He snapped the guitar back into its case.",
+            "I dropped my phone, but the case saved it.",
+            "They carried in a case of bottled water."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One person or animal that has a particular disease or injury",
+          "body": [
+            "(случай заболевания)"
+          ],
+          "examples": [
+            "The county reported forty new cases of flu.",
+            "It turned out to be a mild case of food poisoning.",
+            "Doctors traced the first case to a traveler."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular situation or example of something",
+          "body": [
+            "(случай, пример)",
+            "---"
+          ],
+          "examples": [
+            "In that case, we should leave early.",
+            "This is a classic case of bad timing.",
+            "There are cases where the machine simply stops working."
+          ]
+        }
+      ],
+      "русский": "дело (судебное, следственное); футляр, чехол; ящик; случай заболевания; случай, пример",
       "plural": "cases",
       "countability": "countable"
     },
@@ -276,14 +437,43 @@
       "term": "verdict",
       "ipa": "/ˈvɜːrdɪkt/",
       "respell": "VUR-dikt",
-      "meaning": "The decision a jury or judge reaches about guilt or liability. ---",
+      "meaning": "Verdict has 2 distinct senses.",
       "examples": [
         "The jury reached a verdict in four hours.",
         "The verdict came back not guilty.",
-        "Both verdicts were appealed."
+        "Both verdicts were appealed.",
+        "So what's your verdict on the new restaurant?",
+        "The critics' verdict was harsh.",
+        "The verdict on the phone is that the battery is weak."
       ],
-      "senses": [],
-      "русский": "вердикт, решение присяжных",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The decision a jury or judge reaches about guilt or liability",
+          "body": [
+            "(вердикт, решение присяжных)"
+          ],
+          "examples": [
+            "The jury reached a verdict in four hours.",
+            "The verdict came back not guilty.",
+            "Both verdicts were appealed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An opinion or judgment reached after trying or examining something",
+          "body": [
+            "(мнение, оценка, приговор (перен.))",
+            "---"
+          ],
+          "examples": [
+            "So what's your verdict on the new restaurant?",
+            "The critics' verdict was harsh.",
+            "The verdict on the phone is that the battery is weak."
+          ]
+        }
+      ],
+      "русский": "вердикт, решение присяжных; мнение, оценка, приговор (перен.)",
       "plural": "verdicts",
       "countability": "countable"
     },
@@ -307,14 +497,58 @@
       "term": "appeal",
       "ipa": "/əˈpiːl/",
       "respell": "uh-PEEL",
-      "meaning": "A request that a higher court review and change a decision. ---",
+      "meaning": "Appeal has 3 distinct senses.",
       "examples": [
         "Her lawyers filed an appeal the next morning.",
         "The appeal was denied.",
-        "He has two appeals still pending."
+        "He has two appeals still pending.",
+        "The shelter put out an appeal for winter coats.",
+        "Their appeal raised forty thousand dollars in a week.",
+        "Police made a televised appeal for witnesses.",
+        "The show has broad appeal across age groups.",
+        "I never understood the appeal of camping.",
+        "The car's appeal is that anyone can fix it."
       ],
-      "senses": [],
-      "русский": "апелляция, обжалование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A request that a higher court review and change a decision",
+          "body": [
+            "(апелляция, обжалование)"
+          ],
+          "examples": [
+            "Her lawyers filed an appeal the next morning.",
+            "The appeal was denied.",
+            "He has two appeals still pending."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An urgent public request for money or help",
+          "body": [
+            "(призыв, обращение (за помощью))"
+          ],
+          "examples": [
+            "The shelter put out an appeal for winter coats.",
+            "Their appeal raised forty thousand dollars in a week.",
+            "Police made a televised appeal for witnesses."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The quality that makes something or someone attractive or interesting",
+          "body": [
+            "(привлекательность, притягательность)",
+            "---"
+          ],
+          "examples": [
+            "The show has broad appeal across age groups.",
+            "I never understood the appeal of camping.",
+            "The car's appeal is that anyone can fix it."
+          ]
+        }
+      ],
+      "русский": "апелляция, обжалование; призыв, обращение (за помощью); привлекательность, притягательность",
       "plural": "appeals",
       "countability": "countable"
     },
@@ -397,14 +631,43 @@
       "term": "plea",
       "ipa": "/pliː/",
       "respell": "PLEE",
-      "meaning": "The answer an accused person gives in court to a charge. ---",
+      "meaning": "Plea has 2 distinct senses.",
       "examples": [
         "He entered a plea of not guilty.",
         "The judge accepted her plea.",
-        "Most pleas are worked out before trial."
+        "Most pleas are worked out before trial.",
+        "The family made a public plea for information.",
+        "He ignored her pleas to slow down.",
+        "The shelter issued a plea for winter coats."
       ],
-      "senses": [],
-      "русский": "заявление о признании или непризнании вины",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The answer an accused person gives in court to a charge",
+          "body": [
+            "(заявление о признании или непризнании вины)"
+          ],
+          "examples": [
+            "He entered a plea of not guilty.",
+            "The judge accepted her plea.",
+            "Most pleas are worked out before trial."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An urgent emotional request for help",
+          "body": [
+            "(мольба, призыв)",
+            "---"
+          ],
+          "examples": [
+            "The family made a public plea for information.",
+            "He ignored her pleas to slow down.",
+            "The shelter issued a plea for winter coats."
+          ]
+        }
+      ],
+      "русский": "заявление о признании или непризнании вины; мольба, призыв",
       "plural": "pleas",
       "countability": "countable"
     },
@@ -790,14 +1053,58 @@
       "term": "right",
       "ipa": "/raɪt/",
       "respell": "RYT",
-      "meaning": "Something the law allows or guarantees you to have or do. ---",
+      "meaning": "Right has 3 distinct senses.",
       "examples": [
         "You have the right to remain silent.",
         "Tenants have the right to a habitable apartment.",
-        "The officer read him his rights."
+        "The officer read him his rights.",
+        "Take a right at the second light.",
+        "The bakery is on your right.",
+        "He looked to the right before pulling out.",
+        "The bill drew fire from the right.",
+        "She's well to the right of her own party.",
+        "Voters on the right stayed home."
       ],
-      "senses": [],
-      "русский": "право (законное)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something the law allows or guarantees you to have or do",
+          "body": [
+            "(право (законное))"
+          ],
+          "examples": [
+            "You have the right to remain silent.",
+            "Tenants have the right to a habitable apartment.",
+            "The officer read him his rights."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The side or direction opposite the left",
+          "body": [
+            "(правая сторона; поворот направо)"
+          ],
+          "examples": [
+            "Take a right at the second light.",
+            "The bakery is on your right.",
+            "He looked to the right before pulling out."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The conservative side in politics",
+          "body": [
+            "(правые, правый политический фланг)",
+            "---"
+          ],
+          "examples": [
+            "The bill drew fire from the right.",
+            "She's well to the right of her own party.",
+            "Voters on the right stayed home."
+          ]
+        }
+      ],
+      "русский": "право (законное); правая сторона; поворот направо; правые, правый политический фланг",
       "plural": "rights",
       "countability": "countable",
       "contrast": "Sounds exactly like write and rite."
@@ -980,14 +1287,43 @@
       "term": "clause",
       "ipa": "/klɔːz/",
       "respell": "KLAWZ",
-      "meaning": "A separate numbered part of a contract or law. ---",
+      "meaning": "Clause has 2 distinct senses.",
       "examples": [
         "There's a clause about early termination.",
         "Read the arbitration clause carefully.",
-        "Two clauses contradict each other."
+        "Two clauses contradict each other.",
+        "This sentence has a main clause and a relative clause.",
+        "Put a comma before the second clause.",
+        "Learners often join two clauses without a conjunction."
       ],
-      "senses": [],
-      "русский": "пункт, статья (договора)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A separate numbered part of a contract or law",
+          "body": [
+            "(пункт, статья (договора))"
+          ],
+          "examples": [
+            "There's a clause about early termination.",
+            "Read the arbitration clause carefully.",
+            "Two clauses contradict each other."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of words with its own subject and verb that forms part of a sentence",
+          "body": [
+            "(клауза, часть сложного предложения)",
+            "---"
+          ],
+          "examples": [
+            "This sentence has a main clause and a relative clause.",
+            "Put a comma before the second clause.",
+            "Learners often join two clauses without a conjunction."
+          ]
+        }
+      ],
+      "русский": "пункт, статья (договора); клауза, часть сложного предложения",
       "plural": "clauses",
       "countability": "countable"
     },
@@ -995,14 +1331,43 @@
       "term": "deed",
       "ipa": "/diːd/",
       "respell": "DEED",
-      "meaning": "The legal document that shows who owns a piece of property. ---",
+      "meaning": "Deed has 2 distinct senses.",
       "examples": [
         "The deed is in both their names.",
         "He couldn't find the deed to the house.",
-        "The old deeds are kept at the county office."
+        "The old deeds are kept at the county office.",
+        "She was honored for her good deeds in the community.",
+        "He is remembered for one brave deed.",
+        "Words matter less than deeds."
       ],
-      "senses": [],
-      "русский": "документ о праве собственности (на недвижимость)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal document that shows who owns a piece of property",
+          "body": [
+            "(документ о праве собственности (на недвижимость))"
+          ],
+          "examples": [
+            "The deed is in both their names.",
+            "He couldn't find the deed to the house.",
+            "The old deeds are kept at the county office."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that someone does, especially something notable",
+          "body": [
+            "(поступок, деяние)",
+            "---"
+          ],
+          "examples": [
+            "She was honored for her good deeds in the community.",
+            "He is remembered for one brave deed.",
+            "Words matter less than deeds."
+          ]
+        }
+      ],
+      "русский": "документ о праве собственности (на недвижимость); поступок, деяние",
       "plural": "deeds",
       "countability": "countable"
     },
@@ -1010,14 +1375,58 @@
       "term": "will",
       "ipa": "/wɪl/",
       "respell": "WIL",
-      "meaning": "A legal document saying who gets your property after you die. ---",
+      "meaning": "Will has 3 distinct senses.",
       "examples": [
         "She left the house to her nephew in her will.",
         "He died without a will.",
-        "Both wills were signed the same afternoon."
+        "Both wills were signed the same afternoon.",
+        "She has the will to finish whatever she starts.",
+        "After the accident he lost the will to live.",
+        "It takes real will to train that early every day.",
+        "The senator said he was following the will of the voters.",
+        "She was kept there against her will.",
+        "The board imposed its will on the whole department."
       ],
-      "senses": [],
-      "русский": "завещание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A legal document saying who gets your property after you die",
+          "body": [
+            "(завещание)"
+          ],
+          "examples": [
+            "She left the house to her nephew in her will.",
+            "He died without a will.",
+            "Both wills were signed the same afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The power of the mind to decide on something and keep going",
+          "body": [
+            "(воля, сила воли)"
+          ],
+          "examples": [
+            "She has the will to finish whatever she starts.",
+            "After the accident he lost the will to live.",
+            "It takes real will to train that early every day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "What a person or a group wants to happen",
+          "body": [
+            "(воля, желание (чья-либо воля))",
+            "---"
+          ],
+          "examples": [
+            "The senator said he was following the will of the voters.",
+            "She was kept there against her will.",
+            "The board imposed its will on the whole department."
+          ]
+        }
+      ],
+      "русский": "завещание; воля, сила воли; воля, желание (чья-либо воля)",
       "plural": "wills",
       "countability": "countable",
       "contrast": "Spelled and said exactly like the verb will; only context shows it is a document."
@@ -1117,14 +1526,43 @@
       "term": "offense",
       "ipa": "/əˈfɛns/",
       "respell": "uh-FENSS",
-      "meaning": "An act that breaks a law or rule. ---",
+      "meaning": "Offense has 2 distinct senses.",
       "examples": [
         "It was his first offense.",
         "Driving without insurance is a serious offense here.",
-        "Repeat offenses carry heavier penalties."
+        "Repeat offenses carry heavier penalties.",
+        "No offense, but that shirt doesn't match those pants.",
+        "She took offense at being left off the invitation list.",
+        "I meant no offense by the question."
       ],
-      "senses": [],
-      "русский": "правонарушение, проступок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act that breaks a law or rule",
+          "body": [
+            "(правонарушение, проступок)"
+          ],
+          "examples": [
+            "It was his first offense.",
+            "Driving without insurance is a serious offense here.",
+            "Repeat offenses carry heavier penalties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Annoyance or hurt feelings caused by something rude",
+          "body": [
+            "(обида, оскорблённое чувство)",
+            "---"
+          ],
+          "examples": [
+            "No offense, but that shirt doesn't match those pants.",
+            "She took offense at being left off the invitation list.",
+            "I meant no offense by the question."
+          ]
+        }
+      ],
+      "русский": "правонарушение, проступок; обида, оскорблённое чувство",
       "plural": "offenses",
       "countability": "countable",
       "contrast": "American spelling is offense; the British write offence."
@@ -1541,14 +1979,43 @@
       "term": "riot",
       "ipa": "/ˈraɪət/",
       "respell": "RY-uht",
-      "meaning": "Violent public disorder by a large group of people. ---",
+      "meaning": "Riot has 2 distinct senses.",
       "examples": [
         "A riot broke out after the verdict.",
         "Police in riot gear moved in to stop the riot.",
-        "The riots lasted three nights."
+        "The riots lasted three nights.",
+        "Your uncle is a riot at parties.",
+        "That movie was a riot from start to finish.",
+        "The bloopers at the end are a total riot."
       ],
-      "senses": [],
-      "русский": "массовые беспорядки, бунт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Violent public disorder by a large group of people",
+          "body": [
+            "(массовые беспорядки, бунт)"
+          ],
+          "examples": [
+            "A riot broke out after the verdict.",
+            "Police in riot gear moved in to stop the riot.",
+            "The riots lasted three nights."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone or something extremely funny, in informal speech",
+          "body": [
+            "(умора, что-то очень смешное)",
+            "---"
+          ],
+          "examples": [
+            "Your uncle is a riot at parties.",
+            "That movie was a riot from start to finish.",
+            "The bloopers at the end are a total riot."
+          ]
+        }
+      ],
+      "русский": "массовые беспорядки, бунт; умора, что-то очень смешное",
       "plural": "riots",
       "countability": "countable"
     },
@@ -1600,14 +2067,43 @@
       "term": "breach",
       "ipa": "/briːtʃ/",
       "respell": "BREECH",
-      "meaning": "A failure to keep to a contract, law, or duty. ---",
+      "meaning": "Breach has 2 distinct senses.",
       "examples": [
         "They sued for breach of contract.",
         "The leak was a serious breach of security.",
-        "Repeated breaches ended the partnership."
+        "Repeated breaches ended the partnership.",
+        "Floodwater poured through a breach in the levee.",
+        "Soldiers pushed through the breach in the city wall.",
+        "Crews worked all night to close the breach."
       ],
-      "senses": [],
-      "русский": "нарушение (договора, обязательства)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A failure to keep to a contract, law, or duty",
+          "body": [
+            "(нарушение (договора, обязательства))"
+          ],
+          "examples": [
+            "They sued for breach of contract.",
+            "The leak was a serious breach of security.",
+            "Repeated breaches ended the partnership."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gap or hole torn in a wall, dam, or other barrier",
+          "body": [
+            "(пролом, брешь)",
+            "---"
+          ],
+          "examples": [
+            "Floodwater poured through a breach in the levee.",
+            "Soldiers pushed through the breach in the city wall.",
+            "Crews worked all night to close the breach."
+          ]
+        }
+      ],
+      "русский": "нарушение (договора, обязательства); пролом, брешь",
       "plural": "breaches",
       "countability": "countable",
       "contrast": "Sounds exactly like breech, and one vowel away from beach."
@@ -1733,14 +2229,43 @@
       "term": "killer",
       "ipa": "/ˈkɪlər/",
       "respell": "KIL-ur",
-      "meaning": "A person or thing that causes death. ---",
+      "meaning": "Killer has 2 distinct senses.",
       "examples": [
         "The killer left no fingerprints.",
         "Police believe the same killer is responsible for both deaths.",
-        "Serial killers are rarer than television suggests."
+        "Serial killers are rarer than television suggests.",
+        "That last hill was a killer.",
+        "The final exam was a real killer.",
+        "Their new album is a killer."
       ],
-      "senses": [],
-      "русский": "убийца",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or thing that causes death",
+          "body": [
+            "(убийца)"
+          ],
+          "examples": [
+            "The killer left no fingerprints.",
+            "Police believe the same killer is responsible for both deaths.",
+            "Serial killers are rarer than television suggests."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal word for something extremely hard, exhausting, or impressive",
+          "body": [
+            "(нечто убойное (очень трудное или очень крутое))",
+            "---"
+          ],
+          "examples": [
+            "That last hill was a killer.",
+            "The final exam was a real killer.",
+            "Their new album is a killer."
+          ]
+        }
+      ],
+      "русский": "убийца; нечто убойное (очень трудное или очень крутое)",
       "plural": "killers",
       "countability": "countable"
     },
@@ -1854,14 +2379,43 @@
       "term": "crook",
       "ipa": "/krʊk/",
       "respell": "KRUUK",
-      "meaning": "A dishonest person, especially a small-time criminal. ---",
+      "meaning": "Crook has 2 distinct senses.",
       "examples": [
         "The contractor turned out to be a crook.",
         "That whole outfit is run by crooks.",
-        "He called his landlord a crook to his face."
+        "He called his landlord a crook to his face.",
+        "She carried the baby in the crook of her arm.",
+        "He tucked the newspaper into the crook of his elbow.",
+        "A nest sat in the crook of two branches."
       ],
-      "senses": [],
-      "русский": "жулик, мошенник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dishonest person, especially a small-time criminal",
+          "body": [
+            "(жулик, мошенник)"
+          ],
+          "examples": [
+            "The contractor turned out to be a crook.",
+            "That whole outfit is run by crooks.",
+            "He called his landlord a crook to his face."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The inside of a bend, especially where the arm folds at the elbow",
+          "body": [
+            "(сгиб (локтя), изгиб)",
+            "---"
+          ],
+          "examples": [
+            "She carried the baby in the crook of her arm.",
+            "He tucked the newspaper into the crook of his elbow.",
+            "A nest sat in the crook of two branches."
+          ]
+        }
+      ],
+      "русский": "жулик, мошенник; сгиб (локтя), изгиб",
       "plural": "crooks",
       "countability": "countable"
     },
@@ -1884,14 +2438,43 @@
       "term": "warden",
       "ipa": "/ˈwɔːrdən/",
       "respell": "WOR-duhn",
-      "meaning": "The official in charge of a prison. ---",
+      "meaning": "Warden has 2 distinct senses.",
       "examples": [
         "The warden denied the request.",
         "A new warden took over in June.",
-        "Both wardens testified before the committee."
+        "Both wardens testified before the committee.",
+        "A game warden checked our fishing licenses at the boat ramp.",
+        "The warden fined him for shooting out of season.",
+        "Two wardens patrol the whole state forest."
       ],
-      "senses": [],
-      "русский": "начальник тюрьмы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The official in charge of a prison",
+          "body": [
+            "(начальник тюрьмы)"
+          ],
+          "examples": [
+            "The warden denied the request.",
+            "A new warden took over in June.",
+            "Both wardens testified before the committee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official who enforces hunting, fishing, and wildlife laws in an area",
+          "body": [
+            "(егерь, инспектор охраны природы)",
+            "---"
+          ],
+          "examples": [
+            "A game warden checked our fishing licenses at the boat ramp.",
+            "The warden fined him for shooting out of season.",
+            "Two wardens patrol the whole state forest."
+          ]
+        }
+      ],
+      "русский": "начальник тюрьмы; егерь, инспектор охраны природы",
       "plural": "wardens",
       "countability": "countable"
     },
@@ -1989,14 +2572,43 @@
       "term": "penalty",
       "ipa": "/ˈpɛnəlti/",
       "respell": "PEN-uhl-tee",
-      "meaning": "A punishment set by law for breaking a rule. ---",
+      "meaning": "Penalty has 2 distinct senses.",
       "examples": [
         "The penalty for a second offense is much steeper.",
         "There's a penalty for filing your taxes late.",
-        "Penalties range from a fine to five years in prison."
+        "Penalties range from a fine to five years in prison.",
+        "There's a penalty for taking the money out early.",
+        "Pay the bill by Friday to avoid a late penalty.",
+        "The contract has no penalty for canceling."
       ],
-      "senses": [],
-      "русский": "наказание, штрафная санкция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A punishment set by law for breaking a rule",
+          "body": [
+            "(наказание, штрафная санкция)"
+          ],
+          "examples": [
+            "The penalty for a second offense is much steeper.",
+            "There's a penalty for filing your taxes late.",
+            "Penalties range from a fine to five years in prison."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An extra charge you have to pay for paying late or breaking the terms of an agreement",
+          "body": [
+            "(неустойка, денежный штраф)",
+            "---"
+          ],
+          "examples": [
+            "There's a penalty for taking the money out early.",
+            "Pay the bill by Friday to avoid a late penalty.",
+            "The contract has no penalty for canceling."
+          ]
+        }
+      ],
+      "русский": "наказание, штрафная санкция; неустойка, денежный штраф",
       "plural": "penalties",
       "countability": "countable"
     },
@@ -2152,14 +2764,43 @@
       "term": "marshal",
       "ipa": "/ˈmɑːrʃəl/",
       "respell": "MAHR-shuhl",
-      "meaning": "A federal officer who transports prisoners, protects courts, and tracks fugitives. ---",
+      "meaning": "Marshal has 2 distinct senses.",
       "examples": [
         "A marshal escorted the witness into the building.",
         "Federal marshals arrested him at the airport.",
-        "The fire marshal shut the club down."
+        "The fire marshal shut the club down.",
+        "The fire marshal said the room could hold sixty people.",
+        "Marshals in orange vests kept the race course clear.",
+        "A retired astronaut was grand marshal of the parade."
       ],
-      "senses": [],
-      "русский": "маршал (федеральный судебный исполнитель)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A federal officer who transports prisoners, protects courts, and tracks fugitives",
+          "body": [
+            "(маршал (федеральный судебный исполнитель))"
+          ],
+          "examples": [
+            "A marshal escorted the witness into the building.",
+            "Federal marshals arrested him at the airport.",
+            "The fire marshal shut the club down."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official who directs people at an event or enforces safety rules",
+          "body": [
+            "(распорядитель; инспектор (пожарной безопасности))",
+            "---"
+          ],
+          "examples": [
+            "The fire marshal said the room could hold sixty people.",
+            "Marshals in orange vests kept the race course clear.",
+            "A retired astronaut was grand marshal of the parade."
+          ]
+        }
+      ],
+      "русский": "маршал (федеральный судебный исполнитель); распорядитель; инспектор (пожарной безопасности)",
       "plural": "marshals",
       "countability": "countable",
       "contrast": "Sounds like martial (as in martial arts); the officer is spelled marshal."
@@ -2168,14 +2809,43 @@
       "term": "siren",
       "ipa": "/ˈsaɪrən/",
       "respell": "SY-ruhn",
-      "meaning": "A device that makes a loud warning sound on a police car or ambulance. ---",
+      "meaning": "Siren has 2 distinct senses.",
       "examples": [
         "He turned on the siren and pulled into traffic.",
         "Sirens woke the whole block at two in the morning.",
-        "You could hear the siren from a mile off."
+        "You could hear the siren from a mile off.",
+        "The sailors plugged their ears against the sirens.",
+        "Easy money is a siren that has wrecked plenty of careers.",
+        "The novel's siren draws every man in the village to ruin."
       ],
-      "senses": [],
-      "русский": "сирена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that makes a loud warning sound on a police car or ambulance",
+          "body": [
+            "(сирена)"
+          ],
+          "examples": [
+            "He turned on the siren and pulled into traffic.",
+            "Sirens woke the whole block at two in the morning.",
+            "You could hear the siren from a mile off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A creature of myth whose beautiful singing lured sailors onto the rocks",
+          "body": [
+            "(сирена (мифическое существо); соблазнительница)",
+            "---"
+          ],
+          "examples": [
+            "The sailors plugged their ears against the sirens.",
+            "Easy money is a siren that has wrecked plenty of careers.",
+            "The novel's siren draws every man in the village to ruin."
+          ]
+        }
+      ],
+      "русский": "сирена; сирена (мифическое существо); соблазнительница",
       "plural": "sirens",
       "countability": "countable"
     },
@@ -2183,14 +2853,43 @@
       "term": "arrest",
       "ipa": "/əˈrɛst/",
       "respell": "uh-REST",
-      "meaning": "The act of taking someone into police custody. ---",
+      "meaning": "Arrest has 2 distinct senses.",
       "examples": [
         "The arrest was caught on a doorbell camera.",
         "He's under arrest for driving while intoxicated.",
-        "Police made four arrests that night."
+        "Police made four arrests that night.",
+        "He went into cardiac arrest on the flight.",
+        "The drug caused a temporary arrest of the tumor's growth.",
+        "Paramedics treated her for respiratory arrest."
       ],
-      "senses": [],
-      "русский": "арест, задержание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of taking someone into police custody",
+          "body": [
+            "(арест, задержание)"
+          ],
+          "examples": [
+            "The arrest was caught on a doorbell camera.",
+            "He's under arrest for driving while intoxicated.",
+            "Police made four arrests that night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden stop in the working of something, especially the heart",
+          "body": [
+            "(остановка (сердца), прекращение)",
+            "---"
+          ],
+          "examples": [
+            "He went into cardiac arrest on the flight.",
+            "The drug caused a temporary arrest of the tumor's growth.",
+            "Paramedics treated her for respiratory arrest."
+          ]
+        }
+      ],
+      "русский": "арест, задержание; остановка (сердца), прекращение",
       "plural": "arrests",
       "countability": "countable"
     },

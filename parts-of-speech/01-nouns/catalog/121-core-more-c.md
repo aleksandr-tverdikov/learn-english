@@ -566,15 +566,23 @@ The power or skill to do something.
 ### caper
 
 **Pronunciation:** /ˈkeɪpər/ &middot; *KAY-pur*
-**Русский:** каперс (маринованный бутон)
+**Русский:** каперс (маринованный бутон); авантюра, проделка
 **Plural:** *capers*
 **Countability:** countable
 
-A small pickled flower bud used to season food.
+Caper has 2 distinct senses.
+
+**1. A small pickled flower bud used to season food.** (каперс (маринованный бутон))
 
 1. Sprinkle a few *capers* over the fish before serving.
 2. The sauce needs lemon, butter, and *capers*.
 3. I bought a jar of *capers* for the recipe.
+
+**2. A playful adventure or a daring scheme, often a crime.** (авантюра, проделка)
+
+4. The movie is a lighthearted bank-robbery *caper*.
+5. Their midnight *caper* got them both grounded.
+6. Police unraveled the whole *caper* in a week.
 
 ---
 
@@ -891,14 +899,22 @@ The person whose name is on a credit card, bank card, or membership card.
 ### care
 
 **Pronunciation:** /kɛr/ &middot; *KAIR*
-**Русский:** забота, уход
+**Русский:** забота, уход; тревога, беспокойство
 **Countability:** uncountable
 
-The work of looking after someone or something, and the attention it takes.
+Care has 2 distinct senses.
+
+**1. The work of looking after someone or something, and the attention it takes.** (забота, уход)
 
 1. Her mother now needs full-time *care*.
 2. Handle the box with *care*.
 3. The dog has been in the shelter's *care* for a month.
+
+**2. A feeling of worry, or something that causes it.** (тревога, беспокойство)
+
+4. She has not a *care* in the world.
+5. He left his *cares* behind for a week at the lake.
+6. Money was the least of his *cares* that winter.
 
 ---
 
@@ -1338,15 +1354,23 @@ The relationship between a cause and the effect it produces.
 ### cause
 
 **Pronunciation:** /kɔːz/ &middot; *KAWZ*
-**Русский:** причина
+**Русский:** причина; дело, идея (за которую борются)
 **Plural:** *causes*
 **Countability:** countable
 
-The thing that makes something happen.
+Cause has 2 distinct senses.
+
+**1. The thing that makes something happen.** (причина)
 
 1. Investigators are still looking for the *cause* of the fire.
 2. Poor diet is a leading *cause* of heart disease.
 3. The two accidents had completely different *causes*.
+
+**2. An aim or principle that people work for and support.** (дело, идея (за которую борются))
+
+4. The bake sale raises money for a good *cause*.
+5. She gave twenty years of her life to the *cause*.
+6. Volunteers rallied to the *cause* overnight.
 
 ---
 
@@ -1847,15 +1871,23 @@ An adult who goes along with young people to supervise them.
 ### charade
 
 **Pronunciation:** /ʃəˈreɪd/ &middot; *shuh-RAYD*
-**Русский:** фарс, притворство
+**Русский:** фарс, притворство; шарады (игра)
 **Plural:** *charades*
 **Countability:** countable
 
-An obvious pretense that fools no one.
+Charade has 2 distinct senses.
+
+**1. An obvious pretense that fools no one.** (фарс, притворство)
 
 1. The whole negotiation was a *charade*.
 2. He kept up the *charade* for another week.
 3. Everyone saw through the *charade* right away.
+
+**2. A party game in which players act out a word or title without speaking, usually called charades.** (шарады (игра))
+
+4. We played *charades* after dinner.
+5. He acted out the whole movie title in *charades*.
+6. *Charades* works best with a big group.
 
 ---
 
@@ -2188,31 +2220,47 @@ A very small dog with big ears and short legs.
 ### chili
 
 **Pronunciation:** /ˈtʃɪli/ &middot; *CHIL-ee*
-**Русский:** чили (острое мясное рагу)
+**Русский:** чили (острое мясное рагу); перец чили
 **Countability:** uncountable
 **Contrast:** Americans write *chili*; the British write *chilli*. It sounds almost like *chilly*.
 
-A thick spicy stew of ground meat, hot peppers, and often beans.
+Chili has 2 distinct senses.
+
+**1. A thick spicy stew of ground meat, hot peppers, and often beans.** (чили (острое мясное рагу))
 
 1. He made a big pot of *chili* for the game.
 2. This *chili* is too hot for me.
 3. We had *chili* and cornbread for dinner.
+
+**2. A small hot pepper used to make food spicy.** (перец чили)
+
+4. Chop one *chili* and drop it in the pot.
+5. The sauce is made with dried *chilies*.
+6. He grows six kinds of *chilies* in the garden.
 
 ---
 
 ### chimera
 
 **Pronunciation:** /kaɪˈmɪrə/ &middot; *ky-MEER-uh*
-**Русский:** химера, несбыточная мечта
+**Русский:** химера, несбыточная мечта; химера (мифическое чудовище)
 **Plural:** *chimeras*
 **Countability:** countable
 **Contrast:** The 'ch' is pronounced /k/, as in *chorus*.
 
-A hope or idea that looks real but can never happen.
+Chimera has 2 distinct senses.
+
+**1. A hope or idea that looks real but can never happen.** (химера, несбыточная мечта)
 
 1. Lasting peace there may be a *chimera*.
 2. Critics called the plan a *chimera*.
 3. He chased one *chimera* after another.
+
+**2. A monster in Greek myth made from the parts of several animals.** (химера (мифическое чудовище))
+
+4. The vase shows a hero fighting a *chimera*.
+5. A *chimera* has a lion's head and a serpent's tail.
+6. *Chimeras* turn up all over ancient art.
 
 ---
 
@@ -2528,14 +2576,22 @@ A person who attends church regularly.
 ### churn
 
 **Pronunciation:** /tʃɜːrn/ &middot; *CHURN*
-**Русский:** текучка, отток (клиентов, кадров)
+**Русский:** текучка, отток (клиентов, кадров); маслобойка
 **Countability:** uncountable
 
-The rate at which customers or employees leave and are replaced.
+Churn has 2 distinct senses.
+
+**1. The rate at which customers or employees leave and are replaced.** (текучка, отток (клиентов, кадров))
 
 1. The company is fighting high customer *churn*.
 2. *Churn* among nurses has doubled since 2020.
 3. They track *churn* every quarter.
+
+**2. A container in which cream is beaten until it turns into butter.** (маслобойка)
+
+4. The farm museum has an old wooden *churn*.
+5. She turned the handle of the *churn* until butter formed.
+6. *Churns* like this one stood in every farm kitchen.
 
 ---
 
@@ -2647,15 +2703,23 @@ A small piece of burned coal or wood that is no longer flaming.
 ### cipher
 
 **Pronunciation:** /ˈsaɪfər/ &middot; *SY-fur*
-**Русский:** шифр
+**Русский:** шифр; загадочная личность, тёмная лошадка
 **Plural:** *ciphers*
 **Countability:** countable
 
-A system for writing a message in code.
+Cipher has 2 distinct senses.
+
+**1. A system for writing a message in code.** (шифр)
 
 1. The letters were written in a simple *cipher*.
 2. Codebreakers cracked the *cipher* in a week.
 3. Modern *ciphers* are almost impossible to break by hand.
+
+**2. A person whose thoughts and character stay a mystery to everyone.** (загадочная личность, тёмная лошадка)
+
+4. After ten years in office he is still a *cipher* to the public.
+5. Her co-workers found her a complete *cipher*.
+6. The novel's narrator remains a *cipher* until the last chapter.
 
 ---
 
@@ -3134,30 +3198,46 @@ A photograph or shot taken from very near the subject.
 ### closing
 
 **Pronunciation:** /ˈkloʊzɪŋ/ &middot; *KLOH-zing*
-**Русский:** оформление сделки (при покупке недвижимости)
+**Русский:** оформление сделки (при покупке недвижимости); закрытие (магазина, школы, дороги)
 **Plural:** *closings*
 **Countability:** countable
 
-The final meeting at which the sale of a house or property is completed.
+Closing has 2 distinct senses.
+
+**1. The final meeting at which the sale of a house or property is completed.** (оформление сделки (при покупке недвижимости))
 
 1. *Closing* is set for the fifteenth.
 2. We signed about thirty documents at the *closing*.
 3. *Closing* costs came to four thousand dollars.
+
+**2. The shutting down of a business, school, or road, for a time or for good.** (закрытие (магазина, школы, дороги))
+
+4. The station listed school *closings* all morning.
+5. The *closing* of the plant cost four hundred jobs.
+6. Store *closings* have left the mall half empty.
 
 ---
 
 ### closure
 
 **Pronunciation:** /ˈkloʊʒər/ &middot; *KLOH-zhur*
-**Русский:** закрытие (дороги, предприятия)
+**Русский:** закрытие (дороги, предприятия); чувство завершённости, душевное успокоение
 **Plural:** *closures*
 **Countability:** countable
 
-The shutting of a road, business, or facility, either for a time or for good.
+Closure has 2 distinct senses.
+
+**1. The shutting of a road, business, or facility, either for a time or for good.** (закрытие (дороги, предприятия))
 
 1. The storm caused road *closures* across the county.
 2. The plant *closure* will cost 400 jobs.
 3. Check the district website for school *closures*.
+
+**2. A feeling that a painful experience is finally finished.** (чувство завершённости, душевное успокоение)
+
+4. The verdict gave the family some *closure*.
+5. She wrote him a long letter just to get *closure*.
+6. There is no *closure* for parents whose child is never found.
 
 ---
 
@@ -3455,30 +3535,46 @@ The state of a group sticking together as a unit.
 ### cohort
 
 **Pronunciation:** /ˈkoʊhɔːrt/ &middot; *KOH-hort*
-**Русский:** группа, когорта
+**Русский:** группа, когорта; сообщник, приспешник
 **Plural:** *cohorts*
 **Countability:** countable
 
-A group of people who share something, especially the same age or starting year.
+Cohort has 2 distinct senses.
+
+**1. A group of people who share something, especially the same age or starting year.** (группа, когорта)
 
 1. The study followed a *cohort* of 5,000 nurses.
 2. This year's *cohort* of students is the largest yet.
 3. Both *cohorts* showed the same pattern.
+
+**2. A friend or supporter who helps someone, often in something questionable.** (сообщник, приспешник)
+
+4. The mayor and his *cohorts* were indicted last spring.
+5. He showed up with two *cohorts* from the old neighborhood.
+6. Her *cohorts* on the board backed the plan.
 
 ---
 
 ### coinage
 
 **Pronunciation:** /ˈkɔɪnɪdʒ/ &middot; *KOY-nij*
-**Русский:** новое слово, неологизм
+**Русский:** новое слово, неологизм; монеты, монетная система
 **Plural:** *coinages*
 **Countability:** countable
 
-A newly invented word or phrase.
+Coinage has 2 distinct senses.
+
+**1. A newly invented word or phrase.** (новое слово, неологизм)
 
 1. 'Selfie' is a recent *coinage*.
 2. The book is full of odd *coinages*.
 3. That term is a *coinage* of the 1990s.
+
+**2. Coins taken as a whole, or the system of coins a country uses.** (монеты, монетная система)
+
+4. Silver *coinage* disappeared from circulation.
+5. The country reformed its *coinage* in 1965.
+6. Gold *coinage* was common before paper money.
 
 ---
 
@@ -4138,14 +4234,22 @@ The act of hiding something or keeping it secret.
 ### conceit
 
 **Pronunciation:** /kənˈsiːt/ &middot; *kuhn-SEET*
-**Русский:** самомнение, тщеславие
+**Русский:** самомнение, тщеславие; художественный приём, замысел (лежащий в основе)
 **Countability:** uncountable
 
-Too high an opinion of yourself.
+Conceit has 2 distinct senses.
+
+**1. Too high an opinion of yourself.** (самомнение, тщеславие)
 
 1. His *conceit* makes him hard to work with.
 2. There's a streak of *conceit* in her writing.
 3. Fame did nothing to cure his *conceit*.
+
+**2. The central idea or unusual image on which a work of art is built.** (художественный приём, замысел (лежащий в основе))
+
+4. The whole film rests on one clever *conceit*.
+5. The novel's *conceit* is that the house tells the story.
+6. The poem builds on an old *conceit* comparing love to war.
 
 ---
 
@@ -4965,15 +5069,23 @@ Something you give or do to help a shared effort.
 ### control
 
 **Pronunciation:** /kənˈtroʊl/ &middot; *kuhn-TROHL*
-**Русский:** контроль, управление; органы управления
+**Русский:** контроль, управление; органы управления; контрольная группа, контроль (в опыте)
 **Plural:** *controls*
 **Countability:** both — countable and uncountable with different meanings
 
-Power over something, or the switches and levers used to operate a machine.
+Control has 2 distinct senses.
+
+**1. Power over something, or the switches and levers used to operate a machine.** (контроль, управление; органы управления)
 
 1. She lost *control* of the car on the ice.
 2. The pilot handed over the *controls*.
 3. Pest *control* costs us a fortune.
+
+**2. A person or group in an experiment that gets no treatment, used for comparison.** (контрольная группа, контроль (в опыте))
+
+4. Half the patients served as the *control*.
+5. The study had no proper *control*.
+6. The *controls* were given a sugar pill instead.
 
 ---
 
@@ -5548,16 +5660,24 @@ A noblewoman, or the wife of a count or an earl.
 ### country
 
 **Pronunciation:** /ˈkʌntri/ &middot; *KUN-tree*
-**Русский:** страна; сельская местность
+**Русский:** страна; сельская местность; кантри (музыкальный стиль)
 **Plural:** *countries*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** The first syllable is KUN, not KOWN, even though it is spelled *coun-*.
 
-A nation with its own government, or open land away from towns.
+Country has 2 distinct senses.
+
+**1. A nation with its own government, or open land away from towns.** (страна; сельская местность)
 
 1. She has visited eleven *countries*.
 2. They moved out to the *country* for the quiet.
 3. Which *country* issued your passport?
+
+**2. A style of American popular music that grew out of the rural South.** (кантри (музыкальный стиль))
+
+4. She only listens to *country* on long drives.
+5. The bar plays classic *country* on Friday nights.
+6. He moved to Nashville to write *country*.
 
 ---
 
@@ -5803,15 +5923,23 @@ An American gambling game played with two dice.
 ### crawl
 
 **Pronunciation:** /krɔːl/ &middot; *KRAWL*
-**Русский:** черепаший шаг, очень медленное движение
+**Русский:** черепаший шаг, очень медленное движение; кроль (стиль плавания)
 **Plural:** *crawls*
 **Countability:** countable
 
-A very slow rate of movement.
+Crawl has 2 distinct senses.
+
+**1. A very slow rate of movement.** (черепаший шаг, очень медленное движение)
 
 1. Traffic on the bridge slowed to a *crawl*.
 2. The line at the DMV moved at a *crawl*.
 3. By August the whole project had settled into a *crawl*.
+
+**2. A fast swimming stroke in which the arms reach over the head one after the other.** (кроль (стиль плавания))
+
+4. She swims the *crawl* better than anyone on the team.
+5. Coach spent the whole hour on our *crawl*.
+6. He switched from the breaststroke to the *crawl* on the last lap.
 
 ---
 
@@ -5922,15 +6050,23 @@ A long, low cabinet used for storage in a dining room or an office.
 ### creep
 
 **Pronunciation:** /kriːp/ &middot; *KREEP*
-**Русский:** мерзкий тип, неприятный человек
+**Русский:** мерзкий тип, неприятный человек; постепенное разрастание, сползание
 **Plural:** *creeps*
 **Countability:** countable
 
-An unpleasant person who makes other people uncomfortable.
+Creep has 2 distinct senses.
+
+**1. An unpleasant person who makes other people uncomfortable.** (мерзкий тип, неприятный человек)
 
 1. Some *creep* kept staring at us on the subway.
 2. Her ex turned out to be a total *creep*.
 3. The bar was full of *creeps* by midnight.
+
+**2. A slow, steady increase or spread that is hard to notice.** (постепенное разрастание, сползание)
+
+4. Managers watched the *creep* in shipping costs all year.
+5. The project suffered from scope *creep* from the first week.
+6. There's been a slow *creep* of ads into every part of the app.
 
 ---
 
@@ -6131,30 +6267,52 @@ The act of putting someone to death by fastening them to a cross.
 ### cruiser
 
 **Pronunciation:** /ˈkruːzər/ &middot; *KROO-zur*
-**Русский:** патрульный автомобиль (полиции)
+**Русский:** патрульный автомобиль (полиции); крейсер
 **Plural:** *cruisers*
 **Countability:** countable
 
-A police patrol car.
+Cruiser has 2 distinct senses.
+
+**1. A police patrol car.** (патрульный автомобиль (полиции))
 
 1. Two *cruisers* blocked the intersection.
 2. The officer put him in the back of the *cruiser*.
 3. A *cruiser* was parked outside all night.
+
+**2. A large fast warship, smaller than a battleship.** (крейсер)
+
+4. The *cruiser* left port with two destroyers.
+5. Three *cruisers* were lost in the battle.
+6. He served on a *cruiser* in the Pacific.
 
 ---
 
 ### crunch
 
 **Pronunciation:** /krʌntʃ/ &middot; *KRUNCH*
-**Русский:** хруст
+**Русский:** хруст; кризис, нехватка, напряжённый период; скручивание (упражнение на пресс)
 **Plural:** *crunches*
 **Countability:** countable
 
-The sharp sound of something hard being bitten or crushed.
+Crunch has 3 distinct senses.
+
+**1. The sharp sound of something hard being bitten or crushed.** (хруст)
 
 1. I love the *crunch* of a good apple.
 2. There was a satisfying *crunch* as she bit into the chip.
 3. We walked through the leaves just for the *crunch*.
+
+**2. A period of serious shortage or pressure.** (кризис, нехватка, напряжённый период)
+
+4. The budget *crunch* forced the school to cut music.
+5. We hire extra help during the holiday *crunch*.
+6. When it came to the *crunch*, nobody spoke up.
+
+**3. An exercise in which you curl your upper body up to tighten your stomach muscles.** (скручивание (упражнение на пресс))
+
+7. He does fifty *crunches* every morning.
+8. Start with one set of *crunches* and build from there.
+9. *Crunches* alone won't give you a flat stomach.
 
 ---
 
@@ -6250,15 +6408,23 @@ The final and highest point of a long process.
 ### culture
 
 **Pronunciation:** /ˈkʌltʃər/ &middot; *KUL-chur*
-**Русский:** культура
+**Русский:** культура; культура (бактерий), посев
 **Plural:** *cultures*
 **Countability:** both — countable and uncountable with different meanings
 
-The arts and ideas of a society, or one particular society's whole way of life.
+Culture has 2 distinct senses.
+
+**1. The arts and ideas of a society, or one particular society's whole way of life.** (культура)
 
 1. Museums are a big part of the city's *culture*.
 2. Both *cultures* put a high value on hospitality.
 3. The company has a strong *culture* of asking questions.
+
+**2. Bacteria or cells grown in a lab for study, or the test that grows them.** (культура (бактерий), посев)
+
+4. The doctor took a throat *culture* to check for strep.
+5. The *culture* came back negative.
+6. Cell *cultures* are kept at body temperature.
 
 ---
 
@@ -6425,15 +6591,23 @@ A reduction in spending, staff, or services.
 ### cutoff
 
 **Pronunciation:** /ˈkʌtɔːf/ &middot; *KUT-awf*
-**Русский:** предельный срок, граница отсечения
+**Русский:** предельный срок, граница отсечения; обрезанные джинсовые шорты
 **Plural:** *cutoffs*
 **Countability:** countable
 
-A fixed limit or deadline past which something no longer counts.
+Cutoff has 2 distinct senses.
+
+**1. A fixed limit or deadline past which something no longer counts.** (предельный срок, граница отсечения)
 
 1. The *cutoff* for applications is Friday at five.
 2. Anyone above the score *cutoff* gets a second interview.
 3. They moved both *cutoffs* back a week.
+
+**2. A pair of shorts made by cutting the legs off a pair of jeans.** (обрезанные джинсовые шорты)
+
+4. He spent the summer in *cutoffs* and a T-shirt.
+5. Her *cutoffs* were fraying at the hem.
+6. Somebody showed up to the wedding in *cutoffs*.
 
 ---
 

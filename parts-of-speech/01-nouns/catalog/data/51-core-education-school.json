@@ -172,14 +172,43 @@
       "term": "gym",
       "ipa": "/dʒɪm/",
       "respell": "JIM",
-      "meaning": "The large indoor room at a school used for sports and exercise classes. ---",
+      "meaning": "Gym has 2 distinct senses.",
       "examples": [
         "We have gym right after lunch.",
         "The basketball game is in the school gym.",
-        "Both gyms were built in the seventies."
+        "Both gyms were built in the seventies.",
+        "I go to the gym three mornings a week.",
+        "A new gym is opening downtown.",
+        "Both gyms near my office have pools."
       ],
-      "senses": [],
-      "русский": "спортзал, физкультура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The large indoor room at a school used for sports and exercise classes",
+          "body": [
+            "(спортзал, физкультура)"
+          ],
+          "examples": [
+            "We have gym right after lunch.",
+            "The basketball game is in the school gym.",
+            "Both gyms were built in the seventies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A club or business with exercise equipment that people pay to use",
+          "body": [
+            "(тренажёрный зал, фитнес-клуб)",
+            "---"
+          ],
+          "examples": [
+            "I go to the gym three mornings a week.",
+            "A new gym is opening downtown.",
+            "Both gyms near my office have pools."
+          ]
+        }
+      ],
+      "русский": "спортзал, физкультура; тренажёрный зал, фитнес-клуб",
       "plural": "gyms",
       "countability": "countable"
     },
@@ -552,14 +581,43 @@
       "term": "junior",
       "ipa": "/ˈdʒuːnjər/",
       "respell": "JOON-yur",
-      "meaning": "A student in the third year of high school or college. ---",
+      "meaning": "Junior has 2 distinct senses.",
       "examples": [
         "Juniors take the college entrance exam in the spring.",
         "She's a junior majoring in biology.",
-        "Most of my friends are juniors."
+        "Most of my friends are juniors.",
+        "My brother is my junior by four years.",
+        "He married a woman twenty years his junior.",
+        "The new supervisor turned out to be her junior by a decade."
       ],
-      "senses": [],
-      "русский": "третьекурсник; одиннадцатиклассник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A student in the third year of high school or college",
+          "body": [
+            "(третьекурсник; одиннадцатиклассник)"
+          ],
+          "examples": [
+            "Juniors take the college entrance exam in the spring.",
+            "She's a junior majoring in biology.",
+            "Most of my friends are juniors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who is younger than another person by a stated number of years",
+          "body": [
+            "(младший (по возрасту))",
+            "---"
+          ],
+          "examples": [
+            "My brother is my junior by four years.",
+            "He married a woman twenty years his junior.",
+            "The new supervisor turned out to be her junior by a decade."
+          ]
+        }
+      ],
+      "русский": "третьекурсник; одиннадцатиклассник; младший (по возрасту)",
       "plural": "juniors",
       "countability": "countable"
     },
@@ -567,14 +625,43 @@
       "term": "senior",
       "ipa": "/ˈsiːnjər/",
       "respell": "SEEN-yur",
-      "meaning": "A student in the final year of high school or college. ---",
+      "meaning": "Senior has 2 distinct senses.",
       "examples": [
         "The seniors get out of class early on Fridays.",
         "As a senior, he only needs three more credits.",
-        "Seniors have their own parking lot."
+        "Seniors have their own parking lot.",
+        "The theater offers a discount for seniors.",
+        "The center serves lunch to about eighty seniors a day.",
+        "Many seniors in the county live alone."
       ],
-      "senses": [],
-      "русский": "выпускник (последний год школы или вуза)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A student in the final year of high school or college",
+          "body": [
+            "(выпускник (последний год школы или вуза))"
+          ],
+          "examples": [
+            "The seniors get out of class early on Fridays.",
+            "As a senior, he only needs three more credits.",
+            "Seniors have their own parking lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An older person, especially one who has retired",
+          "body": [
+            "(пожилой человек, пенсионер)",
+            "---"
+          ],
+          "examples": [
+            "The theater offers a discount for seniors.",
+            "The center serves lunch to about eighty seniors a day.",
+            "Many seniors in the county live alone."
+          ]
+        }
+      ],
+      "русский": "выпускник (последний год школы или вуза); пожилой человек, пенсионер",
       "plural": "seniors",
       "countability": "countable"
     },
@@ -760,14 +847,43 @@
       "term": "biology",
       "ipa": "/baɪˈɑːlədʒi/",
       "respell": "by-AH-luh-jee",
-      "meaning": "The science of living things. ---",
+      "meaning": "Biology has 2 distinct senses.",
       "examples": [
         "We dissected a frog in biology.",
         "She majored in biology and went to medical school.",
-        "Biology meets in the lab on Tuesdays."
+        "Biology meets in the lab on Tuesdays.",
+        "Human biology has not changed much in ten thousand years.",
+        "Researchers are studying the biology of the tumor.",
+        "Her biology made the medication risky."
       ],
-      "senses": [],
-      "русский": "биология",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The science of living things",
+          "body": [
+            "(биология)"
+          ],
+          "examples": [
+            "We dissected a frog in biology.",
+            "She majored in biology and went to medical school.",
+            "Biology meets in the lab on Tuesdays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The physical makeup and workings of a living thing",
+          "body": [
+            "(физиология, устройство организма)",
+            "---"
+          ],
+          "examples": [
+            "Human biology has not changed much in ten thousand years.",
+            "Researchers are studying the biology of the tumor.",
+            "Her biology made the medication risky."
+          ]
+        }
+      ],
+      "русский": "биология; физиология, устройство организма",
       "countability": "uncountable"
     },
     {
@@ -1047,14 +1163,73 @@
       "term": "subject",
       "ipa": "/ˈsʌbdʒɪkt/",
       "respell": "SUB-jikt",
-      "meaning": "An area of knowledge studied at school, such as history or math. ---",
+      "meaning": "Subject has 4 distinct senses.",
       "examples": [
         "What's your favorite subject?",
         "History is the one subject he really likes.",
-        "She's strong in all her subjects."
+        "She's strong in all her subjects.",
+        "Let's change the subject.",
+        "The subject line of the email was blank.",
+        "Money is a touchy subject in that family.",
+        "The subjects were paid forty dollars each.",
+        "Half the subjects were given a placebo.",
+        "Every subject filled out a questionnaire first.",
+        "In \"the dog barked,\" the subject is \"the dog.\"",
+        "The verb has to agree with the subject.",
+        "Underline the subject of each sentence."
       ],
-      "senses": [],
-      "русский": "предмет (учебный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An area of knowledge studied at school, such as history or math",
+          "body": [
+            "(предмет (учебный))"
+          ],
+          "examples": [
+            "What's your favorite subject?",
+            "History is the one subject he really likes.",
+            "She's strong in all her subjects."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thing being talked or written about",
+          "body": [
+            "(тема, предмет (разговора))"
+          ],
+          "examples": [
+            "Let's change the subject.",
+            "The subject line of the email was blank.",
+            "Money is a touchy subject in that family."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person or animal taking part in an experiment or a study",
+          "body": [
+            "(испытуемый, объект исследования)"
+          ],
+          "examples": [
+            "The subjects were paid forty dollars each.",
+            "Half the subjects were given a placebo.",
+            "Every subject filled out a questionnaire first."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The word or phrase in a sentence that does the action of the verb",
+          "body": [
+            "(подлежащее)",
+            "---"
+          ],
+          "examples": [
+            "In \"the dog barked,\" the subject is \"the dog.\"",
+            "The verb has to agree with the subject.",
+            "Underline the subject of each sentence."
+          ]
+        }
+      ],
+      "русский": "предмет (учебный); тема, предмет (разговора); испытуемый, объект исследования; подлежащее",
       "plural": "subjects",
       "countability": "countable",
       "contrast": "Stress moves: the noun is SUB-jikt, the verb to subject is sub-JEKT."
@@ -1063,14 +1238,43 @@
       "term": "exam",
       "ipa": "/ɪɡˈzæm/",
       "respell": "ig-ZAM",
-      "meaning": "An important formal test of what a student has learned. ---",
+      "meaning": "Exam has 2 distinct senses.",
       "examples": [
         "The exam is on Thursday at nine.",
         "He passed the exam on his second try.",
-        "Exams are worth half the grade."
+        "Exams are worth half the grade.",
+        "Her yearly exam is on Tuesday morning.",
+        "The eye exam took about twenty minutes.",
+        "Every player needs a physical exam before the season."
       ],
-      "senses": [],
-      "русский": "экзамен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An important formal test of what a student has learned",
+          "body": [
+            "(экзамен)"
+          ],
+          "examples": [
+            "The exam is on Thursday at nine.",
+            "He passed the exam on his second try.",
+            "Exams are worth half the grade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A careful check of the body carried out by a doctor",
+          "body": [
+            "(осмотр, обследование (медицинское))",
+            "---"
+          ],
+          "examples": [
+            "Her yearly exam is on Tuesday morning.",
+            "The eye exam took about twenty minutes.",
+            "Every player needs a physical exam before the season."
+          ]
+        }
+      ],
+      "русский": "экзамен; осмотр, обследование (медицинское)",
       "plural": "exams",
       "countability": "countable"
     },
@@ -1122,14 +1326,43 @@
       "term": "quiz",
       "ipa": "/kwɪz/",
       "respell": "KWIZ",
-      "meaning": "A short test, usually on a small amount of material. ---",
+      "meaning": "Quiz has 2 distinct senses.",
       "examples": [
         "There's a vocabulary quiz every Monday.",
         "The quiz only took ten minutes.",
-        "He drops the two lowest quizzes."
+        "He drops the two lowest quizzes.",
+        "Our team wins the trivia quiz at the bar most Tuesdays.",
+        "He got on a TV quiz and won four thousand dollars.",
+        "The whole family plays a history quiz on long car trips."
       ],
-      "senses": [],
-      "русский": "проверочная работа, короткий тест",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short test, usually on a small amount of material",
+          "body": [
+            "(проверочная работа, короткий тест)"
+          ],
+          "examples": [
+            "There's a vocabulary quiz every Monday.",
+            "The quiz only took ten minutes.",
+            "He drops the two lowest quizzes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A game or contest in which people answer questions",
+          "body": [
+            "(викторина)",
+            "---"
+          ],
+          "examples": [
+            "Our team wins the trivia quiz at the bar most Tuesdays.",
+            "He got on a TV quiz and won four thousand dollars.",
+            "The whole family plays a history quiz on long car trips."
+          ]
+        }
+      ],
+      "русский": "проверочная работа, короткий тест; викторина",
       "plural": "quizzes",
       "countability": "countable",
       "contrast": "The plural doubles the z: quiz, quizzes."
@@ -1153,14 +1386,43 @@
       "term": "midterm",
       "ipa": "/ˈmɪdtɜːrm/",
       "respell": "MID-turm",
-      "meaning": "An exam given halfway through a course. ---",
+      "meaning": "Midterm has 2 distinct senses.",
       "examples": [
         "The midterm covers everything through chapter seven.",
         "I bombed the midterm but did well on the final.",
-        "Midterms start next week."
+        "Midterms start next week.",
+        "The party lost the House in the midterms.",
+        "Turnout is lower in a midterm than in a presidential year.",
+        "Both candidates are already campaigning for the midterms."
       ],
-      "senses": [],
-      "русский": "экзамен в середине семестра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An exam given halfway through a course",
+          "body": [
+            "(экзамен в середине семестра)"
+          ],
+          "examples": [
+            "The midterm covers everything through chapter seven.",
+            "I bombed the midterm but did well on the final.",
+            "Midterms start next week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A congressional election held halfway through a president's term",
+          "body": [
+            "(промежуточные выборы (в Конгресс))",
+            "---"
+          ],
+          "examples": [
+            "The party lost the House in the midterms.",
+            "Turnout is lower in a midterm than in a presidential year.",
+            "Both candidates are already campaigning for the midterms."
+          ]
+        }
+      ],
+      "русский": "экзамен в середине семестра; промежуточные выборы (в Конгресс)",
       "plural": "midterms",
       "countability": "countable"
     },
@@ -1168,14 +1430,43 @@
       "term": "final",
       "ipa": "/ˈfaɪnəl/",
       "respell": "FY-nuhl",
-      "meaning": "The exam at the end of a course. ---",
+      "meaning": "Final has 2 distinct senses.",
       "examples": [
         "My chemistry final is at eight in the morning.",
         "Finals week is the worst week of the semester.",
-        "She skipped the party to study for finals."
+        "She skipped the party to study for finals.",
+        "They lost in the final by two points.",
+        "The final is on Sunday night.",
+        "She has reached three finals this season."
       ],
-      "senses": [],
-      "русский": "итоговый экзамен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The exam at the end of a course",
+          "body": [
+            "(итоговый экзамен)"
+          ],
+          "examples": [
+            "My chemistry final is at eight in the morning.",
+            "Finals week is the worst week of the semester.",
+            "She skipped the party to study for finals."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The last game of a competition, which decides the winner",
+          "body": [
+            "(финал (соревнования))",
+            "---"
+          ],
+          "examples": [
+            "They lost in the final by two points.",
+            "The final is on Sunday night.",
+            "She has reached three finals this season."
+          ]
+        }
+      ],
+      "русский": "итоговый экзамен; финал (соревнования)",
       "plural": "finals",
       "countability": "countable"
     },
@@ -1183,14 +1474,73 @@
       "term": "grade",
       "ipa": "/ɡreɪd/",
       "respell": "GRAYD",
-      "meaning": "A letter or number showing how well a student did. ---",
+      "meaning": "Grade has 4 distinct senses.",
       "examples": [
         "She got a good grade on her essay.",
         "My grades went up this semester.",
-        "He needs a passing grade to graduate."
+        "He needs a passing grade to graduate.",
+        "My son is in the fourth grade.",
+        "She teaches second grade.",
+        "The younger grades eat lunch first.",
+        "This is the highest grade of maple syrup.",
+        "They used a cheaper grade of steel.",
+        "The two grades of gasoline differ by a few cents.",
+        "The truck slowed down on the steep grade.",
+        "There's a long grade just before the pass.",
+        "Loaded trains struggle on grades like that."
       ],
-      "senses": [],
-      "русский": "оценка; класс (год обучения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A letter or number showing how well a student did",
+          "body": [
+            "(оценка; класс (год обучения))"
+          ],
+          "examples": [
+            "She got a good grade on her essay.",
+            "My grades went up this semester.",
+            "He needs a passing grade to graduate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A year or level of school, counted from first to twelfth",
+          "body": [
+            "(класс (год обучения))"
+          ],
+          "examples": [
+            "My son is in the fourth grade.",
+            "She teaches second grade.",
+            "The younger grades eat lunch first."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A level of quality or rank within a range",
+          "body": [
+            "(сорт, категория, качество)"
+          ],
+          "examples": [
+            "This is the highest grade of maple syrup.",
+            "They used a cheaper grade of steel.",
+            "The two grades of gasoline differ by a few cents."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A slope in a road or a railroad track",
+          "body": [
+            "(уклон, подъём (дороги))",
+            "---"
+          ],
+          "examples": [
+            "The truck slowed down on the steep grade.",
+            "There's a long grade just before the pass.",
+            "Loaded trains struggle on grades like that."
+          ]
+        }
+      ],
+      "русский": "оценка; класс (год обучения); класс (год обучения); сорт, категория, качество; уклон, подъём (дороги)",
       "plural": "grades",
       "countability": "countable",
       "contrast": "American grade where the British say mark; grade also means a school year, as in fifth grade, where the British say year or form."
@@ -1363,14 +1713,43 @@
       "term": "answer",
       "ipa": "/ˈænsər/",
       "respell": "AN-sur",
-      "meaning": "What you say or write in reply to a question. ---",
+      "meaning": "Answer has 2 distinct senses.",
       "examples": [
         "Write your answer in the blank.",
         "I knew the answer but forgot it during the test.",
-        "The answers are in the back of the book."
+        "The answers are in the back of the book.",
+        "More prisons are not the answer to crime.",
+        "There is no easy answer to the housing shortage.",
+        "She thinks money is the answer to everything."
       ],
-      "senses": [],
-      "русский": "ответ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What you say or write in reply to a question",
+          "body": [
+            "(ответ)"
+          ],
+          "examples": [
+            "Write your answer in the blank.",
+            "I knew the answer but forgot it during the test.",
+            "The answers are in the back of the book."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of solving a problem or dealing with a difficulty",
+          "body": [
+            "(решение, выход (из положения))",
+            "---"
+          ],
+          "examples": [
+            "More prisons are not the answer to crime.",
+            "There is no easy answer to the housing shortage.",
+            "She thinks money is the answer to everything."
+          ]
+        }
+      ],
+      "русский": "ответ; решение, выход (из положения)",
       "plural": "answers",
       "countability": "countable",
       "contrast": "The w is silent: AN-sur."
@@ -1467,14 +1846,43 @@
       "term": "absence",
       "ipa": "/ˈæbsəns/",
       "respell": "AB-suhnss",
-      "meaning": "An occasion when someone is not at school or work. ---",
+      "meaning": "Absence has 2 distinct senses.",
       "examples": [
         "You need a note to excuse an absence.",
         "Three unexcused absences mean a phone call home.",
-        "Her long absence put her behind in every class."
+        "Her long absence put her behind in every class.",
+        "In the absence of any real evidence, the charges were dropped.",
+        "The absence of streetlights makes that road dangerous at night.",
+        "What struck me about the room was the absence of color."
       ],
-      "senses": [],
-      "русский": "отсутствие, пропуск занятия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An occasion when someone is not at school or work",
+          "body": [
+            "(отсутствие, пропуск занятия)"
+          ],
+          "examples": [
+            "You need a note to excuse an absence.",
+            "Three unexcused absences mean a phone call home.",
+            "Her long absence put her behind in every class."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fact that something is not there or does not exist",
+          "body": [
+            "(отсутствие (чего-л.), нехватка)",
+            "---"
+          ],
+          "examples": [
+            "In the absence of any real evidence, the charges were dropped.",
+            "The absence of streetlights makes that road dangerous at night.",
+            "What struck me about the room was the absence of color."
+          ]
+        }
+      ],
+      "русский": "отсутствие, пропуск занятия; отсутствие (чего-л.), нехватка",
       "plural": "absences",
       "countability": "countable"
     },
@@ -1586,14 +1994,43 @@
       "term": "major",
       "ipa": "/ˈmeɪdʒər/",
       "respell": "MAY-jur",
-      "meaning": "The main subject a college student studies for a degree. ---",
+      "meaning": "Major has 2 distinct senses.",
       "examples": [
         "What's your major?",
         "She changed her major twice.",
-        "Engineering and nursing are the most popular majors here."
+        "Engineering and nursing are the most popular majors here.",
+        "She was promoted to major last year.",
+        "The major briefed the unit at dawn.",
+        "Two majors signed the report."
       ],
-      "senses": [],
-      "русский": "основная специальность (в вузе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main subject a college student studies for a degree",
+          "body": [
+            "(основная специальность (в вузе))"
+          ],
+          "examples": [
+            "What's your major?",
+            "She changed her major twice.",
+            "Engineering and nursing are the most popular majors here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An army or air force officer ranking just above a captain",
+          "body": [
+            "(майор (воинское звание))",
+            "---"
+          ],
+          "examples": [
+            "She was promoted to major last year.",
+            "The major briefed the unit at dawn.",
+            "Two majors signed the report."
+          ]
+        }
+      ],
+      "русский": "основная специальность (в вузе); майор (воинское звание)",
       "plural": "majors",
       "countability": "countable"
     },
@@ -1601,14 +2038,43 @@
       "term": "minor",
       "ipa": "/ˈmaɪnər/",
       "respell": "MY-nur",
-      "meaning": "A second, smaller field of study alongside a college major. ---",
+      "meaning": "Minor has 2 distinct senses.",
       "examples": [
         "He's got a minor in Spanish.",
         "A minor takes about six classes.",
-        "The college offers over forty minors."
+        "The college offers over forty minors.",
+        "The bar was fined for serving a minor.",
+        "Both drivers were minors.",
+        "As a minor, she needed a parent's signature."
       ],
-      "senses": [],
-      "русский": "дополнительная специальность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A second, smaller field of study alongside a college major",
+          "body": [
+            "(дополнительная специальность)"
+          ],
+          "examples": [
+            "He's got a minor in Spanish.",
+            "A minor takes about six classes.",
+            "The college offers over forty minors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who is not yet legally an adult",
+          "body": [
+            "(несовершеннолетний)",
+            "---"
+          ],
+          "examples": [
+            "The bar was fined for serving a minor.",
+            "Both drivers were minors.",
+            "As a minor, she needed a parent's signature."
+          ]
+        }
+      ],
+      "русский": "дополнительная специальность; несовершеннолетний",
       "plural": "minors",
       "countability": "countable",
       "contrast": "Sounds exactly like miner, someone who digs in a mine."
@@ -1914,14 +2380,43 @@
       "term": "bell",
       "ipa": "/bɛl/",
       "respell": "BEL",
-      "meaning": "The sound that marks the beginning and end of a class period. ---",
+      "meaning": "Bell has 2 distinct senses.",
       "examples": [
         "The bell rang before I finished the last question.",
         "Stay seated until the bell.",
-        "The bells are two minutes fast."
+        "The bells are two minutes fast.",
+        "The church bells rang at noon.",
+        "He tied a small bell to the cat's collar.",
+        "A bell over the shop door jingled as we walked in."
       ],
-      "senses": [],
-      "русский": "звонок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sound that marks the beginning and end of a class period",
+          "body": [
+            "(звонок)"
+          ],
+          "examples": [
+            "The bell rang before I finished the last question.",
+            "Stay seated until the bell.",
+            "The bells are two minutes fast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow metal object that makes a ringing sound when it is struck",
+          "body": [
+            "(колокол, колокольчик)",
+            "---"
+          ],
+          "examples": [
+            "The church bells rang at noon.",
+            "He tied a small bell to the cat's collar.",
+            "A bell over the shop door jingled as we walked in."
+          ]
+        }
+      ],
+      "русский": "звонок; колокол, колокольчик",
       "plural": "bells",
       "countability": "countable"
     },
@@ -2019,14 +2514,88 @@
       "term": "club",
       "ipa": "/klʌb/",
       "respell": "KLUB",
-      "meaning": "A group of students who meet regularly to share an interest. ---",
+      "meaning": "Club has 5 distinct senses.",
       "examples": [
         "She joined the chess club.",
         "The Spanish club meets on Tuesdays.",
-        "Colleges like to see that you joined clubs."
+        "Colleges like to see that you joined clubs.",
+        "We danced at a club downtown until two in the morning.",
+        "The band plays small clubs around the city.",
+        "There's a line outside the club every Saturday.",
+        "He pulled a club out of the bag and lined up his shot.",
+        "You may carry fourteen clubs in a round.",
+        "She swung the club too hard and missed.",
+        "The guard carried a wooden club.",
+        "The protesters were driven back with clubs.",
+        "He grabbed a branch and used it as a club.",
+        "She led with the ace of clubs.",
+        "Clubs are trump this hand.",
+        "I was dealt three clubs and two hearts."
       ],
-      "senses": [],
-      "русский": "кружок, клуб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of students who meet regularly to share an interest",
+          "body": [
+            "(кружок, клуб)"
+          ],
+          "examples": [
+            "She joined the chess club.",
+            "The Spanish club meets on Tuesdays.",
+            "Colleges like to see that you joined clubs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place open late at night where people drink and dance to music",
+          "body": [
+            "(клуб, ночной клуб)"
+          ],
+          "examples": [
+            "We danced at a club downtown until two in the morning.",
+            "The band plays small clubs around the city.",
+            "There's a line outside the club every Saturday."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long stick with a shaped head, used to hit a golf ball",
+          "body": [
+            "(клюшка (для гольфа))"
+          ],
+          "examples": [
+            "He pulled a club out of the bag and lined up his shot.",
+            "You may carry fourteen clubs in a round.",
+            "She swung the club too hard and missed."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A thick heavy stick used as a weapon",
+          "body": [
+            "(дубина, дубинка)"
+          ],
+          "examples": [
+            "The guard carried a wooden club.",
+            "The protesters were driven back with clubs.",
+            "He grabbed a branch and used it as a club."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "One of the four suits in a deck of cards, marked with a black clover shape",
+          "body": [
+            "(трефы (масть))",
+            "---"
+          ],
+          "examples": [
+            "She led with the ace of clubs.",
+            "Clubs are trump this hand.",
+            "I was dealt three clubs and two hearts."
+          ]
+        }
+      ],
+      "русский": "кружок, клуб; клуб, ночной клуб; клюшка (для гольфа); дубина, дубинка; трефы (масть)",
       "plural": "clubs",
       "countability": "countable"
     },
@@ -2048,14 +2617,43 @@
       "term": "lesson",
       "ipa": "/ˈlɛsən/",
       "respell": "LES-uhn",
-      "meaning": "A period of teaching on one topic. ---",
+      "meaning": "Lesson has 2 distinct senses.",
       "examples": [
         "Today's lesson is about fractions.",
         "She takes piano lessons on Saturdays.",
-        "The lesson ran ten minutes long."
+        "The lesson ran ten minutes long.",
+        "Let that be a lesson to you.",
+        "The flood taught the town a hard lesson.",
+        "He learned his lesson about lending money to friends."
       ],
-      "senses": [],
-      "русский": "урок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of teaching on one topic",
+          "body": [
+            "(урок)"
+          ],
+          "examples": [
+            "Today's lesson is about fractions.",
+            "She takes piano lessons on Saturdays.",
+            "The lesson ran ten minutes long."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something useful that experience teaches you",
+          "body": [
+            "(урок (жизненный опыт))",
+            "---"
+          ],
+          "examples": [
+            "Let that be a lesson to you.",
+            "The flood taught the town a hard lesson.",
+            "He learned his lesson about lending money to friends."
+          ]
+        }
+      ],
+      "русский": "урок; урок (жизненный опыт)",
       "plural": "lessons",
       "countability": "countable",
       "contrast": "Sounds exactly like lessen, the verb meaning to reduce."
@@ -2079,14 +2677,58 @@
       "term": "chapter",
       "ipa": "/ˈtʃæptər/",
       "respell": "CHAP-tur",
-      "meaning": "One of the numbered parts a book is divided into. ---",
+      "meaning": "Chapter has 3 distinct senses.",
       "examples": [
         "Read chapter six for Thursday.",
         "The test covers the first four chapters.",
-        "Each chapter ends with review questions."
+        "Each chapter ends with review questions.",
+        "The local chapter meets on Tuesday nights.",
+        "She started a chapter of the club at her school.",
+        "Every chapter sends two delegates to the convention.",
+        "Moving west opened a new chapter for the family.",
+        "That was a dark chapter in the country's history.",
+        "She is closing this chapter and starting over."
       ],
-      "senses": [],
-      "русский": "глава",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the numbered parts a book is divided into",
+          "body": [
+            "(глава)"
+          ],
+          "examples": [
+            "Read chapter six for Thursday.",
+            "The test covers the first four chapters.",
+            "Each chapter ends with review questions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A local branch of a national club or organization",
+          "body": [
+            "(отделение (местное отделение организации))"
+          ],
+          "examples": [
+            "The local chapter meets on Tuesday nights.",
+            "She started a chapter of the club at her school.",
+            "Every chapter sends two delegates to the convention."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A distinct period in someone's life or in history",
+          "body": [
+            "(этап, глава (жизни))",
+            "---"
+          ],
+          "examples": [
+            "Moving west opened a new chapter for the family.",
+            "That was a dark chapter in the country's history.",
+            "She is closing this chapter and starting over."
+          ]
+        }
+      ],
+      "русский": "глава; отделение (местное отделение организации); этап, глава (жизни)",
       "plural": "chapters",
       "countability": "countable"
     },
@@ -2139,14 +2781,43 @@
       "term": "handout",
       "ipa": "/ˈhændaʊt/",
       "respell": "HAND-owt",
-      "meaning": "A printed sheet given to everyone in a class or meeting. ---",
+      "meaning": "Handout has 2 distinct senses.",
       "examples": [
         "The handout has the formulas on it.",
         "Grab a handout on your way in.",
-        "All the handouts are posted online too."
+        "All the handouts are posted online too.",
+        "He was too proud to take a handout.",
+        "The program is a hand up, not a handout.",
+        "Farmers said they wanted fair prices, not government handouts."
       ],
-      "senses": [],
-      "русский": "раздаточный материал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A printed sheet given to everyone in a class or meeting",
+          "body": [
+            "(раздаточный материал)"
+          ],
+          "examples": [
+            "The handout has the formulas on it.",
+            "Grab a handout on your way in.",
+            "All the handouts are posted online too."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money, food, or goods given free to someone in need",
+          "body": [
+            "(подачка, пособие)",
+            "---"
+          ],
+          "examples": [
+            "He was too proud to take a handout.",
+            "The program is a hand up, not a handout.",
+            "Farmers said they wanted fair prices, not government handouts."
+          ]
+        }
+      ],
+      "русский": "раздаточный материал; подачка, пособие",
       "plural": "handouts",
       "countability": "countable"
     },
@@ -2319,14 +2990,43 @@
       "term": "whistle",
       "ipa": "/ˈwɪsəl/",
       "respell": "WISS-uhl",
-      "meaning": "A small device blown to make a loud sound, used to get attention. ---",
+      "meaning": "Whistle has 2 distinct senses.",
       "examples": [
         "The gym teacher blew his whistle.",
         "She wears a whistle around her neck at recess.",
-        "You could hear the whistles from the field."
+        "You could hear the whistles from the field.",
+        "He let out a low whistle when he saw the price.",
+        "The whistle of the kettle woke everyone up.",
+        "We heard the train's whistle across the valley."
       ],
-      "senses": [],
-      "русский": "свисток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small device blown to make a loud sound, used to get attention",
+          "body": [
+            "(свисток)"
+          ],
+          "examples": [
+            "The gym teacher blew his whistle.",
+            "She wears a whistle around her neck at recess.",
+            "You could hear the whistles from the field."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The high clear sound made by blowing through your lips or by a device",
+          "body": [
+            "(свист)",
+            "---"
+          ],
+          "examples": [
+            "He let out a low whistle when he saw the price.",
+            "The whistle of the kettle woke everyone up.",
+            "We heard the train's whistle across the valley."
+          ]
+        }
+      ],
+      "русский": "свисток; свист",
       "plural": "whistles",
       "countability": "countable",
       "contrast": "The t is silent: WISS-uhl."
@@ -2452,14 +3152,43 @@
       "term": "lecture",
       "ipa": "/ˈlɛktʃər/",
       "respell": "LEK-chur",
-      "meaning": "A long talk given to teach a group of students. ---",
+      "meaning": "Lecture has 2 distinct senses.",
       "examples": [
         "The lecture lasted fifty minutes.",
         "I fell asleep during the lecture.",
-        "His lectures are posted as videos."
+        "His lectures are posted as videos.",
+        "I got a lecture from my dad about the car.",
+        "Spare me the lecture.",
+        "The coach gave the team a lecture about showing up late."
       ],
-      "senses": [],
-      "русский": "лекция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long talk given to teach a group of students",
+          "body": [
+            "(лекция)"
+          ],
+          "examples": [
+            "The lecture lasted fifty minutes.",
+            "I fell asleep during the lecture.",
+            "His lectures are posted as videos."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long scolding about how someone ought to behave",
+          "body": [
+            "(нотация, нравоучение)",
+            "---"
+          ],
+          "examples": [
+            "I got a lecture from my dad about the car.",
+            "Spare me the lecture.",
+            "The coach gave the team a lecture about showing up late."
+          ]
+        }
+      ],
+      "русский": "лекция; нотация, нравоучение",
       "plural": "lectures",
       "countability": "countable"
     },
@@ -2467,14 +3196,43 @@
       "term": "seminar",
       "ipa": "/ˈsɛmənɑːr/",
       "respell": "SEM-uh-nar",
-      "meaning": "A small class where students discuss a subject with a teacher. ---",
+      "meaning": "Seminar has 2 distinct senses.",
       "examples": [
         "The seminar has only twelve students.",
         "Everyone has to present once in the seminar.",
-        "She teaches two graduate seminars."
+        "She teaches two graduate seminars.",
+        "The bank runs a free seminar on buying your first home.",
+        "She flew to Dallas for a two-day sales seminar.",
+        "The seminar covers everything from taxes to insurance."
       ],
-      "senses": [],
-      "русский": "семинар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small class where students discuss a subject with a teacher",
+          "body": [
+            "(семинар)"
+          ],
+          "examples": [
+            "The seminar has only twelve students.",
+            "Everyone has to present once in the seminar.",
+            "She teaches two graduate seminars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A meeting at which a subject is taught or discussed, held for professionals or the public",
+          "body": [
+            "(семинар (обучающий), тренинг)",
+            "---"
+          ],
+          "examples": [
+            "The bank runs a free seminar on buying your first home.",
+            "She flew to Dallas for a two-day sales seminar.",
+            "The seminar covers everything from taxes to insurance."
+          ]
+        }
+      ],
+      "русский": "семинар; семинар (обучающий), тренинг",
       "plural": "seminars",
       "countability": "countable"
     },
@@ -2512,14 +3270,43 @@
       "term": "debate",
       "ipa": "/dɪˈbeɪt/",
       "respell": "dih-BAYT",
-      "meaning": "A formal argument in which two sides give opposing views. ---",
+      "meaning": "Debate has 2 distinct senses.",
       "examples": [
         "She joined the debate team her sophomore year.",
         "The debate was about school uniforms.",
-        "They won three debates in a row."
+        "They won three debates in a row.",
+        "There is still debate about how the fire started.",
+        "The proposal set off fierce debate among the neighbors.",
+        "Whether the law actually helped remains open to debate."
       ],
-      "senses": [],
-      "русский": "дебаты, спор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal argument in which two sides give opposing views",
+          "body": [
+            "(дебаты, спор)"
+          ],
+          "examples": [
+            "She joined the debate team her sophomore year.",
+            "The debate was about school uniforms.",
+            "They won three debates in a row."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "General discussion of a question that people disagree about",
+          "body": [
+            "(обсуждение, полемика)",
+            "---"
+          ],
+          "examples": [
+            "There is still debate about how the fire started.",
+            "The proposal set off fierce debate among the neighbors.",
+            "Whether the law actually helped remains open to debate."
+          ]
+        }
+      ],
+      "русский": "дебаты, спор; обсуждение, полемика",
       "plural": "debates",
       "countability": "countable"
     },

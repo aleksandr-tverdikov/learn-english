@@ -12,30 +12,46 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### chair
 
 **Pronunciation:** /tʃɛr/ &middot; *CHAIR*
-**Русский:** стул; кресло
+**Русский:** стул; кресло; председатель; заведующий кафедрой
 **Plural:** *chairs*
 **Countability:** countable
 
-A seat for one person, usually with a back and four legs.
+Chair has 2 distinct senses.
+
+**1. A seat for one person, usually with a back and four legs.** (стул; кресло)
 
 1. Pull up a *chair* and sit with us.
 2. We need two more *chairs* for the dinner table.
 3. He tipped his *chair* back and put his feet up.
+
+**2. The person who leads a meeting, a committee, or a university department.** (председатель; заведующий кафедрой)
+
+4. The *chair* called the meeting to order.
+5. She was elected *chair* of the school board.
+6. He is the *chair* of the biology department.
 
 ---
 
 ### table
 
 **Pronunciation:** /ˈteɪbəl/ &middot; *TAY-buhl*
-**Русский:** стол
+**Русский:** стол; таблица
 **Plural:** *tables*
 **Countability:** countable
 
-A piece of furniture with a flat top on legs.
+Table has 2 distinct senses.
+
+**1. A piece of furniture with a flat top on legs.** (стол)
 
 1. Set the *table* — dinner's almost ready.
 2. All the *tables* by the window were taken.
 3. She left her keys on the kitchen *table*.
+
+**2. A set of facts or numbers arranged in rows and columns.** (таблица)
+
+4. The report includes a *table* of monthly sales.
+5. Check the *table* on page 12 for the exact figures.
+6. She turned the raw data into a simple *table*.
 
 ---
 
@@ -179,15 +195,35 @@ Stool has 2 distinct senses.
 ### bench
 
 **Pronunciation:** /bɛntʃ/ &middot; *BENCH*
-**Русский:** скамейка, лавка
+**Русский:** скамейка, лавка; скамейка запасных; запасные игроки; судейское место; судьи (как институт); верстак, рабочий стол
 **Plural:** *benches*
 **Countability:** countable
 
-A long seat for several people, usually without a back.
+Bench has 4 distinct senses.
+
+**1. A long seat for several people, usually without a back.** (скамейка, лавка)
 
 1. We ate lunch on a *bench* in the park.
 2. The *benches* in the hallway were bolted to the wall.
 3. There's a storage *bench* by the back door for shoes.
+
+**2. The seat where substitute players wait, or the substitutes themselves.** (скамейка запасных; запасные игроки)
+
+4. He spent most of the season on the *bench*.
+5. Our *bench* is deeper than theirs this year.
+6. The coach cleared the *bench* in the last minute.
+
+**3. A judge's place in court, or judges taken as a group.** (судейское место; судьи (как институт))
+
+7. The lawyers were called to approach the *bench*.
+8. She served on the federal *bench* for twenty years.
+9. The *bench* has ruled against the city twice.
+
+**4. A long, sturdy table for working with tools or materials.** (верстак, рабочий стол)
+
+10. He clamped the board to the *bench* and started sanding.
+11. Her tools were laid out neatly on the *bench*.
+12. The engine sat on a *bench* at the back of the shop.
 
 ---
 
@@ -239,31 +275,53 @@ A low padded seat with no back, often used as a footrest.
 ### seat
 
 **Pronunciation:** /siːt/ &middot; *SEET*
-**Русский:** сиденье; место
+**Русский:** сиденье; место; место (в парламенте, совете), мандат; местопребывание, центр (власти)
 **Plural:** *seats*
 **Countability:** countable
 
-The part of a chair you sit on, or a place to sit.
+Seat has 3 distinct senses.
+
+**1. The part of a chair you sit on, or a place to sit.** (сиденье; место)
 
 1. The *seat* on that chair is starting to sag.
 2. Save me a *seat* if you get there first.
 3. All the good *seats* were gone by seven.
+
+**2. A place on an elected body or a board, held by one member.** (место (в парламенте, совете), мандат)
+
+4. She won a *seat* in the state senate.
+5. The party lost twelve *seats* in the last election.
+6. He holds a *seat* on the school board.
+
+**3. The place where a government, court, or organization is based.** (местопребывание, центр (власти))
+
+7. Washington is the *seat* of the federal government.
+8. The county *seat* is thirty miles north of here.
+9. For centuries the town was the *seat* of the local bishop.
 
 ---
 
 ### cushion
 
 **Pronunciation:** /ˈkʊʃən/ &middot; *KUUSH-uhn*
-**Русский:** диванная подушка
+**Русский:** диванная подушка; запас, подушка (финансовая)
 **Plural:** *cushions*
 **Countability:** countable
 **Contrast:** The u is short, as in *put*: KUUSH-uhn, not KOO-shun.
 
-A soft padded bag used to sit on or lean against.
+Cushion has 2 distinct senses.
+
+**1. A soft padded bag used to sit on or lean against.** (диванная подушка)
 
 1. I found the remote under a *cushion*.
 2. The couch *cushions* need to be flipped.
 3. She propped a *cushion* behind her back.
+
+**2. An amount kept in reserve as protection against trouble.** (запас, подушка (финансовая))
+
+4. Three months of savings gives you a *cushion*.
+5. A two-goal *cushion* let them relax in the fourth quarter.
+6. The budget has no *cushion* for surprises.
 
 ---
 
@@ -285,31 +343,59 @@ A tall chair with a tray where a baby sits to eat.
 ### console
 
 **Pronunciation:** /ˈkɑːnsoʊl/ &middot; *KAHN-sohl*
-**Русский:** консольный столик
+**Русский:** консольный столик; игровая приставка, консоль; пульт управления
 **Plural:** *consoles*
 **Countability:** countable
 **Contrast:** Stress shifts between the noun and the verb: the table is a KAHN-sohl, but to comfort someone is kuhn-SOHL.
 
-A narrow table that stands against a wall.
+Console has 3 distinct senses.
+
+**1. A narrow table that stands against a wall.** (консольный столик)
 
 1. We keep the mail in a basket on the hall *console*.
 2. A pair of lamps sits on the *console* behind the sofa.
 3. Both *consoles* were too deep for that narrow hallway.
+
+**2. A machine for playing video games on a television.** (игровая приставка, консоль)
+
+4. He got a new *console* for his birthday.
+5. The game runs on every major *console*.
+6. Both *consoles* sold out before Christmas.
+
+**3. A panel holding the controls and screens for a machine or system.** (пульт управления)
+
+7. The engineer sat at the mixing *console*.
+8. A red light came on across the *console*.
+9. Both *consoles* in the control room were manned.
 
 ---
 
 ### bed
 
 **Pronunciation:** /bɛd/ &middot; *BED*
-**Русский:** кровать, постель
+**Русский:** кровать, постель; грядка, клумба; дно, русло (реки, озера)
 **Plural:** *beds*
 **Countability:** countable
 
-A piece of furniture you sleep on.
+Bed has 3 distinct senses.
+
+**1. A piece of furniture you sleep on.** (кровать, постель)
 
 1. Make your *bed* before you leave.
 2. The room has two twin *beds*.
 3. I was still in *bed* when he called.
+
+**2. An area of ground prepared for growing plants.** (грядка, клумба)
+
+4. She planted tulips in the *bed* by the front door.
+5. The vegetable *beds* need weeding again.
+6. We built raised *beds* out of cedar boards.
+
+**3. The bottom of a river, lake, or sea.** (дно, русло (реки, озера))
+
+7. By August the river *bed* was nothing but cracked mud.
+8. The drought exposed the *bed* of the reservoir.
+9. The wreck still lies on the *bed* of the lake.
 
 ---
 
@@ -401,15 +487,23 @@ A light folding bed, easy to set up and put away.
 ### cradle
 
 **Pronunciation:** /ˈkreɪdəl/ &middot; *KRAY-duhl*
-**Русский:** колыбель, люлька
+**Русский:** колыбель, люлька; колыбель, место зарождения
 **Plural:** *cradles*
 **Countability:** countable
 
-A small bed for a newborn that rocks from side to side.
+Cradle has 2 distinct senses.
+
+**1. A small bed for a newborn that rocks from side to side.** (колыбель, люлька)
 
 1. The baby slept in a *cradle* beside their bed.
 2. He carved the *cradle* himself.
 3. Antique *cradles* sell for a lot at auction.
+
+**2. The place where something important began.** (колыбель, место зарождения)
+
+4. The town calls itself the *cradle* of American aviation.
+5. Historians treat that river valley as the *cradle* of civilization.
+6. The little club was the *cradle* of a dozen famous bands.
 
 ---
 
@@ -518,15 +612,23 @@ A large ornate cabinet for clothes or a television.
 ### vanity
 
 **Pronunciation:** /ˈvænəti/ &middot; *VAN-uh-tee*
-**Русский:** туалетный столик; тумба с раковиной
+**Русский:** туалетный столик; тумба с раковиной; тщеславие, самолюбование
 **Plural:** *vanities*
 **Countability:** countable
 
-A dressing table with a mirror, or a bathroom cabinet built under the sink.
+Vanity has 2 distinct senses.
+
+**1. A dressing table with a mirror, or a bathroom cabinet built under the sink.** (туалетный столик; тумба с раковиной)
 
 1. The bathroom *vanity* has a cracked countertop.
 2. She sat at the *vanity* doing her hair.
 3. We're replacing both *vanities* next month.
+
+**2. Too much pride in one's looks, abilities, or achievements.** (тщеславие, самолюбование)
+
+4. His *vanity* wouldn't let him wear glasses.
+5. The whole building project was an exercise in *vanity*.
+6. She has enough *vanity* to check every mirror she passes.
 
 ---
 
@@ -563,16 +665,24 @@ The removable cloth cover that slips over a pillow.
 ### blanket
 
 **Pronunciation:** /ˈblæŋkɪt/ &middot; *BLANG-kit*
-**Русский:** одеяло, плед
+**Русский:** одеяло, плед; покров, сплошной слой
 **Plural:** *blankets*
 **Countability:** countable
 **Contrast:** The *n* before *k* is pronounced /ŋ/, so it sounds like BLANG-kit, not BLAN-kit.
 
-A large piece of thick cloth used to keep warm in bed.
+Blanket has 2 distinct senses.
+
+**1. A large piece of thick cloth used to keep warm in bed.** (одеяло, плед)
 
 1. Grab an extra *blanket* — it's freezing tonight.
 2. There are wool *blankets* in the hall closet.
 3. She wrapped a *blanket* around her shoulders.
+
+**2. A thick layer of something that covers a wide area.** (покров, сплошной слой)
+
+4. A *blanket* of snow covered the fields.
+5. Fog lay like a *blanket* over the harbor.
+6. A *blanket* of ash settled on the parked cars.
 
 ---
 
@@ -840,15 +950,29 @@ Hanger has 2 distinct senses.
 ### hook
 
 **Pronunciation:** /hʊk/ &middot; *HUUK*
-**Русский:** крючок
+**Русский:** крючок; хук (боковой удар); цепляющий момент, «крючок» (в песне, рекламе)
 **Plural:** *hooks*
 **Countability:** countable
 
-A curved piece of metal or plastic for hanging things on.
+Hook has 3 distinct senses.
+
+**1. A curved piece of metal or plastic for hanging things on.** (крючок)
 
 1. Your keys are on the *hook* by the door.
 2. We screwed a row of *hooks* into the wall for backpacks.
 3. The robe hangs on a *hook* behind the bathroom door.
+
+**2. In boxing, a punch thrown in a curve with the arm bent.** (хук (боковой удар))
+
+4. He put his opponent down with a left *hook*.
+5. The champion's *hook* is his best punch.
+6. She slipped the *hook* and countered.
+
+**3. The catchy part of a song, or anything used to grab people's attention.** (цепляющий момент, «крючок» (в песне, рекламе))
+
+7. The *hook* gets stuck in your head after one listen.
+8. The ad needs a *hook* in the first three seconds.
+9. The story's *hook* is that the narrator is already dead.
 
 ---
 
@@ -901,30 +1025,46 @@ A loose piece of thick fabric covering part of a floor.
 ### mat
 
 **Pronunciation:** /mæt/ &middot; *MAT*
-**Русский:** коврик, подстилка
+**Русский:** коврик, подстилка; спутанный клок, сплетение
 **Plural:** *mats*
 **Countability:** countable
 
-A small flat piece of material placed on the floor for a specific purpose.
+Mat has 2 distinct senses.
+
+**1. A small flat piece of material placed on the floor for a specific purpose.** (коврик, подстилка)
 
 1. Wipe your feet on the *mat*.
 2. We keep a rubber *mat* in front of the sink.
 3. The bath *mats* are in the linen closet.
+
+**2. A thick tangled mass of hair, grass, or roots.** (спутанный клок, сплетение)
+
+4. The dog came home with *mats* of burrs in his fur.
+5. A *mat* of dead leaves covered the drain.
+6. Roots form a dense *mat* just under the soil.
 
 ---
 
 ### doormat
 
 **Pronunciation:** /ˈdɔːrmæt/ &middot; *DOR-mat*
-**Русский:** дверной коврик
+**Русский:** дверной коврик; тряпка, безвольный человек
 **Plural:** *doormats*
 **Countability:** countable
 
-A rough mat outside a door for cleaning your shoes.
+Doormat has 2 distinct senses.
+
+**1. A rough mat outside a door for cleaning your shoes.** (дверной коврик)
 
 1. The spare key is not under the *doormat* — that's the first place people look.
 2. Our *doormat* says GO AWAY, which the neighbors find hilarious.
 3. They sell those *doormats* at the hardware store.
+
+**2. Someone who lets other people treat them badly.** (тряпка, безвольный человек)
+
+4. Stop being a *doormat* and ask for a raise.
+5. He let his brother walk all over him like a *doormat*.
+6. She refused to be anyone's *doormat*.
 
 ---
 
@@ -1093,15 +1233,23 @@ Bulb has 2 distinct senses.
 ### fixture
 
 **Pronunciation:** /ˈfɪkstʃər/ &middot; *FIKS-chur*
-**Русский:** встроенный светильник; сантехнический прибор
+**Русский:** встроенный светильник; сантехнический прибор; неотъемлемая часть, завсегдатай
 **Plural:** *fixtures*
 **Countability:** countable
 
-Something attached permanently to a building, such as a light or a sink.
+Fixture has 2 distinct senses.
+
+**1. Something attached permanently to a building, such as a light or a sink.** (встроенный светильник; сантехнический прибор)
 
 1. The ceiling *fixture* is original to the house.
 2. We replaced all the bathroom *fixtures*.
 3. The price includes the appliances but not the light *fixtures*.
+
+**2. A person or thing that has been part of a place so long they seem permanent.** (неотъемлемая часть, завсегдатай)
+
+4. He's been a *fixture* at that diner for thirty years.
+5. The old clock is a *fixture* of the town square.
+6. Those two are *fixtures* on late-night television.
 
 ---
 
@@ -1155,16 +1303,36 @@ A picture made with paint, or the art of making such pictures.
 ### picture
 
 **Pronunciation:** /ˈpɪktʃər/ &middot; *PIK-chur*
-**Русский:** картина, изображение, фотография
+**Русский:** картина, изображение, фотография; картина, общая ситуация; изображение (на экране); фильм, кинокартина
 **Plural:** *pictures*
 **Countability:** countable
 **Contrast:** PIK-chur — do not confuse it with *pitcher* (PICH-ur), the jug you pour from.
 
-A painting, drawing, or photograph, especially one hung on a wall.
+Picture has 4 distinct senses.
+
+**1. A painting, drawing, or photograph, especially one hung on a wall.** (картина, изображение, фотография)
 
 1. That *picture* has been crooked for a year.
 2. The hallway is covered in *pictures* of the grandkids.
 3. He hung a *picture* to cover the hole in the plaster.
+
+**2. The general situation, seen as a whole.** (картина, общая ситуация)
+
+4. The report gives a bleak *picture* of the housing market.
+5. Try to keep the big *picture* in mind.
+6. The new numbers change the whole *picture*.
+
+**3. The image that appears on a television or a screen.** (изображение (на экране))
+
+7. The sound is fine but the *picture* keeps freezing.
+8. Move the antenna until the *picture* clears up.
+9. That old set still has a sharp *picture*.
+
+**4. A movie.** (фильм, кинокартина)
+
+10. It won best *picture* at the awards that year.
+11. He directed three *pictures* before he turned thirty.
+12. The studio releases about a dozen *pictures* a year.
 
 ---
 

@@ -129,14 +129,58 @@
       "term": "item",
       "ipa": "/ˈaɪtəm/",
       "respell": "EYE-tum",
-      "meaning": "One single thing among the things being bought or sold. ---",
+      "meaning": "Item has 3 distinct senses.",
       "examples": [
         "That lane is for ten items or fewer.",
         "Each item is rung up separately.",
-        "The last item on my list was coffee."
+        "The last item on my list was coffee.",
+        "There was a small item about the fire on page six.",
+        "The station ran a two-minute item on the flood.",
+        "She reads the business items first.",
+        "Everyone at work knows they're an item.",
+        "The two of them became an item over the summer.",
+        "Are those two an item now?"
       ],
-      "senses": [],
-      "русский": "товар, предмет, позиция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One single thing among the things being bought or sold",
+          "body": [
+            "(товар, предмет, позиция)"
+          ],
+          "examples": [
+            "That lane is for ten items or fewer.",
+            "Each item is rung up separately.",
+            "The last item on my list was coffee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short piece of news in a paper or a broadcast",
+          "body": [
+            "(заметка, новостное сообщение)"
+          ],
+          "examples": [
+            "There was a small item about the fire on page six.",
+            "The station ran a two-minute item on the flood.",
+            "She reads the business items first."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Two people who are dating each other (informal)",
+          "body": [
+            "(пара (о влюблённых, разг.))",
+            "---"
+          ],
+          "examples": [
+            "Everyone at work knows they're an item.",
+            "The two of them became an item over the summer.",
+            "Are those two an item now?"
+          ]
+        }
+      ],
+      "русский": "товар, предмет, позиция; заметка, новостное сообщение; пара (о влюблённых, разг.)",
       "plural": "items",
       "countability": "countable"
     },
@@ -1136,14 +1180,43 @@
       "term": "seller",
       "ipa": "/ˈsɛlər/",
       "respell": "SEL-ur",
-      "meaning": "The person or business offering something for sale. ---",
+      "meaning": "Seller has 2 distinct senses.",
       "examples": [
         "The seller shipped it the same day.",
         "Some sellers on that site have no reviews.",
-        "I messaged the seller about the scratch on the lens."
+        "I messaged the seller about the scratch on the lens.",
+        "That jacket is our best seller.",
+        "The plain black mug turned out to be a big seller.",
+        "Cookbooks are steady sellers around the holidays."
       ],
-      "senses": [],
-      "русский": "продавец (сторона сделки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person or business offering something for sale",
+          "body": [
+            "(продавец (сторона сделки))"
+          ],
+          "examples": [
+            "The seller shipped it the same day.",
+            "Some sellers on that site have no reviews.",
+            "I messaged the seller about the scratch on the lens."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A product that sells well",
+          "body": [
+            "(ходовой товар)",
+            "---"
+          ],
+          "examples": [
+            "That jacket is our best seller.",
+            "The plain black mug turned out to be a big seller.",
+            "Cookbooks are steady sellers around the holidays."
+          ]
+        }
+      ],
+      "русский": "продавец (сторона сделки); ходовой товар",
       "plural": "sellers",
       "countability": "countable",
       "contrast": "Sounds exactly like 'cellar', the room under a house."

@@ -89,15 +89,23 @@ A smaller dish served alongside the main one.
 ### special
 
 **Pronunciation:** /ˈspɛʃəl/ &middot; *SPEH-shul*
-**Русский:** блюдо дня, спецпредложение
+**Русский:** блюдо дня, спецпредложение; специальный выпуск (телепередачи)
 **Plural:** *specials*
 **Countability:** countable
 
-A dish a restaurant offers on a particular day, often at a lower price.
+Special has 2 distinct senses.
+
+**1. A dish a restaurant offers on a particular day, often at a lower price.** (блюдо дня, спецпредложение)
 
 1. Tonight's *special* is blackened catfish.
 2. Let me tell you about our *specials*.
 3. The lunch *special* comes with soup and a drink.
+
+**2. A television program made as a single show outside the regular schedule.** (специальный выпуск (телепередачи))
+
+4. The network aired a two-hour holiday *special*.
+5. Her stand-up *special* comes out next month.
+6. We watch the same Christmas *special* every year.
 
 ---
 
@@ -242,15 +250,23 @@ The desire to eat.
 ### hunger
 
 **Pronunciation:** /ˈhʌŋɡər/ &middot; *HUNG-gur*
-**Русский:** голод
+**Русский:** голод; жажда, сильное стремление (к чему-л.)
 **Countability:** uncountable
 **Contrast:** Uncountable: you feel hunger, but you have an appetite.
 
-The uncomfortable feeling of needing food.
+Hunger has 2 distinct senses.
+
+**1. The uncomfortable feeling of needing food.** (голод)
 
 1. A handful of nuts took the edge off my *hunger*.
 2. *Hunger* makes everything taste better.
 3. She ate out of *hunger*, not out of pleasure.
+
+**2. A strong desire for something.** (жажда, сильное стремление (к чему-л.))
+
+4. She has a real *hunger* for success.
+5. His *hunger* to win made him a hard teammate.
+6. There's a *hunger* for honest reporting right now.
 
 ---
 
@@ -1028,16 +1044,24 @@ Someone who books a table and never comes.
 ### queue
 
 **Pronunciation:** /kjuː/ &middot; *KYOO*
-**Русский:** очередь
+**Русский:** очередь; очередь (заданий), список отложенного
 **Plural:** *queues*
 **Countability:** countable
 **Contrast:** Americans normally say 'line'; queue sounds British — and only the first letter is pronounced.
 
-A line of people waiting their turn.
+Queue has 2 distinct senses.
+
+**1. A line of people waiting their turn.** (очередь)
 
 1. There was a *queue* out the door and around the corner.
 2. We joined the *queue* for the buffet.
 3. The *queues* move fast once they open the second register.
+
+**2. A list of items waiting to be handled by a computer or saved to use later.** (очередь (заданий), список отложенного)
+
+4. Your document is third in the print *queue*.
+5. I added the movie to my *queue* and forgot about it.
+6. Support tickets sit in a *queue* until someone picks them up.
 
 ---
 
@@ -1073,16 +1097,24 @@ The fee a restaurant charges for opening wine you brought yourself.
 ### patron
 
 **Pronunciation:** /ˈpeɪtrən/ &middot; *PAY-trun*
-**Русский:** посетитель, клиент (заведения)
+**Русский:** посетитель, клиент (заведения); меценат, покровитель, спонсор
 **Plural:** *patrons*
 **Countability:** countable
 **Contrast:** Said PAY-trun in American English, with the stress on the first syllable.
 
-A customer of a restaurant, bar, or shop.
+Patron has 2 distinct senses.
+
+**1. A customer of a restaurant, bar, or shop.** (посетитель, клиент (заведения))
 
 1. *Patrons* must be twenty-one to sit at the bar.
 2. A regular *patron* complained about the music.
 3. The sign asks *patrons* to wait to be seated.
+
+**2. Someone who gives money to support an artist, a museum, or a cause.** (меценат, покровитель, спонсор)
+
+4. The museum thanked its *patrons* at the opening.
+5. A wealthy *patron* paid for the composer's travels.
+6. *Patrons* who give over a thousand dollars get their names on the wall.
 
 ---
 
@@ -1577,16 +1609,24 @@ Illness caused by eating contaminated food.
 ### palate
 
 **Pronunciation:** /ˈpælət/ &middot; *PAL-uht*
-**Русский:** вкус, вкусовое восприятие; нёбо
+**Русский:** вкус, вкусовое восприятие; нёбо; нёбо
 **Plural:** *palates*
 **Countability:** countable
 **Contrast:** Sounds exactly like palette (an artist's board) and pallet (a wooden shipping platform).
 
-A person's sense of taste, or their ability to judge flavors.
+Palate has 2 distinct senses.
+
+**1. A person's sense of taste, or their ability to judge flavors.** (вкус, вкусовое восприятие; нёбо)
 
 1. He has a good *palate* for wine.
 2. The sorbet clears your *palate* between courses.
 3. A chef cooks for a lot of different *palates*.
+
+**2. The roof of the mouth.** (нёбо)
+
+4. The hot cheese burned my *palate*.
+5. The baby was born with a cleft *palate*.
+6. Press your tongue against your *palate* to make that sound.
 
 ---
 

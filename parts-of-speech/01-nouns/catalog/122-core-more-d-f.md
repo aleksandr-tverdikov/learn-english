@@ -811,15 +811,23 @@ A tropical disease spread by mosquitoes that causes fever and joint pain.
 ### denial
 
 **Pronunciation:** /dɪˈnaɪəl/ &middot; *dih-NY-ul*
-**Русский:** отрицание, опровержение
+**Русский:** отрицание, опровержение; отказ (в просьбе, в иске)
 **Plural:** *denials*
 **Countability:** countable
 
-A statement that something is not true, or a refusal to accept reality.
+Denial has 2 distinct senses.
+
+**1. A statement that something is not true, or a refusal to accept reality.** (отрицание, опровержение)
 
 1. The company issued a flat *denial* of the charges.
 2. Repeated *denials* did nothing to stop the rumors.
 3. He's still in *denial* about how sick he is.
+
+**2. A refusal to give someone something they have asked for.** (отказ (в просьбе, в иске))
+
+4. The insurance company sent a *denial* of her claim.
+5. He is appealing the *denial* of his visa.
+6. Repeated *denials* of parole kept him in prison.
 
 ---
 
@@ -1118,16 +1126,24 @@ A calm lack of emotional involvement in something.
 ### detail
 
 **Pronunciation:** /dɪˈteɪl/ &middot; *dih-TAYL*
-**Русский:** деталь, подробность
+**Русский:** деталь, подробность; наряд, группа охраны
 **Plural:** *details*
 **Countability:** countable
 **Contrast:** Many Americans stress the noun on the first syllable, DEE-tayl, but keep the verb as dih-TAYL.
 
-A small individual fact or feature that is part of something larger.
+Detail has 2 distinct senses.
+
+**1. A small individual fact or feature that is part of something larger.** (деталь, подробность)
 
 1. One *detail* in her story didn't add up.
 2. Send me the *details* by email tomorrow.
 3. He remembered every *detail* of that afternoon.
+
+**2. A small group of soldiers or police given a particular job.** (наряд, группа охраны)
+
+4. The governor's security *detail* checked the room first.
+5. A cleanup *detail* was sent down to the beach.
+6. Two officers on his *detail* were injured.
 
 ---
 
@@ -1455,15 +1471,23 @@ The spreading of something over a wider area.
 ### dig
 
 **Pronunciation:** /dɪɡ/ &middot; *DIG*
-**Русский:** археологические раскопки
+**Русский:** археологические раскопки; колкость, шпилька
 **Plural:** *digs*
 **Countability:** countable
 
-An organized excavation of a site to find ancient objects.
+Dig has 2 distinct senses.
+
+**1. An organized excavation of a site to find ancient objects.** (археологические раскопки)
 
 1. She spent the summer on a *dig* in southern Turkey.
 2. Students can volunteer at university *digs*.
 3. The *dig* turned up coins from the third century.
+
+**2. A remark meant to mock or criticize someone.** (колкость, шпилька)
+
+4. That comment was a *dig* at my cooking.
+5. He got in a few *digs* about my driving.
+6. She took a *dig* at her old boss during the interview.
 
 ---
 
@@ -1570,15 +1594,23 @@ The act of making a liquid weaker by adding water or another liquid.
 ### ding
 
 **Pronunciation:** /dɪŋ/ &middot; *DING*
-**Русский:** вмятина, небольшой скол
+**Русский:** вмятина, небольшой скол; звон, короткий сигнал
 **Plural:** *dings*
 **Countability:** countable
 
-A small dent or chip in a hard surface.
+Ding has 2 distinct senses.
+
+**1. A small dent or chip in a hard surface.** (вмятина, небольшой скол)
 
 1. There's a *ding* in the passenger door.
 2. The used car had a few *dings* but ran fine.
 3. A shopping cart left a *ding* in the fender.
+
+**2. A short, high ringing sound.** (звон, короткий сигнал)
+
+4. The elevator gave a soft *ding* at every floor.
+5. I heard the *ding* of the microwave from upstairs.
+6. Each message arrives with a little *ding*.
 
 ---
 
@@ -1660,15 +1692,35 @@ A poisonous chemical produced by some industrial processes and burning.
 ### dip
 
 **Pronunciation:** /dɪp/ &middot; *DIP*
-**Русский:** соус для макания, дип
+**Русский:** соус для макания, дип; короткое купание; спад, снижение; выемка, углубление (в дороге)
 **Plural:** *dips*
 **Countability:** countable, and uncountable as food
 
-A thick, soft sauce that you dip chips or vegetables into.
+Dip has 4 distinct senses.
+
+**1. A thick, soft sauce that you dip chips or vegetables into.** (соус для макания, дип)
 
 1. She brought chips and *dip* to the party.
 2. This *dip* has way too much garlic in it.
 3. The store sells four different *dips* in the deli case.
+
+**2. A short swim.** (короткое купание)
+
+4. We took a *dip* in the lake before dinner.
+5. A quick *dip* woke him right up.
+6. The pool opens early for anyone who wants a morning *dip*.
+
+**3. A temporary fall in an amount or level.** (спад, снижение)
+
+7. Sales showed a small *dip* in February.
+8. There was a sharp *dip* in temperature overnight.
+9. The polls recorded a brief *dip* in support.
+
+**4. A place where a road or the ground slopes down and back up.** (выемка, углубление (в дороге))
+
+10. Slow down for the *dip* at the bottom of the hill.
+11. The truck bottomed out in a *dip*.
+12. A shallow *dip* in the field holds water after rain.
 
 ---
 
@@ -2353,15 +2405,23 @@ An event that interrupts peace or normal conditions.
 ### dive
 
 **Pronunciation:** /daɪv/ &middot; *DYVE*
-**Русский:** прыжок в воду, погружение; резкое падение
+**Русский:** прыжок в воду, погружение; резкое падение; дешёвый бар, забегаловка
 **Plural:** *dives*
 **Countability:** countable
 
-A headfirst jump into water, or a sharp downward movement.
+Dive has 2 distinct senses.
+
+**1. A headfirst jump into water, or a sharp downward movement.** (прыжок в воду, погружение; резкое падение)
 
 1. Her last *dive* scored a perfect ten.
 2. We made two *dives* on the reef that morning.
 3. The stock took a *dive* after the earnings report.
+
+**2. A cheap, shabby bar or club.** (дешёвый бар, забегаловка)
+
+4. They played in every *dive* along the strip.
+5. It's a *dive*, but the burgers are great.
+6. The bar downstairs is a real *dive*.
 
 ---
 
@@ -2739,15 +2799,35 @@ A collection of documents about a person or subject.
 ### double
 
 **Pronunciation:** /ˈdʌbəl/ &middot; *DUH-buhl*
-**Русский:** дублёр
+**Русский:** дублёр; двойник; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)
 **Plural:** *doubles*
 **Countability:** countable
 
-A person who takes an actor's place in dangerous or difficult scenes.
+Double has 4 distinct senses.
+
+**1. A person who takes an actor's place in dangerous or difficult scenes.** (дублёр)
 
 1. The fight scene was filmed with a stunt *double*.
 2. She used a *double* for the horseback riding.
 3. The *doubles* rehearsed the crash for two days.
+
+**2. A person who looks exactly like someone else.** (двойник)
+
+4. You could be his *double*.
+5. The actress met her *double* on the set.
+6. In the photo the two men look like *doubles*.
+
+**3. A hit in baseball that lets the batter reach second base.** (дабл, двухбазовый удар (в бейсболе))
+
+7. He drove in two runs with a *double* to left field.
+8. She has ten *doubles* already this season.
+9. A leadoff *double* started the rally.
+
+**4. A drink with twice the usual amount of alcohol.** (двойная порция (спиртного))
+
+10. He ordered a *double* after the meeting.
+11. Make mine a *double*.
+12. Two *doubles* on the rocks, please.
 
 ---
 
@@ -2829,14 +2909,34 @@ Money or property a bride's family gives to her husband at marriage.
 ### drag
 
 **Pronunciation:** /dræɡ/ &middot; *DRAG*
-**Русский:** сопротивление воздуха, лобовое сопротивление
+**Русский:** сопротивление воздуха, лобовое сопротивление; скука, тоска, неприятная обязанность; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)
 **Countability:** uncountable
 
-The force of air or water that slows down a moving object.
+Drag has 4 distinct senses.
+
+**1. The force of air or water that slows down a moving object.** (сопротивление воздуха, лобовое сопротивление)
 
 1. The new body design reduces *drag* at high speeds.
 2. Cyclists ride close together to cut down on *drag*.
 3. Air *drag* is what slows the parachute.
+
+**2. Something boring or annoying.** (скука, тоска, неприятная обязанность)
+
+4. Waiting in line for two hours was a *drag*.
+5. What a *drag* — the game got rained out.
+6. Cleaning the garage is such a *drag*.
+
+**3. A pull of smoke from a cigarette.** (затяжка (сигаретой))
+
+7. He took a long *drag* and stared down the road.
+8. She finished the cigarette in three *drags*.
+9. One more *drag* and he put it out.
+
+**4. Women's clothing worn by a man, especially for a performance.** (женский наряд, надетый мужчиной (для выступления))
+
+10. The show features six performers in *drag*.
+11. He does *drag* on weekends under another name.
+12. Half the cast appeared in *drag* for the finale.
 
 ---
 
@@ -2858,15 +2958,29 @@ An imaginary animal like a huge lizard that breathes fire.
 ### draw
 
 **Pronunciation:** /drɔː/ &middot; *DRAW*
-**Русский:** притягательный фактор, приманка
+**Русский:** притягательный фактор, приманка; ничья; жеребьёвка, розыгрыш
 **Plural:** *draws*
 **Countability:** countable
 
-Someone or something that attracts a lot of people.
+Draw has 3 distinct senses.
+
+**1. Someone or something that attracts a lot of people.** (притягательный фактор, приманка)
 
 1. The free concert was a big *draw* for families.
 2. Cheap flights are the main *draw* of that airport.
 3. The museum's new exhibit is a real *draw*.
+
+**2. A game or contest that ends with the scores level.** (ничья)
+
+4. The match ended in a scoreless *draw*.
+5. Two *draws* and a loss knocked them out of the tournament.
+6. A *draw* was enough to keep the title.
+
+**3. The choosing of names, teams, or prizes at random.** (жеребьёвка, розыгрыш)
+
+7. The *draw* pits them against last year's champions.
+8. Winners are picked in a weekly *draw*.
+9. He got a tough *draw* in the first round.
 
 ---
 
@@ -2933,14 +3047,28 @@ Someone whose hopes and ideas are not very practical.
 ### drift
 
 **Pronunciation:** /drɪft/ &middot; *DRIFT*
-**Русский:** дрейф, снос
+**Русский:** дрейф, снос; сугроб, нанос; суть, общий смысл сказанного
 **Countability:** uncountable
 
-Slow movement caused by wind, water, or a current.
+Drift has 3 distinct senses.
+
+**1. Slow movement caused by wind, water, or a current.** (дрейф, снос)
 
 1. The boat's *drift* carried it toward the rocks.
 2. Continental *drift* explains the shape of the coastlines.
 3. Wind *drift* made the shot miss by a foot.
+
+**2. A pile of snow or sand heaped up by the wind.** (сугроб, нанос)
+
+4. The plow pushed the *drifts* off the driveway.
+5. Snow *drifts* buried the fence posts.
+6. A *drift* of sand had blocked the trail.
+
+**3. The general meaning of what someone is saying.** (суть, общий смысл сказанного)
+
+7. I couldn't hear every word, but I caught his *drift*.
+8. The *drift* of the meeting was that layoffs are coming.
+9. He nodded as if he understood my *drift*.
 
 ---
 
@@ -3124,15 +3252,23 @@ A short bar with a weight at each end, lifted for exercise.
 ### dummy
 
 **Pronunciation:** /ˈdʌmi/ &middot; *DUM-ee*
-**Русский:** манекен, макет
+**Русский:** манекен, макет; дурак, болван
 **Plural:** *dummies*
 **Countability:** countable
 
-A model of a human body, or a fake copy of something.
+Dummy has 2 distinct senses.
+
+**1. A model of a human body, or a fake copy of something.** (манекен, макет)
 
 1. Crash-test *dummies* showed how the seatbelt performed.
 2. The store window had a *dummy* wearing a winter coat.
 3. The box on the shelf was just a *dummy*.
+
+**2. A stupid person.** (дурак, болван)
+
+4. Don't be a *dummy* — read the instructions.
+5. I felt like a *dummy* for locking my keys in the car.
+6. He called us *dummies* for believing him.
 
 ---
 
@@ -3227,15 +3363,23 @@ A powerful explosive used in mining and demolition.
 ### dynamo
 
 **Pronunciation:** /ˈdaɪnəmoʊ/ &middot; *DY-nuh-moh*
-**Русский:** энергичный человек, «мотор»
+**Русский:** энергичный человек, «мотор»; динамо-машина, генератор
 **Plural:** *dynamos*
 **Countability:** countable
 
-A person who is full of energy and gets a lot done.
+Dynamo has 2 distinct senses.
+
+**1. A person who is full of energy and gets a lot done.** (энергичный человек, «мотор»)
 
 1. Our new manager is a real *dynamo*.
 2. She's a *dynamo* on the sales floor.
 3. The team is full of young *dynamos*.
+
+**2. A machine that turns motion into electric current.** (динамо-машина, генератор)
+
+4. The bike's headlight runs off a little *dynamo* on the front wheel.
+5. The mill drove a *dynamo* that lit the whole village.
+6. Two old *dynamos* are still bolted to the floor of the plant.
 
 ---
 
@@ -3444,14 +3588,22 @@ Dishes and pots made from baked clay.
 ### east
 
 **Pronunciation:** /iːst/ &middot; *EEST*
-**Русский:** восток
+**Русский:** восток; восток (восточная часть страны, региона)
 **Countability:** uncountable
 
-The direction where the sun rises.
+East has 2 distinct senses.
+
+**1. The direction where the sun rises.** (восток)
 
 1. The storm is moving toward the *east*.
 2. The mountains lie to the *east* of the city.
 3. In the *east*, the sky was already turning pink.
+
+**2. The part of a country or of the world that lies in that direction.** (восток (восточная часть страны, региона))
+
+4. He grew up in the *East* and moved to California at twenty.
+5. Storms roll off the plains and hit the *East* by morning.
+6. Trade between the *East* and the West goes back centuries.
 
 ---
 
@@ -3648,16 +3800,30 @@ A teacher, or someone whose profession is education.
 ### effect
 
 **Pronunciation:** /ɪˈfɛkt/ &middot; *ih-FEKT*
-**Русский:** эффект, воздействие, результат
+**Русский:** эффект, воздействие, результат; эффект (звуковой, спецэффект); личные вещи, пожитки
 **Plural:** *effects*
 **Countability:** countable
 **Contrast:** Effect is the noun (a result); affect is usually the verb (to influence).
 
-A change that something causes.
+Effect has 3 distinct senses.
+
+**1. A change that something causes.** (эффект, воздействие, результат)
 
 1. The medicine had no *effect* on the pain.
 2. Scientists study the *effects* of caffeine on sleep.
 3. The new law's *effect* was immediate.
+
+**2. An artificial sound or image made for a film, show, or recording.** (эффект (звуковой, спецэффект))
+
+4. The *effects* in that movie cost more than the cast.
+5. A radio play lives or dies on its sound *effects*.
+6. The rain in the last scene was an *effect*, not real water.
+
+**3. The personal belongings a person carries or leaves behind.** (личные вещи, пожитки)
+
+7. The hospital returned his personal *effects* in a paper bag.
+8. She packed her few *effects* and left before dawn.
+9. Officers listed every one of the *effects* found in the car.
 
 ---
 
@@ -4558,15 +4724,23 @@ The illegal act of tricking someone into committing a crime so they can be arres
 ### entry
 
 **Pronunciation:** /ˈɛntri/ &middot; *EN-tree*
-**Русский:** вход; запись (в списке, дневнике)
+**Русский:** вход; запись (в списке, дневнике); конкурсная работа, заявка на участие
 **Plural:** *entries*
 **Countability:** countable
 
-An item written in a list or record, or the act of going into a place.
+Entry has 2 distinct senses.
+
+**1. An item written in a list or record, or the act of going into a place.** (вход; запись (в списке, дневнике))
 
 1. The last *entry* in her diary is dated March 4th.
 2. Check the dictionary *entries* for both spellings.
 3. *Entry* to the museum is free on Sundays.
+
+**2. Something submitted to a competition.** (конкурсная работа, заявка на участие)
+
+4. Her photo of the barn was the winning *entry*.
+5. The fair received over three hundred *entries* this year.
+6. Late *entries* will not be judged.
 
 ---
 
@@ -4871,14 +5045,22 @@ An arrangement in which money is held by a third party until a deal closes.
 ### essence
 
 **Pronunciation:** /ˈɛsəns/ &middot; *ES-uhns*
-**Русский:** суть, сущность; эссенция
+**Русский:** суть, сущность; эссенция; эссенция, экстракт
 **Countability:** uncountable
 
-The most basic and important quality of something.
+Essence has 2 distinct senses.
+
+**1. The most basic and important quality of something.** (суть, сущность; эссенция)
 
 1. The *essence* of the argument is fairly simple.
 2. Add a teaspoon of vanilla *essence*.
 3. In *essence*, they're asking us to start over.
+
+**2. A concentrated liquid taken from a plant and used for flavor or scent.** (эссенция, экстракт)
+
+4. Add a teaspoon of vanilla *essence* to the batter.
+5. The shop sells *essences* of lemon, almond, and rose.
+6. One drop of peppermint *essence* is plenty.
 
 ---
 
@@ -4929,14 +5111,22 @@ The main female sex hormone.
 ### ether
 
 **Pronunciation:** /ˈiːθər/ &middot; *EE-thur*
-**Русский:** эфир
+**Русский:** эфир; эфир (пространство, куда всё исчезает)
 **Countability:** uncountable
 
-A light, sweet-smelling liquid once widely used to put patients to sleep.
+Ether has 2 distinct senses.
+
+**1. A light, sweet-smelling liquid once widely used to put patients to sleep.** (эфир)
 
 1. Surgeons used *ether* long before modern anesthesia.
 2. The room smelled faintly of *ether*.
 3. Her message seemed to vanish into the *ether*.
+
+**2. The invisible air or space in which signals travel and things seem to vanish.** (эфир (пространство, куда всё исчезает))
+
+4. My email must have disappeared into the *ether*.
+5. Their promises vanished into the *ether* after the election.
+6. The signal goes out into the *ether* and comes back a second later.
 
 ---
 
@@ -4957,16 +5147,24 @@ The standard system for connecting computers by cable in a local network.
 ### ethic
 
 **Pronunciation:** /ˈɛθɪk/ &middot; *ETH-ik*
-**Русский:** принцип, нравственная установка
+**Русский:** принцип, нравственная установка; этика, нравственные нормы
 **Plural:** *ethics*
 **Countability:** countable
 **Contrast:** An *ethic* is one guiding principle; *ethics* is the study of right and wrong or a profession's rules.
 
-A guiding moral principle or attitude that shapes how someone behaves.
+Ethic has 2 distinct senses.
+
+**1. A guiding moral principle or attitude that shapes how someone behaves.** (принцип, нравственная установка)
 
 1. She has an incredible work *ethic*.
 2. The company built its reputation on a service *ethic*.
 3. Different *ethics* guided the two founders.
+
+**2. The moral rules that govern a profession, or the study of right and wrong.** (этика, нравственные нормы)
+
+4. Medical *ethics* forbid discussing a patient's file.
+5. The company published a code of *ethics* last spring.
+6. She teaches *ethics* at the law school.
 
 ---
 
@@ -5090,14 +5288,22 @@ The legal removal of a tenant from a property.
 ### evil
 
 **Pronunciation:** /ˈiːvəl/ &middot; *EE-vuhl*
-**Русский:** зло
+**Русский:** зло; зло, беда (о конкретном явлении)
 **Countability:** uncountable
 
-Great wickedness, or the force behind it.
+Evil has 2 distinct senses.
+
+**1. Great wickedness, or the force behind it.** (зло)
 
 1. The book is about the struggle between good and *evil*.
 2. She saw real *evil* in what he did.
 3. Greed is not the root of every *evil*.
+
+**2. A particular harmful thing or practice.** (зло, беда (о конкретном явлении))
+
+4. He called the plan the lesser of two *evils*.
+5. Reformers set out to fight the social *evils* of the day.
+6. For most farmers, debt is a necessary *evil*.
 
 ---
 
@@ -5163,15 +5369,23 @@ Someone whose job is to inspect something or test people formally.
 ### example
 
 **Pronunciation:** /ɪɡˈzæmpəl/ &middot; *ig-ZAM-puhl*
-**Русский:** пример
+**Русский:** пример; пример для подражания, образец
 **Plural:** *examples*
 **Countability:** countable
 
-One thing taken from a group to show what the rest are like.
+Example has 2 distinct senses.
+
+**1. One thing taken from a group to show what the rest are like.** (пример)
 
 1. Can you give me an *example*?
 2. The book is full of worked *examples*.
 3. That building is a good *example* of Art Deco.
+
+**2. Someone or something held up for others to copy or to learn from.** (пример для подражания, образец)
+
+4. Her father set an *example* of hard work.
+5. Coaches are supposed to be an *example* for the kids.
+6. The judge made an *example* of him with a heavy fine.
 
 ---
 
@@ -5975,15 +6189,23 @@ A small, catchy piece of information, often trivial or unverified.
 ### factor
 
 **Pronunciation:** /ˈfæktər/ &middot; *FAK-tur*
-**Русский:** фактор
+**Русский:** фактор; делитель, множитель
 **Plural:** *factors*
 **Countability:** countable
 
-One of the things that helps cause a result.
+Factor has 2 distinct senses.
+
+**1. One of the things that helps cause a result.** (фактор)
 
 1. Price was the deciding *factor*.
 2. Several *factors* led to the delay.
 3. Age is a major risk *factor* for the disease.
+
+**2. A whole number that divides exactly into a larger number.** (делитель, множитель)
+
+4. Three is a *factor* of twelve.
+5. List all the *factors* of thirty-six.
+6. The two numbers share no common *factor* but one.
 
 ---
 
@@ -6094,15 +6316,29 @@ A children's story about magic, princes, and talking animals.
 ### fake
 
 **Pronunciation:** /feɪk/ &middot; *FAYK*
-**Русский:** подделка, фальшивка
+**Русский:** подделка, фальшивка; притворщик, самозванец; финт, обманное движение
 **Plural:** *fakes*
 **Countability:** countable
 
-Something made to look like a valuable or genuine thing in order to fool people.
+Fake has 3 distinct senses.
+
+**1. Something made to look like a valuable or genuine thing in order to fool people.** (подделка, фальшивка)
 
 1. The painting turned out to be a *fake*.
 2. Experts spotted three *fakes* in the collection.
 3. That designer bag is an obvious *fake*.
+
+**2. A person who pretends to be something they are not.** (притворщик, самозванец)
+
+4. The man calling himself a surgeon turned out to be a *fake*.
+5. She felt like a *fake* at her first big meeting.
+6. Half the experts on that show are *fakes*.
+
+**3. A quick move made to fool an opponent in a sport.** (финт, обманное движение)
+
+7. He froze the defender with a *fake* and drove to the basket.
+8. The quarterback's pump *fake* sent the safety the wrong way.
+9. Her *fakes* are what make her so hard to guard.
 
 ---
 
@@ -6870,44 +7106,74 @@ The name given to a computer file.
 ### filing
 
 **Pronunciation:** /ˈfaɪlɪŋ/ &middot; *FY-ling*
-**Русский:** поданный документ (в суд, налоговую)
+**Русский:** поданный документ (в суд, налоговую); опилки (металлические); работа с бумагами, подшивка документов
 **Plural:** *filings*
 **Countability:** countable
 
-A document formally submitted to a court or a government office.
+Filing has 3 distinct senses.
+
+**1. A document formally submitted to a court or a government office.** (поданный документ (в суд, налоговую))
 
 1. The company's latest *filing* shows a big loss.
 2. Court *filings* are public records.
 3. Her tax *filing* was two weeks late.
+
+**2. A tiny piece of metal rubbed off by a file or a saw.** (опилки (металлические))
+
+4. Iron *filings* lined up along the magnet.
+5. Sweep the metal *filings* off the workbench.
+6. A *filing* had worked its way into the gears.
+
+**3. The work of putting documents in order and storing them.** (работа с бумагами, подшивка документов)
+
+7. She spent the whole afternoon on *filing*.
+8. *Filing* is the part of the job nobody wants.
+9. There's a stack of *filing* sitting on my desk.
 
 ---
 
 ### filler
 
 **Pronunciation:** /ˈfɪlər/ &middot; *FIL-ur*
-**Русский:** шпатлёвка, наполнитель
+**Русский:** шпатлёвка, наполнитель; заполнитель, «вода» (в тексте, передаче)
 **Countability:** uncountable
 
-A paste used to fill holes and cracks before painting or finishing.
+Filler has 2 distinct senses.
+
+**1. A paste used to fill holes and cracks before painting or finishing.** (шпатлёвка, наполнитель)
 
 1. Sand the *filler* smooth before you paint.
 2. He pressed wood *filler* into the nail holes.
 3. One tube of *filler* was enough for the whole wall.
+
+**2. Material or content added only to take up space or time.** (заполнитель, «вода» (в тексте, передаче))
+
+4. Half the article is *filler*.
+5. That last episode was pure *filler*.
+6. He told a long story as *filler* while the band set up.
 
 ---
 
 ### film
 
 **Pronunciation:** /fɪlm/ &middot; *FILM*
-**Русский:** фильм; тонкая плёнка
+**Русский:** фильм; тонкая плёнка; фотоплёнка
 **Plural:** *films*
 **Countability:** countable
 
-A movie, or a very thin layer covering a surface.
+Film has 2 distinct senses.
+
+**1. A movie, or a very thin layer covering a surface.** (фильм; тонкая плёнка)
 
 1. We watched an old French *film* on Saturday.
 2. A *film* of dust covered the top shelf.
 3. The festival screens over a hundred *films* each year.
+
+**2. The thin strip of material used in a camera to record pictures.** (фотоплёнка)
+
+4. She still shoots on *film*.
+5. He dropped off two rolls of *film* to be developed.
+6. The old *film* had faded in the heat of the attic.
 
 ---
 
@@ -6958,15 +7224,23 @@ A conclusion reached by a study, investigation, or court.
 ### fire
 
 **Pronunciation:** /ˈfaɪər/ &middot; *FY-ur*
-**Русский:** огонь; пожар
+**Русский:** огонь; пожар; стрельба, огонь (из оружия)
 **Plural:** *fires*
 **Countability:** both — countable and uncountable with different meanings
 
-Burning flame and heat, or a single event in which something burns and causes damage.
+Fire has 2 distinct senses.
+
+**1. Burning flame and heat, or a single event in which something burns and causes damage.** (огонь; пожар)
 
 1. The children were told never to play with *fire*.
 2. A *fire* destroyed the old mill last winter.
 3. Crews fought three *fires* in one week.
+
+**2. The shooting of guns.** (стрельба, огонь (из оружия))
+
+4. The patrol came under *fire* near the bridge.
+5. The officers held their *fire*.
+6. Heavy *fire* forced the crew to back away.
 
 ---
 
@@ -7104,15 +7378,23 @@ The condition of being physically strong and healthy, or being suitable for a pu
 ### fix
 
 **Pronunciation:** /fɪks/ &middot; *FIKS*
-**Русский:** решение проблемы, починка
+**Русский:** решение проблемы, починка; доза, привычная порция (чего-то необходимого)
 **Plural:** *fixes*
 **Countability:** countable
 
-A repair or a solution to a problem.
+Fix has 2 distinct senses.
+
+**1. A repair or a solution to a problem.** (решение проблемы, починка)
 
 1. That's a temporary *fix*, not a real solution.
 2. The update includes several bug *fixes*.
 3. We need a quick *fix* before the meeting starts.
+
+**2. An amount of something you feel you need on a regular basis.** (доза, привычная порция (чего-то необходимого))
+
+4. I need my morning coffee *fix* before I talk to anyone.
+5. He gets his baseball *fix* on the radio.
+6. Addicts will do almost anything for their next *fix*.
 
 ---
 
@@ -7254,15 +7536,23 @@ A flat piece fixed along one edge that covers an opening, or one up-and-down bea
 ### flash
 
 **Pronunciation:** /flæʃ/ &middot; *FLASH*
-**Русский:** вспышка
+**Русский:** вспышка; вспышка (в фотоаппарате)
 **Plural:** *flashes*
 **Countability:** countable
 
-A sudden short burst of light, or a brief moment of something.
+Flash has 2 distinct senses.
+
+**1. A sudden short burst of light, or a brief moment of something.** (вспышка)
 
 1. There was a *flash* of lightning over the lake.
 2. The camera *flash* startled the baby.
 3. He caught *flashes* of red between the trees.
+
+**2. The part of a camera that makes a bright light for a photograph.** (вспышка (в фотоаппарате))
+
+4. Turn off the *flash* inside the museum.
+5. The *flash* went off right in my eyes.
+6. Her camera's *flash* stopped working halfway through the party.
 
 ---
 
@@ -7314,16 +7604,24 @@ Thin bread baked without much rising, often served with dips or toppings.
 ### flats
 
 **Pronunciation:** /flæts/ &middot; *FLATS*
-**Русский:** балетки, туфли без каблука
+**Русский:** балетки, туфли без каблука; низина, отмель, солончак
 **Plural:** *flats*
 **Countability:** countable
 **Contrast:** In this sense the word is always plural: a pair of *flats*.
 
-Women's shoes with no heel or almost none.
+Flats has 2 distinct senses.
+
+**1. Women's shoes with no heel or almost none.** (балетки, туфли без каблука)
 
 1. She wears *flats* to work and heels in the evening.
 2. A pair of black *flats* goes with everything.
 3. My feet hurt, so I switched to *flats*.
+
+**2. An area of low, level ground, often muddy or salty.** (низина, отмель, солончак)
+
+4. Birds feed on the mud *flats* at low tide.
+5. They race cars out on the salt *flats*.
+6. The *flats* below the highway flood every spring.
 
 ---
 
@@ -7344,15 +7642,23 @@ Excessive praise given to please someone or to get something from them.
 ### flick
 
 **Pronunciation:** /flɪk/ &middot; *FLIK*
-**Русский:** щелчок, резкое лёгкое движение
+**Русский:** щелчок, резкое лёгкое движение; фильм, кино (разг.)
 **Plural:** *flicks*
 **Countability:** countable
 
-A quick, light movement of a finger, wrist, or brush.
+Flick has 2 distinct senses.
+
+**1. A quick, light movement of a finger, wrist, or brush.** (щелчок, резкое лёгкое движение)
 
 1. He turned the page with a *flick* of his finger.
 2. One *flick* of the wrist and the line was out on the water.
 3. A few *flicks* of the brush finished the corner.
+
+**2. A movie (informal).** (фильм, кино (разг.))
+
+4. We caught a *flick* on Saturday night.
+5. It's a fun action *flick* with a silly ending.
+6. He's seen every horror *flick* ever made.
 
 ---
 
@@ -7613,15 +7919,29 @@ A device that sounds a deep warning note to ships in fog.
 ### folk
 
 **Pronunciation:** /foʊk/ &middot; *FOHK*
-**Русский:** фолк, народная музыка
+**Русский:** фолк, народная музыка; люди, народ; родители, родня
 **Countability:** uncountable
 **Contrast:** The l is silent: FOHK.
 
-Traditional popular music played mostly on acoustic instruments.
+Folk has 3 distinct senses.
+
+**1. Traditional popular music played mostly on acoustic instruments.** (фолк, народная музыка)
 
 1. The station plays *folk* all afternoon.
 2. He grew up on *folk* and bluegrass.
 3. She writes *folk* with a country edge.
+
+**2. People in general, or the people of a particular place.** (люди, народ)
+
+4. *Folks* around here are pretty friendly.
+5. A lot of *folks* showed up for the meeting.
+6. Most *folks* never read the fine print.
+
+**3. Your parents, or your close family.** (родители, родня)
+
+7. My *folks* live a few hours north of here.
+8. We're spending the holidays with her *folks*.
+9. His *folks* helped him buy the truck.
 
 ---
 
@@ -7728,15 +8048,23 @@ A dish of melted cheese or chocolate that people dip pieces of food into.
 ### fool
 
 **Pronunciation:** /fuːl/ &middot; *FOOL*
-**Русский:** дурак, глупец
+**Русский:** дурак, глупец; шут (придворный)
 **Plural:** *fools*
 **Countability:** countable
 
-Someone who behaves in a silly or unwise way.
+Fool has 2 distinct senses.
+
+**1. Someone who behaves in a silly or unwise way.** (дурак, глупец)
 
 1. I felt like a *fool* for believing him.
 2. Only a *fool* would drive in this weather.
 3. He doesn't suffer *fools* gladly.
+
+**2. A jester kept by a king or a noble household to entertain with jokes and songs.** (шут (придворный))
+
+4. In the play, only the *fool* dares tell the king the truth.
+5. The court *fool* wore a cap with bells on it.
+6. Medieval kings kept *fools* to amuse their guests.
 
 ---
 
@@ -8384,16 +8712,24 @@ A fast medium-sized warship used mainly to escort other ships.
 ### frill
 
 **Pronunciation:** /frɪl/ &middot; *FRIL*
-**Русский:** оборка, рюш
+**Русский:** оборка, рюш; излишества, дополнительные удобства
 **Plural:** *frills*
 **Countability:** countable
 **Contrast:** In the plural, *frills* also means unnecessary extras: a no-*frills* airline.
 
-A gathered strip of cloth sewn along an edge as decoration.
+Frill has 2 distinct senses.
+
+**1. A gathered strip of cloth sewn along an edge as decoration.** (оборка, рюш)
 
 1. The dress has a lace *frill* at the hem.
 2. She hates *frills* and bows on children's clothes.
 3. A narrow *frill* runs around the edge of the pillow.
+
+**2. In the plural, extra features or comforts that are pleasant but not necessary.** (излишества, дополнительные удобства)
+
+4. It's a cheap flight with no *frills*.
+5. The apartment is plain and has none of the *frills* we saw downtown.
+6. We cut the *frills* out of the budget first.
 
 ---
 
@@ -8670,15 +9006,23 @@ A basic rule or skill that everything else in a subject is built on.
 ### funk
 
 **Pronunciation:** /fʌŋk/ &middot; *FUNGK*
-**Русский:** фанк (стиль музыки)
+**Русский:** фанк (стиль музыки); хандра, подавленное настроение
 **Countability:** uncountable
 **Contrast:** *In a funk* is a separate meaning: in a low, gloomy mood.
 
-A style of dance music with a heavy beat and a strong bass line.
+Funk has 2 distinct senses.
+
+**1. A style of dance music with a heavy beat and a strong bass line.** (фанк (стиль музыки))
 
 1. The band plays *funk* and old soul covers.
 2. You can hear the *funk* in that bass line.
 3. He grew up on seventies *funk*.
+
+**2. A low, gloomy mood that a person cannot easily shake off.** (хандра, подавленное настроение)
+
+4. He's been in a *funk* since he lost his job.
+5. A long walk usually pulls me out of a *funk*.
+6. The whole team fell into a *funk* after that loss.
 
 ---
 

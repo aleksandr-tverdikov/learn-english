@@ -12,15 +12,29 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### church
 
 **Pronunciation:** /tʃɜːrtʃ/ &middot; *CHURCH*
-**Русский:** церковь, храм
+**Русский:** церковь, храм; богослужение, служба; церковь (организация, конфессия)
 **Plural:** *churches*
 **Countability:** countable
 
-A building where Christians meet to worship.
+Church has 3 distinct senses.
+
+**1. A building where Christians meet to worship.** (церковь, храм)
 
 1. There's a little white *church* at the end of the road.
 2. We go to *church* every Sunday morning.
 3. Half the *churches* in town run a food pantry.
+
+**2. A Christian service of worship.** (богослужение, служба)
+
+4. *Church* starts at ten on Sunday.
+5. We ran into them right after *church*.
+6. She reads to the kids during *church*.
+
+**3. A branch of the Christian religion, or the Christian religion as an organized body.** (церковь (организация, конфессия))
+
+7. The *church* has spoken out against the new law.
+8. He was raised in the Baptist *church*.
+9. *Churches* across the country are losing members.
 
 ---
 
@@ -257,15 +271,23 @@ A man who lives in a religious community under strict rules.
 ### bishop
 
 **Pronunciation:** /ˈbɪʃəp/ &middot; *BISH-uhp*
-**Русский:** епископ
+**Русский:** епископ; слон (шахматная фигура)
 **Plural:** *bishops*
 **Countability:** countable
 
-A senior Christian clergyman in charge of many churches.
+Bishop has 2 distinct senses.
+
+**1. A senior Christian clergyman in charge of many churches.** (епископ)
 
 1. The *bishop* came to confirm the teenagers.
 2. A letter from the *bishop* was read aloud.
 3. The *bishops* meet twice a year.
+
+**2. A chess piece that moves diagonally across the board.** (слон (шахматная фигура))
+
+4. She moved her *bishop* to threaten the queen.
+5. He traded a knight for a *bishop*.
+6. A *bishop* can only stay on squares of one color.
 
 ---
 
@@ -364,15 +386,23 @@ A person believed to speak messages from God.
 ### saint
 
 **Pronunciation:** /seɪnt/ &middot; *SAYNT*
-**Русский:** святой, святая
+**Русский:** святой, святая; святой человек, ангел (о человеке)
 **Plural:** *saints*
 **Countability:** countable
 
-A person officially recognized as holy after death.
+Saint has 2 distinct senses.
+
+**1. A person officially recognized as holy after death.** (святой, святая)
 
 1. She was made a *saint* four centuries later.
 2. There's a statue of the *saint* by the door.
 3. The church is named after two *saints*.
+
+**2. A very kind or endlessly patient person.** (святой человек, ангел (о человеке))
+
+4. You'd have to be a *saint* to put up with that.
+5. His wife is a *saint* for driving him every week.
+6. The nurses on that floor are *saints*.
 
 ---
 
@@ -456,16 +486,24 @@ Someone who travels to a holy place for religious reasons.
 ### martyr
 
 **Pronunciation:** /ˈmɑːrtər/ &middot; *MAR-tur*
-**Русский:** мученик
+**Русский:** мученик; мученик (тот, кто страдает напоказ)
 **Plural:** *martyrs*
 **Countability:** countable
 **Contrast:** The -yr sounds like -ter: MAR-tur, not 'mar-TEER'.
 
-Someone killed because of their religious or political beliefs.
+Martyr has 2 distinct senses.
+
+**1. Someone killed because of their religious or political beliefs.** (мученик)
 
 1. He died a *martyr* at the age of thirty.
 2. The church honors her as a *martyr*.
 3. Statues of the *martyrs* stand along the wall.
+
+**2. Someone who makes a show of suffering in order to get sympathy.** (мученик (тот, кто страдает напоказ))
+
+4. Don't play the *martyr* — I offered to help twice.
+5. He cleans up after everyone and then acts like a *martyr*.
+6. She's such a *martyr* about having to work weekends.
 
 ---
 
@@ -845,15 +883,23 @@ Belief that a group insists is true and refuses to question.
 ### creed
 
 **Pronunciation:** /kriːd/ &middot; *KREED*
-**Русский:** вероучение, символ веры
+**Русский:** вероучение, символ веры; убеждения, жизненные принципы
 **Plural:** *creeds*
 **Countability:** countable
 
-A short statement of the beliefs of a religion.
+Creed has 2 distinct senses.
+
+**1. A short statement of the beliefs of a religion.** (вероучение, символ веры)
 
 1. The congregation recited the *creed* together.
 2. Honesty was the old man's whole *creed*.
 3. The two churches use slightly different *creeds*.
+
+**2. A set of beliefs or principles that guide how someone lives.** (убеждения, жизненные принципы)
+
+4. Hard work and plain talk were his whole *creed*.
+5. The company printed its *creed* on a single page.
+6. She stuck to her *creed* of never lending money to friends.
 
 ---
 
@@ -875,15 +921,23 @@ Strong belief without proof, or a particular religion.
 ### Bible
 
 **Pronunciation:** /ˈbaɪbəl/ &middot; *BY-buhl*
-**Русский:** Библия
+**Русский:** Библия; настольная книга, «библия» (в какой-л. области)
 **Plural:** *Bibles*
 **Countability:** countable
 
-The holy book of Christianity.
+Bible has 2 distinct senses.
+
+**1. The holy book of Christianity.** (Библия)
 
 1. There's a *Bible* in the drawer of every nightstand.
 2. He read the whole *Bible* in a year.
 3. The hotel gave away hundreds of *Bibles*.
+
+**2. A book treated as the most trusted guide to a subject.** (настольная книга, «библия» (в какой-л. области))
+
+4. That manual is the *bible* of home wiring.
+5. Her cookbook became the *bible* for a generation of bakers.
+6. For serious birders, this guide is the *bible*.
 
 ---
 
@@ -904,15 +958,29 @@ The sacred writings of a religion.
 ### gospel
 
 **Pronunciation:** /ˈɡɑːspəl/ &middot; *GAH-spuhl*
-**Русский:** евангелие
+**Русский:** евангелие; госпел (жанр духовной музыки); непреложная истина
 **Plural:** *gospels*
 **Countability:** countable
 
-One of the four books telling the life of Jesus, or the message itself.
+Gospel has 3 distinct senses.
+
+**1. One of the four books telling the life of Jesus, or the message itself.** (евангелие)
 
 1. She read a few verses from the *gospel*.
 2. He preached the *gospel* for forty years.
 3. The four *gospels* tell the story differently.
+
+**2. A style of religious singing with strong rhythm, rooted in Black American churches.** (госпел (жанр духовной музыки))
+
+4. She grew up singing *gospel* in her grandmother's church.
+5. The radio station plays *gospel* all Sunday morning.
+6. That choir sings some of the finest *gospel* in the state.
+
+**3. Something that is accepted as completely true.** (непреложная истина)
+
+7. Don't take his numbers as *gospel*.
+8. In our house, whatever Dad said was *gospel*.
+9. Around here that recipe is *gospel*.
 
 ---
 
@@ -1010,15 +1078,23 @@ The first five books of the Hebrew Bible, holy to Jews.
 ### sermon
 
 **Pronunciation:** /ˈsɜːrmən/ &middot; *SUR-muhn*
-**Русский:** проповедь
+**Русский:** проповедь; нравоучение, нотация
 **Plural:** *sermons*
 **Countability:** countable
 
-A talk on a religious or moral subject given in a service.
+Sermon has 2 distinct senses.
+
+**1. A talk on a religious or moral subject given in a service.** (проповедь)
 
 1. The *sermon* ran long and the kids got restless.
 2. Her *sermon* was about forgiving your neighbors.
 3. He posts his *sermons* online every week.
+
+**2. A long, tiresome lecture about how someone ought to behave.** (нравоучение, нотация)
+
+4. I got a *sermon* about my grades all the way home.
+5. I don't need a *sermon* about being ten minutes late.
+6. Every dinner ended with one of his *sermons* about money.
 
 ---
 
@@ -1529,16 +1605,24 @@ Spirit has 2 distinct senses.
 ### angel
 
 **Pronunciation:** /ˈeɪndʒəl/ &middot; *AYN-juhl*
-**Русский:** ангел
+**Русский:** ангел; ангел (о добром человеке)
 **Plural:** *angels*
 **Countability:** countable
 **Contrast:** AYN-juhl, not to be confused with 'angle' (ANG-guhl, угол).
 
-A spiritual being that serves as a messenger of God.
+Angel has 2 distinct senses.
+
+**1. A spiritual being that serves as a messenger of God.** (ангел)
 
 1. An *angel* appears to the shepherds in the story.
 2. The nurse was an absolute *angel*.
 3. Carved *angels* look down from the ceiling.
+
+**2. A very kind and helpful person.** (ангел (о добром человеке))
+
+4. You brought soup? You're an *angel*.
+5. The nurses on that floor were *angels*.
+6. Her neighbor is an absolute *angel* about the dog.
 
 ---
 
@@ -1560,15 +1644,23 @@ An evil spirit, or the chief evil spirit in Christianity.
 ### demon
 
 **Pronunciation:** /ˈdiːmən/ &middot; *DEE-muhn*
-**Русский:** демон, бес
+**Русский:** демон, бес; внутренние демоны, мучительная проблема
 **Plural:** *demons*
 **Countability:** countable
 
-An evil spirit believed to harm or possess people.
+Demon has 2 distinct senses.
+
+**1. An evil spirit believed to harm or possess people.** (демон, бес)
 
 1. The priest claimed to have driven out a *demon*.
 2. In the film a *demon* haunts the family.
 3. He's still fighting his own *demons*.
+
+**2. A personal problem or painful memory that torments someone.** (внутренние демоны, мучительная проблема)
+
+4. He spent years fighting his *demons*.
+5. Getting sober meant facing her *demons*.
+6. The book is about a writer wrestling with old *demons*.
 
 ---
 
@@ -1591,28 +1683,44 @@ The spirit of a dead person, believed to appear to the living.
 ### heaven
 
 **Pronunciation:** /ˈhɛvən/ &middot; *HEV-uhn*
-**Русский:** рай, небеса
+**Русский:** рай, небеса; небо, небеса
 **Countability:** uncountable
 
-The place where God lives and good people are believed to go after death.
+Heaven has 2 distinct senses.
+
+**1. The place where God lives and good people are believed to go after death.** (рай, небеса)
 
 1. She believes her mother is in *heaven*.
 2. That first cup of coffee was *heaven*.
 3. Thank *heaven* you called.
+
+**2. The sky, especially when spoken of in a grand or poetic way.** (небо, небеса)
+
+4. The *heavens* opened and rain came down in sheets.
+5. He looked up at the *heavens* and tried to count the stars.
+6. Astronomers have mapped this corner of the *heavens*.
 
 ---
 
 ### hell
 
 **Pronunciation:** /hɛl/ &middot; *HEL*
-**Русский:** ад
+**Русский:** ад; ад, кошмар (о ситуации)
 **Countability:** uncountable
 
-The place of punishment after death in some religions.
+Hell has 2 distinct senses.
+
+**1. The place of punishment after death in some religions.** (ад)
 
 1. The sermon was mostly about *hell*.
 2. That drive in August was pure *hell*.
 3. He went through *hell* to get here.
+
+**2. A very unpleasant experience or situation.** (ад, кошмар (о ситуации))
+
+4. The last month at work has been *hell*.
+5. She went through *hell* during the divorce.
+6. Moving with two toddlers was pure *hell*.
 
 ---
 
@@ -1690,28 +1798,50 @@ An act that breaks a religious or moral law.
 ### grace
 
 **Pronunciation:** /ɡreɪs/ &middot; *GRAYSS*
-**Русский:** благодать; милость
+**Русский:** благодать; милость; грация, изящество; молитва перед едой
 **Countability:** uncountable
 
-God's free kindness toward people who do not earn it.
+Grace has 3 distinct senses.
+
+**1. God's free kindness toward people who do not earn it.** (благодать; милость)
 
 1. The hymn is about *grace* and forgiveness.
 2. He believes he was saved by *grace* alone.
 3. They prayed for the *grace* to forgive him.
+
+**2. Smooth, easy beauty in the way someone moves or behaves.** (грация, изящество)
+
+4. She crossed the stage with surprising *grace*.
+5. He took the loss with *grace*.
+6. For a big man, he moves with real *grace*.
+
+**3. A short prayer of thanks said before a meal.** (молитва перед едой)
+
+7. Grandpa always says *grace* before we eat.
+8. We held hands while my aunt said *grace*.
+9. Dinner started with a quick *grace*.
 
 ---
 
 ### mercy
 
 **Pronunciation:** /ˈmɜːrsi/ &middot; *MUR-see*
-**Русский:** милосердие, пощада
+**Русский:** милосердие, пощада; счастье, благо (что так обошлось)
 **Countability:** uncountable
 
-Kindness shown to someone you have the power to punish.
+Mercy has 2 distinct senses.
+
+**1. Kindness shown to someone you have the power to punish.** (милосердие, пощада)
 
 1. The prisoner begged for *mercy*.
 2. She showed him no *mercy* in the debate.
 3. God's *mercy* is the theme of the whole psalm.
+
+**2. Something lucky that you are thankful for.** (счастье, благо (что так обошлось))
+
+4. It's a *mercy* nobody was home when the roof came down.
+5. Be grateful for small *mercies*.
+6. That the pain finally stopped was a *mercy*.
 
 ---
 
@@ -1732,15 +1862,23 @@ The act of stopping being angry at someone for a wrong.
 ### miracle
 
 **Pronunciation:** /ˈmɪrəkəl/ &middot; *MIH-ruh-kuhl*
-**Русский:** чудо
+**Русский:** чудо; чудо (нечто удивительное)
 **Plural:** *miracles*
 **Countability:** countable
 
-An event that cannot be explained by natural law, seen as the work of God.
+Miracle has 2 distinct senses.
+
+**1. An event that cannot be explained by natural law, seen as the work of God.** (чудо)
 
 1. The doctors called her recovery a *miracle*.
 2. It's a *miracle* nobody was hurt.
 3. The gospel describes several *miracles*.
+
+**2. Something wonderful and lucky that seemed impossible.** (чудо (нечто удивительное))
+
+4. It's a *miracle* nobody was hurt in that crash.
+5. The country's economic *miracle* lasted twenty years.
+6. Getting four kids out the door on time was a small *miracle*.
 
 ---
 
@@ -1778,15 +1916,23 @@ A truth made known, especially one believed to come from God.
 ### curse
 
 **Pronunciation:** /kɜːrs/ &middot; *KURS*
-**Русский:** проклятие
+**Русский:** проклятие; ругательство, бранное слово
 **Plural:** *curses*
 **Countability:** countable
 
-Words meant to bring evil on someone, or the evil that follows.
+Curse has 2 distinct senses.
+
+**1. Words meant to bring evil on someone, or the evil that follows.** (проклятие)
 
 1. The family believed there was a *curse* on the house.
 2. Fame turned out to be a *curse*.
 3. The novel is full of ancient *curses*.
+
+**2. A rude or profane word said in anger.** (ругательство, бранное слово)
+
+4. He dropped the hammer and muttered a *curse*.
+5. The letter was full of *curses* aimed at the landlord.
+6. Not one *curse* passed her lips all evening.
 
 ---
 
@@ -1880,14 +2026,22 @@ A state of complete spiritual understanding.
 ### nirvana
 
 **Pronunciation:** /nɪrˈvɑːnə/ &middot; *nur-VAH-nuh*
-**Русский:** нирвана
+**Русский:** нирвана; блаженство, рай (перен.)
 **Countability:** uncountable
 
-In Buddhism, the perfect peace reached when suffering and desire end.
+Nirvana has 2 distinct senses.
+
+**1. In Buddhism, the perfect peace reached when suffering and desire end.** (нирвана)
 
 1. The goal is to reach *nirvana*.
 2. For him a quiet Sunday is *nirvana*.
 3. The book explains what *nirvana* actually means.
+
+**2. A state of perfect happiness, or the ideal version of something.** (блаженство, рай (перен.))
+
+4. For a book lover that store is *nirvana*.
+5. A hot shower after a long hike is pure *nirvana*.
+6. The resort promises three days of *nirvana*.
 
 ---
 
@@ -2029,15 +2183,29 @@ Something a culture forbids people to do or even mention.
 ### magic
 
 **Pronunciation:** /ˈmædʒɪk/ &middot; *MAJ-ik*
-**Русский:** магия, волшебство
+**Русский:** магия, волшебство; фокусы, иллюзионизм; волшебство, особое очарование
 **Countability:** uncountable
 **Contrast:** Uncountable: you say 'she does magic', never 'magics'.
 
-The use of supposed supernatural power to make things happen.
+Magic has 3 distinct senses.
+
+**1. The use of supposed supernatural power to make things happen.** (магия, волшебство)
 
 1. The villagers believed she worked *magic*.
 2. He does card *magic* at birthday parties.
 3. It looked like *magic* from where I was standing.
+
+**2. The art of performing clever tricks that seem impossible.** (фокусы, иллюзионизм)
+
+4. He does card *magic* at children's parties.
+5. Her uncle taught her close-up *magic*.
+6. The show mixes comedy and *magic*.
+
+**3. A special charm or quality that makes something wonderful.** (волшебство, особое очарование)
+
+7. There is a certain *magic* about the first snow.
+8. The band lost its *magic* after the singer left.
+9. Live theater has a *magic* that television can't match.
 
 ---
 

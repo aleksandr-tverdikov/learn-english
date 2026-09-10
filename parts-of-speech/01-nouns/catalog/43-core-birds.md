@@ -27,30 +27,46 @@ An animal with feathers, two wings, and a beak.
 ### eagle
 
 **Pronunciation:** /ˈiːɡəl/ &middot; *EE-gul*
-**Русский:** орёл
+**Русский:** орёл; игл (на два удара ниже пара)
 **Plural:** *eagles*
 **Countability:** countable
 
-A large bird of prey with a hooked beak and very good eyesight.
+Eagle has 2 distinct senses.
+
+**1. A large bird of prey with a hooked beak and very good eyesight.** (орёл)
 
 1. An *eagle* circled over the canyon for almost an hour.
 2. Two bald *eagles* nest on the island every spring.
 3. The *eagle* dropped out of the sky and grabbed a fish.
+
+**2. A golf score of two strokes under par on one hole.** (игл (на два удара ниже пара))
+
+4. He sank a long putt for an *eagle* on the par five.
+5. Two *eagles* in one round is almost unheard of.
+6. Her *eagle* on the sixteenth won the tournament.
 
 ---
 
 ### hawk
 
 **Pronunciation:** /hɔːk/ &middot; *HAWK*
-**Русский:** ястреб
+**Русский:** ястреб; ястреб (сторонник жёсткого курса)
 **Plural:** *hawks*
 **Countability:** countable
 
-A medium-sized bird of prey that hunts small animals by day.
+Hawk has 2 distinct senses.
+
+**1. A medium-sized bird of prey that hunts small animals by day.** (ястреб)
 
 1. A *hawk* was sitting on the fence post, watching the field.
 2. *Hawks* around here go after squirrels and rabbits.
 3. We saw a red-tailed *hawk* on the drive up.
+
+**2. Someone who supports military force or a tough, aggressive policy.** (ястреб (сторонник жёсткого курса))
+
+4. The *hawks* in Congress pushed for airstrikes.
+5. He was a *hawk* on the deficit and voted against every spending bill.
+6. The president's advisers split into *hawks* and doves.
 
 ---
 
@@ -87,15 +103,23 @@ A night bird with large forward-facing eyes and a flat face.
 ### vulture
 
 **Pronunciation:** /ˈvʌltʃər/ &middot; *VUL-chur*
-**Русский:** гриф, стервятник
+**Русский:** гриф, стервятник; стервятник (наживающийся на чужой беде)
 **Plural:** *vultures*
 **Countability:** countable
 
-A large bird that feeds on dead animals.
+Vulture has 2 distinct senses.
+
+**1. A large bird that feeds on dead animals.** (гриф, стервятник)
 
 1. A couple of *vultures* were circling over the highway.
 2. The *vulture* waited until the coyote left.
 3. *Vultures* clean up carcasses that would otherwise rot.
+
+**2. A person who takes advantage of other people's troubles for profit.** (стервятник (наживающийся на чужой беде))
+
+4. *Vultures* moved into the neighborhood after the flood, buying homes cheap.
+5. Investors circled the failing company like *vultures*.
+6. He called the payday lenders *vultures*.
 
 ---
 
@@ -163,16 +187,24 @@ A gray city bird with a small head and a fat body.
 ### dove
 
 **Pronunciation:** /dʌv/ &middot; *DUV*
-**Русский:** голубь (символ мира)
+**Русский:** голубь (символ мира); сторонник мирного урегулирования, «голубь»
 **Plural:** *doves*
 **Countability:** countable
 **Contrast:** The bird rhymes with love: /dʌv/. The identically spelled past tense of dive is /doʊv/, rhyming with stove.
 
-A small pale pigeon, often used as a symbol of peace.
+Dove has 2 distinct senses.
+
+**1. A small pale pigeon, often used as a symbol of peace.** (голубь (символ мира))
 
 1. A *dove* landed on the windowsill and cooed.
 2. Two white *doves* were released at the wedding.
 3. The *dove* is a symbol of peace in a lot of countries.
+
+**2. A politician or official who prefers peace and negotiation to force.** (сторонник мирного урегулирования, «голубь»)
+
+4. The debate split the cabinet into hawks and *doves*.
+5. He was known as a *dove* on foreign policy.
+6. Even the *doves* voted for the sanctions.
 
 ---
 
@@ -361,16 +393,24 @@ A tall wading bird with long legs and a long straight bill.
 ### crane
 
 **Pronunciation:** /kreɪn/ &middot; *KRAYN*
-**Русский:** журавль
+**Русский:** журавль; подъёмный кран
 **Plural:** *cranes*
 **Countability:** countable
 **Contrast:** The same word also means a lifting machine on a building site; only context tells you which.
 
-A tall long-necked bird that lives in wetlands.
+Crane has 2 distinct senses.
+
+**1. A tall long-necked bird that lives in wetlands.** (журавль)
 
 1. A *crane* took off from the marsh as we drove by.
 2. Thousands of *cranes* stop here on their way south.
 3. The *crane* stood on one leg for almost ten minutes.
+
+**2. A tall machine with a long arm for lifting heavy loads.** (подъёмный кран)
+
+4. A *crane* lifted the steel beams onto the roof.
+5. Three *cranes* stood over the half-built tower.
+6. The *crane* operator worked from a cab a hundred feet up.
 
 ---
 
@@ -407,16 +447,24 @@ A large water bird with a pouch under its bill for holding fish.
 ### swallow
 
 **Pronunciation:** /ˈswɑːloʊ/ &middot; *SWAH-loh*
-**Русский:** ласточка
+**Русский:** ласточка; глоток
 **Plural:** *swallows*
 **Countability:** countable
 **Contrast:** Spelled and said exactly like the verb swallow (to send food down your throat).
 
-A small fast bird with pointed wings and a forked tail.
+Swallow has 2 distinct senses.
+
+**1. A small fast bird with pointed wings and a forked tail.** (ласточка)
 
 1. A *swallow* built a mud nest under the eaves.
 2. *Swallows* come back to the barn every April.
 3. The *swallow* caught a bug in midair.
+
+**2. An amount of food or drink taken down the throat at one time.** (глоток)
+
+4. He took a long *swallow* of coffee.
+5. There were only a few *swallows* left in the bottle.
+6. She washed the pill down with a *swallow* of water.
 
 ---
 
@@ -635,15 +683,23 @@ A very small brown bird with a short upright tail and a loud song.
 ### lark
 
 **Pronunciation:** /lɑːrk/ &middot; *LARK*
-**Русский:** жаворонок
+**Русский:** жаворонок; забава, затея ради развлечения
 **Plural:** *larks*
 **Countability:** countable
 
-A brown field bird that sings while flying high in the air.
+Lark has 2 distinct senses.
+
+**1. A brown field bird that sings while flying high in the air.** (жаворонок)
 
 1. A *lark* rose straight up over the field, singing.
 2. *Larks* nest right on the ground.
 3. We heard a *lark* long before we saw it.
+
+**2. Something done just for fun or on a sudden whim.** (забава, затея ради развлечения)
+
+4. We drove to the coast on a *lark*.
+5. He entered the contest as a *lark* and won.
+6. What started as a *lark* turned into a real business.
 
 ---
 
@@ -803,15 +859,23 @@ An adult female chicken, or the female of some other birds.
 ### chick
 
 **Pronunciation:** /tʃɪk/ &middot; *CHIK*
-**Русский:** птенец, цыплёнок
+**Русский:** птенец, цыплёнок; девчонка, тёлка (разг., часто пренебрежительно)
 **Plural:** *chicks*
 **Countability:** countable
 
-A very young bird, especially a young chicken.
+Chick has 2 distinct senses.
+
+**1. A very young bird, especially a young chicken.** (птенец, цыплёнок)
 
 1. A *chick* poked its head out of the shell.
 2. All twelve *chicks* hatched over two days.
 3. The mother bird kept bringing worms back to the *chick*.
+
+**2. An informal and often disrespectful word for a young woman.** (девчонка, тёлка (разг., часто пренебрежительно))
+
+4. Some *chick* from accounting left you a note.
+5. He calls every woman a *chick*, and nobody appreciates it.
+6. A couple of *chicks* in the front row started laughing.
 
 ---
 
@@ -880,15 +944,23 @@ A male duck.
 ### gander
 
 **Pronunciation:** /ˈɡændər/ &middot; *GAN-dur*
-**Русский:** гусак
+**Русский:** гусак; взгляд (разг.: «взглянуть»)
 **Plural:** *ganders*
 **Countability:** countable
 
-A male goose.
+Gander has 2 distinct senses.
+
+**1. A male goose.** (гусак)
 
 1. The *gander* hissed and came at me with his neck out.
 2. One *gander* can guard a whole yard.
 3. The *ganders* were fighting over territory by the water.
+
+**2. A quick look at something.** (взгляд (разг.: «взглянуть»))
+
+4. Take a *gander* at this photo.
+5. Let me have a *gander* at the menu.
+6. He stopped to take a *gander* at the car in the driveway.
 
 ---
 
@@ -925,15 +997,23 @@ A small North American bird with a black cap, named for its call.
 ### loon
 
 **Pronunciation:** /luːn/ &middot; *LOON*
-**Русский:** гагара
+**Русский:** гагара; чудак, псих
 **Plural:** *loons*
 **Countability:** countable
 
-A diving water bird of northern lakes with a haunting call.
+Loon has 2 distinct senses.
+
+**1. A diving water bird of northern lakes with a haunting call.** (гагара)
 
 1. A *loon* called out across the lake at sunset.
 2. *Loons* dive and stay under for a surprisingly long time.
 3. We watched a *loon* carry its chick on its back.
+
+**2. A silly or crazy person.** (чудак, псих)
+
+4. The guy on the corner is a harmless *loon*.
+5. You'd have to be a *loon* to swim in that water.
+6. A few *loons* showed up in shorts in January.
 
 ---
 
@@ -1017,15 +1097,23 @@ A bird kept for meat and eggs, or a wild bird hunted for food.
 ### raptor
 
 **Pronunciation:** /ˈræptər/ &middot; *RAP-tur*
-**Русский:** хищная птица
+**Русский:** хищная птица; раптор (хищный динозавр)
 **Plural:** *raptors*
 **Countability:** countable
 
-A bird that hunts other animals, such as a hawk, eagle, or owl.
+Raptor has 2 distinct senses.
+
+**1. A bird that hunts other animals, such as a hawk, eagle, or owl.** (хищная птица)
 
 1. A *raptor* was perched on the light pole over the interstate.
 2. *Raptors* have hooked beaks and very sharp talons.
 3. The center takes in injured *raptors* and releases them.
+
+**2. A small, fast, meat-eating dinosaur.** (раптор (хищный динозавр))
+
+4. The kids wanted to see the *raptors* at the natural history museum.
+5. A *raptor* had one long curved claw on each foot.
+6. In the movie the *raptors* learn how to open doors.
 
 ---
 
@@ -1133,15 +1221,29 @@ A claw on a bird of prey.
 ### crest
 
 **Pronunciation:** /krɛst/ &middot; *KREST*
-**Русский:** хохолок, гребень
+**Русский:** хохолок, гребень; гребень (волны), вершина (холма); герб, эмблема
 **Plural:** *crests*
 **Countability:** countable
 
-A tuft of feathers on top of a bird's head.
+Crest has 3 distinct senses.
+
+**1. A tuft of feathers on top of a bird's head.** (хохолок, гребень)
 
 1. The bird raised its *crest* when it got excited.
 2. Cardinals have a pointed *crest* on the head.
 3. Both *crests* went up the moment the dog appeared.
+
+**2. The highest part of a hill, a wave, or a rise in the road.** (гребень (волны), вершина (холма))
+
+4. The house sits on the *crest* of the hill.
+5. Surfers waited for the *crest* of the next wave.
+6. You can see the ocean once you reach the *crest*.
+
+**3. A design used as the emblem of a family, school, or team.** (герб, эмблема)
+
+7. The school *crest* is stitched on every blazer.
+8. He wore a ring with his family *crest*.
+9. Both team *crests* were painted at midfield.
 
 ---
 
@@ -1163,30 +1265,46 @@ All the feathers covering a bird.
 ### down
 
 **Pronunciation:** /daʊn/ &middot; *DOWN*
-**Русский:** пух
+**Русский:** пух; попытка (в американском футболе)
 **Countability:** uncountable
 **Contrast:** Uncountable: some down, never a down or downs. Spelled like the direction word down.
 
-The soft fine feathers under a bird's outer feathers.
+Down has 2 distinct senses.
+
+**1. The soft fine feathers under a bird's outer feathers.** (пух)
 
 1. The chicks are covered in soft gray *down*.
 2. The jacket is filled with goose *down*.
 3. *Down* is warmer than any synthetic filling.
+
+**2. In football, one of the four tries a team gets to advance the ball ten yards.** (попытка (в американском футболе))
+
+4. It's third *down* and eight yards to go.
+5. They picked up a first *down* on the next play.
+6. The offense wasted two *downs* running out the clock.
 
 ---
 
 ### quill
 
 **Pronunciation:** /kwɪl/ &middot; *KWIL*
-**Русский:** маховое перо; гусиное перо (для письма)
+**Русский:** маховое перо; гусиное перо (для письма); игла (дикобраза)
 **Plural:** *quills*
 **Countability:** countable
 
-A large stiff feather, or a pen made from one.
+Quill has 2 distinct senses.
+
+**1. A large stiff feather, or a pen made from one.** (маховое перо; гусиное перо (для письма))
 
 1. A single *quill* had fallen out of the wing.
 2. People used to write with goose *quills*.
 3. The *quill* was stiff and hollow at the base.
+
+**2. One of the sharp stiff spines on a porcupine.** (игла (дикобраза))
+
+4. The dog came home with *quills* in his nose.
+5. A porcupine raises its *quills* when it feels threatened.
+6. Each *quill* has a barbed tip that is hard to pull out.
 
 ---
 
@@ -1208,15 +1326,35 @@ The seasonal journey birds make from one region to another.
 ### flight
 
 **Pronunciation:** /flaɪt/ &middot; *FLYT*
-**Русский:** полёт
+**Русский:** полёт; рейс, авиарейс; лестничный марш; бегство
 **Plural:** *flights*
 **Countability:** countable
 
-The act or manner of flying through the air.
+Flight has 4 distinct senses.
+
+**1. The act or manner of flying through the air.** (полёт)
 
 1. The owl's *flight* is completely silent.
 2. We tracked the bird's *flight* until it went behind the trees.
 3. A pelican's *flight* looks awkward until it hits the water.
+
+**2. A trip made by airplane, or the plane making that trip.** (рейс, авиарейс)
+
+4. Our *flight* was delayed three hours.
+5. She booked a *flight* home for the holidays.
+6. All *flights* out of the airport were canceled.
+
+**3. A set of stairs running between two floors or landings.** (лестничный марш)
+
+7. Her apartment is up two *flights*.
+8. He carried the boxes up a *flight* of stairs.
+9. There's one more *flight* to the roof.
+
+**4. The act of running away from danger.** (бегство)
+
+10. The war caused the *flight* of thousands of families.
+11. Fear triggers the fight-or-*flight* response.
+12. His sudden *flight* from the city surprised everyone.
 
 ---
 
@@ -1269,16 +1407,24 @@ A short high sound made by a small bird.
 ### tweet
 
 **Pronunciation:** /twiːt/ &middot; *TWEET*
-**Русский:** чирик, щебет
+**Русский:** чирик, щебет; твит, короткий пост в соцсети
 **Plural:** *tweets*
 **Countability:** countable
 **Contrast:** Far more common now as an online post, but the bird sound is the original meaning.
 
-A short high sound made by a small bird.
+Tweet has 2 distinct senses.
+
+**1. A short high sound made by a small bird.** (чирик, щебет)
 
 1. A *tweet* came from the nest above the door.
 2. The little *tweets* got louder when the mother came back.
 3. I heard one *tweet* and then nothing.
+
+**2. A short message posted on a social media site, especially Twitter or X.** (твит, короткий пост в соцсети)
+
+4. His *tweet* got thousands of replies overnight.
+5. She deleted the *tweet* an hour after posting it.
+6. The whole story started with a single *tweet*.
 
 ---
 
@@ -1315,15 +1461,23 @@ The characteristic cry of a particular bird, or a device that imitates it.
 ### hoot
 
 **Pronunciation:** /huːt/ &middot; *HOOT*
-**Русский:** уханье (совы)
+**Русский:** уханье (совы); умора, потеха
 **Plural:** *hoots*
 **Countability:** countable
 
-The low call of an owl.
+Hoot has 2 distinct senses.
+
+**1. The low call of an owl.** (уханье (совы))
 
 1. A *hoot* came from the woods behind the house.
 2. We counted four *hoots* and then silence.
 3. The owl gave one long *hoot* and flew off.
+
+**2. Something or someone very funny.** (умора, потеха)
+
+4. Your uncle is a *hoot* at parties.
+5. The whole evening was a *hoot*.
+6. That movie is a *hoot* from start to finish.
 
 ---
 
@@ -1345,15 +1499,23 @@ The harsh cry of a crow or rook.
 ### quack
 
 **Pronunciation:** /kwæk/ &middot; *KWAK*
-**Русский:** кряканье
+**Русский:** кряканье; шарлатан, знахарь
 **Plural:** *quacks*
 **Countability:** countable
 
-The sound a duck makes.
+Quack has 2 distinct senses.
+
+**1. The sound a duck makes.** (кряканье)
 
 1. We heard a *quack* from the reeds.
 2. The *quacks* got frantic when the bread came out.
 3. A loud *quack* woke the whole campsite.
+
+**2. Someone who pretends to have medical skill.** (шарлатан, знахарь)
+
+4. The clinic turned out to be run by a *quack*.
+5. Don't waste money on some *quack* selling cures online.
+6. Nineteenth-century *quacks* sold colored water as medicine.
 
 ---
 

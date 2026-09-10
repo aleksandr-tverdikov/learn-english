@@ -12,16 +12,30 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### marker
 
 **Pronunciation:** /ˈmɑːrkər/ &middot; *MAR-kur*
-**Русский:** маркер, фломастер
+**Русский:** маркер, фломастер; указатель, метка (столбик, знак); маркер, показатель (в анализах, данных)
 **Plural:** *markers*
 **Countability:** countable
 **Contrast:** American; the British usually say felt-tip or marker pen.
 
-A pen with a thick felt tip that writes in bold color.
+Marker has 3 distinct senses.
+
+**1. A pen with a thick felt tip that writes in bold color.** (маркер, фломастер)
 
 1. Somebody used a permanent *marker* on the whiteboard.
 2. Label the box with a black *marker*.
 3. Half these *markers* are dried out.
+
+**2. An object or sign put in place to show where something is.** (указатель, метка (столбик, знак))
+
+4. A stone *marker* shows where the trail crosses the river.
+5. Mile *markers* count down to the state line.
+6. The family finally put a *marker* on the grave.
+
+**3. A sign in the body or in data that shows something is present.** (маркер, показатель (в анализах, данных))
+
+7. The blood test looks for *markers* of inflammation.
+8. Researchers found a genetic *marker* linked to the disease.
+9. Vocabulary size is a rough *marker* of reading ability.
 
 ---
 
@@ -58,29 +72,51 @@ A stick of colored wax that children draw with.
 ### ink
 
 **Pronunciation:** /ɪŋk/ &middot; *INGK*
-**Русский:** чернила
+**Русский:** чернила; чернила (кальмара); татуировки, наколки (разг.)
 **Countability:** uncountable
 
-The colored liquid that pens and printers write with.
+Ink has 3 distinct senses.
+
+**1. The colored liquid that pens and printers write with.** (чернила)
 
 1. The printer is out of *ink* again.
 2. Sign it in blue or black *ink*.
 3. The rain smeared the *ink* on the envelope.
+
+**2. The dark liquid a squid or octopus squirts out to hide itself.** (чернила (кальмара))
+
+4. The squid shot out a cloud of *ink* and vanished.
+5. The pasta is colored black with squid *ink*.
+6. An octopus releases *ink* when a predator comes close.
+
+**3. Tattoos on a person's skin (informal).** (татуировки, наколки (разг.))
+
+7. He's got a lot of *ink* on his forearms.
+8. She got her first *ink* at eighteen.
+9. Most of his *ink* stays hidden under his sleeves.
 
 ---
 
 ### stamp
 
 **Pronunciation:** /stæmp/ &middot; *STAMP*
-**Русский:** почтовая марка
+**Русский:** почтовая марка; штамп, печать; оттиск
 **Plural:** *stamps*
 **Countability:** countable
 
-A small printed square you stick on mail to pay for delivery.
+Stamp has 2 distinct senses.
+
+**1. A small printed square you stick on mail to pay for delivery.** (почтовая марка)
 
 1. This letter needs another *stamp*.
 2. He's collected *stamps* since he was a kid.
 3. A book of *stamps* went up in price again.
+
+**2. A tool for pressing a design onto a surface, or the mark it leaves.** (штамп, печать; оттиск)
+
+4. The clerk put a *stamp* in my passport.
+5. She keeps a rubber *stamp* with the return address on it.
+6. The document still needs the notary's *stamp*.
 
 ---
 
@@ -101,16 +137,36 @@ The marks such as commas and periods that break writing into readable pieces.
 ### period
 
 **Pronunciation:** /ˈpɪriəd/ &middot; *PEER-ee-uhd*
-**Русский:** точка (знак препинания)
+**Русский:** точка (знак препинания); период, отрезок времени; урок, учебный час; менструация, месячные
 **Plural:** *periods*
 **Countability:** countable
 **Contrast:** American; the British call this mark a full stop.
 
-The dot that ends a sentence.
+Period has 4 distinct senses.
+
+**1. The dot that ends a sentence.** (точка (знак препинания))
 
 1. You forgot the *period* at the end of that line.
 2. Put a *period* there, not a comma.
 3. He writes in short sentences with a lot of *periods*.
+
+**2. A length of time with a beginning and an end.** (период, отрезок времени)
+
+4. Sales were flat over a six-month *period*.
+5. He went through a rough *period* after the divorce.
+6. Rain is expected for short *periods* tomorrow afternoon.
+
+**3. One of the parts a school day is divided into for classes.** (урок, учебный час)
+
+7. I have chemistry third *period*.
+8. She grades papers during her free *period*.
+9. The fire drill ate up most of second *period*.
+
+**4. The monthly flow of blood from a woman's body.** (менструация, месячные)
+
+10. Her *period* is usually right on schedule.
+11. The cramps are worst on the first day of my *period*.
+12. She hasn't had a *period* since March.
 
 ---
 
@@ -195,16 +251,24 @@ The star-shaped mark used to flag a note or an exception.
 ### slash
 
 **Pronunciation:** /slæʃ/ &middot; *SLASH*
-**Русский:** косая черта, слэш
+**Русский:** косая черта, слэш; резаная рана, порез
 **Plural:** *slashes*
 **Countability:** countable
 **Contrast:** The line leaning forward is a slash; the one leaning the other way is a backslash.
 
-The forward-leaning line used between alternatives or in web addresses.
+Slash has 2 distinct senses.
+
+**1. The forward-leaning line used between alternatives or in web addresses.** (косая черта, слэш)
 
 1. Write and/or with a *slash* between them.
 2. There's an extra *slash* in that link.
 3. The date is written with *slashes*.
+
+**2. A long cut made by a sweeping stroke of something sharp.** (резаная рана, порез)
+
+4. There was a *slash* across the canvas of the painting.
+5. A thorn left a *slash* on the back of his hand.
+6. Deep *slashes* in the sidewall had flattened all four tires.
 
 ---
 
@@ -424,16 +488,30 @@ The form of a verb that shows when something happens.
 ### object
 
 **Pronunciation:** /ˈɑːbdʒɪkt/ &middot; *AHB-jikt*
-**Русский:** дополнение (в предложении)
+**Русский:** дополнение (в предложении); предмет, вещь; цель, задача
 **Plural:** *objects*
 **Countability:** countable
 **Contrast:** The noun is AHB-jikt with the stress up front; the verb meaning to protest is uhb-JEKT.
 
-The word in a sentence that receives the action of the verb.
+Object has 3 distinct senses.
+
+**1. The word in a sentence that receives the action of the verb.** (дополнение (в предложении))
 
 1. In I read the book, book is the *object*.
 2. The verb takes a direct *object*.
 3. Underline the subjects and circle the *objects*.
+
+**2. A thing that you can see and touch.** (предмет, вещь)
+
+4. Please take all metal *objects* out of your pockets.
+5. A strange *object* was floating in the pool.
+6. The museum holds thousands of small *objects* from the dig.
+
+**3. The aim or purpose of an action or a game.** (цель, задача)
+
+7. The *object* of the game is to collect all four cards.
+8. The whole *object* of the exercise was to save time.
+9. Winning was never the *object*.
 
 ---
 
@@ -569,15 +647,29 @@ Gender has 2 distinct senses.
 ### voice
 
 **Pronunciation:** /vɔɪs/ &middot; *VOYS*
-**Русский:** голос
+**Русский:** голос; право голоса, возможность высказаться; залог (глагола)
 **Plural:** *voices*
 **Countability:** countable
 
-The sound a person makes when speaking or singing.
+Voice has 3 distinct senses.
+
+**1. The sound a person makes when speaking or singing.** (голос)
 
 1. I didn't recognize her *voice* on the phone.
 2. Keep your *voice* down in the library.
 3. I could hear *voices* in the next room.
+
+**2. The right or chance to express an opinion and be listened to.** (право голоса, возможность высказаться)
+
+4. Renters deserve a *voice* in the decision.
+5. The union gives workers a *voice*.
+6. Students had no *voice* in setting the schedule.
+
+**3. The form of a verb that shows whether the subject acts or is acted on.** (залог (глагола))
+
+7. Scientists often write in the passive *voice*.
+8. The editor asked her to switch to the active *voice*.
+9. English has two *voices*, active and passive.
 
 ---
 
@@ -644,15 +736,23 @@ A piece added to the end of a word that changes its meaning or its part of speec
 ### ending
 
 **Pronunciation:** /ˈɛndɪŋ/ &middot; *EN-ding*
-**Русский:** окончание (грамматическое)
+**Русский:** окончание (грамматическое); концовка, финал
 **Plural:** *endings*
 **Countability:** countable
 
-The letters at the end of a word that show its grammatical form.
+Ending has 2 distinct senses.
+
+**1. The letters at the end of a word that show its grammatical form.** (окончание (грамматическое))
 
 1. The verb takes an -s *ending* in the third person.
 2. Russian nouns change their *endings* depending on the case.
 3. He keeps dropping the past-tense *ending*.
+
+**2. The way a story, film, or event finishes.** (концовка, финал)
+
+4. The book has a surprisingly happy *ending*.
+5. Don't tell me the *ending*.
+6. Both *endings* were filmed and shown to test audiences.
 
 ---
 
@@ -690,45 +790,81 @@ The form of an adjective or adverb that marks the most or the least.
 ### usage
 
 **Pronunciation:** /ˈjuːsɪdʒ/ &middot; *YOO-sij*
-**Русский:** словоупотребление, узус
+**Русский:** словоупотребление, узус; расход, потребление
 **Countability:** uncountable
 **Contrast:** The s hisses here: YOO-sij. The verb use has a z sound: YOOZ.
 
-The way words are actually used by the people who speak a language.
+Usage has 2 distinct senses.
+
+**1. The way words are actually used by the people who speak a language.** (словоупотребление, узус)
 
 1. That spelling is fine in American *usage*.
 2. The dictionary has a note on *usage* at the bottom.
 3. *Usage* changes faster than the rule books do.
+
+**2. The amount of something that is used.** (расход, потребление)
+
+4. Our water *usage* went up in July.
+5. Check your data *usage* before you stream the game.
+6. The app tracks your screen *usage* by the hour.
 
 ---
 
 ### rule
 
 **Pronunciation:** /ruːl/ &middot; *ROOL*
-**Русский:** правило
+**Русский:** правило; правление, власть
 **Plural:** *rules*
 **Countability:** countable
 
-A statement of how something is supposed to be done.
+Rule has 2 distinct senses.
+
+**1. A statement of how something is supposed to be done.** (правило)
 
 1. The *rule* is i before e except after c.
 2. That *rule* has more exceptions than examples.
 3. Grammar *rules* are easier to state than to follow.
+
+**2. The power to govern a country or people, or the period of that power.** (правление, власть)
+
+4. The island was under Spanish *rule* for centuries.
+5. The country returned to civilian *rule* in 1990.
+6. Life under military *rule* was tightly controlled.
 
 ---
 
 ### word
 
 **Pronunciation:** /wɜːrd/ &middot; *WURD*
-**Русский:** слово
+**Русский:** слово; слово, обещание; весть, известие; разговор, пара слов
 **Plural:** *words*
 **Countability:** countable
 
-A single unit of language, written with spaces on either side.
+Word has 4 distinct senses.
+
+**1. A single unit of language, written with spaces on either side.** (слово)
 
 1. I don't know that *word* — let me look it up.
 2. Say it in your own *words*.
 3. The essay has to be under five hundred *words*.
+
+**2. A promise that you will do something.** (слово, обещание)
+
+4. You have my *word* that it stays between us.
+5. He's a man of his *word*.
+6. She gave me her *word* and then broke it.
+
+**3. News or a message about something.** (весть, известие)
+
+7. *Word* came that the flight was canceled.
+8. Send *word* as soon as you land.
+9. There's still no *word* from the hospital.
+
+**4. A short conversation with someone.** (разговор, пара слов)
+
+10. Can I have a *word* with you?
+11. The coach had a quiet *word* with the rookie.
+12. A quick *word* before you head out?
 
 ---
 
@@ -810,15 +946,35 @@ The smallest unit of sound that can change the meaning of a word.
 ### accent
 
 **Pronunciation:** /ˈæksɛnt/ &middot; *AK-sent*
-**Русский:** акцент (в речи)
+**Русский:** акцент (в речи); диакритический знак, значок над буквой; ударение, акцент (в слове, в такте); акцент (яркая деталь в интерьере, одежде)
 **Plural:** *accents*
 **Countability:** countable
 
-The way someone's speech sounds because of where they come from.
+Accent has 4 distinct senses.
+
+**1. The way someone's speech sounds because of where they come from.** (акцент (в речи))
 
 1. She still has a slight *accent*.
 2. He can do a pretty good Southern *accent*.
 3. There are dozens of *accents* just in this state.
+
+**2. A mark written above or below a letter to show how it is pronounced.** (диакритический знак, значок над буквой)
+
+4. Don't forget the *accent* on the e in cafe.
+5. Spanish words often carry an *accent* over one vowel.
+6. The keyboard has a shortcut for typing *accents*.
+
+**3. The extra stress given to a syllable, a word, or a musical beat.** (ударение, акцент (в слове, в такте))
+
+7. In the noun 'record' the *accent* falls on the first syllable.
+8. Move the *accent* to the second word and the sentence changes meaning.
+9. The drummer put the *accent* on the offbeat.
+
+**4. A detail added to a room or an outfit so that it stands out against the rest.** (акцент (яркая деталь в интерьере, одежде))
+
+10. The gray couch has two red pillows as an *accent*.
+11. We painted one wall navy for an *accent*.
+12. Gold *accents* run along the edge of every plate.
 
 ---
 
@@ -989,15 +1145,23 @@ A word that sounds like another word but is spelled differently.
 ### meaning
 
 **Pronunciation:** /ˈmiːnɪŋ/ &middot; *MEE-ning*
-**Русский:** значение, смысл
+**Русский:** значение, смысл; смысл, значимость
 **Plural:** *meanings*
 **Countability:** countable
 
-What a word, sign, or sentence stands for.
+Meaning has 2 distinct senses.
+
+**1. What a word, sign, or sentence stands for.** (значение, смысл)
 
 1. What's the *meaning* of that word?
 2. The word has a second *meaning* in medicine.
 3. One comma can change the *meaning* completely.
+
+**2. The sense of purpose or importance that something gives a person's life.** (смысл, значимость)
+
+4. Volunteering gave her life new *meaning*.
+5. He went looking for *meaning* after the divorce.
+6. The ceremony has deep *meaning* for the whole family.
 
 ---
 
@@ -1109,15 +1273,29 @@ Someone who studies how language works.
 ### name
 
 **Pronunciation:** /neɪm/ &middot; *NAYM*
-**Русский:** имя, название
+**Русский:** имя, название; репутация, доброе имя; известная личность, знаменитость
 **Plural:** *names*
 **Countability:** countable
 
-The word or words a person or thing is called by.
+Name has 3 distinct senses.
+
+**1. The word or words a person or thing is called by.** (имя, название)
 
 1. What's the *name* of that street?
 2. I forgot her *name* the second she said it.
 3. Put your *names* at the top of the page.
+
+**2. The reputation that a person or a business has.** (репутация, доброе имя)
+
+4. He spent years clearing his *name*.
+5. The company guards its good *name*.
+6. She made a *name* for herself in local politics.
+
+**3. A well-known person in a particular field.** (известная личность, знаменитость)
+
+7. Several big *names* signed on to the project.
+8. He's the biggest *name* in country music right now.
+9. The conference drew a few famous *names*.
 
 ---
 
@@ -1206,30 +1384,58 @@ One of the parts a piece of writing is divided into.
 ### heading
 
 **Pronunciation:** /ˈhɛdɪŋ/ &middot; *HED-ing*
-**Русский:** заголовок (раздела)
+**Русский:** заголовок (раздела); курс (направление движения)
 **Plural:** *headings*
 **Countability:** countable
 
-The short title printed above a section of text.
+Heading has 2 distinct senses.
+
+**1. The short title printed above a section of text.** (заголовок (раздела))
 
 1. Put a *heading* over each part.
 2. The *heading* is in bold.
 3. Just skim the *headings* to find it.
+
+**2. The compass direction in which a ship, plane, or vehicle is moving.** (курс (направление движения))
+
+4. The pilot changed *heading* to get around the storm.
+5. Hold this *heading* until you see the lighthouse.
+6. The boat was on a northerly *heading* when the engine quit.
 
 ---
 
 ### passage
 
 **Pronunciation:** /ˈpæsɪdʒ/ &middot; *PAS-ij*
-**Русский:** отрывок, фрагмент текста
+**Русский:** отрывок, фрагмент текста; коридор, проход; прохождение; течение (времени); принятие (закона)
 **Plural:** *passages*
 **Countability:** countable
 
-A short piece taken out of a longer text.
+Passage has 4 distinct senses.
+
+**1. A short piece taken out of a longer text.** (отрывок, фрагмент текста)
 
 1. Read the *passage* and answer the questions.
 2. She quoted a *passage* from the letter.
 3. The test has four reading *passages*.
+
+**2. A long narrow way that connects one place to another.** (коридор, проход)
+
+4. A dark *passage* led from the kitchen to the pantry.
+5. The cave narrows into a low *passage*.
+6. Boxes lined both sides of the *passage*.
+
+**3. The act of moving through or past something, or of time going by.** (прохождение; течение (времени))
+
+7. The *passage* of time has softened the memory.
+8. The bridge is too low for the *passage* of tall trucks.
+9. The house settled a little with the *passage* of each winter.
+
+**4. The approval of a law by a legislature.** (принятие (закона))
+
+10. The bill's *passage* took nearly two years.
+11. Supporters celebrated the *passage* of the amendment.
+12. The measure won *passage* by a single vote.
 
 ---
 
@@ -1404,15 +1610,23 @@ A joke that plays on two meanings of a word.
 ### joke
 
 **Pronunciation:** /dʒoʊk/ &middot; *JOHK*
-**Русский:** шутка, анекдот
+**Русский:** шутка, анекдот; посмешище, фарс, ерунда
 **Plural:** *jokes*
 **Countability:** countable
 
-Something said to make people laugh.
+Joke has 2 distinct senses.
+
+**1. Something said to make people laugh.** (шутка, анекдот)
 
 1. He told the same *joke* twice.
 2. I didn't get the *joke*.
 3. Her *jokes* land better in person.
+
+**2. Something or someone too poor or ridiculous to be taken seriously.** (посмешище, фарс, ерунда)
+
+4. The whole investigation was a *joke*.
+5. Their customer service is a complete *joke*.
+6. After the third delay, the schedule became a *joke*.
 
 ---
 
@@ -1555,15 +1769,23 @@ A written symbol that stands for a number.
 ### blank
 
 **Pronunciation:** /blæŋk/ &middot; *BLANGK*
-**Русский:** пропуск (место для заполнения)
+**Русский:** пропуск (место для заполнения); холостой патрон
 **Plural:** *blanks*
 **Countability:** countable
 
-An empty space left in a text for someone to write in.
+Blank has 2 distinct senses.
+
+**1. An empty space left in a text for someone to write in.** (пропуск (место для заполнения))
 
 1. Fill in the *blank* with the right verb.
 2. Leave the last *blank* empty for now.
 3. The worksheet has twenty *blanks*.
+
+**2. A cartridge that makes a bang but fires no bullet.** (холостой патрон)
+
+4. The starter's pistol was loaded with *blanks*.
+5. The soldiers fired *blanks* during the rehearsal.
+6. A *blank* can still hurt you at close range.
 
 ---
 

@@ -94,14 +94,43 @@
       "term": "mop",
       "ipa": "/mɑːp/",
       "respell": "MAHP",
-      "meaning": "A long-handled tool for washing floors. ---",
+      "meaning": "Mop has 2 distinct senses.",
       "examples": [
         "The mop is in the utility closet.",
         "She wrung out the mop over the sink.",
-        "We use separate mops for the kitchen and the bathroom."
+        "We use separate mops for the kitchen and the bathroom.",
+        "The kid has a mop of red curls.",
+        "He pushed the mop of hair out of his eyes.",
+        "A mop of blond hair stuck out from under his cap."
       ],
-      "senses": [],
-      "русский": "швабра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long-handled tool for washing floors",
+          "body": [
+            "(швабра)"
+          ],
+          "examples": [
+            "The mop is in the utility closet.",
+            "She wrung out the mop over the sink.",
+            "We use separate mops for the kitchen and the bathroom."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick, untidy mass of hair on someone's head",
+          "body": [
+            "(копна волос)",
+            "---"
+          ],
+          "examples": [
+            "The kid has a mop of red curls.",
+            "He pushed the mop of hair out of his eyes.",
+            "A mop of blond hair stuck out from under his cap."
+          ]
+        }
+      ],
+      "русский": "швабра; копна волос",
       "plural": "mops",
       "countability": "countable"
     },
@@ -139,14 +168,58 @@
       "term": "rag",
       "ipa": "/ræɡ/",
       "respell": "RAG",
-      "meaning": "A piece of old cloth used for cleaning. ---",
+      "meaning": "Rag has 3 distinct senses.",
       "examples": [
         "Wipe up the spill with a rag.",
         "He used an old T-shirt as a rag.",
-        "There's a pile of rags in the garage."
+        "There's a pile of rags in the garage.",
+        "The children in the photograph are dressed in rags.",
+        "He went from rags to riches in about ten years.",
+        "A scarecrow in rags stood at the edge of the field.",
+        "Nobody believes anything printed in that rag.",
+        "The local rag got the story wrong again.",
+        "He writes a column for a supermarket rag."
       ],
-      "senses": [],
-      "русский": "тряпка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of old cloth used for cleaning",
+          "body": [
+            "(тряпка)"
+          ],
+          "examples": [
+            "Wipe up the spill with a rag.",
+            "He used an old T-shirt as a rag.",
+            "There's a pile of rags in the garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Old torn clothes",
+          "body": [
+            "(лохмотья, тряпьё)"
+          ],
+          "examples": [
+            "The children in the photograph are dressed in rags.",
+            "He went from rags to riches in about ten years.",
+            "A scarecrow in rags stood at the edge of the field."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A newspaper thought to be of poor quality",
+          "body": [
+            "(газетёнка, бульварная газета)",
+            "---"
+          ],
+          "examples": [
+            "Nobody believes anything printed in that rag.",
+            "The local rag got the story wrong again.",
+            "He writes a column for a supermarket rag."
+          ]
+        }
+      ],
+      "русский": "тряпка; лохмотья, тряпьё; газетёнка, бульварная газета",
       "plural": "rags",
       "countability": "countable"
     },
@@ -170,14 +243,58 @@
       "term": "stain",
       "ipa": "/steɪn/",
       "respell": "STAYN",
-      "meaning": "A dirty mark that is hard to remove. ---",
+      "meaning": "Stain has 3 distinct senses.",
       "examples": [
         "There's a coffee stain on the rug.",
         "The stain came out in the wash.",
-        "Grease stains are the hardest ones to get out."
+        "Grease stains are the hardest ones to get out.",
+        "We put two coats of stain on the deck.",
+        "This stain gives pine the color of walnut.",
+        "He wiped the extra stain off with a rag.",
+        "The scandal left a stain on his reputation.",
+        "The verdict removed the stain from her record.",
+        "Corruption remains a stain on the department."
       ],
-      "senses": [],
-      "русский": "пятно",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dirty mark that is hard to remove",
+          "body": [
+            "(пятно)"
+          ],
+          "examples": [
+            "There's a coffee stain on the rug.",
+            "The stain came out in the wash.",
+            "Grease stains are the hardest ones to get out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A colored liquid brushed onto wood to darken it while letting the grain show",
+          "body": [
+            "(морилка (для дерева))"
+          ],
+          "examples": [
+            "We put two coats of stain on the deck.",
+            "This stain gives pine the color of walnut.",
+            "He wiped the extra stain off with a rag."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A mark of shame on someone's name or record",
+          "body": [
+            "(пятно (на репутации))",
+            "---"
+          ],
+          "examples": [
+            "The scandal left a stain on his reputation.",
+            "The verdict removed the stain from her record.",
+            "Corruption remains a stain on the department."
+          ]
+        }
+      ],
+      "русский": "пятно; морилка (для дерева); пятно (на репутации)",
       "plural": "stains",
       "countability": "countable"
     },
@@ -228,14 +345,43 @@
       "term": "trash",
       "ipa": "/træʃ/",
       "respell": "TRASH",
-      "meaning": "Things you throw away. ---",
+      "meaning": "Trash has 2 distinct senses.",
       "examples": [
         "Take the trash out before you leave.",
         "The trash gets picked up on Tuesdays.",
-        "There's trash all over the driveway."
+        "There's trash all over the driveway.",
+        "That movie was total trash.",
+        "He says most of the songs on the radio are trash.",
+        "The book got great reviews, but I thought it was trash."
       ],
-      "senses": [],
-      "русский": "мусор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Things you throw away",
+          "body": [
+            "(мусор)"
+          ],
+          "examples": [
+            "Take the trash out before you leave.",
+            "The trash gets picked up on Tuesdays.",
+            "There's trash all over the driveway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something of very poor quality",
+          "body": [
+            "(дрянь, ерунда)",
+            "---"
+          ],
+          "examples": [
+            "That movie was total trash.",
+            "He says most of the songs on the radio are trash.",
+            "The book got great reviews, but I thought it was trash."
+          ]
+        }
+      ],
+      "русский": "мусор; дрянь, ерунда",
       "countability": "uncountable",
       "contrast": "American; the British say rubbish. Never trashes."
     },
@@ -348,14 +494,58 @@
       "term": "brush",
       "ipa": "/brʌʃ/",
       "respell": "BRUHSH",
-      "meaning": "A tool with stiff bristles used for cleaning, painting, or hair. ---",
+      "meaning": "Brush has 3 distinct senses.",
       "examples": [
         "She scrubbed the tile with a stiff brush.",
         "Use a wire brush on the grill.",
-        "The paint brushes are soaking in the sink."
+        "The paint brushes are soaking in the sink.",
+        "The rabbit disappeared into the brush.",
+        "Crews cleared the brush along the highway to slow the fire.",
+        "We piled the cut brush behind the barn.",
+        "He had a brush with the law as a teenager.",
+        "Her brush with cancer changed the way she works.",
+        "The pilot describes his brush with death in the first chapter."
       ],
-      "senses": [],
-      "русский": "щётка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool with stiff bristles used for cleaning, painting, or hair",
+          "body": [
+            "(щётка)"
+          ],
+          "examples": [
+            "She scrubbed the tile with a stiff brush.",
+            "Use a wire brush on the grill.",
+            "The paint brushes are soaking in the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Rough low bushes and small trees growing thickly on open land",
+          "body": [
+            "(кустарник, заросли)"
+          ],
+          "examples": [
+            "The rabbit disappeared into the brush.",
+            "Crews cleared the brush along the highway to slow the fire.",
+            "We piled the cut brush behind the barn."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short, close encounter with something dangerous or unpleasant",
+          "body": [
+            "(столкновение, близкая встреча (с чем-л. опасным))",
+            "---"
+          ],
+          "examples": [
+            "He had a brush with the law as a teenager.",
+            "Her brush with cancer changed the way she works.",
+            "The pilot describes his brush with death in the first chapter."
+          ]
+        }
+      ],
+      "русский": "щётка; кустарник, заросли; столкновение, близкая встреча (с чем-л. опасным)",
       "plural": "brushes",
       "countability": "countable"
     },
@@ -422,14 +612,58 @@
       "term": "battery",
       "ipa": "/ˈbætəri/",
       "respell": "BAT-ur-ee",
-      "meaning": "A sealed cell that stores electric power. ---",
+      "meaning": "Battery has 3 distinct senses.",
       "examples": [
         "The remote needs new batteries.",
         "The smoke detector battery is dying.",
-        "Keep spare batteries in the junk drawer."
+        "Keep spare batteries in the junk drawer.",
+        "He was charged with assault and battery.",
+        "The battery charge was dropped before trial.",
+        "She sued him for battery after the fight.",
+        "The doctor ordered a battery of tests.",
+        "Recruits face a battery of physical exams.",
+        "He survived a battery of questions from reporters."
       ],
-      "senses": [],
-      "русский": "батарейка, аккумулятор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sealed cell that stores electric power",
+          "body": [
+            "(батарейка, аккумулятор)"
+          ],
+          "examples": [
+            "The remote needs new batteries.",
+            "The smoke detector battery is dying.",
+            "Keep spare batteries in the junk drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The crime of hitting or violently touching another person",
+          "body": [
+            "(побои, нанесение побоев)"
+          ],
+          "examples": [
+            "He was charged with assault and battery.",
+            "The battery charge was dropped before trial.",
+            "She sued him for battery after the fight."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long series of similar things, especially tests or questions",
+          "body": [
+            "(серия, ряд (тестов, вопросов))",
+            "---"
+          ],
+          "examples": [
+            "The doctor ordered a battery of tests.",
+            "Recruits face a battery of physical exams.",
+            "He survived a battery of questions from reporters."
+          ]
+        }
+      ],
+      "русский": "батарейка, аккумулятор; побои, нанесение побоев; серия, ряд (тестов, вопросов)",
       "plural": "batteries",
       "countability": "countable"
     },
@@ -437,14 +671,58 @@
       "term": "plug",
       "ipa": "/plʌɡ/",
       "respell": "PLUHG",
-      "meaning": "The pronged end of a cord that goes into an outlet. ---",
+      "meaning": "Plug has 3 distinct senses.",
       "examples": [
         "Pull the plug out of the wall.",
         "The plug on this lamp is loose.",
-        "European plugs don't fit our outlets."
+        "European plugs don't fit our outlets.",
+        "Pull the plug and let the tub drain.",
+        "The mechanic loosened the oil plug.",
+        "He hammered a rubber plug into the bottom of the boat.",
+        "She got in a quick plug for her new book.",
+        "Thanks for the plug on your show last night.",
+        "The whole interview was really just a plug for the movie."
       ],
-      "senses": [],
-      "русский": "штепсельная вилка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pronged end of a cord that goes into an outlet",
+          "body": [
+            "(штепсельная вилка)"
+          ],
+          "examples": [
+            "Pull the plug out of the wall.",
+            "The plug on this lamp is loose.",
+            "European plugs don't fit our outlets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of rubber or metal that fits into a hole to block it",
+          "body": [
+            "(пробка, затычка)"
+          ],
+          "examples": [
+            "Pull the plug and let the tub drain.",
+            "The mechanic loosened the oil plug.",
+            "He hammered a rubber plug into the bottom of the boat."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short favorable mention of a product or event in public",
+          "body": [
+            "(упоминание в рекламных целях, «реклама»)",
+            "---"
+          ],
+          "examples": [
+            "She got in a quick plug for her new book.",
+            "Thanks for the plug on your show last night.",
+            "The whole interview was really just a plug for the movie."
+          ]
+        }
+      ],
+      "русский": "штепсельная вилка; пробка, затычка; упоминание в рекламных целях, «реклама»",
       "plural": "plugs",
       "countability": "countable"
     },
@@ -452,14 +730,58 @@
       "term": "cord",
       "ipa": "/kɔːrd/",
       "respell": "KORD",
-      "meaning": "An insulated wire that carries power to a device. ---",
+      "meaning": "Cord has 3 distinct senses.",
       "examples": [
         "Don't trip over the cord.",
         "The cord doesn't reach all the way down the hall.",
-        "The cords behind the TV are a mess."
+        "The cords behind the TV are a mess.",
+        "Tie the box with a piece of cord.",
+        "The curtains are held back with a silk cord.",
+        "He cut two cords to the same length.",
+        "We ordered two cords of oak for the winter.",
+        "A cord of seasoned wood costs more than green wood.",
+        "He stacked the cord against the barn wall."
       ],
-      "senses": [],
-      "русский": "шнур, провод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An insulated wire that carries power to a device",
+          "body": [
+            "(шнур, провод)"
+          ],
+          "examples": [
+            "Don't trip over the cord.",
+            "The cord doesn't reach all the way down the hall.",
+            "The cords behind the TV are a mess."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A length of thin rope or thick string",
+          "body": [
+            "(шнур, верёвка)"
+          ],
+          "examples": [
+            "Tie the box with a piece of cord.",
+            "The curtains are held back with a silk cord.",
+            "He cut two cords to the same length."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A measure of cut firewood, a stack four feet high, four feet wide, and eight feet long",
+          "body": [
+            "(корд (мера дров, ок. 3,6 куб. м))",
+            "---"
+          ],
+          "examples": [
+            "We ordered two cords of oak for the winter.",
+            "A cord of seasoned wood costs more than green wood.",
+            "He stacked the cord against the barn wall."
+          ]
+        }
+      ],
+      "русский": "шнур, провод; шнур, верёвка; корд (мера дров, ок. 3,6 куб. м)",
       "plural": "cords",
       "countability": "countable",
       "contrast": "Sounds exactly like chord, the musical one."
@@ -560,14 +882,43 @@
       "term": "ladder",
       "ipa": "/ˈlædər/",
       "respell": "LAD-ur",
-      "meaning": "A frame with rungs used for climbing. ---",
+      "meaning": "Ladder has 2 distinct senses.",
       "examples": [
         "Hold the ladder steady.",
         "He fell off a ladder cleaning the gutters.",
-        "Both ladders are out in the garage."
+        "Both ladders are out in the garage.",
+        "He worked his way up the corporate ladder.",
+        "Teacher pay follows a strict ladder.",
+        "Changing firms put her back at the bottom of the ladder."
       ],
-      "senses": [],
-      "русский": "лестница (приставная), стремянка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A frame with rungs used for climbing",
+          "body": [
+            "(лестница (приставная), стремянка)"
+          ],
+          "examples": [
+            "Hold the ladder steady.",
+            "He fell off a ladder cleaning the gutters.",
+            "Both ladders are out in the garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A series of ranks or levels that a person can move up",
+          "body": [
+            "(карьерная лестница, иерархия)",
+            "---"
+          ],
+          "examples": [
+            "He worked his way up the corporate ladder.",
+            "Teacher pay follows a strict ladder.",
+            "Changing firms put her back at the bottom of the ladder."
+          ]
+        }
+      ],
+      "русский": "лестница (приставная), стремянка; карьерная лестница, иерархия",
       "plural": "ladders",
       "countability": "countable",
       "contrast": "In American speech it sounds just like latter."
@@ -620,14 +971,43 @@
       "term": "glue",
       "ipa": "/ɡluː/",
       "respell": "GLOO",
-      "meaning": "A sticky substance used to join things together. ---",
+      "meaning": "Glue has 2 distinct senses.",
       "examples": [
         "The glue hasn't dried yet.",
         "One drop of glue will hold it.",
-        "We used wood glue on the chair leg."
+        "We used wood glue on the chair leg.",
+        "Their grandmother was the glue that held the family together.",
+        "Trust is the glue of any long friendship.",
+        "That catcher is the glue of the whole team."
       ],
-      "senses": [],
-      "русский": "клей",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sticky substance used to join things together",
+          "body": [
+            "(клей)"
+          ],
+          "examples": [
+            "The glue hasn't dried yet.",
+            "One drop of glue will hold it.",
+            "We used wood glue on the chair leg."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person or thing that holds a group together",
+          "body": [
+            "(связующее звено, скрепляющая сила)",
+            "---"
+          ],
+          "examples": [
+            "Their grandmother was the glue that held the family together.",
+            "Trust is the glue of any long friendship.",
+            "That catcher is the glue of the whole team."
+          ]
+        }
+      ],
+      "русский": "клей; связующее звено, скрепляющая сила",
       "countability": "uncountable"
     },
     {
@@ -738,14 +1118,88 @@
       "term": "key",
       "ipa": "/kiː/",
       "respell": "KEE",
-      "meaning": "A shaped piece of metal that opens a lock. ---",
+      "meaning": "Key has 5 distinct senses.",
       "examples": [
         "I can't find my house keys.",
         "The key doesn't turn anymore.",
-        "She left a spare key with the neighbors."
+        "She left a spare key with the neighbors.",
+        "Practice is the key to playing well.",
+        "Sleep turned out to be the key to his recovery.",
+        "That one letter was the key to the whole mystery.",
+        "The S key on my laptop sticks.",
+        "He ran his fingers over the piano keys.",
+        "Press any key to continue.",
+        "The key shows that a green triangle is a campground.",
+        "Read the key before you try to read the graph.",
+        "Both maps use the same key.",
+        "The song is in the key of G.",
+        "She sang it in a lower key to suit her voice.",
+        "The two pieces are in different keys."
       ],
-      "senses": [],
-      "русский": "ключ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shaped piece of metal that opens a lock",
+          "body": [
+            "(ключ)"
+          ],
+          "examples": [
+            "I can't find my house keys.",
+            "The key doesn't turn anymore.",
+            "She left a spare key with the neighbors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thing that explains or solves something",
+          "body": [
+            "(ключ (к разгадке), главное условие)"
+          ],
+          "examples": [
+            "Practice is the key to playing well.",
+            "Sleep turned out to be the key to his recovery.",
+            "That one letter was the key to the whole mystery."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the buttons you press on a keyboard, a piano, or a phone",
+          "body": [
+            "(клавиша)"
+          ],
+          "examples": [
+            "The S key on my laptop sticks.",
+            "He ran his fingers over the piano keys.",
+            "Press any key to continue."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A list on a map or a chart explaining what its symbols mean",
+          "body": [
+            "(легенда (карты), условные обозначения)"
+          ],
+          "examples": [
+            "The key shows that a green triangle is a campground.",
+            "Read the key before you try to read the graph.",
+            "Both maps use the same key."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "The set of musical notes that a piece of music is built on",
+          "body": [
+            "(тональность)",
+            "---"
+          ],
+          "examples": [
+            "The song is in the key of G.",
+            "She sang it in a lower key to suit her voice.",
+            "The two pieces are in different keys."
+          ]
+        }
+      ],
+      "русский": "ключ; ключ (к разгадке), главное условие; клавиша; легенда (карты), условные обозначения; тональность",
       "plural": "keys",
       "countability": "countable"
     },
@@ -753,14 +1207,42 @@
       "term": "chore",
       "ipa": "/tʃɔːr/",
       "respell": "CHOR",
-      "meaning": "A small routine job around the house.",
+      "meaning": "Chore has 2 distinct senses.",
       "examples": [
         "The kids each have a few chores on Saturdays.",
         "Folding laundry is my least favorite chore.",
-        "He finished his chores before dinner."
+        "He finished his chores before dinner.",
+        "Filing taxes is such a chore.",
+        "Getting the kids dressed became a daily chore.",
+        "Reading that manual was a real chore."
       ],
-      "senses": [],
-      "русский": "домашняя обязанность, дело по дому",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small routine job around the house",
+          "body": [
+            "(домашняя обязанность, дело по дому)"
+          ],
+          "examples": [
+            "The kids each have a few chores on Saturdays.",
+            "Folding laundry is my least favorite chore.",
+            "He finished his chores before dinner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Any dull, tiresome task",
+          "body": [
+            "(нудное занятие, морока)"
+          ],
+          "examples": [
+            "Filing taxes is such a chore.",
+            "Getting the kids dressed became a daily chore.",
+            "Reading that manual was a real chore."
+          ]
+        }
+      ],
+      "русский": "домашняя обязанность, дело по дому; нудное занятие, морока",
       "plural": "chores",
       "countability": "countable",
       "contrast": "Countable, unlike uncountable housework: three chores, never three houseworks."

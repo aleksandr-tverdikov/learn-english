@@ -12,63 +12,143 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### body
 
 **Pronunciation:** /ˈbɑːdi/ &middot; *BAH-dee*
-**Русский:** тело
+**Русский:** тело; тело, труп; орган, организация (коллективный); масса, совокупность (воды, данных, работ)
 **Plural:** *bodies*
 **Countability:** countable
 
-The whole physical structure of a person or animal.
+Body has 4 distinct senses.
+
+**1. The whole physical structure of a person or animal.** (тело)
 
 1. Yoga taught me how my *body* actually works.
 2. Cold water is a shock to the *body*.
 3. Their *bodies* were still sore from Saturday's game.
+
+**2. A dead person.** (тело, труп)
+
+4. Hikers found a *body* at the bottom of the ravine.
+5. The *body* was identified from dental records.
+6. Two *bodies* were recovered from the wreck.
+
+**3. An organized group of people acting together officially.** (орган, организация (коллективный))
+
+7. The governing *body* meets twice a year.
+8. The student *body* voted on the new rules.
+9. An independent *body* will review the complaints.
+
+**4. A large mass or collection of something.** (масса, совокупность (воды, данных, работ))
+
+10. The lake is the largest *body* of water in the state.
+11. There's a growing *body* of evidence on the subject.
+12. Her *body* of work spans forty years.
 
 ---
 
 ### arm
 
 **Pronunciation:** /ɑːrm/ &middot; *AHRM*
-**Русский:** рука (от плеча до кисти)
+**Русский:** рука (от плеча до кисти); оружие, вооружение; подразделение, отделение (организации); подлокотник
 **Plural:** *arms*
 **Countability:** countable
 **Contrast:** Russian рука covers the whole limb; English splits it — the arm ends at the wrist, and the hand takes over from there.
 
-The limb that runs from the shoulder down to the hand.
+Arm has 4 distinct senses.
+
+**1. The limb that runs from the shoulder down to the hand.** (рука (от плеча до кисти))
 
 1. He broke his *arm* falling off a ladder.
 2. She carried the groceries in both *arms*.
 3. Put your *arm* around her for the photo.
+
+**2. Weapons, especially guns, spoken of as a group.** (оружие, вооружение)
+
+4. The Constitution mentions the right to bear *arms*.
+5. Both countries agreed to limit nuclear *arms*.
+6. The rebels laid down their *arms* at dawn.
+
+**3. A branch or division of a larger organization.** (подразделение, отделение (организации))
+
+7. Research is the fastest-growing *arm* of the company.
+8. The charity's legal *arm* handles evictions.
+9. Congress created the agency as an investigative *arm*.
+
+**4. The side part of a chair or sofa that supports your arm.** (подлокотник)
+
+10. He gripped the *arms* of the chair and stood up.
+11. The cat sleeps on the *arm* of the couch.
+12. One *arm* of the recliner is coming loose.
 
 ---
 
 ### leg
 
 **Pronunciation:** /lɛɡ/ &middot; *LEG*
-**Русский:** нога
+**Русский:** нога; ножка (стола, стула); этап (пути, гонки)
 **Plural:** *legs*
 **Countability:** countable
 **Contrast:** Russian нога covers the whole limb; the English leg stops at the ankle, and below that it is the foot.
 
-One of the two limbs a person stands and walks on.
+Leg has 3 distinct senses.
+
+**1. One of the two limbs a person stands and walks on.** (нога)
 
 1. My *legs* were killing me after the hike.
 2. He crossed his *legs* and leaned back.
 3. She hurt her left *leg* playing soccer.
+
+**2. One of the upright supports that hold up a table, chair, or bed.** (ножка (стола, стула))
+
+4. One *leg* of the table is shorter than the others.
+5. He screwed the *legs* onto the desk.
+6. The chair wobbles because a *leg* is loose.
+
+**3. One stage of a journey, race, or competition.** (этап (пути, гонки))
+
+7. The last *leg* of the trip took six hours.
+8. She flew the first *leg* by herself.
+9. They won both *legs* of the series.
 
 ---
 
 ### hand
 
 **Pronunciation:** /hænd/ &middot; *HAND*
-**Русский:** рука, кисть руки
+**Русский:** рука, кисть руки; стрелка (часов); карты на руках; партия (в картах); работник, подсобный рабочий; матрос; помощь
 **Plural:** *hands*
 **Countability:** countable
 **Contrast:** Never use hand for the whole рука — you hold a bag in your hand but carry a child in your arms.
 
-The part of the body below the wrist, with fingers and a thumb.
+Hand has 5 distinct senses.
+
+**1. The part of the body below the wrist, with fingers and a thumb.** (рука, кисть руки)
 
 1. Wash your *hands* before dinner.
 2. He shook my *hand* and introduced himself.
 3. Her *hands* were freezing without gloves.
+
+**2. A pointer that moves around the face of a clock or a dial.** (стрелка (часов))
+
+4. The minute *hand* is stuck.
+5. Both *hands* pointed straight up at noon.
+6. The second *hand* swept past the twelve.
+
+**3. The cards dealt to one player, or one round of a card game.** (карты на руках; партия (в картах))
+
+7. He was dealt a terrible *hand*.
+8. Let's play one more *hand* before dinner.
+9. She won three *hands* in a row.
+
+**4. A worker who does physical labor on a farm, a ranch, or a ship.** (работник, подсобный рабочий; матрос)
+
+10. They hired two extra *hands* for the harvest.
+11. He worked as a ranch *hand* one summer.
+12. All *hands* were called up on deck.
+
+**5. Help with a task.** (помощь)
+
+13. Can you give me a *hand* with this couch?
+14. She could use a *hand* in the kitchen.
+15. Thanks for lending a *hand*.
 
 ---
 
@@ -107,15 +187,23 @@ The short thick digit set apart from the other four on the hand.
 ### toe
 
 **Pronunciation:** /toʊ/ &middot; *TOH*
-**Русский:** палец (на ноге)
+**Русский:** палец (на ноге); носок, передняя часть обуви
 **Plural:** *toes*
 **Countability:** countable
 
-One of the five digits at the end of the foot.
+Toe has 2 distinct senses.
+
+**1. One of the five digits at the end of the foot.** (палец (на ноге))
 
 1. I stubbed my *toe* on the coffee table.
 2. Sand got in between my *toes*.
 3. He can touch his *toes* without bending his knees.
+
+**2. The part of a shoe or sock that covers the toes.** (носок, передняя часть обуви)
+
+4. There's a hole in the *toe* of my sock.
+5. These work boots have a steel *toe*.
+6. The *toe* of his sneaker was scuffed.
 
 ---
 
@@ -138,15 +226,23 @@ The joint in the middle of the leg where it bends.
 ### elbow
 
 **Pronunciation:** /ˈɛlboʊ/ &middot; *EL-boh*
-**Русский:** локоть
+**Русский:** локоть; колено, отвод (трубы)
 **Plural:** *elbows*
 **Countability:** countable
 
-The joint in the middle of the arm where it bends.
+Elbow has 2 distinct senses.
+
+**1. The joint in the middle of the arm where it bends.** (локоть)
 
 1. He rested his *elbows* on the table.
 2. I banged my *elbow* on the door frame.
 3. She nudged me with her *elbow*.
+
+**2. A pipe fitting bent at an angle to turn a line in a new direction.** (колено, отвод (трубы))
+
+4. You'll need a ninety-degree *elbow* under the sink.
+5. The plumber soldered a copper *elbow* onto the line.
+6. Two *elbows* carry the vent around the beam.
 
 ---
 
@@ -253,15 +349,23 @@ Chest has 2 distinct senses.
 ### back
 
 **Pronunciation:** /bæk/ &middot; *BAK*
-**Русский:** спина
+**Русский:** спина; задняя часть, тыльная сторона
 **Plural:** *backs*
 **Countability:** countable
 
-The rear surface of the body from the shoulders to the hips.
+Back has 2 distinct senses.
+
+**1. The rear surface of the body from the shoulders to the hips.** (спина)
 
 1. My *back* has been sore all week.
 2. He lay on his *back* and stared at the ceiling.
 3. Lift with your legs, not your *back*.
+
+**2. The part of something that is farthest from the front.** (задняя часть, тыльная сторона)
+
+4. The recipe is printed on the *back* of the box.
+5. We sat in the *back* of the classroom.
+6. There's a small yard at the *back* of the house.
 
 ---
 
@@ -299,15 +403,29 @@ The soft front part of the body below the chest, in casual speech.
 ### neck
 
 **Pronunciation:** /nɛk/ &middot; *NEK*
-**Русский:** шея
+**Русский:** шея; горлышко (бутылки); гриф (гитары, скрипки)
 **Plural:** *necks*
 **Countability:** countable
 
-The part of the body joining the head to the shoulders.
+Neck has 3 distinct senses.
+
+**1. The part of the body joining the head to the shoulders.** (шея)
 
 1. I slept wrong and my *neck* is stiff.
 2. She wore a thin gold chain around her *neck*.
 3. The giraffe stretched its *neck* toward the leaves.
+
+**2. The narrow part at the top of a bottle or vase.** (горлышко (бутылки))
+
+4. He held the bottle by the *neck*.
+5. The cork broke off inside the *neck*.
+6. Foil covers the *neck* of the wine bottle.
+
+**3. The long thin part of a guitar or violin that carries the strings.** (гриф (гитары, скрипки))
+
+7. Her hand slid up the *neck* of the guitar.
+8. The *neck* on this bass is too wide for me.
+9. A crack in the *neck* ruined the violin.
 
 ---
 
@@ -329,109 +447,219 @@ The passage inside the neck that food and air pass through.
 ### face
 
 **Pronunciation:** /feɪs/ &middot; *FAYSS*
-**Русский:** лицо
+**Русский:** лицо; лицевая сторона, поверхность (циферблат, склон); гримаса, рожица; репутация, «лицо» (сохранить, потерять лицо)
 **Plural:** *faces*
 **Countability:** countable
 
-The front of the head, from the forehead to the chin.
+Face has 4 distinct senses.
+
+**1. The front of the head, from the forehead to the chin.** (лицо)
 
 1. He splashed cold water on his *face*.
 2. I never forget a *face*.
 3. Their *faces* lit up when they saw the cake.
+
+**2. The front or outer surface of an object.** (лицевая сторона, поверхность (циферблат, склон))
+
+4. The clock *face* is cracked but it still runs.
+5. Climbers spent two days on the north *face*.
+6. Water runs down the *face* of the dam.
+
+**3. An expression made by moving the mouth and eyes.** (гримаса, рожица)
+
+7. The kid made a *face* at the broccoli.
+8. She pulled a *face* when she heard the price.
+9. Quit making *faces* at your sister.
+
+**4. Respect or dignity in the eyes of other people.** (репутация, «лицо» (сохранить, потерять лицо))
+
+10. He took the deal to save *face*.
+11. Nobody wants to lose *face* in front of the whole team.
+12. The apology let both sides keep *face*.
 
 ---
 
 ### eye
 
 **Pronunciation:** /aɪ/ &middot; *EYE*
-**Русский:** глаз
+**Русский:** глаз; ушко (иглы); глаз бури, центр урагана; глаз, чутьё, вкус
 **Plural:** *eyes*
 **Countability:** countable
 **Contrast:** Sounds exactly like the pronoun I.
 
-The organ you see with.
+Eye has 4 distinct senses.
+
+**1. The organ you see with.** (глаз)
 
 1. She has her mother's *eyes*.
 2. Something got in my *eye*.
 3. Keep an *eye* on the kids by the pool.
+
+**2. The small hole at the end of a needle that the thread goes through.** (ушко (иглы))
+
+4. I can't get the thread through the *eye*.
+5. Hold the needle up so the *eye* catches the light.
+6. The *eyes* on these needles are too small for yarn.
+
+**3. The calm center of a hurricane.** (глаз бури, центр урагана)
+
+7. The *eye* passed directly over the island.
+8. The wind died for half an hour when the *eye* arrived.
+9. Satellite pictures showed a clear, round *eye*.
+
+**4. An ability to notice or judge things well.** (глаз, чутьё, вкус)
+
+10. She has an *eye* for color.
+11. It takes a good *eye* to spot a fake.
+12. He has an *eye* for hiring the right people.
 
 ---
 
 ### ear
 
 **Pronunciation:** /ɪr/ &middot; *EER*
-**Русский:** ухо
+**Русский:** ухо; початок (кукурузы), колос; слух (музыкальный), чутьё на звук
 **Plural:** *ears*
 **Countability:** countable
 
-The organ you hear with, on either side of the head.
+Ear has 3 distinct senses.
+
+**1. The organ you hear with, on either side of the head.** (ухо)
 
 1. He whispered something in her *ear*.
 2. My *ears* popped on the flight.
 3. The dog perked up its *ears*.
+
+**2. The part of a corn or grain plant that holds the kernels.** (початок (кукурузы), колос)
+
+4. We grilled six *ears* of corn on the coals.
+5. Each stalk carries one or two good *ears*.
+6. She pulled the husk off the *ear* and salted it.
+
+**3. A natural ability to hear and judge sounds.** (слух (музыкальный), чутьё на звук)
+
+7. She has a good *ear* for languages.
+8. He never took lessons; he plays by *ear*.
+9. That producer has an *ear* for a hit song.
 
 ---
 
 ### nose
 
 **Pronunciation:** /noʊz/ &middot; *NOHZ*
-**Русский:** нос
+**Русский:** нос; нос (самолёта, автомобиля); чутьё, нюх (перен.)
 **Plural:** *noses*
 **Countability:** countable
 **Contrast:** Sounds exactly like knows.
 
-The part of the face you breathe and smell through.
+Nose has 3 distinct senses.
+
+**1. The part of the face you breathe and smell through.** (нос)
 
 1. Her *nose* ran all morning.
 2. He broke his *nose* in a fight.
 3. The smell went straight up my *nose*.
+
+**2. The pointed front end of a plane, a rocket, or a car.** (нос (самолёта, автомобиля))
+
+4. The *nose* of the plane dipped as we came in to land.
+5. Ice built up on the *nose* of the aircraft.
+6. He backed up until the *nose* of the car cleared the curb.
+
+**3. A natural talent for finding or recognizing something.** (чутьё, нюх (перен.))
+
+7. She has a *nose* for a good story.
+8. He's got a *nose* for trouble.
+9. A good buyer needs a *nose* for value.
 
 ---
 
 ### mouth
 
 **Pronunciation:** /maʊθ/ &middot; *MOWTH*
-**Русский:** рот
+**Русский:** рот; устье (реки); отверстие, горловина, вход
 **Plural:** *mouths*
 **Countability:** countable
 **Contrast:** The singular ends in a voiceless th, but the plural mouths ends in a voiced th plus z: MOWTHZ.
 
-The opening in the face used for eating and speaking.
+Mouth has 3 distinct senses.
+
+**1. The opening in the face used for eating and speaking.** (рот)
 
 1. Don't talk with your *mouth* full.
 2. He opened his *mouth* to argue, then stopped.
 3. Cover your *mouth* when you cough.
+
+**2. The place where a river flows into the sea or a lake.** (устье (реки))
+
+4. The port sits at the *mouth* of the Columbia River.
+5. Salmon gather near the river's *mouth* every fall.
+6. Silt builds up at the *mouth* each spring.
+
+**3. The opening of a cave, a bottle, or another hollow thing.** (отверстие, горловина, вход)
+
+7. Bats poured out of the *mouth* of the cave.
+8. Cover the *mouth* of the jar with cheesecloth.
+9. A locked gate blocks the *mouth* of the tunnel.
 
 ---
 
 ### lip
 
 **Pronunciation:** /lɪp/ &middot; *LIP*
-**Русский:** губа
+**Русский:** губа; край, кромка (сосуда, обрыва); дерзость, пререкания
 **Plural:** *lips*
 **Countability:** countable
 
-Either of the two soft edges of the mouth.
+Lip has 3 distinct senses.
+
+**1. Either of the two soft edges of the mouth.** (губа)
 
 1. My *lips* crack every winter.
 2. She bit her *lip* and said nothing.
 3. He had a cut on his upper *lip*.
+
+**2. The rim or edge of a container or an opening.** (край, кромка (сосуда, обрыва))
+
+4. Coffee dripped down the *lip* of the mug.
+5. He stood at the *lip* of the canyon and looked over.
+6. The pitcher has a shaped *lip* for pouring.
+
+**3. Rude talk back to someone in authority.** (дерзость, пререкания)
+
+7. Don't give me any *lip*, young man.
+8. The coach won't take *lip* from anyone on the bench.
+9. He got detention for giving a teacher *lip*.
 
 ---
 
 ### tongue
 
 **Pronunciation:** /tʌŋ/ &middot; *TUNG*
-**Русский:** язык (орган)
+**Русский:** язык (орган); язык (речь); язычок (ботинка)
 **Plural:** *tongues*
 **Countability:** countable
 **Contrast:** The -gue is just a single ng sound: TUNG, one syllable.
 
-The muscular organ in the mouth used for tasting and speaking.
+Tongue has 3 distinct senses.
+
+**1. The muscular organ in the mouth used for tasting and speaking.** (язык (орган))
 
 1. I burned my *tongue* on the coffee.
 2. The dog's *tongue* was hanging out.
 3. Stick out your *tongue* and say ah.
+
+**2. A language, especially the one a person grew up speaking.** (язык (речь))
+
+4. Spanish is her native *tongue*.
+5. He can argue in three *tongues*.
+6. The old prayers are still said in the mother *tongue*.
+
+**3. The flap of leather or cloth under the laces of a shoe.** (язычок (ботинка))
+
+7. Pull the *tongue* straight before you tie the laces.
+8. The *tongue* of the boot was padded.
+9. His sneakers have the brand name on the *tongue*.
 
 ---
 
@@ -529,15 +757,23 @@ The fold of skin that closes over the eye.
 ### jaw
 
 **Pronunciation:** /dʒɔː/ &middot; *JAW*
-**Русский:** челюсть
+**Русский:** челюсть; губки (тисков, ключа), зажимы
 **Plural:** *jaws*
 **Countability:** countable
 
-The bone structure of the mouth that holds the teeth.
+Jaw has 2 distinct senses.
+
+**1. The bone structure of the mouth that holds the teeth.** (челюсть)
 
 1. He clenched his *jaw* and said nothing.
 2. She broke her *jaw* in the accident.
 3. My *jaw* aches from chewing gum all day.
+
+**2. One of the two parts of a tool or machine that grip or crush something.** (губки (тисков, ключа), зажимы)
+
+4. Tighten the *jaws* of the vise around the pipe.
+5. The wrench's *jaws* were worn smooth.
+6. The clamp has rubber *jaws* so it won't scratch the wood.
 
 ---
 
@@ -559,31 +795,59 @@ The bony frame of the head that protects the brain.
 ### brain
 
 **Pronunciation:** /breɪn/ &middot; *BRAYN*
-**Русский:** мозг (головной)
+**Русский:** мозг (головной); светлая голова; мозг (какого-л. дела)
 **Plural:** *brains*
 **Countability:** countable
 
-The organ inside the head that controls thought and movement.
+Brain has 2 distinct senses.
+
+**1. The organ inside the head that controls thought and movement.** (мозг (головной))
 
 1. Your *brain* burns a surprising number of calories.
 2. The scan showed no damage to his *brain*.
 3. Sleep gives the *brain* time to sort things out.
+
+**2. A very clever person, especially the one who thinks up and directs a plan.** (светлая голова; мозг (какого-л. дела))
+
+4. Her older sister was always the *brain* of the family.
+5. He's the *brains* behind the whole app.
+6. The lab hired the best *brains* in the field.
 
 ---
 
 ### heart
 
 **Pronunciation:** /hɑːrt/ &middot; *HAHRT*
-**Русский:** сердце
+**Русский:** сердце; сердце, душа (чувства); центр, сердцевина; суть; сердечко (символ)
 **Plural:** *hearts*
 **Countability:** countable
 **Contrast:** Heart has the ah of car; hurt has the ur of her. Two different words.
 
-The organ that pumps blood around the body.
+Heart has 4 distinct senses.
+
+**1. The organ that pumps blood around the body.** (сердце)
 
 1. My *heart* was pounding.
 2. He has a *heart* condition.
 3. The runner's *heart* rate dropped fast.
+
+**2. A person's feelings, especially love and kindness.** (сердце, душа (чувства))
+
+4. He has a good *heart*, even if he sounds rude.
+5. She broke his *heart* when she moved away.
+6. Have a *heart* and let the kid come with us.
+
+**3. The center of a place, or the most important part of something.** (центр, сердцевина; суть)
+
+7. Their office is in the *heart* of downtown.
+8. Let's get to the *heart* of the problem.
+9. Trust is at the *heart* of any good marriage.
+
+**4. A rounded shape with a point at the bottom, used as a symbol of love.** (сердечко (символ))
+
+10. She drew a little *heart* next to her name.
+11. The card was covered in red *hearts*.
+12. He wears a silver *heart* on a chain.
 
 ---
 
@@ -666,93 +930,165 @@ One of the hard pieces that make up the skeleton.
 ### muscle
 
 **Pronunciation:** /ˈmʌsəl/ &middot; *MUH-suhl*
-**Русский:** мышца
+**Русский:** мышца; сила, влияние (перен.)
 **Plural:** *muscles*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** The c is silent: MUS-ul, exactly like the shellfish mussel.
 
-Tissue that contracts to move part of the body.
+Muscle has 2 distinct senses.
+
+**1. Tissue that contracts to move part of the body.** (мышца)
 
 1. I pulled a *muscle* in my back.
 2. He has been putting on *muscle* since January.
 3. Your heart is a *muscle* too.
+
+**2. Power or influence used to get what you want.** (сила, влияние (перен.))
+
+4. The union has enough *muscle* to stop the deal.
+5. The agency needs more *muscle* to enforce the rules.
+6. Small towns rarely have the political *muscle* to fight back.
 
 ---
 
 ### skin
 
 **Pronunciation:** /skɪn/ &middot; *SKIN*
-**Русский:** кожа
+**Русский:** кожа; кожура, шкурка; плёнка (на поверхности жидкости)
 **Plural:** *skins*
 **Countability:** countable, and uncountable as a substance
 
-The outer covering of the body.
+Skin has 3 distinct senses.
+
+**1. The outer covering of the body.** (кожа)
 
 1. My *skin* gets dry every winter.
 2. Sunscreen protects your *skin*.
 3. The lotion left my *skin* greasy.
+
+**2. The outer layer of a fruit or vegetable.** (кожура, шкурка)
+
+4. I bake the potatoes with the *skins* on.
+5. Peel the *skin* off the peach before you slice it.
+6. Grape *skins* give red wine its color.
+
+**3. A thin film that forms on the surface of a liquid.** (плёнка (на поверхности жидкости))
+
+7. A *skin* had formed on the pudding.
+8. Stir the paint so it doesn't develop a *skin*.
+9. He blew the *skin* off his cocoa before drinking it.
 
 ---
 
 ### blood
 
 **Pronunciation:** /blʌd/ &middot; *BLUD*
-**Русский:** кровь
+**Русский:** кровь; род, происхождение; кровное родство
 **Countability:** uncountable
 **Contrast:** The oo sounds like the u in flood, not like food: BLUD.
 
-The red liquid the heart pumps through the body.
+Blood has 2 distinct senses.
+
+**1. The red liquid the heart pumps through the body.** (кровь)
 
 1. There was *blood* all over the towel.
 2. They took a sample of my *blood*.
 3. The sight of *blood* made him dizzy.
+
+**2. Family origin, or relatives you are descended from.** (род, происхождение; кровное родство)
+
+4. They're related by *blood*, not by marriage.
+5. There's Irish *blood* on my mother's side.
+6. The land passes to his nearest relative by *blood*.
 
 ---
 
 ### nerve
 
 **Pronunciation:** /nɜːrv/ &middot; *NURV*
-**Русский:** нерв
+**Русский:** нерв; смелость, решимость; нервы, волнение
 **Plural:** *nerves*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Countable for the fibers; uncountable when it means courage — it takes some nerve to ask.
 
-A fiber that carries signals between the brain and the rest of the body.
+Nerve has 3 distinct senses.
+
+**1. A fiber that carries signals between the brain and the rest of the body.** (нерв)
 
 1. The dentist hit a *nerve*.
 2. A pinched *nerve* in his neck caused the pain.
 3. The *nerves* in your fingertips are unusually sensitive.
+
+**2. The courage needed to do something frightening.** (смелость, решимость)
+
+4. It takes *nerve* to speak in front of that many people.
+5. He lost his *nerve* halfway up the ladder.
+6. I never worked up the *nerve* to ask her out.
+
+**3. A state of anxiety, especially before something important.** (нервы, волнение)
+
+7. *Nerves* got the better of him at the audition.
+8. My *nerves* are shot after that drive.
+9. A cup of tea settled her *nerves*.
 
 ---
 
 ### vein
 
 **Pronunciation:** /veɪn/ &middot; *VAYN*
-**Русский:** вена
+**Русский:** вена; жила (рудная), прожилок; жилка (листа, крыла); тон, дух, стиль (высказывания)
 **Plural:** *veins*
 **Countability:** countable
 **Contrast:** Sounds exactly like vain and vane.
 
-A tube that carries blood back toward the heart.
+Vein has 4 distinct senses.
+
+**1. A tube that carries blood back toward the heart.** (вена)
 
 1. The nurse couldn't find a *vein*.
 2. Blue *veins* showed through her skin.
 3. Blood returns to the heart through the *veins*.
+
+**2. A layer of mineral or ore running through rock.** (жила (рудная), прожилок)
+
+4. Miners followed a *vein* of silver deep into the hill.
+5. The quarry hit a *vein* of white marble.
+6. *Veins* of coal run under the whole valley.
+
+**3. One of the thin lines that carry liquid through a leaf or an insect's wing.** (жилка (листа, крыла))
+
+7. Hold the leaf up and you can see its *veins*.
+8. The *veins* on a dragonfly's wing form a fine net.
+9. Dark *veins* ran through the pale green leaf.
+
+**4. A particular style or mood in which something is said or done.** (тон, дух, стиль (высказывания))
+
+10. He told another joke in the same *vein*.
+11. The second half of the book continues in a lighter *vein*.
+12. Several speakers went on in that *vein* for an hour.
 
 ---
 
 ### artery
 
 **Pronunciation:** /ˈɑːrtəri/ &middot; *AHR-tuh-ree*
-**Русский:** артерия
+**Русский:** артерия; магистраль, транспортная артерия
 **Plural:** *arteries*
 **Countability:** countable
 
-A tube that carries blood away from the heart.
+Artery has 2 distinct senses.
+
+**1. A tube that carries blood away from the heart.** (артерия)
 
 1. Cholesterol builds up in the *arteries*.
 2. The bullet missed the main *artery*.
 3. An *artery* has thicker walls than a vein.
+
+**2. A main road or route that carries heavy traffic.** (магистраль, транспортная артерия)
+
+4. I-95 is the East Coast's main *artery*.
+5. Snow shut down every *artery* into the city.
+6. The bridge is a vital *artery* for freight.
 
 ---
 
@@ -782,30 +1118,64 @@ Rib has 2 distinct senses.
 ### spine
 
 **Pronunciation:** /spaɪn/ &middot; *SPYNE*
-**Русский:** позвоночник
+**Русский:** позвоночник; корешок (книги); колючка, игла (растения, животного)
 **Plural:** *spines*
 **Countability:** countable
 
-The column of small bones running down the middle of the back.
+Spine has 3 distinct senses.
+
+**1. The column of small bones running down the middle of the back.** (позвоночник)
 
 1. An injury to the *spine* can be permanent.
 2. She has a slight curve in her *spine*.
 3. He felt a chill run down his *spine*.
+
+**2. The stiff back edge of a book, where the pages are joined.** (корешок (книги))
+
+4. The title was printed down the *spine* in gold.
+5. The *spine* of my old dictionary is cracked.
+6. She read the *spines* until she found the cookbook.
+
+**3. A sharp needle-like point on a plant or an animal.** (колючка, игла (растения, животного))
+
+7. The cactus is covered in fine white *spines*.
+8. A porcupine raises its *spines* when it feels threatened.
+9. Watch out for the *spines* when you clean that fish.
 
 ---
 
 ### joint
 
 **Pronunciation:** /dʒɔɪnt/ &middot; *JOYNT*
-**Русский:** сустав
+**Русский:** сустав; стык, соединение; заведение, забегаловка (разг.); косяк (самокрутка с марихуаной)
 **Plural:** *joints*
 **Countability:** countable
 
-A place where two bones meet and the body can bend.
+Joint has 4 distinct senses.
+
+**1. A place where two bones meet and the body can bend.** (сустав)
 
 1. My *joints* ache when it rains.
 2. The knee is the biggest *joint* in the body.
 3. Arthritis inflames the *joints*.
+
+**2. A place where two parts of a structure are joined together.** (стык, соединение)
+
+4. Water was leaking from a *joint* in the pipe.
+5. The *joints* in the sidewalk are filled with tar.
+6. Every *joint* in the frame is glued and screwed.
+
+**3. A small, cheap restaurant, bar, or club (informal).** (заведение, забегаловка (разг.))
+
+7. There's a burger *joint* two blocks from here.
+8. It's a decent enough *joint* for a weeknight.
+9. We ate at a pizza *joint* near the stadium.
+
+**4. A hand-rolled marijuana cigarette (informal).** (косяк (самокрутка с марихуаной))
+
+10. They passed a *joint* around the campfire.
+11. He was ticketed for a *joint* in his pocket.
+12. Someone lit a *joint* in the parking lot.
 
 ---
 
@@ -1019,16 +1389,24 @@ Breast has 3 distinct senses.
 ### nipple
 
 **Pronunciation:** /ˈnɪpəl/ &middot; *NIP-ul*
-**Русский:** сосок
+**Русский:** сосок; соска (на бутылочке)
 **Plural:** *nipples*
 **Countability:** countable
 **Contrast:** Americans call the rubber top of a baby bottle a nipple; British English says teat.
 
-The small raised point in the middle of the breast.
+Nipple has 2 distinct senses.
+
+**1. The small raised point in the middle of the breast.** (сосок)
 
 1. The baby would not latch onto the *nipple*.
 2. She had a rash around one *nipple*.
 3. The bottle came with two spare *nipples*.
+
+**2. The rubber tip on a baby's bottle that the baby sucks.** (соска (на бутылочке))
+
+4. Boil the *nipples* before you use them the first time.
+5. This *nipple* has too slow a flow for him.
+6. She screwed the *nipple* onto the bottle.
 
 ---
 
@@ -1051,16 +1429,24 @@ The small hollow in the middle of the stomach.
 ### abdomen
 
 **Pronunciation:** /ˈæbdəmən/ &middot; *AB-duh-mun*
-**Русский:** живот, брюшная полость
+**Русский:** живот, брюшная полость; брюшко (насекомого)
 **Plural:** *abdomens*
 **Countability:** countable
 **Contrast:** Americans usually stress the first syllable: AB-duh-mun.
 
-The part of the body between the chest and the hips, holding the digestive organs.
+Abdomen has 2 distinct senses.
+
+**1. The part of the body between the chest and the hips, holding the digestive organs.** (живот, брюшная полость)
 
 1. The pain is low in the *abdomen*.
 2. He was stabbed in the *abdomen*.
 3. She felt a tightness across her *abdomen*.
+
+**2. The rear section of the body of an insect, spider, or crab.** (брюшко (насекомого))
+
+4. A wasp's *abdomen* is joined to its chest by a thin waist.
+5. The bee's black and yellow stripes run across its *abdomen*.
+6. Spiders spin silk from glands in the *abdomen*.
 
 ---
 
@@ -1082,30 +1468,46 @@ The trunk of the body, without the head, arms, or legs.
 ### limb
 
 **Pronunciation:** /lɪm/ &middot; *LIM*
-**Русский:** конечность
+**Русский:** конечность; сук, толстая ветка
 **Plural:** *limbs*
 **Countability:** countable
 **Contrast:** The b is silent: LIM.
 
-An arm or a leg.
+Limb has 2 distinct senses.
+
+**1. An arm or a leg.** (конечность)
 
 1. The accident cost him a *limb*.
 2. Surgeons reattached the severed *limb*.
 3. Cold weather makes your *limbs* stiff.
+
+**2. A large branch of a tree.** (сук, толстая ветка)
+
+4. A *limb* came down on the power line during the storm.
+5. The kids nailed boards to the lowest *limb*.
+6. Ice snapped the *limbs* off the old oak.
 
 ---
 
 ### flesh
 
 **Pronunciation:** /flɛʃ/ &middot; *FLESH*
-**Русский:** плоть, мягкие ткани
+**Русский:** плоть, мягкие ткани; мякоть (плода)
 **Countability:** uncountable
 
-The soft tissue of the body between the skin and the bones.
+Flesh has 2 distinct senses.
+
+**1. The soft tissue of the body between the skin and the bones.** (плоть, мягкие ткани)
 
 1. The blade cut into the *flesh* of his palm.
 2. Mosquitoes went straight for any exposed *flesh*.
 3. The bruise showed dark against pale *flesh*.
+
+**2. The soft part of a fruit or vegetable under the skin.** (мякоть (плода))
+
+4. The *flesh* of the melon was pale and sweet.
+5. Scoop the *flesh* out of the avocado with a spoon.
+6. Bake the squash until the *flesh* is soft.
 
 ---
 
@@ -1180,15 +1582,23 @@ Tissue has 2 distinct senses.
 ### organ
 
 **Pronunciation:** /ˈɔːrɡən/ &middot; *OR-gun*
-**Русский:** орган
+**Русский:** орган; орган (музыкальный инструмент)
 **Plural:** *organs*
 **Countability:** countable
 
-A part of the body with a particular job, such as the heart or the liver.
+Organ has 2 distinct senses.
+
+**1. A part of the body with a particular job, such as the heart or the liver.** (орган)
 
 1. The liver is the largest internal *organ*.
 2. He is registered as an *organ* donor.
 3. Alcohol damages several *organs* at once.
+
+**2. A large keyboard instrument that makes sound by forcing air through pipes.** (орган (музыкальный инструмент))
+
+4. She plays the *organ* at the Methodist church.
+5. The *organ* filled the whole hall with sound.
+6. The old theater still has its original pipe *organ*.
 
 ---
 
@@ -1210,16 +1620,42 @@ An organ that produces a substance the body uses or releases.
 ### cell
 
 **Pronunciation:** /sɛl/ &middot; *SEL*
-**Русский:** клетка
+**Русский:** клетка; камера (тюремная); мобильный телефон (разг.); ячейка (таблицы); ячейка (организации)
 **Plural:** *cells*
 **Countability:** countable
 **Contrast:** Sounds exactly like sell.
 
-The smallest living unit that bodies are built from.
+Cell has 5 distinct senses.
+
+**1. The smallest living unit that bodies are built from.** (клетка)
 
 1. The body replaces old *cells* constantly.
 2. A single *cell* divides into two.
 3. Red blood *cells* carry oxygen.
+
+**2. A small locked room where a prisoner is kept.** (камера (тюремная))
+
+4. He spent twelve years in a *cell* with one small window.
+5. Guards searched every *cell* on the block.
+6. The *cell* held two bunks and a sink.
+
+**3. A cellphone.** (мобильный телефон (разг.))
+
+7. Call me on my *cell* when you land.
+8. Her *cell* died halfway through the drive.
+9. He left his *cell* sitting on the roof of the car.
+
+**4. One box in a table or a spreadsheet.** (ячейка (таблицы))
+
+10. Type the total in the last *cell*.
+11. The formula pulls numbers from three *cells*.
+12. Click the *cell* and start typing.
+
+**5. A small group working as one part of a larger secret organization.** (ячейка (организации))
+
+13. Police broke up a *cell* operating out of the suburbs.
+14. The movement worked in small *cells* that never met each other.
+15. Each *cell* had its own leader and its own orders.
 
 ---
 
@@ -1241,16 +1677,24 @@ All the bones of a body taken together.
 ### temple
 
 **Pronunciation:** /ˈtɛmpəl/ &middot; *TEM-pul*
-**Русский:** висок
+**Русский:** висок; храм
 **Plural:** *temples*
 **Countability:** countable
 **Contrast:** Spelled and pronounced exactly like the religious building; only context separates them.
 
-The flat area on either side of the forehead, beside the eye.
+Temple has 2 distinct senses.
+
+**1. The flat area on either side of the forehead, beside the eye.** (висок)
 
 1. She rubbed her *temples* to fight off the headache.
 2. Gray hair started at his *temples*.
 3. The blow landed on his *temple*.
+
+**2. A building where people gather to worship.** (храм)
+
+4. They visited an ancient *temple* on the hillside.
+5. Her family goes to *temple* on Friday nights.
+6. The *temple* was rebuilt after the earthquake.
 
 ---
 
@@ -1319,31 +1763,47 @@ The whole round part of the eye inside the socket.
 ### pupil
 
 **Pronunciation:** /ˈpjuːpəl/ &middot; *PYOO-pul*
-**Русский:** зрачок
+**Русский:** зрачок; ученик, ученица
 **Plural:** *pupils*
 **Countability:** countable
 **Contrast:** Same word as pupil meaning a school student.
 
-The black opening in the middle of the eye that light passes through.
+Pupil has 2 distinct senses.
+
+**1. The black opening in the middle of the eye that light passes through.** (зрачок)
 
 1. The doctor checked whether his *pupils* were reacting.
 2. Her *pupils* went huge in the dark room.
 3. One *pupil* was larger than the other.
+
+**2. A child being taught in a school.** (ученик, ученица)
+
+4. Each teacher has about twenty-five *pupils*.
+5. She was the best *pupil* in her class.
+6. The *pupils* line up in the hallway after lunch.
 
 ---
 
 ### iris
 
 **Pronunciation:** /ˈaɪrɪs/ &middot; *EYE-ris*
-**Русский:** радужка (глаза)
+**Русский:** радужка (глаза); ирис, касатик (цветок)
 **Plural:** *irises*
 **Countability:** countable
 
-The colored ring around the pupil of the eye.
+Iris has 2 distinct senses.
+
+**1. The colored ring around the pupil of the eye.** (радужка (глаза))
 
 1. She has a ring of gold around each *iris*.
 2. The *iris* opens and closes to control the light.
 3. His *irises* are almost black.
+
+**2. A tall garden plant with large showy flowers and flat, sword-shaped leaves.** (ирис, касатик (цветок))
+
+4. The *irises* along the fence bloom in late May.
+5. She cut an armful of purple *irises* for the table.
+6. A clump of wild *iris* grew at the edge of the pond.
 
 ---
 
@@ -1380,16 +1840,24 @@ Either of the two openings at the bottom of the nose.
 ### gum
 
 **Pronunciation:** /ɡʌm/ &middot; *GUM*
-**Русский:** десна
+**Русский:** десна; жевательная резинка
 **Plural:** *gums*
 **Countability:** countable
 **Contrast:** The chewing kind of gum is uncountable: a piece of gum, never a gum.
 
-The firm pink flesh around the base of the teeth.
+Gum has 2 distinct senses.
+
+**1. The firm pink flesh around the base of the teeth.** (десна)
 
 1. My *gums* bleed when I floss.
 2. The dentist said my *gums* look healthy.
 3. Cold water hurts his *gums*.
+
+**2. A sweet, rubbery substance that you chew but do not swallow.** (жевательная резинка)
+
+4. She offered me a stick of *gum*.
+5. No *gum* in class.
+6. He blew a bubble with his *gum*.
 
 ---
 
@@ -1471,15 +1939,29 @@ The intestine, especially the lower part of it.
 ### gut
 
 **Pronunciation:** /ɡʌt/ &middot; *GUT*
-**Русский:** кишечник; живот (разг.)
+**Русский:** кишечник; живот (разг.); интуиция, чутьё; смелость, мужество
 **Plural:** *guts*
 **Countability:** countable
 
-The stomach and intestines, in informal speech.
+Gut has 3 distinct senses.
+
+**1. The stomach and intestines, in informal speech.** (кишечник; живот (разг.))
 
 1. He took a punch in the *gut*.
 2. The fish was cleaned and its *guts* thrown out.
 3. Bacteria in the *gut* help you digest food.
+
+**2. A person's instinct, felt rather than reasoned out.** (интуиция, чутьё)
+
+4. My *gut* says he's lying.
+5. Trust your *gut* on this one.
+6. She went with her *gut* and took the job.
+
+**3. Courage and nerve, used in the plural.** (смелость, мужество)
+
+7. It takes *guts* to speak up like that.
+8. He didn't have the *guts* to tell her himself.
+9. She showed real *guts* in the final round.
 
 ---
 
@@ -1562,15 +2044,23 @@ The organ in a woman's body where a baby grows.
 ### ovary
 
 **Pronunciation:** /ˈoʊvəri/ &middot; *OH-vuh-ree*
-**Русский:** яичник
+**Русский:** яичник; завязь (у цветка)
 **Plural:** *ovaries*
 **Countability:** countable
 
-Either of the two organs in a woman's body that produce eggs.
+Ovary has 2 distinct senses.
+
+**1. Either of the two organs in a woman's body that produce eggs.** (яичник)
 
 1. The cyst was on her left *ovary*.
 2. The *ovaries* release one egg a month.
 3. The surgeon removed both *ovaries*.
+
+**2. The part of a flower that holds the seeds and grows into the fruit.** (завязь (у цветка))
+
+4. The *ovary* swells into a fruit after pollination.
+5. Cut the flower open and you can see the *ovary* at the base.
+6. In a pea plant the *ovary* becomes the pod.
 
 ---
 
@@ -1591,14 +2081,22 @@ The clear liquid produced in the mouth.
 ### sweat
 
 **Pronunciation:** /swɛt/ &middot; *SWET*
-**Русский:** пот
+**Русский:** пот; спортивные штаны, спортивный костюм
 **Countability:** uncountable
 
-The salty liquid the skin gives off when the body is hot.
+Sweat has 2 distinct senses.
+
+**1. The salty liquid the skin gives off when the body is hot.** (пот)
 
 1. *Sweat* was running into my eyes.
 2. His shirt was soaked with *sweat*.
 3. *Sweat* cools you down as it evaporates.
+
+**2. Loose, soft cotton pants or a matching top worn for exercise or lounging.** (спортивные штаны, спортивный костюм)
+
+4. He came downstairs in a pair of gray *sweats*.
+5. I live in *sweats* on the weekend.
+6. Pack some *sweats* for the flight home.
 
 ---
 
@@ -1637,15 +2135,23 @@ One movement of air into or out of the lungs.
 ### pulse
 
 **Pronunciation:** /pʌls/ &middot; *PULS*
-**Русский:** пульс
+**Русский:** пульс; импульс
 **Plural:** *pulses*
 **Countability:** countable
 
-The regular beat of blood that you can feel in an artery.
+Pulse has 2 distinct senses.
+
+**1. The regular beat of blood that you can feel in an artery.** (пульс)
 
 1. The nurse took my *pulse*.
 2. His *pulse* was weak but steady.
 3. She could feel her *pulse* in her ears.
+
+**2. A single short burst of sound, light, or electricity.** (импульс)
+
+4. The machine sends a *pulse* down the wire.
+5. The laser fires in very short *pulses*.
+6. A *pulse* of radio noise wiped out the signal.
 
 ---
 
@@ -1767,16 +2273,30 @@ One of the tiny openings in the skin that sweat comes out of.
 ### wrinkle
 
 **Pronunciation:** /ˈrɪŋkəl/ &middot; *RING-kul*
-**Русский:** морщина
+**Русский:** морщина; складка, помятость (на ткани, бумаге); новый поворот; загвоздка
 **Plural:** *wrinkles*
 **Countability:** countable
 **Contrast:** The w is silent: RING-kul.
 
-A small line in the skin that comes with age.
+Wrinkle has 3 distinct senses.
+
+**1. A small line in the skin that comes with age.** (морщина)
 
 1. She has fine *wrinkles* around her eyes.
 2. The cream promises to smooth out *wrinkles*.
 3. A deep *wrinkle* ran across his forehead.
+
+**2. A small fold or crease in cloth or paper.** (складка, помятость (на ткани, бумаге))
+
+4. Hang the shirt up to keep the *wrinkles* out.
+5. She smoothed the *wrinkles* from the tablecloth.
+6. A hot iron takes out most *wrinkles*.
+
+**3. A new detail or small problem that changes a situation.** (новый поворот; загвоздка)
+
+7. The lawsuit added a *wrinkle* to the deal.
+8. There's one *wrinkle*: the seller wants cash.
+9. Every case has its own *wrinkles*.
 
 ---
 
@@ -1882,16 +2402,24 @@ The part of the arm between the elbow and the wrist.
 ### lap
 
 **Pronunciation:** /læp/ &middot; *LAP*
-**Русский:** колени (сидящего человека)
+**Русский:** колени (сидящего человека); круг (на дорожке), заплыв
 **Plural:** *laps*
 **Countability:** countable
 **Contrast:** Russian на коленях is the English lap, not knees — a child sits on your lap.
 
-The flat surface formed by the upper legs when a person is sitting.
+Lap has 2 distinct senses.
+
+**1. The flat surface formed by the upper legs when a person is sitting.** (колени (сидящего человека))
 
 1. The cat fell asleep in my *lap*.
 2. She held the baby on her *lap*.
 3. He balanced the plate on his *lap*.
+
+**2. One complete trip around a track or the length of a pool.** (круг (на дорожке), заплыв)
+
+4. He runs twenty *laps* every morning.
+5. She swims *laps* before work.
+6. The leader spun out on the final *lap*.
 
 ---
 

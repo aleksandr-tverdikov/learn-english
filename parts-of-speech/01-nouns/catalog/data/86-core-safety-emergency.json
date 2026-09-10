@@ -157,14 +157,43 @@
       "term": "escape",
       "ipa": "/ɪˈskeɪp/",
       "respell": "ih-SKAYP",
-      "meaning": "The act of getting away from a dangerous place or situation. ---",
+      "meaning": "Escape has 2 distinct senses.",
       "examples": [
         "Their escape from the burning building was captured on video.",
         "It was a narrow escape — the roof fell in a minute later.",
-        "Both escapes happened through a basement window."
+        "Both escapes happened through a basement window.",
+        "For her, gardening is an escape.",
+        "Movies were his only escape that winter.",
+        "Cheap paperbacks offer a quick escape on a long flight."
       ],
-      "senses": [],
-      "русский": "спасение бегством, побег",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of getting away from a dangerous place or situation",
+          "body": [
+            "(спасение бегством, побег)"
+          ],
+          "examples": [
+            "Their escape from the burning building was captured on video.",
+            "It was a narrow escape — the roof fell in a minute later.",
+            "Both escapes happened through a basement window."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that lets you forget your troubles for a while",
+          "body": [
+            "(отдушина, способ отвлечься)",
+            "---"
+          ],
+          "examples": [
+            "For her, gardening is an escape.",
+            "Movies were his only escape that winter.",
+            "Cheap paperbacks offer a quick escape on a long flight."
+          ]
+        }
+      ],
+      "русский": "спасение бегством, побег; отдушина, способ отвлечься",
       "plural": "escapes",
       "countability": "countable"
     },
@@ -248,14 +277,43 @@
       "term": "warning",
       "ipa": "/ˈwɔːrnɪŋ/",
       "respell": "WOR-ning",
-      "meaning": "Something said or shown to tell people that danger is coming. ---",
+      "meaning": "Warning has 2 distinct senses.",
       "examples": [
         "The storm hit without any warning.",
         "He ignored the warnings and swam out anyway.",
-        "The weather service issued a warning for three counties."
+        "The weather service issued a warning for three counties.",
+        "The officer let me off with a warning.",
+        "He got a written warning from his manager.",
+        "One more warning and you're off the team."
       ],
-      "senses": [],
-      "русский": "предупреждение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something said or shown to tell people that danger is coming",
+          "body": [
+            "(предупреждение)"
+          ],
+          "examples": [
+            "The storm hit without any warning.",
+            "He ignored the warnings and swam out anyway.",
+            "The weather service issued a warning for three counties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official caution given instead of a punishment, telling someone not to do it again",
+          "body": [
+            "(предупреждение, замечание (вместо наказания))",
+            "---"
+          ],
+          "examples": [
+            "The officer let me off with a warning.",
+            "He got a written warning from his manager.",
+            "One more warning and you're off the team."
+          ]
+        }
+      ],
+      "русский": "предупреждение; предупреждение, замечание (вместо наказания)",
       "plural": "warnings",
       "countability": "countable"
     },
@@ -518,14 +576,58 @@
       "term": "blast",
       "ipa": "/blæst/",
       "respell": "BLAST",
-      "meaning": "A violent explosion, or the rush of air it sends out. ---",
+      "meaning": "Blast has 3 distinct senses.",
       "examples": [
         "The blast blew out windows two blocks away.",
         "She was knocked down by the blast.",
-        "Neighbors heard two blasts before the fire started."
+        "Neighbors heard two blasts before the fire started.",
+        "We had a blast at the lake.",
+        "The party was a blast.",
+        "Her birthday trip was an absolute blast.",
+        "A blast from the ship's horn made us jump.",
+        "Three short blasts of the whistle meant trouble.",
+        "The band opened with a blast of trumpets."
       ],
-      "senses": [],
-      "русский": "взрыв, взрывная волна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A violent explosion, or the rush of air it sends out",
+          "body": [
+            "(взрыв, взрывная волна)"
+          ],
+          "examples": [
+            "The blast blew out windows two blocks away.",
+            "She was knocked down by the blast.",
+            "Neighbors heard two blasts before the fire started."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very enjoyable time",
+          "body": [
+            "(кайф, отличное веселье (разг.))"
+          ],
+          "examples": [
+            "We had a blast at the lake.",
+            "The party was a blast.",
+            "Her birthday trip was an absolute blast."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sudden loud sound from a horn, whistle, or instrument",
+          "body": [
+            "(гудок, резкий громкий звук)",
+            "---"
+          ],
+          "examples": [
+            "A blast from the ship's horn made us jump.",
+            "Three short blasts of the whistle meant trouble.",
+            "The band opened with a blast of trumpets."
+          ]
+        }
+      ],
+      "русский": "взрыв, взрывная волна; кайф, отличное веселье (разг.); гудок, резкий громкий звук",
       "plural": "blasts",
       "countability": "countable"
     },
@@ -654,14 +756,43 @@
       "term": "refuge",
       "ipa": "/ˈrɛfjuːdʒ/",
       "respell": "REF-yooj",
-      "meaning": "Shelter or safety from danger or bad weather. ---",
+      "meaning": "Refuge has 2 distinct senses.",
       "examples": [
         "They took refuge in the basement.",
         "The church offered refuge to families who lost their homes.",
-        "Hikers found refuge from the storm in an old cabin."
+        "Hikers found refuge from the storm in an old cabin.",
+        "The lake is part of a national wildlife refuge.",
+        "Thousands of birds winter in the refuge.",
+        "She spent a month in a refuge for women leaving violent homes."
       ],
-      "senses": [],
-      "русский": "убежище, укрытие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Shelter or safety from danger or bad weather",
+          "body": [
+            "(убежище, укрытие)"
+          ],
+          "examples": [
+            "They took refuge in the basement.",
+            "The church offered refuge to families who lost their homes.",
+            "Hikers found refuge from the storm in an old cabin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place that gives protection, especially an area set aside for wild animals",
+          "body": [
+            "(заповедник; приют, убежище (место))",
+            "---"
+          ],
+          "examples": [
+            "The lake is part of a national wildlife refuge.",
+            "Thousands of birds winter in the refuge.",
+            "She spent a month in a refuge for women leaving violent homes."
+          ]
+        }
+      ],
+      "русский": "убежище, укрытие; заповедник; приют, убежище (место)",
       "countability": "uncountable"
     },
     {
@@ -728,14 +859,43 @@
       "term": "tremor",
       "ipa": "/ˈtrɛmər/",
       "respell": "TREM-ur",
-      "meaning": "A small shaking of the ground. ---",
+      "meaning": "Tremor has 2 distinct senses.",
       "examples": [
         "A tremor rattled the windows.",
         "Residents felt two tremors before dawn.",
-        "The tremor lasted only a few seconds."
+        "The tremor lasted only a few seconds.",
+        "There was a tremor in her voice as she read the letter.",
+        "The medication reduced the tremor in his hands.",
+        "A tremor ran through him when he heard the news."
       ],
-      "senses": [],
-      "русский": "подземный толчок, сотрясение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small shaking of the ground",
+          "body": [
+            "(подземный толчок, сотрясение)"
+          ],
+          "examples": [
+            "A tremor rattled the windows.",
+            "Residents felt two tremors before dawn.",
+            "The tremor lasted only a few seconds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slight uncontrollable shaking of the body or voice",
+          "body": [
+            "(дрожь, тремор)",
+            "---"
+          ],
+          "examples": [
+            "There was a tremor in her voice as she read the letter.",
+            "The medication reduced the tremor in his hands.",
+            "A tremor ran through him when he heard the news."
+          ]
+        }
+      ],
+      "русский": "подземный толчок, сотрясение; дрожь, тремор",
       "plural": "tremors",
       "countability": "countable"
     },
@@ -1370,14 +1530,43 @@
       "term": "barrier",
       "ipa": "/ˈbæriər/",
       "respell": "BAIR-ee-ur",
-      "meaning": "A fence, wall, or bar that keeps people out of a dangerous place. ---",
+      "meaning": "Barrier has 2 distinct senses.",
       "examples": [
         "A concrete barrier separates the lanes.",
         "Police put up a barrier around the sinkhole.",
-        "The crowd pushed against the barriers."
+        "The crowd pushed against the barriers.",
+        "Language was the biggest barrier at her new job.",
+        "Cost is still a barrier to treatment.",
+        "The law removed several barriers for small businesses."
       ],
-      "senses": [],
-      "русский": "барьер, ограждение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fence, wall, or bar that keeps people out of a dangerous place",
+          "body": [
+            "(барьер, ограждение)"
+          ],
+          "examples": [
+            "A concrete barrier separates the lanes.",
+            "Police put up a barrier around the sinkhole.",
+            "The crowd pushed against the barriers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that keeps people apart or stops progress",
+          "body": [
+            "(препятствие, преграда)",
+            "---"
+          ],
+          "examples": [
+            "Language was the biggest barrier at her new job.",
+            "Cost is still a barrier to treatment.",
+            "The law removed several barriers for small businesses."
+          ]
+        }
+      ],
+      "русский": "барьер, ограждение; препятствие, преграда",
       "plural": "barriers",
       "countability": "countable"
     },
@@ -1761,14 +1950,43 @@
       "term": "beacon",
       "ipa": "/ˈbiːkən/",
       "respell": "BEE-kun",
-      "meaning": "A light or radio signal that guides rescuers or warns of danger. ---",
+      "meaning": "Beacon has 2 distinct senses.",
       "examples": [
         "The plane's emergency beacon led searchers to the wreck.",
         "A beacon flashes on top of the tower.",
-        "Climbers carry avalanche beacons."
+        "Climbers carry avalanche beacons.",
+        "The clinic became a beacon of hope for the whole valley.",
+        "Her third-grade teacher was a beacon in a hard year.",
+        "The paper was long seen as a beacon of free speech."
       ],
-      "senses": [],
-      "русский": "маяк, сигнальный маячок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light or radio signal that guides rescuers or warns of danger",
+          "body": [
+            "(маяк, сигнальный маячок)"
+          ],
+          "examples": [
+            "The plane's emergency beacon led searchers to the wreck.",
+            "A beacon flashes on top of the tower.",
+            "Climbers carry avalanche beacons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that gives other people hope or guidance",
+          "body": [
+            "(маяк, ориентир (перен.))",
+            "---"
+          ],
+          "examples": [
+            "The clinic became a beacon of hope for the whole valley.",
+            "Her third-grade teacher was a beacon in a hard year.",
+            "The paper was long seen as a beacon of free speech."
+          ]
+        }
+      ],
+      "русский": "маяк, сигнальный маячок; маяк, ориентир (перен.)",
       "plural": "beacons",
       "countability": "countable"
     },

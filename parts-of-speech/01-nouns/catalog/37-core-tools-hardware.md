@@ -12,15 +12,23 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### tool
 
 **Pronunciation:** /tuːl/ &middot; *TOOL*
-**Русский:** инструмент
+**Русский:** инструмент; средство, инструмент (в переносном смысле)
 **Plural:** *tools*
 **Countability:** countable
 
-A device held in the hand and used to do a particular job.
+Tool has 2 distinct senses.
+
+**1. A device held in the hand and used to do a particular job.** (инструмент)
 
 1. Every *tool* in the garage has its own hook on the wall.
 2. You'll need a few basic *tools* to put this together.
 3. A screwdriver is the one *tool* I use almost every day.
+
+**2. Anything used as a means of doing a job or getting a result.** (средство, инструмент (в переносном смысле))
+
+4. Language is a writer's most important *tool*.
+5. The app is a useful *tool* for tracking spending.
+6. Taxes are a blunt *tool* for fixing the housing market.
 
 ---
 
@@ -57,16 +65,24 @@ A set of tools or parts packaged together for one purpose.
 ### saw
 
 **Pronunciation:** /sɔː/ &middot; *SAW*
-**Русский:** пила
+**Русский:** пила; избитая поговорка, прописная истина
 **Plural:** *saws*
 **Countability:** countable
 **Contrast:** Sounds exactly like saw, the past tense of see.
 
-A tool with a toothed blade for cutting wood, metal, or stone.
+Saw has 2 distinct senses.
+
+**1. A tool with a toothed blade for cutting wood, metal, or stone.** (пила)
 
 1. This *saw* is too dull to cut anything.
 2. He cut the board in half with a hand *saw*.
 3. The shop had *saws* hanging along the back wall.
+
+**2. An old saying that everyone has heard many times.** (избитая поговорка, прописная истина)
+
+4. He trotted out the old *saw* about money not buying happiness.
+5. The book opens with the familiar *saw* that history repeats itself.
+6. Grandpa had a *saw* ready for every occasion.
 
 ---
 
@@ -103,15 +119,29 @@ A power saw whose teeth run around a moving chain.
 ### drill
 
 **Pronunciation:** /drɪl/ &middot; *DRIL*
-**Русский:** дрель
+**Русский:** дрель; тренировка, упражнение; заведённый порядок, известная процедура
 **Plural:** *drills*
 **Countability:** countable
 
-A tool that spins a pointed bit to make holes.
+Drill has 3 distinct senses.
+
+**1. A tool that spins a pointed bit to make holes.** (дрель)
 
 1. Can I borrow your *drill* for an hour?
 2. The battery on my cordless *drill* is dead.
 3. They keep the *drills* locked in the back.
+
+**2. An exercise repeated so that people learn a skill or a routine.** (тренировка, упражнение)
+
+4. The school holds a fire *drill* every month.
+5. The coach ran passing *drills* for an hour.
+6. Spelling *drills* start the school day.
+
+**3. The usual way that something is done.** (заведённый порядок, известная процедура)
+
+7. You know the *drill* — badge in, bag on the belt.
+8. New hires learn the *drill* in about a week.
+9. Same *drill* as last year, folks.
 
 ---
 
@@ -133,15 +163,29 @@ The removable cutting piece that a drill turns to make a hole.
 ### blade
 
 **Pronunciation:** /bleɪd/ &middot; *BLAYD*
-**Русский:** лезвие; полотно (пилы)
+**Русский:** лезвие; полотно (пилы); травинка, былинка; лопасть (вентилятора, винта, весла)
 **Plural:** *blades*
 **Countability:** countable
 
-The flat cutting part of a knife, saw, or similar tool.
+Blade has 3 distinct senses.
+
+**1. The flat cutting part of a knife, saw, or similar tool.** (лезвие; полотно (пилы))
 
 1. Change the *blade* before you cut the tile.
 2. The *blade* on this saw is chipped.
 3. Razor *blades* are behind the counter.
+
+**2. A single long narrow leaf of grass.** (травинка, былинка)
+
+4. Not a *blade* of grass grew in the shade.
+5. A single *blade* stuck to his wet shoe.
+6. Dew sat on every *blade* in the yard.
+
+**3. One of the flat arms of a fan, propeller, or oar that pushes air or water.** (лопасть (вентилятора, винта, весла))
+
+7. The helicopter's *blades* began to turn.
+8. Dust had built up on the fan *blades*.
+9. He dipped the *blade* of the paddle into the water.
 
 ---
 
@@ -216,16 +260,24 @@ A heavy iron bar with a flattened end, used to pry things apart.
 ### ax
 
 **Pronunciation:** /æks/ &middot; *AKS*
-**Русский:** топор
+**Русский:** топор; увольнение; закрытие (проекта)
 **Plural:** *axes*
 **Countability:** countable
 **Contrast:** Americans write ax or axe; the British write only axe. The plural axes is AK-siz — the plural of axis is AK-seez.
 
-A tool with a heavy blade on a handle, used for chopping wood.
+Ax has 2 distinct senses.
+
+**1. A tool with a heavy blade on a handle, used for chopping wood.** (топор)
 
 1. He split the firewood with an *ax*.
 2. The *ax* is hanging in the shed.
 3. Both *axes* needed sharpening.
+
+**2. Sudden dismissal from a job, or the cancellation of a program.** (увольнение; закрытие (проекта))
+
+4. Two hundred workers got the *ax* in March.
+5. The show faced the *ax* after one season.
+6. Nobody knew who would be next for the *ax*.
 
 ---
 
@@ -263,45 +315,87 @@ A heavy clamp fixed to a bench that grips a workpiece.
 ### socket
 
 **Pronunciation:** /ˈsɑːkət/ &middot; *SAH-kit*
-**Русский:** торцевая головка (для ключа)
+**Русский:** торцевая головка (для ключа); розетка; патрон (для лампы); впадина (глазница, суставная)
 **Plural:** *sockets*
 **Countability:** countable
 
-A hollow metal cap that fits over a nut or bolt head and turns on a handle.
+Socket has 3 distinct senses.
+
+**1. A hollow metal cap that fits over a nut or bolt head and turns on a handle.** (торцевая головка (для ключа))
 
 1. Grab the half-inch *socket* for that nut.
 2. The *socket* wouldn't fit over the bolt head.
 3. Half the *sockets* are missing from the set.
+
+**2. A fitting that a plug or a light bulb goes into.** (розетка; патрон (для лампы))
+
+4. There's only one *socket* in the whole bedroom.
+5. The bulb wouldn't screw into the *socket*.
+6. All the *sockets* on that wall are dead.
+
+**3. A hollow in the body that another part fits into.** (впадина (глазница, суставная))
+
+7. He popped his shoulder out of its *socket*.
+8. Her eyes were sunk deep in their *sockets*.
+9. The dentist packed the empty *socket* with gauze.
 
 ---
 
 ### bolt
 
 **Pronunciation:** /boʊlt/ &middot; *BOHLT*
-**Русский:** болт
+**Русский:** болт; молния (разряд); рулон, штука (ткани); засов, задвижка
 **Plural:** *bolts*
 **Countability:** countable
 
-A thick metal pin with a head and a thread, fastened with a nut.
+Bolt has 4 distinct senses.
+
+**1. A thick metal pin with a head and a thread, fastened with a nut.** (болт)
 
 1. Tighten the *bolt* until it's snug.
 2. One *bolt* had rusted solid.
 3. Four *bolts* hold the seat to the floor.
+
+**2. A flash of lightning.** (молния (разряд))
+
+4. A *bolt* struck the tree in our yard.
+5. *Bolts* of lightning lit up the whole valley.
+6. The news hit him like a *bolt* out of the blue.
+
+**3. A large roll of cloth.** (рулон, штука (ткани))
+
+7. She bought a whole *bolt* of blue cotton.
+8. *Bolts* of fabric leaned against the shop wall.
+9. One *bolt* was enough for all the curtains.
+
+**4. A sliding metal bar that fastens a door.** (засов, задвижка)
+
+10. He slid the *bolt* across the door.
+11. The old barn door has a rusty *bolt*.
+12. She drew back the *bolt* and looked outside.
 
 ---
 
 ### washer
 
 **Pronunciation:** /ˈwɑːʃər/ &middot; *WAH-shur*
-**Русский:** шайба; прокладка (в кране)
+**Русский:** шайба; прокладка (в кране); стиральная машина
 **Plural:** *washers*
 **Countability:** countable
 
-A flat ring placed under a nut or bolt to spread the pressure.
+Washer has 2 distinct senses.
+
+**1. A flat ring placed under a nut or bolt to spread the pressure.** (шайба; прокладка (в кране))
 
 1. Put a *washer* under the bolt head.
 2. The faucet was leaking because of a worn *washer*.
 3. The bag had a hundred *washers* in it.
+
+**2. A machine that washes clothes.** (стиральная машина)
+
+4. The apartment comes with a *washer* and dryer.
+5. Don't put that sweater in the *washer*.
+6. Our *washer* leaked all over the basement floor.
 
 ---
 
@@ -346,16 +440,36 @@ Stapler has 2 distinct senses.
 ### anchor
 
 **Pronunciation:** /ˈæŋkər/ &middot; *ANG-kur*
-**Русский:** дюбель, анкер
+**Русский:** дюбель, анкер; якорь; ведущий (новостей); опора, точка опоры
 **Plural:** *anchors*
 **Countability:** countable
 **Contrast:** The ch is a hard k: ANG-kur.
 
-A sleeve pushed into a wall so a screw can grip where there is no wood.
+Anchor has 4 distinct senses.
+
+**1. A sleeve pushed into a wall so a screw can grip where there is no wood.** (дюбель, анкер)
 
 1. Use a drywall *anchor* if there's no stud.
 2. The *anchor* pulled right out of the plaster.
 3. The mirror came with four *anchors* and screws.
+
+**2. A heavy metal hook lowered from a boat to hold it in one place.** (якорь)
+
+4. They dropped *anchor* in a quiet little bay.
+5. The *anchor* caught on a rock and wouldn't come up.
+6. Two men hauled the *anchor* back onto the deck.
+
+**3. The person who presents a television or radio news program.** (ведущий (новостей))
+
+7. The evening news *anchor* has been on the air for twenty years.
+8. She started as a reporter and became an *anchor* at thirty.
+9. Both *anchors* were in the studio on election night.
+
+**4. Someone or something that gives a person stability and support.** (опора, точка опоры)
+
+10. His grandmother was the *anchor* of the whole family.
+11. Sunday dinner is the *anchor* of our week.
+12. After the layoffs, that job was her only *anchor*.
 
 ---
 
@@ -386,15 +500,29 @@ Bracket has 2 distinct senses.
 ### clip
 
 **Pronunciation:** /klɪp/ &middot; *KLIP*
-**Русский:** зажим, клипса, скоба
+**Русский:** зажим, клипса, скоба; фрагмент, отрывок, клип; магазин, обойма
 **Plural:** *clips*
 **Countability:** countable
 
-A small springy fitting that grips something and holds it in place.
+Clip has 3 distinct senses.
+
+**1. A small springy fitting that grips something and holds it in place.** (зажим, клипса, скоба)
 
 1. A plastic *clip* holds the wire in place.
 2. The *clip* snapped when I pulled too hard.
 3. Those *clips* keep the hose from sliding off.
+
+**2. A short piece taken from a film, show, or recording.** (фрагмент, отрывок, клип)
+
+4. They played a *clip* from the interview on the news.
+5. The *clip* went viral over the weekend.
+6. He posted two *clips* of the concert.
+
+**3. A container that holds bullets and feeds them into a gun.** (магазин, обойма)
+
+7. The officer loaded a fresh *clip*.
+8. He kept a spare *clip* in his jacket.
+9. The rifle came with two *clips*.
 
 ---
 
@@ -430,31 +558,47 @@ Spring has 3 distinct senses.
 ### gear
 
 **Pronunciation:** /ɡɪr/ &middot; *GEER*
-**Русский:** шестерня; снаряжение, оснастка
+**Русский:** шестерня; снаряжение, оснастка; передача, скорость (в коробке передач)
 **Plural:** *gears*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** A toothed wheel is countable (two gears); equipment is uncountable (a lot of gear, never 'gears').
 
-A toothed wheel that turns another one; also equipment for an activity.
+Gear has 2 distinct senses.
+
+**1. A toothed wheel that turns another one; also equipment for an activity.** (шестерня; снаряжение, оснастка)
 
 1. One *gear* inside the drill was stripped.
 2. Bring your own safety *gear* to the job site.
 3. The *gears* grind if you shift too fast.
+
+**2. One of the settings of a vehicle's transmission that controls speed and power.** (передача, скорость (в коробке передач))
+
+4. Shift into a lower *gear* before the hill.
+5. The truck was stuck in first *gear*.
+6. My bike has twenty-one *gears*.
 
 ---
 
 ### wedge
 
 **Pronunciation:** /wɛdʒ/ &middot; *WEJ*
-**Русский:** клин
+**Русский:** клин; долька, клинообразный кусок
 **Plural:** *wedges*
 **Countability:** countable
 
-A block that is thick at one end and thin at the other, driven in to split or hold.
+Wedge has 2 distinct senses.
+
+**1. A block that is thick at one end and thin at the other, driven in to split or hold.** (клин)
 
 1. Drive a *wedge* into the crack to split the log.
 2. He used a *wedge* to hold the door open.
 3. A couple of *wedges* will level that post.
+
+**2. A thick triangular piece cut from something such as cheese, cake, or fruit.** (долька, клинообразный кусок)
+
+4. She cut the lime into *wedges*.
+5. He ordered a *wedge* of apple pie.
+6. Serve the potato *wedges* with sour cream.
 
 ---
 
@@ -514,15 +658,23 @@ Wire has 2 distinct senses.
 ### cable
 
 **Pronunciation:** /ˈkeɪbəl/ &middot; *KAY-bul*
-**Русский:** кабель; трос
+**Русский:** кабель; трос; кабельное телевидение
 **Plural:** *cables*
 **Countability:** countable, and uncountable as a substance
 
-A thick wire or bundle of wires inside a protective covering.
+Cable has 2 distinct senses.
+
+**1. A thick wire or bundle of wires inside a protective covering.** (кабель; трос)
 
 1. The *cable* runs under the floor.
 2. We pulled two hundred feet of *cable* through the attic.
 3. Label both *cables* before you unplug them.
+
+**2. Television delivered to homes through wires, and the service that supplies it.** (кабельное телевидение)
+
+4. We canceled *cable* and stream everything now.
+5. The game is only on *cable*.
+6. Our *cable* bill went up again this year.
 
 ---
 
@@ -545,15 +697,23 @@ A length of flexible cord that carries power farther from an outlet.
 ### fuse
 
 **Pronunciation:** /fjuːz/ &middot; *FYOOZ*
-**Русский:** предохранитель
+**Русский:** предохранитель; фитиль, запал
 **Plural:** *fuses*
 **Countability:** countable
 
-A safety part that melts and breaks a circuit when the current is too high.
+Fuse has 2 distinct senses.
+
+**1. A safety part that melts and breaks a circuit when the current is too high.** (предохранитель)
 
 1. A blown *fuse* killed the whole circuit.
 2. Replace the *fuse* with the same rating.
 3. Older houses have *fuses* instead of breakers.
+
+**2. A cord or device that is lit or set to make a bomb or a firework go off.** (фитиль, запал)
+
+4. He lit the *fuse* and stepped back.
+5. The *fuse* burned down in a few seconds.
+6. The bomb squad cut the *fuses* on the device.
 
 ---
 
@@ -598,30 +758,46 @@ The narrow end fitted to a hose or sprayer to shape the stream.
 ### valve
 
 **Pronunciation:** /vælv/ &middot; *VALV*
-**Русский:** вентиль, клапан
+**Русский:** вентиль, клапан; клапан (сердечный, венозный)
 **Plural:** *valves*
 **Countability:** countable
 
-A fitting that opens and closes to control the flow in a pipe.
+Valve has 2 distinct senses.
+
+**1. A fitting that opens and closes to control the flow in a pipe.** (вентиль, клапан)
 
 1. Shut the *valve* before you cut the line.
 2. The *valve* under the sink is corroded.
 3. There are shutoff *valves* on both sides.
+
+**2. A flap inside the heart or a body tube that keeps liquid flowing one way.** (клапан (сердечный, венозный))
+
+4. He had surgery to replace a heart *valve*.
+5. The *valves* keep blood from flowing backward.
+6. A leaky *valve* showed up on the scan.
 
 ---
 
 ### pump
 
 **Pronunciation:** /pʌmp/ &middot; *PUMP*
-**Русский:** насос
+**Русский:** насос; лодочки (женские туфли)
 **Plural:** *pumps*
 **Countability:** countable
 
-A machine that moves liquid or air from one place to another.
+Pump has 2 distinct senses.
+
+**1. A machine that moves liquid or air from one place to another.** (насос)
 
 1. The sump *pump* runs every time it rains.
 2. The *pump* burned out after ten years.
 3. They keep two *pumps* in the basement.
+
+**2. A woman's plain shoe with a raised heel and no strap or laces.** (лодочки (женские туфли))
+
+4. She wore black *pumps* with the suit.
+5. These *pumps* kill my feet by noon.
+6. A pair of low *pumps* sat by the door.
 
 ---
 
@@ -768,16 +944,24 @@ A power tool that smooths a surface with moving sandpaper.
 ### router
 
 **Pronunciation:** /ˈraʊtər/ &middot; *ROW-tur*
-**Русский:** фрезер (по дереву)
+**Русский:** фрезер (по дереву); роутер, маршрутизатор
 **Plural:** *routers*
 **Countability:** countable
 **Contrast:** In America it rhymes with out: ROW-tur. The British say ROO-tur.
 
-A power tool with a spinning bit that cuts grooves and shaped edges in wood.
+Router has 2 distinct senses.
+
+**1. A power tool with a spinning bit that cuts grooves and shaped edges in wood.** (фрезер (по дереву))
 
 1. He rounded the edge with a *router*.
 2. The *router* left burn marks in the oak.
 3. Both *routers* take the same bits.
+
+**2. A box that connects the devices in a home or office to the internet.** (роутер, маршрутизатор)
+
+4. Try unplugging the *router* and plugging it back in.
+5. The Wi-Fi *router* sits in the hall closet.
+6. Our old *router* couldn't handle four laptops.
 
 ---
 
@@ -814,31 +998,47 @@ A machine that turns electricity or fuel into movement.
 ### machine
 
 **Pronunciation:** /məˈʃiːn/ &middot; *muh-SHEEN*
-**Русский:** машина, станок
+**Русский:** машина, станок; (партийная) машина, политический аппарат
 **Plural:** *machines*
 **Countability:** countable
 **Contrast:** The ch sounds like sh: muh-SHEEN.
 
-A powered device with moving parts that does a particular kind of work.
+Machine has 2 distinct senses.
+
+**1. A powered device with moving parts that does a particular kind of work.** (машина, станок)
 
 1. This *machine* hasn't been serviced in years.
 2. Shut the *machine* off before you clean it.
 3. The shop is full of old *machines*.
+
+**2. A tightly run organization, especially a political one that controls votes and jobs.** ((партийная) машина, политический аппарат)
+
+4. The city was run by a political *machine* for fifty years.
+5. The party *machine* backed her from the start.
+6. Old *machines* handed out city jobs to loyal voters.
 
 ---
 
 ### device
 
 **Pronunciation:** /dɪˈvaɪs/ &middot; *dih-VYS*
-**Русский:** устройство, приспособление
+**Русский:** устройство, приспособление; приём (литературный, риторический)
 **Plural:** *devices*
 **Countability:** countable
 
-A piece of equipment made for a specific purpose.
+Device has 2 distinct senses.
+
+**1. A piece of equipment made for a specific purpose.** (устройство, приспособление)
 
 1. It's a simple *device* with one moving part.
 2. Every safety *device* on the saw had been removed.
 3. These *devices* measure moisture inside a wall.
+
+**2. A technique a writer or speaker uses to create an effect.** (приём (литературный, риторический))
+
+4. Repetition is a common *device* in speeches.
+5. The novel uses a diary as a narrative *device*.
+6. The poem relies on a few simple rhetorical *devices*.
 
 ---
 
@@ -890,30 +1090,52 @@ A folding ladder with flat steps that stands on its own.
 ### roller
 
 **Pronunciation:** /ˈroʊlər/ &middot; *ROH-lur*
-**Русский:** валик (малярный)
+**Русский:** валик (малярный); бигуди; валик, ролик (в механизме)
 **Plural:** *rollers*
 **Countability:** countable
 
-A covered cylinder on a handle, rolled over a surface to spread paint.
+Roller has 3 distinct senses.
+
+**1. A covered cylinder on a handle, rolled over a surface to spread paint.** (валик (малярный))
 
 1. A *roller* covers a wall much faster than a brush.
 2. Load the *roller* evenly.
 3. The *rollers* are in the paint aisle.
+
+**2. A small tube that hair is wound onto to make it curl.** (бигуди)
+
+4. She answered the door with *rollers* still in her hair.
+5. Heat the *rollers* for ten minutes first.
+6. My grandmother slept in *rollers* every night.
+
+**3. A turning cylinder inside a machine that moves or presses things.** (валик, ролик (в механизме))
+
+7. A worn *roller* was jamming the printer.
+8. Boxes slid down the conveyor on metal *rollers*.
+9. The shop replaced the *rollers* in the garage door.
 
 ---
 
 ### plunger
 
 **Pronunciation:** /ˈplʌndʒər/ &middot; *PLUN-jur*
-**Русский:** вантуз
+**Русский:** вантуз; поршень (шприца, френч-пресса)
 **Plural:** *plungers*
 **Countability:** countable
 
-A rubber cup on a stick used to push a blockage through a drain.
+Plunger has 2 distinct senses.
+
+**1. A rubber cup on a stick used to push a blockage through a drain.** (вантуз)
 
 1. Every apartment needs a *plunger*.
 2. He cleared the drain with a *plunger*.
 3. There are *plungers* in the cleaning closet.
+
+**2. The part of a syringe or similar device that you push down.** (поршень (шприца, френч-пресса))
+
+4. The nurse pressed the *plunger* slowly.
+5. Push the *plunger* down to strain the coffee.
+6. The *plunger* on the syringe was stuck.
 
 ---
 
@@ -989,46 +1211,88 @@ A flexible marked strip that rolls into a case, used to measure length.
 ### ruler
 
 **Pronunciation:** /ˈruːlər/ &middot; *ROO-lur*
-**Русский:** линейка
+**Русский:** линейка; правитель
 **Plural:** *rulers*
 **Countability:** countable
 
-A straight strip marked with units, used to measure and draw lines.
+Ruler has 2 distinct senses.
+
+**1. A straight strip marked with units, used to measure and draw lines.** (линейка)
 
 1. Draw the line against a *ruler*.
 2. A metal *ruler* works better than plastic.
 3. The *rulers* are in the desk drawer.
+
+**2. A person who governs a country or people.** (правитель)
+
+4. He was the last *ruler* of the old kingdom.
+5. The *ruler* refused to give up power.
+6. Ancient *rulers* were buried with their treasure.
 
 ---
 
 ### level
 
 **Pronunciation:** /ˈlɛvəl/ &middot; *LEV-ul*
-**Русский:** уровень (строительный)
+**Русский:** уровень (строительный); уровень (величина, степень); этаж, ярус; уровень (в игре)
 **Plural:** *levels*
 **Countability:** countable
 
-A tool with a bubble in liquid that shows whether a surface is flat or upright.
+Level has 4 distinct senses.
+
+**1. A tool with a bubble in liquid that shows whether a surface is flat or upright.** (уровень (строительный))
 
 1. Set the *level* on top of the shelf.
 2. The bubble in the *level* is off center.
 3. Laser *levels* have gotten cheap.
+
+**2. The amount, size, or degree of something measured against a scale.** (уровень (величина, степень))
+
+4. The river reached a record *level* on Tuesday.
+5. Noise *levels* downtown keep rising.
+6. Her stress *level* dropped after the move.
+
+**3. A floor of a building or a parking garage.** (этаж, ярус)
+
+7. Shoes are on the second *level*.
+8. I parked on *level* three.
+9. The mall has four *levels*.
+
+**4. A stage in a video game that a player must finish to reach the next.** (уровень (в игре))
+
+10. He can't get past *level* nine.
+11. The final *level* takes about an hour.
+12. Each *level* is harder than the one before.
 
 ---
 
 ### gauge
 
 **Pronunciation:** /ɡeɪdʒ/ &middot; *GAYJ*
-**Русский:** измерительный прибор, манометр
+**Русский:** измерительный прибор, манометр; калибр; толщина (провода, металла); показатель, мерило
 **Plural:** *gauges*
 **Countability:** countable
 **Contrast:** Spelled g-a-u-g-e but said GAYJ, rhyming with page.
 
-An instrument that shows a measurement such as pressure or thickness.
+Gauge has 3 distinct senses.
+
+**1. An instrument that shows a measurement such as pressure or thickness.** (измерительный прибор, манометр)
 
 1. Check the tire pressure with a *gauge*.
 2. The *gauge* reads sixty pounds.
 3. Both *gauges* were stuck at zero.
+
+**2. A standard measure of the thickness of wire or metal, or of the size of a shotgun barrel.** (калибр; толщина (провода, металла))
+
+4. Sheet metal comes in several *gauges*, from thin to heavy.
+5. Use a heavier *gauge* of wire for the kitchen outlets.
+6. Nurses pick a smaller *gauge* of needle for children.
+
+**3. A fact or test used to judge how much of something there is.** (показатель, мерило)
+
+7. Turnout is a rough *gauge* of how people feel about the mayor.
+8. Ticket sales are the best *gauge* of a show's success.
+9. Early polls are a poor *gauge* of the final result.
 
 ---
 
@@ -1051,31 +1315,53 @@ A machine that spins a piece of wood or metal while a tool shapes it.
 ### torch
 
 **Pronunciation:** /tɔːrtʃ/ &middot; *TORCH*
-**Русский:** горелка, паяльная лампа
+**Русский:** горелка, паяльная лампа; факел
 **Plural:** *torches*
 **Countability:** countable
 **Contrast:** In America a torch makes a flame; in Britain a torch is what Americans call a flashlight.
 
-A tool that burns gas in a hot flame for soldering, welding, or heating.
+Torch has 2 distinct senses.
+
+**1. A tool that burns gas in a hot flame for soldering, welding, or heating.** (горелка, паяльная лампа)
 
 1. He heated the pipe with a *torch* before soldering it.
 2. Keep the *torch* away from anything flammable.
 3. The plumber carried two *torches* in his kit.
+
+**2. A stick with a flame burning at one end, carried for light or ceremony.** (факел)
+
+4. Runners carried the Olympic *torch* through town.
+5. *Torches* lit the path down to the barn.
+6. The guide held a *torch* above his head in the cave.
 
 ---
 
 ### jack
 
 **Pronunciation:** /dʒæk/ &middot; *JAK*
-**Русский:** домкрат
+**Русский:** домкрат; валет; гнездо, разъём
 **Plural:** *jacks*
 **Countability:** countable
 
-A device that lifts a heavy object a short distance off the ground.
+Jack has 3 distinct senses.
+
+**1. A device that lifts a heavy object a short distance off the ground.** (домкрат)
 
 1. Put the *jack* under the frame, not the body panel.
 2. The *jack* slipped and the car dropped.
 3. Both *jacks* are rated for two tons.
+
+**2. The playing card ranking between the ten and the queen.** (валет)
+
+4. She drew the *jack* of hearts.
+5. A pair of *jacks* was enough to win the hand.
+6. He needed a *jack* to finish the straight.
+
+**3. A socket that a plug fits into for sound, phone, or network cables.** (гнездо, разъём)
+
+7. The new phone has no headphone *jack*.
+8. Plug the microphone into the *jack* on the front panel.
+9. Every room has a phone *jack* by the door.
 
 ---
 
@@ -1159,15 +1445,23 @@ Board made of thin layers of wood glued together.
 ### plank
 
 **Pronunciation:** /plæŋk/ &middot; *PLANGK*
-**Русский:** доска (толстая)
+**Русский:** доска (толстая); пункт программы (партии)
 **Plural:** *planks*
 **Countability:** countable
 
-A long thick flat piece of sawn wood.
+Plank has 2 distinct senses.
+
+**1. A long thick flat piece of sawn wood.** (доска (толстая))
 
 1. One *plank* on the deck is rotting.
 2. He walked out on a *plank* laid across the joists.
 3. The *planks* were warped from the rain.
+
+**2. One of the main points in a political party's program.** (пункт программы (партии))
+
+4. Tax reform was the central *plank* of his campaign.
+5. The party added a *plank* on climate change.
+6. Both *planks* were dropped from the final platform.
 
 ---
 

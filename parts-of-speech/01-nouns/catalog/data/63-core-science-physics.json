@@ -20,14 +20,58 @@
       "term": "motion",
       "ipa": "/ˈmoʊʃən/",
       "respell": "MOH-shuhn",
-      "meaning": "The act or state of moving. ---",
+      "meaning": "Motion has 3 distinct senses.",
       "examples": [
         "Newton's laws describe the motion of objects.",
         "The camera captures the motion of the bird's wings.",
-        "The bus was already in motion when he jumped off."
+        "The bus was already in motion when he jumped off.",
+        "The motion passed by a single vote.",
+        "I'd like to make a motion to adjourn.",
+        "Two members seconded her motion.",
+        "His lawyer filed a motion to dismiss the case.",
+        "The judge denied the motion for a new trial.",
+        "Both sides argued the motion on Friday."
       ],
-      "senses": [],
-      "русский": "движение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act or state of moving",
+          "body": [
+            "(движение)"
+          ],
+          "examples": [
+            "Newton's laws describe the motion of objects.",
+            "The camera captures the motion of the bird's wings.",
+            "The bus was already in motion when he jumped off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal proposal put to a vote at a meeting",
+          "body": [
+            "(предложение (поставленное на голосование))"
+          ],
+          "examples": [
+            "The motion passed by a single vote.",
+            "I'd like to make a motion to adjourn.",
+            "Two members seconded her motion."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A formal request asking a judge to make a ruling",
+          "body": [
+            "(ходатайство (в суде))",
+            "---"
+          ],
+          "examples": [
+            "His lawyer filed a motion to dismiss the case.",
+            "The judge denied the motion for a new trial.",
+            "Both sides argued the motion on Friday."
+          ]
+        }
+      ],
+      "русский": "движение; предложение (поставленное на голосование); ходатайство (в суде)",
       "countability": "uncountable"
     },
     {
@@ -62,14 +106,43 @@
       "term": "inertia",
       "ipa": "/ɪˈnɜːrʃə/",
       "respell": "ih-NUR-shuh",
-      "meaning": "The tendency of an object to keep doing whatever it is already doing. ---",
+      "meaning": "Inertia has 2 distinct senses.",
       "examples": [
         "Inertia is why you lurch forward when the bus stops.",
         "A heavy flywheel has a lot of inertia.",
-        "The seatbelt works against your body's inertia."
+        "The seatbelt works against your body's inertia.",
+        "Nothing changed, mostly out of plain inertia.",
+        "The bill died of bureaucratic inertia.",
+        "It took a crisis to overcome the company's inertia."
       ],
-      "senses": [],
-      "русский": "инерция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The tendency of an object to keep doing whatever it is already doing",
+          "body": [
+            "(инерция)"
+          ],
+          "examples": [
+            "Inertia is why you lurch forward when the bus stops.",
+            "A heavy flywheel has a lot of inertia.",
+            "The seatbelt works against your body's inertia."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unwillingness to act or change that keeps things as they are",
+          "body": [
+            "(инертность, косность)",
+            "---"
+          ],
+          "examples": [
+            "Nothing changed, mostly out of plain inertia.",
+            "The bill died of bureaucratic inertia.",
+            "It took a crisis to overcome the company's inertia."
+          ]
+        }
+      ],
+      "русский": "инерция; инертность, косность",
       "countability": "uncountable"
     },
     {
@@ -119,14 +192,58 @@
       "term": "thrust",
       "ipa": "/θrʌst/",
       "respell": "THRUST",
-      "meaning": "The forward force produced by an engine or a rocket. ---",
+      "meaning": "Thrust has 3 distinct senses.",
       "examples": [
         "The engines produce enough thrust to lift the rocket.",
         "The pilot cut the thrust just before landing.",
-        "Each booster adds thrust at liftoff."
+        "Each booster adds thrust at liftoff.",
+        "The thrust of her argument was that the plan costs too much.",
+        "I missed the details, but I got the general thrust.",
+        "That's the whole thrust of the report.",
+        "He blocked the thrust with his shield.",
+        "One quick thrust of the shovel broke through the ice.",
+        "The fencer scored with a low thrust."
       ],
-      "senses": [],
-      "русский": "тяга (двигателя)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The forward force produced by an engine or a rocket",
+          "body": [
+            "(тяга (двигателя))"
+          ],
+          "examples": [
+            "The engines produce enough thrust to lift the rocket.",
+            "The pilot cut the thrust just before landing.",
+            "Each booster adds thrust at liftoff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main point of what someone is saying",
+          "body": [
+            "(суть, основная мысль)"
+          ],
+          "examples": [
+            "The thrust of her argument was that the plan costs too much.",
+            "I missed the details, but I got the general thrust.",
+            "That's the whole thrust of the report."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sudden strong push, especially with a weapon",
+          "body": [
+            "(выпад, толчок)",
+            "---"
+          ],
+          "examples": [
+            "He blocked the thrust with his shield.",
+            "One quick thrust of the shovel broke through the ice.",
+            "The fencer scored with a low thrust."
+          ]
+        }
+      ],
+      "русский": "тяга (двигателя); суть, основная мысль; выпад, толчок",
       "countability": "uncountable"
     },
     {
@@ -176,14 +293,58 @@
       "term": "spark",
       "ipa": "/spɑːrk/",
       "respell": "SPAHRK",
-      "meaning": "A tiny piece of burning material or a small flash of electricity. ---",
+      "meaning": "Spark has 3 distinct senses.",
       "examples": [
         "A single spark set off the whole fire.",
         "Sparks flew when the metal hit the grinder.",
-        "The plug fires a spark on every cycle."
+        "The plug fires a spark on every cycle.",
+        "The arrest was the spark that set off weeks of protests.",
+        "One careless comment was the spark for the whole argument.",
+        "Cheap credit provided the spark for the housing boom.",
+        "There was still a spark of hope in her voice.",
+        "The team played without a spark of energy.",
+        "I saw a spark of interest when I mentioned the job."
       ],
-      "senses": [],
-      "русский": "искра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tiny piece of burning material or a small flash of electricity",
+          "body": [
+            "(искра)"
+          ],
+          "examples": [
+            "A single spark set off the whole fire.",
+            "Sparks flew when the metal hit the grinder.",
+            "The plug fires a spark on every cycle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The event or remark that sets off something much bigger",
+          "body": [
+            "(искра, толчок (к событию))"
+          ],
+          "examples": [
+            "The arrest was the spark that set off weeks of protests.",
+            "One careless comment was the spark for the whole argument.",
+            "Cheap credit provided the spark for the housing boom."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small trace of a feeling, quality, or energy",
+          "body": [
+            "(искорка, проблеск (чувства))",
+            "---"
+          ],
+          "examples": [
+            "There was still a spark of hope in her voice.",
+            "The team played without a spark of energy.",
+            "I saw a spark of interest when I mentioned the job."
+          ]
+        }
+      ],
+      "русский": "искра; искра, толчок (к событию); искорка, проблеск (чувства)",
       "plural": "sparks",
       "countability": "countable"
     },
@@ -275,14 +436,43 @@
       "term": "circuit",
       "ipa": "/ˈsɜːrkɪt/",
       "respell": "SUR-kit",
-      "meaning": "A complete path that electricity can flow around. ---",
+      "meaning": "Circuit has 2 distinct senses.",
       "examples": [
         "The circuit is broken somewhere near the switch.",
         "Never work on a live circuit.",
-        "Both circuits are protected by fuses."
+        "Both circuits are protected by fuses.",
+        "After the book came out she joined the lecture circuit.",
+        "He plays the club circuit in the Midwest.",
+        "The tournament is a stop on the pro tennis circuit."
       ],
-      "senses": [],
-      "русский": "электрическая цепь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A complete path that electricity can flow around",
+          "body": [
+            "(электрическая цепь)"
+          ],
+          "examples": [
+            "The circuit is broken somewhere near the switch.",
+            "Never work on a live circuit.",
+            "Both circuits are protected by fuses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A regular round of places or events that someone travels between",
+          "body": [
+            "(серия площадок и мероприятий, тур)",
+            "---"
+          ],
+          "examples": [
+            "After the book came out she joined the lecture circuit.",
+            "He plays the club circuit in the Midwest.",
+            "The tournament is a stop on the pro tennis circuit."
+          ]
+        }
+      ],
+      "русский": "электрическая цепь; серия площадок и мероприятий, тур",
       "plural": "circuits",
       "countability": "countable",
       "contrast": "Spelled with -uit, but pronounced simply -kit."
@@ -291,14 +481,43 @@
       "term": "magnet",
       "ipa": "/ˈmæɡnət/",
       "respell": "MAG-nuht",
-      "meaning": "A piece of metal that attracts iron and steel. ---",
+      "meaning": "Magnet has 2 distinct senses.",
       "examples": [
         "Hold the magnet near the paper clips.",
         "We stuck the drawing to the fridge with a magnet.",
-        "Two magnets will push apart if you flip one around."
+        "Two magnets will push apart if you flip one around.",
+        "The new library has become a magnet for teenagers after school.",
+        "Cheap rent turned the block into a magnet for artists.",
+        "Warm weather makes the boardwalk a magnet on weekends."
       ],
-      "senses": [],
-      "русский": "магнит",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of metal that attracts iron and steel",
+          "body": [
+            "(магнит)"
+          ],
+          "examples": [
+            "Hold the magnet near the paper clips.",
+            "We stuck the drawing to the fridge with a magnet.",
+            "Two magnets will push apart if you flip one around."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person, place, or thing that attracts people strongly",
+          "body": [
+            "(магнит (перен.), центр притяжения)",
+            "---"
+          ],
+          "examples": [
+            "The new library has become a magnet for teenagers after school.",
+            "Cheap rent turned the block into a magnet for artists.",
+            "Warm weather makes the boardwalk a magnet on weekends."
+          ]
+        }
+      ],
+      "русский": "магнит; магнит (перен.), центр притяжения",
       "plural": "magnets",
       "countability": "countable"
     },
@@ -438,14 +657,43 @@
       "term": "prism",
       "ipa": "/ˈprɪzəm/",
       "respell": "PRIZ-uhm",
-      "meaning": "A clear block of glass that splits light into colors. ---",
+      "meaning": "Prism has 2 distinct senses.",
       "examples": [
         "Hold the prism up in the sunlight.",
         "The prism spread the beam into a rainbow.",
-        "Two glass prisms sat on the lab bench."
+        "Two glass prisms sat on the lab bench.",
+        "A cereal box is a rectangular prism.",
+        "Find the volume of the prism.",
+        "The kids built prisms out of cardboard."
       ],
-      "senses": [],
-      "русский": "призма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A clear block of glass that splits light into colors",
+          "body": [
+            "(призма)"
+          ],
+          "examples": [
+            "Hold the prism up in the sunlight.",
+            "The prism spread the beam into a rainbow.",
+            "Two glass prisms sat on the lab bench."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A solid figure whose two ends are identical parallel shapes joined by flat sides",
+          "body": [
+            "(призма (геометрическое тело))",
+            "---"
+          ],
+          "examples": [
+            "A cereal box is a rectangular prism.",
+            "Find the volume of the prism.",
+            "The kids built prisms out of cardboard."
+          ]
+        }
+      ],
+      "русский": "призма; призма (геометрическое тело)",
       "plural": "prisms",
       "countability": "countable"
     },
@@ -468,14 +716,58 @@
       "term": "matter",
       "ipa": "/ˈmætər/",
       "respell": "MAT-ur",
-      "meaning": "Anything that has mass and takes up space. ---",
+      "meaning": "Matter has 3 distinct senses.",
       "examples": [
         "Solids, liquids, and gases are all forms of matter.",
         "Matter cannot be created or destroyed.",
-        "The telescope detects matter falling into the black hole."
+        "The telescope detects matter falling into the black hole.",
+        "We'll take up the matter at the next meeting.",
+        "It's a serious matter and the police are involved.",
+        "Getting a visa is just a matter of paperwork.",
+        "What's the matter? You look upset.",
+        "Something's the matter with the printer again.",
+        "There's nothing the matter with the car."
       ],
-      "senses": [],
-      "русский": "вещество, материя",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Anything that has mass and takes up space",
+          "body": [
+            "(вещество, материя)"
+          ],
+          "examples": [
+            "Solids, liquids, and gases are all forms of matter.",
+            "Matter cannot be created or destroyed.",
+            "The telescope detects matter falling into the black hole."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A subject or situation that has to be dealt with",
+          "body": [
+            "(дело, вопрос)"
+          ],
+          "examples": [
+            "We'll take up the matter at the next meeting.",
+            "It's a serious matter and the police are involved.",
+            "Getting a visa is just a matter of paperwork."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The trouble or problem that someone or something has",
+          "body": [
+            "(проблема, беда (что случилось))",
+            "---"
+          ],
+          "examples": [
+            "What's the matter? You look upset.",
+            "Something's the matter with the printer again.",
+            "There's nothing the matter with the car."
+          ]
+        }
+      ],
+      "русский": "вещество, материя; дело, вопрос; проблема, беда (что случилось)",
       "countability": "uncountable"
     },
     {
@@ -497,14 +789,43 @@
       "term": "plasma",
       "ipa": "/ˈplæzmə/",
       "respell": "PLAZ-muh",
-      "meaning": "A very hot gas whose particles carry an electric charge. ---",
+      "meaning": "Plasma has 2 distinct senses.",
       "examples": [
         "Stars are made of plasma.",
         "The lamp glows because the gas turns into plasma.",
-        "Plasma is often called the fourth state of matter."
+        "Plasma is often called the fourth state of matter.",
+        "He donates plasma twice a month.",
+        "The lab spun the sample to separate the plasma.",
+        "Burn patients often need plasma."
       ],
-      "senses": [],
-      "русский": "плазма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very hot gas whose particles carry an electric charge",
+          "body": [
+            "(плазма)"
+          ],
+          "examples": [
+            "Stars are made of plasma.",
+            "The lamp glows because the gas turns into plasma.",
+            "Plasma is often called the fourth state of matter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The clear yellowish liquid part of blood that carries the cells",
+          "body": [
+            "(плазма крови)",
+            "---"
+          ],
+          "examples": [
+            "He donates plasma twice a month.",
+            "The lab spun the sample to separate the plasma.",
+            "Burn patients often need plasma."
+          ]
+        }
+      ],
+      "русский": "плазма; плазма крови",
       "countability": "uncountable"
     },
     {
@@ -839,14 +1160,43 @@
       "term": "purity",
       "ipa": "/ˈpjʊrəti/",
       "respell": "PYUR-uh-tee",
-      "meaning": "How free a substance is from other materials mixed into it. ---",
+      "meaning": "Purity has 2 distinct senses.",
       "examples": [
         "The lab checks the purity of every batch.",
         "Gold is sold by weight and purity.",
-        "A purity above ninety-nine percent is required."
+        "A purity above ninety-nine percent is required.",
+        "The sect preached purity and hard work.",
+        "He questioned the purity of their motives.",
+        "White is worn there as a sign of purity."
       ],
-      "senses": [],
-      "русский": "чистота (вещества)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How free a substance is from other materials mixed into it",
+          "body": [
+            "(чистота (вещества))"
+          ],
+          "examples": [
+            "The lab checks the purity of every batch.",
+            "Gold is sold by weight and purity.",
+            "A purity above ninety-nine percent is required."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Freedom from moral wrongdoing",
+          "body": [
+            "(чистота (нравственная), непорочность)",
+            "---"
+          ],
+          "examples": [
+            "The sect preached purity and hard work.",
+            "He questioned the purity of their motives.",
+            "White is worn there as a sign of purity."
+          ]
+        }
+      ],
+      "русский": "чистота (вещества); чистота (нравственная), непорочность",
       "countability": "uncountable"
     },
     {
@@ -910,14 +1260,43 @@
       "term": "decay",
       "ipa": "/dɪˈkeɪ/",
       "respell": "dih-KAY",
-      "meaning": "The gradual breaking down of a substance or of a radioactive material. ---",
+      "meaning": "Decay has 2 distinct senses.",
       "examples": [
         "Radioactive decay releases energy over time.",
         "The rate of decay is measured in half-lives.",
-        "Bacteria cause decay in dead plants."
+        "Bacteria cause decay in dead plants.",
+        "Whole blocks of the city fell into decay after the plant closed.",
+        "The novel traces the decay of a once-proud family.",
+        "Critics blamed the schools' decay on years of budget cuts."
       ],
-      "senses": [],
-      "русский": "распад; гниение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The gradual breaking down of a substance or of a radioactive material",
+          "body": [
+            "(распад; гниение)"
+          ],
+          "examples": [
+            "Radioactive decay releases energy over time.",
+            "The rate of decay is measured in half-lives.",
+            "Bacteria cause decay in dead plants."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slow decline of a place, an institution, or standards",
+          "body": [
+            "(упадок, разрушение)",
+            "---"
+          ],
+          "examples": [
+            "Whole blocks of the city fell into decay after the plant closed.",
+            "The novel traces the decay of a once-proud family.",
+            "Critics blamed the schools' decay on years of budget cuts."
+          ]
+        }
+      ],
+      "русский": "распад; гниение; упадок, разрушение",
       "countability": "uncountable"
     },
     {
@@ -938,14 +1317,43 @@
       "term": "fusion",
       "ipa": "/ˈfjuːʒən/",
       "respell": "FYOO-zhuhn",
-      "meaning": "The joining of two atomic nuclei, which releases a huge amount of energy. ---",
+      "meaning": "Fusion has 2 distinct senses.",
       "examples": [
         "The sun is powered by fusion.",
         "Fusion would give us almost limitless energy.",
-        "Scientists have struggled for decades to control fusion."
+        "Scientists have struggled for decades to control fusion.",
+        "The restaurant serves a fusion of Korean and Mexican food.",
+        "Their sound is a fusion of jazz and hip-hop.",
+        "The merger created a fusion of two very different company cultures."
       ],
-      "senses": [],
-      "русский": "синтез (ядерный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The joining of two atomic nuclei, which releases a huge amount of energy",
+          "body": [
+            "(синтез (ядерный))"
+          ],
+          "examples": [
+            "The sun is powered by fusion.",
+            "Fusion would give us almost limitless energy.",
+            "Scientists have struggled for decades to control fusion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A blending of two or more different things into a single one",
+          "body": [
+            "(слияние, смешение (стилей, культур))",
+            "---"
+          ],
+          "examples": [
+            "The restaurant serves a fusion of Korean and Mexican food.",
+            "Their sound is a fusion of jazz and hip-hop.",
+            "The merger created a fusion of two very different company cultures."
+          ]
+        }
+      ],
+      "русский": "синтез (ядерный); слияние, смешение (стилей, культур)",
       "countability": "uncountable"
     },
     {
@@ -1122,14 +1530,43 @@
       "term": "ash",
       "ipa": "/æʃ/",
       "respell": "ASH",
-      "meaning": "The gray powder that is left after something has burned. ---",
+      "meaning": "Ash has 2 distinct senses.",
       "examples": [
         "There was ash all over the grill.",
         "Volcanic ash closed the airport for two days.",
-        "Sweep the ash out of the fireplace."
+        "Sweep the ash out of the fireplace.",
+        "A row of ash trees lines the driveway.",
+        "Baseball bats used to be turned from ash.",
+        "A beetle has killed millions of ash trees in the Midwest."
       ],
-      "senses": [],
-      "русский": "зола, пепел",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The gray powder that is left after something has burned",
+          "body": [
+            "(зола, пепел)"
+          ],
+          "examples": [
+            "There was ash all over the grill.",
+            "Volcanic ash closed the airport for two days.",
+            "Sweep the ash out of the fireplace."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hardwood tree with tough pale timber, or the wood itself",
+          "body": [
+            "(ясень)",
+            "---"
+          ],
+          "examples": [
+            "A row of ash trees lines the driveway.",
+            "Baseball bats used to be turned from ash.",
+            "A beetle has killed millions of ash trees in the Midwest."
+          ]
+        }
+      ],
+      "русский": "зола, пепел; ясень",
       "countability": "uncountable",
       "contrast": "Ashes is a separate word, used for the remains of a fire or a body."
     },
@@ -1181,14 +1618,43 @@
       "term": "lab",
       "ipa": "/læb/",
       "respell": "LAB",
-      "meaning": "An informal word for a laboratory. ---",
+      "meaning": "Lab has 2 distinct senses.",
       "examples": [
         "We ran the test in the lab.",
         "Her lab is on the third floor.",
-        "Most of the labs close at six."
+        "Most of the labs close at six.",
+        "They adopted a chocolate Lab from the shelter.",
+        "Labs are friendly and easy to train.",
+        "Our yellow Lab swims in the lake all summer."
       ],
-      "senses": [],
-      "русский": "лаборатория (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An informal word for a laboratory",
+          "body": [
+            "(лаборатория (разг.))"
+          ],
+          "examples": [
+            "We ran the test in the lab.",
+            "Her lab is on the third floor.",
+            "Most of the labs close at six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A Labrador retriever, one of the most common family dogs in America",
+          "body": [
+            "(лабрадор (порода собак))",
+            "---"
+          ],
+          "examples": [
+            "They adopted a chocolate Lab from the shelter.",
+            "Labs are friendly and easy to train.",
+            "Our yellow Lab swims in the lake all summer."
+          ]
+        }
+      ],
+      "русский": "лаборатория (разг.); лабрадор (порода собак)",
       "plural": "labs",
       "countability": "countable"
     },
@@ -1256,14 +1722,58 @@
       "term": "filter",
       "ipa": "/ˈfɪltər/",
       "respell": "FIL-tur",
-      "meaning": "A device that removes solid pieces or unwanted material from a liquid or gas. ---",
+      "meaning": "Filter has 3 distinct senses.",
       "examples": [
         "Pour the mixture through a paper filter.",
         "Change the air filter once a year.",
-        "The filters clogged after an hour."
+        "The filters clogged after an hour.",
+        "She posted the picture with no filter at all.",
+        "That filter makes everything look like the seventies.",
+        "The app comes with dozens of filters.",
+        "Your email must have landed in the spam filter.",
+        "Set a filter to show only orders from last month.",
+        "School computers have filters on most video sites."
       ],
-      "senses": [],
-      "русский": "фильтр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that removes solid pieces or unwanted material from a liquid or gas",
+          "body": [
+            "(фильтр)"
+          ],
+          "examples": [
+            "Pour the mixture through a paper filter.",
+            "Change the air filter once a year.",
+            "The filters clogged after an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An effect applied to a photo or video to change how it looks",
+          "body": [
+            "(фильтр (для фото, видео))"
+          ],
+          "examples": [
+            "She posted the picture with no filter at all.",
+            "That filter makes everything look like the seventies.",
+            "The app comes with dozens of filters."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A program or setting that automatically blocks or sorts items",
+          "body": [
+            "(фильтр (программный: спам, поиск))",
+            "---"
+          ],
+          "examples": [
+            "Your email must have landed in the spam filter.",
+            "Set a filter to show only orders from last month.",
+            "School computers have filters on most video sites."
+          ]
+        }
+      ],
+      "русский": "фильтр; фильтр (для фото, видео); фильтр (программный: спам, поиск)",
       "plural": "filters",
       "countability": "countable"
     },
@@ -1286,14 +1796,58 @@
       "term": "probe",
       "ipa": "/proʊb/",
       "respell": "PROHB",
-      "meaning": "A thin instrument used to measure or examine something. ---",
+      "meaning": "Probe has 3 distinct senses.",
       "examples": [
         "Insert the temperature probe into the sample.",
         "The probe sends data back every second.",
-        "Two probes recorded the voltage."
+        "Two probes recorded the voltage.",
+        "A federal probe into the contracts is under way.",
+        "The probe found no evidence of fraud.",
+        "Two probes were opened after the crash.",
+        "The probe sent back the first close-up of the surface.",
+        "Ground control lost contact with the probe in March.",
+        "Two probes are still transmitting after forty years."
       ],
-      "senses": [],
-      "русский": "зонд, щуп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin instrument used to measure or examine something",
+          "body": [
+            "(зонд, щуп)"
+          ],
+          "examples": [
+            "Insert the temperature probe into the sample.",
+            "The probe sends data back every second.",
+            "Two probes recorded the voltage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thorough official investigation",
+          "body": [
+            "(расследование, проверка)"
+          ],
+          "examples": [
+            "A federal probe into the contracts is under way.",
+            "The probe found no evidence of fraud.",
+            "Two probes were opened after the crash."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An unmanned spacecraft sent to study a planet or other object in space",
+          "body": [
+            "(космический зонд)",
+            "---"
+          ],
+          "examples": [
+            "The probe sent back the first close-up of the surface.",
+            "Ground control lost contact with the probe in March.",
+            "Two probes are still transmitting after forty years."
+          ]
+        }
+      ],
+      "русский": "зонд, щуп; расследование, проверка; космический зонд",
       "plural": "probes",
       "countability": "countable"
     },
@@ -1316,14 +1870,58 @@
       "term": "engine",
       "ipa": "/ˈɛndʒɪn/",
       "respell": "EN-jin",
-      "meaning": "A machine that turns fuel or electricity into movement. ---",
+      "meaning": "Engine has 3 distinct senses.",
       "examples": [
         "The engine burns a mixture of fuel and air.",
         "Both engines shut down at the same moment.",
-        "A diesel engine is more efficient than a gasoline one."
+        "A diesel engine is more efficient than a gasoline one.",
+        "The engine hauled forty cars over the pass.",
+        "Two engines were needed for that grade.",
+        "The kids waved at the engine from the crossing.",
+        "Small business is the engine of the local economy.",
+        "Cheap oil was the engine behind the boom.",
+        "Immigration has long been an engine of growth."
       ],
-      "senses": [],
-      "русский": "двигатель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that turns fuel or electricity into movement",
+          "body": [
+            "(двигатель)"
+          ],
+          "examples": [
+            "The engine burns a mixture of fuel and air.",
+            "Both engines shut down at the same moment.",
+            "A diesel engine is more efficient than a gasoline one."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A locomotive that pulls a train",
+          "body": [
+            "(локомотив, тепловоз)"
+          ],
+          "examples": [
+            "The engine hauled forty cars over the pass.",
+            "Two engines were needed for that grade.",
+            "The kids waved at the engine from the crossing."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that drives growth or change",
+          "body": [
+            "(движущая сила, двигатель (перен.))",
+            "---"
+          ],
+          "examples": [
+            "Small business is the engine of the local economy.",
+            "Cheap oil was the engine behind the boom.",
+            "Immigration has long been an engine of growth."
+          ]
+        }
+      ],
+      "русский": "двигатель; локомотив, тепловоз; движущая сила, двигатель (перен.)",
       "plural": "engines",
       "countability": "countable"
     },
@@ -1376,14 +1974,43 @@
       "term": "result",
       "ipa": "/rɪˈzʌlt/",
       "respell": "rih-ZULT",
-      "meaning": "What you find out at the end of an experiment or test. ---",
+      "meaning": "Result has 2 distinct senses.",
       "examples": [
         "The results surprised everyone in the lab.",
         "We got the same result three times in a row.",
-        "Her results were published last spring."
+        "Her results were published last spring.",
+        "The flooding was a direct result of the storm.",
+        "Prices went up as a result of the new tariff.",
+        "Skipping practice had results he didn't like."
       ],
-      "senses": [],
-      "русский": "результат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What you find out at the end of an experiment or test",
+          "body": [
+            "(результат)"
+          ],
+          "examples": [
+            "The results surprised everyone in the lab.",
+            "We got the same result three times in a row.",
+            "Her results were published last spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that happens because of an earlier action or event",
+          "body": [
+            "(следствие, последствие)",
+            "---"
+          ],
+          "examples": [
+            "The flooding was a direct result of the storm.",
+            "Prices went up as a result of the new tariff.",
+            "Skipping practice had results he didn't like."
+          ]
+        }
+      ],
+      "русский": "результат; следствие, последствие",
       "plural": "results",
       "countability": "countable"
     },

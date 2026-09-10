@@ -26,15 +26,23 @@ The activity of fighting a war, or a particular way of fighting one.
 ### battle
 
 **Pronunciation:** /ˈbætəl/ &middot; *BAT-uhl*
-**Русский:** битва, сражение
+**Русский:** битва, сражение; борьба, противостояние
 **Plural:** *battles*
 **Countability:** countable
 
-A fight between two armies in one place at one time.
+Battle has 2 distinct senses.
+
+**1. A fight between two armies in one place at one time.** (битва, сражение)
 
 1. The *battle* lasted three days.
 2. He died in *battle*.
 3. Several *battles* were fought along the river.
+
+**2. A long, hard struggle against a problem or an opponent.** (борьба, противостояние)
+
+4. She lost her *battle* with cancer last spring.
+5. The company faces a legal *battle* over the patent.
+6. Getting my kids to eat vegetables is a daily *battle*.
 
 ---
 
@@ -87,15 +95,29 @@ The act of entering another country by force with an army.
 ### attack
 
 **Pronunciation:** /əˈtæk/ &middot; *uh-TAK*
-**Русский:** атака, нападение
+**Русский:** атака, нападение; приступ (болезни, паники); нападки, резкая критика
 **Plural:** *attacks*
 **Countability:** countable
 
-An act of violence aimed at hurting an enemy.
+Attack has 3 distinct senses.
+
+**1. An act of violence aimed at hurting an enemy.** (атака, нападение)
 
 1. The *attack* came from the north.
 2. Two *attacks* were repelled that night.
 3. They launched a surprise *attack* on the airfield.
+
+**2. A sudden short period of an illness or strong feeling.** (приступ (болезни, паники))
+
+4. He had a heart *attack* while shoveling snow.
+5. Cold air can trigger an asthma *attack*.
+6. She gets panic *attacks* in crowded stores.
+
+**3. Strong public criticism of a person or an idea.** (нападки, резкая критика)
+
+7. The senator launched a bitter *attack* on the press.
+8. The column was a direct *attack* on the mayor's record.
+9. He's used to *attacks* from both parties.
 
 ---
 
@@ -573,15 +595,23 @@ A large army unit made up of several brigades.
 ### fleet
 
 **Pronunciation:** /fliːt/ &middot; *FLEET*
-**Русский:** флот, эскадра
+**Русский:** флот, эскадра; автопарк, парк (машин, самолётов)
 **Plural:** *fleets*
 **Countability:** countable
 
-A group of warships under one command.
+Fleet has 2 distinct senses.
+
+**1. A group of warships under one command.** (флот, эскадра)
 
 1. The *fleet* sailed at first light.
 2. Half the *fleet* was sunk in the harbor.
 3. Both *fleets* met off the coast.
+
+**2. All the vehicles, ships, or planes owned by one company or organization.** (автопарк, парк (машин, самолётов))
+
+4. The airline is replacing its aging *fleet*.
+5. The company runs a *fleet* of delivery vans.
+6. The city added twenty electric buses to its *fleet*.
 
 ---
 
@@ -712,15 +742,23 @@ The officer in charge of a military unit or operation.
 ### recruit
 
 **Pronunciation:** /rɪˈkruːt/ &middot; *rih-KROOT*
-**Русский:** новобранец, призывник
+**Русский:** новобранец, призывник; новичок, новый сотрудник, новый член
 **Plural:** *recruits*
 **Countability:** countable
 
-Someone who has just joined the armed forces.
+Recruit has 2 distinct senses.
+
+**1. Someone who has just joined the armed forces.** (новобранец, призывник)
 
 1. The new *recruits* arrived on Monday.
 2. Every *recruit* gets a haircut on the first day.
 3. He was still a *recruit* when the war started.
+
+**2. A person who has just joined a company, club, or other organization.** (новичок, новый сотрудник, новый член)
+
+4. The firm trains its *recruits* for six weeks.
+5. We need a few new *recruits* for the choir.
+6. She's the newest *recruit* on the sales team.
 
 ---
 
@@ -757,16 +795,24 @@ A brave fighter, especially in an army of long ago.
 ### knight
 
 **Pronunciation:** /naɪt/ &middot; *NYT*
-**Русский:** рыцарь
+**Русский:** рыцарь; конь (шахматная фигура)
 **Plural:** *knights*
 **Countability:** countable
 **Contrast:** The k is silent; it sounds exactly like night.
 
-An armored soldier on horseback in medieval Europe.
+Knight has 2 distinct senses.
+
+**1. An armored soldier on horseback in medieval Europe.** (рыцарь)
 
 1. The *knight* wore a full suit of armor.
 2. Two *knights* fought on horseback.
 3. A *knight* swore loyalty to his lord.
+
+**2. The chess piece shaped like a horse's head, which moves in an L shape.** (конь (шахматная фигура))
+
+4. She moved her *knight* to threaten the queen.
+5. A *knight* is the only piece that can jump over others.
+6. He lost both *knights* in the first ten moves.
 
 ---
 
@@ -848,16 +894,24 @@ Someone who betrays his own country or side.
 ### rebel
 
 **Pronunciation:** /ˈrɛbəl/ &middot; *REB-uhl*
-**Русский:** повстанец, мятежник
+**Русский:** повстанец, мятежник; бунтарь, нонконформист
 **Plural:** *rebels*
 **Countability:** countable
 **Contrast:** The noun is REB-uhl; the verb to rebel is rih-BEL.
 
-Someone who fights against the government of his own country.
+Rebel has 2 distinct senses.
+
+**1. Someone who fights against the government of his own country.** (повстанец, мятежник)
 
 1. The *rebels* controlled half the country.
 2. A captured *rebel* gave up their position.
 3. Government troops pushed the *rebels* back.
+
+**2. Someone who refuses to follow the usual rules or customs.** (бунтарь, нонконформист)
+
+4. She was a bit of a *rebel* in high school.
+5. Artists like to think of themselves as *rebels*.
+6. He's always been the *rebel* of the family.
 
 ---
 
@@ -925,15 +979,29 @@ A soldier trained to drop into battle by parachute.
 ### scout
 
 **Pronunciation:** /skaʊt/ &middot; *SKOWT*
-**Русский:** разведчик
+**Русский:** разведчик; скаут, селекционер (по поиску талантов); скаут (член детской организации)
 **Plural:** *scouts*
 **Countability:** countable
 
-A soldier sent ahead to gather information about the enemy.
+Scout has 3 distinct senses.
+
+**1. A soldier sent ahead to gather information about the enemy.** (разведчик)
 
 1. The *scout* returned with a map of the valley.
 2. *Scouts* reported enemy tanks on the road.
 3. They sent a *scout* ahead of the column.
+
+**2. Someone whose job is to look for talented players or performers.** (скаут, селекционер (по поиску талантов))
+
+4. *Scouts* from three colleges came to watch him pitch.
+5. A *scout* saw her play in a summer league.
+6. The team's *scouts* spend the whole season on the road.
+
+**3. A boy or girl who belongs to a youth group that teaches camping and outdoor skills.** (скаут (член детской организации))
+
+7. The *scouts* sold popcorn outside the grocery store.
+8. My son has been a *scout* since third grade.
+9. A troop of *scouts* camped down by the river.
 
 ---
 
@@ -985,15 +1053,23 @@ A pistol with a turning cylinder that holds several rounds.
 ### shotgun
 
 **Pronunciation:** /ˈʃɑːtɡʌn/ &middot; *SHAHT-guhn*
-**Русский:** дробовик, ружьё
+**Русский:** дробовик, ружьё; переднее пассажирское сиденье
 **Plural:** *shotguns*
 **Countability:** countable
 
-A long gun that fires a spray of small pellets.
+Shotgun has 2 distinct senses.
+
+**1. A long gun that fires a spray of small pellets.** (дробовик, ружьё)
 
 1. The farmer kept a *shotgun* behind the door.
 2. He fired the *shotgun* into the air.
 3. Two *shotguns* were found in the truck.
+
+**2. The front passenger seat of a car, next to the driver.** (переднее пассажирское сиденье)
+
+4. My brother called *shotgun* before we reached the driveway.
+5. You rode *shotgun* the whole way here.
+6. Whoever gets to the car first gets *shotgun*.
 
 ---
 
@@ -1016,15 +1092,23 @@ A large heavy gun mounted on a carriage or a vehicle.
 ### bullet
 
 **Pronunciation:** /ˈbʊlɪt/ &middot; *BUUL-it*
-**Русский:** пуля
+**Русский:** пуля; маркер списка, пункт списка
 **Plural:** *bullets*
 **Countability:** countable
 
-The small piece of metal fired from a gun.
+Bullet has 2 distinct senses.
+
+**1. The small piece of metal fired from a gun.** (пуля)
 
 1. A *bullet* went straight through the door.
 2. He still carries the *bullet* in his shoulder.
 3. *Bullets* pinged off the wall above them.
+
+**2. A dot marking one item in a list, or the short line of text beside it.** (маркер списка, пункт списка)
+
+4. Put your main results in three *bullets*.
+5. No slide should have more than five *bullets*.
+6. She rewrote the paragraph as a set of *bullets*.
 
 ---
 
@@ -1045,16 +1129,24 @@ An explosive powder used to fire guns and blast rock.
 ### bomb
 
 **Pronunciation:** /bɑːm/ &middot; *BAHM*
-**Русский:** бомба
+**Русский:** бомба; провал, фиаско
 **Plural:** *bombs*
 **Countability:** countable
 **Contrast:** The final b is silent: BAHM, rhyming with mom.
 
-A container of explosive designed to blow up and destroy.
+Bomb has 2 distinct senses.
+
+**1. A container of explosive designed to blow up and destroy.** (бомба)
 
 1. The *bomb* fell two blocks away.
 2. *Bombs* destroyed most of the old town.
 3. Engineers defused the *bomb* at dawn.
+
+**2. A complete failure, especially a movie or a show.** (провал, фиаско)
+
+4. The film was a *bomb* at the box office.
+5. His first restaurant was a *bomb*.
+6. The season opener turned out to be a total *bomb*.
 
 ---
 
@@ -1107,16 +1199,30 @@ The explosive front section of a missile or torpedo.
 ### mine
 
 **Pronunciation:** /maɪn/ &middot; *MYNE*
-**Русский:** мина
+**Русский:** мина; шахта, рудник; кладезь, источник (сведений)
 **Plural:** *mines*
 **Countability:** countable
 **Contrast:** Same spelling and sound as mine, a coal mine, and as the possessive mine.
 
-A hidden explosive that goes off when someone steps on it or drives over it.
+Mine has 3 distinct senses.
+
+**1. A hidden explosive that goes off when someone steps on it or drives over it.** (мина)
 
 1. The truck hit a *mine* on the dirt road.
 2. They cleared the *mines* one by one.
 3. A single *mine* can close a road for days.
+
+**2. A deep hole or system of tunnels dug to take coal or metal out of the ground.** (шахта, рудник)
+
+4. His grandfather worked in a coal *mine* for thirty years.
+5. The copper *mine* closed in the 1980s.
+6. Old *mines* run under the hills above town.
+
+**3. A rich source of something, especially information.** (кладезь, источник (сведений))
+
+7. That old census is a *mine* of information.
+8. Her notebooks are a *mine* of ideas.
+9. For a historian the archive is a gold *mine*.
 
 ---
 
@@ -1184,15 +1290,23 @@ A short pointed knife used as a weapon.
 ### spear
 
 **Pronunciation:** /spɪr/ &middot; *SPEER*
-**Русский:** копьё
+**Русский:** копьё; стебель, длинный ломтик (овоща)
 **Plural:** *spears*
 **Countability:** countable
 
-A long pole with a sharp point, thrown or thrust at an enemy.
+Spear has 2 distinct senses.
+
+**1. A long pole with a sharp point, thrown or thrust at an enemy.** (копьё)
 
 1. The warriors carried short *spears*.
 2. He threw the *spear* with both hands.
 3. Their *spears* had iron tips.
+
+**2. A long thin piece of a vegetable, either a whole shoot or a lengthwise slice.** (стебель, длинный ломтик (овоща))
+
+4. Steam the asparagus *spears* for about four minutes.
+5. She packed a pickle *spear* next to the sandwich.
+6. Serve the broccoli *spears* with a squeeze of lemon.
 
 ---
 
@@ -1222,15 +1336,23 @@ Arrow has 2 distinct senses.
 ### shield
 
 **Pronunciation:** /ʃiːld/ &middot; *SHEELD*
-**Русский:** щит
+**Русский:** щит; защита, защитный экран
 **Plural:** *shields*
 **Countability:** countable
 
-A broad piece of metal or wood held up to block blows.
+Shield has 2 distinct senses.
+
+**1. A broad piece of metal or wood held up to block blows.** (щит)
 
 1. He raised his *shield* against the blow.
 2. Their *shields* formed a solid wall.
 3. The *shield* was made of wood and leather.
+
+**2. Anything that protects a person or thing from harm.** (защита, защитный экран)
+
+4. Sunscreen is your best *shield* against burns.
+5. The heat *shield* on the spacecraft held.
+6. Her lawyer acted as a *shield* between her and the press.
 
 ---
 
@@ -1252,45 +1374,69 @@ A hard protective covering worn in battle or fitted to a vehicle.
 ### trigger
 
 **Pronunciation:** /ˈtrɪɡər/ &middot; *TRIG-ur*
-**Русский:** спусковой крючок
+**Русский:** спусковой крючок; причина, толчок
 **Plural:** *triggers*
 **Countability:** countable
 
-The small lever you pull to fire a gun.
+Trigger has 2 distinct senses.
+
+**1. The small lever you pull to fire a gun.** (спусковой крючок)
 
 1. He put his finger on the *trigger*.
 2. Never touch the *trigger* until you are ready.
 3. The *trigger* was jammed with sand.
+
+**2. Something that causes another thing to start or happen.** (причина, толчок)
+
+4. Stress is a common *trigger* for migraines.
+5. The arrest was the *trigger* for weeks of protests.
+6. Certain foods are *triggers* for her allergy.
 
 ---
 
 ### arsenal
 
 **Pronunciation:** /ˈɑːrsənəl/ &middot; *AHR-suh-nuhl*
-**Русский:** арсенал
+**Русский:** арсенал; арсенал (средств, приёмов)
 **Plural:** *arsenals*
 **Countability:** countable
 
-A store of weapons, or all the weapons a country has.
+Arsenal has 2 distinct senses.
+
+**1. A store of weapons, or all the weapons a country has.** (арсенал)
 
 1. The country's nuclear *arsenal* has shrunk.
 2. They raided the government *arsenal*.
 3. Both *arsenals* were destroyed in the raid.
+
+**2. The whole set of skills or resources someone can draw on.** (арсенал (средств, приёмов))
+
+4. A changeup is the best pitch in his *arsenal*.
+5. Patience is the strongest tool in a teacher's *arsenal*.
+6. The lawyer had an *arsenal* of precedents ready.
 
 ---
 
 ### tank
 
 **Pronunciation:** /tæŋk/ &middot; *TANK*
-**Русский:** танк
+**Русский:** танк; бак, резервуар, цистерна; аквариум
 **Plural:** *tanks*
 **Countability:** countable
 
-An armored fighting vehicle that moves on tracks and carries a big gun.
+Tank has 2 distinct senses.
+
+**1. An armored fighting vehicle that moves on tracks and carries a big gun.** (танк)
 
 1. A column of *tanks* rolled through the square.
 2. The *tank* threw a track in the mud.
 3. Fifty *tanks* were lost in a single day.
+
+**2. A large container for holding liquid or gas.** (бак, резервуар, цистерна; аквариум)
+
+4. The gas *tank* is almost empty.
+5. We keep goldfish in a ten-gallon *tank*.
+6. The water heater's *tank* sprang a leak.
 
 ---
 
@@ -1312,46 +1458,82 @@ An aircraft lifted by spinning blades above it.
 ### bomber
 
 **Pronunciation:** /ˈbɑːmər/ &middot; *BAH-mur*
-**Русский:** бомбардировщик
+**Русский:** бомбардировщик; подрывник, террорист с бомбой
 **Plural:** *bombers*
 **Countability:** countable
 **Contrast:** The b in bomb- is silent: BAH-mur.
 
-A military aircraft built to drop bombs.
+Bomber has 2 distinct senses.
+
+**1. A military aircraft built to drop bombs.** (бомбардировщик)
 
 1. The *bombers* came in at ten thousand feet.
 2. A single *bomber* was shot down.
 3. Heavy *bombers* struck the rail yards.
+
+**2. A person who sets off a bomb.** (подрывник, террорист с бомбой)
+
+4. The *bomber* was arrested two days later.
+5. Police say the *bomber* acted alone.
+6. The *bombers* left the package near the entrance.
 
 ---
 
 ### fighter
 
 **Pronunciation:** /ˈfaɪtər/ &middot; *FY-tur*
-**Русский:** истребитель
+**Русский:** истребитель; боец, боксёр; боец (о стойком человеке)
 **Plural:** *fighters*
 **Countability:** countable
 
-A fast military aircraft built to attack other aircraft.
+Fighter has 3 distinct senses.
+
+**1. A fast military aircraft built to attack other aircraft.** (истребитель)
 
 1. Two *fighters* escorted the transport.
 2. The *fighter* rolled and dove.
 3. Enemy *fighters* met them over the channel.
+
+**2. Someone who fights in a boxing or martial arts contest.** (боец, боксёр)
+
+4. Both *fighters* made weight on Friday.
+5. He's the most exciting *fighter* in the division.
+6. The *fighter* wore his opponent down in the later rounds.
+
+**3. A person who refuses to give up when things get hard.** (боец (о стойком человеке))
+
+7. The doctors say she's a *fighter*.
+8. He was a *fighter* right up to the end.
+9. Kids who grow up like that turn into *fighters*.
 
 ---
 
 ### drone
 
 **Pronunciation:** /droʊn/ &middot; *DROHN*
-**Русский:** беспилотник, дрон
+**Русский:** беспилотник, дрон; гул, монотонный звук; трутень
 **Plural:** *drones*
 **Countability:** countable
 
-An aircraft flown without a pilot on board.
+Drone has 3 distinct senses.
+
+**1. An aircraft flown without a pilot on board.** (беспилотник, дрон)
 
 1. A *drone* circled overhead for hours.
 2. *Drones* now do most of the reconnaissance.
 3. They shot the *drone* down with a rifle.
+
+**2. A low, steady humming sound that goes on and on.** (гул, монотонный звук)
+
+4. The *drone* of the highway kept me awake.
+5. He fell asleep to the *drone* of the lecture.
+6. A steady *drone* came from the machine room.
+
+**3. A male bee that does no work and cannot sting.** (трутень)
+
+7. The workers drive the *drones* out of the hive in the fall.
+8. A *drone* exists only to mate with the queen.
+9. *Drones* are stockier than worker bees.
 
 ---
 
@@ -1502,30 +1684,52 @@ A large, heavily defended building or town.
 ### bunker
 
 **Pronunciation:** /ˈbʌŋkər/ &middot; *BUNG-kur*
-**Русский:** бункер, блиндаж
+**Русский:** бункер, блиндаж; бункер (песчаная ловушка на поле для гольфа)
 **Plural:** *bunkers*
 **Countability:** countable
 
-A shelter built underground or of thick concrete to survive attack.
+Bunker has 2 distinct senses.
+
+**1. A shelter built underground or of thick concrete to survive attack.** (бункер, блиндаж)
 
 1. They took shelter in a concrete *bunker*.
 2. The *bunker* survived the bombing.
 3. Machine-gun *bunkers* covered the beach.
+
+**2. A hollow filled with sand on a golf course, placed to catch bad shots.** (бункер (песчаная ловушка на поле для гольфа))
+
+4. His tee shot rolled into the *bunker*.
+5. She got up and down from the greenside *bunker*.
+6. The new course has sixty *bunkers*.
 
 ---
 
 ### trench
 
 **Pronunciation:** /trɛntʃ/ &middot; *TRENCH*
-**Русский:** окоп, траншея
+**Русский:** окоп, траншея; траншея, канава (под трубы, кабель); океанский жёлоб, впадина
 **Plural:** *trenches*
 **Countability:** countable
 
-A long narrow ditch dug for soldiers to fight from.
+Trench has 3 distinct senses.
+
+**1. A long narrow ditch dug for soldiers to fight from.** (окоп, траншея)
 
 1. The men dug a *trench* along the ridge.
 2. Life in the *trenches* was miserable.
 3. A shell collapsed part of the *trench*.
+
+**2. A long narrow hole dug in the ground for pipes, cables, or drainage.** (траншея, канава (под трубы, кабель))
+
+4. The crew dug a *trench* for the water line.
+5. Don't fall in the *trench* they cut across the driveway.
+6. Gravel goes in the bottom of the *trench*.
+
+**3. A very deep narrow valley in the ocean floor.** (океанский жёлоб, впадина)
+
+7. The Pacific has the deepest *trenches* on earth.
+8. Strange creatures live at the bottom of the *trench*.
+9. The submarine descended slowly into the *trench*.
 
 ---
 
@@ -1592,15 +1796,29 @@ A small military post far from the main force.
 ### mission
 
 **Pronunciation:** /ˈmɪʃən/ &middot; *MISH-uhn*
-**Русский:** задание, боевая задача
+**Русский:** задание, боевая задача; миссия, задача, призвание; миссия (религиозная); приют
 **Plural:** *missions*
 **Countability:** countable
 
-A particular military job that a person or unit is sent to do.
+Mission has 3 distinct senses.
+
+**1. A particular military job that a person or unit is sent to do.** (задание, боевая задача)
 
 1. He flew thirty *missions* over Germany.
 2. The *mission* was called off at the last minute.
 3. Their *mission* was to blow up the bridge.
+
+**2. An important job or purpose that a person or organization takes on.** (миссия, задача, призвание)
+
+4. Their *mission* is to get books into rural schools.
+5. He's on a *mission* to fix the city's bus routes.
+6. The charity's *mission* statement fits on one line.
+
+**3. A place run by a religious group to spread its faith or help the poor.** (миссия (религиозная); приют)
+
+7. The old Spanish *mission* still holds services.
+8. He slept at a downtown *mission* that winter.
+9. The church supports two *missions* overseas.
 
 ---
 
@@ -1749,15 +1967,23 @@ A law requiring people to serve in the armed forces.
 ### target
 
 **Pronunciation:** /ˈtɑːrɡət/ &middot; *TAHR-guht*
-**Русский:** цель, мишень
+**Русский:** цель, мишень; цель, плановый показатель
 **Plural:** *targets*
 **Countability:** countable
 
-The thing or place that an attack or shot is aimed at.
+Target has 2 distinct senses.
+
+**1. The thing or place that an attack or shot is aimed at.** (цель, мишень)
 
 1. The bridge was the primary *target*.
 2. They hit both *targets* on the first pass.
 3. Civilians should never be a *target*.
+
+**2. A result or figure that you are trying to reach.** (цель, плановый показатель)
+
+4. The team hit its sales *target* for the quarter.
+5. The city set a *target* of 500 new apartments a year.
+6. We're behind *target* on the fundraising.
 
 ---
 
@@ -1855,15 +2081,23 @@ Salute has 2 distinct senses.
 ### rank
 
 **Pronunciation:** /ræŋk/ &middot; *RANK*
-**Русский:** воинское звание
+**Русский:** воинское звание; ряды (организации), рядовые члены
 **Plural:** *ranks*
 **Countability:** countable
 
-A person's official position in the armed forces.
+Rank has 2 distinct senses.
+
+**1. A person's official position in the armed forces.** (воинское звание)
 
 1. She holds the *rank* of major.
 2. He rose through the *ranks* quickly.
 3. Officers of every *rank* attended the ceremony.
+
+**2. The ordinary members of a large group, taken together.** (ряды (организации), рядовые члены)
+
+4. Layoffs thinned the *ranks* of middle managers.
+5. She joined the *ranks* of the unemployed in March.
+6. The party keeps losing members from its *ranks*.
 
 ---
 

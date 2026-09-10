@@ -26,15 +26,23 @@ The dishonest practice of selling fake medical cures.
 ### quad
 
 **Pronunciation:** /kwɑːd/ &middot; *KWAHD*
-**Русский:** внутренний двор кампуса
+**Русский:** внутренний двор кампуса; квадрицепс, четырёхглавая мышца бедра
 **Plural:** *quads*
 **Countability:** countable
 
-The open square of lawn in the middle of a college campus.
+Quad has 2 distinct senses.
+
+**1. The open square of lawn in the middle of a college campus.** (внутренний двор кампуса)
 
 1. Students were throwing a frisbee on the *quad*.
 2. Meet me by the library on the *quad*.
 3. Both *quads* are lined with old oak trees.
+
+**2. The large muscle at the front of the thigh, usually in the plural.** (квадрицепс, четырёхглавая мышца бедра)
+
+4. My *quads* are sore from squats.
+5. He tore a *quad* during the game.
+6. Stretch your *quads* before you run.
 
 ---
 
@@ -193,15 +201,35 @@ A solid landing place built along the water where ships load and unload.
 ### queen
 
 **Pronunciation:** /kwiːn/ &middot; *KWEEN*
-**Русский:** королева
+**Русский:** королева; ферзь, королева (шахматная фигура); дама (игральная карта); матка (пчелиная, муравьиная)
 **Plural:** *queens*
 **Countability:** countable
 
-A woman who rules a country, or the wife of a king.
+Queen has 4 distinct senses.
+
+**1. A woman who rules a country, or the wife of a king.** (королева)
 
 1. The *queen* opened parliament in November.
 2. Two *queens* ruled the island in succession.
 3. In chess the *queen* is the strongest piece.
+
+**2. The most powerful piece in chess.** (ферзь, королева (шахматная фигура))
+
+4. He lost his *queen* on the twelfth move.
+5. The *queen* can move in any direction.
+6. She traded her *queen* for a rook and a bishop.
+
+**3. A playing card with a picture of a queen on it.** (дама (игральная карта))
+
+7. He was holding two *queens* and a pair of eights.
+8. She drew the *queen* of hearts.
+9. *Queens* count as ten points in this game.
+
+**4. The single egg-laying female in a colony of bees, ants, or wasps.** (матка (пчелиная, муравьиная))
+
+10. The hive died out after the *queen* was lost.
+11. A new *queen* hatches and the swarm splits in two.
+12. Worker bees feed the *queen* royal jelly.
 
 ---
 
@@ -519,15 +547,23 @@ Bright warm light, or a glowing look of health and happiness.
 ### radical
 
 **Pronunciation:** /ˈrædɪkəl/ &middot; *RAD-ih-kul*
-**Русский:** радикал (сторонник крайних мер)
+**Русский:** радикал (сторонник крайних мер); радикал (хим.), свободный радикал
 **Plural:** *radicals*
 **Countability:** countable
 
-A person who favors extreme political or social change.
+Radical has 2 distinct senses.
+
+**1. A person who favors extreme political or social change.** (радикал (сторонник крайних мер))
 
 1. He was a *radical* in his twenties and a banker by forty.
 2. The party was taken over by *radicals*.
 3. Each side called the other side *radicals*.
+
+**2. An atom or group of atoms with an unpaired electron, which reacts easily and can damage cells.** (радикал (хим.), свободный радикал)
+
+4. Antioxidants mop up free *radicals* in the body.
+5. A free *radical* reacts with almost anything it touches.
+6. Sunlight produces *radicals* in the skin.
 
 ---
 
@@ -766,14 +802,28 @@ The quality of happening without a pattern or a plan.
 ### rap
 
 **Pronunciation:** /ræp/ &middot; *RAP*
-**Русский:** рэп
+**Русский:** рэп; стук, резкий удар; обвинение; вина
 **Countability:** uncountable
 
-A style of music in which words are spoken in rhythm over a beat.
+Rap has 3 distinct senses.
+
+**1. A style of music in which words are spoken in rhythm over a beat.** (рэп)
 
 1. He listens to *rap* on the way to work.
 2. *Rap* took over American pop music in the 1990s.
 3. The song mixes *rap* with old soul samples.
+
+**2. A quick, sharp knock.** (стук, резкий удар)
+
+4. There was a *rap* at the door just after midnight.
+5. He gave the desk a *rap* with his knuckles.
+6. A sharp *rap* on the window woke me up.
+
+**3. Blame, or a criminal charge.** (обвинение; вина)
+
+7. He took the *rap* for something his brother did.
+8. She beat a drug *rap* last year.
+9. The kid already has a long *rap* sheet.
 
 ---
 
@@ -1101,15 +1151,23 @@ A real estate agent who helps people buy and sell property.
 ### rear
 
 **Pronunciation:** /rɪr/ &middot; *REER*
-**Русский:** задняя часть, тыл
+**Русский:** задняя часть, тыл; зад, попа
 **Plural:** *rears*
 **Countability:** countable
 
-The back part of something.
+Rear has 2 distinct senses.
+
+**1. The back part of something.** (задняя часть, тыл)
 
 1. The kitchen is at the *rear* of the house.
 2. Two officers rode at the *rear* of the column.
 3. We parked around the *rear* of the building.
+
+**2. A person's bottom.** (зад, попа)
+
+4. He slipped on the ice and landed on his *rear*.
+5. The pants were torn across the *rear*.
+6. Sitting in that chair all day makes my *rear* sore.
 
 ---
 
@@ -1609,14 +1667,22 @@ An act of saying no to something offered or demanded.
 ### regard
 
 **Pronunciation:** /rɪˈɡɑːrd/ &middot; *rih-GARD*
-**Русский:** уважение; внимание, отношение
+**Русский:** уважение; внимание, отношение; привет, поклон (в письме)
 **Countability:** uncountable
 
-Respect or careful attention given to someone or something.
+Regard has 2 distinct senses.
+
+**1. Respect or careful attention given to someone or something.** (уважение; внимание, отношение)
 
 1. She is held in high *regard* by her colleagues.
 2. He drove with no *regard* for the speed limit.
 3. With *regard* to your question, the answer is yes.
+
+**2. Friendly greetings sent to someone.** (привет, поклон (в письме))
+
+4. Give my *regards* to your parents.
+5. He signed off with 'Best *regards*.'
+6. Send her my *regards* the next time you write.
 
 ---
 
@@ -2273,15 +2339,29 @@ The act of selling again something you bought, or the value it keeps for that pu
 ### reserve
 
 **Pronunciation:** /rɪˈzɜːrv/ &middot; *rih-ZURV*
-**Русский:** запас, резерв; заповедник
+**Русский:** запас, резерв; заповедник; резерв вооружённых сил, запас; сдержанность, замкнутость
 **Plural:** *reserves*
 **Countability:** countable
 
-A supply kept back for later use, or an area of land protected for wildlife.
+Reserve has 3 distinct senses.
+
+**1. A supply kept back for later use, or an area of land protected for wildlife.** (запас, резерв; заповедник)
 
 1. The bank keeps cash in *reserve*.
 2. We hiked through a nature *reserve*.
 3. The country's oil *reserves* are shrinking.
+
+**2. A part of a country's armed forces whose members serve part-time.** (резерв вооружённых сил, запас)
+
+4. He spent eight years in the *reserves*.
+5. Her unit was called up from the *reserves*.
+6. After active duty he joined the *reserves*.
+
+**3. A quiet, self-controlled manner that keeps feelings hidden.** (сдержанность, замкнутость)
+
+7. It took months to get past his *reserve*.
+8. She spoke with a certain *reserve* about the divorce.
+9. His natural *reserve* is often mistaken for coldness.
 
 ---
 
@@ -2423,15 +2503,23 @@ A person who answers a survey, or the party who answers a legal claim.
 ### rest
 
 **Pronunciation:** /rɛst/ &middot; *REST*
-**Русский:** отдых; остаток
+**Русский:** отдых; остаток; пауза (в нотах)
 **Plural:** *rests*
 **Countability:** both — countable and uncountable with different meanings
 
-A period of relaxing or sleeping, or the part of something that remains.
+Rest has 2 distinct senses.
+
+**1. A period of relaxing or sleeping, or the part of something that remains.** (отдых; остаток)
 
 1. Get some *rest* before the drive.
 2. I'll finish the *rest* tomorrow.
 3. The score has two whole *rests* in that measure.
+
+**2. A silence of a set length in written music.** (пауза (в нотах))
+
+4. Hold the *rest* for two full beats before you come in.
+5. The piece opens with a quarter *rest*.
+6. She counted the *rests* under her breath.
 
 ---
 
@@ -2880,16 +2968,24 @@ A torn place in cloth, paper, or similar material.
 ### rise
 
 **Pronunciation:** /raɪz/ &middot; *RYZ*
-**Русский:** рост, подъём, повышение
+**Русский:** рост, подъём, повышение; возвышенность, подъём (местности)
 **Plural:** *rises*
 **Countability:** countable
 **Contrast:** In the US a pay increase is a *raise*; British speakers call that a *rise*.
 
-An increase in amount, level, or importance.
+Rise has 2 distinct senses.
+
+**1. An increase in amount, level, or importance.** (рост, подъём, повышение)
 
 1. The *rise* in rents pushed families out.
 2. We watched the *rise* of a whole new industry.
 3. There have been three price *rises* this year.
+
+**2. A place where the ground slopes upward.** (возвышенность, подъём (местности))
+
+4. The house sits on a small *rise* above the river.
+5. You'll see the barn once you're over the *rise*.
+6. We pulled the sled up the *rise* and rode back down.
 
 ---
 
@@ -3282,15 +3378,23 @@ A vehicle built to drive over rough ground, especially one exploring another pla
 ### rub
 
 **Pronunciation:** /rʌb/ &middot; *RUB*
-**Русский:** растирание, массаж (растирающими движениями)
+**Русский:** растирание, массаж (растирающими движениями); сухая приправа для мяса (натирка)
 **Plural:** *rubs*
 **Countability:** countable
 
-An act of pressing your hand over something and moving it back and forth.
+Rub has 2 distinct senses.
+
+**1. An act of pressing your hand over something and moving it back and forth.** (растирание, массаж (растирающими движениями))
 
 1. She gave the dog a quick *rub* behind the ears.
 2. A back *rub* would feel wonderful right now.
 3. He gave the windshield one last *rub* with the cloth.
+
+**2. A mix of dry spices pressed onto meat before it is cooked.** (сухая приправа для мяса (натирка))
+
+4. He puts a brown-sugar *rub* on the ribs.
+5. The *rub* is mostly paprika, salt, and pepper.
+6. Let the *rub* sit on the brisket overnight.
 
 ---
 
@@ -3880,15 +3984,23 @@ A long strip of cloth wrapped around the waist and worn like a skirt.
 ### sash
 
 **Pronunciation:** /sæʃ/ &middot; *SASH*
-**Русский:** кушак; лента (через плечо)
+**Русский:** кушак; лента (через плечо); оконная створка, подъёмная рама
 **Plural:** *sashes*
 **Countability:** countable
 
-A wide band of cloth worn around the waist or over one shoulder.
+Sash has 2 distinct senses.
+
+**1. A wide band of cloth worn around the waist or over one shoulder.** (кушак; лента (через плечо))
 
 1. The mayor wore a ceremonial *sash*.
 2. Her dress had a pale blue *sash* at the waist.
 3. The winners were given *sashes* and flowers.
+
+**2. The wooden or metal frame that holds the glass in a window and slides up and down.** (оконная створка, подъёмная рама)
+
+4. The bottom *sash* sticks unless you push both sides at once.
+5. Painters had sealed the *sash* shut with three coats of latex.
+6. We replaced the rotted *sashes* on the front of the house.
 
 ---
 
@@ -4041,15 +4153,23 @@ A musician who plays the saxophone.
 ### scab
 
 **Pronunciation:** /skæb/ &middot; *SKAB*
-**Русский:** струп, корка (на ране)
+**Русский:** струп, корка (на ране); штрейкбрехер
 **Plural:** *scabs*
 **Countability:** countable
 
-The hard crust that forms over a healing wound.
+Scab has 2 distinct senses.
+
+**1. The hard crust that forms over a healing wound.** (струп, корка (на ране))
 
 1. Don't pick at that *scab* or it will scar.
 2. The *scab* fell off after about a week.
 3. His knees were covered in *scabs* from the fall.
+
+**2. A worker who stays on the job during a strike, or one hired to replace a striker.** (штрейкбрехер)
+
+4. The union called anyone who crossed the picket line a *scab*.
+5. The plant kept running with *scabs* bused in from out of state.
+6. Nobody in that family would ever work as a *scab*.
 
 ---
 
@@ -4219,16 +4339,24 @@ A simplified drawing showing how the parts of a system connect.
 ### scheme
 
 **Pronunciation:** /skiːm/ &middot; *SKEEM*
-**Русский:** замысел, махинация; схема
+**Русский:** замысел, махинация; схема; гамма, схема оформления (сочетание цветов)
 **Plural:** *schemes*
 **Countability:** countable
 **Contrast:** In American English a *scheme* usually sounds dishonest; in British English it is a neutral word for an official program.
 
-A plan, especially a clever or dishonest one.
+Scheme has 2 distinct senses.
+
+**1. A plan, especially a clever or dishonest one.** (замысел, махинация; схема)
 
 1. The whole thing was a *scheme* to avoid taxes.
 2. He fell for a get-rich-quick *scheme*.
 3. Their *schemes* finally caught up with them.
+
+**2. An arrangement of parts that are chosen to go together, especially colors in a design.** (гамма, схема оформления (сочетание цветов))
+
+4. The whole apartment follows a gray and white color *scheme*.
+5. We picked a *scheme* of soft blues for the nursery.
+6. The poem keeps the same rhyme *scheme* all the way through.
 
 ---
 
@@ -4447,15 +4575,29 @@ A blank book that someone fills with photos, clippings, and keepsakes.
 ### scrape
 
 **Pronunciation:** /skreɪp/ &middot; *SKRAYP*
-**Русский:** ссадина, царапина
+**Русский:** ссадина, царапина; скрежет, скрип; переделка, неприятность
 **Plural:** *scrapes*
 **Countability:** countable
 
-A shallow wound or mark made by rubbing against something rough.
+Scrape has 3 distinct senses.
+
+**1. A shallow wound or mark made by rubbing against something rough.** (ссадина, царапина)
 
 1. She came home with a *scrape* on her elbow.
 2. There are a couple of *scrapes* on the rear bumper.
 3. It's just a *scrape* — it'll heal in a few days.
+
+**2. The harsh sound made when something hard rubs against a surface.** (скрежет, скрип)
+
+4. We heard the *scrape* of a shovel on the sidewalk.
+5. The *scrape* of chairs filled the room as everyone stood up.
+6. There was a *scrape*, and then the gate swung open.
+
+**3. An awkward situation that someone gets into through carelessness.** (переделка, неприятность)
+
+7. He got into a few *scrapes* as a teenager.
+8. Her brother is always in some kind of *scrape*.
+9. It took a good lawyer to get him out of that *scrape*.
 
 ---
 
@@ -4730,15 +4872,23 @@ The practice of keeping something hidden from other people.
 ### secret
 
 **Pronunciation:** /ˈsiːkrət/ &middot; *SEE-krit*
-**Русский:** секрет, тайна
+**Русский:** секрет, тайна; секрет, залог (успеха)
 **Plural:** *secrets*
 **Countability:** countable
 
-A piece of information kept hidden from other people.
+Secret has 2 distinct senses.
+
+**1. A piece of information kept hidden from other people.** (секрет, тайна)
 
 1. Can you keep a *secret*?
 2. She told me her family's biggest *secret*.
 3. Half the town knew the *secret* by Monday.
+
+**2. The method or quality that explains why something works so well.** (секрет, залог (успеха))
+
+4. The *secret* to a good crust is very cold butter.
+5. Everyone wants to know the *secret* of her energy.
+6. He says the *secret* is starting early and never rushing.
 
 ---
 
@@ -5675,15 +5825,23 @@ A shoelace, or, in the phrase on a shoestring, a very small amount of money.
 ### shooter
 
 **Pronunciation:** /ˈʃuːtər/ &middot; *SHOO-tur*
-**Русский:** стрелок; бросающий (в баскетболе)
+**Русский:** стрелок; бросающий (в баскетболе); шутер (жанр видеоигр)
 **Plural:** *shooters*
 **Countability:** countable
 
-A person who fires a gun, or a player who shoots at the basket or goal.
+Shooter has 2 distinct senses.
+
+**1. A person who fires a gun, or a player who shoots at the basket or goal.** (стрелок; бросающий (в баскетболе))
 
 1. Police identified the *shooter* within hours.
 2. He's the best three-point *shooter* on the team.
 3. The *shooter* was arrested two blocks away.
+
+**2. A video game whose action is built around firing weapons.** (шутер (жанр видеоигр))
+
+4. He plays first-person *shooters* with his cousins online.
+5. The studio's new *shooter* sold two million copies.
+6. I'm terrible at *shooters* but I love racing games.
 
 ---
 
@@ -5910,15 +6068,23 @@ The state of being ill, or a feeling of nausea.
 ### sidebar
 
 **Pronunciation:** /ˈsaɪdbɑːr/ &middot; *SYD-bar*
-**Русский:** боковая панель; врезка (в статье)
+**Русский:** боковая панель; врезка (в статье); совещание у судейского стола (без присяжных)
 **Plural:** *sidebars*
 **Countability:** countable
 
-A column of extra material beside the main text or web page.
+Sidebar has 2 distinct senses.
+
+**1. A column of extra material beside the main text or web page.** (боковая панель; врезка (в статье))
 
 1. The menu is in the *sidebar* on the left.
 2. The article has a *sidebar* explaining how to apply.
 3. You can hide the *sidebar* for more room.
+
+**2. A short private conversation at the judge's bench, out of the jury's hearing.** (совещание у судейского стола (без присяжных))
+
+4. The judge called both attorneys up for a *sidebar*.
+5. After a brief *sidebar*, the question was withdrawn.
+6. The transcript leaves out whatever was said in the *sidebars*.
 
 ---
 
@@ -5970,16 +6136,24 @@ A short nap taken in the early afternoon.
 ### sight
 
 **Pronunciation:** /saɪt/ &middot; *SYT*
-**Русский:** зрение; вид, зрелище
+**Русский:** зрение; вид, зрелище; прицел
 **Plural:** *sights*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Sounds exactly like *site* and *cite* — three different words.
 
-The ability to see, or something that is seen.
+Sight has 2 distinct senses.
+
+**1. The ability to see, or something that is seen.** (зрение; вид, зрелище)
 
 1. He lost the *sight* in one eye.
 2. The sunset over the bay was a beautiful *sight*.
 3. We saw all the *sights* of the city in one day.
+
+**2. The device on a gun or telescope that you look through to aim.** (прицел)
+
+4. He adjusted the rear *sight* before the first shot.
+5. The buck stepped right into his *sights*.
+6. Cheap *sights* drift after a few hundred rounds.
 
 ---
 
@@ -6001,16 +6175,30 @@ An occasion when someone sees something rare or unexpected.
 ### sign
 
 **Pronunciation:** /saɪn/ &middot; *SYN*
-**Русский:** знак; вывеска; признак
+**Русский:** знак; вывеска; признак; знак зодиака; знак (символ)
 **Plural:** *signs*
 **Countability:** countable
 **Contrast:** The g is silent — SYN — but it comes back in *signal* and *signature*.
 
-A board with words or a picture that gives information, or an indication that something exists.
+Sign has 3 distinct senses.
+
+**1. A board with words or a picture that gives information, or an indication that something exists.** (знак; вывеска; признак)
 
 1. The *sign* says the store closes at nine.
 2. A high fever can be a *sign* of infection.
 3. Somebody knocked down the stop *sign* on the corner.
+
+**2. One of the twelve parts of the zodiac that a person is born under.** (знак зодиака)
+
+4. What's your *sign*?
+5. She reads the horoscope for every *sign* but her own.
+6. The two of them were born under the same *sign*.
+
+**3. A written mark standing for a word, a number, or an operation.** (знак (символ))
+
+7. Put a dollar *sign* in front of the number.
+8. The kids are learning the plus and minus *signs*.
+9. He wrote the equals *sign* twice by mistake.
 
 ---
 
@@ -6477,15 +6665,29 @@ The act of walking around while still asleep.
 ### slider
 
 **Pronunciation:** /ˈslaɪdər/ &middot; *SLY-dur*
-**Русский:** ползунок (регулятор)
+**Русский:** ползунок (регулятор); слайдер, мини-бургер; слайдер (подача в бейсболе)
 **Plural:** *sliders*
 **Countability:** countable
 
-A control that you move along a track to change a setting.
+Slider has 3 distinct senses.
+
+**1. A control that you move along a track to change a setting.** (ползунок (регулятор))
 
 1. Drag the *slider* to adjust the brightness.
 2. The app has *sliders* for bass and treble.
 3. Move the *slider* all the way to the left to mute it.
+
+**2. A small hamburger served on a soft little bun.** (слайдер, мини-бургер)
+
+4. We ordered a plate of *sliders* to share.
+5. Each *slider* comes with pickles and grilled onion.
+6. The bar sells *sliders* three for eight dollars.
+
+**3. A fast baseball pitch that breaks sideways as it reaches the plate.** (слайдер (подача в бейсболе))
+
+7. He struck him out on a nasty *slider*.
+8. Her *slider* breaks late and low.
+9. Young pitchers throw too many *sliders*.
 
 ---
 
@@ -6508,15 +6710,29 @@ A Y-shaped stick with an elastic band, used to shoot small stones.
 ### slip
 
 **Pronunciation:** /slɪp/ &middot; *SLIP*
-**Русский:** листок, квитанция
+**Русский:** листок, квитанция; комбинация (нижнее бельё); оплошность, обмолвка
 **Plural:** *slips*
 **Countability:** countable
 
-A small piece of paper, often a printed form or a receipt.
+Slip has 3 distinct senses.
+
+**1. A small piece of paper, often a printed form or a receipt.** (листок, квитанция)
 
 1. Fill out the deposit *slip* before you get in line.
 2. She handed me a *slip* with her number on it.
 3. Keep your parking *slips* for reimbursement.
+
+**2. A light dress-shaped undergarment worn beneath a dress or skirt.** (комбинация (нижнее бельё))
+
+4. She wore a silk *slip* under the thin dress.
+5. The lining had pulled away from the *slip*.
+6. *Slips* are hard to find in stores now.
+
+**3. A small careless mistake, especially in speaking.** (оплошность, обмолвка)
+
+7. It was just a *slip* of the tongue.
+8. One *slip* in the code cost them a whole day.
+9. He apologized for the *slip* and moved on.
 
 ---
 
@@ -6553,15 +6769,23 @@ Someone who is lazy and messy.
 ### slot
 
 **Pronunciation:** /slɑːt/ &middot; *SLAHT*
-**Русский:** прорезь, щель; окно в расписании
+**Русский:** прорезь, щель; окно в расписании; игровой автомат
 **Plural:** *slots*
 **Countability:** countable
 
-A narrow opening for putting something in, or a reserved place in a schedule.
+Slot has 2 distinct senses.
+
+**1. A narrow opening for putting something in, or a reserved place in a schedule.** (прорезь, щель; окно в расписании)
 
 1. Drop the coin in the *slot* and press the button.
 2. I got the last appointment *slot* on Friday.
 3. The show moved to a better time *slot*.
+
+**2. A coin-operated gambling machine.** (игровой автомат)
+
+4. She spent the whole evening at the *slots*.
+5. The casino floor is wall-to-wall *slots*.
+6. He won forty dollars on a quarter *slot*.
 
 ---
 
@@ -6642,15 +6866,23 @@ A small self-satisfied or mocking smile.
 ### smoker
 
 **Pronunciation:** /ˈsmoʊkər/ &middot; *SMOH-kur*
-**Русский:** курильщик
+**Русский:** курильщик; коптильня, смокер (для мяса)
 **Plural:** *smokers*
 **Countability:** countable
 
-Someone who smokes tobacco regularly.
+Smoker has 2 distinct senses.
+
+**1. Someone who smokes tobacco regularly.** (курильщик)
 
 1. He was a heavy *smoker* for thirty years.
 2. The hotel has no rooms for *smokers*.
 3. As a former *smoker*, she notices the smell right away.
+
+**2. A covered cooker that cooks meat slowly in hot smoke.** (коптильня, смокер (для мяса))
+
+4. He runs the *smoker* all night before a party.
+5. Brisket needs twelve hours in the *smoker*.
+6. Backyard *smokers* start at a couple hundred dollars.
 
 ---
 
@@ -7219,15 +7451,23 @@ Someone whose job is to write speeches for another person to deliver.
 ### spell
 
 **Pronunciation:** /spɛl/ &middot; *SPEL*
-**Русский:** заклинание, чары
+**Русский:** заклинание, чары; период, промежуток времени; приступ (недомогания)
 **Plural:** *spells*
 **Countability:** countable
 
-A set of words believed to have magic power.
+Spell has 2 distinct senses.
+
+**1. A set of words believed to have magic power.** (заклинание, чары)
 
 1. The witch put a *spell* on the whole village.
 2. He learns three new *spells* in the second book.
 3. Only true love could break the *spell*.
+
+**2. A period of time, especially one of particular weather or a brief bout of illness.** (период, промежуток времени; приступ (недомогания))
+
+4. We had a dry *spell* that lasted all of July.
+5. She had a dizzy *spell* and had to sit down.
+6. He worked at the paper for a *spell* after college.
 
 ---
 
@@ -7338,14 +7578,22 @@ Concern with the soul and inner life rather than with material things.
 ### spit
 
 **Pronunciation:** /spɪt/ &middot; *SPIT*
-**Русский:** слюна, плевок
+**Русский:** слюна, плевок; вертел
 **Countability:** uncountable
 
-Saliva, especially when forced out of the mouth.
+Spit has 2 distinct senses.
+
+**1. Saliva, especially when forced out of the mouth.** (слюна, плевок)
 
 1. There was *spit* on the sidewalk outside the bar.
 2. He wiped the *spit* off his chin.
 3. The baby got *spit* all over my shirt.
+
+**2. A long metal rod that meat is turned on over a fire.** (вертел)
+
+4. A whole pig was turning slowly on the *spit*.
+5. He basted the chicken as it rotated on the *spit*.
+6. The restaurant roasts lamb on an open *spit*.
 
 ---
 
@@ -7396,15 +7644,23 @@ Damage to food or goods that makes them unfit to use.
 ### spoiler
 
 **Pronunciation:** /ˈspɔɪlər/ &middot; *SPOY-lur*
-**Русский:** спойлер
+**Русский:** спойлер; спойлер (антикрыло)
 **Plural:** *spoilers*
 **Countability:** countable
 
-A detail about how a story ends that ruins the surprise for someone.
+Spoiler has 2 distinct senses.
+
+**1. A detail about how a story ends that ruins the surprise for someone.** (спойлер)
 
 1. Don't post *spoilers* before the finale airs.
 2. Sorry for the *spoiler* — I thought you'd seen it.
 3. She warned us there was a *spoiler* in the review.
+
+**2. A raised part fitted to a car or an airplane wing to control airflow.** (спойлер (антикрыло))
+
+4. The car came with a rear *spoiler*.
+5. The pilot raised the *spoilers* as the plane touched down.
+6. He added a *spoiler* and new wheels to the old Mustang.
 
 ---
 
@@ -7500,14 +7756,28 @@ The uncontrolled spread of a city outward into the surrounding land.
 ### spread
 
 **Pronunciation:** /sprɛd/ &middot; *SPRED*
-**Русский:** распространение
+**Русский:** распространение; паста, намазка (на хлеб); накрытый стол, угощение
 **Countability:** uncountable
 
-The movement of something into more places or among more people.
+Spread has 3 distinct senses.
+
+**1. The movement of something into more places or among more people.** (распространение)
 
 1. Masks slowed the *spread* of the virus.
 2. Social media speeds the *spread* of rumors.
 3. Health workers are tracking the *spread* of the outbreak.
+
+**2. A soft food that is put on bread or crackers.** (паста, намазка (на хлеб))
+
+4. Try the olive *spread* on the toast.
+5. I bought a cheese *spread* for the crackers.
+6. This *spread* has less fat than butter.
+
+**3. A large amount of food laid out for guests.** (накрытый стол, угощение)
+
+7. They put out quite a *spread* for the holidays.
+8. The hotel offers a breakfast *spread* every morning.
+9. Her mother laid out a *spread* that fed twenty people.
 
 ---
 
@@ -7723,15 +7993,23 @@ A short wavy or twisting line.
 ### stab
 
 **Pronunciation:** /stæb/ &middot; *STAB*
-**Русский:** удар ножом; попытка
+**Русский:** удар ножом; попытка; укол, приступ (боли, чувства)
 **Plural:** *stabs*
 **Countability:** countable
 
-A thrust with a pointed weapon; also, an attempt at something.
+Stab has 2 distinct senses.
+
+**1. A thrust with a pointed weapon; also, an attempt at something.** (удар ножом; попытка)
 
 1. The victim had three *stab* wounds.
 2. He died from a single *stab* to the chest.
 3. Let me take a *stab* at the answer.
+
+**2. A sudden sharp feeling of pain or emotion.** (укол, приступ (боли, чувства))
+
+4. She felt a *stab* of pain in her side.
+5. A *stab* of guilt hit him when he read the letter.
+6. There was a *stab* of jealousy in his voice.
 
 ---
 
@@ -7946,15 +8224,35 @@ A stated position on an issue, or the way a person stands.
 ### stand
 
 **Pronunciation:** /stænd/ &middot; *STAND*
-**Русский:** ларёк, лоток; стенд
+**Русский:** ларёк, лоток; стенд; подставка, стойка; трибуны; место свидетеля (в суде)
 **Plural:** *stands*
 **Countability:** countable
 
-A small stall or table where things are sold or displayed.
+Stand has 4 distinct senses.
+
+**1. A small stall or table where things are sold or displayed.** (ларёк, лоток; стенд)
 
 1. The kids set up a lemonade *stand*.
 2. We bought corn at a farm *stand*.
 3. Food *stands* line the edge of the fair.
+
+**2. A frame or base made to hold something up.** (подставка, стойка)
+
+4. Put the sheet music on the *stand*.
+5. The TV sits on a low metal *stand*.
+6. He bought a *stand* for his new guitar.
+
+**3. The rows of seats where people watch a game, usually in the plural.** (трибуны)
+
+7. The *stands* were packed for the final.
+8. Her parents cheered from the *stands*.
+9. We sat high in the *stands* behind home plate.
+
+**4. The place in a courtroom where a witness sits to give evidence.** (место свидетеля (в суде))
+
+10. The officer took the *stand* on Thursday morning.
+11. She was visibly nervous on the *stand*.
+12. The defense called three witnesses to the *stand*.
 
 ---
 
@@ -8450,14 +8748,22 @@ The condition of being hard to bend or move easily.
 ### stigma
 
 **Pronunciation:** /ˈstɪɡmə/ &middot; *STIG-muh*
-**Русский:** клеймо, стигма
+**Русский:** клеймо, стигма; рыльце (пестика)
 **Countability:** uncountable
 
-Strong social disapproval attached to a condition or a choice.
+Stigma has 2 distinct senses.
+
+**1. Strong social disapproval attached to a condition or a choice.** (клеймо, стигма)
 
 1. There is still a *stigma* around mental illness.
 2. The campaign aims to reduce *stigma*.
 3. He talked openly in order to fight the *stigma*.
+
+**2. The tip at the center of a flower, where pollen lands.** (рыльце (пестика))
+
+4. Pollen sticks to the *stigma* and fertilizes the flower.
+5. Saffron is made from the dried *stigmas* of a crocus.
+6. Draw an arrow from the anther to the *stigma*.
 
 ---
 
@@ -8567,15 +8873,23 @@ A condition that must be met as part of an agreement.
 ### stir
 
 **Pronunciation:** /stɜːr/ &middot; *STUR*
-**Русский:** переполох, шумиха
+**Русский:** переполох, шумиха; помешивание
 **Plural:** *stirs*
 **Countability:** countable
 
-A wave of excitement, interest, or anger among people.
+Stir has 2 distinct senses.
+
+**1. A wave of excitement, interest, or anger among people.** (переполох, шумиха)
 
 1. Her resignation caused quite a *stir*.
 2. The painting created a *stir* at the auction.
 3. His remarks made a bigger *stir* than expected.
+
+**2. An act of mixing something with a spoon or a stick.** (помешивание)
+
+4. Give the soup a *stir* before you serve it.
+5. The sauce needs a *stir* every few minutes.
+6. A quick *stir* will keep the rice from sticking.
 
 ---
 
@@ -8731,15 +9045,29 @@ Someone who falls behind the rest of a group.
 ### strain
 
 **Pronunciation:** /streɪn/ &middot; *STRAYN*
-**Русский:** растяжение (мышцы)
+**Русский:** растяжение (мышцы); напряжение, нагрузка; штамм, разновидность
 **Plural:** *strains*
 **Countability:** countable
 
-An injury caused by stretching a muscle too far.
+Strain has 3 distinct senses.
+
+**1. An injury caused by stretching a muscle too far.** (растяжение (мышцы))
 
 1. He's out with a hamstring *strain*.
 2. The doctor said it's just a mild *strain*.
 3. Two players have muscle *strains*.
+
+**2. Pressure or worry that is hard to bear, or the force pulling on something.** (напряжение, нагрузка)
+
+4. The long hours put a *strain* on their marriage.
+5. The heat wave put a *strain* on the power grid.
+6. You can hear the *strain* in his voice.
+
+**3. A particular type of a virus, bacterium, or plant.** (штамм, разновидность)
+
+7. A new *strain* of flu is going around.
+8. Farmers planted a *strain* of wheat that resists drought.
+9. The lab identified two *strains* of the bacteria.
 
 ---
 
@@ -9057,15 +9385,29 @@ The refusal to change your mind or your behavior.
 ### study
 
 **Pronunciation:** /ˈstʌdi/ &middot; *STUH-dee*
-**Русский:** исследование
+**Русский:** исследование; кабинет (комната); учёба, изучение
 **Plural:** *studies*
 **Countability:** countable
 
-A piece of research into a particular subject.
+Study has 3 distinct senses.
+
+**1. A piece of research into a particular subject.** (исследование)
 
 1. A new *study* links the drug to headaches.
 2. Two *studies* reached opposite conclusions.
 3. The *study* followed five thousand people for a decade.
+
+**2. A room in a home used for reading and working.** (кабинет (комната))
+
+4. He keeps all his books in the *study*.
+5. She was on a call in the *study*.
+6. They turned the spare bedroom into a *study*.
+
+**3. The activity of learning about a subject.** (учёба, изучение)
+
+7. The job leaves him little time for *study*.
+8. She devoted years to the *study* of Chinese.
+9. The library is a quiet place for *study*.
 
 ---
 
@@ -9380,15 +9722,29 @@ The following of one thing after another, or the passing of a position to the ne
 ### sucker
 
 **Pronunciation:** /ˈsʌkər/ &middot; *SUK-ur*
-**Русский:** простофиля, лох
+**Русский:** простофиля, лох; леденец на палочке; побег от корня, поросль
 **Plural:** *suckers*
 **Countability:** countable
 
-Someone who is easily tricked or cheated.
+Sucker has 3 distinct senses.
+
+**1. Someone who is easily tricked or cheated.** (простофиля, лох)
 
 1. Don't be a *sucker* — read the fine print.
 2. The scam targets *suckers* who want easy money.
 3. I'm a *sucker* for old movies.
+
+**2. A hard candy on a stick.** (леденец на палочке)
+
+4. The bank teller handed the kids *suckers*.
+5. He picked a grape *sucker* out of the bowl.
+6. She finished her *sucker* and asked for another.
+
+**3. A shoot that grows from the base or the roots of a plant.** (побег от корня, поросль)
+
+7. Pull the *suckers* off the tomato plants.
+8. *Suckers* were sprouting all around the old apple tree.
+9. Cut the *suckers* off at the base of the trunk.
 
 ---
 

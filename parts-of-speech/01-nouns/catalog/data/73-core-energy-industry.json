@@ -294,14 +294,43 @@
       "term": "pellet",
       "ipa": "/ˈpɛlɪt/",
       "respell": "PEL-uht",
-      "meaning": "A small hard lump of compressed material such as sawdust burned as fuel. ---",
+      "meaning": "Pellet has 2 distinct senses.",
       "examples": [
         "The stove burns wood pellets instead of logs.",
         "A forty-pound bag of pellets lasts about two days.",
-        "Each pellet is about the size of a grain of rice."
+        "Each pellet is about the size of a grain of rice.",
+        "The vet took three pellets out of the dog's shoulder.",
+        "A shotgun shell sprays dozens of tiny pellets.",
+        "The air rifle fires small lead pellets."
       ],
-      "senses": [],
-      "русский": "гранула",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small hard lump of compressed material such as sawdust burned as fuel",
+          "body": [
+            "(гранула)"
+          ],
+          "examples": [
+            "The stove burns wood pellets instead of logs.",
+            "A forty-pound bag of pellets lasts about two days.",
+            "Each pellet is about the size of a grain of rice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small ball of metal fired from an air gun or a shotgun",
+          "body": [
+            "(дробинка, пулька)",
+            "---"
+          ],
+          "examples": [
+            "The vet took three pellets out of the dog's shoulder.",
+            "A shotgun shell sprays dozens of tiny pellets.",
+            "The air rifle fires small lead pellets."
+          ]
+        }
+      ],
+      "русский": "гранула; дробинка, пулька",
       "plural": "pellets",
       "countability": "countable"
     },
@@ -517,14 +546,73 @@
       "term": "shaft",
       "ipa": "/ʃæft/",
       "respell": "SHAFT",
-      "meaning": "A deep vertical passage cut down into a mine. ---",
+      "meaning": "Shaft has 4 distinct senses.",
       "examples": [
         "The shaft goes down almost a thousand feet.",
         "Both shafts were sealed after the accident.",
-        "An elevator carries the crew down the shaft."
+        "An elevator carries the crew down the shaft.",
+        "The elevator shaft runs the full height of the building.",
+        "A pigeon got into the air shaft and couldn't get out.",
+        "They found her keys at the bottom of the shaft.",
+        "The shaft of the golf club is graphite.",
+        "He gripped the shaft of the axe close to the head.",
+        "The arrow's shaft snapped on impact.",
+        "A shaft of sunlight came through the barn door.",
+        "Shafts of light cut through the dust in the attic.",
+        "One shaft of light fell across the kitchen floor."
       ],
-      "senses": [],
-      "русский": "шахтный ствол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A deep vertical passage cut down into a mine",
+          "body": [
+            "(шахтный ствол)"
+          ],
+          "examples": [
+            "The shaft goes down almost a thousand feet.",
+            "Both shafts were sealed after the accident.",
+            "An elevator carries the crew down the shaft."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A vertical passage in a building for an elevator or for air",
+          "body": [
+            "(шахта (лифтовая, вентиляционная))"
+          ],
+          "examples": [
+            "The elevator shaft runs the full height of the building.",
+            "A pigeon got into the air shaft and couldn't get out.",
+            "They found her keys at the bottom of the shaft."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The long straight handle or rod of a tool, a club, or an arrow",
+          "body": [
+            "(рукоятка, стержень, древко)"
+          ],
+          "examples": [
+            "The shaft of the golf club is graphite.",
+            "He gripped the shaft of the axe close to the head.",
+            "The arrow's shaft snapped on impact."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A narrow beam of light",
+          "body": [
+            "(луч света, полоса света)",
+            "---"
+          ],
+          "examples": [
+            "A shaft of sunlight came through the barn door.",
+            "Shafts of light cut through the dust in the attic.",
+            "One shaft of light fell across the kitchen floor."
+          ]
+        }
+      ],
+      "русский": "шахтный ствол; шахта (лифтовая, вентиляционная); рукоятка, стержень, древко; луч света, полоса света",
       "plural": "shafts",
       "countability": "countable"
     },
@@ -532,14 +620,43 @@
       "term": "quarry",
       "ipa": "/ˈkwɔːri/",
       "respell": "KWOR-ee",
-      "meaning": "An open pit where stone, sand, or gravel is cut or dug out. ---",
+      "meaning": "Quarry has 2 distinct senses.",
       "examples": [
         "The limestone came from a quarry upstate.",
         "Two old quarries have filled with water.",
-        "Trucks leave the quarry every few minutes."
+        "Trucks leave the quarry every few minutes.",
+        "The hawk circled above its quarry.",
+        "The detectives lost their quarry in the crowd.",
+        "The hounds tracked the quarry for two miles."
       ],
-      "senses": [],
-      "русский": "карьер, каменоломня",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open pit where stone, sand, or gravel is cut or dug out",
+          "body": [
+            "(карьер, каменоломня)"
+          ],
+          "examples": [
+            "The limestone came from a quarry upstate.",
+            "Two old quarries have filled with water.",
+            "Trucks leave the quarry every few minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An animal or person that is being hunted or chased",
+          "body": [
+            "(добыча, преследуемый)",
+            "---"
+          ],
+          "examples": [
+            "The hawk circled above its quarry.",
+            "The detectives lost their quarry in the crowd.",
+            "The hounds tracked the quarry for two miles."
+          ]
+        }
+      ],
+      "русский": "карьер, каменоломня; добыча, преследуемый",
       "plural": "quarries",
       "countability": "countable"
     },
@@ -887,14 +1004,58 @@
       "term": "utility",
       "ipa": "/juːˈtɪləti/",
       "respell": "yoo-TIH-luh-tee",
-      "meaning": "A company that supplies electricity, gas, or water to the public. ---",
+      "meaning": "Utility has 3 distinct senses.",
       "examples": [
         "The utility asked customers to cut back during the heat wave.",
         "Several utilities raised their rates in January.",
-        "He worked for the local utility for thirty years."
+        "He worked for the local utility for thirty years.",
+        "The study questions the utility of yearly screening.",
+        "A second phone has limited utility.",
+        "They doubted the utility of the new rules.",
+        "Rent is twelve hundred a month plus utilities.",
+        "Utilities run about a hundred fifty in the winter.",
+        "Her paycheck barely covers rent and utilities."
       ],
-      "senses": [],
-      "русский": "коммунальная компания (энерго- или водоснабжающая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A company that supplies electricity, gas, or water to the public",
+          "body": [
+            "(коммунальная компания (энерго- или водоснабжающая))"
+          ],
+          "examples": [
+            "The utility asked customers to cut back during the heat wave.",
+            "Several utilities raised their rates in January.",
+            "He worked for the local utility for thirty years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of being useful",
+          "body": [
+            "(полезность, практическая ценность)"
+          ],
+          "examples": [
+            "The study questions the utility of yearly screening.",
+            "A second phone has limited utility.",
+            "They doubted the utility of the new rules."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The electricity, gas, and water supplied to a building, or the bills for them",
+          "body": [
+            "(коммунальные услуги (и счета за них))",
+            "---"
+          ],
+          "examples": [
+            "Rent is twelve hundred a month plus utilities.",
+            "Utilities run about a hundred fifty in the winter.",
+            "Her paycheck barely covers rent and utilities."
+          ]
+        }
+      ],
+      "русский": "коммунальная компания (энерго- или водоснабжающая); полезность, практическая ценность; коммунальные услуги (и счета за них)",
       "plural": "utilities",
       "countability": "countable"
     },
@@ -1037,14 +1198,58 @@
       "term": "surge",
       "ipa": "/sɜːrdʒ/",
       "respell": "SURJ",
-      "meaning": "A sudden jump in electric current or voltage that can damage equipment. ---",
+      "meaning": "Surge has 3 distinct senses.",
       "examples": [
         "A surge from the lightning strike fried the router.",
         "Surges are common when the power comes back on.",
-        "The surge blew out three bulbs at once."
+        "The surge blew out three bulbs at once.",
+        "The store saw a surge in sales before the holidays.",
+        "Hospitals prepared for a surge of new cases.",
+        "A surge in demand pushed prices up all spring.",
+        "The storm surge flooded streets near the beach.",
+        "A surge of the crowd pushed him against the fence.",
+        "She felt a surge of pride watching her son graduate."
       ],
-      "senses": [],
-      "русский": "скачок напряжения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden jump in electric current or voltage that can damage equipment",
+          "body": [
+            "(скачок напряжения)"
+          ],
+          "examples": [
+            "A surge from the lightning strike fried the router.",
+            "Surges are common when the power comes back on.",
+            "The surge blew out three bulbs at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden large increase in something",
+          "body": [
+            "(резкий рост, всплеск)"
+          ],
+          "examples": [
+            "The store saw a surge in sales before the holidays.",
+            "Hospitals prepared for a surge of new cases.",
+            "A surge in demand pushed prices up all spring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A strong forward rush of water, of a crowd, or of feeling",
+          "body": [
+            "(натиск, прилив (чувств); нагон воды)",
+            "---"
+          ],
+          "examples": [
+            "The storm surge flooded streets near the beach.",
+            "A surge of the crowd pushed him against the fence.",
+            "She felt a surge of pride watching her son graduate."
+          ]
+        }
+      ],
+      "русский": "скачок напряжения; резкий рост, всплеск; натиск, прилив (чувств); нагон воды",
       "plural": "surges",
       "countability": "countable"
     },
@@ -1174,14 +1379,43 @@
       "term": "conduit",
       "ipa": "/ˈkɑːnduːɪt/",
       "respell": "KAHN-doo-it",
-      "meaning": "A pipe or tube that protects electrical wiring. ---",
+      "meaning": "Conduit has 2 distinct senses.",
       "examples": [
         "The wiring runs through metal conduit along the wall.",
         "They buried two conduits under the driveway.",
-        "Code requires conduit in a garage."
+        "Code requires conduit in a garage.",
+        "The charity became a conduit for foreign money.",
+        "He served as a conduit between the two governments.",
+        "The port is the main conduit for goods from Asia."
       ],
-      "senses": [],
-      "русский": "кабельный канал, кабелепровод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pipe or tube that protects electrical wiring",
+          "body": [
+            "(кабельный канал, кабелепровод)"
+          ],
+          "examples": [
+            "The wiring runs through metal conduit along the wall.",
+            "They buried two conduits under the driveway.",
+            "Code requires conduit in a garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing through which something is passed from one place to another",
+          "body": [
+            "(канал (передачи), посредник)",
+            "---"
+          ],
+          "examples": [
+            "The charity became a conduit for foreign money.",
+            "He served as a conduit between the two governments.",
+            "The port is the main conduit for goods from Asia."
+          ]
+        }
+      ],
+      "русский": "кабельный канал, кабелепровод; канал (передачи), посредник",
       "plural": "conduits",
       "countability": "countable"
     },
@@ -1363,14 +1597,43 @@
       "term": "waste",
       "ipa": "/weɪst/",
       "respell": "WAYST",
-      "meaning": "Material left over from a process that is thrown away. ---",
+      "meaning": "Waste has 2 distinct senses.",
       "examples": [
         "The mill produces tons of waste every day.",
         "Industrial waste used to go straight into the river.",
-        "Some of the waste is burned for heat."
+        "Some of the waste is burned for heat.",
+        "That meeting was a complete waste of time.",
+        "Leaving the lights on all night is such a waste.",
+        "It's a waste of good food to throw it out."
       ],
-      "senses": [],
-      "русский": "отходы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Material left over from a process that is thrown away",
+          "body": [
+            "(отходы)"
+          ],
+          "examples": [
+            "The mill produces tons of waste every day.",
+            "Industrial waste used to go straight into the river.",
+            "Some of the waste is burned for heat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The careless or pointless use of something valuable such as time, money, or talent",
+          "body": [
+            "(пустая трата, растрата)",
+            "---"
+          ],
+          "examples": [
+            "That meeting was a complete waste of time.",
+            "Leaving the lights on all night is such a waste.",
+            "It's a waste of good food to throw it out."
+          ]
+        }
+      ],
+      "русский": "отходы; пустая трата, растрата",
       "countability": "uncountable",
       "contrast": "Sounds exactly like waist, the middle of the body."
     },
@@ -1671,14 +1934,43 @@
       "term": "foreman",
       "ipa": "/ˈfɔːrmən/",
       "respell": "FOR-muhn",
-      "meaning": "A worker who supervises a crew on a job or in a plant. ---",
+      "meaning": "Foreman has 2 distinct senses.",
       "examples": [
         "The foreman sent everyone home early.",
         "All the foremen meet on Monday mornings.",
-        "He worked his way up to foreman in six years."
+        "He worked his way up to foreman in six years.",
+        "The foreman stood up and read the verdict.",
+        "The judge asked the foreman whether the jury had reached a decision.",
+        "They elected a retired teacher as foreman on the first day."
       ],
-      "senses": [],
-      "русский": "бригадир, мастер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A worker who supervises a crew on a job or in a plant",
+          "body": [
+            "(бригадир, мастер)"
+          ],
+          "examples": [
+            "The foreman sent everyone home early.",
+            "All the foremen meet on Monday mornings.",
+            "He worked his way up to foreman in six years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The member of a jury who speaks for the group and reads out the verdict",
+          "body": [
+            "(старшина присяжных)",
+            "---"
+          ],
+          "examples": [
+            "The foreman stood up and read the verdict.",
+            "The judge asked the foreman whether the jury had reached a decision.",
+            "They elected a retired teacher as foreman on the first day."
+          ]
+        }
+      ],
+      "русский": "бригадир, мастер; старшина присяжных",
       "plural": "foremen",
       "countability": "countable",
       "contrast": "The plural is foremen, not foremans."
@@ -1748,14 +2040,43 @@
       "term": "safety",
       "ipa": "/ˈseɪfti/",
       "respell": "SAYF-tee",
-      "meaning": "Protection from harm, especially the rules and habits that prevent accidents at work. ---",
+      "meaning": "Safety has 2 distinct senses.",
       "examples": [
         "Safety comes before production on this site.",
         "The plant has a strong safety record.",
-        "Every shift starts with a short safety meeting."
+        "Every shift starts with a short safety meeting.",
+        "Keep the safety on until you're ready to shoot.",
+        "He forgot to flip the safety off.",
+        "The rifle has a safety right above the trigger."
       ],
-      "senses": [],
-      "русский": "безопасность, техника безопасности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Protection from harm, especially the rules and habits that prevent accidents at work",
+          "body": [
+            "(безопасность, техника безопасности)"
+          ],
+          "examples": [
+            "Safety comes before production on this site.",
+            "The plant has a strong safety record.",
+            "Every shift starts with a short safety meeting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The catch on a gun that keeps it from firing",
+          "body": [
+            "(предохранитель (на оружии))",
+            "---"
+          ],
+          "examples": [
+            "Keep the safety on until you're ready to shoot.",
+            "He forgot to flip the safety off.",
+            "The rifle has a safety right above the trigger."
+          ]
+        }
+      ],
+      "русский": "безопасность, техника безопасности; предохранитель (на оружии)",
       "countability": "uncountable"
     },
     {
@@ -1896,14 +2217,58 @@
       "term": "bearing",
       "ipa": "/ˈbɛrɪŋ/",
       "respell": "BEH-ring",
-      "meaning": "A part with balls or rollers that lets a shaft turn smoothly. ---",
+      "meaning": "Bearing has 3 distinct senses.",
       "examples": [
         "A worn bearing was making that whine.",
         "The bearings need grease every hundred hours.",
-        "He pressed a new bearing onto the shaft."
+        "He pressed a new bearing onto the shaft.",
+        "The pilot took a bearing on the lighthouse.",
+        "Give me a bearing and a distance and I'll find it.",
+        "It took me a minute to get my bearings in the new building.",
+        "His age has no bearing on the decision.",
+        "That letter has a direct bearing on the case.",
+        "The weather had little bearing on the outcome."
       ],
-      "senses": [],
-      "русский": "подшипник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A part with balls or rollers that lets a shaft turn smoothly",
+          "body": [
+            "(подшипник)"
+          ],
+          "examples": [
+            "A worn bearing was making that whine.",
+            "The bearings need grease every hundred hours.",
+            "He pressed a new bearing onto the shaft."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The direction of one place from another, or your sense of where you are",
+          "body": [
+            "(направление, пеленг; ориентация на местности)"
+          ],
+          "examples": [
+            "The pilot took a bearing on the lighthouse.",
+            "Give me a bearing and a distance and I'll find it.",
+            "It took me a minute to get my bearings in the new building."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Influence on or relevance to something",
+          "body": [
+            "(отношение, влияние (на что-л.))",
+            "---"
+          ],
+          "examples": [
+            "His age has no bearing on the decision.",
+            "That letter has a direct bearing on the case.",
+            "The weather had little bearing on the outcome."
+          ]
+        }
+      ],
+      "русский": "подшипник; направление, пеленг; ориентация на местности; отношение, влияние (на что-л.)",
       "plural": "bearings",
       "countability": "countable"
     },
@@ -1941,14 +2306,43 @@
       "term": "duct",
       "ipa": "/dʌkt/",
       "respell": "DUKT",
-      "meaning": "A pipe or channel that carries air, gas, or fumes through a building. ---",
+      "meaning": "Duct has 2 distinct senses.",
       "examples": [
         "Warm air comes up through the duct in the floor.",
         "The ducts had not been cleaned in years.",
-        "A steel duct carries the fumes to the roof."
+        "A steel duct carries the fumes to the roof.",
+        "Cold wind makes my tear ducts water.",
+        "The scan showed a blocked bile duct.",
+        "A small stone was lodged in the duct."
       ],
-      "senses": [],
-      "русский": "воздуховод, канал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pipe or channel that carries air, gas, or fumes through a building",
+          "body": [
+            "(воздуховод, канал)"
+          ],
+          "examples": [
+            "Warm air comes up through the duct in the floor.",
+            "The ducts had not been cleaned in years.",
+            "A steel duct carries the fumes to the roof."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A narrow tube in the body that carries a fluid",
+          "body": [
+            "(проток (в организме))",
+            "---"
+          ],
+          "examples": [
+            "Cold wind makes my tear ducts water.",
+            "The scan showed a blocked bile duct.",
+            "A small stone was lodged in the duct."
+          ]
+        }
+      ],
+      "русский": "воздуховод, канал; проток (в организме)",
       "plural": "ducts",
       "countability": "countable"
     },
@@ -2153,14 +2547,43 @@
       "term": "leak",
       "ipa": "/liːk/",
       "respell": "LEEK",
-      "meaning": "A hole or crack that lets liquid or gas escape. ---",
+      "meaning": "Leak has 2 distinct senses.",
       "examples": [
         "A gas leak forced them to clear the building.",
         "Crews found two leaks in the pipeline.",
-        "The leak was losing a gallon an hour."
+        "The leak was losing a gallon an hour.",
+        "The leak embarrassed the whole department.",
+        "Reporters ran the story on the strength of a leak.",
+        "A series of leaks revealed the plan weeks in advance."
       ],
-      "senses": [],
-      "русский": "утечка, течь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hole or crack that lets liquid or gas escape",
+          "body": [
+            "(утечка, течь)"
+          ],
+          "examples": [
+            "A gas leak forced them to clear the building.",
+            "Crews found two leaks in the pipeline.",
+            "The leak was losing a gallon an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The passing of secret information to the press or the public",
+          "body": [
+            "(утечка информации)",
+            "---"
+          ],
+          "examples": [
+            "The leak embarrassed the whole department.",
+            "Reporters ran the story on the strength of a leak.",
+            "A series of leaks revealed the plan weeks in advance."
+          ]
+        }
+      ],
+      "русский": "утечка, течь; утечка информации",
       "plural": "leaks",
       "countability": "countable",
       "contrast": "Sounds exactly like leek, the vegetable."

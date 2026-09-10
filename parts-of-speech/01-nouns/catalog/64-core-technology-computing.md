@@ -79,30 +79,64 @@ Internet has 2 distinct senses.
 ### server
 
 **Pronunciation:** /ˈsɜːrvər/ &middot; *SUR-vur*
-**Русский:** сервер
+**Русский:** сервер; официант, официантка; лопатка (для торта, пирога)
 **Plural:** *servers*
 **Countability:** countable
 
-A powerful computer that stores files or runs services for other computers.
+Server has 3 distinct senses.
+
+**1. A powerful computer that stores files or runs services for other computers.** (сервер)
 
 1. The *server* went down for about an hour.
 2. All the photos are backed up on our *servers*.
 3. IT is moving the database to a new *server* this weekend.
+
+**2. Someone who brings food and drinks to customers in a restaurant.** (официант, официантка)
+
+4. Our *server* took the whole order without writing anything down.
+5. The restaurant is hiring *servers* for the summer.
+6. Tip your *server* at least twenty percent.
+
+**3. A flat utensil for lifting a slice of food onto a plate.** (лопатка (для торта, пирога))
+
+7. Cut the pie and use the *server* to lift out the first slice.
+8. The set came with a cake knife and a *server*.
+9. She washed the silver *server* by hand.
 
 ---
 
 ### network
 
 **Pronunciation:** /ˈnɛtwɜːrk/ &middot; *NET-wurk*
-**Русский:** сеть
+**Русский:** сеть; телесеть, вещательная компания; сеть контактов, круг связей; сеть (дорог, линий)
 **Plural:** *networks*
 **Countability:** countable
 
-A group of computers or devices connected so they can share information.
+Network has 4 distinct senses.
+
+**1. A group of computers or devices connected so they can share information.** (сеть)
 
 1. The office *network* is running slowly today.
 2. Don't join public *networks* without a VPN.
 3. Our printer is on the same *network* as the laptops.
+
+**2. A company that broadcasts the same programs on stations across the country.** (телесеть, вещательная компания)
+
+4. The *network* canceled the show after one season.
+5. All three *networks* carried the speech live.
+6. She got her start as a *network* correspondent.
+
+**3. A group of people who stay in contact and help one another, especially at work.** (сеть контактов, круг связей)
+
+7. Most jobs come through your *network*.
+8. She built a *network* of clients over ten years.
+9. The alumni *network* is worth joining.
+
+**4. A system of roads, rails, or lines that cross and connect.** (сеть (дорог, линий))
+
+10. The city's bus *network* runs until midnight.
+11. The storm knocked out part of the power *network*.
+12. A dense *network* of trails covers the park.
 
 ---
 
@@ -160,45 +194,81 @@ A fast, always-on internet connection.
 ### hotspot
 
 **Pronunciation:** /ˈhɑːtspɑːt/ &middot; *HAHT-spaht*
-**Русский:** точка доступа (Wi-Fi)
+**Русский:** точка доступа (Wi-Fi); горячая точка; очаг (активности)
 **Plural:** *hotspots*
 **Countability:** countable
 
-A place or a device that gives nearby phones and laptops internet access.
+Hotspot has 2 distinct senses.
+
+**1. A place or a device that gives nearby phones and laptops internet access.** (точка доступа (Wi-Fi))
 
 1. I turned my phone into a *hotspot* so we could work on the train.
 2. The airport has free *hotspots* near every gate.
 3. The coffee shop's *hotspot* needs a password.
+
+**2. A place where a lot of something is concentrated, especially trouble, danger, or activity.** (горячая точка; очаг (активности))
+
+4. That corner is a *hotspot* for car break-ins.
+5. The county became a *hotspot* during the outbreak.
+6. The reef is a *hotspot* for marine life.
 
 ---
 
 ### domain
 
 **Pronunciation:** /doʊˈmeɪn/ &middot; *doh-MAYN*
-**Русский:** домен
+**Русский:** домен; область, сфера (деятельности, знаний); владения, вотчина
 **Plural:** *domains*
 **Countability:** countable
 
-The name that identifies a website, like the part after the www.
+Domain has 3 distinct senses.
+
+**1. The name that identifies a website, like the part after the www.** (домен)
 
 1. We bought the *domain* before we even had a logo.
 2. Short *domains* are almost all taken.
 3. The *domain* expires next March, so renew it.
+
+**2. An area of activity or knowledge that someone deals with.** (область, сфера (деятельности, знаний))
+
+4. Tax law is outside my *domain*.
+5. Robotics used to be the *domain* of a few big labs.
+6. Each team works inside its own *domain*.
+
+**3. The land or area that a ruler or an owner controls.** (владения, вотчина)
+
+7. The lord rode out across his *domain*.
+8. That end of the park is the *domain* of skateboarders.
+9. These waters are the *domain* of the coast guard.
 
 ---
 
 ### link
 
 **Pronunciation:** /lɪŋk/ &middot; *LINK*
-**Русский:** ссылка
+**Русский:** ссылка; звено (цепи); связь, взаимосвязь
 **Plural:** *links*
 **Countability:** countable
 
-A word or image you click to go to another page or file.
+Link has 3 distinct senses.
+
+**1. A word or image you click to go to another page or file.** (ссылка)
 
 1. Just send me the *link*.
 2. Half the *links* on that page are broken.
 3. Don't click a *link* from an email you weren't expecting.
+
+**2. One ring of a chain.** (звено (цепи))
+
+4. A single *link* snapped and the swing came down.
+5. He shortened the bracelet by two *links*.
+6. Rust had eaten through several *links* of the anchor chain.
+
+**3. A connection or relationship between two things.** (связь, взаимосвязь)
+
+7. Doctors found a clear *link* between smoking and heart disease.
+8. There is no *link* between the two robberies.
+9. The company still has strong *links* to its founder's family.
 
 ---
 
@@ -220,15 +290,23 @@ A saved link that lets you return to a page quickly.
 ### feed
 
 **Pronunciation:** /fiːd/ &middot; *FEED*
-**Русский:** лента (новостей)
+**Русский:** лента (новостей); корм (для животных)
 **Plural:** *feeds*
 **Countability:** countable
 
-The stream of new posts or updates a site shows you.
+Feed has 2 distinct senses.
+
+**1. The stream of new posts or updates a site shows you.** (лента (новостей))
 
 1. My *feed* is nothing but ads lately.
 2. I muted a few accounts to clean up my *feeds*.
 3. Her post showed up at the top of my *feed*.
+
+**2. Food for farm animals or pets.** (корм (для животных))
+
+4. We buy chicken *feed* by the fifty-pound bag.
+5. The price of cattle *feed* went up again this spring.
+6. He mixed the *feed* with a little warm water.
 
 ---
 
@@ -319,15 +397,23 @@ The act of signing in, or the name and password you use to do it.
 ### user
 
 **Pronunciation:** /ˈjuːzər/ &middot; *YOO-zur*
-**Русский:** пользователь
+**Русский:** пользователь; наркопотребитель, наркоман
 **Plural:** *users*
 **Countability:** countable
 
-A person who uses a computer, program, or service.
+User has 2 distinct senses.
+
+**1. A person who uses a computer, program, or service.** (пользователь)
 
 1. The app has about two million *users*.
 2. Every *user* gets ten gigabytes of free storage.
 3. *Users* complained about the new layout right away.
+
+**2. A person who regularly takes illegal drugs.** (наркопотребитель, наркоман)
+
+4. The clinic treats heroin *users*.
+5. Most *users* start in their teens.
+6. He was a *user* for years before he got help.
 
 ---
 
@@ -364,15 +450,23 @@ A short message a device shows to tell you something has happened.
 ### alert
 
 **Pronunciation:** /əˈlɜːrt/ &middot; *uh-LURT*
-**Русский:** оповещение, предупреждение
+**Русский:** оповещение, предупреждение; состояние готовности, боевая готовность
 **Plural:** *alerts*
 **Countability:** countable
 
-A warning message sent to tell you about something important.
+Alert has 2 distinct senses.
+
+**1. A warning message sent to tell you about something important.** (оповещение, предупреждение)
 
 1. I set up an *alert* for that word on my phone.
 2. The bank sends *alerts* for any charge over a hundred dollars.
 3. A weather *alert* woke everybody up at two in the morning.
+
+**2. A state of watching carefully and being ready for danger.** (состояние готовности, боевая готовность)
+
+4. The hospital was on high *alert* all weekend.
+5. Troops were placed on *alert* after the announcement.
+6. The town stayed on *alert* until the storm passed.
 
 ---
 
@@ -548,16 +642,24 @@ A file sent from your device to the internet.
 ### upgrade
 
 **Pronunciation:** /ˈʌpɡreɪd/ &middot; *UP-grayd*
-**Русский:** обновление, апгрейд
+**Русский:** обновление, апгрейд; повышение класса (места, номера)
 **Plural:** *upgrades*
 **Countability:** countable
 **Contrast:** Noun stress falls on the first syllable (UP-grayd); the verb takes it on the second (up-GRAYD).
 
-A newer or better version of something you already have.
+Upgrade has 2 distinct senses.
+
+**1. A newer or better version of something you already have.** (обновление, апгрейд)
 
 1. The memory *upgrade* made a huge difference.
 2. Both *upgrades* are free for existing customers.
 3. I'm due for a phone *upgrade* in June.
+
+**2. A move to a better seat, room, or level of service.** (повышение класса (места, номера))
+
+4. We got a free *upgrade* to first class.
+5. She asked about an *upgrade* to a room with a view.
+6. *Upgrades* go to frequent flyers first.
 
 ---
 
@@ -603,15 +705,23 @@ The part of a program you see and interact with.
 ### menu
 
 **Pronunciation:** /ˈmɛnjuː/ &middot; *MEN-yoo*
-**Русский:** меню
+**Русский:** меню; меню (в ресторане)
 **Plural:** *menus*
 **Countability:** countable
 
-A list of choices a program shows you to pick from.
+Menu has 2 distinct senses.
+
+**1. A list of choices a program shows you to pick from.** (меню)
 
 1. Open the *menu* in the top right corner.
 2. The settings are buried three *menus* deep.
 3. Pick Export from the File *menu*.
+
+**2. The list of dishes that a restaurant offers.** (меню (в ресторане))
+
+4. Could we see the *menu*, please?
+5. Everything on the lunch *menu* is under twelve dollars.
+6. They print new *menus* every season.
 
 ---
 
@@ -971,15 +1081,35 @@ A program that runs automatically, often pretending to be a person.
 ### code
 
 **Pronunciation:** /koʊd/ &middot; *KOHD*
-**Русский:** код (программный)
+**Русский:** код (программный); шифр, тайный код; кодекс, свод правил, нормы; код (цифровой, буквенный)
 **Plural:** *codes*
 **Countability:** both — countable and uncountable with different meanings
 
-The written instructions that make up a computer program.
+Code has 4 distinct senses.
+
+**1. The written instructions that make up a computer program.** (код (программный))
 
 1. She writes *code* eight hours a day.
 2. There's a lot of old *code* nobody understands anymore.
 3. The bug was three lines of *code*.
+
+**2. A system of words or symbols used to keep a message secret.** (шифр, тайный код)
+
+4. The message was written in *code*.
+5. Analysts finally broke the enemy's *code*.
+6. The two of them talk in a kind of private *code*.
+
+**3. A set of rules that people, buildings, or work must follow.** (кодекс, свод правил, нормы)
+
+7. The wiring does not meet the local building *code*.
+8. The school has a strict dress *code*.
+9. Every employee signs the company *code* of conduct.
+
+**4. A group of numbers or letters that identifies something.** (код (цифровой, буквенный))
+
+10. Enter the *code* from the text message.
+11. What's the area *code* for Denver?
+12. Each product has its own *code*.
 
 ---
 
@@ -1017,15 +1147,23 @@ A named block of code that does one job and can be reused.
 ### array
 
 **Pronunciation:** /əˈreɪ/ &middot; *uh-RAY*
-**Русский:** массив
+**Русский:** массив; множество, широкий набор
 **Plural:** *arrays*
 **Countability:** countable
 
-An ordered list of values stored under one name.
+Array has 2 distinct senses.
+
+**1. An ordered list of values stored under one name.** (массив)
 
 1. Loop through the *array* and print each name.
 2. You can nest *arrays* inside each other.
 3. The *array* starts at index zero.
+
+**2. A large and varied group of things offered or faced at once.** (множество, широкий набор)
+
+4. The store carries a dazzling *array* of hot sauces.
+5. She faced an *array* of federal charges.
+6. A whole *array* of tests came back normal.
 
 ---
 
@@ -1076,43 +1214,73 @@ A ready-made structure that programs are built on top of.
 ### prompt
 
 **Pronunciation:** /prɑːmpt/ &middot; *PRAHMPT*
-**Русский:** промпт, текстовый запрос
+**Русский:** промпт, текстовый запрос; тема, задание (для сочинения); подсказка (актёру на сцене)
 **Plural:** *prompts*
 **Countability:** countable
 
-The text you type to tell a program or an AI model what you want.
+Prompt has 3 distinct senses.
+
+**1. The text you type to tell a program or an AI model what you want.** (промпт, текстовый запрос)
 
 1. A clearer *prompt* gets a much better answer.
 2. He keeps a file of *prompts* he reuses.
 3. The *prompt* was too vague, so the output was too.
+
+**2. A word, question, or picture given to start a piece of writing or a discussion.** (тема, задание (для сочинения))
+
+4. The teacher put a new writing *prompt* on the board.
+5. Each essay *prompt* is worth twenty minutes.
+6. We pulled *prompts* out of a jar.
+
+**3. A reminder of the next words, given to an actor who has forgotten a line.** (подсказка (актёру на сцене))
+
+7. He froze on stage and waited for a *prompt*.
+8. She needed a *prompt* in the second act.
+9. A whispered *prompt* saved the scene.
 
 ---
 
 ### input
 
 **Pronunciation:** /ˈɪnpʊt/ &middot; *IN-puut*
-**Русский:** ввод, входные данные
+**Русский:** ввод, входные данные; мнение, замечания, вклад (в обсуждение)
 **Countability:** uncountable
 
-Information put into a computer for it to work on.
+Input has 2 distinct senses.
+
+**1. Information put into a computer for it to work on.** (ввод, входные данные)
 
 1. The program waits for *input* from the keyboard.
 2. Bad *input* gives you bad results.
 3. It takes plain text as *input*.
+
+**2. Advice, ideas, or comments that someone contributes.** (мнение, замечания, вклад (в обсуждение))
+
+4. I'd like your *input* before I send the proposal.
+5. The team had no *input* into the final decision.
+6. Thanks for all your *input* at the meeting.
 
 ---
 
 ### output
 
 **Pronunciation:** /ˈaʊtpʊt/ &middot; *OWT-puut*
-**Русский:** вывод, выходные данные
+**Русский:** вывод, выходные данные; выпуск, объём производства, продукция
 **Countability:** uncountable
 
-What a computer or program produces after it processes something.
+Output has 2 distinct senses.
+
+**1. What a computer or program produces after it processes something.** (вывод, выходные данные)
 
 1. Save the *output* to a file.
 2. The *output* was full of warnings.
 3. Compare the *output* against the sample.
+
+**2. The amount of something produced by a person, machine, or country.** (выпуск, объём производства, продукция)
+
+4. Factory *output* fell for the third month in a row.
+5. The dam's *output* is measured in megawatts.
+6. His *output* as a novelist slowed after he turned sixty.
 
 ---
 
@@ -1264,15 +1432,35 @@ Storage has 2 distinct senses.
 ### drive
 
 **Pronunciation:** /draɪv/ &middot; *DRYVE*
-**Русский:** накопитель, диск
+**Русский:** накопитель, диск; поездка на машине; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость
 **Plural:** *drives*
 **Countability:** countable
 
-A device that stores data, or a piece of storage the computer treats as one unit.
+Drive has 4 distinct senses.
+
+**1. A device that stores data, or a piece of storage the computer treats as one unit.** (накопитель, диск)
 
 1. Back everything up to an external *drive*.
 2. The server has eight *drives* in it.
 3. The *drive* died without any warning.
+
+**2. A trip in a car.** (поездка на машине)
+
+4. It's a two-hour *drive* to the coast.
+5. We went for a *drive* along the river.
+6. The *drive* home took forever in the snow.
+
+**3. An organized effort to collect something or achieve a goal.** (кампания, акция (по сбору средств и т. п.))
+
+7. The school is holding a canned food *drive*.
+8. Their fundraising *drive* brought in half a million dollars.
+9. Blood *drives* are held twice a year at the church.
+
+**4. Energy and determination to get things done.** (напор, целеустремлённость)
+
+10. She has the *drive* to build her own company.
+11. He's talented but lacks *drive*.
+12. Their *drive* carried the team through a bad season.
 
 ---
 
@@ -1318,16 +1506,30 @@ Disk has 2 distinct senses.
 ### backup
 
 **Pronunciation:** /ˈbækʌp/ &middot; *BAK-up*
-**Русский:** резервная копия
+**Русский:** резервная копия; подкрепление, поддержка; затор, пробка; засор
 **Plural:** *backups*
 **Countability:** countable
 **Contrast:** One word as a noun (*a backup*), two words as a verb (*back up your files*).
 
-A spare copy of files kept in case the original is lost.
+Backup has 3 distinct senses.
+
+**1. A spare copy of files kept in case the original is lost.** (резервная копия)
 
 1. Luckily we had a *backup* from Friday.
 2. The *backups* run automatically overnight.
 3. Make a *backup* before you upgrade.
+
+**2. Extra people or equipment ready to help if they are needed.** (подкрепление, поддержка)
+
+4. The officer called for *backup* before going in.
+5. We keep a generator as *backup*.
+6. Two more ambulances arrived as *backup*.
+
+**3. A build-up of traffic, water, or waste caused by a blockage.** (затор, пробка; засор)
+
+7. There's a five-mile *backup* on the interstate.
+8. A sewer *backup* flooded the basement.
+9. Snow caused *backups* at every intersection.
 
 ---
 
@@ -1471,15 +1673,23 @@ Headphones with a microphone attached, worn over the head.
 ### scanner
 
 **Pronunciation:** /ˈskænər/ &middot; *SKAN-ur*
-**Русский:** сканер
+**Русский:** сканер; радиосканер (приёмник полицейской связи)
 **Plural:** *scanners*
 **Countability:** countable
 
-A machine that turns a paper document or photo into a computer file.
+Scanner has 2 distinct senses.
+
+**1. A machine that turns a paper document or photo into a computer file.** (сканер)
 
 1. Put the form in the *scanner* face down.
 2. The library has two *scanners* by the front desk.
 3. The *scanner* jammed on the third page.
+
+**2. A radio receiver that picks up police, fire, and other emergency broadcasts.** (радиосканер (приёмник полицейской связи))
+
+4. He keeps a *scanner* going in the kitchen all night.
+5. Reporters heard about the fire on the police *scanner*.
+6. The *scanner* crackled with calls all through the storm.
 
 ---
 
@@ -1524,15 +1734,29 @@ A screen you control by touching it with your fingers.
 ### display
 
 **Pronunciation:** /dɪˈspleɪ/ &middot; *dih-SPLAY*
-**Русский:** дисплей, экран
+**Русский:** дисплей, экран; выставка, экспозиция, выкладка; показ, проявление
 **Plural:** *displays*
 **Countability:** countable
 
-The screen that shows what a device is doing.
+Display has 3 distinct senses.
+
+**1. The screen that shows what a device is doing.** (дисплей, экран)
 
 1. The *display* is bright enough to read in the sun.
 2. He runs three *displays* on his desk.
 3. The *display* cracked when I dropped it.
+
+**2. An arrangement of things put out for people to look at.** (выставка, экспозиция, выкладка)
+
+4. The store set up a holiday *display* in the window.
+5. A *display* of local pottery filled the front hall.
+6. The museum's dinosaur *display* is being rebuilt.
+
+**3. A public show of something such as a skill or a feeling.** (показ, проявление)
+
+7. The town puts on a fireworks *display* every July.
+8. It was an ugly *display* of temper.
+9. The team gave a fine *display* of passing.
 
 ---
 
@@ -1645,15 +1869,29 @@ A small part that lets one kind of plug or device work with another.
 ### hub
 
 **Pronunciation:** /hʌb/ &middot; *HUB*
-**Русский:** хаб, разветвитель
+**Русский:** хаб, разветвитель; ступица (колеса); центр, узел (транспортный, деловой)
 **Plural:** *hubs*
 **Countability:** countable
 
-A device that gives you several extra ports from one connection.
+Hub has 3 distinct senses.
+
+**1. A device that gives you several extra ports from one connection.** (хаб, разветвитель)
 
 1. I plug everything into one *hub*.
 2. Cheap *hubs* can't supply enough power.
 3. The *hub* gives me four extra USB ports.
+
+**2. The center part of a wheel, which the axle passes through.** (ступица (колеса))
+
+4. The spokes run from the rim to the *hub*.
+5. Grease the *hub* before you put the wheel back on.
+6. The bike's front *hub* needs new bearings.
+
+**3. A central place that a lot of activity or travel passes through.** (центр, узел (транспортный, деловой))
+
+7. Atlanta is a major airline *hub*.
+8. The town has become a *hub* for tech startups.
+9. The kitchen is the *hub* of our house.
 
 ---
 
@@ -1817,15 +2055,23 @@ The branch of engineering that deals with building robots.
 ### system
 
 **Pronunciation:** /ˈsɪstəm/ &middot; *SIS-tum*
-**Русский:** система
+**Русский:** система; система (власть, заведённый порядок)
 **Plural:** *systems*
 **Countability:** countable
 
-A set of parts working together as a whole.
+System has 2 distinct senses.
+
+**1. A set of parts working together as a whole.** (система)
 
 1. The whole *system* went down for two hours.
 2. The two *systems* don't share data.
 3. Log in to the *system* with your work account.
+
+**2. The people and institutions in power, seen as a force that controls ordinary people.** (система (власть, заведённый порядок))
+
+4. He says the whole *system* is rigged against small farmers.
+5. You can't beat the *system*.
+6. She spent years fighting the *system* to get her son help.
 
 ---
 
@@ -1900,13 +2146,21 @@ The work of keeping equipment in good working order.
 ### setup
 
 **Pronunciation:** /ˈsɛtʌp/ &middot; *SET-up*
-**Русский:** настройка, конфигурация
+**Русский:** настройка, конфигурация; подстава
 **Plural:** *setups*
 **Countability:** countable
 **Contrast:** One word as a noun (*a setup*), two words as a verb (*set up the printer*).
 
-The way equipment is arranged and configured, or the process of arranging it.
+Setup has 2 distinct senses.
+
+**1. The way equipment is arranged and configured, or the process of arranging it.** (настройка, конфигурация)
 
 1. His home office *setup* cost more than his car.
 2. Both *setups* use the same software.
 3. *Setup* took about twenty minutes.
+
+**2. A trick arranged to fool someone or to make an innocent person look guilty.** (подстава)
+
+4. He swore the whole thing was a *setup*.
+5. It looked like a robbery, but it was a *setup*.
+6. The meeting turned out to be a *setup* from the start.

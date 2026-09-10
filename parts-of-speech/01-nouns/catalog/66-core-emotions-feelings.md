@@ -62,14 +62,22 @@ Open, often slightly gloating happiness.
 ### ecstasy
 
 **Pronunciation:** /ˈɛkstəsi/ &middot; *EK-stuh-see*
-**Русский:** экстаз, восторг
+**Русский:** экстаз, восторг; экстази (наркотик)
 **Countability:** uncountable
 
-A state of overwhelming happiness.
+Ecstasy has 2 distinct senses.
+
+**1. A state of overwhelming happiness.** (экстаз, восторг)
 
 1. The crowd was in *ecstasy* when the band came back out.
 2. She described the first bite as pure *ecstasy*.
 3. He fell into a kind of *ecstasy* whenever he talked about jazz.
+
+**2. An illegal drug that makes users feel energetic and affectionate.** (экстази (наркотик))
+
+4. Police found *ecstasy* in the glove compartment.
+5. *Ecstasy* is common at all-night dance parties.
+6. The pills he bought turned out not to be *ecstasy* at all.
 
 ---
 
@@ -256,14 +264,22 @@ The ability to feel what another person is feeling.
 ### pity
 
 **Pronunciation:** /ˈpɪti/ &middot; *PIT-ee*
-**Русский:** жалость
+**Русский:** жалость; жаль, досадно (о чём-л.)
 **Countability:** uncountable
 
-Sadness at someone else's suffering, often with a hint of looking down.
+Pity has 2 distinct senses.
+
+**1. Sadness at someone else's suffering, often with a hint of looking down.** (жалость)
 
 1. I want respect, not *pity*.
 2. She felt a rush of *pity* for the stray cat.
 3. He took the job out of *pity* for his cousin.
+
+**2. Something that makes you feel disappointed or sorry.** (жаль, досадно (о чём-л.))
+
+4. It's a *pity* you can't stay longer.
+5. What a *pity* the museum is closed today.
+6. It would be a *pity* to throw out perfectly good food.
 
 ---
 
@@ -714,15 +730,23 @@ Severe, drawn-out suffering.
 ### trauma
 
 **Pronunciation:** /ˈtrɔːmə/ &middot; *TRAW-muh*
-**Русский:** травма (психологическая)
+**Русский:** травма (психологическая); травма (телесное повреждение)
 **Plural:** *traumas*
 **Countability:** countable
 
-Lasting emotional damage from a shocking experience.
+Trauma has 2 distinct senses.
+
+**1. Lasting emotional damage from a shocking experience.** (травма (психологическая))
 
 1. She is still working through childhood *trauma*.
 2. The accident left a *trauma* that took years to unpack.
 3. Not every hard day is a *trauma*.
+
+**2. A serious physical injury to the body.** (травма (телесное повреждение))
+
+4. He died of blunt force *trauma* to the head.
+5. The hospital has a level-one *trauma* center.
+6. She suffered severe *trauma* to her left leg in the crash.
 
 ---
 
@@ -886,14 +910,22 @@ Wild, intense anger.
 ### outrage
 
 **Pronunciation:** /ˈaʊtreɪdʒ/ &middot; *OWT-rayj*
-**Русский:** возмущение, негодование
+**Русский:** возмущение, негодование; возмутительный поступок, злодеяние
 **Countability:** uncountable
 
-Shocked anger at something unfair or offensive.
+Outrage has 2 distinct senses.
+
+**1. Shocked anger at something unfair or offensive.** (возмущение, негодование)
 
 1. The price hike caused public *outrage*.
 2. There was *outrage* online within an hour.
 3. He expressed his *outrage* in a very long email.
+
+**2. An act that is shockingly cruel or wrong.** (возмутительный поступок, злодеяние)
+
+4. The bombing of the market was an *outrage*.
+5. Neighbors called the demolition an *outrage*.
+6. The report lists a long string of *outrages* against civilians.
 
 ---
 
@@ -1343,15 +1375,29 @@ Worry has 2 distinct senses.
 ### concern
 
 **Pronunciation:** /kənˈsɜːrn/ &middot; *kuhn-SURN*
-**Русский:** беспокойство, озабоченность
+**Русский:** беспокойство, озабоченность; дело, забота (чья-либо); предприятие, фирма
 **Plural:** *concerns*
 **Countability:** countable
 
-Worry about something important.
+Concern has 3 distinct senses.
+
+**1. Worry about something important.** (беспокойство, озабоченность)
 
 1. Safety is our main *concern*.
 2. Parents raised *concerns* about the schedule.
 3. There is growing *concern* about the water supply.
+
+**2. A matter that involves a particular person or is their responsibility.** (дело, забота (чья-либо))
+
+4. How I spend my money is not your *concern*.
+5. Safety is the *concern* of every employee here.
+6. Those decisions are the *concern* of the board.
+
+**3. A business or company.** (предприятие, фирма)
+
+7. The bakery is a small family *concern*.
+8. The bank sold the building to a foreign *concern*.
+9. After the merger it was still a going *concern*.
 
 ---
 
@@ -1840,15 +1886,23 @@ A sudden strong impulse to do something.
 ### impulse
 
 **Pronunciation:** /ˈɪmpʌls/ &middot; *IM-puls*
-**Русский:** порыв, импульс
+**Русский:** порыв, импульс; импульс (нервный, электрический)
 **Plural:** *impulses*
 **Countability:** countable
 
-A sudden push to act without thinking.
+Impulse has 2 distinct senses.
+
+**1. A sudden push to act without thinking.** (порыв, импульс)
 
 1. She quit on an *impulse* and never looked back.
 2. He fought the *impulse* to hit send.
 3. Stores are built around *impulse* buys.
+
+**2. A short electrical or nerve signal traveling along a wire or a nerve.** (импульс (нервный, электрический))
+
+4. Nerve *impulses* travel from the eye to the brain.
+5. The sensor sends an electrical *impulse* to the control box.
+6. Damaged nerves carry *impulses* more slowly.
 
 ---
 
@@ -1878,15 +1932,23 @@ Temper has 2 distinct senses.
 ### mood
 
 **Pronunciation:** /muːd/ &middot; *MOOD*
-**Русский:** настроение
+**Русский:** настроение; атмосфера, настроение (места, произведения)
 **Plural:** *moods*
 **Countability:** countable
 
-The way someone feels at a particular time.
+Mood has 2 distinct senses.
+
+**1. The way someone feels at a particular time.** (настроение)
 
 1. He is in a good *mood* this morning.
 2. Her *moods* swing with the weather.
 3. I am not in the *mood* for a long drive.
+
+**2. The feeling that a place, a piece of music, or a work of art creates.** (атмосфера, настроение (места, произведения))
+
+4. Candles and low music set the *mood* for dinner.
+5. The gray light gives the painting a somber *mood*.
+6. The director uses rain to build a *mood* of dread.
 
 ---
 

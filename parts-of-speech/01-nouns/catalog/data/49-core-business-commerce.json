@@ -6,14 +6,43 @@
       "term": "trade",
       "ipa": "/treɪd/",
       "respell": "TRAYD",
-      "meaning": "The buying and selling of goods, or a skilled job learned by training. ---",
+      "meaning": "Trade has 2 distinct senses.",
       "examples": [
         "Trade between the two countries has doubled since 2019.",
         "He learned a trade instead of going to college.",
-        "The new tariffs hurt small shops that live on cross-border trade."
+        "The new tariffs hurt small shops that live on cross-border trade.",
+        "The Yankees got two pitchers in the trade.",
+        "I gave him my sandwich for his chips, an even trade.",
+        "It was a fair trade: he fixed my car and I painted his fence."
       ],
-      "senses": [],
-      "русский": "торговля; ремесло",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The buying and selling of goods, or a skilled job learned by training",
+          "body": [
+            "(торговля; ремесло)"
+          ],
+          "examples": [
+            "Trade between the two countries has doubled since 2019.",
+            "He learned a trade instead of going to college.",
+            "The new tariffs hurt small shops that live on cross-border trade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An exchange in which each side gives something and gets something back",
+          "body": [
+            "(обмен; обмен игроками)",
+            "---"
+          ],
+          "examples": [
+            "The Yankees got two pitchers in the trade.",
+            "I gave him my sandwich for his chips, an even trade.",
+            "It was a fair trade: he fixed my car and I painted his fence."
+          ]
+        }
+      ],
+      "русский": "торговля; ремесло; обмен; обмен игроками",
       "plural": "trades",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -305,14 +334,58 @@
       "term": "product",
       "ipa": "/ˈprɑːdəkt/",
       "respell": "PRAH-dukt",
-      "meaning": "Something made or grown to be sold. ---",
+      "meaning": "Product has 3 distinct senses.",
       "examples": [
         "The company launched a new product in the spring.",
         "Their products are sold in every state.",
-        "This product comes with a two-year warranty."
+        "This product comes with a two-year warranty.",
+        "His caution is a product of a rough childhood.",
+        "The law was the product of years of argument.",
+        "That attitude is a product of the time she grew up in.",
+        "The product of six and seven is forty-two.",
+        "Write the product in the last column.",
+        "Both products came out the same."
       ],
-      "senses": [],
-      "русский": "продукт, товар; изделие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something made or grown to be sold",
+          "body": [
+            "(продукт, товар; изделие)"
+          ],
+          "examples": [
+            "The company launched a new product in the spring.",
+            "Their products are sold in every state.",
+            "This product comes with a two-year warranty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that has come about as the result of a particular cause or set of conditions",
+          "body": [
+            "(результат, порождение)"
+          ],
+          "examples": [
+            "His caution is a product of a rough childhood.",
+            "The law was the product of years of argument.",
+            "That attitude is a product of the time she grew up in."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The number you get by multiplying numbers together",
+          "body": [
+            "(произведение (в математике))",
+            "---"
+          ],
+          "examples": [
+            "The product of six and seven is forty-two.",
+            "Write the product in the last column.",
+            "Both products came out the same."
+          ]
+        }
+      ],
+      "русский": "продукт, товар; изделие; результат, порождение; произведение (в математике)",
       "plural": "products",
       "countability": "countable"
     },
@@ -320,14 +393,73 @@
       "term": "service",
       "ipa": "/ˈsɜːrvɪs/",
       "respell": "SUR-vis",
-      "meaning": "Work sold to customers, or the way customers are treated. ---",
+      "meaning": "Service has 4 distinct senses.",
       "examples": [
         "The food was fine, but the service was slow.",
         "We offer cleaning services for offices.",
-        "Their repair service comes right to your house."
+        "Their repair service comes right to your house.",
+        "The service starts at ten on Sunday.",
+        "A memorial service is planned for Saturday morning.",
+        "We got to the church halfway through the service.",
+        "Bus service to the airport runs every twenty minutes.",
+        "Ice knocked out power and phone service for two days.",
+        "The town has no rail service anymore.",
+        "He joined the service right out of high school.",
+        "Both of her sons are in the service.",
+        "He was wounded during his second year of service."
       ],
-      "senses": [],
-      "русский": "услуга; обслуживание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Work sold to customers, or the way customers are treated",
+          "body": [
+            "(услуга; обслуживание)"
+          ],
+          "examples": [
+            "The food was fine, but the service was slow.",
+            "We offer cleaning services for offices.",
+            "Their repair service comes right to your house."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A religious ceremony held in a church or at a funeral",
+          "body": [
+            "(богослужение; панихида)"
+          ],
+          "examples": [
+            "The service starts at ten on Sunday.",
+            "A memorial service is planned for Saturday morning.",
+            "We got to the church halfway through the service."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A system that supplies something the public needs, such as transport or mail",
+          "body": [
+            "(сообщение, служба (транспортная, почтовая))"
+          ],
+          "examples": [
+            "Bus service to the airport runs every twenty minutes.",
+            "Ice knocked out power and phone service for two days.",
+            "The town has no rail service anymore."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The armed forces, or a period spent in them",
+          "body": [
+            "(военная служба, армия)",
+            "---"
+          ],
+          "examples": [
+            "He joined the service right out of high school.",
+            "Both of her sons are in the service.",
+            "He was wounded during his second year of service."
+          ]
+        }
+      ],
+      "русский": "услуга; обслуживание; богослужение; панихида; сообщение, служба (транспортная, почтовая); военная служба, армия",
       "plural": "services",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -335,14 +467,43 @@
       "term": "deal",
       "ipa": "/diːl/",
       "respell": "DEEL",
-      "meaning": "An agreement in business, or a purchase at a good price. ---",
+      "meaning": "Deal has 2 distinct senses.",
       "examples": [
         "The two companies signed a deal on Friday.",
         "Twenty bucks for these? That's a great deal.",
-        "We closed three deals last month."
+        "We closed three deals last month.",
+        "The repairs cost a great deal more than we expected.",
+        "She knows a good deal about local history.",
+        "A great deal depends on the weather."
       ],
-      "senses": [],
-      "русский": "сделка; выгодная покупка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An agreement in business, or a purchase at a good price",
+          "body": [
+            "(сделка; выгодная покупка)"
+          ],
+          "examples": [
+            "The two companies signed a deal on Friday.",
+            "Twenty bucks for these? That's a great deal.",
+            "We closed three deals last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large amount or degree, used mainly in the phrase 'a great deal'",
+          "body": [
+            "(большое количество, многое)",
+            "---"
+          ],
+          "examples": [
+            "The repairs cost a great deal more than we expected.",
+            "She knows a good deal about local history.",
+            "A great deal depends on the weather."
+          ]
+        }
+      ],
+      "русский": "сделка; выгодная покупка; большое количество, многое",
       "plural": "deals",
       "countability": "countable"
     },
@@ -395,14 +556,73 @@
       "term": "order",
       "ipa": "/ˈɔːrdər/",
       "respell": "OR-dur",
-      "meaning": "A request for goods to be supplied, or the goods requested. ---",
+      "meaning": "Order has 4 distinct senses.",
       "examples": [
         "Your order should arrive Thursday.",
         "We got a big order from a hotel chain.",
-        "Two orders came in overnight."
+        "Two orders came in overnight.",
+        "Put the files back in alphabetical order.",
+        "The names are listed in order of height.",
+        "You did the steps in the wrong order.",
+        "The sergeant gave the order to move out.",
+        "A judge signed an order freezing the accounts.",
+        "Doctor's orders: no salt and no coffee.",
+        "The mayor promised to restore order downtown.",
+        "It took the teacher a minute to bring the class to order.",
+        "Troops were sent in to keep order after the storm."
       ],
-      "senses": [],
-      "русский": "заказ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A request for goods to be supplied, or the goods requested",
+          "body": [
+            "(заказ)"
+          ],
+          "examples": [
+            "Your order should arrive Thursday.",
+            "We got a big order from a hotel chain.",
+            "Two orders came in overnight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way things are arranged, one after another",
+          "body": [
+            "(порядок, последовательность)"
+          ],
+          "examples": [
+            "Put the files back in alphabetical order.",
+            "The names are listed in order of height.",
+            "You did the steps in the wrong order."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An instruction that must be obeyed",
+          "body": [
+            "(приказ, распоряжение)"
+          ],
+          "examples": [
+            "The sergeant gave the order to move out.",
+            "A judge signed an order freezing the accounts.",
+            "Doctor's orders: no salt and no coffee."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A calm state in which rules are obeyed",
+          "body": [
+            "(порядок, спокойствие)",
+            "---"
+          ],
+          "examples": [
+            "The mayor promised to restore order downtown.",
+            "It took the teacher a minute to bring the class to order.",
+            "Troops were sent in to keep order after the storm."
+          ]
+        }
+      ],
+      "русский": "заказ; порядок, последовательность; приказ, распоряжение; порядок, спокойствие",
       "plural": "orders",
       "countability": "countable"
     },
@@ -410,14 +630,58 @@
       "term": "brand",
       "ipa": "/brænd/",
       "respell": "BRAND",
-      "meaning": "A name a company puts on its products so buyers recognize them. ---",
+      "meaning": "Brand has 3 distinct senses.",
       "examples": [
         "She only buys one brand of coffee.",
         "The store carries all the big brands.",
-        "They spent millions building the brand."
+        "They spent millions building the brand.",
+        "Every calf on the ranch carries the same brand.",
+        "The brand on the horse's flank matched the county records.",
+        "Cattle thieves used to alter brands with a hot iron.",
+        "His brand of humor isn't for everyone.",
+        "Voters seem tired of that brand of politics.",
+        "The team plays a rough, physical brand of basketball."
       ],
-      "senses": [],
-      "русский": "бренд, торговая марка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A name a company puts on its products so buyers recognize them",
+          "body": [
+            "(бренд, торговая марка)"
+          ],
+          "examples": [
+            "She only buys one brand of coffee.",
+            "The store carries all the big brands.",
+            "They spent millions building the brand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mark burned into an animal's hide to show who owns it",
+          "body": [
+            "(клеймо, тавро)"
+          ],
+          "examples": [
+            "Every calf on the ranch carries the same brand.",
+            "The brand on the horse's flank matched the county records.",
+            "Cattle thieves used to alter brands with a hot iron."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular kind or style of something that belongs to one person or group",
+          "body": [
+            "(разновидность, манера (свойственная кому-л.))",
+            "---"
+          ],
+          "examples": [
+            "His brand of humor isn't for everyone.",
+            "Voters seem tired of that brand of politics.",
+            "The team plays a rough, physical brand of basketball."
+          ]
+        }
+      ],
+      "русский": "бренд, торговая марка; клеймо, тавро; разновидность, манера (свойственная кому-л.)",
       "plural": "brands",
       "countability": "countable"
     },
@@ -838,14 +1102,58 @@
       "term": "booth",
       "ipa": "/buːθ/",
       "respell": "BOOTH",
-      "meaning": "A small stand where a company shows its products at a fair or trade show. ---",
+      "meaning": "Booth has 3 distinct senses.",
       "examples": [
         "Our booth is right by the entrance.",
         "She handed out samples at the booth all day.",
-        "The bigger companies had booths twice this size."
+        "The bigger companies had booths twice this size.",
+        "We asked for a booth by the window.",
+        "The diner has six booths and a long counter.",
+        "He slid into the booth across from me.",
+        "She stepped into the voting booth and closed the curtain.",
+        "The old phone booth is still on the corner.",
+        "Buy your tickets at the booth by the gate."
       ],
-      "senses": [],
-      "русский": "стенд (на выставке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small stand where a company shows its products at a fair or trade show",
+          "body": [
+            "(стенд (на выставке))"
+          ],
+          "examples": [
+            "Our booth is right by the entrance.",
+            "She handed out samples at the booth all day.",
+            "The bigger companies had booths twice this size."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A restaurant table with high padded seats along the sides",
+          "body": [
+            "(кабинка со столиком (в кафе))"
+          ],
+          "examples": [
+            "We asked for a booth by the window.",
+            "The diner has six booths and a long counter.",
+            "He slid into the booth across from me."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small enclosed space where one person does something",
+          "body": [
+            "(кабина, будка (телефонная, для голосования))",
+            "---"
+          ],
+          "examples": [
+            "She stepped into the voting booth and closed the curtain.",
+            "The old phone booth is still on the corner.",
+            "Buy your tickets at the booth by the gate."
+          ]
+        }
+      ],
+      "русский": "стенд (на выставке); кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования)",
       "plural": "booths",
       "countability": "countable",
       "contrast": "Americans say BOOTH with the th of tooth; the British often voice it, like smooth."
@@ -1000,14 +1308,43 @@
       "term": "mogul",
       "ipa": "/ˈmoʊɡəl/",
       "respell": "MOH-gul",
-      "meaning": "A powerful owner in an industry such as media, film, or real estate. ---",
+      "meaning": "Mogul has 2 distinct senses.",
       "examples": [
         "The paper was bought by a media mogul.",
         "Hollywood moguls ran the studios for decades.",
-        "She became a real estate mogul before she was forty."
+        "She became a real estate mogul before she was forty.",
+        "The lower run was covered in moguls.",
+        "She took the moguls fast and never lost her line.",
+        "By afternoon the powder had been chopped into moguls."
       ],
-      "senses": [],
-      "русский": "магнат (в СМИ, кино и т. п.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A powerful owner in an industry such as media, film, or real estate",
+          "body": [
+            "(магнат (в СМИ, кино и т. п.))"
+          ],
+          "examples": [
+            "The paper was bought by a media mogul.",
+            "Hollywood moguls ran the studios for decades.",
+            "She became a real estate mogul before she was forty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hard bump of packed snow on a ski slope",
+          "body": [
+            "(бугор на горнолыжном склоне)",
+            "---"
+          ],
+          "examples": [
+            "The lower run was covered in moguls.",
+            "She took the moguls fast and never lost her line.",
+            "By afternoon the powder had been chopped into moguls."
+          ]
+        }
+      ],
+      "русский": "магнат (в СМИ, кино и т. п.); бугор на горнолыжном склоне",
       "plural": "moguls",
       "countability": "countable"
     },
@@ -1137,14 +1474,43 @@
       "term": "dealer",
       "ipa": "/ˈdiːlər/",
       "respell": "DEE-lur",
-      "meaning": "A person or business that buys and sells a particular kind of goods. ---",
+      "meaning": "Dealer has 2 distinct senses.",
       "examples": [
         "We bought the truck from a dealer in Reno.",
         "Art dealers took most of the seats.",
-        "The dealer threw in free floor mats."
+        "The dealer threw in free floor mats.",
+        "The dealer slid two cards to each player.",
+        "In blackjack you play against the dealer.",
+        "Dealers at the casino change tables every hour."
       ],
-      "senses": [],
-      "русский": "дилер, торговец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or business that buys and sells a particular kind of goods",
+          "body": [
+            "(дилер, торговец)"
+          ],
+          "examples": [
+            "We bought the truck from a dealer in Reno.",
+            "Art dealers took most of the seats.",
+            "The dealer threw in free floor mats."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person who hands out the cards in a card game",
+          "body": [
+            "(сдающий, дилер (в карточной игре))",
+            "---"
+          ],
+          "examples": [
+            "The dealer slid two cards to each player.",
+            "In blackjack you play against the dealer.",
+            "Dealers at the casino change tables every hour."
+          ]
+        }
+      ],
+      "русский": "дилер, торговец; сдающий, дилер (в карточной игре)",
       "plural": "dealers",
       "countability": "countable"
     },
@@ -1421,14 +1787,43 @@
       "term": "cartel",
       "ipa": "/kɑːrˈtɛl/",
       "respell": "kar-TEL",
-      "meaning": "A group of companies that agree to fix prices instead of competing. ---",
+      "meaning": "Cartel has 2 distinct senses.",
       "examples": [
         "The oil cartel cut production again.",
         "Regulators broke up a shipping cartel.",
-        "Cartels are illegal in most countries."
+        "Cartels are illegal in most countries.",
+        "The cartel controls the smuggling routes near the border.",
+        "Two cartels have been fighting over the same territory.",
+        "He testified against the cartel leaders."
       ],
-      "senses": [],
-      "русский": "картель, ценовой сговор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of companies that agree to fix prices instead of competing",
+          "body": [
+            "(картель, ценовой сговор)"
+          ],
+          "examples": [
+            "The oil cartel cut production again.",
+            "Regulators broke up a shipping cartel.",
+            "Cartels are illegal in most countries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large criminal organization that produces and sells drugs",
+          "body": [
+            "(наркокартель)",
+            "---"
+          ],
+          "examples": [
+            "The cartel controls the smuggling routes near the border.",
+            "Two cartels have been fighting over the same territory.",
+            "He testified against the cartel leaders."
+          ]
+        }
+      ],
+      "русский": "картель, ценовой сговор; наркокартель",
       "plural": "cartels",
       "countability": "countable",
       "contrast": "Stress the second syllable: kar-TEL."
@@ -1484,14 +1879,43 @@
       "term": "import",
       "ipa": "/ˈɪmpɔːrt/",
       "respell": "IM-port",
-      "meaning": "A product brought in from another country to be sold. ---",
+      "meaning": "Import has 2 distinct senses.",
       "examples": [
         "Most of our imports come through the West Coast ports.",
         "Cheap imports put the factory out of business.",
-        "The tax applies to every import over a hundred dollars."
+        "The tax applies to every import over a hundred dollars.",
+        "The import of foreign steel fell sharply last year.",
+        "Congress voted to restrict the import of certain pesticides.",
+        "Her job is managing the import of coffee from Brazil."
       ],
-      "senses": [],
-      "русский": "импорт; ввозимый товар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A product brought in from another country to be sold",
+          "body": [
+            "(импорт; ввозимый товар)"
+          ],
+          "examples": [
+            "Most of our imports come through the West Coast ports.",
+            "Cheap imports put the factory out of business.",
+            "The tax applies to every import over a hundred dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The business or act of bringing goods into a country from abroad",
+          "body": [
+            "(импорт, ввоз (процесс))",
+            "---"
+          ],
+          "examples": [
+            "The import of foreign steel fell sharply last year.",
+            "Congress voted to restrict the import of certain pesticides.",
+            "Her job is managing the import of coffee from Brazil."
+          ]
+        }
+      ],
+      "русский": "импорт; ввозимый товар; импорт, ввоз (процесс)",
       "plural": "imports",
       "countability": "countable",
       "contrast": "The noun is stressed in front (IM-port); the verb is im-PORT."
@@ -1677,14 +2101,43 @@
       "term": "growth",
       "ipa": "/ɡroʊθ/",
       "respell": "GROHTH",
-      "meaning": "An increase in size, sales, or value. ---",
+      "meaning": "Growth has 2 distinct senses.",
       "examples": [
         "Sales growth slowed in the second half.",
         "The company's growth surprised everybody.",
-        "There isn't much room for growth in this market."
+        "There isn't much room for growth in this market.",
+        "The vet found a small growth on the dog's leg.",
+        "The growth turned out to be harmless.",
+        "Doctors removed two growths from her thyroid."
       ],
-      "senses": [],
-      "русский": "рост, увеличение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An increase in size, sales, or value",
+          "body": [
+            "(рост, увеличение)"
+          ],
+          "examples": [
+            "Sales growth slowed in the second half.",
+            "The company's growth surprised everybody.",
+            "There isn't much room for growth in this market."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lump of tissue growing where it should not, such as a tumor",
+          "body": [
+            "(новообразование, опухоль)",
+            "---"
+          ],
+          "examples": [
+            "The vet found a small growth on the dog's leg.",
+            "The growth turned out to be harmless.",
+            "Doctors removed two growths from her thyroid."
+          ]
+        }
+      ],
+      "русский": "рост, увеличение; новообразование, опухоль",
       "countability": "uncountable"
     },
     {
@@ -1988,14 +2441,43 @@
       "term": "bid",
       "ipa": "/bɪd/",
       "respell": "BID",
-      "meaning": "An offer of a price to buy something or to do a job. ---",
+      "meaning": "Bid has 2 distinct senses.",
       "examples": [
         "We put in a bid on the house.",
         "The city took the lowest bid.",
-        "Three bids came in under budget."
+        "Three bids came in under budget.",
+        "She announced a bid for a second term.",
+        "The city's bid to host the games failed.",
+        "His bid for a promotion went nowhere."
       ],
-      "senses": [],
-      "русский": "предложение цены, заявка на торгах",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An offer of a price to buy something or to do a job",
+          "body": [
+            "(предложение цены, заявка на торгах)"
+          ],
+          "examples": [
+            "We put in a bid on the house.",
+            "The city took the lowest bid.",
+            "Three bids came in under budget."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An attempt to win or achieve something",
+          "body": [
+            "(попытка добиться; заявка (на пост, на проведение))",
+            "---"
+          ],
+          "examples": [
+            "She announced a bid for a second term.",
+            "The city's bid to host the games failed.",
+            "His bid for a promotion went nowhere."
+          ]
+        }
+      ],
+      "русский": "предложение цены, заявка на торгах; попытка добиться; заявка (на пост, на проведение)",
       "plural": "bids",
       "countability": "countable"
     },
@@ -2018,14 +2500,43 @@
       "term": "renewal",
       "ipa": "/rɪˈnuːəl/",
       "respell": "rih-NOO-ul",
-      "meaning": "The extending of a contract or license for another period. ---",
+      "meaning": "Renewal has 2 distinct senses.",
       "examples": [
         "The lease comes up for renewal in June.",
         "They raised the price at renewal.",
-        "Most renewals go through automatically."
+        "Most renewals go through automatically.",
+        "There's been a renewal of interest in vinyl records.",
+        "The whole neighborhood is going through a renewal.",
+        "The talks brought a renewal of fighting instead of peace."
       ],
-      "senses": [],
-      "русский": "продление, возобновление договора",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The extending of a contract or license for another period",
+          "body": [
+            "(продление, возобновление договора)"
+          ],
+          "examples": [
+            "The lease comes up for renewal in June.",
+            "They raised the price at renewal.",
+            "Most renewals go through automatically."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The return of something to strength, activity, or freshness",
+          "body": [
+            "(возрождение, оживление, обновление)",
+            "---"
+          ],
+          "examples": [
+            "There's been a renewal of interest in vinyl records.",
+            "The whole neighborhood is going through a renewal.",
+            "The talks brought a renewal of fighting instead of peace."
+          ]
+        }
+      ],
+      "русский": "продление, возобновление договора; возрождение, оживление, обновление",
       "plural": "renewals",
       "countability": "countable",
       "contrast": "Americans say rih-NOO-ul; the British add a y sound: rih-NYOO-ul."
@@ -2385,14 +2896,58 @@
       "term": "recall",
       "ipa": "/ˈriːkɔːl/",
       "respell": "REE-kawl",
-      "meaning": "A company's order for customers to return an unsafe product. ---",
+      "meaning": "Recall has 3 distinct senses.",
       "examples": [
         "The recall covers two million cars.",
         "There have been three recalls this year.",
-        "Check whether your model is part of the recall."
+        "Check whether your model is part of the recall.",
+        "Her recall of that night is hazy at best.",
+        "Witnesses rarely have perfect recall.",
+        "The test measures recall of word lists.",
+        "Voters forced a recall of the governor.",
+        "The recall failed by a wide margin.",
+        "Organizers gathered enough signatures for a recall."
       ],
-      "senses": [],
-      "русский": "отзыв товара из продажи",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A company's order for customers to return an unsafe product",
+          "body": [
+            "(отзыв товара из продажи)"
+          ],
+          "examples": [
+            "The recall covers two million cars.",
+            "There have been three recalls this year.",
+            "Check whether your model is part of the recall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to remember things",
+          "body": [
+            "(память, способность вспоминать)"
+          ],
+          "examples": [
+            "Her recall of that night is hazy at best.",
+            "Witnesses rarely have perfect recall.",
+            "The test measures recall of word lists."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A special vote on whether to remove an elected official before the term ends",
+          "body": [
+            "(отзыв выборного лица (голосование))",
+            "---"
+          ],
+          "examples": [
+            "Voters forced a recall of the governor.",
+            "The recall failed by a wide margin.",
+            "Organizers gathered enough signatures for a recall."
+          ]
+        }
+      ],
+      "русский": "отзыв товара из продажи; память, способность вспоминать; отзыв выборного лица (голосование)",
       "plural": "recalls",
       "countability": "countable",
       "contrast": "The noun is stressed in front (REE-kawl); the verb is rih-KAWL."

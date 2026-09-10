@@ -42,30 +42,52 @@ A drink made by steeping or fermenting something, especially coffee or beer.
 ### refill
 
 **Pronunciation:** /ˈriːfɪl/ &middot; *REE-fil*
-**Русский:** добавка, вторая порция
+**Русский:** добавка, вторая порция; повторная выдача лекарства по рецепту; сменный блок, запасной стержень, картридж
 **Plural:** *refills*
 **Countability:** countable
 **Contrast:** The stress moves: the noun is REE-fil, the verb is ree-FIL.
 
-Another serving of a drink poured into the same cup or glass.
+Refill has 3 distinct senses.
+
+**1. Another serving of a drink poured into the same cup or glass.** (добавка, вторая порция)
 
 1. Would you like a *refill* on your coffee?
 2. *Refills* are free, so help yourself.
 3. He asked for a *refill* and went back to his book.
+
+**2. A further supply of a prescription medicine, given without a new prescription.** (повторная выдача лекарства по рецепту)
+
+4. The prescription comes with two *refills*.
+5. I called the pharmacy for a *refill*.
+6. You're out of *refills* until you see the doctor again.
+
+**3. A replacement part or container for a product you already own.** (сменный блок, запасной стержень, картридж)
+
+7. The pen takes a standard *refill*.
+8. Buy the soap *refill*; it's cheaper than a new bottle.
+9. *Refills* for that razor are hard to find.
 
 ---
 
 ### thirst
 
 **Pronunciation:** /θɜːrst/ &middot; *THURST*
-**Русский:** жажда
+**Русский:** жажда; жажда (чего-либо), стремление
 **Countability:** uncountable
 
-The feeling of needing something to drink.
+Thirst has 2 distinct senses.
+
+**1. The feeling of needing something to drink.** (жажда)
 
 1. Nothing quenches *thirst* like cold water on a hot day.
 2. Salty food only makes your *thirst* worse.
 3. By the end of the hike, *thirst* was all anyone talked about.
+
+**2. A strong wish for something.** (жажда (чего-либо), стремление)
+
+4. She has a real *thirst* for adventure.
+5. His *thirst* for knowledge never faded.
+6. There's a growing *thirst* for change in the district.
 
 ---
 
@@ -208,16 +230,30 @@ The stimulant found in coffee, tea, and many sodas.
 ### pop
 
 **Pronunciation:** /pɑːp/ &middot; *PAHP*
-**Русский:** газировка (в северных штатах)
+**Русский:** газировка (в северных штатах); поп-музыка; хлопок (звук)
 **Plural:** *pops*
 **Countability:** countable, and uncountable as food
 **Contrast:** Regional: the Midwest says pop, the coasts say soda, and much of the South says coke.
 
-A fizzy soft drink, in Midwestern and Northwestern speech.
+Pop has 3 distinct senses.
+
+**1. A fizzy soft drink, in Midwestern and Northwestern speech.** (газировка (в северных штатах))
 
 1. Grab me a *pop* while you're up.
 2. In Michigan they call it *pop*, not soda.
 3. There's a cooler full of *pops* on the porch.
+
+**2. A style of popular music with catchy tunes, aimed at a wide audience.** (поп-музыка)
+
+4. She grew up listening to eighties *pop*.
+5. The station plays nothing but *pop*.
+6. His new album leans more toward *pop* than country.
+
+**3. A short sharp sound like a cork coming out of a bottle.** (хлопок (звук))
+
+7. The cork came out with a loud *pop*.
+8. We heard three *pops* and then silence.
+9. The balloon burst with a *pop*.
 
 ---
 
@@ -318,15 +354,23 @@ Plain carbonated water, sometimes lightly flavored with fruit.
 ### tonic
 
 **Pronunciation:** /ˈtɑːnɪk/ &middot; *TAH-nik*
-**Русский:** тоник (газированный напиток с хинином)
+**Русский:** тоник (газированный напиток с хинином); тонизирующее средство; отрада
 **Plural:** *tonics*
 **Countability:** countable, and uncountable as food
 
-A bitter fizzy mixer usually served with gin.
+Tonic has 2 distinct senses.
+
+**1. A bitter fizzy mixer usually served with gin.** (тоник (газированный напиток с хинином))
 
 1. He ordered a gin and *tonic* with extra lime.
 2. We're out of *tonic* — use club soda.
 3. *Tonic* has a bitterness that plain soda doesn't.
+
+**2. Something that makes you feel stronger, healthier, or more cheerful.** (тонизирующее средство; отрада)
+
+4. A week at the lake was a real *tonic*.
+5. Her visit was a *tonic* for the whole family.
+6. The doctor prescribed a *tonic* to build up his strength.
 
 ---
 
@@ -422,15 +466,35 @@ A dark, heavy beer made with roasted malt.
 ### draft
 
 **Pronunciation:** /dræft/ &middot; *DRAFT*
-**Русский:** разливное пиво
+**Русский:** разливное пиво; черновик, проект (документа); сквозняк; драфт (набор игроков); призыв на военную службу
 **Countability:** uncountable
 **Contrast:** Americans spell it draft, the British draught; both sound the same.
 
-Beer served from a keg rather than from a bottle or can.
+Draft has 4 distinct senses.
+
+**1. Beer served from a keg rather than from a bottle or can.** (разливное пиво)
 
 1. They've got eight beers on *draft*.
 2. Is the IPA on *draft* or only in bottles?
 3. *Draft* always tastes fresher to me.
+
+**2. An early version of a piece of writing or a plan.** (черновик, проект (документа))
+
+4. The first *draft* of the report is due Friday.
+5. He is on the fourth *draft* of the novel.
+6. Lawyers reviewed a *draft* of the contract.
+
+**3. A current of cool air moving through a room.** (сквозняк)
+
+7. There's a *draft* coming from under the door.
+8. Close the window; I feel a *draft*.
+9. Old houses are full of *drafts*.
+
+**4. The system by which sports teams pick new players, or by which a country calls people into the army.** (драфт (набор игроков); призыв на военную службу)
+
+10. He was taken third overall in the *draft*.
+11. Her grandfather was called up in the *draft*.
+12. Both quarterbacks entered the *draft* a year early.
 
 ---
 
@@ -452,29 +516,51 @@ A small metal barrel that beer is stored and served from.
 ### barrel
 
 **Pronunciation:** /ˈbærəl/ &middot; *BAIR-ul*
-**Русский:** бочка
+**Русский:** бочка; ствол (оружия); баррель (мера нефти)
 **Plural:** *barrels*
 **Countability:** countable
 
-A large round wooden container used to age wine or whiskey.
+Barrel has 3 distinct senses.
+
+**1. A large round wooden container used to age wine or whiskey.** (бочка)
 
 1. The whiskey sat in oak *barrels* for twelve years.
 2. They rolled the *barrel* down into the cellar.
 3. This wine was aged in a used bourbon *barrel*.
+
+**2. The long metal tube of a gun that the bullet travels through.** (ствол (оружия))
+
+4. He looked straight down the *barrel* of the rifle.
+5. The *barrel* was still warm.
+6. Both *barrels* of the shotgun were empty.
+
+**3. A standard unit for measuring oil, equal to 42 gallons.** (баррель (мера нефти))
+
+7. Crude oil closed at 78 dollars a *barrel*.
+8. The field produces thirty thousand *barrels* a day.
+9. A cold snap pushed the price per *barrel* higher.
 
 ---
 
 ### malt
 
 **Pronunciation:** /mɔːlt/ &middot; *MAWLT*
-**Русский:** солод
+**Русский:** солод; молочный коктейль с солодом
 **Countability:** uncountable
 
-Grain that has been sprouted and dried, used to brew beer and whiskey.
+Malt has 2 distinct senses.
+
+**1. Grain that has been sprouted and dried, used to brew beer and whiskey.** (солод)
 
 1. You can taste the roasted *malt* in a good stout.
 2. The brewery buys its *malt* from a farm upstate.
 3. Single *malt* costs twice as much as a blend.
+
+**2. A thick milkshake made with malted milk powder.** (молочный коктейль с солодом)
+
+4. He ordered a chocolate *malt* and fries.
+5. The diner still makes *malts* in a metal cup.
+6. A vanilla *malt* costs four dollars here.
 
 ---
 
@@ -558,15 +644,23 @@ A place where wine is made and often sold.
 ### vintage
 
 **Pronunciation:** /ˈvɪntɪdʒ/ &middot; *VIN-tij*
-**Русский:** год урожая (о вине)
+**Русский:** год урожая (о вине); период изготовления, время создания
 **Plural:** *vintages*
 **Countability:** countable
 
-The year in which a wine's grapes were harvested.
+Vintage has 2 distinct senses.
+
+**1. The year in which a wine's grapes were harvested.** (год урожая (о вине))
 
 1. Nineteen eighty-two was a famous *vintage*.
 2. He can name the *vintage* just by tasting it.
 3. Older *vintages* cost a fortune.
+
+**2. The time when something was made or produced.** (период изготовления, время создания)
+
+4. The house is of 1920s *vintage*.
+5. He drives a station wagon of recent *vintage*.
+6. Those jokes are of ancient *vintage*.
 
 ---
 
@@ -924,14 +1018,34 @@ A Spanish drink of red wine mixed with fruit and juice.
 ### punch
 
 **Pronunciation:** /pʌntʃ/ &middot; *PUNCH*
-**Русский:** пунш
+**Русский:** пунш; удар кулаком; дырокол; пробойник; выразительность, сила воздействия
 **Countability:** uncountable
 
-A sweet drink of juice mixed in a large bowl, sometimes with alcohol.
+Punch has 4 distinct senses.
+
+**1. A sweet drink of juice mixed in a large bowl, sometimes with alcohol.** (пунш)
 
 1. Somebody spiked the *punch*.
 2. There's *punch* and cookies in the back.
 3. She ladled *punch* into paper cups.
+
+**2. A hard blow with the fist.** (удар кулаком)
+
+4. He took a *punch* to the jaw.
+5. One *punch* ended the fight.
+6. She threw two quick *punches* at the bag.
+
+**3. A tool or machine for making holes.** (дырокол; пробойник)
+
+7. Use the three-hole *punch* on those handouts.
+8. The *punch* left a clean round hole in the leather.
+9. He kept a set of *punches* in the bottom drawer.
+
+**4. Forceful quality that makes something get attention.** (выразительность, сила воздействия)
+
+10. The ending lacks *punch*.
+11. A few short sentences give the paragraph more *punch*.
+12. The commercial has real *punch*.
 
 ---
 
@@ -1067,15 +1181,23 @@ Shaker has 2 distinct senses.
 ### mug
 
 **Pronunciation:** /mʌɡ/ &middot; *MUG*
-**Русский:** кружка
+**Русский:** кружка; физиономия, рожа
 **Plural:** *mugs*
 **Countability:** countable
 
-A large cup with a handle, used for hot drinks.
+Mug has 2 distinct senses.
+
+**1. A large cup with a handle, used for hot drinks.** (кружка)
 
 1. He drinks out of the same chipped *mug* every morning.
 2. The cupboard is full of *mugs* from other cities.
 3. She warmed her hands on the *mug*.
+
+**2. An informal word for a person's face.** (физиономия, рожа)
+
+4. His *mug* was on the front page of every paper.
+5. Get your ugly *mug* out of my picture.
+6. I'd know that *mug* anywhere.
 
 ---
 
@@ -1097,15 +1219,29 @@ A glass with a stem, made for drinking wine.
 ### tumbler
 
 **Pronunciation:** /ˈtʌmblər/ &middot; *TUM-blur*
-**Русский:** стакан (без ножки)
+**Русский:** стакан (без ножки); акробат; штифт (в замке), сувальда
 **Plural:** *tumblers*
 **Countability:** countable
 
-A straight-sided drinking glass with no stem or handle.
+Tumbler has 3 distinct senses.
+
+**1. A straight-sided drinking glass with no stem or handle.** (стакан (без ножки))
 
 1. He poured the whiskey into a heavy *tumbler*.
 2. We drink water out of old jars and *tumblers*.
 3. The *tumbler* left a ring on the table.
+
+**2. An acrobat who does rolls, flips, and handsprings.** (акробат)
+
+4. A line of *tumblers* came out before the clowns.
+5. She was the best *tumbler* on the gymnastics team.
+6. The *tumblers* finished with a triple flip.
+
+**3. One of the small parts inside a lock that the key has to move before it opens.** (штифт (в замке), сувальда)
+
+7. He listened for the *tumblers* to click.
+8. A worn key won't lift all the *tumblers*.
+9. The locksmith explained how the *tumblers* line up.
 
 ---
 
@@ -1181,16 +1317,24 @@ An open glass container for serving wine or water at the table.
 ### flask
 
 **Pronunciation:** /flæsk/ &middot; *FLASK*
-**Русский:** фляжка
+**Русский:** фляжка; колба (лабораторная)
 **Plural:** *flasks*
 **Countability:** countable
 **Contrast:** American English uses the vowel of cat; British English uses the long ah of father.
 
-A flat pocket bottle for carrying liquor.
+Flask has 2 distinct senses.
+
+**1. A flat pocket bottle for carrying liquor.** (фляжка)
 
 1. He had a *flask* in his coat pocket.
 2. She filled the *flask* before the game.
 3. Someone passed a *flask* around at halftime.
+
+**2. A glass bottle with a wide base and a narrow neck, used in a laboratory.** (колба (лабораторная))
+
+4. She heated the *flask* over a burner.
+5. The liquid in the *flask* turned bright blue.
+6. Rows of *flasks* lined the shelf above the sink.
 
 ---
 
@@ -1380,15 +1524,29 @@ A tool for pulling corks out of bottles.
 ### tap
 
 **Pronunciation:** /tæp/ &middot; *TAP*
-**Русский:** кран (пивной)
+**Русский:** кран (пивной); лёгкий удар, постукивание; касание пальцем; прослушка, подслушивающее устройство
 **Plural:** *taps*
 **Countability:** countable
 
-The valve that beer is poured from at a bar.
+Tap has 3 distinct senses.
+
+**1. The valve that beer is poured from at a bar.** (кран (пивной))
 
 1. They have twenty beers on *tap*.
 2. The bartender cleaned the *taps* before opening.
 3. This one's fresh off the *tap*.
+
+**2. A light knock or touch with a finger or a foot.** (лёгкий удар, постукивание; касание пальцем)
+
+4. I felt a *tap* on my shoulder.
+5. A double *tap* on the screen zooms in.
+6. He gave the microphone a couple of *taps*.
+
+**3. A device attached secretly to a phone line to listen in on calls.** (прослушка, подслушивающее устройство)
+
+7. The FBI put a *tap* on his phone.
+8. A judge approved the *tap* that week.
+9. They found a *tap* on the office line.
 
 ---
 
@@ -1477,15 +1635,29 @@ The bubbles and hiss of a carbonated drink.
 ### bubble
 
 **Pronunciation:** /ˈbʌbl/ &middot; *BUB-ul*
-**Русский:** пузырёк
+**Русский:** пузырёк; пузырь (спекулятивный рост цен); замкнутый мирок, «пузырь»
 **Plural:** *bubbles*
 **Countability:** countable
 
-A small ball of gas rising through a liquid.
+Bubble has 3 distinct senses.
+
+**1. A small ball of gas rising through a liquid.** (пузырёк)
 
 1. *Bubbles* rose to the top of the glass.
 2. Champagne has finer *bubbles* than soda.
 3. He watched a single *bubble* drift up the side.
+
+**2. A period when prices rise far above what things are really worth, before falling sharply.** (пузырь (спекулятивный рост цен))
+
+4. The housing *bubble* burst in 2008.
+5. Analysts keep warning about a *bubble* in tech stocks.
+6. Every *bubble* looks obvious once it has popped.
+
+**3. A closed-off world that keeps out the wider reality.** (замкнутый мирок, «пузырь»)
+
+7. Students live in a *bubble* on campus.
+8. Officials inside the Washington *bubble* lose touch with voters.
+9. The team spent the season in a *bubble*, tested daily and cut off from fans.
 
 ---
 
@@ -1599,15 +1771,35 @@ A metric measure of liquid, a little more than a quart.
 ### round
 
 **Pronunciation:** /raʊnd/ &middot; *ROWND*
-**Русский:** угощение (по напитку каждому в компании)
+**Русский:** угощение (по напитку каждому в компании); раунд, тур, этап; патрон; обход (врача, почтальона)
 **Plural:** *rounds*
 **Countability:** countable
 
-A drink bought for everyone in the group at the same time.
+Round has 4 distinct senses.
+
+**1. A drink bought for everyone in the group at the same time.** (угощение (по напитку каждому в компании))
 
 1. This *round* is on me.
 2. They bought three *rounds* before dinner even arrived.
 3. It's your turn to get the next *round*.
+
+**2. One stage in a competition or in a series of events.** (раунд, тур, этап)
+
+4. They were knocked out in the first *round*.
+5. I made it to the final *round* of interviews.
+6. The next *round* of talks starts in April.
+
+**3. A single bullet or shell for a gun.** (патрон)
+
+7. He fired three *rounds* into the target.
+8. The magazine holds fifteen *rounds*.
+9. There was one *round* left in the chamber.
+
+**4. A regular series of visits made as part of a job.** (обход (врача, почтальона))
+
+10. The doctor is on her morning *rounds*.
+11. The mail carrier finishes his *round* by two.
+12. Security makes *rounds* of the building every hour.
 
 ---
 
@@ -1705,15 +1897,29 @@ The early-evening stretch when a bar sells drinks cheap.
 ### tab
 
 **Pronunciation:** /tæb/ &middot; *TAB*
-**Русский:** счёт (в баре или кафе)
+**Русский:** счёт (в баре или кафе); вкладка (в браузере); язычок, ярлычок, выступ
 **Plural:** *tabs*
 **Countability:** countable
 
-A running bill for drinks that you settle when you leave.
+Tab has 3 distinct senses.
+
+**1. A running bill for drinks that you settle when you leave.** (счёт (в баре или кафе))
 
 1. Can I start a *tab*?
 2. He closed out his *tab* and left.
 3. Put it on my *tab*.
+
+**2. A page open in a web browser, shown as a small labeled strip along the top.** (вкладка (в браузере))
+
+4. I had twenty *tabs* open and my laptop froze.
+5. Open that link in a new *tab*.
+6. Close the *tab* before you share your screen.
+
+**3. A small flap or strip sticking out of something, used to pull it or label it.** (язычок, ярлычок, выступ)
+
+7. Pull the *tab* to open the box.
+8. Each folder has a *tab* with the client's name on it.
+9. The *tab* on the soda can broke off.
 
 ---
 

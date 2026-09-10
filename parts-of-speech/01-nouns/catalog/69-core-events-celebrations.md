@@ -27,15 +27,23 @@ A woman who stands with the bride during a wedding and helps her prepare for it.
 ### groom
 
 **Pronunciation:** /ɡruːm/ &middot; *GROOM*
-**Русский:** жених (на свадьбе)
+**Русский:** жених (на свадьбе); конюх
 **Plural:** *grooms*
 **Countability:** countable
 
-The man who is getting married on his wedding day.
+Groom has 2 distinct senses.
+
+**1. The man who is getting married on his wedding day.** (жених (на свадьбе))
 
 1. The *groom* looked nervous at the altar.
 2. The bride and *groom* cut the cake together.
 3. Traditionally the *groom* doesn't see the dress beforehand.
+
+**2. A person whose job is to feed and take care of horses.** (конюх)
+
+4. The *groom* led the mare back to her stall.
+5. He worked as a *groom* at a racing stable.
+6. Two *grooms* were brushing the horses down.
 
 ---
 
@@ -210,15 +218,29 @@ A large formal party, usually held to raise money for a cause.
 ### ball
 
 **Pronunciation:** /bɔːl/ &middot; *BAWL*
-**Русский:** бал
+**Русский:** бал; мяч; шар, комок, клубок
 **Plural:** *balls*
 **Countability:** countable
 
-A large formal party with dancing.
+Ball has 3 distinct senses.
+
+**1. A large formal party with dancing.** (бал)
 
 1. The charity *ball* is black tie.
 2. She's been to two *balls* this season.
 3. The governor's inaugural *ball* was held downtown.
+
+**2. A round object that is thrown, kicked, or hit in games.** (мяч)
+
+4. The dog brought the *ball* back every time.
+5. He hit the *ball* over the fence.
+6. We lost three *balls* in the tall grass.
+
+**3. Something squeezed or rolled into a round mass.** (шар, комок, клубок)
+
+7. Roll the dough into a *ball* and let it rest.
+8. The cat unwound a whole *ball* of yarn.
+9. He crushed the letter into a *ball*.
 
 ---
 
@@ -255,15 +277,29 @@ A noisy, informal party, often with music and dancing.
 ### dance
 
 **Pronunciation:** /dæns/ &middot; *DANSS*
-**Русский:** танцевальный вечер, танцы
+**Русский:** танцевальный вечер, танцы; танец (как искусство), танцы; танец (конкретный)
 **Plural:** *dances*
 **Countability:** countable
 
-A social event where people come to dance.
+Dance has 3 distinct senses.
+
+**1. A social event where people come to dance.** (танцевальный вечер, танцы)
 
 1. There's a *dance* at the school gym on Friday.
 2. She went to every *dance* her senior year.
 3. The fire department holds a *dance* every spring.
+
+**2. The art or activity of moving the body in time to music.** (танец (как искусство), танцы)
+
+4. She studied *dance* for twelve years.
+5. Modern *dance* was his first love.
+6. The school cut *dance* from the curriculum.
+
+**3. A particular set of steps performed to a piece of music.** (танец (конкретный))
+
+7. The waltz is a slow *dance* in three-quarter time.
+8. They learned three folk *dances* before the trip.
+9. He asked her for one last *dance*.
 
 ---
 
@@ -527,15 +563,23 @@ A sale of donated or handmade goods held to raise money, or an open market.
 ### circus
 
 **Pronunciation:** /ˈsɜːrkəs/ &middot; *SUR-kuhs*
-**Русский:** цирк
+**Русский:** цирк; балаган, цирк (о неразберихе)
 **Plural:** *circuses*
 **Countability:** countable
 
-A traveling show with acrobats, clowns, and performing acts.
+Circus has 2 distinct senses.
+
+**1. A traveling show with acrobats, clowns, and performing acts.** (цирк)
 
 1. The *circus* is in town for three nights.
 2. He ran off and joined the *circus* at nineteen.
 3. Traveling *circuses* aren't what they were fifty years ago.
+
+**2. A noisy, chaotic scene in which nothing is done seriously.** (балаган, цирк (о неразберихе))
+
+4. The press turned the trial into a *circus*.
+5. Last night's meeting was a complete *circus*.
+6. Reporters made her arrival a media *circus*.
 
 ---
 
@@ -572,15 +616,23 @@ A smaller party held right after a bigger event ends.
 ### hostess
 
 **Pronunciation:** /ˈhoʊstəs/ &middot; *HOHSS-tuhs*
-**Русский:** хозяйка (принимающая гостей)
+**Русский:** хозяйка (принимающая гостей); хостес (администратор зала в ресторане)
 **Plural:** *hostesses*
 **Countability:** countable
 
-A woman who invites and takes care of guests at an event.
+Hostess has 2 distinct senses.
+
+**1. A woman who invites and takes care of guests at an event.** (хозяйка (принимающая гостей))
 
 1. Bring the *hostess* a bottle of wine.
 2. She's a wonderful *hostess* — nobody's glass stayed empty.
 3. The *hostesses* greeted everyone at the door.
+
+**2. A woman who greets customers at a restaurant and shows them to a table.** (хостес (администратор зала в ресторане))
+
+4. Ask the *hostess* for a table by the window.
+5. She worked as a *hostess* at a steakhouse during college.
+6. The *hostess* said the wait would be twenty minutes.
 
 ---
 
@@ -706,15 +758,29 @@ Light food and drink served at an event.
 ### theme
 
 **Pronunciation:** /θiːm/ &middot; *THEEM*
-**Русский:** тема (оформления праздника)
+**Русский:** тема (оформления праздника); тема, основная мысль; музыкальная тема, заглавная мелодия
 **Plural:** *themes*
 **Countability:** countable
 
-The subject or style that an event's decorations and costumes follow.
+Theme has 3 distinct senses.
+
+**1. The subject or style that an event's decorations and costumes follow.** (тема (оформления праздника))
 
 1. The party has a 1920s *theme*.
 2. Her birthday *themes* have gotten more elaborate every year.
 3. Pick a *theme* and the decorations get a lot easier.
+
+**2. The main idea that runs through a book, a film, or a discussion.** (тема, основная мысль)
+
+4. Loneliness is the main *theme* of the novel.
+5. Several *themes* came up again and again in the interviews.
+6. The *theme* of her talk was second chances.
+
+**3. A tune played again and again in a film, a show, or a piece of music.** (музыкальная тема, заглавная мелодия)
+
+7. Everyone recognizes the *theme* from that movie.
+8. The show's opening *theme* is only fifteen seconds long.
+9. He hummed the *theme* all the way home.
 
 ---
 
@@ -765,46 +831,88 @@ A book that visitors to an event sign, often leaving a short message.
 ### card
 
 **Pronunciation:** /kɑːrd/ &middot; *KARD*
-**Русский:** открытка (поздравительная)
+**Русский:** открытка (поздравительная); игральная карта; карта (банковская, кредитная); карточка (визитная, удостоверение)
 **Plural:** *cards*
 **Countability:** countable
 
-A folded piece of stiff paper with a printed message, sent to mark an occasion.
+Card has 4 distinct senses.
+
+**1. A folded piece of stiff paper with a printed message, sent to mark an occasion.** (открытка (поздравительная))
 
 1. Don't forget to sign the birthday *card*.
 2. She still has every *card* he ever sent her.
 3. We got about forty holiday *cards* this year.
+
+**2. One of a set of stiff pieces of paper marked with numbers and suits, used to play games.** (игральная карта)
+
+4. He dealt each player five *cards*.
+5. She keeps a deck of *cards* in the glove box.
+6. Pick a *card* and do not show it to me.
+
+**3. A small plastic rectangle used to pay for things or take out money.** (карта (банковская, кредитная))
+
+7. I paid with a *card* instead of cash.
+8. The machine would not read my *card*.
+9. Her *card* was declined at the register.
+
+**4. A small stiff rectangle printed with information about a person or a right they hold.** (карточка (визитная, удостоверение))
+
+10. He handed me his business *card*.
+11. You need a library *card* to check out books.
+12. Show your ID *card* at the gate.
 
 ---
 
 ### favor
 
 **Pronunciation:** /ˈfeɪvər/ &middot; *FAY-vur*
-**Русский:** сувенир гостям (на празднике)
+**Русский:** сувенир гостям (на празднике); одолжение, услуга; благосклонность, одобрение, поддержка
 **Plural:** *favors*
 **Countability:** countable
 **Contrast:** American spelling *favor*; British English writes *favour*. Same pronunciation.
 
-A small gift given to each guest at a party or wedding.
+Favor has 3 distinct senses.
+
+**1. A small gift given to each guest at a party or wedding.** (сувенир гостям (на празднике))
 
 1. The party *favors* were little bags of candy.
 2. Each guest took a *favor* from the table on the way out.
 3. We're making the wedding *favors* ourselves.
+
+**2. A kind act you do for someone because they asked.** (одолжение, услуга)
+
+4. Can you do me a *favor* and watch the dog?
+5. I owe him a *favor* after last week.
+6. She's always asking for *favors* and never returning them.
+
+**3. Approval or support for a person or an idea.** (благосклонность, одобрение, поддержка)
+
+7. The plan found *favor* with the city council.
+8. That style has fallen out of *favor*.
+9. He spent years trying to win the boss's *favor*.
 
 ---
 
 ### gift
 
 **Pronunciation:** /ɡɪft/ &middot; *GIFT*
-**Русский:** подарок
+**Русский:** подарок; дар, талант
 **Plural:** *gifts*
 **Countability:** countable
 
-Something given to someone to mark an occasion.
+Gift has 2 distinct senses.
+
+**1. Something given to someone to mark an occasion.** (подарок)
 
 1. The *gifts* piled up on the table by the door.
 2. It's a small *gift*, but I hope you like it.
 3. She opened her *gifts* after the cake.
+
+**2. A natural ability to do something well.** (дар, талант)
+
+4. She has a *gift* for languages.
+5. His *gift* for making people laugh got him the job.
+6. Not everyone is born with musical *gifts*.
 
 ---
 
@@ -826,15 +934,23 @@ A small object kept to remember a person or an occasion.
 ### balloon
 
 **Pronunciation:** /bəˈluːn/ &middot; *buh-LOON*
-**Русский:** воздушный шарик
+**Русский:** воздушный шарик; воздушный шар, аэростат
 **Plural:** *balloons*
 **Countability:** countable
 
-A thin rubber bag filled with air or gas, used as a decoration at parties.
+Balloon has 2 distinct senses.
+
+**1. A thin rubber bag filled with air or gas, used as a decoration at parties.** (воздушный шарик)
 
 1. The kids tied *balloons* to the mailbox.
 2. One *balloon* popped and made the baby cry.
 3. We ordered a dozen helium *balloons* for the party.
+
+**2. A large bag of hot air with a basket that carries people.** (воздушный шар, аэростат)
+
+4. We went up in a hot-air *balloon* at sunrise.
+5. Dozens of *balloons* rose over the valley.
+6. The *balloon* landed in a soybean field.
 
 ---
 
@@ -871,15 +987,23 @@ Small bits of colored paper thrown into the air at celebrations.
 ### banner
 
 **Pronunciation:** /ˈbænər/ &middot; *BAN-ur*
-**Русский:** транспарант, растяжка
+**Русский:** транспарант, растяжка; баннер (интернет-реклама)
 **Plural:** *banners*
 **Countability:** countable
 
-A long strip of cloth or paper with a message on it, hung up at an event.
+Banner has 2 distinct senses.
+
+**1. A long strip of cloth or paper with a message on it, hung up at an event.** (транспарант, растяжка)
 
 1. A *banner* over the stage read WELCOME HOME.
 2. They hung *banners* along the parade route.
 3. The *banner* came loose in the wind.
+
+**2. A wide advertisement across the top of a web page.** (баннер (интернет-реклама))
+
+4. Ad blockers strip out most *banners*.
+5. The site's *banner* follows you as you scroll.
+6. We paid for a *banner* on the homepage.
 
 ---
 
@@ -1024,30 +1148,46 @@ A short loud burst of trumpet music, or the noisy attention around an event.
 ### cheer
 
 **Pronunciation:** /tʃɪr/ &middot; *CHEER*
-**Русский:** приветственный возглас
+**Русский:** приветственный возглас; радость, веселье
 **Plural:** *cheers*
 **Countability:** countable
 
-A loud shout of approval or encouragement from a crowd.
+Cheer has 2 distinct senses.
+
+**1. A loud shout of approval or encouragement from a crowd.** (приветственный возглас)
 
 1. A *cheer* went up when the doors finally opened.
 2. You could hear the *cheers* three blocks away.
 3. The announcement was met with a *cheer* from the back of the room.
+
+**2. A feeling of warmth and happiness, especially one that is shared.** (радость, веселье)
+
+4. The lobby was decked out with holiday *cheer*.
+5. A bowl of soup and some good *cheer* fixed him right up.
+6. She brought *cheer* to everyone on the ward.
 
 ---
 
 ### chant
 
 **Pronunciation:** /tʃænt/ &middot; *CHANT*
-**Русский:** скандирование, речёвка
+**Русский:** скандирование, речёвка; песнопение, распев
 **Plural:** *chants*
 **Countability:** countable
 
-Words or a phrase repeated over and over by a crowd.
+Chant has 2 distinct senses.
+
+**1. Words or a phrase repeated over and over by a crowd.** (скандирование, речёвка)
 
 1. The *chant* started in one corner and spread through the stadium.
 2. Marchers kept up the same *chants* for two miles.
 3. You could barely make out the words of the *chant*.
+
+**2. A simple tune in which words are sung on only one or two notes, especially in worship.** (песнопение, распев)
+
+4. The monks' evening *chant* echoed off the stone walls.
+5. The service ended with a slow *chant* in Latin.
+6. She recorded old *chants* sung in village churches.
 
 ---
 
@@ -1069,15 +1209,29 @@ Long, enthusiastic clapping from an audience.
 ### float
 
 **Pronunciation:** /floʊt/ &middot; *FLOHT*
-**Русский:** платформа на параде
+**Русский:** платформа на параде; флоут (газировка с мороженым); поплавок
 **Plural:** *floats*
 **Countability:** countable
 
-A decorated platform on wheels that is driven in a parade.
+Float has 3 distinct senses.
+
+**1. A decorated platform on wheels that is driven in a parade.** (платформа на параде)
 
 1. The senior class built a *float* out of chicken wire and tissue paper.
 2. Twelve *floats* rolled down Main Street.
 3. Kids on the *float* threw candy to the crowd.
+
+**2. A drink made of soda with ice cream floating in it.** (флоут (газировка с мороженым))
+
+4. He ordered a root beer *float*.
+5. The diner on Main Street makes great *floats*.
+6. A *float* is just soda and a scoop of vanilla.
+
+**3. A small object on a fishing line that rests on the surface and dips when a fish bites.** (поплавок)
+
+7. Watch the *float* — it just went under.
+8. He clipped a red and white *float* onto the line.
+9. The *floats* bobbed in the current all afternoon.
 
 ---
 
@@ -1237,15 +1391,23 @@ A public show or competition, especially one judging beauty and talent.
 ### award
 
 **Pronunciation:** /əˈwɔːrd/ &middot; *uh-WORD*
-**Русский:** награда, премия
+**Русский:** награда, премия; присуждённая сумма, компенсация
 **Plural:** *awards*
 **Countability:** countable
 
-A prize or honor given to someone for an achievement.
+Award has 2 distinct senses.
+
+**1. A prize or honor given to someone for an achievement.** (награда, премия)
 
 1. He picked up an *award* for best teacher.
 2. The *awards* are handed out at the end of the banquet.
 3. Her film won three *awards* at the festival.
+
+**2. A sum of money granted to someone by a court or official body.** (присуждённая сумма, компенсация)
+
+4. The jury's *award* came to two million dollars.
+5. The judge cut the *award* in half on appeal.
+6. She won a research *award* of fifty thousand dollars.
 
 ---
 
@@ -1313,16 +1475,24 @@ A person or team that reaches the last round of a competition.
 ### birth
 
 **Pronunciation:** /bɜːrθ/ &middot; *BURTH*
-**Русский:** рождение
+**Русский:** рождение; зарождение, возникновение
 **Plural:** *births*
 **Countability:** countable
 **Contrast:** Sounds exactly like *berth* (a bed on a ship or a docking space). Both are /bɜːrθ/.
 
-The occasion of a baby coming into the world.
+Birth has 2 distinct senses.
+
+**1. The occasion of a baby coming into the world.** (рождение)
 
 1. They celebrated the *birth* of their first grandchild.
 2. There were four *births* at the hospital that night.
 3. He was there for the *birth* of both his kids.
+
+**2. The beginning or origin of something.** (зарождение, возникновение)
+
+4. New Orleans saw the *birth* of jazz.
+5. The strike marked the *birth* of the union.
+6. The *birth* of the internet changed everything.
 
 ---
 
@@ -1374,30 +1544,46 @@ The ceremony at which a crown is placed on a new king or queen.
 ### launch
 
 **Pronunciation:** /lɔːntʃ/ &middot; *LAWNCH*
-**Русский:** запуск, презентация
+**Русский:** запуск, презентация; запуск (ракеты)
 **Plural:** *launches*
 **Countability:** countable
 
-An event marking the start of something new, such as a product or a book.
+Launch has 2 distinct senses.
+
+**1. An event marking the start of something new, such as a product or a book.** (запуск, презентация)
 
 1. The book *launch* is at the bookstore on Tenth.
 2. They've done three product *launches* this year.
 3. Half the office came to the *launch*.
+
+**2. The sending of a rocket, missile, or satellite into the air.** (запуск (ракеты))
+
+4. The *launch* was delayed by bad weather.
+5. Thousands watched the rocket *launch* from the beach.
+6. Two more *launches* are scheduled for next month.
 
 ---
 
 ### opening
 
 **Pronunciation:** /ˈoʊpənɪŋ/ &middot; *OH-puh-ning*
-**Русский:** открытие (мероприятие)
+**Русский:** открытие (мероприятие); отверстие, проём, просвет
 **Plural:** *openings*
 **Countability:** countable
 
-An event celebrating the first day a business, show, or exhibit is open to the public.
+Opening has 2 distinct senses.
+
+**1. An event celebrating the first day a business, show, or exhibit is open to the public.** (открытие (мероприятие))
 
 1. The gallery *opening* is Thursday from six to nine.
 2. We went to the *opening* of the new restaurant downtown.
 3. Gallery *openings* usually mean free wine and cheese.
+
+**2. A gap or hole that something can pass through.** (отверстие, проём, просвет)
+
+4. The dog squeezed through an *opening* in the fence.
+5. Sunlight came through an *opening* in the clouds.
+6. We cut an *opening* for the new window.
 
 ---
 
@@ -1570,15 +1756,23 @@ An official public announcement, often read aloud at a ceremony.
 ### tribute
 
 **Pronunciation:** /ˈtrɪbjuːt/ &middot; *TRIB-yoot*
-**Русский:** дань уважения
+**Русский:** дань уважения; дань
 **Plural:** *tributes*
 **Countability:** countable
 
-Something said or done to show respect and admiration for someone.
+Tribute has 2 distinct senses.
+
+**1. Something said or done to show respect and admiration for someone.** (дань уважения)
 
 1. The concert was a *tribute* to her late husband.
 2. *Tributes* poured in from all over the state.
 3. He paid *tribute* to the volunteers in his speech.
+
+**2. A payment made by one ruler or country to a stronger one.** (дань)
+
+4. The conquered towns paid *tribute* to Rome every year.
+5. The king demanded *tribute* in gold and grain.
+6. Refusing to send *tribute* meant war.
 
 ---
 
@@ -1676,16 +1870,24 @@ A box in which a dead body is buried or cremated.
 ### urn
 
 **Pronunciation:** /ɜːrn/ &middot; *URN*
-**Русский:** урна (для праха)
+**Русский:** урна (для праха); бак-термос (для кофе, чая)
 **Plural:** *urns*
 **Countability:** countable
 **Contrast:** Sounds exactly like *earn* (to be paid). Both are /ɜːrn/.
 
-A container that holds the ashes of a person who has been cremated.
+Urn has 2 distinct senses.
+
+**1. A container that holds the ashes of a person who has been cremated.** (урна (для праха))
 
 1. The *urn* sits on the shelf above the fireplace.
 2. They picked out a simple brass *urn*.
 3. Two *urns* were buried side by side.
+
+**2. A large metal container with a tap, used for serving coffee or tea to a crowd.** (бак-термос (для кофе, чая))
+
+4. There's a coffee *urn* at the back of the hall.
+5. Someone refilled the *urn* before the second service.
+6. The church keeps two *urns* for potluck suppers.
 
 ---
 
@@ -1752,15 +1954,29 @@ An expression of sympathy to someone whose family member or friend has died.
 ### wake
 
 **Pronunciation:** /weɪk/ &middot; *WAYK*
-**Русский:** поминки (перед похоронами)
+**Русский:** поминки (перед похоронами); кильватерный след, след за судном; последствия, период после события
 **Plural:** *wakes*
 **Countability:** countable
 
-A gathering held before or after a funeral where people remember the person who died.
+Wake has 3 distinct senses.
+
+**1. A gathering held before or after a funeral where people remember the person who died.** (поминки (перед похоронами))
 
 1. The *wake* is at the funeral home from four to eight.
 2. Half the town came to the *wake*.
 3. Irish *wakes* in his family went on all night.
+
+**2. The track of disturbed water left behind a moving boat.** (кильватерный след, след за судном)
+
+4. Ducks bobbed in the boat's *wake*.
+5. The skier cut back and forth across the *wake*.
+6. The ferry left a wide *wake* across the bay.
+
+**3. The period and the conditions that follow an important event.** (последствия, период после события)
+
+7. Thousands lost power in the *wake* of the storm.
+8. In the *wake* of the scandal, two officials resigned.
+9. Rebuilding began in the *wake* of the fire.
 
 ---
 
@@ -1889,15 +2105,23 @@ An underground room, usually beneath a church, where people are buried.
 ### shroud
 
 **Pronunciation:** /ʃraʊd/ &middot; *SHROWD*
-**Русский:** саван
+**Русский:** саван; пелена, покров, завеса
 **Plural:** *shrouds*
 **Countability:** countable
 
-A cloth used to wrap a dead body for burial.
+Shroud has 2 distinct senses.
+
+**1. A cloth used to wrap a dead body for burial.** (саван)
 
 1. The body was wrapped in a plain linen *shroud*.
 2. Green burials use a simple *shroud* instead of a casket.
 3. The museum displayed two ancient *shrouds*.
+
+**2. Something that covers and hides what is underneath.** (пелена, покров, завеса)
+
+4. The valley disappeared under a *shroud* of morning fog.
+5. The whole deal was kept behind a *shroud* of secrecy.
+6. Smoke lay over the city in a gray *shroud*.
 
 ---
 
@@ -1948,15 +2172,23 @@ The state of having lost someone close to you through death.
 ### viewing
 
 **Pronunciation:** /ˈvjuːɪŋ/ &middot; *VYOO-ing*
-**Русский:** прощание с покойным
+**Русский:** прощание с покойным; просмотр, показ (фильма, выставки)
 **Plural:** *viewings*
 **Countability:** countable
 
-A time before a funeral when people come to see the body and pay their respects.
+Viewing has 2 distinct senses.
+
+**1. A time before a funeral when people come to see the body and pay their respects.** (прощание с покойным)
 
 1. The *viewing* is Thursday evening at the funeral home.
 2. They held two *viewings*, one in the afternoon and one at night.
 3. A long line formed outside the *viewing*.
+
+**2. An occasion of watching or looking at something, such as a film or an exhibition.** (просмотр, показ (фильма, выставки))
+
+4. The museum held a private *viewing* for members.
+5. A second *viewing* of the movie showed me details I'd missed.
+6. The gallery scheduled a *viewing* of the new paintings.
 
 ---
 
@@ -1978,12 +2210,26 @@ The keeping of a custom or holiday, or a ceremony held to mark one.
 ### camp
 
 **Pronunciation:** /kæmp/ &middot; *KAMP*
-**Русский:** лагерь
+**Русский:** лагерь; лагерь (палаточный, военный, беженцев); лагерь (сторонников), стан
 **Plural:** *camps*
 **Countability:** countable
 
-A place and program where children stay for part of the summer to do activities together.
+Camp has 3 distinct senses.
+
+**1. A place and program where children stay for part of the summer to do activities together.** (лагерь)
 
 1. He goes to *camp* in Maine for three weeks every July.
 2. There are soccer *camps* and music *camps* all summer.
 3. She met her best friend at *camp*.
+
+**2. A place where people live for a time in tents or temporary shelters.** (лагерь (палаточный, военный, беженцев))
+
+4. The refugees have lived in the *camp* for two years.
+5. The soldiers set up *camp* beside the river.
+6. Our *camp* was three tents and a fire ring.
+
+**3. A group of people who share the same opinion or support the same side.** (лагерь (сторонников), стан)
+
+7. The party split into two *camps* over the tax bill.
+8. Both *camps* claim the poll proves them right.
+9. She belongs to the *camp* that wants to start over from scratch.

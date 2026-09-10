@@ -196,15 +196,23 @@ A poor farmer who works a small piece of land, especially in the past.
 ### slave
 
 **Pronunciation:** /sleɪv/ &middot; *SLAYV*
-**Русский:** раб
+**Русский:** раб; раб (привычки, чего-либо)
 **Plural:** *slaves*
 **Countability:** countable
 
-A person who is legally owned by someone else and forced to work.
+Slave has 2 distinct senses.
+
+**1. A person who is legally owned by someone else and forced to work.** (раб)
 
 1. Her ancestors were freed *slaves*.
 2. The plantation was worked by *slaves*.
 3. No one should be treated like a *slave*.
+
+**2. Someone completely controlled by a habit, a feeling, or a routine.** (раб (привычки, чего-либо))
+
+4. He's a *slave* to his phone.
+5. I refuse to be a *slave* to fashion.
+6. Dairy farmers are *slaves* to the milking schedule.
 
 ---
 
@@ -401,16 +409,30 @@ The ethnic group a person belongs to, based on shared origin and culture.
 ### race
 
 **Pronunciation:** /reɪs/ &middot; *RAYS*
-**Русский:** раса
+**Русский:** раса; гонка, забег, заезд; борьба за пост, предвыборная гонка
 **Plural:** *races*
 **Countability:** countable
 **Contrast:** The same word also means a speed contest: *a horse race*.
 
-A group of people seen as sharing physical features and ancestry.
+Race has 3 distinct senses.
+
+**1. A group of people seen as sharing physical features and ancestry.** (раса)
 
 1. The law bans discrimination based on *race*.
 2. People of all *races* live on this block.
 3. *Race* is still a difficult subject in America.
+
+**2. A contest to see who is fastest.** (гонка, забег, заезд)
+
+4. She won the 400-meter *race* by half a second.
+5. The *race* was called off because of rain.
+6. We watched the sailboat *races* from the pier.
+
+**3. A competition for a position or a prize, especially in politics.** (борьба за пост, предвыборная гонка)
+
+7. Three candidates entered the *race* for mayor.
+8. The Senate *race* is still too close to call.
+9. He dropped out of the *race* in January.
 
 ---
 
@@ -539,15 +561,23 @@ A baby that has just been born.
 ### migrant
 
 **Pronunciation:** /ˈmaɪɡrənt/ &middot; *MY-gruhnt*
-**Русский:** мигрант
+**Русский:** мигрант; перелётная птица, мигрирующее животное
 **Plural:** *migrants*
 **Countability:** countable
 
-A person who moves from one place to another to find work or a better life.
+Migrant has 2 distinct senses.
+
+**1. A person who moves from one place to another to find work or a better life.** (мигрант)
 
 1. *Migrants* pick most of the fruit in this valley.
 2. The camp houses several hundred *migrants*.
 3. He came here as a *migrant* worker in the eighties.
+
+**2. A bird or animal that travels to another region with the seasons.** (перелётная птица, мигрирующее животное)
+
+4. The first *migrants* show up at the feeder in April.
+5. Warblers are long-distance *migrants*.
+6. Storms can blow *migrants* hundreds of miles off course.
 
 ---
 
@@ -1005,15 +1035,23 @@ An agreement between two people to marry.
 ### partner
 
 **Pronunciation:** /ˈpɑːrtnər/ &middot; *PART-nur*
-**Русский:** партнёр; спутник жизни
+**Русский:** партнёр; спутник жизни; партнёр (в игре, танце, паре)
 **Plural:** *partners*
 **Countability:** countable
 
-The person someone shares their life with, or someone who shares a business.
+Partner has 2 distinct senses.
+
+**1. The person someone shares their life with, or someone who shares a business.** (партнёр; спутник жизни)
 
 1. She brought her *partner* to the office party.
 2. The two *partners* split the profits evenly.
 3. He introduced me to his *partner* of twelve years.
+
+**2. The person you are paired with in a game, a dance, or an activity.** (партнёр (в игре, танце, паре))
+
+4. My tennis *partner* pulled a hamstring.
+5. The teacher had us pick lab *partners*.
+6. Change *partners* when the music stops.
 
 ---
 
@@ -1665,15 +1703,23 @@ All the people who work for a company or in a country.
 ### labor
 
 **Pronunciation:** /ˈleɪbər/ &middot; *LAY-bur*
-**Русский:** труд; рабочая сила
+**Русский:** труд; рабочая сила; роды, родовые схватки
 **Countability:** uncountable
 **Contrast:** Americans write *labor*; the British write *labour*.
 
-Work, especially hard physical work, or the workers who do it.
+Labor has 2 distinct senses.
+
+**1. Work, especially hard physical work, or the workers who do it.** (труд; рабочая сила)
 
 1. The price includes parts and *labor*.
 2. Organized *labor* backed the candidate.
 3. Farms here depend on seasonal *labor*.
+
+**2. The process of giving birth, from the first contractions onward.** (роды, родовые схватки)
+
+4. She went into *labor* just after midnight.
+5. *Labor* lasted almost fourteen hours.
+6. He drove her to the hospital as soon as *labor* started.
 
 ---
 

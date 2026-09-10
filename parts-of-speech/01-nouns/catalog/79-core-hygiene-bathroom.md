@@ -142,16 +142,24 @@ A small cupboard behind the bathroom mirror for pills and toiletries.
 ### bath
 
 **Pronunciation:** /bæθ/ &middot; *BATH*
-**Русский:** ванна (мытьё в ванне)
+**Русский:** ванна (мытьё в ванне); санузел, ванная комната (в описании жилья)
 **Plural:** *baths*
 **Countability:** countable
 **Contrast:** The plural *baths* is normally pronounced BATHZ with a voiced th; the British also say BAHTH for the singular.
 
-A wash in which you sit in a tub full of water.
+Bath has 2 distinct senses.
+
+**1. A wash in which you sit in a tub full of water.** (ванна (мытьё в ванне))
 
 1. I took a long *bath* after work.
 2. Give the baby a *bath* before bed.
 3. Hot *baths* help my back.
+
+**2. A bathroom, in the way homes are counted and described.** (санузел, ванная комната (в описании жилья))
+
+4. The apartment has two bedrooms and one *bath*.
+5. The listing says three beds and two *baths*.
+6. They added a full *bath* upstairs.
 
 ---
 
@@ -1543,15 +1551,29 @@ Thin string pulled between the teeth to clean them.
 ### plaque
 
 **Pronunciation:** /plæk/ &middot; *PLAK*
-**Русский:** зубной налёт
+**Русский:** зубной налёт; мемориальная доска, табличка; бляшка (в артерии)
 **Countability:** uncountable
 **Contrast:** Spelled with a silent -que and pronounced PLAK.
 
-The soft sticky film of bacteria that forms on teeth.
+Plaque has 3 distinct senses.
+
+**1. The soft sticky film of bacteria that forms on teeth.** (зубной налёт)
 
 1. Brushing removes *plaque* before it hardens.
 2. The hygienist scraped the *plaque* off.
 3. *Plaque* builds up along the gum line.
+
+**2. A flat piece of metal or stone fixed to a wall with writing on it.** (мемориальная доска, табличка)
+
+4. A bronze *plaque* marks the spot where he was born.
+5. They gave her a *plaque* for thirty years of service.
+6. *Plaques* along the trail explain the local history.
+
+**3. A fatty deposit that builds up on the inside of an artery.** (бляшка (в артерии))
+
+7. The scan showed *plaque* narrowing the artery.
+8. These drugs can slow the buildup of *plaque*.
+9. *Plaque* in the arteries raises the risk of a heart attack.
 
 ---
 
@@ -1572,14 +1594,22 @@ Hardened plaque that only a dentist can scrape off.
 ### enamel
 
 **Pronunciation:** /ɪˈnæməl/ &middot; *ih-NAM-uhl*
-**Русский:** эмаль (зубная)
+**Русский:** эмаль (зубная); эмаль (покрытие)
 **Countability:** uncountable
 
-The hard white outer layer of a tooth.
+Enamel has 2 distinct senses.
+
+**1. The hard white outer layer of a tooth.** (эмаль (зубная))
 
 1. Soda wears away tooth *enamel*.
 2. Once *enamel* is gone, it doesn't grow back.
 3. The dentist said my *enamel* is thin.
+
+**2. A hard glossy coating baked onto metal or pottery.** (эмаль (покрытие))
+
+4. The *enamel* on the old bathtub is chipped.
+5. She collects blue *enamel* camping mugs.
+6. *Enamel* paint holds up well on a porch railing.
 
 ---
 

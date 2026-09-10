@@ -430,14 +430,58 @@
       "term": "graft",
       "ipa": "/ɡræft/",
       "respell": "GRAFT",
-      "meaning": "A shoot joined onto another plant so the two grow as one. ---",
+      "meaning": "Graft has 3 distinct senses.",
       "examples": [
         "You can see the graft right above the soil line.",
         "The graft never took, so he tried again in spring.",
-        "All the grafts on that apple tree are different varieties."
+        "All the grafts on that apple tree are different varieties.",
+        "The burn needed a skin graft.",
+        "Surgeons took the graft from her own hip.",
+        "Both grafts healed without infection.",
+        "The mayor went to prison for graft.",
+        "The city was once famous for graft and kickbacks.",
+        "Reporters spent a year documenting the graft."
       ],
-      "senses": [],
-      "русский": "прививка (растения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shoot joined onto another plant so the two grow as one",
+          "body": [
+            "(прививка (растения))"
+          ],
+          "examples": [
+            "You can see the graft right above the soil line.",
+            "The graft never took, so he tried again in spring.",
+            "All the grafts on that apple tree are different varieties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of skin, bone, or tissue moved to another place on the body",
+          "body": [
+            "(трансплантат, пересадка ткани)"
+          ],
+          "examples": [
+            "The burn needed a skin graft.",
+            "Surgeons took the graft from her own hip.",
+            "Both grafts healed without infection."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The use of a public position to get money dishonestly",
+          "body": [
+            "(коррупция, взяточничество)",
+            "---"
+          ],
+          "examples": [
+            "The mayor went to prison for graft.",
+            "The city was once famous for graft and kickbacks.",
+            "Reporters spent a year documenting the graft."
+          ]
+        }
+      ],
+      "русский": "прививка (растения); трансплантат, пересадка ткани; коррупция, взяточничество",
       "plural": "grafts",
       "countability": "countable"
     },
@@ -567,14 +611,58 @@
       "term": "hybrid",
       "ipa": "/ˈhaɪbrɪd/",
       "respell": "HY-brid",
-      "meaning": "A plant bred from two different varieties. ---",
+      "meaning": "Hybrid has 3 distinct senses.",
       "examples": [
         "This tomato is a hybrid bred for disease resistance.",
         "Seeds saved from a hybrid rarely come out the same.",
-        "Most of the corn in the store is from hybrids."
+        "Most of the corn in the store is from hybrids.",
+        "They traded the pickup for a hybrid to save on gas.",
+        "Hybrids get much better mileage in city traffic.",
+        "The dealership had one hybrid left on the lot.",
+        "The show is a hybrid of talk show and game show.",
+        "Their schedule is a hybrid: three days in the office, two at home.",
+        "This bike is a hybrid, part road bike and part mountain bike."
       ],
-      "senses": [],
-      "русский": "гибрид",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plant bred from two different varieties",
+          "body": [
+            "(гибрид)"
+          ],
+          "examples": [
+            "This tomato is a hybrid bred for disease resistance.",
+            "Seeds saved from a hybrid rarely come out the same.",
+            "Most of the corn in the store is from hybrids."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A car that runs on both a gasoline engine and an electric motor",
+          "body": [
+            "(гибридный автомобиль)"
+          ],
+          "examples": [
+            "They traded the pickup for a hybrid to save on gas.",
+            "Hybrids get much better mileage in city traffic.",
+            "The dealership had one hybrid left on the lot."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that combines two different types or styles",
+          "body": [
+            "(гибрид, сочетание (двух разных вещей))",
+            "---"
+          ],
+          "examples": [
+            "The show is a hybrid of talk show and game show.",
+            "Their schedule is a hybrid: three days in the office, two at home.",
+            "This bike is a hybrid, part road bike and part mountain bike."
+          ]
+        }
+      ],
+      "русский": "гибрид; гибридный автомобиль; гибрид, сочетание (двух разных вещей)",
       "plural": "hybrids",
       "countability": "countable"
     },

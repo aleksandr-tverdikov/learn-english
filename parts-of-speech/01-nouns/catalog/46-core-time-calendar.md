@@ -43,16 +43,24 @@ A unit of time equal to sixty seconds.
 ### hour
 
 **Pronunciation:** /ˈaʊər/ &middot; *OW-ur*
-**Русский:** час
+**Русский:** час; часы работы, приёмные часы
 **Plural:** *hours*
 **Countability:** countable
 **Contrast:** The h is silent, so the word takes *an*, not *a*: an hour.
 
-A unit of time equal to sixty minutes.
+Hour has 2 distinct senses.
+
+**1. A unit of time equal to sixty minutes.** (час)
 
 1. The flight takes about three *hours*.
 2. She studies for an *hour* every evening.
 3. We waited in line for half an *hour*.
+
+**2. The set times when a place is open or a person is available or at work.** (часы работы, приёмные часы)
+
+4. Our *hours* are nine to five, Monday through Friday.
+5. The library posted its new summer *hours*.
+6. The professor holds office *hours* on Tuesdays.
 
 ---
 
@@ -213,15 +221,23 @@ A distinct period in history or in the development of something.
 ### age
 
 **Pronunciation:** /eɪdʒ/ &middot; *AYJ*
-**Русский:** возраст; эпоха
+**Русский:** возраст; эпоха; целая вечность, очень долго
 **Plural:** *ages*
 **Countability:** countable
 
-How old someone or something is, or a long period of history.
+Age has 2 distinct senses.
+
+**1. How old someone or something is, or a long period of history.** (возраст; эпоха)
 
 1. She learned to read at the *age* of four.
 2. Children under the *age* of twelve get in free.
 3. It took *ages* to get through security.
+
+**2. A very long time.** (целая вечность, очень долго)
+
+4. I haven't seen Marcus in *ages*.
+5. It took *ages* to get through security.
+6. We waited *ages* for a table and then gave up.
 
 ---
 
@@ -802,16 +818,24 @@ The days and hours a person works in a week.
 ### holiday
 
 **Pronunciation:** /ˈhɑːlədeɪ/ &middot; *HAH-luh-day*
-**Русский:** праздник, праздничный день
+**Русский:** праздник, праздничный день; новогодние и рождественские праздники
 **Plural:** *holidays*
 **Countability:** countable
 **Contrast:** In American English a *holiday* is a праздник; in British English it also means отпуск, which Americans call a *vacation*.
 
-A day when most people don't work, usually to mark something.
+Holiday has 2 distinct senses.
+
+**1. A day when most people don't work, usually to mark something.** (праздник, праздничный день)
 
 1. The bank is closed for the *holiday*.
 2. Thanksgiving is my favorite *holiday*.
 3. We get ten paid *holidays* a year.
+
+**2. The weeks around Christmas and New Year, usually spoken of as the holidays.** (новогодние и рождественские праздники)
+
+4. We're flying home for the *holidays*.
+5. The store hires extra help over the *holidays*.
+6. I gained five pounds during the *holidays*.
 
 ---
 
@@ -972,15 +996,23 @@ A book in which someone writes down what happens each day.
 ### planner
 
 **Pronunciation:** /ˈplænər/ &middot; *PLAN-ur*
-**Русский:** ежедневник, планер
+**Русский:** ежедневник, планер; проектировщик; организатор (мероприятий); плановик
 **Plural:** *planners*
 **Countability:** countable
 
-A book or app for writing down appointments and tasks by date.
+Planner has 2 distinct senses.
+
+**1. A book or app for writing down appointments and tasks by date.** (ежедневник, планер)
 
 1. She writes every assignment in her *planner*.
 2. I bought a new *planner* for the school year.
 3. Paper *planners* are popular again.
+
+**2. Someone whose job is to plan something such as a city, a wedding, or a budget.** (проектировщик; организатор (мероприятий); плановик)
+
+4. City *planners* want to widen the sidewalk.
+5. We hired a wedding *planner* to handle the details.
+6. A financial *planner* walked us through our retirement options.
 
 ---
 
@@ -1465,15 +1497,23 @@ Dial has 2 distinct senses.
 ### chime
 
 **Pronunciation:** /tʃaɪm/ &middot; *CHYM*
-**Русский:** бой часов, перезвон
+**Русский:** бой часов, перезвон; музыка ветра; набор колокольчиков
 **Plural:** *chimes*
 **Countability:** countable
 
-A ringing sound made by a clock or a set of bells.
+Chime has 2 distinct senses.
+
+**1. A ringing sound made by a clock or a set of bells.** (бой часов, перезвон)
 
 1. The clock struck the hour with a soft *chime*.
 2. We could hear the *chimes* of the church bells.
 3. Their doorbell has an old-fashioned *chime*.
+
+**2. A hanging set of tubes or bells that ring when they move or are struck.** (музыка ветра; набор колокольчиков)
+
+4. Wind *chimes* clinked on the porch all night.
+5. She hung a brass *chime* beside the door.
+6. The shop sells *chimes* made from old silverware.
 
 ---
 
@@ -1495,32 +1535,54 @@ A short light sleep, or the alarm button that delays waking up.
 ### break
 
 **Pronunciation:** /breɪk/ &middot; *BRAYK*
-**Русский:** перерыв
+**Русский:** перерыв; разлом, разрыв; просвет; счастливый случай, удача
 **Plural:** *breaks*
 **Countability:** countable
 **Contrast:** *Break* and *brake* (тормоз) are perfect homophones in American English.
 
-A short period of rest from work or activity.
+Break has 3 distinct senses.
+
+**1. A short period of rest from work or activity.** (перерыв)
 
 1. Let's take a ten-minute *break*.
 2. She reads during her lunch *break*.
 3. The teachers get two *breaks* a day.
+
+**2. A place where something has cracked apart or been interrupted.** (разлом, разрыв; просвет)
+
+4. The X-ray showed a clean *break* just above his wrist.
+5. We waited for a *break* in the clouds to take off.
+6. The dogs got out through a *break* in the fence.
+
+**3. A sudden piece of good luck or a chance to succeed.** (счастливый случай, удача)
+
+7. That role was her big *break*.
+8. Detectives finally caught a *break* in the case.
+9. All he needs is one lucky *break*.
 
 ---
 
 ### recess
 
 **Pronunciation:** /ˈriːsɛs/ &middot; *REE-ses*
-**Русский:** перемена (в школе); перерыв в заседании
+**Русский:** перемена (в школе); перерыв в заседании; ниша, углубление (в стене)
 **Plural:** *recesses*
 **Countability:** countable
 **Contrast:** Americans stress the first syllable — REE-ses; the British say ri-SESS.
 
-A break during a school day or a formal meeting.
+Recess has 2 distinct senses.
+
+**1. A break during a school day or a formal meeting.** (перемена (в школе); перерыв в заседании)
 
 1. The kids play kickball at *recess*.
 2. The judge called a short *recess*.
 3. Congress is on summer *recess*.
+
+**2. A space set back into a wall.** (ниша, углубление (в стене))
+
+4. A small statue stood in a *recess* beside the door.
+5. They built shelves into the *recess*.
+6. The bed fits neatly into the *recess*.
 
 ---
 
@@ -1574,15 +1636,29 @@ A period of waiting caused by something running late.
 ### gap
 
 **Pronunciation:** /ɡæp/ &middot; *GAP*
-**Русский:** промежуток, перерыв
+**Русский:** промежуток, перерыв; щель, зазор, промежуток; разрыв, различие
 **Plural:** *gaps*
 **Countability:** countable
 
-An empty stretch of time between two things.
+Gap has 3 distinct senses.
+
+**1. An empty stretch of time between two things.** (промежуток, перерыв)
 
 1. There's a three-year *gap* between the sisters.
 2. He took a *gap* year before college.
 3. Fill the *gaps* in your schedule with study time.
+
+**2. A space or opening between two things or in something solid.** (щель, зазор, промежуток)
+
+4. The dog squeezed through a *gap* in the fence.
+5. Cold air came in through the *gap* under the door.
+6. There were wide *gaps* between the boards on the porch.
+
+**3. A large difference between two amounts, groups, or levels.** (разрыв, различие)
+
+7. The *gap* between rich and poor keeps growing.
+8. There's still a pay *gap* between men and women in the field.
+9. The team closed the *gap* to three points.
 
 ---
 
@@ -1665,15 +1741,29 @@ Time when work stops, or free time for resting.
 ### timeout
 
 **Pronunciation:** /ˈtaɪmaʊt/ &middot; *TYM-owt*
-**Русский:** тайм-аут, перерыв
+**Русский:** тайм-аут, перерыв; тайм-аут (наказание для ребёнка); тайм-аут (истечение времени ожидания)
 **Plural:** *timeouts*
 **Countability:** countable
 
-A short break called during a game or activity.
+Timeout has 3 distinct senses.
+
+**1. A short break called during a game or activity.** (тайм-аут, перерыв)
 
 1. The coach called a *timeout*.
 2. Each team gets three *timeouts* per half.
 3. She put her son in *timeout* for hitting.
+
+**2. A short period in which a child has to sit quietly alone as a punishment.** (тайм-аут (наказание для ребёнка))
+
+4. Her son got a five-minute *timeout* for hitting his sister.
+5. He spent the whole *timeout* on the bottom stair.
+6. *Timeouts* work better than yelling, the book says.
+
+**3. The point at which a computer or phone stops waiting for a response and gives up.** (тайм-аут (истечение времени ожидания))
+
+7. The upload failed with a *timeout*.
+8. Set the *timeout* to thirty seconds.
+9. Slow servers cause a lot of *timeouts*.
 
 ---
 
@@ -1888,14 +1978,22 @@ The time of a person's life when they are a child.
 ### infancy
 
 **Pronunciation:** /ˈɪnfənsi/ &middot; *IN-fuhn-see*
-**Русский:** младенчество
+**Русский:** младенчество; начальная стадия, зачаточное состояние
 **Countability:** uncountable
 
-The earliest period of a baby's life.
+Infancy has 2 distinct senses.
+
+**1. The earliest period of a baby's life.** (младенчество)
 
 1. He was adopted in *infancy*.
 2. The condition is usually caught in *infancy*.
 3. The technology is still in its *infancy*.
+
+**2. The earliest stage in the development of something.** (начальная стадия, зачаточное состояние)
+
+4. Electric aircraft are still in their *infancy*.
+5. The technology was in its *infancy* when they invested.
+6. Online shopping was in its *infancy* back then.
 
 ---
 
@@ -1954,14 +2052,22 @@ The part of life after a person has grown up.
 ### prime
 
 **Pronunciation:** /praɪm/ &middot; *PRYM*
-**Русский:** расцвет сил
+**Русский:** расцвет сил; простое число
 **Countability:** uncountable
 
-The best and strongest years of someone's life or career.
+Prime has 2 distinct senses.
+
+**1. The best and strongest years of someone's life or career.** (расцвет сил)
 
 1. He was a great runner in his *prime*.
 2. The company is past its *prime*.
 3. She's in the *prime* of her career.
+
+**2. A whole number that can be divided evenly only by itself and one.** (простое число)
+
+4. Seventeen is a *prime*.
+5. The list of *primes* starts 2, 3, 5, 7.
+6. She wrote a program that hunts for very large *primes*.
 
 ---
 
@@ -1996,16 +2102,24 @@ Ancient times, especially the age of Greece and Rome.
 ### dynasty
 
 **Pronunciation:** /ˈdaɪnəsti/ &middot; *DY-nuh-stee*
-**Русский:** династия
+**Русский:** династия; династия (о команде, годами выигрывающей)
 **Plural:** *dynasties*
 **Countability:** countable
 **Contrast:** Americans say DY-nuh-stee; the British say DIN-uh-stee.
 
-A line of rulers or leaders from the same family.
+Dynasty has 2 distinct senses.
+
+**1. A line of rulers or leaders from the same family.** (династия)
 
 1. The *dynasty* ruled for three hundred years.
 2. That team built a *dynasty* in the 1990s.
 3. Several *dynasties* rose and fell in the valley.
+
+**2. A sports team or club that stays dominant for many years.** (династия (о команде, годами выигрывающей))
+
+4. Five titles in seven years made them a *dynasty*.
+5. Fans still argue about which *dynasty* was the greatest.
+6. He built a *dynasty* at a school nobody had heard of.
 
 ---
 
@@ -2028,29 +2142,45 @@ The period during which a king or queen rules.
 ### past
 
 **Pronunciation:** /pæst/ &middot; *PAST*
-**Русский:** прошлое
+**Русский:** прошлое; прошлое (человека), былые дела
 **Countability:** uncountable
 
-The time before now.
+Past has 2 distinct senses.
+
+**1. The time before now.** (прошлое)
 
 1. You can't change the *past*.
 2. In the *past*, letters took weeks to arrive.
 3. She rarely talks about her *past*.
+
+**2. The events of someone's earlier life, especially ones they would rather hide.** (прошлое (человека), былые дела)
+
+4. Nobody in town knew about his *past*.
+5. She's a woman with a *past*.
+6. The candidate's *past* came up in every interview.
 
 ---
 
 ### present
 
 **Pronunciation:** /ˈprɛzənt/ &middot; *PREZ-uhnt*
-**Русский:** настоящее, настоящее время
+**Русский:** настоящее, настоящее время; подарок
 **Countability:** uncountable
 **Contrast:** The noun is PREZ-uhnt; the verb *present* (представлять) is pri-ZENT.
 
-The time that is happening now.
+Present has 2 distinct senses.
+
+**1. The time that is happening now.** (настоящее, настоящее время)
 
 1. Try to live in the *present*.
 2. Up to the *present*, nobody has complained.
 3. The *present* is all we really have.
+
+**2. A thing given to someone as a gift.** (подарок)
+
+4. She opened her birthday *presents* after dinner.
+5. I still need to buy a *present* for my nephew.
+6. The *present* came wrapped in plain brown paper.
 
 ---
 
@@ -2113,16 +2243,24 @@ Frequency has 3 distinct senses.
 ### routine
 
 **Pronunciation:** /ruːˈtiːn/ &middot; *roo-TEEN*
-**Русский:** распорядок, привычный режим
+**Русский:** распорядок, привычный режим; номер, программа (выступление)
 **Plural:** *routines*
 **Countability:** countable
 **Contrast:** The stress falls on the second syllable — roo-TEEN, unlike Russian «рутИна», and the English word is neutral, not negative.
 
-A regular way of doing things in the same order.
+Routine has 2 distinct senses.
+
+**1. A regular way of doing things in the same order.** (распорядок, привычный режим)
 
 1. My morning *routine* takes about an hour.
 2. The kids do better with a *routine*.
 3. New *routines* take a few weeks to stick.
+
+**2. A set piece performed by a dancer, gymnast, or comedian.** (номер, программа (выступление))
+
+4. She nailed her floor *routine*.
+5. The comedian opened with his airport *routine*.
+6. They practiced the dance *routine* for weeks.
 
 ---
 
@@ -2185,14 +2323,22 @@ The state of needing to move or act fast.
 ### rush
 
 **Pronunciation:** /rʌʃ/ &middot; *RUSH*
-**Русский:** спешка; наплыв, час пик
+**Русский:** спешка; наплыв, час пик; прилив (чувств), всплеск, кайф
 **Countability:** uncountable
 
-A period of hurrying, or a sudden busy stretch of time.
+Rush has 2 distinct senses.
+
+**1. A period of hurrying, or a sudden busy stretch of time.** (спешка; наплыв, час пик)
 
 1. Avoid the morning *rush* if you can.
 2. There's no *rush* on the paperwork.
 3. The store hires extra help for the holiday *rush*.
+
+**2. A sudden strong feeling or burst of energy.** (прилив (чувств), всплеск, кайф)
+
+4. He felt a *rush* of adrenaline as the doors opened.
+5. Skydiving gave her a *rush* she never forgot.
+6. There was a *rush* of relief when the results came back.
 
 ---
 
@@ -2230,15 +2376,23 @@ A particular time when something happens, often a special one.
 ### event
 
 **Pronunciation:** /ɪˈvɛnt/ &middot; *ih-VENT*
-**Русский:** событие; мероприятие
+**Русский:** событие; мероприятие; вид программы, дисциплина (на соревнованиях)
 **Plural:** *events*
 **Countability:** countable
 
-Something that happens, especially something planned or important.
+Event has 2 distinct senses.
+
+**1. Something that happens, especially something planned or important.** (событие; мероприятие)
 
 1. The fundraiser is our biggest *event* of the year.
 2. *Events* moved faster than anyone expected.
 3. In the *event* of rain, we'll move indoors.
+
+**2. A single race or contest within a larger sports meeting.** (вид программы, дисциплина (на соревнованиях))
+
+4. She's entered in three *events* at the state meet.
+5. The 400-meter *event* starts right after lunch.
+6. Skiing has more Olympic *events* than it used to.
 
 ---
 
@@ -2288,44 +2442,68 @@ The first part or point of something.
 ### start
 
 **Pronunciation:** /stɑːrt/ &middot; *START*
-**Русский:** начало, старт
+**Русский:** начало, старт; вздрагивание, испуг
 **Plural:** *starts*
 **Countability:** countable
 
-The point at which something begins.
+Start has 2 distinct senses.
+
+**1. The point at which something begins.** (начало, старт)
 
 1. We got off to a bad *start*.
 2. The race has a staggered *start*.
 3. After two false *starts*, the engine caught.
+
+**2. A sudden jerk of the body caused by surprise or fright.** (вздрагивание, испуг)
+
+4. He woke with a *start* when the phone rang.
+5. That noise gave me quite a *start*.
+6. She sat up with a *start* and looked at the clock.
 
 ---
 
 ### end
 
 **Pronunciation:** /ɛnd/ &middot; *END*
-**Русский:** конец, окончание
+**Русский:** конец, окончание; цель
 **Plural:** *ends*
 **Countability:** countable
 
-The final part or point of something.
+End has 2 distinct senses.
+
+**1. The final part or point of something.** (конец, окончание)
 
 1. Stay until the *end* of the meeting.
 2. Rent is due at the *end* of the month.
 3. Both *ends* of the trip went smoothly.
+
+**2. A goal that someone is trying to reach.** (цель)
+
+4. The money is only a means to an *end*.
+5. To that *end*, we hired two more people.
+6. He'll use anyone to serve his own *ends*.
 
 ---
 
 ### tenure
 
 **Pronunciation:** /ˈtɛnjər/ &middot; *TEN-yur*
-**Русский:** срок пребывания в должности
+**Русский:** срок пребывания в должности; постоянная должность в вузе, бессрочный контракт
 **Countability:** uncountable
 
-The period during which someone holds a job or an office.
+Tenure has 2 distinct senses.
+
+**1. The period during which someone holds a job or an office.** (срок пребывания в должности)
 
 1. Crime fell during her *tenure* as mayor.
 2. He earned *tenure* after six years of teaching.
 3. His *tenure* at the company was short.
+
+**2. A permanent university position that protects a professor from being fired.** (постоянная должность в вузе, бессрочный контракт)
+
+4. She got *tenure* in her seventh year.
+5. He was denied *tenure* and left for another school.
+6. Fewer teaching jobs come with *tenure* these days.
 
 ---
 

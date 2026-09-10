@@ -964,14 +964,43 @@
       "term": "gleam",
       "ipa": "/ɡliːm/",
       "respell": "GLEEM",
-      "meaning": "A faint or brief light, or a bright reflection from a smooth surface. ---",
+      "meaning": "Gleam has 2 distinct senses.",
       "examples": [
         "There was a gleam of light under the door.",
         "I saw a gleam of amusement in his eyes.",
-        "The polished floor gave off soft gleams."
+        "The polished floor gave off soft gleams.",
+        "There was still a gleam of hope that the deal would go through.",
+        "A gleam of recognition crossed her face.",
+        "For the first time in weeks I saw a gleam of his old humor."
       ],
-      "senses": [],
-      "русский": "проблеск, слабый свет; блеск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A faint or brief light, or a bright reflection from a smooth surface",
+          "body": [
+            "(проблеск, слабый свет; блеск)"
+          ],
+          "examples": [
+            "There was a gleam of light under the door.",
+            "I saw a gleam of amusement in his eyes.",
+            "The polished floor gave off soft gleams."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A faint trace or first sign of a feeling or quality",
+          "body": [
+            "(проблеск (надежды, чувства))",
+            "---"
+          ],
+          "examples": [
+            "There was still a gleam of hope that the deal would go through.",
+            "A gleam of recognition crossed her face.",
+            "For the first time in weeks I saw a gleam of his old humor."
+          ]
+        }
+      ],
+      "русский": "проблеск, слабый свет; блеск; проблеск (надежды, чувства)",
       "plural": "gleams",
       "countability": "countable"
     },
@@ -1337,14 +1366,43 @@
       "term": "good",
       "ipa": "/ɡʊd/",
       "respell": "GUUD",
-      "meaning": "Benefit or advantage, especially to people in general. ---",
+      "meaning": "Good has 2 distinct senses.",
       "examples": [
         "She did it for the good of the whole town.",
         "What good will complaining do?",
-        "The rest did him a lot of good."
+        "The rest did him a lot of good.",
+        "The store sells canned goods and cleaning supplies.",
+        "Rising fuel prices push up the cost of all goods.",
+        "The truck was carrying stolen goods."
       ],
-      "senses": [],
-      "русский": "благо, польза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Benefit or advantage, especially to people in general",
+          "body": [
+            "(благо, польза)"
+          ],
+          "examples": [
+            "She did it for the good of the whole town.",
+            "What good will complaining do?",
+            "The rest did him a lot of good."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Things that are made and sold, or a person's possessions",
+          "body": [
+            "(товары, продукция)",
+            "---"
+          ],
+          "examples": [
+            "The store sells canned goods and cleaning supplies.",
+            "Rising fuel prices push up the cost of all goods.",
+            "The truck was carrying stolen goods."
+          ]
+        }
+      ],
+      "русский": "благо, польза; товары, продукция",
       "countability": "uncountable",
       "contrast": "The plural goods means merchandise (товары), not benefits."
     },
@@ -1543,14 +1601,43 @@
       "term": "grader",
       "ipa": "/ˈɡreɪdər/",
       "respell": "GRAY-dur",
-      "meaning": "A student in a particular school grade, or a person who scores tests and papers. ---",
+      "meaning": "Grader has 2 distinct senses.",
       "examples": [
         "My son is a fourth grader.",
         "The graders took two weeks to finish the exams.",
-        "Third graders start learning cursive at this school."
+        "Third graders start learning cursive at this school.",
+        "A grader smoothed the gravel road after the storm.",
+        "The county finally sent a grader out to fix the ruts.",
+        "Two graders worked the site all week."
       ],
-      "senses": [],
-      "русский": "ученик такого-то класса; проверяющий работы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A student in a particular school grade, or a person who scores tests and papers",
+          "body": [
+            "(ученик такого-то класса; проверяющий работы)"
+          ],
+          "examples": [
+            "My son is a fourth grader.",
+            "The graders took two weeks to finish the exams.",
+            "Third graders start learning cursive at this school."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A heavy machine with a long blade that levels dirt roads and building sites",
+          "body": [
+            "(грейдер (дорожная машина))",
+            "---"
+          ],
+          "examples": [
+            "A grader smoothed the gravel road after the storm.",
+            "The county finally sent a grader out to fix the ruts.",
+            "Two graders worked the site all week."
+          ]
+        }
+      ],
+      "русский": "ученик такого-то класса; проверяющий работы; грейдер (дорожная машина)",
       "plural": "graders",
       "countability": "countable"
     },
@@ -1750,14 +1837,43 @@
       "term": "grind",
       "ipa": "/ɡraɪnd/",
       "respell": "GRYND",
-      "meaning": "Long, dull, exhausting work or routine. ---",
+      "meaning": "Grind has 2 distinct senses.",
       "examples": [
         "The daily grind wears you down.",
         "Studying for the bar exam was a real grind.",
-        "After two years of that grind, she quit."
+        "After two years of that grind, she quit.",
+        "A French press needs a coarse grind.",
+        "Ask them for a fine grind for espresso.",
+        "The bag lists three different grinds."
       ],
-      "senses": [],
-      "русский": "рутина, изнурительная работа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Long, dull, exhausting work or routine",
+          "body": [
+            "(рутина, изнурительная работа)"
+          ],
+          "examples": [
+            "The daily grind wears you down.",
+            "Studying for the bar exam was a real grind.",
+            "After two years of that grind, she quit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How coarsely or finely something, especially coffee, has been ground",
+          "body": [
+            "(помол (кофе))",
+            "---"
+          ],
+          "examples": [
+            "A French press needs a coarse grind.",
+            "Ask them for a fine grind for espresso.",
+            "The bag lists three different grinds."
+          ]
+        }
+      ],
+      "русский": "рутина, изнурительная работа; помол (кофе)",
       "plural": "grinds",
       "countability": "countable"
     },
@@ -2020,14 +2136,43 @@
       "term": "grunt",
       "ipa": "/ɡrʌnt/",
       "respell": "GRUNT",
-      "meaning": "A short, low sound made in the throat, like the noise a pig makes. ---",
+      "meaning": "Grunt has 2 distinct senses.",
       "examples": [
         "He answered with a grunt.",
         "You could hear grunts coming from the weight room.",
-        "The pig gave a satisfied grunt."
+        "The pig gave a satisfied grunt.",
+        "He was just a grunt in the infantry.",
+        "The grunts did the digging while everyone else watched.",
+        "I started as a grunt in the mailroom."
       ],
-      "senses": [],
-      "русский": "хрюканье; кряхтение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short, low sound made in the throat, like the noise a pig makes",
+          "body": [
+            "(хрюканье; кряхтение)"
+          ],
+          "examples": [
+            "He answered with a grunt.",
+            "You could hear grunts coming from the weight room.",
+            "The pig gave a satisfied grunt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soldier or worker of the lowest rank who does the hard, dull jobs",
+          "body": [
+            "(рядовой солдат; чернорабочий (разг.))",
+            "---"
+          ],
+          "examples": [
+            "He was just a grunt in the infantry.",
+            "The grunts did the digging while everyone else watched.",
+            "I started as a grunt in the mailroom."
+          ]
+        }
+      ],
+      "русский": "хрюканье; кряхтение; рядовой солдат; чернорабочий (разг.)",
       "plural": "grunts",
       "countability": "countable"
     },
@@ -2213,14 +2358,43 @@
       "term": "guy",
       "ipa": "/ɡaɪ/",
       "respell": "GY",
-      "meaning": "An informal word for a man, or, in the plural, for a group of people of any gender. ---",
+      "meaning": "Guy has 2 distinct senses.",
       "examples": [
         "Some guy left his jacket here.",
         "Are you guys ready to go?",
-        "He's a good guy."
+        "He's a good guy.",
+        "Stake the guys out before the wind picks up.",
+        "One guy had come loose and the tent sagged.",
+        "Steel guys hold the antenna upright."
       ],
-      "senses": [],
-      "русский": "парень, мужчина (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An informal word for a man, or, in the plural, for a group of people of any gender",
+          "body": [
+            "(парень, мужчина (разг.))"
+          ],
+          "examples": [
+            "Some guy left his jacket here.",
+            "Are you guys ready to go?",
+            "He's a good guy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rope or wire that holds a tent, pole, or mast steady",
+          "body": [
+            "(оттяжка, растяжка (трос))",
+            "---"
+          ],
+          "examples": [
+            "Stake the guys out before the wind picks up.",
+            "One guy had come loose and the tent sagged.",
+            "Steel guys hold the antenna upright."
+          ]
+        }
+      ],
+      "русский": "парень, мужчина (разг.); оттяжка, растяжка (трос)",
       "plural": "guys",
       "countability": "countable"
     },
@@ -2273,14 +2447,43 @@
       "term": "hack",
       "ipa": "/hæk/",
       "respell": "HAK",
-      "meaning": "A clever shortcut for doing something, or an illegal break-in to a computer system. ---",
+      "meaning": "Hack has 2 distinct senses.",
       "examples": [
         "Here's a hack for peeling garlic quickly.",
         "The bank disclosed a hack that exposed customer data.",
-        "The site is full of cleaning hacks."
+        "The site is full of cleaning hacks.",
+        "He spent years as a hack for a trade magazine.",
+        "The column was written by some party hack.",
+        "Critics dismissed her as a hack."
       ],
-      "senses": [],
-      "русский": "приём, хитрость (лайфхак); взлом (компьютерный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A clever shortcut for doing something, or an illegal break-in to a computer system",
+          "body": [
+            "(приём, хитрость (лайфхак); взлом (компьютерный))"
+          ],
+          "examples": [
+            "Here's a hack for peeling garlic quickly.",
+            "The bank disclosed a hack that exposed customer data.",
+            "The site is full of cleaning hacks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A writer or worker who turns out dull, low-quality work for money",
+          "body": [
+            "(халтурщик, писака; функционер)",
+            "---"
+          ],
+          "examples": [
+            "He spent years as a hack for a trade magazine.",
+            "The column was written by some party hack.",
+            "Critics dismissed her as a hack."
+          ]
+        }
+      ],
+      "русский": "приём, хитрость (лайфхак); взлом (компьютерный); халтурщик, писака; функционер",
       "plural": "hacks",
       "countability": "countable"
     },
@@ -2561,14 +2764,43 @@
       "term": "hangman",
       "ipa": "/ˈhæŋmən/",
       "respell": "HANG-muhn",
-      "meaning": "A man whose job was to execute prisoners by hanging. ---",
+      "meaning": "Hangman has 2 distinct senses.",
       "examples": [
         "The hangman was waiting at the top of the steps.",
         "In those days the county paid a hangman.",
-        "The novel opens with a hangman checking his rope."
+        "The novel opens with a hangman checking his rope.",
+        "We played hangman on the whiteboard while we waited for the bus.",
+        "She won at hangman by guessing the vowels first.",
+        "My little brother always picks impossible words for hangman."
       ],
-      "senses": [],
-      "русский": "палач (вешатель)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A man whose job was to execute prisoners by hanging",
+          "body": [
+            "(палач (вешатель))"
+          ],
+          "examples": [
+            "The hangman was waiting at the top of the steps.",
+            "In those days the county paid a hangman.",
+            "The novel opens with a hangman checking his rope."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word game in which every wrong guess adds one line to a drawing of a hanged figure",
+          "body": [
+            "(виселица (игра в слова))",
+            "---"
+          ],
+          "examples": [
+            "We played hangman on the whiteboard while we waited for the bus.",
+            "She won at hangman by guessing the vowels first.",
+            "My little brother always picks impossible words for hangman."
+          ]
+        }
+      ],
+      "русский": "палач (вешатель); виселица (игра в слова)",
       "plural": "hangmen",
       "countability": "countable",
       "contrast": "Hangman is also a word-guessing game; the plural is hangmen."
@@ -3342,14 +3574,43 @@
       "term": "hemlock",
       "ipa": "/ˈhɛmlɑːk/",
       "respell": "HEM-lahk",
-      "meaning": "A poisonous wild plant, or the deadly drink made from it. ---",
+      "meaning": "Hemlock has 2 distinct senses.",
       "examples": [
         "Socrates was sentenced to death and made to drink hemlock.",
         "Hemlock grows in the ditch along the back road.",
-        "Cattle have died from eating hemlock."
+        "Cattle have died from eating hemlock.",
+        "The trail winds through a stand of old hemlocks.",
+        "A hemlock came down across the driveway in the storm.",
+        "Hemlock grows all through the forests of the Northeast."
       ],
-      "senses": [],
-      "русский": "болиголов (ядовитое растение)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A poisonous wild plant, or the deadly drink made from it",
+          "body": [
+            "(болиголов (ядовитое растение))"
+          ],
+          "examples": [
+            "Socrates was sentenced to death and made to drink hemlock.",
+            "Hemlock grows in the ditch along the back road.",
+            "Cattle have died from eating hemlock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tall evergreen tree of North America with short flat needles and small cones",
+          "body": [
+            "(тсуга (хвойное дерево))",
+            "---"
+          ],
+          "examples": [
+            "The trail winds through a stand of old hemlocks.",
+            "A hemlock came down across the driveway in the storm.",
+            "Hemlock grows all through the forests of the Northeast."
+          ]
+        }
+      ],
+      "русский": "болиголов (ядовитое растение); тсуга (хвойное дерево)",
       "countability": "uncountable",
       "contrast": "In the U.S. hemlock is also a common evergreen tree, which is not poisonous."
     },
@@ -3989,14 +4250,43 @@
       "term": "hold",
       "ipa": "/hoʊld/",
       "respell": "HOHLD",
-      "meaning": "A firm grip on something. ---",
+      "meaning": "Hold has 2 distinct senses.",
       "examples": [
         "He kept a tight hold on the railing all the way down.",
         "She lost her hold and slid off the branch.",
-        "Get a good hold on the rope before you lean back."
+        "Get a good hold on the rope before you lean back.",
+        "The crates were stacked in the ship's hold.",
+        "Your suitcase goes in the hold, not in the cabin.",
+        "Water was leaking into the forward hold."
       ],
-      "senses": [],
-      "русский": "хватка, захват",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A firm grip on something",
+          "body": [
+            "(хватка, захват)"
+          ],
+          "examples": [
+            "He kept a tight hold on the railing all the way down.",
+            "She lost her hold and slid off the branch.",
+            "Get a good hold on the rope before you lean back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The space below the deck of a ship or under the floor of a plane where cargo is carried",
+          "body": [
+            "(трюм; грузовой отсек)",
+            "---"
+          ],
+          "examples": [
+            "The crates were stacked in the ship's hold.",
+            "Your suitcase goes in the hold, not in the cabin.",
+            "Water was leaking into the forward hold."
+          ]
+        }
+      ],
+      "русский": "хватка, захват; трюм; грузовой отсек",
       "plural": "holds",
       "countability": "countable"
     },
@@ -4049,14 +4339,43 @@
       "term": "hole",
       "ipa": "/hoʊl/",
       "respell": "HOHL",
-      "meaning": "An opening or empty space in a surface or object. ---",
+      "meaning": "Hole has 2 distinct senses.",
       "examples": [
         "There's a hole in my sock.",
         "The dog dug a hole in the back yard.",
-        "Water came through the holes in the roof."
+        "Water came through the holes in the roof.",
+        "He sank the putt on the eighteenth hole.",
+        "We only had time to play nine holes.",
+        "It's a tough par-four hole with water down the left side."
       ],
-      "senses": [],
-      "русский": "дыра, отверстие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An opening or empty space in a surface or object",
+          "body": [
+            "(дыра, отверстие)"
+          ],
+          "examples": [
+            "There's a hole in my sock.",
+            "The dog dug a hole in the back yard.",
+            "Water came through the holes in the roof."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In golf, the small cup sunk in the ground, or one section of the course leading to it",
+          "body": [
+            "(лунка (в гольфе))",
+            "---"
+          ],
+          "examples": [
+            "He sank the putt on the eighteenth hole.",
+            "We only had time to play nine holes.",
+            "It's a tough par-four hole with water down the left side."
+          ]
+        }
+      ],
+      "русский": "дыра, отверстие; лунка (в гольфе)",
       "plural": "holes",
       "countability": "countable",
       "contrast": "Sounds exactly like whole (\"complete\"), but a hole is an opening."
@@ -4333,14 +4652,43 @@
       "term": "hop",
       "ipa": "/hɑːp/",
       "respell": "HAHP",
-      "meaning": "A short jump, especially on one foot. ---",
+      "meaning": "Hop has 2 distinct senses.",
       "examples": [
         "She got up the step with a little hop.",
         "The bird crossed the path in two hops.",
-        "The rabbit moved off in quick hops."
+        "The rabbit moved off in quick hops.",
+        "This IPA is loaded with hops.",
+        "The farm grows hops for local breweries.",
+        "You can smell the hops from the brewery down the street."
       ],
-      "senses": [],
-      "русский": "прыжок, подскок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short jump, especially on one foot",
+          "body": [
+            "(прыжок, подскок)"
+          ],
+          "examples": [
+            "She got up the step with a little hop.",
+            "The bird crossed the path in two hops.",
+            "The rabbit moved off in quick hops."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dried green flower of a climbing plant, used to give beer its bitter taste",
+          "body": [
+            "(хмель (шишки для пива))",
+            "---"
+          ],
+          "examples": [
+            "This IPA is loaded with hops.",
+            "The farm grows hops for local breweries.",
+            "You can smell the hops from the brewery down the street."
+          ]
+        }
+      ],
+      "русский": "прыжок, подскок; хмель (шишки для пива)",
       "plural": "hops",
       "countability": "countable"
     },
@@ -4686,14 +5034,43 @@
       "term": "hunk",
       "ipa": "/hʌŋk/",
       "respell": "HUHNK",
-      "meaning": "A thick piece broken or cut off something larger. ---",
+      "meaning": "Hunk has 2 distinct senses.",
       "examples": [
         "He tore off a hunk of bread.",
         "She cut a hunk of cheese for the plate.",
-        "Big hunks of ice floated down the river."
+        "Big hunks of ice floated down the river.",
+        "Her new boyfriend is a total hunk.",
+        "The movie is full of hunks in uniform.",
+        "He was the hunk of the swim team back in college."
       ],
-      "senses": [],
-      "русский": "кусок, ломоть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick piece broken or cut off something larger",
+          "body": [
+            "(кусок, ломоть)"
+          ],
+          "examples": [
+            "He tore off a hunk of bread.",
+            "She cut a hunk of cheese for the plate.",
+            "Big hunks of ice floated down the river."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A big, good-looking man, in informal speech",
+          "body": [
+            "(красавчик, крепкий мужчина (разг.))",
+            "---"
+          ],
+          "examples": [
+            "Her new boyfriend is a total hunk.",
+            "The movie is full of hunks in uniform.",
+            "He was the hunk of the swim team back in college."
+          ]
+        }
+      ],
+      "русский": "кусок, ломоть; красавчик, крепкий мужчина (разг.)",
       "plural": "hunks",
       "countability": "countable"
     },
@@ -5231,14 +5608,43 @@
       "term": "impact",
       "ipa": "/ˈɪmpækt/",
       "respell": "IM-pakt",
-      "meaning": "A strong effect that one thing has on another. ---",
+      "meaning": "Impact has 2 distinct senses.",
       "examples": [
         "The new law had a big impact on small businesses.",
         "Losing her had a lasting impact on him.",
-        "The study measures the impacts of a warmer climate."
+        "The study measures the impacts of a warmer climate.",
+        "The bumper crumpled on impact.",
+        "The impact of the collision threw both cars into the median.",
+        "Helmets are built to spread the force of an impact."
       ],
-      "senses": [],
-      "русский": "воздействие, влияние",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong effect that one thing has on another",
+          "body": [
+            "(воздействие, влияние)"
+          ],
+          "examples": [
+            "The new law had a big impact on small businesses.",
+            "Losing her had a lasting impact on him.",
+            "The study measures the impacts of a warmer climate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The force of one object striking another, or the moment of the strike",
+          "body": [
+            "(удар, столкновение)",
+            "---"
+          ],
+          "examples": [
+            "The bumper crumpled on impact.",
+            "The impact of the collision threw both cars into the median.",
+            "Helmets are built to spread the force of an impact."
+          ]
+        }
+      ],
+      "русский": "воздействие, влияние; удар, столкновение",
       "plural": "impacts",
       "countability": "countable",
       "contrast": "The noun is stressed on the first syllable (IM-pakt); the verb on the second (im-PAKT)."
@@ -6720,14 +7126,43 @@
       "term": "intake",
       "ipa": "/ˈɪnteɪk/",
       "respell": "IN-tayk",
-      "meaning": "The amount of food, drink, or air taken into the body. ---",
+      "meaning": "Intake has 2 distinct senses.",
       "examples": [
         "The doctor told him to cut his salt intake.",
         "Track your water intake for a week.",
-        "Her calorie intake is about eighteen hundred a day."
+        "Her calorie intake is about eighteen hundred a day.",
+        "Leaves had blocked the water intake.",
+        "He installed a cold-air intake on the truck.",
+        "Snow packed into the intake and stalled the engine."
       ],
-      "senses": [],
-      "русский": "потребление (пищи, жидкости)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of food, drink, or air taken into the body",
+          "body": [
+            "(потребление (пищи, жидкости))"
+          ],
+          "examples": [
+            "The doctor told him to cut his salt intake.",
+            "Track your water intake for a week.",
+            "Her calorie intake is about eighteen hundred a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An opening or pipe through which air, water, or fuel enters an engine or system",
+          "body": [
+            "(воздухозаборник, впускной патрубок)",
+            "---"
+          ],
+          "examples": [
+            "Leaves had blocked the water intake.",
+            "He installed a cold-air intake on the truck.",
+            "Snow packed into the intake and stalled the engine."
+          ]
+        }
+      ],
+      "русский": "потребление (пищи, жидкости); воздухозаборник, впускной патрубок",
       "countability": "uncountable"
     },
     {

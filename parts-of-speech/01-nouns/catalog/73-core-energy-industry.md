@@ -300,15 +300,23 @@ Dark decayed plant matter dug from bogs and dried for fuel.
 ### pellet
 
 **Pronunciation:** /ˈpɛlɪt/ &middot; *PEL-uht*
-**Русский:** гранула
+**Русский:** гранула; дробинка, пулька
 **Plural:** *pellets*
 **Countability:** countable
 
-A small hard lump of compressed material such as sawdust burned as fuel.
+Pellet has 2 distinct senses.
+
+**1. A small hard lump of compressed material such as sawdust burned as fuel.** (гранула)
 
 1. The stove burns wood *pellets* instead of logs.
 2. A forty-pound bag of *pellets* lasts about two days.
 3. Each *pellet* is about the size of a grain of rice.
+
+**2. A small ball of metal fired from an air gun or a shotgun.** (дробинка, пулька)
+
+4. The vet took three *pellets* out of the dog's shoulder.
+5. A shotgun shell sprays dozens of tiny *pellets*.
+6. The air rifle fires small lead *pellets*.
 
 ---
 
@@ -523,30 +531,58 @@ The industry of taking coal, metal, or minerals out of the earth.
 ### shaft
 
 **Pronunciation:** /ʃæft/ &middot; *SHAFT*
-**Русский:** шахтный ствол
+**Русский:** шахтный ствол; шахта (лифтовая, вентиляционная); рукоятка, стержень, древко; луч света, полоса света
 **Plural:** *shafts*
 **Countability:** countable
 
-A deep vertical passage cut down into a mine.
+Shaft has 4 distinct senses.
+
+**1. A deep vertical passage cut down into a mine.** (шахтный ствол)
 
 1. The *shaft* goes down almost a thousand feet.
 2. Both *shafts* were sealed after the accident.
 3. An elevator carries the crew down the *shaft*.
+
+**2. A vertical passage in a building for an elevator or for air.** (шахта (лифтовая, вентиляционная))
+
+4. The elevator *shaft* runs the full height of the building.
+5. A pigeon got into the air *shaft* and couldn't get out.
+6. They found her keys at the bottom of the *shaft*.
+
+**3. The long straight handle or rod of a tool, a club, or an arrow.** (рукоятка, стержень, древко)
+
+7. The *shaft* of the golf club is graphite.
+8. He gripped the *shaft* of the axe close to the head.
+9. The arrow's *shaft* snapped on impact.
+
+**4. A narrow beam of light.** (луч света, полоса света)
+
+10. A *shaft* of sunlight came through the barn door.
+11. *Shafts* of light cut through the dust in the attic.
+12. One *shaft* of light fell across the kitchen floor.
 
 ---
 
 ### quarry
 
 **Pronunciation:** /ˈkwɔːri/ &middot; *KWOR-ee*
-**Русский:** карьер, каменоломня
+**Русский:** карьер, каменоломня; добыча, преследуемый
 **Plural:** *quarries*
 **Countability:** countable
 
-An open pit where stone, sand, or gravel is cut or dug out.
+Quarry has 2 distinct senses.
+
+**1. An open pit where stone, sand, or gravel is cut or dug out.** (карьер, каменоломня)
 
 1. The limestone came from a *quarry* upstate.
 2. Two old *quarries* have filled with water.
 3. Trucks leave the *quarry* every few minutes.
+
+**2. An animal or person that is being hunted or chased.** (добыча, преследуемый)
+
+4. The hawk circled above its *quarry*.
+5. The detectives lost their *quarry* in the crowd.
+6. The hounds tracked the *quarry* for two miles.
 
 ---
 
@@ -893,15 +929,29 @@ The unit that feeds a machine the electricity it needs.
 ### utility
 
 **Pronunciation:** /juːˈtɪləti/ &middot; *yoo-TIH-luh-tee*
-**Русский:** коммунальная компания (энерго- или водоснабжающая)
+**Русский:** коммунальная компания (энерго- или водоснабжающая); полезность, практическая ценность; коммунальные услуги (и счета за них)
 **Plural:** *utilities*
 **Countability:** countable
 
-A company that supplies electricity, gas, or water to the public.
+Utility has 3 distinct senses.
+
+**1. A company that supplies electricity, gas, or water to the public.** (коммунальная компания (энерго- или водоснабжающая))
 
 1. The *utility* asked customers to cut back during the heat wave.
 2. Several *utilities* raised their rates in January.
 3. He worked for the local *utility* for thirty years.
+
+**2. The quality of being useful.** (полезность, практическая ценность)
+
+4. The study questions the *utility* of yearly screening.
+5. A second phone has limited *utility*.
+6. They doubted the *utility* of the new rules.
+
+**3. The electricity, gas, and water supplied to a building, or the bills for them.** (коммунальные услуги (и счета за них))
+
+7. Rent is twelve hundred a month plus *utilities*.
+8. *Utilities* run about a hundred fifty in the winter.
+9. Her paycheck barely covers rent and *utilities*.
 
 ---
 
@@ -1043,15 +1093,29 @@ A drop in voltage that dims the lights without cutting the power off.
 ### surge
 
 **Pronunciation:** /sɜːrdʒ/ &middot; *SURJ*
-**Русский:** скачок напряжения
+**Русский:** скачок напряжения; резкий рост, всплеск; натиск, прилив (чувств); нагон воды
 **Plural:** *surges*
 **Countability:** countable
 
-A sudden jump in electric current or voltage that can damage equipment.
+Surge has 3 distinct senses.
+
+**1. A sudden jump in electric current or voltage that can damage equipment.** (скачок напряжения)
 
 1. A *surge* from the lightning strike fried the router.
 2. *Surges* are common when the power comes back on.
 3. The *surge* blew out three bulbs at once.
+
+**2. A sudden large increase in something.** (резкий рост, всплеск)
+
+4. The store saw a *surge* in sales before the holidays.
+5. Hospitals prepared for a *surge* of new cases.
+6. A *surge* in demand pushed prices up all spring.
+
+**3. A strong forward rush of water, of a crowd, or of feeling.** (натиск, прилив (чувств); нагон воды)
+
+7. The storm *surge* flooded streets near the beach.
+8. A *surge* of the crowd pushed him against the fence.
+9. She felt a *surge* of pride watching her son graduate.
 
 ---
 
@@ -1180,15 +1244,23 @@ A device that changes direct current from a battery or panel into household curr
 ### conduit
 
 **Pronunciation:** /ˈkɑːnduːɪt/ &middot; *KAHN-doo-it*
-**Русский:** кабельный канал, кабелепровод
+**Русский:** кабельный канал, кабелепровод; канал (передачи), посредник
 **Plural:** *conduits*
 **Countability:** countable
 
-A pipe or tube that protects electrical wiring.
+Conduit has 2 distinct senses.
+
+**1. A pipe or tube that protects electrical wiring.** (кабельный канал, кабелепровод)
 
 1. The wiring runs through metal *conduit* along the wall.
 2. They buried two *conduits* under the driveway.
 3. Code requires *conduit* in a garage.
+
+**2. A person or thing through which something is passed from one place to another.** (канал (передачи), посредник)
+
+4. The charity became a *conduit* for foreign money.
+5. He served as a *conduit* between the two governments.
+6. The port is the main *conduit* for goods from Asia.
 
 ---
 
@@ -1369,15 +1441,23 @@ The practice of using less of a resource so that it lasts longer.
 ### waste
 
 **Pronunciation:** /weɪst/ &middot; *WAYST*
-**Русский:** отходы
+**Русский:** отходы; пустая трата, растрата
 **Countability:** uncountable
 **Contrast:** Sounds exactly like *waist*, the middle of the body.
 
-Material left over from a process that is thrown away.
+Waste has 2 distinct senses.
+
+**1. Material left over from a process that is thrown away.** (отходы)
 
 1. The mill produces tons of *waste* every day.
 2. Industrial *waste* used to go straight into the river.
 3. Some of the *waste* is burned for heat.
+
+**2. The careless or pointless use of something valuable such as time, money, or talent.** (пустая трата, растрата)
+
+4. That meeting was a complete *waste* of time.
+5. Leaving the lights on all night is such a *waste*.
+6. It's a *waste* of good food to throw it out.
 
 ---
 
@@ -1656,16 +1736,24 @@ A skilled worker who shapes metal parts on machine tools.
 ### foreman
 
 **Pronunciation:** /ˈfɔːrmən/ &middot; *FOR-muhn*
-**Русский:** бригадир, мастер
+**Русский:** бригадир, мастер; старшина присяжных
 **Plural:** *foremen*
 **Countability:** countable
 **Contrast:** The plural is *foremen*, not *foremans*.
 
-A worker who supervises a crew on a job or in a plant.
+Foreman has 2 distinct senses.
+
+**1. A worker who supervises a crew on a job or in a plant.** (бригадир, мастер)
 
 1. The *foreman* sent everyone home early.
 2. All the *foremen* meet on Monday mornings.
 3. He worked his way up to *foreman* in six years.
+
+**2. The member of a jury who speaks for the group and reads out the verdict.** (старшина присяжных)
+
+4. The *foreman* stood up and read the verdict.
+5. The judge asked the *foreman* whether the jury had reached a decision.
+6. They elected a retired teacher as *foreman* on the first day.
 
 ---
 
@@ -1733,14 +1821,22 @@ A small soft plug worn in the ear to block loud noise.
 ### safety
 
 **Pronunciation:** /ˈseɪfti/ &middot; *SAYF-tee*
-**Русский:** безопасность, техника безопасности
+**Русский:** безопасность, техника безопасности; предохранитель (на оружии)
 **Countability:** uncountable
 
-Protection from harm, especially the rules and habits that prevent accidents at work.
+Safety has 2 distinct senses.
+
+**1. Protection from harm, especially the rules and habits that prevent accidents at work.** (безопасность, техника безопасности)
 
 1. *Safety* comes before production on this site.
 2. The plant has a strong *safety* record.
 3. Every shift starts with a short *safety* meeting.
+
+**2. The catch on a gun that keeps it from firing.** (предохранитель (на оружии))
+
+4. Keep the *safety* on until you're ready to shoot.
+5. He forgot to flip the *safety* off.
+6. The rifle has a *safety* right above the trigger.
 
 ---
 
@@ -1860,15 +1956,29 @@ A basic substance that a factory turns into a finished product.
 ### bearing
 
 **Pronunciation:** /ˈbɛrɪŋ/ &middot; *BEH-ring*
-**Русский:** подшипник
+**Русский:** подшипник; направление, пеленг; ориентация на местности; отношение, влияние (на что-л.)
 **Plural:** *bearings*
 **Countability:** countable
 
-A part with balls or rollers that lets a shaft turn smoothly.
+Bearing has 3 distinct senses.
+
+**1. A part with balls or rollers that lets a shaft turn smoothly.** (подшипник)
 
 1. A worn *bearing* was making that whine.
 2. The *bearings* need grease every hundred hours.
 3. He pressed a new *bearing* onto the shaft.
+
+**2. The direction of one place from another, or your sense of where you are.** (направление, пеленг; ориентация на местности)
+
+4. The pilot took a *bearing* on the lighthouse.
+5. Give me a *bearing* and a distance and I'll find it.
+6. It took me a minute to get my *bearings* in the new building.
+
+**3. Influence on or relevance to something.** (отношение, влияние (на что-л.))
+
+7. His age has no *bearing* on the decision.
+8. That letter has a direct *bearing* on the case.
+9. The weather had little *bearing* on the outcome.
 
 ---
 
@@ -1905,15 +2015,23 @@ A case of gears that changes the speed or force coming from a motor.
 ### duct
 
 **Pronunciation:** /dʌkt/ &middot; *DUKT*
-**Русский:** воздуховод, канал
+**Русский:** воздуховод, канал; проток (в организме)
 **Plural:** *ducts*
 **Countability:** countable
 
-A pipe or channel that carries air, gas, or fumes through a building.
+Duct has 2 distinct senses.
+
+**1. A pipe or channel that carries air, gas, or fumes through a building.** (воздуховод, канал)
 
 1. Warm air comes up through the *duct* in the floor.
 2. The *ducts* had not been cleaned in years.
 3. A steel *duct* carries the fumes to the roof.
+
+**2. A narrow tube in the body that carries a fluid.** (проток (в организме))
+
+4. Cold wind makes my tear *ducts* water.
+5. The scan showed a blocked bile *duct*.
+6. A small stone was lodged in the *duct*.
 
 ---
 
@@ -2117,16 +2235,24 @@ Work done to fix something that is broken or worn.
 ### leak
 
 **Pronunciation:** /liːk/ &middot; *LEEK*
-**Русский:** утечка, течь
+**Русский:** утечка, течь; утечка информации
 **Plural:** *leaks*
 **Countability:** countable
 **Contrast:** Sounds exactly like *leek*, the vegetable.
 
-A hole or crack that lets liquid or gas escape.
+Leak has 2 distinct senses.
+
+**1. A hole or crack that lets liquid or gas escape.** (утечка, течь)
 
 1. A gas *leak* forced them to clear the building.
 2. Crews found two *leaks* in the pipeline.
 3. The *leak* was losing a gallon an hour.
+
+**2. The passing of secret information to the press or the public.** (утечка информации)
+
+4. The *leak* embarrassed the whole department.
+5. Reporters ran the story on the strength of a *leak*.
+6. A series of *leaks* revealed the plan weeks in advance.
 
 ---
 

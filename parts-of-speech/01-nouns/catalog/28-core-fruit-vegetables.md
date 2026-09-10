@@ -42,15 +42,23 @@ A long curved tropical fruit with soft flesh and thick yellow skin.
 ### orange
 
 **Pronunciation:** /ˈɔːrɪndʒ/ &middot; *OR-inj*
-**Русский:** апельсин
+**Русский:** апельсин; оранжевый цвет
 **Plural:** *oranges*
 **Countability:** countable
 
-A round citrus fruit with thick skin and sweet juicy segments.
+Orange has 2 distinct senses.
+
+**1. A round citrus fruit with thick skin and sweet juicy segments.** (апельсин)
 
 1. I peeled an *orange* for the kids.
 2. The *oranges* in this bag are seedless.
 3. Fresh-squeezed *orange* juice costs twice as much.
+
+**2. A color between red and yellow, like the skin of the fruit.** (оранжевый цвет)
+
+4. The whole sky turned *orange* just before sunset.
+5. Their team colors are *orange* and black.
+6. She painted the front door a bright *orange*.
 
 ---
 
@@ -194,30 +202,46 @@ A dark purple-black berry that grows on a thorny bush.
 ### lemon
 
 **Pronunciation:** /ˈlɛmən/ &middot; *LEH-mun*
-**Русский:** лимон
+**Русский:** лимон; барахло, бракованная вещь (особ. машина)
 **Plural:** *lemons*
 **Countability:** countable
 
-A yellow citrus fruit with very sour juice.
+Lemon has 2 distinct senses.
+
+**1. A yellow citrus fruit with very sour juice.** (лимон)
 
 1. Squeeze half a *lemon* over the fish.
 2. The *lemons* were the size of softballs.
 3. Can I get water with *lemon*?
+
+**2. A car or product that turns out to be badly made and full of faults.** (барахло, бракованная вещь (особ. машина))
+
+4. The used car turned out to be a *lemon*.
+5. State *lemon* laws protect people who buy new cars.
+6. That printer was a *lemon* from day one.
 
 ---
 
 ### lime
 
 **Pronunciation:** /laɪm/ &middot; *LYME*
-**Русский:** лайм
+**Русский:** лайм; известь
 **Plural:** *limes*
 **Countability:** countable
 
-A small green citrus fruit with sour juice.
+Lime has 2 distinct senses.
+
+**1. A small green citrus fruit with sour juice.** (лайм)
 
 1. Every taco stand puts a *lime* wedge on the plate.
 2. We ran out of *limes* halfway through the party.
 3. Roll the *lime* before you cut it and you'll get more juice.
+
+**2. A white powder made from limestone, spread on soil or mixed into mortar.** (известь)
+
+4. The farmer spread *lime* to cut the acid in the soil.
+5. Mix the *lime* with sand and water to make mortar.
+6. A bag of garden *lime* costs about six dollars.
 
 ---
 
@@ -399,16 +423,36 @@ A soft sweet fruit with many tiny seeds inside.
 ### date
 
 **Pronunciation:** /deɪt/ &middot; *DAYT*
-**Русский:** финик
+**Русский:** финик; дата, число; свидание; спутник, спутница (на свидании)
 **Plural:** *dates*
 **Countability:** countable
 **Contrast:** Spelled and pronounced exactly like date 'calendar day' — only context separates them.
 
-A very sweet sticky brown fruit that grows on a palm tree.
+Date has 4 distinct senses.
+
+**1. A very sweet sticky brown fruit that grows on a palm tree.** (финик)
 
 1. *Dates* are sweet enough to use instead of sugar.
 2. She stuffed each *date* with an almond.
 3. There's a bag of *dates* in the pantry.
+
+**2. A particular day of the month or year.** (дата, число)
+
+4. Write today's *date* at the top of the form.
+5. We still haven't picked a *date* for the wedding.
+6. Check the *dates* on the milk before you buy it.
+
+**3. A social meeting arranged with someone you are romantically interested in.** (свидание)
+
+7. They met for coffee on their first *date*.
+8. He's been on three *dates* this month.
+9. Dinner and a movie is a pretty standard *date*.
+
+**4. The person you take to a social event or go out with.** (спутник, спутница (на свидании))
+
+10. He brought his *date* to the office party.
+11. Her *date* showed up twenty minutes late.
+12. All the *dates* ended up talking to each other.
 
 ---
 
@@ -567,15 +611,23 @@ A large starchy relative of the banana that is cooked before eating.
 ### carrot
 
 **Pronunciation:** /ˈkɛrət/ &middot; *KER-uht*
-**Русский:** морковь, морковка
+**Русский:** морковь, морковка; пряник, поощрение (стимул)
 **Plural:** *carrots*
 **Countability:** countable
 
-A long orange root vegetable that grows underground.
+Carrot has 2 distinct senses.
+
+**1. A long orange root vegetable that grows underground.** (морковь, морковка)
 
 1. She fed the horse a *carrot*.
 2. Chop the *carrots* into coins.
 3. There's one sad *carrot* left in the drawer.
+
+**2. A reward offered to persuade someone to do something.** (пряник, поощрение (стимул))
+
+4. The state dangled tax breaks as a *carrot* for new employers.
+5. Management tried the *carrot* before reaching for the stick.
+6. A bonus is a better *carrot* than a threat.
 
 ---
 
@@ -762,15 +814,23 @@ A round white and purple root vegetable with a slightly bitter taste.
 ### squash
 
 **Pronunciation:** /skwɑːʃ/ &middot; *SKWAHSH*
-**Русский:** тыква, кабачок
+**Русский:** тыква, кабачок; сквош (игра)
 **Plural:** *squashes*
 **Countability:** countable, and uncountable as food
 
-Any of several thick-skinned vegetables from the gourd family.
+Squash has 2 distinct senses.
+
+**1. Any of several thick-skinned vegetables from the gourd family.** (тыква, кабачок)
 
 1. Butternut *squash* soup is on the menu all fall.
 2. The *squash* took forty minutes to roast.
 3. *Squashes* keep for months in a cool basement.
+
+**2. An indoor game in which two players hit a small rubber ball against the walls of a court.** (сквош (игра))
+
+4. They play *squash* every Tuesday at the gym.
+5. He hurt his shoulder during a game of *squash*.
+6. The club has four *squash* courts in the basement.
 
 ---
 
@@ -1037,16 +1097,30 @@ A herb with flat or curly green leaves used fresh in cooking.
 ### mint
 
 **Pronunciation:** /mɪnt/ &middot; *MINT*
-**Русский:** мята; мятная конфета
+**Русский:** мята; мятная конфета; монетный двор; куча денег, целое состояние
 **Plural:** *mints*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable as the plant or flavor (some mint), countable as the candy (two mints).
 
-A herb with a strong cool taste, or a small candy flavored with it.
+Mint has 3 distinct senses.
+
+**1. A herb with a strong cool taste, or a small candy flavored with it.** (мята; мятная конфета)
 
 1. There's *mint* growing all over the yard.
 2. He put a sprig of *mint* in the iced tea.
 3. She keeps *mints* in her purse.
+
+**2. The place where a country's coins are made.** (монетный двор)
+
+4. The coin was struck at the Denver *mint*.
+5. The *mint* is releasing a new quarter this year.
+6. Tours of the *mint* sell out weeks ahead.
+
+**3. A very large amount of money.** (куча денег, целое состояние)
+
+7. That kitchen must have cost a *mint*.
+8. He made a *mint* selling the patent.
+9. They spent a *mint* on the wedding.
 
 ---
 
@@ -1105,14 +1179,22 @@ A herb with stiff needle-like leaves and a piney smell.
 ### sage
 
 **Pronunciation:** /seɪdʒ/ &middot; *SAYJ*
-**Русский:** шалфей
+**Русский:** шалфей; мудрец
 **Countability:** uncountable
 
-A herb with soft gray-green leaves and a strong savory taste.
+Sage has 2 distinct senses.
+
+**1. A herb with soft gray-green leaves and a strong savory taste.** (шалфей)
 
 1. Brown the butter with a few leaves of *sage*.
 2. The stuffing needs more *sage*.
 3. *Sage* has a fuzzy gray-green leaf you can spot anywhere.
+
+**2. A very wise person, especially an older one.** (мудрец)
+
+4. The old man was treated as the village *sage*.
+5. Reporters quoted him like some kind of *sage*.
+6. Ancient *sages* wrote about the same questions.
 
 ---
 
@@ -1235,15 +1317,23 @@ A bright yellow spice made from a root, common in curry.
 ### peanut
 
 **Pronunciation:** /ˈpiːnʌt/ &middot; *PEE-nut*
-**Русский:** арахис
+**Русский:** арахис; гроши, копейки
 **Plural:** *peanuts*
 **Countability:** countable
 
-A small oval seed in a thin shell, eaten roasted or made into butter.
+Peanut has 2 distinct senses.
+
+**1. A small oval seed in a thin shell, eaten roasted or made into butter.** (арахис)
 
 1. *Peanuts* aren't really nuts — they're legumes.
 2. The flight attendant handed out *peanuts*.
 3. He shelled a *peanut* and ate it.
+
+**2. A very small amount of money, used in the plural.** (гроши, копейки)
+
+4. They pay their interns *peanuts*.
+5. He sold the truck for *peanuts*.
+6. A fine like that is *peanuts* to a company this size.
 
 ---
 
@@ -1397,15 +1487,29 @@ Acorn has 2 distinct senses.
 ### seed
 
 **Pronunciation:** /siːd/ &middot; *SEED*
-**Русский:** семя, семечко
+**Русский:** семя, семечко; сеяный игрок, посев (в турнире); зачаток, зерно (перен.)
 **Plural:** *seeds*
 **Countability:** countable
 
-The small hard part of a plant from which a new plant grows.
+Seed has 3 distinct senses.
+
+**1. The small hard part of a plant from which a new plant grows.** (семя, семечко)
 
 1. Save the *seeds* and plant them next spring.
 2. There's a *seed* stuck in my teeth.
 3. Sunflower *seeds* are the standard dugout snack.
+
+**2. A player or team ranked in advance in a tournament.** (сеяный игрок, посев (в турнире))
+
+4. She's the top *seed* going into the tournament.
+5. The number one *seed* lost in the first round.
+6. Two of the top four *seeds* were knocked out on Tuesday.
+
+**3. The small beginning of something that later grows much bigger.** (зачаток, зерно (перен.))
+
+7. That trip planted the *seed* of the whole business.
+8. The report sowed *seeds* of doubt about the company.
+9. His remark planted a *seed* she couldn't ignore.
 
 ---
 
@@ -1441,16 +1545,30 @@ A plant whose small flat seeds are used on bread and pressed for oil.
 ### kernel
 
 **Pronunciation:** /ˈkɜːrnəl/ &middot; *KUR-nuhl*
-**Русский:** ядро (ореха), зерно
+**Русский:** ядро (ореха), зерно; суть, зерно (истины); ядро (операционной системы)
 **Plural:** *kernels*
 **Countability:** countable
 **Contrast:** Homophone of colonel.
 
-The soft edible part inside a nut, or a single grain of corn or wheat.
+Kernel has 3 distinct senses.
+
+**1. The soft edible part inside a nut, or a single grain of corn or wheat.** (ядро (ореха), зерно)
 
 1. A few *kernels* never pop.
 2. Cut the *kernels* off the cob with a sharp knife.
 3. One popcorn *kernel* got stuck in my tooth.
+
+**2. The central or most important part of an idea or a statement.** (суть, зерно (истины))
+
+4. There is a *kernel* of truth in what he said.
+5. The whole company grew out of one *kernel* of an idea.
+6. Strip away the jokes and you find a hard *kernel* of anger.
+
+**3. The core part of a computer's operating system.** (ядро (операционной системы))
+
+7. The update fixes a security hole in the *kernel*.
+8. Linux *kernels* are numbered by version.
+9. A crash in the *kernel* takes down the whole machine.
 
 ---
 
@@ -1486,16 +1604,36 @@ A grain used in soups, animal feed, and brewing beer.
 ### root
 
 **Pronunciation:** /ruːt/ &middot; *ROOT*
-**Русский:** корень
+**Русский:** корень; корень, первопричина; корни, происхождение; корень (зуба, волоса)
 **Plural:** *roots*
 **Countability:** countable
 **Contrast:** Many Americans say *route* exactly like *root*; others say it ROWT. The plant word is always ROOT.
 
-The part of a plant that grows underground and takes in water.
+Root has 4 distinct senses.
+
+**1. The part of a plant that grows underground and takes in water.** (корень)
 
 1. The plant's *roots* had filled the whole pot.
 2. Ginger *root* keeps for weeks in the freezer.
 3. He pulled the weed out by the *root*.
+
+**2. The basic cause or source of a problem or situation.** (корень, первопричина)
+
+4. Money is at the *root* of most of their arguments.
+5. We need to get to the *root* of the problem.
+6. The report traced the *roots* of the crisis to 2008.
+
+**3. The family, place, or culture a person comes from.** (корни, происхождение)
+
+7. Her *roots* are in a small town in Kansas.
+8. He went to Ireland to look into his *roots*.
+9. The festival celebrates the city's Mexican *roots*.
+
+**4. The part of a tooth or a hair that sits below the surface.** (корень (зуба, волоса))
+
+10. The dentist said the *root* was infected.
+11. Her dark *roots* were starting to show.
+12. The shampoo adds volume at the *roots*.
 
 ---
 
@@ -1563,31 +1701,59 @@ Rind has 2 distinct senses.
 ### pit
 
 **Pronunciation:** /pɪt/ &middot; *PIT*
-**Русский:** косточка (плода)
+**Русский:** косточка (плода); яма, котлован; боксы, пит-лейн (в автогонках)
 **Plural:** *pits*
 **Countability:** countable
 **Contrast:** American English for the hard seed; British English says stone.
 
-The single hard seed in the middle of a peach, cherry, or similar fruit.
+Pit has 3 distinct senses.
+
+**1. The single hard seed in the middle of a peach, cherry, or similar fruit.** (косточка (плода))
 
 1. Watch out for the *pit* in the middle.
 2. She spit the cherry *pits* into a napkin.
 3. Remove the *pit* before you blend it.
+
+**2. A deep hole dug in the ground.** (яма, котлован)
+
+4. They dug a *pit* for the fire.
+5. Gravel is hauled out of the *pit* all summer.
+6. He nearly fell into an open *pit* at the construction site.
+
+**3. The area beside a racetrack where cars stop for fuel and tires.** (боксы, пит-лейн (в автогонках))
+
+7. He came into the *pits* on lap thirty.
+8. The crew changed four tires in the *pit* in seven seconds.
+9. A slow stop in the *pits* cost her the race.
 
 ---
 
 ### core
 
 **Pronunciation:** /kɔːr/ &middot; *KOR*
-**Русский:** сердцевина, огрызок
+**Русский:** сердцевина, огрызок; суть, основа, ядро; ядро (планеты)
 **Plural:** *cores*
 **Countability:** countable
 
-The hard central part of a fruit that holds the seeds.
+Core has 3 distinct senses.
+
+**1. The hard central part of a fruit that holds the seeds.** (сердцевина, огрызок)
 
 1. Cut around the *core* of the apple.
 2. He tossed the *core* out the car window.
 3. The *cores* go in the compost bin.
+
+**2. The most important or central part of something.** (суть, основа, ядро)
+
+4. Trust is at the *core* of any good marriage.
+5. That question goes to the *core* of the problem.
+6. A small *core* of volunteers runs the whole festival.
+
+**3. The hot center of the earth or of another planet.** (ядро (планеты))
+
+7. The earth's *core* is mostly iron.
+8. Heat moves slowly outward from the *core*.
+9. Scientists study how the *core* makes the magnetic field.
 
 ---
 
@@ -1671,12 +1837,20 @@ The gathering of a crop, or the amount gathered.
 ### crop
 
 **Pronunciation:** /krɑːp/ &middot; *KRAHP*
-**Русский:** сельскохозяйственная культура, урожай
+**Русский:** сельскохозяйственная культура, урожай; поколение, набор (появившихся одновременно)
 **Plural:** *crops*
 **Countability:** countable
 
-A plant grown in large amounts for food, or the amount produced in a season.
+Crop has 2 distinct senses.
+
+**1. A plant grown in large amounts for food, or the amount produced in a season.** (сельскохозяйственная культура, урожай)
 
 1. Corn is the biggest *crop* in the state.
 2. The *crops* need rain badly.
 3. They rotate *crops* to keep the soil healthy.
+
+**2. A group of people or things that appear at the same time.** (поколение, набор (появившихся одновременно))
+
+4. This year's *crop* of rookies is the best in a decade.
+5. The new *crop* of restaurants downtown is worth trying.
+6. Each *crop* of interns stays for the summer.

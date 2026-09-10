@@ -35,14 +35,43 @@
       "term": "hunt",
       "ipa": "/hʌnt/",
       "respell": "HUNT",
-      "meaning": "One trip or occasion of hunting animals. ---",
+      "meaning": "Hunt has 2 distinct senses.",
       "examples": [
         "They're planning an elk hunt in Montana this fall.",
         "The morning hunt ended with nothing but wet boots.",
-        "He's been on a dozen hunts and never fired a shot."
+        "He's been on a dozen hunts and never fired a shot.",
+        "The hunt for a new principal took all spring.",
+        "Police called off the hunt at midnight.",
+        "We're on the hunt for a bigger apartment."
       ],
-      "senses": [],
-      "русский": "охота (выезд, вылазка)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One trip or occasion of hunting animals",
+          "body": [
+            "(охота (выезд, вылазка))"
+          ],
+          "examples": [
+            "They're planning an elk hunt in Montana this fall.",
+            "The morning hunt ended with nothing but wet boots.",
+            "He's been on a dozen hunts and never fired a shot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A search for something or someone that is hard to find",
+          "body": [
+            "(поиски, розыск)",
+            "---"
+          ],
+          "examples": [
+            "The hunt for a new principal took all spring.",
+            "Police called off the hunt at midnight.",
+            "We're on the hunt for a bigger apartment."
+          ]
+        }
+      ],
+      "русский": "охота (выезд, вылазка); поиски, розыск",
       "plural": "hunts",
       "countability": "countable"
     },
@@ -336,14 +365,43 @@
       "term": "decoy",
       "ipa": "/ˈdiːkɔɪ/",
       "respell": "DEE-koy",
-      "meaning": "A model of a bird set out on the water to draw real birds within range. ---",
+      "meaning": "Decoy has 2 distinct senses.",
       "examples": [
         "We set out two dozen decoys before sunrise.",
         "One decoy had come loose and drifted off.",
-        "He carves wooden decoys in the winter."
+        "He carves wooden decoys in the winter.",
+        "The parked van was a decoy while the real truck slipped out the back.",
+        "Police used an unmarked car as a decoy.",
+        "The fake email was a decoy to get her password."
       ],
-      "senses": [],
-      "русский": "чучело (подсадная птица), приманка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A model of a bird set out on the water to draw real birds within range",
+          "body": [
+            "(чучело (подсадная птица), приманка)"
+          ],
+          "examples": [
+            "We set out two dozen decoys before sunrise.",
+            "One decoy had come loose and drifted off.",
+            "He carves wooden decoys in the winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing used to lure someone into a trap or draw attention away",
+          "body": [
+            "(приманка, отвлекающий манёвр)",
+            "---"
+          ],
+          "examples": [
+            "The parked van was a decoy while the real truck slipped out the back.",
+            "Police used an unmarked car as a decoy.",
+            "The fake email was a decoy to get her password."
+          ]
+        }
+      ],
+      "русский": "чучело (подсадная птица), приманка; приманка, отвлекающий манёвр",
       "plural": "decoys",
       "countability": "countable",
       "contrast": "The noun is usually stressed on the first syllable (DEE-koy); as a verb the stress often moves to the second (di-KOY)."
@@ -428,14 +486,43 @@
       "term": "snare",
       "ipa": "/snɛr/",
       "respell": "SNAIR",
-      "meaning": "A loop of wire or cord that tightens around an animal that walks into it. ---",
+      "meaning": "Snare has 2 distinct senses.",
       "examples": [
         "He set a wire snare on the rabbit run.",
         "Snares are illegal for most animals in this state.",
-        "The fox pulled the snare loose and got away."
+        "The fox pulled the snare loose and got away.",
+        "The song opens with a single hit on the snare.",
+        "He tightened the snare between songs.",
+        "Marching bands put the snares in the front row."
       ],
-      "senses": [],
-      "русский": "силок, петля",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A loop of wire or cord that tightens around an animal that walks into it",
+          "body": [
+            "(силок, петля)"
+          ],
+          "examples": [
+            "He set a wire snare on the rabbit run.",
+            "Snares are illegal for most animals in this state.",
+            "The fox pulled the snare loose and got away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sharp-sounding drum at the center of a drum kit",
+          "body": [
+            "(малый барабан)",
+            "---"
+          ],
+          "examples": [
+            "The song opens with a single hit on the snare.",
+            "He tightened the snare between songs.",
+            "Marching bands put the snares in the front row."
+          ]
+        }
+      ],
+      "русский": "силок, петля; малый барабан",
       "plural": "snares",
       "countability": "countable"
     },
@@ -651,14 +738,58 @@
       "term": "pointer",
       "ipa": "/ˈpɔɪntər/",
       "respell": "POYN-tur",
-      "meaning": "A hunting dog that freezes and points its nose at hidden birds. ---",
+      "meaning": "Pointer has 3 distinct senses.",
       "examples": [
         "The pointer locked up at the edge of the corn.",
         "He runs two pointers on the prairie every October.",
-        "A good pointer holds until the hunter walks in."
+        "A good pointer holds until the hunter walks in.",
+        "Can you give me a few pointers on my resume?",
+        "The coach offered one pointer that fixed my swing.",
+        "Her pointers about interviewing turned out to be useful.",
+        "He tapped the map with a wooden pointer.",
+        "Move the pointer over the icon and click.",
+        "The dial's pointer stopped just below the red zone."
       ],
-      "senses": [],
-      "русский": "пойнтер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hunting dog that freezes and points its nose at hidden birds",
+          "body": [
+            "(пойнтер)"
+          ],
+          "examples": [
+            "The pointer locked up at the edge of the corn.",
+            "He runs two pointers on the prairie every October.",
+            "A good pointer holds until the hunter walks in."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short piece of practical advice",
+          "body": [
+            "(совет, подсказка)"
+          ],
+          "examples": [
+            "Can you give me a few pointers on my resume?",
+            "The coach offered one pointer that fixed my swing.",
+            "Her pointers about interviewing turned out to be useful."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A stick, needle, or arrow used to show where something is",
+          "body": [
+            "(указка; стрелка, указатель)",
+            "---"
+          ],
+          "examples": [
+            "He tapped the map with a wooden pointer.",
+            "Move the pointer over the icon and click.",
+            "The dial's pointer stopped just below the red zone."
+          ]
+        }
+      ],
+      "русский": "пойнтер; совет, подсказка; указка; стрелка, указатель",
       "plural": "pointers",
       "countability": "countable"
     },
@@ -740,14 +871,43 @@
       "term": "scope",
       "ipa": "/skoʊp/",
       "respell": "SKOHP",
-      "meaning": "A small telescope mounted on a rifle to help the shooter aim. ---",
+      "meaning": "Scope has 2 distinct senses.",
       "examples": [
         "He put a new scope on the deer rifle.",
         "Fog on the scope cost him the shot.",
-        "Cheap scopes lose their zero after a few shots."
+        "Cheap scopes lose their zero after a few shots.",
+        "That question is outside the scope of this report.",
+        "The investigation widened in scope over the summer.",
+        "We had to narrow the scope of the project to finish on time."
       ],
-      "senses": [],
-      "русский": "оптический прицел",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small telescope mounted on a rifle to help the shooter aim",
+          "body": [
+            "(оптический прицел)"
+          ],
+          "examples": [
+            "He put a new scope on the deer rifle.",
+            "Fog on the scope cost him the shot.",
+            "Cheap scopes lose their zero after a few shots."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The range of subjects or activity that something deals with",
+          "body": [
+            "(рамки, охват, сфера)",
+            "---"
+          ],
+          "examples": [
+            "That question is outside the scope of this report.",
+            "The investigation widened in scope over the summer.",
+            "We had to narrow the scope of the project to finish on time."
+          ]
+        }
+      ],
+      "русский": "оптический прицел; рамки, охват, сфера",
       "plural": "scopes",
       "countability": "countable",
       "contrast": "Also an everyday word meaning range or extent ('the scope of the project'), and in that sense it is uncountable."
@@ -829,14 +989,43 @@
       "term": "choke",
       "ipa": "/tʃoʊk/",
       "respell": "CHOHK",
-      "meaning": "A narrowing at the end of a shotgun barrel that controls how the shot spreads. ---",
+      "meaning": "Choke has 2 distinct senses.",
       "examples": [
         "Use a tighter choke for longer shots.",
         "The gun came with three screw-in chokes.",
-        "An open choke is better in close cover."
+        "An open choke is better in close cover.",
+        "Pull the choke out before you start the mower.",
+        "The old truck will not turn over without the choke.",
+        "Push the choke back in once the engine warms up."
       ],
-      "senses": [],
-      "русский": "чок, дульное сужение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrowing at the end of a shotgun barrel that controls how the shot spreads",
+          "body": [
+            "(чок, дульное сужение)"
+          ],
+          "examples": [
+            "Use a tighter choke for longer shots.",
+            "The gun came with three screw-in chokes.",
+            "An open choke is better in close cover."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The control that cuts down the air going into an engine to help it start",
+          "body": [
+            "(воздушная заслонка, подсос)",
+            "---"
+          ],
+          "examples": [
+            "Pull the choke out before you start the mower.",
+            "The old truck will not turn over without the choke.",
+            "Push the choke back in once the engine warms up."
+          ]
+        }
+      ],
+      "русский": "чок, дульное сужение; воздушная заслонка, подсос",
       "plural": "chokes",
       "countability": "countable"
     },
@@ -859,14 +1048,43 @@
       "term": "ammo",
       "ipa": "/ˈæmoʊ/",
       "respell": "AM-oh",
-      "meaning": "Bullets and shells, in everyday informal speech. ---",
+      "meaning": "Ammo has 2 distinct senses.",
       "examples": [
         "We're low on ammo for the .30-06.",
         "Ammo got expensive after the shortage.",
-        "He keeps his ammo in a locked box under the bed."
+        "He keeps his ammo in a locked box under the bed.",
+        "The leaked emails gave his opponents plenty of ammo.",
+        "Don't tell her that — you're just handing her ammo.",
+        "Every small mistake became ammo for the other side."
       ],
-      "senses": [],
-      "русский": "патроны, боеприпасы (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Bullets and shells, in everyday informal speech",
+          "body": [
+            "(патроны, боеприпасы (разг.))"
+          ],
+          "examples": [
+            "We're low on ammo for the .30-06.",
+            "Ammo got expensive after the shortage.",
+            "He keeps his ammo in a locked box under the bed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Facts or details that can be used to attack someone in an argument",
+          "body": [
+            "(аргументы против кого-л., «компромат»)",
+            "---"
+          ],
+          "examples": [
+            "The leaked emails gave his opponents plenty of ammo.",
+            "Don't tell her that — you're just handing her ammo.",
+            "Every small mistake became ammo for the other side."
+          ]
+        }
+      ],
+      "русский": "патроны, боеприпасы (разг.); аргументы против кого-л., «компромат»",
       "countability": "uncountable",
       "contrast": "Short for ammunition; both are uncountable — never 'ammos'."
     },
@@ -963,14 +1181,43 @@
       "term": "quiver",
       "ipa": "/ˈkwɪvər/",
       "respell": "KWIV-ur",
-      "meaning": "A case for carrying arrows. ---",
+      "meaning": "Quiver has 2 distinct senses.",
       "examples": [
         "He pulled another arrow from his quiver.",
         "The quiver clips right onto the bow.",
-        "Both quivers were empty by the end of practice."
+        "Both quivers were empty by the end of practice.",
+        "There was a quiver in her voice when she said his name.",
+        "A quiver ran through the leaves before the storm hit.",
+        "He felt a quiver of excitement as the lights went down."
       ],
-      "senses": [],
-      "русский": "колчан",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A case for carrying arrows",
+          "body": [
+            "(колчан)"
+          ],
+          "examples": [
+            "He pulled another arrow from his quiver.",
+            "The quiver clips right onto the bow.",
+            "Both quivers were empty by the end of practice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slight trembling movement or sound",
+          "body": [
+            "(дрожь, трепет)",
+            "---"
+          ],
+          "examples": [
+            "There was a quiver in her voice when she said his name.",
+            "A quiver ran through the leaves before the storm hit.",
+            "He felt a quiver of excitement as the lights went down."
+          ]
+        }
+      ],
+      "русский": "колчан; дрожь, трепет",
       "plural": "quivers",
       "countability": "countable"
     },
@@ -1097,14 +1344,43 @@
       "term": "scent",
       "ipa": "/sɛnt/",
       "respell": "SENT",
-      "meaning": "The smell an animal leaves behind, which dogs follow. ---",
+      "meaning": "Scent has 2 distinct senses.",
       "examples": [
         "The hounds picked up a scent near the river.",
         "Rain washes the scent right off the ground.",
-        "Wind carried our scent straight to the deer."
+        "Wind carried our scent straight to the deer.",
+        "The scent of fresh bread filled the kitchen.",
+        "I love the scent of lilacs in May.",
+        "A faint scent of coffee drifted down the hall."
       ],
-      "senses": [],
-      "русский": "запах зверя, след (по запаху)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smell an animal leaves behind, which dogs follow",
+          "body": [
+            "(запах зверя, след (по запаху))"
+          ],
+          "examples": [
+            "The hounds picked up a scent near the river.",
+            "Rain washes the scent right off the ground.",
+            "Wind carried our scent straight to the deer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pleasant smell",
+          "body": [
+            "(аромат, приятный запах)",
+            "---"
+          ],
+          "examples": [
+            "The scent of fresh bread filled the kitchen.",
+            "I love the scent of lilacs in May.",
+            "A faint scent of coffee drifted down the hall."
+          ]
+        }
+      ],
+      "русский": "запах зверя, след (по запаху); аромат, приятный запах",
       "plural": "scents",
       "countability": "countable",
       "contrast": "The c is silent: scent, sent, and cent all sound the same."
@@ -1127,14 +1403,58 @@
       "term": "rut",
       "ipa": "/rʌt/",
       "respell": "RUT",
-      "meaning": "The mating season when male deer chase females and lose their caution. ---",
+      "meaning": "Rut has 3 distinct senses.",
       "examples": [
         "The rut usually peaks around the second week of November.",
         "Bucks move all day during the rut.",
-        "He takes his vacation to hunt the rut."
+        "He takes his vacation to hunt the rut.",
+        "The truck sank into a muddy rut.",
+        "Frozen ruts made the dirt road rough.",
+        "Rain had cut deep ruts across the driveway.",
+        "I'm in a rut at work and need a change.",
+        "They fell into a rut of takeout and TV.",
+        "A trip might shake her out of this rut."
       ],
-      "senses": [],
-      "русский": "гон (брачный период у оленей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The mating season when male deer chase females and lose their caution",
+          "body": [
+            "(гон (брачный период у оленей))"
+          ],
+          "examples": [
+            "The rut usually peaks around the second week of November.",
+            "Bucks move all day during the rut.",
+            "He takes his vacation to hunt the rut."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep track worn into soft ground by wheels",
+          "body": [
+            "(колея, выбоина)"
+          ],
+          "examples": [
+            "The truck sank into a muddy rut.",
+            "Frozen ruts made the dirt road rough.",
+            "Rain had cut deep ruts across the driveway."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A dull routine that a person cannot seem to break out of",
+          "body": [
+            "(рутина, застой)",
+            "---"
+          ],
+          "examples": [
+            "I'm in a rut at work and need a change.",
+            "They fell into a rut of takeout and TV.",
+            "A trip might shake her out of this rut."
+          ]
+        }
+      ],
+      "русский": "гон (брачный период у оленей); колея, выбоина; рутина, застой",
       "countability": "uncountable",
       "contrast": "Also an everyday word for a deep groove worn in a dirt road, or a dull routine."
     },
@@ -1187,14 +1507,43 @@
       "term": "kill",
       "ipa": "/kɪl/",
       "respell": "KIL",
-      "meaning": "An animal that a hunter or predator has killed. ---",
+      "meaning": "Kill has 2 distinct senses.",
       "examples": [
         "The wolves stayed near the kill for two days.",
         "It was a clean kill at a hundred yards.",
-        "He's had only two kills all season."
+        "He's had only two kills all season.",
+        "The lions circled and then moved in for the kill.",
+        "Two goals ahead, the team went in for the kill.",
+        "The camera crew waited three days to film a kill."
       ],
-      "senses": [],
-      "русский": "добыча (убитый зверь)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An animal that a hunter or predator has killed",
+          "body": [
+            "(добыча (убитый зверь))"
+          ],
+          "examples": [
+            "The wolves stayed near the kill for two days.",
+            "It was a clean kill at a hundred yards.",
+            "He's had only two kills all season."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of killing, especially the closing moment of a hunt or a contest",
+          "body": [
+            "(умерщвление добычи; решающий момент)",
+            "---"
+          ],
+          "examples": [
+            "The lions circled and then moved in for the kill.",
+            "Two goals ahead, the team went in for the kill.",
+            "The camera crew waited three days to film a kill."
+          ]
+        }
+      ],
+      "русский": "добыча (убитый зверь); умерщвление добычи; решающий момент",
       "plural": "kills",
       "countability": "countable"
     },
@@ -1276,14 +1625,73 @@
       "term": "keeper",
       "ipa": "/ˈkiːpər/",
       "respell": "KEE-pur",
-      "meaning": "A fish big enough by law to be kept instead of thrown back. ---",
+      "meaning": "Keeper has 4 distinct senses.",
       "examples": [
         "That one's a keeper — right at fifteen inches.",
         "We caught thirty fish and maybe four keepers.",
-        "Anything under the limit goes back; only keepers go in the cooler."
+        "Anything under the limit goes back; only keepers go in the cooler.",
+        "The zoo keeper hand-raised the tiger cub.",
+        "Keepers at the lighthouse logged every ship that passed.",
+        "She is the keeper of all the family photographs.",
+        "Their keeper stopped three shots in the second half.",
+        "The ball went right past the keeper.",
+        "Both keepers played the whole game.",
+        "This soup recipe is a keeper.",
+        "Her new boyfriend seems like a keeper.",
+        "Out of fifty photos, only three were keepers."
       ],
-      "senses": [],
-      "русский": "рыба разрешённого размера (которую можно оставить)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fish big enough by law to be kept instead of thrown back",
+          "body": [
+            "(рыба разрешённого размера (которую можно оставить))"
+          ],
+          "examples": [
+            "That one's a keeper — right at fifteen inches.",
+            "We caught thirty fish and maybe four keepers.",
+            "Anything under the limit goes back; only keepers go in the cooler."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose job is to look after animals, a place, or a collection",
+          "body": [
+            "(смотритель, хранитель)"
+          ],
+          "examples": [
+            "The zoo keeper hand-raised the tiger cub.",
+            "Keepers at the lighthouse logged every ship that passed.",
+            "She is the keeper of all the family photographs."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The player who guards the goal in soccer or hockey",
+          "body": [
+            "(вратарь)"
+          ],
+          "examples": [
+            "Their keeper stopped three shots in the second half.",
+            "The ball went right past the keeper.",
+            "Both keepers played the whole game."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An informal word for someone or something good enough to hold on to",
+          "body": [
+            "(то, что стоит сохранить; отличный вариант)",
+            "---"
+          ],
+          "examples": [
+            "This soup recipe is a keeper.",
+            "Her new boyfriend seems like a keeper.",
+            "Out of fifty photos, only three were keepers."
+          ]
+        }
+      ],
+      "русский": "рыба разрешённого размера (которую можно оставить); смотритель, хранитель; вратарь; то, что стоит сохранить; отличный вариант",
       "plural": "keepers",
       "countability": "countable"
     },
@@ -1305,14 +1713,58 @@
       "term": "nibble",
       "ipa": "/ˈnɪbəl/",
       "respell": "NIB-uhl",
-      "meaning": "A light careful bite from a fish that does not take the hook. ---",
+      "meaning": "Nibble has 3 distinct senses.",
       "examples": [
         "I got a nibble but nothing set.",
         "We sat there two hours without a single nibble.",
-        "A few nibbles means the bait is too big."
+        "A few nibbles means the bait is too big.",
+        "She took a nibble of the cookie and put it down.",
+        "The rabbit took a few nibbles of lettuce and hopped away.",
+        "One nibble was enough to tell me it was burnt.",
+        "We've had a couple of nibbles on the house already.",
+        "My resume has been out for a month without a single nibble.",
+        "The listing got a few nibbles but no real offers."
       ],
-      "senses": [],
-      "русский": "поклёвка (осторожная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light careful bite from a fish that does not take the hook",
+          "body": [
+            "(поклёвка (осторожная))"
+          ],
+          "examples": [
+            "I got a nibble but nothing set.",
+            "We sat there two hours without a single nibble.",
+            "A few nibbles means the bait is too big."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small bite of food",
+          "body": [
+            "(маленький кусочек, укус)"
+          ],
+          "examples": [
+            "She took a nibble of the cookie and put it down.",
+            "The rabbit took a few nibbles of lettuce and hopped away.",
+            "One nibble was enough to tell me it was burnt."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sign that someone might be interested in an offer",
+          "body": [
+            "(проявление интереса (к предложению))",
+            "---"
+          ],
+          "examples": [
+            "We've had a couple of nibbles on the house already.",
+            "My resume has been out for a month without a single nibble.",
+            "The listing got a few nibbles but no real offers."
+          ]
+        }
+      ],
+      "русский": "поклёвка (осторожная); маленький кусочек, укус; проявление интереса (к предложению)",
       "plural": "nibbles",
       "countability": "countable"
     },
@@ -1320,14 +1772,58 @@
       "term": "haul",
       "ipa": "/hɔːl/",
       "respell": "HAWL",
-      "meaning": "The amount of fish or game brought in at one time. ---",
+      "meaning": "Haul has 3 distinct senses.",
       "examples": [
         "That's the biggest haul we've had all summer.",
         "The boat came in with a poor haul.",
-        "Their hauls have dropped off since the new rules."
+        "Their hauls have dropped off since the new rules.",
+        "It's a long haul from Denver to Chicago.",
+        "The store is only a short haul from here.",
+        "Truckers on the long haul often sleep in their cabs.",
+        "Police recovered most of the thieves' haul.",
+        "The robbers got away with a haul worth half a million dollars.",
+        "The team came home with a haul of five gold medals."
       ],
-      "senses": [],
-      "русский": "улов, добыча",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of fish or game brought in at one time",
+          "body": [
+            "(улов, добыча)"
+          ],
+          "examples": [
+            "That's the biggest haul we've had all summer.",
+            "The boat came in with a poor haul.",
+            "Their hauls have dropped off since the new rules."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A distance that has to be traveled, especially a long one",
+          "body": [
+            "(путь, перегон (расстояние))"
+          ],
+          "examples": [
+            "It's a long haul from Denver to Chicago.",
+            "The store is only a short haul from here.",
+            "Truckers on the long haul often sleep in their cabs."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quantity of stolen goods, or a large amount of something won or collected",
+          "body": [
+            "(добыча, награбленное)",
+            "---"
+          ],
+          "examples": [
+            "Police recovered most of the thieves' haul.",
+            "The robbers got away with a haul worth half a million dollars.",
+            "The team came home with a haul of five gold medals."
+          ]
+        }
+      ],
+      "русский": "улов, добыча; путь, перегон (расстояние); добыча, награбленное",
       "plural": "hauls",
       "countability": "countable",
       "contrast": "Sounds exactly like hall (a corridor or a large room)."
@@ -1413,14 +1909,43 @@
       "term": "barb",
       "ipa": "/bɑːrb/",
       "respell": "BARB",
-      "meaning": "The small backward point on a hook that keeps a fish from slipping off. ---",
+      "meaning": "Barb has 2 distinct senses.",
       "examples": [
         "Pinch the barb down with pliers before you fish here.",
         "The barb went in past his knuckle.",
-        "Hooks without barbs are easier to take out."
+        "Hooks without barbs are easier to take out.",
+        "She got in one last barb before leaving.",
+        "His speech was full of barbs aimed at the coach.",
+        "The compliment carried a barb."
       ],
-      "senses": [],
-      "русский": "бородка (на крючке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small backward point on a hook that keeps a fish from slipping off",
+          "body": [
+            "(бородка (на крючке))"
+          ],
+          "examples": [
+            "Pinch the barb down with pliers before you fish here.",
+            "The barb went in past his knuckle.",
+            "Hooks without barbs are easier to take out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp, unkind remark",
+          "body": [
+            "(колкость, язвительное замечание)",
+            "---"
+          ],
+          "examples": [
+            "She got in one last barb before leaving.",
+            "His speech was full of barbs aimed at the coach.",
+            "The compliment carried a barb."
+          ]
+        }
+      ],
+      "русский": "бородка (на крючке); колкость, язвительное замечание",
       "plural": "barbs",
       "countability": "countable"
     },
@@ -1457,14 +1982,58 @@
       "term": "jig",
       "ipa": "/dʒɪɡ/",
       "respell": "JIG",
-      "meaning": "A weighted hook with a soft or hairy body, bounced along the bottom. ---",
+      "meaning": "Jig has 3 distinct senses.",
       "examples": [
         "A white jig works well in that river.",
         "He tipped the jig with a piece of minnow.",
-        "She keeps a whole tray of jigs in different colors."
+        "She keeps a whole tray of jigs in different colors.",
+        "The fiddler struck up a jig.",
+        "He danced a little jig when he heard the news.",
+        "The band played reels and jigs all night.",
+        "He built a jig to drill the holes in exactly the same spot.",
+        "A simple jig keeps every cut square.",
+        "The shop uses a jig for each dovetail joint."
       ],
-      "senses": [],
-      "русский": "джиг (приманка с грузилом)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A weighted hook with a soft or hairy body, bounced along the bottom",
+          "body": [
+            "(джиг (приманка с грузилом))"
+          ],
+          "examples": [
+            "A white jig works well in that river.",
+            "He tipped the jig with a piece of minnow.",
+            "She keeps a whole tray of jigs in different colors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fast, lively folk dance, or the music played for it",
+          "body": [
+            "(джига (быстрый танец))"
+          ],
+          "examples": [
+            "The fiddler struck up a jig.",
+            "He danced a little jig when he heard the news.",
+            "The band played reels and jigs all night."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A device that holds a piece of work and guides the tool cutting it",
+          "body": [
+            "(кондуктор, шаблон (приспособление))",
+            "---"
+          ],
+          "examples": [
+            "He built a jig to drill the holes in exactly the same spot.",
+            "A simple jig keeps every cut square.",
+            "The shop uses a jig for each dovetail joint."
+          ]
+        }
+      ],
+      "русский": "джиг (приманка с грузилом); джига (быстрый танец); кондуктор, шаблон (приспособление)",
       "plural": "jigs",
       "countability": "countable"
     },
@@ -1487,14 +2056,43 @@
       "term": "chum",
       "ipa": "/tʃʌm/",
       "respell": "CHUM",
-      "meaning": "Bits of fish thrown in the water to draw fish toward a boat. ---",
+      "meaning": "Chum has 2 distinct senses.",
       "examples": [
         "The mate threw chum over the side every few minutes.",
         "A slick of chum trailed behind the boat.",
-        "Chum brings in sharks along with everything else."
+        "Chum brings in sharks along with everything else.",
+        "He went fishing with an old college chum.",
+        "The two boys have been chums since second grade.",
+        "Thanks for the ride, chum."
       ],
-      "senses": [],
-      "русский": "прикормка (рубленая рыба)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Bits of fish thrown in the water to draw fish toward a boat",
+          "body": [
+            "(прикормка (рубленая рыба))"
+          ],
+          "examples": [
+            "The mate threw chum over the side every few minutes.",
+            "A slick of chum trailed behind the boat.",
+            "Chum brings in sharks along with everything else."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A close friend (informal, slightly old-fashioned)",
+          "body": [
+            "(приятель, дружище)",
+            "---"
+          ],
+          "examples": [
+            "He went fishing with an old college chum.",
+            "The two boys have been chums since second grade.",
+            "Thanks for the ride, chum."
+          ]
+        }
+      ],
+      "русский": "прикормка (рубленая рыба); приятель, дружище",
       "countability": "uncountable",
       "contrast": "Also an old informal word for a close friend, and it sounds exactly the same."
     },

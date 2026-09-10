@@ -468,15 +468,23 @@ The small building where drivers pay to use a road or bridge.
 ### bypass
 
 **Pronunciation:** /ˈbaɪpæs/ &middot; *BY-pas*
-**Русский:** объездная дорога
+**Русский:** объездная дорога; шунтирование (сердца)
 **Plural:** *bypasses*
 **Countability:** countable
 
-A road built around a town so traffic does not have to go through it.
+Bypass has 2 distinct senses.
+
+**1. A road built around a town so traffic does not have to go through it.** (объездная дорога)
 
 1. Take the *bypass* and skip downtown altogether.
 2. The two new *bypasses* cut travel time in half.
 3. The *bypass* was built in the seventies.
+
+**2. An operation that routes blood around a blocked artery of the heart.** (шунтирование (сердца))
+
+4. He had a triple *bypass* last spring.
+5. *Bypass* surgery kept her in the hospital for a week.
+6. The doctor recommended a *bypass* rather than a stent.
 
 ---
 
@@ -896,14 +904,28 @@ Backing a car into a space along the curb between two other cars.
 ### reverse
 
 **Pronunciation:** /rɪˈvɜːrs/ &middot; *rih-VURS*
-**Русский:** задний ход
+**Русский:** задний ход; противоположность, обратное; оборотная сторона, реверс
 **Countability:** uncountable
 
-The gear that makes a vehicle move backward.
+Reverse has 3 distinct senses.
+
+**1. The gear that makes a vehicle move backward.** (задний ход)
 
 1. Put it in *reverse* and back out slowly.
 2. The car rolled forward because it wasn't in *reverse*.
 3. *Reverse* grinds a little in this old truck.
+
+**2. The opposite of what has just been said or expected.** (противоположность, обратное)
+
+4. I thought he'd be angry, but the *reverse* was true.
+5. The order of names is the *reverse* of last year's.
+6. Far from helping, it did the *reverse*.
+
+**3. The back side of a coin, medal, or sheet of paper.** (оборотная сторона, реверс)
+
+7. The *reverse* of the quarter shows an eagle.
+8. Sign your name on the *reverse* of the check.
+9. The date is stamped on the *reverse*.
 
 ---
 

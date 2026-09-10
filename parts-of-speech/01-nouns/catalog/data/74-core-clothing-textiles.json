@@ -21,14 +21,43 @@
       "term": "weave",
       "ipa": "/wiːv/",
       "respell": "WEEV",
-      "meaning": "The way the threads of a fabric are crossed over each other. ---",
+      "meaning": "Weave has 2 distinct senses.",
       "examples": [
         "This shirt has a tight weave, so the wind doesn't get through.",
         "Hold it up to the light and you can see the weave.",
-        "Linen and cotton take very different weaves."
+        "Linen and cotton take very different weaves.",
+        "She got a weave before the wedding.",
+        "A good weave can last a couple of months.",
+        "The salon does braids, weaves, and color."
       ],
-      "senses": [],
-      "русский": "переплетение (нитей), плетение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way the threads of a fabric are crossed over each other",
+          "body": [
+            "(переплетение (нитей), плетение)"
+          ],
+          "examples": [
+            "This shirt has a tight weave, so the wind doesn't get through.",
+            "Hold it up to the light and you can see the weave.",
+            "Linen and cotton take very different weaves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Lengths of extra hair sewn or glued into a person's own hair",
+          "body": [
+            "(накладные пряди, вплетённые волосы)",
+            "---"
+          ],
+          "examples": [
+            "She got a weave before the wedding.",
+            "A good weave can last a couple of months.",
+            "The salon does braids, weaves, and color."
+          ]
+        }
+      ],
+      "русский": "переплетение (нитей), плетение; накладные пряди, вплетённые волосы",
       "plural": "weaves",
       "countability": "countable"
     },
@@ -340,14 +369,43 @@
       "term": "calico",
       "ipa": "/ˈkælɪkoʊ/",
       "respell": "KAL-ih-koh",
-      "meaning": "A cotton cloth printed with a small pattern, often in flowers. ---",
+      "meaning": "Calico has 2 distinct senses.",
       "examples": [
         "The quilt is pieced from old calico.",
         "She sewed the girls matching calico dresses.",
-        "Calico was what everyone wore on the frontier."
+        "Calico was what everyone wore on the frontier.",
+        "Our calico sleeps on the windowsill all day.",
+        "Almost all calicos are female.",
+        "The shelter had two kittens and an older calico."
       ],
-      "senses": [],
-      "русский": "ситец (набивной хлопок)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cotton cloth printed with a small pattern, often in flowers",
+          "body": [
+            "(ситец (набивной хлопок))"
+          ],
+          "examples": [
+            "The quilt is pieced from old calico.",
+            "She sewed the girls matching calico dresses.",
+            "Calico was what everyone wore on the frontier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cat with a coat of white, black, and orange patches",
+          "body": [
+            "(трёхцветная кошка)",
+            "---"
+          ],
+          "examples": [
+            "Our calico sleeps on the windowsill all day.",
+            "Almost all calicos are female.",
+            "The shelter had two kittens and an older calico."
+          ]
+        }
+      ],
+      "русский": "ситец (набивной хлопок); трёхцветная кошка",
       "countability": "uncountable",
       "contrast": "In the US calico is printed cotton; in Britain it means plain unbleached cotton."
     },
@@ -369,14 +427,43 @@
       "term": "crepe",
       "ipa": "/kreɪp/",
       "respell": "KRAYP",
-      "meaning": "A fabric with a lightly crinkled surface that drapes softly. ---",
+      "meaning": "Crepe has 2 distinct senses.",
       "examples": [
         "The dress is black wool crepe.",
         "Crepe hangs well and doesn't cling.",
-        "She lined the jacket with silk crepe."
+        "She lined the jacket with silk crepe.",
+        "She ordered a crepe with ham and cheese.",
+        "The stand sells crepes with lemon and sugar.",
+        "He can flip a crepe without a spatula."
       ],
-      "senses": [],
-      "русский": "креп (ткань с зернистой поверхностью)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fabric with a lightly crinkled surface that drapes softly",
+          "body": [
+            "(креп (ткань с зернистой поверхностью))"
+          ],
+          "examples": [
+            "The dress is black wool crepe.",
+            "Crepe hangs well and doesn't cling.",
+            "She lined the jacket with silk crepe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very thin pancake, usually rolled or folded around a filling",
+          "body": [
+            "(блинчик, креп)",
+            "---"
+          ],
+          "examples": [
+            "She ordered a crepe with ham and cheese.",
+            "The stand sells crepes with lemon and sugar.",
+            "He can flip a crepe without a spatula."
+          ]
+        }
+      ],
+      "русский": "креп (ткань с зернистой поверхностью); блинчик, креп",
       "countability": "uncountable",
       "contrast": "Rhymes with tape, not with creep."
     },
@@ -826,14 +913,43 @@
       "term": "warp",
       "ipa": "/wɔːrp/",
       "respell": "WORP",
-      "meaning": "The lengthwise threads held on a loom while cloth is woven. ---",
+      "meaning": "Warp has 2 distinct senses.",
       "examples": [
         "The warp runs the length of the fabric.",
         "It takes a whole day to set up the warp.",
-        "A broken warp thread stops the machine."
+        "A broken warp thread stops the machine.",
+        "There's a slight warp in the tabletop.",
+        "Damp air put a warp in the door, and now it sticks.",
+        "Sight down the board and check it for warp."
       ],
-      "senses": [],
-      "русский": "основа (продольные нити ткани)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lengthwise threads held on a loom while cloth is woven",
+          "body": [
+            "(основа (продольные нити ткани))"
+          ],
+          "examples": [
+            "The warp runs the length of the fabric.",
+            "It takes a whole day to set up the warp.",
+            "A broken warp thread stops the machine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bend or twist in something that should be flat or straight",
+          "body": [
+            "(коробление, искривление)",
+            "---"
+          ],
+          "examples": [
+            "There's a slight warp in the tabletop.",
+            "Damp air put a warp in the door, and now it sticks.",
+            "Sight down the board and check it for warp."
+          ]
+        }
+      ],
+      "русский": "основа (продольные нити ткани); коробление, искривление",
       "countability": "uncountable"
     },
     {
@@ -885,14 +1001,43 @@
       "term": "dart",
       "ipa": "/dɑːrt/",
       "respell": "DART",
-      "meaning": "A tapered fold sewn into cloth so a garment fits the body's curves. ---",
+      "meaning": "Dart has 2 distinct senses.",
       "examples": [
         "Sew the darts before you join the side seams.",
         "The dart pulls the waist in.",
-        "Two darts in the back will fix that gap."
+        "Two darts in the back will fix that gap.",
+        "He threw a dart and hit the bullseye.",
+        "The vet dropped the bear with a tranquilizer dart.",
+        "Three darts were still stuck in the wall."
       ],
-      "senses": [],
-      "русский": "вытачка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tapered fold sewn into cloth so a garment fits the body's curves",
+          "body": [
+            "(вытачка)"
+          ],
+          "examples": [
+            "Sew the darts before you join the side seams.",
+            "The dart pulls the waist in.",
+            "Two darts in the back will fix that gap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small pointed missile thrown at a target board or shot from a gun",
+          "body": [
+            "(дротик)",
+            "---"
+          ],
+          "examples": [
+            "He threw a dart and hit the bullseye.",
+            "The vet dropped the bear with a tranquilizer dart.",
+            "Three darts were still stuck in the wall."
+          ]
+        }
+      ],
+      "русский": "вытачка; дротик",
       "plural": "darts",
       "countability": "countable"
     },
@@ -915,14 +1060,58 @@
       "term": "yoke",
       "ipa": "/joʊk/",
       "respell": "YOHK",
-      "meaning": "A shaped piece across the shoulders or hips that the rest of a garment hangs from. ---",
+      "meaning": "Yoke has 3 distinct senses.",
       "examples": [
         "The shirt has a western yoke across the back.",
         "Gather the skirt into the yoke.",
-        "Both yokes are cut on the bias."
+        "Both yokes are cut on the bias.",
+        "The oxen pulled the plow under a heavy wooden yoke.",
+        "He lifted the yoke off the tired pair.",
+        "The yoke had rubbed sores into their necks.",
+        "The country threw off the yoke of colonial rule.",
+        "They lived for years under the yoke of a dictator.",
+        "Poets wrote about breaking the yoke of tyranny."
       ],
-      "senses": [],
-      "русский": "кокетка (деталь одежды)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shaped piece across the shoulders or hips that the rest of a garment hangs from",
+          "body": [
+            "(кокетка (деталь одежды))"
+          ],
+          "examples": [
+            "The shirt has a western yoke across the back.",
+            "Gather the skirt into the yoke.",
+            "Both yokes are cut on the bias."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wooden frame joining two work animals at the neck so they pull together",
+          "body": [
+            "(ярмо, хомут (для волов))"
+          ],
+          "examples": [
+            "The oxen pulled the plow under a heavy wooden yoke.",
+            "He lifted the yoke off the tired pair.",
+            "The yoke had rubbed sores into their necks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Harsh control by another country or ruler",
+          "body": [
+            "(иго, гнёт)",
+            "---"
+          ],
+          "examples": [
+            "The country threw off the yoke of colonial rule.",
+            "They lived for years under the yoke of a dictator.",
+            "Poets wrote about breaking the yoke of tyranny."
+          ]
+        }
+      ],
+      "русский": "кокетка (деталь одежды); ярмо, хомут (для волов); иго, гнёт",
       "plural": "yokes",
       "countability": "countable",
       "contrast": "A homophone of yolk, the yellow of an egg."
@@ -960,14 +1149,43 @@
       "term": "batting",
       "ipa": "/ˈbætɪŋ/",
       "respell": "BAT-ing",
-      "meaning": "A soft layer of cotton or synthetic fiber used to fill a quilt or jacket. ---",
+      "meaning": "Batting has 2 distinct senses.",
       "examples": [
         "Lay the batting between the two layers.",
         "Cotton batting shrinks a little the first wash.",
-        "She bought a whole roll of batting."
+        "She bought a whole roll of batting.",
+        "His batting has improved a lot since spring training.",
+        "The team's batting fell apart in the second half of the season.",
+        "She leads the league in batting this year."
       ],
-      "senses": [],
-      "русский": "ватин, синтепон (для стёжки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft layer of cotton or synthetic fiber used to fill a quilt or jacket",
+          "body": [
+            "(ватин, синтепон (для стёжки))"
+          ],
+          "examples": [
+            "Lay the batting between the two layers.",
+            "Cotton batting shrinks a little the first wash.",
+            "She bought a whole roll of batting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act or skill of hitting the ball in baseball",
+          "body": [
+            "(отбивание мяча (в бейсболе))",
+            "---"
+          ],
+          "examples": [
+            "His batting has improved a lot since spring training.",
+            "The team's batting fell apart in the second half of the season.",
+            "She leads the league in batting this year."
+          ]
+        }
+      ],
+      "русский": "ватин, синтепон (для стёжки); отбивание мяча (в бейсболе)",
       "countability": "uncountable",
       "contrast": "Same word as batting in baseball, but the quilting sense is uncountable."
     },
@@ -975,42 +1193,144 @@
       "term": "padding",
       "ipa": "/ˈpædɪŋ/",
       "respell": "PAD-ing",
-      "meaning": "Soft material put inside cloth to give bulk, warmth, or protection. ---",
+      "meaning": "Padding has 2 distinct senses.",
       "examples": [
         "The jacket has padding in the shoulders.",
         "Pull the padding out and the coat is much lighter.",
-        "There's thin padding along the strap."
+        "There's thin padding along the strap.",
+        "The last two pages are pure padding.",
+        "Cut the padding and the report gets much stronger.",
+        "Half his answer was padding."
       ],
-      "senses": [],
-      "русский": "набивка, мягкая прокладка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soft material put inside cloth to give bulk, warmth, or protection",
+          "body": [
+            "(набивка, мягкая прокладка)"
+          ],
+          "examples": [
+            "The jacket has padding in the shoulders.",
+            "Pull the padding out and the coat is much lighter.",
+            "There's thin padding along the strap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Extra words or material added only to make something longer",
+          "body": [
+            "(«вода», лишний текст для объёма)",
+            "---"
+          ],
+          "examples": [
+            "The last two pages are pure padding.",
+            "Cut the padding and the report gets much stronger.",
+            "Half his answer was padding."
+          ]
+        }
+      ],
+      "русский": "набивка, мягкая прокладка; «вода», лишний текст для объёма",
       "countability": "uncountable"
     },
     {
       "term": "piping",
       "ipa": "/ˈpaɪpɪŋ/",
       "respell": "PY-ping",
-      "meaning": "A narrow cord covered in fabric and sewn into a seam as trim. ---",
+      "meaning": "Piping has 2 distinct senses.",
       "examples": [
         "The cushions have white piping.",
         "Red piping runs down the side of the trousers.",
-        "Piping makes a plain seam look finished."
+        "Piping makes a plain seam look finished.",
+        "The old copper piping has to be replaced.",
+        "Piping runs behind the wall to the water heater.",
+        "Rusted piping was leaking under the floor."
       ],
-      "senses": [],
-      "русский": "кант, выпушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow cord covered in fabric and sewn into a seam as trim",
+          "body": [
+            "(кант, выпушка)"
+          ],
+          "examples": [
+            "The cushions have white piping.",
+            "Red piping runs down the side of the trousers.",
+            "Piping makes a plain seam look finished."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pipes in a building or machine, taken together",
+          "body": [
+            "(трубопровод, система труб)",
+            "---"
+          ],
+          "examples": [
+            "The old copper piping has to be replaced.",
+            "Piping runs behind the wall to the water heater.",
+            "Rusted piping was leaking under the floor."
+          ]
+        }
+      ],
+      "русский": "кант, выпушка; трубопровод, система труб",
       "countability": "uncountable"
     },
     {
       "term": "trim",
       "ipa": "/trɪm/",
       "respell": "TRIM",
-      "meaning": "Ribbon, lace, or braid added to a garment for decoration. ---",
+      "meaning": "Trim has 3 distinct senses.",
       "examples": [
         "The dress has lace trim at the collar.",
         "Buttons and trim are down the next aisle.",
-        "A little velvet trim would dress it up."
+        "A little velvet trim would dress it up.",
+        "I just want a trim, not a new style.",
+        "The hedge needs a trim before the party.",
+        "A quick trim costs twenty dollars here.",
+        "We painted the walls gray and the trim white.",
+        "The trim around the window is rotting.",
+        "New trim would make the room look finished."
       ],
-      "senses": [],
-      "русский": "отделка, фурнитура (для одежды)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Ribbon, lace, or braid added to a garment for decoration",
+          "body": [
+            "(отделка, фурнитура (для одежды))"
+          ],
+          "examples": [
+            "The dress has lace trim at the collar.",
+            "Buttons and trim are down the next aisle.",
+            "A little velvet trim would dress it up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A light cutting that makes hair or a hedge neat without changing it much",
+          "body": [
+            "(подравнивание (стрижка))"
+          ],
+          "examples": [
+            "I just want a trim, not a new style.",
+            "The hedge needs a trim before the party.",
+            "A quick trim costs twenty dollars here."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The narrow strips of wood around the doors, windows, and floor of a room",
+          "body": [
+            "(наличники, плинтус (отделка))",
+            "---"
+          ],
+          "examples": [
+            "We painted the walls gray and the trim white.",
+            "The trim around the window is rotting.",
+            "New trim would make the room look finished."
+          ]
+        }
+      ],
+      "русский": "отделка, фурнитура (для одежды); подравнивание (стрижка); наличники, плинтус (отделка)",
       "countability": "uncountable"
     },
     {
@@ -1061,14 +1381,43 @@
       "term": "eyelet",
       "ipa": "/ˈaɪlət/",
       "respell": "EYE-lit",
-      "meaning": "A small reinforced hole in cloth for a lace or cord to pass through. ---",
+      "meaning": "Eyelet has 2 distinct senses.",
       "examples": [
         "Thread the cord through the eyelets.",
         "One eyelet on the boot tore out.",
-        "The blouse is white cotton eyelet."
+        "The blouse is white cotton eyelet.",
+        "The blouse is made of white eyelet with a scalloped hem.",
+        "The curtains are trimmed with eyelet.",
+        "Eyelet is cool to wear in August."
       ],
-      "senses": [],
-      "русский": "люверс; ажурная вышивка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small reinforced hole in cloth for a lace or cord to pass through",
+          "body": [
+            "(люверс; ажурная вышивка)"
+          ],
+          "examples": [
+            "Thread the cord through the eyelets.",
+            "One eyelet on the boot tore out.",
+            "The blouse is white cotton eyelet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A light cotton fabric with small holes stitched into a pattern",
+          "body": [
+            "(ткань с ажурной вышивкой (бродери англез))",
+            "---"
+          ],
+          "examples": [
+            "The blouse is made of white eyelet with a scalloped hem.",
+            "The curtains are trimmed with eyelet.",
+            "Eyelet is cool to wear in August."
+          ]
+        }
+      ],
+      "русский": "люверс; ажурная вышивка; ткань с ажурной вышивкой (бродери англез)",
       "plural": "eyelets",
       "countability": "countable"
     },
@@ -1269,14 +1618,43 @@
       "term": "basting",
       "ipa": "/ˈbeɪstɪŋ/",
       "respell": "BAY-sting",
-      "meaning": "Long loose stitches that hold cloth in place until it is sewn properly. ---",
+      "meaning": "Basting has 2 distinct senses.",
       "examples": [
         "Pull the basting out once the seam is done.",
         "A little basting saves a lot of ripping later.",
-        "The basting is in white thread so it shows."
+        "The basting is in white thread so it shows.",
+        "Frequent basting keeps the turkey from drying out.",
+        "The basting liquid was butter, wine, and herbs.",
+        "Give it one more basting before it comes out."
       ],
-      "senses": [],
-      "русский": "намётка (временные стежки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Long loose stitches that hold cloth in place until it is sewn properly",
+          "body": [
+            "(намётка (временные стежки))"
+          ],
+          "examples": [
+            "Pull the basting out once the seam is done.",
+            "A little basting saves a lot of ripping later.",
+            "The basting is in white thread so it shows."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spooning of juices or fat over meat while it roasts",
+          "body": [
+            "(поливание жиром/соком при запекании)",
+            "---"
+          ],
+          "examples": [
+            "Frequent basting keeps the turkey from drying out.",
+            "The basting liquid was butter, wine, and herbs.",
+            "Give it one more basting before it comes out."
+          ]
+        }
+      ],
+      "русский": "намётка (временные стежки); поливание жиром/соком при запекании",
       "countability": "uncountable"
     },
     {
@@ -1328,14 +1706,43 @@
       "term": "remnant",
       "ipa": "/ˈrɛmnənt/",
       "respell": "REM-nunt",
-      "meaning": "The last short piece left on a bolt of cloth, usually sold cheap. ---",
+      "meaning": "Remnant has 2 distinct senses.",
       "examples": [
         "She found a silk remnant for four dollars.",
         "The remnants are in a bin by the register.",
-        "There's just enough in this remnant for a pillow."
+        "There's just enough in this remnant for a pillow.",
+        "Remnants of an old stone wall run through the woods.",
+        "The remnants of the hurricane brought rain all week.",
+        "A remnant of the old forest still stands on the ridge."
       ],
-      "senses": [],
-      "русский": "отрез, остаток ткани",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The last short piece left on a bolt of cloth, usually sold cheap",
+          "body": [
+            "(отрез, остаток ткани)"
+          ],
+          "examples": [
+            "She found a silk remnant for four dollars.",
+            "The remnants are in a bin by the register.",
+            "There's just enough in this remnant for a pillow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small part of something that is left after the rest is gone",
+          "body": [
+            "(остаток, пережиток)",
+            "---"
+          ],
+          "examples": [
+            "Remnants of an old stone wall run through the woods.",
+            "The remnants of the hurricane brought rain all week.",
+            "A remnant of the old forest still stands on the ridge."
+          ]
+        }
+      ],
+      "русский": "отрез, остаток ткани; остаток, пережиток",
       "plural": "remnants",
       "countability": "countable"
     },
@@ -1418,14 +1825,43 @@
       "term": "cobbler",
       "ipa": "/ˈkɑːblər/",
       "respell": "KAHB-lur",
-      "meaning": "Someone who repairs shoes. ---",
+      "meaning": "Cobbler has 2 distinct senses.",
       "examples": [
         "The cobbler put new heels on my boots.",
         "There's a cobbler next to the dry cleaner.",
-        "Cobblers can fix almost anything but a broken sole."
+        "Cobblers can fix almost anything but a broken sole.",
+        "She brought a peach cobbler to the picnic.",
+        "Serve the cobbler warm with vanilla ice cream.",
+        "There were three blackberry cobblers on the table."
       ],
-      "senses": [],
-      "русский": "сапожник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who repairs shoes",
+          "body": [
+            "(сапожник)"
+          ],
+          "examples": [
+            "The cobbler put new heels on my boots.",
+            "There's a cobbler next to the dry cleaner.",
+            "Cobblers can fix almost anything but a broken sole."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A baked fruit dessert with a thick crust of dough on top",
+          "body": [
+            "(коблер (фруктовый десерт под тестяной корочкой))",
+            "---"
+          ],
+          "examples": [
+            "She brought a peach cobbler to the picnic.",
+            "Serve the cobbler warm with vanilla ice cream.",
+            "There were three blackberry cobblers on the table."
+          ]
+        }
+      ],
+      "русский": "сапожник; коблер (фруктовый десерт под тестяной корочкой)",
       "plural": "cobblers",
       "countability": "countable",
       "contrast": "In American English a cobbler is also a baked fruit dessert — peach cobbler."
@@ -1510,14 +1946,43 @@
       "term": "tanning",
       "ipa": "/ˈtænɪŋ/",
       "respell": "TAN-ing",
-      "meaning": "The process of treating animal hides to turn them into leather. ---",
+      "meaning": "Tanning has 2 distinct senses.",
       "examples": [
         "Tanning used to be done with tree bark.",
         "The tanning gives the hide its color and smell.",
-        "Vegetable tanning takes months."
+        "Vegetable tanning takes months.",
+        "She goes to a tanning salon before every vacation.",
+        "Doctors warn that tanning raises your risk of skin cancer.",
+        "He gave up tanning after a scare at the dermatologist."
       ],
-      "senses": [],
-      "русский": "дубление (кожи)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of treating animal hides to turn them into leather",
+          "body": [
+            "(дубление (кожи))"
+          ],
+          "examples": [
+            "Tanning used to be done with tree bark.",
+            "The tanning gives the hide its color and smell.",
+            "Vegetable tanning takes months."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The practice of darkening your skin in the sun or under a lamp",
+          "body": [
+            "(загорание, получение загара)",
+            "---"
+          ],
+          "examples": [
+            "She goes to a tanning salon before every vacation.",
+            "Doctors warn that tanning raises your risk of skin cancer.",
+            "He gave up tanning after a scare at the dermatologist."
+          ]
+        }
+      ],
+      "русский": "дубление (кожи); загорание, получение загара",
       "countability": "uncountable"
     },
     {
@@ -1598,14 +2063,43 @@
       "term": "fitting",
       "ipa": "/ˈfɪtɪŋ/",
       "respell": "FIT-ing",
-      "meaning": "An appointment at which clothes are tried on and adjusted. ---",
+      "meaning": "Fitting has 2 distinct senses.",
       "examples": [
         "She has a fitting on Thursday.",
         "It took three fittings to get the jacket right.",
-        "Bring the shoes you'll wear to the fitting."
+        "Bring the shoes you'll wear to the fitting.",
+        "The leak was at the fitting under the sink.",
+        "He picked up a brass fitting at the hardware store.",
+        "All the fittings have to match the size of the pipe."
       ],
-      "senses": [],
-      "русский": "примерка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An appointment at which clothes are tried on and adjusted",
+          "body": [
+            "(примерка)"
+          ],
+          "examples": [
+            "She has a fitting on Thursday.",
+            "It took three fittings to get the jacket right.",
+            "Bring the shoes you'll wear to the fitting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small part used to join pipes or attach one thing to another",
+          "body": [
+            "(фитинг, соединительная деталь)",
+            "---"
+          ],
+          "examples": [
+            "The leak was at the fitting under the sink.",
+            "He picked up a brass fitting at the hardware store.",
+            "All the fittings have to match the size of the pipe."
+          ]
+        }
+      ],
+      "русский": "примерка; фитинг, соединительная деталь",
       "plural": "fittings",
       "countability": "countable"
     },
@@ -1703,14 +2197,43 @@
       "term": "fashion",
       "ipa": "/ˈfæʃən/",
       "respell": "FASH-un",
-      "meaning": "The popular style of clothing at a given time, or a particular such style. ---",
+      "meaning": "Fashion has 2 distinct senses.",
       "examples": [
         "She's worked in fashion her whole life.",
         "Short jackets are back in fashion.",
-        "Fashions change faster than they used to."
+        "Fashions change faster than they used to.",
+        "The paperwork was filed in a timely fashion.",
+        "He answered every question in the same calm fashion.",
+        "The pieces came together in an odd fashion."
       ],
-      "senses": [],
-      "русский": "мода; модное направление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The popular style of clothing at a given time, or a particular such style",
+          "body": [
+            "(мода; модное направление)"
+          ],
+          "examples": [
+            "She's worked in fashion her whole life.",
+            "Short jackets are back in fashion.",
+            "Fashions change faster than they used to."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A manner or way of doing something",
+          "body": [
+            "(манера, способ, образ действия)",
+            "---"
+          ],
+          "examples": [
+            "The paperwork was filed in a timely fashion.",
+            "He answered every question in the same calm fashion.",
+            "The pieces came together in an odd fashion."
+          ]
+        }
+      ],
+      "русский": "мода; модное направление; манера, способ, образ действия",
       "plural": "fashions",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "The general sense is uncountable — in fashion; a specific trend is countable — the fashions of the fifties."
@@ -1719,14 +2242,58 @@
       "term": "style",
       "ipa": "/staɪl/",
       "respell": "STYL",
-      "meaning": "A particular design or cut of a garment. ---",
+      "meaning": "Style has 3 distinct senses.",
       "examples": [
         "That style of collar suits him.",
         "The jeans come in four styles.",
-        "It's an old style, but it's coming back."
+        "It's an old style, but it's coming back.",
+        "Her management style is very direct.",
+        "He writes in a plain, clear style.",
+        "Showing up unannounced is not my style.",
+        "She dresses with real style.",
+        "The old hotel still has style.",
+        "He handled the loss with style."
       ],
-      "senses": [],
-      "русский": "фасон, модель; стиль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular design or cut of a garment",
+          "body": [
+            "(фасон, модель; стиль)"
+          ],
+          "examples": [
+            "That style of collar suits him.",
+            "The jeans come in four styles.",
+            "It's an old style, but it's coming back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular way of doing something",
+          "body": [
+            "(манера, стиль (работы, поведения))"
+          ],
+          "examples": [
+            "Her management style is very direct.",
+            "He writes in a plain, clear style.",
+            "Showing up unannounced is not my style."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Elegance and confidence in the way someone looks or behaves",
+          "body": [
+            "(вкус, шик, стильность)",
+            "---"
+          ],
+          "examples": [
+            "She dresses with real style.",
+            "The old hotel still has style.",
+            "He handled the loss with style."
+          ]
+        }
+      ],
+      "русский": "фасон, модель; стиль; манера, стиль (работы, поведения); вкус, шик, стильность",
       "plural": "styles",
       "countability": "countable"
     },
@@ -1734,14 +2301,43 @@
       "term": "trend",
       "ipa": "/trɛnd/",
       "respell": "TREND",
-      "meaning": "A direction that fashion is moving in. ---",
+      "meaning": "Trend has 2 distinct senses.",
       "examples": [
         "Wide legs are the big trend this year.",
         "She follows every trend.",
-        "Most trends last about two seasons."
+        "Most trends last about two seasons.",
+        "There's an upward trend in gas prices.",
+        "The trend toward working from home has continued.",
+        "Test scores show a worrying trend."
       ],
-      "senses": [],
-      "русский": "тенденция, тренд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A direction that fashion is moving in",
+          "body": [
+            "(тенденция, тренд)"
+          ],
+          "examples": [
+            "Wide legs are the big trend this year.",
+            "She follows every trend.",
+            "Most trends last about two seasons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A general change or direction of development over a period of time",
+          "body": [
+            "(тенденция (изменение со временем))",
+            "---"
+          ],
+          "examples": [
+            "There's an upward trend in gas prices.",
+            "The trend toward working from home has continued.",
+            "Test scores show a worrying trend."
+          ]
+        }
+      ],
+      "русский": "тенденция, тренд; тенденция (изменение со временем)",
       "plural": "trends",
       "countability": "countable"
     },
@@ -1795,14 +2391,88 @@
       "term": "cut",
       "ipa": "/kʌt/",
       "respell": "KUT",
-      "meaning": "The way a garment has been shaped and made. ---",
+      "meaning": "Cut has 5 distinct senses.",
       "examples": [
         "You can tell the quality by the cut.",
         "It's a slim cut through the waist.",
-        "The two jackets are different cuts of the same cloth."
+        "The two jackets are different cuts of the same cloth.",
+        "She got a cut on her thumb slicing onions.",
+        "The cuts on his knee needed cleaning.",
+        "It's a shallow cut, but it bled a lot.",
+        "The company announced a ten percent pay cut.",
+        "Budget cuts closed two branch libraries.",
+        "Voters were promised a tax cut.",
+        "The agent takes a fifteen percent cut.",
+        "Everybody at the table wanted a bigger cut.",
+        "He did the work and never got his cut.",
+        "Brisket is a tough cut that needs slow cooking.",
+        "The butcher recommended a cheaper cut.",
+        "Some cuts are better for grilling than others."
       ],
-      "senses": [],
-      "русский": "крой, покрой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way a garment has been shaped and made",
+          "body": [
+            "(крой, покрой)"
+          ],
+          "examples": [
+            "You can tell the quality by the cut.",
+            "It's a slim cut through the waist.",
+            "The two jackets are different cuts of the same cloth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wound made by something sharp",
+          "body": [
+            "(порез, ранка)"
+          ],
+          "examples": [
+            "She got a cut on her thumb slicing onions.",
+            "The cuts on his knee needed cleaning.",
+            "It's a shallow cut, but it bled a lot."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A reduction in an amount, especially of money or jobs",
+          "body": [
+            "(сокращение, снижение)"
+          ],
+          "examples": [
+            "The company announced a ten percent pay cut.",
+            "Budget cuts closed two branch libraries.",
+            "Voters were promised a tax cut."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Someone's share of the money from a deal",
+          "body": [
+            "(доля (в деньгах))"
+          ],
+          "examples": [
+            "The agent takes a fifteen percent cut.",
+            "Everybody at the table wanted a bigger cut.",
+            "He did the work and never got his cut."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "A piece of meat taken from a particular part of the animal",
+          "body": [
+            "(отруб, кусок мяса)",
+            "---"
+          ],
+          "examples": [
+            "Brisket is a tough cut that needs slow cooking.",
+            "The butcher recommended a cheaper cut.",
+            "Some cuts are better for grilling than others."
+          ]
+        }
+      ],
+      "русский": "крой, покрой; порез, ранка; сокращение, снижение; доля (в деньгах); отруб, кусок мяса",
       "plural": "cuts",
       "countability": "countable"
     },
@@ -1810,14 +2480,43 @@
       "term": "fit",
       "ipa": "/fɪt/",
       "respell": "FIT",
-      "meaning": "How well a garment sits on the body. ---",
+      "meaning": "Fit has 2 distinct senses.",
       "examples": [
         "The color is fine, but the fit is all wrong.",
         "These come in a relaxed fit too.",
-        "The store carries three different fits."
+        "The store carries three different fits.",
+        "She had a coughing fit in the middle of the meeting.",
+        "He threw a fit when he saw the bill.",
+        "The kids collapsed in fits of laughter."
       ],
-      "senses": [],
-      "русский": "посадка (по фигуре)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How well a garment sits on the body",
+          "body": [
+            "(посадка (по фигуре))"
+          ],
+          "examples": [
+            "The color is fine, but the fit is all wrong.",
+            "These come in a relaxed fit too.",
+            "The store carries three different fits."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden short attack of illness, or a burst of strong feeling",
+          "body": [
+            "(приступ (кашля, гнева, смеха))",
+            "---"
+          ],
+          "examples": [
+            "She had a coughing fit in the middle of the meeting.",
+            "He threw a fit when he saw the bill.",
+            "The kids collapsed in fits of laughter."
+          ]
+        }
+      ],
+      "русский": "посадка (по фигуре); приступ (кашля, гнева, смеха)",
       "plural": "fits",
       "countability": "countable"
     },
@@ -1899,14 +2598,43 @@
       "term": "snag",
       "ipa": "/snæɡ/",
       "respell": "SNAG",
-      "meaning": "A pulled thread that sticks out of a knitted or woven fabric. ---",
+      "meaning": "Snag has 2 distinct senses.",
       "examples": [
         "There's a snag in my stocking.",
         "Her ring left a snag in the sweater.",
-        "A few snags and the whole thing looks old."
+        "A few snags and the whole thing looks old.",
+        "We hit a snag with the permits.",
+        "The move went off without a snag.",
+        "A few small snags pushed the opening back a week."
       ],
-      "senses": [],
-      "русский": "затяжка (на ткани)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pulled thread that sticks out of a knitted or woven fabric",
+          "body": [
+            "(затяжка (на ткани))"
+          ],
+          "examples": [
+            "There's a snag in my stocking.",
+            "Her ring left a snag in the sweater.",
+            "A few snags and the whole thing looks old."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unexpected problem that holds something up",
+          "body": [
+            "(загвоздка, помеха)",
+            "---"
+          ],
+          "examples": [
+            "We hit a snag with the permits.",
+            "The move went off without a snag.",
+            "A few small snags pushed the opening back a week."
+          ]
+        }
+      ],
+      "русский": "затяжка (на ткани); загвоздка, помеха",
       "plural": "snags",
       "countability": "countable"
     },
@@ -1929,14 +2657,43 @@
       "term": "starch",
       "ipa": "/stɑːrtʃ/",
       "respell": "STARCH",
-      "meaning": "A substance sprayed or soaked into cloth to make it stiff. ---",
+      "meaning": "Starch has 2 distinct senses.",
       "examples": [
         "He likes his collars with plenty of starch.",
         "Spray a little starch before you press it.",
-        "The shirt was so full of starch it could stand up by itself."
+        "The shirt was so full of starch it could stand up by itself.",
+        "Potatoes are high in starch.",
+        "Cut back on starches if you want to lose weight.",
+        "Rinse the rice to wash off the extra starch."
       ],
-      "senses": [],
-      "русский": "крахмал (для белья)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A substance sprayed or soaked into cloth to make it stiff",
+          "body": [
+            "(крахмал (для белья))"
+          ],
+          "examples": [
+            "He likes his collars with plenty of starch.",
+            "Spray a little starch before you press it.",
+            "The shirt was so full of starch it could stand up by itself."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The carbohydrate found in foods like potatoes, rice, and bread",
+          "body": [
+            "(крахмал (углевод))",
+            "---"
+          ],
+          "examples": [
+            "Potatoes are high in starch.",
+            "Cut back on starches if you want to lose weight.",
+            "Rinse the rice to wash off the extra starch."
+          ]
+        }
+      ],
+      "русский": "крахмал (для белья); крахмал (углевод)",
       "countability": "uncountable"
     },
     {
@@ -1975,14 +2732,42 @@
       "term": "ironing",
       "ipa": "/ˈaɪərnɪŋ/",
       "respell": "EYE-ur-ning",
-      "meaning": "The work of pressing wrinkles out of clothes with a hot iron.",
+      "meaning": "Ironing has 2 distinct senses.",
       "examples": [
         "I have a whole basket of ironing to do.",
         "He does the ironing on Sunday nights.",
-        "Ironing is the one chore she refuses."
+        "Ironing is the one chore she refuses.",
+        "There's a whole basket of ironing in the laundry room.",
+        "She put the ironing away before dinner.",
+        "A pile of ironing sat on the end of the bed."
       ],
-      "senses": [],
-      "русский": "глажка, глаженье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of pressing wrinkles out of clothes with a hot iron",
+          "body": [
+            "(глажка, глаженье)"
+          ],
+          "examples": [
+            "I have a whole basket of ironing to do.",
+            "He does the ironing on Sunday nights.",
+            "Ironing is the one chore she refuses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Clothes that are waiting to be ironed or have just been ironed",
+          "body": [
+            "(бельё для глажки, выглаженное бельё)"
+          ],
+          "examples": [
+            "There's a whole basket of ironing in the laundry room.",
+            "She put the ironing away before dinner.",
+            "A pile of ironing sat on the end of the bed."
+          ]
+        }
+      ],
+      "русский": "глажка, глаженье; бельё для глажки, выглаженное бельё",
       "countability": "uncountable",
       "contrast": "Iron is said EYE-urn, not eye-RON, so this is EYE-ur-ning."
     }

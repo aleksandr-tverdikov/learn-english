@@ -6,14 +6,73 @@
       "term": "body",
       "ipa": "/ˈbɑːdi/",
       "respell": "BAH-dee",
-      "meaning": "The whole physical structure of a person or animal. ---",
+      "meaning": "Body has 4 distinct senses.",
       "examples": [
         "Yoga taught me how my body actually works.",
         "Cold water is a shock to the body.",
-        "Their bodies were still sore from Saturday's game."
+        "Their bodies were still sore from Saturday's game.",
+        "Hikers found a body at the bottom of the ravine.",
+        "The body was identified from dental records.",
+        "Two bodies were recovered from the wreck.",
+        "The governing body meets twice a year.",
+        "The student body voted on the new rules.",
+        "An independent body will review the complaints.",
+        "The lake is the largest body of water in the state.",
+        "There's a growing body of evidence on the subject.",
+        "Her body of work spans forty years."
       ],
-      "senses": [],
-      "русский": "тело",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The whole physical structure of a person or animal",
+          "body": [
+            "(тело)"
+          ],
+          "examples": [
+            "Yoga taught me how my body actually works.",
+            "Cold water is a shock to the body.",
+            "Their bodies were still sore from Saturday's game."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dead person",
+          "body": [
+            "(тело, труп)"
+          ],
+          "examples": [
+            "Hikers found a body at the bottom of the ravine.",
+            "The body was identified from dental records.",
+            "Two bodies were recovered from the wreck."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An organized group of people acting together officially",
+          "body": [
+            "(орган, организация (коллективный))"
+          ],
+          "examples": [
+            "The governing body meets twice a year.",
+            "The student body voted on the new rules.",
+            "An independent body will review the complaints."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A large mass or collection of something",
+          "body": [
+            "(масса, совокупность (воды, данных, работ))",
+            "---"
+          ],
+          "examples": [
+            "The lake is the largest body of water in the state.",
+            "There's a growing body of evidence on the subject.",
+            "Her body of work spans forty years."
+          ]
+        }
+      ],
+      "русский": "тело; тело, труп; орган, организация (коллективный); масса, совокупность (воды, данных, работ)",
       "plural": "bodies",
       "countability": "countable"
     },
@@ -21,14 +80,73 @@
       "term": "arm",
       "ipa": "/ɑːrm/",
       "respell": "AHRM",
-      "meaning": "The limb that runs from the shoulder down to the hand. ---",
+      "meaning": "Arm has 4 distinct senses.",
       "examples": [
         "He broke his arm falling off a ladder.",
         "She carried the groceries in both arms.",
-        "Put your arm around her for the photo."
+        "Put your arm around her for the photo.",
+        "The Constitution mentions the right to bear arms.",
+        "Both countries agreed to limit nuclear arms.",
+        "The rebels laid down their arms at dawn.",
+        "Research is the fastest-growing arm of the company.",
+        "The charity's legal arm handles evictions.",
+        "Congress created the agency as an investigative arm.",
+        "He gripped the arms of the chair and stood up.",
+        "The cat sleeps on the arm of the couch.",
+        "One arm of the recliner is coming loose."
       ],
-      "senses": [],
-      "русский": "рука (от плеча до кисти)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The limb that runs from the shoulder down to the hand",
+          "body": [
+            "(рука (от плеча до кисти))"
+          ],
+          "examples": [
+            "He broke his arm falling off a ladder.",
+            "She carried the groceries in both arms.",
+            "Put your arm around her for the photo."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Weapons, especially guns, spoken of as a group",
+          "body": [
+            "(оружие, вооружение)"
+          ],
+          "examples": [
+            "The Constitution mentions the right to bear arms.",
+            "Both countries agreed to limit nuclear arms.",
+            "The rebels laid down their arms at dawn."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A branch or division of a larger organization",
+          "body": [
+            "(подразделение, отделение (организации))"
+          ],
+          "examples": [
+            "Research is the fastest-growing arm of the company.",
+            "The charity's legal arm handles evictions.",
+            "Congress created the agency as an investigative arm."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The side part of a chair or sofa that supports your arm",
+          "body": [
+            "(подлокотник)",
+            "---"
+          ],
+          "examples": [
+            "He gripped the arms of the chair and stood up.",
+            "The cat sleeps on the arm of the couch.",
+            "One arm of the recliner is coming loose."
+          ]
+        }
+      ],
+      "русский": "рука (от плеча до кисти); оружие, вооружение; подразделение, отделение (организации); подлокотник",
       "plural": "arms",
       "countability": "countable",
       "contrast": "Russian рука covers the whole limb; English splits it — the arm ends at the wrist, and the hand takes over from there."
@@ -37,14 +155,58 @@
       "term": "leg",
       "ipa": "/lɛɡ/",
       "respell": "LEG",
-      "meaning": "One of the two limbs a person stands and walks on. ---",
+      "meaning": "Leg has 3 distinct senses.",
       "examples": [
         "My legs were killing me after the hike.",
         "He crossed his legs and leaned back.",
-        "She hurt her left leg playing soccer."
+        "She hurt her left leg playing soccer.",
+        "One leg of the table is shorter than the others.",
+        "He screwed the legs onto the desk.",
+        "The chair wobbles because a leg is loose.",
+        "The last leg of the trip took six hours.",
+        "She flew the first leg by herself.",
+        "They won both legs of the series."
       ],
-      "senses": [],
-      "русский": "нога",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the two limbs a person stands and walks on",
+          "body": [
+            "(нога)"
+          ],
+          "examples": [
+            "My legs were killing me after the hike.",
+            "He crossed his legs and leaned back.",
+            "She hurt her left leg playing soccer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the upright supports that hold up a table, chair, or bed",
+          "body": [
+            "(ножка (стола, стула))"
+          ],
+          "examples": [
+            "One leg of the table is shorter than the others.",
+            "He screwed the legs onto the desk.",
+            "The chair wobbles because a leg is loose."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One stage of a journey, race, or competition",
+          "body": [
+            "(этап (пути, гонки))",
+            "---"
+          ],
+          "examples": [
+            "The last leg of the trip took six hours.",
+            "She flew the first leg by herself.",
+            "They won both legs of the series."
+          ]
+        }
+      ],
+      "русский": "нога; ножка (стола, стула); этап (пути, гонки)",
       "plural": "legs",
       "countability": "countable",
       "contrast": "Russian нога covers the whole limb; the English leg stops at the ankle, and below that it is the foot."
@@ -53,14 +215,88 @@
       "term": "hand",
       "ipa": "/hænd/",
       "respell": "HAND",
-      "meaning": "The part of the body below the wrist, with fingers and a thumb. ---",
+      "meaning": "Hand has 5 distinct senses.",
       "examples": [
         "Wash your hands before dinner.",
         "He shook my hand and introduced himself.",
-        "Her hands were freezing without gloves."
+        "Her hands were freezing without gloves.",
+        "The minute hand is stuck.",
+        "Both hands pointed straight up at noon.",
+        "The second hand swept past the twelve.",
+        "He was dealt a terrible hand.",
+        "Let's play one more hand before dinner.",
+        "She won three hands in a row.",
+        "They hired two extra hands for the harvest.",
+        "He worked as a ranch hand one summer.",
+        "All hands were called up on deck.",
+        "Can you give me a hand with this couch?",
+        "She could use a hand in the kitchen.",
+        "Thanks for lending a hand."
       ],
-      "senses": [],
-      "русский": "рука, кисть руки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of the body below the wrist, with fingers and a thumb",
+          "body": [
+            "(рука, кисть руки)"
+          ],
+          "examples": [
+            "Wash your hands before dinner.",
+            "He shook my hand and introduced himself.",
+            "Her hands were freezing without gloves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pointer that moves around the face of a clock or a dial",
+          "body": [
+            "(стрелка (часов))"
+          ],
+          "examples": [
+            "The minute hand is stuck.",
+            "Both hands pointed straight up at noon.",
+            "The second hand swept past the twelve."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The cards dealt to one player, or one round of a card game",
+          "body": [
+            "(карты на руках; партия (в картах))"
+          ],
+          "examples": [
+            "He was dealt a terrible hand.",
+            "Let's play one more hand before dinner.",
+            "She won three hands in a row."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A worker who does physical labor on a farm, a ranch, or a ship",
+          "body": [
+            "(работник, подсобный рабочий; матрос)"
+          ],
+          "examples": [
+            "They hired two extra hands for the harvest.",
+            "He worked as a ranch hand one summer.",
+            "All hands were called up on deck."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Help with a task",
+          "body": [
+            "(помощь)",
+            "---"
+          ],
+          "examples": [
+            "Can you give me a hand with this couch?",
+            "She could use a hand in the kitchen.",
+            "Thanks for lending a hand."
+          ]
+        }
+      ],
+      "русский": "рука, кисть руки; стрелка (часов); карты на руках; партия (в картах); работник, подсобный рабочий; матрос; помощь",
       "plural": "hands",
       "countability": "countable",
       "contrast": "Never use hand for the whole рука — you hold a bag in your hand but carry a child in your arms."
@@ -101,14 +337,43 @@
       "term": "toe",
       "ipa": "/toʊ/",
       "respell": "TOH",
-      "meaning": "One of the five digits at the end of the foot. ---",
+      "meaning": "Toe has 2 distinct senses.",
       "examples": [
         "I stubbed my toe on the coffee table.",
         "Sand got in between my toes.",
-        "He can touch his toes without bending his knees."
+        "He can touch his toes without bending his knees.",
+        "There's a hole in the toe of my sock.",
+        "These work boots have a steel toe.",
+        "The toe of his sneaker was scuffed."
       ],
-      "senses": [],
-      "русский": "палец (на ноге)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the five digits at the end of the foot",
+          "body": [
+            "(палец (на ноге))"
+          ],
+          "examples": [
+            "I stubbed my toe on the coffee table.",
+            "Sand got in between my toes.",
+            "He can touch his toes without bending his knees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a shoe or sock that covers the toes",
+          "body": [
+            "(носок, передняя часть обуви)",
+            "---"
+          ],
+          "examples": [
+            "There's a hole in the toe of my sock.",
+            "These work boots have a steel toe.",
+            "The toe of his sneaker was scuffed."
+          ]
+        }
+      ],
+      "русский": "палец (на ноге); носок, передняя часть обуви",
       "plural": "toes",
       "countability": "countable"
     },
@@ -132,14 +397,43 @@
       "term": "elbow",
       "ipa": "/ˈɛlboʊ/",
       "respell": "EL-boh",
-      "meaning": "The joint in the middle of the arm where it bends. ---",
+      "meaning": "Elbow has 2 distinct senses.",
       "examples": [
         "He rested his elbows on the table.",
         "I banged my elbow on the door frame.",
-        "She nudged me with her elbow."
+        "She nudged me with her elbow.",
+        "You'll need a ninety-degree elbow under the sink.",
+        "The plumber soldered a copper elbow onto the line.",
+        "Two elbows carry the vent around the beam."
       ],
-      "senses": [],
-      "русский": "локоть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The joint in the middle of the arm where it bends",
+          "body": [
+            "(локоть)"
+          ],
+          "examples": [
+            "He rested his elbows on the table.",
+            "I banged my elbow on the door frame.",
+            "She nudged me with her elbow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pipe fitting bent at an angle to turn a line in a new direction",
+          "body": [
+            "(колено, отвод (трубы))",
+            "---"
+          ],
+          "examples": [
+            "You'll need a ninety-degree elbow under the sink.",
+            "The plumber soldered a copper elbow onto the line.",
+            "Two elbows carry the vent around the beam."
+          ]
+        }
+      ],
+      "русский": "локоть; колено, отвод (трубы)",
       "plural": "elbows",
       "countability": "countable"
     },
@@ -268,14 +562,43 @@
       "term": "back",
       "ipa": "/bæk/",
       "respell": "BAK",
-      "meaning": "The rear surface of the body from the shoulders to the hips. ---",
+      "meaning": "Back has 2 distinct senses.",
       "examples": [
         "My back has been sore all week.",
         "He lay on his back and stared at the ceiling.",
-        "Lift with your legs, not your back."
+        "Lift with your legs, not your back.",
+        "The recipe is printed on the back of the box.",
+        "We sat in the back of the classroom.",
+        "There's a small yard at the back of the house."
       ],
-      "senses": [],
-      "русский": "спина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The rear surface of the body from the shoulders to the hips",
+          "body": [
+            "(спина)"
+          ],
+          "examples": [
+            "My back has been sore all week.",
+            "He lay on his back and stared at the ceiling.",
+            "Lift with your legs, not your back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of something that is farthest from the front",
+          "body": [
+            "(задняя часть, тыльная сторона)",
+            "---"
+          ],
+          "examples": [
+            "The recipe is printed on the back of the box.",
+            "We sat in the back of the classroom.",
+            "There's a small yard at the back of the house."
+          ]
+        }
+      ],
+      "русский": "спина; задняя часть, тыльная сторона",
       "plural": "backs",
       "countability": "countable"
     },
@@ -314,14 +637,58 @@
       "term": "neck",
       "ipa": "/nɛk/",
       "respell": "NEK",
-      "meaning": "The part of the body joining the head to the shoulders. ---",
+      "meaning": "Neck has 3 distinct senses.",
       "examples": [
         "I slept wrong and my neck is stiff.",
         "She wore a thin gold chain around her neck.",
-        "The giraffe stretched its neck toward the leaves."
+        "The giraffe stretched its neck toward the leaves.",
+        "He held the bottle by the neck.",
+        "The cork broke off inside the neck.",
+        "Foil covers the neck of the wine bottle.",
+        "Her hand slid up the neck of the guitar.",
+        "The neck on this bass is too wide for me.",
+        "A crack in the neck ruined the violin."
       ],
-      "senses": [],
-      "русский": "шея",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of the body joining the head to the shoulders",
+          "body": [
+            "(шея)"
+          ],
+          "examples": [
+            "I slept wrong and my neck is stiff.",
+            "She wore a thin gold chain around her neck.",
+            "The giraffe stretched its neck toward the leaves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The narrow part at the top of a bottle or vase",
+          "body": [
+            "(горлышко (бутылки))"
+          ],
+          "examples": [
+            "He held the bottle by the neck.",
+            "The cork broke off inside the neck.",
+            "Foil covers the neck of the wine bottle."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The long thin part of a guitar or violin that carries the strings",
+          "body": [
+            "(гриф (гитары, скрипки))",
+            "---"
+          ],
+          "examples": [
+            "Her hand slid up the neck of the guitar.",
+            "The neck on this bass is too wide for me.",
+            "A crack in the neck ruined the violin."
+          ]
+        }
+      ],
+      "русский": "шея; горлышко (бутылки); гриф (гитары, скрипки)",
       "plural": "necks",
       "countability": "countable"
     },
@@ -344,14 +711,73 @@
       "term": "face",
       "ipa": "/feɪs/",
       "respell": "FAYSS",
-      "meaning": "The front of the head, from the forehead to the chin. ---",
+      "meaning": "Face has 4 distinct senses.",
       "examples": [
         "He splashed cold water on his face.",
         "I never forget a face.",
-        "Their faces lit up when they saw the cake."
+        "Their faces lit up when they saw the cake.",
+        "The clock face is cracked but it still runs.",
+        "Climbers spent two days on the north face.",
+        "Water runs down the face of the dam.",
+        "The kid made a face at the broccoli.",
+        "She pulled a face when she heard the price.",
+        "Quit making faces at your sister.",
+        "He took the deal to save face.",
+        "Nobody wants to lose face in front of the whole team.",
+        "The apology let both sides keep face."
       ],
-      "senses": [],
-      "русский": "лицо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The front of the head, from the forehead to the chin",
+          "body": [
+            "(лицо)"
+          ],
+          "examples": [
+            "He splashed cold water on his face.",
+            "I never forget a face.",
+            "Their faces lit up when they saw the cake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The front or outer surface of an object",
+          "body": [
+            "(лицевая сторона, поверхность (циферблат, склон))"
+          ],
+          "examples": [
+            "The clock face is cracked but it still runs.",
+            "Climbers spent two days on the north face.",
+            "Water runs down the face of the dam."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An expression made by moving the mouth and eyes",
+          "body": [
+            "(гримаса, рожица)"
+          ],
+          "examples": [
+            "The kid made a face at the broccoli.",
+            "She pulled a face when she heard the price.",
+            "Quit making faces at your sister."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Respect or dignity in the eyes of other people",
+          "body": [
+            "(репутация, «лицо» (сохранить, потерять лицо))",
+            "---"
+          ],
+          "examples": [
+            "He took the deal to save face.",
+            "Nobody wants to lose face in front of the whole team.",
+            "The apology let both sides keep face."
+          ]
+        }
+      ],
+      "русский": "лицо; лицевая сторона, поверхность (циферблат, склон); гримаса, рожица; репутация, «лицо» (сохранить, потерять лицо)",
       "plural": "faces",
       "countability": "countable"
     },
@@ -359,14 +785,73 @@
       "term": "eye",
       "ipa": "/aɪ/",
       "respell": "EYE",
-      "meaning": "The organ you see with. ---",
+      "meaning": "Eye has 4 distinct senses.",
       "examples": [
         "She has her mother's eyes.",
         "Something got in my eye.",
-        "Keep an eye on the kids by the pool."
+        "Keep an eye on the kids by the pool.",
+        "I can't get the thread through the eye.",
+        "Hold the needle up so the eye catches the light.",
+        "The eyes on these needles are too small for yarn.",
+        "The eye passed directly over the island.",
+        "The wind died for half an hour when the eye arrived.",
+        "Satellite pictures showed a clear, round eye.",
+        "She has an eye for color.",
+        "It takes a good eye to spot a fake.",
+        "He has an eye for hiring the right people."
       ],
-      "senses": [],
-      "русский": "глаз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ you see with",
+          "body": [
+            "(глаз)"
+          ],
+          "examples": [
+            "She has her mother's eyes.",
+            "Something got in my eye.",
+            "Keep an eye on the kids by the pool."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The small hole at the end of a needle that the thread goes through",
+          "body": [
+            "(ушко (иглы))"
+          ],
+          "examples": [
+            "I can't get the thread through the eye.",
+            "Hold the needle up so the eye catches the light.",
+            "The eyes on these needles are too small for yarn."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The calm center of a hurricane",
+          "body": [
+            "(глаз бури, центр урагана)"
+          ],
+          "examples": [
+            "The eye passed directly over the island.",
+            "The wind died for half an hour when the eye arrived.",
+            "Satellite pictures showed a clear, round eye."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An ability to notice or judge things well",
+          "body": [
+            "(глаз, чутьё, вкус)",
+            "---"
+          ],
+          "examples": [
+            "She has an eye for color.",
+            "It takes a good eye to spot a fake.",
+            "He has an eye for hiring the right people."
+          ]
+        }
+      ],
+      "русский": "глаз; ушко (иглы); глаз бури, центр урагана; глаз, чутьё, вкус",
       "plural": "eyes",
       "countability": "countable",
       "contrast": "Sounds exactly like the pronoun I."
@@ -375,14 +860,58 @@
       "term": "ear",
       "ipa": "/ɪr/",
       "respell": "EER",
-      "meaning": "The organ you hear with, on either side of the head. ---",
+      "meaning": "Ear has 3 distinct senses.",
       "examples": [
         "He whispered something in her ear.",
         "My ears popped on the flight.",
-        "The dog perked up its ears."
+        "The dog perked up its ears.",
+        "We grilled six ears of corn on the coals.",
+        "Each stalk carries one or two good ears.",
+        "She pulled the husk off the ear and salted it.",
+        "She has a good ear for languages.",
+        "He never took lessons; he plays by ear.",
+        "That producer has an ear for a hit song."
       ],
-      "senses": [],
-      "русский": "ухо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ you hear with, on either side of the head",
+          "body": [
+            "(ухо)"
+          ],
+          "examples": [
+            "He whispered something in her ear.",
+            "My ears popped on the flight.",
+            "The dog perked up its ears."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a corn or grain plant that holds the kernels",
+          "body": [
+            "(початок (кукурузы), колос)"
+          ],
+          "examples": [
+            "We grilled six ears of corn on the coals.",
+            "Each stalk carries one or two good ears.",
+            "She pulled the husk off the ear and salted it."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A natural ability to hear and judge sounds",
+          "body": [
+            "(слух (музыкальный), чутьё на звук)",
+            "---"
+          ],
+          "examples": [
+            "She has a good ear for languages.",
+            "He never took lessons; he plays by ear.",
+            "That producer has an ear for a hit song."
+          ]
+        }
+      ],
+      "русский": "ухо; початок (кукурузы), колос; слух (музыкальный), чутьё на звук",
       "plural": "ears",
       "countability": "countable"
     },
@@ -390,14 +919,58 @@
       "term": "nose",
       "ipa": "/noʊz/",
       "respell": "NOHZ",
-      "meaning": "The part of the face you breathe and smell through. ---",
+      "meaning": "Nose has 3 distinct senses.",
       "examples": [
         "Her nose ran all morning.",
         "He broke his nose in a fight.",
-        "The smell went straight up my nose."
+        "The smell went straight up my nose.",
+        "The nose of the plane dipped as we came in to land.",
+        "Ice built up on the nose of the aircraft.",
+        "He backed up until the nose of the car cleared the curb.",
+        "She has a nose for a good story.",
+        "He's got a nose for trouble.",
+        "A good buyer needs a nose for value."
       ],
-      "senses": [],
-      "русский": "нос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of the face you breathe and smell through",
+          "body": [
+            "(нос)"
+          ],
+          "examples": [
+            "Her nose ran all morning.",
+            "He broke his nose in a fight.",
+            "The smell went straight up my nose."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pointed front end of a plane, a rocket, or a car",
+          "body": [
+            "(нос (самолёта, автомобиля))"
+          ],
+          "examples": [
+            "The nose of the plane dipped as we came in to land.",
+            "Ice built up on the nose of the aircraft.",
+            "He backed up until the nose of the car cleared the curb."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A natural talent for finding or recognizing something",
+          "body": [
+            "(чутьё, нюх (перен.))",
+            "---"
+          ],
+          "examples": [
+            "She has a nose for a good story.",
+            "He's got a nose for trouble.",
+            "A good buyer needs a nose for value."
+          ]
+        }
+      ],
+      "русский": "нос; нос (самолёта, автомобиля); чутьё, нюх (перен.)",
       "plural": "noses",
       "countability": "countable",
       "contrast": "Sounds exactly like knows."
@@ -406,14 +979,58 @@
       "term": "mouth",
       "ipa": "/maʊθ/",
       "respell": "MOWTH",
-      "meaning": "The opening in the face used for eating and speaking. ---",
+      "meaning": "Mouth has 3 distinct senses.",
       "examples": [
         "Don't talk with your mouth full.",
         "He opened his mouth to argue, then stopped.",
-        "Cover your mouth when you cough."
+        "Cover your mouth when you cough.",
+        "The port sits at the mouth of the Columbia River.",
+        "Salmon gather near the river's mouth every fall.",
+        "Silt builds up at the mouth each spring.",
+        "Bats poured out of the mouth of the cave.",
+        "Cover the mouth of the jar with cheesecloth.",
+        "A locked gate blocks the mouth of the tunnel."
       ],
-      "senses": [],
-      "русский": "рот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The opening in the face used for eating and speaking",
+          "body": [
+            "(рот)"
+          ],
+          "examples": [
+            "Don't talk with your mouth full.",
+            "He opened his mouth to argue, then stopped.",
+            "Cover your mouth when you cough."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place where a river flows into the sea or a lake",
+          "body": [
+            "(устье (реки))"
+          ],
+          "examples": [
+            "The port sits at the mouth of the Columbia River.",
+            "Salmon gather near the river's mouth every fall.",
+            "Silt builds up at the mouth each spring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The opening of a cave, a bottle, or another hollow thing",
+          "body": [
+            "(отверстие, горловина, вход)",
+            "---"
+          ],
+          "examples": [
+            "Bats poured out of the mouth of the cave.",
+            "Cover the mouth of the jar with cheesecloth.",
+            "A locked gate blocks the mouth of the tunnel."
+          ]
+        }
+      ],
+      "русский": "рот; устье (реки); отверстие, горловина, вход",
       "plural": "mouths",
       "countability": "countable",
       "contrast": "The singular ends in a voiceless th, but the plural mouths ends in a voiced th plus z: MOWTHZ."
@@ -422,14 +1039,58 @@
       "term": "lip",
       "ipa": "/lɪp/",
       "respell": "LIP",
-      "meaning": "Either of the two soft edges of the mouth. ---",
+      "meaning": "Lip has 3 distinct senses.",
       "examples": [
         "My lips crack every winter.",
         "She bit her lip and said nothing.",
-        "He had a cut on his upper lip."
+        "He had a cut on his upper lip.",
+        "Coffee dripped down the lip of the mug.",
+        "He stood at the lip of the canyon and looked over.",
+        "The pitcher has a shaped lip for pouring.",
+        "Don't give me any lip, young man.",
+        "The coach won't take lip from anyone on the bench.",
+        "He got detention for giving a teacher lip."
       ],
-      "senses": [],
-      "русский": "губа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two soft edges of the mouth",
+          "body": [
+            "(губа)"
+          ],
+          "examples": [
+            "My lips crack every winter.",
+            "She bit her lip and said nothing.",
+            "He had a cut on his upper lip."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The rim or edge of a container or an opening",
+          "body": [
+            "(край, кромка (сосуда, обрыва))"
+          ],
+          "examples": [
+            "Coffee dripped down the lip of the mug.",
+            "He stood at the lip of the canyon and looked over.",
+            "The pitcher has a shaped lip for pouring."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Rude talk back to someone in authority",
+          "body": [
+            "(дерзость, пререкания)",
+            "---"
+          ],
+          "examples": [
+            "Don't give me any lip, young man.",
+            "The coach won't take lip from anyone on the bench.",
+            "He got detention for giving a teacher lip."
+          ]
+        }
+      ],
+      "русский": "губа; край, кромка (сосуда, обрыва); дерзость, пререкания",
       "plural": "lips",
       "countability": "countable"
     },
@@ -437,14 +1098,58 @@
       "term": "tongue",
       "ipa": "/tʌŋ/",
       "respell": "TUNG",
-      "meaning": "The muscular organ in the mouth used for tasting and speaking. ---",
+      "meaning": "Tongue has 3 distinct senses.",
       "examples": [
         "I burned my tongue on the coffee.",
         "The dog's tongue was hanging out.",
-        "Stick out your tongue and say ah."
+        "Stick out your tongue and say ah.",
+        "Spanish is her native tongue.",
+        "He can argue in three tongues.",
+        "The old prayers are still said in the mother tongue.",
+        "Pull the tongue straight before you tie the laces.",
+        "The tongue of the boot was padded.",
+        "His sneakers have the brand name on the tongue."
       ],
-      "senses": [],
-      "русский": "язык (орган)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The muscular organ in the mouth used for tasting and speaking",
+          "body": [
+            "(язык (орган))"
+          ],
+          "examples": [
+            "I burned my tongue on the coffee.",
+            "The dog's tongue was hanging out.",
+            "Stick out your tongue and say ah."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A language, especially the one a person grew up speaking",
+          "body": [
+            "(язык (речь))"
+          ],
+          "examples": [
+            "Spanish is her native tongue.",
+            "He can argue in three tongues.",
+            "The old prayers are still said in the mother tongue."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The flap of leather or cloth under the laces of a shoe",
+          "body": [
+            "(язычок (ботинка))",
+            "---"
+          ],
+          "examples": [
+            "Pull the tongue straight before you tie the laces.",
+            "The tongue of the boot was padded.",
+            "His sneakers have the brand name on the tongue."
+          ]
+        }
+      ],
+      "русский": "язык (орган); язык (речь); язычок (ботинка)",
       "plural": "tongues",
       "countability": "countable",
       "contrast": "The -gue is just a single ng sound: TUNG, one syllable."
@@ -544,14 +1249,43 @@
       "term": "jaw",
       "ipa": "/dʒɔː/",
       "respell": "JAW",
-      "meaning": "The bone structure of the mouth that holds the teeth. ---",
+      "meaning": "Jaw has 2 distinct senses.",
       "examples": [
         "He clenched his jaw and said nothing.",
         "She broke her jaw in the accident.",
-        "My jaw aches from chewing gum all day."
+        "My jaw aches from chewing gum all day.",
+        "Tighten the jaws of the vise around the pipe.",
+        "The wrench's jaws were worn smooth.",
+        "The clamp has rubber jaws so it won't scratch the wood."
       ],
-      "senses": [],
-      "русский": "челюсть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bone structure of the mouth that holds the teeth",
+          "body": [
+            "(челюсть)"
+          ],
+          "examples": [
+            "He clenched his jaw and said nothing.",
+            "She broke her jaw in the accident.",
+            "My jaw aches from chewing gum all day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the two parts of a tool or machine that grip or crush something",
+          "body": [
+            "(губки (тисков, ключа), зажимы)",
+            "---"
+          ],
+          "examples": [
+            "Tighten the jaws of the vise around the pipe.",
+            "The wrench's jaws were worn smooth.",
+            "The clamp has rubber jaws so it won't scratch the wood."
+          ]
+        }
+      ],
+      "русский": "челюсть; губки (тисков, ключа), зажимы",
       "plural": "jaws",
       "countability": "countable"
     },
@@ -574,14 +1308,43 @@
       "term": "brain",
       "ipa": "/breɪn/",
       "respell": "BRAYN",
-      "meaning": "The organ inside the head that controls thought and movement. ---",
+      "meaning": "Brain has 2 distinct senses.",
       "examples": [
         "Your brain burns a surprising number of calories.",
         "The scan showed no damage to his brain.",
-        "Sleep gives the brain time to sort things out."
+        "Sleep gives the brain time to sort things out.",
+        "Her older sister was always the brain of the family.",
+        "He's the brains behind the whole app.",
+        "The lab hired the best brains in the field."
       ],
-      "senses": [],
-      "русский": "мозг (головной)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ inside the head that controls thought and movement",
+          "body": [
+            "(мозг (головной))"
+          ],
+          "examples": [
+            "Your brain burns a surprising number of calories.",
+            "The scan showed no damage to his brain.",
+            "Sleep gives the brain time to sort things out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very clever person, especially the one who thinks up and directs a plan",
+          "body": [
+            "(светлая голова; мозг (какого-л. дела))",
+            "---"
+          ],
+          "examples": [
+            "Her older sister was always the brain of the family.",
+            "He's the brains behind the whole app.",
+            "The lab hired the best brains in the field."
+          ]
+        }
+      ],
+      "русский": "мозг (головной); светлая голова; мозг (какого-л. дела)",
       "plural": "brains",
       "countability": "countable"
     },
@@ -589,14 +1352,73 @@
       "term": "heart",
       "ipa": "/hɑːrt/",
       "respell": "HAHRT",
-      "meaning": "The organ that pumps blood around the body. ---",
+      "meaning": "Heart has 4 distinct senses.",
       "examples": [
         "My heart was pounding.",
         "He has a heart condition.",
-        "The runner's heart rate dropped fast."
+        "The runner's heart rate dropped fast.",
+        "He has a good heart, even if he sounds rude.",
+        "She broke his heart when she moved away.",
+        "Have a heart and let the kid come with us.",
+        "Their office is in the heart of downtown.",
+        "Let's get to the heart of the problem.",
+        "Trust is at the heart of any good marriage.",
+        "She drew a little heart next to her name.",
+        "The card was covered in red hearts.",
+        "He wears a silver heart on a chain."
       ],
-      "senses": [],
-      "русский": "сердце",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The organ that pumps blood around the body",
+          "body": [
+            "(сердце)"
+          ],
+          "examples": [
+            "My heart was pounding.",
+            "He has a heart condition.",
+            "The runner's heart rate dropped fast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's feelings, especially love and kindness",
+          "body": [
+            "(сердце, душа (чувства))"
+          ],
+          "examples": [
+            "He has a good heart, even if he sounds rude.",
+            "She broke his heart when she moved away.",
+            "Have a heart and let the kid come with us."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The center of a place, or the most important part of something",
+          "body": [
+            "(центр, сердцевина; суть)"
+          ],
+          "examples": [
+            "Their office is in the heart of downtown.",
+            "Let's get to the heart of the problem.",
+            "Trust is at the heart of any good marriage."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A rounded shape with a point at the bottom, used as a symbol of love",
+          "body": [
+            "(сердечко (символ))",
+            "---"
+          ],
+          "examples": [
+            "She drew a little heart next to her name.",
+            "The card was covered in red hearts.",
+            "He wears a silver heart on a chain."
+          ]
+        }
+      ],
+      "русский": "сердце; сердце, душа (чувства); центр, сердцевина; суть; сердечко (символ)",
       "plural": "hearts",
       "countability": "countable",
       "contrast": "Heart has the ah of car; hurt has the ur of her. Two different words."
@@ -723,14 +1545,43 @@
       "term": "muscle",
       "ipa": "/ˈmʌsəl/",
       "respell": "MUH-suhl",
-      "meaning": "Tissue that contracts to move part of the body. ---",
+      "meaning": "Muscle has 2 distinct senses.",
       "examples": [
         "I pulled a muscle in my back.",
         "He has been putting on muscle since January.",
-        "Your heart is a muscle too."
+        "Your heart is a muscle too.",
+        "The union has enough muscle to stop the deal.",
+        "The agency needs more muscle to enforce the rules.",
+        "Small towns rarely have the political muscle to fight back."
       ],
-      "senses": [],
-      "русский": "мышца",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Tissue that contracts to move part of the body",
+          "body": [
+            "(мышца)"
+          ],
+          "examples": [
+            "I pulled a muscle in my back.",
+            "He has been putting on muscle since January.",
+            "Your heart is a muscle too."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Power or influence used to get what you want",
+          "body": [
+            "(сила, влияние (перен.))",
+            "---"
+          ],
+          "examples": [
+            "The union has enough muscle to stop the deal.",
+            "The agency needs more muscle to enforce the rules.",
+            "Small towns rarely have the political muscle to fight back."
+          ]
+        }
+      ],
+      "русский": "мышца; сила, влияние (перен.)",
       "plural": "muscles",
       "countability": "countable, and uncountable as a substance",
       "contrast": "The c is silent: MUS-ul, exactly like the shellfish mussel."
@@ -739,14 +1590,58 @@
       "term": "skin",
       "ipa": "/skɪn/",
       "respell": "SKIN",
-      "meaning": "The outer covering of the body. ---",
+      "meaning": "Skin has 3 distinct senses.",
       "examples": [
         "My skin gets dry every winter.",
         "Sunscreen protects your skin.",
-        "The lotion left my skin greasy."
+        "The lotion left my skin greasy.",
+        "I bake the potatoes with the skins on.",
+        "Peel the skin off the peach before you slice it.",
+        "Grape skins give red wine its color.",
+        "A skin had formed on the pudding.",
+        "Stir the paint so it doesn't develop a skin.",
+        "He blew the skin off his cocoa before drinking it."
       ],
-      "senses": [],
-      "русский": "кожа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The outer covering of the body",
+          "body": [
+            "(кожа)"
+          ],
+          "examples": [
+            "My skin gets dry every winter.",
+            "Sunscreen protects your skin.",
+            "The lotion left my skin greasy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The outer layer of a fruit or vegetable",
+          "body": [
+            "(кожура, шкурка)"
+          ],
+          "examples": [
+            "I bake the potatoes with the skins on.",
+            "Peel the skin off the peach before you slice it.",
+            "Grape skins give red wine its color."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A thin film that forms on the surface of a liquid",
+          "body": [
+            "(плёнка (на поверхности жидкости))",
+            "---"
+          ],
+          "examples": [
+            "A skin had formed on the pudding.",
+            "Stir the paint so it doesn't develop a skin.",
+            "He blew the skin off his cocoa before drinking it."
+          ]
+        }
+      ],
+      "русский": "кожа; кожура, шкурка; плёнка (на поверхности жидкости)",
       "plural": "skins",
       "countability": "countable, and uncountable as a substance"
     },
@@ -754,14 +1649,43 @@
       "term": "blood",
       "ipa": "/blʌd/",
       "respell": "BLUD",
-      "meaning": "The red liquid the heart pumps through the body. ---",
+      "meaning": "Blood has 2 distinct senses.",
       "examples": [
         "There was blood all over the towel.",
         "They took a sample of my blood.",
-        "The sight of blood made him dizzy."
+        "The sight of blood made him dizzy.",
+        "They're related by blood, not by marriage.",
+        "There's Irish blood on my mother's side.",
+        "The land passes to his nearest relative by blood."
       ],
-      "senses": [],
-      "русский": "кровь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The red liquid the heart pumps through the body",
+          "body": [
+            "(кровь)"
+          ],
+          "examples": [
+            "There was blood all over the towel.",
+            "They took a sample of my blood.",
+            "The sight of blood made him dizzy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Family origin, or relatives you are descended from",
+          "body": [
+            "(род, происхождение; кровное родство)",
+            "---"
+          ],
+          "examples": [
+            "They're related by blood, not by marriage.",
+            "There's Irish blood on my mother's side.",
+            "The land passes to his nearest relative by blood."
+          ]
+        }
+      ],
+      "русский": "кровь; род, происхождение; кровное родство",
       "countability": "uncountable",
       "contrast": "The oo sounds like the u in flood, not like food: BLUD."
     },
@@ -769,14 +1693,58 @@
       "term": "nerve",
       "ipa": "/nɜːrv/",
       "respell": "NURV",
-      "meaning": "A fiber that carries signals between the brain and the rest of the body. ---",
+      "meaning": "Nerve has 3 distinct senses.",
       "examples": [
         "The dentist hit a nerve.",
         "A pinched nerve in his neck caused the pain.",
-        "The nerves in your fingertips are unusually sensitive."
+        "The nerves in your fingertips are unusually sensitive.",
+        "It takes nerve to speak in front of that many people.",
+        "He lost his nerve halfway up the ladder.",
+        "I never worked up the nerve to ask her out.",
+        "Nerves got the better of him at the audition.",
+        "My nerves are shot after that drive.",
+        "A cup of tea settled her nerves."
       ],
-      "senses": [],
-      "русский": "нерв",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fiber that carries signals between the brain and the rest of the body",
+          "body": [
+            "(нерв)"
+          ],
+          "examples": [
+            "The dentist hit a nerve.",
+            "A pinched nerve in his neck caused the pain.",
+            "The nerves in your fingertips are unusually sensitive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The courage needed to do something frightening",
+          "body": [
+            "(смелость, решимость)"
+          ],
+          "examples": [
+            "It takes nerve to speak in front of that many people.",
+            "He lost his nerve halfway up the ladder.",
+            "I never worked up the nerve to ask her out."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A state of anxiety, especially before something important",
+          "body": [
+            "(нервы, волнение)",
+            "---"
+          ],
+          "examples": [
+            "Nerves got the better of him at the audition.",
+            "My nerves are shot after that drive.",
+            "A cup of tea settled her nerves."
+          ]
+        }
+      ],
+      "русский": "нерв; смелость, решимость; нервы, волнение",
       "plural": "nerves",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Countable for the fibers; uncountable when it means courage — it takes some nerve to ask."
@@ -785,14 +1753,73 @@
       "term": "vein",
       "ipa": "/veɪn/",
       "respell": "VAYN",
-      "meaning": "A tube that carries blood back toward the heart. ---",
+      "meaning": "Vein has 4 distinct senses.",
       "examples": [
         "The nurse couldn't find a vein.",
         "Blue veins showed through her skin.",
-        "Blood returns to the heart through the veins."
+        "Blood returns to the heart through the veins.",
+        "Miners followed a vein of silver deep into the hill.",
+        "The quarry hit a vein of white marble.",
+        "Veins of coal run under the whole valley.",
+        "Hold the leaf up and you can see its veins.",
+        "The veins on a dragonfly's wing form a fine net.",
+        "Dark veins ran through the pale green leaf.",
+        "He told another joke in the same vein.",
+        "The second half of the book continues in a lighter vein.",
+        "Several speakers went on in that vein for an hour."
       ],
-      "senses": [],
-      "русский": "вена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tube that carries blood back toward the heart",
+          "body": [
+            "(вена)"
+          ],
+          "examples": [
+            "The nurse couldn't find a vein.",
+            "Blue veins showed through her skin.",
+            "Blood returns to the heart through the veins."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A layer of mineral or ore running through rock",
+          "body": [
+            "(жила (рудная), прожилок)"
+          ],
+          "examples": [
+            "Miners followed a vein of silver deep into the hill.",
+            "The quarry hit a vein of white marble.",
+            "Veins of coal run under the whole valley."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the thin lines that carry liquid through a leaf or an insect's wing",
+          "body": [
+            "(жилка (листа, крыла))"
+          ],
+          "examples": [
+            "Hold the leaf up and you can see its veins.",
+            "The veins on a dragonfly's wing form a fine net.",
+            "Dark veins ran through the pale green leaf."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A particular style or mood in which something is said or done",
+          "body": [
+            "(тон, дух, стиль (высказывания))",
+            "---"
+          ],
+          "examples": [
+            "He told another joke in the same vein.",
+            "The second half of the book continues in a lighter vein.",
+            "Several speakers went on in that vein for an hour."
+          ]
+        }
+      ],
+      "русский": "вена; жила (рудная), прожилок; жилка (листа, крыла); тон, дух, стиль (высказывания)",
       "plural": "veins",
       "countability": "countable",
       "contrast": "Sounds exactly like vain and vane."
@@ -801,14 +1828,43 @@
       "term": "artery",
       "ipa": "/ˈɑːrtəri/",
       "respell": "AHR-tuh-ree",
-      "meaning": "A tube that carries blood away from the heart. ---",
+      "meaning": "Artery has 2 distinct senses.",
       "examples": [
         "Cholesterol builds up in the arteries.",
         "The bullet missed the main artery.",
-        "An artery has thicker walls than a vein."
+        "An artery has thicker walls than a vein.",
+        "I-95 is the East Coast's main artery.",
+        "Snow shut down every artery into the city.",
+        "The bridge is a vital artery for freight."
       ],
-      "senses": [],
-      "русский": "артерия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tube that carries blood away from the heart",
+          "body": [
+            "(артерия)"
+          ],
+          "examples": [
+            "Cholesterol builds up in the arteries.",
+            "The bullet missed the main artery.",
+            "An artery has thicker walls than a vein."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A main road or route that carries heavy traffic",
+          "body": [
+            "(магистраль, транспортная артерия)",
+            "---"
+          ],
+          "examples": [
+            "I-95 is the East Coast's main artery.",
+            "Snow shut down every artery into the city.",
+            "The bridge is a vital artery for freight."
+          ]
+        }
+      ],
+      "русский": "артерия; магистраль, транспортная артерия",
       "plural": "arteries",
       "countability": "countable"
     },
@@ -860,14 +1916,58 @@
       "term": "spine",
       "ipa": "/spaɪn/",
       "respell": "SPYNE",
-      "meaning": "The column of small bones running down the middle of the back. ---",
+      "meaning": "Spine has 3 distinct senses.",
       "examples": [
         "An injury to the spine can be permanent.",
         "She has a slight curve in her spine.",
-        "He felt a chill run down his spine."
+        "He felt a chill run down his spine.",
+        "The title was printed down the spine in gold.",
+        "The spine of my old dictionary is cracked.",
+        "She read the spines until she found the cookbook.",
+        "The cactus is covered in fine white spines.",
+        "A porcupine raises its spines when it feels threatened.",
+        "Watch out for the spines when you clean that fish."
       ],
-      "senses": [],
-      "русский": "позвоночник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The column of small bones running down the middle of the back",
+          "body": [
+            "(позвоночник)"
+          ],
+          "examples": [
+            "An injury to the spine can be permanent.",
+            "She has a slight curve in her spine.",
+            "He felt a chill run down his spine."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The stiff back edge of a book, where the pages are joined",
+          "body": [
+            "(корешок (книги))"
+          ],
+          "examples": [
+            "The title was printed down the spine in gold.",
+            "The spine of my old dictionary is cracked.",
+            "She read the spines until she found the cookbook."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sharp needle-like point on a plant or an animal",
+          "body": [
+            "(колючка, игла (растения, животного))",
+            "---"
+          ],
+          "examples": [
+            "The cactus is covered in fine white spines.",
+            "A porcupine raises its spines when it feels threatened.",
+            "Watch out for the spines when you clean that fish."
+          ]
+        }
+      ],
+      "русский": "позвоночник; корешок (книги); колючка, игла (растения, животного)",
       "plural": "spines",
       "countability": "countable"
     },
@@ -875,14 +1975,73 @@
       "term": "joint",
       "ipa": "/dʒɔɪnt/",
       "respell": "JOYNT",
-      "meaning": "A place where two bones meet and the body can bend. ---",
+      "meaning": "Joint has 4 distinct senses.",
       "examples": [
         "My joints ache when it rains.",
         "The knee is the biggest joint in the body.",
-        "Arthritis inflames the joints."
+        "Arthritis inflames the joints.",
+        "Water was leaking from a joint in the pipe.",
+        "The joints in the sidewalk are filled with tar.",
+        "Every joint in the frame is glued and screwed.",
+        "There's a burger joint two blocks from here.",
+        "It's a decent enough joint for a weeknight.",
+        "We ate at a pizza joint near the stadium.",
+        "They passed a joint around the campfire.",
+        "He was ticketed for a joint in his pocket.",
+        "Someone lit a joint in the parking lot."
       ],
-      "senses": [],
-      "русский": "сустав",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where two bones meet and the body can bend",
+          "body": [
+            "(сустав)"
+          ],
+          "examples": [
+            "My joints ache when it rains.",
+            "The knee is the biggest joint in the body.",
+            "Arthritis inflames the joints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where two parts of a structure are joined together",
+          "body": [
+            "(стык, соединение)"
+          ],
+          "examples": [
+            "Water was leaking from a joint in the pipe.",
+            "The joints in the sidewalk are filled with tar.",
+            "Every joint in the frame is glued and screwed."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small, cheap restaurant, bar, or club (informal)",
+          "body": [
+            "(заведение, забегаловка (разг.))"
+          ],
+          "examples": [
+            "There's a burger joint two blocks from here.",
+            "It's a decent enough joint for a weeknight.",
+            "We ate at a pizza joint near the stadium."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A hand-rolled marijuana cigarette (informal)",
+          "body": [
+            "(косяк (самокрутка с марихуаной))",
+            "---"
+          ],
+          "examples": [
+            "They passed a joint around the campfire.",
+            "He was ticketed for a joint in his pocket.",
+            "Someone lit a joint in the parking lot."
+          ]
+        }
+      ],
+      "русский": "сустав; стык, соединение; заведение, забегаловка (разг.); косяк (самокрутка с марихуаной)",
       "plural": "joints",
       "countability": "countable"
     },
@@ -1220,14 +2379,43 @@
       "term": "nipple",
       "ipa": "/ˈnɪpəl/",
       "respell": "NIP-ul",
-      "meaning": "The small raised point in the middle of the breast. ---",
+      "meaning": "Nipple has 2 distinct senses.",
       "examples": [
         "The baby would not latch onto the nipple.",
         "She had a rash around one nipple.",
-        "The bottle came with two spare nipples."
+        "The bottle came with two spare nipples.",
+        "Boil the nipples before you use them the first time.",
+        "This nipple has too slow a flow for him.",
+        "She screwed the nipple onto the bottle."
       ],
-      "senses": [],
-      "русский": "сосок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small raised point in the middle of the breast",
+          "body": [
+            "(сосок)"
+          ],
+          "examples": [
+            "The baby would not latch onto the nipple.",
+            "She had a rash around one nipple.",
+            "The bottle came with two spare nipples."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The rubber tip on a baby's bottle that the baby sucks",
+          "body": [
+            "(соска (на бутылочке))",
+            "---"
+          ],
+          "examples": [
+            "Boil the nipples before you use them the first time.",
+            "This nipple has too slow a flow for him.",
+            "She screwed the nipple onto the bottle."
+          ]
+        }
+      ],
+      "русский": "сосок; соска (на бутылочке)",
       "plural": "nipples",
       "countability": "countable",
       "contrast": "Americans call the rubber top of a baby bottle a nipple; British English says teat."
@@ -1252,14 +2440,43 @@
       "term": "abdomen",
       "ipa": "/ˈæbdəmən/",
       "respell": "AB-duh-mun",
-      "meaning": "The part of the body between the chest and the hips, holding the digestive organs. ---",
+      "meaning": "Abdomen has 2 distinct senses.",
       "examples": [
         "The pain is low in the abdomen.",
         "He was stabbed in the abdomen.",
-        "She felt a tightness across her abdomen."
+        "She felt a tightness across her abdomen.",
+        "A wasp's abdomen is joined to its chest by a thin waist.",
+        "The bee's black and yellow stripes run across its abdomen.",
+        "Spiders spin silk from glands in the abdomen."
       ],
-      "senses": [],
-      "русский": "живот, брюшная полость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of the body between the chest and the hips, holding the digestive organs",
+          "body": [
+            "(живот, брюшная полость)"
+          ],
+          "examples": [
+            "The pain is low in the abdomen.",
+            "He was stabbed in the abdomen.",
+            "She felt a tightness across her abdomen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The rear section of the body of an insect, spider, or crab",
+          "body": [
+            "(брюшко (насекомого))",
+            "---"
+          ],
+          "examples": [
+            "A wasp's abdomen is joined to its chest by a thin waist.",
+            "The bee's black and yellow stripes run across its abdomen.",
+            "Spiders spin silk from glands in the abdomen."
+          ]
+        }
+      ],
+      "русский": "живот, брюшная полость; брюшко (насекомого)",
       "plural": "abdomens",
       "countability": "countable",
       "contrast": "Americans usually stress the first syllable: AB-duh-mun."
@@ -1283,14 +2500,43 @@
       "term": "limb",
       "ipa": "/lɪm/",
       "respell": "LIM",
-      "meaning": "An arm or a leg. ---",
+      "meaning": "Limb has 2 distinct senses.",
       "examples": [
         "The accident cost him a limb.",
         "Surgeons reattached the severed limb.",
-        "Cold weather makes your limbs stiff."
+        "Cold weather makes your limbs stiff.",
+        "A limb came down on the power line during the storm.",
+        "The kids nailed boards to the lowest limb.",
+        "Ice snapped the limbs off the old oak."
       ],
-      "senses": [],
-      "русский": "конечность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arm or a leg",
+          "body": [
+            "(конечность)"
+          ],
+          "examples": [
+            "The accident cost him a limb.",
+            "Surgeons reattached the severed limb.",
+            "Cold weather makes your limbs stiff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large branch of a tree",
+          "body": [
+            "(сук, толстая ветка)",
+            "---"
+          ],
+          "examples": [
+            "A limb came down on the power line during the storm.",
+            "The kids nailed boards to the lowest limb.",
+            "Ice snapped the limbs off the old oak."
+          ]
+        }
+      ],
+      "русский": "конечность; сук, толстая ветка",
       "plural": "limbs",
       "countability": "countable",
       "contrast": "The b is silent: LIM."
@@ -1299,14 +2545,43 @@
       "term": "flesh",
       "ipa": "/flɛʃ/",
       "respell": "FLESH",
-      "meaning": "The soft tissue of the body between the skin and the bones. ---",
+      "meaning": "Flesh has 2 distinct senses.",
       "examples": [
         "The blade cut into the flesh of his palm.",
         "Mosquitoes went straight for any exposed flesh.",
-        "The bruise showed dark against pale flesh."
+        "The bruise showed dark against pale flesh.",
+        "The flesh of the melon was pale and sweet.",
+        "Scoop the flesh out of the avocado with a spoon.",
+        "Bake the squash until the flesh is soft."
       ],
-      "senses": [],
-      "русский": "плоть, мягкие ткани",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft tissue of the body between the skin and the bones",
+          "body": [
+            "(плоть, мягкие ткани)"
+          ],
+          "examples": [
+            "The blade cut into the flesh of his palm.",
+            "Mosquitoes went straight for any exposed flesh.",
+            "The bruise showed dark against pale flesh."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft part of a fruit or vegetable under the skin",
+          "body": [
+            "(мякоть (плода))",
+            "---"
+          ],
+          "examples": [
+            "The flesh of the melon was pale and sweet.",
+            "Scoop the flesh out of the avocado with a spoon.",
+            "Bake the squash until the flesh is soft."
+          ]
+        }
+      ],
+      "русский": "плоть, мягкие ткани; мякоть (плода)",
       "countability": "uncountable"
     },
     {
@@ -1402,14 +2677,43 @@
       "term": "organ",
       "ipa": "/ˈɔːrɡən/",
       "respell": "OR-gun",
-      "meaning": "A part of the body with a particular job, such as the heart or the liver. ---",
+      "meaning": "Organ has 2 distinct senses.",
       "examples": [
         "The liver is the largest internal organ.",
         "He is registered as an organ donor.",
-        "Alcohol damages several organs at once."
+        "Alcohol damages several organs at once.",
+        "She plays the organ at the Methodist church.",
+        "The organ filled the whole hall with sound.",
+        "The old theater still has its original pipe organ."
       ],
-      "senses": [],
-      "русский": "орган",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A part of the body with a particular job, such as the heart or the liver",
+          "body": [
+            "(орган)"
+          ],
+          "examples": [
+            "The liver is the largest internal organ.",
+            "He is registered as an organ donor.",
+            "Alcohol damages several organs at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large keyboard instrument that makes sound by forcing air through pipes",
+          "body": [
+            "(орган (музыкальный инструмент))",
+            "---"
+          ],
+          "examples": [
+            "She plays the organ at the Methodist church.",
+            "The organ filled the whole hall with sound.",
+            "The old theater still has its original pipe organ."
+          ]
+        }
+      ],
+      "русский": "орган; орган (музыкальный инструмент)",
       "plural": "organs",
       "countability": "countable"
     },
@@ -1432,14 +2736,88 @@
       "term": "cell",
       "ipa": "/sɛl/",
       "respell": "SEL",
-      "meaning": "The smallest living unit that bodies are built from. ---",
+      "meaning": "Cell has 5 distinct senses.",
       "examples": [
         "The body replaces old cells constantly.",
         "A single cell divides into two.",
-        "Red blood cells carry oxygen."
+        "Red blood cells carry oxygen.",
+        "He spent twelve years in a cell with one small window.",
+        "Guards searched every cell on the block.",
+        "The cell held two bunks and a sink.",
+        "Call me on my cell when you land.",
+        "Her cell died halfway through the drive.",
+        "He left his cell sitting on the roof of the car.",
+        "Type the total in the last cell.",
+        "The formula pulls numbers from three cells.",
+        "Click the cell and start typing.",
+        "Police broke up a cell operating out of the suburbs.",
+        "The movement worked in small cells that never met each other.",
+        "Each cell had its own leader and its own orders."
       ],
-      "senses": [],
-      "русский": "клетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smallest living unit that bodies are built from",
+          "body": [
+            "(клетка)"
+          ],
+          "examples": [
+            "The body replaces old cells constantly.",
+            "A single cell divides into two.",
+            "Red blood cells carry oxygen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small locked room where a prisoner is kept",
+          "body": [
+            "(камера (тюремная))"
+          ],
+          "examples": [
+            "He spent twelve years in a cell with one small window.",
+            "Guards searched every cell on the block.",
+            "The cell held two bunks and a sink."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A cellphone",
+          "body": [
+            "(мобильный телефон (разг.))"
+          ],
+          "examples": [
+            "Call me on my cell when you land.",
+            "Her cell died halfway through the drive.",
+            "He left his cell sitting on the roof of the car."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "One box in a table or a spreadsheet",
+          "body": [
+            "(ячейка (таблицы))"
+          ],
+          "examples": [
+            "Type the total in the last cell.",
+            "The formula pulls numbers from three cells.",
+            "Click the cell and start typing."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "A small group working as one part of a larger secret organization",
+          "body": [
+            "(ячейка (организации))",
+            "---"
+          ],
+          "examples": [
+            "Police broke up a cell operating out of the suburbs.",
+            "The movement worked in small cells that never met each other.",
+            "Each cell had its own leader and its own orders."
+          ]
+        }
+      ],
+      "русский": "клетка; камера (тюремная); мобильный телефон (разг.); ячейка (таблицы); ячейка (организации)",
       "plural": "cells",
       "countability": "countable",
       "contrast": "Sounds exactly like sell."
@@ -1463,14 +2841,43 @@
       "term": "temple",
       "ipa": "/ˈtɛmpəl/",
       "respell": "TEM-pul",
-      "meaning": "The flat area on either side of the forehead, beside the eye. ---",
+      "meaning": "Temple has 2 distinct senses.",
       "examples": [
         "She rubbed her temples to fight off the headache.",
         "Gray hair started at his temples.",
-        "The blow landed on his temple."
+        "The blow landed on his temple.",
+        "They visited an ancient temple on the hillside.",
+        "Her family goes to temple on Friday nights.",
+        "The temple was rebuilt after the earthquake."
       ],
-      "senses": [],
-      "русский": "висок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat area on either side of the forehead, beside the eye",
+          "body": [
+            "(висок)"
+          ],
+          "examples": [
+            "She rubbed her temples to fight off the headache.",
+            "Gray hair started at his temples.",
+            "The blow landed on his temple."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A building where people gather to worship",
+          "body": [
+            "(храм)",
+            "---"
+          ],
+          "examples": [
+            "They visited an ancient temple on the hillside.",
+            "Her family goes to temple on Friday nights.",
+            "The temple was rebuilt after the earthquake."
+          ]
+        }
+      ],
+      "русский": "висок; храм",
       "plural": "temples",
       "countability": "countable",
       "contrast": "Spelled and pronounced exactly like the religious building; only context separates them."
@@ -1541,14 +2948,43 @@
       "term": "pupil",
       "ipa": "/ˈpjuːpəl/",
       "respell": "PYOO-pul",
-      "meaning": "The black opening in the middle of the eye that light passes through. ---",
+      "meaning": "Pupil has 2 distinct senses.",
       "examples": [
         "The doctor checked whether his pupils were reacting.",
         "Her pupils went huge in the dark room.",
-        "One pupil was larger than the other."
+        "One pupil was larger than the other.",
+        "Each teacher has about twenty-five pupils.",
+        "She was the best pupil in her class.",
+        "The pupils line up in the hallway after lunch."
       ],
-      "senses": [],
-      "русский": "зрачок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The black opening in the middle of the eye that light passes through",
+          "body": [
+            "(зрачок)"
+          ],
+          "examples": [
+            "The doctor checked whether his pupils were reacting.",
+            "Her pupils went huge in the dark room.",
+            "One pupil was larger than the other."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A child being taught in a school",
+          "body": [
+            "(ученик, ученица)",
+            "---"
+          ],
+          "examples": [
+            "Each teacher has about twenty-five pupils.",
+            "She was the best pupil in her class.",
+            "The pupils line up in the hallway after lunch."
+          ]
+        }
+      ],
+      "русский": "зрачок; ученик, ученица",
       "plural": "pupils",
       "countability": "countable",
       "contrast": "Same word as pupil meaning a school student."
@@ -1557,14 +2993,43 @@
       "term": "iris",
       "ipa": "/ˈaɪrɪs/",
       "respell": "EYE-ris",
-      "meaning": "The colored ring around the pupil of the eye. ---",
+      "meaning": "Iris has 2 distinct senses.",
       "examples": [
         "She has a ring of gold around each iris.",
         "The iris opens and closes to control the light.",
-        "His irises are almost black."
+        "His irises are almost black.",
+        "The irises along the fence bloom in late May.",
+        "She cut an armful of purple irises for the table.",
+        "A clump of wild iris grew at the edge of the pond."
       ],
-      "senses": [],
-      "русский": "радужка (глаза)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The colored ring around the pupil of the eye",
+          "body": [
+            "(радужка (глаза))"
+          ],
+          "examples": [
+            "She has a ring of gold around each iris.",
+            "The iris opens and closes to control the light.",
+            "His irises are almost black."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tall garden plant with large showy flowers and flat, sword-shaped leaves",
+          "body": [
+            "(ирис, касатик (цветок))",
+            "---"
+          ],
+          "examples": [
+            "The irises along the fence bloom in late May.",
+            "She cut an armful of purple irises for the table.",
+            "A clump of wild iris grew at the edge of the pond."
+          ]
+        }
+      ],
+      "русский": "радужка (глаза); ирис, касатик (цветок)",
       "plural": "irises",
       "countability": "countable"
     },
@@ -1602,14 +3067,43 @@
       "term": "gum",
       "ipa": "/ɡʌm/",
       "respell": "GUM",
-      "meaning": "The firm pink flesh around the base of the teeth. ---",
+      "meaning": "Gum has 2 distinct senses.",
       "examples": [
         "My gums bleed when I floss.",
         "The dentist said my gums look healthy.",
-        "Cold water hurts his gums."
+        "Cold water hurts his gums.",
+        "She offered me a stick of gum.",
+        "No gum in class.",
+        "He blew a bubble with his gum."
       ],
-      "senses": [],
-      "русский": "десна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The firm pink flesh around the base of the teeth",
+          "body": [
+            "(десна)"
+          ],
+          "examples": [
+            "My gums bleed when I floss.",
+            "The dentist said my gums look healthy.",
+            "Cold water hurts his gums."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sweet, rubbery substance that you chew but do not swallow",
+          "body": [
+            "(жевательная резинка)",
+            "---"
+          ],
+          "examples": [
+            "She offered me a stick of gum.",
+            "No gum in class.",
+            "He blew a bubble with his gum."
+          ]
+        }
+      ],
+      "русский": "десна; жевательная резинка",
       "plural": "gums",
       "countability": "countable",
       "contrast": "The chewing kind of gum is uncountable: a piece of gum, never a gum."
@@ -1693,14 +3187,58 @@
       "term": "gut",
       "ipa": "/ɡʌt/",
       "respell": "GUT",
-      "meaning": "The stomach and intestines, in informal speech. ---",
+      "meaning": "Gut has 3 distinct senses.",
       "examples": [
         "He took a punch in the gut.",
         "The fish was cleaned and its guts thrown out.",
-        "Bacteria in the gut help you digest food."
+        "Bacteria in the gut help you digest food.",
+        "My gut says he's lying.",
+        "Trust your gut on this one.",
+        "She went with her gut and took the job.",
+        "It takes guts to speak up like that.",
+        "He didn't have the guts to tell her himself.",
+        "She showed real guts in the final round."
       ],
-      "senses": [],
-      "русский": "кишечник; живот (разг.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stomach and intestines, in informal speech",
+          "body": [
+            "(кишечник; живот (разг.))"
+          ],
+          "examples": [
+            "He took a punch in the gut.",
+            "The fish was cleaned and its guts thrown out.",
+            "Bacteria in the gut help you digest food."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's instinct, felt rather than reasoned out",
+          "body": [
+            "(интуиция, чутьё)"
+          ],
+          "examples": [
+            "My gut says he's lying.",
+            "Trust your gut on this one.",
+            "She went with her gut and took the job."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Courage and nerve, used in the plural",
+          "body": [
+            "(смелость, мужество)",
+            "---"
+          ],
+          "examples": [
+            "It takes guts to speak up like that.",
+            "He didn't have the guts to tell her himself.",
+            "She showed real guts in the final round."
+          ]
+        }
+      ],
+      "русский": "кишечник; живот (разг.); интуиция, чутьё; смелость, мужество",
       "plural": "guts",
       "countability": "countable"
     },
@@ -1784,14 +3322,43 @@
       "term": "ovary",
       "ipa": "/ˈoʊvəri/",
       "respell": "OH-vuh-ree",
-      "meaning": "Either of the two organs in a woman's body that produce eggs. ---",
+      "meaning": "Ovary has 2 distinct senses.",
       "examples": [
         "The cyst was on her left ovary.",
         "The ovaries release one egg a month.",
-        "The surgeon removed both ovaries."
+        "The surgeon removed both ovaries.",
+        "The ovary swells into a fruit after pollination.",
+        "Cut the flower open and you can see the ovary at the base.",
+        "In a pea plant the ovary becomes the pod."
       ],
-      "senses": [],
-      "русский": "яичник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two organs in a woman's body that produce eggs",
+          "body": [
+            "(яичник)"
+          ],
+          "examples": [
+            "The cyst was on her left ovary.",
+            "The ovaries release one egg a month.",
+            "The surgeon removed both ovaries."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a flower that holds the seeds and grows into the fruit",
+          "body": [
+            "(завязь (у цветка))",
+            "---"
+          ],
+          "examples": [
+            "The ovary swells into a fruit after pollination.",
+            "Cut the flower open and you can see the ovary at the base.",
+            "In a pea plant the ovary becomes the pod."
+          ]
+        }
+      ],
+      "русский": "яичник; завязь (у цветка)",
       "plural": "ovaries",
       "countability": "countable"
     },
@@ -1813,14 +3380,43 @@
       "term": "sweat",
       "ipa": "/swɛt/",
       "respell": "SWET",
-      "meaning": "The salty liquid the skin gives off when the body is hot. ---",
+      "meaning": "Sweat has 2 distinct senses.",
       "examples": [
         "Sweat was running into my eyes.",
         "His shirt was soaked with sweat.",
-        "Sweat cools you down as it evaporates."
+        "Sweat cools you down as it evaporates.",
+        "He came downstairs in a pair of gray sweats.",
+        "I live in sweats on the weekend.",
+        "Pack some sweats for the flight home."
       ],
-      "senses": [],
-      "русский": "пот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The salty liquid the skin gives off when the body is hot",
+          "body": [
+            "(пот)"
+          ],
+          "examples": [
+            "Sweat was running into my eyes.",
+            "His shirt was soaked with sweat.",
+            "Sweat cools you down as it evaporates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Loose, soft cotton pants or a matching top worn for exercise or lounging",
+          "body": [
+            "(спортивные штаны, спортивный костюм)",
+            "---"
+          ],
+          "examples": [
+            "He came downstairs in a pair of gray sweats.",
+            "I live in sweats on the weekend.",
+            "Pack some sweats for the flight home."
+          ]
+        }
+      ],
+      "русский": "пот; спортивные штаны, спортивный костюм",
       "countability": "uncountable"
     },
     {
@@ -1859,14 +3455,43 @@
       "term": "pulse",
       "ipa": "/pʌls/",
       "respell": "PULS",
-      "meaning": "The regular beat of blood that you can feel in an artery. ---",
+      "meaning": "Pulse has 2 distinct senses.",
       "examples": [
         "The nurse took my pulse.",
         "His pulse was weak but steady.",
-        "She could feel her pulse in her ears."
+        "She could feel her pulse in her ears.",
+        "The machine sends a pulse down the wire.",
+        "The laser fires in very short pulses.",
+        "A pulse of radio noise wiped out the signal."
       ],
-      "senses": [],
-      "русский": "пульс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The regular beat of blood that you can feel in an artery",
+          "body": [
+            "(пульс)"
+          ],
+          "examples": [
+            "The nurse took my pulse.",
+            "His pulse was weak but steady.",
+            "She could feel her pulse in her ears."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single short burst of sound, light, or electricity",
+          "body": [
+            "(импульс)",
+            "---"
+          ],
+          "examples": [
+            "The machine sends a pulse down the wire.",
+            "The laser fires in very short pulses.",
+            "A pulse of radio noise wiped out the signal."
+          ]
+        }
+      ],
+      "русский": "пульс; импульс",
       "plural": "pulses",
       "countability": "countable"
     },
@@ -2010,14 +3635,58 @@
       "term": "wrinkle",
       "ipa": "/ˈrɪŋkəl/",
       "respell": "RING-kul",
-      "meaning": "A small line in the skin that comes with age. ---",
+      "meaning": "Wrinkle has 3 distinct senses.",
       "examples": [
         "She has fine wrinkles around her eyes.",
         "The cream promises to smooth out wrinkles.",
-        "A deep wrinkle ran across his forehead."
+        "A deep wrinkle ran across his forehead.",
+        "Hang the shirt up to keep the wrinkles out.",
+        "She smoothed the wrinkles from the tablecloth.",
+        "A hot iron takes out most wrinkles.",
+        "The lawsuit added a wrinkle to the deal.",
+        "There's one wrinkle: the seller wants cash.",
+        "Every case has its own wrinkles."
       ],
-      "senses": [],
-      "русский": "морщина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small line in the skin that comes with age",
+          "body": [
+            "(морщина)"
+          ],
+          "examples": [
+            "She has fine wrinkles around her eyes.",
+            "The cream promises to smooth out wrinkles.",
+            "A deep wrinkle ran across his forehead."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small fold or crease in cloth or paper",
+          "body": [
+            "(складка, помятость (на ткани, бумаге))"
+          ],
+          "examples": [
+            "Hang the shirt up to keep the wrinkles out.",
+            "She smoothed the wrinkles from the tablecloth.",
+            "A hot iron takes out most wrinkles."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A new detail or small problem that changes a situation",
+          "body": [
+            "(новый поворот; загвоздка)",
+            "---"
+          ],
+          "examples": [
+            "The lawsuit added a wrinkle to the deal.",
+            "There's one wrinkle: the seller wants cash.",
+            "Every case has its own wrinkles."
+          ]
+        }
+      ],
+      "русский": "морщина; складка, помятость (на ткани, бумаге); новый поворот; загвоздка",
       "plural": "wrinkles",
       "countability": "countable",
       "contrast": "The w is silent: RING-kul."
@@ -2146,14 +3815,43 @@
       "term": "lap",
       "ipa": "/læp/",
       "respell": "LAP",
-      "meaning": "The flat surface formed by the upper legs when a person is sitting. ---",
+      "meaning": "Lap has 2 distinct senses.",
       "examples": [
         "The cat fell asleep in my lap.",
         "She held the baby on her lap.",
-        "He balanced the plate on his lap."
+        "He balanced the plate on his lap.",
+        "He runs twenty laps every morning.",
+        "She swims laps before work.",
+        "The leader spun out on the final lap."
       ],
-      "senses": [],
-      "русский": "колени (сидящего человека)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat surface formed by the upper legs when a person is sitting",
+          "body": [
+            "(колени (сидящего человека))"
+          ],
+          "examples": [
+            "The cat fell asleep in my lap.",
+            "She held the baby on her lap.",
+            "He balanced the plate on his lap."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One complete trip around a track or the length of a pool",
+          "body": [
+            "(круг (на дорожке), заплыв)",
+            "---"
+          ],
+          "examples": [
+            "He runs twenty laps every morning.",
+            "She swims laps before work.",
+            "The leader spun out on the final lap."
+          ]
+        }
+      ],
+      "русский": "колени (сидящего человека); круг (на дорожке), заплыв",
       "plural": "laps",
       "countability": "countable",
       "contrast": "Russian на коленях is the English lap, not knees — a child sits on your lap."

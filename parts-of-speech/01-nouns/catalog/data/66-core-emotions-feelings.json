@@ -77,14 +77,43 @@
       "term": "ecstasy",
       "ipa": "/ˈɛkstəsi/",
       "respell": "EK-stuh-see",
-      "meaning": "A state of overwhelming happiness. ---",
+      "meaning": "Ecstasy has 2 distinct senses.",
       "examples": [
         "The crowd was in ecstasy when the band came back out.",
         "She described the first bite as pure ecstasy.",
-        "He fell into a kind of ecstasy whenever he talked about jazz."
+        "He fell into a kind of ecstasy whenever he talked about jazz.",
+        "Police found ecstasy in the glove compartment.",
+        "Ecstasy is common at all-night dance parties.",
+        "The pills he bought turned out not to be ecstasy at all."
       ],
-      "senses": [],
-      "русский": "экстаз, восторг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A state of overwhelming happiness",
+          "body": [
+            "(экстаз, восторг)"
+          ],
+          "examples": [
+            "The crowd was in ecstasy when the band came back out.",
+            "She described the first bite as pure ecstasy.",
+            "He fell into a kind of ecstasy whenever he talked about jazz."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An illegal drug that makes users feel energetic and affectionate",
+          "body": [
+            "(экстази (наркотик))",
+            "---"
+          ],
+          "examples": [
+            "Police found ecstasy in the glove compartment.",
+            "Ecstasy is common at all-night dance parties.",
+            "The pills he bought turned out not to be ecstasy at all."
+          ]
+        }
+      ],
+      "русский": "экстаз, восторг; экстази (наркотик)",
       "countability": "uncountable"
     },
     {
@@ -292,14 +321,43 @@
       "term": "pity",
       "ipa": "/ˈpɪti/",
       "respell": "PIT-ee",
-      "meaning": "Sadness at someone else's suffering, often with a hint of looking down. ---",
+      "meaning": "Pity has 2 distinct senses.",
       "examples": [
         "I want respect, not pity.",
         "She felt a rush of pity for the stray cat.",
-        "He took the job out of pity for his cousin."
+        "He took the job out of pity for his cousin.",
+        "It's a pity you can't stay longer.",
+        "What a pity the museum is closed today.",
+        "It would be a pity to throw out perfectly good food."
       ],
-      "senses": [],
-      "русский": "жалость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sadness at someone else's suffering, often with a hint of looking down",
+          "body": [
+            "(жалость)"
+          ],
+          "examples": [
+            "I want respect, not pity.",
+            "She felt a rush of pity for the stray cat.",
+            "He took the job out of pity for his cousin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that makes you feel disappointed or sorry",
+          "body": [
+            "(жаль, досадно (о чём-л.))",
+            "---"
+          ],
+          "examples": [
+            "It's a pity you can't stay longer.",
+            "What a pity the museum is closed today.",
+            "It would be a pity to throw out perfectly good food."
+          ]
+        }
+      ],
+      "русский": "жалость; жаль, досадно (о чём-л.)",
       "countability": "uncountable"
     },
     {
@@ -897,14 +955,43 @@
       "term": "trauma",
       "ipa": "/ˈtrɔːmə/",
       "respell": "TRAW-muh",
-      "meaning": "Lasting emotional damage from a shocking experience. ---",
+      "meaning": "Trauma has 2 distinct senses.",
       "examples": [
         "She is still working through childhood trauma.",
         "The accident left a trauma that took years to unpack.",
-        "Not every hard day is a trauma."
+        "Not every hard day is a trauma.",
+        "He died of blunt force trauma to the head.",
+        "The hospital has a level-one trauma center.",
+        "She suffered severe trauma to her left leg in the crash."
       ],
-      "senses": [],
-      "русский": "травма (психологическая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Lasting emotional damage from a shocking experience",
+          "body": [
+            "(травма (психологическая))"
+          ],
+          "examples": [
+            "She is still working through childhood trauma.",
+            "The accident left a trauma that took years to unpack.",
+            "Not every hard day is a trauma."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A serious physical injury to the body",
+          "body": [
+            "(травма (телесное повреждение))",
+            "---"
+          ],
+          "examples": [
+            "He died of blunt force trauma to the head.",
+            "The hospital has a level-one trauma center.",
+            "She suffered severe trauma to her left leg in the crash."
+          ]
+        }
+      ],
+      "русский": "травма (психологическая); травма (телесное повреждение)",
       "plural": "traumas",
       "countability": "countable"
     },
@@ -1069,14 +1156,43 @@
       "term": "outrage",
       "ipa": "/ˈaʊtreɪdʒ/",
       "respell": "OWT-rayj",
-      "meaning": "Shocked anger at something unfair or offensive. ---",
+      "meaning": "Outrage has 2 distinct senses.",
       "examples": [
         "The price hike caused public outrage.",
         "There was outrage online within an hour.",
-        "He expressed his outrage in a very long email."
+        "He expressed his outrage in a very long email.",
+        "The bombing of the market was an outrage.",
+        "Neighbors called the demolition an outrage.",
+        "The report lists a long string of outrages against civilians."
       ],
-      "senses": [],
-      "русский": "возмущение, негодование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Shocked anger at something unfair or offensive",
+          "body": [
+            "(возмущение, негодование)"
+          ],
+          "examples": [
+            "The price hike caused public outrage.",
+            "There was outrage online within an hour.",
+            "He expressed his outrage in a very long email."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act that is shockingly cruel or wrong",
+          "body": [
+            "(возмутительный поступок, злодеяние)",
+            "---"
+          ],
+          "examples": [
+            "The bombing of the market was an outrage.",
+            "Neighbors called the demolition an outrage.",
+            "The report lists a long string of outrages against civilians."
+          ]
+        }
+      ],
+      "русский": "возмущение, негодование; возмутительный поступок, злодеяние",
       "countability": "uncountable"
     },
     {
@@ -1652,14 +1768,58 @@
       "term": "concern",
       "ipa": "/kənˈsɜːrn/",
       "respell": "kuhn-SURN",
-      "meaning": "Worry about something important. ---",
+      "meaning": "Concern has 3 distinct senses.",
       "examples": [
         "Safety is our main concern.",
         "Parents raised concerns about the schedule.",
-        "There is growing concern about the water supply."
+        "There is growing concern about the water supply.",
+        "How I spend my money is not your concern.",
+        "Safety is the concern of every employee here.",
+        "Those decisions are the concern of the board.",
+        "The bakery is a small family concern.",
+        "The bank sold the building to a foreign concern.",
+        "After the merger it was still a going concern."
       ],
-      "senses": [],
-      "русский": "беспокойство, озабоченность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Worry about something important",
+          "body": [
+            "(беспокойство, озабоченность)"
+          ],
+          "examples": [
+            "Safety is our main concern.",
+            "Parents raised concerns about the schedule.",
+            "There is growing concern about the water supply."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A matter that involves a particular person or is their responsibility",
+          "body": [
+            "(дело, забота (чья-либо))"
+          ],
+          "examples": [
+            "How I spend my money is not your concern.",
+            "Safety is the concern of every employee here.",
+            "Those decisions are the concern of the board."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A business or company",
+          "body": [
+            "(предприятие, фирма)",
+            "---"
+          ],
+          "examples": [
+            "The bakery is a small family concern.",
+            "The bank sold the building to a foreign concern.",
+            "After the merger it was still a going concern."
+          ]
+        }
+      ],
+      "русский": "беспокойство, озабоченность; дело, забота (чья-либо); предприятие, фирма",
       "plural": "concerns",
       "countability": "countable"
     },
@@ -2317,14 +2477,43 @@
       "term": "impulse",
       "ipa": "/ˈɪmpʌls/",
       "respell": "IM-puls",
-      "meaning": "A sudden push to act without thinking. ---",
+      "meaning": "Impulse has 2 distinct senses.",
       "examples": [
         "She quit on an impulse and never looked back.",
         "He fought the impulse to hit send.",
-        "Stores are built around impulse buys."
+        "Stores are built around impulse buys.",
+        "Nerve impulses travel from the eye to the brain.",
+        "The sensor sends an electrical impulse to the control box.",
+        "Damaged nerves carry impulses more slowly."
       ],
-      "senses": [],
-      "русский": "порыв, импульс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden push to act without thinking",
+          "body": [
+            "(порыв, импульс)"
+          ],
+          "examples": [
+            "She quit on an impulse and never looked back.",
+            "He fought the impulse to hit send.",
+            "Stores are built around impulse buys."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short electrical or nerve signal traveling along a wire or a nerve",
+          "body": [
+            "(импульс (нервный, электрический))",
+            "---"
+          ],
+          "examples": [
+            "Nerve impulses travel from the eye to the brain.",
+            "The sensor sends an electrical impulse to the control box.",
+            "Damaged nerves carry impulses more slowly."
+          ]
+        }
+      ],
+      "русский": "порыв, импульс; импульс (нервный, электрический)",
       "plural": "impulses",
       "countability": "countable"
     },
@@ -2376,14 +2565,43 @@
       "term": "mood",
       "ipa": "/muːd/",
       "respell": "MOOD",
-      "meaning": "The way someone feels at a particular time. ---",
+      "meaning": "Mood has 2 distinct senses.",
       "examples": [
         "He is in a good mood this morning.",
         "Her moods swing with the weather.",
-        "I am not in the mood for a long drive."
+        "I am not in the mood for a long drive.",
+        "Candles and low music set the mood for dinner.",
+        "The gray light gives the painting a somber mood.",
+        "The director uses rain to build a mood of dread."
       ],
-      "senses": [],
-      "русский": "настроение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way someone feels at a particular time",
+          "body": [
+            "(настроение)"
+          ],
+          "examples": [
+            "He is in a good mood this morning.",
+            "Her moods swing with the weather.",
+            "I am not in the mood for a long drive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The feeling that a place, a piece of music, or a work of art creates",
+          "body": [
+            "(атмосфера, настроение (места, произведения))",
+            "---"
+          ],
+          "examples": [
+            "Candles and low music set the mood for dinner.",
+            "The gray light gives the painting a somber mood.",
+            "The director uses rain to build a mood of dread."
+          ]
+        }
+      ],
+      "русский": "настроение; атмосфера, настроение (места, произведения)",
       "plural": "moods",
       "countability": "countable"
     },

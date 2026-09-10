@@ -560,14 +560,43 @@
       "term": "caper",
       "ipa": "/ˈkeɪpər/",
       "respell": "KAY-pur",
-      "meaning": "A small pickled flower bud used to season food. ---",
+      "meaning": "Caper has 2 distinct senses.",
       "examples": [
         "Sprinkle a few capers over the fish before serving.",
         "The sauce needs lemon, butter, and capers.",
-        "I bought a jar of capers for the recipe."
+        "I bought a jar of capers for the recipe.",
+        "The movie is a lighthearted bank-robbery caper.",
+        "Their midnight caper got them both grounded.",
+        "Police unraveled the whole caper in a week."
       ],
-      "senses": [],
-      "русский": "каперс (маринованный бутон)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small pickled flower bud used to season food",
+          "body": [
+            "(каперс (маринованный бутон))"
+          ],
+          "examples": [
+            "Sprinkle a few capers over the fish before serving.",
+            "The sauce needs lemon, butter, and capers.",
+            "I bought a jar of capers for the recipe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A playful adventure or a daring scheme, often a crime",
+          "body": [
+            "(авантюра, проделка)",
+            "---"
+          ],
+          "examples": [
+            "The movie is a lighthearted bank-robbery caper.",
+            "Their midnight caper got them both grounded.",
+            "Police unraveled the whole caper in a week."
+          ]
+        }
+      ],
+      "русский": "каперс (маринованный бутон); авантюра, проделка",
       "plural": "capers",
       "countability": "countable"
     },
@@ -885,14 +914,43 @@
       "term": "care",
       "ipa": "/kɛr/",
       "respell": "KAIR",
-      "meaning": "The work of looking after someone or something, and the attention it takes. ---",
+      "meaning": "Care has 2 distinct senses.",
       "examples": [
         "Her mother now needs full-time care.",
         "Handle the box with care.",
-        "The dog has been in the shelter's care for a month."
+        "The dog has been in the shelter's care for a month.",
+        "She has not a care in the world.",
+        "He left his cares behind for a week at the lake.",
+        "Money was the least of his cares that winter."
       ],
-      "senses": [],
-      "русский": "забота, уход",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of looking after someone or something, and the attention it takes",
+          "body": [
+            "(забота, уход)"
+          ],
+          "examples": [
+            "Her mother now needs full-time care.",
+            "Handle the box with care.",
+            "The dog has been in the shelter's care for a month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of worry, or something that causes it",
+          "body": [
+            "(тревога, беспокойство)",
+            "---"
+          ],
+          "examples": [
+            "She has not a care in the world.",
+            "He left his cares behind for a week at the lake.",
+            "Money was the least of his cares that winter."
+          ]
+        }
+      ],
+      "русский": "забота, уход; тревога, беспокойство",
       "countability": "uncountable"
     },
     {
@@ -1332,14 +1390,43 @@
       "term": "cause",
       "ipa": "/kɔːz/",
       "respell": "KAWZ",
-      "meaning": "The thing that makes something happen. ---",
+      "meaning": "Cause has 2 distinct senses.",
       "examples": [
         "Investigators are still looking for the cause of the fire.",
         "Poor diet is a leading cause of heart disease.",
-        "The two accidents had completely different causes."
+        "The two accidents had completely different causes.",
+        "The bake sale raises money for a good cause.",
+        "She gave twenty years of her life to the cause.",
+        "Volunteers rallied to the cause overnight."
       ],
-      "senses": [],
-      "русский": "причина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thing that makes something happen",
+          "body": [
+            "(причина)"
+          ],
+          "examples": [
+            "Investigators are still looking for the cause of the fire.",
+            "Poor diet is a leading cause of heart disease.",
+            "The two accidents had completely different causes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An aim or principle that people work for and support",
+          "body": [
+            "(дело, идея (за которую борются))",
+            "---"
+          ],
+          "examples": [
+            "The bake sale raises money for a good cause.",
+            "She gave twenty years of her life to the cause.",
+            "Volunteers rallied to the cause overnight."
+          ]
+        }
+      ],
+      "русский": "причина; дело, идея (за которую борются)",
       "plural": "causes",
       "countability": "countable"
     },
@@ -1841,14 +1928,43 @@
       "term": "charade",
       "ipa": "/ʃəˈreɪd/",
       "respell": "shuh-RAYD",
-      "meaning": "An obvious pretense that fools no one. ---",
+      "meaning": "Charade has 2 distinct senses.",
       "examples": [
         "The whole negotiation was a charade.",
         "He kept up the charade for another week.",
-        "Everyone saw through the charade right away."
+        "Everyone saw through the charade right away.",
+        "We played charades after dinner.",
+        "He acted out the whole movie title in charades.",
+        "Charades works best with a big group."
       ],
-      "senses": [],
-      "русский": "фарс, притворство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An obvious pretense that fools no one",
+          "body": [
+            "(фарс, притворство)"
+          ],
+          "examples": [
+            "The whole negotiation was a charade.",
+            "He kept up the charade for another week.",
+            "Everyone saw through the charade right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A party game in which players act out a word or title without speaking, usually called charades",
+          "body": [
+            "(шарады (игра))",
+            "---"
+          ],
+          "examples": [
+            "We played charades after dinner.",
+            "He acted out the whole movie title in charades.",
+            "Charades works best with a big group."
+          ]
+        }
+      ],
+      "русский": "фарс, притворство; шарады (игра)",
       "plural": "charades",
       "countability": "countable"
     },
@@ -2182,14 +2298,43 @@
       "term": "chili",
       "ipa": "/ˈtʃɪli/",
       "respell": "CHIL-ee",
-      "meaning": "A thick spicy stew of ground meat, hot peppers, and often beans. ---",
+      "meaning": "Chili has 2 distinct senses.",
       "examples": [
         "He made a big pot of chili for the game.",
         "This chili is too hot for me.",
-        "We had chili and cornbread for dinner."
+        "We had chili and cornbread for dinner.",
+        "Chop one chili and drop it in the pot.",
+        "The sauce is made with dried chilies.",
+        "He grows six kinds of chilies in the garden."
       ],
-      "senses": [],
-      "русский": "чили (острое мясное рагу)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick spicy stew of ground meat, hot peppers, and often beans",
+          "body": [
+            "(чили (острое мясное рагу))"
+          ],
+          "examples": [
+            "He made a big pot of chili for the game.",
+            "This chili is too hot for me.",
+            "We had chili and cornbread for dinner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small hot pepper used to make food spicy",
+          "body": [
+            "(перец чили)",
+            "---"
+          ],
+          "examples": [
+            "Chop one chili and drop it in the pot.",
+            "The sauce is made with dried chilies.",
+            "He grows six kinds of chilies in the garden."
+          ]
+        }
+      ],
+      "русский": "чили (острое мясное рагу); перец чили",
       "countability": "uncountable",
       "contrast": "Americans write chili; the British write chilli. It sounds almost like chilly."
     },
@@ -2197,14 +2342,43 @@
       "term": "chimera",
       "ipa": "/kaɪˈmɪrə/",
       "respell": "ky-MEER-uh",
-      "meaning": "A hope or idea that looks real but can never happen. ---",
+      "meaning": "Chimera has 2 distinct senses.",
       "examples": [
         "Lasting peace there may be a chimera.",
         "Critics called the plan a chimera.",
-        "He chased one chimera after another."
+        "He chased one chimera after another.",
+        "The vase shows a hero fighting a chimera.",
+        "A chimera has a lion's head and a serpent's tail.",
+        "Chimeras turn up all over ancient art."
       ],
-      "senses": [],
-      "русский": "химера, несбыточная мечта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hope or idea that looks real but can never happen",
+          "body": [
+            "(химера, несбыточная мечта)"
+          ],
+          "examples": [
+            "Lasting peace there may be a chimera.",
+            "Critics called the plan a chimera.",
+            "He chased one chimera after another."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A monster in Greek myth made from the parts of several animals",
+          "body": [
+            "(химера (мифическое чудовище))",
+            "---"
+          ],
+          "examples": [
+            "The vase shows a hero fighting a chimera.",
+            "A chimera has a lion's head and a serpent's tail.",
+            "Chimeras turn up all over ancient art."
+          ]
+        }
+      ],
+      "русский": "химера, несбыточная мечта; химера (мифическое чудовище)",
       "plural": "chimeras",
       "countability": "countable",
       "contrast": "The 'ch' is pronounced /k/, as in chorus."
@@ -2522,14 +2696,43 @@
       "term": "churn",
       "ipa": "/tʃɜːrn/",
       "respell": "CHURN",
-      "meaning": "The rate at which customers or employees leave and are replaced. ---",
+      "meaning": "Churn has 2 distinct senses.",
       "examples": [
         "The company is fighting high customer churn.",
         "Churn among nurses has doubled since 2020.",
-        "They track churn every quarter."
+        "They track churn every quarter.",
+        "The farm museum has an old wooden churn.",
+        "She turned the handle of the churn until butter formed.",
+        "Churns like this one stood in every farm kitchen."
       ],
-      "senses": [],
-      "русский": "текучка, отток (клиентов, кадров)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The rate at which customers or employees leave and are replaced",
+          "body": [
+            "(текучка, отток (клиентов, кадров))"
+          ],
+          "examples": [
+            "The company is fighting high customer churn.",
+            "Churn among nurses has doubled since 2020.",
+            "They track churn every quarter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A container in which cream is beaten until it turns into butter",
+          "body": [
+            "(маслобойка)",
+            "---"
+          ],
+          "examples": [
+            "The farm museum has an old wooden churn.",
+            "She turned the handle of the churn until butter formed.",
+            "Churns like this one stood in every farm kitchen."
+          ]
+        }
+      ],
+      "русский": "текучка, отток (клиентов, кадров); маслобойка",
       "countability": "uncountable"
     },
     {
@@ -2641,14 +2844,43 @@
       "term": "cipher",
       "ipa": "/ˈsaɪfər/",
       "respell": "SY-fur",
-      "meaning": "A system for writing a message in code. ---",
+      "meaning": "Cipher has 2 distinct senses.",
       "examples": [
         "The letters were written in a simple cipher.",
         "Codebreakers cracked the cipher in a week.",
-        "Modern ciphers are almost impossible to break by hand."
+        "Modern ciphers are almost impossible to break by hand.",
+        "After ten years in office he is still a cipher to the public.",
+        "Her co-workers found her a complete cipher.",
+        "The novel's narrator remains a cipher until the last chapter."
       ],
-      "senses": [],
-      "русский": "шифр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A system for writing a message in code",
+          "body": [
+            "(шифр)"
+          ],
+          "examples": [
+            "The letters were written in a simple cipher.",
+            "Codebreakers cracked the cipher in a week.",
+            "Modern ciphers are almost impossible to break by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose thoughts and character stay a mystery to everyone",
+          "body": [
+            "(загадочная личность, тёмная лошадка)",
+            "---"
+          ],
+          "examples": [
+            "After ten years in office he is still a cipher to the public.",
+            "Her co-workers found her a complete cipher.",
+            "The novel's narrator remains a cipher until the last chapter."
+          ]
+        }
+      ],
+      "русский": "шифр; загадочная личность, тёмная лошадка",
       "plural": "ciphers",
       "countability": "countable"
     },
@@ -3128,14 +3360,43 @@
       "term": "closing",
       "ipa": "/ˈkloʊzɪŋ/",
       "respell": "KLOH-zing",
-      "meaning": "The final meeting at which the sale of a house or property is completed. ---",
+      "meaning": "Closing has 2 distinct senses.",
       "examples": [
         "Closing is set for the fifteenth.",
         "We signed about thirty documents at the closing.",
-        "Closing costs came to four thousand dollars."
+        "Closing costs came to four thousand dollars.",
+        "The station listed school closings all morning.",
+        "The closing of the plant cost four hundred jobs.",
+        "Store closings have left the mall half empty."
       ],
-      "senses": [],
-      "русский": "оформление сделки (при покупке недвижимости)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The final meeting at which the sale of a house or property is completed",
+          "body": [
+            "(оформление сделки (при покупке недвижимости))"
+          ],
+          "examples": [
+            "Closing is set for the fifteenth.",
+            "We signed about thirty documents at the closing.",
+            "Closing costs came to four thousand dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shutting down of a business, school, or road, for a time or for good",
+          "body": [
+            "(закрытие (магазина, школы, дороги))",
+            "---"
+          ],
+          "examples": [
+            "The station listed school closings all morning.",
+            "The closing of the plant cost four hundred jobs.",
+            "Store closings have left the mall half empty."
+          ]
+        }
+      ],
+      "русский": "оформление сделки (при покупке недвижимости); закрытие (магазина, школы, дороги)",
       "plural": "closings",
       "countability": "countable"
     },
@@ -3143,14 +3404,43 @@
       "term": "closure",
       "ipa": "/ˈkloʊʒər/",
       "respell": "KLOH-zhur",
-      "meaning": "The shutting of a road, business, or facility, either for a time or for good. ---",
+      "meaning": "Closure has 2 distinct senses.",
       "examples": [
         "The storm caused road closures across the county.",
         "The plant closure will cost 400 jobs.",
-        "Check the district website for school closures."
+        "Check the district website for school closures.",
+        "The verdict gave the family some closure.",
+        "She wrote him a long letter just to get closure.",
+        "There is no closure for parents whose child is never found."
       ],
-      "senses": [],
-      "русский": "закрытие (дороги, предприятия)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The shutting of a road, business, or facility, either for a time or for good",
+          "body": [
+            "(закрытие (дороги, предприятия))"
+          ],
+          "examples": [
+            "The storm caused road closures across the county.",
+            "The plant closure will cost 400 jobs.",
+            "Check the district website for school closures."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling that a painful experience is finally finished",
+          "body": [
+            "(чувство завершённости, душевное успокоение)",
+            "---"
+          ],
+          "examples": [
+            "The verdict gave the family some closure.",
+            "She wrote him a long letter just to get closure.",
+            "There is no closure for parents whose child is never found."
+          ]
+        }
+      ],
+      "русский": "закрытие (дороги, предприятия); чувство завершённости, душевное успокоение",
       "plural": "closures",
       "countability": "countable"
     },
@@ -3449,14 +3739,43 @@
       "term": "cohort",
       "ipa": "/ˈkoʊhɔːrt/",
       "respell": "KOH-hort",
-      "meaning": "A group of people who share something, especially the same age or starting year. ---",
+      "meaning": "Cohort has 2 distinct senses.",
       "examples": [
         "The study followed a cohort of 5,000 nurses.",
         "This year's cohort of students is the largest yet.",
-        "Both cohorts showed the same pattern."
+        "Both cohorts showed the same pattern.",
+        "The mayor and his cohorts were indicted last spring.",
+        "He showed up with two cohorts from the old neighborhood.",
+        "Her cohorts on the board backed the plan."
       ],
-      "senses": [],
-      "русский": "группа, когорта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of people who share something, especially the same age or starting year",
+          "body": [
+            "(группа, когорта)"
+          ],
+          "examples": [
+            "The study followed a cohort of 5,000 nurses.",
+            "This year's cohort of students is the largest yet.",
+            "Both cohorts showed the same pattern."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A friend or supporter who helps someone, often in something questionable",
+          "body": [
+            "(сообщник, приспешник)",
+            "---"
+          ],
+          "examples": [
+            "The mayor and his cohorts were indicted last spring.",
+            "He showed up with two cohorts from the old neighborhood.",
+            "Her cohorts on the board backed the plan."
+          ]
+        }
+      ],
+      "русский": "группа, когорта; сообщник, приспешник",
       "plural": "cohorts",
       "countability": "countable"
     },
@@ -3464,14 +3783,43 @@
       "term": "coinage",
       "ipa": "/ˈkɔɪnɪdʒ/",
       "respell": "KOY-nij",
-      "meaning": "A newly invented word or phrase. ---",
+      "meaning": "Coinage has 2 distinct senses.",
       "examples": [
         "'Selfie' is a recent coinage.",
         "The book is full of odd coinages.",
-        "That term is a coinage of the 1990s."
+        "That term is a coinage of the 1990s.",
+        "Silver coinage disappeared from circulation.",
+        "The country reformed its coinage in 1965.",
+        "Gold coinage was common before paper money."
       ],
-      "senses": [],
-      "русский": "новое слово, неологизм",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A newly invented word or phrase",
+          "body": [
+            "(новое слово, неологизм)"
+          ],
+          "examples": [
+            "'Selfie' is a recent coinage.",
+            "The book is full of odd coinages.",
+            "That term is a coinage of the 1990s."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Coins taken as a whole, or the system of coins a country uses",
+          "body": [
+            "(монеты, монетная система)",
+            "---"
+          ],
+          "examples": [
+            "Silver coinage disappeared from circulation.",
+            "The country reformed its coinage in 1965.",
+            "Gold coinage was common before paper money."
+          ]
+        }
+      ],
+      "русский": "новое слово, неологизм; монеты, монетная система",
       "plural": "coinages",
       "countability": "countable"
     },
@@ -4132,14 +4480,43 @@
       "term": "conceit",
       "ipa": "/kənˈsiːt/",
       "respell": "kuhn-SEET",
-      "meaning": "Too high an opinion of yourself. ---",
+      "meaning": "Conceit has 2 distinct senses.",
       "examples": [
         "His conceit makes him hard to work with.",
         "There's a streak of conceit in her writing.",
-        "Fame did nothing to cure his conceit."
+        "Fame did nothing to cure his conceit.",
+        "The whole film rests on one clever conceit.",
+        "The novel's conceit is that the house tells the story.",
+        "The poem builds on an old conceit comparing love to war."
       ],
-      "senses": [],
-      "русский": "самомнение, тщеславие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Too high an opinion of yourself",
+          "body": [
+            "(самомнение, тщеславие)"
+          ],
+          "examples": [
+            "His conceit makes him hard to work with.",
+            "There's a streak of conceit in her writing.",
+            "Fame did nothing to cure his conceit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The central idea or unusual image on which a work of art is built",
+          "body": [
+            "(художественный приём, замысел (лежащий в основе))",
+            "---"
+          ],
+          "examples": [
+            "The whole film rests on one clever conceit.",
+            "The novel's conceit is that the house tells the story.",
+            "The poem builds on an old conceit comparing love to war."
+          ]
+        }
+      ],
+      "русский": "самомнение, тщеславие; художественный приём, замысел (лежащий в основе)",
       "countability": "uncountable"
     },
     {
@@ -4959,14 +5336,43 @@
       "term": "control",
       "ipa": "/kənˈtroʊl/",
       "respell": "kuhn-TROHL",
-      "meaning": "Power over something, or the switches and levers used to operate a machine. ---",
+      "meaning": "Control has 2 distinct senses.",
       "examples": [
         "She lost control of the car on the ice.",
         "The pilot handed over the controls.",
-        "Pest control costs us a fortune."
+        "Pest control costs us a fortune.",
+        "Half the patients served as the control.",
+        "The study had no proper control.",
+        "The controls were given a sugar pill instead."
       ],
-      "senses": [],
-      "русский": "контроль, управление; органы управления",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Power over something, or the switches and levers used to operate a machine",
+          "body": [
+            "(контроль, управление; органы управления)"
+          ],
+          "examples": [
+            "She lost control of the car on the ice.",
+            "The pilot handed over the controls.",
+            "Pest control costs us a fortune."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or group in an experiment that gets no treatment, used for comparison",
+          "body": [
+            "(контрольная группа, контроль (в опыте))",
+            "---"
+          ],
+          "examples": [
+            "Half the patients served as the control.",
+            "The study had no proper control.",
+            "The controls were given a sugar pill instead."
+          ]
+        }
+      ],
+      "русский": "контроль, управление; органы управления; контрольная группа, контроль (в опыте)",
       "plural": "controls",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -5542,14 +5948,43 @@
       "term": "country",
       "ipa": "/ˈkʌntri/",
       "respell": "KUN-tree",
-      "meaning": "A nation with its own government, or open land away from towns. ---",
+      "meaning": "Country has 2 distinct senses.",
       "examples": [
         "She has visited eleven countries.",
         "They moved out to the country for the quiet.",
-        "Which country issued your passport?"
+        "Which country issued your passport?",
+        "She only listens to country on long drives.",
+        "The bar plays classic country on Friday nights.",
+        "He moved to Nashville to write country."
       ],
-      "senses": [],
-      "русский": "страна; сельская местность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A nation with its own government, or open land away from towns",
+          "body": [
+            "(страна; сельская местность)"
+          ],
+          "examples": [
+            "She has visited eleven countries.",
+            "They moved out to the country for the quiet.",
+            "Which country issued your passport?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A style of American popular music that grew out of the rural South",
+          "body": [
+            "(кантри (музыкальный стиль))",
+            "---"
+          ],
+          "examples": [
+            "She only listens to country on long drives.",
+            "The bar plays classic country on Friday nights.",
+            "He moved to Nashville to write country."
+          ]
+        }
+      ],
+      "русский": "страна; сельская местность; кантри (музыкальный стиль)",
       "plural": "countries",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "The first syllable is KUN, not KOWN, even though it is spelled coun-."
@@ -5797,14 +6232,43 @@
       "term": "crawl",
       "ipa": "/krɔːl/",
       "respell": "KRAWL",
-      "meaning": "A very slow rate of movement. ---",
+      "meaning": "Crawl has 2 distinct senses.",
       "examples": [
         "Traffic on the bridge slowed to a crawl.",
         "The line at the DMV moved at a crawl.",
-        "By August the whole project had settled into a crawl."
+        "By August the whole project had settled into a crawl.",
+        "She swims the crawl better than anyone on the team.",
+        "Coach spent the whole hour on our crawl.",
+        "He switched from the breaststroke to the crawl on the last lap."
       ],
-      "senses": [],
-      "русский": "черепаший шаг, очень медленное движение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very slow rate of movement",
+          "body": [
+            "(черепаший шаг, очень медленное движение)"
+          ],
+          "examples": [
+            "Traffic on the bridge slowed to a crawl.",
+            "The line at the DMV moved at a crawl.",
+            "By August the whole project had settled into a crawl."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fast swimming stroke in which the arms reach over the head one after the other",
+          "body": [
+            "(кроль (стиль плавания))",
+            "---"
+          ],
+          "examples": [
+            "She swims the crawl better than anyone on the team.",
+            "Coach spent the whole hour on our crawl.",
+            "He switched from the breaststroke to the crawl on the last lap."
+          ]
+        }
+      ],
+      "русский": "черепаший шаг, очень медленное движение; кроль (стиль плавания)",
       "plural": "crawls",
       "countability": "countable"
     },
@@ -5916,14 +6380,43 @@
       "term": "creep",
       "ipa": "/kriːp/",
       "respell": "KREEP",
-      "meaning": "An unpleasant person who makes other people uncomfortable. ---",
+      "meaning": "Creep has 2 distinct senses.",
       "examples": [
         "Some creep kept staring at us on the subway.",
         "Her ex turned out to be a total creep.",
-        "The bar was full of creeps by midnight."
+        "The bar was full of creeps by midnight.",
+        "Managers watched the creep in shipping costs all year.",
+        "The project suffered from scope creep from the first week.",
+        "There's been a slow creep of ads into every part of the app."
       ],
-      "senses": [],
-      "русский": "мерзкий тип, неприятный человек",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An unpleasant person who makes other people uncomfortable",
+          "body": [
+            "(мерзкий тип, неприятный человек)"
+          ],
+          "examples": [
+            "Some creep kept staring at us on the subway.",
+            "Her ex turned out to be a total creep.",
+            "The bar was full of creeps by midnight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slow, steady increase or spread that is hard to notice",
+          "body": [
+            "(постепенное разрастание, сползание)",
+            "---"
+          ],
+          "examples": [
+            "Managers watched the creep in shipping costs all year.",
+            "The project suffered from scope creep from the first week.",
+            "There's been a slow creep of ads into every part of the app."
+          ]
+        }
+      ],
+      "русский": "мерзкий тип, неприятный человек; постепенное разрастание, сползание",
       "plural": "creeps",
       "countability": "countable"
     },
@@ -6125,14 +6618,43 @@
       "term": "cruiser",
       "ipa": "/ˈkruːzər/",
       "respell": "KROO-zur",
-      "meaning": "A police patrol car. ---",
+      "meaning": "Cruiser has 2 distinct senses.",
       "examples": [
         "Two cruisers blocked the intersection.",
         "The officer put him in the back of the cruiser.",
-        "A cruiser was parked outside all night."
+        "A cruiser was parked outside all night.",
+        "The cruiser left port with two destroyers.",
+        "Three cruisers were lost in the battle.",
+        "He served on a cruiser in the Pacific."
       ],
-      "senses": [],
-      "русский": "патрульный автомобиль (полиции)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A police patrol car",
+          "body": [
+            "(патрульный автомобиль (полиции))"
+          ],
+          "examples": [
+            "Two cruisers blocked the intersection.",
+            "The officer put him in the back of the cruiser.",
+            "A cruiser was parked outside all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large fast warship, smaller than a battleship",
+          "body": [
+            "(крейсер)",
+            "---"
+          ],
+          "examples": [
+            "The cruiser left port with two destroyers.",
+            "Three cruisers were lost in the battle.",
+            "He served on a cruiser in the Pacific."
+          ]
+        }
+      ],
+      "русский": "патрульный автомобиль (полиции); крейсер",
       "plural": "cruisers",
       "countability": "countable"
     },
@@ -6140,14 +6662,58 @@
       "term": "crunch",
       "ipa": "/krʌntʃ/",
       "respell": "KRUNCH",
-      "meaning": "The sharp sound of something hard being bitten or crushed. ---",
+      "meaning": "Crunch has 3 distinct senses.",
       "examples": [
         "I love the crunch of a good apple.",
         "There was a satisfying crunch as she bit into the chip.",
-        "We walked through the leaves just for the crunch."
+        "We walked through the leaves just for the crunch.",
+        "The budget crunch forced the school to cut music.",
+        "We hire extra help during the holiday crunch.",
+        "When it came to the crunch, nobody spoke up.",
+        "He does fifty crunches every morning.",
+        "Start with one set of crunches and build from there.",
+        "Crunches alone won't give you a flat stomach."
       ],
-      "senses": [],
-      "русский": "хруст",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sharp sound of something hard being bitten or crushed",
+          "body": [
+            "(хруст)"
+          ],
+          "examples": [
+            "I love the crunch of a good apple.",
+            "There was a satisfying crunch as she bit into the chip.",
+            "We walked through the leaves just for the crunch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period of serious shortage or pressure",
+          "body": [
+            "(кризис, нехватка, напряжённый период)"
+          ],
+          "examples": [
+            "The budget crunch forced the school to cut music.",
+            "We hire extra help during the holiday crunch.",
+            "When it came to the crunch, nobody spoke up."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An exercise in which you curl your upper body up to tighten your stomach muscles",
+          "body": [
+            "(скручивание (упражнение на пресс))",
+            "---"
+          ],
+          "examples": [
+            "He does fifty crunches every morning.",
+            "Start with one set of crunches and build from there.",
+            "Crunches alone won't give you a flat stomach."
+          ]
+        }
+      ],
+      "русский": "хруст; кризис, нехватка, напряжённый период; скручивание (упражнение на пресс)",
       "plural": "crunches",
       "countability": "countable"
     },
@@ -6244,14 +6810,43 @@
       "term": "culture",
       "ipa": "/ˈkʌltʃər/",
       "respell": "KUL-chur",
-      "meaning": "The arts and ideas of a society, or one particular society's whole way of life. ---",
+      "meaning": "Culture has 2 distinct senses.",
       "examples": [
         "Museums are a big part of the city's culture.",
         "Both cultures put a high value on hospitality.",
-        "The company has a strong culture of asking questions."
+        "The company has a strong culture of asking questions.",
+        "The doctor took a throat culture to check for strep.",
+        "The culture came back negative.",
+        "Cell cultures are kept at body temperature."
       ],
-      "senses": [],
-      "русский": "культура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The arts and ideas of a society, or one particular society's whole way of life",
+          "body": [
+            "(культура)"
+          ],
+          "examples": [
+            "Museums are a big part of the city's culture.",
+            "Both cultures put a high value on hospitality.",
+            "The company has a strong culture of asking questions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Bacteria or cells grown in a lab for study, or the test that grows them",
+          "body": [
+            "(культура (бактерий), посев)",
+            "---"
+          ],
+          "examples": [
+            "The doctor took a throat culture to check for strep.",
+            "The culture came back negative.",
+            "Cell cultures are kept at body temperature."
+          ]
+        }
+      ],
+      "русский": "культура; культура (бактерий), посев",
       "plural": "cultures",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -6419,14 +7014,43 @@
       "term": "cutoff",
       "ipa": "/ˈkʌtɔːf/",
       "respell": "KUT-awf",
-      "meaning": "A fixed limit or deadline past which something no longer counts. ---",
+      "meaning": "Cutoff has 2 distinct senses.",
       "examples": [
         "The cutoff for applications is Friday at five.",
         "Anyone above the score cutoff gets a second interview.",
-        "They moved both cutoffs back a week."
+        "They moved both cutoffs back a week.",
+        "He spent the summer in cutoffs and a T-shirt.",
+        "Her cutoffs were fraying at the hem.",
+        "Somebody showed up to the wedding in cutoffs."
       ],
-      "senses": [],
-      "русский": "предельный срок, граница отсечения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fixed limit or deadline past which something no longer counts",
+          "body": [
+            "(предельный срок, граница отсечения)"
+          ],
+          "examples": [
+            "The cutoff for applications is Friday at five.",
+            "Anyone above the score cutoff gets a second interview.",
+            "They moved both cutoffs back a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pair of shorts made by cutting the legs off a pair of jeans",
+          "body": [
+            "(обрезанные джинсовые шорты)",
+            "---"
+          ],
+          "examples": [
+            "He spent the summer in cutoffs and a T-shirt.",
+            "Her cutoffs were fraying at the hem.",
+            "Somebody showed up to the wedding in cutoffs."
+          ]
+        }
+      ],
+      "русский": "предельный срок, граница отсечения; обрезанные джинсовые шорты",
       "plural": "cutoffs",
       "countability": "countable"
     },

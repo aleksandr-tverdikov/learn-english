@@ -12,61 +12,105 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### cloud
 
 **Pronunciation:** /klaʊd/ &middot; *KLOWD*
-**Русский:** облако, туча
+**Русский:** облако, туча; облако (пыли, дыма), клубы; облако, облачное хранилище
 **Plural:** *clouds*
 **Countability:** countable
 
-A white or gray mass of water droplets floating in the sky.
+Cloud has 3 distinct senses.
+
+**1. A white or gray mass of water droplets floating in the sky.** (облако, туча)
 
 1. A dark *cloud* moved in over the lake.
 2. The *clouds* finally broke around noon.
 3. You could see his breath turn into a little *cloud* of steam.
+
+**2. A mass of smoke, dust, or tiny particles floating in the air.** (облако (пыли, дыма), клубы)
+
+4. The truck left a *cloud* of dust behind it.
+5. A *cloud* of smoke hung over the valley for days.
+6. *Clouds* of insects rose out of the grass.
+
+**3. Storage and computing power provided over the internet instead of on your own machine.** (облако, облачное хранилище)
+
+7. All my photos are backed up to the *cloud*.
+8. The company moved its records to the *cloud*.
+9. You can open the file from the *cloud* on any device.
 
 ---
 
 ### sun
 
 **Pronunciation:** /sʌn/ &middot; *SUN*
-**Русский:** солнце
+**Русский:** солнце; солнце, солнечный свет (тепло и свет)
 **Plural:** *suns*
 **Countability:** countable
 **Contrast:** *Sun* and *son* are perfect homophones in American English.
 
-The star that the earth goes around and that gives us light and heat.
+Sun has 2 distinct senses.
+
+**1. The star that the earth goes around and that gives us light and heat.** (солнце)
 
 1. The *sun* comes up around six this time of year.
 2. Don't sit in the *sun* too long without a hat.
 3. Some of those planets orbit two *suns*.
+
+**2. Sunlight and its warmth, thought of as something you sit in or keep out of.** (солнце, солнечный свет (тепло и свет))
+
+4. The kids were out in the *sun* all afternoon.
+5. This corner of the yard gets very little *sun*.
+6. Put a hat on and stay out of the *sun*.
 
 ---
 
 ### moon
 
 **Pronunciation:** /muːn/ &middot; *MOON*
-**Русский:** луна
+**Русский:** луна; спутник (планеты)
 **Plural:** *moons*
 **Countability:** countable
 
-The large round object that circles the earth and shines at night.
+Moon has 2 distinct senses.
+
+**1. The large round object that circles the earth and shines at night.** (луна)
 
 1. There's a full *moon* tonight.
 2. The *moon* was so bright we didn't need a flashlight.
 3. Jupiter has dozens of *moons*.
+
+**2. A natural body that circles a planet other than the earth.** (спутник (планеты))
+
+4. Jupiter has dozens of *moons*.
+5. Titan is the largest *moon* of Saturn.
+6. The probe photographed two small *moons* nobody had seen before.
 
 ---
 
 ### star
 
 **Pronunciation:** /stɑːr/ &middot; *STAHR*
-**Русский:** звезда
+**Русский:** звезда; звезда (знаменитость); звезда (фигура, знак отличия, оценка)
 **Plural:** *stars*
 **Countability:** countable
 
-A huge ball of burning gas that looks like a point of light at night.
+Star has 3 distinct senses.
+
+**1. A huge ball of burning gas that looks like a point of light at night.** (звезда)
 
 1. Out in the desert you can see thousands of *stars*.
 2. That bright *star* is actually Venus.
 3. We lay on the roof and counted *stars*.
+
+**2. A famous and successful performer or athlete.** (звезда (знаменитость))
+
+4. He became a *star* after his first album.
+5. The movie *stars* arrived in dark glasses.
+6. She was the *star* of the school play.
+
+**3. A pointed shape used as a symbol, a reward, or a rating.** (звезда (фигура, знак отличия, оценка))
+
+7. The teacher put a gold *star* on her paper.
+8. The restaurant earned three *stars* in the guide.
+9. Draw a *star* at the top of the tree.
 
 ---
 
@@ -115,30 +159,58 @@ The light that comes from the moon at night.
 ### ray
 
 **Pronunciation:** /reɪ/ &middot; *RAY*
-**Русский:** луч
+**Русский:** луч; скат (рыба)
 **Plural:** *rays*
 **Countability:** countable
 
-A narrow line of light or heat traveling from something.
+Ray has 2 distinct senses.
+
+**1. A narrow line of light or heat traveling from something.** (луч)
 
 1. A *ray* of sun came through the curtains.
 2. Sunscreen blocks the *rays* that burn your skin.
 3. The first *rays* hit the top of the mountain.
+
+**2. A flat sea fish with wide winglike fins and a long thin tail.** (скат (рыба))
+
+4. A *ray* glided over the sand right below us.
+5. *Rays* often bury themselves in the shallows.
+6. The aquarium has a tank where you can touch the *rays*.
 
 ---
 
 ### shade
 
 **Pronunciation:** /ʃeɪd/ &middot; *SHAYD*
-**Русский:** тень (прохладное место)
+**Русский:** тень (прохладное место); штора, жалюзи; абажур; оттенок (цвета); нюанс, лёгкая примесь, чуточка
 **Countability:** uncountable
 **Contrast:** Russian «тень» splits in two: *shade* is the cool area out of the sun, *shadow* is the dark shape an object casts.
 
-An area that is cooler and darker because something blocks the sun.
+Shade has 4 distinct senses.
+
+**1. An area that is cooler and darker because something blocks the sun.** (тень (прохладное место))
 
 1. Let's eat in the *shade* — it's ninety degrees out here.
 2. That old oak gives the whole yard *shade*.
 3. There's no *shade* anywhere on this beach.
+
+**2. A cover pulled down over a window, or the cover over a lamp.** (штора, жалюзи; абажур)
+
+4. Pull the *shades* down before the sun hits that window.
+5. She raised the *shade* and looked out at the street.
+6. The lamp in the hall needs a new *shade*.
+
+**3. A particular variety or depth of a color.** (оттенок (цвета))
+
+7. The wall is a darker *shade* of blue than I wanted.
+8. They sell the same shirt in eight *shades* of gray.
+9. Her hair had gone a lighter *shade* over the summer.
+
+**4. A slight difference or a small amount of something.** (нюанс, лёгкая примесь, чуточка)
+
+10. The two words carry different *shades* of meaning.
+11. There was a *shade* of doubt in his voice.
+12. Every answer came with a *shade* of sarcasm.
 
 ---
 
@@ -160,15 +232,23 @@ The dark shape made on a surface when something blocks the light.
 ### dawn
 
 **Pronunciation:** /dɔːn/ &middot; *DAWN*
-**Русский:** рассвет, заря
+**Русский:** рассвет, заря; начало, заря (эпохи)
 **Plural:** *dawns*
 **Countability:** countable
 
-The first light of the day, just before the sun comes up.
+Dawn has 2 distinct senses.
+
+**1. The first light of the day, just before the sun comes up.** (рассвет, заря)
 
 1. The crew starts work at *dawn*.
 2. We drove all night and got there at *dawn*.
 3. It was a cold, gray *dawn*.
+
+**2. The beginning of a period or of a new state of things.** (начало, заря (эпохи))
+
+4. This was the *dawn* of the personal computer.
+5. The treaty promised the *dawn* of a new era.
+6. Storytelling goes back to the *dawn* of human history.
 
 ---
 
@@ -261,15 +341,23 @@ A statement of what the weather is expected to be.
 ### climate
 
 **Pronunciation:** /ˈklaɪmət/ &middot; *KLY-muht*
-**Русский:** климат
+**Русский:** климат; обстановка, атмосфера (общественная)
 **Plural:** *climates*
 **Countability:** countable
 
-The usual weather a place has over many years.
+Climate has 2 distinct senses.
+
+**1. The usual weather a place has over many years.** (климат)
 
 1. Arizona has a dry *climate*.
 2. My knees do better in a warm *climate*.
 3. These grapes only grow in cool *climates*.
+
+**2. The general mood or set of conditions surrounding a situation.** (обстановка, атмосфера (общественная))
+
+4. The political *climate* has changed since the election.
+5. Small firms are struggling in the current economic *climate*.
+6. A *climate* of fear kept people from speaking up.
 
 ---
 
@@ -292,30 +380,58 @@ The layer of gases surrounding a planet.
 ### season
 
 **Pronunciation:** /ˈsiːzən/ &middot; *SEE-zuhn*
-**Русский:** время года, сезон
+**Русский:** время года, сезон; сезон (спортивный, туристический, уборочный); сезон (сериала)
 **Plural:** *seasons*
 **Countability:** countable
 
-One of the four parts of the year, or a period with typical weather.
+Season has 3 distinct senses.
+
+**1. One of the four parts of the year, or a period with typical weather.** (время года, сезон)
 
 1. Fall is my favorite *season*.
 2. We get all four *seasons* here.
 3. Hurricane *season* runs from June through November.
+
+**2. The part of the year when a particular sport, crop, or business is at its height.** (сезон (спортивный, туристический, уборочный))
+
+4. The football *season* starts in September.
+5. Hotels double their rates during the busy *season*.
+6. He hit thirty home runs last *season*.
+
+**3. A set of episodes of a television show released over one period.** (сезон (сериала))
+
+7. The third *season* comes out in October.
+8. We watched a whole *season* in one weekend.
+9. The show was canceled after two *seasons*.
 
 ---
 
 ### degree
 
 **Pronunciation:** /dɪˈɡriː/ &middot; *dih-GREE*
-**Русский:** градус
+**Русский:** градус; учёная степень, диплом о высшем образовании; степень, мера
 **Plural:** *degrees*
 **Countability:** countable
 
-A unit for measuring temperature.
+Degree has 3 distinct senses.
+
+**1. A unit for measuring temperature.** (градус)
 
 1. It's supposed to hit ninety *degrees* tomorrow.
 2. The temperature dropped twenty *degrees* in an hour.
 3. Water freezes at thirty-two *degrees* Fahrenheit.
+
+**2. A qualification given by a university to a student who completes a course of study.** (учёная степень, диплом о высшем образовании)
+
+4. She has a *degree* in civil engineering.
+5. He finished his *degree* at night school.
+6. Both *degrees* hang framed in her office.
+
+**3. The amount or extent to which something is true or present.** (степень, мера)
+
+7. There is a *degree* of risk in any investment.
+8. To some *degree*, we were all responsible.
+9. The work requires a high *degree* of accuracy.
 
 ---
 
@@ -408,31 +524,59 @@ A scientist who studies and predicts the weather.
 ### front
 
 **Pronunciation:** /frʌnt/ &middot; *FRUNT*
-**Русский:** атмосферный фронт
+**Русский:** атмосферный фронт; передняя часть, фасад; фронт (линия боевых действий); прикрытие, ширма
 **Plural:** *fronts*
 **Countability:** countable
 **Contrast:** Spelled with an o but pronounced FRUNT, rhyming with *hunt*.
 
-The boundary between two masses of air, which usually brings a change in weather.
+Front has 4 distinct senses.
+
+**1. The boundary between two masses of air, which usually brings a change in weather.** (атмосферный фронт)
 
 1. A cold *front* is moving in tonight.
 2. The *front* stalled over the valley and it rained for three days.
 3. Warm *fronts* usually bring steady rain instead of thunderstorms.
+
+**2. The part or side of something that faces forward.** (передняя часть, фасад)
+
+4. There's a long scratch on the *front* of the car.
+5. We sat at the *front* of the classroom.
+6. The *front* of the building is all glass.
+
+**3. The line along which two armies are fighting in a war.** (фронт (линия боевых действий))
+
+7. Her grandfather was wounded at the *front*.
+8. Fresh troops were sent to the eastern *front*.
+9. Letters from the *front* took weeks to arrive.
+
+**4. A person or business used to hide an illegal or secret activity.** (прикрытие, ширма)
+
+10. The car wash was a *front* for a gambling ring.
+11. Police say the charity was just a *front*.
+12. Several *fronts* were set up to move the money.
 
 ---
 
 ### storm
 
 **Pronunciation:** /stɔːrm/ &middot; *STORM*
-**Русский:** буря, гроза, шторм
+**Русский:** буря, гроза, шторм; буря (возмущения), шквал
 **Plural:** *storms*
 **Countability:** countable
 
-A period of violent weather with strong wind and usually rain or snow.
+Storm has 2 distinct senses.
+
+**1. A period of violent weather with strong wind and usually rain or snow.** (буря, гроза, шторм)
 
 1. We lost power during the *storm*.
 2. A big *storm* is supposed to come through Friday night.
 3. Three *storms* hit the coast in two weeks.
+
+**2. A sudden violent outburst of public feeling or trouble.** (буря (возмущения), шквал)
+
+4. The remark set off a *storm* of criticism.
+5. The bill passed after a political *storm*.
+6. Her resignation caused a media *storm*.
 
 ---
 
@@ -484,14 +628,22 @@ A bright flash of electricity in the sky during a storm.
 ### drizzle
 
 **Pronunciation:** /ˈdrɪzəl/ &middot; *DRIZ-uhl*
-**Русский:** моросящий дождь, морось
+**Русский:** моросящий дождь, морось; тонкая струйка (соуса, масла)
 **Countability:** uncountable
 
-Very light rain made of fine drops.
+Drizzle has 2 distinct senses.
+
+**1. Very light rain made of fine drops.** (моросящий дождь, морось)
 
 1. It's just *drizzle* — you don't need an umbrella.
 2. The game went on through a steady *drizzle*.
 3. Cold *drizzle* is somehow worse than real rain.
+
+**2. A thin stream of liquid poured over food.** (тонкая струйка (соуса, масла))
+
+4. Finish the salad with a *drizzle* of olive oil.
+5. The cake came with a *drizzle* of lemon glaze.
+6. Add a *drizzle* of honey to the yogurt.
 
 ---
 
@@ -557,15 +709,23 @@ A curved band of colors in the sky, caused by sun shining through rain.
 ### hail
 
 **Pronunciation:** /heɪl/ &middot; *HAYL*
-**Русский:** град
+**Русский:** град; град (пуль, упрёков)
 **Countability:** uncountable
 **Contrast:** *Hail* is uncountable — one piece of it is *a hailstone*, never "a hail".
 
-Small balls of ice that fall from storm clouds.
+Hail has 2 distinct senses.
+
+**1. Small balls of ice that fall from storm clouds.** (град)
 
 1. *Hail* the size of quarters dented every car on the lot.
 2. We pulled over and waited out the *hail*.
 3. The storm brought wind, rain, and *hail*.
+
+**2. A large number of things thrown, fired, or aimed at once.** (град (пуль, упрёков))
+
+4. The car was hit by a *hail* of bullets.
+5. Her proposal met a *hail* of criticism.
+6. A *hail* of stones came down from the ridge.
 
 ---
 
@@ -675,15 +835,23 @@ A severe snowstorm with strong wind and very poor visibility.
 ### flurry
 
 **Pronunciation:** /ˈflɜːri/ &middot; *FLUR-ee*
-**Русский:** лёгкий снегопад, кратковременный снег
+**Русский:** лёгкий снегопад, кратковременный снег; шквал, всплеск (активности)
 **Plural:** *flurries*
 **Countability:** countable
 
-A brief, light fall of snow.
+Flurry has 2 distinct senses.
+
+**1. A brief, light fall of snow.** (лёгкий снегопад, кратковременный снег)
 
 1. We're expecting *flurries* tonight, nothing serious.
 2. A *flurry* blew past the window and stopped.
 3. There were *flurries* on the drive up, but nothing stuck.
+
+**2. A sudden short burst of activity.** (шквал, всплеск (активности))
+
+4. There was a *flurry* of calls right before closing.
+5. The announcement set off a *flurry* of trading.
+6. After a few early *flurries*, the day went quiet.
 
 ---
 
@@ -766,15 +934,23 @@ A thin white layer of ice crystals, or a night cold enough to form one.
 ### thaw
 
 **Pronunciation:** /θɔː/ &middot; *THAW*
-**Русский:** оттепель
+**Русский:** оттепель; потепление (в отношениях)
 **Plural:** *thaws*
 **Countability:** countable
 
-A period of warmer weather when snow and ice melt.
+Thaw has 2 distinct senses.
+
+**1. A period of warmer weather when snow and ice melt.** (оттепель)
 
 1. We got a *thaw* in the middle of January.
 2. The river floods every spring during the *thaw*.
 3. A couple of *thaws* turned the yard into mud.
+
+**2. An improvement in relations between people or countries that had been unfriendly.** (потепление (в отношениях))
+
+4. The visit marked a *thaw* in relations between the two countries.
+5. There's been a slight *thaw* between the brothers.
+6. Trade talks brought a brief *thaw*.
 
 ---
 
@@ -810,14 +986,22 @@ Injury to the skin and flesh caused by extreme cold.
 ### fog
 
 **Pronunciation:** /fɔːɡ/ &middot; *FAWG*
-**Русский:** туман
+**Русский:** туман; туман в голове, помутнение сознания
 **Countability:** uncountable
 
-A thick cloud of water droplets near the ground that makes it hard to see.
+Fog has 2 distinct senses.
+
+**1. A thick cloud of water droplets near the ground that makes it hard to see.** (туман)
 
 1. The *fog* was so thick I couldn't see the mailbox.
 2. *Fog* rolls in off the bay almost every morning.
 3. The bridge was closed because of *fog*.
+
+**2. A state of confusion in which you cannot think clearly.** (туман в голове, помутнение сознания)
+
+4. I got through the whole week in a *fog*.
+5. The medication left her in a mental *fog*.
+6. The first months after the baby were a complete *fog*.
 
 ---
 
@@ -838,14 +1022,22 @@ A thin fog, or a fine spray of tiny water drops in the air.
 ### haze
 
 **Pronunciation:** /heɪz/ &middot; *HAYZ*
-**Русский:** дымка, мгла
+**Русский:** дымка, мгла; туман в голове, помутнение сознания
 **Countability:** uncountable
 
-A slight cloudiness in the air from dust, smoke, or heat.
+Haze has 2 distinct senses.
+
+**1. A slight cloudiness in the air from dust, smoke, or heat.** (дымка, мгла)
 
 1. There's a *haze* over the whole valley from the wildfires.
 2. You could barely make out the skyline through the *haze*.
 3. Summer *haze* makes the mountains look blue.
+
+**2. A state in which someone cannot think clearly.** (туман в голове, помутнение сознания)
+
+4. I got through the baby's first month in a *haze*.
+5. After the surgery he spent two days in a *haze* of painkillers.
+6. The whole evening is a *haze* — I don't even remember leaving.
 
 ---
 
@@ -902,31 +1094,47 @@ Pollen has 2 distinct senses.
 ### wind
 
 **Pronunciation:** /wɪnd/ &middot; *WIND*
-**Русский:** ветер
+**Русский:** ветер; дыхание
 **Plural:** *winds*
 **Countability:** countable
 **Contrast:** The noun is WIND (rhymes with *pinned*); the verb *to wind* a clock is WYND (rhymes with *find*).
 
-Air moving across the land or the sea.
+Wind has 2 distinct senses.
+
+**1. Air moving across the land or the sea.** (ветер)
 
 1. A cold *wind* was coming off the lake.
 2. The *wind* took my hat halfway down the block.
 3. *Winds* of forty miles an hour knocked out the power.
+
+**2. The ability to breathe normally, especially during hard effort.** (дыхание)
+
+4. The fall knocked the *wind* out of me.
+5. Give me a second to get my *wind* back.
+6. He found his second *wind* on the last mile.
 
 ---
 
 ### breeze
 
 **Pronunciation:** /briːz/ &middot; *BREEZ*
-**Русский:** лёгкий ветер, ветерок
+**Русский:** лёгкий ветер, ветерок; лёгкое дело, пустяк
 **Plural:** *breezes*
 **Countability:** countable
 
-A light, pleasant wind.
+Breeze has 2 distinct senses.
+
+**1. A light, pleasant wind.** (лёгкий ветер, ветерок)
 
 1. There's a nice *breeze* on the porch.
 2. The *breeze* off the ocean keeps it from getting too hot.
 3. Evening *breezes* make August almost bearable.
+
+**2. Something that is very easy to do.** (лёгкое дело, пустяк)
+
+4. The final exam turned out to be a *breeze*.
+5. With the new software, payroll is a *breeze*.
+6. The hike looked hard, but it was a *breeze*.
 
 ---
 
@@ -1098,14 +1306,22 @@ A short period of unusually cold weather.
 ### warmth
 
 **Pronunciation:** /wɔːrmθ/ &middot; *WORMTH*
-**Русский:** тепло
+**Русский:** тепло; теплота, сердечность
 **Countability:** uncountable
 
-The pleasant quality of being warm.
+Warmth has 2 distinct senses.
+
+**1. The pleasant quality of being warm.** (тепло)
 
 1. You could feel the *warmth* coming off the sidewalk.
 2. We stepped inside for a little *warmth*.
 3. Wool keeps its *warmth* even when it's wet.
+
+**2. Friendliness and kind feeling toward other people.** (теплота, сердечность)
+
+4. She greeted every guest with real *warmth*.
+5. There was no *warmth* in his voice at all.
+6. I still remember the *warmth* of that welcome.
 
 ---
 
@@ -1157,16 +1373,36 @@ The warmest season of the year, between spring and fall.
 ### fall
 
 **Pronunciation:** /fɔːl/ &middot; *FAWL*
-**Русский:** осень
+**Русский:** осень; падение; падение, снижение (цен, уровня); падение, крушение (власти, города)
 **Plural:** *falls*
 **Countability:** countable
 **Contrast:** Americans normally say *fall*; the British say *autumn*. Both are understood in the US.
 
-The season between summer and winter, when leaves change color.
+Fall has 4 distinct senses.
+
+**1. The season between summer and winter, when leaves change color.** (осень)
 
 1. The leaves are beautiful here in the *fall*.
 2. She starts law school this *fall*.
 3. We've had some cold *falls* lately.
+
+**2. An act of dropping to the ground, usually by accident.** (падение)
+
+4. She broke her wrist in a *fall* on the ice.
+5. He took a bad *fall* off the ladder.
+6. Most *falls* at home happen in the bathroom.
+
+**3. A drop in the amount, level, or price of something.** (падение, снижение (цен, уровня))
+
+7. The report showed a sharp *fall* in unemployment.
+8. A steady *fall* in prices hurt local growers.
+9. *Falls* in temperature overnight can ruin the crop.
+
+**4. The loss of power by a government, or the capture of a city.** (падение, крушение (власти, города))
+
+10. The class spent a week on the *fall* of the empire.
+11. The *fall* of the city ended the war.
+12. His *fall* from power took less than a month.
 
 ---
 
@@ -1355,15 +1591,23 @@ A small rocky body that orbits the sun, much smaller than a planet.
 ### orbit
 
 **Pronunciation:** /ˈɔːrbɪt/ &middot; *OR-bit*
-**Русский:** орбита
+**Русский:** орбита; сфера влияния
 **Plural:** *orbits*
 **Countability:** countable
 
-The curved path one object takes around another in space.
+Orbit has 2 distinct senses.
+
+**1. The curved path one object takes around another in space.** (орбита)
 
 1. The satellite is in a low *orbit*.
 2. The moon's *orbit* isn't a perfect circle.
 3. It completes sixteen *orbits* a day.
+
+**2. The area of influence or control that a person or country has.** (сфера влияния)
+
+4. Several small nations remain in Moscow's *orbit*.
+5. He drifted out of our *orbit* after college.
+6. The startup was pulled into the *orbit* of a much bigger firm.
 
 ---
 
@@ -1507,14 +1751,22 @@ A vehicle or device pushed upward by burning fuel, used to reach space.
 ### gravity
 
 **Pronunciation:** /ˈɡrævəti/ &middot; *GRAV-uh-tee*
-**Русский:** сила тяжести, гравитация
+**Русский:** сила тяжести, гравитация; серьёзность, тяжесть (положения)
 **Countability:** uncountable
 
-The force that pulls objects toward each other, and things toward the earth.
+Gravity has 2 distinct senses.
+
+**1. The force that pulls objects toward each other, and things toward the earth.** (сила тяжести, гравитация)
 
 1. *Gravity* on the moon is about a sixth of what it is here.
 2. You don't notice *gravity* until you try to carry something heavy.
 3. Their bones weaken without *gravity*.
+
+**2. The serious or dangerous nature of a situation.** (серьёзность, тяжесть (положения))
+
+4. He didn't grasp the *gravity* of the charges.
+5. Her voice made the *gravity* of the news clear.
+6. The *gravity* of the moment silenced the room.
 
 ---
 

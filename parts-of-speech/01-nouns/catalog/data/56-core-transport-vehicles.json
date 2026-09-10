@@ -6,14 +6,43 @@
       "term": "vehicle",
       "ipa": "/ˈviːəkəl/",
       "respell": "VEE-uh-kuhl",
-      "meaning": "A machine that carries people or goods from place to place. ---",
+      "meaning": "Vehicle has 2 distinct senses.",
       "examples": [
         "No vehicles are allowed on the beach after dark.",
         "The police stopped a vehicle with no license plate.",
-        "Electric vehicles are getting cheaper every year."
+        "Electric vehicles are getting cheaper every year.",
+        "The show was really a vehicle for her comedy.",
+        "Art can be a vehicle for protest.",
+        "The fund is a vehicle for saving on taxes."
       ],
-      "senses": [],
-      "русский": "транспортное средство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that carries people or goods from place to place",
+          "body": [
+            "(транспортное средство)"
+          ],
+          "examples": [
+            "No vehicles are allowed on the beach after dark.",
+            "The police stopped a vehicle with no license plate.",
+            "Electric vehicles are getting cheaper every year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A means of expressing, achieving, or spreading something",
+          "body": [
+            "(средство (выражения, достижения))",
+            "---"
+          ],
+          "examples": [
+            "The show was really a vehicle for her comedy.",
+            "Art can be a vehicle for protest.",
+            "The fund is a vehicle for saving on taxes."
+          ]
+        }
+      ],
+      "русский": "транспортное средство; средство (выражения, достижения)",
       "plural": "vehicles",
       "countability": "countable",
       "contrast": "The h is silent in American speech: VEE-uh-kuhl, not vee-HIK-ul."
@@ -22,14 +51,43 @@
       "term": "car",
       "ipa": "/kɑːr/",
       "respell": "KAHR",
-      "meaning": "A road vehicle with four wheels that carries a small number of people. ---",
+      "meaning": "Car has 2 distinct senses.",
       "examples": [
         "We bought a used car last spring.",
         "There were three cars in the driveway.",
-        "I left my phone in the car."
+        "I left my phone in the car.",
+        "The dining car is at the back of the train.",
+        "Freight cars rolled past the crossing for ten minutes.",
+        "We rode in the last car of the subway."
       ],
-      "senses": [],
-      "русский": "автомобиль, машина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A road vehicle with four wheels that carries a small number of people",
+          "body": [
+            "(автомобиль, машина)"
+          ],
+          "examples": [
+            "We bought a used car last spring.",
+            "There were three cars in the driveway.",
+            "I left my phone in the car."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the separate sections of a train",
+          "body": [
+            "(вагон)",
+            "---"
+          ],
+          "examples": [
+            "The dining car is at the back of the train.",
+            "Freight cars rolled past the crossing for ten minutes.",
+            "We rode in the last car of the subway."
+          ]
+        }
+      ],
+      "русский": "автомобиль, машина; вагон",
       "plural": "cars",
       "countability": "countable"
     },
@@ -204,14 +262,58 @@
       "term": "pickup",
       "ipa": "/ˈpɪkʌp/",
       "respell": "PIK-up",
-      "meaning": "A light truck with an open cargo bed behind the cab. ---",
+      "meaning": "Pickup has 3 distinct senses.",
       "examples": [
         "He threw the ladder in the back of his pickup.",
         "Pickups outsell every other vehicle in this state.",
-        "Her pickup has over two hundred thousand miles on it."
+        "Her pickup has over two hundred thousand miles on it.",
+        "Your order will be ready for pickup at noon.",
+        "Trash pickup is on Tuesday mornings.",
+        "School pickup is a madhouse at three o'clock.",
+        "Dealers reported a pickup in sales this spring.",
+        "Economists expect a pickup in hiring later this year.",
+        "There's been a nice pickup in traffic to the site."
       ],
-      "senses": [],
-      "русский": "пикап",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light truck with an open cargo bed behind the cab",
+          "body": [
+            "(пикап)"
+          ],
+          "examples": [
+            "He threw the ladder in the back of his pickup.",
+            "Pickups outsell every other vehicle in this state.",
+            "Her pickup has over two hundred thousand miles on it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of collecting someone or something at an arranged time and place",
+          "body": [
+            "(получение заказа, вывоз; забор (детей, груза))"
+          ],
+          "examples": [
+            "Your order will be ready for pickup at noon.",
+            "Trash pickup is on Tuesday mornings.",
+            "School pickup is a madhouse at three o'clock."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An increase or improvement in activity",
+          "body": [
+            "(оживление, рост (активности))",
+            "---"
+          ],
+          "examples": [
+            "Dealers reported a pickup in sales this spring.",
+            "Economists expect a pickup in hiring later this year.",
+            "There's been a nice pickup in traffic to the site."
+          ]
+        }
+      ],
+      "русский": "пикап; получение заказа, вывоз; забор (детей, груза); оживление, рост (активности)",
       "plural": "pickups",
       "countability": "countable"
     },
@@ -295,14 +397,43 @@
       "term": "cart",
       "ipa": "/kɑːrt/",
       "respell": "KAHRT",
-      "meaning": "A small wheeled container you push or pull. ---",
+      "meaning": "Cart has 2 distinct senses.",
       "examples": [
         "My shopping cart had a bad wheel.",
         "Carts are stacked by the store entrance.",
-        "He wheeled the cart out to the parking lot."
+        "He wheeled the cart out to the parking lot.",
+        "I added the boots to my cart.",
+        "There are three items sitting in your cart.",
+        "She emptied her cart when she saw the shipping cost."
       ],
-      "senses": [],
-      "русский": "тележка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small wheeled container you push or pull",
+          "body": [
+            "(тележка)"
+          ],
+          "examples": [
+            "My shopping cart had a bad wheel.",
+            "Carts are stacked by the store entrance.",
+            "He wheeled the cart out to the parking lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The list of items you have picked out to buy on a website",
+          "body": [
+            "(корзина (в интернет-магазине))",
+            "---"
+          ],
+          "examples": [
+            "I added the boots to my cart.",
+            "There are three items sitting in your cart.",
+            "She emptied her cart when she saw the shipping cost."
+          ]
+        }
+      ],
+      "русский": "тележка; корзина (в интернет-магазине)",
       "plural": "carts",
       "countability": "countable",
       "contrast": "A store cart in the US is a trolley in Britain."
@@ -375,14 +506,43 @@
       "term": "camper",
       "ipa": "/ˈkæmpər/",
       "respell": "KAM-pur",
-      "meaning": "A vehicle or trailer fitted out to sleep and cook in. ---",
+      "meaning": "Camper has 2 distinct senses.",
       "examples": [
         "They spent the summer living out of a camper.",
         "Campers have to park in the lower lot.",
-        "He backed the camper into the campsite."
+        "He backed the camper into the campsite.",
+        "Each camper gets a bunk and a footlocker.",
+        "The campers hiked to the waterfall before breakfast.",
+        "He was not a happy camper when he saw the repair bill."
       ],
-      "senses": [],
-      "русский": "дом на колёсах, кемпер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A vehicle or trailer fitted out to sleep and cook in",
+          "body": [
+            "(дом на колёсах, кемпер)"
+          ],
+          "examples": [
+            "They spent the summer living out of a camper.",
+            "Campers have to park in the lower lot.",
+            "He backed the camper into the campsite."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person staying at a camp or sleeping outdoors in a tent",
+          "body": [
+            "(отдыхающий в лагере; турист с палаткой)",
+            "---"
+          ],
+          "examples": [
+            "Each camper gets a bunk and a footlocker.",
+            "The campers hiked to the waterfall before breakfast.",
+            "He was not a happy camper when he saw the repair bill."
+          ]
+        }
+      ],
+      "русский": "дом на колёсах, кемпер; отдыхающий в лагере; турист с палаткой",
       "plural": "campers",
       "countability": "countable"
     },
@@ -558,14 +718,43 @@
       "term": "jet",
       "ipa": "/dʒɛt/",
       "respell": "JET",
-      "meaning": "An airplane driven by jet engines. ---",
+      "meaning": "Jet has 2 distinct senses.",
       "examples": [
         "A private jet was parked at the far end of the field.",
         "Fighter jets flew over the stadium.",
-        "The jet climbed steeply after takeoff."
+        "The jet climbed steeply after takeoff.",
+        "A jet of steam shot out of the valve.",
+        "Jets of water rose from the fountain.",
+        "He aimed a jet of water at the muddy tires."
       ],
-      "senses": [],
-      "русский": "реактивный самолёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An airplane driven by jet engines",
+          "body": [
+            "(реактивный самолёт)"
+          ],
+          "examples": [
+            "A private jet was parked at the far end of the field.",
+            "Fighter jets flew over the stadium.",
+            "The jet climbed steeply after takeoff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A narrow stream of liquid or gas forced out under pressure",
+          "body": [
+            "(струя (под давлением))",
+            "---"
+          ],
+          "examples": [
+            "A jet of steam shot out of the valve.",
+            "Jets of water rose from the fountain.",
+            "He aimed a jet of water at the muddy tires."
+          ]
+        }
+      ],
+      "русский": "реактивный самолёт; струя (под давлением)",
       "plural": "jets",
       "countability": "countable"
     },
@@ -573,14 +762,43 @@
       "term": "glider",
       "ipa": "/ˈɡlaɪdər/",
       "respell": "GLY-dur",
-      "meaning": "A light aircraft that flies without an engine. ---",
+      "meaning": "Glider has 2 distinct senses.",
       "examples": [
         "A glider circled silently over the ridge.",
         "Gliders are towed into the air by a small plane.",
-        "He learned to fly in a glider first."
+        "He learned to fly in a glider first.",
+        "She rocked the baby to sleep in the nursery glider.",
+        "Two old gliders sat on the front porch.",
+        "We bought a glider for the patio instead of a swing."
       ],
-      "senses": [],
-      "русский": "планёр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light aircraft that flies without an engine",
+          "body": [
+            "(планёр)"
+          ],
+          "examples": [
+            "A glider circled silently over the ridge.",
+            "Gliders are towed into the air by a small plane.",
+            "He learned to fly in a glider first."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A chair or bench that swings gently back and forth on a fixed frame",
+          "body": [
+            "(кресло-качалка на полозьях; скамья-качели)",
+            "---"
+          ],
+          "examples": [
+            "She rocked the baby to sleep in the nursery glider.",
+            "Two old gliders sat on the front porch.",
+            "We bought a glider for the patio instead of a swing."
+          ]
+        }
+      ],
+      "русский": "планёр; кресло-качалка на полозьях; скамья-качели",
       "plural": "gliders",
       "countability": "countable"
     },
@@ -845,14 +1063,43 @@
       "term": "paddle",
       "ipa": "/ˈpædəl/",
       "respell": "PAD-uhl",
-      "meaning": "A short pole with a flat blade, held in the hands to move a canoe. ---",
+      "meaning": "Paddle has 2 distinct senses.",
       "examples": [
         "He dropped his paddle in the water.",
         "There are two paddles under the seat.",
-        "She dug the paddle in and turned the canoe."
+        "She dug the paddle in and turned the canoe.",
+        "Grab a paddle and I'll get the ball.",
+        "She bought a new pickleball paddle.",
+        "The ping-pong paddles are in the drawer under the table."
       ],
-      "senses": [],
-      "русский": "весло (байдарочное)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short pole with a flat blade, held in the hands to move a canoe",
+          "body": [
+            "(весло (байдарочное))"
+          ],
+          "examples": [
+            "He dropped his paddle in the water.",
+            "There are two paddles under the seat.",
+            "She dug the paddle in and turned the canoe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short bat with a wide flat face, used in table tennis and pickleball",
+          "body": [
+            "(ракетка (для настольного тенниса, пиклбола))",
+            "---"
+          ],
+          "examples": [
+            "Grab a paddle and I'll get the ball.",
+            "She bought a new pickleball paddle.",
+            "The ping-pong paddles are in the drawer under the table."
+          ]
+        }
+      ],
+      "русский": "весло (байдарочное); ракетка (для настольного тенниса, пиклбола)",
       "plural": "paddles",
       "countability": "countable"
     },
@@ -876,14 +1123,43 @@
       "term": "sail",
       "ipa": "/seɪl/",
       "respell": "SAYL",
-      "meaning": "A large sheet of cloth that catches the wind to move a boat. ---",
+      "meaning": "Sail has 2 distinct senses.",
       "examples": [
         "The wind filled the sail.",
         "They lowered the sails before the storm hit.",
-        "One sail was torn along the bottom edge."
+        "One sail was torn along the bottom edge.",
+        "We went for a sail around the harbor.",
+        "It was a rough sail back to the dock.",
+        "A sunset sail costs forty dollars a person."
       ],
-      "senses": [],
-      "русский": "парус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large sheet of cloth that catches the wind to move a boat",
+          "body": [
+            "(парус)"
+          ],
+          "examples": [
+            "The wind filled the sail.",
+            "They lowered the sails before the storm hit.",
+            "One sail was torn along the bottom edge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trip taken in a sailboat",
+          "body": [
+            "(прогулка под парусом)",
+            "---"
+          ],
+          "examples": [
+            "We went for a sail around the harbor.",
+            "It was a rough sail back to the dock.",
+            "A sunset sail costs forty dollars a person."
+          ]
+        }
+      ],
+      "русский": "парус; прогулка под парусом",
       "plural": "sails",
       "countability": "countable",
       "contrast": "Sounds exactly like sale."
@@ -922,14 +1198,43 @@
       "term": "hull",
       "ipa": "/hʌl/",
       "respell": "HUL",
-      "meaning": "The main body of a boat or ship that sits in the water. ---",
+      "meaning": "Hull has 2 distinct senses.",
       "examples": [
         "The hull was scraped and repainted.",
         "Fiberglass hulls are lighter than wooden ones.",
-        "Water was coming in through a crack in the hull."
+        "Water was coming in through a crack in the hull.",
+        "Spit the hulls into the cup when you eat sunflower seeds.",
+        "Brown rice still has part of the hull on it.",
+        "Pull the green hulls off the strawberries before you slice them."
       ],
-      "senses": [],
-      "русский": "корпус (судна)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main body of a boat or ship that sits in the water",
+          "body": [
+            "(корпус (судна))"
+          ],
+          "examples": [
+            "The hull was scraped and repainted.",
+            "Fiberglass hulls are lighter than wooden ones.",
+            "Water was coming in through a crack in the hull."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dry outer covering of a seed, grain, or berry",
+          "body": [
+            "(шелуха, оболочка (семени))",
+            "---"
+          ],
+          "examples": [
+            "Spit the hulls into the cup when you eat sunflower seeds.",
+            "Brown rice still has part of the hull on it.",
+            "Pull the green hulls off the strawberries before you slice them."
+          ]
+        }
+      ],
+      "русский": "корпус (судна); шелуха, оболочка (семени)",
       "plural": "hulls",
       "countability": "countable"
     },
@@ -967,14 +1272,43 @@
       "term": "wheel",
       "ipa": "/wiːl/",
       "respell": "WEEL",
-      "meaning": "A round part that turns on an axle and lets a vehicle roll. ---",
+      "meaning": "Wheel has 2 distinct senses.",
       "examples": [
         "The front wheel was bent in the crash.",
         "All four wheels need to be balanced.",
-        "A shopping cart wheel kept sticking."
+        "A shopping cart wheel kept sticking.",
+        "Don't text behind the wheel.",
+        "She took the wheel for the last hundred miles.",
+        "He fell asleep at the wheel and hit the guardrail."
       ],
-      "senses": [],
-      "русский": "колесо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A round part that turns on an axle and lets a vehicle roll",
+          "body": [
+            "(колесо)"
+          ],
+          "examples": [
+            "The front wheel was bent in the crash.",
+            "All four wheels need to be balanced.",
+            "A shopping cart wheel kept sticking."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The round control a driver turns to steer a car",
+          "body": [
+            "(руль)",
+            "---"
+          ],
+          "examples": [
+            "Don't text behind the wheel.",
+            "She took the wheel for the last hundred miles.",
+            "He fell asleep at the wheel and hit the guardrail."
+          ]
+        }
+      ],
+      "русский": "колесо; руль",
       "plural": "wheels",
       "countability": "countable"
     },
@@ -1196,14 +1530,43 @@
       "term": "exhaust",
       "ipa": "/ɪɡˈzɔːst/",
       "respell": "ig-ZAWST",
-      "meaning": "The burned gas an engine pushes out. ---",
+      "meaning": "Exhaust has 2 distinct senses.",
       "examples": [
         "Black exhaust poured out of the old bus.",
         "Never run the engine in a closed garage; the exhaust can kill you.",
-        "You could smell the exhaust from the highway."
+        "You could smell the exhaust from the highway.",
+        "The exhaust rusted through and now the truck roars.",
+        "He put a new exhaust on the car last weekend.",
+        "Both exhausts on that sports car are chrome."
       ],
-      "senses": [],
-      "русский": "выхлопные газы, выхлоп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The burned gas an engine pushes out",
+          "body": [
+            "(выхлопные газы, выхлоп)"
+          ],
+          "examples": [
+            "Black exhaust poured out of the old bus.",
+            "Never run the engine in a closed garage; the exhaust can kill you.",
+            "You could smell the exhaust from the highway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pipe and muffler that carry burned gas away from an engine",
+          "body": [
+            "(выхлопная труба, выхлопная система)",
+            "---"
+          ],
+          "examples": [
+            "The exhaust rusted through and now the truck roars.",
+            "He put a new exhaust on the car last weekend.",
+            "Both exhausts on that sports car are chrome."
+          ]
+        }
+      ],
+      "русский": "выхлопные газы, выхлоп; выхлопная труба, выхлопная система",
       "countability": "uncountable",
       "contrast": "The h is silent and exh- sounds like igz-: ig-ZAWST."
     },
@@ -1435,14 +1798,58 @@
       "term": "starter",
       "ipa": "/ˈstɑːrtər/",
       "respell": "STAHR-tur",
-      "meaning": "The small motor that turns an engine over to get it running. ---",
+      "meaning": "Starter has 3 distinct senses.",
       "examples": [
         "The starter just clicks and nothing happens.",
         "He replaced the starter in the parking lot.",
-        "Starters on these cars are hard to reach."
+        "Starters on these cars are hard to reach.",
+        "He's been a starter since his sophomore year.",
+        "Two starters were out with injuries.",
+        "The coach named tonight's starter after practice.",
+        "She feeds her sourdough starter every morning.",
+        "The starter has to bubble before you use it.",
+        "He gave me a jar of starter from his own batch."
       ],
-      "senses": [],
-      "русский": "стартер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small motor that turns an engine over to get it running",
+          "body": [
+            "(стартер)"
+          ],
+          "examples": [
+            "The starter just clicks and nothing happens.",
+            "He replaced the starter in the parking lot.",
+            "Starters on these cars are hard to reach."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A player who is in the lineup when a game begins",
+          "body": [
+            "(игрок стартового состава)"
+          ],
+          "examples": [
+            "He's been a starter since his sophomore year.",
+            "Two starters were out with injuries.",
+            "The coach named tonight's starter after practice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A mixture of flour and water kept alive to make bread rise",
+          "body": [
+            "(закваска)",
+            "---"
+          ],
+          "examples": [
+            "She feeds her sourdough starter every morning.",
+            "The starter has to bubble before you use it.",
+            "He gave me a jar of starter from his own batch."
+          ]
+        }
+      ],
+      "русский": "стартер; игрок стартового состава; закваска",
       "plural": "starters",
       "countability": "countable"
     },
@@ -1889,14 +2296,58 @@
       "term": "ride",
       "ipa": "/raɪd/",
       "respell": "RYD",
-      "meaning": "A trip in a vehicle, especially one someone gives you. ---",
+      "meaning": "Ride has 3 distinct senses.",
       "examples": [
         "Can you give me a ride to the airport?",
         "It's a two-hour ride on the bus.",
-        "She offered rides to anyone going downtown."
+        "She offered rides to anyone going downtown.",
+        "The kids went straight for the rides.",
+        "That ride spins you upside down twice.",
+        "You have to be four feet tall for this ride.",
+        "Nice ride — is it new?",
+        "He washes his ride every Sunday.",
+        "My ride is in the shop until Thursday."
       ],
-      "senses": [],
-      "русский": "поездка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A trip in a vehicle, especially one someone gives you",
+          "body": [
+            "(поездка)"
+          ],
+          "examples": [
+            "Can you give me a ride to the airport?",
+            "It's a two-hour ride on the bus.",
+            "She offered rides to anyone going downtown."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine at a fair or amusement park that people get on for fun",
+          "body": [
+            "(аттракцион)"
+          ],
+          "examples": [
+            "The kids went straight for the rides.",
+            "That ride spins you upside down twice.",
+            "You have to be four feet tall for this ride."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person's car, in informal speech",
+          "body": [
+            "(тачка (разг. машина))",
+            "---"
+          ],
+          "examples": [
+            "Nice ride — is it new?",
+            "He washes his ride every Sunday.",
+            "My ride is in the shop until Thursday."
+          ]
+        }
+      ],
+      "русский": "поездка; аттракцион; тачка (разг. машина)",
       "plural": "rides",
       "countability": "countable"
     },
@@ -1904,14 +2355,43 @@
       "term": "wreck",
       "ipa": "/rɛk/",
       "respell": "REK",
-      "meaning": "A bad vehicle crash, or what is left of the vehicle after one. ---",
+      "meaning": "Wreck has 2 distinct senses.",
       "examples": [
         "There was a wreck on the interstate this morning.",
         "Two wrecks were towed off before rush hour.",
-        "He walked away from the wreck without a scratch."
+        "He walked away from the wreck without a scratch.",
+        "I was a nervous wreck before the interview.",
+        "After three nights with the baby, he's a wreck.",
+        "She's been a wreck since the funeral."
       ],
-      "senses": [],
-      "русский": "авария; разбитая машина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bad vehicle crash, or what is left of the vehicle after one",
+          "body": [
+            "(авария; разбитая машина)"
+          ],
+          "examples": [
+            "There was a wreck on the interstate this morning.",
+            "Two wrecks were towed off before rush hour.",
+            "He walked away from the wreck without a scratch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who is exhausted or badly upset",
+          "body": [
+            "(развалина, издёрганный человек)",
+            "---"
+          ],
+          "examples": [
+            "I was a nervous wreck before the interview.",
+            "After three nights with the baby, he's a wreck.",
+            "She's been a wreck since the funeral."
+          ]
+        }
+      ],
+      "русский": "авария; разбитая машина; развалина, издёрганный человек",
       "plural": "wrecks",
       "countability": "countable",
       "contrast": "The w is silent: REK, the same sound as the start of wrench."

@@ -118,15 +118,29 @@ A group elected or chosen to run a town, organization, or program.
 ### agency
 
 **Pronunciation:** /ˈeɪdʒənsi/ &middot; *AY-juhn-see*
-**Русский:** агентство, ведомство
+**Русский:** агентство, ведомство; агентство (фирма); самостоятельность, способность распоряжаться собой
 **Plural:** *agencies*
 **Countability:** countable
 
-A department of government that handles one area of public business.
+Agency has 3 distinct senses.
+
+**1. A department of government that handles one area of public business.** (агентство, ведомство)
 
 1. A federal *agency* is looking into the spill.
 2. The *agency* has about two thousand employees.
 3. Three *agencies* are fighting over the same budget.
+
+**2. A business that provides a particular service for other people.** (агентство (фирма))
+
+4. We booked the whole trip through a travel *agency*.
+5. The ad *agency* pitched three ideas and we hated all of them.
+6. She found the job through a temp *agency*.
+
+**3. The power to make your own choices and act on them.** (самостоятельность, способность распоряжаться собой)
+
+7. Kids need some *agency* over how they spend their afternoons.
+8. The new rules left the nurses with very little *agency*.
+9. The novel is about a woman claiming her own *agency*.
 
 ---
 
@@ -280,15 +294,23 @@ An area marked out for voting, schools, or local administration.
 ### state
 
 **Pronunciation:** /steɪt/ &middot; *STAYT*
-**Русский:** штат; государство
+**Русский:** штат; государство; состояние
 **Plural:** *states*
 **Countability:** countable
 
-One of the regions with its own government that make up the US, or a country as a political body.
+State has 2 distinct senses.
+
+**1. One of the regions with its own government that make up the US, or a country as a political body.** (штат; государство)
 
 1. Each *state* writes its own election rules.
 2. The *state* pays for most of the highway work.
 3. Twelve *states* joined the lawsuit.
+
+**2. The condition that someone or something is in at a particular time.** (состояние)
+
+4. He was in a *state* of shock for days.
+5. The president spoke about the *state* of the economy.
+6. She was in no *state* to drive home.
 
 ---
 
@@ -356,16 +378,24 @@ Rule by a king or queen, or a country governed that way.
 ### monarch
 
 **Pronunciation:** /ˈmɑːnərk/ &middot; *MAH-nurk*
-**Русский:** монарх
+**Русский:** монарх; монарх (бабочка)
 **Plural:** *monarchs*
 **Countability:** countable
 **Contrast:** The ch is a k sound; the same word also names an orange and black butterfly.
 
-A king or queen who is the head of a state.
+Monarch has 2 distinct senses.
+
+**1. A king or queen who is the head of a state.** (монарх)
 
 1. The *monarch* signs the law but never writes it.
 2. She is the longest-serving *monarch* in their history.
 3. European *monarchs* met at the funeral.
+
+**2. A large orange-and-black butterfly that migrates south in the fall.** (монарх (бабочка))
+
+4. *Monarchs* stop in our yard every September on their way south.
+5. We planted milkweed so the *monarchs* would have somewhere to lay eggs.
+6. A single *monarch* landed on the fence rail.
 
 ---
 
@@ -427,15 +457,23 @@ Regime has 2 distinct senses.
 ### empire
 
 **Pronunciation:** /ˈɛmpaɪər/ &middot; *EM-pyre*
-**Русский:** империя
+**Русский:** империя; империя (бизнес-империя)
 **Plural:** *empires*
 **Countability:** countable
 
-A group of countries or peoples ruled by one government or emperor.
+Empire has 2 distinct senses.
+
+**1. A group of countries or peoples ruled by one government or emperor.** (империя)
 
 1. The *empire* stretched across three continents.
 2. The war brought down the *empire*.
 3. All the old *empires* are gone now.
+
+**2. A large group of businesses controlled by one person or company.** (империя (бизнес-империя))
+
+4. She built a beauty *empire* out of her own kitchen.
+5. The family's media *empire* includes four newspapers.
+6. His restaurant *empire* fell apart in under a year.
 
 ---
 
@@ -766,16 +804,24 @@ A person who pays taxes to the government.
 ### veteran
 
 **Pronunciation:** /ˈvɛtərən/ &middot; *VET-ur-uhn*
-**Русский:** ветеран (военной службы)
+**Русский:** ветеран (военной службы); ветеран, опытный работник
 **Plural:** *veterans*
 **Countability:** countable
 **Contrast:** Often shortened in speech to two syllables, VET-ruhn.
 
-Someone who has served in the armed forces.
+Veteran has 2 distinct senses.
+
+**1. Someone who has served in the armed forces.** (ветеран (военной службы))
 
 1. My grandfather is a *veteran* of the Korean War.
 2. The clinic treats only *veterans*.
 3. *Veterans* march downtown every November.
+
+**2. Someone with long experience in a job or activity.** (ветеран, опытный работник)
+
+4. She's a twenty-year *veteran* of the police force.
+5. The team signed a *veteran* to steady the young players.
+6. He's a *veteran* of three political campaigns.
 
 ---
 
@@ -859,15 +905,29 @@ The paper or screen on which a voter marks a choice.
 ### vote
 
 **Pronunciation:** /voʊt/ &middot; *VOHT*
-**Русский:** голос (при голосовании); голосование
+**Русский:** голос (при голосовании); голосование; право голоса, избирательное право; голоса (определённой группы избирателей)
 **Plural:** *votes*
 **Countability:** countable
 
-A formal choice made in an election or a meeting.
+Vote has 3 distinct senses.
+
+**1. A formal choice made in an election or a meeting.** (голос (при голосовании); голосование)
 
 1. The measure passed by one *vote*.
 2. The Senate holds a *vote* on Thursday.
 3. She got more *votes* than the other two combined.
+
+**2. The right to take part in an election.** (право голоса, избирательное право)
+
+4. American women won the *vote* in 1920.
+5. The bill would give sixteen-year-olds the *vote*.
+6. Many citizens were denied the *vote* for decades.
+
+**3. The votes cast by one group of people, taken together.** (голоса (определённой группы избирателей))
+
+7. The candidate is counting on the young *vote*.
+8. The suburban *vote* decided the race.
+9. He carried the rural *vote* easily.
 
 ---
 
@@ -959,30 +1019,46 @@ An election in which a party's voters choose its candidate for the main election
 ### caucus
 
 **Pronunciation:** /ˈkɔːkəs/ &middot; *KAW-kuhs*
-**Русский:** кокус, партийное собрание
+**Русский:** кокус, партийное собрание; фракция, депутатская группа
 **Plural:** *caucuses*
 **Countability:** countable
 
-A meeting of party members to pick candidates or agree on policy.
+Caucus has 2 distinct senses.
+
+**1. A meeting of party members to pick candidates or agree on policy.** (кокус, партийное собрание)
 
 1. The *caucus* met for two hours behind closed doors.
 2. He came in second in the Iowa *caucus*.
 3. Both *caucuses* endorsed the same bill.
+
+**2. A group of lawmakers who work together for a shared cause.** (фракция, депутатская группа)
+
+4. The freshman *caucus* pushed hard for the amendment.
+5. She joined the bipartisan climate *caucus*.
+6. Both *caucuses* met behind closed doors.
 
 ---
 
 ### runoff
 
 **Pronunciation:** /ˈrʌnɔːf/ &middot; *RUN-awf*
-**Русский:** второй тур выборов
+**Русский:** второй тур выборов; сток, поверхностные воды
 **Plural:** *runoffs*
 **Countability:** countable
 
-A second election held between the top two candidates when no one wins outright.
+Runoff has 2 distinct senses.
+
+**1. A second election held between the top two candidates when no one wins outright.** (второй тур выборов)
 
 1. Nobody got fifty percent, so there will be a *runoff*.
 2. She won the *runoff* easily.
 3. Two *runoffs* are scheduled for December.
+
+**2. Rain or melted snow that flows off the land into streams and rivers.** (сток, поверхностные воды)
+
+4. Fertilizer in the *runoff* is polluting the lake.
+5. Spring *runoff* swelled the creek past its banks.
+6. The ditch carries *runoff* away from the road.
 
 ---
 
@@ -1034,15 +1110,29 @@ A short phrase used to sum up a campaign or cause.
 ### rally
 
 **Pronunciation:** /ˈræli/ &middot; *RAL-ee*
-**Русский:** митинг
+**Русский:** митинг; рост котировок после падения, отскок; розыгрыш очка, длинный обмен ударами
 **Plural:** *rallies*
 **Countability:** countable
 
-A large public meeting held to support a cause or candidate.
+Rally has 3 distinct senses.
+
+**1. A large public meeting held to support a cause or candidate.** (митинг)
 
 1. The *rally* drew about five thousand people.
 2. She spoke at a *rally* outside the capitol.
 3. He held three *rallies* in two days.
+
+**2. A rise in prices after a fall, especially on the stock market.** (рост котировок после падения, отскок)
+
+4. Stocks staged a late *rally* on Friday afternoon.
+5. The *rally* pushed the index back above four thousand.
+6. Analysts doubt the *rally* will last through the summer.
+
+**3. A long exchange of shots in tennis or a similar game.** (розыгрыш очка, длинный обмен ударами)
+
+7. The point ended after a thirty-shot *rally*.
+8. That *rally* brought the whole crowd to its feet.
+9. She wins most of the long *rallies*.
 
 ---
 
@@ -1125,15 +1215,23 @@ A change made to improve a system, law, or institution.
 ### welfare
 
 **Pronunciation:** /ˈwɛlfɛr/ &middot; *WEL-fair*
-**Русский:** социальное пособие; благосостояние
+**Русский:** социальное пособие; благосостояние; благополучие
 **Countability:** uncountable
 **Contrast:** Uncountable: never a welfare or welfares.
 
-Government money and services given to people in need.
+Welfare has 2 distinct senses.
+
+**1. Government money and services given to people in need.** (социальное пособие; благосостояние)
 
 1. She was on *welfare* for about a year.
 2. The state cut *welfare* spending again.
 3. *Welfare* rules changed a lot in the nineties.
+
+**2. The health, safety, and general well-being of a person or group.** (благополучие)
+
+4. The school is responsible for the *welfare* of its students.
+5. Child *welfare* workers visited the home twice.
+6. Animal *welfare* groups protested the new law.
 
 ---
 
@@ -1438,14 +1536,22 @@ An agreement to stop fighting, usually for a set time.
 ### asylum
 
 **Pronunciation:** /əˈsaɪləm/ &middot; *uh-SY-luhm*
-**Русский:** убежище (политическое)
+**Русский:** убежище (политическое); психиатрическая лечебница (устар.)
 **Countability:** uncountable
 
-Protection given by a country to someone fleeing danger at home.
+Asylum has 2 distinct senses.
+
+**1. Protection given by a country to someone fleeing danger at home.** (убежище (политическое))
 
 1. He applied for *asylum* at the border.
 2. She was granted *asylum* after two years of waiting.
 3. The rules for *asylum* changed again in March.
+
+**2. An older name for a hospital for people with mental illness.** (психиатрическая лечебница (устар.))
+
+4. The building was a state *asylum* until 1974.
+5. In the novel she is locked away in an *asylum*.
+6. Most of the old *asylums* were torn down.
 
 ---
 
@@ -1483,15 +1589,29 @@ A country or person that supports another, especially in a conflict.
 ### aid
 
 **Pronunciation:** /eɪd/ &middot; *AYD*
-**Русский:** помощь (гуманитарная, финансовая)
+**Русский:** помощь (гуманитарная, финансовая); помощь, содействие; вспомогательное средство, приспособление
 **Countability:** uncountable
 **Contrast:** Uncountable, and a homophone of aide, which is a person.
 
-Money, food, or supplies given by a government to people or countries in need.
+Aid has 3 distinct senses.
+
+**1. Money, food, or supplies given by a government to people or countries in need.** (помощь (гуманитарная, финансовая))
 
 1. Congress approved another billion dollars in *aid*.
 2. Foreign *aid* is a tiny share of the budget.
 3. *Aid* trucks finally crossed the border.
+
+**2. Help or support given to someone.** (помощь, содействие)
+
+4. She found the switch with the *aid* of her phone's flashlight.
+5. A stranger came to my *aid* when the car broke down.
+6. Nobody offered any *aid* until the police arrived.
+
+**3. A device or object that helps someone do something.** (вспомогательное средство, приспособление)
+
+7. My father finally got a hearing *aid*.
+8. The teacher uses visual *aids* in every lesson.
+9. A walking *aid* would make the stairs much safer for her.
 
 ---
 
@@ -1557,16 +1677,24 @@ Information spread to push a political view, often misleading.
 ### protest
 
 **Pronunciation:** /ˈproʊtɛst/ &middot; *PROH-test*
-**Русский:** протест, акция протеста
+**Русский:** протест, акция протеста; протест, возражение
 **Plural:** *protests*
 **Countability:** countable
 **Contrast:** The noun is PROH-test; the verb protest is pruh-TEST.
 
-A public demonstration against something people think is wrong.
+Protest has 2 distinct senses.
+
+**1. A public demonstration against something people think is wrong.** (протест, акция протеста)
 
 1. The *protest* stayed peaceful all afternoon.
 2. A small *protest* formed outside the courthouse.
 3. *Protests* spread to a dozen cities.
+
+**2. A statement or action showing that you object to something.** (протест, возражение)
+
+4. He signed the contract under *protest*.
+5. Her *protests* were ignored by the committee.
+6. The lawyer entered a formal *protest*.
 
 ---
 
@@ -1863,30 +1991,46 @@ A country's armed forces taken as a whole.
 ### war
 
 **Pronunciation:** /wɔːr/ &middot; *WOR*
-**Русский:** война
+**Русский:** война; борьба, война (с чем-л.)
 **Plural:** *wars*
 **Countability:** countable
 
-Armed fighting between countries or groups.
+War has 2 distinct senses.
+
+**1. Armed fighting between countries or groups.** (война)
 
 1. The *war* lasted four years.
 2. Congress has not declared a *war* since 1942.
 3. Both *wars* started over the same border.
+
+**2. A long, determined campaign against something considered bad.** (борьба, война (с чем-л.))
+
+4. The city declared *war* on potholes.
+5. The *war* on drugs has gone on for decades.
+6. The two chains are in a price *war*.
 
 ---
 
 ### flag
 
 **Pronunciation:** /flæɡ/ &middot; *FLAG*
-**Русский:** флаг
+**Русский:** флаг; пометка, тревожный сигнал
 **Plural:** *flags*
 **Countability:** countable
 
-A piece of cloth with a design that stands for a country or group.
+Flag has 2 distinct senses.
+
+**1. A piece of cloth with a design that stands for a country or group.** (флаг)
 
 1. The *flag* was flying at half-staff.
 2. Every classroom has a *flag* on the wall.
 3. *Flags* lined both sides of the street.
+
+**2. A mark or warning put on something to show it needs attention.** (пометка, тревожный сигнал)
+
+4. Missing paperwork like that is a red *flag*.
+5. The system put a *flag* on his account.
+6. The auditor raised several *flags* about the numbers.
 
 ---
 

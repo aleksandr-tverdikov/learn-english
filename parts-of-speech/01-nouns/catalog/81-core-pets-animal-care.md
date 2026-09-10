@@ -99,15 +99,29 @@ Dry pet food shaped into small hard pieces.
 ### treat
 
 **Pronunciation:** /triːt/ &middot; *TREET*
-**Русский:** лакомство (для животного)
+**Русский:** лакомство (для животного); удовольствие, угощение (за чей-то счёт); сладость, лакомство
 **Plural:** *treats*
 **Countability:** countable
 
-A small piece of tasty food given to an animal as a reward.
+Treat has 3 distinct senses.
+
+**1. A small piece of tasty food given to an animal as a reward.** (лакомство (для животного))
 
 1. Give him a *treat* when he sits.
 2. She keeps *treats* in her coat pocket.
 3. One more *treat* and that's it for tonight.
+
+**2. Something enjoyable that is out of the ordinary, often paid for by someone else.** (удовольствие, угощение (за чей-то счёт))
+
+4. Lunch is my *treat* today.
+5. Going to the movies was a rare *treat* for us.
+6. As a *treat*, he took the kids to the ballpark.
+
+**3. A small sweet food, especially one given to children.** (сладость, лакомство)
+
+7. The kids came home with a bag of Halloween *treats*.
+8. She baked *treats* for the whole class.
+9. One *treat* after dinner, that's the rule.
 
 ---
 
@@ -751,15 +765,23 @@ A person who keeps an animal at home.
 ### handler
 
 **Pronunciation:** /ˈhændlər/ &middot; *HAND-lur*
-**Русский:** хендлер, кинолог
+**Русский:** хендлер, кинолог; сопровождающий помощник, имиджмейкер
 **Plural:** *handlers*
 **Countability:** countable
 
-A person who controls and works with a trained animal.
+Handler has 2 distinct senses.
+
+**1. A person who controls and works with a trained animal.** (хендлер, кинолог)
 
 1. The *handler* led the dog around the ring.
 2. Police dogs live with their *handlers*.
 3. She's been a *handler* at dog shows for years.
+
+**2. A person who manages a politician's or celebrity's public appearances.** (сопровождающий помощник, имиджмейкер)
+
+4. His *handlers* kept him away from reporters.
+5. The candidate ignored her *handlers* and answered the question.
+6. A *handler* steered him toward the next interview.
 
 ---
 
@@ -1107,15 +1129,23 @@ A large hound with a superb sense of smell, used for tracking.
 ### lapdog
 
 **Pronunciation:** /ˈlæpdɔːɡ/ &middot; *LAP-dawg*
-**Русский:** комнатная собачка
+**Русский:** комнатная собачка; прихвостень, послушная марионетка
 **Plural:** *lapdogs*
 **Countability:** countable
 
-A small dog kept purely as company.
+Lapdog has 2 distinct senses.
+
+**1. A small dog kept purely as company.** (комнатная собачка)
 
 1. The little *lapdog* never leaves her side.
 2. *Lapdogs* were bred for company, not work.
 3. He's a sixty-pound *lapdog* in his own mind.
+
+**2. A person or organization that obeys someone powerful without question.** (прихвостень, послушная марионетка)
+
+4. Critics called the agency a *lapdog* of the industry.
+5. He refused to be anyone's *lapdog*.
+6. The paper was accused of being a *lapdog* for the mayor.
 
 ---
 
@@ -1213,15 +1243,23 @@ An adult male cat.
 ### kitty
 
 **Pronunciation:** /ˈkɪti/ &middot; *KIT-ee*
-**Русский:** киска, кошечка
+**Русский:** киска, кошечка; общая касса, общий котёл
 **Plural:** *kitties*
 **Countability:** countable
 
-An affectionate word for a cat, especially a young one.
+Kitty has 2 distinct senses.
+
+**1. An affectionate word for a cat, especially a young one.** (киска, кошечка)
 
 1. Come here, *kitty*.
 2. The kids named the *kitty* Waffles.
 3. Two *kitties* were curled up in the box.
+
+**2. A pool of money that several people put into for a shared purpose.** (общая касса, общий котёл)
+
+4. Everyone put five dollars in the *kitty* for pizza.
+5. The office *kitty* pays for coffee and snacks.
+6. Whatever is left in the *kitty* gets split at the end.
 
 ---
 
@@ -1288,16 +1326,24 @@ A cat, or any animal of the cat family.
 ### canine
 
 **Pronunciation:** /ˈkeɪnaɪn/ &middot; *KAY-nyn*
-**Русский:** собака, представитель псовых
+**Русский:** собака, представитель псовых; клык
 **Plural:** *canines*
 **Countability:** countable
 **Contrast:** *Canine* is also the name of the pointed tooth on each side of your front teeth.
 
-A dog, or any animal of the dog family.
+Canine has 2 distinct senses.
+
+**1. A dog, or any animal of the dog family.** (собака, представитель псовых)
 
 1. The vaccine protects *canines* against several viruses.
 2. This unit works with a *canine* partner.
 3. *Canines* and felines need different diets.
+
+**2. One of the four pointed teeth near the front of the mouth.** (клык)
+
+4. The dentist capped a chipped *canine*.
+5. Her upper *canines* came in crooked.
+6. A wolf's *canines* can crack bone.
 
 ---
 
@@ -1513,16 +1559,24 @@ The straps around a horse's head that the reins attach to.
 ### rein
 
 **Pronunciation:** /reɪn/ &middot; *RAYN*
-**Русский:** повод, вожжа
+**Русский:** повод, вожжа; бразды правления, контроль
 **Plural:** *reins*
 **Countability:** countable
 **Contrast:** *Rein* sounds like rain and like reign — three different words.
 
-A long strap running from the bridle that the rider holds to steer.
+Rein has 2 distinct senses.
+
+**1. A long strap running from the bridle that the rider holds to steer.** (повод, вожжа)
 
 1. She pulled on the left *rein*.
 2. Hold the *reins* in both hands.
 3. One *rein* had snapped clean through.
+
+**2. Control of an organization or a situation.** (бразды правления, контроль)
+
+4. She took over the *reins* of the company in May.
+5. He finally handed the *reins* to his daughter.
+6. The board keeps a tight *rein* on spending.
 
 ---
 
@@ -1544,15 +1598,23 @@ One of the two metal loops hanging from a saddle for the rider's feet.
 ### spur
 
 **Pronunciation:** /spɜːr/ &middot; *SPUR*
-**Русский:** шпора
+**Русский:** шпора; стимул, толчок
 **Plural:** *spurs*
 **Countability:** countable
 
-A small metal point on a rider's heel, used to urge a horse on.
+Spur has 2 distinct senses.
+
+**1. A small metal point on a rider's heel, used to urge a horse on.** (шпора)
 
 1. The rider touched the horse with a *spur*.
 2. *Spurs* should be used lightly, if at all.
 3. One *spur* had come off in the dirt.
+
+**2. Something that encourages an action or speeds up a development.** (стимул, толчок)
+
+4. Tax breaks acted as a *spur* to new building.
+5. The award was a *spur* to keep writing.
+6. We bought the tickets on the *spur* of the moment.
 
 ---
 
@@ -1665,15 +1727,23 @@ A short sharp cry of pain or surprise from a dog.
 ### snarl
 
 **Pronunciation:** /snɑːrl/ &middot; *SNARL*
-**Русский:** рычание с оскалом
+**Русский:** рычание с оскалом; клубок, путаница; затор
 **Plural:** *snarls*
 **Countability:** countable
 
-An angry growl made with the teeth showing.
+Snarl has 2 distinct senses.
+
+**1. An angry growl made with the teeth showing.** (рычание с оскалом)
 
 1. He curled his lip in a *snarl*.
 2. The *snarl* was enough to back the stranger off.
 3. *Snarls* came from both sides of the fence.
+
+**2. A tangled mass of something such as hair, wire, or stopped traffic.** (клубок, путаница; затор)
+
+4. The wind left a *snarl* in her hair.
+5. The accident caused a two-hour traffic *snarl*.
+6. He worked the *snarls* out of the fishing line.
 
 ---
 

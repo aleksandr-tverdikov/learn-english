@@ -94,14 +94,43 @@
       "term": "plow",
       "ipa": "/plaʊ/",
       "respell": "PLOW",
-      "meaning": "A farm tool with heavy blades, pulled through soil to turn it over before planting. ---",
+      "meaning": "Plow has 2 distinct senses.",
       "examples": [
         "The plow is hitched to the back of the tractor.",
         "He keeps two old plows rusting behind the barn.",
-        "A single plow used to take a whole team of horses."
+        "A single plow used to take a whole team of horses.",
+        "The plow came through around four in the morning.",
+        "Plows were out all night on the interstate.",
+        "The plow left a wall of snow at the end of the driveway."
       ],
-      "senses": [],
-      "русский": "плуг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A farm tool with heavy blades, pulled through soil to turn it over before planting",
+          "body": [
+            "(плуг)"
+          ],
+          "examples": [
+            "The plow is hitched to the back of the tractor.",
+            "He keeps two old plows rusting behind the barn.",
+            "A single plow used to take a whole team of horses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A truck or blade that pushes snow off roads",
+          "body": [
+            "(снегоуборочная машина, отвал)",
+            "---"
+          ],
+          "examples": [
+            "The plow came through around four in the morning.",
+            "Plows were out all night on the interstate.",
+            "The plow left a wall of snow at the end of the driveway."
+          ]
+        }
+      ],
+      "русский": "плуг; снегоуборочная машина, отвал",
       "plural": "plows",
       "countability": "countable",
       "contrast": "Americans spell it plow; the British spell the same word plough. Both rhyme with cow."
@@ -153,14 +182,43 @@
       "term": "yield",
       "ipa": "/jiːld/",
       "respell": "YEELD",
-      "meaning": "The amount of a crop that a piece of land produces. ---",
+      "meaning": "Yield has 2 distinct senses.",
       "examples": [
         "This year's corn yield was the best in a decade.",
         "Wet weather cut yields by almost a third.",
-        "The new seed promises a higher yield per acre."
+        "The new seed promises a higher yield per acre.",
+        "The bond has a yield of about four percent.",
+        "Falling rates pushed yields down all year.",
+        "Savers chase the highest yield they can find."
       ],
-      "senses": [],
-      "русский": "урожай, урожайность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of a crop that a piece of land produces",
+          "body": [
+            "(урожай, урожайность)"
+          ],
+          "examples": [
+            "This year's corn yield was the best in a decade.",
+            "Wet weather cut yields by almost a third.",
+            "The new seed promises a higher yield per acre."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The income an investment produces, usually given as a percentage",
+          "body": [
+            "(доходность (вклада, облигации))",
+            "---"
+          ],
+          "examples": [
+            "The bond has a yield of about four percent.",
+            "Falling rates pushed yields down all year.",
+            "Savers chase the highest yield they can find."
+          ]
+        }
+      ],
+      "русский": "урожай, урожайность; доходность (вклада, облигации)",
       "plural": "yields",
       "countability": "countable"
     },
@@ -210,14 +268,58 @@
       "term": "ranch",
       "ipa": "/ræntʃ/",
       "respell": "RANCH",
-      "meaning": "A large farm in the western United States where cattle, sheep, or horses are raised. ---",
+      "meaning": "Ranch has 3 distinct senses.",
       "examples": [
         "They run a cattle ranch out west.",
         "Both ranches were sold to the same buyer.",
-        "We spent a week on a working ranch last summer."
+        "We spent a week on a working ranch last summer.",
+        "Can I get a side of ranch with the wings?",
+        "He puts ranch on everything, even pizza.",
+        "The salad comes with ranch or vinaigrette.",
+        "They bought a three-bedroom ranch out in the suburbs.",
+        "Most of the houses on that street are brick ranches.",
+        "A ranch is easier to keep up than a two-story."
       ],
-      "senses": [],
-      "русский": "ранчо, скотоводческая ферма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large farm in the western United States where cattle, sheep, or horses are raised",
+          "body": [
+            "(ранчо, скотоводческая ферма)"
+          ],
+          "examples": [
+            "They run a cattle ranch out west.",
+            "Both ranches were sold to the same buyer.",
+            "We spent a week on a working ranch last summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A creamy buttermilk salad dressing popular in the United States",
+          "body": [
+            "(соус «ранч»)"
+          ],
+          "examples": [
+            "Can I get a side of ranch with the wings?",
+            "He puts ranch on everything, even pizza.",
+            "The salad comes with ranch or vinaigrette."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A low, wide house with all the rooms on one floor",
+          "body": [
+            "(одноэтажный дом (типа «ранчо»))",
+            "---"
+          ],
+          "examples": [
+            "They bought a three-bedroom ranch out in the suburbs.",
+            "Most of the houses on that street are brick ranches.",
+            "A ranch is easier to keep up than a two-story."
+          ]
+        }
+      ],
+      "русский": "ранчо, скотоводческая ферма; соус «ранч»; одноэтажный дом (типа «ранчо»)",
       "plural": "ranches",
       "countability": "countable"
     },
@@ -420,14 +522,58 @@
       "term": "tract",
       "ipa": "/trækt/",
       "respell": "TRAKT",
-      "meaning": "A large, continuous piece of land. ---",
+      "meaning": "Tract has 3 distinct senses.",
       "examples": [
         "He bought a forty-acre tract next to the creek.",
         "Several tracts of farmland came up for auction.",
-        "The state protected a tract of prairie from development."
+        "The state protected a tract of prairie from development.",
+        "Fiber keeps the digestive tract healthy.",
+        "The infection spread to her upper respiratory tract.",
+        "The drug is absorbed in the intestinal tract.",
+        "A man on the corner handed out religious tracts.",
+        "The tract ran to only eight pages.",
+        "He published a tract against the new tax."
       ],
-      "senses": [],
-      "русский": "участок земли, надел",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large, continuous piece of land",
+          "body": [
+            "(участок земли, надел)"
+          ],
+          "examples": [
+            "He bought a forty-acre tract next to the creek.",
+            "Several tracts of farmland came up for auction.",
+            "The state protected a tract of prairie from development."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A system of connected organs that something passes through in the body",
+          "body": [
+            "(тракт (пищеварительный, дыхательный))"
+          ],
+          "examples": [
+            "Fiber keeps the digestive tract healthy.",
+            "The infection spread to her upper respiratory tract.",
+            "The drug is absorbed in the intestinal tract."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short printed pamphlet arguing a religious or political point",
+          "body": [
+            "(брошюра, трактат (агитационный))",
+            "---"
+          ],
+          "examples": [
+            "A man on the corner handed out religious tracts.",
+            "The tract ran to only eight pages.",
+            "He published a tract against the new tax."
+          ]
+        }
+      ],
+      "русский": "участок земли, надел; тракт (пищеварительный, дыхательный); брошюра, трактат (агитационный)",
       "plural": "tracts",
       "countability": "countable",
       "contrast": "Sounds exactly like tracked, the past tense of track."
@@ -507,14 +653,43 @@
       "term": "erosion",
       "ipa": "/ɪˈroʊʒən/",
       "respell": "ih-ROH-zhuhn",
-      "meaning": "The gradual wearing away of soil by wind or water. ---",
+      "meaning": "Erosion has 2 distinct senses.",
       "examples": [
         "Cover crops slow erosion over the winter.",
         "You can see erosion along every ditch bank.",
-        "Plowing up and down the slope makes erosion worse."
+        "Plowing up and down the slope makes erosion worse.",
+        "The scandal caused a slow erosion of trust.",
+        "Judges warned of a steady erosion of basic rights.",
+        "Inflation means the quiet erosion of everyone's savings."
       ],
-      "senses": [],
-      "русский": "эрозия (почвы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The gradual wearing away of soil by wind or water",
+          "body": [
+            "(эрозия (почвы))"
+          ],
+          "examples": [
+            "Cover crops slow erosion over the winter.",
+            "You can see erosion along every ditch bank.",
+            "Plowing up and down the slope makes erosion worse."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The gradual weakening or loss of something valued",
+          "body": [
+            "(постепенная утрата, размывание (прав, доверия))",
+            "---"
+          ],
+          "examples": [
+            "The scandal caused a slow erosion of trust.",
+            "Judges warned of a steady erosion of basic rights.",
+            "Inflation means the quiet erosion of everyone's savings."
+          ]
+        }
+      ],
+      "русский": "эрозия (почвы); постепенная утрата, размывание (прав, доверия)",
       "countability": "uncountable",
       "contrast": "The s is pronounced like the s in measure: ih-ROH-zhuhn."
     },
@@ -1133,14 +1308,43 @@
       "term": "fodder",
       "ipa": "/ˈfɑːdər/",
       "respell": "FAH-dur",
-      "meaning": "Dried food such as hay or straw given to farm animals. ---",
+      "meaning": "Fodder has 2 distinct senses.",
       "examples": [
         "There's barely enough fodder to last till spring.",
         "The barn is stacked with fodder.",
-        "Corn stalks make rough but usable fodder."
+        "Corn stalks make rough but usable fodder.",
+        "The scandal was perfect fodder for late-night comedians.",
+        "His private life became tabloid fodder.",
+        "The leaked memo gave his critics plenty of fodder."
       ],
-      "senses": [],
-      "русский": "корм для скота, фураж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Dried food such as hay or straw given to farm animals",
+          "body": [
+            "(корм для скота, фураж)"
+          ],
+          "examples": [
+            "There's barely enough fodder to last till spring.",
+            "The barn is stacked with fodder.",
+            "Corn stalks make rough but usable fodder."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Material used up for some purpose, especially to feed talk or criticism",
+          "body": [
+            "(материал, пища (для сплетен, критики))",
+            "---"
+          ],
+          "examples": [
+            "The scandal was perfect fodder for late-night comedians.",
+            "His private life became tabloid fodder.",
+            "The leaked memo gave his critics plenty of fodder."
+          ]
+        }
+      ],
+      "русский": "корм для скота, фураж; материал, пища (для сплетен, критики)",
       "countability": "uncountable",
       "contrast": "Uncountable: some fodder, never 'a fodder'."
     },
@@ -1237,14 +1441,43 @@
       "term": "shoot",
       "ipa": "/ʃuːt/",
       "respell": "SHOOT",
-      "meaning": "A new stem or branch growing from a plant. ---",
+      "meaning": "Shoot has 2 distinct senses.",
       "examples": [
         "Green shoots came up a week after the rain.",
         "He pinched off the weak shoot near the base.",
-        "The vine sends out a new shoot every few days."
+        "The vine sends out a new shoot every few days.",
+        "The magazine shoot took all morning on the roof.",
+        "She booked a family photo shoot for the fall.",
+        "Both shoots were rained out and had to be rescheduled."
       ],
-      "senses": [],
-      "русский": "росток, побег",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A new stem or branch growing from a plant",
+          "body": [
+            "(росток, побег)"
+          ],
+          "examples": [
+            "Green shoots came up a week after the rain.",
+            "He pinched off the weak shoot near the base.",
+            "The vine sends out a new shoot every few days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A session of taking photographs or filming",
+          "body": [
+            "(съёмка, фотосессия)",
+            "---"
+          ],
+          "examples": [
+            "The magazine shoot took all morning on the roof.",
+            "She booked a family photo shoot for the fall.",
+            "Both shoots were rained out and had to be rescheduled."
+          ]
+        }
+      ],
+      "русский": "росток, побег; съёмка, фотосессия",
       "plural": "shoots",
       "countability": "countable",
       "contrast": "Sounds exactly like chute, a sloping channel — same sound, different word."
@@ -1431,14 +1664,43 @@
       "term": "tiller",
       "ipa": "/ˈtɪlər/",
       "respell": "TIL-ur",
-      "meaning": "A small machine with turning blades that breaks up garden or field soil. ---",
+      "meaning": "Tiller has 2 distinct senses.",
       "examples": [
         "He borrowed a tiller to work up the garden.",
         "The tiller wouldn't start after sitting all winter.",
-        "Rear-tine tillers handle heavy clay better."
+        "Rear-tine tillers handle heavy clay better.",
+        "He kept one hand on the tiller and one on the sail.",
+        "Push the tiller left and the bow swings right.",
+        "The old wooden tiller was worn smooth."
       ],
-      "senses": [],
-      "русский": "мотоблок, культиватор (садовый)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small machine with turning blades that breaks up garden or field soil",
+          "body": [
+            "(мотоблок, культиватор (садовый))"
+          ],
+          "examples": [
+            "He borrowed a tiller to work up the garden.",
+            "The tiller wouldn't start after sitting all winter.",
+            "Rear-tine tillers handle heavy clay better."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The bar attached to a boat's rudder that you push to steer",
+          "body": [
+            "(румпель)",
+            "---"
+          ],
+          "examples": [
+            "He kept one hand on the tiller and one on the sail.",
+            "Push the tiller left and the bow swings right.",
+            "The old wooden tiller was worn smooth."
+          ]
+        }
+      ],
+      "русский": "мотоблок, культиватор (садовый); румпель",
       "plural": "tillers",
       "countability": "countable"
     },
@@ -1734,14 +1996,43 @@
       "term": "sty",
       "ipa": "/staɪ/",
       "respell": "STY",
-      "meaning": "A pen where pigs are kept. ---",
+      "meaning": "Sty has 2 distinct senses.",
       "examples": [
         "He forked clean straw into the sty.",
         "The pigs came running to the front of the sty.",
-        "Both sties were rebuilt with concrete floors."
+        "Both sties were rebuilt with concrete floors.",
+        "She woke up with a sty on her left eye.",
+        "Warm compresses help a sty drain.",
+        "The sty cleared up in a few days."
       ],
-      "senses": [],
-      "русский": "свинарник, свиной загон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pen where pigs are kept",
+          "body": [
+            "(свинарник, свиной загон)"
+          ],
+          "examples": [
+            "He forked clean straw into the sty.",
+            "The pigs came running to the front of the sty.",
+            "Both sties were rebuilt with concrete floors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small painful swelling on the edge of the eyelid",
+          "body": [
+            "(ячмень (на глазу))",
+            "---"
+          ],
+          "examples": [
+            "She woke up with a sty on her left eye.",
+            "Warm compresses help a sty drain.",
+            "The sty cleared up in a few days."
+          ]
+        }
+      ],
+      "русский": "свинарник, свиной загон; ячмень (на глазу)",
       "plural": "sties",
       "countability": "countable",
       "contrast": "Sounds the same as stye, the swollen spot on an eyelid; the plural is sties."
@@ -1750,14 +2041,43 @@
       "term": "pigpen",
       "ipa": "/ˈpɪɡpɛn/",
       "respell": "PIG-pen",
-      "meaning": "A fenced enclosure where pigs are raised. ---",
+      "meaning": "Pigpen has 2 distinct senses.",
       "examples": [
         "The pigpen sits well away from the house.",
         "He hosed out the pigpen every other day.",
-        "Your room looks like a pigpen."
+        "Your room looks like a pigpen.",
+        "Clean your room — it's a pigpen.",
+        "The apartment was a pigpen the morning after the party.",
+        "His truck is a rolling pigpen."
       ],
-      "senses": [],
-      "русский": "свинарник, загон для свиней",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fenced enclosure where pigs are raised",
+          "body": [
+            "(свинарник, загон для свиней)"
+          ],
+          "examples": [
+            "The pigpen sits well away from the house.",
+            "He hosed out the pigpen every other day.",
+            "Your room looks like a pigpen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very dirty or messy place",
+          "body": [
+            "(свинарник (о беспорядке))",
+            "---"
+          ],
+          "examples": [
+            "Clean your room — it's a pigpen.",
+            "The apartment was a pigpen the morning after the party.",
+            "His truck is a rolling pigpen."
+          ]
+        }
+      ],
+      "русский": "свинарник, загон для свиней; свинарник (о беспорядке)",
       "plural": "pigpens",
       "countability": "countable"
     },
@@ -1961,14 +2281,43 @@
       "term": "furrow",
       "ipa": "/ˈfɜːroʊ/",
       "respell": "FUR-oh",
-      "meaning": "A long narrow groove cut in the soil by a plow. ---",
+      "meaning": "Furrow has 2 distinct senses.",
       "examples": [
         "Water ran down every furrow.",
         "He drove a straight furrow the whole length of the field.",
-        "The seed drops into the furrow and gets covered over."
+        "The seed drops into the furrow and gets covered over.",
+        "Worry had cut deep furrows in his brow.",
+        "A furrow appeared between her eyebrows as she read the letter.",
+        "Years of sun and wind left furrows across his face."
       ],
-      "senses": [],
-      "русский": "борозда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long narrow groove cut in the soil by a plow",
+          "body": [
+            "(борозда)"
+          ],
+          "examples": [
+            "Water ran down every furrow.",
+            "He drove a straight furrow the whole length of the field.",
+            "The seed drops into the furrow and gets covered over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A deep line or wrinkle in the skin, especially on the forehead",
+          "body": [
+            "(глубокая морщина (на лбу))",
+            "---"
+          ],
+          "examples": [
+            "Worry had cut deep furrows in his brow.",
+            "A furrow appeared between her eyebrows as she read the letter.",
+            "Years of sun and wind left furrows across his face."
+          ]
+        }
+      ],
+      "русский": "борозда; глубокая морщина (на лбу)",
       "plural": "furrows",
       "countability": "countable"
     },
@@ -2710,14 +3059,43 @@
       "term": "blight",
       "ipa": "/blaɪt/",
       "respell": "BLYTE",
-      "meaning": "A plant disease that makes leaves and stems wither and die. ---",
+      "meaning": "Blight has 2 distinct senses.",
       "examples": [
         "Blight wiped out the whole potato patch.",
         "Wet weather brings on blight in the tomatoes.",
-        "They sprayed early to hold off the blight."
+        "They sprayed early to hold off the blight.",
+        "Empty factories left decades of urban blight.",
+        "Litter is a blight on the whole neighborhood.",
+        "The city has a plan to fight blight downtown."
       ],
-      "senses": [],
-      "русский": "фитофтороз, болезнь растений",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plant disease that makes leaves and stems wither and die",
+          "body": [
+            "(фитофтороз, болезнь растений)"
+          ],
+          "examples": [
+            "Blight wiped out the whole potato patch.",
+            "Wet weather brings on blight in the tomatoes.",
+            "They sprayed early to hold off the blight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that spoils or ruins a place or situation",
+          "body": [
+            "(упадок, разруха (городская); бич, бедствие)",
+            "---"
+          ],
+          "examples": [
+            "Empty factories left decades of urban blight.",
+            "Litter is a blight on the whole neighborhood.",
+            "The city has a plan to fight blight downtown."
+          ]
+        }
+      ],
+      "русский": "фитофтороз, болезнь растений; упадок, разруха (городская); бич, бедствие",
       "countability": "uncountable",
       "contrast": "The gh is silent; it rhymes with light."
     },

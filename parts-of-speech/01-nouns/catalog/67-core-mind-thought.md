@@ -12,15 +12,29 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### mind
 
 **Pronunciation:** /maɪnd/ &middot; *MYND*
-**Русский:** разум, ум
+**Русский:** разум, ум; ум, светлая голова (о человеке); мнение, намерение
 **Plural:** *minds*
 **Countability:** countable
 
-The part of a person that thinks, feels, and remembers.
+Mind has 3 distinct senses.
+
+**1. The part of a person that thinks, feels, and remembers.** (разум, ум)
 
 1. Something was on her *mind* all afternoon.
 2. He has one of the sharpest *minds* in the department.
 3. I've changed my *mind* about the job offer.
+
+**2. A person of great intelligence.** (ум, светлая голова (о человеке))
+
+4. She was one of the finest *minds* of her generation.
+5. The lab attracts the best young *minds* in the field.
+6. It took a great *mind* to see the pattern at all.
+
+**3. A person's opinion or intention about something.** (мнение, намерение)
+
+7. She changed her *mind* about going.
+8. He always speaks his *mind* at meetings.
+9. We were of the same *mind* on the budget.
 
 ---
 
@@ -42,15 +56,29 @@ A thought or plan that forms in someone's mind.
 ### opinion
 
 **Pronunciation:** /əˈpɪnjən/ &middot; *uh-PIN-yuhn*
-**Русский:** мнение, взгляд
+**Русский:** мнение, взгляд; решение суда с обоснованием, заключение суда; заключение специалиста, мнение врача
 **Plural:** *opinions*
 **Countability:** countable
 
-What a person thinks or believes about something.
+Opinion has 3 distinct senses.
+
+**1. What a person thinks or believes about something.** (мнение, взгляд)
 
 1. In my *opinion*, the second draft is much better.
 2. People have strong *opinions* about the new law.
 3. The doctor wants a second *opinion* before operating.
+
+**2. A judge's written explanation of a court's decision.** (решение суда с обоснованием, заключение суда)
+
+4. The court's *opinion* ran to ninety pages.
+5. Two justices wrote dissenting *opinions*.
+6. The *opinion* did not settle the question for good.
+
+**3. Professional advice from an expert, especially a doctor.** (заключение специалиста, мнение врача)
+
+7. Get a second *opinion* before you agree to surgery.
+8. The insurance company wants an *opinion* from its own doctor.
+9. Her lawyer gave a written *opinion* on the contract.
 
 ---
 
@@ -86,15 +114,29 @@ A sensible way of thinking in which each step follows from the last.
 ### sense
 
 **Pronunciation:** /sɛns/ &middot; *SENS*
-**Русский:** чувство (ощущение); смысл, здравый смысл
+**Русский:** чувство (ощущение); смысл, здравый смысл; чувство, ощущение (чего-л.); значение (слова)
 **Plural:** *senses*
 **Countability:** both — countable and uncountable with different meanings
 
-One of the body's powers of perception, or practical good judgment.
+Sense has 3 distinct senses.
+
+**1. One of the body's powers of perception, or practical good judgment.** (чувство (ощущение); смысл, здравый смысл)
 
 1. A dog's *sense* of smell is remarkable.
 2. The cold water woke up all five of his *senses*.
 3. Have the *sense* to wear a coat when it's ten degrees out.
+
+**2. A feeling or awareness of something.** (чувство, ощущение (чего-л.))
+
+4. I felt a huge *sense* of relief when the call finally came.
+5. He has no *sense* of direction at all.
+6. There's a growing *sense* that nothing will change.
+
+**3. One of the meanings of a word or phrase.** (значение (слова))
+
+7. The word has at least four *senses* in this dictionary.
+8. In what *sense* are you using the word free?
+9. He meant it in the older *sense* of the word.
 
 ---
 
@@ -623,15 +665,29 @@ The reason something is done or exists.
 ### plan
 
 **Pronunciation:** /plæn/ &middot; *PLAN*
-**Русский:** план
+**Русский:** план; план, чертёж (здания); тарифный план; программа (страхования)
 **Plural:** *plans*
 **Countability:** countable
 
-An arrangement worked out in advance for doing something.
+Plan has 3 distinct senses.
+
+**1. An arrangement worked out in advance for doing something.** (план)
 
 1. We need a *plan* before we start knocking down walls.
 2. Their weekend *plans* fell apart on Friday night.
 3. The *plan* is to leave around six.
+
+**2. A drawing that shows a building or a room as seen from above.** (план, чертёж (здания))
+
+4. The architect emailed us the floor *plans*.
+5. The *plan* shows where the outlets go.
+6. They changed the *plans* to add a second bathroom.
+
+**3. An arrangement with a company for a service you pay for regularly.** (тарифный план; программа (страхования))
+
+7. My phone *plan* includes unlimited data.
+8. The company offers a decent health *plan*.
+9. We switched to a cheaper *plan* last month.
 
 ---
 
@@ -653,15 +709,29 @@ A choice made after thinking about the options.
 ### choice
 
 **Pronunciation:** /tʃɔɪs/ &middot; *CHOYS*
-**Русский:** выбор
+**Русский:** выбор; выбор (ассортимент, набор вариантов); выбранный вариант, избранник
 **Plural:** *choices*
 **Countability:** countable
 
-An act of picking one thing rather than another.
+Choice has 3 distinct senses.
+
+**1. An act of picking one thing rather than another.** (выбор)
 
 1. You made the right *choice*.
 2. The menu offers plenty of vegetarian *choices*.
 3. I had no *choice* but to walk home.
+
+**2. The range of things available to pick from.** (выбор (ассортимент, набор вариантов))
+
+4. The menu offers a wide *choice* of salads.
+5. There is not much *choice* in a town this small.
+6. Buyers have more *choice* today than ever.
+
+**3. The person or thing that is picked.** (выбранный вариант, избранник)
+
+7. That school was her first *choice*.
+8. He was the obvious *choice* for the job.
+9. Vanilla would not be my *choice*.
 
 ---
 
@@ -683,15 +753,23 @@ Something you want to happen, or a hope expressed for someone.
 ### habit
 
 **Pronunciation:** /ˈhæbɪt/ &middot; *HA-bit*
-**Русский:** привычка
+**Русский:** привычка; монашеское одеяние, ряса
 **Plural:** *habits*
 **Countability:** countable
 
-Something a person does regularly, often without thinking about it.
+Habit has 2 distinct senses.
+
+**1. Something a person does regularly, often without thinking about it.** (привычка)
 
 1. Biting your nails is a hard *habit* to break.
 2. She has good study *habits*.
 3. I got into the *habit* of walking after dinner.
+
+**2. The long plain robe worn by a monk or a nun.** (монашеское одеяние, ряса)
+
+4. The sisters still wear the traditional *habit*.
+5. A nun in a gray *habit* opened the door.
+6. Their *habits* were made of rough wool.
 
 ---
 
@@ -787,15 +865,23 @@ Pleasant thoughts that take your mind off the present.
 ### fantasy
 
 **Pronunciation:** /ˈfæntəsi/ &middot; *FAN-tuh-see*
-**Русский:** фантазия, вымысел
+**Русский:** фантазия, вымысел; фэнтези (жанр)
 **Plural:** *fantasies*
 **Countability:** both — countable and uncountable with different meanings
 
-An imagined situation that is pleasant but unlikely.
+Fantasy has 2 distinct senses.
+
+**1. An imagined situation that is pleasant but unlikely.** (фантазия, вымысел)
 
 1. Winning the lottery is a common *fantasy*.
 2. His *fantasies* about the job didn't match the reality.
 3. The whole plan was pure *fantasy*.
+
+**2. The kind of story or film set in an imaginary world with magic.** (фэнтези (жанр))
+
+4. He reads nothing but *fantasy*.
+5. The store keeps *fantasy* and science fiction on the same shelf.
+6. It's a *fantasy* novel about a kingdom of dragons.
 
 ---
 

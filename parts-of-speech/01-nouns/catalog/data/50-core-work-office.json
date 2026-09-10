@@ -127,14 +127,43 @@
       "term": "printer",
       "ipa": "/ˈprɪntər/",
       "respell": "PRIN-tur",
-      "meaning": "A machine that puts text or images from a computer onto paper. ---",
+      "meaning": "Printer has 2 distinct senses.",
       "examples": [
         "The printer is out of paper again.",
         "Send it to the printer on the third floor.",
-        "Both printers are jammed."
+        "Both printers are jammed.",
+        "The manuscript is at the printer now.",
+        "A local printer made the wedding invitations.",
+        "The printer wants the final files by Friday."
       ],
-      "senses": [],
-      "русский": "принтер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that puts text or images from a computer onto paper",
+          "body": [
+            "(принтер)"
+          ],
+          "examples": [
+            "The printer is out of paper again.",
+            "Send it to the printer on the third floor.",
+            "Both printers are jammed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or company whose business is printing books, posters, and other material",
+          "body": [
+            "(типография; печатник)",
+            "---"
+          ],
+          "examples": [
+            "The manuscript is at the printer now.",
+            "A local printer made the wedding invitations.",
+            "The printer wants the final files by Friday."
+          ]
+        }
+      ],
+      "русский": "принтер; типография; печатник",
       "plural": "printers",
       "countability": "countable"
     },
@@ -263,14 +292,58 @@
       "term": "monitor",
       "ipa": "/ˈmɑːnətər/",
       "respell": "MAH-nuh-tur",
-      "meaning": "The screen you look at when using a computer. ---",
+      "meaning": "Monitor has 3 distinct senses.",
       "examples": [
         "He works with two monitors.",
         "The monitor keeps flickering.",
-        "IT ordered a bigger monitor for her desk."
+        "IT ordered a bigger monitor for her desk.",
+        "A hall monitor stopped us and asked for a pass.",
+        "International monitors watched the vote count.",
+        "The lunchroom monitor broke up the argument.",
+        "We keep a baby monitor on the dresser.",
+        "The heart monitor beeped all night.",
+        "A carbon monoxide monitor hangs in the hallway."
       ],
-      "senses": [],
-      "русский": "монитор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The screen you look at when using a computer",
+          "body": [
+            "(монитор)"
+          ],
+          "examples": [
+            "He works with two monitors.",
+            "The monitor keeps flickering.",
+            "IT ordered a bigger monitor for her desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose job is to watch over an activity and report on it",
+          "body": [
+            "(наблюдатель; дежурный)"
+          ],
+          "examples": [
+            "A hall monitor stopped us and asked for a pass.",
+            "International monitors watched the vote count.",
+            "The lunchroom monitor broke up the argument."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A device that keeps track of something and warns you about changes",
+          "body": [
+            "(следящий прибор (радионяня, кардиомонитор))",
+            "---"
+          ],
+          "examples": [
+            "We keep a baby monitor on the dresser.",
+            "The heart monitor beeped all night.",
+            "A carbon monoxide monitor hangs in the hallway."
+          ]
+        }
+      ],
+      "русский": "монитор; наблюдатель; дежурный; следящий прибор (радионяня, кардиомонитор)",
       "plural": "monitors",
       "countability": "countable"
     },
@@ -491,14 +564,58 @@
       "term": "report",
       "ipa": "/rɪˈpɔːrt/",
       "respell": "rih-PORT",
-      "meaning": "A written account of work done or facts found out. ---",
+      "meaning": "Report has 3 distinct senses.",
       "examples": [
         "The report is due Friday morning.",
         "She wrote a twelve-page report on the numbers.",
-        "Nobody reads these reports anyway."
+        "Nobody reads these reports anyway.",
+        "The report of a rifle echoed across the valley.",
+        "We heard two sharp reports and then silence.",
+        "The report of the cannon startled the horses.",
+        "She manages a team of six direct reports.",
+        "Every new manager starts with two or three reports.",
+        "He has more reports than anyone else at his level."
       ],
-      "senses": [],
-      "русский": "отчёт, доклад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A written account of work done or facts found out",
+          "body": [
+            "(отчёт, доклад)"
+          ],
+          "examples": [
+            "The report is due Friday morning.",
+            "She wrote a twelve-page report on the numbers.",
+            "Nobody reads these reports anyway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden loud noise, especially the sound of a gun going off",
+          "body": [
+            "(звук выстрела, грохот)"
+          ],
+          "examples": [
+            "The report of a rifle echoed across the valley.",
+            "We heard two sharp reports and then silence.",
+            "The report of the cannon startled the horses."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An employee who works directly under a particular manager",
+          "body": [
+            "(подчинённый (непосредственный))",
+            "---"
+          ],
+          "examples": [
+            "She manages a team of six direct reports.",
+            "Every new manager starts with two or three reports.",
+            "He has more reports than anyone else at his level."
+          ]
+        }
+      ],
+      "русский": "отчёт, доклад; звук выстрела, грохот; подчинённый (непосредственный)",
       "plural": "reports",
       "countability": "countable"
     },
@@ -596,14 +713,73 @@
       "term": "form",
       "ipa": "/fɔːrm/",
       "respell": "FORM",
-      "meaning": "A printed sheet with blank spaces to be filled in. ---",
+      "meaning": "Form has 4 distinct senses.",
       "examples": [
         "Fill out this form and bring it back.",
         "The form asks for your Social Security number.",
-        "There were four forms to sign on my first day."
+        "There were four forms to sign on my first day.",
+        "A dark form moved behind the curtain.",
+        "The carving keeps the rough form of a bird.",
+        "We could barely make out the forms of the mountains in the fog.",
+        "Swimming is the best form of exercise for her knees.",
+        "Cash is still an accepted form of payment here.",
+        "The disease takes several different forms.",
+        "The team has been in great form since the break.",
+        "After his injury he struggled to get back to form.",
+        "The comedian was in fine form last night."
       ],
-      "senses": [],
-      "русский": "бланк, анкета",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A printed sheet with blank spaces to be filled in",
+          "body": [
+            "(бланк, анкета)"
+          ],
+          "examples": [
+            "Fill out this form and bring it back.",
+            "The form asks for your Social Security number.",
+            "There were four forms to sign on my first day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shape or outward appearance of something",
+          "body": [
+            "(форма, очертания)"
+          ],
+          "examples": [
+            "A dark form moved behind the curtain.",
+            "The carving keeps the rough form of a bird.",
+            "We could barely make out the forms of the mountains in the fog."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A type or variety of something",
+          "body": [
+            "(вид, разновидность)"
+          ],
+          "examples": [
+            "Swimming is the best form of exercise for her knees.",
+            "Cash is still an accepted form of payment here.",
+            "The disease takes several different forms."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The level at which a person or team is performing at the moment",
+          "body": [
+            "(форма (состояние, уровень игры))",
+            "---"
+          ],
+          "examples": [
+            "The team has been in great form since the break.",
+            "After his injury he struggled to get back to form.",
+            "The comedian was in fine form last night."
+          ]
+        }
+      ],
+      "русский": "бланк, анкета; форма, очертания; вид, разновидность; форма (состояние, уровень игры)",
       "plural": "forms",
       "countability": "countable"
     },
@@ -611,14 +787,58 @@
       "term": "survey",
       "ipa": "/ˈsɜːrveɪ/",
       "respell": "SUR-vay",
-      "meaning": "A set of questions asked of many people to collect opinions. ---",
+      "meaning": "Survey has 3 distinct senses.",
       "examples": [
         "HR sent out an employee survey.",
         "The survey takes about five minutes.",
-        "Nobody fills out these surveys."
+        "Nobody fills out these surveys.",
+        "The bank required a survey before we closed on the house.",
+        "The survey showed the fence was two feet onto the neighbor's lot.",
+        "Crews finished the survey of the highway route last week.",
+        "The book is a survey of American art since 1945.",
+        "He took a quick survey of the damage after the storm.",
+        "Freshmen usually start with a survey course."
       ],
-      "senses": [],
-      "русский": "опрос, анкетирование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of questions asked of many people to collect opinions",
+          "body": [
+            "(опрос, анкетирование)"
+          ],
+          "examples": [
+            "HR sent out an employee survey.",
+            "The survey takes about five minutes.",
+            "Nobody fills out these surveys."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A careful measurement of a piece of land and its exact boundaries",
+          "body": [
+            "(межевание, геодезическая съёмка)"
+          ],
+          "examples": [
+            "The bank required a survey before we closed on the house.",
+            "The survey showed the fence was two feet onto the neighbor's lot.",
+            "Crews finished the survey of the highway route last week."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A general look at or review of a whole subject",
+          "body": [
+            "(обзор, общий осмотр)",
+            "---"
+          ],
+          "examples": [
+            "The book is a survey of American art since 1945.",
+            "He took a quick survey of the damage after the storm.",
+            "Freshmen usually start with a survey course."
+          ]
+        }
+      ],
+      "русский": "опрос, анкетирование; межевание, геодезическая съёмка; обзор, общий осмотр",
       "plural": "surveys",
       "countability": "countable",
       "contrast": "Stress moves: the noun is SUR-vay, the verb to survey is sur-VAY."
@@ -750,14 +970,58 @@
       "term": "call",
       "ipa": "/kɔːl/",
       "respell": "KAWL",
-      "meaning": "A conversation by phone or video, especially a work one. ---",
+      "meaning": "Call has 3 distinct senses.",
       "examples": [
         "I'm on a call until eleven.",
         "Let's set up a call for Monday.",
-        "She had five calls back to back."
+        "She had five calls back to back.",
+        "The call of a loon carried across the lake.",
+        "He can imitate a dozen bird calls.",
+        "We heard the call of geese somewhere overhead.",
+        "The ref made a bad call in the final minute.",
+        "Whether we go is your call.",
+        "It was a tough call, but we canceled the trip."
       ],
-      "senses": [],
-      "русский": "звонок, созвон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A conversation by phone or video, especially a work one",
+          "body": [
+            "(звонок, созвон)"
+          ],
+          "examples": [
+            "I'm on a call until eleven.",
+            "Let's set up a call for Monday.",
+            "She had five calls back to back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The cry of a bird or animal",
+          "body": [
+            "(крик, зов (птицы, животного))"
+          ],
+          "examples": [
+            "The call of a loon carried across the lake.",
+            "He can imitate a dozen bird calls.",
+            "We heard the call of geese somewhere overhead."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A decision or judgment, especially a referee's ruling",
+          "body": [
+            "(решение; решение судьи (в спорте))",
+            "---"
+          ],
+          "examples": [
+            "The ref made a bad call in the final minute.",
+            "Whether we go is your call.",
+            "It was a tough call, but we canceled the trip."
+          ]
+        }
+      ],
+      "русский": "звонок, созвон; крик, зов (птицы, животного); решение; решение судьи (в спорте)",
       "plural": "calls",
       "countability": "countable"
     },
@@ -796,14 +1060,58 @@
       "term": "goal",
       "ipa": "/ɡoʊl/",
       "respell": "GOHL",
-      "meaning": "Something you are trying to achieve. ---",
+      "meaning": "Goal has 3 distinct senses.",
       "examples": [
         "Our goal is to double sales this year.",
         "She set a goal of finishing by June.",
-        "We hit all three goals for the quarter."
+        "We hit all three goals for the quarter.",
+        "He kicked the ball just wide of the goal.",
+        "The keeper never left the goal.",
+        "Both goals were repainted before the tournament.",
+        "She scored two goals in the second half.",
+        "The winning goal came in overtime.",
+        "They lost by a single goal."
       ],
-      "senses": [],
-      "русский": "цель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you are trying to achieve",
+          "body": [
+            "(цель)"
+          ],
+          "examples": [
+            "Our goal is to double sales this year.",
+            "She set a goal of finishing by June.",
+            "We hit all three goals for the quarter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The net or frame that a team tries to send the ball or puck into",
+          "body": [
+            "(ворота (в спорте))"
+          ],
+          "examples": [
+            "He kicked the ball just wide of the goal.",
+            "The keeper never left the goal.",
+            "Both goals were repainted before the tournament."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A point scored by putting the ball or puck into the net",
+          "body": [
+            "(гол, забитый мяч)",
+            "---"
+          ],
+          "examples": [
+            "She scored two goals in the second half.",
+            "The winning goal came in overtime.",
+            "They lost by a single goal."
+          ]
+        }
+      ],
+      "русский": "цель; ворота (в спорте); гол, забитый мяч",
       "plural": "goals",
       "countability": "countable"
     },
@@ -811,14 +1119,43 @@
       "term": "update",
       "ipa": "/ˈʌpdeɪt/",
       "respell": "UP-dayt",
-      "meaning": "The latest news about how something is going. ---",
+      "meaning": "Update has 2 distinct senses.",
       "examples": [
         "Can you give me a quick update?",
         "There's been no update since Tuesday.",
-        "He sends updates every Friday afternoon."
+        "He sends updates every Friday afternoon.",
+        "The phone downloaded an update overnight.",
+        "This update finally fixes the camera bug.",
+        "Updates install automatically on Tuesday nights."
       ],
-      "senses": [],
-      "русский": "обновление, свежая информация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The latest news about how something is going",
+          "body": [
+            "(обновление, свежая информация)"
+          ],
+          "examples": [
+            "Can you give me a quick update?",
+            "There's been no update since Tuesday.",
+            "He sends updates every Friday afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A new version of a program that fixes problems or adds features",
+          "body": [
+            "(обновление (программы, приложения))",
+            "---"
+          ],
+          "examples": [
+            "The phone downloaded an update overnight.",
+            "This update finally fixes the camera bug.",
+            "Updates install automatically on Tuesday nights."
+          ]
+        }
+      ],
+      "русский": "обновление, свежая информация; обновление (программы, приложения)",
       "plural": "updates",
       "countability": "countable",
       "contrast": "Stress moves: the noun is UP-dayt, the verb to update is up-DAYT."
@@ -827,14 +1164,43 @@
       "term": "review",
       "ipa": "/rɪˈvjuː/",
       "respell": "rih-VYOO",
-      "meaning": "A careful look at how well someone or something is doing. ---",
+      "meaning": "Review has 2 distinct senses.",
       "examples": [
         "I have my performance review next week.",
         "The review went better than I expected.",
-        "They do reviews twice a year here."
+        "They do reviews twice a year here.",
+        "The movie got terrible reviews.",
+        "I read a review of the new Thai place downtown.",
+        "The hotel has four stars and hundreds of reviews."
       ],
-      "senses": [],
-      "русский": "оценка, аттестация; обзор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A careful look at how well someone or something is doing",
+          "body": [
+            "(оценка, аттестация; обзор)"
+          ],
+          "examples": [
+            "I have my performance review next week.",
+            "The review went better than I expected.",
+            "They do reviews twice a year here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A written opinion of a movie, book, restaurant, or product",
+          "body": [
+            "(рецензия, отзыв)",
+            "---"
+          ],
+          "examples": [
+            "The movie got terrible reviews.",
+            "I read a review of the new Thai place downtown.",
+            "The hotel has four stars and hundreds of reviews."
+          ]
+        }
+      ],
+      "русский": "оценка, аттестация; обзор; рецензия, отзыв",
       "plural": "reviews",
       "countability": "countable"
     },
@@ -842,14 +1208,58 @@
       "term": "job",
       "ipa": "/dʒɑːb/",
       "respell": "JAHB",
-      "meaning": "The paid position a person holds. ---",
+      "meaning": "Job has 3 distinct senses.",
       "examples": [
         "He got a job at a bank downtown.",
         "She's been at the same job for eleven years.",
-        "He worked two jobs to pay for school."
+        "He worked two jobs to pay for school.",
+        "Painting the fence is a two-day job.",
+        "I have a few jobs to finish around the house this weekend.",
+        "Cleaning the gutters is the worst job of the fall.",
+        "The police think it was an inside job.",
+        "They pulled a bank job in broad daylight.",
+        "He served ten years for a job he swore he didn't do."
       ],
-      "senses": [],
-      "русский": "работа, место работы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The paid position a person holds",
+          "body": [
+            "(работа, место работы)"
+          ],
+          "examples": [
+            "He got a job at a bank downtown.",
+            "She's been at the same job for eleven years.",
+            "He worked two jobs to pay for school."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular piece of work that has to be done",
+          "body": [
+            "(работа, задание (конкретное дело))"
+          ],
+          "examples": [
+            "Painting the fence is a two-day job.",
+            "I have a few jobs to finish around the house this weekend.",
+            "Cleaning the gutters is the worst job of the fall."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A crime, especially a robbery (informal)",
+          "body": [
+            "(дело, ограбление (разг.))",
+            "---"
+          ],
+          "examples": [
+            "The police think it was an inside job.",
+            "They pulled a bank job in broad daylight.",
+            "He served ten years for a job he swore he didn't do."
+          ]
+        }
+      ],
+      "русский": "работа, место работы; работа, задание (конкретное дело); дело, ограбление (разг.)",
       "plural": "jobs",
       "countability": "countable",
       "contrast": "Countable, unlike work: say two jobs, never two works."
@@ -873,14 +1283,43 @@
       "term": "role",
       "ipa": "/roʊl/",
       "respell": "ROHL",
-      "meaning": "The job or function a person has on a team. ---",
+      "meaning": "Role has 2 distinct senses.",
       "examples": [
         "She just moved into a management role.",
         "My role is mostly writing and editing.",
-        "The two roles overlap quite a bit."
+        "The two roles overlap quite a bit.",
+        "She won an award for her role in the film.",
+        "He auditioned for the lead role.",
+        "The director cast unknowns in the smaller roles."
       ],
-      "senses": [],
-      "русский": "роль, должность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The job or function a person has on a team",
+          "body": [
+            "(роль, должность)"
+          ],
+          "examples": [
+            "She just moved into a management role.",
+            "My role is mostly writing and editing.",
+            "The two roles overlap quite a bit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A character played by an actor in a movie, play, or show",
+          "body": [
+            "(роль (в фильме, спектакле))",
+            "---"
+          ],
+          "examples": [
+            "She won an award for her role in the film.",
+            "He auditioned for the lead role.",
+            "The director cast unknowns in the smaller roles."
+          ]
+        }
+      ],
+      "русский": "роль, должность; роль (в фильме, спектакле)",
       "plural": "roles",
       "countability": "countable"
     },
@@ -995,14 +1434,58 @@
       "term": "shift",
       "ipa": "/ʃɪft/",
       "respell": "SHIFT",
-      "meaning": "A set period of working hours, one of several covering the day. ---",
+      "meaning": "Shift has 3 distinct senses.",
       "examples": [
         "My shift starts at six in the morning.",
         "She picked up an extra shift on Saturday.",
-        "The night shifts are hardest to fill."
+        "The night shifts are hardest to fill.",
+        "There's been a real shift in public opinion since spring.",
+        "The company made a shift toward online sales.",
+        "A small shift in the wind saved the town.",
+        "Hold shift and press the letter.",
+        "The shift key on this laptop sticks.",
+        "Caps lock is right above shift on the left."
       ],
-      "senses": [],
-      "русский": "смена (рабочая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set period of working hours, one of several covering the day",
+          "body": [
+            "(смена (рабочая))"
+          ],
+          "examples": [
+            "My shift starts at six in the morning.",
+            "She picked up an extra shift on Saturday.",
+            "The night shifts are hardest to fill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A change in position, opinion, or the way things are done",
+          "body": [
+            "(сдвиг, перемена)"
+          ],
+          "examples": [
+            "There's been a real shift in public opinion since spring.",
+            "The company made a shift toward online sales.",
+            "A small shift in the wind saved the town."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The key on a keyboard that makes capital letters",
+          "body": [
+            "(клавиша Shift (для заглавных букв))",
+            "---"
+          ],
+          "examples": [
+            "Hold shift and press the letter.",
+            "The shift key on this laptop sticks.",
+            "Caps lock is right above shift on the left."
+          ]
+        }
+      ],
+      "русский": "смена (рабочая); сдвиг, перемена; клавиша Shift (для заглавных букв)",
       "plural": "shifts",
       "countability": "countable"
     },
@@ -1117,14 +1600,58 @@
       "term": "offer",
       "ipa": "/ˈɔːfər/",
       "respell": "AW-fur",
-      "meaning": "A formal proposal to hire someone at a stated salary. ---",
+      "meaning": "Offer has 3 distinct senses.",
       "examples": [
         "She got an offer from a firm in Boston.",
         "The offer came in below what he wanted.",
-        "He turned down two offers last month."
+        "He turned down two offers last month.",
+        "We made an offer on the house the same afternoon we saw it.",
+        "The seller turned down our first offer.",
+        "Three offers came in above the asking price.",
+        "The offer ends at midnight on Sunday.",
+        "This coupon can't be combined with any other offer.",
+        "Stores run these offers every year after the holidays."
       ],
-      "senses": [],
-      "русский": "предложение (о работе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal proposal to hire someone at a stated salary",
+          "body": [
+            "(предложение (о работе))"
+          ],
+          "examples": [
+            "She got an offer from a firm in Boston.",
+            "The offer came in below what he wanted.",
+            "He turned down two offers last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of money someone proposes to pay for something",
+          "body": [
+            "(предложенная цена, предложение о покупке)"
+          ],
+          "examples": [
+            "We made an offer on the house the same afternoon we saw it.",
+            "The seller turned down our first offer.",
+            "Three offers came in above the asking price."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A special deal or reduced price available for a limited time",
+          "body": [
+            "(акция, спецпредложение)",
+            "---"
+          ],
+          "examples": [
+            "The offer ends at midnight on Sunday.",
+            "This coupon can't be combined with any other offer.",
+            "Stores run these offers every year after the holidays."
+          ]
+        }
+      ],
+      "русский": "предложение (о работе); предложенная цена, предложение о покупке; акция, спецпредложение",
       "plural": "offers",
       "countability": "countable"
     },
@@ -1147,14 +1674,43 @@
       "term": "union",
       "ipa": "/ˈjuːnjən/",
       "respell": "YOON-yuhn",
-      "meaning": "An organized group of workers formed to protect their rights. ---",
+      "meaning": "Union has 2 distinct senses.",
       "examples": [
         "The union is negotiating a new contract.",
         "He's been in the union since 1998.",
-        "Two unions represent workers at the plant."
+        "Two unions represent workers at the plant.",
+        "Their union lasted more than fifty years.",
+        "Three children came from that union.",
+        "The merger created a union of two old rivals."
       ],
-      "senses": [],
-      "русский": "профсоюз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized group of workers formed to protect their rights",
+          "body": [
+            "(профсоюз)"
+          ],
+          "examples": [
+            "The union is negotiating a new contract.",
+            "He's been in the union since 1998.",
+            "Two unions represent workers at the plant."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The joining of two or more people or things into one, especially a marriage",
+          "body": [
+            "(союз, объединение; брак)",
+            "---"
+          ],
+          "examples": [
+            "Their union lasted more than fifty years.",
+            "Three children came from that union.",
+            "The merger created a union of two old rivals."
+          ]
+        }
+      ],
+      "русский": "профсоюз; союз, объединение; брак",
       "plural": "unions",
       "countability": "countable"
     },
@@ -1162,14 +1718,58 @@
       "term": "strike",
       "ipa": "/straɪk/",
       "respell": "STRYK",
-      "meaning": "A refusal to work, used to press an employer for something. ---",
+      "meaning": "Strike has 3 distinct senses.",
       "examples": [
         "The drivers went on strike for two weeks.",
         "The strike ended with a wage increase.",
-        "There were strikes at three plants that summer."
+        "There were strikes at three plants that summer.",
+        "The air strike hit a supply depot.",
+        "Two strikes were reported overnight.",
+        "The general ordered a strike at dawn.",
+        "That's strike two.",
+        "He went down on three straight strikes.",
+        "The umpire called it a strike and the crowd booed."
       ],
-      "senses": [],
-      "русский": "забастовка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A refusal to work, used to press an employer for something",
+          "body": [
+            "(забастовка)"
+          ],
+          "examples": [
+            "The drivers went on strike for two weeks.",
+            "The strike ended with a wage increase.",
+            "There were strikes at three plants that summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A military attack, especially one from the air",
+          "body": [
+            "(удар (военный), авиаудар)"
+          ],
+          "examples": [
+            "The air strike hit a supply depot.",
+            "Two strikes were reported overnight.",
+            "The general ordered a strike at dawn."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "In baseball, a pitch that counts against the batter",
+          "body": [
+            "(страйк (в бейсболе))",
+            "---"
+          ],
+          "examples": [
+            "That's strike two.",
+            "He went down on three straight strikes.",
+            "The umpire called it a strike and the crowd booed."
+          ]
+        }
+      ],
+      "русский": "забастовка; удар (военный), авиаудар; страйк (в бейсболе)",
       "plural": "strikes",
       "countability": "countable"
     },
@@ -1297,14 +1897,43 @@
       "term": "project",
       "ipa": "/ˈprɑːdʒɛkt/",
       "respell": "PRAH-jekt",
-      "meaning": "A planned piece of work with a goal and an end date. ---",
+      "meaning": "Project has 2 distinct senses.",
       "examples": [
         "I'm on a new project starting Monday.",
         "The project is running two weeks late.",
-        "She's juggling three projects at once."
+        "She's juggling three projects at once.",
+        "He grew up in the projects on the South Side.",
+        "The city is tearing down two projects next year.",
+        "Kids from the project walked to school together."
       ],
-      "senses": [],
-      "русский": "проект",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A planned piece of work with a goal and an end date",
+          "body": [
+            "(проект)"
+          ],
+          "examples": [
+            "I'm on a new project starting Monday.",
+            "The project is running two weeks late.",
+            "She's juggling three projects at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of government-owned apartment buildings for low-income families, usually in the plural",
+          "body": [
+            "(муниципальное жильё для малоимущих)",
+            "---"
+          ],
+          "examples": [
+            "He grew up in the projects on the South Side.",
+            "The city is tearing down two projects next year.",
+            "Kids from the project walked to school together."
+          ]
+        }
+      ],
+      "русский": "проект; муниципальное жильё для малоимущих",
       "plural": "projects",
       "countability": "countable",
       "contrast": "Stress moves: the noun is PRAH-jekt, the verb to project is pruh-JEKT."
@@ -1343,14 +1972,43 @@
       "term": "duty",
       "ipa": "/ˈduːti/",
       "respell": "DOO-tee",
-      "meaning": "Something you are required to do as part of a job. ---",
+      "meaning": "Duty has 2 distinct senses.",
       "examples": [
         "Answering the phone isn't part of my duty.",
         "Her duties include scheduling and payroll.",
-        "He listed all the duties in the job posting."
+        "He listed all the duties in the job posting.",
+        "Travelers pay duty on anything worth more than eight hundred dollars.",
+        "Congress raised the duty on imported steel.",
+        "The shop past security sells perfume with no duty added."
       ],
-      "senses": [],
-      "русский": "обязанность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something you are required to do as part of a job",
+          "body": [
+            "(обязанность)"
+          ],
+          "examples": [
+            "Answering the phone isn't part of my duty.",
+            "Her duties include scheduling and payroll.",
+            "He listed all the duties in the job posting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tax charged on goods brought into a country",
+          "body": [
+            "(пошлина, таможенный сбор)",
+            "---"
+          ],
+          "examples": [
+            "Travelers pay duty on anything worth more than eight hundred dollars.",
+            "Congress raised the duty on imported steel.",
+            "The shop past security sells perfume with no duty added."
+          ]
+        }
+      ],
+      "русский": "обязанность; пошлина, таможенный сбор",
       "plural": "duties",
       "countability": "countable"
     },
@@ -1419,14 +2077,43 @@
       "term": "inbox",
       "ipa": "/ˈɪnbɑːks/",
       "respell": "IN-bahks",
-      "meaning": "The place where incoming email messages arrive. ---",
+      "meaning": "Inbox has 2 distinct senses.",
       "examples": [
         "My inbox is out of control.",
         "It's sitting in your inbox somewhere.",
-        "She keeps two separate inboxes."
+        "She keeps two separate inboxes.",
+        "Leave the signed forms in my inbox.",
+        "Her inbox was buried under a stack of files.",
+        "The mail clerk drops the day's letters into each inbox."
       ],
-      "senses": [],
-      "русский": "папка «Входящие»",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place where incoming email messages arrive",
+          "body": [
+            "(папка «Входящие»)"
+          ],
+          "examples": [
+            "My inbox is out of control.",
+            "It's sitting in your inbox somewhere.",
+            "She keeps two separate inboxes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tray on a desk where incoming papers are left",
+          "body": [
+            "(лоток для входящих документов)",
+            "---"
+          ],
+          "examples": [
+            "Leave the signed forms in my inbox.",
+            "Her inbox was buried under a stack of files.",
+            "The mail clerk drops the day's letters into each inbox."
+          ]
+        }
+      ],
+      "русский": "папка «Входящие»; лоток для входящих документов",
       "plural": "inboxes",
       "countability": "countable"
     },

@@ -21,14 +21,58 @@
       "term": "tack",
       "ipa": "/tæk/",
       "respell": "TAK",
-      "meaning": "A short nail with a broad flat head, used to fasten something to a surface. ---",
+      "meaning": "Tack has 3 distinct senses.",
       "examples": [
         "She hung the poster with four tacks.",
         "A tack was stuck in the front tire.",
-        "Push the map into the corkboard with a tack."
+        "Push the map into the corkboard with a tack.",
+        "When arguing didn't work, she tried a different tack.",
+        "The company took a softer tack with unhappy customers.",
+        "That tack got us nowhere, so let's start over.",
+        "She cleans her tack after every ride.",
+        "The barn has a room just for tack.",
+        "He bought a used saddle at the tack shop."
       ],
-      "senses": [],
-      "русский": "кнопка, гвоздик с широкой шляпкой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short nail with a broad flat head, used to fasten something to a surface",
+          "body": [
+            "(кнопка, гвоздик с широкой шляпкой)"
+          ],
+          "examples": [
+            "She hung the poster with four tacks.",
+            "A tack was stuck in the front tire.",
+            "Push the map into the corkboard with a tack."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of dealing with a problem; an approach",
+          "body": [
+            "(подход, курс действий)"
+          ],
+          "examples": [
+            "When arguing didn't work, she tried a different tack.",
+            "The company took a softer tack with unhappy customers.",
+            "That tack got us nowhere, so let's start over."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The saddle, bridle, and other equipment used on a horse",
+          "body": [
+            "(конская упряжь, амуниция)",
+            "---"
+          ],
+          "examples": [
+            "She cleans her tack after every ride.",
+            "The barn has a room just for tack.",
+            "He bought a used saddle at the tack shop."
+          ]
+        }
+      ],
+      "русский": "кнопка, гвоздик с широкой шляпкой; подход, курс действий; конская упряжь, амуниция",
       "plural": "tacks",
       "countability": "countable"
     },
@@ -124,14 +168,43 @@
       "term": "take",
       "ipa": "/teɪk/",
       "respell": "TAYK",
-      "meaning": "Someone's particular opinion on a subject, or one filmed attempt at a scene. ---",
+      "meaning": "Take has 2 distinct senses.",
       "examples": [
         "What is your take on the new policy?",
         "The director kept the third take.",
-        "Her take on the book is worth reading."
+        "Her take on the book is worth reading.",
+        "The night's take was over three thousand dollars.",
+        "They split the take evenly.",
+        "The movie's opening-weekend take surprised everyone."
       ],
-      "senses": [],
-      "русский": "мнение, точка зрения; дубль (в кино)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone's particular opinion on a subject, or one filmed attempt at a scene",
+          "body": [
+            "(мнение, точка зрения; дубль (в кино))"
+          ],
+          "examples": [
+            "What is your take on the new policy?",
+            "The director kept the third take.",
+            "Her take on the book is worth reading."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The money collected from a sale, a show, or a game",
+          "body": [
+            "(выручка, сборы)",
+            "---"
+          ],
+          "examples": [
+            "The night's take was over three thousand dollars.",
+            "They split the take evenly.",
+            "The movie's opening-weekend take surprised everyone."
+          ]
+        }
+      ],
+      "русский": "мнение, точка зрения; дубль (в кино); выручка, сборы",
       "plural": "takes",
       "countability": "countable"
     },
@@ -170,14 +243,58 @@
       "term": "talk",
       "ipa": "/tɔːk/",
       "respell": "TAWK",
-      "meaning": "A speech or a serious conversation about a particular subject. ---",
+      "meaning": "Talk has 3 distinct senses.",
       "examples": [
         "She gave a talk on climate policy.",
         "We need to have a talk about your grades.",
-        "There are three talks before lunch."
+        "There are three talks before lunch.",
+        "Peace talks resumed on Monday.",
+        "The two companies are in talks about a merger.",
+        "Contract talks broke down again last night.",
+        "There's talk of layoffs in the spring.",
+        "Their new house is the talk of the neighborhood.",
+        "Don't pay attention to idle talk."
       ],
-      "senses": [],
-      "русский": "беседа; доклад, лекция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A speech or a serious conversation about a particular subject",
+          "body": [
+            "(беседа; доклад, лекция)"
+          ],
+          "examples": [
+            "She gave a talk on climate policy.",
+            "We need to have a talk about your grades.",
+            "There are three talks before lunch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Formal discussions between two sides trying to reach an agreement",
+          "body": [
+            "(переговоры)"
+          ],
+          "examples": [
+            "Peace talks resumed on Monday.",
+            "The two companies are in talks about a merger.",
+            "Contract talks broke down again last night."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Rumor or gossip going around about someone or something",
+          "body": [
+            "(разговоры, слухи)",
+            "---"
+          ],
+          "examples": [
+            "There's talk of layoffs in the spring.",
+            "Their new house is the talk of the neighborhood.",
+            "Don't pay attention to idle talk."
+          ]
+        }
+      ],
+      "русский": "беседа; доклад, лекция; переговоры; разговоры, слухи",
       "plural": "talks",
       "countability": "countable"
     },
@@ -648,14 +765,43 @@
       "term": "temp",
       "ipa": "/tɛmp/",
       "respell": "TEMP",
-      "meaning": "A worker hired for a short period, usually through an agency. ---",
+      "meaning": "Temp has 2 distinct senses.",
       "examples": [
         "They brought in a temp to cover the front desk.",
         "Two temps handled the holiday rush.",
-        "She worked as a temp for a year before they hired her full time."
+        "She worked as a temp for a year before they hired her full time.",
+        "What's the temp outside?",
+        "Check the water temp before you get in.",
+        "The engine temp is running high again."
       ],
-      "senses": [],
-      "русский": "временный работник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A worker hired for a short period, usually through an agency",
+          "body": [
+            "(временный работник)"
+          ],
+          "examples": [
+            "They brought in a temp to cover the front desk.",
+            "Two temps handled the holiday rush.",
+            "She worked as a temp for a year before they hired her full time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Temperature, in everyday informal speech",
+          "body": [
+            "(температура (разг.))",
+            "---"
+          ],
+          "examples": [
+            "What's the temp outside?",
+            "Check the water temp before you get in.",
+            "The engine temp is running high again."
+          ]
+        }
+      ],
+      "русский": "временный работник; температура (разг.)",
       "plural": "temps",
       "countability": "countable",
       "contrast": "In speech temp is also short for temperature, as in \"check the temp on the oven.\""
@@ -1032,14 +1178,43 @@
       "term": "thing",
       "ipa": "/θɪŋ/",
       "respell": "THING",
-      "meaning": "An object, event, or matter that you do not name more exactly. ---",
+      "meaning": "Thing has 2 distinct senses.",
       "examples": [
         "What's that thing on the top shelf?",
         "A few things still bother me about the plan.",
-        "The best thing about the job is the people."
+        "The best thing about the job is the people.",
+        "Pack your things — we leave at six.",
+        "She left a few things at my apartment.",
+        "He put his things in a locker by the door."
       ],
-      "senses": [],
-      "русский": "вещь, предмет; дело",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An object, event, or matter that you do not name more exactly",
+          "body": [
+            "(вещь, предмет; дело)"
+          ],
+          "examples": [
+            "What's that thing on the top shelf?",
+            "A few things still bother me about the plan.",
+            "The best thing about the job is the people."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a person owns; a personal belonging",
+          "body": [
+            "(вещи, пожитки)",
+            "---"
+          ],
+          "examples": [
+            "Pack your things — we leave at six.",
+            "She left a few things at my apartment.",
+            "He put his things in a locker by the door."
+          ]
+        }
+      ],
+      "русский": "вещь, предмет; дело; вещи, пожитки",
       "plural": "things",
       "countability": "countable"
     },
@@ -1181,14 +1356,43 @@
       "term": "thrush",
       "ipa": "/θrʌʃ/",
       "respell": "THRUHSH",
-      "meaning": "A songbird with a spotted breast and a musical call. ---",
+      "meaning": "Thrush has 2 distinct senses.",
       "examples": [
         "A thrush sang from the hedge at dawn.",
         "Thrushes nest in the woods behind the house.",
-        "The wood thrush is common in the eastern states."
+        "The wood thrush is common in the eastern states.",
+        "The baby has thrush and won't nurse.",
+        "The doctor prescribed drops for the thrush.",
+        "Thrush can pass back and forth between a nursing mother and her baby."
       ],
-      "senses": [],
-      "русский": "дрозд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A songbird with a spotted breast and a musical call",
+          "body": [
+            "(дрозд)"
+          ],
+          "examples": [
+            "A thrush sang from the hedge at dawn.",
+            "Thrushes nest in the woods behind the house.",
+            "The wood thrush is common in the eastern states."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fungal infection that leaves white patches in the mouth, common in babies",
+          "body": [
+            "(молочница, кандидоз (полости рта))",
+            "---"
+          ],
+          "examples": [
+            "The baby has thrush and won't nurse.",
+            "The doctor prescribed drops for the thrush.",
+            "Thrush can pass back and forth between a nursing mother and her baby."
+          ]
+        }
+      ],
+      "русский": "дрозд; молочница, кандидоз (полости рта)",
       "plural": "thrushes",
       "countability": "countable"
     },
@@ -1722,14 +1926,73 @@
       "term": "top",
       "ipa": "/tɑːp/",
       "respell": "TAHP",
-      "meaning": "The highest part or upper surface of something. ---",
+      "meaning": "Top has 4 distinct senses.",
       "examples": [
         "There's dust on the top of the fridge.",
         "We hiked to the top in two hours.",
-        "She wore a black top with jeans."
+        "She wore a black top with jeans.",
+        "She wore a black top with jeans.",
+        "I need a top that goes with this skirt.",
+        "All the summer tops were on sale.",
+        "I can't get the top off this jar.",
+        "Put the top back on the marker so it doesn't dry out.",
+        "The bottle top rolled under the table.",
+        "The little wooden top spun for almost a minute.",
+        "He wound the string around the top and let it go.",
+        "She got a set of painted tops for her birthday."
       ],
-      "senses": [],
-      "русский": "верх, верхняя часть; топ (одежда)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The highest part or upper surface of something",
+          "body": [
+            "(верх, верхняя часть; топ (одежда))"
+          ],
+          "examples": [
+            "There's dust on the top of the fridge.",
+            "We hiked to the top in two hours.",
+            "She wore a black top with jeans."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of clothing worn on the upper half of the body",
+          "body": [
+            "(топ, кофточка)"
+          ],
+          "examples": [
+            "She wore a black top with jeans.",
+            "I need a top that goes with this skirt.",
+            "All the summer tops were on sale."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The lid or cap that closes a container",
+          "body": [
+            "(крышка, колпачок)"
+          ],
+          "examples": [
+            "I can't get the top off this jar.",
+            "Put the top back on the marker so it doesn't dry out.",
+            "The bottle top rolled under the table."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A toy that spins on a point when you twist or pull it",
+          "body": [
+            "(волчок, юла)",
+            "---"
+          ],
+          "examples": [
+            "The little wooden top spun for almost a minute.",
+            "He wound the string around the top and let it go.",
+            "She got a set of painted tops for her birthday."
+          ]
+        }
+      ],
+      "русский": "верх, верхняя часть; топ (одежда); топ, кофточка; крышка, колпачок; волчок, юла",
       "plural": "tops",
       "countability": "countable"
     },
@@ -1942,14 +2205,73 @@
       "term": "touch",
       "ipa": "/tʌtʃ/",
       "respell": "TUHCH",
-      "meaning": "The sense that lets you feel things through your skin, or physical contact itself. ---",
+      "meaning": "Touch has 4 distinct senses.",
       "examples": [
         "She could tell the fabric by touch alone.",
         "The cat flinched at his touch.",
-        "Let's stay in touch after graduation."
+        "Let's stay in touch after graduation.",
+        "The soup needs a touch of salt.",
+        "There's a touch of gray at his temples.",
+        "Add a touch of lemon to the sauce.",
+        "She has a wonderful touch with nervous horses.",
+        "After twenty years the pitcher has lost his touch.",
+        "A few flowers gave the room a personal touch.",
+        "Let's keep in touch after graduation.",
+        "I lost touch with most of my classmates.",
+        "Get in touch with me when you land."
       ],
-      "senses": [],
-      "русский": "осязание; прикосновение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sense that lets you feel things through your skin, or physical contact itself",
+          "body": [
+            "(осязание; прикосновение)"
+          ],
+          "examples": [
+            "She could tell the fabric by touch alone.",
+            "The cat flinched at his touch.",
+            "Let's stay in touch after graduation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very small amount of something added",
+          "body": [
+            "(капелька, чуточка)"
+          ],
+          "examples": [
+            "The soup needs a touch of salt.",
+            "There's a touch of gray at his temples.",
+            "Add a touch of lemon to the sauce."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person's own special skill or way of doing something",
+          "body": [
+            "(особая манера, умение)"
+          ],
+          "examples": [
+            "She has a wonderful touch with nervous horses.",
+            "After twenty years the pitcher has lost his touch.",
+            "A few flowers gave the room a personal touch."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Contact or communication with someone",
+          "body": [
+            "(контакт, связь (общение))",
+            "---"
+          ],
+          "examples": [
+            "Let's keep in touch after graduation.",
+            "I lost touch with most of my classmates.",
+            "Get in touch with me when you land."
+          ]
+        }
+      ],
+      "русский": "осязание; прикосновение; капелька, чуточка; особая манера, умение; контакт, связь (общение)",
       "countability": "uncountable"
     },
     {
@@ -2378,14 +2700,43 @@
       "term": "trick",
       "ipa": "/trɪk/",
       "respell": "TRIK",
-      "meaning": "A clever act done to entertain people or to deceive them. ---",
+      "meaning": "Trick has 2 distinct senses.",
       "examples": [
         "The dog knows three tricks.",
         "That's an old trick salesmen use.",
-        "There's a trick to opening this window."
+        "There's a trick to opening this window.",
+        "The trick is to add the eggs slowly.",
+        "There's a trick to opening that window.",
+        "She showed me a few tricks for saving battery."
       ],
-      "senses": [],
-      "русский": "трюк, фокус; хитрость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A clever act done to entertain people or to deceive them",
+          "body": [
+            "(трюк, фокус; хитрость)"
+          ],
+          "examples": [
+            "The dog knows three tricks.",
+            "That's an old trick salesmen use.",
+            "There's a trick to opening this window."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A clever method that makes something easier to do",
+          "body": [
+            "(приём, хитрость (способ))",
+            "---"
+          ],
+          "examples": [
+            "The trick is to add the eggs slowly.",
+            "There's a trick to opening that window.",
+            "She showed me a few tricks for saving battery."
+          ]
+        }
+      ],
+      "русский": "трюк, фокус; хитрость; приём, хитрость (способ)",
       "plural": "tricks",
       "countability": "countable"
     },
@@ -2633,14 +2984,43 @@
       "term": "tug",
       "ipa": "/tʌɡ/",
       "respell": "TUG",
-      "meaning": "A short, strong pull. ---",
+      "meaning": "Tug has 2 distinct senses.",
       "examples": [
         "She felt a tug on the fishing line.",
         "Give the rope a couple of tugs when you're ready.",
-        "He felt a tug of guilt as he drove away."
+        "He felt a tug of guilt as he drove away.",
+        "Two tugs guided the tanker into the harbor.",
+        "The tug blew its horn twice.",
+        "A tug pushed the loaded barge upriver."
       ],
-      "senses": [],
-      "русский": "рывок, дёрганье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short, strong pull",
+          "body": [
+            "(рывок, дёрганье)"
+          ],
+          "examples": [
+            "She felt a tug on the fishing line.",
+            "Give the rope a couple of tugs when you're ready.",
+            "He felt a tug of guilt as he drove away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small powerful boat that pushes and pulls larger ships",
+          "body": [
+            "(буксир (судно))",
+            "---"
+          ],
+          "examples": [
+            "Two tugs guided the tanker into the harbor.",
+            "The tug blew its horn twice.",
+            "A tug pushed the loaded barge upriver."
+          ]
+        }
+      ],
+      "русский": "рывок, дёрганье; буксир (судно)",
       "plural": "tugs",
       "countability": "countable"
     },
@@ -2958,14 +3338,43 @@
       "term": "unicorn",
       "ipa": "/ˈjuːnɪkɔːrn/",
       "respell": "YOO-nih-kawrn",
-      "meaning": "An imaginary white horse with a single horn on its forehead. ---",
+      "meaning": "Unicorn has 2 distinct senses.",
       "examples": [
         "Her backpack is covered in unicorns.",
         "The tapestry shows a unicorn in a walled garden.",
-        "In tech, a startup worth a billion dollars is called a unicorn."
+        "In tech, a startup worth a billion dollars is called a unicorn.",
+        "A quiet, affordable apartment downtown is a unicorn.",
+        "Candidates with both skills are unicorns in this field.",
+        "A landlord who returns your deposit is a total unicorn."
       ],
-      "senses": [],
-      "русский": "единорог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An imaginary white horse with a single horn on its forehead",
+          "body": [
+            "(единорог)"
+          ],
+          "examples": [
+            "Her backpack is covered in unicorns.",
+            "The tapestry shows a unicorn in a walled garden.",
+            "In tech, a startup worth a billion dollars is called a unicorn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone or something that is greatly wanted but almost impossible to find",
+          "body": [
+            "(редкость, недостижимая мечта)",
+            "---"
+          ],
+          "examples": [
+            "A quiet, affordable apartment downtown is a unicorn.",
+            "Candidates with both skills are unicorns in this field.",
+            "A landlord who returns your deposit is a total unicorn."
+          ]
+        }
+      ],
+      "русский": "единорог; редкость, недостижимая мечта",
       "plural": "unicorns",
       "countability": "countable"
     },
@@ -3792,14 +4201,43 @@
       "term": "view",
       "ipa": "/vjuː/",
       "respell": "VYOO",
-      "meaning": "What can be seen from a particular place, or an opinion about something. ---",
+      "meaning": "View has 2 distinct senses.",
       "examples": [
         "Our room had a view of the ocean.",
         "In my view, the price is too high.",
-        "Stop at the overlook and enjoy the view."
+        "Stop at the overlook and enjoy the view.",
+        "The video hit a million views in a day.",
+        "Her channel averages five thousand views a post.",
+        "That clip got more views than the whole series."
       ],
-      "senses": [],
-      "русский": "вид; взгляд, мнение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What can be seen from a particular place, or an opinion about something",
+          "body": [
+            "(вид; взгляд, мнение)"
+          ],
+          "examples": [
+            "Our room had a view of the ocean.",
+            "In my view, the price is too high.",
+            "Stop at the overlook and enjoy the view."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One instance of a video or web page being watched or looked at online",
+          "body": [
+            "(просмотр (видео, страницы))",
+            "---"
+          ],
+          "examples": [
+            "The video hit a million views in a day.",
+            "Her channel averages five thousand views a post.",
+            "That clip got more views than the whole series."
+          ]
+        }
+      ],
+      "русский": "вид; взгляд, мнение; просмотр (видео, страницы)",
       "plural": "views",
       "countability": "countable"
     },
@@ -3970,14 +4408,43 @@
       "term": "vision",
       "ipa": "/ˈvɪʒən/",
       "respell": "VIZH-un",
-      "meaning": "The ability to see, or a clear mental picture of how things could be. ---",
+      "meaning": "Vision has 2 distinct senses.",
       "examples": [
         "My vision gets blurry at the end of the day.",
         "She has a vision for what the neighborhood could become.",
-        "He described a vision he had as a boy."
+        "He described a vision he had as a boy.",
+        "The saint reported a vision of an angel.",
+        "He woke from a vision of a burning city.",
+        "Visions of her grandmother came to her during the fever."
       ],
-      "senses": [],
-      "русский": "зрение; видение, представление о будущем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The ability to see, or a clear mental picture of how things could be",
+          "body": [
+            "(зрение; видение, представление о будущем)"
+          ],
+          "examples": [
+            "My vision gets blurry at the end of the day.",
+            "She has a vision for what the neighborhood could become.",
+            "He described a vision he had as a boy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something seen in a dream or a religious experience",
+          "body": [
+            "(видение)",
+            "---"
+          ],
+          "examples": [
+            "The saint reported a vision of an angel.",
+            "He woke from a vision of a burning city.",
+            "Visions of her grandmother came to her during the fever."
+          ]
+        }
+      ],
+      "русский": "зрение; видение, представление о будущем; видение",
       "plural": "visions",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -4219,14 +4686,58 @@
       "term": "walk",
       "ipa": "/wɔːk/",
       "respell": "WAWK",
-      "meaning": "A trip made on foot, usually for exercise or pleasure. ---",
+      "meaning": "Walk has 3 distinct senses.",
       "examples": [
         "We took a long walk along the river.",
         "It's a ten-minute walk from the station.",
-        "The dog needs two walks a day."
+        "The dog needs two walks a day.",
+        "I recognized him from across the street by his walk.",
+        "The horse has an easy, rolling walk.",
+        "Her walk changed after the surgery.",
+        "He drew a walk to load the bases.",
+        "The pitcher gave up three walks in one inning.",
+        "A leadoff walk often comes back to hurt you."
       ],
-      "senses": [],
-      "русский": "прогулка пешком",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A trip made on foot, usually for exercise or pleasure",
+          "body": [
+            "(прогулка пешком)"
+          ],
+          "examples": [
+            "We took a long walk along the river.",
+            "It's a ten-minute walk from the station.",
+            "The dog needs two walks a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way a person or animal moves on foot",
+          "body": [
+            "(походка)"
+          ],
+          "examples": [
+            "I recognized him from across the street by his walk.",
+            "The horse has an easy, rolling walk.",
+            "Her walk changed after the surgery."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "In baseball, first base awarded to a batter after four balls",
+          "body": [
+            "(уок (выход на первую базу после четырёх болов))",
+            "---"
+          ],
+          "examples": [
+            "He drew a walk to load the bases.",
+            "The pitcher gave up three walks in one inning.",
+            "A leadoff walk often comes back to hurt you."
+          ]
+        }
+      ],
+      "русский": "прогулка пешком; походка; уок (выход на первую базу после четырёх болов)",
       "plural": "walks",
       "countability": "countable",
       "contrast": "The l is silent: WAWK, rhyming with talk."
@@ -4640,14 +5151,43 @@
       "term": "wear",
       "ipa": "/wɛr/",
       "respell": "WAIR",
-      "meaning": "The damage or thinning that comes from ordinary use over time. ---",
+      "meaning": "Wear has 2 distinct senses.",
       "examples": [
         "The tires are showing a lot of wear.",
         "The lease covers normal wear and tear.",
-        "These boots take heavy wear and still look new."
+        "These boots take heavy wear and still look new.",
+        "The store's children's wear is on the second floor.",
+        "She designs evening wear for a small label.",
+        "Formal wear is required at the dinner."
       ],
-      "senses": [],
-      "русский": "износ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The damage or thinning that comes from ordinary use over time",
+          "body": [
+            "(износ)"
+          ],
+          "examples": [
+            "The tires are showing a lot of wear.",
+            "The lease covers normal wear and tear.",
+            "These boots take heavy wear and still look new."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Clothing of a particular kind, especially as sold in stores",
+          "body": [
+            "(одежда (определённого вида))",
+            "---"
+          ],
+          "examples": [
+            "The store's children's wear is on the second floor.",
+            "She designs evening wear for a small label.",
+            "Formal wear is required at the dinner."
+          ]
+        }
+      ],
+      "русский": "износ; одежда (определённого вида)",
       "countability": "uncountable",
       "contrast": "Wear sounds exactly like where; it does not rhyme with hear."
     },
@@ -4838,14 +5378,43 @@
       "term": "whip",
       "ipa": "/wɪp/",
       "respell": "WIP",
-      "meaning": "A long piece of leather or rope on a handle, used to drive animals or to strike. ---",
+      "meaning": "Whip has 2 distinct senses.",
       "examples": [
         "The driver cracked his whip and the horses started forward.",
         "Old whips hung on the barn wall.",
-        "He never used a whip on his horses."
+        "He never used a whip on his horses.",
+        "The majority whip counted votes before the session.",
+        "Both whips said the bill would pass.",
+        "She served as party whip for six years."
       ],
-      "senses": [],
-      "русский": "кнут, плеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long piece of leather or rope on a handle, used to drive animals or to strike",
+          "body": [
+            "(кнут, плеть)"
+          ],
+          "examples": [
+            "The driver cracked his whip and the horses started forward.",
+            "Old whips hung on the barn wall.",
+            "He never used a whip on his horses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A member of a political party whose job is to keep other members voting with the party",
+          "body": [
+            "(парламентский организатор партии (следит за дисциплиной голосования))",
+            "---"
+          ],
+          "examples": [
+            "The majority whip counted votes before the session.",
+            "Both whips said the bill would pass.",
+            "She served as party whip for six years."
+          ]
+        }
+      ],
+      "русский": "кнут, плеть; парламентский организатор партии (следит за дисциплиной голосования)",
       "plural": "whips",
       "countability": "countable"
     },
@@ -5241,14 +5810,43 @@
       "term": "worth",
       "ipa": "/wɜːrθ/",
       "respell": "WURTH",
-      "meaning": "The value or importance of something or someone. ---",
+      "meaning": "Worth has 2 distinct senses.",
       "examples": [
         "The painting's worth has doubled since 1990.",
         "He wanted to prove his worth to the team.",
-        "Her net worth is listed in the report."
+        "Her net worth is listed in the report.",
+        "He put twenty dollars' worth of gas in the truck.",
+        "We have a week's worth of food in the pantry.",
+        "She bought a year's worth of contact lenses."
       ],
-      "senses": [],
-      "русский": "ценность, стоимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The value or importance of something or someone",
+          "body": [
+            "(ценность, стоимость)"
+          ],
+          "examples": [
+            "The painting's worth has doubled since 1990.",
+            "He wanted to prove his worth to the team.",
+            "Her net worth is listed in the report."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of something that a stated sum of money buys or a stated time uses",
+          "body": [
+            "(на (какую-л.) сумму; запас на (какой-л.) срок)",
+            "---"
+          ],
+          "examples": [
+            "He put twenty dollars' worth of gas in the truck.",
+            "We have a week's worth of food in the pantry.",
+            "She bought a year's worth of contact lenses."
+          ]
+        }
+      ],
+      "русский": "ценность, стоимость; на (какую-л.) сумму; запас на (какой-л.) срок",
       "countability": "uncountable"
     },
     {
@@ -5406,14 +6004,43 @@
       "term": "yen",
       "ipa": "/jɛn/",
       "respell": "YEN",
-      "meaning": "The unit of money used in Japan. ---",
+      "meaning": "Yen has 2 distinct senses.",
       "examples": [
         "The ticket cost eight thousand yen.",
         "The yen fell against the dollar this week.",
-        "He changed his dollars into yen at the airport."
+        "He changed his dollars into yen at the airport.",
+        "She had a yen for the ocean after years inland.",
+        "I've got a yen for something sweet.",
+        "His yen to travel never went away."
       ],
-      "senses": [],
-      "русский": "иена (денежная единица Японии)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The unit of money used in Japan",
+          "body": [
+            "(иена (денежная единица Японии))"
+          ],
+          "examples": [
+            "The ticket cost eight thousand yen.",
+            "The yen fell against the dollar this week.",
+            "He changed his dollars into yen at the airport."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong desire or longing for something",
+          "body": [
+            "(тяга, сильное желание)",
+            "---"
+          ],
+          "examples": [
+            "She had a yen for the ocean after years inland.",
+            "I've got a yen for something sweet.",
+            "His yen to travel never went away."
+          ]
+        }
+      ],
+      "русский": "иена (денежная единица Японии); тяга, сильное желание",
       "plural": "yen",
       "countability": "countable",
       "contrast": "The plural takes no -s: five hundred yen."
@@ -5513,14 +6140,43 @@
       "term": "zone",
       "ipa": "/zoʊn/",
       "respell": "ZOHN",
-      "meaning": "An area set apart by a particular purpose, rule, or quality. ---",
+      "meaning": "Zone has 2 distinct senses.",
       "examples": [
         "Parking is not allowed in the loading zone.",
         "The city divided the area into three residential zones.",
-        "Slow down — you're in a school zone."
+        "Slow down — you're in a school zone.",
+        "He was in the zone and hit every shot.",
+        "Once I'm in the zone, hours go by without my noticing.",
+        "She got in the zone and finished the draft in one night."
       ],
-      "senses": [],
-      "русский": "зона, участок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An area set apart by a particular purpose, rule, or quality",
+          "body": [
+            "(зона, участок)"
+          ],
+          "examples": [
+            "Parking is not allowed in the loading zone.",
+            "The city divided the area into three residential zones.",
+            "Slow down — you're in a school zone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of easy, complete focus in which you perform at your best",
+          "body": [
+            "(состояние полной сосредоточенности, «в ударе»)",
+            "---"
+          ],
+          "examples": [
+            "He was in the zone and hit every shot.",
+            "Once I'm in the zone, hours go by without my noticing.",
+            "She got in the zone and finished the draft in one night."
+          ]
+        }
+      ],
+      "русский": "зона, участок; состояние полной сосредоточенности, «в ударе»",
       "plural": "zones",
       "countability": "countable"
     },

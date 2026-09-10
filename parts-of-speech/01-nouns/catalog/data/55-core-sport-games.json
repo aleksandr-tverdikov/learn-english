@@ -6,14 +6,43 @@
       "term": "sport",
       "ipa": "/spɔːrt/",
       "respell": "SPORT",
-      "meaning": "A physical activity played by rules for competition or fun. ---",
+      "meaning": "Sport has 2 distinct senses.",
       "examples": [
         "Soccer is the only sport he really follows.",
         "The school offers a dozen different sports in the fall.",
-        "Swimming is a good sport for people with bad knees."
+        "Swimming is a good sport for people with bad knees.",
+        "Be a good sport and let your sister go first.",
+        "He was a good sport about the whole prank.",
+        "She's a terrible sport when she loses at cards."
       ],
-      "senses": [],
-      "русский": "спорт, вид спорта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A physical activity played by rules for competition or fun",
+          "body": [
+            "(спорт, вид спорта)"
+          ],
+          "examples": [
+            "Soccer is the only sport he really follows.",
+            "The school offers a dozen different sports in the fall.",
+            "Swimming is a good sport for people with bad knees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person judged by how well they take teasing, losing, or a joke",
+          "body": [
+            "(человек, умеющий держаться (в игре, при поражении))",
+            "---"
+          ],
+          "examples": [
+            "Be a good sport and let your sister go first.",
+            "He was a good sport about the whole prank.",
+            "She's a terrible sport when she loses at cards."
+          ]
+        }
+      ],
+      "русский": "спорт, вид спорта; человек, умеющий держаться (в игре, при поражении)",
       "plural": "sports",
       "countability": "countable",
       "contrast": "Americans say sports where the British say sport: he plays sports vs. he plays sport."
@@ -22,14 +51,58 @@
       "term": "game",
       "ipa": "/ɡeɪm/",
       "respell": "GAYM",
-      "meaning": "A contest played by set rules, or one single contest in a series. ---",
+      "meaning": "Game has 3 distinct senses.",
       "examples": [
         "We won the game by three points.",
         "There are two games left in the season.",
-        "Chess is a game of patience."
+        "Chess is a game of patience.",
+        "The lodge serves venison and other game.",
+        "Game is scarce in these hills now.",
+        "He grew up hunting small game with his father.",
+        "She's been in the restaurant game for twenty years.",
+        "He got out of the news game after the layoffs.",
+        "New to the real estate game, he made a few costly mistakes."
       ],
-      "senses": [],
-      "русский": "игра, матч",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A contest played by set rules, or one single contest in a series",
+          "body": [
+            "(игра, матч)"
+          ],
+          "examples": [
+            "We won the game by three points.",
+            "There are two games left in the season.",
+            "Chess is a game of patience."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Wild animals or birds hunted for sport or for food",
+          "body": [
+            "(дичь)"
+          ],
+          "examples": [
+            "The lodge serves venison and other game.",
+            "Game is scarce in these hills now.",
+            "He grew up hunting small game with his father."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A particular line of business or activity, especially a competitive one",
+          "body": [
+            "(сфера деятельности, бизнес (разг.))",
+            "---"
+          ],
+          "examples": [
+            "She's been in the restaurant game for twenty years.",
+            "He got out of the news game after the layoffs.",
+            "New to the real estate game, he made a few costly mistakes."
+          ]
+        }
+      ],
+      "русский": "игра, матч; дичь; сфера деятельности, бизнес (разг.)",
       "plural": "games",
       "countability": "countable"
     },
@@ -37,14 +110,73 @@
       "term": "match",
       "ipa": "/mætʃ/",
       "respell": "MACH",
-      "meaning": "A single contest between two players or two teams. ---",
+      "meaning": "Match has 4 distinct senses.",
       "examples": [
         "The tennis match went on for four hours.",
         "Both matches got rained out.",
-        "He lost the match in straight sets."
+        "He lost the match in straight sets.",
+        "He struck a match and lit the candle.",
+        "There's a box of matches above the stove.",
+        "The wind blew out three matches in a row.",
+        "The lab found a match for the fingerprints.",
+        "That scarf is a perfect match for your coat.",
+        "The search came back with no matches.",
+        "The rookie was no match for the champion.",
+        "In an argument she's more than a match for him.",
+        "After forty years of winning, he finally met his match."
       ],
-      "senses": [],
-      "русский": "матч, поединок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single contest between two players or two teams",
+          "body": [
+            "(матч, поединок)"
+          ],
+          "examples": [
+            "The tennis match went on for four hours.",
+            "Both matches got rained out.",
+            "He lost the match in straight sets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short stick that makes a flame when you strike it",
+          "body": [
+            "(спичка)"
+          ],
+          "examples": [
+            "He struck a match and lit the candle.",
+            "There's a box of matches above the stove.",
+            "The wind blew out three matches in a row."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that is the same as another thing or goes well with it",
+          "body": [
+            "(совпадение; подходящая пара)"
+          ],
+          "examples": [
+            "The lab found a match for the fingerprints.",
+            "That scarf is a perfect match for your coat.",
+            "The search came back with no matches."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Someone who is equal to another in strength or skill",
+          "body": [
+            "(ровня, достойный соперник)",
+            "---"
+          ],
+          "examples": [
+            "The rookie was no match for the champion.",
+            "In an argument she's more than a match for him.",
+            "After forty years of winning, he finally met his match."
+          ]
+        }
+      ],
+      "русский": "матч, поединок; спичка; совпадение; подходящая пара; ровня, достойный соперник",
       "plural": "matches",
       "countability": "countable"
     },
@@ -399,14 +531,58 @@
       "term": "player",
       "ipa": "/ˈpleɪər/",
       "respell": "PLAY-ur",
-      "meaning": "Someone who takes part in a game or sport. ---",
+      "meaning": "Player has 3 distinct senses.",
       "examples": [
         "He's the best player on the team.",
         "Two players got hurt in the first half.",
-        "She's a solid player, just not a star."
+        "She's a solid player, just not a star.",
+        "The DVD player won't read the disc.",
+        "He still keeps a record player in the den.",
+        "The video player on that site keeps buffering.",
+        "The startup became a major player in cloud storage.",
+        "Three big players control most of the market.",
+        "She's a serious player in state politics."
       ],
-      "senses": [],
-      "русский": "игрок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who takes part in a game or sport",
+          "body": [
+            "(игрок)"
+          ],
+          "examples": [
+            "He's the best player on the team.",
+            "Two players got hurt in the first half.",
+            "She's a solid player, just not a star."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine or program that plays recorded sound or video",
+          "body": [
+            "(проигрыватель, плеер)"
+          ],
+          "examples": [
+            "The DVD player won't read the disc.",
+            "He still keeps a record player in the den.",
+            "The video player on that site keeps buffering."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A company or person that is active and important in a particular field",
+          "body": [
+            "(игрок (на рынке), значимый участник)",
+            "---"
+          ],
+          "examples": [
+            "The startup became a major player in cloud storage.",
+            "Three big players control most of the market.",
+            "She's a serious player in state politics."
+          ]
+        }
+      ],
+      "русский": "игрок; проигрыватель, плеер; игрок (на рынке), значимый участник",
       "plural": "players",
       "countability": "countable"
     },
@@ -536,14 +712,58 @@
       "term": "boxer",
       "ipa": "/ˈbɑːksər/",
       "respell": "BAHK-sur",
-      "meaning": "Someone who fights in the sport of boxing. ---",
+      "meaning": "Boxer has 3 distinct senses.",
       "examples": [
         "The boxer went down in the third round.",
         "Both boxers made weight.",
-        "He trains amateur boxers on weekends."
+        "He trains amateur boxers on weekends.",
+        "Their boxer jumps on everyone who walks in.",
+        "Boxers need a lot of exercise every day.",
+        "We adopted a three-year-old boxer from the shelter.",
+        "He answered the door in boxers and a T-shirt.",
+        "I bought a three-pack of striped boxers.",
+        "Cotton boxers are cooler in the summer."
       ],
-      "senses": [],
-      "русский": "боксёр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who fights in the sport of boxing",
+          "body": [
+            "(боксёр)"
+          ],
+          "examples": [
+            "The boxer went down in the third round.",
+            "Both boxers made weight.",
+            "He trains amateur boxers on weekends."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A medium-sized dog with a short brown coat and a flat, wrinkled face",
+          "body": [
+            "(боксёр (порода собак))"
+          ],
+          "examples": [
+            "Their boxer jumps on everyone who walks in.",
+            "Boxers need a lot of exercise every day.",
+            "We adopted a three-year-old boxer from the shelter."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Loose men's underpants with short legs, always used in the plural",
+          "body": [
+            "(боксеры, трусы-боксеры)",
+            "---"
+          ],
+          "examples": [
+            "He answered the door in boxers and a T-shirt.",
+            "I bought a three-pack of striped boxers.",
+            "Cotton boxers are cooler in the summer."
+          ]
+        }
+      ],
+      "русский": "боксёр; боксёр (порода собак); боксеры, трусы-боксеры",
       "plural": "boxers",
       "countability": "countable"
     },
@@ -582,14 +802,43 @@
       "term": "rookie",
       "ipa": "/ˈrʊki/",
       "respell": "RUUK-ee",
-      "meaning": "A player in his or her first season on a professional team. ---",
+      "meaning": "Rookie has 2 distinct senses.",
       "examples": [
         "The rookie scored twenty points in his first start.",
         "Three rookies made the roster.",
-        "For a rookie, she's incredibly calm."
+        "For a rookie, she's incredibly calm.",
+        "He's a rookie cop, three weeks out of the academy.",
+        "That was a rookie mistake and she knew it.",
+        "The rookies got all the night shifts."
       ],
-      "senses": [],
-      "русский": "новичок (в первом сезоне)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A player in his or her first season on a professional team",
+          "body": [
+            "(новичок (в первом сезоне))"
+          ],
+          "examples": [
+            "The rookie scored twenty points in his first start.",
+            "Three rookies made the roster.",
+            "For a rookie, she's incredibly calm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Anyone who is new and inexperienced at a job or activity",
+          "body": [
+            "(новичок, стажёр)",
+            "---"
+          ],
+          "examples": [
+            "He's a rookie cop, three weeks out of the academy.",
+            "That was a rookie mistake and she knew it.",
+            "The rookies got all the night shifts."
+          ]
+        }
+      ],
+      "русский": "новичок (в первом сезоне); новичок, стажёр",
       "plural": "rookies",
       "countability": "countable"
     },
@@ -627,14 +876,73 @@
       "term": "runner",
       "ipa": "/ˈrʌnər/",
       "respell": "RUN-ur",
-      "meaning": "Someone who runs, especially as a sport. ---",
+      "meaning": "Runner has 4 distinct senses.",
       "examples": [
         "He's a long-distance runner.",
         "Thousands of runners lined up at the start.",
-        "She's the fastest runner in her grade."
+        "She's the fastest runner in her grade.",
+        "A linen runner went down the middle of the table.",
+        "They put a runner on the stairs so nobody slips.",
+        "The hallway runner needs cleaning.",
+        "The sled's runners were caked with ice.",
+        "He waxed the runners to make it go faster.",
+        "One runner had bent in the crash.",
+        "Strawberries spread by sending out runners.",
+        "Snip the runners if you want bigger berries.",
+        "The plant put out a runner into the next bed."
       ],
-      "senses": [],
-      "русский": "бегун",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who runs, especially as a sport",
+          "body": [
+            "(бегун)"
+          ],
+          "examples": [
+            "He's a long-distance runner.",
+            "Thousands of runners lined up at the start.",
+            "She's the fastest runner in her grade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long narrow strip of cloth or carpet laid on a table, hall, or stairs",
+          "body": [
+            "(дорожка (узкий ковёр или скатерть))"
+          ],
+          "examples": [
+            "A linen runner went down the middle of the table.",
+            "They put a runner on the stairs so nobody slips.",
+            "The hallway runner needs cleaning."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "One of the long narrow blades a sled or a skate slides on",
+          "body": [
+            "(полоз)"
+          ],
+          "examples": [
+            "The sled's runners were caked with ice.",
+            "He waxed the runners to make it go faster.",
+            "One runner had bent in the crash."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A stem a plant sends out along the ground to start new plants",
+          "body": [
+            "(ус, побег (растения))",
+            "---"
+          ],
+          "examples": [
+            "Strawberries spread by sending out runners.",
+            "Snip the runners if you want bigger berries.",
+            "The plant put out a runner into the next bed."
+          ]
+        }
+      ],
+      "русский": "бегун; дорожка (узкий ковёр или скатерть); полоз; ус, побег (растения)",
       "plural": "runners",
       "countability": "countable"
     },
@@ -699,14 +1007,43 @@
       "term": "fencing",
       "ipa": "/ˈfɛnsɪŋ/",
       "respell": "FEN-sing",
-      "meaning": "The sport of fighting with thin swords under strict rules. ---",
+      "meaning": "Fencing has 2 distinct senses.",
       "examples": [
         "She started fencing in middle school.",
         "Fencing is one of the oldest Olympic sports.",
-        "The club teaches fencing twice a week."
+        "The club teaches fencing twice a week.",
+        "We need another hundred feet of fencing.",
+        "The storm knocked down the fencing along the road.",
+        "Chain-link fencing runs around the whole lot."
       ],
-      "senses": [],
-      "русский": "фехтование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sport of fighting with thin swords under strict rules",
+          "body": [
+            "(фехтование)"
+          ],
+          "examples": [
+            "She started fencing in middle school.",
+            "Fencing is one of the oldest Olympic sports.",
+            "The club teaches fencing twice a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Fences in general, or the material used to build them",
+          "body": [
+            "(ограждение; материал для забора)",
+            "---"
+          ],
+          "examples": [
+            "We need another hundred feet of fencing.",
+            "The storm knocked down the fencing along the road.",
+            "Chain-link fencing runs around the whole lot."
+          ]
+        }
+      ],
+      "русский": "фехтование; ограждение; материал для забора",
       "countability": "uncountable",
       "contrast": "The same word also means the fences around a yard: a hundred feet of fencing."
     },
@@ -845,14 +1182,43 @@
       "term": "poker",
       "ipa": "/ˈpoʊkər/",
       "respell": "POH-kur",
-      "meaning": "A card game in which players bet on the value of the hand they hold. ---",
+      "meaning": "Poker has 2 distinct senses.",
       "examples": [
         "They play poker in the garage on Friday nights.",
         "He lost eighty dollars at poker.",
-        "Poker is as much about reading people as about cards."
+        "Poker is as much about reading people as about cards.",
+        "He pushed the log back with a poker.",
+        "A brass poker hung beside the fireplace.",
+        "She stirred the coals with the poker until they glowed."
       ],
-      "senses": [],
-      "русский": "покер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A card game in which players bet on the value of the hand they hold",
+          "body": [
+            "(покер)"
+          ],
+          "examples": [
+            "They play poker in the garage on Friday nights.",
+            "He lost eighty dollars at poker.",
+            "Poker is as much about reading people as about cards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A metal rod used to stir a fire",
+          "body": [
+            "(кочерга)",
+            "---"
+          ],
+          "examples": [
+            "He pushed the log back with a poker.",
+            "A brass poker hung beside the fireplace.",
+            "She stirred the coals with the poker until they glowed."
+          ]
+        }
+      ],
+      "русский": "покер; кочерга",
       "countability": "uncountable"
     },
     {
@@ -949,14 +1315,43 @@
       "term": "pawn",
       "ipa": "/pɔːn/",
       "respell": "PAWN",
-      "meaning": "The smallest and most numerous chess piece. ---",
+      "meaning": "Pawn has 2 distinct senses.",
       "examples": [
         "He opened by pushing a pawn two squares.",
         "She traded a pawn for a better position.",
-        "You start with eight pawns across the second row."
+        "You start with eight pawns across the second row.",
+        "The workers were pawns in a fight between two billionaires.",
+        "He felt like a pawn in his parents' divorce.",
+        "Small countries became pawns during the Cold War."
       ],
-      "senses": [],
-      "русский": "пешка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smallest and most numerous chess piece",
+          "body": [
+            "(пешка)"
+          ],
+          "examples": [
+            "He opened by pushing a pawn two squares.",
+            "She traded a pawn for a better position.",
+            "You start with eight pawns across the second row."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone used by more powerful people for their own purposes",
+          "body": [
+            "(пешка, орудие в чужих руках)",
+            "---"
+          ],
+          "examples": [
+            "The workers were pawns in a fight between two billionaires.",
+            "He felt like a pawn in his parents' divorce.",
+            "Small countries became pawns during the Cold War."
+          ]
+        }
+      ],
+      "русский": "пешка; пешка, орудие в чужих руках",
       "plural": "pawns",
       "countability": "countable",
       "contrast": "The same spelling and sound also mean an item left at a pawn shop."
@@ -979,14 +1374,58 @@
       "term": "racket",
       "ipa": "/ˈrækɪt/",
       "respell": "RAK-it",
-      "meaning": "The stringed frame with a handle used to hit a ball in tennis and similar games. ---",
+      "meaning": "Racket has 3 distinct senses.",
       "examples": [
         "He restrung his racket before the match.",
         "Two of her rackets cracked in one season.",
-        "You can rent a racket at the front desk."
+        "You can rent a racket at the front desk.",
+        "The neighbors made a terrible racket until two in the morning.",
+        "What's all that racket in the kitchen?",
+        "The old furnace makes a racket every time it kicks on.",
+        "The FBI broke up a protection racket downtown.",
+        "Charging that much for bottled water is a racket.",
+        "He ran a racket selling fake parking permits."
       ],
-      "senses": [],
-      "русский": "ракетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stringed frame with a handle used to hit a ball in tennis and similar games",
+          "body": [
+            "(ракетка)"
+          ],
+          "examples": [
+            "He restrung his racket before the match.",
+            "Two of her rackets cracked in one season.",
+            "You can rent a racket at the front desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A loud, unpleasant noise",
+          "body": [
+            "(шум, грохот)"
+          ],
+          "examples": [
+            "The neighbors made a terrible racket until two in the morning.",
+            "What's all that racket in the kitchen?",
+            "The old furnace makes a racket every time it kicks on."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A dishonest business or scheme for making money",
+          "body": [
+            "(афера, мошенническая схема, рэкет)",
+            "---"
+          ],
+          "examples": [
+            "The FBI broke up a protection racket downtown.",
+            "Charging that much for bottled water is a racket.",
+            "He ran a racket selling fake parking permits."
+          ]
+        }
+      ],
+      "русский": "ракетка; шум, грохот; афера, мошенническая схема, рэкет",
       "plural": "rackets",
       "countability": "countable",
       "contrast": "Also spelled racquet; the same word means a loud noise or a criminal scheme."
@@ -1178,14 +1617,43 @@
       "term": "hurdle",
       "ipa": "/ˈhɜːrdəl/",
       "respell": "HUR-duhl",
-      "meaning": "One of the light barriers a runner jumps over in a race. ---",
+      "meaning": "Hurdle has 2 distinct senses.",
       "examples": [
         "She clipped the last hurdle and still won.",
         "He runs the four hundred meter hurdles.",
-        "Setting up the hurdles takes ten minutes."
+        "Setting up the hurdles takes ten minutes.",
+        "Getting the visa was the biggest hurdle.",
+        "The bill still faces several hurdles in the Senate.",
+        "We cleared the first hurdle when the bank approved the loan."
       ],
-      "senses": [],
-      "русский": "барьер (в беге)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the light barriers a runner jumps over in a race",
+          "body": [
+            "(барьер (в беге))"
+          ],
+          "examples": [
+            "She clipped the last hurdle and still won.",
+            "He runs the four hundred meter hurdles.",
+            "Setting up the hurdles takes ten minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A difficulty that has to be dealt with before you can go on",
+          "body": [
+            "(препятствие, преграда)",
+            "---"
+          ],
+          "examples": [
+            "Getting the visa was the biggest hurdle.",
+            "The bill still faces several hurdles in the Senate.",
+            "We cleared the first hurdle when the bank approved the loan."
+          ]
+        }
+      ],
+      "русский": "барьер (в беге); препятствие, преграда",
       "plural": "hurdles",
       "countability": "countable",
       "contrast": "Don't confuse it with hurtle, which means to rush along fast."
@@ -1287,14 +1755,58 @@
       "term": "mound",
       "ipa": "/maʊnd/",
       "respell": "MOWND",
-      "meaning": "The raised circle of dirt a baseball pitcher throws from. ---",
+      "meaning": "Mound has 3 distinct senses.",
       "examples": [
         "The pitcher walked slowly to the mound.",
         "He's been on the mound for six innings.",
-        "The groundskeepers rebuild the mound every spring."
+        "The groundskeepers rebuild the mound every spring.",
+        "Gophers left mounds of dirt all over the yard.",
+        "The trail climbs a grassy mound above the river.",
+        "Archaeologists dug into an ancient burial mound.",
+        "There's a mound of laundry on the bed.",
+        "He served us each a mound of mashed potatoes.",
+        "A mound of paperwork was waiting on my desk."
       ],
-      "senses": [],
-      "русский": "горка питчера",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The raised circle of dirt a baseball pitcher throws from",
+          "body": [
+            "(горка питчера)"
+          ],
+          "examples": [
+            "The pitcher walked slowly to the mound.",
+            "He's been on the mound for six innings.",
+            "The groundskeepers rebuild the mound every spring."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small hill or a raised pile of earth",
+          "body": [
+            "(холмик, насыпь, курган)"
+          ],
+          "examples": [
+            "Gophers left mounds of dirt all over the yard.",
+            "The trail climbs a grassy mound above the river.",
+            "Archaeologists dug into an ancient burial mound."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large heap of something piled up",
+          "body": [
+            "(куча, груда)",
+            "---"
+          ],
+          "examples": [
+            "There's a mound of laundry on the bed.",
+            "He served us each a mound of mashed potatoes.",
+            "A mound of paperwork was waiting on my desk."
+          ]
+        }
+      ],
+      "русский": "горка питчера; холмик, насыпь, курган; куча, груда",
       "plural": "mounds",
       "countability": "countable"
     },
@@ -1348,14 +1860,43 @@
       "term": "striker",
       "ipa": "/ˈstraɪkər/",
       "respell": "STRY-kur",
-      "meaning": "The forward whose main job is to score goals in soccer. ---",
+      "meaning": "Striker has 2 distinct senses.",
       "examples": [
         "Their striker scored twice in the first half.",
         "The club paid a fortune for two strikers.",
-        "He was a striker until his knee gave out."
+        "He was a striker until his knee gave out.",
+        "Strikers gathered outside the plant gate.",
+        "The company met with the strikers on Friday.",
+        "Police kept the strikers off the road."
       ],
-      "senses": [],
-      "русский": "нападающий (в футболе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The forward whose main job is to score goals in soccer",
+          "body": [
+            "(нападающий (в футболе))"
+          ],
+          "examples": [
+            "Their striker scored twice in the first half.",
+            "The club paid a fortune for two strikers.",
+            "He was a striker until his knee gave out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A worker who has stopped working as part of a labor protest",
+          "body": [
+            "(забастовщик)",
+            "---"
+          ],
+          "examples": [
+            "Strikers gathered outside the plant gate.",
+            "The company met with the strikers on Friday.",
+            "Police kept the strikers off the road."
+          ]
+        }
+      ],
+      "русский": "нападающий (в футболе); забастовщик",
       "plural": "strikers",
       "countability": "countable"
     },
@@ -1606,14 +2147,58 @@
       "term": "lineup",
       "ipa": "/ˈlaɪnʌp/",
       "respell": "LYNE-up",
-      "meaning": "The list of players a team starts a game with. ---",
+      "meaning": "Lineup has 3 distinct senses.",
       "examples": [
         "He's batting third in the lineup.",
         "The coach posted both lineups an hour before the game.",
-        "Her name was left off the lineup again."
+        "Her name was left off the lineup again.",
+        "She picked him out of a police lineup.",
+        "The suspect stood third from the left in the lineup.",
+        "No witness could identify anyone in either lineup.",
+        "The festival announced its lineup in March.",
+        "The network changed its Thursday night lineup.",
+        "This year's lineup includes three bands from Texas."
       ],
-      "senses": [],
-      "русский": "состав (команды на игру)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The list of players a team starts a game with",
+          "body": [
+            "(состав (команды на игру))"
+          ],
+          "examples": [
+            "He's batting third in the lineup.",
+            "The coach posted both lineups an hour before the game.",
+            "Her name was left off the lineup again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A row of people shown to a witness so that a suspect can be picked out",
+          "body": [
+            "(опознание (шеренга для опознания))"
+          ],
+          "examples": [
+            "She picked him out of a police lineup.",
+            "The suspect stood third from the left in the lineup.",
+            "No witness could identify anyone in either lineup."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The set of acts, shows, or events scheduled for a program",
+          "body": [
+            "(состав участников, программа (фестиваля, вечера))",
+            "---"
+          ],
+          "examples": [
+            "The festival announced its lineup in March.",
+            "The network changed its Thursday night lineup.",
+            "This year's lineup includes three bands from Texas."
+          ]
+        }
+      ],
+      "русский": "состав (команды на игру); опознание (шеренга для опознания); состав участников, программа (фестиваля, вечера)",
       "plural": "lineups",
       "countability": "countable",
       "contrast": "One word as a noun; the verb is two words: the players line up."
@@ -1727,14 +2312,58 @@
       "term": "rebound",
       "ipa": "/ˈriːbaʊnd/",
       "respell": "REE-bownd",
-      "meaning": "A basketball grabbed after a missed shot bounces off the rim or board. ---",
+      "meaning": "Rebound has 3 distinct senses.",
       "examples": [
         "He grabbed the rebound with one hand.",
         "She had twelve points and nine rebounds.",
-        "They lost the game on the rebound battle."
+        "They lost the game on the rebound battle.",
+        "Home sales showed a strong rebound in June.",
+        "Economists expect a rebound next year.",
+        "The rebound in tourism came faster than anyone expected.",
+        "She met him on the rebound from a long marriage.",
+        "Don't date anyone who's on the rebound.",
+        "That whole relationship was pure rebound."
       ],
-      "senses": [],
-      "русский": "подбор (мяча под кольцом)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A basketball grabbed after a missed shot bounces off the rim or board",
+          "body": [
+            "(подбор (мяча под кольцом))"
+          ],
+          "examples": [
+            "He grabbed the rebound with one hand.",
+            "She had twelve points and nine rebounds.",
+            "They lost the game on the rebound battle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A recovery after a fall or a decline",
+          "body": [
+            "(восстановление, подъём после спада)"
+          ],
+          "examples": [
+            "Home sales showed a strong rebound in June.",
+            "Economists expect a rebound next year.",
+            "The rebound in tourism came faster than anyone expected."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The unsettled period right after a love relationship ends",
+          "body": [
+            "(период сразу после разрыва отношений)",
+            "---"
+          ],
+          "examples": [
+            "She met him on the rebound from a long marriage.",
+            "Don't date anyone who's on the rebound.",
+            "That whole relationship was pure rebound."
+          ]
+        }
+      ],
+      "русский": "подбор (мяча под кольцом); восстановление, подъём после спада; период сразу после разрыва отношений",
       "plural": "rebounds",
       "countability": "countable",
       "contrast": "The noun is stressed on the first syllable, REE-bownd; the verb is rih-BOWND."
@@ -1758,14 +2387,43 @@
       "term": "foul",
       "ipa": "/faʊl/",
       "respell": "FOWL",
-      "meaning": "A move against the rules of a game, usually punished by the referee. ---",
+      "meaning": "Foul has 2 distinct senses.",
       "examples": [
         "The referee called a foul on the play.",
         "He picked up his fifth foul and sat down.",
-        "Two fouls in a row cost them the lead."
+        "Two fouls in a row cost them the lead.",
+        "He hit two fouls down the third-base line.",
+        "The umpire called it a foul by inches.",
+        "Every foul into the stands sent kids scrambling for the ball."
       ],
-      "senses": [],
-      "русский": "фол, нарушение правил",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A move against the rules of a game, usually punished by the referee",
+          "body": [
+            "(фол, нарушение правил)"
+          ],
+          "examples": [
+            "The referee called a foul on the play.",
+            "He picked up his fifth foul and sat down.",
+            "Two fouls in a row cost them the lead."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In baseball, a ball hit outside the lines that mark fair territory",
+          "body": [
+            "(фол-бол (мяч за пределами игровой зоны, бейсбол))",
+            "---"
+          ],
+          "examples": [
+            "He hit two fouls down the third-base line.",
+            "The umpire called it a foul by inches.",
+            "Every foul into the stands sent kids scrambling for the ball."
+          ]
+        }
+      ],
+      "русский": "фол, нарушение правил; фол-бол (мяч за пределами игровой зоны, бейсбол)",
       "plural": "fouls",
       "countability": "countable",
       "contrast": "Sounds exactly like fowl, meaning a bird."
@@ -1805,14 +2463,58 @@
       "term": "ace",
       "ipa": "/eɪs/",
       "respell": "AYSE",
-      "meaning": "A serve so good the opponent cannot touch it. ---",
+      "meaning": "Ace has 3 distinct senses.",
       "examples": [
         "He finished the match with eighteen aces.",
         "That ace saved the set.",
-        "She hit an ace on match point."
+        "She hit an ace on match point.",
+        "She turned over an ace and took the hand.",
+        "He was holding two aces and said nothing.",
+        "The ace of spades was missing from the deck.",
+        "Ask Dana about the budget — she's an ace with spreadsheets.",
+        "His grandfather was a fighter ace in the Pacific.",
+        "The hospital's ace surgeon takes the hardest cases."
       ],
-      "senses": [],
-      "русский": "эйс (подача навылет)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A serve so good the opponent cannot touch it",
+          "body": [
+            "(эйс (подача навылет))"
+          ],
+          "examples": [
+            "He finished the match with eighteen aces.",
+            "That ace saved the set.",
+            "She hit an ace on match point."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A playing card marked with a single symbol, usually the highest card in a game",
+          "body": [
+            "(туз)"
+          ],
+          "examples": [
+            "She turned over an ace and took the hand.",
+            "He was holding two aces and said nothing.",
+            "The ace of spades was missing from the deck."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Someone who is extremely good at a particular thing",
+          "body": [
+            "(ас, мастер своего дела)",
+            "---"
+          ],
+          "examples": [
+            "Ask Dana about the budget — she's an ace with spreadsheets.",
+            "His grandfather was a fighter ace in the Pacific.",
+            "The hospital's ace surgeon takes the hardest cases."
+          ]
+        }
+      ],
+      "русский": "эйс (подача навылет); туз; ас, мастер своего дела",
       "plural": "aces",
       "countability": "countable"
     },
@@ -1850,14 +2552,43 @@
       "term": "par",
       "ipa": "/pɑːr/",
       "respell": "PAR",
-      "meaning": "The number of strokes a good golfer is expected to need for a hole or course. ---",
+      "meaning": "Par has 2 distinct senses.",
       "examples": [
         "He finished the round two under par.",
         "The seventh hole is a par five.",
-        "Her score was right at par."
+        "Her score was right at par.",
+        "Long lines at the DMV are par for the course.",
+        "His work hasn't been up to par lately.",
+        "I've been feeling a little under par all week."
       ],
-      "senses": [],
-      "русский": "пар (норма ударов в гольфе)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The number of strokes a good golfer is expected to need for a hole or course",
+          "body": [
+            "(пар (норма ударов в гольфе))"
+          ],
+          "examples": [
+            "He finished the round two under par.",
+            "The seventh hole is a par five.",
+            "Her score was right at par."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The usual or expected standard",
+          "body": [
+            "(норма, обычный уровень)",
+            "---"
+          ],
+          "examples": [
+            "Long lines at the DMV are par for the course.",
+            "His work hasn't been up to par lately.",
+            "I've been feeling a little under par all week."
+          ]
+        }
+      ],
+      "русский": "пар (норма ударов в гольфе); норма, обычный уровень",
       "countability": "uncountable"
     },
     {
@@ -1880,14 +2611,88 @@
       "term": "pass",
       "ipa": "/pæs/",
       "respell": "PAS",
-      "meaning": "A throw or kick that sends the ball to a teammate. ---",
+      "meaning": "Pass has 5 distinct senses.",
       "examples": [
         "He threw a perfect pass down the sideline.",
         "Three of her passes led to goals.",
-        "The pass was tipped at the line."
+        "The pass was tipped at the line.",
+        "You need a pass to get past the front desk.",
+        "A monthly bus pass is cheaper than paying each day.",
+        "She got us backstage passes.",
+        "The pass is closed by snow until May.",
+        "We took the old wagon road over the pass.",
+        "There's one gas station on the far side of the pass.",
+        "This is just a first pass at the design.",
+        "The editor made another pass through the manuscript.",
+        "One more pass with the sander and it's done.",
+        "He made a pass at her at the office party.",
+        "She spent all night fending off passes from customers.",
+        "It wasn't a pass; he was just being friendly."
       ],
-      "senses": [],
-      "русский": "пас, передача",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A throw or kick that sends the ball to a teammate",
+          "body": [
+            "(пас, передача)"
+          ],
+          "examples": [
+            "He threw a perfect pass down the sideline.",
+            "Three of her passes led to goals.",
+            "The pass was tipped at the line."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A card or ticket that lets you enter, ride, or go somewhere",
+          "body": [
+            "(пропуск, абонемент, проездной)"
+          ],
+          "examples": [
+            "You need a pass to get past the front desk.",
+            "A monthly bus pass is cheaper than paying each day.",
+            "She got us backstage passes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A low route through mountains",
+          "body": [
+            "(перевал)"
+          ],
+          "examples": [
+            "The pass is closed by snow until May.",
+            "We took the old wagon road over the pass.",
+            "There's one gas station on the far side of the pass."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "One complete attempt at or run through a piece of work",
+          "body": [
+            "(заход, подход, проход (в работе))"
+          ],
+          "examples": [
+            "This is just a first pass at the design.",
+            "The editor made another pass through the manuscript.",
+            "One more pass with the sander and it's done."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "An attempt to start a romantic or sexual relationship with someone",
+          "body": [
+            "(заигрывание, попытка ухаживания)",
+            "---"
+          ],
+          "examples": [
+            "He made a pass at her at the office party.",
+            "She spent all night fending off passes from customers.",
+            "It wasn't a pass; he was just being friendly."
+          ]
+        }
+      ],
+      "русский": "пас, передача; пропуск, абонемент, проездной; перевал; заход, подход, проход (в работе); заигрывание, попытка ухаживания",
       "plural": "passes",
       "countability": "countable"
     },

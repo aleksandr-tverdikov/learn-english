@@ -26,15 +26,23 @@ A wireless connection that lets devices reach the internet.
 ### click
 
 **Pronunciation:** /klɪk/ &middot; *KLIK*
-**Русский:** щелчок, клик
+**Русский:** щелчок, клик; щелчок (звук)
 **Plural:** *clicks*
 **Countability:** countable
 
-One press of a mouse button, or one visit made by clicking a link.
+Click has 2 distinct senses.
+
+**1. One press of a mouse button, or one visit made by clicking a link.** (щелчок, клик)
 
 1. The whole form takes about three *clicks*.
 2. Every *click* on that ad costs the company money.
 3. One more *click* and you're done.
+
+**2. A short sharp sound like two hard things tapping together.** (щелчок (звук))
+
+4. I heard the *click* of the lock behind me.
+5. The pen makes a loud *click* when you press it.
+6. There were two *clicks* on the line before the call dropped.
 
 ---
 
@@ -129,30 +137,58 @@ The person a message or package is sent to.
 ### post
 
 **Pronunciation:** /poʊst/ &middot; *POHST*
-**Русский:** пост, публикация
+**Русский:** пост, публикация; столб, стойка; должность, пост; пост (караульный); военная база
 **Plural:** *posts*
 **Countability:** countable
 
-Something written or shared on a website for others to see.
+Post has 4 distinct senses.
+
+**1. Something written or shared on a website for others to see.** (пост, публикация)
 
 1. Her *post* about the storm got shared everywhere.
 2. He deletes his *posts* after a few days.
 3. That was the first *post* on the whole page.
+
+**2. A strong upright piece of wood or metal fixed in the ground.** (столб, стойка)
+
+4. The gate hangs on a rotting *post*.
+5. He tied the horse to a *post* by the barn.
+6. The ball bounced off the goal *post*.
+
+**3. A job or official position.** (должность, пост)
+
+7. She left her *post* at the embassy last spring.
+8. He held the *post* of treasurer for nine years.
+9. Three teaching *posts* went unfilled.
+
+**4. The place where a soldier or guard is stationed, or an army base.** (пост (караульный); военная база)
+
+10. The guard never left his *post*.
+11. Families live on the *post* in base housing.
+12. He was transferred to a *post* in Texas.
 
 ---
 
 ### comment
 
 **Pronunciation:** /ˈkɑːmɛnt/ &middot; *KAH-ment*
-**Русский:** комментарий
+**Русский:** комментарий; замечание, высказывание
 **Plural:** *comments*
 **Countability:** countable
 
-A short written response left under a post or article.
+Comment has 2 distinct senses.
+
+**1. A short written response left under a post or article.** (комментарий)
 
 1. Read the *comments* if you want to lose your faith in people.
 2. She left a nice *comment* on my photo.
 3. The paper turned off *comments* on that story.
+
+**2. Something said or written to give an opinion.** (замечание, высказывание)
+
+4. The senator had no *comment* on the report.
+5. His *comment* about her accent was rude.
+6. She made a few *comments* at the end of the meeting.
 
 ---
 
@@ -189,15 +225,23 @@ An app for sending messages, or a person who carries messages.
 ### troll
 
 **Pronunciation:** /troʊl/ &middot; *TROHL*
-**Русский:** тролль (интернет-провокатор)
+**Русский:** тролль (интернет-провокатор); тролль (сказочное существо)
 **Plural:** *trolls*
 **Countability:** countable
 
-Someone who posts rude things online just to upset people.
+Troll has 2 distinct senses.
+
+**1. Someone who posts rude things online just to upset people.** (тролль (интернет-провокатор))
 
 1. Don't feed the *troll*.
 2. The *trolls* found her post within an hour.
 3. One *troll* can ruin a whole comment section.
+
+**2. An ugly creature in old northern European stories, said to live in caves or under bridges.** (тролль (сказочное существо))
+
+4. In the story, a *troll* guards the bridge.
+5. The kids drew *trolls* with huge noses.
+6. He read them a tale about a *troll* who turned to stone in the sun.
 
 ---
 
@@ -263,45 +307,75 @@ A video broadcast over the internet as it happens.
 ### like
 
 **Pronunciation:** /laɪk/ &middot; *LYKE*
-**Русский:** лайк, отметка «нравится»
+**Русский:** лайк, отметка «нравится»; вкусы, пристрастия
 **Plural:** *likes*
 **Countability:** countable
 
-A click that shows you approve of a post.
+Like has 2 distinct senses.
+
+**1. A click that shows you approve of a post.** (лайк, отметка «нравится»)
 
 1. The photo got two hundred *likes* overnight.
 2. He counts every *like* on every post.
 3. One *like* from her and he was happy all day.
+
+**2. Something that a person enjoys or prefers.** (вкусы, пристрастия)
+
+4. She knows all my *likes* and dislikes.
+5. The form asks about your *likes* in music and food.
+6. Their *likes* and dislikes are almost identical.
 
 ---
 
 ### setting
 
 **Pronunciation:** /ˈsɛtɪŋ/ &middot; *SET-ing*
-**Русский:** настройка
+**Русский:** настройка; обстановка, окружение, место; место и время действия (в произведении)
 **Plural:** *settings*
 **Countability:** countable
 
-One of the choices you can change to control how something works.
+Setting has 3 distinct senses.
+
+**1. One of the choices you can change to control how something works.** (настройка)
 
 1. Change that *setting* and the noise stops.
 2. All my *settings* got wiped in the update.
 3. There's a *setting* to turn off autoplay.
+
+**2. The place and surroundings in which something happens or stands.** (обстановка, окружение, место)
+
+4. The inn sits in a beautiful *setting* above the lake.
+5. It was an odd *setting* for a business meeting.
+6. The garden makes a lovely *setting* for a wedding.
+
+**3. The time and place in which a story or film takes place.** (место и время действия (в произведении))
+
+7. The novel's *setting* is a small town in the 1930s.
+8. The *setting* shifts to Chicago in the second half.
+9. Half the class missed the question about the *setting*.
 
 ---
 
 ### option
 
 **Pronunciation:** /ˈɑːpʃən/ &middot; *AHP-shun*
-**Русский:** вариант, опция
+**Русский:** вариант, опция; опцион
 **Plural:** *options*
 **Countability:** countable
 
-One of the choices available to you.
+Option has 2 distinct senses.
+
+**1. One of the choices available to you.** (вариант, опция)
 
 1. Pick the second *option* on the list.
 2. You have three *options* for shipping.
 3. Canceling isn't really an *option* right now.
+
+**2. A contract giving the right to buy or sell something at a set price.** (опцион)
+
+4. Her pay package includes stock *options*.
+5. He exercised his *options* as soon as they vested.
+6. The studio bought an *option* on her novel.
 
 ---
 
@@ -338,31 +412,65 @@ A device for speaking to someone far away over a line or network.
 ### text
 
 **Pronunciation:** /tɛkst/ &middot; *TEKST*
-**Русский:** СМС, текстовое сообщение
+**Русский:** СМС, текстовое сообщение; текст; учебник, учебное пособие
 **Plural:** *texts*
 **Countability:** countable
 
-A short written message sent from one phone to another.
+Text has 3 distinct senses.
+
+**1. A short written message sent from one phone to another.** (СМС, текстовое сообщение)
 
 1. Send me a *text* when you land.
 2. I have four unread *texts* from my mom.
 3. His last *text* just said okay.
+
+**2. The written words of a book, an article, or a document.** (текст)
+
+4. The *text* of the speech was posted online that night.
+5. The pictures are nice, but the *text* is hard to follow.
+6. She compared the two *texts* line by line.
+
+**3. A book used for study in a course.** (учебник, учебное пособие)
+
+7. The required *texts* cost almost four hundred dollars.
+8. He still has his old chemistry *text*.
+9. The professor wrote the *text* we're using.
 
 ---
 
 ### contact
 
 **Pronunciation:** /ˈkɑːntækt/ &middot; *KAHN-takt*
-**Русский:** контакт (запись в телефоне)
+**Русский:** контакт (запись в телефоне); соприкосновение, контакт; связь, общение; контактная линза
 **Plural:** *contacts*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable, KAHN-takt; the verb is kun-TAKT.
 
-A person whose phone number or address you have saved.
+Contact has 4 distinct senses.
+
+**1. A person whose phone number or address you have saved.** (контакт (запись в телефоне))
 
 1. Add me as a *contact* so I don't go to spam.
 2. I lost all my *contacts* when the phone died.
 3. She has a *contact* at the newspaper.
+
+**2. The state of two things touching each other.** (соприкосновение, контакт)
+
+4. Do not let the wire come into *contact* with water.
+5. The disease spreads through *contact* with the skin.
+6. His hand made *contact* with the hot pan.
+
+**3. Communication between people who are apart.** (связь, общение)
+
+7. We lost *contact* with them after the move.
+8. She has had no *contact* with her father in years.
+9. Stay in *contact* while you're away.
+
+**4. A thin lens worn on the eye instead of glasses, usually used in the plural.** (контактная линза)
+
+10. I wear *contacts* during the week and glasses at night.
+11. One of my *contacts* fell out on the bus.
+12. She keeps a spare *contact* in her bag.
 
 ---
 
@@ -436,45 +544,69 @@ The part of a phone you hold to your ear, or a device that picks up signals.
 ### message
 
 **Pronunciation:** /ˈmɛsɪdʒ/ &middot; *MES-ij*
-**Русский:** сообщение
+**Русский:** сообщение; идея, посыл (произведения)
 **Plural:** *messages*
 **Countability:** countable
 
-A piece of information sent from one person to another.
+Message has 2 distinct senses.
+
+**1. A piece of information sent from one person to another.** (сообщение)
 
 1. I left a *message* with his secretary.
 2. She sent three *messages* before I woke up.
 3. The *message* never went through.
+
+**2. The main idea that a book, movie, or speech is trying to get across.** (идея, посыл (произведения))
+
+4. The film's *message* is that it's never too late to change.
+5. Her speech had a simple *message*: show up.
+6. The ads send a mixed *message* to kids.
 
 ---
 
 ### letter
 
 **Pronunciation:** /ˈlɛtər/ &middot; *LET-ur*
-**Русский:** письмо
+**Русский:** письмо; буква
 **Plural:** *letters*
 **Countability:** countable
 
-A written message sent to someone, usually by mail.
+Letter has 2 distinct senses.
+
+**1. A written message sent to someone, usually by mail.** (письмо)
 
 1. He wrote her a *letter* every week that summer.
 2. The *letters* were tied with a ribbon in a shoebox.
 3. A *letter* from the IRS is never good news.
+
+**2. One of the written signs that make up an alphabet.** (буква)
+
+4. The word 'rhythm' has six *letters*.
+5. She wrote her name in capital *letters*.
+6. The last *letter* on the sign had fallen off.
 
 ---
 
 ### package
 
 **Pronunciation:** /ˈpækɪdʒ/ &middot; *PAK-ij*
-**Русский:** посылка, бандероль
+**Русский:** посылка, бандероль; пакет (услуг, льгот), комплект
 **Plural:** *packages*
 **Countability:** countable
 
-Something wrapped or boxed and sent through the mail.
+Package has 2 distinct senses.
+
+**1. Something wrapped or boxed and sent through the mail.** (посылка, бандероль)
 
 1. A *package* is sitting on the porch.
 2. Two *packages* went to the wrong house.
 3. The *package* should get there by Thursday.
+
+**2. A set of things offered together as one deal.** (пакет (услуг, льгот), комплект)
+
+4. The job came with a good benefits *package*.
+5. Congress passed a relief *package* in December.
+6. We booked a vacation *package* that includes the flight.
 
 ---
 
@@ -526,15 +658,29 @@ A public statement telling people something has happened or will happen.
 ### notice
 
 **Pronunciation:** /ˈnoʊtɪs/ &middot; *NOH-tus*
-**Русский:** уведомление, объявление
+**Русский:** уведомление, объявление; внимание; предупреждение заранее, уведомление (об уходе)
 **Plural:** *notices*
 **Countability:** countable
 
-A written or printed statement giving information or a warning.
+Notice has 3 distinct senses.
+
+**1. A written or printed statement giving information or a warning.** (уведомление, объявление)
 
 1. There's a *notice* posted on the front door.
 2. The bank mailed *notices* to every account holder.
 3. We got a *notice* that rent is going up.
+
+**2. Attention paid to someone or something.** (внимание)
+
+4. The mistake escaped everyone's *notice*.
+5. Her work finally came to the director's *notice*.
+6. Take no *notice* of what he says.
+
+**3. A warning given ahead of time that something will happen.** (предупреждение заранее, уведомление (об уходе))
+
+7. She gave her boss two weeks' *notice*.
+8. The rules can change without *notice*.
+9. They canceled the flight on short *notice*.
 
 ---
 
@@ -595,14 +741,28 @@ Rumor has 2 distinct senses.
 ### support
 
 **Pronunciation:** /səˈpɔːrt/ &middot; *suh-PORT*
-**Русский:** поддержка, техподдержка
+**Русский:** поддержка, техподдержка; поддержка, помощь; опора, подпорка
 **Countability:** uncountable
 
-Help given to customers who have trouble with a product or service.
+Support has 3 distinct senses.
+
+**1. Help given to customers who have trouble with a product or service.** (поддержка, техподдержка)
 
 1. I was on hold with *support* for forty minutes.
 2. Technical *support* is only open on weekdays.
 3. Their customer *support* is the reason I stayed.
+
+**2. Help, encouragement, or money given to a person or a cause.** (поддержка, помощь)
+
+4. Her family gave her a lot of *support* after the accident.
+5. The bill has strong *support* in the Senate.
+6. He pays child *support* every month.
+
+**3. A part that holds the weight of something and keeps it from falling.** (опора, подпорка)
+
+7. Steel *supports* hold up the balcony.
+8. The shelf needs another *support* in the middle.
+9. Crews put temporary *supports* under the sagging roof.
 
 ---
 
@@ -624,12 +784,20 @@ A lesson or guide that shows you step by step how to do something.
 ### search
 
 **Pronunciation:** /sɜːrtʃ/ &middot; *SURCH*
-**Русский:** поиск
+**Русский:** поиск; обыск, досмотр
 **Plural:** *searches*
 **Countability:** countable
 
-An attempt to find something, especially by typing words into a website.
+Search has 2 distinct senses.
+
+**1. An attempt to find something, especially by typing words into a website.** (поиск)
 
 1. A quick *search* turned up her phone number.
 2. The site logs every *search* you make.
 3. Two *searches* gave me completely different results.
+
+**2. An examination of a person, a bag, or a building by officers looking for something.** (обыск, досмотр)
+
+4. The *search* of the apartment turned up nothing.
+5. Officers need a warrant for a *search* like that.
+6. A quick *search* at the gate found the knife.

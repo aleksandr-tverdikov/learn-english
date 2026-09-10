@@ -27,31 +27,59 @@ A small animal with six legs, a body in three parts, and usually wings.
 ### bug
 
 **Pronunciation:** /bʌɡ/ &middot; *BUG*
-**Русский:** жучок, насекомое (разг.)
+**Русский:** жучок, насекомое (разг.); баг, ошибка в программе; инфекция, вирус (лёгкое недомогание); жучок (подслушивающее устройство)
 **Plural:** *bugs*
 **Countability:** countable
 **Contrast:** In casual American English bug covers almost any small creepy-crawly, including spiders — insect is the precise word.
 
-Any small crawling or flying insect, in everyday speech.
+Bug has 4 distinct senses.
+
+**1. Any small crawling or flying insect, in everyday speech.** (жучок, насекомое (разг.))
 
 1. There's a *bug* crawling up the wall behind you.
 2. The screen door keeps most of the *bugs* out.
 3. Some kind of *bug* landed in my coffee.
+
+**2. A mistake in a computer program that makes it behave wrongly.** (баг, ошибка в программе)
+
+4. The update fixed a *bug* that erased saved files.
+5. Testers filed a dozen *bugs* on the first day.
+6. There's a *bug* in the checkout page.
+
+**3. A minor infection passed from one person to another.** (инфекция, вирус (лёгкое недомогание))
+
+7. Half the office caught a stomach *bug*.
+8. She's home with some kind of *bug*.
+9. A nasty *bug* went through the daycare in January.
+
+**4. A tiny hidden microphone used to listen in secretly.** (жучок (подслушивающее устройство))
+
+10. Agents planted a *bug* in the hotel room.
+11. They swept the office for *bugs* every month.
+12. A *bug* under the table recorded the whole meeting.
 
 ---
 
 ### pest
 
 **Pronunciation:** /pɛst/ &middot; *PEST*
-**Русский:** вредитель
+**Русский:** вредитель; надоеда, приставала
 **Plural:** *pests*
 **Countability:** countable
 
-An insect or animal that damages crops, food, or property.
+Pest has 2 distinct senses.
+
+**1. An insect or animal that damages crops, food, or property.** (вредитель)
 
 1. Deer are the worst *pest* in this garden.
 2. The farm loses about a tenth of its corn to *pests*.
 3. We hired someone to deal with the *pests* in the attic.
+
+**2. An annoying person who keeps bothering you.** (надоеда, приставала)
+
+4. Stop being such a *pest* and let me finish this.
+5. The kids next door are complete *pests*.
+6. He made a *pest* of himself calling every hour.
 
 ---
 
@@ -118,15 +146,29 @@ An informal American word for any small animal or insect.
 ### fly
 
 **Pronunciation:** /flaɪ/ &middot; *FLY*
-**Русский:** муха
+**Русский:** муха; ширинка; мушка (рыболовная приманка)
 **Plural:** *flies*
 **Countability:** countable
 
-A small flying insect with two wings that is often found around food and garbage.
+Fly has 3 distinct senses.
+
+**1. A small flying insect with two wings that is often found around food and garbage.** (муха)
 
 1. There's a *fly* buzzing against the kitchen window.
 2. Close the lid or you'll have *flies* all over the trash.
 3. He swatted the *fly* with a rolled-up magazine.
+
+**2. The opening at the front of a pair of pants, closed with a zipper or buttons.** (ширинка)
+
+4. Your *fly* is open.
+5. The zipper on his *fly* broke on the way to work.
+6. These jeans have a button *fly*.
+
+**3. An artificial bait made to look like an insect, used in fishing.** (мушка (рыболовная приманка))
+
+7. He ties his own *flies* all winter.
+8. She cast a small dry *fly* upstream.
+9. That *fly* has caught more trout than anything else in my box.
 
 ---
 
@@ -209,31 +251,47 @@ The soft white legless young of a fly.
 ### grub
 
 **Pronunciation:** /ɡrʌb/ &middot; *GRUB*
-**Русский:** личинка (жука)
+**Русский:** личинка (жука); еда, жратва (разг.)
 **Plural:** *grubs*
 **Countability:** countable
 
-The thick pale larva of a beetle, usually found in soil.
+Grub has 2 distinct senses.
+
+**1. The thick pale larva of a beetle, usually found in soil.** (личинка (жука))
 
 1. The lawn died because *grubs* ate the roots.
 2. I turned over a rock and found a fat white *grub*.
 3. Skunks dig up the yard looking for *grubs*.
+
+**2. Food, in casual speech.** (еда, жратва (разг.))
+
+4. Let's grab some *grub* before the movie.
+5. The diner serves good, cheap *grub*.
+6. There's plenty of *grub* left in the cooler.
 
 ---
 
 ### bee
 
 **Pronunciation:** /biː/ &middot; *BEE*
-**Русский:** пчела
+**Русский:** пчела; конкурс, коллективные посиделки (напр. spelling bee)
 **Plural:** *bees*
 **Countability:** countable
 **Contrast:** Bee sounds exactly like the verb be — only context tells them apart in speech.
 
-A flying insect that gathers nectar from flowers and can sting.
+Bee has 2 distinct senses.
+
+**1. A flying insect that gathers nectar from flowers and can sting.** (пчела)
 
 1. A *bee* landed on the rim of my soda can.
 2. The lavender out front is always covered in *bees*.
 3. He's allergic, so a *bee* sting is a real emergency.
+
+**2. A gathering where people compete at something or work together.** (конкурс, коллективные посиделки (напр. spelling bee))
+
+4. She won the school spelling *bee* two years running.
+5. The neighbors held a quilting *bee* in the church hall.
+6. Our town still has a sewing *bee* every winter.
 
 ---
 
@@ -317,15 +375,23 @@ A small black and yellow wasp common around picnics and garbage cans.
 ### hive
 
 **Pronunciation:** /haɪv/ &middot; *HYV*
-**Русский:** улей
+**Русский:** улей; крапивница (сыпь)
 **Plural:** *hives*
 **Countability:** countable
 
-A structure where a colony of bees lives.
+Hive has 2 distinct senses.
+
+**1. A structure where a colony of bees lives.** (улей)
 
 1. He keeps four *hives* behind the barn.
 2. The whole *hive* went quiet when it got cold.
 3. Smoke calms the bees before you open the *hive*.
+
+**2. An itchy rash of raised red patches, usually caused by an allergy.** (крапивница (сыпь))
+
+4. Peanuts give her *hives*.
+5. He broke out in *hives* after taking the antibiotic.
+6. The doctor said the *hives* would fade in a day or two.
 
 ---
 
@@ -423,32 +489,48 @@ The sharp part of a bee or wasp that injects venom.
 ### sting
 
 **Pronunciation:** /stɪŋ/ &middot; *STING*
-**Русский:** укус (жалящего насекомого)
+**Русский:** укус (жалящего насекомого); операция под прикрытием, подстава
 **Plural:** *stings*
 **Countability:** countable
 **Contrast:** Bees and wasps sting; mosquitoes and spiders bite. Russian укус covers both, but English never says a bee bite.
 
-A painful wound made by a bee, wasp, or scorpion.
+Sting has 2 distinct senses.
+
+**1. A painful wound made by a bee, wasp, or scorpion.** (укус (жалящего насекомого))
 
 1. The *sting* swelled up by the next morning.
 2. He's had three wasp *stings* this summer.
 3. A scorpion *sting* is rarely fatal in this country.
+
+**2. A secret police operation set up to catch someone breaking the law.** (операция под прикрытием, подстава)
+
+4. Detectives arrested six people in the *sting*.
+5. The *sting* was run out of a rented storefront.
+6. Federal agents set up a *sting* to catch the dealers.
 
 ---
 
 ### bite
 
 **Pronunciation:** /baɪt/ &middot; *BYT*
-**Русский:** укус
+**Русский:** укус; кусок (пищи); перекус
 **Plural:** *bites*
 **Countability:** countable
 **Contrast:** Use bite for mosquitoes, spiders, ticks, and snakes, but sting for bees and wasps.
 
-A mark or wound left where an insect or animal has bitten.
+Bite has 2 distinct senses.
+
+**1. A mark or wound left where an insect or animal has bitten.** (укус)
 
 1. I woke up with three *bites* on my ankle.
 2. Don't scratch the *bite* or it'll get infected.
 3. A spider *bite* can take weeks to heal.
+
+**2. A piece of food taken into the mouth at one time, or a quick small meal.** (кусок (пищи); перекус)
+
+4. He took a *bite* of the sandwich and made a face.
+5. Let's grab a *bite* before the movie.
+6. There wasn't a *bite* of food left in the house.
 
 ---
 
@@ -640,30 +722,46 @@ A jumping insect with long back legs that lives in grass.
 ### cricket
 
 **Pronunciation:** /ˈkrɪkɪt/ &middot; *KRIK-it*
-**Русский:** сверчок
+**Русский:** сверчок; крикет (игра)
 **Plural:** *crickets*
 **Countability:** countable
 
-A small dark jumping insect that chirps loudly at night.
+Cricket has 2 distinct senses.
+
+**1. A small dark jumping insect that chirps loudly at night.** (сверчок)
 
 1. A *cricket* got into the basement and chirped all night.
 2. You could hear *crickets* through the open window.
 3. The pet store sells *crickets* to feed to lizards.
+
+**2. A team ball game played with flat bats and a hard ball, popular in Britain and India.** (крикет (игра))
+
+4. He grew up playing *cricket* in the street.
+5. A *cricket* match can last five days.
+6. Americans find the rules of *cricket* baffling.
 
 ---
 
 ### locust
 
 **Pronunciation:** /ˈloʊkəst/ &middot; *LOH-kuhst*
-**Русский:** саранча
+**Русский:** саранча; робиния, белая акация (дерево)
 **Plural:** *locusts*
 **Countability:** countable
 
-A grasshopper that travels in huge destructive swarms.
+Locust has 2 distinct senses.
+
+**1. A grasshopper that travels in huge destructive swarms.** (саранча)
 
 1. *Locusts* ate everything in the fields.
 2. A single *locust* is harmless; a million of them are not.
 3. The swarm of *locusts* darkened the sky.
+
+**2. A North American tree with feathery leaves, hard wood, and thorny twigs.** (робиния, белая акация (дерево))
+
+4. They planted a *locust* by the fence for shade.
+5. Black *locust* makes good fence posts.
+6. The old *locust* in the yard blooms white in May.
 
 ---
 
@@ -840,16 +938,24 @@ A tiny jumping insect that lives on animals and feeds on blood.
 ### tick
 
 **Pronunciation:** /tɪk/ &middot; *TIK*
-**Русский:** клещ
+**Русский:** клещ; тиканье, щелчок (часов)
 **Plural:** *ticks*
 **Countability:** countable
 **Contrast:** In American English a checkmark is a check, not a tick — tick is the insect or the sound of a clock.
 
-A small blood-sucking creature that attaches itself to skin and can carry disease.
+Tick has 2 distinct senses.
+
+**1. A small blood-sucking creature that attaches itself to skin and can carry disease.** (клещ)
 
 1. Check the kids for *ticks* after they come in from the woods.
 2. He pulled a *tick* off his ankle with tweezers.
 3. *Ticks* around here carry Lyme disease.
+
+**2. The short sharp sound a clock makes.** (тиканье, щелчок (часов))
+
+4. The only sound was the *tick* of the kitchen clock.
+5. He counted the *ticks* while he waited.
+6. The watch has a very quiet *tick*.
 
 ---
 
@@ -887,16 +993,24 @@ The hard outer shell that supports and protects an insect's body.
 ### thorax
 
 **Pronunciation:** /ˈθɔːræks/ &middot; *THOR-aks*
-**Русский:** грудь (у насекомого)
+**Русский:** грудь (у насекомого); грудная клетка
 **Plural:** *thoraxes*
 **Countability:** countable
 **Contrast:** Both thoraxes and the Latin plural thoraces are used; thoraxes is the safer everyday choice.
 
-The middle section of an insect's body, where the legs and wings attach.
+Thorax has 2 distinct senses.
+
+**1. The middle section of an insect's body, where the legs and wings attach.** (грудь (у насекомого))
 
 1. All six legs come out of the *thorax*.
 2. The wasp's *thorax* was banded in yellow.
 3. You can tell the species apart by the markings on their *thoraxes*.
+
+**2. The part of the human body between the neck and the abdomen; the chest.** (грудная клетка)
+
+4. The X-ray showed a shadow in the *thorax*.
+5. The surgeon opened the *thorax* to reach the heart.
+6. Pain in the *thorax* should be checked right away.
 
 ---
 
@@ -919,15 +1033,23 @@ A creature with eight legs that spins webs and catches insects.
 ### web
 
 **Pronunciation:** /wɛb/ &middot; *WEB*
-**Русский:** паутина
+**Русский:** паутина; интернет, всемирная паутина
 **Plural:** *webs*
 **Countability:** countable
 
-The net of silk threads a spider spins to catch prey.
+Web has 2 distinct senses.
+
+**1. The net of silk threads a spider spins to catch prey.** (паутина)
 
 1. A *web* stretched right across the doorway.
 2. The morning dew made the *webs* visible.
 3. A moth was struggling in the *web*.
+
+**2. The system of linked pages and sites on the internet.** (интернет, всемирная паутина)
+
+4. You can find the form on the *web*.
+5. He spent all afternoon searching the *web*.
+6. The article is only on the *web*, not in print.
 
 ---
 
@@ -1013,16 +1135,30 @@ An eight-legged creature such as a spider, tick, mite, or scorpion.
 ### worm
 
 **Pronunciation:** /wɜːrm/ &middot; *WURM*
-**Русский:** червь, червяк
+**Русский:** червь, червяк; червь (компьютерный вирус); глисты, гельминты
 **Plural:** *worms*
 **Countability:** countable
 **Contrast:** Worm and warm differ only in the vowel: WURM has the vowel of bird, WARM the vowel of for.
 
-A long soft creature with no legs that lives in soil.
+Worm has 3 distinct senses.
+
+**1. A long soft creature with no legs that lives in soil.** (червь, червяк)
 
 1. The rain brought *worms* out onto the sidewalk.
 2. He cut the *worm* in half for bait.
 3. Good soil is full of *worms*.
+
+**2. A harmful program that copies itself from computer to computer over a network.** (червь (компьютерный вирус))
+
+4. A *worm* shut down the hospital's network for two days.
+5. The *worm* spread through email attachments.
+6. Security teams patched the hole the *worm* used.
+
+**3. A parasite that lives in the gut of a person or an animal.** (глисты, гельминты)
+
+7. The puppy has *worms* and needs medicine.
+8. Every child in the village was treated for *worms*.
+9. The vet checks a stool sample for *worms*.
 
 ---
 
@@ -1044,15 +1180,29 @@ The common brown worm that tunnels through garden soil.
 ### slug
 
 **Pronunciation:** /slʌɡ/ &middot; *SLUG*
-**Русский:** слизень
+**Русский:** слизень; пуля (свинцовая); большой глоток (спиртного)
 **Plural:** *slugs*
 **Countability:** countable
 
-A soft slimy creature like a snail without a shell.
+Slug has 3 distinct senses.
+
+**1. A soft slimy creature like a snail without a shell.** (слизень)
 
 1. *Slugs* got into the lettuce again.
 2. There was a *slug* on the back step this morning.
 3. A little salt kills a *slug* instantly.
+
+**2. A lump of lead fired from a gun.** (пуля (свинцовая))
+
+4. The surgeon dug a *slug* out of his shoulder.
+5. A single *slug* went through the door.
+6. Deer season here is *slugs* only, no buckshot.
+
+**3. A large mouthful of a drink, especially liquor.** (большой глоток (спиртного))
+
+7. He took a *slug* of coffee and kept driving.
+8. She poured a *slug* of bourbon into the batter.
+9. Two *slugs* of that stuff and he was done for the night.
 
 ---
 
@@ -1104,16 +1254,24 @@ A slow round-bodied crawler with two pairs of legs on each segment.
 ### leech
 
 **Pronunciation:** /liːtʃ/ &middot; *LEECH*
-**Русский:** пиявка
+**Русский:** пиявка; нахлебник, паразит
 **Plural:** *leeches*
 **Countability:** countable
 **Contrast:** Leech the animal sounds the same as leach, the verb meaning to drain away through soil.
 
-A flat worm that attaches to skin and sucks blood.
+Leech has 2 distinct senses.
+
+**1. A flat worm that attaches to skin and sucks blood.** (пиявка)
 
 1. He came out of the pond with a *leech* on his calf.
 2. *Leeches* are still used in some kinds of surgery.
 3. Salt makes a *leech* let go.
+
+**2. A person who lives off other people's money or effort.** (нахлебник, паразит)
+
+4. Her cousin is a total *leech*.
+5. He got tired of supporting a *leech*.
+6. He called them *leeches* living off the family fortune.
 
 ---
 
@@ -1180,15 +1338,29 @@ A cold-blooded scaly animal such as a snake, lizard, or turtle.
 ### snake
 
 **Pronunciation:** /sneɪk/ &middot; *SNAYK*
-**Русский:** змея
+**Русский:** змея; сантехнический трос (для прочистки труб); змея, коварный человек
 **Plural:** *snakes*
 **Countability:** countable
 
-A long legless reptile that moves by sliding along the ground.
+Snake has 3 distinct senses.
+
+**1. A long legless reptile that moves by sliding along the ground.** (змея)
 
 1. A *snake* crossed the trail right in front of us.
 2. Most *snakes* around here are not venomous.
 3. He grabbed the rake and moved the *snake* off the porch.
+
+**2. A long flexible metal coil pushed down a drain to clear a clog.** (сантехнический трос (для прочистки труб))
+
+4. The plumber ran a *snake* down the kitchen drain.
+5. You can rent a *snake* at the hardware store.
+6. Neither the plunger nor the *snake* opened the pipe.
+
+**3. A person who betrays others while pretending to be a friend.** (змея, коварный человек)
+
+7. He turned out to be a *snake*.
+8. Don't trust her with that; she's a *snake*.
+9. *Snakes* like that will smile at you and take your job.
 
 ---
 
@@ -1411,15 +1583,23 @@ A small venomous snake of Europe and parts of Africa.
 ### boa
 
 **Pronunciation:** /ˈboʊə/ &middot; *BOH-uh*
-**Русский:** удав
+**Русский:** удав; боа (шарф из перьев)
 **Plural:** *boas*
 **Countability:** countable
 
-A heavy tropical snake that wraps around its prey and crushes it.
+Boa has 2 distinct senses.
+
+**1. A heavy tropical snake that wraps around its prey and crushes it.** (удав)
 
 1. His brother keeps a *boa* in the garage.
 2. *Boas* give birth to live young instead of laying eggs.
 3. The *boa* wrapped itself around the branch.
+
+**2. A long fluffy scarf made of feathers.** (боа (шарф из перьев))
+
+4. She wore a pink feather *boa* to the party.
+5. The costume came with a *boa* and long gloves.
+6. *Boas* and sequins filled the dressing room.
 
 ---
 
@@ -1472,15 +1652,23 @@ A small striped harmless snake common in North American yards.
 ### venom
 
 **Pronunciation:** /ˈvɛnəm/ &middot; *VEN-uhm*
-**Русский:** яд (змеиный, паучий)
+**Русский:** яд (змеиный, паучий); злоба, яд (в словах)
 **Countability:** uncountable
 **Contrast:** Venom is injected by a bite or sting, so the animal is venomous; poison is swallowed or absorbed, so a poisonous mushroom is a different idea entirely.
 
-The poison that a snake, spider, or scorpion injects with a bite or sting.
+Venom has 2 distinct senses.
+
+**1. The poison that a snake, spider, or scorpion injects with a bite or sting.** (яд (змеиный, паучий))
 
 1. The *venom* attacks the blood, not the nerves.
 2. They milk the snakes for *venom* to make antivenom.
 3. Only a small amount of *venom* got into the wound.
+
+**2. Extreme bitterness or hatred in what someone says.** (злоба, яд (в словах))
+
+4. He talked about his old boss with real *venom*.
+5. There was *venom* in her voice.
+6. The letter was three pages of pure *venom*.
 
 ---
 
@@ -1805,15 +1993,23 @@ A large green insect like a grasshopper that calls loudly from trees at night.
 ### nymph
 
 **Pronunciation:** /nɪmf/ &middot; *NIMF*
-**Русский:** нимфа (личинка насекомого)
+**Русский:** нимфа (личинка насекомого); нимфа (мифическая дева природы)
 **Plural:** *nymphs*
 **Countability:** countable
 
-A young insect that looks like a small wingless version of the adult.
+Nymph has 2 distinct senses.
+
+**1. A young insect that looks like a small wingless version of the adult.** (нимфа (личинка насекомого))
 
 1. A dragonfly *nymph* lives underwater for a year or more.
 2. Cicada *nymphs* feed on roots in the dark.
 3. The *nymph* climbed out of the water and split open.
+
+**2. In Greek and Roman myths, a young female spirit living in a river, tree, or hill.** (нимфа (мифическая дева природы))
+
+4. The painting shows *nymphs* bathing in a pool.
+5. A *nymph* was said to guard the spring.
+6. In the story a river *nymph* falls in love with a hunter.
 
 ---
 

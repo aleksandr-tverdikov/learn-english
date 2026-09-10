@@ -28,15 +28,23 @@ A system of tracks and trains, or the company that operates it.
 ### rail
 
 **Pronunciation:** /reɪl/ &middot; *RAYL*
-**Русский:** рельс; железнодорожный транспорт
+**Русский:** рельс; железнодорожный транспорт; поручень; перекладина, штанга
 **Plural:** *rails*
 **Countability:** both — countable and uncountable with different meanings
 
-One of the two steel bars a train runs on, or train transportation taken as a whole.
+Rail has 2 distinct senses.
+
+**1. One of the two steel bars a train runs on, or train transportation taken as a whole.** (рельс; железнодорожный транспорт)
 
 1. A crew replaced a cracked *rail* just south of the bridge.
 2. Two steel *rails* ran straight out to the horizon.
 3. We shipped the whole load by *rail* instead of by truck.
+
+**2. A fixed horizontal bar for holding onto or for hanging things from.** (поручень; перекладина, штанга)
+
+4. Hold the *rail* on your way down the stairs.
+5. Wet towels were hanging on the *rail*.
+6. A brass *rail* runs along the front of the bar.
 
 ---
 
@@ -385,16 +393,24 @@ A metal coin once bought to get through a subway turnstile.
 ### metro
 
 **Pronunciation:** /ˈmɛtroʊ/ &middot; *MET-roh*
-**Русский:** метро
+**Русский:** метро; агломерация, город с пригородами
 **Plural:** *metros*
 **Countability:** countable
 **Contrast:** Americans call their own systems the subway; metro is used mostly for foreign systems and for the one in Washington.
 
-An urban underground railroad system.
+Metro has 2 distinct senses.
+
+**1. An urban underground railroad system.** (метро)
 
 1. We bought a day pass for the *metro*.
 2. The *metro* runs until one in the morning.
 3. Several European *metros* are older than ours.
+
+**2. A large city taken together with the suburbs around it.** (агломерация, город с пригородами)
+
+4. Half a million people live in the Portland *metro*.
+5. Rents are climbing across the whole *metro*.
+6. The chain has stores in four *metros*.
 
 ---
 
@@ -417,16 +433,24 @@ A passenger car that runs on rails laid in a city street.
 ### tram
 
 **Pronunciation:** /træm/ &middot; *TRAM*
-**Русский:** трамвай
+**Русский:** трамвай; вагончик-шаттл (в аэропорту, парке)
 **Plural:** *trams*
 **Countability:** countable
 **Contrast:** Tram is the British word; Americans usually say streetcar or trolley.
 
-A streetcar, especially outside the United States.
+Tram has 2 distinct senses.
+
+**1. A streetcar, especially outside the United States.** (трамвай)
 
 1. We took a *tram* from the station to the old town.
 2. *Trams* in Lisbon climb some very steep streets.
 3. The *tram* was crowded with tourists.
+
+**2. A small open vehicle that carries people short distances at an airport, park, or resort.** (вагончик-шаттл (в аэропорту, парке))
+
+4. Take the *tram* from the parking lot to the terminal.
+5. We rode the *tram* around the zoo.
+6. The *tram* stops at every hotel on the strip.
 
 ---
 
@@ -1203,16 +1227,30 @@ A railroad car with beds for overnight passengers.
 ### sleeper
 
 **Pronunciation:** /ˈsliːpər/ &middot; *SLEE-pur*
-**Русский:** спальный вагон
+**Русский:** спальный вагон; спящий (чутко или крепко); неожиданный успех, тёмная лошадка
 **Plural:** *sleepers*
 **Countability:** countable
 **Contrast:** In American English a sleeper is a sleeping car; in British English a sleeper is also a railroad tie.
 
-A sleeping car, or a train that has one.
+Sleeper has 3 distinct senses.
+
+**1. A sleeping car, or a train that has one.** (спальный вагон)
 
 1. We took the *sleeper* from Chicago to Los Angeles.
 2. There were two *sleepers* at the back of the train.
 3. A berth in the *sleeper* costs about twice the coach fare.
+
+**2. A person thought of in terms of how deeply or lightly they sleep.** (спящий (чутко или крепко))
+
+4. I'm a light *sleeper*, so any noise wakes me.
+5. He's such a heavy *sleeper* that he slept through the alarm.
+6. The *sleepers* in the next tent never stirred.
+
+**3. Something that becomes a success after nobody expected it to.** (неожиданный успех, тёмная лошадка)
+
+7. The movie was a *sleeper* that ran for months.
+8. Their second album turned into a quiet *sleeper*.
+9. Scouts love finding *sleepers* in the late rounds.
 
 ---
 
@@ -1385,15 +1423,29 @@ A freight car with no sides or roof, used for long or bulky loads.
 ### tender
 
 **Pronunciation:** /ˈtɛndər/ &middot; *TEN-dur*
-**Русский:** тендер (вагон с углём и водой)
+**Русский:** тендер (вагон с углём и водой); куриные стрипсы, полоски куриного филе; законное платёжное средство
 **Plural:** *tenders*
 **Countability:** countable
 
-The car behind a steam locomotive that carries its fuel and water.
+Tender has 3 distinct senses.
+
+**1. The car behind a steam locomotive that carries its fuel and water.** (тендер (вагон с углём и водой))
 
 1. The fireman shoveled coal from the *tender* all night.
 2. The engine and its *tender* weigh over two hundred tons.
 3. Both *tenders* were repainted for the excursion.
+
+**2. A strip of chicken breast, usually breaded and fried.** (куриные стрипсы, полоски куриного филе)
+
+4. The kids ordered chicken *tenders* and fries.
+5. He dipped a *tender* in honey mustard.
+6. A basket of *tenders* comes with two sides.
+
+**3. Money that must legally be accepted as payment.** (законное платёжное средство)
+
+7. Every bill says it is legal *tender* for all debts, public and private.
+8. Congress decides what counts as legal *tender*.
+9. Old coins are still legal *tender* even if stores dislike them.
 
 ---
 
@@ -1491,16 +1543,30 @@ A braking system that uses compressed air to stop every car in a train.
 ### berth
 
 **Pronunciation:** /bɜːrθ/ &middot; *BURTH*
-**Русский:** спальное место, полка
+**Русский:** спальное место, полка; причал, место стоянки судна; путёвка, место (в плей-офф, в команде)
 **Plural:** *berths*
 **Countability:** countable
 **Contrast:** Berth sounds exactly like birth.
 
-A bed built into the wall of a sleeping car.
+Berth has 3 distinct senses.
+
+**1. A bed built into the wall of a sleeping car.** (спальное место, полка)
 
 1. I had the upper *berth* and slept badly.
 2. The compartment has two *berths* and a small sink.
 3. He folded the *berth* back against the wall.
+
+**2. A place at a dock where a ship ties up.** (причал, место стоянки судна)
+
+4. The freighter pulled into its *berth* just after dawn.
+5. Every *berth* at the marina was taken.
+6. The ship left its *berth* an hour late.
+
+**3. A place in a competition or on a team that a player or club earns.** (путёвка, место (в плей-офф, в команде))
+
+7. A win tonight clinches a playoff *berth*.
+8. The team earned a *berth* in the national tournament.
+9. She lost her *berth* on the Olympic squad after the injury.
 
 ---
 
@@ -1522,15 +1588,23 @@ As much cargo or as many people as one train can carry.
 ### carload
 
 **Pronunciation:** /ˈkɑːrloʊd/ &middot; *KAHR-lohd*
-**Русский:** вагон (груза)
+**Русский:** вагон (груза); полная машина (людей, вещей)
 **Plural:** *carloads*
 **Countability:** countable
 
-The amount of freight that fills one railroad car.
+Carload has 2 distinct senses.
+
+**1. The amount of freight that fills one railroad car.** (вагон (груза))
 
 1. The mill ships forty *carloads* of paper a month.
 2. Rates are lower if you order a full *carload*.
 3. One *carload* of lumber was damaged in the storm.
+
+**2. As many people or things as a car will hold.** (полная машина (людей, вещей))
+
+4. A *carload* of teenagers pulled into the lot.
+5. We took a *carload* of old clothes to the donation center.
+6. Two *carloads* of relatives showed up for dinner.
 
 ---
 
@@ -1568,15 +1642,23 @@ A railroad tie, laid crosswise under the rails.
 ### ballast
 
 **Pronunciation:** /ˈbæləst/ &middot; *BAL-uhst*
-**Русский:** балласт (щебень под шпалами)
+**Русский:** балласт (щебень под шпалами); балласт (на судне, аэростате)
 **Countability:** uncountable
 **Contrast:** Ballast is uncountable — a load of ballast, never two ballasts.
 
-The crushed stone spread under and around railroad ties to hold the track steady.
+Ballast has 2 distinct senses.
+
+**1. The crushed stone spread under and around railroad ties to hold the track steady.** (балласт (щебень под шпалами))
 
 1. Fresh *ballast* was dumped along the whole stretch of track.
 2. Rain washed the *ballast* out from under the rails.
 3. The train hauls *ballast* to wherever the crews are working.
+
+**2. Heavy material carried in a ship or balloon to keep it steady.** (балласт (на судне, аэростате))
+
+4. The tanker took on seawater as *ballast*.
+5. They dumped *ballast* to gain altitude.
+6. Without *ballast* the boat rides too high.
 
 ---
 

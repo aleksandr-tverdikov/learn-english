@@ -20,14 +20,43 @@
       "term": "meal",
       "ipa": "/miːl/",
       "respell": "MEEL",
-      "meaning": "An occasion when food is eaten, such as breakfast or dinner. ---",
+      "meaning": "Meal has 2 distinct senses.",
       "examples": [
         "Dinner is the only meal we eat together.",
         "He hasn't had a hot meal in days.",
-        "Skipping meals isn't going to help."
+        "Skipping meals isn't going to help.",
+        "Stir the meal slowly into boiling salted water.",
+        "He works bone meal into the soil before planting.",
+        "The mill grinds oats into a coarse meal."
       ],
-      "senses": [],
-      "русский": "приём пищи, еда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An occasion when food is eaten, such as breakfast or dinner",
+          "body": [
+            "(приём пищи, еда)"
+          ],
+          "examples": [
+            "Dinner is the only meal we eat together.",
+            "He hasn't had a hot meal in days.",
+            "Skipping meals isn't going to help."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Grain that has been coarsely ground",
+          "body": [
+            "(мука грубого помола, крупа)",
+            "---"
+          ],
+          "examples": [
+            "Stir the meal slowly into boiling salted water.",
+            "He works bone meal into the soil before planting.",
+            "The mill grinds oats into a coarse meal."
+          ]
+        }
+      ],
+      "русский": "приём пищи, еда; мука грубого помола, крупа",
       "plural": "meals",
       "countability": "countable"
     },
@@ -247,14 +276,43 @@
       "term": "recipe",
       "ipa": "/ˈrɛsəpi/",
       "respell": "RES-uh-pee",
-      "meaning": "A set of instructions for cooking a particular dish. ---",
+      "meaning": "Recipe has 2 distinct senses.",
       "examples": [
         "Can you send me the recipe for that soup?",
         "I followed the recipe exactly and it still came out flat.",
-        "She has a whole box of her mother's recipes."
+        "She has a whole box of her mother's recipes.",
+        "Cutting the budget now is a recipe for disaster.",
+        "Long hours and no sleep are a recipe for mistakes.",
+        "There's no single recipe for success in this business."
       ],
-      "senses": [],
-      "русский": "рецепт (кулинарный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of instructions for cooking a particular dish",
+          "body": [
+            "(рецепт (кулинарный))"
+          ],
+          "examples": [
+            "Can you send me the recipe for that soup?",
+            "I followed the recipe exactly and it still came out flat.",
+            "She has a whole box of her mother's recipes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of conditions likely to bring about a particular result",
+          "body": [
+            "(верный путь к чему-л. (рецепт успеха, катастрофы))",
+            "---"
+          ],
+          "examples": [
+            "Cutting the budget now is a recipe for disaster.",
+            "Long hours and no sleep are a recipe for mistakes.",
+            "There's no single recipe for success in this business."
+          ]
+        }
+      ],
+      "русский": "рецепт (кулинарный); верный путь к чему-л. (рецепт успеха, катастрофы)",
       "plural": "recipes",
       "countability": "countable",
       "contrast": "Three syllables, RES-uh-pee — the final e is pronounced, so it does not rhyme with ripe."
@@ -278,14 +336,43 @@
       "term": "portion",
       "ipa": "/ˈpɔːrʃn/",
       "respell": "POR-shuhn",
-      "meaning": "The amount of food served to one person. ---",
+      "meaning": "Portion has 2 distinct senses.",
       "examples": [
         "The portions here are huge.",
         "He asked for a smaller portion.",
-        "Split it into four portions."
+        "Split it into four portions.",
+        "A large portion of the budget goes to salaries.",
+        "Only a small portion of the land is farmed.",
+        "She donates a portion of every paycheck."
       ],
-      "senses": [],
-      "русский": "порция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of food served to one person",
+          "body": [
+            "(порция)"
+          ],
+          "examples": [
+            "The portions here are huge.",
+            "He asked for a smaller portion.",
+            "Split it into four portions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A part of something larger",
+          "body": [
+            "(часть, доля)",
+            "---"
+          ],
+          "examples": [
+            "A large portion of the budget goes to salaries.",
+            "Only a small portion of the land is farmed.",
+            "She donates a portion of every paycheck."
+          ]
+        }
+      ],
+      "русский": "порция; часть, доля",
       "plural": "portions",
       "countability": "countable"
     },
@@ -309,14 +396,43 @@
       "term": "picnic",
       "ipa": "/ˈpɪknɪk/",
       "respell": "PIK-nik",
-      "meaning": "A meal eaten outdoors, away from home. ---",
+      "meaning": "Picnic has 2 distinct senses.",
       "examples": [
         "We had a picnic by the lake.",
         "Rain ruined the picnic.",
-        "They pack the same picnic every year."
+        "They pack the same picnic every year.",
+        "Recovering from the surgery was no picnic.",
+        "Two weeks with three toddlers is no picnic.",
+        "Moving in August was no picnic, believe me."
       ],
-      "senses": [],
-      "русский": "пикник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meal eaten outdoors, away from home",
+          "body": [
+            "(пикник)"
+          ],
+          "examples": [
+            "We had a picnic by the lake.",
+            "Rain ruined the picnic.",
+            "They pack the same picnic every year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An easy or pleasant experience, almost always used in the negative",
+          "body": [
+            "(лёгкое дело, приятное занятие (обычно с отрицанием))",
+            "---"
+          ],
+          "examples": [
+            "Recovering from the surgery was no picnic.",
+            "Two weeks with three toddlers is no picnic.",
+            "Moving in August was no picnic, believe me."
+          ]
+        }
+      ],
+      "русский": "пикник; лёгкое дело, приятное занятие (обычно с отрицанием)",
       "plural": "picnics",
       "countability": "countable"
     },
@@ -473,14 +589,43 @@
       "term": "corn",
       "ipa": "/kɔːrn/",
       "respell": "KORN",
-      "meaning": "A tall grain plant with large yellow kernels, eaten as a vegetable. ---",
+      "meaning": "Corn has 2 distinct senses.",
       "examples": [
         "We grilled corn on the cob.",
         "The fields around here are all corn.",
-        "Add a can of corn to the soup."
+        "Add a can of corn to the soup.",
+        "New shoes gave him a corn on his little toe.",
+        "She soaked her foot to soften the corn.",
+        "The pharmacy sells pads for corns."
       ],
-      "senses": [],
-      "русский": "кукуруза",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall grain plant with large yellow kernels, eaten as a vegetable",
+          "body": [
+            "(кукуруза)"
+          ],
+          "examples": [
+            "We grilled corn on the cob.",
+            "The fields around here are all corn.",
+            "Add a can of corn to the soup."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small hard painful patch of thickened skin on a toe",
+          "body": [
+            "(мозоль (на пальце ноги))",
+            "---"
+          ],
+          "examples": [
+            "New shoes gave him a corn on his little toe.",
+            "She soaked her foot to soften the corn.",
+            "The pharmacy sells pads for corns."
+          ]
+        }
+      ],
+      "русский": "кукуруза; мозоль (на пальце ноги)",
       "countability": "uncountable",
       "contrast": "In the US corn means кукуруза; the British call that maize, and their corn means grain in general."
     },
@@ -488,14 +633,43 @@
       "term": "rye",
       "ipa": "/raɪ/",
       "respell": "RY",
-      "meaning": "A grain used to make dark bread, and the bread made from it. ---",
+      "meaning": "Rye has 2 distinct senses.",
       "examples": [
         "He ordered pastrami on rye.",
         "Rye grows in poorer soil than wheat.",
-        "The rye has caraway seeds in it."
+        "The rye has caraway seeds in it.",
+        "He ordered a rye on the rocks.",
+        "The bar keeps three kinds of rye.",
+        "This cocktail works better with rye than bourbon."
       ],
-      "senses": [],
-      "русский": "рожь, ржаной хлеб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A grain used to make dark bread, and the bread made from it",
+          "body": [
+            "(рожь, ржаной хлеб)"
+          ],
+          "examples": [
+            "He ordered pastrami on rye.",
+            "Rye grows in poorer soil than wheat.",
+            "The rye has caraway seeds in it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A whiskey distilled mostly from rye grain",
+          "body": [
+            "(ржаной виски)",
+            "---"
+          ],
+          "examples": [
+            "He ordered a rye on the rocks.",
+            "The bar keeps three kinds of rye.",
+            "This cocktail works better with rye than bourbon."
+          ]
+        }
+      ],
+      "русский": "рожь, ржаной хлеб; ржаной виски",
       "countability": "uncountable",
       "contrast": "One syllable, RY — a homophone of wry."
     },
@@ -638,14 +812,43 @@
       "term": "batter",
       "ipa": "/ˈbætər/",
       "respell": "BAT-ur",
-      "meaning": "A thin liquid mixture of flour, eggs, and milk used for frying or baking. ---",
+      "meaning": "Batter has 2 distinct senses.",
       "examples": [
         "Pour the batter into the hot pan.",
         "The batter should be smooth, not lumpy.",
-        "She dipped the fish in batter."
+        "She dipped the fish in batter.",
+        "The batter fouled off six pitches in a row.",
+        "He struck out the first three batters.",
+        "The batter stepped out of the box."
       ],
-      "senses": [],
-      "русский": "жидкое тесто, кляр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin liquid mixture of flour, eggs, and milk used for frying or baking",
+          "body": [
+            "(жидкое тесто, кляр)"
+          ],
+          "examples": [
+            "Pour the batter into the hot pan.",
+            "The batter should be smooth, not lumpy.",
+            "She dipped the fish in batter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The player whose turn it is to hit the ball in baseball",
+          "body": [
+            "(бэттер, отбивающий)",
+            "---"
+          ],
+          "examples": [
+            "The batter fouled off six pitches in a row.",
+            "He struck out the first three batters.",
+            "The batter stepped out of the box."
+          ]
+        }
+      ],
+      "русский": "жидкое тесто, кляр; бэттер, отбивающий",
       "countability": "uncountable"
     },
     {
@@ -712,14 +915,43 @@
       "term": "bun",
       "ipa": "/bʌn/",
       "respell": "BUHN",
-      "meaning": "A small round bread roll, often sweet or used for a sandwich. ---",
+      "meaning": "Bun has 2 distinct senses.",
       "examples": [
         "The burger buns are in the freezer.",
         "She warmed the buns in the oven.",
-        "This bun is stale."
+        "This bun is stale.",
+        "She twisted her hair into a bun before her shift.",
+        "Dancers wear their hair in tight buns.",
+        "He pulled his long hair up into a messy bun."
       ],
-      "senses": [],
-      "русский": "булочка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small round bread roll, often sweet or used for a sandwich",
+          "body": [
+            "(булочка)"
+          ],
+          "examples": [
+            "The burger buns are in the freezer.",
+            "She warmed the buns in the oven.",
+            "This bun is stale."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Hair gathered and twisted into a round knot at the back of the head",
+          "body": [
+            "(пучок (причёска))",
+            "---"
+          ],
+          "examples": [
+            "She twisted her hair into a bun before her shift.",
+            "Dancers wear their hair in tight buns.",
+            "He pulled his long hair up into a messy bun."
+          ]
+        }
+      ],
+      "русский": "булочка; пучок (причёска)",
       "plural": "buns",
       "countability": "countable"
     },
@@ -819,14 +1051,43 @@
       "term": "cookie",
       "ipa": "/ˈkʊki/",
       "respell": "KUUK-ee",
-      "meaning": "A small flat sweet baked cake. ---",
+      "meaning": "Cookie has 2 distinct senses.",
       "examples": [
         "The cookies are still in the oven.",
         "He ate three cookies before dinner.",
-        "She sent us a tin of homemade cookies."
+        "She sent us a tin of homemade cookies.",
+        "The site asks you to accept cookies.",
+        "Clear your cookies and try logging in again.",
+        "A cookie keeps you signed in between visits."
       ],
-      "senses": [],
-      "русский": "печенье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small flat sweet baked cake",
+          "body": [
+            "(печенье)"
+          ],
+          "examples": [
+            "The cookies are still in the oven.",
+            "He ate three cookies before dinner.",
+            "She sent us a tin of homemade cookies."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small file a website stores in your browser to remember you",
+          "body": [
+            "(куки (файл, сохраняемый сайтом в браузере))",
+            "---"
+          ],
+          "examples": [
+            "The site asks you to accept cookies.",
+            "Clear your cookies and try logging in again.",
+            "A cookie keeps you signed in between visits."
+          ]
+        }
+      ],
+      "русский": "печенье; куки (файл, сохраняемый сайтом в браузере)",
       "plural": "cookies",
       "countability": "countable",
       "contrast": "Americans say cookie; the British call it a biscuit."
@@ -850,14 +1111,43 @@
       "term": "cake",
       "ipa": "/keɪk/",
       "respell": "KAYK",
-      "meaning": "A sweet baked food made from flour, sugar, eggs, and fat. ---",
+      "meaning": "Cake has 2 distinct senses.",
       "examples": [
         "She made a carrot cake for his birthday.",
         "There's still half a cake on the counter.",
-        "Would you like a piece of cake?"
+        "Would you like a piece of cake?",
+        "A cake of soap sat on the edge of the tub.",
+        "We ordered crab cakes to start.",
+        "She fried the leftover rice into small cakes."
       ],
-      "senses": [],
-      "русский": "торт, кекс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sweet baked food made from flour, sugar, eggs, and fat",
+          "body": [
+            "(торт, кекс)"
+          ],
+          "examples": [
+            "She made a carrot cake for his birthday.",
+            "There's still half a cake on the counter.",
+            "Would you like a piece of cake?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat, pressed block of something such as soap, or of food shaped and fried",
+          "body": [
+            "(брусок, лепёшка (спрессованная масса))",
+            "---"
+          ],
+          "examples": [
+            "A cake of soap sat on the edge of the tub.",
+            "We ordered crab cakes to start.",
+            "She fried the leftover rice into small cakes."
+          ]
+        }
+      ],
+      "русский": "торт, кекс; брусок, лепёшка (спрессованная масса)",
       "plural": "cakes",
       "countability": "countable, and uncountable as food"
     },
@@ -865,14 +1155,43 @@
       "term": "pie",
       "ipa": "/paɪ/",
       "respell": "PY",
-      "meaning": "A baked dish of fruit or meat inside a pastry crust. ---",
+      "meaning": "Pie has 2 distinct senses.",
       "examples": [
         "My mom makes an apple pie every fall.",
         "Save me a slice of pie.",
-        "The pies sold out by noon."
+        "The pies sold out by noon.",
+        "Every department wants a bigger slice of the pie.",
+        "Growing the pie helps everyone, he argued.",
+        "Streaming services took a large piece of the pie."
       ],
-      "senses": [],
-      "русский": "пирог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A baked dish of fruit or meat inside a pastry crust",
+          "body": [
+            "(пирог)"
+          ],
+          "examples": [
+            "My mom makes an apple pie every fall.",
+            "Save me a slice of pie.",
+            "The pies sold out by noon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The whole amount of money or benefit that is to be divided up",
+          "body": [
+            "(общий объём средств, «пирог» для дележа)",
+            "---"
+          ],
+          "examples": [
+            "Every department wants a bigger slice of the pie.",
+            "Growing the pie helps everyone, he argued.",
+            "Streaming services took a large piece of the pie."
+          ]
+        }
+      ],
+      "русский": "пирог; общий объём средств, «пирог» для дележа",
       "plural": "pies",
       "countability": "countable, and uncountable as food"
     },
@@ -1031,28 +1350,101 @@
       "term": "cream",
       "ipa": "/kriːm/",
       "respell": "KREEM",
-      "meaning": "The thick fatty part of milk. ---",
+      "meaning": "Cream has 3 distinct senses.",
       "examples": [
         "Do you take cream in your coffee?",
         "Whip the cream until it holds a peak.",
-        "The sauce needs a little cream."
+        "The sauce needs a little cream.",
+        "The doctor prescribed a cream for the rash.",
+        "She keeps a hand cream in her desk drawer.",
+        "The drugstore has a whole aisle of face creams.",
+        "The academy takes the cream of each graduating class.",
+        "These horses are the cream of the crop.",
+        "Only the cream of the applicants get an interview."
       ],
-      "senses": [],
-      "русский": "сливки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thick fatty part of milk",
+          "body": [
+            "(сливки)"
+          ],
+          "examples": [
+            "Do you take cream in your coffee?",
+            "Whip the cream until it holds a peak.",
+            "The sauce needs a little cream."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick, soft substance rubbed into the skin as medicine or makeup",
+          "body": [
+            "(крем (косметический, лечебный))"
+          ],
+          "examples": [
+            "The doctor prescribed a cream for the rash.",
+            "She keeps a hand cream in her desk drawer.",
+            "The drugstore has a whole aisle of face creams."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The best people or things in a group",
+          "body": [
+            "(сливки, лучшая часть)",
+            "---"
+          ],
+          "examples": [
+            "The academy takes the cream of each graduating class.",
+            "These horses are the cream of the crop.",
+            "Only the cream of the applicants get an interview."
+          ]
+        }
+      ],
+      "русский": "сливки; крем (косметический, лечебный); сливки, лучшая часть",
       "countability": "uncountable"
     },
     {
       "term": "dairy",
       "ipa": "/ˈdɛri/",
       "respell": "DAIR-ee",
-      "meaning": "Milk and the foods made from it. ---",
+      "meaning": "Dairy has 2 distinct senses.",
       "examples": [
         "He cut out dairy completely.",
         "The dairy aisle is in the back.",
-        "She can't digest dairy."
+        "She can't digest dairy.",
+        "Her family has run the dairy for four generations.",
+        "The dairy ships milk to three counties.",
+        "Several small dairies closed last year."
       ],
-      "senses": [],
-      "русский": "молочные продукты",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Milk and the foods made from it",
+          "body": [
+            "(молочные продукты)"
+          ],
+          "examples": [
+            "He cut out dairy completely.",
+            "The dairy aisle is in the back.",
+            "She can't digest dairy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A farm or plant where milk is produced and processed",
+          "body": [
+            "(молочная ферма, молокозавод)",
+            "---"
+          ],
+          "examples": [
+            "Her family has run the dairy for four generations.",
+            "The dairy ships milk to three counties.",
+            "Several small dairies closed last year."
+          ]
+        }
+      ],
+      "русский": "молочные продукты; молочная ферма, молокозавод",
       "countability": "uncountable",
       "contrast": "DAIR-ee. Do not mix it up with diary (DY-uh-ree, дневник) — the letters are nearly the same."
     },
@@ -1060,28 +1452,116 @@
       "term": "jam",
       "ipa": "/dʒæm/",
       "respell": "JAM",
-      "meaning": "A sweet spread made by boiling fruit with sugar. ---",
+      "meaning": "Jam has 4 distinct senses.",
       "examples": [
         "She put jam on her toast.",
         "We made strawberry jam last summer.",
-        "There's a jar of jam in the pantry."
+        "There's a jar of jam in the pantry.",
+        "We sat in a jam on the interstate for an hour.",
+        "The copier has a paper jam again.",
+        "There was a jam at the exit doors after the concert.",
+        "He called from the police station; he was in a real jam.",
+        "She got into a jam with her landlord over the rent.",
+        "Thanks for getting me out of a jam.",
+        "There's an open jam at the bar on Thursdays.",
+        "The band's best songs came out of late-night jams.",
+        "A few friends came over for a jam in the garage."
       ],
-      "senses": [],
-      "русский": "варенье, джем",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sweet spread made by boiling fruit with sugar",
+          "body": [
+            "(варенье, джем)"
+          ],
+          "examples": [
+            "She put jam on her toast.",
+            "We made strawberry jam last summer.",
+            "There's a jar of jam in the pantry."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mass of people, vehicles, or things packed so tightly that nothing can move",
+          "body": [
+            "(затор, пробка; замятие (бумаги))"
+          ],
+          "examples": [
+            "We sat in a jam on the interstate for an hour.",
+            "The copier has a paper jam again.",
+            "There was a jam at the exit doors after the concert."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A difficult situation that is hard to get out of (informal)",
+          "body": [
+            "(переплёт, затруднительное положение)"
+          ],
+          "examples": [
+            "He called from the police station; he was in a real jam.",
+            "She got into a jam with her landlord over the rent.",
+            "Thanks for getting me out of a jam."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An informal session where musicians play together without planning it",
+          "body": [
+            "(джем, джем-сейшн)",
+            "---"
+          ],
+          "examples": [
+            "There's an open jam at the bar on Thursdays.",
+            "The band's best songs came out of late-night jams.",
+            "A few friends came over for a jam in the garage."
+          ]
+        }
+      ],
+      "русский": "варенье, джем; затор, пробка; замятие (бумаги); переплёт, затруднительное положение; джем, джем-сейшн",
       "countability": "uncountable"
     },
     {
       "term": "jelly",
       "ipa": "/ˈdʒɛli/",
       "respell": "JEL-ee",
-      "meaning": "A clear fruit spread made from strained juice, with no pieces of fruit in it. ---",
+      "meaning": "Jelly has 2 distinct senses.",
       "examples": [
         "He wanted peanut butter and jelly.",
         "The grape jelly is almost gone.",
-        "She spread jelly on the bread."
+        "She spread jelly on the bread.",
+        "Petroleum jelly keeps chapped lips from cracking.",
+        "His legs turned to jelly at the top of the ladder.",
+        "The broth cooled overnight into a firm jelly."
       ],
-      "senses": [],
-      "русский": "джем без кусочков фруктов",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A clear fruit spread made from strained juice, with no pieces of fruit in it",
+          "body": [
+            "(джем без кусочков фруктов)"
+          ],
+          "examples": [
+            "He wanted peanut butter and jelly.",
+            "The grape jelly is almost gone.",
+            "She spread jelly on the bread."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft, semi-solid substance that shakes when it is moved",
+          "body": [
+            "(желе, студенистая масса)",
+            "---"
+          ],
+          "examples": [
+            "Petroleum jelly keeps chapped lips from cracking.",
+            "His legs turned to jelly at the top of the ladder.",
+            "The broth cooled overnight into a firm jelly."
+          ]
+        }
+      ],
+      "русский": "джем без кусочков фруктов; желе, студенистая масса",
       "countability": "uncountable",
       "contrast": "In the US jelly is a seedless fruit spread; the wobbly British dessert called jelly is Jell-O here."
     },
@@ -1089,14 +1569,43 @@
       "term": "honey",
       "ipa": "/ˈhʌni/",
       "respell": "HUHN-ee",
-      "meaning": "A thick sweet substance made by bees. ---",
+      "meaning": "Honey has 2 distinct senses.",
       "examples": [
         "He stirred honey into his tea.",
         "Local honey tastes completely different.",
-        "There's a jar of honey in the cupboard."
+        "There's a jar of honey in the cupboard.",
+        "Honey, can you get the door?",
+        "Thanks, honey, I'll be right there.",
+        "The waitress called everybody honey."
       ],
-      "senses": [],
-      "русский": "мёд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick sweet substance made by bees",
+          "body": [
+            "(мёд)"
+          ],
+          "examples": [
+            "He stirred honey into his tea.",
+            "Local honey tastes completely different.",
+            "There's a jar of honey in the cupboard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A friendly or loving way of addressing someone",
+          "body": [
+            "(милый, дорогая (обращение))",
+            "---"
+          ],
+          "examples": [
+            "Honey, can you get the door?",
+            "Thanks, honey, I'll be right there.",
+            "The waitress called everybody honey."
+          ]
+        }
+      ],
+      "русский": "мёд; милый, дорогая (обращение)",
       "countability": "uncountable",
       "contrast": "The o sounds like UH — HUHN-ee, not HOH-nee."
     },
@@ -1104,28 +1613,86 @@
       "term": "syrup",
       "ipa": "/ˈsɪrəp/",
       "respell": "SIR-uhp",
-      "meaning": "A thick sweet liquid poured over food or added to drinks. ---",
+      "meaning": "Syrup has 2 distinct senses.",
       "examples": [
         "Pass the maple syrup.",
         "The pancakes were swimming in syrup.",
-        "Add a splash of syrup to the coffee."
+        "Add a splash of syrup to the coffee.",
+        "Take two spoonfuls of cough syrup before bed.",
+        "The pharmacist recommended a syrup for younger kids.",
+        "She measured the syrup into the little plastic cup."
       ],
-      "senses": [],
-      "русский": "сироп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick sweet liquid poured over food or added to drinks",
+          "body": [
+            "(сироп)"
+          ],
+          "examples": [
+            "Pass the maple syrup.",
+            "The pancakes were swimming in syrup.",
+            "Add a splash of syrup to the coffee."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick sweet liquid medicine, especially one taken for a cough",
+          "body": [
+            "(сироп (лекарственный))",
+            "---"
+          ],
+          "examples": [
+            "Take two spoonfuls of cough syrup before bed.",
+            "The pharmacist recommended a syrup for younger kids.",
+            "She measured the syrup into the little plastic cup."
+          ]
+        }
+      ],
+      "русский": "сироп; сироп (лекарственный)",
       "countability": "uncountable"
     },
     {
       "term": "sauce",
       "ipa": "/sɔːs/",
       "respell": "SAWS",
-      "meaning": "A thick liquid served with or poured over food. ---",
+      "meaning": "Sauce has 2 distinct senses.",
       "examples": [
         "The sauce needs more salt.",
         "He puts hot sauce on everything.",
-        "There are three dipping sauces."
+        "There are three dipping sauces.",
+        "He's been off the sauce since January.",
+        "After the divorce he hit the sauce pretty hard.",
+        "Her uncle finally gave up the sauce for good."
       ],
-      "senses": [],
-      "русский": "соус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick liquid served with or poured over food",
+          "body": [
+            "(соус)"
+          ],
+          "examples": [
+            "The sauce needs more salt.",
+            "He puts hot sauce on everything.",
+            "There are three dipping sauces."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Alcohol, in informal talk about someone who drinks too much",
+          "body": [
+            "(спиртное, выпивка (разг.))",
+            "---"
+          ],
+          "examples": [
+            "He's been off the sauce since January.",
+            "After the divorce he hit the sauce pretty hard.",
+            "Her uncle finally gave up the sauce for good."
+          ]
+        }
+      ],
+      "русский": "соус; спиртное, выпивка (разг.)",
       "plural": "sauces",
       "countability": "countable, and uncountable as food",
       "contrast": "SAWS has no r in it — keep it apart from source (SORS)."
@@ -1134,14 +1701,43 @@
       "term": "gravy",
       "ipa": "/ˈɡreɪvi/",
       "respell": "GRAY-vee",
-      "meaning": "A sauce made from the juices of cooked meat. ---",
+      "meaning": "Gravy has 2 distinct senses.",
       "examples": [
         "Pour the gravy over the potatoes.",
         "The turkey came with gravy and stuffing.",
-        "She makes gravy from scratch."
+        "She makes gravy from scratch.",
+        "We covered our costs in the first hour, and the rest was gravy.",
+        "Any bonus after that is pure gravy.",
+        "For a rookie, playoff money is all gravy."
       ],
-      "senses": [],
-      "русский": "подливка, мясной соус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sauce made from the juices of cooked meat",
+          "body": [
+            "(подливка, мясной соус)"
+          ],
+          "examples": [
+            "Pour the gravy over the potatoes.",
+            "The turkey came with gravy and stuffing.",
+            "She makes gravy from scratch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money or benefit that comes easily on top of what you already have",
+          "body": [
+            "(лёгкая нажива, приятное дополнение)",
+            "---"
+          ],
+          "examples": [
+            "We covered our costs in the first hour, and the rest was gravy.",
+            "Any bonus after that is pure gravy.",
+            "For a rookie, playoff money is all gravy."
+          ]
+        }
+      ],
+      "русский": "подливка, мясной соус; лёгкая нажива, приятное дополнение",
       "countability": "uncountable"
     },
     {
@@ -1382,14 +1978,43 @@
       "term": "filling",
       "ipa": "/ˈfɪlɪŋ/",
       "respell": "FIL-ing",
-      "meaning": "The food put inside a pie, sandwich, or pastry. ---",
+      "meaning": "Filling has 2 distinct senses.",
       "examples": [
         "The pie filling was too runny.",
         "What filling do you want in your omelet?",
-        "These pastries have three different fillings."
+        "These pastries have three different fillings.",
+        "I need a filling in one of my back teeth.",
+        "One of my old fillings fell out over the weekend.",
+        "The dentist replaced a silver filling with a white one."
       ],
-      "senses": [],
-      "русский": "начинка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The food put inside a pie, sandwich, or pastry",
+          "body": [
+            "(начинка)"
+          ],
+          "examples": [
+            "The pie filling was too runny.",
+            "What filling do you want in your omelet?",
+            "These pastries have three different fillings."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hard material a dentist puts into a drilled tooth",
+          "body": [
+            "(пломба)",
+            "---"
+          ],
+          "examples": [
+            "I need a filling in one of my back teeth.",
+            "One of my old fillings fell out over the weekend.",
+            "The dentist replaced a silver filling with a white one."
+          ]
+        }
+      ],
+      "русский": "начинка; пломба",
       "plural": "fillings",
       "countability": "countable"
     },
@@ -1441,28 +2066,86 @@
       "term": "pork",
       "ipa": "/pɔːrk/",
       "respell": "PORK",
-      "meaning": "Meat from a pig. ---",
+      "meaning": "Pork has 2 distinct senses.",
       "examples": [
         "We're having pork chops tonight.",
         "The pork needs another ten minutes.",
-        "Roast pork is her specialty."
+        "Roast pork is her specialty.",
+        "Critics called the highway money pure pork.",
+        "The bill was loaded with pork for a dozen districts.",
+        "Every senator claims to hate pork until it comes home."
       ],
-      "senses": [],
-      "русский": "свинина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Meat from a pig",
+          "body": [
+            "(свинина)"
+          ],
+          "examples": [
+            "We're having pork chops tonight.",
+            "The pork needs another ten minutes.",
+            "Roast pork is her specialty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Government money spent on local projects mainly to please voters",
+          "body": [
+            "(бюджетные траты в угоду избирателям, «кормушка»)",
+            "---"
+          ],
+          "examples": [
+            "Critics called the highway money pure pork.",
+            "The bill was loaded with pork for a dozen districts.",
+            "Every senator claims to hate pork until it comes home."
+          ]
+        }
+      ],
+      "русский": "свинина; бюджетные траты в угоду избирателям, «кормушка»",
       "countability": "uncountable"
     },
     {
       "term": "ham",
       "ipa": "/hæm/",
       "respell": "HAM",
-      "meaning": "Salted or smoked meat from the leg of a pig. ---",
+      "meaning": "Ham has 2 distinct senses.",
       "examples": [
         "She sliced the ham thin.",
         "We had ham for Easter dinner.",
-        "There's ham and cheese in the fridge."
+        "There's ham and cheese in the fridge.",
+        "My little brother is a total ham in front of the camera.",
+        "The old ham milked his death scene for a full minute.",
+        "Put those two hams on a stage and nobody else gets a word."
       ],
-      "senses": [],
-      "русский": "ветчина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Salted or smoked meat from the leg of a pig",
+          "body": [
+            "(ветчина)"
+          ],
+          "examples": [
+            "She sliced the ham thin.",
+            "We had ham for Easter dinner.",
+            "There's ham and cheese in the fridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A performer who overacts, or anyone who plays to an audience",
+          "body": [
+            "(актёр, играющий наигранно; позёр)",
+            "---"
+          ],
+          "examples": [
+            "My little brother is a total ham in front of the camera.",
+            "The old ham milked his death scene for a full minute.",
+            "Put those two hams on a stage and nobody else gets a word."
+          ]
+        }
+      ],
+      "русский": "ветчина; актёр, играющий наигранно; позёр",
       "countability": "uncountable"
     },
     {
@@ -1772,14 +2455,58 @@
       "term": "wrap",
       "ipa": "/ræp/",
       "respell": "RAP",
-      "meaning": "A sandwich made by rolling a filling inside a soft flatbread. ---",
+      "meaning": "Wrap has 3 distinct senses.",
       "examples": [
         "He got a chicken wrap for lunch.",
         "The wraps are cheaper than the sandwiches.",
-        "She cut the wrap in half."
+        "She cut the wrap in half.",
+        "Cover the bowl with plastic wrap.",
+        "We ran out of gift wrap on Christmas Eve.",
+        "Bubble wrap kept the glasses from breaking.",
+        "The director called it a wrap at midnight.",
+        "That's a wrap on season three.",
+        "The cast had a wrap party on Friday."
       ],
-      "senses": [],
-      "русский": "ролл, лаваш с начинкой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sandwich made by rolling a filling inside a soft flatbread",
+          "body": [
+            "(ролл, лаваш с начинкой)"
+          ],
+          "examples": [
+            "He got a chicken wrap for lunch.",
+            "The wraps are cheaper than the sandwiches.",
+            "She cut the wrap in half."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Thin material such as plastic or paper used to cover food or gifts",
+          "body": [
+            "(плёнка, обёртка (упаковочный материал))"
+          ],
+          "examples": [
+            "Cover the bowl with plastic wrap.",
+            "We ran out of gift wrap on Christmas Eve.",
+            "Bubble wrap kept the glasses from breaking."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The end of filming on a movie or a scene",
+          "body": [
+            "(завершение съёмок)",
+            "---"
+          ],
+          "examples": [
+            "The director called it a wrap at midnight.",
+            "That's a wrap on season three.",
+            "The cast had a wrap party on Friday."
+          ]
+        }
+      ],
+      "русский": "ролл, лаваш с начинкой; плёнка, обёртка (упаковочный материал); завершение съёмок",
       "plural": "wraps",
       "countability": "countable",
       "contrast": "The w is silent — RAP, exactly like the music."
@@ -1847,14 +2574,43 @@
       "term": "salsa",
       "ipa": "/ˈsɑːlsə/",
       "respell": "SAHL-suh",
-      "meaning": "A spicy sauce of chopped tomatoes, onions, and peppers. ---",
+      "meaning": "Salsa has 2 distinct senses.",
       "examples": [
         "Put the salsa on the table.",
         "This salsa is way too hot.",
-        "She makes her own salsa in the summer."
+        "She makes her own salsa in the summer.",
+        "They take salsa lessons on Thursday nights.",
+        "The band played salsa until two in the morning.",
+        "She learned to dance salsa in Miami."
       ],
-      "senses": [],
-      "русский": "сальса (соус)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A spicy sauce of chopped tomatoes, onions, and peppers",
+          "body": [
+            "(сальса (соус))"
+          ],
+          "examples": [
+            "Put the salsa on the table.",
+            "This salsa is way too hot.",
+            "She makes her own salsa in the summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lively Latin American dance, or the music played for it",
+          "body": [
+            "(сальса (танец и музыка))",
+            "---"
+          ],
+          "examples": [
+            "They take salsa lessons on Thursday nights.",
+            "The band played salsa until two in the morning.",
+            "She learned to dance salsa in Miami."
+          ]
+        }
+      ],
+      "русский": "сальса (соус); сальса (танец и музыка)",
       "countability": "uncountable"
     },
     {
@@ -2056,14 +2812,73 @@
       "term": "chip",
       "ipa": "/tʃɪp/",
       "respell": "CHIP",
-      "meaning": "A thin crisp slice of potato fried and eaten as a snack. ---",
+      "meaning": "Chip has 4 distinct senses.",
       "examples": [
         "He opened a bag of chips.",
         "There's salsa but no chips.",
-        "One chip fell behind the couch."
+        "One chip fell behind the couch.",
+        "Wood chips cover the whole playground.",
+        "A chip of paint flaked off the door frame.",
+        "The recipe calls for a cup of chocolate chips.",
+        "The new chip runs twice as fast.",
+        "A shortage of chips slowed car production for a year.",
+        "This card has a chip you tap at the register.",
+        "He pushed a stack of chips into the middle of the table.",
+        "Each chip is worth twenty-five dollars.",
+        "She cashed in her chips and went to bed."
       ],
-      "senses": [],
-      "русский": "чипсы (амер.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin crisp slice of potato fried and eaten as a snack",
+          "body": [
+            "(чипсы (амер.))"
+          ],
+          "examples": [
+            "He opened a bag of chips.",
+            "There's salsa but no chips.",
+            "One chip fell behind the couch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small piece broken or cut off something larger",
+          "body": [
+            "(щепка, кусочек, осколок)"
+          ],
+          "examples": [
+            "Wood chips cover the whole playground.",
+            "A chip of paint flaked off the door frame.",
+            "The recipe calls for a cup of chocolate chips."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A tiny piece of silicon holding the circuits that run a computer or phone",
+          "body": [
+            "(чип, микросхема)"
+          ],
+          "examples": [
+            "The new chip runs twice as fast.",
+            "A shortage of chips slowed car production for a year.",
+            "This card has a chip you tap at the register."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small round plastic counter used instead of money in gambling",
+          "body": [
+            "(фишка (в казино))",
+            "---"
+          ],
+          "examples": [
+            "He pushed a stack of chips into the middle of the table.",
+            "Each chip is worth twenty-five dollars.",
+            "She cashed in her chips and went to bed."
+          ]
+        }
+      ],
+      "русский": "чипсы (амер.); щепка, кусочек, осколок; чип, микросхема; фишка (в казино)",
       "plural": "chips",
       "countability": "countable",
       "contrast": "American chips are British crisps; what the British call chips, Americans call fries."
@@ -2163,14 +2978,58 @@
       "term": "juice",
       "ipa": "/dʒuːs/",
       "respell": "JOOS",
-      "meaning": "The liquid squeezed from fruit or vegetables. ---",
+      "meaning": "Juice has 3 distinct senses.",
       "examples": [
         "Pour yourself some orange juice.",
         "The juice is in the fridge door.",
-        "She squeezed the juice of two lemons."
+        "She squeezed the juice of two lemons.",
+        "My phone is out of juice.",
+        "The storm knocked out the juice to half the block.",
+        "The old drill still has plenty of juice.",
+        "Let the roast rest so the juices settle.",
+        "Spoon the pan juices over the chicken.",
+        "The steak was still pink, with juices pooling on the plate."
       ],
-      "senses": [],
-      "русский": "сок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The liquid squeezed from fruit or vegetables",
+          "body": [
+            "(сок)"
+          ],
+          "examples": [
+            "Pour yourself some orange juice.",
+            "The juice is in the fridge door.",
+            "She squeezed the juice of two lemons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Electric power or fuel (informal)",
+          "body": [
+            "(заряд, электричество (разг.))"
+          ],
+          "examples": [
+            "My phone is out of juice.",
+            "The storm knocked out the juice to half the block.",
+            "The old drill still has plenty of juice."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The liquid that runs out of meat as it cooks",
+          "body": [
+            "(мясной сок)",
+            "---"
+          ],
+          "examples": [
+            "Let the roast rest so the juices settle.",
+            "Spoon the pan juices over the chicken.",
+            "The steak was still pink, with juices pooling on the plate."
+          ]
+        }
+      ],
+      "русский": "сок; заряд, электричество (разг.); мясной сок",
       "countability": "uncountable"
     },
     {
@@ -2191,14 +3050,43 @@
       "term": "soda",
       "ipa": "/ˈsoʊdə/",
       "respell": "SOH-duh",
-      "meaning": "A sweet fizzy soft drink. ---",
+      "meaning": "Soda has 2 distinct senses.",
       "examples": [
         "He drinks too much soda.",
         "Grab a couple of sodas from the cooler.",
-        "The soda went flat."
+        "The soda went flat.",
+        "The recipe calls for a teaspoon of soda.",
+        "Baking soda takes the smell out of the fridge.",
+        "We were out of soda, so the biscuits came out flat."
       ],
-      "senses": [],
-      "русский": "газировка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sweet fizzy soft drink",
+          "body": [
+            "(газировка)"
+          ],
+          "examples": [
+            "He drinks too much soda.",
+            "Grab a couple of sodas from the cooler.",
+            "The soda went flat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A white powder used to make baked goods rise",
+          "body": [
+            "(пищевая сода)",
+            "---"
+          ],
+          "examples": [
+            "The recipe calls for a teaspoon of soda.",
+            "Baking soda takes the smell out of the fridge.",
+            "We were out of soda, so the biscuits came out flat."
+          ]
+        }
+      ],
+      "русский": "газировка; пищевая сода",
       "plural": "sodas",
       "countability": "countable, and uncountable as a substance",
       "contrast": "Called soda or pop in the US, a fizzy drink in Britain."

@@ -6,14 +6,58 @@
       "term": "plant",
       "ipa": "/plænt/",
       "respell": "PLANT",
-      "meaning": "A living thing that grows in soil and usually has leaves and roots. ---",
+      "meaning": "Plant has 3 distinct senses.",
       "examples": [
         "I killed every plant I owned until somebody gave me a pothos.",
         "She waters the plants on Sunday mornings.",
-        "That plant needs a lot more light than it's getting."
+        "That plant needs a lot more light than it's getting.",
+        "The assembly plant employs two thousand people.",
+        "A power plant sits on the far side of the river.",
+        "The plant shuts down for two weeks every July.",
+        "The heckler turned out to be a plant.",
+        "Police used a plant inside the gang.",
+        "Half the audience suspected the volunteer was a plant."
       ],
-      "senses": [],
-      "русский": "растение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A living thing that grows in soil and usually has leaves and roots",
+          "body": [
+            "(растение)"
+          ],
+          "examples": [
+            "I killed every plant I owned until somebody gave me a pothos.",
+            "She waters the plants on Sunday mornings.",
+            "That plant needs a lot more light than it's getting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A factory or a building where power is produced or goods are made",
+          "body": [
+            "(завод; электростанция)"
+          ],
+          "examples": [
+            "The assembly plant employs two thousand people.",
+            "A power plant sits on the far side of the river.",
+            "The plant shuts down for two weeks every July."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person secretly placed in a group to spy on it or influence it",
+          "body": [
+            "(подставное лицо, засланный человек)",
+            "---"
+          ],
+          "examples": [
+            "The heckler turned out to be a plant.",
+            "Police used a plant inside the gang.",
+            "Half the audience suspected the volunteer was a plant."
+          ]
+        }
+      ],
+      "русский": "растение; завод; электростанция; подставное лицо, засланный человек",
       "plural": "plants",
       "countability": "countable"
     },
@@ -21,14 +65,43 @@
       "term": "tree",
       "ipa": "/triː/",
       "respell": "TREE",
-      "meaning": "A tall plant with a woody trunk and branches. ---",
+      "meaning": "Tree has 2 distinct senses.",
       "examples": [
         "There's a huge oak tree in the front yard.",
         "They planted two trees the year their daughter was born.",
-        "The storm knocked a tree down across the road."
+        "The storm knocked a tree down across the road.",
+        "She traced the family tree back to 1820.",
+        "The lawyer drew a tree showing who inherits what.",
+        "Each choice adds another branch to the decision tree."
       ],
-      "senses": [],
-      "русский": "дерево",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tall plant with a woody trunk and branches",
+          "body": [
+            "(дерево)"
+          ],
+          "examples": [
+            "There's a huge oak tree in the front yard.",
+            "They planted two trees the year their daughter was born.",
+            "The storm knocked a tree down across the road."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A diagram that branches out to show how things are connected",
+          "body": [
+            "(древовидная схема (родословное древо))",
+            "---"
+          ],
+          "examples": [
+            "She traced the family tree back to 1820.",
+            "The lawyer drew a tree showing who inherits what.",
+            "Each choice adds another branch to the decision tree."
+          ]
+        }
+      ],
+      "русский": "дерево; древовидная схема (родословное древо)",
       "plural": "trees",
       "countability": "countable"
     },
@@ -111,14 +184,43 @@
       "term": "bud",
       "ipa": "/bʌd/",
       "respell": "BUD",
-      "meaning": "A small swelling on a plant that will open into a leaf or flower. ---",
+      "meaning": "Bud has 2 distinct senses.",
       "examples": [
         "The buds are already showing on the lilac.",
         "Don't pick it while it's still a bud.",
-        "Warm weather brought the buds out early this year."
+        "Warm weather brought the buds out early this year.",
+        "Hey, bud, you dropped your wallet.",
+        "Thanks, bud — I owe you one.",
+        "Watch where you're going, bud."
       ],
-      "senses": [],
-      "русский": "почка, бутон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small swelling on a plant that will open into a leaf or flower",
+          "body": [
+            "(почка, бутон)"
+          ],
+          "examples": [
+            "The buds are already showing on the lilac.",
+            "Don't pick it while it's still a bud.",
+            "Warm weather brought the buds out early this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A friendly word for a man or boy, used when speaking to him",
+          "body": [
+            "(приятель, дружище (обращение))",
+            "---"
+          ],
+          "examples": [
+            "Hey, bud, you dropped your wallet.",
+            "Thanks, bud — I owe you one.",
+            "Watch where you're going, bud."
+          ]
+        }
+      ],
+      "русский": "почка, бутон; приятель, дружище (обращение)",
       "plural": "buds",
       "countability": "countable"
     },
@@ -171,14 +273,43 @@
       "term": "nectar",
       "ipa": "/ˈnɛktər/",
       "respell": "NEK-tur",
-      "meaning": "The sweet liquid inside flowers that insects and birds feed on. ---",
+      "meaning": "Nectar has 2 distinct senses.",
       "examples": [
         "Hummingbirds drink the nectar out of those red flowers.",
         "We fill the feeder with sugar water instead of real nectar.",
-        "Bees turn nectar into honey."
+        "Bees turn nectar into honey.",
+        "I grabbed a can of peach nectar.",
+        "The recipe calls for apricot nectar.",
+        "They serve mango nectar with breakfast."
       ],
-      "senses": [],
-      "русский": "нектар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sweet liquid inside flowers that insects and birds feed on",
+          "body": [
+            "(нектар)"
+          ],
+          "examples": [
+            "Hummingbirds drink the nectar out of those red flowers.",
+            "We fill the feeder with sugar water instead of real nectar.",
+            "Bees turn nectar into honey."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick, sweet fruit juice sold as a drink",
+          "body": [
+            "(нектар (густой фруктовый сок))",
+            "---"
+          ],
+          "examples": [
+            "I grabbed a can of peach nectar.",
+            "The recipe calls for apricot nectar.",
+            "They serve mango nectar with breakfast."
+          ]
+        }
+      ],
+      "русский": "нектар; нектар (густой фруктовый сок)",
       "countability": "uncountable"
     },
     {
@@ -215,14 +346,43 @@
       "term": "sap",
       "ipa": "/sæp/",
       "respell": "SAP",
-      "meaning": "The liquid that carries water and food through a plant or tree. ---",
+      "meaning": "Sap has 2 distinct senses.",
       "examples": [
         "Maple sap boils down into syrup.",
         "There's sap all over the windshield.",
-        "Pine sap is almost impossible to get off your hands."
+        "Pine sap is almost impossible to get off your hands.",
+        "Some poor sap paid full price for it.",
+        "Don't be a sap and lend him money again.",
+        "He felt like a sap for believing the story."
       ],
-      "senses": [],
-      "русский": "сок (растения), смола",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The liquid that carries water and food through a plant or tree",
+          "body": [
+            "(сок (растения), смола)"
+          ],
+          "examples": [
+            "Maple sap boils down into syrup.",
+            "There's sap all over the windshield.",
+            "Pine sap is almost impossible to get off your hands."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A foolish person who is easy to fool, in informal speech",
+          "body": [
+            "(простофиля, простак)",
+            "---"
+          ],
+          "examples": [
+            "Some poor sap paid full price for it.",
+            "Don't be a sap and lend him money again.",
+            "He felt like a sap for believing the story."
+          ]
+        }
+      ],
+      "русский": "сок (растения), смола; простофиля, простак",
       "countability": "uncountable"
     },
     {
@@ -244,14 +404,43 @@
       "term": "stump",
       "ipa": "/stʌmp/",
       "respell": "STUMP",
-      "meaning": "The short part of a trunk left in the ground after a tree is cut down. ---",
+      "meaning": "Stump has 2 distinct senses.",
       "examples": [
         "We're still trying to get that stump out.",
         "He sat down on a stump to rest.",
-        "There are three stumps left from the old orchard."
+        "There are three stumps left from the old orchard.",
+        "The senator is back on the stump this week.",
+        "He tried out a new line on the stump.",
+        "Her stump speech has barely changed since March."
       ],
-      "senses": [],
-      "русский": "пень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The short part of a trunk left in the ground after a tree is cut down",
+          "body": [
+            "(пень)"
+          ],
+          "examples": [
+            "We're still trying to get that stump out.",
+            "He sat down on a stump to rest.",
+            "There are three stumps left from the old orchard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The round of speeches a political candidate gives while campaigning",
+          "body": [
+            "(предвыборная агитация (поездки с речами))",
+            "---"
+          ],
+          "examples": [
+            "The senator is back on the stump this week.",
+            "He tried out a new line on the stump.",
+            "Her stump speech has barely changed since March."
+          ]
+        }
+      ],
+      "русский": "пень; предвыборная агитация (поездки с речами)",
       "plural": "stumps",
       "countability": "countable"
     },
@@ -259,14 +448,43 @@
       "term": "log",
       "ipa": "/lɔːɡ/",
       "respell": "LAWG",
-      "meaning": "A thick piece of a tree trunk or branch that has been cut. ---",
+      "meaning": "Log has 2 distinct senses.",
       "examples": [
         "Throw another log on the fire.",
         "We split logs all afternoon.",
-        "A rotten log was blocking the trail."
+        "A rotten log was blocking the trail.",
+        "The captain wrote the storm up in the ship's log.",
+        "Keep a log of every mile you drive for work.",
+        "Her flight log shows two hundred hours."
       ],
-      "senses": [],
-      "русский": "бревно, полено",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick piece of a tree trunk or branch that has been cut",
+          "body": [
+            "(бревно, полено)"
+          ],
+          "examples": [
+            "Throw another log on the fire.",
+            "We split logs all afternoon.",
+            "A rotten log was blocking the trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A written record of trips, hours, or events kept in order",
+          "body": [
+            "(журнал (записей), бортовой журнал)",
+            "---"
+          ],
+          "examples": [
+            "The captain wrote the storm up in the ship's log.",
+            "Keep a log of every mile you drive for work.",
+            "Her flight log shows two hundred hours."
+          ]
+        }
+      ],
+      "русский": "бревно, полено; журнал (записей), бортовой журнал",
       "plural": "logs",
       "countability": "countable"
     },
@@ -303,14 +521,43 @@
       "term": "canopy",
       "ipa": "/ˈkænəpi/",
       "respell": "KAN-uh-pee",
-      "meaning": "The layer of leaves and branches formed by the tops of trees. ---",
+      "meaning": "Canopy has 2 distinct senses.",
       "examples": [
         "Almost no light gets through the canopy.",
         "Monkeys spend their whole lives up in the canopy.",
-        "A hole opened in the canopy where the tree came down."
+        "A hole opened in the canopy where the tree came down.",
+        "A striped canopy shades the tables outside the cafe.",
+        "The bed had a lace canopy over it.",
+        "Guests waited under the hotel canopy until the rain let up."
       ],
-      "senses": [],
-      "русский": "полог леса, крона",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The layer of leaves and branches formed by the tops of trees",
+          "body": [
+            "(полог леса, крона)"
+          ],
+          "examples": [
+            "Almost no light gets through the canopy.",
+            "Monkeys spend their whole lives up in the canopy.",
+            "A hole opened in the canopy where the tree came down."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cloth cover fixed above a bed, a window, or an entrance",
+          "body": [
+            "(навес, балдахин)",
+            "---"
+          ],
+          "examples": [
+            "A striped canopy shades the tables outside the cafe.",
+            "The bed had a lace canopy over it.",
+            "Guests waited under the hotel canopy until the rain let up."
+          ]
+        }
+      ],
+      "русский": "полог леса, крона; навес, балдахин",
       "plural": "canopies",
       "countability": "countable"
     },
@@ -347,14 +594,43 @@
       "term": "weed",
       "ipa": "/wiːd/",
       "respell": "WEED",
-      "meaning": "A wild plant growing somewhere it isn't wanted. ---",
+      "meaning": "Weed has 2 distinct senses.",
       "examples": [
         "The weeds were back within a week.",
         "I pulled one weed and found twenty more under it.",
-        "Nothing kills those weeds for good."
+        "Nothing kills those weeds for good.",
+        "The whole car smelled like weed.",
+        "Weed is legal in a lot of states now.",
+        "He quit smoking weed in college."
       ],
-      "senses": [],
-      "русский": "сорняк",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wild plant growing somewhere it isn't wanted",
+          "body": [
+            "(сорняк)"
+          ],
+          "examples": [
+            "The weeds were back within a week.",
+            "I pulled one weed and found twenty more under it.",
+            "Nothing kills those weeds for good."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slang word for marijuana",
+          "body": [
+            "(травка, марихуана (сленг))",
+            "---"
+          ],
+          "examples": [
+            "The whole car smelled like weed.",
+            "Weed is legal in a lot of states now.",
+            "He quit smoking weed in college."
+          ]
+        }
+      ],
+      "русский": "сорняк; травка, марихуана (сленг)",
       "plural": "weeds",
       "countability": "countable"
     },
@@ -583,14 +859,43 @@
       "term": "spade",
       "ipa": "/speɪd/",
       "respell": "SPAYD",
-      "meaning": "A digging tool with a flat blade, used for turning over soil. ---",
+      "meaning": "Spade has 2 distinct senses.",
       "examples": [
         "Turn the bed over with a spade before you plant.",
         "A spade cuts through roots better than a shovel does.",
-        "He sharpened both spades over the winter."
+        "He sharpened both spades over the winter.",
+        "He led with the ace of spades.",
+        "Spades were trump for that hand.",
+        "She had four spades and nothing else worth playing."
       ],
-      "senses": [],
-      "русский": "лопата (штыковая), заступ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A digging tool with a flat blade, used for turning over soil",
+          "body": [
+            "(лопата (штыковая), заступ)"
+          ],
+          "examples": [
+            "Turn the bed over with a spade before you plant.",
+            "A spade cuts through roots better than a shovel does.",
+            "He sharpened both spades over the winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A playing card of the suit marked with black pointed leaf shapes",
+          "body": [
+            "(пика (карточная масть))",
+            "---"
+          ],
+          "examples": [
+            "He led with the ace of spades.",
+            "Spades were trump for that hand.",
+            "She had four spades and nothing else worth playing."
+          ]
+        }
+      ],
+      "русский": "лопата (штыковая), заступ; пика (карточная масть)",
       "plural": "spades",
       "countability": "countable"
     },
@@ -613,14 +918,43 @@
       "term": "trowel",
       "ipa": "/ˈtraʊəl/",
       "respell": "TROW-uhl",
-      "meaning": "A small hand tool with a curved blade for digging in a garden. ---",
+      "meaning": "Trowel has 2 distinct senses.",
       "examples": [
         "She dug all the holes with a trowel.",
         "I left the trowel out in the rain again.",
-        "You only need a trowel for something that small."
+        "You only need a trowel for something that small.",
+        "The bricklayer scooped mortar with his trowel.",
+        "Smooth the patch with a wide trowel.",
+        "He cleaned the trowel before the cement dried."
       ],
-      "senses": [],
-      "русский": "садовый совок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small hand tool with a curved blade for digging in a garden",
+          "body": [
+            "(садовый совок)"
+          ],
+          "examples": [
+            "She dug all the holes with a trowel.",
+            "I left the trowel out in the rain again.",
+            "You only need a trowel for something that small."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat-bladed hand tool used to spread mortar, cement, or plaster",
+          "body": [
+            "(мастерок, кельма)",
+            "---"
+          ],
+          "examples": [
+            "The bricklayer scooped mortar with his trowel.",
+            "Smooth the patch with a wide trowel.",
+            "He cleaned the trowel before the cement dried."
+          ]
+        }
+      ],
+      "русский": "садовый совок; мастерок, кельма",
       "plural": "trowels",
       "countability": "countable"
     },
@@ -886,14 +1220,43 @@
       "term": "violet",
       "ipa": "/ˈvaɪələt/",
       "respell": "VY-uh-lit",
-      "meaning": "A small purple or blue flower that grows low to the ground. ---",
+      "meaning": "Violet has 2 distinct senses.",
       "examples": [
         "Violets spread through the whole lawn.",
         "She keeps an African violet on the windowsill.",
-        "A few violets came up between the stones."
+        "A few violets came up between the stones.",
+        "The sky turned a deep violet after sunset.",
+        "The rainbow runs from red through blue to violet.",
+        "She painted the front door a soft violet."
       ],
-      "senses": [],
-      "русский": "фиалка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small purple or blue flower that grows low to the ground",
+          "body": [
+            "(фиалка)"
+          ],
+          "examples": [
+            "Violets spread through the whole lawn.",
+            "She keeps an African violet on the windowsill.",
+            "A few violets came up between the stones."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bluish purple color",
+          "body": [
+            "(фиолетовый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The sky turned a deep violet after sunset.",
+            "The rainbow runs from red through blue to violet.",
+            "She painted the front door a soft violet."
+          ]
+        }
+      ],
+      "русский": "фиалка; фиолетовый цвет",
       "plural": "violets",
       "countability": "countable"
     },
@@ -931,14 +1294,43 @@
       "term": "lilac",
       "ipa": "/ˈlaɪlæk/",
       "respell": "LY-lak",
-      "meaning": "A bush with clusters of small purple or white flowers and a strong scent. ---",
+      "meaning": "Lilac has 2 distinct senses.",
       "examples": [
         "The lilac by the back door blooms for about two weeks.",
         "You can smell the lilacs from the street.",
-        "She cut an armful of lilac for the table."
+        "She cut an armful of lilac for the table.",
+        "The bedroom walls are a soft lilac.",
+        "She wore lilac to the wedding.",
+        "The sky turned lilac just after sunset."
       ],
-      "senses": [],
-      "русский": "сирень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bush with clusters of small purple or white flowers and a strong scent",
+          "body": [
+            "(сирень)"
+          ],
+          "examples": [
+            "The lilac by the back door blooms for about two weeks.",
+            "You can smell the lilacs from the street.",
+            "She cut an armful of lilac for the table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pale purple color",
+          "body": [
+            "(сиреневый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The bedroom walls are a soft lilac.",
+            "She wore lilac to the wedding.",
+            "The sky turned lilac just after sunset."
+          ]
+        }
+      ],
+      "русский": "сирень; сиреневый цвет",
       "plural": "lilacs",
       "countability": "countable"
     },
@@ -1021,14 +1413,43 @@
       "term": "bouquet",
       "ipa": "/boʊˈkeɪ/",
       "respell": "boh-KAY",
-      "meaning": "A bunch of flowers arranged and tied together. ---",
+      "meaning": "Bouquet has 2 distinct senses.",
       "examples": [
         "She caught the bouquet at the wedding.",
         "He showed up with a bouquet and an apology.",
-        "They deliver bouquets the same day."
+        "They deliver bouquets the same day.",
+        "This red has a bouquet of cherry and black pepper.",
+        "He swirled the glass and breathed in the bouquet.",
+        "Aging in oak gives the wine a richer bouquet."
       ],
-      "senses": [],
-      "русский": "букет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bunch of flowers arranged and tied together",
+          "body": [
+            "(букет)"
+          ],
+          "examples": [
+            "She caught the bouquet at the wedding.",
+            "He showed up with a bouquet and an apology.",
+            "They deliver bouquets the same day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The smell of a wine",
+          "body": [
+            "(букет (аромат вина))",
+            "---"
+          ],
+          "examples": [
+            "This red has a bouquet of cherry and black pepper.",
+            "He swirled the glass and breathed in the bouquet.",
+            "Aging in oak gives the wine a richer bouquet."
+          ]
+        }
+      ],
+      "русский": "букет; букет (аромат вина)",
       "plural": "bouquets",
       "countability": "countable",
       "contrast": "The t is silent and the stress is on the second syllable: boh-KAY."

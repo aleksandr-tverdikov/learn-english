@@ -6,14 +6,43 @@
       "term": "chair",
       "ipa": "/tʃɛr/",
       "respell": "CHAIR",
-      "meaning": "A seat for one person, usually with a back and four legs. ---",
+      "meaning": "Chair has 2 distinct senses.",
       "examples": [
         "Pull up a chair and sit with us.",
         "We need two more chairs for the dinner table.",
-        "He tipped his chair back and put his feet up."
+        "He tipped his chair back and put his feet up.",
+        "The chair called the meeting to order.",
+        "She was elected chair of the school board.",
+        "He is the chair of the biology department."
       ],
-      "senses": [],
-      "русский": "стул; кресло",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A seat for one person, usually with a back and four legs",
+          "body": [
+            "(стул; кресло)"
+          ],
+          "examples": [
+            "Pull up a chair and sit with us.",
+            "We need two more chairs for the dinner table.",
+            "He tipped his chair back and put his feet up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person who leads a meeting, a committee, or a university department",
+          "body": [
+            "(председатель; заведующий кафедрой)",
+            "---"
+          ],
+          "examples": [
+            "The chair called the meeting to order.",
+            "She was elected chair of the school board.",
+            "He is the chair of the biology department."
+          ]
+        }
+      ],
+      "русский": "стул; кресло; председатель; заведующий кафедрой",
       "plural": "chairs",
       "countability": "countable"
     },
@@ -21,14 +50,43 @@
       "term": "table",
       "ipa": "/ˈteɪbəl/",
       "respell": "TAY-buhl",
-      "meaning": "A piece of furniture with a flat top on legs. ---",
+      "meaning": "Table has 2 distinct senses.",
       "examples": [
         "Set the table — dinner's almost ready.",
         "All the tables by the window were taken.",
-        "She left her keys on the kitchen table."
+        "She left her keys on the kitchen table.",
+        "The report includes a table of monthly sales.",
+        "Check the table on page 12 for the exact figures.",
+        "She turned the raw data into a simple table."
       ],
-      "senses": [],
-      "русский": "стол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of furniture with a flat top on legs",
+          "body": [
+            "(стол)"
+          ],
+          "examples": [
+            "Set the table — dinner's almost ready.",
+            "All the tables by the window were taken.",
+            "She left her keys on the kitchen table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of facts or numbers arranged in rows and columns",
+          "body": [
+            "(таблица)",
+            "---"
+          ],
+          "examples": [
+            "The report includes a table of monthly sales.",
+            "Check the table on page 12 for the exact figures.",
+            "She turned the raw data into a simple table."
+          ]
+        }
+      ],
+      "русский": "стол; таблица",
       "plural": "tables",
       "countability": "countable"
     },
@@ -257,14 +315,73 @@
       "term": "bench",
       "ipa": "/bɛntʃ/",
       "respell": "BENCH",
-      "meaning": "A long seat for several people, usually without a back. ---",
+      "meaning": "Bench has 4 distinct senses.",
       "examples": [
         "We ate lunch on a bench in the park.",
         "The benches in the hallway were bolted to the wall.",
-        "There's a storage bench by the back door for shoes."
+        "There's a storage bench by the back door for shoes.",
+        "He spent most of the season on the bench.",
+        "Our bench is deeper than theirs this year.",
+        "The coach cleared the bench in the last minute.",
+        "The lawyers were called to approach the bench.",
+        "She served on the federal bench for twenty years.",
+        "The bench has ruled against the city twice.",
+        "He clamped the board to the bench and started sanding.",
+        "Her tools were laid out neatly on the bench.",
+        "The engine sat on a bench at the back of the shop."
       ],
-      "senses": [],
-      "русский": "скамейка, лавка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long seat for several people, usually without a back",
+          "body": [
+            "(скамейка, лавка)"
+          ],
+          "examples": [
+            "We ate lunch on a bench in the park.",
+            "The benches in the hallway were bolted to the wall.",
+            "There's a storage bench by the back door for shoes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The seat where substitute players wait, or the substitutes themselves",
+          "body": [
+            "(скамейка запасных; запасные игроки)"
+          ],
+          "examples": [
+            "He spent most of the season on the bench.",
+            "Our bench is deeper than theirs this year.",
+            "The coach cleared the bench in the last minute."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A judge's place in court, or judges taken as a group",
+          "body": [
+            "(судейское место; судьи (как институт))"
+          ],
+          "examples": [
+            "The lawyers were called to approach the bench.",
+            "She served on the federal bench for twenty years.",
+            "The bench has ruled against the city twice."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A long, sturdy table for working with tools or materials",
+          "body": [
+            "(верстак, рабочий стол)",
+            "---"
+          ],
+          "examples": [
+            "He clamped the board to the bench and started sanding.",
+            "Her tools were laid out neatly on the bench.",
+            "The engine sat on a bench at the back of the shop."
+          ]
+        }
+      ],
+      "русский": "скамейка, лавка; скамейка запасных; запасные игроки; судейское место; судьи (как институт); верстак, рабочий стол",
       "plural": "benches",
       "countability": "countable"
     },
@@ -317,14 +434,58 @@
       "term": "seat",
       "ipa": "/siːt/",
       "respell": "SEET",
-      "meaning": "The part of a chair you sit on, or a place to sit. ---",
+      "meaning": "Seat has 3 distinct senses.",
       "examples": [
         "The seat on that chair is starting to sag.",
         "Save me a seat if you get there first.",
-        "All the good seats were gone by seven."
+        "All the good seats were gone by seven.",
+        "She won a seat in the state senate.",
+        "The party lost twelve seats in the last election.",
+        "He holds a seat on the school board.",
+        "Washington is the seat of the federal government.",
+        "The county seat is thirty miles north of here.",
+        "For centuries the town was the seat of the local bishop."
       ],
-      "senses": [],
-      "русский": "сиденье; место",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a chair you sit on, or a place to sit",
+          "body": [
+            "(сиденье; место)"
+          ],
+          "examples": [
+            "The seat on that chair is starting to sag.",
+            "Save me a seat if you get there first.",
+            "All the good seats were gone by seven."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place on an elected body or a board, held by one member",
+          "body": [
+            "(место (в парламенте, совете), мандат)"
+          ],
+          "examples": [
+            "She won a seat in the state senate.",
+            "The party lost twelve seats in the last election.",
+            "He holds a seat on the school board."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The place where a government, court, or organization is based",
+          "body": [
+            "(местопребывание, центр (власти))",
+            "---"
+          ],
+          "examples": [
+            "Washington is the seat of the federal government.",
+            "The county seat is thirty miles north of here.",
+            "For centuries the town was the seat of the local bishop."
+          ]
+        }
+      ],
+      "русский": "сиденье; место; место (в парламенте, совете), мандат; местопребывание, центр (власти)",
       "plural": "seats",
       "countability": "countable"
     },
@@ -332,14 +493,43 @@
       "term": "cushion",
       "ipa": "/ˈkʊʃən/",
       "respell": "KUUSH-uhn",
-      "meaning": "A soft padded bag used to sit on or lean against. ---",
+      "meaning": "Cushion has 2 distinct senses.",
       "examples": [
         "I found the remote under a cushion.",
         "The couch cushions need to be flipped.",
-        "She propped a cushion behind her back."
+        "She propped a cushion behind her back.",
+        "Three months of savings gives you a cushion.",
+        "A two-goal cushion let them relax in the fourth quarter.",
+        "The budget has no cushion for surprises."
       ],
-      "senses": [],
-      "русский": "диванная подушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft padded bag used to sit on or lean against",
+          "body": [
+            "(диванная подушка)"
+          ],
+          "examples": [
+            "I found the remote under a cushion.",
+            "The couch cushions need to be flipped.",
+            "She propped a cushion behind her back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount kept in reserve as protection against trouble",
+          "body": [
+            "(запас, подушка (финансовая))",
+            "---"
+          ],
+          "examples": [
+            "Three months of savings gives you a cushion.",
+            "A two-goal cushion let them relax in the fourth quarter.",
+            "The budget has no cushion for surprises."
+          ]
+        }
+      ],
+      "русский": "диванная подушка; запас, подушка (финансовая)",
       "plural": "cushions",
       "countability": "countable",
       "contrast": "The u is short, as in put: KUUSH-uhn, not KOO-shun."
@@ -363,14 +553,58 @@
       "term": "console",
       "ipa": "/ˈkɑːnsoʊl/",
       "respell": "KAHN-sohl",
-      "meaning": "A narrow table that stands against a wall. ---",
+      "meaning": "Console has 3 distinct senses.",
       "examples": [
         "We keep the mail in a basket on the hall console.",
         "A pair of lamps sits on the console behind the sofa.",
-        "Both consoles were too deep for that narrow hallway."
+        "Both consoles were too deep for that narrow hallway.",
+        "He got a new console for his birthday.",
+        "The game runs on every major console.",
+        "Both consoles sold out before Christmas.",
+        "The engineer sat at the mixing console.",
+        "A red light came on across the console.",
+        "Both consoles in the control room were manned."
       ],
-      "senses": [],
-      "русский": "консольный столик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A narrow table that stands against a wall",
+          "body": [
+            "(консольный столик)"
+          ],
+          "examples": [
+            "We keep the mail in a basket on the hall console.",
+            "A pair of lamps sits on the console behind the sofa.",
+            "Both consoles were too deep for that narrow hallway."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine for playing video games on a television",
+          "body": [
+            "(игровая приставка, консоль)"
+          ],
+          "examples": [
+            "He got a new console for his birthday.",
+            "The game runs on every major console.",
+            "Both consoles sold out before Christmas."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A panel holding the controls and screens for a machine or system",
+          "body": [
+            "(пульт управления)",
+            "---"
+          ],
+          "examples": [
+            "The engineer sat at the mixing console.",
+            "A red light came on across the console.",
+            "Both consoles in the control room were manned."
+          ]
+        }
+      ],
+      "русский": "консольный столик; игровая приставка, консоль; пульт управления",
       "plural": "consoles",
       "countability": "countable",
       "contrast": "Stress shifts between the noun and the verb: the table is a KAHN-sohl, but to comfort someone is kuhn-SOHL."
@@ -379,14 +613,58 @@
       "term": "bed",
       "ipa": "/bɛd/",
       "respell": "BED",
-      "meaning": "A piece of furniture you sleep on. ---",
+      "meaning": "Bed has 3 distinct senses.",
       "examples": [
         "Make your bed before you leave.",
         "The room has two twin beds.",
-        "I was still in bed when he called."
+        "I was still in bed when he called.",
+        "She planted tulips in the bed by the front door.",
+        "The vegetable beds need weeding again.",
+        "We built raised beds out of cedar boards.",
+        "By August the river bed was nothing but cracked mud.",
+        "The drought exposed the bed of the reservoir.",
+        "The wreck still lies on the bed of the lake."
       ],
-      "senses": [],
-      "русский": "кровать, постель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of furniture you sleep on",
+          "body": [
+            "(кровать, постель)"
+          ],
+          "examples": [
+            "Make your bed before you leave.",
+            "The room has two twin beds.",
+            "I was still in bed when he called."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of ground prepared for growing plants",
+          "body": [
+            "(грядка, клумба)"
+          ],
+          "examples": [
+            "She planted tulips in the bed by the front door.",
+            "The vegetable beds need weeding again.",
+            "We built raised beds out of cedar boards."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The bottom of a river, lake, or sea",
+          "body": [
+            "(дно, русло (реки, озера))",
+            "---"
+          ],
+          "examples": [
+            "By August the river bed was nothing but cracked mud.",
+            "The drought exposed the bed of the reservoir.",
+            "The wreck still lies on the bed of the lake."
+          ]
+        }
+      ],
+      "русский": "кровать, постель; грядка, клумба; дно, русло (реки, озера)",
       "plural": "beds",
       "countability": "countable"
     },
@@ -500,14 +778,43 @@
       "term": "cradle",
       "ipa": "/ˈkreɪdəl/",
       "respell": "KRAY-duhl",
-      "meaning": "A small bed for a newborn that rocks from side to side. ---",
+      "meaning": "Cradle has 2 distinct senses.",
       "examples": [
         "The baby slept in a cradle beside their bed.",
         "He carved the cradle himself.",
-        "Antique cradles sell for a lot at auction."
+        "Antique cradles sell for a lot at auction.",
+        "The town calls itself the cradle of American aviation.",
+        "Historians treat that river valley as the cradle of civilization.",
+        "The little club was the cradle of a dozen famous bands."
       ],
-      "senses": [],
-      "русский": "колыбель, люлька",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small bed for a newborn that rocks from side to side",
+          "body": [
+            "(колыбель, люлька)"
+          ],
+          "examples": [
+            "The baby slept in a cradle beside their bed.",
+            "He carved the cradle himself.",
+            "Antique cradles sell for a lot at auction."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The place where something important began",
+          "body": [
+            "(колыбель, место зарождения)",
+            "---"
+          ],
+          "examples": [
+            "The town calls itself the cradle of American aviation.",
+            "Historians treat that river valley as the cradle of civilization.",
+            "The little club was the cradle of a dozen famous bands."
+          ]
+        }
+      ],
+      "русский": "колыбель, люлька; колыбель, место зарождения",
       "plural": "cradles",
       "countability": "countable"
     },
@@ -638,14 +945,43 @@
       "term": "vanity",
       "ipa": "/ˈvænəti/",
       "respell": "VAN-uh-tee",
-      "meaning": "A dressing table with a mirror, or a bathroom cabinet built under the sink. ---",
+      "meaning": "Vanity has 2 distinct senses.",
       "examples": [
         "The bathroom vanity has a cracked countertop.",
         "She sat at the vanity doing her hair.",
-        "We're replacing both vanities next month."
+        "We're replacing both vanities next month.",
+        "His vanity wouldn't let him wear glasses.",
+        "The whole building project was an exercise in vanity.",
+        "She has enough vanity to check every mirror she passes."
       ],
-      "senses": [],
-      "русский": "туалетный столик; тумба с раковиной",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dressing table with a mirror, or a bathroom cabinet built under the sink",
+          "body": [
+            "(туалетный столик; тумба с раковиной)"
+          ],
+          "examples": [
+            "The bathroom vanity has a cracked countertop.",
+            "She sat at the vanity doing her hair.",
+            "We're replacing both vanities next month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Too much pride in one's looks, abilities, or achievements",
+          "body": [
+            "(тщеславие, самолюбование)",
+            "---"
+          ],
+          "examples": [
+            "His vanity wouldn't let him wear glasses.",
+            "The whole building project was an exercise in vanity.",
+            "She has enough vanity to check every mirror she passes."
+          ]
+        }
+      ],
+      "русский": "туалетный столик; тумба с раковиной; тщеславие, самолюбование",
       "plural": "vanities",
       "countability": "countable"
     },
@@ -683,14 +1019,43 @@
       "term": "blanket",
       "ipa": "/ˈblæŋkɪt/",
       "respell": "BLANG-kit",
-      "meaning": "A large piece of thick cloth used to keep warm in bed. ---",
+      "meaning": "Blanket has 2 distinct senses.",
       "examples": [
         "Grab an extra blanket — it's freezing tonight.",
         "There are wool blankets in the hall closet.",
-        "She wrapped a blanket around her shoulders."
+        "She wrapped a blanket around her shoulders.",
+        "A blanket of snow covered the fields.",
+        "Fog lay like a blanket over the harbor.",
+        "A blanket of ash settled on the parked cars."
       ],
-      "senses": [],
-      "русский": "одеяло, плед",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large piece of thick cloth used to keep warm in bed",
+          "body": [
+            "(одеяло, плед)"
+          ],
+          "examples": [
+            "Grab an extra blanket — it's freezing tonight.",
+            "There are wool blankets in the hall closet.",
+            "She wrapped a blanket around her shoulders."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick layer of something that covers a wide area",
+          "body": [
+            "(покров, сплошной слой)",
+            "---"
+          ],
+          "examples": [
+            "A blanket of snow covered the fields.",
+            "Fog lay like a blanket over the harbor.",
+            "A blanket of ash settled on the parked cars."
+          ]
+        }
+      ],
+      "русский": "одеяло, плед; покров, сплошной слой",
       "plural": "blankets",
       "countability": "countable",
       "contrast": "The n before k is pronounced /ŋ/, so it sounds like BLANG-kit, not BLAN-kit."
@@ -1044,14 +1409,58 @@
       "term": "hook",
       "ipa": "/hʊk/",
       "respell": "HUUK",
-      "meaning": "A curved piece of metal or plastic for hanging things on. ---",
+      "meaning": "Hook has 3 distinct senses.",
       "examples": [
         "Your keys are on the hook by the door.",
         "We screwed a row of hooks into the wall for backpacks.",
-        "The robe hangs on a hook behind the bathroom door."
+        "The robe hangs on a hook behind the bathroom door.",
+        "He put his opponent down with a left hook.",
+        "The champion's hook is his best punch.",
+        "She slipped the hook and countered.",
+        "The hook gets stuck in your head after one listen.",
+        "The ad needs a hook in the first three seconds.",
+        "The story's hook is that the narrator is already dead."
       ],
-      "senses": [],
-      "русский": "крючок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A curved piece of metal or plastic for hanging things on",
+          "body": [
+            "(крючок)"
+          ],
+          "examples": [
+            "Your keys are on the hook by the door.",
+            "We screwed a row of hooks into the wall for backpacks.",
+            "The robe hangs on a hook behind the bathroom door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In boxing, a punch thrown in a curve with the arm bent",
+          "body": [
+            "(хук (боковой удар))"
+          ],
+          "examples": [
+            "He put his opponent down with a left hook.",
+            "The champion's hook is his best punch.",
+            "She slipped the hook and countered."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The catchy part of a song, or anything used to grab people's attention",
+          "body": [
+            "(цепляющий момент, «крючок» (в песне, рекламе))",
+            "---"
+          ],
+          "examples": [
+            "The hook gets stuck in your head after one listen.",
+            "The ad needs a hook in the first three seconds.",
+            "The story's hook is that the narrator is already dead."
+          ]
+        }
+      ],
+      "русский": "крючок; хук (боковой удар); цепляющий момент, «крючок» (в песне, рекламе)",
       "plural": "hooks",
       "countability": "countable"
     },
@@ -1105,14 +1514,43 @@
       "term": "mat",
       "ipa": "/mæt/",
       "respell": "MAT",
-      "meaning": "A small flat piece of material placed on the floor for a specific purpose. ---",
+      "meaning": "Mat has 2 distinct senses.",
       "examples": [
         "Wipe your feet on the mat.",
         "We keep a rubber mat in front of the sink.",
-        "The bath mats are in the linen closet."
+        "The bath mats are in the linen closet.",
+        "The dog came home with mats of burrs in his fur.",
+        "A mat of dead leaves covered the drain.",
+        "Roots form a dense mat just under the soil."
       ],
-      "senses": [],
-      "русский": "коврик, подстилка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small flat piece of material placed on the floor for a specific purpose",
+          "body": [
+            "(коврик, подстилка)"
+          ],
+          "examples": [
+            "Wipe your feet on the mat.",
+            "We keep a rubber mat in front of the sink.",
+            "The bath mats are in the linen closet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick tangled mass of hair, grass, or roots",
+          "body": [
+            "(спутанный клок, сплетение)",
+            "---"
+          ],
+          "examples": [
+            "The dog came home with mats of burrs in his fur.",
+            "A mat of dead leaves covered the drain.",
+            "Roots form a dense mat just under the soil."
+          ]
+        }
+      ],
+      "русский": "коврик, подстилка; спутанный клок, сплетение",
       "plural": "mats",
       "countability": "countable"
     },
@@ -1120,14 +1558,43 @@
       "term": "doormat",
       "ipa": "/ˈdɔːrmæt/",
       "respell": "DOR-mat",
-      "meaning": "A rough mat outside a door for cleaning your shoes. ---",
+      "meaning": "Doormat has 2 distinct senses.",
       "examples": [
         "The spare key is not under the doormat — that's the first place people look.",
         "Our doormat says GO AWAY, which the neighbors find hilarious.",
-        "They sell those doormats at the hardware store."
+        "They sell those doormats at the hardware store.",
+        "Stop being a doormat and ask for a raise.",
+        "He let his brother walk all over him like a doormat.",
+        "She refused to be anyone's doormat."
       ],
-      "senses": [],
-      "русский": "дверной коврик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rough mat outside a door for cleaning your shoes",
+          "body": [
+            "(дверной коврик)"
+          ],
+          "examples": [
+            "The spare key is not under the doormat — that's the first place people look.",
+            "Our doormat says GO AWAY, which the neighbors find hilarious.",
+            "They sell those doormats at the hardware store."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who lets other people treat them badly",
+          "body": [
+            "(тряпка, безвольный человек)",
+            "---"
+          ],
+          "examples": [
+            "Stop being a doormat and ask for a raise.",
+            "He let his brother walk all over him like a doormat.",
+            "She refused to be anyone's doormat."
+          ]
+        }
+      ],
+      "русский": "дверной коврик; тряпка, безвольный человек",
       "plural": "doormats",
       "countability": "countable"
     },
@@ -1360,14 +1827,43 @@
       "term": "fixture",
       "ipa": "/ˈfɪkstʃər/",
       "respell": "FIKS-chur",
-      "meaning": "Something attached permanently to a building, such as a light or a sink. ---",
+      "meaning": "Fixture has 2 distinct senses.",
       "examples": [
         "The ceiling fixture is original to the house.",
         "We replaced all the bathroom fixtures.",
-        "The price includes the appliances but not the light fixtures."
+        "The price includes the appliances but not the light fixtures.",
+        "He's been a fixture at that diner for thirty years.",
+        "The old clock is a fixture of the town square.",
+        "Those two are fixtures on late-night television."
       ],
-      "senses": [],
-      "русский": "встроенный светильник; сантехнический прибор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something attached permanently to a building, such as a light or a sink",
+          "body": [
+            "(встроенный светильник; сантехнический прибор)"
+          ],
+          "examples": [
+            "The ceiling fixture is original to the house.",
+            "We replaced all the bathroom fixtures.",
+            "The price includes the appliances but not the light fixtures."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or thing that has been part of a place so long they seem permanent",
+          "body": [
+            "(неотъемлемая часть, завсегдатай)",
+            "---"
+          ],
+          "examples": [
+            "He's been a fixture at that diner for thirty years.",
+            "The old clock is a fixture of the town square.",
+            "Those two are fixtures on late-night television."
+          ]
+        }
+      ],
+      "русский": "встроенный светильник; сантехнический прибор; неотъемлемая часть, завсегдатай",
       "plural": "fixtures",
       "countability": "countable"
     },
@@ -1422,14 +1918,73 @@
       "term": "picture",
       "ipa": "/ˈpɪktʃər/",
       "respell": "PIK-chur",
-      "meaning": "A painting, drawing, or photograph, especially one hung on a wall. ---",
+      "meaning": "Picture has 4 distinct senses.",
       "examples": [
         "That picture has been crooked for a year.",
         "The hallway is covered in pictures of the grandkids.",
-        "He hung a picture to cover the hole in the plaster."
+        "He hung a picture to cover the hole in the plaster.",
+        "The report gives a bleak picture of the housing market.",
+        "Try to keep the big picture in mind.",
+        "The new numbers change the whole picture.",
+        "The sound is fine but the picture keeps freezing.",
+        "Move the antenna until the picture clears up.",
+        "That old set still has a sharp picture.",
+        "It won best picture at the awards that year.",
+        "He directed three pictures before he turned thirty.",
+        "The studio releases about a dozen pictures a year."
       ],
-      "senses": [],
-      "русский": "картина, изображение, фотография",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A painting, drawing, or photograph, especially one hung on a wall",
+          "body": [
+            "(картина, изображение, фотография)"
+          ],
+          "examples": [
+            "That picture has been crooked for a year.",
+            "The hallway is covered in pictures of the grandkids.",
+            "He hung a picture to cover the hole in the plaster."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The general situation, seen as a whole",
+          "body": [
+            "(картина, общая ситуация)"
+          ],
+          "examples": [
+            "The report gives a bleak picture of the housing market.",
+            "Try to keep the big picture in mind.",
+            "The new numbers change the whole picture."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The image that appears on a television or a screen",
+          "body": [
+            "(изображение (на экране))"
+          ],
+          "examples": [
+            "The sound is fine but the picture keeps freezing.",
+            "Move the antenna until the picture clears up.",
+            "That old set still has a sharp picture."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A movie",
+          "body": [
+            "(фильм, кинокартина)",
+            "---"
+          ],
+          "examples": [
+            "It won best picture at the awards that year.",
+            "He directed three pictures before he turned thirty.",
+            "The studio releases about a dozen pictures a year."
+          ]
+        }
+      ],
+      "русский": "картина, изображение, фотография; картина, общая ситуация; изображение (на экране); фильм, кинокартина",
       "plural": "pictures",
       "countability": "countable",
       "contrast": "PIK-chur — do not confuse it with pitcher (PICH-ur), the jug you pour from."

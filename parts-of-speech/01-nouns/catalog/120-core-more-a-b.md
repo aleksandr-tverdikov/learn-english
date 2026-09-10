@@ -427,15 +427,23 @@ A very large quantity of something.
 ### abuse
 
 **Pronunciation:** /əˈbjuːs/ &middot; *uh-BYOOS*
-**Русский:** жестокое обращение, насилие; злоупотребление
+**Русский:** жестокое обращение, насилие; злоупотребление; брань, оскорбления
 **Countability:** uncountable
 **Contrast:** The noun ends in a hissing /s/ (uh-BYOOS); the verb *abuse* ends in /z/ (uh-BYOOZ).
 
-Cruel treatment of a person or animal, or the wrong use of something.
+Abuse has 2 distinct senses.
+
+**1. Cruel treatment of a person or animal, or the wrong use of something.** (жестокое обращение, насилие; злоупотребление)
 
 1. The hotline takes reports of child *abuse*.
 2. He was treated for years of alcohol *abuse*.
 3. The audit turned up *abuse* of the expense system.
+
+**2. Rude and insulting language shouted at someone.** (брань, оскорбления)
+
+4. The umpire took a stream of *abuse* from the stands.
+5. She hung up when he started shouting *abuse* at her.
+6. Players report racist *abuse* online after almost every game.
 
 ---
 
@@ -676,15 +684,29 @@ An intense fear of heights.
 ### action
 
 **Pronunciation:** /ˈækʃən/ &middot; *AK-shuhn*
-**Русский:** действие, поступок
+**Русский:** действие, поступок; боевые действия, бой; иск, судебное дело
 **Plural:** *actions*
 **Countability:** both — countable and uncountable with different meanings
 
-Something that someone does, or the process of doing things rather than talking about them.
+Action has 3 distinct senses.
+
+**1. Something that someone does, or the process of doing things rather than talking about them.** (действие, поступок)
 
 1. The city finally took *action* on the potholes.
 2. Her *actions* spoke louder than any speech.
 3. The second half of the movie is nonstop *action*.
+
+**2. Fighting in a war.** (боевые действия, бой)
+
+4. Her grandfather was killed in *action* in 1944.
+5. The unit saw *action* in three countries.
+6. He was wounded in *action* and sent home.
+
+**3. A case brought against someone in a court of law.** (иск, судебное дело)
+
+7. The family filed a civil *action* against the hospital.
+8. A class *action* on behalf of thousands of customers is pending.
+9. Both *actions* were settled out of court.
 
 ---
 
@@ -2757,15 +2779,23 @@ Very severe mental or physical pain.
 ### animal
 
 **Pronunciation:** /ˈænɪməl/ &middot; *AN-ih-muhl*
-**Русский:** животное
+**Русский:** животное; зверь, животное (о человеке)
 **Plural:** *animals*
 **Countability:** countable
 
-A living creature that moves and eats, as opposed to a plant.
+Animal has 2 distinct senses.
+
+**1. A living creature that moves and eats, as opposed to a plant.** (животное)
 
 1. Wild *animals* come down to the creek at dusk.
 2. A dolphin is a smart *animal*.
 3. The farm keeps about forty *animals* through the winter.
+
+**2. A person who behaves in a cruel or wild, uncontrolled way.** (зверь, животное (о человеке))
+
+4. Whoever did this to a child is an *animal*.
+5. The crowd turned into *animals* as soon as the doors opened.
+6. He eats like an *animal*.
 
 ---
 
@@ -3622,16 +3652,24 @@ Someone who shoots with a bow and arrows.
 ### archive
 
 **Pronunciation:** /ˈɑːrkaɪv/ &middot; *AR-kyve*
-**Русский:** архив
+**Русский:** архив; архив (сжатый файл)
 **Plural:** *archives*
 **Countability:** countable
 **Contrast:** The ch sounds like k: AR-kyve.
 
-A collection of old documents or records, or the place where they are kept.
+Archive has 2 distinct senses.
+
+**1. A collection of old documents or records, or the place where they are kept.** (архив)
 
 1. The letters are in the university *archive*.
 2. He spent a week in the city *archives*.
 3. The newspaper put its whole *archive* online.
+
+**2. A single compressed file that holds a group of other files.** (архив (сжатый файл))
+
+4. Download the *archive* and unzip it into this folder.
+5. The whole project fits in one 40-megabyte *archive*.
+6. She emailed me a password-protected *archive*.
 
 ---
 
@@ -4628,15 +4666,23 @@ A strong dislike of something.
 ### aviator
 
 **Pronunciation:** /ˈeɪvieɪtər/ &middot; *AY-vee-ay-tur*
-**Русский:** лётчик, авиатор
+**Русский:** лётчик, авиатор; очки-авиаторы, очки-капли
 **Plural:** *aviators*
 **Countability:** countable
 
-A person who flies an aircraft, especially in the early days of flying.
+Aviator has 2 distinct senses.
+
+**1. A person who flies an aircraft, especially in the early days of flying.** (лётчик, авиатор)
 
 1. Early *aviators* flew without radios or radar.
 2. The museum honors a pioneering *aviator* from this state.
 3. He wore the round sunglasses that *aviators* made famous.
+
+**2. Sunglasses with thin metal frames and large teardrop lenses.** (очки-авиаторы, очки-капли)
+
+4. He wore mirrored *aviators* the whole flight.
+5. She pushed her *aviators* up onto her head.
+6. A pair of gold *aviators* sat on the dashboard.
 
 ---
 
@@ -5743,15 +5789,23 @@ The theory that psychology should study observable behavior rather than thoughts
 ### being
 
 **Pronunciation:** /ˈbiːɪŋ/ &middot; *BEE-ing*
-**Русский:** существо
+**Русский:** существо; существование, бытие
 **Plural:** *beings*
 **Countability:** countable
 
-A living creature, especially one able to think.
+Being has 2 distinct senses.
+
+**1. A living creature, especially one able to think.** (существо)
 
 1. Every human *being* deserves respect.
 2. The film is about *beings* from another planet.
 3. She talks to the dog as if it were a rational *being*.
+
+**2. The state of existing.** (существование, бытие)
+
+4. The company came into *being* in a garage in 1978.
+5. The treaty brought a new nation into *being*.
+6. No one can say how the universe came into *being*.
 
 ---
 
@@ -5955,15 +6009,23 @@ Money or property left to someone in a will.
 ### bet
 
 **Pronunciation:** /bɛt/ &middot; *BET*
-**Русский:** ставка, пари
+**Русский:** ставка, пари; надёжный вариант, лучший выбор
 **Plural:** *bets*
 **Countability:** countable
 
-An amount of money risked on the result of something uncertain.
+Bet has 2 distinct senses.
+
+**1. An amount of money risked on the result of something uncertain.** (ставка, пари)
 
 1. I made a small *bet* on the game.
 2. He lost the *bet* and had to buy dinner.
 3. Sports *bets* are legal in most states now.
+
+**2. A choice or course of action that is likely to work well.** (надёжный вариант, лучший выбор)
+
+4. Your best *bet* is to take the train.
+5. A used sedan is a safer *bet* on that budget.
+6. Calling ahead is a good *bet* on holidays.
 
 ---
 
@@ -6295,15 +6357,23 @@ The part of the earth where living things exist.
 ### birdie
 
 **Pronunciation:** /ˈbɜːrdi/ &middot; *BUR-dee*
-**Русский:** бёрди (в гольфе — на удар ниже пара)
+**Русский:** бёрди (в гольфе — на удар ниже пара); волан (в бадминтоне)
 **Plural:** *birdies*
 **Countability:** countable
 
-A golf score of one stroke under par on a hole.
+Birdie has 2 distinct senses.
+
+**1. A golf score of one stroke under par on a hole.** (бёрди (в гольфе — на удар ниже пара))
 
 1. She made a *birdie* on the last hole.
 2. Three *birdies* in a row put him in the lead.
 3. He needed a *birdie* to force a playoff.
+
+**2. The light feathered object hit back and forth in badminton.** (волан (в бадминтоне))
+
+4. The *birdie* landed just inside the line.
+5. He served the *birdie* high over the net.
+6. We lost the *birdie* in the hedge.
 
 ---
 
@@ -6564,15 +6634,23 @@ A quick shutting and opening of the eyes.
 ### blip
 
 **Pronunciation:** /blɪp/ &middot; *BLIP*
-**Русский:** кратковременный сбой, временное отклонение
+**Русский:** кратковременный сбой, временное отклонение; отметка, точка на экране радара
 **Plural:** *blips*
 **Countability:** countable
 
-A small, temporary change or problem that does not last.
+Blip has 2 distinct senses.
+
+**1. A small, temporary change or problem that does not last.** (кратковременный сбой, временное отклонение)
 
 1. The drop in sales was just a *blip*.
 2. Analysts called the number a statistical *blip*.
 3. There were a few *blips* in the data.
+
+**2. A small flashing dot on a radar or monitor screen.** (отметка, точка на экране радара)
+
+4. A *blip* appeared at the edge of the radar screen.
+5. The *blip* vanished as the plane dropped low.
+6. Each *blip* on the monitor matched a heartbeat.
 
 ---
 
@@ -7041,15 +7119,29 @@ Someone who loves reading and reads a great deal.
 ### boom
 
 **Pronunciation:** /buːm/ &middot; *BOOM*
-**Русский:** бум, резкий подъём
+**Русский:** бум, резкий подъём; гул, грохот, раскат; гик (на парусе); выносная штанга микрофона
 **Plural:** *booms*
 **Countability:** countable
 
-A period of rapid growth in business, building, or population.
+Boom has 3 distinct senses.
+
+**1. A period of rapid growth in business, building, or population.** (бум, резкий подъём)
 
 1. The town grew fast during the oil *boom*.
 2. A housing *boom* pushed prices up.
 3. The industry has been through several *booms* and busts.
+
+**2. A deep loud sound.** (гул, грохот, раскат)
+
+4. The *boom* of thunder rattled the windows.
+5. We heard the *boom* of fireworks across the river.
+6. A sonic *boom* startled the whole town.
+
+**3. A long movable pole that holds a microphone or the bottom edge of a sail.** (гик (на парусе); выносная штанга микрофона)
+
+7. Duck, the *boom* is swinging around!
+8. The sound man held the *boom* just out of frame.
+9. A gust threw the *boom* hard to the left.
 
 ---
 
@@ -7130,15 +7222,23 @@ The scientific study of plants.
 ### bottom
 
 **Pronunciation:** /ˈbɑːtəm/ &middot; *BAH-tuhm*
-**Русский:** дно, низ, нижняя часть
+**Русский:** дно, низ, нижняя часть; попа, ягодицы
 **Plural:** *bottoms*
 **Countability:** countable
 
-The lowest part or surface of something.
+Bottom has 2 distinct senses.
+
+**1. The lowest part or surface of something.** (дно, низ, нижняя часть)
 
 1. The keys were at the *bottom* of my bag.
 2. Write your name at the *bottom* of the page.
 3. The *bottoms* of the pots were burned.
+
+**2. The part of the body you sit on, in mild everyday speech.** (попа, ягодицы)
+
+4. The toddler landed on his *bottom* and laughed.
+5. She wiped the baby's *bottom* and put on a clean diaper.
+6. These jeans are too tight across the *bottom*.
 
 ---
 
@@ -7221,30 +7321,46 @@ A line marking the limit of an area, or a limit on what is acceptable.
 ### bounty
 
 **Pronunciation:** /ˈbaʊnti/ &middot; *BOWN-tee*
-**Русский:** вознаграждение, награда (за поимку)
+**Русский:** вознаграждение, награда (за поимку); изобилие, щедрые дары
 **Plural:** *bounties*
 **Countability:** countable
 
-A reward offered for catching someone or for getting rid of something.
+Bounty has 2 distinct senses.
+
+**1. A reward offered for catching someone or for getting rid of something.** (вознаграждение, награда (за поимку))
 
 1. The state pays a *bounty* for each wild hog.
 2. There's a *bounty* on his head.
 3. Tech companies pay *bounties* for security bugs.
+
+**2. A large, generous supply of something, especially food from the land or sea.** (изобилие, щедрые дары)
+
+4. The table was loaded with the *bounty* of the fall harvest.
+5. Families here still live off the *bounty* of the bay.
+6. Our garden gave us a summer *bounty* of tomatoes and squash.
 
 ---
 
 ### bout
 
 **Pronunciation:** /baʊt/ &middot; *BOWT*
-**Русский:** приступ (болезни), период
+**Русский:** приступ (болезни), период; бой, схватка (в боксе, борьбе)
 **Plural:** *bouts*
 **Countability:** countable
 
-A short period of something unpleasant, such as an illness.
+Bout has 2 distinct senses.
+
+**1. A short period of something unpleasant, such as an illness.** (приступ (болезни), период)
 
 1. She's getting over a *bout* of the flu.
 2. He had another *bout* of insomnia.
 3. Two *bouts* of bad weather delayed the harvest.
+
+**2. A boxing or wrestling match.** (бой, схватка (в боксе, борьбе))
+
+4. The title *bout* went all twelve rounds.
+5. He lost his first professional *bout* on points.
+6. Two heavyweight *bouts* are on the card tonight.
 
 ---
 
@@ -7311,15 +7427,23 @@ The time of a man's life when he was a boy.
 ### brace
 
 **Pronunciation:** /breɪs/ &middot; *BRAYS*
-**Русский:** фиксатор, бандаж (ортопедический)
+**Русский:** фиксатор, бандаж (ортопедический); распорка, укосина, подпорка
 **Plural:** *braces*
 **Countability:** countable
 
-A support worn on part of the body to hold it in place while it heals.
+Brace has 2 distinct senses.
+
+**1. A support worn on part of the body to hold it in place while it heals.** (фиксатор, бандаж (ортопедический))
 
 1. He wore a knee *brace* all season.
 2. The doctor fitted her with a back *brace*.
 3. Two ankle *braces* are in the gym bag.
+
+**2. A piece of wood or metal fixed across a structure to hold it steady.** (распорка, укосина, подпорка)
+
+4. The carpenter nailed a diagonal *brace* to the wall frame.
+5. Steel *braces* keep the old church from leaning any further.
+6. Put a *brace* under that shelf so it doesn't sag.
 
 ---
 
@@ -7888,15 +8012,23 @@ Someone who knows a lot about a subject and follows it as a hobby.
 ### buffer
 
 **Pronunciation:** /ˈbʌfər/ &middot; *BUF-ur*
-**Русский:** буфер, буферная зона
+**Русский:** буфер, буферная зона; буфер (памяти)
 **Plural:** *buffers*
 **Countability:** countable
 
-Something placed between two things to soften the effect of one on the other.
+Buffer has 2 distinct senses.
+
+**1. Something placed between two things to soften the effect of one on the other.** (буфер, буферная зона)
 
 1. Savings act as a *buffer* against unexpected bills.
 2. A row of trees serves as a *buffer* between the road and the houses.
 3. The agreement created a *buffer* zone along the border.
+
+**2. A part of a computer's memory that holds data briefly while it is being moved or played.** (буфер (памяти))
+
+4. The video froze while the *buffer* filled.
+5. Sound is copied into a *buffer* before it reaches the speakers.
+6. A full *buffer* can crash the whole program.
 
 ---
 
@@ -8272,15 +8404,29 @@ The chief male servant of a large household.
 ### butt
 
 **Pronunciation:** /bʌt/ &middot; *BUT*
-**Русский:** зад, попа (разг.)
+**Русский:** зад, попа (разг.); окурок; мишень для насмешек, объект шуток
 **Plural:** *butts*
 **Countability:** countable
 
-An informal word for the part of the body you sit on.
+Butt has 3 distinct senses.
+
+**1. An informal word for the part of the body you sit on.** (зад, попа (разг.))
 
 1. Get off your *butt* and help me.
 2. He slipped on the ice and landed on his *butt*.
 3. The jeans were too tight in the *butt*.
+
+**2. The short end left when a cigarette has been smoked.** (окурок)
+
+4. He crushed the *butt* under his heel.
+5. *Butts* littered the sidewalk outside the bar.
+6. There were three *butts* in the ashtray.
+
+**3. The person or thing that a joke is aimed at.** (мишень для насмешек, объект шуток)
+
+7. He was the *butt* of every joke in the locker room.
+8. Her accent made her the *butt* of jokes at school.
+9. Nobody enjoys being the *butt* of the family's teasing.
 
 ---
 
@@ -8332,15 +8478,23 @@ A sweet flavor or candy made from butter and brown sugar.
 ### buzz
 
 **Pronunciation:** /bʌz/ &middot; *BUZ*
-**Русский:** жужжание; ажиотаж, шумиха
+**Русский:** жужжание; ажиотаж, шумиха; приятное возбуждение; лёгкое опьянение
 **Plural:** *buzzes*
 **Countability:** both — countable and uncountable with different meanings
 
-A low humming sound, or excited talk about something new.
+Buzz has 2 distinct senses.
+
+**1. A low humming sound, or excited talk about something new.** (жужжание; ажиотаж, шумиха)
 
 1. There's a lot of *buzz* about her new album.
 2. I heard a *buzz* and found a wasp at the window.
 3. The refrigerator makes strange *buzzes* at night.
+
+**2. A pleasant feeling of excitement or of being slightly drunk.** (приятное возбуждение; лёгкое опьянение)
+
+4. Two beers gave him a nice *buzz*.
+5. There's a real *buzz* when you walk out on stage.
+6. The coffee gave me a *buzz* that lasted all morning.
 
 ---
 

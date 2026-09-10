@@ -12,15 +12,29 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### gallery
 
 **Pronunciation:** /ˈɡæləri/ &middot; *GAL-uh-ree*
-**Русский:** галерея
+**Русский:** галерея; галёрка, верхний ярус; галерея (подборка изображений)
 **Plural:** *galleries*
 **Countability:** countable
 
-A room or building where works of art are shown, often for sale.
+Gallery has 3 distinct senses.
+
+**1. A room or building where works of art are shown, often for sale.** (галерея)
 
 1. The *gallery* on Fifth Street shows local painters.
 2. We spent the whole afternoon walking through three *galleries*.
 3. Her work hangs in a small *gallery* downtown.
+
+**2. The highest balcony of seats in a theater, where the cheapest tickets are.** (галёрка, верхний ярус)
+
+4. We could only afford seats in the *gallery*.
+5. Applause came down from the *gallery*.
+6. The *gallery* was packed with students.
+
+**3. A set of pictures displayed together, especially on a website or a phone.** (галерея (подборка изображений))
+
+7. Click through the *gallery* to see all the photos.
+8. The paper posted a *gallery* of shots from the parade.
+9. My phone's photo *gallery* is out of space.
 
 ---
 
@@ -245,30 +259,46 @@ A picture made by gluing paper, photographs, and other pieces onto a surface.
 ### sketch
 
 **Pronunciation:** /skɛtʃ/ &middot; *SKECH*
-**Русский:** набросок, эскиз
+**Русский:** набросок, эскиз; скетч, комедийная сценка
 **Plural:** *sketches*
 **Countability:** countable
 
-A quick rough drawing made before or instead of a finished picture.
+Sketch has 2 distinct senses.
+
+**1. A quick rough drawing made before or instead of a finished picture.** (набросок, эскиз)
 
 1. He made a quick *sketch* of the bridge.
 2. The *sketches* in her notebook are better than the paintings.
 3. Do a rough *sketch* first, then add the color.
+
+**2. A short comic scene in a stage or television show.** (скетч, комедийная сценка)
+
+4. The opening *sketch* made fun of the debate.
+5. She wrote *sketches* for a late-night show.
+6. That *sketch* about the airport is a classic.
 
 ---
 
 ### drawing
 
 **Pronunciation:** /ˈdrɔːɪŋ/ &middot; *DRAW-ing*
-**Русский:** рисунок; рисование
+**Русский:** рисунок; рисование; розыгрыш (лотереи), тираж
 **Plural:** *drawings*
 **Countability:** both — countable and uncountable with different meanings
 
-A picture made with a pencil or pen, or the activity of making such pictures.
+Drawing has 2 distinct senses.
+
+**1. A picture made with a pencil or pen, or the activity of making such pictures.** (рисунок; рисование)
 
 1. Her *drawing* of the horse is on the fridge.
 2. He teaches *drawing* at the community college.
 3. The museum owns hundreds of *drawings* by the artist.
+
+**2. An event at which winning tickets or names are picked at random.** (розыгрыш (лотереи), тираж)
+
+4. The raffle *drawing* is at nine o'clock.
+5. Nobody won Saturday's lottery *drawing*.
+6. There are two *drawings* every week.
 
 ---
 
@@ -378,15 +408,23 @@ The art of beautiful handwriting done with a pen or brush.
 ### mosaic
 
 **Pronunciation:** /moʊˈzeɪɪk/ &middot; *moh-ZAY-ik*
-**Русский:** мозаика
+**Русский:** мозаика; пёстрая смесь, мозаика (перен.)
 **Plural:** *mosaics*
 **Countability:** countable
 
-A picture made of many small pieces of colored stone, tile, or glass.
+Mosaic has 2 distinct senses.
+
+**1. A picture made of many small pieces of colored stone, tile, or glass.** (мозаика)
 
 1. The floor of the church is a Roman *mosaic*.
 2. She made a *mosaic* out of broken tiles.
 3. The *mosaics* took two years to restore.
+
+**2. A whole made up of many small, varied parts.** (пёстрая смесь, мозаика (перен.))
+
+4. The neighborhood is a *mosaic* of cultures and languages.
+5. From the plane the farmland looked like a *mosaic* of green squares.
+6. His memoir is a *mosaic* of short scenes.
 
 ---
 
@@ -575,16 +613,24 @@ A painting made with paints that are mixed with water, or the paints themselves.
 ### pastel
 
 **Pronunciation:** /pæˈstɛl/ &middot; *pas-TEL*
-**Русский:** пастель
+**Русский:** пастель; пастельный тон, нежный оттенок
 **Plural:** *pastels*
 **Countability:** countable
 **Contrast:** In American English the stress is on the second syllable: pas-TEL.
 
-A soft chalky crayon used for drawing, or a picture made with them.
+Pastel has 2 distinct senses.
+
+**1. A soft chalky crayon used for drawing, or a picture made with them.** (пастель)
 
 1. The portrait was done in *pastel*.
 2. A box of *pastels* sat open on the table.
 3. She prefers *pastels* to oil paint.
+
+**2. A soft, pale color.** (пастельный тон, нежный оттенок)
+
+4. The nursery is painted in soft *pastels*.
+5. She likes *pastels* better than bright colors.
+6. Easter candy always comes in *pastels*.
 
 ---
 
@@ -1008,15 +1054,23 @@ A tall triangular instrument with strings that are plucked with both hands.
 ### flute
 
 **Pronunciation:** /fluːt/ &middot; *FLOOT*
-**Русский:** флейта
+**Русский:** флейта; бокал-флейта (для шампанского)
 **Plural:** *flutes*
 **Countability:** countable
 
-A metal wind instrument held sideways and blown across a hole.
+Flute has 2 distinct senses.
+
+**1. A metal wind instrument held sideways and blown across a hole.** (флейта)
 
 1. She played the *flute* all through high school.
 2. The *flute* comes apart into three pieces.
 3. The *flutes* carry the melody in this section.
+
+**2. A tall narrow glass with a stem, used for champagne.** (бокал-флейта (для шампанского))
+
+4. The waiter handed each guest a *flute* of champagne.
+5. They got a set of crystal *flutes* as a wedding gift.
+6. He raised his *flute* for the toast.
 
 ---
 
@@ -1115,15 +1169,23 @@ The largest brass instrument, which plays the lowest notes in a band.
 ### drum
 
 **Pronunciation:** /drʌm/ &middot; *DRUM*
-**Русский:** барабан
+**Русский:** барабан; бочка (металлическая)
 **Plural:** *drums*
 **Countability:** countable
 
-An instrument with skin stretched over a round frame, hit with sticks or hands.
+Drum has 2 distinct senses.
+
+**1. An instrument with skin stretched over a round frame, hit with sticks or hands.** (барабан)
 
 1. He plays *drums* in a cover band.
 2. The *drum* was so loud we couldn't hear the singer.
 3. A bass *drum* thumped all the way down the street.
+
+**2. A large cylindrical container for oil, chemicals, or water.** (бочка (металлическая))
+
+4. Rusting *drums* of fuel sat behind the shed.
+5. The waste is shipped in sealed *drums*.
+6. He cut a *drum* in half to make a grill.
 
 ---
 
@@ -1254,16 +1316,24 @@ An electronic keyboard instrument that produces and shapes sounds.
 ### pedal
 
 **Pronunciation:** /ˈpɛdəl/ &middot; *PED-uhl*
-**Русский:** педаль
+**Русский:** педаль; педаль (велосипеда, автомобиля)
 **Plural:** *pedals*
 **Countability:** countable
 **Contrast:** Sounds exactly like *peddle* (торговать вразнос).
 
-A part pressed with the foot to change the sound of an instrument.
+Pedal has 2 distinct senses.
+
+**1. A part pressed with the foot to change the sound of an instrument.** (педаль)
 
 1. Use the *pedal* to hold the notes a little longer.
 2. The right *pedal* on the piano sticks.
 3. He steps on the *pedals* to change the guitar's tone.
+
+**2. A lever pushed with the foot to drive a bicycle or work a machine.** (педаль (велосипеда, автомобиля))
+
+4. She stood up on the *pedals* to get up the hill.
+5. He slammed his foot on the brake *pedal*.
+6. One *pedal* came off my bike on the way home.
 
 ---
 
@@ -1367,16 +1437,30 @@ A device that ticks at a steady speed to help a musician keep time.
 ### baton
 
 **Pronunciation:** /bəˈtɑːn/ &middot; *buh-TAHN*
-**Русский:** дирижёрская палочка
+**Русский:** дирижёрская палочка; эстафетная палочка; дубинка (полицейская)
 **Plural:** *batons*
 **Countability:** countable
 **Contrast:** In American English the stress is on the second syllable: buh-TAHN.
 
-The thin stick a conductor uses to lead an orchestra.
+Baton has 3 distinct senses.
+
+**1. The thin stick a conductor uses to lead an orchestra.** (дирижёрская палочка)
 
 1. The conductor raised her *baton* and the room went quiet.
 2. He tapped his *baton* on the music stand.
 3. Two *batons* lay on the podium.
+
+**2. The short stick runners hand to each other in a relay race.** (эстафетная палочка)
+
+4. She dropped the *baton* on the second handoff.
+5. He passed the *baton* and collapsed on the grass.
+6. The *baton* has to change hands inside the zone.
+
+**3. A heavy stick carried by police officers as a weapon.** (дубинка (полицейская))
+
+7. Officers were issued helmets and *batons*.
+8. He banged on the door with his *baton*.
+9. The department is reviewing its rules on *baton* use.
 
 ---
 
@@ -1414,46 +1498,70 @@ The main line of notes in a piece of music, the part you hum.
 ### harmony
 
 **Pronunciation:** /ˈhɑːrməni/ &middot; *HAR-muh-nee*
-**Русский:** гармония (многоголосие)
+**Русский:** гармония (многоголосие); согласие, лад
 **Countability:** uncountable
 
-Notes sung or played together with the melody to make a fuller sound.
+Harmony has 2 distinct senses.
+
+**1. Notes sung or played together with the melody to make a fuller sound.** (гармония (многоголосие))
 
 1. The sisters sang in perfect *harmony*.
 2. The song is simple, but the *harmony* is not.
 3. She sings *harmony* and he sings the melody.
+
+**2. A state of peaceful agreement between people or things.** (согласие, лад)
+
+4. The two families have lived in *harmony* for thirty years.
+5. The addition was designed to stay in *harmony* with the old building.
+6. There was little *harmony* among the members of the committee.
 
 ---
 
 ### rhythm
 
 **Pronunciation:** /ˈrɪðəm/ &middot; *RITH-uhm*
-**Русский:** ритм
+**Русский:** ритм; ритм (жизни, природы)
 **Plural:** *rhythms*
 **Countability:** countable
 **Contrast:** There is no vowel letter between th and m: RITH-uhm.
 
-The regular pattern of long and short sounds in music.
+Rhythm has 2 distinct senses.
+
+**1. The regular pattern of long and short sounds in music.** (ритм)
 
 1. The song has a strange *rhythm*.
 2. The drums lay down a steady *rhythm*.
 3. Caribbean *rhythms* run all through her records.
+
+**2. A regular pattern in which events or movements repeat over time.** (ритм (жизни, природы))
+
+4. Farm work follows the *rhythm* of the seasons.
+5. Night shifts threw off his body's natural *rhythm*.
+6. I finally settled into the *rhythm* of the new job.
 
 ---
 
 ### beat
 
 **Pronunciation:** /biːt/ &middot; *BEET*
-**Русский:** доля, ритм (бит)
+**Русский:** доля, ритм (бит); участок патрулирования; тематическая рубрика журналиста
 **Plural:** *beats*
 **Countability:** countable
 **Contrast:** Sounds exactly like *beet* (свёкла).
 
-One of the regular pulses you count or clap along to in music.
+Beat has 2 distinct senses.
+
+**1. One of the regular pulses you count or clap along to in music.** (доля, ритм (бит))
 
 1. The *beat* is too fast to dance to.
 2. Clap on the second and fourth *beats*.
 3. He makes *beats* on a laptop in his bedroom.
+
+**2. The area a police officer patrols or the subject a reporter regularly covers.** (участок патрулирования; тематическая рубрика журналиста)
+
+4. Two officers walk this *beat* every evening.
+5. She covers the education *beat* for the local paper.
+6. He spent twenty years as a cop on the *beat*.
 
 ---
 
@@ -1537,45 +1645,81 @@ A sign in written music that raises a note by a half step.
 ### flat
 
 **Pronunciation:** /flæt/ &middot; *FLAT*
-**Русский:** бемоль
+**Русский:** бемоль; спущенное колесо, прокол
 **Plural:** *flats*
 **Countability:** countable
 **Contrast:** In music a *flat* lowers a note; in British English *flat* also means an apartment.
 
-A sign in written music that lowers a note by a half step.
+Flat has 2 distinct senses.
+
+**1. A sign in written music that lowers a note by a half step.** (бемоль)
 
 1. The piece has three *flats*.
 2. Play B *flat* there, not B.
 3. The *flats* are marked at the start of the line.
+
+**2. A tire that has lost its air.** (спущенное колесо, прокол)
+
+4. I got a *flat* on the way to work.
+5. He changed the *flat* in the pouring rain.
+6. Two *flats* in one month is terrible luck.
 
 ---
 
 ### pitch
 
 **Pronunciation:** /pɪtʃ/ &middot; *PICH*
-**Русский:** высота звука
+**Русский:** высота звука; рекламная речь, презентация (с целью убедить); подача (в бейсболе); уклон, скат (крыши)
 **Countability:** uncountable
 
-How high or low a musical sound is.
+Pitch has 4 distinct senses.
+
+**1. How high or low a musical sound is.** (высота звука)
 
 1. She has perfect *pitch*.
 2. His voice dropped in *pitch* at the end of the line.
 3. The whole choir was singing under *pitch*.
+
+**2. A speech meant to persuade someone to buy something or agree to a plan.** (рекламная речь, презентация (с целью убедить))
+
+4. The salesman gave us the whole *pitch* about the extended warranty.
+5. She has ten minutes to make her *pitch* to investors.
+6. I've heard that *pitch* before.
+
+**3. A throw of the ball to the batter in baseball.** (подача (в бейсболе))
+
+7. He swung at the first *pitch*.
+8. That fastball was the best *pitch* of the inning.
+9. The umpire called the *pitch* a strike.
+
+**4. The steepness of a slope, especially of a roof.** (уклон, скат (крыши))
+
+10. The roof has a steep *pitch*, so the snow slides right off.
+11. A low *pitch* makes the attic hard to stand up in.
+12. Builders measure *pitch* in inches of rise per foot.
 
 ---
 
 ### chorus
 
 **Pronunciation:** /ˈkɔːrəs/ &middot; *KOR-uhs*
-**Русский:** припев; хор
+**Русский:** припев; хор; хор голосов, дружные возгласы
 **Plural:** *choruses*
 **Countability:** countable
 
-The part of a song that repeats after each verse, or a group of singers.
+Chorus has 2 distinct senses.
+
+**1. The part of a song that repeats after each verse, or a group of singers.** (припев; хор)
 
 1. Everybody sings along on the *chorus*.
 2. The *chorus* comes back three times.
 3. The *choruses* are the only part I remember.
+
+**2. A sound or remark made by many people at the same time.** (хор голосов, дружные возгласы)
+
+4. The announcement was met with a *chorus* of boos.
+5. A *chorus* of complaints followed the price increase.
+6. There was a *chorus* of approval from the back of the room.
 
 ---
 
@@ -1605,15 +1749,23 @@ Verse has 2 distinct senses.
 ### riff
 
 **Pronunciation:** /rɪf/ &middot; *RIF*
-**Русский:** рифф
+**Русский:** рифф; импровизация на тему, шутливое рассуждение
 **Plural:** *riffs*
 **Countability:** countable
 
-A short pattern of notes repeated through a rock or jazz song.
+Riff has 2 distinct senses.
+
+**1. A short pattern of notes repeated through a rock or jazz song.** (рифф)
 
 1. That guitar *riff* is instantly recognizable.
 2. He built the whole song around one *riff*.
 3. The band jammed on a couple of *riffs* for ten minutes.
+
+**2. A short stretch of talk that plays with one idea, often for laughs.** (импровизация на тему, шутливое рассуждение)
+
+4. He did a five-minute *riff* on airport security.
+5. Her column is a *riff* on modern parenting.
+6. The show opens with a *riff* about the weather.
 
 ---
 
@@ -1764,15 +1916,23 @@ The words of a song.
 ### song
 
 **Pronunciation:** /sɔːŋ/ &middot; *SAWNG*
-**Русский:** песня
+**Русский:** песня; пение (птиц), песня (животного)
 **Plural:** *songs*
 **Countability:** countable
 
-A short piece of music with words that are sung.
+Song has 2 distinct senses.
+
+**1. A short piece of music with words that are sung.** (песня)
 
 1. That *song* was on the radio all summer.
 2. She wrote the *song* in an afternoon.
 3. They played all their old *songs* at the end.
+
+**2. The series of musical sounds that a bird or a whale makes.** (пение (птиц), песня (животного))
+
+4. The wood thrush has the loveliest *song* in the forest.
+5. Researchers recorded the whales' *songs* all winter.
+6. You can tell most warblers apart by *song* alone.
 
 ---
 
@@ -1848,15 +2008,23 @@ A small concert given by one performer or by students.
 ### gig
 
 **Pronunciation:** /ɡɪɡ/ &middot; *GIG*
-**Русский:** выступление, концерт (разг.)
+**Русский:** выступление, концерт (разг.); подработка, временная работа
 **Plural:** *gigs*
 **Countability:** countable
 
-A single paid performance by a musician or band.
+Gig has 2 distinct senses.
+
+**1. A single paid performance by a musician or band.** (выступление, концерт (разг.))
 
 1. The band has a *gig* at a bar downtown.
 2. He plays about forty *gigs* a year.
 3. The *gig* paid two hundred dollars and a free meal.
+
+**2. A job, especially a temporary or freelance one.** (подработка, временная работа)
+
+4. She picked up a *gig* driving for a delivery app.
+5. He landed a *gig* writing copy for a startup.
+6. A lot of people work two or three *gigs* to get by.
 
 ---
 
@@ -2151,15 +2319,23 @@ A style of American music built on improvising over a rhythm section.
 ### blues
 
 **Pronunciation:** /bluːz/ &middot; *BLOOZ*
-**Русский:** блюз
+**Русский:** блюз; хандра, тоска
 **Countability:** uncountable
 **Contrast:** Looks plural but takes a singular verb: *the blues is* an American form.
 
-A slow, sad style of American music that grew out of the rural South.
+Blues has 2 distinct senses.
+
+**1. A slow, sad style of American music that grew out of the rural South.** (блюз)
 
 1. He plays *blues* on a beat-up guitar.
 2. The *blues* came up the river from the Delta.
 3. That song is straight *blues*.
+
+**2. A feeling of sadness or low spirits.** (хандра, тоска)
+
+4. She gets the *blues* every February.
+5. A long walk usually cures my Monday *blues*.
+6. New mothers often struggle with the baby *blues*.
 
 ---
 
@@ -2326,12 +2502,20 @@ The lower female singing voice, or a singer with that voice.
 ### tenor
 
 **Pronunciation:** /ˈtɛnər/ &middot; *TEN-ur*
-**Русский:** тенор
+**Русский:** тенор; общий смысл, тон, характер
 **Plural:** *tenors*
 **Countability:** countable
 
-The higher male singing voice, or a singer with that voice.
+Tenor has 2 distinct senses.
+
+**1. The higher male singing voice, or a singer with that voice.** (тенор)
 
 1. The *tenor* got the loudest applause of the night.
 2. He sings *tenor* in a barbershop group.
 3. Three *tenors* shared the role that season.
+
+**2. The general meaning or mood of something said or written.** (общий смысл, тон, характер)
+
+4. The *tenor* of the meeting changed after she spoke.
+5. I didn't catch every word, but I got the *tenor* of his remarks.
+6. The *tenor* of the coverage has grown more critical.

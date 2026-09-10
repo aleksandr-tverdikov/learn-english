@@ -128,14 +128,43 @@
       "term": "jacket",
       "ipa": "/ˈdʒækɪt/",
       "respell": "JAK-it",
-      "meaning": "A short coat worn on the upper body. ---",
+      "meaning": "Jacket has 2 distinct senses.",
       "examples": [
         "Grab your jacket, it's windy out.",
         "He keeps his keys in his jacket pocket.",
-        "Both jackets were left on the back of the chair."
+        "Both jackets were left on the back of the chair.",
+        "The dust jacket was torn, but the book was fine.",
+        "His photo is on the back of the jacket.",
+        "The album jackets were stacked against the wall."
       ],
-      "senses": [],
-      "русский": "куртка, пиджак",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short coat worn on the upper body",
+          "body": [
+            "(куртка, пиджак)"
+          ],
+          "examples": [
+            "Grab your jacket, it's windy out.",
+            "He keeps his keys in his jacket pocket.",
+            "Both jackets were left on the back of the chair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A paper or cardboard cover that goes around a book or a record",
+          "body": [
+            "(суперобложка; конверт (пластинки))",
+            "---"
+          ],
+          "examples": [
+            "The dust jacket was torn, but the book was fine.",
+            "His photo is on the back of the jacket.",
+            "The album jackets were stacked against the wall."
+          ]
+        }
+      ],
+      "русский": "куртка, пиджак; суперобложка; конверт (пластинки)",
       "plural": "jackets",
       "countability": "countable"
     },
@@ -143,14 +172,58 @@
       "term": "coat",
       "ipa": "/koʊt/",
       "respell": "KOHT",
-      "meaning": "A long outer garment worn over other clothes for warmth. ---",
+      "meaning": "Coat has 3 distinct senses.",
       "examples": [
         "She hung her coat by the door.",
         "The coats are in the front closet.",
-        "You'll need a heavier coat in Chicago."
+        "You'll need a heavier coat in Chicago.",
+        "The door needs a second coat of paint.",
+        "Give the table a thin coat of varnish.",
+        "Two coats should cover the old color.",
+        "The dog has a thick winter coat.",
+        "Brush the horse's coat until it shines.",
+        "Their coats turn white in the fall."
       ],
-      "senses": [],
-      "русский": "пальто",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long outer garment worn over other clothes for warmth",
+          "body": [
+            "(пальто)"
+          ],
+          "examples": [
+            "She hung her coat by the door.",
+            "The coats are in the front closet.",
+            "You'll need a heavier coat in Chicago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A layer of paint or another substance spread over a surface",
+          "body": [
+            "(слой (краски, лака))"
+          ],
+          "examples": [
+            "The door needs a second coat of paint.",
+            "Give the table a thin coat of varnish.",
+            "Two coats should cover the old color."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The fur or hair that covers an animal's body",
+          "body": [
+            "(шерсть, шкура (животного))",
+            "---"
+          ],
+          "examples": [
+            "The dog has a thick winter coat.",
+            "Brush the horse's coat until it shines.",
+            "Their coats turn white in the fall."
+          ]
+        }
+      ],
+      "русский": "пальто; слой (краски, лака); шерсть, шкура (животного)",
       "plural": "coats",
       "countability": "countable"
     },
@@ -264,14 +337,73 @@
       "term": "suit",
       "ipa": "/suːt/",
       "respell": "SOOT",
-      "meaning": "A set of matching jacket and pants or skirt worn together. ---",
+      "meaning": "Suit has 4 distinct senses.",
       "examples": [
         "He wore a dark gray suit to the wedding.",
         "Her suits are all custom made.",
-        "You don't need a suit for this interview."
+        "You don't need a suit for this interview.",
+        "You have to follow suit if you can.",
+        "Hearts is the strongest suit this round.",
+        "Sort your cards by suit first.",
+        "They filed a suit against the landlord.",
+        "The suit was settled out of court.",
+        "Three former workers joined the suit.",
+        "The suits upstairs killed the project.",
+        "A couple of suits from headquarters showed up.",
+        "He quit the band and became a suit."
       ],
-      "senses": [],
-      "русский": "костюм (деловой)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of matching jacket and pants or skirt worn together",
+          "body": [
+            "(костюм (деловой))"
+          ],
+          "examples": [
+            "He wore a dark gray suit to the wedding.",
+            "Her suits are all custom made.",
+            "You don't need a suit for this interview."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the four sets a deck of playing cards is divided into",
+          "body": [
+            "(масть (в картах))"
+          ],
+          "examples": [
+            "You have to follow suit if you can.",
+            "Hearts is the strongest suit this round.",
+            "Sort your cards by suit first."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A case brought against someone in a court of law",
+          "body": [
+            "(иск, судебное дело)"
+          ],
+          "examples": [
+            "They filed a suit against the landlord.",
+            "The suit was settled out of court.",
+            "Three former workers joined the suit."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An executive or manager, seen as distant from ordinary workers",
+          "body": [
+            "(начальство, «пиджаки»)",
+            "---"
+          ],
+          "examples": [
+            "The suits upstairs killed the project.",
+            "A couple of suits from headquarters showed up.",
+            "He quit the band and became a suit."
+          ]
+        }
+      ],
+      "русский": "костюм (деловой); масть (в картах); иск, судебное дело; начальство, «пиджаки»",
       "plural": "suits",
       "countability": "countable",
       "contrast": "Say SOOT in American English, and don't confuse it with suite /swiːt/, a set of rooms."
@@ -311,14 +443,43 @@
       "term": "dress",
       "ipa": "/drɛs/",
       "respell": "DRESS",
-      "meaning": "A one-piece garment for women that covers the body and part of the legs. ---",
+      "meaning": "Dress has 2 distinct senses.",
       "examples": [
         "She bought a red dress for the party.",
         "All the bridesmaids wore the same dress.",
-        "These dresses are on the clearance rack."
+        "These dresses are on the clearance rack.",
+        "The invitation said formal dress.",
+        "The dancers wore traditional dress.",
+        "Casual dress is fine for the picnic."
       ],
-      "senses": [],
-      "русский": "платье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A one-piece garment for women that covers the body and part of the legs",
+          "body": [
+            "(платье)"
+          ],
+          "examples": [
+            "She bought a red dress for the party.",
+            "All the bridesmaids wore the same dress.",
+            "These dresses are on the clearance rack."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Clothing of a particular kind or style",
+          "body": [
+            "(одежда, наряд (определённого стиля))",
+            "---"
+          ],
+          "examples": [
+            "The invitation said formal dress.",
+            "The dancers wore traditional dress.",
+            "Casual dress is fine for the picnic."
+          ]
+        }
+      ],
+      "русский": "платье; одежда, наряд (определённого стиля)",
       "plural": "dresses",
       "countability": "countable"
     },
@@ -387,14 +548,43 @@
       "term": "jersey",
       "ipa": "/ˈdʒɜːrzi/",
       "respell": "JUR-zee",
-      "meaning": "A shirt worn by a member of a sports team, usually with a number on the back. ---",
+      "meaning": "Jersey has 2 distinct senses.",
       "examples": [
         "He got the goalie to sign his jersey.",
         "The team is wearing their away jerseys tonight.",
-        "Her jersey had her last name across the shoulders."
+        "Her jersey had her last name across the shoulders.",
+        "The sheets are cotton jersey, soft as an old T-shirt.",
+        "She wore a gray jersey dress to the office.",
+        "Jersey stretches, so it hardly wrinkles."
       ],
-      "senses": [],
-      "русский": "спортивная майка, футболка команды",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shirt worn by a member of a sports team, usually with a number on the back",
+          "body": [
+            "(спортивная майка, футболка команды)"
+          ],
+          "examples": [
+            "He got the goalie to sign his jersey.",
+            "The team is wearing their away jerseys tonight.",
+            "Her jersey had her last name across the shoulders."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft, stretchy knitted cloth used for T-shirts and casual clothes",
+          "body": [
+            "(джерси (трикотажная ткань))",
+            "---"
+          ],
+          "examples": [
+            "The sheets are cotton jersey, soft as an old T-shirt.",
+            "She wore a gray jersey dress to the office.",
+            "Jersey stretches, so it hardly wrinkles."
+          ]
+        }
+      ],
+      "русский": "спортивная майка, футболка команды; джерси (трикотажная ткань)",
       "plural": "jerseys",
       "countability": "countable"
     },
@@ -597,14 +787,43 @@
       "term": "outfit",
       "ipa": "/ˈaʊtfɪt/",
       "respell": "OWT-fit",
-      "meaning": "A set of clothes worn together. ---",
+      "meaning": "Outfit has 2 distinct senses.",
       "examples": [
         "She picked out her outfit the night before.",
         "He wore the same outfit three days in a row.",
-        "Those outfits are way too formal for a picnic."
+        "Those outfits are way too formal for a picnic.",
+        "He works for a small outfit out on Route 9.",
+        "Their moving company is a two-truck outfit.",
+        "My grandfather's outfit landed in Normandy."
       ],
-      "senses": [],
-      "русский": "наряд, комплект одежды",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of clothes worn together",
+          "body": [
+            "(наряд, комплект одежды)"
+          ],
+          "examples": [
+            "She picked out her outfit the night before.",
+            "He wore the same outfit three days in a row.",
+            "Those outfits are way too formal for a picnic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people working together as a company, team, or military unit",
+          "body": [
+            "(фирма, команда; воинское подразделение)",
+            "---"
+          ],
+          "examples": [
+            "He works for a small outfit out on Route 9.",
+            "Their moving company is a two-truck outfit.",
+            "My grandfather's outfit landed in Normandy."
+          ]
+        }
+      ],
+      "русский": "наряд, комплект одежды; фирма, команда; воинское подразделение",
       "plural": "outfits",
       "countability": "countable"
     },
@@ -749,14 +968,43 @@
       "term": "shoe",
       "ipa": "/ʃuː/",
       "respell": "SHOO",
-      "meaning": "A covering for the foot with a firm sole, not reaching above the ankle. ---",
+      "meaning": "Shoe has 2 distinct senses.",
       "examples": [
         "Take your shoes off at the door.",
         "He tied his shoe and kept running.",
-        "These shoes are killing my feet."
+        "These shoes are killing my feet.",
+        "The mare threw a shoe on the trail and came up lame.",
+        "The farrier nailed a new shoe onto each front hoof.",
+        "Worn shoes make a horse slip on hard ground."
       ],
-      "senses": [],
-      "русский": "туфля, ботинок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A covering for the foot with a firm sole, not reaching above the ankle",
+          "body": [
+            "(туфля, ботинок)"
+          ],
+          "examples": [
+            "Take your shoes off at the door.",
+            "He tied his shoe and kept running.",
+            "These shoes are killing my feet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A curved piece of iron nailed to the bottom of a horse's hoof",
+          "body": [
+            "(подкова)",
+            "---"
+          ],
+          "examples": [
+            "The mare threw a shoe on the trail and came up lame.",
+            "The farrier nailed a new shoe onto each front hoof.",
+            "Worn shoes make a horse slip on hard ground."
+          ]
+        }
+      ],
+      "русский": "туфля, ботинок; подкова",
       "plural": "shoes",
       "countability": "countable"
     },
@@ -764,14 +1012,43 @@
       "term": "boot",
       "ipa": "/buːt/",
       "respell": "BOOT",
-      "meaning": "A heavy shoe that covers the ankle and sometimes part of the leg. ---",
+      "meaning": "Boot has 2 distinct senses.",
       "examples": [
         "She pulled on her rain boots.",
         "One boot is still sitting by the back door.",
-        "You'll want hiking boots on that trail."
+        "You'll want hiking boots on that trail.",
+        "The city put a boot on my car for unpaid tickets.",
+        "It costs a hundred dollars to get the boot taken off.",
+        "There was a bright yellow boot on the front tire."
       ],
-      "senses": [],
-      "русский": "сапог, ботинок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy shoe that covers the ankle and sometimes part of the leg",
+          "body": [
+            "(сапог, ботинок)"
+          ],
+          "examples": [
+            "She pulled on her rain boots.",
+            "One boot is still sitting by the back door.",
+            "You'll want hiking boots on that trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A metal clamp locked onto a car's wheel so it cannot be driven away",
+          "body": [
+            "(блокиратор колеса)",
+            "---"
+          ],
+          "examples": [
+            "The city put a boot on my car for unpaid tickets.",
+            "It costs a hundred dollars to get the boot taken off.",
+            "There was a bright yellow boot on the front tire."
+          ]
+        }
+      ],
+      "русский": "сапог, ботинок; блокиратор колеса",
       "plural": "boots",
       "countability": "countable",
       "contrast": "In Britain the boot is also the trunk of a car."
@@ -826,14 +1103,43 @@
       "term": "loafer",
       "ipa": "/ˈloʊfər/",
       "respell": "LOH-fur",
-      "meaning": "A flat leather shoe with no laces that you slip onto your foot. ---",
+      "meaning": "Loafer has 2 distinct senses.",
       "examples": [
         "He wore brown loafers with khakis.",
         "That loafer has a hole worn through the sole.",
-        "Loafers are a lot easier than lacing up boots."
+        "Loafers are a lot easier than lacing up boots.",
+        "He called his brother-in-law a loafer.",
+        "A few loafers were hanging around outside the store.",
+        "The foreman has no patience for loafers."
       ],
-      "senses": [],
-      "русский": "лоферы, туфли без шнурков",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat leather shoe with no laces that you slip onto your foot",
+          "body": [
+            "(лоферы, туфли без шнурков)"
+          ],
+          "examples": [
+            "He wore brown loafers with khakis.",
+            "That loafer has a hole worn through the sole.",
+            "Loafers are a lot easier than lacing up boots."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lazy person who avoids work",
+          "body": [
+            "(бездельник, лодырь)",
+            "---"
+          ],
+          "examples": [
+            "He called his brother-in-law a loafer.",
+            "A few loafers were hanging around outside the store.",
+            "The foreman has no patience for loafers."
+          ]
+        }
+      ],
+      "русский": "лоферы, туфли без шнурков; бездельник, лодырь",
       "plural": "loafers",
       "countability": "countable"
     },
@@ -931,14 +1237,58 @@
       "term": "cap",
       "ipa": "/kæp/",
       "respell": "KAP",
-      "meaning": "A soft flat hat, usually with a stiff curved brim at the front. ---",
+      "meaning": "Cap has 3 distinct senses.",
       "examples": [
         "He wore a baseball cap backwards.",
         "The team handed out free caps at the gate.",
-        "Take your cap off at the table."
+        "Take your cap off at the table.",
+        "Put the cap back on the toothpaste.",
+        "The cap on this bottle is too tight to twist off.",
+        "He lost the cap to his favorite pen.",
+        "The league plays under a strict salary cap.",
+        "Lawmakers set a cap on interest rates.",
+        "There is a cap of two tickets per customer."
       ],
-      "senses": [],
-      "русский": "кепка, бейсболка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft flat hat, usually with a stiff curved brim at the front",
+          "body": [
+            "(кепка, бейсболка)"
+          ],
+          "examples": [
+            "He wore a baseball cap backwards.",
+            "The team handed out free caps at the gate.",
+            "Take your cap off at the table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A lid or cover that screws or snaps onto a bottle, tube, or pen",
+          "body": [
+            "(крышка, колпачок)"
+          ],
+          "examples": [
+            "Put the cap back on the toothpaste.",
+            "The cap on this bottle is too tight to twist off.",
+            "He lost the cap to his favorite pen."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An upper limit set on an amount",
+          "body": [
+            "(предел, потолок (ограничение))",
+            "---"
+          ],
+          "examples": [
+            "The league plays under a strict salary cap.",
+            "Lawmakers set a cap on interest rates.",
+            "There is a cap of two tickets per customer."
+          ]
+        }
+      ],
+      "русский": "кепка, бейсболка; крышка, колпачок; предел, потолок (ограничение)",
       "plural": "caps",
       "countability": "countable"
     },
@@ -976,14 +1326,58 @@
       "term": "hood",
       "ipa": "/hʊd/",
       "respell": "HUUD",
-      "meaning": "The part of a coat or sweatshirt that covers the head. ---",
+      "meaning": "Hood has 3 distinct senses.",
       "examples": [
         "He put his hood up when it started to drizzle.",
         "The jacket has a hood that zips off.",
-        "Both coats have fur-lined hoods."
+        "Both coats have fur-lined hoods.",
+        "Steam was pouring out from under the hood.",
+        "He popped the hood and checked the oil.",
+        "A rock chipped the paint on the hood.",
+        "He still lives in the old hood.",
+        "Everybody in the hood knew her grandmother.",
+        "There's a new coffee place in my hood."
       ],
-      "senses": [],
-      "русский": "капюшон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a coat or sweatshirt that covers the head",
+          "body": [
+            "(капюшон)"
+          ],
+          "examples": [
+            "He put his hood up when it started to drizzle.",
+            "The jacket has a hood that zips off.",
+            "Both coats have fur-lined hoods."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The metal cover over the engine of a car",
+          "body": [
+            "(капот)"
+          ],
+          "examples": [
+            "Steam was pouring out from under the hood.",
+            "He popped the hood and checked the oil.",
+            "A rock chipped the paint on the hood."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The neighborhood someone lives in, in informal speech",
+          "body": [
+            "(район, свой квартал (разг.))",
+            "---"
+          ],
+          "examples": [
+            "He still lives in the old hood.",
+            "Everybody in the hood knew her grandmother.",
+            "There's a new coffee place in my hood."
+          ]
+        }
+      ],
+      "русский": "капюшон; капот; район, свой квартал (разг.)",
       "plural": "hoods",
       "countability": "countable",
       "contrast": "The vowel is short, like book, not like food. In American English the hood is also the front cover over a car engine."
@@ -992,14 +1386,43 @@
       "term": "veil",
       "ipa": "/veɪl/",
       "respell": "VAYL",
-      "meaning": "A piece of thin cloth worn over the face or head. ---",
+      "meaning": "Veil has 2 distinct senses.",
       "examples": [
         "The bride lifted her veil.",
         "The shop sells veils in three different lengths.",
-        "Her veil caught on the church door."
+        "Her veil caught on the church door.",
+        "The deal was made under a veil of secrecy.",
+        "A veil of mist hid the far shore.",
+        "He finally lifted the veil on how the company operates."
       ],
-      "senses": [],
-      "русский": "вуаль, фата",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of thin cloth worn over the face or head",
+          "body": [
+            "(вуаль, фата)"
+          ],
+          "examples": [
+            "The bride lifted her veil.",
+            "The shop sells veils in three different lengths.",
+            "Her veil caught on the church door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something that hides the truth or keeps something out of sight",
+          "body": [
+            "(завеса, покров)",
+            "---"
+          ],
+          "examples": [
+            "The deal was made under a veil of secrecy.",
+            "A veil of mist hid the far shore.",
+            "He finally lifted the veil on how the company operates."
+          ]
+        }
+      ],
+      "русский": "вуаль, фата; завеса, покров",
       "plural": "veils",
       "countability": "countable",
       "contrast": "Sounds exactly like vale, a valley."
@@ -1142,14 +1565,43 @@
       "term": "sleeve",
       "ipa": "/sliːv/",
       "respell": "SLEEV",
-      "meaning": "The part of a garment that covers the arm. ---",
+      "meaning": "Sleeve has 2 distinct senses.",
       "examples": [
         "He rolled up his sleeves and got to work.",
         "There's a stain on your left sleeve.",
-        "The dress has long sleeves and a high collar."
+        "The dress has long sleeves and a high collar.",
+        "The record was still in its original sleeve.",
+        "The barista slipped a cardboard sleeve onto my cup.",
+        "He keeps the discs in paper sleeves."
       ],
-      "senses": [],
-      "русский": "рукав",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a garment that covers the arm",
+          "body": [
+            "(рукав)"
+          ],
+          "examples": [
+            "He rolled up his sleeves and got to work.",
+            "There's a stain on your left sleeve.",
+            "The dress has long sleeves and a high collar."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stiff paper or plastic cover that something slides into",
+          "body": [
+            "(конверт, чехол, футляр)",
+            "---"
+          ],
+          "examples": [
+            "The record was still in its original sleeve.",
+            "The barista slipped a cardboard sleeve onto my cup.",
+            "He keeps the discs in paper sleeves."
+          ]
+        }
+      ],
+      "русский": "рукав; конверт, чехол, футляр",
       "plural": "sleeves",
       "countability": "countable"
     },
@@ -1173,14 +1625,43 @@
       "term": "cuff",
       "ipa": "/kʌf/",
       "respell": "KUF",
-      "meaning": "The band of material at the end of a sleeve, or the turned-up bottom of a pant leg. ---",
+      "meaning": "Cuff has 2 distinct senses.",
       "examples": [
         "He unbuttoned his cuffs and rolled up his sleeves.",
         "There was ink all over his cuff.",
-        "The tailor let out the cuffs on the pants."
+        "The tailor let out the cuffs on the pants.",
+        "The officer put the cuffs on him at the curb.",
+        "He sat in the back of the car in cuffs.",
+        "One cuff was too tight and left a mark."
       ],
-      "senses": [],
-      "русский": "манжета",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The band of material at the end of a sleeve, or the turned-up bottom of a pant leg",
+          "body": [
+            "(манжета)"
+          ],
+          "examples": [
+            "He unbuttoned his cuffs and rolled up his sleeves.",
+            "There was ink all over his cuff.",
+            "The tailor let out the cuffs on the pants."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of a pair of metal rings locked around a prisoner's wrists",
+          "body": [
+            "(наручник (обычно мн. — наручники))",
+            "---"
+          ],
+          "examples": [
+            "The officer put the cuffs on him at the curb.",
+            "He sat in the back of the car in cuffs.",
+            "One cuff was too tight and left a mark."
+          ]
+        }
+      ],
+      "русский": "манжета; наручник (обычно мн. — наручники)",
       "plural": "cuffs",
       "countability": "countable"
     },
@@ -1188,14 +1669,58 @@
       "term": "pocket",
       "ipa": "/ˈpɑːkɪt/",
       "respell": "PAH-kit",
-      "meaning": "A small bag sewn into a garment for carrying things. ---",
+      "meaning": "Pocket has 3 distinct senses.",
       "examples": [
         "He shoved his hands in his pockets.",
         "My phone is in my back pocket.",
-        "This coat has pockets on the inside too."
+        "This coat has pockets on the inside too.",
+        "There are still pockets of snow on the north slope.",
+        "The census found pockets of deep poverty in the county.",
+        "We hit a pocket of rough air over the mountains.",
+        "The repair came straight out of my own pocket.",
+        "The lawsuit was funded by donors with deep pockets.",
+        "Rising rents are hitting renters' pockets hard."
       ],
-      "senses": [],
-      "русский": "карман",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small bag sewn into a garment for carrying things",
+          "body": [
+            "(карман)"
+          ],
+          "examples": [
+            "He shoved his hands in his pockets.",
+            "My phone is in my back pocket.",
+            "This coat has pockets on the inside too."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small area or group that is different from everything around it",
+          "body": [
+            "(очаг, изолированный участок)"
+          ],
+          "examples": [
+            "There are still pockets of snow on the north slope.",
+            "The census found pockets of deep poverty in the county.",
+            "We hit a pocket of rough air over the mountains."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The money a person or group has available to spend",
+          "body": [
+            "(кошелёк, средства)",
+            "---"
+          ],
+          "examples": [
+            "The repair came straight out of my own pocket.",
+            "The lawsuit was funded by donors with deep pockets.",
+            "Rising rents are hitting renters' pockets hard."
+          ]
+        }
+      ],
+      "русский": "карман; очаг, изолированный участок; кошелёк, средства",
       "plural": "pockets",
       "countability": "countable"
     },
@@ -1218,14 +1743,43 @@
       "term": "seam",
       "ipa": "/siːm/",
       "respell": "SEEM",
-      "meaning": "The line where two pieces of cloth are sewn together. ---",
+      "meaning": "Seam has 2 distinct senses.",
       "examples": [
         "The seam split right down the side.",
         "Check the seams before you buy it.",
-        "She sewed the seam back up by hand."
+        "She sewed the seam back up by hand.",
+        "The mine follows a seam of coal three feet thick.",
+        "They struck a rich seam of silver in 1889.",
+        "The seam runs for miles under the mountain."
       ],
-      "senses": [],
-      "русский": "шов",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The line where two pieces of cloth are sewn together",
+          "body": [
+            "(шов)"
+          ],
+          "examples": [
+            "The seam split right down the side.",
+            "Check the seams before you buy it.",
+            "She sewed the seam back up by hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A layer of coal or ore lying between layers of rock",
+          "body": [
+            "(пласт (угля, руды))",
+            "---"
+          ],
+          "examples": [
+            "The mine follows a seam of coal three feet thick.",
+            "They struck a rich seam of silver in 1889.",
+            "The seam runs for miles under the mountain."
+          ]
+        }
+      ],
+      "русский": "шов; пласт (угля, руды)",
       "plural": "seams",
       "countability": "countable",
       "contrast": "Sounds exactly like seem, the verb."
@@ -1234,14 +1788,43 @@
       "term": "lining",
       "ipa": "/ˈlaɪnɪŋ/",
       "respell": "LY-ning",
-      "meaning": "A layer of material sewn inside a garment. ---",
+      "meaning": "Lining has 2 distinct senses.",
       "examples": [
         "The jacket has a silk lining.",
         "The lining of my coat is torn at the shoulder.",
-        "Winter boots with fleece linings are worth the money."
+        "Winter boots with fleece linings are worth the money.",
+        "Aspirin can irritate the lining of the stomach.",
+        "The furnace lining has to be replaced every few years.",
+        "Infection had inflamed the lining of his lungs."
       ],
-      "senses": [],
-      "русский": "подкладка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A layer of material sewn inside a garment",
+          "body": [
+            "(подкладка)"
+          ],
+          "examples": [
+            "The jacket has a silk lining.",
+            "The lining of my coat is torn at the shoulder.",
+            "Winter boots with fleece linings are worth the money."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The layer that covers the inside surface of an organ or a container",
+          "body": [
+            "(выстилка, внутренняя оболочка)",
+            "---"
+          ],
+          "examples": [
+            "Aspirin can irritate the lining of the stomach.",
+            "The furnace lining has to be replaced every few years.",
+            "Infection had inflamed the lining of his lungs."
+          ]
+        }
+      ],
+      "русский": "подкладка; выстилка, внутренняя оболочка",
       "plural": "linings",
       "countability": "countable"
     },
@@ -1326,14 +1909,73 @@
       "term": "patch",
       "ipa": "/pætʃ/",
       "respell": "PACH",
-      "meaning": "A small piece of cloth sewn over a hole or onto a garment as a decoration. ---",
+      "meaning": "Patch has 4 distinct senses.",
       "examples": [
         "She sewed a patch over the hole in his jeans.",
         "His jacket is covered in band patches.",
-        "The scouts get a patch for every skill they learn."
+        "The scouts get a patch for every skill they learn.",
+        "The car slid on a patch of ice.",
+        "We planted a patch of tomatoes behind the garage.",
+        "A patch of blue showed through the clouds.",
+        "The company released a security patch overnight.",
+        "Install the patch before you open the file.",
+        "Two patches later, the bug is still there.",
+        "The team is going through a rough patch.",
+        "We hit a bad patch after the layoffs.",
+        "It was a bumpy patch, but the marriage survived."
       ],
-      "senses": [],
-      "русский": "заплатка, нашивка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of cloth sewn over a hole or onto a garment as a decoration",
+          "body": [
+            "(заплатка, нашивка)"
+          ],
+          "examples": [
+            "She sewed a patch over the hole in his jeans.",
+            "His jacket is covered in band patches.",
+            "The scouts get a patch for every skill they learn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small area of ground or of a surface that differs from what is around it",
+          "body": [
+            "(участок, клочок, пятно)"
+          ],
+          "examples": [
+            "The car slid on a patch of ice.",
+            "We planted a patch of tomatoes behind the garage.",
+            "A patch of blue showed through the clouds."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small update that fixes a problem in software",
+          "body": [
+            "(патч, обновление (для программы))"
+          ],
+          "examples": [
+            "The company released a security patch overnight.",
+            "Install the patch before you open the file.",
+            "Two patches later, the bug is still there."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A short period of a particular kind, usually a difficult one",
+          "body": [
+            "(полоса, период (обычно трудный))",
+            "---"
+          ],
+          "examples": [
+            "The team is going through a rough patch.",
+            "We hit a bad patch after the layoffs.",
+            "It was a bumpy patch, but the marriage survived."
+          ]
+        }
+      ],
+      "русский": "заплатка, нашивка; участок, клочок, пятно; патч, обновление (для программы); полоса, период (обычно трудный)",
       "plural": "patches",
       "countability": "countable"
     },
@@ -1341,14 +1983,58 @@
       "term": "label",
       "ipa": "/ˈleɪbl/",
       "respell": "LAY-bul",
-      "meaning": "A small piece of material inside a garment giving its size and care instructions. ---",
+      "meaning": "Label has 3 distinct senses.",
       "examples": [
         "The label says dry clean only.",
         "He cut the itchy label out of his shirt.",
-        "Check the labels before you put anything in the dryer."
+        "Check the labels before you put anything in the dryer.",
+        "The band signed with a major label.",
+        "She started her own label after leaving the group.",
+        "Several independent labels are based in Nashville.",
+        "He hates the label 'genius'.",
+        "Once a kid gets a label like that, it sticks.",
+        "She refuses all political labels."
       ],
-      "senses": [],
-      "русский": "этикетка, ярлык (на одежде)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of material inside a garment giving its size and care instructions",
+          "body": [
+            "(этикетка, ярлык (на одежде))"
+          ],
+          "examples": [
+            "The label says dry clean only.",
+            "He cut the itchy label out of his shirt.",
+            "Check the labels before you put anything in the dryer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company that records and sells music",
+          "body": [
+            "(лейбл, звукозаписывающая компания)"
+          ],
+          "examples": [
+            "The band signed with a major label.",
+            "She started her own label after leaving the group.",
+            "Several independent labels are based in Nashville."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A word used to describe a person or a group, often unfairly",
+          "body": [
+            "(ярлык, клеймо)",
+            "---"
+          ],
+          "examples": [
+            "He hates the label 'genius'.",
+            "Once a kid gets a label like that, it sticks.",
+            "She refuses all political labels."
+          ]
+        }
+      ],
+      "русский": "этикетка, ярлык (на одежде); лейбл, звукозаписывающая компания; ярлык, клеймо",
       "plural": "labels",
       "countability": "countable"
     },
@@ -1356,14 +2042,58 @@
       "term": "tag",
       "ipa": "/tæɡ/",
       "respell": "TAG",
-      "meaning": "A small piece of card or plastic attached to a new garment showing the price or size. ---",
+      "meaning": "Tag has 3 distinct senses.",
       "examples": [
         "The tag is still on your sweater.",
         "She checked the price tag and put it back.",
-        "Cut the tags off before you wear it."
+        "Cut the tags off before you wear it.",
+        "The kids played tag in the backyard until dinner.",
+        "He's so fast that nobody can catch him at tag.",
+        "A game of tag broke out at recess.",
+        "Add a few tags so people can find the recipe.",
+        "The photo had my sister's name as a tag.",
+        "Search by tag instead of scrolling through everything."
       ],
-      "senses": [],
-      "русский": "бирка, ценник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of card or plastic attached to a new garment showing the price or size",
+          "body": [
+            "(бирка, ценник)"
+          ],
+          "examples": [
+            "The tag is still on your sweater.",
+            "She checked the price tag and put it back.",
+            "Cut the tags off before you wear it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A children's game in which one player chases the others and tries to touch one",
+          "body": [
+            "(салки, догонялки)"
+          ],
+          "examples": [
+            "The kids played tag in the backyard until dinner.",
+            "He's so fast that nobody can catch him at tag.",
+            "A game of tag broke out at recess."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A word attached to a photo, post, or file so that it can be found later",
+          "body": [
+            "(тег, метка)",
+            "---"
+          ],
+          "examples": [
+            "Add a few tags so people can find the recipe.",
+            "The photo had my sister's name as a tag.",
+            "Search by tag instead of scrolling through everything."
+          ]
+        }
+      ],
+      "русский": "бирка, ценник; салки, догонялки; тег, метка",
       "plural": "tags",
       "countability": "countable"
     },
@@ -1371,14 +2101,43 @@
       "term": "brim",
       "ipa": "/brɪm/",
       "respell": "BRIM",
-      "meaning": "The flat edge that sticks out around the bottom of a hat. ---",
+      "meaning": "Brim has 2 distinct senses.",
       "examples": [
         "He tipped the brim of his hat.",
         "A wide brim keeps the sun off your face.",
-        "The rain ran off the brims of their hats."
+        "The rain ran off the brims of their hats.",
+        "He filled the glass right to the brim.",
+        "Coffee slopped over the brim of the mug.",
+        "The bucket was full to the brim with rainwater."
       ],
-      "senses": [],
-      "русский": "поля (шляпы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The flat edge that sticks out around the bottom of a hat",
+          "body": [
+            "(поля (шляпы))"
+          ],
+          "examples": [
+            "He tipped the brim of his hat.",
+            "A wide brim keeps the sun off your face.",
+            "The rain ran off the brims of their hats."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The top edge of a cup, bowl, or other container",
+          "body": [
+            "(край (сосуда), кромка)",
+            "---"
+          ],
+          "examples": [
+            "He filled the glass right to the brim.",
+            "Coffee slopped over the brim of the mug.",
+            "The bucket was full to the brim with rainwater."
+          ]
+        }
+      ],
+      "русский": "поля (шляпы); край (сосуда), кромка",
       "plural": "brims",
       "countability": "countable"
     },
@@ -1431,14 +2190,73 @@
       "term": "snap",
       "ipa": "/snæp/",
       "respell": "SNAP",
-      "meaning": "A fastener with two parts that press together to close a garment. ---",
+      "meaning": "Snap has 4 distinct senses.",
       "examples": [
         "The shirt closes with snaps instead of buttons.",
         "One snap on the jacket is broken.",
-        "Baby clothes with snaps are so much easier."
+        "Baby clothes with snaps are so much easier.",
+        "We heard the snap of a twig behind us.",
+        "The lid closed with a satisfying snap.",
+        "Small snaps came from the fire all evening.",
+        "A late cold snap killed the tomato plants.",
+        "The snap lasted four days and then it warmed up.",
+        "Early snaps like that are rough on the citrus groves.",
+        "The test was a snap.",
+        "Changing the filter is a snap.",
+        "Getting the kids to bed is never a snap."
       ],
-      "senses": [],
-      "русский": "кнопка (застёжка)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fastener with two parts that press together to close a garment",
+          "body": [
+            "(кнопка (застёжка))"
+          ],
+          "examples": [
+            "The shirt closes with snaps instead of buttons.",
+            "One snap on the jacket is broken.",
+            "Baby clothes with snaps are so much easier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short sharp sound made by something breaking or shutting",
+          "body": [
+            "(щелчок, треск)"
+          ],
+          "examples": [
+            "We heard the snap of a twig behind us.",
+            "The lid closed with a satisfying snap.",
+            "Small snaps came from the fire all evening."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short spell of unusually cold weather",
+          "body": [
+            "(резкое похолодание)"
+          ],
+          "examples": [
+            "A late cold snap killed the tomato plants.",
+            "The snap lasted four days and then it warmed up.",
+            "Early snaps like that are rough on the citrus groves."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Something very easy to do",
+          "body": [
+            "(пустяк, лёгкое дело)",
+            "---"
+          ],
+          "examples": [
+            "The test was a snap.",
+            "Changing the filter is a snap.",
+            "Getting the kids to bed is never a snap."
+          ]
+        }
+      ],
+      "русский": "кнопка (застёжка); щелчок, треск; резкое похолодание; пустяк, лёгкое дело",
       "plural": "snaps",
       "countability": "countable",
       "contrast": "Americans call it a snap; the British call it a press stud or a popper."
@@ -1566,14 +2384,58 @@
       "term": "belt",
       "ipa": "/bɛlt/",
       "respell": "BELT",
-      "meaning": "A strip of leather or cloth worn around the waist. ---",
+      "meaning": "Belt has 3 distinct senses.",
       "examples": [
         "He tightened his belt one more notch.",
         "That dress comes with a matching belt.",
-        "His belts are all hanging on the closet door."
+        "His belts are all hanging on the closet door.",
+        "The mechanic replaced a cracked fan belt.",
+        "Boxes came down the conveyor belt one at a time.",
+        "A worn belt was making the dryer squeal.",
+        "Corn grows across a wide belt of the Midwest.",
+        "The storm hit the coastal belt hardest.",
+        "He grew up in the farm belt of central Illinois."
       ],
-      "senses": [],
-      "русский": "ремень, пояс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strip of leather or cloth worn around the waist",
+          "body": [
+            "(ремень, пояс)"
+          ],
+          "examples": [
+            "He tightened his belt one more notch.",
+            "That dress comes with a matching belt.",
+            "His belts are all hanging on the closet door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A loop of rubber or metal that carries things or turns parts inside a machine",
+          "body": [
+            "(приводной ремень; лента конвейера)"
+          ],
+          "examples": [
+            "The mechanic replaced a cracked fan belt.",
+            "Boxes came down the conveyor belt one at a time.",
+            "A worn belt was making the dryer squeal."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long stretch of land known for one particular feature",
+          "body": [
+            "(пояс, зона (район))",
+            "---"
+          ],
+          "examples": [
+            "Corn grows across a wide belt of the Midwest.",
+            "The storm hit the coastal belt hardest.",
+            "He grew up in the farm belt of central Illinois."
+          ]
+        }
+      ],
+      "русский": "ремень, пояс; приводной ремень; лента конвейера; пояс, зона (район)",
       "plural": "belts",
       "countability": "countable"
     },
@@ -1656,14 +2518,73 @@
       "term": "tie",
       "ipa": "/taɪ/",
       "respell": "TY",
-      "meaning": "A long narrow piece of cloth worn around the neck under a shirt collar. ---",
+      "meaning": "Tie has 4 distinct senses.",
       "examples": [
         "He loosened his tie on the way home.",
         "She gave him a silk tie for his birthday.",
-        "All his ties hang on a rack in the closet."
+        "All his ties hang on a rack in the closet.",
+        "The game ended in a 2-2 tie.",
+        "A tie in the first round means they play again on Friday.",
+        "Both runners crossed the line together, so the judges called it a tie.",
+        "She still has strong family ties in Ohio.",
+        "The two countries have close economic ties.",
+        "He cut every tie with his old firm.",
+        "The crew replaced a hundred rotten ties last summer.",
+        "We edged the flower bed with old railroad ties.",
+        "He counted the ties as he walked along the track."
       ],
-      "senses": [],
-      "русский": "галстук",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long narrow piece of cloth worn around the neck under a shirt collar",
+          "body": [
+            "(галстук)"
+          ],
+          "examples": [
+            "He loosened his tie on the way home.",
+            "She gave him a silk tie for his birthday.",
+            "All his ties hang on a rack in the closet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A result in which two players or teams finish with the same score",
+          "body": [
+            "(ничья)"
+          ],
+          "examples": [
+            "The game ended in a 2-2 tie.",
+            "A tie in the first round means they play again on Friday.",
+            "Both runners crossed the line together, so the judges called it a tie."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A close connection or relationship between people, groups, or countries",
+          "body": [
+            "(связь, узы)"
+          ],
+          "examples": [
+            "She still has strong family ties in Ohio.",
+            "The two countries have close economic ties.",
+            "He cut every tie with his old firm."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "One of the heavy wooden beams that a railroad track is laid across",
+          "body": [
+            "(шпала)",
+            "---"
+          ],
+          "examples": [
+            "The crew replaced a hundred rotten ties last summer.",
+            "We edged the flower bed with old railroad ties.",
+            "He counted the ties as he walked along the track."
+          ]
+        }
+      ],
+      "русский": "галстук; ничья; связь, узы; шпала",
       "plural": "ties",
       "countability": "countable"
     },

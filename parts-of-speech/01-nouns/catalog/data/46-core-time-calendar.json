@@ -37,14 +37,43 @@
       "term": "hour",
       "ipa": "/ˈaʊər/",
       "respell": "OW-ur",
-      "meaning": "A unit of time equal to sixty minutes. ---",
+      "meaning": "Hour has 2 distinct senses.",
       "examples": [
         "The flight takes about three hours.",
         "She studies for an hour every evening.",
-        "We waited in line for half an hour."
+        "We waited in line for half an hour.",
+        "Our hours are nine to five, Monday through Friday.",
+        "The library posted its new summer hours.",
+        "The professor holds office hours on Tuesdays."
       ],
-      "senses": [],
-      "русский": "час",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit of time equal to sixty minutes",
+          "body": [
+            "(час)"
+          ],
+          "examples": [
+            "The flight takes about three hours.",
+            "She studies for an hour every evening.",
+            "We waited in line for half an hour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The set times when a place is open or a person is available or at work",
+          "body": [
+            "(часы работы, приёмные часы)",
+            "---"
+          ],
+          "examples": [
+            "Our hours are nine to five, Monday through Friday.",
+            "The library posted its new summer hours.",
+            "The professor holds office hours on Tuesdays."
+          ]
+        }
+      ],
+      "русский": "час; часы работы, приёмные часы",
       "plural": "hours",
       "countability": "countable",
       "contrast": "The h is silent, so the word takes an, not a: an hour."
@@ -207,14 +236,43 @@
       "term": "age",
       "ipa": "/eɪdʒ/",
       "respell": "AYJ",
-      "meaning": "How old someone or something is, or a long period of history. ---",
+      "meaning": "Age has 2 distinct senses.",
       "examples": [
         "She learned to read at the age of four.",
         "Children under the age of twelve get in free.",
-        "It took ages to get through security."
+        "It took ages to get through security.",
+        "I haven't seen Marcus in ages.",
+        "It took ages to get through security.",
+        "We waited ages for a table and then gave up."
       ],
-      "senses": [],
-      "русский": "возраст; эпоха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How old someone or something is, or a long period of history",
+          "body": [
+            "(возраст; эпоха)"
+          ],
+          "examples": [
+            "She learned to read at the age of four.",
+            "Children under the age of twelve get in free.",
+            "It took ages to get through security."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very long time",
+          "body": [
+            "(целая вечность, очень долго)",
+            "---"
+          ],
+          "examples": [
+            "I haven't seen Marcus in ages.",
+            "It took ages to get through security.",
+            "We waited ages for a table and then gave up."
+          ]
+        }
+      ],
+      "русский": "возраст; эпоха; целая вечность, очень долго",
       "plural": "ages",
       "countability": "countable"
     },
@@ -901,14 +959,43 @@
       "term": "holiday",
       "ipa": "/ˈhɑːlədeɪ/",
       "respell": "HAH-luh-day",
-      "meaning": "A day when most people don't work, usually to mark something. ---",
+      "meaning": "Holiday has 2 distinct senses.",
       "examples": [
         "The bank is closed for the holiday.",
         "Thanksgiving is my favorite holiday.",
-        "We get ten paid holidays a year."
+        "We get ten paid holidays a year.",
+        "We're flying home for the holidays.",
+        "The store hires extra help over the holidays.",
+        "I gained five pounds during the holidays."
       ],
-      "senses": [],
-      "русский": "праздник, праздничный день",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A day when most people don't work, usually to mark something",
+          "body": [
+            "(праздник, праздничный день)"
+          ],
+          "examples": [
+            "The bank is closed for the holiday.",
+            "Thanksgiving is my favorite holiday.",
+            "We get ten paid holidays a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The weeks around Christmas and New Year, usually spoken of as the holidays",
+          "body": [
+            "(новогодние и рождественские праздники)",
+            "---"
+          ],
+          "examples": [
+            "We're flying home for the holidays.",
+            "The store hires extra help over the holidays.",
+            "I gained five pounds during the holidays."
+          ]
+        }
+      ],
+      "русский": "праздник, праздничный день; новогодние и рождественские праздники",
       "plural": "holidays",
       "countability": "countable",
       "contrast": "In American English a holiday is a праздник; in British English it also means отпуск, which Americans call a vacation."
@@ -1113,14 +1200,43 @@
       "term": "planner",
       "ipa": "/ˈplænər/",
       "respell": "PLAN-ur",
-      "meaning": "A book or app for writing down appointments and tasks by date. ---",
+      "meaning": "Planner has 2 distinct senses.",
       "examples": [
         "She writes every assignment in her planner.",
         "I bought a new planner for the school year.",
-        "Paper planners are popular again."
+        "Paper planners are popular again.",
+        "City planners want to widen the sidewalk.",
+        "We hired a wedding planner to handle the details.",
+        "A financial planner walked us through our retirement options."
       ],
-      "senses": [],
-      "русский": "ежедневник, планер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A book or app for writing down appointments and tasks by date",
+          "body": [
+            "(ежедневник, планер)"
+          ],
+          "examples": [
+            "She writes every assignment in her planner.",
+            "I bought a new planner for the school year.",
+            "Paper planners are popular again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone whose job is to plan something such as a city, a wedding, or a budget",
+          "body": [
+            "(проектировщик; организатор (мероприятий); плановик)",
+            "---"
+          ],
+          "examples": [
+            "City planners want to widen the sidewalk.",
+            "We hired a wedding planner to handle the details.",
+            "A financial planner walked us through our retirement options."
+          ]
+        }
+      ],
+      "русский": "ежедневник, планер; проектировщик; организатор (мероприятий); плановик",
       "plural": "planners",
       "countability": "countable"
     },
@@ -1699,14 +1815,43 @@
       "term": "chime",
       "ipa": "/tʃaɪm/",
       "respell": "CHYM",
-      "meaning": "A ringing sound made by a clock or a set of bells. ---",
+      "meaning": "Chime has 2 distinct senses.",
       "examples": [
         "The clock struck the hour with a soft chime.",
         "We could hear the chimes of the church bells.",
-        "Their doorbell has an old-fashioned chime."
+        "Their doorbell has an old-fashioned chime.",
+        "Wind chimes clinked on the porch all night.",
+        "She hung a brass chime beside the door.",
+        "The shop sells chimes made from old silverware."
       ],
-      "senses": [],
-      "русский": "бой часов, перезвон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A ringing sound made by a clock or a set of bells",
+          "body": [
+            "(бой часов, перезвон)"
+          ],
+          "examples": [
+            "The clock struck the hour with a soft chime.",
+            "We could hear the chimes of the church bells.",
+            "Their doorbell has an old-fashioned chime."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hanging set of tubes or bells that ring when they move or are struck",
+          "body": [
+            "(музыка ветра; набор колокольчиков)",
+            "---"
+          ],
+          "examples": [
+            "Wind chimes clinked on the porch all night.",
+            "She hung a brass chime beside the door.",
+            "The shop sells chimes made from old silverware."
+          ]
+        }
+      ],
+      "русский": "бой часов, перезвон; музыка ветра; набор колокольчиков",
       "plural": "chimes",
       "countability": "countable"
     },
@@ -1729,14 +1874,58 @@
       "term": "break",
       "ipa": "/breɪk/",
       "respell": "BRAYK",
-      "meaning": "A short period of rest from work or activity. ---",
+      "meaning": "Break has 3 distinct senses.",
       "examples": [
         "Let's take a ten-minute break.",
         "She reads during her lunch break.",
-        "The teachers get two breaks a day."
+        "The teachers get two breaks a day.",
+        "The X-ray showed a clean break just above his wrist.",
+        "We waited for a break in the clouds to take off.",
+        "The dogs got out through a break in the fence.",
+        "That role was her big break.",
+        "Detectives finally caught a break in the case.",
+        "All he needs is one lucky break."
       ],
-      "senses": [],
-      "русский": "перерыв",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short period of rest from work or activity",
+          "body": [
+            "(перерыв)"
+          ],
+          "examples": [
+            "Let's take a ten-minute break.",
+            "She reads during her lunch break.",
+            "The teachers get two breaks a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where something has cracked apart or been interrupted",
+          "body": [
+            "(разлом, разрыв; просвет)"
+          ],
+          "examples": [
+            "The X-ray showed a clean break just above his wrist.",
+            "We waited for a break in the clouds to take off.",
+            "The dogs got out through a break in the fence."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A sudden piece of good luck or a chance to succeed",
+          "body": [
+            "(счастливый случай, удача)",
+            "---"
+          ],
+          "examples": [
+            "That role was her big break.",
+            "Detectives finally caught a break in the case.",
+            "All he needs is one lucky break."
+          ]
+        }
+      ],
+      "русский": "перерыв; разлом, разрыв; просвет; счастливый случай, удача",
       "plural": "breaks",
       "countability": "countable",
       "contrast": "Break and brake (тормоз) are perfect homophones in American English."
@@ -1745,14 +1934,43 @@
       "term": "recess",
       "ipa": "/ˈriːsɛs/",
       "respell": "REE-ses",
-      "meaning": "A break during a school day or a formal meeting. ---",
+      "meaning": "Recess has 2 distinct senses.",
       "examples": [
         "The kids play kickball at recess.",
         "The judge called a short recess.",
-        "Congress is on summer recess."
+        "Congress is on summer recess.",
+        "A small statue stood in a recess beside the door.",
+        "They built shelves into the recess.",
+        "The bed fits neatly into the recess."
       ],
-      "senses": [],
-      "русский": "перемена (в школе); перерыв в заседании",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A break during a school day or a formal meeting",
+          "body": [
+            "(перемена (в школе); перерыв в заседании)"
+          ],
+          "examples": [
+            "The kids play kickball at recess.",
+            "The judge called a short recess.",
+            "Congress is on summer recess."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A space set back into a wall",
+          "body": [
+            "(ниша, углубление (в стене))",
+            "---"
+          ],
+          "examples": [
+            "A small statue stood in a recess beside the door.",
+            "They built shelves into the recess.",
+            "The bed fits neatly into the recess."
+          ]
+        }
+      ],
+      "русский": "перемена (в школе); перерыв в заседании; ниша, углубление (в стене)",
       "plural": "recesses",
       "countability": "countable",
       "contrast": "Americans stress the first syllable — REE-ses; the British say ri-SESS."
@@ -1808,14 +2026,58 @@
       "term": "gap",
       "ipa": "/ɡæp/",
       "respell": "GAP",
-      "meaning": "An empty stretch of time between two things. ---",
+      "meaning": "Gap has 3 distinct senses.",
       "examples": [
         "There's a three-year gap between the sisters.",
         "He took a gap year before college.",
-        "Fill the gaps in your schedule with study time."
+        "Fill the gaps in your schedule with study time.",
+        "The dog squeezed through a gap in the fence.",
+        "Cold air came in through the gap under the door.",
+        "There were wide gaps between the boards on the porch.",
+        "The gap between rich and poor keeps growing.",
+        "There's still a pay gap between men and women in the field.",
+        "The team closed the gap to three points."
       ],
-      "senses": [],
-      "русский": "промежуток, перерыв",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An empty stretch of time between two things",
+          "body": [
+            "(промежуток, перерыв)"
+          ],
+          "examples": [
+            "There's a three-year gap between the sisters.",
+            "He took a gap year before college.",
+            "Fill the gaps in your schedule with study time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A space or opening between two things or in something solid",
+          "body": [
+            "(щель, зазор, промежуток)"
+          ],
+          "examples": [
+            "The dog squeezed through a gap in the fence.",
+            "Cold air came in through the gap under the door.",
+            "There were wide gaps between the boards on the porch."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A large difference between two amounts, groups, or levels",
+          "body": [
+            "(разрыв, различие)",
+            "---"
+          ],
+          "examples": [
+            "The gap between rich and poor keeps growing.",
+            "There's still a pay gap between men and women in the field.",
+            "The team closed the gap to three points."
+          ]
+        }
+      ],
+      "русский": "промежуток, перерыв; щель, зазор, промежуток; разрыв, различие",
       "plural": "gaps",
       "countability": "countable"
     },
@@ -1899,14 +2161,58 @@
       "term": "timeout",
       "ipa": "/ˈtaɪmaʊt/",
       "respell": "TYM-owt",
-      "meaning": "A short break called during a game or activity. ---",
+      "meaning": "Timeout has 3 distinct senses.",
       "examples": [
         "The coach called a timeout.",
         "Each team gets three timeouts per half.",
-        "She put her son in timeout for hitting."
+        "She put her son in timeout for hitting.",
+        "Her son got a five-minute timeout for hitting his sister.",
+        "He spent the whole timeout on the bottom stair.",
+        "Timeouts work better than yelling, the book says.",
+        "The upload failed with a timeout.",
+        "Set the timeout to thirty seconds.",
+        "Slow servers cause a lot of timeouts."
       ],
-      "senses": [],
-      "русский": "тайм-аут, перерыв",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short break called during a game or activity",
+          "body": [
+            "(тайм-аут, перерыв)"
+          ],
+          "examples": [
+            "The coach called a timeout.",
+            "Each team gets three timeouts per half.",
+            "She put her son in timeout for hitting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short period in which a child has to sit quietly alone as a punishment",
+          "body": [
+            "(тайм-аут (наказание для ребёнка))"
+          ],
+          "examples": [
+            "Her son got a five-minute timeout for hitting his sister.",
+            "He spent the whole timeout on the bottom stair.",
+            "Timeouts work better than yelling, the book says."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The point at which a computer or phone stops waiting for a response and gives up",
+          "body": [
+            "(тайм-аут (истечение времени ожидания))",
+            "---"
+          ],
+          "examples": [
+            "The upload failed with a timeout.",
+            "Set the timeout to thirty seconds.",
+            "Slow servers cause a lot of timeouts."
+          ]
+        }
+      ],
+      "русский": "тайм-аут, перерыв; тайм-аут (наказание для ребёнка); тайм-аут (истечение времени ожидания)",
       "plural": "timeouts",
       "countability": "countable"
     },
@@ -2143,14 +2449,43 @@
       "term": "infancy",
       "ipa": "/ˈɪnfənsi/",
       "respell": "IN-fuhn-see",
-      "meaning": "The earliest period of a baby's life. ---",
+      "meaning": "Infancy has 2 distinct senses.",
       "examples": [
         "He was adopted in infancy.",
         "The condition is usually caught in infancy.",
-        "The technology is still in its infancy."
+        "The technology is still in its infancy.",
+        "Electric aircraft are still in their infancy.",
+        "The technology was in its infancy when they invested.",
+        "Online shopping was in its infancy back then."
       ],
-      "senses": [],
-      "русский": "младенчество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The earliest period of a baby's life",
+          "body": [
+            "(младенчество)"
+          ],
+          "examples": [
+            "He was adopted in infancy.",
+            "The condition is usually caught in infancy.",
+            "The technology is still in its infancy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The earliest stage in the development of something",
+          "body": [
+            "(начальная стадия, зачаточное состояние)",
+            "---"
+          ],
+          "examples": [
+            "Electric aircraft are still in their infancy.",
+            "The technology was in its infancy when they invested.",
+            "Online shopping was in its infancy back then."
+          ]
+        }
+      ],
+      "русский": "младенчество; начальная стадия, зачаточное состояние",
       "countability": "uncountable"
     },
     {
@@ -2230,14 +2565,43 @@
       "term": "prime",
       "ipa": "/praɪm/",
       "respell": "PRYM",
-      "meaning": "The best and strongest years of someone's life or career. ---",
+      "meaning": "Prime has 2 distinct senses.",
       "examples": [
         "He was a great runner in his prime.",
         "The company is past its prime.",
-        "She's in the prime of her career."
+        "She's in the prime of her career.",
+        "Seventeen is a prime.",
+        "The list of primes starts 2, 3, 5, 7.",
+        "She wrote a program that hunts for very large primes."
       ],
-      "senses": [],
-      "русский": "расцвет сил",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The best and strongest years of someone's life or career",
+          "body": [
+            "(расцвет сил)"
+          ],
+          "examples": [
+            "He was a great runner in his prime.",
+            "The company is past its prime.",
+            "She's in the prime of her career."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A whole number that can be divided evenly only by itself and one",
+          "body": [
+            "(простое число)",
+            "---"
+          ],
+          "examples": [
+            "Seventeen is a prime.",
+            "The list of primes starts 2, 3, 5, 7.",
+            "She wrote a program that hunts for very large primes."
+          ]
+        }
+      ],
+      "русский": "расцвет сил; простое число",
       "countability": "uncountable"
     },
     {
@@ -2272,14 +2636,43 @@
       "term": "dynasty",
       "ipa": "/ˈdaɪnəsti/",
       "respell": "DY-nuh-stee",
-      "meaning": "A line of rulers or leaders from the same family. ---",
+      "meaning": "Dynasty has 2 distinct senses.",
       "examples": [
         "The dynasty ruled for three hundred years.",
         "That team built a dynasty in the 1990s.",
-        "Several dynasties rose and fell in the valley."
+        "Several dynasties rose and fell in the valley.",
+        "Five titles in seven years made them a dynasty.",
+        "Fans still argue about which dynasty was the greatest.",
+        "He built a dynasty at a school nobody had heard of."
       ],
-      "senses": [],
-      "русский": "династия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line of rulers or leaders from the same family",
+          "body": [
+            "(династия)"
+          ],
+          "examples": [
+            "The dynasty ruled for three hundred years.",
+            "That team built a dynasty in the 1990s.",
+            "Several dynasties rose and fell in the valley."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sports team or club that stays dominant for many years",
+          "body": [
+            "(династия (о команде, годами выигрывающей))",
+            "---"
+          ],
+          "examples": [
+            "Five titles in seven years made them a dynasty.",
+            "Fans still argue about which dynasty was the greatest.",
+            "He built a dynasty at a school nobody had heard of."
+          ]
+        }
+      ],
+      "русский": "династия; династия (о команде, годами выигрывающей)",
       "plural": "dynasties",
       "countability": "countable",
       "contrast": "Americans say DY-nuh-stee; the British say DIN-uh-stee."
@@ -2304,28 +2697,86 @@
       "term": "past",
       "ipa": "/pæst/",
       "respell": "PAST",
-      "meaning": "The time before now. ---",
+      "meaning": "Past has 2 distinct senses.",
       "examples": [
         "You can't change the past.",
         "In the past, letters took weeks to arrive.",
-        "She rarely talks about her past."
+        "She rarely talks about her past.",
+        "Nobody in town knew about his past.",
+        "She's a woman with a past.",
+        "The candidate's past came up in every interview."
       ],
-      "senses": [],
-      "русский": "прошлое",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The time before now",
+          "body": [
+            "(прошлое)"
+          ],
+          "examples": [
+            "You can't change the past.",
+            "In the past, letters took weeks to arrive.",
+            "She rarely talks about her past."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The events of someone's earlier life, especially ones they would rather hide",
+          "body": [
+            "(прошлое (человека), былые дела)",
+            "---"
+          ],
+          "examples": [
+            "Nobody in town knew about his past.",
+            "She's a woman with a past.",
+            "The candidate's past came up in every interview."
+          ]
+        }
+      ],
+      "русский": "прошлое; прошлое (человека), былые дела",
       "countability": "uncountable"
     },
     {
       "term": "present",
       "ipa": "/ˈprɛzənt/",
       "respell": "PREZ-uhnt",
-      "meaning": "The time that is happening now. ---",
+      "meaning": "Present has 2 distinct senses.",
       "examples": [
         "Try to live in the present.",
         "Up to the present, nobody has complained.",
-        "The present is all we really have."
+        "The present is all we really have.",
+        "She opened her birthday presents after dinner.",
+        "I still need to buy a present for my nephew.",
+        "The present came wrapped in plain brown paper."
       ],
-      "senses": [],
-      "русский": "настоящее, настоящее время",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The time that is happening now",
+          "body": [
+            "(настоящее, настоящее время)"
+          ],
+          "examples": [
+            "Try to live in the present.",
+            "Up to the present, nobody has complained.",
+            "The present is all we really have."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thing given to someone as a gift",
+          "body": [
+            "(подарок)",
+            "---"
+          ],
+          "examples": [
+            "She opened her birthday presents after dinner.",
+            "I still need to buy a present for my nephew.",
+            "The present came wrapped in plain brown paper."
+          ]
+        }
+      ],
+      "русский": "настоящее, настоящее время; подарок",
       "countability": "uncountable",
       "contrast": "The noun is PREZ-uhnt; the verb present (представлять) is pri-ZENT."
     },
@@ -2419,14 +2870,43 @@
       "term": "routine",
       "ipa": "/ruːˈtiːn/",
       "respell": "roo-TEEN",
-      "meaning": "A regular way of doing things in the same order. ---",
+      "meaning": "Routine has 2 distinct senses.",
       "examples": [
         "My morning routine takes about an hour.",
         "The kids do better with a routine.",
-        "New routines take a few weeks to stick."
+        "New routines take a few weeks to stick.",
+        "She nailed her floor routine.",
+        "The comedian opened with his airport routine.",
+        "They practiced the dance routine for weeks."
       ],
-      "senses": [],
-      "русский": "распорядок, привычный режим",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A regular way of doing things in the same order",
+          "body": [
+            "(распорядок, привычный режим)"
+          ],
+          "examples": [
+            "My morning routine takes about an hour.",
+            "The kids do better with a routine.",
+            "New routines take a few weeks to stick."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set piece performed by a dancer, gymnast, or comedian",
+          "body": [
+            "(номер, программа (выступление))",
+            "---"
+          ],
+          "examples": [
+            "She nailed her floor routine.",
+            "The comedian opened with his airport routine.",
+            "They practiced the dance routine for weeks."
+          ]
+        }
+      ],
+      "русский": "распорядок, привычный режим; номер, программа (выступление)",
       "plural": "routines",
       "countability": "countable",
       "contrast": "The stress falls on the second syllable — roo-TEEN, unlike Russian «рутИна», and the English word is neutral, not negative."
@@ -2491,14 +2971,43 @@
       "term": "rush",
       "ipa": "/rʌʃ/",
       "respell": "RUSH",
-      "meaning": "A period of hurrying, or a sudden busy stretch of time. ---",
+      "meaning": "Rush has 2 distinct senses.",
       "examples": [
         "Avoid the morning rush if you can.",
         "There's no rush on the paperwork.",
-        "The store hires extra help for the holiday rush."
+        "The store hires extra help for the holiday rush.",
+        "He felt a rush of adrenaline as the doors opened.",
+        "Skydiving gave her a rush she never forgot.",
+        "There was a rush of relief when the results came back."
       ],
-      "senses": [],
-      "русский": "спешка; наплыв, час пик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period of hurrying, or a sudden busy stretch of time",
+          "body": [
+            "(спешка; наплыв, час пик)"
+          ],
+          "examples": [
+            "Avoid the morning rush if you can.",
+            "There's no rush on the paperwork.",
+            "The store hires extra help for the holiday rush."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden strong feeling or burst of energy",
+          "body": [
+            "(прилив (чувств), всплеск, кайф)",
+            "---"
+          ],
+          "examples": [
+            "He felt a rush of adrenaline as the doors opened.",
+            "Skydiving gave her a rush she never forgot.",
+            "There was a rush of relief when the results came back."
+          ]
+        }
+      ],
+      "русский": "спешка; наплыв, час пик; прилив (чувств), всплеск, кайф",
       "countability": "uncountable"
     },
     {
@@ -2536,14 +3045,43 @@
       "term": "event",
       "ipa": "/ɪˈvɛnt/",
       "respell": "ih-VENT",
-      "meaning": "Something that happens, especially something planned or important. ---",
+      "meaning": "Event has 2 distinct senses.",
       "examples": [
         "The fundraiser is our biggest event of the year.",
         "Events moved faster than anyone expected.",
-        "In the event of rain, we'll move indoors."
+        "In the event of rain, we'll move indoors.",
+        "She's entered in three events at the state meet.",
+        "The 400-meter event starts right after lunch.",
+        "Skiing has more Olympic events than it used to."
       ],
-      "senses": [],
-      "русский": "событие; мероприятие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something that happens, especially something planned or important",
+          "body": [
+            "(событие; мероприятие)"
+          ],
+          "examples": [
+            "The fundraiser is our biggest event of the year.",
+            "Events moved faster than anyone expected.",
+            "In the event of rain, we'll move indoors."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single race or contest within a larger sports meeting",
+          "body": [
+            "(вид программы, дисциплина (на соревнованиях))",
+            "---"
+          ],
+          "examples": [
+            "She's entered in three events at the state meet.",
+            "The 400-meter event starts right after lunch.",
+            "Skiing has more Olympic events than it used to."
+          ]
+        }
+      ],
+      "русский": "событие; мероприятие; вид программы, дисциплина (на соревнованиях)",
       "plural": "events",
       "countability": "countable"
     },
@@ -2594,14 +3132,43 @@
       "term": "start",
       "ipa": "/stɑːrt/",
       "respell": "START",
-      "meaning": "The point at which something begins. ---",
+      "meaning": "Start has 2 distinct senses.",
       "examples": [
         "We got off to a bad start.",
         "The race has a staggered start.",
-        "After two false starts, the engine caught."
+        "After two false starts, the engine caught.",
+        "He woke with a start when the phone rang.",
+        "That noise gave me quite a start.",
+        "She sat up with a start and looked at the clock."
       ],
-      "senses": [],
-      "русский": "начало, старт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The point at which something begins",
+          "body": [
+            "(начало, старт)"
+          ],
+          "examples": [
+            "We got off to a bad start.",
+            "The race has a staggered start.",
+            "After two false starts, the engine caught."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden jerk of the body caused by surprise or fright",
+          "body": [
+            "(вздрагивание, испуг)",
+            "---"
+          ],
+          "examples": [
+            "He woke with a start when the phone rang.",
+            "That noise gave me quite a start.",
+            "She sat up with a start and looked at the clock."
+          ]
+        }
+      ],
+      "русский": "начало, старт; вздрагивание, испуг",
       "plural": "starts",
       "countability": "countable"
     },
@@ -2609,14 +3176,43 @@
       "term": "end",
       "ipa": "/ɛnd/",
       "respell": "END",
-      "meaning": "The final part or point of something. ---",
+      "meaning": "End has 2 distinct senses.",
       "examples": [
         "Stay until the end of the meeting.",
         "Rent is due at the end of the month.",
-        "Both ends of the trip went smoothly."
+        "Both ends of the trip went smoothly.",
+        "The money is only a means to an end.",
+        "To that end, we hired two more people.",
+        "He'll use anyone to serve his own ends."
       ],
-      "senses": [],
-      "русский": "конец, окончание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The final part or point of something",
+          "body": [
+            "(конец, окончание)"
+          ],
+          "examples": [
+            "Stay until the end of the meeting.",
+            "Rent is due at the end of the month.",
+            "Both ends of the trip went smoothly."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A goal that someone is trying to reach",
+          "body": [
+            "(цель)",
+            "---"
+          ],
+          "examples": [
+            "The money is only a means to an end.",
+            "To that end, we hired two more people.",
+            "He'll use anyone to serve his own ends."
+          ]
+        }
+      ],
+      "русский": "конец, окончание; цель",
       "plural": "ends",
       "countability": "countable"
     },
@@ -2624,14 +3220,43 @@
       "term": "tenure",
       "ipa": "/ˈtɛnjər/",
       "respell": "TEN-yur",
-      "meaning": "The period during which someone holds a job or an office. ---",
+      "meaning": "Tenure has 2 distinct senses.",
       "examples": [
         "Crime fell during her tenure as mayor.",
         "He earned tenure after six years of teaching.",
-        "His tenure at the company was short."
+        "His tenure at the company was short.",
+        "She got tenure in her seventh year.",
+        "He was denied tenure and left for another school.",
+        "Fewer teaching jobs come with tenure these days."
       ],
-      "senses": [],
-      "русский": "срок пребывания в должности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The period during which someone holds a job or an office",
+          "body": [
+            "(срок пребывания в должности)"
+          ],
+          "examples": [
+            "Crime fell during her tenure as mayor.",
+            "He earned tenure after six years of teaching.",
+            "His tenure at the company was short."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A permanent university position that protects a professor from being fired",
+          "body": [
+            "(постоянная должность в вузе, бессрочный контракт)",
+            "---"
+          ],
+          "examples": [
+            "She got tenure in her seventh year.",
+            "He was denied tenure and left for another school.",
+            "Fewer teaching jobs come with tenure these days."
+          ]
+        }
+      ],
+      "русский": "срок пребывания в должности; постоянная должность в вузе, бессрочный контракт",
       "countability": "uncountable"
     },
     {

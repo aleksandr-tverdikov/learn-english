@@ -60,16 +60,36 @@ Measure has 2 distinct senses.
 ### unit
 
 **Pronunciation:** /ˈjuːnɪt/ &middot; *YOO-nit*
-**Русский:** единица измерения
+**Русский:** единица измерения; подразделение, отряд, отдел; квартира (в жилом комплексе); агрегат, блок, установка
 **Plural:** *units*
 **Countability:** countable
 **Contrast:** It starts with a y sound, so it takes a, not an: a unit.
 
-A fixed amount used as a standard for measuring.
+Unit has 4 distinct senses.
+
+**1. A fixed amount used as a standard for measuring.** (единица измерения)
 
 1. The meter is the basic *unit* of length in the metric system.
 2. Convert both numbers to the same *units* before you add them.
 3. Electricity is billed by the *unit*.
+
+**2. A group of people forming one part of a larger organization.** (подразделение, отряд, отдел)
+
+4. His *unit* was stationed in Germany for two years.
+5. She works in the department's research *unit*.
+6. Both *units* report to the same commander.
+
+**3. A single apartment or home inside a larger building or complex.** (квартира (в жилом комплексе))
+
+7. The building has forty-eight *units*.
+8. Their *unit* is on the third floor, facing the park.
+9. Two *units* are still available for rent.
+
+**4. A separate machine or piece of equipment that does one job.** (агрегат, блок, установка)
+
+10. The air conditioning *unit* sits on the roof.
+11. A new heating *unit* runs a few thousand dollars.
+12. The *unit* quit in the middle of the heat wave.
 
 ---
 
@@ -99,15 +119,23 @@ Size has 2 distinct senses.
 ### length
 
 **Pronunciation:** /lɛŋθ/ &middot; *LENGTH*
-**Русский:** длина
+**Русский:** длина; продолжительность
 **Plural:** *lengths*
 **Countability:** countable
 
-The measurement of something from one end to the other.
+Length has 2 distinct senses.
+
+**1. The measurement of something from one end to the other.** (длина)
 
 1. Measure the *length* of the table first.
 2. The pool is fifty meters in *length*.
 3. Cut two *lengths* of rope the same size.
+
+**2. The amount of time that something lasts.** (продолжительность)
+
+4. The *length* of the movie surprised me.
+5. Our meetings vary in *length*.
+6. There is a limit on the *length* of each visit.
 
 ---
 
@@ -154,15 +182,23 @@ Height has 2 distinct senses.
 ### depth
 
 **Pronunciation:** /dɛpθ/ &middot; *DEPTH*
-**Русский:** глубина
+**Русский:** глубина; глубина (мысли, чувств), содержательность
 **Plural:** *depths*
 **Countability:** countable
 
-How deep something is from the top down.
+Depth has 2 distinct senses.
+
+**1. How deep something is from the top down.** (глубина)
 
 1. The lake reaches a *depth* of sixty feet.
 2. Plant the bulbs at a *depth* of four inches.
 3. Divers explored the *depths* of the canyon.
+
+**2. Serious quality in someone's thought, feeling, or knowledge.** (глубина (мысли, чувств), содержательность)
+
+4. Her essay has real *depth*.
+5. He speaks about the region with unusual *depth* of knowledge.
+6. The villain is entertaining but lacks *depth*.
 
 ---
 
@@ -198,16 +234,24 @@ The amount of space between two places or things.
 ### weight
 
 **Pronunciation:** /weɪt/ &middot; *WAYT*
-**Русский:** вес; гиря, гантель
+**Русский:** вес; гиря, гантель; вес, влияние, значимость
 **Plural:** *weights*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Sounds exactly like wait; the gh is silent.
 
-How heavy something is, or a heavy object used for lifting or holding something down.
+Weight has 2 distinct senses.
+
+**1. How heavy something is, or a heavy object used for lifting or holding something down.** (вес; гиря, гантель)
 
 1. The scale shows my *weight* in pounds.
 2. He lifts *weights* three mornings a week.
 3. Put a *weight* on the papers so they don't blow away.
+
+**2. The importance or influence that something or someone has.** (вес, влияние, значимость)
+
+4. Her opinion carries a lot of *weight* around here.
+5. The judge gave little *weight* to that testimony.
+6. He threw his *weight* behind the new proposal.
 
 ---
 
@@ -327,30 +371,46 @@ Speed in a particular direction, used in science.
 ### pace
 
 **Pronunciation:** /peɪs/ &middot; *PAYS*
-**Русский:** темп, скорость
+**Русский:** темп, скорость; шаг (как мера расстояния)
 **Plural:** *paces*
 **Countability:** countable
 
-The speed at which someone walks, runs, or works.
+Pace has 2 distinct senses.
+
+**1. The speed at which someone walks, runs, or works.** (темп, скорость)
 
 1. She set a fast *pace* for the rest of us.
 2. He walked at a steady *pace*.
 3. The runners hit very different *paces* in the last mile.
+
+**2. A single step, used as a rough measure of distance.** (шаг (как мера расстояния))
+
+4. Take three *paces* back from the line.
+5. The well is about twenty *paces* from the door.
+6. He walked ten *paces*, turned, and fired.
 
 ---
 
 ### rate
 
 **Pronunciation:** /reɪt/ &middot; *RAYT*
-**Русский:** скорость, темп; ставка
+**Русский:** скорость, темп; ставка; тариф, расценка, ставка (оплаты)
 **Plural:** *rates*
 **Countability:** countable
 
-How fast something happens, measured against time or another amount.
+Rate has 2 distinct senses.
+
+**1. How fast something happens, measured against time or another amount.** (скорость, темп; ставка)
 
 1. Water was leaking at a *rate* of a gallon an hour.
 2. His heart *rate* dropped once he sat down.
 3. Interest *rates* went up again.
+
+**2. A fixed price charged for a service.** (тариф, расценка, ставка (оплаты))
+
+4. The hotel's winter *rates* are much lower.
+5. What's your hourly *rate*?
+6. Postal *rates* go up again in July.
 
 ---
 
@@ -411,14 +471,22 @@ A measurement such as length, width, or height.
 ### density
 
 **Pronunciation:** /ˈdɛnsəti/ &middot; *DEN-suh-tee*
-**Русский:** плотность
+**Русский:** плотность; плотность (населения, застройки)
 **Countability:** uncountable
 
-How much mass a material has for its size.
+Density has 2 distinct senses.
+
+**1. How much mass a material has for its size.** (плотность)
 
 1. Lead has a much higher *density* than aluminum.
 2. Oil floats on water because of its lower *density*.
 3. The lab measured the *density* of each sample.
+
+**2. How many people or things there are in a given area.** (плотность (населения, застройки))
+
+4. The city has the highest population *density* in the state.
+5. Traffic *density* doubles during the morning rush.
+6. New zoning rules allow greater *density* downtown.
 
 ---
 
@@ -691,15 +759,35 @@ The adjusting of an instrument so that its readings are correct.
 ### reading
 
 **Pronunciation:** /ˈriːdɪŋ/ &middot; *REE-ding*
-**Русский:** показание (прибора)
+**Русский:** показание (прибора); чтение (занятие, навык); публичное чтение (авторское); толкование, трактовка
 **Plural:** *readings*
 **Countability:** countable
 
-A figure shown by a measuring instrument.
+Reading has 4 distinct senses.
+
+**1. A figure shown by a measuring instrument.** (показание (прибора))
 
 1. The meter *reading* was higher than last month.
 2. Take a *reading* every hour.
 3. Both *readings* came out the same.
+
+**2. The activity or skill of getting meaning from written words.** (чтение (занятие, навык))
+
+4. *Reading* is her favorite way to spend an evening.
+5. The school added twenty minutes of *reading* to every day.
+6. His *reading* has improved a lot this year.
+
+**3. An event at which a writer reads work aloud to an audience.** (публичное чтение (авторское))
+
+7. The poet is giving a *reading* at the library on Friday.
+8. About forty people showed up for the *reading*.
+9. There's a *reading* and a signing afterward.
+
+**4. A particular way of understanding something.** (толкование, трактовка)
+
+10. My *reading* of the contract is that we can cancel anytime.
+11. That's one *reading* of the poem, but not the only one.
+12. His *reading* of the situation turned out to be right.
 
 ---
 
@@ -721,16 +809,30 @@ The amount of a medicine to be taken and how often.
 ### sample
 
 **Pronunciation:** /ˈsæmpəl/ &middot; *SAM-puhl*
-**Русский:** образец, проба
+**Русский:** образец, проба; пробник, бесплатный образец; сэмпл (фрагмент записи)
 **Plural:** *samples*
 **Countability:** countable
 **Contrast:** Americans say SAM-puhl with a short a; the British say SAHM-puhl.
 
-A small part taken from something so that it can be tested.
+Sample has 3 distinct senses.
+
+**1. A small part taken from something so that it can be tested.** (образец, проба)
 
 1. The lab tested a water *sample* from the well.
 2. Take a *sample* from the middle of the batch.
 3. All three *samples* came back clean.
+
+**2. A small free portion given out so people can try a product.** (пробник, бесплатный образец)
+
+4. They were handing out *samples* of the new cereal.
+5. The counter gave me a *sample* of the perfume.
+6. Free *samples* always draw a crowd.
+
+**3. A short piece of an existing recording used in a new song.** (сэмпл (фрагмент записи))
+
+7. The chorus is built around a *sample* from a 70s record.
+8. He cleared the *sample* before releasing the track.
+9. You can hear two *samples* layered under the beat.
 
 ---
 
@@ -812,59 +914,103 @@ How large something is or how far it reaches.
 ### limit
 
 **Pronunciation:** /ˈlɪmɪt/ &middot; *LIM-it*
-**Русский:** предел, ограничение
+**Русский:** предел, ограничение; граница, черта (города)
 **Plural:** *limits*
 **Countability:** countable
 
-The greatest amount that is allowed or possible.
+Limit has 2 distinct senses.
+
+**1. The greatest amount that is allowed or possible.** (предел, ограничение)
 
 1. The speed *limit* here is thirty-five.
 2. There's a *limit* to how much that shelf will hold.
 3. Both weight *limits* were raised last year.
+
+**2. The line where an area ends; its boundary.** (граница, черта (города))
+
+4. The speed drops to 25 inside the city *limits*.
+5. Their farm sits just outside the town *limits*.
+6. Fireworks are banned within the village *limits*.
 
 ---
 
 ### load
 
 **Pronunciation:** /loʊd/ &middot; *LOHD*
-**Русский:** нагрузка, груз
+**Русский:** нагрузка, груз; загрузка (стиральной машины); партия груза; куча, масса (чего-л.)
 **Plural:** *loads*
 **Countability:** countable
 
-The weight carried or supported by something.
+Load has 3 distinct senses.
+
+**1. The weight carried or supported by something.** (нагрузка, груз)
 
 1. The truck was carrying a full *load*.
 2. That beam takes the whole *load* of the roof.
 3. Heavy *loads* wear out the springs.
+
+**2. An amount of laundry or other material handled at one time.** (загрузка (стиральной машины); партия груза)
+
+4. I still have two *loads* of laundry to fold.
+5. Wash the towels in a separate *load*.
+6. The truck hauled three *loads* of gravel before noon.
+
+**3. A large amount or number of something.** (куча, масса (чего-л.))
+
+7. There were *loads* of people at the game.
+8. We have a *load* of work to get through today.
+9. She brought back *loads* of photos from the trip.
 
 ---
 
 ### bulk
 
 **Pronunciation:** /bʌlk/ &middot; *BULK*
-**Русский:** объём, масса; основная часть
+**Русский:** объём, масса; основная часть; основная часть, большинство
 **Countability:** uncountable
 
-Large size or volume, especially when it makes something hard to handle.
+Bulk has 2 distinct senses.
+
+**1. Large size or volume, especially when it makes something hard to handle.** (объём, масса; основная часть)
 
 1. The *bulk* of the shipment is still in the warehouse.
 2. We buy rice in *bulk*.
 3. The sheer *bulk* of the machine made it hard to move.
+
+**2. The greater part of something.** (основная часть, большинство)
+
+4. The *bulk* of the money went to salaries.
+5. She spent the *bulk* of her career overseas.
+6. The *bulk* of the crowd had already gone home.
 
 ---
 
 ### count
 
 **Pronunciation:** /kaʊnt/ &middot; *KOWNT*
-**Русский:** подсчёт, количество
+**Русский:** подсчёт, количество; пункт обвинения; граф
 **Plural:** *counts*
 **Countability:** countable
 
-The total number found by counting.
+Count has 3 distinct senses.
+
+**1. The total number found by counting.** (подсчёт, количество)
 
 1. The final *count* was two hundred people.
 2. Her white blood cell *count* is low.
 3. The two *counts* didn't match.
+
+**2. One separate charge in a legal case against someone.** (пункт обвинения)
+
+4. The jury found him guilty on all three *counts*.
+5. The first *count* carries a ten-year sentence.
+6. Her lawyer got two *counts* dismissed before trial.
+
+**3. A European nobleman of a rank similar to an English earl.** (граф)
+
+7. The *count* owned every acre in the valley.
+8. Two *counts* and a duchess were seated at the head table.
+9. In the novel the *count* never leaves his castle.
 
 ---
 
@@ -955,15 +1101,23 @@ Figure has 2 distinct senses.
 ### digit
 
 **Pronunciation:** /ˈdɪdʒɪt/ &middot; *DIJ-it*
-**Русский:** цифра
+**Русский:** цифра; палец (руки или ноги)
 **Plural:** *digits*
 **Countability:** countable
 
-Any one of the symbols from 0 to 9.
+Digit has 2 distinct senses.
+
+**1. Any one of the symbols from 0 to 9.** (цифра)
 
 1. The code is four *digits* long.
 2. The last *digit* was smudged.
 3. Drop the final *digit* and round up.
+
+**2. A finger or a toe.** (палец (руки или ноги))
+
+4. Frostbite can cost a climber several *digits*.
+5. The surgeon reattached the severed *digit*.
+6. Each hand has five *digits*.
 
 ---
 
@@ -1000,16 +1154,30 @@ An American unit of distance equal to about 1.6 kilometers.
 ### meter
 
 **Pronunciation:** /ˈmiːtər/ &middot; *MEE-tur*
-**Русский:** метр; счётчик
+**Русский:** метр; счётчик; счётчик; парковочный автомат; стихотворный размер; музыкальный размер
 **Plural:** *meters*
 **Countability:** countable
 **Contrast:** Americans spell it meter, the British metre. The same American spelling also names a measuring device, as in a gas meter.
 
-The basic metric unit of length, equal to about 39 inches.
+Meter has 3 distinct senses.
+
+**1. The basic metric unit of length, equal to about 39 inches.** (метр; счётчик)
 
 1. The pool is fifty *meters* long.
 2. Add another *meter* of cable.
 3. The two rooms differ by half a *meter*.
+
+**2. A device that measures and records how much of something is used.** (счётчик; парковочный автомат)
+
+4. The gas *meter* is in the basement.
+5. I fed quarters into the parking *meter*.
+6. A technician comes out once a month to read the *meters*.
+
+**3. The pattern of rhythm in a line of poetry or a piece of music.** (стихотворный размер; музыкальный размер)
+
+7. Shakespeare wrote most of his lines in a five-beat *meter*.
+8. The poem breaks its *meter* in the very last line.
+9. The class learned to clap out the *meter*.
 
 ---
 
@@ -1186,15 +1354,23 @@ The distance around something thick, such as a tree or a waist.
 ### breadth
 
 **Pronunciation:** /brɛdθ/ &middot; *BREDTH*
-**Русский:** ширина
+**Русский:** ширина; широта (охвата, знаний)
 **Countability:** uncountable
 **Contrast:** It comes from broad, but the vowel is a short e: BREDTH.
 
-The distance across something from one side to the other.
+Breadth has 2 distinct senses.
+
+**1. The distance across something from one side to the other.** (ширина)
 
 1. The field measures a hundred feet in *breadth*.
 2. The river's *breadth* surprised us.
 3. They measured the length and *breadth* of the room.
+
+**2. The wide range of subjects or activities that something covers.** (широта (охвата, знаний))
+
+4. The *breadth* of his reading surprised the committee.
+5. The program is praised for its *breadth* rather than its depth.
+6. Few candidates bring that *breadth* of experience.
 
 ---
 
@@ -1292,48 +1468,84 @@ A unit of volume equal to a cube one yard on each side, used for concrete and so
 ### ounce
 
 **Pronunciation:** /aʊns/ &middot; *OWNSS*
-**Русский:** унция (28,35 г)
+**Русский:** унция (28,35 г); капля, крупица (чего-л.)
 **Plural:** *ounces*
 **Countability:** countable
 **Contrast:** Written oz on labels, even though there is no z in the word.
 
-A unit of weight equal to about 28 grams.
+Ounce has 2 distinct senses.
+
+**1. A unit of weight equal to about 28 grams.** (унция (28,35 г))
 
 1. The letter weighs less than an *ounce*.
 2. Add four *ounces* of cheese.
 3. The package came to sixteen *ounces*.
+
+**2. A very small amount of a quality or feeling.** (капля, крупица (чего-л.))
+
+4. There isn't an *ounce* of truth in that story.
+5. It took every *ounce* of patience I had.
+6. He hasn't got an *ounce* of common sense.
 
 ---
 
 ### pound
 
 **Pronunciation:** /paʊnd/ &middot; *POWND*
-**Русский:** фунт (454 г)
+**Русский:** фунт (454 г); фунт стерлингов; приют для бездомных животных; штрафстоянка; решётка (клавиша #)
 **Plural:** *pounds*
 **Countability:** countable
 **Contrast:** Abbreviated lb, from Latin. The same word is also the British unit of money.
 
-A unit of weight equal to sixteen ounces, or about 454 grams.
+Pound has 4 distinct senses.
+
+**1. A unit of weight equal to sixteen ounces, or about 454 grams.** (фунт (454 г))
 
 1. I bought two *pounds* of ground beef.
 2. He lost fifteen *pounds* over the winter.
 3. The baby weighed seven *pounds*.
+
+**2. The unit of money used in Britain.** (фунт стерлингов)
+
+4. The room cost ninety *pounds* a night.
+5. The *pound* fell against the dollar again.
+6. I still have a few *pounds* left from the trip.
+
+**3. A place where stray animals or towed cars are held.** (приют для бездомных животных; штрафстоянка)
+
+7. We adopted her from the city *pound*.
+8. His car spent two days at the *pound*.
+9. Someone found the dog and took it to the *pound*.
+
+**4. The # key on a telephone.** (решётка (клавиша #))
+
+10. Enter your account number, then press *pound*.
+11. Dial the extension followed by the *pound* sign.
+12. Leave a message and hit *pound* when you're done.
 
 ---
 
 ### ton
 
 **Pronunciation:** /tʌn/ &middot; *TUN*
-**Русский:** тонна (в США 907 кг)
+**Русский:** тонна (в США 907 кг); куча, масса (очень много)
 **Plural:** *tons*
 **Countability:** countable
 **Contrast:** It rhymes with fun. An American ton is 2,000 pounds, not the metric 1,000 kilograms.
 
-An American unit of weight equal to 2,000 pounds.
+Ton has 2 distinct senses.
+
+**1. An American unit of weight equal to 2,000 pounds.** (тонна (в США 907 кг))
 
 1. The truck hauls twenty *tons* of gravel.
 2. That rock must weigh a *ton*.
 3. They shipped several *tons* of steel.
+
+**2. A very large amount or number.** (куча, масса (очень много))
+
+4. I have a *ton* of homework tonight.
+5. They spent *tons* of money on the wedding.
+6. There were *tons* of people at the fair.
 
 ---
 
@@ -1818,15 +2030,23 @@ An open container marked with a scale for measuring rainfall.
 ### radar
 
 **Pronunciation:** /ˈreɪdɑːr/ &middot; *RAY-dar*
-**Русский:** радар, радиолокатор
+**Русский:** радар, радиолокатор; поле зрения, внимание
 **Plural:** *radars*
 **Countability:** countable
 
-Equipment that finds the position and speed of objects using radio waves.
+Radar has 2 distinct senses.
+
+**1. Equipment that finds the position and speed of objects using radio waves.** (радар, радиолокатор)
 
 1. A trooper caught him on *radar* doing eighty.
 2. The storm showed up clearly on *radar*.
 3. Airport *radars* track every flight.
+
+**2. Attention or notice.** (поле зрения, внимание)
+
+4. That band was never on my *radar* until last year.
+5. The company grew for years under everyone's *radar*.
+6. Homelessness is finally on the city council's *radar*.
 
 ---
 
@@ -2030,16 +2250,24 @@ Voltage has 2 distinct senses.
 ### amp
 
 **Pronunciation:** /æmp/ &middot; *AMP*
-**Русский:** ампер
+**Русский:** ампер; усилитель (гитарный, звуковой)
 **Plural:** *amps*
 **Countability:** countable
 **Contrast:** Amp is also short for amplifier, as in a guitar amp.
 
-A unit of electric current, short for ampere.
+Amp has 2 distinct senses.
+
+**1. A unit of electric current, short for ampere.** (ампер)
 
 1. That circuit is rated for fifteen *amps*.
 2. The motor pulls about six *amps*.
 3. The breaker trips at twenty *amps*.
+
+**2. An amplifier that makes an instrument or a sound system louder.** (усилитель (гитарный, звуковой))
+
+4. He plugged his guitar into a small *amp*.
+5. The *amp* hummed until I moved the cable.
+6. They rented two *amps* for the show.
 
 ---
 
@@ -2291,15 +2519,29 @@ The average level of the ocean's surface, used as the zero point for heights.
 ### angle
 
 **Pronunciation:** /ˈæŋɡəl/ &middot; *ANG-guhl*
-**Русский:** угол
+**Русский:** угол; точка зрения, подход, ракурс; скрытый умысел, свой интерес
 **Plural:** *angles*
 **Countability:** countable
 
-The space between two lines that meet, measured in degrees.
+Angle has 3 distinct senses.
+
+**1. The space between two lines that meet, measured in degrees.** (угол)
 
 1. Cut the trim at a 45-degree *angle*.
 2. Measure the *angle* with a protractor.
 3. All three *angles* add up to 180 degrees.
+
+**2. A particular way of looking at or presenting something.** (точка зрения, подход, ракурс)
+
+4. Try looking at the problem from a different *angle*.
+5. The reporter needed a fresh *angle* on a very old story.
+6. We studied the deal from every *angle* before signing.
+
+**3. A hidden, selfish reason for doing something.** (скрытый умысел, свой интерес)
+
+7. Everybody kept asking what his *angle* was.
+8. She's helping for nothing, and I don't see an *angle*.
+9. There's always an *angle* with that guy.
 
 ---
 
@@ -2322,47 +2564,71 @@ One of a set of numbers giving an exact position.
 ### stride
 
 **Pronunciation:** /straɪd/ &middot; *STRYD*
-**Русский:** шаг (широкий)
+**Русский:** шаг (широкий); успехи, заметный прогресс
 **Plural:** *strides*
 **Countability:** countable
 
-One long step, or the distance covered by it.
+Stride has 2 distinct senses.
+
+**1. One long step, or the distance covered by it.** (шаг (широкий))
 
 1. He crossed the room in three *strides*.
 2. The runner's *stride* got shorter near the end.
 3. Long *strides* eat up the distance.
+
+**2. A clear step forward in progress, usually used in the plural.** (успехи, заметный прогресс)
+
+4. The company has made great *strides* in safety.
+5. Medicine has made huge *strides* since then.
+6. She made real *strides* with her English this year.
 
 ---
 
 ### caliber
 
 **Pronunciation:** /ˈkæləbər/ &middot; *KAL-uh-bur*
-**Русский:** калибр
+**Русский:** калибр; уровень, класс (качества)
 **Plural:** *calibers*
 **Countability:** countable
 **Contrast:** Americans spell it caliber; the British write calibre.
 
-The inside diameter of a gun barrel.
+Caliber has 2 distinct senses.
+
+**1. The inside diameter of a gun barrel.** (калибр)
 
 1. The rifle is a .22 *caliber*.
 2. Police recovered a bullet of the same *caliber*.
 3. The shop stocks several *calibers*.
+
+**2. The level of quality or ability of a person or thing.** (уровень, класс (качества))
+
+4. A player of his *caliber* doesn't come along often.
+5. The school attracts teachers of very high *caliber*.
+6. We need someone of the same *caliber* to replace her.
 
 ---
 
 ### bore
 
 **Pronunciation:** /bɔːr/ &middot; *BOR*
-**Русский:** внутренний диаметр, канал ствола
+**Русский:** внутренний диаметр, канал ствола; зануда, скучный человек
 **Plural:** *bores*
 **Countability:** countable
 **Contrast:** Sounds the same as boar, a wild pig, and as bore, the past tense of bear.
 
-The hollow inside of a tube or a gun barrel, or the width of it.
+Bore has 2 distinct senses.
+
+**1. The hollow inside of a tube or a gun barrel, or the width of it.** (внутренний диаметр, канал ствола)
 
 1. The engine has a four-inch *bore*.
 2. Clean the *bore* after every trip to the range.
 3. The two cylinders have identical *bores*.
+
+**2. A dull person who tires everyone out with uninteresting talk.** (зануда, скучный человек)
+
+4. Her uncle is a terrible *bore* at parties.
+5. Don't be such a *bore* — come dance with us.
+6. The panel was two *bores* reading their slides out loud.
 
 ---
 

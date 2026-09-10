@@ -411,16 +411,24 @@ A small axe you can swing with one hand.
 ### axe
 
 **Pronunciation:** /æks/ &middot; *AKS*
-**Русский:** топор
+**Русский:** топор; увольнение; закрытие (проекта)
 **Plural:** *axes*
 **Countability:** countable
 **Contrast:** Americans often spell it ax. The plural axes is said AK-siz here, but AK-seez when it means more than one axis.
 
-A tool with a heavy blade on a long handle for chopping wood.
+Axe has 2 distinct senses.
+
+**1. A tool with a heavy blade on a long handle for chopping wood.** (топор)
 
 1. The *axe* was stuck in a stump behind the cabin.
 2. Both *axes* could use sharpening.
 3. He swung the *axe* and split the log clean through.
+
+**2. Sudden dismissal from a job, or the cancellation of a program.** (увольнение; закрытие (проекта))
+
+4. The network gave the sitcom the *axe*.
+5. Half the department got the *axe* last quarter.
+6. His pet project was first in line for the *axe*.
 
 ---
 
@@ -866,15 +874,23 @@ A hike you finish and come back from in a single day.
 ### outing
 
 **Pronunciation:** /ˈaʊtɪŋ/ &middot; *OW-ting*
-**Русский:** вылазка, прогулка
+**Русский:** вылазка, прогулка; выступление, игра (спортсмена)
 **Plural:** *outings*
 **Countability:** countable
 
-A short trip away from home for pleasure.
+Outing has 2 distinct senses.
+
+**1. A short trip away from home for pleasure.** (вылазка, прогулка)
 
 1. The whole family came on the *outing*.
 2. Weekend *outings* to the lake are a tradition here.
 3. Bad weather cut the *outing* short.
+
+**2. A player's appearance in a single game or race.** (выступление, игра (спортсмена))
+
+4. It was the pitcher's best *outing* of the season.
+5. She struck out nine batters in her last *outing*.
+6. He gave up four runs in a short *outing*.
 
 ---
 
@@ -1512,16 +1528,24 @@ The rope hold that protects a climber from a fall.
 ### climber
 
 **Pronunciation:** /ˈklaɪmər/ &middot; *KLY-mur*
-**Русский:** скалолаз, альпинист
+**Русский:** скалолаз, альпинист; вьющееся растение, лиана
 **Plural:** *climbers*
 **Countability:** countable
 **Contrast:** The b is silent: KLY-mur.
 
-Someone who climbs rock, ice or mountains.
+Climber has 2 distinct senses.
+
+**1. Someone who climbs rock, ice or mountains.** (скалолаз, альпинист)
 
 1. A *climber* fell on that route last summer.
 2. Two *climbers* were already on the wall at sunrise.
 3. The *climber* rested on a narrow ledge.
+
+**2. A plant that grows upward by clinging to a wall or support.** (вьющееся растение, лиана)
+
+4. Ivy is a fast *climber* that will cover the fence in a year.
+5. Plant a *climber* at the base of the trellis.
+6. These roses are *climbers* and need something to hold on to.
 
 ---
 
@@ -1585,32 +1609,54 @@ Going down a rock face by sliding in a controlled way along a rope.
 ### ascent
 
 **Pronunciation:** /əˈsɛnt/ &middot; *uh-SENT*
-**Русский:** подъём, восхождение
+**Русский:** подъём, восхождение; восхождение (к власти, успеху), взлёт
 **Plural:** *ascents*
 **Countability:** countable
 **Contrast:** Sounds almost exactly like assent, which means agreement.
 
-A climb up a mountain or slope.
+Ascent has 2 distinct senses.
+
+**1. A climb up a mountain or slope.** (подъём, восхождение)
 
 1. The *ascent* took us six hours.
 2. He has made three *ascents* of that peak.
 3. The last part of the *ascent* is on loose rock.
+
+**2. A rise to a higher rank, position, or level of success.** (восхождение (к власти, успеху), взлёт)
+
+4. His *ascent* from the mailroom to vice president took nine years.
+5. The book traces the party's *ascent* after the war.
+6. Her *ascent* in the polls surprised everyone.
 
 ---
 
 ### descent
 
 **Pronunciation:** /dɪˈsɛnt/ &middot; *dih-SENT*
-**Русский:** спуск
+**Русский:** спуск; происхождение, родословная; скатывание, сползание (в дурное состояние)
 **Plural:** *descents*
 **Countability:** countable
 **Contrast:** Said just like dissent, which means disagreement.
 
-A climb or walk down from a high place.
+Descent has 3 distinct senses.
+
+**1. A climb or walk down from a high place.** (спуск)
 
 1. The *descent* is harder on the knees than the climb.
 2. Both *descents* follow the same gully.
 3. We started the *descent* as the weather turned.
+
+**2. The family or nation that someone comes from.** (происхождение, родословная)
+
+4. She is an American of Korean *descent*.
+5. The name suggests French *descent*.
+6. He traces his *descent* from a family of farmers.
+
+**3. A slide into a worse condition.** (скатывание, сползание (в дурное состояние))
+
+7. The book charts his *descent* into addiction.
+8. The coup began the country's *descent* into chaos.
+9. It was a slow *descent* from success into debt.
 
 ---
 
@@ -1952,16 +1998,24 @@ One of the thin sharp green leaves of a pine tree.
 ### lookout
 
 **Pronunciation:** /ˈlʊkaʊt/ &middot; *LUUK-owt*
-**Русский:** смотровая площадка
+**Русский:** смотровая площадка; дозорный, наблюдатель
 **Plural:** *lookouts*
 **Countability:** countable
 **Contrast:** One word as a noun; the verb is two words: look out.
 
-A high place with a wide view, or the tower built there.
+Lookout has 2 distinct senses.
+
+**1. A high place with a wide view, or the tower built there.** (смотровая площадка)
 
 1. The *lookout* is a mile up the fire road.
 2. Old fire *lookouts* are scattered along the range.
 3. We watched the sunset from the *lookout*.
+
+**2. A person who watches for danger while others work.** (дозорный, наблюдатель)
+
+4. One of them stayed outside as a *lookout*.
+5. The *lookout* spotted the boat at first light.
+6. They posted *lookouts* at both ends of the street.
 
 ---
 
@@ -2199,16 +2253,24 @@ A group of people organized to look for someone who is lost.
 ### flare
 
 **Pronunciation:** /flɛr/ &middot; *FLAIR*
-**Русский:** сигнальная ракета, фальшфейер
+**Русский:** сигнальная ракета, фальшфейер; вспышка (пламени, света)
 **Plural:** *flares*
 **Countability:** countable
 **Contrast:** Sounds exactly like flair, which means a natural talent.
 
-A bright burning light fired or lit to signal for help.
+Flare has 2 distinct senses.
+
+**1. A bright burning light fired or lit to signal for help.** (сигнальная ракета, фальшфейер)
 
 1. He set off a *flare* from the ridge.
 2. There are two *flares* in the emergency kit.
 3. A *flare* is visible for miles at night.
+
+**2. A sudden burst of bright flame or light.** (вспышка (пламени, света))
+
+4. A *flare* of orange lit up the window.
+5. A solar *flare* knocked out radio signals for hours.
+6. *Flares* of lightning showed the road ahead.
 
 ---
 

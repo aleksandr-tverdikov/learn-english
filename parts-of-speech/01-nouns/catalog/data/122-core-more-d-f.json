@@ -805,14 +805,43 @@
       "term": "denial",
       "ipa": "/dɪˈnaɪəl/",
       "respell": "dih-NY-ul",
-      "meaning": "A statement that something is not true, or a refusal to accept reality. ---",
+      "meaning": "Denial has 2 distinct senses.",
       "examples": [
         "The company issued a flat denial of the charges.",
         "Repeated denials did nothing to stop the rumors.",
-        "He's still in denial about how sick he is."
+        "He's still in denial about how sick he is.",
+        "The insurance company sent a denial of her claim.",
+        "He is appealing the denial of his visa.",
+        "Repeated denials of parole kept him in prison."
       ],
-      "senses": [],
-      "русский": "отрицание, опровержение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A statement that something is not true, or a refusal to accept reality",
+          "body": [
+            "(отрицание, опровержение)"
+          ],
+          "examples": [
+            "The company issued a flat denial of the charges.",
+            "Repeated denials did nothing to stop the rumors.",
+            "He's still in denial about how sick he is."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A refusal to give someone something they have asked for",
+          "body": [
+            "(отказ (в просьбе, в иске))",
+            "---"
+          ],
+          "examples": [
+            "The insurance company sent a denial of her claim.",
+            "He is appealing the denial of his visa.",
+            "Repeated denials of parole kept him in prison."
+          ]
+        }
+      ],
+      "русский": "отрицание, опровержение; отказ (в просьбе, в иске)",
       "plural": "denials",
       "countability": "countable"
     },
@@ -1112,14 +1141,43 @@
       "term": "detail",
       "ipa": "/dɪˈteɪl/",
       "respell": "dih-TAYL",
-      "meaning": "A small individual fact or feature that is part of something larger. ---",
+      "meaning": "Detail has 2 distinct senses.",
       "examples": [
         "One detail in her story didn't add up.",
         "Send me the details by email tomorrow.",
-        "He remembered every detail of that afternoon."
+        "He remembered every detail of that afternoon.",
+        "The governor's security detail checked the room first.",
+        "A cleanup detail was sent down to the beach.",
+        "Two officers on his detail were injured."
       ],
-      "senses": [],
-      "русский": "деталь, подробность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small individual fact or feature that is part of something larger",
+          "body": [
+            "(деталь, подробность)"
+          ],
+          "examples": [
+            "One detail in her story didn't add up.",
+            "Send me the details by email tomorrow.",
+            "He remembered every detail of that afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small group of soldiers or police given a particular job",
+          "body": [
+            "(наряд, группа охраны)",
+            "---"
+          ],
+          "examples": [
+            "The governor's security detail checked the room first.",
+            "A cleanup detail was sent down to the beach.",
+            "Two officers on his detail were injured."
+          ]
+        }
+      ],
+      "русский": "деталь, подробность; наряд, группа охраны",
       "plural": "details",
       "countability": "countable",
       "contrast": "Many Americans stress the noun on the first syllable, DEE-tayl, but keep the verb as dih-TAYL."
@@ -1449,14 +1507,43 @@
       "term": "dig",
       "ipa": "/dɪɡ/",
       "respell": "DIG",
-      "meaning": "An organized excavation of a site to find ancient objects. ---",
+      "meaning": "Dig has 2 distinct senses.",
       "examples": [
         "She spent the summer on a dig in southern Turkey.",
         "Students can volunteer at university digs.",
-        "The dig turned up coins from the third century."
+        "The dig turned up coins from the third century.",
+        "That comment was a dig at my cooking.",
+        "He got in a few digs about my driving.",
+        "She took a dig at her old boss during the interview."
       ],
-      "senses": [],
-      "русский": "археологические раскопки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized excavation of a site to find ancient objects",
+          "body": [
+            "(археологические раскопки)"
+          ],
+          "examples": [
+            "She spent the summer on a dig in southern Turkey.",
+            "Students can volunteer at university digs.",
+            "The dig turned up coins from the third century."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A remark meant to mock or criticize someone",
+          "body": [
+            "(колкость, шпилька)",
+            "---"
+          ],
+          "examples": [
+            "That comment was a dig at my cooking.",
+            "He got in a few digs about my driving.",
+            "She took a dig at her old boss during the interview."
+          ]
+        }
+      ],
+      "русский": "археологические раскопки; колкость, шпилька",
       "plural": "digs",
       "countability": "countable"
     },
@@ -1564,14 +1651,43 @@
       "term": "ding",
       "ipa": "/dɪŋ/",
       "respell": "DING",
-      "meaning": "A small dent or chip in a hard surface. ---",
+      "meaning": "Ding has 2 distinct senses.",
       "examples": [
         "There's a ding in the passenger door.",
         "The used car had a few dings but ran fine.",
-        "A shopping cart left a ding in the fender."
+        "A shopping cart left a ding in the fender.",
+        "The elevator gave a soft ding at every floor.",
+        "I heard the ding of the microwave from upstairs.",
+        "Each message arrives with a little ding."
       ],
-      "senses": [],
-      "русский": "вмятина, небольшой скол",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small dent or chip in a hard surface",
+          "body": [
+            "(вмятина, небольшой скол)"
+          ],
+          "examples": [
+            "There's a ding in the passenger door.",
+            "The used car had a few dings but ran fine.",
+            "A shopping cart left a ding in the fender."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short, high ringing sound",
+          "body": [
+            "(звон, короткий сигнал)",
+            "---"
+          ],
+          "examples": [
+            "The elevator gave a soft ding at every floor.",
+            "I heard the ding of the microwave from upstairs.",
+            "Each message arrives with a little ding."
+          ]
+        }
+      ],
+      "русский": "вмятина, небольшой скол; звон, короткий сигнал",
       "plural": "dings",
       "countability": "countable"
     },
@@ -1654,14 +1770,73 @@
       "term": "dip",
       "ipa": "/dɪp/",
       "respell": "DIP",
-      "meaning": "A thick, soft sauce that you dip chips or vegetables into. ---",
+      "meaning": "Dip has 4 distinct senses.",
       "examples": [
         "She brought chips and dip to the party.",
         "This dip has way too much garlic in it.",
-        "The store sells four different dips in the deli case."
+        "The store sells four different dips in the deli case.",
+        "We took a dip in the lake before dinner.",
+        "A quick dip woke him right up.",
+        "The pool opens early for anyone who wants a morning dip.",
+        "Sales showed a small dip in February.",
+        "There was a sharp dip in temperature overnight.",
+        "The polls recorded a brief dip in support.",
+        "Slow down for the dip at the bottom of the hill.",
+        "The truck bottomed out in a dip.",
+        "A shallow dip in the field holds water after rain."
       ],
-      "senses": [],
-      "русский": "соус для макания, дип",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick, soft sauce that you dip chips or vegetables into",
+          "body": [
+            "(соус для макания, дип)"
+          ],
+          "examples": [
+            "She brought chips and dip to the party.",
+            "This dip has way too much garlic in it.",
+            "The store sells four different dips in the deli case."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short swim",
+          "body": [
+            "(короткое купание)"
+          ],
+          "examples": [
+            "We took a dip in the lake before dinner.",
+            "A quick dip woke him right up.",
+            "The pool opens early for anyone who wants a morning dip."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A temporary fall in an amount or level",
+          "body": [
+            "(спад, снижение)"
+          ],
+          "examples": [
+            "Sales showed a small dip in February.",
+            "There was a sharp dip in temperature overnight.",
+            "The polls recorded a brief dip in support."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A place where a road or the ground slopes down and back up",
+          "body": [
+            "(выемка, углубление (в дороге))",
+            "---"
+          ],
+          "examples": [
+            "Slow down for the dip at the bottom of the hill.",
+            "The truck bottomed out in a dip.",
+            "A shallow dip in the field holds water after rain."
+          ]
+        }
+      ],
+      "русский": "соус для макания, дип; короткое купание; спад, снижение; выемка, углубление (в дороге)",
       "plural": "dips",
       "countability": "countable, and uncountable as food"
     },
@@ -2347,14 +2522,43 @@
       "term": "dive",
       "ipa": "/daɪv/",
       "respell": "DYVE",
-      "meaning": "A headfirst jump into water, or a sharp downward movement. ---",
+      "meaning": "Dive has 2 distinct senses.",
       "examples": [
         "Her last dive scored a perfect ten.",
         "We made two dives on the reef that morning.",
-        "The stock took a dive after the earnings report."
+        "The stock took a dive after the earnings report.",
+        "They played in every dive along the strip.",
+        "It's a dive, but the burgers are great.",
+        "The bar downstairs is a real dive."
       ],
-      "senses": [],
-      "русский": "прыжок в воду, погружение; резкое падение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A headfirst jump into water, or a sharp downward movement",
+          "body": [
+            "(прыжок в воду, погружение; резкое падение)"
+          ],
+          "examples": [
+            "Her last dive scored a perfect ten.",
+            "We made two dives on the reef that morning.",
+            "The stock took a dive after the earnings report."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cheap, shabby bar or club",
+          "body": [
+            "(дешёвый бар, забегаловка)",
+            "---"
+          ],
+          "examples": [
+            "They played in every dive along the strip.",
+            "It's a dive, but the burgers are great.",
+            "The bar downstairs is a real dive."
+          ]
+        }
+      ],
+      "русский": "прыжок в воду, погружение; резкое падение; дешёвый бар, забегаловка",
       "plural": "dives",
       "countability": "countable"
     },
@@ -2733,14 +2937,73 @@
       "term": "double",
       "ipa": "/ˈdʌbəl/",
       "respell": "DUH-buhl",
-      "meaning": "A person who takes an actor's place in dangerous or difficult scenes. ---",
+      "meaning": "Double has 4 distinct senses.",
       "examples": [
         "The fight scene was filmed with a stunt double.",
         "She used a double for the horseback riding.",
-        "The doubles rehearsed the crash for two days."
+        "The doubles rehearsed the crash for two days.",
+        "You could be his double.",
+        "The actress met her double on the set.",
+        "In the photo the two men look like doubles.",
+        "He drove in two runs with a double to left field.",
+        "She has ten doubles already this season.",
+        "A leadoff double started the rally.",
+        "He ordered a double after the meeting.",
+        "Make mine a double.",
+        "Two doubles on the rocks, please."
       ],
-      "senses": [],
-      "русский": "дублёр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who takes an actor's place in dangerous or difficult scenes",
+          "body": [
+            "(дублёр)"
+          ],
+          "examples": [
+            "The fight scene was filmed with a stunt double.",
+            "She used a double for the horseback riding.",
+            "The doubles rehearsed the crash for two days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who looks exactly like someone else",
+          "body": [
+            "(двойник)"
+          ],
+          "examples": [
+            "You could be his double.",
+            "The actress met her double on the set.",
+            "In the photo the two men look like doubles."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A hit in baseball that lets the batter reach second base",
+          "body": [
+            "(дабл, двухбазовый удар (в бейсболе))"
+          ],
+          "examples": [
+            "He drove in two runs with a double to left field.",
+            "She has ten doubles already this season.",
+            "A leadoff double started the rally."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A drink with twice the usual amount of alcohol",
+          "body": [
+            "(двойная порция (спиртного))",
+            "---"
+          ],
+          "examples": [
+            "He ordered a double after the meeting.",
+            "Make mine a double.",
+            "Two doubles on the rocks, please."
+          ]
+        }
+      ],
+      "русский": "дублёр; двойник; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)",
       "plural": "doubles",
       "countability": "countable"
     },
@@ -2823,14 +3086,73 @@
       "term": "drag",
       "ipa": "/dræɡ/",
       "respell": "DRAG",
-      "meaning": "The force of air or water that slows down a moving object. ---",
+      "meaning": "Drag has 4 distinct senses.",
       "examples": [
         "The new body design reduces drag at high speeds.",
         "Cyclists ride close together to cut down on drag.",
-        "Air drag is what slows the parachute."
+        "Air drag is what slows the parachute.",
+        "Waiting in line for two hours was a drag.",
+        "What a drag — the game got rained out.",
+        "Cleaning the garage is such a drag.",
+        "He took a long drag and stared down the road.",
+        "She finished the cigarette in three drags.",
+        "One more drag and he put it out.",
+        "The show features six performers in drag.",
+        "He does drag on weekends under another name.",
+        "Half the cast appeared in drag for the finale."
       ],
-      "senses": [],
-      "русский": "сопротивление воздуха, лобовое сопротивление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The force of air or water that slows down a moving object",
+          "body": [
+            "(сопротивление воздуха, лобовое сопротивление)"
+          ],
+          "examples": [
+            "The new body design reduces drag at high speeds.",
+            "Cyclists ride close together to cut down on drag.",
+            "Air drag is what slows the parachute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something boring or annoying",
+          "body": [
+            "(скука, тоска, неприятная обязанность)"
+          ],
+          "examples": [
+            "Waiting in line for two hours was a drag.",
+            "What a drag — the game got rained out.",
+            "Cleaning the garage is such a drag."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A pull of smoke from a cigarette",
+          "body": [
+            "(затяжка (сигаретой))"
+          ],
+          "examples": [
+            "He took a long drag and stared down the road.",
+            "She finished the cigarette in three drags.",
+            "One more drag and he put it out."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Women's clothing worn by a man, especially for a performance",
+          "body": [
+            "(женский наряд, надетый мужчиной (для выступления))",
+            "---"
+          ],
+          "examples": [
+            "The show features six performers in drag.",
+            "He does drag on weekends under another name.",
+            "Half the cast appeared in drag for the finale."
+          ]
+        }
+      ],
+      "русский": "сопротивление воздуха, лобовое сопротивление; скука, тоска, неприятная обязанность; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)",
       "countability": "uncountable"
     },
     {
@@ -2852,14 +3174,58 @@
       "term": "draw",
       "ipa": "/drɔː/",
       "respell": "DRAW",
-      "meaning": "Someone or something that attracts a lot of people. ---",
+      "meaning": "Draw has 3 distinct senses.",
       "examples": [
         "The free concert was a big draw for families.",
         "Cheap flights are the main draw of that airport.",
-        "The museum's new exhibit is a real draw."
+        "The museum's new exhibit is a real draw.",
+        "The match ended in a scoreless draw.",
+        "Two draws and a loss knocked them out of the tournament.",
+        "A draw was enough to keep the title.",
+        "The draw pits them against last year's champions.",
+        "Winners are picked in a weekly draw.",
+        "He got a tough draw in the first round."
       ],
-      "senses": [],
-      "русский": "притягательный фактор, приманка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone or something that attracts a lot of people",
+          "body": [
+            "(притягательный фактор, приманка)"
+          ],
+          "examples": [
+            "The free concert was a big draw for families.",
+            "Cheap flights are the main draw of that airport.",
+            "The museum's new exhibit is a real draw."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A game or contest that ends with the scores level",
+          "body": [
+            "(ничья)"
+          ],
+          "examples": [
+            "The match ended in a scoreless draw.",
+            "Two draws and a loss knocked them out of the tournament.",
+            "A draw was enough to keep the title."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The choosing of names, teams, or prizes at random",
+          "body": [
+            "(жеребьёвка, розыгрыш)",
+            "---"
+          ],
+          "examples": [
+            "The draw pits them against last year's champions.",
+            "Winners are picked in a weekly draw.",
+            "He got a tough draw in the first round."
+          ]
+        }
+      ],
+      "русский": "притягательный фактор, приманка; ничья; жеребьёвка, розыгрыш",
       "plural": "draws",
       "countability": "countable"
     },
@@ -2927,14 +3293,58 @@
       "term": "drift",
       "ipa": "/drɪft/",
       "respell": "DRIFT",
-      "meaning": "Slow movement caused by wind, water, or a current. ---",
+      "meaning": "Drift has 3 distinct senses.",
       "examples": [
         "The boat's drift carried it toward the rocks.",
         "Continental drift explains the shape of the coastlines.",
-        "Wind drift made the shot miss by a foot."
+        "Wind drift made the shot miss by a foot.",
+        "The plow pushed the drifts off the driveway.",
+        "Snow drifts buried the fence posts.",
+        "A drift of sand had blocked the trail.",
+        "I couldn't hear every word, but I caught his drift.",
+        "The drift of the meeting was that layoffs are coming.",
+        "He nodded as if he understood my drift."
       ],
-      "senses": [],
-      "русский": "дрейф, снос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Slow movement caused by wind, water, or a current",
+          "body": [
+            "(дрейф, снос)"
+          ],
+          "examples": [
+            "The boat's drift carried it toward the rocks.",
+            "Continental drift explains the shape of the coastlines.",
+            "Wind drift made the shot miss by a foot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pile of snow or sand heaped up by the wind",
+          "body": [
+            "(сугроб, нанос)"
+          ],
+          "examples": [
+            "The plow pushed the drifts off the driveway.",
+            "Snow drifts buried the fence posts.",
+            "A drift of sand had blocked the trail."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The general meaning of what someone is saying",
+          "body": [
+            "(суть, общий смысл сказанного)",
+            "---"
+          ],
+          "examples": [
+            "I couldn't hear every word, but I caught his drift.",
+            "The drift of the meeting was that layoffs are coming.",
+            "He nodded as if he understood my drift."
+          ]
+        }
+      ],
+      "русский": "дрейф, снос; сугроб, нанос; суть, общий смысл сказанного",
       "countability": "uncountable"
     },
     {
@@ -3118,14 +3528,43 @@
       "term": "dummy",
       "ipa": "/ˈdʌmi/",
       "respell": "DUM-ee",
-      "meaning": "A model of a human body, or a fake copy of something. ---",
+      "meaning": "Dummy has 2 distinct senses.",
       "examples": [
         "Crash-test dummies showed how the seatbelt performed.",
         "The store window had a dummy wearing a winter coat.",
-        "The box on the shelf was just a dummy."
+        "The box on the shelf was just a dummy.",
+        "Don't be a dummy — read the instructions.",
+        "I felt like a dummy for locking my keys in the car.",
+        "He called us dummies for believing him."
       ],
-      "senses": [],
-      "русский": "манекен, макет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A model of a human body, or a fake copy of something",
+          "body": [
+            "(манекен, макет)"
+          ],
+          "examples": [
+            "Crash-test dummies showed how the seatbelt performed.",
+            "The store window had a dummy wearing a winter coat.",
+            "The box on the shelf was just a dummy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stupid person",
+          "body": [
+            "(дурак, болван)",
+            "---"
+          ],
+          "examples": [
+            "Don't be a dummy — read the instructions.",
+            "I felt like a dummy for locking my keys in the car.",
+            "He called us dummies for believing him."
+          ]
+        }
+      ],
+      "русский": "манекен, макет; дурак, болван",
       "plural": "dummies",
       "countability": "countable"
     },
@@ -3221,14 +3660,43 @@
       "term": "dynamo",
       "ipa": "/ˈdaɪnəmoʊ/",
       "respell": "DY-nuh-moh",
-      "meaning": "A person who is full of energy and gets a lot done. ---",
+      "meaning": "Dynamo has 2 distinct senses.",
       "examples": [
         "Our new manager is a real dynamo.",
         "She's a dynamo on the sales floor.",
-        "The team is full of young dynamos."
+        "The team is full of young dynamos.",
+        "The bike's headlight runs off a little dynamo on the front wheel.",
+        "The mill drove a dynamo that lit the whole village.",
+        "Two old dynamos are still bolted to the floor of the plant."
       ],
-      "senses": [],
-      "русский": "энергичный человек, «мотор»",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who is full of energy and gets a lot done",
+          "body": [
+            "(энергичный человек, «мотор»)"
+          ],
+          "examples": [
+            "Our new manager is a real dynamo.",
+            "She's a dynamo on the sales floor.",
+            "The team is full of young dynamos."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine that turns motion into electric current",
+          "body": [
+            "(динамо-машина, генератор)",
+            "---"
+          ],
+          "examples": [
+            "The bike's headlight runs off a little dynamo on the front wheel.",
+            "The mill drove a dynamo that lit the whole village.",
+            "Two old dynamos are still bolted to the floor of the plant."
+          ]
+        }
+      ],
+      "русский": "энергичный человек, «мотор»; динамо-машина, генератор",
       "plural": "dynamos",
       "countability": "countable"
     },
@@ -3438,14 +3906,43 @@
       "term": "east",
       "ipa": "/iːst/",
       "respell": "EEST",
-      "meaning": "The direction where the sun rises. ---",
+      "meaning": "East has 2 distinct senses.",
       "examples": [
         "The storm is moving toward the east.",
         "The mountains lie to the east of the city.",
-        "In the east, the sky was already turning pink."
+        "In the east, the sky was already turning pink.",
+        "He grew up in the East and moved to California at twenty.",
+        "Storms roll off the plains and hit the East by morning.",
+        "Trade between the East and the West goes back centuries."
       ],
-      "senses": [],
-      "русский": "восток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The direction where the sun rises",
+          "body": [
+            "(восток)"
+          ],
+          "examples": [
+            "The storm is moving toward the east.",
+            "The mountains lie to the east of the city.",
+            "In the east, the sky was already turning pink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a country or of the world that lies in that direction",
+          "body": [
+            "(восток (восточная часть страны, региона))",
+            "---"
+          ],
+          "examples": [
+            "He grew up in the East and moved to California at twenty.",
+            "Storms roll off the plains and hit the East by morning.",
+            "Trade between the East and the West goes back centuries."
+          ]
+        }
+      ],
+      "русский": "восток; восток (восточная часть страны, региона)",
       "countability": "uncountable"
     },
     {
@@ -3642,14 +4139,58 @@
       "term": "effect",
       "ipa": "/ɪˈfɛkt/",
       "respell": "ih-FEKT",
-      "meaning": "A change that something causes. ---",
+      "meaning": "Effect has 3 distinct senses.",
       "examples": [
         "The medicine had no effect on the pain.",
         "Scientists study the effects of caffeine on sleep.",
-        "The new law's effect was immediate."
+        "The new law's effect was immediate.",
+        "The effects in that movie cost more than the cast.",
+        "A radio play lives or dies on its sound effects.",
+        "The rain in the last scene was an effect, not real water.",
+        "The hospital returned his personal effects in a paper bag.",
+        "She packed her few effects and left before dawn.",
+        "Officers listed every one of the effects found in the car."
       ],
-      "senses": [],
-      "русский": "эффект, воздействие, результат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A change that something causes",
+          "body": [
+            "(эффект, воздействие, результат)"
+          ],
+          "examples": [
+            "The medicine had no effect on the pain.",
+            "Scientists study the effects of caffeine on sleep.",
+            "The new law's effect was immediate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An artificial sound or image made for a film, show, or recording",
+          "body": [
+            "(эффект (звуковой, спецэффект))"
+          ],
+          "examples": [
+            "The effects in that movie cost more than the cast.",
+            "A radio play lives or dies on its sound effects.",
+            "The rain in the last scene was an effect, not real water."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The personal belongings a person carries or leaves behind",
+          "body": [
+            "(личные вещи, пожитки)",
+            "---"
+          ],
+          "examples": [
+            "The hospital returned his personal effects in a paper bag.",
+            "She packed her few effects and left before dawn.",
+            "Officers listed every one of the effects found in the car."
+          ]
+        }
+      ],
+      "русский": "эффект, воздействие, результат; эффект (звуковой, спецэффект); личные вещи, пожитки",
       "plural": "effects",
       "countability": "countable",
       "contrast": "Effect is the noun (a result); affect is usually the verb (to influence)."
@@ -4552,14 +5093,43 @@
       "term": "entry",
       "ipa": "/ˈɛntri/",
       "respell": "EN-tree",
-      "meaning": "An item written in a list or record, or the act of going into a place. ---",
+      "meaning": "Entry has 2 distinct senses.",
       "examples": [
         "The last entry in her diary is dated March 4th.",
         "Check the dictionary entries for both spellings.",
-        "Entry to the museum is free on Sundays."
+        "Entry to the museum is free on Sundays.",
+        "Her photo of the barn was the winning entry.",
+        "The fair received over three hundred entries this year.",
+        "Late entries will not be judged."
       ],
-      "senses": [],
-      "русский": "вход; запись (в списке, дневнике)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An item written in a list or record, or the act of going into a place",
+          "body": [
+            "(вход; запись (в списке, дневнике))"
+          ],
+          "examples": [
+            "The last entry in her diary is dated March 4th.",
+            "Check the dictionary entries for both spellings.",
+            "Entry to the museum is free on Sundays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something submitted to a competition",
+          "body": [
+            "(конкурсная работа, заявка на участие)",
+            "---"
+          ],
+          "examples": [
+            "Her photo of the barn was the winning entry.",
+            "The fair received over three hundred entries this year.",
+            "Late entries will not be judged."
+          ]
+        }
+      ],
+      "русский": "вход; запись (в списке, дневнике); конкурсная работа, заявка на участие",
       "plural": "entries",
       "countability": "countable"
     },
@@ -4865,14 +5435,43 @@
       "term": "essence",
       "ipa": "/ˈɛsəns/",
       "respell": "ES-uhns",
-      "meaning": "The most basic and important quality of something. ---",
+      "meaning": "Essence has 2 distinct senses.",
       "examples": [
         "The essence of the argument is fairly simple.",
         "Add a teaspoon of vanilla essence.",
-        "In essence, they're asking us to start over."
+        "In essence, they're asking us to start over.",
+        "Add a teaspoon of vanilla essence to the batter.",
+        "The shop sells essences of lemon, almond, and rose.",
+        "One drop of peppermint essence is plenty."
       ],
-      "senses": [],
-      "русский": "суть, сущность; эссенция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The most basic and important quality of something",
+          "body": [
+            "(суть, сущность; эссенция)"
+          ],
+          "examples": [
+            "The essence of the argument is fairly simple.",
+            "Add a teaspoon of vanilla essence.",
+            "In essence, they're asking us to start over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A concentrated liquid taken from a plant and used for flavor or scent",
+          "body": [
+            "(эссенция, экстракт)",
+            "---"
+          ],
+          "examples": [
+            "Add a teaspoon of vanilla essence to the batter.",
+            "The shop sells essences of lemon, almond, and rose.",
+            "One drop of peppermint essence is plenty."
+          ]
+        }
+      ],
+      "русский": "суть, сущность; эссенция; эссенция, экстракт",
       "countability": "uncountable"
     },
     {
@@ -4923,14 +5522,43 @@
       "term": "ether",
       "ipa": "/ˈiːθər/",
       "respell": "EE-thur",
-      "meaning": "A light, sweet-smelling liquid once widely used to put patients to sleep. ---",
+      "meaning": "Ether has 2 distinct senses.",
       "examples": [
         "Surgeons used ether long before modern anesthesia.",
         "The room smelled faintly of ether.",
-        "Her message seemed to vanish into the ether."
+        "Her message seemed to vanish into the ether.",
+        "My email must have disappeared into the ether.",
+        "Their promises vanished into the ether after the election.",
+        "The signal goes out into the ether and comes back a second later."
       ],
-      "senses": [],
-      "русский": "эфир",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light, sweet-smelling liquid once widely used to put patients to sleep",
+          "body": [
+            "(эфир)"
+          ],
+          "examples": [
+            "Surgeons used ether long before modern anesthesia.",
+            "The room smelled faintly of ether.",
+            "Her message seemed to vanish into the ether."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The invisible air or space in which signals travel and things seem to vanish",
+          "body": [
+            "(эфир (пространство, куда всё исчезает))",
+            "---"
+          ],
+          "examples": [
+            "My email must have disappeared into the ether.",
+            "Their promises vanished into the ether after the election.",
+            "The signal goes out into the ether and comes back a second later."
+          ]
+        }
+      ],
+      "русский": "эфир; эфир (пространство, куда всё исчезает)",
       "countability": "uncountable"
     },
     {
@@ -4951,14 +5579,43 @@
       "term": "ethic",
       "ipa": "/ˈɛθɪk/",
       "respell": "ETH-ik",
-      "meaning": "A guiding moral principle or attitude that shapes how someone behaves. ---",
+      "meaning": "Ethic has 2 distinct senses.",
       "examples": [
         "She has an incredible work ethic.",
         "The company built its reputation on a service ethic.",
-        "Different ethics guided the two founders."
+        "Different ethics guided the two founders.",
+        "Medical ethics forbid discussing a patient's file.",
+        "The company published a code of ethics last spring.",
+        "She teaches ethics at the law school."
       ],
-      "senses": [],
-      "русский": "принцип, нравственная установка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A guiding moral principle or attitude that shapes how someone behaves",
+          "body": [
+            "(принцип, нравственная установка)"
+          ],
+          "examples": [
+            "She has an incredible work ethic.",
+            "The company built its reputation on a service ethic.",
+            "Different ethics guided the two founders."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The moral rules that govern a profession, or the study of right and wrong",
+          "body": [
+            "(этика, нравственные нормы)",
+            "---"
+          ],
+          "examples": [
+            "Medical ethics forbid discussing a patient's file.",
+            "The company published a code of ethics last spring.",
+            "She teaches ethics at the law school."
+          ]
+        }
+      ],
+      "русский": "принцип, нравственная установка; этика, нравственные нормы",
       "plural": "ethics",
       "countability": "countable",
       "contrast": "An ethic is one guiding principle; ethics is the study of right and wrong or a profession's rules."
@@ -5084,14 +5741,43 @@
       "term": "evil",
       "ipa": "/ˈiːvəl/",
       "respell": "EE-vuhl",
-      "meaning": "Great wickedness, or the force behind it. ---",
+      "meaning": "Evil has 2 distinct senses.",
       "examples": [
         "The book is about the struggle between good and evil.",
         "She saw real evil in what he did.",
-        "Greed is not the root of every evil."
+        "Greed is not the root of every evil.",
+        "He called the plan the lesser of two evils.",
+        "Reformers set out to fight the social evils of the day.",
+        "For most farmers, debt is a necessary evil."
       ],
-      "senses": [],
-      "русский": "зло",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Great wickedness, or the force behind it",
+          "body": [
+            "(зло)"
+          ],
+          "examples": [
+            "The book is about the struggle between good and evil.",
+            "She saw real evil in what he did.",
+            "Greed is not the root of every evil."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular harmful thing or practice",
+          "body": [
+            "(зло, беда (о конкретном явлении))",
+            "---"
+          ],
+          "examples": [
+            "He called the plan the lesser of two evils.",
+            "Reformers set out to fight the social evils of the day.",
+            "For most farmers, debt is a necessary evil."
+          ]
+        }
+      ],
+      "русский": "зло; зло, беда (о конкретном явлении)",
       "countability": "uncountable"
     },
     {
@@ -5157,14 +5843,43 @@
       "term": "example",
       "ipa": "/ɪɡˈzæmpəl/",
       "respell": "ig-ZAM-puhl",
-      "meaning": "One thing taken from a group to show what the rest are like. ---",
+      "meaning": "Example has 2 distinct senses.",
       "examples": [
         "Can you give me an example?",
         "The book is full of worked examples.",
-        "That building is a good example of Art Deco."
+        "That building is a good example of Art Deco.",
+        "Her father set an example of hard work.",
+        "Coaches are supposed to be an example for the kids.",
+        "The judge made an example of him with a heavy fine."
       ],
-      "senses": [],
-      "русский": "пример",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One thing taken from a group to show what the rest are like",
+          "body": [
+            "(пример)"
+          ],
+          "examples": [
+            "Can you give me an example?",
+            "The book is full of worked examples.",
+            "That building is a good example of Art Deco."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone or something held up for others to copy or to learn from",
+          "body": [
+            "(пример для подражания, образец)",
+            "---"
+          ],
+          "examples": [
+            "Her father set an example of hard work.",
+            "Coaches are supposed to be an example for the kids.",
+            "The judge made an example of him with a heavy fine."
+          ]
+        }
+      ],
+      "русский": "пример; пример для подражания, образец",
       "plural": "examples",
       "countability": "countable"
     },
@@ -5969,14 +6684,43 @@
       "term": "factor",
       "ipa": "/ˈfæktər/",
       "respell": "FAK-tur",
-      "meaning": "One of the things that helps cause a result. ---",
+      "meaning": "Factor has 2 distinct senses.",
       "examples": [
         "Price was the deciding factor.",
         "Several factors led to the delay.",
-        "Age is a major risk factor for the disease."
+        "Age is a major risk factor for the disease.",
+        "Three is a factor of twelve.",
+        "List all the factors of thirty-six.",
+        "The two numbers share no common factor but one."
       ],
-      "senses": [],
-      "русский": "фактор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the things that helps cause a result",
+          "body": [
+            "(фактор)"
+          ],
+          "examples": [
+            "Price was the deciding factor.",
+            "Several factors led to the delay.",
+            "Age is a major risk factor for the disease."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A whole number that divides exactly into a larger number",
+          "body": [
+            "(делитель, множитель)",
+            "---"
+          ],
+          "examples": [
+            "Three is a factor of twelve.",
+            "List all the factors of thirty-six.",
+            "The two numbers share no common factor but one."
+          ]
+        }
+      ],
+      "русский": "фактор; делитель, множитель",
       "plural": "factors",
       "countability": "countable"
     },
@@ -6088,14 +6832,58 @@
       "term": "fake",
       "ipa": "/feɪk/",
       "respell": "FAYK",
-      "meaning": "Something made to look like a valuable or genuine thing in order to fool people. ---",
+      "meaning": "Fake has 3 distinct senses.",
       "examples": [
         "The painting turned out to be a fake.",
         "Experts spotted three fakes in the collection.",
-        "That designer bag is an obvious fake."
+        "That designer bag is an obvious fake.",
+        "The man calling himself a surgeon turned out to be a fake.",
+        "She felt like a fake at her first big meeting.",
+        "Half the experts on that show are fakes.",
+        "He froze the defender with a fake and drove to the basket.",
+        "The quarterback's pump fake sent the safety the wrong way.",
+        "Her fakes are what make her so hard to guard."
       ],
-      "senses": [],
-      "русский": "подделка, фальшивка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something made to look like a valuable or genuine thing in order to fool people",
+          "body": [
+            "(подделка, фальшивка)"
+          ],
+          "examples": [
+            "The painting turned out to be a fake.",
+            "Experts spotted three fakes in the collection.",
+            "That designer bag is an obvious fake."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who pretends to be something they are not",
+          "body": [
+            "(притворщик, самозванец)"
+          ],
+          "examples": [
+            "The man calling himself a surgeon turned out to be a fake.",
+            "She felt like a fake at her first big meeting.",
+            "Half the experts on that show are fakes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A quick move made to fool an opponent in a sport",
+          "body": [
+            "(финт, обманное движение)",
+            "---"
+          ],
+          "examples": [
+            "He froze the defender with a fake and drove to the basket.",
+            "The quarterback's pump fake sent the safety the wrong way.",
+            "Her fakes are what make her so hard to guard."
+          ]
+        }
+      ],
+      "русский": "подделка, фальшивка; притворщик, самозванец; финт, обманное движение",
       "plural": "fakes",
       "countability": "countable"
     },
@@ -6864,14 +7652,58 @@
       "term": "filing",
       "ipa": "/ˈfaɪlɪŋ/",
       "respell": "FY-ling",
-      "meaning": "A document formally submitted to a court or a government office. ---",
+      "meaning": "Filing has 3 distinct senses.",
       "examples": [
         "The company's latest filing shows a big loss.",
         "Court filings are public records.",
-        "Her tax filing was two weeks late."
+        "Her tax filing was two weeks late.",
+        "Iron filings lined up along the magnet.",
+        "Sweep the metal filings off the workbench.",
+        "A filing had worked its way into the gears.",
+        "She spent the whole afternoon on filing.",
+        "Filing is the part of the job nobody wants.",
+        "There's a stack of filing sitting on my desk."
       ],
-      "senses": [],
-      "русский": "поданный документ (в суд, налоговую)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A document formally submitted to a court or a government office",
+          "body": [
+            "(поданный документ (в суд, налоговую))"
+          ],
+          "examples": [
+            "The company's latest filing shows a big loss.",
+            "Court filings are public records.",
+            "Her tax filing was two weeks late."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tiny piece of metal rubbed off by a file or a saw",
+          "body": [
+            "(опилки (металлические))"
+          ],
+          "examples": [
+            "Iron filings lined up along the magnet.",
+            "Sweep the metal filings off the workbench.",
+            "A filing had worked its way into the gears."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The work of putting documents in order and storing them",
+          "body": [
+            "(работа с бумагами, подшивка документов)",
+            "---"
+          ],
+          "examples": [
+            "She spent the whole afternoon on filing.",
+            "Filing is the part of the job nobody wants.",
+            "There's a stack of filing sitting on my desk."
+          ]
+        }
+      ],
+      "русский": "поданный документ (в суд, налоговую); опилки (металлические); работа с бумагами, подшивка документов",
       "plural": "filings",
       "countability": "countable"
     },
@@ -6879,28 +7711,86 @@
       "term": "filler",
       "ipa": "/ˈfɪlər/",
       "respell": "FIL-ur",
-      "meaning": "A paste used to fill holes and cracks before painting or finishing. ---",
+      "meaning": "Filler has 2 distinct senses.",
       "examples": [
         "Sand the filler smooth before you paint.",
         "He pressed wood filler into the nail holes.",
-        "One tube of filler was enough for the whole wall."
+        "One tube of filler was enough for the whole wall.",
+        "Half the article is filler.",
+        "That last episode was pure filler.",
+        "He told a long story as filler while the band set up."
       ],
-      "senses": [],
-      "русский": "шпатлёвка, наполнитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A paste used to fill holes and cracks before painting or finishing",
+          "body": [
+            "(шпатлёвка, наполнитель)"
+          ],
+          "examples": [
+            "Sand the filler smooth before you paint.",
+            "He pressed wood filler into the nail holes.",
+            "One tube of filler was enough for the whole wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Material or content added only to take up space or time",
+          "body": [
+            "(заполнитель, «вода» (в тексте, передаче))",
+            "---"
+          ],
+          "examples": [
+            "Half the article is filler.",
+            "That last episode was pure filler.",
+            "He told a long story as filler while the band set up."
+          ]
+        }
+      ],
+      "русский": "шпатлёвка, наполнитель; заполнитель, «вода» (в тексте, передаче)",
       "countability": "uncountable"
     },
     {
       "term": "film",
       "ipa": "/fɪlm/",
       "respell": "FILM",
-      "meaning": "A movie, or a very thin layer covering a surface. ---",
+      "meaning": "Film has 2 distinct senses.",
       "examples": [
         "We watched an old French film on Saturday.",
         "A film of dust covered the top shelf.",
-        "The festival screens over a hundred films each year."
+        "The festival screens over a hundred films each year.",
+        "She still shoots on film.",
+        "He dropped off two rolls of film to be developed.",
+        "The old film had faded in the heat of the attic."
       ],
-      "senses": [],
-      "русский": "фильм; тонкая плёнка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A movie, or a very thin layer covering a surface",
+          "body": [
+            "(фильм; тонкая плёнка)"
+          ],
+          "examples": [
+            "We watched an old French film on Saturday.",
+            "A film of dust covered the top shelf.",
+            "The festival screens over a hundred films each year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thin strip of material used in a camera to record pictures",
+          "body": [
+            "(фотоплёнка)",
+            "---"
+          ],
+          "examples": [
+            "She still shoots on film.",
+            "He dropped off two rolls of film to be developed.",
+            "The old film had faded in the heat of the attic."
+          ]
+        }
+      ],
+      "русский": "фильм; тонкая плёнка; фотоплёнка",
       "plural": "films",
       "countability": "countable"
     },
@@ -6952,14 +7842,43 @@
       "term": "fire",
       "ipa": "/ˈfaɪər/",
       "respell": "FY-ur",
-      "meaning": "Burning flame and heat, or a single event in which something burns and causes damage. ---",
+      "meaning": "Fire has 2 distinct senses.",
       "examples": [
         "The children were told never to play with fire.",
         "A fire destroyed the old mill last winter.",
-        "Crews fought three fires in one week."
+        "Crews fought three fires in one week.",
+        "The patrol came under fire near the bridge.",
+        "The officers held their fire.",
+        "Heavy fire forced the crew to back away."
       ],
-      "senses": [],
-      "русский": "огонь; пожар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Burning flame and heat, or a single event in which something burns and causes damage",
+          "body": [
+            "(огонь; пожар)"
+          ],
+          "examples": [
+            "The children were told never to play with fire.",
+            "A fire destroyed the old mill last winter.",
+            "Crews fought three fires in one week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shooting of guns",
+          "body": [
+            "(стрельба, огонь (из оружия))",
+            "---"
+          ],
+          "examples": [
+            "The patrol came under fire near the bridge.",
+            "The officers held their fire.",
+            "Heavy fire forced the crew to back away."
+          ]
+        }
+      ],
+      "русский": "огонь; пожар; стрельба, огонь (из оружия)",
       "plural": "fires",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -7098,14 +8017,43 @@
       "term": "fix",
       "ipa": "/fɪks/",
       "respell": "FIKS",
-      "meaning": "A repair or a solution to a problem. ---",
+      "meaning": "Fix has 2 distinct senses.",
       "examples": [
         "That's a temporary fix, not a real solution.",
         "The update includes several bug fixes.",
-        "We need a quick fix before the meeting starts."
+        "We need a quick fix before the meeting starts.",
+        "I need my morning coffee fix before I talk to anyone.",
+        "He gets his baseball fix on the radio.",
+        "Addicts will do almost anything for their next fix."
       ],
-      "senses": [],
-      "русский": "решение проблемы, починка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A repair or a solution to a problem",
+          "body": [
+            "(решение проблемы, починка)"
+          ],
+          "examples": [
+            "That's a temporary fix, not a real solution.",
+            "The update includes several bug fixes.",
+            "We need a quick fix before the meeting starts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of something you feel you need on a regular basis",
+          "body": [
+            "(доза, привычная порция (чего-то необходимого))",
+            "---"
+          ],
+          "examples": [
+            "I need my morning coffee fix before I talk to anyone.",
+            "He gets his baseball fix on the radio.",
+            "Addicts will do almost anything for their next fix."
+          ]
+        }
+      ],
+      "русский": "решение проблемы, починка; доза, привычная порция (чего-то необходимого)",
       "plural": "fixes",
       "countability": "countable"
     },
@@ -7248,14 +8196,43 @@
       "term": "flash",
       "ipa": "/flæʃ/",
       "respell": "FLASH",
-      "meaning": "A sudden short burst of light, or a brief moment of something. ---",
+      "meaning": "Flash has 2 distinct senses.",
       "examples": [
         "There was a flash of lightning over the lake.",
         "The camera flash startled the baby.",
-        "He caught flashes of red between the trees."
+        "He caught flashes of red between the trees.",
+        "Turn off the flash inside the museum.",
+        "The flash went off right in my eyes.",
+        "Her camera's flash stopped working halfway through the party."
       ],
-      "senses": [],
-      "русский": "вспышка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden short burst of light, or a brief moment of something",
+          "body": [
+            "(вспышка)"
+          ],
+          "examples": [
+            "There was a flash of lightning over the lake.",
+            "The camera flash startled the baby.",
+            "He caught flashes of red between the trees."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a camera that makes a bright light for a photograph",
+          "body": [
+            "(вспышка (в фотоаппарате))",
+            "---"
+          ],
+          "examples": [
+            "Turn off the flash inside the museum.",
+            "The flash went off right in my eyes.",
+            "Her camera's flash stopped working halfway through the party."
+          ]
+        }
+      ],
+      "русский": "вспышка; вспышка (в фотоаппарате)",
       "plural": "flashes",
       "countability": "countable"
     },
@@ -7308,14 +8285,43 @@
       "term": "flats",
       "ipa": "/flæts/",
       "respell": "FLATS",
-      "meaning": "Women's shoes with no heel or almost none. ---",
+      "meaning": "Flats has 2 distinct senses.",
       "examples": [
         "She wears flats to work and heels in the evening.",
         "A pair of black flats goes with everything.",
-        "My feet hurt, so I switched to flats."
+        "My feet hurt, so I switched to flats.",
+        "Birds feed on the mud flats at low tide.",
+        "They race cars out on the salt flats.",
+        "The flats below the highway flood every spring."
       ],
-      "senses": [],
-      "русский": "балетки, туфли без каблука",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Women's shoes with no heel or almost none",
+          "body": [
+            "(балетки, туфли без каблука)"
+          ],
+          "examples": [
+            "She wears flats to work and heels in the evening.",
+            "A pair of black flats goes with everything.",
+            "My feet hurt, so I switched to flats."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of low, level ground, often muddy or salty",
+          "body": [
+            "(низина, отмель, солончак)",
+            "---"
+          ],
+          "examples": [
+            "Birds feed on the mud flats at low tide.",
+            "They race cars out on the salt flats.",
+            "The flats below the highway flood every spring."
+          ]
+        }
+      ],
+      "русский": "балетки, туфли без каблука; низина, отмель, солончак",
       "plural": "flats",
       "countability": "countable",
       "contrast": "In this sense the word is always plural: a pair of flats."
@@ -7338,14 +8344,43 @@
       "term": "flick",
       "ipa": "/flɪk/",
       "respell": "FLIK",
-      "meaning": "A quick, light movement of a finger, wrist, or brush. ---",
+      "meaning": "Flick has 2 distinct senses.",
       "examples": [
         "He turned the page with a flick of his finger.",
         "One flick of the wrist and the line was out on the water.",
-        "A few flicks of the brush finished the corner."
+        "A few flicks of the brush finished the corner.",
+        "We caught a flick on Saturday night.",
+        "It's a fun action flick with a silly ending.",
+        "He's seen every horror flick ever made."
       ],
-      "senses": [],
-      "русский": "щелчок, резкое лёгкое движение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A quick, light movement of a finger, wrist, or brush",
+          "body": [
+            "(щелчок, резкое лёгкое движение)"
+          ],
+          "examples": [
+            "He turned the page with a flick of his finger.",
+            "One flick of the wrist and the line was out on the water.",
+            "A few flicks of the brush finished the corner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A movie (informal)",
+          "body": [
+            "(фильм, кино (разг.))",
+            "---"
+          ],
+          "examples": [
+            "We caught a flick on Saturday night.",
+            "It's a fun action flick with a silly ending.",
+            "He's seen every horror flick ever made."
+          ]
+        }
+      ],
+      "русский": "щелчок, резкое лёгкое движение; фильм, кино (разг.)",
       "plural": "flicks",
       "countability": "countable"
     },
@@ -7607,14 +8642,58 @@
       "term": "folk",
       "ipa": "/foʊk/",
       "respell": "FOHK",
-      "meaning": "Traditional popular music played mostly on acoustic instruments. ---",
+      "meaning": "Folk has 3 distinct senses.",
       "examples": [
         "The station plays folk all afternoon.",
         "He grew up on folk and bluegrass.",
-        "She writes folk with a country edge."
+        "She writes folk with a country edge.",
+        "Folks around here are pretty friendly.",
+        "A lot of folks showed up for the meeting.",
+        "Most folks never read the fine print.",
+        "My folks live a few hours north of here.",
+        "We're spending the holidays with her folks.",
+        "His folks helped him buy the truck."
       ],
-      "senses": [],
-      "русский": "фолк, народная музыка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Traditional popular music played mostly on acoustic instruments",
+          "body": [
+            "(фолк, народная музыка)"
+          ],
+          "examples": [
+            "The station plays folk all afternoon.",
+            "He grew up on folk and bluegrass.",
+            "She writes folk with a country edge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "People in general, or the people of a particular place",
+          "body": [
+            "(люди, народ)"
+          ],
+          "examples": [
+            "Folks around here are pretty friendly.",
+            "A lot of folks showed up for the meeting.",
+            "Most folks never read the fine print."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Your parents, or your close family",
+          "body": [
+            "(родители, родня)",
+            "---"
+          ],
+          "examples": [
+            "My folks live a few hours north of here.",
+            "We're spending the holidays with her folks.",
+            "His folks helped him buy the truck."
+          ]
+        }
+      ],
+      "русский": "фолк, народная музыка; люди, народ; родители, родня",
       "countability": "uncountable",
       "contrast": "The l is silent: FOHK."
     },
@@ -7722,14 +8801,43 @@
       "term": "fool",
       "ipa": "/fuːl/",
       "respell": "FOOL",
-      "meaning": "Someone who behaves in a silly or unwise way. ---",
+      "meaning": "Fool has 2 distinct senses.",
       "examples": [
         "I felt like a fool for believing him.",
         "Only a fool would drive in this weather.",
-        "He doesn't suffer fools gladly."
+        "He doesn't suffer fools gladly.",
+        "In the play, only the fool dares tell the king the truth.",
+        "The court fool wore a cap with bells on it.",
+        "Medieval kings kept fools to amuse their guests."
       ],
-      "senses": [],
-      "русский": "дурак, глупец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who behaves in a silly or unwise way",
+          "body": [
+            "(дурак, глупец)"
+          ],
+          "examples": [
+            "I felt like a fool for believing him.",
+            "Only a fool would drive in this weather.",
+            "He doesn't suffer fools gladly."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A jester kept by a king or a noble household to entertain with jokes and songs",
+          "body": [
+            "(шут (придворный))",
+            "---"
+          ],
+          "examples": [
+            "In the play, only the fool dares tell the king the truth.",
+            "The court fool wore a cap with bells on it.",
+            "Medieval kings kept fools to amuse their guests."
+          ]
+        }
+      ],
+      "русский": "дурак, глупец; шут (придворный)",
       "plural": "fools",
       "countability": "countable"
     },
@@ -8378,14 +9486,43 @@
       "term": "frill",
       "ipa": "/frɪl/",
       "respell": "FRIL",
-      "meaning": "A gathered strip of cloth sewn along an edge as decoration. ---",
+      "meaning": "Frill has 2 distinct senses.",
       "examples": [
         "The dress has a lace frill at the hem.",
         "She hates frills and bows on children's clothes.",
-        "A narrow frill runs around the edge of the pillow."
+        "A narrow frill runs around the edge of the pillow.",
+        "It's a cheap flight with no frills.",
+        "The apartment is plain and has none of the frills we saw downtown.",
+        "We cut the frills out of the budget first."
       ],
-      "senses": [],
-      "русский": "оборка, рюш",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A gathered strip of cloth sewn along an edge as decoration",
+          "body": [
+            "(оборка, рюш)"
+          ],
+          "examples": [
+            "The dress has a lace frill at the hem.",
+            "She hates frills and bows on children's clothes.",
+            "A narrow frill runs around the edge of the pillow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "In the plural, extra features or comforts that are pleasant but not necessary",
+          "body": [
+            "(излишества, дополнительные удобства)",
+            "---"
+          ],
+          "examples": [
+            "It's a cheap flight with no frills.",
+            "The apartment is plain and has none of the frills we saw downtown.",
+            "We cut the frills out of the budget first."
+          ]
+        }
+      ],
+      "русский": "оборка, рюш; излишества, дополнительные удобства",
       "plural": "frills",
       "countability": "countable",
       "contrast": "In the plural, frills also means unnecessary extras: a no-frills airline."
@@ -8664,14 +9801,43 @@
       "term": "funk",
       "ipa": "/fʌŋk/",
       "respell": "FUNGK",
-      "meaning": "A style of dance music with a heavy beat and a strong bass line. ---",
+      "meaning": "Funk has 2 distinct senses.",
       "examples": [
         "The band plays funk and old soul covers.",
         "You can hear the funk in that bass line.",
-        "He grew up on seventies funk."
+        "He grew up on seventies funk.",
+        "He's been in a funk since he lost his job.",
+        "A long walk usually pulls me out of a funk.",
+        "The whole team fell into a funk after that loss."
       ],
-      "senses": [],
-      "русский": "фанк (стиль музыки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A style of dance music with a heavy beat and a strong bass line",
+          "body": [
+            "(фанк (стиль музыки))"
+          ],
+          "examples": [
+            "The band plays funk and old soul covers.",
+            "You can hear the funk in that bass line.",
+            "He grew up on seventies funk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A low, gloomy mood that a person cannot easily shake off",
+          "body": [
+            "(хандра, подавленное настроение)",
+            "---"
+          ],
+          "examples": [
+            "He's been in a funk since he lost his job.",
+            "A long walk usually pulls me out of a funk.",
+            "The whole team fell into a funk after that loss."
+          ]
+        }
+      ],
+      "русский": "фанк (стиль музыки); хандра, подавленное настроение",
       "countability": "uncountable",
       "contrast": "In a funk is a separate meaning: in a low, gloomy mood."
     },

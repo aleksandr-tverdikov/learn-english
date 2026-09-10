@@ -79,15 +79,23 @@ A round open container with a handle for carrying liquids.
 ### mop
 
 **Pronunciation:** /mɑːp/ &middot; *MAHP*
-**Русский:** швабра
+**Русский:** швабра; копна волос
 **Plural:** *mops*
 **Countability:** countable
 
-A long-handled tool for washing floors.
+Mop has 2 distinct senses.
+
+**1. A long-handled tool for washing floors.** (швабра)
 
 1. The *mop* is in the utility closet.
 2. She wrung out the *mop* over the sink.
 3. We use separate *mops* for the kitchen and the bathroom.
+
+**2. A thick, untidy mass of hair on someone's head.** (копна волос)
+
+4. The kid has a *mop* of red curls.
+5. He pushed the *mop* of hair out of his eyes.
+6. A *mop* of blond hair stuck out from under his cap.
 
 ---
 
@@ -124,15 +132,29 @@ A flat scoop that you sweep dirt into.
 ### rag
 
 **Pronunciation:** /ræɡ/ &middot; *RAG*
-**Русский:** тряпка
+**Русский:** тряпка; лохмотья, тряпьё; газетёнка, бульварная газета
 **Plural:** *rags*
 **Countability:** countable
 
-A piece of old cloth used for cleaning.
+Rag has 3 distinct senses.
+
+**1. A piece of old cloth used for cleaning.** (тряпка)
 
 1. Wipe up the spill with a *rag*.
 2. He used an old T-shirt as a *rag*.
 3. There's a pile of *rags* in the garage.
+
+**2. Old torn clothes.** (лохмотья, тряпьё)
+
+4. The children in the photograph are dressed in *rags*.
+5. He went from *rags* to riches in about ten years.
+6. A scarecrow in *rags* stood at the edge of the field.
+
+**3. A newspaper thought to be of poor quality.** (газетёнка, бульварная газета)
+
+7. Nobody believes anything printed in that *rag*.
+8. The local *rag* got the story wrong again.
+9. He writes a column for a supermarket *rag*.
 
 ---
 
@@ -155,15 +177,29 @@ A small square cloth used for washing your body.
 ### stain
 
 **Pronunciation:** /steɪn/ &middot; *STAYN*
-**Русский:** пятно
+**Русский:** пятно; морилка (для дерева); пятно (на репутации)
 **Plural:** *stains*
 **Countability:** countable
 
-A dirty mark that is hard to remove.
+Stain has 3 distinct senses.
+
+**1. A dirty mark that is hard to remove.** (пятно)
 
 1. There's a coffee *stain* on the rug.
 2. The *stain* came out in the wash.
 3. Grease *stains* are the hardest ones to get out.
+
+**2. A colored liquid brushed onto wood to darken it while letting the grain show.** (морилка (для дерева))
+
+4. We put two coats of *stain* on the deck.
+5. This *stain* gives pine the color of walnut.
+6. He wiped the extra *stain* off with a rag.
+
+**3. A mark of shame on someone's name or record.** (пятно (на репутации))
+
+7. The scandal left a *stain* on his reputation.
+8. The verdict removed the *stain* from her record.
+9. Corruption remains a *stain* on the department.
 
 ---
 
@@ -192,15 +228,23 @@ Dirt has 2 distinct senses.
 ### trash
 
 **Pronunciation:** /træʃ/ &middot; *TRASH*
-**Русский:** мусор
+**Русский:** мусор; дрянь, ерунда
 **Countability:** uncountable
 **Contrast:** American; the British say rubbish. Never *trashes*.
 
-Things you throw away.
+Trash has 2 distinct senses.
+
+**1. Things you throw away.** (мусор)
 
 1. Take the *trash* out before you leave.
 2. The *trash* gets picked up on Tuesdays.
 3. There's *trash* all over the driveway.
+
+**2. Something of very poor quality.** (дрянь, ерунда)
+
+4. That movie was total *trash*.
+5. He says most of the songs on the radio are *trash*.
+6. The book got great reviews, but I thought it was *trash*.
 
 ---
 
@@ -291,15 +335,29 @@ Comb has 2 distinct senses.
 ### brush
 
 **Pronunciation:** /brʌʃ/ &middot; *BRUHSH*
-**Русский:** щётка
+**Русский:** щётка; кустарник, заросли; столкновение, близкая встреча (с чем-л. опасным)
 **Plural:** *brushes*
 **Countability:** countable
 
-A tool with stiff bristles used for cleaning, painting, or hair.
+Brush has 3 distinct senses.
+
+**1. A tool with stiff bristles used for cleaning, painting, or hair.** (щётка)
 
 1. She scrubbed the tile with a stiff *brush*.
 2. Use a wire *brush* on the grill.
 3. The paint *brushes* are soaking in the sink.
+
+**2. Rough low bushes and small trees growing thickly on open land.** (кустарник, заросли)
+
+4. The rabbit disappeared into the *brush*.
+5. Crews cleared the *brush* along the highway to slow the fire.
+6. We piled the cut *brush* behind the barn.
+
+**3. A short, close encounter with something dangerous or unpleasant.** (столкновение, близкая встреча (с чем-л. опасным))
+
+7. He had a *brush* with the law as a teenager.
+8. Her *brush* with cancer changed the way she works.
+9. The pilot describes his *brush* with death in the first chapter.
 
 ---
 
@@ -344,46 +402,88 @@ A device that warms a room or water.
 ### battery
 
 **Pronunciation:** /ˈbætəri/ &middot; *BAT-ur-ee*
-**Русский:** батарейка, аккумулятор
+**Русский:** батарейка, аккумулятор; побои, нанесение побоев; серия, ряд (тестов, вопросов)
 **Plural:** *batteries*
 **Countability:** countable
 
-A sealed cell that stores electric power.
+Battery has 3 distinct senses.
+
+**1. A sealed cell that stores electric power.** (батарейка, аккумулятор)
 
 1. The remote needs new *batteries*.
 2. The smoke detector *battery* is dying.
 3. Keep spare *batteries* in the junk drawer.
+
+**2. The crime of hitting or violently touching another person.** (побои, нанесение побоев)
+
+4. He was charged with assault and *battery*.
+5. The *battery* charge was dropped before trial.
+6. She sued him for *battery* after the fight.
+
+**3. A long series of similar things, especially tests or questions.** (серия, ряд (тестов, вопросов))
+
+7. The doctor ordered a *battery* of tests.
+8. Recruits face a *battery* of physical exams.
+9. He survived a *battery* of questions from reporters.
 
 ---
 
 ### plug
 
 **Pronunciation:** /plʌɡ/ &middot; *PLUHG*
-**Русский:** штепсельная вилка
+**Русский:** штепсельная вилка; пробка, затычка; упоминание в рекламных целях, «реклама»
 **Plural:** *plugs*
 **Countability:** countable
 
-The pronged end of a cord that goes into an outlet.
+Plug has 3 distinct senses.
+
+**1. The pronged end of a cord that goes into an outlet.** (штепсельная вилка)
 
 1. Pull the *plug* out of the wall.
 2. The *plug* on this lamp is loose.
 3. European *plugs* don't fit our outlets.
+
+**2. A piece of rubber or metal that fits into a hole to block it.** (пробка, затычка)
+
+4. Pull the *plug* and let the tub drain.
+5. The mechanic loosened the oil *plug*.
+6. He hammered a rubber *plug* into the bottom of the boat.
+
+**3. A short favorable mention of a product or event in public.** (упоминание в рекламных целях, «реклама»)
+
+7. She got in a quick *plug* for her new book.
+8. Thanks for the *plug* on your show last night.
+9. The whole interview was really just a *plug* for the movie.
 
 ---
 
 ### cord
 
 **Pronunciation:** /kɔːrd/ &middot; *KORD*
-**Русский:** шнур, провод
+**Русский:** шнур, провод; шнур, верёвка; корд (мера дров, ок. 3,6 куб. м)
 **Plural:** *cords*
 **Countability:** countable
 **Contrast:** Sounds exactly like *chord*, the musical one.
 
-An insulated wire that carries power to a device.
+Cord has 3 distinct senses.
+
+**1. An insulated wire that carries power to a device.** (шнур, провод)
 
 1. Don't trip over the *cord*.
 2. The *cord* doesn't reach all the way down the hall.
 3. The *cords* behind the TV are a mess.
+
+**2. A length of thin rope or thick string.** (шнур, верёвка)
+
+4. Tie the box with a piece of *cord*.
+5. The curtains are held back with a silk *cord*.
+6. He cut two *cords* to the same length.
+
+**3. A measure of cut firewood, a stack four feet high, four feet wide, and eight feet long.** (корд (мера дров, ок. 3,6 куб. м))
+
+7. We ordered two *cords* of oak for the winter.
+8. A *cord* of seasoned wood costs more than green wood.
+9. He stacked the *cord* against the barn wall.
 
 ---
 
@@ -482,16 +582,24 @@ A tool for gripping and turning nuts and bolts.
 ### ladder
 
 **Pronunciation:** /ˈlædər/ &middot; *LAD-ur*
-**Русский:** лестница (приставная), стремянка
+**Русский:** лестница (приставная), стремянка; карьерная лестница, иерархия
 **Plural:** *ladders*
 **Countability:** countable
 **Contrast:** In American speech it sounds just like *latter*.
 
-A frame with rungs used for climbing.
+Ladder has 2 distinct senses.
+
+**1. A frame with rungs used for climbing.** (лестница (приставная), стремянка)
 
 1. Hold the *ladder* steady.
 2. He fell off a *ladder* cleaning the gutters.
 3. Both *ladders* are out in the garage.
+
+**2. A series of ranks or levels that a person can move up.** (карьерная лестница, иерархия)
+
+4. He worked his way up the corporate *ladder*.
+5. Teacher pay follows a strict *ladder*.
+6. Changing firms put her back at the bottom of the *ladder*.
 
 ---
 
@@ -521,14 +629,22 @@ Tape has 2 distinct senses.
 ### glue
 
 **Pronunciation:** /ɡluː/ &middot; *GLOO*
-**Русский:** клей
+**Русский:** клей; связующее звено, скрепляющая сила
 **Countability:** uncountable
 
-A sticky substance used to join things together.
+Glue has 2 distinct senses.
+
+**1. A sticky substance used to join things together.** (клей)
 
 1. The *glue* hasn't dried yet.
 2. One drop of *glue* will hold it.
 3. We used wood *glue* on the chair leg.
+
+**2. The person or thing that holds a group together.** (связующее звено, скрепляющая сила)
+
+4. Their grandmother was the *glue* that held the family together.
+5. Trust is the *glue* of any long friendship.
+6. That catcher is the *glue* of the whole team.
 
 ---
 
@@ -588,28 +704,62 @@ Button has 3 distinct senses.
 ### key
 
 **Pronunciation:** /kiː/ &middot; *KEE*
-**Русский:** ключ
+**Русский:** ключ; ключ (к разгадке), главное условие; клавиша; легенда (карты), условные обозначения; тональность
 **Plural:** *keys*
 **Countability:** countable
 
-A shaped piece of metal that opens a lock.
+Key has 5 distinct senses.
+
+**1. A shaped piece of metal that opens a lock.** (ключ)
 
 1. I can't find my house *keys*.
 2. The *key* doesn't turn anymore.
 3. She left a spare *key* with the neighbors.
+
+**2. The thing that explains or solves something.** (ключ (к разгадке), главное условие)
+
+4. Practice is the *key* to playing well.
+5. Sleep turned out to be the *key* to his recovery.
+6. That one letter was the *key* to the whole mystery.
+
+**3. One of the buttons you press on a keyboard, a piano, or a phone.** (клавиша)
+
+7. The S *key* on my laptop sticks.
+8. He ran his fingers over the piano *keys*.
+9. Press any *key* to continue.
+
+**4. A list on a map or a chart explaining what its symbols mean.** (легенда (карты), условные обозначения)
+
+10. The *key* shows that a green triangle is a campground.
+11. Read the *key* before you try to read the graph.
+12. Both maps use the same *key*.
+
+**5. The set of musical notes that a piece of music is built on.** (тональность)
+
+13. The song is in the *key* of G.
+14. She sang it in a lower *key* to suit her voice.
+15. The two pieces are in different *keys*.
 
 ---
 
 ### chore
 
 **Pronunciation:** /tʃɔːr/ &middot; *CHOR*
-**Русский:** домашняя обязанность, дело по дому
+**Русский:** домашняя обязанность, дело по дому; нудное занятие, морока
 **Plural:** *chores*
 **Countability:** countable
 **Contrast:** Countable, unlike uncountable *housework*: three chores, never three houseworks.
 
-A small routine job around the house.
+Chore has 2 distinct senses.
+
+**1. A small routine job around the house.** (домашняя обязанность, дело по дому)
 
 1. The kids each have a few *chores* on Saturdays.
 2. Folding laundry is my least favorite *chore*.
 3. He finished his *chores* before dinner.
+
+**2. Any dull, tiresome task.** (нудное занятие, морока)
+
+4. Filing taxes is such a *chore*.
+5. Getting the kids dressed became a daily *chore*.
+6. Reading that manual was a real *chore*.

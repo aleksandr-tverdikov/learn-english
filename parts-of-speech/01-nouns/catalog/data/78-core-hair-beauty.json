@@ -353,14 +353,58 @@
       "term": "fringe",
       "ipa": "/frɪndʒ/",
       "respell": "FRINJ",
-      "meaning": "Hair cut short and straight across the forehead. ---",
+      "meaning": "Fringe has 3 distinct senses.",
       "examples": [
         "Her fringe had grown into her eyes.",
         "A short fringe suits a round face, she says.",
-        "British magazines talk about fringes, not bangs."
+        "British magazines talk about fringes, not bangs.",
+        "Her jacket had leather fringe along the sleeves.",
+        "The rug's fringe was starting to unravel.",
+        "Silk fringe hung from the edge of the lampshade.",
+        "They live on the fringe of town, past the last stoplight.",
+        "The idea started on the fringes of the party and slowly moved to the center.",
+        "Deer feed along the fringe of the woods at dusk."
       ],
-      "senses": [],
-      "русский": "чёлка (британское)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hair cut short and straight across the forehead",
+          "body": [
+            "(чёлка (британское))"
+          ],
+          "examples": [
+            "Her fringe had grown into her eyes.",
+            "A short fringe suits a round face, she says.",
+            "British magazines talk about fringes, not bangs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A border of hanging threads or cords on a rug, a lampshade, or a piece of clothing",
+          "body": [
+            "(бахрома)"
+          ],
+          "examples": [
+            "Her jacket had leather fringe along the sleeves.",
+            "The rug's fringe was starting to unravel.",
+            "Silk fringe hung from the edge of the lampshade."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The outer edge of an area, or the part of a group farthest from the center",
+          "body": [
+            "(окраина; периферия, крайние круги)",
+            "---"
+          ],
+          "examples": [
+            "They live on the fringe of town, past the last stoplight.",
+            "The idea started on the fringes of the party and slowly moved to the center.",
+            "Deer feed along the fringe of the woods at dusk."
+          ]
+        }
+      ],
+      "русский": "чёлка (британское); бахрома; окраина; периферия, крайние круги",
       "plural": "fringes",
       "countability": "countable",
       "contrast": "British word; Americans say bangs for hair cut across the forehead."
@@ -640,14 +684,43 @@
       "term": "tangle",
       "ipa": "/ˈtæŋɡəl/",
       "respell": "TANG-guhl",
-      "meaning": "A knotted, twisted mass of hair that is hard to comb through. ---",
+      "meaning": "Tangle has 2 distinct senses.",
       "examples": [
         "She worked a tangle out of the back of my hair.",
         "Wet hair gets tangles faster.",
-        "There was one big tangle right behind her ear."
+        "There was one big tangle right behind her ear.",
+        "A tangle of cords sat behind the TV.",
+        "The trail disappeared into a tangle of vines.",
+        "She spent ten minutes undoing the tangle in her headphones."
       ],
-      "senses": [],
-      "русский": "колтун, спутанные волосы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A knotted, twisted mass of hair that is hard to comb through",
+          "body": [
+            "(колтун, спутанные волосы)"
+          ],
+          "examples": [
+            "She worked a tangle out of the back of my hair.",
+            "Wet hair gets tangles faster.",
+            "There was one big tangle right behind her ear."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A twisted, knotted mass of things such as wires, string, or branches",
+          "body": [
+            "(клубок, путаница (проводов, веток))",
+            "---"
+          ],
+          "examples": [
+            "A tangle of cords sat behind the TV.",
+            "The trail disappeared into a tangle of vines.",
+            "She spent ten minutes undoing the tangle in her headphones."
+          ]
+        }
+      ],
+      "русский": "колтун, спутанные волосы; клубок, путаница (проводов, веток)",
       "plural": "tangles",
       "countability": "countable"
     },
@@ -1029,14 +1102,43 @@
       "term": "trimmer",
       "ipa": "/ˈtrɪmər/",
       "respell": "TRIM-ur",
-      "meaning": "A small electric tool for cutting hair or beard to an even length. ---",
+      "meaning": "Trimmer has 2 distinct senses.",
       "examples": [
         "He tidies up his beard with a trimmer.",
         "The trimmer needs charging again.",
-        "The kit came with two trimmers and four guards."
+        "The kit came with two trimmers and four guards.",
+        "He edged the sidewalk with a string trimmer.",
+        "The hedge trimmer needs a new blade.",
+        "She ran the trimmer along the fence line."
       ],
-      "senses": [],
-      "русский": "триммер (машинка для стрижки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small electric tool for cutting hair or beard to an even length",
+          "body": [
+            "(триммер (машинка для стрижки))"
+          ],
+          "examples": [
+            "He tidies up his beard with a trimmer.",
+            "The trimmer needs charging again.",
+            "The kit came with two trimmers and four guards."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A powered garden tool for cutting hedges or the edges of a lawn",
+          "body": [
+            "(триммер (садовый), кусторез)",
+            "---"
+          ],
+          "examples": [
+            "He edged the sidewalk with a string trimmer.",
+            "The hedge trimmer needs a new blade.",
+            "She ran the trimmer along the fence line."
+          ]
+        }
+      ],
+      "русский": "триммер (машинка для стрижки); триммер (садовый), кусторез",
       "plural": "trimmers",
       "countability": "countable"
     },
@@ -1166,14 +1268,43 @@
       "term": "mousse",
       "ipa": "/muːs/",
       "respell": "MOOS",
-      "meaning": "A light foam worked into hair to give it body and hold. ---",
+      "meaning": "Mousse has 2 distinct senses.",
       "examples": [
         "She works mousse through her hair while it's damp.",
         "A little mousse keeps the curls from falling.",
-        "The can of mousse was almost empty."
+        "The can of mousse was almost empty.",
+        "We split a chocolate mousse for dessert.",
+        "The mousse was so light it barely held its shape.",
+        "He topped the mousse with fresh raspberries."
       ],
-      "senses": [],
-      "русский": "мусс (для волос)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A light foam worked into hair to give it body and hold",
+          "body": [
+            "(мусс (для волос))"
+          ],
+          "examples": [
+            "She works mousse through her hair while it's damp.",
+            "A little mousse keeps the curls from falling.",
+            "The can of mousse was almost empty."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft, airy dessert made with whipped cream and flavoring",
+          "body": [
+            "(мусс (десерт))",
+            "---"
+          ],
+          "examples": [
+            "We split a chocolate mousse for dessert.",
+            "The mousse was so light it barely held its shape.",
+            "He topped the mousse with fresh raspberries."
+          ]
+        }
+      ],
+      "русский": "мусс (для волос); мусс (десерт)",
       "countability": "uncountable",
       "contrast": "Sounds exactly like moose, the animal."
     },
@@ -1374,14 +1505,43 @@
       "term": "shave",
       "ipa": "/ʃeɪv/",
       "respell": "SHAYV",
-      "meaning": "An act of cutting the hair off the face or body with a razor. ---",
+      "meaning": "Shave has 2 distinct senses.",
       "examples": [
         "He went in for a haircut and a shave.",
         "That's the closest shave I've had in years.",
-        "Two shaves a week is enough for him."
+        "Two shaves a week is enough for him.",
+        "That was a close shave; the truck missed us by inches.",
+        "He's had a couple of close shaves on that highway.",
+        "We passed the inspection, but it was a close shave."
       ],
-      "senses": [],
-      "русский": "бритьё",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An act of cutting the hair off the face or body with a razor",
+          "body": [
+            "(бритьё)"
+          ],
+          "examples": [
+            "He went in for a haircut and a shave.",
+            "That's the closest shave I've had in years.",
+            "Two shaves a week is enough for him."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A narrow escape from danger or trouble, used in the phrase a close shave",
+          "body": [
+            "(опасность, которой едва избежали)",
+            "---"
+          ],
+          "examples": [
+            "That was a close shave; the truck missed us by inches.",
+            "He's had a couple of close shaves on that highway.",
+            "We passed the inspection, but it was a close shave."
+          ]
+        }
+      ],
+      "русский": "бритьё; опасность, которой едва избежали",
       "plural": "shaves",
       "countability": "countable"
     },
@@ -1462,14 +1622,43 @@
       "term": "nick",
       "ipa": "/nɪk/",
       "respell": "NIK",
-      "meaning": "A small cut in the skin, especially one made while shaving. ---",
+      "meaning": "Nick has 2 distinct senses.",
       "examples": [
         "He had a nick on his chin from shaving.",
         "One nick and the whole sink turns pink.",
-        "There were two nicks along his jaw."
+        "There were two nicks along his jaw.",
+        "There's a nick in the blade of the knife.",
+        "The movers left a nick in the doorframe.",
+        "A few nicks in the paint won't hurt the value."
       ],
-      "senses": [],
-      "русский": "порез (при бритье)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small cut in the skin, especially one made while shaving",
+          "body": [
+            "(порез (при бритье))"
+          ],
+          "examples": [
+            "He had a nick on his chin from shaving.",
+            "One nick and the whole sink turns pink.",
+            "There were two nicks along his jaw."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small chip or dent in the edge or surface of a thing",
+          "body": [
+            "(щербинка, зазубрина, скол)",
+            "---"
+          ],
+          "examples": [
+            "There's a nick in the blade of the knife.",
+            "The movers left a nick in the doorframe.",
+            "A few nicks in the paint won't hurt the value."
+          ]
+        }
+      ],
+      "русский": "порез (при бритье); щербинка, зазубрина, скол",
       "plural": "nicks",
       "countability": "countable"
     },
@@ -1643,14 +1832,43 @@
       "term": "brow",
       "ipa": "/braʊ/",
       "respell": "BROW",
-      "meaning": "An eyebrow, especially as something that is shaped and made up. ---",
+      "meaning": "Brow has 2 distinct senses.",
       "examples": [
         "She gets her brows waxed every month.",
         "One brow is higher than the other.",
-        "Thick brows came back in fashion."
+        "Thick brows came back in fashion.",
+        "He wiped the sweat from his brow.",
+        "Her brow wrinkled as she read the letter.",
+        "A cold cloth on the brow brought the fever down."
       ],
-      "senses": [],
-      "русский": "бровь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An eyebrow, especially as something that is shaped and made up",
+          "body": [
+            "(бровь)"
+          ],
+          "examples": [
+            "She gets her brows waxed every month.",
+            "One brow is higher than the other.",
+            "Thick brows came back in fashion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The forehead",
+          "body": [
+            "(лоб)",
+            "---"
+          ],
+          "examples": [
+            "He wiped the sweat from his brow.",
+            "Her brow wrinkled as she read the letter.",
+            "A cold cloth on the brow brought the fever down."
+          ]
+        }
+      ],
+      "русский": "бровь; лоб",
       "plural": "brows",
       "countability": "countable",
       "contrast": "Rhymes with cow, not with low."
@@ -1674,14 +1892,43 @@
       "term": "lash",
       "ipa": "/læʃ/",
       "respell": "LASH",
-      "meaning": "One of the hairs growing along the edge of the eyelid. ---",
+      "meaning": "Lash has 2 distinct senses.",
       "examples": [
         "She has a lash in her eye.",
         "Two coats of mascara and her lashes looked twice as long.",
-        "The glue holds the false lashes for about a week."
+        "The glue holds the false lashes for about a week.",
+        "The sentence was forty lashes.",
+        "Every lash left a red mark across his back.",
+        "The driver gave the mule a lash to keep it moving."
       ],
-      "senses": [],
-      "русский": "ресница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the hairs growing along the edge of the eyelid",
+          "body": [
+            "(ресница)"
+          ],
+          "examples": [
+            "She has a lash in her eye.",
+            "Two coats of mascara and her lashes looked twice as long.",
+            "The glue holds the false lashes for about a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A blow with a whip",
+          "body": [
+            "(удар плетью)",
+            "---"
+          ],
+          "examples": [
+            "The sentence was forty lashes.",
+            "Every lash left a red mark across his back.",
+            "The driver gave the mule a lash to keep it moving."
+          ]
+        }
+      ],
+      "русский": "ресница; удар плетью",
       "plural": "lashes",
       "countability": "countable"
     },

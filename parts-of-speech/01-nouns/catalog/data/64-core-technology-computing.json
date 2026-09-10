@@ -94,14 +94,58 @@
       "term": "server",
       "ipa": "/ˈsɜːrvər/",
       "respell": "SUR-vur",
-      "meaning": "A powerful computer that stores files or runs services for other computers. ---",
+      "meaning": "Server has 3 distinct senses.",
       "examples": [
         "The server went down for about an hour.",
         "All the photos are backed up on our servers.",
-        "IT is moving the database to a new server this weekend."
+        "IT is moving the database to a new server this weekend.",
+        "Our server took the whole order without writing anything down.",
+        "The restaurant is hiring servers for the summer.",
+        "Tip your server at least twenty percent.",
+        "Cut the pie and use the server to lift out the first slice.",
+        "The set came with a cake knife and a server.",
+        "She washed the silver server by hand."
       ],
-      "senses": [],
-      "русский": "сервер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A powerful computer that stores files or runs services for other computers",
+          "body": [
+            "(сервер)"
+          ],
+          "examples": [
+            "The server went down for about an hour.",
+            "All the photos are backed up on our servers.",
+            "IT is moving the database to a new server this weekend."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who brings food and drinks to customers in a restaurant",
+          "body": [
+            "(официант, официантка)"
+          ],
+          "examples": [
+            "Our server took the whole order without writing anything down.",
+            "The restaurant is hiring servers for the summer.",
+            "Tip your server at least twenty percent."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A flat utensil for lifting a slice of food onto a plate",
+          "body": [
+            "(лопатка (для торта, пирога))",
+            "---"
+          ],
+          "examples": [
+            "Cut the pie and use the server to lift out the first slice.",
+            "The set came with a cake knife and a server.",
+            "She washed the silver server by hand."
+          ]
+        }
+      ],
+      "русский": "сервер; официант, официантка; лопатка (для торта, пирога)",
       "plural": "servers",
       "countability": "countable"
     },
@@ -109,14 +153,73 @@
       "term": "network",
       "ipa": "/ˈnɛtwɜːrk/",
       "respell": "NET-wurk",
-      "meaning": "A group of computers or devices connected so they can share information. ---",
+      "meaning": "Network has 4 distinct senses.",
       "examples": [
         "The office network is running slowly today.",
         "Don't join public networks without a VPN.",
-        "Our printer is on the same network as the laptops."
+        "Our printer is on the same network as the laptops.",
+        "The network canceled the show after one season.",
+        "All three networks carried the speech live.",
+        "She got her start as a network correspondent.",
+        "Most jobs come through your network.",
+        "She built a network of clients over ten years.",
+        "The alumni network is worth joining.",
+        "The city's bus network runs until midnight.",
+        "The storm knocked out part of the power network.",
+        "A dense network of trails covers the park."
       ],
-      "senses": [],
-      "русский": "сеть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of computers or devices connected so they can share information",
+          "body": [
+            "(сеть)"
+          ],
+          "examples": [
+            "The office network is running slowly today.",
+            "Don't join public networks without a VPN.",
+            "Our printer is on the same network as the laptops."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company that broadcasts the same programs on stations across the country",
+          "body": [
+            "(телесеть, вещательная компания)"
+          ],
+          "examples": [
+            "The network canceled the show after one season.",
+            "All three networks carried the speech live.",
+            "She got her start as a network correspondent."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A group of people who stay in contact and help one another, especially at work",
+          "body": [
+            "(сеть контактов, круг связей)"
+          ],
+          "examples": [
+            "Most jobs come through your network.",
+            "She built a network of clients over ten years.",
+            "The alumni network is worth joining."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A system of roads, rails, or lines that cross and connect",
+          "body": [
+            "(сеть (дорог, линий))",
+            "---"
+          ],
+          "examples": [
+            "The city's bus network runs until midnight.",
+            "The storm knocked out part of the power network.",
+            "A dense network of trails covers the park."
+          ]
+        }
+      ],
+      "русский": "сеть; телесеть, вещательная компания; сеть контактов, круг связей; сеть (дорог, линий)",
       "plural": "networks",
       "countability": "countable"
     },
@@ -196,14 +299,43 @@
       "term": "hotspot",
       "ipa": "/ˈhɑːtspɑːt/",
       "respell": "HAHT-spaht",
-      "meaning": "A place or a device that gives nearby phones and laptops internet access. ---",
+      "meaning": "Hotspot has 2 distinct senses.",
       "examples": [
         "I turned my phone into a hotspot so we could work on the train.",
         "The airport has free hotspots near every gate.",
-        "The coffee shop's hotspot needs a password."
+        "The coffee shop's hotspot needs a password.",
+        "That corner is a hotspot for car break-ins.",
+        "The county became a hotspot during the outbreak.",
+        "The reef is a hotspot for marine life."
       ],
-      "senses": [],
-      "русский": "точка доступа (Wi-Fi)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place or a device that gives nearby phones and laptops internet access",
+          "body": [
+            "(точка доступа (Wi-Fi))"
+          ],
+          "examples": [
+            "I turned my phone into a hotspot so we could work on the train.",
+            "The airport has free hotspots near every gate.",
+            "The coffee shop's hotspot needs a password."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where a lot of something is concentrated, especially trouble, danger, or activity",
+          "body": [
+            "(горячая точка; очаг (активности))",
+            "---"
+          ],
+          "examples": [
+            "That corner is a hotspot for car break-ins.",
+            "The county became a hotspot during the outbreak.",
+            "The reef is a hotspot for marine life."
+          ]
+        }
+      ],
+      "русский": "точка доступа (Wi-Fi); горячая точка; очаг (активности)",
       "plural": "hotspots",
       "countability": "countable"
     },
@@ -211,14 +343,58 @@
       "term": "domain",
       "ipa": "/doʊˈmeɪn/",
       "respell": "doh-MAYN",
-      "meaning": "The name that identifies a website, like the part after the www. ---",
+      "meaning": "Domain has 3 distinct senses.",
       "examples": [
         "We bought the domain before we even had a logo.",
         "Short domains are almost all taken.",
-        "The domain expires next March, so renew it."
+        "The domain expires next March, so renew it.",
+        "Tax law is outside my domain.",
+        "Robotics used to be the domain of a few big labs.",
+        "Each team works inside its own domain.",
+        "The lord rode out across his domain.",
+        "That end of the park is the domain of skateboarders.",
+        "These waters are the domain of the coast guard."
       ],
-      "senses": [],
-      "русский": "домен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The name that identifies a website, like the part after the www",
+          "body": [
+            "(домен)"
+          ],
+          "examples": [
+            "We bought the domain before we even had a logo.",
+            "Short domains are almost all taken.",
+            "The domain expires next March, so renew it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An area of activity or knowledge that someone deals with",
+          "body": [
+            "(область, сфера (деятельности, знаний))"
+          ],
+          "examples": [
+            "Tax law is outside my domain.",
+            "Robotics used to be the domain of a few big labs.",
+            "Each team works inside its own domain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The land or area that a ruler or an owner controls",
+          "body": [
+            "(владения, вотчина)",
+            "---"
+          ],
+          "examples": [
+            "The lord rode out across his domain.",
+            "That end of the park is the domain of skateboarders.",
+            "These waters are the domain of the coast guard."
+          ]
+        }
+      ],
+      "русский": "домен; область, сфера (деятельности, знаний); владения, вотчина",
       "plural": "domains",
       "countability": "countable"
     },
@@ -226,14 +402,58 @@
       "term": "link",
       "ipa": "/lɪŋk/",
       "respell": "LINK",
-      "meaning": "A word or image you click to go to another page or file. ---",
+      "meaning": "Link has 3 distinct senses.",
       "examples": [
         "Just send me the link.",
         "Half the links on that page are broken.",
-        "Don't click a link from an email you weren't expecting."
+        "Don't click a link from an email you weren't expecting.",
+        "A single link snapped and the swing came down.",
+        "He shortened the bracelet by two links.",
+        "Rust had eaten through several links of the anchor chain.",
+        "Doctors found a clear link between smoking and heart disease.",
+        "There is no link between the two robberies.",
+        "The company still has strong links to its founder's family."
       ],
-      "senses": [],
-      "русский": "ссылка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A word or image you click to go to another page or file",
+          "body": [
+            "(ссылка)"
+          ],
+          "examples": [
+            "Just send me the link.",
+            "Half the links on that page are broken.",
+            "Don't click a link from an email you weren't expecting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One ring of a chain",
+          "body": [
+            "(звено (цепи))"
+          ],
+          "examples": [
+            "A single link snapped and the swing came down.",
+            "He shortened the bracelet by two links.",
+            "Rust had eaten through several links of the anchor chain."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A connection or relationship between two things",
+          "body": [
+            "(связь, взаимосвязь)",
+            "---"
+          ],
+          "examples": [
+            "Doctors found a clear link between smoking and heart disease.",
+            "There is no link between the two robberies.",
+            "The company still has strong links to its founder's family."
+          ]
+        }
+      ],
+      "русский": "ссылка; звено (цепи); связь, взаимосвязь",
       "plural": "links",
       "countability": "countable"
     },
@@ -256,14 +476,43 @@
       "term": "feed",
       "ipa": "/fiːd/",
       "respell": "FEED",
-      "meaning": "The stream of new posts or updates a site shows you. ---",
+      "meaning": "Feed has 2 distinct senses.",
       "examples": [
         "My feed is nothing but ads lately.",
         "I muted a few accounts to clean up my feeds.",
-        "Her post showed up at the top of my feed."
+        "Her post showed up at the top of my feed.",
+        "We buy chicken feed by the fifty-pound bag.",
+        "The price of cattle feed went up again this spring.",
+        "He mixed the feed with a little warm water."
       ],
-      "senses": [],
-      "русский": "лента (новостей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stream of new posts or updates a site shows you",
+          "body": [
+            "(лента (новостей))"
+          ],
+          "examples": [
+            "My feed is nothing but ads lately.",
+            "I muted a few accounts to clean up my feeds.",
+            "Her post showed up at the top of my feed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Food for farm animals or pets",
+          "body": [
+            "(корм (для животных))",
+            "---"
+          ],
+          "examples": [
+            "We buy chicken feed by the fifty-pound bag.",
+            "The price of cattle feed went up again this spring.",
+            "He mixed the feed with a little warm water."
+          ]
+        }
+      ],
+      "русский": "лента (новостей); корм (для животных)",
       "plural": "feeds",
       "countability": "countable"
     },
@@ -376,14 +625,43 @@
       "term": "user",
       "ipa": "/ˈjuːzər/",
       "respell": "YOO-zur",
-      "meaning": "A person who uses a computer, program, or service. ---",
+      "meaning": "User has 2 distinct senses.",
       "examples": [
         "The app has about two million users.",
         "Every user gets ten gigabytes of free storage.",
-        "Users complained about the new layout right away."
+        "Users complained about the new layout right away.",
+        "The clinic treats heroin users.",
+        "Most users start in their teens.",
+        "He was a user for years before he got help."
       ],
-      "senses": [],
-      "русский": "пользователь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who uses a computer, program, or service",
+          "body": [
+            "(пользователь)"
+          ],
+          "examples": [
+            "The app has about two million users.",
+            "Every user gets ten gigabytes of free storage.",
+            "Users complained about the new layout right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who regularly takes illegal drugs",
+          "body": [
+            "(наркопотребитель, наркоман)",
+            "---"
+          ],
+          "examples": [
+            "The clinic treats heroin users.",
+            "Most users start in their teens.",
+            "He was a user for years before he got help."
+          ]
+        }
+      ],
+      "русский": "пользователь; наркопотребитель, наркоман",
       "plural": "users",
       "countability": "countable"
     },
@@ -421,14 +699,43 @@
       "term": "alert",
       "ipa": "/əˈlɜːrt/",
       "respell": "uh-LURT",
-      "meaning": "A warning message sent to tell you about something important. ---",
+      "meaning": "Alert has 2 distinct senses.",
       "examples": [
         "I set up an alert for that word on my phone.",
         "The bank sends alerts for any charge over a hundred dollars.",
-        "A weather alert woke everybody up at two in the morning."
+        "A weather alert woke everybody up at two in the morning.",
+        "The hospital was on high alert all weekend.",
+        "Troops were placed on alert after the announcement.",
+        "The town stayed on alert until the storm passed."
       ],
-      "senses": [],
-      "русский": "оповещение, предупреждение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A warning message sent to tell you about something important",
+          "body": [
+            "(оповещение, предупреждение)"
+          ],
+          "examples": [
+            "I set up an alert for that word on my phone.",
+            "The bank sends alerts for any charge over a hundred dollars.",
+            "A weather alert woke everybody up at two in the morning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of watching carefully and being ready for danger",
+          "body": [
+            "(состояние готовности, боевая готовность)",
+            "---"
+          ],
+          "examples": [
+            "The hospital was on high alert all weekend.",
+            "Troops were placed on alert after the announcement.",
+            "The town stayed on alert until the storm passed."
+          ]
+        }
+      ],
+      "русский": "оповещение, предупреждение; состояние готовности, боевая готовность",
       "plural": "alerts",
       "countability": "countable"
     },
@@ -647,14 +954,43 @@
       "term": "upgrade",
       "ipa": "/ˈʌpɡreɪd/",
       "respell": "UP-grayd",
-      "meaning": "A newer or better version of something you already have. ---",
+      "meaning": "Upgrade has 2 distinct senses.",
       "examples": [
         "The memory upgrade made a huge difference.",
         "Both upgrades are free for existing customers.",
-        "I'm due for a phone upgrade in June."
+        "I'm due for a phone upgrade in June.",
+        "We got a free upgrade to first class.",
+        "She asked about an upgrade to a room with a view.",
+        "Upgrades go to frequent flyers first."
       ],
-      "senses": [],
-      "русский": "обновление, апгрейд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A newer or better version of something you already have",
+          "body": [
+            "(обновление, апгрейд)"
+          ],
+          "examples": [
+            "The memory upgrade made a huge difference.",
+            "Both upgrades are free for existing customers.",
+            "I'm due for a phone upgrade in June."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A move to a better seat, room, or level of service",
+          "body": [
+            "(повышение класса (места, номера))",
+            "---"
+          ],
+          "examples": [
+            "We got a free upgrade to first class.",
+            "She asked about an upgrade to a room with a view.",
+            "Upgrades go to frequent flyers first."
+          ]
+        }
+      ],
+      "русский": "обновление, апгрейд; повышение класса (места, номера)",
       "plural": "upgrades",
       "countability": "countable",
       "contrast": "Noun stress falls on the first syllable (UP-grayd); the verb takes it on the second (up-GRAYD)."
@@ -723,14 +1059,43 @@
       "term": "menu",
       "ipa": "/ˈmɛnjuː/",
       "respell": "MEN-yoo",
-      "meaning": "A list of choices a program shows you to pick from. ---",
+      "meaning": "Menu has 2 distinct senses.",
       "examples": [
         "Open the menu in the top right corner.",
         "The settings are buried three menus deep.",
-        "Pick Export from the File menu."
+        "Pick Export from the File menu.",
+        "Could we see the menu, please?",
+        "Everything on the lunch menu is under twelve dollars.",
+        "They print new menus every season."
       ],
-      "senses": [],
-      "русский": "меню",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A list of choices a program shows you to pick from",
+          "body": [
+            "(меню)"
+          ],
+          "examples": [
+            "Open the menu in the top right corner.",
+            "The settings are buried three menus deep.",
+            "Pick Export from the File menu."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The list of dishes that a restaurant offers",
+          "body": [
+            "(меню (в ресторане))",
+            "---"
+          ],
+          "examples": [
+            "Could we see the menu, please?",
+            "Everything on the lunch menu is under twelve dollars.",
+            "They print new menus every season."
+          ]
+        }
+      ],
+      "русский": "меню; меню (в ресторане)",
       "plural": "menus",
       "countability": "countable"
     },
@@ -1196,14 +1561,73 @@
       "term": "code",
       "ipa": "/koʊd/",
       "respell": "KOHD",
-      "meaning": "The written instructions that make up a computer program. ---",
+      "meaning": "Code has 4 distinct senses.",
       "examples": [
         "She writes code eight hours a day.",
         "There's a lot of old code nobody understands anymore.",
-        "The bug was three lines of code."
+        "The bug was three lines of code.",
+        "The message was written in code.",
+        "Analysts finally broke the enemy's code.",
+        "The two of them talk in a kind of private code.",
+        "The wiring does not meet the local building code.",
+        "The school has a strict dress code.",
+        "Every employee signs the company code of conduct.",
+        "Enter the code from the text message.",
+        "What's the area code for Denver?",
+        "Each product has its own code."
       ],
-      "senses": [],
-      "русский": "код (программный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The written instructions that make up a computer program",
+          "body": [
+            "(код (программный))"
+          ],
+          "examples": [
+            "She writes code eight hours a day.",
+            "There's a lot of old code nobody understands anymore.",
+            "The bug was three lines of code."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A system of words or symbols used to keep a message secret",
+          "body": [
+            "(шифр, тайный код)"
+          ],
+          "examples": [
+            "The message was written in code.",
+            "Analysts finally broke the enemy's code.",
+            "The two of them talk in a kind of private code."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A set of rules that people, buildings, or work must follow",
+          "body": [
+            "(кодекс, свод правил, нормы)"
+          ],
+          "examples": [
+            "The wiring does not meet the local building code.",
+            "The school has a strict dress code.",
+            "Every employee signs the company code of conduct."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A group of numbers or letters that identifies something",
+          "body": [
+            "(код (цифровой, буквенный))",
+            "---"
+          ],
+          "examples": [
+            "Enter the code from the text message.",
+            "What's the area code for Denver?",
+            "Each product has its own code."
+          ]
+        }
+      ],
+      "русский": "код (программный); шифр, тайный код; кодекс, свод правил, нормы; код (цифровой, буквенный)",
       "plural": "codes",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1242,14 +1666,43 @@
       "term": "array",
       "ipa": "/əˈreɪ/",
       "respell": "uh-RAY",
-      "meaning": "An ordered list of values stored under one name. ---",
+      "meaning": "Array has 2 distinct senses.",
       "examples": [
         "Loop through the array and print each name.",
         "You can nest arrays inside each other.",
-        "The array starts at index zero."
+        "The array starts at index zero.",
+        "The store carries a dazzling array of hot sauces.",
+        "She faced an array of federal charges.",
+        "A whole array of tests came back normal."
       ],
-      "senses": [],
-      "русский": "массив",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An ordered list of values stored under one name",
+          "body": [
+            "(массив)"
+          ],
+          "examples": [
+            "Loop through the array and print each name.",
+            "You can nest arrays inside each other.",
+            "The array starts at index zero."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large and varied group of things offered or faced at once",
+          "body": [
+            "(множество, широкий набор)",
+            "---"
+          ],
+          "examples": [
+            "The store carries a dazzling array of hot sauces.",
+            "She faced an array of federal charges.",
+            "A whole array of tests came back normal."
+          ]
+        }
+      ],
+      "русский": "массив; множество, широкий набор",
       "plural": "arrays",
       "countability": "countable"
     },
@@ -1301,14 +1754,58 @@
       "term": "prompt",
       "ipa": "/prɑːmpt/",
       "respell": "PRAHMPT",
-      "meaning": "The text you type to tell a program or an AI model what you want. ---",
+      "meaning": "Prompt has 3 distinct senses.",
       "examples": [
         "A clearer prompt gets a much better answer.",
         "He keeps a file of prompts he reuses.",
-        "The prompt was too vague, so the output was too."
+        "The prompt was too vague, so the output was too.",
+        "The teacher put a new writing prompt on the board.",
+        "Each essay prompt is worth twenty minutes.",
+        "We pulled prompts out of a jar.",
+        "He froze on stage and waited for a prompt.",
+        "She needed a prompt in the second act.",
+        "A whispered prompt saved the scene."
       ],
-      "senses": [],
-      "русский": "промпт, текстовый запрос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The text you type to tell a program or an AI model what you want",
+          "body": [
+            "(промпт, текстовый запрос)"
+          ],
+          "examples": [
+            "A clearer prompt gets a much better answer.",
+            "He keeps a file of prompts he reuses.",
+            "The prompt was too vague, so the output was too."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word, question, or picture given to start a piece of writing or a discussion",
+          "body": [
+            "(тема, задание (для сочинения))"
+          ],
+          "examples": [
+            "The teacher put a new writing prompt on the board.",
+            "Each essay prompt is worth twenty minutes.",
+            "We pulled prompts out of a jar."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A reminder of the next words, given to an actor who has forgotten a line",
+          "body": [
+            "(подсказка (актёру на сцене))",
+            "---"
+          ],
+          "examples": [
+            "He froze on stage and waited for a prompt.",
+            "She needed a prompt in the second act.",
+            "A whispered prompt saved the scene."
+          ]
+        }
+      ],
+      "русский": "промпт, текстовый запрос; тема, задание (для сочинения); подсказка (актёру на сцене)",
       "plural": "prompts",
       "countability": "countable"
     },
@@ -1316,28 +1813,86 @@
       "term": "input",
       "ipa": "/ˈɪnpʊt/",
       "respell": "IN-puut",
-      "meaning": "Information put into a computer for it to work on. ---",
+      "meaning": "Input has 2 distinct senses.",
       "examples": [
         "The program waits for input from the keyboard.",
         "Bad input gives you bad results.",
-        "It takes plain text as input."
+        "It takes plain text as input.",
+        "I'd like your input before I send the proposal.",
+        "The team had no input into the final decision.",
+        "Thanks for all your input at the meeting."
       ],
-      "senses": [],
-      "русский": "ввод, входные данные",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Information put into a computer for it to work on",
+          "body": [
+            "(ввод, входные данные)"
+          ],
+          "examples": [
+            "The program waits for input from the keyboard.",
+            "Bad input gives you bad results.",
+            "It takes plain text as input."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Advice, ideas, or comments that someone contributes",
+          "body": [
+            "(мнение, замечания, вклад (в обсуждение))",
+            "---"
+          ],
+          "examples": [
+            "I'd like your input before I send the proposal.",
+            "The team had no input into the final decision.",
+            "Thanks for all your input at the meeting."
+          ]
+        }
+      ],
+      "русский": "ввод, входные данные; мнение, замечания, вклад (в обсуждение)",
       "countability": "uncountable"
     },
     {
       "term": "output",
       "ipa": "/ˈaʊtpʊt/",
       "respell": "OWT-puut",
-      "meaning": "What a computer or program produces after it processes something. ---",
+      "meaning": "Output has 2 distinct senses.",
       "examples": [
         "Save the output to a file.",
         "The output was full of warnings.",
-        "Compare the output against the sample."
+        "Compare the output against the sample.",
+        "Factory output fell for the third month in a row.",
+        "The dam's output is measured in megawatts.",
+        "His output as a novelist slowed after he turned sixty."
       ],
-      "senses": [],
-      "русский": "вывод, выходные данные",
+      "senses": [
+        {
+          "n": "1",
+          "head": "What a computer or program produces after it processes something",
+          "body": [
+            "(вывод, выходные данные)"
+          ],
+          "examples": [
+            "Save the output to a file.",
+            "The output was full of warnings.",
+            "Compare the output against the sample."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of something produced by a person, machine, or country",
+          "body": [
+            "(выпуск, объём производства, продукция)",
+            "---"
+          ],
+          "examples": [
+            "Factory output fell for the third month in a row.",
+            "The dam's output is measured in megawatts.",
+            "His output as a novelist slowed after he turned sixty."
+          ]
+        }
+      ],
+      "русский": "вывод, выходные данные; выпуск, объём производства, продукция",
       "countability": "uncountable"
     },
     {
@@ -1552,14 +2107,73 @@
       "term": "drive",
       "ipa": "/draɪv/",
       "respell": "DRYVE",
-      "meaning": "A device that stores data, or a piece of storage the computer treats as one unit. ---",
+      "meaning": "Drive has 4 distinct senses.",
       "examples": [
         "Back everything up to an external drive.",
         "The server has eight drives in it.",
-        "The drive died without any warning."
+        "The drive died without any warning.",
+        "It's a two-hour drive to the coast.",
+        "We went for a drive along the river.",
+        "The drive home took forever in the snow.",
+        "The school is holding a canned food drive.",
+        "Their fundraising drive brought in half a million dollars.",
+        "Blood drives are held twice a year at the church.",
+        "She has the drive to build her own company.",
+        "He's talented but lacks drive.",
+        "Their drive carried the team through a bad season."
       ],
-      "senses": [],
-      "русский": "накопитель, диск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that stores data, or a piece of storage the computer treats as one unit",
+          "body": [
+            "(накопитель, диск)"
+          ],
+          "examples": [
+            "Back everything up to an external drive.",
+            "The server has eight drives in it.",
+            "The drive died without any warning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trip in a car",
+          "body": [
+            "(поездка на машине)"
+          ],
+          "examples": [
+            "It's a two-hour drive to the coast.",
+            "We went for a drive along the river.",
+            "The drive home took forever in the snow."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An organized effort to collect something or achieve a goal",
+          "body": [
+            "(кампания, акция (по сбору средств и т. п.))"
+          ],
+          "examples": [
+            "The school is holding a canned food drive.",
+            "Their fundraising drive brought in half a million dollars.",
+            "Blood drives are held twice a year at the church."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Energy and determination to get things done",
+          "body": [
+            "(напор, целеустремлённость)",
+            "---"
+          ],
+          "examples": [
+            "She has the drive to build her own company.",
+            "He's talented but lacks drive.",
+            "Their drive carried the team through a bad season."
+          ]
+        }
+      ],
+      "русский": "накопитель, диск; поездка на машине; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость",
       "plural": "drives",
       "countability": "countable"
     },
@@ -1627,14 +2241,58 @@
       "term": "backup",
       "ipa": "/ˈbækʌp/",
       "respell": "BAK-up",
-      "meaning": "A spare copy of files kept in case the original is lost. ---",
+      "meaning": "Backup has 3 distinct senses.",
       "examples": [
         "Luckily we had a backup from Friday.",
         "The backups run automatically overnight.",
-        "Make a backup before you upgrade."
+        "Make a backup before you upgrade.",
+        "The officer called for backup before going in.",
+        "We keep a generator as backup.",
+        "Two more ambulances arrived as backup.",
+        "There's a five-mile backup on the interstate.",
+        "A sewer backup flooded the basement.",
+        "Snow caused backups at every intersection."
       ],
-      "senses": [],
-      "русский": "резервная копия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A spare copy of files kept in case the original is lost",
+          "body": [
+            "(резервная копия)"
+          ],
+          "examples": [
+            "Luckily we had a backup from Friday.",
+            "The backups run automatically overnight.",
+            "Make a backup before you upgrade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Extra people or equipment ready to help if they are needed",
+          "body": [
+            "(подкрепление, поддержка)"
+          ],
+          "examples": [
+            "The officer called for backup before going in.",
+            "We keep a generator as backup.",
+            "Two more ambulances arrived as backup."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A build-up of traffic, water, or waste caused by a blockage",
+          "body": [
+            "(затор, пробка; засор)",
+            "---"
+          ],
+          "examples": [
+            "There's a five-mile backup on the interstate.",
+            "A sewer backup flooded the basement.",
+            "Snow caused backups at every intersection."
+          ]
+        }
+      ],
+      "русский": "резервная копия; подкрепление, поддержка; затор, пробка; засор",
       "plural": "backups",
       "countability": "countable",
       "contrast": "One word as a noun (a backup), two words as a verb (back up your files)."
@@ -1822,14 +2480,43 @@
       "term": "scanner",
       "ipa": "/ˈskænər/",
       "respell": "SKAN-ur",
-      "meaning": "A machine that turns a paper document or photo into a computer file. ---",
+      "meaning": "Scanner has 2 distinct senses.",
       "examples": [
         "Put the form in the scanner face down.",
         "The library has two scanners by the front desk.",
-        "The scanner jammed on the third page."
+        "The scanner jammed on the third page.",
+        "He keeps a scanner going in the kitchen all night.",
+        "Reporters heard about the fire on the police scanner.",
+        "The scanner crackled with calls all through the storm."
       ],
-      "senses": [],
-      "русский": "сканер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that turns a paper document or photo into a computer file",
+          "body": [
+            "(сканер)"
+          ],
+          "examples": [
+            "Put the form in the scanner face down.",
+            "The library has two scanners by the front desk.",
+            "The scanner jammed on the third page."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A radio receiver that picks up police, fire, and other emergency broadcasts",
+          "body": [
+            "(радиосканер (приёмник полицейской связи))",
+            "---"
+          ],
+          "examples": [
+            "He keeps a scanner going in the kitchen all night.",
+            "Reporters heard about the fire on the police scanner.",
+            "The scanner crackled with calls all through the storm."
+          ]
+        }
+      ],
+      "русский": "сканер; радиосканер (приёмник полицейской связи)",
       "plural": "scanners",
       "countability": "countable"
     },
@@ -1896,14 +2583,58 @@
       "term": "display",
       "ipa": "/dɪˈspleɪ/",
       "respell": "dih-SPLAY",
-      "meaning": "The screen that shows what a device is doing. ---",
+      "meaning": "Display has 3 distinct senses.",
       "examples": [
         "The display is bright enough to read in the sun.",
         "He runs three displays on his desk.",
-        "The display cracked when I dropped it."
+        "The display cracked when I dropped it.",
+        "The store set up a holiday display in the window.",
+        "A display of local pottery filled the front hall.",
+        "The museum's dinosaur display is being rebuilt.",
+        "The town puts on a fireworks display every July.",
+        "It was an ugly display of temper.",
+        "The team gave a fine display of passing."
       ],
-      "senses": [],
-      "русский": "дисплей, экран",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The screen that shows what a device is doing",
+          "body": [
+            "(дисплей, экран)"
+          ],
+          "examples": [
+            "The display is bright enough to read in the sun.",
+            "He runs three displays on his desk.",
+            "The display cracked when I dropped it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An arrangement of things put out for people to look at",
+          "body": [
+            "(выставка, экспозиция, выкладка)"
+          ],
+          "examples": [
+            "The store set up a holiday display in the window.",
+            "A display of local pottery filled the front hall.",
+            "The museum's dinosaur display is being rebuilt."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A public show of something such as a skill or a feeling",
+          "body": [
+            "(показ, проявление)",
+            "---"
+          ],
+          "examples": [
+            "The town puts on a fireworks display every July.",
+            "It was an ugly display of temper.",
+            "The team gave a fine display of passing."
+          ]
+        }
+      ],
+      "русский": "дисплей, экран; выставка, экспозиция, выкладка; показ, проявление",
       "plural": "displays",
       "countability": "countable"
     },
@@ -2017,14 +2748,58 @@
       "term": "hub",
       "ipa": "/hʌb/",
       "respell": "HUB",
-      "meaning": "A device that gives you several extra ports from one connection. ---",
+      "meaning": "Hub has 3 distinct senses.",
       "examples": [
         "I plug everything into one hub.",
         "Cheap hubs can't supply enough power.",
-        "The hub gives me four extra USB ports."
+        "The hub gives me four extra USB ports.",
+        "The spokes run from the rim to the hub.",
+        "Grease the hub before you put the wheel back on.",
+        "The bike's front hub needs new bearings.",
+        "Atlanta is a major airline hub.",
+        "The town has become a hub for tech startups.",
+        "The kitchen is the hub of our house."
       ],
-      "senses": [],
-      "русский": "хаб, разветвитель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that gives you several extra ports from one connection",
+          "body": [
+            "(хаб, разветвитель)"
+          ],
+          "examples": [
+            "I plug everything into one hub.",
+            "Cheap hubs can't supply enough power.",
+            "The hub gives me four extra USB ports."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The center part of a wheel, which the axle passes through",
+          "body": [
+            "(ступица (колеса))"
+          ],
+          "examples": [
+            "The spokes run from the rim to the hub.",
+            "Grease the hub before you put the wheel back on.",
+            "The bike's front hub needs new bearings."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A central place that a lot of activity or travel passes through",
+          "body": [
+            "(центр, узел (транспортный, деловой))",
+            "---"
+          ],
+          "examples": [
+            "Atlanta is a major airline hub.",
+            "The town has become a hub for tech startups.",
+            "The kitchen is the hub of our house."
+          ]
+        }
+      ],
+      "русский": "хаб, разветвитель; ступица (колеса); центр, узел (транспортный, деловой)",
       "plural": "hubs",
       "countability": "countable"
     },
@@ -2210,14 +2985,43 @@
       "term": "system",
       "ipa": "/ˈsɪstəm/",
       "respell": "SIS-tum",
-      "meaning": "A set of parts working together as a whole. ---",
+      "meaning": "System has 2 distinct senses.",
       "examples": [
         "The whole system went down for two hours.",
         "The two systems don't share data.",
-        "Log in to the system with your work account."
+        "Log in to the system with your work account.",
+        "He says the whole system is rigged against small farmers.",
+        "You can't beat the system.",
+        "She spent years fighting the system to get her son help."
       ],
-      "senses": [],
-      "русский": "система",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of parts working together as a whole",
+          "body": [
+            "(система)"
+          ],
+          "examples": [
+            "The whole system went down for two hours.",
+            "The two systems don't share data.",
+            "Log in to the system with your work account."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The people and institutions in power, seen as a force that controls ordinary people",
+          "body": [
+            "(система (власть, заведённый порядок))",
+            "---"
+          ],
+          "examples": [
+            "He says the whole system is rigged against small farmers.",
+            "You can't beat the system.",
+            "She spent years fighting the system to get her son help."
+          ]
+        }
+      ],
+      "русский": "система; система (власть, заведённый порядок)",
       "plural": "systems",
       "countability": "countable"
     },
@@ -2314,14 +3118,42 @@
       "term": "setup",
       "ipa": "/ˈsɛtʌp/",
       "respell": "SET-up",
-      "meaning": "The way equipment is arranged and configured, or the process of arranging it.",
+      "meaning": "Setup has 2 distinct senses.",
       "examples": [
         "His home office setup cost more than his car.",
         "Both setups use the same software.",
-        "Setup took about twenty minutes."
+        "Setup took about twenty minutes.",
+        "He swore the whole thing was a setup.",
+        "It looked like a robbery, but it was a setup.",
+        "The meeting turned out to be a setup from the start."
       ],
-      "senses": [],
-      "русский": "настройка, конфигурация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The way equipment is arranged and configured, or the process of arranging it",
+          "body": [
+            "(настройка, конфигурация)"
+          ],
+          "examples": [
+            "His home office setup cost more than his car.",
+            "Both setups use the same software.",
+            "Setup took about twenty minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trick arranged to fool someone or to make an innocent person look guilty",
+          "body": [
+            "(подстава)"
+          ],
+          "examples": [
+            "He swore the whole thing was a setup.",
+            "It looked like a robbery, but it was a setup.",
+            "The meeting turned out to be a setup from the start."
+          ]
+        }
+      ],
+      "русский": "настройка, конфигурация; подстава",
       "plural": "setups",
       "countability": "countable",
       "contrast": "One word as a noun (a setup), two words as a verb (set up the printer)."

@@ -970,15 +970,23 @@ An eye disease in which pressure inside the eye slowly damages vision.
 ### gleam
 
 **Pronunciation:** /ɡliːm/ &middot; *GLEEM*
-**Русский:** проблеск, слабый свет; блеск
+**Русский:** проблеск, слабый свет; блеск; проблеск (надежды, чувства)
 **Plural:** *gleams*
 **Countability:** countable
 
-A faint or brief light, or a bright reflection from a smooth surface.
+Gleam has 2 distinct senses.
+
+**1. A faint or brief light, or a bright reflection from a smooth surface.** (проблеск, слабый свет; блеск)
 
 1. There was a *gleam* of light under the door.
 2. I saw a *gleam* of amusement in his eyes.
 3. The polished floor gave off soft *gleams*.
+
+**2. A faint trace or first sign of a feeling or quality.** (проблеск (надежды, чувства))
+
+4. There was still a *gleam* of hope that the deal would go through.
+5. A *gleam* of recognition crossed her face.
+6. For the first time in weeks I saw a *gleam* of his old humor.
 
 ---
 
@@ -1343,15 +1351,23 @@ A sexually transmitted infection caused by bacteria.
 ### good
 
 **Pronunciation:** /ɡʊd/ &middot; *GUUD*
-**Русский:** благо, польза
+**Русский:** благо, польза; товары, продукция
 **Countability:** uncountable
 **Contrast:** The plural goods means merchandise (товары), not benefits.
 
-Benefit or advantage, especially to people in general.
+Good has 2 distinct senses.
+
+**1. Benefit or advantage, especially to people in general.** (благо, польза)
 
 1. She did it for the *good* of the whole town.
 2. What *good* will complaining do?
 3. The rest did him a lot of *good*.
+
+**2. Things that are made and sold, or a person's possessions.** (товары, продукция)
+
+4. The store sells canned *goods* and cleaning supplies.
+5. Rising fuel prices push up the cost of all *goods*.
+6. The truck was carrying stolen *goods*.
 
 ---
 
@@ -1549,15 +1565,23 @@ An informal short word for a graduate of a school or college.
 ### grader
 
 **Pronunciation:** /ˈɡreɪdər/ &middot; *GRAY-dur*
-**Русский:** ученик такого-то класса; проверяющий работы
+**Русский:** ученик такого-то класса; проверяющий работы; грейдер (дорожная машина)
 **Plural:** *graders*
 **Countability:** countable
 
-A student in a particular school grade, or a person who scores tests and papers.
+Grader has 2 distinct senses.
+
+**1. A student in a particular school grade, or a person who scores tests and papers.** (ученик такого-то класса; проверяющий работы)
 
 1. My son is a fourth *grader*.
 2. The *graders* took two weeks to finish the exams.
 3. Third *graders* start learning cursive at this school.
+
+**2. A heavy machine with a long blade that levels dirt roads and building sites.** (грейдер (дорожная машина))
+
+4. A *grader* smoothed the gravel road after the storm.
+5. The county finally sent a *grader* out to fix the ruts.
+6. Two *graders* worked the site all week.
 
 ---
 
@@ -1756,15 +1780,23 @@ A twisted expression of the face showing pain or dislike.
 ### grind
 
 **Pronunciation:** /ɡraɪnd/ &middot; *GRYND*
-**Русский:** рутина, изнурительная работа
+**Русский:** рутина, изнурительная работа; помол (кофе)
 **Plural:** *grinds*
 **Countability:** countable
 
-Long, dull, exhausting work or routine.
+Grind has 2 distinct senses.
+
+**1. Long, dull, exhausting work or routine.** (рутина, изнурительная работа)
 
 1. The daily *grind* wears you down.
 2. Studying for the bar exam was a real *grind*.
 3. After two years of that *grind*, she quit.
+
+**2. How coarsely or finely something, especially coffee, has been ground.** (помол (кофе))
+
+4. A French press needs a coarse *grind*.
+5. Ask them for a fine *grind* for espresso.
+6. The bag lists three different *grinds*.
 
 ---
 
@@ -2026,15 +2058,23 @@ A quiet complaint muttered to yourself or to other people.
 ### grunt
 
 **Pronunciation:** /ɡrʌnt/ &middot; *GRUNT*
-**Русский:** хрюканье; кряхтение
+**Русский:** хрюканье; кряхтение; рядовой солдат; чернорабочий (разг.)
 **Plural:** *grunts*
 **Countability:** countable
 
-A short, low sound made in the throat, like the noise a pig makes.
+Grunt has 2 distinct senses.
+
+**1. A short, low sound made in the throat, like the noise a pig makes.** (хрюканье; кряхтение)
 
 1. He answered with a *grunt*.
 2. You could hear *grunts* coming from the weight room.
 3. The pig gave a satisfied *grunt*.
+
+**2. A soldier or worker of the lowest rank who does the hard, dull jobs.** (рядовой солдат; чернорабочий (разг.))
+
+4. He was just a *grunt* in the infantry.
+5. The *grunts* did the digging while everyone else watched.
+6. I started as a *grunt* in the mailroom.
 
 ---
 
@@ -2219,15 +2259,23 @@ Obvious enjoyment and energy in doing something.
 ### guy
 
 **Pronunciation:** /ɡaɪ/ &middot; *GY*
-**Русский:** парень, мужчина (разг.)
+**Русский:** парень, мужчина (разг.); оттяжка, растяжка (трос)
 **Plural:** *guys*
 **Countability:** countable
 
-An informal word for a man, or, in the plural, for a group of people of any gender.
+Guy has 2 distinct senses.
+
+**1. An informal word for a man, or, in the plural, for a group of people of any gender.** (парень, мужчина (разг.))
 
 1. Some *guy* left his jacket here.
 2. Are you *guys* ready to go?
 3. He's a good *guy*.
+
+**2. A rope or wire that holds a tent, pole, or mast steady.** (оттяжка, растяжка (трос))
+
+4. Stake the *guys* out before the wind picks up.
+5. One *guy* had come loose and the tent sagged.
+6. Steel *guys* hold the antenna upright.
 
 ---
 
@@ -2279,15 +2327,23 @@ A spinning wheel mounted so that it holds its position, used to keep things stea
 ### hack
 
 **Pronunciation:** /hæk/ &middot; *HAK*
-**Русский:** приём, хитрость (лайфхак); взлом (компьютерный)
+**Русский:** приём, хитрость (лайфхак); взлом (компьютерный); халтурщик, писака; функционер
 **Plural:** *hacks*
 **Countability:** countable
 
-A clever shortcut for doing something, or an illegal break-in to a computer system.
+Hack has 2 distinct senses.
+
+**1. A clever shortcut for doing something, or an illegal break-in to a computer system.** (приём, хитрость (лайфхак); взлом (компьютерный))
 
 1. Here's a *hack* for peeling garlic quickly.
 2. The bank disclosed a *hack* that exposed customer data.
 3. The site is full of cleaning *hacks*.
+
+**2. A writer or worker who turns out dull, low-quality work for money.** (халтурщик, писака; функционер)
+
+4. He spent years as a *hack* for a trade magazine.
+5. The column was written by some party *hack*.
+6. Critics dismissed her as a *hack*.
 
 ---
 
@@ -2567,16 +2623,24 @@ A person paid to do small repairs around a house or building.
 ### hangman
 
 **Pronunciation:** /ˈhæŋmən/ &middot; *HANG-muhn*
-**Русский:** палач (вешатель)
+**Русский:** палач (вешатель); виселица (игра в слова)
 **Plural:** *hangmen*
 **Countability:** countable
 **Contrast:** *Hangman* is also a word-guessing game; the plural is *hangmen*.
 
-A man whose job was to execute prisoners by hanging.
+Hangman has 2 distinct senses.
+
+**1. A man whose job was to execute prisoners by hanging.** (палач (вешатель))
 
 1. The *hangman* was waiting at the top of the steps.
 2. In those days the county paid a *hangman*.
 3. The novel opens with a *hangman* checking his rope.
+
+**2. A word game in which every wrong guess adds one line to a drawing of a hanged figure.** (виселица (игра в слова))
+
+4. We played *hangman* on the whiteboard while we waited for the bus.
+5. She won at *hangman* by guessing the vowels first.
+6. My little brother always picks impossible words for *hangman*.
 
 ---
 
@@ -3348,15 +3412,23 @@ The feeling or state of being unable to do anything about a situation.
 ### hemlock
 
 **Pronunciation:** /ˈhɛmlɑːk/ &middot; *HEM-lahk*
-**Русский:** болиголов (ядовитое растение)
+**Русский:** болиголов (ядовитое растение); тсуга (хвойное дерево)
 **Countability:** uncountable
 **Contrast:** In the U.S. *hemlock* is also a common evergreen tree, which is not poisonous.
 
-A poisonous wild plant, or the deadly drink made from it.
+Hemlock has 2 distinct senses.
+
+**1. A poisonous wild plant, or the deadly drink made from it.** (болиголов (ядовитое растение))
 
 1. Socrates was sentenced to death and made to drink *hemlock*.
 2. *Hemlock* grows in the ditch along the back road.
 3. Cattle have died from eating *hemlock*.
+
+**2. A tall evergreen tree of North America with short flat needles and small cones.** (тсуга (хвойное дерево))
+
+4. The trail winds through a stand of old *hemlocks*.
+5. A *hemlock* came down across the driveway in the storm.
+6. *Hemlock* grows all through the forests of the Northeast.
 
 ---
 
@@ -3995,15 +4067,23 @@ Someone who does an activity as a hobby rather than for a living.
 ### hold
 
 **Pronunciation:** /hoʊld/ &middot; *HOHLD*
-**Русский:** хватка, захват
+**Русский:** хватка, захват; трюм; грузовой отсек
 **Plural:** *holds*
 **Countability:** countable
 
-A firm grip on something.
+Hold has 2 distinct senses.
+
+**1. A firm grip on something.** (хватка, захват)
 
 1. He kept a tight *hold* on the railing all the way down.
 2. She lost her *hold* and slid off the branch.
 3. Get a good *hold* on the rope before you lean back.
+
+**2. The space below the deck of a ship or under the floor of a plane where cargo is carried.** (трюм; грузовой отсек)
+
+4. The crates were stacked in the ship's *hold*.
+5. Your suitcase goes in the *hold*, not in the cabin.
+6. Water was leaking into the forward *hold*.
 
 ---
 
@@ -4055,16 +4135,24 @@ Something or someone left over from an earlier time.
 ### hole
 
 **Pronunciation:** /hoʊl/ &middot; *HOHL*
-**Русский:** дыра, отверстие
+**Русский:** дыра, отверстие; лунка (в гольфе)
 **Plural:** *holes*
 **Countability:** countable
 **Contrast:** Sounds exactly like whole ("complete"), but a hole is an opening.
 
-An opening or empty space in a surface or object.
+Hole has 2 distinct senses.
+
+**1. An opening or empty space in a surface or object.** (дыра, отверстие)
 
 1. There's a *hole* in my sock.
 2. The dog dug a *hole* in the back yard.
 3. Water came through the *holes* in the roof.
+
+**2. In golf, the small cup sunk in the ground, or one section of the course leading to it.** (лунка (в гольфе))
+
+4. He sank the putt on the eighteenth *hole*.
+5. We only had time to play nine *holes*.
+6. It's a tough par-four *hole* with water down the left side.
 
 ---
 
@@ -4339,15 +4427,23 @@ A tall pipe that draws tobacco smoke through water.
 ### hop
 
 **Pronunciation:** /hɑːp/ &middot; *HAHP*
-**Русский:** прыжок, подскок
+**Русский:** прыжок, подскок; хмель (шишки для пива)
 **Plural:** *hops*
 **Countability:** countable
 
-A short jump, especially on one foot.
+Hop has 2 distinct senses.
+
+**1. A short jump, especially on one foot.** (прыжок, подскок)
 
 1. She got up the step with a little *hop*.
 2. The bird crossed the path in two *hops*.
 3. The rabbit moved off in quick *hops*.
+
+**2. The dried green flower of a climbing plant, used to give beer its bitter taste.** (хмель (шишки для пива))
+
+4. This IPA is loaded with *hops*.
+5. The farm grows *hops* for local breweries.
+6. You can smell the *hops* from the brewery down the street.
 
 ---
 
@@ -4692,15 +4788,23 @@ A large whale known for leaping out of the water.
 ### hunk
 
 **Pronunciation:** /hʌŋk/ &middot; *HUHNK*
-**Русский:** кусок, ломоть
+**Русский:** кусок, ломоть; красавчик, крепкий мужчина (разг.)
 **Plural:** *hunks*
 **Countability:** countable
 
-A thick piece broken or cut off something larger.
+Hunk has 2 distinct senses.
+
+**1. A thick piece broken or cut off something larger.** (кусок, ломоть)
 
 1. He tore off a *hunk* of bread.
 2. She cut a *hunk* of cheese for the plate.
 3. Big *hunks* of ice floated down the river.
+
+**2. A big, good-looking man, in informal speech.** (красавчик, крепкий мужчина (разг.))
+
+4. Her new boyfriend is a total *hunk*.
+5. The movie is full of *hunks* in uniform.
+6. He was the *hunk* of the swim team back in college.
 
 ---
 
@@ -5237,16 +5341,24 @@ A small mischievous creature in stories, or a naughty child.
 ### impact
 
 **Pronunciation:** /ˈɪmpækt/ &middot; *IM-pakt*
-**Русский:** воздействие, влияние
+**Русский:** воздействие, влияние; удар, столкновение
 **Plural:** *impacts*
 **Countability:** countable
 **Contrast:** The noun is stressed on the first syllable (IM-pakt); the verb on the second (im-PAKT).
 
-A strong effect that one thing has on another.
+Impact has 2 distinct senses.
+
+**1. A strong effect that one thing has on another.** (воздействие, влияние)
 
 1. The new law had a big *impact* on small businesses.
 2. Losing her had a lasting *impact* on him.
 3. The study measures the *impacts* of a warmer climate.
+
+**2. The force of one object striking another, or the moment of the strike.** (удар, столкновение)
+
+4. The bumper crumpled on *impact*.
+5. The *impact* of the collision threw both cars into the median.
+6. Helmets are built to spread the force of an *impact*.
 
 ---
 
@@ -6726,14 +6838,22 @@ A person who fights against the government of their own country.
 ### intake
 
 **Pronunciation:** /ˈɪnteɪk/ &middot; *IN-tayk*
-**Русский:** потребление (пищи, жидкости)
+**Русский:** потребление (пищи, жидкости); воздухозаборник, впускной патрубок
 **Countability:** uncountable
 
-The amount of food, drink, or air taken into the body.
+Intake has 2 distinct senses.
+
+**1. The amount of food, drink, or air taken into the body.** (потребление (пищи, жидкости))
 
 1. The doctor told him to cut his salt *intake*.
 2. Track your water *intake* for a week.
 3. Her calorie *intake* is about eighteen hundred a day.
+
+**2. An opening or pipe through which air, water, or fuel enters an engine or system.** (воздухозаборник, впускной патрубок)
+
+4. Leaves had blocked the water *intake*.
+5. He installed a cold-air *intake* on the truck.
+6. Snow packed into the *intake* and stalled the engine.
 
 ---
 

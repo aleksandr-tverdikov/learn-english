@@ -6,14 +6,58 @@
       "term": "church",
       "ipa": "/tʃɜːrtʃ/",
       "respell": "CHURCH",
-      "meaning": "A building where Christians meet to worship. ---",
+      "meaning": "Church has 3 distinct senses.",
       "examples": [
         "There's a little white church at the end of the road.",
         "We go to church every Sunday morning.",
-        "Half the churches in town run a food pantry."
+        "Half the churches in town run a food pantry.",
+        "Church starts at ten on Sunday.",
+        "We ran into them right after church.",
+        "She reads to the kids during church.",
+        "The church has spoken out against the new law.",
+        "He was raised in the Baptist church.",
+        "Churches across the country are losing members."
       ],
-      "senses": [],
-      "русский": "церковь, храм",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building where Christians meet to worship",
+          "body": [
+            "(церковь, храм)"
+          ],
+          "examples": [
+            "There's a little white church at the end of the road.",
+            "We go to church every Sunday morning.",
+            "Half the churches in town run a food pantry."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A Christian service of worship",
+          "body": [
+            "(богослужение, служба)"
+          ],
+          "examples": [
+            "Church starts at ten on Sunday.",
+            "We ran into them right after church.",
+            "She reads to the kids during church."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A branch of the Christian religion, or the Christian religion as an organized body",
+          "body": [
+            "(церковь (организация, конфессия))",
+            "---"
+          ],
+          "examples": [
+            "The church has spoken out against the new law.",
+            "He was raised in the Baptist church.",
+            "Churches across the country are losing members."
+          ]
+        }
+      ],
+      "русский": "церковь, храм; богослужение, служба; церковь (организация, конфессия)",
       "plural": "churches",
       "countability": "countable"
     },
@@ -251,14 +295,43 @@
       "term": "bishop",
       "ipa": "/ˈbɪʃəp/",
       "respell": "BISH-uhp",
-      "meaning": "A senior Christian clergyman in charge of many churches. ---",
+      "meaning": "Bishop has 2 distinct senses.",
       "examples": [
         "The bishop came to confirm the teenagers.",
         "A letter from the bishop was read aloud.",
-        "The bishops meet twice a year."
+        "The bishops meet twice a year.",
+        "She moved her bishop to threaten the queen.",
+        "He traded a knight for a bishop.",
+        "A bishop can only stay on squares of one color."
       ],
-      "senses": [],
-      "русский": "епископ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A senior Christian clergyman in charge of many churches",
+          "body": [
+            "(епископ)"
+          ],
+          "examples": [
+            "The bishop came to confirm the teenagers.",
+            "A letter from the bishop was read aloud.",
+            "The bishops meet twice a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A chess piece that moves diagonally across the board",
+          "body": [
+            "(слон (шахматная фигура))",
+            "---"
+          ],
+          "examples": [
+            "She moved her bishop to threaten the queen.",
+            "He traded a knight for a bishop.",
+            "A bishop can only stay on squares of one color."
+          ]
+        }
+      ],
+      "русский": "епископ; слон (шахматная фигура)",
       "plural": "bishops",
       "countability": "countable"
     },
@@ -358,14 +431,43 @@
       "term": "saint",
       "ipa": "/seɪnt/",
       "respell": "SAYNT",
-      "meaning": "A person officially recognized as holy after death. ---",
+      "meaning": "Saint has 2 distinct senses.",
       "examples": [
         "She was made a saint four centuries later.",
         "There's a statue of the saint by the door.",
-        "The church is named after two saints."
+        "The church is named after two saints.",
+        "You'd have to be a saint to put up with that.",
+        "His wife is a saint for driving him every week.",
+        "The nurses on that floor are saints."
       ],
-      "senses": [],
-      "русский": "святой, святая",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person officially recognized as holy after death",
+          "body": [
+            "(святой, святая)"
+          ],
+          "examples": [
+            "She was made a saint four centuries later.",
+            "There's a statue of the saint by the door.",
+            "The church is named after two saints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very kind or endlessly patient person",
+          "body": [
+            "(святой человек, ангел (о человеке))",
+            "---"
+          ],
+          "examples": [
+            "You'd have to be a saint to put up with that.",
+            "His wife is a saint for driving him every week.",
+            "The nurses on that floor are saints."
+          ]
+        }
+      ],
+      "русский": "святой, святая; святой человек, ангел (о человеке)",
       "plural": "saints",
       "countability": "countable"
     },
@@ -450,14 +552,43 @@
       "term": "martyr",
       "ipa": "/ˈmɑːrtər/",
       "respell": "MAR-tur",
-      "meaning": "Someone killed because of their religious or political beliefs. ---",
+      "meaning": "Martyr has 2 distinct senses.",
       "examples": [
         "He died a martyr at the age of thirty.",
         "The church honors her as a martyr.",
-        "Statues of the martyrs stand along the wall."
+        "Statues of the martyrs stand along the wall.",
+        "Don't play the martyr — I offered to help twice.",
+        "He cleans up after everyone and then acts like a martyr.",
+        "She's such a martyr about having to work weekends."
       ],
-      "senses": [],
-      "русский": "мученик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone killed because of their religious or political beliefs",
+          "body": [
+            "(мученик)"
+          ],
+          "examples": [
+            "He died a martyr at the age of thirty.",
+            "The church honors her as a martyr.",
+            "Statues of the martyrs stand along the wall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who makes a show of suffering in order to get sympathy",
+          "body": [
+            "(мученик (тот, кто страдает напоказ))",
+            "---"
+          ],
+          "examples": [
+            "Don't play the martyr — I offered to help twice.",
+            "He cleans up after everyone and then acts like a martyr.",
+            "She's such a martyr about having to work weekends."
+          ]
+        }
+      ],
+      "русский": "мученик; мученик (тот, кто страдает напоказ)",
       "plural": "martyrs",
       "countability": "countable",
       "contrast": "The -yr sounds like -ter: MAR-tur, not 'mar-TEER'."
@@ -839,14 +970,43 @@
       "term": "creed",
       "ipa": "/kriːd/",
       "respell": "KREED",
-      "meaning": "A short statement of the beliefs of a religion. ---",
+      "meaning": "Creed has 2 distinct senses.",
       "examples": [
         "The congregation recited the creed together.",
         "Honesty was the old man's whole creed.",
-        "The two churches use slightly different creeds."
+        "The two churches use slightly different creeds.",
+        "Hard work and plain talk were his whole creed.",
+        "The company printed its creed on a single page.",
+        "She stuck to her creed of never lending money to friends."
       ],
-      "senses": [],
-      "русский": "вероучение, символ веры",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short statement of the beliefs of a religion",
+          "body": [
+            "(вероучение, символ веры)"
+          ],
+          "examples": [
+            "The congregation recited the creed together.",
+            "Honesty was the old man's whole creed.",
+            "The two churches use slightly different creeds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of beliefs or principles that guide how someone lives",
+          "body": [
+            "(убеждения, жизненные принципы)",
+            "---"
+          ],
+          "examples": [
+            "Hard work and plain talk were his whole creed.",
+            "The company printed its creed on a single page.",
+            "She stuck to her creed of never lending money to friends."
+          ]
+        }
+      ],
+      "русский": "вероучение, символ веры; убеждения, жизненные принципы",
       "plural": "creeds",
       "countability": "countable"
     },
@@ -869,14 +1029,43 @@
       "term": "Bible",
       "ipa": "/ˈbaɪbəl/",
       "respell": "BY-buhl",
-      "meaning": "The holy book of Christianity. ---",
+      "meaning": "Bible has 2 distinct senses.",
       "examples": [
         "There's a Bible in the drawer of every nightstand.",
         "He read the whole Bible in a year.",
-        "The hotel gave away hundreds of Bibles."
+        "The hotel gave away hundreds of Bibles.",
+        "That manual is the bible of home wiring.",
+        "Her cookbook became the bible for a generation of bakers.",
+        "For serious birders, this guide is the bible."
       ],
-      "senses": [],
-      "русский": "Библия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The holy book of Christianity",
+          "body": [
+            "(Библия)"
+          ],
+          "examples": [
+            "There's a Bible in the drawer of every nightstand.",
+            "He read the whole Bible in a year.",
+            "The hotel gave away hundreds of Bibles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A book treated as the most trusted guide to a subject",
+          "body": [
+            "(настольная книга, «библия» (в какой-л. области))",
+            "---"
+          ],
+          "examples": [
+            "That manual is the bible of home wiring.",
+            "Her cookbook became the bible for a generation of bakers.",
+            "For serious birders, this guide is the bible."
+          ]
+        }
+      ],
+      "русский": "Библия; настольная книга, «библия» (в какой-л. области)",
       "plural": "Bibles",
       "countability": "countable"
     },
@@ -898,14 +1087,58 @@
       "term": "gospel",
       "ipa": "/ˈɡɑːspəl/",
       "respell": "GAH-spuhl",
-      "meaning": "One of the four books telling the life of Jesus, or the message itself. ---",
+      "meaning": "Gospel has 3 distinct senses.",
       "examples": [
         "She read a few verses from the gospel.",
         "He preached the gospel for forty years.",
-        "The four gospels tell the story differently."
+        "The four gospels tell the story differently.",
+        "She grew up singing gospel in her grandmother's church.",
+        "The radio station plays gospel all Sunday morning.",
+        "That choir sings some of the finest gospel in the state.",
+        "Don't take his numbers as gospel.",
+        "In our house, whatever Dad said was gospel.",
+        "Around here that recipe is gospel."
       ],
-      "senses": [],
-      "русский": "евангелие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the four books telling the life of Jesus, or the message itself",
+          "body": [
+            "(евангелие)"
+          ],
+          "examples": [
+            "She read a few verses from the gospel.",
+            "He preached the gospel for forty years.",
+            "The four gospels tell the story differently."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A style of religious singing with strong rhythm, rooted in Black American churches",
+          "body": [
+            "(госпел (жанр духовной музыки))"
+          ],
+          "examples": [
+            "She grew up singing gospel in her grandmother's church.",
+            "The radio station plays gospel all Sunday morning.",
+            "That choir sings some of the finest gospel in the state."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Something that is accepted as completely true",
+          "body": [
+            "(непреложная истина)",
+            "---"
+          ],
+          "examples": [
+            "Don't take his numbers as gospel.",
+            "In our house, whatever Dad said was gospel.",
+            "Around here that recipe is gospel."
+          ]
+        }
+      ],
+      "русский": "евангелие; госпел (жанр духовной музыки); непреложная истина",
       "plural": "gospels",
       "countability": "countable"
     },
@@ -1004,14 +1237,43 @@
       "term": "sermon",
       "ipa": "/ˈsɜːrmən/",
       "respell": "SUR-muhn",
-      "meaning": "A talk on a religious or moral subject given in a service. ---",
+      "meaning": "Sermon has 2 distinct senses.",
       "examples": [
         "The sermon ran long and the kids got restless.",
         "Her sermon was about forgiving your neighbors.",
-        "He posts his sermons online every week."
+        "He posts his sermons online every week.",
+        "I got a sermon about my grades all the way home.",
+        "I don't need a sermon about being ten minutes late.",
+        "Every dinner ended with one of his sermons about money."
       ],
-      "senses": [],
-      "русский": "проповедь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A talk on a religious or moral subject given in a service",
+          "body": [
+            "(проповедь)"
+          ],
+          "examples": [
+            "The sermon ran long and the kids got restless.",
+            "Her sermon was about forgiving your neighbors.",
+            "He posts his sermons online every week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long, tiresome lecture about how someone ought to behave",
+          "body": [
+            "(нравоучение, нотация)",
+            "---"
+          ],
+          "examples": [
+            "I got a sermon about my grades all the way home.",
+            "I don't need a sermon about being ten minutes late.",
+            "Every dinner ended with one of his sermons about money."
+          ]
+        }
+      ],
+      "русский": "проповедь; нравоучение, нотация",
       "plural": "sermons",
       "countability": "countable"
     },
@@ -1607,14 +1869,43 @@
       "term": "angel",
       "ipa": "/ˈeɪndʒəl/",
       "respell": "AYN-juhl",
-      "meaning": "A spiritual being that serves as a messenger of God. ---",
+      "meaning": "Angel has 2 distinct senses.",
       "examples": [
         "An angel appears to the shepherds in the story.",
         "The nurse was an absolute angel.",
-        "Carved angels look down from the ceiling."
+        "Carved angels look down from the ceiling.",
+        "You brought soup? You're an angel.",
+        "The nurses on that floor were angels.",
+        "Her neighbor is an absolute angel about the dog."
       ],
-      "senses": [],
-      "русский": "ангел",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A spiritual being that serves as a messenger of God",
+          "body": [
+            "(ангел)"
+          ],
+          "examples": [
+            "An angel appears to the shepherds in the story.",
+            "The nurse was an absolute angel.",
+            "Carved angels look down from the ceiling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very kind and helpful person",
+          "body": [
+            "(ангел (о добром человеке))",
+            "---"
+          ],
+          "examples": [
+            "You brought soup? You're an angel.",
+            "The nurses on that floor were angels.",
+            "Her neighbor is an absolute angel about the dog."
+          ]
+        }
+      ],
+      "русский": "ангел; ангел (о добром человеке)",
       "plural": "angels",
       "countability": "countable",
       "contrast": "AYN-juhl, not to be confused with 'angle' (ANG-guhl, угол)."
@@ -1638,14 +1929,43 @@
       "term": "demon",
       "ipa": "/ˈdiːmən/",
       "respell": "DEE-muhn",
-      "meaning": "An evil spirit believed to harm or possess people. ---",
+      "meaning": "Demon has 2 distinct senses.",
       "examples": [
         "The priest claimed to have driven out a demon.",
         "In the film a demon haunts the family.",
-        "He's still fighting his own demons."
+        "He's still fighting his own demons.",
+        "He spent years fighting his demons.",
+        "Getting sober meant facing her demons.",
+        "The book is about a writer wrestling with old demons."
       ],
-      "senses": [],
-      "русский": "демон, бес",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An evil spirit believed to harm or possess people",
+          "body": [
+            "(демон, бес)"
+          ],
+          "examples": [
+            "The priest claimed to have driven out a demon.",
+            "In the film a demon haunts the family.",
+            "He's still fighting his own demons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A personal problem or painful memory that torments someone",
+          "body": [
+            "(внутренние демоны, мучительная проблема)",
+            "---"
+          ],
+          "examples": [
+            "He spent years fighting his demons.",
+            "Getting sober meant facing her demons.",
+            "The book is about a writer wrestling with old demons."
+          ]
+        }
+      ],
+      "русский": "демон, бес; внутренние демоны, мучительная проблема",
       "plural": "demons",
       "countability": "countable"
     },
@@ -1669,28 +1989,86 @@
       "term": "heaven",
       "ipa": "/ˈhɛvən/",
       "respell": "HEV-uhn",
-      "meaning": "The place where God lives and good people are believed to go after death. ---",
+      "meaning": "Heaven has 2 distinct senses.",
       "examples": [
         "She believes her mother is in heaven.",
         "That first cup of coffee was heaven.",
-        "Thank heaven you called."
+        "Thank heaven you called.",
+        "The heavens opened and rain came down in sheets.",
+        "He looked up at the heavens and tried to count the stars.",
+        "Astronomers have mapped this corner of the heavens."
       ],
-      "senses": [],
-      "русский": "рай, небеса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place where God lives and good people are believed to go after death",
+          "body": [
+            "(рай, небеса)"
+          ],
+          "examples": [
+            "She believes her mother is in heaven.",
+            "That first cup of coffee was heaven.",
+            "Thank heaven you called."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sky, especially when spoken of in a grand or poetic way",
+          "body": [
+            "(небо, небеса)",
+            "---"
+          ],
+          "examples": [
+            "The heavens opened and rain came down in sheets.",
+            "He looked up at the heavens and tried to count the stars.",
+            "Astronomers have mapped this corner of the heavens."
+          ]
+        }
+      ],
+      "русский": "рай, небеса; небо, небеса",
       "countability": "uncountable"
     },
     {
       "term": "hell",
       "ipa": "/hɛl/",
       "respell": "HEL",
-      "meaning": "The place of punishment after death in some religions. ---",
+      "meaning": "Hell has 2 distinct senses.",
       "examples": [
         "The sermon was mostly about hell.",
         "That drive in August was pure hell.",
-        "He went through hell to get here."
+        "He went through hell to get here.",
+        "The last month at work has been hell.",
+        "She went through hell during the divorce.",
+        "Moving with two toddlers was pure hell."
       ],
-      "senses": [],
-      "русский": "ад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The place of punishment after death in some religions",
+          "body": [
+            "(ад)"
+          ],
+          "examples": [
+            "The sermon was mostly about hell.",
+            "That drive in August was pure hell.",
+            "He went through hell to get here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very unpleasant experience or situation",
+          "body": [
+            "(ад, кошмар (о ситуации))",
+            "---"
+          ],
+          "examples": [
+            "The last month at work has been hell.",
+            "She went through hell during the divorce.",
+            "Moving with two toddlers was pure hell."
+          ]
+        }
+      ],
+      "русский": "ад; ад, кошмар (о ситуации)",
       "countability": "uncountable"
     },
     {
@@ -1768,28 +2146,101 @@
       "term": "grace",
       "ipa": "/ɡreɪs/",
       "respell": "GRAYSS",
-      "meaning": "God's free kindness toward people who do not earn it. ---",
+      "meaning": "Grace has 3 distinct senses.",
       "examples": [
         "The hymn is about grace and forgiveness.",
         "He believes he was saved by grace alone.",
-        "They prayed for the grace to forgive him."
+        "They prayed for the grace to forgive him.",
+        "She crossed the stage with surprising grace.",
+        "He took the loss with grace.",
+        "For a big man, he moves with real grace.",
+        "Grandpa always says grace before we eat.",
+        "We held hands while my aunt said grace.",
+        "Dinner started with a quick grace."
       ],
-      "senses": [],
-      "русский": "благодать; милость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "God's free kindness toward people who do not earn it",
+          "body": [
+            "(благодать; милость)"
+          ],
+          "examples": [
+            "The hymn is about grace and forgiveness.",
+            "He believes he was saved by grace alone.",
+            "They prayed for the grace to forgive him."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Smooth, easy beauty in the way someone moves or behaves",
+          "body": [
+            "(грация, изящество)"
+          ],
+          "examples": [
+            "She crossed the stage with surprising grace.",
+            "He took the loss with grace.",
+            "For a big man, he moves with real grace."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short prayer of thanks said before a meal",
+          "body": [
+            "(молитва перед едой)",
+            "---"
+          ],
+          "examples": [
+            "Grandpa always says grace before we eat.",
+            "We held hands while my aunt said grace.",
+            "Dinner started with a quick grace."
+          ]
+        }
+      ],
+      "русский": "благодать; милость; грация, изящество; молитва перед едой",
       "countability": "uncountable"
     },
     {
       "term": "mercy",
       "ipa": "/ˈmɜːrsi/",
       "respell": "MUR-see",
-      "meaning": "Kindness shown to someone you have the power to punish. ---",
+      "meaning": "Mercy has 2 distinct senses.",
       "examples": [
         "The prisoner begged for mercy.",
         "She showed him no mercy in the debate.",
-        "God's mercy is the theme of the whole psalm."
+        "God's mercy is the theme of the whole psalm.",
+        "It's a mercy nobody was home when the roof came down.",
+        "Be grateful for small mercies.",
+        "That the pain finally stopped was a mercy."
       ],
-      "senses": [],
-      "русский": "милосердие, пощада",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Kindness shown to someone you have the power to punish",
+          "body": [
+            "(милосердие, пощада)"
+          ],
+          "examples": [
+            "The prisoner begged for mercy.",
+            "She showed him no mercy in the debate.",
+            "God's mercy is the theme of the whole psalm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something lucky that you are thankful for",
+          "body": [
+            "(счастье, благо (что так обошлось))",
+            "---"
+          ],
+          "examples": [
+            "It's a mercy nobody was home when the roof came down.",
+            "Be grateful for small mercies.",
+            "That the pain finally stopped was a mercy."
+          ]
+        }
+      ],
+      "русский": "милосердие, пощада; счастье, благо (что так обошлось)",
       "countability": "uncountable"
     },
     {
@@ -1810,14 +2261,43 @@
       "term": "miracle",
       "ipa": "/ˈmɪrəkəl/",
       "respell": "MIH-ruh-kuhl",
-      "meaning": "An event that cannot be explained by natural law, seen as the work of God. ---",
+      "meaning": "Miracle has 2 distinct senses.",
       "examples": [
         "The doctors called her recovery a miracle.",
         "It's a miracle nobody was hurt.",
-        "The gospel describes several miracles."
+        "The gospel describes several miracles.",
+        "It's a miracle nobody was hurt in that crash.",
+        "The country's economic miracle lasted twenty years.",
+        "Getting four kids out the door on time was a small miracle."
       ],
-      "senses": [],
-      "русский": "чудо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An event that cannot be explained by natural law, seen as the work of God",
+          "body": [
+            "(чудо)"
+          ],
+          "examples": [
+            "The doctors called her recovery a miracle.",
+            "It's a miracle nobody was hurt.",
+            "The gospel describes several miracles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something wonderful and lucky that seemed impossible",
+          "body": [
+            "(чудо (нечто удивительное))",
+            "---"
+          ],
+          "examples": [
+            "It's a miracle nobody was hurt in that crash.",
+            "The country's economic miracle lasted twenty years.",
+            "Getting four kids out the door on time was a small miracle."
+          ]
+        }
+      ],
+      "русский": "чудо; чудо (нечто удивительное)",
       "plural": "miracles",
       "countability": "countable"
     },
@@ -1856,14 +2336,43 @@
       "term": "curse",
       "ipa": "/kɜːrs/",
       "respell": "KURS",
-      "meaning": "Words meant to bring evil on someone, or the evil that follows. ---",
+      "meaning": "Curse has 2 distinct senses.",
       "examples": [
         "The family believed there was a curse on the house.",
         "Fame turned out to be a curse.",
-        "The novel is full of ancient curses."
+        "The novel is full of ancient curses.",
+        "He dropped the hammer and muttered a curse.",
+        "The letter was full of curses aimed at the landlord.",
+        "Not one curse passed her lips all evening."
       ],
-      "senses": [],
-      "русский": "проклятие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Words meant to bring evil on someone, or the evil that follows",
+          "body": [
+            "(проклятие)"
+          ],
+          "examples": [
+            "The family believed there was a curse on the house.",
+            "Fame turned out to be a curse.",
+            "The novel is full of ancient curses."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rude or profane word said in anger",
+          "body": [
+            "(ругательство, бранное слово)",
+            "---"
+          ],
+          "examples": [
+            "He dropped the hammer and muttered a curse.",
+            "The letter was full of curses aimed at the landlord.",
+            "Not one curse passed her lips all evening."
+          ]
+        }
+      ],
+      "русский": "проклятие; ругательство, бранное слово",
       "plural": "curses",
       "countability": "countable"
     },
@@ -1958,14 +2467,43 @@
       "term": "nirvana",
       "ipa": "/nɪrˈvɑːnə/",
       "respell": "nur-VAH-nuh",
-      "meaning": "In Buddhism, the perfect peace reached when suffering and desire end. ---",
+      "meaning": "Nirvana has 2 distinct senses.",
       "examples": [
         "The goal is to reach nirvana.",
         "For him a quiet Sunday is nirvana.",
-        "The book explains what nirvana actually means."
+        "The book explains what nirvana actually means.",
+        "For a book lover that store is nirvana.",
+        "A hot shower after a long hike is pure nirvana.",
+        "The resort promises three days of nirvana."
       ],
-      "senses": [],
-      "русский": "нирвана",
+      "senses": [
+        {
+          "n": "1",
+          "head": "In Buddhism, the perfect peace reached when suffering and desire end",
+          "body": [
+            "(нирвана)"
+          ],
+          "examples": [
+            "The goal is to reach nirvana.",
+            "For him a quiet Sunday is nirvana.",
+            "The book explains what nirvana actually means."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A state of perfect happiness, or the ideal version of something",
+          "body": [
+            "(блаженство, рай (перен.))",
+            "---"
+          ],
+          "examples": [
+            "For a book lover that store is nirvana.",
+            "A hot shower after a long hike is pure nirvana.",
+            "The resort promises three days of nirvana."
+          ]
+        }
+      ],
+      "русский": "нирвана; блаженство, рай (перен.)",
       "countability": "uncountable"
     },
     {
@@ -2149,14 +2687,58 @@
       "term": "magic",
       "ipa": "/ˈmædʒɪk/",
       "respell": "MAJ-ik",
-      "meaning": "The use of supposed supernatural power to make things happen. ---",
+      "meaning": "Magic has 3 distinct senses.",
       "examples": [
         "The villagers believed she worked magic.",
         "He does card magic at birthday parties.",
-        "It looked like magic from where I was standing."
+        "It looked like magic from where I was standing.",
+        "He does card magic at children's parties.",
+        "Her uncle taught her close-up magic.",
+        "The show mixes comedy and magic.",
+        "There is a certain magic about the first snow.",
+        "The band lost its magic after the singer left.",
+        "Live theater has a magic that television can't match."
       ],
-      "senses": [],
-      "русский": "магия, волшебство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The use of supposed supernatural power to make things happen",
+          "body": [
+            "(магия, волшебство)"
+          ],
+          "examples": [
+            "The villagers believed she worked magic.",
+            "He does card magic at birthday parties.",
+            "It looked like magic from where I was standing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The art of performing clever tricks that seem impossible",
+          "body": [
+            "(фокусы, иллюзионизм)"
+          ],
+          "examples": [
+            "He does card magic at children's parties.",
+            "Her uncle taught her close-up magic.",
+            "The show mixes comedy and magic."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A special charm or quality that makes something wonderful",
+          "body": [
+            "(волшебство, особое очарование)",
+            "---"
+          ],
+          "examples": [
+            "There is a certain magic about the first snow.",
+            "The band lost its magic after the singer left.",
+            "Live theater has a magic that television can't match."
+          ]
+        }
+      ],
+      "русский": "магия, волшебство; фокусы, иллюзионизм; волшебство, особое очарование",
       "countability": "uncountable",
       "contrast": "Uncountable: you say 'she does magic', never 'magics'."
     },

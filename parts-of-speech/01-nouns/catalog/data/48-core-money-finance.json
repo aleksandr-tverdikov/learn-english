@@ -67,14 +67,43 @@
       "term": "change",
       "ipa": "/tʃeɪndʒ/",
       "respell": "CHAYNJ",
-      "meaning": "The money returned to you after paying, or coins of small value. ---",
+      "meaning": "Change has 2 distinct senses.",
       "examples": [
         "Keep the change.",
         "Do you have change for a twenty?",
-        "I emptied the change out of my pockets."
+        "I emptied the change out of my pockets.",
+        "There has been a big change in the weather.",
+        "She is ready for a change of scenery.",
+        "The new manager made a few changes right away."
       ],
-      "senses": [],
-      "русский": "сдача; мелочь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The money returned to you after paying, or coins of small value",
+          "body": [
+            "(сдача; мелочь)"
+          ],
+          "examples": [
+            "Keep the change.",
+            "Do you have change for a twenty?",
+            "I emptied the change out of my pockets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act or process of becoming different",
+          "body": [
+            "(изменение, перемена)",
+            "---"
+          ],
+          "examples": [
+            "There has been a big change in the weather.",
+            "She is ready for a change of scenery.",
+            "The new manager made a few changes right away."
+          ]
+        }
+      ],
+      "русский": "сдача; мелочь; изменение, перемена",
       "countability": "uncountable",
       "contrast": "In the money sense it is uncountable — never changes."
     },
@@ -97,14 +126,88 @@
       "term": "quarter",
       "ipa": "/ˈkwɔːrtər/",
       "respell": "KWOR-tur",
-      "meaning": "An American coin worth twenty-five cents, or a three-month business period. ---",
+      "meaning": "Quarter has 5 distinct senses.",
       "examples": [
         "The laundry machines need quarters.",
         "Sales were up in the third quarter.",
-        "Do you have a quarter for the parking meter?"
+        "Do you have a quarter for the parking meter?",
+        "Cut the sandwich into quarters.",
+        "She poured a quarter of the batter into each pan.",
+        "Almost a quarter of the class was absent that day.",
+        "The shops in the historic quarter stay open late.",
+        "They rented a walk-up in the artists' quarter.",
+        "Tourists crowd the old quarter every summer.",
+        "The crew sleeps in cramped quarters below deck.",
+        "Officers' quarters are on the north side of the base.",
+        "Five of us spent the winter in close quarters.",
+        "They scored twice in the fourth quarter.",
+        "He sat out the first quarter with a sore ankle.",
+        "The game was tied at the end of the third quarter."
       ],
-      "senses": [],
-      "русский": "монета в 25 центов; квартал (года)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An American coin worth twenty-five cents, or a three-month business period",
+          "body": [
+            "(монета в 25 центов; квартал (года))"
+          ],
+          "examples": [
+            "The laundry machines need quarters.",
+            "Sales were up in the third quarter.",
+            "Do you have a quarter for the parking meter?"
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of four equal parts of something",
+          "body": [
+            "(четверть)"
+          ],
+          "examples": [
+            "Cut the sandwich into quarters.",
+            "She poured a quarter of the batter into each pan.",
+            "Almost a quarter of the class was absent that day."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A district of a city with a character of its own",
+          "body": [
+            "(квартал, район (города))"
+          ],
+          "examples": [
+            "The shops in the historic quarter stay open late.",
+            "They rented a walk-up in the artists' quarter.",
+            "Tourists crowd the old quarter every summer."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Rooms provided for someone to live in",
+          "body": [
+            "(жильё, помещение для проживания; казарма)"
+          ],
+          "examples": [
+            "The crew sleeps in cramped quarters below deck.",
+            "Officers' quarters are on the north side of the base.",
+            "Five of us spent the winter in close quarters."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "One of the four periods a football or basketball game is divided into",
+          "body": [
+            "(четверть (период матча))",
+            "---"
+          ],
+          "examples": [
+            "They scored twice in the fourth quarter.",
+            "He sat out the first quarter with a sore ankle.",
+            "The game was tied at the end of the third quarter."
+          ]
+        }
+      ],
+      "русский": "монета в 25 центов; квартал (года); четверть; квартал, район (города); жильё, помещение для проживания; казарма; четверть (период матча)",
       "plural": "quarters",
       "countability": "countable",
       "contrast": "Two everyday senses: the 25-cent coin and a three-month period of a business year."
@@ -157,14 +260,43 @@
       "term": "deposit",
       "ipa": "/dɪˈpɑːzət/",
       "respell": "dih-PAH-zut",
-      "meaning": "Money put into an account, or money left as security. ---",
+      "meaning": "Deposit has 2 distinct senses.",
       "examples": [
         "I made a deposit at the ATM.",
         "The landlord kept our security deposit.",
-        "Direct deposits usually clear overnight."
+        "Direct deposits usually clear overnight.",
+        "The company found large copper deposits in the hills.",
+        "Hard water leaves white deposits in the kettle.",
+        "The river laid down a thick deposit of silt."
       ],
-      "senses": [],
-      "русский": "вклад; взнос; залог",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money put into an account, or money left as security",
+          "body": [
+            "(вклад; взнос; залог)"
+          ],
+          "examples": [
+            "I made a deposit at the ATM.",
+            "The landlord kept our security deposit.",
+            "Direct deposits usually clear overnight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A layer of a mineral or other substance that builds up naturally",
+          "body": [
+            "(залежь, отложение)",
+            "---"
+          ],
+          "examples": [
+            "The company found large copper deposits in the hills.",
+            "Hard water leaves white deposits in the kettle.",
+            "The river laid down a thick deposit of silt."
+          ]
+        }
+      ],
+      "русский": "вклад; взнос; залог; залежь, отложение",
       "plural": "deposits",
       "countability": "countable"
     },
@@ -187,14 +319,58 @@
       "term": "balance",
       "ipa": "/ˈbæləns/",
       "respell": "BAL-uhns",
-      "meaning": "The amount of money in an account, or the amount still owed. ---",
+      "meaning": "Balance has 3 distinct senses.",
       "examples": [
         "My account balance is down to forty dollars.",
         "Check your balance before you spend.",
-        "They pay off their credit card balances every month."
+        "They pay off their credit card balances every month.",
+        "She lost her balance on the icy step.",
+        "Yoga has improved my balance.",
+        "He held both arms out for balance.",
+        "Finding a work-life balance took him years.",
+        "The sauce has a nice balance of sweet and sour.",
+        "The court has to strike a balance between safety and privacy."
       ],
-      "senses": [],
-      "русский": "остаток на счёте, баланс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of money in an account, or the amount still owed",
+          "body": [
+            "(остаток на счёте, баланс)"
+          ],
+          "examples": [
+            "My account balance is down to forty dollars.",
+            "Check your balance before you spend.",
+            "They pay off their credit card balances every month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A steady position in which you do not fall over",
+          "body": [
+            "(равновесие)"
+          ],
+          "examples": [
+            "She lost her balance on the icy step.",
+            "Yoga has improved my balance.",
+            "He held both arms out for balance."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A state in which different things are present in the right amounts",
+          "body": [
+            "(баланс, соотношение)",
+            "---"
+          ],
+          "examples": [
+            "Finding a work-life balance took him years.",
+            "The sauce has a nice balance of sweet and sour.",
+            "The court has to strike a balance between safety and privacy."
+          ]
+        }
+      ],
+      "русский": "остаток на счёте, баланс; равновесие; баланс, соотношение",
       "plural": "balances",
       "countability": "countable"
     },
@@ -248,14 +424,88 @@
       "term": "check",
       "ipa": "/tʃɛk/",
       "respell": "CHEK",
-      "meaning": "A printed form ordering your bank to pay someone from your account. ---",
+      "meaning": "Check has 5 distinct senses.",
       "examples": [
         "He wrote me a check for the deposit.",
         "The check bounced.",
-        "They still mail paper checks."
+        "They still mail paper checks.",
+        "Could we get the check, please?",
+        "He grabbed the check before anyone else could reach it.",
+        "The check came to forty dollars before tip.",
+        "The job requires a background check.",
+        "Give the tires a quick check before you drive.",
+        "A spelling check caught the mistake.",
+        "Put a check next to every name on the list.",
+        "The teacher left a red check beside each right answer.",
+        "Each finished task got a check in the margin.",
+        "The courts act as a check on the president.",
+        "The whole system rests on checks and balances.",
+        "Rent rules are one check on rising housing costs."
       ],
-      "senses": [],
-      "русский": "чек (банковский)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A printed form ordering your bank to pay someone from your account",
+          "body": [
+            "(чек (банковский))"
+          ],
+          "examples": [
+            "He wrote me a check for the deposit.",
+            "The check bounced.",
+            "They still mail paper checks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The bill for a meal at a restaurant",
+          "body": [
+            "(счёт (в ресторане))"
+          ],
+          "examples": [
+            "Could we get the check, please?",
+            "He grabbed the check before anyone else could reach it.",
+            "The check came to forty dollars before tip."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An act of looking at something to make sure it is right or safe",
+          "body": [
+            "(проверка)"
+          ],
+          "examples": [
+            "The job requires a background check.",
+            "Give the tires a quick check before you drive.",
+            "A spelling check caught the mistake."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A small mark put beside an item to show it is correct or done",
+          "body": [
+            "(галочка)"
+          ],
+          "examples": [
+            "Put a check next to every name on the list.",
+            "The teacher left a red check beside each right answer.",
+            "Each finished task got a check in the margin."
+          ]
+        },
+        {
+          "n": "5",
+          "head": "Something that limits or controls a power",
+          "body": [
+            "(сдерживающий фактор, ограничение)",
+            "---"
+          ],
+          "examples": [
+            "The courts act as a check on the president.",
+            "The whole system rests on checks and balances.",
+            "Rent rules are one check on rising housing costs."
+          ]
+        }
+      ],
+      "русский": "чек (банковский); счёт (в ресторане); проверка; галочка; сдерживающий фактор, ограничение",
       "plural": "checks",
       "countability": "countable",
       "contrast": "American spelling is check; British English writes cheque for the bank sense."
@@ -384,14 +634,73 @@
       "term": "credit",
       "ipa": "/ˈkrɛdət/",
       "respell": "KRED-ut",
-      "meaning": "The ability to buy now and pay later, based on trust that you will repay. ---",
+      "meaning": "Credit has 4 distinct senses.",
       "examples": [
         "Her credit is excellent.",
         "We bought the couch on credit.",
-        "They cut off his line of credit."
+        "They cut off his line of credit.",
+        "Her boss took all the credit for the idea.",
+        "Give the kid credit — he finished the job alone.",
+        "The design deserves more credit than it gets.",
+        "He needs six more credits to graduate.",
+        "The course is worth three credits.",
+        "Some of her credits didn't transfer to the new school.",
+        "We stayed through the credits for the extra scene.",
+        "Her name is in the credits as an assistant editor.",
+        "The credits rolled before anyone moved."
       ],
-      "senses": [],
-      "русский": "кредит (возможность занимать)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The ability to buy now and pay later, based on trust that you will repay",
+          "body": [
+            "(кредит (возможность занимать))"
+          ],
+          "examples": [
+            "Her credit is excellent.",
+            "We bought the couch on credit.",
+            "They cut off his line of credit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Public recognition or praise for something you have done",
+          "body": [
+            "(признание заслуг, честь)"
+          ],
+          "examples": [
+            "Her boss took all the credit for the idea.",
+            "Give the kid credit — he finished the job alone.",
+            "The design deserves more credit than it gets."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A unit of study that counts toward a school or college degree",
+          "body": [
+            "(зачётная единица, кредит (учебный))"
+          ],
+          "examples": [
+            "He needs six more credits to graduate.",
+            "The course is worth three credits.",
+            "Some of her credits didn't transfer to the new school."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The list of names shown at the start or end of a film or show",
+          "body": [
+            "(титры)",
+            "---"
+          ],
+          "examples": [
+            "We stayed through the credits for the extra scene.",
+            "Her name is in the credits as an assistant editor.",
+            "The credits rolled before anyone moved."
+          ]
+        }
+      ],
+      "русский": "кредит (возможность занимать); признание заслуг, честь; зачётная единица, кредит (учебный); титры",
       "countability": "uncountable"
     },
     {
@@ -443,14 +752,43 @@
       "term": "loan",
       "ipa": "/loʊn/",
       "respell": "LOHN",
-      "meaning": "A sum of money borrowed that must be paid back, usually with interest. ---",
+      "meaning": "Loan has 2 distinct senses.",
       "examples": [
         "They took out a loan to fix the roof.",
         "She's still paying off her student loans.",
-        "The bank approved the loan in a week."
+        "The bank approved the loan in a week.",
+        "The painting is on loan from a museum in Boston.",
+        "Thanks for the loan of your truck last weekend.",
+        "Several exhibits are here on long-term loan."
       ],
-      "senses": [],
-      "русский": "заём, ссуда, кредит",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sum of money borrowed that must be paid back, usually with interest",
+          "body": [
+            "(заём, ссуда, кредит)"
+          ],
+          "examples": [
+            "They took out a loan to fix the roof.",
+            "She's still paying off her student loans.",
+            "The bank approved the loan in a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of lending something, or the state of being lent",
+          "body": [
+            "(предоставление во временное пользование)",
+            "---"
+          ],
+          "examples": [
+            "The painting is on loan from a museum in Boston.",
+            "Thanks for the loan of your truck last weekend.",
+            "Several exhibits are here on long-term loan."
+          ]
+        }
+      ],
+      "русский": "заём, ссуда, кредит; предоставление во временное пользование",
       "plural": "loans",
       "countability": "countable"
     },
@@ -458,14 +796,43 @@
       "term": "debt",
       "ipa": "/dɛt/",
       "respell": "DET",
-      "meaning": "Money that one person or company owes another. ---",
+      "meaning": "Debt has 2 distinct senses.",
       "examples": [
         "He's finally out of debt.",
         "They ran up huge debts on credit cards.",
-        "The company is drowning in debt."
+        "The company is drowning in debt.",
+        "I owe her a debt of gratitude for taking me in.",
+        "He said he had paid his debt to society.",
+        "We are in your debt for everything you did that winter."
       ],
-      "senses": [],
-      "русский": "долг, задолженность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money that one person or company owes another",
+          "body": [
+            "(долг, задолженность)"
+          ],
+          "examples": [
+            "He's finally out of debt.",
+            "They ran up huge debts on credit cards.",
+            "The company is drowning in debt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An obligation to someone who has helped you",
+          "body": [
+            "(долг (моральный), обязательство перед кем-либо)",
+            "---"
+          ],
+          "examples": [
+            "I owe her a debt of gratitude for taking me in.",
+            "He said he had paid his debt to society.",
+            "We are in your debt for everything you did that winter."
+          ]
+        }
+      ],
+      "русский": "долг, задолженность; долг (моральный), обязательство перед кем-либо",
       "plural": "debts",
       "countability": "countable",
       "contrast": "The b is silent — it rhymes with bet."
@@ -565,14 +932,43 @@
       "term": "default",
       "ipa": "/dɪˈfɔːlt/",
       "respell": "dih-FAWLT",
-      "meaning": "A failure to make payments that you are legally required to make. ---",
+      "meaning": "Default has 2 distinct senses.",
       "examples": [
         "The country is close to default.",
         "A single default wrecks your credit.",
-        "Loan defaults rose sharply last quarter."
+        "Loan defaults rose sharply last quarter.",
+        "The browser's default is to block pop-ups.",
+        "You can change the default in the settings menu.",
+        "Leave it at the default if you are not sure."
       ],
-      "senses": [],
-      "русский": "дефолт, невыполнение обязательств",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A failure to make payments that you are legally required to make",
+          "body": [
+            "(дефолт, невыполнение обязательств)"
+          ],
+          "examples": [
+            "The country is close to default.",
+            "A single default wrecks your credit.",
+            "Loan defaults rose sharply last quarter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The setting or option a system uses until someone changes it",
+          "body": [
+            "(значение по умолчанию, настройка по умолчанию)",
+            "---"
+          ],
+          "examples": [
+            "The browser's default is to block pop-ups.",
+            "You can change the default in the settings menu.",
+            "Leave it at the default if you are not sure."
+          ]
+        }
+      ],
+      "русский": "дефолт, невыполнение обязательств; значение по умолчанию, настройка по умолчанию",
       "plural": "defaults",
       "countability": "countable"
     },
@@ -655,14 +1051,58 @@
       "term": "stock",
       "ipa": "/stɑːk/",
       "respell": "STAHK",
-      "meaning": "A share of ownership in a company that can be bought and sold. ---",
+      "meaning": "Stock has 3 distinct senses.",
       "examples": [
         "Tech stocks took a beating today.",
         "She owns stock in three airlines.",
-        "He bought the stock at twelve dollars a share."
+        "He bought the stock at twelve dollars a share.",
+        "That size is out of stock.",
+        "We keep extra batteries in stock.",
+        "The stock in the back room is running low.",
+        "Add two cups of chicken stock.",
+        "She freezes the stock in ice cube trays.",
+        "Homemade stock makes a real difference in the soup."
       ],
-      "senses": [],
-      "русский": "акция, акции",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A share of ownership in a company that can be bought and sold",
+          "body": [
+            "(акция, акции)"
+          ],
+          "examples": [
+            "Tech stocks took a beating today.",
+            "She owns stock in three airlines.",
+            "He bought the stock at twelve dollars a share."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The supply of goods a store has on hand",
+          "body": [
+            "(запас (товара), наличие)"
+          ],
+          "examples": [
+            "That size is out of stock.",
+            "We keep extra batteries in stock.",
+            "The stock in the back room is running low."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A liquid made by boiling bones or vegetables, used as a base for soups and sauces",
+          "body": [
+            "(бульон (основа))",
+            "---"
+          ],
+          "examples": [
+            "Add two cups of chicken stock.",
+            "She freezes the stock in ice cube trays.",
+            "Homemade stock makes a real difference in the soup."
+          ]
+        }
+      ],
+      "русский": "акция, акции; запас (товара), наличие; бульон (основа)",
       "plural": "stocks",
       "countability": "countable"
     },
@@ -685,14 +1125,43 @@
       "term": "share",
       "ipa": "/ʃɛr/",
       "respell": "SHAIR",
-      "meaning": "One of the equal parts a company's ownership is divided into. ---",
+      "meaning": "Share has 2 distinct senses.",
       "examples": [
         "I sold half my shares in March.",
         "Each share pays a small dividend.",
-        "They bought a hundred shares on Monday."
+        "They bought a hundred shares on Monday.",
+        "You haven't done your share of the dishes.",
+        "Each of the kids got an equal share of the money.",
+        "She's had more than her share of bad luck."
       ],
-      "senses": [],
-      "русский": "акция; доля",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the equal parts a company's ownership is divided into",
+          "body": [
+            "(акция; доля)"
+          ],
+          "examples": [
+            "I sold half my shares in March.",
+            "Each share pays a small dividend.",
+            "They bought a hundred shares on Monday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of something that belongs to one person or that one person does",
+          "body": [
+            "(доля, часть)",
+            "---"
+          ],
+          "examples": [
+            "You haven't done your share of the dishes.",
+            "Each of the kids got an equal share of the money.",
+            "She's had more than her share of bad luck."
+          ]
+        }
+      ],
+      "русский": "акция; доля; доля, часть",
       "plural": "shares",
       "countability": "countable"
     },
@@ -700,14 +1169,58 @@
       "term": "bond",
       "ipa": "/bɑːnd/",
       "respell": "BAHND",
-      "meaning": "A certificate showing that a government or company has borrowed from you. ---",
+      "meaning": "Bond has 3 distinct senses.",
       "examples": [
         "Government bonds pay less, but they're safe.",
         "The city issued bonds to build the stadium.",
-        "He put the money into a ten-year bond."
+        "He put the money into a ten-year bond.",
+        "There's a strong bond between the two sisters.",
+        "Years of training created a bond among the crew.",
+        "The bond between mother and child forms early.",
+        "The judge set bond at fifty thousand dollars.",
+        "His family posted bond that same night.",
+        "She was released on bond the next morning."
       ],
-      "senses": [],
-      "русский": "облигация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A certificate showing that a government or company has borrowed from you",
+          "body": [
+            "(облигация)"
+          ],
+          "examples": [
+            "Government bonds pay less, but they're safe.",
+            "The city issued bonds to build the stadium.",
+            "He put the money into a ten-year bond."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A close connection or feeling between people",
+          "body": [
+            "(связь, привязанность)"
+          ],
+          "examples": [
+            "There's a strong bond between the two sisters.",
+            "Years of training created a bond among the crew.",
+            "The bond between mother and child forms early."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Money paid to a court so an arrested person can go free until trial",
+          "body": [
+            "(залог (при освобождении до суда))",
+            "---"
+          ],
+          "examples": [
+            "The judge set bond at fifty thousand dollars.",
+            "His family posted bond that same night.",
+            "She was released on bond the next morning."
+          ]
+        }
+      ],
+      "русский": "облигация; связь, привязанность; залог (при освобождении до суда)",
       "plural": "bonds",
       "countability": "countable"
     },
@@ -760,14 +1273,58 @@
       "term": "market",
       "ipa": "/ˈmɑːrkət/",
       "respell": "MAR-kut",
-      "meaning": "The overall activity of buying and selling a particular thing. ---",
+      "meaning": "Market has 3 distinct senses.",
       "examples": [
         "The market dropped three percent.",
         "Emerging markets are volatile.",
-        "There's a strong market for used trucks."
+        "There's a strong market for used trucks.",
+        "We buy eggs at the farmers market on Saturdays.",
+        "The Christmas market takes over the whole square.",
+        "She sells honey at three markets around the county.",
+        "Teenagers are the main market for the game.",
+        "There's no market for typewriters anymore.",
+        "The company is trying to reach an older market."
       ],
-      "senses": [],
-      "русский": "рынок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The overall activity of buying and selling a particular thing",
+          "body": [
+            "(рынок)"
+          ],
+          "examples": [
+            "The market dropped three percent.",
+            "Emerging markets are volatile.",
+            "There's a strong market for used trucks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where sellers set up stalls to sell food and goods",
+          "body": [
+            "(рынок, базар)"
+          ],
+          "examples": [
+            "We buy eggs at the farmers market on Saturdays.",
+            "The Christmas market takes over the whole square.",
+            "She sells honey at three markets around the county."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The group of people who might buy a particular product",
+          "body": [
+            "(круг покупателей, целевая аудитория)",
+            "---"
+          ],
+          "examples": [
+            "Teenagers are the main market for the game.",
+            "There's no market for typewriters anymore.",
+            "The company is trying to reach an older market."
+          ]
+        }
+      ],
+      "русский": "рынок; рынок, базар; круг покупателей, целевая аудитория",
       "plural": "markets",
       "countability": "countable"
     },
@@ -790,14 +1347,43 @@
       "term": "asset",
       "ipa": "/ˈæsɛt/",
       "respell": "ASS-et",
-      "meaning": "Something valuable that a person or company owns. ---",
+      "meaning": "Asset has 2 distinct senses.",
       "examples": [
         "The court froze his assets.",
         "Their biggest asset is the building itself.",
-        "They sold off assets to cover the debt."
+        "They sold off assets to cover the debt.",
+        "Her calm is a real asset in an emergency.",
+        "He's been an asset to the department since day one.",
+        "Patience is the greatest asset a coach can have."
       ],
-      "senses": [],
-      "русский": "актив, имущество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something valuable that a person or company owns",
+          "body": [
+            "(актив, имущество)"
+          ],
+          "examples": [
+            "The court froze his assets.",
+            "Their biggest asset is the building itself.",
+            "They sold off assets to cover the debt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person or quality that is genuinely useful to a group",
+          "body": [
+            "(ценное качество; ценный сотрудник)",
+            "---"
+          ],
+          "examples": [
+            "Her calm is a real asset in an emergency.",
+            "He's been an asset to the department since day one.",
+            "Patience is the greatest asset a coach can have."
+          ]
+        }
+      ],
+      "русский": "актив, имущество; ценное качество; ценный сотрудник",
       "plural": "assets",
       "countability": "countable"
     },
@@ -864,14 +1450,58 @@
       "term": "equity",
       "ipa": "/ˈɛkwəti/",
       "respell": "EK-wuh-tee",
-      "meaning": "The value of what you own once the debt on it is subtracted. ---",
+      "meaning": "Equity has 3 distinct senses.",
       "examples": [
         "We have a lot of equity in the house now.",
         "She took a pay cut in exchange for equity.",
-        "They borrowed against their home equity."
+        "They borrowed against their home equity.",
+        "The district is rewriting its budget with equity in mind.",
+        "Pay equity was the union's main demand.",
+        "They talk about equity, not just equal treatment.",
+        "His retirement savings are mostly in equities.",
+        "The fund moved money out of equities and into bonds.",
+        "Over thirty years equities have done better than bonds."
       ],
-      "senses": [],
-      "русский": "доля собственности; чистая стоимость жилья",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The value of what you own once the debt on it is subtracted",
+          "body": [
+            "(доля собственности; чистая стоимость жилья)"
+          ],
+          "examples": [
+            "We have a lot of equity in the house now.",
+            "She took a pay cut in exchange for equity.",
+            "They borrowed against their home equity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Fairness in the way different people are treated",
+          "body": [
+            "(справедливость, равенство возможностей)"
+          ],
+          "examples": [
+            "The district is rewriting its budget with equity in mind.",
+            "Pay equity was the union's main demand.",
+            "They talk about equity, not just equal treatment."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Shares in companies, held as an investment",
+          "body": [
+            "(акции, долевые ценные бумаги)",
+            "---"
+          ],
+          "examples": [
+            "His retirement savings are mostly in equities.",
+            "The fund moved money out of equities and into bonds.",
+            "Over thirty years equities have done better than bonds."
+          ]
+        }
+      ],
+      "русский": "доля собственности; чистая стоимость жилья; справедливость, равенство возможностей; акции, долевые ценные бумаги",
       "countability": "uncountable"
     },
     {
@@ -894,14 +1524,73 @@
       "term": "return",
       "ipa": "/rɪˈtɜːrn/",
       "respell": "rih-TURN",
-      "meaning": "The profit made on money that was invested. ---",
+      "meaning": "Return has 4 distinct senses.",
       "examples": [
         "The fund posted a twelve percent return.",
         "Returns have been flat for two years.",
-        "You won't get that kind of return without risk."
+        "You won't get that kind of return without risk.",
+        "We celebrated his return from Afghanistan.",
+        "Her return to work is set for Monday.",
+        "The team's return to the playoffs took nine years.",
+        "The customer service desk handles all returns.",
+        "This shirt is a return, so it's marked down.",
+        "There are no returns on final-sale items.",
+        "I still haven't filed my tax return.",
+        "Her accountant found an error on last year's return.",
+        "You can e-file a simple return in twenty minutes."
       ],
-      "senses": [],
-      "русский": "доходность, отдача от вложений",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The profit made on money that was invested",
+          "body": [
+            "(доходность, отдача от вложений)"
+          ],
+          "examples": [
+            "The fund posted a twelve percent return.",
+            "Returns have been flat for two years.",
+            "You won't get that kind of return without risk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of coming back to a place or to an earlier condition",
+          "body": [
+            "(возвращение)"
+          ],
+          "examples": [
+            "We celebrated his return from Afghanistan.",
+            "Her return to work is set for Monday.",
+            "The team's return to the playoffs took nine years."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An item taken back to the store where it was bought",
+          "body": [
+            "(возврат товара)"
+          ],
+          "examples": [
+            "The customer service desk handles all returns.",
+            "This shirt is a return, so it's marked down.",
+            "There are no returns on final-sale items."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The form you file every year reporting your income to the government",
+          "body": [
+            "(налоговая декларация)",
+            "---"
+          ],
+          "examples": [
+            "I still haven't filed my tax return.",
+            "Her accountant found an error on last year's return.",
+            "You can e-file a simple return in twenty minutes."
+          ]
+        }
+      ],
+      "русский": "доходность, отдача от вложений; возвращение; возврат товара; налоговая декларация",
       "plural": "returns",
       "countability": "countable"
     },
@@ -909,14 +1598,58 @@
       "term": "risk",
       "ipa": "/rɪsk/",
       "respell": "RISK",
-      "meaning": "The chance that an investment loses money. ---",
+      "meaning": "Risk has 3 distinct senses.",
       "examples": [
         "Every investment carries some risk.",
         "He took a big risk with that money.",
-        "The risks are spelled out in the fine print."
+        "The risks are spelled out in the fine print.",
+        "Smoking raises your risk of heart disease.",
+        "There's no risk of frost this late in the spring.",
+        "He took a risk and quit without another job lined up.",
+        "That pile of oily rags is a fire risk.",
+        "The bank considered him a poor credit risk.",
+        "The loose railing is a safety risk."
       ],
-      "senses": [],
-      "русский": "риск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The chance that an investment loses money",
+          "body": [
+            "(риск)"
+          ],
+          "examples": [
+            "Every investment carries some risk.",
+            "He took a big risk with that money.",
+            "The risks are spelled out in the fine print."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The chance that something bad will happen",
+          "body": [
+            "(риск, опасность)"
+          ],
+          "examples": [
+            "Smoking raises your risk of heart disease.",
+            "There's no risk of frost this late in the spring.",
+            "He took a risk and quit without another job lined up."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A person or thing that could cause harm or loss",
+          "body": [
+            "(источник опасности, угроза)",
+            "---"
+          ],
+          "examples": [
+            "That pile of oily rags is a fire risk.",
+            "The bank considered him a poor credit risk.",
+            "The loose railing is a safety risk."
+          ]
+        }
+      ],
+      "русский": "риск; риск, опасность; источник опасности, угроза",
       "plural": "risks",
       "countability": "countable"
     },
@@ -940,14 +1673,73 @@
       "term": "loss",
       "ipa": "/lɔːs/",
       "respell": "LAWS",
-      "meaning": "Money that a business or investor fails to get back. ---",
+      "meaning": "Loss has 4 distinct senses.",
       "examples": [
         "We sold at a loss.",
         "The company reported losses for the third year running.",
-        "He wrote the loss off on his taxes."
+        "He wrote the loss off on his taxes.",
+        "The team is coming off three straight losses.",
+        "It was their first loss at home all season.",
+        "A loss on Sunday would end their playoff hopes.",
+        "I'm so sorry for your loss.",
+        "The family is still grieving the loss of their son.",
+        "The whole town felt his loss.",
+        "Hearing loss runs in his family.",
+        "The drug can cause memory loss.",
+        "Loss of sleep was making her irritable."
       ],
-      "senses": [],
-      "русский": "убыток",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money that a business or investor fails to get back",
+          "body": [
+            "(убыток)"
+          ],
+          "examples": [
+            "We sold at a loss.",
+            "The company reported losses for the third year running.",
+            "He wrote the loss off on his taxes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A defeat in a game or contest",
+          "body": [
+            "(поражение (в матче, игре))"
+          ],
+          "examples": [
+            "The team is coming off three straight losses.",
+            "It was their first loss at home all season.",
+            "A loss on Sunday would end their playoff hopes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The death of someone close to you",
+          "body": [
+            "(утрата (смерть близкого))"
+          ],
+          "examples": [
+            "I'm so sorry for your loss.",
+            "The family is still grieving the loss of their son.",
+            "The whole town felt his loss."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The fact of no longer having something you used to have",
+          "body": [
+            "(потеря, утрата (напр. слуха))",
+            "---"
+          ],
+          "examples": [
+            "Hearing loss runs in his family.",
+            "The drug can cause memory loss.",
+            "Loss of sleep was making her irritable."
+          ]
+        }
+      ],
+      "русский": "убыток; поражение (в матче, игре); утрата (смерть близкого); потеря, утрата (напр. слуха)",
       "plural": "losses",
       "countability": "countable"
     },
@@ -1028,14 +1820,43 @@
       "term": "cost",
       "ipa": "/kɔːst/",
       "respell": "KAWST",
-      "meaning": "The amount of money needed to buy, make or do something. ---",
+      "meaning": "Cost has 2 distinct senses.",
       "examples": [
         "The cost of living keeps going up.",
         "Labor costs doubled in two years.",
-        "They covered the cost of the repair."
+        "They covered the cost of the repair.",
+        "They won the case, but at great personal cost.",
+        "The human cost of the war was still being counted years later.",
+        "She saved the company at the cost of her health."
       ],
-      "senses": [],
-      "русский": "стоимость, издержки",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of money needed to buy, make or do something",
+          "body": [
+            "(стоимость, издержки)"
+          ],
+          "examples": [
+            "The cost of living keeps going up.",
+            "Labor costs doubled in two years.",
+            "They covered the cost of the repair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "What must be given up or suffered to get something",
+          "body": [
+            "(цена, жертва (неденежная))",
+            "---"
+          ],
+          "examples": [
+            "They won the case, but at great personal cost.",
+            "The human cost of the war was still being counted years later.",
+            "She saved the company at the cost of her health."
+          ]
+        }
+      ],
+      "русский": "стоимость, издержки; цена, жертва (неденежная)",
       "plural": "costs",
       "countability": "countable"
     },
@@ -1043,14 +1864,43 @@
       "term": "price",
       "ipa": "/praɪs/",
       "respell": "PRYSE",
-      "meaning": "The amount of money you must pay for something. ---",
+      "meaning": "Price has 2 distinct senses.",
       "examples": [
         "Gas prices went up again.",
         "What's the asking price?",
-        "He got a good price on the car."
+        "He got a good price on the car.",
+        "Losing his privacy was the price of fame.",
+        "Long hours are the price you pay for this job.",
+        "Freedom came at a terrible price."
       ],
-      "senses": [],
-      "русский": "цена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of money you must pay for something",
+          "body": [
+            "(цена)"
+          ],
+          "examples": [
+            "Gas prices went up again.",
+            "What's the asking price?",
+            "He got a good price on the car."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something unpleasant that has to be accepted in order to get something else",
+          "body": [
+            "(цена, расплата (за что-либо))",
+            "---"
+          ],
+          "examples": [
+            "Losing his privacy was the price of fame.",
+            "Long hours are the price you pay for this job.",
+            "Freedom came at a terrible price."
+          ]
+        }
+      ],
+      "русский": "цена; цена, расплата (за что-либо)",
       "plural": "prices",
       "countability": "countable"
     },
@@ -1073,14 +1923,58 @@
       "term": "charge",
       "ipa": "/tʃɑːrdʒ/",
       "respell": "CHARJ",
-      "meaning": "An amount of money billed or taken for something. ---",
+      "meaning": "Charge has 3 distinct senses.",
       "examples": [
         "There's a charge on my card I don't recognize.",
         "They dropped the delivery charge.",
-        "Two charges came through twice."
+        "Two charges came through twice.",
+        "He faces three charges of fraud.",
+        "The charge was dropped for lack of evidence.",
+        "She pleaded guilty to a lesser charge.",
+        "My phone still has a full charge.",
+        "This battery holds a charge for about a day.",
+        "The laptop lost its charge overnight."
       ],
-      "senses": [],
-      "русский": "начисление, списание, плата",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount of money billed or taken for something",
+          "body": [
+            "(начисление, списание, плата)"
+          ],
+          "examples": [
+            "There's a charge on my card I don't recognize.",
+            "They dropped the delivery charge.",
+            "Two charges came through twice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal accusation that someone has committed a crime",
+          "body": [
+            "(обвинение)"
+          ],
+          "examples": [
+            "He faces three charges of fraud.",
+            "The charge was dropped for lack of evidence.",
+            "She pleaded guilty to a lesser charge."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The electricity stored in a battery",
+          "body": [
+            "(заряд (аккумулятора))",
+            "---"
+          ],
+          "examples": [
+            "My phone still has a full charge.",
+            "This battery holds a charge for about a day.",
+            "The laptop lost its charge overnight."
+          ]
+        }
+      ],
+      "русский": "начисление, списание, плата; обвинение; заряд (аккумулятора)",
       "plural": "charges",
       "countability": "countable"
     },
@@ -1163,14 +2057,58 @@
       "term": "deficit",
       "ipa": "/ˈdɛfəsət/",
       "respell": "DEF-uh-sut",
-      "meaning": "The amount by which spending exceeds income. ---",
+      "meaning": "Deficit has 3 distinct senses.",
       "examples": [
         "The budget deficit keeps growing.",
         "They ran a deficit three years in a row.",
-        "Trade deficits were the big story that year."
+        "Trade deficits were the big story that year.",
+        "They erased a twelve-point deficit in the fourth quarter.",
+        "The team faced a two-goal deficit at halftime.",
+        "It was too big a deficit to overcome in ten minutes.",
+        "The town has a serious deficit of affordable housing.",
+        "There is a deficit of trust between the two sides.",
+        "Sleep deficits build up over the week."
       ],
-      "senses": [],
-      "русский": "дефицит (превышение расходов над доходами)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount by which spending exceeds income",
+          "body": [
+            "(дефицит (превышение расходов над доходами))"
+          ],
+          "examples": [
+            "The budget deficit keeps growing.",
+            "They ran a deficit three years in a row.",
+            "Trade deficits were the big story that year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The number of points a team or player is behind by",
+          "body": [
+            "(отставание в счёте)"
+          ],
+          "examples": [
+            "They erased a twelve-point deficit in the fourth quarter.",
+            "The team faced a two-goal deficit at halftime.",
+            "It was too big a deficit to overcome in ten minutes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A shortage of something that is needed",
+          "body": [
+            "(нехватка, дефицит (чего-либо))",
+            "---"
+          ],
+          "examples": [
+            "The town has a serious deficit of affordable housing.",
+            "There is a deficit of trust between the two sides.",
+            "Sleep deficits build up over the week."
+          ]
+        }
+      ],
+      "русский": "дефицит (превышение расходов над доходами); отставание в счёте; нехватка, дефицит (чего-либо)",
       "plural": "deficits",
       "countability": "countable"
     },
@@ -1178,14 +2116,58 @@
       "term": "economy",
       "ipa": "/ɪˈkɑːnəmi/",
       "respell": "ih-KAH-nuh-mee",
-      "meaning": "The whole system of money, work and trade in a place. ---",
+      "meaning": "Economy has 3 distinct senses.",
       "examples": [
         "The economy added jobs last month.",
         "Small economies depend on tourism.",
-        "The whole economy runs on credit."
+        "The whole economy runs on credit.",
+        "We flew economy both ways to save money.",
+        "Economy was full, so they moved us up front.",
+        "Even in economy every seat now has a screen.",
+        "Buying the cheap boots turned out to be a false economy.",
+        "The airline is hunting for economies in its fuel bill.",
+        "There is real economy in cooking one big pot on Sunday."
       ],
-      "senses": [],
-      "русский": "экономика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The whole system of money, work and trade in a place",
+          "body": [
+            "(экономика)"
+          ],
+          "examples": [
+            "The economy added jobs last month.",
+            "Small economies depend on tourism.",
+            "The whole economy runs on credit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The cheapest class of seats on a plane or train",
+          "body": [
+            "(эконом-класс)"
+          ],
+          "examples": [
+            "We flew economy both ways to save money.",
+            "Economy was full, so they moved us up front.",
+            "Even in economy every seat now has a screen."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Careful use of money or resources so that nothing is wasted",
+          "body": [
+            "(экономия, бережливость)",
+            "---"
+          ],
+          "examples": [
+            "Buying the cheap boots turned out to be a false economy.",
+            "The airline is hunting for economies in its fuel bill.",
+            "There is real economy in cooking one big pot on Sunday."
+          ]
+        }
+      ],
+      "русский": "экономика; эконом-класс; экономия, бережливость",
       "plural": "economies",
       "countability": "countable"
     },
@@ -1193,14 +2175,43 @@
       "term": "finance",
       "ipa": "/ˈfaɪnæns/",
       "respell": "FY-nans",
-      "meaning": "The management of money, especially on a large scale. ---",
+      "meaning": "Finance has 2 distinct senses.",
       "examples": [
         "He works in finance.",
         "She's studying corporate finance.",
-        "Finance isn't as glamorous as people think."
+        "Finance isn't as glamorous as people think.",
+        "Our finances are tight this month.",
+        "The city's finances are in bad shape.",
+        "He hired someone to sort out his finances."
       ],
-      "senses": [],
-      "русский": "финансы, финансирование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The management of money, especially on a large scale",
+          "body": [
+            "(финансы, финансирование)"
+          ],
+          "examples": [
+            "He works in finance.",
+            "She's studying corporate finance.",
+            "Finance isn't as glamorous as people think."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The money that a person, company, or government has available",
+          "body": [
+            "(финансы, денежные средства)",
+            "---"
+          ],
+          "examples": [
+            "Our finances are tight this month.",
+            "The city's finances are in bad shape.",
+            "He hired someone to sort out his finances."
+          ]
+        }
+      ],
+      "русский": "финансы, финансирование; финансы, денежные средства",
       "countability": "uncountable",
       "contrast": "In the plural, finances means a person's or company's money situation."
     },
@@ -1328,14 +2339,43 @@
       "term": "premium",
       "ipa": "/ˈpriːmiəm/",
       "respell": "PREE-mee-uhm",
-      "meaning": "The amount paid regularly to keep an insurance policy active. ---",
+      "meaning": "Premium has 2 distinct senses.",
       "examples": [
         "My premium went up after the accident.",
         "Premiums rise every single year.",
-        "They pay the premium monthly."
+        "They pay the premium monthly.",
+        "Buyers pay a premium for a corner unit.",
+        "The stock is trading at a premium to its book value.",
+        "Fresh fish commands a premium this far inland."
       ],
-      "senses": [],
-      "русский": "страховой взнос",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount paid regularly to keep an insurance policy active",
+          "body": [
+            "(страховой взнос)"
+          ],
+          "examples": [
+            "My premium went up after the accident.",
+            "Premiums rise every single year.",
+            "They pay the premium monthly."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An extra amount added to the usual price or value of something",
+          "body": [
+            "(надбавка, наценка)",
+            "---"
+          ],
+          "examples": [
+            "Buyers pay a premium for a corner unit.",
+            "The stock is trading at a premium to its book value.",
+            "Fresh fish commands a premium this far inland."
+          ]
+        }
+      ],
+      "русский": "страховой взнос; надбавка, наценка",
       "plural": "premiums",
       "countability": "countable"
     },
@@ -1388,14 +2428,58 @@
       "term": "claim",
       "ipa": "/kleɪm/",
       "respell": "KLAYM",
-      "meaning": "A formal request to an insurer for money you believe you are owed. ---",
+      "meaning": "Claim has 3 distinct senses.",
       "examples": [
         "She filed a claim after the storm.",
         "The insurer denied the claim.",
-        "Claims take about three weeks to process."
+        "Claims take about three weeks to process.",
+        "The company's claims about the product were never tested.",
+        "His claim that he was home all evening turned out to be false.",
+        "She makes no claim to be an expert.",
+        "The children have a legal claim to the property.",
+        "He has no claim on her money.",
+        "Two families laid claim to the same piece of land."
       ],
-      "senses": [],
-      "русский": "требование о страховой выплате",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal request to an insurer for money you believe you are owed",
+          "body": [
+            "(требование о страховой выплате)"
+          ],
+          "examples": [
+            "She filed a claim after the storm.",
+            "The insurer denied the claim.",
+            "Claims take about three weeks to process."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A statement that something is true, made without proof",
+          "body": [
+            "(утверждение, заявление)"
+          ],
+          "examples": [
+            "The company's claims about the product were never tested.",
+            "His claim that he was home all evening turned out to be false.",
+            "She makes no claim to be an expert."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A right to have or to get something",
+          "body": [
+            "(право, притязание (на что-л.))",
+            "---"
+          ],
+          "examples": [
+            "The children have a legal claim to the property.",
+            "He has no claim on her money.",
+            "Two families laid claim to the same piece of land."
+          ]
+        }
+      ],
+      "русский": "требование о страховой выплате; утверждение, заявление; право, притязание (на что-л.)",
       "plural": "claims",
       "countability": "countable"
     },
@@ -1493,14 +2577,43 @@
       "term": "bargain",
       "ipa": "/ˈbɑːrɡən/",
       "respell": "BAR-gun",
-      "meaning": "Something bought for much less than it is worth. ---",
+      "meaning": "Bargain has 2 distinct senses.",
       "examples": [
         "Forty bucks for that coat is a bargain.",
         "She hunts for bargains at estate sales.",
-        "It seemed like a bargain until it broke."
+        "It seemed like a bargain until it broke.",
+        "We made a bargain: he cooks, I clean.",
+        "You've kept your end of the bargain.",
+        "The defendant took a plea bargain."
       ],
-      "senses": [],
-      "русский": "выгодная покупка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something bought for much less than it is worth",
+          "body": [
+            "(выгодная покупка)"
+          ],
+          "examples": [
+            "Forty bucks for that coat is a bargain.",
+            "She hunts for bargains at estate sales.",
+            "It seemed like a bargain until it broke."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An agreement in which each side promises to do something",
+          "body": [
+            "(сделка, уговор)",
+            "---"
+          ],
+          "examples": [
+            "We made a bargain: he cooks, I clean.",
+            "You've kept your end of the bargain.",
+            "The defendant took a plea bargain."
+          ]
+        }
+      ],
+      "русский": "выгодная покупка; сделка, уговор",
       "plural": "bargains",
       "countability": "countable"
     },
@@ -1598,14 +2711,58 @@
       "term": "fortune",
       "ipa": "/ˈfɔːrtʃən/",
       "respell": "FOR-chuhn",
-      "meaning": "A very large amount of money. ---",
+      "meaning": "Fortune has 3 distinct senses.",
       "examples": [
         "He made a fortune in real estate.",
         "That dress cost a small fortune.",
-        "Family fortunes rarely last three generations."
+        "Family fortunes rarely last three generations.",
+        "By sheer good fortune, nobody was hurt.",
+        "Fortune seemed to be on our side that week.",
+        "He had the bad fortune to arrive in the middle of a blizzard.",
+        "A woman at the fair offered to tell my fortune.",
+        "The fortune in my cookie said travel was coming.",
+        "She has her fortune read every New Year."
       ],
-      "senses": [],
-      "русский": "состояние, богатство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very large amount of money",
+          "body": [
+            "(состояние, богатство)"
+          ],
+          "examples": [
+            "He made a fortune in real estate.",
+            "That dress cost a small fortune.",
+            "Family fortunes rarely last three generations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Chance or luck seen as a force that decides what happens to people",
+          "body": [
+            "(удача, фортуна, случай)"
+          ],
+          "examples": [
+            "By sheer good fortune, nobody was hurt.",
+            "Fortune seemed to be on our side that week.",
+            "He had the bad fortune to arrive in the middle of a blizzard."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "What is supposed to lie ahead for someone, as told by a person who claims to see the future",
+          "body": [
+            "(судьба, предсказание будущего)",
+            "---"
+          ],
+          "examples": [
+            "A woman at the fair offered to tell my fortune.",
+            "The fortune in my cookie said travel was coming.",
+            "She has her fortune read every New Year."
+          ]
+        }
+      ],
+      "русский": "состояние, богатство; удача, фортуна, случай; судьба, предсказание будущего",
       "plural": "fortunes",
       "countability": "countable"
     },
@@ -1628,14 +2785,43 @@
       "term": "fraud",
       "ipa": "/frɔːd/",
       "respell": "FRAWD",
-      "meaning": "The crime of getting money by deceiving people. ---",
+      "meaning": "Fraud has 2 distinct senses.",
       "examples": [
         "He was convicted of wire fraud.",
         "The bank flagged the charge as fraud.",
-        "Fraud costs the industry billions a year."
+        "Fraud costs the industry billions a year.",
+        "The so-called doctor turned out to be a fraud.",
+        "She called the whole panel a bunch of frauds.",
+        "He felt like a fraud on his first day of teaching."
       ],
-      "senses": [],
-      "русский": "мошенничество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crime of getting money by deceiving people",
+          "body": [
+            "(мошенничество)"
+          ],
+          "examples": [
+            "He was convicted of wire fraud.",
+            "The bank flagged the charge as fraud.",
+            "Fraud costs the industry billions a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who pretends to be something he or she is not",
+          "body": [
+            "(мошенник, самозванец)",
+            "---"
+          ],
+          "examples": [
+            "The so-called doctor turned out to be a fraud.",
+            "She called the whole panel a bunch of frauds.",
+            "He felt like a fraud on his first day of teaching."
+          ]
+        }
+      ],
+      "русский": "мошенничество; мошенник, самозванец",
       "countability": "uncountable"
     },
     {
@@ -1657,14 +2843,43 @@
       "term": "audit",
       "ipa": "/ˈɔːdət/",
       "respell": "AW-dut",
-      "meaning": "An official examination of financial records. ---",
+      "meaning": "Audit has 2 distinct senses.",
       "examples": [
         "The company is under audit.",
         "He got hit with a tax audit.",
-        "Annual audits are required by law."
+        "Annual audits are required by law.",
+        "The city ordered a safety audit of every bridge.",
+        "We ran an energy audit on the house before winter.",
+        "The audit found a dozen broken links on the site."
       ],
-      "senses": [],
-      "русский": "аудит, проверка отчётности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official examination of financial records",
+          "body": [
+            "(аудит, проверка отчётности)"
+          ],
+          "examples": [
+            "The company is under audit.",
+            "He got hit with a tax audit.",
+            "Annual audits are required by law."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A careful official review of something other than accounts",
+          "body": [
+            "(проверка, обследование (напр. энергетическое))",
+            "---"
+          ],
+          "examples": [
+            "The city ordered a safety audit of every bridge.",
+            "We ran an energy audit on the house before winter.",
+            "The audit found a dozen broken links on the site."
+          ]
+        }
+      ],
+      "русский": "аудит, проверка отчётности; проверка, обследование (напр. энергетическое)",
       "plural": "audits",
       "countability": "countable"
     },
@@ -1912,14 +3127,58 @@
       "term": "benefit",
       "ipa": "/ˈbɛnəfɪt/",
       "respell": "BEN-uh-fit",
-      "meaning": "Money or services given by an employer or the government beyond wages. ---",
+      "meaning": "Benefit has 3 distinct senses.",
       "examples": [
         "The job comes with good benefits.",
         "He's collecting unemployment benefits.",
-        "Health benefits start after ninety days."
+        "Health benefits start after ninety days.",
+        "Walking every day has real health benefits.",
+        "The main benefit of the new system is speed.",
+        "Neither side saw much benefit in another meeting.",
+        "The band played a benefit for the food bank.",
+        "Tickets to the benefit sold out in a day.",
+        "She organizes a benefit every fall for the animal shelter."
       ],
-      "senses": [],
-      "русский": "льгота, пособие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money or services given by an employer or the government beyond wages",
+          "body": [
+            "(льгота, пособие)"
+          ],
+          "examples": [
+            "The job comes with good benefits.",
+            "He's collecting unemployment benefits.",
+            "Health benefits start after ninety days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A good result or advantage that something brings",
+          "body": [
+            "(польза, выгода, преимущество)"
+          ],
+          "examples": [
+            "Walking every day has real health benefits.",
+            "The main benefit of the new system is speed.",
+            "Neither side saw much benefit in another meeting."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An event held to raise money for a person or cause",
+          "body": [
+            "(благотворительное мероприятие, концерт в помощь)",
+            "---"
+          ],
+          "examples": [
+            "The band played a benefit for the food bank.",
+            "Tickets to the benefit sold out in a day.",
+            "She organizes a benefit every fall for the animal shelter."
+          ]
+        }
+      ],
+      "русский": "льгота, пособие; польза, выгода, преимущество; благотворительное мероприятие, концерт в помощь",
       "plural": "benefits",
       "countability": "countable"
     },
@@ -1957,14 +3216,43 @@
       "term": "charity",
       "ipa": "/ˈtʃɛrəti/",
       "respell": "CHAIR-uh-tee",
-      "meaning": "An organization that raises money to help people in need. ---",
+      "meaning": "Charity has 2 distinct senses.",
       "examples": [
         "She gives to three charities every year.",
         "The charity runs almost entirely on volunteers.",
-        "Half the proceeds go to charity."
+        "Half the proceeds go to charity.",
+        "He was too proud to accept charity.",
+        "The family lived on charity that winter.",
+        "They fed half the block out of pure charity."
       ],
-      "senses": [],
-      "русский": "благотворительная организация; благотворительность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organization that raises money to help people in need",
+          "body": [
+            "(благотворительная организация; благотворительность)"
+          ],
+          "examples": [
+            "She gives to three charities every year.",
+            "The charity runs almost entirely on volunteers.",
+            "Half the proceeds go to charity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money, food, or help given freely to people in need",
+          "body": [
+            "(милостыня, благотворительная помощь)",
+            "---"
+          ],
+          "examples": [
+            "He was too proud to accept charity.",
+            "The family lived on charity that winter.",
+            "They fed half the block out of pure charity."
+          ]
+        }
+      ],
+      "русский": "благотворительная организация; благотворительность; милостыня, благотворительная помощь",
       "plural": "charities",
       "countability": "countable"
     },
@@ -1972,14 +3260,73 @@
       "term": "tip",
       "ipa": "/tɪp/",
       "respell": "TIP",
-      "meaning": "Extra money given to someone for good service. ---",
+      "meaning": "Tip has 4 distinct senses.",
       "examples": [
         "Leave a decent tip.",
         "Servers here live on tips.",
-        "The tip is already included in the total."
+        "The tip is already included in the total.",
+        "The tip of my nose was red from the cold.",
+        "He broke the tip off the pencil.",
+        "Only the tip of the iceberg shows above the water.",
+        "She gave me a few tips on interviewing.",
+        "Here's a tip: soak the pan overnight.",
+        "The website is full of gardening tips.",
+        "An anonymous tip led police to the warehouse.",
+        "The reporter got a tip about the mayor's meeting.",
+        "Detectives followed up on dozens of tips."
       ],
-      "senses": [],
-      "русский": "чаевые",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Extra money given to someone for good service",
+          "body": [
+            "(чаевые)"
+          ],
+          "examples": [
+            "Leave a decent tip.",
+            "Servers here live on tips.",
+            "The tip is already included in the total."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pointed or narrow end of something",
+          "body": [
+            "(кончик, остриё)"
+          ],
+          "examples": [
+            "The tip of my nose was red from the cold.",
+            "He broke the tip off the pencil.",
+            "Only the tip of the iceberg shows above the water."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small piece of practical advice",
+          "body": [
+            "(совет, подсказка)"
+          ],
+          "examples": [
+            "She gave me a few tips on interviewing.",
+            "Here's a tip: soak the pan overnight.",
+            "The website is full of gardening tips."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A piece of secret information given to the police or the press",
+          "body": [
+            "(наводка, анонимное сообщение)",
+            "---"
+          ],
+          "examples": [
+            "An anonymous tip led police to the warehouse.",
+            "The reporter got a tip about the mayor's meeting.",
+            "Detectives followed up on dozens of tips."
+          ]
+        }
+      ],
+      "русский": "чаевые; кончик, остриё; совет, подсказка; наводка, анонимное сообщение",
       "plural": "tips",
       "countability": "countable"
     },
@@ -1987,14 +3334,58 @@
       "term": "value",
       "ipa": "/ˈvæljuː/",
       "respell": "VAL-yoo",
-      "meaning": "How much something is worth in money. ---",
+      "meaning": "Value has 3 distinct senses.",
       "examples": [
         "The house lost value after the flood.",
         "Property values are climbing again.",
-        "The car's resale value is low."
+        "The car's resale value is low.",
+        "They raised their kids with strong family values.",
+        "The company's stated values include honesty and respect.",
+        "We don't agree on much, but we share the same values.",
+        "Solve the equation for the value of x.",
+        "The sensor reports a value between zero and one.",
+        "Enter the values in the second column."
       ],
-      "senses": [],
-      "русский": "стоимость, ценность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much something is worth in money",
+          "body": [
+            "(стоимость, ценность)"
+          ],
+          "examples": [
+            "The house lost value after the flood.",
+            "Property values are climbing again.",
+            "The car's resale value is low."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A belief about what is right and important, usually used in the plural",
+          "body": [
+            "(ценности, нравственные принципы)"
+          ],
+          "examples": [
+            "They raised their kids with strong family values.",
+            "The company's stated values include honesty and respect.",
+            "We don't agree on much, but we share the same values."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The number or amount that a symbol or measurement stands for",
+          "body": [
+            "(значение (величины, переменной))",
+            "---"
+          ],
+          "examples": [
+            "Solve the equation for the value of x.",
+            "The sensor reports a value between zero and one.",
+            "Enter the values in the second column."
+          ]
+        }
+      ],
+      "русский": "стоимость, ценность; ценности, нравственные принципы; значение (величины, переменной)",
       "plural": "values",
       "countability": "countable"
     },
@@ -2002,14 +3393,43 @@
       "term": "sum",
       "ipa": "/sʌm/",
       "respell": "SUM",
-      "meaning": "An amount of money. ---",
+      "meaning": "Sum has 2 distinct senses.",
       "examples": [
         "He owes a substantial sum.",
         "They paid the sum in full.",
-        "Huge sums went missing from the account."
+        "Huge sums went missing from the account.",
+        "The sum of six and four is ten.",
+        "Check that the column adds up to the right sum.",
+        "The whole is greater than the sum of its parts."
       ],
-      "senses": [],
-      "русский": "сумма",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An amount of money",
+          "body": [
+            "(сумма)"
+          ],
+          "examples": [
+            "He owes a substantial sum.",
+            "They paid the sum in full.",
+            "Huge sums went missing from the account."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The number you get when you add numbers together",
+          "body": [
+            "(сумма (результат сложения))",
+            "---"
+          ],
+          "examples": [
+            "The sum of six and four is ten.",
+            "Check that the column adds up to the right sum.",
+            "The whole is greater than the sum of its parts."
+          ]
+        }
+      ],
+      "русский": "сумма; сумма (результат сложения)",
       "plural": "sums",
       "countability": "countable",
       "contrast": "Sounds exactly like some."

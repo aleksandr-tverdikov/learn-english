@@ -133,15 +133,23 @@ A group of people working together for a shared purpose.
 ### printer
 
 **Pronunciation:** /ˈprɪntər/ &middot; *PRIN-tur*
-**Русский:** принтер
+**Русский:** принтер; типография; печатник
 **Plural:** *printers*
 **Countability:** countable
 
-A machine that puts text or images from a computer onto paper.
+Printer has 2 distinct senses.
+
+**1. A machine that puts text or images from a computer onto paper.** (принтер)
 
 1. The *printer* is out of paper again.
 2. Send it to the *printer* on the third floor.
 3. Both *printers* are jammed.
+
+**2. A person or company whose business is printing books, posters, and other material.** (типография; печатник)
+
+4. The manuscript is at the *printer* now.
+5. A local *printer* made the wedding invitations.
+6. The *printer* wants the final files by Friday.
 
 ---
 
@@ -248,15 +256,29 @@ A device that shines an image from a computer onto a screen or wall.
 ### monitor
 
 **Pronunciation:** /ˈmɑːnətər/ &middot; *MAH-nuh-tur*
-**Русский:** монитор
+**Русский:** монитор; наблюдатель; дежурный; следящий прибор (радионяня, кардиомонитор)
 **Plural:** *monitors*
 **Countability:** countable
 
-The screen you look at when using a computer.
+Monitor has 3 distinct senses.
+
+**1. The screen you look at when using a computer.** (монитор)
 
 1. He works with two *monitors*.
 2. The *monitor* keeps flickering.
 3. IT ordered a bigger *monitor* for her desk.
+
+**2. A person whose job is to watch over an activity and report on it.** (наблюдатель; дежурный)
+
+4. A hall *monitor* stopped us and asked for a pass.
+5. International *monitors* watched the vote count.
+6. The lunchroom *monitor* broke up the argument.
+
+**3. A device that keeps track of something and warns you about changes.** (следящий прибор (радионяня, кардиомонитор))
+
+7. We keep a baby *monitor* on the dresser.
+8. The heart *monitor* beeped all night.
+9. A carbon monoxide *monitor* hangs in the hallway.
 
 ---
 
@@ -455,15 +477,29 @@ A small square of paper with glue on one edge, used for short reminders.
 ### report
 
 **Pronunciation:** /rɪˈpɔːrt/ &middot; *rih-PORT*
-**Русский:** отчёт, доклад
+**Русский:** отчёт, доклад; звук выстрела, грохот; подчинённый (непосредственный)
 **Plural:** *reports*
 **Countability:** countable
 
-A written account of work done or facts found out.
+Report has 3 distinct senses.
+
+**1. A written account of work done or facts found out.** (отчёт, доклад)
 
 1. The *report* is due Friday morning.
 2. She wrote a twelve-page *report* on the numbers.
 3. Nobody reads these *reports* anyway.
+
+**2. A sudden loud noise, especially the sound of a gun going off.** (звук выстрела, грохот)
+
+4. The *report* of a rifle echoed across the valley.
+5. We heard two sharp *reports* and then silence.
+6. The *report* of the cannon startled the horses.
+
+**3. An employee who works directly under a particular manager.** (подчинённый (непосредственный))
+
+7. She manages a team of six direct *reports*.
+8. Every new manager starts with two or three *reports*.
+9. He has more *reports* than anyone else at his level.
 
 ---
 
@@ -560,31 +596,65 @@ The forms and written records a job requires.
 ### form
 
 **Pronunciation:** /fɔːrm/ &middot; *FORM*
-**Русский:** бланк, анкета
+**Русский:** бланк, анкета; форма, очертания; вид, разновидность; форма (состояние, уровень игры)
 **Plural:** *forms*
 **Countability:** countable
 
-A printed sheet with blank spaces to be filled in.
+Form has 4 distinct senses.
+
+**1. A printed sheet with blank spaces to be filled in.** (бланк, анкета)
 
 1. Fill out this *form* and bring it back.
 2. The *form* asks for your Social Security number.
 3. There were four *forms* to sign on my first day.
+
+**2. The shape or outward appearance of something.** (форма, очертания)
+
+4. A dark *form* moved behind the curtain.
+5. The carving keeps the rough *form* of a bird.
+6. We could barely make out the *forms* of the mountains in the fog.
+
+**3. A type or variety of something.** (вид, разновидность)
+
+7. Swimming is the best *form* of exercise for her knees.
+8. Cash is still an accepted *form* of payment here.
+9. The disease takes several different *forms*.
+
+**4. The level at which a person or team is performing at the moment.** (форма (состояние, уровень игры))
+
+10. The team has been in great *form* since the break.
+11. After his injury he struggled to get back to *form*.
+12. The comedian was in fine *form* last night.
 
 ---
 
 ### survey
 
 **Pronunciation:** /ˈsɜːrveɪ/ &middot; *SUR-vay*
-**Русский:** опрос, анкетирование
+**Русский:** опрос, анкетирование; межевание, геодезическая съёмка; обзор, общий осмотр
 **Plural:** *surveys*
 **Countability:** countable
 **Contrast:** Stress moves: the noun is SUR-vay, the verb *to survey* is sur-VAY.
 
-A set of questions asked of many people to collect opinions.
+Survey has 3 distinct senses.
+
+**1. A set of questions asked of many people to collect opinions.** (опрос, анкетирование)
 
 1. HR sent out an employee *survey*.
 2. The *survey* takes about five minutes.
 3. Nobody fills out these *surveys*.
+
+**2. A careful measurement of a piece of land and its exact boundaries.** (межевание, геодезическая съёмка)
+
+4. The bank required a *survey* before we closed on the house.
+5. The *survey* showed the fence was two feet onto the neighbor's lot.
+6. Crews finished the *survey* of the highway route last week.
+
+**3. A general look at or review of a whole subject.** (обзор, общий осмотр)
+
+7. The book is a *survey* of American art since 1945.
+8. He took a quick *survey* of the damage after the storm.
+9. Freshmen usually start with a *survey* course.
 
 ---
 
@@ -714,15 +784,29 @@ A large organized event where people meet to hear talks about their field.
 ### call
 
 **Pronunciation:** /kɔːl/ &middot; *KAWL*
-**Русский:** звонок, созвон
+**Русский:** звонок, созвон; крик, зов (птицы, животного); решение; решение судьи (в спорте)
 **Plural:** *calls*
 **Countability:** countable
 
-A conversation by phone or video, especially a work one.
+Call has 3 distinct senses.
+
+**1. A conversation by phone or video, especially a work one.** (звонок, созвон)
 
 1. I'm on a *call* until eleven.
 2. Let's set up a *call* for Monday.
 3. She had five *calls* back to back.
+
+**2. The cry of a bird or animal.** (крик, зов (птицы, животного))
+
+4. The *call* of a loon carried across the lake.
+5. He can imitate a dozen bird *calls*.
+6. We heard the *call* of geese somewhere overhead.
+
+**3. A decision or judgment, especially a referee's ruling.** (решение; решение судьи (в спорте))
+
+7. The ref made a bad *call* in the final minute.
+8. Whether we go is your *call*.
+9. It was a tough *call*, but we canceled the trip.
 
 ---
 
@@ -760,62 +844,106 @@ A plan showing when things will happen.
 ### goal
 
 **Pronunciation:** /ɡoʊl/ &middot; *GOHL*
-**Русский:** цель
+**Русский:** цель; ворота (в спорте); гол, забитый мяч
 **Plural:** *goals*
 **Countability:** countable
 
-Something you are trying to achieve.
+Goal has 3 distinct senses.
+
+**1. Something you are trying to achieve.** (цель)
 
 1. Our *goal* is to double sales this year.
 2. She set a *goal* of finishing by June.
 3. We hit all three *goals* for the quarter.
+
+**2. The net or frame that a team tries to send the ball or puck into.** (ворота (в спорте))
+
+4. He kicked the ball just wide of the *goal*.
+5. The keeper never left the *goal*.
+6. Both *goals* were repainted before the tournament.
+
+**3. A point scored by putting the ball or puck into the net.** (гол, забитый мяч)
+
+7. She scored two *goals* in the second half.
+8. The winning *goal* came in overtime.
+9. They lost by a single *goal*.
 
 ---
 
 ### update
 
 **Pronunciation:** /ˈʌpdeɪt/ &middot; *UP-dayt*
-**Русский:** обновление, свежая информация
+**Русский:** обновление, свежая информация; обновление (программы, приложения)
 **Plural:** *updates*
 **Countability:** countable
 **Contrast:** Stress moves: the noun is UP-dayt, the verb *to update* is up-DAYT.
 
-The latest news about how something is going.
+Update has 2 distinct senses.
+
+**1. The latest news about how something is going.** (обновление, свежая информация)
 
 1. Can you give me a quick *update*?
 2. There's been no *update* since Tuesday.
 3. He sends *updates* every Friday afternoon.
+
+**2. A new version of a program that fixes problems or adds features.** (обновление (программы, приложения))
+
+4. The phone downloaded an *update* overnight.
+5. This *update* finally fixes the camera bug.
+6. *Updates* install automatically on Tuesday nights.
 
 ---
 
 ### review
 
 **Pronunciation:** /rɪˈvjuː/ &middot; *rih-VYOO*
-**Русский:** оценка, аттестация; обзор
+**Русский:** оценка, аттестация; обзор; рецензия, отзыв
 **Plural:** *reviews*
 **Countability:** countable
 
-A careful look at how well someone or something is doing.
+Review has 2 distinct senses.
+
+**1. A careful look at how well someone or something is doing.** (оценка, аттестация; обзор)
 
 1. I have my performance *review* next week.
 2. The *review* went better than I expected.
 3. They do *reviews* twice a year here.
+
+**2. A written opinion of a movie, book, restaurant, or product.** (рецензия, отзыв)
+
+4. The movie got terrible *reviews*.
+5. I read a *review* of the new Thai place downtown.
+6. The hotel has four stars and hundreds of *reviews*.
 
 ---
 
 ### job
 
 **Pronunciation:** /dʒɑːb/ &middot; *JAHB*
-**Русский:** работа, место работы
+**Русский:** работа, место работы; работа, задание (конкретное дело); дело, ограбление (разг.)
 **Plural:** *jobs*
 **Countability:** countable
 **Contrast:** Countable, unlike *work*: say *two jobs*, never *two works*.
 
-The paid position a person holds.
+Job has 3 distinct senses.
+
+**1. The paid position a person holds.** (работа, место работы)
 
 1. He got a *job* at a bank downtown.
 2. She's been at the same *job* for eleven years.
 3. He worked two *jobs* to pay for school.
+
+**2. A particular piece of work that has to be done.** (работа, задание (конкретное дело))
+
+4. Painting the fence is a two-day *job*.
+5. I have a few *jobs* to finish around the house this weekend.
+6. Cleaning the gutters is the worst *job* of the fall.
+
+**3. A crime, especially a robbery (informal).** (дело, ограбление (разг.))
+
+7. The police think it was an inside *job*.
+8. They pulled a bank *job* in broad daylight.
+9. He served ten years for a *job* he swore he didn't do.
 
 ---
 
@@ -837,15 +965,23 @@ A particular job within an organization.
 ### role
 
 **Pronunciation:** /roʊl/ &middot; *ROHL*
-**Русский:** роль, должность
+**Русский:** роль, должность; роль (в фильме, спектакле)
 **Plural:** *roles*
 **Countability:** countable
 
-The job or function a person has on a team.
+Role has 2 distinct senses.
+
+**1. The job or function a person has on a team.** (роль, должность)
 
 1. She just moved into a management *role*.
 2. My *role* is mostly writing and editing.
 3. The two *roles* overlap quite a bit.
+
+**2. A character played by an actor in a movie, play, or show.** (роль (в фильме, спектакле))
+
+4. She won an award for her *role* in the film.
+5. He auditioned for the lead *role*.
+6. The director cast unknowns in the smaller *roles*.
 
 ---
 
@@ -959,15 +1095,29 @@ Hours worked beyond the normal schedule, or the extra pay for them.
 ### shift
 
 **Pronunciation:** /ʃɪft/ &middot; *SHIFT*
-**Русский:** смена (рабочая)
+**Русский:** смена (рабочая); сдвиг, перемена; клавиша Shift (для заглавных букв)
 **Plural:** *shifts*
 **Countability:** countable
 
-A set period of working hours, one of several covering the day.
+Shift has 3 distinct senses.
+
+**1. A set period of working hours, one of several covering the day.** (смена (рабочая))
 
 1. My *shift* starts at six in the morning.
 2. She picked up an extra *shift* on Saturday.
 3. The night *shifts* are hardest to fill.
+
+**2. A change in position, opinion, or the way things are done.** (сдвиг, перемена)
+
+4. There's been a real *shift* in public opinion since spring.
+5. The company made a *shift* toward online sales.
+6. A small *shift* in the wind saved the town.
+
+**3. The key on a keyboard that makes capital letters.** (клавиша Shift (для заглавных букв))
+
+7. Hold *shift* and press the letter.
+8. The *shift* key on this laptop sticks.
+9. Caps lock is right above *shift* on the left.
 
 ---
 
@@ -1081,15 +1231,29 @@ A meeting where an employer questions someone applying for a job.
 ### offer
 
 **Pronunciation:** /ˈɔːfər/ &middot; *AW-fur*
-**Русский:** предложение (о работе)
+**Русский:** предложение (о работе); предложенная цена, предложение о покупке; акция, спецпредложение
 **Plural:** *offers*
 **Countability:** countable
 
-A formal proposal to hire someone at a stated salary.
+Offer has 3 distinct senses.
+
+**1. A formal proposal to hire someone at a stated salary.** (предложение (о работе))
 
 1. She got an *offer* from a firm in Boston.
 2. The *offer* came in below what he wanted.
 3. He turned down two *offers* last month.
+
+**2. An amount of money someone proposes to pay for something.** (предложенная цена, предложение о покупке)
+
+4. We made an *offer* on the house the same afternoon we saw it.
+5. The seller turned down our first *offer*.
+6. Three *offers* came in above the asking price.
+
+**3. A special deal or reduced price available for a limited time.** (акция, спецпредложение)
+
+7. The *offer* ends at midnight on Sunday.
+8. This coupon can't be combined with any other *offer*.
+9. Stores run these *offers* every year after the holidays.
 
 ---
 
@@ -1111,30 +1275,52 @@ Teaching that prepares someone to do a job.
 ### union
 
 **Pronunciation:** /ˈjuːnjən/ &middot; *YOON-yuhn*
-**Русский:** профсоюз
+**Русский:** профсоюз; союз, объединение; брак
 **Plural:** *unions*
 **Countability:** countable
 
-An organized group of workers formed to protect their rights.
+Union has 2 distinct senses.
+
+**1. An organized group of workers formed to protect their rights.** (профсоюз)
 
 1. The *union* is negotiating a new contract.
 2. He's been in the *union* since 1998.
 3. Two *unions* represent workers at the plant.
+
+**2. The joining of two or more people or things into one, especially a marriage.** (союз, объединение; брак)
+
+4. Their *union* lasted more than fifty years.
+5. Three children came from that *union*.
+6. The merger created a *union* of two old rivals.
 
 ---
 
 ### strike
 
 **Pronunciation:** /straɪk/ &middot; *STRYK*
-**Русский:** забастовка
+**Русский:** забастовка; удар (военный), авиаудар; страйк (в бейсболе)
 **Plural:** *strikes*
 **Countability:** countable
 
-A refusal to work, used to press an employer for something.
+Strike has 3 distinct senses.
+
+**1. A refusal to work, used to press an employer for something.** (забастовка)
 
 1. The drivers went on *strike* for two weeks.
 2. The *strike* ended with a wage increase.
 3. There were *strikes* at three plants that summer.
+
+**2. A military attack, especially one from the air.** (удар (военный), авиаудар)
+
+4. The air *strike* hit a supply depot.
+5. Two *strikes* were reported overnight.
+6. The general ordered a *strike* at dawn.
+
+**3. In baseball, a pitch that counts against the batter.** (страйк (в бейсболе))
+
+7. That's *strike* two.
+8. He went down on three straight *strikes*.
+9. The umpire called it a *strike* and the crowd booed.
 
 ---
 
@@ -1261,16 +1447,24 @@ A person or company hired to do a job without being an employee.
 ### project
 
 **Pronunciation:** /ˈprɑːdʒɛkt/ &middot; *PRAH-jekt*
-**Русский:** проект
+**Русский:** проект; муниципальное жильё для малоимущих
 **Plural:** *projects*
 **Countability:** countable
 **Contrast:** Stress moves: the noun is PRAH-jekt, the verb *to project* is pruh-JEKT.
 
-A planned piece of work with a goal and an end date.
+Project has 2 distinct senses.
+
+**1. A planned piece of work with a goal and an end date.** (проект)
 
 1. I'm on a new *project* starting Monday.
 2. The *project* is running two weeks late.
 3. She's juggling three *projects* at once.
+
+**2. A group of government-owned apartment buildings for low-income families, usually in the plural.** (муниципальное жильё для малоимущих)
+
+4. He grew up in the *projects* on the South Side.
+5. The city is tearing down two *projects* next year.
+6. Kids from the *project* walked to school together.
 
 ---
 
@@ -1307,15 +1501,23 @@ A job or duty given to someone.
 ### duty
 
 **Pronunciation:** /ˈduːti/ &middot; *DOO-tee*
-**Русский:** обязанность
+**Русский:** обязанность; пошлина, таможенный сбор
 **Plural:** *duties*
 **Countability:** countable
 
-Something you are required to do as part of a job.
+Duty has 2 distinct senses.
+
+**1. Something you are required to do as part of a job.** (обязанность)
 
 1. Answering the phone isn't part of my *duty*.
 2. Her *duties* include scheduling and payroll.
 3. He listed all the *duties* in the job posting.
+
+**2. A tax charged on goods brought into a country.** (пошлина, таможенный сбор)
+
+4. Travelers pay *duty* on anything worth more than eight hundred dollars.
+5. Congress raised the *duty* on imported steel.
+6. The shop past security sells perfume with no *duty* added.
 
 ---
 
@@ -1383,15 +1585,23 @@ A message sent electronically, or the system for sending such messages.
 ### inbox
 
 **Pronunciation:** /ˈɪnbɑːks/ &middot; *IN-bahks*
-**Русский:** папка «Входящие»
+**Русский:** папка «Входящие»; лоток для входящих документов
 **Plural:** *inboxes*
 **Countability:** countable
 
-The place where incoming email messages arrive.
+Inbox has 2 distinct senses.
+
+**1. The place where incoming email messages arrive.** (папка «Входящие»)
 
 1. My *inbox* is out of control.
 2. It's sitting in your *inbox* somewhere.
 3. She keeps two separate *inboxes*.
+
+**2. A tray on a desk where incoming papers are left.** (лоток для входящих документов)
+
+4. Leave the signed forms in my *inbox*.
+5. Her *inbox* was buried under a stack of files.
+6. The mail clerk drops the day's letters into each *inbox*.
 
 ---
 

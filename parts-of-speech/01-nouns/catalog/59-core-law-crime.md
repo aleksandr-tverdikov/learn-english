@@ -12,15 +12,29 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### court
 
 **Pronunciation:** /kɔːrt/ &middot; *KORT*
-**Русский:** суд
+**Русский:** суд; корт, площадка (для игры); двор (королевский)
 **Plural:** *courts*
 **Countability:** countable
 
-The place where a judge decides legal cases, or the body of officials who decide them.
+Court has 3 distinct senses.
+
+**1. The place where a judge decides legal cases, or the body of officials who decide them.** (суд)
 
 1. The case goes to *court* on Monday.
 2. She spent two days in *court* as a witness.
 3. Higher *courts* have already ruled on this question.
+
+**2. A marked area where games such as tennis or basketball are played.** (корт, площадка (для игры))
+
+4. The kids were shooting baskets on the *court* behind the school.
+5. Both tennis *courts* were booked all afternoon.
+6. He's the fastest player on the *court*.
+
+**3. The household and officials surrounding a king or queen.** (двор (королевский))
+
+7. The young poet spent two years at *court*.
+8. Rumors moved through the *court* faster than the news did.
+9. European *courts* copied French fashion for a century.
 
 ---
 
@@ -118,15 +132,23 @@ The officer who keeps order in a courtroom.
 ### counsel
 
 **Pronunciation:** /ˈkaʊnsəl/ &middot; *KOWN-suhl*
-**Русский:** адвокат (сторона в суде)
+**Русский:** адвокат (сторона в суде); совет, наставление
 **Countability:** uncountable
 **Contrast:** Sounds exactly like *council*, a group of elected officials — different word, different spelling.
 
-The lawyer or lawyers representing someone in a legal matter.
+Counsel has 2 distinct senses.
+
+**1. The lawyer or lawyers representing someone in a legal matter.** (адвокат (сторона в суде))
 
 1. *Counsel* for the defense objected.
 2. He has the right to speak with *counsel*.
 3. Opposing *counsel* asked for a delay.
+
+**2. Advice, especially serious advice given after careful thought.** (совет, наставление)
+
+4. He offered a few words of quiet *counsel* before the interview.
+5. She kept her own *counsel* until the vote was over.
+6. The pastor's *counsel* carried the family through a hard year.
 
 ---
 
@@ -201,45 +223,81 @@ Trial has 2 distinct senses.
 ### hearing
 
 **Pronunciation:** /ˈhɪrɪŋ/ &middot; *HEER-ing*
-**Русский:** слушание (в суде)
+**Русский:** слушание (в суде); слух
 **Plural:** *hearings*
 **Countability:** countable
 
-A meeting in court or before officials where evidence and arguments are heard.
+Hearing has 2 distinct senses.
+
+**1. A meeting in court or before officials where evidence and arguments are heard.** (слушание (в суде))
 
 1. The *hearing* is set for the tenth.
 2. She testified at a Senate *hearing*.
 3. Two *hearings* were postponed.
+
+**2. The ability to hear.** (слух)
+
+4. My grandfather's *hearing* isn't what it used to be.
+5. Years of loud concerts damaged his *hearing*.
+6. She lost the *hearing* in one ear after the infection.
 
 ---
 
 ### case
 
 **Pronunciation:** /keɪs/ &middot; *KAYS*
-**Русский:** дело (судебное, следственное)
+**Русский:** дело (судебное, следственное); футляр, чехол; ящик; случай заболевания; случай, пример
 **Plural:** *cases*
 **Countability:** countable
 
-A matter investigated by police or decided in a court.
+Case has 4 distinct senses.
+
+**1. A matter investigated by police or decided in a court.** (дело (судебное, следственное))
 
 1. The judge threw the *case* out.
 2. Detectives reopened the *case* last year.
 3. She handles about forty *cases* a month.
+
+**2. A container or box made to hold and protect something.** (футляр, чехол; ящик)
+
+4. He snapped the guitar back into its *case*.
+5. I dropped my phone, but the *case* saved it.
+6. They carried in a *case* of bottled water.
+
+**3. One person or animal that has a particular disease or injury.** (случай заболевания)
+
+7. The county reported forty new *cases* of flu.
+8. It turned out to be a mild *case* of food poisoning.
+9. Doctors traced the first *case* to a traveler.
+
+**4. A particular situation or example of something.** (случай, пример)
+
+10. In that *case*, we should leave early.
+11. This is a classic *case* of bad timing.
+12. There are *cases* where the machine simply stops working.
 
 ---
 
 ### verdict
 
 **Pronunciation:** /ˈvɜːrdɪkt/ &middot; *VUR-dikt*
-**Русский:** вердикт, решение присяжных
+**Русский:** вердикт, решение присяжных; мнение, оценка, приговор (перен.)
 **Plural:** *verdicts*
 **Countability:** countable
 
-The decision a jury or judge reaches about guilt or liability.
+Verdict has 2 distinct senses.
+
+**1. The decision a jury or judge reaches about guilt or liability.** (вердикт, решение присяжных)
 
 1. The jury reached a *verdict* in four hours.
 2. The *verdict* came back not guilty.
 3. Both *verdicts* were appealed.
+
+**2. An opinion or judgment reached after trying or examining something.** (мнение, оценка, приговор (перен.))
+
+4. So what's your *verdict* on the new restaurant?
+5. The critics' *verdict* was harsh.
+6. The *verdict* on the phone is that the battery is weak.
 
 ---
 
@@ -262,15 +320,29 @@ The punishment a court orders for someone found guilty.
 ### appeal
 
 **Pronunciation:** /əˈpiːl/ &middot; *uh-PEEL*
-**Русский:** апелляция, обжалование
+**Русский:** апелляция, обжалование; призыв, обращение (за помощью); привлекательность, притягательность
 **Plural:** *appeals*
 **Countability:** countable
 
-A request that a higher court review and change a decision.
+Appeal has 3 distinct senses.
+
+**1. A request that a higher court review and change a decision.** (апелляция, обжалование)
 
 1. Her lawyers filed an *appeal* the next morning.
 2. The *appeal* was denied.
 3. He has two *appeals* still pending.
+
+**2. An urgent public request for money or help.** (призыв, обращение (за помощью))
+
+4. The shelter put out an *appeal* for winter coats.
+5. Their *appeal* raised forty thousand dollars in a week.
+6. Police made a televised *appeal* for witnesses.
+
+**3. The quality that makes something or someone attractive or interesting.** (привлекательность, притягательность)
+
+7. The show has broad *appeal* across age groups.
+8. I never understood the *appeal* of camping.
+9. The car's *appeal* is that anyone can fix it.
 
 ---
 
@@ -331,15 +403,23 @@ Proof that someone was somewhere else when a crime happened.
 ### plea
 
 **Pronunciation:** /pliː/ &middot; *PLEE*
-**Русский:** заявление о признании или непризнании вины
+**Русский:** заявление о признании или непризнании вины; мольба, призыв
 **Plural:** *pleas*
 **Countability:** countable
 
-The answer an accused person gives in court to a charge.
+Plea has 2 distinct senses.
+
+**1. The answer an accused person gives in court to a charge.** (заявление о признании или непризнании вины)
 
 1. He entered a *plea* of not guilty.
 2. The judge accepted her *plea*.
 3. Most *pleas* are worked out before trial.
+
+**2. An urgent emotional request for help.** (мольба, призыв)
+
+4. The family made a public *plea* for information.
+5. He ignored her *pleas* to slow down.
+6. The shelter issued a *plea* for winter coats.
 
 ---
 
@@ -673,16 +753,30 @@ A formal change or addition made to a law or document.
 ### right
 
 **Pronunciation:** /raɪt/ &middot; *RYT*
-**Русский:** право (законное)
+**Русский:** право (законное); правая сторона; поворот направо; правые, правый политический фланг
 **Plural:** *rights*
 **Countability:** countable
 **Contrast:** Sounds exactly like *write* and *rite*.
 
-Something the law allows or guarantees you to have or do.
+Right has 3 distinct senses.
+
+**1. Something the law allows or guarantees you to have or do.** (право (законное))
 
 1. You have the *right* to remain silent.
 2. Tenants have the *right* to a habitable apartment.
 3. The officer read him his *rights*.
+
+**2. The side or direction opposite the left.** (правая сторона; поворот направо)
+
+4. Take a *right* at the second light.
+5. The bakery is on your *right*.
+6. He looked to the *right* before pulling out.
+
+**3. The conservative side in politics.** (правые, правый политический фланг)
+
+7. The bill drew fire from the *right*.
+8. She's well to the *right* of her own party.
+9. Voters on the *right* stayed home.
 
 ---
 
@@ -800,46 +894,76 @@ Contempt has 2 distinct senses.
 ### clause
 
 **Pronunciation:** /klɔːz/ &middot; *KLAWZ*
-**Русский:** пункт, статья (договора)
+**Русский:** пункт, статья (договора); клауза, часть сложного предложения
 **Plural:** *clauses*
 **Countability:** countable
 
-A separate numbered part of a contract or law.
+Clause has 2 distinct senses.
+
+**1. A separate numbered part of a contract or law.** (пункт, статья (договора))
 
 1. There's a *clause* about early termination.
 2. Read the arbitration *clause* carefully.
 3. Two *clauses* contradict each other.
+
+**2. A group of words with its own subject and verb that forms part of a sentence.** (клауза, часть сложного предложения)
+
+4. This sentence has a main *clause* and a relative *clause*.
+5. Put a comma before the second *clause*.
+6. Learners often join two *clauses* without a conjunction.
 
 ---
 
 ### deed
 
 **Pronunciation:** /diːd/ &middot; *DEED*
-**Русский:** документ о праве собственности (на недвижимость)
+**Русский:** документ о праве собственности (на недвижимость); поступок, деяние
 **Plural:** *deeds*
 **Countability:** countable
 
-The legal document that shows who owns a piece of property.
+Deed has 2 distinct senses.
+
+**1. The legal document that shows who owns a piece of property.** (документ о праве собственности (на недвижимость))
 
 1. The *deed* is in both their names.
 2. He couldn't find the *deed* to the house.
 3. The old *deeds* are kept at the county office.
+
+**2. Something that someone does, especially something notable.** (поступок, деяние)
+
+4. She was honored for her good *deeds* in the community.
+5. He is remembered for one brave *deed*.
+6. Words matter less than *deeds*.
 
 ---
 
 ### will
 
 **Pronunciation:** /wɪl/ &middot; *WIL*
-**Русский:** завещание
+**Русский:** завещание; воля, сила воли; воля, желание (чья-либо воля)
 **Plural:** *wills*
 **Countability:** countable
 **Contrast:** Spelled and said exactly like the verb *will*; only context shows it is a document.
 
-A legal document saying who gets your property after you die.
+Will has 3 distinct senses.
+
+**1. A legal document saying who gets your property after you die.** (завещание)
 
 1. She left the house to her nephew in her *will*.
 2. He died without a *will*.
 3. Both *wills* were signed the same afternoon.
+
+**2. The power of the mind to decide on something and keep going.** (воля, сила воли)
+
+4. She has the *will* to finish whatever she starts.
+5. After the accident he lost the *will* to live.
+6. It takes real *will* to train that early every day.
+
+**3. What a person or a group wants to happen.** (воля, желание (чья-либо воля))
+
+7. The senator said he was following the *will* of the voters.
+8. She was kept there against her *will*.
+9. The board imposed its *will* on the whole department.
 
 ---
 
@@ -916,16 +1040,24 @@ Patent has 2 distinct senses.
 ### offense
 
 **Pronunciation:** /əˈfɛns/ &middot; *uh-FENSS*
-**Русский:** правонарушение, проступок
+**Русский:** правонарушение, проступок; обида, оскорблённое чувство
 **Plural:** *offenses*
 **Countability:** countable
 **Contrast:** American spelling is *offense*; the British write *offence*.
 
-An act that breaks a law or rule.
+Offense has 2 distinct senses.
+
+**1. An act that breaks a law or rule.** (правонарушение, проступок)
 
 1. It was his first *offense*.
 2. Driving without insurance is a serious *offense* here.
 3. Repeat *offenses* carry heavier penalties.
+
+**2. Annoyance or hurt feelings caused by something rude.** (обида, оскорблённое чувство)
+
+4. No *offense*, but that shirt doesn't match those pants.
+5. She took *offense* at being left off the invitation list.
+6. I meant no *offense* by the question.
 
 ---
 
@@ -1319,15 +1451,23 @@ The use of violence against civilians to frighten people for political ends.
 ### riot
 
 **Pronunciation:** /ˈraɪət/ &middot; *RY-uht*
-**Русский:** массовые беспорядки, бунт
+**Русский:** массовые беспорядки, бунт; умора, что-то очень смешное
 **Plural:** *riots*
 **Countability:** countable
 
-Violent public disorder by a large group of people.
+Riot has 2 distinct senses.
+
+**1. Violent public disorder by a large group of people.** (массовые беспорядки, бунт)
 
 1. A *riot* broke out after the verdict.
 2. Police in riot gear moved in to stop the *riot*.
 3. The *riots* lasted three nights.
+
+**2. Someone or something extremely funny, in informal speech.** (умора, что-то очень смешное)
+
+4. Your uncle is a *riot* at parties.
+5. That movie was a *riot* from start to finish.
+6. The bloopers at the end are a total *riot*.
 
 ---
 
@@ -1378,16 +1518,24 @@ An act that breaks a law, rule, or agreement.
 ### breach
 
 **Pronunciation:** /briːtʃ/ &middot; *BREECH*
-**Русский:** нарушение (договора, обязательства)
+**Русский:** нарушение (договора, обязательства); пролом, брешь
 **Plural:** *breaches*
 **Countability:** countable
 **Contrast:** Sounds exactly like *breech*, and one vowel away from *beach*.
 
-A failure to keep to a contract, law, or duty.
+Breach has 2 distinct senses.
+
+**1. A failure to keep to a contract, law, or duty.** (нарушение (договора, обязательства))
 
 1. They sued for *breach* of contract.
 2. The leak was a serious *breach* of security.
 3. Repeated *breaches* ended the partnership.
+
+**2. A gap or hole torn in a wall, dam, or other barrier.** (пролом, брешь)
+
+4. Floodwater poured through a *breach* in the levee.
+5. Soldiers pushed through the *breach* in the city wall.
+6. Crews worked all night to close the *breach*.
 
 ---
 
@@ -1511,15 +1659,23 @@ Someone who has deliberately killed another person.
 ### killer
 
 **Pronunciation:** /ˈkɪlər/ &middot; *KIL-ur*
-**Русский:** убийца
+**Русский:** убийца; нечто убойное (очень трудное или очень крутое)
 **Plural:** *killers*
 **Countability:** countable
 
-A person or thing that causes death.
+Killer has 2 distinct senses.
+
+**1. A person or thing that causes death.** (убийца)
 
 1. The *killer* left no fingerprints.
 2. Police believe the same *killer* is responsible for both deaths.
 3. Serial *killers* are rarer than television suggests.
+
+**2. An informal word for something extremely hard, exhausting, or impressive.** (нечто убойное (очень трудное или очень крутое))
+
+4. That last hill was a *killer*.
+5. The final exam was a real *killer*.
+6. Their new album is a *killer*.
 
 ---
 
@@ -1632,15 +1788,23 @@ Someone convicted of a serious crime.
 ### crook
 
 **Pronunciation:** /krʊk/ &middot; *KRUUK*
-**Русский:** жулик, мошенник
+**Русский:** жулик, мошенник; сгиб (локтя), изгиб
 **Plural:** *crooks*
 **Countability:** countable
 
-A dishonest person, especially a small-time criminal.
+Crook has 2 distinct senses.
+
+**1. A dishonest person, especially a small-time criminal.** (жулик, мошенник)
 
 1. The contractor turned out to be a *crook*.
 2. That whole outfit is run by *crooks*.
 3. He called his landlord a *crook* to his face.
+
+**2. The inside of a bend, especially where the arm folds at the elbow.** (сгиб (локтя), изгиб)
+
+4. She carried the baby in the *crook* of her arm.
+5. He tucked the newspaper into the *crook* of his elbow.
+6. A nest sat in the *crook* of two branches.
 
 ---
 
@@ -1662,15 +1826,23 @@ Someone held prisoner until demands are met.
 ### warden
 
 **Pronunciation:** /ˈwɔːrdən/ &middot; *WOR-duhn*
-**Русский:** начальник тюрьмы
+**Русский:** начальник тюрьмы; егерь, инспектор охраны природы
 **Plural:** *wardens*
 **Countability:** countable
 
-The official in charge of a prison.
+Warden has 2 distinct senses.
+
+**1. The official in charge of a prison.** (начальник тюрьмы)
 
 1. The *warden* denied the request.
 2. A new *warden* took over in June.
 3. Both *wardens* testified before the committee.
+
+**2. An official who enforces hunting, fishing, and wildlife laws in an area.** (егерь, инспектор охраны природы)
+
+4. A game *warden* checked our fishing licenses at the boat ramp.
+5. The *warden* fined him for shooting out of season.
+6. Two *wardens* patrol the whole state forest.
 
 ---
 
@@ -1746,15 +1918,23 @@ Something unpleasant done to someone because they broke a rule or law.
 ### penalty
 
 **Pronunciation:** /ˈpɛnəlti/ &middot; *PEN-uhl-tee*
-**Русский:** наказание, штрафная санкция
+**Русский:** наказание, штрафная санкция; неустойка, денежный штраф
 **Plural:** *penalties*
 **Countability:** countable
 
-A punishment set by law for breaking a rule.
+Penalty has 2 distinct senses.
+
+**1. A punishment set by law for breaking a rule.** (наказание, штрафная санкция)
 
 1. The *penalty* for a second offense is much steeper.
 2. There's a *penalty* for filing your taxes late.
 3. *Penalties* range from a fine to five years in prison.
+
+**2. An extra charge you have to pay for paying late or breaking the terms of an agreement.** (неустойка, денежный штраф)
+
+4. There's a *penalty* for taking the money out early.
+5. Pay the bill by Friday to avoid a late *penalty*.
+6. The contract has no *penalty* for canceling.
 
 ---
 
@@ -1867,46 +2047,70 @@ Deputy has 2 distinct senses.
 ### marshal
 
 **Pronunciation:** /ˈmɑːrʃəl/ &middot; *MAHR-shuhl*
-**Русский:** маршал (федеральный судебный исполнитель)
+**Русский:** маршал (федеральный судебный исполнитель); распорядитель; инспектор (пожарной безопасности)
 **Plural:** *marshals*
 **Countability:** countable
 **Contrast:** Sounds like *martial* (as in martial arts); the officer is spelled *marshal*.
 
-A federal officer who transports prisoners, protects courts, and tracks fugitives.
+Marshal has 2 distinct senses.
+
+**1. A federal officer who transports prisoners, protects courts, and tracks fugitives.** (маршал (федеральный судебный исполнитель))
 
 1. A *marshal* escorted the witness into the building.
 2. Federal *marshals* arrested him at the airport.
 3. The fire *marshal* shut the club down.
+
+**2. An official who directs people at an event or enforces safety rules.** (распорядитель; инспектор (пожарной безопасности))
+
+4. The fire *marshal* said the room could hold sixty people.
+5. *Marshals* in orange vests kept the race course clear.
+6. A retired astronaut was grand *marshal* of the parade.
 
 ---
 
 ### siren
 
 **Pronunciation:** /ˈsaɪrən/ &middot; *SY-ruhn*
-**Русский:** сирена
+**Русский:** сирена; сирена (мифическое существо); соблазнительница
 **Plural:** *sirens*
 **Countability:** countable
 
-A device that makes a loud warning sound on a police car or ambulance.
+Siren has 2 distinct senses.
+
+**1. A device that makes a loud warning sound on a police car or ambulance.** (сирена)
 
 1. He turned on the *siren* and pulled into traffic.
 2. *Sirens* woke the whole block at two in the morning.
 3. You could hear the *siren* from a mile off.
+
+**2. A creature of myth whose beautiful singing lured sailors onto the rocks.** (сирена (мифическое существо); соблазнительница)
+
+4. The sailors plugged their ears against the *sirens*.
+5. Easy money is a *siren* that has wrecked plenty of careers.
+6. The novel's *siren* draws every man in the village to ruin.
 
 ---
 
 ### arrest
 
 **Pronunciation:** /əˈrɛst/ &middot; *uh-REST*
-**Русский:** арест, задержание
+**Русский:** арест, задержание; остановка (сердца), прекращение
 **Plural:** *arrests*
 **Countability:** countable
 
-The act of taking someone into police custody.
+Arrest has 2 distinct senses.
+
+**1. The act of taking someone into police custody.** (арест, задержание)
 
 1. The *arrest* was caught on a doorbell camera.
 2. He's under *arrest* for driving while intoxicated.
 3. Police made four *arrests* that night.
+
+**2. A sudden stop in the working of something, especially the heart.** (остановка (сердца), прекращение)
+
+4. He went into cardiac *arrest* on the flight.
+5. The drug caused a temporary *arrest* of the tumor's growth.
+6. Paramedics treated her for respiratory *arrest*.
 
 ---
 

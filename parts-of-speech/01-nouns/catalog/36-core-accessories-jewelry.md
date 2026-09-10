@@ -12,16 +12,24 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### purse
 
 **Pronunciation:** /pɜːrs/ &middot; *PURS*
-**Русский:** дамская сумочка, сумка
+**Русский:** дамская сумочка, сумка; призовой фонд
 **Plural:** *purses*
 **Countability:** countable
 **Contrast:** In American English a purse is what the British call a handbag; a British purse is a small wallet for coins.
 
-A small bag a woman carries money and personal things in.
+Purse has 2 distinct senses.
+
+**1. A small bag a woman carries money and personal things in.** (дамская сумочка, сумка)
 
 1. She dug through her *purse* looking for her keys.
 2. Someone grabbed her *purse* right off the back of the chair.
 3. All the *purses* on that rack are half off.
+
+**2. The prize money offered in a boxing match, race, or tournament.** (призовой фонд)
+
+4. The winner takes a *purse* of two million.
+5. The *purse* for the derby went up again this year.
+6. The two fighters split the *purse* evenly.
 
 ---
 
@@ -204,15 +212,41 @@ A small bag you take with you into the cabin of a plane.
 ### ring
 
 **Pronunciation:** /rɪŋ/ &middot; *RING*
-**Русский:** кольцо, перстень
+**Русский:** кольцо, перстень; круг, кольцо (след, окружность); ринг; арена; преступная группировка, шайка; звонок, звон
 **Plural:** *rings*
 **Countability:** countable
 
-A circular band of metal worn on a finger.
+Ring has 5 distinct senses.
+
+**1. A circular band of metal worn on a finger.** (кольцо, перстень)
 
 1. She still wears her grandmother's *ring*.
 2. He lost his wedding *ring* at the beach.
 3. The case was full of cheap silver *rings*.
+
+**2. A circle, or a circular mark or arrangement of things.** (круг, кольцо (след, окружность))
+
+4. The mug left a *ring* on the table.
+5. The children sat in a *ring* around the teacher.
+6. You can count the *rings* to tell the tree's age.
+
+**3. The square platform where boxers or wrestlers fight.** (ринг; арена)
+
+7. The champ climbed into the *ring* to a huge cheer.
+8. He was knocked out of the *ring* in the third round.
+9. The elephants entered the center *ring*.
+
+**4. An organized group of people working together at something illegal.** (преступная группировка, шайка)
+
+10. Police broke up a car-theft *ring*.
+11. A smuggling *ring* operated out of the port for years.
+12. Two officers were tied to the drug *ring*.
+
+**5. The sound made by a bell or a phone.** (звонок, звон)
+
+13. The *ring* of the doorbell woke everyone up.
+14. She picked up on the first *ring*.
+15. I heard the *ring* of church bells across the valley.
 
 ---
 
@@ -311,30 +345,52 @@ A small case on a chain that opens to hold a photo.
 ### chain
 
 **Pronunciation:** /tʃeɪn/ &middot; *CHAYN*
-**Русский:** цепочка, цепь
+**Русский:** цепочка, цепь; сеть (магазинов, ресторанов); цепочка, череда
 **Plural:** *chains*
 **Countability:** countable
 
-A line of connected metal links worn as jewelry.
+Chain has 3 distinct senses.
+
+**1. A line of connected metal links worn as jewelry.** (цепочка, цепь)
 
 1. He wears a thick gold *chain* under his shirt.
 2. The *chain* broke and the pendant fell off.
 3. She keeps both rings on a *chain* around her neck.
+
+**2. A group of stores, restaurants, or hotels owned by one company.** (сеть (магазинов, ресторанов))
+
+4. A national *chain* bought out the local pharmacy.
+5. The hotel *chain* has four hundred locations.
+6. She would rather eat at a diner than at a *chain*.
+
+**3. A series of connected events or things.** (цепочка, череда)
+
+7. One small mistake set off a *chain* of failures.
+8. Investigators reconstructed the whole *chain* of events.
+9. A *chain* of islands runs south from the mainland.
 
 ---
 
 ### bead
 
 **Pronunciation:** /biːd/ &middot; *BEED*
-**Русский:** бусина, бисер
+**Русский:** бусина, бисер; капелька (пота, воды)
 **Plural:** *beads*
 **Countability:** countable
 
-A small ball with a hole through it, strung to make jewelry.
+Bead has 2 distinct senses.
+
+**1. A small ball with a hole through it, strung to make jewelry.** (бусина, бисер)
 
 1. One *bead* rolled under the couch and disappeared.
 2. The dress is covered in tiny glass *beads*.
 3. She strung the *beads* onto a wire.
+
+**2. A small drop of liquid on a surface.** (капелька (пота, воды))
+
+4. *Beads* of sweat stood out on his forehead.
+5. A *bead* of water rolled down the cold glass.
+6. *Beads* of dew clung to the grass at dawn.
 
 ---
 
@@ -364,16 +420,24 @@ Gem has 2 distinct senses.
 ### jewel
 
 **Pronunciation:** /ˈdʒuːəl/ &middot; *JOO-uhl*
-**Русский:** драгоценный камень, драгоценность
+**Русский:** драгоценный камень, драгоценность; сокровище, жемчужина
 **Plural:** *jewels*
 **Countability:** countable
 **Contrast:** Americans write jewelry; the British write jewellery.
 
-A precious stone, or a piece of jewelry containing one.
+Jewel has 2 distinct senses.
+
+**1. A precious stone, or a piece of jewelry containing one.** (драгоценный камень, драгоценность)
 
 1. One *jewel* was missing from the crown.
 2. The *jewels* were locked in a hotel safe.
 3. She finally sold the last of her mother's *jewels*.
+
+**2. A person or thing that is greatly valued.** (сокровище, жемчужина)
+
+4. That little bakery is the *jewel* of the neighborhood.
+5. The old library is the *jewel* of the campus.
+6. Our babysitter is a *jewel*.
 
 ---
 
@@ -465,28 +529,50 @@ A blue precious stone.
 ### gold
 
 **Pronunciation:** /ɡoʊld/ &middot; *GOHLD*
-**Русский:** золото
+**Русский:** золото; золотая медаль, золото
 **Countability:** uncountable
 
-A yellow precious metal used for coins and jewelry.
+Gold has 2 distinct senses.
+
+**1. A yellow precious metal used for coins and jewelry.** (золото)
 
 1. The ring is fourteen-karat *gold*.
 2. She only wears *gold*, never silver.
 3. The price of *gold* went up again this week.
+
+**2. A first-place medal in a competition.** (золотая медаль, золото)
+
+4. She won *gold* in the 200 meters.
+5. The team took *gold* for the third year in a row.
+6. Nobody expected the underdog to take home *gold*.
 
 ---
 
 ### silver
 
 **Pronunciation:** /ˈsɪlvər/ &middot; *SIL-vur*
-**Русский:** серебро
+**Русский:** серебро; столовое серебро; серебро (медаль за второе место)
 **Countability:** uncountable
 
-A shiny white precious metal used for jewelry and utensils.
+Silver has 3 distinct senses.
+
+**1. A shiny white precious metal used for jewelry and utensils.** (серебро)
 
 1. The chain is real *silver*, not plated.
 2. *Silver* tarnishes if you don't wear it.
 3. She likes *silver* better than gold.
+
+**2. Forks, knives, and spoons, especially the good set kept for guests.** (столовое серебро)
+
+4. Grandma got out the good *silver* for Thanksgiving.
+5. He polished the *silver* the night before the party.
+6. The *silver* is in the bottom drawer of the hutch.
+
+**3. The medal given for second place.** (серебро (медаль за второе место))
+
+7. She took *silver* in the two hundred meters.
+8. The team settled for *silver* after losing the final.
+9. Nobody remembers who won *silver*.
 
 ---
 
@@ -529,14 +615,22 @@ A hard green stone carved into jewelry and ornaments.
 ### amber
 
 **Pronunciation:** /ˈæmbər/ &middot; *AM-bur*
-**Русский:** янтарь
+**Русский:** янтарь; янтарный цвет, оранжево-жёлтый
 **Countability:** uncountable
 
-Hard yellow-brown fossilized tree resin used in jewelry.
+Amber has 2 distinct senses.
+
+**1. Hard yellow-brown fossilized tree resin used in jewelry.** (янтарь)
 
 1. The beads are real *amber*, not plastic.
 2. There's an insect trapped in that piece of *amber*.
 3. *Amber* feels warm against your skin.
+
+**2. A warm yellow-orange color.** (янтарный цвет, оранжево-жёлтый)
+
+4. The whiskey glowed a deep *amber* in the glass.
+5. At sunset the whole valley turned to *amber*.
+6. The kitchen is painted in warm *ambers* and browns.
 
 ---
 
@@ -648,15 +742,29 @@ A small jeweled crown worn on the front of the head.
 ### crown
 
 **Pronunciation:** /kraʊn/ &middot; *KROWN*
-**Русский:** корона, венец
+**Русский:** корона, венец; коронка (зубная); чемпионский титул
 **Plural:** *crowns*
 **Countability:** countable
 
-A circular ornament worn on the head by a king or queen.
+Crown has 3 distinct senses.
+
+**1. A circular ornament worn on the head by a king or queen.** (корона, венец)
 
 1. The *crown* is a lot heavier than it looks.
 2. Both *crowns* are behind glass at the museum.
 3. He put a paper *crown* on his head at dinner.
+
+**2. An artificial cap fitted over a damaged tooth.** (коронка (зубная))
+
+4. The dentist put a *crown* on his back molar.
+5. Two *crowns* cost more than the whole trip.
+6. Her *crown* came loose on a piece of caramel.
+
+**3. The title held by a champion.** (чемпионский титул)
+
+7. They took the *crown* for the third year running.
+8. She lost her *crown* to a nineteen-year-old.
+9. Both teams are chasing the same *crown*.
 
 ---
 
@@ -686,15 +794,23 @@ Stud has 2 distinct senses.
 ### hoop
 
 **Pronunciation:** /huːp/ &middot; *HOOP*
-**Русский:** серьга-кольцо; обруч
+**Русский:** серьга-кольцо; обруч; баскетбольное кольцо; баскетбол (разг.)
 **Plural:** *hoops*
 **Countability:** countable
 
-A large circular earring, or any ring-shaped band.
+Hoop has 2 distinct senses.
+
+**1. A large circular earring, or any ring-shaped band.** (серьга-кольцо; обруч)
 
 1. She wore big gold *hoops* to the party.
 2. One *hoop* got caught in her scarf.
 3. Small *hoops* are easier to sleep in.
+
+**2. The ring and net used in basketball, or the game itself.** (баскетбольное кольцо; баскетбол (разг.))
+
+4. There's a *hoop* over the garage door.
+5. The kids play *hoops* at the park every evening.
+6. He put up a *hoop* in the driveway for his son.
 
 ---
 
@@ -717,16 +833,30 @@ A piece of cut glass that imitates a diamond.
 ### watch
 
 **Pronunciation:** /wɑːtʃ/ &middot; *WAHCH*
-**Русский:** часы (наручные)
+**Русский:** часы (наручные); вахта, дежурство, караул; оповещение о возможной опасной погоде
 **Plural:** *watches*
 **Countability:** countable
 **Contrast:** Singular in English even though the Russian часы is plural: one watch, two watches.
 
-A small clock worn on the wrist or carried in a pocket.
+Watch has 3 distinct senses.
+
+**1. A small clock worn on the wrist or carried in a pocket.** (часы (наручные))
 
 1. My *watch* is running five minutes fast.
 2. He collects old mechanical *watches*.
 3. She got a *watch* for graduation.
+
+**2. A period of time spent guarding a place or looking out for danger.** (вахта, дежурство, караул)
+
+4. The sailors stood the night *watch* in shifts.
+5. Someone has to keep *watch* while the others sleep.
+6. He had the four-hour *watch* on deck.
+
+**3. An official alert that dangerous weather is possible in an area.** (оповещение о возможной опасной погоде)
+
+7. The county is under a tornado *watch* until nine.
+8. A flash flood *watch* covers most of the valley.
+9. A *watch* means get ready; a warning means take cover.
 
 ---
 
@@ -749,16 +879,30 @@ A watch worn on a strap around the wrist.
 ### bow
 
 **Pronunciation:** /boʊ/ &middot; *BOH*
-**Русский:** бант, бантик
+**Русский:** бант, бантик; лук (оружие); смычок
 **Plural:** *bows*
 **Countability:** countable
 **Contrast:** This bow rhymes with go; the bow that means bending forward rhymes with cow.
 
-A knot with two loops, tied for decoration.
+Bow has 3 distinct senses.
+
+**1. A knot with two loops, tied for decoration.** (бант, бантик)
 
 1. She tied a red *bow* around the box.
 2. The dress has a *bow* at the waist.
 3. There were paper *bows* taped to every chair.
+
+**2. A curved piece of wood with a tight string, used to shoot arrows.** (лук (оружие))
+
+4. He drew the *bow* and let the arrow fly.
+5. The museum displays *bows* made by Plains hunters.
+6. She practices with a *bow* at the archery range every Saturday.
+
+**3. The thin stick with stretched hairs that is drawn across the strings of a violin or cello.** (смычок)
+
+7. She raised her *bow* and the orchestra began.
+8. A good *bow* can cost as much as the violin itself.
+9. He rubbed rosin along the *bow* before the concert.
 
 ---
 
@@ -841,15 +985,23 @@ A cloth-covered elastic band for tying hair.
 ### cane
 
 **Pronunciation:** /keɪn/ &middot; *KAYN*
-**Русский:** трость
+**Русский:** трость; стебель тростника, бамбука; тростник
 **Plural:** *canes*
 **Countability:** countable
 
-A stick used to help you walk.
+Cane has 2 distinct senses.
+
+**1. A stick used to help you walk.** (трость)
 
 1. He's been walking with a *cane* since the surgery.
 2. Her *cane* is leaning against the chair.
 3. The gift shop downstairs even sells *canes*.
+
+**2. The hard, hollow, jointed stem of tall plants such as sugar or bamboo.** (стебель тростника, бамбука; тростник)
+
+4. Workers cut the sugar *cane* by hand.
+5. The fence was built from split bamboo *canes*.
+6. Raspberry *canes* have to be tied to a wire each spring.
 
 ---
 
@@ -886,15 +1038,23 @@ A cord worn around the neck to hold a badge or keys.
 ### badge
 
 **Pronunciation:** /bædʒ/ &middot; *BAJ*
-**Русский:** значок, бейдж, удостоверение
+**Русский:** значок, бейдж, удостоверение; знак, символ (отличия, качества)
 **Plural:** *badges*
 **Countability:** countable
 
-A small card or piece of metal worn to show who you are.
+Badge has 2 distinct senses.
+
+**1. A small card or piece of metal worn to show who you are.** (значок, бейдж, удостоверение)
 
 1. You need a *badge* to get past the front desk.
 2. He flashed his *badge* and walked right in.
 3. Visitor *badges* are at the security desk.
+
+**2. A sign or mark that shows a quality or an achievement.** (знак, символ (отличия, качества))
+
+4. He wears the nickname as a *badge* of honor.
+5. Calluses were a *badge* of hard work.
+6. For them the scar is a *badge* of survival.
 
 ---
 
@@ -948,30 +1108,52 @@ Something you keep or buy to remember a place or an event.
 ### lens
 
 **Pronunciation:** /lɛnz/ &middot; *LENZ*
-**Русский:** линза, стекло очков
+**Русский:** линза, стекло очков; хрусталик; призма (восприятия), ракурс
 **Plural:** *lenses*
 **Countability:** countable
 **Contrast:** Lens is already singular despite the s on the end; the plural is lenses.
 
-A curved piece of glass or plastic that focuses light.
+Lens has 3 distinct senses.
+
+**1. A curved piece of glass or plastic that focuses light.** (линза, стекло очков)
 
 1. One *lens* popped right out of my glasses.
 2. He wears contact *lenses* now instead of frames.
 3. The *lenses* fog up every time I come inside.
+
+**2. The clear part inside the eye that focuses light onto the retina.** (хрусталик)
+
+4. Surgeons replaced the clouded *lens* in her right eye.
+5. The *lens* stiffens as a person gets older.
+6. A cataract forms when the *lens* turns cloudy.
+
+**3. A particular way of looking at or understanding something.** (призма (восприятия), ракурс)
+
+7. He sees every issue through the *lens* of economics.
+8. The book tells the war through the *lens* of ordinary soldiers.
+9. Try looking at the problem through a different *lens*.
 
 ---
 
 ### makeup
 
 **Pronunciation:** /ˈmeɪkʌp/ &middot; *MAYK-up*
-**Русский:** макияж, декоративная косметика
+**Русский:** макияж, декоративная косметика; состав, структура
 **Countability:** uncountable
 
-Colored products put on the face to change how it looks.
+Makeup has 2 distinct senses.
+
+**1. Colored products put on the face to change how it looks.** (макияж, декоративная косметика)
 
 1. She doesn't wear much *makeup*.
 2. He took the stage *makeup* off with a wipe.
 3. All her *makeup* is in a bag under the sink.
+
+**2. The combination of parts or people that form something.** (состав, структура)
+
+4. The *makeup* of the jury worried both lawyers.
+5. Soil *makeup* varies from one field to the next.
+6. Genetic *makeup* explains only part of the risk.
 
 ---
 
@@ -1035,14 +1217,22 @@ Colored powder or cream put on the eyelids.
 ### blush
 
 **Pronunciation:** /blʌʃ/ &middot; *BLUSH*
-**Русский:** румяна
+**Русский:** румяна; румянец, краска стыда
 **Countability:** uncountable
 
-Pink or red powder put on the cheeks.
+Blush has 2 distinct senses.
+
+**1. Pink or red powder put on the cheeks.** (румяна)
 
 1. She added a little *blush* to her cheeks.
 2. That *blush* is way too pink for her.
 3. I ran out of *blush* two weeks ago.
+
+**2. A reddening of the face caused by embarrassment.** (румянец, краска стыда)
+
+4. A *blush* spread across her cheeks.
+5. He felt a *blush* rising as everyone turned to look.
+6. The compliment brought a deep *blush* to his face.
 
 ---
 
@@ -1352,16 +1542,30 @@ A tool with two blades for cutting hair or nails.
 ### compact
 
 **Pronunciation:** /ˈkɑːmpækt/ &middot; *KAHM-pakt*
-**Русский:** пудреница
+**Русский:** пудреница; договор, соглашение, пакт; малолитражка, компактный автомобиль
 **Plural:** *compacts*
 **Countability:** countable
 **Contrast:** The noun stresses the first syllable, KAHM-pakt; the adjective stresses the second, kuhm-PAKT.
 
-A small flat case holding face powder and a mirror.
+Compact has 3 distinct senses.
+
+**1. A small flat case holding face powder and a mirror.** (пудреница)
 
 1. She snapped the *compact* shut and put it away.
 2. The *compact* has a little mirror inside the lid.
 3. Her purse was full of old *compacts*.
+
+**2. A formal agreement between people, groups, or states.** (договор, соглашение, пакт)
+
+4. The states signed a *compact* on water rights.
+5. The settlers drew up a *compact* before going ashore.
+6. Such *compacts* need the approval of Congress.
+
+**3. A small car, smaller than a full-size model.** (малолитражка, компактный автомобиль)
+
+7. We rented a *compact* for the week.
+8. A *compact* is much easier to park downtown.
+9. *Compacts* get far better mileage.
 
 ---
 

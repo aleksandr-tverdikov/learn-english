@@ -112,14 +112,58 @@
       "term": "agency",
       "ipa": "/ˈeɪdʒənsi/",
       "respell": "AY-juhn-see",
-      "meaning": "A department of government that handles one area of public business. ---",
+      "meaning": "Agency has 3 distinct senses.",
       "examples": [
         "A federal agency is looking into the spill.",
         "The agency has about two thousand employees.",
-        "Three agencies are fighting over the same budget."
+        "Three agencies are fighting over the same budget.",
+        "We booked the whole trip through a travel agency.",
+        "The ad agency pitched three ideas and we hated all of them.",
+        "She found the job through a temp agency.",
+        "Kids need some agency over how they spend their afternoons.",
+        "The new rules left the nurses with very little agency.",
+        "The novel is about a woman claiming her own agency."
       ],
-      "senses": [],
-      "русский": "агентство, ведомство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A department of government that handles one area of public business",
+          "body": [
+            "(агентство, ведомство)"
+          ],
+          "examples": [
+            "A federal agency is looking into the spill.",
+            "The agency has about two thousand employees.",
+            "Three agencies are fighting over the same budget."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A business that provides a particular service for other people",
+          "body": [
+            "(агентство (фирма))"
+          ],
+          "examples": [
+            "We booked the whole trip through a travel agency.",
+            "The ad agency pitched three ideas and we hated all of them.",
+            "She found the job through a temp agency."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The power to make your own choices and act on them",
+          "body": [
+            "(самостоятельность, способность распоряжаться собой)",
+            "---"
+          ],
+          "examples": [
+            "Kids need some agency over how they spend their afternoons.",
+            "The new rules left the nurses with very little agency.",
+            "The novel is about a woman claiming her own agency."
+          ]
+        }
+      ],
+      "русский": "агентство, ведомство; агентство (фирма); самостоятельность, способность распоряжаться собой",
       "plural": "agencies",
       "countability": "countable"
     },
@@ -295,14 +339,43 @@
       "term": "state",
       "ipa": "/steɪt/",
       "respell": "STAYT",
-      "meaning": "One of the regions with its own government that make up the US, or a country as a political body. ---",
+      "meaning": "State has 2 distinct senses.",
       "examples": [
         "Each state writes its own election rules.",
         "The state pays for most of the highway work.",
-        "Twelve states joined the lawsuit."
+        "Twelve states joined the lawsuit.",
+        "He was in a state of shock for days.",
+        "The president spoke about the state of the economy.",
+        "She was in no state to drive home."
       ],
-      "senses": [],
-      "русский": "штат; государство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the regions with its own government that make up the US, or a country as a political body",
+          "body": [
+            "(штат; государство)"
+          ],
+          "examples": [
+            "Each state writes its own election rules.",
+            "The state pays for most of the highway work.",
+            "Twelve states joined the lawsuit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The condition that someone or something is in at a particular time",
+          "body": [
+            "(состояние)",
+            "---"
+          ],
+          "examples": [
+            "He was in a state of shock for days.",
+            "The president spoke about the state of the economy.",
+            "She was in no state to drive home."
+          ]
+        }
+      ],
+      "русский": "штат; государство; состояние",
       "plural": "states",
       "countability": "countable"
     },
@@ -371,14 +444,43 @@
       "term": "monarch",
       "ipa": "/ˈmɑːnərk/",
       "respell": "MAH-nurk",
-      "meaning": "A king or queen who is the head of a state. ---",
+      "meaning": "Monarch has 2 distinct senses.",
       "examples": [
         "The monarch signs the law but never writes it.",
         "She is the longest-serving monarch in their history.",
-        "European monarchs met at the funeral."
+        "European monarchs met at the funeral.",
+        "Monarchs stop in our yard every September on their way south.",
+        "We planted milkweed so the monarchs would have somewhere to lay eggs.",
+        "A single monarch landed on the fence rail."
       ],
-      "senses": [],
-      "русский": "монарх",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A king or queen who is the head of a state",
+          "body": [
+            "(монарх)"
+          ],
+          "examples": [
+            "The monarch signs the law but never writes it.",
+            "She is the longest-serving monarch in their history.",
+            "European monarchs met at the funeral."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large orange-and-black butterfly that migrates south in the fall",
+          "body": [
+            "(монарх (бабочка))",
+            "---"
+          ],
+          "examples": [
+            "Monarchs stop in our yard every September on their way south.",
+            "We planted milkweed so the monarchs would have somewhere to lay eggs.",
+            "A single monarch landed on the fence rail."
+          ]
+        }
+      ],
+      "русский": "монарх; монарх (бабочка)",
       "plural": "monarchs",
       "countability": "countable",
       "contrast": "The ch is a k sound; the same word also names an orange and black butterfly."
@@ -463,14 +565,43 @@
       "term": "empire",
       "ipa": "/ˈɛmpaɪər/",
       "respell": "EM-pyre",
-      "meaning": "A group of countries or peoples ruled by one government or emperor. ---",
+      "meaning": "Empire has 2 distinct senses.",
       "examples": [
         "The empire stretched across three continents.",
         "The war brought down the empire.",
-        "All the old empires are gone now."
+        "All the old empires are gone now.",
+        "She built a beauty empire out of her own kitchen.",
+        "The family's media empire includes four newspapers.",
+        "His restaurant empire fell apart in under a year."
       ],
-      "senses": [],
-      "русский": "империя",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of countries or peoples ruled by one government or emperor",
+          "body": [
+            "(империя)"
+          ],
+          "examples": [
+            "The empire stretched across three continents.",
+            "The war brought down the empire.",
+            "All the old empires are gone now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large group of businesses controlled by one person or company",
+          "body": [
+            "(империя (бизнес-империя))",
+            "---"
+          ],
+          "examples": [
+            "She built a beauty empire out of her own kitchen.",
+            "The family's media empire includes four newspapers.",
+            "His restaurant empire fell apart in under a year."
+          ]
+        }
+      ],
+      "русский": "империя; империя (бизнес-империя)",
       "plural": "empires",
       "countability": "countable"
     },
@@ -802,14 +933,43 @@
       "term": "veteran",
       "ipa": "/ˈvɛtərən/",
       "respell": "VET-ur-uhn",
-      "meaning": "Someone who has served in the armed forces. ---",
+      "meaning": "Veteran has 2 distinct senses.",
       "examples": [
         "My grandfather is a veteran of the Korean War.",
         "The clinic treats only veterans.",
-        "Veterans march downtown every November."
+        "Veterans march downtown every November.",
+        "She's a twenty-year veteran of the police force.",
+        "The team signed a veteran to steady the young players.",
+        "He's a veteran of three political campaigns."
       ],
-      "senses": [],
-      "русский": "ветеран (военной службы)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who has served in the armed forces",
+          "body": [
+            "(ветеран (военной службы))"
+          ],
+          "examples": [
+            "My grandfather is a veteran of the Korean War.",
+            "The clinic treats only veterans.",
+            "Veterans march downtown every November."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone with long experience in a job or activity",
+          "body": [
+            "(ветеран, опытный работник)",
+            "---"
+          ],
+          "examples": [
+            "She's a twenty-year veteran of the police force.",
+            "The team signed a veteran to steady the young players.",
+            "He's a veteran of three political campaigns."
+          ]
+        }
+      ],
+      "русский": "ветеран (военной службы); ветеран, опытный работник",
       "plural": "veterans",
       "countability": "countable",
       "contrast": "Often shortened in speech to two syllables, VET-ruhn."
@@ -895,14 +1055,58 @@
       "term": "vote",
       "ipa": "/voʊt/",
       "respell": "VOHT",
-      "meaning": "A formal choice made in an election or a meeting. ---",
+      "meaning": "Vote has 3 distinct senses.",
       "examples": [
         "The measure passed by one vote.",
         "The Senate holds a vote on Thursday.",
-        "She got more votes than the other two combined."
+        "She got more votes than the other two combined.",
+        "American women won the vote in 1920.",
+        "The bill would give sixteen-year-olds the vote.",
+        "Many citizens were denied the vote for decades.",
+        "The candidate is counting on the young vote.",
+        "The suburban vote decided the race.",
+        "He carried the rural vote easily."
       ],
-      "senses": [],
-      "русский": "голос (при голосовании); голосование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal choice made in an election or a meeting",
+          "body": [
+            "(голос (при голосовании); голосование)"
+          ],
+          "examples": [
+            "The measure passed by one vote.",
+            "The Senate holds a vote on Thursday.",
+            "She got more votes than the other two combined."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The right to take part in an election",
+          "body": [
+            "(право голоса, избирательное право)"
+          ],
+          "examples": [
+            "American women won the vote in 1920.",
+            "The bill would give sixteen-year-olds the vote.",
+            "Many citizens were denied the vote for decades."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The votes cast by one group of people, taken together",
+          "body": [
+            "(голоса (определённой группы избирателей))",
+            "---"
+          ],
+          "examples": [
+            "The candidate is counting on the young vote.",
+            "The suburban vote decided the race.",
+            "He carried the rural vote easily."
+          ]
+        }
+      ],
+      "русский": "голос (при голосовании); голосование; право голоса, избирательное право; голоса (определённой группы избирателей)",
       "plural": "votes",
       "countability": "countable"
     },
@@ -1016,14 +1220,43 @@
       "term": "caucus",
       "ipa": "/ˈkɔːkəs/",
       "respell": "KAW-kuhs",
-      "meaning": "A meeting of party members to pick candidates or agree on policy. ---",
+      "meaning": "Caucus has 2 distinct senses.",
       "examples": [
         "The caucus met for two hours behind closed doors.",
         "He came in second in the Iowa caucus.",
-        "Both caucuses endorsed the same bill."
+        "Both caucuses endorsed the same bill.",
+        "The freshman caucus pushed hard for the amendment.",
+        "She joined the bipartisan climate caucus.",
+        "Both caucuses met behind closed doors."
       ],
-      "senses": [],
-      "русский": "кокус, партийное собрание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meeting of party members to pick candidates or agree on policy",
+          "body": [
+            "(кокус, партийное собрание)"
+          ],
+          "examples": [
+            "The caucus met for two hours behind closed doors.",
+            "He came in second in the Iowa caucus.",
+            "Both caucuses endorsed the same bill."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of lawmakers who work together for a shared cause",
+          "body": [
+            "(фракция, депутатская группа)",
+            "---"
+          ],
+          "examples": [
+            "The freshman caucus pushed hard for the amendment.",
+            "She joined the bipartisan climate caucus.",
+            "Both caucuses met behind closed doors."
+          ]
+        }
+      ],
+      "русский": "кокус, партийное собрание; фракция, депутатская группа",
       "plural": "caucuses",
       "countability": "countable"
     },
@@ -1031,14 +1264,43 @@
       "term": "runoff",
       "ipa": "/ˈrʌnɔːf/",
       "respell": "RUN-awf",
-      "meaning": "A second election held between the top two candidates when no one wins outright. ---",
+      "meaning": "Runoff has 2 distinct senses.",
       "examples": [
         "Nobody got fifty percent, so there will be a runoff.",
         "She won the runoff easily.",
-        "Two runoffs are scheduled for December."
+        "Two runoffs are scheduled for December.",
+        "Fertilizer in the runoff is polluting the lake.",
+        "Spring runoff swelled the creek past its banks.",
+        "The ditch carries runoff away from the road."
       ],
-      "senses": [],
-      "русский": "второй тур выборов",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A second election held between the top two candidates when no one wins outright",
+          "body": [
+            "(второй тур выборов)"
+          ],
+          "examples": [
+            "Nobody got fifty percent, so there will be a runoff.",
+            "She won the runoff easily.",
+            "Two runoffs are scheduled for December."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Rain or melted snow that flows off the land into streams and rivers",
+          "body": [
+            "(сток, поверхностные воды)",
+            "---"
+          ],
+          "examples": [
+            "Fertilizer in the runoff is polluting the lake.",
+            "Spring runoff swelled the creek past its banks.",
+            "The ditch carries runoff away from the road."
+          ]
+        }
+      ],
+      "русский": "второй тур выборов; сток, поверхностные воды",
       "plural": "runoffs",
       "countability": "countable"
     },
@@ -1091,14 +1353,58 @@
       "term": "rally",
       "ipa": "/ˈræli/",
       "respell": "RAL-ee",
-      "meaning": "A large public meeting held to support a cause or candidate. ---",
+      "meaning": "Rally has 3 distinct senses.",
       "examples": [
         "The rally drew about five thousand people.",
         "She spoke at a rally outside the capitol.",
-        "He held three rallies in two days."
+        "He held three rallies in two days.",
+        "Stocks staged a late rally on Friday afternoon.",
+        "The rally pushed the index back above four thousand.",
+        "Analysts doubt the rally will last through the summer.",
+        "The point ended after a thirty-shot rally.",
+        "That rally brought the whole crowd to its feet.",
+        "She wins most of the long rallies."
       ],
-      "senses": [],
-      "русский": "митинг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large public meeting held to support a cause or candidate",
+          "body": [
+            "(митинг)"
+          ],
+          "examples": [
+            "The rally drew about five thousand people.",
+            "She spoke at a rally outside the capitol.",
+            "He held three rallies in two days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rise in prices after a fall, especially on the stock market",
+          "body": [
+            "(рост котировок после падения, отскок)"
+          ],
+          "examples": [
+            "Stocks staged a late rally on Friday afternoon.",
+            "The rally pushed the index back above four thousand.",
+            "Analysts doubt the rally will last through the summer."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A long exchange of shots in tennis or a similar game",
+          "body": [
+            "(розыгрыш очка, длинный обмен ударами)",
+            "---"
+          ],
+          "examples": [
+            "The point ended after a thirty-shot rally.",
+            "That rally brought the whole crowd to its feet.",
+            "She wins most of the long rallies."
+          ]
+        }
+      ],
+      "русский": "митинг; рост котировок после падения, отскок; розыгрыш очка, длинный обмен ударами",
       "plural": "rallies",
       "countability": "countable"
     },
@@ -1182,14 +1488,43 @@
       "term": "welfare",
       "ipa": "/ˈwɛlfɛr/",
       "respell": "WEL-fair",
-      "meaning": "Government money and services given to people in need. ---",
+      "meaning": "Welfare has 2 distinct senses.",
       "examples": [
         "She was on welfare for about a year.",
         "The state cut welfare spending again.",
-        "Welfare rules changed a lot in the nineties."
+        "Welfare rules changed a lot in the nineties.",
+        "The school is responsible for the welfare of its students.",
+        "Child welfare workers visited the home twice.",
+        "Animal welfare groups protested the new law."
       ],
-      "senses": [],
-      "русский": "социальное пособие; благосостояние",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Government money and services given to people in need",
+          "body": [
+            "(социальное пособие; благосостояние)"
+          ],
+          "examples": [
+            "She was on welfare for about a year.",
+            "The state cut welfare spending again.",
+            "Welfare rules changed a lot in the nineties."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The health, safety, and general well-being of a person or group",
+          "body": [
+            "(благополучие)",
+            "---"
+          ],
+          "examples": [
+            "The school is responsible for the welfare of its students.",
+            "Child welfare workers visited the home twice.",
+            "Animal welfare groups protested the new law."
+          ]
+        }
+      ],
+      "русский": "социальное пособие; благосостояние; благополучие",
       "countability": "uncountable",
       "contrast": "Uncountable: never a welfare or welfares."
     },
@@ -1537,14 +1872,43 @@
       "term": "asylum",
       "ipa": "/əˈsaɪləm/",
       "respell": "uh-SY-luhm",
-      "meaning": "Protection given by a country to someone fleeing danger at home. ---",
+      "meaning": "Asylum has 2 distinct senses.",
       "examples": [
         "He applied for asylum at the border.",
         "She was granted asylum after two years of waiting.",
-        "The rules for asylum changed again in March."
+        "The rules for asylum changed again in March.",
+        "The building was a state asylum until 1974.",
+        "In the novel she is locked away in an asylum.",
+        "Most of the old asylums were torn down."
       ],
-      "senses": [],
-      "русский": "убежище (политическое)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Protection given by a country to someone fleeing danger at home",
+          "body": [
+            "(убежище (политическое))"
+          ],
+          "examples": [
+            "He applied for asylum at the border.",
+            "She was granted asylum after two years of waiting.",
+            "The rules for asylum changed again in March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An older name for a hospital for people with mental illness",
+          "body": [
+            "(психиатрическая лечебница (устар.))",
+            "---"
+          ],
+          "examples": [
+            "The building was a state asylum until 1974.",
+            "In the novel she is locked away in an asylum.",
+            "Most of the old asylums were torn down."
+          ]
+        }
+      ],
+      "русский": "убежище (политическое); психиатрическая лечебница (устар.)",
       "countability": "uncountable"
     },
     {
@@ -1582,14 +1946,58 @@
       "term": "aid",
       "ipa": "/eɪd/",
       "respell": "AYD",
-      "meaning": "Money, food, or supplies given by a government to people or countries in need. ---",
+      "meaning": "Aid has 3 distinct senses.",
       "examples": [
         "Congress approved another billion dollars in aid.",
         "Foreign aid is a tiny share of the budget.",
-        "Aid trucks finally crossed the border."
+        "Aid trucks finally crossed the border.",
+        "She found the switch with the aid of her phone's flashlight.",
+        "A stranger came to my aid when the car broke down.",
+        "Nobody offered any aid until the police arrived.",
+        "My father finally got a hearing aid.",
+        "The teacher uses visual aids in every lesson.",
+        "A walking aid would make the stairs much safer for her."
       ],
-      "senses": [],
-      "русский": "помощь (гуманитарная, финансовая)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money, food, or supplies given by a government to people or countries in need",
+          "body": [
+            "(помощь (гуманитарная, финансовая))"
+          ],
+          "examples": [
+            "Congress approved another billion dollars in aid.",
+            "Foreign aid is a tiny share of the budget.",
+            "Aid trucks finally crossed the border."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Help or support given to someone",
+          "body": [
+            "(помощь, содействие)"
+          ],
+          "examples": [
+            "She found the switch with the aid of her phone's flashlight.",
+            "A stranger came to my aid when the car broke down.",
+            "Nobody offered any aid until the police arrived."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A device or object that helps someone do something",
+          "body": [
+            "(вспомогательное средство, приспособление)",
+            "---"
+          ],
+          "examples": [
+            "My father finally got a hearing aid.",
+            "The teacher uses visual aids in every lesson.",
+            "A walking aid would make the stairs much safer for her."
+          ]
+        }
+      ],
+      "русский": "помощь (гуманитарная, финансовая); помощь, содействие; вспомогательное средство, приспособление",
       "countability": "uncountable",
       "contrast": "Uncountable, and a homophone of aide, which is a person."
     },
@@ -1656,14 +2064,43 @@
       "term": "protest",
       "ipa": "/ˈproʊtɛst/",
       "respell": "PROH-test",
-      "meaning": "A public demonstration against something people think is wrong. ---",
+      "meaning": "Protest has 2 distinct senses.",
       "examples": [
         "The protest stayed peaceful all afternoon.",
         "A small protest formed outside the courthouse.",
-        "Protests spread to a dozen cities."
+        "Protests spread to a dozen cities.",
+        "He signed the contract under protest.",
+        "Her protests were ignored by the committee.",
+        "The lawyer entered a formal protest."
       ],
-      "senses": [],
-      "русский": "протест, акция протеста",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A public demonstration against something people think is wrong",
+          "body": [
+            "(протест, акция протеста)"
+          ],
+          "examples": [
+            "The protest stayed peaceful all afternoon.",
+            "A small protest formed outside the courthouse.",
+            "Protests spread to a dozen cities."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A statement or action showing that you object to something",
+          "body": [
+            "(протест, возражение)",
+            "---"
+          ],
+          "examples": [
+            "He signed the contract under protest.",
+            "Her protests were ignored by the committee.",
+            "The lawyer entered a formal protest."
+          ]
+        }
+      ],
+      "русский": "протест, акция протеста; протест, возражение",
       "plural": "protests",
       "countability": "countable",
       "contrast": "The noun is PROH-test; the verb protest is pruh-TEST."
@@ -1983,14 +2420,43 @@
       "term": "war",
       "ipa": "/wɔːr/",
       "respell": "WOR",
-      "meaning": "Armed fighting between countries or groups. ---",
+      "meaning": "War has 2 distinct senses.",
       "examples": [
         "The war lasted four years.",
         "Congress has not declared a war since 1942.",
-        "Both wars started over the same border."
+        "Both wars started over the same border.",
+        "The city declared war on potholes.",
+        "The war on drugs has gone on for decades.",
+        "The two chains are in a price war."
       ],
-      "senses": [],
-      "русский": "война",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Armed fighting between countries or groups",
+          "body": [
+            "(война)"
+          ],
+          "examples": [
+            "The war lasted four years.",
+            "Congress has not declared a war since 1942.",
+            "Both wars started over the same border."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long, determined campaign against something considered bad",
+          "body": [
+            "(борьба, война (с чем-л.))",
+            "---"
+          ],
+          "examples": [
+            "The city declared war on potholes.",
+            "The war on drugs has gone on for decades.",
+            "The two chains are in a price war."
+          ]
+        }
+      ],
+      "русский": "война; борьба, война (с чем-л.)",
       "plural": "wars",
       "countability": "countable"
     },
@@ -1998,14 +2464,43 @@
       "term": "flag",
       "ipa": "/flæɡ/",
       "respell": "FLAG",
-      "meaning": "A piece of cloth with a design that stands for a country or group. ---",
+      "meaning": "Flag has 2 distinct senses.",
       "examples": [
         "The flag was flying at half-staff.",
         "Every classroom has a flag on the wall.",
-        "Flags lined both sides of the street."
+        "Flags lined both sides of the street.",
+        "Missing paperwork like that is a red flag.",
+        "The system put a flag on his account.",
+        "The auditor raised several flags about the numbers."
       ],
-      "senses": [],
-      "русский": "флаг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of cloth with a design that stands for a country or group",
+          "body": [
+            "(флаг)"
+          ],
+          "examples": [
+            "The flag was flying at half-staff.",
+            "Every classroom has a flag on the wall.",
+            "Flags lined both sides of the street."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mark or warning put on something to show it needs attention",
+          "body": [
+            "(пометка, тревожный сигнал)",
+            "---"
+          ],
+          "examples": [
+            "Missing paperwork like that is a red flag.",
+            "The system put a flag on his account.",
+            "The auditor raised several flags about the numbers."
+          ]
+        }
+      ],
+      "русский": "флаг; пометка, тревожный сигнал",
       "plural": "flags",
       "countability": "countable"
     },

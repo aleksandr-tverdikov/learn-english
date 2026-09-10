@@ -157,14 +157,43 @@
       "term": "bath",
       "ipa": "/bæθ/",
       "respell": "BATH",
-      "meaning": "A wash in which you sit in a tub full of water. ---",
+      "meaning": "Bath has 2 distinct senses.",
       "examples": [
         "I took a long bath after work.",
         "Give the baby a bath before bed.",
-        "Hot baths help my back."
+        "Hot baths help my back.",
+        "The apartment has two bedrooms and one bath.",
+        "The listing says three beds and two baths.",
+        "They added a full bath upstairs."
       ],
-      "senses": [],
-      "русский": "ванна (мытьё в ванне)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wash in which you sit in a tub full of water",
+          "body": [
+            "(ванна (мытьё в ванне))"
+          ],
+          "examples": [
+            "I took a long bath after work.",
+            "Give the baby a bath before bed.",
+            "Hot baths help my back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bathroom, in the way homes are counted and described",
+          "body": [
+            "(санузел, ванная комната (в описании жилья))",
+            "---"
+          ],
+          "examples": [
+            "The apartment has two bedrooms and one bath.",
+            "The listing says three beds and two baths.",
+            "They added a full bath upstairs."
+          ]
+        }
+      ],
+      "русский": "ванна (мытьё в ванне); санузел, ванная комната (в описании жилья)",
       "plural": "baths",
       "countability": "countable",
       "contrast": "The plural baths is normally pronounced BATHZ with a voiced th; the British also say BAHTH for the singular."
@@ -1852,14 +1881,58 @@
       "term": "plaque",
       "ipa": "/plæk/",
       "respell": "PLAK",
-      "meaning": "The soft sticky film of bacteria that forms on teeth. ---",
+      "meaning": "Plaque has 3 distinct senses.",
       "examples": [
         "Brushing removes plaque before it hardens.",
         "The hygienist scraped the plaque off.",
-        "Plaque builds up along the gum line."
+        "Plaque builds up along the gum line.",
+        "A bronze plaque marks the spot where he was born.",
+        "They gave her a plaque for thirty years of service.",
+        "Plaques along the trail explain the local history.",
+        "The scan showed plaque narrowing the artery.",
+        "These drugs can slow the buildup of plaque.",
+        "Plaque in the arteries raises the risk of a heart attack."
       ],
-      "senses": [],
-      "русский": "зубной налёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft sticky film of bacteria that forms on teeth",
+          "body": [
+            "(зубной налёт)"
+          ],
+          "examples": [
+            "Brushing removes plaque before it hardens.",
+            "The hygienist scraped the plaque off.",
+            "Plaque builds up along the gum line."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat piece of metal or stone fixed to a wall with writing on it",
+          "body": [
+            "(мемориальная доска, табличка)"
+          ],
+          "examples": [
+            "A bronze plaque marks the spot where he was born.",
+            "They gave her a plaque for thirty years of service.",
+            "Plaques along the trail explain the local history."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A fatty deposit that builds up on the inside of an artery",
+          "body": [
+            "(бляшка (в артерии))",
+            "---"
+          ],
+          "examples": [
+            "The scan showed plaque narrowing the artery.",
+            "These drugs can slow the buildup of plaque.",
+            "Plaque in the arteries raises the risk of a heart attack."
+          ]
+        }
+      ],
+      "русский": "зубной налёт; мемориальная доска, табличка; бляшка (в артерии)",
       "countability": "uncountable",
       "contrast": "Spelled with a silent -que and pronounced PLAK."
     },
@@ -1881,14 +1954,43 @@
       "term": "enamel",
       "ipa": "/ɪˈnæməl/",
       "respell": "ih-NAM-uhl",
-      "meaning": "The hard white outer layer of a tooth. ---",
+      "meaning": "Enamel has 2 distinct senses.",
       "examples": [
         "Soda wears away tooth enamel.",
         "Once enamel is gone, it doesn't grow back.",
-        "The dentist said my enamel is thin."
+        "The dentist said my enamel is thin.",
+        "The enamel on the old bathtub is chipped.",
+        "She collects blue enamel camping mugs.",
+        "Enamel paint holds up well on a porch railing."
       ],
-      "senses": [],
-      "русский": "эмаль (зубная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard white outer layer of a tooth",
+          "body": [
+            "(эмаль (зубная))"
+          ],
+          "examples": [
+            "Soda wears away tooth enamel.",
+            "Once enamel is gone, it doesn't grow back.",
+            "The dentist said my enamel is thin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hard glossy coating baked onto metal or pottery",
+          "body": [
+            "(эмаль (покрытие))",
+            "---"
+          ],
+          "examples": [
+            "The enamel on the old bathtub is chipped.",
+            "She collects blue enamel camping mugs.",
+            "Enamel paint holds up well on a porch railing."
+          ]
+        }
+      ],
+      "русский": "эмаль (зубная); эмаль (покрытие)",
       "countability": "uncountable"
     },
     {
