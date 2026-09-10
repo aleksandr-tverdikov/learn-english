@@ -2272,31 +2272,19 @@
       "respell": "VAWLT",
       "meaning": "Vault has 3 distinct senses.",
       "examples": [
-        "The vault over the nave is painted blue.",
-        "Ribbed vaults let builders span wider rooms.",
-        "Water stains run down the vault.",
         "The bank keeps the gold in an underground vault.",
         "The original documents are locked in the vault.",
         "Two guards stood outside the vault all night.",
         "She scored highest on the vault.",
         "His second vault was nearly perfect.",
-        "The vault has always been her strongest event."
+        "The vault has always been her strongest event.",
+        "The vault over the nave is painted blue.",
+        "Ribbed vaults let builders span wider rooms.",
+        "Water stains run down the vault."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An arched ceiling or roof made of stone or brick",
-          "body": [
-            "(свод (потолка))"
-          ],
-          "examples": [
-            "The vault over the nave is painted blue.",
-            "Ribbed vaults let builders span wider rooms.",
-            "Water stains run down the vault."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A strong locked room where money or valuables are kept",
           "body": [
             "(хранилище, сейфовая комната)"
@@ -2308,20 +2296,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A jump over a piece of equipment in gymnastics, or the apparatus itself",
           "body": [
-            "(опорный прыжок (в гимнастике))",
-            "---"
+            "(опорный прыжок (в гимнастике))"
           ],
           "examples": [
             "She scored highest on the vault.",
             "His second vault was nearly perfect.",
             "The vault has always been her strongest event."
           ]
+        },
+        {
+          "n": "3",
+          "head": "An arched ceiling or roof made of stone or brick",
+          "body": [
+            "(свод (потолка))",
+            "---"
+          ],
+          "examples": [
+            "The vault over the nave is painted blue.",
+            "Ribbed vaults let builders span wider rooms.",
+            "Water stains run down the vault."
+          ]
         }
       ],
-      "русский": "свод (потолка); хранилище, сейфовая комната; опорный прыжок (в гимнастике)",
+      "русский": "хранилище, сейфовая комната; опорный прыжок (в гимнастике); свод (потолка)",
       "plural": "vaults",
       "countability": "countable"
     },

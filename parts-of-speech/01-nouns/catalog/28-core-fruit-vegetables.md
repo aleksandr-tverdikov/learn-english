@@ -431,36 +431,36 @@ A soft sweet fruit with many tiny seeds inside.
 ### date
 
 **Pronunciation:** /deɪt/ &middot; *DAYT*
-**Русский:** финик; дата, число; свидание; спутник, спутница (на свидании)
+**Русский:** дата, число; свидание; спутник, спутница (на свидании); финик
 **Plural:** *dates*
 **Countability:** countable
 **Contrast:** Spelled and pronounced exactly like date 'calendar day' — only context separates them.
 
 Date has 4 distinct senses.
 
-**1. A very sweet sticky brown fruit that grows on a palm tree.** (финик)
+**1. A particular day of the month or year.** (дата, число)
 
-1. *Dates* are sweet enough to use instead of sugar.
-2. She stuffed each *date* with an almond.
-3. There's a bag of *dates* in the pantry.
+1. Write today's *date* at the top of the form.
+2. We still haven't picked a *date* for the wedding.
+3. Check the *dates* on the milk before you buy it.
 
-**2. A particular day of the month or year.** (дата, число)
+**2. A social meeting arranged with someone you are romantically interested in.** (свидание)
 
-4. Write today's *date* at the top of the form.
-5. We still haven't picked a *date* for the wedding.
-6. Check the *dates* on the milk before you buy it.
+4. They met for coffee on their first *date*.
+5. He's been on three *dates* this month.
+6. Dinner and a movie is a pretty standard *date*.
 
-**3. A social meeting arranged with someone you are romantically interested in.** (свидание)
+**3. The person you take to a social event or go out with.** (спутник, спутница (на свидании))
 
-7. They met for coffee on their first *date*.
-8. He's been on three *dates* this month.
-9. Dinner and a movie is a pretty standard *date*.
+7. He brought his *date* to the office party.
+8. Her *date* showed up twenty minutes late.
+9. All the *dates* ended up talking to each other.
 
-**4. The person you take to a social event or go out with.** (спутник, спутница (на свидании))
+**4. A very sweet sticky brown fruit that grows on a palm tree.** (финик)
 
-10. He brought his *date* to the office party.
-11. Her *date* showed up twenty minutes late.
-12. All the *dates* ended up talking to each other.
+10. *Dates* are sweet enough to use instead of sugar.
+11. She stuffed each *date* with an almond.
+12. There's a bag of *dates* in the pantry.
 
 ---
 
@@ -1709,24 +1709,24 @@ Rind has 2 distinct senses.
 ### pit
 
 **Pronunciation:** /pɪt/ &middot; *PIT*
-**Русский:** косточка (плода); яма, котлован; боксы, пит-лейн (в автогонках)
+**Русский:** яма, котлован; косточка (плода); боксы, пит-лейн (в автогонках)
 **Plural:** *pits*
 **Countability:** countable
 **Contrast:** American English for the hard seed; British English says stone.
 
 Pit has 3 distinct senses.
 
-**1. The single hard seed in the middle of a peach, cherry, or similar fruit.** (косточка (плода))
+**1. A deep hole dug in the ground.** (яма, котлован)
 
-1. Watch out for the *pit* in the middle.
-2. She spit the cherry *pits* into a napkin.
-3. Remove the *pit* before you blend it.
+1. They dug a *pit* for the fire.
+2. Gravel is hauled out of the *pit* all summer.
+3. He nearly fell into an open *pit* at the construction site.
 
-**2. A deep hole dug in the ground.** (яма, котлован)
+**2. The single hard seed in the middle of a peach, cherry, or similar fruit.** (косточка (плода))
 
-4. They dug a *pit* for the fire.
-5. Gravel is hauled out of the *pit* all summer.
-6. He nearly fell into an open *pit* at the construction site.
+4. Watch out for the *pit* in the middle.
+5. She spit the cherry *pits* into a napkin.
+6. Remove the *pit* before you blend it.
 
 **3. The area beside a racetrack where cars stop for fuel and tires.** (боксы, пит-лейн (в автогонках))
 

@@ -1206,41 +1206,41 @@
       "respell": "MEN-yoo",
       "meaning": "Menu has 2 distinct senses.",
       "examples": [
-        "Open the menu in the top right corner.",
-        "The settings are buried three menus deep.",
-        "Pick Export from the File menu.",
         "Could we see the menu, please?",
         "Everything on the lunch menu is under twelve dollars.",
-        "They print new menus every season."
+        "They print new menus every season.",
+        "Open the menu in the top right corner.",
+        "The settings are buried three menus deep.",
+        "Pick Export from the File menu."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A list of choices a program shows you to pick from",
-          "body": [
-            "(меню)"
-          ],
-          "examples": [
-            "Open the menu in the top right corner.",
-            "The settings are buried three menus deep.",
-            "Pick Export from the File menu."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The list of dishes that a restaurant offers",
           "body": [
-            "(меню (в ресторане))",
-            "---"
+            "(меню (в ресторане))"
           ],
           "examples": [
             "Could we see the menu, please?",
             "Everything on the lunch menu is under twelve dollars.",
             "They print new menus every season."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A list of choices a program shows you to pick from",
+          "body": [
+            "(меню)",
+            "---"
+          ],
+          "examples": [
+            "Open the menu in the top right corner.",
+            "The settings are buried three menus deep.",
+            "Pick Export from the File menu."
+          ]
         }
       ],
-      "русский": "меню; меню (в ресторане)",
+      "русский": "меню (в ресторане); меню",
       "plural": "menus",
       "countability": "countable"
     },
@@ -1265,12 +1265,12 @@
       "respell": "SHORT-kut",
       "meaning": "Shortcut has 3 distinct senses.",
       "examples": [
-        "There's a keyboard shortcut for that.",
-        "He knows every shortcut in the program.",
-        "I made a shortcut to the folder on my desktop.",
         "We took a shortcut through the parking lot.",
         "There's no shortcut to the lake; you have to follow the road around.",
         "He knows every shortcut in the city and still got us there late.",
+        "There's a keyboard shortcut for that.",
+        "He knows every shortcut in the program.",
+        "I made a shortcut to the folder on my desktop.",
         "There are no shortcuts to learning an instrument.",
         "The contractor took shortcuts, and the deck fell apart in two years.",
         "She wanted a shortcut, but the paperwork had to be done properly."
@@ -1278,18 +1278,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A quick key combination or link that saves you steps",
-          "body": [
-            "(сочетание клавиш; ярлык)"
-          ],
-          "examples": [
-            "There's a keyboard shortcut for that.",
-            "He knows every shortcut in the program.",
-            "I made a shortcut to the folder on my desktop."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A route that is shorter or quicker than the usual one",
           "body": [
             "(короткий путь, срезка)"
@@ -1298,6 +1286,18 @@
             "We took a shortcut through the parking lot.",
             "There's no shortcut to the lake; you have to follow the road around.",
             "He knows every shortcut in the city and still got us there late."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick key combination or link that saves you steps",
+          "body": [
+            "(сочетание клавиш; ярлык)"
+          ],
+          "examples": [
+            "There's a keyboard shortcut for that.",
+            "He knows every shortcut in the program.",
+            "I made a shortcut to the folder on my desktop."
           ]
         },
         {
@@ -1314,7 +1314,7 @@
           ]
         }
       ],
-      "русский": "сочетание клавиш; ярлык; короткий путь, срезка; лёгкий путь, способ схитрить",
+      "русский": "короткий путь, срезка; сочетание клавиш; ярлык; лёгкий путь, способ схитрить",
       "plural": "shortcuts",
       "countability": "countable"
     },
@@ -1427,41 +1427,41 @@
       "respell": "KLIP-bord",
       "meaning": "Clipboard has 2 distinct senses.",
       "examples": [
-        "The link is already on your clipboard.",
-        "Phones and computers keep separate clipboards.",
-        "Copying the password put it on the clipboard.",
         "The nurse checked the chart on her clipboard.",
         "A man with a clipboard was taking everyone's name at the door.",
-        "Two clipboards hung on a nail beside the shop door."
+        "Two clipboards hung on a nail beside the shop door.",
+        "The link is already on your clipboard.",
+        "Phones and computers keep separate clipboards.",
+        "Copying the password put it on the clipboard."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The temporary place a computer keeps whatever you last copied",
-          "body": [
-            "(буфер обмена)"
-          ],
-          "examples": [
-            "The link is already on your clipboard.",
-            "Phones and computers keep separate clipboards.",
-            "Copying the password put it on the clipboard."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A stiff flat board with a clip at the top for holding papers while you write",
           "body": [
-            "(планшет с зажимом (для бумаг))",
-            "---"
+            "(планшет с зажимом (для бумаг))"
           ],
           "examples": [
             "The nurse checked the chart on her clipboard.",
             "A man with a clipboard was taking everyone's name at the door.",
             "Two clipboards hung on a nail beside the shop door."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The temporary place a computer keeps whatever you last copied",
+          "body": [
+            "(буфер обмена)",
+            "---"
+          ],
+          "examples": [
+            "The link is already on your clipboard.",
+            "Phones and computers keep separate clipboards.",
+            "Copying the password put it on the clipboard."
+          ]
         }
       ],
-      "русский": "буфер обмена; планшет с зажимом (для бумаг)",
+      "русский": "планшет с зажимом (для бумаг); буфер обмена",
       "plural": "clipboards",
       "countability": "countable"
     },
@@ -1575,15 +1575,15 @@
       "respell": "rez-uh-LOO-shun",
       "meaning": "Resolution has 4 distinct senses.",
       "examples": [
-        "Shoot it at the highest resolution you can.",
-        "The two monitors run at different resolutions.",
-        "Low resolution looks awful on a big TV.",
         "My New Year's resolution is to run three times a week.",
         "She made a resolution to call her parents every Sunday.",
         "Most resolutions are broken by February.",
         "Both sides say they want a peaceful resolution.",
         "The case dragged on for years without resolution.",
         "The company pays for conflict resolution training.",
+        "Shoot it at the highest resolution you can.",
+        "The two monitors run at different resolutions.",
+        "Low resolution looks awful on a big TV.",
         "The city council passed a resolution honoring the firefighters.",
         "The U.N. resolution demanded an immediate ceasefire.",
         "Two resolutions failed by a single vote."
@@ -1591,18 +1591,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "How much detail a screen or image holds, counted in pixels",
-          "body": [
-            "(разрешение (экрана))"
-          ],
-          "examples": [
-            "Shoot it at the highest resolution you can.",
-            "The two monitors run at different resolutions.",
-            "Low resolution looks awful on a big TV."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A firm decision to do or stop doing something",
           "body": [
             "(твёрдое решение, зарок (напр. новогодний))"
@@ -1614,7 +1602,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The solving or settling of a problem, argument, or difficult situation",
           "body": [
             "(разрешение (проблемы, конфликта))"
@@ -1623,6 +1611,18 @@
             "Both sides say they want a peaceful resolution.",
             "The case dragged on for years without resolution.",
             "The company pays for conflict resolution training."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "How much detail a screen or image holds, counted in pixels",
+          "body": [
+            "(разрешение (экрана))"
+          ],
+          "examples": [
+            "Shoot it at the highest resolution you can.",
+            "The two monitors run at different resolutions.",
+            "Low resolution looks awful on a big TV."
           ]
         },
         {
@@ -1639,7 +1639,7 @@
           ]
         }
       ],
-      "русский": "разрешение (экрана); твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); резолюция, постановление",
+      "русский": "твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); разрешение (экрана); резолюция, постановление",
       "plural": "resolutions",
       "countability": "countable"
     },
@@ -1974,12 +1974,12 @@
       "respell": "FUNK-shun",
       "meaning": "Function has 4 distinct senses.",
       "examples": [
-        "Pull that logic out into its own function.",
-        "The file has about forty functions in it.",
-        "The function returns an empty list if nothing matches.",
         "The building's original function was a grain store.",
         "Every part of the engine has a clear function.",
         "Sleep serves several functions in the body.",
+        "Pull that logic out into its own function.",
+        "The file has about forty functions in it.",
+        "The function returns an empty list if nothing matches.",
         "He had to wear a tie to a work function.",
         "The hotel hosts weddings and other functions.",
         "She skipped the department function to finish grading.",
@@ -1990,18 +1990,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A named block of code that does one job and can be reused",
-          "body": [
-            "(функция (в программировании))"
-          ],
-          "examples": [
-            "Pull that logic out into its own function.",
-            "The file has about forty functions in it.",
-            "The function returns an empty list if nothing matches."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The purpose something has or the job it is meant to do",
           "body": [
             "(назначение, роль)"
@@ -2010,6 +1998,18 @@
             "The building's original function was a grain store.",
             "Every part of the engine has a clear function.",
             "Sleep serves several functions in the body."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A named block of code that does one job and can be reused",
+          "body": [
+            "(функция (в программировании))"
+          ],
+          "examples": [
+            "Pull that logic out into its own function.",
+            "The file has about forty functions in it.",
+            "The function returns an empty list if nothing matches."
           ]
         },
         {
@@ -2038,7 +2038,7 @@
           ]
         }
       ],
-      "русский": "функция (в программировании); назначение, роль; мероприятие, приём; функция (математическая)",
+      "русский": "назначение, роль; функция (в программировании); мероприятие, приём; функция (математическая)",
       "plural": "functions",
       "countability": "countable"
     },
@@ -2048,41 +2048,41 @@
       "respell": "uh-RAY",
       "meaning": "Array has 2 distinct senses.",
       "examples": [
-        "Loop through the array and print each name.",
-        "You can nest arrays inside each other.",
-        "The array starts at index zero.",
         "The store carries a dazzling array of hot sauces.",
         "She faced an array of federal charges.",
-        "A whole array of tests came back normal."
+        "A whole array of tests came back normal.",
+        "Loop through the array and print each name.",
+        "You can nest arrays inside each other.",
+        "The array starts at index zero."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An ordered list of values stored under one name",
-          "body": [
-            "(массив)"
-          ],
-          "examples": [
-            "Loop through the array and print each name.",
-            "You can nest arrays inside each other.",
-            "The array starts at index zero."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A large and varied group of things offered or faced at once",
           "body": [
-            "(множество, широкий набор)",
-            "---"
+            "(множество, широкий набор)"
           ],
           "examples": [
             "The store carries a dazzling array of hot sauces.",
             "She faced an array of federal charges.",
             "A whole array of tests came back normal."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An ordered list of values stored under one name",
+          "body": [
+            "(массив)",
+            "---"
+          ],
+          "examples": [
+            "Loop through the array and print each name.",
+            "You can nest arrays inside each other.",
+            "The array starts at index zero."
+          ]
         }
       ],
-      "русский": "массив; множество, широкий набор",
+      "русский": "множество, широкий набор; массив",
       "plural": "arrays",
       "countability": "countable"
     },
@@ -2121,12 +2121,12 @@
       "respell": "FRAYM-wurk",
       "meaning": "Framework has 3 distinct senses.",
       "examples": [
-        "They rebuilt the site on a modern framework.",
-        "New frameworks come out every six months.",
-        "The framework handles all the routing for you.",
         "The two sides agreed on a framework for the talks.",
         "Her thesis borrows a framework from economics.",
         "The law provides a framework for handling complaints.",
+        "They rebuilt the site on a modern framework.",
+        "New frameworks come out every six months.",
+        "The framework handles all the routing for you.",
         "The steel framework of the tower went up in three weeks.",
         "Vines climbed a wooden framework along the fence.",
         "Workers welded the framework before adding the panels."
@@ -2134,18 +2134,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A ready-made structure that programs are built on top of",
-          "body": [
-            "(фреймворк, каркас)"
-          ],
-          "examples": [
-            "They rebuilt the site on a modern framework.",
-            "New frameworks come out every six months.",
-            "The framework handles all the routing for you."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A set of ideas, rules, or principles used for planning and making decisions",
           "body": [
             "(система принципов, концепция, рамки)"
@@ -2154,6 +2142,18 @@
             "The two sides agreed on a framework for the talks.",
             "Her thesis borrows a framework from economics.",
             "The law provides a framework for handling complaints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A ready-made structure that programs are built on top of",
+          "body": [
+            "(фреймворк, каркас)"
+          ],
+          "examples": [
+            "They rebuilt the site on a modern framework.",
+            "New frameworks come out every six months.",
+            "The framework handles all the routing for you."
           ]
         },
         {
@@ -2170,7 +2170,7 @@
           ]
         }
       ],
-      "русский": "фреймворк, каркас; система принципов, концепция, рамки; каркас, остов",
+      "русский": "система принципов, концепция, рамки; фреймворк, каркас; каркас, остов",
       "plural": "frameworks",
       "countability": "countable"
     },
@@ -2239,41 +2239,41 @@
       "respell": "IN-puut",
       "meaning": "Input has 2 distinct senses.",
       "examples": [
-        "The program waits for input from the keyboard.",
-        "Bad input gives you bad results.",
-        "It takes plain text as input.",
         "I'd like your input before I send the proposal.",
         "The team had no input into the final decision.",
-        "Thanks for all your input at the meeting."
+        "Thanks for all your input at the meeting.",
+        "The program waits for input from the keyboard.",
+        "Bad input gives you bad results.",
+        "It takes plain text as input."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Information put into a computer for it to work on",
-          "body": [
-            "(ввод, входные данные)"
-          ],
-          "examples": [
-            "The program waits for input from the keyboard.",
-            "Bad input gives you bad results.",
-            "It takes plain text as input."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Advice, ideas, or comments that someone contributes",
           "body": [
-            "(мнение, замечания, вклад (в обсуждение))",
-            "---"
+            "(мнение, замечания, вклад (в обсуждение))"
           ],
           "examples": [
             "I'd like your input before I send the proposal.",
             "The team had no input into the final decision.",
             "Thanks for all your input at the meeting."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Information put into a computer for it to work on",
+          "body": [
+            "(ввод, входные данные)",
+            "---"
+          ],
+          "examples": [
+            "The program waits for input from the keyboard.",
+            "Bad input gives you bad results.",
+            "It takes plain text as input."
+          ]
         }
       ],
-      "русский": "ввод, входные данные; мнение, замечания, вклад (в обсуждение)",
+      "русский": "мнение, замечания, вклад (в обсуждение); ввод, входные данные",
       "countability": "uncountable"
     },
     {
@@ -2282,41 +2282,41 @@
       "respell": "OWT-puut",
       "meaning": "Output has 2 distinct senses.",
       "examples": [
-        "Save the output to a file.",
-        "The output was full of warnings.",
-        "Compare the output against the sample.",
         "Factory output fell for the third month in a row.",
         "The dam's output is measured in megawatts.",
-        "His output as a novelist slowed after he turned sixty."
+        "His output as a novelist slowed after he turned sixty.",
+        "Save the output to a file.",
+        "The output was full of warnings.",
+        "Compare the output against the sample."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "What a computer or program produces after it processes something",
-          "body": [
-            "(вывод, выходные данные)"
-          ],
-          "examples": [
-            "Save the output to a file.",
-            "The output was full of warnings.",
-            "Compare the output against the sample."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The amount of something produced by a person, machine, or country",
           "body": [
-            "(выпуск, объём производства, продукция)",
-            "---"
+            "(выпуск, объём производства, продукция)"
           ],
           "examples": [
             "Factory output fell for the third month in a row.",
             "The dam's output is measured in megawatts.",
             "His output as a novelist slowed after he turned sixty."
           ]
+        },
+        {
+          "n": "2",
+          "head": "What a computer or program produces after it processes something",
+          "body": [
+            "(вывод, выходные данные)",
+            "---"
+          ],
+          "examples": [
+            "Save the output to a file.",
+            "The output was full of warnings.",
+            "Compare the output against the sample."
+          ]
         }
       ],
-      "русский": "вывод, выходные данные; выпуск, объём производства, продукция",
+      "русский": "выпуск, объём производства, продукция; вывод, выходные данные",
       "countability": "uncountable"
     },
     {
@@ -2325,37 +2325,37 @@
       "respell": "EH-rur",
       "meaning": "Error has 2 distinct senses.",
       "examples": [
-        "I got an error when I tried to save.",
-        "The log is full of the same errors.",
-        "The error message wasn't very helpful.",
         "I keep getting an error when I try to save.",
         "The log is full of errors.",
-        "It was a simple typing error."
+        "It was a simple typing error.",
+        "I got an error when I tried to save.",
+        "The log is full of the same errors.",
+        "The error message wasn't very helpful."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A mistake that stops a program from working correctly",
-          "body": [
-            "(ошибка)"
-          ],
-          "examples": [
-            "I got an error when I tried to save.",
-            "The log is full of the same errors.",
-            "The error message wasn't very helpful."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A mistake, or a message telling you something went wrong",
           "body": [
-            "(ошибка)",
-            "---"
+            "(ошибка)"
           ],
           "examples": [
             "I keep getting an error when I try to save.",
             "The log is full of errors.",
             "It was a simple typing error."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mistake that stops a program from working correctly",
+          "body": [
+            "(ошибка)",
+            "---"
+          ],
+          "examples": [
+            "I got an error when I tried to save.",
+            "The log is full of the same errors.",
+            "The error message wasn't very helpful."
           ]
         }
       ],
@@ -2533,12 +2533,12 @@
       "respell": "DRYVE",
       "meaning": "Drive has 4 distinct senses.",
       "examples": [
-        "Back everything up to an external drive.",
-        "The server has eight drives in it.",
-        "The drive died without any warning.",
         "It's a two-hour drive to the coast.",
         "We went for a drive along the river.",
         "The drive home took forever in the snow.",
+        "Back everything up to an external drive.",
+        "The server has eight drives in it.",
+        "The drive died without any warning.",
         "The school is holding a canned food drive.",
         "Their fundraising drive brought in half a million dollars.",
         "Blood drives are held twice a year at the church.",
@@ -2549,18 +2549,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A device that stores data, or a piece of storage the computer treats as one unit",
-          "body": [
-            "(накопитель, диск)"
-          ],
-          "examples": [
-            "Back everything up to an external drive.",
-            "The server has eight drives in it.",
-            "The drive died without any warning."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A trip in a car",
           "body": [
             "(поездка на машине)"
@@ -2569,6 +2557,18 @@
             "It's a two-hour drive to the coast.",
             "We went for a drive along the river.",
             "The drive home took forever in the snow."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that stores data, or a piece of storage the computer treats as one unit",
+          "body": [
+            "(накопитель, диск)"
+          ],
+          "examples": [
+            "Back everything up to an external drive.",
+            "The server has eight drives in it.",
+            "The drive died without any warning."
           ]
         },
         {
@@ -2597,7 +2597,7 @@
           ]
         }
       ],
-      "русский": "накопитель, диск; поездка на машине; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость",
+      "русский": "поездка на машине; накопитель, диск; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость",
       "plural": "drives",
       "countability": "countable"
     },
@@ -3174,19 +3174,31 @@
       "respell": "HUB",
       "meaning": "Hub has 3 distinct senses.",
       "examples": [
+        "Atlanta is a major airline hub.",
+        "The town has become a hub for tech startups.",
+        "The kitchen is the hub of our house.",
         "I plug everything into one hub.",
         "Cheap hubs can't supply enough power.",
         "The hub gives me four extra USB ports.",
         "The spokes run from the rim to the hub.",
         "Grease the hub before you put the wheel back on.",
-        "The bike's front hub needs new bearings.",
-        "Atlanta is a major airline hub.",
-        "The town has become a hub for tech startups.",
-        "The kitchen is the hub of our house."
+        "The bike's front hub needs new bearings."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "A central place that a lot of activity or travel passes through",
+          "body": [
+            "(центр, узел (транспортный, деловой))"
+          ],
+          "examples": [
+            "Atlanta is a major airline hub.",
+            "The town has become a hub for tech startups.",
+            "The kitchen is the hub of our house."
+          ]
+        },
+        {
+          "n": "2",
           "head": "A device that gives you several extra ports from one connection",
           "body": [
             "(хаб, разветвитель)"
@@ -3198,32 +3210,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "The center part of a wheel, which the axle passes through",
           "body": [
-            "(ступица (колеса))"
+            "(ступица (колеса))",
+            "---"
           ],
           "examples": [
             "The spokes run from the rim to the hub.",
             "Grease the hub before you put the wheel back on.",
             "The bike's front hub needs new bearings."
           ]
-        },
-        {
-          "n": "3",
-          "head": "A central place that a lot of activity or travel passes through",
-          "body": [
-            "(центр, узел (транспортный, деловой))",
-            "---"
-          ],
-          "examples": [
-            "Atlanta is a major airline hub.",
-            "The town has become a hub for tech startups.",
-            "The kitchen is the hub of our house."
-          ]
         }
       ],
-      "русский": "хаб, разветвитель; ступица (колеса); центр, узел (транспортный, деловой)",
+      "русский": "центр, узел (транспортный, деловой); хаб, разветвитель; ступица (колеса)",
       "plural": "hubs",
       "countability": "countable"
     },

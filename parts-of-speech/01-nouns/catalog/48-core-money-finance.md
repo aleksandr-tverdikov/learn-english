@@ -81,23 +81,23 @@ Currency has 2 distinct senses.
 ### change
 
 **Pronunciation:** /tʃeɪndʒ/ &middot; *CHAYNJ*
-**Русский:** сдача; мелочь; изменение, перемена
+**Русский:** изменение, перемена; сдача; мелочь
 **Countability:** uncountable
 **Contrast:** In the money sense it is uncountable — never *changes*.
 
 Change has 2 distinct senses.
 
-**1. The money returned to you after paying, or coins of small value.** (сдача; мелочь)
+**1. The act or process of becoming different.** (изменение, перемена)
 
-1. Keep the *change*.
-2. Do you have *change* for a twenty?
-3. I emptied the *change* out of my pockets.
+1. There has been a big *change* in the weather.
+2. She is ready for a *change* of scenery.
+3. The new manager made a few *changes* right away.
 
-**2. The act or process of becoming different.** (изменение, перемена)
+**2. The money returned to you after paying, or coins of small value.** (сдача; мелочь)
 
-4. There has been a big *change* in the weather.
-5. She is ready for a *change* of scenery.
-6. The new manager made a few *changes* right away.
+4. Keep the *change*.
+5. Do you have *change* for a twenty?
+6. I emptied the *change* out of my pockets.
 
 ---
 
@@ -339,23 +339,23 @@ Check has 5 distinct senses.
 ### statement
 
 **Pronunciation:** /ˈsteɪtmənt/ &middot; *STAYT-muhnt*
-**Русский:** выписка со счёта; заявление; заявление, демонстрация позиции
+**Русский:** заявление; выписка со счёта; заявление, демонстрация позиции
 **Plural:** *statements*
 **Countability:** countable
 
 Statement has 3 distinct senses.
 
-**1. A record from a bank listing the activity on an account.** (выписка со счёта)
+**1. Something said or written formally and publicly.** (заявление)
 
-1. My bank *statement* came in the mail.
-2. Go through the last three *statements*.
-3. The charge isn't on this *statement*.
+1. The company issued a *statement* denying the charges.
+2. Police released a brief *statement* Tuesday morning.
+3. She read a short *statement* and took no questions.
 
-**2. Something said or written formally and publicly.** (заявление)
+**2. A record from a bank listing the activity on an account.** (выписка со счёта)
 
-4. The company issued a *statement* denying the charges.
-5. Police released a brief *statement* Tuesday morning.
-6. She read a short *statement* and took no questions.
+4. My bank *statement* came in the mail.
+5. Go through the last three *statements*.
+6. The charge isn't on this *statement*.
 
 **3. Something done or worn in order to express an idea or attitude.** (заявление, демонстрация позиции)
 
@@ -368,23 +368,23 @@ Statement has 3 distinct senses.
 ### interest
 
 **Pronunciation:** /ˈɪntrəst/ &middot; *IN-truhst*
-**Русский:** проценты (по вкладу или кредиту); интерес, увлечение; доля, участие (в бизнесе)
+**Русский:** интерес, увлечение; проценты (по вкладу или кредиту); доля, участие (в бизнесе)
 **Countability:** uncountable
 **Contrast:** In the money sense it is uncountable — never *interests*.
 
 Interest has 3 distinct senses.
 
-**1. Money paid for the use of borrowed money, or earned on savings.** (проценты (по вкладу или кредиту))
+**1. A feeling of wanting to know about something or take part in it.** (интерес, увлечение)
 
-1. The loan carries eight percent *interest*.
-2. You'll pay a lot of *interest* over thirty years.
-3. The account earns almost no *interest*.
+1. She has had an *interest* in birds since she was a child.
+2. His main *interests* are hiking and photography.
+3. The class lost *interest* halfway through the video.
 
-**2. A feeling of wanting to know about something or take part in it.** (интерес, увлечение)
+**2. Money paid for the use of borrowed money, or earned on savings.** (проценты (по вкладу или кредиту))
 
-4. She has had an *interest* in birds since she was a child.
-5. His main *interests* are hiking and photography.
-6. The class lost *interest* halfway through the video.
+4. The loan carries eight percent *interest*.
+5. You'll pay a lot of *interest* over thirty years.
+6. The account earns almost no *interest*.
 
 **3. A legal share in a business or a piece of property.** (доля, участие (в бизнесе))
 
@@ -699,23 +699,23 @@ Bankruptcy has 2 distinct senses.
 ### default
 
 **Pronunciation:** /dɪˈfɔːlt/ &middot; *dih-FAWLT*
-**Русский:** дефолт, невыполнение обязательств; значение по умолчанию, настройка по умолчанию
+**Русский:** значение по умолчанию, настройка по умолчанию; дефолт, невыполнение обязательств
 **Plural:** *defaults*
 **Countability:** countable
 
 Default has 2 distinct senses.
 
-**1. A failure to make payments that you are legally required to make.** (дефолт, невыполнение обязательств)
+**1. The setting or option a system uses until someone changes it.** (значение по умолчанию, настройка по умолчанию)
 
-1. The country is close to *default*.
-2. A single *default* wrecks your credit.
-3. Loan *defaults* rose sharply last quarter.
+1. The browser's *default* is to block pop-ups.
+2. You can change the *default* in the settings menu.
+3. Leave it at the *default* if you are not sure.
 
-**2. The setting or option a system uses until someone changes it.** (значение по умолчанию, настройка по умолчанию)
+**2. A failure to make payments that you are legally required to make.** (дефолт, невыполнение обязательств)
 
-4. The browser's *default* is to block pop-ups.
-5. You can change the *default* in the settings menu.
-6. Leave it at the *default* if you are not sure.
+4. The country is close to *default*.
+5. A single *default* wrecks your credit.
+6. Loan *defaults* rose sharply last quarter.
 
 ---
 
@@ -841,46 +841,46 @@ The system in which company shares are bought and sold.
 ### share
 
 **Pronunciation:** /ʃɛr/ &middot; *SHAIR*
-**Русский:** акция; доля; доля, часть
+**Русский:** доля, часть; акция; доля
 **Plural:** *shares*
 **Countability:** countable
 
 Share has 2 distinct senses.
 
-**1. One of the equal parts a company's ownership is divided into.** (акция; доля)
+**1. The part of something that belongs to one person or that one person does.** (доля, часть)
 
-1. I sold half my *shares* in March.
-2. Each *share* pays a small dividend.
-3. They bought a hundred *shares* on Monday.
+1. You haven't done your *share* of the dishes.
+2. Each of the kids got an equal *share* of the money.
+3. She's had more than her *share* of bad luck.
 
-**2. The part of something that belongs to one person or that one person does.** (доля, часть)
+**2. One of the equal parts a company's ownership is divided into.** (акция; доля)
 
-4. You haven't done your *share* of the dishes.
-5. Each of the kids got an equal *share* of the money.
-6. She's had more than her *share* of bad luck.
+4. I sold half my *shares* in March.
+5. Each *share* pays a small dividend.
+6. They bought a hundred *shares* on Monday.
 
 ---
 
 ### bond
 
 **Pronunciation:** /bɑːnd/ &middot; *BAHND*
-**Русский:** облигация; связь, привязанность; залог (при освобождении до суда)
+**Русский:** связь, привязанность; облигация; залог (при освобождении до суда)
 **Plural:** *bonds*
 **Countability:** countable
 
 Bond has 3 distinct senses.
 
-**1. A certificate showing that a government or company has borrowed from you.** (облигация)
+**1. A close connection or feeling between people.** (связь, привязанность)
 
-1. Government *bonds* pay less, but they're safe.
-2. The city issued *bonds* to build the stadium.
-3. He put the money into a ten-year *bond*.
+1. There's a strong *bond* between the two sisters.
+2. Years of training created a *bond* among the crew.
+3. The *bond* between mother and child forms early.
 
-**2. A close connection or feeling between people.** (связь, привязанность)
+**2. A certificate showing that a government or company has borrowed from you.** (облигация)
 
-4. There's a strong *bond* between the two sisters.
-5. Years of training created a *bond* among the crew.
-6. The *bond* between mother and child forms early.
+4. Government *bonds* pay less, but they're safe.
+5. The city issued *bonds* to build the stadium.
+6. He put the money into a ten-year *bond*.
 
 **3. Money paid to a court so an arrested person can go free until trial.** (залог (при освобождении до суда))
 
@@ -1013,23 +1013,23 @@ Asset has 2 distinct senses.
 ### liability
 
 **Pronunciation:** /ˌlaɪəˈbɪləti/ &middot; *ly-uh-BIL-uh-tee*
-**Русский:** обязательство, пассив; ответственность (юридическая); обуза, помеха
+**Русский:** ответственность (юридическая); обязательство, пассив; обуза, помеха
 **Plural:** *liabilities*
 **Countability:** countable
 
 Liability has 3 distinct senses.
 
-**1. A debt or obligation that a person or company owes.** (обязательство, пассив)
+**1. Legal responsibility for damage, injury, or loss.** (ответственность (юридическая))
 
-1. The firm's *liabilities* exceed its assets.
-2. That old warehouse is a *liability*, not an asset.
-3. We're reviewing every *liability* on the books.
+1. The company denies any *liability* for the accident.
+2. Every contractor here has to carry *liability* insurance.
+3. The waiver limits the gym's *liability*.
 
-**2. Legal responsibility for damage, injury, or loss.** (ответственность (юридическая))
+**2. A debt or obligation that a person or company owes.** (обязательство, пассив)
 
-4. The company denies any *liability* for the accident.
-5. Every contractor here has to carry *liability* insurance.
-6. The waiver limits the gym's *liability*.
+4. The firm's *liabilities* exceed its assets.
+5. That old warehouse is a *liability*, not an asset.
+6. We're reviewing every *liability* on the books.
 
 **3. A person or thing that causes trouble or puts you at a disadvantage.** (обуза, помеха)
 
@@ -1109,23 +1109,23 @@ A pool of money set aside or invested for a particular purpose.
 ### return
 
 **Pronunciation:** /rɪˈtɜːrn/ &middot; *rih-TURN*
-**Русский:** доходность, отдача от вложений; возвращение; возврат товара; налоговая декларация
+**Русский:** возвращение; доходность, отдача от вложений; возврат товара; налоговая декларация
 **Plural:** *returns*
 **Countability:** countable
 
 Return has 4 distinct senses.
 
-**1. The profit made on money that was invested.** (доходность, отдача от вложений)
+**1. The act of coming back to a place or to an earlier condition.** (возвращение)
 
-1. The fund posted a twelve percent *return*.
-2. *Returns* have been flat for two years.
-3. You won't get that kind of *return* without risk.
+1. We celebrated his *return* from Afghanistan.
+2. Her *return* to work is set for Monday.
+3. The team's *return* to the playoffs took nine years.
 
-**2. The act of coming back to a place or to an earlier condition.** (возвращение)
+**2. The profit made on money that was invested.** (доходность, отдача от вложений)
 
-4. We celebrated his *return* from Afghanistan.
-5. Her *return* to work is set for Monday.
-6. The team's *return* to the playoffs took nine years.
+4. The fund posted a twelve percent *return*.
+5. *Returns* have been flat for two years.
+6. You won't get that kind of *return* without risk.
 
 **3. An item taken back to the store where it was bought.** (возврат товара)
 
@@ -1144,29 +1144,29 @@ Return has 4 distinct senses.
 ### risk
 
 **Pronunciation:** /rɪsk/ &middot; *RISK*
-**Русский:** риск; риск, опасность; источник опасности, угроза
+**Русский:** риск, опасность; источник опасности, угроза; риск
 **Plural:** *risks*
 **Countability:** countable
 
 Risk has 3 distinct senses.
 
-**1. The chance that an investment loses money.** (риск)
+**1. The chance that something bad will happen.** (риск, опасность)
 
-1. Every investment carries some *risk*.
-2. He took a big *risk* with that money.
-3. The *risks* are spelled out in the fine print.
+1. Smoking raises your *risk* of heart disease.
+2. There's no *risk* of frost this late in the spring.
+3. He took a *risk* and quit without another job lined up.
 
-**2. The chance that something bad will happen.** (риск, опасность)
+**2. A person or thing that could cause harm or loss.** (источник опасности, угроза)
 
-4. Smoking raises your *risk* of heart disease.
-5. There's no *risk* of frost this late in the spring.
-6. He took a *risk* and quit without another job lined up.
+4. That pile of oily rags is a fire *risk*.
+5. The bank considered him a poor credit *risk*.
+6. The loose railing is a safety *risk*.
 
-**3. A person or thing that could cause harm or loss.** (источник опасности, угроза)
+**3. The chance that an investment loses money.** (риск)
 
-7. That pile of oily rags is a fire *risk*.
-8. The bank considered him a poor credit *risk*.
-9. The loose railing is a safety *risk*.
+7. Every investment carries some *risk*.
+8. He took a big *risk* with that money.
+9. The *risks* are spelled out in the fine print.
 
 ---
 
@@ -1189,35 +1189,35 @@ The money left over after costs are subtracted from income.
 ### loss
 
 **Pronunciation:** /lɔːs/ &middot; *LAWS*
-**Русский:** убыток; поражение (в матче, игре); утрата (смерть близкого); потеря, утрата (напр. слуха)
+**Русский:** потеря, утрата (напр. слуха); убыток; поражение (в матче, игре); утрата (смерть близкого)
 **Plural:** *losses*
 **Countability:** countable
 
 Loss has 4 distinct senses.
 
-**1. Money that a business or investor fails to get back.** (убыток)
+**1. The fact of no longer having something you used to have.** (потеря, утрата (напр. слуха))
 
-1. We sold at a *loss*.
-2. The company reported *losses* for the third year running.
-3. He wrote the *loss* off on his taxes.
+1. Hearing *loss* runs in his family.
+2. The drug can cause memory *loss*.
+3. *Loss* of sleep was making her irritable.
 
-**2. A defeat in a game or contest.** (поражение (в матче, игре))
+**2. Money that a business or investor fails to get back.** (убыток)
 
-4. The team is coming off three straight *losses*.
-5. It was their first *loss* at home all season.
-6. A *loss* on Sunday would end their playoff hopes.
+4. We sold at a *loss*.
+5. The company reported *losses* for the third year running.
+6. He wrote the *loss* off on his taxes.
 
-**3. The death of someone close to you.** (утрата (смерть близкого))
+**3. A defeat in a game or contest.** (поражение (в матче, игре))
 
-7. I'm so sorry for your *loss*.
-8. The family is still grieving the *loss* of their son.
-9. The whole town felt his *loss*.
+7. The team is coming off three straight *losses*.
+8. It was their first *loss* at home all season.
+9. A *loss* on Sunday would end their playoff hopes.
 
-**4. The fact of no longer having something you used to have.** (потеря, утрата (напр. слуха))
+**4. The death of someone close to you.** (утрата (смерть близкого))
 
-10. Hearing *loss* runs in his family.
-11. The drug can cause memory *loss*.
-12. *Loss* of sleep was making her irritable.
+10. I'm so sorry for your *loss*.
+11. The family is still grieving the *loss* of their son.
+12. The whole town felt his *loss*.
 
 ---
 
@@ -1695,47 +1695,47 @@ Premium has 2 distinct senses.
 ### policy
 
 **Pronunciation:** /ˈpɑːləsi/ &middot; *PAH-luh-see*
-**Русский:** страховой полис; политика, правила (компании)
+**Русский:** политика, правила (компании); страховой полис
 **Plural:** *policies*
 **Countability:** countable
 **Contrast:** Two senses: an insurance contract, and a rule or course of action.
 
 Policy has 2 distinct senses.
 
-**1. A written insurance contract between a company and a customer.** (страховой полис)
+**1. An official rule or approach that an organization follows.** (политика, правила (компании))
 
-1. He took out a life insurance *policy*.
-2. Read the *policy* before you sign it.
-3. Both *policies* expire in March.
+1. That's against company *policy*.
+2. The new *policy* takes effect in January.
+3. They rewrote all the vacation *policies*.
 
-**2. An official rule or approach that an organization follows.** (политика, правила (компании))
+**2. A written insurance contract between a company and a customer.** (страховой полис)
 
-4. That's against company *policy*.
-5. The new *policy* takes effect in January.
-6. They rewrote all the vacation *policies*.
+4. He took out a life insurance *policy*.
+5. Read the *policy* before you sign it.
+6. Both *policies* expire in March.
 
 ---
 
 ### claim
 
 **Pronunciation:** /kleɪm/ &middot; *KLAYM*
-**Русский:** требование о страховой выплате; утверждение, заявление; право, притязание (на что-л.)
+**Русский:** утверждение, заявление; требование о страховой выплате; право, притязание (на что-л.)
 **Plural:** *claims*
 **Countability:** countable
 
 Claim has 3 distinct senses.
 
-**1. A formal request to an insurer for money you believe you are owed.** (требование о страховой выплате)
+**1. A statement that something is true, made without proof.** (утверждение, заявление)
 
-1. She filed a *claim* after the storm.
-2. The insurer denied the *claim*.
-3. *Claims* take about three weeks to process.
+1. The company's *claims* about the product were never tested.
+2. His *claim* that he was home all evening turned out to be false.
+3. She makes no *claim* to be an expert.
 
-**2. A statement that something is true, made without proof.** (утверждение, заявление)
+**2. A formal request to an insurer for money you believe you are owed.** (требование о страховой выплате)
 
-4. The company's *claims* about the product were never tested.
-5. His *claim* that he was home all evening turned out to be false.
-6. She makes no *claim* to be an expert.
+4. She filed a *claim* after the storm.
+5. The insurer denied the *claim*.
+6. *Claims* take about three weeks to process.
 
 **3. A right to have or to get something.** (право, притязание (на что-л.))
 
@@ -1906,24 +1906,24 @@ A regular payment for ongoing access to a service.
 ### estimate
 
 **Pronunciation:** /ˈɛstəmət/ &middot; *ES-tuh-mut*
-**Русский:** смета, предварительный расчёт; смета, предварительная оценка
+**Русский:** смета, предварительная оценка; смета, предварительный расчёт
 **Plural:** *estimates*
 **Countability:** countable
 **Contrast:** The noun ends in a weak ES-tuh-mut; the verb ends in a full ES-tuh-mayt.
 
 Estimate has 2 distinct senses.
 
-**1. A statement of what a job is likely to cost.** (смета, предварительный расчёт)
+**1. A rough calculation of what something will cost or how long it will take.** (смета, предварительная оценка)
 
-1. I got three *estimates* for the roof.
-2. The *estimate* came in way over budget.
-3. Their *estimate* didn't include labor.
+1. Can you give me an *estimate* by Thursday?
+2. The *estimate* came in way over what we expected.
+3. We got three *estimates* before hiring anyone.
 
-**2. A rough calculation of what something will cost or how long it will take.** (смета, предварительная оценка)
+**2. A statement of what a job is likely to cost.** (смета, предварительный расчёт)
 
-4. Can you give me an *estimate* by Thursday?
-5. The *estimate* came in way over what we expected.
-6. We got three *estimates* before hiring anyone.
+4. I got three *estimates* for the roof.
+5. The *estimate* came in way over budget.
+6. Their *estimate* didn't include labor.
 
 ---
 
@@ -2240,23 +2240,23 @@ The state of having very little money.
 ### benefit
 
 **Pronunciation:** /ˈbɛnəfɪt/ &middot; *BEN-uh-fit*
-**Русский:** льгота, пособие; польза, выгода, преимущество; благотворительное мероприятие, концерт в помощь
+**Русский:** польза, выгода, преимущество; льгота, пособие; благотворительное мероприятие, концерт в помощь
 **Plural:** *benefits*
 **Countability:** countable
 
 Benefit has 3 distinct senses.
 
-**1. Money or services given by an employer or the government beyond wages.** (льгота, пособие)
+**1. A good result or advantage that something brings.** (польза, выгода, преимущество)
 
-1. The job comes with good *benefits*.
-2. He's collecting unemployment *benefits*.
-3. Health *benefits* start after ninety days.
+1. Walking every day has real health *benefits*.
+2. The main *benefit* of the new system is speed.
+3. Neither side saw much *benefit* in another meeting.
 
-**2. A good result or advantage that something brings.** (польза, выгода, преимущество)
+**2. Money or services given by an employer or the government beyond wages.** (льгота, пособие)
 
-4. Walking every day has real health *benefits*.
-5. The main *benefit* of the new system is speed.
-6. Neither side saw much *benefit* in another meeting.
+4. The job comes with good *benefits*.
+5. He's collecting unemployment *benefits*.
+6. Health *benefits* start after ninety days.
 
 **3. An event held to raise money for a person or cause.** (благотворительное мероприятие, концерт в помощь)
 

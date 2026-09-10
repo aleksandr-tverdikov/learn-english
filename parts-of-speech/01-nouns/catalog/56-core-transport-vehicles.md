@@ -1389,23 +1389,23 @@ The part that makes an electric spark to fire the fuel in a cylinder.
 ### cylinder
 
 **Pronunciation:** /ˈsɪləndər/ &middot; *SIL-uhn-dur*
-**Русский:** цилиндр (двигателя); цилиндр
+**Русский:** цилиндр; цилиндр (двигателя)
 **Plural:** *cylinders*
 **Countability:** countable
 
 Cylinder has 3 distinct senses.
 
-**1. The tube in an engine where the piston moves and the fuel burns.** (цилиндр (двигателя))
+**1. A tube-shaped object or container with flat circular ends.** (цилиндр)
 
-1. It's a six-*cylinder* engine.
-2. One *cylinder* wasn't firing at all.
-3. The *cylinders* were rebored during the rebuild.
+1. Measure the volume in a graduated *cylinder*.
+2. The gas comes in a heavy steel *cylinder*.
+3. This engine has four *cylinders*.
 
-**2. A tube-shaped object or container with flat circular ends.** (цилиндр)
+**2. The tube in an engine where the piston moves and the fuel burns.** (цилиндр (двигателя))
 
-4. Measure the volume in a graduated *cylinder*.
-5. The gas comes in a heavy steel *cylinder*.
-6. This engine has four *cylinders*.
+4. It's a six-*cylinder* engine.
+5. One *cylinder* wasn't firing at all.
+6. The *cylinders* were rebored during the rebuild.
 
 **3. A solid shape with straight sides and two equal circular ends.** (цилиндр)
 
@@ -1479,23 +1479,23 @@ The part driven by the engine that charges the battery.
 ### starter
 
 **Pronunciation:** /ˈstɑːrtər/ &middot; *STAHR-tur*
-**Русский:** стартер; игрок стартового состава; закваска
+**Русский:** игрок стартового состава; стартер; закваска
 **Plural:** *starters*
 **Countability:** countable
 
 Starter has 3 distinct senses.
 
-**1. The small motor that turns an engine over to get it running.** (стартер)
+**1. A player who is in the lineup when a game begins.** (игрок стартового состава)
 
-1. The *starter* just clicks and nothing happens.
-2. He replaced the *starter* in the parking lot.
-3. *Starters* on these cars are hard to reach.
+1. He's been a *starter* since his sophomore year.
+2. Two *starters* were out with injuries.
+3. The coach named tonight's *starter* after practice.
 
-**2. A player who is in the lineup when a game begins.** (игрок стартового состава)
+**2. The small motor that turns an engine over to get it running.** (стартер)
 
-4. He's been a *starter* since his sophomore year.
-5. Two *starters* were out with injuries.
-6. The coach named tonight's *starter* after practice.
+4. The *starter* just clicks and nothing happens.
+5. He replaced the *starter* in the parking lot.
+6. *Starters* on these cars are hard to reach.
 
 **3. A mixture of flour and water kept alive to make bread rise.** (закваска)
 
@@ -1605,23 +1605,23 @@ The metal or plastic cover over the center of a wheel.
 ### rim
 
 **Pronunciation:** /rɪm/ &middot; *RIM*
-**Русский:** обод колеса, диск; обод, край (круглого предмета)
+**Русский:** обод, край (круглого предмета); обод колеса, диск
 **Plural:** *rims*
 **Countability:** countable
 
 Rim has 2 distinct senses.
 
-**1. The metal ring of a wheel that the tire sits on.** (обод колеса, диск)
+**1. The outer edge of something round.** (обод, край (круглого предмета))
 
-1. He bent a *rim* on a pothole.
-2. The car came with alloy *rims*.
-3. You can't drive on a bare *rim*.
+1. There is lipstick on the *rim* of the glass.
+2. The ball rolled around the *rim* and dropped in.
+3. He polished the chrome *rims* on his truck.
 
-**2. The outer edge of something round.** (обод, край (круглого предмета))
+**2. The metal ring of a wheel that the tire sits on.** (обод колеса, диск)
 
-4. There is lipstick on the *rim* of the glass.
-5. The ball rolled around the *rim* and dropped in.
-6. He polished the chrome *rims* on his truck.
+4. He bent a *rim* on a pothole.
+5. The car came with alloy *rims*.
+6. You can't drive on a bare *rim*.
 
 ---
 

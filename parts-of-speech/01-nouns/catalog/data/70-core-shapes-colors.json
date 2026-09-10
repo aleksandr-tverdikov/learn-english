@@ -544,46 +544,22 @@
       "respell": "POYNT",
       "meaning": "Point has 4 distinct senses.",
       "examples": [
-        "Mark the point where the two lines cross.",
-        "The pencil has a very sharp point.",
-        "Connect the points with a ruler.",
-        "The Lakers won by three points.",
-        "She lost a point for turning the paper in late.",
-        "Each correct answer is worth two points.",
         "I don't see the point of arguing about it.",
         "Get to the point — we only have ten minutes.",
         "That's a fair point, but the numbers say otherwise.",
         "At that point I decided to quit.",
         "We reached a point where nobody trusted anyone.",
-        "There's no turning back at this point."
+        "There's no turning back at this point.",
+        "The Lakers won by three points.",
+        "She lost a point for turning the paper in late.",
+        "Each correct answer is worth two points.",
+        "Mark the point where the two lines cross.",
+        "The pencil has a very sharp point.",
+        "Connect the points with a ruler."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An exact spot, or the sharp end of something",
-          "body": [
-            "(точка; острый конец)"
-          ],
-          "examples": [
-            "Mark the point where the two lines cross.",
-            "The pencil has a very sharp point.",
-            "Connect the points with a ruler."
-          ]
-        },
-        {
-          "n": "2",
-          "head": "A unit of scoring in a game, contest, or grading system",
-          "body": [
-            "(очко, балл)"
-          ],
-          "examples": [
-            "The Lakers won by three points.",
-            "She lost a point for turning the paper in late.",
-            "Each correct answer is worth two points."
-          ]
-        },
-        {
-          "n": "3",
           "head": "The main idea or purpose of what someone says or does",
           "body": [
             "(суть, смысл)"
@@ -595,20 +571,44 @@
           ]
         },
         {
-          "n": "4",
+          "n": "2",
           "head": "A particular moment or stage in a process",
           "body": [
-            "(момент, этап)",
-            "---"
+            "(момент, этап)"
           ],
           "examples": [
             "At that point I decided to quit.",
             "We reached a point where nobody trusted anyone.",
             "There's no turning back at this point."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A unit of scoring in a game, contest, or grading system",
+          "body": [
+            "(очко, балл)"
+          ],
+          "examples": [
+            "The Lakers won by three points.",
+            "She lost a point for turning the paper in late.",
+            "Each correct answer is worth two points."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An exact spot, or the sharp end of something",
+          "body": [
+            "(точка; острый конец)",
+            "---"
+          ],
+          "examples": [
+            "Mark the point where the two lines cross.",
+            "The pencil has a very sharp point.",
+            "Connect the points with a ruler."
+          ]
         }
       ],
-      "русский": "точка; острый конец; очко, балл; суть, смысл; момент, этап",
+      "русский": "суть, смысл; момент, этап; очко, балл; точка; острый конец",
       "plural": "points",
       "countability": "countable"
     },
@@ -1787,31 +1787,19 @@
       "respell": "dih-ZYNE",
       "meaning": "Design has 3 distinct senses.",
       "examples": [
-        "The rug has a simple geometric design.",
-        "She painted a design on the mailbox.",
-        "The mugs come in four designs.",
         "The design for the new bridge is on display at city hall.",
         "Engineers changed the design after the crash tests.",
         "Several designs were submitted for the memorial.",
         "She studied graphic design in college.",
         "Good design makes the app easy to use.",
-        "The company is known for careful design."
+        "The company is known for careful design.",
+        "The rug has a simple geometric design.",
+        "She painted a design on the mailbox.",
+        "The mugs come in four designs."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A pattern or arrangement of lines and shapes made for decoration",
-          "body": [
-            "(узор, рисунок; дизайн)"
-          ],
-          "examples": [
-            "The rug has a simple geometric design.",
-            "She painted a design on the mailbox.",
-            "The mugs come in four designs."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A plan or drawing showing how something will be made or how it works",
           "body": [
             "(проект, чертёж, конструкция)"
@@ -1823,20 +1811,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The work of deciding how something will look and function",
           "body": [
-            "(дизайн (как область деятельности))",
-            "---"
+            "(дизайн (как область деятельности))"
           ],
           "examples": [
             "She studied graphic design in college.",
             "Good design makes the app easy to use.",
             "The company is known for careful design."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A pattern or arrangement of lines and shapes made for decoration",
+          "body": [
+            "(узор, рисунок; дизайн)",
+            "---"
+          ],
+          "examples": [
+            "The rug has a simple geometric design.",
+            "She painted a design on the mailbox.",
+            "The mugs come in four designs."
+          ]
         }
       ],
-      "русский": "узор, рисунок; дизайн; проект, чертёж, конструкция; дизайн (как область деятельности)",
+      "русский": "проект, чертёж, конструкция; дизайн (как область деятельности); узор, рисунок; дизайн",
       "plural": "designs",
       "countability": "countable",
       "contrast": "The g is silent: dih-ZYNE, never dih-ZIG-n."
@@ -2364,41 +2364,41 @@
       "respell": "AH-liv",
       "meaning": "Olive has 2 distinct senses.",
       "examples": [
-        "The jacket comes in black or olive.",
-        "The walls were painted a muddy olive.",
-        "Olive was everywhere in military clothing.",
         "I ordered the salad with extra olives.",
         "He dropped an olive into his martini.",
-        "These green olives are stuffed with garlic."
+        "These green olives are stuffed with garlic.",
+        "The jacket comes in black or olive.",
+        "The walls were painted a muddy olive.",
+        "Olive was everywhere in military clothing."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A dull yellowish green",
-          "body": [
-            "(оливковый цвет)"
-          ],
-          "examples": [
-            "The jacket comes in black or olive.",
-            "The walls were painted a muddy olive.",
-            "Olive was everywhere in military clothing."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small oval fruit with a pit, eaten salted or pressed for oil",
           "body": [
-            "(олива, маслина)",
-            "---"
+            "(олива, маслина)"
           ],
           "examples": [
             "I ordered the salad with extra olives.",
             "He dropped an olive into his martini.",
             "These green olives are stuffed with garlic."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A dull yellowish green",
+          "body": [
+            "(оливковый цвет)",
+            "---"
+          ],
+          "examples": [
+            "The jacket comes in black or olive.",
+            "The walls were painted a muddy olive.",
+            "Olive was everywhere in military clothing."
+          ]
         }
       ],
-      "русский": "оливковый цвет; олива, маслина",
+      "русский": "олива, маслина; оливковый цвет",
       "countability": "uncountable"
     },
     {
@@ -2526,12 +2526,12 @@
       "respell": "TOHN",
       "meaning": "Tone has 3 distinct senses.",
       "examples": [
-        "The room is done in warm earth tones.",
-        "Pick a tone that matches your skin.",
-        "The photo has a bluish tone.",
         "Don't take that tone with me.",
         "Her email had a friendly tone.",
         "He apologized in a serious tone.",
+        "The room is done in warm earth tones.",
+        "Pick a tone that matches your skin.",
+        "The photo has a bluish tone.",
         "Please leave your message after the tone.",
         "There was no dial tone when I picked up the phone.",
         "The elevator gives a soft tone at each floor."
@@ -2539,18 +2539,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A shade of a color, especially how light or dark it is",
-          "body": [
-            "(тон (цвета))"
-          ],
-          "examples": [
-            "The room is done in warm earth tones.",
-            "Pick a tone that matches your skin.",
-            "The photo has a bluish tone."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The quality of a voice or piece of writing that shows the speaker's feeling or attitude",
           "body": [
             "(тон (интонация, манера))"
@@ -2559,6 +2547,18 @@
             "Don't take that tone with me.",
             "Her email had a friendly tone.",
             "He apologized in a serious tone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shade of a color, especially how light or dark it is",
+          "body": [
+            "(тон (цвета))"
+          ],
+          "examples": [
+            "The room is done in warm earth tones.",
+            "Pick a tone that matches your skin.",
+            "The photo has a bluish tone."
           ]
         },
         {
@@ -2575,7 +2575,7 @@
           ]
         }
       ],
-      "русский": "тон (цвета); тон (интонация, манера); сигнал, гудок",
+      "русский": "тон (интонация, манера); тон (цвета); сигнал, гудок",
       "plural": "tones",
       "countability": "countable"
     },
@@ -2932,12 +2932,12 @@
       "respell": "LUUK",
       "meaning": "Look has 3 distinct senses.",
       "examples": [
-        "She has a very natural look.",
-        "White paint gave the room a fresh look.",
-        "The band tried out several different looks.",
         "Take a look at this photo.",
         "One look at the sky and we canceled the picnic.",
         "The mechanic had a quick look under the hood.",
+        "She has a very natural look.",
+        "White paint gave the room a fresh look.",
+        "The band tried out several different looks.",
         "She gave me a look that ended the conversation.",
         "There was a worried look on his face.",
         "I know that look — you forgot again, didn't you?"
@@ -2945,18 +2945,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The particular appearance or style of a person or thing",
-          "body": [
-            "(вид, внешность, образ)"
-          ],
-          "examples": [
-            "She has a very natural look.",
-            "White paint gave the room a fresh look.",
-            "The band tried out several different looks."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An act of looking at something",
           "body": [
             "(взгляд, беглый осмотр)"
@@ -2965,6 +2953,18 @@
             "Take a look at this photo.",
             "One look at the sky and we canceled the picnic.",
             "The mechanic had a quick look under the hood."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The particular appearance or style of a person or thing",
+          "body": [
+            "(вид, внешность, образ)"
+          ],
+          "examples": [
+            "She has a very natural look.",
+            "White paint gave the room a fresh look.",
+            "The band tried out several different looks."
           ]
         },
         {
@@ -2981,7 +2981,7 @@
           ]
         }
       ],
-      "русский": "вид, внешность, образ; взгляд, беглый осмотр; выражение лица, взгляд",
+      "русский": "взгляд, беглый осмотр; вид, внешность, образ; выражение лица, взгляд",
       "plural": "looks",
       "countability": "countable"
     },

@@ -377,35 +377,35 @@ A very small round mark.
 ### point
 
 **Pronunciation:** /pɔɪnt/ &middot; *POYNT*
-**Русский:** точка; острый конец; очко, балл; суть, смысл; момент, этап
+**Русский:** суть, смысл; момент, этап; очко, балл; точка; острый конец
 **Plural:** *points*
 **Countability:** countable
 
 Point has 4 distinct senses.
 
-**1. An exact spot, or the sharp end of something.** (точка; острый конец)
+**1. The main idea or purpose of what someone says or does.** (суть, смысл)
 
-1. Mark the *point* where the two lines cross.
-2. The pencil has a very sharp *point*.
-3. Connect the *points* with a ruler.
+1. I don't see the *point* of arguing about it.
+2. Get to the *point* — we only have ten minutes.
+3. That's a fair *point*, but the numbers say otherwise.
 
-**2. A unit of scoring in a game, contest, or grading system.** (очко, балл)
+**2. A particular moment or stage in a process.** (момент, этап)
 
-4. The Lakers won by three *points*.
-5. She lost a *point* for turning the paper in late.
-6. Each correct answer is worth two *points*.
+4. At that *point* I decided to quit.
+5. We reached a *point* where nobody trusted anyone.
+6. There's no turning back at this *point*.
 
-**3. The main idea or purpose of what someone says or does.** (суть, смысл)
+**3. A unit of scoring in a game, contest, or grading system.** (очко, балл)
 
-7. I don't see the *point* of arguing about it.
-8. Get to the *point* — we only have ten minutes.
-9. That's a fair *point*, but the numbers say otherwise.
+7. The Lakers won by three *points*.
+8. She lost a *point* for turning the paper in late.
+9. Each correct answer is worth two *points*.
 
-**4. A particular moment or stage in a process.** (момент, этап)
+**4. An exact spot, or the sharp end of something.** (точка; острый конец)
 
-10. At that *point* I decided to quit.
-11. We reached a *point* where nobody trusted anyone.
-12. There's no turning back at this *point*.
+10. Mark the *point* where the two lines cross.
+11. The pencil has a very sharp *point*.
+12. Connect the *points* with a ruler.
 
 ---
 
@@ -1080,30 +1080,30 @@ Gradient has 2 distinct senses.
 ### design
 
 **Pronunciation:** /dɪˈzaɪn/ &middot; *dih-ZYNE*
-**Русский:** узор, рисунок; дизайн; проект, чертёж, конструкция; дизайн (как область деятельности)
+**Русский:** проект, чертёж, конструкция; дизайн (как область деятельности); узор, рисунок; дизайн
 **Plural:** *designs*
 **Countability:** countable
 **Contrast:** The g is silent: dih-ZYNE, never dih-ZIG-n.
 
 Design has 3 distinct senses.
 
-**1. A pattern or arrangement of lines and shapes made for decoration.** (узор, рисунок; дизайн)
+**1. A plan or drawing showing how something will be made or how it works.** (проект, чертёж, конструкция)
 
-1. The rug has a simple geometric *design*.
-2. She painted a *design* on the mailbox.
-3. The mugs come in four *designs*.
+1. The *design* for the new bridge is on display at city hall.
+2. Engineers changed the *design* after the crash tests.
+3. Several *designs* were submitted for the memorial.
 
-**2. A plan or drawing showing how something will be made or how it works.** (проект, чертёж, конструкция)
+**2. The work of deciding how something will look and function.** (дизайн (как область деятельности))
 
-4. The *design* for the new bridge is on display at city hall.
-5. Engineers changed the *design* after the crash tests.
-6. Several *designs* were submitted for the memorial.
+4. She studied graphic *design* in college.
+5. Good *design* makes the app easy to use.
+6. The company is known for careful *design*.
 
-**3. The work of deciding how something will look and function.** (дизайн (как область деятельности))
+**3. A pattern or arrangement of lines and shapes made for decoration.** (узор, рисунок; дизайн)
 
-7. She studied graphic *design* in college.
-8. Good *design* makes the app easy to use.
-9. The company is known for careful *design*.
+7. The rug has a simple geometric *design*.
+8. She painted a *design* on the mailbox.
+9. The mugs come in four *designs*.
 
 ---
 
@@ -1465,22 +1465,22 @@ Indigo has 2 distinct senses.
 ### olive
 
 **Pronunciation:** /ˈɑːlɪv/ &middot; *AH-liv*
-**Русский:** оливковый цвет; олива, маслина
+**Русский:** олива, маслина; оливковый цвет
 **Countability:** uncountable
 
 Olive has 2 distinct senses.
 
-**1. A dull yellowish green.** (оливковый цвет)
+**1. A small oval fruit with a pit, eaten salted or pressed for oil.** (олива, маслина)
 
-1. The jacket comes in black or *olive*.
-2. The walls were painted a muddy *olive*.
-3. *Olive* was everywhere in military clothing.
+1. I ordered the salad with extra *olives*.
+2. He dropped an *olive* into his martini.
+3. These green *olives* are stuffed with garlic.
 
-**2. A small oval fruit with a pit, eaten salted or pressed for oil.** (олива, маслина)
+**2. A dull yellowish green.** (оливковый цвет)
 
-4. I ordered the salad with extra *olives*.
-5. He dropped an *olive* into his martini.
-6. These green *olives* are stuffed with garlic.
+4. The jacket comes in black or *olive*.
+5. The walls were painted a muddy *olive*.
+6. *Olive* was everywhere in military clothing.
 
 ---
 
@@ -1585,23 +1585,23 @@ A small amount of a color added to something, making it lighter.
 ### tone
 
 **Pronunciation:** /toʊn/ &middot; *TOHN*
-**Русский:** тон (цвета); тон (интонация, манера); сигнал, гудок
+**Русский:** тон (интонация, манера); тон (цвета); сигнал, гудок
 **Plural:** *tones*
 **Countability:** countable
 
 Tone has 3 distinct senses.
 
-**1. A shade of a color, especially how light or dark it is.** (тон (цвета))
+**1. The quality of a voice or piece of writing that shows the speaker's feeling or attitude.** (тон (интонация, манера))
 
-1. The room is done in warm earth *tones*.
-2. Pick a *tone* that matches your skin.
-3. The photo has a bluish *tone*.
+1. Don't take that *tone* with me.
+2. Her email had a friendly *tone*.
+3. He apologized in a serious *tone*.
 
-**2. The quality of a voice or piece of writing that shows the speaker's feeling or attitude.** (тон (интонация, манера))
+**2. A shade of a color, especially how light or dark it is.** (тон (цвета))
 
-4. Don't take that *tone* with me.
-5. Her email had a friendly *tone*.
-6. He apologized in a serious *tone*.
+4. The room is done in warm earth *tones*.
+5. Pick a *tone* that matches your skin.
+6. The photo has a bluish *tone*.
 
 **3. A single electronic sound, such as the beep before you leave a message.** (сигнал, гудок)
 
@@ -1847,23 +1847,23 @@ Appearance has 3 distinct senses.
 ### look
 
 **Pronunciation:** /lʊk/ &middot; *LUUK*
-**Русский:** вид, внешность, образ; взгляд, беглый осмотр; выражение лица, взгляд
+**Русский:** взгляд, беглый осмотр; вид, внешность, образ; выражение лица, взгляд
 **Plural:** *looks*
 **Countability:** countable
 
 Look has 3 distinct senses.
 
-**1. The particular appearance or style of a person or thing.** (вид, внешность, образ)
+**1. An act of looking at something.** (взгляд, беглый осмотр)
 
-1. She has a very natural *look*.
-2. White paint gave the room a fresh *look*.
-3. The band tried out several different *looks*.
+1. Take a *look* at this photo.
+2. One *look* at the sky and we canceled the picnic.
+3. The mechanic had a quick *look* under the hood.
 
-**2. An act of looking at something.** (взгляд, беглый осмотр)
+**2. The particular appearance or style of a person or thing.** (вид, внешность, образ)
 
-4. Take a *look* at this photo.
-5. One *look* at the sky and we canceled the picnic.
-6. The mechanic had a quick *look* under the hood.
+4. She has a very natural *look*.
+5. White paint gave the room a fresh *look*.
+6. The band tried out several different *looks*.
 
 **3. An expression on someone's face.** (выражение лица, взгляд)
 

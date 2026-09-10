@@ -634,41 +634,41 @@
       "respell": "FLUKS",
       "meaning": "Flux has 2 distinct senses.",
       "examples": [
-        "Brush flux on both ends before you heat the joint.",
-        "Too much flux just makes a mess.",
-        "Wipe the leftover flux off with a rag.",
         "The schedule is still in flux.",
         "The whole industry is in a state of flux.",
-        "Prices have been in flux all year."
+        "Prices have been in flux all year.",
+        "Brush flux on both ends before you heat the joint.",
+        "Too much flux just makes a mess.",
+        "Wipe the leftover flux off with a rag."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A paste brushed on metal so that solder will flow and stick",
-          "body": [
-            "(флюс (для пайки))"
-          ],
-          "examples": [
-            "Brush flux on both ends before you heat the joint.",
-            "Too much flux just makes a mess.",
-            "Wipe the leftover flux off with a rag."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A state of constant change",
           "body": [
-            "(постоянные изменения, неустойчивость)",
-            "---"
+            "(постоянные изменения, неустойчивость)"
           ],
           "examples": [
             "The schedule is still in flux.",
             "The whole industry is in a state of flux.",
             "Prices have been in flux all year."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A paste brushed on metal so that solder will flow and stick",
+          "body": [
+            "(флюс (для пайки))",
+            "---"
+          ],
+          "examples": [
+            "Brush flux on both ends before you heat the joint.",
+            "Too much flux just makes a mess.",
+            "Wipe the leftover flux off with a rag."
+          ]
         }
       ],
-      "русский": "флюс (для пайки); постоянные изменения, неустойчивость",
+      "русский": "постоянные изменения, неустойчивость; флюс (для пайки)",
       "countability": "uncountable"
     },
     {
@@ -1063,41 +1063,41 @@
       "respell": "DAM-pur",
       "meaning": "Damper has 2 distinct senses.",
       "examples": [
-        "Close the damper when the fireplace isn't in use.",
-        "Somebody shut the damper in the upstairs duct.",
-        "The dampers are adjusted twice a year.",
         "The rain put a damper on the picnic.",
         "His mood was a damper on the whole evening.",
-        "Bad news from the bank was a damper on their plans."
+        "Bad news from the bank was a damper on their plans.",
+        "Close the damper when the fireplace isn't in use.",
+        "Somebody shut the damper in the upstairs duct.",
+        "The dampers are adjusted twice a year."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A movable plate inside a duct or flue that controls how much air passes",
-          "body": [
-            "(заслонка, шибер)"
-          ],
-          "examples": [
-            "Close the damper when the fireplace isn't in use.",
-            "Somebody shut the damper in the upstairs duct.",
-            "The dampers are adjusted twice a year."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something that spoils enjoyment or cools enthusiasm",
           "body": [
-            "(то, что портит настроение; охлаждающий фактор)",
-            "---"
+            "(то, что портит настроение; охлаждающий фактор)"
           ],
           "examples": [
             "The rain put a damper on the picnic.",
             "His mood was a damper on the whole evening.",
             "Bad news from the bank was a damper on their plans."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A movable plate inside a duct or flue that controls how much air passes",
+          "body": [
+            "(заслонка, шибер)",
+            "---"
+          ],
+          "examples": [
+            "Close the damper when the fireplace isn't in use.",
+            "Somebody shut the damper in the upstairs duct.",
+            "The dampers are adjusted twice a year."
+          ]
         }
       ],
-      "русский": "заслонка, шибер; то, что портит настроение; охлаждающий фактор",
+      "русский": "то, что портит настроение; охлаждающий фактор; заслонка, шибер",
       "plural": "dampers",
       "countability": "countable"
     },

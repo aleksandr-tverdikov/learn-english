@@ -2074,41 +2074,41 @@
       "respell": "SHUT-down",
       "meaning": "Shutdown has 2 distinct senses.",
       "examples": [
-        "The shutdown lasted thirty-five days.",
-        "Museums close during a government shutdown.",
-        "Two shutdowns happened in the same year.",
         "The refinery is in a two-week shutdown for maintenance.",
         "A safety sensor triggered an emergency shutdown of the reactor.",
-        "The plant shutdown put three hundred people out of work."
+        "The plant shutdown put three hundred people out of work.",
+        "The shutdown lasted thirty-five days.",
+        "Museums close during a government shutdown.",
+        "Two shutdowns happened in the same year."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A period when a government stops most work because no budget has been approved",
-          "body": [
-            "(приостановка работы (правительства))"
-          ],
-          "examples": [
-            "The shutdown lasted thirty-five days.",
-            "Museums close during a government shutdown.",
-            "Two shutdowns happened in the same year."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The stopping of a machine, plant, or system, either for repairs or for good",
           "body": [
-            "(остановка (завода, оборудования), отключение)",
-            "---"
+            "(остановка (завода, оборудования), отключение)"
           ],
           "examples": [
             "The refinery is in a two-week shutdown for maintenance.",
             "A safety sensor triggered an emergency shutdown of the reactor.",
             "The plant shutdown put three hundred people out of work."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A period when a government stops most work because no budget has been approved",
+          "body": [
+            "(приостановка работы (правительства))",
+            "---"
+          ],
+          "examples": [
+            "The shutdown lasted thirty-five days.",
+            "Museums close during a government shutdown.",
+            "Two shutdowns happened in the same year."
+          ]
         }
       ],
-      "русский": "приостановка работы (правительства); остановка (завода, оборудования), отключение",
+      "русский": "остановка (завода, оборудования), отключение; приостановка работы (правительства)",
       "plural": "shutdowns",
       "countability": "countable"
     },
@@ -2443,12 +2443,12 @@
       "respell": "AYD",
       "meaning": "Aid has 3 distinct senses.",
       "examples": [
-        "Congress approved another billion dollars in aid.",
-        "Foreign aid is a tiny share of the budget.",
-        "Aid trucks finally crossed the border.",
         "She found the switch with the aid of her phone's flashlight.",
         "A stranger came to my aid when the car broke down.",
         "Nobody offered any aid until the police arrived.",
+        "Congress approved another billion dollars in aid.",
+        "Foreign aid is a tiny share of the budget.",
+        "Aid trucks finally crossed the border.",
         "My father finally got a hearing aid.",
         "The teacher uses visual aids in every lesson.",
         "A walking aid would make the stairs much safer for her."
@@ -2456,18 +2456,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "Money, food, or supplies given by a government to people or countries in need",
-          "body": [
-            "(помощь (гуманитарная, финансовая))"
-          ],
-          "examples": [
-            "Congress approved another billion dollars in aid.",
-            "Foreign aid is a tiny share of the budget.",
-            "Aid trucks finally crossed the border."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Help or support given to someone",
           "body": [
             "(помощь, содействие)"
@@ -2476,6 +2464,18 @@
             "She found the switch with the aid of her phone's flashlight.",
             "A stranger came to my aid when the car broke down.",
             "Nobody offered any aid until the police arrived."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money, food, or supplies given by a government to people or countries in need",
+          "body": [
+            "(помощь (гуманитарная, финансовая))"
+          ],
+          "examples": [
+            "Congress approved another billion dollars in aid.",
+            "Foreign aid is a tiny share of the budget.",
+            "Aid trucks finally crossed the border."
           ]
         },
         {
@@ -2492,7 +2492,7 @@
           ]
         }
       ],
-      "русский": "помощь (гуманитарная, финансовая); помощь, содействие; вспомогательное средство, приспособление",
+      "русский": "помощь, содействие; помощь (гуманитарная, финансовая); вспомогательное средство, приспособление",
       "countability": "uncountable",
       "contrast": "Uncountable, and a homophone of aide, which is a person."
     },
@@ -2872,41 +2872,41 @@
       "respell": "ah-puh-ZISH-uhn",
       "meaning": "Opposition has 2 distinct senses.",
       "examples": [
-        "The opposition walked out of the vote.",
-        "There is strong opposition to the plan in rural areas.",
-        "Leaders of the opposition were arrested.",
         "The proposal met fierce opposition from neighbors.",
         "There's growing opposition to the new tax.",
-        "The bill passed despite opposition from both parties."
+        "The bill passed despite opposition from both parties.",
+        "The opposition walked out of the vote.",
+        "There is strong opposition to the plan in rural areas.",
+        "Leaders of the opposition were arrested."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The political parties or groups that are against the government in power",
-          "body": [
-            "(оппозиция; противодействие)"
-          ],
-          "examples": [
-            "The opposition walked out of the vote.",
-            "There is strong opposition to the plan in rural areas.",
-            "Leaders of the opposition were arrested."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Strong disagreement with a plan or idea, and the effort to stop it",
           "body": [
-            "(сопротивление, противодействие)",
-            "---"
+            "(сопротивление, противодействие)"
           ],
           "examples": [
             "The proposal met fierce opposition from neighbors.",
             "There's growing opposition to the new tax.",
             "The bill passed despite opposition from both parties."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The political parties or groups that are against the government in power",
+          "body": [
+            "(оппозиция; противодействие)",
+            "---"
+          ],
+          "examples": [
+            "The opposition walked out of the vote.",
+            "There is strong opposition to the plan in rural areas.",
+            "Leaders of the opposition were arrested."
+          ]
         }
       ],
-      "русский": "оппозиция; противодействие; сопротивление, противодействие",
+      "русский": "сопротивление, противодействие; оппозиция; противодействие",
       "countability": "uncountable"
     },
     {

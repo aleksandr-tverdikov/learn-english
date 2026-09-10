@@ -54,22 +54,22 @@ Motion has 3 distinct senses.
 ### momentum
 
 **Pronunciation:** /moʊˈmɛntəm/ &middot; *moh-MEN-tuhm*
-**Русский:** импульс (количество движения); набранный ход, динамика, инерция (процесса)
+**Русский:** набранный ход, динамика, инерция (процесса); импульс (количество движения)
 **Countability:** uncountable
 
 Momentum has 2 distinct senses.
 
-**1. The force a moving object has because of its mass and its speed.** (импульс (количество движения))
+**1. The growing strength that a process or campaign builds up as it goes on.** (набранный ход, динамика, инерция (процесса))
 
-1. A truck has far more *momentum* than a bicycle.
-2. The sled lost *momentum* on the flat ground.
-3. In a collision, the total *momentum* stays the same.
+1. The campaign gained *momentum* after the debate.
+2. We lost all our *momentum* when the funding dried up.
+3. The bill has real *momentum* in the Senate now.
 
-**2. The growing strength that a process or campaign builds up as it goes on.** (набранный ход, динамика, инерция (процесса))
+**2. The force a moving object has because of its mass and its speed.** (импульс (количество движения))
 
-4. The campaign gained *momentum* after the debate.
-5. We lost all our *momentum* when the funding dried up.
-6. The bill has real *momentum* in the Senate now.
+4. A truck has far more *momentum* than a bicycle.
+5. The sled lost *momentum* on the flat ground.
+6. In a collision, the total *momentum* stays the same.
 
 ---
 
@@ -120,22 +120,22 @@ Inertia has 2 distinct senses.
 ### tension
 
 **Pronunciation:** /ˈtɛnʃən/ &middot; *TEN-shuhn*
-**Русский:** натяжение; напряжение, напряжённость
+**Русский:** напряжение, напряжённость; натяжение
 **Countability:** uncountable
 
 Tension has 2 distinct senses.
 
-**1. The pulling force in a stretched rope, wire, or spring.** (натяжение)
+**1. Strain in a person or between people.** (напряжение, напряжённость)
 
-1. The cable snapped under the *tension*.
-2. Adjust the *tension* on the belt before you start the motor.
-3. *Tension* in the string keeps the weight from falling.
+1. You could feel the *tension* in the room.
+2. There has been *tension* between the two departments for years.
+3. A walk usually gets rid of the *tension* in my shoulders.
 
-**2. Strain in a person or between people.** (напряжение, напряжённость)
+**2. The pulling force in a stretched rope, wire, or spring.** (натяжение)
 
-4. You could feel the *tension* in the room.
-5. There has been *tension* between the two departments for years.
-6. A walk usually gets rid of the *tension* in my shoulders.
+4. The cable snapped under the *tension*.
+5. Adjust the *tension* on the belt before you start the motor.
+6. *Tension* in the string keeps the weight from falling.
 
 ---
 
@@ -552,28 +552,28 @@ A device that produces a narrow, very bright beam of light.
 ### matter
 
 **Pronunciation:** /ˈmætər/ &middot; *MAT-ur*
-**Русский:** вещество, материя; дело, вопрос; проблема, беда (что случилось)
+**Русский:** дело, вопрос; проблема, беда (что случилось); вещество, материя
 **Countability:** uncountable
 
 Matter has 3 distinct senses.
 
-**1. Anything that has mass and takes up space.** (вещество, материя)
+**1. A subject or situation that has to be dealt with.** (дело, вопрос)
 
-1. Solids, liquids, and gases are all forms of *matter*.
-2. *Matter* cannot be created or destroyed.
-3. The telescope detects *matter* falling into the black hole.
+1. We'll take up the *matter* at the next meeting.
+2. It's a serious *matter* and the police are involved.
+3. Getting a visa is just a *matter* of paperwork.
 
-**2. A subject or situation that has to be dealt with.** (дело, вопрос)
+**2. The trouble or problem that someone or something has.** (проблема, беда (что случилось))
 
-4. We'll take up the *matter* at the next meeting.
-5. It's a serious *matter* and the police are involved.
-6. Getting a visa is just a *matter* of paperwork.
+4. What's the *matter*? You look upset.
+5. Something's the *matter* with the printer again.
+6. There's nothing the *matter* with the car.
 
-**3. The trouble or problem that someone or something has.** (проблема, беда (что случилось))
+**3. Anything that has mass and takes up space.** (вещество, материя)
 
-7. What's the *matter*? You look upset.
-8. Something's the *matter* with the printer again.
-9. There's nothing the *matter* with the car.
+7. Solids, liquids, and gases are all forms of *matter*.
+8. *Matter* cannot be created or destroyed.
+9. The telescope detects *matter* falling into the black hole.
 
 ---
 
@@ -595,22 +595,22 @@ A substance that keeps its own shape, such as ice or wood.
 ### plasma
 
 **Pronunciation:** /ˈplæzmə/ &middot; *PLAZ-muh*
-**Русский:** плазма; плазма крови
+**Русский:** плазма крови; плазма
 **Countability:** uncountable
 
 Plasma has 2 distinct senses.
 
-**1. A very hot gas whose particles carry an electric charge.** (плазма)
+**1. The clear yellowish liquid part of blood that carries the cells.** (плазма крови)
 
-1. Stars are made of *plasma*.
-2. The lamp glows because the gas turns into *plasma*.
-3. *Plasma* is often called the fourth state of matter.
+1. He donates *plasma* twice a month.
+2. The lab spun the sample to separate the *plasma*.
+3. Burn patients often need *plasma*.
 
-**2. The clear yellowish liquid part of blood that carries the cells.** (плазма крови)
+**2. A very hot gas whose particles carry an electric charge.** (плазма)
 
-4. He donates *plasma* twice a month.
-5. The lab spun the sample to separate the *plasma*.
-6. Burn patients often need *plasma*.
+4. Stars are made of *plasma*.
+5. The lamp glows because the gas turns into *plasma*.
+6. *Plasma* is often called the fourth state of matter.
 
 ---
 
@@ -769,23 +769,23 @@ A metal made by mixing two or more metals together.
 ### solution
 
 **Pronunciation:** /səˈluːʃən/ &middot; *suh-LOO-shuhn*
-**Русский:** раствор; решение (проблемы, задачи)
+**Русский:** решение (проблемы, задачи); раствор
 **Plural:** *solutions*
 **Countability:** countable, and uncountable as a substance
 
 Solution has 2 distinct senses.
 
-**1. A liquid with something dissolved in it.** (раствор)
+**1. A way of dealing with a problem, or the answer to a puzzle or question.** (решение (проблемы, задачи))
 
-1. Pour the salt *solution* into the beaker.
-2. Prepare two *solutions* of different strength.
-3. The *solution* turned blue when we added the powder.
+1. Nobody at the meeting had a *solution* to the parking problem.
+2. The *solution* to the puzzle is printed on the last page.
+3. Cheaper housing is only part of the *solution*.
 
-**2. A way of dealing with a problem, or the answer to a puzzle or question.** (решение (проблемы, задачи))
+**2. A liquid with something dissolved in it.** (раствор)
 
-4. Nobody at the meeting had a *solution* to the parking problem.
-5. The *solution* to the puzzle is printed on the last page.
-6. Cheaper housing is only part of the *solution*.
+4. Pour the salt *solution* into the beaker.
+5. Prepare two *solutions* of different strength.
+6. The *solution* turned blue when we added the powder.
 
 ---
 
@@ -889,23 +889,23 @@ A substance made by living cells that speeds up a chemical reaction.
 ### concentration
 
 **Pronunciation:** /ˌkɑːnsənˈtreɪʃən/ &middot; *kahn-suhn-TRAY-shuhn*
-**Русский:** концентрация; сосредоточенность, концентрация внимания
+**Русский:** сосредоточенность, концентрация внимания; концентрация
 **Plural:** *concentrations*
 **Countability:** countable
 
 Concentration has 2 distinct senses.
 
-**1. How much of a substance is present in a mixture.** (концентрация)
+**1. The act of giving all your attention to one thing.** (сосредоточенность, концентрация внимания)
 
-1. Increase the *concentration* of the acid slightly.
-2. High *concentrations* of salt kill the plants.
-3. The *concentration* dropped as we added water.
+1. The noise from the street broke my *concentration*.
+2. Chess takes hours of *concentration*.
+3. His *concentration* slipped in the last mile.
 
-**2. The act of giving all your attention to one thing.** (сосредоточенность, концентрация внимания)
+**2. How much of a substance is present in a mixture.** (концентрация)
 
-4. The noise from the street broke my *concentration*.
-5. Chess takes hours of *concentration*.
-6. His *concentration* slipped in the last mile.
+4. Increase the *concentration* of the acid slightly.
+5. High *concentrations* of salt kill the plants.
+6. The *concentration* dropped as we added water.
 
 ---
 
@@ -976,29 +976,29 @@ How well a material carries electricity or heat.
 ### reaction
 
 **Pronunciation:** /riˈækʃən/ &middot; *ree-AK-shuhn*
-**Русский:** реакция; реакция, отклик (на события); аллергическая реакция (на лекарство, еду)
+**Русский:** реакция, отклик (на события); аллергическая реакция (на лекарство, еду); реакция
 **Plural:** *reactions*
 **Countability:** countable
 
 Reaction has 3 distinct senses.
 
-**1. A process in which substances change into different substances.** (реакция)
+**1. What a person feels, says, or does in answer to something that happens.** (реакция, отклик (на события))
 
-1. The *reaction* gives off a lot of heat.
-2. Some *reactions* will not start without a catalyst.
-3. Mixing the two powders starts the *reaction*.
+1. His first *reaction* was to laugh.
+2. The mayor's *reaction* to the report was cautious.
+3. We filmed people's *reactions* to the surprise.
 
-**2. What a person feels, says, or does in answer to something that happens.** (реакция, отклик (на события))
+**2. A harmful physical response of the body to a food, drug, or other substance.** (аллергическая реакция (на лекарство, еду))
 
-4. His first *reaction* was to laugh.
-5. The mayor's *reaction* to the report was cautious.
-6. We filmed people's *reactions* to the surprise.
+4. She had a *reaction* to the antibiotic and broke out in hives.
+5. Peanuts can cause a severe *reaction* in some kids.
+6. Serious *reactions* to the shot are rare.
 
-**3. A harmful physical response of the body to a food, drug, or other substance.** (аллергическая реакция (на лекарство, еду))
+**3. A process in which substances change into different substances.** (реакция)
 
-7. She had a *reaction* to the antibiotic and broke out in hives.
-8. Peanuts can cause a severe *reaction* in some kids.
-9. Serious *reactions* to the shot are rare.
+7. The *reaction* gives off a lot of heat.
+8. Some *reactions* will not start without a catalyst.
+9. Mixing the two powders starts the *reaction*.
 
 ---
 
@@ -1069,22 +1069,22 @@ The splitting of an atom's nucleus, which releases energy.
 ### fusion
 
 **Pronunciation:** /ˈfjuːʒən/ &middot; *FYOO-zhuhn*
-**Русский:** синтез (ядерный); слияние, смешение (стилей, культур)
+**Русский:** слияние, смешение (стилей, культур); синтез (ядерный)
 **Countability:** uncountable
 
 Fusion has 2 distinct senses.
 
-**1. The joining of two atomic nuclei, which releases a huge amount of energy.** (синтез (ядерный))
+**1. A blending of two or more different things into a single one.** (слияние, смешение (стилей, культур))
 
-1. The sun is powered by *fusion*.
-2. *Fusion* would give us almost limitless energy.
-3. Scientists have struggled for decades to control *fusion*.
+1. The restaurant serves a *fusion* of Korean and Mexican food.
+2. Their sound is a *fusion* of jazz and hip-hop.
+3. The merger created a *fusion* of two very different company cultures.
 
-**2. A blending of two or more different things into a single one.** (слияние, смешение (стилей, культур))
+**2. The joining of two atomic nuclei, which releases a huge amount of energy.** (синтез (ядерный))
 
-4. The restaurant serves a *fusion* of Korean and Mexican food.
-5. Their sound is a *fusion* of jazz and hip-hop.
-6. The merger created a *fusion* of two very different company cultures.
+4. The sun is powered by *fusion*.
+5. *Fusion* would give us almost limitless energy.
+6. Scientists have struggled for decades to control *fusion*.
 
 ---
 
@@ -1612,24 +1612,24 @@ Data has 3 distinct senses.
 ### principle
 
 **Pronunciation:** /ˈprɪnsəpəl/ &middot; *PRIN-suh-puhl*
-**Русский:** принцип, закон; принцип, убеждение
+**Русский:** принцип, убеждение; принцип, закон
 **Plural:** *principles*
 **Countability:** countable
 **Contrast:** Sounds exactly like *principal*, the head of a school.
 
 Principle has 2 distinct senses.
 
-**1. A basic scientific rule that explains how something works.** (принцип, закон)
+**1. A basic rule or belief that guides how a person behaves.** (принцип, убеждение)
 
-1. The pump works on a very simple *principle*.
-2. He explained the *principle* behind the experiment.
-3. The same *principles* apply to gases and liquids.
+1. She quit on *principle* rather than sign it.
+2. He's a man of strong *principles*.
+3. The *principle* is simple: never charge more than it costs.
 
-**2. A basic rule or belief that guides how a person behaves.** (принцип, убеждение)
+**2. A basic scientific rule that explains how something works.** (принцип, закон)
 
-4. She quit on *principle* rather than sign it.
-5. He's a man of strong *principles*.
-6. The *principle* is simple: never charge more than it costs.
+4. The pump works on a very simple *principle*.
+5. He explained the *principle* behind the experiment.
+6. The same *principles* apply to gases and liquids.
 
 ---
 

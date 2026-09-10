@@ -6782,7 +6782,7 @@ A Y-shaped stick with an elastic band, used to shoot small stones.
 ### slip
 
 **Pronunciation:** /slɪp/ &middot; *SLIP*
-**Русский:** листок, квитанция; комбинация (нижнее бельё); оплошность, обмолвка
+**Русский:** листок, квитанция; оплошность, обмолвка; комбинация (нижнее бельё)
 **Plural:** *slips*
 **Countability:** countable
 
@@ -6794,17 +6794,17 @@ Slip has 3 distinct senses.
 2. She handed me a *slip* with her number on it.
 3. Keep your parking *slips* for reimbursement.
 
-**2. A light dress-shaped undergarment worn beneath a dress or skirt.** (комбинация (нижнее бельё))
+**2. A small careless mistake, especially in speaking.** (оплошность, обмолвка)
 
-4. She wore a silk *slip* under the thin dress.
-5. The lining had pulled away from the *slip*.
-6. *Slips* are hard to find in stores now.
+4. It was just a *slip* of the tongue.
+5. One *slip* in the code cost them a whole day.
+6. He apologized for the *slip* and moved on.
 
-**3. A small careless mistake, especially in speaking.** (оплошность, обмолвка)
+**3. A light dress-shaped undergarment worn beneath a dress or skirt.** (комбинация (нижнее бельё))
 
-7. It was just a *slip* of the tongue.
-8. One *slip* in the code cost them a whole day.
-9. He apologized for the *slip* and moved on.
+7. She wore a silk *slip* under the thin dress.
+8. The lining had pulled away from the *slip*.
+9. *Slips* are hard to find in stores now.
 
 ---
 
@@ -9185,23 +9185,23 @@ Someone who falls behind the rest of a group.
 ### strain
 
 **Pronunciation:** /streɪn/ &middot; *STRAYN*
-**Русский:** растяжение (мышцы); напряжение, нагрузка; штамм, разновидность
+**Русский:** напряжение, нагрузка; растяжение (мышцы); штамм, разновидность
 **Plural:** *strains*
 **Countability:** countable
 
 Strain has 3 distinct senses.
 
-**1. An injury caused by stretching a muscle too far.** (растяжение (мышцы))
+**1. Pressure or worry that is hard to bear, or the force pulling on something.** (напряжение, нагрузка)
 
-1. He's out with a hamstring *strain*.
-2. The doctor said it's just a mild *strain*.
-3. Two players have muscle *strains*.
+1. The long hours put a *strain* on their marriage.
+2. The heat wave put a *strain* on the power grid.
+3. You can hear the *strain* in his voice.
 
-**2. Pressure or worry that is hard to bear, or the force pulling on something.** (напряжение, нагрузка)
+**2. An injury caused by stretching a muscle too far.** (растяжение (мышцы))
 
-4. The long hours put a *strain* on their marriage.
-5. The heat wave put a *strain* on the power grid.
-6. You can hear the *strain* in his voice.
+4. He's out with a hamstring *strain*.
+5. The doctor said it's just a mild *strain*.
+6. Two players have muscle *strains*.
 
 **3. A particular type of a virus, bacterium, or plant.** (штамм, разновидность)
 

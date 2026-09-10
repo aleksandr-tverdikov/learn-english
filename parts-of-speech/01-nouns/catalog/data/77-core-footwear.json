@@ -437,31 +437,19 @@
       "respell": "KLAHG",
       "meaning": "Clog has 3 distinct senses.",
       "examples": [
-        "Nurses on that floor all wear clogs.",
-        "She slipped a clog off under the desk.",
-        "Wooden clogs are loud on a tile floor.",
         "There's a clog in the bathroom sink.",
         "Hair causes most shower clogs.",
         "The plumber cleared the clog in ten minutes.",
         "There's a clog somewhere under the kitchen sink.",
         "Hot water and soap cleared the clog in a minute.",
-        "Hair causes most shower clogs."
+        "Hair causes most shower clogs.",
+        "Nurses on that floor all wear clogs.",
+        "She slipped a clog off under the desk.",
+        "Wooden clogs are loud on a tile floor."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A backless shoe with a thick wooden or cork sole",
-          "body": [
-            "(сабо)"
-          ],
-          "examples": [
-            "Nurses on that floor all wear clogs.",
-            "She slipped a clog off under the desk.",
-            "Wooden clogs are loud on a tile floor."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A blockage that stops water from draining",
           "body": [
             "(засор)"
@@ -473,20 +461,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A mass of material that blocks a pipe or drain",
           "body": [
-            "(засор (в трубе))",
-            "---"
+            "(засор (в трубе))"
           ],
           "examples": [
             "There's a clog somewhere under the kitchen sink.",
             "Hot water and soap cleared the clog in a minute.",
             "Hair causes most shower clogs."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A backless shoe with a thick wooden or cork sole",
+          "body": [
+            "(сабо)",
+            "---"
+          ],
+          "examples": [
+            "Nurses on that floor all wear clogs.",
+            "She slipped a clog off under the desk.",
+            "Wooden clogs are loud on a tile floor."
+          ]
         }
       ],
-      "русский": "сабо; засор; засор (в трубе)",
+      "русский": "засор; засор (в трубе); сабо",
       "plural": "clogs",
       "countability": "countable"
     },
@@ -901,41 +901,41 @@
       "respell": "BROHG",
       "meaning": "Brogue has 2 distinct senses.",
       "examples": [
-        "He bought a pair of tan brogues for the spring.",
-        "The pattern on that brogue is beautiful.",
-        "Brogues look good with tweed.",
         "He answered in a thick Irish brogue.",
         "Her brogue got stronger when she was tired.",
-        "You could hear the brogue in the way he said the word."
+        "You could hear the brogue in the way he said the word.",
+        "He bought a pair of tan brogues for the spring.",
+        "The pattern on that brogue is beautiful.",
+        "Brogues look good with tweed."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A sturdy leather shoe decorated with rows of punched holes",
-          "body": [
-            "(броги (туфли с перфорацией))"
-          ],
-          "examples": [
-            "He bought a pair of tan brogues for the spring.",
-            "The pattern on that brogue is beautiful.",
-            "Brogues look good with tweed."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A strong regional accent, especially an Irish or Scottish one",
           "body": [
-            "(сильный ирландский (шотландский) акцент)",
-            "---"
+            "(сильный ирландский (шотландский) акцент)"
           ],
           "examples": [
             "He answered in a thick Irish brogue.",
             "Her brogue got stronger when she was tired.",
             "You could hear the brogue in the way he said the word."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A sturdy leather shoe decorated with rows of punched holes",
+          "body": [
+            "(броги (туфли с перфорацией))",
+            "---"
+          ],
+          "examples": [
+            "He bought a pair of tan brogues for the spring.",
+            "The pattern on that brogue is beautiful.",
+            "Brogues look good with tweed."
+          ]
         }
       ],
-      "русский": "броги (туфли с перфорацией); сильный ирландский (шотландский) акцент",
+      "русский": "сильный ирландский (шотландский) акцент; броги (туфли с перфорацией)",
       "plural": "brogues",
       "countability": "countable",
       "contrast": "The same word also means a strong regional accent, especially an Irish one: \"he spoke with a soft brogue.\""
@@ -1114,31 +1114,19 @@
       "respell": "SPYK",
       "meaning": "Spike has 3 distinct senses.",
       "examples": [
-        "She laced up her spikes for the 400.",
-        "You can replace a worn spike with a small wrench.",
-        "Metal spikes tear up the turf.",
         "The city saw a spike in emergency calls during the heat wave.",
         "There was a brief spike in gas prices last spring.",
         "Doctors reported a spike in flu cases in January.",
         "The fence around the yard is topped with iron spikes.",
         "He drove a spike into the railroad tie.",
-        "Steel spikes held the tent lines to the ground."
+        "Steel spikes held the tent lines to the ground.",
+        "She laced up her spikes for the 400.",
+        "You can replace a worn spike with a small wrench.",
+        "Metal spikes tear up the turf."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A short metal point screwed into the sole of a track or golf shoe",
-          "body": [
-            "(шип (на спортивной подошве); (мн.) шиповки)"
-          ],
-          "examples": [
-            "She laced up her spikes for the 400.",
-            "You can replace a worn spike with a small wrench.",
-            "Metal spikes tear up the turf."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A sudden sharp increase in a number or level",
           "body": [
             "(резкий скачок, всплеск)"
@@ -1150,20 +1138,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A long thick pointed piece of metal or wood",
           "body": [
-            "(штырь, костыль, острый шип)",
-            "---"
+            "(штырь, костыль, острый шип)"
           ],
           "examples": [
             "The fence around the yard is topped with iron spikes.",
             "He drove a spike into the railroad tie.",
             "Steel spikes held the tent lines to the ground."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A short metal point screwed into the sole of a track or golf shoe",
+          "body": [
+            "(шип (на спортивной подошве); (мн.) шиповки)",
+            "---"
+          ],
+          "examples": [
+            "She laced up her spikes for the 400.",
+            "You can replace a worn spike with a small wrench.",
+            "Metal spikes tear up the turf."
+          ]
         }
       ],
-      "русский": "шип (на спортивной подошве); (мн.) шиповки; резкий скачок, всплеск; штырь, костыль, острый шип",
+      "русский": "резкий скачок, всплеск; штырь, костыль, острый шип; шип (на спортивной подошве); (мн.) шиповки",
       "plural": "spikes",
       "countability": "countable"
     },
@@ -1399,41 +1399,41 @@
       "respell": "WELT",
       "meaning": "Welt has 2 distinct senses.",
       "examples": [
-        "A shoe with a welt can be resoled many times.",
-        "The stitching along the welt had rotted.",
-        "Both welts were replaced during the rebuild.",
         "The belt left welts across his back.",
         "A mosquito bite raised a welt on her arm.",
-        "He had a welt under one eye after the fight."
+        "He had a welt under one eye after the fight.",
+        "A shoe with a welt can be resoled many times.",
+        "The stitching along the welt had rotted.",
+        "Both welts were replaced during the rebuild."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A strip of leather stitched between the upper and the sole of a shoe",
-          "body": [
-            "(рант)"
-          ],
-          "examples": [
-            "A shoe with a welt can be resoled many times.",
-            "The stitching along the welt had rotted.",
-            "Both welts were replaced during the rebuild."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A raised red mark left on the skin by a blow or a sting",
           "body": [
-            "(рубец, вздувшийся след (от удара))",
-            "---"
+            "(рубец, вздувшийся след (от удара))"
           ],
           "examples": [
             "The belt left welts across his back.",
             "A mosquito bite raised a welt on her arm.",
             "He had a welt under one eye after the fight."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A strip of leather stitched between the upper and the sole of a shoe",
+          "body": [
+            "(рант)",
+            "---"
+          ],
+          "examples": [
+            "A shoe with a welt can be resoled many times.",
+            "The stitching along the welt had rotted.",
+            "Both welts were replaced during the rebuild."
+          ]
         }
       ],
-      "русский": "рант; рубец, вздувшийся след (от удара)",
+      "русский": "рубец, вздувшийся след (от удара); рант",
       "plural": "welts",
       "countability": "countable",
       "contrast": "The same word also means a raised red mark on the skin from a blow."
@@ -1716,41 +1716,41 @@
       "respell": "TRAK-shun",
       "meaning": "Traction has 2 distinct senses.",
       "examples": [
-        "These soles have terrible traction on wet tile.",
-        "Winter boots need traction on ice, not just warmth.",
-        "The deep tread gives you good traction in mud.",
         "Snow tires give you much better traction.",
         "The wheels spun and lost traction.",
-        "There's no traction at all on wet leaves."
+        "There's no traction at all on wet leaves.",
+        "These soles have terrible traction on wet tile.",
+        "Winter boots need traction on ice, not just warmth.",
+        "The deep tread gives you good traction in mud."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The grip a sole has on the ground",
-          "body": [
-            "(сцепление с поверхностью)"
-          ],
-          "examples": [
-            "These soles have terrible traction on wet tile.",
-            "Winter boots need traction on ice, not just warmth.",
-            "The deep tread gives you good traction in mud."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The grip between a vehicle's tires and the road",
           "body": [
-            "(сцепление с дорогой)",
-            "---"
+            "(сцепление с дорогой)"
           ],
           "examples": [
             "Snow tires give you much better traction.",
             "The wheels spun and lost traction.",
             "There's no traction at all on wet leaves."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The grip a sole has on the ground",
+          "body": [
+            "(сцепление с поверхностью)",
+            "---"
+          ],
+          "examples": [
+            "These soles have terrible traction on wet tile.",
+            "Winter boots need traction on ice, not just warmth.",
+            "The deep tread gives you good traction in mud."
+          ]
         }
       ],
-      "русский": "сцепление с поверхностью; сцепление с дорогой",
+      "русский": "сцепление с дорогой; сцепление с поверхностью",
       "countability": "uncountable"
     },
     {
@@ -2396,9 +2396,6 @@
       "respell": "SLYD",
       "meaning": "Slide has 4 distinct senses.",
       "examples": [
-        "He wears slides to the pool and nowhere else.",
-        "One slide floated off down the lake.",
-        "Rubber slides dry in about a minute.",
         "She went down the slide headfirst.",
         "The park put in a new twisting slide.",
         "Both slides were too hot to touch by noon.",
@@ -2407,23 +2404,14 @@
         "Her presentation ran to forty slides.",
         "Put a drop of pond water on the slide.",
         "The lab labels every slide with a date.",
-        "He clipped the slide onto the microscope."
+        "He clipped the slide onto the microscope.",
+        "He wears slides to the pool and nowhere else.",
+        "One slide floated off down the lake.",
+        "Rubber slides dry in about a minute."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A flat backless sandal with one wide band across the foot",
-          "body": [
-            "(шлёпанцы (сандалии без задника))"
-          ],
-          "examples": [
-            "He wears slides to the pool and nowhere else.",
-            "One slide floated off down the lake.",
-            "Rubber slides dry in about a minute."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A smooth sloping structure that children climb up and slide down",
           "body": [
             "(горка (детская))"
@@ -2435,7 +2423,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "One page of a presentation shown on a screen",
           "body": [
             "(слайд (в презентации))"
@@ -2447,7 +2435,7 @@
           ]
         },
         {
-          "n": "4",
+          "n": "3",
           "head": "A small glass plate holding a sample to be viewed under a microscope",
           "body": [
             "(предметное стекло)"
@@ -2457,9 +2445,21 @@
             "The lab labels every slide with a date.",
             "He clipped the slide onto the microscope."
           ]
+        },
+        {
+          "n": "4",
+          "head": "A flat backless sandal with one wide band across the foot",
+          "body": [
+            "(шлёпанцы (сандалии без задника))"
+          ],
+          "examples": [
+            "He wears slides to the pool and nowhere else.",
+            "One slide floated off down the lake.",
+            "Rubber slides dry in about a minute."
+          ]
         }
       ],
-      "русский": "шлёпанцы (сандалии без задника); горка (детская); слайд (в презентации); предметное стекло",
+      "русский": "горка (детская); слайд (в презентации); предметное стекло; шлёпанцы (сандалии без задника)",
       "plural": "slides",
       "countability": "countable",
       "contrast": "The same word also means a playground slide or a photographic slide; the sandal sense is nearly always plural."

@@ -311,7 +311,7 @@ Volume has 2 distinct senses.
 ### capacity
 
 **Pronunciation:** /kəˈpæsəti/ &middot; *kuh-PAS-uh-tee*
-**Русский:** вместимость, ёмкость; качество, должность (в каком качестве); способность (что-л. делать, понимать)
+**Русский:** вместимость, ёмкость; способность (что-л. делать, понимать); качество, должность (в каком качестве)
 **Plural:** *capacities*
 **Countability:** countable
 
@@ -323,17 +323,17 @@ Capacity has 3 distinct senses.
 2. The stadium was filled to *capacity*.
 3. The two coolers have different *capacities*.
 
-**2. The official role or position in which someone is acting.** (качество, должность (в каком качестве))
+**2. The ability to do or to understand something.** (способность (что-л. делать, понимать))
 
-4. She was there in her *capacity* as school board president.
-5. I'm speaking in a private *capacity*, not for the company.
-6. He signed the letter in his *capacity* as trustee.
+4. Children have an amazing *capacity* for languages.
+5. He no longer has the mental *capacity* to manage his own money.
+6. She has an enormous *capacity* for hard work.
 
-**3. The ability to do or to understand something.** (способность (что-л. делать, понимать))
+**3. The official role or position in which someone is acting.** (качество, должность (в каком качестве))
 
-7. Children have an amazing *capacity* for languages.
-8. He no longer has the mental *capacity* to manage his own money.
-9. She has an enormous *capacity* for hard work.
+7. She was there in her *capacity* as school board president.
+8. I'm speaking in a private *capacity*, not for the company.
+9. He signed the letter in his *capacity* as trustee.
 
 ---
 
@@ -720,23 +720,23 @@ The level of fine detail that a measurement is made to.
 ### tolerance
 
 **Pronunciation:** /ˈtɑːlərəns/ &middot; *TAH-lur-uhns*
-**Русский:** допуск (в технике); терпимость
+**Русский:** терпимость; допуск (в технике)
 **Plural:** *tolerances*
 **Countability:** countable
 
 Tolerance has 2 distinct senses.
 
-**1. The amount a measurement is allowed to vary from the exact figure.** (допуск (в технике))
+**1. A willingness to accept people or ideas you do not share.** (терпимость)
 
-1. The part is machined to a *tolerance* of one thousandth of an inch.
-2. That's outside the *tolerance* on the drawing.
-3. Aerospace parts have very tight *tolerances*.
+1. The school teaches *tolerance* from kindergarten on.
+2. My *tolerance* for meetings is close to zero.
+3. There is not much *tolerance* for excuses around here.
 
-**2. A willingness to accept people or ideas you do not share.** (терпимость)
+**2. The amount a measurement is allowed to vary from the exact figure.** (допуск (в технике))
 
-4. The school teaches *tolerance* from kindergarten on.
-5. My *tolerance* for meetings is close to zero.
-6. There is not much *tolerance* for excuses around here.
+4. The part is machined to a *tolerance* of one thousandth of an inch.
+5. That's outside the *tolerance* on the drawing.
+6. Aerospace parts have very tight *tolerances*.
 
 ---
 
@@ -795,23 +795,23 @@ The adjusting of an instrument so that its readings are correct.
 ### reading
 
 **Pronunciation:** /ˈriːdɪŋ/ &middot; *REE-ding*
-**Русский:** показание (прибора); чтение (занятие, навык); публичное чтение (авторское); толкование, трактовка
+**Русский:** чтение (занятие, навык); показание (прибора); публичное чтение (авторское); толкование, трактовка
 **Plural:** *readings*
 **Countability:** countable
 
 Reading has 4 distinct senses.
 
-**1. A figure shown by a measuring instrument.** (показание (прибора))
+**1. The activity or skill of getting meaning from written words.** (чтение (занятие, навык))
 
-1. The meter *reading* was higher than last month.
-2. Take a *reading* every hour.
-3. Both *readings* came out the same.
+1. *Reading* is her favorite way to spend an evening.
+2. The school added twenty minutes of *reading* to every day.
+3. His *reading* has improved a lot this year.
 
-**2. The activity or skill of getting meaning from written words.** (чтение (занятие, навык))
+**2. A figure shown by a measuring instrument.** (показание (прибора))
 
-4. *Reading* is her favorite way to spend an evening.
-5. The school added twenty minutes of *reading* to every day.
-6. His *reading* has improved a lot this year.
+4. The meter *reading* was higher than last month.
+5. Take a *reading* every hour.
+6. Both *readings* came out the same.
 
 **3. An event at which a writer reads work aloud to an audience.** (публичное чтение (авторское))
 
@@ -1016,22 +1016,22 @@ Load has 3 distinct senses.
 ### bulk
 
 **Pronunciation:** /bʌlk/ &middot; *BULK*
-**Русский:** объём, масса; основная часть; основная часть, большинство
+**Русский:** основная часть, большинство; объём, масса; основная часть
 **Countability:** uncountable
 
 Bulk has 2 distinct senses.
 
-**1. Large size or volume, especially when it makes something hard to handle.** (объём, масса; основная часть)
+**1. The greater part of something.** (основная часть, большинство)
 
-1. The *bulk* of the shipment is still in the warehouse.
-2. We buy rice in *bulk*.
-3. The sheer *bulk* of the machine made it hard to move.
+1. The *bulk* of the money went to salaries.
+2. She spent the *bulk* of her career overseas.
+3. The *bulk* of the crowd had already gone home.
 
-**2. The greater part of something.** (основная часть, большинство)
+**2. Large size or volume, especially when it makes something hard to handle.** (объём, масса; основная часть)
 
-4. The *bulk* of the money went to salaries.
-5. She spent the *bulk* of her career overseas.
-6. The *bulk* of the crowd had already gone home.
+4. The *bulk* of the shipment is still in the warehouse.
+5. We buy rice in *bulk*.
+6. The sheer *bulk* of the machine made it hard to move.
 
 ---
 
@@ -1303,23 +1303,23 @@ Mileage has 2 distinct senses.
 ### footage
 
 **Pronunciation:** /ˈfʊtɪdʒ/ &middot; *FUUT-ij*
-**Русский:** метраж, длина или площадь в футах; видеоматериал, кадры
+**Русский:** видеоматериал, кадры; метраж, длина или площадь в футах
 **Countability:** uncountable
 **Contrast:** The same word also means filmed video material, as in security footage.
 
 Footage has 2 distinct senses.
 
-**1. A length or an area measured in feet.** (метраж, длина или площадь в футах)
+**1. Film or video that has been shot, especially of a real event.** (видеоматериал, кадры)
 
-1. What's the square *footage* of the house?
-2. Add up the *footage* of pipe you'll need.
-3. The listing doesn't give the *footage*.
+1. The station aired security *footage* of the break-in.
+2. There's hours of unused *footage*.
+3. The *footage* is grainy but you can see his face.
 
-**2. Film or video that has been shot, especially of a real event.** (видеоматериал, кадры)
+**2. A length or an area measured in feet.** (метраж, длина или площадь в футах)
 
-4. The station aired security *footage* of the break-in.
-5. There's hours of unused *footage*.
-6. The *footage* is grainy but you can see his face.
+4. What's the square *footage* of the house?
+5. Add up the *footage* of pipe you'll need.
+6. The listing doesn't give the *footage*.
 
 ---
 
@@ -1404,23 +1404,23 @@ The distance around something thick, such as a tree or a waist.
 ### breadth
 
 **Pronunciation:** /brɛdθ/ &middot; *BREDTH*
-**Русский:** ширина; широта (охвата, знаний)
+**Русский:** широта (охвата, знаний); ширина
 **Countability:** uncountable
 **Contrast:** It comes from broad, but the vowel is a short e: BREDTH.
 
 Breadth has 2 distinct senses.
 
-**1. The distance across something from one side to the other.** (ширина)
+**1. The wide range of subjects or activities that something covers.** (широта (охвата, знаний))
 
-1. The field measures a hundred feet in *breadth*.
-2. The river's *breadth* surprised us.
-3. They measured the length and *breadth* of the room.
+1. The *breadth* of his reading surprised the committee.
+2. The program is praised for its *breadth* rather than its depth.
+3. Few candidates bring that *breadth* of experience.
 
-**2. The wide range of subjects or activities that something covers.** (широта (охвата, знаний))
+**2. The distance across something from one side to the other.** (ширина)
 
-4. The *breadth* of his reading surprised the committee.
-5. The program is praised for its *breadth* rather than its depth.
-6. Few candidates bring that *breadth* of experience.
+4. The field measures a hundred feet in *breadth*.
+5. The river's *breadth* surprised us.
+6. They measured the length and *breadth* of the room.
 
 ---
 
@@ -2677,24 +2677,24 @@ Caliber has 2 distinct senses.
 ### bore
 
 **Pronunciation:** /bɔːr/ &middot; *BOR*
-**Русский:** внутренний диаметр, канал ствола; зануда, скучный человек
+**Русский:** зануда, скучный человек; внутренний диаметр, канал ствола
 **Plural:** *bores*
 **Countability:** countable
 **Contrast:** Sounds the same as boar, a wild pig, and as bore, the past tense of bear.
 
 Bore has 2 distinct senses.
 
-**1. The hollow inside of a tube or a gun barrel, or the width of it.** (внутренний диаметр, канал ствола)
+**1. A dull person who tires everyone out with uninteresting talk.** (зануда, скучный человек)
 
-1. The engine has a four-inch *bore*.
-2. Clean the *bore* after every trip to the range.
-3. The two cylinders have identical *bores*.
+1. Her uncle is a terrible *bore* at parties.
+2. Don't be such a *bore* — come dance with us.
+3. The panel was two *bores* reading their slides out loud.
 
-**2. A dull person who tires everyone out with uninteresting talk.** (зануда, скучный человек)
+**2. The hollow inside of a tube or a gun barrel, or the width of it.** (внутренний диаметр, канал ствола)
 
-4. Her uncle is a terrible *bore* at parties.
-5. Don't be such a *bore* — come dance with us.
-6. The panel was two *bores* reading their slides out loud.
+4. The engine has a four-inch *bore*.
+5. Clean the *bore* after every trip to the range.
+6. The two cylinders have identical *bores*.
 
 ---
 

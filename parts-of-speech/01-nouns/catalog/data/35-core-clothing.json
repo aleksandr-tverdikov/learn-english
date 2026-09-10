@@ -2221,12 +2221,12 @@
       "respell": "SNAP",
       "meaning": "Snap has 4 distinct senses.",
       "examples": [
-        "The shirt closes with snaps instead of buttons.",
-        "One snap on the jacket is broken.",
-        "Baby clothes with snaps are so much easier.",
         "We heard the snap of a twig behind us.",
         "The lid closed with a satisfying snap.",
         "Small snaps came from the fire all evening.",
+        "The shirt closes with snaps instead of buttons.",
+        "One snap on the jacket is broken.",
+        "Baby clothes with snaps are so much easier.",
         "A late cold snap killed the tomato plants.",
         "The snap lasted four days and then it warmed up.",
         "Early snaps like that are rough on the citrus groves.",
@@ -2237,18 +2237,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A fastener with two parts that press together to close a garment",
-          "body": [
-            "(кнопка (застёжка))"
-          ],
-          "examples": [
-            "The shirt closes with snaps instead of buttons.",
-            "One snap on the jacket is broken.",
-            "Baby clothes with snaps are so much easier."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A short sharp sound made by something breaking or shutting",
           "body": [
             "(щелчок, треск)"
@@ -2257,6 +2245,18 @@
             "We heard the snap of a twig behind us.",
             "The lid closed with a satisfying snap.",
             "Small snaps came from the fire all evening."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fastener with two parts that press together to close a garment",
+          "body": [
+            "(кнопка (застёжка))"
+          ],
+          "examples": [
+            "The shirt closes with snaps instead of buttons.",
+            "One snap on the jacket is broken.",
+            "Baby clothes with snaps are so much easier."
           ]
         },
         {
@@ -2285,7 +2285,7 @@
           ]
         }
       ],
-      "русский": "кнопка (застёжка); щелчок, треск; резкое похолодание; пустяк, лёгкое дело",
+      "русский": "щелчок, треск; кнопка (застёжка); резкое похолодание; пустяк, лёгкое дело",
       "plural": "snaps",
       "countability": "countable",
       "contrast": "Americans call it a snap; the British call it a press stud or a popper."

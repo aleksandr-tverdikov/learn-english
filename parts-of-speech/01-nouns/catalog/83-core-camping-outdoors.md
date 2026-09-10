@@ -1671,23 +1671,23 @@ Descent has 3 distinct senses.
 ### foothold
 
 **Pronunciation:** /ˈfʊthoʊld/ &middot; *FUUT-hohld*
-**Русский:** опора для ноги, точка опоры; плацдарм, закрепление позиций
+**Русский:** плацдарм, закрепление позиций; опора для ноги, точка опоры
 **Plural:** *footholds*
 **Countability:** countable
 
 Foothold has 2 distinct senses.
 
-**1. A place on rock where you can put your foot while climbing.** (опора для ноги, точка опоры)
+**1. A secure position from which further progress can be made.** (плацдарм, закрепление позиций)
 
-1. She found a *foothold* just above the crack.
-2. The *footholds* get tiny near the top.
-3. There was no *foothold* on that smooth slab.
+1. The company gained a *foothold* in the Asian market last year.
+2. The party is trying to get a *foothold* in the suburbs.
+3. That internship gave her a *foothold* in publishing.
 
-**2. A secure position from which further progress can be made.** (плацдарм, закрепление позиций)
+**2. A place on rock where you can put your foot while climbing.** (опора для ноги, точка опоры)
 
-4. The company gained a *foothold* in the Asian market last year.
-5. The party is trying to get a *foothold* in the suburbs.
-6. That internship gave her a *foothold* in publishing.
+4. She found a *foothold* just above the crack.
+5. The *footholds* get tiny near the top.
+6. There was no *foothold* on that smooth slab.
 
 ---
 

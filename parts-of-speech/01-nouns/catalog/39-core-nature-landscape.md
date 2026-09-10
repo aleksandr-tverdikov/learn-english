@@ -204,23 +204,23 @@ Slope has 2 distinct senses.
 ### bluff
 
 **Pronunciation:** /blʌf/ &middot; *BLUF*
-**Русский:** обрыв, крутой берег; блеф, обман
+**Русский:** блеф, обман; обрыв, крутой берег
 **Plural:** *bluffs*
 **Countability:** countable
 
 Bluff has 2 distinct senses.
 
-**1. A steep cliff or bank, especially one above a river or the sea.** (обрыв, крутой берег)
+**1. An attempt to fool someone by pretending you will do something.** (блеф, обман)
 
-1. The old lighthouse stands on a *bluff* above the bay.
-2. Erosion has eaten away part of the *bluff*.
-3. We watched the sunset from the *bluffs*.
+1. His threat to quit was just a *bluff*.
+2. She called his *bluff* and he backed down.
+3. The whole demand turned out to be a *bluff*.
 
-**2. An attempt to fool someone by pretending you will do something.** (блеф, обман)
+**2. A steep cliff or bank, especially one above a river or the sea.** (обрыв, крутой берег)
 
-4. His threat to quit was just a *bluff*.
-5. She called his *bluff* and he backed down.
-6. The whole demand turned out to be a *bluff*.
+4. The old lighthouse stands on a *bluff* above the bay.
+5. Erosion has eaten away part of the *bluff*.
+6. We watched the sunset from the *bluffs*.
 
 ---
 
@@ -319,23 +319,23 @@ The sloping side of a hill.
 ### range
 
 **Pronunciation:** /reɪndʒ/ &middot; *RAYNJ*
-**Русский:** горная цепь, хребет; диапазон; ассортимент, круг (вопросов); кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)
+**Русский:** диапазон; ассортимент, круг (вопросов); горная цепь, хребет; кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)
 **Plural:** *ranges*
 **Countability:** countable
 
 Range has 5 distinct senses.
 
-**1. A line or group of mountains or hills.** (горная цепь, хребет)
+**1. The space between the lowest and highest amounts, or the whole set of things covered.** (диапазон; ассортимент, круг (вопросов))
 
-1. The *range* runs north to south for three hundred miles.
-2. Snow stays on the higher *ranges* into July.
-3. A storm was building over the coastal *range*.
+1. Houses here are well out of our price *range*.
+2. The store carries a wide *range* of hand tools.
+3. The class covers a broad *range* of topics.
 
-**2. The space between the lowest and highest amounts, or the whole set of things covered.** (диапазон; ассортимент, круг (вопросов))
+**2. A line or group of mountains or hills.** (горная цепь, хребет)
 
-4. Houses here are well out of our price *range*.
-5. The store carries a wide *range* of hand tools.
-6. The class covers a broad *range* of topics.
+4. The *range* runs north to south for three hundred miles.
+5. Snow stays on the higher *ranges* into July.
+6. A storm was building over the coastal *range*.
 
 **3. A large kitchen appliance with burners on top and an oven below.** (кухонная плита)
 
@@ -417,22 +417,22 @@ Ground has 4 distinct senses.
 ### earth
 
 **Pronunciation:** /ɜːrθ/ &middot; *URTH*
-**Русский:** земля, почва; Земля (планета)
+**Русский:** Земля (планета); земля, почва
 **Countability:** uncountable
 
 Earth has 2 distinct senses.
 
-**1. Soil or ground, the material that plants grow in.** (земля, почва)
+**1. The planet we live on.** (Земля (планета))
 
-1. He dug a hole and packed the *earth* back down.
-2. The smell of damp *earth* filled the air after the rain.
-3. They covered the seeds with a thin layer of *earth*.
+1. The *earth* takes a year to go around the sun.
+2. From orbit you can actually see the curve of the *earth*.
+3. It's the only place on *earth* where those birds nest.
 
-**2. The planet we live on.** (Земля (планета))
+**2. Soil or ground, the material that plants grow in.** (земля, почва)
 
-4. The *earth* takes a year to go around the sun.
-5. From orbit you can actually see the curve of the *earth*.
-6. It's the only place on *earth* where those birds nest.
+4. He dug a hole and packed the *earth* back down.
+5. The smell of damp *earth* filled the air after the rain.
+6. They covered the seeds with a thin layer of *earth*.
 
 ---
 
@@ -1367,24 +1367,24 @@ An area of sand or small stones next to the sea or a lake.
 ### bank
 
 **Pronunciation:** /bæŋk/ &middot; *BANGK*
-**Русский:** берег (реки); банк
+**Русский:** банк; берег (реки)
 **Plural:** *banks*
 **Countability:** countable
 **Contrast:** Identical to *bank* (банк) — only the context tells you which one is meant.
 
 Bank has 2 distinct senses.
 
-**1. The land along the side of a river or lake.** (берег (реки))
+**1. A business that keeps people's money and lends it out.** (банк)
 
-1. Willows grow all along the *bank*.
-2. The river rose over its *banks* overnight.
-3. We fished from the far *bank*.
+1. The *bank* closes at five.
+2. Most *banks* charge a fee for that.
+3. She works at a *bank* downtown.
 
-**2. A business that keeps people's money and lends it out.** (банк)
+**2. The land along the side of a river or lake.** (берег (реки))
 
-4. The *bank* closes at five.
-5. Most *banks* charge a fee for that.
-6. She works at a *bank* downtown.
+4. Willows grow all along the *bank*.
+5. The river rose over its *banks* overnight.
+6. We fished from the far *bank*.
 
 ---
 
@@ -1437,29 +1437,29 @@ A narrow passage of water joining two larger areas of sea.
 ### channel
 
 **Pronunciation:** /ˈtʃænəl/ &middot; *CHAN-uhl*
-**Русский:** пролив; русло, фарватер; телеканал; канал (связи, сбыта)
+**Русский:** телеканал; канал (связи, сбыта); пролив; русло, фарватер
 **Plural:** *channels*
 **Countability:** countable
 
 Channel has 3 distinct senses.
 
-**1. A narrow stretch of water between two seas, or the deeper part of a river where boats pass.** (пролив; русло, фарватер)
+**1. A television or radio station, and the number you tune to for it.** (телеканал)
 
-1. The ferry crosses the *channel* in about an hour.
-2. Dredgers keep the shipping *channel* open.
-3. Storms have shifted the *channel* twice in ten years.
+1. What *channel* is the game on?
+2. He flipped through the *channels* twice and gave up.
+3. The news *channel* has run the same story all day.
 
-**2. A television or radio station, and the number you tune to for it.** (телеканал)
+**2. An official route through which information, money, or goods pass.** (канал (связи, сбыта))
 
-4. What *channel* is the game on?
-5. He flipped through the *channels* twice and gave up.
-6. The news *channel* has run the same story all day.
+4. Complaints have to go through the proper *channels*.
+5. The company sells through three different *channels*.
+6. We heard about it through unofficial *channels*.
 
-**3. An official route through which information, money, or goods pass.** (канал (связи, сбыта))
+**3. A narrow stretch of water between two seas, or the deeper part of a river where boats pass.** (пролив; русло, фарватер)
 
-7. Complaints have to go through the proper *channels*.
-8. The company sells through three different *channels*.
-9. We heard about it through unofficial *channels*.
+7. The ferry crosses the *channel* in about an hour.
+8. Dredgers keep the shipping *channel* open.
+9. Storms have shifted the *channel* twice in ten years.
 
 ---
 
@@ -1797,24 +1797,24 @@ The imaginary line around the middle of the earth, halfway between the poles.
 ### pole
 
 **Pronunciation:** /poʊl/ &middot; *POHL*
-**Русский:** полюс; шест, столб; полюс (магнита, батареи)
+**Русский:** шест, столб; полюс; полюс (магнита, батареи)
 **Plural:** *poles*
 **Countability:** countable
 **Contrast:** Sounds exactly like *poll* (опрос).
 
 Pole has 3 distinct senses.
 
-**1. Either of the two points at the very top and bottom of the earth.** (полюс)
+**1. A long slender rod of wood or metal, usually standing upright.** (шест, столб)
 
-1. Ice is melting at both *poles*.
-2. The expedition reached the *pole* in January.
-3. A compass needle points toward the magnetic *pole*.
+1. A crew was replacing a rotten telephone *pole*.
+2. He hung the flag from a *pole* on the porch.
+3. Two tent *poles* snapped in the wind.
 
-**2. A long slender rod of wood or metal, usually standing upright.** (шест, столб)
+**2. Either of the two points at the very top and bottom of the earth.** (полюс)
 
-4. A crew was replacing a rotten telephone *pole*.
-5. He hung the flag from a *pole* on the porch.
-6. Two tent *poles* snapped in the wind.
+4. Ice is melting at both *poles*.
+5. The expedition reached the *pole* in January.
+6. A compass needle points toward the magnetic *pole*.
 
 **3. Either end of a magnet or battery, where the force is concentrated.** (полюс (магнита, батареи))
 

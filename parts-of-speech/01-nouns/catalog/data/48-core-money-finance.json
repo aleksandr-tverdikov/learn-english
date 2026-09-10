@@ -98,41 +98,41 @@
       "respell": "CHAYNJ",
       "meaning": "Change has 2 distinct senses.",
       "examples": [
-        "Keep the change.",
-        "Do you have change for a twenty?",
-        "I emptied the change out of my pockets.",
         "There has been a big change in the weather.",
         "She is ready for a change of scenery.",
-        "The new manager made a few changes right away."
+        "The new manager made a few changes right away.",
+        "Keep the change.",
+        "Do you have change for a twenty?",
+        "I emptied the change out of my pockets."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The money returned to you after paying, or coins of small value",
-          "body": [
-            "(сдача; мелочь)"
-          ],
-          "examples": [
-            "Keep the change.",
-            "Do you have change for a twenty?",
-            "I emptied the change out of my pockets."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act or process of becoming different",
           "body": [
-            "(изменение, перемена)",
-            "---"
+            "(изменение, перемена)"
           ],
           "examples": [
             "There has been a big change in the weather.",
             "She is ready for a change of scenery.",
             "The new manager made a few changes right away."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The money returned to you after paying, or coins of small value",
+          "body": [
+            "(сдача; мелочь)",
+            "---"
+          ],
+          "examples": [
+            "Keep the change.",
+            "Do you have change for a twenty?",
+            "I emptied the change out of my pockets."
+          ]
         }
       ],
-      "русский": "сдача; мелочь; изменение, перемена",
+      "русский": "изменение, перемена; сдача; мелочь",
       "countability": "uncountable",
       "contrast": "In the money sense it is uncountable — never changes."
     },
@@ -545,12 +545,12 @@
       "respell": "STAYT-muhnt",
       "meaning": "Statement has 3 distinct senses.",
       "examples": [
-        "My bank statement came in the mail.",
-        "Go through the last three statements.",
-        "The charge isn't on this statement.",
         "The company issued a statement denying the charges.",
         "Police released a brief statement Tuesday morning.",
         "She read a short statement and took no questions.",
+        "My bank statement came in the mail.",
+        "Go through the last three statements.",
+        "The charge isn't on this statement.",
         "The bright yellow front door makes a statement.",
         "Wearing the pin to work was a political statement.",
         "Her resignation was meant as a statement about the leadership."
@@ -558,18 +558,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A record from a bank listing the activity on an account",
-          "body": [
-            "(выписка со счёта)"
-          ],
-          "examples": [
-            "My bank statement came in the mail.",
-            "Go through the last three statements.",
-            "The charge isn't on this statement."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something said or written formally and publicly",
           "body": [
             "(заявление)"
@@ -578,6 +566,18 @@
             "The company issued a statement denying the charges.",
             "Police released a brief statement Tuesday morning.",
             "She read a short statement and took no questions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A record from a bank listing the activity on an account",
+          "body": [
+            "(выписка со счёта)"
+          ],
+          "examples": [
+            "My bank statement came in the mail.",
+            "Go through the last three statements.",
+            "The charge isn't on this statement."
           ]
         },
         {
@@ -594,7 +594,7 @@
           ]
         }
       ],
-      "русский": "выписка со счёта; заявление; заявление, демонстрация позиции",
+      "русский": "заявление; выписка со счёта; заявление, демонстрация позиции",
       "plural": "statements",
       "countability": "countable"
     },
@@ -604,12 +604,12 @@
       "respell": "IN-truhst",
       "meaning": "Interest has 3 distinct senses.",
       "examples": [
-        "The loan carries eight percent interest.",
-        "You'll pay a lot of interest over thirty years.",
-        "The account earns almost no interest.",
         "She has had an interest in birds since she was a child.",
         "His main interests are hiking and photography.",
         "The class lost interest halfway through the video.",
+        "The loan carries eight percent interest.",
+        "You'll pay a lot of interest over thirty years.",
+        "The account earns almost no interest.",
         "He sold his interest in the restaurant last spring.",
         "The family holds a controlling interest in the newspaper.",
         "The judge disclosed a financial interest in the company."
@@ -617,18 +617,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "Money paid for the use of borrowed money, or earned on savings",
-          "body": [
-            "(проценты (по вкладу или кредиту))"
-          ],
-          "examples": [
-            "The loan carries eight percent interest.",
-            "You'll pay a lot of interest over thirty years.",
-            "The account earns almost no interest."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A feeling of wanting to know about something or take part in it",
           "body": [
             "(интерес, увлечение)"
@@ -637,6 +625,18 @@
             "She has had an interest in birds since she was a child.",
             "His main interests are hiking and photography.",
             "The class lost interest halfway through the video."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money paid for the use of borrowed money, or earned on savings",
+          "body": [
+            "(проценты (по вкладу или кредиту))"
+          ],
+          "examples": [
+            "The loan carries eight percent interest.",
+            "You'll pay a lot of interest over thirty years.",
+            "The account earns almost no interest."
           ]
         },
         {
@@ -653,7 +653,7 @@
           ]
         }
       ],
-      "русский": "проценты (по вкладу или кредиту); интерес, увлечение; доля, участие (в бизнесе)",
+      "русский": "интерес, увлечение; проценты (по вкладу или кредиту); доля, участие (в бизнесе)",
       "countability": "uncountable",
       "contrast": "In the money sense it is uncountable — never interests."
     },
@@ -1109,41 +1109,41 @@
       "respell": "dih-FAWLT",
       "meaning": "Default has 2 distinct senses.",
       "examples": [
-        "The country is close to default.",
-        "A single default wrecks your credit.",
-        "Loan defaults rose sharply last quarter.",
         "The browser's default is to block pop-ups.",
         "You can change the default in the settings menu.",
-        "Leave it at the default if you are not sure."
+        "Leave it at the default if you are not sure.",
+        "The country is close to default.",
+        "A single default wrecks your credit.",
+        "Loan defaults rose sharply last quarter."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A failure to make payments that you are legally required to make",
-          "body": [
-            "(дефолт, невыполнение обязательств)"
-          ],
-          "examples": [
-            "The country is close to default.",
-            "A single default wrecks your credit.",
-            "Loan defaults rose sharply last quarter."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The setting or option a system uses until someone changes it",
           "body": [
-            "(значение по умолчанию, настройка по умолчанию)",
-            "---"
+            "(значение по умолчанию, настройка по умолчанию)"
           ],
           "examples": [
             "The browser's default is to block pop-ups.",
             "You can change the default in the settings menu.",
             "Leave it at the default if you are not sure."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A failure to make payments that you are legally required to make",
+          "body": [
+            "(дефолт, невыполнение обязательств)",
+            "---"
+          ],
+          "examples": [
+            "The country is close to default.",
+            "A single default wrecks your credit.",
+            "Loan defaults rose sharply last quarter."
+          ]
         }
       ],
-      "русский": "дефолт, невыполнение обязательств; значение по умолчанию, настройка по умолчанию",
+      "русский": "значение по умолчанию, настройка по умолчанию; дефолт, невыполнение обязательств",
       "plural": "defaults",
       "countability": "countable"
     },
@@ -1302,41 +1302,41 @@
       "respell": "SHAIR",
       "meaning": "Share has 2 distinct senses.",
       "examples": [
-        "I sold half my shares in March.",
-        "Each share pays a small dividend.",
-        "They bought a hundred shares on Monday.",
         "You haven't done your share of the dishes.",
         "Each of the kids got an equal share of the money.",
-        "She's had more than her share of bad luck."
+        "She's had more than her share of bad luck.",
+        "I sold half my shares in March.",
+        "Each share pays a small dividend.",
+        "They bought a hundred shares on Monday."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One of the equal parts a company's ownership is divided into",
-          "body": [
-            "(акция; доля)"
-          ],
-          "examples": [
-            "I sold half my shares in March.",
-            "Each share pays a small dividend.",
-            "They bought a hundred shares on Monday."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The part of something that belongs to one person or that one person does",
           "body": [
-            "(доля, часть)",
-            "---"
+            "(доля, часть)"
           ],
           "examples": [
             "You haven't done your share of the dishes.",
             "Each of the kids got an equal share of the money.",
             "She's had more than her share of bad luck."
           ]
+        },
+        {
+          "n": "2",
+          "head": "One of the equal parts a company's ownership is divided into",
+          "body": [
+            "(акция; доля)",
+            "---"
+          ],
+          "examples": [
+            "I sold half my shares in March.",
+            "Each share pays a small dividend.",
+            "They bought a hundred shares on Monday."
+          ]
         }
       ],
-      "русский": "акция; доля; доля, часть",
+      "русский": "доля, часть; акция; доля",
       "plural": "shares",
       "countability": "countable"
     },
@@ -1346,12 +1346,12 @@
       "respell": "BAHND",
       "meaning": "Bond has 3 distinct senses.",
       "examples": [
-        "Government bonds pay less, but they're safe.",
-        "The city issued bonds to build the stadium.",
-        "He put the money into a ten-year bond.",
         "There's a strong bond between the two sisters.",
         "Years of training created a bond among the crew.",
         "The bond between mother and child forms early.",
+        "Government bonds pay less, but they're safe.",
+        "The city issued bonds to build the stadium.",
+        "He put the money into a ten-year bond.",
         "The judge set bond at fifty thousand dollars.",
         "His family posted bond that same night.",
         "She was released on bond the next morning."
@@ -1359,18 +1359,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A certificate showing that a government or company has borrowed from you",
-          "body": [
-            "(облигация)"
-          ],
-          "examples": [
-            "Government bonds pay less, but they're safe.",
-            "The city issued bonds to build the stadium.",
-            "He put the money into a ten-year bond."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A close connection or feeling between people",
           "body": [
             "(связь, привязанность)"
@@ -1379,6 +1367,18 @@
             "There's a strong bond between the two sisters.",
             "Years of training created a bond among the crew.",
             "The bond between mother and child forms early."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A certificate showing that a government or company has borrowed from you",
+          "body": [
+            "(облигация)"
+          ],
+          "examples": [
+            "Government bonds pay less, but they're safe.",
+            "The city issued bonds to build the stadium.",
+            "He put the money into a ten-year bond."
           ]
         },
         {
@@ -1395,7 +1395,7 @@
           ]
         }
       ],
-      "русский": "облигация; связь, привязанность; залог (при освобождении до суда)",
+      "русский": "связь, привязанность; облигация; залог (при освобождении до суда)",
       "plural": "bonds",
       "countability": "countable"
     },
@@ -1597,12 +1597,12 @@
       "respell": "ly-uh-BIL-uh-tee",
       "meaning": "Liability has 3 distinct senses.",
       "examples": [
-        "The firm's liabilities exceed its assets.",
-        "That old warehouse is a liability, not an asset.",
-        "We're reviewing every liability on the books.",
         "The company denies any liability for the accident.",
         "Every contractor here has to carry liability insurance.",
         "The waiver limits the gym's liability.",
+        "The firm's liabilities exceed its assets.",
+        "That old warehouse is a liability, not an asset.",
+        "We're reviewing every liability on the books.",
         "With that temper, he's a liability to the team.",
         "The old boiler has become a real liability.",
         "Not having a driver's license turned out to be a liability."
@@ -1610,18 +1610,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A debt or obligation that a person or company owes",
-          "body": [
-            "(обязательство, пассив)"
-          ],
-          "examples": [
-            "The firm's liabilities exceed its assets.",
-            "That old warehouse is a liability, not an asset.",
-            "We're reviewing every liability on the books."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Legal responsibility for damage, injury, or loss",
           "body": [
             "(ответственность (юридическая))"
@@ -1630,6 +1618,18 @@
             "The company denies any liability for the accident.",
             "Every contractor here has to carry liability insurance.",
             "The waiver limits the gym's liability."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A debt or obligation that a person or company owes",
+          "body": [
+            "(обязательство, пассив)"
+          ],
+          "examples": [
+            "The firm's liabilities exceed its assets.",
+            "That old warehouse is a liability, not an asset.",
+            "We're reviewing every liability on the books."
           ]
         },
         {
@@ -1646,7 +1646,7 @@
           ]
         }
       ],
-      "русский": "обязательство, пассив; ответственность (юридическая); обуза, помеха",
+      "русский": "ответственность (юридическая); обязательство, пассив; обуза, помеха",
       "plural": "liabilities",
       "countability": "countable"
     },
@@ -1774,12 +1774,12 @@
       "respell": "rih-TURN",
       "meaning": "Return has 4 distinct senses.",
       "examples": [
-        "The fund posted a twelve percent return.",
-        "Returns have been flat for two years.",
-        "You won't get that kind of return without risk.",
         "We celebrated his return from Afghanistan.",
         "Her return to work is set for Monday.",
         "The team's return to the playoffs took nine years.",
+        "The fund posted a twelve percent return.",
+        "Returns have been flat for two years.",
+        "You won't get that kind of return without risk.",
         "The customer service desk handles all returns.",
         "This shirt is a return, so it's marked down.",
         "There are no returns on final-sale items.",
@@ -1790,18 +1790,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The profit made on money that was invested",
-          "body": [
-            "(доходность, отдача от вложений)"
-          ],
-          "examples": [
-            "The fund posted a twelve percent return.",
-            "Returns have been flat for two years.",
-            "You won't get that kind of return without risk."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act of coming back to a place or to an earlier condition",
           "body": [
             "(возвращение)"
@@ -1810,6 +1798,18 @@
             "We celebrated his return from Afghanistan.",
             "Her return to work is set for Monday.",
             "The team's return to the playoffs took nine years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The profit made on money that was invested",
+          "body": [
+            "(доходность, отдача от вложений)"
+          ],
+          "examples": [
+            "The fund posted a twelve percent return.",
+            "Returns have been flat for two years.",
+            "You won't get that kind of return without risk."
           ]
         },
         {
@@ -1838,7 +1838,7 @@
           ]
         }
       ],
-      "русский": "доходность, отдача от вложений; возвращение; возврат товара; налоговая декларация",
+      "русский": "возвращение; доходность, отдача от вложений; возврат товара; налоговая декларация",
       "plural": "returns",
       "countability": "countable"
     },
@@ -1848,31 +1848,19 @@
       "respell": "RISK",
       "meaning": "Risk has 3 distinct senses.",
       "examples": [
-        "Every investment carries some risk.",
-        "He took a big risk with that money.",
-        "The risks are spelled out in the fine print.",
         "Smoking raises your risk of heart disease.",
         "There's no risk of frost this late in the spring.",
         "He took a risk and quit without another job lined up.",
         "That pile of oily rags is a fire risk.",
         "The bank considered him a poor credit risk.",
-        "The loose railing is a safety risk."
+        "The loose railing is a safety risk.",
+        "Every investment carries some risk.",
+        "He took a big risk with that money.",
+        "The risks are spelled out in the fine print."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The chance that an investment loses money",
-          "body": [
-            "(риск)"
-          ],
-          "examples": [
-            "Every investment carries some risk.",
-            "He took a big risk with that money.",
-            "The risks are spelled out in the fine print."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The chance that something bad will happen",
           "body": [
             "(риск, опасность)"
@@ -1884,20 +1872,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A person or thing that could cause harm or loss",
           "body": [
-            "(источник опасности, угроза)",
-            "---"
+            "(источник опасности, угроза)"
           ],
           "examples": [
             "That pile of oily rags is a fire risk.",
             "The bank considered him a poor credit risk.",
             "The loose railing is a safety risk."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The chance that an investment loses money",
+          "body": [
+            "(риск)",
+            "---"
+          ],
+          "examples": [
+            "Every investment carries some risk.",
+            "He took a big risk with that money.",
+            "The risks are spelled out in the fine print."
+          ]
         }
       ],
-      "русский": "риск; риск, опасность; источник опасности, угроза",
+      "русский": "риск, опасность; источник опасности, угроза; риск",
       "plural": "risks",
       "countability": "countable"
     },
@@ -1923,6 +1923,9 @@
       "respell": "LAWS",
       "meaning": "Loss has 4 distinct senses.",
       "examples": [
+        "Hearing loss runs in his family.",
+        "The drug can cause memory loss.",
+        "Loss of sleep was making her irritable.",
         "We sold at a loss.",
         "The company reported losses for the third year running.",
         "He wrote the loss off on his taxes.",
@@ -1931,14 +1934,23 @@
         "A loss on Sunday would end their playoff hopes.",
         "I'm so sorry for your loss.",
         "The family is still grieving the loss of their son.",
-        "The whole town felt his loss.",
-        "Hearing loss runs in his family.",
-        "The drug can cause memory loss.",
-        "Loss of sleep was making her irritable."
+        "The whole town felt his loss."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "The fact of no longer having something you used to have",
+          "body": [
+            "(потеря, утрата (напр. слуха))"
+          ],
+          "examples": [
+            "Hearing loss runs in his family.",
+            "The drug can cause memory loss.",
+            "Loss of sleep was making her irritable."
+          ]
+        },
+        {
+          "n": "2",
           "head": "Money that a business or investor fails to get back",
           "body": [
             "(убыток)"
@@ -1950,7 +1962,7 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "A defeat in a game or contest",
           "body": [
             "(поражение (в матче, игре))"
@@ -1962,32 +1974,20 @@
           ]
         },
         {
-          "n": "3",
+          "n": "4",
           "head": "The death of someone close to you",
           "body": [
-            "(утрата (смерть близкого))"
+            "(утрата (смерть близкого))",
+            "---"
           ],
           "examples": [
             "I'm so sorry for your loss.",
             "The family is still grieving the loss of their son.",
             "The whole town felt his loss."
           ]
-        },
-        {
-          "n": "4",
-          "head": "The fact of no longer having something you used to have",
-          "body": [
-            "(потеря, утрата (напр. слуха))",
-            "---"
-          ],
-          "examples": [
-            "Hearing loss runs in his family.",
-            "The drug can cause memory loss.",
-            "Loss of sleep was making her irritable."
-          ]
         }
       ],
-      "русский": "убыток; поражение (в матче, игре); утрата (смерть близкого); потеря, утрата (напр. слуха)",
+      "русский": "потеря, утрата (напр. слуха); убыток; поражение (в матче, игре); утрата (смерть близкого)",
       "plural": "losses",
       "countability": "countable"
     },
@@ -2735,41 +2735,41 @@
       "respell": "PAH-luh-see",
       "meaning": "Policy has 2 distinct senses.",
       "examples": [
-        "He took out a life insurance policy.",
-        "Read the policy before you sign it.",
-        "Both policies expire in March.",
         "That's against company policy.",
         "The new policy takes effect in January.",
-        "They rewrote all the vacation policies."
+        "They rewrote all the vacation policies.",
+        "He took out a life insurance policy.",
+        "Read the policy before you sign it.",
+        "Both policies expire in March."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A written insurance contract between a company and a customer",
-          "body": [
-            "(страховой полис)"
-          ],
-          "examples": [
-            "He took out a life insurance policy.",
-            "Read the policy before you sign it.",
-            "Both policies expire in March."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An official rule or approach that an organization follows",
           "body": [
-            "(политика, правила (компании))",
-            "---"
+            "(политика, правила (компании))"
           ],
           "examples": [
             "That's against company policy.",
             "The new policy takes effect in January.",
             "They rewrote all the vacation policies."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A written insurance contract between a company and a customer",
+          "body": [
+            "(страховой полис)",
+            "---"
+          ],
+          "examples": [
+            "He took out a life insurance policy.",
+            "Read the policy before you sign it.",
+            "Both policies expire in March."
+          ]
         }
       ],
-      "русский": "страховой полис; политика, правила (компании)",
+      "русский": "политика, правила (компании); страховой полис",
       "plural": "policies",
       "countability": "countable",
       "contrast": "Two senses: an insurance contract, and a rule or course of action."
@@ -2780,12 +2780,12 @@
       "respell": "KLAYM",
       "meaning": "Claim has 3 distinct senses.",
       "examples": [
-        "She filed a claim after the storm.",
-        "The insurer denied the claim.",
-        "Claims take about three weeks to process.",
         "The company's claims about the product were never tested.",
         "His claim that he was home all evening turned out to be false.",
         "She makes no claim to be an expert.",
+        "She filed a claim after the storm.",
+        "The insurer denied the claim.",
+        "Claims take about three weeks to process.",
         "The children have a legal claim to the property.",
         "He has no claim on her money.",
         "Two families laid claim to the same piece of land."
@@ -2793,18 +2793,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A formal request to an insurer for money you believe you are owed",
-          "body": [
-            "(требование о страховой выплате)"
-          ],
-          "examples": [
-            "She filed a claim after the storm.",
-            "The insurer denied the claim.",
-            "Claims take about three weeks to process."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A statement that something is true, made without proof",
           "body": [
             "(утверждение, заявление)"
@@ -2813,6 +2801,18 @@
             "The company's claims about the product were never tested.",
             "His claim that he was home all evening turned out to be false.",
             "She makes no claim to be an expert."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal request to an insurer for money you believe you are owed",
+          "body": [
+            "(требование о страховой выплате)"
+          ],
+          "examples": [
+            "She filed a claim after the storm.",
+            "The insurer denied the claim.",
+            "Claims take about three weeks to process."
           ]
         },
         {
@@ -2829,7 +2829,7 @@
           ]
         }
       ],
-      "русский": "требование о страховой выплате; утверждение, заявление; право, притязание (на что-л.)",
+      "русский": "утверждение, заявление; требование о страховой выплате; право, притязание (на что-л.)",
       "plural": "claims",
       "countability": "countable"
     },
@@ -3018,41 +3018,41 @@
       "respell": "ES-tuh-mut",
       "meaning": "Estimate has 2 distinct senses.",
       "examples": [
-        "I got three estimates for the roof.",
-        "The estimate came in way over budget.",
-        "Their estimate didn't include labor.",
         "Can you give me an estimate by Thursday?",
         "The estimate came in way over what we expected.",
-        "We got three estimates before hiring anyone."
+        "We got three estimates before hiring anyone.",
+        "I got three estimates for the roof.",
+        "The estimate came in way over budget.",
+        "Their estimate didn't include labor."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A statement of what a job is likely to cost",
-          "body": [
-            "(смета, предварительный расчёт)"
-          ],
-          "examples": [
-            "I got three estimates for the roof.",
-            "The estimate came in way over budget.",
-            "Their estimate didn't include labor."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A rough calculation of what something will cost or how long it will take",
           "body": [
-            "(смета, предварительная оценка)",
-            "---"
+            "(смета, предварительная оценка)"
           ],
           "examples": [
             "Can you give me an estimate by Thursday?",
             "The estimate came in way over what we expected.",
             "We got three estimates before hiring anyone."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A statement of what a job is likely to cost",
+          "body": [
+            "(смета, предварительный расчёт)",
+            "---"
+          ],
+          "examples": [
+            "I got three estimates for the roof.",
+            "The estimate came in way over budget.",
+            "Their estimate didn't include labor."
+          ]
         }
       ],
-      "русский": "смета, предварительный расчёт; смета, предварительная оценка",
+      "русский": "смета, предварительная оценка; смета, предварительный расчёт",
       "plural": "estimates",
       "countability": "countable",
       "contrast": "The noun ends in a weak ES-tuh-mut; the verb ends in a full ES-tuh-mayt."
@@ -3508,12 +3508,12 @@
       "respell": "BEN-uh-fit",
       "meaning": "Benefit has 3 distinct senses.",
       "examples": [
-        "The job comes with good benefits.",
-        "He's collecting unemployment benefits.",
-        "Health benefits start after ninety days.",
         "Walking every day has real health benefits.",
         "The main benefit of the new system is speed.",
         "Neither side saw much benefit in another meeting.",
+        "The job comes with good benefits.",
+        "He's collecting unemployment benefits.",
+        "Health benefits start after ninety days.",
         "The band played a benefit for the food bank.",
         "Tickets to the benefit sold out in a day.",
         "She organizes a benefit every fall for the animal shelter."
@@ -3521,18 +3521,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "Money or services given by an employer or the government beyond wages",
-          "body": [
-            "(льгота, пособие)"
-          ],
-          "examples": [
-            "The job comes with good benefits.",
-            "He's collecting unemployment benefits.",
-            "Health benefits start after ninety days."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A good result or advantage that something brings",
           "body": [
             "(польза, выгода, преимущество)"
@@ -3541,6 +3529,18 @@
             "Walking every day has real health benefits.",
             "The main benefit of the new system is speed.",
             "Neither side saw much benefit in another meeting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money or services given by an employer or the government beyond wages",
+          "body": [
+            "(льгота, пособие)"
+          ],
+          "examples": [
+            "The job comes with good benefits.",
+            "He's collecting unemployment benefits.",
+            "Health benefits start after ninety days."
           ]
         },
         {
@@ -3557,7 +3557,7 @@
           ]
         }
       ],
-      "русский": "льгота, пособие; польза, выгода, преимущество; благотворительное мероприятие, концерт в помощь",
+      "русский": "польза, выгода, преимущество; льгота, пособие; благотворительное мероприятие, концерт в помощь",
       "plural": "benefits",
       "countability": "countable"
     },

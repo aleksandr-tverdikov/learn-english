@@ -1341,23 +1341,23 @@ Park has 4 distinct senses.
 ### square
 
 **Pronunciation:** /skwɛr/ &middot; *SKWAIR*
-**Русский:** площадь (городская); квадрат
+**Русский:** квадрат; площадь (городская)
 **Plural:** *squares*
 **Countability:** countable
 
 Square has 2 distinct senses.
 
-**1. An open public space in a town, usually surrounded by buildings.** (площадь (городская))
+**1. A shape with four equal straight sides and four right angles.** (квадрат)
 
-1. The Christmas tree goes up in the town *square*.
-2. Several *squares* in this city date to colonial times.
-3. We sat on a bench in the *square* and ate lunch.
+1. Fold the paper into a *square*.
+2. The quilt is made of hundreds of colored *squares*.
+3. Move your piece three *squares* forward.
 
-**2. A shape with four equal straight sides and four right angles.** (квадрат)
+**2. An open public space in a town, usually surrounded by buildings.** (площадь (городская))
 
-4. Fold the paper into a *square*.
-5. The quilt is made of hundreds of colored *squares*.
-6. Move your piece three *squares* forward.
+4. The Christmas tree goes up in the town *square*.
+5. Several *squares* in this city date to colonial times.
+6. We sat on a bench in the *square* and ate lunch.
 
 ---
 
@@ -1621,23 +1621,23 @@ A building and its land as a countable unit, or ownership and possessions in gen
 ### lot
 
 **Pronunciation:** /lɑːt/ &middot; *LAHT*
-**Русский:** участок земли; много, масса; лот (на аукционе); участь, доля, судьба
+**Русский:** много, масса; участок земли; лот (на аукционе); участь, доля, судьба
 **Plural:** *lots*
 **Countability:** countable
 
 Lot has 4 distinct senses.
 
-**1. A marked-off piece of land, especially one meant to be built on.** (участок земли)
+**1. A large number or amount of something.** (много, масса)
 
-1. They bought an empty *lot* on the corner.
-2. Three *lots* on this street are still for sale.
-3. Kids play ball in the vacant *lot*.
+1. A *lot* of people showed up early.
+2. That's a *lot* to ask of a ten-year-old.
+3. We learned *lots* about the neighborhood that summer.
 
-**2. A large number or amount of something.** (много, масса)
+**2. A marked-off piece of land, especially one meant to be built on.** (участок земли)
 
-4. A *lot* of people showed up early.
-5. That's a *lot* to ask of a ten-year-old.
-6. We learned *lots* about the neighborhood that summer.
+4. They bought an empty *lot* on the corner.
+5. Three *lots* on this street are still for sale.
+6. Kids play ball in the vacant *lot*.
 
 **3. An item or group of items sold together at an auction.** (лот (на аукционе))
 

@@ -173,12 +173,12 @@
       "respell": "AKT",
       "meaning": "Act has 4 distinct senses.",
       "examples": [
-        "The first act runs almost an hour.",
-        "Most modern plays have two acts instead of five.",
-        "Her comedy act is about twenty minutes long.",
         "Holding the door open is a small act of kindness.",
         "The fire was ruled a deliberate act.",
         "The policy does not cover acts of war.",
+        "The first act runs almost an hour.",
+        "Most modern plays have two acts instead of five.",
+        "Her comedy act is about twenty minutes long.",
         "Congress passed an act banning the practice.",
         "The new act takes effect in January.",
         "Both acts cleared the Senate on the same day.",
@@ -189,18 +189,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A main division of a play, or a short self-contained performance",
-          "body": [
-            "(акт, действие (пьесы); номер (эстрадный))"
-          ],
-          "examples": [
-            "The first act runs almost an hour.",
-            "Most modern plays have two acts instead of five.",
-            "Her comedy act is about twenty minutes long."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A single thing that a person does",
           "body": [
             "(поступок, действие)"
@@ -209,6 +197,18 @@
             "Holding the door open is a small act of kindness.",
             "The fire was ruled a deliberate act.",
             "The policy does not cover acts of war."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A main division of a play, or a short self-contained performance",
+          "body": [
+            "(акт, действие (пьесы); номер (эстрадный))"
+          ],
+          "examples": [
+            "The first act runs almost an hour.",
+            "Most modern plays have two acts instead of five.",
+            "Her comedy act is about twenty minutes long."
           ]
         },
         {
@@ -237,7 +237,7 @@
           ]
         }
       ],
-      "русский": "акт, действие (пьесы); номер (эстрадный); поступок, действие; закон, законодательный акт; притворство, игра на публику",
+      "русский": "поступок, действие; акт, действие (пьесы); номер (эстрадный); закон, законодательный акт; притворство, игра на публику",
       "plural": "acts",
       "countability": "countable"
     },
@@ -262,41 +262,41 @@
       "respell": "TRAJ-uh-dee",
       "meaning": "Tragedy has 2 distinct senses.",
       "examples": [
-        "Hamlet is the best known tragedy in English.",
-        "Greek tragedies were performed outdoors.",
-        "The director staged the tragedy in modern dress.",
         "The fire was a tragedy for the whole town.",
         "It would be a tragedy to lose the old theater.",
-        "The family has suffered two tragedies in one year."
+        "The family has suffered two tragedies in one year.",
+        "Hamlet is the best known tragedy in English.",
+        "Greek tragedies were performed outdoors.",
+        "The director staged the tragedy in modern dress."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A serious play that ends unhappily for the main character",
-          "body": [
-            "(трагедия)"
-          ],
-          "examples": [
-            "Hamlet is the best known tragedy in English.",
-            "Greek tragedies were performed outdoors.",
-            "The director staged the tragedy in modern dress."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A very sad event, especially one in which people die",
           "body": [
-            "(трагедия, несчастье)",
-            "---"
+            "(трагедия, несчастье)"
           ],
           "examples": [
             "The fire was a tragedy for the whole town.",
             "It would be a tragedy to lose the old theater.",
             "The family has suffered two tragedies in one year."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A serious play that ends unhappily for the main character",
+          "body": [
+            "(трагедия)",
+            "---"
+          ],
+          "examples": [
+            "Hamlet is the best known tragedy in English.",
+            "Greek tragedies were performed outdoors.",
+            "The director staged the tragedy in modern dress."
+          ]
         }
       ],
-      "русский": "трагедия; трагедия, несчастье",
+      "русский": "трагедия, несчастье; трагедия",
       "plural": "tragedies",
       "countability": "countable"
     },
@@ -396,12 +396,12 @@
       "respell": "SET",
       "meaning": "Set has 4 distinct senses.",
       "examples": [
-        "The set for the second act is a hotel lobby.",
-        "They built both sets in a week.",
-        "The set rotates to become the outside of the house.",
         "I lost my whole set of keys.",
         "They gave us a set of steak knives as a wedding gift.",
         "A chess set was laid out on the table by the window.",
+        "The set for the second act is a hotel lobby.",
+        "They built both sets in a week.",
+        "The set rotates to become the outside of the house.",
         "She won the first set six to four.",
         "The match went to five sets.",
         "He dropped the second set but came back strong.",
@@ -412,18 +412,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The scenery and furniture that show where a scene takes place",
-          "body": [
-            "(декорация, оформление сцены)"
-          ],
-          "examples": [
-            "The set for the second act is a hotel lobby.",
-            "They built both sets in a week.",
-            "The set rotates to become the outside of the house."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A group of things that belong together and are used together",
           "body": [
             "(набор, комплект)"
@@ -432,6 +420,18 @@
             "I lost my whole set of keys.",
             "They gave us a set of steak knives as a wedding gift.",
             "A chess set was laid out on the table by the window."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The scenery and furniture that show where a scene takes place",
+          "body": [
+            "(декорация, оформление сцены)"
+          ],
+          "examples": [
+            "The set for the second act is a hotel lobby.",
+            "They built both sets in a week.",
+            "The set rotates to become the outside of the house."
           ]
         },
         {
@@ -460,7 +460,7 @@
           ]
         }
       ],
-      "русский": "декорация, оформление сцены; набор, комплект; сет, партия; сет, отделение (концерта)",
+      "русский": "набор, комплект; декорация, оформление сцены; сет, партия; сет, отделение (концерта)",
       "plural": "sets",
       "countability": "countable"
     },
@@ -1797,41 +1797,41 @@
       "respell": "uh-SYD",
       "meaning": "Aside has 2 distinct senses.",
       "examples": [
-        "He turns and delivers an aside right to the front row.",
-        "The play is full of asides to the audience.",
-        "That one aside explains the whole plot.",
         "As an aside, the coffee in that building is terrible.",
         "He added a short aside about his childhood.",
-        "Her lecture was full of funny asides."
+        "Her lecture was full of funny asides.",
+        "He turns and delivers an aside right to the front row.",
+        "The play is full of asides to the audience.",
+        "That one aside explains the whole plot."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A remark a character makes to the audience that the other characters do not hear",
-          "body": [
-            "(реплика в сторону)"
-          ],
-          "examples": [
-            "He turns and delivers an aside right to the front row.",
-            "The play is full of asides to the audience.",
-            "That one aside explains the whole plot."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A remark that steps away from the main subject",
           "body": [
-            "(отступление, попутное замечание)",
-            "---"
+            "(отступление, попутное замечание)"
           ],
           "examples": [
             "As an aside, the coffee in that building is terrible.",
             "He added a short aside about his childhood.",
             "Her lecture was full of funny asides."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A remark a character makes to the audience that the other characters do not hear",
+          "body": [
+            "(реплика в сторону)",
+            "---"
+          ],
+          "examples": [
+            "He turns and delivers an aside right to the front row.",
+            "The play is full of asides to the audience.",
+            "That one aside explains the whole plot."
+          ]
         }
       ],
-      "русский": "реплика в сторону; отступление, попутное замечание",
+      "русский": "отступление, попутное замечание; реплика в сторону",
       "plural": "asides",
       "countability": "countable"
     },
@@ -1915,41 +1915,41 @@
       "respell": "KAWL-bak",
       "meaning": "Callback has 2 distinct senses.",
       "examples": [
-        "She got a callback for the mother.",
-        "Callbacks are on Saturday morning.",
-        "Three callbacks and he still did not get the part.",
         "I interviewed on Tuesday and never got a callback.",
         "Press one to request a callback instead of waiting on hold.",
-        "The insurer promised a callback within twenty-four hours."
+        "The insurer promised a callback within twenty-four hours.",
+        "She got a callback for the mother.",
+        "Callbacks are on Saturday morning.",
+        "Three callbacks and he still did not get the part."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A second audition that only some of the actors are invited to",
-          "body": [
-            "(повторное прослушивание)"
-          ],
-          "examples": [
-            "She got a callback for the mother.",
-            "Callbacks are on Saturday morning.",
-            "Three callbacks and he still did not get the part."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A return phone call, especially one you are waiting for from an employer or a company",
           "body": [
-            "(ответный звонок)",
-            "---"
+            "(ответный звонок)"
           ],
           "examples": [
             "I interviewed on Tuesday and never got a callback.",
             "Press one to request a callback instead of waiting on hold.",
             "The insurer promised a callback within twenty-four hours."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A second audition that only some of the actors are invited to",
+          "body": [
+            "(повторное прослушивание)",
+            "---"
+          ],
+          "examples": [
+            "She got a callback for the mother.",
+            "Callbacks are on Saturday morning.",
+            "Three callbacks and he still did not get the part."
+          ]
         }
       ],
-      "русский": "повторное прослушивание; ответный звонок",
+      "русский": "ответный звонок; повторное прослушивание",
       "plural": "callbacks",
       "countability": "countable"
     },
@@ -2229,41 +2229,41 @@
       "respell": "KOWN-tur-wayt",
       "meaning": "Counterweight has 2 distinct senses.",
       "examples": [
-        "Add another counterweight or the drop will fly up too fast.",
-        "The counterweights are stacked on a steel frame backstage.",
-        "One loose counterweight is a serious hazard.",
         "The courts act as a counterweight to the president.",
         "Small states wanted a counterweight to the big ones in the Senate.",
-        "Her humor was a counterweight to his gloom."
+        "Her humor was a counterweight to his gloom.",
+        "Add another counterweight or the drop will fly up too fast.",
+        "The counterweights are stacked on a steel frame backstage.",
+        "One loose counterweight is a serious hazard."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A heavy block used to balance the weight of scenery being flown",
-          "body": [
-            "(противовес)"
-          ],
-          "examples": [
-            "Add another counterweight or the drop will fly up too fast.",
-            "The counterweights are stacked on a steel frame backstage.",
-            "One loose counterweight is a serious hazard."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something that balances or offsets an opposing force",
           "body": [
-            "(противовес (переносно), сдерживающая сила)",
-            "---"
+            "(противовес (переносно), сдерживающая сила)"
           ],
           "examples": [
             "The courts act as a counterweight to the president.",
             "Small states wanted a counterweight to the big ones in the Senate.",
             "Her humor was a counterweight to his gloom."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A heavy block used to balance the weight of scenery being flown",
+          "body": [
+            "(противовес)",
+            "---"
+          ],
+          "examples": [
+            "Add another counterweight or the drop will fly up too fast.",
+            "The counterweights are stacked on a steel frame backstage.",
+            "One loose counterweight is a serious hazard."
+          ]
         }
       ],
-      "русский": "противовес; противовес (переносно), сдерживающая сила",
+      "русский": "противовес (переносно), сдерживающая сила; противовес",
       "plural": "counterweights",
       "countability": "countable"
     },
@@ -2395,41 +2395,41 @@
       "respell": "TEER",
       "meaning": "Tier has 2 distinct senses.",
       "examples": [
-        "The top tier is the cheapest place to sit.",
-        "The old opera house has four tiers of boxes.",
-        "We were on the second tier, right over the stage.",
         "The basic plan is the cheapest tier of service.",
         "She moved up to the top tier of management.",
-        "The league has three tiers, and the bottom teams drop down."
+        "The league has three tiers, and the bottom teams drop down.",
+        "The top tier is the cheapest place to sit.",
+        "The old opera house has four tiers of boxes.",
+        "We were on the second tier, right over the stage."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One of the levels of seating rising above the main floor",
-          "body": [
-            "(ярус (в зрительном зале))"
-          ],
-          "examples": [
-            "The top tier is the cheapest place to sit.",
-            "The old opera house has four tiers of boxes.",
-            "We were on the second tier, right over the stage."
-          ]
-        },
-        {
-          "n": "2",
           "head": "One of several levels in a system, each ranked above or below the others",
           "body": [
-            "(уровень, разряд)",
-            "---"
+            "(уровень, разряд)"
           ],
           "examples": [
             "The basic plan is the cheapest tier of service.",
             "She moved up to the top tier of management.",
             "The league has three tiers, and the bottom teams drop down."
           ]
+        },
+        {
+          "n": "2",
+          "head": "One of the levels of seating rising above the main floor",
+          "body": [
+            "(ярус (в зрительном зале))",
+            "---"
+          ],
+          "examples": [
+            "The top tier is the cheapest place to sit.",
+            "The old opera house has four tiers of boxes.",
+            "We were on the second tier, right over the stage."
+          ]
         }
       ],
-      "русский": "ярус (в зрительном зале); уровень, разряд",
+      "русский": "уровень, разряд; ярус (в зрительном зале)",
       "plural": "tiers",
       "countability": "countable",
       "contrast": "Sounds like tear meaning a drop from the eye, not like tear meaning to rip."
@@ -2698,31 +2698,19 @@
       "respell": "PREE-vyoo",
       "meaning": "Preview has 3 distinct senses.",
       "examples": [
-        "We saw it in preview, before the reviews came out.",
-        "They cut ten minutes during previews.",
-        "The first preview is a week from Thursday.",
         "We got there early to catch the previews.",
         "The preview gave away the whole ending.",
         "There were twenty minutes of previews before the film started.",
         "Reporters got a preview of the report on Monday.",
         "The app shows a preview of the message.",
-        "Here's a quick preview of what we'll cover tomorrow."
+        "Here's a quick preview of what we'll cover tomorrow.",
+        "We saw it in preview, before the reviews came out.",
+        "They cut ten minutes during previews.",
+        "The first preview is a week from Thursday."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A performance given to a paying audience before the official opening",
-          "body": [
-            "(предпремьерный показ)"
-          ],
-          "examples": [
-            "We saw it in preview, before the reviews came out.",
-            "They cut ten minutes during previews.",
-            "The first preview is a week from Thursday."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A short clip shown before a movie to advertise another one",
           "body": [
             "(трейлер, анонс фильма)"
@@ -2734,20 +2722,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "An early look at something before it is generally available",
           "body": [
-            "(предварительный просмотр, ознакомление заранее)",
-            "---"
+            "(предварительный просмотр, ознакомление заранее)"
           ],
           "examples": [
             "Reporters got a preview of the report on Monday.",
             "The app shows a preview of the message.",
             "Here's a quick preview of what we'll cover tomorrow."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A performance given to a paying audience before the official opening",
+          "body": [
+            "(предпремьерный показ)",
+            "---"
+          ],
+          "examples": [
+            "We saw it in preview, before the reviews came out.",
+            "They cut ten minutes during previews.",
+            "The first preview is a week from Thursday."
+          ]
         }
       ],
-      "русский": "предпремьерный показ; трейлер, анонс фильма; предварительный просмотр, ознакомление заранее",
+      "русский": "трейлер, анонс фильма; предварительный просмотр, ознакомление заранее; предпремьерный показ",
       "plural": "previews",
       "countability": "countable"
     },
@@ -2757,12 +2757,12 @@
       "respell": "rih-VY-vuhl",
       "meaning": "Revival has 3 distinct senses.",
       "examples": [
-        "The revival is better than the original production.",
-        "There have been four revivals since the sixties.",
-        "It is a stripped-down revival with only six actors.",
         "The neighborhood is enjoying a real revival.",
         "There's been a revival of interest in vinyl records.",
         "Cheap gas fueled a revival of big trucks.",
+        "The revival is better than the original production.",
+        "There have been four revivals since the sixties.",
+        "It is a stripped-down revival with only six actors.",
         "A tent revival came through town every August.",
         "Her grandfather preached at revivals across the South.",
         "The church is holding a week-long revival."
@@ -2770,18 +2770,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A new production of a play that was performed years earlier",
-          "body": [
-            "(возобновление постановки)"
-          ],
-          "examples": [
-            "The revival is better than the original production.",
-            "There have been four revivals since the sixties.",
-            "It is a stripped-down revival with only six actors."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A return of interest in something, or a return to strength after a decline",
           "body": [
             "(возрождение, оживление)"
@@ -2790,6 +2778,18 @@
             "The neighborhood is enjoying a real revival.",
             "There's been a revival of interest in vinyl records.",
             "Cheap gas fueled a revival of big trucks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A new production of a play that was performed years earlier",
+          "body": [
+            "(возобновление постановки)"
+          ],
+          "examples": [
+            "The revival is better than the original production.",
+            "There have been four revivals since the sixties.",
+            "It is a stripped-down revival with only six actors."
           ]
         },
         {
@@ -2806,7 +2806,7 @@
           ]
         }
       ],
-      "русский": "возобновление постановки; возрождение, оживление; молитвенное собрание, религиозное пробуждение",
+      "русский": "возрождение, оживление; возобновление постановки; молитвенное собрание, религиозное пробуждение",
       "plural": "revivals",
       "countability": "countable"
     },
@@ -2816,9 +2816,6 @@
       "respell": "RUN",
       "meaning": "Run has 5 distinct senses.",
       "examples": [
-        "The play had a six-month run downtown.",
-        "Both runs were extended twice.",
-        "The show ends its run on the thirtieth.",
         "I go for a run before work most days.",
         "That was a slow five-mile run.",
         "Her morning runs keep her sane.",
@@ -2828,6 +2825,9 @@
         "The team is on a six-game winning run.",
         "She's had a bad run of luck this year.",
         "After a long run of warm days, it finally rained.",
+        "The play had a six-month run downtown.",
+        "Both runs were extended twice.",
+        "The show ends its run on the thirtieth.",
         "There's a run in my pantyhose.",
         "Clear nail polish will stop the run from spreading.",
         "She noticed the run right before the interview."
@@ -2835,18 +2835,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The period during which a show is performed regularly",
-          "body": [
-            "(прокат, серия представлений)"
-          ],
-          "examples": [
-            "The play had a six-month run downtown.",
-            "Both runs were extended twice.",
-            "The show ends its run on the thirtieth."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A period of running for exercise",
           "body": [
             "(пробежка)"
@@ -2858,7 +2846,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A point scored in baseball when a player reaches home plate",
           "body": [
             "(ран, очко (в бейсболе))"
@@ -2870,7 +2858,7 @@
           ]
         },
         {
-          "n": "4",
+          "n": "3",
           "head": "A stretch of time in which the same kind of thing keeps happening",
           "body": [
             "(полоса, серия (везения, неудач))"
@@ -2879,6 +2867,18 @@
             "The team is on a six-game winning run.",
             "She's had a bad run of luck this year.",
             "After a long run of warm days, it finally rained."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The period during which a show is performed regularly",
+          "body": [
+            "(прокат, серия представлений)"
+          ],
+          "examples": [
+            "The play had a six-month run downtown.",
+            "Both runs were extended twice.",
+            "The show ends its run on the thirtieth."
           ]
         },
         {
@@ -2895,7 +2895,7 @@
           ]
         }
       ],
-      "русский": "прокат, серия представлений; пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); спущенная петля, стрелка (на колготках)",
+      "русский": "пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); прокат, серия представлений; спущенная петля, стрелка (на колготках)",
       "plural": "runs",
       "countability": "countable"
     },
@@ -3144,41 +3144,41 @@
       "respell": "PLAY-hows",
       "meaning": "Playhouse has 2 distinct senses.",
       "examples": [
-        "The old playhouse on Main Street is being restored.",
-        "Two small playhouses share a parking lot.",
-        "The playhouse seats about four hundred people.",
         "My uncle built a playhouse in the backyard.",
         "The kids ate lunch inside the plastic playhouse.",
-        "She keeps her dolls out in the little playhouse."
+        "She keeps her dolls out in the little playhouse.",
+        "The old playhouse on Main Street is being restored.",
+        "Two small playhouses share a parking lot.",
+        "The playhouse seats about four hundred people."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A building where plays are performed",
-          "body": [
-            "(театр (здание))"
-          ],
-          "examples": [
-            "The old playhouse on Main Street is being restored.",
-            "Two small playhouses share a parking lot.",
-            "The playhouse seats about four hundred people."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small house for children to play in",
           "body": [
-            "(детский игровой домик)",
-            "---"
+            "(детский игровой домик)"
           ],
           "examples": [
             "My uncle built a playhouse in the backyard.",
             "The kids ate lunch inside the plastic playhouse.",
             "She keeps her dolls out in the little playhouse."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A building where plays are performed",
+          "body": [
+            "(театр (здание))",
+            "---"
+          ],
+          "examples": [
+            "The old playhouse on Main Street is being restored.",
+            "Two small playhouses share a parking lot.",
+            "The playhouse seats about four hundred people."
+          ]
         }
       ],
-      "русский": "театр (здание); детский игровой домик",
+      "русский": "детский игровой домик; театр (здание)",
       "plural": "playhouses",
       "countability": "countable"
     },
@@ -3234,41 +3234,41 @@
       "respell": "IN-tur-lood",
       "meaning": "Interlude has 2 distinct senses.",
       "examples": [
-        "A piano interlude covers the scene change.",
-        "The two musical interludes are the best part of the evening.",
-        "The clowns come out during the interlude.",
         "The rain gave us a quiet interlude before the crowds arrived.",
         "After a brief interlude in Texas, the family moved back east.",
-        "Those two years were a happy interlude in a hard decade."
+        "Those two years were a happy interlude in a hard decade.",
+        "A piano interlude covers the scene change.",
+        "The two musical interludes are the best part of the evening.",
+        "The clowns come out during the interlude."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A short piece of music or performance between the main parts of a show",
-          "body": [
-            "(интермедия, вставной эпизод)"
-          ],
-          "examples": [
-            "A piano interlude covers the scene change.",
-            "The two musical interludes are the best part of the evening.",
-            "The clowns come out during the interlude."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A short period of time between two longer or busier ones",
           "body": [
-            "(промежуток, передышка)",
-            "---"
+            "(промежуток, передышка)"
           ],
           "examples": [
             "The rain gave us a quiet interlude before the crowds arrived.",
             "After a brief interlude in Texas, the family moved back east.",
             "Those two years were a happy interlude in a hard decade."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A short piece of music or performance between the main parts of a show",
+          "body": [
+            "(интермедия, вставной эпизод)",
+            "---"
+          ],
+          "examples": [
+            "A piano interlude covers the scene change.",
+            "The two musical interludes are the best part of the evening.",
+            "The clowns come out during the interlude."
+          ]
         }
       ],
-      "русский": "интермедия, вставной эпизод; промежуток, передышка",
+      "русский": "промежуток, передышка; интермедия, вставной эпизод",
       "plural": "interludes",
       "countability": "countable"
     },

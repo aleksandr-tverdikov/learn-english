@@ -1163,41 +1163,41 @@
       "respell": "MOHLD",
       "meaning": "Mold has 2 distinct senses.",
       "examples": [
-        "Pour the jelly into a mold and chill it overnight.",
-        "She turned the cake out of a bundt mold.",
-        "Silicone molds make it easy to get chocolate out.",
         "There's mold on the bread again.",
         "Black mold was growing behind the shower tile.",
-        "The basement smells of damp and mold."
+        "The basement smells of damp and mold.",
+        "Pour the jelly into a mold and chill it overnight.",
+        "She turned the cake out of a bundt mold.",
+        "Silicone molds make it easy to get chocolate out."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A hollow container that gives food its shape as it sets",
-          "body": [
-            "(форма (для выпечки, желе, шоколада))"
-          ],
-          "examples": [
-            "Pour the jelly into a mold and chill it overnight.",
-            "She turned the cake out of a bundt mold.",
-            "Silicone molds make it easy to get chocolate out."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A fuzzy growth of fungus on damp surfaces or old food",
           "body": [
-            "(плесень)",
-            "---"
+            "(плесень)"
           ],
           "examples": [
             "There's mold on the bread again.",
             "Black mold was growing behind the shower tile.",
             "The basement smells of damp and mold."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow container that gives food its shape as it sets",
+          "body": [
+            "(форма (для выпечки, желе, шоколада))",
+            "---"
+          ],
+          "examples": [
+            "Pour the jelly into a mold and chill it overnight.",
+            "She turned the cake out of a bundt mold.",
+            "Silicone molds make it easy to get chocolate out."
+          ]
         }
       ],
-      "русский": "форма (для выпечки, желе, шоколада); плесень",
+      "русский": "плесень; форма (для выпечки, желе, шоколада)",
       "plural": "molds",
       "countability": "countable",
       "contrast": "American spelling is mold; British English writes mould."
@@ -1908,41 +1908,41 @@
       "respell": "TEKS-chur",
       "meaning": "Texture has 2 distinct senses.",
       "examples": [
-        "The bread has a nice chewy texture.",
-        "Overcooking ruins the texture of shrimp.",
-        "The two sauces have completely different textures.",
         "The wall has a rough texture.",
         "She likes fabrics with an interesting texture.",
-        "Sand the board until the texture is smooth."
+        "Sand the board until the texture is smooth.",
+        "The bread has a nice chewy texture.",
+        "Overcooking ruins the texture of shrimp.",
+        "The two sauces have completely different textures."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The way food feels in the mouth",
-          "body": [
-            "(текстура, консистенция)"
-          ],
-          "examples": [
-            "The bread has a nice chewy texture.",
-            "Overcooking ruins the texture of shrimp.",
-            "The two sauces have completely different textures."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The way a surface feels or looks when you touch it",
           "body": [
-            "(фактура, текстура (поверхности))",
-            "---"
+            "(фактура, текстура (поверхности))"
           ],
           "examples": [
             "The wall has a rough texture.",
             "She likes fabrics with an interesting texture.",
             "Sand the board until the texture is smooth."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The way food feels in the mouth",
+          "body": [
+            "(текстура, консистенция)",
+            "---"
+          ],
+          "examples": [
+            "The bread has a nice chewy texture.",
+            "Overcooking ruins the texture of shrimp.",
+            "The two sauces have completely different textures."
+          ]
         }
       ],
-      "русский": "текстура, консистенция; фактура, текстура (поверхности)",
+      "русский": "фактура, текстура (поверхности); текстура, консистенция",
       "plural": "textures",
       "countability": "countable"
     },
@@ -1952,12 +1952,12 @@
       "respell": "HEET",
       "meaning": "Heat has 4 distinct senses.",
       "examples": [
-        "Cook it over medium heat.",
-        "Turn the heat down before it scorches.",
-        "Cast iron holds heat better than aluminum.",
         "The heat in August is brutal here.",
         "We stood by the fire and felt the heat on our faces.",
         "Never leave a dog in the car in this kind of heat.",
+        "Cook it over medium heat.",
+        "Turn the heat down before it scorches.",
+        "Cast iron holds heat better than aluminum.",
         "She won her heat and qualified for the final.",
         "The first heat starts at nine in the morning.",
         "He was disqualified in the opening heat.",
@@ -1968,18 +1968,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The level of warmth used to cook something",
-          "body": [
-            "(огонь, нагрев (на плите))"
-          ],
-          "examples": [
-            "Cook it over medium heat.",
-            "Turn the heat down before it scorches.",
-            "Cast iron holds heat better than aluminum."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Great warmth, especially hot weather or the warmth coming off something",
           "body": [
             "(жара; тепло (исходящее от чего-л.))"
@@ -1988,6 +1976,18 @@
             "The heat in August is brutal here.",
             "We stood by the fire and felt the heat on our faces.",
             "Never leave a dog in the car in this kind of heat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The level of warmth used to cook something",
+          "body": [
+            "(огонь, нагрев (на плите))"
+          ],
+          "examples": [
+            "Cook it over medium heat.",
+            "Turn the heat down before it scorches.",
+            "Cast iron holds heat better than aluminum."
           ]
         },
         {
@@ -2016,7 +2016,7 @@
           ]
         }
       ],
-      "русский": "огонь, нагрев (на плите); жара; тепло (исходящее от чего-л.); забег, заплыв (отборочный); давление, нападки (критика)",
+      "русский": "жара; тепло (исходящее от чего-л.); огонь, нагрев (на плите); забег, заплыв (отборочный); давление, нападки (критика)",
       "countability": "uncountable"
     },
     {

@@ -524,12 +524,12 @@
       "respell": "TRAKT",
       "meaning": "Tract has 3 distinct senses.",
       "examples": [
-        "He bought a forty-acre tract next to the creek.",
-        "Several tracts of farmland came up for auction.",
-        "The state protected a tract of prairie from development.",
         "Fiber keeps the digestive tract healthy.",
         "The infection spread to her upper respiratory tract.",
         "The drug is absorbed in the intestinal tract.",
+        "He bought a forty-acre tract next to the creek.",
+        "Several tracts of farmland came up for auction.",
+        "The state protected a tract of prairie from development.",
         "A man on the corner handed out religious tracts.",
         "The tract ran to only eight pages.",
         "He published a tract against the new tax."
@@ -537,18 +537,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A large, continuous piece of land",
-          "body": [
-            "(участок земли, надел)"
-          ],
-          "examples": [
-            "He bought a forty-acre tract next to the creek.",
-            "Several tracts of farmland came up for auction.",
-            "The state protected a tract of prairie from development."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A system of connected organs that something passes through in the body",
           "body": [
             "(тракт (пищеварительный, дыхательный))"
@@ -557,6 +545,18 @@
             "Fiber keeps the digestive tract healthy.",
             "The infection spread to her upper respiratory tract.",
             "The drug is absorbed in the intestinal tract."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large, continuous piece of land",
+          "body": [
+            "(участок земли, надел)"
+          ],
+          "examples": [
+            "He bought a forty-acre tract next to the creek.",
+            "Several tracts of farmland came up for auction.",
+            "The state protected a tract of prairie from development."
           ]
         },
         {
@@ -573,7 +573,7 @@
           ]
         }
       ],
-      "русский": "участок земли, надел; тракт (пищеварительный, дыхательный); брошюра, трактат (агитационный)",
+      "русский": "тракт (пищеварительный, дыхательный); участок земли, надел; брошюра, трактат (агитационный)",
       "plural": "tracts",
       "countability": "countable",
       "contrast": "Sounds exactly like tracked, the past tense of track."
@@ -699,41 +699,41 @@
       "respell": "fur-TIL-uh-tee",
       "meaning": "Fertility has 2 distinct senses.",
       "examples": [
-        "Manure restored some of the field's fertility.",
-        "Constant corn drains the soil's fertility.",
-        "They test each field for fertility every spring.",
         "The couple went to a fertility clinic after two years of trying.",
         "The country's fertility rate has fallen below replacement level.",
-        "Stress and smoking can both affect fertility."
+        "Stress and smoking can both affect fertility.",
+        "Manure restored some of the field's fertility.",
+        "Constant corn drains the soil's fertility.",
+        "They test each field for fertility every spring."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The ability of soil to grow healthy crops",
-          "body": [
-            "(плодородие (почвы))"
-          ],
-          "examples": [
-            "Manure restored some of the field's fertility.",
-            "Constant corn drains the soil's fertility.",
-            "They test each field for fertility every spring."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The ability of a person or animal to produce offspring",
           "body": [
-            "(фертильность, способность иметь детей)",
-            "---"
+            "(фертильность, способность иметь детей)"
           ],
           "examples": [
             "The couple went to a fertility clinic after two years of trying.",
             "The country's fertility rate has fallen below replacement level.",
             "Stress and smoking can both affect fertility."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The ability of soil to grow healthy crops",
+          "body": [
+            "(плодородие (почвы))",
+            "---"
+          ],
+          "examples": [
+            "Manure restored some of the field's fertility.",
+            "Constant corn drains the soil's fertility.",
+            "They test each field for fertility every spring."
+          ]
         }
       ],
-      "русский": "плодородие (почвы); фертильность, способность иметь детей",
+      "русский": "фертильность, способность иметь детей; плодородие (почвы)",
       "countability": "uncountable"
     },
     {
@@ -1339,41 +1339,41 @@
       "respell": "FAH-dur",
       "meaning": "Fodder has 2 distinct senses.",
       "examples": [
-        "There's barely enough fodder to last till spring.",
-        "The barn is stacked with fodder.",
-        "Corn stalks make rough but usable fodder.",
         "The scandal was perfect fodder for late-night comedians.",
         "His private life became tabloid fodder.",
-        "The leaked memo gave his critics plenty of fodder."
+        "The leaked memo gave his critics plenty of fodder.",
+        "There's barely enough fodder to last till spring.",
+        "The barn is stacked with fodder.",
+        "Corn stalks make rough but usable fodder."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Dried food such as hay or straw given to farm animals",
-          "body": [
-            "(корм для скота, фураж)"
-          ],
-          "examples": [
-            "There's barely enough fodder to last till spring.",
-            "The barn is stacked with fodder.",
-            "Corn stalks make rough but usable fodder."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Material used up for some purpose, especially to feed talk or criticism",
           "body": [
-            "(материал, пища (для сплетен, критики))",
-            "---"
+            "(материал, пища (для сплетен, критики))"
           ],
           "examples": [
             "The scandal was perfect fodder for late-night comedians.",
             "His private life became tabloid fodder.",
             "The leaked memo gave his critics plenty of fodder."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Dried food such as hay or straw given to farm animals",
+          "body": [
+            "(корм для скота, фураж)",
+            "---"
+          ],
+          "examples": [
+            "There's barely enough fodder to last till spring.",
+            "The barn is stacked with fodder.",
+            "Corn stalks make rough but usable fodder."
+          ]
         }
       ],
-      "русский": "корм для скота, фураж; материал, пища (для сплетен, критики)",
+      "русский": "материал, пища (для сплетен, критики); корм для скота, фураж",
       "countability": "uncountable",
       "contrast": "Uncountable: some fodder, never 'a fodder'."
     },
@@ -1472,41 +1472,41 @@
       "respell": "SHOOT",
       "meaning": "Shoot has 2 distinct senses.",
       "examples": [
-        "Green shoots came up a week after the rain.",
-        "He pinched off the weak shoot near the base.",
-        "The vine sends out a new shoot every few days.",
         "The magazine shoot took all morning on the roof.",
         "She booked a family photo shoot for the fall.",
-        "Both shoots were rained out and had to be rescheduled."
+        "Both shoots were rained out and had to be rescheduled.",
+        "Green shoots came up a week after the rain.",
+        "He pinched off the weak shoot near the base.",
+        "The vine sends out a new shoot every few days."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A new stem or branch growing from a plant",
-          "body": [
-            "(росток, побег)"
-          ],
-          "examples": [
-            "Green shoots came up a week after the rain.",
-            "He pinched off the weak shoot near the base.",
-            "The vine sends out a new shoot every few days."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A session of taking photographs or filming",
           "body": [
-            "(съёмка, фотосессия)",
-            "---"
+            "(съёмка, фотосессия)"
           ],
           "examples": [
             "The magazine shoot took all morning on the roof.",
             "She booked a family photo shoot for the fall.",
             "Both shoots were rained out and had to be rescheduled."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A new stem or branch growing from a plant",
+          "body": [
+            "(росток, побег)",
+            "---"
+          ],
+          "examples": [
+            "Green shoots came up a week after the rain.",
+            "He pinched off the weak shoot near the base.",
+            "The vine sends out a new shoot every few days."
+          ]
         }
       ],
-      "русский": "росток, побег; съёмка, фотосессия",
+      "русский": "съёмка, фотосессия; росток, побег",
       "plural": "shoots",
       "countability": "countable",
       "contrast": "Sounds exactly like chute, a sloping channel — same sound, different word."
@@ -1858,41 +1858,41 @@
       "respell": "IM-pluh-muhnt",
       "meaning": "Implement has 2 distinct senses.",
       "examples": [
-        "Every implement on the place needs greasing.",
-        "The dealer sells tractors and implements.",
-        "He backed the tractor up to hook onto the implement.",
         "Keep the writing implements in the top drawer.",
         "A whisk is the right implement for the job.",
-        "The museum displays stone implements made thousands of years ago."
+        "The museum displays stone implements made thousands of years ago.",
+        "Every implement on the place needs greasing.",
+        "The dealer sells tractors and implements.",
+        "He backed the tractor up to hook onto the implement."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A tool or piece of equipment pulled behind a tractor to work the land",
-          "body": [
-            "(сельхозорудие, инвентарь)"
-          ],
-          "examples": [
-            "Every implement on the place needs greasing.",
-            "The dealer sells tractors and implements.",
-            "He backed the tractor up to hook onto the implement."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A tool or utensil used for a particular job",
           "body": [
-            "(орудие, инструмент)",
-            "---"
+            "(орудие, инструмент)"
           ],
           "examples": [
             "Keep the writing implements in the top drawer.",
             "A whisk is the right implement for the job.",
             "The museum displays stone implements made thousands of years ago."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A tool or piece of equipment pulled behind a tractor to work the land",
+          "body": [
+            "(сельхозорудие, инвентарь)",
+            "---"
+          ],
+          "examples": [
+            "Every implement on the place needs greasing.",
+            "The dealer sells tractors and implements.",
+            "He backed the tractor up to hook onto the implement."
+          ]
         }
       ],
-      "русский": "сельхозорудие, инвентарь; орудие, инструмент",
+      "русский": "орудие, инструмент; сельхозорудие, инвентарь",
       "plural": "implements",
       "countability": "countable",
       "contrast": "The noun ends in a weak -muhnt; the verb to implement usually ends in a full -MENT."
@@ -2145,19 +2145,31 @@
       "respell": "STAWL",
       "meaning": "Stall has 3 distinct senses.",
       "examples": [
+        "Only one stall was unlocked.",
+        "She waited outside the stall.",
+        "The stalls at the stadium always have a line.",
         "Each cow has her own stall.",
         "He mucked out the stalls before breakfast.",
         "The mare kicked the side of her stall all night.",
         "Her stall sells honey and jam.",
         "The stalls go up before sunrise.",
-        "We bought peaches from the last stall in the row.",
-        "Only one stall was unlocked.",
-        "She waited outside the stall.",
-        "The stalls at the stadium always have a line."
+        "We bought peaches from the last stall in the row."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "A small compartment with a door around a toilet in a public restroom",
+          "body": [
+            "(кабинка (в туалете))"
+          ],
+          "examples": [
+            "Only one stall was unlocked.",
+            "She waited outside the stall.",
+            "The stalls at the stadium always have a line."
+          ]
+        },
+        {
+          "n": "2",
           "head": "A separate space inside a barn for one animal",
           "body": [
             "(стойло, денник)"
@@ -2169,32 +2181,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "A small open stand where goods are sold at a market",
           "body": [
-            "(прилавок, палатка (на рынке))"
+            "(прилавок, палатка (на рынке))",
+            "---"
           ],
           "examples": [
             "Her stall sells honey and jam.",
             "The stalls go up before sunrise.",
             "We bought peaches from the last stall in the row."
           ]
-        },
-        {
-          "n": "3",
-          "head": "A small compartment with a door around a toilet in a public restroom",
-          "body": [
-            "(кабинка (в туалете))",
-            "---"
-          ],
-          "examples": [
-            "Only one stall was unlocked.",
-            "She waited outside the stall.",
-            "The stalls at the stadium always have a line."
-          ]
         }
       ],
-      "русский": "стойло, денник; прилавок, палатка (на рынке); кабинка (в туалете)",
+      "русский": "кабинка (в туалете); стойло, денник; прилавок, палатка (на рынке)",
       "plural": "stalls",
       "countability": "countable"
     },
@@ -2728,31 +2728,19 @@
       "respell": "HAR-nuhs",
       "meaning": "Harness has 3 distinct senses.",
       "examples": [
-        "He oiled the leather harness every fall.",
-        "The old harnesses still hang in the tack room.",
-        "It takes ten minutes to put the harness on a team.",
         "A harness is easier on his neck than a collar.",
         "She clipped the leash to his harness.",
         "The store had harnesses in three sizes.",
         "Nobody goes on the roof without a harness.",
         "His harness caught him halfway down.",
-        "The crew checks the harnesses every morning."
+        "The crew checks the harnesses every morning.",
+        "He oiled the leather harness every fall.",
+        "The old harnesses still hang in the tack room.",
+        "It takes ten minutes to put the harness on a team."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The straps and fittings that connect a work animal to a plow or wagon",
-          "body": [
-            "(упряжь, сбруя)"
-          ],
-          "examples": [
-            "He oiled the leather harness every fall.",
-            "The old harnesses still hang in the tack room.",
-            "It takes ten minutes to put the harness on a team."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A set of straps that goes around an animal's chest and shoulders",
           "body": [
             "(шлейка)"
@@ -2764,20 +2752,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A set of straps worn around the body and clipped to a rope to stop a fall",
           "body": [
-            "(страховочная привязь, страховочная система)",
-            "---"
+            "(страховочная привязь, страховочная система)"
           ],
           "examples": [
             "Nobody goes on the roof without a harness.",
             "His harness caught him halfway down.",
             "The crew checks the harnesses every morning."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The straps and fittings that connect a work animal to a plow or wagon",
+          "body": [
+            "(упряжь, сбруя)",
+            "---"
+          ],
+          "examples": [
+            "He oiled the leather harness every fall.",
+            "The old harnesses still hang in the tack room.",
+            "It takes ten minutes to put the harness on a team."
+          ]
         }
       ],
-      "русский": "упряжь, сбруя; шлейка; страховочная привязь, страховочная система",
+      "русский": "шлейка; страховочная привязь, страховочная система; упряжь, сбруя",
       "plural": "harnesses",
       "countability": "countable"
     },

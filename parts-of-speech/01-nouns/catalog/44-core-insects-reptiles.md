@@ -521,24 +521,24 @@ Sting has 2 distinct senses.
 ### bite
 
 **Pronunciation:** /baɪt/ &middot; *BYT*
-**Русский:** укус; кусок (пищи); перекус
+**Русский:** кусок (пищи); перекус; укус
 **Plural:** *bites*
 **Countability:** countable
 **Contrast:** Use bite for mosquitoes, spiders, ticks, and snakes, but sting for bees and wasps.
 
 Bite has 2 distinct senses.
 
-**1. A mark or wound left where an insect or animal has bitten.** (укус)
+**1. A piece of food taken into the mouth at one time, or a quick small meal.** (кусок (пищи); перекус)
 
-1. I woke up with three *bites* on my ankle.
-2. Don't scratch the *bite* or it'll get infected.
-3. A spider *bite* can take weeks to heal.
+1. He took a *bite* of the sandwich and made a face.
+2. Let's grab a *bite* before the movie.
+3. There wasn't a *bite* of food left in the house.
 
-**2. A piece of food taken into the mouth at one time, or a quick small meal.** (кусок (пищи); перекус)
+**2. A mark or wound left where an insect or animal has bitten.** (укус)
 
-4. He took a *bite* of the sandwich and made a face.
-5. Let's grab a *bite* before the movie.
-6. There wasn't a *bite* of food left in the house.
+4. I woke up with three *bites* on my ankle.
+5. Don't scratch the *bite* or it'll get infected.
+6. A spider *bite* can take weeks to heal.
 
 ---
 
@@ -1063,23 +1063,23 @@ A creature with eight legs that spins webs and catches insects.
 ### web
 
 **Pronunciation:** /wɛb/ &middot; *WEB*
-**Русский:** паутина; интернет, всемирная паутина
+**Русский:** интернет, всемирная паутина; паутина
 **Plural:** *webs*
 **Countability:** countable
 
 Web has 2 distinct senses.
 
-**1. The net of silk threads a spider spins to catch prey.** (паутина)
+**1. The system of linked pages and sites on the internet.** (интернет, всемирная паутина)
 
-1. A *web* stretched right across the doorway.
-2. The morning dew made the *webs* visible.
-3. A moth was struggling in the *web*.
+1. You can find the form on the *web*.
+2. He spent all afternoon searching the *web*.
+3. The article is only on the *web*, not in print.
 
-**2. The system of linked pages and sites on the internet.** (интернет, всемирная паутина)
+**2. The net of silk threads a spider spins to catch prey.** (паутина)
 
-4. You can find the form on the *web*.
-5. He spent all afternoon searching the *web*.
-6. The article is only on the *web*, not in print.
+4. A *web* stretched right across the doorway.
+5. The morning dew made the *webs* visible.
+6. A moth was struggling in the *web*.
 
 ---
 
@@ -2039,23 +2039,23 @@ A large green insect like a grasshopper that calls loudly from trees at night.
 ### nymph
 
 **Pronunciation:** /nɪmf/ &middot; *NIMF*
-**Русский:** нимфа (личинка насекомого); нимфа (мифическая дева природы)
+**Русский:** нимфа (мифическая дева природы); нимфа (личинка насекомого)
 **Plural:** *nymphs*
 **Countability:** countable
 
 Nymph has 2 distinct senses.
 
-**1. A young insect that looks like a small wingless version of the adult.** (нимфа (личинка насекомого))
+**1. In Greek and Roman myths, a young female spirit living in a river, tree, or hill.** (нимфа (мифическая дева природы))
 
-1. A dragonfly *nymph* lives underwater for a year or more.
-2. Cicada *nymphs* feed on roots in the dark.
-3. The *nymph* climbed out of the water and split open.
+1. The painting shows *nymphs* bathing in a pool.
+2. A *nymph* was said to guard the spring.
+3. In the story a river *nymph* falls in love with a hunter.
 
-**2. In Greek and Roman myths, a young female spirit living in a river, tree, or hill.** (нимфа (мифическая дева природы))
+**2. A young insect that looks like a small wingless version of the adult.** (нимфа (личинка насекомого))
 
-4. The painting shows *nymphs* bathing in a pool.
-5. A *nymph* was said to guard the spring.
-6. In the story a river *nymph* falls in love with a hunter.
+4. A dragonfly *nymph* lives underwater for a year or more.
+5. Cicada *nymphs* feed on roots in the dark.
+6. The *nymph* climbed out of the water and split open.
 
 ---
 

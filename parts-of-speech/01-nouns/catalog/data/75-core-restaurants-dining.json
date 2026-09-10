@@ -1153,41 +1153,41 @@
       "respell": "KYOO",
       "meaning": "Queue has 2 distinct senses.",
       "examples": [
-        "There was a queue out the door and around the corner.",
-        "We joined the queue for the buffet.",
-        "The queues move fast once they open the second register.",
         "Your document is third in the print queue.",
         "I added the movie to my queue and forgot about it.",
-        "Support tickets sit in a queue until someone picks them up."
+        "Support tickets sit in a queue until someone picks them up.",
+        "There was a queue out the door and around the corner.",
+        "We joined the queue for the buffet.",
+        "The queues move fast once they open the second register."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A line of people waiting their turn",
-          "body": [
-            "(очередь)"
-          ],
-          "examples": [
-            "There was a queue out the door and around the corner.",
-            "We joined the queue for the buffet.",
-            "The queues move fast once they open the second register."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A list of items waiting to be handled by a computer or saved to use later",
           "body": [
-            "(очередь (заданий), список отложенного)",
-            "---"
+            "(очередь (заданий), список отложенного)"
           ],
           "examples": [
             "Your document is third in the print queue.",
             "I added the movie to my queue and forgot about it.",
             "Support tickets sit in a queue until someone picks them up."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A line of people waiting their turn",
+          "body": [
+            "(очередь)",
+            "---"
+          ],
+          "examples": [
+            "There was a queue out the door and around the corner.",
+            "We joined the queue for the buffet.",
+            "The queues move fast once they open the second register."
+          ]
         }
       ],
-      "русский": "очередь; очередь (заданий), список отложенного",
+      "русский": "очередь (заданий), список отложенного; очередь",
       "plural": "queues",
       "countability": "countable",
       "contrast": "Americans normally say 'line'; queue sounds British — and only the first letter is pronounced."
@@ -1909,41 +1909,41 @@
       "respell": "BOO-stur-seet",
       "meaning": "Booster seat has 2 distinct senses.",
       "examples": [
-        "Could we get a booster seat for her?",
-        "The booster seat straps onto a regular chair.",
-        "They keep booster seats stacked by the front door.",
         "She moved out of the car seat and into a booster seat.",
         "The restaurant brought a booster seat to the table.",
-        "We keep two booster seats in the trunk."
+        "We keep two booster seats in the trunk.",
+        "Could we get a booster seat for her?",
+        "The booster seat straps onto a regular chair.",
+        "They keep booster seats stacked by the front door."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A seat that raises a small child up to table height",
-          "body": [
-            "(детское сиденье-подкладка (на стул))"
-          ],
-          "examples": [
-            "Could we get a booster seat for her?",
-            "The booster seat straps onto a regular chair.",
-            "They keep booster seats stacked by the front door."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A cushion seat that lifts an older child so the seat belt fits",
           "body": [
-            "(детское сиденье-бустер)",
-            "---"
+            "(детское сиденье-бустер)"
           ],
           "examples": [
             "She moved out of the car seat and into a booster seat.",
             "The restaurant brought a booster seat to the table.",
             "We keep two booster seats in the trunk."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A seat that raises a small child up to table height",
+          "body": [
+            "(детское сиденье-подкладка (на стул))",
+            "---"
+          ],
+          "examples": [
+            "Could we get a booster seat for her?",
+            "The booster seat straps onto a regular chair.",
+            "They keep booster seats stacked by the front door."
+          ]
         }
       ],
-      "русский": "детское сиденье-подкладка (на стул); детское сиденье-бустер",
+      "русский": "детское сиденье-бустер; детское сиденье-подкладка (на стул)",
       "plural": "booster seats",
       "countability": "countable"
     },

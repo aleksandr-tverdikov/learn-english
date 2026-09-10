@@ -643,24 +643,24 @@ A painting made with paints that are mixed with water, or the paints themselves.
 ### pastel
 
 **Pronunciation:** /pæˈstɛl/ &middot; *pas-TEL*
-**Русский:** пастель; пастельный тон, нежный оттенок
+**Русский:** пастельный тон, нежный оттенок; пастель
 **Plural:** *pastels*
 **Countability:** countable
 **Contrast:** In American English the stress is on the second syllable: pas-TEL.
 
 Pastel has 2 distinct senses.
 
-**1. A soft chalky crayon used for drawing, or a picture made with them.** (пастель)
+**1. A soft, pale color.** (пастельный тон, нежный оттенок)
 
-1. The portrait was done in *pastel*.
-2. A box of *pastels* sat open on the table.
-3. She prefers *pastels* to oil paint.
+1. The nursery is painted in soft *pastels*.
+2. She likes *pastels* better than bright colors.
+3. Easter candy always comes in *pastels*.
 
-**2. A soft, pale color.** (пастельный тон, нежный оттенок)
+**2. A soft chalky crayon used for drawing, or a picture made with them.** (пастель)
 
-4. The nursery is painted in soft *pastels*.
-5. She likes *pastels* better than bright colors.
-6. Easter candy always comes in *pastels*.
+4. The portrait was done in *pastel*.
+5. A box of *pastels* sat open on the table.
+6. She prefers *pastels* to oil paint.
 
 ---
 
@@ -765,22 +765,22 @@ Composition has 2 distinct senses.
 ### perspective
 
 **Pronunciation:** /pərˈspɛktɪv/ &middot; *pur-SPEK-tiv*
-**Русский:** перспектива (в рисунке); точка зрения, взгляд
+**Русский:** точка зрения, взгляд; перспектива (в рисунке)
 **Countability:** uncountable
 
 Perspective has 2 distinct senses.
 
-**1. The technique of drawing so that distant things look smaller and farther away.** (перспектива (в рисунке))
+**1. A particular way of looking at or thinking about something.** (точка зрения, взгляд)
 
-1. The drawing is badly out of *perspective*.
-2. Renaissance painters worked out the rules of *perspective*.
-3. He teaches *perspective* to first-year students.
+1. From a parent's *perspective*, the rule makes sense.
+2. The panel brought in three different *perspectives*.
+3. A week off gave me some *perspective* on the problem.
 
-**2. A particular way of looking at or thinking about something.** (точка зрения, взгляд)
+**2. The technique of drawing so that distant things look smaller and farther away.** (перспектива (в рисунке))
 
-4. From a parent's *perspective*, the rule makes sense.
-5. The panel brought in three different *perspectives*.
-6. A week off gave me some *perspective* on the problem.
+4. The drawing is badly out of *perspective*.
+5. Renaissance painters worked out the rules of *perspective*.
+6. He teaches *perspective* to first-year students.
 
 ---
 
@@ -886,23 +886,23 @@ A shade of a color.
 ### contrast
 
 **Pronunciation:** /ˈkɑːntræst/ &middot; *KAHN-trast*
-**Русский:** контраст; различие, противоположность
+**Русский:** различие, противоположность; контраст
 **Countability:** uncountable
 **Contrast:** The noun is stressed on the first syllable (KAHN-trast); the verb *to contrast* on the second (kuhn-TRAST).
 
 Contrast has 2 distinct senses.
 
-**1. The difference between the light and dark parts of a picture.** (контраст)
+**1. A clear difference between two things seen side by side.** (различие, противоположность)
 
-1. The photo has way too much *contrast*.
-2. The painting gets its power from the *contrast* between light and shadow.
-3. Turn the *contrast* down a little.
+1. The *contrast* between the two brothers could not be sharper.
+2. In *contrast* to last winter, this one has been mild.
+3. Her calm was a welcome *contrast* to the noise around her.
 
-**2. A clear difference between two things seen side by side.** (различие, противоположность)
+**2. The difference between the light and dark parts of a picture.** (контраст)
 
-4. The *contrast* between the two brothers could not be sharper.
-5. In *contrast* to last winter, this one has been mild.
-6. Her calm was a welcome *contrast* to the noise around her.
+4. The photo has way too much *contrast*.
+5. The painting gets its power from the *contrast* between light and shadow.
+6. Turn the *contrast* down a little.
 
 ---
 
@@ -1384,24 +1384,24 @@ An electronic keyboard instrument that produces and shapes sounds.
 ### pedal
 
 **Pronunciation:** /ˈpɛdəl/ &middot; *PED-uhl*
-**Русский:** педаль; педаль (велосипеда, автомобиля)
+**Русский:** педаль (велосипеда, автомобиля); педаль
 **Plural:** *pedals*
 **Countability:** countable
 **Contrast:** Sounds exactly like *peddle* (торговать вразнос).
 
 Pedal has 2 distinct senses.
 
-**1. A part pressed with the foot to change the sound of an instrument.** (педаль)
+**1. A lever pushed with the foot to drive a bicycle or work a machine.** (педаль (велосипеда, автомобиля))
 
-1. Use the *pedal* to hold the notes a little longer.
-2. The right *pedal* on the piano sticks.
-3. He steps on the *pedals* to change the guitar's tone.
+1. She stood up on the *pedals* to get up the hill.
+2. He slammed his foot on the brake *pedal*.
+3. One *pedal* came off my bike on the way home.
 
-**2. A lever pushed with the foot to drive a bicycle or work a machine.** (педаль (велосипеда, автомобиля))
+**2. A part pressed with the foot to change the sound of an instrument.** (педаль)
 
-4. She stood up on the *pedals* to get up the hill.
-5. He slammed his foot on the brake *pedal*.
-6. One *pedal* came off my bike on the way home.
+4. Use the *pedal* to hold the notes a little longer.
+5. The right *pedal* on the piano sticks.
+6. He steps on the *pedals* to change the guitar's tone.
 
 ---
 
@@ -1713,52 +1713,52 @@ A sign in written music that raises a note by a half step.
 ### flat
 
 **Pronunciation:** /flæt/ &middot; *FLAT*
-**Русский:** бемоль; спущенное колесо, прокол
+**Русский:** спущенное колесо, прокол; бемоль
 **Plural:** *flats*
 **Countability:** countable
 **Contrast:** In music a *flat* lowers a note; in British English *flat* also means an apartment.
 
 Flat has 2 distinct senses.
 
-**1. A sign in written music that lowers a note by a half step.** (бемоль)
+**1. A tire that has lost its air.** (спущенное колесо, прокол)
 
-1. The piece has three *flats*.
-2. Play B *flat* there, not B.
-3. The *flats* are marked at the start of the line.
+1. I got a *flat* on the way to work.
+2. He changed the *flat* in the pouring rain.
+3. Two *flats* in one month is terrible luck.
 
-**2. A tire that has lost its air.** (спущенное колесо, прокол)
+**2. A sign in written music that lowers a note by a half step.** (бемоль)
 
-4. I got a *flat* on the way to work.
-5. He changed the *flat* in the pouring rain.
-6. Two *flats* in one month is terrible luck.
+4. The piece has three *flats*.
+5. Play B *flat* there, not B.
+6. The *flats* are marked at the start of the line.
 
 ---
 
 ### pitch
 
 **Pronunciation:** /pɪtʃ/ &middot; *PICH*
-**Русский:** высота звука; рекламная речь, презентация (с целью убедить); подача (в бейсболе); уклон, скат (крыши)
+**Русский:** рекламная речь, презентация (с целью убедить); подача (в бейсболе); высота звука; уклон, скат (крыши)
 **Countability:** uncountable
 
 Pitch has 4 distinct senses.
 
-**1. How high or low a musical sound is.** (высота звука)
+**1. A speech meant to persuade someone to buy something or agree to a plan.** (рекламная речь, презентация (с целью убедить))
 
-1. She has perfect *pitch*.
-2. His voice dropped in *pitch* at the end of the line.
-3. The whole choir was singing under *pitch*.
+1. The salesman gave us the whole *pitch* about the extended warranty.
+2. She has ten minutes to make her *pitch* to investors.
+3. I've heard that *pitch* before.
 
-**2. A speech meant to persuade someone to buy something or agree to a plan.** (рекламная речь, презентация (с целью убедить))
+**2. A throw of the ball to the batter in baseball.** (подача (в бейсболе))
 
-4. The salesman gave us the whole *pitch* about the extended warranty.
-5. She has ten minutes to make her *pitch* to investors.
-6. I've heard that *pitch* before.
+4. He swung at the first *pitch*.
+5. That fastball was the best *pitch* of the inning.
+6. The umpire called the *pitch* a strike.
 
-**3. A throw of the ball to the batter in baseball.** (подача (в бейсболе))
+**3. How high or low a musical sound is.** (высота звука)
 
-7. He swung at the first *pitch*.
-8. That fastball was the best *pitch* of the inning.
-9. The umpire called the *pitch* a strike.
+7. She has perfect *pitch*.
+8. His voice dropped in *pitch* at the end of the line.
+9. The whole choir was singing under *pitch*.
 
 **4. The steepness of a slope, especially of a roof.** (уклон, скат (крыши))
 
@@ -2418,24 +2418,24 @@ Blues has 2 distinct senses.
 ### record
 
 **Pronunciation:** /ˈrɛkərd/ &middot; *REK-urd*
-**Русский:** пластинка; запись; протокол, официальная запись; судимость
+**Русский:** протокол, официальная запись; судимость; пластинка; запись
 **Plural:** *records*
 **Countability:** countable
 **Contrast:** The noun is REK-urd; the verb *to record* is rih-KORD.
 
 Record has 2 distinct senses.
 
-**1. A flat black disc that music is played from, or an album of recorded music.** (пластинка; запись)
+**1. An official written account, especially of someone's past crimes.** (протокол, официальная запись; судимость)
 
-1. He still buys *records* instead of streaming.
-2. The *record* skipped on the second track.
-3. She has a whole wall of *records*.
+1. He has a clean *record*.
+2. Her arrest *record* goes back to the nineties.
+3. Court *records* are open to the public.
 
-**2. An official written account, especially of someone's past crimes.** (протокол, официальная запись; судимость)
+**2. A flat black disc that music is played from, or an album of recorded music.** (пластинка; запись)
 
-4. He has a clean *record*.
-5. Her arrest *record* goes back to the nineties.
-6. Court *records* are open to the public.
+4. He still buys *records* instead of streaming.
+5. The *record* skipped on the second track.
+6. She has a whole wall of *records*.
 
 ---
 

@@ -145,24 +145,24 @@ The marks such as commas and periods that break writing into readable pieces.
 ### period
 
 **Pronunciation:** /ˈpɪriəd/ &middot; *PEER-ee-uhd*
-**Русский:** точка (знак препинания); период, отрезок времени; урок, учебный час; менструация, месячные
+**Русский:** период, отрезок времени; точка (знак препинания); урок, учебный час; менструация, месячные
 **Plural:** *periods*
 **Countability:** countable
 **Contrast:** American; the British call this mark a full stop.
 
 Period has 4 distinct senses.
 
-**1. The dot that ends a sentence.** (точка (знак препинания))
+**1. A length of time with a beginning and an end.** (период, отрезок времени)
 
-1. You forgot the *period* at the end of that line.
-2. Put a *period* there, not a comma.
-3. He writes in short sentences with a lot of *periods*.
+1. Sales were flat over a six-month *period*.
+2. He went through a rough *period* after the divorce.
+3. Rain is expected for short *periods* tomorrow afternoon.
 
-**2. A length of time with a beginning and an end.** (период, отрезок времени)
+**2. The dot that ends a sentence.** (точка (знак препинания))
 
-4. Sales were flat over a six-month *period*.
-5. He went through a rough *period* after the divorce.
-6. Rain is expected for short *periods* tomorrow afternoon.
+4. You forgot the *period* at the end of that line.
+5. Put a *period* there, not a comma.
+6. He writes in short sentences with a lot of *periods*.
 
 **3. One of the parts a school day is divided into for classes.** (урок, учебный час)
 
@@ -504,30 +504,30 @@ The form of a verb that shows when something happens.
 ### object
 
 **Pronunciation:** /ˈɑːbdʒɪkt/ &middot; *AHB-jikt*
-**Русский:** дополнение (в предложении); предмет, вещь; цель, задача
+**Русский:** предмет, вещь; цель, задача; дополнение (в предложении)
 **Plural:** *objects*
 **Countability:** countable
 **Contrast:** The noun is AHB-jikt with the stress up front; the verb meaning to protest is uhb-JEKT.
 
 Object has 3 distinct senses.
 
-**1. The word in a sentence that receives the action of the verb.** (дополнение (в предложении))
+**1. A thing that you can see and touch.** (предмет, вещь)
 
-1. In I read the book, book is the *object*.
-2. The verb takes a direct *object*.
-3. Underline the subjects and circle the *objects*.
+1. Please take all metal *objects* out of your pockets.
+2. A strange *object* was floating in the pool.
+3. The museum holds thousands of small *objects* from the dig.
 
-**2. A thing that you can see and touch.** (предмет, вещь)
+**2. The aim or purpose of an action or a game.** (цель, задача)
 
-4. Please take all metal *objects* out of your pockets.
-5. A strange *object* was floating in the pool.
-6. The museum holds thousands of small *objects* from the dig.
+4. The *object* of the game is to collect all four cards.
+5. The whole *object* of the exercise was to save time.
+6. Winning was never the *object*.
 
-**3. The aim or purpose of an action or a game.** (цель, задача)
+**3. The word in a sentence that receives the action of the verb.** (дополнение (в предложении))
 
-7. The *object* of the game is to collect all four cards.
-8. The whole *object* of the exercise was to save time.
-9. Winning was never the *object*.
+7. In I read the book, book is the *object*.
+8. The verb takes a direct *object*.
+9. Underline the subjects and circle the *objects*.
 
 ---
 
@@ -640,23 +640,23 @@ The set of forms a verb takes for different persons and tenses.
 ### gender
 
 **Pronunciation:** /ˈdʒɛndər/ &middot; *JEN-dur*
-**Русский:** род (грамматический); пол, гендер
+**Русский:** пол, гендер; род (грамматический)
 **Plural:** *genders*
 **Countability:** countable
 
 Gender has 2 distinct senses.
 
-**1. The class a noun belongs to in some languages, such as masculine or feminine.** (род (грамматический))
+**1. The state of being male or female, especially as a social role.** (пол, гендер)
 
-1. Russian nouns have *gender*, and English ones don't.
-2. You have to learn the *gender* along with the word.
-3. German has three *genders*.
+1. The pay gap between *genders* is narrowing.
+2. The survey does not ask about *gender*.
+3. Both *genders* were represented on the panel.
 
-**2. The state of being male or female, especially as a social role.** (пол, гендер)
+**2. The class a noun belongs to in some languages, such as masculine or feminine.** (род (грамматический))
 
-4. The pay gap between *genders* is narrowing.
-5. The survey does not ask about *gender*.
-6. Both *genders* were represented on the panel.
+4. Russian nouns have *gender*, and English ones don't.
+5. You have to learn the *gender* along with the word.
+6. German has three *genders*.
 
 ---
 
@@ -752,23 +752,23 @@ A piece added to the end of a word that changes its meaning or its part of speec
 ### ending
 
 **Pronunciation:** /ˈɛndɪŋ/ &middot; *EN-ding*
-**Русский:** окончание (грамматическое); концовка, финал
+**Русский:** концовка, финал; окончание (грамматическое)
 **Plural:** *endings*
 **Countability:** countable
 
 Ending has 2 distinct senses.
 
-**1. The letters at the end of a word that show its grammatical form.** (окончание (грамматическое))
+**1. The way a story, film, or event finishes.** (концовка, финал)
 
-1. The verb takes an -s *ending* in the third person.
-2. Russian nouns change their *endings* depending on the case.
-3. He keeps dropping the past-tense *ending*.
+1. The book has a surprisingly happy *ending*.
+2. Don't tell me the *ending*.
+3. Both *endings* were filmed and shown to test audiences.
 
-**2. The way a story, film, or event finishes.** (концовка, финал)
+**2. The letters at the end of a word that show its grammatical form.** (окончание (грамматическое))
 
-4. The book has a surprisingly happy *ending*.
-5. Don't tell me the *ending*.
-6. Both *endings* were filmed and shown to test audiences.
+4. The verb takes an -s *ending* in the third person.
+5. Russian nouns change their *endings* depending on the case.
+6. He keeps dropping the past-tense *ending*.
 
 ---
 
@@ -814,23 +814,23 @@ Superlative has 2 distinct senses.
 ### usage
 
 **Pronunciation:** /ˈjuːsɪdʒ/ &middot; *YOO-sij*
-**Русский:** словоупотребление, узус; расход, потребление
+**Русский:** расход, потребление; словоупотребление, узус
 **Countability:** uncountable
 **Contrast:** The s hisses here: YOO-sij. The verb use has a z sound: YOOZ.
 
 Usage has 2 distinct senses.
 
-**1. The way words are actually used by the people who speak a language.** (словоупотребление, узус)
+**1. The amount of something that is used.** (расход, потребление)
 
-1. That spelling is fine in American *usage*.
-2. The dictionary has a note on *usage* at the bottom.
-3. *Usage* changes faster than the rule books do.
+1. Our water *usage* went up in July.
+2. Check your data *usage* before you stream the game.
+3. The app tracks your screen *usage* by the hour.
 
-**2. The amount of something that is used.** (расход, потребление)
+**2. The way words are actually used by the people who speak a language.** (словоупотребление, узус)
 
-4. Our water *usage* went up in July.
-5. Check your data *usage* before you stream the game.
-6. The app tracks your screen *usage* by the hour.
+4. That spelling is fine in American *usage*.
+5. The dictionary has a note on *usage* at the bottom.
+6. *Usage* changes faster than the rule books do.
 
 ---
 

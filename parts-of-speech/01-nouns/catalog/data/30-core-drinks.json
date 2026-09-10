@@ -277,31 +277,19 @@
       "respell": "PAHP",
       "meaning": "Pop has 3 distinct senses.",
       "examples": [
-        "Grab me a pop while you're up.",
-        "In Michigan they call it pop, not soda.",
-        "There's a cooler full of pops on the porch.",
         "She grew up listening to eighties pop.",
         "The station plays nothing but pop.",
         "His new album leans more toward pop than country.",
         "The cork came out with a loud pop.",
         "We heard three pops and then silence.",
-        "The balloon burst with a pop."
+        "The balloon burst with a pop.",
+        "Grab me a pop while you're up.",
+        "In Michigan they call it pop, not soda.",
+        "There's a cooler full of pops on the porch."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A fizzy soft drink, in Midwestern and Northwestern speech",
-          "body": [
-            "(газировка (в северных штатах))"
-          ],
-          "examples": [
-            "Grab me a pop while you're up.",
-            "In Michigan they call it pop, not soda.",
-            "There's a cooler full of pops on the porch."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A style of popular music with catchy tunes, aimed at a wide audience",
           "body": [
             "(поп-музыка)"
@@ -313,20 +301,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A short sharp sound like a cork coming out of a bottle",
           "body": [
-            "(хлопок (звук))",
-            "---"
+            "(хлопок (звук))"
           ],
           "examples": [
             "The cork came out with a loud pop.",
             "We heard three pops and then silence.",
             "The balloon burst with a pop."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A fizzy soft drink, in Midwestern and Northwestern speech",
+          "body": [
+            "(газировка (в северных штатах))",
+            "---"
+          ],
+          "examples": [
+            "Grab me a pop while you're up.",
+            "In Michigan they call it pop, not soda.",
+            "There's a cooler full of pops on the porch."
+          ]
         }
       ],
-      "русский": "газировка (в северных штатах); поп-музыка; хлопок (звук)",
+      "русский": "поп-музыка; хлопок (звук); газировка (в северных штатах)",
       "plural": "pops",
       "countability": "countable, and uncountable as food",
       "contrast": "Regional: the Midwest says pop, the coasts say soda, and much of the South says coke."
@@ -564,9 +564,6 @@
       "respell": "DRAFT",
       "meaning": "Draft has 4 distinct senses.",
       "examples": [
-        "They've got eight beers on draft.",
-        "Is the IPA on draft or only in bottles?",
-        "Draft always tastes fresher to me.",
         "The first draft of the report is due Friday.",
         "He is on the fourth draft of the novel.",
         "Lawyers reviewed a draft of the contract.",
@@ -575,23 +572,14 @@
         "Old houses are full of drafts.",
         "He was taken third overall in the draft.",
         "Her grandfather was called up in the draft.",
-        "Both quarterbacks entered the draft a year early."
+        "Both quarterbacks entered the draft a year early.",
+        "They've got eight beers on draft.",
+        "Is the IPA on draft or only in bottles?",
+        "Draft always tastes fresher to me."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Beer served from a keg rather than from a bottle or can",
-          "body": [
-            "(разливное пиво)"
-          ],
-          "examples": [
-            "They've got eight beers on draft.",
-            "Is the IPA on draft or only in bottles?",
-            "Draft always tastes fresher to me."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An early version of a piece of writing or a plan",
           "body": [
             "(черновик, проект (документа))"
@@ -603,7 +591,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A current of cool air moving through a room",
           "body": [
             "(сквозняк)"
@@ -615,20 +603,32 @@
           ]
         },
         {
-          "n": "4",
+          "n": "3",
           "head": "The system by which sports teams pick new players, or by which a country calls people into the army",
           "body": [
-            "(драфт (набор игроков); призыв на военную службу)",
-            "---"
+            "(драфт (набор игроков); призыв на военную службу)"
           ],
           "examples": [
             "He was taken third overall in the draft.",
             "Her grandfather was called up in the draft.",
             "Both quarterbacks entered the draft a year early."
           ]
+        },
+        {
+          "n": "4",
+          "head": "Beer served from a keg rather than from a bottle or can",
+          "body": [
+            "(разливное пиво)",
+            "---"
+          ],
+          "examples": [
+            "They've got eight beers on draft.",
+            "Is the IPA on draft or only in bottles?",
+            "Draft always tastes fresher to me."
+          ]
         }
       ],
-      "русский": "разливное пиво; черновик, проект (документа); сквозняк; драфт (набор игроков); призыв на военную службу",
+      "русский": "черновик, проект (документа); сквозняк; драфт (набор игроков); призыв на военную службу; разливное пиво",
       "countability": "uncountable",
       "contrast": "Americans spell it draft, the British draught; both sound the same."
     },
@@ -876,41 +876,41 @@
       "respell": "SEL-ur",
       "meaning": "Cellar has 2 distinct senses.",
       "examples": [
-        "The restaurant keeps two thousand bottles in its cellar.",
-        "He went down to the cellar for another bottle.",
-        "Their wine cellar stays cool all summer.",
         "The restaurant keeps its wine in a cellar under the kitchen.",
         "We hid in the cellar during the tornado warning.",
-        "Old farmhouses out here often have root cellars."
+        "Old farmhouses out here often have root cellars.",
+        "The restaurant keeps two thousand bottles in its cellar.",
+        "He went down to the cellar for another bottle.",
+        "Their wine cellar stays cool all summer."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An underground room where wine is stored",
-          "body": [
-            "(погреб, винный подвал)"
-          ],
-          "examples": [
-            "The restaurant keeps two thousand bottles in its cellar.",
-            "He went down to the cellar for another bottle.",
-            "Their wine cellar stays cool all summer."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An underground room used for storing things, especially food or wine",
           "body": [
-            "(погреб, подвал)",
-            "---"
+            "(погреб, подвал)"
           ],
           "examples": [
             "The restaurant keeps its wine in a cellar under the kitchen.",
             "We hid in the cellar during the tornado warning.",
             "Old farmhouses out here often have root cellars."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An underground room where wine is stored",
+          "body": [
+            "(погреб, винный подвал)",
+            "---"
+          ],
+          "examples": [
+            "The restaurant keeps two thousand bottles in its cellar.",
+            "He went down to the cellar for another bottle.",
+            "Their wine cellar stays cool all summer."
+          ]
         }
       ],
-      "русский": "погреб, винный подвал; погреб, подвал",
+      "русский": "погреб, подвал; погреб, винный подвал",
       "plural": "cellars",
       "countability": "countable",
       "contrast": "Sounds exactly like seller."
@@ -1313,12 +1313,12 @@
       "respell": "PUNCH",
       "meaning": "Punch has 4 distinct senses.",
       "examples": [
-        "Somebody spiked the punch.",
-        "There's punch and cookies in the back.",
-        "She ladled punch into paper cups.",
         "He took a punch to the jaw.",
         "One punch ended the fight.",
         "She threw two quick punches at the bag.",
+        "Somebody spiked the punch.",
+        "There's punch and cookies in the back.",
+        "She ladled punch into paper cups.",
         "Use the three-hole punch on those handouts.",
         "The punch left a clean round hole in the leather.",
         "He kept a set of punches in the bottom drawer.",
@@ -1329,18 +1329,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A sweet drink of juice mixed in a large bowl, sometimes with alcohol",
-          "body": [
-            "(пунш)"
-          ],
-          "examples": [
-            "Somebody spiked the punch.",
-            "There's punch and cookies in the back.",
-            "She ladled punch into paper cups."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A hard blow with the fist",
           "body": [
             "(удар кулаком)"
@@ -1349,6 +1337,18 @@
             "He took a punch to the jaw.",
             "One punch ended the fight.",
             "She threw two quick punches at the bag."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sweet drink of juice mixed in a large bowl, sometimes with alcohol",
+          "body": [
+            "(пунш)"
+          ],
+          "examples": [
+            "Somebody spiked the punch.",
+            "There's punch and cookies in the back.",
+            "She ladled punch into paper cups."
           ]
         },
         {
@@ -1377,7 +1377,7 @@
           ]
         }
       ],
-      "русский": "пунш; удар кулаком; дырокол; пробойник; выразительность, сила воздействия",
+      "русский": "удар кулаком; пунш; дырокол; пробойник; выразительность, сила воздействия",
       "countability": "uncountable"
     },
     {
@@ -1415,41 +1415,41 @@
       "respell": "MIK-sur",
       "meaning": "Mixer has 2 distinct senses.",
       "examples": [
-        "We have the vodka but no mixers.",
-        "Cranberry juice is the only mixer in the house.",
-        "Pick up some mixers on your way over.",
         "Beat the butter and sugar with a mixer for three minutes.",
         "Her stand mixer takes up half the counter.",
-        "Hand mixers work fine for most recipes."
+        "Hand mixers work fine for most recipes.",
+        "We have the vodka but no mixers.",
+        "Cranberry juice is the only mixer in the house.",
+        "Pick up some mixers on your way over."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A nonalcoholic drink added to liquor in a cocktail",
-          "body": [
-            "(безалкогольный компонент коктейля (сок, тоник и т. п.))"
-          ],
-          "examples": [
-            "We have the vodka but no mixers.",
-            "Cranberry juice is the only mixer in the house.",
-            "Pick up some mixers on your way over."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An electric machine with beaters for mixing batter and dough",
           "body": [
-            "(миксер)",
-            "---"
+            "(миксер)"
           ],
           "examples": [
             "Beat the butter and sugar with a mixer for three minutes.",
             "Her stand mixer takes up half the counter.",
             "Hand mixers work fine for most recipes."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A nonalcoholic drink added to liquor in a cocktail",
+          "body": [
+            "(безалкогольный компонент коктейля (сок, тоник и т. п.))",
+            "---"
+          ],
+          "examples": [
+            "We have the vodka but no mixers.",
+            "Cranberry juice is the only mixer in the house.",
+            "Pick up some mixers on your way over."
+          ]
         }
       ],
-      "русский": "безалкогольный компонент коктейля (сок, тоник и т. п.); миксер",
+      "русский": "миксер; безалкогольный компонент коктейля (сок, тоник и т. п.)",
       "plural": "mixers",
       "countability": "countable"
     },
@@ -1534,41 +1534,41 @@
       "respell": "SHAY-kur",
       "meaning": "Shaker has 2 distinct senses.",
       "examples": [
-        "He rattled the shaker for a good ten seconds.",
-        "The bar had two shakers going at once.",
-        "Pour it straight out of the shaker through a strainer.",
         "Pass me the salt shaker.",
         "The pepper shaker is clogged again.",
-        "Every table in the diner had matching shakers."
+        "Every table in the diner had matching shakers.",
+        "He rattled the shaker for a good ten seconds.",
+        "The bar had two shakers going at once.",
+        "Pour it straight out of the shaker through a strainer."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A metal container for mixing a cocktail with ice",
-          "body": [
-            "(шейкер)"
-          ],
-          "examples": [
-            "He rattled the shaker for a good ten seconds.",
-            "The bar had two shakers going at once.",
-            "Pour it straight out of the shaker through a strainer."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small container with holes in the top for sprinkling salt or pepper",
           "body": [
-            "(солонка, перечница)",
-            "---"
+            "(солонка, перечница)"
           ],
           "examples": [
             "Pass me the salt shaker.",
             "The pepper shaker is clogged again.",
             "Every table in the diner had matching shakers."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A metal container for mixing a cocktail with ice",
+          "body": [
+            "(шейкер)",
+            "---"
+          ],
+          "examples": [
+            "He rattled the shaker for a good ten seconds.",
+            "The bar had two shakers going at once.",
+            "Pour it straight out of the shaker through a strainer."
+          ]
         }
       ],
-      "русский": "шейкер; солонка, перечница",
+      "русский": "солонка, перечница; шейкер",
       "plural": "shakers",
       "countability": "countable"
     },
@@ -2056,12 +2056,12 @@
       "respell": "TAP",
       "meaning": "Tap has 3 distinct senses.",
       "examples": [
-        "They have twenty beers on tap.",
-        "The bartender cleaned the taps before opening.",
-        "This one's fresh off the tap.",
         "I felt a tap on my shoulder.",
         "A double tap on the screen zooms in.",
         "He gave the microphone a couple of taps.",
+        "They have twenty beers on tap.",
+        "The bartender cleaned the taps before opening.",
+        "This one's fresh off the tap.",
         "The FBI put a tap on his phone.",
         "A judge approved the tap that week.",
         "They found a tap on the office line."
@@ -2069,18 +2069,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The valve that beer is poured from at a bar",
-          "body": [
-            "(кран (пивной))"
-          ],
-          "examples": [
-            "They have twenty beers on tap.",
-            "The bartender cleaned the taps before opening.",
-            "This one's fresh off the tap."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A light knock or touch with a finger or a foot",
           "body": [
             "(лёгкий удар, постукивание; касание пальцем)"
@@ -2089,6 +2077,18 @@
             "I felt a tap on my shoulder.",
             "A double tap on the screen zooms in.",
             "He gave the microphone a couple of taps."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The valve that beer is poured from at a bar",
+          "body": [
+            "(кран (пивной))"
+          ],
+          "examples": [
+            "They have twenty beers on tap.",
+            "The bartender cleaned the taps before opening.",
+            "This one's fresh off the tap."
           ]
         },
         {
@@ -2105,7 +2105,7 @@
           ]
         }
       ],
-      "русский": "кран (пивной); лёгкий удар, постукивание; касание пальцем; прослушка, подслушивающее устройство",
+      "русский": "лёгкий удар, постукивание; касание пальцем; кран (пивной); прослушка, подслушивающее устройство",
       "plural": "taps",
       "countability": "countable"
     },
@@ -2426,12 +2426,12 @@
       "respell": "ROWND",
       "meaning": "Round has 4 distinct senses.",
       "examples": [
-        "This round is on me.",
-        "They bought three rounds before dinner even arrived.",
-        "It's your turn to get the next round.",
         "They were knocked out in the first round.",
         "I made it to the final round of interviews.",
         "The next round of talks starts in April.",
+        "This round is on me.",
+        "They bought three rounds before dinner even arrived.",
+        "It's your turn to get the next round.",
         "He fired three rounds into the target.",
         "The magazine holds fifteen rounds.",
         "There was one round left in the chamber.",
@@ -2442,18 +2442,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A drink bought for everyone in the group at the same time",
-          "body": [
-            "(угощение (по напитку каждому в компании))"
-          ],
-          "examples": [
-            "This round is on me.",
-            "They bought three rounds before dinner even arrived.",
-            "It's your turn to get the next round."
-          ]
-        },
-        {
-          "n": "2",
           "head": "One stage in a competition or in a series of events",
           "body": [
             "(раунд, тур, этап)"
@@ -2462,6 +2450,18 @@
             "They were knocked out in the first round.",
             "I made it to the final round of interviews.",
             "The next round of talks starts in April."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A drink bought for everyone in the group at the same time",
+          "body": [
+            "(угощение (по напитку каждому в компании))"
+          ],
+          "examples": [
+            "This round is on me.",
+            "They bought three rounds before dinner even arrived.",
+            "It's your turn to get the next round."
           ]
         },
         {
@@ -2490,7 +2490,7 @@
           ]
         }
       ],
-      "русский": "угощение (по напитку каждому в компании); раунд, тур, этап; патрон; обход (врача, почтальона)",
+      "русский": "раунд, тур, этап; угощение (по напитку каждому в компании); патрон; обход (врача, почтальона)",
       "plural": "rounds",
       "countability": "countable"
     },

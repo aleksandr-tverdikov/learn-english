@@ -1373,12 +1373,12 @@
       "respell": "TAB-luht",
       "meaning": "Tablet has 3 distinct senses.",
       "examples": [
-        "Dissolve the tablet in a glass of water.",
-        "Two tablets every six hours.",
-        "The tablet has a line down the middle so you can split it.",
         "She reads the news on her tablet every morning.",
         "The kids share a tablet for schoolwork.",
         "My tablet needs charging again.",
+        "Dissolve the tablet in a glass of water.",
+        "Two tablets every six hours.",
+        "The tablet has a line down the middle so you can split it.",
         "The museum displays a clay tablet covered in ancient writing.",
         "A bronze tablet by the door lists the building's donors.",
         "The commandments were carved on stone tablets."
@@ -1386,18 +1386,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A flat, pressed piece of medicine",
-          "body": [
-            "(таблетка)"
-          ],
-          "examples": [
-            "Dissolve the tablet in a glass of water.",
-            "Two tablets every six hours.",
-            "The tablet has a line down the middle so you can split it."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A flat, thin computer with a touchscreen and no attached keyboard",
           "body": [
             "(планшет)"
@@ -1406,6 +1394,18 @@
             "She reads the news on her tablet every morning.",
             "The kids share a tablet for schoolwork.",
             "My tablet needs charging again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat, pressed piece of medicine",
+          "body": [
+            "(таблетка)"
+          ],
+          "examples": [
+            "Dissolve the tablet in a glass of water.",
+            "Two tablets every six hours.",
+            "The tablet has a line down the middle so you can split it."
           ]
         },
         {
@@ -1422,7 +1422,7 @@
           ]
         }
       ],
-      "русский": "таблетка; планшет; плита, табличка (с надписью)",
+      "русский": "планшет; таблетка; плита, табличка (с надписью)",
       "plural": "tablets",
       "countability": "countable"
     },
@@ -2162,41 +2162,41 @@
       "respell": "TEM-pruh-chur",
       "meaning": "Temperature has 2 distinct senses.",
       "examples": [
-        "Let me take your temperature.",
-        "His temperature is up to 101.",
-        "Temperatures over 104 need a doctor.",
         "Bring the butter to room temperature first.",
         "Check the internal temperature with a thermometer.",
-        "Ovens hold temperatures differently, so watch the food, not the clock."
+        "Ovens hold temperatures differently, so watch the food, not the clock.",
+        "Let me take your temperature.",
+        "His temperature is up to 101.",
+        "Temperatures over 104 need a doctor."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "How hot the body is, measured as a sign of health",
-          "body": [
-            "(температура (тела))"
-          ],
-          "examples": [
-            "Let me take your temperature.",
-            "His temperature is up to 101.",
-            "Temperatures over 104 need a doctor."
-          ]
-        },
-        {
-          "n": "2",
           "head": "How hot or cold something is, measured in degrees",
           "body": [
-            "(температура)",
-            "---"
+            "(температура)"
           ],
           "examples": [
             "Bring the butter to room temperature first.",
             "Check the internal temperature with a thermometer.",
             "Ovens hold temperatures differently, so watch the food, not the clock."
           ]
+        },
+        {
+          "n": "2",
+          "head": "How hot the body is, measured as a sign of health",
+          "body": [
+            "(температура (тела))",
+            "---"
+          ],
+          "examples": [
+            "Let me take your temperature.",
+            "His temperature is up to 101.",
+            "Temperatures over 104 need a doctor."
+          ]
         }
       ],
-      "русский": "температура (тела); температура",
+      "русский": "температура; температура (тела)",
       "plural": "temperatures",
       "countability": "countable",
       "contrast": "Usually squeezed to three syllables in American speech — TEM-pruh-chur, not TEM-per-uh-toor."

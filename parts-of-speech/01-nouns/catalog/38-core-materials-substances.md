@@ -1276,23 +1276,23 @@ Compound has 2 distinct senses.
 ### element
 
 **Pronunciation:** /ˈɛləmənt/ &middot; *EL-uh-muhnt*
-**Русский:** химический элемент; элемент, составная часть; доля (чего-либо); стихия, непогода; нагревательный элемент, тэн
+**Русский:** элемент, составная часть; доля (чего-либо); химический элемент; стихия, непогода; нагревательный элемент, тэн
 **Plural:** *elements*
 **Countability:** countable
 
 Element has 4 distinct senses.
 
-**1. A pure substance that cannot be broken down into anything simpler.** (химический элемент)
+**1. One of the parts or qualities that make up a whole.** (элемент, составная часть; доля (чего-либо))
 
-1. Gold is an *element*; brass is not.
-2. About ninety *elements* occur in nature.
-3. Carbon is the *element* all life is built on.
+1. There's an *element* of risk in any investment.
+2. The story has all the *elements* of a good thriller.
+3. An *element* of truth ran through the rumor.
 
-**2. One of the parts or qualities that make up a whole.** (элемент, составная часть; доля (чего-либо))
+**2. A pure substance that cannot be broken down into anything simpler.** (химический элемент)
 
-4. There's an *element* of risk in any investment.
-5. The story has all the *elements* of a good thriller.
-6. An *element* of truth ran through the rumor.
+4. Gold is an *element*; brass is not.
+5. About ninety *elements* occur in nature.
+6. Carbon is the *element* all life is built on.
 
 **3. The weather, especially when it is cold, wet, or rough.** (стихия, непогода)
 

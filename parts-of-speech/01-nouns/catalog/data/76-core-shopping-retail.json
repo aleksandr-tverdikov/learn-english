@@ -190,12 +190,12 @@
       "respell": "iks-CHAYNJ",
       "meaning": "Exchange has 4 distinct senses.",
       "examples": [
-        "They gave me an even exchange for a larger size.",
-        "The store allows exchanges within thirty days.",
-        "Without the tag, no refund and no exchange.",
         "The two sides agreed to an exchange of prisoners.",
         "He fixed my car in exchange for a week of dog-sitting.",
         "The treaty allows an exchange of scientific data.",
+        "They gave me an even exchange for a larger size.",
+        "The store allows exchanges within thirty days.",
+        "Without the tag, no refund and no exchange.",
         "There was a heated exchange between the two senators.",
         "I only had a brief exchange with her at the door.",
         "The whole exchange was caught on video.",
@@ -206,18 +206,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The act of trading a bought item for a different one",
-          "body": [
-            "(обмен (товара))"
-          ],
-          "examples": [
-            "They gave me an even exchange for a larger size.",
-            "The store allows exchanges within thirty days.",
-            "Without the tag, no refund and no exchange."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An act of giving one thing and getting another in return",
           "body": [
             "(обмен (взаимный))"
@@ -226,6 +214,18 @@
             "The two sides agreed to an exchange of prisoners.",
             "He fixed my car in exchange for a week of dog-sitting.",
             "The treaty allows an exchange of scientific data."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of trading a bought item for a different one",
+          "body": [
+            "(обмен (товара))"
+          ],
+          "examples": [
+            "They gave me an even exchange for a larger size.",
+            "The store allows exchanges within thirty days.",
+            "Without the tag, no refund and no exchange."
           ]
         },
         {
@@ -254,7 +254,7 @@
           ]
         }
       ],
-      "русский": "обмен (товара); обмен (взаимный); разговор, перепалка, обмен репликами; биржа",
+      "русский": "обмен (взаимный); обмен (товара); разговор, перепалка, обмен репликами; биржа",
       "plural": "exchanges",
       "countability": "countable"
     },
@@ -1494,41 +1494,41 @@
       "respell": "suh-LEK-shun",
       "meaning": "Selection has 2 distinct senses.",
       "examples": [
-        "That store has a great selection of cheese.",
-        "Their online selections are bigger than in the shop.",
-        "The selection thins out by Sunday night.",
         "The selection of a new principal took months.",
         "His selection for the national team surprised no one.",
-        "The judges announced their selections on Friday."
+        "The judges announced their selections on Friday.",
+        "That store has a great selection of cheese.",
+        "Their online selections are bigger than in the shop.",
+        "The selection thins out by Sunday night."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The range of goods a store offers to choose from",
-          "body": [
-            "(выбор, ассортимент)"
-          ],
-          "examples": [
-            "That store has a great selection of cheese.",
-            "Their online selections are bigger than in the shop.",
-            "The selection thins out by Sunday night."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act of choosing someone or something, or the one that is chosen",
           "body": [
-            "(выбор, отбор)",
-            "---"
+            "(выбор, отбор)"
           ],
           "examples": [
             "The selection of a new principal took months.",
             "His selection for the national team surprised no one.",
             "The judges announced their selections on Friday."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The range of goods a store offers to choose from",
+          "body": [
+            "(выбор, ассортимент)",
+            "---"
+          ],
+          "examples": [
+            "That store has a great selection of cheese.",
+            "Their online selections are bigger than in the shop.",
+            "The selection thins out by Sunday night."
+          ]
         }
       ],
-      "русский": "выбор, ассортимент; выбор, отбор",
+      "русский": "выбор, отбор; выбор, ассортимент",
       "plural": "selections",
       "countability": "countable"
     },

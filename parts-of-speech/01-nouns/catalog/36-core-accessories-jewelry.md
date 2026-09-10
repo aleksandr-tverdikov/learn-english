@@ -1247,22 +1247,22 @@ Blush has 2 distinct senses.
 ### powder
 
 **Pronunciation:** /ˈpaʊdər/ &middot; *POW-dur*
-**Русский:** пудра; порошок; пудра
+**Русский:** порошок; пудра; пудра
 **Countability:** uncountable
 
 Powder has 2 distinct senses.
 
-**1. Fine dry cosmetic dust patted onto the skin.** (пудра)
+**1. A substance in the form of very fine dry particles.** (порошок; пудра)
 
-1. She set her makeup with translucent *powder*.
-2. There's *powder* all over the bathroom counter.
-3. He shook baby *powder* into his shoes.
+1. Grind the pills into a fine *powder*.
+2. Stir the *powder* into a cup of warm water.
+3. There was a white *powder* all over the counter.
 
-**2. A substance in the form of very fine dry particles.** (порошок; пудра)
+**2. Fine dry cosmetic dust patted onto the skin.** (пудра)
 
-4. Grind the pills into a fine *powder*.
-5. Stir the *powder* into a cup of warm water.
-6. There was a white *powder* all over the counter.
+4. She set her makeup with translucent *powder*.
+5. There's *powder* all over the bathroom counter.
+6. He shook baby *powder* into his shoes.
 
 ---
 

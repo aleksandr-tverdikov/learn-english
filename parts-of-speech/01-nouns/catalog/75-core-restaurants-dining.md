@@ -1052,24 +1052,24 @@ Someone who books a table and never comes.
 ### queue
 
 **Pronunciation:** /kjuː/ &middot; *KYOO*
-**Русский:** очередь; очередь (заданий), список отложенного
+**Русский:** очередь (заданий), список отложенного; очередь
 **Plural:** *queues*
 **Countability:** countable
 **Contrast:** Americans normally say 'line'; queue sounds British — and only the first letter is pronounced.
 
 Queue has 2 distinct senses.
 
-**1. A line of people waiting their turn.** (очередь)
+**1. A list of items waiting to be handled by a computer or saved to use later.** (очередь (заданий), список отложенного)
 
-1. There was a *queue* out the door and around the corner.
-2. We joined the *queue* for the buffet.
-3. The *queues* move fast once they open the second register.
+1. Your document is third in the print *queue*.
+2. I added the movie to my *queue* and forgot about it.
+3. Support tickets sit in a *queue* until someone picks them up.
 
-**2. A list of items waiting to be handled by a computer or saved to use later.** (очередь (заданий), список отложенного)
+**2. A line of people waiting their turn.** (очередь)
 
-4. Your document is third in the print *queue*.
-5. I added the movie to my *queue* and forgot about it.
-6. Support tickets sit in a *queue* until someone picks them up.
+4. There was a *queue* out the door and around the corner.
+5. We joined the *queue* for the buffet.
+6. The *queues* move fast once they open the second register.
 
 ---
 
@@ -1724,23 +1724,23 @@ An alcoholic drink taken before a meal to sharpen the appetite.
 ### booster seat
 
 **Pronunciation:** /ˈbuːstər siːt/ &middot; *BOO-stur-seet*
-**Русский:** детское сиденье-подкладка (на стул); детское сиденье-бустер
+**Русский:** детское сиденье-бустер; детское сиденье-подкладка (на стул)
 **Plural:** *booster seats*
 **Countability:** countable
 
 Booster seat has 2 distinct senses.
 
-**1. A seat that raises a small child up to table height.** (детское сиденье-подкладка (на стул))
+**1. A cushion seat that lifts an older child so the seat belt fits.** (детское сиденье-бустер)
 
-1. Could we get a *booster seat* for her?
-2. The *booster seat* straps onto a regular chair.
-3. They keep *booster seats* stacked by the front door.
+1. She moved out of the car seat and into a *booster seat*.
+2. The restaurant brought a *booster seat* to the table.
+3. We keep two *booster seats* in the trunk.
 
-**2. A cushion seat that lifts an older child so the seat belt fits.** (детское сиденье-бустер)
+**2. A seat that raises a small child up to table height.** (детское сиденье-подкладка (на стул))
 
-4. She moved out of the car seat and into a *booster seat*.
-5. The restaurant brought a *booster seat* to the table.
-6. We keep two *booster seats* in the trunk.
+4. Could we get a *booster seat* for her?
+5. The *booster seat* straps onto a regular chair.
+6. They keep *booster seats* stacked by the front door.
 
 ---
 

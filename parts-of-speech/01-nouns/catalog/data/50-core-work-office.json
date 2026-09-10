@@ -1546,12 +1546,12 @@
       "respell": "puh-ZISH-uhn",
       "meaning": "Position has 4 distinct senses.",
       "examples": [
-        "I'm applying for a position in marketing.",
-        "The position has been open since March.",
-        "They're filling three positions this fall.",
         "Note the position of the sun just before it sets.",
         "The movers put the couch back in its old position.",
         "She shifted into a more comfortable position on the couch.",
+        "I'm applying for a position in marketing.",
+        "The position has been open since March.",
+        "They're filling three positions this fall.",
         "What's your position on the new tax?",
         "The senator softened her position after the hearing.",
         "Both sides restated their positions and went home.",
@@ -1562,18 +1562,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A particular job within an organization",
-          "body": [
-            "(должность)"
-          ],
-          "examples": [
-            "I'm applying for a position in marketing.",
-            "The position has been open since March.",
-            "They're filling three positions this fall."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The place where someone or something is, or the way they are set or held",
           "body": [
             "(положение, местоположение)"
@@ -1582,6 +1570,18 @@
             "Note the position of the sun just before it sets.",
             "The movers put the couch back in its old position.",
             "She shifted into a more comfortable position on the couch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular job within an organization",
+          "body": [
+            "(должность)"
+          ],
+          "examples": [
+            "I'm applying for a position in marketing.",
+            "The position has been open since March.",
+            "They're filling three positions this fall."
           ]
         },
         {
@@ -1610,7 +1610,7 @@
           ]
         }
       ],
-      "русский": "должность; положение, местоположение; позиция, точка зрения; позиция, амплуа (в спорте)",
+      "русский": "положение, местоположение; должность; позиция, точка зрения; позиция, амплуа (в спорте)",
       "plural": "positions",
       "countability": "countable"
     },

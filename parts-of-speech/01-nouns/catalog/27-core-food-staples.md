@@ -266,23 +266,23 @@ Ingredient has 2 distinct senses.
 ### portion
 
 **Pronunciation:** /ˈpɔːrʃn/ &middot; *POR-shuhn*
-**Русский:** порция; часть, доля
+**Русский:** часть, доля; порция
 **Plural:** *portions*
 **Countability:** countable
 
 Portion has 2 distinct senses.
 
-**1. The amount of food served to one person.** (порция)
+**1. A part of something larger.** (часть, доля)
 
-1. The *portions* here are huge.
-2. He asked for a smaller *portion*.
-3. Split it into four *portions*.
+1. A large *portion* of the budget goes to salaries.
+2. Only a small *portion* of the land is farmed.
+3. She donates a *portion* of every paycheck.
 
-**2. A part of something larger.** (часть, доля)
+**2. The amount of food served to one person.** (порция)
 
-4. A large *portion* of the budget goes to salaries.
-5. Only a small *portion* of the land is farmed.
-6. She donates a *portion* of every paycheck.
+4. The *portions* here are huge.
+5. He asked for a smaller *portion*.
+6. Split it into four *portions*.
 
 ---
 

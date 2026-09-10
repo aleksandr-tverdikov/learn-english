@@ -3861,23 +3861,23 @@ A small chewy cookie made from egg whites with shredded coconut or ground almond
 ### mace
 
 **Pronunciation:** /meɪs/ &middot; *MAYS*
-**Русский:** булава; жезл; газовый (перцовый) баллончик; мацис, мускатный цвет (пряность)
+**Русский:** газовый (перцовый) баллончик; булава; жезл; мацис, мускатный цвет (пряность)
 **Plural:** *maces*
 **Countability:** countable
 
 Mace has 3 distinct senses.
 
-**1. A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff.** (булава; жезл)
+**1. A chemical spray carried to blind and disable an attacker.** (газовый (перцовый) баллончик)
 
-1. The knight swung a *mace* instead of a sword.
-2. Two ceremonial *maces* stood beside the speaker's chair.
-3. A *mace* could crush armor that a blade couldn't cut.
+1. She keeps a can of *mace* in her purse.
+2. The guard used *mace* to break up the fight.
+3. *Mace* is legal to carry in most states.
 
-**2. A chemical spray carried to blind and disable an attacker.** (газовый (перцовый) баллончик)
+**2. A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff.** (булава; жезл)
 
-4. She keeps a can of *mace* in her purse.
-5. The guard used *mace* to break up the fight.
-6. *Mace* is legal to carry in most states.
+4. The knight swung a *mace* instead of a sword.
+5. Two ceremonial *maces* stood beside the speaker's chair.
+6. A *mace* could crush armor that a blade couldn't cut.
 
 **3. A warm orange-brown spice made from the covering of the nutmeg seed.** (мацис, мускатный цвет (пряность))
 

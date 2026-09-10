@@ -202,19 +202,31 @@
       "respell": "dih-FENSS",
       "meaning": "Defense has 3 distinct senses.",
       "examples": [
+        "The city's defense held for a week.",
+        "The country spends billions on national defense.",
+        "The coastal defenses were never finished.",
         "The defense rested after two witnesses.",
         "Self-preservation was the only defense he had.",
         "Their defenses fell apart under questioning.",
         "Defense takes up a huge share of the budget.",
         "She works at the Department of Defense.",
-        "They voted to raise defense spending again.",
-        "The city's defense held for a week.",
-        "The country spends billions on national defense.",
-        "The coastal defenses were never finished."
+        "They voted to raise defense spending again."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "Protection against attack, or the walls and works built to provide it",
+          "body": [
+            "(оборона; (мн. ч.) укрепления)"
+          ],
+          "examples": [
+            "The city's defense held for a week.",
+            "The country spends billions on national defense.",
+            "The coastal defenses were never finished."
+          ]
+        },
+        {
+          "n": "2",
           "head": "The side arguing for the accused person in court, or the case they make",
           "body": [
             "(защита (в суде))"
@@ -226,32 +238,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "The protection of a country against attack, and the money and forces used for it",
           "body": [
-            "(оборона)"
+            "(оборона)",
+            "---"
           ],
           "examples": [
             "Defense takes up a huge share of the budget.",
             "She works at the Department of Defense.",
             "They voted to raise defense spending again."
           ]
-        },
-        {
-          "n": "3",
-          "head": "Protection against attack, or the walls and works built to provide it",
-          "body": [
-            "(оборона; (мн. ч.) укрепления)",
-            "---"
-          ],
-          "examples": [
-            "The city's defense held for a week.",
-            "The country spends billions on national defense.",
-            "The coastal defenses were never finished."
-          ]
         }
       ],
-      "русский": "защита (в суде); оборона; оборона; (мн. ч.) укрепления",
+      "русский": "оборона; (мн. ч.) укрепления; защита (в суде); оборона",
       "plural": "defenses",
       "countability": "countable",
       "contrast": "American spelling is defense; the British write defence."
@@ -321,41 +321,41 @@
       "respell": "HEER-ing",
       "meaning": "Hearing has 2 distinct senses.",
       "examples": [
-        "The hearing is set for the tenth.",
-        "She testified at a Senate hearing.",
-        "Two hearings were postponed.",
         "My grandfather's hearing isn't what it used to be.",
         "Years of loud concerts damaged his hearing.",
-        "She lost the hearing in one ear after the infection."
+        "She lost the hearing in one ear after the infection.",
+        "The hearing is set for the tenth.",
+        "She testified at a Senate hearing.",
+        "Two hearings were postponed."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A meeting in court or before officials where evidence and arguments are heard",
-          "body": [
-            "(слушание (в суде))"
-          ],
-          "examples": [
-            "The hearing is set for the tenth.",
-            "She testified at a Senate hearing.",
-            "Two hearings were postponed."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The ability to hear",
           "body": [
-            "(слух)",
-            "---"
+            "(слух)"
           ],
           "examples": [
             "My grandfather's hearing isn't what it used to be.",
             "Years of loud concerts damaged his hearing.",
             "She lost the hearing in one ear after the infection."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A meeting in court or before officials where evidence and arguments are heard",
+          "body": [
+            "(слушание (в суде))",
+            "---"
+          ],
+          "examples": [
+            "The hearing is set for the tenth.",
+            "She testified at a Senate hearing.",
+            "Two hearings were postponed."
+          ]
         }
       ],
-      "русский": "слушание (в суде); слух",
+      "русский": "слух; слушание (в суде)",
       "plural": "hearings",
       "countability": "countable"
     },
@@ -483,41 +483,41 @@
       "respell": "SEN-tuhns",
       "meaning": "Sentence has 2 distinct senses.",
       "examples": [
-        "He got a five-year sentence.",
-        "The judge suspended the sentence.",
-        "Longer sentences haven't reduced the crime rate.",
         "Write your answer in one complete sentence.",
         "That sentence is missing a verb.",
-        "He reads the first two sentences of an article and stops."
+        "He reads the first two sentences of an article and stops.",
+        "He got a five-year sentence.",
+        "The judge suspended the sentence.",
+        "Longer sentences haven't reduced the crime rate."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The punishment a court orders for someone found guilty",
-          "body": [
-            "(приговор (наказание))"
-          ],
-          "examples": [
-            "He got a five-year sentence.",
-            "The judge suspended the sentence.",
-            "Longer sentences haven't reduced the crime rate."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A group of words that expresses a complete thought",
           "body": [
-            "(предложение (в грамматике))",
-            "---"
+            "(предложение (в грамматике))"
           ],
           "examples": [
             "Write your answer in one complete sentence.",
             "That sentence is missing a verb.",
             "He reads the first two sentences of an article and stops."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The punishment a court orders for someone found guilty",
+          "body": [
+            "(приговор (наказание))",
+            "---"
+          ],
+          "examples": [
+            "He got a five-year sentence.",
+            "The judge suspended the sentence.",
+            "Longer sentences haven't reduced the crime rate."
+          ]
         }
       ],
-      "русский": "приговор (наказание); предложение (в грамматике)",
+      "русский": "предложение (в грамматике); приговор (наказание)",
       "plural": "sentences",
       "countability": "countable",
       "contrast": "The same word means a sentence in grammar; only context tells you which."
@@ -528,19 +528,31 @@
       "respell": "uh-PEEL",
       "meaning": "Appeal has 3 distinct senses.",
       "examples": [
+        "The show has broad appeal across age groups.",
+        "I never understood the appeal of camping.",
+        "The car's appeal is that anyone can fix it.",
         "Her lawyers filed an appeal the next morning.",
         "The appeal was denied.",
         "He has two appeals still pending.",
         "The shelter put out an appeal for winter coats.",
         "Their appeal raised forty thousand dollars in a week.",
-        "Police made a televised appeal for witnesses.",
-        "The show has broad appeal across age groups.",
-        "I never understood the appeal of camping.",
-        "The car's appeal is that anyone can fix it."
+        "Police made a televised appeal for witnesses."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "The quality that makes something or someone attractive or interesting",
+          "body": [
+            "(привлекательность, притягательность)"
+          ],
+          "examples": [
+            "The show has broad appeal across age groups.",
+            "I never understood the appeal of camping.",
+            "The car's appeal is that anyone can fix it."
+          ]
+        },
+        {
+          "n": "2",
           "head": "A request that a higher court review and change a decision",
           "body": [
             "(апелляция, обжалование)"
@@ -552,32 +564,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "An urgent public request for money or help",
           "body": [
-            "(призыв, обращение (за помощью))"
+            "(призыв, обращение (за помощью))",
+            "---"
           ],
           "examples": [
             "The shelter put out an appeal for winter coats.",
             "Their appeal raised forty thousand dollars in a week.",
             "Police made a televised appeal for witnesses."
           ]
-        },
-        {
-          "n": "3",
-          "head": "The quality that makes something or someone attractive or interesting",
-          "body": [
-            "(привлекательность, притягательность)",
-            "---"
-          ],
-          "examples": [
-            "The show has broad appeal across age groups.",
-            "I never understood the appeal of camping.",
-            "The car's appeal is that anyone can fix it."
-          ]
         }
       ],
-      "русский": "апелляция, обжалование; призыв, обращение (за помощью); привлекательность, притягательность",
+      "русский": "привлекательность, притягательность; апелляция, обжалование; призыв, обращение (за помощью)",
       "plural": "appeals",
       "countability": "countable"
     },
@@ -842,19 +842,31 @@
       "respell": "JUJ-muhnt",
       "meaning": "Judgment has 3 distinct senses.",
       "examples": [
+        "I trust her judgment on hiring.",
+        "He kept his judgments to himself during the meeting.",
+        "Drinking clouds your judgment.",
         "The court entered a judgment against the company.",
         "He still hasn't paid the judgment.",
         "Small-claims judgments are hard to collect.",
         "The painting shows the day of judgment.",
         "He preached about judgment and mercy.",
-        "They believe everyone faces judgment in the end.",
-        "I trust her judgment on hiring.",
-        "He kept his judgments to himself during the meeting.",
-        "Drinking clouds your judgment."
+        "They believe everyone faces judgment in the end."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "The ability to make sensible decisions, or an opinion formed after thinking",
+          "body": [
+            "(суждение; рассудительность)"
+          ],
+          "examples": [
+            "I trust her judgment on hiring.",
+            "He kept his judgments to himself during the meeting.",
+            "Drinking clouds your judgment."
+          ]
+        },
+        {
+          "n": "2",
           "head": "A court's formal decision, especially about who owes money to whom",
           "body": [
             "(решение суда)"
@@ -866,32 +878,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "God's decision about whether people have lived rightly",
           "body": [
-            "(суд (Божий), осуждение)"
+            "(суд (Божий), осуждение)",
+            "---"
           ],
           "examples": [
             "The painting shows the day of judgment.",
             "He preached about judgment and mercy.",
             "They believe everyone faces judgment in the end."
           ]
-        },
-        {
-          "n": "3",
-          "head": "The ability to make sensible decisions, or an opinion formed after thinking",
-          "body": [
-            "(суждение; рассудительность)",
-            "---"
-          ],
-          "examples": [
-            "I trust her judgment on hiring.",
-            "He kept his judgments to himself during the meeting.",
-            "Drinking clouds your judgment."
-          ]
         }
       ],
-      "русский": "решение суда; суд (Божий), осуждение; суждение; рассудительность",
+      "русский": "суждение; рассудительность; решение суда; суд (Божий), осуждение",
       "plural": "judgments",
       "countability": "countable",
       "contrast": "Americans spell it judgment, with no e after the g; the British often write judgement."
@@ -1478,41 +1478,41 @@
       "respell": "kuhn-TEMPT",
       "meaning": "Contempt has 2 distinct senses.",
       "examples": [
-        "The judge held him in contempt.",
-        "She spent a night in jail for contempt of court.",
-        "One more outburst and you're in contempt.",
         "He treated the whole idea with contempt.",
         "You could see the contempt in her expression.",
-        "Familiarity does not always breed contempt."
+        "Familiarity does not always breed contempt.",
+        "The judge held him in contempt.",
+        "She spent a night in jail for contempt of court.",
+        "One more outburst and you're in contempt."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Disobeying a court or disrupting it, which a judge can punish directly",
-          "body": [
-            "(неуважение к суду)"
-          ],
-          "examples": [
-            "The judge held him in contempt.",
-            "She spent a night in jail for contempt of court.",
-            "One more outburst and you're in contempt."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The feeling that someone or something is worthless",
           "body": [
-            "(презрение)",
-            "---"
+            "(презрение)"
           ],
           "examples": [
             "He treated the whole idea with contempt.",
             "You could see the contempt in her expression.",
             "Familiarity does not always breed contempt."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Disobeying a court or disrupting it, which a judge can punish directly",
+          "body": [
+            "(неуважение к суду)",
+            "---"
+          ],
+          "examples": [
+            "The judge held him in contempt.",
+            "She spent a night in jail for contempt of court.",
+            "One more outburst and you're in contempt."
+          ]
         }
       ],
-      "русский": "неуважение к суду; презрение",
+      "русский": "презрение; неуважение к суду",
       "countability": "uncountable"
     },
     {
@@ -1565,41 +1565,41 @@
       "respell": "DEED",
       "meaning": "Deed has 2 distinct senses.",
       "examples": [
-        "The deed is in both their names.",
-        "He couldn't find the deed to the house.",
-        "The old deeds are kept at the county office.",
         "She was honored for her good deeds in the community.",
         "He is remembered for one brave deed.",
-        "Words matter less than deeds."
+        "Words matter less than deeds.",
+        "The deed is in both their names.",
+        "He couldn't find the deed to the house.",
+        "The old deeds are kept at the county office."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The legal document that shows who owns a piece of property",
-          "body": [
-            "(документ о праве собственности (на недвижимость))"
-          ],
-          "examples": [
-            "The deed is in both their names.",
-            "He couldn't find the deed to the house.",
-            "The old deeds are kept at the county office."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something that someone does, especially something notable",
           "body": [
-            "(поступок, деяние)",
-            "---"
+            "(поступок, деяние)"
           ],
           "examples": [
             "She was honored for her good deeds in the community.",
             "He is remembered for one brave deed.",
             "Words matter less than deeds."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The legal document that shows who owns a piece of property",
+          "body": [
+            "(документ о праве собственности (на недвижимость))",
+            "---"
+          ],
+          "examples": [
+            "The deed is in both their names.",
+            "He couldn't find the deed to the house.",
+            "The old deeds are kept at the county office."
+          ]
         }
       ],
-      "русский": "документ о праве собственности (на недвижимость); поступок, деяние",
+      "русский": "поступок, деяние; документ о праве собственности (на недвижимость)",
       "plural": "deeds",
       "countability": "countable"
     },

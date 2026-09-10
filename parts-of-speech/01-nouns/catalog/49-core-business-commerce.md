@@ -572,23 +572,23 @@ Commodity has 2 distinct senses.
 ### bundle
 
 **Pronunciation:** /ˈbʌndəl/ &middot; *BUN-dul*
-**Русский:** комплект, набор товаров; связка, пачка, узел
+**Русский:** связка, пачка, узел; комплект, набор товаров
 **Plural:** *bundles*
 **Countability:** countable
 
 Bundle has 2 distinct senses.
 
-**1. Several products sold together for one price.** (комплект, набор товаров)
+**1. A group of things tied or wrapped together.** (связка, пачка, узел)
 
-1. The phone and the case come as a *bundle*.
-2. We saved forty dollars with the cable *bundle*.
-3. They offer three different *bundles*.
+1. He carried in a *bundle* of firewood.
+2. The newspapers came in *bundles* tied with twine.
+3. She had a *bundle* of letters held with a rubber band.
 
-**2. A group of things tied or wrapped together.** (связка, пачка, узел)
+**2. Several products sold together for one price.** (комплект, набор товаров)
 
-4. He carried in a *bundle* of firewood.
-5. The newspapers came in *bundles* tied with twine.
-6. She had a *bundle* of letters held with a rubber band.
+4. The phone and the case come as a *bundle*.
+5. We saved forty dollars with the cable *bundle*.
+6. They offer three different *bundles*.
 
 ---
 
@@ -764,30 +764,30 @@ Storefront has 2 distinct senses.
 ### booth
 
 **Pronunciation:** /buːθ/ &middot; *BOOTH*
-**Русский:** стенд (на выставке); кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования)
+**Русский:** кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования); стенд (на выставке)
 **Plural:** *booths*
 **Countability:** countable
 **Contrast:** Americans say BOOTH with the *th* of *tooth*; the British often voice it, like *smooth*.
 
 Booth has 3 distinct senses.
 
-**1. A small stand where a company shows its products at a fair or trade show.** (стенд (на выставке))
+**1. A restaurant table with high padded seats along the sides.** (кабинка со столиком (в кафе))
 
-1. Our *booth* is right by the entrance.
-2. She handed out samples at the *booth* all day.
-3. The bigger companies had *booths* twice this size.
+1. We asked for a *booth* by the window.
+2. The diner has six *booths* and a long counter.
+3. He slid into the *booth* across from me.
 
-**2. A restaurant table with high padded seats along the sides.** (кабинка со столиком (в кафе))
+**2. A small enclosed space where one person does something.** (кабина, будка (телефонная, для голосования))
 
-4. We asked for a *booth* by the window.
-5. The diner has six *booths* and a long counter.
-6. He slid into the *booth* across from me.
+4. She stepped into the voting *booth* and closed the curtain.
+5. The old phone *booth* is still on the corner.
+6. Buy your tickets at the *booth* by the gate.
 
-**3. A small enclosed space where one person does something.** (кабина, будка (телефонная, для голосования))
+**3. A small stand where a company shows its products at a fair or trade show.** (стенд (на выставке))
 
-7. She stepped into the voting *booth* and closed the curtain.
-8. The old phone *booth* is still on the corner.
-9. Buy your tickets at the *booth* by the gate.
+7. Our *booth* is right by the entrance.
+8. She handed out samples at the *booth* all day.
+9. The bigger companies had *booths* twice this size.
 
 ---
 
@@ -1359,24 +1359,24 @@ Monopoly has 2 distinct senses.
 ### cartel
 
 **Pronunciation:** /kɑːrˈtɛl/ &middot; *kar-TEL*
-**Русский:** картель, ценовой сговор; наркокартель
+**Русский:** наркокартель; картель, ценовой сговор
 **Plural:** *cartels*
 **Countability:** countable
 **Contrast:** Stress the second syllable: kar-TEL.
 
 Cartel has 2 distinct senses.
 
-**1. A group of companies that agree to fix prices instead of competing.** (картель, ценовой сговор)
+**1. A large criminal organization that produces and sells drugs.** (наркокартель)
 
-1. The oil *cartel* cut production again.
-2. Regulators broke up a shipping *cartel*.
-3. *Cartels* are illegal in most countries.
+1. The *cartel* controls the smuggling routes near the border.
+2. Two *cartels* have been fighting over the same territory.
+3. He testified against the *cartel* leaders.
 
-**2. A large criminal organization that produces and sells drugs.** (наркокартель)
+**2. A group of companies that agree to fix prices instead of competing.** (картель, ценовой сговор)
 
-4. The *cartel* controls the smuggling routes near the border.
-5. Two *cartels* have been fighting over the same territory.
-6. He testified against the *cartel* leaders.
+4. The oil *cartel* cut production again.
+5. Regulators broke up a shipping *cartel*.
+6. *Cartels* are illegal in most countries.
 
 ---
 
@@ -2288,22 +2288,22 @@ The quality of being believed and trusted by others.
 ### goodwill
 
 **Pronunciation:** /ˌɡʊdˈwɪl/ &middot; *good-WIL*
-**Русский:** деловая репутация; доброжелательность; доброжелательность, расположение
+**Русский:** доброжелательность, расположение; деловая репутация; доброжелательность
 **Countability:** uncountable
 
 Goodwill has 2 distinct senses.
 
-**1. The good name a business has built up, counted as part of its value.** (деловая репутация; доброжелательность)
+**1. A friendly, helpful feeling toward other people.** (доброжелательность, расположение)
 
-1. Most of the purchase price was *goodwill*.
-2. Years of fair dealing built up a lot of *goodwill*.
-3. They refunded him as a gesture of *goodwill*.
+1. The apology was meant as a gesture of *goodwill*.
+2. Years of *goodwill* between the two towns ended over the water dispute.
+3. He built up a lot of *goodwill* helping neighbors shovel snow.
 
-**2. A friendly, helpful feeling toward other people.** (доброжелательность, расположение)
+**2. The good name a business has built up, counted as part of its value.** (деловая репутация; доброжелательность)
 
-4. The apology was meant as a gesture of *goodwill*.
-5. Years of *goodwill* between the two towns ended over the water dispute.
-6. He built up a lot of *goodwill* helping neighbors shovel snow.
+4. Most of the purchase price was *goodwill*.
+5. Years of fair dealing built up a lot of *goodwill*.
+6. They refunded him as a gesture of *goodwill*.
 
 ---
 

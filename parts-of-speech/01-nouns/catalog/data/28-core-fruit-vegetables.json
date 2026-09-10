@@ -532,9 +532,6 @@
       "respell": "DAYT",
       "meaning": "Date has 4 distinct senses.",
       "examples": [
-        "Dates are sweet enough to use instead of sugar.",
-        "She stuffed each date with an almond.",
-        "There's a bag of dates in the pantry.",
         "Write today's date at the top of the form.",
         "We still haven't picked a date for the wedding.",
         "Check the dates on the milk before you buy it.",
@@ -543,23 +540,14 @@
         "Dinner and a movie is a pretty standard date.",
         "He brought his date to the office party.",
         "Her date showed up twenty minutes late.",
-        "All the dates ended up talking to each other."
+        "All the dates ended up talking to each other.",
+        "Dates are sweet enough to use instead of sugar.",
+        "She stuffed each date with an almond.",
+        "There's a bag of dates in the pantry."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A very sweet sticky brown fruit that grows on a palm tree",
-          "body": [
-            "(финик)"
-          ],
-          "examples": [
-            "Dates are sweet enough to use instead of sugar.",
-            "She stuffed each date with an almond.",
-            "There's a bag of dates in the pantry."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A particular day of the month or year",
           "body": [
             "(дата, число)"
@@ -571,7 +559,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A social meeting arranged with someone you are romantically interested in",
           "body": [
             "(свидание)"
@@ -583,20 +571,32 @@
           ]
         },
         {
-          "n": "4",
+          "n": "3",
           "head": "The person you take to a social event or go out with",
           "body": [
-            "(спутник, спутница (на свидании))",
-            "---"
+            "(спутник, спутница (на свидании))"
           ],
           "examples": [
             "He brought his date to the office party.",
             "Her date showed up twenty minutes late.",
             "All the dates ended up talking to each other."
           ]
+        },
+        {
+          "n": "4",
+          "head": "A very sweet sticky brown fruit that grows on a palm tree",
+          "body": [
+            "(финик)",
+            "---"
+          ],
+          "examples": [
+            "Dates are sweet enough to use instead of sugar.",
+            "She stuffed each date with an almond.",
+            "There's a bag of dates in the pantry."
+          ]
         }
       ],
-      "русский": "финик; дата, число; свидание; спутник, спутница (на свидании)",
+      "русский": "дата, число; свидание; спутник, спутница (на свидании); финик",
       "plural": "dates",
       "countability": "countable",
       "contrast": "Spelled and pronounced exactly like date 'calendar day' — only context separates them."
@@ -2209,12 +2209,12 @@
       "respell": "PIT",
       "meaning": "Pit has 3 distinct senses.",
       "examples": [
-        "Watch out for the pit in the middle.",
-        "She spit the cherry pits into a napkin.",
-        "Remove the pit before you blend it.",
         "They dug a pit for the fire.",
         "Gravel is hauled out of the pit all summer.",
         "He nearly fell into an open pit at the construction site.",
+        "Watch out for the pit in the middle.",
+        "She spit the cherry pits into a napkin.",
+        "Remove the pit before you blend it.",
         "He came into the pits on lap thirty.",
         "The crew changed four tires in the pit in seven seconds.",
         "A slow stop in the pits cost her the race."
@@ -2222,18 +2222,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The single hard seed in the middle of a peach, cherry, or similar fruit",
-          "body": [
-            "(косточка (плода))"
-          ],
-          "examples": [
-            "Watch out for the pit in the middle.",
-            "She spit the cherry pits into a napkin.",
-            "Remove the pit before you blend it."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A deep hole dug in the ground",
           "body": [
             "(яма, котлован)"
@@ -2242,6 +2230,18 @@
             "They dug a pit for the fire.",
             "Gravel is hauled out of the pit all summer.",
             "He nearly fell into an open pit at the construction site."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The single hard seed in the middle of a peach, cherry, or similar fruit",
+          "body": [
+            "(косточка (плода))"
+          ],
+          "examples": [
+            "Watch out for the pit in the middle.",
+            "She spit the cherry pits into a napkin.",
+            "Remove the pit before you blend it."
           ]
         },
         {
@@ -2258,7 +2258,7 @@
           ]
         }
       ],
-      "русский": "косточка (плода); яма, котлован; боксы, пит-лейн (в автогонках)",
+      "русский": "яма, котлован; косточка (плода); боксы, пит-лейн (в автогонках)",
       "plural": "pits",
       "countability": "countable",
       "contrast": "American English for the hard seed; British English says stone."

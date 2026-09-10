@@ -393,24 +393,24 @@ A tall wading bird with long legs and a long straight bill.
 ### crane
 
 **Pronunciation:** /kreɪn/ &middot; *KRAYN*
-**Русский:** журавль; подъёмный кран
+**Русский:** подъёмный кран; журавль
 **Plural:** *cranes*
 **Countability:** countable
 **Contrast:** The same word also means a lifting machine on a building site; only context tells you which.
 
 Crane has 2 distinct senses.
 
-**1. A tall long-necked bird that lives in wetlands.** (журавль)
+**1. A tall machine with a long arm for lifting heavy loads.** (подъёмный кран)
 
-1. A *crane* took off from the marsh as we drove by.
-2. Thousands of *cranes* stop here on their way south.
-3. The *crane* stood on one leg for almost ten minutes.
+1. A *crane* lifted the steel beams onto the roof.
+2. Three *cranes* stood over the half-built tower.
+3. The *crane* operator worked from a cab a hundred feet up.
 
-**2. A tall machine with a long arm for lifting heavy loads.** (подъёмный кран)
+**2. A tall long-necked bird that lives in wetlands.** (журавль)
 
-4. A *crane* lifted the steel beams onto the roof.
-5. Three *cranes* stood over the half-built tower.
-6. The *crane* operator worked from a cab a hundred feet up.
+4. A *crane* took off from the marsh as we drove by.
+5. Thousands of *cranes* stop here on their way south.
+6. The *crane* stood on one leg for almost ten minutes.
 
 ---
 
@@ -1198,24 +1198,24 @@ The hard pointed mouth part of a bird.
 ### bill
 
 **Pronunciation:** /bɪl/ &middot; *BIL*
-**Русский:** клюв (плоский, у водоплавающих); купюра; счёт к оплате
+**Русский:** купюра; счёт к оплате; клюв (плоский, у водоплавающих)
 **Plural:** *bills*
 **Countability:** countable
 **Contrast:** The same word also means a bill you pay and, in American English, a banknote (a ten-dollar bill).
 
 Bill has 2 distinct senses.
 
-**1. A bird's beak, especially a flat wide one.** (клюв (плоский, у водоплавающих))
+**1. A piece of paper money, or a statement of what you owe.** (купюра; счёт к оплате)
 
-1. A duck's *bill* is flat and wide.
-2. The pelican's *bill* holds more than its stomach does.
-3. Some birds have long, curved *bills* for reaching into flowers.
+1. Can you break a hundred-dollar *bill*?
+2. The electric *bill* was huge this month.
+3. We split the *bill* three ways.
 
-**2. A piece of paper money, or a statement of what you owe.** (купюра; счёт к оплате)
+**2. A bird's beak, especially a flat wide one.** (клюв (плоский, у водоплавающих))
 
-4. Can you break a hundred-dollar *bill*?
-5. The electric *bill* was huge this month.
-6. We split the *bill* three ways.
+4. A duck's *bill* is flat and wide.
+5. The pelican's *bill* holds more than its stomach does.
+6. Some birds have long, curved *bills* for reaching into flowers.
 
 ---
 
@@ -1237,23 +1237,23 @@ A claw on a bird of prey.
 ### crest
 
 **Pronunciation:** /krɛst/ &middot; *KREST*
-**Русский:** хохолок, гребень; гребень (волны), вершина (холма); герб, эмблема
+**Русский:** гребень (волны), вершина (холма); хохолок, гребень; герб, эмблема
 **Plural:** *crests*
 **Countability:** countable
 
 Crest has 3 distinct senses.
 
-**1. A tuft of feathers on top of a bird's head.** (хохолок, гребень)
+**1. The highest part of a hill, a wave, or a rise in the road.** (гребень (волны), вершина (холма))
 
-1. The bird raised its *crest* when it got excited.
-2. Cardinals have a pointed *crest* on the head.
-3. Both *crests* went up the moment the dog appeared.
+1. The house sits on the *crest* of the hill.
+2. Surfers waited for the *crest* of the next wave.
+3. You can see the ocean once you reach the *crest*.
 
-**2. The highest part of a hill, a wave, or a rise in the road.** (гребень (волны), вершина (холма))
+**2. A tuft of feathers on top of a bird's head.** (хохолок, гребень)
 
-4. The house sits on the *crest* of the hill.
-5. Surfers waited for the *crest* of the next wave.
-6. You can see the ocean once you reach the *crest*.
+4. The bird raised its *crest* when it got excited.
+5. Cardinals have a pointed *crest* on the head.
+6. Both *crests* went up the moment the dog appeared.
 
 **3. A design used as the emblem of a family, school, or team.** (герб, эмблема)
 
@@ -1327,23 +1327,23 @@ Quill has 2 distinct senses.
 ### migration
 
 **Pronunciation:** /maɪˈɡreɪʃən/ &middot; *my-GRAY-shun*
-**Русский:** миграция, перелёт (птиц); миграция (людей), переселение; перенос, миграция (данных, системы)
+**Русский:** миграция (людей), переселение; миграция, перелёт (птиц); перенос, миграция (данных, системы)
 **Plural:** *migrations*
 **Countability:** countable
 
 Migration has 3 distinct senses.
 
-**1. The seasonal journey birds make from one region to another.** (миграция, перелёт (птиц))
+**1. The movement of people from one country or region to another to live there.** (миграция (людей), переселение)
 
-1. The fall *migration* starts in late August.
-2. Their yearly *migration* covers eight thousand miles.
-3. Storms can throw whole *migrations* off course.
+1. The war set off the largest *migration* in the region's history.
+2. Economists study the *migration* of workers to the Sun Belt.
+3. *Migration* from the countryside emptied whole villages.
 
-**2. The movement of people from one country or region to another to live there.** (миграция (людей), переселение)
+**2. The seasonal journey birds make from one region to another.** (миграция, перелёт (птиц))
 
-4. The war set off the largest *migration* in the region's history.
-5. Economists study the *migration* of workers to the Sun Belt.
-6. *Migration* from the countryside emptied whole villages.
+4. The fall *migration* starts in late August.
+5. Their yearly *migration* covers eight thousand miles.
+6. Storms can throw whole *migrations* off course.
 
 **3. The moving of data or software from one system to another.** (перенос, миграция (данных, системы))
 
@@ -1356,23 +1356,23 @@ Migration has 3 distinct senses.
 ### flight
 
 **Pronunciation:** /flaɪt/ &middot; *FLYT*
-**Русский:** полёт; рейс, авиарейс; лестничный марш; бегство
+**Русский:** рейс, авиарейс; полёт; лестничный марш; бегство
 **Plural:** *flights*
 **Countability:** countable
 
 Flight has 4 distinct senses.
 
-**1. The act or manner of flying through the air.** (полёт)
+**1. A trip made by airplane, or the plane making that trip.** (рейс, авиарейс)
 
-1. The owl's *flight* is completely silent.
-2. We tracked the bird's *flight* until it went behind the trees.
-3. A pelican's *flight* looks awkward until it hits the water.
+1. Our *flight* was delayed three hours.
+2. She booked a *flight* home for the holidays.
+3. All *flights* out of the airport were canceled.
 
-**2. A trip made by airplane, or the plane making that trip.** (рейс, авиарейс)
+**2. The act or manner of flying through the air.** (полёт)
 
-4. Our *flight* was delayed three hours.
-5. She booked a *flight* home for the holidays.
-6. All *flights* out of the airport were canceled.
+4. The owl's *flight* is completely silent.
+5. We tracked the bird's *flight* until it went behind the trees.
+6. A pelican's *flight* looks awkward until it hits the water.
 
 **3. A set of stairs running between two floors or landings.** (лестничный марш)
 
@@ -1437,24 +1437,24 @@ A short high sound made by a small bird.
 ### tweet
 
 **Pronunciation:** /twiːt/ &middot; *TWEET*
-**Русский:** чирик, щебет; твит, короткий пост в соцсети
+**Русский:** твит, короткий пост в соцсети; чирик, щебет
 **Plural:** *tweets*
 **Countability:** countable
 **Contrast:** Far more common now as an online post, but the bird sound is the original meaning.
 
 Tweet has 2 distinct senses.
 
-**1. A short high sound made by a small bird.** (чирик, щебет)
+**1. A short message posted on a social media site, especially Twitter or X.** (твит, короткий пост в соцсети)
 
-1. A *tweet* came from the nest above the door.
-2. The little *tweets* got louder when the mother came back.
-3. I heard one *tweet* and then nothing.
+1. His *tweet* got thousands of replies overnight.
+2. She deleted the *tweet* an hour after posting it.
+3. The whole story started with a single *tweet*.
 
-**2. A short message posted on a social media site, especially Twitter or X.** (твит, короткий пост в соцсети)
+**2. A short high sound made by a small bird.** (чирик, щебет)
 
-4. His *tweet* got thousands of replies overnight.
-5. She deleted the *tweet* an hour after posting it.
-6. The whole story started with a single *tweet*.
+4. A *tweet* came from the nest above the door.
+5. The little *tweets* got louder when the mother came back.
+6. I heard one *tweet* and then nothing.
 
 ---
 

@@ -1230,7 +1230,7 @@ The second month of the year, with twenty-eight or twenty-nine days.
 ### March
 
 **Pronunciation:** /mɑːrtʃ/ &middot; *MARCH*
-**Русский:** март; марш; марш, шествие
+**Русский:** март; марш, шествие; марш
 **Plural:** *Marches*
 **Countability:** countable
 
@@ -1242,17 +1242,17 @@ March has 3 distinct senses.
 2. We're moving at the end of *March*.
 3. Spring break falls in *March* this year.
 
-**2. A piece of music with a strong steady beat, written for marching.** (марш)
+**2. An organized walk by a large group of people to show support for something.** (марш, шествие)
 
-4. The band played a *march* down Main Street.
-5. That *march* gets played at every graduation.
-6. Sousa wrote over a hundred *marches*.
+4. Thousands joined the *march* on Saturday morning.
+5. There have been three *marches* downtown this month.
+6. The *march* ended with speeches on the capitol steps.
 
-**3. An organized walk by a large group of people to show support for something.** (марш, шествие)
+**3. A piece of music with a strong steady beat, written for marching.** (марш)
 
-7. Thousands joined the *march* on Saturday morning.
-8. There have been three *marches* downtown this month.
-9. The *march* ended with speeches on the capitol steps.
+7. The band played a *march* down Main Street.
+8. That *march* gets played at every graduation.
+9. Sousa wrote over a hundred *marches*.
 
 ---
 
@@ -1650,23 +1650,23 @@ A period of waiting caused by something running late.
 ### gap
 
 **Pronunciation:** /ɡæp/ &middot; *GAP*
-**Русский:** промежуток, перерыв; щель, зазор, промежуток; разрыв, различие
+**Русский:** щель, зазор, промежуток; промежуток, перерыв; разрыв, различие
 **Plural:** *gaps*
 **Countability:** countable
 
 Gap has 3 distinct senses.
 
-**1. An empty stretch of time between two things.** (промежуток, перерыв)
+**1. A space or opening between two things or in something solid.** (щель, зазор, промежуток)
 
-1. There's a three-year *gap* between the sisters.
-2. He took a *gap* year before college.
-3. Fill the *gaps* in your schedule with study time.
+1. The dog squeezed through a *gap* in the fence.
+2. Cold air came in through the *gap* under the door.
+3. There were wide *gaps* between the boards on the porch.
 
-**2. A space or opening between two things or in something solid.** (щель, зазор, промежуток)
+**2. An empty stretch of time between two things.** (промежуток, перерыв)
 
-4. The dog squeezed through a *gap* in the fence.
-5. Cold air came in through the *gap* under the door.
-6. There were wide *gaps* between the boards on the porch.
+4. There's a three-year *gap* between the sisters.
+5. He took a *gap* year before college.
+6. Fill the *gaps* in your schedule with study time.
 
 **3. A large difference between two amounts, groups, or levels.** (разрыв, различие)
 

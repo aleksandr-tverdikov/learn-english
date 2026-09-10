@@ -414,24 +414,24 @@ A set of pens where livestock are held before being sold or shipped.
 ### tract
 
 **Pronunciation:** /trækt/ &middot; *TRAKT*
-**Русский:** участок земли, надел; тракт (пищеварительный, дыхательный); брошюра, трактат (агитационный)
+**Русский:** тракт (пищеварительный, дыхательный); участок земли, надел; брошюра, трактат (агитационный)
 **Plural:** *tracts*
 **Countability:** countable
 **Contrast:** Sounds exactly like *tracked*, the past tense of *track*.
 
 Tract has 3 distinct senses.
 
-**1. A large, continuous piece of land.** (участок земли, надел)
+**1. A system of connected organs that something passes through in the body.** (тракт (пищеварительный, дыхательный))
 
-1. He bought a forty-acre *tract* next to the creek.
-2. Several *tracts* of farmland came up for auction.
-3. The state protected a *tract* of prairie from development.
+1. Fiber keeps the digestive *tract* healthy.
+2. The infection spread to her upper respiratory *tract*.
+3. The drug is absorbed in the intestinal *tract*.
 
-**2. A system of connected organs that something passes through in the body.** (тракт (пищеварительный, дыхательный))
+**2. A large, continuous piece of land.** (участок земли, надел)
 
-4. Fiber keeps the digestive *tract* healthy.
-5. The infection spread to her upper respiratory *tract*.
-6. The drug is absorbed in the intestinal *tract*.
+4. He bought a forty-acre *tract* next to the creek.
+5. Several *tracts* of farmland came up for auction.
+6. The state protected a *tract* of prairie from development.
 
 **3. A short printed pamphlet arguing a religious or political point.** (брошюра, трактат (агитационный))
 
@@ -538,22 +538,22 @@ Erosion has 2 distinct senses.
 ### fertility
 
 **Pronunciation:** /fərˈtɪləti/ &middot; *fur-TIL-uh-tee*
-**Русский:** плодородие (почвы); фертильность, способность иметь детей
+**Русский:** фертильность, способность иметь детей; плодородие (почвы)
 **Countability:** uncountable
 
 Fertility has 2 distinct senses.
 
-**1. The ability of soil to grow healthy crops.** (плодородие (почвы))
+**1. The ability of a person or animal to produce offspring.** (фертильность, способность иметь детей)
 
-1. Manure restored some of the field's *fertility*.
-2. Constant corn drains the soil's *fertility*.
-3. They test each field for *fertility* every spring.
+1. The couple went to a *fertility* clinic after two years of trying.
+2. The country's *fertility* rate has fallen below replacement level.
+3. Stress and smoking can both affect *fertility*.
 
-**2. The ability of a person or animal to produce offspring.** (фертильность, способность иметь детей)
+**2. The ability of soil to grow healthy crops.** (плодородие (почвы))
 
-4. The couple went to a *fertility* clinic after two years of trying.
-5. The country's *fertility* rate has fallen below replacement level.
-6. Stress and smoking can both affect *fertility*.
+4. Manure restored some of the field's *fertility*.
+5. Constant corn drains the soil's *fertility*.
+6. They test each field for *fertility* every spring.
 
 ---
 
@@ -1052,23 +1052,23 @@ Silage has 2 distinct senses.
 ### fodder
 
 **Pronunciation:** /ˈfɑːdər/ &middot; *FAH-dur*
-**Русский:** корм для скота, фураж; материал, пища (для сплетен, критики)
+**Русский:** материал, пища (для сплетен, критики); корм для скота, фураж
 **Countability:** uncountable
 **Contrast:** Uncountable: some *fodder*, never 'a fodder'.
 
 Fodder has 2 distinct senses.
 
-**1. Dried food such as hay or straw given to farm animals.** (корм для скота, фураж)
+**1. Material used up for some purpose, especially to feed talk or criticism.** (материал, пища (для сплетен, критики))
 
-1. There's barely enough *fodder* to last till spring.
-2. The barn is stacked with *fodder*.
-3. Corn stalks make rough but usable *fodder*.
+1. The scandal was perfect *fodder* for late-night comedians.
+2. His private life became tabloid *fodder*.
+3. The leaked memo gave his critics plenty of *fodder*.
 
-**2. Material used up for some purpose, especially to feed talk or criticism.** (материал, пища (для сплетен, критики))
+**2. Dried food such as hay or straw given to farm animals.** (корм для скота, фураж)
 
-4. The scandal was perfect *fodder* for late-night comedians.
-5. His private life became tabloid *fodder*.
-6. The leaked memo gave his critics plenty of *fodder*.
+4. There's barely enough *fodder* to last till spring.
+5. The barn is stacked with *fodder*.
+6. Corn stalks make rough but usable *fodder*.
 
 ---
 
@@ -1164,24 +1164,24 @@ A thick underground part of a stem, such as a potato, that stores food for the p
 ### shoot
 
 **Pronunciation:** /ʃuːt/ &middot; *SHOOT*
-**Русский:** росток, побег; съёмка, фотосессия
+**Русский:** съёмка, фотосессия; росток, побег
 **Plural:** *shoots*
 **Countability:** countable
 **Contrast:** Sounds exactly like *chute*, a sloping channel — same sound, different word.
 
 Shoot has 2 distinct senses.
 
-**1. A new stem or branch growing from a plant.** (росток, побег)
+**1. A session of taking photographs or filming.** (съёмка, фотосессия)
 
-1. Green *shoots* came up a week after the rain.
-2. He pinched off the weak *shoot* near the base.
-3. The vine sends out a new *shoot* every few days.
+1. The magazine *shoot* took all morning on the roof.
+2. She booked a family photo *shoot* for the fall.
+3. Both *shoots* were rained out and had to be rescheduled.
 
-**2. A session of taking photographs or filming.** (съёмка, фотосессия)
+**2. A new stem or branch growing from a plant.** (росток, побег)
 
-4. The magazine *shoot* took all morning on the roof.
-5. She booked a family photo *shoot* for the fall.
-6. Both *shoots* were rained out and had to be rescheduled.
+4. Green *shoots* came up a week after the rain.
+5. He pinched off the weak *shoot* near the base.
+6. The vine sends out a new *shoot* every few days.
 
 ---
 
@@ -1415,24 +1415,24 @@ Auger has 3 distinct senses.
 ### implement
 
 **Pronunciation:** /ˈɪmpləmənt/ &middot; *IM-pluh-muhnt*
-**Русский:** сельхозорудие, инвентарь; орудие, инструмент
+**Русский:** орудие, инструмент; сельхозорудие, инвентарь
 **Plural:** *implements*
 **Countability:** countable
 **Contrast:** The noun ends in a weak -muhnt; the verb *to implement* usually ends in a full -MENT.
 
 Implement has 2 distinct senses.
 
-**1. A tool or piece of equipment pulled behind a tractor to work the land.** (сельхозорудие, инвентарь)
+**1. A tool or utensil used for a particular job.** (орудие, инструмент)
 
-1. Every *implement* on the place needs greasing.
-2. The dealer sells tractors and *implements*.
-3. He backed the tractor up to hook onto the *implement*.
+1. Keep the writing *implements* in the top drawer.
+2. A whisk is the right *implement* for the job.
+3. The museum displays stone *implements* made thousands of years ago.
 
-**2. A tool or utensil used for a particular job.** (орудие, инструмент)
+**2. A tool or piece of equipment pulled behind a tractor to work the land.** (сельхозорудие, инвентарь)
 
-4. Keep the writing *implements* in the top drawer.
-5. A whisk is the right *implement* for the job.
-6. The museum displays stone *implements* made thousands of years ago.
+4. Every *implement* on the place needs greasing.
+5. The dealer sells tractors and *implements*.
+6. He backed the tractor up to hook onto the *implement*.
 
 ---
 
@@ -1639,29 +1639,29 @@ Pigpen has 2 distinct senses.
 ### stall
 
 **Pronunciation:** /stɔːl/ &middot; *STAWL*
-**Русский:** стойло, денник; прилавок, палатка (на рынке); кабинка (в туалете)
+**Русский:** кабинка (в туалете); стойло, денник; прилавок, палатка (на рынке)
 **Plural:** *stalls*
 **Countability:** countable
 
 Stall has 3 distinct senses.
 
-**1. A separate space inside a barn for one animal.** (стойло, денник)
+**1. A small compartment with a door around a toilet in a public restroom.** (кабинка (в туалете))
 
-1. Each cow has her own *stall*.
-2. He mucked out the *stalls* before breakfast.
-3. The mare kicked the side of her *stall* all night.
+1. Only one *stall* was unlocked.
+2. She waited outside the *stall*.
+3. The *stalls* at the stadium always have a line.
 
-**2. A small open stand where goods are sold at a market.** (прилавок, палатка (на рынке))
+**2. A separate space inside a barn for one animal.** (стойло, денник)
 
-4. Her *stall* sells honey and jam.
-5. The *stalls* go up before sunrise.
-6. We bought peaches from the last *stall* in the row.
+4. Each cow has her own *stall*.
+5. He mucked out the *stalls* before breakfast.
+6. The mare kicked the side of her *stall* all night.
 
-**3. A small compartment with a door around a toilet in a public restroom.** (кабинка (в туалете))
+**3. A small open stand where goods are sold at a market.** (прилавок, палатка (на рынке))
 
-7. Only one *stall* was unlocked.
-8. She waited outside the *stall*.
-9. The *stalls* at the stadium always have a line.
+7. Her *stall* sells honey and jam.
+8. The *stalls* go up before sunrise.
+9. We bought peaches from the last *stall* in the row.
 
 ---
 
@@ -2087,29 +2087,29 @@ Halter has 2 distinct senses.
 ### harness
 
 **Pronunciation:** /ˈhɑːrnəs/ &middot; *HAR-nuhs*
-**Русский:** упряжь, сбруя; шлейка; страховочная привязь, страховочная система
+**Русский:** шлейка; страховочная привязь, страховочная система; упряжь, сбруя
 **Plural:** *harnesses*
 **Countability:** countable
 
 Harness has 3 distinct senses.
 
-**1. The straps and fittings that connect a work animal to a plow or wagon.** (упряжь, сбруя)
+**1. A set of straps that goes around an animal's chest and shoulders.** (шлейка)
 
-1. He oiled the leather *harness* every fall.
-2. The old *harnesses* still hang in the tack room.
-3. It takes ten minutes to put the *harness* on a team.
+1. A *harness* is easier on his neck than a collar.
+2. She clipped the leash to his *harness*.
+3. The store had *harnesses* in three sizes.
 
-**2. A set of straps that goes around an animal's chest and shoulders.** (шлейка)
+**2. A set of straps worn around the body and clipped to a rope to stop a fall.** (страховочная привязь, страховочная система)
 
-4. A *harness* is easier on his neck than a collar.
-5. She clipped the leash to his *harness*.
-6. The store had *harnesses* in three sizes.
+4. Nobody goes on the roof without a *harness*.
+5. His *harness* caught him halfway down.
+6. The crew checks the *harnesses* every morning.
 
-**3. A set of straps worn around the body and clipped to a rope to stop a fall.** (страховочная привязь, страховочная система)
+**3. The straps and fittings that connect a work animal to a plow or wagon.** (упряжь, сбруя)
 
-7. Nobody goes on the roof without a *harness*.
-8. His *harness* caught him halfway down.
-9. The crew checks the *harnesses* every morning.
+7. He oiled the leather *harness* every fall.
+8. The old *harnesses* still hang in the tack room.
+9. It takes ten minutes to put the *harness* on a team.
 
 ---
 

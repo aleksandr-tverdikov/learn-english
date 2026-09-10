@@ -712,41 +712,41 @@
       "respell": "BYT",
       "meaning": "Bite has 2 distinct senses.",
       "examples": [
-        "I woke up with three bites on my ankle.",
-        "Don't scratch the bite or it'll get infected.",
-        "A spider bite can take weeks to heal.",
         "He took a bite of the sandwich and made a face.",
         "Let's grab a bite before the movie.",
-        "There wasn't a bite of food left in the house."
+        "There wasn't a bite of food left in the house.",
+        "I woke up with three bites on my ankle.",
+        "Don't scratch the bite or it'll get infected.",
+        "A spider bite can take weeks to heal."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A mark or wound left where an insect or animal has bitten",
-          "body": [
-            "(укус)"
-          ],
-          "examples": [
-            "I woke up with three bites on my ankle.",
-            "Don't scratch the bite or it'll get infected.",
-            "A spider bite can take weeks to heal."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A piece of food taken into the mouth at one time, or a quick small meal",
           "body": [
-            "(кусок (пищи); перекус)",
-            "---"
+            "(кусок (пищи); перекус)"
           ],
           "examples": [
             "He took a bite of the sandwich and made a face.",
             "Let's grab a bite before the movie.",
             "There wasn't a bite of food left in the house."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A mark or wound left where an insect or animal has bitten",
+          "body": [
+            "(укус)",
+            "---"
+          ],
+          "examples": [
+            "I woke up with three bites on my ankle.",
+            "Don't scratch the bite or it'll get infected.",
+            "A spider bite can take weeks to heal."
+          ]
         }
       ],
-      "русский": "укус; кусок (пищи); перекус",
+      "русский": "кусок (пищи); перекус; укус",
       "plural": "bites",
       "countability": "countable",
       "contrast": "Use bite for mosquitoes, spiders, ticks, and snakes, but sting for bees and wasps."
@@ -1410,41 +1410,41 @@
       "respell": "WEB",
       "meaning": "Web has 2 distinct senses.",
       "examples": [
-        "A web stretched right across the doorway.",
-        "The morning dew made the webs visible.",
-        "A moth was struggling in the web.",
         "You can find the form on the web.",
         "He spent all afternoon searching the web.",
-        "The article is only on the web, not in print."
+        "The article is only on the web, not in print.",
+        "A web stretched right across the doorway.",
+        "The morning dew made the webs visible.",
+        "A moth was struggling in the web."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The net of silk threads a spider spins to catch prey",
-          "body": [
-            "(паутина)"
-          ],
-          "examples": [
-            "A web stretched right across the doorway.",
-            "The morning dew made the webs visible.",
-            "A moth was struggling in the web."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The system of linked pages and sites on the internet",
           "body": [
-            "(интернет, всемирная паутина)",
-            "---"
+            "(интернет, всемирная паутина)"
           ],
           "examples": [
             "You can find the form on the web.",
             "He spent all afternoon searching the web.",
             "The article is only on the web, not in print."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The net of silk threads a spider spins to catch prey",
+          "body": [
+            "(паутина)",
+            "---"
+          ],
+          "examples": [
+            "A web stretched right across the doorway.",
+            "The morning dew made the webs visible.",
+            "A moth was struggling in the web."
+          ]
         }
       ],
-      "русский": "паутина; интернет, всемирная паутина",
+      "русский": "интернет, всемирная паутина; паутина",
       "plural": "webs",
       "countability": "countable"
     },
@@ -2602,41 +2602,41 @@
       "respell": "NIMF",
       "meaning": "Nymph has 2 distinct senses.",
       "examples": [
-        "A dragonfly nymph lives underwater for a year or more.",
-        "Cicada nymphs feed on roots in the dark.",
-        "The nymph climbed out of the water and split open.",
         "The painting shows nymphs bathing in a pool.",
         "A nymph was said to guard the spring.",
-        "In the story a river nymph falls in love with a hunter."
+        "In the story a river nymph falls in love with a hunter.",
+        "A dragonfly nymph lives underwater for a year or more.",
+        "Cicada nymphs feed on roots in the dark.",
+        "The nymph climbed out of the water and split open."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A young insect that looks like a small wingless version of the adult",
-          "body": [
-            "(нимфа (личинка насекомого))"
-          ],
-          "examples": [
-            "A dragonfly nymph lives underwater for a year or more.",
-            "Cicada nymphs feed on roots in the dark.",
-            "The nymph climbed out of the water and split open."
-          ]
-        },
-        {
-          "n": "2",
           "head": "In Greek and Roman myths, a young female spirit living in a river, tree, or hill",
           "body": [
-            "(нимфа (мифическая дева природы))",
-            "---"
+            "(нимфа (мифическая дева природы))"
           ],
           "examples": [
             "The painting shows nymphs bathing in a pool.",
             "A nymph was said to guard the spring.",
             "In the story a river nymph falls in love with a hunter."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A young insect that looks like a small wingless version of the adult",
+          "body": [
+            "(нимфа (личинка насекомого))",
+            "---"
+          ],
+          "examples": [
+            "A dragonfly nymph lives underwater for a year or more.",
+            "Cicada nymphs feed on roots in the dark.",
+            "The nymph climbed out of the water and split open."
+          ]
         }
       ],
-      "русский": "нимфа (личинка насекомого); нимфа (мифическая дева природы)",
+      "русский": "нимфа (мифическая дева природы); нимфа (личинка насекомого)",
       "plural": "nymphs",
       "countability": "countable"
     },

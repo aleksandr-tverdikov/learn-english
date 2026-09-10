@@ -1551,23 +1551,23 @@ The spreading of something over a wider area.
 ### dig
 
 **Pronunciation:** /dɪɡ/ &middot; *DIG*
-**Русский:** археологические раскопки; колкость, шпилька
+**Русский:** колкость, шпилька; археологические раскопки
 **Plural:** *digs*
 **Countability:** countable
 
 Dig has 2 distinct senses.
 
-**1. An organized excavation of a site to find ancient objects.** (археологические раскопки)
+**1. A remark meant to mock or criticize someone.** (колкость, шпилька)
 
-1. She spent the summer on a *dig* in southern Turkey.
-2. Students can volunteer at university *digs*.
-3. The *dig* turned up coins from the third century.
+1. That comment was a *dig* at my cooking.
+2. He got in a few *digs* about my driving.
+3. She took a *dig* at her old boss during the interview.
 
-**2. A remark meant to mock or criticize someone.** (колкость, шпилька)
+**2. An organized excavation of a site to find ancient objects.** (археологические раскопки)
 
-4. That comment was a *dig* at my cooking.
-5. He got in a few *digs* about my driving.
-6. She took a *dig* at her old boss during the interview.
+4. She spent the summer on a *dig* in southern Turkey.
+5. Students can volunteer at university *digs*.
+6. The *dig* turned up coins from the third century.
 
 ---
 
@@ -2291,29 +2291,29 @@ A large and unfair difference between two things.
 ### dispatch
 
 **Pronunciation:** /ˈdɪspætʃ/ &middot; *DIS-pach*
-**Русский:** донесение, репортаж с места; отправка, отправление; диспетчерская служба
+**Русский:** отправка, отправление; диспетчерская служба; донесение, репортаж с места
 **Plural:** *dispatches*
 **Countability:** countable
 
 Dispatch has 3 distinct senses.
 
-**1. An official report or news story sent from a distant place.** (донесение, репортаж с места)
+**1. The act of sending someone or something off to a destination.** (отправка, отправление)
 
-1. His *dispatch* from the border ran on the front page.
-2. The paper printed *dispatches* from three war zones.
-3. A short *dispatch* arrived from the field office.
+1. The governor ordered the *dispatch* of the National Guard.
+2. We got an email confirming the *dispatch* of our order.
+3. The *dispatch* of relief supplies began the next morning.
 
-**2. The act of sending someone or something off to a destination.** (отправка, отправление)
+**2. The office or crew that sends out police, fire, and ambulance units by radio.** (диспетчерская служба)
 
-4. The governor ordered the *dispatch* of the National Guard.
-5. We got an email confirming the *dispatch* of our order.
-6. The *dispatch* of relief supplies began the next morning.
+4. *Dispatch* says the ambulance is four minutes out.
+5. She works nights in *dispatch* at the sheriff's office.
+6. Call it in to *dispatch* before you go inside.
 
-**3. The office or crew that sends out police, fire, and ambulance units by radio.** (диспетчерская служба)
+**3. An official report or news story sent from a distant place.** (донесение, репортаж с места)
 
-7. *Dispatch* says the ambulance is four minutes out.
-8. She works nights in *dispatch* at the sheriff's office.
-9. Call it in to *dispatch* before you go inside.
+7. His *dispatch* from the border ran on the front page.
+8. The paper printed *dispatches* from three war zones.
+9. A short *dispatch* arrived from the field office.
 
 ---
 
@@ -2983,23 +2983,23 @@ A collection of documents about a person or subject.
 ### double
 
 **Pronunciation:** /ˈdʌbəl/ &middot; *DUH-buhl*
-**Русский:** дублёр; двойник; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)
+**Русский:** двойник; дублёр; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)
 **Plural:** *doubles*
 **Countability:** countable
 
 Double has 4 distinct senses.
 
-**1. A person who takes an actor's place in dangerous or difficult scenes.** (дублёр)
+**1. A person who looks exactly like someone else.** (двойник)
 
-1. The fight scene was filmed with a stunt *double*.
-2. She used a *double* for the horseback riding.
-3. The *doubles* rehearsed the crash for two days.
+1. You could be his *double*.
+2. The actress met her *double* on the set.
+3. In the photo the two men look like *doubles*.
 
-**2. A person who looks exactly like someone else.** (двойник)
+**2. A person who takes an actor's place in dangerous or difficult scenes.** (дублёр)
 
-4. You could be his *double*.
-5. The actress met her *double* on the set.
-6. In the photo the two men look like *doubles*.
+4. The fight scene was filmed with a stunt *double*.
+5. She used a *double* for the horseback riding.
+6. The *doubles* rehearsed the crash for two days.
 
 **3. A hit in baseball that lets the batter reach second base.** (дабл, двухбазовый удар (в бейсболе))
 
@@ -3093,22 +3093,22 @@ Money or property a bride's family gives to her husband at marriage.
 ### drag
 
 **Pronunciation:** /dræɡ/ &middot; *DRAG*
-**Русский:** сопротивление воздуха, лобовое сопротивление; скука, тоска, неприятная обязанность; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)
+**Русский:** скука, тоска, неприятная обязанность; сопротивление воздуха, лобовое сопротивление; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)
 **Countability:** uncountable
 
 Drag has 4 distinct senses.
 
-**1. The force of air or water that slows down a moving object.** (сопротивление воздуха, лобовое сопротивление)
+**1. Something boring or annoying.** (скука, тоска, неприятная обязанность)
 
-1. The new body design reduces *drag* at high speeds.
-2. Cyclists ride close together to cut down on *drag*.
-3. Air *drag* is what slows the parachute.
+1. Waiting in line for two hours was a *drag*.
+2. What a *drag* — the game got rained out.
+3. Cleaning the garage is such a *drag*.
 
-**2. Something boring or annoying.** (скука, тоска, неприятная обязанность)
+**2. The force of air or water that slows down a moving object.** (сопротивление воздуха, лобовое сопротивление)
 
-4. Waiting in line for two hours was a *drag*.
-5. What a *drag* — the game got rained out.
-6. Cleaning the garage is such a *drag*.
+4. The new body design reduces *drag* at high speeds.
+5. Cyclists ride close together to cut down on *drag*.
+6. Air *drag* is what slows the parachute.
 
 **3. A pull of smoke from a cigarette.** (затяжка (сигаретой))
 
@@ -5311,22 +5311,22 @@ The main female sex hormone.
 ### ether
 
 **Pronunciation:** /ˈiːθər/ &middot; *EE-thur*
-**Русский:** эфир; эфир (пространство, куда всё исчезает)
+**Русский:** эфир (пространство, куда всё исчезает); эфир
 **Countability:** uncountable
 
 Ether has 2 distinct senses.
 
-**1. A light, sweet-smelling liquid once widely used to put patients to sleep.** (эфир)
+**1. The invisible air or space in which signals travel and things seem to vanish.** (эфир (пространство, куда всё исчезает))
 
-1. Surgeons used *ether* long before modern anesthesia.
-2. The room smelled faintly of *ether*.
-3. Her message seemed to vanish into the *ether*.
+1. My email must have disappeared into the *ether*.
+2. Their promises vanished into the *ether* after the election.
+3. The signal goes out into the *ether* and comes back a second later.
 
-**2. The invisible air or space in which signals travel and things seem to vanish.** (эфир (пространство, куда всё исчезает))
+**2. A light, sweet-smelling liquid once widely used to put patients to sleep.** (эфир)
 
-4. My email must have disappeared into the *ether*.
-5. Their promises vanished into the *ether* after the election.
-6. The signal goes out into the *ether* and comes back a second later.
+4. Surgeons used *ether* long before modern anesthesia.
+5. The room smelled faintly of *ether*.
+6. Her message seemed to vanish into the *ether*.
 
 ---
 
@@ -8149,29 +8149,29 @@ A device that sounds a deep warning note to ships in fog.
 ### folk
 
 **Pronunciation:** /foʊk/ &middot; *FOHK*
-**Русский:** фолк, народная музыка; люди, народ; родители, родня
+**Русский:** люди, народ; родители, родня; фолк, народная музыка
 **Countability:** uncountable
 **Contrast:** The l is silent: FOHK.
 
 Folk has 3 distinct senses.
 
-**1. Traditional popular music played mostly on acoustic instruments.** (фолк, народная музыка)
+**1. People in general, or the people of a particular place.** (люди, народ)
 
-1. The station plays *folk* all afternoon.
-2. He grew up on *folk* and bluegrass.
-3. She writes *folk* with a country edge.
+1. *Folks* around here are pretty friendly.
+2. A lot of *folks* showed up for the meeting.
+3. Most *folks* never read the fine print.
 
-**2. People in general, or the people of a particular place.** (люди, народ)
+**2. Your parents, or your close family.** (родители, родня)
 
-4. *Folks* around here are pretty friendly.
-5. A lot of *folks* showed up for the meeting.
-6. Most *folks* never read the fine print.
+4. My *folks* live a few hours north of here.
+5. We're spending the holidays with her *folks*.
+6. His *folks* helped him buy the truck.
 
-**3. Your parents, or your close family.** (родители, родня)
+**3. Traditional popular music played mostly on acoustic instruments.** (фолк, народная музыка)
 
-7. My *folks* live a few hours north of here.
-8. We're spending the holidays with her *folks*.
-9. His *folks* helped him buy the truck.
+7. The station plays *folk* all afternoon.
+8. He grew up on *folk* and bluegrass.
+9. She writes *folk* with a country edge.
 
 ---
 

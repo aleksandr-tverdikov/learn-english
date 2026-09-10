@@ -1810,46 +1810,22 @@
       "respell": "BRAYK-down",
       "meaning": "Breakdown has 4 distinct senses.",
       "examples": [
-        "He had a breakdown his second year of residency.",
-        "She was headed for a breakdown and everyone saw it.",
-        "Two breakdowns in one department is a warning sign.",
-        "We had a breakdown on the interstate and waited two hours for a tow.",
-        "The bus company reports a breakdown about once a month.",
-        "Regular service prevents most breakdowns.",
         "Can you send me a breakdown of the costs by department?",
         "The report includes a breakdown of voters by age.",
         "She asked the shop for an itemized breakdown of the repair bill.",
         "The strike followed a breakdown in negotiations.",
         "There was a total breakdown of communication between the two offices.",
-        "A breakdown in law and order followed the storm."
+        "A breakdown in law and order followed the storm.",
+        "He had a breakdown his second year of residency.",
+        "She was headed for a breakdown and everyone saw it.",
+        "Two breakdowns in one department is a warning sign.",
+        "We had a breakdown on the interstate and waited two hours for a tow.",
+        "The bus company reports a breakdown about once a month.",
+        "Regular service prevents most breakdowns."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A collapse of a person's mental health under stress",
-          "body": [
-            "(нервный срыв)"
-          ],
-          "examples": [
-            "He had a breakdown his second year of residency.",
-            "She was headed for a breakdown and everyone saw it.",
-            "Two breakdowns in one department is a warning sign."
-          ]
-        },
-        {
-          "n": "2",
-          "head": "A failure that stops a vehicle or machine from working",
-          "body": [
-            "(поломка, авария (машины))"
-          ],
-          "examples": [
-            "We had a breakdown on the interstate and waited two hours for a tow.",
-            "The bus company reports a breakdown about once a month.",
-            "Regular service prevents most breakdowns."
-          ]
-        },
-        {
-          "n": "3",
           "head": "A division of something into its separate parts, usually with figures",
           "body": [
             "(разбивка, детализация (по пунктам))"
@@ -1861,20 +1837,44 @@
           ]
         },
         {
-          "n": "4",
+          "n": "2",
           "head": "A complete failure of something that had been working, such as talks, order, or a relationship",
           "body": [
-            "(срыв, развал (переговоров, отношений))",
-            "---"
+            "(срыв, развал (переговоров, отношений))"
           ],
           "examples": [
             "The strike followed a breakdown in negotiations.",
             "There was a total breakdown of communication between the two offices.",
             "A breakdown in law and order followed the storm."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A collapse of a person's mental health under stress",
+          "body": [
+            "(нервный срыв)"
+          ],
+          "examples": [
+            "He had a breakdown his second year of residency.",
+            "She was headed for a breakdown and everyone saw it.",
+            "Two breakdowns in one department is a warning sign."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "A failure that stops a vehicle or machine from working",
+          "body": [
+            "(поломка, авария (машины))",
+            "---"
+          ],
+          "examples": [
+            "We had a breakdown on the interstate and waited two hours for a tow.",
+            "The bus company reports a breakdown about once a month.",
+            "Regular service prevents most breakdowns."
+          ]
         }
       ],
-      "русский": "нервный срыв; поломка, авария (машины); разбивка, детализация (по пунктам); срыв, развал (переговоров, отношений)",
+      "русский": "разбивка, детализация (по пунктам); срыв, развал (переговоров, отношений); нервный срыв; поломка, авария (машины)",
       "plural": "breakdowns",
       "countability": "countable"
     },

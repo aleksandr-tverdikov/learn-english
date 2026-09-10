@@ -731,41 +731,41 @@
       "respell": "AH-puh-ray-tur",
       "meaning": "Operator has 2 distinct senses.",
       "examples": [
-        "Press zero to reach an operator.",
-        "The operator put me through to billing.",
-        "Three operators share the same tower.",
         "The crane operator has been here longer than anyone.",
         "Two operators watch the control room around the clock.",
-        "Every operator has to be certified."
+        "Every operator has to be certified.",
+        "Press zero to reach an operator.",
+        "The operator put me through to billing.",
+        "Three operators share the same tower."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A person or company that connects or manages phone calls and service",
-          "body": [
-            "(оператор (связи))"
-          ],
-          "examples": [
-            "Press zero to reach an operator.",
-            "The operator put me through to billing.",
-            "Three operators share the same tower."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Someone whose job is running a machine or a plant",
           "body": [
-            "(оператор (машины, установки))",
-            "---"
+            "(оператор (машины, установки))"
           ],
           "examples": [
             "The crane operator has been here longer than anyone.",
             "Two operators watch the control room around the clock.",
             "Every operator has to be certified."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A person or company that connects or manages phone calls and service",
+          "body": [
+            "(оператор (связи))",
+            "---"
+          ],
+          "examples": [
+            "Press zero to reach an operator.",
+            "The operator put me through to billing.",
+            "Three operators share the same tower."
+          ]
         }
       ],
-      "русский": "оператор (связи); оператор (машины, установки)",
+      "русский": "оператор (машины, установки); оператор (связи)",
       "plural": "operators",
       "countability": "countable"
     },
@@ -775,41 +775,41 @@
       "respell": "in-tur-FEER-uns",
       "meaning": "Interference has 2 distinct senses.",
       "examples": [
-        "The microwave causes interference with the wifi.",
-        "There's too much interference to hear you.",
-        "Power lines can create interference.",
         "The report found no evidence of foreign interference in the election.",
         "She resented her mother-in-law's constant interference.",
-        "The judge warned him against interference with the investigation."
+        "The judge warned him against interference with the investigation.",
+        "The microwave causes interference with the wifi.",
+        "There's too much interference to hear you.",
+        "Power lines can create interference."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Unwanted signals that disturb a radio, phone, or wireless connection",
-          "body": [
-            "(помехи)"
-          ],
-          "examples": [
-            "The microwave causes interference with the wifi.",
-            "There's too much interference to hear you.",
-            "Power lines can create interference."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Unwanted involvement in someone else's affairs or in a process",
           "body": [
-            "(вмешательство)",
-            "---"
+            "(вмешательство)"
           ],
           "examples": [
             "The report found no evidence of foreign interference in the election.",
             "She resented her mother-in-law's constant interference.",
             "The judge warned him against interference with the investigation."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Unwanted signals that disturb a radio, phone, or wireless connection",
+          "body": [
+            "(помехи)",
+            "---"
+          ],
+          "examples": [
+            "The microwave causes interference with the wifi.",
+            "There's too much interference to hear you.",
+            "Power lines can create interference."
+          ]
         }
       ],
-      "русский": "помехи; вмешательство",
+      "русский": "вмешательство; помехи",
       "countability": "uncountable"
     },
     {
@@ -1217,12 +1217,12 @@
       "respell": "suh-PORT",
       "meaning": "Support has 3 distinct senses.",
       "examples": [
-        "I was on hold with support for forty minutes.",
-        "Technical support is only open on weekdays.",
-        "Their customer support is the reason I stayed.",
         "Her family gave her a lot of support after the accident.",
         "The bill has strong support in the Senate.",
         "He pays child support every month.",
+        "I was on hold with support for forty minutes.",
+        "Technical support is only open on weekdays.",
+        "Their customer support is the reason I stayed.",
         "Steel supports hold up the balcony.",
         "The shelf needs another support in the middle.",
         "Crews put temporary supports under the sagging roof."
@@ -1230,18 +1230,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "Help given to customers who have trouble with a product or service",
-          "body": [
-            "(поддержка, техподдержка)"
-          ],
-          "examples": [
-            "I was on hold with support for forty minutes.",
-            "Technical support is only open on weekdays.",
-            "Their customer support is the reason I stayed."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Help, encouragement, or money given to a person or a cause",
           "body": [
             "(поддержка, помощь)"
@@ -1250,6 +1238,18 @@
             "Her family gave her a lot of support after the accident.",
             "The bill has strong support in the Senate.",
             "He pays child support every month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Help given to customers who have trouble with a product or service",
+          "body": [
+            "(поддержка, техподдержка)"
+          ],
+          "examples": [
+            "I was on hold with support for forty minutes.",
+            "Technical support is only open on weekdays.",
+            "Their customer support is the reason I stayed."
           ]
         },
         {
@@ -1266,7 +1266,7 @@
           ]
         }
       ],
-      "русский": "поддержка, техподдержка; поддержка, помощь; опора, подпорка",
+      "русский": "поддержка, помощь; поддержка, техподдержка; опора, подпорка",
       "countability": "uncountable"
     },
     {

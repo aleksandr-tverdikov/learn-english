@@ -2003,29 +2003,29 @@ A support built against a wall to keep it from leaning outward.
 ### vault
 
 **Pronunciation:** /vɔːlt/ &middot; *VAWLT*
-**Русский:** свод (потолка); хранилище, сейфовая комната; опорный прыжок (в гимнастике)
+**Русский:** хранилище, сейфовая комната; опорный прыжок (в гимнастике); свод (потолка)
 **Plural:** *vaults*
 **Countability:** countable
 
 Vault has 3 distinct senses.
 
-**1. An arched ceiling or roof made of stone or brick.** (свод (потолка))
+**1. A strong locked room where money or valuables are kept.** (хранилище, сейфовая комната)
 
-1. The *vault* over the nave is painted blue.
-2. Ribbed *vaults* let builders span wider rooms.
-3. Water stains run down the *vault*.
+1. The bank keeps the gold in an underground *vault*.
+2. The original documents are locked in the *vault*.
+3. Two guards stood outside the *vault* all night.
 
-**2. A strong locked room where money or valuables are kept.** (хранилище, сейфовая комната)
+**2. A jump over a piece of equipment in gymnastics, or the apparatus itself.** (опорный прыжок (в гимнастике))
 
-4. The bank keeps the gold in an underground *vault*.
-5. The original documents are locked in the *vault*.
-6. Two guards stood outside the *vault* all night.
+4. She scored highest on the *vault*.
+5. His second *vault* was nearly perfect.
+6. The *vault* has always been her strongest event.
 
-**3. A jump over a piece of equipment in gymnastics, or the apparatus itself.** (опорный прыжок (в гимнастике))
+**3. An arched ceiling or roof made of stone or brick.** (свод (потолка))
 
-7. She scored highest on the *vault*.
-8. His second *vault* was nearly perfect.
-9. The *vault* has always been her strongest event.
+7. The *vault* over the nave is painted blue.
+8. Ribbed *vaults* let builders span wider rooms.
+9. Water stains run down the *vault*.
 
 ---
 

@@ -1652,41 +1652,41 @@
       "respell": "SKWAIR",
       "meaning": "Square has 2 distinct senses.",
       "examples": [
-        "The Christmas tree goes up in the town square.",
-        "Several squares in this city date to colonial times.",
-        "We sat on a bench in the square and ate lunch.",
         "Fold the paper into a square.",
         "The quilt is made of hundreds of colored squares.",
-        "Move your piece three squares forward."
+        "Move your piece three squares forward.",
+        "The Christmas tree goes up in the town square.",
+        "Several squares in this city date to colonial times.",
+        "We sat on a bench in the square and ate lunch."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An open public space in a town, usually surrounded by buildings",
-          "body": [
-            "(площадь (городская))"
-          ],
-          "examples": [
-            "The Christmas tree goes up in the town square.",
-            "Several squares in this city date to colonial times.",
-            "We sat on a bench in the square and ate lunch."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A shape with four equal straight sides and four right angles",
           "body": [
-            "(квадрат)",
-            "---"
+            "(квадрат)"
           ],
           "examples": [
             "Fold the paper into a square.",
             "The quilt is made of hundreds of colored squares.",
             "Move your piece three squares forward."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An open public space in a town, usually surrounded by buildings",
+          "body": [
+            "(площадь (городская))",
+            "---"
+          ],
+          "examples": [
+            "The Christmas tree goes up in the town square.",
+            "Several squares in this city date to colonial times.",
+            "We sat on a bench in the square and ate lunch."
+          ]
         }
       ],
-      "русский": "площадь (городская); квадрат",
+      "русский": "квадрат; площадь (городская)",
       "plural": "squares",
       "countability": "countable"
     },
@@ -2037,12 +2037,12 @@
       "respell": "LAHT",
       "meaning": "Lot has 4 distinct senses.",
       "examples": [
-        "They bought an empty lot on the corner.",
-        "Three lots on this street are still for sale.",
-        "Kids play ball in the vacant lot.",
         "A lot of people showed up early.",
         "That's a lot to ask of a ten-year-old.",
         "We learned lots about the neighborhood that summer.",
+        "They bought an empty lot on the corner.",
+        "Three lots on this street are still for sale.",
+        "Kids play ball in the vacant lot.",
         "Lot 42 is a set of silver spoons.",
         "The first three lots sold in under a minute.",
         "She bid on a lot of old postcards.",
@@ -2053,18 +2053,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A marked-off piece of land, especially one meant to be built on",
-          "body": [
-            "(участок земли)"
-          ],
-          "examples": [
-            "They bought an empty lot on the corner.",
-            "Three lots on this street are still for sale.",
-            "Kids play ball in the vacant lot."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A large number or amount of something",
           "body": [
             "(много, масса)"
@@ -2073,6 +2061,18 @@
             "A lot of people showed up early.",
             "That's a lot to ask of a ten-year-old.",
             "We learned lots about the neighborhood that summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A marked-off piece of land, especially one meant to be built on",
+          "body": [
+            "(участок земли)"
+          ],
+          "examples": [
+            "They bought an empty lot on the corner.",
+            "Three lots on this street are still for sale.",
+            "Kids play ball in the vacant lot."
           ]
         },
         {
@@ -2101,7 +2101,7 @@
           ]
         }
       ],
-      "русский": "участок земли; много, масса; лот (на аукционе); участь, доля, судьба",
+      "русский": "много, масса; участок земли; лот (на аукционе); участь, доля, судьба",
       "plural": "lots",
       "countability": "countable"
     },

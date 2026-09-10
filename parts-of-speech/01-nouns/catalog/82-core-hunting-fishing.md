@@ -41,23 +41,23 @@ Someone who hunts wild animals.
 ### hunt
 
 **Pronunciation:** /hʌnt/ &middot; *HUNT*
-**Русский:** охота (выезд, вылазка); поиски, розыск
+**Русский:** поиски, розыск; охота (выезд, вылазка)
 **Plural:** *hunts*
 **Countability:** countable
 
 Hunt has 2 distinct senses.
 
-**1. One trip or occasion of hunting animals.** (охота (выезд, вылазка))
+**1. A search for something or someone that is hard to find.** (поиски, розыск)
 
-1. They're planning an elk *hunt* in Montana this fall.
-2. The morning *hunt* ended with nothing but wet boots.
-3. He's been on a dozen *hunts* and never fired a shot.
+1. The *hunt* for a new principal took all spring.
+2. Police called off the *hunt* at midnight.
+3. We're on the *hunt* for a bigger apartment.
 
-**2. A search for something or someone that is hard to find.** (поиски, розыск)
+**2. One trip or occasion of hunting animals.** (охота (выезд, вылазка))
 
-4. The *hunt* for a new principal took all spring.
-5. Police called off the *hunt* at midnight.
-6. We're on the *hunt* for a bigger apartment.
+4. They're planning an elk *hunt* in Montana this fall.
+5. The morning *hunt* ended with nothing but wet boots.
+6. He's been on a dozen *hunts* and never fired a shot.
 
 ---
 
@@ -364,24 +364,24 @@ Poaching has 3 distinct senses.
 ### decoy
 
 **Pronunciation:** /ˈdiːkɔɪ/ &middot; *DEE-koy*
-**Русский:** чучело (подсадная птица), приманка; приманка, отвлекающий манёвр
+**Русский:** приманка, отвлекающий манёвр; чучело (подсадная птица), приманка
 **Plural:** *decoys*
 **Countability:** countable
 **Contrast:** The noun is usually stressed on the first syllable (DEE-koy); as a verb the stress often moves to the second (di-KOY).
 
 Decoy has 2 distinct senses.
 
-**1. A model of a bird set out on the water to draw real birds within range.** (чучело (подсадная птица), приманка)
+**1. A person or thing used to lure someone into a trap or draw attention away.** (приманка, отвлекающий манёвр)
 
-1. We set out two dozen *decoys* before sunrise.
-2. One *decoy* had come loose and drifted off.
-3. He carves wooden *decoys* in the winter.
+1. The parked van was a *decoy* while the real truck slipped out the back.
+2. Police used an unmarked car as a *decoy*.
+3. The fake email was a *decoy* to get her password.
 
-**2. A person or thing used to lure someone into a trap or draw attention away.** (приманка, отвлекающий манёвр)
+**2. A model of a bird set out on the water to draw real birds within range.** (чучело (подсадная птица), приманка)
 
-4. The parked van was a *decoy* while the real truck slipped out the back.
-5. Police used an unmarked car as a *decoy*.
-6. The fake email was a *decoy* to get her password.
+4. We set out two dozen *decoys* before sunrise.
+5. One *decoy* had come loose and drifted off.
+6. He carves wooden *decoys* in the winter.
 
 ---
 
@@ -674,29 +674,29 @@ A dog trained to work alongside a hunter with a shotgun.
 ### pointer
 
 **Pronunciation:** /ˈpɔɪntər/ &middot; *POYN-tur*
-**Русский:** пойнтер; совет, подсказка; указка; стрелка, указатель
+**Русский:** совет, подсказка; указка; стрелка, указатель; пойнтер
 **Plural:** *pointers*
 **Countability:** countable
 
 Pointer has 3 distinct senses.
 
-**1. A hunting dog that freezes and points its nose at hidden birds.** (пойнтер)
+**1. A short piece of practical advice.** (совет, подсказка)
 
-1. The *pointer* locked up at the edge of the corn.
-2. He runs two *pointers* on the prairie every October.
-3. A good *pointer* holds until the hunter walks in.
+1. Can you give me a few *pointers* on my resume?
+2. The coach offered one *pointer* that fixed my swing.
+3. Her *pointers* about interviewing turned out to be useful.
 
-**2. A short piece of practical advice.** (совет, подсказка)
+**2. A stick, needle, or arrow used to show where something is.** (указка; стрелка, указатель)
 
-4. Can you give me a few *pointers* on my resume?
-5. The coach offered one *pointer* that fixed my swing.
-6. Her *pointers* about interviewing turned out to be useful.
+4. He tapped the map with a wooden *pointer*.
+5. Move the *pointer* over the icon and click.
+6. The dial's *pointer* stopped just below the red zone.
 
-**3. A stick, needle, or arrow used to show where something is.** (указка; стрелка, указатель)
+**3. A hunting dog that freezes and points its nose at hidden birds.** (пойнтер)
 
-7. He tapped the map with a wooden *pointer*.
-8. Move the *pointer* over the icon and click.
-9. The dial's *pointer* stopped just below the red zone.
+7. The *pointer* locked up at the edge of the corn.
+8. He runs two *pointers* on the prairie every October.
+9. A good *pointer* holds until the hunter walks in.
 
 ---
 
@@ -777,24 +777,24 @@ Small lead or steel pellets fired from a shotgun at birds.
 ### scope
 
 **Pronunciation:** /skoʊp/ &middot; *SKOHP*
-**Русский:** оптический прицел; рамки, охват, сфера
+**Русский:** рамки, охват, сфера; оптический прицел
 **Plural:** *scopes*
 **Countability:** countable
 **Contrast:** Also an everyday word meaning range or extent ('the scope of the project'), and in that sense it is uncountable.
 
 Scope has 2 distinct senses.
 
-**1. A small telescope mounted on a rifle to help the shooter aim.** (оптический прицел)
+**1. The range of subjects or activity that something deals with.** (рамки, охват, сфера)
 
-1. He put a new *scope* on the deer rifle.
-2. Fog on the *scope* cost him the shot.
-3. Cheap *scopes* lose their zero after a few shots.
+1. That question is outside the *scope* of this report.
+2. The investigation widened in *scope* over the summer.
+3. We had to narrow the *scope* of the project to finish on time.
 
-**2. The range of subjects or activity that something deals with.** (рамки, охват, сфера)
+**2. A small telescope mounted on a rifle to help the shooter aim.** (оптический прицел)
 
-4. That question is outside the *scope* of this report.
-5. The investigation widened in *scope* over the summer.
-6. We had to narrow the *scope* of the project to finish on time.
+4. He put a new *scope* on the deer rifle.
+5. Fog on the *scope* cost him the shot.
+6. Cheap *scopes* lose their zero after a few shots.
 
 ---
 
@@ -874,23 +874,23 @@ The backward push a gun gives when it is fired.
 ### choke
 
 **Pronunciation:** /tʃoʊk/ &middot; *CHOHK*
-**Русский:** чок, дульное сужение; воздушная заслонка, подсос
+**Русский:** воздушная заслонка, подсос; чок, дульное сужение
 **Plural:** *chokes*
 **Countability:** countable
 
 Choke has 2 distinct senses.
 
-**1. A narrowing at the end of a shotgun barrel that controls how the shot spreads.** (чок, дульное сужение)
+**1. The control that cuts down the air going into an engine to help it start.** (воздушная заслонка, подсос)
 
-1. Use a tighter *choke* for longer shots.
-2. The gun came with three screw-in *chokes*.
-3. An open *choke* is better in close cover.
+1. Pull the *choke* out before you start the mower.
+2. The old truck will not turn over without the *choke*.
+3. Push the *choke* back in once the engine warms up.
 
-**2. The control that cuts down the air going into an engine to help it start.** (воздушная заслонка, подсос)
+**2. A narrowing at the end of a shotgun barrel that controls how the shot spreads.** (чок, дульное сужение)
 
-4. Pull the *choke* out before you start the mower.
-5. The old truck will not turn over without the *choke*.
-6. Push the *choke* back in once the engine warms up.
+4. Use a tighter *choke* for longer shots.
+5. The gun came with three screw-in *chokes*.
+6. An open *choke* is better in close cover.
 
 ---
 
@@ -1166,24 +1166,24 @@ A narrow path worn through the woods by wild animals.
 ### scent
 
 **Pronunciation:** /sɛnt/ &middot; *SENT*
-**Русский:** запах зверя, след (по запаху); аромат, приятный запах
+**Русский:** аромат, приятный запах; запах зверя, след (по запаху)
 **Plural:** *scents*
 **Countability:** countable
 **Contrast:** The c is silent: *scent*, *sent*, and *cent* all sound the same.
 
 Scent has 2 distinct senses.
 
-**1. The smell an animal leaves behind, which dogs follow.** (запах зверя, след (по запаху))
+**1. A pleasant smell.** (аромат, приятный запах)
 
-1. The hounds picked up a *scent* near the river.
-2. Rain washes the *scent* right off the ground.
-3. Wind carried our *scent* straight to the deer.
+1. The *scent* of fresh bread filled the kitchen.
+2. I love the *scent* of lilacs in May.
+3. A faint *scent* of coffee drifted down the hall.
 
-**2. A pleasant smell.** (аромат, приятный запах)
+**2. The smell an animal leaves behind, which dogs follow.** (запах зверя, след (по запаху))
 
-4. The *scent* of fresh bread filled the kitchen.
-5. I love the *scent* of lilacs in May.
-6. A faint *scent* of coffee drifted down the hall.
+4. The hounds picked up a *scent* near the river.
+5. Rain washes the *scent* right off the ground.
+6. Wind carried our *scent* straight to the deer.
 
 ---
 
@@ -1204,17 +1204,17 @@ The droppings of a wild animal, used to tell what has passed by.
 ### rut
 
 **Pronunciation:** /rʌt/ &middot; *RUT*
-**Русский:** гон (брачный период у оленей); колея, выбоина; рутина, застой
+**Русский:** рутина, застой; колея, выбоина; гон (брачный период у оленей)
 **Countability:** uncountable
 **Contrast:** Also an everyday word for a deep groove worn in a dirt road, or a dull routine.
 
 Rut has 3 distinct senses.
 
-**1. The mating season when male deer chase females and lose their caution.** (гон (брачный период у оленей))
+**1. A dull routine that a person cannot seem to break out of.** (рутина, застой)
 
-1. The *rut* usually peaks around the second week of November.
-2. Bucks move all day during the *rut*.
-3. He takes his vacation to hunt the *rut*.
+1. I'm in a *rut* at work and need a change.
+2. They fell into a *rut* of takeout and TV.
+3. A trip might shake her out of this *rut*.
 
 **2. A deep track worn into soft ground by wheels.** (колея, выбоина)
 
@@ -1222,11 +1222,11 @@ Rut has 3 distinct senses.
 5. Frozen *ruts* made the dirt road rough.
 6. Rain had cut deep *ruts* across the driveway.
 
-**3. A dull routine that a person cannot seem to break out of.** (рутина, застой)
+**3. The mating season when male deer chase females and lose their caution.** (гон (брачный период у оленей))
 
-7. I'm in a *rut* at work and need a change.
-8. They fell into a *rut* of takeout and TV.
-9. A trip might shake her out of this *rut*.
+7. The *rut* usually peaks around the second week of November.
+8. Bucks move all day during the *rut*.
+9. He takes his vacation to hunt the *rut*.
 
 ---
 
@@ -1375,35 +1375,35 @@ Someone who spends a lot of time hunting, fishing, and camping.
 ### keeper
 
 **Pronunciation:** /ˈkiːpər/ &middot; *KEE-pur*
-**Русский:** рыба разрешённого размера (которую можно оставить); смотритель, хранитель; вратарь; то, что стоит сохранить; отличный вариант
+**Русский:** смотритель, хранитель; вратарь; то, что стоит сохранить; отличный вариант; рыба разрешённого размера (которую можно оставить)
 **Plural:** *keepers*
 **Countability:** countable
 
 Keeper has 4 distinct senses.
 
-**1. A fish big enough by law to be kept instead of thrown back.** (рыба разрешённого размера (которую можно оставить))
+**1. A person whose job is to look after animals, a place, or a collection.** (смотритель, хранитель)
 
-1. That one's a *keeper* — right at fifteen inches.
-2. We caught thirty fish and maybe four *keepers*.
-3. Anything under the limit goes back; only *keepers* go in the cooler.
+1. The zoo *keeper* hand-raised the tiger cub.
+2. *Keepers* at the lighthouse logged every ship that passed.
+3. She is the *keeper* of all the family photographs.
 
-**2. A person whose job is to look after animals, a place, or a collection.** (смотритель, хранитель)
+**2. The player who guards the goal in soccer or hockey.** (вратарь)
 
-4. The zoo *keeper* hand-raised the tiger cub.
-5. *Keepers* at the lighthouse logged every ship that passed.
-6. She is the *keeper* of all the family photographs.
+4. Their *keeper* stopped three shots in the second half.
+5. The ball went right past the *keeper*.
+6. Both *keepers* played the whole game.
 
-**3. The player who guards the goal in soccer or hockey.** (вратарь)
+**3. An informal word for someone or something good enough to hold on to.** (то, что стоит сохранить; отличный вариант)
 
-7. Their *keeper* stopped three shots in the second half.
-8. The ball went right past the *keeper*.
-9. Both *keepers* played the whole game.
+7. This soup recipe is a *keeper*.
+8. Her new boyfriend seems like a *keeper*.
+9. Out of fifty photos, only three were *keepers*.
 
-**4. An informal word for someone or something good enough to hold on to.** (то, что стоит сохранить; отличный вариант)
+**4. A fish big enough by law to be kept instead of thrown back.** (рыба разрешённого размера (которую можно оставить))
 
-10. This soup recipe is a *keeper*.
-11. Her new boyfriend seems like a *keeper*.
-12. Out of fifty photos, only three were *keepers*.
+10. That one's a *keeper* — right at fifteen inches.
+11. We caught thirty fish and maybe four *keepers*.
+12. Anything under the limit goes back; only *keepers* go in the cooler.
 
 ---
 
@@ -1424,23 +1424,23 @@ The practice of putting every fish back in the water after catching it.
 ### nibble
 
 **Pronunciation:** /ˈnɪbəl/ &middot; *NIB-uhl*
-**Русский:** поклёвка (осторожная); маленький кусочек, укус; проявление интереса (к предложению)
+**Русский:** маленький кусочек, укус; поклёвка (осторожная); проявление интереса (к предложению)
 **Plural:** *nibbles*
 **Countability:** countable
 
 Nibble has 3 distinct senses.
 
-**1. A light careful bite from a fish that does not take the hook.** (поклёвка (осторожная))
+**1. A small bite of food.** (маленький кусочек, укус)
 
-1. I got a *nibble* but nothing set.
-2. We sat there two hours without a single *nibble*.
-3. A few *nibbles* means the bait is too big.
+1. She took a *nibble* of the cookie and put it down.
+2. The rabbit took a few *nibbles* of lettuce and hopped away.
+3. One *nibble* was enough to tell me it was burnt.
 
-**2. A small bite of food.** (маленький кусочек, укус)
+**2. A light careful bite from a fish that does not take the hook.** (поклёвка (осторожная))
 
-4. She took a *nibble* of the cookie and put it down.
-5. The rabbit took a few *nibbles* of lettuce and hopped away.
-6. One *nibble* was enough to tell me it was burnt.
+4. I got a *nibble* but nothing set.
+5. We sat there two hours without a single *nibble*.
+6. A few *nibbles* means the bait is too big.
 
 **3. A sign that someone might be interested in an offer.** (проявление интереса (к предложению))
 
@@ -1453,30 +1453,30 @@ Nibble has 3 distinct senses.
 ### haul
 
 **Pronunciation:** /hɔːl/ &middot; *HAWL*
-**Русский:** улов, добыча; путь, перегон (расстояние); добыча, награбленное
+**Русский:** путь, перегон (расстояние); добыча, награбленное; улов, добыча
 **Plural:** *hauls*
 **Countability:** countable
 **Contrast:** Sounds exactly like *hall* (a corridor or a large room).
 
 Haul has 3 distinct senses.
 
-**1. The amount of fish or game brought in at one time.** (улов, добыча)
+**1. A distance that has to be traveled, especially a long one.** (путь, перегон (расстояние))
 
-1. That's the biggest *haul* we've had all summer.
-2. The boat came in with a poor *haul*.
-3. Their *hauls* have dropped off since the new rules.
+1. It's a long *haul* from Denver to Chicago.
+2. The store is only a short *haul* from here.
+3. Truckers on the long *haul* often sleep in their cabs.
 
-**2. A distance that has to be traveled, especially a long one.** (путь, перегон (расстояние))
+**2. A quantity of stolen goods, or a large amount of something won or collected.** (добыча, награбленное)
 
-4. It's a long *haul* from Denver to Chicago.
-5. The store is only a short *haul* from here.
-6. Truckers on the long *haul* often sleep in their cabs.
+4. Police recovered most of the thieves' *haul*.
+5. The robbers got away with a *haul* worth half a million dollars.
+6. The team came home with a *haul* of five gold medals.
 
-**3. A quantity of stolen goods, or a large amount of something won or collected.** (добыча, награбленное)
+**3. The amount of fish or game brought in at one time.** (улов, добыча)
 
-7. Police recovered most of the thieves' *haul*.
-8. The robbers got away with a *haul* worth half a million dollars.
-9. The team came home with a *haul* of five gold medals.
+7. That's the biggest *haul* we've had all summer.
+8. The boat came in with a poor *haul*.
+9. Their *hauls* have dropped off since the new rules.
 
 ---
 
@@ -1620,23 +1620,23 @@ Clear single-strand nylon line used for fishing.
 ### jig
 
 **Pronunciation:** /dʒɪɡ/ &middot; *JIG*
-**Русский:** джиг (приманка с грузилом); джига (быстрый танец); кондуктор, шаблон (приспособление)
+**Русский:** джига (быстрый танец); джиг (приманка с грузилом); кондуктор, шаблон (приспособление)
 **Plural:** *jigs*
 **Countability:** countable
 
 Jig has 3 distinct senses.
 
-**1. A weighted hook with a soft or hairy body, bounced along the bottom.** (джиг (приманка с грузилом))
+**1. A fast, lively folk dance, or the music played for it.** (джига (быстрый танец))
 
-1. A white *jig* works well in that river.
-2. He tipped the *jig* with a piece of minnow.
-3. She keeps a whole tray of *jigs* in different colors.
+1. The fiddler struck up a *jig*.
+2. He danced a little *jig* when he heard the news.
+3. The band played reels and *jigs* all night.
 
-**2. A fast, lively folk dance, or the music played for it.** (джига (быстрый танец))
+**2. A weighted hook with a soft or hairy body, bounced along the bottom.** (джиг (приманка с грузилом))
 
-4. The fiddler struck up a *jig*.
-5. He danced a little *jig* when he heard the news.
-6. The band played reels and *jigs* all night.
+4. A white *jig* works well in that river.
+5. He tipped the *jig* with a piece of minnow.
+6. She keeps a whole tray of *jigs* in different colors.
 
 **3. A device that holds a piece of work and guides the tool cutting it.** (кондуктор, шаблон (приспособление))
 
@@ -1664,23 +1664,23 @@ A lure with a small blade that spins and flashes as it is pulled through the wat
 ### chum
 
 **Pronunciation:** /tʃʌm/ &middot; *CHUM*
-**Русский:** прикормка (рубленая рыба); приятель, дружище
+**Русский:** приятель, дружище; прикормка (рубленая рыба)
 **Countability:** uncountable
 **Contrast:** Also an old informal word for a close friend, and it sounds exactly the same.
 
 Chum has 2 distinct senses.
 
-**1. Bits of fish thrown in the water to draw fish toward a boat.** (прикормка (рубленая рыба))
+**1. A close friend (informal, slightly old-fashioned).** (приятель, дружище)
 
-1. The mate threw *chum* over the side every few minutes.
-2. A slick of *chum* trailed behind the boat.
-3. *Chum* brings in sharks along with everything else.
+1. He went fishing with an old college *chum*.
+2. The two boys have been *chums* since second grade.
+3. Thanks for the ride, *chum*.
 
-**2. A close friend (informal, slightly old-fashioned).** (приятель, дружище)
+**2. Bits of fish thrown in the water to draw fish toward a boat.** (прикормка (рубленая рыба))
 
-4. He went fishing with an old college *chum*.
-5. The two boys have been *chums* since second grade.
-6. Thanks for the ride, *chum*.
+4. The mate threw *chum* over the side every few minutes.
+5. A slick of *chum* trailed behind the boat.
+6. *Chum* brings in sharks along with everything else.
 
 ---
 
@@ -1732,22 +1732,22 @@ A set of steps built beside a dam so fish can swim upstream.
 ### casting
 
 **Pronunciation:** /ˈkæstɪŋ/ &middot; *KAS-ting*
-**Русский:** заброс (снасти); кастинг, подбор актёров
+**Русский:** кастинг, подбор актёров; заброс (снасти)
 **Countability:** uncountable
 
 Casting has 2 distinct senses.
 
-**1. The act of throwing a baited line out over the water.** (заброс (снасти))
+**1. The process of choosing which actors will play which parts.** (кастинг, подбор актёров)
 
-1. *Casting* into the wind takes practice.
-2. He spent an hour on the lawn working on his *casting*.
-3. Long *casting* isn't necessary on a small creek.
+1. *Casting* takes about three weeks for a show this size.
+2. The *casting* is the strongest thing about this production.
+3. She does *casting* for two theaters in the city.
 
-**2. The process of choosing which actors will play which parts.** (кастинг, подбор актёров)
+**2. The act of throwing a baited line out over the water.** (заброс (снасти))
 
-4. *Casting* takes about three weeks for a show this size.
-5. The *casting* is the strongest thing about this production.
-6. She does *casting* for two theaters in the city.
+4. *Casting* into the wind takes practice.
+5. He spent an hour on the lawn working on his *casting*.
+6. Long *casting* isn't necessary on a small creek.
 
 ---
 

@@ -264,31 +264,19 @@
       "respell": "BAWL",
       "meaning": "Ball has 3 distinct senses.",
       "examples": [
-        "The charity ball is black tie.",
-        "She's been to two balls this season.",
-        "The governor's inaugural ball was held downtown.",
         "The dog brought the ball back every time.",
         "He hit the ball over the fence.",
         "We lost three balls in the tall grass.",
         "Roll the dough into a ball and let it rest.",
         "The cat unwound a whole ball of yarn.",
-        "He crushed the letter into a ball."
+        "He crushed the letter into a ball.",
+        "The charity ball is black tie.",
+        "She's been to two balls this season.",
+        "The governor's inaugural ball was held downtown."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A large formal party with dancing",
-          "body": [
-            "(бал)"
-          ],
-          "examples": [
-            "The charity ball is black tie.",
-            "She's been to two balls this season.",
-            "The governor's inaugural ball was held downtown."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A round object that is thrown, kicked, or hit in games",
           "body": [
             "(мяч)"
@@ -300,20 +288,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "Something squeezed or rolled into a round mass",
           "body": [
-            "(шар, комок, клубок)",
-            "---"
+            "(шар, комок, клубок)"
           ],
           "examples": [
             "Roll the dough into a ball and let it rest.",
             "The cat unwound a whole ball of yarn.",
             "He crushed the letter into a ball."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A large formal party with dancing",
+          "body": [
+            "(бал)",
+            "---"
+          ],
+          "examples": [
+            "The charity ball is black tie.",
+            "She's been to two balls this season.",
+            "The governor's inaugural ball was held downtown."
+          ]
         }
       ],
-      "русский": "бал; мяч; шар, комок, клубок",
+      "русский": "мяч; шар, комок, клубок; бал",
       "plural": "balls",
       "countability": "countable"
     },
@@ -993,12 +993,12 @@
       "respell": "THEEM",
       "meaning": "Theme has 3 distinct senses.",
       "examples": [
-        "The party has a 1920s theme.",
-        "Her birthday themes have gotten more elaborate every year.",
-        "Pick a theme and the decorations get a lot easier.",
         "Loneliness is the main theme of the novel.",
         "Several themes came up again and again in the interviews.",
         "The theme of her talk was second chances.",
+        "The party has a 1920s theme.",
+        "Her birthday themes have gotten more elaborate every year.",
+        "Pick a theme and the decorations get a lot easier.",
         "Everyone recognizes the theme from that movie.",
         "The show's opening theme is only fifteen seconds long.",
         "He hummed the theme all the way home."
@@ -1006,18 +1006,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The subject or style that an event's decorations and costumes follow",
-          "body": [
-            "(тема (оформления праздника))"
-          ],
-          "examples": [
-            "The party has a 1920s theme.",
-            "Her birthday themes have gotten more elaborate every year.",
-            "Pick a theme and the decorations get a lot easier."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The main idea that runs through a book, a film, or a discussion",
           "body": [
             "(тема, основная мысль)"
@@ -1026,6 +1014,18 @@
             "Loneliness is the main theme of the novel.",
             "Several themes came up again and again in the interviews.",
             "The theme of her talk was second chances."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The subject or style that an event's decorations and costumes follow",
+          "body": [
+            "(тема (оформления праздника))"
+          ],
+          "examples": [
+            "The party has a 1920s theme.",
+            "Her birthday themes have gotten more elaborate every year.",
+            "Pick a theme and the decorations get a lot easier."
           ]
         },
         {
@@ -1042,7 +1042,7 @@
           ]
         }
       ],
-      "русский": "тема (оформления праздника); тема, основная мысль; музыкальная тема, заглавная мелодия",
+      "русский": "тема, основная мысль; тема (оформления праздника); музыкальная тема, заглавная мелодия",
       "plural": "themes",
       "countability": "countable"
     },
@@ -1170,31 +1170,19 @@
       "respell": "FAY-vur",
       "meaning": "Favor has 3 distinct senses.",
       "examples": [
-        "The party favors were little bags of candy.",
-        "Each guest took a favor from the table on the way out.",
-        "We're making the wedding favors ourselves.",
         "Can you do me a favor and watch the dog?",
         "I owe him a favor after last week.",
         "She's always asking for favors and never returning them.",
         "The plan found favor with the city council.",
         "That style has fallen out of favor.",
-        "He spent years trying to win the boss's favor."
+        "He spent years trying to win the boss's favor.",
+        "The party favors were little bags of candy.",
+        "Each guest took a favor from the table on the way out.",
+        "We're making the wedding favors ourselves."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A small gift given to each guest at a party or wedding",
-          "body": [
-            "(сувенир гостям (на празднике))"
-          ],
-          "examples": [
-            "The party favors were little bags of candy.",
-            "Each guest took a favor from the table on the way out.",
-            "We're making the wedding favors ourselves."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A kind act you do for someone because they asked",
           "body": [
             "(одолжение, услуга)"
@@ -1206,20 +1194,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "Approval or support for a person or an idea",
           "body": [
-            "(благосклонность, одобрение, поддержка)",
-            "---"
+            "(благосклонность, одобрение, поддержка)"
           ],
           "examples": [
             "The plan found favor with the city council.",
             "That style has fallen out of favor.",
             "He spent years trying to win the boss's favor."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A small gift given to each guest at a party or wedding",
+          "body": [
+            "(сувенир гостям (на празднике))",
+            "---"
+          ],
+          "examples": [
+            "The party favors were little bags of candy.",
+            "Each guest took a favor from the table on the way out.",
+            "We're making the wedding favors ourselves."
+          ]
         }
       ],
-      "русский": "сувенир гостям (на празднике); одолжение, услуга; благосклонность, одобрение, поддержка",
+      "русский": "одолжение, услуга; благосклонность, одобрение, поддержка; сувенир гостям (на празднике)",
       "plural": "favors",
       "countability": "countable",
       "contrast": "American spelling favor; British English writes favour. Same pronunciation."
@@ -1853,41 +1853,41 @@
       "respell": "SKREE-ning",
       "meaning": "Screening has 2 distinct senses.",
       "examples": [
-        "There's a screening of the documentary at seven.",
-        "The festival added two more screenings after the first sold out.",
-        "The director spoke after the screening.",
         "The clinic offers free screening for high blood pressure.",
         "Screening at the airport took almost an hour.",
-        "Every volunteer goes through a background screening."
+        "Every volunteer goes through a background screening.",
+        "There's a screening of the documentary at seven.",
+        "The festival added two more screenings after the first sold out.",
+        "The director spoke after the screening."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An occasion when a movie is shown to an audience",
-          "body": [
-            "(показ фильма)"
-          ],
-          "examples": [
-            "There's a screening of the documentary at seven.",
-            "The festival added two more screenings after the first sold out.",
-            "The director spoke after the screening."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The testing or checking of many people to catch a disease or to filter out anyone unsuitable",
           "body": [
-            "(обследование; проверка, отбор)",
-            "---"
+            "(обследование; проверка, отбор)"
           ],
           "examples": [
             "The clinic offers free screening for high blood pressure.",
             "Screening at the airport took almost an hour.",
             "Every volunteer goes through a background screening."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An occasion when a movie is shown to an audience",
+          "body": [
+            "(показ фильма)",
+            "---"
+          ],
+          "examples": [
+            "There's a screening of the documentary at seven.",
+            "The festival added two more screenings after the first sold out.",
+            "The director spoke after the screening."
+          ]
         }
       ],
-      "русский": "показ фильма; обследование; проверка, отбор",
+      "русский": "обследование; проверка, отбор; показ фильма",
       "plural": "screenings",
       "countability": "countable"
     },
@@ -2244,41 +2244,41 @@
       "respell": "OH-puh-ning",
       "meaning": "Opening has 2 distinct senses.",
       "examples": [
-        "The gallery opening is Thursday from six to nine.",
-        "We went to the opening of the new restaurant downtown.",
-        "Gallery openings usually mean free wine and cheese.",
         "The dog squeezed through an opening in the fence.",
         "Sunlight came through an opening in the clouds.",
-        "We cut an opening for the new window."
+        "We cut an opening for the new window.",
+        "The gallery opening is Thursday from six to nine.",
+        "We went to the opening of the new restaurant downtown.",
+        "Gallery openings usually mean free wine and cheese."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An event celebrating the first day a business, show, or exhibit is open to the public",
-          "body": [
-            "(открытие (мероприятие))"
-          ],
-          "examples": [
-            "The gallery opening is Thursday from six to nine.",
-            "We went to the opening of the new restaurant downtown.",
-            "Gallery openings usually mean free wine and cheese."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A gap or hole that something can pass through",
           "body": [
-            "(отверстие, проём, просвет)",
-            "---"
+            "(отверстие, проём, просвет)"
           ],
           "examples": [
             "The dog squeezed through an opening in the fence.",
             "Sunlight came through an opening in the clouds.",
             "We cut an opening for the new window."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An event celebrating the first day a business, show, or exhibit is open to the public",
+          "body": [
+            "(открытие (мероприятие))",
+            "---"
+          ],
+          "examples": [
+            "The gallery opening is Thursday from six to nine.",
+            "We went to the opening of the new restaurant downtown.",
+            "Gallery openings usually mean free wine and cheese."
+          ]
         }
       ],
-      "русский": "открытие (мероприятие); отверстие, проём, просвет",
+      "русский": "отверстие, проём, просвет; открытие (мероприятие)",
       "plural": "openings",
       "countability": "countable"
     },
@@ -2723,27 +2723,27 @@
       "respell": "WAYK",
       "meaning": "Wake has 3 distinct senses.",
       "examples": [
-        "The wake is at the funeral home from four to eight.",
-        "Half the town came to the wake.",
-        "Irish wakes in his family went on all night.",
+        "Thousands lost power in the wake of the storm.",
+        "In the wake of the scandal, two officials resigned.",
+        "Rebuilding began in the wake of the fire.",
         "Ducks bobbed in the boat's wake.",
         "The skier cut back and forth across the wake.",
         "The ferry left a wide wake across the bay.",
-        "Thousands lost power in the wake of the storm.",
-        "In the wake of the scandal, two officials resigned.",
-        "Rebuilding began in the wake of the fire."
+        "The wake is at the funeral home from four to eight.",
+        "Half the town came to the wake.",
+        "Irish wakes in his family went on all night."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A gathering held before or after a funeral where people remember the person who died",
+          "head": "The period and the conditions that follow an important event",
           "body": [
-            "(поминки (перед похоронами))"
+            "(последствия, период после события)"
           ],
           "examples": [
-            "The wake is at the funeral home from four to eight.",
-            "Half the town came to the wake.",
-            "Irish wakes in his family went on all night."
+            "Thousands lost power in the wake of the storm.",
+            "In the wake of the scandal, two officials resigned.",
+            "Rebuilding began in the wake of the fire."
           ]
         },
         {
@@ -2760,19 +2760,19 @@
         },
         {
           "n": "3",
-          "head": "The period and the conditions that follow an important event",
+          "head": "A gathering held before or after a funeral where people remember the person who died",
           "body": [
-            "(последствия, период после события)",
+            "(поминки (перед похоронами))",
             "---"
           ],
           "examples": [
-            "Thousands lost power in the wake of the storm.",
-            "In the wake of the scandal, two officials resigned.",
-            "Rebuilding began in the wake of the fire."
+            "The wake is at the funeral home from four to eight.",
+            "Half the town came to the wake.",
+            "Irish wakes in his family went on all night."
           ]
         }
       ],
-      "русский": "поминки (перед похоронами); кильватерный след, след за судном; последствия, период после события",
+      "русский": "последствия, период после события; кильватерный след, след за судном; поминки (перед похоронами)",
       "plural": "wakes",
       "countability": "countable"
     },
@@ -3021,41 +3021,41 @@
       "respell": "VYOO-ing",
       "meaning": "Viewing has 2 distinct senses.",
       "examples": [
-        "The viewing is Thursday evening at the funeral home.",
-        "They held two viewings, one in the afternoon and one at night.",
-        "A long line formed outside the viewing.",
         "The museum held a private viewing for members.",
         "A second viewing of the movie showed me details I'd missed.",
-        "The gallery scheduled a viewing of the new paintings."
+        "The gallery scheduled a viewing of the new paintings.",
+        "The viewing is Thursday evening at the funeral home.",
+        "They held two viewings, one in the afternoon and one at night.",
+        "A long line formed outside the viewing."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A time before a funeral when people come to see the body and pay their respects",
-          "body": [
-            "(прощание с покойным)"
-          ],
-          "examples": [
-            "The viewing is Thursday evening at the funeral home.",
-            "They held two viewings, one in the afternoon and one at night.",
-            "A long line formed outside the viewing."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An occasion of watching or looking at something, such as a film or an exhibition",
           "body": [
-            "(просмотр, показ (фильма, выставки))",
-            "---"
+            "(просмотр, показ (фильма, выставки))"
           ],
           "examples": [
             "The museum held a private viewing for members.",
             "A second viewing of the movie showed me details I'd missed.",
             "The gallery scheduled a viewing of the new paintings."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A time before a funeral when people come to see the body and pay their respects",
+          "body": [
+            "(прощание с покойным)",
+            "---"
+          ],
+          "examples": [
+            "The viewing is Thursday evening at the funeral home.",
+            "They held two viewings, one in the afternoon and one at night.",
+            "A long line formed outside the viewing."
+          ]
         }
       ],
-      "русский": "прощание с покойным; просмотр, показ (фильма, выставки)",
+      "русский": "просмотр, показ (фильма, выставки); прощание с покойным",
       "plural": "viewings",
       "countability": "countable"
     },

@@ -1310,24 +1310,24 @@ The heavy hanging bag a boxer hits for practice.
 ### hurdle
 
 **Pronunciation:** /ˈhɜːrdəl/ &middot; *HUR-duhl*
-**Русский:** барьер (в беге); препятствие, преграда
+**Русский:** препятствие, преграда; барьер (в беге)
 **Plural:** *hurdles*
 **Countability:** countable
 **Contrast:** Don't confuse it with *hurtle*, which means to rush along fast.
 
 Hurdle has 2 distinct senses.
 
-**1. One of the light barriers a runner jumps over in a race.** (барьер (в беге))
+**1. A difficulty that has to be dealt with before you can go on.** (препятствие, преграда)
 
-1. She clipped the last *hurdle* and still won.
-2. He runs the four hundred meter *hurdles*.
-3. Setting up the *hurdles* takes ten minutes.
+1. Getting the visa was the biggest *hurdle*.
+2. The bill still faces several *hurdles* in the Senate.
+3. We cleared the first *hurdle* when the bank approved the loan.
 
-**2. A difficulty that has to be dealt with before you can go on.** (препятствие, преграда)
+**2. One of the light barriers a runner jumps over in a race.** (барьер (в беге))
 
-4. Getting the visa was the biggest *hurdle*.
-5. The bill still faces several *hurdles* in the Senate.
-6. We cleared the first *hurdle* when the bank approved the loan.
+4. She clipped the last *hurdle* and still won.
+5. He runs the four hundred meter *hurdles*.
+6. Setting up the *hurdles* takes ten minutes.
 
 ---
 
@@ -1443,29 +1443,29 @@ The scoring area at each end of a football field.
 ### mound
 
 **Pronunciation:** /maʊnd/ &middot; *MOWND*
-**Русский:** горка питчера; холмик, насыпь, курган; куча, груда
+**Русский:** холмик, насыпь, курган; куча, груда; горка питчера
 **Plural:** *mounds*
 **Countability:** countable
 
 Mound has 3 distinct senses.
 
-**1. The raised circle of dirt a baseball pitcher throws from.** (горка питчера)
+**1. A small hill or a raised pile of earth.** (холмик, насыпь, курган)
 
-1. The pitcher walked slowly to the *mound*.
-2. He's been on the *mound* for six innings.
-3. The groundskeepers rebuild the *mound* every spring.
+1. Gophers left *mounds* of dirt all over the yard.
+2. The trail climbs a grassy *mound* above the river.
+3. Archaeologists dug into an ancient burial *mound*.
 
-**2. A small hill or a raised pile of earth.** (холмик, насыпь, курган)
+**2. A large heap of something piled up.** (куча, груда)
 
-4. Gophers left *mounds* of dirt all over the yard.
-5. The trail climbs a grassy *mound* above the river.
-6. Archaeologists dug into an ancient burial *mound*.
+4. There's a *mound* of laundry on the bed.
+5. He served us each a *mound* of mashed potatoes.
+6. A *mound* of paperwork was waiting on my desk.
 
-**3. A large heap of something piled up.** (куча, груда)
+**3. The raised circle of dirt a baseball pitcher throws from.** (горка питчера)
 
-7. There's a *mound* of laundry on the bed.
-8. He served us each a *mound* of mashed potatoes.
-9. A *mound* of paperwork was waiting on my desk.
+7. The pitcher walked slowly to the *mound*.
+8. He's been on the *mound* for six innings.
+9. The groundskeepers rebuild the *mound* every spring.
 
 ---
 
@@ -2014,23 +2014,23 @@ The stroke that puts the ball into play in tennis and similar games.
 ### ace
 
 **Pronunciation:** /eɪs/ &middot; *AYSE*
-**Русский:** эйс (подача навылет); туз; ас, мастер своего дела
+**Русский:** туз; эйс (подача навылет); ас, мастер своего дела
 **Plural:** *aces*
 **Countability:** countable
 
 Ace has 3 distinct senses.
 
-**1. A serve so good the opponent cannot touch it.** (эйс (подача навылет))
+**1. A playing card marked with a single symbol, usually the highest card in a game.** (туз)
 
-1. He finished the match with eighteen *aces*.
-2. That *ace* saved the set.
-3. She hit an *ace* on match point.
+1. She turned over an *ace* and took the hand.
+2. He was holding two *aces* and said nothing.
+3. The *ace* of spades was missing from the deck.
 
-**2. A playing card marked with a single symbol, usually the highest card in a game.** (туз)
+**2. A serve so good the opponent cannot touch it.** (эйс (подача навылет))
 
-4. She turned over an *ace* and took the hand.
-5. He was holding two *aces* and said nothing.
-6. The *ace* of spades was missing from the deck.
+4. He finished the match with eighteen *aces*.
+5. That *ace* saved the set.
+6. She hit an *ace* on match point.
 
 **3. Someone who is extremely good at a particular thing.** (ас, мастер своего дела)
 
@@ -2081,22 +2081,22 @@ Curveball has 2 distinct senses.
 ### par
 
 **Pronunciation:** /pɑːr/ &middot; *PAR*
-**Русский:** пар (норма ударов в гольфе); норма, обычный уровень
+**Русский:** норма, обычный уровень; пар (норма ударов в гольфе)
 **Countability:** uncountable
 
 Par has 2 distinct senses.
 
-**1. The number of strokes a good golfer is expected to need for a hole or course.** (пар (норма ударов в гольфе))
+**1. The usual or expected standard.** (норма, обычный уровень)
 
-1. He finished the round two under *par*.
-2. The seventh hole is a *par* five.
-3. Her score was right at *par*.
+1. Long lines at the DMV are *par* for the course.
+2. His work hasn't been up to *par* lately.
+3. I've been feeling a little under *par* all week.
 
-**2. The usual or expected standard.** (норма, обычный уровень)
+**2. The number of strokes a good golfer is expected to need for a hole or course.** (пар (норма ударов в гольфе))
 
-4. Long lines at the DMV are *par* for the course.
-5. His work hasn't been up to *par* lately.
-6. I've been feeling a little under *par* all week.
+4. He finished the round two under *par*.
+5. The seventh hole is a *par* five.
+6. Her score was right at *par*.
 
 ---
 

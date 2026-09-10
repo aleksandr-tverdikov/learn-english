@@ -164,23 +164,23 @@ Item has 3 distinct senses.
 ### exchange
 
 **Pronunciation:** /ɪksˈtʃeɪndʒ/ &middot; *iks-CHAYNJ*
-**Русский:** обмен (товара); обмен (взаимный); разговор, перепалка, обмен репликами; биржа
+**Русский:** обмен (взаимный); обмен (товара); разговор, перепалка, обмен репликами; биржа
 **Plural:** *exchanges*
 **Countability:** countable
 
 Exchange has 4 distinct senses.
 
-**1. The act of trading a bought item for a different one.** (обмен (товара))
+**1. An act of giving one thing and getting another in return.** (обмен (взаимный))
 
-1. They gave me an even *exchange* for a larger size.
-2. The store allows *exchanges* within thirty days.
-3. Without the tag, no refund and no *exchange*.
+1. The two sides agreed to an *exchange* of prisoners.
+2. He fixed my car in *exchange* for a week of dog-sitting.
+3. The treaty allows an *exchange* of scientific data.
 
-**2. An act of giving one thing and getting another in return.** (обмен (взаимный))
+**2. The act of trading a bought item for a different one.** (обмен (товара))
 
-4. The two sides agreed to an *exchange* of prisoners.
-5. He fixed my car in *exchange* for a week of dog-sitting.
-6. The treaty allows an *exchange* of scientific data.
+4. They gave me an even *exchange* for a larger size.
+5. The store allows *exchanges* within thirty days.
+6. Without the tag, no refund and no *exchange*.
 
 **3. A short conversation or argument between people.** (разговор, перепалка, обмен репликами)
 
@@ -1366,23 +1366,23 @@ A small hand basket for carrying a few items around a store.
 ### selection
 
 **Pronunciation:** /səˈlɛkʃən/ &middot; *suh-LEK-shun*
-**Русский:** выбор, ассортимент; выбор, отбор
+**Русский:** выбор, отбор; выбор, ассортимент
 **Plural:** *selections*
 **Countability:** countable
 
 Selection has 2 distinct senses.
 
-**1. The range of goods a store offers to choose from.** (выбор, ассортимент)
+**1. The act of choosing someone or something, or the one that is chosen.** (выбор, отбор)
 
-1. That store has a great *selection* of cheese.
-2. Their online *selections* are bigger than in the shop.
-3. The *selection* thins out by Sunday night.
+1. The *selection* of a new principal took months.
+2. His *selection* for the national team surprised no one.
+3. The judges announced their *selections* on Friday.
 
-**2. The act of choosing someone or something, or the one that is chosen.** (выбор, отбор)
+**2. The range of goods a store offers to choose from.** (выбор, ассортимент)
 
-4. The *selection* of a new principal took months.
-5. His *selection* for the national team surprised no one.
-6. The judges announced their *selections* on Friday.
+4. That store has a great *selection* of cheese.
+5. Their online *selections* are bigger than in the shop.
+6. The *selection* thins out by Sunday night.
 
 ---
 

@@ -343,30 +343,30 @@ A tall chair with a tray where a baby sits to eat.
 ### console
 
 **Pronunciation:** /ˈkɑːnsoʊl/ &middot; *KAHN-sohl*
-**Русский:** консольный столик; игровая приставка, консоль; пульт управления
+**Русский:** игровая приставка, консоль; пульт управления; консольный столик
 **Plural:** *consoles*
 **Countability:** countable
 **Contrast:** Stress shifts between the noun and the verb: the table is a KAHN-sohl, but to comfort someone is kuhn-SOHL.
 
 Console has 3 distinct senses.
 
-**1. A narrow table that stands against a wall.** (консольный столик)
+**1. A machine for playing video games on a television.** (игровая приставка, консоль)
 
-1. We keep the mail in a basket on the hall *console*.
-2. A pair of lamps sits on the *console* behind the sofa.
-3. Both *consoles* were too deep for that narrow hallway.
+1. He got a new *console* for his birthday.
+2. The game runs on every major *console*.
+3. Both *consoles* sold out before Christmas.
 
-**2. A machine for playing video games on a television.** (игровая приставка, консоль)
+**2. A panel holding the controls and screens for a machine or system.** (пульт управления)
 
-4. He got a new *console* for his birthday.
-5. The game runs on every major *console*.
-6. Both *consoles* sold out before Christmas.
+4. The engineer sat at the mixing *console*.
+5. A red light came on across the *console*.
+6. Both *consoles* in the control room were manned.
 
-**3. A panel holding the controls and screens for a machine or system.** (пульт управления)
+**3. A narrow table that stands against a wall.** (консольный столик)
 
-7. The engineer sat at the mixing *console*.
-8. A red light came on across the *console*.
-9. Both *consoles* in the control room were manned.
+7. We keep the mail in a basket on the hall *console*.
+8. A pair of lamps sits on the *console* behind the sofa.
+9. Both *consoles* were too deep for that narrow hallway.
 
 ---
 
@@ -803,23 +803,23 @@ A piece of furniture with shelves for books.
 ### trunk
 
 **Pronunciation:** /trʌŋk/ &middot; *TRUNGK*
-**Русский:** сундук, дорожный сундук; ствол (дерева)
+**Русский:** ствол (дерева); сундук, дорожный сундук
 **Plural:** *trunks*
 **Countability:** countable
 
 Trunk has 2 distinct senses.
 
-**1. A large reinforced case or box for storing or carrying belongings.** (сундук, дорожный сундук)
+**1. The thick main stem of a tree.** (ствол (дерева))
 
-1. Her old costumes are in a *trunk* in the basement.
-2. The attic was full of dusty *trunks*.
-3. He sat on the *trunk* to get the lid to close.
+1. Somebody carved their initials into the *trunk*.
+2. The *trunks* were too wide to get my arms around.
+3. Lightning split the *trunk* right down the middle.
 
-**2. The thick main stem of a tree.** (ствол (дерева))
+**2. A large reinforced case or box for storing or carrying belongings.** (сундук, дорожный сундук)
 
-4. Somebody carved their initials into the *trunk*.
-5. The *trunks* were too wide to get my arms around.
-6. Lightning split the *trunk* right down the middle.
+4. Her old costumes are in a *trunk* in the basement.
+5. The attic was full of dusty *trunks*.
+6. He sat on the *trunk* to get the lid to close.
 
 ---
 
@@ -1547,23 +1547,23 @@ A pointed metal fastener with a spiral thread, turned with a screwdriver.
 ### hardware
 
 **Pronunciation:** /ˈhɑːrdwɛr/ &middot; *HARD-wair*
-**Русский:** фурнитура, скобяные изделия; аппаратное обеспечение, «железо»; боевая техника, вооружение
+**Русский:** аппаратное обеспечение, «железо»; фурнитура, скобяные изделия; боевая техника, вооружение
 **Countability:** uncountable
 **Contrast:** Uncountable: *some hardware*, *a piece of hardware* — never *a hardware* or *hardwares*.
 
 Hardware has 3 distinct senses.
 
-**1. The metal fittings of furniture and buildings — handles, hinges, screws, and locks.** (фурнитура, скобяные изделия)
+**1. The physical parts of a computer or electronic system, as opposed to the programs.** (аппаратное обеспечение, «железо»)
 
-1. The dresser is solid, but the *hardware* is cheap.
-2. We picked up some *hardware* at the store on the corner.
-3. All the *hardware* in the kitchen is brushed nickel.
+1. The software is fine; the problem is the *hardware*.
+2. Training a model that size takes expensive *hardware*.
+3. Our *hardware* is five years old and it shows.
 
-**2. The physical parts of a computer or electronic system, as opposed to the programs.** (аппаратное обеспечение, «железо»)
+**2. The metal fittings of furniture and buildings — handles, hinges, screws, and locks.** (фурнитура, скобяные изделия)
 
-4. The software is fine; the problem is the *hardware*.
-5. Training a model that size takes expensive *hardware*.
-6. Our *hardware* is five years old and it shows.
+4. The dresser is solid, but the *hardware* is cheap.
+5. We picked up some *hardware* at the store on the corner.
+6. All the *hardware* in the kitchen is brushed nickel.
 
 **3. Heavy weapons and military equipment.** (боевая техника, вооружение)
 

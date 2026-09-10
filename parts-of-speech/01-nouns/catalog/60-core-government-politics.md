@@ -1499,23 +1499,23 @@ A long speech or delay used in the Senate to block a vote.
 ### shutdown
 
 **Pronunciation:** /ˈʃʌtdaʊn/ &middot; *SHUT-down*
-**Русский:** приостановка работы (правительства); остановка (завода, оборудования), отключение
+**Русский:** остановка (завода, оборудования), отключение; приостановка работы (правительства)
 **Plural:** *shutdowns*
 **Countability:** countable
 
 Shutdown has 2 distinct senses.
 
-**1. A period when a government stops most work because no budget has been approved.** (приостановка работы (правительства))
+**1. The stopping of a machine, plant, or system, either for repairs or for good.** (остановка (завода, оборудования), отключение)
 
-1. The *shutdown* lasted thirty-five days.
-2. Museums close during a government *shutdown*.
-3. Two *shutdowns* happened in the same year.
+1. The refinery is in a two-week *shutdown* for maintenance.
+2. A safety sensor triggered an emergency *shutdown* of the reactor.
+3. The plant *shutdown* put three hundred people out of work.
 
-**2. The stopping of a machine, plant, or system, either for repairs or for good.** (остановка (завода, оборудования), отключение)
+**2. A period when a government stops most work because no budget has been approved.** (приостановка работы (правительства))
 
-4. The refinery is in a two-week *shutdown* for maintenance.
-5. A safety sensor triggered an emergency *shutdown* of the reactor.
-6. The plant *shutdown* put three hundred people out of work.
+4. The *shutdown* lasted thirty-five days.
+5. Museums close during a government *shutdown*.
+6. Two *shutdowns* happened in the same year.
 
 ---
 
@@ -1733,23 +1733,23 @@ A country or person that supports another, especially in a conflict.
 ### aid
 
 **Pronunciation:** /eɪd/ &middot; *AYD*
-**Русский:** помощь (гуманитарная, финансовая); помощь, содействие; вспомогательное средство, приспособление
+**Русский:** помощь, содействие; помощь (гуманитарная, финансовая); вспомогательное средство, приспособление
 **Countability:** uncountable
 **Contrast:** Uncountable, and a homophone of aide, which is a person.
 
 Aid has 3 distinct senses.
 
-**1. Money, food, or supplies given by a government to people or countries in need.** (помощь (гуманитарная, финансовая))
+**1. Help or support given to someone.** (помощь, содействие)
 
-1. Congress approved another billion dollars in *aid*.
-2. Foreign *aid* is a tiny share of the budget.
-3. *Aid* trucks finally crossed the border.
+1. She found the switch with the *aid* of her phone's flashlight.
+2. A stranger came to my *aid* when the car broke down.
+3. Nobody offered any *aid* until the police arrived.
 
-**2. Help or support given to someone.** (помощь, содействие)
+**2. Money, food, or supplies given by a government to people or countries in need.** (помощь (гуманитарная, финансовая))
 
-4. She found the switch with the *aid* of her phone's flashlight.
-5. A stranger came to my *aid* when the car broke down.
-6. Nobody offered any *aid* until the police arrived.
+4. Congress approved another billion dollars in *aid*.
+5. Foreign *aid* is a tiny share of the budget.
+6. *Aid* trucks finally crossed the border.
 
 **3. A device or object that helps someone do something.** (вспомогательное средство, приспособление)
 
@@ -1988,22 +1988,22 @@ Petition has 2 distinct senses.
 ### opposition
 
 **Pronunciation:** /ˌɑːpəˈzɪʃən/ &middot; *ah-puh-ZISH-uhn*
-**Русский:** оппозиция; противодействие; сопротивление, противодействие
+**Русский:** сопротивление, противодействие; оппозиция; противодействие
 **Countability:** uncountable
 
 Opposition has 2 distinct senses.
 
-**1. The political parties or groups that are against the government in power.** (оппозиция; противодействие)
+**1. Strong disagreement with a plan or idea, and the effort to stop it.** (сопротивление, противодействие)
 
-1. The *opposition* walked out of the vote.
-2. There is strong *opposition* to the plan in rural areas.
-3. Leaders of the *opposition* were arrested.
+1. The proposal met fierce *opposition* from neighbors.
+2. There's growing *opposition* to the new tax.
+3. The bill passed despite *opposition* from both parties.
 
-**2. Strong disagreement with a plan or idea, and the effort to stop it.** (сопротивление, противодействие)
+**2. The political parties or groups that are against the government in power.** (оппозиция; противодействие)
 
-4. The proposal met fierce *opposition* from neighbors.
-5. There's growing *opposition* to the new tax.
-6. The bill passed despite *opposition* from both parties.
+4. The *opposition* walked out of the vote.
+5. There is strong *opposition* to the plan in rural areas.
+6. Leaders of the *opposition* were arrested.
 
 ---
 

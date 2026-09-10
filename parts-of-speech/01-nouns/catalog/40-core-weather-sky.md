@@ -548,24 +548,24 @@ A scientist who studies and predicts the weather.
 ### front
 
 **Pronunciation:** /frʌnt/ &middot; *FRUNT*
-**Русский:** атмосферный фронт; передняя часть, фасад; фронт (линия боевых действий); прикрытие, ширма
+**Русский:** передняя часть, фасад; атмосферный фронт; фронт (линия боевых действий); прикрытие, ширма
 **Plural:** *fronts*
 **Countability:** countable
 **Contrast:** Spelled with an o but pronounced FRUNT, rhyming with *hunt*.
 
 Front has 4 distinct senses.
 
-**1. The boundary between two masses of air, which usually brings a change in weather.** (атмосферный фронт)
+**1. The part or side of something that faces forward.** (передняя часть, фасад)
 
-1. A cold *front* is moving in tonight.
-2. The *front* stalled over the valley and it rained for three days.
-3. Warm *fronts* usually bring steady rain instead of thunderstorms.
+1. There's a long scratch on the *front* of the car.
+2. We sat at the *front* of the classroom.
+3. The *front* of the building is all glass.
 
-**2. The part or side of something that faces forward.** (передняя часть, фасад)
+**2. The boundary between two masses of air, which usually brings a change in weather.** (атмосферный фронт)
 
-4. There's a long scratch on the *front* of the car.
-5. We sat at the *front* of the classroom.
-6. The *front* of the building is all glass.
+4. A cold *front* is moving in tonight.
+5. The *front* stalled over the valley and it rained for three days.
+6. Warm *fronts* usually bring steady rain instead of thunderstorms.
 
 **3. The line along which two armies are fighting in a war.** (фронт (линия боевых действий))
 

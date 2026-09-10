@@ -1709,12 +1709,12 @@
       "respell": "SIL-uhn-dur",
       "meaning": "Cylinder has 3 distinct senses.",
       "examples": [
-        "It's a six-cylinder engine.",
-        "One cylinder wasn't firing at all.",
-        "The cylinders were rebored during the rebuild.",
         "Measure the volume in a graduated cylinder.",
         "The gas comes in a heavy steel cylinder.",
         "This engine has four cylinders.",
+        "It's a six-cylinder engine.",
+        "One cylinder wasn't firing at all.",
+        "The cylinders were rebored during the rebuild.",
         "A soup can is a cylinder.",
         "The engine has four cylinders.",
         "Measure the height of the cylinder."
@@ -1722,18 +1722,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The tube in an engine where the piston moves and the fuel burns",
-          "body": [
-            "(цилиндр (двигателя))"
-          ],
-          "examples": [
-            "It's a six-cylinder engine.",
-            "One cylinder wasn't firing at all.",
-            "The cylinders were rebored during the rebuild."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A tube-shaped object or container with flat circular ends",
           "body": [
             "(цилиндр)"
@@ -1742,6 +1730,18 @@
             "Measure the volume in a graduated cylinder.",
             "The gas comes in a heavy steel cylinder.",
             "This engine has four cylinders."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The tube in an engine where the piston moves and the fuel burns",
+          "body": [
+            "(цилиндр (двигателя))"
+          ],
+          "examples": [
+            "It's a six-cylinder engine.",
+            "One cylinder wasn't firing at all.",
+            "The cylinders were rebored during the rebuild."
           ]
         },
         {
@@ -1758,7 +1758,7 @@
           ]
         }
       ],
-      "русский": "цилиндр (двигателя); цилиндр",
+      "русский": "цилиндр; цилиндр (двигателя)",
       "plural": "cylinders",
       "countability": "countable"
     },
@@ -1829,12 +1829,12 @@
       "respell": "STAHR-tur",
       "meaning": "Starter has 3 distinct senses.",
       "examples": [
-        "The starter just clicks and nothing happens.",
-        "He replaced the starter in the parking lot.",
-        "Starters on these cars are hard to reach.",
         "He's been a starter since his sophomore year.",
         "Two starters were out with injuries.",
         "The coach named tonight's starter after practice.",
+        "The starter just clicks and nothing happens.",
+        "He replaced the starter in the parking lot.",
+        "Starters on these cars are hard to reach.",
         "She feeds her sourdough starter every morning.",
         "The starter has to bubble before you use it.",
         "He gave me a jar of starter from his own batch."
@@ -1842,18 +1842,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The small motor that turns an engine over to get it running",
-          "body": [
-            "(стартер)"
-          ],
-          "examples": [
-            "The starter just clicks and nothing happens.",
-            "He replaced the starter in the parking lot.",
-            "Starters on these cars are hard to reach."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A player who is in the lineup when a game begins",
           "body": [
             "(игрок стартового состава)"
@@ -1862,6 +1850,18 @@
             "He's been a starter since his sophomore year.",
             "Two starters were out with injuries.",
             "The coach named tonight's starter after practice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The small motor that turns an engine over to get it running",
+          "body": [
+            "(стартер)"
+          ],
+          "examples": [
+            "The starter just clicks and nothing happens.",
+            "He replaced the starter in the parking lot.",
+            "Starters on these cars are hard to reach."
           ]
         },
         {
@@ -1878,7 +1878,7 @@
           ]
         }
       ],
-      "русский": "стартер; игрок стартового состава; закваска",
+      "русский": "игрок стартового состава; стартер; закваска",
       "plural": "starters",
       "countability": "countable"
     },
@@ -2036,41 +2036,41 @@
       "respell": "RIM",
       "meaning": "Rim has 2 distinct senses.",
       "examples": [
-        "He bent a rim on a pothole.",
-        "The car came with alloy rims.",
-        "You can't drive on a bare rim.",
         "There is lipstick on the rim of the glass.",
         "The ball rolled around the rim and dropped in.",
-        "He polished the chrome rims on his truck."
+        "He polished the chrome rims on his truck.",
+        "He bent a rim on a pothole.",
+        "The car came with alloy rims.",
+        "You can't drive on a bare rim."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The metal ring of a wheel that the tire sits on",
-          "body": [
-            "(обод колеса, диск)"
-          ],
-          "examples": [
-            "He bent a rim on a pothole.",
-            "The car came with alloy rims.",
-            "You can't drive on a bare rim."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The outer edge of something round",
           "body": [
-            "(обод, край (круглого предмета))",
-            "---"
+            "(обод, край (круглого предмета))"
           ],
           "examples": [
             "There is lipstick on the rim of the glass.",
             "The ball rolled around the rim and dropped in.",
             "He polished the chrome rims on his truck."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The metal ring of a wheel that the tire sits on",
+          "body": [
+            "(обод колеса, диск)",
+            "---"
+          ],
+          "examples": [
+            "He bent a rim on a pothole.",
+            "The car came with alloy rims.",
+            "You can't drive on a bare rim."
+          ]
         }
       ],
-      "русский": "обод колеса, диск; обод, край (круглого предмета)",
+      "русский": "обод, край (круглого предмета); обод колеса, диск",
       "plural": "rims",
       "countability": "countable"
     },

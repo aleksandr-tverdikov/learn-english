@@ -1422,23 +1422,23 @@ A large or wild animal, especially a frightening one.
 ### buck
 
 **Pronunciation:** /bʌk/ &middot; *BUK*
-**Русский:** самец (оленя, кролика); доллар (разг.)
+**Русский:** доллар (разг.); самец (оленя, кролика)
 **Plural:** *bucks*
 **Countability:** countable
 
 Buck has 2 distinct senses.
 
-**1. An adult male deer, rabbit, or goat.** (самец (оленя, кролика))
+**1. An informal word for a dollar.** (доллар (разг.))
 
-1. He counted six *bucks* from the stand.
-2. A *buck* stepped out of the treeline.
-3. The *bucks* lose their antlers every winter.
+1. That'll run you about fifty *bucks*.
+2. Can you lend me a *buck*?
+3. He's just trying to make a few extra *bucks*.
 
-**2. An informal word for a dollar.** (доллар (разг.))
+**2. An adult male deer, rabbit, or goat.** (самец (оленя, кролика))
 
-4. That'll run you about fifty *bucks*.
-5. Can you lend me a *buck*?
-6. He's just trying to make a few extra *bucks*.
+4. He counted six *bucks* from the stand.
+5. A *buck* stepped out of the treeline.
+6. The *bucks* lose their antlers every winter.
 
 ---
 

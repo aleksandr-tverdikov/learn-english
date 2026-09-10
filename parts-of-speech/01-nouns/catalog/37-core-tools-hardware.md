@@ -207,23 +207,23 @@ A tool with a flat sharpened end, struck to cut wood or stone.
 ### file
 
 **Pronunciation:** /faɪl/ &middot; *FYL*
-**Русский:** напильник; файл; дело, досье
+**Русский:** файл; дело, досье; напильник
 **Plural:** *files*
 **Countability:** countable
 
 File has 2 distinct senses.
 
-**1. A metal hand tool with a rough surface for smoothing metal or wood.** (напильник)
+**1. A set of documents kept together, or a piece of data stored on a computer.** (файл; дело, досье)
 
-1. Run a *file* over that edge so it doesn't cut you.
-2. He smoothed the weld with a flat *file*.
-3. The metal *files* are in the second drawer.
+1. Can you email me the *file*?
+2. Her employee *file* goes back ten years.
+3. He keeps all the tax *files* in the cabinet.
 
-**2. A set of documents kept together, or a piece of data stored on a computer.** (файл; дело, досье)
+**2. A metal hand tool with a rough surface for smoothing metal or wood.** (напильник)
 
-4. Can you email me the *file*?
-5. Her employee *file* goes back ten years.
-6. He keeps all the tax *files* in the cabinet.
+4. Run a *file* over that edge so it doesn't cut you.
+5. He smoothed the weld with a flat *file*.
+6. The metal *files* are in the second drawer.
 
 ---
 
@@ -315,29 +315,29 @@ A heavy clamp fixed to a bench that grips a workpiece.
 ### socket
 
 **Pronunciation:** /ˈsɑːkət/ &middot; *SAH-kit*
-**Русский:** торцевая головка (для ключа); розетка; патрон (для лампы); впадина (глазница, суставная)
+**Русский:** розетка; патрон (для лампы); впадина (глазница, суставная); торцевая головка (для ключа)
 **Plural:** *sockets*
 **Countability:** countable
 
 Socket has 3 distinct senses.
 
-**1. A hollow metal cap that fits over a nut or bolt head and turns on a handle.** (торцевая головка (для ключа))
+**1. A fitting that a plug or a light bulb goes into.** (розетка; патрон (для лампы))
 
-1. Grab the half-inch *socket* for that nut.
-2. The *socket* wouldn't fit over the bolt head.
-3. Half the *sockets* are missing from the set.
+1. There's only one *socket* in the whole bedroom.
+2. The bulb wouldn't screw into the *socket*.
+3. All the *sockets* on that wall are dead.
 
-**2. A fitting that a plug or a light bulb goes into.** (розетка; патрон (для лампы))
+**2. A hollow in the body that another part fits into.** (впадина (глазница, суставная))
 
-4. There's only one *socket* in the whole bedroom.
-5. The bulb wouldn't screw into the *socket*.
-6. All the *sockets* on that wall are dead.
+4. He popped his shoulder out of its *socket*.
+5. Her eyes were sunk deep in their *sockets*.
+6. The dentist packed the empty *socket* with gauze.
 
-**3. A hollow in the body that another part fits into.** (впадина (глазница, суставная))
+**3. A hollow metal cap that fits over a nut or bolt head and turns on a handle.** (торцевая головка (для ключа))
 
-7. He popped his shoulder out of its *socket*.
-8. Her eyes were sunk deep in their *sockets*.
-9. The dentist packed the empty *socket* with gauze.
+7. Grab the half-inch *socket* for that nut.
+8. The *socket* wouldn't fit over the bolt head.
+9. Half the *sockets* are missing from the set.
 
 ---
 
@@ -379,23 +379,23 @@ Bolt has 4 distinct senses.
 ### washer
 
 **Pronunciation:** /ˈwɑːʃər/ &middot; *WAH-shur*
-**Русский:** шайба; прокладка (в кране); стиральная машина
+**Русский:** стиральная машина; шайба; прокладка (в кране)
 **Plural:** *washers*
 **Countability:** countable
 
 Washer has 2 distinct senses.
 
-**1. A flat ring placed under a nut or bolt to spread the pressure.** (шайба; прокладка (в кране))
+**1. A machine that washes clothes.** (стиральная машина)
 
-1. Put a *washer* under the bolt head.
-2. The faucet was leaking because of a worn *washer*.
-3. The bag had a hundred *washers* in it.
+1. The apartment comes with a *washer* and dryer.
+2. Don't put that sweater in the *washer*.
+3. Our *washer* leaked all over the basement floor.
 
-**2. A machine that washes clothes.** (стиральная машина)
+**2. A flat ring placed under a nut or bolt to spread the pressure.** (шайба; прокладка (в кране))
 
-4. The apartment comes with a *washer* and dryer.
-5. Don't put that sweater in the *washer*.
-6. Our *washer* leaked all over the basement floor.
+4. Put a *washer* under the bolt head.
+5. The faucet was leaking because of a worn *washer*.
+6. The bag had a hundred *washers* in it.
 
 ---
 
@@ -440,36 +440,36 @@ Stapler has 2 distinct senses.
 ### anchor
 
 **Pronunciation:** /ˈæŋkər/ &middot; *ANG-kur*
-**Русский:** дюбель, анкер; якорь; ведущий (новостей); опора, точка опоры
+**Русский:** якорь; ведущий (новостей); опора, точка опоры; дюбель, анкер
 **Plural:** *anchors*
 **Countability:** countable
 **Contrast:** The ch is a hard k: ANG-kur.
 
 Anchor has 4 distinct senses.
 
-**1. A sleeve pushed into a wall so a screw can grip where there is no wood.** (дюбель, анкер)
+**1. A heavy metal hook lowered from a boat to hold it in one place.** (якорь)
 
-1. Use a drywall *anchor* if there's no stud.
-2. The *anchor* pulled right out of the plaster.
-3. The mirror came with four *anchors* and screws.
+1. They dropped *anchor* in a quiet little bay.
+2. The *anchor* caught on a rock and wouldn't come up.
+3. Two men hauled the *anchor* back onto the deck.
 
-**2. A heavy metal hook lowered from a boat to hold it in one place.** (якорь)
+**2. The person who presents a television or radio news program.** (ведущий (новостей))
 
-4. They dropped *anchor* in a quiet little bay.
-5. The *anchor* caught on a rock and wouldn't come up.
-6. Two men hauled the *anchor* back onto the deck.
+4. The evening news *anchor* has been on the air for twenty years.
+5. She started as a reporter and became an *anchor* at thirty.
+6. Both *anchors* were in the studio on election night.
 
-**3. The person who presents a television or radio news program.** (ведущий (новостей))
+**3. Someone or something that gives a person stability and support.** (опора, точка опоры)
 
-7. The evening news *anchor* has been on the air for twenty years.
-8. She started as a reporter and became an *anchor* at thirty.
-9. Both *anchors* were in the studio on election night.
+7. His grandmother was the *anchor* of the whole family.
+8. Sunday dinner is the *anchor* of our week.
+9. After the layoffs, that job was her only *anchor*.
 
-**4. Someone or something that gives a person stability and support.** (опора, точка опоры)
+**4. A sleeve pushed into a wall so a screw can grip where there is no wood.** (дюбель, анкер)
 
-10. His grandmother was the *anchor* of the whole family.
-11. Sunday dinner is the *anchor* of our week.
-12. After the layoffs, that job was her only *anchor*.
+10. Use a drywall *anchor* if there's no stud.
+11. The *anchor* pulled right out of the plaster.
+12. The mirror came with four *anchors* and screws.
 
 ---
 
@@ -529,29 +529,29 @@ Clip has 3 distinct senses.
 ### spring
 
 **Pronunciation:** /sprɪŋ/ &middot; *SPRING*
-**Русский:** пружина; родник, источник; весна
+**Русский:** весна; пружина; родник, источник
 **Plural:** *springs*
 **Countability:** countable
 
 Spring has 3 distinct senses.
 
-**1. A coil of metal that pushes back when you press or stretch it.** (пружина)
+**1. The season between winter and summer, when plants start to grow.** (весна)
 
-1. The *spring* in the screen door is worn out.
-2. A broken *spring* is why the gate won't close.
-3. Garage door *springs* are dangerous to replace.
+1. We're putting the house on the market in the *spring*.
+2. *Spring* came early this year.
+3. The last three *springs* have been unusually wet.
 
-**2. A place where water flows naturally out of the ground.** (родник, источник)
+**2. A coil of metal that pushes back when you press or stretch it.** (пружина)
 
-4. The town's water comes from a mountain *spring*.
-5. Hot *springs* bubble up all along the fault.
-6. We filled our bottles at a *spring* beside the trail.
+4. The *spring* in the screen door is worn out.
+5. A broken *spring* is why the gate won't close.
+6. Garage door *springs* are dangerous to replace.
 
-**3. The season between winter and summer, when plants start to grow.** (весна)
+**3. A place where water flows naturally out of the ground.** (родник, источник)
 
-7. We're putting the house on the market in the *spring*.
-8. *Spring* came early this year.
-9. The last three *springs* have been unusually wet.
+7. The town's water comes from a mountain *spring*.
+8. Hot *springs* bubble up all along the fault.
+9. We filled our bottles at a *spring* beside the trail.
 
 ---
 
@@ -944,24 +944,24 @@ A power tool that smooths a surface with moving sandpaper.
 ### router
 
 **Pronunciation:** /ˈraʊtər/ &middot; *ROW-tur*
-**Русский:** фрезер (по дереву); роутер, маршрутизатор
+**Русский:** роутер, маршрутизатор; фрезер (по дереву)
 **Plural:** *routers*
 **Countability:** countable
 **Contrast:** In America it rhymes with out: ROW-tur. The British say ROO-tur.
 
 Router has 2 distinct senses.
 
-**1. A power tool with a spinning bit that cuts grooves and shaped edges in wood.** (фрезер (по дереву))
+**1. A box that connects the devices in a home or office to the internet.** (роутер, маршрутизатор)
 
-1. He rounded the edge with a *router*.
-2. The *router* left burn marks in the oak.
-3. Both *routers* take the same bits.
+1. Try unplugging the *router* and plugging it back in.
+2. The Wi-Fi *router* sits in the hall closet.
+3. Our old *router* couldn't handle four laptops.
 
-**2. A box that connects the devices in a home or office to the internet.** (роутер, маршрутизатор)
+**2. A power tool with a spinning bit that cuts grooves and shaped edges in wood.** (фрезер (по дереву))
 
-4. Try unplugging the *router* and plugging it back in.
-5. The Wi-Fi *router* sits in the hall closet.
-6. Our old *router* couldn't handle four laptops.
+4. He rounded the edge with a *router*.
+5. The *router* left burn marks in the oak.
+6. Both *routers* take the same bits.
 
 ---
 
@@ -1234,35 +1234,35 @@ Ruler has 2 distinct senses.
 ### level
 
 **Pronunciation:** /ˈlɛvəl/ &middot; *LEV-ul*
-**Русский:** уровень (строительный); уровень (величина, степень); этаж, ярус; уровень (в игре)
+**Русский:** уровень (величина, степень); этаж, ярус; уровень (в игре); уровень (строительный)
 **Plural:** *levels*
 **Countability:** countable
 
 Level has 4 distinct senses.
 
-**1. A tool with a bubble in liquid that shows whether a surface is flat or upright.** (уровень (строительный))
+**1. The amount, size, or degree of something measured against a scale.** (уровень (величина, степень))
 
-1. Set the *level* on top of the shelf.
-2. The bubble in the *level* is off center.
-3. Laser *levels* have gotten cheap.
+1. The river reached a record *level* on Tuesday.
+2. Noise *levels* downtown keep rising.
+3. Her stress *level* dropped after the move.
 
-**2. The amount, size, or degree of something measured against a scale.** (уровень (величина, степень))
+**2. A floor of a building or a parking garage.** (этаж, ярус)
 
-4. The river reached a record *level* on Tuesday.
-5. Noise *levels* downtown keep rising.
-6. Her stress *level* dropped after the move.
+4. Shoes are on the second *level*.
+5. I parked on *level* three.
+6. The mall has four *levels*.
 
-**3. A floor of a building or a parking garage.** (этаж, ярус)
+**3. A stage in a video game that a player must finish to reach the next.** (уровень (в игре))
 
-7. Shoes are on the second *level*.
-8. I parked on *level* three.
-9. The mall has four *levels*.
+7. He can't get past *level* nine.
+8. The final *level* takes about an hour.
+9. Each *level* is harder than the one before.
 
-**4. A stage in a video game that a player must finish to reach the next.** (уровень (в игре))
+**4. A tool with a bubble in liquid that shows whether a surface is flat or upright.** (уровень (строительный))
 
-10. He can't get past *level* nine.
-11. The final *level* takes about an hour.
-12. Each *level* is harder than the one before.
+10. Set the *level* on top of the shelf.
+11. The bubble in the *level* is off center.
+12. Laser *levels* have gotten cheap.
 
 ---
 
@@ -1315,24 +1315,24 @@ A machine that spins a piece of wood or metal while a tool shapes it.
 ### torch
 
 **Pronunciation:** /tɔːrtʃ/ &middot; *TORCH*
-**Русский:** горелка, паяльная лампа; факел
+**Русский:** факел; горелка, паяльная лампа
 **Plural:** *torches*
 **Countability:** countable
 **Contrast:** In America a torch makes a flame; in Britain a torch is what Americans call a flashlight.
 
 Torch has 2 distinct senses.
 
-**1. A tool that burns gas in a hot flame for soldering, welding, or heating.** (горелка, паяльная лампа)
+**1. A stick with a flame burning at one end, carried for light or ceremony.** (факел)
 
-1. He heated the pipe with a *torch* before soldering it.
-2. Keep the *torch* away from anything flammable.
-3. The plumber carried two *torches* in his kit.
+1. Runners carried the Olympic *torch* through town.
+2. *Torches* lit the path down to the barn.
+3. The guide held a *torch* above his head in the cave.
 
-**2. A stick with a flame burning at one end, carried for light or ceremony.** (факел)
+**2. A tool that burns gas in a hot flame for soldering, welding, or heating.** (горелка, паяльная лампа)
 
-4. Runners carried the Olympic *torch* through town.
-5. *Torches* lit the path down to the barn.
-6. The guide held a *torch* above his head in the cave.
+4. He heated the pipe with a *torch* before soldering it.
+5. Keep the *torch* away from anything flammable.
+6. The plumber carried two *torches* in his kit.
 
 ---
 

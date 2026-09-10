@@ -80,41 +80,41 @@
       "respell": "moh-MEN-tuhm",
       "meaning": "Momentum has 2 distinct senses.",
       "examples": [
-        "A truck has far more momentum than a bicycle.",
-        "The sled lost momentum on the flat ground.",
-        "In a collision, the total momentum stays the same.",
         "The campaign gained momentum after the debate.",
         "We lost all our momentum when the funding dried up.",
-        "The bill has real momentum in the Senate now."
+        "The bill has real momentum in the Senate now.",
+        "A truck has far more momentum than a bicycle.",
+        "The sled lost momentum on the flat ground.",
+        "In a collision, the total momentum stays the same."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The force a moving object has because of its mass and its speed",
-          "body": [
-            "(импульс (количество движения))"
-          ],
-          "examples": [
-            "A truck has far more momentum than a bicycle.",
-            "The sled lost momentum on the flat ground.",
-            "In a collision, the total momentum stays the same."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The growing strength that a process or campaign builds up as it goes on",
           "body": [
-            "(набранный ход, динамика, инерция (процесса))",
-            "---"
+            "(набранный ход, динамика, инерция (процесса))"
           ],
           "examples": [
             "The campaign gained momentum after the debate.",
             "We lost all our momentum when the funding dried up.",
             "The bill has real momentum in the Senate now."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The force a moving object has because of its mass and its speed",
+          "body": [
+            "(импульс (количество движения))",
+            "---"
+          ],
+          "examples": [
+            "A truck has far more momentum than a bicycle.",
+            "The sled lost momentum on the flat ground.",
+            "In a collision, the total momentum stays the same."
+          ]
         }
       ],
-      "русский": "импульс (количество движения); набранный ход, динамика, инерция (процесса)",
+      "русский": "набранный ход, динамика, инерция (процесса); импульс (количество движения)",
       "countability": "uncountable"
     },
     {
@@ -209,41 +209,41 @@
       "respell": "TEN-shuhn",
       "meaning": "Tension has 2 distinct senses.",
       "examples": [
-        "The cable snapped under the tension.",
-        "Adjust the tension on the belt before you start the motor.",
-        "Tension in the string keeps the weight from falling.",
         "You could feel the tension in the room.",
         "There has been tension between the two departments for years.",
-        "A walk usually gets rid of the tension in my shoulders."
+        "A walk usually gets rid of the tension in my shoulders.",
+        "The cable snapped under the tension.",
+        "Adjust the tension on the belt before you start the motor.",
+        "Tension in the string keeps the weight from falling."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The pulling force in a stretched rope, wire, or spring",
-          "body": [
-            "(натяжение)"
-          ],
-          "examples": [
-            "The cable snapped under the tension.",
-            "Adjust the tension on the belt before you start the motor.",
-            "Tension in the string keeps the weight from falling."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Strain in a person or between people",
           "body": [
-            "(напряжение, напряжённость)",
-            "---"
+            "(напряжение, напряжённость)"
           ],
           "examples": [
             "You could feel the tension in the room.",
             "There has been tension between the two departments for years.",
             "A walk usually gets rid of the tension in my shoulders."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The pulling force in a stretched rope, wire, or spring",
+          "body": [
+            "(натяжение)",
+            "---"
+          ],
+          "examples": [
+            "The cable snapped under the tension.",
+            "Adjust the tension on the belt before you start the motor.",
+            "Tension in the string keeps the weight from falling."
+          ]
         }
       ],
-      "русский": "натяжение; напряжение, напряжённость",
+      "русский": "напряжение, напряжённость; натяжение",
       "countability": "uncountable"
     },
     {
@@ -878,31 +878,19 @@
       "respell": "MAT-ur",
       "meaning": "Matter has 3 distinct senses.",
       "examples": [
-        "Solids, liquids, and gases are all forms of matter.",
-        "Matter cannot be created or destroyed.",
-        "The telescope detects matter falling into the black hole.",
         "We'll take up the matter at the next meeting.",
         "It's a serious matter and the police are involved.",
         "Getting a visa is just a matter of paperwork.",
         "What's the matter? You look upset.",
         "Something's the matter with the printer again.",
-        "There's nothing the matter with the car."
+        "There's nothing the matter with the car.",
+        "Solids, liquids, and gases are all forms of matter.",
+        "Matter cannot be created or destroyed.",
+        "The telescope detects matter falling into the black hole."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Anything that has mass and takes up space",
-          "body": [
-            "(вещество, материя)"
-          ],
-          "examples": [
-            "Solids, liquids, and gases are all forms of matter.",
-            "Matter cannot be created or destroyed.",
-            "The telescope detects matter falling into the black hole."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A subject or situation that has to be dealt with",
           "body": [
             "(дело, вопрос)"
@@ -914,20 +902,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The trouble or problem that someone or something has",
           "body": [
-            "(проблема, беда (что случилось))",
-            "---"
+            "(проблема, беда (что случилось))"
           ],
           "examples": [
             "What's the matter? You look upset.",
             "Something's the matter with the printer again.",
             "There's nothing the matter with the car."
           ]
+        },
+        {
+          "n": "3",
+          "head": "Anything that has mass and takes up space",
+          "body": [
+            "(вещество, материя)",
+            "---"
+          ],
+          "examples": [
+            "Solids, liquids, and gases are all forms of matter.",
+            "Matter cannot be created or destroyed.",
+            "The telescope detects matter falling into the black hole."
+          ]
         }
       ],
-      "русский": "вещество, материя; дело, вопрос; проблема, беда (что случилось)",
+      "русский": "дело, вопрос; проблема, беда (что случилось); вещество, материя",
       "countability": "uncountable"
     },
     {
@@ -951,41 +951,41 @@
       "respell": "PLAZ-muh",
       "meaning": "Plasma has 2 distinct senses.",
       "examples": [
-        "Stars are made of plasma.",
-        "The lamp glows because the gas turns into plasma.",
-        "Plasma is often called the fourth state of matter.",
         "He donates plasma twice a month.",
         "The lab spun the sample to separate the plasma.",
-        "Burn patients often need plasma."
+        "Burn patients often need plasma.",
+        "Stars are made of plasma.",
+        "The lamp glows because the gas turns into plasma.",
+        "Plasma is often called the fourth state of matter."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A very hot gas whose particles carry an electric charge",
-          "body": [
-            "(плазма)"
-          ],
-          "examples": [
-            "Stars are made of plasma.",
-            "The lamp glows because the gas turns into plasma.",
-            "Plasma is often called the fourth state of matter."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The clear yellowish liquid part of blood that carries the cells",
           "body": [
-            "(плазма крови)",
-            "---"
+            "(плазма крови)"
           ],
           "examples": [
             "He donates plasma twice a month.",
             "The lab spun the sample to separate the plasma.",
             "Burn patients often need plasma."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A very hot gas whose particles carry an electric charge",
+          "body": [
+            "(плазма)",
+            "---"
+          ],
+          "examples": [
+            "Stars are made of plasma.",
+            "The lamp glows because the gas turns into plasma.",
+            "Plasma is often called the fourth state of matter."
+          ]
         }
       ],
-      "русский": "плазма; плазма крови",
+      "русский": "плазма крови; плазма",
       "countability": "uncountable"
     },
     {
@@ -1146,41 +1146,41 @@
       "respell": "suh-LOO-shuhn",
       "meaning": "Solution has 2 distinct senses.",
       "examples": [
-        "Pour the salt solution into the beaker.",
-        "Prepare two solutions of different strength.",
-        "The solution turned blue when we added the powder.",
         "Nobody at the meeting had a solution to the parking problem.",
         "The solution to the puzzle is printed on the last page.",
-        "Cheaper housing is only part of the solution."
+        "Cheaper housing is only part of the solution.",
+        "Pour the salt solution into the beaker.",
+        "Prepare two solutions of different strength.",
+        "The solution turned blue when we added the powder."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A liquid with something dissolved in it",
-          "body": [
-            "(раствор)"
-          ],
-          "examples": [
-            "Pour the salt solution into the beaker.",
-            "Prepare two solutions of different strength.",
-            "The solution turned blue when we added the powder."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A way of dealing with a problem, or the answer to a puzzle or question",
           "body": [
-            "(решение (проблемы, задачи))",
-            "---"
+            "(решение (проблемы, задачи))"
           ],
           "examples": [
             "Nobody at the meeting had a solution to the parking problem.",
             "The solution to the puzzle is printed on the last page.",
             "Cheaper housing is only part of the solution."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A liquid with something dissolved in it",
+          "body": [
+            "(раствор)",
+            "---"
+          ],
+          "examples": [
+            "Pour the salt solution into the beaker.",
+            "Prepare two solutions of different strength.",
+            "The solution turned blue when we added the powder."
+          ]
         }
       ],
-      "русский": "раствор; решение (проблемы, задачи)",
+      "русский": "решение (проблемы, задачи); раствор",
       "plural": "solutions",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1308,41 +1308,41 @@
       "respell": "kahn-suhn-TRAY-shuhn",
       "meaning": "Concentration has 2 distinct senses.",
       "examples": [
-        "Increase the concentration of the acid slightly.",
-        "High concentrations of salt kill the plants.",
-        "The concentration dropped as we added water.",
         "The noise from the street broke my concentration.",
         "Chess takes hours of concentration.",
-        "His concentration slipped in the last mile."
+        "His concentration slipped in the last mile.",
+        "Increase the concentration of the acid slightly.",
+        "High concentrations of salt kill the plants.",
+        "The concentration dropped as we added water."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "How much of a substance is present in a mixture",
-          "body": [
-            "(концентрация)"
-          ],
-          "examples": [
-            "Increase the concentration of the acid slightly.",
-            "High concentrations of salt kill the plants.",
-            "The concentration dropped as we added water."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act of giving all your attention to one thing",
           "body": [
-            "(сосредоточенность, концентрация внимания)",
-            "---"
+            "(сосредоточенность, концентрация внимания)"
           ],
           "examples": [
             "The noise from the street broke my concentration.",
             "Chess takes hours of concentration.",
             "His concentration slipped in the last mile."
           ]
+        },
+        {
+          "n": "2",
+          "head": "How much of a substance is present in a mixture",
+          "body": [
+            "(концентрация)",
+            "---"
+          ],
+          "examples": [
+            "Increase the concentration of the acid slightly.",
+            "High concentrations of salt kill the plants.",
+            "The concentration dropped as we added water."
+          ]
         }
       ],
-      "русский": "концентрация; сосредоточенность, концентрация внимания",
+      "русский": "сосредоточенность, концентрация внимания; концентрация",
       "plural": "concentrations",
       "countability": "countable"
     },
@@ -1437,31 +1437,19 @@
       "respell": "ree-AK-shuhn",
       "meaning": "Reaction has 3 distinct senses.",
       "examples": [
-        "The reaction gives off a lot of heat.",
-        "Some reactions will not start without a catalyst.",
-        "Mixing the two powders starts the reaction.",
         "His first reaction was to laugh.",
         "The mayor's reaction to the report was cautious.",
         "We filmed people's reactions to the surprise.",
         "She had a reaction to the antibiotic and broke out in hives.",
         "Peanuts can cause a severe reaction in some kids.",
-        "Serious reactions to the shot are rare."
+        "Serious reactions to the shot are rare.",
+        "The reaction gives off a lot of heat.",
+        "Some reactions will not start without a catalyst.",
+        "Mixing the two powders starts the reaction."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A process in which substances change into different substances",
-          "body": [
-            "(реакция)"
-          ],
-          "examples": [
-            "The reaction gives off a lot of heat.",
-            "Some reactions will not start without a catalyst.",
-            "Mixing the two powders starts the reaction."
-          ]
-        },
-        {
-          "n": "2",
           "head": "What a person feels, says, or does in answer to something that happens",
           "body": [
             "(реакция, отклик (на события))"
@@ -1473,20 +1461,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A harmful physical response of the body to a food, drug, or other substance",
           "body": [
-            "(аллергическая реакция (на лекарство, еду))",
-            "---"
+            "(аллергическая реакция (на лекарство, еду))"
           ],
           "examples": [
             "She had a reaction to the antibiotic and broke out in hives.",
             "Peanuts can cause a severe reaction in some kids.",
             "Serious reactions to the shot are rare."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A process in which substances change into different substances",
+          "body": [
+            "(реакция)",
+            "---"
+          ],
+          "examples": [
+            "The reaction gives off a lot of heat.",
+            "Some reactions will not start without a catalyst.",
+            "Mixing the two powders starts the reaction."
+          ]
         }
       ],
-      "русский": "реакция; реакция, отклик (на события); аллергическая реакция (на лекарство, еду)",
+      "русский": "реакция, отклик (на события); аллергическая реакция (на лекарство, еду); реакция",
       "plural": "reactions",
       "countability": "countable"
     },
@@ -1581,41 +1581,41 @@
       "respell": "FYOO-zhuhn",
       "meaning": "Fusion has 2 distinct senses.",
       "examples": [
-        "The sun is powered by fusion.",
-        "Fusion would give us almost limitless energy.",
-        "Scientists have struggled for decades to control fusion.",
         "The restaurant serves a fusion of Korean and Mexican food.",
         "Their sound is a fusion of jazz and hip-hop.",
-        "The merger created a fusion of two very different company cultures."
+        "The merger created a fusion of two very different company cultures.",
+        "The sun is powered by fusion.",
+        "Fusion would give us almost limitless energy.",
+        "Scientists have struggled for decades to control fusion."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The joining of two atomic nuclei, which releases a huge amount of energy",
-          "body": [
-            "(синтез (ядерный))"
-          ],
-          "examples": [
-            "The sun is powered by fusion.",
-            "Fusion would give us almost limitless energy.",
-            "Scientists have struggled for decades to control fusion."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A blending of two or more different things into a single one",
           "body": [
-            "(слияние, смешение (стилей, культур))",
-            "---"
+            "(слияние, смешение (стилей, культур))"
           ],
           "examples": [
             "The restaurant serves a fusion of Korean and Mexican food.",
             "Their sound is a fusion of jazz and hip-hop.",
             "The merger created a fusion of two very different company cultures."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The joining of two atomic nuclei, which releases a huge amount of energy",
+          "body": [
+            "(синтез (ядерный))",
+            "---"
+          ],
+          "examples": [
+            "The sun is powered by fusion.",
+            "Fusion would give us almost limitless energy.",
+            "Scientists have struggled for decades to control fusion."
+          ]
         }
       ],
-      "русский": "синтез (ядерный); слияние, смешение (стилей, культур)",
+      "русский": "слияние, смешение (стилей, культур); синтез (ядерный)",
       "countability": "uncountable"
     },
     {
@@ -2370,41 +2370,41 @@
       "respell": "PRIN-suh-puhl",
       "meaning": "Principle has 2 distinct senses.",
       "examples": [
-        "The pump works on a very simple principle.",
-        "He explained the principle behind the experiment.",
-        "The same principles apply to gases and liquids.",
         "She quit on principle rather than sign it.",
         "He's a man of strong principles.",
-        "The principle is simple: never charge more than it costs."
+        "The principle is simple: never charge more than it costs.",
+        "The pump works on a very simple principle.",
+        "He explained the principle behind the experiment.",
+        "The same principles apply to gases and liquids."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A basic scientific rule that explains how something works",
-          "body": [
-            "(принцип, закон)"
-          ],
-          "examples": [
-            "The pump works on a very simple principle.",
-            "He explained the principle behind the experiment.",
-            "The same principles apply to gases and liquids."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A basic rule or belief that guides how a person behaves",
           "body": [
-            "(принцип, убеждение)",
-            "---"
+            "(принцип, убеждение)"
           ],
           "examples": [
             "She quit on principle rather than sign it.",
             "He's a man of strong principles.",
             "The principle is simple: never charge more than it costs."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A basic scientific rule that explains how something works",
+          "body": [
+            "(принцип, закон)",
+            "---"
+          ],
+          "examples": [
+            "The pump works on a very simple principle.",
+            "He explained the principle behind the experiment.",
+            "The same principles apply to gases and liquids."
+          ]
         }
       ],
-      "русский": "принцип, закон; принцип, убеждение",
+      "русский": "принцип, убеждение; принцип, закон",
       "plural": "principles",
       "countability": "countable",
       "contrast": "Sounds exactly like principal, the head of a school."

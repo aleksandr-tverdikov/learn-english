@@ -1038,12 +1038,12 @@
         "The utility asked customers to cut back during the heat wave.",
         "Several utilities raised their rates in January.",
         "He worked for the local utility for thirty years.",
-        "The study questions the utility of yearly screening.",
-        "A second phone has limited utility.",
-        "They doubted the utility of the new rules.",
         "Rent is twelve hundred a month plus utilities.",
         "Utilities run about a hundred fifty in the winter.",
-        "Her paycheck barely covers rent and utilities."
+        "Her paycheck barely covers rent and utilities.",
+        "The study questions the utility of yearly screening.",
+        "A second phone has limited utility.",
+        "They doubted the utility of the new rules."
       ],
       "senses": [
         {
@@ -1060,31 +1060,31 @@
         },
         {
           "n": "2",
-          "head": "The quality of being useful",
-          "body": [
-            "(полезность, практическая ценность)"
-          ],
-          "examples": [
-            "The study questions the utility of yearly screening.",
-            "A second phone has limited utility.",
-            "They doubted the utility of the new rules."
-          ]
-        },
-        {
-          "n": "3",
           "head": "The electricity, gas, and water supplied to a building, or the bills for them",
           "body": [
-            "(коммунальные услуги (и счета за них))",
-            "---"
+            "(коммунальные услуги (и счета за них))"
           ],
           "examples": [
             "Rent is twelve hundred a month plus utilities.",
             "Utilities run about a hundred fifty in the winter.",
             "Her paycheck barely covers rent and utilities."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The quality of being useful",
+          "body": [
+            "(полезность, практическая ценность)",
+            "---"
+          ],
+          "examples": [
+            "The study questions the utility of yearly screening.",
+            "A second phone has limited utility.",
+            "They doubted the utility of the new rules."
+          ]
         }
       ],
-      "русский": "коммунальная компания (энерго- или водоснабжающая); полезность, практическая ценность; коммунальные услуги (и счета за них)",
+      "русский": "коммунальная компания (энерго- или водоснабжающая); коммунальные услуги (и счета за них); полезность, практическая ценность",
       "plural": "utilities",
       "countability": "countable"
     },
@@ -1273,31 +1273,19 @@
       "respell": "SURJ",
       "meaning": "Surge has 3 distinct senses.",
       "examples": [
-        "A surge from the lightning strike fried the router.",
-        "Surges are common when the power comes back on.",
-        "The surge blew out three bulbs at once.",
         "The store saw a surge in sales before the holidays.",
         "Hospitals prepared for a surge of new cases.",
         "A surge in demand pushed prices up all spring.",
         "The storm surge flooded streets near the beach.",
         "A surge of the crowd pushed him against the fence.",
-        "She felt a surge of pride watching her son graduate."
+        "She felt a surge of pride watching her son graduate.",
+        "A surge from the lightning strike fried the router.",
+        "Surges are common when the power comes back on.",
+        "The surge blew out three bulbs at once."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A sudden jump in electric current or voltage that can damage equipment",
-          "body": [
-            "(скачок напряжения)"
-          ],
-          "examples": [
-            "A surge from the lightning strike fried the router.",
-            "Surges are common when the power comes back on.",
-            "The surge blew out three bulbs at once."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A sudden large increase in something",
           "body": [
             "(резкий рост, всплеск)"
@@ -1309,20 +1297,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A strong forward rush of water, of a crowd, or of feeling",
           "body": [
-            "(натиск, прилив (чувств); нагон воды)",
-            "---"
+            "(натиск, прилив (чувств); нагон воды)"
           ],
           "examples": [
             "The storm surge flooded streets near the beach.",
             "A surge of the crowd pushed him against the fence.",
             "She felt a surge of pride watching her son graduate."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A sudden jump in electric current or voltage that can damage equipment",
+          "body": [
+            "(скачок напряжения)",
+            "---"
+          ],
+          "examples": [
+            "A surge from the lightning strike fried the router.",
+            "Surges are common when the power comes back on.",
+            "The surge blew out three bulbs at once."
+          ]
         }
       ],
-      "русский": "скачок напряжения; резкий рост, всплеск; натиск, прилив (чувств); нагон воды",
+      "русский": "резкий рост, всплеск; натиск, прилив (чувств); нагон воды; скачок напряжения",
       "plural": "surges",
       "countability": "countable"
     },
@@ -1454,41 +1454,41 @@
       "respell": "KAHN-doo-it",
       "meaning": "Conduit has 2 distinct senses.",
       "examples": [
-        "The wiring runs through metal conduit along the wall.",
-        "They buried two conduits under the driveway.",
-        "Code requires conduit in a garage.",
         "The charity became a conduit for foreign money.",
         "He served as a conduit between the two governments.",
-        "The port is the main conduit for goods from Asia."
+        "The port is the main conduit for goods from Asia.",
+        "The wiring runs through metal conduit along the wall.",
+        "They buried two conduits under the driveway.",
+        "Code requires conduit in a garage."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A pipe or tube that protects electrical wiring",
-          "body": [
-            "(кабельный канал, кабелепровод)"
-          ],
-          "examples": [
-            "The wiring runs through metal conduit along the wall.",
-            "They buried two conduits under the driveway.",
-            "Code requires conduit in a garage."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A person or thing through which something is passed from one place to another",
           "body": [
-            "(канал (передачи), посредник)",
-            "---"
+            "(канал (передачи), посредник)"
           ],
           "examples": [
             "The charity became a conduit for foreign money.",
             "He served as a conduit between the two governments.",
             "The port is the main conduit for goods from Asia."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A pipe or tube that protects electrical wiring",
+          "body": [
+            "(кабельный канал, кабелепровод)",
+            "---"
+          ],
+          "examples": [
+            "The wiring runs through metal conduit along the wall.",
+            "They buried two conduits under the driveway.",
+            "Code requires conduit in a garage."
+          ]
         }
       ],
-      "русский": "кабельный канал, кабелепровод; канал (передачи), посредник",
+      "русский": "канал (передачи), посредник; кабельный канал, кабелепровод",
       "plural": "conduits",
       "countability": "countable"
     },
@@ -1557,12 +1557,12 @@
       "respell": "ih-FIH-shuhn-see",
       "meaning": "Efficiency has 3 distinct senses.",
       "examples": [
-        "The new boiler improved efficiency by fifteen percent.",
-        "Energy efficiency saves more than new power plants do.",
-        "Efficiency drops sharply when the filters are dirty.",
         "The new software improved the office's efficiency.",
         "He runs the warehouse with impressive efficiency.",
         "They cut costs by finding efficiencies in shipping.",
+        "The new boiler improved efficiency by fifteen percent.",
+        "Energy efficiency saves more than new power plants do.",
+        "Efficiency drops sharply when the filters are dirty.",
         "She rented an efficiency near campus.",
         "The building has six efficiencies on the top floor.",
         "It's only an efficiency, but the rent is cheap."
@@ -1570,18 +1570,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "How much useful work a machine or building gets out of the energy it uses",
-          "body": [
-            "(КПД, эффективность)"
-          ],
-          "examples": [
-            "The new boiler improved efficiency by fifteen percent.",
-            "Energy efficiency saves more than new power plants do.",
-            "Efficiency drops sharply when the filters are dirty."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The quality of doing a job well without wasting time, money, or effort",
           "body": [
             "(эффективность (в работе), слаженность)"
@@ -1590,6 +1578,18 @@
             "The new software improved the office's efficiency.",
             "He runs the warehouse with impressive efficiency.",
             "They cut costs by finding efficiencies in shipping."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How much useful work a machine or building gets out of the energy it uses",
+          "body": [
+            "(КПД, эффективность)"
+          ],
+          "examples": [
+            "The new boiler improved efficiency by fifteen percent.",
+            "Energy efficiency saves more than new power plants do.",
+            "Efficiency drops sharply when the filters are dirty."
           ]
         },
         {
@@ -1606,7 +1606,7 @@
           ]
         }
       ],
-      "русский": "КПД, эффективность; эффективность (в работе), слаженность; квартира-студия",
+      "русский": "эффективность (в работе), слаженность; КПД, эффективность; квартира-студия",
       "countability": "uncountable"
     },
     {
@@ -2365,31 +2365,19 @@
       "respell": "BEH-ring",
       "meaning": "Bearing has 3 distinct senses.",
       "examples": [
-        "A worn bearing was making that whine.",
-        "The bearings need grease every hundred hours.",
-        "He pressed a new bearing onto the shaft.",
         "The pilot took a bearing on the lighthouse.",
         "Give me a bearing and a distance and I'll find it.",
         "It took me a minute to get my bearings in the new building.",
         "His age has no bearing on the decision.",
         "That letter has a direct bearing on the case.",
-        "The weather had little bearing on the outcome."
+        "The weather had little bearing on the outcome.",
+        "A worn bearing was making that whine.",
+        "The bearings need grease every hundred hours.",
+        "He pressed a new bearing onto the shaft."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A part with balls or rollers that lets a shaft turn smoothly",
-          "body": [
-            "(подшипник)"
-          ],
-          "examples": [
-            "A worn bearing was making that whine.",
-            "The bearings need grease every hundred hours.",
-            "He pressed a new bearing onto the shaft."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The direction of one place from another, or your sense of where you are",
           "body": [
             "(направление, пеленг; ориентация на местности)"
@@ -2401,20 +2389,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "Influence on or relevance to something",
           "body": [
-            "(отношение, влияние (на что-л.))",
-            "---"
+            "(отношение, влияние (на что-л.))"
           ],
           "examples": [
             "His age has no bearing on the decision.",
             "That letter has a direct bearing on the case.",
             "The weather had little bearing on the outcome."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A part with balls or rollers that lets a shaft turn smoothly",
+          "body": [
+            "(подшипник)",
+            "---"
+          ],
+          "examples": [
+            "A worn bearing was making that whine.",
+            "The bearings need grease every hundred hours.",
+            "He pressed a new bearing onto the shaft."
+          ]
         }
       ],
-      "русский": "подшипник; направление, пеленг; ориентация на местности; отношение, влияние (на что-л.)",
+      "русский": "направление, пеленг; ориентация на местности; отношение, влияние (на что-л.); подшипник",
       "plural": "bearings",
       "countability": "countable"
     },
@@ -2528,41 +2528,41 @@
       "respell": "REG-yuh-lay-tur",
       "meaning": "Regulator has 2 distinct senses.",
       "examples": [
-        "The regulator on the propane tank was frozen.",
-        "A bad regulator let the voltage swing wildly.",
-        "Both regulators were replaced during the overhaul.",
         "Federal regulators opened an investigation into the bank.",
         "The company must satisfy the regulator before the merger closes.",
-        "State regulators fined the utility ten million dollars."
+        "State regulators fined the utility ten million dollars.",
+        "The regulator on the propane tank was frozen.",
+        "A bad regulator let the voltage swing wildly.",
+        "Both regulators were replaced during the overhaul."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A device that keeps pressure, voltage, or flow at a steady level",
-          "body": [
-            "(регулятор)"
-          ],
-          "examples": [
-            "The regulator on the propane tank was frozen.",
-            "A bad regulator let the voltage swing wildly.",
-            "Both regulators were replaced during the overhaul."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A government agency or official that oversees an industry and enforces its rules",
           "body": [
-            "(регулирующий орган, надзорное ведомство)",
-            "---"
+            "(регулирующий орган, надзорное ведомство)"
           ],
           "examples": [
             "Federal regulators opened an investigation into the bank.",
             "The company must satisfy the regulator before the merger closes.",
             "State regulators fined the utility ten million dollars."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A device that keeps pressure, voltage, or flow at a steady level",
+          "body": [
+            "(регулятор)",
+            "---"
+          ],
+          "examples": [
+            "The regulator on the propane tank was frozen.",
+            "A bad regulator let the voltage swing wildly.",
+            "Both regulators were replaced during the overhaul."
+          ]
         }
       ],
-      "русский": "регулятор; регулирующий орган, надзорное ведомство",
+      "русский": "регулирующий орган, надзорное ведомство; регулятор",
       "plural": "regulators",
       "countability": "countable"
     },

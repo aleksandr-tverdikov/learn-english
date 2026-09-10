@@ -356,29 +356,29 @@ The lower part of an animal's leg, cooked slowly as a cut of meat.
 ### flank
 
 **Pronunciation:** /flæŋk/ &middot; *FLANGK*
-**Русский:** пашина (мясной отруб); бок (тела); фланг
+**Русский:** бок (тела); фланг; пашина (мясной отруб)
 **Plural:** *flanks*
 **Countability:** countable, and uncountable as food
 
 Flank has 3 distinct senses.
 
-**1. A lean cut of beef from the belly area below the ribs.** (пашина (мясной отруб))
+**1. The side of a person's or animal's body between the ribs and the hip.** (бок (тела))
 
-1. *Flank* steak is best sliced against the grain.
-2. She marinated the *flank* for two hours.
-3. Grill the *flank* hot and fast.
+1. The horse's *flanks* were dark with sweat.
+2. He felt a sharp pain in his left *flank*.
+3. She patted the cow's *flank* and stepped back.
 
-**2. The side of a person's or animal's body between the ribs and the hip.** (бок (тела))
+**2. The far left or right side of an army, a team, or a formation.** (фланг)
 
-4. The horse's *flanks* were dark with sweat.
-5. He felt a sharp pain in his left *flank*.
-6. She patted the cow's *flank* and stepped back.
+4. The enemy attacked on the left *flank*.
+5. Their defense is weak on both *flanks*.
+6. He sent riders out to protect the *flank*.
 
-**3. The far left or right side of an army, a team, or a formation.** (фланг)
+**3. A lean cut of beef from the belly area below the ribs.** (пашина (мясной отруб))
 
-7. The enemy attacked on the left *flank*.
-8. Their defense is weak on both *flanks*.
-9. He sent riders out to protect the *flank*.
+7. *Flank* steak is best sliced against the grain.
+8. She marinated the *flank* for two hours.
+9. Grill the *flank* hot and fast.
 
 ---
 
@@ -425,23 +425,23 @@ Drumstick has 2 distinct senses.
 ### wing
 
 **Pronunciation:** /wɪŋ/ &middot; *WING*
-**Русский:** крылышко (куриное); крыло
+**Русский:** крыло; крылышко (куриное)
 **Plural:** *wings*
 **Countability:** countable
 
 Wing has 2 distinct senses.
 
-**1. The arm of a bird, eaten as food, usually fried or grilled with sauce.** (крылышко (куриное))
+**1. One of the two limbs a bird uses to fly.** (крыло)
 
-1. We ordered twenty *wings* for the game.
-2. This *wing* is barely cooked.
-3. Their buffalo *wings* are the best in town.
+1. The bird broke a *wing* hitting the window.
+2. It spread its *wings* and took off.
+3. One *wing* was still bandaged when we let it go.
 
-**2. One of the two limbs a bird uses to fly.** (крыло)
+**2. The arm of a bird, eaten as food, usually fried or grilled with sauce.** (крылышко (куриное))
 
-4. The bird broke a *wing* hitting the window.
-5. It spread its *wings* and took off.
-6. One *wing* was still bandaged when we let it go.
+4. We ordered twenty *wings* for the game.
+5. This *wing* is barely cooked.
+6. Their buffalo *wings* are the best in town.
 
 ---
 
@@ -640,23 +640,23 @@ A fresh German-style pork sausage, usually grilled.
 ### duck
 
 **Pronunciation:** /dʌk/ &middot; *DUK*
-**Русский:** утка (мясо утки); утка
+**Русский:** утка; утка (мясо утки)
 **Plural:** *ducks*
 **Countability:** countable, and uncountable as food
 
 Duck has 2 distinct senses.
 
-**1. A water bird eaten as food, or its rich dark meat.** (утка (мясо утки))
+**1. A water bird with webbed feet and a flat bill.** (утка)
 
-1. The roast *duck* was the best thing on the table.
-2. *Duck* has a lot more fat than chicken.
-3. They ordered two *ducks* for the party.
+1. A *duck* and six ducklings crossed the road in front of us.
+2. We fed the *ducks* at the pond, though the sign says not to.
+3. He ordered roast *duck* with plum sauce.
 
-**2. A water bird with webbed feet and a flat bill.** (утка)
+**2. A water bird eaten as food, or its rich dark meat.** (утка (мясо утки))
 
-4. A *duck* and six ducklings crossed the road in front of us.
-5. We fed the *ducks* at the pond, though the sign says not to.
-6. He ordered roast *duck* with plum sauce.
+4. The roast *duck* was the best thing on the table.
+5. *Duck* has a lot more fat than chicken.
+6. They ordered two *ducks* for the party.
 
 ---
 

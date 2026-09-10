@@ -1328,7 +1328,7 @@ The rounded back part of the foot.
 ### sole
 
 **Pronunciation:** /soʊl/ &middot; *SOHL*
-**Русский:** ступня, подошва стопы; морской язык (рыба); подошва
+**Русский:** ступня, подошва стопы; подошва; морской язык (рыба)
 **Plural:** *soles*
 **Countability:** countable
 **Contrast:** Sounds exactly like soul.
@@ -1341,17 +1341,17 @@ Sole has 3 distinct senses.
 2. He has a splinter in the *sole* of his foot.
 3. Walking barefoot toughens up your *soles*.
 
-**2. A small flatfish with fine white meat.** (морской язык (рыба))
+**2. The flat bottom part of a shoe that touches the ground.** (подошва)
 
-4. She ordered the *sole* with brown butter.
-5. *Sole* is mild enough that kids will eat it.
-6. Two pieces of *sole* were plenty for dinner.
+4. The *sole* of my sneaker is coming loose.
+5. These boots have thick rubber *soles*.
+6. He glued the *sole* back on and it held.
 
-**3. The flat bottom part of a shoe that touches the ground.** (подошва)
+**3. A small flatfish with fine white meat.** (морской язык (рыба))
 
-7. The *sole* of my sneaker is coming loose.
-8. These boots have thick rubber *soles*.
-9. He glued the *sole* back on and it held.
+7. She ordered the *sole* with brown butter.
+8. *Sole* is mild enough that kids will eat it.
+9. Two pieces of *sole* were plenty for dinner.
 
 ---
 
@@ -1572,24 +1572,24 @@ A band of tissue that holds two bones together at a joint.
 ### tissue
 
 **Pronunciation:** /ˈtɪʃuː/ &middot; *TISH-oo*
-**Русский:** ткань (организма); бумажный носовой платок, салфетка
+**Русский:** бумажный носовой платок, салфетка; ткань (организма)
 **Plural:** *tissues*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable for body material; countable for the paper kind — hand me a tissue.
 
 Tissue has 2 distinct senses.
 
-**1. The material that the parts of a body are made of.** (ткань (организма))
+**1. A soft piece of paper used for blowing your nose.** (бумажный носовой платок, салфетка)
 
-1. Scar *tissue* built up around the wound.
-2. The burn destroyed the surrounding *tissue*.
-3. The lab grows human *tissue* in a dish.
+1. Could you pass me a *tissue*?
+2. He went through half a box of *tissues*.
+3. There's a *tissue* stuck in the dryer.
 
-**2. A soft piece of paper used for blowing your nose.** (бумажный носовой платок, салфетка)
+**2. The material that the parts of a body are made of.** (ткань (организма))
 
-4. Could you pass me a *tissue*?
-5. He went through half a box of *tissues*.
-6. There's a *tissue* stuck in the dryer.
+4. Scar *tissue* built up around the wound.
+5. The burn destroyed the surrounding *tissue*.
+6. The lab grows human *tissue* in a dish.
 
 ---
 
@@ -1705,24 +1705,24 @@ Skeleton has 3 distinct senses.
 ### temple
 
 **Pronunciation:** /ˈtɛmpəl/ &middot; *TEM-pul*
-**Русский:** висок; храм
+**Русский:** храм; висок
 **Plural:** *temples*
 **Countability:** countable
 **Contrast:** Spelled and pronounced exactly like the religious building; only context separates them.
 
 Temple has 2 distinct senses.
 
-**1. The flat area on either side of the forehead, beside the eye.** (висок)
+**1. A building where people gather to worship.** (храм)
 
-1. She rubbed her *temples* to fight off the headache.
-2. Gray hair started at his *temples*.
-3. The blow landed on his *temple*.
+1. They visited an ancient *temple* on the hillside.
+2. Her family goes to *temple* on Friday nights.
+3. The *temple* was rebuilt after the earthquake.
 
-**2. A building where people gather to worship.** (храм)
+**2. The flat area on either side of the forehead, beside the eye.** (висок)
 
-4. They visited an ancient *temple* on the hillside.
-5. Her family goes to *temple* on Friday nights.
-6. The *temple* was rebuilt after the earthquake.
+4. She rubbed her *temples* to fight off the headache.
+5. Gray hair started at his *temples*.
+6. The blow landed on his *temple*.
 
 ---
 
@@ -1868,24 +1868,24 @@ Either of the two openings at the bottom of the nose.
 ### gum
 
 **Pronunciation:** /ɡʌm/ &middot; *GUM*
-**Русский:** десна; жевательная резинка
+**Русский:** жевательная резинка; десна
 **Plural:** *gums*
 **Countability:** countable
 **Contrast:** The chewing kind of gum is uncountable: a piece of gum, never a gum.
 
 Gum has 2 distinct senses.
 
-**1. The firm pink flesh around the base of the teeth.** (десна)
+**1. A sweet, rubbery substance that you chew but do not swallow.** (жевательная резинка)
 
-1. My *gums* bleed when I floss.
-2. The dentist said my *gums* look healthy.
-3. Cold water hurts his *gums*.
+1. She offered me a stick of *gum*.
+2. No *gum* in class.
+3. He blew a bubble with his *gum*.
 
-**2. A sweet, rubbery substance that you chew but do not swallow.** (жевательная резинка)
+**2. The firm pink flesh around the base of the teeth.** (десна)
 
-4. She offered me a stick of *gum*.
-5. No *gum* in class.
-6. He blew a bubble with his *gum*.
+4. My *gums* bleed when I floss.
+5. The dentist said my *gums* look healthy.
+6. Cold water hurts his *gums*.
 
 ---
 

@@ -2882,41 +2882,41 @@
       "respell": "HANG-muhn",
       "meaning": "Hangman has 2 distinct senses.",
       "examples": [
-        "The hangman was waiting at the top of the steps.",
-        "In those days the county paid a hangman.",
-        "The novel opens with a hangman checking his rope.",
         "We played hangman on the whiteboard while we waited for the bus.",
         "She won at hangman by guessing the vowels first.",
-        "My little brother always picks impossible words for hangman."
+        "My little brother always picks impossible words for hangman.",
+        "The hangman was waiting at the top of the steps.",
+        "In those days the county paid a hangman.",
+        "The novel opens with a hangman checking his rope."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A man whose job was to execute prisoners by hanging",
-          "body": [
-            "(палач (вешатель))"
-          ],
-          "examples": [
-            "The hangman was waiting at the top of the steps.",
-            "In those days the county paid a hangman.",
-            "The novel opens with a hangman checking his rope."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A word game in which every wrong guess adds one line to a drawing of a hanged figure",
           "body": [
-            "(виселица (игра в слова))",
-            "---"
+            "(виселица (игра в слова))"
           ],
           "examples": [
             "We played hangman on the whiteboard while we waited for the bus.",
             "She won at hangman by guessing the vowels first.",
             "My little brother always picks impossible words for hangman."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A man whose job was to execute prisoners by hanging",
+          "body": [
+            "(палач (вешатель))",
+            "---"
+          ],
+          "examples": [
+            "The hangman was waiting at the top of the steps.",
+            "In those days the county paid a hangman.",
+            "The novel opens with a hangman checking his rope."
+          ]
         }
       ],
-      "русский": "палач (вешатель); виселица (игра в слова)",
+      "русский": "виселица (игра в слова); палач (вешатель)",
       "plural": "hangmen",
       "countability": "countable",
       "contrast": "Hangman is also a word-guessing game; the plural is hangmen."

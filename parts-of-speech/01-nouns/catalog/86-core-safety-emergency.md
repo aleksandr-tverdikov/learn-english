@@ -1720,45 +1720,45 @@ Anything designed to keep a person afloat in water.
 ### lifeline
 
 **Pronunciation:** /ˈlaɪflaɪn/ &middot; *LYF-lyne*
-**Русский:** страховочный трос, спасательный конец; спасательный круг, жизненно важная поддержка
+**Русский:** спасательный круг, жизненно важная поддержка; страховочный трос, спасательный конец
 **Plural:** *lifelines*
 **Countability:** countable
 
 Lifeline has 2 distinct senses.
 
-**1. A rope thrown or fixed to keep someone from being lost or swept away.** (страховочный трос, спасательный конец)
+**1. Something that provides essential help or keeps something going.** (спасательный круг, жизненно важная поддержка)
 
-1. He tied a *lifeline* around his waist before going out on the ice.
-2. A *lifeline* runs the length of the deck.
-3. The radio was their only *lifeline*.
+1. The loan was a *lifeline* for the family business.
+2. The ferry is the island's only *lifeline* in winter.
+3. For a lot of seniors, that daily call is a *lifeline*.
 
-**2. Something that provides essential help or keeps something going.** (спасательный круг, жизненно важная поддержка)
+**2. A rope thrown or fixed to keep someone from being lost or swept away.** (страховочный трос, спасательный конец)
 
-4. The loan was a *lifeline* for the family business.
-5. The ferry is the island's only *lifeline* in winter.
-6. For a lot of seniors, that daily call is a *lifeline*.
+4. He tied a *lifeline* around his waist before going out on the ice.
+5. A *lifeline* runs the length of the deck.
+6. The radio was their only *lifeline*.
 
 ---
 
 ### distress
 
 **Pronunciation:** /dɪˈstrɛs/ &middot; *dih-STRES*
-**Русский:** бедствие, тяжёлое положение; страдание, душевная боль
+**Русский:** страдание, душевная боль; бедствие, тяжёлое положение
 **Countability:** uncountable
 
 Distress has 2 distinct senses.
 
-**1. The state of being in serious trouble and needing help.** (бедствие, тяжёлое положение)
+**1. Great mental pain, worry, or sorrow.** (страдание, душевная боль)
 
-1. The boat was in *distress* about two miles out.
-2. They picked up a *distress* call at midnight.
-3. The plane signaled *distress* and turned back.
+1. She sued the company for emotional *distress*.
+2. The fireworks caused the dogs obvious *distress*.
+3. He hid his *distress* well, but his hands were shaking.
 
-**2. Great mental pain, worry, or sorrow.** (страдание, душевная боль)
+**2. The state of being in serious trouble and needing help.** (бедствие, тяжёлое положение)
 
-4. She sued the company for emotional *distress*.
-5. The fireworks caused the dogs obvious *distress*.
-6. He hid his *distress* well, but his hands were shaking.
+4. The boat was in *distress* about two miles out.
+5. They picked up a *distress* call at midnight.
+6. The plane signaled *distress* and turned back.
 
 ---
 

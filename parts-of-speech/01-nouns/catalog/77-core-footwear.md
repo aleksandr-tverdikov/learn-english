@@ -441,29 +441,29 @@ A soft shoe worn only indoors.
 ### clog
 
 **Pronunciation:** /klɑːɡ/ &middot; *KLAHG*
-**Русский:** сабо; засор; засор (в трубе)
+**Русский:** засор; засор (в трубе); сабо
 **Plural:** *clogs*
 **Countability:** countable
 
 Clog has 3 distinct senses.
 
-**1. A backless shoe with a thick wooden or cork sole.** (сабо)
+**1. A blockage that stops water from draining.** (засор)
 
-1. Nurses on that floor all wear *clogs*.
-2. She slipped a *clog* off under the desk.
-3. Wooden *clogs* are loud on a tile floor.
+1. There's a *clog* in the bathroom sink.
+2. Hair causes most shower *clogs*.
+3. The plumber cleared the *clog* in ten minutes.
 
-**2. A blockage that stops water from draining.** (засор)
+**2. A mass of material that blocks a pipe or drain.** (засор (в трубе))
 
-4. There's a *clog* in the bathroom sink.
-5. Hair causes most shower *clogs*.
-6. The plumber cleared the *clog* in ten minutes.
+4. There's a *clog* somewhere under the kitchen sink.
+5. Hot water and soap cleared the *clog* in a minute.
+6. Hair causes most shower *clogs*.
 
-**3. A mass of material that blocks a pipe or drain.** (засор (в трубе))
+**3. A backless shoe with a thick wooden or cork sole.** (сабо)
 
-7. There's a *clog* somewhere under the kitchen sink.
-8. Hot water and soap cleared the *clog* in a minute.
-9. Hair causes most shower *clogs*.
+7. Nurses on that floor all wear *clogs*.
+8. She slipped a *clog* off under the desk.
+9. Wooden *clogs* are loud on a tile floor.
 
 ---
 
@@ -791,24 +791,24 @@ Wingtip has 2 distinct senses.
 ### brogue
 
 **Pronunciation:** /broʊɡ/ &middot; *BROHG*
-**Русский:** броги (туфли с перфорацией); сильный ирландский (шотландский) акцент
+**Русский:** сильный ирландский (шотландский) акцент; броги (туфли с перфорацией)
 **Plural:** *brogues*
 **Countability:** countable
 **Contrast:** The same word also means a strong regional accent, especially an Irish one: "he spoke with a soft brogue."
 
 Brogue has 2 distinct senses.
 
-**1. A sturdy leather shoe decorated with rows of punched holes.** (броги (туфли с перфорацией))
+**1. A strong regional accent, especially an Irish or Scottish one.** (сильный ирландский (шотландский) акцент)
 
-1. He bought a pair of tan *brogues* for the spring.
-2. The pattern on that *brogue* is beautiful.
-3. *Brogues* look good with tweed.
+1. He answered in a thick Irish *brogue*.
+2. Her *brogue* got stronger when she was tired.
+3. You could hear the *brogue* in the way he said the word.
 
-**2. A strong regional accent, especially an Irish or Scottish one.** (сильный ирландский (шотландский) акцент)
+**2. A sturdy leather shoe decorated with rows of punched holes.** (броги (туфли с перфорацией))
 
-4. He answered in a thick Irish *brogue*.
-5. Her *brogue* got stronger when she was tired.
-6. You could hear the *brogue* in the way he said the word.
+4. He bought a pair of tan *brogues* for the spring.
+5. The pattern on that *brogue* is beautiful.
+6. *Brogues* look good with tweed.
 
 ---
 
@@ -983,29 +983,29 @@ A shoe with gripping studs in the sole, worn on a golf course.
 ### spike
 
 **Pronunciation:** /spaɪk/ &middot; *SPYK*
-**Русский:** шип (на спортивной подошве); (мн.) шиповки; резкий скачок, всплеск; штырь, костыль, острый шип
+**Русский:** резкий скачок, всплеск; штырь, костыль, острый шип; шип (на спортивной подошве); (мн.) шиповки
 **Plural:** *spikes*
 **Countability:** countable
 
 Spike has 3 distinct senses.
 
-**1. A short metal point screwed into the sole of a track or golf shoe.** (шип (на спортивной подошве); (мн.) шиповки)
+**1. A sudden sharp increase in a number or level.** (резкий скачок, всплеск)
 
-1. She laced up her *spikes* for the 400.
-2. You can replace a worn *spike* with a small wrench.
-3. Metal *spikes* tear up the turf.
+1. The city saw a *spike* in emergency calls during the heat wave.
+2. There was a brief *spike* in gas prices last spring.
+3. Doctors reported a *spike* in flu cases in January.
 
-**2. A sudden sharp increase in a number or level.** (резкий скачок, всплеск)
+**2. A long thick pointed piece of metal or wood.** (штырь, костыль, острый шип)
 
-4. The city saw a *spike* in emergency calls during the heat wave.
-5. There was a brief *spike* in gas prices last spring.
-6. Doctors reported a *spike* in flu cases in January.
+4. The fence around the yard is topped with iron *spikes*.
+5. He drove a *spike* into the railroad tie.
+6. Steel *spikes* held the tent lines to the ground.
 
-**3. A long thick pointed piece of metal or wood.** (штырь, костыль, острый шип)
+**3. A short metal point screwed into the sole of a track or golf shoe.** (шип (на спортивной подошве); (мн.) шиповки)
 
-7. The fence around the yard is topped with iron *spikes*.
-8. He drove a *spike* into the railroad tie.
-9. Steel *spikes* held the tent lines to the ground.
+7. She laced up her *spikes* for the 400.
+8. You can replace a worn *spike* with a small wrench.
+9. Metal *spikes* tear up the turf.
 
 ---
 
@@ -1238,24 +1238,24 @@ How far a shoe raises the back of the foot off the ground.
 ### welt
 
 **Pronunciation:** /wɛlt/ &middot; *WELT*
-**Русский:** рант; рубец, вздувшийся след (от удара)
+**Русский:** рубец, вздувшийся след (от удара); рант
 **Plural:** *welts*
 **Countability:** countable
 **Contrast:** The same word also means a raised red mark on the skin from a blow.
 
 Welt has 2 distinct senses.
 
-**1. A strip of leather stitched between the upper and the sole of a shoe.** (рант)
+**1. A raised red mark left on the skin by a blow or a sting.** (рубец, вздувшийся след (от удара))
 
-1. A shoe with a *welt* can be resoled many times.
-2. The stitching along the *welt* had rotted.
-3. Both *welts* were replaced during the rebuild.
+1. The belt left *welts* across his back.
+2. A mosquito bite raised a *welt* on her arm.
+3. He had a *welt* under one eye after the fight.
 
-**2. A raised red mark left on the skin by a blow or a sting.** (рубец, вздувшийся след (от удара))
+**2. A strip of leather stitched between the upper and the sole of a shoe.** (рант)
 
-4. The belt left *welts* across his back.
-5. A mosquito bite raised a *welt* on her arm.
-6. He had a *welt* under one eye after the fight.
+4. A shoe with a *welt* can be resoled many times.
+5. The stitching along the *welt* had rotted.
+6. Both *welts* were replaced during the rebuild.
 
 ---
 
@@ -1534,22 +1534,22 @@ The way laces are threaded through a shoe.
 ### traction
 
 **Pronunciation:** /ˈtrækʃn/ &middot; *TRAK-shun*
-**Русский:** сцепление с поверхностью; сцепление с дорогой
+**Русский:** сцепление с дорогой; сцепление с поверхностью
 **Countability:** uncountable
 
 Traction has 2 distinct senses.
 
-**1. The grip a sole has on the ground.** (сцепление с поверхностью)
+**1. The grip between a vehicle's tires and the road.** (сцепление с дорогой)
 
-1. These soles have terrible *traction* on wet tile.
-2. Winter boots need *traction* on ice, not just warmth.
-3. The deep tread gives you good *traction* in mud.
+1. Snow tires give you much better *traction*.
+2. The wheels spun and lost *traction*.
+3. There's no *traction* at all on wet leaves.
 
-**2. The grip between a vehicle's tires and the road.** (сцепление с дорогой)
+**2. The grip a sole has on the ground.** (сцепление с поверхностью)
 
-4. Snow tires give you much better *traction*.
-5. The wheels spun and lost *traction*.
-6. There's no *traction* at all on wet leaves.
+4. These soles have terrible *traction* on wet tile.
+5. Winter boots need *traction* on ice, not just warmth.
+6. The deep tread gives you good *traction* in mud.
 
 ---
 
@@ -2193,33 +2193,33 @@ A new piece of sole put on the front part of a shoe only.
 ### slide
 
 **Pronunciation:** /slaɪd/ &middot; *SLYD*
-**Русский:** шлёпанцы (сандалии без задника); горка (детская); слайд (в презентации); предметное стекло
+**Русский:** горка (детская); слайд (в презентации); предметное стекло; шлёпанцы (сандалии без задника)
 **Plural:** *slides*
 **Countability:** countable
 **Contrast:** The same word also means a playground slide or a photographic slide; the sandal sense is nearly always plural.
 
 Slide has 4 distinct senses.
 
-**1. A flat backless sandal with one wide band across the foot.** (шлёпанцы (сандалии без задника))
+**1. A smooth sloping structure that children climb up and slide down.** (горка (детская))
 
-1. He wears *slides* to the pool and nowhere else.
-2. One *slide* floated off down the lake.
-3. Rubber *slides* dry in about a minute.
+1. She went down the *slide* headfirst.
+2. The park put in a new twisting *slide*.
+3. Both *slides* were too hot to touch by noon.
 
-**2. A smooth sloping structure that children climb up and slide down.** (горка (детская))
+**2. One page of a presentation shown on a screen.** (слайд (в презентации))
 
-4. She went down the *slide* headfirst.
-5. The park put in a new twisting *slide*.
-6. Both *slides* were too hot to touch by noon.
+4. Go back to the *slide* with the sales figures.
+5. He crammed six charts onto one *slide*.
+6. Her presentation ran to forty *slides*.
 
-**3. One page of a presentation shown on a screen.** (слайд (в презентации))
+**3. A small glass plate holding a sample to be viewed under a microscope.** (предметное стекло)
 
-7. Go back to the *slide* with the sales figures.
-8. He crammed six charts onto one *slide*.
-9. Her presentation ran to forty *slides*.
+7. Put a drop of pond water on the *slide*.
+8. The lab labels every *slide* with a date.
+9. He clipped the *slide* onto the microscope.
 
-**4. A small glass plate holding a sample to be viewed under a microscope.** (предметное стекло)
+**4. A flat backless sandal with one wide band across the foot.** (шлёпанцы (сандалии без задника))
 
-10. Put a drop of pond water on the *slide*.
-11. The lab labels every *slide* with a date.
-12. He clipped the *slide* onto the microscope.
+10. He wears *slides* to the pool and nowhere else.
+11. One *slide* floated off down the lake.
+12. Rubber *slides* dry in about a minute.

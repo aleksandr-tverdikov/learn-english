@@ -584,12 +584,12 @@
       "respell": "PULP",
       "meaning": "Pulp has 3 distinct senses.",
       "examples": [
-        "The mill grinds the logs into pulp.",
-        "Recycled paper is mixed back into the pulp.",
-        "Wet pulp is pressed and dried into sheets.",
         "I like orange juice with plenty of pulp.",
         "Scoop the pulp out of the melon.",
         "Strain the juice to get rid of the pulp.",
+        "The mill grinds the logs into pulp.",
+        "Recycled paper is mixed back into the pulp.",
+        "Wet pulp is pressed and dried into sheets.",
         "He wrote detective pulp for a penny a word.",
         "The store keeps a shelf of old pulp by the window.",
         "Critics dismissed the novel as pulp."
@@ -597,18 +597,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The soft wet mass of wood fiber that paper is made from",
-          "body": [
-            "(бумажная масса, целлюлоза)"
-          ],
-          "examples": [
-            "The mill grinds the logs into pulp.",
-            "Recycled paper is mixed back into the pulp.",
-            "Wet pulp is pressed and dried into sheets."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The soft juicy part of a fruit or vegetable",
           "body": [
             "(мякоть (плода))"
@@ -617,6 +605,18 @@
             "I like orange juice with plenty of pulp.",
             "Scoop the pulp out of the melon.",
             "Strain the juice to get rid of the pulp."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft wet mass of wood fiber that paper is made from",
+          "body": [
+            "(бумажная масса, целлюлоза)"
+          ],
+          "examples": [
+            "The mill grinds the logs into pulp.",
+            "Recycled paper is mixed back into the pulp.",
+            "Wet pulp is pressed and dried into sheets."
           ]
         },
         {
@@ -633,7 +633,7 @@
           ]
         }
       ],
-      "русский": "бумажная масса, целлюлоза; мякоть (плода); бульварное чтиво",
+      "русский": "мякоть (плода); бумажная масса, целлюлоза; бульварное чтиво",
       "countability": "uncountable"
     },
     {
@@ -1076,41 +1076,41 @@
       "respell": "TYPE",
       "meaning": "Type has 2 distinct senses.",
       "examples": [
-        "The book is set in ten-point type.",
-        "The type is too small for me to read comfortably.",
-        "Old presses printed from metal type.",
         "What type of car does she drive?",
         "This type of soil holds water well.",
-        "The store carries three types of batteries."
+        "The store carries three types of batteries.",
+        "The book is set in ten-point type.",
+        "The type is too small for me to read comfortably.",
+        "Old presses printed from metal type."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Printed letters and characters considered as a whole",
-          "body": [
-            "(шрифт, литеры)"
-          ],
-          "examples": [
-            "The book is set in ten-point type.",
-            "The type is too small for me to read comfortably.",
-            "Old presses printed from metal type."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A kind or category of person or thing",
           "body": [
-            "(тип, вид, разновидность)",
-            "---"
+            "(тип, вид, разновидность)"
           ],
           "examples": [
             "What type of car does she drive?",
             "This type of soil holds water well.",
             "The store carries three types of batteries."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Printed letters and characters considered as a whole",
+          "body": [
+            "(шрифт, литеры)",
+            "---"
+          ],
+          "examples": [
+            "The book is set in ten-point type.",
+            "The type is too small for me to read comfortably.",
+            "Old presses printed from metal type."
+          ]
         }
       ],
-      "русский": "шрифт, литеры; тип, вид, разновидность",
+      "русский": "тип, вид, разновидность; шрифт, литеры",
       "countability": "uncountable"
     },
     {
@@ -1254,41 +1254,41 @@
       "respell": "LIG-uh-chur",
       "meaning": "Ligature has 2 distinct senses.",
       "examples": [
-        "The f and the i form a ligature.",
-        "This typeface has a lovely ligature.",
-        "Old books are full of ligatures.",
         "The surgeon placed a ligature around the artery.",
         "The ligature slipped and the bleeding started again.",
-        "Police found ligature marks on the victim's wrists."
+        "Police found ligature marks on the victim's wrists.",
+        "The f and the i form a ligature.",
+        "This typeface has a lovely ligature.",
+        "Old books are full of ligatures."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Two or more letters joined into a single printed character",
-          "body": [
-            "(лигатура (слитное написание букв))"
-          ],
-          "examples": [
-            "The f and the i form a ligature.",
-            "This typeface has a lovely ligature.",
-            "Old books are full of ligatures."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A cord or thread tied tightly around something, especially a blood vessel in surgery",
           "body": [
-            "(лигатура, перевязочная нить)",
-            "---"
+            "(лигатура, перевязочная нить)"
           ],
           "examples": [
             "The surgeon placed a ligature around the artery.",
             "The ligature slipped and the bleeding started again.",
             "Police found ligature marks on the victim's wrists."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Two or more letters joined into a single printed character",
+          "body": [
+            "(лигатура (слитное написание букв))",
+            "---"
+          ],
+          "examples": [
+            "The f and the i form a ligature.",
+            "This typeface has a lovely ligature.",
+            "Old books are full of ligatures."
+          ]
         }
       ],
-      "русский": "лигатура (слитное написание букв); лигатура, перевязочная нить",
+      "русский": "лигатура, перевязочная нить; лигатура (слитное написание букв)",
       "plural": "ligatures",
       "countability": "countable"
     },
@@ -1358,31 +1358,19 @@
       "respell": "BAYS-lyne",
       "meaning": "Baseline has 3 distinct senses.",
       "examples": [
-        "The o dips slightly below the baseline.",
-        "Align the caption to the baseline of the text.",
-        "The two columns share the same baselines.",
         "The study used 2019 emissions as its baseline.",
         "We need a baseline before we can measure any progress.",
         "Reading scores came in ten points above the baseline.",
         "She hit a forehand from well behind the baseline.",
         "He drove along the baseline for an easy layup.",
-        "The serve landed just inside the baseline."
+        "The serve landed just inside the baseline.",
+        "The o dips slightly below the baseline.",
+        "Align the caption to the baseline of the text.",
+        "The two columns share the same baselines."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The invisible line that letters sit on",
-          "body": [
-            "(базовая линия (шрифта))"
-          ],
-          "examples": [
-            "The o dips slightly below the baseline.",
-            "Align the caption to the baseline of the text.",
-            "The two columns share the same baselines."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A starting measurement that later results are compared against",
           "body": [
             "(исходный уровень, точка отсчёта)"
@@ -1394,20 +1382,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The line marking each end of a tennis or basketball court",
           "body": [
-            "(задняя линия (корта, площадки))",
-            "---"
+            "(задняя линия (корта, площадки))"
           ],
           "examples": [
             "She hit a forehand from well behind the baseline.",
             "He drove along the baseline for an easy layup.",
             "The serve landed just inside the baseline."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The invisible line that letters sit on",
+          "body": [
+            "(базовая линия (шрифта))",
+            "---"
+          ],
+          "examples": [
+            "The o dips slightly below the baseline.",
+            "Align the caption to the baseline of the text.",
+            "The two columns share the same baselines."
+          ]
         }
       ],
-      "русский": "базовая линия (шрифта); исходный уровень, точка отсчёта; задняя линия (корта, площадки)",
+      "русский": "исходный уровень, точка отсчёта; задняя линия (корта, площадки); базовая линия (шрифта)",
       "plural": "baselines",
       "countability": "countable"
     },
@@ -1475,41 +1475,41 @@
       "respell": "jus-tuh-fuh-KAY-shuhn",
       "meaning": "Justification has 2 distinct senses.",
       "examples": [
-        "Turn off justification and use a ragged right edge.",
-        "Bad justification leaves rivers of white down the column.",
-        "Justification works better with hyphens turned on.",
         "There was no justification for shouting at the clerk.",
         "The memo offered a detailed justification for the budget cut.",
-        "He gave a long justification of his decision to quit."
+        "He gave a long justification of his decision to quit.",
+        "Turn off justification and use a ragged right edge.",
+        "Bad justification leaves rivers of white down the column.",
+        "Justification works better with hyphens turned on."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The spacing of words so lines end evenly at both margins",
-          "body": [
-            "(выключка, выравнивание текста по ширине)"
-          ],
-          "examples": [
-            "Turn off justification and use a ragged right edge.",
-            "Bad justification leaves rivers of white down the column.",
-            "Justification works better with hyphens turned on."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A good reason showing that an action was right or necessary",
           "body": [
-            "(оправдание, обоснование)",
-            "---"
+            "(оправдание, обоснование)"
           ],
           "examples": [
             "There was no justification for shouting at the clerk.",
             "The memo offered a detailed justification for the budget cut.",
             "He gave a long justification of his decision to quit."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The spacing of words so lines end evenly at both margins",
+          "body": [
+            "(выключка, выравнивание текста по ширине)",
+            "---"
+          ],
+          "examples": [
+            "Turn off justification and use a ragged right edge.",
+            "Bad justification leaves rivers of white down the column.",
+            "Justification works better with hyphens turned on."
+          ]
         }
       ],
-      "русский": "выключка, выравнивание текста по ширине; оправдание, обоснование",
+      "русский": "оправдание, обоснование; выключка, выравнивание текста по ширине",
       "countability": "uncountable"
     },
     {
@@ -2050,31 +2050,19 @@
       "respell": "GAL-ee",
       "meaning": "Galley has 3 distinct senses.",
       "examples": [
-        "The publisher sent a galley to every major critic.",
-        "I read it in galley six months before it came out.",
-        "Reviewers get galleys with plain paper covers.",
         "The cook was busy in the galley.",
         "Flight attendants stowed the carts in the galley.",
         "The boat has a tiny galley with a two-burner stove.",
         "Roman galleys once patrolled these waters.",
         "The museum has a model of a Greek galley.",
-        "Prisoners were sentenced to row in the galleys."
+        "Prisoners were sentenced to row in the galleys.",
+        "The publisher sent a galley to every major critic.",
+        "I read it in galley six months before it came out.",
+        "Reviewers get galleys with plain paper covers."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An early printed copy of a text sent out for correction or review",
-          "body": [
-            "(гранка, корректурный оттиск)"
-          ],
-          "examples": [
-            "The publisher sent a galley to every major critic.",
-            "I read it in galley six months before it came out.",
-            "Reviewers get galleys with plain paper covers."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The kitchen on a ship or an airplane",
           "body": [
             "(камбуз; кухня (в самолёте))"
@@ -2086,20 +2074,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A long ancient ship driven by rows of oars",
           "body": [
-            "(галера)",
-            "---"
+            "(галера)"
           ],
           "examples": [
             "Roman galleys once patrolled these waters.",
             "The museum has a model of a Greek galley.",
             "Prisoners were sentenced to row in the galleys."
           ]
+        },
+        {
+          "n": "3",
+          "head": "An early printed copy of a text sent out for correction or review",
+          "body": [
+            "(гранка, корректурный оттиск)",
+            "---"
+          ],
+          "examples": [
+            "The publisher sent a galley to every major critic.",
+            "I read it in galley six months before it came out.",
+            "Reviewers get galleys with plain paper covers."
+          ]
         }
       ],
-      "русский": "гранка, корректурный оттиск; камбуз; кухня (в самолёте); галера",
+      "русский": "камбуз; кухня (в самолёте); галера; гранка, корректурный оттиск",
       "plural": "galleys",
       "countability": "countable",
       "contrast": "Same word as a ship's kitchen; in publishing it means an early proof."
@@ -2228,9 +2228,6 @@
       "respell": "ad-VANS",
       "meaning": "Advance has 4 distinct senses.",
       "examples": [
-        "The advance was fifteen thousand dollars.",
-        "She spent the advance before she finished the draft.",
-        "Advances for first novels have shrunk.",
         "The army's advance stopped at the river.",
         "Nothing could slow the advance of the fire.",
         "Farmers watched the advance of the desert year by year.",
@@ -2239,23 +2236,14 @@
         "The new engine is a big advance over the old one.",
         "She made it clear that his advances were unwelcome.",
         "He apologized for the advance and left the party.",
-        "Employees can report unwanted advances to human resources."
+        "Employees can report unwanted advances to human resources.",
+        "The advance was fifteen thousand dollars.",
+        "She spent the advance before she finished the draft.",
+        "Advances for first novels have shrunk."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Money a publisher pays an author before the book earns anything",
-          "body": [
-            "(аванс (гонорара))"
-          ],
-          "examples": [
-            "The advance was fifteen thousand dollars.",
-            "She spent the advance before she finished the draft.",
-            "Advances for first novels have shrunk."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A forward movement toward a place or position",
           "body": [
             "(продвижение, наступление)"
@@ -2267,7 +2255,7 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "An improvement or new development in knowledge or technology",
           "body": [
             "(достижение, прогресс (в науке, технике))"
@@ -2279,20 +2267,32 @@
           ]
         },
         {
-          "n": "4",
+          "n": "3",
           "head": "An attempt to start a romantic or sexual relationship with someone",
           "body": [
-            "(ухаживания, приставания)",
-            "---"
+            "(ухаживания, приставания)"
           ],
           "examples": [
             "She made it clear that his advances were unwelcome.",
             "He apologized for the advance and left the party.",
             "Employees can report unwanted advances to human resources."
           ]
+        },
+        {
+          "n": "4",
+          "head": "Money a publisher pays an author before the book earns anything",
+          "body": [
+            "(аванс (гонорара))",
+            "---"
+          ],
+          "examples": [
+            "The advance was fifteen thousand dollars.",
+            "She spent the advance before she finished the draft.",
+            "Advances for first novels have shrunk."
+          ]
         }
       ],
-      "русский": "аванс (гонорара); продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания",
+      "русский": "продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания; аванс (гонорара)",
       "plural": "advances",
       "countability": "countable"
     },
@@ -2452,31 +2452,19 @@
       "respell": "IM-print",
       "meaning": "Imprint has 3 distinct senses.",
       "examples": [
-        "The novel came out under their children's imprint.",
-        "The imprint has its own editor and logo.",
-        "One company owns a dozen imprints.",
         "Her boots left deep imprints in the wet sand.",
         "The tire left a clear imprint in the mud.",
         "You could still see the imprint of the coin in the clay.",
         "Her teaching left an imprint on a whole generation of students.",
         "The war left its imprint on every family in town.",
-        "You can see the architect's imprint all over the building."
+        "You can see the architect's imprint all over the building.",
+        "The novel came out under their children's imprint.",
+        "The imprint has its own editor and logo.",
+        "One company owns a dozen imprints."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A brand name a publisher prints its books under",
-          "body": [
-            "(импринт, издательская марка)"
-          ],
-          "examples": [
-            "The novel came out under their children's imprint.",
-            "The imprint has its own editor and logo.",
-            "One company owns a dozen imprints."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A mark left on a surface by pressing something into it",
           "body": [
             "(отпечаток, оттиск)"
@@ -2488,20 +2476,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A lasting effect that a person or event leaves on something",
           "body": [
-            "(след, отпечаток (влияние))",
-            "---"
+            "(след, отпечаток (влияние))"
           ],
           "examples": [
             "Her teaching left an imprint on a whole generation of students.",
             "The war left its imprint on every family in town.",
             "You can see the architect's imprint all over the building."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A brand name a publisher prints its books under",
+          "body": [
+            "(импринт, издательская марка)",
+            "---"
+          ],
+          "examples": [
+            "The novel came out under their children's imprint.",
+            "The imprint has its own editor and logo.",
+            "One company owns a dozen imprints."
+          ]
         }
       ],
-      "русский": "импринт, издательская марка; отпечаток, оттиск; след, отпечаток (влияние)",
+      "русский": "отпечаток, оттиск; след, отпечаток (влияние); импринт, издательская марка",
       "plural": "imprints",
       "countability": "countable",
       "contrast": "Noun stress on the first syllable, IM-print; the verb is im-PRINT."

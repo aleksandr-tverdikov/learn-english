@@ -3238,23 +3238,23 @@ A photograph or shot taken from very near the subject.
 ### closing
 
 **Pronunciation:** /ˈkloʊzɪŋ/ &middot; *KLOH-zing*
-**Русский:** оформление сделки (при покупке недвижимости); закрытие (магазина, школы, дороги)
+**Русский:** закрытие (магазина, школы, дороги); оформление сделки (при покупке недвижимости)
 **Plural:** *closings*
 **Countability:** countable
 
 Closing has 2 distinct senses.
 
-**1. The final meeting at which the sale of a house or property is completed.** (оформление сделки (при покупке недвижимости))
+**1. The shutting down of a business, school, or road, for a time or for good.** (закрытие (магазина, школы, дороги))
 
-1. *Closing* is set for the fifteenth.
-2. We signed about thirty documents at the *closing*.
-3. *Closing* costs came to four thousand dollars.
+1. The station listed school *closings* all morning.
+2. The *closing* of the plant cost four hundred jobs.
+3. Store *closings* have left the mall half empty.
 
-**2. The shutting down of a business, school, or road, for a time or for good.** (закрытие (магазина, школы, дороги))
+**2. The final meeting at which the sale of a house or property is completed.** (оформление сделки (при покупке недвижимости))
 
-4. The station listed school *closings* all morning.
-5. The *closing* of the plant cost four hundred jobs.
-6. Store *closings* have left the mall half empty.
+4. *Closing* is set for the fifteenth.
+5. We signed about thirty documents at the *closing*.
+6. *Closing* costs came to four thousand dollars.
 
 ---
 

@@ -1772,41 +1772,41 @@
       "respell": "DIG",
       "meaning": "Dig has 2 distinct senses.",
       "examples": [
-        "She spent the summer on a dig in southern Turkey.",
-        "Students can volunteer at university digs.",
-        "The dig turned up coins from the third century.",
         "That comment was a dig at my cooking.",
         "He got in a few digs about my driving.",
-        "She took a dig at her old boss during the interview."
+        "She took a dig at her old boss during the interview.",
+        "She spent the summer on a dig in southern Turkey.",
+        "Students can volunteer at university digs.",
+        "The dig turned up coins from the third century."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An organized excavation of a site to find ancient objects",
-          "body": [
-            "(археологические раскопки)"
-          ],
-          "examples": [
-            "She spent the summer on a dig in southern Turkey.",
-            "Students can volunteer at university digs.",
-            "The dig turned up coins from the third century."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A remark meant to mock or criticize someone",
           "body": [
-            "(колкость, шпилька)",
-            "---"
+            "(колкость, шпилька)"
           ],
           "examples": [
             "That comment was a dig at my cooking.",
             "He got in a few digs about my driving.",
             "She took a dig at her old boss during the interview."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An organized excavation of a site to find ancient objects",
+          "body": [
+            "(археологические раскопки)",
+            "---"
+          ],
+          "examples": [
+            "She spent the summer on a dig in southern Turkey.",
+            "Students can volunteer at university digs.",
+            "The dig turned up coins from the third century."
+          ]
         }
       ],
-      "русский": "археологические раскопки; колкость, шпилька",
+      "русский": "колкость, шпилька; археологические раскопки",
       "plural": "digs",
       "countability": "countable"
     },
@@ -2758,31 +2758,19 @@
       "respell": "DIS-pach",
       "meaning": "Dispatch has 3 distinct senses.",
       "examples": [
-        "His dispatch from the border ran on the front page.",
-        "The paper printed dispatches from three war zones.",
-        "A short dispatch arrived from the field office.",
         "The governor ordered the dispatch of the National Guard.",
         "We got an email confirming the dispatch of our order.",
         "The dispatch of relief supplies began the next morning.",
         "Dispatch says the ambulance is four minutes out.",
         "She works nights in dispatch at the sheriff's office.",
-        "Call it in to dispatch before you go inside."
+        "Call it in to dispatch before you go inside.",
+        "His dispatch from the border ran on the front page.",
+        "The paper printed dispatches from three war zones.",
+        "A short dispatch arrived from the field office."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An official report or news story sent from a distant place",
-          "body": [
-            "(донесение, репортаж с места)"
-          ],
-          "examples": [
-            "His dispatch from the border ran on the front page.",
-            "The paper printed dispatches from three war zones.",
-            "A short dispatch arrived from the field office."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act of sending someone or something off to a destination",
           "body": [
             "(отправка, отправление)"
@@ -2794,20 +2782,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The office or crew that sends out police, fire, and ambulance units by radio",
           "body": [
-            "(диспетчерская служба)",
-            "---"
+            "(диспетчерская служба)"
           ],
           "examples": [
             "Dispatch says the ambulance is four minutes out.",
             "She works nights in dispatch at the sheriff's office.",
             "Call it in to dispatch before you go inside."
           ]
+        },
+        {
+          "n": "3",
+          "head": "An official report or news story sent from a distant place",
+          "body": [
+            "(донесение, репортаж с места)",
+            "---"
+          ],
+          "examples": [
+            "His dispatch from the border ran on the front page.",
+            "The paper printed dispatches from three war zones.",
+            "A short dispatch arrived from the field office."
+          ]
         }
       ],
-      "русский": "донесение, репортаж с места; отправка, отправление; диспетчерская служба",
+      "русский": "отправка, отправление; диспетчерская служба; донесение, репортаж с места",
       "plural": "dispatches",
       "countability": "countable"
     },
@@ -3552,12 +3552,12 @@
       "respell": "DUH-buhl",
       "meaning": "Double has 4 distinct senses.",
       "examples": [
-        "The fight scene was filmed with a stunt double.",
-        "She used a double for the horseback riding.",
-        "The doubles rehearsed the crash for two days.",
         "You could be his double.",
         "The actress met her double on the set.",
         "In the photo the two men look like doubles.",
+        "The fight scene was filmed with a stunt double.",
+        "She used a double for the horseback riding.",
+        "The doubles rehearsed the crash for two days.",
         "He drove in two runs with a double to left field.",
         "She has ten doubles already this season.",
         "A leadoff double started the rally.",
@@ -3568,18 +3568,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A person who takes an actor's place in dangerous or difficult scenes",
-          "body": [
-            "(дублёр)"
-          ],
-          "examples": [
-            "The fight scene was filmed with a stunt double.",
-            "She used a double for the horseback riding.",
-            "The doubles rehearsed the crash for two days."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A person who looks exactly like someone else",
           "body": [
             "(двойник)"
@@ -3588,6 +3576,18 @@
             "You could be his double.",
             "The actress met her double on the set.",
             "In the photo the two men look like doubles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who takes an actor's place in dangerous or difficult scenes",
+          "body": [
+            "(дублёр)"
+          ],
+          "examples": [
+            "The fight scene was filmed with a stunt double.",
+            "She used a double for the horseback riding.",
+            "The doubles rehearsed the crash for two days."
           ]
         },
         {
@@ -3616,7 +3616,7 @@
           ]
         }
       ],
-      "русский": "дублёр; двойник; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)",
+      "русский": "двойник; дублёр; дабл, двухбазовый удар (в бейсболе); двойная порция (спиртного)",
       "plural": "doubles",
       "countability": "countable"
     },
@@ -3701,12 +3701,12 @@
       "respell": "DRAG",
       "meaning": "Drag has 4 distinct senses.",
       "examples": [
-        "The new body design reduces drag at high speeds.",
-        "Cyclists ride close together to cut down on drag.",
-        "Air drag is what slows the parachute.",
         "Waiting in line for two hours was a drag.",
         "What a drag — the game got rained out.",
         "Cleaning the garage is such a drag.",
+        "The new body design reduces drag at high speeds.",
+        "Cyclists ride close together to cut down on drag.",
+        "Air drag is what slows the parachute.",
         "He took a long drag and stared down the road.",
         "She finished the cigarette in three drags.",
         "One more drag and he put it out.",
@@ -3717,18 +3717,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The force of air or water that slows down a moving object",
-          "body": [
-            "(сопротивление воздуха, лобовое сопротивление)"
-          ],
-          "examples": [
-            "The new body design reduces drag at high speeds.",
-            "Cyclists ride close together to cut down on drag.",
-            "Air drag is what slows the parachute."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something boring or annoying",
           "body": [
             "(скука, тоска, неприятная обязанность)"
@@ -3737,6 +3725,18 @@
             "Waiting in line for two hours was a drag.",
             "What a drag — the game got rained out.",
             "Cleaning the garage is such a drag."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The force of air or water that slows down a moving object",
+          "body": [
+            "(сопротивление воздуха, лобовое сопротивление)"
+          ],
+          "examples": [
+            "The new body design reduces drag at high speeds.",
+            "Cyclists ride close together to cut down on drag.",
+            "Air drag is what slows the parachute."
           ]
         },
         {
@@ -3765,7 +3765,7 @@
           ]
         }
       ],
-      "русский": "сопротивление воздуха, лобовое сопротивление; скука, тоска, неприятная обязанность; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)",
+      "русский": "скука, тоска, неприятная обязанность; сопротивление воздуха, лобовое сопротивление; затяжка (сигаретой); женский наряд, надетый мужчиной (для выступления)",
       "countability": "uncountable"
     },
     {
@@ -6195,41 +6195,41 @@
       "respell": "EE-thur",
       "meaning": "Ether has 2 distinct senses.",
       "examples": [
-        "Surgeons used ether long before modern anesthesia.",
-        "The room smelled faintly of ether.",
-        "Her message seemed to vanish into the ether.",
         "My email must have disappeared into the ether.",
         "Their promises vanished into the ether after the election.",
-        "The signal goes out into the ether and comes back a second later."
+        "The signal goes out into the ether and comes back a second later.",
+        "Surgeons used ether long before modern anesthesia.",
+        "The room smelled faintly of ether.",
+        "Her message seemed to vanish into the ether."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A light, sweet-smelling liquid once widely used to put patients to sleep",
-          "body": [
-            "(эфир)"
-          ],
-          "examples": [
-            "Surgeons used ether long before modern anesthesia.",
-            "The room smelled faintly of ether.",
-            "Her message seemed to vanish into the ether."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The invisible air or space in which signals travel and things seem to vanish",
           "body": [
-            "(эфир (пространство, куда всё исчезает))",
-            "---"
+            "(эфир (пространство, куда всё исчезает))"
           ],
           "examples": [
             "My email must have disappeared into the ether.",
             "Their promises vanished into the ether after the election.",
             "The signal goes out into the ether and comes back a second later."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A light, sweet-smelling liquid once widely used to put patients to sleep",
+          "body": [
+            "(эфир)",
+            "---"
+          ],
+          "examples": [
+            "Surgeons used ether long before modern anesthesia.",
+            "The room smelled faintly of ether.",
+            "Her message seemed to vanish into the ether."
+          ]
         }
       ],
-      "русский": "эфир; эфир (пространство, куда всё исчезает)",
+      "русский": "эфир (пространство, куда всё исчезает); эфир",
       "countability": "uncountable"
     },
     {
@@ -9417,31 +9417,19 @@
       "respell": "FOHK",
       "meaning": "Folk has 3 distinct senses.",
       "examples": [
-        "The station plays folk all afternoon.",
-        "He grew up on folk and bluegrass.",
-        "She writes folk with a country edge.",
         "Folks around here are pretty friendly.",
         "A lot of folks showed up for the meeting.",
         "Most folks never read the fine print.",
         "My folks live a few hours north of here.",
         "We're spending the holidays with her folks.",
-        "His folks helped him buy the truck."
+        "His folks helped him buy the truck.",
+        "The station plays folk all afternoon.",
+        "He grew up on folk and bluegrass.",
+        "She writes folk with a country edge."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Traditional popular music played mostly on acoustic instruments",
-          "body": [
-            "(фолк, народная музыка)"
-          ],
-          "examples": [
-            "The station plays folk all afternoon.",
-            "He grew up on folk and bluegrass.",
-            "She writes folk with a country edge."
-          ]
-        },
-        {
-          "n": "2",
           "head": "People in general, or the people of a particular place",
           "body": [
             "(люди, народ)"
@@ -9453,20 +9441,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "Your parents, or your close family",
           "body": [
-            "(родители, родня)",
-            "---"
+            "(родители, родня)"
           ],
           "examples": [
             "My folks live a few hours north of here.",
             "We're spending the holidays with her folks.",
             "His folks helped him buy the truck."
           ]
+        },
+        {
+          "n": "3",
+          "head": "Traditional popular music played mostly on acoustic instruments",
+          "body": [
+            "(фолк, народная музыка)",
+            "---"
+          ],
+          "examples": [
+            "The station plays folk all afternoon.",
+            "He grew up on folk and bluegrass.",
+            "She writes folk with a country edge."
+          ]
         }
       ],
-      "русский": "фолк, народная музыка; люди, народ; родители, родня",
+      "русский": "люди, народ; родители, родня; фолк, народная музыка",
       "countability": "uncountable",
       "contrast": "The l is silent: FOHK."
     },

@@ -444,23 +444,23 @@ A piece of stem cut from a plant and rooted to grow a new one.
 ### graft
 
 **Pronunciation:** /ɡræft/ &middot; *GRAFT*
-**Русский:** прививка (растения); трансплантат, пересадка ткани; коррупция, взяточничество
+**Русский:** трансплантат, пересадка ткани; прививка (растения); коррупция, взяточничество
 **Plural:** *grafts*
 **Countability:** countable
 
 Graft has 3 distinct senses.
 
-**1. A shoot joined onto another plant so the two grow as one.** (прививка (растения))
+**1. A piece of skin, bone, or tissue moved to another place on the body.** (трансплантат, пересадка ткани)
 
-1. You can see the *graft* right above the soil line.
-2. The *graft* never took, so he tried again in spring.
-3. All the *grafts* on that apple tree are different varieties.
+1. The burn needed a skin *graft*.
+2. Surgeons took the *graft* from her own hip.
+3. Both *grafts* healed without infection.
 
-**2. A piece of skin, bone, or tissue moved to another place on the body.** (трансплантат, пересадка ткани)
+**2. A shoot joined onto another plant so the two grow as one.** (прививка (растения))
 
-4. The burn needed a skin *graft*.
-5. Surgeons took the *graft* from her own hip.
-6. Both *grafts* healed without infection.
+4. You can see the *graft* right above the soil line.
+5. The *graft* never took, so he tried again in spring.
+6. All the *grafts* on that apple tree are different varieties.
 
 **3. The use of a public position to get money dishonestly.** (коррупция, взяточничество)
 
@@ -595,29 +595,29 @@ A plant that grows leaves the first year and flowers the second.
 ### hybrid
 
 **Pronunciation:** /ˈhaɪbrɪd/ &middot; *HY-brid*
-**Русский:** гибрид; гибридный автомобиль; гибрид, сочетание (двух разных вещей)
+**Русский:** гибридный автомобиль; гибрид, сочетание (двух разных вещей); гибрид
 **Plural:** *hybrids*
 **Countability:** countable
 
 Hybrid has 3 distinct senses.
 
-**1. A plant bred from two different varieties.** (гибрид)
+**1. A car that runs on both a gasoline engine and an electric motor.** (гибридный автомобиль)
 
-1. This tomato is a *hybrid* bred for disease resistance.
-2. Seeds saved from a *hybrid* rarely come out the same.
-3. Most of the corn in the store is from *hybrids*.
+1. They traded the pickup for a *hybrid* to save on gas.
+2. *Hybrids* get much better mileage in city traffic.
+3. The dealership had one *hybrid* left on the lot.
 
-**2. A car that runs on both a gasoline engine and an electric motor.** (гибридный автомобиль)
+**2. Something that combines two different types or styles.** (гибрид, сочетание (двух разных вещей))
 
-4. They traded the pickup for a *hybrid* to save on gas.
-5. *Hybrids* get much better mileage in city traffic.
-6. The dealership had one *hybrid* left on the lot.
+4. The show is a *hybrid* of talk show and game show.
+5. Their schedule is a *hybrid*: three days in the office, two at home.
+6. This bike is a *hybrid*, part road bike and part mountain bike.
 
-**3. Something that combines two different types or styles.** (гибрид, сочетание (двух разных вещей))
+**3. A plant bred from two different varieties.** (гибрид)
 
-7. The show is a *hybrid* of talk show and game show.
-8. Their schedule is a *hybrid*: three days in the office, two at home.
-9. This bike is a *hybrid*, part road bike and part mountain bike.
+7. This tomato is a *hybrid* bred for disease resistance.
+8. Seeds saved from a *hybrid* rarely come out the same.
+9. Most of the corn in the store is from *hybrids*.
 
 ---
 

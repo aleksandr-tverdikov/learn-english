@@ -269,24 +269,24 @@ The way a person's hair has been arranged.
 ### part
 
 **Pronunciation:** /pɑːrt/ &middot; *PART*
-**Русский:** пробор; роль
+**Русский:** роль; пробор
 **Plural:** *parts*
 **Countability:** countable
 **Contrast:** British English calls this a *parting*.
 
 Part has 2 distinct senses.
 
-**1. The line on the head where hair is divided and combed in two directions.** (пробор)
+**1. A character that an actor plays in a performance.** (роль)
 
-1. He wears his *part* on the left.
-2. She switched to a middle *part* and looked completely different.
-3. Deep side *parts* were everywhere that year.
+1. She landed the *part* of Juliet on her first audition.
+2. He has played small *parts* in a dozen shows.
+3. It is a wonderful *part* for an older actor.
 
-**2. A character that an actor plays in a performance.** (роль)
+**2. The line on the head where hair is divided and combed in two directions.** (пробор)
 
-4. She landed the *part* of Juliet on her first audition.
-5. He has played small *parts* in a dozen shows.
-6. It is a wonderful *part* for an older actor.
+4. He wears his *part* on the left.
+5. She switched to a middle *part* and looked completely different.
+6. Deep side *parts* were everywhere that year.
 
 ---
 
@@ -338,30 +338,30 @@ A hairstyle in which the hair is pinned up off the neck.
 ### fringe
 
 **Pronunciation:** /frɪndʒ/ &middot; *FRINJ*
-**Русский:** чёлка (британское); бахрома; окраина; периферия, крайние круги
+**Русский:** бахрома; окраина; периферия, крайние круги; чёлка (британское)
 **Plural:** *fringes*
 **Countability:** countable
 **Contrast:** British word; Americans say *bangs* for hair cut across the forehead.
 
 Fringe has 3 distinct senses.
 
-**1. Hair cut short and straight across the forehead.** (чёлка (британское))
+**1. A border of hanging threads or cords on a rug, a lampshade, or a piece of clothing.** (бахрома)
 
-1. Her *fringe* had grown into her eyes.
-2. A short *fringe* suits a round face, she says.
-3. British magazines talk about *fringes*, not bangs.
+1. Her jacket had leather *fringe* along the sleeves.
+2. The rug's *fringe* was starting to unravel.
+3. Silk *fringe* hung from the edge of the lampshade.
 
-**2. A border of hanging threads or cords on a rug, a lampshade, or a piece of clothing.** (бахрома)
+**2. The outer edge of an area, or the part of a group farthest from the center.** (окраина; периферия, крайние круги)
 
-4. Her jacket had leather *fringe* along the sleeves.
-5. The rug's *fringe* was starting to unravel.
-6. Silk *fringe* hung from the edge of the lampshade.
+4. They live on the *fringe* of town, past the last stoplight.
+5. The idea started on the *fringes* of the party and slowly moved to the center.
+6. Deer feed along the *fringe* of the woods at dusk.
 
-**3. The outer edge of an area, or the part of a group farthest from the center.** (окраина; периферия, крайние круги)
+**3. Hair cut short and straight across the forehead.** (чёлка (британское))
 
-7. They live on the *fringe* of town, past the last stoplight.
-8. The idea started on the *fringes* of the party and slowly moved to the center.
-9. Deer feed along the *fringe* of the woods at dusk.
+7. Her *fringe* had grown into her eyes.
+8. A short *fringe* suits a round face, she says.
+9. British magazines talk about *fringes*, not bangs.
 
 ---
 
@@ -929,23 +929,23 @@ An electric device that blows hot air to dry and style hair.
 ### blowout
 
 **Pronunciation:** /ˈbloʊaʊt/ &middot; *BLOH-owt*
-**Русский:** укладка феном; разрыв шины на ходу
+**Русский:** разрыв шины на ходу; укладка феном
 **Plural:** *blowouts*
 **Countability:** countable
 
 Blowout has 2 distinct senses.
 
-**1. A salon service in which the hair is washed and dried smooth with a brush and dryer.** (укладка феном)
+**1. A tire bursting suddenly while the car is moving.** (разрыв шины на ходу)
 
-1. She got a *blowout* before the interview.
-2. A *blowout* lasts me about three days.
-3. That place does *blowouts* for forty dollars.
+1. A *blowout* at that speed is terrifying.
+2. Old tires cause most *blowouts*.
+3. The *blowout* pulled the truck toward the shoulder.
 
-**2. A tire bursting suddenly while the car is moving.** (разрыв шины на ходу)
+**2. A salon service in which the hair is washed and dried smooth with a brush and dryer.** (укладка феном)
 
-4. A *blowout* at that speed is terrifying.
-5. Old tires cause most *blowouts*.
-6. The *blowout* pulled the truck toward the shoulder.
+4. She got a *blowout* before the interview.
+5. A *blowout* lasts me about three days.
+6. That place does *blowouts* for forty dollars.
 
 ---
 
@@ -1243,24 +1243,24 @@ Dye used to change the shade of someone's hair.
 ### highlights
 
 **Pronunciation:** /ˈhaɪlaɪts/ &middot; *HY-lyts*
-**Русский:** мелирование; лучшие моменты, нарезка (обзор матча)
+**Русский:** лучшие моменты, нарезка (обзор матча); мелирование
 **Plural:** *highlights*
 **Countability:** countable
 **Contrast:** In the hair sense the word is nearly always plural: *highlights*.
 
 Highlights has 2 distinct senses.
 
-**1. Lighter streaks put into the hair with color or bleach.** (мелирование)
+**1. The best moments of a game or event, especially shown afterward as a short video.** (лучшие моменты, нарезка (обзор матча))
 
-1. She got *highlights* around her face.
-2. The *highlights* have grown out an inch.
-3. *Highlights* take twice as long as a single color.
+1. I missed the game, so I watched the *highlights* on my phone.
+2. The station shows *highlights* from every Sunday game.
+3. The team posted the *highlights* right after the final whistle.
 
-**2. The best moments of a game or event, especially shown afterward as a short video.** (лучшие моменты, нарезка (обзор матча))
+**2. Lighter streaks put into the hair with color or bleach.** (мелирование)
 
-4. I missed the game, so I watched the *highlights* on my phone.
-5. The station shows *highlights* from every Sunday game.
-6. The team posted the *highlights* right after the final whistle.
+4. She got *highlights* around her face.
+5. The *highlights* have grown out an inch.
+6. *Highlights* take twice as long as a single color.
 
 ---
 
@@ -1529,24 +1529,24 @@ Makeover has 2 distinct senses.
 ### primer
 
 **Pronunciation:** /ˈpraɪmər/ &middot; *PRY-mur*
-**Русский:** праймер, база под макияж; грунтовка
+**Русский:** грунтовка; праймер, база под макияж
 **Plural:** *primers*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** The makeup sense is PRY-mur; the beginner's schoolbook called a *primer* is PRIM-ur in the US.
 
 Primer has 2 distinct senses.
 
-**1. A cream put on the skin before makeup so it goes on smoothly and lasts.** (праймер, база под макияж)
+**1. A first coat of paint that seals a surface so the finish coat will stick.** (грунтовка)
 
-1. A little *primer* keeps her foundation from sliding.
-2. This *primer* fills in large pores.
-3. She tried four *primers* before finding one she liked.
+1. Put *primer* on before you paint the color.
+2. The stain bled through two coats of *primer*.
+3. Tinted *primers* can save you a coat.
 
-**2. A first coat of paint that seals a surface so the finish coat will stick.** (грунтовка)
+**2. A cream put on the skin before makeup so it goes on smoothly and lasts.** (праймер, база под макияж)
 
-4. Put *primer* on before you paint the color.
-5. The stain bled through two coats of *primer*.
-6. Tinted *primers* can save you a coat.
+4. A little *primer* keeps her foundation from sliding.
+5. This *primer* fills in large pores.
+6. She tried four *primers* before finding one she liked.
 
 ---
 
@@ -1622,24 +1622,24 @@ A pencil used to draw an outline around the lips.
 ### brow
 
 **Pronunciation:** /braʊ/ &middot; *BROW*
-**Русский:** бровь; лоб
+**Русский:** лоб; бровь
 **Plural:** *brows*
 **Countability:** countable
 **Contrast:** Rhymes with *cow*, not with *low*.
 
 Brow has 2 distinct senses.
 
-**1. An eyebrow, especially as something that is shaped and made up.** (бровь)
+**1. The forehead.** (лоб)
 
-1. She gets her *brows* waxed every month.
-2. One *brow* is higher than the other.
-3. Thick *brows* came back in fashion.
+1. He wiped the sweat from his *brow*.
+2. Her *brow* wrinkled as she read the letter.
+3. A cold cloth on the *brow* brought the fever down.
 
-**2. The forehead.** (лоб)
+**2. An eyebrow, especially as something that is shaped and made up.** (бровь)
 
-4. He wiped the sweat from his *brow*.
-5. Her *brow* wrinkled as she read the letter.
-6. A cold cloth on the *brow* brought the fever down.
+4. She gets her *brows* waxed every month.
+5. One *brow* is higher than the other.
+6. Thick *brows* came back in fashion.
 
 ---
 
@@ -1974,23 +1974,23 @@ Cleanser has 3 distinct senses.
 ### toner
 
 **Pronunciation:** /ˈtoʊnər/ &middot; *TOH-nur*
-**Русский:** тоник для лица; тонер
+**Русский:** тонер; тоник для лица
 **Plural:** *toners*
 **Countability:** countable, and uncountable as a substance
 
 Toner has 2 distinct senses.
 
-**1. A liquid wiped on the face after washing to balance the skin.** (тоник для лица)
+**1. The fine dark powder a laser printer or copier melts onto the page.** (тонер)
 
-1. She pats *toner* on with a cotton pad.
-2. The *toner* stung a little at first.
-3. Alcohol-based *toners* have gone out of style.
+1. We're low on *toner* again.
+2. *Toner* got all over my hands when I changed it.
+3. The copier stops when the *toner* runs out.
 
-**2. The fine dark powder a laser printer or copier melts onto the page.** (тонер)
+**2. A liquid wiped on the face after washing to balance the skin.** (тоник для лица)
 
-4. We're low on *toner* again.
-5. *Toner* got all over my hands when I changed it.
-6. The copier stops when the *toner* runs out.
+4. She pats *toner* on with a cotton pad.
+5. The *toner* stung a little at first.
+6. Alcohol-based *toners* have gone out of style.
 
 ---
 

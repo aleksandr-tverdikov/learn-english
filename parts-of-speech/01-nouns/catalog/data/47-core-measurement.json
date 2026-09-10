@@ -559,12 +559,12 @@
         "The tank has a capacity of twenty gallons.",
         "The stadium was filled to capacity.",
         "The two coolers have different capacities.",
-        "She was there in her capacity as school board president.",
-        "I'm speaking in a private capacity, not for the company.",
-        "He signed the letter in his capacity as trustee.",
         "Children have an amazing capacity for languages.",
         "He no longer has the mental capacity to manage his own money.",
-        "She has an enormous capacity for hard work."
+        "She has an enormous capacity for hard work.",
+        "She was there in her capacity as school board president.",
+        "I'm speaking in a private capacity, not for the company.",
+        "He signed the letter in his capacity as trustee."
       ],
       "senses": [
         {
@@ -581,31 +581,31 @@
         },
         {
           "n": "2",
-          "head": "The official role or position in which someone is acting",
-          "body": [
-            "(качество, должность (в каком качестве))"
-          ],
-          "examples": [
-            "She was there in her capacity as school board president.",
-            "I'm speaking in a private capacity, not for the company.",
-            "He signed the letter in his capacity as trustee."
-          ]
-        },
-        {
-          "n": "3",
           "head": "The ability to do or to understand something",
           "body": [
-            "(способность (что-л. делать, понимать))",
-            "---"
+            "(способность (что-л. делать, понимать))"
           ],
           "examples": [
             "Children have an amazing capacity for languages.",
             "He no longer has the mental capacity to manage his own money.",
             "She has an enormous capacity for hard work."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The official role or position in which someone is acting",
+          "body": [
+            "(качество, должность (в каком качестве))",
+            "---"
+          ],
+          "examples": [
+            "She was there in her capacity as school board president.",
+            "I'm speaking in a private capacity, not for the company.",
+            "He signed the letter in his capacity as trustee."
+          ]
         }
       ],
-      "русский": "вместимость, ёмкость; качество, должность (в каком качестве); способность (что-л. делать, понимать)",
+      "русский": "вместимость, ёмкость; способность (что-л. делать, понимать); качество, должность (в каком качестве)",
       "plural": "capacities",
       "countability": "countable"
     },
@@ -1193,41 +1193,41 @@
       "respell": "TAH-lur-uhns",
       "meaning": "Tolerance has 2 distinct senses.",
       "examples": [
-        "The part is machined to a tolerance of one thousandth of an inch.",
-        "That's outside the tolerance on the drawing.",
-        "Aerospace parts have very tight tolerances.",
         "The school teaches tolerance from kindergarten on.",
         "My tolerance for meetings is close to zero.",
-        "There is not much tolerance for excuses around here."
+        "There is not much tolerance for excuses around here.",
+        "The part is machined to a tolerance of one thousandth of an inch.",
+        "That's outside the tolerance on the drawing.",
+        "Aerospace parts have very tight tolerances."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The amount a measurement is allowed to vary from the exact figure",
-          "body": [
-            "(допуск (в технике))"
-          ],
-          "examples": [
-            "The part is machined to a tolerance of one thousandth of an inch.",
-            "That's outside the tolerance on the drawing.",
-            "Aerospace parts have very tight tolerances."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A willingness to accept people or ideas you do not share",
           "body": [
-            "(терпимость)",
-            "---"
+            "(терпимость)"
           ],
           "examples": [
             "The school teaches tolerance from kindergarten on.",
             "My tolerance for meetings is close to zero.",
             "There is not much tolerance for excuses around here."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The amount a measurement is allowed to vary from the exact figure",
+          "body": [
+            "(допуск (в технике))",
+            "---"
+          ],
+          "examples": [
+            "The part is machined to a tolerance of one thousandth of an inch.",
+            "That's outside the tolerance on the drawing.",
+            "Aerospace parts have very tight tolerances."
+          ]
         }
       ],
-      "русский": "допуск (в технике); терпимость",
+      "русский": "терпимость; допуск (в технике)",
       "plural": "tolerances",
       "countability": "countable"
     },
@@ -1310,12 +1310,12 @@
       "respell": "REE-ding",
       "meaning": "Reading has 4 distinct senses.",
       "examples": [
-        "The meter reading was higher than last month.",
-        "Take a reading every hour.",
-        "Both readings came out the same.",
         "Reading is her favorite way to spend an evening.",
         "The school added twenty minutes of reading to every day.",
         "His reading has improved a lot this year.",
+        "The meter reading was higher than last month.",
+        "Take a reading every hour.",
+        "Both readings came out the same.",
         "The poet is giving a reading at the library on Friday.",
         "About forty people showed up for the reading.",
         "There's a reading and a signing afterward.",
@@ -1326,18 +1326,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A figure shown by a measuring instrument",
-          "body": [
-            "(показание (прибора))"
-          ],
-          "examples": [
-            "The meter reading was higher than last month.",
-            "Take a reading every hour.",
-            "Both readings came out the same."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The activity or skill of getting meaning from written words",
           "body": [
             "(чтение (занятие, навык))"
@@ -1346,6 +1334,18 @@
             "Reading is her favorite way to spend an evening.",
             "The school added twenty minutes of reading to every day.",
             "His reading has improved a lot this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A figure shown by a measuring instrument",
+          "body": [
+            "(показание (прибора))"
+          ],
+          "examples": [
+            "The meter reading was higher than last month.",
+            "Take a reading every hour.",
+            "Both readings came out the same."
           ]
         },
         {
@@ -1374,7 +1374,7 @@
           ]
         }
       ],
-      "русский": "показание (прибора); чтение (занятие, навык); публичное чтение (авторское); толкование, трактовка",
+      "русский": "чтение (занятие, навык); показание (прибора); публичное чтение (авторское); толкование, трактовка",
       "plural": "readings",
       "countability": "countable"
     },
@@ -1681,41 +1681,41 @@
       "respell": "BULK",
       "meaning": "Bulk has 2 distinct senses.",
       "examples": [
-        "The bulk of the shipment is still in the warehouse.",
-        "We buy rice in bulk.",
-        "The sheer bulk of the machine made it hard to move.",
         "The bulk of the money went to salaries.",
         "She spent the bulk of her career overseas.",
-        "The bulk of the crowd had already gone home."
+        "The bulk of the crowd had already gone home.",
+        "The bulk of the shipment is still in the warehouse.",
+        "We buy rice in bulk.",
+        "The sheer bulk of the machine made it hard to move."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Large size or volume, especially when it makes something hard to handle",
-          "body": [
-            "(объём, масса; основная часть)"
-          ],
-          "examples": [
-            "The bulk of the shipment is still in the warehouse.",
-            "We buy rice in bulk.",
-            "The sheer bulk of the machine made it hard to move."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The greater part of something",
           "body": [
-            "(основная часть, большинство)",
-            "---"
+            "(основная часть, большинство)"
           ],
           "examples": [
             "The bulk of the money went to salaries.",
             "She spent the bulk of her career overseas.",
             "The bulk of the crowd had already gone home."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Large size or volume, especially when it makes something hard to handle",
+          "body": [
+            "(объём, масса; основная часть)",
+            "---"
+          ],
+          "examples": [
+            "The bulk of the shipment is still in the warehouse.",
+            "We buy rice in bulk.",
+            "The sheer bulk of the machine made it hard to move."
+          ]
         }
       ],
-      "русский": "объём, масса; основная часть; основная часть, большинство",
+      "русский": "основная часть, большинство; объём, масса; основная часть",
       "countability": "uncountable"
     },
     {
@@ -2112,41 +2112,41 @@
       "respell": "FUUT-ij",
       "meaning": "Footage has 2 distinct senses.",
       "examples": [
-        "What's the square footage of the house?",
-        "Add up the footage of pipe you'll need.",
-        "The listing doesn't give the footage.",
         "The station aired security footage of the break-in.",
         "There's hours of unused footage.",
-        "The footage is grainy but you can see his face."
+        "The footage is grainy but you can see his face.",
+        "What's the square footage of the house?",
+        "Add up the footage of pipe you'll need.",
+        "The listing doesn't give the footage."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A length or an area measured in feet",
-          "body": [
-            "(метраж, длина или площадь в футах)"
-          ],
-          "examples": [
-            "What's the square footage of the house?",
-            "Add up the footage of pipe you'll need.",
-            "The listing doesn't give the footage."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Film or video that has been shot, especially of a real event",
           "body": [
-            "(видеоматериал, кадры)",
-            "---"
+            "(видеоматериал, кадры)"
           ],
           "examples": [
             "The station aired security footage of the break-in.",
             "There's hours of unused footage.",
             "The footage is grainy but you can see his face."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A length or an area measured in feet",
+          "body": [
+            "(метраж, длина или площадь в футах)",
+            "---"
+          ],
+          "examples": [
+            "What's the square footage of the house?",
+            "Add up the footage of pipe you'll need.",
+            "The listing doesn't give the footage."
+          ]
         }
       ],
-      "русский": "метраж, длина или площадь в футах; видеоматериал, кадры",
+      "русский": "видеоматериал, кадры; метраж, длина или площадь в футах",
       "countability": "uncountable",
       "contrast": "The same word also means filmed video material, as in security footage."
     },
@@ -2234,41 +2234,41 @@
       "respell": "BREDTH",
       "meaning": "Breadth has 2 distinct senses.",
       "examples": [
-        "The field measures a hundred feet in breadth.",
-        "The river's breadth surprised us.",
-        "They measured the length and breadth of the room.",
         "The breadth of his reading surprised the committee.",
         "The program is praised for its breadth rather than its depth.",
-        "Few candidates bring that breadth of experience."
+        "Few candidates bring that breadth of experience.",
+        "The field measures a hundred feet in breadth.",
+        "The river's breadth surprised us.",
+        "They measured the length and breadth of the room."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The distance across something from one side to the other",
-          "body": [
-            "(ширина)"
-          ],
-          "examples": [
-            "The field measures a hundred feet in breadth.",
-            "The river's breadth surprised us.",
-            "They measured the length and breadth of the room."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The wide range of subjects or activities that something covers",
           "body": [
-            "(широта (охвата, знаний))",
-            "---"
+            "(широта (охвата, знаний))"
           ],
           "examples": [
             "The breadth of his reading surprised the committee.",
             "The program is praised for its breadth rather than its depth.",
             "Few candidates bring that breadth of experience."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The distance across something from one side to the other",
+          "body": [
+            "(ширина)",
+            "---"
+          ],
+          "examples": [
+            "The field measures a hundred feet in breadth.",
+            "The river's breadth surprised us.",
+            "They measured the length and breadth of the room."
+          ]
         }
       ],
-      "русский": "ширина; широта (охвата, знаний)",
+      "русский": "широта (охвата, знаний); ширина",
       "countability": "uncountable",
       "contrast": "It comes from broad, but the vowel is a short e: BREDTH."
     },
@@ -3933,41 +3933,41 @@
       "respell": "BOR",
       "meaning": "Bore has 2 distinct senses.",
       "examples": [
-        "The engine has a four-inch bore.",
-        "Clean the bore after every trip to the range.",
-        "The two cylinders have identical bores.",
         "Her uncle is a terrible bore at parties.",
         "Don't be such a bore — come dance with us.",
-        "The panel was two bores reading their slides out loud."
+        "The panel was two bores reading their slides out loud.",
+        "The engine has a four-inch bore.",
+        "Clean the bore after every trip to the range.",
+        "The two cylinders have identical bores."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The hollow inside of a tube or a gun barrel, or the width of it",
-          "body": [
-            "(внутренний диаметр, канал ствола)"
-          ],
-          "examples": [
-            "The engine has a four-inch bore.",
-            "Clean the bore after every trip to the range.",
-            "The two cylinders have identical bores."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A dull person who tires everyone out with uninteresting talk",
           "body": [
-            "(зануда, скучный человек)",
-            "---"
+            "(зануда, скучный человек)"
           ],
           "examples": [
             "Her uncle is a terrible bore at parties.",
             "Don't be such a bore — come dance with us.",
             "The panel was two bores reading their slides out loud."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The hollow inside of a tube or a gun barrel, or the width of it",
+          "body": [
+            "(внутренний диаметр, канал ствола)",
+            "---"
+          ],
+          "examples": [
+            "The engine has a four-inch bore.",
+            "Clean the bore after every trip to the range.",
+            "The two cylinders have identical bores."
+          ]
         }
       ],
-      "русский": "внутренний диаметр, канал ствола; зануда, скучный человек",
+      "русский": "зануда, скучный человек; внутренний диаметр, канал ствола",
       "plural": "bores",
       "countability": "countable",
       "contrast": "Sounds the same as boar, a wild pig, and as bore, the past tense of bear."

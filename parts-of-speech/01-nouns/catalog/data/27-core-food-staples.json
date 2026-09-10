@@ -367,41 +367,41 @@
       "respell": "POR-shuhn",
       "meaning": "Portion has 2 distinct senses.",
       "examples": [
-        "The portions here are huge.",
-        "He asked for a smaller portion.",
-        "Split it into four portions.",
         "A large portion of the budget goes to salaries.",
         "Only a small portion of the land is farmed.",
-        "She donates a portion of every paycheck."
+        "She donates a portion of every paycheck.",
+        "The portions here are huge.",
+        "He asked for a smaller portion.",
+        "Split it into four portions."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The amount of food served to one person",
-          "body": [
-            "(порция)"
-          ],
-          "examples": [
-            "The portions here are huge.",
-            "He asked for a smaller portion.",
-            "Split it into four portions."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A part of something larger",
           "body": [
-            "(часть, доля)",
-            "---"
+            "(часть, доля)"
           ],
           "examples": [
             "A large portion of the budget goes to salaries.",
             "Only a small portion of the land is farmed.",
             "She donates a portion of every paycheck."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of food served to one person",
+          "body": [
+            "(порция)",
+            "---"
+          ],
+          "examples": [
+            "The portions here are huge.",
+            "He asked for a smaller portion.",
+            "Split it into four portions."
+          ]
         }
       ],
-      "русский": "порция; часть, доля",
+      "русский": "часть, доля; порция",
       "plural": "portions",
       "countability": "countable"
     },

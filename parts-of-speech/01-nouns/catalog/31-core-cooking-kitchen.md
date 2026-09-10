@@ -801,24 +801,24 @@ A long pin that holds pieces of food together for grilling.
 ### mold
 
 **Pronunciation:** /moʊld/ &middot; *MOHLD*
-**Русский:** форма (для выпечки, желе, шоколада); плесень
+**Русский:** плесень; форма (для выпечки, желе, шоколада)
 **Plural:** *molds*
 **Countability:** countable
 **Contrast:** American spelling is mold; British English writes mould.
 
 Mold has 2 distinct senses.
 
-**1. A hollow container that gives food its shape as it sets.** (форма (для выпечки, желе, шоколада))
+**1. A fuzzy growth of fungus on damp surfaces or old food.** (плесень)
 
-1. Pour the jelly into a *mold* and chill it overnight.
-2. She turned the cake out of a bundt *mold*.
-3. Silicone *molds* make it easy to get chocolate out.
+1. There's *mold* on the bread again.
+2. Black *mold* was growing behind the shower tile.
+3. The basement smells of damp and *mold*.
 
-**2. A fuzzy growth of fungus on damp surfaces or old food.** (плесень)
+**2. A hollow container that gives food its shape as it sets.** (форма (для выпечки, желе, шоколада))
 
-4. There's *mold* on the bread again.
-5. Black *mold* was growing behind the shower tile.
-6. The basement smells of damp and *mold*.
+4. Pour the jelly into a *mold* and chill it overnight.
+5. She turned the cake out of a bundt *mold*.
+6. Silicone *molds* make it easy to get chocolate out.
 
 ---
 
@@ -1309,45 +1309,45 @@ Taste has 2 distinct senses.
 ### texture
 
 **Pronunciation:** /ˈtɛkstʃər/ &middot; *TEKS-chur*
-**Русский:** текстура, консистенция; фактура, текстура (поверхности)
+**Русский:** фактура, текстура (поверхности); текстура, консистенция
 **Plural:** *textures*
 **Countability:** countable
 
 Texture has 2 distinct senses.
 
-**1. The way food feels in the mouth.** (текстура, консистенция)
+**1. The way a surface feels or looks when you touch it.** (фактура, текстура (поверхности))
 
-1. The bread has a nice chewy *texture*.
-2. Overcooking ruins the *texture* of shrimp.
-3. The two sauces have completely different *textures*.
+1. The wall has a rough *texture*.
+2. She likes fabrics with an interesting *texture*.
+3. Sand the board until the *texture* is smooth.
 
-**2. The way a surface feels or looks when you touch it.** (фактура, текстура (поверхности))
+**2. The way food feels in the mouth.** (текстура, консистенция)
 
-4. The wall has a rough *texture*.
-5. She likes fabrics with an interesting *texture*.
-6. Sand the board until the *texture* is smooth.
+4. The bread has a nice chewy *texture*.
+5. Overcooking ruins the *texture* of shrimp.
+6. The two sauces have completely different *textures*.
 
 ---
 
 ### heat
 
 **Pronunciation:** /hiːt/ &middot; *HEET*
-**Русский:** огонь, нагрев (на плите); жара; тепло (исходящее от чего-л.); забег, заплыв (отборочный); давление, нападки (критика)
+**Русский:** жара; тепло (исходящее от чего-л.); огонь, нагрев (на плите); забег, заплыв (отборочный); давление, нападки (критика)
 **Countability:** uncountable
 
 Heat has 4 distinct senses.
 
-**1. The level of warmth used to cook something.** (огонь, нагрев (на плите))
+**1. Great warmth, especially hot weather or the warmth coming off something.** (жара; тепло (исходящее от чего-л.))
 
-1. Cook it over medium *heat*.
-2. Turn the *heat* down before it scorches.
-3. Cast iron holds *heat* better than aluminum.
+1. The *heat* in August is brutal here.
+2. We stood by the fire and felt the *heat* on our faces.
+3. Never leave a dog in the car in this kind of *heat*.
 
-**2. Great warmth, especially hot weather or the warmth coming off something.** (жара; тепло (исходящее от чего-л.))
+**2. The level of warmth used to cook something.** (огонь, нагрев (на плите))
 
-4. The *heat* in August is brutal here.
-5. We stood by the fire and felt the *heat* on our faces.
-6. Never leave a dog in the car in this kind of *heat*.
+4. Cook it over medium *heat*.
+5. Turn the *heat* down before it scorches.
+6. Cast iron holds *heat* better than aluminum.
 
 **3. One of the early races or rounds that decide who reaches the final.** (забег, заплыв (отборочный))
 

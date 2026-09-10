@@ -99,29 +99,29 @@ Dry pet food shaped into small hard pieces.
 ### treat
 
 **Pronunciation:** /triːt/ &middot; *TREET*
-**Русский:** лакомство (для животного); удовольствие, угощение (за чей-то счёт); сладость, лакомство
+**Русский:** удовольствие, угощение (за чей-то счёт); сладость, лакомство; лакомство (для животного)
 **Plural:** *treats*
 **Countability:** countable
 
 Treat has 3 distinct senses.
 
-**1. A small piece of tasty food given to an animal as a reward.** (лакомство (для животного))
+**1. Something enjoyable that is out of the ordinary, often paid for by someone else.** (удовольствие, угощение (за чей-то счёт))
 
-1. Give him a *treat* when he sits.
-2. She keeps *treats* in her coat pocket.
-3. One more *treat* and that's it for tonight.
+1. Lunch is my *treat* today.
+2. Going to the movies was a rare *treat* for us.
+3. As a *treat*, he took the kids to the ballpark.
 
-**2. Something enjoyable that is out of the ordinary, often paid for by someone else.** (удовольствие, угощение (за чей-то счёт))
+**2. A small sweet food, especially one given to children.** (сладость, лакомство)
 
-4. Lunch is my *treat* today.
-5. Going to the movies was a rare *treat* for us.
-6. As a *treat*, he took the kids to the ballpark.
+4. The kids came home with a bag of Halloween *treats*.
+5. She baked *treats* for the whole class.
+6. One *treat* after dinner, that's the rule.
 
-**3. A small sweet food, especially one given to children.** (сладость, лакомство)
+**3. A small piece of tasty food given to an animal as a reward.** (лакомство (для животного))
 
-7. The kids came home with a bag of Halloween *treats*.
-8. She baked *treats* for the whole class.
-9. One *treat* after dinner, that's the rule.
+7. Give him a *treat* when he sits.
+8. She keeps *treats* in her coat pocket.
+9. One more *treat* and that's it for tonight.
 
 ---
 
@@ -675,23 +675,23 @@ A business that looks after dogs during the working day.
 ### obedience
 
 **Pronunciation:** /oʊˈbiːdiəns/ &middot; *oh-BEE-dee-uhns*
-**Русский:** послушание; повиновение, подчинение
+**Русский:** повиновение, подчинение; послушание
 **Countability:** uncountable
 **Contrast:** Stressed on the second syllable: oh-BEE-dee-uhns.
 
 Obedience has 2 distinct senses.
 
-**1. An animal's readiness to do what it is told.** (послушание)
+**1. The practice of doing what a person, law, or rule requires.** (повиновение, подчинение)
 
-1. The dog has no *obedience* at all.
-2. We're working on basic *obedience*.
-3. *Obedience* takes daily practice.
+1. The army expects complete *obedience* to orders.
+2. He was raised to value *obedience* above everything else.
+3. *Obedience* to the law is not optional, the judge told him.
 
-**2. The practice of doing what a person, law, or rule requires.** (повиновение, подчинение)
+**2. An animal's readiness to do what it is told.** (послушание)
 
-4. The army expects complete *obedience* to orders.
-5. He was raised to value *obedience* above everything else.
-6. *Obedience* to the law is not optional, the judge told him.
+4. The dog has no *obedience* at all.
+5. We're working on basic *obedience*.
+6. *Obedience* takes daily practice.
 
 ---
 

@@ -937,7 +937,7 @@ The unit that feeds a machine the electricity it needs.
 ### utility
 
 **Pronunciation:** /juːˈtɪləti/ &middot; *yoo-TIH-luh-tee*
-**Русский:** коммунальная компания (энерго- или водоснабжающая); полезность, практическая ценность; коммунальные услуги (и счета за них)
+**Русский:** коммунальная компания (энерго- или водоснабжающая); коммунальные услуги (и счета за них); полезность, практическая ценность
 **Plural:** *utilities*
 **Countability:** countable
 
@@ -949,17 +949,17 @@ Utility has 3 distinct senses.
 2. Several *utilities* raised their rates in January.
 3. He worked for the local *utility* for thirty years.
 
-**2. The quality of being useful.** (полезность, практическая ценность)
+**2. The electricity, gas, and water supplied to a building, or the bills for them.** (коммунальные услуги (и счета за них))
 
-4. The study questions the *utility* of yearly screening.
-5. A second phone has limited *utility*.
-6. They doubted the *utility* of the new rules.
+4. Rent is twelve hundred a month plus *utilities*.
+5. *Utilities* run about a hundred fifty in the winter.
+6. Her paycheck barely covers rent and *utilities*.
 
-**3. The electricity, gas, and water supplied to a building, or the bills for them.** (коммунальные услуги (и счета за них))
+**3. The quality of being useful.** (полезность, практическая ценность)
 
-7. Rent is twelve hundred a month plus *utilities*.
-8. *Utilities* run about a hundred fifty in the winter.
-9. Her paycheck barely covers rent and *utilities*.
+7. The study questions the *utility* of yearly screening.
+8. A second phone has limited *utility*.
+9. They doubted the *utility* of the new rules.
 
 ---
 
@@ -1115,29 +1115,29 @@ A drop in voltage that dims the lights without cutting the power off.
 ### surge
 
 **Pronunciation:** /sɜːrdʒ/ &middot; *SURJ*
-**Русский:** скачок напряжения; резкий рост, всплеск; натиск, прилив (чувств); нагон воды
+**Русский:** резкий рост, всплеск; натиск, прилив (чувств); нагон воды; скачок напряжения
 **Plural:** *surges*
 **Countability:** countable
 
 Surge has 3 distinct senses.
 
-**1. A sudden jump in electric current or voltage that can damage equipment.** (скачок напряжения)
+**1. A sudden large increase in something.** (резкий рост, всплеск)
 
-1. A *surge* from the lightning strike fried the router.
-2. *Surges* are common when the power comes back on.
-3. The *surge* blew out three bulbs at once.
+1. The store saw a *surge* in sales before the holidays.
+2. Hospitals prepared for a *surge* of new cases.
+3. A *surge* in demand pushed prices up all spring.
 
-**2. A sudden large increase in something.** (резкий рост, всплеск)
+**2. A strong forward rush of water, of a crowd, or of feeling.** (натиск, прилив (чувств); нагон воды)
 
-4. The store saw a *surge* in sales before the holidays.
-5. Hospitals prepared for a *surge* of new cases.
-6. A *surge* in demand pushed prices up all spring.
+4. The storm *surge* flooded streets near the beach.
+5. A *surge* of the crowd pushed him against the fence.
+6. She felt a *surge* of pride watching her son graduate.
 
-**3. A strong forward rush of water, of a crowd, or of feeling.** (натиск, прилив (чувств); нагон воды)
+**3. A sudden jump in electric current or voltage that can damage equipment.** (скачок напряжения)
 
-7. The storm *surge* flooded streets near the beach.
-8. A *surge* of the crowd pushed him against the fence.
-9. She felt a *surge* of pride watching her son graduate.
+7. A *surge* from the lightning strike fried the router.
+8. *Surges* are common when the power comes back on.
+9. The *surge* blew out three bulbs at once.
 
 ---
 
@@ -1266,23 +1266,23 @@ A device that changes direct current from a battery or panel into household curr
 ### conduit
 
 **Pronunciation:** /ˈkɑːnduːɪt/ &middot; *KAHN-doo-it*
-**Русский:** кабельный канал, кабелепровод; канал (передачи), посредник
+**Русский:** канал (передачи), посредник; кабельный канал, кабелепровод
 **Plural:** *conduits*
 **Countability:** countable
 
 Conduit has 2 distinct senses.
 
-**1. A pipe or tube that protects electrical wiring.** (кабельный канал, кабелепровод)
+**1. A person or thing through which something is passed from one place to another.** (канал (передачи), посредник)
 
-1. The wiring runs through metal *conduit* along the wall.
-2. They buried two *conduits* under the driveway.
-3. Code requires *conduit* in a garage.
+1. The charity became a *conduit* for foreign money.
+2. He served as a *conduit* between the two governments.
+3. The port is the main *conduit* for goods from Asia.
 
-**2. A person or thing through which something is passed from one place to another.** (канал (передачи), посредник)
+**2. A pipe or tube that protects electrical wiring.** (кабельный канал, кабелепровод)
 
-4. The charity became a *conduit* for foreign money.
-5. He served as a *conduit* between the two governments.
-6. The port is the main *conduit* for goods from Asia.
+4. The wiring runs through metal *conduit* along the wall.
+5. They buried two *conduits* under the driveway.
+6. Code requires *conduit* in a garage.
 
 ---
 
@@ -1348,22 +1348,22 @@ The amount of energy, fuel, or goods that is used up.
 ### efficiency
 
 **Pronunciation:** /ɪˈfɪʃənsi/ &middot; *ih-FIH-shuhn-see*
-**Русский:** КПД, эффективность; эффективность (в работе), слаженность; квартира-студия
+**Русский:** эффективность (в работе), слаженность; КПД, эффективность; квартира-студия
 **Countability:** uncountable
 
 Efficiency has 3 distinct senses.
 
-**1. How much useful work a machine or building gets out of the energy it uses.** (КПД, эффективность)
+**1. The quality of doing a job well without wasting time, money, or effort.** (эффективность (в работе), слаженность)
 
-1. The new boiler improved *efficiency* by fifteen percent.
-2. Energy *efficiency* saves more than new power plants do.
-3. *Efficiency* drops sharply when the filters are dirty.
+1. The new software improved the office's *efficiency*.
+2. He runs the warehouse with impressive *efficiency*.
+3. They cut costs by finding *efficiencies* in shipping.
 
-**2. The quality of doing a job well without wasting time, money, or effort.** (эффективность (в работе), слаженность)
+**2. How much useful work a machine or building gets out of the energy it uses.** (КПД, эффективность)
 
-4. The new software improved the office's *efficiency*.
-5. He runs the warehouse with impressive *efficiency*.
-6. They cut costs by finding *efficiencies* in shipping.
+4. The new boiler improved *efficiency* by fifteen percent.
+5. Energy *efficiency* saves more than new power plants do.
+6. *Efficiency* drops sharply when the filters are dirty.
 
 **3. A small apartment in which one room serves as living room, bedroom, and kitchen.** (квартира-студия)
 
@@ -2000,29 +2000,29 @@ A basic substance that a factory turns into a finished product.
 ### bearing
 
 **Pronunciation:** /ˈbɛrɪŋ/ &middot; *BEH-ring*
-**Русский:** подшипник; направление, пеленг; ориентация на местности; отношение, влияние (на что-л.)
+**Русский:** направление, пеленг; ориентация на местности; отношение, влияние (на что-л.); подшипник
 **Plural:** *bearings*
 **Countability:** countable
 
 Bearing has 3 distinct senses.
 
-**1. A part with balls or rollers that lets a shaft turn smoothly.** (подшипник)
+**1. The direction of one place from another, or your sense of where you are.** (направление, пеленг; ориентация на местности)
 
-1. A worn *bearing* was making that whine.
-2. The *bearings* need grease every hundred hours.
-3. He pressed a new *bearing* onto the shaft.
+1. The pilot took a *bearing* on the lighthouse.
+2. Give me a *bearing* and a distance and I'll find it.
+3. It took me a minute to get my *bearings* in the new building.
 
-**2. The direction of one place from another, or your sense of where you are.** (направление, пеленг; ориентация на местности)
+**2. Influence on or relevance to something.** (отношение, влияние (на что-л.))
 
-4. The pilot took a *bearing* on the lighthouse.
-5. Give me a *bearing* and a distance and I'll find it.
-6. It took me a minute to get my *bearings* in the new building.
+4. His age has no *bearing* on the decision.
+5. That letter has a direct *bearing* on the case.
+6. The weather had little *bearing* on the outcome.
 
-**3. Influence on or relevance to something.** (отношение, влияние (на что-л.))
+**3. A part with balls or rollers that lets a shaft turn smoothly.** (подшипник)
 
-7. His age has no *bearing* on the decision.
-8. That letter has a direct *bearing* on the case.
-9. The weather had little *bearing* on the outcome.
+7. A worn *bearing* was making that whine.
+8. The *bearings* need grease every hundred hours.
+9. He pressed a new *bearing* onto the shaft.
 
 ---
 
@@ -2112,23 +2112,23 @@ The movement of fresh air through a building or a mine.
 ### regulator
 
 **Pronunciation:** /ˈrɛɡjəleɪtər/ &middot; *REG-yuh-lay-tur*
-**Русский:** регулятор; регулирующий орган, надзорное ведомство
+**Русский:** регулирующий орган, надзорное ведомство; регулятор
 **Plural:** *regulators*
 **Countability:** countable
 
 Regulator has 2 distinct senses.
 
-**1. A device that keeps pressure, voltage, or flow at a steady level.** (регулятор)
+**1. A government agency or official that oversees an industry and enforces its rules.** (регулирующий орган, надзорное ведомство)
 
-1. The *regulator* on the propane tank was frozen.
-2. A bad *regulator* let the voltage swing wildly.
-3. Both *regulators* were replaced during the overhaul.
+1. Federal *regulators* opened an investigation into the bank.
+2. The company must satisfy the *regulator* before the merger closes.
+3. State *regulators* fined the utility ten million dollars.
 
-**2. A government agency or official that oversees an industry and enforces its rules.** (регулирующий орган, надзорное ведомство)
+**2. A device that keeps pressure, voltage, or flow at a steady level.** (регулятор)
 
-4. Federal *regulators* opened an investigation into the bank.
-5. The company must satisfy the *regulator* before the merger closes.
-6. State *regulators* fined the utility ten million dollars.
+4. The *regulator* on the propane tank was frozen.
+5. A bad *regulator* let the voltage swing wildly.
+6. Both *regulators* were replaced during the overhaul.
 
 ---
 

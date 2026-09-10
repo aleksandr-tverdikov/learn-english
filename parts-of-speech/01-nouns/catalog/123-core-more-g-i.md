@@ -2655,24 +2655,24 @@ A person paid to do small repairs around a house or building.
 ### hangman
 
 **Pronunciation:** /ˈhæŋmən/ &middot; *HANG-muhn*
-**Русский:** палач (вешатель); виселица (игра в слова)
+**Русский:** виселица (игра в слова); палач (вешатель)
 **Plural:** *hangmen*
 **Countability:** countable
 **Contrast:** *Hangman* is also a word-guessing game; the plural is *hangmen*.
 
 Hangman has 2 distinct senses.
 
-**1. A man whose job was to execute prisoners by hanging.** (палач (вешатель))
+**1. A word game in which every wrong guess adds one line to a drawing of a hanged figure.** (виселица (игра в слова))
 
-1. The *hangman* was waiting at the top of the steps.
-2. In those days the county paid a *hangman*.
-3. The novel opens with a *hangman* checking his rope.
+1. We played *hangman* on the whiteboard while we waited for the bus.
+2. She won at *hangman* by guessing the vowels first.
+3. My little brother always picks impossible words for *hangman*.
 
-**2. A word game in which every wrong guess adds one line to a drawing of a hanged figure.** (виселица (игра в слова))
+**2. A man whose job was to execute prisoners by hanging.** (палач (вешатель))
 
-4. We played *hangman* on the whiteboard while we waited for the bus.
-5. She won at *hangman* by guessing the vowels first.
-6. My little brother always picks impossible words for *hangman*.
+4. The *hangman* was waiting at the top of the steps.
+5. In those days the county paid a *hangman*.
+6. The novel opens with a *hangman* checking his rope.
 
 ---
 

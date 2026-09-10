@@ -436,24 +436,24 @@ A huge harmless ray with wide triangular fins that seems to fly underwater.
 ### skate
 
 **Pronunciation:** /skeɪt/ &middot; *SKAYT*
-**Русский:** скат (ромбовый); конёк
+**Русский:** конёк; скат (ромбовый)
 **Plural:** *skates*
 **Countability:** countable, and uncountable as food
 **Contrast:** Spelled and said like the ice *skate* — only context tells them apart.
 
 Skate has 2 distinct senses.
 
-**1. A flat diamond-shaped fish related to rays, with no stinging tail.** (скат (ромбовый))
+**1. A boot with a blade or wheels for gliding over ice or pavement.** (конёк)
 
-1. The fish market had *skate* wing on ice.
-2. A *skate* buried itself until only its eyes showed.
-3. *Skate* tastes a little like scallops.
+1. One *skate* was a size too small.
+2. He laced up his *skates* at the edge of the rink.
+3. You can rent *skates* for five dollars.
 
-**2. A boot with a blade or wheels for gliding over ice or pavement.** (конёк)
+**2. A flat diamond-shaped fish related to rays, with no stinging tail.** (скат (ромбовый))
 
-4. One *skate* was a size too small.
-5. He laced up his *skates* at the edge of the rink.
-6. You can rent *skates* for five dollars.
+4. The fish market had *skate* wing on ice.
+5. A *skate* buried itself until only its eyes showed.
+6. *Skate* tastes a little like scallops.
 
 ---
 
@@ -598,24 +598,24 @@ A cheap white ocean fish used in fish sticks and fast-food sandwiches.
 ### mullet
 
 **Pronunciation:** /ˈmʌlət/ &middot; *MUL-uht*
-**Русский:** кефаль; маллет (стрижка: спереди коротко, сзади длинно)
+**Русский:** маллет (стрижка: спереди коротко, сзади длинно); кефаль
 **Plural:** *mullet*
 **Countability:** countable, and uncountable as food
 **Contrast:** The same word also names the haircut — only context tells you which.
 
 Mullet has 2 distinct senses.
 
-**1. A silvery coastal fish that travels in schools and often jumps.** (кефаль)
+**1. A haircut that is short at the front and sides and left long at the back.** (маллет (стрижка: спереди коротко, сзади длинно))
 
-1. A school of *mullet* boiled up right off the beach.
-2. Smoked *mullet* is a Florida tradition.
-3. He threw a cast net and came up with a dozen *mullet*.
+1. He had a *mullet* all through high school.
+2. The old band photo is nothing but *mullets* and denim.
+3. *Mullets* are apparently back in style.
 
-**2. A haircut that is short at the front and sides and left long at the back.** (маллет (стрижка: спереди коротко, сзади длинно))
+**2. A silvery coastal fish that travels in schools and often jumps.** (кефаль)
 
-4. He had a *mullet* all through high school.
-5. The old band photo is nothing but *mullets* and denim.
-6. *Mullets* are apparently back in style.
+4. A school of *mullet* boiled up right off the beach.
+5. Smoked *mullet* is a Florida tradition.
+6. He threw a cast net and came up with a dozen *mullet*.
 
 ---
 
@@ -1411,23 +1411,23 @@ A long rolling movement of the sea, without breaking waves.
 ### breaker
 
 **Pronunciation:** /ˈbreɪkər/ &middot; *BRAY-kur*
-**Русский:** бурун, накатная волна; автоматический выключатель, автомат (в щитке)
+**Русский:** автоматический выключатель, автомат (в щитке); бурун, накатная волна
 **Plural:** *breakers*
 **Countability:** countable
 
 Breaker has 2 distinct senses.
 
-**1. A wave that curls over and breaks into white water as it reaches shore.** (бурун, накатная волна)
+**1. A switch that cuts off an electrical circuit when it carries too much current.** (автоматический выключатель, автомат (в щитке))
 
-1. The *breakers* were head-high all morning.
-2. A *breaker* knocked the board out of his hands.
-3. You could hear the *breakers* from the parking lot.
+1. The space heater tripped the *breaker* again.
+2. Flip the *breaker* before you change that outlet.
+3. The *breakers* are in a gray box in the garage.
 
-**2. A switch that cuts off an electrical circuit when it carries too much current.** (автоматический выключатель, автомат (в щитке))
+**2. A wave that curls over and breaks into white water as it reaches shore.** (бурун, накатная волна)
 
-4. The space heater tripped the *breaker* again.
-5. Flip the *breaker* before you change that outlet.
-6. The *breakers* are in a gray box in the garage.
+4. The *breakers* were head-high all morning.
+5. A *breaker* knocked the board out of his hands.
+6. You could hear the *breakers* from the parking lot.
 
 ---
 
@@ -1946,23 +1946,23 @@ Lure has 2 distinct senses.
 ### tackle
 
 **Pronunciation:** /ˈtækəl/ &middot; *TAK-ul*
-**Русский:** рыболовные снасти; захват (игрока с мячом); отбор мяча
+**Русский:** захват (игрока с мячом); отбор мяча; рыболовные снасти
 **Countability:** uncountable
 **Contrast:** Uncountable in fishing: *some tackle*, never 'a tackle' (a football *tackle* is countable).
 
 Tackle has 3 distinct senses.
 
-**1. The rods, lines, hooks, and other gear used for fishing.** (рыболовные снасти)
+**1. The act of bringing down or stopping the player with the ball.** (захват (игрока с мячом); отбор мяча)
 
-1. All my *tackle* is in the back of the truck.
-2. The *tackle* shop opens at five.
-3. He bought new *tackle* for the trip.
+1. That *tackle* knocked the ball loose.
+2. He made eleven *tackles* in the game.
+3. It was a clean *tackle*, not a foul.
 
-**2. The act of bringing down or stopping the player with the ball.** (захват (игрока с мячом); отбор мяча)
+**2. The rods, lines, hooks, and other gear used for fishing.** (рыболовные снасти)
 
-4. That *tackle* knocked the ball loose.
-5. He made eleven *tackles* in the game.
-6. It was a clean *tackle*, not a foul.
+4. All my *tackle* is in the back of the truck.
+5. The *tackle* shop opens at five.
+6. He bought new *tackle* for the trip.
 
 **3. The equipment used for fishing, such as rods, hooks, and lures.** (рыболовные снасти)
 

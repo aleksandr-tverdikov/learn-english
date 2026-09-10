@@ -99,23 +99,23 @@ Scene has 4 distinct senses.
 ### act
 
 **Pronunciation:** /ækt/ &middot; *AKT*
-**Русский:** акт, действие (пьесы); номер (эстрадный); поступок, действие; закон, законодательный акт; притворство, игра на публику
+**Русский:** поступок, действие; акт, действие (пьесы); номер (эстрадный); закон, законодательный акт; притворство, игра на публику
 **Plural:** *acts*
 **Countability:** countable
 
 Act has 4 distinct senses.
 
-**1. A main division of a play, or a short self-contained performance.** (акт, действие (пьесы); номер (эстрадный))
+**1. A single thing that a person does.** (поступок, действие)
 
-1. The first *act* runs almost an hour.
-2. Most modern plays have two *acts* instead of five.
-3. Her comedy *act* is about twenty minutes long.
+1. Holding the door open is a small *act* of kindness.
+2. The fire was ruled a deliberate *act*.
+3. The policy does not cover *acts* of war.
 
-**2. A single thing that a person does.** (поступок, действие)
+**2. A main division of a play, or a short self-contained performance.** (акт, действие (пьесы); номер (эстрадный))
 
-4. Holding the door open is a small *act* of kindness.
-5. The fire was ruled a deliberate *act*.
-6. The policy does not cover *acts* of war.
+4. The first *act* runs almost an hour.
+5. Most modern plays have two *acts* instead of five.
+6. Her comedy *act* is about twenty minutes long.
 
 **3. A law passed by a legislature.** (закон, законодательный акт)
 
@@ -149,23 +149,23 @@ A play or film meant to be funny and to end happily.
 ### tragedy
 
 **Pronunciation:** /ˈtrædʒədi/ &middot; *TRAJ-uh-dee*
-**Русский:** трагедия; трагедия, несчастье
+**Русский:** трагедия, несчастье; трагедия
 **Plural:** *tragedies*
 **Countability:** countable
 
 Tragedy has 2 distinct senses.
 
-**1. A serious play that ends unhappily for the main character.** (трагедия)
+**1. A very sad event, especially one in which people die.** (трагедия, несчастье)
 
-1. Hamlet is the best known *tragedy* in English.
-2. Greek *tragedies* were performed outdoors.
-3. The director staged the *tragedy* in modern dress.
+1. The fire was a *tragedy* for the whole town.
+2. It would be a *tragedy* to lose the old theater.
+3. The family has suffered two *tragedies* in one year.
 
-**2. A very sad event, especially one in which people die.** (трагедия, несчастье)
+**2. A serious play that ends unhappily for the main character.** (трагедия)
 
-4. The fire was a *tragedy* for the whole town.
-5. It would be a *tragedy* to lose the old theater.
-6. The family has suffered two *tragedies* in one year.
+4. Hamlet is the best known *tragedy* in English.
+5. Greek *tragedies* were performed outdoors.
+6. The director staged the *tragedy* in modern dress.
 
 ---
 
@@ -232,23 +232,23 @@ Prop has 3 distinct senses.
 ### set
 
 **Pronunciation:** /sɛt/ &middot; *SET*
-**Русский:** декорация, оформление сцены; набор, комплект; сет, партия; сет, отделение (концерта)
+**Русский:** набор, комплект; декорация, оформление сцены; сет, партия; сет, отделение (концерта)
 **Plural:** *sets*
 **Countability:** countable
 
 Set has 4 distinct senses.
 
-**1. The scenery and furniture that show where a scene takes place.** (декорация, оформление сцены)
+**1. A group of things that belong together and are used together.** (набор, комплект)
 
-1. The *set* for the second act is a hotel lobby.
-2. They built both *sets* in a week.
-3. The *set* rotates to become the outside of the house.
+1. I lost my whole *set* of keys.
+2. They gave us a *set* of steak knives as a wedding gift.
+3. A chess *set* was laid out on the table by the window.
 
-**2. A group of things that belong together and are used together.** (набор, комплект)
+**2. The scenery and furniture that show where a scene takes place.** (декорация, оформление сцены)
 
-4. I lost my whole *set* of keys.
-5. They gave us a *set* of steak knives as a wedding gift.
-6. A chess *set* was laid out on the table by the window.
+4. The *set* for the second act is a hotel lobby.
+5. They built both *sets* in a week.
+6. The *set* rotates to become the outside of the house.
 
 **3. One of the parts that a tennis or volleyball match is divided into.** (сет, партия)
 
@@ -1342,23 +1342,23 @@ A loud whisper meant to be heard by everyone listening.
 ### aside
 
 **Pronunciation:** /əˈsaɪd/ &middot; *uh-SYD*
-**Русский:** реплика в сторону; отступление, попутное замечание
+**Русский:** отступление, попутное замечание; реплика в сторону
 **Plural:** *asides*
 **Countability:** countable
 
 Aside has 2 distinct senses.
 
-**1. A remark a character makes to the audience that the other characters do not hear.** (реплика в сторону)
+**1. A remark that steps away from the main subject.** (отступление, попутное замечание)
 
-1. He turns and delivers an *aside* right to the front row.
-2. The play is full of *asides* to the audience.
-3. That one *aside* explains the whole plot.
+1. As an *aside*, the coffee in that building is terrible.
+2. He added a short *aside* about his childhood.
+3. Her lecture was full of funny *asides*.
 
-**2. A remark that steps away from the main subject.** (отступление, попутное замечание)
+**2. A remark a character makes to the audience that the other characters do not hear.** (реплика в сторону)
 
-4. As an *aside*, the coffee in that building is terrible.
-5. He added a short *aside* about his childhood.
-6. Her lecture was full of funny *asides*.
+4. He turns and delivers an *aside* right to the front row.
+5. The play is full of *asides* to the audience.
+6. That one *aside* explains the whole plot.
 
 ---
 
@@ -1439,23 +1439,23 @@ A rehearsal of a whole show from start to finish without stopping.
 ### callback
 
 **Pronunciation:** /ˈkɔːlbæk/ &middot; *KAWL-bak*
-**Русский:** повторное прослушивание; ответный звонок
+**Русский:** ответный звонок; повторное прослушивание
 **Plural:** *callbacks*
 **Countability:** countable
 
 Callback has 2 distinct senses.
 
-**1. A second audition that only some of the actors are invited to.** (повторное прослушивание)
+**1. A return phone call, especially one you are waiting for from an employer or a company.** (ответный звонок)
 
-1. She got a *callback* for the mother.
-2. *Callbacks* are on Saturday morning.
-3. Three *callbacks* and he still did not get the part.
+1. I interviewed on Tuesday and never got a *callback*.
+2. Press one to request a *callback* instead of waiting on hold.
+3. The insurer promised a *callback* within twenty-four hours.
 
-**2. A return phone call, especially one you are waiting for from an employer or a company.** (ответный звонок)
+**2. A second audition that only some of the actors are invited to.** (повторное прослушивание)
 
-4. I interviewed on Tuesday and never got a *callback*.
-5. Press one to request a *callback* instead of waiting on hold.
-6. The insurer promised a *callback* within twenty-four hours.
+4. She got a *callback* for the mother.
+5. *Callbacks* are on Saturday morning.
+6. Three *callbacks* and he still did not get the part.
 
 ---
 
@@ -1732,23 +1732,23 @@ The ropes, pulleys, and bars used to raise and lower scenery and lights.
 ### counterweight
 
 **Pronunciation:** /ˈkaʊntərweɪt/ &middot; *KOWN-tur-wayt*
-**Русский:** противовес; противовес (переносно), сдерживающая сила
+**Русский:** противовес (переносно), сдерживающая сила; противовес
 **Plural:** *counterweights*
 **Countability:** countable
 
 Counterweight has 2 distinct senses.
 
-**1. A heavy block used to balance the weight of scenery being flown.** (противовес)
+**1. Something that balances or offsets an opposing force.** (противовес (переносно), сдерживающая сила)
 
-1. Add another *counterweight* or the drop will fly up too fast.
-2. The *counterweights* are stacked on a steel frame backstage.
-3. One loose *counterweight* is a serious hazard.
+1. The courts act as a *counterweight* to the president.
+2. Small states wanted a *counterweight* to the big ones in the Senate.
+3. Her humor was a *counterweight* to his gloom.
 
-**2. Something that balances or offsets an opposing force.** (противовес (переносно), сдерживающая сила)
+**2. A heavy block used to balance the weight of scenery being flown.** (противовес)
 
-4. The courts act as a *counterweight* to the president.
-5. Small states wanted a *counterweight* to the big ones in the Senate.
-6. Her humor was a *counterweight* to his gloom.
+4. Add another *counterweight* or the drop will fly up too fast.
+5. The *counterweights* are stacked on a steel frame backstage.
+6. One loose *counterweight* is a serious hazard.
 
 ---
 
@@ -1877,24 +1877,24 @@ A seat in a small separate section at the side of a theater.
 ### tier
 
 **Pronunciation:** /tɪr/ &middot; *TEER*
-**Русский:** ярус (в зрительном зале); уровень, разряд
+**Русский:** уровень, разряд; ярус (в зрительном зале)
 **Plural:** *tiers*
 **Countability:** countable
 **Contrast:** Sounds like *tear* meaning a drop from the eye, not like *tear* meaning to rip.
 
 Tier has 2 distinct senses.
 
-**1. One of the levels of seating rising above the main floor.** (ярус (в зрительном зале))
+**1. One of several levels in a system, each ranked above or below the others.** (уровень, разряд)
 
-1. The top *tier* is the cheapest place to sit.
-2. The old opera house has four *tiers* of boxes.
-3. We were on the second *tier*, right over the stage.
+1. The basic plan is the cheapest *tier* of service.
+2. She moved up to the top *tier* of management.
+3. The league has three *tiers*, and the bottom teams drop down.
 
-**2. One of several levels in a system, each ranked above or below the others.** (уровень, разряд)
+**2. One of the levels of seating rising above the main floor.** (ярус (в зрительном зале))
 
-4. The basic plan is the cheapest *tier* of service.
-5. She moved up to the top *tier* of management.
-6. The league has three *tiers*, and the bottom teams drop down.
+4. The top *tier* is the cheapest place to sit.
+5. The old opera house has four *tiers* of boxes.
+6. We were on the second *tier*, right over the stage.
 
 ---
 
@@ -2117,52 +2117,52 @@ A person who often goes to see plays.
 ### preview
 
 **Pronunciation:** /ˈpriːvjuː/ &middot; *PREE-vyoo*
-**Русский:** предпремьерный показ; трейлер, анонс фильма; предварительный просмотр, ознакомление заранее
+**Русский:** трейлер, анонс фильма; предварительный просмотр, ознакомление заранее; предпремьерный показ
 **Plural:** *previews*
 **Countability:** countable
 
 Preview has 3 distinct senses.
 
-**1. A performance given to a paying audience before the official opening.** (предпремьерный показ)
+**1. A short clip shown before a movie to advertise another one.** (трейлер, анонс фильма)
 
-1. We saw it in *preview*, before the reviews came out.
-2. They cut ten minutes during *previews*.
-3. The first *preview* is a week from Thursday.
+1. We got there early to catch the *previews*.
+2. The *preview* gave away the whole ending.
+3. There were twenty minutes of *previews* before the film started.
 
-**2. A short clip shown before a movie to advertise another one.** (трейлер, анонс фильма)
+**2. An early look at something before it is generally available.** (предварительный просмотр, ознакомление заранее)
 
-4. We got there early to catch the *previews*.
-5. The *preview* gave away the whole ending.
-6. There were twenty minutes of *previews* before the film started.
+4. Reporters got a *preview* of the report on Monday.
+5. The app shows a *preview* of the message.
+6. Here's a quick *preview* of what we'll cover tomorrow.
 
-**3. An early look at something before it is generally available.** (предварительный просмотр, ознакомление заранее)
+**3. A performance given to a paying audience before the official opening.** (предпремьерный показ)
 
-7. Reporters got a *preview* of the report on Monday.
-8. The app shows a *preview* of the message.
-9. Here's a quick *preview* of what we'll cover tomorrow.
+7. We saw it in *preview*, before the reviews came out.
+8. They cut ten minutes during *previews*.
+9. The first *preview* is a week from Thursday.
 
 ---
 
 ### revival
 
 **Pronunciation:** /rɪˈvaɪvəl/ &middot; *rih-VY-vuhl*
-**Русский:** возобновление постановки; возрождение, оживление; молитвенное собрание, религиозное пробуждение
+**Русский:** возрождение, оживление; возобновление постановки; молитвенное собрание, религиозное пробуждение
 **Plural:** *revivals*
 **Countability:** countable
 
 Revival has 3 distinct senses.
 
-**1. A new production of a play that was performed years earlier.** (возобновление постановки)
+**1. A return of interest in something, or a return to strength after a decline.** (возрождение, оживление)
 
-1. The *revival* is better than the original production.
-2. There have been four *revivals* since the sixties.
-3. It is a stripped-down *revival* with only six actors.
+1. The neighborhood is enjoying a real *revival*.
+2. There's been a *revival* of interest in vinyl records.
+3. Cheap gas fueled a *revival* of big trucks.
 
-**2. A return of interest in something, or a return to strength after a decline.** (возрождение, оживление)
+**2. A new production of a play that was performed years earlier.** (возобновление постановки)
 
-4. The neighborhood is enjoying a real *revival*.
-5. There's been a *revival* of interest in vinyl records.
-6. Cheap gas fueled a *revival* of big trucks.
+4. The *revival* is better than the original production.
+5. There have been four *revivals* since the sixties.
+6. It is a stripped-down *revival* with only six actors.
 
 **3. A series of religious meetings held to reawaken people's faith.** (молитвенное собрание, религиозное пробуждение)
 
@@ -2175,35 +2175,35 @@ Revival has 3 distinct senses.
 ### run
 
 **Pronunciation:** /rʌn/ &middot; *RUN*
-**Русский:** прокат, серия представлений; пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); спущенная петля, стрелка (на колготках)
+**Русский:** пробежка; ран, очко (в бейсболе); полоса, серия (везения, неудач); прокат, серия представлений; спущенная петля, стрелка (на колготках)
 **Plural:** *runs*
 **Countability:** countable
 
 Run has 5 distinct senses.
 
-**1. The period during which a show is performed regularly.** (прокат, серия представлений)
+**1. A period of running for exercise.** (пробежка)
 
-1. The play had a six-month *run* downtown.
-2. Both *runs* were extended twice.
-3. The show ends its *run* on the thirtieth.
+1. I go for a *run* before work most days.
+2. That was a slow five-mile *run*.
+3. Her morning *runs* keep her sane.
 
-**2. A period of running for exercise.** (пробежка)
+**2. A point scored in baseball when a player reaches home plate.** (ран, очко (в бейсболе))
 
-4. I go for a *run* before work most days.
-5. That was a slow five-mile *run*.
-6. Her morning *runs* keep her sane.
+4. They scored four *runs* in the seventh inning.
+5. One more *run* would have tied the game.
+6. He drove in the winning *run*.
 
-**3. A point scored in baseball when a player reaches home plate.** (ран, очко (в бейсболе))
+**3. A stretch of time in which the same kind of thing keeps happening.** (полоса, серия (везения, неудач))
 
-7. They scored four *runs* in the seventh inning.
-8. One more *run* would have tied the game.
-9. He drove in the winning *run*.
+7. The team is on a six-game winning *run*.
+8. She's had a bad *run* of luck this year.
+9. After a long *run* of warm days, it finally rained.
 
-**4. A stretch of time in which the same kind of thing keeps happening.** (полоса, серия (везения, неудач))
+**4. The period during which a show is performed regularly.** (прокат, серия представлений)
 
-10. The team is on a six-game winning *run*.
-11. She's had a bad *run* of luck this year.
-12. After a long *run* of warm days, it finally rained.
+10. The play had a six-month *run* downtown.
+11. Both *runs* were extended twice.
+12. The show ends its *run* on the thirtieth.
 
 **5. A line where the threads have come apart in a stocking.** (спущенная петля, стрелка (на колготках))
 
@@ -2395,23 +2395,23 @@ A college where people are trained as actors.
 ### playhouse
 
 **Pronunciation:** /ˈpleɪhaʊs/ &middot; *PLAY-hows*
-**Русский:** театр (здание); детский игровой домик
+**Русский:** детский игровой домик; театр (здание)
 **Plural:** *playhouses*
 **Countability:** countable
 
 Playhouse has 2 distinct senses.
 
-**1. A building where plays are performed.** (театр (здание))
+**1. A small house for children to play in.** (детский игровой домик)
 
-1. The old *playhouse* on Main Street is being restored.
-2. Two small *playhouses* share a parking lot.
-3. The *playhouse* seats about four hundred people.
+1. My uncle built a *playhouse* in the backyard.
+2. The kids ate lunch inside the plastic *playhouse*.
+3. She keeps her dolls out in the little *playhouse*.
 
-**2. A small house for children to play in.** (детский игровой домик)
+**2. A building where plays are performed.** (театр (здание))
 
-4. My uncle built a *playhouse* in the backyard.
-5. The kids ate lunch inside the plastic *playhouse*.
-6. She keeps her dolls out in the little *playhouse*.
+4. The old *playhouse* on Main Street is being restored.
+5. Two small *playhouses* share a parking lot.
+6. The *playhouse* seats about four hundred people.
 
 ---
 
@@ -2464,23 +2464,23 @@ An open-air place with seats rising in curved rows around a stage.
 ### interlude
 
 **Pronunciation:** /ˈɪntərluːd/ &middot; *IN-tur-lood*
-**Русский:** интермедия, вставной эпизод; промежуток, передышка
+**Русский:** промежуток, передышка; интермедия, вставной эпизод
 **Plural:** *interludes*
 **Countability:** countable
 
 Interlude has 2 distinct senses.
 
-**1. A short piece of music or performance between the main parts of a show.** (интермедия, вставной эпизод)
+**1. A short period of time between two longer or busier ones.** (промежуток, передышка)
 
-1. A piano *interlude* covers the scene change.
-2. The two musical *interludes* are the best part of the evening.
-3. The clowns come out during the *interlude*.
+1. The rain gave us a quiet *interlude* before the crowds arrived.
+2. After a brief *interlude* in Texas, the family moved back east.
+3. Those two years were a happy *interlude* in a hard decade.
 
-**2. A short period of time between two longer or busier ones.** (промежуток, передышка)
+**2. A short piece of music or performance between the main parts of a show.** (интермедия, вставной эпизод)
 
-4. The rain gave us a quiet *interlude* before the crowds arrived.
-5. After a brief *interlude* in Texas, the family moved back east.
-6. Those two years were a happy *interlude* in a hard decade.
+4. A piano *interlude* covers the scene change.
+5. The two musical *interludes* are the best part of the evening.
+6. The clowns come out during the *interlude*.
 
 ---
 

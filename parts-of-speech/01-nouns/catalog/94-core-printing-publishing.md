@@ -567,22 +567,22 @@ The particular kind and weight of paper a job is printed on.
 ### pulp
 
 **Pronunciation:** /pʌlp/ &middot; *PULP*
-**Русский:** бумажная масса, целлюлоза; мякоть (плода); бульварное чтиво
+**Русский:** мякоть (плода); бумажная масса, целлюлоза; бульварное чтиво
 **Countability:** uncountable
 
 Pulp has 3 distinct senses.
 
-**1. The soft wet mass of wood fiber that paper is made from.** (бумажная масса, целлюлоза)
+**1. The soft juicy part of a fruit or vegetable.** (мякоть (плода))
 
-1. The mill grinds the logs into *pulp*.
-2. Recycled paper is mixed back into the *pulp*.
-3. Wet *pulp* is pressed and dried into sheets.
+1. I like orange juice with plenty of *pulp*.
+2. Scoop the *pulp* out of the melon.
+3. Strain the juice to get rid of the *pulp*.
 
-**2. The soft juicy part of a fruit or vegetable.** (мякоть (плода))
+**2. The soft wet mass of wood fiber that paper is made from.** (бумажная масса, целлюлоза)
 
-4. I like orange juice with plenty of *pulp*.
-5. Scoop the *pulp* out of the melon.
-6. Strain the juice to get rid of the *pulp*.
+4. The mill grinds the logs into *pulp*.
+5. Recycled paper is mixed back into the *pulp*.
+6. Wet *pulp* is pressed and dried into sheets.
 
 **3. Cheap sensational fiction, originally printed on rough paper.** (бульварное чтиво)
 
@@ -1029,22 +1029,22 @@ A person who sets text into type for printing.
 ### type
 
 **Pronunciation:** /taɪp/ &middot; *TYPE*
-**Русский:** шрифт, литеры; тип, вид, разновидность
+**Русский:** тип, вид, разновидность; шрифт, литеры
 **Countability:** uncountable
 
 Type has 2 distinct senses.
 
-**1. Printed letters and characters considered as a whole.** (шрифт, литеры)
+**1. A kind or category of person or thing.** (тип, вид, разновидность)
 
-1. The book is set in ten-point *type*.
-2. The *type* is too small for me to read comfortably.
-3. Old presses printed from metal *type*.
+1. What *type* of car does she drive?
+2. This *type* of soil holds water well.
+3. The store carries three *types* of batteries.
 
-**2. A kind or category of person or thing.** (тип, вид, разновидность)
+**2. Printed letters and characters considered as a whole.** (шрифт, литеры)
 
-4. What *type* of car does she drive?
-5. This *type* of soil holds water well.
-6. The store carries three *types* of batteries.
+4. The book is set in ten-point *type*.
+5. The *type* is too small for me to read comfortably.
+6. Old presses printed from metal *type*.
 
 ---
 
@@ -1186,23 +1186,23 @@ The vertical space between lines of type.
 ### ligature
 
 **Pronunciation:** /ˈlɪɡətʃər/ &middot; *LIG-uh-chur*
-**Русский:** лигатура (слитное написание букв); лигатура, перевязочная нить
+**Русский:** лигатура, перевязочная нить; лигатура (слитное написание букв)
 **Plural:** *ligatures*
 **Countability:** countable
 
 Ligature has 2 distinct senses.
 
-**1. Two or more letters joined into a single printed character.** (лигатура (слитное написание букв))
+**1. A cord or thread tied tightly around something, especially a blood vessel in surgery.** (лигатура, перевязочная нить)
 
-1. The f and the i form a *ligature*.
-2. This typeface has a lovely *ligature*.
-3. Old books are full of *ligatures*.
+1. The surgeon placed a *ligature* around the artery.
+2. The *ligature* slipped and the bleeding started again.
+3. Police found *ligature* marks on the victim's wrists.
 
-**2. A cord or thread tied tightly around something, especially a blood vessel in surgery.** (лигатура, перевязочная нить)
+**2. Two or more letters joined into a single printed character.** (лигатура (слитное написание букв))
 
-4. The surgeon placed a *ligature* around the artery.
-5. The *ligature* slipped and the bleeding started again.
-6. Police found *ligature* marks on the victim's wrists.
+4. The f and the i form a *ligature*.
+5. This typeface has a lovely *ligature*.
+6. Old books are full of *ligatures*.
 
 ---
 
@@ -1269,29 +1269,29 @@ The height of a lowercase letter without its rising or falling parts.
 ### baseline
 
 **Pronunciation:** /ˈbeɪslaɪn/ &middot; *BAYS-lyne*
-**Русский:** базовая линия (шрифта); исходный уровень, точка отсчёта; задняя линия (корта, площадки)
+**Русский:** исходный уровень, точка отсчёта; задняя линия (корта, площадки); базовая линия (шрифта)
 **Plural:** *baselines*
 **Countability:** countable
 
 Baseline has 3 distinct senses.
 
-**1. The invisible line that letters sit on.** (базовая линия (шрифта))
+**1. A starting measurement that later results are compared against.** (исходный уровень, точка отсчёта)
 
-1. The o dips slightly below the *baseline*.
-2. Align the caption to the *baseline* of the text.
-3. The two columns share the same *baselines*.
+1. The study used 2019 emissions as its *baseline*.
+2. We need a *baseline* before we can measure any progress.
+3. Reading scores came in ten points above the *baseline*.
 
-**2. A starting measurement that later results are compared against.** (исходный уровень, точка отсчёта)
+**2. The line marking each end of a tennis or basketball court.** (задняя линия (корта, площадки))
 
-4. The study used 2019 emissions as its *baseline*.
-5. We need a *baseline* before we can measure any progress.
-6. Reading scores came in ten points above the *baseline*.
+4. She hit a forehand from well behind the *baseline*.
+5. He drove along the *baseline* for an easy layup.
+6. The serve landed just inside the *baseline*.
 
-**3. The line marking each end of a tennis or basketball court.** (задняя линия (корта, площадки))
+**3. The invisible line that letters sit on.** (базовая линия (шрифта))
 
-7. She hit a forehand from well behind the *baseline*.
-8. He drove along the *baseline* for an easy layup.
-9. The serve landed just inside the *baseline*.
+7. The o dips slightly below the *baseline*.
+8. Align the caption to the *baseline* of the text.
+9. The two columns share the same *baselines*.
 
 ---
 
@@ -1356,22 +1356,22 @@ The empty area on a page around text and pictures.
 ### justification
 
 **Pronunciation:** /ˌdʒʌstəfəˈkeɪʃən/ &middot; *jus-tuh-fuh-KAY-shuhn*
-**Русский:** выключка, выравнивание текста по ширине; оправдание, обоснование
+**Русский:** оправдание, обоснование; выключка, выравнивание текста по ширине
 **Countability:** uncountable
 
 Justification has 2 distinct senses.
 
-**1. The spacing of words so lines end evenly at both margins.** (выключка, выравнивание текста по ширине)
+**1. A good reason showing that an action was right or necessary.** (оправдание, обоснование)
 
-1. Turn off *justification* and use a ragged right edge.
-2. Bad *justification* leaves rivers of white down the column.
-3. *Justification* works better with hyphens turned on.
+1. There was no *justification* for shouting at the clerk.
+2. The memo offered a detailed *justification* for the budget cut.
+3. He gave a long *justification* of his decision to quit.
 
-**2. A good reason showing that an action was right or necessary.** (оправдание, обоснование)
+**2. The spacing of words so lines end evenly at both margins.** (выключка, выравнивание текста по ширине)
 
-4. There was no *justification* for shouting at the clerk.
-5. The memo offered a detailed *justification* for the budget cut.
-6. He gave a long *justification* of his decision to quit.
+4. Turn off *justification* and use a ragged right edge.
+5. Bad *justification* leaves rivers of white down the column.
+6. *Justification* works better with hyphens turned on.
 
 ---
 
@@ -1880,30 +1880,30 @@ A copy of a magazine or newspaper from an earlier date.
 ### galley
 
 **Pronunciation:** /ˈɡæli/ &middot; *GAL-ee*
-**Русский:** гранка, корректурный оттиск; камбуз; кухня (в самолёте); галера
+**Русский:** камбуз; кухня (в самолёте); галера; гранка, корректурный оттиск
 **Plural:** *galleys*
 **Countability:** countable
 **Contrast:** Same word as a ship's kitchen; in publishing it means an early proof.
 
 Galley has 3 distinct senses.
 
-**1. An early printed copy of a text sent out for correction or review.** (гранка, корректурный оттиск)
+**1. The kitchen on a ship or an airplane.** (камбуз; кухня (в самолёте))
 
-1. The publisher sent a *galley* to every major critic.
-2. I read it in *galley* six months before it came out.
-3. Reviewers get *galleys* with plain paper covers.
+1. The cook was busy in the *galley*.
+2. Flight attendants stowed the carts in the *galley*.
+3. The boat has a tiny *galley* with a two-burner stove.
 
-**2. The kitchen on a ship or an airplane.** (камбуз; кухня (в самолёте))
+**2. A long ancient ship driven by rows of oars.** (галера)
 
-4. The cook was busy in the *galley*.
-5. Flight attendants stowed the carts in the *galley*.
-6. The boat has a tiny *galley* with a two-burner stove.
+4. Roman *galleys* once patrolled these waters.
+5. The museum has a model of a Greek *galley*.
+6. Prisoners were sentenced to row in the *galleys*.
 
-**3. A long ancient ship driven by rows of oars.** (галера)
+**3. An early printed copy of a text sent out for correction or review.** (гранка, корректурный оттиск)
 
-7. Roman *galleys* once patrolled these waters.
-8. The museum has a model of a Greek *galley*.
-9. Prisoners were sentenced to row in the *galleys*.
+7. The publisher sent a *galley* to every major critic.
+8. I read it in *galley* six months before it came out.
+9. Reviewers get *galleys* with plain paper covers.
 
 ---
 
@@ -2007,35 +2007,35 @@ A short printed note telling a writer a publisher will not take the work.
 ### advance
 
 **Pronunciation:** /ədˈvæns/ &middot; *ad-VANS*
-**Русский:** аванс (гонорара); продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания
+**Русский:** продвижение, наступление; достижение, прогресс (в науке, технике); ухаживания, приставания; аванс (гонорара)
 **Plural:** *advances*
 **Countability:** countable
 
 Advance has 4 distinct senses.
 
-**1. Money a publisher pays an author before the book earns anything.** (аванс (гонорара))
+**1. A forward movement toward a place or position.** (продвижение, наступление)
 
-1. The *advance* was fifteen thousand dollars.
-2. She spent the *advance* before she finished the draft.
-3. *Advances* for first novels have shrunk.
+1. The army's *advance* stopped at the river.
+2. Nothing could slow the *advance* of the fire.
+3. Farmers watched the *advance* of the desert year by year.
 
-**2. A forward movement toward a place or position.** (продвижение, наступление)
+**2. An improvement or new development in knowledge or technology.** (достижение, прогресс (в науке, технике))
 
-4. The army's *advance* stopped at the river.
-5. Nothing could slow the *advance* of the fire.
-6. Farmers watched the *advance* of the desert year by year.
+4. *Advances* in surgery have cut recovery time in half.
+5. The last real *advance* in battery design was years ago.
+6. The new engine is a big *advance* over the old one.
 
-**3. An improvement or new development in knowledge or technology.** (достижение, прогресс (в науке, технике))
+**3. An attempt to start a romantic or sexual relationship with someone.** (ухаживания, приставания)
 
-7. *Advances* in surgery have cut recovery time in half.
-8. The last real *advance* in battery design was years ago.
-9. The new engine is a big *advance* over the old one.
+7. She made it clear that his *advances* were unwelcome.
+8. He apologized for the *advance* and left the party.
+9. Employees can report unwanted *advances* to human resources.
 
-**4. An attempt to start a romantic or sexual relationship with someone.** (ухаживания, приставания)
+**4. Money a publisher pays an author before the book earns anything.** (аванс (гонорара))
 
-10. She made it clear that his *advances* were unwelcome.
-11. He apologized for the *advance* and left the party.
-12. Employees can report unwanted *advances* to human resources.
+10. The *advance* was fifteen thousand dollars.
+11. She spent the *advance* before she finished the draft.
+12. *Advances* for first novels have shrunk.
 
 ---
 
@@ -2192,30 +2192,30 @@ The price printed on a book or magazine.
 ### imprint
 
 **Pronunciation:** /ˈɪmprɪnt/ &middot; *IM-print*
-**Русский:** импринт, издательская марка; отпечаток, оттиск; след, отпечаток (влияние)
+**Русский:** отпечаток, оттиск; след, отпечаток (влияние); импринт, издательская марка
 **Plural:** *imprints*
 **Countability:** countable
 **Contrast:** Noun stress on the first syllable, IM-print; the verb is im-PRINT.
 
 Imprint has 3 distinct senses.
 
-**1. A brand name a publisher prints its books under.** (импринт, издательская марка)
+**1. A mark left on a surface by pressing something into it.** (отпечаток, оттиск)
 
-1. The novel came out under their children's *imprint*.
-2. The *imprint* has its own editor and logo.
-3. One company owns a dozen *imprints*.
+1. Her boots left deep *imprints* in the wet sand.
+2. The tire left a clear *imprint* in the mud.
+3. You could still see the *imprint* of the coin in the clay.
 
-**2. A mark left on a surface by pressing something into it.** (отпечаток, оттиск)
+**2. A lasting effect that a person or event leaves on something.** (след, отпечаток (влияние))
 
-4. Her boots left deep *imprints* in the wet sand.
-5. The tire left a clear *imprint* in the mud.
-6. You could still see the *imprint* of the coin in the clay.
+4. Her teaching left an *imprint* on a whole generation of students.
+5. The war left its *imprint* on every family in town.
+6. You can see the architect's *imprint* all over the building.
 
-**3. A lasting effect that a person or event leaves on something.** (след, отпечаток (влияние))
+**3. A brand name a publisher prints its books under.** (импринт, издательская марка)
 
-7. Her teaching left an *imprint* on a whole generation of students.
-8. The war left its *imprint* on every family in town.
-9. You can see the architect's *imprint* all over the building.
+7. The novel came out under their children's *imprint*.
+8. The *imprint* has its own editor and logo.
+9. One company owns a dozen *imprints*.
 
 ---
 

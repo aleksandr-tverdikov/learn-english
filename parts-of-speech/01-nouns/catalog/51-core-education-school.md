@@ -178,23 +178,23 @@ A large hall in a school where assemblies and performances are held.
 ### gym
 
 **Pronunciation:** /dʒɪm/ &middot; *JIM*
-**Русский:** спортзал, физкультура; тренажёрный зал, фитнес-клуб
+**Русский:** тренажёрный зал, фитнес-клуб; спортзал, физкультура
 **Plural:** *gyms*
 **Countability:** countable
 
 Gym has 2 distinct senses.
 
-**1. The large indoor room at a school used for sports and exercise classes.** (спортзал, физкультура)
+**1. A club or business with exercise equipment that people pay to use.** (тренажёрный зал, фитнес-клуб)
 
-1. We have *gym* right after lunch.
-2. The basketball game is in the school *gym*.
-3. Both *gyms* were built in the seventies.
+1. I go to the *gym* three mornings a week.
+2. A new *gym* is opening downtown.
+3. Both *gyms* near my office have pools.
 
-**2. A club or business with exercise equipment that people pay to use.** (тренажёрный зал, фитнес-клуб)
+**2. The large indoor room at a school used for sports and exercise classes.** (спортзал, физкультура)
 
-4. I go to the *gym* three mornings a week.
-5. A new *gym* is opening downtown.
-6. Both *gyms* near my office have pools.
+4. We have *gym* right after lunch.
+5. The basketball game is in the school *gym*.
+6. Both *gyms* were built in the seventies.
 
 ---
 
@@ -644,23 +644,23 @@ The student with the highest grades in a class, who gives a speech at graduation
 ### substitute
 
 **Pronunciation:** /ˈsʌbstətuːt/ &middot; *SUB-stuh-toot*
-**Русский:** замещающий учитель; замена, заменитель; запасной игрок, замена
+**Русский:** замена, заменитель; замещающий учитель; запасной игрок, замена
 **Plural:** *substitutes*
 **Countability:** countable
 
 Substitute has 3 distinct senses.
 
-**1. A teacher who fills in when the regular teacher is absent.** (замещающий учитель)
+**1. A person or thing used in place of another.** (замена, заменитель)
 
-1. We had a *substitute* in math all week.
-2. The *substitute* let us watch a movie.
-3. The district is short on *substitutes* this winter.
+1. There is no *substitute* for hard work.
+2. She uses a sugar *substitute* in her coffee.
+3. Frozen berries make a decent *substitute* in this recipe.
 
-**2. A person or thing used in place of another.** (замена, заменитель)
+**2. A teacher who fills in when the regular teacher is absent.** (замещающий учитель)
 
-4. There is no *substitute* for hard work.
-5. She uses a sugar *substitute* in her coffee.
-6. Frozen berries make a decent *substitute* in this recipe.
+4. We had a *substitute* in math all week.
+5. The *substitute* let us watch a movie.
+6. The district is short on *substitutes* this winter.
 
 **3. A player sent onto the field to replace another during a game.** (запасной игрок, замена)
 
@@ -1009,22 +1009,22 @@ The study of computers and how to program them.
 ### drama
 
 **Pronunciation:** /ˈdrɑːmə/ &middot; *DRAH-muh*
-**Русский:** театральное искусство (предмет); драма (сериал или фильм)
+**Русский:** драма (сериал или фильм); театральное искусство (предмет)
 **Countability:** uncountable
 
 Drama has 2 distinct senses.
 
-**1. The school subject of acting and putting on plays.** (театральное искусство (предмет))
+**1. A serious television series, film, or play.** (драма (сериал или фильм))
 
-1. She takes *drama* as an elective.
-2. The *drama* teacher is directing the spring musical.
-3. *Drama* club meets after school on Wednesdays.
+1. It's a legal *drama* set in Boston.
+2. The network ordered two new *dramas*.
+3. That *drama* won every award last year.
 
-**2. A serious television series, film, or play.** (драма (сериал или фильм))
+**2. The school subject of acting and putting on plays.** (театральное искусство (предмет))
 
-4. It's a legal *drama* set in Boston.
-5. The network ordered two new *dramas*.
-6. That *drama* won every award last year.
+4. She takes *drama* as an elective.
+5. The *drama* teacher is directing the spring musical.
+6. *Drama* club meets after school on Wednesdays.
 
 ---
 
@@ -1514,23 +1514,23 @@ An official document showing that someone has finished a course of study.
 ### certificate
 
 **Pronunciation:** /sərˈtɪfɪkət/ &middot; *sur-TIF-ih-kuht*
-**Русский:** сертификат, свидетельство; свидетельство, справка
+**Русский:** свидетельство, справка; сертификат, свидетельство
 **Plural:** *certificates*
 **Countability:** countable
 
 Certificate has 2 distinct senses.
 
-**1. An official paper stating that someone has completed training or met a standard.** (сертификат, свидетельство)
+**1. An official document proving a fact about you.** (свидетельство, справка)
 
-1. She earned a *certificate* in medical billing.
-2. The program gives you a *certificate*, not a degree.
-3. He hung both *certificates* behind his desk.
+1. Bring your birth *certificate* to the passport office.
+2. Both *certificates* have to be notarized.
+3. They asked for a vaccination *certificate* at the border.
 
-**2. An official document proving a fact about you.** (свидетельство, справка)
+**2. An official paper stating that someone has completed training or met a standard.** (сертификат, свидетельство)
 
-4. Bring your birth *certificate* to the passport office.
-5. Both *certificates* have to be notarized.
-6. They asked for a vaccination *certificate* at the border.
+4. She earned a *certificate* in medical billing.
+5. The program gives you a *certificate*, not a degree.
+6. He hung both *certificates* behind his desk.
 
 ---
 
@@ -1605,24 +1605,24 @@ Major has 2 distinct senses.
 ### minor
 
 **Pronunciation:** /ˈmaɪnər/ &middot; *MY-nur*
-**Русский:** дополнительная специальность; несовершеннолетний
+**Русский:** несовершеннолетний; дополнительная специальность
 **Plural:** *minors*
 **Countability:** countable
 **Contrast:** Sounds exactly like miner, someone who digs in a mine.
 
 Minor has 2 distinct senses.
 
-**1. A second, smaller field of study alongside a college major.** (дополнительная специальность)
+**1. A person who is not yet legally an adult.** (несовершеннолетний)
 
-1. He's got a *minor* in Spanish.
-2. A *minor* takes about six classes.
-3. The college offers over forty *minors*.
+1. The bar was fined for serving a *minor*.
+2. Both drivers were *minors*.
+3. As a *minor*, she needed a parent's signature.
 
-**2. A person who is not yet legally an adult.** (несовершеннолетний)
+**2. A second, smaller field of study alongside a college major.** (дополнительная специальность)
 
-4. The bar was fined for serving a *minor*.
-5. Both drivers were *minors*.
-6. As a *minor*, she needed a parent's signature.
+4. He's got a *minor* in Spanish.
+5. A *minor* takes about six classes.
+6. The college offers over forty *minors*.
 
 ---
 
@@ -1705,22 +1705,22 @@ The money paid to a school or college for teaching.
 ### admission
 
 **Pronunciation:** /ədˈmɪʃən/ &middot; *ud-MISH-uhn*
-**Русский:** приём, поступление; вход, входная плата
+**Русский:** вход, входная плата; приём, поступление
 **Countability:** uncountable
 
 Admission has 2 distinct senses.
 
-**1. The right to enter a school or college as a student.** (приём, поступление)
+**1. The right to enter a place, or the price you pay to enter.** (вход, входная плата)
 
-1. She was offered *admission* to her first-choice school.
-2. *Admission* to the program is competitive.
-3. He's waiting to hear about *admission*.
+1. *Admission* is fifteen dollars for adults.
+2. Children under six get free *admission*.
+3. The ticket includes *admission* to both floors.
 
-**2. The right to enter a place, or the price you pay to enter.** (вход, входная плата)
+**2. The right to enter a school or college as a student.** (приём, поступление)
 
-4. *Admission* is fifteen dollars for adults.
-5. Children under six get free *admission*.
-6. The ticket includes *admission* to both floors.
+4. She was offered *admission* to her first-choice school.
+5. *Admission* to the program is competitive.
+6. He's waiting to hear about *admission*.
 
 ---
 
@@ -1895,23 +1895,23 @@ Suspension has 2 distinct senses.
 ### bell
 
 **Pronunciation:** /bɛl/ &middot; *BEL*
-**Русский:** звонок; колокол, колокольчик
+**Русский:** колокол, колокольчик; звонок
 **Plural:** *bells*
 **Countability:** countable
 
 Bell has 2 distinct senses.
 
-**1. The sound that marks the beginning and end of a class period.** (звонок)
+**1. A hollow metal object that makes a ringing sound when it is struck.** (колокол, колокольчик)
 
-1. The *bell* rang before I finished the last question.
-2. Stay seated until the *bell*.
-3. The *bells* are two minutes fast.
+1. The church *bells* rang at noon.
+2. He tied a small *bell* to the cat's collar.
+3. A *bell* over the shop door jingled as we walked in.
 
-**2. A hollow metal object that makes a ringing sound when it is struck.** (колокол, колокольчик)
+**2. The sound that marks the beginning and end of a class period.** (звонок)
 
-4. The church *bells* rang at noon.
-5. He tied a small *bell* to the cat's collar.
-6. A *bell* over the shop door jingled as we walked in.
+4. The *bell* rang before I finished the last question.
+5. Stay seated until the *bell*.
+6. The *bells* are two minutes fast.
 
 ---
 

@@ -1483,12 +1483,12 @@
       "respell": "LAN-ding",
       "meaning": "Landing has 3 distinct senses.",
       "examples": [
-        "There's a window on the landing.",
-        "He stopped on the landing to catch his breath.",
-        "The landings are wide enough for a chair.",
         "The pilot made a smooth landing in heavy wind.",
         "Bad weather forced an emergency landing in Denver.",
         "The moon landing was watched by millions.",
+        "There's a window on the landing.",
+        "He stopped on the landing to catch his breath.",
+        "The landings are wide enough for a chair.",
         "We put the canoe in at the public boat landing.",
         "The ferry landing is at the end of this road.",
         "Kids were fishing off the old landing."
@@ -1496,18 +1496,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The flat area at the top of a flight of stairs or between two flights",
-          "body": [
-            "(лестничная площадка)"
-          ],
-          "examples": [
-            "There's a window on the landing.",
-            "He stopped on the landing to catch his breath.",
-            "The landings are wide enough for a chair."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The act of bringing an aircraft or a spacecraft down to the ground",
           "body": [
             "(посадка, приземление)"
@@ -1516,6 +1504,18 @@
             "The pilot made a smooth landing in heavy wind.",
             "Bad weather forced an emergency landing in Denver.",
             "The moon landing was watched by millions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The flat area at the top of a flight of stairs or between two flights",
+          "body": [
+            "(лестничная площадка)"
+          ],
+          "examples": [
+            "There's a window on the landing.",
+            "He stopped on the landing to catch his breath.",
+            "The landings are wide enough for a chair."
           ]
         },
         {
@@ -1532,7 +1532,7 @@
           ]
         }
       ],
-      "русский": "лестничная площадка; посадка, приземление; пристань, причал",
+      "русский": "посадка, приземление; лестничная площадка; пристань, причал",
       "plural": "landings",
       "countability": "countable"
     },
@@ -2289,12 +2289,12 @@
       "respell": "SKREEN",
       "meaning": "Screen has 3 distinct senses.",
       "examples": [
-        "There's a hole in the screen and the flies are getting in.",
-        "We take the screens out every fall.",
-        "The porch has screens on three sides.",
         "My phone screen cracked when I dropped it.",
         "He stares at a screen all day at work.",
         "Her name came up on the screen right away.",
+        "There's a hole in the screen and the flies are getting in.",
+        "We take the screens out every fall.",
+        "The porch has screens on three sides.",
         "A folding screen separates the bed from the desk.",
         "The nurse pulled a screen around the bed.",
         "An old painted screen stood in the corner of the shop."
@@ -2302,18 +2302,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A fine mesh in a window or door that keeps insects out",
-          "body": [
-            "(москитная сетка; экран)"
-          ],
-          "examples": [
-            "There's a hole in the screen and the flies are getting in.",
-            "We take the screens out every fall.",
-            "The porch has screens on three sides."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The flat surface of a TV, computer, or phone on which images appear",
           "body": [
             "(экран (телевизора, компьютера, телефона))"
@@ -2322,6 +2310,18 @@
             "My phone screen cracked when I dropped it.",
             "He stares at a screen all day at work.",
             "Her name came up on the screen right away."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fine mesh in a window or door that keeps insects out",
+          "body": [
+            "(москитная сетка; экран)"
+          ],
+          "examples": [
+            "There's a hole in the screen and the flies are getting in.",
+            "We take the screens out every fall.",
+            "The porch has screens on three sides."
           ]
         },
         {
@@ -2338,7 +2338,7 @@
           ]
         }
       ],
-      "русский": "москитная сетка; экран; экран (телевизора, компьютера, телефона); ширма, перегородка",
+      "русский": "экран (телевизора, компьютера, телефона); москитная сетка; экран; ширма, перегородка",
       "plural": "screens",
       "countability": "countable"
     },
@@ -3581,31 +3581,19 @@
       "respell": "STOR-ee",
       "meaning": "Story has 3 distinct senses.",
       "examples": [
-        "It's a two-story house with a finished basement.",
-        "The parking garage is six stories tall.",
-        "He fell one story and walked away without a scratch.",
         "Grandpa told us ghost stories on the porch.",
         "It's a story about two brothers in Ohio.",
         "She never got to finish the story.",
         "The story ran on the front page.",
         "A reporter has been working on the story for months.",
-        "That story has been all over the news."
+        "That story has been all over the news.",
+        "It's a two-story house with a finished basement.",
+        "The parking garage is six stories tall.",
+        "He fell one story and walked away without a scratch."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One level of a building",
-          "body": [
-            "(этаж)"
-          ],
-          "examples": [
-            "It's a two-story house with a finished basement.",
-            "The parking garage is six stories tall.",
-            "He fell one story and walked away without a scratch."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An account of events, real or invented, told to entertain or inform",
           "body": [
             "(рассказ, история)"
@@ -3617,20 +3605,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A report in a newspaper or on a news program",
           "body": [
-            "(материал, статья, репортаж)",
-            "---"
+            "(материал, статья, репортаж)"
           ],
           "examples": [
             "The story ran on the front page.",
             "A reporter has been working on the story for months.",
             "That story has been all over the news."
           ]
+        },
+        {
+          "n": "3",
+          "head": "One level of a building",
+          "body": [
+            "(этаж)",
+            "---"
+          ],
+          "examples": [
+            "It's a two-story house with a finished basement.",
+            "The parking garage is six stories tall.",
+            "He fell one story and walked away without a scratch."
+          ]
         }
       ],
-      "русский": "этаж; рассказ, история; материал, статья, репортаж",
+      "русский": "рассказ, история; материал, статья, репортаж; этаж",
       "plural": "stories",
       "countability": "countable",
       "contrast": "Americans spell the level of a building story; the British write storey."

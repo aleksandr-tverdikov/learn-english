@@ -492,45 +492,45 @@ A list of names, numbers, or files arranged in order.
 ### operator
 
 **Pronunciation:** /ˈɑːpəreɪtər/ &middot; *AH-puh-ray-tur*
-**Русский:** оператор (связи); оператор (машины, установки)
+**Русский:** оператор (машины, установки); оператор (связи)
 **Plural:** *operators*
 **Countability:** countable
 
 Operator has 2 distinct senses.
 
-**1. A person or company that connects or manages phone calls and service.** (оператор (связи))
+**1. Someone whose job is running a machine or a plant.** (оператор (машины, установки))
 
-1. Press zero to reach an *operator*.
-2. The *operator* put me through to billing.
-3. Three *operators* share the same tower.
+1. The crane *operator* has been here longer than anyone.
+2. Two *operators* watch the control room around the clock.
+3. Every *operator* has to be certified.
 
-**2. Someone whose job is running a machine or a plant.** (оператор (машины, установки))
+**2. A person or company that connects or manages phone calls and service.** (оператор (связи))
 
-4. The crane *operator* has been here longer than anyone.
-5. Two *operators* watch the control room around the clock.
-6. Every *operator* has to be certified.
+4. Press zero to reach an *operator*.
+5. The *operator* put me through to billing.
+6. Three *operators* share the same tower.
 
 ---
 
 ### interference
 
 **Pronunciation:** /ˌɪntərˈfɪrəns/ &middot; *in-tur-FEER-uns*
-**Русский:** помехи; вмешательство
+**Русский:** вмешательство; помехи
 **Countability:** uncountable
 
 Interference has 2 distinct senses.
 
-**1. Unwanted signals that disturb a radio, phone, or wireless connection.** (помехи)
+**1. Unwanted involvement in someone else's affairs or in a process.** (вмешательство)
 
-1. The microwave causes *interference* with the wifi.
-2. There's too much *interference* to hear you.
-3. Power lines can create *interference*.
+1. The report found no evidence of foreign *interference* in the election.
+2. She resented her mother-in-law's constant *interference*.
+3. The judge warned him against *interference* with the investigation.
 
-**2. Unwanted involvement in someone else's affairs or in a process.** (вмешательство)
+**2. Unwanted signals that disturb a radio, phone, or wireless connection.** (помехи)
 
-4. The report found no evidence of foreign *interference* in the election.
-5. She resented her mother-in-law's constant *interference*.
-6. The judge warned him against *interference* with the investigation.
+4. The microwave causes *interference* with the wifi.
+5. There's too much *interference* to hear you.
+6. Power lines can create *interference*.
 
 ---
 
@@ -771,22 +771,22 @@ Rumor has 2 distinct senses.
 ### support
 
 **Pronunciation:** /səˈpɔːrt/ &middot; *suh-PORT*
-**Русский:** поддержка, техподдержка; поддержка, помощь; опора, подпорка
+**Русский:** поддержка, помощь; поддержка, техподдержка; опора, подпорка
 **Countability:** uncountable
 
 Support has 3 distinct senses.
 
-**1. Help given to customers who have trouble with a product or service.** (поддержка, техподдержка)
+**1. Help, encouragement, or money given to a person or a cause.** (поддержка, помощь)
 
-1. I was on hold with *support* for forty minutes.
-2. Technical *support* is only open on weekdays.
-3. Their customer *support* is the reason I stayed.
+1. Her family gave her a lot of *support* after the accident.
+2. The bill has strong *support* in the Senate.
+3. He pays child *support* every month.
 
-**2. Help, encouragement, or money given to a person or a cause.** (поддержка, помощь)
+**2. Help given to customers who have trouble with a product or service.** (поддержка, техподдержка)
 
-4. Her family gave her a lot of *support* after the accident.
-5. The bill has strong *support* in the Senate.
-6. He pays child *support* every month.
+4. I was on hold with *support* for forty minutes.
+5. Technical *support* is only open on weekdays.
+6. Their customer *support* is the reason I stayed.
 
 **3. A part that holds the weight of something and keeps it from falling.** (опора, подпорка)
 

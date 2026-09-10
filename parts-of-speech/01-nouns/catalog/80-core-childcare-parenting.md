@@ -680,48 +680,48 @@ A barrier across a doorway or stairs to keep a small child out.
 ### bouncer
 
 **Pronunciation:** /ˈbaʊnsər/ &middot; *BOWN-sur*
-**Русский:** детский шезлонг-качалка; вышибала, охранник в клубе
+**Русский:** вышибала, охранник в клубе; детский шезлонг-качалка
 **Plural:** *bouncers*
 **Countability:** countable
 **Contrast:** The same word also means the man who throws people out of a bar.
 
 Bouncer has 2 distinct senses.
 
-**1. A soft springy seat that rocks a baby up and down.** (детский шезлонг-качалка)
+**1. A strong man employed by a bar or club to keep out or throw out troublemakers.** (вышибала, охранник в клубе)
 
-1. She naps best in the *bouncer*.
-2. Set the *bouncer* on the floor, never on a table.
-3. Both *bouncers* came from a garage sale.
+1. The *bouncer* checked our IDs at the door.
+2. Two *bouncers* walked the drunk guy outside.
+3. He worked as a *bouncer* while he was in college.
 
-**2. A strong man employed by a bar or club to keep out or throw out troublemakers.** (вышибала, охранник в клубе)
+**2. A soft springy seat that rocks a baby up and down.** (детский шезлонг-качалка)
 
-4. The *bouncer* checked our IDs at the door.
-5. Two *bouncers* walked the drunk guy outside.
-6. He worked as a *bouncer* while he was in college.
+4. She naps best in the *bouncer*.
+5. Set the *bouncer* on the floor, never on a table.
+6. Both *bouncers* came from a garage sale.
 
 ---
 
 ### walker
 
 **Pronunciation:** /ˈwɔːkər/ &middot; *WAW-kur*
-**Русский:** ходунки (детские); ходунки (для пожилых, больных); пешеход, любитель ходьбы
+**Русский:** ходунки (для пожилых, больных); ходунки (детские); пешеход, любитель ходьбы
 **Plural:** *walkers*
 **Countability:** countable
 **Contrast:** Russian *ходунки* is plural, but English uses a singular: *a walker*.
 
 Walker has 3 distinct senses.
 
-**1. A wheeled frame with a seat that a baby scoots around in.** (ходунки (детские))
+**1. A metal frame that a person leans on for support while walking.** (ходунки (для пожилых, больных))
 
-1. He raced across the kitchen in his *walker*.
-2. Doctors here discourage the use of a *walker*.
-3. Old-style *walkers* are banned in Canada.
+1. She gets around the house with a *walker*.
+2. After the hip surgery he needed a *walker* for a month.
+3. The hallway is wide enough for two *walkers* to pass.
 
-**2. A metal frame that a person leans on for support while walking.** (ходунки (для пожилых, больных))
+**2. A wheeled frame with a seat that a baby scoots around in.** (ходунки (детские))
 
-4. She gets around the house with a *walker*.
-5. After the hip surgery he needed a *walker* for a month.
-6. The hallway is wide enough for two *walkers* to pass.
+4. He raced across the kitchen in his *walker*.
+5. Doctors here discourage the use of a *walker*.
+6. Old-style *walkers* are banned in Canada.
 
 **3. A person who is walking, especially for exercise.** (пешеход, любитель ходьбы)
 
@@ -734,23 +734,23 @@ Walker has 3 distinct senses.
 ### sling
 
 **Pronunciation:** /slɪŋ/ &middot; *SLING*
-**Русский:** слинг, перевязь для ношения ребёнка; перевязь для руки, косыночная повязка
+**Русский:** перевязь для руки, косыночная повязка; слинг, перевязь для ношения ребёнка
 **Plural:** *slings*
 **Countability:** countable
 
 Sling has 2 distinct senses.
 
-**1. A wide cloth loop worn over the shoulder to carry a baby.** (слинг, перевязь для ношения ребёнка)
+**1. A cloth loop worn around the neck to support an injured arm.** (перевязь для руки, косыночная повязка)
 
-1. She wore the baby in a *sling* all afternoon.
-2. The *sling* leaves both hands free.
-3. Fabric *slings* are easier on your back than you would think.
+1. She had her arm in a *sling* for a month.
+2. The *sling* keeps the shoulder from moving.
+3. The clinic gave out *slings* and ice packs.
 
-**2. A cloth loop worn around the neck to support an injured arm.** (перевязь для руки, косыночная повязка)
+**2. A wide cloth loop worn over the shoulder to carry a baby.** (слинг, перевязь для ношения ребёнка)
 
-4. She had her arm in a *sling* for a month.
-5. The *sling* keeps the shoulder from moving.
-6. The clinic gave out *slings* and ice packs.
+4. She wore the baby in a *sling* all afternoon.
+5. The *sling* leaves both hands free.
+6. Fabric *slings* are easier on your back than you would think.
 
 ---
 
@@ -1112,23 +1112,23 @@ Feeding a baby with milk from the mother's breast.
 ### nursing
 
 **Pronunciation:** /ˈnɜːrsɪŋ/ &middot; *NUR-sing*
-**Русский:** кормление грудью; сестринское дело, профессия медсестры
+**Русский:** сестринское дело, профессия медсестры; кормление грудью
 **Countability:** uncountable
 **Contrast:** The same word also means the profession of a nurse — context decides.
 
 Nursing has 2 distinct senses.
 
-**1. Feeding a baby at the breast.** (кормление грудью)
+**1. The profession of caring for sick and injured people.** (сестринское дело, профессия медсестры)
 
-1. *Nursing* every two hours wore her out.
-2. She found a quiet room for *nursing*.
-3. *Nursing* got easier after the first month.
+1. She's going back to school for *nursing*.
+2. Twenty years of *nursing* taught him patience.
+3. The hospital has a serious *nursing* shortage.
 
-**2. The profession of caring for sick and injured people.** (сестринское дело, профессия медсестры)
+**2. Feeding a baby at the breast.** (кормление грудью)
 
-4. She's going back to school for *nursing*.
-5. Twenty years of *nursing* taught him patience.
-6. The hospital has a serious *nursing* shortage.
+4. *Nursing* every two hours wore her out.
+5. She found a quiet room for *nursing*.
+6. *Nursing* got easier after the first month.
 
 ---
 

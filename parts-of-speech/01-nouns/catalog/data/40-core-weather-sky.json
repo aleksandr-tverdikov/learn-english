@@ -871,12 +871,12 @@
       "respell": "FRUNT",
       "meaning": "Front has 4 distinct senses.",
       "examples": [
-        "A cold front is moving in tonight.",
-        "The front stalled over the valley and it rained for three days.",
-        "Warm fronts usually bring steady rain instead of thunderstorms.",
         "There's a long scratch on the front of the car.",
         "We sat at the front of the classroom.",
         "The front of the building is all glass.",
+        "A cold front is moving in tonight.",
+        "The front stalled over the valley and it rained for three days.",
+        "Warm fronts usually bring steady rain instead of thunderstorms.",
         "Her grandfather was wounded at the front.",
         "Fresh troops were sent to the eastern front.",
         "Letters from the front took weeks to arrive.",
@@ -887,18 +887,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The boundary between two masses of air, which usually brings a change in weather",
-          "body": [
-            "(атмосферный фронт)"
-          ],
-          "examples": [
-            "A cold front is moving in tonight.",
-            "The front stalled over the valley and it rained for three days.",
-            "Warm fronts usually bring steady rain instead of thunderstorms."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The part or side of something that faces forward",
           "body": [
             "(передняя часть, фасад)"
@@ -907,6 +895,18 @@
             "There's a long scratch on the front of the car.",
             "We sat at the front of the classroom.",
             "The front of the building is all glass."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The boundary between two masses of air, which usually brings a change in weather",
+          "body": [
+            "(атмосферный фронт)"
+          ],
+          "examples": [
+            "A cold front is moving in tonight.",
+            "The front stalled over the valley and it rained for three days.",
+            "Warm fronts usually bring steady rain instead of thunderstorms."
           ]
         },
         {
@@ -935,7 +935,7 @@
           ]
         }
       ],
-      "русский": "атмосферный фронт; передняя часть, фасад; фронт (линия боевых действий); прикрытие, ширма",
+      "русский": "передняя часть, фасад; атмосферный фронт; фронт (линия боевых действий); прикрытие, ширма",
       "plural": "fronts",
       "countability": "countable",
       "contrast": "Spelled with an o but pronounced FRUNT, rhyming with hunt."

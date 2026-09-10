@@ -516,41 +516,41 @@
       "respell": "PAR-tee",
       "meaning": "Party has 2 distinct senses.",
       "examples": [
-        "Neither party wanted an early election.",
-        "A search party went out at dawn.",
-        "Both parties signed the agreement.",
         "We're having a party Saturday night — you should come.",
         "His birthday parties were legendary in the neighborhood.",
-        "The party went on until two in the morning."
+        "The party went on until two in the morning.",
+        "Neither party wanted an early election.",
+        "A search party went out at dawn.",
+        "Both parties signed the agreement."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An organized political group, or a group of people acting together",
-          "body": [
-            "(партия (политическая); группа людей)"
-          ],
-          "examples": [
-            "Neither party wanted an early election.",
-            "A search party went out at dawn.",
-            "Both parties signed the agreement."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A social event where people gather to eat, drink, talk, and enjoy themselves",
           "body": [
-            "(вечеринка)",
-            "---"
+            "(вечеринка)"
           ],
           "examples": [
             "We're having a party Saturday night — you should come.",
             "His birthday parties were legendary in the neighborhood.",
             "The party went on until two in the morning."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An organized political group, or a group of people acting together",
+          "body": [
+            "(партия (политическая); группа людей)",
+            "---"
+          ],
+          "examples": [
+            "Neither party wanted an early election.",
+            "A search party went out at dawn.",
+            "Both parties signed the agreement."
+          ]
         }
       ],
-      "русский": "партия (политическая); группа людей; вечеринка",
+      "русский": "вечеринка; партия (политическая); группа людей",
       "plural": "parties",
       "countability": "countable"
     },
@@ -723,12 +723,12 @@
       "respell": "RAYS",
       "meaning": "Race has 3 distinct senses.",
       "examples": [
-        "The law bans discrimination based on race.",
-        "People of all races live on this block.",
-        "Race is still a difficult subject in America.",
         "She won the 400-meter race by half a second.",
         "The race was called off because of rain.",
         "We watched the sailboat races from the pier.",
+        "The law bans discrimination based on race.",
+        "People of all races live on this block.",
+        "Race is still a difficult subject in America.",
         "Three candidates entered the race for mayor.",
         "The Senate race is still too close to call.",
         "He dropped out of the race in January."
@@ -736,18 +736,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A group of people seen as sharing physical features and ancestry",
-          "body": [
-            "(раса)"
-          ],
-          "examples": [
-            "The law bans discrimination based on race.",
-            "People of all races live on this block.",
-            "Race is still a difficult subject in America."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A contest to see who is fastest",
           "body": [
             "(гонка, забег, заезд)"
@@ -756,6 +744,18 @@
             "She won the 400-meter race by half a second.",
             "The race was called off because of rain.",
             "We watched the sailboat races from the pier."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people seen as sharing physical features and ancestry",
+          "body": [
+            "(раса)"
+          ],
+          "examples": [
+            "The law bans discrimination based on race.",
+            "People of all races live on this block.",
+            "Race is still a difficult subject in America."
           ]
         },
         {
@@ -772,7 +772,7 @@
           ]
         }
       ],
-      "русский": "раса; гонка, забег, заезд; борьба за пост, предвыборная гонка",
+      "русский": "гонка, забег, заезд; раса; борьба за пост, предвыборная гонка",
       "plural": "races",
       "countability": "countable",
       "contrast": "The same word also means a speed contest: a horse race."

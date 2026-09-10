@@ -1791,12 +1791,12 @@
       "respell": "EL-uh-muhnt",
       "meaning": "Element has 4 distinct senses.",
       "examples": [
-        "Gold is an element; brass is not.",
-        "About ninety elements occur in nature.",
-        "Carbon is the element all life is built on.",
         "There's an element of risk in any investment.",
         "The story has all the elements of a good thriller.",
         "An element of truth ran through the rumor.",
+        "Gold is an element; brass is not.",
+        "About ninety elements occur in nature.",
+        "Carbon is the element all life is built on.",
         "A tarp protects the stacked wood from the elements.",
         "The hikers were out in the elements all night.",
         "Old barns take a beating from the elements.",
@@ -1807,18 +1807,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A pure substance that cannot be broken down into anything simpler",
-          "body": [
-            "(химический элемент)"
-          ],
-          "examples": [
-            "Gold is an element; brass is not.",
-            "About ninety elements occur in nature.",
-            "Carbon is the element all life is built on."
-          ]
-        },
-        {
-          "n": "2",
           "head": "One of the parts or qualities that make up a whole",
           "body": [
             "(элемент, составная часть; доля (чего-либо))"
@@ -1827,6 +1815,18 @@
             "There's an element of risk in any investment.",
             "The story has all the elements of a good thriller.",
             "An element of truth ran through the rumor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pure substance that cannot be broken down into anything simpler",
+          "body": [
+            "(химический элемент)"
+          ],
+          "examples": [
+            "Gold is an element; brass is not.",
+            "About ninety elements occur in nature.",
+            "Carbon is the element all life is built on."
           ]
         },
         {
@@ -1855,7 +1855,7 @@
           ]
         }
       ],
-      "русский": "химический элемент; элемент, составная часть; доля (чего-либо); стихия, непогода; нагревательный элемент, тэн",
+      "русский": "элемент, составная часть; доля (чего-либо); химический элемент; стихия, непогода; нагревательный элемент, тэн",
       "plural": "elements",
       "countability": "countable"
     },

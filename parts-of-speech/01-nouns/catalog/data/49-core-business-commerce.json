@@ -925,41 +925,41 @@
       "respell": "BUN-dul",
       "meaning": "Bundle has 2 distinct senses.",
       "examples": [
-        "The phone and the case come as a bundle.",
-        "We saved forty dollars with the cable bundle.",
-        "They offer three different bundles.",
         "He carried in a bundle of firewood.",
         "The newspapers came in bundles tied with twine.",
-        "She had a bundle of letters held with a rubber band."
+        "She had a bundle of letters held with a rubber band.",
+        "The phone and the case come as a bundle.",
+        "We saved forty dollars with the cable bundle.",
+        "They offer three different bundles."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Several products sold together for one price",
-          "body": [
-            "(комплект, набор товаров)"
-          ],
-          "examples": [
-            "The phone and the case come as a bundle.",
-            "We saved forty dollars with the cable bundle.",
-            "They offer three different bundles."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A group of things tied or wrapped together",
           "body": [
-            "(связка, пачка, узел)",
-            "---"
+            "(связка, пачка, узел)"
           ],
           "examples": [
             "He carried in a bundle of firewood.",
             "The newspapers came in bundles tied with twine.",
             "She had a bundle of letters held with a rubber band."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Several products sold together for one price",
+          "body": [
+            "(комплект, набор товаров)",
+            "---"
+          ],
+          "examples": [
+            "The phone and the case come as a bundle.",
+            "We saved forty dollars with the cable bundle.",
+            "They offer three different bundles."
+          ]
         }
       ],
-      "русский": "комплект, набор товаров; связка, пачка, узел",
+      "русский": "связка, пачка, узел; комплект, набор товаров",
       "plural": "bundles",
       "countability": "countable"
     },
@@ -1264,31 +1264,19 @@
       "respell": "BOOTH",
       "meaning": "Booth has 3 distinct senses.",
       "examples": [
-        "Our booth is right by the entrance.",
-        "She handed out samples at the booth all day.",
-        "The bigger companies had booths twice this size.",
         "We asked for a booth by the window.",
         "The diner has six booths and a long counter.",
         "He slid into the booth across from me.",
         "She stepped into the voting booth and closed the curtain.",
         "The old phone booth is still on the corner.",
-        "Buy your tickets at the booth by the gate."
+        "Buy your tickets at the booth by the gate.",
+        "Our booth is right by the entrance.",
+        "She handed out samples at the booth all day.",
+        "The bigger companies had booths twice this size."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A small stand where a company shows its products at a fair or trade show",
-          "body": [
-            "(стенд (на выставке))"
-          ],
-          "examples": [
-            "Our booth is right by the entrance.",
-            "She handed out samples at the booth all day.",
-            "The bigger companies had booths twice this size."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A restaurant table with high padded seats along the sides",
           "body": [
             "(кабинка со столиком (в кафе))"
@@ -1300,20 +1288,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A small enclosed space where one person does something",
           "body": [
-            "(кабина, будка (телефонная, для голосования))",
-            "---"
+            "(кабина, будка (телефонная, для голосования))"
           ],
           "examples": [
             "She stepped into the voting booth and closed the curtain.",
             "The old phone booth is still on the corner.",
             "Buy your tickets at the booth by the gate."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A small stand where a company shows its products at a fair or trade show",
+          "body": [
+            "(стенд (на выставке))",
+            "---"
+          ],
+          "examples": [
+            "Our booth is right by the entrance.",
+            "She handed out samples at the booth all day.",
+            "The bigger companies had booths twice this size."
+          ]
         }
       ],
-      "русский": "стенд (на выставке); кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования)",
+      "русский": "кабинка со столиком (в кафе); кабина, будка (телефонная, для голосования); стенд (на выставке)",
       "plural": "booths",
       "countability": "countable",
       "contrast": "Americans say BOOTH with the th of tooth; the British often voice it, like smooth."
@@ -2036,41 +2036,41 @@
       "respell": "kar-TEL",
       "meaning": "Cartel has 2 distinct senses.",
       "examples": [
-        "The oil cartel cut production again.",
-        "Regulators broke up a shipping cartel.",
-        "Cartels are illegal in most countries.",
         "The cartel controls the smuggling routes near the border.",
         "Two cartels have been fighting over the same territory.",
-        "He testified against the cartel leaders."
+        "He testified against the cartel leaders.",
+        "The oil cartel cut production again.",
+        "Regulators broke up a shipping cartel.",
+        "Cartels are illegal in most countries."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A group of companies that agree to fix prices instead of competing",
-          "body": [
-            "(картель, ценовой сговор)"
-          ],
-          "examples": [
-            "The oil cartel cut production again.",
-            "Regulators broke up a shipping cartel.",
-            "Cartels are illegal in most countries."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A large criminal organization that produces and sells drugs",
           "body": [
-            "(наркокартель)",
-            "---"
+            "(наркокартель)"
           ],
           "examples": [
             "The cartel controls the smuggling routes near the border.",
             "Two cartels have been fighting over the same territory.",
             "He testified against the cartel leaders."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A group of companies that agree to fix prices instead of competing",
+          "body": [
+            "(картель, ценовой сговор)",
+            "---"
+          ],
+          "examples": [
+            "The oil cartel cut production again.",
+            "Regulators broke up a shipping cartel.",
+            "Cartels are illegal in most countries."
+          ]
         }
       ],
-      "русский": "картель, ценовой сговор; наркокартель",
+      "русский": "наркокартель; картель, ценовой сговор",
       "plural": "cartels",
       "countability": "countable",
       "contrast": "Stress the second syllable: kar-TEL."
@@ -3247,41 +3247,41 @@
       "respell": "good-WIL",
       "meaning": "Goodwill has 2 distinct senses.",
       "examples": [
-        "Most of the purchase price was goodwill.",
-        "Years of fair dealing built up a lot of goodwill.",
-        "They refunded him as a gesture of goodwill.",
         "The apology was meant as a gesture of goodwill.",
         "Years of goodwill between the two towns ended over the water dispute.",
-        "He built up a lot of goodwill helping neighbors shovel snow."
+        "He built up a lot of goodwill helping neighbors shovel snow.",
+        "Most of the purchase price was goodwill.",
+        "Years of fair dealing built up a lot of goodwill.",
+        "They refunded him as a gesture of goodwill."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The good name a business has built up, counted as part of its value",
-          "body": [
-            "(деловая репутация; доброжелательность)"
-          ],
-          "examples": [
-            "Most of the purchase price was goodwill.",
-            "Years of fair dealing built up a lot of goodwill.",
-            "They refunded him as a gesture of goodwill."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A friendly, helpful feeling toward other people",
           "body": [
-            "(доброжелательность, расположение)",
-            "---"
+            "(доброжелательность, расположение)"
           ],
           "examples": [
             "The apology was meant as a gesture of goodwill.",
             "Years of goodwill between the two towns ended over the water dispute.",
             "He built up a lot of goodwill helping neighbors shovel snow."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The good name a business has built up, counted as part of its value",
+          "body": [
+            "(деловая репутация; доброжелательность)",
+            "---"
+          ],
+          "examples": [
+            "Most of the purchase price was goodwill.",
+            "Years of fair dealing built up a lot of goodwill.",
+            "They refunded him as a gesture of goodwill."
+          ]
         }
       ],
-      "русский": "деловая репутация; доброжелательность; доброжелательность, расположение",
+      "русский": "доброжелательность, расположение; деловая репутация; доброжелательность",
       "countability": "uncountable"
     },
     {

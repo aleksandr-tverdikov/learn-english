@@ -174,41 +174,41 @@
       "respell": "JIM",
       "meaning": "Gym has 2 distinct senses.",
       "examples": [
-        "We have gym right after lunch.",
-        "The basketball game is in the school gym.",
-        "Both gyms were built in the seventies.",
         "I go to the gym three mornings a week.",
         "A new gym is opening downtown.",
-        "Both gyms near my office have pools."
+        "Both gyms near my office have pools.",
+        "We have gym right after lunch.",
+        "The basketball game is in the school gym.",
+        "Both gyms were built in the seventies."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The large indoor room at a school used for sports and exercise classes",
-          "body": [
-            "(спортзал, физкультура)"
-          ],
-          "examples": [
-            "We have gym right after lunch.",
-            "The basketball game is in the school gym.",
-            "Both gyms were built in the seventies."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A club or business with exercise equipment that people pay to use",
           "body": [
-            "(тренажёрный зал, фитнес-клуб)",
-            "---"
+            "(тренажёрный зал, фитнес-клуб)"
           ],
           "examples": [
             "I go to the gym three mornings a week.",
             "A new gym is opening downtown.",
             "Both gyms near my office have pools."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The large indoor room at a school used for sports and exercise classes",
+          "body": [
+            "(спортзал, физкультура)",
+            "---"
+          ],
+          "examples": [
+            "We have gym right after lunch.",
+            "The basketball game is in the school gym.",
+            "Both gyms were built in the seventies."
+          ]
         }
       ],
-      "русский": "спортзал, физкультура; тренажёрный зал, фитнес-клуб",
+      "русский": "тренажёрный зал, фитнес-клуб; спортзал, физкультура",
       "plural": "gyms",
       "countability": "countable"
     },
@@ -805,12 +805,12 @@
       "respell": "SUB-stuh-toot",
       "meaning": "Substitute has 3 distinct senses.",
       "examples": [
-        "We had a substitute in math all week.",
-        "The substitute let us watch a movie.",
-        "The district is short on substitutes this winter.",
         "There is no substitute for hard work.",
         "She uses a sugar substitute in her coffee.",
         "Frozen berries make a decent substitute in this recipe.",
+        "We had a substitute in math all week.",
+        "The substitute let us watch a movie.",
+        "The district is short on substitutes this winter.",
         "The coach sent in a substitute at halftime.",
         "He came on as a substitute and scored twice.",
         "Each team may use three substitutes per game."
@@ -818,18 +818,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A teacher who fills in when the regular teacher is absent",
-          "body": [
-            "(замещающий учитель)"
-          ],
-          "examples": [
-            "We had a substitute in math all week.",
-            "The substitute let us watch a movie.",
-            "The district is short on substitutes this winter."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A person or thing used in place of another",
           "body": [
             "(замена, заменитель)"
@@ -838,6 +826,18 @@
             "There is no substitute for hard work.",
             "She uses a sugar substitute in her coffee.",
             "Frozen berries make a decent substitute in this recipe."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A teacher who fills in when the regular teacher is absent",
+          "body": [
+            "(замещающий учитель)"
+          ],
+          "examples": [
+            "We had a substitute in math all week.",
+            "The substitute let us watch a movie.",
+            "The district is short on substitutes this winter."
           ]
         },
         {
@@ -854,7 +854,7 @@
           ]
         }
       ],
-      "русский": "замещающий учитель; замена, заменитель; запасной игрок, замена",
+      "русский": "замена, заменитель; замещающий учитель; запасной игрок, замена",
       "plural": "substitutes",
       "countability": "countable"
     },
@@ -1326,41 +1326,41 @@
       "respell": "DRAH-muh",
       "meaning": "Drama has 2 distinct senses.",
       "examples": [
-        "She takes drama as an elective.",
-        "The drama teacher is directing the spring musical.",
-        "Drama club meets after school on Wednesdays.",
         "It's a legal drama set in Boston.",
         "The network ordered two new dramas.",
-        "That drama won every award last year."
+        "That drama won every award last year.",
+        "She takes drama as an elective.",
+        "The drama teacher is directing the spring musical.",
+        "Drama club meets after school on Wednesdays."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The school subject of acting and putting on plays",
-          "body": [
-            "(театральное искусство (предмет))"
-          ],
-          "examples": [
-            "She takes drama as an elective.",
-            "The drama teacher is directing the spring musical.",
-            "Drama club meets after school on Wednesdays."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A serious television series, film, or play",
           "body": [
-            "(драма (сериал или фильм))",
-            "---"
+            "(драма (сериал или фильм))"
           ],
           "examples": [
             "It's a legal drama set in Boston.",
             "The network ordered two new dramas.",
             "That drama won every award last year."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The school subject of acting and putting on plays",
+          "body": [
+            "(театральное искусство (предмет))",
+            "---"
+          ],
+          "examples": [
+            "She takes drama as an elective.",
+            "The drama teacher is directing the spring musical.",
+            "Drama club meets after school on Wednesdays."
+          ]
         }
       ],
-      "русский": "театральное искусство (предмет); драма (сериал или фильм)",
+      "русский": "драма (сериал или фильм); театральное искусство (предмет)",
       "countability": "uncountable"
     },
     {
@@ -2140,41 +2140,41 @@
       "respell": "sur-TIF-ih-kuht",
       "meaning": "Certificate has 2 distinct senses.",
       "examples": [
-        "She earned a certificate in medical billing.",
-        "The program gives you a certificate, not a degree.",
-        "He hung both certificates behind his desk.",
         "Bring your birth certificate to the passport office.",
         "Both certificates have to be notarized.",
-        "They asked for a vaccination certificate at the border."
+        "They asked for a vaccination certificate at the border.",
+        "She earned a certificate in medical billing.",
+        "The program gives you a certificate, not a degree.",
+        "He hung both certificates behind his desk."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An official paper stating that someone has completed training or met a standard",
-          "body": [
-            "(сертификат, свидетельство)"
-          ],
-          "examples": [
-            "She earned a certificate in medical billing.",
-            "The program gives you a certificate, not a degree.",
-            "He hung both certificates behind his desk."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An official document proving a fact about you",
           "body": [
-            "(свидетельство, справка)",
-            "---"
+            "(свидетельство, справка)"
           ],
           "examples": [
             "Bring your birth certificate to the passport office.",
             "Both certificates have to be notarized.",
             "They asked for a vaccination certificate at the border."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An official paper stating that someone has completed training or met a standard",
+          "body": [
+            "(сертификат, свидетельство)",
+            "---"
+          ],
+          "examples": [
+            "She earned a certificate in medical billing.",
+            "The program gives you a certificate, not a degree.",
+            "He hung both certificates behind his desk."
+          ]
         }
       ],
-      "русский": "сертификат, свидетельство; свидетельство, справка",
+      "русский": "свидетельство, справка; сертификат, свидетельство",
       "plural": "certificates",
       "countability": "countable"
     },
@@ -2273,41 +2273,41 @@
       "respell": "MY-nur",
       "meaning": "Minor has 2 distinct senses.",
       "examples": [
-        "He's got a minor in Spanish.",
-        "A minor takes about six classes.",
-        "The college offers over forty minors.",
         "The bar was fined for serving a minor.",
         "Both drivers were minors.",
-        "As a minor, she needed a parent's signature."
+        "As a minor, she needed a parent's signature.",
+        "He's got a minor in Spanish.",
+        "A minor takes about six classes.",
+        "The college offers over forty minors."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A second, smaller field of study alongside a college major",
-          "body": [
-            "(дополнительная специальность)"
-          ],
-          "examples": [
-            "He's got a minor in Spanish.",
-            "A minor takes about six classes.",
-            "The college offers over forty minors."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A person who is not yet legally an adult",
           "body": [
-            "(несовершеннолетний)",
-            "---"
+            "(несовершеннолетний)"
           ],
           "examples": [
             "The bar was fined for serving a minor.",
             "Both drivers were minors.",
             "As a minor, she needed a parent's signature."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A second, smaller field of study alongside a college major",
+          "body": [
+            "(дополнительная специальность)",
+            "---"
+          ],
+          "examples": [
+            "He's got a minor in Spanish.",
+            "A minor takes about six classes.",
+            "The college offers over forty minors."
+          ]
         }
       ],
-      "русский": "дополнительная специальность; несовершеннолетний",
+      "русский": "несовершеннолетний; дополнительная специальность",
       "plural": "minors",
       "countability": "countable",
       "contrast": "Sounds exactly like miner, someone who digs in a mine."
@@ -2436,41 +2436,41 @@
       "respell": "ud-MISH-uhn",
       "meaning": "Admission has 2 distinct senses.",
       "examples": [
-        "She was offered admission to her first-choice school.",
-        "Admission to the program is competitive.",
-        "He's waiting to hear about admission.",
         "Admission is fifteen dollars for adults.",
         "Children under six get free admission.",
-        "The ticket includes admission to both floors."
+        "The ticket includes admission to both floors.",
+        "She was offered admission to her first-choice school.",
+        "Admission to the program is competitive.",
+        "He's waiting to hear about admission."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The right to enter a school or college as a student",
-          "body": [
-            "(приём, поступление)"
-          ],
-          "examples": [
-            "She was offered admission to her first-choice school.",
-            "Admission to the program is competitive.",
-            "He's waiting to hear about admission."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The right to enter a place, or the price you pay to enter",
           "body": [
-            "(вход, входная плата)",
-            "---"
+            "(вход, входная плата)"
           ],
           "examples": [
             "Admission is fifteen dollars for adults.",
             "Children under six get free admission.",
             "The ticket includes admission to both floors."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The right to enter a school or college as a student",
+          "body": [
+            "(приём, поступление)",
+            "---"
+          ],
+          "examples": [
+            "She was offered admission to her first-choice school.",
+            "Admission to the program is competitive.",
+            "He's waiting to hear about admission."
+          ]
         }
       ],
-      "русский": "приём, поступление; вход, входная плата",
+      "русский": "вход, входная плата; приём, поступление",
       "countability": "uncountable"
     },
     {
@@ -2731,41 +2731,41 @@
       "respell": "BEL",
       "meaning": "Bell has 2 distinct senses.",
       "examples": [
-        "The bell rang before I finished the last question.",
-        "Stay seated until the bell.",
-        "The bells are two minutes fast.",
         "The church bells rang at noon.",
         "He tied a small bell to the cat's collar.",
-        "A bell over the shop door jingled as we walked in."
+        "A bell over the shop door jingled as we walked in.",
+        "The bell rang before I finished the last question.",
+        "Stay seated until the bell.",
+        "The bells are two minutes fast."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The sound that marks the beginning and end of a class period",
-          "body": [
-            "(звонок)"
-          ],
-          "examples": [
-            "The bell rang before I finished the last question.",
-            "Stay seated until the bell.",
-            "The bells are two minutes fast."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A hollow metal object that makes a ringing sound when it is struck",
           "body": [
-            "(колокол, колокольчик)",
-            "---"
+            "(колокол, колокольчик)"
           ],
           "examples": [
             "The church bells rang at noon.",
             "He tied a small bell to the cat's collar.",
             "A bell over the shop door jingled as we walked in."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The sound that marks the beginning and end of a class period",
+          "body": [
+            "(звонок)",
+            "---"
+          ],
+          "examples": [
+            "The bell rang before I finished the last question.",
+            "Stay seated until the bell.",
+            "The bells are two minutes fast."
+          ]
         }
       ],
-      "русский": "звонок; колокол, колокольчик",
+      "русский": "колокол, колокольчик; звонок",
       "plural": "bells",
       "countability": "countable"
     },

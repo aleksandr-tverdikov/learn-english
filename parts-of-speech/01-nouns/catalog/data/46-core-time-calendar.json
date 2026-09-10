@@ -1490,12 +1490,12 @@
         "The snow usually melts by March.",
         "We're moving at the end of March.",
         "Spring break falls in March this year.",
-        "The band played a march down Main Street.",
-        "That march gets played at every graduation.",
-        "Sousa wrote over a hundred marches.",
         "Thousands joined the march on Saturday morning.",
         "There have been three marches downtown this month.",
-        "The march ended with speeches on the capitol steps."
+        "The march ended with speeches on the capitol steps.",
+        "The band played a march down Main Street.",
+        "That march gets played at every graduation.",
+        "Sousa wrote over a hundred marches."
       ],
       "senses": [
         {
@@ -1512,31 +1512,31 @@
         },
         {
           "n": "2",
-          "head": "A piece of music with a strong steady beat, written for marching",
-          "body": [
-            "(марш)"
-          ],
-          "examples": [
-            "The band played a march down Main Street.",
-            "That march gets played at every graduation.",
-            "Sousa wrote over a hundred marches."
-          ]
-        },
-        {
-          "n": "3",
           "head": "An organized walk by a large group of people to show support for something",
           "body": [
-            "(марш, шествие)",
-            "---"
+            "(марш, шествие)"
           ],
           "examples": [
             "Thousands joined the march on Saturday morning.",
             "There have been three marches downtown this month.",
             "The march ended with speeches on the capitol steps."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A piece of music with a strong steady beat, written for marching",
+          "body": [
+            "(марш)",
+            "---"
+          ],
+          "examples": [
+            "The band played a march down Main Street.",
+            "That march gets played at every graduation.",
+            "Sousa wrote over a hundred marches."
+          ]
         }
       ],
-      "русский": "март; марш; марш, шествие",
+      "русский": "март; марш, шествие; марш",
       "plural": "Marches",
       "countability": "countable"
     },
@@ -2072,12 +2072,12 @@
       "respell": "GAP",
       "meaning": "Gap has 3 distinct senses.",
       "examples": [
-        "There's a three-year gap between the sisters.",
-        "He took a gap year before college.",
-        "Fill the gaps in your schedule with study time.",
         "The dog squeezed through a gap in the fence.",
         "Cold air came in through the gap under the door.",
         "There were wide gaps between the boards on the porch.",
+        "There's a three-year gap between the sisters.",
+        "He took a gap year before college.",
+        "Fill the gaps in your schedule with study time.",
         "The gap between rich and poor keeps growing.",
         "There's still a pay gap between men and women in the field.",
         "The team closed the gap to three points."
@@ -2085,18 +2085,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "An empty stretch of time between two things",
-          "body": [
-            "(промежуток, перерыв)"
-          ],
-          "examples": [
-            "There's a three-year gap between the sisters.",
-            "He took a gap year before college.",
-            "Fill the gaps in your schedule with study time."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A space or opening between two things or in something solid",
           "body": [
             "(щель, зазор, промежуток)"
@@ -2105,6 +2093,18 @@
             "The dog squeezed through a gap in the fence.",
             "Cold air came in through the gap under the door.",
             "There were wide gaps between the boards on the porch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An empty stretch of time between two things",
+          "body": [
+            "(промежуток, перерыв)"
+          ],
+          "examples": [
+            "There's a three-year gap between the sisters.",
+            "He took a gap year before college.",
+            "Fill the gaps in your schedule with study time."
           ]
         },
         {
@@ -2121,7 +2121,7 @@
           ]
         }
       ],
-      "русский": "промежуток, перерыв; щель, зазор, промежуток; разрыв, различие",
+      "русский": "щель, зазор, промежуток; промежуток, перерыв; разрыв, различие",
       "plural": "gaps",
       "countability": "countable"
     },

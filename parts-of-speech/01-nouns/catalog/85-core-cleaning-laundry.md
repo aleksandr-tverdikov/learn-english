@@ -505,23 +505,23 @@ Scum has 2 distinct senses.
 ### buildup
 
 **Pronunciation:** /ˈbɪldʌp/ &middot; *BILD-up*
-**Русский:** налёт, отложения; наращивание, накопление (сил, давления); подготовка и ожидание перед событием
+**Русский:** наращивание, накопление (сил, давления); налёт, отложения; подготовка и ожидание перед событием
 **Plural:** *buildups*
 **Countability:** countable
 
 Buildup has 3 distinct senses.
 
-**1. A layer of dirt or residue that has collected slowly over time.** (налёт, отложения)
+**1. A gradual increase in the number or strength of something.** (наращивание, накопление (сил, давления))
 
-1. There's a *buildup* of grease behind the stove.
-2. The showerhead had a mineral *buildup*.
-3. Regular cleaning prevents *buildups* like that.
+1. The country announced a military *buildup* along its border.
+2. A slow *buildup* of pressure finally cracked the pipe.
+3. Doctors watched for a *buildup* of fluid in his lungs.
 
-**2. A gradual increase in the number or strength of something.** (наращивание, накопление (сил, давления))
+**2. A layer of dirt or residue that has collected slowly over time.** (налёт, отложения)
 
-4. The country announced a military *buildup* along its border.
-5. A slow *buildup* of pressure finally cracked the pipe.
-6. Doctors watched for a *buildup* of fluid in his lungs.
+4. There's a *buildup* of grease behind the stove.
+5. The showerhead had a mineral *buildup*.
+6. Regular cleaning prevents *buildups* like that.
 
 **3. The stretch of preparation and excitement before a big event.** (подготовка и ожидание перед событием)
 

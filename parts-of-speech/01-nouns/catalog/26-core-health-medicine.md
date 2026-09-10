@@ -966,23 +966,23 @@ A small solid piece of medicine that you swallow.
 ### tablet
 
 **Pronunciation:** /ˈtæblət/ &middot; *TAB-luht*
-**Русский:** таблетка; планшет; плита, табличка (с надписью)
+**Русский:** планшет; таблетка; плита, табличка (с надписью)
 **Plural:** *tablets*
 **Countability:** countable
 
 Tablet has 3 distinct senses.
 
-**1. A flat, pressed piece of medicine.** (таблетка)
+**1. A flat, thin computer with a touchscreen and no attached keyboard.** (планшет)
 
-1. Dissolve the *tablet* in a glass of water.
-2. Two *tablets* every six hours.
-3. The *tablet* has a line down the middle so you can split it.
+1. She reads the news on her *tablet* every morning.
+2. The kids share a *tablet* for schoolwork.
+3. My *tablet* needs charging again.
 
-**2. A flat, thin computer with a touchscreen and no attached keyboard.** (планшет)
+**2. A flat, pressed piece of medicine.** (таблетка)
 
-4. She reads the news on her *tablet* every morning.
-5. The kids share a *tablet* for schoolwork.
-6. My *tablet* needs charging again.
+4. Dissolve the *tablet* in a glass of water.
+5. Two *tablets* every six hours.
+6. The *tablet* has a line down the middle so you can split it.
 
 **3. A flat piece of stone or metal with words cut into it.** (плита, табличка (с надписью))
 
@@ -1488,24 +1488,24 @@ A photograph of the bones taken with special radiation.
 ### temperature
 
 **Pronunciation:** /ˈtɛmprətʃər/ &middot; *TEM-pruh-chur*
-**Русский:** температура (тела); температура
+**Русский:** температура; температура (тела)
 **Plural:** *temperatures*
 **Countability:** countable
 **Contrast:** Usually squeezed to three syllables in American speech — TEM-pruh-chur, not TEM-per-uh-toor.
 
 Temperature has 2 distinct senses.
 
-**1. How hot the body is, measured as a sign of health.** (температура (тела))
+**1. How hot or cold something is, measured in degrees.** (температура)
 
-1. Let me take your *temperature*.
-2. His *temperature* is up to 101.
-3. *Temperatures* over 104 need a doctor.
+1. Bring the butter to room *temperature* first.
+2. Check the internal *temperature* with a thermometer.
+3. Ovens hold *temperatures* differently, so watch the food, not the clock.
 
-**2. How hot or cold something is, measured in degrees.** (температура)
+**2. How hot the body is, measured as a sign of health.** (температура (тела))
 
-4. Bring the butter to room *temperature* first.
-5. Check the internal *temperature* with a thermometer.
-6. Ovens hold *temperatures* differently, so watch the food, not the clock.
+4. Let me take your *temperature*.
+5. His *temperature* is up to 101.
+6. *Temperatures* over 104 need a doctor.
 
 ---
 

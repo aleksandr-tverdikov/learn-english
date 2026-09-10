@@ -1860,41 +1860,41 @@
       "respell": "EYE-kahn",
       "meaning": "Icon has 2 distinct senses.",
       "examples": [
-        "An old icon hung in the corner of the room.",
-        "The icon is painted on wood with gold leaf.",
-        "The museum holds two hundred Russian icons.",
         "Double-click the icon on your desktop.",
         "The icons are too small to see on this monitor.",
-        "There's a little gear icon for settings."
+        "There's a little gear icon for settings.",
+        "An old icon hung in the corner of the room.",
+        "The icon is painted on wood with gold leaf.",
+        "The museum holds two hundred Russian icons."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A painted religious image, especially in Orthodox churches",
-          "body": [
-            "(икона)"
-          ],
-          "examples": [
-            "An old icon hung in the corner of the room.",
-            "The icon is painted on wood with gold leaf.",
-            "The museum holds two hundred Russian icons."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small picture on a screen that stands for a file or program",
           "body": [
-            "(значок, иконка)",
-            "---"
+            "(значок, иконка)"
           ],
           "examples": [
             "Double-click the icon on your desktop.",
             "The icons are too small to see on this monitor.",
             "There's a little gear icon for settings."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A painted religious image, especially in Orthodox churches",
+          "body": [
+            "(икона)",
+            "---"
+          ],
+          "examples": [
+            "An old icon hung in the corner of the room.",
+            "The icon is painted on wood with gold leaf.",
+            "The museum holds two hundred Russian icons."
+          ]
         }
       ],
-      "русский": "икона; значок, иконка",
+      "русский": "значок, иконка; икона",
       "plural": "icons",
       "countability": "countable"
     },
@@ -2454,12 +2454,12 @@
       "respell": "GRAYSS",
       "meaning": "Grace has 3 distinct senses.",
       "examples": [
-        "The hymn is about grace and forgiveness.",
-        "He believes he was saved by grace alone.",
-        "They prayed for the grace to forgive him.",
         "She crossed the stage with surprising grace.",
         "He took the loss with grace.",
         "For a big man, he moves with real grace.",
+        "The hymn is about grace and forgiveness.",
+        "He believes he was saved by grace alone.",
+        "They prayed for the grace to forgive him.",
         "Grandpa always says grace before we eat.",
         "We held hands while my aunt said grace.",
         "Dinner started with a quick grace."
@@ -2467,18 +2467,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "God's free kindness toward people who do not earn it",
-          "body": [
-            "(благодать; милость)"
-          ],
-          "examples": [
-            "The hymn is about grace and forgiveness.",
-            "He believes he was saved by grace alone.",
-            "They prayed for the grace to forgive him."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Smooth, easy beauty in the way someone moves or behaves",
           "body": [
             "(грация, изящество)"
@@ -2487,6 +2475,18 @@
             "She crossed the stage with surprising grace.",
             "He took the loss with grace.",
             "For a big man, he moves with real grace."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "God's free kindness toward people who do not earn it",
+          "body": [
+            "(благодать; милость)"
+          ],
+          "examples": [
+            "The hymn is about grace and forgiveness.",
+            "He believes he was saved by grace alone.",
+            "They prayed for the grace to forgive him."
           ]
         },
         {
@@ -2503,7 +2503,7 @@
           ]
         }
       ],
-      "русский": "благодать; милость; грация, изящество; молитва перед едой",
+      "русский": "грация, изящество; благодать; милость; молитва перед едой",
       "countability": "uncountable"
     },
     {

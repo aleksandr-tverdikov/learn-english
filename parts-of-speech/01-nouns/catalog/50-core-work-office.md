@@ -1028,23 +1028,23 @@ Job has 3 distinct senses.
 ### position
 
 **Pronunciation:** /pəˈzɪʃən/ &middot; *puh-ZISH-uhn*
-**Русский:** должность; положение, местоположение; позиция, точка зрения; позиция, амплуа (в спорте)
+**Русский:** положение, местоположение; должность; позиция, точка зрения; позиция, амплуа (в спорте)
 **Plural:** *positions*
 **Countability:** countable
 
 Position has 4 distinct senses.
 
-**1. A particular job within an organization.** (должность)
+**1. The place where someone or something is, or the way they are set or held.** (положение, местоположение)
 
-1. I'm applying for a *position* in marketing.
-2. The *position* has been open since March.
-3. They're filling three *positions* this fall.
+1. Note the *position* of the sun just before it sets.
+2. The movers put the couch back in its old *position*.
+3. She shifted into a more comfortable *position* on the couch.
 
-**2. The place where someone or something is, or the way they are set or held.** (положение, местоположение)
+**2. A particular job within an organization.** (должность)
 
-4. Note the *position* of the sun just before it sets.
-5. The movers put the couch back in its old *position*.
-6. She shifted into a more comfortable *position* on the couch.
+4. I'm applying for a *position* in marketing.
+5. The *position* has been open since March.
+6. They're filling three *positions* this fall.
 
 **3. An opinion or stance that someone takes on an issue.** (позиция, точка зрения)
 

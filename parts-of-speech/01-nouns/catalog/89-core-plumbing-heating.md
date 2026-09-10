@@ -617,22 +617,22 @@ The soft flexible material squeezed into seams to seal them.
 ### flux
 
 **Pronunciation:** /flʌks/ &middot; *FLUKS*
-**Русский:** флюс (для пайки); постоянные изменения, неустойчивость
+**Русский:** постоянные изменения, неустойчивость; флюс (для пайки)
 **Countability:** uncountable
 
 Flux has 2 distinct senses.
 
-**1. A paste brushed on metal so that solder will flow and stick.** (флюс (для пайки))
+**1. A state of constant change.** (постоянные изменения, неустойчивость)
 
-1. Brush *flux* on both ends before you heat the joint.
-2. Too much *flux* just makes a mess.
-3. Wipe the leftover *flux* off with a rag.
+1. The schedule is still in *flux*.
+2. The whole industry is in a state of *flux*.
+3. Prices have been in *flux* all year.
 
-**2. A state of constant change.** (постоянные изменения, неустойчивость)
+**2. A paste brushed on metal so that solder will flow and stick.** (флюс (для пайки))
 
-4. The schedule is still in *flux*.
-5. The whole industry is in a state of *flux*.
-6. Prices have been in *flux* all year.
+4. Brush *flux* on both ends before you heat the joint.
+5. Too much *flux* just makes a mess.
+6. Wipe the leftover *flux* off with a rag.
 
 ---
 
@@ -1004,23 +1004,23 @@ The fan inside a furnace or air handler that pushes air through the ducts.
 ### damper
 
 **Pronunciation:** /ˈdæmpər/ &middot; *DAM-pur*
-**Русский:** заслонка, шибер; то, что портит настроение; охлаждающий фактор
+**Русский:** то, что портит настроение; охлаждающий фактор; заслонка, шибер
 **Plural:** *dampers*
 **Countability:** countable
 
 Damper has 2 distinct senses.
 
-**1. A movable plate inside a duct or flue that controls how much air passes.** (заслонка, шибер)
+**1. Something that spoils enjoyment or cools enthusiasm.** (то, что портит настроение; охлаждающий фактор)
 
-1. Close the *damper* when the fireplace isn't in use.
-2. Somebody shut the *damper* in the upstairs duct.
-3. The *dampers* are adjusted twice a year.
+1. The rain put a *damper* on the picnic.
+2. His mood was a *damper* on the whole evening.
+3. Bad news from the bank was a *damper* on their plans.
 
-**2. Something that spoils enjoyment or cools enthusiasm.** (то, что портит настроение; охлаждающий фактор)
+**2. A movable plate inside a duct or flue that controls how much air passes.** (заслонка, шибер)
 
-4. The rain put a *damper* on the picnic.
-5. His mood was a *damper* on the whole evening.
-6. Bad news from the bank was a *damper* on their plans.
+4. Close the *damper* when the fireplace isn't in use.
+5. Somebody shut the *damper* in the upstairs duct.
+6. The *dampers* are adjusted twice a year.
 
 ---
 

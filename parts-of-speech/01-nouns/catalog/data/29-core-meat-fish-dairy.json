@@ -394,31 +394,19 @@
       "respell": "FLANGK",
       "meaning": "Flank has 3 distinct senses.",
       "examples": [
-        "Flank steak is best sliced against the grain.",
-        "She marinated the flank for two hours.",
-        "Grill the flank hot and fast.",
         "The horse's flanks were dark with sweat.",
         "He felt a sharp pain in his left flank.",
         "She patted the cow's flank and stepped back.",
         "The enemy attacked on the left flank.",
         "Their defense is weak on both flanks.",
-        "He sent riders out to protect the flank."
+        "He sent riders out to protect the flank.",
+        "Flank steak is best sliced against the grain.",
+        "She marinated the flank for two hours.",
+        "Grill the flank hot and fast."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A lean cut of beef from the belly area below the ribs",
-          "body": [
-            "(пашина (мясной отруб))"
-          ],
-          "examples": [
-            "Flank steak is best sliced against the grain.",
-            "She marinated the flank for two hours.",
-            "Grill the flank hot and fast."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The side of a person's or animal's body between the ribs and the hip",
           "body": [
             "(бок (тела))"
@@ -430,20 +418,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The far left or right side of an army, a team, or a formation",
           "body": [
-            "(фланг)",
-            "---"
+            "(фланг)"
           ],
           "examples": [
             "The enemy attacked on the left flank.",
             "Their defense is weak on both flanks.",
             "He sent riders out to protect the flank."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A lean cut of beef from the belly area below the ribs",
+          "body": [
+            "(пашина (мясной отруб))",
+            "---"
+          ],
+          "examples": [
+            "Flank steak is best sliced against the grain.",
+            "She marinated the flank for two hours.",
+            "Grill the flank hot and fast."
+          ]
         }
       ],
-      "русский": "пашина (мясной отруб); бок (тела); фланг",
+      "русский": "бок (тела); фланг; пашина (мясной отруб)",
       "plural": "flanks",
       "countability": "countable, and uncountable as food"
     },
@@ -514,41 +514,41 @@
       "respell": "WING",
       "meaning": "Wing has 2 distinct senses.",
       "examples": [
-        "We ordered twenty wings for the game.",
-        "This wing is barely cooked.",
-        "Their buffalo wings are the best in town.",
         "The bird broke a wing hitting the window.",
         "It spread its wings and took off.",
-        "One wing was still bandaged when we let it go."
+        "One wing was still bandaged when we let it go.",
+        "We ordered twenty wings for the game.",
+        "This wing is barely cooked.",
+        "Their buffalo wings are the best in town."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The arm of a bird, eaten as food, usually fried or grilled with sauce",
-          "body": [
-            "(крылышко (куриное))"
-          ],
-          "examples": [
-            "We ordered twenty wings for the game.",
-            "This wing is barely cooked.",
-            "Their buffalo wings are the best in town."
-          ]
-        },
-        {
-          "n": "2",
           "head": "One of the two limbs a bird uses to fly",
           "body": [
-            "(крыло)",
-            "---"
+            "(крыло)"
           ],
           "examples": [
             "The bird broke a wing hitting the window.",
             "It spread its wings and took off.",
             "One wing was still bandaged when we let it go."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The arm of a bird, eaten as food, usually fried or grilled with sauce",
+          "body": [
+            "(крылышко (куриное))",
+            "---"
+          ],
+          "examples": [
+            "We ordered twenty wings for the game.",
+            "This wing is barely cooked.",
+            "Their buffalo wings are the best in town."
+          ]
         }
       ],
-      "русский": "крылышко (куриное); крыло",
+      "русский": "крыло; крылышко (куриное)",
       "plural": "wings",
       "countability": "countable"
     },
@@ -750,41 +750,41 @@
       "respell": "DUK",
       "meaning": "Duck has 2 distinct senses.",
       "examples": [
-        "The roast duck was the best thing on the table.",
-        "Duck has a lot more fat than chicken.",
-        "They ordered two ducks for the party.",
         "A duck and six ducklings crossed the road in front of us.",
         "We fed the ducks at the pond, though the sign says not to.",
-        "He ordered roast duck with plum sauce."
+        "He ordered roast duck with plum sauce.",
+        "The roast duck was the best thing on the table.",
+        "Duck has a lot more fat than chicken.",
+        "They ordered two ducks for the party."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A water bird eaten as food, or its rich dark meat",
-          "body": [
-            "(утка (мясо утки))"
-          ],
-          "examples": [
-            "The roast duck was the best thing on the table.",
-            "Duck has a lot more fat than chicken.",
-            "They ordered two ducks for the party."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A water bird with webbed feet and a flat bill",
           "body": [
-            "(утка)",
-            "---"
+            "(утка)"
           ],
           "examples": [
             "A duck and six ducklings crossed the road in front of us.",
             "We fed the ducks at the pond, though the sign says not to.",
             "He ordered roast duck with plum sauce."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A water bird eaten as food, or its rich dark meat",
+          "body": [
+            "(утка (мясо утки))",
+            "---"
+          ],
+          "examples": [
+            "The roast duck was the best thing on the table.",
+            "Duck has a lot more fat than chicken.",
+            "They ordered two ducks for the party."
+          ]
         }
       ],
-      "русский": "утка (мясо утки); утка",
+      "русский": "утка; утка (мясо утки)",
       "plural": "ducks",
       "countability": "countable, and uncountable as food"
     },

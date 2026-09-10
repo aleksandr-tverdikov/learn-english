@@ -364,23 +364,23 @@ A group of teams, countries, or people joined together for a common purpose.
 ### party
 
 **Pronunciation:** /ˈpɑːrti/ &middot; *PAR-tee*
-**Русский:** партия (политическая); группа людей; вечеринка
+**Русский:** вечеринка; партия (политическая); группа людей
 **Plural:** *parties*
 **Countability:** countable
 
 Party has 2 distinct senses.
 
-**1. An organized political group, or a group of people acting together.** (партия (политическая); группа людей)
+**1. A social event where people gather to eat, drink, talk, and enjoy themselves.** (вечеринка)
 
-1. Neither *party* wanted an early election.
-2. A search *party* went out at dawn.
-3. Both *parties* signed the agreement.
+1. We're having a *party* Saturday night — you should come.
+2. His birthday *parties* were legendary in the neighborhood.
+3. The *party* went on until two in the morning.
 
-**2. A social event where people gather to eat, drink, talk, and enjoy themselves.** (вечеринка)
+**2. An organized political group, or a group of people acting together.** (партия (политическая); группа людей)
 
-4. We're having a *party* Saturday night — you should come.
-5. His birthday *parties* were legendary in the neighborhood.
-6. The *party* went on until two in the morning.
+4. Neither *party* wanted an early election.
+5. A search *party* went out at dawn.
+6. Both *parties* signed the agreement.
 
 ---
 
@@ -487,24 +487,24 @@ The ethnic group a person belongs to, based on shared origin and culture.
 ### race
 
 **Pronunciation:** /reɪs/ &middot; *RAYS*
-**Русский:** раса; гонка, забег, заезд; борьба за пост, предвыборная гонка
+**Русский:** гонка, забег, заезд; раса; борьба за пост, предвыборная гонка
 **Plural:** *races*
 **Countability:** countable
 **Contrast:** The same word also means a speed contest: *a horse race*.
 
 Race has 3 distinct senses.
 
-**1. A group of people seen as sharing physical features and ancestry.** (раса)
+**1. A contest to see who is fastest.** (гонка, забег, заезд)
 
-1. The law bans discrimination based on *race*.
-2. People of all *races* live on this block.
-3. *Race* is still a difficult subject in America.
+1. She won the 400-meter *race* by half a second.
+2. The *race* was called off because of rain.
+3. We watched the sailboat *races* from the pier.
 
-**2. A contest to see who is fastest.** (гонка, забег, заезд)
+**2. A group of people seen as sharing physical features and ancestry.** (раса)
 
-4. She won the 400-meter *race* by half a second.
-5. The *race* was called off because of rain.
-6. We watched the sailboat *races* from the pier.
+4. The law bans discrimination based on *race*.
+5. People of all *races* live on this block.
+6. *Race* is still a difficult subject in America.
 
 **3. A competition for a position or a prize, especially in politics.** (борьба за пост, предвыборная гонка)
 

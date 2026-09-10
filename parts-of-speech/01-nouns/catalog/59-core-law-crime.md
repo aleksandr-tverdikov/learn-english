@@ -155,30 +155,30 @@ Counsel has 2 distinct senses.
 ### defense
 
 **Pronunciation:** /dɪˈfɛns/ &middot; *dih-FENSS*
-**Русский:** защита (в суде); оборона; оборона; (мн. ч.) укрепления
+**Русский:** оборона; (мн. ч.) укрепления; защита (в суде); оборона
 **Plural:** *defenses*
 **Countability:** countable
 **Contrast:** American spelling is *defense*; the British write *defence*.
 
 Defense has 3 distinct senses.
 
-**1. The side arguing for the accused person in court, or the case they make.** (защита (в суде))
+**1. Protection against attack, or the walls and works built to provide it.** (оборона; (мн. ч.) укрепления)
 
-1. The *defense* rested after two witnesses.
-2. Self-preservation was the only *defense* he had.
-3. Their *defenses* fell apart under questioning.
+1. The city's *defense* held for a week.
+2. The country spends billions on national *defense*.
+3. The coastal *defenses* were never finished.
 
-**2. The protection of a country against attack, and the money and forces used for it.** (оборона)
+**2. The side arguing for the accused person in court, or the case they make.** (защита (в суде))
 
-4. *Defense* takes up a huge share of the budget.
-5. She works at the Department of *Defense*.
-6. They voted to raise *defense* spending again.
+4. The *defense* rested after two witnesses.
+5. Self-preservation was the only *defense* he had.
+6. Their *defenses* fell apart under questioning.
 
-**3. Protection against attack, or the walls and works built to provide it.** (оборона; (мн. ч.) укрепления)
+**3. The protection of a country against attack, and the money and forces used for it.** (оборона)
 
-7. The city's *defense* held for a week.
-8. The country spends billions on national *defense*.
-9. The coastal *defenses* were never finished.
+7. *Defense* takes up a huge share of the budget.
+8. She works at the Department of *Defense*.
+9. They voted to raise *defense* spending again.
 
 ---
 
@@ -223,23 +223,23 @@ Trial has 2 distinct senses.
 ### hearing
 
 **Pronunciation:** /ˈhɪrɪŋ/ &middot; *HEER-ing*
-**Русский:** слушание (в суде); слух
+**Русский:** слух; слушание (в суде)
 **Plural:** *hearings*
 **Countability:** countable
 
 Hearing has 2 distinct senses.
 
-**1. A meeting in court or before officials where evidence and arguments are heard.** (слушание (в суде))
+**1. The ability to hear.** (слух)
 
-1. The *hearing* is set for the tenth.
-2. She testified at a Senate *hearing*.
-3. Two *hearings* were postponed.
+1. My grandfather's *hearing* isn't what it used to be.
+2. Years of loud concerts damaged his *hearing*.
+3. She lost the *hearing* in one ear after the infection.
 
-**2. The ability to hear.** (слух)
+**2. A meeting in court or before officials where evidence and arguments are heard.** (слушание (в суде))
 
-4. My grandfather's *hearing* isn't what it used to be.
-5. Years of loud concerts damaged his *hearing*.
-6. She lost the *hearing* in one ear after the infection.
+4. The *hearing* is set for the tenth.
+5. She testified at a Senate *hearing*.
+6. Two *hearings* were postponed.
 
 ---
 
@@ -304,53 +304,53 @@ Verdict has 2 distinct senses.
 ### sentence
 
 **Pronunciation:** /ˈsɛntəns/ &middot; *SEN-tuhns*
-**Русский:** приговор (наказание); предложение (в грамматике)
+**Русский:** предложение (в грамматике); приговор (наказание)
 **Plural:** *sentences*
 **Countability:** countable
 **Contrast:** The same word means a sentence in grammar; only context tells you which.
 
 Sentence has 2 distinct senses.
 
-**1. The punishment a court orders for someone found guilty.** (приговор (наказание))
+**1. A group of words that expresses a complete thought.** (предложение (в грамматике))
 
-1. He got a five-year *sentence*.
-2. The judge suspended the *sentence*.
-3. Longer *sentences* haven't reduced the crime rate.
+1. Write your answer in one complete *sentence*.
+2. That *sentence* is missing a verb.
+3. He reads the first two *sentences* of an article and stops.
 
-**2. A group of words that expresses a complete thought.** (предложение (в грамматике))
+**2. The punishment a court orders for someone found guilty.** (приговор (наказание))
 
-4. Write your answer in one complete *sentence*.
-5. That *sentence* is missing a verb.
-6. He reads the first two *sentences* of an article and stops.
+4. He got a five-year *sentence*.
+5. The judge suspended the *sentence*.
+6. Longer *sentences* haven't reduced the crime rate.
 
 ---
 
 ### appeal
 
 **Pronunciation:** /əˈpiːl/ &middot; *uh-PEEL*
-**Русский:** апелляция, обжалование; призыв, обращение (за помощью); привлекательность, притягательность
+**Русский:** привлекательность, притягательность; апелляция, обжалование; призыв, обращение (за помощью)
 **Plural:** *appeals*
 **Countability:** countable
 
 Appeal has 3 distinct senses.
 
-**1. A request that a higher court review and change a decision.** (апелляция, обжалование)
+**1. The quality that makes something or someone attractive or interesting.** (привлекательность, притягательность)
 
-1. Her lawyers filed an *appeal* the next morning.
-2. The *appeal* was denied.
-3. He has two *appeals* still pending.
+1. The show has broad *appeal* across age groups.
+2. I never understood the *appeal* of camping.
+3. The car's *appeal* is that anyone can fix it.
 
-**2. An urgent public request for money or help.** (призыв, обращение (за помощью))
+**2. A request that a higher court review and change a decision.** (апелляция, обжалование)
 
-4. The shelter put out an *appeal* for winter coats.
-5. Their *appeal* raised forty thousand dollars in a week.
-6. Police made a televised *appeal* for witnesses.
+4. Her lawyers filed an *appeal* the next morning.
+5. The *appeal* was denied.
+6. He has two *appeals* still pending.
 
-**3. The quality that makes something or someone attractive or interesting.** (привлекательность, притягательность)
+**3. An urgent public request for money or help.** (призыв, обращение (за помощью))
 
-7. The show has broad *appeal* across age groups.
-8. I never understood the *appeal* of camping.
-9. The car's *appeal* is that anyone can fix it.
+7. The shelter put out an *appeal* for winter coats.
+8. Their *appeal* raised forty thousand dollars in a week.
+9. Police made a televised *appeal* for witnesses.
 
 ---
 
@@ -528,30 +528,30 @@ An official decision made by a judge or court.
 ### judgment
 
 **Pronunciation:** /ˈdʒʌdʒmənt/ &middot; *JUJ-muhnt*
-**Русский:** решение суда; суд (Божий), осуждение; суждение; рассудительность
+**Русский:** суждение; рассудительность; решение суда; суд (Божий), осуждение
 **Plural:** *judgments*
 **Countability:** countable
 **Contrast:** Americans spell it *judgment*, with no e after the g; the British often write *judgement*.
 
 Judgment has 3 distinct senses.
 
-**1. A court's formal decision, especially about who owes money to whom.** (решение суда)
+**1. The ability to make sensible decisions, or an opinion formed after thinking.** (суждение; рассудительность)
 
-1. The court entered a *judgment* against the company.
-2. He still hasn't paid the *judgment*.
-3. Small-claims *judgments* are hard to collect.
+1. I trust her *judgment* on hiring.
+2. He kept his *judgments* to himself during the meeting.
+3. Drinking clouds your *judgment*.
 
-**2. God's decision about whether people have lived rightly.** (суд (Божий), осуждение)
+**2. A court's formal decision, especially about who owes money to whom.** (решение суда)
 
-4. The painting shows the day of *judgment*.
-5. He preached about *judgment* and mercy.
-6. They believe everyone faces *judgment* in the end.
+4. The court entered a *judgment* against the company.
+5. He still hasn't paid the *judgment*.
+6. Small-claims *judgments* are hard to collect.
 
-**3. The ability to make sensible decisions, or an opinion formed after thinking.** (суждение; рассудительность)
+**3. God's decision about whether people have lived rightly.** (суд (Божий), осуждение)
 
-7. I trust her *judgment* on hiring.
-8. He kept his *judgments* to himself during the meeting.
-9. Drinking clouds your *judgment*.
+7. The painting shows the day of *judgment*.
+8. He preached about *judgment* and mercy.
+9. They believe everyone faces *judgment* in the end.
 
 ---
 
@@ -936,22 +936,22 @@ The crime of lying after swearing to tell the truth in court.
 ### contempt
 
 **Pronunciation:** /kənˈtɛmpt/ &middot; *kuhn-TEMPT*
-**Русский:** неуважение к суду; презрение
+**Русский:** презрение; неуважение к суду
 **Countability:** uncountable
 
 Contempt has 2 distinct senses.
 
-**1. Disobeying a court or disrupting it, which a judge can punish directly.** (неуважение к суду)
+**1. The feeling that someone or something is worthless.** (презрение)
 
-1. The judge held him in *contempt*.
-2. She spent a night in jail for *contempt* of court.
-3. One more outburst and you're in *contempt*.
+1. He treated the whole idea with *contempt*.
+2. You could see the *contempt* in her expression.
+3. Familiarity does not always breed *contempt*.
 
-**2. The feeling that someone or something is worthless.** (презрение)
+**2. Disobeying a court or disrupting it, which a judge can punish directly.** (неуважение к суду)
 
-4. He treated the whole idea with *contempt*.
-5. You could see the *contempt* in her expression.
-6. Familiarity does not always breed *contempt*.
+4. The judge held him in *contempt*.
+5. She spent a night in jail for *contempt* of court.
+6. One more outburst and you're in *contempt*.
 
 ---
 
@@ -981,23 +981,23 @@ Clause has 2 distinct senses.
 ### deed
 
 **Pronunciation:** /diːd/ &middot; *DEED*
-**Русский:** документ о праве собственности (на недвижимость); поступок, деяние
+**Русский:** поступок, деяние; документ о праве собственности (на недвижимость)
 **Plural:** *deeds*
 **Countability:** countable
 
 Deed has 2 distinct senses.
 
-**1. The legal document that shows who owns a piece of property.** (документ о праве собственности (на недвижимость))
+**1. Something that someone does, especially something notable.** (поступок, деяние)
 
-1. The *deed* is in both their names.
-2. He couldn't find the *deed* to the house.
-3. The old *deeds* are kept at the county office.
+1. She was honored for her good *deeds* in the community.
+2. He is remembered for one brave *deed*.
+3. Words matter less than *deeds*.
 
-**2. Something that someone does, especially something notable.** (поступок, деяние)
+**2. The legal document that shows who owns a piece of property.** (документ о праве собственности (на недвижимость))
 
-4. She was honored for her good *deeds* in the community.
-5. He is remembered for one brave *deed*.
-6. Words matter less than *deeds*.
+4. The *deed* is in both their names.
+5. He couldn't find the *deed* to the house.
+6. The old *deeds* are kept at the county office.
 
 ---
 

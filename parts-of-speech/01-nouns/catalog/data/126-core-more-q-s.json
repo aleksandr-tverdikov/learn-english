@@ -7453,12 +7453,12 @@
         "Fill out the deposit slip before you get in line.",
         "She handed me a slip with her number on it.",
         "Keep your parking slips for reimbursement.",
-        "She wore a silk slip under the thin dress.",
-        "The lining had pulled away from the slip.",
-        "Slips are hard to find in stores now.",
         "It was just a slip of the tongue.",
         "One slip in the code cost them a whole day.",
-        "He apologized for the slip and moved on."
+        "He apologized for the slip and moved on.",
+        "She wore a silk slip under the thin dress.",
+        "The lining had pulled away from the slip.",
+        "Slips are hard to find in stores now."
       ],
       "senses": [
         {
@@ -7475,31 +7475,31 @@
         },
         {
           "n": "2",
-          "head": "A light dress-shaped undergarment worn beneath a dress or skirt",
-          "body": [
-            "(комбинация (нижнее бельё))"
-          ],
-          "examples": [
-            "She wore a silk slip under the thin dress.",
-            "The lining had pulled away from the slip.",
-            "Slips are hard to find in stores now."
-          ]
-        },
-        {
-          "n": "3",
           "head": "A small careless mistake, especially in speaking",
           "body": [
-            "(оплошность, обмолвка)",
-            "---"
+            "(оплошность, обмолвка)"
           ],
           "examples": [
             "It was just a slip of the tongue.",
             "One slip in the code cost them a whole day.",
             "He apologized for the slip and moved on."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A light dress-shaped undergarment worn beneath a dress or skirt",
+          "body": [
+            "(комбинация (нижнее бельё))",
+            "---"
+          ],
+          "examples": [
+            "She wore a silk slip under the thin dress.",
+            "The lining had pulled away from the slip.",
+            "Slips are hard to find in stores now."
+          ]
         }
       ],
-      "русский": "листок, квитанция; комбинация (нижнее бельё); оплошность, обмолвка",
+      "русский": "листок, квитанция; оплошность, обмолвка; комбинация (нижнее бельё)",
       "plural": "slips",
       "countability": "countable"
     },
@@ -10285,12 +10285,12 @@
       "respell": "STRAYN",
       "meaning": "Strain has 3 distinct senses.",
       "examples": [
-        "He's out with a hamstring strain.",
-        "The doctor said it's just a mild strain.",
-        "Two players have muscle strains.",
         "The long hours put a strain on their marriage.",
         "The heat wave put a strain on the power grid.",
         "You can hear the strain in his voice.",
+        "He's out with a hamstring strain.",
+        "The doctor said it's just a mild strain.",
+        "Two players have muscle strains.",
         "A new strain of flu is going around.",
         "Farmers planted a strain of wheat that resists drought.",
         "The lab identified two strains of the bacteria."
@@ -10298,18 +10298,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "An injury caused by stretching a muscle too far",
-          "body": [
-            "(растяжение (мышцы))"
-          ],
-          "examples": [
-            "He's out with a hamstring strain.",
-            "The doctor said it's just a mild strain.",
-            "Two players have muscle strains."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Pressure or worry that is hard to bear, or the force pulling on something",
           "body": [
             "(напряжение, нагрузка)"
@@ -10318,6 +10306,18 @@
             "The long hours put a strain on their marriage.",
             "The heat wave put a strain on the power grid.",
             "You can hear the strain in his voice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An injury caused by stretching a muscle too far",
+          "body": [
+            "(растяжение (мышцы))"
+          ],
+          "examples": [
+            "He's out with a hamstring strain.",
+            "The doctor said it's just a mild strain.",
+            "Two players have muscle strains."
           ]
         },
         {
@@ -10334,7 +10334,7 @@
           ]
         }
       ],
-      "русский": "растяжение (мышцы); напряжение, нагрузка; штамм, разновидность",
+      "русский": "напряжение, нагрузка; растяжение (мышцы); штамм, разновидность",
       "plural": "strains",
       "countability": "countable"
     },

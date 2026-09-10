@@ -1735,41 +1735,41 @@
       "respell": "HUR-duhl",
       "meaning": "Hurdle has 2 distinct senses.",
       "examples": [
-        "She clipped the last hurdle and still won.",
-        "He runs the four hundred meter hurdles.",
-        "Setting up the hurdles takes ten minutes.",
         "Getting the visa was the biggest hurdle.",
         "The bill still faces several hurdles in the Senate.",
-        "We cleared the first hurdle when the bank approved the loan."
+        "We cleared the first hurdle when the bank approved the loan.",
+        "She clipped the last hurdle and still won.",
+        "He runs the four hundred meter hurdles.",
+        "Setting up the hurdles takes ten minutes."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One of the light barriers a runner jumps over in a race",
-          "body": [
-            "(барьер (в беге))"
-          ],
-          "examples": [
-            "She clipped the last hurdle and still won.",
-            "He runs the four hundred meter hurdles.",
-            "Setting up the hurdles takes ten minutes."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A difficulty that has to be dealt with before you can go on",
           "body": [
-            "(препятствие, преграда)",
-            "---"
+            "(препятствие, преграда)"
           ],
           "examples": [
             "Getting the visa was the biggest hurdle.",
             "The bill still faces several hurdles in the Senate.",
             "We cleared the first hurdle when the bank approved the loan."
           ]
+        },
+        {
+          "n": "2",
+          "head": "One of the light barriers a runner jumps over in a race",
+          "body": [
+            "(барьер (в беге))",
+            "---"
+          ],
+          "examples": [
+            "She clipped the last hurdle and still won.",
+            "He runs the four hundred meter hurdles.",
+            "Setting up the hurdles takes ten minutes."
+          ]
         }
       ],
-      "русский": "барьер (в беге); препятствие, преграда",
+      "русский": "препятствие, преграда; барьер (в беге)",
       "plural": "hurdles",
       "countability": "countable",
       "contrast": "Don't confuse it with hurtle, which means to rush along fast."
@@ -1931,31 +1931,19 @@
       "respell": "MOWND",
       "meaning": "Mound has 3 distinct senses.",
       "examples": [
-        "The pitcher walked slowly to the mound.",
-        "He's been on the mound for six innings.",
-        "The groundskeepers rebuild the mound every spring.",
         "Gophers left mounds of dirt all over the yard.",
         "The trail climbs a grassy mound above the river.",
         "Archaeologists dug into an ancient burial mound.",
         "There's a mound of laundry on the bed.",
         "He served us each a mound of mashed potatoes.",
-        "A mound of paperwork was waiting on my desk."
+        "A mound of paperwork was waiting on my desk.",
+        "The pitcher walked slowly to the mound.",
+        "He's been on the mound for six innings.",
+        "The groundskeepers rebuild the mound every spring."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The raised circle of dirt a baseball pitcher throws from",
-          "body": [
-            "(горка питчера)"
-          ],
-          "examples": [
-            "The pitcher walked slowly to the mound.",
-            "He's been on the mound for six innings.",
-            "The groundskeepers rebuild the mound every spring."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small hill or a raised pile of earth",
           "body": [
             "(холмик, насыпь, курган)"
@@ -1967,20 +1955,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A large heap of something piled up",
           "body": [
-            "(куча, груда)",
-            "---"
+            "(куча, груда)"
           ],
           "examples": [
             "There's a mound of laundry on the bed.",
             "He served us each a mound of mashed potatoes.",
             "A mound of paperwork was waiting on my desk."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The raised circle of dirt a baseball pitcher throws from",
+          "body": [
+            "(горка питчера)",
+            "---"
+          ],
+          "examples": [
+            "The pitcher walked slowly to the mound.",
+            "He's been on the mound for six innings.",
+            "The groundskeepers rebuild the mound every spring."
+          ]
         }
       ],
-      "русский": "горка питчера; холмик, насыпь, курган; куча, груда",
+      "русский": "холмик, насыпь, курган; куча, груда; горка питчера",
       "plural": "mounds",
       "countability": "countable"
     },
@@ -2697,12 +2697,12 @@
       "respell": "AYSE",
       "meaning": "Ace has 3 distinct senses.",
       "examples": [
-        "He finished the match with eighteen aces.",
-        "That ace saved the set.",
-        "She hit an ace on match point.",
         "She turned over an ace and took the hand.",
         "He was holding two aces and said nothing.",
         "The ace of spades was missing from the deck.",
+        "He finished the match with eighteen aces.",
+        "That ace saved the set.",
+        "She hit an ace on match point.",
         "Ask Dana about the budget — she's an ace with spreadsheets.",
         "His grandfather was a fighter ace in the Pacific.",
         "The hospital's ace surgeon takes the hardest cases."
@@ -2710,18 +2710,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A serve so good the opponent cannot touch it",
-          "body": [
-            "(эйс (подача навылет))"
-          ],
-          "examples": [
-            "He finished the match with eighteen aces.",
-            "That ace saved the set.",
-            "She hit an ace on match point."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A playing card marked with a single symbol, usually the highest card in a game",
           "body": [
             "(туз)"
@@ -2730,6 +2718,18 @@
             "She turned over an ace and took the hand.",
             "He was holding two aces and said nothing.",
             "The ace of spades was missing from the deck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A serve so good the opponent cannot touch it",
+          "body": [
+            "(эйс (подача навылет))"
+          ],
+          "examples": [
+            "He finished the match with eighteen aces.",
+            "That ace saved the set.",
+            "She hit an ace on match point."
           ]
         },
         {
@@ -2746,7 +2746,7 @@
           ]
         }
       ],
-      "русский": "эйс (подача навылет); туз; ас, мастер своего дела",
+      "русский": "туз; эйс (подача навылет); ас, мастер своего дела",
       "plural": "aces",
       "countability": "countable"
     },
@@ -2815,41 +2815,41 @@
       "respell": "PAR",
       "meaning": "Par has 2 distinct senses.",
       "examples": [
-        "He finished the round two under par.",
-        "The seventh hole is a par five.",
-        "Her score was right at par.",
         "Long lines at the DMV are par for the course.",
         "His work hasn't been up to par lately.",
-        "I've been feeling a little under par all week."
+        "I've been feeling a little under par all week.",
+        "He finished the round two under par.",
+        "The seventh hole is a par five.",
+        "Her score was right at par."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The number of strokes a good golfer is expected to need for a hole or course",
-          "body": [
-            "(пар (норма ударов в гольфе))"
-          ],
-          "examples": [
-            "He finished the round two under par.",
-            "The seventh hole is a par five.",
-            "Her score was right at par."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The usual or expected standard",
           "body": [
-            "(норма, обычный уровень)",
-            "---"
+            "(норма, обычный уровень)"
           ],
           "examples": [
             "Long lines at the DMV are par for the course.",
             "His work hasn't been up to par lately.",
             "I've been feeling a little under par all week."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The number of strokes a good golfer is expected to need for a hole or course",
+          "body": [
+            "(пар (норма ударов в гольфе))",
+            "---"
+          ],
+          "examples": [
+            "He finished the round two under par.",
+            "The seventh hole is a par five.",
+            "Her score was right at par."
+          ]
         }
       ],
-      "русский": "пар (норма ударов в гольфе); норма, обычный уровень",
+      "русский": "норма, обычный уровень; пар (норма ударов в гольфе)",
       "countability": "uncountable"
     },
     {

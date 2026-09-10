@@ -265,41 +265,41 @@
       "respell": "PART",
       "meaning": "Part has 2 distinct senses.",
       "examples": [
-        "He wears his part on the left.",
-        "She switched to a middle part and looked completely different.",
-        "Deep side parts were everywhere that year.",
         "She landed the part of Juliet on her first audition.",
         "He has played small parts in a dozen shows.",
-        "It is a wonderful part for an older actor."
+        "It is a wonderful part for an older actor.",
+        "He wears his part on the left.",
+        "She switched to a middle part and looked completely different.",
+        "Deep side parts were everywhere that year."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The line on the head where hair is divided and combed in two directions",
-          "body": [
-            "(пробор)"
-          ],
-          "examples": [
-            "He wears his part on the left.",
-            "She switched to a middle part and looked completely different.",
-            "Deep side parts were everywhere that year."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A character that an actor plays in a performance",
           "body": [
-            "(роль)",
-            "---"
+            "(роль)"
           ],
           "examples": [
             "She landed the part of Juliet on her first audition.",
             "He has played small parts in a dozen shows.",
             "It is a wonderful part for an older actor."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The line on the head where hair is divided and combed in two directions",
+          "body": [
+            "(пробор)",
+            "---"
+          ],
+          "examples": [
+            "He wears his part on the left.",
+            "She switched to a middle part and looked completely different.",
+            "Deep side parts were everywhere that year."
+          ]
         }
       ],
-      "русский": "пробор; роль",
+      "русский": "роль; пробор",
       "plural": "parts",
       "countability": "countable",
       "contrast": "British English calls this a parting."
@@ -355,31 +355,19 @@
       "respell": "FRINJ",
       "meaning": "Fringe has 3 distinct senses.",
       "examples": [
-        "Her fringe had grown into her eyes.",
-        "A short fringe suits a round face, she says.",
-        "British magazines talk about fringes, not bangs.",
         "Her jacket had leather fringe along the sleeves.",
         "The rug's fringe was starting to unravel.",
         "Silk fringe hung from the edge of the lampshade.",
         "They live on the fringe of town, past the last stoplight.",
         "The idea started on the fringes of the party and slowly moved to the center.",
-        "Deer feed along the fringe of the woods at dusk."
+        "Deer feed along the fringe of the woods at dusk.",
+        "Her fringe had grown into her eyes.",
+        "A short fringe suits a round face, she says.",
+        "British magazines talk about fringes, not bangs."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Hair cut short and straight across the forehead",
-          "body": [
-            "(чёлка (британское))"
-          ],
-          "examples": [
-            "Her fringe had grown into her eyes.",
-            "A short fringe suits a round face, she says.",
-            "British magazines talk about fringes, not bangs."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A border of hanging threads or cords on a rug, a lampshade, or a piece of clothing",
           "body": [
             "(бахрома)"
@@ -391,20 +379,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The outer edge of an area, or the part of a group farthest from the center",
           "body": [
-            "(окраина; периферия, крайние круги)",
-            "---"
+            "(окраина; периферия, крайние круги)"
           ],
           "examples": [
             "They live on the fringe of town, past the last stoplight.",
             "The idea started on the fringes of the party and slowly moved to the center.",
             "Deer feed along the fringe of the woods at dusk."
           ]
+        },
+        {
+          "n": "3",
+          "head": "Hair cut short and straight across the forehead",
+          "body": [
+            "(чёлка (британское))",
+            "---"
+          ],
+          "examples": [
+            "Her fringe had grown into her eyes.",
+            "A short fringe suits a round face, she says.",
+            "British magazines talk about fringes, not bangs."
+          ]
         }
       ],
-      "русский": "чёлка (британское); бахрома; окраина; периферия, крайние круги",
+      "русский": "бахрома; окраина; периферия, крайние круги; чёлка (британское)",
       "plural": "fringes",
       "countability": "countable",
       "contrast": "British word; Americans say bangs for hair cut across the forehead."
@@ -997,41 +997,41 @@
       "respell": "BLOH-owt",
       "meaning": "Blowout has 2 distinct senses.",
       "examples": [
-        "She got a blowout before the interview.",
-        "A blowout lasts me about three days.",
-        "That place does blowouts for forty dollars.",
         "A blowout at that speed is terrifying.",
         "Old tires cause most blowouts.",
-        "The blowout pulled the truck toward the shoulder."
+        "The blowout pulled the truck toward the shoulder.",
+        "She got a blowout before the interview.",
+        "A blowout lasts me about three days.",
+        "That place does blowouts for forty dollars."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A salon service in which the hair is washed and dried smooth with a brush and dryer",
-          "body": [
-            "(укладка феном)"
-          ],
-          "examples": [
-            "She got a blowout before the interview.",
-            "A blowout lasts me about three days.",
-            "That place does blowouts for forty dollars."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A tire bursting suddenly while the car is moving",
           "body": [
-            "(разрыв шины на ходу)",
-            "---"
+            "(разрыв шины на ходу)"
           ],
           "examples": [
             "A blowout at that speed is terrifying.",
             "Old tires cause most blowouts.",
             "The blowout pulled the truck toward the shoulder."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A salon service in which the hair is washed and dried smooth with a brush and dryer",
+          "body": [
+            "(укладка феном)",
+            "---"
+          ],
+          "examples": [
+            "She got a blowout before the interview.",
+            "A blowout lasts me about three days.",
+            "That place does blowouts for forty dollars."
+          ]
         }
       ],
-      "русский": "укладка феном; разрыв шины на ходу",
+      "русский": "разрыв шины на ходу; укладка феном",
       "plural": "blowouts",
       "countability": "countable"
     },
@@ -1374,41 +1374,41 @@
       "respell": "HY-lyts",
       "meaning": "Highlights has 2 distinct senses.",
       "examples": [
-        "She got highlights around her face.",
-        "The highlights have grown out an inch.",
-        "Highlights take twice as long as a single color.",
         "I missed the game, so I watched the highlights on my phone.",
         "The station shows highlights from every Sunday game.",
-        "The team posted the highlights right after the final whistle."
+        "The team posted the highlights right after the final whistle.",
+        "She got highlights around her face.",
+        "The highlights have grown out an inch.",
+        "Highlights take twice as long as a single color."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Lighter streaks put into the hair with color or bleach",
-          "body": [
-            "(мелирование)"
-          ],
-          "examples": [
-            "She got highlights around her face.",
-            "The highlights have grown out an inch.",
-            "Highlights take twice as long as a single color."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The best moments of a game or event, especially shown afterward as a short video",
           "body": [
-            "(лучшие моменты, нарезка (обзор матча))",
-            "---"
+            "(лучшие моменты, нарезка (обзор матча))"
           ],
           "examples": [
             "I missed the game, so I watched the highlights on my phone.",
             "The station shows highlights from every Sunday game.",
             "The team posted the highlights right after the final whistle."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Lighter streaks put into the hair with color or bleach",
+          "body": [
+            "(мелирование)",
+            "---"
+          ],
+          "examples": [
+            "She got highlights around her face.",
+            "The highlights have grown out an inch.",
+            "Highlights take twice as long as a single color."
+          ]
         }
       ],
-      "русский": "мелирование; лучшие моменты, нарезка (обзор матча)",
+      "русский": "лучшие моменты, нарезка (обзор матча); мелирование",
       "plural": "highlights",
       "countability": "countable",
       "contrast": "In the hair sense the word is nearly always plural: highlights."
@@ -1786,41 +1786,41 @@
       "respell": "PRY-mur",
       "meaning": "Primer has 2 distinct senses.",
       "examples": [
-        "A little primer keeps her foundation from sliding.",
-        "This primer fills in large pores.",
-        "She tried four primers before finding one she liked.",
         "Put primer on before you paint the color.",
         "The stain bled through two coats of primer.",
-        "Tinted primers can save you a coat."
+        "Tinted primers can save you a coat.",
+        "A little primer keeps her foundation from sliding.",
+        "This primer fills in large pores.",
+        "She tried four primers before finding one she liked."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A cream put on the skin before makeup so it goes on smoothly and lasts",
-          "body": [
-            "(праймер, база под макияж)"
-          ],
-          "examples": [
-            "A little primer keeps her foundation from sliding.",
-            "This primer fills in large pores.",
-            "She tried four primers before finding one she liked."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A first coat of paint that seals a surface so the finish coat will stick",
           "body": [
-            "(грунтовка)",
-            "---"
+            "(грунтовка)"
           ],
           "examples": [
             "Put primer on before you paint the color.",
             "The stain bled through two coats of primer.",
             "Tinted primers can save you a coat."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A cream put on the skin before makeup so it goes on smoothly and lasts",
+          "body": [
+            "(праймер, база под макияж)",
+            "---"
+          ],
+          "examples": [
+            "A little primer keeps her foundation from sliding.",
+            "This primer fills in large pores.",
+            "She tried four primers before finding one she liked."
+          ]
         }
       ],
-      "русский": "праймер, база под макияж; грунтовка",
+      "русский": "грунтовка; праймер, база под макияж",
       "plural": "primers",
       "countability": "countable, and uncountable as a substance",
       "contrast": "The makeup sense is PRY-mur; the beginner's schoolbook called a primer is PRIM-ur in the US."
@@ -1921,41 +1921,41 @@
       "respell": "BROW",
       "meaning": "Brow has 2 distinct senses.",
       "examples": [
-        "She gets her brows waxed every month.",
-        "One brow is higher than the other.",
-        "Thick brows came back in fashion.",
         "He wiped the sweat from his brow.",
         "Her brow wrinkled as she read the letter.",
-        "A cold cloth on the brow brought the fever down."
+        "A cold cloth on the brow brought the fever down.",
+        "She gets her brows waxed every month.",
+        "One brow is higher than the other.",
+        "Thick brows came back in fashion."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An eyebrow, especially as something that is shaped and made up",
-          "body": [
-            "(бровь)"
-          ],
-          "examples": [
-            "She gets her brows waxed every month.",
-            "One brow is higher than the other.",
-            "Thick brows came back in fashion."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The forehead",
           "body": [
-            "(лоб)",
-            "---"
+            "(лоб)"
           ],
           "examples": [
             "He wiped the sweat from his brow.",
             "Her brow wrinkled as she read the letter.",
             "A cold cloth on the brow brought the fever down."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An eyebrow, especially as something that is shaped and made up",
+          "body": [
+            "(бровь)",
+            "---"
+          ],
+          "examples": [
+            "She gets her brows waxed every month.",
+            "One brow is higher than the other.",
+            "Thick brows came back in fashion."
+          ]
         }
       ],
-      "русский": "бровь; лоб",
+      "русский": "лоб; бровь",
       "plural": "brows",
       "countability": "countable",
       "contrast": "Rhymes with cow, not with low."
@@ -2366,41 +2366,41 @@
       "respell": "TOH-nur",
       "meaning": "Toner has 2 distinct senses.",
       "examples": [
-        "She pats toner on with a cotton pad.",
-        "The toner stung a little at first.",
-        "Alcohol-based toners have gone out of style.",
         "We're low on toner again.",
         "Toner got all over my hands when I changed it.",
-        "The copier stops when the toner runs out."
+        "The copier stops when the toner runs out.",
+        "She pats toner on with a cotton pad.",
+        "The toner stung a little at first.",
+        "Alcohol-based toners have gone out of style."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A liquid wiped on the face after washing to balance the skin",
-          "body": [
-            "(тоник для лица)"
-          ],
-          "examples": [
-            "She pats toner on with a cotton pad.",
-            "The toner stung a little at first.",
-            "Alcohol-based toners have gone out of style."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The fine dark powder a laser printer or copier melts onto the page",
           "body": [
-            "(тонер)",
-            "---"
+            "(тонер)"
           ],
           "examples": [
             "We're low on toner again.",
             "Toner got all over my hands when I changed it.",
             "The copier stops when the toner runs out."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A liquid wiped on the face after washing to balance the skin",
+          "body": [
+            "(тоник для лица)",
+            "---"
+          ],
+          "examples": [
+            "She pats toner on with a cotton pad.",
+            "The toner stung a little at first.",
+            "Alcohol-based toners have gone out of style."
+          ]
         }
       ],
-      "русский": "тоник для лица; тонер",
+      "русский": "тонер; тоник для лица",
       "plural": "toners",
       "countability": "countable, and uncountable as a substance"
     },

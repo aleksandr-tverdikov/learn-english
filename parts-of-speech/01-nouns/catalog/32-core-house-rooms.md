@@ -938,23 +938,23 @@ A machine that carries people up and down between floors of a building.
 ### landing
 
 **Pronunciation:** /ˈlændɪŋ/ &middot; *LAN-ding*
-**Русский:** лестничная площадка; посадка, приземление; пристань, причал
+**Русский:** посадка, приземление; лестничная площадка; пристань, причал
 **Plural:** *landings*
 **Countability:** countable
 
 Landing has 3 distinct senses.
 
-**1. The flat area at the top of a flight of stairs or between two flights.** (лестничная площадка)
+**1. The act of bringing an aircraft or a spacecraft down to the ground.** (посадка, приземление)
 
-1. There's a window on the *landing*.
-2. He stopped on the *landing* to catch his breath.
-3. The *landings* are wide enough for a chair.
+1. The pilot made a smooth *landing* in heavy wind.
+2. Bad weather forced an emergency *landing* in Denver.
+3. The moon *landing* was watched by millions.
 
-**2. The act of bringing an aircraft or a spacecraft down to the ground.** (посадка, приземление)
+**2. The flat area at the top of a flight of stairs or between two flights.** (лестничная площадка)
 
-4. The pilot made a smooth *landing* in heavy wind.
-5. Bad weather forced an emergency *landing* in Denver.
-6. The moon *landing* was watched by millions.
+4. There's a window on the *landing*.
+5. He stopped on the *landing* to catch his breath.
+6. The *landings* are wide enough for a chair.
 
 **3. A place on a shore where boats load and unload.** (пристань, причал)
 
@@ -1426,23 +1426,23 @@ Frame has 2 distinct senses.
 ### screen
 
 **Pronunciation:** /skriːn/ &middot; *SKREEN*
-**Русский:** москитная сетка; экран; экран (телевизора, компьютера, телефона); ширма, перегородка
+**Русский:** экран (телевизора, компьютера, телефона); москитная сетка; экран; ширма, перегородка
 **Plural:** *screens*
 **Countability:** countable
 
 Screen has 3 distinct senses.
 
-**1. A fine mesh in a window or door that keeps insects out.** (москитная сетка; экран)
+**1. The flat surface of a TV, computer, or phone on which images appear.** (экран (телевизора, компьютера, телефона))
 
-1. There's a hole in the *screen* and the flies are getting in.
-2. We take the *screens* out every fall.
-3. The porch has *screens* on three sides.
+1. My phone *screen* cracked when I dropped it.
+2. He stares at a *screen* all day at work.
+3. Her name came up on the *screen* right away.
 
-**2. The flat surface of a TV, computer, or phone on which images appear.** (экран (телевизора, компьютера, телефона))
+**2. A fine mesh in a window or door that keeps insects out.** (москитная сетка; экран)
 
-4. My phone *screen* cracked when I dropped it.
-5. He stares at a *screen* all day at work.
-6. Her name came up on the *screen* right away.
+4. There's a hole in the *screen* and the flies are getting in.
+5. We take the *screens* out every fall.
+6. The porch has *screens* on three sides.
 
 **3. A movable panel used to divide a room or hide something from view.** (ширма, перегородка)
 
@@ -2253,30 +2253,30 @@ A very tall building with many floors.
 ### story
 
 **Pronunciation:** /ˈstɔːri/ &middot; *STOR-ee*
-**Русский:** этаж; рассказ, история; материал, статья, репортаж
+**Русский:** рассказ, история; материал, статья, репортаж; этаж
 **Plural:** *stories*
 **Countability:** countable
 **Contrast:** Americans spell the level of a building *story*; the British write *storey*.
 
 Story has 3 distinct senses.
 
-**1. One level of a building.** (этаж)
+**1. An account of events, real or invented, told to entertain or inform.** (рассказ, история)
 
-1. It's a two-*story* house with a finished basement.
-2. The parking garage is six *stories* tall.
-3. He fell one *story* and walked away without a scratch.
+1. Grandpa told us ghost *stories* on the porch.
+2. It's a *story* about two brothers in Ohio.
+3. She never got to finish the *story*.
 
-**2. An account of events, real or invented, told to entertain or inform.** (рассказ, история)
+**2. A report in a newspaper or on a news program.** (материал, статья, репортаж)
 
-4. Grandpa told us ghost *stories* on the porch.
-5. It's a *story* about two brothers in Ohio.
-6. She never got to finish the *story*.
+4. The *story* ran on the front page.
+5. A reporter has been working on the *story* for months.
+6. That *story* has been all over the news.
 
-**3. A report in a newspaper or on a news program.** (материал, статья, репортаж)
+**3. One level of a building.** (этаж)
 
-7. The *story* ran on the front page.
-8. A reporter has been working on the *story* for months.
-9. That *story* has been all over the news.
+7. It's a two-*story* house with a finished basement.
+8. The parking garage is six *stories* tall.
+9. He fell one *story* and walked away without a scratch.
 
 ---
 

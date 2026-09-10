@@ -1462,23 +1462,23 @@ A substance burned to make a sweet smell during worship.
 ### icon
 
 **Pronunciation:** /ˈaɪkɑːn/ &middot; *EYE-kahn*
-**Русский:** икона; значок, иконка
+**Русский:** значок, иконка; икона
 **Plural:** *icons*
 **Countability:** countable
 
 Icon has 2 distinct senses.
 
-**1. A painted religious image, especially in Orthodox churches.** (икона)
+**1. A small picture on a screen that stands for a file or program.** (значок, иконка)
 
-1. An old *icon* hung in the corner of the room.
-2. The *icon* is painted on wood with gold leaf.
-3. The museum holds two hundred Russian *icons*.
+1. Double-click the *icon* on your desktop.
+2. The *icons* are too small to see on this monitor.
+3. There's a little gear *icon* for settings.
 
-**2. A small picture on a screen that stands for a file or program.** (значок, иконка)
+**2. A painted religious image, especially in Orthodox churches.** (икона)
 
-4. Double-click the *icon* on your desktop.
-5. The *icons* are too small to see on this monitor.
-6. There's a little gear *icon* for settings.
+4. An old *icon* hung in the corner of the room.
+5. The *icon* is painted on wood with gold leaf.
+6. The museum holds two hundred Russian *icons*.
 
 ---
 
@@ -1888,22 +1888,22 @@ An act that breaks a religious or moral law.
 ### grace
 
 **Pronunciation:** /ɡreɪs/ &middot; *GRAYSS*
-**Русский:** благодать; милость; грация, изящество; молитва перед едой
+**Русский:** грация, изящество; благодать; милость; молитва перед едой
 **Countability:** uncountable
 
 Grace has 3 distinct senses.
 
-**1. God's free kindness toward people who do not earn it.** (благодать; милость)
+**1. Smooth, easy beauty in the way someone moves or behaves.** (грация, изящество)
 
-1. The hymn is about *grace* and forgiveness.
-2. He believes he was saved by *grace* alone.
-3. They prayed for the *grace* to forgive him.
+1. She crossed the stage with surprising *grace*.
+2. He took the loss with *grace*.
+3. For a big man, he moves with real *grace*.
 
-**2. Smooth, easy beauty in the way someone moves or behaves.** (грация, изящество)
+**2. God's free kindness toward people who do not earn it.** (благодать; милость)
 
-4. She crossed the stage with surprising *grace*.
-5. He took the loss with *grace*.
-6. For a big man, he moves with real *grace*.
+4. The hymn is about *grace* and forgiveness.
+5. He believes he was saved by *grace* alone.
+6. They prayed for the *grace* to forgive him.
 
 **3. A short prayer of thanks said before a meal.** (молитва перед едой)
 

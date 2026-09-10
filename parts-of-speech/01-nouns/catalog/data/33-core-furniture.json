@@ -555,31 +555,19 @@
       "respell": "KAHN-sohl",
       "meaning": "Console has 3 distinct senses.",
       "examples": [
-        "We keep the mail in a basket on the hall console.",
-        "A pair of lamps sits on the console behind the sofa.",
-        "Both consoles were too deep for that narrow hallway.",
         "He got a new console for his birthday.",
         "The game runs on every major console.",
         "Both consoles sold out before Christmas.",
         "The engineer sat at the mixing console.",
         "A red light came on across the console.",
-        "Both consoles in the control room were manned."
+        "Both consoles in the control room were manned.",
+        "We keep the mail in a basket on the hall console.",
+        "A pair of lamps sits on the console behind the sofa.",
+        "Both consoles were too deep for that narrow hallway."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A narrow table that stands against a wall",
-          "body": [
-            "(консольный столик)"
-          ],
-          "examples": [
-            "We keep the mail in a basket on the hall console.",
-            "A pair of lamps sits on the console behind the sofa.",
-            "Both consoles were too deep for that narrow hallway."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A machine for playing video games on a television",
           "body": [
             "(игровая приставка, консоль)"
@@ -591,20 +579,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A panel holding the controls and screens for a machine or system",
           "body": [
-            "(пульт управления)",
-            "---"
+            "(пульт управления)"
           ],
           "examples": [
             "The engineer sat at the mixing console.",
             "A red light came on across the console.",
             "Both consoles in the control room were manned."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A narrow table that stands against a wall",
+          "body": [
+            "(консольный столик)",
+            "---"
+          ],
+          "examples": [
+            "We keep the mail in a basket on the hall console.",
+            "A pair of lamps sits on the console behind the sofa.",
+            "Both consoles were too deep for that narrow hallway."
+          ]
         }
       ],
-      "русский": "консольный столик; игровая приставка, консоль; пульт управления",
+      "русский": "игровая приставка, консоль; пульт управления; консольный столик",
       "plural": "consoles",
       "countability": "countable",
       "contrast": "Stress shifts between the noun and the verb: the table is a KAHN-sohl, but to comfort someone is kuhn-SOHL."
@@ -1201,41 +1201,41 @@
       "respell": "TRUNGK",
       "meaning": "Trunk has 2 distinct senses.",
       "examples": [
-        "Her old costumes are in a trunk in the basement.",
-        "The attic was full of dusty trunks.",
-        "He sat on the trunk to get the lid to close.",
         "Somebody carved their initials into the trunk.",
         "The trunks were too wide to get my arms around.",
-        "Lightning split the trunk right down the middle."
+        "Lightning split the trunk right down the middle.",
+        "Her old costumes are in a trunk in the basement.",
+        "The attic was full of dusty trunks.",
+        "He sat on the trunk to get the lid to close."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A large reinforced case or box for storing or carrying belongings",
-          "body": [
-            "(сундук, дорожный сундук)"
-          ],
-          "examples": [
-            "Her old costumes are in a trunk in the basement.",
-            "The attic was full of dusty trunks.",
-            "He sat on the trunk to get the lid to close."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The thick main stem of a tree",
           "body": [
-            "(ствол (дерева))",
-            "---"
+            "(ствол (дерева))"
           ],
           "examples": [
             "Somebody carved their initials into the trunk.",
             "The trunks were too wide to get my arms around.",
             "Lightning split the trunk right down the middle."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A large reinforced case or box for storing or carrying belongings",
+          "body": [
+            "(сундук, дорожный сундук)",
+            "---"
+          ],
+          "examples": [
+            "Her old costumes are in a trunk in the basement.",
+            "The attic was full of dusty trunks.",
+            "He sat on the trunk to get the lid to close."
+          ]
         }
       ],
-      "русский": "сундук, дорожный сундук; ствол (дерева)",
+      "русский": "ствол (дерева); сундук, дорожный сундук",
       "plural": "trunks",
       "countability": "countable"
     },
@@ -2266,12 +2266,12 @@
       "respell": "HARD-wair",
       "meaning": "Hardware has 3 distinct senses.",
       "examples": [
-        "The dresser is solid, but the hardware is cheap.",
-        "We picked up some hardware at the store on the corner.",
-        "All the hardware in the kitchen is brushed nickel.",
         "The software is fine; the problem is the hardware.",
         "Training a model that size takes expensive hardware.",
         "Our hardware is five years old and it shows.",
+        "The dresser is solid, but the hardware is cheap.",
+        "We picked up some hardware at the store on the corner.",
+        "All the hardware in the kitchen is brushed nickel.",
         "The convoy carried millions of dollars of military hardware.",
         "Both sides moved hardware toward the border.",
         "The parade showed off the country's newest hardware."
@@ -2279,18 +2279,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The metal fittings of furniture and buildings — handles, hinges, screws, and locks",
-          "body": [
-            "(фурнитура, скобяные изделия)"
-          ],
-          "examples": [
-            "The dresser is solid, but the hardware is cheap.",
-            "We picked up some hardware at the store on the corner.",
-            "All the hardware in the kitchen is brushed nickel."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The physical parts of a computer or electronic system, as opposed to the programs",
           "body": [
             "(аппаратное обеспечение, «железо»)"
@@ -2299,6 +2287,18 @@
             "The software is fine; the problem is the hardware.",
             "Training a model that size takes expensive hardware.",
             "Our hardware is five years old and it shows."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The metal fittings of furniture and buildings — handles, hinges, screws, and locks",
+          "body": [
+            "(фурнитура, скобяные изделия)"
+          ],
+          "examples": [
+            "The dresser is solid, but the hardware is cheap.",
+            "We picked up some hardware at the store on the corner.",
+            "All the hardware in the kitchen is brushed nickel."
           ]
         },
         {
@@ -2315,7 +2315,7 @@
           ]
         }
       ],
-      "русский": "фурнитура, скобяные изделия; аппаратное обеспечение, «железо»; боевая техника, вооружение",
+      "русский": "аппаратное обеспечение, «железо»; фурнитура, скобяные изделия; боевая техника, вооружение",
       "countability": "uncountable",
       "contrast": "Uncountable: some hardware, a piece of hardware — never a hardware or hardwares."
     },

@@ -1760,41 +1760,41 @@
       "respell": "BUK",
       "meaning": "Buck has 2 distinct senses.",
       "examples": [
-        "He counted six bucks from the stand.",
-        "A buck stepped out of the treeline.",
-        "The bucks lose their antlers every winter.",
         "That'll run you about fifty bucks.",
         "Can you lend me a buck?",
-        "He's just trying to make a few extra bucks."
+        "He's just trying to make a few extra bucks.",
+        "He counted six bucks from the stand.",
+        "A buck stepped out of the treeline.",
+        "The bucks lose their antlers every winter."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An adult male deer, rabbit, or goat",
-          "body": [
-            "(самец (оленя, кролика))"
-          ],
-          "examples": [
-            "He counted six bucks from the stand.",
-            "A buck stepped out of the treeline.",
-            "The bucks lose their antlers every winter."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An informal word for a dollar",
           "body": [
-            "(доллар (разг.))",
-            "---"
+            "(доллар (разг.))"
           ],
           "examples": [
             "That'll run you about fifty bucks.",
             "Can you lend me a buck?",
             "He's just trying to make a few extra bucks."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An adult male deer, rabbit, or goat",
+          "body": [
+            "(самец (оленя, кролика))",
+            "---"
+          ],
+          "examples": [
+            "He counted six bucks from the stand.",
+            "A buck stepped out of the treeline.",
+            "The bucks lose their antlers every winter."
+          ]
         }
       ],
-      "русский": "самец (оленя, кролика); доллар (разг.)",
+      "русский": "доллар (разг.); самец (оленя, кролика)",
       "plural": "bucks",
       "countability": "countable"
     },

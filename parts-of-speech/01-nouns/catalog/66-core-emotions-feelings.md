@@ -1310,35 +1310,35 @@ Meltdown has 2 distinct senses.
 ### breakdown
 
 **Pronunciation:** /ˈbreɪkdaʊn/ &middot; *BRAYK-down*
-**Русский:** нервный срыв; поломка, авария (машины); разбивка, детализация (по пунктам); срыв, развал (переговоров, отношений)
+**Русский:** разбивка, детализация (по пунктам); срыв, развал (переговоров, отношений); нервный срыв; поломка, авария (машины)
 **Plural:** *breakdowns*
 **Countability:** countable
 
 Breakdown has 4 distinct senses.
 
-**1. A collapse of a person's mental health under stress.** (нервный срыв)
+**1. A division of something into its separate parts, usually with figures.** (разбивка, детализация (по пунктам))
 
-1. He had a *breakdown* his second year of residency.
-2. She was headed for a *breakdown* and everyone saw it.
-3. Two *breakdowns* in one department is a warning sign.
+1. Can you send me a *breakdown* of the costs by department?
+2. The report includes a *breakdown* of voters by age.
+3. She asked the shop for an itemized *breakdown* of the repair bill.
 
-**2. A failure that stops a vehicle or machine from working.** (поломка, авария (машины))
+**2. A complete failure of something that had been working, such as talks, order, or a relationship.** (срыв, развал (переговоров, отношений))
 
-4. We had a *breakdown* on the interstate and waited two hours for a tow.
-5. The bus company reports a *breakdown* about once a month.
-6. Regular service prevents most *breakdowns*.
+4. The strike followed a *breakdown* in negotiations.
+5. There was a total *breakdown* of communication between the two offices.
+6. A *breakdown* in law and order followed the storm.
 
-**3. A division of something into its separate parts, usually with figures.** (разбивка, детализация (по пунктам))
+**3. A collapse of a person's mental health under stress.** (нервный срыв)
 
-7. Can you send me a *breakdown* of the costs by department?
-8. The report includes a *breakdown* of voters by age.
-9. She asked the shop for an itemized *breakdown* of the repair bill.
+7. He had a *breakdown* his second year of residency.
+8. She was headed for a *breakdown* and everyone saw it.
+9. Two *breakdowns* in one department is a warning sign.
 
-**4. A complete failure of something that had been working, such as talks, order, or a relationship.** (срыв, развал (переговоров, отношений))
+**4. A failure that stops a vehicle or machine from working.** (поломка, авария (машины))
 
-10. The strike followed a *breakdown* in negotiations.
-11. There was a total *breakdown* of communication between the two offices.
-12. A *breakdown* in law and order followed the storm.
+10. We had a *breakdown* on the interstate and waited two hours for a tow.
+11. The bus company reports a *breakdown* about once a month.
+12. Regular service prevents most *breakdowns*.
 
 ---
 

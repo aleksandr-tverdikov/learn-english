@@ -1610,24 +1610,24 @@ A metal fastener at the end of a belt or strap.
 ### snap
 
 **Pronunciation:** /snæp/ &middot; *SNAP*
-**Русский:** кнопка (застёжка); щелчок, треск; резкое похолодание; пустяк, лёгкое дело
+**Русский:** щелчок, треск; кнопка (застёжка); резкое похолодание; пустяк, лёгкое дело
 **Plural:** *snaps*
 **Countability:** countable
 **Contrast:** Americans call it a snap; the British call it a press stud or a popper.
 
 Snap has 4 distinct senses.
 
-**1. A fastener with two parts that press together to close a garment.** (кнопка (застёжка))
+**1. A short sharp sound made by something breaking or shutting.** (щелчок, треск)
 
-1. The shirt closes with *snaps* instead of buttons.
-2. One *snap* on the jacket is broken.
-3. Baby clothes with *snaps* are so much easier.
+1. We heard the *snap* of a twig behind us.
+2. The lid closed with a satisfying *snap*.
+3. Small *snaps* came from the fire all evening.
 
-**2. A short sharp sound made by something breaking or shutting.** (щелчок, треск)
+**2. A fastener with two parts that press together to close a garment.** (кнопка (застёжка))
 
-4. We heard the *snap* of a twig behind us.
-5. The lid closed with a satisfying *snap*.
-6. Small *snaps* came from the fire all evening.
+4. The shirt closes with *snaps* instead of buttons.
+5. One *snap* on the jacket is broken.
+6. Baby clothes with *snaps* are so much easier.
 
 **3. A short spell of unusually cold weather.** (резкое похолодание)
 

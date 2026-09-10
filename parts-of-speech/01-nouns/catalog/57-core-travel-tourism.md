@@ -240,29 +240,29 @@ Arrival has 2 distinct senses.
 ### connection
 
 **Pronunciation:** /kəˈnɛkʃən/ &middot; *kuh-NEK-shuhn*
-**Русский:** стыковочный рейс, пересадка; соединение, подключение
+**Русский:** соединение, подключение; стыковочный рейс, пересадка
 **Plural:** *connections*
 **Countability:** countable
 
 Connection has 3 distinct senses.
 
-**1. A second flight or train you change to in order to finish a trip.** (стыковочный рейс, пересадка)
+**1. A link that lets one device exchange information with another.** (соединение, подключение)
 
-1. I almost missed my *connection* in Dallas.
-2. There are only two *connections* a day to that island.
-3. The gate agent rebooked my *connection*.
+1. My *connection* keeps dropping during video calls.
+2. Hotel *connections* are usually pretty slow.
+3. Check your *connection* before you blame the app.
 
-**2. A link that lets one device exchange information with another.** (соединение, подключение)
+**2. A working link between a device and a network.** (соединение, подключение)
 
-4. My *connection* keeps dropping during video calls.
-5. Hotel *connections* are usually pretty slow.
-6. Check your *connection* before you blame the app.
+4. The video keeps freezing because my *connection* is slow.
+5. We lost our *connection* halfway through the call.
+6. Hotel *connections* are usually too slow for video.
 
-**3. A working link between a device and a network.** (соединение, подключение)
+**3. A second flight or train you change to in order to finish a trip.** (стыковочный рейс, пересадка)
 
-7. The video keeps freezing because my *connection* is slow.
-8. We lost our *connection* halfway through the call.
-9. Hotel *connections* are usually too slow for video.
+7. I almost missed my *connection* in Dallas.
+8. There are only two *connections* a day to that island.
+9. The gate agent rebooked my *connection*.
 
 ---
 
@@ -473,23 +473,23 @@ The government service that checks what travelers bring into a country.
 ### immigration
 
 **Pronunciation:** /ˌɪmɪˈɡreɪʃən/ &middot; *im-ih-GRAY-shuhn*
-**Русский:** паспортный контроль; иммиграция; иммиграция
+**Русский:** иммиграция; паспортный контроль; иммиграция
 **Countability:** uncountable
 **Contrast:** Immigration is movement into a country; emigration is movement out of one.
 
 Immigration has 2 distinct senses.
 
-**1. The desk or process where officials check travelers entering a country.** (паспортный контроль; иммиграция)
+**1. The movement of people into a country to live there.** (иммиграция)
 
-1. The line at *immigration* was enormous.
-2. *Immigration* asked how long I was staying.
-3. You clear *immigration* before you pick up your bags.
+1. *Immigration* dominated the debate.
+2. He wants to cut legal *immigration* in half.
+3. The *immigration* system has not been updated in years.
 
-**2. The movement of people into a country to live there.** (иммиграция)
+**2. The desk or process where officials check travelers entering a country.** (паспортный контроль; иммиграция)
 
-4. *Immigration* dominated the debate.
-5. He wants to cut legal *immigration* in half.
-6. The *immigration* system has not been updated in years.
+4. The line at *immigration* was enormous.
+5. *Immigration* asked how long I was staying.
+6. You clear *immigration* before you pick up your bags.
 
 ---
 
@@ -519,58 +519,58 @@ Checkpoint has 2 distinct senses.
 ### declaration
 
 **Pronunciation:** /ˌdɛkləˈreɪʃən/ &middot; *dek-luh-RAY-shuhn*
-**Русский:** декларация; заявление, провозглашение
+**Русский:** заявление, провозглашение; декларация
 **Plural:** *declarations*
 **Countability:** countable
 **Contrast:** The verb declare stresses the second syllable: dih-KLAIR.
 
 Declaration has 2 distinct senses.
 
-**1. An official statement listing what you are bringing into a country.** (декларация)
+**1. A formal public statement or announcement.** (заявление, провозглашение)
 
-1. Sign the customs *declaration* before landing.
-2. The crew handed out *declarations* on the plane.
-3. A false *declaration* can cost you a big fine.
+1. The colonies signed their *declaration* of independence in 1776.
+2. Congress has not issued a formal *declaration* of war since 1942.
+3. His speech was a *declaration* that he intends to run again.
 
-**2. A formal public statement or announcement.** (заявление, провозглашение)
+**2. An official statement listing what you are bringing into a country.** (декларация)
 
-4. The colonies signed their *declaration* of independence in 1776.
-5. Congress has not issued a formal *declaration* of war since 1942.
-6. His speech was a *declaration* that he intends to run again.
+4. Sign the customs *declaration* before landing.
+5. The crew handed out *declarations* on the plane.
+6. A false *declaration* can cost you a big fine.
 
 ---
 
 ### security
 
 **Pronunciation:** /sɪˈkjʊrəti/ &middot; *sih-KYOOR-ih-tee*
-**Русский:** досмотр; служба безопасности; безопасность; безопасность (защита данных); безопасность, защита
+**Русский:** безопасность, защита; досмотр; служба безопасности; безопасность; безопасность (защита данных)
 **Countability:** uncountable
 
 Security has 4 distinct senses.
 
-**1. The screening area and staff that check passengers before a flight.** (досмотр; служба безопасности)
+**1. Protection against theft, damage, or unwanted access.** (безопасность, защита)
 
-1. Get to the airport early; *security* is slow today.
-2. *Security* made me throw out my water bottle.
-3. We went through *security* in five minutes.
+1. The bank added another layer of *security*.
+2. Weak passwords are a *security* problem.
+3. *Security* on that site is a joke.
 
-**2. Protection of a country or people from attack and danger.** (безопасность)
+**2. The screening area and staff that check passengers before a flight.** (досмотр; служба безопасности)
 
-4. National *security* was the reason they gave.
-5. *Security* at the airport was unusually tight.
-6. The committee meets to discuss border *security*.
+4. Get to the airport early; *security* is slow today.
+5. *Security* made me throw out my water bottle.
+6. We went through *security* in five minutes.
 
-**3. Protection of computers and data from theft or damage.** (безопасность (защита данных))
+**3. Protection of a country or people from attack and danger.** (безопасность)
 
-7. The bank spends a fortune on *security*.
-8. Weak passwords are a *security* problem.
-9. *Security* is everybody's job, not just IT's.
+7. National *security* was the reason they gave.
+8. *Security* at the airport was unusually tight.
+9. The committee meets to discuss border *security*.
 
-**4. Protection against theft, damage, or unwanted access.** (безопасность, защита)
+**4. Protection of computers and data from theft or damage.** (безопасность (защита данных))
 
-10. The bank added another layer of *security*.
+10. The bank spends a fortune on *security*.
 11. Weak passwords are a *security* problem.
-12. *Security* on that site is a joke.
+12. *Security* is everybody's job, not just IT's.
 
 ---
 
@@ -1338,47 +1338,47 @@ A large comfortable house, often rented for a vacation.
 ### guesthouse
 
 **Pronunciation:** /ˈɡɛsthaʊs/ &middot; *GEST-hows*
-**Русский:** гостевой дом; гостевой домик (на участке хозяев)
+**Русский:** гостевой домик (на участке хозяев); гостевой дом
 **Plural:** *guesthouses*
 **Countability:** countable
 **Contrast:** The u after g is silent: GEST, not GYOOST.
 
 Guesthouse has 2 distinct senses.
 
-**1. A small private house that rents rooms to travelers.** (гостевой дом)
+**1. A small separate house on someone's property where guests stay.** (гостевой домик (на участке хозяев))
 
-1. We found a family *guesthouse* near the market.
-2. Small *guesthouses* cost half what the hotels do.
-3. The *guesthouse* only has six rooms.
+1. My in-laws stay in the *guesthouse* when they visit.
+2. The listing includes a two-bedroom *guesthouse* out back.
+3. They turned the *guesthouse* into an office during the pandemic.
 
-**2. A small separate house on someone's property where guests stay.** (гостевой домик (на участке хозяев))
+**2. A small private house that rents rooms to travelers.** (гостевой дом)
 
-4. My in-laws stay in the *guesthouse* when they visit.
-5. The listing includes a two-bedroom *guesthouse* out back.
-6. They turned the *guesthouse* into an office during the pandemic.
+4. We found a family *guesthouse* near the market.
+5. Small *guesthouses* cost half what the hotels do.
+6. The *guesthouse* only has six rooms.
 
 ---
 
 ### reception
 
 **Pronunciation:** /rɪˈsɛpʃən/ &middot; *rih-SEP-shuhn*
-**Русский:** стойка регистрации, ресепшен; приём (сигнала)
+**Русский:** приём (сигнала); стойка регистрации, ресепшен
 **Plural:** *receptions*
 **Countability:** countable
 
 Reception has 2 distinct senses.
 
-**1. The desk or area in a hotel where guests check in.** (стойка регистрации, ресепшен)
+**1. How well a radio, TV, or phone picks up a signal.** (приём (сигнала))
 
-1. Leave your key at *reception* when you go out.
-2. Call *reception* if you need more towels.
-3. The *reception* is open around the clock.
+1. *Reception* is bad in the basement.
+2. We get better *reception* by the window.
+3. The new antenna improved *reception* a lot.
 
-**2. How well a radio, TV, or phone picks up a signal.** (приём (сигнала))
+**2. The desk or area in a hotel where guests check in.** (стойка регистрации, ресепшен)
 
-4. *Reception* is bad in the basement.
-5. We get better *reception* by the window.
-6. The new antenna improved *reception* a lot.
+4. Leave your key at *reception* when you go out.
+5. Call *reception* if you need more towels.
+6. The *reception* is open around the clock.
 
 ---
 
@@ -1476,23 +1476,23 @@ A small refrigerator of drinks and snacks in a hotel room.
 ### checkout
 
 **Pronunciation:** /ˈtʃɛkaʊt/ &middot; *CHEK-owt*
-**Русский:** выезд из отеля, расчётный час; касса (в магазине)
+**Русский:** касса (в магазине); выезд из отеля, расчётный час
 **Plural:** *checkouts*
 **Countability:** countable
 
 Checkout has 2 distinct senses.
 
-**1. The time or act of leaving a hotel and paying at the end of a stay.** (выезд из отеля, расчётный час)
+**1. The counter in a store where you pay for what you are buying.** (касса (в магазине))
 
-1. *Checkout* is at eleven in the morning.
-2. Late *checkouts* cost an extra thirty dollars.
-3. We left our bags at the desk after *checkout*.
+1. There were six people ahead of us at the *checkout*.
+2. Only two *checkouts* were open on a Saturday.
+3. She grabbed a magazine at the *checkout*.
 
-**2. The counter in a store where you pay for what you are buying.** (касса (в магазине))
+**2. The time or act of leaving a hotel and paying at the end of a stay.** (выезд из отеля, расчётный час)
 
-4. There were six people ahead of us at the *checkout*.
-5. Only two *checkouts* were open on a Saturday.
-6. She grabbed a magazine at the *checkout*.
+4. *Checkout* is at eleven in the morning.
+5. Late *checkouts* cost an extra thirty dollars.
+6. We left our bags at the desk after *checkout*.
 
 ---
 
@@ -1685,35 +1685,35 @@ Station has 2 distinct senses.
 ### platform
 
 **Pronunciation:** /ˈplætfɔːrm/ &middot; *PLAT-form*
-**Русский:** платформа, перрон; предвыборная программа (партии); платформа; платформа (онлайн-сервис)
+**Русский:** платформа; платформа (онлайн-сервис); платформа, перрон; предвыборная программа (партии)
 **Plural:** *platforms*
 **Countability:** countable
 
 Platform has 4 distinct senses.
 
-**1. The raised walkway beside the track where passengers wait.** (платформа, перрон)
+**1. A system or service that other software and users are built around.** (платформа)
 
-1. Our train leaves from *platform* nine.
-2. Both *platforms* were packed with commuters.
-3. Stand back from the edge of the *platform*.
+1. The video *platform* changed its rules again.
+2. We publish on three different *platforms*.
+3. It's the biggest *platform* for freelance work.
 
-**2. The set of positions a party or candidate runs on.** (предвыборная программа (партии))
+**2. An online service where people post, share, or sell things.** (платформа (онлайн-сервис))
 
-4. Health care is the center of her *platform*.
-5. The party adopted its *platform* at the convention.
-6. Their two *platforms* are almost identical.
+4. She posts the same video on three *platforms*.
+5. The *platform* banned his account.
+6. Every *platform* has its own rules about ads.
 
-**3. A system or service that other software and users are built around.** (платформа)
+**3. The raised walkway beside the track where passengers wait.** (платформа, перрон)
 
-7. The video *platform* changed its rules again.
-8. We publish on three different *platforms*.
-9. It's the biggest *platform* for freelance work.
+7. Our train leaves from *platform* nine.
+8. Both *platforms* were packed with commuters.
+9. Stand back from the edge of the *platform*.
 
-**4. An online service where people post, share, or sell things.** (платформа (онлайн-сервис))
+**4. The set of positions a party or candidate runs on.** (предвыборная программа (партии))
 
-10. She posts the same video on three *platforms*.
-11. The *platform* banned his account.
-12. Every *platform* has its own rules about ads.
+10. Health care is the center of her *platform*.
+11. The party adopted its *platform* at the convention.
+12. Their two *platforms* are almost identical.
 
 ---
 

@@ -95,31 +95,19 @@
       "respell": "TREET",
       "meaning": "Treat has 3 distinct senses.",
       "examples": [
-        "Give him a treat when he sits.",
-        "She keeps treats in her coat pocket.",
-        "One more treat and that's it for tonight.",
         "Lunch is my treat today.",
         "Going to the movies was a rare treat for us.",
         "As a treat, he took the kids to the ballpark.",
         "The kids came home with a bag of Halloween treats.",
         "She baked treats for the whole class.",
-        "One treat after dinner, that's the rule."
+        "One treat after dinner, that's the rule.",
+        "Give him a treat when he sits.",
+        "She keeps treats in her coat pocket.",
+        "One more treat and that's it for tonight."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A small piece of tasty food given to an animal as a reward",
-          "body": [
-            "(лакомство (для животного))"
-          ],
-          "examples": [
-            "Give him a treat when he sits.",
-            "She keeps treats in her coat pocket.",
-            "One more treat and that's it for tonight."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something enjoyable that is out of the ordinary, often paid for by someone else",
           "body": [
             "(удовольствие, угощение (за чей-то счёт))"
@@ -131,20 +119,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A small sweet food, especially one given to children",
           "body": [
-            "(сладость, лакомство)",
-            "---"
+            "(сладость, лакомство)"
           ],
           "examples": [
             "The kids came home with a bag of Halloween treats.",
             "She baked treats for the whole class.",
             "One treat after dinner, that's the rule."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A small piece of tasty food given to an animal as a reward",
+          "body": [
+            "(лакомство (для животного))",
+            "---"
+          ],
+          "examples": [
+            "Give him a treat when he sits.",
+            "She keeps treats in her coat pocket.",
+            "One more treat and that's it for tonight."
+          ]
         }
       ],
-      "русский": "лакомство (для животного); удовольствие, угощение (за чей-то счёт); сладость, лакомство",
+      "русский": "удовольствие, угощение (за чей-то счёт); сладость, лакомство; лакомство (для животного)",
       "plural": "treats",
       "countability": "countable"
     },
@@ -701,41 +701,41 @@
       "respell": "oh-BEE-dee-uhns",
       "meaning": "Obedience has 2 distinct senses.",
       "examples": [
-        "The dog has no obedience at all.",
-        "We're working on basic obedience.",
-        "Obedience takes daily practice.",
         "The army expects complete obedience to orders.",
         "He was raised to value obedience above everything else.",
-        "Obedience to the law is not optional, the judge told him."
+        "Obedience to the law is not optional, the judge told him.",
+        "The dog has no obedience at all.",
+        "We're working on basic obedience.",
+        "Obedience takes daily practice."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An animal's readiness to do what it is told",
-          "body": [
-            "(послушание)"
-          ],
-          "examples": [
-            "The dog has no obedience at all.",
-            "We're working on basic obedience.",
-            "Obedience takes daily practice."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The practice of doing what a person, law, or rule requires",
           "body": [
-            "(повиновение, подчинение)",
-            "---"
+            "(повиновение, подчинение)"
           ],
           "examples": [
             "The army expects complete obedience to orders.",
             "He was raised to value obedience above everything else.",
             "Obedience to the law is not optional, the judge told him."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An animal's readiness to do what it is told",
+          "body": [
+            "(послушание)",
+            "---"
+          ],
+          "examples": [
+            "The dog has no obedience at all.",
+            "We're working on basic obedience.",
+            "Obedience takes daily practice."
+          ]
         }
       ],
-      "русский": "послушание; повиновение, подчинение",
+      "русский": "повиновение, подчинение; послушание",
       "countability": "uncountable",
       "contrast": "Stressed on the second syllable: oh-BEE-dee-uhns."
     },

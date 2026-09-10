@@ -373,22 +373,22 @@ Resistance has 2 distinct senses.
 ### occupation
 
 **Pronunciation:** /ˌɑːkjəˈpeɪʃən/ &middot; *ah-kyuh-PAY-shuhn*
-**Русский:** оккупация; род занятий, профессия
+**Русский:** род занятий, профессия; оккупация
 **Countability:** uncountable
 
 Occupation has 2 distinct senses.
 
-**1. Control of a country or region by a foreign army.** (оккупация)
+**1. The job or profession a person does for a living.** (род занятий, профессия)
 
-1. The *occupation* lasted four years.
-2. Life under *occupation* was grim.
-3. They resisted the *occupation* from the first day.
+1. Write your *occupation* on the form.
+2. Nursing is one of the fastest-growing *occupations*.
+3. His *occupation* is listed as carpenter.
 
-**2. The job or profession a person does for a living.** (род занятий, профессия)
+**2. Control of a country or region by a foreign army.** (оккупация)
 
-4. Write your *occupation* on the form.
-5. Nursing is one of the fastest-growing *occupations*.
-6. His *occupation* is listed as carpenter.
+4. The *occupation* lasted four years.
+5. Life under *occupation* was grim.
+6. They resisted the *occupation* from the first day.
 
 ---
 
@@ -448,22 +448,22 @@ Something that could cause harm, or a warning that harm is coming.
 ### aggression
 
 **Pronunciation:** /əˈɡrɛʃən/ &middot; *uh-GRESH-uhn*
-**Русский:** агрессия; агрессивность, агрессивное поведение
+**Русский:** агрессивность, агрессивное поведение; агрессия
 **Countability:** uncountable
 
 Aggression has 2 distinct senses.
 
-**1. An unprovoked attack on another country or person.** (агрессия)
+**1. Angry or violent behavior or feelings toward other people.** (агрессивность, агрессивное поведение)
 
-1. The invasion was condemned as an act of *aggression*.
-2. They accused their neighbor of open *aggression*.
-3. The treaty was meant to prevent *aggression*.
+1. The dog showed *aggression* toward strangers.
+2. He gets into fights and can't control his *aggression*.
+3. Teachers watch for signs of *aggression* on the playground.
 
-**2. Angry or violent behavior or feelings toward other people.** (агрессивность, агрессивное поведение)
+**2. An unprovoked attack on another country or person.** (агрессия)
 
-4. The dog showed *aggression* toward strangers.
-5. He gets into fights and can't control his *aggression*.
-6. Teachers watch for signs of *aggression* on the playground.
+4. The invasion was condemned as an act of *aggression*.
+5. They accused their neighbor of open *aggression*.
+6. The treaty was meant to prevent *aggression*.
 
 ---
 
@@ -551,23 +551,23 @@ Large guns used on land, or the troops who operate them.
 ### squad
 
 **Pronunciation:** /skwɑːd/ &middot; *SKWAHD*
-**Русский:** отделение (воен.), группа; отряд, команда
+**Русский:** отряд, команда; отделение (воен.), группа
 **Plural:** *squads*
 **Countability:** countable
 
 Squad has 2 distinct senses.
 
-**1. The smallest army unit, usually about eight to twelve soldiers.** (отделение (воен.), группа)
+**1. A small group of people working or playing together as a unit.** (отряд, команда)
 
-1. A *squad* of eight men held the corner.
-2. The *squad* moved through the village house by house.
-3. Two *squads* were sent ahead.
+1. A *squad* of police cleared the street.
+2. She made the varsity *squad*.
+3. Two bomb *squads* were called in.
 
-**2. A small group of people working or playing together as a unit.** (отряд, команда)
+**2. The smallest army unit, usually about eight to twelve soldiers.** (отделение (воен.), группа)
 
-4. A *squad* of police cleared the street.
-5. She made the varsity *squad*.
-6. Two bomb *squads* were called in.
+4. A *squad* of eight men held the corner.
+5. The *squad* moved through the village house by house.
+6. Two *squads* were sent ahead.
 
 ---
 
@@ -634,41 +634,41 @@ An army unit of several thousand soldiers.
 ### division
 
 **Pronunciation:** /dɪˈvɪʒən/ &middot; *dih-VIZH-uhn*
-**Русский:** дивизия; деление (арифметическое действие); раздел, разделение; раскол, разногласия; подразделение, отдел (компании)
+**Русский:** деление (арифметическое действие); раздел, разделение; раскол, разногласия; подразделение, отдел (компании); дивизия
 **Plural:** *divisions*
 **Countability:** countable
 
 Division has 5 distinct senses.
 
-**1. A large army unit made up of several brigades.** (дивизия)
+**1. The arithmetic operation of finding how many times one number goes into another.** (деление (арифметическое действие))
 
-1. An armored *division* crossed the border.
-2. The *division* suffered heavy losses.
-3. Four *divisions* were committed to the offensive.
+1. Third graders start long *division* this year.
+2. She's fine at multiplication but still struggles with *division*.
+3. Use *division* to find the average.
 
-**2. The arithmetic operation of finding how many times one number goes into another.** (деление (арифметическое действие))
+**2. The act of splitting something into parts or sharing it out.** (раздел, разделение)
 
-4. Third graders start long *division* this year.
-5. She's fine at multiplication but still struggles with *division*.
-6. Use *division* to find the average.
+4. The will spells out the *division* of the property.
+5. They argued for months over the *division* of assets.
+6. The *division* of labor in that kitchen was never fair.
 
-**3. The act of splitting something into parts or sharing it out.** (раздел, разделение)
+**3. A serious disagreement that splits a group into opposing sides.** (раскол, разногласия)
 
-7. The will spells out the *division* of the property.
-8. They argued for months over the *division* of assets.
-9. The *division* of labor in that kitchen was never fair.
+7. The vote exposed deep *divisions* within the party.
+8. There's a growing *division* between the older and younger members.
+9. The issue created *divisions* that never healed.
 
-**4. A serious disagreement that splits a group into opposing sides.** (раскол, разногласия)
+**4. A large section of a company or organization.** (подразделение, отдел (компании))
 
-10. The vote exposed deep *divisions* within the party.
-11. There's a growing *division* between the older and younger members.
-12. The issue created *divisions* that never healed.
+10. She runs the company's Latin American *division*.
+11. The consumer products *division* had a strong quarter.
+12. Two *divisions* were merged to cut costs.
 
-**5. A large section of a company or organization.** (подразделение, отдел (компании))
+**5. A large army unit made up of several brigades.** (дивизия)
 
-13. She runs the company's Latin American *division*.
-14. The consumer products *division* had a strong quarter.
-15. Two *divisions* were merged to cut costs.
+13. An armored *division* crossed the border.
+14. The *division* suffered heavy losses.
+15. Four *divisions* were committed to the offensive.
 
 ---
 
@@ -1067,17 +1067,17 @@ A soldier trained to drop into battle by parachute.
 ### scout
 
 **Pronunciation:** /skaʊt/ &middot; *SKOWT*
-**Русский:** разведчик; скаут, селекционер (по поиску талантов); скаут (член детской организации)
+**Русский:** скаут (член детской организации); скаут, селекционер (по поиску талантов); разведчик
 **Plural:** *scouts*
 **Countability:** countable
 
 Scout has 3 distinct senses.
 
-**1. A soldier sent ahead to gather information about the enemy.** (разведчик)
+**1. A boy or girl who belongs to a youth group that teaches camping and outdoor skills.** (скаут (член детской организации))
 
-1. The *scout* returned with a map of the valley.
-2. *Scouts* reported enemy tanks on the road.
-3. They sent a *scout* ahead of the column.
+1. The *scouts* sold popcorn outside the grocery store.
+2. My son has been a *scout* since third grade.
+3. A troop of *scouts* camped down by the river.
 
 **2. Someone whose job is to look for talented players or performers.** (скаут, селекционер (по поиску талантов))
 
@@ -1085,11 +1085,11 @@ Scout has 3 distinct senses.
 5. A *scout* saw her play in a summer league.
 6. The team's *scouts* spend the whole season on the road.
 
-**3. A boy or girl who belongs to a youth group that teaches camping and outdoor skills.** (скаут (член детской организации))
+**3. A soldier sent ahead to gather information about the enemy.** (разведчик)
 
-7. The *scouts* sold popcorn outside the grocery store.
-8. My son has been a *scout* since third grade.
-9. A troop of *scouts* camped down by the river.
+7. The *scout* returned with a map of the valley.
+8. *Scouts* reported enemy tanks on the road.
+9. They sent a *scout* ahead of the column.
 
 ---
 
@@ -1287,24 +1287,24 @@ The explosive front section of a missile or torpedo.
 ### mine
 
 **Pronunciation:** /maɪn/ &middot; *MYNE*
-**Русский:** мина; шахта, рудник; кладезь, источник (сведений)
+**Русский:** шахта, рудник; мина; кладезь, источник (сведений)
 **Plural:** *mines*
 **Countability:** countable
 **Contrast:** Same spelling and sound as mine, a coal mine, and as the possessive mine.
 
 Mine has 3 distinct senses.
 
-**1. A hidden explosive that goes off when someone steps on it or drives over it.** (мина)
+**1. A deep hole or system of tunnels dug to take coal or metal out of the ground.** (шахта, рудник)
 
-1. The truck hit a *mine* on the dirt road.
-2. They cleared the *mines* one by one.
-3. A single *mine* can close a road for days.
+1. His grandfather worked in a coal *mine* for thirty years.
+2. The copper *mine* closed in the 1980s.
+3. Old *mines* run under the hills above town.
 
-**2. A deep hole or system of tunnels dug to take coal or metal out of the ground.** (шахта, рудник)
+**2. A hidden explosive that goes off when someone steps on it or drives over it.** (мина)
 
-4. His grandfather worked in a coal *mine* for thirty years.
-5. The copper *mine* closed in the 1980s.
-6. Old *mines* run under the hills above town.
+4. The truck hit a *mine* on the dirt road.
+5. They cleared the *mines* one by one.
+6. A single *mine* can close a road for days.
 
 **3. A rich source of something, especially information.** (кладезь, источник (сведений))
 
@@ -1508,23 +1508,23 @@ Arsenal has 2 distinct senses.
 ### tank
 
 **Pronunciation:** /tæŋk/ &middot; *TANK*
-**Русский:** танк; бак, резервуар, цистерна; аквариум
+**Русский:** бак, резервуар, цистерна; аквариум; танк
 **Plural:** *tanks*
 **Countability:** countable
 
 Tank has 2 distinct senses.
 
-**1. An armored fighting vehicle that moves on tracks and carries a big gun.** (танк)
+**1. A large container for holding liquid or gas.** (бак, резервуар, цистерна; аквариум)
 
-1. A column of *tanks* rolled through the square.
-2. The *tank* threw a track in the mud.
-3. Fifty *tanks* were lost in a single day.
+1. The gas *tank* is almost empty.
+2. We keep goldfish in a ten-gallon *tank*.
+3. The water heater's *tank* sprang a leak.
 
-**2. A large container for holding liquid or gas.** (бак, резервуар, цистерна; аквариум)
+**2. An armored fighting vehicle that moves on tracks and carries a big gun.** (танк)
 
-4. The gas *tank* is almost empty.
-5. We keep goldfish in a ten-gallon *tank*.
-6. The water heater's *tank* sprang a leak.
+4. A column of *tanks* rolled through the square.
+5. The *tank* threw a track in the mud.
+6. Fifty *tanks* were lost in a single day.
 
 ---
 
@@ -1570,29 +1570,29 @@ Bomber has 2 distinct senses.
 ### fighter
 
 **Pronunciation:** /ˈfaɪtər/ &middot; *FY-tur*
-**Русский:** истребитель; боец, боксёр; боец (о стойком человеке)
+**Русский:** боец, боксёр; боец (о стойком человеке); истребитель
 **Plural:** *fighters*
 **Countability:** countable
 
 Fighter has 3 distinct senses.
 
-**1. A fast military aircraft built to attack other aircraft.** (истребитель)
+**1. Someone who fights in a boxing or martial arts contest.** (боец, боксёр)
 
-1. Two *fighters* escorted the transport.
-2. The *fighter* rolled and dove.
-3. Enemy *fighters* met them over the channel.
+1. Both *fighters* made weight on Friday.
+2. He's the most exciting *fighter* in the division.
+3. The *fighter* wore his opponent down in the later rounds.
 
-**2. Someone who fights in a boxing or martial arts contest.** (боец, боксёр)
+**2. A person who refuses to give up when things get hard.** (боец (о стойком человеке))
 
-4. Both *fighters* made weight on Friday.
-5. He's the most exciting *fighter* in the division.
-6. The *fighter* wore his opponent down in the later rounds.
+4. The doctors say she's a *fighter*.
+5. He was a *fighter* right up to the end.
+6. Kids who grow up like that turn into *fighters*.
 
-**3. A person who refuses to give up when things get hard.** (боец (о стойком человеке))
+**3. A fast military aircraft built to attack other aircraft.** (истребитель)
 
-7. The doctors say she's a *fighter*.
-8. He was a *fighter* right up to the end.
-9. Kids who grow up like that turn into *fighters*.
+7. Two *fighters* escorted the transport.
+8. The *fighter* rolled and dove.
+9. Enemy *fighters* met them over the channel.
 
 ---
 
@@ -1824,30 +1824,30 @@ Trench has 3 distinct senses.
 ### base
 
 **Pronunciation:** /beɪs/ &middot; *BAYS*
-**Русский:** база (военная); основание, щёлочь; основание
+**Русский:** основание; база (военная); основание, щёлочь
 **Plural:** *bases*
 **Countability:** countable
 **Contrast:** Sounds exactly like bass, the low musical part.
 
 Base has 3 distinct senses.
 
-**1. A place where armed forces are stationed and supplied.** (база (военная))
+**1. The lowest part of a shape or object, which it stands on.** (основание)
 
-1. The planes returned to *base* before dark.
-2. There are two air *bases* in the state.
-3. He grew up on a military *base*.
+1. The lamp has a heavy metal *base*.
+2. Measure the *base* of the triangle.
+3. Both statues have marble *bases*.
 
-**2. A chemical substance that neutralizes an acid.** (основание, щёлочь)
+**2. A place where armed forces are stationed and supplied.** (база (военная))
 
-4. Baking soda is a mild *base*.
-5. An acid and a *base* react to make salt and water.
-6. Strong *bases* can burn your skin.
+4. The planes returned to *base* before dark.
+5. There are two air *bases* in the state.
+6. He grew up on a military *base*.
 
-**3. The lowest part of a shape or object, which it stands on.** (основание)
+**3. A chemical substance that neutralizes an acid.** (основание, щёлочь)
 
-7. The lamp has a heavy metal *base*.
-8. Measure the *base* of the triangle.
-9. Both statues have marble *bases*.
+7. Baking soda is a mild *base*.
+8. An acid and a *base* react to make salt and water.
+9. Strong *bases* can burn your skin.
 
 ---
 
@@ -1884,23 +1884,23 @@ A small military post far from the main force.
 ### mission
 
 **Pronunciation:** /ˈmɪʃən/ &middot; *MISH-uhn*
-**Русский:** задание, боевая задача; миссия, задача, призвание; миссия (религиозная); приют
+**Русский:** миссия, задача, призвание; задание, боевая задача; миссия (религиозная); приют
 **Plural:** *missions*
 **Countability:** countable
 
 Mission has 3 distinct senses.
 
-**1. A particular military job that a person or unit is sent to do.** (задание, боевая задача)
+**1. An important job or purpose that a person or organization takes on.** (миссия, задача, призвание)
 
-1. He flew thirty *missions* over Germany.
-2. The *mission* was called off at the last minute.
-3. Their *mission* was to blow up the bridge.
+1. Their *mission* is to get books into rural schools.
+2. He's on a *mission* to fix the city's bus routes.
+3. The charity's *mission* statement fits on one line.
 
-**2. An important job or purpose that a person or organization takes on.** (миссия, задача, призвание)
+**2. A particular military job that a person or unit is sent to do.** (задание, боевая задача)
 
-4. Their *mission* is to get books into rural schools.
-5. He's on a *mission* to fix the city's bus routes.
-6. The charity's *mission* statement fits on one line.
+4. He flew thirty *missions* over Germany.
+5. The *mission* was called off at the last minute.
+6. Their *mission* was to blow up the bridge.
 
 **3. A place run by a religious group to spread its faith or help the poor.** (миссия (религиозная); приют)
 
@@ -1952,29 +1952,29 @@ Maneuver has 2 distinct senses.
 ### parade
 
 **Pronunciation:** /pəˈreɪd/ &middot; *puh-RAYD*
-**Русский:** парад; парад, шествие
+**Русский:** парад, шествие; парад
 **Plural:** *parades*
 **Countability:** countable
 
 Parade has 3 distinct senses.
 
-**1. A formal march of troops in front of onlookers.** (парад)
+**1. A public procession of people marching or riding through the streets.** (парад, шествие)
 
-1. The victory *parade* filled the avenue.
-2. Troops marched in the *parade* for two hours.
-3. The town holds two *parades* every year.
+1. The Thanksgiving *parade* starts at nine.
+2. Three *parades* were canceled for the storm.
+3. Kids lined the street to watch the *parade*.
 
-**2. A public procession of people marching or riding through the streets.** (парад, шествие)
+**2. A public procession of people, bands, and vehicles moving through the streets to celebrate something.** (парад, шествие)
 
-4. The Thanksgiving *parade* starts at nine.
-5. Three *parades* were canceled for the storm.
-6. Kids lined the street to watch the *parade*.
+4. The *parade* starts at nine on Fifth Avenue.
+5. We stood on the corner and watched the *parade* go by.
+6. The town holds two *parades* a year.
 
-**3. A public procession of people, bands, and vehicles moving through the streets to celebrate something.** (парад, шествие)
+**3. A formal march of troops in front of onlookers.** (парад)
 
-7. The *parade* starts at nine on Fifth Avenue.
-8. We stood on the corner and watched the *parade* go by.
-9. The town holds two *parades* a year.
+7. The victory *parade* filled the avenue.
+8. Troops marched in the *parade* for two hours.
+9. The town holds two *parades* every year.
 
 ---
 

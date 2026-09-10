@@ -226,29 +226,29 @@ A large formal party, usually held to raise money for a cause.
 ### ball
 
 **Pronunciation:** /bɔːl/ &middot; *BAWL*
-**Русский:** бал; мяч; шар, комок, клубок
+**Русский:** мяч; шар, комок, клубок; бал
 **Plural:** *balls*
 **Countability:** countable
 
 Ball has 3 distinct senses.
 
-**1. A large formal party with dancing.** (бал)
+**1. A round object that is thrown, kicked, or hit in games.** (мяч)
 
-1. The charity *ball* is black tie.
-2. She's been to two *balls* this season.
-3. The governor's inaugural *ball* was held downtown.
+1. The dog brought the *ball* back every time.
+2. He hit the *ball* over the fence.
+3. We lost three *balls* in the tall grass.
 
-**2. A round object that is thrown, kicked, or hit in games.** (мяч)
+**2. Something squeezed or rolled into a round mass.** (шар, комок, клубок)
 
-4. The dog brought the *ball* back every time.
-5. He hit the *ball* over the fence.
-6. We lost three *balls* in the tall grass.
+4. Roll the dough into a *ball* and let it rest.
+5. The cat unwound a whole *ball* of yarn.
+6. He crushed the letter into a *ball*.
 
-**3. Something squeezed or rolled into a round mass.** (шар, комок, клубок)
+**3. A large formal party with dancing.** (бал)
 
-7. Roll the dough into a *ball* and let it rest.
-8. The cat unwound a whole *ball* of yarn.
-9. He crushed the letter into a *ball*.
+7. The charity *ball* is black tie.
+8. She's been to two *balls* this season.
+9. The governor's inaugural *ball* was held downtown.
 
 ---
 
@@ -790,23 +790,23 @@ Light food and drink served at an event.
 ### theme
 
 **Pronunciation:** /θiːm/ &middot; *THEEM*
-**Русский:** тема (оформления праздника); тема, основная мысль; музыкальная тема, заглавная мелодия
+**Русский:** тема, основная мысль; тема (оформления праздника); музыкальная тема, заглавная мелодия
 **Plural:** *themes*
 **Countability:** countable
 
 Theme has 3 distinct senses.
 
-**1. The subject or style that an event's decorations and costumes follow.** (тема (оформления праздника))
+**1. The main idea that runs through a book, a film, or a discussion.** (тема, основная мысль)
 
-1. The party has a 1920s *theme*.
-2. Her birthday *themes* have gotten more elaborate every year.
-3. Pick a *theme* and the decorations get a lot easier.
+1. Loneliness is the main *theme* of the novel.
+2. Several *themes* came up again and again in the interviews.
+3. The *theme* of her talk was second chances.
 
-**2. The main idea that runs through a book, a film, or a discussion.** (тема, основная мысль)
+**2. The subject or style that an event's decorations and costumes follow.** (тема (оформления праздника))
 
-4. Loneliness is the main *theme* of the novel.
-5. Several *themes* came up again and again in the interviews.
-6. The *theme* of her talk was second chances.
+4. The party has a 1920s *theme*.
+5. Her birthday *themes* have gotten more elaborate every year.
+6. Pick a *theme* and the decorations get a lot easier.
 
 **3. A tune played again and again in a film, a show, or a piece of music.** (музыкальная тема, заглавная мелодия)
 
@@ -898,30 +898,30 @@ Card has 4 distinct senses.
 ### favor
 
 **Pronunciation:** /ˈfeɪvər/ &middot; *FAY-vur*
-**Русский:** сувенир гостям (на празднике); одолжение, услуга; благосклонность, одобрение, поддержка
+**Русский:** одолжение, услуга; благосклонность, одобрение, поддержка; сувенир гостям (на празднике)
 **Plural:** *favors*
 **Countability:** countable
 **Contrast:** American spelling *favor*; British English writes *favour*. Same pronunciation.
 
 Favor has 3 distinct senses.
 
-**1. A small gift given to each guest at a party or wedding.** (сувенир гостям (на празднике))
+**1. A kind act you do for someone because they asked.** (одолжение, услуга)
 
-1. The party *favors* were little bags of candy.
-2. Each guest took a *favor* from the table on the way out.
-3. We're making the wedding *favors* ourselves.
+1. Can you do me a *favor* and watch the dog?
+2. I owe him a *favor* after last week.
+3. She's always asking for *favors* and never returning them.
 
-**2. A kind act you do for someone because they asked.** (одолжение, услуга)
+**2. Approval or support for a person or an idea.** (благосклонность, одобрение, поддержка)
 
-4. Can you do me a *favor* and watch the dog?
-5. I owe him a *favor* after last week.
-6. She's always asking for *favors* and never returning them.
+4. The plan found *favor* with the city council.
+5. That style has fallen out of *favor*.
+6. He spent years trying to win the boss's *favor*.
 
-**3. Approval or support for a person or an idea.** (благосклонность, одобрение, поддержка)
+**3. A small gift given to each guest at a party or wedding.** (сувенир гостям (на празднике))
 
-7. The plan found *favor* with the city council.
-8. That style has fallen out of *favor*.
-9. He spent years trying to win the boss's *favor*.
+7. The party *favors* were little bags of candy.
+8. Each guest took a *favor* from the table on the way out.
+9. We're making the wedding *favors* ourselves.
 
 ---
 
@@ -1332,23 +1332,23 @@ A performance or movie showing held in the afternoon.
 ### screening
 
 **Pronunciation:** /ˈskriːnɪŋ/ &middot; *SKREE-ning*
-**Русский:** показ фильма; обследование; проверка, отбор
+**Русский:** обследование; проверка, отбор; показ фильма
 **Plural:** *screenings*
 **Countability:** countable
 
 Screening has 2 distinct senses.
 
-**1. An occasion when a movie is shown to an audience.** (показ фильма)
+**1. The testing or checking of many people to catch a disease or to filter out anyone unsuitable.** (обследование; проверка, отбор)
 
-1. There's a *screening* of the documentary at seven.
-2. The festival added two more *screenings* after the first sold out.
-3. The director spoke after the *screening*.
+1. The clinic offers free *screening* for high blood pressure.
+2. *Screening* at the airport took almost an hour.
+3. Every volunteer goes through a background *screening*.
 
-**2. The testing or checking of many people to catch a disease or to filter out anyone unsuitable.** (обследование; проверка, отбор)
+**2. An occasion when a movie is shown to an audience.** (показ фильма)
 
-4. The clinic offers free *screening* for high blood pressure.
-5. *Screening* at the airport took almost an hour.
-6. Every volunteer goes through a background *screening*.
+4. There's a *screening* of the documentary at seven.
+5. The festival added two more *screenings* after the first sold out.
+6. The director spoke after the *screening*.
 
 ---
 
@@ -1639,23 +1639,23 @@ Launch has 2 distinct senses.
 ### opening
 
 **Pronunciation:** /ˈoʊpənɪŋ/ &middot; *OH-puh-ning*
-**Русский:** открытие (мероприятие); отверстие, проём, просвет
+**Русский:** отверстие, проём, просвет; открытие (мероприятие)
 **Plural:** *openings*
 **Countability:** countable
 
 Opening has 2 distinct senses.
 
-**1. An event celebrating the first day a business, show, or exhibit is open to the public.** (открытие (мероприятие))
+**1. A gap or hole that something can pass through.** (отверстие, проём, просвет)
 
-1. The gallery *opening* is Thursday from six to nine.
-2. We went to the *opening* of the new restaurant downtown.
-3. Gallery *openings* usually mean free wine and cheese.
+1. The dog squeezed through an *opening* in the fence.
+2. Sunlight came through an *opening* in the clouds.
+3. We cut an *opening* for the new window.
 
-**2. A gap or hole that something can pass through.** (отверстие, проём, просвет)
+**2. An event celebrating the first day a business, show, or exhibit is open to the public.** (открытие (мероприятие))
 
-4. The dog squeezed through an *opening* in the fence.
-5. Sunlight came through an *opening* in the clouds.
-6. We cut an *opening* for the new window.
+4. The gallery *opening* is Thursday from six to nine.
+5. We went to the *opening* of the new restaurant downtown.
+6. Gallery *openings* usually mean free wine and cheese.
 
 ---
 
@@ -2034,17 +2034,17 @@ An expression of sympathy to someone whose family member or friend has died.
 ### wake
 
 **Pronunciation:** /weɪk/ &middot; *WAYK*
-**Русский:** поминки (перед похоронами); кильватерный след, след за судном; последствия, период после события
+**Русский:** последствия, период после события; кильватерный след, след за судном; поминки (перед похоронами)
 **Plural:** *wakes*
 **Countability:** countable
 
 Wake has 3 distinct senses.
 
-**1. A gathering held before or after a funeral where people remember the person who died.** (поминки (перед похоронами))
+**1. The period and the conditions that follow an important event.** (последствия, период после события)
 
-1. The *wake* is at the funeral home from four to eight.
-2. Half the town came to the *wake*.
-3. Irish *wakes* in his family went on all night.
+1. Thousands lost power in the *wake* of the storm.
+2. In the *wake* of the scandal, two officials resigned.
+3. Rebuilding began in the *wake* of the fire.
 
 **2. The track of disturbed water left behind a moving boat.** (кильватерный след, след за судном)
 
@@ -2052,11 +2052,11 @@ Wake has 3 distinct senses.
 5. The skier cut back and forth across the *wake*.
 6. The ferry left a wide *wake* across the bay.
 
-**3. The period and the conditions that follow an important event.** (последствия, период после события)
+**3. A gathering held before or after a funeral where people remember the person who died.** (поминки (перед похоронами))
 
-7. Thousands lost power in the *wake* of the storm.
-8. In the *wake* of the scandal, two officials resigned.
-9. Rebuilding began in the *wake* of the fire.
+7. The *wake* is at the funeral home from four to eight.
+8. Half the town came to the *wake*.
+9. Irish *wakes* in his family went on all night.
 
 ---
 
@@ -2260,23 +2260,23 @@ The state of having lost someone close to you through death.
 ### viewing
 
 **Pronunciation:** /ˈvjuːɪŋ/ &middot; *VYOO-ing*
-**Русский:** прощание с покойным; просмотр, показ (фильма, выставки)
+**Русский:** просмотр, показ (фильма, выставки); прощание с покойным
 **Plural:** *viewings*
 **Countability:** countable
 
 Viewing has 2 distinct senses.
 
-**1. A time before a funeral when people come to see the body and pay their respects.** (прощание с покойным)
+**1. An occasion of watching or looking at something, such as a film or an exhibition.** (просмотр, показ (фильма, выставки))
 
-1. The *viewing* is Thursday evening at the funeral home.
-2. They held two *viewings*, one in the afternoon and one at night.
-3. A long line formed outside the *viewing*.
+1. The museum held a private *viewing* for members.
+2. A second *viewing* of the movie showed me details I'd missed.
+3. The gallery scheduled a *viewing* of the new paintings.
 
-**2. An occasion of watching or looking at something, such as a film or an exhibition.** (просмотр, показ (фильма, выставки))
+**2. A time before a funeral when people come to see the body and pay their respects.** (прощание с покойным)
 
-4. The museum held a private *viewing* for members.
-5. A second *viewing* of the movie showed me details I'd missed.
-6. The gallery scheduled a *viewing* of the new paintings.
+4. The *viewing* is Thursday evening at the funeral home.
+5. They held two *viewings*, one in the afternoon and one at night.
+6. A long line formed outside the *viewing*.
 
 ---
 

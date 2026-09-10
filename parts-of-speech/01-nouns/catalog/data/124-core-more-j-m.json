@@ -4346,12 +4346,12 @@
       "respell": "MAYS",
       "meaning": "Mace has 3 distinct senses.",
       "examples": [
-        "The knight swung a mace instead of a sword.",
-        "Two ceremonial maces stood beside the speaker's chair.",
-        "A mace could crush armor that a blade couldn't cut.",
         "She keeps a can of mace in her purse.",
         "The guard used mace to break up the fight.",
         "Mace is legal to carry in most states.",
+        "The knight swung a mace instead of a sword.",
+        "Two ceremonial maces stood beside the speaker's chair.",
+        "A mace could crush armor that a blade couldn't cut.",
         "The recipe calls for a pinch of mace.",
         "Mace tastes like a milder, sweeter nutmeg.",
         "She grinds her own mace for the pound cake."
@@ -4359,18 +4359,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff",
-          "body": [
-            "(булава; жезл)"
-          ],
-          "examples": [
-            "The knight swung a mace instead of a sword.",
-            "Two ceremonial maces stood beside the speaker's chair.",
-            "A mace could crush armor that a blade couldn't cut."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A chemical spray carried to blind and disable an attacker",
           "body": [
             "(газовый (перцовый) баллончик)"
@@ -4379,6 +4367,18 @@
             "She keeps a can of mace in her purse.",
             "The guard used mace to break up the fight.",
             "Mace is legal to carry in most states."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A heavy club with a spiked or knobbed metal head, used as a medieval weapon and now carried as a ceremonial staff",
+          "body": [
+            "(булава; жезл)"
+          ],
+          "examples": [
+            "The knight swung a mace instead of a sword.",
+            "Two ceremonial maces stood beside the speaker's chair.",
+            "A mace could crush armor that a blade couldn't cut."
           ]
         },
         {
@@ -4395,7 +4395,7 @@
           ]
         }
       ],
-      "русский": "булава; жезл; газовый (перцовый) баллончик; мацис, мускатный цвет (пряность)",
+      "русский": "газовый (перцовый) баллончик; булава; жезл; мацис, мускатный цвет (пряность)",
       "plural": "maces",
       "countability": "countable"
     },

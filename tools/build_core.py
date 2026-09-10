@@ -173,6 +173,45 @@ def extra_senses():
 
 
 EXTRA = None
+ORDERING = None
+
+
+def sense_order():
+    """term -> [1-based sense positions] in the order they should be shown.
+
+    Sense order came out of the build as an artifact: whichever field wrote the
+    word first got sense 1, so `date` led with the fruit and `ball` with the
+    formal dance. This holds a judged order instead.
+
+    A permutation is applied only if it is exactly a rearrangement of the senses
+    actually present. Anything else - wrong length, a missing or repeated index -
+    is discarded rather than applied, because a bad permutation would silently
+    drop or duplicate a meaning.
+    """
+    out = {}
+    for src in sorted(glob.glob(os.path.join(CORE, 'order', 'set-*.json'))):
+        try:
+            data = json.load(open(src))
+        except Exception:
+            continue
+        for row in data if isinstance(data, list) else []:
+            if not isinstance(row, dict):
+                continue
+            t = (row.get('term') or '').strip().lower()
+            o = row.get('order')
+            if t and isinstance(o, list) and all(isinstance(x, int) for x in o):
+                out[t] = o
+    return out
+
+
+def apply_order(term, senses, problems):
+    o = (ORDERING or {}).get(term.lower())
+    if not o:
+        return senses
+    if sorted(o) != list(range(1, len(senses) + 1)):
+        problems.append(f'{term}: order {o} is not a permutation of {len(senses)} senses')
+        return senses
+    return [senses[i - 1] for i in o]
 
 
 def sense_index():
@@ -217,6 +256,9 @@ def distinct_sense(a, b):
     return len(wa & wb) / min(len(wa), len(wb)) < 0.5
 
 
+MERGE_PROBLEMS = []
+
+
 def merge(entries):
     """Fold [(slug, entry)] for one term into a single row for the renderer."""
     first = entries[0][1]
@@ -233,6 +275,14 @@ def merge(entries):
         senses.append((g, (e.get('ru') or '').strip(), (e.get('examples') or [])[:3]))
         if e.get('ru') and e['ru'].strip() not in rus:
             rus.append(e['ru'].strip())
+    senses = apply_order(first['term'], senses, MERGE_PROBLEMS)
+    # the header must be rebuilt AFTER the reorder, not before: it is a summary of
+    # the senses, so listing them in a different order than the entry does makes the
+    # entry contradict its own headline
+    rus = []
+    for _, sru, _ in senses:
+        if sru and sru not in rus:
+            rus.append(sru)
     contrast = next((e.get('contrast') for _, e in entries if e.get('contrast')), None)
     ru = '; '.join(rus) if len(rus) > 1 else (rus[0] if rus else first.get('ru', ''))
     return (first['term'], first['ipa'], first['respell'], ru,
@@ -244,8 +294,9 @@ def merge(entries):
 
 
 def main():
-    global EXTRA
+    global EXTRA, ORDERING
     EXTRA = extra_senses()
+    ORDERING = sense_order()
 
     grammar = set()
     for f in sorted(glob.glob(f'{CAT}/[0-9]*.md')):
@@ -301,6 +352,10 @@ def main():
     print(f'\nwrote {written} core files, {total} entries')
     if multi:
         print(f'  {multi} entries carry more than one sense, merged from separate fields')
+    if ORDERING:
+        print(f'  {len(ORDERING)} entries have a judged sense order applied')
+    for p in MERGE_PROBLEMS[:5]:
+        print('   ', p)
     if gfiles:
         print(f'  of which {gfiles} A-Z files hold {gentries} entries from the gap pass')
     if problems:
@@ -336,6 +391,9 @@ def build_gap(seen, grammar, problems):
     global EXTRA
     if EXTRA is None:
         EXTRA = extra_senses()
+    global ORDERING
+    if ORDERING is None:
+        ORDERING = sense_order()
     kept = []
     for e in entries:
         if valid(e, seen, grammar, problems, 'gap'):

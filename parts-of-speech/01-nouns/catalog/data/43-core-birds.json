@@ -473,41 +473,41 @@
       "respell": "KRAYN",
       "meaning": "Crane has 2 distinct senses.",
       "examples": [
-        "A crane took off from the marsh as we drove by.",
-        "Thousands of cranes stop here on their way south.",
-        "The crane stood on one leg for almost ten minutes.",
         "A crane lifted the steel beams onto the roof.",
         "Three cranes stood over the half-built tower.",
-        "The crane operator worked from a cab a hundred feet up."
+        "The crane operator worked from a cab a hundred feet up.",
+        "A crane took off from the marsh as we drove by.",
+        "Thousands of cranes stop here on their way south.",
+        "The crane stood on one leg for almost ten minutes."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A tall long-necked bird that lives in wetlands",
-          "body": [
-            "(журавль)"
-          ],
-          "examples": [
-            "A crane took off from the marsh as we drove by.",
-            "Thousands of cranes stop here on their way south.",
-            "The crane stood on one leg for almost ten minutes."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A tall machine with a long arm for lifting heavy loads",
           "body": [
-            "(подъёмный кран)",
-            "---"
+            "(подъёмный кран)"
           ],
           "examples": [
             "A crane lifted the steel beams onto the roof.",
             "Three cranes stood over the half-built tower.",
             "The crane operator worked from a cab a hundred feet up."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A tall long-necked bird that lives in wetlands",
+          "body": [
+            "(журавль)",
+            "---"
+          ],
+          "examples": [
+            "A crane took off from the marsh as we drove by.",
+            "Thousands of cranes stop here on their way south.",
+            "The crane stood on one leg for almost ten minutes."
+          ]
         }
       ],
-      "русский": "журавль; подъёмный кран",
+      "русский": "подъёмный кран; журавль",
       "plural": "cranes",
       "countability": "countable",
       "contrast": "The same word also means a lifting machine on a building site; only context tells you which."
@@ -1467,41 +1467,41 @@
       "respell": "BIL",
       "meaning": "Bill has 2 distinct senses.",
       "examples": [
-        "A duck's bill is flat and wide.",
-        "The pelican's bill holds more than its stomach does.",
-        "Some birds have long, curved bills for reaching into flowers.",
         "Can you break a hundred-dollar bill?",
         "The electric bill was huge this month.",
-        "We split the bill three ways."
+        "We split the bill three ways.",
+        "A duck's bill is flat and wide.",
+        "The pelican's bill holds more than its stomach does.",
+        "Some birds have long, curved bills for reaching into flowers."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A bird's beak, especially a flat wide one",
-          "body": [
-            "(клюв (плоский, у водоплавающих))"
-          ],
-          "examples": [
-            "A duck's bill is flat and wide.",
-            "The pelican's bill holds more than its stomach does.",
-            "Some birds have long, curved bills for reaching into flowers."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A piece of paper money, or a statement of what you owe",
           "body": [
-            "(купюра; счёт к оплате)",
-            "---"
+            "(купюра; счёт к оплате)"
           ],
           "examples": [
             "Can you break a hundred-dollar bill?",
             "The electric bill was huge this month.",
             "We split the bill three ways."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A bird's beak, especially a flat wide one",
+          "body": [
+            "(клюв (плоский, у водоплавающих))",
+            "---"
+          ],
+          "examples": [
+            "A duck's bill is flat and wide.",
+            "The pelican's bill holds more than its stomach does.",
+            "Some birds have long, curved bills for reaching into flowers."
+          ]
         }
       ],
-      "русский": "клюв (плоский, у водоплавающих); купюра; счёт к оплате",
+      "русский": "купюра; счёт к оплате; клюв (плоский, у водоплавающих)",
       "plural": "bills",
       "countability": "countable",
       "contrast": "The same word also means a bill you pay and, in American English, a banknote (a ten-dollar bill)."
@@ -1527,12 +1527,12 @@
       "respell": "KREST",
       "meaning": "Crest has 3 distinct senses.",
       "examples": [
-        "The bird raised its crest when it got excited.",
-        "Cardinals have a pointed crest on the head.",
-        "Both crests went up the moment the dog appeared.",
         "The house sits on the crest of the hill.",
         "Surfers waited for the crest of the next wave.",
         "You can see the ocean once you reach the crest.",
+        "The bird raised its crest when it got excited.",
+        "Cardinals have a pointed crest on the head.",
+        "Both crests went up the moment the dog appeared.",
         "The school crest is stitched on every blazer.",
         "He wore a ring with his family crest.",
         "Both team crests were painted at midfield."
@@ -1540,18 +1540,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A tuft of feathers on top of a bird's head",
-          "body": [
-            "(хохолок, гребень)"
-          ],
-          "examples": [
-            "The bird raised its crest when it got excited.",
-            "Cardinals have a pointed crest on the head.",
-            "Both crests went up the moment the dog appeared."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The highest part of a hill, a wave, or a rise in the road",
           "body": [
             "(гребень (волны), вершина (холма))"
@@ -1560,6 +1548,18 @@
             "The house sits on the crest of the hill.",
             "Surfers waited for the crest of the next wave.",
             "You can see the ocean once you reach the crest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tuft of feathers on top of a bird's head",
+          "body": [
+            "(хохолок, гребень)"
+          ],
+          "examples": [
+            "The bird raised its crest when it got excited.",
+            "Cardinals have a pointed crest on the head.",
+            "Both crests went up the moment the dog appeared."
           ]
         },
         {
@@ -1576,7 +1576,7 @@
           ]
         }
       ],
-      "русский": "хохолок, гребень; гребень (волны), вершина (холма); герб, эмблема",
+      "русский": "гребень (волны), вершина (холма); хохолок, гребень; герб, эмблема",
       "plural": "crests",
       "countability": "countable"
     },
@@ -1689,12 +1689,12 @@
       "respell": "my-GRAY-shun",
       "meaning": "Migration has 3 distinct senses.",
       "examples": [
-        "The fall migration starts in late August.",
-        "Their yearly migration covers eight thousand miles.",
-        "Storms can throw whole migrations off course.",
         "The war set off the largest migration in the region's history.",
         "Economists study the migration of workers to the Sun Belt.",
         "Migration from the countryside emptied whole villages.",
+        "The fall migration starts in late August.",
+        "Their yearly migration covers eight thousand miles.",
+        "Storms can throw whole migrations off course.",
         "The migration to the new database took all weekend.",
         "IT scheduled the migration for a Sunday night.",
         "We lost a few old files during the migration."
@@ -1702,18 +1702,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The seasonal journey birds make from one region to another",
-          "body": [
-            "(миграция, перелёт (птиц))"
-          ],
-          "examples": [
-            "The fall migration starts in late August.",
-            "Their yearly migration covers eight thousand miles.",
-            "Storms can throw whole migrations off course."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The movement of people from one country or region to another to live there",
           "body": [
             "(миграция (людей), переселение)"
@@ -1722,6 +1710,18 @@
             "The war set off the largest migration in the region's history.",
             "Economists study the migration of workers to the Sun Belt.",
             "Migration from the countryside emptied whole villages."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The seasonal journey birds make from one region to another",
+          "body": [
+            "(миграция, перелёт (птиц))"
+          ],
+          "examples": [
+            "The fall migration starts in late August.",
+            "Their yearly migration covers eight thousand miles.",
+            "Storms can throw whole migrations off course."
           ]
         },
         {
@@ -1738,7 +1738,7 @@
           ]
         }
       ],
-      "русский": "миграция, перелёт (птиц); миграция (людей), переселение; перенос, миграция (данных, системы)",
+      "русский": "миграция (людей), переселение; миграция, перелёт (птиц); перенос, миграция (данных, системы)",
       "plural": "migrations",
       "countability": "countable"
     },
@@ -1748,12 +1748,12 @@
       "respell": "FLYT",
       "meaning": "Flight has 4 distinct senses.",
       "examples": [
-        "The owl's flight is completely silent.",
-        "We tracked the bird's flight until it went behind the trees.",
-        "A pelican's flight looks awkward until it hits the water.",
         "Our flight was delayed three hours.",
         "She booked a flight home for the holidays.",
         "All flights out of the airport were canceled.",
+        "The owl's flight is completely silent.",
+        "We tracked the bird's flight until it went behind the trees.",
+        "A pelican's flight looks awkward until it hits the water.",
         "Her apartment is up two flights.",
         "He carried the boxes up a flight of stairs.",
         "There's one more flight to the roof.",
@@ -1764,18 +1764,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The act or manner of flying through the air",
-          "body": [
-            "(полёт)"
-          ],
-          "examples": [
-            "The owl's flight is completely silent.",
-            "We tracked the bird's flight until it went behind the trees.",
-            "A pelican's flight looks awkward until it hits the water."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A trip made by airplane, or the plane making that trip",
           "body": [
             "(рейс, авиарейс)"
@@ -1784,6 +1772,18 @@
             "Our flight was delayed three hours.",
             "She booked a flight home for the holidays.",
             "All flights out of the airport were canceled."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act or manner of flying through the air",
+          "body": [
+            "(полёт)"
+          ],
+          "examples": [
+            "The owl's flight is completely silent.",
+            "We tracked the bird's flight until it went behind the trees.",
+            "A pelican's flight looks awkward until it hits the water."
           ]
         },
         {
@@ -1812,7 +1812,7 @@
           ]
         }
       ],
-      "русский": "полёт; рейс, авиарейс; лестничный марш; бегство",
+      "русский": "рейс, авиарейс; полёт; лестничный марш; бегство",
       "plural": "flights",
       "countability": "countable"
     },
@@ -1868,41 +1868,41 @@
       "respell": "TWEET",
       "meaning": "Tweet has 2 distinct senses.",
       "examples": [
-        "A tweet came from the nest above the door.",
-        "The little tweets got louder when the mother came back.",
-        "I heard one tweet and then nothing.",
         "His tweet got thousands of replies overnight.",
         "She deleted the tweet an hour after posting it.",
-        "The whole story started with a single tweet."
+        "The whole story started with a single tweet.",
+        "A tweet came from the nest above the door.",
+        "The little tweets got louder when the mother came back.",
+        "I heard one tweet and then nothing."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A short high sound made by a small bird",
-          "body": [
-            "(чирик, щебет)"
-          ],
-          "examples": [
-            "A tweet came from the nest above the door.",
-            "The little tweets got louder when the mother came back.",
-            "I heard one tweet and then nothing."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A short message posted on a social media site, especially Twitter or X",
           "body": [
-            "(твит, короткий пост в соцсети)",
-            "---"
+            "(твит, короткий пост в соцсети)"
           ],
           "examples": [
             "His tweet got thousands of replies overnight.",
             "She deleted the tweet an hour after posting it.",
             "The whole story started with a single tweet."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A short high sound made by a small bird",
+          "body": [
+            "(чирик, щебет)",
+            "---"
+          ],
+          "examples": [
+            "A tweet came from the nest above the door.",
+            "The little tweets got louder when the mother came back.",
+            "I heard one tweet and then nothing."
+          ]
         }
       ],
-      "русский": "чирик, щебет; твит, короткий пост в соцсети",
+      "русский": "твит, короткий пост в соцсети; чирик, щебет",
       "plural": "tweets",
       "countability": "countable",
       "contrast": "Far more common now as an online post, but the bird sound is the original meaning."

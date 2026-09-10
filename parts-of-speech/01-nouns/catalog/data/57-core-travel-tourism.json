@@ -350,31 +350,19 @@
       "respell": "kuh-NEK-shuhn",
       "meaning": "Connection has 3 distinct senses.",
       "examples": [
-        "I almost missed my connection in Dallas.",
-        "There are only two connections a day to that island.",
-        "The gate agent rebooked my connection.",
         "My connection keeps dropping during video calls.",
         "Hotel connections are usually pretty slow.",
         "Check your connection before you blame the app.",
         "The video keeps freezing because my connection is slow.",
         "We lost our connection halfway through the call.",
-        "Hotel connections are usually too slow for video."
+        "Hotel connections are usually too slow for video.",
+        "I almost missed my connection in Dallas.",
+        "There are only two connections a day to that island.",
+        "The gate agent rebooked my connection."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A second flight or train you change to in order to finish a trip",
-          "body": [
-            "(стыковочный рейс, пересадка)"
-          ],
-          "examples": [
-            "I almost missed my connection in Dallas.",
-            "There are only two connections a day to that island.",
-            "The gate agent rebooked my connection."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A link that lets one device exchange information with another",
           "body": [
             "(соединение, подключение)"
@@ -386,20 +374,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A working link between a device and a network",
           "body": [
-            "(соединение, подключение)",
-            "---"
+            "(соединение, подключение)"
           ],
           "examples": [
             "The video keeps freezing because my connection is slow.",
             "We lost our connection halfway through the call.",
             "Hotel connections are usually too slow for video."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A second flight or train you change to in order to finish a trip",
+          "body": [
+            "(стыковочный рейс, пересадка)",
+            "---"
+          ],
+          "examples": [
+            "I almost missed my connection in Dallas.",
+            "There are only two connections a day to that island.",
+            "The gate agent rebooked my connection."
+          ]
         }
       ],
-      "русский": "стыковочный рейс, пересадка; соединение, подключение",
+      "русский": "соединение, подключение; стыковочный рейс, пересадка",
       "plural": "connections",
       "countability": "countable"
     },
@@ -676,41 +676,41 @@
       "respell": "im-ih-GRAY-shuhn",
       "meaning": "Immigration has 2 distinct senses.",
       "examples": [
-        "The line at immigration was enormous.",
-        "Immigration asked how long I was staying.",
-        "You clear immigration before you pick up your bags.",
         "Immigration dominated the debate.",
         "He wants to cut legal immigration in half.",
-        "The immigration system has not been updated in years."
+        "The immigration system has not been updated in years.",
+        "The line at immigration was enormous.",
+        "Immigration asked how long I was staying.",
+        "You clear immigration before you pick up your bags."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The desk or process where officials check travelers entering a country",
-          "body": [
-            "(паспортный контроль; иммиграция)"
-          ],
-          "examples": [
-            "The line at immigration was enormous.",
-            "Immigration asked how long I was staying.",
-            "You clear immigration before you pick up your bags."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The movement of people into a country to live there",
           "body": [
-            "(иммиграция)",
-            "---"
+            "(иммиграция)"
           ],
           "examples": [
             "Immigration dominated the debate.",
             "He wants to cut legal immigration in half.",
             "The immigration system has not been updated in years."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The desk or process where officials check travelers entering a country",
+          "body": [
+            "(паспортный контроль; иммиграция)",
+            "---"
+          ],
+          "examples": [
+            "The line at immigration was enormous.",
+            "Immigration asked how long I was staying.",
+            "You clear immigration before you pick up your bags."
+          ]
         }
       ],
-      "русский": "паспортный контроль; иммиграция; иммиграция",
+      "русский": "иммиграция; паспортный контроль; иммиграция",
       "countability": "uncountable",
       "contrast": "Immigration is movement into a country; emigration is movement out of one."
     },
@@ -764,41 +764,41 @@
       "respell": "dek-luh-RAY-shuhn",
       "meaning": "Declaration has 2 distinct senses.",
       "examples": [
-        "Sign the customs declaration before landing.",
-        "The crew handed out declarations on the plane.",
-        "A false declaration can cost you a big fine.",
         "The colonies signed their declaration of independence in 1776.",
         "Congress has not issued a formal declaration of war since 1942.",
-        "His speech was a declaration that he intends to run again."
+        "His speech was a declaration that he intends to run again.",
+        "Sign the customs declaration before landing.",
+        "The crew handed out declarations on the plane.",
+        "A false declaration can cost you a big fine."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An official statement listing what you are bringing into a country",
-          "body": [
-            "(декларация)"
-          ],
-          "examples": [
-            "Sign the customs declaration before landing.",
-            "The crew handed out declarations on the plane.",
-            "A false declaration can cost you a big fine."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A formal public statement or announcement",
           "body": [
-            "(заявление, провозглашение)",
-            "---"
+            "(заявление, провозглашение)"
           ],
           "examples": [
             "The colonies signed their declaration of independence in 1776.",
             "Congress has not issued a formal declaration of war since 1942.",
             "His speech was a declaration that he intends to run again."
           ]
+        },
+        {
+          "n": "2",
+          "head": "An official statement listing what you are bringing into a country",
+          "body": [
+            "(декларация)",
+            "---"
+          ],
+          "examples": [
+            "Sign the customs declaration before landing.",
+            "The crew handed out declarations on the plane.",
+            "A false declaration can cost you a big fine."
+          ]
         }
       ],
-      "русский": "декларация; заявление, провозглашение",
+      "русский": "заявление, провозглашение; декларация",
       "plural": "declarations",
       "countability": "countable",
       "contrast": "The verb declare stresses the second syllable: dih-KLAIR."
@@ -809,6 +809,9 @@
       "respell": "sih-KYOOR-ih-tee",
       "meaning": "Security has 4 distinct senses.",
       "examples": [
+        "The bank added another layer of security.",
+        "Weak passwords are a security problem.",
+        "Security on that site is a joke.",
         "Get to the airport early; security is slow today.",
         "Security made me throw out my water bottle.",
         "We went through security in five minutes.",
@@ -817,14 +820,23 @@
         "The committee meets to discuss border security.",
         "The bank spends a fortune on security.",
         "Weak passwords are a security problem.",
-        "Security is everybody's job, not just IT's.",
-        "The bank added another layer of security.",
-        "Weak passwords are a security problem.",
-        "Security on that site is a joke."
+        "Security is everybody's job, not just IT's."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "Protection against theft, damage, or unwanted access",
+          "body": [
+            "(безопасность, защита)"
+          ],
+          "examples": [
+            "The bank added another layer of security.",
+            "Weak passwords are a security problem.",
+            "Security on that site is a joke."
+          ]
+        },
+        {
+          "n": "2",
           "head": "The screening area and staff that check passengers before a flight",
           "body": [
             "(досмотр; служба безопасности)"
@@ -836,7 +848,7 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "Protection of a country or people from attack and danger",
           "body": [
             "(безопасность)"
@@ -848,32 +860,20 @@
           ]
         },
         {
-          "n": "3",
+          "n": "4",
           "head": "Protection of computers and data from theft or damage",
           "body": [
-            "(безопасность (защита данных))"
+            "(безопасность (защита данных))",
+            "---"
           ],
           "examples": [
             "The bank spends a fortune on security.",
             "Weak passwords are a security problem.",
             "Security is everybody's job, not just IT's."
           ]
-        },
-        {
-          "n": "4",
-          "head": "Protection against theft, damage, or unwanted access",
-          "body": [
-            "(безопасность, защита)",
-            "---"
-          ],
-          "examples": [
-            "The bank added another layer of security.",
-            "Weak passwords are a security problem.",
-            "Security on that site is a joke."
-          ]
         }
       ],
-      "русский": "досмотр; служба безопасности; безопасность; безопасность (защита данных); безопасность, защита",
+      "русский": "безопасность, защита; досмотр; служба безопасности; безопасность; безопасность (защита данных)",
       "countability": "uncountable"
     },
     {
@@ -1982,41 +1982,41 @@
       "respell": "GEST-hows",
       "meaning": "Guesthouse has 2 distinct senses.",
       "examples": [
-        "We found a family guesthouse near the market.",
-        "Small guesthouses cost half what the hotels do.",
-        "The guesthouse only has six rooms.",
         "My in-laws stay in the guesthouse when they visit.",
         "The listing includes a two-bedroom guesthouse out back.",
-        "They turned the guesthouse into an office during the pandemic."
+        "They turned the guesthouse into an office during the pandemic.",
+        "We found a family guesthouse near the market.",
+        "Small guesthouses cost half what the hotels do.",
+        "The guesthouse only has six rooms."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A small private house that rents rooms to travelers",
-          "body": [
-            "(гостевой дом)"
-          ],
-          "examples": [
-            "We found a family guesthouse near the market.",
-            "Small guesthouses cost half what the hotels do.",
-            "The guesthouse only has six rooms."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A small separate house on someone's property where guests stay",
           "body": [
-            "(гостевой домик (на участке хозяев))",
-            "---"
+            "(гостевой домик (на участке хозяев))"
           ],
           "examples": [
             "My in-laws stay in the guesthouse when they visit.",
             "The listing includes a two-bedroom guesthouse out back.",
             "They turned the guesthouse into an office during the pandemic."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A small private house that rents rooms to travelers",
+          "body": [
+            "(гостевой дом)",
+            "---"
+          ],
+          "examples": [
+            "We found a family guesthouse near the market.",
+            "Small guesthouses cost half what the hotels do.",
+            "The guesthouse only has six rooms."
+          ]
         }
       ],
-      "русский": "гостевой дом; гостевой домик (на участке хозяев)",
+      "русский": "гостевой домик (на участке хозяев); гостевой дом",
       "plural": "guesthouses",
       "countability": "countable",
       "contrast": "The u after g is silent: GEST, not GYOOST."
@@ -2027,41 +2027,41 @@
       "respell": "rih-SEP-shuhn",
       "meaning": "Reception has 2 distinct senses.",
       "examples": [
-        "Leave your key at reception when you go out.",
-        "Call reception if you need more towels.",
-        "The reception is open around the clock.",
         "Reception is bad in the basement.",
         "We get better reception by the window.",
-        "The new antenna improved reception a lot."
+        "The new antenna improved reception a lot.",
+        "Leave your key at reception when you go out.",
+        "Call reception if you need more towels.",
+        "The reception is open around the clock."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The desk or area in a hotel where guests check in",
-          "body": [
-            "(стойка регистрации, ресепшен)"
-          ],
-          "examples": [
-            "Leave your key at reception when you go out.",
-            "Call reception if you need more towels.",
-            "The reception is open around the clock."
-          ]
-        },
-        {
-          "n": "2",
           "head": "How well a radio, TV, or phone picks up a signal",
           "body": [
-            "(приём (сигнала))",
-            "---"
+            "(приём (сигнала))"
           ],
           "examples": [
             "Reception is bad in the basement.",
             "We get better reception by the window.",
             "The new antenna improved reception a lot."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The desk or area in a hotel where guests check in",
+          "body": [
+            "(стойка регистрации, ресепшен)",
+            "---"
+          ],
+          "examples": [
+            "Leave your key at reception when you go out.",
+            "Call reception if you need more towels.",
+            "The reception is open around the clock."
+          ]
         }
       ],
-      "русский": "стойка регистрации, ресепшен; приём (сигнала)",
+      "русский": "приём (сигнала); стойка регистрации, ресепшен",
       "plural": "receptions",
       "countability": "countable"
     },
@@ -2204,41 +2204,41 @@
       "respell": "CHEK-owt",
       "meaning": "Checkout has 2 distinct senses.",
       "examples": [
-        "Checkout is at eleven in the morning.",
-        "Late checkouts cost an extra thirty dollars.",
-        "We left our bags at the desk after checkout.",
         "There were six people ahead of us at the checkout.",
         "Only two checkouts were open on a Saturday.",
-        "She grabbed a magazine at the checkout."
+        "She grabbed a magazine at the checkout.",
+        "Checkout is at eleven in the morning.",
+        "Late checkouts cost an extra thirty dollars.",
+        "We left our bags at the desk after checkout."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The time or act of leaving a hotel and paying at the end of a stay",
-          "body": [
-            "(выезд из отеля, расчётный час)"
-          ],
-          "examples": [
-            "Checkout is at eleven in the morning.",
-            "Late checkouts cost an extra thirty dollars.",
-            "We left our bags at the desk after checkout."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The counter in a store where you pay for what you are buying",
           "body": [
-            "(касса (в магазине))",
-            "---"
+            "(касса (в магазине))"
           ],
           "examples": [
             "There were six people ahead of us at the checkout.",
             "Only two checkouts were open on a Saturday.",
             "She grabbed a magazine at the checkout."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The time or act of leaving a hotel and paying at the end of a stay",
+          "body": [
+            "(выезд из отеля, расчётный час)",
+            "---"
+          ],
+          "examples": [
+            "Checkout is at eleven in the morning.",
+            "Late checkouts cost an extra thirty dollars.",
+            "We left our bags at the desk after checkout."
+          ]
         }
       ],
-      "русский": "выезд из отеля, расчётный час; касса (в магазине)",
+      "русский": "касса (в магазине); выезд из отеля, расчётный час",
       "plural": "checkouts",
       "countability": "countable"
     },
@@ -2515,46 +2515,22 @@
       "respell": "PLAT-form",
       "meaning": "Platform has 4 distinct senses.",
       "examples": [
-        "Our train leaves from platform nine.",
-        "Both platforms were packed with commuters.",
-        "Stand back from the edge of the platform.",
-        "Health care is the center of her platform.",
-        "The party adopted its platform at the convention.",
-        "Their two platforms are almost identical.",
         "The video platform changed its rules again.",
         "We publish on three different platforms.",
         "It's the biggest platform for freelance work.",
         "She posts the same video on three platforms.",
         "The platform banned his account.",
-        "Every platform has its own rules about ads."
+        "Every platform has its own rules about ads.",
+        "Our train leaves from platform nine.",
+        "Both platforms were packed with commuters.",
+        "Stand back from the edge of the platform.",
+        "Health care is the center of her platform.",
+        "The party adopted its platform at the convention.",
+        "Their two platforms are almost identical."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The raised walkway beside the track where passengers wait",
-          "body": [
-            "(платформа, перрон)"
-          ],
-          "examples": [
-            "Our train leaves from platform nine.",
-            "Both platforms were packed with commuters.",
-            "Stand back from the edge of the platform."
-          ]
-        },
-        {
-          "n": "2",
-          "head": "The set of positions a party or candidate runs on",
-          "body": [
-            "(предвыборная программа (партии))"
-          ],
-          "examples": [
-            "Health care is the center of her platform.",
-            "The party adopted its platform at the convention.",
-            "Their two platforms are almost identical."
-          ]
-        },
-        {
-          "n": "3",
           "head": "A system or service that other software and users are built around",
           "body": [
             "(платформа)"
@@ -2566,20 +2542,44 @@
           ]
         },
         {
-          "n": "4",
+          "n": "2",
           "head": "An online service where people post, share, or sell things",
           "body": [
-            "(платформа (онлайн-сервис))",
-            "---"
+            "(платформа (онлайн-сервис))"
           ],
           "examples": [
             "She posts the same video on three platforms.",
             "The platform banned his account.",
             "Every platform has its own rules about ads."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The raised walkway beside the track where passengers wait",
+          "body": [
+            "(платформа, перрон)"
+          ],
+          "examples": [
+            "Our train leaves from platform nine.",
+            "Both platforms were packed with commuters.",
+            "Stand back from the edge of the platform."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "The set of positions a party or candidate runs on",
+          "body": [
+            "(предвыборная программа (партии))",
+            "---"
+          ],
+          "examples": [
+            "Health care is the center of her platform.",
+            "The party adopted its platform at the convention.",
+            "Their two platforms are almost identical."
+          ]
         }
       ],
-      "русский": "платформа, перрон; предвыборная программа (партии); платформа; платформа (онлайн-сервис)",
+      "русский": "платформа; платформа (онлайн-сервис); платформа, перрон; предвыборная программа (партии)",
       "plural": "platforms",
       "countability": "countable"
     },

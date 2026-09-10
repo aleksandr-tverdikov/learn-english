@@ -243,12 +243,12 @@
       "respell": "PEER-ee-uhd",
       "meaning": "Period has 4 distinct senses.",
       "examples": [
-        "You forgot the period at the end of that line.",
-        "Put a period there, not a comma.",
-        "He writes in short sentences with a lot of periods.",
         "Sales were flat over a six-month period.",
         "He went through a rough period after the divorce.",
         "Rain is expected for short periods tomorrow afternoon.",
+        "You forgot the period at the end of that line.",
+        "Put a period there, not a comma.",
+        "He writes in short sentences with a lot of periods.",
         "I have chemistry third period.",
         "She grades papers during her free period.",
         "The fire drill ate up most of second period.",
@@ -259,18 +259,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "The dot that ends a sentence",
-          "body": [
-            "(точка (знак препинания))"
-          ],
-          "examples": [
-            "You forgot the period at the end of that line.",
-            "Put a period there, not a comma.",
-            "He writes in short sentences with a lot of periods."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A length of time with a beginning and an end",
           "body": [
             "(период, отрезок времени)"
@@ -279,6 +267,18 @@
             "Sales were flat over a six-month period.",
             "He went through a rough period after the divorce.",
             "Rain is expected for short periods tomorrow afternoon."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dot that ends a sentence",
+          "body": [
+            "(точка (знак препинания))"
+          ],
+          "examples": [
+            "You forgot the period at the end of that line.",
+            "Put a period there, not a comma.",
+            "He writes in short sentences with a lot of periods."
           ]
         },
         {
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "русский": "точка (знак препинания); период, отрезок времени; урок, учебный час; менструация, месячные",
+      "русский": "период, отрезок времени; точка (знак препинания); урок, учебный час; менструация, месячные",
       "plural": "periods",
       "countability": "countable",
       "contrast": "American; the British call this mark a full stop."
@@ -683,31 +683,19 @@
       "respell": "AHB-jikt",
       "meaning": "Object has 3 distinct senses.",
       "examples": [
-        "In I read the book, book is the object.",
-        "The verb takes a direct object.",
-        "Underline the subjects and circle the objects.",
         "Please take all metal objects out of your pockets.",
         "A strange object was floating in the pool.",
         "The museum holds thousands of small objects from the dig.",
         "The object of the game is to collect all four cards.",
         "The whole object of the exercise was to save time.",
-        "Winning was never the object."
+        "Winning was never the object.",
+        "In I read the book, book is the object.",
+        "The verb takes a direct object.",
+        "Underline the subjects and circle the objects."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The word in a sentence that receives the action of the verb",
-          "body": [
-            "(дополнение (в предложении))"
-          ],
-          "examples": [
-            "In I read the book, book is the object.",
-            "The verb takes a direct object.",
-            "Underline the subjects and circle the objects."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A thing that you can see and touch",
           "body": [
             "(предмет, вещь)"
@@ -719,20 +707,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The aim or purpose of an action or a game",
           "body": [
-            "(цель, задача)",
-            "---"
+            "(цель, задача)"
           ],
           "examples": [
             "The object of the game is to collect all four cards.",
             "The whole object of the exercise was to save time.",
             "Winning was never the object."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The word in a sentence that receives the action of the verb",
+          "body": [
+            "(дополнение (в предложении))",
+            "---"
+          ],
+          "examples": [
+            "In I read the book, book is the object.",
+            "The verb takes a direct object.",
+            "Underline the subjects and circle the objects."
+          ]
         }
       ],
-      "русский": "дополнение (в предложении); предмет, вещь; цель, задача",
+      "русский": "предмет, вещь; цель, задача; дополнение (в предложении)",
       "plural": "objects",
       "countability": "countable",
       "contrast": "The noun is AHB-jikt with the stress up front; the verb meaning to protest is uhb-JEKT."
@@ -849,41 +849,41 @@
       "respell": "JEN-dur",
       "meaning": "Gender has 2 distinct senses.",
       "examples": [
-        "Russian nouns have gender, and English ones don't.",
-        "You have to learn the gender along with the word.",
-        "German has three genders.",
         "The pay gap between genders is narrowing.",
         "The survey does not ask about gender.",
-        "Both genders were represented on the panel."
+        "Both genders were represented on the panel.",
+        "Russian nouns have gender, and English ones don't.",
+        "You have to learn the gender along with the word.",
+        "German has three genders."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The class a noun belongs to in some languages, such as masculine or feminine",
-          "body": [
-            "(род (грамматический))"
-          ],
-          "examples": [
-            "Russian nouns have gender, and English ones don't.",
-            "You have to learn the gender along with the word.",
-            "German has three genders."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The state of being male or female, especially as a social role",
           "body": [
-            "(пол, гендер)",
-            "---"
+            "(пол, гендер)"
           ],
           "examples": [
             "The pay gap between genders is narrowing.",
             "The survey does not ask about gender.",
             "Both genders were represented on the panel."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The class a noun belongs to in some languages, such as masculine or feminine",
+          "body": [
+            "(род (грамматический))",
+            "---"
+          ],
+          "examples": [
+            "Russian nouns have gender, and English ones don't.",
+            "You have to learn the gender along with the word.",
+            "German has three genders."
+          ]
         }
       ],
-      "русский": "род (грамматический); пол, гендер",
+      "русский": "пол, гендер; род (грамматический)",
       "plural": "genders",
       "countability": "countable"
     },
@@ -1012,41 +1012,41 @@
       "respell": "EN-ding",
       "meaning": "Ending has 2 distinct senses.",
       "examples": [
-        "The verb takes an -s ending in the third person.",
-        "Russian nouns change their endings depending on the case.",
-        "He keeps dropping the past-tense ending.",
         "The book has a surprisingly happy ending.",
         "Don't tell me the ending.",
-        "Both endings were filmed and shown to test audiences."
+        "Both endings were filmed and shown to test audiences.",
+        "The verb takes an -s ending in the third person.",
+        "Russian nouns change their endings depending on the case.",
+        "He keeps dropping the past-tense ending."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The letters at the end of a word that show its grammatical form",
-          "body": [
-            "(окончание (грамматическое))"
-          ],
-          "examples": [
-            "The verb takes an -s ending in the third person.",
-            "Russian nouns change their endings depending on the case.",
-            "He keeps dropping the past-tense ending."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The way a story, film, or event finishes",
           "body": [
-            "(концовка, финал)",
-            "---"
+            "(концовка, финал)"
           ],
           "examples": [
             "The book has a surprisingly happy ending.",
             "Don't tell me the ending.",
             "Both endings were filmed and shown to test audiences."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The letters at the end of a word that show its grammatical form",
+          "body": [
+            "(окончание (грамматическое))",
+            "---"
+          ],
+          "examples": [
+            "The verb takes an -s ending in the third person.",
+            "Russian nouns change their endings depending on the case.",
+            "He keeps dropping the past-tense ending."
+          ]
         }
       ],
-      "русский": "окончание (грамматическое); концовка, финал",
+      "русский": "концовка, финал; окончание (грамматическое)",
       "plural": "endings",
       "countability": "countable"
     },
@@ -1116,41 +1116,41 @@
       "respell": "YOO-sij",
       "meaning": "Usage has 2 distinct senses.",
       "examples": [
-        "That spelling is fine in American usage.",
-        "The dictionary has a note on usage at the bottom.",
-        "Usage changes faster than the rule books do.",
         "Our water usage went up in July.",
         "Check your data usage before you stream the game.",
-        "The app tracks your screen usage by the hour."
+        "The app tracks your screen usage by the hour.",
+        "That spelling is fine in American usage.",
+        "The dictionary has a note on usage at the bottom.",
+        "Usage changes faster than the rule books do."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The way words are actually used by the people who speak a language",
-          "body": [
-            "(словоупотребление, узус)"
-          ],
-          "examples": [
-            "That spelling is fine in American usage.",
-            "The dictionary has a note on usage at the bottom.",
-            "Usage changes faster than the rule books do."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The amount of something that is used",
           "body": [
-            "(расход, потребление)",
-            "---"
+            "(расход, потребление)"
           ],
           "examples": [
             "Our water usage went up in July.",
             "Check your data usage before you stream the game.",
             "The app tracks your screen usage by the hour."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The way words are actually used by the people who speak a language",
+          "body": [
+            "(словоупотребление, узус)",
+            "---"
+          ],
+          "examples": [
+            "That spelling is fine in American usage.",
+            "The dictionary has a note on usage at the bottom.",
+            "Usage changes faster than the rule books do."
+          ]
         }
       ],
-      "русский": "словоупотребление, узус; расход, потребление",
+      "русский": "расход, потребление; словоупотребление, узус",
       "countability": "uncountable",
       "contrast": "The s hisses here: YOO-sij. The verb use has a z sound: YOOZ."
     },

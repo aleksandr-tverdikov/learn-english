@@ -3507,41 +3507,41 @@
       "respell": "KLOH-zing",
       "meaning": "Closing has 2 distinct senses.",
       "examples": [
-        "Closing is set for the fifteenth.",
-        "We signed about thirty documents at the closing.",
-        "Closing costs came to four thousand dollars.",
         "The station listed school closings all morning.",
         "The closing of the plant cost four hundred jobs.",
-        "Store closings have left the mall half empty."
+        "Store closings have left the mall half empty.",
+        "Closing is set for the fifteenth.",
+        "We signed about thirty documents at the closing.",
+        "Closing costs came to four thousand dollars."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The final meeting at which the sale of a house or property is completed",
-          "body": [
-            "(оформление сделки (при покупке недвижимости))"
-          ],
-          "examples": [
-            "Closing is set for the fifteenth.",
-            "We signed about thirty documents at the closing.",
-            "Closing costs came to four thousand dollars."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The shutting down of a business, school, or road, for a time or for good",
           "body": [
-            "(закрытие (магазина, школы, дороги))",
-            "---"
+            "(закрытие (магазина, школы, дороги))"
           ],
           "examples": [
             "The station listed school closings all morning.",
             "The closing of the plant cost four hundred jobs.",
             "Store closings have left the mall half empty."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The final meeting at which the sale of a house or property is completed",
+          "body": [
+            "(оформление сделки (при покупке недвижимости))",
+            "---"
+          ],
+          "examples": [
+            "Closing is set for the fifteenth.",
+            "We signed about thirty documents at the closing.",
+            "Closing costs came to four thousand dollars."
+          ]
         }
       ],
-      "русский": "оформление сделки (при покупке недвижимости); закрытие (магазина, школы, дороги)",
+      "русский": "закрытие (магазина, школы, дороги); оформление сделки (при покупке недвижимости)",
       "plural": "closings",
       "countability": "countable"
     },

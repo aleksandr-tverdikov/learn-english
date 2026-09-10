@@ -854,41 +854,41 @@
       "respell": "ded-ih-KAY-shuhn",
       "meaning": "Dedication has 2 distinct senses.",
       "examples": [
-        "The dedication reads 'For my mother.'",
-        "He put a joke in the dedication.",
-        "Her first two books had the same dedication.",
         "Teaching that long takes real dedication.",
         "Her dedication to the choir never wavered.",
-        "The award recognizes forty years of dedication."
+        "The award recognizes forty years of dedication.",
+        "The dedication reads 'For my mother.'",
+        "He put a joke in the dedication.",
+        "Her first two books had the same dedication."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A line at the front of a book saying it is written in honor of someone",
-          "body": [
-            "(посвящение (в книге))"
-          ],
-          "examples": [
-            "The dedication reads 'For my mother.'",
-            "He put a joke in the dedication.",
-            "Her first two books had the same dedication."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The quality of giving a lot of time and energy to something you care about",
           "body": [
-            "(самоотдача, преданность делу)",
-            "---"
+            "(самоотдача, преданность делу)"
           ],
           "examples": [
             "Teaching that long takes real dedication.",
             "Her dedication to the choir never wavered.",
             "The award recognizes forty years of dedication."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A line at the front of a book saying it is written in honor of someone",
+          "body": [
+            "(посвящение (в книге))",
+            "---"
+          ],
+          "examples": [
+            "The dedication reads 'For my mother.'",
+            "He put a joke in the dedication.",
+            "Her first two books had the same dedication."
+          ]
         }
       ],
-      "русский": "посвящение (в книге); самоотдача, преданность делу",
+      "русский": "самоотдача, преданность делу; посвящение (в книге)",
       "plural": "dedications",
       "countability": "countable"
     },
@@ -1716,41 +1716,41 @@
       "respell": "ROY-uhl-tee",
       "meaning": "Royalty has 2 distinct senses.",
       "examples": [
-        "She still gets royalties from her first book.",
-        "The contract sets the royalty at ten percent.",
-        "His royalties barely cover the rent.",
         "The crowd hoped to catch a glimpse of royalty.",
         "They were treated like royalty all weekend.",
-        "The museum displays jewelry once worn by royalty."
+        "The museum displays jewelry once worn by royalty.",
+        "She still gets royalties from her first book.",
+        "The contract sets the royalty at ten percent.",
+        "His royalties barely cover the rent."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Money paid to an author or musician for each copy of their work that sells",
-          "body": [
-            "(авторские отчисления, роялти)"
-          ],
-          "examples": [
-            "She still gets royalties from her first book.",
-            "The contract sets the royalty at ten percent.",
-            "His royalties barely cover the rent."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Kings, queens, and the members of their families",
           "body": [
-            "(члены королевской семьи, царственные особы)",
-            "---"
+            "(члены королевской семьи, царственные особы)"
           ],
           "examples": [
             "The crowd hoped to catch a glimpse of royalty.",
             "They were treated like royalty all weekend.",
             "The museum displays jewelry once worn by royalty."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Money paid to an author or musician for each copy of their work that sells",
+          "body": [
+            "(авторские отчисления, роялти)",
+            "---"
+          ],
+          "examples": [
+            "She still gets royalties from her first book.",
+            "The contract sets the royalty at ten percent.",
+            "His royalties barely cover the rent."
+          ]
         }
       ],
-      "русский": "авторские отчисления, роялти; члены королевской семьи, царственные особы",
+      "русский": "члены королевской семьи, царственные особы; авторские отчисления, роялти",
       "plural": "royalties",
       "countability": "countable"
     },
@@ -2238,31 +2238,19 @@
       "respell": "kuhn-TRIB-yuh-tur",
       "meaning": "Contributor has 3 distinct senses.",
       "examples": [
-        "She's a regular contributor to the food section.",
-        "The masthead lists forty contributors.",
-        "They pay contributors by the word.",
         "The senator returned the money to several contributors.",
         "The museum lists every contributor on a plaque in the lobby.",
         "She was the campaign's largest contributor last year.",
         "Smoking is a major contributor to heart disease.",
         "Cars are the biggest contributor to the city's smog.",
-        "Poor sleep is a known contributor to anxiety."
+        "Poor sleep is a known contributor to anxiety.",
+        "She's a regular contributor to the food section.",
+        "The masthead lists forty contributors.",
+        "They pay contributors by the word."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A writer who supplies pieces to a magazine or site without being on staff",
-          "body": [
-            "(внештатный автор)"
-          ],
-          "examples": [
-            "She's a regular contributor to the food section.",
-            "The masthead lists forty contributors.",
-            "They pay contributors by the word."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Someone who gives money to a campaign, a charity, or a fund",
           "body": [
             "(жертвователь, спонсор)"
@@ -2274,20 +2262,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A thing that helps to cause something, usually something bad",
           "body": [
-            "(фактор, способствующий (чему-л.))",
-            "---"
+            "(фактор, способствующий (чему-л.))"
           ],
           "examples": [
             "Smoking is a major contributor to heart disease.",
             "Cars are the biggest contributor to the city's smog.",
             "Poor sleep is a known contributor to anxiety."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A writer who supplies pieces to a magazine or site without being on staff",
+          "body": [
+            "(внештатный автор)",
+            "---"
+          ],
+          "examples": [
+            "She's a regular contributor to the food section.",
+            "The masthead lists forty contributors.",
+            "They pay contributors by the word."
+          ]
         }
       ],
-      "русский": "внештатный автор; жертвователь, спонсор; фактор, способствующий (чему-л.)",
+      "русский": "жертвователь, спонсор; фактор, способствующий (чему-л.); внештатный автор",
       "plural": "contributors",
       "countability": "countable"
     },
@@ -2444,31 +2444,19 @@
       "respell": "FEE-chur",
       "meaning": "Feature has 3 distinct senses.",
       "examples": [
-        "She's writing a feature on the housing shortage.",
-        "The Sunday feature runs about five thousand words.",
-        "He does mostly features now, not daily reporting.",
         "The best feature is the offline mode.",
         "They added three new features in this release.",
         "That feature is only in the paid plan.",
         "She has delicate features.",
         "His strongest feature is his jaw.",
-        "The twins share the same features."
+        "The twins share the same features.",
+        "She's writing a feature on the housing shortage.",
+        "The Sunday feature runs about five thousand words.",
+        "He does mostly features now, not daily reporting."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A long newspaper or magazine article about one subject, rather than straight news",
-          "body": [
-            "(очерк, большая тематическая статья)"
-          ],
-          "examples": [
-            "She's writing a feature on the housing shortage.",
-            "The Sunday feature runs about five thousand words.",
-            "He does mostly features now, not daily reporting."
-          ]
-        },
-        {
-          "n": "2",
           "head": "Something a product can do, offered as part of it",
           "body": [
             "(функция, возможность)"
@@ -2480,20 +2468,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A part of the face, such as the eyes, nose, or mouth",
           "body": [
-            "(черта (лица); особенность)",
-            "---"
+            "(черта (лица); особенность)"
           ],
           "examples": [
             "She has delicate features.",
             "His strongest feature is his jaw.",
             "The twins share the same features."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A long newspaper or magazine article about one subject, rather than straight news",
+          "body": [
+            "(очерк, большая тематическая статья)",
+            "---"
+          ],
+          "examples": [
+            "She's writing a feature on the housing shortage.",
+            "The Sunday feature runs about five thousand words.",
+            "He does mostly features now, not daily reporting."
+          ]
         }
       ],
-      "русский": "очерк, большая тематическая статья; функция, возможность; черта (лица); особенность",
+      "русский": "функция, возможность; черта (лица); особенность; очерк, большая тематическая статья",
       "plural": "features",
       "countability": "countable"
     },
@@ -2561,31 +2561,19 @@
       "respell": "SKOOP",
       "meaning": "Scoop has 3 distinct senses.",
       "examples": [
-        "That story was a real scoop.",
-        "She got the scoop from a source at city hall.",
-        "The paper has had two big scoops this month.",
         "Use the scoop in the flour bin, not a coffee cup.",
         "The ice cream scoop is in the top drawer.",
         "He dug into the dog food with a plastic scoop.",
         "I'll take two scoops of chocolate in a cone.",
         "Add one scoop of protein powder to the milk.",
-        "She ordered a single scoop and ate it in the car."
+        "She ordered a single scoop and ate it in the car.",
+        "That story was a real scoop.",
+        "She got the scoop from a source at city hall.",
+        "The paper has had two big scoops this month."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "An important news story that one reporter gets before anyone else",
-          "body": [
-            "(сенсация, эксклюзивный материал)"
-          ],
-          "examples": [
-            "That story was a real scoop.",
-            "She got the scoop from a source at city hall.",
-            "The paper has had two big scoops this month."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A deep spoon or small shovel for lifting loose food",
           "body": [
             "(совок, ложка (для мороженого, муки))"
@@ -2597,20 +2585,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The amount that such a spoon holds",
           "body": [
-            "(порция, черпак (мера))",
-            "---"
+            "(порция, черпак (мера))"
           ],
           "examples": [
             "I'll take two scoops of chocolate in a cone.",
             "Add one scoop of protein powder to the milk.",
             "She ordered a single scoop and ate it in the car."
           ]
+        },
+        {
+          "n": "3",
+          "head": "An important news story that one reporter gets before anyone else",
+          "body": [
+            "(сенсация, эксклюзивный материал)",
+            "---"
+          ],
+          "examples": [
+            "That story was a real scoop.",
+            "She got the scoop from a source at city hall.",
+            "The paper has had two big scoops this month."
+          ]
         }
       ],
-      "русский": "сенсация, эксклюзивный материал; совок, ложка (для мороженого, муки); порция, черпак (мера)",
+      "русский": "совок, ложка (для мороженого, муки); порция, черпак (мера); сенсация, эксклюзивный материал",
       "plural": "scoops",
       "countability": "countable"
     },
@@ -2620,19 +2620,31 @@
       "respell": "SORS",
       "meaning": "Source has 3 distinct senses.",
       "examples": [
+        "Beans are a cheap source of protein.",
+        "Tourism is the town's main source of income.",
+        "They traced the smell back to its source.",
         "He won't name his source.",
         "Two sources confirmed the story.",
         "A source inside the company leaked the memo.",
         "They hiked all day to the source of the river.",
         "The creek's source is a spring under the ridge.",
-        "Both rivers have their sources high in the mountains.",
-        "Beans are a cheap source of protein.",
-        "Tourism is the town's main source of income.",
-        "They traced the smell back to its source."
+        "Both rivers have their sources high in the mountains."
       ],
       "senses": [
         {
           "n": "1",
+          "head": "A thing that provides or produces something",
+          "body": [
+            "(источник (чего-либо))"
+          ],
+          "examples": [
+            "Beans are a cheap source of protein.",
+            "Tourism is the town's main source of income.",
+            "They traced the smell back to its source."
+          ]
+        },
+        {
+          "n": "2",
           "head": "A person or document that gives a reporter information",
           "body": [
             "(источник (информации))"
@@ -2644,32 +2656,20 @@
           ]
         },
         {
-          "n": "2",
+          "n": "3",
           "head": "The spring or lake where a river begins",
           "body": [
-            "(исток (реки))"
+            "(исток (реки))",
+            "---"
           ],
           "examples": [
             "They hiked all day to the source of the river.",
             "The creek's source is a spring under the ridge.",
             "Both rivers have their sources high in the mountains."
           ]
-        },
-        {
-          "n": "3",
-          "head": "A thing that provides or produces something",
-          "body": [
-            "(источник (чего-либо))",
-            "---"
-          ],
-          "examples": [
-            "Beans are a cheap source of protein.",
-            "Tourism is the town's main source of income.",
-            "They traced the smell back to its source."
-          ]
         }
       ],
-      "русский": "источник (информации); исток (реки); источник (чего-либо)",
+      "русский": "источник (чего-либо); источник (информации); исток (реки)",
       "plural": "sources",
       "countability": "countable"
     },
@@ -2902,31 +2902,19 @@
       "respell": "sur-kyuh-LAY-shuhn",
       "meaning": "Circulation has 3 distinct senses.",
       "examples": [
-        "The paper's circulation has fallen by half.",
-        "Circulation peaked in the eighties.",
-        "The magazine claims a circulation of 90,000.",
         "Cold hands can be a sign of poor circulation.",
         "Walking every day improves your circulation.",
         "The bandage was so tight it cut off circulation to her fingers.",
         "Those old bills are no longer in circulation.",
         "The library pulled the damaged copies out of circulation.",
-        "He's been sick and out of circulation for a month."
+        "He's been sick and out of circulation for a month.",
+        "The paper's circulation has fallen by half.",
+        "Circulation peaked in the eighties.",
+        "The magazine claims a circulation of 90,000."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The number of copies of a paper or magazine that are sold",
-          "body": [
-            "(тираж (газеты, журнала))"
-          ],
-          "examples": [
-            "The paper's circulation has fallen by half.",
-            "Circulation peaked in the eighties.",
-            "The magazine claims a circulation of 90,000."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The movement of blood around the body",
           "body": [
             "(кровообращение)"
@@ -2938,20 +2926,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "The passing of something from person to person, or its availability for public use",
           "body": [
-            "(обращение, хождение (денег, вещей))",
-            "---"
+            "(обращение, хождение (денег, вещей))"
           ],
           "examples": [
             "Those old bills are no longer in circulation.",
             "The library pulled the damaged copies out of circulation.",
             "He's been sick and out of circulation for a month."
           ]
+        },
+        {
+          "n": "3",
+          "head": "The number of copies of a paper or magazine that are sold",
+          "body": [
+            "(тираж (газеты, журнала))",
+            "---"
+          ],
+          "examples": [
+            "The paper's circulation has fallen by half.",
+            "Circulation peaked in the eighties.",
+            "The magazine claims a circulation of 90,000."
+          ]
         }
       ],
-      "русский": "тираж (газеты, журнала); кровообращение; обращение, хождение (денег, вещей)",
+      "русский": "кровообращение; обращение, хождение (денег, вещей); тираж (газеты, журнала)",
       "countability": "uncountable"
     },
     {
@@ -3021,31 +3021,19 @@
       "respell": "ISH-oo",
       "meaning": "Issue has 3 distinct senses.",
       "examples": [
-        "The April issue has her interview in it.",
-        "I've saved every issue since the first one.",
-        "The next issue comes out Thursday.",
         "Health care was the biggest issue in the election.",
         "The mayor refused to take a position on the issue.",
         "They disagree on almost every issue.",
         "We're having issues with the printer again.",
         "If there's any issue with your order, call us.",
-        "The car has an issue with the transmission."
+        "The car has an issue with the transmission.",
+        "The April issue has her interview in it.",
+        "I've saved every issue since the first one.",
+        "The next issue comes out Thursday."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One numbered edition of a magazine or newspaper",
-          "body": [
-            "(номер, выпуск (издания))"
-          ],
-          "examples": [
-            "The April issue has her interview in it.",
-            "I've saved every issue since the first one.",
-            "The next issue comes out Thursday."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An important subject that people discuss or disagree about",
           "body": [
             "(вопрос, проблема (тема обсуждения))"
@@ -3057,20 +3045,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "A problem or fault with something",
           "body": [
-            "(неполадка, сбой, проблема)",
-            "---"
+            "(неполадка, сбой, проблема)"
           ],
           "examples": [
             "We're having issues with the printer again.",
             "If there's any issue with your order, call us.",
             "The car has an issue with the transmission."
           ]
+        },
+        {
+          "n": "3",
+          "head": "One numbered edition of a magazine or newspaper",
+          "body": [
+            "(номер, выпуск (издания))",
+            "---"
+          ],
+          "examples": [
+            "The April issue has her interview in it.",
+            "I've saved every issue since the first one.",
+            "The next issue comes out Thursday."
+          ]
         }
       ],
-      "русский": "номер, выпуск (издания); вопрос, проблема (тема обсуждения); неполадка, сбой, проблема",
+      "русский": "вопрос, проблема (тема обсуждения); неполадка, сбой, проблема; номер, выпуск (издания)",
       "plural": "issues",
       "countability": "countable"
     },
@@ -3467,41 +3467,41 @@
       "respell": "RAY-ting",
       "meaning": "Rating has 2 distinct senses.",
       "examples": [
-        "The show's ratings dropped after the move.",
-        "The finale got the highest rating of the year.",
-        "Ratings decide what gets canceled.",
         "The movie got an R rating.",
         "This hotel has a four-star rating.",
-        "The city's credit rating was downgraded last month."
+        "The city's credit rating was downgraded last month.",
+        "The show's ratings dropped after the move.",
+        "The finale got the highest rating of the year.",
+        "Ratings decide what gets canceled."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A measure of how many people watch or listen to a program",
-          "body": [
-            "(рейтинг)"
-          ],
-          "examples": [
-            "The show's ratings dropped after the move.",
-            "The finale got the highest rating of the year.",
-            "Ratings decide what gets canceled."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A score or level given to something to show how good or how suitable it is",
           "body": [
-            "(оценка, категория, класс)",
-            "---"
+            "(оценка, категория, класс)"
           ],
           "examples": [
             "The movie got an R rating.",
             "This hotel has a four-star rating.",
             "The city's credit rating was downgraded last month."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A measure of how many people watch or listen to a program",
+          "body": [
+            "(рейтинг)",
+            "---"
+          ],
+          "examples": [
+            "The show's ratings dropped after the move.",
+            "The finale got the highest rating of the year.",
+            "Ratings decide what gets canceled."
+          ]
         }
       ],
-      "русский": "рейтинг; оценка, категория, класс",
+      "русский": "оценка, категория, класс; рейтинг",
       "plural": "ratings",
       "countability": "countable"
     },
@@ -3601,41 +3601,41 @@
       "respell": "SEG-muhnt",
       "meaning": "Segment has 2 distinct senses.",
       "examples": [
-        "They cut my segment for time.",
-        "The cooking segment airs after the weather.",
-        "The show is built out of six short segments.",
         "Draw a straight line segment between the two points.",
         "Peel the orange and separate the segments.",
-        "Each segment of the chart is a different color."
+        "Each segment of the chart is a different color.",
+        "They cut my segment for time.",
+        "The cooking segment airs after the weather.",
+        "The show is built out of six short segments."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "One separate part of a television or radio program",
-          "body": [
-            "(сюжет, рубрика (в передаче))"
-          ],
-          "examples": [
-            "They cut my segment for time.",
-            "The cooking segment airs after the weather.",
-            "The show is built out of six short segments."
-          ]
-        },
-        {
-          "n": "2",
           "head": "One of the parts something is divided into",
           "body": [
-            "(отрезок, сегмент)",
-            "---"
+            "(отрезок, сегмент)"
           ],
           "examples": [
             "Draw a straight line segment between the two points.",
             "Peel the orange and separate the segments.",
             "Each segment of the chart is a different color."
           ]
+        },
+        {
+          "n": "2",
+          "head": "One separate part of a television or radio program",
+          "body": [
+            "(сюжет, рубрика (в передаче))",
+            "---"
+          ],
+          "examples": [
+            "They cut my segment for time.",
+            "The cooking segment airs after the weather.",
+            "The show is built out of six short segments."
+          ]
         }
       ],
-      "русский": "сюжет, рубрика (в передаче); отрезок, сегмент",
+      "русский": "отрезок, сегмент; сюжет, рубрика (в передаче)",
       "plural": "segments",
       "countability": "countable",
       "contrast": "Noun SEG-muhnt with the stress up front; the verb is seg-MENT."

@@ -230,30 +230,30 @@ The stimulant found in coffee, tea, and many sodas.
 ### pop
 
 **Pronunciation:** /pɑːp/ &middot; *PAHP*
-**Русский:** газировка (в северных штатах); поп-музыка; хлопок (звук)
+**Русский:** поп-музыка; хлопок (звук); газировка (в северных штатах)
 **Plural:** *pops*
 **Countability:** countable, and uncountable as food
 **Contrast:** Regional: the Midwest says pop, the coasts say soda, and much of the South says coke.
 
 Pop has 3 distinct senses.
 
-**1. A fizzy soft drink, in Midwestern and Northwestern speech.** (газировка (в северных штатах))
+**1. A style of popular music with catchy tunes, aimed at a wide audience.** (поп-музыка)
 
-1. Grab me a *pop* while you're up.
-2. In Michigan they call it *pop*, not soda.
-3. There's a cooler full of *pops* on the porch.
+1. She grew up listening to eighties *pop*.
+2. The station plays nothing but *pop*.
+3. His new album leans more toward *pop* than country.
 
-**2. A style of popular music with catchy tunes, aimed at a wide audience.** (поп-музыка)
+**2. A short sharp sound like a cork coming out of a bottle.** (хлопок (звук))
 
-4. She grew up listening to eighties *pop*.
-5. The station plays nothing but *pop*.
-6. His new album leans more toward *pop* than country.
+4. The cork came out with a loud *pop*.
+5. We heard three *pops* and then silence.
+6. The balloon burst with a *pop*.
 
-**3. A short sharp sound like a cork coming out of a bottle.** (хлопок (звук))
+**3. A fizzy soft drink, in Midwestern and Northwestern speech.** (газировка (в северных штатах))
 
-7. The cork came out with a loud *pop*.
-8. We heard three *pops* and then silence.
-9. The balloon burst with a *pop*.
+7. Grab me a *pop* while you're up.
+8. In Michigan they call it *pop*, not soda.
+9. There's a cooler full of *pops* on the porch.
 
 ---
 
@@ -466,35 +466,35 @@ A dark, heavy beer made with roasted malt.
 ### draft
 
 **Pronunciation:** /dræft/ &middot; *DRAFT*
-**Русский:** разливное пиво; черновик, проект (документа); сквозняк; драфт (набор игроков); призыв на военную службу
+**Русский:** черновик, проект (документа); сквозняк; драфт (набор игроков); призыв на военную службу; разливное пиво
 **Countability:** uncountable
 **Contrast:** Americans spell it draft, the British draught; both sound the same.
 
 Draft has 4 distinct senses.
 
-**1. Beer served from a keg rather than from a bottle or can.** (разливное пиво)
+**1. An early version of a piece of writing or a plan.** (черновик, проект (документа))
 
-1. They've got eight beers on *draft*.
-2. Is the IPA on *draft* or only in bottles?
-3. *Draft* always tastes fresher to me.
+1. The first *draft* of the report is due Friday.
+2. He is on the fourth *draft* of the novel.
+3. Lawyers reviewed a *draft* of the contract.
 
-**2. An early version of a piece of writing or a plan.** (черновик, проект (документа))
+**2. A current of cool air moving through a room.** (сквозняк)
 
-4. The first *draft* of the report is due Friday.
-5. He is on the fourth *draft* of the novel.
-6. Lawyers reviewed a *draft* of the contract.
+4. There's a *draft* coming from under the door.
+5. Close the window; I feel a *draft*.
+6. Old houses are full of *drafts*.
 
-**3. A current of cool air moving through a room.** (сквозняк)
+**3. The system by which sports teams pick new players, or by which a country calls people into the army.** (драфт (набор игроков); призыв на военную службу)
 
-7. There's a *draft* coming from under the door.
-8. Close the window; I feel a *draft*.
-9. Old houses are full of *drafts*.
+7. He was taken third overall in the *draft*.
+8. Her grandfather was called up in the *draft*.
+9. Both quarterbacks entered the *draft* a year early.
 
-**4. The system by which sports teams pick new players, or by which a country calls people into the army.** (драфт (набор игроков); призыв на военную службу)
+**4. Beer served from a keg rather than from a bottle or can.** (разливное пиво)
 
-10. He was taken third overall in the *draft*.
-11. Her grandfather was called up in the *draft*.
-12. Both quarterbacks entered the *draft* a year early.
+10. They've got eight beers on *draft*.
+11. Is the IPA on *draft* or only in bottles?
+12. *Draft* always tastes fresher to me.
 
 ---
 
@@ -667,24 +667,24 @@ Vintage has 2 distinct senses.
 ### cellar
 
 **Pronunciation:** /ˈsɛlər/ &middot; *SEL-ur*
-**Русский:** погреб, винный подвал; погреб, подвал
+**Русский:** погреб, подвал; погреб, винный подвал
 **Plural:** *cellars*
 **Countability:** countable
 **Contrast:** Sounds exactly like seller.
 
 Cellar has 2 distinct senses.
 
-**1. An underground room where wine is stored.** (погреб, винный подвал)
+**1. An underground room used for storing things, especially food or wine.** (погреб, подвал)
 
-1. The restaurant keeps two thousand bottles in its *cellar*.
-2. He went down to the *cellar* for another bottle.
-3. Their wine *cellar* stays cool all summer.
+1. The restaurant keeps its wine in a *cellar* under the kitchen.
+2. We hid in the *cellar* during the tornado warning.
+3. Old farmhouses out here often have root *cellars*.
 
-**2. An underground room used for storing things, especially food or wine.** (погреб, подвал)
+**2. An underground room where wine is stored.** (погреб, винный подвал)
 
-4. The restaurant keeps its wine in a *cellar* under the kitchen.
-5. We hid in the *cellar* during the tornado warning.
-6. Old farmhouses out here often have root *cellars*.
+4. The restaurant keeps two thousand bottles in its *cellar*.
+5. He went down to the *cellar* for another bottle.
+6. Their wine *cellar* stays cool all summer.
 
 ---
 
@@ -1032,22 +1032,22 @@ A Spanish drink of red wine mixed with fruit and juice.
 ### punch
 
 **Pronunciation:** /pʌntʃ/ &middot; *PUNCH*
-**Русский:** пунш; удар кулаком; дырокол; пробойник; выразительность, сила воздействия
+**Русский:** удар кулаком; пунш; дырокол; пробойник; выразительность, сила воздействия
 **Countability:** uncountable
 
 Punch has 4 distinct senses.
 
-**1. A sweet drink of juice mixed in a large bowl, sometimes with alcohol.** (пунш)
+**1. A hard blow with the fist.** (удар кулаком)
 
-1. Somebody spiked the *punch*.
-2. There's *punch* and cookies in the back.
-3. She ladled *punch* into paper cups.
+1. He took a *punch* to the jaw.
+2. One *punch* ended the fight.
+3. She threw two quick *punches* at the bag.
 
-**2. A hard blow with the fist.** (удар кулаком)
+**2. A sweet drink of juice mixed in a large bowl, sometimes with alcohol.** (пунш)
 
-4. He took a *punch* to the jaw.
-5. One *punch* ended the fight.
-6. She threw two quick *punches* at the bag.
+4. Somebody spiked the *punch*.
+5. There's *punch* and cookies in the back.
+6. She ladled *punch* into paper cups.
 
 **3. A tool or machine for making holes.** (дырокол; пробойник)
 
@@ -1095,23 +1095,23 @@ A drink taken just before going to bed.
 ### mixer
 
 **Pronunciation:** /ˈmɪksər/ &middot; *MIK-sur*
-**Русский:** безалкогольный компонент коктейля (сок, тоник и т. п.); миксер
+**Русский:** миксер; безалкогольный компонент коктейля (сок, тоник и т. п.)
 **Plural:** *mixers*
 **Countability:** countable
 
 Mixer has 2 distinct senses.
 
-**1. A nonalcoholic drink added to liquor in a cocktail.** (безалкогольный компонент коктейля (сок, тоник и т. п.))
+**1. An electric machine with beaters for mixing batter and dough.** (миксер)
 
-1. We have the vodka but no *mixers*.
-2. Cranberry juice is the only *mixer* in the house.
-3. Pick up some *mixers* on your way over.
+1. Beat the butter and sugar with a *mixer* for three minutes.
+2. Her stand *mixer* takes up half the counter.
+3. Hand *mixers* work fine for most recipes.
 
-**2. An electric machine with beaters for mixing batter and dough.** (миксер)
+**2. A nonalcoholic drink added to liquor in a cocktail.** (безалкогольный компонент коктейля (сок, тоник и т. п.))
 
-4. Beat the butter and sugar with a *mixer* for three minutes.
-5. Her stand *mixer* takes up half the counter.
-6. Hand *mixers* work fine for most recipes.
+4. We have the vodka but no *mixers*.
+5. Cranberry juice is the only *mixer* in the house.
+6. Pick up some *mixers* on your way over.
 
 ---
 
@@ -1172,23 +1172,23 @@ Garnish has 2 distinct senses.
 ### shaker
 
 **Pronunciation:** /ˈʃeɪkər/ &middot; *SHAY-kur*
-**Русский:** шейкер; солонка, перечница
+**Русский:** солонка, перечница; шейкер
 **Plural:** *shakers*
 **Countability:** countable
 
 Shaker has 2 distinct senses.
 
-**1. A metal container for mixing a cocktail with ice.** (шейкер)
+**1. A small container with holes in the top for sprinkling salt or pepper.** (солонка, перечница)
 
-1. He rattled the *shaker* for a good ten seconds.
-2. The bar had two *shakers* going at once.
-3. Pour it straight out of the *shaker* through a strainer.
+1. Pass me the salt *shaker*.
+2. The pepper *shaker* is clogged again.
+3. Every table in the diner had matching *shakers*.
 
-**2. A small container with holes in the top for sprinkling salt or pepper.** (солонка, перечница)
+**2. A metal container for mixing a cocktail with ice.** (шейкер)
 
-4. Pass me the salt *shaker*.
-5. The pepper *shaker* is clogged again.
-6. Every table in the diner had matching *shakers*.
+4. He rattled the *shaker* for a good ten seconds.
+5. The bar had two *shakers* going at once.
+6. Pour it straight out of the *shaker* through a strainer.
 
 ---
 
@@ -1538,23 +1538,23 @@ A tool for pulling corks out of bottles.
 ### tap
 
 **Pronunciation:** /tæp/ &middot; *TAP*
-**Русский:** кран (пивной); лёгкий удар, постукивание; касание пальцем; прослушка, подслушивающее устройство
+**Русский:** лёгкий удар, постукивание; касание пальцем; кран (пивной); прослушка, подслушивающее устройство
 **Plural:** *taps*
 **Countability:** countable
 
 Tap has 3 distinct senses.
 
-**1. The valve that beer is poured from at a bar.** (кран (пивной))
+**1. A light knock or touch with a finger or a foot.** (лёгкий удар, постукивание; касание пальцем)
 
-1. They have twenty beers on *tap*.
-2. The bartender cleaned the *taps* before opening.
-3. This one's fresh off the *tap*.
+1. I felt a *tap* on my shoulder.
+2. A double *tap* on the screen zooms in.
+3. He gave the microphone a couple of *taps*.
 
-**2. A light knock or touch with a finger or a foot.** (лёгкий удар, постукивание; касание пальцем)
+**2. The valve that beer is poured from at a bar.** (кран (пивной))
 
-4. I felt a *tap* on my shoulder.
-5. A double *tap* on the screen zooms in.
-6. He gave the microphone a couple of *taps*.
+4. They have twenty beers on *tap*.
+5. The bartender cleaned the *taps* before opening.
+6. This one's fresh off the *tap*.
 
 **3. A device attached secretly to a phone line to listen in on calls.** (прослушка, подслушивающее устройство)
 
@@ -1785,23 +1785,23 @@ A metric measure of liquid, a little more than a quart.
 ### round
 
 **Pronunciation:** /raʊnd/ &middot; *ROWND*
-**Русский:** угощение (по напитку каждому в компании); раунд, тур, этап; патрон; обход (врача, почтальона)
+**Русский:** раунд, тур, этап; угощение (по напитку каждому в компании); патрон; обход (врача, почтальона)
 **Plural:** *rounds*
 **Countability:** countable
 
 Round has 4 distinct senses.
 
-**1. A drink bought for everyone in the group at the same time.** (угощение (по напитку каждому в компании))
+**1. One stage in a competition or in a series of events.** (раунд, тур, этап)
 
-1. This *round* is on me.
-2. They bought three *rounds* before dinner even arrived.
-3. It's your turn to get the next *round*.
+1. They were knocked out in the first *round*.
+2. I made it to the final *round* of interviews.
+3. The next *round* of talks starts in April.
 
-**2. One stage in a competition or in a series of events.** (раунд, тур, этап)
+**2. A drink bought for everyone in the group at the same time.** (угощение (по напитку каждому в компании))
 
-4. They were knocked out in the first *round*.
-5. I made it to the final *round* of interviews.
-6. The next *round* of talks starts in April.
+4. This *round* is on me.
+5. They bought three *rounds* before dinner even arrived.
+6. It's your turn to get the next *round*.
 
 **3. A single bullet or shell for a gun.** (патрон)
 

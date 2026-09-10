@@ -354,23 +354,23 @@ A reversible fabric whose pattern is formed by the weave itself.
 ### calico
 
 **Pronunciation:** /ˈkælɪkoʊ/ &middot; *KAL-ih-koh*
-**Русский:** ситец (набивной хлопок); трёхцветная кошка
+**Русский:** трёхцветная кошка; ситец (набивной хлопок)
 **Countability:** uncountable
 **Contrast:** In the US *calico* is printed cotton; in Britain it means plain unbleached cotton.
 
 Calico has 2 distinct senses.
 
-**1. A cotton cloth printed with a small pattern, often in flowers.** (ситец (набивной хлопок))
+**1. A cat with a coat of white, black, and orange patches.** (трёхцветная кошка)
 
-1. The quilt is pieced from old *calico*.
-2. She sewed the girls matching *calico* dresses.
-3. *Calico* was what everyone wore on the frontier.
+1. Our *calico* sleeps on the windowsill all day.
+2. Almost all *calicos* are female.
+3. The shelter had two kittens and an older *calico*.
 
-**2. A cat with a coat of white, black, and orange patches.** (трёхцветная кошка)
+**2. A cotton cloth printed with a small pattern, often in flowers.** (ситец (набивной хлопок))
 
-4. Our *calico* sleeps on the windowsill all day.
-5. Almost all *calicos* are female.
-6. The shelter had two kittens and an older *calico*.
+4. The quilt is pieced from old *calico*.
+5. She sewed the girls matching *calico* dresses.
+6. *Calico* was what everyone wore on the frontier.
 
 ---
 
@@ -391,23 +391,23 @@ A tightly woven twill that sheds water, used for coats and suits.
 ### crepe
 
 **Pronunciation:** /kreɪp/ &middot; *KRAYP*
-**Русский:** креп (ткань с зернистой поверхностью); блинчик, креп
+**Русский:** блинчик, креп; креп (ткань с зернистой поверхностью)
 **Countability:** uncountable
 **Contrast:** Rhymes with *tape*, not with *creep*.
 
 Crepe has 2 distinct senses.
 
-**1. A fabric with a lightly crinkled surface that drapes softly.** (креп (ткань с зернистой поверхностью))
+**1. A very thin pancake, usually rolled or folded around a filling.** (блинчик, креп)
 
-1. The dress is black wool *crepe*.
-2. *Crepe* hangs well and doesn't cling.
-3. She lined the jacket with silk *crepe*.
+1. She ordered a *crepe* with ham and cheese.
+2. The stand sells *crepes* with lemon and sugar.
+3. He can flip a *crepe* without a spatula.
 
-**2. A very thin pancake, usually rolled or folded around a filling.** (блинчик, креп)
+**2. A fabric with a lightly crinkled surface that drapes softly.** (креп (ткань с зернистой поверхностью))
 
-4. She ordered a *crepe* with ham and cheese.
-5. The stand sells *crepes* with lemon and sugar.
-6. He can flip a *crepe* without a spatula.
+4. The dress is black wool *crepe*.
+5. *Crepe* hangs well and doesn't cling.
+6. She lined the jacket with silk *crepe*.
 
 ---
 
@@ -856,22 +856,22 @@ A rod that twists fiber into thread and holds the thread as it is spun.
 ### warp
 
 **Pronunciation:** /wɔːrp/ &middot; *WORP*
-**Русский:** основа (продольные нити ткани); коробление, искривление
+**Русский:** коробление, искривление; основа (продольные нити ткани)
 **Countability:** uncountable
 
 Warp has 2 distinct senses.
 
-**1. The lengthwise threads held on a loom while cloth is woven.** (основа (продольные нити ткани))
+**1. A bend or twist in something that should be flat or straight.** (коробление, искривление)
 
-1. The *warp* runs the length of the fabric.
-2. It takes a whole day to set up the *warp*.
-3. A broken *warp* thread stops the machine.
+1. There's a slight *warp* in the tabletop.
+2. Damp air put a *warp* in the door, and now it sticks.
+3. Sight down the board and check it for *warp*.
 
-**2. A bend or twist in something that should be flat or straight.** (коробление, искривление)
+**2. The lengthwise threads held on a loom while cloth is woven.** (основа (продольные нити ткани))
 
-4. There's a slight *warp* in the tabletop.
-5. Damp air put a *warp* in the door, and now it sticks.
-6. Sight down the board and check it for *warp*.
+4. The *warp* runs the length of the fabric.
+5. It takes a whole day to set up the *warp*.
+6. A broken *warp* thread stops the machine.
 
 ---
 
@@ -923,23 +923,23 @@ The bottom edge of a skirt, dress, or coat, seen as a level.
 ### dart
 
 **Pronunciation:** /dɑːrt/ &middot; *DART*
-**Русский:** вытачка; дротик
+**Русский:** дротик; вытачка
 **Plural:** *darts*
 **Countability:** countable
 
 Dart has 2 distinct senses.
 
-**1. A tapered fold sewn into cloth so a garment fits the body's curves.** (вытачка)
+**1. A small pointed missile thrown at a target board or shot from a gun.** (дротик)
 
-1. Sew the *darts* before you join the side seams.
-2. The *dart* pulls the waist in.
-3. Two *darts* in the back will fix that gap.
+1. He threw a *dart* and hit the bullseye.
+2. The vet dropped the bear with a tranquilizer *dart*.
+3. Three *darts* were still stuck in the wall.
 
-**2. A small pointed missile thrown at a target board or shot from a gun.** (дротик)
+**2. A tapered fold sewn into cloth so a garment fits the body's curves.** (вытачка)
 
-4. He threw a *dart* and hit the bullseye.
-5. The vet dropped the bear with a tranquilizer *dart*.
-6. Three *darts* were still stuck in the wall.
+4. Sew the *darts* before you join the side seams.
+5. The *dart* pulls the waist in.
+6. Two *darts* in the back will fix that gap.
 
 ---
 
@@ -961,30 +961,30 @@ A small piece of cloth sewn in to add room or strength.
 ### yoke
 
 **Pronunciation:** /joʊk/ &middot; *YOHK*
-**Русский:** кокетка (деталь одежды); ярмо, хомут (для волов); иго, гнёт
+**Русский:** ярмо, хомут (для волов); иго, гнёт; кокетка (деталь одежды)
 **Plural:** *yokes*
 **Countability:** countable
 **Contrast:** A homophone of *yolk*, the yellow of an egg.
 
 Yoke has 3 distinct senses.
 
-**1. A shaped piece across the shoulders or hips that the rest of a garment hangs from.** (кокетка (деталь одежды))
+**1. A wooden frame joining two work animals at the neck so they pull together.** (ярмо, хомут (для волов))
 
-1. The shirt has a western *yoke* across the back.
-2. Gather the skirt into the *yoke*.
-3. Both *yokes* are cut on the bias.
+1. The oxen pulled the plow under a heavy wooden *yoke*.
+2. He lifted the *yoke* off the tired pair.
+3. The *yoke* had rubbed sores into their necks.
 
-**2. A wooden frame joining two work animals at the neck so they pull together.** (ярмо, хомут (для волов))
+**2. Harsh control by another country or ruler.** (иго, гнёт)
 
-4. The oxen pulled the plow under a heavy wooden *yoke*.
-5. He lifted the *yoke* off the tired pair.
-6. The *yoke* had rubbed sores into their necks.
+4. The country threw off the *yoke* of colonial rule.
+5. They lived for years under the *yoke* of a dictator.
+6. Poets wrote about breaking the *yoke* of tyranny.
 
-**3. Harsh control by another country or ruler.** (иго, гнёт)
+**3. A shaped piece across the shoulders or hips that the rest of a garment hangs from.** (кокетка (деталь одежды))
 
-7. The country threw off the *yoke* of colonial rule.
-8. They lived for years under the *yoke* of a dictator.
-9. Poets wrote about breaking the *yoke* of tyranny.
+7. The shirt has a western *yoke* across the back.
+8. Gather the skirt into the *yoke*.
+9. Both *yokes* are cut on the bias.
 
 ---
 
@@ -1020,23 +1020,23 @@ Stiffening material placed between two layers of cloth to give shape.
 ### batting
 
 **Pronunciation:** /ˈbætɪŋ/ &middot; *BAT-ing*
-**Русский:** ватин, синтепон (для стёжки); отбивание мяча (в бейсболе)
+**Русский:** отбивание мяча (в бейсболе); ватин, синтепон (для стёжки)
 **Countability:** uncountable
 **Contrast:** Same word as *batting* in baseball, but the quilting sense is uncountable.
 
 Batting has 2 distinct senses.
 
-**1. A soft layer of cotton or synthetic fiber used to fill a quilt or jacket.** (ватин, синтепон (для стёжки))
+**1. The act or skill of hitting the ball in baseball.** (отбивание мяча (в бейсболе))
 
-1. Lay the *batting* between the two layers.
-2. Cotton *batting* shrinks a little the first wash.
-3. She bought a whole roll of *batting*.
+1. His *batting* has improved a lot since spring training.
+2. The team's *batting* fell apart in the second half of the season.
+3. She leads the league in *batting* this year.
 
-**2. The act or skill of hitting the ball in baseball.** (отбивание мяча (в бейсболе))
+**2. A soft layer of cotton or synthetic fiber used to fill a quilt or jacket.** (ватин, синтепон (для стёжки))
 
-4. His *batting* has improved a lot since spring training.
-5. The team's *batting* fell apart in the second half of the season.
-6. She leads the league in *batting* this year.
+4. Lay the *batting* between the two layers.
+5. Cotton *batting* shrinks a little the first wash.
+6. She bought a whole roll of *batting*.
 
 ---
 
@@ -1065,50 +1065,50 @@ Padding has 2 distinct senses.
 ### piping
 
 **Pronunciation:** /ˈpaɪpɪŋ/ &middot; *PY-ping*
-**Русский:** кант, выпушка; трубопровод, система труб
+**Русский:** трубопровод, система труб; кант, выпушка
 **Countability:** uncountable
 
 Piping has 2 distinct senses.
 
-**1. A narrow cord covered in fabric and sewn into a seam as trim.** (кант, выпушка)
+**1. The pipes in a building or machine, taken together.** (трубопровод, система труб)
 
-1. The cushions have white *piping*.
-2. Red *piping* runs down the side of the trousers.
-3. *Piping* makes a plain seam look finished.
+1. The old copper *piping* has to be replaced.
+2. *Piping* runs behind the wall to the water heater.
+3. Rusted *piping* was leaking under the floor.
 
-**2. The pipes in a building or machine, taken together.** (трубопровод, система труб)
+**2. A narrow cord covered in fabric and sewn into a seam as trim.** (кант, выпушка)
 
-4. The old copper *piping* has to be replaced.
-5. *Piping* runs behind the wall to the water heater.
-6. Rusted *piping* was leaking under the floor.
+4. The cushions have white *piping*.
+5. Red *piping* runs down the side of the trousers.
+6. *Piping* makes a plain seam look finished.
 
 ---
 
 ### trim
 
 **Pronunciation:** /trɪm/ &middot; *TRIM*
-**Русский:** отделка, фурнитура (для одежды); подравнивание (стрижка); наличники, плинтус (отделка)
+**Русский:** подравнивание (стрижка); наличники, плинтус (отделка); отделка, фурнитура (для одежды)
 **Countability:** uncountable
 
 Trim has 3 distinct senses.
 
-**1. Ribbon, lace, or braid added to a garment for decoration.** (отделка, фурнитура (для одежды))
+**1. A light cutting that makes hair or a hedge neat without changing it much.** (подравнивание (стрижка))
 
-1. The dress has lace *trim* at the collar.
-2. Buttons and *trim* are down the next aisle.
-3. A little velvet *trim* would dress it up.
+1. I just want a *trim*, not a new style.
+2. The hedge needs a *trim* before the party.
+3. A quick *trim* costs twenty dollars here.
 
-**2. A light cutting that makes hair or a hedge neat without changing it much.** (подравнивание (стрижка))
+**2. The narrow strips of wood around the doors, windows, and floor of a room.** (наличники, плинтус (отделка))
 
-4. I just want a *trim*, not a new style.
-5. The hedge needs a *trim* before the party.
-6. A quick *trim* costs twenty dollars here.
+4. We painted the walls gray and the *trim* white.
+5. The *trim* around the window is rotting.
+6. New *trim* would make the room look finished.
 
-**3. The narrow strips of wood around the doors, windows, and floor of a room.** (наличники, плинтус (отделка))
+**3. Ribbon, lace, or braid added to a garment for decoration.** (отделка, фурнитура (для одежды))
 
-7. We painted the walls gray and the *trim* white.
-8. The *trim* around the window is rotting.
-9. New *trim* would make the room look finished.
+7. The dress has lace *trim* at the collar.
+8. Buttons and *trim* are down the next aisle.
+9. A little velvet *trim* would dress it up.
 
 ---
 
@@ -1375,22 +1375,22 @@ A row or set of stitches, seen as the sewing on a finished item.
 ### basting
 
 **Pronunciation:** /ˈbeɪstɪŋ/ &middot; *BAY-sting*
-**Русский:** намётка (временные стежки); поливание жиром/соком при запекании
+**Русский:** поливание жиром/соком при запекании; намётка (временные стежки)
 **Countability:** uncountable
 
 Basting has 2 distinct senses.
 
-**1. Long loose stitches that hold cloth in place until it is sewn properly.** (намётка (временные стежки))
+**1. The spooning of juices or fat over meat while it roasts.** (поливание жиром/соком при запекании)
 
-1. Pull the *basting* out once the seam is done.
-2. A little *basting* saves a lot of ripping later.
-3. The *basting* is in white thread so it shows.
+1. Frequent *basting* keeps the turkey from drying out.
+2. The *basting* liquid was butter, wine, and herbs.
+3. Give it one more *basting* before it comes out.
 
-**2. The spooning of juices or fat over meat while it roasts.** (поливание жиром/соком при запекании)
+**2. Long loose stitches that hold cloth in place until it is sewn properly.** (намётка (временные стежки))
 
-4. Frequent *basting* keeps the turkey from drying out.
-5. The *basting* liquid was butter, wine, and herbs.
-6. Give it one more *basting* before it comes out.
+4. Pull the *basting* out once the seam is done.
+5. A little *basting* saves a lot of ripping later.
+6. The *basting* is in white thread so it shows.
 
 ---
 
@@ -1442,23 +1442,23 @@ A small sample piece of fabric shown to display color and texture.
 ### remnant
 
 **Pronunciation:** /ˈrɛmnənt/ &middot; *REM-nunt*
-**Русский:** отрез, остаток ткани; остаток, пережиток
+**Русский:** остаток, пережиток; отрез, остаток ткани
 **Plural:** *remnants*
 **Countability:** countable
 
 Remnant has 2 distinct senses.
 
-**1. The last short piece left on a bolt of cloth, usually sold cheap.** (отрез, остаток ткани)
+**1. A small part of something that is left after the rest is gone.** (остаток, пережиток)
 
-1. She found a silk *remnant* for four dollars.
-2. The *remnants* are in a bin by the register.
-3. There's just enough in this *remnant* for a pillow.
+1. *Remnants* of an old stone wall run through the woods.
+2. The *remnants* of the hurricane brought rain all week.
+3. A *remnant* of the old forest still stands on the ridge.
 
-**2. A small part of something that is left after the rest is gone.** (остаток, пережиток)
+**2. The last short piece left on a bolt of cloth, usually sold cheap.** (отрез, остаток ткани)
 
-4. *Remnants* of an old stone wall run through the woods.
-5. The *remnants* of the hurricane brought rain all week.
-6. A *remnant* of the old forest still stands on the ridge.
+4. She found a silk *remnant* for four dollars.
+5. The *remnants* are in a bin by the register.
+6. There's just enough in this *remnant* for a pillow.
 
 ---
 
@@ -1540,24 +1540,24 @@ Someone who makes or sells women's hats.
 ### cobbler
 
 **Pronunciation:** /ˈkɑːblər/ &middot; *KAHB-lur*
-**Русский:** сапожник; коблер (фруктовый десерт под тестяной корочкой)
+**Русский:** коблер (фруктовый десерт под тестяной корочкой); сапожник
 **Plural:** *cobblers*
 **Countability:** countable
 **Contrast:** In American English a *cobbler* is also a baked fruit dessert — peach *cobbler*.
 
 Cobbler has 2 distinct senses.
 
-**1. Someone who repairs shoes.** (сапожник)
+**1. A baked fruit dessert with a thick crust of dough on top.** (коблер (фруктовый десерт под тестяной корочкой))
 
-1. The *cobbler* put new heels on my boots.
-2. There's a *cobbler* next to the dry cleaner.
-3. *Cobblers* can fix almost anything but a broken sole.
+1. She brought a peach *cobbler* to the picnic.
+2. Serve the *cobbler* warm with vanilla ice cream.
+3. There were three blackberry *cobblers* on the table.
 
-**2. A baked fruit dessert with a thick crust of dough on top.** (коблер (фруктовый десерт под тестяной корочкой))
+**2. Someone who repairs shoes.** (сапожник)
 
-4. She brought a peach *cobbler* to the picnic.
-5. Serve the *cobbler* warm with vanilla ice cream.
-6. There were three blackberry *cobblers* on the table.
+4. The *cobbler* put new heels on my boots.
+5. There's a *cobbler* next to the dry cleaner.
+6. *Cobblers* can fix almost anything but a broken sole.
 
 ---
 
@@ -1640,22 +1640,22 @@ A place where animal hides are turned into leather.
 ### tanning
 
 **Pronunciation:** /ˈtænɪŋ/ &middot; *TAN-ing*
-**Русский:** дубление (кожи); загорание, получение загара
+**Русский:** загорание, получение загара; дубление (кожи)
 **Countability:** uncountable
 
 Tanning has 2 distinct senses.
 
-**1. The process of treating animal hides to turn them into leather.** (дубление (кожи))
+**1. The practice of darkening your skin in the sun or under a lamp.** (загорание, получение загара)
 
-1. *Tanning* used to be done with tree bark.
-2. The *tanning* gives the hide its color and smell.
-3. Vegetable *tanning* takes months.
+1. She goes to a *tanning* salon before every vacation.
+2. Doctors warn that *tanning* raises your risk of skin cancer.
+3. He gave up *tanning* after a scare at the dermatologist.
 
-**2. The practice of darkening your skin in the sun or under a lamp.** (загорание, получение загара)
+**2. The process of treating animal hides to turn them into leather.** (дубление (кожи))
 
-4. She goes to a *tanning* salon before every vacation.
-5. Doctors warn that *tanning* raises your risk of skin cancer.
-6. He gave up *tanning* after a scare at the dermatologist.
+4. *Tanning* used to be done with tree bark.
+5. The *tanning* gives the hide its color and smell.
+6. Vegetable *tanning* takes months.
 
 ---
 
@@ -1873,23 +1873,23 @@ Fashion has 2 distinct senses.
 ### style
 
 **Pronunciation:** /staɪl/ &middot; *STYL*
-**Русский:** фасон, модель; стиль; манера, стиль (работы, поведения); вкус, шик, стильность
+**Русский:** манера, стиль (работы, поведения); фасон, модель; стиль; вкус, шик, стильность
 **Plural:** *styles*
 **Countability:** countable
 
 Style has 3 distinct senses.
 
-**1. A particular design or cut of a garment.** (фасон, модель; стиль)
+**1. A particular way of doing something.** (манера, стиль (работы, поведения))
 
-1. That *style* of collar suits him.
-2. The jeans come in four *styles*.
-3. It's an old *style*, but it's coming back.
+1. Her management *style* is very direct.
+2. He writes in a plain, clear *style*.
+3. Showing up unannounced is not my *style*.
 
-**2. A particular way of doing something.** (манера, стиль (работы, поведения))
+**2. A particular design or cut of a garment.** (фасон, модель; стиль)
 
-4. Her management *style* is very direct.
-5. He writes in a plain, clear *style*.
-6. Showing up unannounced is not my *style*.
+4. That *style* of collar suits him.
+5. The jeans come in four *styles*.
+6. It's an old *style*, but it's coming back.
 
 **3. Elegance and confidence in the way someone looks or behaves.** (вкус, шик, стильность)
 
@@ -1940,23 +1940,23 @@ A narrow raised walkway, especially the one used in fashion shows.
 ### collection
 
 **Pronunciation:** /kəˈlɛkʃən/ &middot; *kuh-LEK-shun*
-**Русский:** коллекция (одежды); коллекция, собрание; сбор денег, пожертвования; вывоз (мусора), выемка (почты)
+**Русский:** коллекция, собрание; коллекция (одежды); сбор денег, пожертвования; вывоз (мусора), выемка (почты)
 **Plural:** *collections*
 **Countability:** countable
 
 Collection has 4 distinct senses.
 
-**1. The set of clothes a designer shows for one season.** (коллекция (одежды))
+**1. A group of objects of one kind that someone has gathered and keeps together.** (коллекция, собрание)
 
-1. Her fall *collection* was all gray and black.
-2. The house shows two *collections* a year.
-3. Nothing in the *collection* costs under a thousand dollars.
+1. His stamp *collection* fills four albums.
+2. The museum's *collection* includes two Rembrandts.
+3. She left her record *collection* to the town library.
 
-**2. A group of objects of one kind that someone has gathered and keeps together.** (коллекция, собрание)
+**2. The set of clothes a designer shows for one season.** (коллекция (одежды))
 
-4. His stamp *collection* fills four albums.
-5. The museum's *collection* includes two Rembrandts.
-6. She left her record *collection* to the town library.
+4. Her fall *collection* was all gray and black.
+5. The house shows two *collections* a year.
+6. Nothing in the *collection* costs under a thousand dollars.
 
 **3. Money gathered from a group of people for a church or a cause.** (сбор денег, пожертвования)
 
@@ -1991,41 +1991,41 @@ The way cloth hangs and falls, or in the plural, heavy curtains.
 ### cut
 
 **Pronunciation:** /kʌt/ &middot; *KUT*
-**Русский:** крой, покрой; порез, ранка; сокращение, снижение; доля (в деньгах); отруб, кусок мяса
+**Русский:** порез, ранка; сокращение, снижение; доля (в деньгах); отруб, кусок мяса; крой, покрой
 **Plural:** *cuts*
 **Countability:** countable
 
 Cut has 5 distinct senses.
 
-**1. The way a garment has been shaped and made.** (крой, покрой)
+**1. A wound made by something sharp.** (порез, ранка)
 
-1. You can tell the quality by the *cut*.
-2. It's a slim *cut* through the waist.
-3. The two jackets are different *cuts* of the same cloth.
+1. She got a *cut* on her thumb slicing onions.
+2. The *cuts* on his knee needed cleaning.
+3. It's a shallow *cut*, but it bled a lot.
 
-**2. A wound made by something sharp.** (порез, ранка)
+**2. A reduction in an amount, especially of money or jobs.** (сокращение, снижение)
 
-4. She got a *cut* on her thumb slicing onions.
-5. The *cuts* on his knee needed cleaning.
-6. It's a shallow *cut*, but it bled a lot.
+4. The company announced a ten percent pay *cut*.
+5. Budget *cuts* closed two branch libraries.
+6. Voters were promised a tax *cut*.
 
-**3. A reduction in an amount, especially of money or jobs.** (сокращение, снижение)
+**3. Someone's share of the money from a deal.** (доля (в деньгах))
 
-7. The company announced a ten percent pay *cut*.
-8. Budget *cuts* closed two branch libraries.
-9. Voters were promised a tax *cut*.
+7. The agent takes a fifteen percent *cut*.
+8. Everybody at the table wanted a bigger *cut*.
+9. He did the work and never got his *cut*.
 
-**4. Someone's share of the money from a deal.** (доля (в деньгах))
+**4. A piece of meat taken from a particular part of the animal.** (отруб, кусок мяса)
 
-10. The agent takes a fifteen percent *cut*.
-11. Everybody at the table wanted a bigger *cut*.
-12. He did the work and never got his *cut*.
+10. Brisket is a tough *cut* that needs slow cooking.
+11. The butcher recommended a cheaper *cut*.
+12. Some *cuts* are better for grilling than others.
 
-**5. A piece of meat taken from a particular part of the animal.** (отруб, кусок мяса)
+**5. The way a garment has been shaped and made.** (крой, покрой)
 
-13. Brisket is a tough *cut* that needs slow cooking.
-14. The butcher recommended a cheaper *cut*.
-15. Some *cuts* are better for grilling than others.
+13. You can tell the quality by the *cut*.
+14. It's a slim *cut* through the waist.
+15. The two jackets are different *cuts* of the same cloth.
 
 ---
 
@@ -2129,23 +2129,23 @@ Short soft loose fibers on the surface of cloth.
 ### snag
 
 **Pronunciation:** /snæɡ/ &middot; *SNAG*
-**Русский:** затяжка (на ткани); загвоздка, помеха
+**Русский:** загвоздка, помеха; затяжка (на ткани)
 **Plural:** *snags*
 **Countability:** countable
 
 Snag has 2 distinct senses.
 
-**1. A pulled thread that sticks out of a knitted or woven fabric.** (затяжка (на ткани))
+**1. An unexpected problem that holds something up.** (загвоздка, помеха)
 
-1. There's a *snag* in my stocking.
-2. Her ring left a *snag* in the sweater.
-3. A few *snags* and the whole thing looks old.
+1. We hit a *snag* with the permits.
+2. The move went off without a *snag*.
+3. A few small *snags* pushed the opening back a week.
 
-**2. An unexpected problem that holds something up.** (загвоздка, помеха)
+**2. A pulled thread that sticks out of a knitted or woven fabric.** (затяжка (на ткани))
 
-4. We hit a *snag* with the permits.
-5. The move went off without a *snag*.
-6. A few small *snags* pushed the opening back a week.
+4. There's a *snag* in my stocking.
+5. Her ring left a *snag* in the sweater.
+6. A few *snags* and the whole thing looks old.
 
 ---
 
@@ -2175,22 +2175,22 @@ Shrinkage has 2 distinct senses.
 ### starch
 
 **Pronunciation:** /stɑːrtʃ/ &middot; *STARCH*
-**Русский:** крахмал (для белья); крахмал (углевод)
+**Русский:** крахмал (углевод); крахмал (для белья)
 **Countability:** uncountable
 
 Starch has 2 distinct senses.
 
-**1. A substance sprayed or soaked into cloth to make it stiff.** (крахмал (для белья))
+**1. The carbohydrate found in foods like potatoes, rice, and bread.** (крахмал (углевод))
 
-1. He likes his collars with plenty of *starch*.
-2. Spray a little *starch* before you press it.
-3. The shirt was so full of *starch* it could stand up by itself.
+1. Potatoes are high in *starch*.
+2. Cut back on *starches* if you want to lose weight.
+3. Rinse the rice to wash off the extra *starch*.
 
-**2. The carbohydrate found in foods like potatoes, rice, and bread.** (крахмал (углевод))
+**2. A substance sprayed or soaked into cloth to make it stiff.** (крахмал (для белья))
 
-4. Potatoes are high in *starch*.
-5. Cut back on *starches* if you want to lose weight.
-6. Rinse the rice to wash off the extra *starch*.
+4. He likes his collars with plenty of *starch*.
+5. Spray a little *starch* before you press it.
+6. The shirt was so full of *starch* it could stand up by itself.
 
 ---
 

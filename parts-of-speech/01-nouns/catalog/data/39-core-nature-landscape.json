@@ -305,41 +305,41 @@
       "respell": "BLUF",
       "meaning": "Bluff has 2 distinct senses.",
       "examples": [
-        "The old lighthouse stands on a bluff above the bay.",
-        "Erosion has eaten away part of the bluff.",
-        "We watched the sunset from the bluffs.",
         "His threat to quit was just a bluff.",
         "She called his bluff and he backed down.",
-        "The whole demand turned out to be a bluff."
+        "The whole demand turned out to be a bluff.",
+        "The old lighthouse stands on a bluff above the bay.",
+        "Erosion has eaten away part of the bluff.",
+        "We watched the sunset from the bluffs."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A steep cliff or bank, especially one above a river or the sea",
-          "body": [
-            "(обрыв, крутой берег)"
-          ],
-          "examples": [
-            "The old lighthouse stands on a bluff above the bay.",
-            "Erosion has eaten away part of the bluff.",
-            "We watched the sunset from the bluffs."
-          ]
-        },
-        {
-          "n": "2",
           "head": "An attempt to fool someone by pretending you will do something",
           "body": [
-            "(блеф, обман)",
-            "---"
+            "(блеф, обман)"
           ],
           "examples": [
             "His threat to quit was just a bluff.",
             "She called his bluff and he backed down.",
             "The whole demand turned out to be a bluff."
           ]
+        },
+        {
+          "n": "2",
+          "head": "A steep cliff or bank, especially one above a river or the sea",
+          "body": [
+            "(обрыв, крутой берег)",
+            "---"
+          ],
+          "examples": [
+            "The old lighthouse stands on a bluff above the bay.",
+            "Erosion has eaten away part of the bluff.",
+            "We watched the sunset from the bluffs."
+          ]
         }
       ],
-      "русский": "обрыв, крутой берег; блеф, обман",
+      "русский": "блеф, обман; обрыв, крутой берег",
       "plural": "bluffs",
       "countability": "countable"
     },
@@ -441,12 +441,12 @@
       "respell": "RAYNJ",
       "meaning": "Range has 5 distinct senses.",
       "examples": [
-        "The range runs north to south for three hundred miles.",
-        "Snow stays on the higher ranges into July.",
-        "A storm was building over the coastal range.",
         "Houses here are well out of our price range.",
         "The store carries a wide range of hand tools.",
         "The class covers a broad range of topics.",
+        "The range runs north to south for three hundred miles.",
+        "Snow stays on the higher ranges into July.",
+        "A storm was building over the coastal range.",
         "She cooks on a six-burner gas range.",
         "The new range barely fit through the kitchen door.",
         "Wipe down the range after you fry anything.",
@@ -460,18 +460,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A line or group of mountains or hills",
-          "body": [
-            "(горная цепь, хребет)"
-          ],
-          "examples": [
-            "The range runs north to south for three hundred miles.",
-            "Snow stays on the higher ranges into July.",
-            "A storm was building over the coastal range."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The space between the lowest and highest amounts, or the whole set of things covered",
           "body": [
             "(диапазон; ассортимент, круг (вопросов))"
@@ -480,6 +468,18 @@
             "Houses here are well out of our price range.",
             "The store carries a wide range of hand tools.",
             "The class covers a broad range of topics."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A line or group of mountains or hills",
+          "body": [
+            "(горная цепь, хребет)"
+          ],
+          "examples": [
+            "The range runs north to south for three hundred miles.",
+            "Snow stays on the higher ranges into July.",
+            "A storm was building over the coastal range."
           ]
         },
         {
@@ -520,7 +520,7 @@
           ]
         }
       ],
-      "русский": "горная цепь, хребет; диапазон; ассортимент, круг (вопросов); кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)",
+      "русский": "диапазон; ассортимент, круг (вопросов); горная цепь, хребет; кухонная плита; стрельбище; тренировочное поле для гольфа; дальность (хода, полёта, выстрела)",
       "plural": "ranges",
       "countability": "countable"
     },
@@ -647,41 +647,41 @@
       "respell": "URTH",
       "meaning": "Earth has 2 distinct senses.",
       "examples": [
-        "He dug a hole and packed the earth back down.",
-        "The smell of damp earth filled the air after the rain.",
-        "They covered the seeds with a thin layer of earth.",
         "The earth takes a year to go around the sun.",
         "From orbit you can actually see the curve of the earth.",
-        "It's the only place on earth where those birds nest."
+        "It's the only place on earth where those birds nest.",
+        "He dug a hole and packed the earth back down.",
+        "The smell of damp earth filled the air after the rain.",
+        "They covered the seeds with a thin layer of earth."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "Soil or ground, the material that plants grow in",
-          "body": [
-            "(земля, почва)"
-          ],
-          "examples": [
-            "He dug a hole and packed the earth back down.",
-            "The smell of damp earth filled the air after the rain.",
-            "They covered the seeds with a thin layer of earth."
-          ]
-        },
-        {
-          "n": "2",
           "head": "The planet we live on",
           "body": [
-            "(Земля (планета))",
-            "---"
+            "(Земля (планета))"
           ],
           "examples": [
             "The earth takes a year to go around the sun.",
             "From orbit you can actually see the curve of the earth.",
             "It's the only place on earth where those birds nest."
           ]
+        },
+        {
+          "n": "2",
+          "head": "Soil or ground, the material that plants grow in",
+          "body": [
+            "(земля, почва)",
+            "---"
+          ],
+          "examples": [
+            "He dug a hole and packed the earth back down.",
+            "The smell of damp earth filled the air after the rain.",
+            "They covered the seeds with a thin layer of earth."
+          ]
         }
       ],
-      "русский": "земля, почва; Земля (планета)",
+      "русский": "Земля (планета); земля, почва",
       "countability": "uncountable"
     },
     {
@@ -2005,41 +2005,41 @@
       "respell": "BANGK",
       "meaning": "Bank has 2 distinct senses.",
       "examples": [
-        "Willows grow all along the bank.",
-        "The river rose over its banks overnight.",
-        "We fished from the far bank.",
         "The bank closes at five.",
         "Most banks charge a fee for that.",
-        "She works at a bank downtown."
+        "She works at a bank downtown.",
+        "Willows grow all along the bank.",
+        "The river rose over its banks overnight.",
+        "We fished from the far bank."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "The land along the side of a river or lake",
-          "body": [
-            "(берег (реки))"
-          ],
-          "examples": [
-            "Willows grow all along the bank.",
-            "The river rose over its banks overnight.",
-            "We fished from the far bank."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A business that keeps people's money and lends it out",
           "body": [
-            "(банк)",
-            "---"
+            "(банк)"
           ],
           "examples": [
             "The bank closes at five.",
             "Most banks charge a fee for that.",
             "She works at a bank downtown."
           ]
+        },
+        {
+          "n": "2",
+          "head": "The land along the side of a river or lake",
+          "body": [
+            "(берег (реки))",
+            "---"
+          ],
+          "examples": [
+            "Willows grow all along the bank.",
+            "The river rose over its banks overnight.",
+            "We fished from the far bank."
+          ]
         }
       ],
-      "русский": "берег (реки); банк",
+      "русский": "банк; берег (реки)",
       "plural": "banks",
       "countability": "countable",
       "contrast": "Identical to bank (банк) — only the context tells you which one is meant."
@@ -2096,31 +2096,19 @@
       "respell": "CHAN-uhl",
       "meaning": "Channel has 3 distinct senses.",
       "examples": [
-        "The ferry crosses the channel in about an hour.",
-        "Dredgers keep the shipping channel open.",
-        "Storms have shifted the channel twice in ten years.",
         "What channel is the game on?",
         "He flipped through the channels twice and gave up.",
         "The news channel has run the same story all day.",
         "Complaints have to go through the proper channels.",
         "The company sells through three different channels.",
-        "We heard about it through unofficial channels."
+        "We heard about it through unofficial channels.",
+        "The ferry crosses the channel in about an hour.",
+        "Dredgers keep the shipping channel open.",
+        "Storms have shifted the channel twice in ten years."
       ],
       "senses": [
         {
           "n": "1",
-          "head": "A narrow stretch of water between two seas, or the deeper part of a river where boats pass",
-          "body": [
-            "(пролив; русло, фарватер)"
-          ],
-          "examples": [
-            "The ferry crosses the channel in about an hour.",
-            "Dredgers keep the shipping channel open.",
-            "Storms have shifted the channel twice in ten years."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A television or radio station, and the number you tune to for it",
           "body": [
             "(телеканал)"
@@ -2132,20 +2120,32 @@
           ]
         },
         {
-          "n": "3",
+          "n": "2",
           "head": "An official route through which information, money, or goods pass",
           "body": [
-            "(канал (связи, сбыта))",
-            "---"
+            "(канал (связи, сбыта))"
           ],
           "examples": [
             "Complaints have to go through the proper channels.",
             "The company sells through three different channels.",
             "We heard about it through unofficial channels."
           ]
+        },
+        {
+          "n": "3",
+          "head": "A narrow stretch of water between two seas, or the deeper part of a river where boats pass",
+          "body": [
+            "(пролив; русло, фарватер)",
+            "---"
+          ],
+          "examples": [
+            "The ferry crosses the channel in about an hour.",
+            "Dredgers keep the shipping channel open.",
+            "Storms have shifted the channel twice in ten years."
+          ]
         }
       ],
-      "русский": "пролив; русло, фарватер; телеканал; канал (связи, сбыта)",
+      "русский": "телеканал; канал (связи, сбыта); пролив; русло, фарватер",
       "plural": "channels",
       "countability": "countable"
     },
@@ -2648,12 +2648,12 @@
       "respell": "POHL",
       "meaning": "Pole has 3 distinct senses.",
       "examples": [
-        "Ice is melting at both poles.",
-        "The expedition reached the pole in January.",
-        "A compass needle points toward the magnetic pole.",
         "A crew was replacing a rotten telephone pole.",
         "He hung the flag from a pole on the porch.",
         "Two tent poles snapped in the wind.",
+        "Ice is melting at both poles.",
+        "The expedition reached the pole in January.",
+        "A compass needle points toward the magnetic pole.",
         "Two magnets snap together unless you turn one pole around.",
         "Attach the red clamp to the positive pole of the battery.",
         "Opposite poles attract each other."
@@ -2661,18 +2661,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "Either of the two points at the very top and bottom of the earth",
-          "body": [
-            "(полюс)"
-          ],
-          "examples": [
-            "Ice is melting at both poles.",
-            "The expedition reached the pole in January.",
-            "A compass needle points toward the magnetic pole."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A long slender rod of wood or metal, usually standing upright",
           "body": [
             "(шест, столб)"
@@ -2681,6 +2669,18 @@
             "A crew was replacing a rotten telephone pole.",
             "He hung the flag from a pole on the porch.",
             "Two tent poles snapped in the wind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Either of the two points at the very top and bottom of the earth",
+          "body": [
+            "(полюс)"
+          ],
+          "examples": [
+            "Ice is melting at both poles.",
+            "The expedition reached the pole in January.",
+            "A compass needle points toward the magnetic pole."
           ]
         },
         {
@@ -2697,7 +2697,7 @@
           ]
         }
       ],
-      "русский": "полюс; шест, столб; полюс (магнита, батареи)",
+      "русский": "шест, столб; полюс; полюс (магнита, батареи)",
       "plural": "poles",
       "countability": "countable",
       "contrast": "Sounds exactly like poll (опрос)."

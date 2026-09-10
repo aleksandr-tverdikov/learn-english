@@ -745,23 +745,23 @@ Interface has 2 distinct senses.
 ### menu
 
 **Pronunciation:** /ˈmɛnjuː/ &middot; *MEN-yoo*
-**Русский:** меню; меню (в ресторане)
+**Русский:** меню (в ресторане); меню
 **Plural:** *menus*
 **Countability:** countable
 
 Menu has 2 distinct senses.
 
-**1. A list of choices a program shows you to pick from.** (меню)
+**1. The list of dishes that a restaurant offers.** (меню (в ресторане))
 
-1. Open the *menu* in the top right corner.
-2. The settings are buried three *menus* deep.
-3. Pick Export from the File *menu*.
+1. Could we see the *menu*, please?
+2. Everything on the lunch *menu* is under twelve dollars.
+3. They print new *menus* every season.
 
-**2. The list of dishes that a restaurant offers.** (меню (в ресторане))
+**2. A list of choices a program shows you to pick from.** (меню)
 
-4. Could we see the *menu*, please?
-5. Everything on the lunch *menu* is under twelve dollars.
-6. They print new *menus* every season.
+4. Open the *menu* in the top right corner.
+5. The settings are buried three *menus* deep.
+6. Pick Export from the File *menu*.
 
 ---
 
@@ -783,23 +783,23 @@ The moving mark on a screen that shows where you are typing or pointing.
 ### shortcut
 
 **Pronunciation:** /ˈʃɔːrtkʌt/ &middot; *SHORT-kut*
-**Русский:** сочетание клавиш; ярлык; короткий путь, срезка; лёгкий путь, способ схитрить
+**Русский:** короткий путь, срезка; сочетание клавиш; ярлык; лёгкий путь, способ схитрить
 **Plural:** *shortcuts*
 **Countability:** countable
 
 Shortcut has 3 distinct senses.
 
-**1. A quick key combination or link that saves you steps.** (сочетание клавиш; ярлык)
+**1. A route that is shorter or quicker than the usual one.** (короткий путь, срезка)
 
-1. There's a keyboard *shortcut* for that.
-2. He knows every *shortcut* in the program.
-3. I made a *shortcut* to the folder on my desktop.
+1. We took a *shortcut* through the parking lot.
+2. There's no *shortcut* to the lake; you have to follow the road around.
+3. He knows every *shortcut* in the city and still got us there late.
 
-**2. A route that is shorter or quicker than the usual one.** (короткий путь, срезка)
+**2. A quick key combination or link that saves you steps.** (сочетание клавиш; ярлык)
 
-4. We took a *shortcut* through the parking lot.
-5. There's no *shortcut* to the lake; you have to follow the road around.
-6. He knows every *shortcut* in the city and still got us there late.
+4. There's a keyboard *shortcut* for that.
+5. He knows every *shortcut* in the program.
+6. I made a *shortcut* to the folder on my desktop.
 
 **3. A quicker way of doing something that skips the usual steps, often at some cost.** (лёгкий путь, способ схитрить)
 
@@ -873,23 +873,23 @@ The way things are arranged on a page or screen.
 ### clipboard
 
 **Pronunciation:** /ˈklɪpbɔːrd/ &middot; *KLIP-bord*
-**Русский:** буфер обмена; планшет с зажимом (для бумаг)
+**Русский:** планшет с зажимом (для бумаг); буфер обмена
 **Plural:** *clipboards*
 **Countability:** countable
 
 Clipboard has 2 distinct senses.
 
-**1. The temporary place a computer keeps whatever you last copied.** (буфер обмена)
+**1. A stiff flat board with a clip at the top for holding papers while you write.** (планшет с зажимом (для бумаг))
 
-1. The link is already on your *clipboard*.
-2. Phones and computers keep separate *clipboards*.
-3. Copying the password put it on the *clipboard*.
+1. The nurse checked the chart on her *clipboard*.
+2. A man with a *clipboard* was taking everyone's name at the door.
+3. Two *clipboards* hung on a nail beside the shop door.
 
-**2. A stiff flat board with a clip at the top for holding papers while you write.** (планшет с зажимом (для бумаг))
+**2. The temporary place a computer keeps whatever you last copied.** (буфер обмена)
 
-4. The nurse checked the chart on her *clipboard*.
-5. A man with a *clipboard* was taking everyone's name at the door.
-6. Two *clipboards* hung on a nail beside the shop door.
+4. The link is already on your *clipboard*.
+5. Phones and computers keep separate *clipboards*.
+6. Copying the password put it on the *clipboard*.
 
 ---
 
@@ -979,29 +979,29 @@ One of the tiny dots that make up a picture on a screen.
 ### resolution
 
 **Pronunciation:** /ˌrɛzəˈluːʃən/ &middot; *rez-uh-LOO-shun*
-**Русский:** разрешение (экрана); твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); резолюция, постановление
+**Русский:** твёрдое решение, зарок (напр. новогодний); разрешение (проблемы, конфликта); разрешение (экрана); резолюция, постановление
 **Plural:** *resolutions*
 **Countability:** countable
 
 Resolution has 4 distinct senses.
 
-**1. How much detail a screen or image holds, counted in pixels.** (разрешение (экрана))
+**1. A firm decision to do or stop doing something.** (твёрдое решение, зарок (напр. новогодний))
 
-1. Shoot it at the highest *resolution* you can.
-2. The two monitors run at different *resolutions*.
-3. Low *resolution* looks awful on a big TV.
+1. My New Year's *resolution* is to run three times a week.
+2. She made a *resolution* to call her parents every Sunday.
+3. Most *resolutions* are broken by February.
 
-**2. A firm decision to do or stop doing something.** (твёрдое решение, зарок (напр. новогодний))
+**2. The solving or settling of a problem, argument, or difficult situation.** (разрешение (проблемы, конфликта))
 
-4. My New Year's *resolution* is to run three times a week.
-5. She made a *resolution* to call her parents every Sunday.
-6. Most *resolutions* are broken by February.
+4. Both sides say they want a peaceful *resolution*.
+5. The case dragged on for years without *resolution*.
+6. The company pays for conflict *resolution* training.
 
-**3. The solving or settling of a problem, argument, or difficult situation.** (разрешение (проблемы, конфликта))
+**3. How much detail a screen or image holds, counted in pixels.** (разрешение (экрана))
 
-7. Both sides say they want a peaceful *resolution*.
-8. The case dragged on for years without *resolution*.
-9. The company pays for conflict *resolution* training.
+7. Shoot it at the highest *resolution* you can.
+8. The two monitors run at different *resolutions*.
+9. Low *resolution* looks awful on a big TV.
 
 **4. A formal statement that a group votes on and adopts.** (резолюция, постановление)
 
@@ -1228,23 +1228,23 @@ A step-by-step method a computer follows to solve a problem.
 ### function
 
 **Pronunciation:** /ˈfʌŋkʃən/ &middot; *FUNK-shun*
-**Русский:** функция (в программировании); назначение, роль; мероприятие, приём; функция (математическая)
+**Русский:** назначение, роль; функция (в программировании); мероприятие, приём; функция (математическая)
 **Plural:** *functions*
 **Countability:** countable
 
 Function has 4 distinct senses.
 
-**1. A named block of code that does one job and can be reused.** (функция (в программировании))
+**1. The purpose something has or the job it is meant to do.** (назначение, роль)
 
-1. Pull that logic out into its own *function*.
-2. The file has about forty *functions* in it.
-3. The *function* returns an empty list if nothing matches.
+1. The building's original *function* was a grain store.
+2. Every part of the engine has a clear *function*.
+3. Sleep serves several *functions* in the body.
 
-**2. The purpose something has or the job it is meant to do.** (назначение, роль)
+**2. A named block of code that does one job and can be reused.** (функция (в программировании))
 
-4. The building's original *function* was a grain store.
-5. Every part of the engine has a clear *function*.
-6. Sleep serves several *functions* in the body.
+4. Pull that logic out into its own *function*.
+5. The file has about forty *functions* in it.
+6. The *function* returns an empty list if nothing matches.
 
 **3. A formal or organized social event.** (мероприятие, приём)
 
@@ -1263,23 +1263,23 @@ Function has 4 distinct senses.
 ### array
 
 **Pronunciation:** /əˈreɪ/ &middot; *uh-RAY*
-**Русский:** массив; множество, широкий набор
+**Русский:** множество, широкий набор; массив
 **Plural:** *arrays*
 **Countability:** countable
 
 Array has 2 distinct senses.
 
-**1. An ordered list of values stored under one name.** (массив)
+**1. A large and varied group of things offered or faced at once.** (множество, широкий набор)
 
-1. Loop through the *array* and print each name.
-2. You can nest *arrays* inside each other.
-3. The *array* starts at index zero.
+1. The store carries a dazzling *array* of hot sauces.
+2. She faced an *array* of federal charges.
+3. A whole *array* of tests came back normal.
 
-**2. A large and varied group of things offered or faced at once.** (множество, широкий набор)
+**2. An ordered list of values stored under one name.** (массив)
 
-4. The store carries a dazzling *array* of hot sauces.
-5. She faced an *array* of federal charges.
-6. A whole *array* of tests came back normal.
+4. Loop through the *array* and print each name.
+5. You can nest *arrays* inside each other.
+6. The *array* starts at index zero.
 
 ---
 
@@ -1315,23 +1315,23 @@ A program that turns human-written code into something a machine can run.
 ### framework
 
 **Pronunciation:** /ˈfreɪmwɜːrk/ &middot; *FRAYM-wurk*
-**Русский:** фреймворк, каркас; система принципов, концепция, рамки; каркас, остов
+**Русский:** система принципов, концепция, рамки; фреймворк, каркас; каркас, остов
 **Plural:** *frameworks*
 **Countability:** countable
 
 Framework has 3 distinct senses.
 
-**1. A ready-made structure that programs are built on top of.** (фреймворк, каркас)
+**1. A set of ideas, rules, or principles used for planning and making decisions.** (система принципов, концепция, рамки)
 
-1. They rebuilt the site on a modern *framework*.
-2. New *frameworks* come out every six months.
-3. The *framework* handles all the routing for you.
+1. The two sides agreed on a *framework* for the talks.
+2. Her thesis borrows a *framework* from economics.
+3. The law provides a *framework* for handling complaints.
 
-**2. A set of ideas, rules, or principles used for planning and making decisions.** (система принципов, концепция, рамки)
+**2. A ready-made structure that programs are built on top of.** (фреймворк, каркас)
 
-4. The two sides agreed on a *framework* for the talks.
-5. Her thesis borrows a *framework* from economics.
-6. The law provides a *framework* for handling complaints.
+4. They rebuilt the site on a modern *framework*.
+5. New *frameworks* come out every six months.
+6. The *framework* handles all the routing for you.
 
 **3. A supporting structure of bars, beams, or poles.** (каркас, остов)
 
@@ -1373,44 +1373,44 @@ Prompt has 3 distinct senses.
 ### input
 
 **Pronunciation:** /ˈɪnpʊt/ &middot; *IN-puut*
-**Русский:** ввод, входные данные; мнение, замечания, вклад (в обсуждение)
+**Русский:** мнение, замечания, вклад (в обсуждение); ввод, входные данные
 **Countability:** uncountable
 
 Input has 2 distinct senses.
 
-**1. Information put into a computer for it to work on.** (ввод, входные данные)
+**1. Advice, ideas, or comments that someone contributes.** (мнение, замечания, вклад (в обсуждение))
 
-1. The program waits for *input* from the keyboard.
-2. Bad *input* gives you bad results.
-3. It takes plain text as *input*.
+1. I'd like your *input* before I send the proposal.
+2. The team had no *input* into the final decision.
+3. Thanks for all your *input* at the meeting.
 
-**2. Advice, ideas, or comments that someone contributes.** (мнение, замечания, вклад (в обсуждение))
+**2. Information put into a computer for it to work on.** (ввод, входные данные)
 
-4. I'd like your *input* before I send the proposal.
-5. The team had no *input* into the final decision.
-6. Thanks for all your *input* at the meeting.
+4. The program waits for *input* from the keyboard.
+5. Bad *input* gives you bad results.
+6. It takes plain text as *input*.
 
 ---
 
 ### output
 
 **Pronunciation:** /ˈaʊtpʊt/ &middot; *OWT-puut*
-**Русский:** вывод, выходные данные; выпуск, объём производства, продукция
+**Русский:** выпуск, объём производства, продукция; вывод, выходные данные
 **Countability:** uncountable
 
 Output has 2 distinct senses.
 
-**1. What a computer or program produces after it processes something.** (вывод, выходные данные)
+**1. The amount of something produced by a person, machine, or country.** (выпуск, объём производства, продукция)
 
-1. Save the *output* to a file.
-2. The *output* was full of warnings.
-3. Compare the *output* against the sample.
+1. Factory *output* fell for the third month in a row.
+2. The dam's *output* is measured in megawatts.
+3. His *output* as a novelist slowed after he turned sixty.
 
-**2. The amount of something produced by a person, machine, or country.** (выпуск, объём производства, продукция)
+**2. What a computer or program produces after it processes something.** (вывод, выходные данные)
 
-4. Factory *output* fell for the third month in a row.
-5. The dam's *output* is measured in megawatts.
-6. His *output* as a novelist slowed after he turned sixty.
+4. Save the *output* to a file.
+5. The *output* was full of warnings.
+6. Compare the *output* against the sample.
 
 ---
 
@@ -1423,17 +1423,17 @@ Output has 2 distinct senses.
 
 Error has 2 distinct senses.
 
-**1. A mistake that stops a program from working correctly.** (ошибка)
+**1. A mistake, or a message telling you something went wrong.** (ошибка)
 
-1. I got an *error* when I tried to save.
-2. The log is full of the same *errors*.
-3. The *error* message wasn't very helpful.
+1. I keep getting an *error* when I try to save.
+2. The log is full of *errors*.
+3. It was a simple typing *error*.
 
-**2. A mistake, or a message telling you something went wrong.** (ошибка)
+**2. A mistake that stops a program from working correctly.** (ошибка)
 
-4. I keep getting an *error* when I try to save.
-5. The log is full of *errors*.
-6. It was a simple typing *error*.
+4. I got an *error* when I tried to save.
+5. The log is full of the same *errors*.
+6. The *error* message wasn't very helpful.
 
 ---
 
@@ -1562,23 +1562,23 @@ Storage has 2 distinct senses.
 ### drive
 
 **Pronunciation:** /draɪv/ &middot; *DRYVE*
-**Русский:** накопитель, диск; поездка на машине; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость
+**Русский:** поездка на машине; накопитель, диск; кампания, акция (по сбору средств и т. п.); напор, целеустремлённость
 **Plural:** *drives*
 **Countability:** countable
 
 Drive has 4 distinct senses.
 
-**1. A device that stores data, or a piece of storage the computer treats as one unit.** (накопитель, диск)
+**1. A trip in a car.** (поездка на машине)
 
-1. Back everything up to an external *drive*.
-2. The server has eight *drives* in it.
-3. The *drive* died without any warning.
+1. It's a two-hour *drive* to the coast.
+2. We went for a *drive* along the river.
+3. The *drive* home took forever in the snow.
 
-**2. A trip in a car.** (поездка на машине)
+**2. A device that stores data, or a piece of storage the computer treats as one unit.** (накопитель, диск)
 
-4. It's a two-hour *drive* to the coast.
-5. We went for a *drive* along the river.
-6. The *drive* home took forever in the snow.
+4. Back everything up to an external *drive*.
+5. The server has eight *drives* in it.
+6. The *drive* died without any warning.
 
 **3. An organized effort to collect something or achieve a goal.** (кампания, акция (по сбору средств и т. п.))
 
@@ -1999,29 +1999,29 @@ A small part that lets one kind of plug or device work with another.
 ### hub
 
 **Pronunciation:** /hʌb/ &middot; *HUB*
-**Русский:** хаб, разветвитель; ступица (колеса); центр, узел (транспортный, деловой)
+**Русский:** центр, узел (транспортный, деловой); хаб, разветвитель; ступица (колеса)
 **Plural:** *hubs*
 **Countability:** countable
 
 Hub has 3 distinct senses.
 
-**1. A device that gives you several extra ports from one connection.** (хаб, разветвитель)
+**1. A central place that a lot of activity or travel passes through.** (центр, узел (транспортный, деловой))
 
-1. I plug everything into one *hub*.
-2. Cheap *hubs* can't supply enough power.
-3. The *hub* gives me four extra USB ports.
+1. Atlanta is a major airline *hub*.
+2. The town has become a *hub* for tech startups.
+3. The kitchen is the *hub* of our house.
 
-**2. The center part of a wheel, which the axle passes through.** (ступица (колеса))
+**2. A device that gives you several extra ports from one connection.** (хаб, разветвитель)
 
-4. The spokes run from the rim to the *hub*.
-5. Grease the *hub* before you put the wheel back on.
-6. The bike's front *hub* needs new bearings.
+4. I plug everything into one *hub*.
+5. Cheap *hubs* can't supply enough power.
+6. The *hub* gives me four extra USB ports.
 
-**3. A central place that a lot of activity or travel passes through.** (центр, узел (транспортный, деловой))
+**3. The center part of a wheel, which the axle passes through.** (ступица (колеса))
 
-7. Atlanta is a major airline *hub*.
-8. The town has become a *hub* for tech startups.
-9. The kitchen is the *hub* of our house.
+7. The spokes run from the rim to the *hub*.
+8. Grease the *hub* before you put the wheel back on.
+9. The bike's front *hub* needs new bearings.
 
 ---
 

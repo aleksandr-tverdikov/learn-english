@@ -534,23 +534,23 @@ Copyright has 2 distinct senses.
 ### dedication
 
 **Pronunciation:** /ˌdɛdɪˈkeɪʃən/ &middot; *ded-ih-KAY-shuhn*
-**Русский:** посвящение (в книге); самоотдача, преданность делу
+**Русский:** самоотдача, преданность делу; посвящение (в книге)
 **Plural:** *dedications*
 **Countability:** countable
 
 Dedication has 2 distinct senses.
 
-**1. A line at the front of a book saying it is written in honor of someone.** (посвящение (в книге))
+**1. The quality of giving a lot of time and energy to something you care about.** (самоотдача, преданность делу)
 
-1. The *dedication* reads 'For my mother.'
-2. He put a joke in the *dedication*.
-3. Her first two books had the same *dedication*.
+1. Teaching that long takes real *dedication*.
+2. Her *dedication* to the choir never wavered.
+3. The award recognizes forty years of *dedication*.
 
-**2. The quality of giving a lot of time and energy to something you care about.** (самоотдача, преданность делу)
+**2. A line at the front of a book saying it is written in honor of someone.** (посвящение (в книге))
 
-4. Teaching that long takes real *dedication*.
-5. Her *dedication* to the choir never wavered.
-6. The award recognizes forty years of *dedication*.
+4. The *dedication* reads 'For my mother.'
+5. He put a joke in the *dedication*.
+6. Her first two books had the same *dedication*.
 
 ---
 
@@ -1189,23 +1189,23 @@ A version of a text put into another language.
 ### royalty
 
 **Pronunciation:** /ˈrɔɪəlti/ &middot; *ROY-uhl-tee*
-**Русский:** авторские отчисления, роялти; члены королевской семьи, царственные особы
+**Русский:** члены королевской семьи, царственные особы; авторские отчисления, роялти
 **Plural:** *royalties*
 **Countability:** countable
 
 Royalty has 2 distinct senses.
 
-**1. Money paid to an author or musician for each copy of their work that sells.** (авторские отчисления, роялти)
+**1. Kings, queens, and the members of their families.** (члены королевской семьи, царственные особы)
 
-1. She still gets *royalties* from her first book.
-2. The contract sets the *royalty* at ten percent.
-3. His *royalties* barely cover the rent.
+1. The crowd hoped to catch a glimpse of *royalty*.
+2. They were treated like *royalty* all weekend.
+3. The museum displays jewelry once worn by *royalty*.
 
-**2. Kings, queens, and the members of their families.** (члены королевской семьи, царственные особы)
+**2. Money paid to an author or musician for each copy of their work that sells.** (авторские отчисления, роялти)
 
-4. The crowd hoped to catch a glimpse of *royalty*.
-5. They were treated like *royalty* all weekend.
-6. The museum displays jewelry once worn by *royalty*.
+4. She still gets *royalties* from her first book.
+5. The contract sets the *royalty* at ten percent.
+6. His *royalties* barely cover the rent.
 
 ---
 
@@ -1537,29 +1537,29 @@ A writer with a regular signed piece in a paper or magazine.
 ### contributor
 
 **Pronunciation:** /kənˈtrɪbjətər/ &middot; *kuhn-TRIB-yuh-tur*
-**Русский:** внештатный автор; жертвователь, спонсор; фактор, способствующий (чему-л.)
+**Русский:** жертвователь, спонсор; фактор, способствующий (чему-л.); внештатный автор
 **Plural:** *contributors*
 **Countability:** countable
 
 Contributor has 3 distinct senses.
 
-**1. A writer who supplies pieces to a magazine or site without being on staff.** (внештатный автор)
+**1. Someone who gives money to a campaign, a charity, or a fund.** (жертвователь, спонсор)
 
-1. She's a regular *contributor* to the food section.
-2. The masthead lists forty *contributors*.
-3. They pay *contributors* by the word.
+1. The senator returned the money to several *contributors*.
+2. The museum lists every *contributor* on a plaque in the lobby.
+3. She was the campaign's largest *contributor* last year.
 
-**2. Someone who gives money to a campaign, a charity, or a fund.** (жертвователь, спонсор)
+**2. A thing that helps to cause something, usually something bad.** (фактор, способствующий (чему-л.))
 
-4. The senator returned the money to several *contributors*.
-5. The museum lists every *contributor* on a plaque in the lobby.
-6. She was the campaign's largest *contributor* last year.
+4. Smoking is a major *contributor* to heart disease.
+5. Cars are the biggest *contributor* to the city's smog.
+6. Poor sleep is a known *contributor* to anxiety.
 
-**3. A thing that helps to cause something, usually something bad.** (фактор, способствующий (чему-л.))
+**3. A writer who supplies pieces to a magazine or site without being on staff.** (внештатный автор)
 
-7. Smoking is a major *contributor* to heart disease.
-8. Cars are the biggest *contributor* to the city's smog.
-9. Poor sleep is a known *contributor* to anxiety.
+7. She's a regular *contributor* to the food section.
+8. The masthead lists forty *contributors*.
+9. They pay *contributors* by the word.
 
 ---
 
@@ -1650,29 +1650,29 @@ A person who writes an opinion piece about a new book, film, or product.
 ### feature
 
 **Pronunciation:** /ˈfiːtʃər/ &middot; *FEE-chur*
-**Русский:** очерк, большая тематическая статья; функция, возможность; черта (лица); особенность
+**Русский:** функция, возможность; черта (лица); особенность; очерк, большая тематическая статья
 **Plural:** *features*
 **Countability:** countable
 
 Feature has 3 distinct senses.
 
-**1. A long newspaper or magazine article about one subject, rather than straight news.** (очерк, большая тематическая статья)
+**1. Something a product can do, offered as part of it.** (функция, возможность)
 
-1. She's writing a *feature* on the housing shortage.
-2. The Sunday *feature* runs about five thousand words.
-3. He does mostly *features* now, not daily reporting.
+1. The best *feature* is the offline mode.
+2. They added three new *features* in this release.
+3. That *feature* is only in the paid plan.
 
-**2. Something a product can do, offered as part of it.** (функция, возможность)
+**2. A part of the face, such as the eyes, nose, or mouth.** (черта (лица); особенность)
 
-4. The best *feature* is the offline mode.
-5. They added three new *features* in this release.
-6. That *feature* is only in the paid plan.
+4. She has delicate *features*.
+5. His strongest *feature* is his jaw.
+6. The twins share the same *features*.
 
-**3. A part of the face, such as the eyes, nose, or mouth.** (черта (лица); особенность)
+**3. A long newspaper or magazine article about one subject, rather than straight news.** (очерк, большая тематическая статья)
 
-7. She has delicate *features*.
-8. His strongest *feature* is his jaw.
-9. The twins share the same *features*.
+7. She's writing a *feature* on the housing shortage.
+8. The Sunday *feature* runs about five thousand words.
+9. He does mostly *features* now, not daily reporting.
 
 ---
 
@@ -1707,58 +1707,58 @@ Coverage has 3 distinct senses.
 ### scoop
 
 **Pronunciation:** /skuːp/ &middot; *SKOOP*
-**Русский:** сенсация, эксклюзивный материал; совок, ложка (для мороженого, муки); порция, черпак (мера)
+**Русский:** совок, ложка (для мороженого, муки); порция, черпак (мера); сенсация, эксклюзивный материал
 **Plural:** *scoops*
 **Countability:** countable
 
 Scoop has 3 distinct senses.
 
-**1. An important news story that one reporter gets before anyone else.** (сенсация, эксклюзивный материал)
+**1. A deep spoon or small shovel for lifting loose food.** (совок, ложка (для мороженого, муки))
 
-1. That story was a real *scoop*.
-2. She got the *scoop* from a source at city hall.
-3. The paper has had two big *scoops* this month.
+1. Use the *scoop* in the flour bin, not a coffee cup.
+2. The ice cream *scoop* is in the top drawer.
+3. He dug into the dog food with a plastic *scoop*.
 
-**2. A deep spoon or small shovel for lifting loose food.** (совок, ложка (для мороженого, муки))
+**2. The amount that such a spoon holds.** (порция, черпак (мера))
 
-4. Use the *scoop* in the flour bin, not a coffee cup.
-5. The ice cream *scoop* is in the top drawer.
-6. He dug into the dog food with a plastic *scoop*.
+4. I'll take two *scoops* of chocolate in a cone.
+5. Add one *scoop* of protein powder to the milk.
+6. She ordered a single *scoop* and ate it in the car.
 
-**3. The amount that such a spoon holds.** (порция, черпак (мера))
+**3. An important news story that one reporter gets before anyone else.** (сенсация, эксклюзивный материал)
 
-7. I'll take two *scoops* of chocolate in a cone.
-8. Add one *scoop* of protein powder to the milk.
-9. She ordered a single *scoop* and ate it in the car.
+7. That story was a real *scoop*.
+8. She got the *scoop* from a source at city hall.
+9. The paper has had two big *scoops* this month.
 
 ---
 
 ### source
 
 **Pronunciation:** /sɔːrs/ &middot; *SORS*
-**Русский:** источник (информации); исток (реки); источник (чего-либо)
+**Русский:** источник (чего-либо); источник (информации); исток (реки)
 **Plural:** *sources*
 **Countability:** countable
 
 Source has 3 distinct senses.
 
-**1. A person or document that gives a reporter information.** (источник (информации))
+**1. A thing that provides or produces something.** (источник (чего-либо))
 
-1. He won't name his *source*.
-2. Two *sources* confirmed the story.
-3. A *source* inside the company leaked the memo.
+1. Beans are a cheap *source* of protein.
+2. Tourism is the town's main *source* of income.
+3. They traced the smell back to its *source*.
 
-**2. The spring or lake where a river begins.** (исток (реки))
+**2. A person or document that gives a reporter information.** (источник (информации))
 
-4. They hiked all day to the *source* of the river.
-5. The creek's *source* is a spring under the ridge.
-6. Both rivers have their *sources* high in the mountains.
+4. He won't name his *source*.
+5. Two *sources* confirmed the story.
+6. A *source* inside the company leaked the memo.
 
-**3. A thing that provides or produces something.** (источник (чего-либо))
+**3. The spring or lake where a river begins.** (исток (реки))
 
-7. Beans are a cheap *source* of protein.
-8. Tourism is the town's main *source* of income.
-9. They traced the smell back to its *source*.
+7. They hiked all day to the *source* of the river.
+8. The creek's *source* is a spring under the ridge.
+9. Both rivers have their *sources* high in the mountains.
 
 ---
 
@@ -1937,28 +1937,28 @@ A meeting where officials give reporters information about a situation.
 ### circulation
 
 **Pronunciation:** /ˌsɜːrkjəˈleɪʃən/ &middot; *sur-kyuh-LAY-shuhn*
-**Русский:** тираж (газеты, журнала); кровообращение; обращение, хождение (денег, вещей)
+**Русский:** кровообращение; обращение, хождение (денег, вещей); тираж (газеты, журнала)
 **Countability:** uncountable
 
 Circulation has 3 distinct senses.
 
-**1. The number of copies of a paper or magazine that are sold.** (тираж (газеты, журнала))
+**1. The movement of blood around the body.** (кровообращение)
 
-1. The paper's *circulation* has fallen by half.
-2. *Circulation* peaked in the eighties.
-3. The magazine claims a *circulation* of 90,000.
+1. Cold hands can be a sign of poor *circulation*.
+2. Walking every day improves your *circulation*.
+3. The bandage was so tight it cut off *circulation* to her fingers.
 
-**2. The movement of blood around the body.** (кровообращение)
+**2. The passing of something from person to person, or its availability for public use.** (обращение, хождение (денег, вещей))
 
-4. Cold hands can be a sign of poor *circulation*.
-5. Walking every day improves your *circulation*.
-6. The bandage was so tight it cut off *circulation* to her fingers.
+4. Those old bills are no longer in *circulation*.
+5. The library pulled the damaged copies out of *circulation*.
+6. He's been sick and out of *circulation* for a month.
 
-**3. The passing of something from person to person, or its availability for public use.** (обращение, хождение (денег, вещей))
+**3. The number of copies of a paper or magazine that are sold.** (тираж (газеты, журнала))
 
-7. Those old bills are no longer in *circulation*.
-8. The library pulled the damaged copies out of *circulation*.
-9. He's been sick and out of *circulation* for a month.
+7. The paper's *circulation* has fallen by half.
+8. *Circulation* peaked in the eighties.
+9. The magazine claims a *circulation* of 90,000.
 
 ---
 
@@ -2026,29 +2026,29 @@ Newspapers, television, radio, and websites taken together as a source of news.
 ### issue
 
 **Pronunciation:** /ˈɪʃuː/ &middot; *ISH-oo*
-**Русский:** номер, выпуск (издания); вопрос, проблема (тема обсуждения); неполадка, сбой, проблема
+**Русский:** вопрос, проблема (тема обсуждения); неполадка, сбой, проблема; номер, выпуск (издания)
 **Plural:** *issues*
 **Countability:** countable
 
 Issue has 3 distinct senses.
 
-**1. One numbered edition of a magazine or newspaper.** (номер, выпуск (издания))
+**1. An important subject that people discuss or disagree about.** (вопрос, проблема (тема обсуждения))
 
-1. The April *issue* has her interview in it.
-2. I've saved every *issue* since the first one.
-3. The next *issue* comes out Thursday.
+1. Health care was the biggest *issue* in the election.
+2. The mayor refused to take a position on the *issue*.
+3. They disagree on almost every *issue*.
 
-**2. An important subject that people discuss or disagree about.** (вопрос, проблема (тема обсуждения))
+**2. A problem or fault with something.** (неполадка, сбой, проблема)
 
-4. Health care was the biggest *issue* in the election.
-5. The mayor refused to take a position on the *issue*.
-6. They disagree on almost every *issue*.
+4. We're having *issues* with the printer again.
+5. If there's any *issue* with your order, call us.
+6. The car has an *issue* with the transmission.
 
-**3. A problem or fault with something.** (неполадка, сбой, проблема)
+**3. One numbered edition of a magazine or newspaper.** (номер, выпуск (издания))
 
-7. We're having *issues* with the printer again.
-8. If there's any *issue* with your order, call us.
-9. The car has an *issue* with the transmission.
+7. The April *issue* has her interview in it.
+8. I've saved every *issue* since the first one.
+9. The next *issue* comes out Thursday.
 
 ---
 
@@ -2298,23 +2298,23 @@ Ad has 2 distinct senses.
 ### rating
 
 **Pronunciation:** /ˈreɪtɪŋ/ &middot; *RAY-ting*
-**Русский:** рейтинг; оценка, категория, класс
+**Русский:** оценка, категория, класс; рейтинг
 **Plural:** *ratings*
 **Countability:** countable
 
 Rating has 2 distinct senses.
 
-**1. A measure of how many people watch or listen to a program.** (рейтинг)
+**1. A score or level given to something to show how good or how suitable it is.** (оценка, категория, класс)
 
-1. The show's *ratings* dropped after the move.
-2. The finale got the highest *rating* of the year.
-3. *Ratings* decide what gets canceled.
+1. The movie got an R *rating*.
+2. This hotel has a four-star *rating*.
+3. The city's credit *rating* was downgraded last month.
 
-**2. A score or level given to something to show how good or how suitable it is.** (оценка, категория, класс)
+**2. A measure of how many people watch or listen to a program.** (рейтинг)
 
-4. The movie got an R *rating*.
-5. This hotel has a four-star *rating*.
-6. The city's credit *rating* was downgraded last month.
+4. The show's *ratings* dropped after the move.
+5. The finale got the highest *rating* of the year.
+6. *Ratings* decide what gets canceled.
 
 ---
 
@@ -2411,24 +2411,24 @@ The person who asks the questions in an interview.
 ### segment
 
 **Pronunciation:** /ˈsɛɡmənt/ &middot; *SEG-muhnt*
-**Русский:** сюжет, рубрика (в передаче); отрезок, сегмент
+**Русский:** отрезок, сегмент; сюжет, рубрика (в передаче)
 **Plural:** *segments*
 **Countability:** countable
 **Contrast:** Noun SEG-muhnt with the stress up front; the verb is seg-MENT.
 
 Segment has 2 distinct senses.
 
-**1. One separate part of a television or radio program.** (сюжет, рубрика (в передаче))
+**1. One of the parts something is divided into.** (отрезок, сегмент)
 
-1. They cut my *segment* for time.
-2. The cooking *segment* airs after the weather.
-3. The show is built out of six short *segments*.
+1. Draw a straight line *segment* between the two points.
+2. Peel the orange and separate the *segments*.
+3. Each *segment* of the chart is a different color.
 
-**2. One of the parts something is divided into.** (отрезок, сегмент)
+**2. One separate part of a television or radio program.** (сюжет, рубрика (в передаче))
 
-4. Draw a straight line *segment* between the two points.
-5. Peel the orange and separate the *segments*.
-6. Each *segment* of the chart is a different color.
+4. They cut my *segment* for time.
+5. The cooking *segment* airs after the weather.
+6. The show is built out of six short *segments*.
 
 ---
 

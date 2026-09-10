@@ -624,12 +624,12 @@
       "respell": "BILD-up",
       "meaning": "Buildup has 3 distinct senses.",
       "examples": [
-        "There's a buildup of grease behind the stove.",
-        "The showerhead had a mineral buildup.",
-        "Regular cleaning prevents buildups like that.",
         "The country announced a military buildup along its border.",
         "A slow buildup of pressure finally cracked the pipe.",
         "Doctors watched for a buildup of fluid in his lungs.",
+        "There's a buildup of grease behind the stove.",
+        "The showerhead had a mineral buildup.",
+        "Regular cleaning prevents buildups like that.",
         "The buildup to the Super Bowl lasts two weeks.",
         "There was so much buildup that the movie couldn't live up to it.",
         "In the buildup to the election, both sides spent heavily."
@@ -637,18 +637,6 @@
       "senses": [
         {
           "n": "1",
-          "head": "A layer of dirt or residue that has collected slowly over time",
-          "body": [
-            "(налёт, отложения)"
-          ],
-          "examples": [
-            "There's a buildup of grease behind the stove.",
-            "The showerhead had a mineral buildup.",
-            "Regular cleaning prevents buildups like that."
-          ]
-        },
-        {
-          "n": "2",
           "head": "A gradual increase in the number or strength of something",
           "body": [
             "(наращивание, накопление (сил, давления))"
@@ -657,6 +645,18 @@
             "The country announced a military buildup along its border.",
             "A slow buildup of pressure finally cracked the pipe.",
             "Doctors watched for a buildup of fluid in his lungs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A layer of dirt or residue that has collected slowly over time",
+          "body": [
+            "(налёт, отложения)"
+          ],
+          "examples": [
+            "There's a buildup of grease behind the stove.",
+            "The showerhead had a mineral buildup.",
+            "Regular cleaning prevents buildups like that."
           ]
         },
         {
@@ -673,7 +673,7 @@
           ]
         }
       ],
-      "русский": "налёт, отложения; наращивание, накопление (сил, давления); подготовка и ожидание перед событием",
+      "русский": "наращивание, накопление (сил, давления); налёт, отложения; подготовка и ожидание перед событием",
       "plural": "buildups",
       "countability": "countable"
     },
