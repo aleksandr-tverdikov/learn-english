@@ -468,7 +468,7 @@ A member of a police force.
 
 ### firefighter
 
-**Pronunciation:** /ˈfaɪrfaɪtər/ &middot; *FYR-fy-tur*
+**Pronunciation:** /ˈfaɪərfaɪtər/ &middot; *FY-ur-fy-tur*
 **Русский:** пожарный
 **Plural:** *firefighters* — regular
 **Countability:** countable

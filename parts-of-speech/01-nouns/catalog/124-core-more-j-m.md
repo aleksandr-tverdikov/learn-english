@@ -103,7 +103,7 @@ A small hot green chili pepper used in Mexican and American cooking.
 
 ### jambalaya
 
-**Pronunciation:** /ˌdʒʌmbəˈlaɪr/ &middot; *jum-buh-LY-uh*
+**Pronunciation:** /ˌdʒʌmbəˈlaɪə/ &middot; *jum-buh-LY-uh*
 **Русский:** джамбалайя (луизианское блюдо из риса)
 **Countability:** uncountable
 
@@ -1570,7 +1570,7 @@ A medicine that makes it easier to empty your bowels.
 
 ### layer
 
-**Pronunciation:** /ˈleɪrr/ &middot; *LAY-ur*
+**Pronunciation:** /ˈleɪər/ &middot; *LAY-ur*
 **Русский:** слой
 **Plural:** *layers*
 **Countability:** countable
@@ -2038,7 +2038,7 @@ A white blood cell that fights infection.
 
 ### leviathan
 
-**Pronunciation:** /lɪˈvaɪrθən/ &middot; *lih-VY-uh-thuhn*
+**Pronunciation:** /lɪˈvaɪəθən/ &middot; *lih-VY-uh-thuhn*
 **Русский:** левиафан, гигант, чудовище
 **Plural:** *leviathans*
 **Countability:** countable
@@ -2112,7 +2112,7 @@ A person who keeps two groups in contact with each other.
 
 ### liar
 
-**Pronunciation:** /ˈlaɪrr/ &middot; *LY-ur*
+**Pronunciation:** /ˈlaɪər/ &middot; *LY-ur*
 **Русский:** лжец, врун
 **Plural:** *liars*
 **Countability:** countable
@@ -3309,7 +3309,7 @@ An area of land that is lower and flatter than the country around it.
 
 ### loyalist
 
-**Pronunciation:** /ˈlɔɪrlɪst/ &middot; *LOY-uh-list*
+**Pronunciation:** /ˈlɔɪəlɪst/ &middot; *LOY-uh-list*
 **Русский:** лоялист, верный сторонник
 **Plural:** *loyalists*
 **Countability:** countable
@@ -3574,7 +3574,7 @@ The killing of someone by a mob without a trial, especially by hanging.
 
 ### lyre
 
-**Pronunciation:** /ˈlaɪrr/ &middot; *LY-ur*
+**Pronunciation:** /ˈlaɪər/ &middot; *LY-ur*
 **Русский:** лира (древний струнный инструмент)
 **Plural:** *lyres*
 **Countability:** countable
@@ -3829,7 +3829,7 @@ Impressive beauty, scale, or splendor.
 
 ### magnifier
 
-**Pronunciation:** /ˈmæɡnɪfaɪrr/ &middot; *MAG-nuh-fy-ur*
+**Pronunciation:** /ˈmæɡnɪfaɪər/ &middot; *MAG-nuh-fy-ur*
 **Русский:** лупа, увеличительное стекло
 **Plural:** *magnifiers*
 **Countability:** countable
@@ -6927,7 +6927,7 @@ A woman who has a long affair with a married man, or a woman in charge of a hous
 
 ### mistrial
 
-**Pronunciation:** /ˌmɪsˈtraɪrl/ &middot; *mis-TRY-uhl*
+**Pronunciation:** /ˌmɪsˈtraɪəl/ &middot; *mis-TRY-uhl*
 **Русский:** недействительный судебный процесс
 **Plural:** *mistrials*
 **Countability:** countable
@@ -7667,7 +7667,7 @@ A story told in moving pictures, shown in a theater or at home.
 
 ### moviegoer
 
-**Pronunciation:** /ˈmuːviɡoʊrr/ &middot; *MOO-vee-goh-ur*
+**Pronunciation:** /ˈmuːviɡoʊər/ &middot; *MOO-vee-goh-ur*
 **Русский:** кинозритель
 **Plural:** *moviegoers*
 **Countability:** countable

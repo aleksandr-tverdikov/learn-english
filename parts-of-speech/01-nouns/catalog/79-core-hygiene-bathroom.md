@@ -40,7 +40,7 @@ The hinged ring on top of a toilet that you sit on.
 
 ### bath towel
 
-**Pronunciation:** /ˈbæθ ˌtaʊrl/ &middot; *BATH tow-uhl*
+**Pronunciation:** /ˈbæθ ˌtaʊəl/ &middot; *BATH tow-uhl*
 **Русский:** банное полотенце
 **Plural:** *bath towels*
 **Countability:** countable
@@ -55,7 +55,7 @@ A large towel for drying your body after a bath or shower.
 
 ### hand towel
 
-**Pronunciation:** /ˈhænd ˌtaʊrl/ &middot; *HAND tow-uhl*
+**Pronunciation:** /ˈhænd ˌtaʊəl/ &middot; *HAND tow-uhl*
 **Русский:** полотенце для рук
 **Plural:** *hand towels*
 **Countability:** countable
@@ -70,7 +70,7 @@ A small towel kept by the sink for drying your hands.
 
 ### paper towel
 
-**Pronunciation:** /ˈpeɪpər ˌtaʊrl/ &middot; *PAY-pur tow-uhl*
+**Pronunciation:** /ˈpeɪpər ˌtaʊəl/ &middot; *PAY-pur tow-uhl*
 **Русский:** бумажное полотенце
 **Plural:** *paper towels*
 **Countability:** countable
@@ -86,7 +86,7 @@ A sheet of thick absorbent paper used once for wiping or drying.
 
 ### shower curtain
 
-**Pronunciation:** /ˈʃaʊrr ˌkɜːrtən/ &middot; *SHOW-ur kur-tn*
+**Pronunciation:** /ˈʃaʊər ˌkɜːrtən/ &middot; *SHOW-ur kur-tn*
 **Русский:** занавеска для душа
 **Plural:** *shower curtains*
 **Countability:** countable
@@ -101,7 +101,7 @@ A plastic or fabric sheet that keeps water inside the shower.
 
 ### showerhead
 
-**Pronunciation:** /ˈʃaʊrrˌhɛd/ &middot; *SHOW-ur-hed*
+**Pronunciation:** /ˈʃaʊərˌhɛd/ &middot; *SHOW-ur-hed*
 **Русский:** душевая лейка, насадка для душа
 **Plural:** *showerheads*
 **Countability:** countable
@@ -163,7 +163,7 @@ A small mat you step onto when getting out of the tub or shower.
 
 ### towel rack
 
-**Pronunciation:** /ˈtaʊrl ˌræk/ &middot; *TOW-uhl rak*
+**Pronunciation:** /ˈtaʊəl ˌræk/ &middot; *TOW-uhl rak*
 **Русский:** вешалка для полотенец
 **Plural:** *towel racks*
 **Countability:** countable
@@ -225,7 +225,7 @@ The box behind a toilet that holds the water for flushing.
 
 ### shower stall
 
-**Pronunciation:** /ˈʃaʊrr ˌstɔːl/ &middot; *SHOW-ur stawl*
+**Pronunciation:** /ˈʃaʊər ˌstɔːl/ &middot; *SHOW-ur stawl*
 **Русский:** душевая кабина
 **Plural:** *shower stalls*
 **Countability:** countable
@@ -241,7 +241,7 @@ A small enclosed space with a shower but no tub.
 
 ### shower door
 
-**Pronunciation:** /ˈʃaʊrr ˌdɔːr/ &middot; *SHOW-ur dor*
+**Pronunciation:** /ˈʃaʊər ˌdɔːr/ &middot; *SHOW-ur dor*
 **Русский:** дверца душевой кабины
 **Plural:** *shower doors*
 **Countability:** countable
@@ -256,7 +256,7 @@ A glass or plastic door that closes off a shower.
 
 ### shower caddy
 
-**Pronunciation:** /ˈʃaʊrr ˌkædi/ &middot; *SHOW-ur kad-ee*
+**Pronunciation:** /ˈʃaʊər ˌkædi/ &middot; *SHOW-ur kad-ee*
 **Русский:** полка-органайзер для душа
 **Plural:** *shower caddies*
 **Countability:** countable
@@ -271,7 +271,7 @@ A rack or basket that hangs in the shower to hold soap and shampoo.
 
 ### shower cap
 
-**Pronunciation:** /ˈʃaʊrr ˌkæp/ &middot; *SHOW-ur kap*
+**Pronunciation:** /ˈʃaʊər ˌkæp/ &middot; *SHOW-ur kap*
 **Русский:** шапочка для душа
 **Plural:** *shower caps*
 **Countability:** countable
@@ -302,7 +302,7 @@ A device you stand on to see how much you weigh.
 
 ### hand dryer
 
-**Pronunciation:** /ˈhænd ˌdraɪrr/ &middot; *HAND dry-ur*
+**Pronunciation:** /ˈhænd ˌdraɪər/ &middot; *HAND dry-ur*
 **Русский:** сушилка для рук
 **Plural:** *hand dryers*
 **Countability:** countable
@@ -586,7 +586,7 @@ Liquid soap for washing your body in the shower.
 
 ### shower gel
 
-**Pronunciation:** /ˈʃaʊrr ˌdʒɛl/ &middot; *SHOW-ur jel*
+**Pronunciation:** /ˈʃaʊər ˌdʒɛl/ &middot; *SHOW-ur jel*
 **Русский:** гель для душа
 **Countability:** uncountable
 
@@ -644,7 +644,7 @@ A cheap plastic razor that is thrown away after a few uses.
 
 ### hair dryer
 
-**Pronunciation:** /ˈhɛr ˌdraɪrr/ &middot; *HAIR dry-ur*
+**Pronunciation:** /ˈhɛr ˌdraɪər/ &middot; *HAIR dry-ur*
 **Русский:** фен
 **Plural:** *hair dryers*
 **Countability:** countable
@@ -1018,7 +1018,7 @@ A stiff brush for scrubbing floors, tile, and tubs.
 
 ### scouring pad
 
-**Pronunciation:** /ˈskaʊrrɪŋ ˌpæd/ &middot; *SKOW-ur-ing pad*
+**Pronunciation:** /ˈskaʊərɪŋ ˌpæd/ &middot; *SKOW-ur-ing pad*
 **Русский:** абразивная губка
 **Plural:** *scouring pads*
 **Countability:** countable
@@ -1094,7 +1094,7 @@ A liquid added in the wash to make clothes feel soft.
 
 ### dryer sheet
 
-**Pronunciation:** /ˈdraɪrr ˌʃiːt/ &middot; *DRY-ur sheet*
+**Pronunciation:** /ˈdraɪər ˌʃiːt/ &middot; *DRY-ur sheet*
 **Русский:** антистатическая салфетка для сушки белья
 **Plural:** *dryer sheets*
 **Countability:** countable

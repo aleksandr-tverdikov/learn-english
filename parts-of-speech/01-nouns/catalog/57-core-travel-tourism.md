@@ -1258,7 +1258,7 @@ A shelter of cloth stretched over poles, used for sleeping outdoors.
 
 ### campfire
 
-**Pronunciation:** /ˈkæmpfaɪrr/ &middot; *KAMP-fyr*
+**Pronunciation:** /ˈkæmpfaɪər/ &middot; *KAMP-fyr*
 **Русский:** костёр
 **Plural:** *campfires*
 **Countability:** countable

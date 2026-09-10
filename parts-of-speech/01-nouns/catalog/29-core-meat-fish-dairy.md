@@ -1118,7 +1118,7 @@ A soft, mild, spreadable cheese made from cream and milk.
 
 ### sour cream
 
-**Pronunciation:** /ˌsaʊrr ˈkriːm/ &middot; *sow-ur-KREEM*
+**Pronunciation:** /ˌsaʊər ˈkriːm/ &middot; *sow-ur-KREEM*
 **Русский:** сметана
 **Countability:** uncountable
 

@@ -1598,7 +1598,7 @@ A place that serves beer and simple food.
 
 ### happy hour
 
-**Pronunciation:** /ˌhæpi ˈaʊrr/ &middot; *hap-ee-OW-ur*
+**Pronunciation:** /ˌhæpi ˈaʊər/ &middot; *hap-ee-OW-ur*
 **Русский:** счастливый час (время скидок на напитки)
 **Plural:** *happy hours*
 **Countability:** countable

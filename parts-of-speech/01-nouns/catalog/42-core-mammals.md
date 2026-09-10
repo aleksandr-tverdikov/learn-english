@@ -438,7 +438,7 @@ A large heavy wild animal with thick fur and strong claws.
 
 ### lion
 
-**Pronunciation:** /ˈlaɪrn/ &middot; *LY-uhn*
+**Pronunciation:** /ˈlaɪən/ &middot; *LY-uhn*
 **Русский:** лев
 **Plural:** *lions*
 **Countability:** countable
@@ -453,7 +453,7 @@ A large wild cat of Africa; the male grows a heavy mane.
 
 ### lioness
 
-**Pronunciation:** /ˈlaɪrnəs/ &middot; *LY-uh-nis*
+**Pronunciation:** /ˈlaɪənəs/ &middot; *LY-uh-nis*
 **Русский:** львица
 **Plural:** *lionesses*
 **Countability:** countable

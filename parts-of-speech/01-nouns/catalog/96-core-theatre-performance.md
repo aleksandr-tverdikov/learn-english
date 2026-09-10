@@ -241,7 +241,7 @@ The person who raises the money for a show and manages the business side.
 
 ### dialogue
 
-**Pronunciation:** /ˈdaɪrlɔːɡ/ &middot; *DY-uh-lawg*
+**Pronunciation:** /ˈdaɪəlɔːɡ/ &middot; *DY-uh-lawg*
 **Русский:** диалог, реплики персонажей
 **Countability:** uncountable
 
@@ -1854,7 +1854,7 @@ The lit sign over a theater entrance showing what is playing.
 
 ### theatergoer
 
-**Pronunciation:** /ˈθiːətərˌɡoʊrr/ &middot; *THEE-uh-tur-goh-ur*
+**Pronunciation:** /ˈθiːətərˌɡoʊər/ &middot; *THEE-uh-tur-goh-ur*
 **Русский:** театрал, зритель
 **Plural:** *theatergoers*
 **Countability:** countable

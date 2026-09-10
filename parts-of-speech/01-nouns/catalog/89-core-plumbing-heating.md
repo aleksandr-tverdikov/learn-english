@@ -307,7 +307,7 @@ All the ducts in a building taken together.
 
 ### humidifier
 
-**Pronunciation:** /hjuːˈmɪdɪfaɪrr/ &middot; *hyoo-MID-uh-fy-ur*
+**Pronunciation:** /hjuːˈmɪdɪfaɪər/ &middot; *hyoo-MID-uh-fy-ur*
 **Русский:** увлажнитель воздуха
 **Plural:** *humidifiers*
 **Countability:** countable
@@ -322,7 +322,7 @@ A device that adds moisture to dry indoor air.
 
 ### dehumidifier
 
-**Pronunciation:** /ˌdiːhjuːˈmɪdɪfaɪrr/ &middot; *dee-hyoo-MID-uh-fy-ur*
+**Pronunciation:** /ˌdiːhjuːˈmɪdɪfaɪər/ &middot; *dee-hyoo-MID-uh-fy-ur*
 **Русский:** осушитель воздуха
 **Plural:** *dehumidifiers*
 **Countability:** countable
@@ -397,7 +397,7 @@ A drain set into a floor to carry away spilled or standing water.
 
 ### shower drain
 
-**Pronunciation:** /ˈʃaʊrr dreɪn/ &middot; *SHOW-ur drayn*
+**Pronunciation:** /ˈʃaʊər dreɪn/ &middot; *SHOW-ur drayn*
 **Русский:** слив душа
 **Plural:** *shower drains*
 **Countability:** countable
@@ -964,7 +964,7 @@ The indoor unit that blows heated or cooled air into the ducts.
 
 ### blower
 
-**Pronunciation:** /ˈbloʊrr/ &middot; *BLOH-ur*
+**Pronunciation:** /ˈbloʊər/ &middot; *BLOH-ur*
 **Русский:** нагнетательный вентилятор
 **Plural:** *blowers*
 **Countability:** countable
@@ -1605,7 +1605,7 @@ Used water from sinks, showers, and washing machines, but not toilets.
 
 ### purifier
 
-**Pronunciation:** /ˈpjʊrəfaɪrr/ &middot; *PYUR-uh-fy-ur*
+**Pronunciation:** /ˈpjʊrəfaɪər/ &middot; *PYUR-uh-fy-ur*
 **Русский:** очиститель (воды или воздуха)
 **Plural:** *purifiers*
 **Countability:** countable

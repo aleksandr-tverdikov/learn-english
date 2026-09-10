@@ -309,7 +309,7 @@ A person who uses a computer, program, or service.
 
 ### follower
 
-**Pronunciation:** /ˈfɑːloʊrr/ &middot; *FAH-loh-ur*
+**Pronunciation:** /ˈfɑːloʊər/ &middot; *FAH-loh-ur*
 **Русский:** подписчик (в соцсети)
 **Plural:** *followers*
 **Countability:** countable
@@ -776,7 +776,7 @@ The right to keep your personal information from being seen or shared.
 
 ### firewall
 
-**Pronunciation:** /ˈfaɪrrwɔːl/ &middot; *FYRE-wawl*
+**Pronunciation:** /ˈfaɪərwɔːl/ &middot; *FYRE-wawl*
 **Русский:** брандмауэр, файрвол
 **Plural:** *firewalls*
 **Countability:** countable

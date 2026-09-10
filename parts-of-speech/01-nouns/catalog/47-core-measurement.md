@@ -1793,7 +1793,7 @@ One thousand watts.
 
 ### kilowatt-hour
 
-**Pronunciation:** /ˈkɪləwɑːt ˌaʊrr/ &middot; *KIL-uh-waht ow-ur*
+**Pronunciation:** /ˈkɪləwɑːt ˌaʊər/ &middot; *KIL-uh-waht ow-ur*
 **Русский:** киловатт-час
 **Plural:** *kilowatt-hours*
 **Countability:** countable
@@ -1898,7 +1898,7 @@ The unit of electrical resistance.
 
 ### horsepower
 
-**Pronunciation:** /ˈhɔːrsˌpaʊrr/ &middot; *HORS-pow-ur*
+**Pronunciation:** /ˈhɔːrsˌpaʊər/ &middot; *HORS-pow-ur*
 **Русский:** лошадиная сила
 **Countability:** uncountable
 **Contrast:** It stays horsepower after a number, never horsepowers.

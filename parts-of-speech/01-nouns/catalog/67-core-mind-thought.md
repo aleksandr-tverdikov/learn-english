@@ -392,7 +392,7 @@ A fixed way of thinking that shapes how someone reacts.
 
 ### bias
 
-**Pronunciation:** /ˈbaɪrs/ &middot; *BY-uhs*
+**Pronunciation:** /ˈbaɪəs/ &middot; *BY-uhs*
 **Русский:** предвзятость, предубеждение
 **Plural:** *biases*
 **Countability:** countable

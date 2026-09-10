@@ -2830,7 +2830,7 @@ Strong dislike or hostility toward someone.
 
 ### anion
 
-**Pronunciation:** /ˈænaɪrn/ &middot; *AN-eye-uhn*
+**Pronunciation:** /ˈænaɪən/ &middot; *AN-eye-uhn*
 **Русский:** анион
 **Plural:** *anions*
 **Countability:** countable
@@ -2875,7 +2875,7 @@ The act of one country or city taking over territory and making it part of itsel
 
 ### annihilation
 
-**Pronunciation:** /əˌnaɪrˈleɪʃən/ &middot; *uh-nye-uh-LAY-shuhn*
+**Pronunciation:** /əˌnaɪəˈleɪʃən/ &middot; *uh-nye-uh-LAY-shuhn*
 **Русский:** уничтожение, истребление
 **Countability:** uncountable
 **Contrast:** The *h* is silent: uh-nye-uh-LAY-shuhn.
@@ -5028,7 +5028,7 @@ The study of how bullets and other projectiles travel.
 
 ### ballplayer
 
-**Pronunciation:** /ˈbɔːlpleɪrr/ &middot; *BAWL-play-ur*
+**Pronunciation:** /ˈbɔːlpleɪər/ &middot; *BAWL-play-ur*
 **Русский:** бейсболист, игрок в мяч
 **Plural:** *ballplayers*
 **Countability:** countable
@@ -5489,7 +5489,7 @@ The reddish rock that aluminum is made from.
 
 ### bayonet
 
-**Pronunciation:** /ˈbeɪrnɛt/ &middot; *BAY-uh-net*
+**Pronunciation:** /ˈbeɪənɛt/ &middot; *BAY-uh-net*
 **Русский:** штык
 **Plural:** *bayonets*
 **Countability:** countable
@@ -5985,7 +5985,7 @@ A test version of a program released to users before the final version.
 
 ### betrayal
 
-**Pronunciation:** /bɪˈtreɪrl/ &middot; *bih-TRAY-uhl*
+**Pronunciation:** /bɪˈtreɪəl/ &middot; *bih-TRAY-uhl*
 **Русский:** предательство, измена
 **Plural:** *betrayals*
 **Countability:** countable
@@ -6250,7 +6250,7 @@ A large natural region defined by its climate, plants, and animals.
 
 ### biometrics
 
-**Pronunciation:** /ˌbaɪrˈmɛtrɪks/ &middot; *by-uh-MET-riks*
+**Pronunciation:** /ˌbaɪəˈmɛtrɪks/ &middot; *by-uh-MET-riks*
 **Русский:** биометрия
 **Countability:** uncountable
 **Contrast:** Ends in -s but takes a singular verb: biometrics is faster than a passport check.
@@ -6280,7 +6280,7 @@ The removal of a small piece of tissue for medical testing.
 
 ### biosphere
 
-**Pronunciation:** /ˈbaɪrsfɪr/ &middot; *BY-uh-sfeer*
+**Pronunciation:** /ˈbaɪəsfɪr/ &middot; *BY-uh-sfeer*
 **Русский:** биосфера
 **Countability:** uncountable
 
@@ -7085,7 +7085,7 @@ An increase or improvement that helps something.
 
 ### borrower
 
-**Pronunciation:** /ˈbɑːroʊrr/ &middot; *BAH-roh-ur*
+**Pronunciation:** /ˈbɑːroʊər/ &middot; *BAH-roh-ur*
 **Русский:** заёмщик
 **Plural:** *borrowers*
 **Countability:** countable
@@ -7607,7 +7607,7 @@ A bar or restaurant that brews its own beer on the premises.
 
 ### briar
 
-**Pronunciation:** /ˈbraɪrr/ &middot; *BRY-ur*
+**Pronunciation:** /ˈbraɪər/ &middot; *BRY-ur*
 **Русский:** колючий кустарник, шиповник
 **Plural:** *briars*
 **Countability:** countable
@@ -7623,7 +7623,7 @@ A prickly bush, or one of its thorny stems.
 
 ### bricklayer
 
-**Pronunciation:** /ˈbrɪkˌleɪrr/ &middot; *BRIK-lay-ur*
+**Pronunciation:** /ˈbrɪkˌleɪər/ &middot; *BRIK-lay-ur*
 **Русский:** каменщик
 **Plural:** *bricklayers*
 **Countability:** countable
@@ -8108,7 +8108,7 @@ In baseball, a hit made by holding the bat still so the ball rolls a short dista
 
 ### buoyancy
 
-**Pronunciation:** /ˈbɔɪrnsi/ &middot; *BOY-uhn-see*
+**Pronunciation:** /ˈbɔɪənsi/ &middot; *BOY-uhn-see*
 **Русский:** плавучесть, выталкивающая сила
 **Countability:** uncountable
 

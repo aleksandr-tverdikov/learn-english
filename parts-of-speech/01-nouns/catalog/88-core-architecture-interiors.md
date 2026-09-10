@@ -2050,7 +2050,7 @@ Hard reddish-brown baked clay used for tiles, pots, and building trim.
 
 ### wrought iron
 
-**Pronunciation:** /ˌrɔːt ˈaɪrrn/ &middot; *rawt-EYE-urn*
+**Pronunciation:** /ˌrɔːt ˈaɪərn/ &middot; *rawt-EYE-urn*
 **Русский:** кованое железо
 **Countability:** uncountable
 **Contrast:** 'Wrought' has a silent w and rhymes with 'thought'; 'iron' is said EYE-urn.

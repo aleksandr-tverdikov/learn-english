@@ -161,7 +161,7 @@ A senior person who helps run a company and makes the big decisions.
 
 ### supplier
 
-**Pronunciation:** /səˈplaɪrr/ &middot; *suh-PLY-ur*
+**Pronunciation:** /səˈplaɪər/ &middot; *suh-PLY-ur*
 **Русский:** поставщик
 **Plural:** *suppliers*
 **Countability:** countable
@@ -221,7 +221,7 @@ A company that makes goods in large quantities.
 
 ### buyer
 
-**Pronunciation:** /ˈbaɪrr/ &middot; *BY-ur*
+**Pronunciation:** /ˈbaɪər/ &middot; *BY-ur*
 **Русский:** покупатель; закупщик
 **Plural:** *buyers*
 **Countability:** countable
@@ -760,7 +760,7 @@ The person who started a company or organization.
 
 ### proprietor
 
-**Pronunciation:** /prəˈpraɪrtər/ &middot; *pruh-PRY-uh-tur*
+**Pronunciation:** /prəˈpraɪətər/ &middot; *pruh-PRY-uh-tur*
 **Русский:** владелец, собственник (заведения)
 **Plural:** *proprietors*
 **Countability:** countable
@@ -914,7 +914,7 @@ Someone who buys and sells goods, stocks, or currency.
 
 ### clientele
 
-**Pronunciation:** /ˌklaɪrnˈtɛl/ &middot; *kly-un-TEL*
+**Pronunciation:** /ˌklaɪənˈtɛl/ &middot; *kly-un-TEL*
 **Русский:** клиентура, круг клиентов
 **Countability:** uncountable
 
@@ -1924,7 +1924,7 @@ The gradual introduction of a new product or system.
 
 ### compliance
 
-**Pronunciation:** /kəmˈplaɪrns/ &middot; *kum-PLY-uns*
+**Pronunciation:** /kəmˈplaɪəns/ &middot; *kum-PLY-uns*
 **Русский:** соблюдение норм и правил
 **Countability:** uncountable
 

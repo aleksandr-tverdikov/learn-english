@@ -1362,7 +1362,7 @@ The long tube below the stomach where food is digested and absorbed.
 
 ### bowel
 
-**Pronunciation:** /ˈbaʊrl/ &middot; *BOW-ul*
+**Pronunciation:** /ˈbaʊəl/ &middot; *BOW-ul*
 **Русский:** кишечник
 **Plural:** *bowels*
 **Countability:** countable
@@ -1849,7 +1849,7 @@ The main part of the large intestine.
 
 ### diaphragm
 
-**Pronunciation:** /ˈdaɪrfræm/ &middot; *DY-uh-fram*
+**Pronunciation:** /ˈdaɪəfræm/ &middot; *DY-uh-fram*
 **Русский:** диафрагма
 **Plural:** *diaphragms*
 **Countability:** countable

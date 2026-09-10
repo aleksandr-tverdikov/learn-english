@@ -1450,7 +1450,7 @@ Someone who rescues people from danger or from sin.
 
 ### messiah
 
-**Pronunciation:** /məˈsaɪr/ &middot; *muh-SY-uh*
+**Pronunciation:** /məˈsaɪə/ &middot; *muh-SY-uh*
 **Русский:** мессия
 **Plural:** *messiahs*
 **Countability:** countable

@@ -238,7 +238,7 @@ A serious infection that fills the lungs with fluid.
 
 ### diarrhea
 
-**Pronunciation:** /ˌdaɪrˈriːə/ &middot; *dy-uh-REE-uh*
+**Pronunciation:** /ˌdaɪəˈriːə/ &middot; *dy-uh-REE-uh*
 **Русский:** диарея, понос
 **Countability:** uncountable
 **Contrast:** Spelled *diarrhea* in the US, *diarrhoea* in Britain.
@@ -462,7 +462,7 @@ A mental illness marked by lasting sadness and loss of interest.
 
 ### anxiety
 
-**Pronunciation:** /æŋˈzaɪrti/ &middot; *ang-ZY-uh-tee*
+**Pronunciation:** /æŋˈzaɪəti/ &middot; *ang-ZY-uh-tee*
 **Русский:** тревога, тревожность
 **Countability:** uncountable
 **Contrast:** The x sounds like /ɡz/ — ang-ZY-uh-tee, not ank-SY-uh-tee.
@@ -1479,7 +1479,7 @@ A doctor who treats children.
 
 ### psychiatrist
 
-**Pronunciation:** /səˈkaɪrtrɪst/ &middot; *suh-KY-uh-trist*
+**Pronunciation:** /səˈkaɪətrɪst/ &middot; *suh-KY-uh-trist*
 **Русский:** психиатр
 **Plural:** *psychiatrists*
 **Countability:** countable
@@ -1753,7 +1753,7 @@ The practice of keeping clean in order to stay healthy.
 
 ### diet
 
-**Pronunciation:** /ˈdaɪrt/ &middot; *DY-uht*
+**Pronunciation:** /ˈdaɪət/ &middot; *DY-uht*
 **Русский:** рацион, питание; диета
 **Plural:** *diets*
 **Countability:** countable

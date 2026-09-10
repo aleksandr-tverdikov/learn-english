@@ -1278,7 +1278,7 @@ A railroad car with comfortable chairs where drinks and snacks are sold.
 
 ### quiet car
 
-**Pronunciation:** /ˈkwaɪrt ˌkɑːr/ &middot; *KWY-uht KAHR*
+**Pronunciation:** /ˈkwaɪət ˌkɑːr/ &middot; *KWY-uht KAHR*
 **Русский:** «тихий» вагон
 **Plural:** *quiet cars*
 **Countability:** countable
@@ -1414,7 +1414,7 @@ The angled frame on the front of a locomotive that pushes obstacles off the trac
 
 ### firebox
 
-**Pronunciation:** /ˈfaɪrrbɑːks/ &middot; *FYR-bahks*
+**Pronunciation:** /ˈfaɪərbɑːks/ &middot; *FYR-bahks*
 **Русский:** топка паровоза
 **Plural:** *fireboxes*
 **Countability:** countable
@@ -1628,7 +1628,7 @@ The electrified rail beside the track that powers a subway or commuter train.
 
 ### overhead wire
 
-**Pronunciation:** /ˌoʊvərˈhɛd ˌwaɪrr/ &middot; *oh-vur-HED WYR*
+**Pronunciation:** /ˌoʊvərˈhɛd ˌwaɪər/ &middot; *oh-vur-HED WYR*
 **Русский:** контактный провод
 **Plural:** *overhead wires*
 **Countability:** countable

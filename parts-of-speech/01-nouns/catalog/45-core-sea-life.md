@@ -27,7 +27,7 @@ A small sea mammal like a dolphin but shorter, with a blunt nose.
 
 ### sea lion
 
-**Pronunciation:** /ˈsiː ˌlaɪrn/ &middot; *SEE-ly-uhn*
+**Pronunciation:** /ˈsiː ˌlaɪən/ &middot; *SEE-ly-uhn*
 **Русский:** морской лев
 **Plural:** *sea lions*
 **Countability:** countable
@@ -687,7 +687,7 @@ A fish that blows itself up into a spiny ball when it is threatened.
 
 ### lionfish
 
-**Pronunciation:** /ˈlaɪrnfɪʃ/ &middot; *LY-uhn-fish*
+**Pronunciation:** /ˈlaɪənfɪʃ/ &middot; *LY-uhn-fish*
 **Русский:** крылатка
 **Plural:** *lionfish*
 **Countability:** countable

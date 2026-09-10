@@ -862,7 +862,7 @@ The American school subject combining history, geography, and government.
 
 ### computer science
 
-**Pronunciation:** /kəmˈpjuːtər ˌsaɪrns/ &middot; *kuhm-PYOO-tur-SY-uhnss*
+**Pronunciation:** /kəmˈpjuːtər ˌsaɪəns/ &middot; *kuhm-PYOO-tur-SY-uhnss*
 **Русский:** информатика
 **Countability:** uncountable
 

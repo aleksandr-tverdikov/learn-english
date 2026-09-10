@@ -41,7 +41,7 @@ A tall plant with a woody trunk and branches.
 
 ### flower
 
-**Pronunciation:** /ˈflaʊrr/ &middot; *FLOW-ur*
+**Pronunciation:** /ˈflaʊər/ &middot; *FLOW-ur*
 **Русский:** цветок
 **Plural:** *flowers*
 **Countability:** countable
@@ -440,7 +440,7 @@ A plant with thick fleshy leaves that store water.
 
 ### flowerpot
 
-**Pronunciation:** /ˈflaʊrrpɑːt/ &middot; *FLOW-ur-paht*
+**Pronunciation:** /ˈflaʊərpɑːt/ &middot; *FLOW-ur-paht*
 **Русский:** цветочный горшок
 **Plural:** *flowerpots*
 **Countability:** countable
@@ -455,7 +455,7 @@ A container, usually round, for growing a plant in.
 
 ### flower bed
 
-**Pronunciation:** /ˈflaʊrr bɛd/ &middot; *FLOW-ur bed*
+**Pronunciation:** /ˈflaʊər bɛd/ &middot; *FLOW-ur bed*
 **Русский:** клумба
 **Plural:** *flower beds*
 **Countability:** countable
@@ -543,7 +543,7 @@ A chemical used to kill insects and other pests on plants.
 
 ### lawn mower
 
-**Pronunciation:** /ˈlɔːn moʊrr/ &middot; *LAWN moh-ur*
+**Pronunciation:** /ˈlɔːn moʊər/ &middot; *LAWN moh-ur*
 **Русский:** газонокосилка
 **Plural:** *lawn mowers*
 **Countability:** countable
@@ -588,7 +588,7 @@ A tool with a flat blade on a long handle, used for breaking soil and cutting we
 
 ### trowel
 
-**Pronunciation:** /ˈtraʊrl/ &middot; *TROW-uhl*
+**Pronunciation:** /ˈtraʊəl/ &middot; *TROW-uhl*
 **Русский:** садовый совок
 **Plural:** *trowels*
 **Countability:** countable
@@ -861,7 +861,7 @@ A yellow spring flower with a trumpet-shaped center, grown from a bulb.
 
 ### violet
 
-**Pronunciation:** /ˈvaɪrlət/ &middot; *VY-uh-lit*
+**Pronunciation:** /ˈvaɪələt/ &middot; *VY-uh-lit*
 **Русский:** фиалка
 **Plural:** *violets*
 **Countability:** countable
@@ -935,7 +935,7 @@ A low bush with narrow gray-green leaves and fragrant purple flowers.
 
 ### dandelion
 
-**Pronunciation:** /ˈdændəlaɪrn/ &middot; *DAN-duh-ly-uhn*
+**Pronunciation:** /ˈdændəlaɪən/ &middot; *DAN-duh-ly-uhn*
 **Русский:** одуванчик
 **Plural:** *dandelions*
 **Countability:** countable
@@ -965,7 +965,7 @@ A low plant with three round leaves on each stem, common in lawns.
 
 ### wildflower
 
-**Pronunciation:** /ˈwaɪldflaʊrr/ &middot; *WYLD-flow-ur*
+**Pronunciation:** /ˈwaɪldflaʊər/ &middot; *WYLD-flow-ur*
 **Русский:** полевой цветок
 **Plural:** *wildflowers*
 **Countability:** countable

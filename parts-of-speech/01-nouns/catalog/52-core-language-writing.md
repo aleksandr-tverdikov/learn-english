@@ -470,7 +470,7 @@ A small group of words that work together but do not make a full sentence.
 
 ### modifier
 
-**Pronunciation:** /ˈmɑːdɪfaɪrr/ &middot; *MAH-duh-fy-ur*
+**Pronunciation:** /ˈmɑːdɪfaɪər/ &middot; *MAH-duh-fy-ur*
 **Русский:** определение, зависимое слово
 **Plural:** *modifiers*
 **Countability:** countable
@@ -741,7 +741,7 @@ A single beat of sound in a word.
 
 ### vowel
 
-**Pronunciation:** /ˈvaʊrl/ &middot; *VOW-uhl*
+**Pronunciation:** /ˈvaʊəl/ &middot; *VOW-uhl*
 **Русский:** гласный (звук или буква)
 **Plural:** *vowels*
 **Countability:** countable
@@ -844,7 +844,7 @@ The large form of letters, such as A and B.
 
 ### lowercase
 
-**Pronunciation:** /ˈloʊrrkeɪs/ &middot; *LOH-ur-kays*
+**Pronunciation:** /ˈloʊərkeɪs/ &middot; *LOH-ur-kays*
 **Русский:** строчные буквы, нижний регистр
 **Countability:** uncountable
 
@@ -1040,7 +1040,7 @@ The special vocabulary of a trade or profession, hard for outsiders to follow.
 
 ### dialect
 
-**Pronunciation:** /ˈdaɪrlɛkt/ &middot; *DY-uh-lekt*
+**Pronunciation:** /ˈdaɪəlɛkt/ &middot; *DY-uh-lekt*
 **Русский:** диалект, говор
 **Plural:** *dialects*
 **Countability:** countable

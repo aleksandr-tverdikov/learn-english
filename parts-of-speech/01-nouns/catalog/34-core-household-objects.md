@@ -26,7 +26,7 @@ An appliance that washes clothes.
 
 ### dryer
 
-**Pronunciation:** /ˈdraɪrr/ &middot; *DRY-ur*
+**Pronunciation:** /ˈdraɪər/ &middot; *DRY-ur*
 **Русский:** сушильная машина
 **Plural:** *dryers*
 **Countability:** countable

@@ -873,7 +873,7 @@ A stringed instrument with a long neck, played with the fingers or a pick.
 
 ### violin
 
-**Pronunciation:** /ˌvaɪrˈlɪn/ &middot; *vy-uh-LIN*
+**Pronunciation:** /ˌvaɪəˈlɪn/ &middot; *vy-uh-LIN*
 **Русский:** скрипка
 **Plural:** *violins*
 **Countability:** countable
@@ -1212,7 +1212,7 @@ A device that picks up sound so it can be made louder or recorded.
 
 ### amplifier
 
-**Pronunciation:** /ˈæmplɪfaɪrr/ &middot; *AM-plih-fy-ur*
+**Pronunciation:** /ˈæmplɪfaɪər/ &middot; *AM-plih-fy-ur*
 **Русский:** усилитель
 **Plural:** *amplifiers*
 **Countability:** countable
@@ -2093,7 +2093,7 @@ A musician who plays the piano.
 
 ### violinist
 
-**Pronunciation:** /ˌvaɪrˈlɪnɪst/ &middot; *vy-uh-LIN-ist*
+**Pronunciation:** /ˌvaɪəˈlɪnɪst/ &middot; *vy-uh-LIN-ist*
 **Русский:** скрипач
 **Plural:** *violinists*
 **Countability:** countable

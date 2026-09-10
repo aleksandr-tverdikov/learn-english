@@ -1980,7 +1980,7 @@ A small clip for holding washing on a line.
 
 ### ironing
 
-**Pronunciation:** /ˈaɪrrnɪŋ/ &middot; *EYE-ur-ning*
+**Pronunciation:** /ˈaɪərnɪŋ/ &middot; *EYE-ur-ning*
 **Русский:** глажка, глаженье
 **Countability:** uncountable
 **Contrast:** *Iron* is said EYE-urn, not eye-RON, so this is EYE-ur-ning.

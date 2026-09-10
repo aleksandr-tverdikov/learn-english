@@ -752,7 +752,7 @@ Something valuable that a person or company owns.
 
 ### liability
 
-**Pronunciation:** /ˌlaɪrˈbɪləti/ &middot; *ly-uh-BIL-uh-tee*
+**Pronunciation:** /ˌlaɪəˈbɪləti/ &middot; *ly-uh-BIL-uh-tee*
 **Русский:** обязательство, пассив
 **Plural:** *liabilities*
 **Countability:** countable
@@ -1202,7 +1202,7 @@ Regular money paid to someone after they stop working.
 
 ### retirement
 
-**Pronunciation:** /rɪˈtaɪrrmənt/ &middot; *rih-TY-ur-muhnt*
+**Pronunciation:** /rɪˈtaɪərmənt/ &middot; *rih-TY-ur-muhnt*
 **Русский:** выход на пенсию; пенсионный период
 **Countability:** uncountable
 
@@ -1698,7 +1698,7 @@ Money or services given by an employer or the government beyond wages.
 
 ### allowance
 
-**Pronunciation:** /əˈlaʊrns/ &middot; *uh-LOW-uhns*
+**Pronunciation:** /əˈlaʊəns/ &middot; *uh-LOW-uhns*
 **Русский:** карманные деньги; денежное содержание
 **Plural:** *allowances*
 **Countability:** countable

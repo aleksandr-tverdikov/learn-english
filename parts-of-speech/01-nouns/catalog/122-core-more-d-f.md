@@ -58,7 +58,7 @@ A cold cocktail made with rum, lime juice, and sugar.
 
 ### dais
 
-**Pronunciation:** /ˈdeɪrs/ &middot; *DAY-uhs*
+**Pronunciation:** /ˈdeɪəs/ &middot; *DAY-uhs*
 **Русский:** помост, возвышение (для выступающих)
 **Plural:** *daises*
 **Countability:** countable
@@ -458,7 +458,7 @@ Polite respect that leads you to accept someone else's wishes or judgment.
 
 ### defiance
 
-**Pronunciation:** /dɪˈfaɪrns/ &middot; *dih-FY-uhns*
+**Pronunciation:** /dɪˈfaɪəns/ &middot; *dih-FY-uhns*
 **Русский:** неповиновение, вызов
 **Countability:** uncountable
 
@@ -810,7 +810,7 @@ A tropical disease spread by mosquitoes that causes fever and joint pain.
 
 ### denial
 
-**Pronunciation:** /dɪˈnaɪrl/ &middot; *dih-NY-ul*
+**Pronunciation:** /dɪˈnaɪəl/ &middot; *dih-NY-ul*
 **Русский:** отрицание, опровержение
 **Plural:** *denials*
 **Countability:** countable
@@ -1336,7 +1336,7 @@ A simple sugar used in food and in medical drips.
 
 ### diabetic
 
-**Pronunciation:** /ˌdaɪrˈbɛtɪk/ &middot; *dy-uh-BET-ik*
+**Pronunciation:** /ˌdaɪəˈbɛtɪk/ &middot; *dy-uh-BET-ik*
 **Русский:** диабетик
 **Plural:** *diabetics*
 **Countability:** countable
@@ -1409,7 +1409,7 @@ The act of speaking words aloud for someone or something to write down.
 
 ### dietitian
 
-**Pronunciation:** /ˌdaɪrˈtɪʃən/ &middot; *dy-uh-TISH-un*
+**Pronunciation:** /ˌdaɪəˈtɪʃən/ &middot; *dy-uh-TISH-un*
 **Русский:** диетолог
 **Plural:** *dietitians*
 **Countability:** countable
@@ -1614,7 +1614,7 @@ A large reptile that lived millions of years ago and is now extinct.
 
 ### diocese
 
-**Pronunciation:** /ˈdaɪrsɪs/ &middot; *DY-uh-sis*
+**Pronunciation:** /ˈdaɪəsɪs/ &middot; *DY-uh-sis*
 **Русский:** епархия
 **Plural:** *dioceses*
 **Countability:** countable
@@ -2032,7 +2032,7 @@ An injury in which a bone is pushed out of its joint.
 
 ### disloyalty
 
-**Pronunciation:** /dɪsˈlɔɪrlti/ &middot; *dis-LOY-ul-tee*
+**Pronunciation:** /dɪsˈlɔɪəlti/ &middot; *dis-LOY-ul-tee*
 **Русский:** нелояльность, предательство
 **Countability:** uncountable
 
@@ -2753,7 +2753,7 @@ A person who takes an actor's place in dangerous or difficult scenes.
 
 ### dowel
 
-**Pronunciation:** /ˈdaʊrl/ &middot; *DOW-uhl*
+**Pronunciation:** /ˈdaʊəl/ &middot; *DOW-uhl*
 **Русский:** шкант, деревянный штырь
 **Plural:** *dowels*
 **Countability:** countable
@@ -4128,7 +4128,7 @@ Copying the way something else works or behaves.
 
 ### emulsifier
 
-**Pronunciation:** /ɪˈmʌlsəfaɪrr/ &middot; *ih-MUHL-suh-fy-ur*
+**Pronunciation:** /ɪˈmʌlsəfaɪər/ &middot; *ih-MUHL-suh-fy-ur*
 **Русский:** эмульгатор
 **Plural:** *emulsifiers*
 **Countability:** countable
@@ -4484,7 +4484,7 @@ Someone who is very interested in a particular activity.
 
 ### entirety
 
-**Pronunciation:** /ɪnˈtaɪrrti/ &middot; *in-TY-ur-tee*
+**Pronunciation:** /ɪnˈtaɪərti/ &middot; *in-TY-ur-tee*
 **Русский:** полный объём, целое
 **Countability:** uncountable
 
@@ -6957,7 +6957,7 @@ A conclusion reached by a study, investigation, or court.
 
 ### fire
 
-**Pronunciation:** /ˈfaɪrr/ &middot; *FY-ur*
+**Pronunciation:** /ˈfaɪər/ &middot; *FY-ur*
 **Русский:** огонь; пожар
 **Plural:** *fires*
 **Countability:** both — countable and uncountable with different meanings
@@ -6972,7 +6972,7 @@ Burning flame and heat, or a single event in which something burns and causes da
 
 ### fireball
 
-**Pronunciation:** /ˈfaɪrrbɔːl/ &middot; *FY-ur-bawl*
+**Pronunciation:** /ˈfaɪərbɔːl/ &middot; *FY-ur-bawl*
 **Русский:** огненный шар
 **Plural:** *fireballs*
 **Countability:** countable
@@ -6987,7 +6987,7 @@ A large ball of flame, often from an explosion or a meteor.
 
 ### firebreak
 
-**Pronunciation:** /ˈfaɪrrbreɪk/ &middot; *FY-ur-brayk*
+**Pronunciation:** /ˈfaɪərbreɪk/ &middot; *FY-ur-brayk*
 **Русский:** противопожарная полоса
 **Plural:** *firebreaks*
 **Countability:** countable
@@ -7002,7 +7002,7 @@ A cleared strip of land made to stop a wildfire from spreading.
 
 ### firepower
 
-**Pronunciation:** /ˈfaɪrrˌpaʊrr/ &middot; *FY-ur-pow-ur*
+**Pronunciation:** /ˈfaɪərˌpaʊər/ &middot; *FY-ur-pow-ur*
 **Русский:** огневая мощь
 **Countability:** uncountable
 
@@ -7016,7 +7016,7 @@ The destructive capacity of the weapons a force has, or, loosely, a team's offen
 
 ### firestorm
 
-**Pronunciation:** /ˈfaɪrrstɔːrm/ &middot; *FY-ur-storm*
+**Pronunciation:** /ˈfaɪərstɔːrm/ &middot; *FY-ur-storm*
 **Русский:** буря негодования; огненный смерч
 **Plural:** *firestorms*
 **Countability:** countable
@@ -7208,7 +7208,7 @@ A Spanish style of guitar music, singing, and dancing with sharp footwork.
 
 ### flamethrower
 
-**Pronunciation:** /ˈfleɪmˌθroʊrr/ &middot; *FLAYM-throh-ur*
+**Pronunciation:** /ˈfleɪmˌθroʊər/ &middot; *FLAYM-throh-ur*
 **Русский:** огнемёт
 **Plural:** *flamethrowers*
 **Countability:** countable
@@ -8338,7 +8338,7 @@ One of the metal bars across the neck of a guitar that mark where to press the s
 
 ### friar
 
-**Pronunciation:** /ˈfraɪrr/ &middot; *FRY-ur*
+**Pronunciation:** /ˈfraɪər/ &middot; *FRY-ur*
 **Русский:** монах (нищенствующего ордена)
 **Plural:** *friars*
 **Countability:** countable
@@ -8533,7 +8533,7 @@ The point at which a plan or hope finally becomes real.
 
 ### fryer
 
-**Pronunciation:** /ˈfraɪrr/ &middot; *FRY-ur*
+**Pronunciation:** /ˈfraɪər/ &middot; *FRY-ur*
 **Русский:** фритюрница
 **Plural:** *fryers*
 **Countability:** countable

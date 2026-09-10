@@ -163,7 +163,7 @@ The side arguing that an accused person is guilty, or the act of bringing someon
 
 ### trial
 
-**Pronunciation:** /ˈtraɪrl/ &middot; *TRY-uhl*
+**Pronunciation:** /ˈtraɪəl/ &middot; *TRY-uhl*
 **Русский:** судебный процесс
 **Plural:** *trials*
 **Countability:** countable
@@ -1225,7 +1225,7 @@ The use of violence against civilians to frighten people for political ends.
 
 ### riot
 
-**Pronunciation:** /ˈraɪrt/ &middot; *RY-uht*
+**Pronunciation:** /ˈraɪət/ &middot; *RY-uht*
 **Русский:** массовые беспорядки, бунт
 **Plural:** *riots*
 **Countability:** countable
@@ -1269,7 +1269,7 @@ An attack on someone in a public place in order to rob them.
 
 ### violation
 
-**Pronunciation:** /ˌvaɪrˈleɪʃən/ &middot; *vy-uh-LAY-shun*
+**Pronunciation:** /ˌvaɪəˈleɪʃən/ &middot; *vy-uh-LAY-shun*
 **Русский:** нарушение (закона, правила)
 **Plural:** *violations*
 **Countability:** countable

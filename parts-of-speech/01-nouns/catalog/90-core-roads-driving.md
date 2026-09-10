@@ -1060,7 +1060,7 @@ The police force responsible for traffic on a state's highways.
 
 ### moving violation
 
-**Pronunciation:** /ˌmuːvɪŋ ˌvaɪrˈleɪʃən/ &middot; *MOO-ving-vy-uh-LAY-shuhn*
+**Pronunciation:** /ˌmuːvɪŋ ˌvaɪəˈleɪʃən/ &middot; *MOO-ving-vy-uh-LAY-shuhn*
 **Русский:** нарушение ПДД в движении
 **Plural:** *moving violations*
 **Countability:** countable
@@ -1120,7 +1120,7 @@ A device that measures alcohol in a driver's breath.
 
 ### sobriety test
 
-**Pronunciation:** /səˈbraɪrti tɛst/ &middot; *suh-BRY-uh-tee-test*
+**Pronunciation:** /səˈbraɪəti tɛst/ &middot; *suh-BRY-uh-tee-test*
 **Русский:** проверка на трезвость
 **Plural:** *sobriety tests*
 **Countability:** countable
@@ -1552,7 +1552,7 @@ The gap a driver keeps behind the vehicle in front.
 
 ### flat tire
 
-**Pronunciation:** /ˌflæt ˈtaɪrr/ &middot; *flat-TYR*
+**Pronunciation:** /ˌflæt ˈtaɪər/ &middot; *flat-TYR*
 **Русский:** спущенное колесо, прокол
 **Plural:** *flat tires*
 **Countability:** countable
@@ -1597,7 +1597,7 @@ A service that comes to help drivers who break down.
 
 ### tire pressure
 
-**Pronunciation:** /ˈtaɪrr ˌprɛʃər/ &middot; *TYR-presh-ur*
+**Pronunciation:** /ˈtaɪər ˌprɛʃər/ &middot; *TYR-presh-ur*
 **Русский:** давление в шинах
 **Countability:** uncountable
 

@@ -882,7 +882,7 @@ A small wig worn by a man to cover a bald patch.
 
 ### blow dryer
 
-**Pronunciation:** /ˈbloʊ ˌdraɪrr/ &middot; *BLOH dry-ur*
+**Pronunciation:** /ˈbloʊ ˌdraɪər/ &middot; *BLOH dry-ur*
 **Русский:** фен
 **Plural:** *blow dryers*
 **Countability:** countable
@@ -913,7 +913,7 @@ A salon service in which the hair is washed and dried smooth with a brush and dr
 
 ### curling iron
 
-**Pronunciation:** /ˈkɜːrlɪŋ ˌaɪrrn/ &middot; *KUR-ling EYE-urn*
+**Pronunciation:** /ˈkɜːrlɪŋ ˌaɪərn/ &middot; *KUR-ling EYE-urn*
 **Русский:** плойка
 **Plural:** *curling irons*
 **Countability:** countable
@@ -929,7 +929,7 @@ A heated rod used to put curls into hair.
 
 ### flat iron
 
-**Pronunciation:** /ˈflæt ˌaɪrrn/ &middot; *FLAT EYE-urn*
+**Pronunciation:** /ˈflæt ˌaɪərn/ &middot; *FLAT EYE-urn*
 **Русский:** утюжок для волос
 **Plural:** *flat irons*
 **Countability:** countable

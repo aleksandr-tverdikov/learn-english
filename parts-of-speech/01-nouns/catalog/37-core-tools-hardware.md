@@ -451,7 +451,7 @@ Thick cord made by twisting fibers together.
 
 ### wire
 
-**Pronunciation:** /ˈwaɪrr/ &middot; *WY-ur*
+**Pronunciation:** /ˈwaɪər/ &middot; *WY-ur*
 **Русский:** проволока; провод
 **Plural:** *wires*
 **Countability:** countable, and uncountable as a substance

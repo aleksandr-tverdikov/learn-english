@@ -408,7 +408,7 @@ A room where someone works at a desk.
 
 ### foyer
 
-**Pronunciation:** /ˈfɔɪrr/ &middot; *FOY-ur*
+**Pronunciation:** /ˈfɔɪər/ &middot; *FOY-ur*
 **Русский:** прихожая, фойе
 **Plural:** *foyers*
 **Countability:** countable
@@ -727,7 +727,7 @@ A vertical pipe or structure that carries smoke up out of a building.
 
 ### fireplace
 
-**Pronunciation:** /ˈfaɪrrpleɪs/ &middot; *FYR-plays*
+**Pronunciation:** /ˈfaɪərpleɪs/ &middot; *FYR-plays*
 **Русский:** камин
 **Plural:** *fireplaces*
 **Countability:** countable
@@ -1274,7 +1274,7 @@ A long container you fill with water and sit in to wash.
 
 ### shower
 
-**Pronunciation:** /ˈʃaʊrr/ &middot; *SHOW-ur*
+**Pronunciation:** /ˈʃaʊər/ &middot; *SHOW-ur*
 **Русский:** душ
 **Plural:** *showers*
 **Countability:** countable

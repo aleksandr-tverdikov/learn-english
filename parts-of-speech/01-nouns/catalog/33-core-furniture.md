@@ -864,7 +864,7 @@ A small mat set under each person's plate at the table.
 
 ### towel
 
-**Pronunciation:** /ˈtaʊrl/ &middot; *TOW-uhl*
+**Pronunciation:** /ˈtaʊəl/ &middot; *TOW-uhl*
 **Русский:** полотенце
 **Plural:** *towels*
 **Countability:** countable

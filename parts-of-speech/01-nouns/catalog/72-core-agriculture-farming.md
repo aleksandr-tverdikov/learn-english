@@ -1114,7 +1114,7 @@ A machine that presses hay or straw into tight bundles and ties them.
 
 ### mower
 
-**Pronunciation:** /ˈmoʊrr/ &middot; *MOH-ur*
+**Pronunciation:** /ˈmoʊər/ &middot; *MOH-ur*
 **Русский:** косилка
 **Plural:** *mowers*
 **Countability:** countable
@@ -1189,7 +1189,7 @@ A small machine with turning blades that breaks up garden or field soil.
 
 ### sprayer
 
-**Pronunciation:** /ˈspreɪrr/ &middot; *SPRAY-ur*
+**Pronunciation:** /ˈspreɪər/ &middot; *SPRAY-ur*
 **Русский:** опрыскиватель
 **Plural:** *sprayers*
 **Countability:** countable
@@ -1964,7 +1964,7 @@ Someone paid to do work on a farm.
 
 ### hired hand
 
-**Pronunciation:** /ˌhaɪrrd ˈhænd/ &middot; *hyrd HAND*
+**Pronunciation:** /ˌhaɪərd ˈhænd/ &middot; *hyrd HAND*
 **Русский:** наёмный работник (на ферме)
 **Plural:** *hired hands*
 **Countability:** countable
@@ -1979,7 +1979,7 @@ A worker paid to help on a farm or ranch, often seasonally.
 
 ### grower
 
-**Pronunciation:** /ˈɡroʊrr/ &middot; *GROH-ur*
+**Pronunciation:** /ˈɡroʊər/ &middot; *GROH-ur*
 **Русский:** производитель сельхозпродукции, растениевод
 **Plural:** *growers*
 **Countability:** countable
@@ -2131,7 +2131,7 @@ The part of the year warm enough for crops to grow.
 
 ### barbed wire
 
-**Pronunciation:** /ˌbɑːrbd ˈwaɪrr/ &middot; *barbd WYRE*
+**Pronunciation:** /ˌbɑːrbd ˈwaɪər/ &middot; *barbd WYRE*
 **Русский:** колючая проволока
 **Countability:** uncountable
 **Contrast:** *Barbed* is one syllable — BARBD — even though it is spelled with -ed.
@@ -2146,7 +2146,7 @@ Wire with sharp points twisted into it, strung to fence in livestock.
 
 ### chicken wire
 
-**Pronunciation:** /ˈtʃɪkən ˌwaɪrr/ &middot; *CHIK-uhn WYRE*
+**Pronunciation:** /ˈtʃɪkən ˌwaɪər/ &middot; *CHIK-uhn WYRE*
 **Русский:** сетка для птичника, мелкая сетка
 **Countability:** uncountable
 

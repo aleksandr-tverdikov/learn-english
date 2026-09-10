@@ -237,7 +237,7 @@ A short line of text printed under a photo or drawing to say what it shows.
 
 ### diagram
 
-**Pronunciation:** /ˈdaɪrɡræm/ &middot; *DY-uh-gram*
+**Pronunciation:** /ˈdaɪəɡræm/ &middot; *DY-uh-gram*
 **Русский:** схема, чертёж
 **Plural:** *diagrams*
 **Countability:** countable
@@ -655,7 +655,7 @@ A book in which someone writes about a period of their own life.
 
 ### poem
 
-**Pronunciation:** /ˈpoʊrm/ &middot; *POH-uhm*
+**Pronunciation:** /ˈpoʊəm/ &middot; *POH-uhm*
 **Русский:** стихотворение
 **Plural:** *poems*
 **Countability:** countable
@@ -670,7 +670,7 @@ A short piece of writing arranged in lines, often with rhythm or rhyme.
 
 ### poet
 
-**Pronunciation:** /ˈpoʊrt/ &middot; *POH-uht*
+**Pronunciation:** /ˈpoʊət/ &middot; *POH-uht*
 **Русский:** поэт
 **Plural:** *poets*
 **Countability:** countable
@@ -761,7 +761,7 @@ A single printed sheet handed out to give information or advertise something.
 
 ### flyer
 
-**Pronunciation:** /ˈflaɪrr/ &middot; *FLY-ur*
+**Pronunciation:** /ˈflaɪər/ &middot; *FLY-ur*
 **Русский:** листовка, флаер
 **Plural:** *flyers*
 **Countability:** countable
@@ -959,7 +959,7 @@ A version of a text put into another language.
 
 ### royalty
 
-**Pronunciation:** /ˈrɔɪrlti/ &middot; *ROY-uhl-tee*
+**Pronunciation:** /ˈrɔɪəlti/ &middot; *ROY-uhl-tee*
 **Русский:** авторские отчисления, роялти
 **Plural:** *royalties*
 **Countability:** countable

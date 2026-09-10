@@ -42,7 +42,7 @@ A unit of time equal to sixty seconds.
 
 ### hour
 
-**Pronunciation:** /ˈaʊrr/ &middot; *OW-ur*
+**Pronunciation:** /ˈaʊər/ &middot; *OW-ur*
 **Русский:** час
 **Plural:** *hours*
 **Countability:** countable
@@ -899,7 +899,7 @@ The order in which events happened, or a record of that order.
 
 ### diary
 
-**Pronunciation:** /ˈdaɪrri/ &middot; *DY-uh-ree*
+**Pronunciation:** /ˈdaɪəri/ &middot; *DY-uh-ree*
 **Русский:** дневник
 **Plural:** *diaries*
 **Countability:** countable
@@ -1309,7 +1309,7 @@ A watch used to measure exactly how long something takes.
 
 ### hourglass
 
-**Pronunciation:** /ˈaʊrrɡlæs/ &middot; *OW-ur-glas*
+**Pronunciation:** /ˈaʊərɡlæs/ &middot; *OW-ur-glas*
 **Русский:** песочные часы
 **Plural:** *hourglasses*
 **Countability:** countable
@@ -1325,7 +1325,7 @@ A glass timer in which sand runs from the top half into the bottom.
 
 ### sundial
 
-**Pronunciation:** /ˈsʌndaɪrl/ &middot; *SUN-dy-uhl*
+**Pronunciation:** /ˈsʌndaɪəl/ &middot; *SUN-dy-uhl*
 **Русский:** солнечные часы
 **Plural:** *sundials*
 **Countability:** countable
@@ -1355,7 +1355,7 @@ A hanging weight that swings back and forth, often to keep a clock running.
 
 ### dial
 
-**Pronunciation:** /ˈdaɪrl/ &middot; *DY-uhl*
+**Pronunciation:** /ˈdaɪəl/ &middot; *DY-uhl*
 **Русский:** циферблат; круглый регулятор
 **Plural:** *dials*
 **Countability:** countable

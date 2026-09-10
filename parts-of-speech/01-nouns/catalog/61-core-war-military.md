@@ -1339,7 +1339,7 @@ A very large warship with heavy guns and thick armor.
 
 ### destroyer
 
-**Pronunciation:** /dɪˈstrɔɪrr/ &middot; *dih-STROY-ur*
+**Pronunciation:** /dɪˈstrɔɪər/ &middot; *dih-STROY-ur*
 **Русский:** эсминец
 **Plural:** *destroyers*
 **Countability:** countable
@@ -1821,7 +1821,7 @@ A sudden violent bursting that throws out force and noise.
 
 ### gunfire
 
-**Pronunciation:** /ˈɡʌnfaɪrr/ &middot; *GUHN-fyr*
+**Pronunciation:** /ˈɡʌnfaɪər/ &middot; *GUHN-fyr*
 **Русский:** стрельба, огонь из оружия
 **Countability:** uncountable
 

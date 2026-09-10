@@ -32,9 +32,50 @@ import glob, json, os, re, sys
 
 CORE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'core')
 
-SUBS = [('ɒ', 'ɑː'), ('ɪə', 'ɪr'), ('eə', 'ɛr'), ('ʊə', 'ʊr')]
+# These must NOT fire across a syllable boundary. A blind str.replace of 'ɪə'
+# turns /ˈvaɪələns/ into /ˈvaɪrləns/, because PRICE + schwa contains the same two
+# symbols as British NEAR. The lookbehind requires that the ə is not the second
+# half of a preceding diphthong.
+SUBS = [(re.compile('ɒ'), 'ɑː'),
+        (re.compile('(?<![aɔe])ɪə'), 'ɪr'),
+        (re.compile('(?<![aoiu])eə'), 'ɛr'),
+        (re.compile('(?<![ao])ʊə'), 'ʊr')]
 DRESS = re.compile(r'e(?!ɪ)')   # bare e is the DRESS vowel; eɪ is left alone
 RHOTIC_SPELLING = re.compile(r'(er|or|ar|our|re)$', re.I)
+
+
+VOWELS = set('iɪeɛæaɑɒɔoʊuʌɜəyː')
+DIPH_R = re.compile(r'(aɪ|aʊ|oʊ|eɪ|ɔɪ)r')
+
+
+def undo_diphthong_damage(ipa):
+    """Repair transcriptions an earlier, blunter version of this script broke.
+
+    That version replaced 'ɪə' and 'ʊə' with str.replace, which also matched the
+    tail of /aɪə/, /aʊə/, /oʊə/ and /eɪə/. `fire` became /ˈfaɪrr/, `towel`
+    /ˈtaʊrl/, `lion` /ˈlaɪrn/, `society` /səˈsaɪrti/ — 287 entries in all.
+
+    The damage is decidable from the result alone. A diphthong followed by r and
+    then a consonant cannot occur in General American without an intervening
+    schwa, so:
+
+        Xrr + anything  ->  Xər   the schwa had a real r after it   (fire)
+        Xr  + consonant ->  Xə    the schwa itself became the r     (towel)
+        Xr  + vowel     ->  left alone; genuine (iris, spiral, environment)
+
+    Idempotent: correct transcriptions match none of these shapes.
+    """
+    out, i, n = [], 0, 0
+    while i < len(ipa):
+        m = DIPH_R.match(ipa, i)
+        if m:
+            nxt = ipa[m.end():m.end() + 1]
+            if nxt == 'r':
+                out.append(m.group(1) + 'ər'); n += 1; i = m.end() + 1; continue
+            if nxt == '' or nxt not in VOWELS:
+                out.append(m.group(1) + 'ə'); n += 1; i = m.end(); continue
+        out.append(ipa[i]); i += 1
+    return ''.join(out), n
 
 
 def stem(term):
@@ -58,8 +99,9 @@ def lint(path):
         ipa = (e.get('ipa') or '').strip().strip('/')
 
         before = ipa
-        for a, b in SUBS:
-            ipa = ipa.replace(a, b)
+        for pat, rep in SUBS:
+            ipa = pat.sub(rep, ipa)
+        ipa, _ = undo_diphthong_damage(ipa)
         ipa = DRESS.sub('ɛ', ipa)
         if ipa != before:
             fixed_ipa += 1

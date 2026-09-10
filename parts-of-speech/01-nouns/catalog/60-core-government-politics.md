@@ -410,7 +410,7 @@ A government in power, especially one seen as harsh or undemocratic.
 
 ### empire
 
-**Pronunciation:** /ˈɛmpaɪrr/ &middot; *EM-pyre*
+**Pronunciation:** /ˈɛmpaɪər/ &middot; *EM-pyre*
 **Русский:** империя
 **Plural:** *empires*
 **Countability:** countable
@@ -488,7 +488,7 @@ The elected head of a US state government.
 
 ### mayor
 
-**Pronunciation:** /ˈmeɪrr/ &middot; *MAY-ur*
+**Pronunciation:** /ˈmeɪər/ &middot; *MAY-ur*
 **Русский:** мэр
 **Plural:** *mayors*
 **Countability:** countable
@@ -734,7 +734,7 @@ A person who has the right to vote, or who votes in an election.
 
 ### taxpayer
 
-**Pronunciation:** /ˈtækspeɪrr/ &middot; *TAKS-pay-ur*
+**Pronunciation:** /ˈtækspeɪər/ &middot; *TAKS-pay-ur*
 **Русский:** налогоплательщик
 **Plural:** *taxpayers*
 **Countability:** countable
@@ -780,7 +780,7 @@ A person employed by the government who is not an elected official.
 
 ### whistleblower
 
-**Pronunciation:** /ˈwɪsəlbloʊrr/ &middot; *WISS-uhl-bloh-ur*
+**Pronunciation:** /ˈwɪsəlbloʊər/ &middot; *WISS-uhl-bloh-ur*
 **Русский:** информатор, разоблачитель (нарушений)
 **Plural:** *whistleblowers*
 **Countability:** countable
@@ -1292,7 +1292,7 @@ The work of managing relations between countries through talks rather than force
 
 ### alliance
 
-**Pronunciation:** /əˈlaɪrns/ &middot; *uh-LY-uhns*
+**Pronunciation:** /əˈlaɪəns/ &middot; *uh-LY-uhns*
 **Русский:** союз, альянс
 **Plural:** *alliances*
 **Countability:** countable
@@ -1307,7 +1307,7 @@ A formal agreement between countries or groups to work together.
 
 ### coalition
 
-**Pronunciation:** /ˌkoʊrˈlɪʃən/ &middot; *koh-uh-LISH-uhn*
+**Pronunciation:** /ˌkoʊəˈlɪʃən/ &middot; *koh-uh-LISH-uhn*
 **Русский:** коалиция
 **Plural:** *coalitions*
 **Countability:** countable
@@ -1382,7 +1382,7 @@ Land under the control of a government.
 
 ### ceasefire
 
-**Pronunciation:** /ˈsiːsfaɪrr/ &middot; *SEESS-fyre*
+**Pronunciation:** /ˈsiːsfaɪər/ &middot; *SEESS-fyre*
 **Русский:** прекращение огня
 **Plural:** *ceasefires*
 **Countability:** countable

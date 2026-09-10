@@ -41,7 +41,7 @@ A door kept clear so people can leave a building or vehicle quickly in danger.
 
 ### fire alarm
 
-**Pronunciation:** /ˈfaɪrr əˌlɑːrm/ &middot; *FYR uh-larm*
+**Pronunciation:** /ˈfaɪər əˌlɑːrm/ &middot; *FYR uh-larm*
 **Русский:** пожарная сигнализация, пожарная тревога
 **Plural:** *fire alarms*
 **Countability:** countable
@@ -56,7 +56,7 @@ A device or signal that warns everyone in a building that there is a fire.
 
 ### fire extinguisher
 
-**Pronunciation:** /ˈfaɪrr ɪkˌstɪŋɡwɪʃər/ &middot; *FYR ik-STING-gwish-ur*
+**Pronunciation:** /ˈfaɪər ɪkˌstɪŋɡwɪʃər/ &middot; *FYR ik-STING-gwish-ur*
 **Русский:** огнетушитель
 **Plural:** *fire extinguishers*
 **Countability:** countable
@@ -102,7 +102,7 @@ A device that makes a loud sound when it senses smoke in a room.
 
 ### fire drill
 
-**Pronunciation:** /ˈfaɪrr drɪl/ &middot; *FYR dril*
+**Pronunciation:** /ˈfaɪər drɪl/ &middot; *FYR dril*
 **Русский:** учебная пожарная тревога
 **Plural:** *fire drills*
 **Countability:** countable
@@ -764,7 +764,7 @@ Serious danger, especially danger to life.
 
 ### fire hazard
 
-**Pronunciation:** /ˈfaɪrr ˌhæzərd/ &middot; *FYR haz-urd*
+**Pronunciation:** /ˈfaɪər ˌhæzərd/ &middot; *FYR haz-urd*
 **Русский:** источник пожарной опасности
 **Plural:** *fire hazards*
 **Countability:** countable
@@ -1817,7 +1817,7 @@ A light that comes on to show something is wrong or dangerous.
 
 ### fire safety
 
-**Pronunciation:** /ˈfaɪrr ˌseɪfti/ &middot; *FYR sayf-tee*
+**Pronunciation:** /ˈfaɪər ˌseɪfti/ &middot; *FYR sayf-tee*
 **Русский:** пожарная безопасность
 **Countability:** uncountable
 
@@ -1831,7 +1831,7 @@ The rules and habits that keep fires from starting or spreading.
 
 ### firefighting
 
-**Pronunciation:** /ˈfaɪrrˌfaɪtɪŋ/ &middot; *FYR-fy-ting*
+**Pronunciation:** /ˈfaɪərˌfaɪtɪŋ/ &middot; *FYR-fy-ting*
 **Русский:** пожаротушение
 **Countability:** uncountable
 
@@ -1845,7 +1845,7 @@ The work of putting out fires.
 
 ### fire engine
 
-**Pronunciation:** /ˈfaɪrr ˌɛndʒɪn/ &middot; *FYR en-jin*
+**Pronunciation:** /ˈfaɪər ˌɛndʒɪn/ &middot; *FYR en-jin*
 **Русский:** пожарная машина
 **Plural:** *fire engines*
 **Countability:** countable
@@ -1861,7 +1861,7 @@ A truck carrying a pump, hoses, and water to a fire.
 
 ### firehouse
 
-**Pronunciation:** /ˈfaɪrrhaʊs/ &middot; *FYR-hows*
+**Pronunciation:** /ˈfaɪərhaʊs/ &middot; *FYR-hows*
 **Русский:** пожарное депо
 **Plural:** *firehouses*
 **Countability:** countable
@@ -1877,7 +1877,7 @@ The building where firefighters and their trucks are based.
 
 ### fireman
 
-**Pronunciation:** /ˈfaɪrrmən/ &middot; *FYR-mun*
+**Pronunciation:** /ˈfaɪərmən/ &middot; *FYR-mun*
 **Русский:** пожарный
 **Plural:** *firemen*
 **Countability:** countable
@@ -1893,7 +1893,7 @@ A man whose job is putting out fires.
 
 ### fire chief
 
-**Pronunciation:** /ˈfaɪrr tʃiːf/ &middot; *FYR cheef*
+**Pronunciation:** /ˈfaɪər tʃiːf/ &middot; *FYR cheef*
 **Русский:** начальник пожарной части
 **Plural:** *fire chiefs*
 **Countability:** countable
@@ -1908,7 +1908,7 @@ The officer in charge of a fire department.
 
 ### fire marshal
 
-**Pronunciation:** /ˈfaɪrr ˌmɑːrʃəl/ &middot; *FYR mar-shuhl*
+**Pronunciation:** /ˈfaɪər ˌmɑːrʃəl/ &middot; *FYR mar-shuhl*
 **Русский:** инспектор пожарного надзора
 **Plural:** *fire marshals*
 **Countability:** countable
@@ -1924,7 +1924,7 @@ An official who inspects buildings and investigates the causes of fires.
 
 ### fire hose
 
-**Pronunciation:** /ˈfaɪrr hoʊz/ &middot; *FYR hohz*
+**Pronunciation:** /ˈfaɪər hoʊz/ &middot; *FYR hohz*
 **Русский:** пожарный рукав
 **Plural:** *fire hoses*
 **Countability:** countable
@@ -1939,7 +1939,7 @@ The heavy hose that carries water from a hydrant or truck to a fire.
 
 ### fire door
 
-**Pronunciation:** /ˈfaɪrr dɔːr/ &middot; *FYR dor*
+**Pronunciation:** /ˈfaɪər dɔːr/ &middot; *FYR dor*
 **Русский:** противопожарная дверь
 **Plural:** *fire doors*
 **Countability:** countable
@@ -1954,7 +1954,7 @@ A heavy door that holds back flames and smoke for a set time.
 
 ### fire blanket
 
-**Pronunciation:** /ˈfaɪrr ˌblæŋkɪt/ &middot; *FYR blang-kit*
+**Pronunciation:** /ˈfaɪər ˌblæŋkɪt/ &middot; *FYR blang-kit*
 **Русский:** противопожарное полотно
 **Plural:** *fire blankets*
 **Countability:** countable

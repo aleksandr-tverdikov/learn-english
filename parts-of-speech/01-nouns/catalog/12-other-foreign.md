@@ -532,7 +532,7 @@ A French castle or large country house.
 
 ### milieu
 
-**Pronunciation:** /miːlˈjɜː/ &middot; *meel-YUH*
+**Pronunciation:** /miːlˈjuː/ &middot; *meel-YOO*
 **Русский:** среда, окружение
 **Plural:** *milieus* &middot; *milieux* /miːlˈjɜːz/ — both correct
 **Countability:** countable

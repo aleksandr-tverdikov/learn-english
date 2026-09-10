@@ -553,7 +553,7 @@ A place that takes in homeless animals and finds homes for them.
 
 ### humane society
 
-**Pronunciation:** /hjuːˈmeɪn səˈsaɪrti/ &middot; *hyoo-MAYN suh-SY-uh-tee*
+**Pronunciation:** /hjuːˈmeɪn səˈsaɪəti/ &middot; *hyoo-MAYN suh-SY-uh-tee*
 **Русский:** общество защиты животных
 **Plural:** *humane societies*
 **Countability:** countable

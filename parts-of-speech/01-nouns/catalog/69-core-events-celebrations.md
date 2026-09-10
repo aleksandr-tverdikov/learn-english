@@ -947,7 +947,7 @@ A bunch of hanging threads tied at one end, worn on a graduation cap or used as 
 
 ### firework
 
-**Pronunciation:** /ˈfaɪrrwɜːrk/ &middot; *FYR-wurk*
+**Pronunciation:** /ˈfaɪərwɜːrk/ &middot; *FYR-wurk*
 **Русский:** фейерверк (обычно мн. ч.)
 **Plural:** *fireworks*
 **Countability:** countable
@@ -963,7 +963,7 @@ A device that explodes in the sky with colored light and noise at a celebration.
 
 ### firecracker
 
-**Pronunciation:** /ˈfaɪrrkrækər/ &middot; *FYR-krak-ur*
+**Pronunciation:** /ˈfaɪərkrækər/ &middot; *FYR-krak-ur*
 **Русский:** петарда
 **Plural:** *firecrackers*
 **Countability:** countable
@@ -993,7 +993,7 @@ A thin stick that burns slowly with bright sparks, held in the hand at celebrati
 
 ### bonfire
 
-**Pronunciation:** /ˈbɑːnfaɪrr/ &middot; *BAHN-fyr*
+**Pronunciation:** /ˈbɑːnfaɪər/ &middot; *BAHN-fyr*
 **Русский:** костёр
 **Plural:** *bonfires*
 **Countability:** countable

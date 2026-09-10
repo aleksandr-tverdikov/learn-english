@@ -1491,7 +1491,7 @@ A round container with a tight lid, for dry goods or pressurized gas.
 
 ### vial
 
-**Pronunciation:** /ˈvaɪrl/ &middot; *VY-uhl*
+**Pronunciation:** /ˈvaɪəl/ &middot; *VY-uhl*
 **Русский:** флакон, пузырёк, ампула
 **Plural:** *vials*
 **Countability:** countable

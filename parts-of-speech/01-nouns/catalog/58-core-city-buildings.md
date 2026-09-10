@@ -379,7 +379,7 @@ A part of a road marked off for bicycles.
 
 ### rush hour
 
-**Pronunciation:** /ˈrʌʃ aʊrr/ &middot; *RUHSH ow-ur*
+**Pronunciation:** /ˈrʌʃ aʊər/ &middot; *RUHSH ow-ur*
 **Русский:** час пик
 **Plural:** *rush hours*
 **Countability:** countable
@@ -516,7 +516,7 @@ A covered opening in a street that workers climb down to reach pipes or cables.
 
 ### fire hydrant
 
-**Pronunciation:** /ˈfaɪrr ˌhaɪdrənt/ &middot; *FYR hy-drunt*
+**Pronunciation:** /ˈfaɪər ˌhaɪdrənt/ &middot; *FYR hy-drunt*
 **Русский:** пожарный гидрант
 **Plural:** *fire hydrants*
 **Countability:** countable
@@ -531,7 +531,7 @@ A short pipe on a sidewalk that firefighters connect their hoses to.
 
 ### power line
 
-**Pronunciation:** /ˈpaʊrr laɪn/ &middot; *POW-ur lyn*
+**Pronunciation:** /ˈpaʊər laɪn/ &middot; *POW-ur lyn*
 **Русский:** линия электропередачи
 **Plural:** *power lines*
 **Countability:** countable
@@ -546,7 +546,7 @@ A cable that carries electricity above or below the ground.
 
 ### power plant
 
-**Pronunciation:** /ˈpaʊrr plænt/ &middot; *POW-ur plant*
+**Pronunciation:** /ˈpaʊər plænt/ &middot; *POW-ur plant*
 **Русский:** электростанция
 **Plural:** *power plants*
 **Countability:** countable
@@ -819,7 +819,7 @@ A place where you mail letters and packages and buy stamps.
 
 ### fire station
 
-**Pronunciation:** /ˈfaɪrr ˌsteɪʃən/ &middot; *FYR stay-shun*
+**Pronunciation:** /ˈfaɪər ˌsteɪʃən/ &middot; *FYR stay-shun*
 **Русский:** пожарная часть
 **Plural:** *fire stations*
 **Countability:** countable
@@ -1290,7 +1290,7 @@ The vertical shaft in a building that contains the stairs.
 
 ### fire escape
 
-**Pronunciation:** /ˈfaɪrr ɪˌskeɪp/ &middot; *FYR ih-skayp*
+**Pronunciation:** /ˈfaɪər ɪˌskeɪp/ &middot; *FYR ih-skayp*
 **Русский:** пожарная лестница (снаружи здания)
 **Plural:** *fire escapes*
 **Countability:** countable
@@ -1350,7 +1350,7 @@ A tall upright post that supports part of a building.
 
 ### spire
 
-**Pronunciation:** /ˈspaɪrr/ &middot; *SPY-ur*
+**Pronunciation:** /ˈspaɪər/ &middot; *SPY-ur*
 **Русский:** шпиль
 **Plural:** *spires*
 **Countability:** countable
@@ -1606,7 +1606,7 @@ A wide road built for fast traffic, with limited entrances and exits.
 
 ### viaduct
 
-**Pronunciation:** /ˈvaɪrˌdʌkt/ &middot; *VY-uh-duhkt*
+**Pronunciation:** /ˈvaɪəˌdʌkt/ &middot; *VY-uh-duhkt*
 **Русский:** виадук, эстакада
 **Plural:** *viaducts*
 **Countability:** countable
@@ -1967,7 +1967,7 @@ A path built for people to walk along, often raised or covered.
 
 ### water tower
 
-**Pronunciation:** /ˈwɔːtər ˌtaʊrr/ &middot; *WAW-tur tow-ur*
+**Pronunciation:** /ˈwɔːtər ˌtaʊər/ &middot; *WAW-tur tow-ur*
 **Русский:** водонапорная башня
 **Plural:** *water towers*
 **Countability:** countable

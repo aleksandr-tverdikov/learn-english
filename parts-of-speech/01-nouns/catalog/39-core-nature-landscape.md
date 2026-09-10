@@ -1618,7 +1618,7 @@ A long period with little or no rain.
 
 ### wildfire
 
-**Pronunciation:** /ˈwaɪldfaɪrr/ &middot; *WYLD-fyr*
+**Pronunciation:** /ˈwaɪldfaɪər/ &middot; *WYLD-fyr*
 **Русский:** лесной пожар, природный пожар
 **Plural:** *wildfires*
 **Countability:** countable

@@ -603,7 +603,7 @@ A single piece of clothing.
 
 ### attire
 
-**Pronunciation:** /əˈtaɪrr/ &middot; *uh-TYR*
+**Pronunciation:** /əˈtaɪər/ &middot; *uh-TYR*
 **Русский:** одежда, наряд
 **Countability:** uncountable
 **Contrast:** Uncountable — say formal attire or a piece of attire, never an attire or attires.

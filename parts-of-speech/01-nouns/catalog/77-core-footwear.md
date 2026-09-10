@@ -1850,7 +1850,7 @@ A notched board you step on to pull a tight boot off.
 
 ### boot dryer
 
-**Pronunciation:** /ˈbuːt ˌdraɪrr/ &middot; *BOOT dry-ur*
+**Pronunciation:** /ˈbuːt ˌdraɪər/ &middot; *BOOT dry-ur*
 **Русский:** сушилка для обуви
 **Plural:** *boot dryers*
 **Countability:** countable

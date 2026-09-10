@@ -363,7 +363,7 @@ A precious stone, or a piece of jewelry containing one.
 
 ### diamond
 
-**Pronunciation:** /ˈdaɪrmənd/ &middot; *DY-uh-muhnd*
+**Pronunciation:** /ˈdaɪəmənd/ &middot; *DY-uh-muhnd*
 **Русский:** бриллиант, алмаз
 **Plural:** *diamonds*
 **Countability:** countable
@@ -424,7 +424,7 @@ A bright green precious stone.
 
 ### sapphire
 
-**Pronunciation:** /ˈsæfaɪrr/ &middot; *SAF-eye-ur*
+**Pronunciation:** /ˈsæfaɪər/ &middot; *SAF-eye-ur*
 **Русский:** сапфир
 **Plural:** *sapphires*
 **Countability:** countable

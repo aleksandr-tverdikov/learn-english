@@ -472,7 +472,7 @@ A truck that pulls away broken or illegally parked cars.
 
 ### fire truck
 
-**Pronunciation:** /ˈfaɪrr trʌk/ &middot; *FYR-truk*
+**Pronunciation:** /ˈfaɪər trʌk/ &middot; *FYR-truk*
 **Русский:** пожарная машина
 **Plural:** *fire trucks*
 **Countability:** countable
@@ -1002,7 +1002,7 @@ The wheel a driver turns to point the car left or right.
 
 ### tire
 
-**Pronunciation:** /ˈtaɪrr/ &middot; *TY-ur*
+**Pronunciation:** /ˈtaɪər/ &middot; *TY-ur*
 **Русский:** шина, покрышка
 **Plural:** *tires*
 **Countability:** countable
@@ -1565,7 +1565,7 @@ The container in a vehicle that holds its fuel.
 
 ### spare tire
 
-**Pronunciation:** /ˈspɛr ˌtaɪrr/ &middot; *SPAIR-ty-ur*
+**Pronunciation:** /ˈspɛr ˌtaɪər/ &middot; *SPAIR-ty-ur*
 **Русский:** запасное колесо, запаска
 **Plural:** *spare tires*
 **Countability:** countable

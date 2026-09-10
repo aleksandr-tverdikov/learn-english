@@ -516,7 +516,7 @@ A small round red beetle with black spots.
 
 ### firefly
 
-**Pronunciation:** /ˈfaɪrrflaɪ/ &middot; *FYR-fly*
+**Pronunciation:** /ˈfaɪərflaɪ/ &middot; *FYR-fly*
 **Русский:** светлячок
 **Plural:** *fireflies*
 **Countability:** countable
@@ -1410,7 +1410,7 @@ A small venomous snake of Europe and parts of Africa.
 
 ### boa
 
-**Pronunciation:** /ˈboʊr/ &middot; *BOH-uh*
+**Pronunciation:** /ˈboʊə/ &middot; *BOH-uh*
 **Русский:** удав
 **Plural:** *boas*
 **Countability:** countable

@@ -333,7 +333,7 @@ A basic food that people eat regularly and depend on.
 
 ### flour
 
-**Pronunciation:** /ˈflaʊrr/ &middot; *FLOW-ur*
+**Pronunciation:** /ˈflaʊər/ &middot; *FLOW-ur*
 **Русский:** мука
 **Countability:** uncountable
 **Contrast:** Pronounced exactly like flower (цветок) — FLOW-ur.
@@ -978,7 +978,7 @@ A sharp yellow or brown sauce made from mustard seeds.
 
 ### mayonnaise
 
-**Pronunciation:** /ˈmeɪrneɪz/ &middot; *MAY-uh-nayz*
+**Pronunciation:** /ˈmeɪəneɪz/ &middot; *MAY-uh-nayz*
 **Русский:** майонез
 **Countability:** uncountable
 

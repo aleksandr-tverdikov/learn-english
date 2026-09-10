@@ -703,7 +703,7 @@ A wide cloth loop worn over the shoulder to carry a baby.
 
 ### pacifier
 
-**Pronunciation:** /ˈpæsəfaɪrr/ &middot; *PAS-uh-fy-ur*
+**Pronunciation:** /ˈpæsəfaɪər/ &middot; *PAS-uh-fy-ur*
 **Русский:** соска-пустышка
 **Plural:** *pacifiers*
 **Countability:** countable
@@ -1480,7 +1480,7 @@ A child who refuses most foods.
 
 ### separation anxiety
 
-**Pronunciation:** /ˌsɛpəˈreɪʃən æŋˈzaɪrti/ &middot; *sep-uh-RAY-shuhn-ang-ZY-uh-tee*
+**Pronunciation:** /ˌsɛpəˈreɪʃən æŋˈzaɪəti/ &middot; *sep-uh-RAY-shuhn-ang-ZY-uh-tee*
 **Русский:** тревога разлуки (страх расставания с родителями)
 **Countability:** uncountable
 
@@ -1569,7 +1569,7 @@ A scan that shows a picture of a baby inside the womb.
 
 ### baby shower
 
-**Pronunciation:** /ˈbeɪbi ˌʃaʊrr/ &middot; *BAY-bee-SHOW-ur*
+**Pronunciation:** /ˈbeɪbi ˌʃaʊər/ &middot; *BAY-bee-SHOW-ur*
 **Русский:** вечеринка в честь будущего ребёнка
 **Plural:** *baby showers*
 **Countability:** countable

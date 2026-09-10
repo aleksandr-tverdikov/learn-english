@@ -676,7 +676,7 @@ A big leafy tree planted to give shade.
 
 ### leaf blower
 
-**Pronunciation:** /ˈliːf bloʊrr/ &middot; *LEEF bloh-ur*
+**Pronunciation:** /ˈliːf bloʊər/ &middot; *LEEF bloh-ur*
 **Русский:** садовая воздуходувка
 **Plural:** *leaf blowers*
 **Countability:** countable
@@ -797,7 +797,7 @@ A short sturdy fork with flat tines for digging and loosening soil.
 
 ### riding mower
 
-**Pronunciation:** /ˈraɪdɪŋ moʊrr/ &middot; *RY-ding moh-ur*
+**Pronunciation:** /ˈraɪdɪŋ moʊər/ &middot; *RY-ding moh-ur*
 **Русский:** садовый трактор-косилка, райдер
 **Plural:** *riding mowers*
 **Countability:** countable

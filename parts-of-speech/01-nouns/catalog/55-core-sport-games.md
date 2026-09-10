@@ -404,7 +404,7 @@ A running race of just over twenty-six miles.
 
 ### player
 
-**Pronunciation:** /ˈpleɪrr/ &middot; *PLAY-ur*
+**Pronunciation:** /ˈpleɪər/ &middot; *PLAY-ur*
 **Русский:** игрок
 **Plural:** *players*
 **Countability:** countable
@@ -435,7 +435,7 @@ The official who enforces the rules during a game.
 
 ### umpire
 
-**Pronunciation:** /ˈʌmpaɪrr/ &middot; *UM-pyr*
+**Pronunciation:** /ˈʌmpaɪər/ &middot; *UM-pyr*
 **Русский:** судья (в бейсболе, теннисе)
 **Plural:** *umpires*
 **Countability:** countable

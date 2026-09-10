@@ -2512,7 +2512,7 @@ A thick, solid piece of something, or a large part of a whole.
 
 ### churchgoer
 
-**Pronunciation:** /ˈtʃɜːrtʃɡoʊrr/ &middot; *CHURCH-goh-ur*
+**Pronunciation:** /ˈtʃɜːrtʃɡoʊər/ &middot; *CHURCH-goh-ur*
 **Русский:** прихожанин
 **Plural:** *churchgoers*
 **Countability:** countable
@@ -3294,7 +3294,7 @@ A hard silver-gray metal used in batteries and in a deep blue dye.
 
 ### coefficient
 
-**Pronunciation:** /ˌkoʊrˈfɪʃənt/ &middot; *koh-uh-FISH-uhnt*
+**Pronunciation:** /ˌkoʊəˈfɪʃənt/ &middot; *koh-uh-FISH-uhnt*
 **Русский:** коэффициент
 **Plural:** *coefficients*
 **Countability:** countable
@@ -5697,7 +5697,7 @@ A one-piece garment worn over clothes to keep them clean.
 
 ### coward
 
-**Pronunciation:** /ˈkaʊrrd/ &middot; *KOW-urd*
+**Pronunciation:** /ˈkaʊərd/ &middot; *KOW-urd*
 **Русский:** трус
 **Plural:** *cowards*
 **Countability:** countable
@@ -6041,7 +6041,7 @@ A horizontal bar across a goal, a bicycle frame, or a similar structure.
 
 ### crossfire
 
-**Pronunciation:** /ˈkrɔːsfaɪrr/ &middot; *KRAWS-fyr*
+**Pronunciation:** /ˈkrɔːsfaɪər/ &middot; *KRAWS-fyr*
 **Русский:** перекрёстный огонь
 **Countability:** uncountable
 

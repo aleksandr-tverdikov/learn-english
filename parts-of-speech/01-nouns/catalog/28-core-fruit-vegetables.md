@@ -344,7 +344,7 @@ A small brown fuzzy fruit with green flesh and tiny black seeds.
 
 ### papaya
 
-**Pronunciation:** /pəˈpaɪr/ &middot; *puh-PY-uh*
+**Pronunciation:** /pəˈpaɪə/ &middot; *puh-PY-uh*
 **Русский:** папайя
 **Plural:** *papayas*
 **Countability:** countable, and uncountable as food
@@ -631,7 +631,7 @@ A green vegetable with a thick stalk and dense flowering heads.
 
 ### cauliflower
 
-**Pronunciation:** /ˈkɔːlɪflaʊrr/ &middot; *KAW-lih-flow-ur*
+**Pronunciation:** /ˈkɔːlɪflaʊər/ &middot; *KAW-lih-flow-ur*
 **Русский:** цветная капуста
 **Plural:** *cauliflowers*
 **Countability:** countable, and uncountable as food
@@ -1362,7 +1362,7 @@ The small hard part of a plant from which a new plant grows.
 
 ### sunflower
 
-**Pronunciation:** /ˈsʌnflaʊrr/ &middot; *SUN-flow-ur*
+**Pronunciation:** /ˈsʌnflaʊər/ &middot; *SUN-flow-ur*
 **Русский:** подсолнух, подсолнечник
 **Plural:** *sunflowers*
 **Countability:** countable

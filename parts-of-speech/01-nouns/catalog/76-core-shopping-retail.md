@@ -389,7 +389,7 @@ A store's agreement to sell at a competitor's lower price.
 
 ### layaway
 
-**Pronunciation:** /ˈleɪrweɪ/ &middot; *LAY-uh-way*
+**Pronunciation:** /ˈleɪəweɪ/ &middot; *LAY-uh-way*
 **Русский:** рассрочка с выдачей после оплаты
 **Countability:** uncountable
 
@@ -1215,7 +1215,7 @@ A saved list of things you would like to buy or be given.
 
 ### loyalty program
 
-**Pronunciation:** /ˈlɔɪrlti ˌproʊɡræm/ &middot; *LOY-ul-tee PROH-gram*
+**Pronunciation:** /ˈlɔɪəlti ˌproʊɡræm/ &middot; *LOY-ul-tee PROH-gram*
 **Русский:** программа лояльности
 **Plural:** *loyalty programs*
 **Countability:** countable
@@ -1230,7 +1230,7 @@ A store plan that rewards regular customers with points or discounts.
 
 ### loyalty card
 
-**Pronunciation:** /ˈlɔɪrlti kɑːrd/ &middot; *LOY-ul-tee KARD*
+**Pronunciation:** /ˈlɔɪəlti kɑːrd/ &middot; *LOY-ul-tee KARD*
 **Русский:** карта постоянного покупателя
 **Plural:** *loyalty cards*
 **Countability:** countable
@@ -1321,7 +1321,7 @@ The range of goods a store offers to choose from.
 
 ### variety
 
-**Pronunciation:** /vəˈraɪrti/ &middot; *vuh-RY-uh-tee*
+**Pronunciation:** /vəˈraɪəti/ &middot; *vuh-RY-uh-tee*
 **Русский:** разнообразие, выбор
 **Plural:** *varieties*
 **Countability:** countable

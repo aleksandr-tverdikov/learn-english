@@ -849,7 +849,7 @@ A tool used in preparing or eating food.
 
 ### appliance
 
-**Pronunciation:** /əˈplaɪrns/ &middot; *uh-PLY-uns*
+**Pronunciation:** /əˈplaɪəns/ &middot; *uh-PLY-uns*
 **Русский:** бытовой прибор, бытовая техника
 **Plural:** *appliances*
 **Countability:** countable

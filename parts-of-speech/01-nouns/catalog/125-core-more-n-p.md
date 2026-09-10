@@ -207,7 +207,7 @@ The person who works out the route a ship, plane, or car should take.
 
 ### naysayer
 
-**Pronunciation:** /ˈneɪseɪrr/ &middot; *NAY-say-ur*
+**Pronunciation:** /ˈneɪseɪər/ &middot; *NAY-say-ur*
 **Русский:** скептик, вечный критик
 **Plural:** *naysayers*
 **Countability:** countable
@@ -411,7 +411,7 @@ Someone deeply into studying or a technical hobby, often at the cost of being fa
 
 ### neuroscience
 
-**Pronunciation:** /ˈnʊroʊˌsaɪrns/ &middot; *NOOR-oh-sy-uhns*
+**Pronunciation:** /ˈnʊroʊˌsaɪəns/ &middot; *NOOR-oh-sy-uhns*
 **Русский:** нейронаука, нейробиология
 **Countability:** uncountable
 
@@ -528,7 +528,7 @@ A central point where several things meet or connect.
 
 ### niacin
 
-**Pronunciation:** /ˈnaɪrsɪn/ &middot; *NY-uh-sin*
+**Pronunciation:** /ˈnaɪəsɪn/ &middot; *NY-uh-sin*
 **Русский:** ниацин (витамин B3)
 **Countability:** uncountable
 
@@ -556,7 +556,7 @@ The bars, clubs, and other entertainment a place offers after dark.
 
 ### nihilism
 
-**Pronunciation:** /ˈnaɪrlɪzəm/ &middot; *NY-uh-liz-uhm*
+**Pronunciation:** /ˈnaɪəlɪzəm/ &middot; *NY-uh-liz-uhm*
 **Русский:** нигилизм
 **Countability:** uncountable
 **Contrast:** The h is usually silent: NY-uh-liz-uhm.
@@ -871,7 +871,7 @@ A set of written signs used to record music, math, or moves in a game.
 
 ### notoriety
 
-**Pronunciation:** /ˌnoʊtəˈraɪrti/ &middot; *NOH-tuh-RY-uh-tee*
+**Pronunciation:** /ˌnoʊtəˈraɪəti/ &middot; *NOH-tuh-RY-uh-tee*
 **Русский:** дурная слава, скандальная известность
 **Countability:** uncountable
 **Contrast:** *Notoriety* is fame of a bad kind; plain *fame* is neutral. Note the stress shift from *notorious* (noh-TOR-ee-uhs).
@@ -2238,7 +2238,7 @@ The movement of money, water, or people out of a place.
 
 ### outlier
 
-**Pronunciation:** /ˈaʊtlaɪrr/ &middot; *OWT-ly-ur*
+**Pronunciation:** /ˈaʊtlaɪər/ &middot; *OWT-ly-ur*
 **Русский:** исключение, нетипичный случай; выброс (в статистике)
 **Plural:** *outliers*
 **Countability:** countable
@@ -3611,7 +3611,7 @@ A strong supporter of a party or cause, or a member of an armed resistance group
 
 ### partygoer
 
-**Pronunciation:** /ˈpɑːrtiˌɡoʊrr/ &middot; *PAR-tee-goh-ur*
+**Pronunciation:** /ˈpɑːrtiˌɡoʊər/ &middot; *PAR-tee-goh-ur*
 **Русский:** гость на вечеринке, гуляка
 **Plural:** *partygoers*
 **Countability:** countable
@@ -3992,7 +3992,7 @@ The person or company that money is paid to.
 
 ### payer
 
-**Pronunciation:** /ˈpeɪrr/ &middot; *PAY-ur*
+**Pronunciation:** /ˈpeɪər/ &middot; *PAY-ur*
 **Русский:** плательщик
 **Plural:** *payers*
 **Countability:** countable
@@ -5300,7 +5300,7 @@ Work that is paid by the number of items finished rather than by the hour.
 
 ### piety
 
-**Pronunciation:** /ˈpaɪrti/ &middot; *PY-uh-tee*
+**Pronunciation:** /ˈpaɪəti/ &middot; *PY-uh-tee*
 **Русский:** набожность, благочестие
 **Countability:** uncountable
 

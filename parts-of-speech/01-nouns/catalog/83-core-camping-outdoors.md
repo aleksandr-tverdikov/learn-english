@@ -614,7 +614,7 @@ A stick used for balance and support while walking.
 
 ### fire pit
 
-**Pronunciation:** /ˈfaɪrr pɪt/ &middot; *FYR-pit*
+**Pronunciation:** /ˈfaɪər pɪt/ &middot; *FYR-pit*
 **Русский:** кострище, очаг для костра
 **Plural:** *fire pits*
 **Countability:** countable
@@ -644,7 +644,7 @@ Very dry material that catches a spark and starts a fire.
 
 ### fire starter
 
-**Pronunciation:** /ˈfaɪrr ˌstɑːrtər/ &middot; *FYR-star-tur*
+**Pronunciation:** /ˈfaɪər ˌstɑːrtər/ &middot; *FYR-star-tur*
 **Русский:** средство для розжига
 **Plural:** *fire starters*
 **Countability:** countable
@@ -1943,7 +1943,7 @@ A high place with a wide view, or the tower built there.
 
 ### fire tower
 
-**Pronunciation:** /ˈfaɪrr ˌtaʊrr/ &middot; *FYR-tow-ur*
+**Pronunciation:** /ˈfaɪər ˌtaʊər/ &middot; *FYR-tow-ur*
 **Русский:** пожарная наблюдательная вышка
 **Plural:** *fire towers*
 **Countability:** countable
@@ -2190,7 +2190,7 @@ A bright burning light fired or lit to signal for help.
 
 ### forest fire
 
-**Pronunciation:** /ˈfɔːrɪst ˌfaɪrr/ &middot; *FOR-ist-fyr*
+**Pronunciation:** /ˈfɔːrɪst ˌfaɪər/ &middot; *FOR-ist-fyr*
 **Русский:** лесной пожар
 **Plural:** *forest fires*
 **Countability:** countable
@@ -2205,7 +2205,7 @@ A large fire burning through trees and brush.
 
 ### fire ban
 
-**Pronunciation:** /ˈfaɪrr bæn/ &middot; *FYR-ban*
+**Pronunciation:** /ˈfaɪər bæn/ &middot; *FYR-ban*
 **Русский:** запрет на разведение огня
 **Plural:** *fire bans*
 **Countability:** countable

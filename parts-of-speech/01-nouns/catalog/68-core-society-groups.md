@@ -11,7 +11,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ---
 ### society
 
-**Pronunciation:** /səˈsaɪrti/ &middot; *suh-SY-uh-tee*
+**Pronunciation:** /səˈsaɪəti/ &middot; *suh-SY-uh-tee*
 **Русский:** общество
 **Plural:** *societies*
 **Countability:** both — countable and uncountable with different meanings
@@ -102,7 +102,7 @@ A large, established organization such as a bank, a school, or a hospital.
 
 ### hierarchy
 
-**Pronunciation:** /ˈhaɪrˌrɑːrki/ &middot; *HY-uh-rar-kee*
+**Pronunciation:** /ˈhaɪəˌrɑːrki/ &middot; *HY-uh-rar-kee*
 **Русский:** иерархия
 **Plural:** *hierarchies*
 **Countability:** countable
@@ -623,7 +623,7 @@ A person who moves to a new region to live there permanently.
 
 ### pioneer
 
-**Pronunciation:** /ˌpaɪrˈnɪr/ &middot; *py-uh-NEER*
+**Pronunciation:** /ˌpaɪəˈnɪr/ &middot; *py-uh-NEER*
 **Русский:** первопроходец, пионер
 **Plural:** *pioneers*
 **Countability:** countable
@@ -898,7 +898,7 @@ A child whose parents have died.
 
 ### widower
 
-**Pronunciation:** /ˈwɪdoʊrr/ &middot; *WID-oh-ur*
+**Pronunciation:** /ˈwɪdoʊər/ &middot; *WID-oh-ur*
 **Русский:** вдовец
 **Plural:** *widowers*
 **Countability:** countable

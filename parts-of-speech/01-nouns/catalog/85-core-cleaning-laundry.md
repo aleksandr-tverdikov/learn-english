@@ -87,7 +87,7 @@ Liquid soap made for washing dishes by hand.
 
 ### dish towel
 
-**Pronunciation:** /ˈdɪʃ ˌtaʊrl/ &middot; *DISH TOW-uhl*
+**Pronunciation:** /ˈdɪʃ ˌtaʊəl/ &middot; *DISH TOW-uhl*
 **Русский:** кухонное полотенце
 **Plural:** *dish towels*
 **Countability:** countable
@@ -165,7 +165,7 @@ The room in a house or building where clothes are washed.
 
 ### ironing board
 
-**Pronunciation:** /ˈaɪrrnɪŋ bɔːrd/ &middot; *EYE-ur-ning BORD*
+**Pronunciation:** /ˈaɪərnɪŋ bɔːrd/ &middot; *EYE-ur-ning BORD*
 **Русский:** гладильная доска
 **Plural:** *ironing boards*
 **Countability:** countable
@@ -378,7 +378,7 @@ The way dried clothes stick to each other or to the body.
 
 ### steam iron
 
-**Pronunciation:** /ˈstiːm ˌaɪrrn/ &middot; *STEEM EYE-urn*
+**Pronunciation:** /ˈstiːm ˌaɪərn/ &middot; *STEEM EYE-urn*
 **Русский:** утюг с отпариванием
 **Plural:** *steam irons*
 **Countability:** countable

@@ -242,7 +242,7 @@ A soft white wax made from petroleum and used in candles and sealing.
 
 ### firewood
 
-**Pronunciation:** /ˈfaɪrrwʊd/ &middot; *FYR-wood*
+**Pronunciation:** /ˈfaɪərwʊd/ &middot; *FYR-wood*
 **Русский:** дрова
 **Countability:** uncountable
 
@@ -625,7 +625,7 @@ The process of taking a resource such as oil or metal out of the ground.
 
 ### power station
 
-**Pronunciation:** /ˈpaʊrr ˌsteɪʃən/ &middot; *POW-ur stay-shuhn*
+**Pronunciation:** /ˈpaʊər ˌsteɪʃən/ &middot; *POW-ur stay-shuhn*
 **Русский:** электростанция
 **Plural:** *power stations*
 **Countability:** countable
@@ -671,7 +671,7 @@ A tall chimney that carries smoke away from a factory or power plant.
 
 ### cooling tower
 
-**Pronunciation:** /ˈkuːlɪŋ ˌtaʊrr/ &middot; *KOO-ling tow-ur*
+**Pronunciation:** /ˈkuːlɪŋ ˌtaʊər/ &middot; *KOO-ling tow-ur*
 **Русский:** градирня
 **Plural:** *cooling towers*
 **Countability:** countable
@@ -820,7 +820,7 @@ One small unit that produces electricity from light, many of which make a panel.
 
 ### solar power
 
-**Pronunciation:** /ˈsoʊlər ˌpaʊrr/ &middot; *SOH-lur pow-ur*
+**Pronunciation:** /ˈsoʊlər ˌpaʊər/ &middot; *SOH-lur pow-ur*
 **Русский:** солнечная энергия
 **Countability:** uncountable
 
@@ -849,7 +849,7 @@ A large field of solar panels that feeds electricity into the grid.
 
 ### hydropower
 
-**Pronunciation:** /ˈhaɪdroʊˌpaʊrr/ &middot; *HY-droh-pow-ur*
+**Pronunciation:** /ˈhaɪdroʊˌpaʊər/ &middot; *HY-droh-pow-ur*
 **Русский:** гидроэнергия
 **Countability:** uncountable
 
@@ -877,7 +877,7 @@ Plant material and waste burned or processed to make energy.
 
 ### power supply
 
-**Pronunciation:** /ˈpaʊrr səˌplaɪ/ &middot; *POW-ur suh-ply*
+**Pronunciation:** /ˈpaʊər səˌplaɪ/ &middot; *POW-ur suh-ply*
 **Русский:** блок питания; электропитание
 **Plural:** *power supplies*
 **Countability:** countable
@@ -1072,7 +1072,7 @@ A device that shields plugged-in equipment from sudden jumps in voltage.
 
 ### power strip
 
-**Pronunciation:** /ˈpaʊrr ˌstrɪp/ &middot; *POW-ur strip*
+**Pronunciation:** /ˈpaʊər ˌstrɪp/ &middot; *POW-ur strip*
 **Русский:** удлинитель с розетками
 **Plural:** *power strips*
 **Countability:** countable
@@ -1118,7 +1118,7 @@ More current or weight on a system than it is built to handle.
 
 ### live wire
 
-**Pronunciation:** /ˌlaɪv ˈwaɪrr/ &middot; *lyv WYR*
+**Pronunciation:** /ˌlaɪv ˈwaɪər/ &middot; *lyv WYR*
 **Русский:** провод под напряжением
 **Plural:** *live wires*
 **Countability:** countable
@@ -1516,7 +1516,7 @@ A line of workers and machines that put a product together piece by piece.
 
 ### conveyor belt
 
-**Pronunciation:** /kənˈveɪrr ˌbɛlt/ &middot; *kuhn-VAY-ur belt*
+**Pronunciation:** /kənˈveɪər ˌbɛlt/ &middot; *kuhn-VAY-ur belt*
 **Русский:** конвейерная лента
 **Plural:** *conveyor belts*
 **Countability:** countable

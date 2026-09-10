@@ -182,7 +182,7 @@ A warm, gentle liking for someone.
 
 ### loyalty
 
-**Pronunciation:** /ˈlɔɪrlti/ &middot; *LOY-uhl-tee*
+**Pronunciation:** /ˈlɔɪəlti/ &middot; *LOY-uhl-tee*
 **Русский:** верность, преданность
 **Countability:** uncountable
 
@@ -366,7 +366,7 @@ A strong wish to achieve something.
 
 ### willpower
 
-**Pronunciation:** /ˈwɪlpaʊrr/ &middot; *WIL-pow-ur*
+**Pronunciation:** /ˈwɪlpaʊər/ &middot; *WIL-pow-ur*
 **Русский:** сила воли
 **Countability:** uncountable
 
@@ -1055,7 +1055,7 @@ Mild anger at something bothersome.
 
 ### annoyance
 
-**Pronunciation:** /əˈnɔɪrns/ &middot; *uh-NOY-uhns*
+**Pronunciation:** /əˈnɔɪəns/ &middot; *uh-NOY-uhns*
 **Русский:** досада, раздражение
 **Plural:** *annoyances*
 **Countability:** countable
@@ -1277,7 +1277,7 @@ The feeling of looking forward to something.
 
 ### paranoia
 
-**Pronunciation:** /ˌpærəˈnɔɪr/ &middot; *par-uh-NOY-uh*
+**Pronunciation:** /ˌpærəˈnɔɪə/ &middot; *par-uh-NOY-uh*
 **Русский:** паранойя
 **Countability:** uncountable
 
@@ -1608,7 +1608,7 @@ A sudden rush of excitement.
 
 ### desire
 
-**Pronunciation:** /dɪˈzaɪrr/ &middot; *dih-ZY-ur*
+**Pronunciation:** /dɪˈzaɪər/ &middot; *dih-ZY-ur*
 **Русский:** желание, стремление
 **Plural:** *desires*
 **Countability:** countable
@@ -2140,7 +2140,7 @@ Annoyance at having to wait.
 
 ### cowardice
 
-**Pronunciation:** /ˈkaʊrrdɪs/ &middot; *KOW-ur-dis*
+**Pronunciation:** /ˈkaʊərdɪs/ &middot; *KOW-ur-dis*
 **Русский:** трусость
 **Countability:** uncountable
 **Contrast:** The ending is /dɪs/, not /daɪs/ — KOW-ur-dis, and there is no such word as *cowardness*.

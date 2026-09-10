@@ -563,7 +563,7 @@ An extremely small piece of matter.
 
 ### ion
 
-**Pronunciation:** /ˈaɪrn/ &middot; *EYE-uhn*
+**Pronunciation:** /ˈaɪən/ &middot; *EYE-uhn*
 **Русский:** ион
 **Plural:** *ions*
 **Countability:** countable

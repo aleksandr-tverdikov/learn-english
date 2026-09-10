@@ -711,7 +711,7 @@ An evil spirit in stories that robs graves and eats the dead.
 
 ### giant
 
-**Pronunciation:** /ˈdʒaɪrnt/ &middot; *JY-uhnt*
+**Pronunciation:** /ˈdʒaɪənt/ &middot; *JY-uhnt*
 **Русский:** великан, гигант
 **Plural:** *giants*
 **Countability:** countable
@@ -940,7 +940,7 @@ A quick look at someone or something.
 
 ### glassblower
 
-**Pronunciation:** /ˈɡlæsˌbloʊrr/ &middot; *GLAS-bloh-ur*
+**Pronunciation:** /ˈɡlæsˌbloʊər/ &middot; *GLAS-bloh-ur*
 **Русский:** стеклодув
 **Plural:** *glassblowers*
 **Countability:** countable
@@ -3677,7 +3677,7 @@ A secret place where someone hides, especially from the police.
 
 ### hieroglyph
 
-**Pronunciation:** /ˈhaɪrrəɡlɪf/ &middot; *HY-uh-ruh-glif*
+**Pronunciation:** /ˈhaɪərəɡlɪf/ &middot; *HY-uh-ruh-glif*
 **Русский:** иероглиф
 **Plural:** *hieroglyphs*
 **Countability:** countable
@@ -3857,7 +3857,7 @@ A very large African animal with thick gray skin that lives in rivers.
 
 ### hire
 
-**Pronunciation:** /ˈhaɪrr/ &middot; *HYR*
+**Pronunciation:** /ˈhaɪər/ &middot; *HYR*
 **Русский:** новый сотрудник
 **Plural:** *hires*
 **Countability:** countable
@@ -4737,7 +4737,7 @@ Someone who works aggressively for money or advantage, sometimes dishonestly.
 
 ### hyacinth
 
-**Pronunciation:** /ˈhaɪrsɪnθ/ &middot; *HY-uh-sinth*
+**Pronunciation:** /ˈhaɪəsɪnθ/ &middot; *HY-uh-sinth*
 **Русский:** гиацинт
 **Plural:** *hyacinths*
 **Countability:** countable
@@ -7211,7 +7211,7 @@ The fact of taking part in something or being connected with it.
 
 ### ionization
 
-**Pronunciation:** /ˌaɪrnəˈzeɪʃən/ &middot; *eye-uh-nuh-ZAY-shuhn*
+**Pronunciation:** /ˌaɪənəˈzeɪʃən/ &middot; *eye-uh-nuh-ZAY-shuhn*
 **Русский:** ионизация
 **Countability:** uncountable
 
