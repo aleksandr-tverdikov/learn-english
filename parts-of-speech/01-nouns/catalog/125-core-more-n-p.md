@@ -5921,3 +5921,2829 @@ A difficult and troubling situation someone is stuck in.
 1. The article describes the *plight* of workers left without pay.
 2. Nobody in charge seemed to notice their *plight*.
 3. The film compares the *plights* of two families.
+
+---
+
+### plotter
+
+**Pronunciation:** /ˈplɑːtər/ &middot; *PLAH-tur*
+**Русский:** заговорщик
+**Plural:** *plotters*
+**Countability:** countable
+
+Someone who secretly plans something illegal, especially against a government.
+
+1. The coup *plotters* were arrested before dawn.
+2. Investigators now believe the *plotter* acted alone.
+3. Several *plotters* turned on each other during the trial.
+
+---
+
+### ploy
+
+**Pronunciation:** /plɔɪ/ &middot; *PLOY*
+**Русский:** уловка, хитрость
+**Plural:** *ploys*
+**Countability:** countable
+
+A clever trick used to get an advantage over someone.
+
+1. Asking for a raise the day after the deal closed was a smart *ploy*.
+2. The free coffee is just a *ploy* to get you into the store.
+3. Both sides used delay as a *ploy*.
+
+---
+
+### plume
+
+**Pronunciation:** /pluːm/ &middot; *PLOOM*
+**Русский:** шлейф (дыма, пара); плюмаж
+**Plural:** *plumes*
+**Countability:** countable
+
+A tall column of smoke, steam, or dust rising into the air.
+
+1. A *plume* of smoke rose over the ridge.
+2. Ash *plumes* from the volcano grounded flights for two days.
+3. The chimney sent up a thin *plume* of steam.
+
+---
+
+### plunge
+
+**Pronunciation:** /plʌndʒ/ &middot; *PLUNJ*
+**Русский:** резкое падение; прыжок в воду
+**Plural:** *plunges*
+**Countability:** countable
+
+A sudden sharp drop, or a quick dive into water.
+
+1. Stocks took a *plunge* after the announcement.
+2. She finally took the *plunge* and quit her job.
+3. A quick *plunge* in the lake woke everybody up.
+
+---
+
+### pluralism
+
+**Pronunciation:** /ˈplʊrəlɪzəm/ &middot; *PLOOR-uh-liz-um*
+**Русский:** плюрализм
+**Countability:** uncountable
+
+The peaceful coexistence of different groups, beliefs, and political views in one society.
+
+1. The professor writes about religious *pluralism* in America.
+2. *Pluralism* means living alongside people who disagree with you.
+3. The party once stood for political *pluralism*.
+
+---
+
+### plurality
+
+**Pronunciation:** /plʊˈræləti/ &middot; *ploo-RAL-uh-tee*
+**Русский:** относительное большинство (голосов)
+**Plural:** *pluralities*
+**Countability:** countable
+
+The largest number of votes, but still less than half of the total.
+
+1. She won a *plurality* of the vote but not a majority.
+2. A *plurality* of respondents said they were still undecided.
+3. In some states a *plurality* is enough to win the seat.
+
+---
+
+### pocketbook
+
+**Pronunciation:** /ˈpɑːkətbʊk/ &middot; *PAHK-it-buuk*
+**Русский:** дамская сумочка; кошелёк, семейный бюджет
+**Plural:** *pocketbooks*
+**Countability:** countable
+**Contrast:** Chiefly American; British English says handbag.
+
+A woman's handbag, or a person's money and household finances.
+
+1. She dug through her *pocketbook* looking for the keys.
+2. Gas prices hit family *pocketbooks* hard last winter.
+3. That repair is going to hurt my *pocketbook*.
+
+---
+
+### pogrom
+
+**Pronunciation:** /pəˈɡrɑːm/ &middot; *puh-GRAHM*
+**Русский:** погром
+**Plural:** *pogroms*
+**Countability:** countable
+
+An organized violent attack on a particular ethnic or religious group.
+
+1. Her family fled a *pogrom* in 1905.
+2. The museum documents the *pogroms* of that decade.
+3. News of the *pogrom* reached the capital days later.
+
+---
+
+### poinsettia
+
+**Pronunciation:** /pɔɪnˈsɛtiə/ &middot; *poyn-SET-ee-uh*
+**Русский:** пуансеттия, рождественская звезда
+**Plural:** *poinsettias*
+**Countability:** countable
+
+A plant with bright red upper leaves, sold as a Christmas decoration.
+
+1. We put a red *poinsettia* on the hall table.
+2. The grocery store sells *poinsettias* all through December.
+3. Keep the *poinsettia* away from the cat.
+
+---
+
+### poise
+
+**Pronunciation:** /pɔɪz/ &middot; *POYZ*
+**Русский:** самообладание, уверенность
+**Countability:** uncountable
+
+Calm, graceful self-control, especially in a difficult moment.
+
+1. She answered the hostile question with real *poise*.
+2. He lost his *poise* halfway through the speech.
+3. For a fifteen-year-old, her *poise* on stage is remarkable.
+
+---
+
+### polarity
+
+**Pronunciation:** /poʊˈlærəti/ &middot; *poh-LAR-uh-tee*
+**Русский:** полярность
+**Plural:** *polarities*
+**Countability:** countable
+
+The condition of having two opposite poles, forces, or positions.
+
+1. Check the *polarity* before you connect the battery.
+2. The two candidates represent opposite *polarities*.
+3. Reversing the *polarity* makes the motor spin the other way.
+
+---
+
+### polarization
+
+**Pronunciation:** /ˌpoʊlərəˈzeɪʃən/ &middot; *poh-lur-uh-ZAY-shun*
+**Русский:** поляризация, раскол общества
+**Countability:** uncountable
+
+The splitting of people into two sharply opposed groups.
+
+1. Political *polarization* has grown over the last decade.
+2. The debate only deepened the *polarization*.
+3. Researchers measure *polarization* by how voters describe the other side.
+
+---
+
+### polenta
+
+**Pronunciation:** /pəˈlɛntə/ &middot; *puh-LEN-tuh*
+**Русский:** полента (кукурузная каша)
+**Countability:** uncountable
+
+A thick cornmeal dish from northern Italy, served soft or sliced and fried.
+
+1. The special came with braised beef over creamy *polenta*.
+2. He fried the leftover *polenta* into golden squares.
+3. *Polenta* takes about forty minutes of steady stirring.
+
+---
+
+### policyholder
+
+**Pronunciation:** /ˈpɑːləsihoʊldər/ &middot; *PAH-luh-see-hohl-dur*
+**Русский:** страхователь, владелец полиса
+**Plural:** *policyholders*
+**Countability:** countable
+
+A person or company that owns an insurance policy.
+
+1. *Policyholders* will get a refund this spring.
+2. As the *policyholder*, you have to file the claim yourself.
+3. The company notified every *policyholder* by mail.
+
+---
+
+### politeness
+
+**Pronunciation:** /pəˈlaɪtnəs/ &middot; *puh-LYTE-nus*
+**Русский:** вежливость
+**Countability:** uncountable
+
+Behavior that shows good manners and respect for other people.
+
+1. He listened out of *politeness*, not interest.
+2. Basic *politeness* costs nothing.
+3. Her *politeness* never slipped, even when she was furious.
+
+---
+
+### polka
+
+**Pronunciation:** /ˈpoʊlkə/ &middot; *POHL-kuh*
+**Русский:** полька (танец)
+**Plural:** *polkas*
+**Countability:** countable
+**Contrast:** In polka dot most Americans drop the l and say POH-kuh, but the dance is POHL-kuh.
+
+A lively dance for couples with a quick hopping step, or the music for it.
+
+1. The band played a *polka* at the wedding.
+2. My grandparents can still dance a *polka*.
+3. The festival features *polkas* all afternoon.
+
+---
+
+### pollster
+
+**Pronunciation:** /ˈpoʊlstər/ &middot; *POHL-stur*
+**Русский:** социолог, специалист по опросам
+**Plural:** *pollsters*
+**Countability:** countable
+
+Someone whose job is to conduct public opinion polls.
+
+1. *Pollsters* missed the shift in rural counties.
+2. A *pollster* called our house twice last week.
+3. The network's *pollster* explained the margin of error.
+
+---
+
+### pollutant
+
+**Pronunciation:** /pəˈluːtənt/ &middot; *puh-LOO-tunt*
+**Русский:** загрязняющее вещество
+**Plural:** *pollutants*
+**Countability:** countable
+
+A substance that makes air, water, or soil dirty and harmful.
+
+1. The plant released *pollutants* straight into the river.
+2. Lead is a *pollutant* that stays in the soil for years.
+3. The new rule limits six airborne *pollutants*.
+
+---
+
+### polluter
+
+**Pronunciation:** /pəˈluːtər/ &middot; *puh-LOO-tur*
+**Русский:** загрязнитель (предприятие, страна)
+**Plural:** *polluters*
+**Countability:** countable
+
+A person, company, or country that pollutes the environment.
+
+1. The state fined the biggest *polluters* in the valley.
+2. He argues that the *polluter* should pay for the cleanup.
+3. China and the United States are the two largest *polluters*.
+
+---
+
+### polo
+
+**Pronunciation:** /ˈpoʊloʊ/ &middot; *POH-loh*
+**Русский:** поло (игра на лошадях)
+**Countability:** uncountable
+
+A team sport played on horseback with long mallets and a ball.
+
+1. He learned to play *polo* in Argentina.
+2. The club hosts a *polo* match every June.
+3. *Polo* is expensive mostly because of the horses.
+
+---
+
+### poltergeist
+
+**Pronunciation:** /ˈpoʊltərɡaɪst/ &middot; *POHL-tur-gyste*
+**Русский:** полтергейст
+**Plural:** *poltergeists*
+**Countability:** countable
+
+A ghost that is said to make noise and move objects around.
+
+1. The kids were convinced a *poltergeist* lived in the attic.
+2. Movies about *poltergeists* always start with slamming doors.
+3. She joked that a *poltergeist* keeps hiding her keys.
+
+---
+
+### polyethylene
+
+**Pronunciation:** /ˌpɑːliˈɛθəliːn/ &middot; *pah-lee-ETH-uh-leen*
+**Русский:** полиэтилен
+**Countability:** uncountable
+
+A common lightweight plastic used for bags, bottles, and sheeting.
+
+1. The bags are made of recycled *polyethylene*.
+2. Cover the lumber with *polyethylene* sheeting before it rains.
+3. *Polyethylene* is the most widely produced plastic in the world.
+
+---
+
+### polygamy
+
+**Pronunciation:** /pəˈlɪɡəmi/ &middot; *puh-LIG-uh-mee*
+**Русский:** многожёнство, полигамия
+**Countability:** uncountable
+
+The practice of being married to more than one person at the same time.
+
+1. *Polygamy* is illegal in all fifty states.
+2. The documentary follows a community that practices *polygamy*.
+3. He was charged with fraud, not *polygamy*.
+
+---
+
+### polygraph
+
+**Pronunciation:** /ˈpɑːliɡræf/ &middot; *PAH-lee-graf*
+**Русский:** полиграф, детектор лжи
+**Plural:** *polygraphs*
+**Countability:** countable
+
+A machine that measures body responses to test whether someone is lying.
+
+1. He agreed to take a *polygraph*.
+2. *Polygraph* results are not admissible in most courts.
+3. The agency requires a *polygraph* before hiring.
+
+---
+
+### polyhedron
+
+**Pronunciation:** /ˌpɑːliˈhiːdrən/ &middot; *pah-lee-HEE-drun*
+**Русский:** многогранник
+**Plural:** *polyhedrons*
+**Countability:** countable
+**Contrast:** Two plurals are used: polyhedrons and the Greek form polyhedra.
+
+A solid shape whose faces are all flat polygons.
+
+1. A cube is the simplest *polyhedron* most kids can name.
+2. We built paper *polyhedrons* in geometry class.
+3. Every face of this *polyhedron* is a triangle.
+
+---
+
+### polymath
+
+**Pronunciation:** /ˈpɑːlimæθ/ &middot; *PAH-lee-math*
+**Русский:** эрудит, разносторонний человек
+**Plural:** *polymaths*
+**Countability:** countable
+
+Someone who knows a great deal about many different subjects.
+
+1. Franklin was a printer, a scientist, and a diplomat — a real *polymath*.
+2. The obituary called her a *polymath*.
+3. *Polymaths* were more common before knowledge got so specialized.
+
+---
+
+### polynomial
+
+**Pronunciation:** /ˌpɑːliˈnoʊmiəl/ &middot; *pah-lee-NOH-mee-ul*
+**Русский:** многочлен, полином
+**Plural:** *polynomials*
+**Countability:** countable
+
+An algebraic expression made of several terms added together.
+
+1. Factor the *polynomial* on the board.
+2. We spent a whole week on *polynomials* in algebra.
+3. The curve is described by a third-degree *polynomial*.
+
+---
+
+### polyp
+
+**Pronunciation:** /ˈpɑːləp/ &middot; *PAH-lup*
+**Русский:** полип
+**Plural:** *polyps*
+**Countability:** countable
+
+A small growth on the inner lining of the body, or a simple sea animal such as a coral.
+
+1. The doctor removed two *polyps* during the colonoscopy.
+2. A nasal *polyp* was blocking his breathing.
+3. Each coral *polyp* builds its own tiny skeleton.
+
+---
+
+### polystyrene
+
+**Pronunciation:** /ˌpɑːliˈstaɪriːn/ &middot; *pah-lee-STY-reen*
+**Русский:** полистирол, пенопласт
+**Countability:** uncountable
+
+A rigid plastic used for foam cups, packing material, and insulation.
+
+1. The mug arrived packed in *polystyrene* peanuts.
+2. The city banned *polystyrene* takeout containers.
+3. *Polystyrene* insulation goes in behind the drywall.
+
+---
+
+### polytheism
+
+**Pronunciation:** /ˈpɑːliθiɪzəm/ &middot; *PAH-lee-thee-iz-um*
+**Русский:** многобожие, политеизм
+**Countability:** uncountable
+
+Belief in more than one god.
+
+1. Ancient Greek religion was a form of *polytheism*.
+2. The lecture contrasted monotheism and *polytheism*.
+3. *Polytheism* was the norm across the ancient world.
+
+---
+
+### polyurethane
+
+**Pronunciation:** /ˌpɑːliˈjʊrəθeɪn/ &middot; *pah-lee-YUUR-uh-thayn*
+**Русский:** полиуретан
+**Countability:** uncountable
+
+A tough plastic used in foam, varnish, and protective coatings.
+
+1. Put three coats of *polyurethane* on the floor.
+2. The cushions are filled with *polyurethane* foam.
+3. *Polyurethane* dries clear and very hard.
+
+---
+
+### pomp
+
+**Pronunciation:** /pɑːmp/ &middot; *PAHMP*
+**Русский:** пышность, помпезность
+**Countability:** uncountable
+
+Grand, showy ceremony.
+
+1. The coronation was staged with enormous *pomp*.
+2. There was surprisingly little *pomp* at the swearing-in.
+3. He hates the *pomp* of graduation ceremonies.
+
+---
+
+### pontoon
+
+**Pronunciation:** /pɑːnˈtuːn/ &middot; *pahn-TOON*
+**Русский:** понтон
+**Plural:** *pontoons*
+**Countability:** countable
+
+A hollow float or floating structure that supports a boat, dock, or temporary bridge.
+
+1. We rented a *pontoon* boat for the weekend.
+2. Engineers threw a *pontoon* bridge across the river.
+3. One *pontoon* had a slow leak.
+
+---
+
+### populace
+
+**Pronunciation:** /ˈpɑːpjələs/ &middot; *PAH-pyuh-lus*
+**Русский:** население, простой народ
+**Countability:** uncountable
+**Contrast:** Near-homophone of the adjective populous, which means having a large population.
+
+The ordinary people who live in a country or area.
+
+1. The new tax angered the *populace*.
+2. Radio was how the government reached the rural *populace*.
+3. A well-informed *populace* is hard to fool.
+
+---
+
+### popularity
+
+**Pronunciation:** /ˌpɑːpjəˈlærəti/ &middot; *pah-pyuh-LAR-uh-tee*
+**Русский:** популярность
+**Countability:** uncountable
+
+The state of being liked or supported by many people.
+
+1. The show's *popularity* surprised the network.
+2. His *popularity* fell sharply after the scandal.
+3. Pickleball has exploded in *popularity*.
+
+---
+
+### populism
+
+**Pronunciation:** /ˈpɑːpjəlɪzəm/ &middot; *PAH-pyuh-liz-um*
+**Русский:** популизм
+**Countability:** uncountable
+
+A political approach that claims to speak for ordinary people against the elite.
+
+1. The article traces the rise of *populism* in Europe.
+2. Her campaign mixed *populism* with careful economic detail.
+3. *Populism* looks different in every country.
+
+---
+
+### pornography
+
+**Pronunciation:** /pɔːrˈnɑːɡrəfi/ &middot; *por-NAH-gruh-fee*
+**Русский:** порнография
+**Countability:** uncountable
+
+Films, pictures, or writing meant to cause sexual excitement.
+
+1. Federal law treats child *pornography* as a serious crime.
+2. The filter blocks *pornography* on the school network.
+3. He wrote a book about *pornography* and the internet.
+
+---
+
+### porridge
+
+**Pronunciation:** /ˈpɔːrɪdʒ/ &middot; *POR-ij*
+**Русский:** каша (обычно овсяная)
+**Countability:** uncountable
+**Contrast:** Americans usually say oatmeal for the everyday breakfast dish; porridge sounds British or storybook.
+
+A soft hot cereal made by boiling grain in water or milk.
+
+1. The baby had *porridge* for breakfast.
+2. Goldilocks tasted three bowls of *porridge*.
+3. He makes *porridge* with oats, milk, and a little honey.
+
+---
+
+### portability
+
+**Pronunciation:** /ˌpɔːrtəˈbɪləti/ &middot; *por-tuh-BIL-uh-tee*
+**Русский:** переносимость, портативность
+**Countability:** uncountable
+
+The quality of being easy to carry, or of transferring easily from one system to another.
+
+1. The law protects the *portability* of your health coverage.
+2. *Portability* was the main selling point of the first laptops.
+3. Number *portability* lets you keep your phone number when you switch carriers.
+
+---
+
+### portal
+
+**Pronunciation:** /ˈpɔːrtəl/ &middot; *POR-tul*
+**Русский:** портал (вход; сайт)
+**Plural:** *portals*
+**Countability:** countable
+
+A grand doorway, or a website that serves as an entry point to services.
+
+1. Grades are posted on the student *portal*.
+2. The cathedral's west *portal* is carved with saints.
+3. In the movie the mirror is a *portal* to another world.
+
+---
+
+### porterhouse
+
+**Pronunciation:** /ˈpɔːrtərhaʊs/ &middot; *POR-tur-howss*
+**Русский:** стейк портерхаус
+**Plural:** *porterhouses*
+**Countability:** countable
+
+A large beef steak cut from the short loin, with tenderloin on one side of the bone.
+
+1. He ordered a twenty-four-ounce *porterhouse*.
+2. Two *porterhouses* fed the whole table.
+3. The *porterhouse* comes with the bone down the middle.
+
+---
+
+### portrayal
+
+**Pronunciation:** /pɔːrˈtreɪəl/ &middot; *por-TRAY-ul*
+**Русский:** изображение; исполнение роли
+**Plural:** *portrayals*
+**Countability:** countable
+
+The way someone or something is shown in a book, film, or performance.
+
+1. Her *portrayal* of the queen won an Oscar.
+2. The film's *portrayal* of the strike angered historians.
+3. Critics praised both *portrayals*.
+
+---
+
+### pose
+
+**Pronunciation:** /poʊz/ &middot; *POHZ*
+**Русский:** поза
+**Plural:** *poses*
+**Countability:** countable
+
+A particular position in which someone holds the body, especially for a photo or a painting.
+
+1. Hold that *pose* while I focus the camera.
+2. The yoga class ended with a resting *pose*.
+3. He struck a dramatic *pose* on the courthouse steps.
+
+---
+
+### positivity
+
+**Pronunciation:** /ˌpɑːzəˈtɪvəti/ &middot; *pah-zuh-TIV-uh-tee*
+**Русский:** позитивный настрой, оптимизм
+**Countability:** uncountable
+
+A generally hopeful and cheerful attitude.
+
+1. Her *positivity* got the team through a rough season.
+2. Everyone is tired of forced *positivity* at work.
+3. There is a difference between *positivity* and denial.
+
+---
+
+### posse
+
+**Pronunciation:** /ˈpɑːsi/ &middot; *PAH-see*
+**Русский:** отряд (в помощь шерифу); компания, свита
+**Plural:** *posses*
+**Countability:** countable
+
+A group gathered to help a sheriff, or informally a person's group of friends.
+
+1. The sheriff formed a *posse* to search the canyon.
+2. She showed up at the party with her whole *posse*.
+3. Old Westerns always have a *posse* on horseback.
+
+---
+
+### possession
+
+**Pronunciation:** /pəˈzɛʃən/ &middot; *puh-ZESH-un*
+**Русский:** владение, обладание; (мн.) имущество
+**Plural:** *possessions*
+**Countability:** both — countable and uncountable with different meanings
+
+The state of having or owning something, or a thing that you own.
+
+1. He was arrested for *possession* of a stolen credit card.
+2. They packed all their *possessions* into one van.
+3. The keys are in my *possession*.
+
+---
+
+### possibility
+
+**Pronunciation:** /ˌpɑːsəˈbɪləti/ &middot; *pah-suh-BIL-uh-tee*
+**Русский:** возможность, вероятность
+**Plural:** *possibilities*
+**Countability:** countable
+
+Something that may happen or may turn out to be true.
+
+1. Rain is a real *possibility* tomorrow.
+2. We talked through several *possibilities*.
+3. There is a *possibility* that the flight gets canceled.
+
+---
+
+### postage
+
+**Pronunciation:** /ˈpoʊstɪdʒ/ &middot; *POH-stij*
+**Русский:** почтовые расходы, стоимость пересылки
+**Countability:** uncountable
+
+The money charged for sending something by mail.
+
+1. *Postage* went up again this year.
+2. Include a dollar for *postage* and handling.
+3. The envelope came back for insufficient *postage*.
+
+---
+
+### postdoc
+
+**Pronunciation:** /ˈpoʊstdɑːk/ &middot; *POHST-dahk*
+**Русский:** постдок (научный сотрудник после защиты)
+**Plural:** *postdocs*
+**Countability:** countable
+
+A temporary research position taken after a doctorate, or the researcher who holds it.
+
+1. She's doing a *postdoc* in molecular biology.
+2. Two *postdocs* run the lab day to day.
+3. He turned down a *postdoc* to work in industry.
+
+---
+
+### posterity
+
+**Pronunciation:** /pɑːˈstɛrəti/ &middot; *pah-STER-uh-tee*
+**Русский:** потомки, будущие поколения
+**Countability:** uncountable
+
+The people who will live after us.
+
+1. The letters were saved for *posterity*.
+2. He wanted his side of the story recorded for *posterity*.
+3. *Posterity* will judge this decision.
+
+---
+
+### posting
+
+**Pronunciation:** /ˈpoʊstɪŋ/ &middot; *POH-sting*
+**Русский:** объявление (о вакансии); публикация
+**Plural:** *postings*
+**Countability:** countable
+
+A notice or message put up publicly, especially a job advertisement.
+
+1. The job *posting* closes on Friday.
+2. I found the apartment through a *posting* online.
+3. Several *postings* were taken down after complaints.
+
+---
+
+### postmark
+
+**Pronunciation:** /ˈpoʊstmɑːrk/ &middot; *POHST-mark*
+**Русский:** почтовый штемпель
+**Plural:** *postmarks*
+**Countability:** countable
+
+An official mark stamped on mail showing the date and place it was sent.
+
+1. The envelope had a Chicago *postmark*.
+2. Entries must carry a *postmark* no later than Friday.
+3. She studied the *postmark* to see when it was mailed.
+
+---
+
+### postmaster
+
+**Pronunciation:** /ˈpoʊstmæstər/ &middot; *POHST-mas-tur*
+**Русский:** начальник почтового отделения
+**Plural:** *postmasters*
+**Countability:** countable
+
+The person in charge of a post office.
+
+1. The *postmaster* held our mail while we were away.
+2. He served as *postmaster* of the town for thirty years.
+3. Two *postmasters* testified before the committee.
+
+---
+
+### postmortem
+
+**Pronunciation:** /ˌpoʊstˈmɔːrtəm/ &middot; *pohst-MOR-tum*
+**Русский:** вскрытие; разбор итогов
+**Plural:** *postmortems*
+**Countability:** countable
+
+An examination of a dead body, or a review of a project after it is finished.
+
+1. The *postmortem* showed he died of heart failure.
+2. We hold a *postmortem* after every product launch.
+3. Their campaign *postmortem* was brutally honest.
+
+---
+
+### postponement
+
+**Pronunciation:** /poʊstˈpoʊnmənt/ &middot; *pohst-POHN-munt*
+**Русский:** отсрочка, перенос
+**Plural:** *postponements*
+**Countability:** countable
+
+The act of moving an event to a later time.
+
+1. The *postponement* of the trial surprised no one.
+2. Two *postponements* later, the wedding finally happened.
+3. They asked the judge for a short *postponement*.
+
+---
+
+### postscript
+
+**Pronunciation:** /ˈpoʊstskrɪpt/ &middot; *POHST-skript*
+**Русский:** постскриптум, приписка
+**Plural:** *postscripts*
+**Countability:** countable
+
+A short note added at the end of a letter or a book.
+
+1. She added a *postscript* asking about the dog.
+2. The *postscript* is the only interesting part of the memo.
+3. His memoir ends with a sad *postscript*.
+
+---
+
+### posturing
+
+**Pronunciation:** /ˈpɑːstʃərɪŋ/ &middot; *PAHS-chur-ing*
+**Русский:** показное поведение, позёрство
+**Countability:** uncountable
+
+Behavior meant to impress people rather than to achieve anything real.
+
+1. Most of the debate was political *posturing*.
+2. Ignore the *posturing* and read the actual offer.
+3. There was a lot of tough *posturing* before the deal closed.
+
+---
+
+### potency
+
+**Pronunciation:** /ˈpoʊtənsi/ &middot; *POH-tun-see*
+**Русский:** сила, действенность
+**Countability:** uncountable
+
+The strength or effectiveness of something, especially a drug or an argument.
+
+1. The vaccine loses *potency* if it gets warm.
+2. The label lists the *potency* of each capsule.
+3. Her argument has not lost its *potency*.
+
+---
+
+### potential
+
+**Pronunciation:** /pəˈtɛnʃəl/ &middot; *puh-TEN-shul*
+**Русский:** потенциал, возможности
+**Countability:** uncountable
+
+Qualities that could be developed and lead to future success.
+
+1. The kid has real *potential*.
+2. The empty lot has *potential* for a small park.
+3. Investors saw enormous *potential* in the technology.
+
+---
+
+### potholder
+
+**Pronunciation:** /ˈpɑːthoʊldər/ &middot; *PAHT-hohl-dur*
+**Русский:** прихватка
+**Plural:** *potholders*
+**Countability:** countable
+
+A thick pad of cloth used to hold hot pans and dishes.
+
+1. Grab a *potholder* before you touch that lid.
+2. She knits *potholders* as Christmas gifts.
+3. The *potholder* has a scorch mark across one corner.
+
+---
+
+### potion
+
+**Pronunciation:** /ˈpoʊʃən/ &middot; *POH-shun*
+**Русский:** зелье, снадобье
+**Plural:** *potions*
+**Countability:** countable
+
+A drink believed to have magic or medicinal power.
+
+1. The witch stirs a *potion* in the second act.
+2. He drank the love *potion* by mistake.
+3. In the game, *potions* restore your health.
+
+---
+
+### potpie
+
+**Pronunciation:** /ˈpɑːtpaɪ/ &middot; *PAHT-py*
+**Русский:** пирог с мясом и овощами
+**Plural:** *potpies*
+**Countability:** countable
+
+A savory pie of meat and vegetables baked under a crust.
+
+1. She made chicken *potpie* for dinner.
+2. Frozen *potpies* were a weeknight staple growing up.
+3. The diner's beef *potpie* comes in its own little dish.
+
+---
+
+### potpourri
+
+**Pronunciation:** /ˌpoʊpʊˈriː/ &middot; *poh-puu-REE*
+**Русский:** ароматическая смесь сухих лепестков; попурри
+**Countability:** uncountable
+**Contrast:** French spelling: the double r is silent as a cluster and the word ends in a long ee sound, poh-puu-REE.
+
+A scented mixture of dried flower petals and spices kept in a bowl.
+
+1. There was a bowl of *potpourri* in the guest bathroom.
+2. The *potpourri* smells like cinnamon and orange.
+3. She refills the *potpourri* every fall.
+
+---
+
+### potshot
+
+**Pronunciation:** /ˈpɑːtʃɑːt/ &middot; *PAHT-shaht*
+**Русский:** выпад, шпилька; выстрел наугад
+**Plural:** *potshots*
+**Countability:** countable
+
+A casual critical remark aimed at someone, or a shot fired without careful aim.
+
+1. He took a *potshot* at the mayor in his speech.
+2. Reporters kept taking *potshots* at the coach.
+3. Someone fired a *potshot* at the road sign.
+
+---
+
+### potter
+
+**Pronunciation:** /ˈpɑːtər/ &middot; *PAH-tur*
+**Русский:** гончар
+**Plural:** *potters*
+**Countability:** countable
+
+Someone who makes bowls, pots, and other objects out of clay.
+
+1. The *potter* threw a bowl on the wheel in about a minute.
+2. Local *potters* sell their work at the fall fair.
+3. She apprenticed with a *potter* in Vermont.
+
+---
+
+### powerhouse
+
+**Pronunciation:** /ˈpaʊərhaʊs/ &middot; *POW-ur-howss*
+**Русский:** лидер, мощная сила
+**Plural:** *powerhouses*
+**Countability:** countable
+
+A person, team, or country with great strength, energy, or influence.
+
+1. The school is a football *powerhouse*.
+2. Germany remains an industrial *powerhouse*.
+3. Those two are *powerhouses* in the design world.
+
+---
+
+### powwow
+
+**Pronunciation:** /ˈpaʊwaʊ/ &middot; *POW-wow*
+**Русский:** собрание, совещание; праздник индейцев
+**Plural:** *powwows*
+**Countability:** countable
+
+A Native American gathering with dancing and drumming, or informally a quick meeting.
+
+1. The tribe holds a *powwow* every August.
+2. Let's have a quick *powwow* before the client calls.
+3. Dancers came to the *powwow* from six states.
+
+---
+
+### practicality
+
+**Pronunciation:** /ˌpræktɪˈkæləti/ &middot; *prak-tih-KAL-uh-tee*
+**Русский:** практичность; (мн.) практические вопросы
+**Plural:** *practicalities*
+**Countability:** both — countable and uncountable with different meanings
+
+The quality of being sensible and workable, or in the plural the practical details of doing something.
+
+1. I love the design, but I question its *practicality*.
+2. We still have to work out the *practicalities* of moving.
+3. The plan sounds lovely; the *practicalities* are harder.
+
+---
+
+### practitioner
+
+**Pronunciation:** /prækˈtɪʃənər/ &middot; *prak-TISH-uh-nur*
+**Русский:** практикующий специалист (врач, юрист)
+**Plural:** *practitioners*
+**Countability:** countable
+
+Someone who works in a profession, especially medicine or law.
+
+1. Ask a nurse *practitioner* about the dosage.
+2. The clinic has four family *practitioners*.
+3. He is a respected *practitioner* of immigration law.
+
+---
+
+### pragmatism
+
+**Pronunciation:** /ˈpræɡmətɪzəm/ &middot; *PRAG-muh-tiz-um*
+**Русский:** прагматизм
+**Countability:** uncountable
+
+A practical approach that deals with things as they are rather than as they should be.
+
+1. Her *pragmatism* saved the negotiation.
+2. The budget reflects *pragmatism*, not ideology.
+3. There is a fine line between *pragmatism* and giving up.
+
+---
+
+### pragmatist
+
+**Pronunciation:** /ˈpræɡmətɪst/ &middot; *PRAG-muh-tist*
+**Русский:** прагматик
+**Plural:** *pragmatists*
+**Countability:** countable
+
+Someone who deals with problems practically instead of by strict principle.
+
+1. He's a *pragmatist* who will take the best deal available.
+2. *Pragmatists* on both sides finally met in the middle.
+3. As a *pragmatist*, she cares mostly about what works.
+
+---
+
+### praise
+
+**Pronunciation:** /preɪz/ &middot; *PRAYZ*
+**Русский:** похвала
+**Countability:** uncountable
+
+Words expressing approval or admiration.
+
+1. The film got glowing *praise* from critics.
+2. She had nothing but *praise* for the nurses.
+3. He is generous with *praise* and sparing with blame.
+
+---
+
+### prankster
+
+**Pronunciation:** /ˈpræŋkstər/ &middot; *PRANK-stur*
+**Русский:** шутник, проказник
+**Plural:** *pranksters*
+**Countability:** countable
+
+Someone who plays tricks on other people for fun.
+
+1. Some *prankster* wrapped the statue in aluminum foil.
+2. He was the class *prankster* in high school.
+3. *Pranksters* set off the fire alarm again.
+
+---
+
+### preamble
+
+**Pronunciation:** /ˈpriːæmbəl/ &middot; *PREE-am-bul*
+**Русский:** преамбула, вступление
+**Plural:** *preambles*
+**Countability:** countable
+
+An introductory statement at the beginning of a document or a speech.
+
+1. We had to memorize the *preamble* to the Constitution.
+2. After a long *preamble*, she finally got to the point.
+3. The treaty's *preamble* lists the goals of both parties.
+
+---
+
+### precedence
+
+**Pronunciation:** /ˈprɛsɪdəns/ &middot; *PRES-ih-duns*
+**Русский:** приоритет, преимущество
+**Countability:** uncountable
+**Contrast:** Not the same as precedent, an earlier case used as an example.
+
+The right to come before others in importance or order.
+
+1. Safety takes *precedence* over speed.
+2. Family emergencies take *precedence* over everything else.
+3. Seniority determines *precedence* in the seating chart.
+
+---
+
+### precipice
+
+**Pronunciation:** /ˈprɛsəpəs/ &middot; *PRES-uh-pus*
+**Русский:** обрыв, край пропасти
+**Plural:** *precipices*
+**Countability:** countable
+
+A very steep cliff face, often used figuratively for the edge of disaster.
+
+1. The trail runs right along a *precipice*.
+2. The economy stood on the *precipice* of recession.
+3. He backed away from the *precipice* at the last second.
+
+---
+
+### precondition
+
+**Pronunciation:** /ˌpriːkənˈdɪʃən/ &middot; *pree-kun-DISH-un*
+**Русский:** предварительное условие
+**Plural:** *preconditions*
+**Countability:** countable
+
+Something that must exist or happen before something else can.
+
+1. A ceasefire is a *precondition* for talks.
+2. They set three *preconditions* for signing.
+3. The loan came with no *preconditions* at all.
+
+---
+
+### precursor
+
+**Pronunciation:** /prɪˈkɜːrsər/ &middot; *prih-KUR-sur*
+**Русский:** предшественник, предвестник
+**Plural:** *precursors*
+**Countability:** countable
+
+Something that comes before and leads to something else.
+
+1. The telegraph was a *precursor* to the telephone.
+2. Mild tremors can be *precursors* to a larger quake.
+3. This protein is a *precursor* of insulin.
+
+---
+
+### predation
+
+**Pronunciation:** /prɪˈdeɪʃən/ &middot; *prih-DAY-shun*
+**Русский:** хищничество
+**Countability:** uncountable
+
+The killing and eating of one animal by another.
+
+1. *Predation* keeps the deer population in check.
+2. Nesting birds are vulnerable to *predation* by cats.
+3. The study measured *predation* rates inside the reserve.
+
+---
+
+### predecessor
+
+**Pronunciation:** /ˈprɛdəsɛsər/ &middot; *PRED-uh-ses-ur*
+**Русский:** предшественник
+**Plural:** *predecessors*
+**Countability:** countable
+
+The person or thing that came before the current one.
+
+1. The new director reversed her *predecessor*'s policy.
+2. This phone is thinner than its *predecessor*.
+3. Three of his *predecessors* resigned in scandal.
+
+---
+
+### predicament
+
+**Pronunciation:** /prɪˈdɪkəmənt/ &middot; *prih-DIK-uh-munt*
+**Русский:** затруднительное положение
+**Plural:** *predicaments*
+**Countability:** countable
+
+A difficult situation with no easy way out.
+
+1. I got myself into quite a *predicament*.
+2. She explained her *predicament* to the landlord.
+3. Both families were in the same *predicament*.
+
+---
+
+### prediction
+
+**Pronunciation:** /prɪˈdɪkʃən/ &middot; *prih-DIK-shun*
+**Русский:** предсказание, прогноз
+**Plural:** *predictions*
+**Countability:** countable
+
+A statement about what someone thinks will happen.
+
+1. His *prediction* about the election was badly wrong.
+2. Weather *predictions* beyond ten days are unreliable.
+3. Nobody's *prediction* came close.
+
+---
+
+### predictor
+
+**Pronunciation:** /prɪˈdɪktər/ &middot; *prih-DIK-tur*
+**Русский:** прогностический фактор, предиктор
+**Plural:** *predictors*
+**Countability:** countable
+
+A fact or measurement that helps show what is likely to happen.
+
+1. Attendance is a strong *predictor* of grades.
+2. Income is only one *predictor* of health.
+3. The model uses six *predictors*.
+
+---
+
+### predilection
+
+**Pronunciation:** /ˌprɛdəˈlɛkʃən/ &middot; *pred-uh-LEK-shun*
+**Русский:** склонность, пристрастие
+**Plural:** *predilections*
+**Countability:** countable
+
+A strong liking or preference for something.
+
+1. He has a *predilection* for old jazz records.
+2. Her *predilection* for risk shows in the portfolio.
+3. The chef's *predilections* run toward simple food.
+
+---
+
+### prefab
+
+**Pronunciation:** /ˈpriːfæb/ &middot; *PREE-fab*
+**Русский:** сборный дом (из готовых конструкций)
+**Plural:** *prefabs*
+**Countability:** countable
+
+A building put together from sections made in a factory.
+
+1. They put up a *prefab* in three days.
+2. Postwar neighborhoods were full of *prefabs*.
+3. The cabin is a *prefab* that came as a kit.
+
+---
+
+### prelude
+
+**Pronunciation:** /ˈpreɪluːd/ &middot; *PRAY-lood*
+**Русский:** прелюдия, вступление
+**Plural:** *preludes*
+**Countability:** countable
+
+Something that comes before and leads into a more important event, or a short piece of music.
+
+1. The border clashes were a *prelude* to war.
+2. She played a Chopin *prelude* as an encore.
+3. Dinner was just a *prelude* to the real meeting.
+
+---
+
+### premise
+
+**Pronunciation:** /ˈprɛməs/ &middot; *PREM-iss*
+**Русский:** посылка, исходное положение
+**Plural:** *premises*
+**Countability:** countable
+**Contrast:** The plural premises usually means a building and its grounds: no smoking on the premises.
+
+A statement or idea that an argument is built on.
+
+1. The whole plan rests on a false *premise*.
+2. Accept that *premise* and the rest follows.
+3. Her argument has two unstated *premises*.
+
+---
+
+### preparation
+
+**Pronunciation:** /ˌprɛpəˈreɪʃən/ &middot; *prep-uh-RAY-shun*
+**Русский:** подготовка; (мн.) приготовления
+**Plural:** *preparations*
+**Countability:** both — countable and uncountable with different meanings
+
+The work of getting ready for something, or in the plural the arrangements made.
+
+1. Months of *preparation* went into the show.
+2. *Preparations* for the storm began Tuesday morning.
+3. She passed the test with almost no *preparation*.
+
+---
+
+### prepayment
+
+**Pronunciation:** /ˌpriːˈpeɪmənt/ &middot; *pree-PAY-munt*
+**Русский:** предоплата
+**Plural:** *prepayments*
+**Countability:** countable
+
+Money paid before goods or services are received, or before a debt is due.
+
+1. The contract requires a *prepayment* of half the fee.
+2. Some mortgages charge a penalty for early *prepayment*.
+3. They accept *prepayments* by card or check.
+
+---
+
+### prerogative
+
+**Pronunciation:** /prɪˈrɑːɡətɪv/ &middot; *prih-RAH-guh-tiv*
+**Русский:** прерогатива, исключительное право
+**Plural:** *prerogatives*
+**Countability:** countable
+
+A special right or privilege belonging to a particular person or position.
+
+1. Setting the agenda is the chair's *prerogative*.
+2. If you want to leave early, that's your *prerogative*.
+3. Pardons are a presidential *prerogative*.
+
+---
+
+### preseason
+
+**Pronunciation:** /ˈpriːsiːzən/ &middot; *PREE-see-zun*
+**Русский:** предсезонный период, предсезонные игры
+**Plural:** *preseasons*
+**Countability:** countable
+
+The period of practice and exhibition games before a sports season begins.
+
+1. He hurt his knee in the *preseason*.
+2. The team went three and one in the *preseason*.
+3. *Preseason* is when coaches try out young players.
+
+---
+
+### presence
+
+**Pronunciation:** /ˈprɛzəns/ &middot; *PREZ-uns*
+**Русский:** присутствие
+**Countability:** uncountable
+
+The fact of being in a particular place, or an impressive personal manner.
+
+1. Her *presence* calmed everyone down.
+2. The company has a growing *presence* in Asia.
+3. Police *presence* was heavy downtown all weekend.
+
+---
+
+### presenter
+
+**Pronunciation:** /prɪˈzɛntər/ &middot; *prih-ZEN-tur*
+**Русский:** докладчик; ведущий
+**Plural:** *presenters*
+**Countability:** countable
+
+Someone who gives a talk or introduces part of a program.
+
+1. The first *presenter* ran over her time.
+2. Each *presenter* gets fifteen minutes and five for questions.
+3. The awards show lined up eight *presenters*.
+
+---
+
+### preservation
+
+**Pronunciation:** /ˌprɛzərˈveɪʃən/ &middot; *prez-ur-VAY-shun*
+**Русский:** сохранение, консервация
+**Countability:** uncountable
+
+The act of keeping something in its original state or protecting it from harm.
+
+1. The grant funds the *preservation* of historic barns.
+2. Salt was once the main method of food *preservation*.
+3. *Preservation* of the wetlands is the whole point of the law.
+
+---
+
+### preservative
+
+**Pronunciation:** /prɪˈzɜːrvətɪv/ &middot; *prih-ZUR-vuh-tiv*
+**Русский:** консервант
+**Plural:** *preservatives*
+**Countability:** countable
+
+A substance added to food or wood to keep it from spoiling or rotting.
+
+1. The label says no artificial *preservatives*.
+2. Salt is the oldest *preservative* there is.
+3. The deck stain contains a wood *preservative*.
+
+---
+
+### preserve
+
+**Pronunciation:** /prɪˈzɜːrv/ &middot; *prih-ZURV*
+**Русский:** заповедник, охраняемая территория
+**Plural:** *preserves*
+**Countability:** countable
+**Contrast:** In the plural, preserves also means fruit jam: a jar of peach preserves.
+
+An area of land or water where wildlife is protected.
+
+1. Elk winter in the state *preserve*.
+2. The family donated the land as a nature *preserve*.
+3. Hunting is banned in both *preserves*.
+
+---
+
+### presidency
+
+**Pronunciation:** /ˈprɛzədənsi/ &middot; *PREZ-uh-dun-see*
+**Русский:** президентство, президентский срок
+**Plural:** *presidencies*
+**Countability:** countable
+
+The office of president, or the period during which someone holds it.
+
+1. She announced a run for the *presidency*.
+2. His *presidency* lasted a single term.
+3. Two *presidencies* later, the law was finally repealed.
+
+---
+
+### presumption
+
+**Pronunciation:** /prɪˈzʌmpʃən/ &middot; *prih-ZUMP-shun*
+**Русский:** презумпция, предположение
+**Plural:** *presumptions*
+**Countability:** countable
+
+Something taken to be true until it is proven otherwise.
+
+1. Every defendant enjoys the *presumption* of innocence.
+2. The *presumption* is that the deal closes Friday.
+3. The statute makes several *presumptions* about intent.
+
+---
+
+### preteen
+
+**Pronunciation:** /ˈpriːtiːn/ &middot; *PREE-teen*
+**Русский:** ребёнок 9–12 лет, предподросток
+**Plural:** *preteens*
+**Countability:** countable
+
+A child of about nine to twelve, just before the teenage years.
+
+1. The camp is designed for *preteens*.
+2. My *preteen* thinks I am hopelessly uncool.
+3. *Preteens* are the show's main audience.
+
+---
+
+### pretender
+
+**Pronunciation:** /prɪˈtɛndər/ &middot; *prih-TEN-dur*
+**Русский:** претендент (на престол); притворщик
+**Plural:** *pretenders*
+**Countability:** countable
+
+Someone who claims a title or position that may not rightfully be theirs.
+
+1. He was a *pretender* to the Spanish throne.
+2. The champion dismissed the young *pretender*.
+3. History is full of royal *pretenders*.
+
+---
+
+### pretense
+
+**Pronunciation:** /ˈpriːtɛns/ &middot; *PREE-tens*
+**Русский:** притворство, видимость
+**Countability:** uncountable
+**Contrast:** American spelling; British English writes pretence.
+
+A false show meant to make people believe something untrue.
+
+1. He got into the building under false *pretenses*.
+2. She dropped the *pretense* of being interested.
+3. There was no *pretense* of a fair hearing.
+
+---
+
+### pretension
+
+**Pronunciation:** /prɪˈtɛnʃən/ &middot; *prih-TEN-shun*
+**Русский:** претенциозность; притязание
+**Plural:** *pretensions*
+**Countability:** countable
+
+A claim to importance or quality that is not really deserved.
+
+1. The restaurant serves good food without the *pretension*.
+2. He has literary *pretensions* and a drawer full of drafts.
+3. Her writing is honest and free of *pretension*.
+
+---
+
+### pretext
+
+**Pronunciation:** /ˈpriːtɛkst/ &middot; *PREE-tekst*
+**Русский:** предлог, отговорка
+**Plural:** *pretexts*
+**Countability:** countable
+
+A false reason given to hide the real one.
+
+1. The search was a *pretext* to look for something else.
+2. He left on the *pretext* of an urgent phone call.
+3. Both *pretexts* fell apart under questioning.
+
+---
+
+### pretzel
+
+**Pronunciation:** /ˈprɛtsəl/ &middot; *PRET-sul*
+**Русский:** крендель, брецель
+**Plural:** *pretzels*
+**Countability:** countable
+
+A crisp or soft baked snack made of dough twisted into a knot.
+
+1. He bought a soft *pretzel* from a street cart.
+2. The bar puts out bowls of *pretzels*.
+3. She twisted the dough into a *pretzel* and salted it.
+
+---
+
+### prevalence
+
+**Pronunciation:** /ˈprɛvələns/ &middot; *PREV-uh-luns*
+**Русский:** распространённость
+**Countability:** uncountable
+
+How widespread something is within a population.
+
+1. The *prevalence* of diabetes has risen steadily.
+2. Researchers tracked the *prevalence* of the virus by county.
+3. The *prevalence* of cheating surprised the faculty.
+
+---
+
+### pricing
+
+**Pronunciation:** /ˈpraɪsɪŋ/ &middot; *PRY-sing*
+**Русский:** ценообразование, цены
+**Countability:** uncountable
+
+The setting of prices, or the prices themselves.
+
+1. Their *pricing* is higher than the competition.
+2. The company changed its *pricing* in January.
+3. *Pricing* for the new plan starts at ten dollars a month.
+
+---
+
+### priesthood
+
+**Pronunciation:** /ˈpriːsthʊd/ &middot; *PREEST-huud*
+**Русский:** духовенство; сан священника
+**Countability:** uncountable
+
+The position of being a priest, or priests taken as a group.
+
+1. He entered the *priesthood* at twenty-six.
+2. The *priesthood* has been shrinking for decades.
+3. She writes about women and the *priesthood*.
+
+---
+
+### primrose
+
+**Pronunciation:** /ˈprɪmroʊz/ &middot; *PRIM-rohz*
+**Русский:** первоцвет, примула
+**Plural:** *primroses*
+**Countability:** countable
+
+A low-growing plant with pale yellow or brightly colored spring flowers.
+
+1. *Primroses* came up along the fence in March.
+2. She planted a *primrose* in the window box.
+3. The woods were full of wild *primroses*.
+
+---
+
+### princess
+
+**Pronunciation:** /ˈprɪnsɛs/ &middot; *PRIN-sess*
+**Русский:** принцесса; княжна
+**Plural:** *princesses*
+**Countability:** countable
+
+The daughter of a king or queen, or the wife of a prince.
+
+1. The *princess* waved from the balcony.
+2. Both *princesses* attended the ceremony.
+3. She dressed as a *princess* for Halloween.
+
+---
+
+### priority
+
+**Pronunciation:** /praɪˈɔːrəti/ &middot; *pry-OR-uh-tee*
+**Русский:** приоритет, первоочередная задача
+**Plural:** *priorities*
+**Countability:** countable
+
+Something treated as more important than other things.
+
+1. Safety is our top *priority*.
+2. Let's agree on three *priorities* for the quarter.
+3. Sleep became a *priority* after the diagnosis.
+
+---
+
+### privilege
+
+**Pronunciation:** /ˈprɪvəlɪdʒ/ &middot; *PRIV-uh-lij*
+**Русский:** привилегия; привилегированное положение
+**Plural:** *privileges*
+**Countability:** both — countable and uncountable with different meanings
+
+A special advantage given to one person or group, or the general state of having such advantages.
+
+1. Driving is a *privilege*, not a right.
+2. The course examines race and *privilege* in America.
+3. The inmates lost their visiting *privileges*.
+
+---
+
+### pro
+
+**Pronunciation:** /proʊ/ &middot; *PROH*
+**Русский:** профессионал; довод «за»
+**Plural:** *pros*
+**Countability:** countable
+
+A professional, especially in sport, or an argument in favor of something.
+
+1. He's a *pro* at fixing old engines.
+2. We listed the *pros* and cons on a napkin.
+3. Two touring *pros* ran the clinic.
+
+---
+
+### probability
+
+**Pronunciation:** /ˌprɑːbəˈbɪləti/ &middot; *prah-buh-BIL-uh-tee*
+**Русский:** вероятность
+**Plural:** *probabilities*
+**Countability:** both — countable and uncountable with different meanings
+
+How likely something is to happen, or the branch of mathematics that measures it.
+
+1. There is a high *probability* of rain tonight.
+2. The class covers *probability* and statistics.
+3. The model assigns *probabilities* to each outcome.
+
+---
+
+### probate
+
+**Pronunciation:** /ˈproʊbeɪt/ &middot; *PROH-bayt*
+**Русский:** утверждение завещания судом
+**Countability:** uncountable
+
+The legal process of proving a will and settling a dead person's estate.
+
+1. The house is still in *probate*.
+2. *Probate* can drag on for more than a year.
+3. She filed the will with the *probate* court.
+
+---
+
+### probiotic
+
+**Pronunciation:** /ˌproʊbaɪˈɑːtɪk/ &middot; *proh-by-AH-tik*
+**Русский:** пробиотик
+**Plural:** *probiotics*
+**Countability:** countable
+
+A live bacterium taken as a supplement or in food to help digestion.
+
+1. The doctor suggested a *probiotic* after the antibiotics.
+2. Yogurt with live cultures contains *probiotics*.
+3. She takes a daily *probiotic* with breakfast.
+
+---
+
+### problem
+
+**Pronunciation:** /ˈprɑːbləm/ &middot; *PRAH-blum*
+**Русский:** проблема; задача
+**Plural:** *problems*
+**Countability:** countable
+
+A situation that causes trouble, or a question to be solved.
+
+1. We have a *problem* with the heating.
+2. Do the odd-numbered *problems* for homework.
+3. That's not a *problem* I can fix today.
+
+---
+
+### proceeding
+
+**Pronunciation:** /prəˈsiːdɪŋ/ &middot; *pruh-SEE-ding*
+**Русский:** разбирательство, процедура
+**Plural:** *proceedings*
+**Countability:** countable
+**Contrast:** Usually used in the plural: legal proceedings, divorce proceedings.
+
+A formal action or event, especially a legal one.
+
+1. The court *proceedings* lasted three weeks.
+2. He was barred from the *proceedings*.
+3. A disciplinary *proceeding* was opened against the officer.
+
+---
+
+### processing
+
+**Pronunciation:** /ˈprɑːsɛsɪŋ/ &middot; *PRAH-ses-ing*
+**Русский:** обработка, переработка
+**Countability:** uncountable
+
+The treating of raw material or information to turn it into something usable.
+
+1. Meat *processing* employs most of the town.
+2. Your refund is still in *processing*.
+3. Data *processing* used to be its own department.
+
+---
+
+### proctor
+
+**Pronunciation:** /ˈprɑːktər/ &middot; *PRAHK-tur*
+**Русский:** наблюдающий на экзамене
+**Plural:** *proctors*
+**Countability:** countable
+
+A person who watches students during an exam to prevent cheating.
+
+1. The *proctor* collected everyone's phones.
+2. Two *proctors* walked the aisles the whole time.
+3. Ask the *proctor* if you need more paper.
+
+---
+
+### prodigy
+
+**Pronunciation:** /ˈprɑːdədʒi/ &middot; *PRAH-duh-jee*
+**Русский:** вундеркинд
+**Plural:** *prodigies*
+**Countability:** countable
+
+A young person with a remarkable natural talent.
+
+1. She was a chess *prodigy* at eight.
+2. The conservatory is full of *prodigies*.
+3. Not every *prodigy* becomes a great adult artist.
+
+---
+
+### profanity
+
+**Pronunciation:** /prəˈfænəti/ &middot; *pruh-FAN-uh-tee*
+**Русский:** нецензурная брань, ругательство
+**Plural:** *profanities*
+**Countability:** both — countable and uncountable with different meanings
+
+Rude or offensive language, or a single word of that kind.
+
+1. The coach was ejected for shouting *profanity*.
+2. He muttered a string of *profanities*.
+3. The broadcast bleeps out any *profanity*.
+
+---
+
+### professional
+
+**Pronunciation:** /prəˈfɛʃənəl/ &middot; *pruh-FESH-uh-nul*
+**Русский:** специалист, профессионал
+**Plural:** *professionals*
+**Countability:** countable
+
+Someone who does a job that requires training and qualifications, or who does it for pay.
+
+1. Hire a *professional* to check the wiring.
+2. The conference is aimed at young *professionals*.
+3. As a *professional*, she never discusses her clients.
+
+---
+
+### proficiency
+
+**Pronunciation:** /prəˈfɪʃənsi/ &middot; *pruh-FISH-un-see*
+**Русский:** владение (языком), умение
+**Countability:** uncountable
+
+A good level of skill or ability in something.
+
+1. The job requires *proficiency* in Spanish.
+2. He tested at intermediate *proficiency*.
+3. *Proficiency* comes from practice, not talent.
+
+---
+
+### profiling
+
+**Pronunciation:** /ˈproʊfaɪlɪŋ/ &middot; *PROH-fy-ling*
+**Русский:** профилирование; составление психологического портрета
+**Countability:** uncountable
+
+The practice of judging or selecting people based on typical characteristics of a group.
+
+1. The lawsuit accuses the department of racial *profiling*.
+2. Criminal *profiling* is far less exact than television suggests.
+3. Customer *profiling* drives the ads you see.
+
+---
+
+### progesterone
+
+**Pronunciation:** /proʊˈdʒɛstəroʊn/ &middot; *proh-JES-tuh-rohn*
+**Русский:** прогестерон
+**Countability:** uncountable
+
+A hormone that prepares the body for pregnancy.
+
+1. Her *progesterone* levels came back low.
+2. The pill combines estrogen and *progesterone*.
+3. *Progesterone* rises in the second half of the cycle.
+
+---
+
+### programming
+
+**Pronunciation:** /ˈproʊɡræmɪŋ/ &middot; *PROH-gram-ing*
+**Русский:** программирование; программы (теле-, радио-)
+**Countability:** uncountable
+
+The writing of computer code, or the shows a channel schedules.
+
+1. He teaches *programming* to high schoolers.
+2. The network changed its evening *programming*.
+3. *Programming* for kids fills the Saturday morning slot.
+
+---
+
+### progression
+
+**Pronunciation:** /prəˈɡrɛʃən/ &middot; *pruh-GRESH-un*
+**Русский:** развитие, последовательность
+**Plural:** *progressions*
+**Countability:** countable
+
+A gradual movement forward through a series of stages.
+
+1. The drug slows the *progression* of the disease.
+2. The song uses a simple chord *progression*.
+3. Her career followed a steady *progression*.
+
+---
+
+### progressive
+
+**Pronunciation:** /prəˈɡrɛsɪv/ &middot; *pruh-GRES-iv*
+**Русский:** прогрессист, сторонник реформ
+**Plural:** *progressives*
+**Countability:** countable
+
+Someone who supports social reform and change in politics.
+
+1. *Progressives* pushed hard for the amendment.
+2. She ran as a *progressive* and won the primary.
+3. The party's *progressives* voted against the compromise.
+
+---
+
+### prohibition
+
+**Pronunciation:** /ˌproʊəˈbɪʃən/ &middot; *proh-uh-BISH-un*
+**Русский:** запрет
+**Plural:** *prohibitions*
+**Countability:** countable
+**Contrast:** The h is silent in American speech: proh-uh-BISH-un, not proh-hib-.
+
+An official order forbidding something.
+
+1. The city lifted its *prohibition* on backyard chickens.
+2. There is a *prohibition* against gifts from vendors.
+3. Both *prohibitions* expired last year.
+
+---
+
+### projectile
+
+**Pronunciation:** /prəˈdʒɛktəl/ &middot; *pruh-JEK-tul*
+**Русский:** снаряд, метательный предмет
+**Plural:** *projectiles*
+**Countability:** countable
+
+An object thrown or fired through the air.
+
+1. The blast turned the glass into *projectiles*.
+2. Police recovered the *projectile* from the wall.
+3. Any loose tool becomes a *projectile* in a crash.
+
+---
+
+### prominence
+
+**Pronunciation:** /ˈprɑːmənəns/ &middot; *PRAH-muh-nuns*
+**Русский:** известность, видное положение
+**Countability:** uncountable
+
+The state of being important and widely known.
+
+1. The case rose to *prominence* after the documentary.
+2. She gained *prominence* as a civil rights lawyer.
+3. The issue has lost *prominence* since the election.
+
+---
+
+### promise
+
+**Pronunciation:** /ˈprɑːməs/ &middot; *PRAH-muss*
+**Русский:** обещание
+**Plural:** *promises*
+**Countability:** countable
+
+A statement that you will certainly do something.
+
+1. He made a *promise* he couldn't keep.
+2. She kept her *promise* to call every Sunday.
+3. Campaign *promises* are easy to make and hard to fund.
+
+---
+
+### promoter
+
+**Pronunciation:** /prəˈmoʊtər/ &middot; *pruh-MOH-tur*
+**Русский:** организатор, промоутер
+**Plural:** *promoters*
+**Countability:** countable
+
+Someone who organizes and publicizes events, or who actively supports a cause.
+
+1. The concert *promoter* canceled two dates.
+2. *Promoters* are expecting a sellout crowd.
+3. He is a tireless *promoter* of local business.
+
+---
+
+### prong
+
+**Pronunciation:** /prɔːŋ/ &middot; *PRAWNG*
+**Русский:** зубец, штырь
+**Plural:** *prongs*
+**Countability:** countable
+
+One of the pointed parts of a fork, plug, or similar object.
+
+1. One *prong* of the fork was bent.
+2. The plug has three *prongs*.
+3. The second *prong* of the strategy is cutting costs.
+
+---
+
+### proposition
+
+**Pronunciation:** /ˌprɑːpəˈzɪʃən/ &middot; *prah-puh-ZISH-un*
+**Русский:** предложение; утверждение
+**Plural:** *propositions*
+**Countability:** countable
+
+An offer or suggestion, or a statement that can be judged true or false.
+
+1. He made me an interesting business *proposition*.
+2. The ballot *proposition* failed by a wide margin.
+3. Running a restaurant is a risky *proposition*.
+
+---
+
+### propriety
+
+**Pronunciation:** /prəˈpraɪəti/ &middot; *pruh-PRY-uh-tee*
+**Русский:** приличия, благопристойность
+**Countability:** uncountable
+**Contrast:** Do not confuse with property; propriety is about correct behavior.
+
+Correct or socially acceptable behavior.
+
+1. The judge questioned the *propriety* of the meeting.
+2. She has a strong sense of *propriety*.
+3. Nobody doubted the *propriety* of his motives.
+
+---
+
+### propulsion
+
+**Pronunciation:** /prəˈpʌlʃən/ &middot; *pruh-PUL-shun*
+**Русский:** движущая сила, тяга
+**Countability:** uncountable
+
+The force that pushes a vehicle forward.
+
+1. The lab works on electric *propulsion* for satellites.
+2. Jet *propulsion* changed air travel completely.
+3. The submarine uses nuclear *propulsion*.
+
+---
+
+### prose
+
+**Pronunciation:** /proʊz/ &middot; *PROHZ*
+**Русский:** проза
+**Countability:** uncountable
+
+Ordinary written language, as opposed to poetry.
+
+1. Her *prose* is plain and fast-moving.
+2. He writes both poetry and *prose*.
+3. The essay is a fine piece of *prose*.
+
+---
+
+### prospector
+
+**Pronunciation:** /ˈprɑːspɛktər/ &middot; *PRAH-spek-tur*
+**Русский:** старатель, золотоискатель
+**Plural:** *prospectors*
+**Countability:** countable
+
+Someone who searches an area for gold, oil, or other valuable minerals.
+
+1. *Prospectors* flooded California in 1849.
+2. An old *prospector* filed the original claim.
+3. The *prospector* panned that creek all summer.
+
+---
+
+### prospectus
+
+**Pronunciation:** /prəˈspɛktəs/ &middot; *pruh-SPEK-tus*
+**Русский:** проспект (эмиссии); информационная брошюра
+**Plural:** *prospectuses*
+**Countability:** countable
+
+A printed document describing an investment, a school, or a planned project.
+
+1. Read the *prospectus* before you buy the fund.
+2. The college mailed us a glossy *prospectus*.
+3. Both *prospectuses* leave out the fees.
+
+---
+
+### prosperity
+
+**Pronunciation:** /prɑːˈspɛrəti/ &middot; *prah-SPER-uh-tee*
+**Русский:** процветание, благополучие
+**Countability:** uncountable
+
+The state of being successful and financially comfortable.
+
+1. The postwar years brought broad *prosperity*.
+2. The town's *prosperity* depended on the mill.
+3. They wished the couple health and *prosperity*.
+
+---
+
+### prosthetics
+
+**Pronunciation:** /prɑːsˈθɛtɪks/ &middot; *prahs-THET-iks*
+**Русский:** протезирование; протезы
+**Countability:** uncountable
+
+Artificial body parts, or the field that designs and fits them.
+
+1. Advances in *prosthetics* over the last decade have been remarkable.
+2. The actor wore facial *prosthetics* for the role.
+3. She studied *prosthetics* and orthotics in Chicago.
+
+---
+
+### prostitute
+
+**Pronunciation:** /ˈprɑːstətuːt/ &middot; *PRAH-stuh-toot*
+**Русский:** проститутка
+**Plural:** *prostitutes*
+**Countability:** countable
+
+A person who has sex for money.
+
+1. The film follows a *prostitute* in 1970s New York.
+2. Police arrested two *prostitutes* and a client.
+3. She played a *prostitute* in her first film role.
+
+---
+
+### prostitution
+
+**Pronunciation:** /ˌprɑːstəˈtuːʃən/ &middot; *prah-stuh-TOO-shun*
+**Русский:** проституция
+**Countability:** uncountable
+
+The practice of having sex for money.
+
+1. *Prostitution* is legal in parts of Nevada.
+2. The charge was reduced from *prostitution* to loitering.
+3. The report studies why women enter *prostitution*.
+
+---
+
+### protectorate
+
+**Pronunciation:** /prəˈtɛktərət/ &middot; *pruh-TEK-tur-ut*
+**Русский:** протекторат
+**Plural:** *protectorates*
+**Countability:** countable
+
+A country or region controlled and defended by a stronger state.
+
+1. The island was a British *protectorate* until 1968.
+2. Several African *protectorates* gained independence in the 1960s.
+3. The treaty turned the small kingdom into a French *protectorate*.
+
+---
+
+### protege
+
+**Pronunciation:** /ˈproʊtəʒeɪ/ &middot; *PROH-tuh-zhay*
+**Русский:** протеже, подопечный
+**Plural:** *proteges*
+**Countability:** countable
+**Contrast:** Usually written with accents — *protégé*. The last syllable rhymes with 'day'.
+
+A young person who is taught and helped along by someone older and more experienced.
+
+1. The senator hired his old *protege* as chief of staff.
+2. She was a *protege* of the orchestra's former conductor.
+3. Both *proteges* now run companies of their own.
+
+---
+
+### protocol
+
+**Pronunciation:** /ˈproʊtəkɔːl/ &middot; *PROH-tuh-kawl*
+**Русский:** протокол, порядок действий
+**Plural:** *protocols*
+**Countability:** countable
+
+An official set of rules for how something must be done.
+
+1. The hospital has a strict *protocol* for handling infections.
+2. Emergency *protocols* were rewritten after the fire.
+3. Sending that email broke every *protocol* in the office.
+
+---
+
+### protrusion
+
+**Pronunciation:** /proʊˈtruːʒən/ &middot; *proh-TROO-zhun*
+**Русский:** выступ, выпуклость
+**Plural:** *protrusions*
+**Countability:** countable
+
+A part that sticks out from a surface.
+
+1. A small bony *protrusion* on his heel made walking painful.
+2. The old wall had odd *protrusions* every few feet.
+3. The MRI showed a disc *protrusion* in her lower back.
+
+---
+
+### providence
+
+**Pronunciation:** /ˈprɑːvɪdəns/ &middot; *PRAH-vih-duhns*
+**Русский:** провидение, промысел
+**Countability:** uncountable
+
+The care and protection that God or fate is believed to provide.
+
+1. She credited her survival to divine *providence*.
+2. His letters keep returning to *providence* and the fate of the country.
+3. They took the sudden rain as an act of *providence*.
+
+---
+
+### province
+
+**Pronunciation:** /ˈprɑːvɪns/ &middot; *PRAH-vins*
+**Русский:** провинция, область
+**Plural:** *provinces*
+**Countability:** countable
+
+One of the large areas a country is divided into for government.
+
+1. Ontario is the most populous *province* in Canada.
+2. Several northern *provinces* were hit by flooding.
+3. He grew up in a rural *province* far from the capital.
+
+---
+
+### provocation
+
+**Pronunciation:** /ˌprɑːvəˈkeɪʃən/ &middot; *prah-vuh-KAY-shun*
+**Русский:** провокация, повод
+**Plural:** *provocations*
+**Countability:** countable
+
+An action meant to make someone angry or to force a reaction.
+
+1. The dog bit him without any *provocation*.
+2. Border *provocations* continued all week.
+3. The speech was widely read as a deliberate *provocation*.
+
+---
+
+### provost
+
+**Pronunciation:** /ˈproʊvoʊst/ &middot; *PROH-vohst*
+**Русский:** проректор (в университете)
+**Plural:** *provosts*
+**Countability:** countable
+
+A senior university official in charge of academic affairs.
+
+1. The *provost* announced a hiring freeze for next year.
+2. She served as *provost* before becoming president of the college.
+3. Both *provosts* signed the joint statement.
+
+---
+
+### prowler
+
+**Pronunciation:** /ˈpraʊlər/ &middot; *PROW-lur*
+**Русский:** злоумышленник (бродящий у домов)
+**Plural:** *prowlers*
+**Countability:** countable
+
+Someone who moves quietly around a place at night, usually meaning to steal or do harm.
+
+1. A neighbor called the police about a *prowler* in the alley.
+2. The dog barks at every *prowler* on the block.
+3. Two *prowlers* showed up on the security camera.
+
+---
+
+### proximity
+
+**Pronunciation:** /prɑːkˈsɪməti/ &middot; *prahk-SIM-uh-tee*
+**Русский:** близость, соседство
+**Countability:** uncountable
+
+Nearness in space or time.
+
+1. We bought the house for its *proximity* to good schools.
+2. The *proximity* of the two deadlines makes planning hard.
+3. Sensors detect the *proximity* of another car.
+
+---
+
+### proxy
+
+**Pronunciation:** /ˈprɑːksi/ &middot; *PRAHK-see*
+**Русский:** доверенное лицо; прокси-сервер
+**Plural:** *proxies*
+**Countability:** countable
+
+A person or thing that acts or stands in for another.
+
+1. She voted by *proxy* because she was out of the country.
+2. The company routes its traffic through several *proxies*.
+3. Test scores are a poor *proxy* for intelligence.
+
+---
+
+### prude
+
+**Pronunciation:** /pruːd/ &middot; *PROOD*
+**Русский:** ханжа, недотрога
+**Plural:** *prudes*
+**Countability:** countable
+
+Someone who is easily shocked by sex or rude language.
+
+1. Don't be such a *prude* — it's just a joke.
+2. The movie was tame enough that even the *prudes* in the audience laughed.
+3. He's no *prude*, but that scene made him uncomfortable.
+
+---
+
+### prudence
+
+**Pronunciation:** /ˈpruːdəns/ &middot; *PROO-duhns*
+**Русский:** благоразумие, осмотрительность
+**Countability:** uncountable
+
+Careful good judgment that avoids unnecessary risk.
+
+1. Financial *prudence* carried the city through the recession.
+2. There is a difference between fear and *prudence*.
+3. Basic *prudence* says you should read the contract first.
+
+---
+
+### pseudonym
+
+**Pronunciation:** /ˈsuːdənɪm/ &middot; *SOO-duh-nim*
+**Русский:** псевдоним
+**Plural:** *pseudonyms*
+**Countability:** countable
+**Contrast:** The *p* is silent: 'SOO-duh-nim'.
+
+A false name used by a writer in place of a real one.
+
+1. She published her first novel under a *pseudonym*.
+2. The letters were signed with an obvious *pseudonym*.
+3. Several of his *pseudonyms* came to light only after his death.
+
+---
+
+### psoriasis
+
+**Pronunciation:** /səˈraɪəsɪs/ &middot; *suh-RY-uh-sis*
+**Русский:** псориаз
+**Countability:** uncountable
+**Contrast:** The *p* is silent and the stress falls on the second syllable: 'suh-RY-uh-sis'.
+
+A skin disease that produces dry red patches covered with silvery scales.
+
+1. Cold weather makes his *psoriasis* worse.
+2. She sees a dermatologist for *psoriasis* twice a year.
+3. The new cream cleared up the *psoriasis* on his elbows.
+
+---
+
+### psyche
+
+**Pronunciation:** /ˈsaɪki/ &middot; *SY-kee*
+**Русский:** психика, душа
+**Plural:** *psyches*
+**Countability:** countable
+**Contrast:** The final *e* is pronounced: 'SY-kee', not 'syke'.
+
+The human mind, especially its deeper feelings and attitudes.
+
+1. The attack left a scar on the national *psyche*.
+2. He writes about the *psyche* of the American voter.
+3. Losing that game damaged the whole team's *psyche*.
+
+---
+
+### psychiatry
+
+**Pronunciation:** /səˈkaɪətri/ &middot; *suh-KY-uh-tree*
+**Русский:** психиатрия
+**Countability:** uncountable
+
+The branch of medicine that deals with mental illness.
+
+1. She left surgery to study *psychiatry*.
+2. *Psychiatry* has changed a great deal in fifty years.
+3. He teaches *psychiatry* at the medical school.
+
+---
+
+### psychic
+
+**Pronunciation:** /ˈsaɪkɪk/ &middot; *SY-kik*
+**Русский:** экстрасенс, ясновидящий
+**Plural:** *psychics*
+**Countability:** countable
+
+A person who claims to know things by supernatural means.
+
+1. Her aunt pays a *psychic* to read her cards every month.
+2. Two *psychics* offered to help find the missing dog.
+3. The *psychic* told him he would travel soon.
+
+---
+
+### publicist
+
+**Pronunciation:** /ˈpʌblɪsɪst/ &middot; *PUB-lih-sist*
+**Русский:** пиар-агент, публицист
+**Plural:** *publicists*
+**Countability:** countable
+
+Someone whose job is to get public attention for a client.
+
+1. The actor's *publicist* released a short statement.
+2. She works as a *publicist* for a small record label.
+3. Both *publicists* denied the rumor.
+
+---
+
+### pueblo
+
+**Pronunciation:** /ˈpwɛbloʊ/ &middot; *PWEB-loh*
+**Русский:** пуэбло (индейское селение из глинобитных домов)
+**Plural:** *pueblos*
+**Countability:** countable
+
+A village of flat-roofed adobe houses built by Native peoples of the American Southwest.
+
+1. We toured an ancient *pueblo* outside Santa Fe.
+2. The *pueblos* of New Mexico draw visitors all year.
+3. Wooden ladders connect the upper levels of the *pueblo*.
+
+---
+
+### puff
+
+**Pronunciation:** /pʌf/ &middot; *PUF*
+**Русский:** клуб (дыма), затяжка, дуновение
+**Plural:** *puffs*
+**Countability:** countable
+
+A short blast of air, smoke, or breath.
+
+1. A *puff* of smoke came out of the engine.
+2. He took two quick *puffs* on his inhaler.
+3. The wind arrived in warm *puffs* all afternoon.
+
+---
+
+### pull
+
+**Pronunciation:** /pʊl/ &middot; *PUUL*
+**Русский:** рывок, тяга; влияние
+**Plural:** *pulls*
+**Countability:** countable
+
+An act of using force to move something toward you, or the force itself.
+
+1. Give the cord a firm *pull* to start the mower.
+2. You can feel the *pull* of the current out here.
+3. A couple of hard *pulls* got the drawer open.
+
+---
+
+### pulsar
+
+**Pronunciation:** /ˈpʌlsɑːr/ &middot; *PUL-sar*
+**Русский:** пульсар
+**Plural:** *pulsars*
+**Countability:** countable
+
+A collapsed star that sends out regular pulses of radio waves.
+
+1. The telescope picked up signals from a distant *pulsar*.
+2. Some *pulsars* spin hundreds of times a second.
+3. A graduate student found the first *pulsar* in 1967.
+
+---
+
+### pumice
+
+**Pronunciation:** /ˈpʌmɪs/ &middot; *PUM-is*
+**Русский:** пемза
+**Countability:** uncountable
+
+A light gray volcanic rock full of tiny holes, used for scrubbing skin.
+
+1. She keeps a block of *pumice* by the tub.
+2. *Pumice* is light enough to float on water.
+3. Rub the callus gently with *pumice*.
+
+---
+
+### puncture
+
+**Pronunciation:** /ˈpʌŋktʃər/ &middot; *PUNGK-chur*
+**Русский:** прокол
+**Plural:** *punctures*
+**Countability:** countable
+
+A small hole made by a sharp object.
+
+1. A nail left a *puncture* in the rear tire.
+2. The doctor cleaned the *puncture* on his palm.
+3. Two *punctures* in the air mattress kept us up all night.
+
+---
+
+### punk
+
+**Pronunciation:** /pʌŋk/ &middot; *PUNGK*
+**Русский:** панк (стиль музыки; человек)
+**Plural:** *punks*
+**Countability:** both — countable and uncountable with different meanings
+
+A loud, rough style of rock music, or a young person who follows it.
+
+1. He grew up listening to *punk* and metal.
+2. A couple of *punks* with green hair walked past.
+3. The band's early records are pure *punk*.
+
+---
+
+### punt
+
+**Pronunciation:** /pʌnt/ &middot; *PUNT*
+**Русский:** удар с рук (в американском футболе)
+**Plural:** *punts*
+**Countability:** countable
+
+A kick made by dropping the football and kicking it before it hits the ground.
+
+1. His *punt* pinned the other team at the five-yard line.
+2. The offense stalled and had to settle for a *punt*.
+3. Three of his *punts* traveled over fifty yards.
+
+---
+
+### punter
+
+**Pronunciation:** /ˈpʌntər/ &middot; *PUN-tur*
+**Русский:** пантер (игрок, выбивающий мяч с рук)
+**Plural:** *punters*
+**Countability:** countable
+
+The football player whose job is to punt the ball.
+
+1. The *punter* jogged out with the special teams unit.
+2. Their *punter* was the best in the league last season.
+3. Both *punters* struggled in the wind.
+
+---
+
+### puppetry
+
+**Pronunciation:** /ˈpʌpətri/ &middot; *PUP-uh-tree*
+**Русский:** кукольное искусство
+**Countability:** uncountable
+
+The art of making puppets and performing with them.
+
+1. The museum has an exhibit on Indonesian *puppetry*.
+2. She studied *puppetry* before going into animation.
+3. The show combines live actors with *puppetry*.
+
+---
+
+### puree
+
+**Pronunciation:** /pjʊˈreɪ/ &middot; *pyu-RAY*
+**Русский:** пюре
+**Plural:** *purees*
+**Countability:** countable, and uncountable as food
+**Contrast:** Usually written *purée*; the stress falls on the last syllable.
+
+Food that has been blended into a thick, smooth paste.
+
+1. Stir a spoonful of tomato *puree* into the sauce.
+2. The baby eats carrot *puree* twice a day.
+3. The chef served scallops over two bright green *purees*.
+
+---
+
+### purge
+
+**Pronunciation:** /pɜːrdʒ/ &middot; *PURJ*
+**Русский:** чистка (в организации, партии)
+**Plural:** *purges*
+**Countability:** countable
+
+The sudden removal of many people from an organization.
+
+1. The new director began a *purge* of senior staff.
+2. Thousands disappeared during the party *purges*.
+3. A *purge* of old files freed up half the server.
+
+---
+
+### purification
+
+**Pronunciation:** /ˌpjʊrəfɪˈkeɪʃən/ &middot; *pyoor-uh-fih-KAY-shun*
+**Русский:** очистка, очищение
+**Countability:** uncountable
+
+The process of removing dirt or harmful substances from something.
+
+1. The village needs a simple water *purification* system.
+2. Air *purification* helps a lot during allergy season.
+3. The ritual is meant as a kind of spiritual *purification*.
+
+---
+
+### purist
+
+**Pronunciation:** /ˈpjʊrɪst/ &middot; *PYOOR-ist*
+**Русский:** пурист, ревнитель чистоты (стиля, традиции)
+**Plural:** *purists*
+**Countability:** countable
+
+Someone who insists that traditional rules or methods be followed exactly.
+
+1. *Purists* say the remake ruined the story.
+2. As a *purist*, he refuses to put ice in good whiskey.
+3. Grammar *purists* still object to that usage.
+
+---
+
+### puritan
+
+**Pronunciation:** /ˈpjʊrətən/ &middot; *PYOOR-uh-tun*
+**Русский:** пуританин, строгий моралист
+**Plural:** *puritans*
+**Countability:** countable
+
+A person with very strict moral standards, especially about pleasure.
+
+1. Her grandfather was a *puritan* about money and drink.
+2. The columnists called the new mayor a *puritan*.
+3. Only a *puritan* would object to a glass of wine at lunch.
+
+---
+
+### pursuit
+
+**Pronunciation:** /pərˈsuːt/ &middot; *pur-SOOT*
+**Русский:** погоня; занятие, стремление
+**Plural:** *pursuits*
+**Countability:** countable
+
+The act of chasing someone, or of trying to achieve something.
+
+1. The chase ended after a ten-mile *pursuit* on the freeway.
+2. She gave up a good salary in *pursuit* of a degree.
+3. Hiking and photography are his favorite weekend *pursuits*.
+
+---
+
+### purveyor
+
+**Pronunciation:** /pərˈveɪər/ &middot; *pur-VAY-ur*
+**Русский:** поставщик
+**Plural:** *purveyors*
+**Countability:** countable
+
+A person or business that supplies goods, especially food.
+
+1. The shop calls itself a *purveyor* of fine cheeses.
+2. Local *purveyors* supply the restaurant with produce.
+3. He became a *purveyor* of cheap rumors and worse advice.
+
+---
+
+### pus
+
+**Pronunciation:** /pʌs/ &middot; *PUS*
+**Русский:** гной
+**Countability:** uncountable
+
+The thick yellowish liquid that forms in an infected wound.
+
+1. There was *pus* around the stitches.
+2. If you see *pus*, call the doctor.
+3. The dentist drained the *pus* from the abscess.
+
+---
+
+### push
+
+**Pronunciation:** /pʊʃ/ &middot; *PUUSH*
+**Русский:** толчок; напор, кампания
+**Plural:** *pushes*
+**Countability:** countable
+
+An act of pressing something away from you, or an organized effort to achieve something.
+
+1. One hard *push* and the door swung open.
+2. The company is making a *push* into the Asian market.
+3. A few gentle *pushes* got the swing going.
+
+---
+
+### pusher
+
+**Pronunciation:** /ˈpʊʃər/ &middot; *PUUSH-ur*
+**Русский:** наркоторговец, барыга
+**Plural:** *pushers*
+**Countability:** countable
+
+Someone who sells illegal drugs.
+
+1. The police arrested a *pusher* outside the school.
+2. The film follows a small-time *pusher* in Baltimore.
+3. Street *pushers* rarely know where the drugs come from.
+
+---
+
+### pushover
+
+**Pronunciation:** /ˈpʊʃoʊvər/ &middot; *PUUSH-oh-vur*
+**Русский:** слабак; лёгкая добыча
+**Plural:** *pushovers*
+**Countability:** countable
+
+Someone who is easy to persuade or easy to defeat.
+
+1. Don't think she's a *pushover* just because she's polite.
+2. That team is no *pushover* at home.
+3. New teachers often get treated like *pushovers*.
+
+---
+
+### pushup
+
+**Pronunciation:** /ˈpʊʃʌp/ &middot; *PUUSH-up*
+**Русский:** отжимание
+**Plural:** *pushups*
+**Countability:** countable
+**Contrast:** Often written *push-up* with a hyphen; both spellings are common in the US.
+
+An exercise in which you lie face down and push your body up with your arms.
+
+1. He does fifty *pushups* every morning.
+2. I can barely manage one *pushup*.
+3. The coach made us do *pushups* after every mistake.
+
+---
+
+### putt
+
+**Pronunciation:** /pʌt/ &middot; *PUT*
+**Русский:** патт (короткий удар в гольфе)
+**Plural:** *putts*
+**Countability:** countable
+**Contrast:** Rhymes with *cut*, not with the verb *put*.
+
+A gentle golf stroke that rolls the ball along the green toward the hole.
+
+1. He missed a three-foot *putt* on the last hole.
+2. Her *putts* were falling all afternoon.
+3. One good *putt* saved his round.
+
+---
+
+### putter
+
+**Pronunciation:** /ˈpʌtər/ &middot; *PUT-ur*
+**Русский:** паттер (клюшка для короткого удара)
+**Plural:** *putters*
+**Countability:** countable
+
+The golf club used for rolling the ball along the green.
+
+1. He bought a new *putter* over the winter.
+2. She lined up the shot with her *putter*.
+3. The old *putters* in his bag are worth a fortune.
+
+---
+
+### pylon
+
+**Pronunciation:** /ˈpaɪlɑːn/ &middot; *PY-lahn*
+**Русский:** опора ЛЭП; конус (разметочный)
+**Plural:** *pylons*
+**Countability:** countable
+
+A tall metal tower carrying power lines, or a marker cone used on a field or course.
+
+1. A row of *pylons* crosses the valley.
+2. The ball landed just outside the orange *pylon*.
+3. Ice brought down two *pylons* near the highway.
+
+---
+
+### pyre
+
+**Pronunciation:** /ˈpaɪər/ &middot; *PY-ur*
+**Русский:** погребальный костёр
+**Plural:** *pyres*
+**Countability:** countable
+
+A large pile of wood on which a dead body is burned.
+
+1. The village built a funeral *pyre* by the river.
+2. Smoke from the *pyres* hung over the valley for days.
+3. In the poem the hero is laid on a *pyre*.
+
+---
+
+### pyrite
+
+**Pronunciation:** /ˈpaɪraɪt/ &middot; *PY-ryte*
+**Русский:** пирит, серный колчедан
+**Countability:** uncountable
+
+A shiny yellow mineral often mistaken for gold.
+
+1. The rock they brought back was only *pyrite*.
+2. *Pyrite* is sometimes called fool's gold.
+3. Tiny cubes of *pyrite* glittered in the shale.
+
+---
+
+### pyrotechnics
+
+**Pronunciation:** /ˌpaɪrəˈtɛknɪks/ &middot; *py-ruh-TEK-niks*
+**Русский:** пиротехника, фейерверк
+**Countability:** uncountable
+
+A display of fireworks, or the art of making and setting them off.
+
+1. The concert ended with *pyrotechnics* over the stadium.
+2. A separate crew handles the *pyrotechnics* on tour.
+3. The show's *pyrotechnics* set off the smoke alarms.
