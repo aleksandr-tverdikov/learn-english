@@ -14,6 +14,7 @@ Rules, applied in this order and all logged rather than silent:
 Idempotent: rerunning regenerates every file from the JSON.
 """
 import glob, json, os, re, sys
+from collections import defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib import ROOT, parse_catalog_file
 from gen_core import build
@@ -144,6 +145,71 @@ def valid(e, seen, grammar, problems, slug):
     return True
 
 
+def sense_index():
+    """term -> [(slug, entry)] across every source, in ORDER then gap order.
+
+    A word written by several fields usually has several meanings. Keeping only
+    the first field's version threw away 428 real senses - alarm as a feeling
+    and alarm as a device, arrow the symbol and arrow the weapon, alcohol the
+    intoxicant and alcohol the solvent. This collects them all so they can be
+    merged into one entry instead.
+    """
+    idx = defaultdict(list)
+    order = list(ORDER) + [os.path.basename(p)[:-5]
+                           for p in sorted(glob.glob(os.path.join(CORE, 'gap-*.json')))]
+    for slug in order:
+        src = os.path.join(CORE, slug + '.json')
+        if not os.path.exists(src):
+            continue
+        try:
+            data = json.load(open(src))
+        except Exception:
+            continue
+        if isinstance(data, dict):
+            data = data.get('entries') or []
+        for e in data:
+            if isinstance(e, dict) and (e.get('term') or '').strip():
+                idx[e['term'].lower()].append((slug, e))
+    return idx
+
+
+def distinct_sense(a, b):
+    """Do two glosses describe materially different meanings?
+
+    Word overlap is crude but it is the right kind of crude here: near-identical
+    glosses of the same sense share most of their content words, while a bone
+    fracture and a rock fracture share almost none.
+    """
+    wa = {w for w in a.lower().split() if len(w) > 3}
+    wb = {w for w in b.lower().split() if len(w) > 3}
+    if not wa or not wb:
+        return False
+    return len(wa & wb) / min(len(wa), len(wb)) < 0.5
+
+
+def merge(entries):
+    """Fold [(slug, entry)] for one term into a single row for the renderer."""
+    first = entries[0][1]
+    senses, rus = [], []
+    for _, e in entries:
+        g = (e.get('gloss') or '').strip()
+        if not g:
+            continue
+        if any(not distinct_sense(g, sg) for sg, _, _ in senses):
+            continue                              # same meaning said twice
+        senses.append((g, (e.get('ru') or '').strip(), (e.get('examples') or [])[:3]))
+        if e.get('ru') and e['ru'].strip() not in rus:
+            rus.append(e['ru'].strip())
+    contrast = next((e.get('contrast') for _, e in entries if e.get('contrast')), None)
+    ru = '; '.join(rus) if len(rus) > 1 else (rus[0] if rus else first.get('ru', ''))
+    return (first['term'], first['ipa'], first['respell'], ru,
+            first.get('plural') or '', first['countability'],
+            senses[0][0] if senses else first.get('gloss', ''),
+            senses[0][2] if senses else first.get('examples', []),
+            contrast,
+            senses if len(senses) > 1 else None)
+
+
 def main():
     grammar = set()
     for f in sorted(glob.glob(f'{CAT}/[0-9]*.md')):
@@ -152,7 +218,8 @@ def main():
         for e in parse_catalog_file(f):
             grammar.add(e['term'].lower())
 
-    seen, problems, written, total = {}, [], 0, 0
+    idx = sense_index()
+    seen, problems, written, total, multi = {}, [], 0, 0, 0
     for i, slug in enumerate(ORDER):
         src = os.path.join(CORE, slug + '.json')
         if not os.path.exists(src):
@@ -170,9 +237,10 @@ def main():
                 continue
             if valid(e, seen, grammar, problems, slug):
                 seen[e['term'].lower()] = slug
-                kept.append((e['term'], e['ipa'], e['respell'], e['ru'],
-                             e.get('plural') or '', e['countability'],
-                             e['gloss'], e['examples'], e.get('contrast') or None))
+                row = merge(idx[e['term'].lower()])
+                if row[9]:
+                    multi += 1
+                kept.append(row)
         if not kept:
             continue
         num = START_NUM + i
@@ -195,6 +263,8 @@ def main():
     total += gentries
 
     print(f'\nwrote {written} core files, {total} entries')
+    if multi:
+        print(f'  {multi} entries carry more than one sense, merged from separate fields')
     if gfiles:
         print(f'  of which {gfiles} A-Z files hold {gentries} entries from the gap pass')
     if problems:
@@ -226,6 +296,7 @@ def build_gap(seen, grammar, problems):
         return 0, 0
 
     entries.sort(key=lambda e: (e.get('term') or '').lower())
+    idx = sense_index()
     kept = []
     for e in entries:
         if valid(e, seen, grammar, problems, 'gap'):
@@ -251,9 +322,7 @@ def build_gap(seen, grammar, problems):
     for g in groups:
         lo, hi = g[0]['term'][0].upper(), g[-1]['term'][0].upper()
         span = lo if lo == hi else f'{lo}-{hi}'
-        rows = [(e['term'], e['ipa'], e['respell'], e['ru'], e.get('plural') or '',
-                 e['countability'], e['gloss'], e['examples'], e.get('contrast') or None)
-                for e in g]
+        rows = [merge(idx[e['term'].lower()]) for e in g]
         build(os.path.join(CAT, f'{num}-core-more-{span.lower()}.md'),
               f'Core vocabulary: more nouns {span}',
               f'Further everyday nouns, {span} — what a coverage check against WordNet '

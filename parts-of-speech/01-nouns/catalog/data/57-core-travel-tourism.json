@@ -52,14 +52,43 @@
       "term": "plane",
       "ipa": "/pleɪn/",
       "respell": "PLAYN",
-      "meaning": "An airplane, in everyday speech. ---",
+      "meaning": "Plane has 2 distinct senses.",
       "examples": [
         "Our plane was delayed two hours in Chicago.",
         "I hate taking small planes in bad weather.",
-        "We ran to catch the last plane out."
+        "We ran to catch the last plane out.",
+        "The two lines lie in the same plane.",
+        "Cut the block along a horizontal plane.",
+        "The drawing shows three intersecting planes."
       ],
-      "senses": [],
-      "русский": "самолёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An airplane, in everyday speech",
+          "body": [
+            "(самолёт)"
+          ],
+          "examples": [
+            "Our plane was delayed two hours in Chicago.",
+            "I hate taking small planes in bad weather.",
+            "We ran to catch the last plane out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A completely flat surface that goes on in every direction",
+          "body": [
+            "(плоскость)",
+            "---"
+          ],
+          "examples": [
+            "The two lines lie in the same plane.",
+            "Cut the block along a horizontal plane.",
+            "The drawing shows three intersecting planes."
+          ]
+        }
+      ],
+      "русский": "самолёт; плоскость",
       "plural": "planes",
       "countability": "countable",
       "contrast": "Sounds exactly like plain (simple, ordinary)."
@@ -83,16 +112,46 @@
       "term": "runway",
       "ipa": "/ˈrʌnweɪ/",
       "respell": "RUHN-way",
-      "meaning": "The long strip of pavement where planes take off and land. ---",
+      "meaning": "Runway has 2 distinct senses.",
       "examples": [
         "We sat on the runway for forty minutes.",
         "Ice closed both runways that morning.",
-        "The plane turned onto the runway and picked up speed."
+        "The plane turned onto the runway and picked up speed.",
+        "The coat looked enormous on the runway.",
+        "She's walked runways in Paris and Milan.",
+        "Nothing off that runway is going to end up in a store."
       ],
-      "senses": [],
-      "русский": "взлётно-посадочная полоса",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The long strip of pavement where planes take off and land",
+          "body": [
+            "(взлётно-посадочная полоса)"
+          ],
+          "examples": [
+            "We sat on the runway for forty minutes.",
+            "Ice closed both runways that morning.",
+            "The plane turned onto the runway and picked up speed."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The long raised platform models walk along in a fashion show",
+          "body": [
+            "(подиум (для показа мод))",
+            "---"
+          ],
+          "examples": [
+            "The coat looked enormous on the runway.",
+            "She's walked runways in Paris and Milan.",
+            "Nothing off that runway is going to end up in a store."
+          ]
+        }
+      ],
+      "русский": "взлётно-посадочная полоса; подиум (для показа мод)",
       "plural": "runways",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say runway; the British say catwalk."
     },
     {
       "term": "cockpit",
@@ -187,14 +246,58 @@
       "term": "connection",
       "ipa": "/kəˈnɛkʃən/",
       "respell": "kuh-NEK-shuhn",
-      "meaning": "A second flight or train you change to in order to finish a trip. ---",
+      "meaning": "Connection has 3 distinct senses.",
       "examples": [
         "I almost missed my connection in Dallas.",
         "There are only two connections a day to that island.",
-        "The gate agent rebooked my connection."
+        "The gate agent rebooked my connection.",
+        "My connection keeps dropping during video calls.",
+        "Hotel connections are usually pretty slow.",
+        "Check your connection before you blame the app.",
+        "The video keeps freezing because my connection is slow.",
+        "We lost our connection halfway through the call.",
+        "Hotel connections are usually too slow for video."
       ],
-      "senses": [],
-      "русский": "стыковочный рейс, пересадка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A second flight or train you change to in order to finish a trip",
+          "body": [
+            "(стыковочный рейс, пересадка)"
+          ],
+          "examples": [
+            "I almost missed my connection in Dallas.",
+            "There are only two connections a day to that island.",
+            "The gate agent rebooked my connection."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A link that lets one device exchange information with another",
+          "body": [
+            "(соединение, подключение)"
+          ],
+          "examples": [
+            "My connection keeps dropping during video calls.",
+            "Hotel connections are usually pretty slow.",
+            "Check your connection before you blame the app."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A working link between a device and a network",
+          "body": [
+            "(соединение, подключение)",
+            "---"
+          ],
+          "examples": [
+            "The video keeps freezing because my connection is slow.",
+            "We lost our connection halfway through the call.",
+            "Hotel connections are usually too slow for video."
+          ]
+        }
+      ],
+      "русский": "стыковочный рейс, пересадка; соединение, подключение",
       "plural": "connections",
       "countability": "countable"
     },
@@ -345,7 +448,8 @@
       "senses": [],
       "русский": "загранпаспорт",
       "plural": "passports",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "An American passport is for foreign travel; the domestic ID Russians call паспорт has no US equivalent."
     },
     {
       "term": "visa",
@@ -381,28 +485,87 @@
       "term": "immigration",
       "ipa": "/ˌɪmɪˈɡreɪʃən/",
       "respell": "im-ih-GRAY-shuhn",
-      "meaning": "The desk or process where officials check travelers entering a country. ---",
+      "meaning": "Immigration has 2 distinct senses.",
       "examples": [
         "The line at immigration was enormous.",
         "Immigration asked how long I was staying.",
-        "You clear immigration before you pick up your bags."
+        "You clear immigration before you pick up your bags.",
+        "Immigration dominated the debate.",
+        "He wants to cut legal immigration in half.",
+        "The immigration system has not been updated in years."
       ],
-      "senses": [],
-      "русский": "паспортный контроль; иммиграция",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "The desk or process where officials check travelers entering a country",
+          "body": [
+            "(паспортный контроль; иммиграция)"
+          ],
+          "examples": [
+            "The line at immigration was enormous.",
+            "Immigration asked how long I was staying.",
+            "You clear immigration before you pick up your bags."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The movement of people into a country to live there",
+          "body": [
+            "(иммиграция)",
+            "---"
+          ],
+          "examples": [
+            "Immigration dominated the debate.",
+            "He wants to cut legal immigration in half.",
+            "The immigration system has not been updated in years."
+          ]
+        }
+      ],
+      "русский": "паспортный контроль; иммиграция; иммиграция",
+      "countability": "uncountable",
+      "contrast": "Immigration is movement into a country; emigration is movement out of one."
     },
     {
       "term": "checkpoint",
       "ipa": "/ˈtʃɛkpɔɪnt/",
       "respell": "CHEK-poynt",
-      "meaning": "A place where officials stop people to inspect them or their documents. ---",
+      "meaning": "Checkpoint has 2 distinct senses.",
       "examples": [
         "There's a security checkpoint before the gates.",
         "We passed two checkpoints on the mountain road.",
-        "Take your laptop out at the checkpoint."
+        "Take your laptop out at the checkpoint.",
+        "Soldiers stopped the car at a checkpoint.",
+        "There are checkpoints on every road out of the city.",
+        "The checkpoint closes after dark."
       ],
-      "senses": [],
-      "русский": "контрольно-пропускной пункт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where officials stop people to inspect them or their documents",
+          "body": [
+            "(контрольно-пропускной пункт)"
+          ],
+          "examples": [
+            "There's a security checkpoint before the gates.",
+            "We passed two checkpoints on the mountain road.",
+            "Take your laptop out at the checkpoint."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place on a road where soldiers stop and search travelers",
+          "body": [
+            "(контрольно-пропускной пункт, блокпост)",
+            "---"
+          ],
+          "examples": [
+            "Soldiers stopped the car at a checkpoint.",
+            "There are checkpoints on every road out of the city.",
+            "The checkpoint closes after dark."
+          ]
+        }
+      ],
+      "русский": "контрольно-пропускной пункт; контрольно-пропускной пункт, блокпост",
       "plural": "checkpoints",
       "countability": "countable"
     },
@@ -426,14 +589,73 @@
       "term": "security",
       "ipa": "/sɪˈkjʊrəti/",
       "respell": "sih-KYOOR-ih-tee",
-      "meaning": "The screening area and staff that check passengers before a flight. ---",
+      "meaning": "Security has 4 distinct senses.",
       "examples": [
         "Get to the airport early; security is slow today.",
         "Security made me throw out my water bottle.",
-        "We went through security in five minutes."
+        "We went through security in five minutes.",
+        "National security was the reason they gave.",
+        "Security at the airport was unusually tight.",
+        "The committee meets to discuss border security.",
+        "The bank spends a fortune on security.",
+        "Weak passwords are a security problem.",
+        "Security is everybody's job, not just IT's.",
+        "The bank added another layer of security.",
+        "Weak passwords are a security problem.",
+        "Security on that site is a joke."
       ],
-      "senses": [],
-      "русский": "досмотр; служба безопасности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The screening area and staff that check passengers before a flight",
+          "body": [
+            "(досмотр; служба безопасности)"
+          ],
+          "examples": [
+            "Get to the airport early; security is slow today.",
+            "Security made me throw out my water bottle.",
+            "We went through security in five minutes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Protection of a country or people from attack and danger",
+          "body": [
+            "(безопасность)"
+          ],
+          "examples": [
+            "National security was the reason they gave.",
+            "Security at the airport was unusually tight.",
+            "The committee meets to discuss border security."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Protection of computers and data from theft or damage",
+          "body": [
+            "(безопасность (защита данных))"
+          ],
+          "examples": [
+            "The bank spends a fortune on security.",
+            "Weak passwords are a security problem.",
+            "Security is everybody's job, not just IT's."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "Protection against theft, damage, or unwanted access",
+          "body": [
+            "(безопасность, защита)",
+            "---"
+          ],
+          "examples": [
+            "The bank added another layer of security.",
+            "Weak passwords are a security problem.",
+            "Security on that site is a joke."
+          ]
+        }
+      ],
+      "русский": "досмотр; служба безопасности; безопасность; безопасность (защита данных); безопасность, защита",
       "countability": "uncountable"
     },
     {
@@ -494,7 +716,8 @@
       "senses": [],
       "русский": "гражданство, национальность",
       "plural": "nationalities",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American forms nationality means citizenship, not ethnic background."
     },
     {
       "term": "embassy",
@@ -544,14 +767,43 @@
       "term": "ticket",
       "ipa": "/ˈtɪkɪt/",
       "respell": "TIK-it",
-      "meaning": "A paper or digital pass that lets you travel or enter a place. ---",
+      "meaning": "Ticket has 2 distinct senses.",
       "examples": [
         "I bought a one-way ticket to Seattle.",
         "The tickets were cheaper on a Tuesday.",
-        "Show your ticket to the conductor."
+        "Show your ticket to the conductor.",
+        "I got a ticket for running a red light.",
+        "The parking ticket was forty-five dollars.",
+        "He has three unpaid tickets."
       ],
-      "senses": [],
-      "русский": "билет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A paper or digital pass that lets you travel or enter a place",
+          "body": [
+            "(билет)"
+          ],
+          "examples": [
+            "I bought a one-way ticket to Seattle.",
+            "The tickets were cheaper on a Tuesday.",
+            "Show your ticket to the conductor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official notice ordering you to pay a fine for breaking a traffic law",
+          "body": [
+            "(штрафная квитанция (за нарушение ПДД))",
+            "---"
+          ],
+          "examples": [
+            "I got a ticket for running a red light.",
+            "The parking ticket was forty-five dollars.",
+            "He has three unpaid tickets."
+          ]
+        }
+      ],
+      "русский": "билет; штрафная квитанция (за нарушение ПДД)",
       "plural": "tickets",
       "countability": "countable"
     },
@@ -876,13 +1128,42 @@
       "term": "pilgrimage",
       "ipa": "/ˈpɪlɡrəmɪdʒ/",
       "respell": "PIL-gruh-mij",
-      "meaning": "A journey to a holy or deeply meaningful place. ---",
+      "meaning": "Pilgrimage has 2 distinct senses.",
       "examples": [
         "She made a pilgrimage to the shrine every spring.",
         "Thousands of pilgrimages end at that cathedral.",
-        "For him the trip was a kind of pilgrimage."
+        "For him the trip was a kind of pilgrimage.",
+        "He made the pilgrimage to Mecca last year.",
+        "The walk is a pilgrimage for serious baseball fans.",
+        "Her family has made three pilgrimages together."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A journey to a holy or deeply meaningful place",
+          "body": [
+            "(паломничество)"
+          ],
+          "examples": [
+            "She made a pilgrimage to the shrine every spring.",
+            "Thousands of pilgrimages end at that cathedral.",
+            "For him the trip was a kind of pilgrimage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A journey to a holy place made for religious reasons",
+          "body": [
+            "(паломничество)",
+            "---"
+          ],
+          "examples": [
+            "He made the pilgrimage to Mecca last year.",
+            "The walk is a pilgrimage for serious baseball fans.",
+            "Her family has made three pilgrimages together."
+          ]
+        }
+      ],
       "русский": "паломничество",
       "plural": "pilgrimages",
       "countability": "countable"
@@ -1074,14 +1355,43 @@
       "term": "reception",
       "ipa": "/rɪˈsɛpʃən/",
       "respell": "rih-SEP-shuhn",
-      "meaning": "The desk or area in a hotel where guests check in. ---",
+      "meaning": "Reception has 2 distinct senses.",
       "examples": [
         "Leave your key at reception when you go out.",
         "Call reception if you need more towels.",
-        "The reception is open around the clock."
+        "The reception is open around the clock.",
+        "Reception is bad in the basement.",
+        "We get better reception by the window.",
+        "The new antenna improved reception a lot."
       ],
-      "senses": [],
-      "русский": "стойка регистрации, ресепшен",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The desk or area in a hotel where guests check in",
+          "body": [
+            "(стойка регистрации, ресепшен)"
+          ],
+          "examples": [
+            "Leave your key at reception when you go out.",
+            "Call reception if you need more towels.",
+            "The reception is open around the clock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How well a radio, TV, or phone picks up a signal",
+          "body": [
+            "(приём (сигнала))",
+            "---"
+          ],
+          "examples": [
+            "Reception is bad in the basement.",
+            "We get better reception by the window.",
+            "The new antenna improved reception a lot."
+          ]
+        }
+      ],
+      "русский": "стойка регистрации, ресепшен; приём (сигнала)",
       "plural": "receptions",
       "countability": "countable"
     },
@@ -1314,14 +1624,43 @@
       "term": "station",
       "ipa": "/ˈsteɪʃən/",
       "respell": "STAY-shuhn",
-      "meaning": "A building where trains or buses stop for passengers. ---",
+      "meaning": "Station has 2 distinct senses.",
       "examples": [
         "Meet me at the station at six.",
         "The line has forty stations.",
-        "There's a coffee shop inside the station."
+        "There's a coffee shop inside the station.",
+        "That station plays country all day.",
+        "Local stations covered the fire live.",
+        "He worked at a radio station in college."
       ],
-      "senses": [],
-      "русский": "вокзал, станция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building where trains or buses stop for passengers",
+          "body": [
+            "(вокзал, станция)"
+          ],
+          "examples": [
+            "Meet me at the station at six.",
+            "The line has forty stations.",
+            "There's a coffee shop inside the station."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company or channel that sends out radio or television programs",
+          "body": [
+            "(станция (радио-, теле-))",
+            "---"
+          ],
+          "examples": [
+            "That station plays country all day.",
+            "Local stations covered the fire live.",
+            "He worked at a radio station in college."
+          ]
+        }
+      ],
+      "русский": "вокзал, станция; станция (радио-, теле-)",
       "plural": "stations",
       "countability": "countable"
     },
@@ -1329,14 +1668,73 @@
       "term": "platform",
       "ipa": "/ˈplætfɔːrm/",
       "respell": "PLAT-form",
-      "meaning": "The raised walkway beside the track where passengers wait. ---",
+      "meaning": "Platform has 4 distinct senses.",
       "examples": [
         "Our train leaves from platform nine.",
         "Both platforms were packed with commuters.",
-        "Stand back from the edge of the platform."
+        "Stand back from the edge of the platform.",
+        "Health care is the center of her platform.",
+        "The party adopted its platform at the convention.",
+        "Their two platforms are almost identical.",
+        "The video platform changed its rules again.",
+        "We publish on three different platforms.",
+        "It's the biggest platform for freelance work.",
+        "She posts the same video on three platforms.",
+        "The platform banned his account.",
+        "Every platform has its own rules about ads."
       ],
-      "senses": [],
-      "русский": "платформа, перрон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The raised walkway beside the track where passengers wait",
+          "body": [
+            "(платформа, перрон)"
+          ],
+          "examples": [
+            "Our train leaves from platform nine.",
+            "Both platforms were packed with commuters.",
+            "Stand back from the edge of the platform."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The set of positions a party or candidate runs on",
+          "body": [
+            "(предвыборная программа (партии))"
+          ],
+          "examples": [
+            "Health care is the center of her platform.",
+            "The party adopted its platform at the convention.",
+            "Their two platforms are almost identical."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A system or service that other software and users are built around",
+          "body": [
+            "(платформа)"
+          ],
+          "examples": [
+            "The video platform changed its rules again.",
+            "We publish on three different platforms.",
+            "It's the biggest platform for freelance work."
+          ]
+        },
+        {
+          "n": "4",
+          "head": "An online service where people post, share, or sell things",
+          "body": [
+            "(платформа (онлайн-сервис))",
+            "---"
+          ],
+          "examples": [
+            "She posts the same video on three platforms.",
+            "The platform banned his account.",
+            "Every platform has its own rules about ads."
+          ]
+        }
+      ],
+      "русский": "платформа, перрон; предвыборная программа (партии); платформа; платформа (онлайн-сервис)",
       "plural": "platforms",
       "countability": "countable"
     },
@@ -1344,13 +1742,42 @@
       "term": "railroad",
       "ipa": "/ˈreɪlroʊd/",
       "respell": "RAYL-rohd",
-      "meaning": "A system of tracks and trains, or the company that runs it. ---",
+      "meaning": "Railroad has 2 distinct senses.",
       "examples": [
         "The railroad runs right through the middle of town.",
         "Two railroads merged last year.",
-        "His grandfather worked for the railroad."
+        "His grandfather worked for the railroad.",
+        "The town grew up around the railroad.",
+        "Two railroads still serve the port.",
+        "There's a railroad crossing just past the mill."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A system of tracks and trains, or the company that runs it",
+          "body": [
+            "(железная дорога)"
+          ],
+          "examples": [
+            "The railroad runs right through the middle of town.",
+            "Two railroads merged last year.",
+            "His grandfather worked for the railroad."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A system of tracks and trains for carrying people and goods",
+          "body": [
+            "(железная дорога)",
+            "---"
+          ],
+          "examples": [
+            "The town grew up around the railroad.",
+            "Two railroads still serve the port.",
+            "There's a railroad crossing just past the mill."
+          ]
+        }
+      ],
       "русский": "железная дорога",
       "plural": "railroads",
       "countability": "countable",
@@ -1360,13 +1787,42 @@
       "term": "subway",
       "ipa": "/ˈsʌbweɪ/",
       "respell": "SUHB-way",
-      "meaning": "An underground city train system. ---",
+      "meaning": "Subway has 2 distinct senses.",
       "examples": [
         "Take the subway; it's faster than a cab.",
         "Few American cities have real subways.",
+        "The subway runs all night here.",
+        "I take the subway to work every day.",
+        "Several US cities have small subways.",
         "The subway runs all night here."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An underground city train system",
+          "body": [
+            "(метро)"
+          ],
+          "examples": [
+            "Take the subway; it's faster than a cab.",
+            "Few American cities have real subways.",
+            "The subway runs all night here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An underground railroad system in a city",
+          "body": [
+            "(метро)",
+            "---"
+          ],
+          "examples": [
+            "I take the subway to work every day.",
+            "Several US cities have small subways.",
+            "The subway runs all night here."
+          ]
+        }
+      ],
       "русский": "метро",
       "plural": "subways",
       "countability": "countable",
@@ -1392,14 +1848,43 @@
       "term": "shuttle",
       "ipa": "/ˈʃʌtəl/",
       "respell": "SHUH-tuhl",
-      "meaning": "A bus or van that goes back and forth over a short route. ---",
+      "meaning": "Shuttle has 2 distinct senses.",
       "examples": [
         "The hotel shuttle picks you up at door three.",
         "Shuttles run every ten minutes to the parking lot.",
-        "We missed the last shuttle and had to walk."
+        "We missed the last shuttle and had to walk.",
+        "The shuttle flew across the loom.",
+        "He carved a new shuttle out of maple.",
+        "Old shuttles are smooth from years of use."
       ],
-      "senses": [],
-      "русский": "шаттл, челночный автобус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bus or van that goes back and forth over a short route",
+          "body": [
+            "(шаттл, челночный автобус)"
+          ],
+          "examples": [
+            "The hotel shuttle picks you up at door three.",
+            "Shuttles run every ten minutes to the parking lot.",
+            "We missed the last shuttle and had to walk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a loom that carries the crosswise thread back and forth",
+          "body": [
+            "(челнок (ткацкий))",
+            "---"
+          ],
+          "examples": [
+            "The shuttle flew across the loom.",
+            "He carved a new shuttle out of maple.",
+            "Old shuttles are smooth from years of use."
+          ]
+        }
+      ],
+      "русский": "шаттл, челночный автобус; челнок (ткацкий)",
       "plural": "shuttles",
       "countability": "countable"
     },
@@ -1476,7 +1961,8 @@
       "senses": [],
       "русский": "скоростная автомагистраль",
       "plural": "freeways",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American. The British word is 'motorway'."
     },
     {
       "term": "route",
@@ -1575,13 +2061,42 @@
       "term": "pedestrian",
       "ipa": "/pəˈdɛstriən/",
       "respell": "puh-DES-tree-uhn",
-      "meaning": "A person walking rather than driving. ---",
+      "meaning": "Pedestrian has 2 distinct senses.",
       "examples": [
         "A pedestrian stepped out in front of the bus.",
         "Pedestrians have the right of way here.",
-        "That street is closed to cars and open to pedestrian traffic."
+        "That street is closed to cars and open to pedestrian traffic.",
+        "A pedestrian was hit at that corner last year.",
+        "Pedestrians have the right of way here.",
+        "The street is closed to cars but open to pedestrians."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person walking rather than driving",
+          "body": [
+            "(пешеход)"
+          ],
+          "examples": [
+            "A pedestrian stepped out in front of the bus.",
+            "Pedestrians have the right of way here.",
+            "That street is closed to cars and open to pedestrian traffic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person walking, especially in a place where there is traffic",
+          "body": [
+            "(пешеход)",
+            "---"
+          ],
+          "examples": [
+            "A pedestrian was hit at that corner last year.",
+            "Pedestrians have the right of way here.",
+            "The street is closed to cars but open to pedestrians."
+          ]
+        }
+      ],
       "русский": "пешеход",
       "plural": "pedestrians",
       "countability": "countable"
@@ -1742,14 +2257,43 @@
       "term": "port",
       "ipa": "/pɔːrt/",
       "respell": "PORT",
-      "meaning": "A town or harbor where ships load and unload. ---",
+      "meaning": "Port has 2 distinct senses.",
       "examples": [
         "The ship reached port just before dawn.",
         "The cruise stops at four ports.",
-        "It's the busiest port on the coast."
+        "It's the busiest port on the coast.",
+        "Plug the drive into the port on the left.",
+        "The laptop only has two ports.",
+        "The charging port is full of lint."
       ],
-      "senses": [],
-      "русский": "порт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A town or harbor where ships load and unload",
+          "body": [
+            "(порт)"
+          ],
+          "examples": [
+            "The ship reached port just before dawn.",
+            "The cruise stops at four ports.",
+            "It's the busiest port on the coast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A socket on a device where a cable plugs in",
+          "body": [
+            "(порт, разъём)",
+            "---"
+          ],
+          "examples": [
+            "Plug the drive into the port on the left.",
+            "The laptop only has two ports.",
+            "The charging port is full of lint."
+          ]
+        }
+      ],
+      "русский": "порт; порт, разъём",
       "plural": "ports",
       "countability": "countable"
     },
@@ -1818,13 +2362,42 @@
       "term": "sailor",
       "ipa": "/ˈseɪlər/",
       "respell": "SAY-lur",
-      "meaning": "A person who works on a ship or sails a boat. ---",
+      "meaning": "Sailor has 2 distinct senses.",
       "examples": [
         "The sailor showed us how to tie the knot.",
         "Sailors filled every bar in the port.",
-        "She's a better sailor than anyone in the club."
+        "She's a better sailor than anyone in the club.",
+        "Two hundred sailors were aboard.",
+        "The sailor had been at sea for six months.",
+        "Sailors crowded the deck to watch."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person who works on a ship or sails a boat",
+          "body": [
+            "(моряк, матрос)"
+          ],
+          "examples": [
+            "The sailor showed us how to tie the knot.",
+            "Sailors filled every bar in the port.",
+            "She's a better sailor than anyone in the club."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who serves aboard a ship, especially a warship",
+          "body": [
+            "(моряк, матрос)",
+            "---"
+          ],
+          "examples": [
+            "Two hundred sailors were aboard.",
+            "The sailor had been at sea for six months.",
+            "Sailors crowded the deck to watch."
+          ]
+        }
+      ],
       "русский": "моряк, матрос",
       "plural": "sailors",
       "countability": "countable"
@@ -1878,14 +2451,43 @@
       "term": "cathedral",
       "ipa": "/kəˈθiːdrəl/",
       "respell": "kuh-THEE-druhl",
-      "meaning": "A very large and important church. ---",
+      "meaning": "Cathedral has 2 distinct senses.",
       "examples": [
         "The cathedral took two hundred years to build.",
         "We visited three cathedrals in one week.",
-        "You can hear the cathedral bells from our room."
+        "You can hear the cathedral bells from our room.",
+        "The cathedral took ninety years to finish.",
+        "We lit a candle inside the cathedral.",
+        "Tourists line up outside the old cathedrals all summer."
       ],
-      "senses": [],
-      "русский": "собор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very large and important church",
+          "body": [
+            "(собор)"
+          ],
+          "examples": [
+            "The cathedral took two hundred years to build.",
+            "We visited three cathedrals in one week.",
+            "You can hear the cathedral bells from our room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large, important church, usually the main one of a region",
+          "body": [
+            "(собор, кафедральный собор)",
+            "---"
+          ],
+          "examples": [
+            "The cathedral took ninety years to finish.",
+            "We lit a candle inside the cathedral.",
+            "Tourists line up outside the old cathedrals all summer."
+          ]
+        }
+      ],
+      "русский": "собор; собор, кафедральный собор",
       "plural": "cathedrals",
       "countability": "countable"
     },
@@ -1986,14 +2588,43 @@
       "term": "plaza",
       "ipa": "/ˈplɑːzə/",
       "respell": "PLAH-zuh",
-      "meaning": "An open public square in a town or city. ---",
+      "meaning": "Plaza has 2 distinct senses.",
       "examples": [
         "The band played in the main plaza.",
         "Cafes surround both plazas.",
-        "Kids were kicking a ball around the plaza."
+        "Kids were kicking a ball around the plaza.",
+        "A farmers market sets up in the plaza on Sundays.",
+        "Two plazas flank the government building.",
+        "The fountain in the plaza runs all summer."
       ],
-      "senses": [],
-      "русский": "площадь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open public square in a town or city",
+          "body": [
+            "(площадь)"
+          ],
+          "examples": [
+            "The band played in the main plaza.",
+            "Cafes surround both plazas.",
+            "Kids were kicking a ball around the plaza."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An open paved area in a city, often in front of a large building",
+          "body": [
+            "(площадь, плаза)",
+            "---"
+          ],
+          "examples": [
+            "A farmers market sets up in the plaza on Sundays.",
+            "Two plazas flank the government building.",
+            "The fountain in the plaza runs all summer."
+          ]
+        }
+      ],
+      "русский": "площадь; площадь, плаза",
       "plural": "plazas",
       "countability": "countable"
     },
@@ -2212,14 +2843,43 @@
       "term": "kiosk",
       "ipa": "/ˈkiːɑːsk/",
       "respell": "KEE-ahsk",
-      "meaning": "A small stand or self-service machine where things are sold or printed. ---",
+      "meaning": "Kiosk has 2 distinct senses.",
       "examples": [
         "Print your ticket at the kiosk by the door.",
         "All four kiosks were out of order.",
-        "We bought water from a kiosk on the corner."
+        "We bought water from a kiosk on the corner.",
+        "Buy your ticket at the kiosk by the entrance.",
+        "There are coffee kiosks all over the airport.",
+        "The information kiosk is closed on Sundays."
       ],
-      "senses": [],
-      "русский": "киоск; терминал самообслуживания",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small stand or self-service machine where things are sold or printed",
+          "body": [
+            "(киоск; терминал самообслуживания)"
+          ],
+          "examples": [
+            "Print your ticket at the kiosk by the door.",
+            "All four kiosks were out of order.",
+            "We bought water from a kiosk on the corner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small stand or booth in a public place selling things or giving information",
+          "body": [
+            "(киоск, ларёк)",
+            "---"
+          ],
+          "examples": [
+            "Buy your ticket at the kiosk by the entrance.",
+            "There are coffee kiosks all over the airport.",
+            "The information kiosk is closed on Sundays."
+          ]
+        }
+      ],
+      "русский": "киоск; терминал самообслуживания; киоск, ларёк",
       "plural": "kiosks",
       "countability": "countable"
     },

@@ -111,14 +111,43 @@
       "term": "retreat",
       "ipa": "/rɪˈtriːt/",
       "respell": "rih-TREET",
-      "meaning": "A movement away from an enemy because fighting on is impossible. ---",
+      "meaning": "Retreat has 2 distinct senses.",
       "examples": [
         "The general ordered a retreat.",
         "The retreat turned into a rout.",
-        "Their retreats were always well organized."
+        "Their retreats were always well organized.",
+        "The company sends managers on a retreat each January.",
+        "She's been on two silent retreats in the mountains.",
+        "The retreat runs from Friday night through Sunday lunch."
       ],
-      "senses": [],
-      "русский": "отступление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A movement away from an enemy because fighting on is impossible",
+          "body": [
+            "(отступление)"
+          ],
+          "examples": [
+            "The general ordered a retreat.",
+            "The retreat turned into a rout.",
+            "Their retreats were always well organized."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A trip away from ordinary life for a group to rest, plan, or study together",
+          "body": [
+            "(выездной сбор, ретрит)",
+            "---"
+          ],
+          "examples": [
+            "The company sends managers on a retreat each January.",
+            "She's been on two silent retreats in the mountains.",
+            "The retreat runs from Friday night through Sunday lunch."
+          ]
+        }
+      ],
+      "русский": "отступление; выездной сбор, ретрит",
       "plural": "retreats",
       "countability": "countable"
     },
@@ -277,13 +306,42 @@
       "term": "resistance",
       "ipa": "/rɪˈzɪstəns/",
       "respell": "rih-ZIS-tuhns",
-      "meaning": "Armed opposition to an invading or occupying force. ---",
+      "meaning": "Resistance has 2 distinct senses.",
       "examples": [
         "They met fierce resistance at the bridge.",
         "The town fell without resistance.",
-        "His father fought in the resistance."
+        "His father fought in the resistance.",
+        "Copper has very low resistance.",
+        "Measure the resistance across the two ends.",
+        "Higher resistance means less current."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Armed opposition to an invading or occupying force",
+          "body": [
+            "(сопротивление)"
+          ],
+          "examples": [
+            "They met fierce resistance at the bridge.",
+            "The town fell without resistance.",
+            "His father fought in the resistance."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How much a material slows down an electric current",
+          "body": [
+            "(сопротивление)",
+            "---"
+          ],
+          "examples": [
+            "Copper has very low resistance.",
+            "Measure the resistance across the two ends.",
+            "Higher resistance means less current."
+          ]
+        }
+      ],
       "русский": "сопротивление",
       "countability": "uncountable"
     },
@@ -291,14 +349,43 @@
       "term": "occupation",
       "ipa": "/ˌɑːkjəˈpeɪʃən/",
       "respell": "ah-kyuh-PAY-shuhn",
-      "meaning": "Control of a country or region by a foreign army. ---",
+      "meaning": "Occupation has 2 distinct senses.",
       "examples": [
         "The occupation lasted four years.",
         "Life under occupation was grim.",
-        "They resisted the occupation from the first day."
+        "They resisted the occupation from the first day.",
+        "Write your occupation on the form.",
+        "Nursing is one of the fastest-growing occupations.",
+        "His occupation is listed as carpenter."
       ],
-      "senses": [],
-      "русский": "оккупация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Control of a country or region by a foreign army",
+          "body": [
+            "(оккупация)"
+          ],
+          "examples": [
+            "The occupation lasted four years.",
+            "Life under occupation was grim.",
+            "They resisted the occupation from the first day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The job or profession a person does for a living",
+          "body": [
+            "(род занятий, профессия)",
+            "---"
+          ],
+          "examples": [
+            "Write your occupation on the form.",
+            "Nursing is one of the fastest-growing occupations.",
+            "His occupation is listed as carpenter."
+          ]
+        }
+      ],
+      "русский": "оккупация; род занятий, профессия",
       "countability": "uncountable"
     },
     {
@@ -379,14 +466,43 @@
       "term": "navy",
       "ipa": "/ˈneɪvi/",
       "respell": "NAY-vee",
-      "meaning": "The branch of a country's armed forces that fights at sea. ---",
+      "meaning": "Navy has 2 distinct senses.",
       "examples": [
         "He joined the navy at eighteen.",
         "The navy sent three ships to the region.",
-        "Both navies patrolled the strait."
+        "Both navies patrolled the strait.",
+        "He wore a suit in navy.",
+        "Navy goes with almost anything.",
+        "The uniform is navy with gold buttons."
       ],
-      "senses": [],
-      "русский": "военно-морской флот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The branch of a country's armed forces that fights at sea",
+          "body": [
+            "(военно-морской флот)"
+          ],
+          "examples": [
+            "He joined the navy at eighteen.",
+            "The navy sent three ships to the region.",
+            "Both navies patrolled the strait."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very dark blue",
+          "body": [
+            "(тёмно-синий цвет)",
+            "---"
+          ],
+          "examples": [
+            "He wore a suit in navy.",
+            "Navy goes with almost anything.",
+            "The uniform is navy with gold buttons."
+          ]
+        }
+      ],
+      "русский": "военно-морской флот; тёмно-синий цвет",
       "plural": "navies",
       "countability": "countable"
     },
@@ -437,14 +553,43 @@
       "term": "squad",
       "ipa": "/skwɑːd/",
       "respell": "SKWAHD",
-      "meaning": "The smallest army unit, usually about eight to twelve soldiers. ---",
+      "meaning": "Squad has 2 distinct senses.",
       "examples": [
         "A squad of eight men held the corner.",
         "The squad moved through the village house by house.",
-        "Two squads were sent ahead."
+        "Two squads were sent ahead.",
+        "A squad of police cleared the street.",
+        "She made the varsity squad.",
+        "Two bomb squads were called in."
       ],
-      "senses": [],
-      "русский": "отделение (воен.), группа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The smallest army unit, usually about eight to twelve soldiers",
+          "body": [
+            "(отделение (воен.), группа)"
+          ],
+          "examples": [
+            "A squad of eight men held the corner.",
+            "The squad moved through the village house by house.",
+            "Two squads were sent ahead."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small group of people working or playing together as a unit",
+          "body": [
+            "(отряд, команда)",
+            "---"
+          ],
+          "examples": [
+            "A squad of police cleared the street.",
+            "She made the varsity squad.",
+            "Two bomb squads were called in."
+          ]
+        }
+      ],
+      "русский": "отделение (воен.), группа; отряд, команда",
       "plural": "squads",
       "countability": "countable"
     },
@@ -1153,14 +1298,43 @@
       "term": "arrow",
       "ipa": "/ˈæroʊ/",
       "respell": "AR-oh",
-      "meaning": "A thin pointed stick shot from a bow. ---",
+      "meaning": "Arrow has 2 distinct senses.",
       "examples": [
         "An arrow struck him in the shoulder.",
         "The archers loosed their arrows.",
-        "He pulled the arrow out of the tree."
+        "He pulled the arrow out of the tree.",
+        "Follow the green arrow to baggage claim.",
+        "He drew an arrow pointing to the error.",
+        "Yellow arrows mark the detour."
       ],
-      "senses": [],
-      "русский": "стрела",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin pointed stick shot from a bow",
+          "body": [
+            "(стрела)"
+          ],
+          "examples": [
+            "An arrow struck him in the shoulder.",
+            "The archers loosed their arrows.",
+            "He pulled the arrow out of the tree."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sign shaped like a line with a point at one end, used to show direction",
+          "body": [
+            "(стрелка; стрела)",
+            "---"
+          ],
+          "examples": [
+            "Follow the green arrow to baggage claim.",
+            "He drew an arrow pointing to the error.",
+            "Yellow arrows mark the detour."
+          ]
+        }
+      ],
+      "русский": "стрела; стрелка; стрела",
       "plural": "arrows",
       "countability": "countable"
     },
@@ -1364,14 +1538,43 @@
       "term": "carrier",
       "ipa": "/ˈkæriər/",
       "respell": "KA-ree-ur",
-      "meaning": "A warship with a flat deck that aircraft take off from and land on. ---",
+      "meaning": "Carrier has 2 distinct senses.",
       "examples": [
         "The carrier launched forty planes.",
         "Two carriers were sent to the region.",
-        "He landed on the carrier in heavy seas."
+        "He landed on the carrier in heavy seas.",
+        "Which carrier do you use?",
+        "The phone is locked to one carrier.",
+        "All the big carriers offer the same plan now."
       ],
-      "senses": [],
-      "русский": "авианосец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A warship with a flat deck that aircraft take off from and land on",
+          "body": [
+            "(авианосец)"
+          ],
+          "examples": [
+            "The carrier launched forty planes.",
+            "Two carriers were sent to the region.",
+            "He landed on the carrier in heavy seas."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company that runs a cellphone network",
+          "body": [
+            "(оператор сотовой связи)",
+            "---"
+          ],
+          "examples": [
+            "Which carrier do you use?",
+            "The phone is locked to one carrier.",
+            "All the big carriers offer the same plan now."
+          ]
+        }
+      ],
+      "русский": "авианосец; оператор сотовой связи",
       "plural": "carriers",
       "countability": "countable"
     },
@@ -1470,14 +1673,58 @@
       "term": "base",
       "ipa": "/beɪs/",
       "respell": "BAYS",
-      "meaning": "A place where armed forces are stationed and supplied. ---",
+      "meaning": "Base has 3 distinct senses.",
       "examples": [
         "The planes returned to base before dark.",
         "There are two air bases in the state.",
-        "He grew up on a military base."
+        "He grew up on a military base.",
+        "Baking soda is a mild base.",
+        "An acid and a base react to make salt and water.",
+        "Strong bases can burn your skin.",
+        "The lamp has a heavy metal base.",
+        "Measure the base of the triangle.",
+        "Both statues have marble bases."
       ],
-      "senses": [],
-      "русский": "база (военная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A place where armed forces are stationed and supplied",
+          "body": [
+            "(база (военная))"
+          ],
+          "examples": [
+            "The planes returned to base before dark.",
+            "There are two air bases in the state.",
+            "He grew up on a military base."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A chemical substance that neutralizes an acid",
+          "body": [
+            "(основание, щёлочь)"
+          ],
+          "examples": [
+            "Baking soda is a mild base.",
+            "An acid and a base react to make salt and water.",
+            "Strong bases can burn your skin."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The lowest part of a shape or object, which it stands on",
+          "body": [
+            "(основание)",
+            "---"
+          ],
+          "examples": [
+            "The lamp has a heavy metal base.",
+            "Measure the base of the triangle.",
+            "Both statues have marble bases."
+          ]
+        }
+      ],
+      "русский": "база (военная); основание, щёлочь; основание",
       "plural": "bases",
       "countability": "countable",
       "contrast": "Sounds exactly like bass, the low musical part."
@@ -1562,14 +1809,58 @@
       "term": "parade",
       "ipa": "/pəˈreɪd/",
       "respell": "puh-RAYD",
-      "meaning": "A formal march of troops in front of onlookers. ---",
+      "meaning": "Parade has 3 distinct senses.",
       "examples": [
         "The victory parade filled the avenue.",
         "Troops marched in the parade for two hours.",
-        "The town holds two parades every year."
+        "The town holds two parades every year.",
+        "The Thanksgiving parade starts at nine.",
+        "Three parades were canceled for the storm.",
+        "Kids lined the street to watch the parade.",
+        "The parade starts at nine on Fifth Avenue.",
+        "We stood on the corner and watched the parade go by.",
+        "The town holds two parades a year."
       ],
-      "senses": [],
-      "русский": "парад",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal march of troops in front of onlookers",
+          "body": [
+            "(парад)"
+          ],
+          "examples": [
+            "The victory parade filled the avenue.",
+            "Troops marched in the parade for two hours.",
+            "The town holds two parades every year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A public procession of people marching or riding through the streets",
+          "body": [
+            "(парад, шествие)"
+          ],
+          "examples": [
+            "The Thanksgiving parade starts at nine.",
+            "Three parades were canceled for the storm.",
+            "Kids lined the street to watch the parade."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A public procession of people, bands, and vehicles moving through the streets to celebrate something",
+          "body": [
+            "(парад, шествие)",
+            "---"
+          ],
+          "examples": [
+            "The parade starts at nine on Fifth Avenue.",
+            "We stood on the corner and watched the parade go by.",
+            "The town holds two parades a year."
+          ]
+        }
+      ],
+      "русский": "парад; парад, шествие",
       "plural": "parades",
       "countability": "countable"
     },
@@ -1607,14 +1898,43 @@
       "term": "command",
       "ipa": "/kəˈmænd/",
       "respell": "kuh-MAND",
-      "meaning": "An order given to be obeyed, or authority over a military force. ---",
+      "meaning": "Command has 2 distinct senses.",
       "examples": [
         "The soldiers waited for the command to fire.",
         "She took command of the regiment in March.",
-        "He shouted a few sharp commands and the line moved."
+        "He shouted a few sharp commands and the line moved.",
+        "Type the command exactly as it's written.",
+        "I never remember the commands for that tool.",
+        "One command wipes the whole folder, so be careful."
       ],
-      "senses": [],
-      "русский": "приказ; командование",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An order given to be obeyed, or authority over a military force",
+          "body": [
+            "(приказ; командование)"
+          ],
+          "examples": [
+            "The soldiers waited for the command to fire.",
+            "She took command of the regiment in March.",
+            "He shouted a few sharp commands and the line moved."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An instruction typed in to make a computer do something",
+          "body": [
+            "(команда)",
+            "---"
+          ],
+          "examples": [
+            "Type the command exactly as it's written.",
+            "I never remember the commands for that tool.",
+            "One command wipes the whole folder, so be careful."
+          ]
+        }
+      ],
+      "русский": "приказ; командование; команда",
       "plural": "commands",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1681,13 +2001,42 @@
       "term": "honor",
       "ipa": "/ˈɑːnər/",
       "respell": "AH-nur",
-      "meaning": "Strong respect for what is right, and the good name it earns. ---",
+      "meaning": "Honor has 2 distinct senses.",
       "examples": [
         "He served with honor for twenty years.",
         "There is no honor in shooting prisoners.",
-        "He fought for the honor of his regiment."
+        "He fought for the honor of his regiment.",
+        "He was a man of honor.",
+        "They fought to defend the family's honor.",
+        "The park was named in honor of the fallen."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Strong respect for what is right, and the good name it earns",
+          "body": [
+            "(честь)"
+          ],
+          "examples": [
+            "He served with honor for twenty years.",
+            "There is no honor in shooting prisoners.",
+            "He fought for the honor of his regiment."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The respect a person earns by behaving decently",
+          "body": [
+            "(честь)",
+            "---"
+          ],
+          "examples": [
+            "He was a man of honor.",
+            "They fought to defend the family's honor.",
+            "The park was named in honor of the fallen."
+          ]
+        }
+      ],
       "русский": "честь",
       "countability": "uncountable",
       "contrast": "The h is silent: AH-nur. American spelling honor; British honour."
@@ -1726,14 +2075,43 @@
       "term": "salute",
       "ipa": "/səˈluːt/",
       "respell": "suh-LOOT",
-      "meaning": "A formal gesture of respect made to an officer or a flag. ---",
+      "meaning": "Salute has 2 distinct senses.",
       "examples": [
         "The private gave a crisp salute.",
         "A twenty-one-gun salute honored the fallen.",
-        "He returned the salute without a word."
+        "He returned the salute without a word.",
+        "The evening was a salute to local firefighters.",
+        "A twenty-one-gun salute closed the ceremony.",
+        "There were salutes to the graduating seniors between innings."
       ],
-      "senses": [],
-      "русский": "воинское приветствие, отдание чести",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal gesture of respect made to an officer or a flag",
+          "body": [
+            "(воинское приветствие, отдание чести)"
+          ],
+          "examples": [
+            "The private gave a crisp salute.",
+            "A twenty-one-gun salute honored the fallen.",
+            "He returned the salute without a word."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An act or display that shows respect or honor for someone",
+          "body": [
+            "(чествование, салют)",
+            "---"
+          ],
+          "examples": [
+            "The evening was a salute to local firefighters.",
+            "A twenty-one-gun salute closed the ceremony.",
+            "There were salutes to the graduating seniors between innings."
+          ]
+        }
+      ],
+      "русский": "воинское приветствие, отдание чести; чествование, салют",
       "plural": "salutes",
       "countability": "countable"
     },
@@ -1756,13 +2134,42 @@
       "term": "medal",
       "ipa": "/ˈmɛdəl/",
       "respell": "MED-uhl",
-      "meaning": "A small metal award given for bravery or service. ---",
+      "meaning": "Medal has 2 distinct senses.",
       "examples": [
         "He was awarded a medal for bravery.",
         "Her medals are in a box in the attic.",
-        "The medal is the country's highest honor."
+        "The medal is the country's highest honor.",
+        "She won a gold medal in the two hundred meters.",
+        "His medals are in a drawer somewhere.",
+        "Every finisher gets a medal at the end of the race."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small metal award given for bravery or service",
+          "body": [
+            "(медаль)"
+          ],
+          "examples": [
+            "He was awarded a medal for bravery.",
+            "Her medals are in a box in the attic.",
+            "The medal is the country's highest honor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat piece of metal on a ribbon, given as an award",
+          "body": [
+            "(медаль)",
+            "---"
+          ],
+          "examples": [
+            "She won a gold medal in the two hundred meters.",
+            "His medals are in a drawer somewhere.",
+            "Every finisher gets a medal at the end of the race."
+          ]
+        }
+      ],
       "русский": "медаль",
       "plural": "medals",
       "countability": "countable",
@@ -1801,13 +2208,42 @@
       "term": "explosion",
       "ipa": "/ɪkˈsploʊʒən/",
       "respell": "ik-SPLOH-zhuhn",
-      "meaning": "A sudden violent bursting that throws out force and noise. ---",
+      "meaning": "Explosion has 2 distinct senses.",
       "examples": [
         "The explosion shattered every window on the block.",
         "Two explosions were heard near the port.",
-        "The explosion left a crater ten feet wide."
+        "The explosion left a crater ten feet wide.",
+        "The gas leak caused an explosion.",
+        "Two small explosions shook the building.",
+        "The explosion blew out every window on the street."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden violent bursting that throws out force and noise",
+          "body": [
+            "(взрыв)"
+          ],
+          "examples": [
+            "The explosion shattered every window on the block.",
+            "Two explosions were heard near the port.",
+            "The explosion left a crater ten feet wide."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden violent burst of energy that damages what is around it",
+          "body": [
+            "(взрыв)",
+            "---"
+          ],
+          "examples": [
+            "The gas leak caused an explosion.",
+            "Two small explosions shook the building.",
+            "The explosion blew out every window on the street."
+          ]
+        }
+      ],
       "русский": "взрыв",
       "plural": "explosions",
       "countability": "countable"

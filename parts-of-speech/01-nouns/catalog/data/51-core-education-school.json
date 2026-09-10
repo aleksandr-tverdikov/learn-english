@@ -202,28 +202,102 @@
       "term": "library",
       "ipa": "/ˈlaɪbrɛri/",
       "respell": "LY-brer-ee",
-      "meaning": "A building or room holding books that people can read or borrow. ---",
+      "meaning": "Library has 3 distinct senses.",
       "examples": [
         "I study in the library between classes.",
         "The library closes at ten on weeknights.",
-        "Two campus libraries stay open all night during finals."
+        "Two campus libraries stay open all night during finals.",
+        "The library closes at six on Sundays.",
+        "I got the book from the public library.",
+        "The city runs eleven branch libraries.",
+        "There's a library that already does that.",
+        "The project depends on about sixty libraries.",
+        "That library hasn't been updated in years."
       ],
-      "senses": [],
-      "русский": "библиотека",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building or room holding books that people can read or borrow",
+          "body": [
+            "(библиотека)"
+          ],
+          "examples": [
+            "I study in the library between classes.",
+            "The library closes at ten on weeknights.",
+            "Two campus libraries stay open all night during finals."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A building or room where books are kept and lent out",
+          "body": [
+            "(библиотека)"
+          ],
+          "examples": [
+            "The library closes at six on Sundays.",
+            "I got the book from the public library.",
+            "The city runs eleven branch libraries."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A collection of ready-made code that other programs can use",
+          "body": [
+            "(библиотека (программная))",
+            "---"
+          ],
+          "examples": [
+            "There's a library that already does that.",
+            "The project depends on about sixty libraries.",
+            "That library hasn't been updated in years."
+          ]
+        }
+      ],
+      "русский": "библиотека; библиотека (программная)",
       "plural": "libraries",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Three syllables in careful American speech: LY-brair-ee. \"LY-berry\" is common but considered sloppy."
     },
     {
       "term": "laboratory",
       "ipa": "/ˈlæbrətɔːri/",
       "respell": "LAB-ruh-tor-ee",
-      "meaning": "A room fitted out for scientific experiments and testing. ---",
+      "meaning": "Laboratory has 2 distinct senses.",
       "examples": [
         "Safety goggles are required in the laboratory.",
         "She works in a research laboratory on campus.",
-        "The chemistry laboratories are on the third floor."
+        "The chemistry laboratories are on the third floor.",
+        "The samples went straight to the laboratory.",
+        "She runs a research laboratory at the university.",
+        "Both laboratories got the same result."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room fitted out for scientific experiments and testing",
+          "body": [
+            "(лаборатория)"
+          ],
+          "examples": [
+            "Safety goggles are required in the laboratory.",
+            "She works in a research laboratory on campus.",
+            "The chemistry laboratories are on the third floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A room or building where scientific work is done",
+          "body": [
+            "(лаборатория)",
+            "---"
+          ],
+          "examples": [
+            "The samples went straight to the laboratory.",
+            "She runs a research laboratory at the university.",
+            "Both laboratories got the same result."
+          ]
+        }
+      ],
       "русский": "лаборатория",
       "plural": "laboratories",
       "countability": "countable",
@@ -708,7 +782,8 @@
       ],
       "senses": [],
       "русский": "химия",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "The ch is pronounced like k."
     },
     {
       "term": "geography",
@@ -728,14 +803,43 @@
       "term": "philosophy",
       "ipa": "/fəˈlɑːsəfi/",
       "respell": "fuh-LAH-suh-fee",
-      "meaning": "The study of basic questions about knowledge, existence, and right and wrong. ---",
+      "meaning": "Philosophy has 2 distinct senses.",
       "examples": [
         "He took philosophy to fill a requirement.",
         "Philosophy majors read a lot.",
-        "She teaches ancient Greek philosophy."
+        "She teaches ancient Greek philosophy.",
+        "He majored in philosophy at a small college.",
+        "The two coaches have very different philosophies.",
+        "My philosophy is to fix it before it breaks."
       ],
-      "senses": [],
-      "русский": "философия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The study of basic questions about knowledge, existence, and right and wrong",
+          "body": [
+            "(философия)"
+          ],
+          "examples": [
+            "He took philosophy to fill a requirement.",
+            "Philosophy majors read a lot.",
+            "She teaches ancient Greek philosophy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The study of the nature of knowledge and existence, or a person's guiding set of beliefs",
+          "body": [
+            "(философия; жизненные принципы)",
+            "---"
+          ],
+          "examples": [
+            "He majored in philosophy at a small college.",
+            "The two coaches have very different philosophies.",
+            "My philosophy is to fix it before it breaks."
+          ]
+        }
+      ],
+      "русский": "философия; философия; жизненные принципы",
       "countability": "uncountable"
     },
     {
@@ -871,14 +975,43 @@
       "term": "drama",
       "ipa": "/ˈdrɑːmə/",
       "respell": "DRAH-muh",
-      "meaning": "The school subject of acting and putting on plays. ---",
+      "meaning": "Drama has 2 distinct senses.",
       "examples": [
         "She takes drama as an elective.",
         "The drama teacher is directing the spring musical.",
-        "Drama club meets after school on Wednesdays."
+        "Drama club meets after school on Wednesdays.",
+        "It's a legal drama set in Boston.",
+        "The network ordered two new dramas.",
+        "That drama won every award last year."
       ],
-      "senses": [],
-      "русский": "театральное искусство (предмет)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The school subject of acting and putting on plays",
+          "body": [
+            "(театральное искусство (предмет))"
+          ],
+          "examples": [
+            "She takes drama as an elective.",
+            "The drama teacher is directing the spring musical.",
+            "Drama club meets after school on Wednesdays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A serious television series, film, or play",
+          "body": [
+            "(драма (сериал или фильм))",
+            "---"
+          ],
+          "examples": [
+            "It's a legal drama set in Boston.",
+            "The network ordered two new dramas.",
+            "That drama won every award last year."
+          ]
+        }
+      ],
+      "русский": "театральное искусство (предмет); драма (сериал или фильм)",
       "countability": "uncountable"
     },
     {
@@ -945,14 +1078,43 @@
       "term": "test",
       "ipa": "/tɛst/",
       "respell": "TEST",
-      "meaning": "A set of questions used to measure what someone knows or can do. ---",
+      "meaning": "Test has 2 distinct senses.",
       "examples": [
         "We have a test on chapter four tomorrow.",
         "She studied all night for the test.",
-        "He aced both tests this week."
+        "He aced both tests this week.",
+        "The lab ran a test on the water sample.",
+        "Both tests came back negative.",
+        "We put the new material through a strength test."
       ],
-      "senses": [],
-      "русский": "контрольная работа, тест",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of questions used to measure what someone knows or can do",
+          "body": [
+            "(контрольная работа, тест)"
+          ],
+          "examples": [
+            "We have a test on chapter four tomorrow.",
+            "She studied all night for the test.",
+            "He aced both tests this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A procedure done to find out what something is or how well it works",
+          "body": [
+            "(испытание, анализ)",
+            "---"
+          ],
+          "examples": [
+            "The lab ran a test on the water sample.",
+            "Both tests came back negative.",
+            "We put the new material through a strength test."
+          ]
+        }
+      ],
+      "русский": "контрольная работа, тест; испытание, анализ",
       "plural": "tests",
       "countability": "countable"
     },
@@ -1037,14 +1199,43 @@
       "term": "score",
       "ipa": "/skɔːr/",
       "respell": "SKOR",
-      "meaning": "The number of points earned on a test. ---",
+      "meaning": "Score has 2 distinct senses.",
       "examples": [
         "Her test score was in the top ten percent.",
         "He raised his score by two hundred points.",
-        "The scores come back in three weeks."
+        "The scores come back in three weeks.",
+        "The pianist turned the pages of the score.",
+        "He wrote the score for three films last year.",
+        "The scores are kept in the library downstairs."
       ],
-      "senses": [],
-      "русский": "результат, балл",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The number of points earned on a test",
+          "body": [
+            "(результат, балл)"
+          ],
+          "examples": [
+            "Her test score was in the top ten percent.",
+            "He raised his score by two hundred points.",
+            "The scores come back in three weeks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The written music for all the parts of a piece, or music written for a film",
+          "body": [
+            "(партитура; музыка (к фильму))",
+            "---"
+          ],
+          "examples": [
+            "The pianist turned the pages of the score.",
+            "He wrote the score for three films last year.",
+            "The scores are kept in the library downstairs."
+          ]
+        }
+      ],
+      "русский": "результат, балл; партитура; музыка (к фильму)",
       "plural": "scores",
       "countability": "countable"
     },
@@ -1067,14 +1258,43 @@
       "term": "transcript",
       "ipa": "/ˈtrænskrɪpt/",
       "respell": "TRAN-skript",
-      "meaning": "An official record of all the courses a student took and the grades received. ---",
+      "meaning": "Transcript has 2 distinct senses.",
       "examples": [
         "You have to send your transcript with the application.",
         "The registrar mailed my transcript to three schools.",
-        "Official transcripts cost ten dollars each."
+        "Official transcripts cost ten dollars each.",
+        "The full transcript is on the website.",
+        "He read the transcript instead of watching the tape.",
+        "They released the transcripts the next morning."
       ],
-      "senses": [],
-      "русский": "выписка оценок, академическая справка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official record of all the courses a student took and the grades received",
+          "body": [
+            "(выписка оценок, академическая справка)"
+          ],
+          "examples": [
+            "You have to send your transcript with the application.",
+            "The registrar mailed my transcript to three schools.",
+            "Official transcripts cost ten dollars each."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A written copy of everything that was said in a recording or hearing",
+          "body": [
+            "(расшифровка, стенограмма)",
+            "---"
+          ],
+          "examples": [
+            "The full transcript is on the website.",
+            "He read the transcript instead of watching the tape.",
+            "They released the transcripts the next morning."
+          ]
+        }
+      ],
+      "русский": "выписка оценок, академическая справка; расшифровка, стенограмма",
       "plural": "transcripts",
       "countability": "countable"
     },
@@ -1091,7 +1311,8 @@
       "senses": [],
       "русский": "сочинение, эссе",
       "plural": "essays",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Stress the first syllable for the noun: ES-ay."
     },
     {
       "term": "term paper",
@@ -1188,14 +1409,43 @@
       "term": "outline",
       "ipa": "/ˈaʊtlaɪn/",
       "respell": "OWT-lyn",
-      "meaning": "A short plan listing the main points of a paper or talk in order. ---",
+      "meaning": "Outline has 2 distinct senses.",
       "examples": [
         "Turn in an outline before you write the paper.",
         "Her outline was longer than my rough draft.",
-        "We compared outlines in study group."
+        "We compared outlines in study group.",
+        "Draw the outline first, then fill it in.",
+        "The outline of the mountain shows through the fog.",
+        "He darkened the outlines with ink."
       ],
-      "senses": [],
-      "русский": "план (текста), развёрнутый план",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short plan listing the main points of a paper or talk in order",
+          "body": [
+            "(план (текста), развёрнутый план)"
+          ],
+          "examples": [
+            "Turn in an outline before you write the paper.",
+            "Her outline was longer than my rough draft.",
+            "We compared outlines in study group."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The line that shows the shape of something along its edge",
+          "body": [
+            "(контур, очертания)",
+            "---"
+          ],
+          "examples": [
+            "Draw the outline first, then fill it in.",
+            "The outline of the mountain shows through the fog.",
+            "He darkened the outlines with ink."
+          ]
+        }
+      ],
+      "русский": "план (текста), развёрнутый план; контур, очертания",
       "plural": "outlines",
       "countability": "countable"
     },
@@ -1247,14 +1497,43 @@
       "term": "certificate",
       "ipa": "/sərˈtɪfɪkət/",
       "respell": "sur-TIF-ih-kuht",
-      "meaning": "An official paper stating that someone has completed training or met a standard. ---",
+      "meaning": "Certificate has 2 distinct senses.",
       "examples": [
         "She earned a certificate in medical billing.",
         "The program gives you a certificate, not a degree.",
-        "He hung both certificates behind his desk."
+        "He hung both certificates behind his desk.",
+        "Bring your birth certificate to the passport office.",
+        "Both certificates have to be notarized.",
+        "They asked for a vaccination certificate at the border."
       ],
-      "senses": [],
-      "русский": "сертификат, свидетельство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official paper stating that someone has completed training or met a standard",
+          "body": [
+            "(сертификат, свидетельство)"
+          ],
+          "examples": [
+            "She earned a certificate in medical billing.",
+            "The program gives you a certificate, not a degree.",
+            "He hung both certificates behind his desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official document proving a fact about you",
+          "body": [
+            "(свидетельство, справка)",
+            "---"
+          ],
+          "examples": [
+            "Bring your birth certificate to the passport office.",
+            "Both certificates have to be notarized.",
+            "They asked for a vaccination certificate at the border."
+          ]
+        }
+      ],
+      "русский": "сертификат, свидетельство; свидетельство, справка",
       "plural": "certificates",
       "countability": "countable"
     },
@@ -1398,14 +1677,43 @@
       "term": "admission",
       "ipa": "/ədˈmɪʃən/",
       "respell": "ud-MISH-uhn",
-      "meaning": "The right to enter a school or college as a student. ---",
+      "meaning": "Admission has 2 distinct senses.",
       "examples": [
         "She was offered admission to her first-choice school.",
         "Admission to the program is competitive.",
-        "He's waiting to hear about admission."
+        "He's waiting to hear about admission.",
+        "Admission is fifteen dollars for adults.",
+        "Children under six get free admission.",
+        "The ticket includes admission to both floors."
       ],
-      "senses": [],
-      "русский": "приём, поступление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The right to enter a school or college as a student",
+          "body": [
+            "(приём, поступление)"
+          ],
+          "examples": [
+            "She was offered admission to her first-choice school.",
+            "Admission to the program is competitive.",
+            "He's waiting to hear about admission."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The right to enter a place, or the price you pay to enter",
+          "body": [
+            "(вход, входная плата)",
+            "---"
+          ],
+          "examples": [
+            "Admission is fifteen dollars for adults.",
+            "Children under six get free admission.",
+            "The ticket includes admission to both floors."
+          ]
+        }
+      ],
+      "русский": "приём, поступление; вход, входная плата",
       "countability": "uncountable"
     },
     {
@@ -1503,14 +1811,43 @@
       "term": "assembly",
       "ipa": "/əˈsɛmbli/",
       "respell": "uh-SEM-blee",
-      "meaning": "A meeting of the whole school in one room. ---",
+      "meaning": "Assembly has 2 distinct senses.",
       "examples": [
         "There's an assembly in the gym this afternoon.",
         "The principal announced it at assembly.",
-        "We only have two or three assemblies a year."
+        "We only have two or three assemblies a year.",
+        "The state assembly voted to raise the minimum wage.",
+        "She spoke in front of the general assembly.",
+        "Both assemblies rejected the plan."
       ],
-      "senses": [],
-      "русский": "школьное собрание, линейка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A meeting of the whole school in one room",
+          "body": [
+            "(школьное собрание, линейка)"
+          ],
+          "examples": [
+            "There's an assembly in the gym this afternoon.",
+            "The principal announced it at assembly.",
+            "We only have two or three assemblies a year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of people who meet officially to make decisions or laws",
+          "body": [
+            "(собрание; законодательное собрание)",
+            "---"
+          ],
+          "examples": [
+            "The state assembly voted to raise the minimum wage.",
+            "She spoke in front of the general assembly.",
+            "Both assemblies rejected the plan."
+          ]
+        }
+      ],
+      "русский": "школьное собрание, линейка; собрание; законодательное собрание",
       "plural": "assemblies",
       "countability": "countable"
     },
@@ -1533,14 +1870,43 @@
       "term": "suspension",
       "ipa": "/səˈspɛnʃən/",
       "respell": "suh-SPEN-shuhn",
-      "meaning": "A punishment in which a student is banned from school for a short time. ---",
+      "meaning": "Suspension has 2 distinct senses.",
       "examples": [
         "The fight earned him a three-day suspension.",
         "She's appealing the suspension.",
-        "Suspensions have dropped since the new policy."
+        "Suspensions have dropped since the new policy.",
+        "This truck has a stiff suspension.",
+        "The suspension bottomed out on the speed bump.",
+        "They upgraded the suspension for off-road driving."
       ],
-      "senses": [],
-      "русский": "временное отстранение от занятий",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A punishment in which a student is banned from school for a short time",
+          "body": [
+            "(временное отстранение от занятий)"
+          ],
+          "examples": [
+            "The fight earned him a three-day suspension.",
+            "She's appealing the suspension.",
+            "Suspensions have dropped since the new policy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The springs and shocks that smooth out a vehicle's ride",
+          "body": [
+            "(подвеска)",
+            "---"
+          ],
+          "examples": [
+            "This truck has a stiff suspension.",
+            "The suspension bottomed out on the speed bump.",
+            "They upgraded the suspension for off-road driving."
+          ]
+        }
+      ],
+      "русский": "временное отстранение от занятий; подвеска",
       "plural": "suspensions",
       "countability": "countable"
     },
@@ -1872,7 +2238,8 @@
       "senses": [],
       "русский": "энциклопедия",
       "plural": "encyclopedias",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American spelling encyclopedia; the British write encyclopaedia."
     },
     {
       "term": "atlas",
@@ -1893,13 +2260,42 @@
       "term": "map",
       "ipa": "/mæp/",
       "respell": "MAP",
-      "meaning": "A drawing of an area showing where places are. ---",
+      "meaning": "Map has 2 distinct senses.",
       "examples": [
         "There's a map of the country on the wall.",
         "We had to label the rivers on a blank map.",
-        "Old maps still hang in the geography room."
+        "Old maps still hang in the geography room.",
+        "The desk clerk gave us a free map.",
+        "I still keep paper maps in the car.",
+        "The map doesn't show that road at all."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A drawing of an area showing where places are",
+          "body": [
+            "(карта)"
+          ],
+          "examples": [
+            "There's a map of the country on the wall.",
+            "We had to label the rivers on a blank map.",
+            "Old maps still hang in the geography room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A drawing of an area that shows roads, towns, and features",
+          "body": [
+            "(карта)",
+            "---"
+          ],
+          "examples": [
+            "The desk clerk gave us a free map.",
+            "I still keep paper maps in the car.",
+            "The map doesn't show that road at all."
+          ]
+        }
+      ],
       "русский": "карта",
       "plural": "maps",
       "countability": "countable"
@@ -1969,14 +2365,58 @@
       "term": "note",
       "ipa": "/noʊt/",
       "respell": "NOHT",
-      "meaning": "Something written down so it can be remembered later. ---",
+      "meaning": "Note has 3 distinct senses.",
       "examples": [
         "I took notes during the whole lecture.",
         "Can I borrow your notes from Tuesday?",
-        "She scribbled a note in the margin."
+        "She scribbled a note in the margin.",
+        "He held the last note for ten seconds.",
+        "She can't read a single note of music.",
+        "The high notes are hard for him.",
+        "He left a note on the counter.",
+        "I take notes during every call.",
+        "There was a note taped to the door."
       ],
-      "senses": [],
-      "русский": "запись, заметка (конспект)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something written down so it can be remembered later",
+          "body": [
+            "(запись, заметка (конспект))"
+          ],
+          "examples": [
+            "I took notes during the whole lecture.",
+            "Can I borrow your notes from Tuesday?",
+            "She scribbled a note in the margin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A single musical sound, or the written sign that stands for it",
+          "body": [
+            "(нота)"
+          ],
+          "examples": [
+            "He held the last note for ten seconds.",
+            "She can't read a single note of music.",
+            "The high notes are hard for him."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short piece of writing to remind or inform someone",
+          "body": [
+            "(записка, заметка)",
+            "---"
+          ],
+          "examples": [
+            "He left a note on the counter.",
+            "I take notes during every call.",
+            "There was a note taped to the door."
+          ]
+        }
+      ],
+      "русский": "запись, заметка (конспект); нота; записка, заметка",
       "plural": "notes",
       "countability": "countable"
     },
@@ -2102,13 +2542,42 @@
       "term": "theory",
       "ipa": "/ˈθɪri/",
       "respell": "THEER-ee",
-      "meaning": "An explanation of something that is supported by evidence and reasoning. ---",
+      "meaning": "Theory has 2 distinct senses.",
       "examples": [
         "We spent a week on the theory of evolution.",
         "That's just a theory, not a proven fact.",
-        "Competing theories are covered in chapter eight."
+        "Competing theories are covered in chapter eight.",
+        "Einstein's theory changed physics forever.",
+        "There are several competing theories.",
+        "The theory predicts exactly what we measured."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An explanation of something that is supported by evidence and reasoning",
+          "body": [
+            "(теория)"
+          ],
+          "examples": [
+            "We spent a week on the theory of evolution.",
+            "That's just a theory, not a proven fact.",
+            "Competing theories are covered in chapter eight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of ideas that explains why something happens",
+          "body": [
+            "(теория)",
+            "---"
+          ],
+          "examples": [
+            "Einstein's theory changed physics forever.",
+            "There are several competing theories.",
+            "The theory predicts exactly what we measured."
+          ]
+        }
+      ],
       "русский": "теория",
       "plural": "theories",
       "countability": "countable"

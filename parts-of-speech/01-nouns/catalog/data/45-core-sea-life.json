@@ -422,14 +422,43 @@
       "term": "skate",
       "ipa": "/skeɪt/",
       "respell": "SKAYT",
-      "meaning": "A flat diamond-shaped fish related to rays, with no stinging tail. ---",
+      "meaning": "Skate has 2 distinct senses.",
       "examples": [
         "The fish market had skate wing on ice.",
         "A skate buried itself until only its eyes showed.",
-        "Skate tastes a little like scallops."
+        "Skate tastes a little like scallops.",
+        "One skate was a size too small.",
+        "He laced up his skates at the edge of the rink.",
+        "You can rent skates for five dollars."
       ],
-      "senses": [],
-      "русский": "скат (ромбовый)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat diamond-shaped fish related to rays, with no stinging tail",
+          "body": [
+            "(скат (ромбовый))"
+          ],
+          "examples": [
+            "The fish market had skate wing on ice.",
+            "A skate buried itself until only its eyes showed.",
+            "Skate tastes a little like scallops."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A boot with a blade or wheels for gliding over ice or pavement",
+          "body": [
+            "(конёк)",
+            "---"
+          ],
+          "examples": [
+            "One skate was a size too small.",
+            "He laced up his skates at the edge of the rink.",
+            "You can rent skates for five dollars."
+          ]
+        }
+      ],
+      "русский": "скат (ромбовый); конёк",
       "plural": "skates",
       "countability": "countable, and uncountable as food",
       "contrast": "Spelled and said like the ice skate — only context tells them apart."
@@ -1784,14 +1813,43 @@
       "term": "net",
       "ipa": "/nɛt/",
       "respell": "NET",
-      "meaning": "A mesh of knotted cord used to catch fish. ---",
+      "meaning": "Net has 2 distinct senses.",
       "examples": [
         "They hauled the net in hand over hand.",
         "The nets came up almost empty.",
-        "He threw a cast net off the seawall."
+        "He threw a cast net off the seawall.",
+        "Her serve caught the top of the net.",
+        "The ball hit the back of the net.",
+        "Both nets need to be replaced."
       ],
-      "senses": [],
-      "русский": "сеть, невод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mesh of knotted cord used to catch fish",
+          "body": [
+            "(сеть, невод)"
+          ],
+          "examples": [
+            "They hauled the net in hand over hand.",
+            "The nets came up almost empty.",
+            "He threw a cast net off the seawall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The mesh stretched across a court or hung in a goal",
+          "body": [
+            "(сетка)",
+            "---"
+          ],
+          "examples": [
+            "Her serve caught the top of the net.",
+            "The ball hit the back of the net.",
+            "Both nets need to be replaced."
+          ]
+        }
+      ],
+      "русский": "сеть, невод; сетка",
       "plural": "nets",
       "countability": "countable"
     },
@@ -1829,13 +1887,42 @@
       "term": "lure",
       "ipa": "/lʊr/",
       "respell": "LUUR",
-      "meaning": "An artificial bait, usually shiny or brightly colored, tied to a fishing line. ---",
+      "meaning": "Lure has 2 distinct senses.",
       "examples": [
         "He switched to a silver lure and caught two right away.",
         "His tackle box is full of lures he's never used.",
-        "A lure has to move like a wounded fish."
+        "A lure has to move like a wounded fish.",
+        "That silver lure works great in muddy water.",
+        "He must have fifty lures in that box.",
+        "I lost my favorite lure on a log."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An artificial bait, usually shiny or brightly colored, tied to a fishing line",
+          "body": [
+            "(блесна, искусственная приманка)"
+          ],
+          "examples": [
+            "He switched to a silver lure and caught two right away.",
+            "His tackle box is full of lures he's never used.",
+            "A lure has to move like a wounded fish."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An artificial bait made to look like something a fish wants to eat",
+          "body": [
+            "(блесна, искусственная приманка)",
+            "---"
+          ],
+          "examples": [
+            "That silver lure works great in muddy water.",
+            "He must have fifty lures in that box.",
+            "I lost my favorite lure on a log."
+          ]
+        }
+      ],
       "русский": "блесна, искусственная приманка",
       "plural": "lures",
       "countability": "countable"
@@ -1844,14 +1931,58 @@
       "term": "tackle",
       "ipa": "/ˈtækəl/",
       "respell": "TAK-ul",
-      "meaning": "The rods, lines, hooks, and other gear used for fishing. ---",
+      "meaning": "Tackle has 3 distinct senses.",
       "examples": [
         "All my tackle is in the back of the truck.",
         "The tackle shop opens at five.",
-        "He bought new tackle for the trip."
+        "He bought new tackle for the trip.",
+        "That tackle knocked the ball loose.",
+        "He made eleven tackles in the game.",
+        "It was a clean tackle, not a foul.",
+        "All my tackle is in the back of the truck.",
+        "He spent a hundred dollars on tackle and caught nothing.",
+        "Good tackle lasts a lifetime if you take care of it."
       ],
-      "senses": [],
-      "русский": "рыболовные снасти",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The rods, lines, hooks, and other gear used for fishing",
+          "body": [
+            "(рыболовные снасти)"
+          ],
+          "examples": [
+            "All my tackle is in the back of the truck.",
+            "The tackle shop opens at five.",
+            "He bought new tackle for the trip."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of bringing down or stopping the player with the ball",
+          "body": [
+            "(захват (игрока с мячом); отбор мяча)"
+          ],
+          "examples": [
+            "That tackle knocked the ball loose.",
+            "He made eleven tackles in the game.",
+            "It was a clean tackle, not a foul."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The equipment used for fishing, such as rods, hooks, and lures",
+          "body": [
+            "(рыболовные снасти)",
+            "---"
+          ],
+          "examples": [
+            "All my tackle is in the back of the truck.",
+            "He spent a hundred dollars on tackle and caught nothing.",
+            "Good tackle lasts a lifetime if you take care of it."
+          ]
+        }
+      ],
+      "русский": "рыболовные снасти; захват (игрока с мячом); отбор мяча",
       "countability": "uncountable",
       "contrast": "Uncountable in fishing: some tackle, never 'a tackle' (a football tackle is countable)."
     },
@@ -1859,13 +1990,42 @@
       "term": "sinker",
       "ipa": "/ˈsɪŋkər/",
       "respell": "SINK-ur",
-      "meaning": "A small weight tied to a fishing line to pull the bait down. ---",
+      "meaning": "Sinker has 2 distinct senses.",
       "examples": [
         "Add a heavier sinker if the current keeps moving your bait.",
         "The sinker snagged on a rock.",
-        "He keeps his sinkers in an old film canister."
+        "He keeps his sinkers in an old film canister.",
+        "Add a sinker if you want the bait to stay on the bottom.",
+        "The current is strong, so use heavier sinkers.",
+        "My sinker snagged on a rock and the line broke."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small weight tied to a fishing line to pull the bait down",
+          "body": [
+            "(грузило)"
+          ],
+          "examples": [
+            "Add a heavier sinker if the current keeps moving your bait.",
+            "The sinker snagged on a rock.",
+            "He keeps his sinkers in an old film canister."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small weight that pulls a baited hook down into the water",
+          "body": [
+            "(грузило)",
+            "---"
+          ],
+          "examples": [
+            "Add a sinker if you want the bait to stay on the bottom.",
+            "The current is strong, so use heavier sinkers.",
+            "My sinker snagged on a rock and the line broke."
+          ]
+        }
+      ],
       "русский": "грузило",
       "plural": "sinkers",
       "countability": "countable"
@@ -1889,13 +2049,42 @@
       "term": "catch",
       "ipa": "/kætʃ/",
       "respell": "KACH",
-      "meaning": "The fish taken on a fishing trip. ---",
+      "meaning": "Catch has 2 distinct senses.",
       "examples": [
         "They weighed the catch at the dock.",
         "It was the biggest catch of the season.",
-        "Bad weather cut everyone's catches in half."
+        "Bad weather cut everyone's catches in half.",
+        "We cleaned the catch on the dock before dark.",
+        "That's a nice catch for one afternoon.",
+        "Their catches have gotten smaller every year."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The fish taken on a fishing trip",
+          "body": [
+            "(улов)"
+          ],
+          "examples": [
+            "They weighed the catch at the dock.",
+            "It was the biggest catch of the season.",
+            "Bad weather cut everyone's catches in half."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fish that someone has caught, or the amount caught",
+          "body": [
+            "(улов)",
+            "---"
+          ],
+          "examples": [
+            "We cleaned the catch on the dock before dark.",
+            "That's a nice catch for one afternoon.",
+            "Their catches have gotten smaller every year."
+          ]
+        }
+      ],
       "русский": "улов",
       "plural": "catches",
       "countability": "countable"

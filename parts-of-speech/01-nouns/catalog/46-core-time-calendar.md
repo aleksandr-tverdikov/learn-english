@@ -302,15 +302,23 @@ A period of time between two events.
 ### span
 
 **Pronunciation:** /spæn/ &middot; *SPAN*
-**Русский:** промежуток времени, отрезок
+**Русский:** промежуток времени, отрезок; размах, пролёт
 **Plural:** *spans*
 **Countability:** countable
 
-The length of time that something lasts or covers.
+Span has 2 distinct senses.
+
+**1. The length of time that something lasts or covers.** (промежуток времени, отрезок)
 
 1. She wrote four novels in the *span* of a year.
 2. His attention *span* is about ten minutes.
 3. The study covers a *span* of two decades.
+
+**2. The distance from one end of something to the other.** (размах, пролёт)
+
+4. The bridge has a *span* of four hundred feet.
+5. He measured the *span* of his hand against the board.
+6. Both *spans* of the bridge were rebuilt.
 
 ---
 
@@ -362,15 +370,23 @@ A very short time, used mostly in casual speech.
 ### term
 
 **Pronunciation:** /tɜːrm/ &middot; *TURM*
-**Русский:** срок; семестр
+**Русский:** срок; семестр; срок полномочий
 **Plural:** *terms*
 **Countability:** countable
 
-A fixed period, such as a school session or a time in office.
+Term has 2 distinct senses.
+
+**1. A fixed period, such as a school session or a time in office.** (срок; семестр)
 
 1. The senator is serving her second *term*.
 2. Grades come out at the end of the *term*.
 3. He signed on for a five-year *term*.
+
+**2. The fixed period a person serves in an elected office.** (срок полномочий)
+
+4. A senator's *term* is six years.
+5. He is in his second *term* as mayor.
+6. Some states limit governors to two *terms*.
 
 ---
 
@@ -407,46 +423,70 @@ One of three periods that a pregnancy or a school year is divided into.
 ### session
 
 **Pronunciation:** /ˈsɛʃən/ &middot; *SESH-uhn*
-**Русский:** занятие, сеанс; заседание
+**Русский:** занятие, сеанс; заседание; сессия, заседание
 **Plural:** *sessions*
 **Countability:** countable
 
-A period spent on one activity, or a formal meeting.
+Session has 2 distinct senses.
+
+**1. A period spent on one activity, or a formal meeting.** (занятие, сеанс; заседание)
 
 1. We booked an hour-long therapy *session*.
 2. The legislature is in *session* until June.
 3. The band recorded three *sessions* last week.
+
+**2. A period during which a legislature or court meets and works.** (сессия, заседание)
+
+4. The bill died at the end of the *session*.
+5. The governor called a special *session*.
+6. Two *sessions* passed with no action on it.
 
 ---
 
 ### phase
 
 **Pronunciation:** /feɪz/ &middot; *FAYZ*
-**Русский:** фаза, этап
+**Русский:** фаза, этап; фаза, агрегатное состояние
 **Plural:** *phases*
 **Countability:** countable
 **Contrast:** *Phase* and *faze* (смущать, выбивать из колеи) sound exactly alike.
 
-One stage in a process of change or development.
+Phase has 2 distinct senses.
+
+**1. One stage in a process of change or development.** (фаза, этап)
 
 1. The project is entering its final *phase*.
 2. It's just a *phase* — he'll grow out of it.
 3. The moon goes through eight *phases*.
+
+**2. One of the forms that matter can take, or one stage of a process.** (фаза, агрегатное состояние)
+
+4. Water has three *phases*: solid, liquid, and gas.
+5. The metal changes *phase* at that temperature.
+6. We are still in the first *phase* of the experiment.
 
 ---
 
 ### stage
 
 **Pronunciation:** /steɪdʒ/ &middot; *STAYJ*
-**Русский:** этап, стадия
+**Русский:** этап, стадия; сцена
 **Plural:** *stages*
 **Countability:** countable
 
-One step in a longer process.
+Stage has 2 distinct senses.
+
+**1. One step in a longer process.** (этап, стадия)
 
 1. The illness was caught at an early *stage*.
 2. We'll do the remodel in three *stages*.
 3. At this *stage* nothing has been decided.
+
+**2. The raised floor where musicians or actors perform.** (сцена)
+
+4. The band walked out on *stage* at nine.
+5. She was nervous the first time she stood on a *stage*.
+6. The festival has four *stages* running at once.
 
 ---
 
@@ -808,15 +848,23 @@ The yearly return of the date of a past event.
 ### festival
 
 **Pronunciation:** /ˈfɛstəvəl/ &middot; *FES-tuh-vuhl*
-**Русский:** фестиваль; народное гулянье
+**Русский:** фестиваль; народное гулянье; фестиваль; праздник
 **Plural:** *festivals*
 **Countability:** countable
 
-A time of public celebration with music, food, or performances.
+Festival has 2 distinct senses.
+
+**1. A time of public celebration with music, food, or performances.** (фестиваль; народное гулянье)
 
 1. The town holds a strawberry *festival* every June.
 2. We saw three bands at the *festival*.
 3. Summer *festivals* draw big crowds.
+
+**2. A public celebration or series of events, often held every year.** (фестиваль; праздник)
+
+4. The town holds a strawberry *festival* in June.
+5. Both *festivals* were rained out.
+6. She played at a folk *festival* in Colorado.
 
 ---
 
@@ -869,15 +917,23 @@ An important point or achievement along a longer path.
 ### timeline
 
 **Pronunciation:** /ˈtaɪmlaɪn/ &middot; *TYM-lyn*
-**Русский:** хронология; график по срокам
+**Русский:** хронология; график по срокам; лента публикаций, хроника
 **Plural:** *timelines*
 **Countability:** countable
 
-A plan or diagram showing when things happen, in order.
+Timeline has 2 distinct senses.
+
+**1. A plan or diagram showing when things happen, in order.** (хронология; график по срокам)
 
 1. Here's the *timeline* for the renovation.
 2. The *timeline* lists every event of that year.
 3. Both *timelines* end with the same deadline.
+
+**2. The list of a person's posts shown in the order they were made.** (лента публикаций, хроника)
+
+4. It's still on my *timeline* from last June.
+5. She cleaned up her *timeline* before the job interview.
+6. Their *timelines* are full of vacation photos.
 
 ---
 
@@ -1128,15 +1184,29 @@ The second month of the year, with twenty-eight or twenty-nine days.
 ### March
 
 **Pronunciation:** /mɑːrtʃ/ &middot; *MARCH*
-**Русский:** март
+**Русский:** март; марш; марш, шествие
 **Plural:** *Marches*
 **Countability:** countable
 
-The third month of the year.
+March has 3 distinct senses.
+
+**1. The third month of the year.** (март)
 
 1. The snow usually melts by *March*.
 2. We're moving at the end of *March*.
 3. Spring break falls in *March* this year.
+
+**2. A piece of music with a strong steady beat, written for marching.** (марш)
+
+4. The band played a *march* down Main Street.
+5. That *march* gets played at every graduation.
+6. Sousa wrote over a hundred *marches*.
+
+**3. An organized walk by a large group of people to show support for something.** (марш, шествие)
+
+7. Thousands joined the *march* on Saturday morning.
+8. There have been three *marches* downtown this month.
+9. The *march* ended with speeches on the capitol steps.
 
 ---
 
@@ -1280,15 +1350,23 @@ The twelfth and last month of the year.
 ### alarm
 
 **Pronunciation:** /əˈlɑːrm/ &middot; *uh-LARM*
-**Русский:** будильник; сигнал тревоги
+**Русский:** будильник; сигнал тревоги; тревога, испуг
 **Plural:** *alarms*
 **Countability:** countable
 
-A device or sound that wakes you up or warns you.
+Alarm has 2 distinct senses.
+
+**1. A device or sound that wakes you up or warns you.** (будильник; сигнал тревоги)
 
 1. My *alarm* goes off at six.
 2. The fire *alarm* went off during class.
 3. He sets three *alarms* every night.
+
+**2. Worry and fear that something is wrong.** (тревога, испуг)
+
+4. There is no cause for *alarm*.
+5. She looked up in *alarm* at the sound.
+6. The numbers caused real *alarm* at headquarters.
 
 ---
 
@@ -1299,11 +1377,19 @@ A device or sound that wakes you up or warns you.
 **Plural:** *stopwatches*
 **Countability:** countable
 
-A watch used to measure exactly how long something takes.
+Stopwatch has 2 distinct senses.
+
+**1. A watch used to measure exactly how long something takes.** (секундомер)
 
 1. The coach timed each lap with a *stopwatch*.
 2. My phone has a *stopwatch* built in.
 3. The two *stopwatches* showed different times.
+
+**2. A watch that can be started and stopped to time an event exactly.** (секундомер)
+
+4. The coach clicked the *stopwatch* at the finish line.
+5. Time each lap with a *stopwatch*.
+6. Both *stopwatches* showed the same split.
 
 ---
 
@@ -1356,15 +1442,23 @@ A hanging weight that swings back and forth, often to keep a clock running.
 ### dial
 
 **Pronunciation:** /ˈdaɪəl/ &middot; *DY-uhl*
-**Русский:** циферблат; круглый регулятор
+**Русский:** циферблат; круглый регулятор; циферблат, шкала; регулятор
 **Plural:** *dials*
 **Countability:** countable
 
-The marked face of a clock or a round control you turn.
+Dial has 2 distinct senses.
+
+**1. The marked face of a clock or a round control you turn.** (циферблат; круглый регулятор)
 
 1. The watch has a plain black *dial*.
 2. Turn the *dial* to set the oven.
 3. The old radio had two *dials* on the front.
+
+**2. A round face with numbers on it that shows a reading or sets a level.** (циферблат, шкала; регулятор)
+
+4. The *dial* on the oven goes up to 500.
+5. Turn the *dial* one notch to the right.
+6. The old radio had two *dials*.
 
 ---
 
@@ -1690,11 +1784,19 @@ The time in the evening when people eat dinner.
 **Plural:** *curfews*
 **Countability:** countable
 
-A rule requiring people to be home or off the streets by a set time.
+Curfew has 2 distinct senses.
+
+**1. A rule requiring people to be home or off the streets by a set time.** (комендантский час)
 
 1. My *curfew* was eleven o'clock in high school.
 2. The city set a *curfew* after the flooding.
 3. Both towns lifted their *curfews* last week.
+
+**2. An official order that people must be off the streets after a certain hour.** (комендантский час)
+
+4. The city imposed a nine o'clock *curfew*.
+5. He was arrested for breaking *curfew*.
+6. *Curfews* stayed in place for a week.
 
 ---
 
@@ -1814,15 +1916,24 @@ The years between childhood and adulthood.
 ### youth
 
 **Pronunciation:** /juːθ/ &middot; *YOOTH*
-**Русский:** юность; молодой человек
+**Русский:** юность; молодой человек; молодость; молодёжь; юноша
 **Plural:** *youths*
 **Countability:** both — countable and uncountable with different meanings
+**Contrast:** Uncountable for the time of life (*in my youth*); countable for a young man (*three youths*).
 
-The time when someone is young, or, as a countable noun, a young person.
+Youth has 2 distinct senses.
+
+**1. The time when someone is young, or, as a countable noun, a young person.** (юность; молодой человек)
 
 1. He played guitar in his *youth*.
 2. Three *youths* were seen leaving the store.
 3. The program keeps *youth* out of trouble after school.
+
+**2. The time of being young, or a young person, usually a young man.** (молодость; молодёжь; юноша)
+
+4. He spent his *youth* on a farm in Iowa.
+5. Two *youths* were questioned by police.
+6. The program serves inner-city *youth*.
 
 ---
 
@@ -1974,14 +2085,28 @@ Time without end, or a period that feels endless.
 ### frequency
 
 **Pronunciation:** /ˈfriːkwənsi/ &middot; *FREE-kwuhn-see*
-**Русский:** частота (повторения)
+**Русский:** частота (повторения); частота
 **Countability:** uncountable
 
-How often something happens.
+Frequency has 3 distinct senses.
+
+**1. How often something happens.** (частота (повторения))
 
 1. The storms are increasing in *frequency*.
 2. He calls home with surprising *frequency*.
 3. The *frequency* of the meetings dropped to once a month.
+
+**2. The number of times something repeats in a given period.** (частота)
+
+4. The station broadcasts on a low *frequency*.
+5. Raise the *frequency* of the readings to once a minute.
+6. Different *frequencies* travel different distances.
+
+**3. The particular rate of radio waves a station or device uses.** (частота)
+
+7. The station broadcasts on a low *frequency*.
+8. Emergency crews use their own *frequencies*.
+9. Turn the dial until you find the right *frequency*.
 
 ---
 
@@ -2238,11 +2363,19 @@ A period when workers are sent home without pay, or leave granted to a soldier.
 ### probation
 
 **Pronunciation:** /proʊˈbeɪʃən/ &middot; *proh-BAY-shuhn*
-**Русский:** испытательный срок
+**Русский:** испытательный срок; условный срок, испытательный срок
 **Countability:** uncountable
 
-A trial period at a new job, or supervision ordered instead of prison.
+Probation has 2 distinct senses.
+
+**1. A trial period at a new job, or supervision ordered instead of prison.** (испытательный срок)
 
 1. New hires are on *probation* for ninety days.
 2. He got two years of *probation* instead of jail.
 3. She finished her *probation* without a single complaint.
+
+**2. A period during which an offender stays out of prison under supervision.** (условный срок, испытательный срок)
+
+4. He got two years of *probation* instead of jail.
+5. She's still on *probation*.
+6. A second offense would end his *probation*.

@@ -224,14 +224,43 @@
       "term": "chest",
       "ipa": "/tʃɛst/",
       "respell": "CHEST",
-      "meaning": "The front of the body between the neck and the stomach. ---",
+      "meaning": "Chest has 2 distinct senses.",
       "examples": [
         "He felt a sharp pain in his chest.",
         "The kid crossed his arms over his chest.",
-        "I have a cold and it went straight to my chest."
+        "I have a cold and it went straight to my chest.",
+        "The blankets are in the cedar chest.",
+        "They dragged two heavy chests down from the attic.",
+        "She keeps her mother's letters in a small wooden chest."
       ],
-      "senses": [],
-      "русский": "грудь, грудная клетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The front of the body between the neck and the stomach",
+          "body": [
+            "(грудь, грудная клетка)"
+          ],
+          "examples": [
+            "He felt a sharp pain in his chest.",
+            "The kid crossed his arms over his chest.",
+            "I have a cold and it went straight to my chest."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large sturdy box with a lid, used for storage",
+          "body": [
+            "(сундук; комод)",
+            "---"
+          ],
+          "examples": [
+            "The blankets are in the cedar chest.",
+            "They dragged two heavy chests down from the attic.",
+            "She keeps her mother's letters in a small wooden chest."
+          ]
+        }
+      ],
+      "русский": "грудь, грудная клетка; сундук; комод",
       "plural": "chests",
       "countability": "countable"
     },
@@ -591,14 +620,43 @@
       "term": "liver",
       "ipa": "/ˈlɪvər/",
       "respell": "LIV-ur",
-      "meaning": "The large organ that cleans the blood and helps digestion. ---",
+      "meaning": "Liver has 2 distinct senses.",
       "examples": [
         "Too much alcohol wrecks your liver.",
         "The tests showed his liver was fine.",
-        "The liver filters everything you drink."
+        "The liver filters everything you drink.",
+        "Liver and onions was a weeknight staple growing up.",
+        "She sautéed the chicken livers with butter and sage.",
+        "I couldn't stand liver as a kid."
       ],
-      "senses": [],
-      "русский": "печень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The large organ that cleans the blood and helps digestion",
+          "body": [
+            "(печень)"
+          ],
+          "examples": [
+            "Too much alcohol wrecks your liver.",
+            "The tests showed his liver was fine.",
+            "The liver filters everything you drink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The large internal organ of an animal, eaten as food",
+          "body": [
+            "(печень (как еда), печёнка)",
+            "---"
+          ],
+          "examples": [
+            "Liver and onions was a weeknight staple growing up.",
+            "She sautéed the chicken livers with butter and sage.",
+            "I couldn't stand liver as a kid."
+          ]
+        }
+      ],
+      "русский": "печень; печень (как еда), печёнка",
       "plural": "livers",
       "countability": "countable"
     },
@@ -606,14 +664,43 @@
       "term": "kidney",
       "ipa": "/ˈkɪdni/",
       "respell": "KID-nee",
-      "meaning": "Either of the two organs that filter waste out of the blood. ---",
+      "meaning": "Kidney has 2 distinct senses.",
       "examples": [
         "He donated a kidney to his brother.",
         "Both kidneys were starting to fail.",
-        "Drink water, it is easier on your kidneys."
+        "Drink water, it is easier on your kidneys.",
+        "Steak and kidney pie is a British thing, not an American one.",
+        "The kidneys need to soak before you cook them.",
+        "He'll eat almost any organ meat except kidney."
       ],
-      "senses": [],
-      "русский": "почка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two organs that filter waste out of the blood",
+          "body": [
+            "(почка)"
+          ],
+          "examples": [
+            "He donated a kidney to his brother.",
+            "Both kidneys were starting to fail.",
+            "Drink water, it is easier on your kidneys."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of a pair of internal organs, eaten as food",
+          "body": [
+            "(почка (как еда))",
+            "---"
+          ],
+          "examples": [
+            "Steak and kidney pie is a British thing, not an American one.",
+            "The kidneys need to soak before you cook them.",
+            "He'll eat almost any organ meat except kidney."
+          ]
+        }
+      ],
+      "русский": "почка; почка (как еда)",
       "plural": "kidneys",
       "countability": "countable"
     },
@@ -729,14 +816,43 @@
       "term": "rib",
       "ipa": "/rɪb/",
       "respell": "RIB",
-      "meaning": "One of the curved bones that form the cage around the chest. ---",
+      "meaning": "Rib has 2 distinct senses.",
       "examples": [
         "He cracked a rib snowboarding.",
         "You can count her ribs.",
-        "The dog got kicked in the ribs."
+        "The dog got kicked in the ribs.",
+        "We ordered a full rack of ribs.",
+        "The ribs fell right off the bone.",
+        "He gnawed on one last rib and gave up."
       ],
-      "senses": [],
-      "русский": "ребро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the curved bones that form the cage around the chest",
+          "body": [
+            "(ребро)"
+          ],
+          "examples": [
+            "He cracked a rib snowboarding.",
+            "You can count her ribs.",
+            "The dog got kicked in the ribs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A curved bone from an animal's chest, with the meat attached, eaten as food",
+          "body": [
+            "(ребро, рёбрышко (мясное))",
+            "---"
+          ],
+          "examples": [
+            "We ordered a full rack of ribs.",
+            "The ribs fell right off the bone.",
+            "He gnawed on one last rib and gave up."
+          ]
+        }
+      ],
+      "русский": "ребро; ребро, рёбрышко (мясное)",
       "plural": "ribs",
       "countability": "countable"
     },
@@ -774,14 +890,43 @@
       "term": "nail",
       "ipa": "/neɪl/",
       "respell": "NAYL",
-      "meaning": "The hard covering on the end of a finger or toe. ---",
+      "meaning": "Nail has 2 distinct senses.",
       "examples": [
         "I broke a nail opening the box.",
         "She bites her nails when she is nervous.",
-        "Keep your nails short for climbing."
+        "Keep your nails short for climbing.",
+        "Hang the picture on that nail.",
+        "There are still nails sticking out of the old boards.",
+        "He hit the nail crooked and had to pull it out."
       ],
-      "senses": [],
-      "русский": "ноготь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hard covering on the end of a finger or toe",
+          "body": [
+            "(ноготь)"
+          ],
+          "examples": [
+            "I broke a nail opening the box.",
+            "She bites her nails when she is nervous.",
+            "Keep your nails short for climbing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin pointed metal pin hammered into wood or a wall",
+          "body": [
+            "(гвоздь)",
+            "---"
+          ],
+          "examples": [
+            "Hang the picture on that nail.",
+            "There are still nails sticking out of the old boards.",
+            "He hit the nail crooked and had to pull it out."
+          ]
+        }
+      ],
+      "русский": "ноготь; гвоздь",
       "plural": "nails",
       "countability": "countable"
     },
@@ -804,14 +949,43 @@
       "term": "palm",
       "ipa": "/pɑːm/",
       "respell": "PAHM",
-      "meaning": "The inner surface of the hand. ---",
+      "meaning": "Palm has 2 distinct senses.",
       "examples": [
         "She read the lines on my palm.",
         "He pressed his palms together.",
-        "The coin was hidden in his palm."
+        "The coin was hidden in his palm.",
+        "Palms line both sides of the boulevard.",
+        "The hurricane snapped a palm in half.",
+        "They put a palm in a pot next to the pool."
       ],
-      "senses": [],
-      "русский": "ладонь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The inner surface of the hand",
+          "body": [
+            "(ладонь)"
+          ],
+          "examples": [
+            "She read the lines on my palm.",
+            "He pressed his palms together.",
+            "The coin was hidden in his palm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tropical tree with a tall bare trunk and large leaves at the top",
+          "body": [
+            "(пальма)",
+            "---"
+          ],
+          "examples": [
+            "Palms line both sides of the boulevard.",
+            "The hurricane snapped a palm in half.",
+            "They put a palm in a pot next to the pool."
+          ]
+        }
+      ],
+      "русский": "ладонь; пальма",
       "plural": "palms",
       "countability": "countable",
       "contrast": "The l is silent: PAHM. Same word as the palm tree."
@@ -835,14 +1009,43 @@
       "term": "thigh",
       "ipa": "/θaɪ/",
       "respell": "THY",
-      "meaning": "The part of the leg between the hip and the knee. ---",
+      "meaning": "Thigh has 2 distinct senses.",
       "examples": [
         "He tore a muscle in his thigh.",
         "The seat belt cut into my thighs.",
-        "Chicken thighs stay juicier than breasts."
+        "Chicken thighs stay juicier than breasts.",
+        "Chicken thighs stay juicier than breasts.",
+        "She browned six thighs in the pan.",
+        "One thigh is plenty for me."
       ],
-      "senses": [],
-      "русский": "бедро (верхняя часть ноги)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of the leg between the hip and the knee",
+          "body": [
+            "(бедро (верхняя часть ноги))"
+          ],
+          "examples": [
+            "He tore a muscle in his thigh.",
+            "The seat belt cut into my thighs.",
+            "Chicken thighs stay juicier than breasts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The upper leg of a chicken or turkey, eaten as food",
+          "body": [
+            "(бедро, бедрышко (окорочок))",
+            "---"
+          ],
+          "examples": [
+            "Chicken thighs stay juicier than breasts.",
+            "She browned six thighs in the pan.",
+            "One thigh is plenty for me."
+          ]
+        }
+      ],
+      "русский": "бедро (верхняя часть ноги); бедро, бедрышко (окорочок)",
       "plural": "thighs",
       "countability": "countable",
       "contrast": "The -gh is silent: THY, rhyming with my."
@@ -882,14 +1085,58 @@
       "term": "sole",
       "ipa": "/soʊl/",
       "respell": "SOHL",
-      "meaning": "The underside of the foot. ---",
+      "meaning": "Sole has 3 distinct senses.",
       "examples": [
         "The soles of my feet were burning on the hot sand.",
         "He has a splinter in the sole of his foot.",
-        "Walking barefoot toughens up your soles."
+        "Walking barefoot toughens up your soles.",
+        "She ordered the sole with brown butter.",
+        "Sole is mild enough that kids will eat it.",
+        "Two pieces of sole were plenty for dinner.",
+        "The sole of my sneaker is coming loose.",
+        "These boots have thick rubber soles.",
+        "He glued the sole back on and it held."
       ],
-      "senses": [],
-      "русский": "ступня, подошва стопы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The underside of the foot",
+          "body": [
+            "(ступня, подошва стопы)"
+          ],
+          "examples": [
+            "The soles of my feet were burning on the hot sand.",
+            "He has a splinter in the sole of his foot.",
+            "Walking barefoot toughens up your soles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small flatfish with fine white meat",
+          "body": [
+            "(морской язык (рыба))"
+          ],
+          "examples": [
+            "She ordered the sole with brown butter.",
+            "Sole is mild enough that kids will eat it.",
+            "Two pieces of sole were plenty for dinner."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The flat bottom part of a shoe that touches the ground",
+          "body": [
+            "(подошва)",
+            "---"
+          ],
+          "examples": [
+            "The sole of my sneaker is coming loose.",
+            "These boots have thick rubber soles.",
+            "He glued the sole back on and it held."
+          ]
+        }
+      ],
+      "русский": "ступня, подошва стопы; морской язык (рыба); подошва",
       "plural": "soles",
       "countability": "countable",
       "contrast": "Sounds exactly like soul."
@@ -913,16 +1160,61 @@
       "term": "breast",
       "ipa": "/brɛst/",
       "respell": "BREST",
-      "meaning": "Either of the two soft round parts on the front of a woman's chest. ---",
+      "meaning": "Breast has 3 distinct senses.",
       "examples": [
         "She found a lump in her left breast.",
         "Breast screening usually starts at forty.",
-        "The baby nursed at her breast."
+        "The baby nursed at her breast.",
+        "Two chicken breasts will feed all of us.",
+        "Slice the breast thin for the sandwiches.",
+        "Turkey breast dries out if you leave it too long.",
+        "The robin has an orange breast.",
+        "We grilled two chicken breasts for dinner.",
+        "The bird's breast was streaked with brown."
       ],
-      "senses": [],
-      "русский": "грудь (женская), молочная железа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Either of the two soft round parts on the front of a woman's chest",
+          "body": [
+            "(грудь (женская), молочная железа)"
+          ],
+          "examples": [
+            "She found a lump in her left breast.",
+            "Breast screening usually starts at forty.",
+            "The baby nursed at her breast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The front meat of a bird, the leanest part",
+          "body": [
+            "(грудка (птицы))"
+          ],
+          "examples": [
+            "Two chicken breasts will feed all of us.",
+            "Slice the breast thin for the sandwiches.",
+            "Turkey breast dries out if you leave it too long."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The front of a bird's body, or the meat from it",
+          "body": [
+            "(грудка (птицы))",
+            "---"
+          ],
+          "examples": [
+            "The robin has an orange breast.",
+            "We grilled two chicken breasts for dinner.",
+            "The bird's breast was streaked with brown."
+          ]
+        }
+      ],
+      "русский": "грудь (женская), молочная железа; грудка (птицы)",
       "plural": "breasts",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The ea is short — BREST, rhyming with \"rest\", not with \"beast\"."
     },
     {
       "term": "nipple",
@@ -1065,14 +1357,43 @@
       "term": "tissue",
       "ipa": "/ˈtɪʃuː/",
       "respell": "TISH-oo",
-      "meaning": "The material that the parts of a body are made of. ---",
+      "meaning": "Tissue has 2 distinct senses.",
       "examples": [
         "Scar tissue built up around the wound.",
         "The burn destroyed the surrounding tissue.",
-        "The lab grows human tissue in a dish."
+        "The lab grows human tissue in a dish.",
+        "Could you pass me a tissue?",
+        "He went through half a box of tissues.",
+        "There's a tissue stuck in the dryer."
       ],
-      "senses": [],
-      "русский": "ткань (организма)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The material that the parts of a body are made of",
+          "body": [
+            "(ткань (организма))"
+          ],
+          "examples": [
+            "Scar tissue built up around the wound.",
+            "The burn destroyed the surrounding tissue.",
+            "The lab grows human tissue in a dish."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft piece of paper used for blowing your nose",
+          "body": [
+            "(бумажный носовой платок, салфетка)",
+            "---"
+          ],
+          "examples": [
+            "Could you pass me a tissue?",
+            "He went through half a box of tissues.",
+            "There's a tissue stuck in the dryer."
+          ]
+        }
+      ],
+      "русский": "ткань (организма); бумажный носовой платок, салфетка",
       "plural": "tissues",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Uncountable for body material; countable for the paper kind — hand me a tissue."
@@ -1630,13 +1951,42 @@
       "term": "marrow",
       "ipa": "/ˈmɛroʊ/",
       "respell": "MER-oh",
-      "meaning": "The soft tissue inside bones where blood cells are made. ---",
+      "meaning": "Marrow has 2 distinct senses.",
       "examples": [
         "He needs a bone marrow transplant.",
         "Marrow makes new blood cells every day.",
-        "The doctors tested her marrow for cancer."
+        "The doctors tested her marrow for cancer.",
+        "They served roasted bones so you could scoop out the marrow.",
+        "Marrow makes the broth rich.",
+        "He spread the marrow on toast with a little salt."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft tissue inside bones where blood cells are made",
+          "body": [
+            "(костный мозг)"
+          ],
+          "examples": [
+            "He needs a bone marrow transplant.",
+            "Marrow makes new blood cells every day.",
+            "The doctors tested her marrow for cancer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft fatty tissue inside bones, eaten as a delicacy",
+          "body": [
+            "(костный мозг)",
+            "---"
+          ],
+          "examples": [
+            "They served roasted bones so you could scoop out the marrow.",
+            "Marrow makes the broth rich.",
+            "He spread the marrow on toast with a little salt."
+          ]
+        }
+      ],
       "русский": "костный мозг",
       "countability": "uncountable"
     },
@@ -1706,14 +2056,43 @@
       "term": "mole",
       "ipa": "/moʊl/",
       "respell": "MOHL",
-      "meaning": "A small dark permanent spot on the skin. ---",
+      "meaning": "Mole has 2 distinct senses.",
       "examples": [
         "The doctor removed a mole from his back.",
         "She has a small mole above her lip.",
-        "Watch any mole that changes shape or color."
+        "Watch any mole that changes shape or color.",
+        "Moles have ruined the lawn.",
+        "A mole pushed up a ridge of dirt overnight.",
+        "He's tried everything to get rid of the moles."
       ],
-      "senses": [],
-      "русский": "родинка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small dark permanent spot on the skin",
+          "body": [
+            "(родинка)"
+          ],
+          "examples": [
+            "The doctor removed a mole from his back.",
+            "She has a small mole above her lip.",
+            "Watch any mole that changes shape or color."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small burrowing animal with velvety fur and tiny eyes",
+          "body": [
+            "(крот)",
+            "---"
+          ],
+          "examples": [
+            "Moles have ruined the lawn.",
+            "A mole pushed up a ridge of dirt overnight.",
+            "He's tried everything to get rid of the moles."
+          ]
+        }
+      ],
+      "русский": "родинка; крот",
       "plural": "moles",
       "countability": "countable",
       "contrast": "Same word as the burrowing animal."
@@ -1828,14 +2207,43 @@
       "term": "colon",
       "ipa": "/ˈkoʊlən/",
       "respell": "KOH-lun",
-      "meaning": "The main part of the large intestine. ---",
+      "meaning": "Colon has 2 distinct senses.",
       "examples": [
         "He is scheduled for a colon screening.",
         "The surgeon removed part of the colon.",
-        "Fiber keeps the colon working."
+        "Fiber keeps the colon working.",
+        "Put a colon after the heading and then list the items.",
+        "The title has a colon in the middle of it.",
+        "He uses colons everywhere in his emails."
       ],
-      "senses": [],
-      "русский": "толстая кишка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main part of the large intestine",
+          "body": [
+            "(толстая кишка)"
+          ],
+          "examples": [
+            "He is scheduled for a colon screening.",
+            "The surgeon removed part of the colon.",
+            "Fiber keeps the colon working."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The mark of two stacked dots that introduces a list or an explanation",
+          "body": [
+            "(двоеточие)",
+            "---"
+          ],
+          "examples": [
+            "Put a colon after the heading and then list the items.",
+            "The title has a colon in the middle of it.",
+            "He uses colons everywhere in his emails."
+          ]
+        }
+      ],
+      "русский": "толстая кишка; двоеточие",
       "plural": "colons",
       "countability": "countable",
       "contrast": "Same word as the punctuation mark."
@@ -1860,14 +2268,43 @@
       "term": "fat",
       "ipa": "/fæt/",
       "respell": "FAT",
-      "meaning": "The soft tissue under the skin that stores energy. ---",
+      "meaning": "Fat has 2 distinct senses.",
       "examples": [
         "Running burns fat slowly.",
         "He has lost a lot of body fat this year.",
-        "Fat under the skin helps keep you warm."
+        "Fat under the skin helps keep you warm.",
+        "Trim the fat off before you grill it.",
+        "Whole milk has more fat than skim.",
+        "Not all fats are bad for you."
       ],
-      "senses": [],
-      "русский": "жир (в организме)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft tissue under the skin that stores energy",
+          "body": [
+            "(жир (в организме))"
+          ],
+          "examples": [
+            "Running burns fat slowly.",
+            "He has lost a lot of body fat this year.",
+            "Fat under the skin helps keep you warm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The greasy substance in meat and dairy products",
+          "body": [
+            "(жир)",
+            "---"
+          ],
+          "examples": [
+            "Trim the fat off before you grill it.",
+            "Whole milk has more fat than skim.",
+            "Not all fats are bad for you."
+          ]
+        }
+      ],
+      "русский": "жир (в организме); жир",
       "countability": "uncountable"
     },
     {

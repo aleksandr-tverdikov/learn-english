@@ -43,16 +43,24 @@ A public show of paintings, photographs, or other objects.
 ### exhibit
 
 **Pronunciation:** /ɪɡˈzɪbɪt/ &middot; *ig-ZIB-it*
-**Русский:** экспонат; выставка (амер.)
+**Русский:** экспонат; выставка (амер.); экспонат; выставка
 **Plural:** *exhibits*
 **Countability:** countable
 **Contrast:** Americans often call a whole show an *exhibit*, where the British would say *exhibition*.
 
-An object on display in a museum, or a whole display of such objects.
+Exhibit has 2 distinct senses.
+
+**1. An object on display in a museum, or a whole display of such objects.** (экспонат; выставка (амер.))
 
 1. There's a new dinosaur *exhibit* at the science museum.
 2. Each *exhibit* has a small card explaining it.
 3. The *exhibits* are arranged by century.
+
+**2. An object or display shown to the public in a museum.** (экспонат; выставка)
+
+4. The dinosaur *exhibit* is on the second floor.
+5. New *exhibits* open every few months.
+6. That *exhibit* was the best part of the museum.
 
 ---
 
@@ -120,15 +128,23 @@ A large sculpture of a person or animal, usually standing outdoors or in a hall.
 ### bust
 
 **Pronunciation:** /bʌst/ &middot; *BUST*
-**Русский:** бюст (скульптура)
+**Русский:** бюст (скульптура); обхват груди (женский размер)
 **Plural:** *busts*
 **Countability:** countable
 
-A sculpture of a person's head, shoulders, and chest.
+Bust has 2 distinct senses.
+
+**1. A sculpture of a person's head, shoulders, and chest.** (бюст (скульптура))
 
 1. A marble *bust* of the composer sits by the door.
 2. The library has *busts* of famous writers along the wall.
 3. He sculpted a *bust* of his grandmother from memory.
+
+**2. The measurement around a woman's chest, used in sizing clothes.** (обхват груди (женский размер))
+
+4. Measure your *bust* under the arms.
+5. The jacket is tight across the *bust*.
+6. The chart lists *busts* from thirty-two to forty-four.
 
 ---
 
@@ -274,15 +290,29 @@ A picture printed from a metal plate that has been cut with lines.
 ### print
 
 **Pronunciation:** /prɪnt/ &middot; *PRINT*
-**Русский:** эстамп, печатная репродукция
+**Русский:** эстамп, печатная репродукция; набивной рисунок, принт; принт, набивной рисунок
 **Plural:** *prints*
 **Countability:** countable
 
-A copy of a picture made by a printing process rather than by hand.
+Print has 3 distinct senses.
+
+**1. A copy of a picture made by a printing process rather than by hand.** (эстамп, печатная репродукция)
 
 1. She sells *prints* of her paintings online.
 2. The original is in Paris, but I have a *print*.
 3. Each *print* is numbered and signed in pencil.
+
+**2. A colored design printed onto cloth.** (набивной рисунок, принт)
+
+4. She wore a summer dress in a bright *print*.
+5. Animal *prints* are back in style.
+6. The curtains are a small floral *print*.
+
+**3. A pattern printed onto cloth rather than woven into it.** (принт, набивной рисунок)
+
+7. She wore a floral *print*.
+8. The *prints* this season are enormous.
+9. A small *print* is easier to wear than a big one.
 
 ---
 
@@ -452,16 +482,24 @@ A wooden stand that holds a canvas while an artist paints.
 ### palette
 
 **Pronunciation:** /ˈpælət/ &middot; *PAL-uht*
-**Русский:** палитра
+**Русский:** палитра; палитра, набор цветов
 **Plural:** *palettes*
 **Countability:** countable
 **Contrast:** Sounds exactly like *pallet* (поддон) and *palate* (нёбо).
 
-A board on which a painter mixes colors, or the range of colors used.
+Palette has 2 distinct senses.
+
+**1. A board on which a painter mixes colors, or the range of colors used.** (палитра)
 
 1. There was more paint on his *palette* than on the canvas.
 2. She works with a very limited *palette*.
 3. He cleaned his *palettes* at the end of the day.
+
+**2. The range of colors used in a picture or design.** (палитра, набор цветов)
+
+4. The artist works with a very limited *palette*.
+5. The app lets you save your own color *palettes*.
+6. The film has a cold blue *palette*.
 
 ---
 
@@ -498,15 +536,23 @@ A single mark left on a surface by one movement of a brush.
 ### pigment
 
 **Pronunciation:** /ˈpɪɡmənt/ &middot; *PIG-muhnt*
-**Русский:** пигмент, красящее вещество
+**Русский:** пигмент, красящее вещество; пигмент, краситель
 **Plural:** *pigments*
 **Countability:** countable, and uncountable as a substance
 
-A colored powder that is mixed with oil or water to make paint.
+Pigment has 2 distinct senses.
+
+**1. A colored powder that is mixed with oil or water to make paint.** (пигмент, красящее вещество)
 
 1. The blue *pigment* was made from a crushed stone.
 2. Some *pigments* fade badly in sunlight.
 3. She grinds her own *pigment* the old way.
+
+**2. A colored substance that gives paint, ink, or skin its color.** (пигмент, краситель)
+
+4. The artist grinds his own *pigments*.
+5. Sunlight breaks down the *pigment* in the fabric.
+6. This blue *pigment* was once worth more than gold.
 
 ---
 
@@ -560,15 +606,23 @@ The person who chooses and looks after the works in a museum or show.
 ### forgery
 
 **Pronunciation:** /ˈfɔːrdʒəri/ &middot; *FOR-juh-ree*
-**Русский:** подделка
+**Русский:** подделка; подделка (документа, подписи)
 **Plural:** *forgeries*
 **Countability:** countable
 
-A copy of a work of art or document made to be sold as the original.
+Forgery has 2 distinct senses.
+
+**1. A copy of a work of art or document made to be sold as the original.** (подделка)
 
 1. The painting turned out to be a *forgery*.
 2. He was arrested for art *forgery*.
 3. Experts spotted the *forgery* in about a minute.
+
+**2. The crime of faking a document, signature, or artwork, or the fake itself.** (подделка (документа, подписи))
+
+4. He was arrested for *forgery*.
+5. The expert said the painting was a *forgery*.
+6. Three of the checks turned out to be *forgeries*.
 
 ---
 
@@ -619,14 +673,22 @@ The way the parts of a picture or piece of music are arranged, or a work itself.
 ### perspective
 
 **Pronunciation:** /pərˈspɛktɪv/ &middot; *pur-SPEK-tiv*
-**Русский:** перспектива (в рисунке)
+**Русский:** перспектива (в рисунке); точка зрения, взгляд
 **Countability:** uncountable
 
-The technique of drawing so that distant things look smaller and farther away.
+Perspective has 2 distinct senses.
+
+**1. The technique of drawing so that distant things look smaller and farther away.** (перспектива (в рисунке))
 
 1. The drawing is badly out of *perspective*.
 2. Renaissance painters worked out the rules of *perspective*.
 3. He teaches *perspective* to first-year students.
+
+**2. A particular way of looking at or thinking about something.** (точка зрения, взгляд)
+
+4. From a parent's *perspective*, the rule makes sense.
+5. The panel brought in three different *perspectives*.
+6. A week off gave me some *perspective* on the problem.
 
 ---
 
@@ -678,16 +740,24 @@ The part of a picture that seems farthest from the viewer.
 ### silhouette
 
 **Pronunciation:** /ˌsɪluˈɛt/ &middot; *sil-oo-ET*
-**Русский:** силуэт
+**Русский:** силуэт; силуэт (одежды)
 **Plural:** *silhouettes*
 **Countability:** countable
 **Contrast:** The h is silent and the ending is French: sil-oo-ET.
 
-The dark outline of something seen against a lighter background.
+Silhouette has 2 distinct senses.
+
+**1. The dark outline of something seen against a lighter background.** (силуэт)
 
 1. The trees were black *silhouettes* against the sunset.
 2. She cut his *silhouette* out of black paper.
 3. You can recognize the building by its *silhouette* alone.
+
+**2. The overall outline a garment gives the body.** (силуэт (одежды))
+
+4. The dress has a very straight *silhouette*.
+5. *Silhouettes* got boxier in the eighties.
+6. The coat softens the *silhouette*.
 
 ---
 
@@ -697,6 +767,7 @@ The dark outline of something seen against a lighter background.
 **Русский:** оттенок (цвета)
 **Plural:** *hues*
 **Countability:** countable
+**Contrast:** Sounds exactly like hew, meaning to chop with an ax.
 
 A shade of a color.
 
@@ -772,11 +843,19 @@ Decorative patterns sewn onto cloth with colored thread.
 **Plural:** *looms*
 **Countability:** countable
 
-A frame or machine for weaving thread into cloth.
+Loom has 2 distinct senses.
+
+**1. A frame or machine for weaving thread into cloth.** (ткацкий станок)
 
 1. She weaves rugs on a wooden *loom*.
 2. The *loom* takes up half the room.
 3. The old mill had two hundred *looms* running at once.
+
+**2. A frame or machine on which cloth is woven.** (ткацкий станок)
+
+4. The rug came off the *loom* yesterday.
+5. There were two hundred *looms* on the factory floor.
+6. She learned to warp a *loom* at sixteen.
 
 ---
 
@@ -843,15 +922,23 @@ An artist who paints pictures, or a worker who paints walls.
 ### instrument
 
 **Pronunciation:** /ˈɪnstrəmənt/ &middot; *IN-struh-muhnt*
-**Русский:** музыкальный инструмент
+**Русский:** музыкальный инструмент; прибор
 **Plural:** *instruments*
 **Countability:** countable
 
-An object used to make music, such as a guitar or a flute.
+Instrument has 2 distinct senses.
+
+**1. An object used to make music, such as a guitar or a flute.** (музыкальный инструмент)
 
 1. The violin was the first *instrument* she learned.
 2. He plays three *instruments* well and two badly.
 3. Bring your *instrument* to rehearsal on Thursday.
+
+**2. A tool used for careful scientific work or measurement.** (прибор)
+
+4. Every *instrument* in the lab is calibrated once a year.
+5. The *instrument* measures pressure to four decimal places.
+6. Delicate *instruments* must be handled carefully.
 
 ---
 
@@ -1183,15 +1270,23 @@ A part pressed with the foot to change the sound of an instrument.
 ### string
 
 **Pronunciation:** /strɪŋ/ &middot; *STRING*
-**Русский:** струна
+**Русский:** струна; строка (текстовая)
 **Plural:** *strings*
 **Countability:** countable
 
-A tight wire or cord on an instrument that makes a note when it vibrates.
+String has 2 distinct senses.
+
+**1. A tight wire or cord on an instrument that makes a note when it vibrates.** (струна)
 
 1. One *string* broke in the middle of the song.
 2. He changes his *strings* about once a month.
 3. The *strings* come in quietly under the piano.
+
+**2. A piece of text handled as a single value by a program.** (строка (текстовая))
+
+4. Wrap the *string* in quotation marks.
+5. Compare the two *strings* before you save.
+6. The date is stored as a *string*, not a number.
 
 ---
 
@@ -1228,15 +1323,29 @@ An electronic box that makes the sound of an instrument or a recording louder.
 ### speaker
 
 **Pronunciation:** /ˈspiːkər/ &middot; *SPEE-kur*
-**Русский:** динамик, колонка
+**Русский:** динамик, колонка; динамик; выступающий
 **Plural:** *speakers*
 **Countability:** countable
 
-The part of a sound system that the sound comes out of.
+Speaker has 3 distinct senses.
+
+**1. The part of a sound system that the sound comes out of.** (динамик, колонка)
 
 1. One *speaker* is blown, so everything sounds flat.
 2. Turn the *speakers* toward the room.
 3. The music came out of a tiny *speaker* in the ceiling.
+
+**2. A device that turns an electrical signal into sound.** (динамик, колонка)
+
+4. The *speaker* on my laptop is tinny.
+5. He hooked up a pair of *speakers* in the garage.
+6. Put it on *speaker* so everyone can hear.
+
+**3. A device that makes sound, or a person talking to a group.** (динамик; выступающий)
+
+7. Put me on *speaker* so everyone can hear.
+8. One of the *speakers* in the car is blown.
+9. The *speaker* went twenty minutes over.
 
 ---
 
@@ -1473,15 +1582,23 @@ The part of a song that repeats after each verse, or a group of singers.
 ### verse
 
 **Pronunciation:** /vɜːrs/ &middot; *VURS*
-**Русский:** куплет
+**Русский:** куплет; стих (в Библии)
 **Plural:** *verses*
 **Countability:** countable
 
-One of the sections of a song that has the same tune but different words.
+Verse has 2 distinct senses.
+
+**1. One of the sections of a song that has the same tune but different words.** (куплет)
 
 1. The second *verse* tells the rest of the story.
 2. He wrote four *verses* and then cut two.
 3. She forgot the words to the last *verse*.
+
+**2. One of the short numbered parts a chapter of scripture is divided into.** (стих (в Библии))
+
+4. She quoted a *verse* about patience.
+5. That *verse* is printed on the back of the card.
+6. We read the first ten *verses* out loud.
 
 ---
 
@@ -1548,31 +1665,53 @@ A group of four musicians, or a piece written for four of them.
 ### ensemble
 
 **Pronunciation:** /ɑːnˈsɑːmbəl/ &middot; *ahn-SAHM-buhl*
-**Русский:** ансамбль
+**Русский:** ансамбль; комплект одежды, ансамбль
 **Plural:** *ensembles*
 **Countability:** countable
 **Contrast:** From French: ahn-SAHM-buhl, with the final e silent.
 
-A small group of musicians who perform together.
+Ensemble has 2 distinct senses.
+
+**1. A small group of musicians who perform together.** (ансамбль)
 
 1. She plays in a small jazz *ensemble*.
 2. The *ensemble* rehearses on Thursday nights.
 3. The school has three student *ensembles*.
+
+**2. A set of clothes worn together as one look.** (комплект одежды, ансамбль)
+
+4. She put together a whole *ensemble* for the wedding.
+5. The hat completed the *ensemble*.
+6. The exhibit shows a dozen *ensembles* from the period.
 
 ---
 
 ### conductor
 
 **Pronunciation:** /kənˈdʌktər/ &middot; *kuhn-DUK-tur*
-**Русский:** дирижёр
+**Русский:** дирижёр; проводник, кондуктор; проводник
 **Plural:** *conductors*
 **Countability:** countable
 
-The person who stands in front of an orchestra and directs the players.
+Conductor has 3 distinct senses.
+
+**1. The person who stands in front of an orchestra and directs the players.** (дирижёр)
 
 1. The *conductor* stopped the orchestra and started over.
 2. She's the youngest *conductor* they have ever hired.
 3. Both *conductors* studied in Vienna.
+
+**2. The railroad employee who checks tickets and runs the train crew.** (проводник, кондуктор)
+
+4. The *conductor* punched our tickets in the aisle.
+5. Two *conductors* worked the whole train.
+6. Ask the *conductor* which stop you want.
+
+**3. A material that lets electricity or heat pass through it easily.** (проводник)
+
+7. Copper is an excellent *conductor*.
+8. Water can act as a *conductor*, so be careful.
+9. Metals are better *conductors* than plastics.
 
 ---
 
@@ -1655,15 +1794,23 @@ Someone who writes the words and music of songs.
 ### performer
 
 **Pronunciation:** /pərˈfɔːrmər/ &middot; *pur-FOR-mur*
-**Русский:** исполнитель, артист
+**Русский:** исполнитель, артист; артист, исполнитель
 **Plural:** *performers*
 **Countability:** countable
 
-Someone who sings, plays, or acts in front of an audience.
+Performer has 2 distinct senses.
+
+**1. Someone who sings, plays, or acts in front of an audience.** (исполнитель, артист)
 
 1. The *performer* came back out for one more number.
 2. Street *performers* fill the square all summer.
 3. She's a natural *performer*.
+
+**2. A person who sings, acts, dances, or otherwise entertains an audience.** (артист, исполнитель)
+
+4. The *performers* stayed backstage until eight.
+5. She's a natural *performer* — the crowd loved her.
+6. Street *performers* line the boardwalk all summer.
 
 ---
 
@@ -1746,16 +1893,24 @@ The sound of an audience clapping to show they liked something.
 ### encore
 
 **Pronunciation:** /ˈɑːnkɔːr/ &middot; *AHN-kor*
-**Русский:** бис (дополнительный номер)
+**Русский:** бис (дополнительный номер); бис, выход на бис
 **Plural:** *encores*
 **Countability:** countable
 **Contrast:** From French: AHN-kor, with the first syllable nasal-sounding and stressed.
 
-An extra piece performed at the end of a show because the audience asks for it.
+Encore has 2 distinct senses.
+
+**1. An extra piece performed at the end of a show because the audience asks for it.** (бис (дополнительный номер))
 
 1. The band came back out for one *encore*.
 2. The crowd shouted until they played an *encore*.
 3. She did two *encores* and still nobody left.
+
+**2. An extra performance given after the main show, in response to applause.** (бис, выход на бис)
+
+4. They played two songs as an *encore*.
+5. The crowd stayed on its feet until the *encore*.
+6. Most bands plan their *encores* in advance.
 
 ---
 
@@ -1902,11 +2057,19 @@ A slow song, or an old song that tells a story.
 **Plural:** *anthems*
 **Countability:** countable
 
-A song that stands for a country or a group, sung on important occasions.
+Anthem has 2 distinct senses.
+
+**1. A song that stands for a country or a group, sung on important occasions.** (гимн)
 
 1. The crowd stood for the national *anthem*.
 2. That song became an *anthem* for a whole generation.
 3. Both *anthems* were played before the game.
+
+**2. The official song of a country, played on formal occasions.** (гимн)
+
+4. Everyone stood for the national *anthem*.
+5. She sang the *anthem* before the game.
+6. Both national *anthems* were played.
 
 ---
 
@@ -2003,16 +2166,24 @@ A slow, sad style of American music that grew out of the rural South.
 ### record
 
 **Pronunciation:** /ˈrɛkərd/ &middot; *REK-urd*
-**Русский:** пластинка; запись
+**Русский:** пластинка; запись; протокол, официальная запись; судимость
 **Plural:** *records*
 **Countability:** countable
 **Contrast:** The noun is REK-urd; the verb *to record* is rih-KORD.
 
-A flat black disc that music is played from, or an album of recorded music.
+Record has 2 distinct senses.
+
+**1. A flat black disc that music is played from, or an album of recorded music.** (пластинка; запись)
 
 1. He still buys *records* instead of streaming.
 2. The *record* skipped on the second track.
 3. She has a whole wall of *records*.
+
+**2. An official written account, especially of someone's past crimes.** (протокол, официальная запись; судимость)
+
+4. He has a clean *record*.
+5. Her arrest *record* goes back to the nineties.
+6. Court *records* are open to the public.
 
 ---
 

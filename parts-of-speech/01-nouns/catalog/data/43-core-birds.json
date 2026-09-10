@@ -1088,14 +1088,43 @@
       "term": "bill",
       "ipa": "/bɪl/",
       "respell": "BIL",
-      "meaning": "A bird's beak, especially a flat wide one. ---",
+      "meaning": "Bill has 2 distinct senses.",
       "examples": [
         "A duck's bill is flat and wide.",
         "The pelican's bill holds more than its stomach does.",
-        "Some birds have long, curved bills for reaching into flowers."
+        "Some birds have long, curved bills for reaching into flowers.",
+        "Can you break a hundred-dollar bill?",
+        "The electric bill was huge this month.",
+        "We split the bill three ways."
       ],
-      "senses": [],
-      "русский": "клюв (плоский, у водоплавающих)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bird's beak, especially a flat wide one",
+          "body": [
+            "(клюв (плоский, у водоплавающих))"
+          ],
+          "examples": [
+            "A duck's bill is flat and wide.",
+            "The pelican's bill holds more than its stomach does.",
+            "Some birds have long, curved bills for reaching into flowers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of paper money, or a statement of what you owe",
+          "body": [
+            "(купюра; счёт к оплате)",
+            "---"
+          ],
+          "examples": [
+            "Can you break a hundred-dollar bill?",
+            "The electric bill was huge this month.",
+            "We split the bill three ways."
+          ]
+        }
+      ],
+      "русский": "клюв (плоский, у водоплавающих); купюра; счёт к оплате",
       "plural": "bills",
       "countability": "countable",
       "contrast": "The same word also means a bill you pay and, in American English, a banknote (a ten-dollar bill)."

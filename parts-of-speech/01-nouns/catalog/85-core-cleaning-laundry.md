@@ -1134,16 +1134,24 @@ Water with a lot of minerals in it, which leaves spots and film.
 ### water softener
 
 **Pronunciation:** /ˈwɔːtər ˌsɔːfənər/ &middot; *WAW-tur SAW-fuh-nur*
-**Русский:** умягчитель воды (прибор или средство)
+**Русский:** умягчитель воды (прибор или средство); умягчитель воды
 **Plural:** *water softeners*
 **Countability:** countable
 **Contrast:** The t in *softener* is silent.
 
-A device or product that takes minerals out of hard water.
+Water softener has 2 distinct senses.
+
+**1. A device or product that takes minerals out of hard water.** (умягчитель воды (прибор или средство))
 
 1. They put a *water softener* in the basement.
 2. The *water softener* needs salt once a month.
 3. *Water softeners* pay for themselves out here.
+
+**2. A unit that removes the minerals that make water hard.** (умягчитель воды)
+
+4. We put in a *water softener* and the spots on the glasses stopped.
+5. The *water softener* needs a bag of salt every month.
+6. *Water softeners* are almost standard around here.
 
 ---
 
@@ -1336,6 +1344,7 @@ A place where people leave trash and unwanted things.
 **Русский:** свалка металлолома, автосвалка
 **Plural:** *junkyards*
 **Countability:** countable
+**Contrast:** Americans say junkyard; the British say scrapyard.
 
 A lot where wrecked cars and scrap metal are kept.
 

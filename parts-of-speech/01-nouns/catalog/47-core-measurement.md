@@ -17,26 +17,43 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 **Countability:** countable
 **Contrast:** The s is a zh sound, as in pleasure: MEZH-ur-muhnt.
 
-A figure showing the size, length, or amount of something.
+Measurement has 2 distinct senses.
+
+**1. A figure showing the size, length, or amount of something.** (измерение, замер)
 
 1. Take a *measurement* before you cut the board.
 2. The tailor wrote down all my *measurements*.
 3. That *measurement* looks off by half an inch.
+
+**2. A number that you get by measuring something.** (измерение, замер)
+
+4. Take three *measurements* and average them.
+5. One *measurement* was clearly wrong.
+6. Her *measurements* matched the published values.
 
 ---
 
 ### measure
 
 **Pronunciation:** /ˈmɛʒər/ &middot; *MEZH-ur*
-**Русский:** мера, единица измерения
+**Русский:** мера, единица измерения; такт
 **Plural:** *measures*
 **Countability:** countable
+**Contrast:** Americans call it a *measure*; the British call the same thing a *bar*.
 
-A unit or standard used to state size or amount.
+Measure has 2 distinct senses.
+
+**1. A unit or standard used to state size or amount.** (мера, единица измерения)
 
 1. A cup is a standard *measure* in American recipes.
 2. The inch is an old *measure* of length.
 3. The rest of the world uses metric *measures*.
+
+**2. A short group of beats between two vertical lines in written music.** (такт)
+
+4. The solo starts in the fourth *measure*.
+5. Count four *measures* of rest, then come in.
+6. Play the last two *measures* again.
 
 ---
 
@@ -59,15 +76,23 @@ A fixed amount used as a standard for measuring.
 ### size
 
 **Pronunciation:** /saɪz/ &middot; *SYZ*
-**Русский:** размер
+**Русский:** размер; размер (одежды, обуви)
 **Plural:** *sizes*
 **Countability:** countable
 
-How large or small something is.
+Size has 2 distinct senses.
+
+**1. How large or small something is.** (размер)
 
 1. What *size* shoe do you wear?
 2. The two rooms are almost the same *size*.
 3. They carry that shirt in three *sizes*.
+
+**2. One of the standard measurements clothes are made in.** (размер (одежды, обуви))
+
+4. Do you have this in a bigger *size*?
+5. The *sizes* run small in that brand.
+6. She wears a *size* eight shoe.
 
 ---
 
@@ -105,16 +130,24 @@ The measurement of something from one side to the other.
 ### height
 
 **Pronunciation:** /haɪt/ &middot; *HYT*
-**Русский:** высота, рост
+**Русский:** высота, рост; рост; высота
 **Plural:** *heights*
 **Countability:** countable
 **Contrast:** Spelled like eight but it rhymes with kite: HYT. There is no th on the end.
 
-How tall something or someone is.
+Height has 2 distinct senses.
+
+**1. How tall something or someone is.** (высота, рост)
 
 1. The nurse recorded her *height* and weight.
 2. Adjust the *height* of the chair.
 3. The shelves come in three different *heights*.
+
+**2. How tall a person or thing is from bottom to top.** (рост; высота)
+
+4. What is your *height* in feet?
+5. The shelf can be set at two *heights*.
+6. The fence is about shoulder *height*.
 
 ---
 
@@ -181,28 +214,45 @@ How heavy something is, or a heavy object used for lifting or holding something 
 ### mass
 
 **Pronunciation:** /mæs/ &middot; *MAS*
-**Русский:** масса
+**Русский:** масса; месса, литургия
 **Countability:** uncountable
+**Contrast:** Usually capitalized as 'Mass' in this sense; the same spelling also means 'масса'.
 
-The amount of matter in an object, measured in kilograms.
+Mass has 2 distinct senses.
+
+**1. The amount of matter in an object, measured in kilograms.** (масса)
 
 1. An object keeps the same *mass* on the moon.
 2. Scientists measure *mass* in kilograms, not pounds.
 3. *Mass* and weight are not the same thing.
+
+**2. The main Catholic religious service.** (месса, литургия)
+
+4. We went to midnight *mass* on Christmas Eve.
+5. The *mass* was said in Spanish.
+6. The church offers three *masses* on Sunday.
 
 ---
 
 ### volume
 
 **Pronunciation:** /ˈvɑːljuːm/ &middot; *VAHL-yoom*
-**Русский:** объём
+**Русский:** объём; том; громкость
 **Countability:** uncountable
 
-The amount of space that something fills.
+Volume has 2 distinct senses.
+
+**1. The amount of space that something fills.** (объём)
 
 1. Find the *volume* of the box in cubic inches.
 2. Water expands in *volume* when it freezes.
 3. The tank holds a large *volume* of fuel.
+
+**2. One book in a set of several, or how loud a sound is.** (том; громкость)
+
+4. The dictionary comes in twelve *volumes*.
+5. Turn the *volume* down a little.
+6. She pulled the first *volume* off the shelf.
 
 ---
 
@@ -228,11 +278,19 @@ The amount that a container or a space can hold.
 **Plural:** *areas*
 **Countability:** countable
 
-The size of a flat surface, found by multiplying length by width.
+Area has 2 distinct senses.
+
+**1. The size of a flat surface, found by multiplying length by width.** (площадь)
 
 1. Calculate the *area* of the floor before you order tile.
 2. The lot has an *area* of about half an acre.
 3. Add the *areas* of the two rooms together.
+
+**2. The amount of flat surface that something covers.** (площадь)
+
+4. Calculate the *area* of the rectangle.
+5. Pressure equals force divided by *area*.
+6. The two shapes have equal *areas*.
 
 ---
 
@@ -319,11 +377,19 @@ A quantity of something, especially of something you cannot count.
 **Plural:** *quantities*
 **Countability:** countable
 
-How much of something there is.
+Quantity has 2 distinct senses.
+
+**1. How much of something there is.** (количество)
 
 1. Enter the *quantity* you want to order.
 2. They buy flour in large *quantities*.
 3. The recipe lists the *quantity* of each ingredient.
+
+**2. An amount of something that can be counted or measured.** (количество)
+
+4. Add a small *quantity* of acid to the beaker.
+5. The plant gives off oxygen in large *quantities*.
+6. Record both the *quantity* and the temperature.
 
 ---
 
@@ -363,11 +429,19 @@ How much mass a material has for its size.
 **Plural:** *forces*
 **Countability:** countable
 
-A push or a pull acting on an object, measured in newtons.
+Force has 2 distinct senses.
+
+**1. A push or a pull acting on an object, measured in newtons.** (сила)
 
 1. The *force* of the wind snapped the branch.
 2. Two *forces* act on the box at the same time.
 3. Apply a steady *force* to the lever.
+
+**2. A push or a pull that makes an object move, stop, or change shape.** (сила)
+
+4. Gravity is the *force* that keeps us on the ground.
+5. Two equal *forces* pulled the rope in opposite directions.
+6. You have to apply more *force* to open that door.
 
 ---
 
@@ -467,31 +541,47 @@ The average of a set of numbers.
 ### median
 
 **Pronunciation:** /ˈmiːdiən/ &middot; *MEE-dee-uhn*
-**Русский:** медиана
+**Русский:** медиана; разделительная полоса (на дороге)
 **Plural:** *medians*
 **Countability:** countable
 **Contrast:** In American English the same word also names the strip in the middle of a highway.
 
-The middle value in a list of numbers arranged in order.
+Median has 2 distinct senses.
+
+**1. The middle value in a list of numbers arranged in order.** (медиана)
 
 1. The *median* tells you more than the average here.
 2. Half the houses sold above the *median*.
 3. The two *medians* were identical.
+
+**2. The strip of ground separating the two directions of traffic on a wide road.** (разделительная полоса (на дороге))
+
+4. A truck jumped the *median* and hit oncoming traffic.
+5. Wildflowers were planted along the grassy *medians*.
+6. Don't try to cross the *median* on foot.
 
 ---
 
 ### proportion
 
 **Pronunciation:** /prəˈpɔːrʃən/ &middot; *pruh-POR-shuhn*
-**Русский:** доля, соотношение
+**Русский:** доля, соотношение; пропорция, соотношение
 **Plural:** *proportions*
 **Countability:** countable
 
-A part of a whole, compared with the rest.
+Proportion has 2 distinct senses.
+
+**1. A part of a whole, compared with the rest.** (доля, соотношение)
 
 1. A large *proportion* of the budget goes to salaries.
 2. Mix the paint in the right *proportion*.
 3. The *proportions* of sand and cement matter a lot.
+
+**2. The size relationship between the parts of something.** (пропорция, соотношение)
+
+4. The head is out of *proportion* with the body.
+5. The room has pleasing *proportions*.
+6. Keep the same *proportion* when you enlarge the photo.
 
 ---
 
@@ -526,30 +616,46 @@ The level of fine detail that a measurement is made to.
 ### tolerance
 
 **Pronunciation:** /ˈtɑːlərəns/ &middot; *TAH-lur-uhns*
-**Русский:** допуск (в технике)
+**Русский:** допуск (в технике); терпимость
 **Plural:** *tolerances*
 **Countability:** countable
 
-The amount a measurement is allowed to vary from the exact figure.
+Tolerance has 2 distinct senses.
+
+**1. The amount a measurement is allowed to vary from the exact figure.** (допуск (в технике))
 
 1. The part is machined to a *tolerance* of one thousandth of an inch.
 2. That's outside the *tolerance* on the drawing.
 3. Aerospace parts have very tight *tolerances*.
+
+**2. A willingness to accept people or ideas you do not share.** (терпимость)
+
+4. The school teaches *tolerance* from kindergarten on.
+5. My *tolerance* for meetings is close to zero.
+6. There is not much *tolerance* for excuses around here.
 
 ---
 
 ### margin
 
 **Pronunciation:** /ˈmɑːrdʒən/ &middot; *MAR-jin*
-**Русский:** запас, разница
+**Русский:** запас, разница; поля (страницы)
 **Plural:** *margins*
 **Countability:** countable
 
-An extra amount allowed beyond what is strictly needed.
+Margin has 2 distinct senses.
+
+**1. An extra amount allowed beyond what is strictly needed.** (запас, разница)
 
 1. Leave a *margin* of error in your estimate.
 2. He won by a *margin* of two seconds.
 3. The *margins* on this drawing are too tight.
+
+**2. The blank space along the edge of a printed page.** (поля (страницы))
+
+4. He scribbled notes in the *margin*.
+5. Set the *margins* to one inch.
+6. The *margin* is too narrow to write in.
 
 ---
 
@@ -825,16 +931,24 @@ A value showing what share of a group falls below it.
 ### figure
 
 **Pronunciation:** /ˈfɪɡjər/ &middot; *FIG-yur*
-**Русский:** цифра, показатель
+**Русский:** цифра, показатель; фигура (телосложение); силуэт
 **Plural:** *figures*
 **Countability:** countable
 **Contrast:** Americans say FIG-yur; the British say FIG-ur.
 
-A number, especially one in a report or a set of results.
+Figure has 2 distinct senses.
+
+**1. A number, especially one in a report or a set of results.** (цифра, показатель)
 
 1. Sales *figures* come out on Monday.
 2. That *figure* includes shipping.
 3. Check the *figures* one more time.
+
+**2. The shape of a person's body.** (фигура (телосложение); силуэт)
+
+4. She has kept her *figure* for years.
+5. A tall *figure* appeared at the end of the hall.
+6. Two dark *figures* moved across the yard.
 
 ---
 
@@ -949,29 +1063,45 @@ One thousand meters, a little over six tenths of a mile.
 ### mileage
 
 **Pronunciation:** /ˈmaɪlɪdʒ/ &middot; *MY-lij*
-**Русский:** пробег в милях; расход топлива
+**Русский:** пробег в милях; расход топлива; пробег (в милях)
 **Countability:** uncountable
 
-The number of miles a vehicle has traveled, or how far it goes on a gallon of fuel.
+Mileage has 2 distinct senses.
+
+**1. The number of miles a vehicle has traveled, or how far it goes on a gallon of fuel.** (пробег в милях; расход топлива)
 
 1. The car has low *mileage* for its age.
 2. This truck gets terrible *mileage* on the highway.
 3. Check the *mileage* before you buy it.
+
+**2. The distance a vehicle has traveled or can travel on a tank of gas.** (пробег (в милях))
+
+4. The rental includes unlimited *mileage*.
+5. That old truck gets terrible *mileage*.
+6. Write down the *mileage* before you leave.
 
 ---
 
 ### footage
 
 **Pronunciation:** /ˈfʊtɪdʒ/ &middot; *FUUT-ij*
-**Русский:** метраж, длина или площадь в футах
+**Русский:** метраж, длина или площадь в футах; видеоматериал, кадры
 **Countability:** uncountable
 **Contrast:** The same word also means filmed video material, as in security footage.
 
-A length or an area measured in feet.
+Footage has 2 distinct senses.
+
+**1. A length or an area measured in feet.** (метраж, длина или площадь в футах)
 
 1. What's the square *footage* of the house?
 2. Add up the *footage* of pipe you'll need.
 3. The listing doesn't give the *footage*.
+
+**2. Film or video that has been shot, especially of a real event.** (видеоматериал, кадры)
+
+4. The station aired security *footage* of the break-in.
+5. There's hours of unused *footage*.
+6. The *footage* is grainy but you can see his face.
 
 ---
 
@@ -1215,11 +1345,19 @@ An American unit of weight equal to 2,000 pounds.
 **Countability:** countable
 **Contrast:** Americans write gram; the British also spell it gramme.
 
-The basic metric unit of weight, about one twenty-eighth of an ounce.
+Gram has 2 distinct senses.
+
+**1. The basic metric unit of weight, about one twenty-eighth of an ounce.** (грамм)
 
 1. Add fifty *grams* of butter.
 2. The label lists nine *grams* of sugar.
 3. A paper clip weighs about a *gram*.
+
+**2. A metric unit of mass equal to one thousandth of a kilogram.** (грамм)
+
+4. The sample weighed twelve *grams*.
+5. Add one *gram* of salt to the water.
+6. The scale reads to a tenth of a *gram*.
 
 ---
 
@@ -1534,16 +1672,24 @@ A flat half-circle marked in degrees, used for measuring angles.
 ### compass
 
 **Pronunciation:** /ˈkʌmpəs/ &middot; *KUM-puhs*
-**Русский:** компас; циркуль
+**Русский:** компас; циркуль; циркуль
 **Plural:** *compasses*
 **Countability:** countable
 **Contrast:** The first syllable is KUM, not KOM. The same word also names the drawing tool for circles.
 
-An instrument with a magnetic needle that shows direction.
+Compass has 2 distinct senses.
+
+**1. An instrument with a magnetic needle that shows direction.** (компас; циркуль)
 
 1. Take a *compass* if you're hiking off trail.
 2. The *compass* needle swung north.
 3. Both *compasses* pointed the same way.
+
+**2. A hinged instrument with a point and a pencil, used for drawing circles.** (циркуль)
+
+4. Draw a two-inch circle with your *compass*.
+5. The point of the *compass* went through the paper.
+6. The teacher passed out *compasses* and rulers.
 
 ---
 
@@ -1733,15 +1879,23 @@ A cup marked with a scale for measuring ingredients.
 ### beaker
 
 **Pronunciation:** /ˈbiːkər/ &middot; *BEE-kur*
-**Русский:** химический стакан, мензурка
+**Русский:** химический стакан, мензурка; химический стакан
 **Plural:** *beakers*
 **Countability:** countable
 
-A straight-sided glass container marked with a scale, used in laboratories.
+Beaker has 2 distinct senses.
+
+**1. A straight-sided glass container marked with a scale, used in laboratories.** (химический стакан, мензурка)
 
 1. Pour the solution into a clean *beaker*.
 2. The *beaker* is marked in milliliters.
 3. A row of *beakers* sat on the lab bench.
+
+**2. A wide glass cup with a lip, used for mixing liquids in a lab.** (химический стакан)
+
+4. Fill the *beaker* to the hundred-milliliter mark.
+5. The liquid in the *beaker* turned pink.
+6. Wash the *beakers* before you leave.
 
 ---
 
@@ -1768,11 +1922,19 @@ A tall narrow lab container marked for measuring the volume of a liquid.
 **Countability:** countable
 **Contrast:** In most American speech it sounds just like what.
 
-The unit of power, used for the output of a bulb, speaker, or motor.
+Watt has 2 distinct senses.
+
+**1. The unit of power, used for the output of a bulb, speaker, or motor.** (ватт)
 
 1. This bulb uses only nine *watts*.
 2. The speaker is rated at fifty *watts*.
 3. A *watt* is one joule per second.
+
+**2. A unit for measuring power.** (ватт)
+
+4. This bulb uses only nine *watts*.
+5. The speaker is rated at fifty *watts*.
+6. A microwave can draw a thousand *watts*.
 
 ---
 
@@ -1827,11 +1989,19 @@ The amount of electric power something uses or produces, stated in watts.
 **Plural:** *volts*
 **Countability:** countable
 
-The unit of electrical pressure.
+Volt has 2 distinct senses.
+
+**1. The unit of electrical pressure.** (вольт)
 
 1. American outlets run at 120 *volts*.
 2. The battery puts out twelve *volts*.
 3. Nine *volts* isn't enough for that motor.
+
+**2. A unit for measuring the force that pushes an electric current.** (вольт)
+
+4. American outlets deliver a hundred and twenty *volts*.
+5. The battery puts out nine *volts*.
+6. A single *volt* won't hurt you.
 
 ---
 
@@ -1841,11 +2011,19 @@ The unit of electrical pressure.
 **Русский:** напряжение
 **Countability:** uncountable
 
-The electrical force in a circuit, measured in volts.
+Voltage has 2 distinct senses.
+
+**1. The electrical force in a circuit, measured in volts.** (напряжение)
 
 1. Check the *voltage* before you plug it in.
 2. Low *voltage* made the lights flicker.
 3. European *voltage* is twice ours.
+
+**2. The electrical force that pushes current through a circuit.** (напряжение)
+
+4. Check the *voltage* before you plug it in.
+5. High *voltage* can jump across a gap.
+6. The two supplies run at different *voltages*.
 
 ---
 
@@ -1950,11 +2128,19 @@ The unit used to measure how loud a sound is.
 **Countability:** countable
 **Contrast:** The plural is hertz, and the word sounds like hurts.
 
-The unit of frequency, equal to one cycle per second.
+Hertz has 2 distinct senses.
+
+**1. The unit of frequency, equal to one cycle per second.** (герц)
 
 1. American power runs at sixty *hertz*.
 2. The monitor refreshes at 120 *hertz*.
 3. People hear sound from about 20 *hertz* upward.
+
+**2. A unit for measuring how many times something repeats each second.** (герц)
+
+4. American house current runs at sixty *hertz*.
+5. The tone was set to four hundred and forty *hertz*.
+6. One *hertz* means one cycle per second.
 
 ---
 
@@ -1996,11 +2182,19 @@ The turning force produced by an engine or applied to a bolt.
 **Plural:** *wavelengths*
 **Countability:** countable
 
-The distance between one wave crest and the next.
+Wavelength has 2 distinct senses.
+
+**1. The distance between one wave crest and the next.** (длина волны)
 
 1. Red light has a longer *wavelength* than blue.
 2. The antenna is cut to a quarter *wavelength*.
 3. Only certain *wavelengths* pass through the filter.
+
+**2. The distance from one wave to the next one.** (длина волны)
+
+4. Red light has a longer *wavelength* than blue light.
+5. The antenna is tuned to that *wavelength*.
+6. Different *wavelengths* bend by different amounts.
 
 ---
 

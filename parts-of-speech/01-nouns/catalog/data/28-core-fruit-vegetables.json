@@ -324,16 +324,46 @@
       "term": "kiwi",
       "ipa": "/ˈkiːwiː/",
       "respell": "KEE-wee",
-      "meaning": "A small brown fuzzy fruit with green flesh and tiny black seeds. ---",
+      "meaning": "Kiwi has 2 distinct senses.",
       "examples": [
         "Cut the kiwi in half and eat it with a spoon.",
         "Kiwis are cheaper than they used to be.",
-        "The kiwi was too sour to finish."
+        "The kiwi was too sour to finish.",
+        "A kiwi is about the size of a chicken and cannot fly.",
+        "Kiwis come out at night and hunt by smell.",
+        "We never saw a wild kiwi, only one at the sanctuary."
       ],
-      "senses": [],
-      "русский": "киви",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small brown fuzzy fruit with green flesh and tiny black seeds",
+          "body": [
+            "(киви)"
+          ],
+          "examples": [
+            "Cut the kiwi in half and eat it with a spoon.",
+            "Kiwis are cheaper than they used to be.",
+            "The kiwi was too sour to finish."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small flightless New Zealand bird with a long thin bill",
+          "body": [
+            "(киви (птица))",
+            "---"
+          ],
+          "examples": [
+            "A kiwi is about the size of a chicken and cannot fly.",
+            "Kiwis come out at night and hunt by smell.",
+            "We never saw a wild kiwi, only one at the sanctuary."
+          ]
+        }
+      ],
+      "русский": "киви; киви (птица)",
       "plural": "kiwis",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The same word names the green fruit; the bird sense came first."
     },
     {
       "term": "papaya",
@@ -926,13 +956,42 @@
       "term": "sprout",
       "ipa": "/spraʊt/",
       "respell": "SPROWT",
-      "meaning": "A young shoot from a seed, often eaten raw. ---",
+      "meaning": "Sprout has 2 distinct senses.",
       "examples": [
         "Add the bean sprouts at the very end.",
         "A single sprout had pushed through the soil.",
-        "The sprouts went bad after two days in the fridge."
+        "The sprouts went bad after two days in the fridge.",
+        "Little green sprouts came up all along the row.",
+        "The potatoes in the pantry have a sprout on them.",
+        "You'll see the first sprouts in about ten days."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A young shoot from a seed, often eaten raw",
+          "body": [
+            "(росток, побег)"
+          ],
+          "examples": [
+            "Add the bean sprouts at the very end.",
+            "A single sprout had pushed through the soil.",
+            "The sprouts went bad after two days in the fridge."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A new shoot coming up from a seed or a plant",
+          "body": [
+            "(росток, побег)",
+            "---"
+          ],
+          "examples": [
+            "Little green sprouts came up all along the row.",
+            "The potatoes in the pantry have a sprout on them.",
+            "You'll see the first sprouts in about ten days."
+          ]
+        }
+      ],
       "русский": "росток, побег",
       "plural": "sprouts",
       "countability": "countable"
@@ -1045,13 +1104,42 @@
       "term": "thyme",
       "ipa": "/taɪm/",
       "respell": "TYME",
-      "meaning": "A herb with tiny leaves and a strong earthy smell. ---",
+      "meaning": "Thyme has 2 distinct senses.",
       "examples": [
         "Add a few sprigs of thyme to the pot.",
         "The chicken was roasted with lemon and thyme.",
-        "Thyme dries better than most herbs."
+        "Thyme dries better than most herbs.",
+        "A little thyme goes a long way.",
+        "There's thyme growing between the paving stones.",
+        "Strip the thyme off the stem with your fingers."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A herb with tiny leaves and a strong earthy smell",
+          "body": [
+            "(тимьян, чабрец)"
+          ],
+          "examples": [
+            "Add a few sprigs of thyme to the pot.",
+            "The chicken was roasted with lemon and thyme.",
+            "Thyme dries better than most herbs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A herb with tiny leaves, used to season meat and soups",
+          "body": [
+            "(тимьян, чабрец)",
+            "---"
+          ],
+          "examples": [
+            "A little thyme goes a long way.",
+            "There's thyme growing between the paving stones.",
+            "Strip the thyme off the stem with your fingers."
+          ]
+        }
+      ],
       "русский": "тимьян, чабрец",
       "countability": "uncountable",
       "contrast": "Homophone of time — the h is silent and the y is a long I."
@@ -1219,14 +1307,43 @@
       "term": "walnut",
       "ipa": "/ˈwɔːlnʌt/",
       "respell": "WAWL-nut",
-      "meaning": "A nut with a wrinkled kernel inside a hard round shell. ---",
+      "meaning": "Walnut has 2 distinct senses.",
       "examples": [
         "Toast the walnuts before you add them.",
         "There's a walnut tree in the back yard.",
-        "Walnuts go rancid if you leave them out."
+        "Walnuts go rancid if you leave them out.",
+        "The dresser is solid walnut.",
+        "Walnuts were all over the yard by October.",
+        "He cracked a walnut with the back of a knife."
       ],
-      "senses": [],
-      "русский": "грецкий орех",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A nut with a wrinkled kernel inside a hard round shell",
+          "body": [
+            "(грецкий орех)"
+          ],
+          "examples": [
+            "Toast the walnuts before you add them.",
+            "There's a walnut tree in the back yard.",
+            "Walnuts go rancid if you leave them out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tree with dark hard wood, or the wrinkled nut it produces",
+          "body": [
+            "(грецкий орех; орех (дерево))",
+            "---"
+          ],
+          "examples": [
+            "The dresser is solid walnut.",
+            "Walnuts were all over the yard by October.",
+            "He cracked a walnut with the back of a knife."
+          ]
+        }
+      ],
+      "русский": "грецкий орех; грецкий орех; орех (дерево)",
       "plural": "walnuts",
       "countability": "countable"
     },
@@ -1311,13 +1428,42 @@
       "term": "chestnut",
       "ipa": "/ˈtʃɛsnʌt/",
       "respell": "CHES-nut",
-      "meaning": "A large glossy brown nut that is roasted or boiled before eating. ---",
+      "meaning": "Chestnut has 2 distinct senses.",
       "examples": [
         "Roasted chestnuts smell like winter.",
         "Score each chestnut before you roast it.",
-        "Chestnuts are starchy rather than oily like other nuts."
+        "Chestnuts are starchy rather than oily like other nuts.",
+        "They roast chestnuts on the corner every December.",
+        "Blight wiped out the American chestnut.",
+        "A chestnut fell right on the hood of the car."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large glossy brown nut that is roasted or boiled before eating",
+          "body": [
+            "(каштан)"
+          ],
+          "examples": [
+            "Roasted chestnuts smell like winter.",
+            "Score each chestnut before you roast it.",
+            "Chestnuts are starchy rather than oily like other nuts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tree that produces glossy brown nuts, or one of the nuts itself",
+          "body": [
+            "(каштан)",
+            "---"
+          ],
+          "examples": [
+            "They roast chestnuts on the corner every December.",
+            "Blight wiped out the American chestnut.",
+            "A chestnut fell right on the hood of the car."
+          ]
+        }
+      ],
       "русский": "каштан",
       "plural": "chestnuts",
       "countability": "countable",
@@ -1327,13 +1473,42 @@
       "term": "acorn",
       "ipa": "/ˈeɪkɔːrn/",
       "respell": "AY-korn",
-      "meaning": "The nut of an oak tree, sitting in a small rough cup. ---",
+      "meaning": "Acorn has 2 distinct senses.",
       "examples": [
         "The squirrels buried acorns all over the lawn.",
         "An acorn hit the roof and woke me up.",
-        "The acorns were thick under the old oak."
+        "The acorns were thick under the old oak.",
+        "Acorns were dropping on the roof all night.",
+        "A squirrel buried an acorn in the flower bed.",
+        "The driveway is covered in acorns every fall."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The nut of an oak tree, sitting in a small rough cup",
+          "body": [
+            "(жёлудь)"
+          ],
+          "examples": [
+            "The squirrels buried acorns all over the lawn.",
+            "An acorn hit the roof and woke me up.",
+            "The acorns were thick under the old oak."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The nut of an oak tree",
+          "body": [
+            "(жёлудь)",
+            "---"
+          ],
+          "examples": [
+            "Acorns were dropping on the roof all night.",
+            "A squirrel buried an acorn in the flower bed.",
+            "The driveway is covered in acorns every fall."
+          ]
+        }
+      ],
       "русский": "жёлудь",
       "plural": "acorns",
       "countability": "countable"
@@ -1440,19 +1615,49 @@
       "senses": [],
       "русский": "корень",
       "plural": "roots",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Many Americans say route exactly like root; others say it ROWT. The plant word is always ROOT."
     },
     {
       "term": "stem",
       "ipa": "/stɛm/",
       "respell": "STEM",
-      "meaning": "The thin part of a plant that supports leaves, flowers, or fruit. ---",
+      "meaning": "Stem has 2 distinct senses.",
       "examples": [
         "Cut the stems at an angle.",
         "Pull the stem off the strawberry first.",
-        "The stems are tougher than the leaves."
+        "The stems are tougher than the leaves.",
+        "Cut the stems at an angle before you put them in water.",
+        "The stem snapped when I tried to move the pot.",
+        "Strip the lower leaves off the stem first."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thin part of a plant that supports leaves, flowers, or fruit",
+          "body": [
+            "(стебель)"
+          ],
+          "examples": [
+            "Cut the stems at an angle.",
+            "Pull the stem off the strawberry first.",
+            "The stems are tougher than the leaves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main upright part of a plant that holds up the leaves and flowers",
+          "body": [
+            "(стебель)",
+            "---"
+          ],
+          "examples": [
+            "Cut the stems at an angle before you put them in water.",
+            "The stem snapped when I tried to move the pot.",
+            "Strip the lower leaves off the stem first."
+          ]
+        }
+      ],
       "русский": "стебель",
       "plural": "stems",
       "countability": "countable"
@@ -1476,14 +1681,43 @@
       "term": "rind",
       "ipa": "/raɪnd/",
       "respell": "RYND",
-      "meaning": "The thick hard outer layer of some fruits, vegetables, or cheeses. ---",
+      "meaning": "Rind has 2 distinct senses.",
       "examples": [
         "Cut the rind off the watermelon.",
         "Save the parmesan rind for soup.",
-        "The rinds all went into the compost."
+        "The rinds all went into the compost.",
+        "Save the Parmesan rind and throw it in the soup.",
+        "Some rinds are edible and some aren't.",
+        "Pork rind is basically fried pig skin."
       ],
-      "senses": [],
-      "русский": "корка, толстая кожура",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thick hard outer layer of some fruits, vegetables, or cheeses",
+          "body": [
+            "(корка, толстая кожура)"
+          ],
+          "examples": [
+            "Cut the rind off the watermelon.",
+            "Save the parmesan rind for soup.",
+            "The rinds all went into the compost."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hard outer layer of a cheese, or the skin of a piece of pork",
+          "body": [
+            "(корка (сыра), шкурка (бекона))",
+            "---"
+          ],
+          "examples": [
+            "Save the Parmesan rind and throw it in the soup.",
+            "Some rinds are edible and some aren't.",
+            "Pork rind is basically fried pig skin."
+          ]
+        }
+      ],
+      "русский": "корка, толстая кожура; корка (сыра), шкурка (бекона)",
       "plural": "rinds",
       "countability": "countable"
     },
@@ -1522,14 +1756,43 @@
       "term": "stalk",
       "ipa": "/stɔːk/",
       "respell": "STAWK",
-      "meaning": "The main thick stem of a plant, or one long piece of celery or rhubarb. ---",
+      "meaning": "Stalk has 2 distinct senses.",
       "examples": [
         "Trim the ends off the celery stalks.",
         "One stalk of celery has almost no calories.",
-        "The corn stalks were taller than the barn."
+        "The corn stalks were taller than the barn.",
+        "He chopped the celery stalks into sticks.",
+        "One stalk of corn came up in the flower bed.",
+        "The wind bent every stalk in the field."
       ],
-      "senses": [],
-      "русский": "стебель, черешок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The main thick stem of a plant, or one long piece of celery or rhubarb",
+          "body": [
+            "(стебель, черешок)"
+          ],
+          "examples": [
+            "Trim the ends off the celery stalks.",
+            "One stalk of celery has almost no calories.",
+            "The corn stalks were taller than the barn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick stem that supports a plant or a flower head",
+          "body": [
+            "(стебель (толстый, у травянистого растения))",
+            "---"
+          ],
+          "examples": [
+            "He chopped the celery stalks into sticks.",
+            "One stalk of corn came up in the flower bed.",
+            "The wind bent every stalk in the field."
+          ]
+        }
+      ],
+      "русский": "стебель, черешок; стебель (толстый, у травянистого растения)",
       "plural": "stalks",
       "countability": "countable",
       "contrast": "The l is silent: STAWK."
@@ -1538,13 +1801,42 @@
       "term": "vine",
       "ipa": "/vaɪn/",
       "respell": "VYNE",
-      "meaning": "A plant with a long climbing or trailing stem, such as a grape plant. ---",
+      "meaning": "Vine has 2 distinct senses.",
       "examples": [
         "The tomatoes ripened on the vine.",
         "Vines had grown right over the fence.",
-        "He trained the vine up a trellis."
+        "He trained the vine up a trellis.",
+        "Vines had taken over the whole shed.",
+        "Train the vine up the string as it grows.",
+        "A grape vine runs along the back fence."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plant with a long climbing or trailing stem, such as a grape plant",
+          "body": [
+            "(лоза, вьющееся растение)"
+          ],
+          "examples": [
+            "The tomatoes ripened on the vine.",
+            "Vines had grown right over the fence.",
+            "He trained the vine up a trellis."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plant with a long stem that climbs or trails along the ground",
+          "body": [
+            "(лоза, вьющееся растение)",
+            "---"
+          ],
+          "examples": [
+            "Vines had taken over the whole shed.",
+            "Train the vine up the string as it grows.",
+            "A grape vine runs along the back fence."
+          ]
+        }
+      ],
       "русский": "лоза, вьющееся растение",
       "plural": "vines",
       "countability": "countable"

@@ -435,14 +435,58 @@
       "term": "clog",
       "ipa": "/klɑːɡ/",
       "respell": "KLAHG",
-      "meaning": "A backless shoe with a thick wooden or cork sole. ---",
+      "meaning": "Clog has 3 distinct senses.",
       "examples": [
         "Nurses on that floor all wear clogs.",
         "She slipped a clog off under the desk.",
-        "Wooden clogs are loud on a tile floor."
+        "Wooden clogs are loud on a tile floor.",
+        "There's a clog in the bathroom sink.",
+        "Hair causes most shower clogs.",
+        "The plumber cleared the clog in ten minutes.",
+        "There's a clog somewhere under the kitchen sink.",
+        "Hot water and soap cleared the clog in a minute.",
+        "Hair causes most shower clogs."
       ],
-      "senses": [],
-      "русский": "сабо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A backless shoe with a thick wooden or cork sole",
+          "body": [
+            "(сабо)"
+          ],
+          "examples": [
+            "Nurses on that floor all wear clogs.",
+            "She slipped a clog off under the desk.",
+            "Wooden clogs are loud on a tile floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A blockage that stops water from draining",
+          "body": [
+            "(засор)"
+          ],
+          "examples": [
+            "There's a clog in the bathroom sink.",
+            "Hair causes most shower clogs.",
+            "The plumber cleared the clog in ten minutes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A mass of material that blocks a pipe or drain",
+          "body": [
+            "(засор (в трубе))",
+            "---"
+          ],
+          "examples": [
+            "There's a clog somewhere under the kitchen sink.",
+            "Hot water and soap cleared the clog in a minute.",
+            "Hair causes most shower clogs."
+          ]
+        }
+      ],
+      "русский": "сабо; засор; засор (в трубе)",
       "plural": "clogs",
       "countability": "countable"
     },
@@ -1452,14 +1496,43 @@
       "term": "traction",
       "ipa": "/ˈtrækʃn/",
       "respell": "TRAK-shun",
-      "meaning": "The grip a sole has on the ground. ---",
+      "meaning": "Traction has 2 distinct senses.",
       "examples": [
         "These soles have terrible traction on wet tile.",
         "Winter boots need traction on ice, not just warmth.",
-        "The deep tread gives you good traction in mud."
+        "The deep tread gives you good traction in mud.",
+        "Snow tires give you much better traction.",
+        "The wheels spun and lost traction.",
+        "There's no traction at all on wet leaves."
       ],
-      "senses": [],
-      "русский": "сцепление с поверхностью",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The grip a sole has on the ground",
+          "body": [
+            "(сцепление с поверхностью)"
+          ],
+          "examples": [
+            "These soles have terrible traction on wet tile.",
+            "Winter boots need traction on ice, not just warmth.",
+            "The deep tread gives you good traction in mud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The grip between a vehicle's tires and the road",
+          "body": [
+            "(сцепление с дорогой)",
+            "---"
+          ],
+          "examples": [
+            "Snow tires give you much better traction.",
+            "The wheels spun and lost traction.",
+            "There's no traction at all on wet leaves."
+          ]
+        }
+      ],
+      "русский": "сцепление с поверхностью; сцепление с дорогой",
       "countability": "uncountable"
     },
     {

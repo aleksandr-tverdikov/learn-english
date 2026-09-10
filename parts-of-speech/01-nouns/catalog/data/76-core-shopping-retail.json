@@ -782,7 +782,8 @@
       "senses": [],
       "русский": "зоомагазин",
       "plural": "pet stores",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American pet store; the British say pet shop."
     },
     {
       "term": "toy store",
@@ -985,14 +986,43 @@
       "term": "dressing room",
       "ipa": "/ˈdrɛsɪŋ ruːm/",
       "respell": "DRES-ing ROOM",
-      "meaning": "A private space in a store for trying on clothing. ---",
+      "meaning": "Dressing room has 2 distinct senses.",
       "examples": [
         "She left the jeans in the dressing room.",
         "The dressing rooms are down the hall on the left.",
-        "There's a mirror inside the dressing room."
+        "There's a mirror inside the dressing room.",
+        "Flowers were waiting in her dressing room.",
+        "The dressing rooms are down the hall past the green room.",
+        "Four of us shared one tiny dressing room."
       ],
-      "senses": [],
-      "русский": "примерочная",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A private space in a store for trying on clothing",
+          "body": [
+            "(примерочная)"
+          ],
+          "examples": [
+            "She left the jeans in the dressing room.",
+            "The dressing rooms are down the hall on the left.",
+            "There's a mirror inside the dressing room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A room backstage where performers change and put on makeup",
+          "body": [
+            "(гримёрная)",
+            "---"
+          ],
+          "examples": [
+            "Flowers were waiting in her dressing room.",
+            "The dressing rooms are down the hall past the green room.",
+            "Four of us shared one tiny dressing room."
+          ]
+        }
+      ],
+      "русский": "примерочная; гримёрная",
       "plural": "dressing rooms",
       "countability": "countable"
     },
@@ -1316,14 +1346,43 @@
       "term": "variety",
       "ipa": "/vəˈraɪəti/",
       "respell": "vuh-RY-uh-tee",
-      "meaning": "A number of different kinds of something available. ---",
+      "meaning": "Variety has 2 distinct senses.",
       "examples": [
         "The market carries a wide variety of apples.",
         "They stock a dozen varieties of hot sauce.",
-        "There's not much variety at the corner store."
+        "There's not much variety at the corner store.",
+        "That variety ripens two weeks earlier.",
+        "The nursery carries about ten varieties of apple.",
+        "Ask for a variety that does well in heat."
       ],
-      "senses": [],
-      "русский": "разнообразие, выбор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A number of different kinds of something available",
+          "body": [
+            "(разнообразие, выбор)"
+          ],
+          "examples": [
+            "The market carries a wide variety of apples.",
+            "They stock a dozen varieties of hot sauce.",
+            "There's not much variety at the corner store."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A named kind of plant within a species",
+          "body": [
+            "(сорт (растения))",
+            "---"
+          ],
+          "examples": [
+            "That variety ripens two weeks earlier.",
+            "The nursery carries about ten varieties of apple.",
+            "Ask for a variety that does well in heat."
+          ]
+        }
+      ],
+      "русский": "разнообразие, выбор; сорт (растения)",
       "plural": "varieties",
       "countability": "countable"
     },

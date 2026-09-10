@@ -45,11 +45,19 @@ An appliance that dries wet laundry with hot air.
 **Русский:** отбеливатель, хлорка
 **Countability:** uncountable
 
-A strong chemical that whitens fabric and kills germs.
+Bleach has 2 distinct senses.
+
+**1. A strong chemical that whitens fabric and kills germs.** (отбеливатель, хлорка)
 
 1. She cleaned the tub with *bleach*.
 2. Never mix *bleach* with other cleaners.
 3. A little *bleach* took the stain right out.
+
+**2. A strong chemical liquid used to whiten cloth and kill germs.** (отбеливатель, хлорка)
+
+4. A little *bleach* will get that stain out.
+5. Never mix *bleach* with ammonia.
+6. The whole kitchen smelled like *bleach*.
 
 ---
 
@@ -162,14 +170,22 @@ A dirty mark that is hard to remove.
 ### dirt
 
 **Pronunciation:** /dɜːrt/ &middot; *DURT*
-**Русский:** грязь; земля
+**Русский:** грязь; земля; земля, грязь
 **Countability:** uncountable
 
-Dust, mud, or soil that makes something unclean.
+Dirt has 2 distinct senses.
+
+**1. Dust, mud, or soil that makes something unclean.** (грязь; земля)
 
 1. There's *dirt* all over the kitchen floor.
 2. Wipe your boots — you're tracking in *dirt*.
 3. The *dirt* washed right off.
+
+**2. Loose earth or soil, especially the kind that makes things dirty.** (земля, грязь)
+
+4. The kids came in with *dirt* all over their knees.
+5. He turned over the *dirt* with a shovel.
+6. Rain turned the *dirt* to mud within an hour.
 
 ---
 
@@ -251,16 +267,24 @@ Liquid soap for washing hair.
 ### comb
 
 **Pronunciation:** /koʊm/ &middot; *KOHM*
-**Русский:** расчёска, гребень
+**Русский:** расчёска, гребень; гребень (у петуха)
 **Plural:** *combs*
 **Countability:** countable
 **Contrast:** The b is silent: KOHM.
 
-A flat tool with teeth for tidying hair.
+Comb has 2 distinct senses.
+
+**1. A flat tool with teeth for tidying hair.** (расчёска, гребень)
 
 1. He ran a *comb* through his hair.
 2. There's a *comb* in the top drawer.
 3. The *combs* were still in the package.
+
+**2. The red fleshy growth on top of a chicken's head.** (гребень (у петуха))
+
+4. The rooster's *comb* is bright red.
+5. Frostbite can damage a hen's *comb*.
+6. Different breeds have very different *combs*.
 
 ---
 
@@ -282,15 +306,23 @@ A tool with stiff bristles used for cleaning, painting, or hair.
 ### fan
 
 **Pronunciation:** /fæn/ &middot; *FAN*
-**Русский:** вентилятор
+**Русский:** вентилятор; болельщик, фанат
 **Plural:** *fans*
 **Countability:** countable
 
-A device with turning blades that moves air.
+Fan has 2 distinct senses.
+
+**1. A device with turning blades that moves air.** (вентилятор)
 
 1. Turn the ceiling *fan* on.
 2. The *fan* barely moves the air in here.
 3. We ran two *fans* all night.
+
+**2. Someone who follows and supports a team, player, or sport.** (болельщик, фанат)
+
+4. I've been a *fan* since I was a kid.
+5. Thousands of *fans* showed up in the rain.
+6. He's a huge hockey *fan*.
 
 ---
 
@@ -466,15 +498,23 @@ A frame with rungs used for climbing.
 ### tape
 
 **Pronunciation:** /teɪp/ &middot; *TAYP*
-**Русский:** клейкая лента, скотч
+**Русский:** клейкая лента, скотч; лента, скотч
 **Plural:** *tapes*
 **Countability:** both — countable and uncountable with different meanings
 
-Sticky material sold in rolls; a tape is also a cassette recording.
+Tape has 2 distinct senses.
+
+**1. Sticky material sold in rolls; a tape is also a cassette recording.** (клейкая лента, скотч)
 
 1. Hand me the *tape* — this box won't stay shut.
 2. He patched the hose with duct *tape*.
 3. She still has a box of old cassette *tapes*.
+
+**2. A narrow strip with glue on one side, used to stick or seal things.** (лента, скотч)
+
+4. Wrap the joint with plumber's *tape*.
+5. Hand me the roll of *tape*.
+6. I keep three kinds of *tape* in the drawer.
 
 ---
 
@@ -495,31 +535,53 @@ A sticky substance used to join things together.
 ### thread
 
 **Pronunciation:** /θrɛd/ &middot; *THRED*
-**Русский:** нитка, нить
+**Русский:** нитка, нить; резьба (винтовая); нить
 **Plural:** *threads*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** Rhymes with *red*, not with *reed*.
 
-A thin strand used for sewing.
+Thread has 2 distinct senses.
+
+**1. A thin strand used for sewing.** (нитка, нить)
 
 1. Do you have any black *thread*?
 2. A loose *thread* was hanging off his sleeve.
 3. She keeps spools of *thread* in an old tin.
+
+**2. The spiral ridge that runs around a screw or bolt.** (резьба (винтовая); нить)
+
+4. The *thread* on this bolt is stripped.
+5. Clean the *threads* before you screw it back in.
+6. Wrap the *thread* with tape so the joint doesn't leak.
 
 ---
 
 ### button
 
 **Pronunciation:** /ˈbʌtən/ &middot; *BUHT-uhn*
-**Русский:** пуговица; кнопка
+**Русский:** пуговица; кнопка; пуговица
 **Plural:** *buttons*
 **Countability:** countable
 
-A small disk that fastens clothing, or a control you press.
+Button has 3 distinct senses.
+
+**1. A small disk that fastens clothing, or a control you press.** (пуговица; кнопка)
 
 1. A *button* came off my shirt.
 2. He pressed the *button* on the microwave.
 3. She sewed the *buttons* back on.
+
+**2. A small round fastener that fits through a hole to hold a garment closed.** (пуговица)
+
+4. A *button* came off my shirt this morning.
+5. She sewed the *button* back on in two minutes.
+6. The coat has big wooden *buttons*.
+
+**3. A small disc sewn to clothing that fastens through a hole.** (пуговица)
+
+7. A *button* came off my coat on the way in.
+8. She sewed the *button* back on in two minutes.
+9. This shirt is missing two *buttons*.
 
 ---
 

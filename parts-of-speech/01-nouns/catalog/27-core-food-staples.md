@@ -164,31 +164,47 @@ A small dish served before the main course.
 ### course
 
 **Pronunciation:** /kɔːrs/ &middot; *KORS*
-**Русский:** блюдо (в составе обеда), подача
+**Русский:** блюдо (в составе обеда), подача; блюдо (в составе обеда: первое, второе)
 **Plural:** *courses*
 **Countability:** countable
 **Contrast:** Sounds exactly like coarse (грубый) — only the spelling differs.
 
-One of the separate parts of a meal, served one after another.
+Course has 2 distinct senses.
+
+**1. One of the separate parts of a meal, served one after another.** (блюдо (в составе обеда), подача)
 
 1. The main *course* was salmon.
 2. Dinner was three *courses* and took two hours.
 3. Soup came first, then the fish *course*.
+
+**2. One part of a meal served separately from the others.** (блюдо (в составе обеда: первое, второе))
+
+4. The main *course* was salmon.
+5. Dinner was five *courses* and took three hours.
+6. We skipped the dessert *course*.
 
 ---
 
 ### dish
 
 **Pronunciation:** /dɪʃ/ &middot; *DISH*
-**Русский:** блюдо (кушанье)
+**Русский:** блюдо (кушанье); тарелка, блюдо
 **Plural:** *dishes*
 **Countability:** countable
 
-A particular kind of prepared food.
+Dish has 2 distinct senses.
+
+**1. A particular kind of prepared food.** (блюдо (кушанье))
 
 1. Lasagna is her signature *dish*.
 2. Each of us brought a *dish* to the potluck.
 3. The menu has a few vegetarian *dishes*.
+
+**2. A shallow container for serving or eating food.** (тарелка, блюдо)
+
+4. Whose turn is it to do the *dishes*?
+5. He served the pasta in a shallow *dish*.
+6. Just leave the *dish* to soak.
 
 ---
 
@@ -319,15 +335,23 @@ Cooked food bought at a restaurant to eat somewhere else.
 ### staple
 
 **Pronunciation:** /ˈsteɪpl/ &middot; *STAY-puhl*
-**Русский:** основной продукт питания
+**Русский:** основной продукт питания; скоба (крепёжная)
 **Plural:** *staples*
 **Countability:** countable
 
-A basic food that people eat regularly and depend on.
+Staple has 2 distinct senses.
+
+**1. A basic food that people eat regularly and depend on.** (основной продукт питания)
 
 1. Rice is a *staple* in half the world.
 2. Bread and potatoes were the *staples* of his childhood.
 3. Beans are a cheap *staple*.
+
+**2. A short U-shaped piece of wire driven in to hold something down.** (скоба (крепёжная))
+
+4. The wire is held down with a *staple*.
+5. He drove a *staple* right through the cable.
+6. Use fence *staples* to hold the wire to the post.
 
 ---
 
@@ -352,11 +376,19 @@ A powder made by grinding grain, used for baking.
 **Русский:** пшеница
 **Countability:** uncountable
 
-A grain used to make most bread and pasta.
+Wheat has 2 distinct senses.
+
+**1. A grain used to make most bread and pasta.** (пшеница)
 
 1. This bread is made from whole *wheat*.
 2. *Wheat* prices went up again.
 3. She can't eat *wheat*.
+
+**2. A grass grown for its grain, which is ground into flour.** (пшеница)
+
+4. Miles of *wheat* on both sides of the highway.
+5. The *wheat* came in early this year.
+6. This bread is half *wheat* and half rye.
 
 ---
 
@@ -484,15 +516,23 @@ A living substance used to make bread rise.
 ### dough
 
 **Pronunciation:** /doʊ/ &middot; *DOH*
-**Русский:** тесто
+**Русский:** тесто; тесто (густое)
 **Countability:** uncountable
 **Contrast:** The ough is a plain OH — DOH, exactly like doe.
 
-A thick mixture of flour and liquid that is baked into bread.
+Dough has 2 distinct senses.
+
+**1. A thick mixture of flour and liquid that is baked into bread.** (тесто)
 
 1. Let the *dough* rise for an hour.
 2. The *dough* was too sticky to work with.
 3. She rolled the *dough* into a ball.
+
+**2. A thick mixture of flour and liquid, kneaded before baking.** (тесто (густое))
+
+4. Let the *dough* rise for an hour.
+5. The *dough* is too sticky — add a little more flour.
+6. She rolled the *dough* out thin.
 
 ---
 
@@ -513,15 +553,23 @@ A thin liquid mixture of flour, eggs, and milk used for frying or baking.
 ### toast
 
 **Pronunciation:** /toʊst/ &middot; *TOHST*
-**Русский:** тост, поджаренный хлеб
+**Русский:** тост, поджаренный хлеб; тост (за здоровье)
 **Countability:** uncountable
 **Contrast:** Uncountable — a piece of toast, never a toast. A toast means тост-здравица.
 
-Bread that has been browned by heat.
+Toast has 2 distinct senses.
+
+**1. Bread that has been browned by heat.** (тост, поджаренный хлеб)
 
 1. Two slices of *toast*, please.
 2. The *toast* burned while I was on the phone.
 3. She had *toast* with jam for breakfast.
+
+**2. A short speech made before everyone drinks together.** (тост (за здоровье))
+
+4. Her brother gave the *toast* at the wedding.
+5. Let's raise a glass and make a *toast*.
+6. There were three *toasts* before the food came out.
 
 ---
 
@@ -807,11 +855,19 @@ A solid food made from milk.
 **Plural:** *eggs*
 **Countability:** countable
 
-The oval object laid by a hen, eaten as food.
+Egg has 2 distinct senses.
+
+**1. The oval object laid by a hen, eaten as food.** (яйцо)
 
 1. How do you want your *eggs*?
 2. The recipe calls for two *eggs*.
 3. He cracked an *egg* into the pan.
+
+**2. The round object with a shell that a bird lays and a chick grows inside.** (яйцо)
+
+4. The hen laid an *egg* in the corner of the coop.
+5. There were four blue *eggs* in the nest.
+6. The *egg* hatched sometime overnight.
 
 ---
 
@@ -1011,11 +1067,19 @@ A sour liquid used in cooking and in salad dressing.
 **Plural:** *spices*
 **Countability:** countable, and uncountable as a substance
 
-A strong-tasting dried part of a plant used to flavor food.
+Spice has 2 distinct senses.
+
+**1. A strong-tasting dried part of a plant used to flavor food.** (специя, пряность)
 
 1. The *spices* are in the cabinet by the stove.
 2. Cinnamon is my favorite *spice*.
 3. This curry has too much *spice* for me.
+
+**2. A strongly flavored substance from a plant, used in cooking.** (специя, пряность)
+
+4. Add the *spices* and let them toast for a minute.
+5. Cinnamon is the only *spice* in it.
+6. There's not enough *spice* in this.
 
 ---
 
@@ -1052,15 +1116,24 @@ A sweet brown spice made from tree bark.
 ### pepper
 
 **Pronunciation:** /ˈpɛpər/ &middot; *PEP-ur*
-**Русский:** перец
+**Русский:** перец; перец (стручковый; молотый)
 **Plural:** *peppers*
 **Countability:** both — countable and uncountable with different meanings
+**Contrast:** Countable as the vegetable (two peppers), uncountable as the spice (some pepper).
 
-A hot-tasting powder used to season food, or a hollow vegetable of the same name.
+Pepper has 2 distinct senses.
+
+**1. A hot-tasting powder used to season food, or a hollow vegetable of the same name.** (перец)
 
 1. Add salt and *pepper* to taste.
 2. She stuffed three *peppers* with rice.
 3. There's too much *pepper* in this soup.
+
+**2. A hollow vegetable in green, red, or yellow, or the ground spice made from dried berries.** (перец (стручковый; молотый))
+
+4. Add salt and *pepper* to taste.
+5. Stuff the *peppers* with rice and beans.
+6. That green *pepper* has gone soft.
 
 ---
 
@@ -1081,16 +1154,24 @@ Salt, pepper, herbs, or spices added to food for flavor.
 ### flavor
 
 **Pronunciation:** /ˈfleɪvər/ &middot; *FLAY-vur*
-**Русский:** вкус, привкус
+**Русский:** вкус, привкус; вкус, привкус; сорт (мороженого и т. п.)
 **Plural:** *flavors*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** American spelling flavor; British flavour.
 
-The particular taste of a food or drink.
+Flavor has 2 distinct senses.
+
+**1. The particular taste of a food or drink.** (вкус, привкус)
 
 1. This soup has no *flavor* at all.
 2. They have thirty-one *flavors* of ice cream.
 3. The *flavor* gets stronger as it sits.
+
+**2. How something tastes, or one variety of a food sold in several tastes.** (вкус, привкус; сорт (мороженого и т. п.))
+
+4. This sauce has no *flavor* at all.
+5. They had twelve *flavors* of ice cream.
+6. Roasting brings out the *flavor* of the vegetables.
 
 ---
 
@@ -1116,11 +1197,19 @@ The food put inside a pie, sandwich, or pastry.
 **Countability:** uncountable
 **Contrast:** Uncountable, and the animal has a different name: cow for the animal, beef for the meat.
 
-Meat from a cow.
+Beef has 2 distinct senses.
+
+**1. Meat from a cow.** (говядина)
 
 1. This stew takes about two pounds of *beef*.
 2. Ground *beef* is cheaper this week.
 3. He gave up *beef* years ago.
+
+**2. The meat of a cow, bull, or steer.** (говядина)
+
+4. We grill *beef* about once a week in the summer.
+5. This stew tastes better with *beef* than with chicken.
+6. The price of *beef* has gone up again.
 
 ---
 
@@ -1204,6 +1293,7 @@ A thick flat piece of meat, usually beef, cut for grilling or frying.
 **Русский:** индейка
 **Plural:** *turkeys*
 **Countability:** countable, and uncountable as food
+**Contrast:** The bird is lowercase *turkey*; capital-T Turkey is the country.
 
 A large bird raised for food, and its meat.
 
@@ -1231,15 +1321,23 @@ Fish and shellfish eaten as food.
 ### roast
 
 **Pronunciation:** /roʊst/ &middot; *ROHST*
-**Русский:** жаркое, запечённое мясо
+**Русский:** жаркое, запечённое мясо; обжарка (кофе), степень обжарки
 **Plural:** *roasts*
 **Countability:** countable
 
-A large piece of meat cooked in an oven.
+Roast has 2 distinct senses.
+
+**1. A large piece of meat cooked in an oven.** (жаркое, запечённое мясо)
 
 1. She put a *roast* in the oven at noon.
 2. The *roast* came out perfectly.
 3. Sunday *roasts* were a family tradition.
+
+**2. Coffee described by how long the beans were roasted.** (обжарка (кофе), степень обжарки)
+
+4. I usually buy a medium *roast*.
+5. They sell three *roasts*, from light to French.
+6. This dark *roast* is way too bitter for me.
 
 ---
 
@@ -1326,11 +1424,19 @@ A dish of meat and vegetables cooked slowly in liquid.
 **Русский:** бульон
 **Countability:** uncountable
 
-A thin soup made by boiling meat, fish, or vegetables in water.
+Broth has 2 distinct senses.
+
+**1. A thin soup made by boiling meat, fish, or vegetables in water.** (бульон)
 
 1. Simmer the rice in chicken *broth*.
 2. He lived on *broth* for a week after surgery.
 3. The *broth* was salty but good.
+
+**2. A thin savory liquid made by simmering meat or vegetables.** (бульон)
+
+4. Simmer the vegetables in chicken *broth*.
+5. Add a little more *broth* if it gets too thick.
+6. The store-bought *broths* are all too salty.
 
 ---
 
@@ -1371,6 +1477,7 @@ Beaten eggs cooked flat in a pan and folded over a filling.
 **Русский:** барбекю; мясо на гриле
 **Plural:** *barbecues*
 **Countability:** both — countable and uncountable with different meanings
+**Contrast:** The event is countable (two barbecues); the food is uncountable (some barbecue). Also spelled barbeque or BBQ.
 
 Meat cooked slowly over fire or smoke, or the outdoor party where it is served.
 
@@ -1548,15 +1655,23 @@ A strong-smelling bulb used in cooking.
 ### bean
 
 **Pronunciation:** /biːn/ &middot; *BEEN*
-**Русский:** боб, фасоль
+**Русский:** боб, фасоль; фасолина, боб; мн. фасоль
 **Plural:** *beans*
 **Countability:** countable
 
-The edible seed of certain plants, eaten as a vegetable.
+Bean has 2 distinct senses.
+
+**1. The edible seed of certain plants, eaten as a vegetable.** (боб, фасоль)
 
 1. Soak the *beans* overnight.
 2. The chili has three kinds of *beans*.
 3. He ate rice and *beans* every day.
+
+**2. A seed from a pod, eaten as food, or the pod itself.** (фасолина, боб; мн. фасоль)
+
+4. Soak the *beans* overnight.
+5. Rice and *beans* is a whole meal.
+6. One *bean* rolled off the counter.
 
 ---
 
@@ -1593,15 +1708,23 @@ A small flat dried seed cooked as food.
 ### nut
 
 **Pronunciation:** /nʌt/ &middot; *NUHT*
-**Русский:** орех
+**Русский:** орех; гайка
 **Plural:** *nuts*
 **Countability:** countable
 
-A dry fruit with a hard shell and an edible kernel inside.
+Nut has 2 distinct senses.
+
+**1. A dry fruit with a hard shell and an edible kernel inside.** (орех)
 
 1. She's allergic to *nuts*.
 2. There are mixed *nuts* on the counter.
 3. He cracked a *nut* with his teeth.
+
+**2. A small metal block with a threaded hole that screws onto a bolt.** (гайка)
+
+4. The *nut* came loose and the whole thing wobbled.
+5. Hold the *nut* with pliers while you turn the bolt.
+6. Don't overtighten those *nuts*.
 
 ---
 
@@ -1795,11 +1918,19 @@ A drink made from pressed apples.
 **Plural:** *smoothies*
 **Countability:** countable
 
-A thick cold drink made from blended fruit.
+Smoothie has 2 distinct senses.
+
+**1. A thick cold drink made from blended fruit.** (смузи)
 
 1. She makes a *smoothie* every morning.
 2. The banana *smoothie* is the best one.
 3. They sell *smoothies* at the gym.
+
+**2. A thick blended drink of fruit with ice, yogurt, or juice.** (смузи)
+
+4. She makes a *smoothie* with frozen berries every morning.
+5. The gym sells protein *smoothies* at the counter.
+6. This *smoothie* is more banana than anything else.
 
 ---
 
@@ -1852,12 +1983,20 @@ A substance in food such as meat, beans, and eggs that the body needs to build t
 ### fiber
 
 **Pronunciation:** /ˈfaɪbər/ &middot; *FY-bur*
-**Русский:** клетчатка
+**Русский:** клетчатка; волокно; клетчатка
 **Countability:** uncountable
 **Contrast:** American spelling fiber; British fibre. Both are said FY-bur.
 
-The part of plant food that the body cannot digest but needs.
+Fiber has 2 distinct senses.
+
+**1. The part of plant food that the body cannot digest but needs.** (клетчатка)
 
 1. Beans are high in *fiber*.
 2. He needs more *fiber* in his diet.
 3. The cereal box brags about its *fiber*.
+
+**2. A thin thread of natural or artificial material, or the part of food that aids digestion.** (волокно; клетчатка)
+
+4. Carpet *fibers* turned up on the suspect's jacket.
+5. Beans are high in *fiber*.
+6. The rope is made of natural *fiber*.

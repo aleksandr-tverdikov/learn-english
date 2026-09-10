@@ -52,14 +52,43 @@
       "term": "lighting",
       "ipa": "/ˈlaɪtɪŋ/",
       "respell": "LY-ting",
-      "meaning": "The light in a room and the equipment that provides it. ---",
+      "meaning": "Lighting has 2 distinct senses.",
       "examples": [
         "The lighting in that restaurant is way too dim.",
         "Good lighting makes a small room feel bigger.",
-        "We spent most of the budget on lighting."
+        "We spent most of the budget on lighting.",
+        "The lighting in the final scene is almost blue.",
+        "We spent the whole day working on lighting.",
+        "Bad lighting can ruin a good set."
       ],
-      "senses": [],
-      "русский": "освещение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The light in a room and the equipment that provides it",
+          "body": [
+            "(освещение)"
+          ],
+          "examples": [
+            "The lighting in that restaurant is way too dim.",
+            "Good lighting makes a small room feel bigger.",
+            "We spent most of the budget on lighting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The arrangement of lights used to light a stage or a room",
+          "body": [
+            "(освещение (сценическое))",
+            "---"
+          ],
+          "examples": [
+            "The lighting in the final scene is almost blue.",
+            "We spent the whole day working on lighting.",
+            "Bad lighting can ruin a good set."
+          ]
+        }
+      ],
+      "русский": "освещение; освещение (сценическое)",
       "countability": "uncountable",
       "contrast": "Uncountable: 'the lighting', never 'lightings'."
     },
@@ -82,13 +111,42 @@
       "term": "ceiling fan",
       "ipa": "/ˈsiːlɪŋ fæn/",
       "respell": "SEE-ling-fan",
-      "meaning": "A fan with blades that hangs from a ceiling and cools a room. ---",
+      "meaning": "Ceiling fan has 2 distinct senses.",
       "examples": [
         "Every bedroom in the house has a ceiling fan.",
         "The ceiling fan wobbles on the highest setting.",
-        "Ceiling fans are cheaper to run than air conditioning."
+        "Ceiling fans are cheaper to run than air conditioning.",
+        "The ceiling fan wobbles on the highest setting.",
+        "Run the ceiling fan in reverse in the winter.",
+        "There are ceiling fans in all three bedrooms."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fan with blades that hangs from a ceiling and cools a room",
+          "body": [
+            "(потолочный вентилятор)"
+          ],
+          "examples": [
+            "Every bedroom in the house has a ceiling fan.",
+            "The ceiling fan wobbles on the highest setting.",
+            "Ceiling fans are cheaper to run than air conditioning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fan mounted overhead that moves air around a room",
+          "body": [
+            "(потолочный вентилятор)",
+            "---"
+          ],
+          "examples": [
+            "The ceiling fan wobbles on the highest setting.",
+            "Run the ceiling fan in reverse in the winter.",
+            "There are ceiling fans in all three bedrooms."
+          ]
+        }
+      ],
       "русский": "потолочный вентилятор",
       "plural": "ceiling fans",
       "countability": "countable"
@@ -399,14 +457,43 @@
       "term": "riser",
       "ipa": "/ˈraɪzər/",
       "respell": "RY-zur",
-      "meaning": "The upright board between one stair and the next. ---",
+      "meaning": "Riser has 2 distinct senses.",
       "examples": [
         "Each riser is seven inches high.",
         "We painted the risers white and stained the treads.",
-        "One riser is cracked all the way through."
+        "One riser is cracked all the way through.",
+        "The riser runs up through all six floors.",
+        "They shut down the riser to fix the leak.",
+        "The old risers are being replaced one line at a time."
       ],
-      "senses": [],
-      "русский": "подступенок (вертикальная часть ступени)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The upright board between one stair and the next",
+          "body": [
+            "(подступенок (вертикальная часть ступени))"
+          ],
+          "examples": [
+            "Each riser is seven inches high.",
+            "We painted the risers white and stained the treads.",
+            "One riser is cracked all the way through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A vertical pipe that carries water or steam up through a building",
+          "body": [
+            "(стояк (вертикальная труба))",
+            "---"
+          ],
+          "examples": [
+            "The riser runs up through all six floors.",
+            "They shut down the riser to fix the leak.",
+            "The old risers are being replaced one line at a time."
+          ]
+        }
+      ],
+      "русский": "подступенок (вертикальная часть ступени); стояк (вертикальная труба)",
       "plural": "risers",
       "countability": "countable"
     },
@@ -444,14 +531,43 @@
       "term": "crawl space",
       "ipa": "/ˈkrɔːl speɪs/",
       "respell": "KRAWL-spays",
-      "meaning": "A low space under a floor or roof, tall enough only to crawl through. ---",
+      "meaning": "Crawl space has 2 distinct senses.",
       "examples": [
         "The pipes run through the crawl space.",
         "Something died in the crawl space under the porch.",
-        "Houses down here have crawl spaces instead of basements."
+        "Houses down here have crawl spaces instead of basements.",
+        "The pipes in the crawl space aren't insulated.",
+        "He crawled under the house to look at the crawl space.",
+        "Damp crawl spaces lead to mold upstairs."
       ],
-      "senses": [],
-      "русский": "подполье, техническое подпольное пространство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low space under a floor or roof, tall enough only to crawl through",
+          "body": [
+            "(подполье, техническое подпольное пространство)"
+          ],
+          "examples": [
+            "The pipes run through the crawl space.",
+            "Something died in the crawl space under the porch.",
+            "Houses down here have crawl spaces instead of basements."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The low space under a floor where pipes and ducts run",
+          "body": [
+            "(подполье, технический подпол)",
+            "---"
+          ],
+          "examples": [
+            "The pipes in the crawl space aren't insulated.",
+            "He crawled under the house to look at the crawl space.",
+            "Damp crawl spaces lead to mold upstairs."
+          ]
+        }
+      ],
+      "русский": "подполье, техническое подпольное пространство; подполье, технический подпол",
       "plural": "crawl spaces",
       "countability": "countable"
     },
@@ -1099,13 +1215,42 @@
       "term": "stencil",
       "ipa": "/ˈstɛnsəl/",
       "respell": "STEN-sul",
-      "meaning": "A cut-out sheet used to paint a repeated shape onto a surface. ---",
+      "meaning": "Stencil has 2 distinct senses.",
       "examples": [
         "She painted the border with a stencil.",
         "The stencil slipped and smeared the paint.",
-        "Stencils are an easy way to fake wallpaper."
+        "Stencils are an easy way to fake wallpaper.",
+        "The numbers were sprayed on with a stencil.",
+        "Cut a stencil out of cardboard.",
+        "The crates were marked with metal stencils."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cut-out sheet used to paint a repeated shape onto a surface",
+          "body": [
+            "(трафарет)"
+          ],
+          "examples": [
+            "She painted the border with a stencil.",
+            "The stencil slipped and smeared the paint.",
+            "Stencils are an easy way to fake wallpaper."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sheet with shapes cut out, used to print letters or designs through the holes",
+          "body": [
+            "(трафарет)",
+            "---"
+          ],
+          "examples": [
+            "The numbers were sprayed on with a stencil.",
+            "Cut a stencil out of cardboard.",
+            "The crates were marked with metal stencils."
+          ]
+        }
+      ],
       "русский": "трафарет",
       "plural": "stencils",
       "countability": "countable"
@@ -1923,16 +2068,46 @@
       "term": "mezzanine",
       "ipa": "/ˈmɛzəniːn/",
       "respell": "MEZ-uh-neen",
-      "meaning": "A low floor built between two main floors, often open to the space below. ---",
+      "meaning": "Mezzanine has 2 distinct senses.",
       "examples": [
         "The bar is up on the mezzanine.",
         "A mezzanine office overlooks the shop floor.",
-        "Mezzanines are cheap extra square footage."
+        "Mezzanines are cheap extra square footage.",
+        "We had seats in the front of the mezzanine.",
+        "Both mezzanines were nearly full.",
+        "The mezzanine has a better view than the back of the orchestra."
       ],
-      "senses": [],
-      "русский": "антресольный этаж, мезонин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low floor built between two main floors, often open to the space below",
+          "body": [
+            "(антресольный этаж, мезонин)"
+          ],
+          "examples": [
+            "The bar is up on the mezzanine.",
+            "A mezzanine office overlooks the shop floor.",
+            "Mezzanines are cheap extra square footage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The lowest balcony level of a theater, above the main floor",
+          "body": [
+            "(бельэтаж)",
+            "---"
+          ],
+          "examples": [
+            "We had seats in the front of the mezzanine.",
+            "Both mezzanines were nearly full.",
+            "The mezzanine has a better view than the back of the orchestra."
+          ]
+        }
+      ],
+      "русский": "антресольный этаж, мезонин; бельэтаж",
       "plural": "mezzanines",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American theaters say mezzanine; British ones call the same level the dress circle."
     },
     {
       "term": "annex",

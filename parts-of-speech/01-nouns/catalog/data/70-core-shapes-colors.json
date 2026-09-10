@@ -414,14 +414,43 @@
       "term": "coil",
       "ipa": "/kɔɪl/",
       "respell": "KOYL",
-      "meaning": "A length of something wound into a series of rings. ---",
+      "meaning": "Coil has 2 distinct senses.",
       "examples": [
         "A coil of rope hung by the door.",
         "The heating coils glowed red.",
-        "He unwound the coil of wire."
+        "He unwound the coil of wire.",
+        "The coil in the ignition had gone bad.",
+        "Copper coils surround the iron core.",
+        "Heat from the coil warms the water."
       ],
-      "senses": [],
-      "русский": "виток, моток (спираль)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A length of something wound into a series of rings",
+          "body": [
+            "(виток, моток (спираль))"
+          ],
+          "examples": [
+            "A coil of rope hung by the door.",
+            "The heating coils glowed red.",
+            "He unwound the coil of wire."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Wire wound into loops so that it makes or responds to a magnetic field",
+          "body": [
+            "(катушка (провода))",
+            "---"
+          ],
+          "examples": [
+            "The coil in the ignition had gone bad.",
+            "Copper coils surround the iron core.",
+            "Heat from the coil warms the water."
+          ]
+        }
+      ],
+      "русский": "виток, моток (спираль); катушка (провода)",
       "plural": "coils",
       "countability": "countable"
     },
@@ -504,14 +533,43 @@
       "term": "grid",
       "ipa": "/ɡrɪd/",
       "respell": "GRID",
-      "meaning": "A pattern of straight lines crossing to form squares. ---",
+      "meaning": "Grid has 2 distinct senses.",
       "examples": [
         "The city is laid out on a grid.",
         "Draw a grid of nine squares.",
-        "Photos are arranged in neat grids on the page."
+        "Photos are arranged in neat grids on the page.",
+        "The heat wave pushed the grid to its limit.",
+        "Their cabin is off the grid entirely.",
+        "Texas runs its own grid, separate from the rest of the country."
       ],
-      "senses": [],
-      "русский": "сетка, решётка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pattern of straight lines crossing to form squares",
+          "body": [
+            "(сетка, решётка)"
+          ],
+          "examples": [
+            "The city is laid out on a grid.",
+            "Draw a grid of nine squares.",
+            "Photos are arranged in neat grids on the page."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The network of lines and stations that carries electricity across a region",
+          "body": [
+            "(энергосистема, электросеть)",
+            "---"
+          ],
+          "examples": [
+            "The heat wave pushed the grid to its limit.",
+            "Their cabin is off the grid entirely.",
+            "Texas runs its own grid, separate from the rest of the country."
+          ]
+        }
+      ],
+      "русский": "сетка, решётка; энергосистема, электросеть",
       "plural": "grids",
       "countability": "countable"
     },
@@ -549,14 +607,43 @@
       "term": "crease",
       "ipa": "/kriːs/",
       "respell": "KREESS",
-      "meaning": "A line made in cloth or paper by folding or crushing it. ---",
+      "meaning": "Crease has 2 distinct senses.",
       "examples": [
         "Iron the crease out of the shirt.",
         "The map has a crease right across the city.",
-        "His pants had sharp creases down the front."
+        "His pants had sharp creases down the front.",
+        "His trousers had a knife-sharp crease.",
+        "The shirt came out of the suitcase full of creases.",
+        "Iron the crease back in."
       ],
-      "senses": [],
-      "русский": "складка, залом, сгиб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line made in cloth or paper by folding or crushing it",
+          "body": [
+            "(складка, залом, сгиб)"
+          ],
+          "examples": [
+            "Iron the crease out of the shirt.",
+            "The map has a crease right across the city.",
+            "His pants had sharp creases down the front."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp line pressed into cloth, either on purpose or by accident",
+          "body": [
+            "(складка; стрелка (на брюках))",
+            "---"
+          ],
+          "examples": [
+            "His trousers had a knife-sharp crease.",
+            "The shirt came out of the suitcase full of creases.",
+            "Iron the crease back in."
+          ]
+        }
+      ],
+      "русский": "складка, залом, сгиб; складка; стрелка (на брюках)",
       "plural": "creases",
       "countability": "countable"
     },
@@ -654,14 +741,43 @@
       "term": "pattern",
       "ipa": "/ˈpætərn/",
       "respell": "PAT-urn",
-      "meaning": "A design of shapes or colors that repeats. ---",
+      "meaning": "Pattern has 2 distinct senses.",
       "examples": [
         "The wallpaper has a floral pattern.",
         "I like the tile, but not the pattern.",
-        "The store sells fabric in dozens of patterns."
+        "The store sells fabric in dozens of patterns.",
+        "Pin the pattern to the fabric before you cut.",
+        "She bought a pattern for a summer dress.",
+        "The two fabrics have very similar patterns."
       ],
-      "senses": [],
-      "русский": "узор, рисунок (на ткани)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A design of shapes or colors that repeats",
+          "body": [
+            "(узор, рисунок (на ткани))"
+          ],
+          "examples": [
+            "The wallpaper has a floral pattern.",
+            "I like the tile, but not the pattern.",
+            "The store sells fabric in dozens of patterns."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A paper shape used to cut out the pieces of a garment, or a design on cloth",
+          "body": [
+            "(выкройка; узор)",
+            "---"
+          ],
+          "examples": [
+            "Pin the pattern to the fabric before you cut.",
+            "She bought a pattern for a summer dress.",
+            "The two fabrics have very similar patterns."
+          ]
+        }
+      ],
+      "русский": "узор, рисунок (на ткани); выкройка; узор",
       "plural": "patterns",
       "countability": "countable"
     },
@@ -669,14 +785,43 @@
       "term": "plaid",
       "ipa": "/plæd/",
       "respell": "PLAD",
-      "meaning": "A pattern of crossing colored stripes forming squares. ---",
+      "meaning": "Plaid has 2 distinct senses.",
       "examples": [
         "He always wears a red flannel plaid.",
         "The blanket is a soft green plaid.",
-        "The store had plaids in every color."
+        "The store had plaids in every color.",
+        "Every guy in the room had on a plaid shirt.",
+        "She bought two yards of green plaid.",
+        "The store was full of loud plaids."
       ],
-      "senses": [],
-      "русский": "шотландка, клетчатый узор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A pattern of crossing colored stripes forming squares",
+          "body": [
+            "(шотландка, клетчатый узор)"
+          ],
+          "examples": [
+            "He always wears a red flannel plaid.",
+            "The blanket is a soft green plaid.",
+            "The store had plaids in every color."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Cloth woven with crossing bands of color in a checked pattern",
+          "body": [
+            "(клетчатая ткань, шотландка)",
+            "---"
+          ],
+          "examples": [
+            "Every guy in the room had on a plaid shirt.",
+            "She bought two yards of green plaid.",
+            "The store was full of loud plaids."
+          ]
+        }
+      ],
+      "русский": "шотландка, клетчатый узор; клетчатая ткань, шотландка",
       "plural": "plaids",
       "countability": "countable",
       "contrast": "Spelled with ai but pronounced PLAD, rhyming with sad."
@@ -1075,14 +1220,43 @@
       "term": "khaki",
       "ipa": "/ˈkæki/",
       "respell": "KAK-ee",
-      "meaning": "A dull yellowish brown, often used for uniforms and pants. ---",
+      "meaning": "Khaki has 2 distinct senses.",
       "examples": [
         "He showed up in khaki and a polo shirt.",
         "The tent is khaki so it blends in.",
-        "I keep two pairs of khakis for work."
+        "I keep two pairs of khakis for work.",
+        "The uniform was plain khaki.",
+        "He wore khakis and a blue blazer.",
+        "My khakis need to go to the cleaners."
       ],
-      "senses": [],
-      "русский": "хаки (жёлто-коричневый цвет)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dull yellowish brown, often used for uniforms and pants",
+          "body": [
+            "(хаки (жёлто-коричневый цвет))"
+          ],
+          "examples": [
+            "He showed up in khaki and a polo shirt.",
+            "The tent is khaki so it blends in.",
+            "I keep two pairs of khakis for work."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dull yellowish-brown cotton cloth, or in the plural, pants made from it",
+          "body": [
+            "(хаки (ткань и цвет); мн. ч. брюки цвета хаки)",
+            "---"
+          ],
+          "examples": [
+            "The uniform was plain khaki.",
+            "He wore khakis and a blue blazer.",
+            "My khakis need to go to the cleaners."
+          ]
+        }
+      ],
+      "русский": "хаки (жёлто-коричневый цвет); хаки (ткань и цвет); мн. ч. брюки цвета хаки",
       "plural": "khakis",
       "countability": "countable",
       "contrast": "Americans say KAK-ee; the British say KAH-kee. In the plural, khakis usually means khaki pants."
@@ -1251,14 +1425,43 @@
       "term": "luster",
       "ipa": "/ˈlʌstər/",
       "respell": "LUS-tur",
-      "meaning": "The soft glowing shine of something like a pearl or polished metal. ---",
+      "meaning": "Luster has 2 distinct senses.",
       "examples": [
         "The old coins have lost their luster.",
         "Real pearls have a deep luster.",
-        "The conditioner brings back the hair's luster."
+        "The conditioner brings back the hair's luster.",
+        "Silk has a luster that polyester can't match.",
+        "The fabric loses its luster after a few washes.",
+        "Mercerized cotton has more luster."
       ],
-      "senses": [],
-      "русский": "блеск, лоск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The soft glowing shine of something like a pearl or polished metal",
+          "body": [
+            "(блеск, лоск)"
+          ],
+          "examples": [
+            "The old coins have lost their luster.",
+            "Real pearls have a deep luster.",
+            "The conditioner brings back the hair's luster."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft shine on the surface of a fabric or fiber",
+          "body": [
+            "(блеск, лоск (ткани))",
+            "---"
+          ],
+          "examples": [
+            "Silk has a luster that polyester can't match.",
+            "The fabric loses its luster after a few washes.",
+            "Mercerized cotton has more luster."
+          ]
+        }
+      ],
+      "русский": "блеск, лоск; блеск, лоск (ткани)",
       "countability": "uncountable",
       "contrast": "American spelling; the British write lustre."
     },
@@ -1576,14 +1779,43 @@
       "term": "braid",
       "ipa": "/breɪd/",
       "respell": "BRAYD",
-      "meaning": "Hair divided into three parts and woven together. ---",
+      "meaning": "Braid has 2 distinct senses.",
       "examples": [
         "She wears her hair in a long braid.",
         "Mom put my hair in two braids for school.",
-        "The braid came loose during practice."
+        "The braid came loose during practice.",
+        "The uniform had gold braid on the cuffs.",
+        "She wore her hair in two braids.",
+        "Sew the braid along the hem."
       ],
-      "senses": [],
-      "русский": "коса (причёска)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hair divided into three parts and woven together",
+          "body": [
+            "(коса (причёска))"
+          ],
+          "examples": [
+            "She wears her hair in a long braid.",
+            "Mom put my hair in two braids for school.",
+            "The braid came loose during practice."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Narrow woven trim sewn onto clothing, or a length of hair plaited together",
+          "body": [
+            "(тесьма, галун; коса)",
+            "---"
+          ],
+          "examples": [
+            "The uniform had gold braid on the cuffs.",
+            "She wore her hair in two braids.",
+            "Sew the braid along the hem."
+          ]
+        }
+      ],
+      "русский": "коса (причёска); тесьма, галун; коса",
       "plural": "braids",
       "countability": "countable",
       "contrast": "Americans say braid; the British usually say plait, pronounced PLAT."

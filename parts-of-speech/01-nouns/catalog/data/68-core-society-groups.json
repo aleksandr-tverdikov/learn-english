@@ -296,14 +296,43 @@
       "term": "party",
       "ipa": "/ˈpɑːrti/",
       "respell": "PAR-tee",
-      "meaning": "An organized political group, or a group of people acting together. ---",
+      "meaning": "Party has 2 distinct senses.",
       "examples": [
         "Neither party wanted an early election.",
         "A search party went out at dawn.",
-        "Both parties signed the agreement."
+        "Both parties signed the agreement.",
+        "We're having a party Saturday night — you should come.",
+        "His birthday parties were legendary in the neighborhood.",
+        "The party went on until two in the morning."
       ],
-      "senses": [],
-      "русский": "партия (политическая); группа людей",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized political group, or a group of people acting together",
+          "body": [
+            "(партия (политическая); группа людей)"
+          ],
+          "examples": [
+            "Neither party wanted an early election.",
+            "A search party went out at dawn.",
+            "Both parties signed the agreement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A social event where people gather to eat, drink, talk, and enjoy themselves",
+          "body": [
+            "(вечеринка)",
+            "---"
+          ],
+          "examples": [
+            "We're having a party Saturday night — you should come.",
+            "His birthday parties were legendary in the neighborhood.",
+            "The party went on until two in the morning."
+          ]
+        }
+      ],
+      "русский": "партия (политическая); группа людей; вечеринка",
       "plural": "parties",
       "countability": "countable"
     },
@@ -923,14 +952,43 @@
       "term": "marriage",
       "ipa": "/ˈmɛrɪdʒ/",
       "respell": "MEH-rij",
-      "meaning": "The legal union of two people, or the institution of being married. ---",
+      "meaning": "Marriage has 2 distinct senses.",
       "examples": [
         "Their marriage lasted forty years.",
         "Marriage rates have fallen since the nineties.",
-        "It was her second marriage."
+        "It was her second marriage.",
+        "It was a long and happy marriage.",
+        "Both of his marriages ended in divorce.",
+        "They're celebrating forty years of marriage."
       ],
-      "senses": [],
-      "русский": "брак; женитьба, замужество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal union of two people, or the institution of being married",
+          "body": [
+            "(брак; женитьба, замужество)"
+          ],
+          "examples": [
+            "Their marriage lasted forty years.",
+            "Marriage rates have fallen since the nineties.",
+            "It was her second marriage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The legal relationship between two people who are married",
+          "body": [
+            "(брак, супружество)",
+            "---"
+          ],
+          "examples": [
+            "It was a long and happy marriage.",
+            "Both of his marriages ended in divorce.",
+            "They're celebrating forty years of marriage."
+          ]
+        }
+      ],
+      "русский": "брак; женитьба, замужество; брак, супружество",
       "plural": "marriages",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1403,13 +1461,42 @@
       "term": "custom",
       "ipa": "/ˈkʌstəm/",
       "respell": "KUS-tum",
-      "meaning": "A way of behaving that is usual among a particular group of people. ---",
+      "meaning": "Custom has 2 distinct senses.",
       "examples": [
         "Shaking hands is an old custom.",
         "Local customs vary from valley to valley.",
-        "It is the custom here to bring a dish."
+        "It is the custom here to bring a dish.",
+        "Throwing rice at the couple is an old custom.",
+        "Wedding customs differ a lot from region to region.",
+        "It's the custom here to bring food to a grieving family."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A way of behaving that is usual among a particular group of people",
+          "body": [
+            "(обычай)"
+          ],
+          "examples": [
+            "Shaking hands is an old custom.",
+            "Local customs vary from valley to valley.",
+            "It is the custom here to bring a dish."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A way of doing something that a group of people has followed for a long time",
+          "body": [
+            "(обычай)",
+            "---"
+          ],
+          "examples": [
+            "Throwing rice at the couple is an old custom.",
+            "Wedding customs differ a lot from region to region.",
+            "It's the custom here to bring food to a grieving family."
+          ]
+        }
+      ],
       "русский": "обычай",
       "plural": "customs",
       "countability": "countable",
@@ -1785,13 +1872,42 @@
       "term": "reunion",
       "ipa": "/riːˈjuːnjən/",
       "respell": "ree-YOON-yun",
-      "meaning": "A social event where people who have not met in a long time come together. ---",
+      "meaning": "Reunion has 2 distinct senses.",
       "examples": [
         "Our twentieth high school reunion is next fall.",
         "Family reunions fill the campground every July.",
-        "He skipped the reunion on purpose."
+        "He skipped the reunion on purpose.",
+        "Our twentieth high school reunion is in October.",
+        "The family reunion draws about sixty people.",
+        "They've held reunions at the same lake since 1978."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A social event where people who have not met in a long time come together",
+          "body": [
+            "(встреча (выпускников, родственников))"
+          ],
+          "examples": [
+            "Our twentieth high school reunion is next fall.",
+            "Family reunions fill the campground every July.",
+            "He skipped the reunion on purpose."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A gathering of people who have not seen each other for a long time",
+          "body": [
+            "(встреча (выпускников, родственников))",
+            "---"
+          ],
+          "examples": [
+            "Our twentieth high school reunion is in October.",
+            "The family reunion draws about sixty people.",
+            "They've held reunions at the same lake since 1978."
+          ]
+        }
+      ],
       "русский": "встреча (выпускников, родственников)",
       "plural": "reunions",
       "countability": "countable"

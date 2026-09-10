@@ -214,6 +214,7 @@ A fee charged at the door of a bar or club on top of food and drinks.
 **Русский:** кассовый аппарат, касса
 **Plural:** *cash registers*
 **Countability:** countable
+**Contrast:** British speakers usually say 'till'.
 
 The machine that records sales and holds the money.
 
@@ -729,15 +730,23 @@ A cheap, plain diner serving fried food.
 ### truck stop
 
 **Pronunciation:** /ˈtrʌk stɑːp/ &middot; *TRUK-stahp*
-**Русский:** придорожная закусочная (для дальнобойщиков)
+**Русский:** придорожная закусочная (для дальнобойщиков); стоянка для дальнобойщиков
 **Plural:** *truck stops*
 **Countability:** countable
 
-A roadside place where drivers eat, refuel, and rest.
+Truck stop has 2 distinct senses.
+
+**1. A roadside place where drivers eat, refuel, and rest.** (придорожная закусочная (для дальнобойщиков))
 
 1. We had pie at a *truck stop* in Nebraska.
 2. The *truck stop* is open all night.
 3. *Truck stops* usually have showers and a full diner.
+
+**2. A large highway stop with fuel, food and showers, used mainly by truck drivers.** (стоянка для дальнобойщиков)
+
+4. We ate breakfast at a *truck stop* off I-80.
+5. The best *truck stops* have showers and a laundry.
+6. He filled up at the *truck stop* and kept going.
 
 ---
 
@@ -912,11 +921,19 @@ A restaurant where you park and eat in your car.
 **Plural:** *delivery fees*
 **Countability:** countable
 
-The extra charge for bringing an order to your door.
+Delivery fee has 2 distinct senses.
+
+**1. The extra charge for bringing an order to your door.** (плата за доставку)
 
 1. The *delivery fee* is almost as much as the food.
 2. They waive the *delivery fee* on orders over thirty dollars.
 3. App *delivery fees* have gotten out of hand.
+
+**2. Money charged for bringing goods to the buyer.** (плата за доставку)
+
+4. There's a five-dollar *delivery fee* on grocery orders.
+5. The *delivery fees* add up fast.
+6. They waived the *delivery fee* because the food was late.
 
 ---
 
@@ -1651,15 +1668,23 @@ An alcoholic drink taken before a meal to sharpen the appetite.
 ### booster seat
 
 **Pronunciation:** /ˈbuːstər siːt/ &middot; *BOO-stur-seet*
-**Русский:** детское сиденье-подкладка (на стул)
+**Русский:** детское сиденье-подкладка (на стул); детское сиденье-бустер
 **Plural:** *booster seats*
 **Countability:** countable
 
-A seat that raises a small child up to table height.
+Booster seat has 2 distinct senses.
+
+**1. A seat that raises a small child up to table height.** (детское сиденье-подкладка (на стул))
 
 1. Could we get a *booster seat* for her?
 2. The *booster seat* straps onto a regular chair.
 3. They keep *booster seats* stacked by the front door.
+
+**2. A cushion seat that lifts an older child so the seat belt fits.** (детское сиденье-бустер)
+
+4. She moved out of the car seat and into a *booster seat*.
+5. The restaurant brought a *booster seat* to the table.
+6. We keep two *booster seats* in the trunk.
 
 ---
 
@@ -1928,11 +1953,19 @@ A small paper envelope of sugar for coffee or tea.
 **Plural:** *toothpicks*
 **Countability:** countable
 
-A thin pointed stick for cleaning between the teeth or spearing food.
+Toothpick has 2 distinct senses.
+
+**1. A thin pointed stick for cleaning between the teeth or spearing food.** (зубочистка)
 
 1. There's a *toothpick* holding the sandwich together.
 2. He grabbed a *toothpick* on his way out.
 3. The olives came on little *toothpicks*.
+
+**2. A small pointed stick for getting food out from between the teeth.** (зубочистка)
+
+4. He was chewing on a *toothpick*.
+5. There's a jar of *toothpicks* by the register.
+6. Use a *toothpick*, not your fingernail.
 
 ---
 

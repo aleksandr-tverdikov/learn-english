@@ -782,6 +782,7 @@ A shopping center where brands sell their goods at reduced prices.
 **Русский:** зоомагазин
 **Plural:** *pet stores*
 **Countability:** countable
+**Contrast:** American *pet store*; the British say pet shop.
 
 A store selling animals and supplies for them.
 
@@ -991,15 +992,23 @@ A small room in a store where you try clothes on.
 ### dressing room
 
 **Pronunciation:** /ˈdrɛsɪŋ ruːm/ &middot; *DRES-ing ROOM*
-**Русский:** примерочная
+**Русский:** примерочная; гримёрная
 **Plural:** *dressing rooms*
 **Countability:** countable
 
-A private space in a store for trying on clothing.
+Dressing room has 2 distinct senses.
+
+**1. A private space in a store for trying on clothing.** (примерочная)
 
 1. She left the jeans in the *dressing room*.
 2. The *dressing rooms* are down the hall on the left.
 3. There's a mirror inside the *dressing room*.
+
+**2. A room backstage where performers change and put on makeup.** (гримёрная)
+
+4. Flowers were waiting in her *dressing room*.
+5. The *dressing rooms* are down the hall past the green room.
+6. Four of us shared one tiny *dressing room*.
 
 ---
 
@@ -1322,15 +1331,23 @@ The range of goods a store offers to choose from.
 ### variety
 
 **Pronunciation:** /vəˈraɪəti/ &middot; *vuh-RY-uh-tee*
-**Русский:** разнообразие, выбор
+**Русский:** разнообразие, выбор; сорт (растения)
 **Plural:** *varieties*
 **Countability:** countable
 
-A number of different kinds of something available.
+Variety has 2 distinct senses.
+
+**1. A number of different kinds of something available.** (разнообразие, выбор)
 
 1. The market carries a wide *variety* of apples.
 2. They stock a dozen *varieties* of hot sauce.
 3. There's not much *variety* at the corner store.
+
+**2. A named kind of plant within a species.** (сорт (растения))
+
+4. That *variety* ripens two weeks earlier.
+5. The nursery carries about ten *varieties* of apple.
+6. Ask for a *variety* that does well in heat.
 
 ---
 

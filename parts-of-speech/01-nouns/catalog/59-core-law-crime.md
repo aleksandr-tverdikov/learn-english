@@ -133,16 +133,30 @@ The lawyer or lawyers representing someone in a legal matter.
 ### defense
 
 **Pronunciation:** /dɪˈfɛns/ &middot; *dih-FENSS*
-**Русский:** защита (в суде)
+**Русский:** защита (в суде); оборона; оборона; (мн. ч.) укрепления
 **Plural:** *defenses*
 **Countability:** countable
 **Contrast:** American spelling is *defense*; the British write *defence*.
 
-The side arguing for the accused person in court, or the case they make.
+Defense has 3 distinct senses.
+
+**1. The side arguing for the accused person in court, or the case they make.** (защита (в суде))
 
 1. The *defense* rested after two witnesses.
 2. Self-preservation was the only *defense* he had.
 3. Their *defenses* fell apart under questioning.
+
+**2. The protection of a country against attack, and the money and forces used for it.** (оборона)
+
+4. *Defense* takes up a huge share of the budget.
+5. She works at the Department of *Defense*.
+6. They voted to raise *defense* spending again.
+
+**3. Protection against attack, or the walls and works built to provide it.** (оборона; (мн. ч.) укрепления)
+
+7. The city's *defense* held for a week.
+8. The country spends billions on national *defense*.
+9. The coastal *defenses* were never finished.
 
 ---
 
@@ -164,15 +178,23 @@ The side arguing that an accused person is guilty, or the act of bringing someon
 ### trial
 
 **Pronunciation:** /ˈtraɪəl/ &middot; *TRY-uhl*
-**Русский:** судебный процесс
+**Русский:** судебный процесс; испытание, проба
 **Plural:** *trials*
 **Countability:** countable
 
-The formal examination of a case in court to decide guilt or liability.
+Trial has 2 distinct senses.
+
+**1. The formal examination of a case in court to decide guilt or liability.** (судебный процесс)
 
 1. The *trial* lasted three weeks.
 2. He's awaiting *trial* in county jail.
 3. Both *trials* ended in convictions.
+
+**2. One run of an experiment or test.** (испытание, проба)
+
+4. The drug is still in clinical *trials*.
+5. Each *trial* gave a slightly different number.
+6. We averaged the results of ten *trials*.
 
 ---
 
@@ -274,11 +296,19 @@ What a witness formally states in court, usually under oath.
 **Countability:** countable
 **Contrast:** The plural is said with a voiced th and a z: OHTHZ, not OHTHS.
 
-A formal promise to tell the truth or to do your duty.
+Oath has 2 distinct senses.
+
+**1. A formal promise to tell the truth or to do your duty.** (присяга, клятва)
 
 1. He gave that answer under *oath*.
 2. The witness took an *oath* before speaking.
 3. New citizens swear the same *oaths* everywhere in the country.
+
+**2. A formal promise, often made publicly before taking office.** (присяга, клятва)
+
+4. She took the *oath* of office at noon.
+5. He swore an *oath* to defend the constitution.
+6. The new officers repeated their *oaths* together.
 
 ---
 
@@ -394,16 +424,30 @@ An official decision made by a judge or court.
 ### judgment
 
 **Pronunciation:** /ˈdʒʌdʒmənt/ &middot; *JUJ-muhnt*
-**Русский:** решение суда
+**Русский:** решение суда; суд (Божий), осуждение; суждение; рассудительность
 **Plural:** *judgments*
 **Countability:** countable
 **Contrast:** Americans spell it *judgment*, with no e after the g; the British often write *judgement*.
 
-A court's formal decision, especially about who owes money to whom.
+Judgment has 3 distinct senses.
+
+**1. A court's formal decision, especially about who owes money to whom.** (решение суда)
 
 1. The court entered a *judgment* against the company.
 2. He still hasn't paid the *judgment*.
 3. Small-claims *judgments* are hard to collect.
+
+**2. God's decision about whether people have lived rightly.** (суд (Божий), осуждение)
+
+4. The painting shows the day of *judgment*.
+5. He preached about *judgment* and mercy.
+6. They believe everyone faces *judgment* in the end.
+
+**3. The ability to make sensible decisions, or an opinion formed after thinking.** (суждение; рассудительность)
+
+7. I trust her *judgment* on hiring.
+8. He kept his *judgments* to himself during the meeting.
+9. Drinking clouds your *judgment*.
 
 ---
 
@@ -470,14 +514,22 @@ Money paid to someone for injury, loss, or unfair treatment.
 ### custody
 
 **Pronunciation:** /ˈkʌstədi/ &middot; *KUHS-tuh-dee*
-**Русский:** содержание под стражей; опека над ребёнком
+**Русский:** содержание под стражей; опека над ребёнком; опека (над ребёнком)
 **Countability:** uncountable
 
-Being held by the police, or the legal right to care for a child.
+Custody has 2 distinct senses.
+
+**1. Being held by the police, or the legal right to care for a child.** (содержание под стражей; опека над ребёнком)
 
 1. Two suspects are in police *custody*.
 2. She was granted *custody* of both children.
 3. He spent the night in *custody* before making bail.
+
+**2. The legal right to care for a child, especially after a divorce.** (опека (над ребёнком))
+
+4. She was awarded *custody* of both kids.
+5. They share joint *custody*.
+6. The *custody* fight dragged on for years.
 
 ---
 
@@ -593,6 +645,7 @@ An official rule made by a government agency.
 **Русский:** конституция
 **Plural:** *constitutions*
 **Countability:** countable
+**Contrast:** Americans say -TOO-shuhn; the British say -TYOO-shuhn.
 
 The basic set of laws by which a country or state is governed.
 
@@ -651,30 +704,46 @@ A court decision that an accused person is not guilty.
 ### conviction
 
 **Pronunciation:** /kənˈvɪkʃən/ &middot; *kuhn-VIK-shun*
-**Русский:** обвинительный приговор, судимость
+**Русский:** обвинительный приговор, судимость; убеждение; осуждение (приговор)
 **Plural:** *convictions*
 **Countability:** countable
 
-A court decision that someone is guilty, or the record of it.
+Conviction has 2 distinct senses.
+
+**1. A court decision that someone is guilty, or the record of it.** (обвинительный приговор, судимость)
 
 1. The *conviction* was overturned on appeal.
 2. He has a prior *conviction* for theft.
 3. Employers ask about felony *convictions*.
+
+**2. A firmly held belief, or the act of being found guilty in court.** (убеждение; осуждение (приговор))
+
+4. She spoke with real *conviction*.
+5. His political *convictions* haven't changed in forty years.
+6. The *conviction* was overturned on appeal.
 
 ---
 
 ### confession
 
 **Pronunciation:** /kənˈfɛʃən/ &middot; *kuhn-FESH-un*
-**Русский:** признание (вины)
+**Русский:** признание (вины); исповедь; признание
 **Plural:** *confessions*
 **Countability:** countable
 
-A statement admitting that you committed a crime.
+Confession has 2 distinct senses.
+
+**1. A statement admitting that you committed a crime.** (признание (вины))
 
 1. The *confession* was thrown out by the judge.
 2. He signed a full *confession* that night.
 3. Both *confessions* were recorded on video.
+
+**2. Telling a priest one's sins, or a statement admitting something.** (исповедь; признание)
+
+4. He goes to *confession* every few weeks.
+5. Her *confession* surprised everyone at the table.
+6. The detective had two signed *confessions*.
 
 ---
 
@@ -709,14 +778,22 @@ The crime of lying after swearing to tell the truth in court.
 ### contempt
 
 **Pronunciation:** /kənˈtɛmpt/ &middot; *kuhn-TEMPT*
-**Русский:** неуважение к суду
+**Русский:** неуважение к суду; презрение
 **Countability:** uncountable
 
-Disobeying a court or disrupting it, which a judge can punish directly.
+Contempt has 2 distinct senses.
+
+**1. Disobeying a court or disrupting it, which a judge can punish directly.** (неуважение к суду)
 
 1. The judge held him in *contempt*.
 2. She spent a night in jail for *contempt* of court.
 3. One more outburst and you're in *contempt*.
+
+**2. The feeling that someone or something is worthless.** (презрение)
+
+4. He treated the whole idea with *contempt*.
+5. You could see the *contempt* in her expression.
+6. Familiarity does not always breed *contempt*.
 
 ---
 
@@ -820,11 +897,19 @@ An official document giving permission to do or own something.
 **Countability:** countable
 **Contrast:** Americans say PAT-uhnt with a short a; the British say PAY-tuhnt.
 
-A legal right giving an inventor sole use of an invention for a set time.
+Patent has 2 distinct senses.
+
+**1. A legal right giving an inventor sole use of an invention for a set time.** (патент)
 
 1. He holds a *patent* on the design.
 2. The *patent* expires next year.
 3. The company owns hundreds of *patents*.
+
+**2. A legal right that stops others from copying an invention.** (патент)
+
+4. They filed a *patent* on the design.
+5. The company holds thousands of *patents*.
+6. The *patent* runs out in three years.
 
 ---
 
@@ -1078,15 +1163,23 @@ The crime of deliberately damaging property that belongs to others.
 ### assault
 
 **Pronunciation:** /əˈsɔːlt/ &middot; *uh-SAWLT*
-**Русский:** нападение, насильственные действия
+**Русский:** нападение, насильственные действия; штурм, нападение
 **Plural:** *assaults*
 **Countability:** countable
 
-The crime of attacking someone or threatening them with violence.
+Assault has 2 distinct senses.
+
+**1. The crime of attacking someone or threatening them with violence.** (нападение, насильственные действия)
 
 1. He was charged with *assault*.
 2. The *assault* took place outside the bar.
 3. Reported *assaults* dropped last year.
+
+**2. A sudden, forceful attack on a position or a person.** (штурм, нападение)
+
+4. The final *assault* on the city began at noon.
+5. Three *assaults* on the hill failed.
+6. The marines practiced an amphibious *assault*.
 
 ---
 
@@ -1332,6 +1425,7 @@ The crime or wrong of damaging someone's reputation in writing.
 **Pronunciation:** /dɪˌskrɪməˈneɪʃən/ &middot; *dih-skrim-uh-NAY-shun*
 **Русский:** дискриминация
 **Countability:** uncountable
+**Contrast:** Uncountable — say *a lot of discrimination*, never *a discrimination* or *discriminations*.
 
 Unfair treatment of people because of race, sex, age, or similar reasons.
 
@@ -1618,11 +1712,19 @@ Someone who happens to be present when something happens but is not involved.
 **Countability:** countable
 **Contrast:** The h is silent: it sounds exactly like *air*.
 
-Someone legally entitled to receive a dead person's property.
+Heir has 2 distinct senses.
+
+**1. Someone legally entitled to receive a dead person's property.** (наследник)
 
 1. He is the sole *heir* to the estate.
 2. The lawyer contacted all the *heirs*.
 3. Without a will, the state decides who the *heir* is.
+
+**2. A person with the legal right to receive property or a title when someone dies.** (наследник)
+
+4. She died without an *heir*.
+5. The *heirs* fought over the farm for years.
+6. He is the sole *heir* to the business.
 
 ---
 
@@ -1707,11 +1809,19 @@ An informal word for a police officer.
 **Plural:** *patrols*
 **Countability:** countable
 
-A group of officers moving around an area to keep watch, or the act of doing so.
+Patrol has 2 distinct senses.
+
+**1. A group of officers moving around an area to keep watch, or the act of doing so.** (патруль, патрулирование)
 
 1. Two officers were on *patrol* downtown.
 2. The *patrol* passes this corner every hour.
 3. Extra *patrols* were added after the break-ins.
+
+**2. A small group sent out to watch an area, or the trip they make.** (патруль, патрулирование)
+
+4. A night *patrol* never came back.
+5. Two *patrols* met on the same road.
+6. He was wounded on his first *patrol*.
 
 ---
 
@@ -1733,15 +1843,24 @@ A police officer whose job is to investigate crimes.
 ### deputy
 
 **Pronunciation:** /ˈdɛpjəti/ &middot; *DEP-yuh-tee*
-**Русский:** помощник шерифа
+**Русский:** помощник шерифа; заместитель (не «депутат»)
 **Plural:** *deputies*
 **Countability:** countable
+**Contrast:** A false friend: an elected member of parliament is a representative, not a deputy.
 
-An officer who works under a sheriff.
+Deputy has 2 distinct senses.
+
+**1. An officer who works under a sheriff.** (помощник шерифа)
 
 1. A *deputy* arrived within ten minutes.
 2. Two *deputies* blocked off the road.
 3. The *deputy* took her statement at the scene.
+
+**2. A person who is second in rank and acts for the person above them.** (заместитель (не «депутат»))
+
+4. His *deputy* ran the office while he was away.
+5. She was named *deputy* director in the spring.
+6. Two *deputies* handled the paperwork.
 
 ---
 
@@ -1794,15 +1913,23 @@ The act of taking someone into police custody.
 ### raid
 
 **Pronunciation:** /reɪd/ &middot; *RAYD*
-**Русский:** облава, рейд
+**Русский:** облава, рейд; рейд, налёт
 **Plural:** *raids*
 **Countability:** countable
 
-A sudden entry by police into a place to search it or make arrests.
+Raid has 2 distinct senses.
+
+**1. A sudden entry by police into a place to search it or make arrests.** (облава, рейд)
 
 1. The *raid* turned up a stash of weapons.
 2. Agents carried out a pre-dawn *raid*.
 3. Two *raids* were called off at the last minute.
+
+**2. A short, sudden attack on an enemy position.** (рейд, налёт)
+
+4. The night *raid* destroyed the fuel depot.
+5. Air *raids* continued for a month.
+6. A small *raid* across the river killed six men.
 
 ---
 
@@ -1839,15 +1966,23 @@ Intensive questioning of a suspect by the police.
 ### surveillance
 
 **Pronunciation:** /sərˈveɪləns/ &middot; *sur-VAY-luhns*
-**Русский:** наблюдение, слежка
+**Русский:** наблюдение, слежка; слежка, наблюдение
 **Countability:** uncountable
 **Contrast:** The -eill- is said VAY: sur-VAY-luhns, not sur-VEIL-ee-uhns.
 
-Close watching of a person or place, especially by police.
+Surveillance has 2 distinct senses.
+
+**1. Close watching of a person or place, especially by police.** (наблюдение, слежка)
 
 1. The house has been under *surveillance* for a month.
 2. *Surveillance* footage showed him leaving at nine.
 3. They set up *surveillance* across the street.
+
+**2. Close watching of people or places by police or government.** (слежка, наблюдение)
+
+4. The house was under *surveillance* for a month.
+5. New *surveillance* cameras went up downtown.
+6. The bill would expand government *surveillance*.
 
 ---
 
@@ -2070,11 +2205,19 @@ A gap in a law or contract that lets people avoid its intent.
 **Plural:** *pardons*
 **Countability:** countable
 
-An official decision to forgive a crime and cancel the punishment.
+Pardon has 2 distinct senses.
+
+**1. An official decision to forgive a crime and cancel the punishment.** (помилование)
 
 1. The governor granted him a *pardon*.
 2. She applied for a *pardon* after twelve years.
 3. The president issued dozens of *pardons*.
+
+**2. An official act freeing someone from punishment for a crime.** (помилование)
+
+4. The governor granted him a full *pardon*.
+5. She asked for a *pardon* after twenty years in prison.
+6. He issued a hundred *pardons* on his last day.
 
 ---
 

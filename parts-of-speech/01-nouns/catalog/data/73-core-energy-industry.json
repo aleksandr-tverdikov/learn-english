@@ -1421,14 +1421,43 @@
       "term": "mill",
       "ipa": "/mɪl/",
       "respell": "MIL",
-      "meaning": "A factory where a raw material such as steel, paper, or grain is processed. ---",
+      "meaning": "Mill has 2 distinct senses.",
       "examples": [
         "Half the town worked at the mill.",
         "The paper mill closed in 2004.",
-        "Two mills along the river are still running."
+        "Two mills along the river are still running.",
+        "Half the town worked at the cotton mill.",
+        "The mill shut down in 1978.",
+        "The old mills along the river are apartments now."
       ],
-      "senses": [],
-      "русский": "завод, комбинат (перерабатывающий)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A factory where a raw material such as steel, paper, or grain is processed",
+          "body": [
+            "(завод, комбинат (перерабатывающий))"
+          ],
+          "examples": [
+            "Half the town worked at the mill.",
+            "The paper mill closed in 2004.",
+            "Two mills along the river are still running."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A factory where raw fiber is spun into yarn or woven into cloth",
+          "body": [
+            "(фабрика, комбинат (текстильный))",
+            "---"
+          ],
+          "examples": [
+            "Half the town worked at the cotton mill.",
+            "The mill shut down in 1978.",
+            "The old mills along the river are apartments now."
+          ]
+        }
+      ],
+      "русский": "завод, комбинат (перерабатывающий); фабрика, комбинат (текстильный)",
       "plural": "mills",
       "countability": "countable"
     },
@@ -1779,14 +1808,43 @@
       "term": "scrap",
       "ipa": "/skræp/",
       "respell": "SKRAP",
-      "meaning": "Waste metal or material that is collected to be melted down and reused. ---",
+      "meaning": "Scrap has 2 distinct senses.",
       "examples": [
         "They sold the old machines for scrap.",
         "The mill buys scrap by the ton.",
-        "There is a pile of scrap behind the shop."
+        "There is a pile of scrap behind the shop.",
+        "Save the scraps for a quilt.",
+        "She wiped the machine with a scrap of flannel.",
+        "There's a bag of fabric scraps in the closet."
       ],
-      "senses": [],
-      "русский": "лом, металлолом",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Waste metal or material that is collected to be melted down and reused",
+          "body": [
+            "(лом, металлолом)"
+          ],
+          "examples": [
+            "They sold the old machines for scrap.",
+            "The mill buys scrap by the ton.",
+            "There is a pile of scrap behind the shop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small leftover piece of cloth",
+          "body": [
+            "(лоскут, обрезок ткани)",
+            "---"
+          ],
+          "examples": [
+            "Save the scraps for a quilt.",
+            "She wiped the machine with a scrap of flannel.",
+            "There's a bag of fabric scraps in the closet."
+          ]
+        }
+      ],
+      "русский": "лом, металлолом; лоскут, обрезок ткани",
       "countability": "uncountable"
     },
     {

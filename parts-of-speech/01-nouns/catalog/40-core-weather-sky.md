@@ -883,11 +883,19 @@ A form of oxygen that forms a protective layer high in the atmosphere.
 **Русский:** пыльца
 **Countability:** uncountable
 
-Fine powder from plants that floats in the air in spring.
+Pollen has 2 distinct senses.
+
+**1. Fine powder from plants that floats in the air in spring.** (пыльца)
 
 1. The *pollen* count is through the roof this week.
 2. There's yellow *pollen* all over my car.
 3. My eyes water whenever the *pollen* gets bad.
+
+**2. The fine yellow powder that flowers produce in order to make seeds.** (пыльца)
+
+4. Everything in the driveway is coated in *pollen*.
+5. The *pollen* count is brutal this week.
+6. Bees carry *pollen* from one plant to the next.
 
 ---
 

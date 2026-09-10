@@ -119,15 +119,23 @@ A large open bag with two handles, usually cloth.
 ### pouch
 
 **Pronunciation:** /paʊtʃ/ &middot; *POWCH*
-**Русский:** мешочек, футляр
+**Русский:** мешочек, футляр; сумка (у сумчатых)
 **Plural:** *pouches*
 **Countability:** countable
 
-A small soft bag that closes at the top.
+Pouch has 2 distinct senses.
+
+**1. A small soft bag that closes at the top.** (мешочек, футляр)
 
 1. The camera came with a padded *pouch*.
 2. She keeps her makeup in a little zip *pouch*.
 3. There are two mesh *pouches* inside the lid.
+
+**2. The pocket of skin in which a marsupial carries its young.** (сумка (у сумчатых))
+
+4. The joey was still in her *pouch*.
+5. A kangaroo's *pouch* opens toward the front.
+6. *Pouches* keep the young warm until they can walk.
 
 ---
 
@@ -333,15 +341,23 @@ A small ball with a hole through it, strung to make jewelry.
 ### gem
 
 **Pronunciation:** /dʒɛm/ &middot; *JEM*
-**Русский:** драгоценный камень, самоцвет
+**Русский:** драгоценный камень, самоцвет; драгоценный камень
 **Plural:** *gems*
 **Countability:** countable
 
-A cut and polished stone used in jewelry.
+Gem has 2 distinct senses.
+
+**1. A cut and polished stone used in jewelry.** (драгоценный камень, самоцвет)
 
 1. The ring has a small green *gem* in the center.
 2. He collects rough *gems* and cuts them himself.
 3. That *gem* is almost certainly glass.
+
+**2. A precious stone that has been cut and polished.** (драгоценный камень)
+
+4. The crown is set with *gems*.
+5. He collects rough *gems* and cuts them himself.
+6. That green *gem* is an emerald.
 
 ---
 
@@ -364,15 +380,24 @@ A precious stone, or a piece of jewelry containing one.
 ### diamond
 
 **Pronunciation:** /ˈdaɪəmənd/ &middot; *DY-uh-muhnd*
-**Русский:** бриллиант, алмаз
+**Русский:** бриллиант, алмаз; алмаз, бриллиант
 **Plural:** *diamonds*
 **Countability:** countable
+**Contrast:** Most Americans say it in two syllables, DY-muhnd, though the fuller DY-uh-muhnd is equally correct.
 
-A very hard, clear precious stone.
+Diamond has 2 distinct senses.
+
+**1. A very hard, clear precious stone.** (бриллиант, алмаз)
 
 1. The *diamond* on her ring is tiny but it's real.
 2. He can't tell *diamonds* from cubic zirconia.
 3. They set a single *diamond* in a plain gold band.
+
+**2. The hardest known mineral, a clear precious stone used in jewelry.** (алмаз, бриллиант)
+
+4. The ring has a small *diamond*.
+5. *Diamonds* will cut through almost anything.
+6. She lost a *diamond* out of her earring.
 
 ---
 
@@ -471,11 +496,19 @@ A shiny white precious metal used for jewelry and utensils.
 **Русский:** платина
 **Countability:** uncountable
 
-A heavy silver-white metal, more expensive than gold.
+Platinum has 2 distinct senses.
+
+**1. A heavy silver-white metal, more expensive than gold.** (платина)
 
 1. Their wedding bands are *platinum*.
 2. *Platinum* costs more than gold right now.
 3. He had the setting made in *platinum*.
+
+**2. A very valuable silvery-white metal that does not corrode.** (платина)
+
+4. The wedding band is *platinum*.
+5. *Platinum* costs more than gold most years.
+6. Catalytic converters contain a little *platinum*.
 
 ---
 
@@ -525,15 +558,29 @@ A blue-green stone used in silver jewelry.
 ### crystal
 
 **Pronunciation:** /ˈkrɪstəl/ &middot; *KRIS-tuhl*
-**Русский:** кристалл; хрусталь
+**Русский:** кристалл; хрусталь; кристалл
 **Plural:** *crystals*
 **Countability:** both — countable and uncountable with different meanings
 
-A single piece of a clear mineral, or the fine cut glass used for good glassware.
+Crystal has 3 distinct senses.
+
+**1. A single piece of a clear mineral, or the fine cut glass used for good glassware.** (кристалл; хрусталь)
 
 1. She hung a *crystal* in the kitchen window.
 2. The bowl is heavy lead *crystal*.
 3. He keeps a few quartz *crystals* on his desk.
+
+**2. A solid with a regular geometric shape, or fine cut glass.** (кристалл; хрусталь)
+
+4. Sugar forms big *crystals* if you cook it too long.
+5. The glasses are lead *crystal*.
+6. Frost made *crystals* all over the window.
+
+**3. A piece of a substance that has formed naturally into a regular shape with flat sides.** (кристалл)
+
+7. Ice *crystals* covered the window.
+8. He found a quartz *crystal* the size of his thumb.
+9. Salt dries into fine white *crystals*.
 
 ---
 
@@ -616,15 +663,23 @@ A circular ornament worn on the head by a king or queen.
 ### stud
 
 **Pronunciation:** /stʌd/ &middot; *STUD*
-**Русский:** серьга-гвоздик; заклёпка
+**Русский:** серьга-гвоздик; заклёпка; стойка (каркаса стены)
 **Plural:** *studs*
 **Countability:** countable
 
-A small earring that sits flat against the ear, or a metal knob on clothing.
+Stud has 2 distinct senses.
+
+**1. A small earring that sits flat against the ear, or a metal knob on clothing.** (серьга-гвоздик; заклёпка)
 
 1. She only wears small diamond *studs*.
 2. One *stud* fell out of my ear at the gym.
 3. The jacket has metal *studs* down both sleeves.
+
+**2. One of the upright posts inside a wall frame.** (стойка (каркаса стены))
+
+4. Find a *stud* before you hang that.
+5. The screw missed the *stud* completely.
+6. The *studs* are sixteen inches apart.
 
 ---
 
@@ -994,14 +1049,22 @@ Pink or red powder put on the cheeks.
 ### powder
 
 **Pronunciation:** /ˈpaʊdər/ &middot; *POW-dur*
-**Русский:** пудра
+**Русский:** пудра; порошок; пудра
 **Countability:** uncountable
 
-Fine dry cosmetic dust patted onto the skin.
+Powder has 2 distinct senses.
+
+**1. Fine dry cosmetic dust patted onto the skin.** (пудра)
 
 1. She set her makeup with translucent *powder*.
 2. There's *powder* all over the bathroom counter.
 3. He shook baby *powder* into his shoes.
+
+**2. A substance in the form of very fine dry particles.** (порошок; пудра)
+
+4. Grind the pills into a fine *powder*.
+5. Stir the *powder* into a cup of warm water.
+6. There was a white *powder* all over the counter.
 
 ---
 

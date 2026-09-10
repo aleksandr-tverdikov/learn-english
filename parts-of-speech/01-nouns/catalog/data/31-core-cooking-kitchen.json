@@ -78,7 +78,8 @@
       "senses": [],
       "русский": "холодильник (разговорное)",
       "plural": "fridges",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Short for refrigerator, but spelled with a d."
     },
     {
       "term": "freezer",
@@ -191,13 +192,57 @@
       "term": "sink",
       "ipa": "/sɪŋk/",
       "respell": "SINGK",
-      "meaning": "The basin with a faucet where you wash dishes and hands. ---",
+      "meaning": "Sink has 3 distinct senses.",
       "examples": [
         "There's a stack of dishes in the sink.",
         "Just rinse it off in the sink.",
-        "The kitchen has a double sink."
+        "The kitchen has a double sink.",
+        "Just leave the dishes in the sink.",
+        "The kitchen sink is backed up again.",
+        "The bathroom has two sinks.",
+        "The dishes are piled up in the sink.",
+        "Don't pour grease down the sink.",
+        "The main bathroom has two sinks."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The basin with a faucet where you wash dishes and hands",
+          "body": [
+            "(раковина, мойка)"
+          ],
+          "examples": [
+            "There's a stack of dishes in the sink.",
+            "Just rinse it off in the sink.",
+            "The kitchen has a double sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fixed basin with a faucet, used for washing",
+          "body": [
+            "(раковина, мойка)"
+          ],
+          "examples": [
+            "Just leave the dishes in the sink.",
+            "The kitchen sink is backed up again.",
+            "The bathroom has two sinks."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A basin with a water supply and a drain",
+          "body": [
+            "(раковина, мойка)",
+            "---"
+          ],
+          "examples": [
+            "The dishes are piled up in the sink.",
+            "Don't pour grease down the sink.",
+            "The main bathroom has two sinks."
+          ]
+        }
+      ],
       "русский": "раковина, мойка",
       "plural": "sinks",
       "countability": "countable"
@@ -215,20 +260,65 @@
       "senses": [],
       "русский": "столешница",
       "plural": "countertops",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American countertop is British worktop."
     },
     {
       "term": "cabinet",
       "ipa": "/ˈkæbənət/",
       "respell": "KAB-uh-nut",
-      "meaning": "A cupboard with shelves and a door, usually mounted on a wall. ---",
+      "meaning": "Cabinet has 3 distinct senses.",
       "examples": [
         "The glasses are in the cabinet above the sink.",
         "We painted the kitchen cabinets white.",
-        "He couldn't reach the top cabinet without a chair."
+        "He couldn't reach the top cabinet without a chair.",
+        "The bandaids are in the medicine cabinet.",
+        "We're refacing the kitchen cabinets instead of replacing them.",
+        "That cabinet is bolted to the wall.",
+        "The medicine cabinet is above the sink.",
+        "We're replacing the kitchen cabinets this fall.",
+        "He keeps the good glasses in that cabinet."
       ],
-      "senses": [],
-      "русский": "шкафчик (кухонный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cupboard with shelves and a door, usually mounted on a wall",
+          "body": [
+            "(шкафчик (кухонный))"
+          ],
+          "examples": [
+            "The glasses are in the cabinet above the sink.",
+            "We painted the kitchen cabinets white.",
+            "He couldn't reach the top cabinet without a chair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A built-in box with doors or drawers for storing things",
+          "body": [
+            "(шкафчик, тумба (кухонная))"
+          ],
+          "examples": [
+            "The bandaids are in the medicine cabinet.",
+            "We're refacing the kitchen cabinets instead of replacing them.",
+            "That cabinet is bolted to the wall."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A piece of furniture with doors and shelves, often mounted on a wall",
+          "body": [
+            "(шкафчик, тумба)",
+            "---"
+          ],
+          "examples": [
+            "The medicine cabinet is above the sink.",
+            "We're replacing the kitchen cabinets this fall.",
+            "He keeps the good glasses in that cabinet."
+          ]
+        }
+      ],
+      "русский": "шкафчик (кухонный); шкафчик, тумба (кухонная); шкафчик, тумба",
       "plural": "cabinets",
       "countability": "countable",
       "contrast": "In ordinary speech it collapses to two syllables: KAB-nut."
@@ -252,14 +342,43 @@
       "term": "drawer",
       "ipa": "/drɔːr/",
       "respell": "DRAWR",
-      "meaning": "A sliding box built into a piece of furniture. ---",
+      "meaning": "Drawer has 2 distinct senses.",
       "examples": [
         "The forks are in the top drawer.",
         "That drawer sticks every single time.",
-        "He went through all the kitchen drawers looking for a corkscrew."
+        "He went through all the kitchen drawers looking for a corkscrew.",
+        "The forks are in the top drawer.",
+        "This drawer keeps sticking.",
+        "She emptied all the drawers before the move."
       ],
-      "senses": [],
-      "русский": "выдвижной ящик",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sliding box built into a piece of furniture",
+          "body": [
+            "(выдвижной ящик)"
+          ],
+          "examples": [
+            "The forks are in the top drawer.",
+            "That drawer sticks every single time.",
+            "He went through all the kitchen drawers looking for a corkscrew."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A box-shaped part of a desk or dresser that slides in and out",
+          "body": [
+            "(выдвижной ящик (мебели))",
+            "---"
+          ],
+          "examples": [
+            "The forks are in the top drawer.",
+            "This drawer keeps sticking.",
+            "She emptied all the drawers before the move."
+          ]
+        }
+      ],
+      "русский": "выдвижной ящик; выдвижной ящик (мебели)",
       "plural": "drawers",
       "countability": "countable",
       "contrast": "One syllable in American speech — it sounds like 'draw' with an r, not DRAW-er."
@@ -283,14 +402,43 @@
       "term": "grinder",
       "ipa": "/ˈɡraɪndər/",
       "respell": "GRYN-dur",
-      "meaning": "A device that crushes coffee, pepper, or spices into small pieces. ---",
+      "meaning": "Grinder has 2 distinct senses.",
       "examples": [
         "Grind the beans fresh in a burr grinder.",
         "There's a pepper grinder on every table.",
-        "Cheap grinders heat the coffee up too much."
+        "Cheap grinders heat the coffee up too much.",
+        "He cut the bolt off with an angle grinder.",
+        "Sparks flew everywhere from the grinder.",
+        "The shop has two bench grinders."
       ],
-      "senses": [],
-      "русский": "мельница, кофемолка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that crushes coffee, pepper, or spices into small pieces",
+          "body": [
+            "(мельница, кофемолка)"
+          ],
+          "examples": [
+            "Grind the beans fresh in a burr grinder.",
+            "There's a pepper grinder on every table.",
+            "Cheap grinders heat the coffee up too much."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A power tool with a spinning wheel that cuts or smooths metal",
+          "body": [
+            "(болгарка, шлифовальный станок)",
+            "---"
+          ],
+          "examples": [
+            "He cut the bolt off with an angle grinder.",
+            "Sparks flew everywhere from the grinder.",
+            "The shop has two bench grinders."
+          ]
+        }
+      ],
+      "русский": "мельница, кофемолка; болгарка, шлифовальный станок",
       "plural": "grinders",
       "countability": "countable"
     },
@@ -368,7 +516,8 @@
       "senses": [],
       "русский": "сковорода (часто чугунная)",
       "plural": "skillets",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Common American word for a frying pan."
     },
     {
       "term": "saucepan",
@@ -404,14 +553,43 @@
       "term": "tray",
       "ipa": "/treɪ/",
       "respell": "TRAY",
-      "meaning": "A flat piece of metal, wood, or plastic used to carry or hold food. ---",
+      "meaning": "Tray has 2 distinct senses.",
       "examples": [
         "She carried the drinks out on a tray.",
         "Line the tray with parchment first.",
-        "The ice trays are in the freezer door."
+        "The ice trays are in the freezer door.",
+        "She carried the coffee out on a tray.",
+        "Put the cookies on a baking tray.",
+        "The trays are stacked by the door."
       ],
-      "senses": [],
-      "русский": "поднос; противень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat piece of metal, wood, or plastic used to carry or hold food",
+          "body": [
+            "(поднос; противень)"
+          ],
+          "examples": [
+            "She carried the drinks out on a tray.",
+            "Line the tray with parchment first.",
+            "The ice trays are in the freezer door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat carrier with raised edges for holding food or dishes",
+          "body": [
+            "(поднос)",
+            "---"
+          ],
+          "examples": [
+            "She carried the coffee out on a tray.",
+            "Put the cookies on a baking tray.",
+            "The trays are stacked by the door."
+          ]
+        }
+      ],
+      "русский": "поднос; противень; поднос",
       "plural": "trays",
       "countability": "countable"
     },
@@ -428,7 +606,8 @@
       "senses": [],
       "русский": "дуршлаг",
       "plural": "colanders",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Not the same word as calendar."
     },
     {
       "term": "strainer",
@@ -511,13 +690,42 @@
       "term": "spatula",
       "ipa": "/ˈspætʃələ/",
       "respell": "SPACH-uh-luh",
-      "meaning": "A flat tool for flipping food or scraping a bowl. ---",
+      "meaning": "Spatula has 2 distinct senses.",
       "examples": [
         "Flip the pancakes with a spatula.",
         "Scrape the bowl down with a rubber spatula.",
-        "I keep three spatulas in the crock by the stove."
+        "I keep three spatulas in the crock by the stove.",
+        "Flip the pancakes with a spatula.",
+        "The rubber spatula melted on the burner.",
+        "There are spatulas in every drawer in this kitchen."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat tool for flipping food or scraping a bowl",
+          "body": [
+            "(лопатка (кухонная))"
+          ],
+          "examples": [
+            "Flip the pancakes with a spatula.",
+            "Scrape the bowl down with a rubber spatula.",
+            "I keep three spatulas in the crock by the stove."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat kitchen tool for lifting or spreading food",
+          "body": [
+            "(лопатка (кухонная))",
+            "---"
+          ],
+          "examples": [
+            "Flip the pancakes with a spatula.",
+            "The rubber spatula melted on the burner.",
+            "There are spatulas in every drawer in this kitchen."
+          ]
+        }
+      ],
       "русский": "лопатка (кухонная)",
       "plural": "spatulas",
       "countability": "countable"
@@ -687,20 +895,50 @@
       "senses": [],
       "русский": "фартук",
       "plural": "aprons",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The first syllable rhymes with ape, not with app."
     },
     {
       "term": "sponge",
       "ipa": "/spʌndʒ/",
       "respell": "SPUNJ",
-      "meaning": "A soft absorbent block used for washing dishes and wiping surfaces. ---",
+      "meaning": "Sponge has 2 distinct senses.",
       "examples": [
         "Wipe the counter with a damp sponge.",
         "That sponge smells — just throw it out.",
-        "I buy sponges in packs of six."
+        "I buy sponges in packs of six.",
+        "Wipe the counter with a damp sponge.",
+        "The sponge by the sink smells terrible.",
+        "Grab a pack of sponges while you're out."
       ],
-      "senses": [],
-      "русский": "губка (для мытья посуды)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soft absorbent block used for washing dishes and wiping surfaces",
+          "body": [
+            "(губка (для мытья посуды))"
+          ],
+          "examples": [
+            "Wipe the counter with a damp sponge.",
+            "That sponge smells — just throw it out.",
+            "I buy sponges in packs of six."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A soft absorbent material full of holes, or a piece of it used for cleaning",
+          "body": [
+            "(губка)",
+            "---"
+          ],
+          "examples": [
+            "Wipe the counter with a damp sponge.",
+            "The sponge by the sink smells terrible.",
+            "Grab a pack of sponges while you're out."
+          ]
+        }
+      ],
+      "русский": "губка (для мытья посуды); губка",
       "plural": "sponges",
       "countability": "countable",
       "contrast": "Written -onge but said SPUNJ, rhyming with 'plunge'."
@@ -709,14 +947,58 @@
       "term": "detergent",
       "ipa": "/dɪˈtɜːrdʒənt/",
       "respell": "dih-TUR-junt",
-      "meaning": "A soap-like cleaner used for washing dishes or clothes. ---",
+      "meaning": "Detergent has 3 distinct senses.",
       "examples": [
         "Add a squirt of dish detergent to the water.",
         "We're completely out of detergent.",
-        "The store-brand detergents work just as well."
+        "The store-brand detergents work just as well.",
+        "We're out of laundry detergent.",
+        "Use less detergent than the box tells you to.",
+        "This detergent is safe for colors.",
+        "We're out of laundry detergent.",
+        "Use less detergent than the box says.",
+        "Some detergents irritate sensitive skin."
       ],
-      "senses": [],
-      "русский": "моющее средство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A soap-like cleaner used for washing dishes or clothes",
+          "body": [
+            "(моющее средство)"
+          ],
+          "examples": [
+            "Add a squirt of dish detergent to the water.",
+            "We're completely out of detergent.",
+            "The store-brand detergents work just as well."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cleaning product used for washing clothes or dishes",
+          "body": [
+            "(моющее средство, стиральный порошок)"
+          ],
+          "examples": [
+            "We're out of laundry detergent.",
+            "Use less detergent than the box tells you to.",
+            "This detergent is safe for colors."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A chemical cleaner used for laundry or dishes",
+          "body": [
+            "(моющее средство; стиральный порошок)",
+            "---"
+          ],
+          "examples": [
+            "We're out of laundry detergent.",
+            "Use less detergent than the box says.",
+            "Some detergents irritate sensitive skin."
+          ]
+        }
+      ],
+      "русский": "моющее средство; моющее средство, стиральный порошок; моющее средство; стиральный порошок",
       "plural": "detergents",
       "countability": "countable, and uncountable as a substance"
     },
@@ -844,16 +1126,46 @@
       "term": "appliance",
       "ipa": "/əˈplaɪəns/",
       "respell": "uh-PLY-uns",
-      "meaning": "A machine designed for a household job such as cooking or washing. ---",
+      "meaning": "Appliance has 2 distinct senses.",
       "examples": [
         "The kitchen comes with all new appliances.",
         "That appliance draws a lot of power.",
-        "They deliver large appliances on Tuesdays."
+        "They deliver large appliances on Tuesdays.",
+        "The rent includes all the appliances.",
+        "One appliance after another broke that year.",
+        "Stainless steel appliances show every fingerprint."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine designed for a household job such as cooking or washing",
+          "body": [
+            "(бытовой прибор, бытовая техника)"
+          ],
+          "examples": [
+            "The kitchen comes with all new appliances.",
+            "That appliance draws a lot of power.",
+            "They deliver large appliances on Tuesdays."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine used in the home, such as a refrigerator or a washing machine",
+          "body": [
+            "(бытовой прибор, бытовая техника)",
+            "---"
+          ],
+          "examples": [
+            "The rent includes all the appliances.",
+            "One appliance after another broke that year.",
+            "Stainless steel appliances show every fingerprint."
+          ]
+        }
+      ],
       "русский": "бытовой прибор, бытовая техника",
       "plural": "appliances",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Countable in English, unlike the Russian mass noun техника: an appliance, three appliances."
     },
     {
       "term": "chopsticks",
@@ -1068,13 +1380,42 @@
       "term": "steam",
       "ipa": "/stiːm/",
       "respell": "STEEM",
-      "meaning": "The hot vapor that rises from boiling water. ---",
+      "meaning": "Steam has 2 distinct senses.",
       "examples": [
         "Lift the lid away from you so the steam doesn't burn you.",
         "The rice finishes cooking in its own steam.",
-        "There was so much steam the windows fogged up."
+        "There was so much steam the windows fogged up.",
+        "Steam was pouring out from under the hood.",
+        "The bathroom filled with steam.",
+        "The building is heated by steam."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hot vapor that rises from boiling water",
+          "body": [
+            "(пар)"
+          ],
+          "examples": [
+            "Lift the lid away from you so the steam doesn't burn you.",
+            "The rice finishes cooking in its own steam.",
+            "There was so much steam the windows fogged up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hot gas water turns into when it boils",
+          "body": [
+            "(пар)",
+            "---"
+          ],
+          "examples": [
+            "Steam was pouring out from under the hood.",
+            "The bathroom filled with steam.",
+            "The building is heated by steam."
+          ]
+        }
+      ],
       "русский": "пар",
       "countability": "uncountable"
     },

@@ -129,16 +129,24 @@ A bluish-white metal used to coat steel and in some medicines.
 ### nickel
 
 **Pronunciation:** /ˈnɪkəl/ &middot; *NIK-uhl*
-**Русский:** никель; монета в 5 центов
+**Русский:** никель; монета в 5 центов; монета в 5 центов
 **Plural:** *nickels*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable as the metal (*plated in nickel*), countable as the coin (*two nickels*).
 
-A hard silvery metal, and also the American five-cent coin.
+Nickel has 2 distinct senses.
+
+**1. A hard silvery metal, and also the American five-cent coin.** (никель; монета в 5 центов)
 
 1. The faucet is plated in *nickel*.
 2. I found two *nickels* under the car seat.
 3. Some people get a rash from the *nickel* in cheap earrings.
+
+**2. An American coin worth five cents.** (монета в 5 центов)
+
+4. The gumball machine takes *nickels*.
+5. He handed me a *nickel* and two dimes.
+6. I found a *nickel* under the couch cushion.
 
 ---
 
@@ -231,15 +239,23 @@ An evergreen tree with needles, or the soft pale wood it produces.
 ### maple
 
 **Pronunciation:** /ˈmeɪpəl/ &middot; *MAY-puhl*
-**Русский:** клён (дерево и древесина)
+**Русский:** клён (дерево и древесина); клён
 **Plural:** *maples*
 **Countability:** countable, and uncountable as a substance
 
-A shade tree known for its syrup and its hard, pale wood.
+Maple has 2 distinct senses.
+
+**1. A shade tree known for its syrup and its hard, pale wood.** (клён (дерево и древесина))
 
 1. The cutting board is *maple*.
 2. The *maples* turn bright red in October.
 3. *Maple* is harder than pine, so it doesn't dent as easily.
+
+**2. A tree with broad leaves that turn red or orange in fall and with sweet sap.** (клён)
+
+4. The *maple* out front is the last tree to turn.
+5. They tap the *maples* in late February.
+6. A *maple* seed spins like a helicopter as it falls.
 
 ---
 
@@ -540,15 +556,23 @@ A clear plastic, or the fast-drying paint made from it.
 ### stone
 
 **Pronunciation:** /stoʊn/ &middot; *STOHN*
-**Русский:** камень (материал и кусок)
+**Русский:** камень (материал и кусок); камень
 **Plural:** *stones*
 **Countability:** countable, and uncountable as a substance
 
-Hard mineral material from the ground, or a piece of it.
+Stone has 2 distinct senses.
+
+**1. Hard mineral material from the ground, or a piece of it.** (камень (материал и кусок))
 
 1. The old church is built of *stone*.
 2. He skipped *stones* across the pond.
 3. There's a *stone* wall along the property line.
+
+**2. A small piece of rock, or rock used as a building material.** (камень)
+
+4. He picked up a smooth *stone* and put it in his pocket.
+5. The wall is built of *stones* with no mortar at all.
+6. The old church is made of gray *stone*.
 
 ---
 

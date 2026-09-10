@@ -37,14 +37,43 @@
       "term": "exhibit",
       "ipa": "/ɪɡˈzɪbɪt/",
       "respell": "ig-ZIB-it",
-      "meaning": "An object on display in a museum, or a whole display of such objects. ---",
+      "meaning": "Exhibit has 2 distinct senses.",
       "examples": [
         "There's a new dinosaur exhibit at the science museum.",
         "Each exhibit has a small card explaining it.",
-        "The exhibits are arranged by century."
+        "The exhibits are arranged by century.",
+        "The dinosaur exhibit is on the second floor.",
+        "New exhibits open every few months.",
+        "That exhibit was the best part of the museum."
       ],
-      "senses": [],
-      "русский": "экспонат; выставка (амер.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An object on display in a museum, or a whole display of such objects",
+          "body": [
+            "(экспонат; выставка (амер.))"
+          ],
+          "examples": [
+            "There's a new dinosaur exhibit at the science museum.",
+            "Each exhibit has a small card explaining it.",
+            "The exhibits are arranged by century."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An object or display shown to the public in a museum",
+          "body": [
+            "(экспонат; выставка)",
+            "---"
+          ],
+          "examples": [
+            "The dinosaur exhibit is on the second floor.",
+            "New exhibits open every few months.",
+            "That exhibit was the best part of the museum."
+          ]
+        }
+      ],
+      "русский": "экспонат; выставка (амер.); экспонат; выставка",
       "plural": "exhibits",
       "countability": "countable",
       "contrast": "Americans often call a whole show an exhibit, where the British would say exhibition."
@@ -114,14 +143,43 @@
       "term": "bust",
       "ipa": "/bʌst/",
       "respell": "BUST",
-      "meaning": "A sculpture of a person's head, shoulders, and chest. ---",
+      "meaning": "Bust has 2 distinct senses.",
       "examples": [
         "A marble bust of the composer sits by the door.",
         "The library has busts of famous writers along the wall.",
-        "He sculpted a bust of his grandmother from memory."
+        "He sculpted a bust of his grandmother from memory.",
+        "Measure your bust under the arms.",
+        "The jacket is tight across the bust.",
+        "The chart lists busts from thirty-two to forty-four."
       ],
-      "senses": [],
-      "русский": "бюст (скульптура)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sculpture of a person's head, shoulders, and chest",
+          "body": [
+            "(бюст (скульптура))"
+          ],
+          "examples": [
+            "A marble bust of the composer sits by the door.",
+            "The library has busts of famous writers along the wall.",
+            "He sculpted a bust of his grandmother from memory."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The measurement around a woman's chest, used in sizing clothes",
+          "body": [
+            "(обхват груди (женский размер))",
+            "---"
+          ],
+          "examples": [
+            "Measure your bust under the arms.",
+            "The jacket is tight across the bust.",
+            "The chart lists busts from thirty-two to forty-four."
+          ]
+        }
+      ],
+      "русский": "бюст (скульптура); обхват груди (женский размер)",
       "plural": "busts",
       "countability": "countable"
     },
@@ -268,14 +326,58 @@
       "term": "print",
       "ipa": "/prɪnt/",
       "respell": "PRINT",
-      "meaning": "A copy of a picture made by a printing process rather than by hand. ---",
+      "meaning": "Print has 3 distinct senses.",
       "examples": [
         "She sells prints of her paintings online.",
         "The original is in Paris, but I have a print.",
-        "Each print is numbered and signed in pencil."
+        "Each print is numbered and signed in pencil.",
+        "She wore a summer dress in a bright print.",
+        "Animal prints are back in style.",
+        "The curtains are a small floral print.",
+        "She wore a floral print.",
+        "The prints this season are enormous.",
+        "A small print is easier to wear than a big one."
       ],
-      "senses": [],
-      "русский": "эстамп, печатная репродукция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A copy of a picture made by a printing process rather than by hand",
+          "body": [
+            "(эстамп, печатная репродукция)"
+          ],
+          "examples": [
+            "She sells prints of her paintings online.",
+            "The original is in Paris, but I have a print.",
+            "Each print is numbered and signed in pencil."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A colored design printed onto cloth",
+          "body": [
+            "(набивной рисунок, принт)"
+          ],
+          "examples": [
+            "She wore a summer dress in a bright print.",
+            "Animal prints are back in style.",
+            "The curtains are a small floral print."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A pattern printed onto cloth rather than woven into it",
+          "body": [
+            "(принт, набивной рисунок)",
+            "---"
+          ],
+          "examples": [
+            "She wore a floral print.",
+            "The prints this season are enormous.",
+            "A small print is easier to wear than a big one."
+          ]
+        }
+      ],
+      "русский": "эстамп, печатная репродукция; набивной рисунок, принт; принт, набивной рисунок",
       "plural": "prints",
       "countability": "countable"
     },
@@ -446,14 +548,43 @@
       "term": "palette",
       "ipa": "/ˈpælət/",
       "respell": "PAL-uht",
-      "meaning": "A board on which a painter mixes colors, or the range of colors used. ---",
+      "meaning": "Palette has 2 distinct senses.",
       "examples": [
         "There was more paint on his palette than on the canvas.",
         "She works with a very limited palette.",
-        "He cleaned his palettes at the end of the day."
+        "He cleaned his palettes at the end of the day.",
+        "The artist works with a very limited palette.",
+        "The app lets you save your own color palettes.",
+        "The film has a cold blue palette."
       ],
-      "senses": [],
-      "русский": "палитра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A board on which a painter mixes colors, or the range of colors used",
+          "body": [
+            "(палитра)"
+          ],
+          "examples": [
+            "There was more paint on his palette than on the canvas.",
+            "She works with a very limited palette.",
+            "He cleaned his palettes at the end of the day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The range of colors used in a picture or design",
+          "body": [
+            "(палитра, набор цветов)",
+            "---"
+          ],
+          "examples": [
+            "The artist works with a very limited palette.",
+            "The app lets you save your own color palettes.",
+            "The film has a cold blue palette."
+          ]
+        }
+      ],
+      "русский": "палитра; палитра, набор цветов",
       "plural": "palettes",
       "countability": "countable",
       "contrast": "Sounds exactly like pallet (поддон) and palate (нёбо)."
@@ -492,14 +623,43 @@
       "term": "pigment",
       "ipa": "/ˈpɪɡmənt/",
       "respell": "PIG-muhnt",
-      "meaning": "A colored powder that is mixed with oil or water to make paint. ---",
+      "meaning": "Pigment has 2 distinct senses.",
       "examples": [
         "The blue pigment was made from a crushed stone.",
         "Some pigments fade badly in sunlight.",
-        "She grinds her own pigment the old way."
+        "She grinds her own pigment the old way.",
+        "The artist grinds his own pigments.",
+        "Sunlight breaks down the pigment in the fabric.",
+        "This blue pigment was once worth more than gold."
       ],
-      "senses": [],
-      "русский": "пигмент, красящее вещество",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A colored powder that is mixed with oil or water to make paint",
+          "body": [
+            "(пигмент, красящее вещество)"
+          ],
+          "examples": [
+            "The blue pigment was made from a crushed stone.",
+            "Some pigments fade badly in sunlight.",
+            "She grinds her own pigment the old way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A colored substance that gives paint, ink, or skin its color",
+          "body": [
+            "(пигмент, краситель)",
+            "---"
+          ],
+          "examples": [
+            "The artist grinds his own pigments.",
+            "Sunlight breaks down the pigment in the fabric.",
+            "This blue pigment was once worth more than gold."
+          ]
+        }
+      ],
+      "русский": "пигмент, красящее вещество; пигмент, краситель",
       "plural": "pigments",
       "countability": "countable, and uncountable as a substance"
     },
@@ -554,14 +714,43 @@
       "term": "forgery",
       "ipa": "/ˈfɔːrdʒəri/",
       "respell": "FOR-juh-ree",
-      "meaning": "A copy of a work of art or document made to be sold as the original. ---",
+      "meaning": "Forgery has 2 distinct senses.",
       "examples": [
         "The painting turned out to be a forgery.",
         "He was arrested for art forgery.",
-        "Experts spotted the forgery in about a minute."
+        "Experts spotted the forgery in about a minute.",
+        "He was arrested for forgery.",
+        "The expert said the painting was a forgery.",
+        "Three of the checks turned out to be forgeries."
       ],
-      "senses": [],
-      "русский": "подделка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A copy of a work of art or document made to be sold as the original",
+          "body": [
+            "(подделка)"
+          ],
+          "examples": [
+            "The painting turned out to be a forgery.",
+            "He was arrested for art forgery.",
+            "Experts spotted the forgery in about a minute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The crime of faking a document, signature, or artwork, or the fake itself",
+          "body": [
+            "(подделка (документа, подписи))",
+            "---"
+          ],
+          "examples": [
+            "He was arrested for forgery.",
+            "The expert said the painting was a forgery.",
+            "Three of the checks turned out to be forgeries."
+          ]
+        }
+      ],
+      "русский": "подделка; подделка (документа, подписи)",
       "plural": "forgeries",
       "countability": "countable"
     },
@@ -613,14 +802,43 @@
       "term": "perspective",
       "ipa": "/pərˈspɛktɪv/",
       "respell": "pur-SPEK-tiv",
-      "meaning": "The technique of drawing so that distant things look smaller and farther away. ---",
+      "meaning": "Perspective has 2 distinct senses.",
       "examples": [
         "The drawing is badly out of perspective.",
         "Renaissance painters worked out the rules of perspective.",
-        "He teaches perspective to first-year students."
+        "He teaches perspective to first-year students.",
+        "From a parent's perspective, the rule makes sense.",
+        "The panel brought in three different perspectives.",
+        "A week off gave me some perspective on the problem."
       ],
-      "senses": [],
-      "русский": "перспектива (в рисунке)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The technique of drawing so that distant things look smaller and farther away",
+          "body": [
+            "(перспектива (в рисунке))"
+          ],
+          "examples": [
+            "The drawing is badly out of perspective.",
+            "Renaissance painters worked out the rules of perspective.",
+            "He teaches perspective to first-year students."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular way of looking at or thinking about something",
+          "body": [
+            "(точка зрения, взгляд)",
+            "---"
+          ],
+          "examples": [
+            "From a parent's perspective, the rule makes sense.",
+            "The panel brought in three different perspectives.",
+            "A week off gave me some perspective on the problem."
+          ]
+        }
+      ],
+      "русский": "перспектива (в рисунке); точка зрения, взгляд",
       "countability": "uncountable"
     },
     {
@@ -672,14 +890,43 @@
       "term": "silhouette",
       "ipa": "/ˌsɪluˈɛt/",
       "respell": "sil-oo-ET",
-      "meaning": "The dark outline of something seen against a lighter background. ---",
+      "meaning": "Silhouette has 2 distinct senses.",
       "examples": [
         "The trees were black silhouettes against the sunset.",
         "She cut his silhouette out of black paper.",
-        "You can recognize the building by its silhouette alone."
+        "You can recognize the building by its silhouette alone.",
+        "The dress has a very straight silhouette.",
+        "Silhouettes got boxier in the eighties.",
+        "The coat softens the silhouette."
       ],
-      "senses": [],
-      "русский": "силуэт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The dark outline of something seen against a lighter background",
+          "body": [
+            "(силуэт)"
+          ],
+          "examples": [
+            "The trees were black silhouettes against the sunset.",
+            "She cut his silhouette out of black paper.",
+            "You can recognize the building by its silhouette alone."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The overall outline a garment gives the body",
+          "body": [
+            "(силуэт (одежды))",
+            "---"
+          ],
+          "examples": [
+            "The dress has a very straight silhouette.",
+            "Silhouettes got boxier in the eighties.",
+            "The coat softens the silhouette."
+          ]
+        }
+      ],
+      "русский": "силуэт; силуэт (одежды)",
       "plural": "silhouettes",
       "countability": "countable",
       "contrast": "The h is silent and the ending is French: sil-oo-ET."
@@ -697,7 +944,8 @@
       "senses": [],
       "русский": "оттенок (цвета)",
       "plural": "hues",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Sounds exactly like hew, meaning to chop with an ax."
     },
     {
       "term": "contrast",
@@ -762,13 +1010,42 @@
       "term": "loom",
       "ipa": "/luːm/",
       "respell": "LOOM",
-      "meaning": "A frame or machine for weaving thread into cloth. ---",
+      "meaning": "Loom has 2 distinct senses.",
       "examples": [
         "She weaves rugs on a wooden loom.",
         "The loom takes up half the room.",
-        "The old mill had two hundred looms running at once."
+        "The old mill had two hundred looms running at once.",
+        "The rug came off the loom yesterday.",
+        "There were two hundred looms on the factory floor.",
+        "She learned to warp a loom at sixteen."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A frame or machine for weaving thread into cloth",
+          "body": [
+            "(ткацкий станок)"
+          ],
+          "examples": [
+            "She weaves rugs on a wooden loom.",
+            "The loom takes up half the room.",
+            "The old mill had two hundred looms running at once."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A frame or machine on which cloth is woven",
+          "body": [
+            "(ткацкий станок)",
+            "---"
+          ],
+          "examples": [
+            "The rug came off the loom yesterday.",
+            "There were two hundred looms on the factory floor.",
+            "She learned to warp a loom at sixteen."
+          ]
+        }
+      ],
       "русский": "ткацкий станок",
       "plural": "looms",
       "countability": "countable"
@@ -837,14 +1114,43 @@
       "term": "instrument",
       "ipa": "/ˈɪnstrəmənt/",
       "respell": "IN-struh-muhnt",
-      "meaning": "An object used to make music, such as a guitar or a flute. ---",
+      "meaning": "Instrument has 2 distinct senses.",
       "examples": [
         "The violin was the first instrument she learned.",
         "He plays three instruments well and two badly.",
-        "Bring your instrument to rehearsal on Thursday."
+        "Bring your instrument to rehearsal on Thursday.",
+        "Every instrument in the lab is calibrated once a year.",
+        "The instrument measures pressure to four decimal places.",
+        "Delicate instruments must be handled carefully."
       ],
-      "senses": [],
-      "русский": "музыкальный инструмент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An object used to make music, such as a guitar or a flute",
+          "body": [
+            "(музыкальный инструмент)"
+          ],
+          "examples": [
+            "The violin was the first instrument she learned.",
+            "He plays three instruments well and two badly.",
+            "Bring your instrument to rehearsal on Thursday."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool used for careful scientific work or measurement",
+          "body": [
+            "(прибор)",
+            "---"
+          ],
+          "examples": [
+            "Every instrument in the lab is calibrated once a year.",
+            "The instrument measures pressure to four decimal places.",
+            "Delicate instruments must be handled carefully."
+          ]
+        }
+      ],
+      "русский": "музыкальный инструмент; прибор",
       "plural": "instruments",
       "countability": "countable"
     },
@@ -1177,14 +1483,43 @@
       "term": "string",
       "ipa": "/strɪŋ/",
       "respell": "STRING",
-      "meaning": "A tight wire or cord on an instrument that makes a note when it vibrates. ---",
+      "meaning": "String has 2 distinct senses.",
       "examples": [
         "One string broke in the middle of the song.",
         "He changes his strings about once a month.",
-        "The strings come in quietly under the piano."
+        "The strings come in quietly under the piano.",
+        "Wrap the string in quotation marks.",
+        "Compare the two strings before you save.",
+        "The date is stored as a string, not a number."
       ],
-      "senses": [],
-      "русский": "струна",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tight wire or cord on an instrument that makes a note when it vibrates",
+          "body": [
+            "(струна)"
+          ],
+          "examples": [
+            "One string broke in the middle of the song.",
+            "He changes his strings about once a month.",
+            "The strings come in quietly under the piano."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of text handled as a single value by a program",
+          "body": [
+            "(строка (текстовая))",
+            "---"
+          ],
+          "examples": [
+            "Wrap the string in quotation marks.",
+            "Compare the two strings before you save.",
+            "The date is stored as a string, not a number."
+          ]
+        }
+      ],
+      "русский": "струна; строка (текстовая)",
       "plural": "strings",
       "countability": "countable"
     },
@@ -1222,14 +1557,58 @@
       "term": "speaker",
       "ipa": "/ˈspiːkər/",
       "respell": "SPEE-kur",
-      "meaning": "The part of a sound system that the sound comes out of. ---",
+      "meaning": "Speaker has 3 distinct senses.",
       "examples": [
         "One speaker is blown, so everything sounds flat.",
         "Turn the speakers toward the room.",
-        "The music came out of a tiny speaker in the ceiling."
+        "The music came out of a tiny speaker in the ceiling.",
+        "The speaker on my laptop is tinny.",
+        "He hooked up a pair of speakers in the garage.",
+        "Put it on speaker so everyone can hear.",
+        "Put me on speaker so everyone can hear.",
+        "One of the speakers in the car is blown.",
+        "The speaker went twenty minutes over."
       ],
-      "senses": [],
-      "русский": "динамик, колонка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a sound system that the sound comes out of",
+          "body": [
+            "(динамик, колонка)"
+          ],
+          "examples": [
+            "One speaker is blown, so everything sounds flat.",
+            "Turn the speakers toward the room.",
+            "The music came out of a tiny speaker in the ceiling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that turns an electrical signal into sound",
+          "body": [
+            "(динамик, колонка)"
+          ],
+          "examples": [
+            "The speaker on my laptop is tinny.",
+            "He hooked up a pair of speakers in the garage.",
+            "Put it on speaker so everyone can hear."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A device that makes sound, or a person talking to a group",
+          "body": [
+            "(динамик; выступающий)",
+            "---"
+          ],
+          "examples": [
+            "Put me on speaker so everyone can hear.",
+            "One of the speakers in the car is blown.",
+            "The speaker went twenty minutes over."
+          ]
+        }
+      ],
+      "русский": "динамик, колонка; динамик; выступающий",
       "plural": "speakers",
       "countability": "countable"
     },
@@ -1467,14 +1846,43 @@
       "term": "verse",
       "ipa": "/vɜːrs/",
       "respell": "VURS",
-      "meaning": "One of the sections of a song that has the same tune but different words. ---",
+      "meaning": "Verse has 2 distinct senses.",
       "examples": [
         "The second verse tells the rest of the story.",
         "He wrote four verses and then cut two.",
-        "She forgot the words to the last verse."
+        "She forgot the words to the last verse.",
+        "She quoted a verse about patience.",
+        "That verse is printed on the back of the card.",
+        "We read the first ten verses out loud."
       ],
-      "senses": [],
-      "русский": "куплет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the sections of a song that has the same tune but different words",
+          "body": [
+            "(куплет)"
+          ],
+          "examples": [
+            "The second verse tells the rest of the story.",
+            "He wrote four verses and then cut two.",
+            "She forgot the words to the last verse."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the short numbered parts a chapter of scripture is divided into",
+          "body": [
+            "(стих (в Библии))",
+            "---"
+          ],
+          "examples": [
+            "She quoted a verse about patience.",
+            "That verse is printed on the back of the card.",
+            "We read the first ten verses out loud."
+          ]
+        }
+      ],
+      "русский": "куплет; стих (в Библии)",
       "plural": "verses",
       "countability": "countable"
     },
@@ -1542,14 +1950,43 @@
       "term": "ensemble",
       "ipa": "/ɑːnˈsɑːmbəl/",
       "respell": "ahn-SAHM-buhl",
-      "meaning": "A small group of musicians who perform together. ---",
+      "meaning": "Ensemble has 2 distinct senses.",
       "examples": [
         "She plays in a small jazz ensemble.",
         "The ensemble rehearses on Thursday nights.",
-        "The school has three student ensembles."
+        "The school has three student ensembles.",
+        "She put together a whole ensemble for the wedding.",
+        "The hat completed the ensemble.",
+        "The exhibit shows a dozen ensembles from the period."
       ],
-      "senses": [],
-      "русский": "ансамбль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small group of musicians who perform together",
+          "body": [
+            "(ансамбль)"
+          ],
+          "examples": [
+            "She plays in a small jazz ensemble.",
+            "The ensemble rehearses on Thursday nights.",
+            "The school has three student ensembles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of clothes worn together as one look",
+          "body": [
+            "(комплект одежды, ансамбль)",
+            "---"
+          ],
+          "examples": [
+            "She put together a whole ensemble for the wedding.",
+            "The hat completed the ensemble.",
+            "The exhibit shows a dozen ensembles from the period."
+          ]
+        }
+      ],
+      "русский": "ансамбль; комплект одежды, ансамбль",
       "plural": "ensembles",
       "countability": "countable",
       "contrast": "From French: ahn-SAHM-buhl, with the final e silent."
@@ -1558,14 +1995,58 @@
       "term": "conductor",
       "ipa": "/kənˈdʌktər/",
       "respell": "kuhn-DUK-tur",
-      "meaning": "The person who stands in front of an orchestra and directs the players. ---",
+      "meaning": "Conductor has 3 distinct senses.",
       "examples": [
         "The conductor stopped the orchestra and started over.",
         "She's the youngest conductor they have ever hired.",
-        "Both conductors studied in Vienna."
+        "Both conductors studied in Vienna.",
+        "The conductor punched our tickets in the aisle.",
+        "Two conductors worked the whole train.",
+        "Ask the conductor which stop you want.",
+        "Copper is an excellent conductor.",
+        "Water can act as a conductor, so be careful.",
+        "Metals are better conductors than plastics."
       ],
-      "senses": [],
-      "русский": "дирижёр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person who stands in front of an orchestra and directs the players",
+          "body": [
+            "(дирижёр)"
+          ],
+          "examples": [
+            "The conductor stopped the orchestra and started over.",
+            "She's the youngest conductor they have ever hired.",
+            "Both conductors studied in Vienna."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The railroad employee who checks tickets and runs the train crew",
+          "body": [
+            "(проводник, кондуктор)"
+          ],
+          "examples": [
+            "The conductor punched our tickets in the aisle.",
+            "Two conductors worked the whole train.",
+            "Ask the conductor which stop you want."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A material that lets electricity or heat pass through it easily",
+          "body": [
+            "(проводник)",
+            "---"
+          ],
+          "examples": [
+            "Copper is an excellent conductor.",
+            "Water can act as a conductor, so be careful.",
+            "Metals are better conductors than plastics."
+          ]
+        }
+      ],
+      "русский": "дирижёр; проводник, кондуктор; проводник",
       "plural": "conductors",
       "countability": "countable"
     },
@@ -1649,14 +2130,43 @@
       "term": "performer",
       "ipa": "/pərˈfɔːrmər/",
       "respell": "pur-FOR-mur",
-      "meaning": "Someone who sings, plays, or acts in front of an audience. ---",
+      "meaning": "Performer has 2 distinct senses.",
       "examples": [
         "The performer came back out for one more number.",
         "Street performers fill the square all summer.",
-        "She's a natural performer."
+        "She's a natural performer.",
+        "The performers stayed backstage until eight.",
+        "She's a natural performer — the crowd loved her.",
+        "Street performers line the boardwalk all summer."
       ],
-      "senses": [],
-      "русский": "исполнитель, артист",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone who sings, plays, or acts in front of an audience",
+          "body": [
+            "(исполнитель, артист)"
+          ],
+          "examples": [
+            "The performer came back out for one more number.",
+            "Street performers fill the square all summer.",
+            "She's a natural performer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who sings, acts, dances, or otherwise entertains an audience",
+          "body": [
+            "(артист, исполнитель)",
+            "---"
+          ],
+          "examples": [
+            "The performers stayed backstage until eight.",
+            "She's a natural performer — the crowd loved her.",
+            "Street performers line the boardwalk all summer."
+          ]
+        }
+      ],
+      "русский": "исполнитель, артист; артист, исполнитель",
       "plural": "performers",
       "countability": "countable"
     },
@@ -1740,14 +2250,43 @@
       "term": "encore",
       "ipa": "/ˈɑːnkɔːr/",
       "respell": "AHN-kor",
-      "meaning": "An extra piece performed at the end of a show because the audience asks for it. ---",
+      "meaning": "Encore has 2 distinct senses.",
       "examples": [
         "The band came back out for one encore.",
         "The crowd shouted until they played an encore.",
-        "She did two encores and still nobody left."
+        "She did two encores and still nobody left.",
+        "They played two songs as an encore.",
+        "The crowd stayed on its feet until the encore.",
+        "Most bands plan their encores in advance."
       ],
-      "senses": [],
-      "русский": "бис (дополнительный номер)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An extra piece performed at the end of a show because the audience asks for it",
+          "body": [
+            "(бис (дополнительный номер))"
+          ],
+          "examples": [
+            "The band came back out for one encore.",
+            "The crowd shouted until they played an encore.",
+            "She did two encores and still nobody left."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An extra performance given after the main show, in response to applause",
+          "body": [
+            "(бис, выход на бис)",
+            "---"
+          ],
+          "examples": [
+            "They played two songs as an encore.",
+            "The crowd stayed on its feet until the encore.",
+            "Most bands plan their encores in advance."
+          ]
+        }
+      ],
+      "русский": "бис (дополнительный номер); бис, выход на бис",
       "plural": "encores",
       "countability": "countable",
       "contrast": "From French: AHN-kor, with the first syllable nasal-sounding and stressed."
@@ -1892,13 +2431,42 @@
       "term": "anthem",
       "ipa": "/ˈænθəm/",
       "respell": "AN-thuhm",
-      "meaning": "A song that stands for a country or a group, sung on important occasions. ---",
+      "meaning": "Anthem has 2 distinct senses.",
       "examples": [
         "The crowd stood for the national anthem.",
         "That song became an anthem for a whole generation.",
-        "Both anthems were played before the game."
+        "Both anthems were played before the game.",
+        "Everyone stood for the national anthem.",
+        "She sang the anthem before the game.",
+        "Both national anthems were played."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A song that stands for a country or a group, sung on important occasions",
+          "body": [
+            "(гимн)"
+          ],
+          "examples": [
+            "The crowd stood for the national anthem.",
+            "That song became an anthem for a whole generation.",
+            "Both anthems were played before the game."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The official song of a country, played on formal occasions",
+          "body": [
+            "(гимн)",
+            "---"
+          ],
+          "examples": [
+            "Everyone stood for the national anthem.",
+            "She sang the anthem before the game.",
+            "Both national anthems were played."
+          ]
+        }
+      ],
       "русский": "гимн",
       "plural": "anthems",
       "countability": "countable"
@@ -1997,14 +2565,43 @@
       "term": "record",
       "ipa": "/ˈrɛkərd/",
       "respell": "REK-urd",
-      "meaning": "A flat black disc that music is played from, or an album of recorded music. ---",
+      "meaning": "Record has 2 distinct senses.",
       "examples": [
         "He still buys records instead of streaming.",
         "The record skipped on the second track.",
-        "She has a whole wall of records."
+        "She has a whole wall of records.",
+        "He has a clean record.",
+        "Her arrest record goes back to the nineties.",
+        "Court records are open to the public."
       ],
-      "senses": [],
-      "русский": "пластинка; запись",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat black disc that music is played from, or an album of recorded music",
+          "body": [
+            "(пластинка; запись)"
+          ],
+          "examples": [
+            "He still buys records instead of streaming.",
+            "The record skipped on the second track.",
+            "She has a whole wall of records."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official written account, especially of someone's past crimes",
+          "body": [
+            "(протокол, официальная запись; судимость)",
+            "---"
+          ],
+          "examples": [
+            "He has a clean record.",
+            "Her arrest record goes back to the nineties.",
+            "Court records are open to the public."
+          ]
+        }
+      ],
+      "русский": "пластинка; запись; протокол, официальная запись; судимость",
       "plural": "records",
       "countability": "countable",
       "contrast": "The noun is REK-urd; the verb to record is rih-KORD."

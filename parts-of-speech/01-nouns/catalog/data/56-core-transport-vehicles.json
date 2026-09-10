@@ -1029,14 +1029,43 @@
       "term": "dashboard",
       "ipa": "/ˈdæʃbɔːrd/",
       "respell": "DASH-bord",
-      "meaning": "The panel of dials and controls in front of a driver. ---",
+      "meaning": "Dashboard has 2 distinct senses.",
       "examples": [
         "A warning light came on in the dashboard.",
         "He keeps his sunglasses on the dashboard.",
-        "Newer dashboards are basically one big screen."
+        "Newer dashboards are basically one big screen.",
+        "Log in and you'll land on the dashboard.",
+        "The dashboard shows your usage for the month.",
+        "He built two dashboards for the sales team."
       ],
-      "senses": [],
-      "русский": "приборная панель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The panel of dials and controls in front of a driver",
+          "body": [
+            "(приборная панель)"
+          ],
+          "examples": [
+            "A warning light came on in the dashboard.",
+            "He keeps his sunglasses on the dashboard.",
+            "Newer dashboards are basically one big screen."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A screen that shows the main information and controls in one place",
+          "body": [
+            "(панель управления)",
+            "---"
+          ],
+          "examples": [
+            "Log in and you'll land on the dashboard.",
+            "The dashboard shows your usage for the month.",
+            "He built two dashboards for the sales team."
+          ]
+        }
+      ],
+      "русский": "приборная панель; панель управления",
       "plural": "dashboards",
       "countability": "countable"
     },
@@ -1197,14 +1226,43 @@
       "term": "transmission",
       "ipa": "/trænzˈmɪʃən/",
       "respell": "tranz-MISH-uhn",
-      "meaning": "The set of gears that sends engine power to the wheels. ---",
+      "meaning": "Transmission has 2 distinct senses.",
       "examples": [
         "The transmission is slipping in second gear.",
         "A new transmission costs more than the car is worth.",
-        "Automatic transmissions have gotten much smoother."
+        "Automatic transmissions have gotten much smoother.",
+        "The transmission cut off in the middle of a word.",
+        "They picked up a strange transmission on that frequency.",
+        "All transmissions are recorded."
       ],
-      "senses": [],
-      "русский": "коробка передач, трансмиссия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The set of gears that sends engine power to the wheels",
+          "body": [
+            "(коробка передач, трансмиссия)"
+          ],
+          "examples": [
+            "The transmission is slipping in second gear.",
+            "A new transmission costs more than the car is worth.",
+            "Automatic transmissions have gotten much smoother."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sending of a signal, message, or program",
+          "body": [
+            "(передача (сигнала), трансляция)",
+            "---"
+          ],
+          "examples": [
+            "The transmission cut off in the middle of a word.",
+            "They picked up a strange transmission on that frequency.",
+            "All transmissions are recorded."
+          ]
+        }
+      ],
+      "русский": "коробка передач, трансмиссия; передача (сигнала), трансляция",
       "plural": "transmissions",
       "countability": "countable"
     },
@@ -1257,14 +1315,58 @@
       "term": "cylinder",
       "ipa": "/ˈsɪləndər/",
       "respell": "SIL-uhn-dur",
-      "meaning": "The tube in an engine where the piston moves and the fuel burns. ---",
+      "meaning": "Cylinder has 3 distinct senses.",
       "examples": [
         "It's a six-cylinder engine.",
         "One cylinder wasn't firing at all.",
-        "The cylinders were rebored during the rebuild."
+        "The cylinders were rebored during the rebuild.",
+        "Measure the volume in a graduated cylinder.",
+        "The gas comes in a heavy steel cylinder.",
+        "This engine has four cylinders.",
+        "A soup can is a cylinder.",
+        "The engine has four cylinders.",
+        "Measure the height of the cylinder."
       ],
-      "senses": [],
-      "русский": "цилиндр (двигателя)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The tube in an engine where the piston moves and the fuel burns",
+          "body": [
+            "(цилиндр (двигателя))"
+          ],
+          "examples": [
+            "It's a six-cylinder engine.",
+            "One cylinder wasn't firing at all.",
+            "The cylinders were rebored during the rebuild."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tube-shaped object or container with flat circular ends",
+          "body": [
+            "(цилиндр)"
+          ],
+          "examples": [
+            "Measure the volume in a graduated cylinder.",
+            "The gas comes in a heavy steel cylinder.",
+            "This engine has four cylinders."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A solid shape with straight sides and two equal circular ends",
+          "body": [
+            "(цилиндр)",
+            "---"
+          ],
+          "examples": [
+            "A soup can is a cylinder.",
+            "The engine has four cylinders.",
+            "Measure the height of the cylinder."
+          ]
+        }
+      ],
+      "русский": "цилиндр (двигателя); цилиндр",
       "plural": "cylinders",
       "countability": "countable"
     },
@@ -1423,14 +1525,43 @@
       "term": "rim",
       "ipa": "/rɪm/",
       "respell": "RIM",
-      "meaning": "The metal ring of a wheel that the tire sits on. ---",
+      "meaning": "Rim has 2 distinct senses.",
       "examples": [
         "He bent a rim on a pothole.",
         "The car came with alloy rims.",
-        "You can't drive on a bare rim."
+        "You can't drive on a bare rim.",
+        "There is lipstick on the rim of the glass.",
+        "The ball rolled around the rim and dropped in.",
+        "He polished the chrome rims on his truck."
       ],
-      "senses": [],
-      "русский": "обод колеса, диск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The metal ring of a wheel that the tire sits on",
+          "body": [
+            "(обод колеса, диск)"
+          ],
+          "examples": [
+            "He bent a rim on a pothole.",
+            "The car came with alloy rims.",
+            "You can't drive on a bare rim."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The outer edge of something round",
+          "body": [
+            "(обод, край (круглого предмета))",
+            "---"
+          ],
+          "examples": [
+            "There is lipstick on the rim of the glass.",
+            "The ball rolled around the rim and dropped in.",
+            "He polished the chrome rims on his truck."
+          ]
+        }
+      ],
+      "русский": "обод колеса, диск; обод, край (круглого предмета)",
       "plural": "rims",
       "countability": "countable"
     },
@@ -2076,14 +2207,43 @@
       "term": "tailgate",
       "ipa": "/ˈteɪlɡeɪt/",
       "respell": "TAYL-gayt",
-      "meaning": "The hinged panel at the back of a pickup or wagon that folds down. ---",
+      "meaning": "Tailgate has 2 distinct senses.",
       "examples": [
         "They sat on the tailgate eating sandwiches.",
         "The tailgate wouldn't latch anymore.",
-        "Both tailgates were dented."
+        "Both tailgates were dented.",
+        "The tailgate starts four hours before kickoff.",
+        "Their tailgates have grills, a tent, and a TV.",
+        "We got to the tailgate early to save a spot."
       ],
-      "senses": [],
-      "русский": "задний борт (пикапа)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hinged panel at the back of a pickup or wagon that folds down",
+          "body": [
+            "(задний борт (пикапа))"
+          ],
+          "examples": [
+            "They sat on the tailgate eating sandwiches.",
+            "The tailgate wouldn't latch anymore.",
+            "Both tailgates were dented."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A party held in a stadium parking lot before a game, with food cooked out of car trunks",
+          "body": [
+            "(пикник на парковке перед матчем)",
+            "---"
+          ],
+          "examples": [
+            "The tailgate starts four hours before kickoff.",
+            "Their tailgates have grills, a tent, and a TV.",
+            "We got to the tailgate early to save a spot."
+          ]
+        }
+      ],
+      "русский": "задний борт (пикапа); пикник на парковке перед матчем",
       "plural": "tailgates",
       "countability": "countable"
     },

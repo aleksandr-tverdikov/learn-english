@@ -26,14 +26,22 @@ A feeling of great happiness.
 ### delight
 
 **Pronunciation:** /dɪˈlaɪt/ &middot; *dih-LYT*
-**Русский:** восторг, удовольствие
+**Русский:** восторг, удовольствие; восторг, восхищение
 **Countability:** uncountable
 
-A feeling of strong pleasure.
+Delight has 2 distinct senses.
+
+**1. A feeling of strong pleasure.** (восторг, удовольствие)
 
 1. To my *delight*, the flight was on time.
 2. She squealed with *delight* at the puppy.
 3. He takes *delight* in proving people wrong.
+
+**2. Great pleasure, or something that gives it.** (восторг, восхищение)
+
+4. She squealed with *delight* at the puppy.
+5. The market is full of small *delights*.
+6. To my *delight*, the flight was on time.
 
 ---
 
@@ -129,11 +137,19 @@ A sense that your life or work has real meaning.
 **Русский:** благодарность
 **Countability:** uncountable
 
-A feeling of thankfulness toward someone.
+Gratitude has 2 distinct senses.
+
+**1. A feeling of thankfulness toward someone.** (благодарность)
 
 1. She sent flowers as a token of *gratitude*.
 2. He spoke with real *gratitude* about his first boss.
 3. I owe them a debt of *gratitude* I can never repay.
+
+**2. The feeling of being thankful for something.** (благодарность)
+
+4. She sent a card to express her *gratitude*.
+5. He owes them a debt of *gratitude*.
+6. There was genuine *gratitude* in his handshake.
 
 ---
 
@@ -213,6 +229,7 @@ Sympathy for suffering, plus a wish to help.
 **Pronunciation:** /ˈsɪmpəθi/ &middot; *SIM-puh-thee*
 **Русский:** сочувствие
 **Countability:** uncountable
+**Contrast:** Not the same as *empathy*: *sympathy* is feeling sorry for someone; *empathy* is feeling what they feel.
 
 A feeling of sorrow for someone else's trouble.
 
@@ -257,11 +274,19 @@ Sadness at someone else's suffering, often with a hint of looking down.
 **Plural:** *kindnesses*
 **Countability:** countable
 
-Friendly, generous behavior, or an act of it.
+Kindness has 2 distinct senses.
+
+**1. Friendly, generous behavior, or an act of it.** (доброта)
 
 1. A little *kindness* costs nothing.
 2. I will never forget her *kindness* that winter.
 3. The small *kindnesses* are what people remember.
+
+**2. The quality of being friendly and caring toward others.** (доброта)
+
+4. A little *kindness* goes a long way.
+5. I'll never forget the *kindnesses* they showed us that winter.
+6. She spoke to him with unexpected *kindness*.
 
 ---
 
@@ -271,11 +296,19 @@ Friendly, generous behavior, or an act of it.
 **Русский:** щедрость
 **Countability:** uncountable
 
-A willingness to give more than you have to.
+Generosity has 2 distinct senses.
+
+**1. A willingness to give more than you have to.** (щедрость)
 
 1. Her *generosity* kept the food bank running.
 2. He thanked the donors for their *generosity*.
 3. The tip showed real *generosity*.
+
+**2. Willingness to give money, time, or help freely.** (щедрость)
+
+4. The shelter runs on the *generosity* of neighbors.
+5. Her *generosity* embarrassed him a little.
+6. He thanked the crowd for their *generosity*.
 
 ---
 
@@ -285,11 +318,19 @@ A willingness to give more than you have to.
 **Русский:** смирение, скромность
 **Countability:** uncountable
 
-A modest view of your own importance.
+Humility has 2 distinct senses.
+
+**1. A modest view of your own importance.** (смирение, скромность)
 
 1. He accepted the award with real *humility*.
 2. Failing early taught her some *humility*.
 3. There is a kind of strength in *humility*.
+
+**2. The quality of not thinking you are better than other people.** (смирение, скромность)
+
+4. He accepted the award with genuine *humility*.
+5. There's a kind of *humility* in asking for help.
+6. Failure taught her some *humility*.
 
 ---
 
@@ -299,11 +340,19 @@ A modest view of your own importance.
 **Русский:** достоинство
 **Countability:** uncountable
 
-Calm self-respect, or the right to be treated with respect.
+Dignity has 2 distinct senses.
+
+**1. Calm self-respect, or the right to be treated with respect.** (достоинство)
 
 1. She handled the whole thing with *dignity*.
 2. Everyone deserves to be treated with *dignity*.
 3. He refused to give up his *dignity* for a paycheck.
+
+**2. The quality of deserving respect, and of behaving in a way that earns it.** (достоинство)
+
+4. She faced the illness with *dignity*.
+5. Every worker deserves to be treated with *dignity*.
+6. He lost his job but kept his *dignity*.
 
 ---
 
@@ -499,11 +548,19 @@ The quality of being funny, or the ability to see what is funny.
 **Русский:** остроумие
 **Countability:** uncountable
 
-Quick, clever humor in speech or writing.
+Wit has 2 distinct senses.
+
+**1. Quick, clever humor in speech or writing.** (остроумие)
 
 1. Her *wit* is what makes the column worth reading.
 2. He answered with the kind of *wit* you cannot rehearse.
 3. The play is full of sharp *wit*.
+
+**2. The ability to say clever, funny things.** (остроумие)
+
+4. Her dry *wit* kept the whole table laughing.
+5. He answered with surprising *wit*.
+6. The column is written with real *wit*.
 
 ---
 
@@ -556,26 +613,42 @@ Great unhappiness or suffering.
 **Русский:** отчаяние
 **Countability:** uncountable
 
-The feeling that nothing can get better.
+Despair has 2 distinct senses.
+
+**1. The feeling that nothing can get better.** (отчаяние)
 
 1. He was close to *despair* after the third rejection.
 2. There is a note of *despair* in her letters.
 3. In *despair*, she called her sister at 2 a.m.
+
+**2. The complete loss of hope.** (отчаяние)
+
+4. After the third rejection he sank into *despair*.
+5. There was real *despair* in her voice.
+6. In *despair*, they sold the farm.
 
 ---
 
 ### mourning
 
 **Pronunciation:** /ˈmɔːrnɪŋ/ &middot; *MOR-ning*
-**Русский:** траур, скорбь
+**Русский:** траур, скорбь; траур
 **Countability:** uncountable
 **Contrast:** A homophone of *morning* — same sound, completely different meaning.
 
-The period or state of grieving for someone who has died.
+Mourning has 2 distinct senses.
+
+**1. The period or state of grieving for someone who has died.** (траур, скорбь)
 
 1. The family is still in *mourning*.
 2. He wore black for a year of *mourning*.
 3. The whole country went into *mourning* after the crash.
+
+**2. Deep sadness felt and shown after someone dies.** (траур)
+
+4. The family is still in *mourning*.
+5. She wore black for a year of *mourning*.
+6. The flags were lowered as a sign of *mourning*.
 
 ---
 
@@ -672,6 +745,7 @@ The unhappy feeling of being alone.
 **Pronunciation:** /ˈsɑːlətuːd/ &middot; *SAH-luh-tood*
 **Русский:** уединение
 **Countability:** uncountable
+**Contrast:** *Solitude* is being alone and content; *loneliness* is being alone and unhappy.
 
 The state of being alone, usually by choice and welcome.
 
@@ -944,11 +1018,19 @@ Very strong hatred and disgust.
 **Countability:** uncountable
 **Contrast:** The vowel stays long as in *hate* — HAY-trid, not HAT-rid.
 
-Intense, lasting dislike.
+Hatred has 2 distinct senses.
+
+**1. Intense, lasting dislike.** (ненависть)
 
 1. The letter was full of *hatred*.
 2. *Hatred* like that does not come from nowhere.
 3. He was raised without any *hatred* for anybody.
+
+**2. A very strong feeling of dislike.** (ненависть)
+
+4. The letter was full of *hatred*.
+5. He has a deep *hatred* of paperwork.
+6. Fear can turn into *hatred* very quickly.
 
 ---
 
@@ -988,11 +1070,19 @@ An unhappy wish to have what someone else has.
 **Countability:** uncountable
 **Contrast:** The ea is short — JEL-uh-see, not JEE-luh-see.
 
-Fear of losing someone to a rival, or resentment of another's success.
+Jealousy has 2 distinct senses.
+
+**1. Fear of losing someone to a rival, or resentment of another's success.** (ревность; зависть)
 
 1. *Jealousy* ruined that friendship.
 2. There was a flash of *jealousy* when he mentioned her ex.
 3. Office *jealousy* over the promotion lasted months.
+
+**2. An unhappy feeling caused by fear of losing someone, or by wanting what another has.** (ревность; зависть)
+
+4. *Jealousy* ruined their friendship.
+5. There was a flash of *jealousy* in his eyes.
+6. She admitted to a little *jealousy* over the promotion.
 
 ---
 
@@ -1101,15 +1191,23 @@ A sudden release of strong emotion.
 ### meltdown
 
 **Pronunciation:** /ˈmɛltdaʊn/ &middot; *MELT-down*
-**Русский:** срыв, истерика
+**Русский:** срыв, истерика; расплавление активной зоны реактора
 **Plural:** *meltdowns*
 **Countability:** countable
 
-A total loss of emotional control.
+Meltdown has 2 distinct senses.
+
+**1. A total loss of emotional control.** (срыв, истерика)
 
 1. He had a *meltdown* twenty minutes before the flight.
 2. She was one email away from a full *meltdown*.
 3. Toddler *meltdowns* peak right around nap time.
+
+**2. An accident in which a nuclear reactor overheats and its core melts.** (расплавление активной зоны реактора)
+
+4. The plant came within hours of a *meltdown*.
+5. Two *meltdowns* have shaped how reactors are designed.
+6. Backup pumps are there to prevent a *meltdown*.
 
 ---
 
@@ -1131,29 +1229,45 @@ A collapse of a person's mental health under stress.
 ### terror
 
 **Pronunciation:** /ˈtɛrər/ &middot; *TEH-rur*
-**Русский:** ужас, страх
+**Русский:** ужас, страх; ужас
 **Countability:** uncountable
 
-Extreme, overwhelming fear.
+Terror has 2 distinct senses.
+
+**1. Extreme, overwhelming fear.** (ужас, страх)
 
 1. She froze in *terror* when the lights went out.
 2. The dog runs from thunder in sheer *terror*.
 3. There was real *terror* in his voice on the call.
+
+**2. Very great fear.** (ужас)
+
+4. She froze in *terror* at the top of the ladder.
+5. The dog shook with *terror* during the storm.
+6. His eyes were wide with *terror*.
 
 ---
 
 ### horror
 
 **Pronunciation:** /ˈhɔːrər/ &middot; *HOR-ur*
-**Русский:** ужас (от увиденного)
+**Русский:** ужас (от увиденного); ужас, отвращение
 **Plural:** *horrors*
 **Countability:** countable
 
-Shocked fear and disgust at something awful.
+Horror has 2 distinct senses.
+
+**1. Shocked fear and disgust at something awful.** (ужас (от увиденного))
 
 1. To my *horror*, the file was gone.
 2. She watched in *horror* as the shelf came down.
 3. He described the *horrors* of that winter.
+
+**2. A feeling of shock and disgust, or something that causes it.** (ужас, отвращение)
+
+4. I watched in *horror* as the ladder slipped.
+5. The film shows the *horrors* of the flood.
+6. To her *horror*, the door locked behind her.
 
 ---
 
@@ -1210,11 +1324,19 @@ Sudden fear that stops clear thinking.
 **Countability:** countable
 **Contrast:** The o has the vowel of *hurry* — WUR-ee, not WOR-ee.
 
-Anxious thinking about a possible problem.
+Worry has 2 distinct senses.
+
+**1. Anxious thinking about a possible problem.** (беспокойство, тревога)
 
 1. Money is his biggest *worry* right now.
 2. She has enough *worries* without this.
 3. Try not to let *worry* keep you up.
+
+**2. An anxious feeling, or a particular thing that causes it.** (беспокойство, тревога)
+
+4. The delay caused her a lot of *worry*.
+5. Money *worries* kept him awake.
+6. That's the least of my *worries*.
 
 ---
 
@@ -1296,11 +1418,19 @@ Unfounded belief that others mean you harm.
 **Plural:** *suspicions*
 **Countability:** countable
 
-A belief that something is wrong, without full proof.
+Suspicion has 2 distinct senses.
+
+**1. A belief that something is wrong, without full proof.** (подозрение)
 
 1. I have a *suspicion* he already knew.
 2. Her *suspicions* turned out to be right.
 3. He was arrested on *suspicion* of fraud.
+
+**2. A feeling that something is wrong or that someone is guilty.** (подозрение)
+
+4. I have a *suspicion* he's already left.
+5. Her *suspicions* turned out to be right.
+6. He was arrested on *suspicion* of theft.
 
 ---
 
@@ -1451,43 +1581,67 @@ Something unexpected, or the feeling it causes.
 ### shock
 
 **Pronunciation:** /ʃɑːk/ &middot; *SHAHK*
-**Русский:** потрясение, шок
+**Русский:** потрясение, шок; удар током
 **Plural:** *shocks*
 **Countability:** countable
 
-A sudden upsetting surprise.
+Shock has 2 distinct senses.
+
+**1. A sudden upsetting surprise.** (потрясение, шок)
 
 1. The news came as a *shock* to everyone.
 2. She was still in *shock* an hour later.
 3. The bill was a nasty *shock*.
+
+**2. A sudden painful jolt caused by electricity passing through the body.** (удар током)
+
+4. He got a *shock* from the frayed cord.
+5. Wet hands make a *shock* much more dangerous.
+6. She felt small *shocks* every time she touched the railing.
 
 ---
 
 ### amazement
 
 **Pronunciation:** /əˈmeɪzmənt/ &middot; *uh-MAYZ-muhnt*
-**Русский:** изумление
+**Русский:** изумление; изумление, удивление
 **Countability:** uncountable
 
-Great surprise and wonder.
+Amazement has 2 distinct senses.
+
+**1. Great surprise and wonder.** (изумление)
 
 1. He stared in *amazement* at the size of it.
 2. To our *amazement*, the old truck started.
 3. There was *amazement* on every face in the room.
+
+**2. A feeling of great wonder and surprise.** (изумление, удивление)
+
+4. He watched in *amazement* as she fixed it in a minute.
+5. To their *amazement*, the old truck started.
+6. The trick drew gasps of *amazement*.
 
 ---
 
 ### wonder
 
 **Pronunciation:** /ˈwʌndər/ &middot; *WUN-dur*
-**Русский:** изумление, восхищение
+**Русский:** изумление, восхищение; изумление, восхищение; чудо
 **Countability:** uncountable
 
-Awed surprise at something beautiful or strange.
+Wonder has 2 distinct senses.
+
+**1. Awed surprise at something beautiful or strange.** (изумление, восхищение)
 
 1. The kids looked up at the ceiling in *wonder*.
 2. There is a sense of *wonder* in her early poems.
 3. He never lost his *wonder* at how planes stay up.
+
+**2. A feeling of awe and surprise, or something amazing.** (изумление, восхищение; чудо)
+
+4. The child looked at the fireworks with *wonder*.
+5. The canyon is one of the natural *wonders* of the country.
+6. It's a *wonder* nobody got hurt.
 
 ---
 
@@ -1536,30 +1690,46 @@ A strong, absorbed interest.
 ### obsession
 
 **Pronunciation:** /əbˈsɛʃən/ &middot; *uhb-SESH-uhn*
-**Русский:** навязчивая идея, одержимость
+**Русский:** навязчивая идея, одержимость; одержимость, навязчивая идея
 **Plural:** *obsessions*
 **Countability:** countable
 
-A thought or interest you cannot let go of.
+Obsession has 2 distinct senses.
+
+**1. A thought or interest you cannot let go of.** (навязчивая идея, одержимость)
 
 1. Sourdough became a full *obsession* that year.
 2. His *obsession* with the case cost him his marriage.
 3. Her *obsessions* change every few months.
+
+**2. Something a person cannot stop thinking about, or the state of being controlled by it.** (одержимость, навязчивая идея)
+
+4. Football is a national *obsession* here.
+5. His *obsessions* changed every few months.
+6. Her *obsession* with the case cost her the job.
 
 ---
 
 ### passion
 
 **Pronunciation:** /ˈpæʃən/ &middot; *PASH-uhn*
-**Русский:** страсть; сильное увлечение
+**Русский:** страсть; сильное увлечение; страсть; увлечение
 **Plural:** *passions*
 **Countability:** both — countable and uncountable with different meanings
 
-Intense emotion, or a strong interest you love.
+Passion has 2 distinct senses.
+
+**1. Intense emotion, or a strong interest you love.** (страсть; сильное увлечение)
 
 1. He argued his case with real *passion*.
 2. Cooking is her greatest *passion*.
 3. The debate stirred up old *passions*.
+
+**2. Very strong feeling or a powerful enthusiasm for something.** (страсть; увлечение)
+
+4. He talks about jazz with real *passion*.
+5. Cooking and hiking are her two great *passions*.
+6. The debate stirred up old *passions*.
 
 ---
 
@@ -1569,25 +1739,41 @@ Intense emotion, or a strong interest you love.
 **Русский:** энтузиазм
 **Countability:** uncountable
 
-Eager, energetic interest.
+Enthusiasm has 2 distinct senses.
+
+**1. Eager, energetic interest.** (энтузиазм)
 
 1. She took on the project with real *enthusiasm*.
 2. His *enthusiasm* is contagious.
 3. The plan was met with zero *enthusiasm*.
+
+**2. Strong, eager enjoyment of or interest in something.** (энтузиазм)
+
+4. She took to the job with real *enthusiasm*.
+5. His *enthusiasm* is contagious.
+6. The crowd's *enthusiasm* faded by the fourth quarter.
 
 ---
 
 ### excitement
 
 **Pronunciation:** /ɪkˈsaɪtmənt/ &middot; *ik-SYT-muhnt*
-**Русский:** волнение, воодушевление
+**Русский:** волнение, воодушевление; волнение, возбуждение, азарт
 **Countability:** uncountable
 
-A lively, happy stirred-up feeling.
+Excitement has 2 distinct senses.
+
+**1. A lively, happy stirred-up feeling.** (волнение, воодушевление)
 
 1. There was a lot of *excitement* about the new store.
 2. She could barely sleep from *excitement*.
 3. The *excitement* died down after a week.
+
+**2. A strong feeling of eager interest and energy.** (волнение, возбуждение, азарт)
+
+4. The kids couldn't sleep from *excitement*.
+5. There's a lot of *excitement* about the new store.
+6. In all the *excitement* I forgot my keys.
 
 ---
 
@@ -1673,11 +1859,19 @@ A sudden push to act without thinking.
 **Plural:** *tempers*
 **Countability:** countable
 
-Someone's tendency to get angry, or their current mood.
+Temper has 2 distinct senses.
+
+**1. Someone's tendency to get angry, or their current mood.** (нрав; вспыльчивость)
 
 1. He has a terrible *temper*.
 2. *Tempers* got short in the last mile.
 3. She lost her *temper* for the first time all year.
+
+**2. A tendency to become angry, or a person's state of mind at a moment.** (нрав; вспыльчивость)
+
+4. He has a terrible *temper*.
+5. *Tempers* flared at the town meeting.
+6. She lost her *temper* and walked out.
 
 ---
 
@@ -1703,11 +1897,19 @@ The way someone feels at a particular time.
 **Plural:** *feelings*
 **Countability:** countable
 
-An emotion, or an inner sense about something.
+Feeling has 2 distinct senses.
+
+**1. An emotion, or an inner sense about something.** (чувство, ощущение)
 
 1. I have a *feeling* this is going to work.
 2. You hurt his *feelings* with that joke.
 3. There is a warm *feeling* in that house.
+
+**2. Something a person experiences emotionally or physically.** (чувство, ощущение)
+
+4. I have a bad *feeling* about this.
+5. You hurt her *feelings* with that joke.
+6. There's a strange *feeling* in my left hand.
 
 ---
 
@@ -1747,6 +1949,7 @@ An opinion colored by feeling.
 **Русский:** отношение, настрой
 **Plural:** *attitudes*
 **Countability:** countable
+**Contrast:** Americans say A-tih-tood; the British add a y sound: AT-ih-tyood.
 
 The way someone thinks and feels about something, shown in behavior.
 
@@ -1833,25 +2036,41 @@ The state of not knowing what will happen.
 **Русский:** замешательство, путаница
 **Countability:** uncountable
 
-A state of not understanding what is happening.
+Confusion has 2 distinct senses.
+
+**1. A state of not understanding what is happening.** (замешательство, путаница)
 
 1. There was some *confusion* about the start time.
 2. He blinked in *confusion* at the question.
 3. The new forms caused nothing but *confusion*.
+
+**2. The state of not understanding, or a disordered situation.** (замешательство, путаница)
+
+4. There was some *confusion* about the start time.
+5. In the *confusion* after the fire alarm, I lost my bag.
+6. The new form caused a lot of *confusion*.
 
 ---
 
 ### intuition
 
 **Pronunciation:** /ˌɪntuˈɪʃən/ &middot; *in-too-ISH-uhn*
-**Русский:** интуиция
+**Русский:** интуиция; интуиция, чутьё
 **Countability:** uncountable
 
-Knowing something without being able to explain how.
+Intuition has 2 distinct senses.
+
+**1. Knowing something without being able to explain how.** (интуиция)
 
 1. Trust your *intuition* on this one.
 2. Her *intuition* about people is uncanny.
 3. Good design is part training and part *intuition*.
+
+**2. The ability to know something without needing to reason it out.** (интуиция, чутьё)
+
+4. Her *intuition* told her the deal was bad.
+5. Good nurses work partly on *intuition*.
+6. Trust your *intuition* on this one.
 
 ---
 
@@ -1862,11 +2081,19 @@ Knowing something without being able to explain how.
 **Plural:** *instincts*
 **Countability:** countable
 
-A natural, unlearned way of feeling or acting.
+Instinct has 2 distinct senses.
+
+**1. A natural, unlearned way of feeling or acting.** (инстинкт, чутьё)
 
 1. My first *instinct* was to run.
 2. She has good *instincts* about hiring.
 3. Birds build nests by *instinct*.
+
+**2. A natural way of behaving or knowing that is not learned.** (инстинкт, чутьё)
+
+4. A mother bird's *instinct* is to protect the nest.
+5. Trust your *instincts* on people.
+6. He has a good *instinct* for a bargain.
 
 ---
 
@@ -2028,11 +2255,19 @@ A long breath out that shows relief, tiredness, or sadness.
 **Plural:** *smiles*
 **Countability:** countable
 
-A facial expression showing pleasure or friendliness.
+Smile has 2 distinct senses.
+
+**1. A facial expression showing pleasure or friendliness.** (улыбка)
 
 1. She greeted us with a big *smile*.
 2. That *smile* is on every billboard in town.
 3. The photo is all *smiles* and sunburn.
+
+**2. The happy look you make by turning up the corners of your mouth.** (улыбка)
+
+4. She greeted us with a warm *smile*.
+5. He gave me a quick *smile* and kept walking.
+6. The kids posed with big *smiles*.
 
 ---
 
@@ -2058,11 +2293,19 @@ A wide, often mischievous smile.
 **Plural:** *frowns*
 **Countability:** countable
 
-A facial expression of displeasure or worry.
+Frown has 2 distinct senses.
+
+**1. A facial expression of displeasure or worry.** (хмурый взгляд, нахмуренные брови)
 
 1. A *frown* crossed her face when she read it.
 2. He answered with a *frown* and a shrug.
 3. The news drew *frowns* from the whole table.
+
+**2. An unhappy or worried look made by pulling the eyebrows together.** (хмурый взгляд, нахмуренные брови)
+
+4. A deep *frown* crossed his face.
+5. She read the letter with a *frown*.
+6. His *frowns* told me the news was bad.
 
 ---
 
@@ -2087,11 +2330,19 @@ A loud, shaking cry.
 **Русский:** высокомерие, надменность
 **Countability:** uncountable
 
-An offensive belief that you are better than others.
+Arrogance has 2 distinct senses.
+
+**1. An offensive belief that you are better than others.** (высокомерие, надменность)
 
 1. His *arrogance* cost him the account.
 2. There is a difference between confidence and *arrogance*.
 3. She was put off by the *arrogance* in his email.
+
+**2. An unpleasant sense of your own superiority.** (высокомерие, надменность)
+
+4. His *arrogance* cost him the promotion.
+5. There's a fine line between confidence and *arrogance*.
+6. The tone of the letter struck me as pure *arrogance*.
 
 ---
 

@@ -286,11 +286,19 @@ A small light on an elastic band worn on your forehead.
 **Plural:** *water filters*
 **Countability:** countable
 
-A device that makes stream or lake water safe to drink.
+Water filter has 2 distinct senses.
+
+**1. A device that makes stream or lake water safe to drink.** (фильтр для воды)
 
 1. Run it through the *water filter* first.
 2. Backpacking *water filters* have gotten a lot lighter.
 3. The *water filter* clogged up with silt.
+
+**2. A device that removes dirt, taste, or chemicals from water.** (фильтр для воды)
+
+4. The *water filter* on the fridge needs changing.
+5. A *water filter* under the sink handles the whole kitchen.
+6. *Water filters* for that model are hard to find.
 
 ---
 
@@ -1131,15 +1139,23 @@ Protected land where roads, vehicles and building are not allowed.
 ### switchback
 
 **Pronunciation:** /ˈswɪtʃbæk/ &middot; *SWICH-bak*
-**Русский:** серпантин, зигзаг тропы
+**Русский:** серпантин, зигзаг тропы; серпантин, крутой поворот на подъёме
 **Plural:** *switchbacks*
 **Countability:** countable
 
-A sharp turn in a trail that zigzags up a steep slope.
+Switchback has 2 distinct senses.
+
+**1. A sharp turn in a trail that zigzags up a steep slope.** (серпантин, зигзаг тропы)
 
 1. There's a bench at the last *switchback*.
 2. We counted forty *switchbacks* on the way up.
 3. Don't cut the corner on a *switchback* — it wrecks the trail.
+
+**2. A sharp bend that reverses direction on a road climbing a hill.** (серпантин, крутой поворот на подъёме)
+
+4. The road up the canyon is one *switchback* after another.
+5. Count six *switchbacks* and you're at the top.
+6. Take the *switchback* slowly in a big truck.
 
 ---
 
@@ -1309,15 +1325,23 @@ A shallow place where you can walk or drive across a stream.
 ### stepping stone
 
 **Pronunciation:** /ˈstɛpɪŋ stoʊn/ &middot; *STEP-ing-stohn*
-**Русский:** камень для перехода (через ручей)
+**Русский:** камень для перехода (через ручей); плита садовой дорожки
 **Plural:** *stepping stones*
 **Countability:** countable
 
-A raised stone you step on to cross shallow water or mud.
+Stepping stone has 2 distinct senses.
+
+**1. A raised stone you step on to cross shallow water or mud.** (камень для перехода (через ручей))
 
 1. One *stepping stone* was slick with moss.
 2. We hopped across on the *stepping stones*.
 3. She missed the last *stepping stone* and soaked one boot.
+
+**2. A flat stone set in the ground to walk on.** (плита садовой дорожки)
+
+4. One *stepping stone* has sunk about two inches.
+5. The *stepping stones* lead from the gate to the porch.
+6. Set each *stepping stone* on a bed of sand.
 
 ---
 

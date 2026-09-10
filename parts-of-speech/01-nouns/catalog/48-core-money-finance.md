@@ -119,15 +119,23 @@ An American coin worth twenty-five cents, or a three-month business period.
 ### account
 
 **Pronunciation:** /əˈkaʊnt/ &middot; *uh-KOWNT*
-**Русский:** счёт (банковский)
+**Русский:** счёт (банковский); счёт; клиент (в работе)
 **Plural:** *accounts*
 **Countability:** countable
 
-An arrangement that lets you keep money at a bank.
+Account has 2 distinct senses.
+
+**1. An arrangement that lets you keep money at a bank.** (счёт (банковский))
 
 1. I opened a checking *account* last week.
 2. There's nothing left in my *account*.
 3. They froze both *accounts* during the investigation.
+
+**2. An arrangement with a bank or company, or a client a company works for.** (счёт; клиент (в работе))
+
+4. She handles our biggest *account*.
+5. The money went into the wrong *account*.
+6. He lost two *accounts* in one quarter.
 
 ---
 
@@ -306,11 +314,19 @@ An amount of money paid, or the act of paying it.
 **Countability:** countable
 **Contrast:** The *p* is silent — say rih-SEET.
 
-A printed proof that you paid for something.
+Receipt has 2 distinct senses.
+
+**1. A printed proof that you paid for something.** (чек, квитанция)
 
 1. Keep the *receipt* in case you return it.
 2. I can't find the *receipt* for the printer.
 3. Save your *receipts* for tax season.
+
+**2. A slip of paper proving that something was paid for.** (чек, квитанция)
+
+4. Keep the *receipt* in case you need to return it.
+5. I can't get reimbursed without a *receipt*.
+6. She had a shoebox full of *receipts*.
 
 ---
 
@@ -768,15 +784,23 @@ A debt or obligation that a person or company owes.
 ### capital
 
 **Pronunciation:** /ˈkæpətəl/ &middot; *KAP-uh-tuhl*
-**Русский:** капитал
+**Русский:** капитал; заглавная буква
 **Countability:** uncountable
 **Contrast:** Financial *capital* is uncountable; a *capital* meaning a city is a different, countable word.
 
-Money available to invest in or run a business.
+Capital has 2 distinct senses.
+
+**1. Money available to invest in or run a business.** (капитал)
 
 1. They need *capital* to expand.
 2. The startup raised *capital* from three funds.
 3. Most of his *capital* is tied up in real estate.
+
+**2. A large form of a letter, used to begin a sentence or a name.** (заглавная буква)
+
+4. Start the name with a *capital*.
+5. The whole sign was in *capitals*.
+6. You typed my last name without a *capital*.
 
 ---
 
@@ -1145,6 +1169,7 @@ A fixed amount of money paid to an employee, usually monthly or yearly.
 **Русский:** зарплата, получка
 **Plural:** *paychecks*
 **Countability:** countable
+**Contrast:** American; the British write pay cheque, or say payslip for the document.
 
 The payment an employee receives for a period of work.
 
@@ -1162,11 +1187,19 @@ The payment an employee receives for a period of work.
 **Countability:** countable
 **Contrast:** Americans get a *raise*; the British get a *rise*.
 
-An increase in the amount someone is paid for their work.
+Raise has 2 distinct senses.
+
+**1. An increase in the amount someone is paid for their work.** (повышение зарплаты)
 
 1. I asked for a *raise* and got it.
 2. Nobody's had a *raise* in two years.
 3. The *raises* take effect in January.
+
+**2. An increase in the money you are paid.** (повышение зарплаты)
+
+4. I asked my boss for a *raise*.
+5. He got a five percent *raise* in January.
+6. Nobody's gotten *raises* since the merger.
 
 ---
 
@@ -1232,16 +1265,24 @@ The amount paid regularly to keep an insurance policy active.
 ### policy
 
 **Pronunciation:** /ˈpɑːləsi/ &middot; *PAH-luh-see*
-**Русский:** страховой полис
+**Русский:** страховой полис; политика, правила (компании)
 **Plural:** *policies*
 **Countability:** countable
 **Contrast:** Two senses: an insurance contract, and a rule or course of action.
 
-A written insurance contract between a company and a customer.
+Policy has 2 distinct senses.
+
+**1. A written insurance contract between a company and a customer.** (страховой полис)
 
 1. He took out a life insurance *policy*.
 2. Read the *policy* before you sign it.
 3. Both *policies* expire in March.
+
+**2. An official rule or approach that an organization follows.** (политика, правила (компании))
+
+4. That's against company *policy*.
+5. The new *policy* takes effect in January.
+6. They rewrote all the vacation *policies*.
 
 ---
 
@@ -1413,16 +1454,24 @@ A regular payment for ongoing access to a service.
 ### estimate
 
 **Pronunciation:** /ˈɛstəmət/ &middot; *ES-tuh-mut*
-**Русский:** смета, предварительный расчёт
+**Русский:** смета, предварительный расчёт; смета, предварительная оценка
 **Plural:** *estimates*
 **Countability:** countable
 **Contrast:** The noun ends in a weak ES-tuh-mut; the verb ends in a full ES-tuh-mayt.
 
-A statement of what a job is likely to cost.
+Estimate has 2 distinct senses.
+
+**1. A statement of what a job is likely to cost.** (смета, предварительный расчёт)
 
 1. I got three *estimates* for the roof.
 2. The *estimate* came in way over budget.
 3. Their *estimate* didn't include labor.
+
+**2. A rough calculation of what something will cost or how long it will take.** (смета, предварительная оценка)
+
+4. Can you give me an *estimate* by Thursday?
+5. The *estimate* came in way over what we expected.
+6. We got three *estimates* before hiring anyone.
 
 ---
 
@@ -1551,6 +1600,7 @@ Someone who starts a business and takes on its financial risk.
 **Русский:** потребитель
 **Plural:** *consumers*
 **Countability:** countable
+**Contrast:** Americans say kun-SOO-mur; the British add a y sound: kun-SYOO-mur.
 
 A person who buys goods and services for personal use.
 
@@ -1563,16 +1613,24 @@ A person who buys goods and services for personal use.
 ### contract
 
 **Pronunciation:** /ˈkɑːntrækt/ &middot; *KAHN-trakt*
-**Русский:** договор, контракт
+**Русский:** договор, контракт; контракт, договор
 **Plural:** *contracts*
 **Countability:** countable
 **Contrast:** Noun stress falls on the first syllable (KAHN-trakt); the verb stresses the second (kuhn-TRAKT).
 
-A legally binding agreement between two or more parties.
+Contract has 2 distinct senses.
+
+**1. A legally binding agreement between two or more parties.** (договор, контракт)
 
 1. Read the *contract* before you sign it.
 2. Both *contracts* expire in June.
 3. They're renegotiating the *contract*.
+
+**2. A legal agreement in writing between two sides.** (контракт, договор)
+
+4. Read the *contract* before you sign anything.
+5. Her *contract* runs through December.
+6. They lost two big *contracts* this quarter.
 
 ---
 
@@ -1640,15 +1698,23 @@ Money given for a specific purpose that does not have to be paid back.
 ### startup
 
 **Pronunciation:** /ˈstɑːrtʌp/ &middot; *START-up*
-**Русский:** стартап
+**Русский:** стартап; стартап, молодая компания
 **Plural:** *startups*
 **Countability:** countable
 
-A young company built to grow fast, usually on investors' money.
+Startup has 2 distinct senses.
+
+**1. A young company built to grow fast, usually on investors' money.** (стартап)
 
 1. She left the bank for a *startup*.
 2. Most *startups* fail within five years.
 3. The *startup* raised ten million dollars.
+
+**2. A new company, usually small and aiming to grow fast.** (стартап, молодая компания)
+
+4. He quit a steady job to join a *startup*.
+5. Most *startups* run out of money in the first two years.
+6. The *startup* raised eight million dollars last spring.
 
 ---
 

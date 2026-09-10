@@ -534,15 +534,23 @@ A short connector that joins two pipes or changes their direction.
 ### coupling
 
 **Pronunciation:** /ˈkʌplɪŋ/ &middot; *KUP-ling*
-**Русский:** муфта (соединительная)
+**Русский:** муфта (соединительная); сцепка, сцепное устройство
 **Plural:** *couplings*
 **Countability:** countable
 
-A short sleeve that joins two lengths of pipe end to end.
+Coupling has 2 distinct senses.
+
+**1. A short sleeve that joins two lengths of pipe end to end.** (муфта (соединительная))
 
 1. Slide a *coupling* over the cut and solder it.
 2. The *coupling* started weeping after a month.
 3. Buy a few extra *couplings* while you're there.
+
+**2. The connection between two cars, or the act of joining them.** (сцепка, сцепное устройство)
+
+4. You felt a jolt at every *coupling*.
+5. The *couplings* were checked before the train left the yard.
+6. *Coupling* the cars took the crew about twenty minutes.
 
 ---
 

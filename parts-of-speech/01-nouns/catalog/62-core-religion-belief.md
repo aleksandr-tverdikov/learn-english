@@ -1251,15 +1251,23 @@ A period of staying awake to pray or to remember someone.
 ### cross
 
 **Pronunciation:** /krɔːs/ &middot; *KRAWSS*
-**Русский:** крест
+**Русский:** крест; крест, крестик
 **Plural:** *crosses*
 **Countability:** countable
 
-An upright shape with a bar across it, the main symbol of Christianity.
+Cross has 2 distinct senses.
+
+**1. An upright shape with a bar across it, the main symbol of Christianity.** (крест)
 
 1. She wears a small gold *cross*.
 2. A wooden *cross* stands on the hill.
 3. White *crosses* mark the graves.
+
+**2. A shape made of one line crossing another.** (крест, крестик)
+
+4. Mark the spot with a *cross*.
+5. She wears a small silver *cross*.
+6. There were two white *crosses* painted on the door.
 
 ---
 
@@ -1296,15 +1304,23 @@ A substance burned to make a sweet smell during worship.
 ### icon
 
 **Pronunciation:** /ˈaɪkɑːn/ &middot; *EYE-kahn*
-**Русский:** икона
+**Русский:** икона; значок, иконка
 **Plural:** *icons*
 **Countability:** countable
 
-A painted religious image, especially in Orthodox churches.
+Icon has 2 distinct senses.
+
+**1. A painted religious image, especially in Orthodox churches.** (икона)
 
 1. An old *icon* hung in the corner of the room.
 2. The *icon* is painted on wood with gold leaf.
 3. The museum holds two hundred Russian *icons*.
+
+**2. A small picture on a screen that stands for a file or program.** (значок, иконка)
+
+4. Double-click the *icon* on your desktop.
+5. The *icons* are too small to see on this monitor.
+6. There's a little gear *icon* for settings.
 
 ---
 
@@ -1471,26 +1487,42 @@ A leader expected to come and save a people.
 **Countability:** countable
 **Contrast:** Sounds exactly like 'sole' (подошва; единственный).
 
-The spiritual part of a person, believed to live on after death.
+Soul has 2 distinct senses.
+
+**1. The spiritual part of a person, believed to live on after death.** (душа)
 
 1. She prayed for his *soul*.
 2. There wasn't a *soul* on the street.
 3. The old hymn is about lost *souls* finding their way home.
+
+**2. The spiritual part of a person, thought of as separate from the body.** (душа)
+
+4. He believes the *soul* outlives the body.
+5. There wasn't a *soul* on the beach that morning.
+6. She poured her whole *soul* into that painting.
 
 ---
 
 ### spirit
 
 **Pronunciation:** /ˈspɪrɪt/ &middot; *SPIH-rit*
-**Русский:** дух
+**Русский:** дух; дух, настрой; настроение
 **Plural:** *spirits*
 **Countability:** countable
 
-A being without a body, or the non-physical part of a person.
+Spirit has 2 distinct senses.
+
+**1. A being without a body, or the non-physical part of a person.** (дух)
 
 1. They believe a *spirit* watches over the house.
 2. His body was weak but his *spirit* wasn't.
 3. The story is full of forest *spirits*.
+
+**2. A person's inner energy and attitude, or a being without a body.** (дух, настрой; настроение)
+
+4. The team showed real fighting *spirit*.
+5. Her *spirits* lifted once the sun came out.
+6. The old house is said to have a *spirit* in the attic.
 
 ---
 
@@ -1862,14 +1894,22 @@ In Buddhism, the perfect peace reached when suffering and desire end.
 ### devotion
 
 **Pronunciation:** /dɪˈvoʊʃən/ &middot; *dih-VOH-shuhn*
-**Русский:** преданность; набожность
+**Русский:** преданность; набожность; преданность
 **Countability:** uncountable
 
-Deep love and loyalty, especially toward a god or a person.
+Devotion has 2 distinct senses.
+
+**1. Deep love and loyalty, especially toward a god or a person.** (преданность; набожность)
 
 1. Her *devotion* to her students was obvious.
 2. The shrine is a place of quiet *devotion*.
 3. He cared for his wife with total *devotion*.
+
+**2. Deep, lasting loyalty and love.** (преданность)
+
+4. Her *devotion* to her students was obvious.
+5. He cared for his father with quiet *devotion*.
+6. The fans' *devotion* survived thirty losing seasons.
 
 ---
 
@@ -1924,11 +1964,19 @@ The complete destruction of the world, especially as described in the Bible.
 **Plural:** *temptations*
 **Countability:** countable
 
-A strong wish to do something you know is wrong.
+Temptation has 2 distinct senses.
+
+**1. A strong wish to do something you know is wrong.** (искушение, соблазн)
 
 1. He gave in to *temptation* and bought it anyway.
 2. The story is about resisting *temptation*.
 3. The city is full of *temptations*.
+
+**2. The pull toward something you know you should avoid.** (искушение, соблазн)
+
+4. I resisted the *temptation* to hit reply all.
+5. The dessert cart is a real *temptation*.
+6. He gave in to *temptation* and bought the truck.
 
 ---
 

@@ -197,16 +197,24 @@ A long narrow passage inside a building with rooms opening off it.
 ### closet
 
 **Pronunciation:** /ˈklɑːzɪt/ &middot; *KLAH-zit*
-**Русский:** встроенный шкаф, кладовка
+**Русский:** встроенный шкаф, кладовка; встроенный шкаф, гардеробная
 **Plural:** *closets*
 **Countability:** countable
 **Contrast:** An American *closet* is built into the wall, not a free-standing piece of furniture.
 
-A small storage room built into the wall of a house.
+Closet has 2 distinct senses.
+
+**1. A small storage room built into the wall of a house.** (встроенный шкаф, кладовка)
 
 1. Your coat's in the hall *closet*.
 2. This bedroom doesn't have a *closet*.
 3. I cleaned out both *closets* over the weekend.
+
+**2. A small storage room or recess in a wall, usually for clothes.** (встроенный шкаф, гардеробная)
+
+4. Hang your coat in the hall *closet*.
+5. This apartment has almost no *closet* space.
+6. The bedroom *closets* are surprisingly deep.
 
 ---
 
@@ -334,15 +342,23 @@ A long passage in a building with doors along it.
 ### nursery
 
 **Pronunciation:** /ˈnɜːrsəri/ &middot; *NUR-suh-ree*
-**Русский:** детская комната
+**Русский:** детская комната; питомник растений, садовый центр
 **Plural:** *nurseries*
 **Countability:** countable
 
-A room in a home set up for a baby or small child.
+Nursery has 2 distinct senses.
+
+**1. A room in a home set up for a baby or small child.** (детская комната)
 
 1. They painted the *nursery* pale green.
 2. The monitor picks up every sound from the *nursery*.
 3. Both *nurseries* were done before the twins arrived.
+
+**2. A place where young plants and trees are grown and sold.** (питомник растений, садовый центр)
+
+4. We picked up two apple trees at the *nursery*.
+5. The *nursery* out on Route 9 has the best perennials.
+6. Most *nurseries* around here close down in December.
 
 ---
 
@@ -364,15 +380,23 @@ An open upper space under a roof, or an apartment made from an old factory floor
 ### den
 
 **Pronunciation:** /dɛn/ &middot; *DEN*
-**Русский:** кабинет, комната отдыха
+**Русский:** кабинет, комната отдыха; логово, берлога
 **Plural:** *dens*
 **Countability:** countable
 
-A small comfortable room in a house used for reading, watching TV or working.
+Den has 2 distinct senses.
+
+**1. A small comfortable room in a house used for reading, watching TV or working.** (кабинет, комната отдыха)
 
 1. Dad's asleep in the *den* again.
 2. We turned the spare bedroom into a *den*.
 3. The listing says three bedrooms plus a *den*.
+
+**2. The hidden home of a wild animal such as a bear or a fox.** (логово, берлога)
+
+4. The bear went back into its *den* in November.
+5. We found a fox *den* under the barn.
+6. Coyote *dens* are usually dug into a bank.
 
 ---
 
@@ -394,15 +418,23 @@ A room with toilets in a public building.
 ### office
 
 **Pronunciation:** /ˈɔːfɪs/ &middot; *AW-fis*
-**Русский:** кабинет, офис
+**Русский:** кабинет, офис; офис, контора
 **Plural:** *offices*
 **Countability:** countable
 
-A room where someone works at a desk.
+Office has 2 distinct senses.
+
+**1. A room where someone works at a desk.** (кабинет, офис)
 
 1. She works out of a home *office* upstairs.
 2. Come by my *office* around three.
 3. All the corner *offices* have windows on two sides.
+
+**2. A room or building where people do desk work for a company.** (офис, контора)
+
+4. Stop by my *office* after lunch.
+5. They opened a second *office* in Denver.
+6. Most of our *offices* are half empty on Fridays.
 
 ---
 
@@ -547,15 +579,23 @@ The round handle you turn to open a door.
 ### handle
 
 **Pronunciation:** /ˈhændəl/ &middot; *HAN-duhl*
-**Русский:** ручка (дверная, у сумки)
+**Русский:** ручка (дверная, у сумки); ручка, рукоятка
 **Plural:** *handles*
 **Countability:** countable
 
-The part of a door, drawer or bag that you hold to open or carry it.
+Handle has 2 distinct senses.
+
+**1. The part of a door, drawer or bag that you hold to open or carry it.** (ручка (дверная, у сумки))
 
 1. Pull the *handle* toward you, don't push.
 2. The *handle* on the freezer is loose.
 3. All the cabinet *handles* are the same brushed nickel.
+
+**2. The part of a tool or door made to be held.** (ручка, рукоятка)
+
+4. The *handle* on the hammer is cracked.
+5. Grab it by the *handle*, not the blade.
+6. Both drawer *handles* were loose.
 
 ---
 
@@ -851,15 +891,23 @@ A rounded roof shaped like half a ball.
 ### foundation
 
 **Pronunciation:** /faʊnˈdeɪʃən/ &middot; *fown-DAY-shuhn*
-**Русский:** фундамент
+**Русский:** фундамент; тональный крем
 **Plural:** *foundations*
 **Countability:** countable
 
-The solid base built underground that a building rests on.
+Foundation has 2 distinct senses.
+
+**1. The solid base built underground that a building rests on.** (фундамент)
 
 1. There's a crack in the *foundation*.
 2. They poured the *foundation* last week.
 3. Older houses on this street have stone *foundations*.
+
+**2. A cream or liquid spread over the face to even out skin color.** (тональный крем)
+
+4. Her *foundation* is about two shades too light.
+5. He put on *foundation* before the interview lights went up.
+6. This *foundation* comes off on your collar.
 
 ---
 
@@ -964,11 +1012,19 @@ The narrow board running along the bottom of an interior wall.
 **Plural:** *shutters*
 **Countability:** countable
 
-A hinged wooden or metal cover on the outside of a window.
+Shutter has 2 distinct senses.
+
+**1. A hinged wooden or metal cover on the outside of a window.** (ставень)
 
 1. One *shutter* is hanging crooked.
 2. They closed the *shutters* before the storm hit.
 3. The blue *shutters* really make the house stand out.
+
+**2. A hinged panel that covers a window from inside or outside.** (ставень)
+
+4. One *shutter* is hanging by a single hinge.
+5. They painted the *shutters* dark green.
+6. We closed the *shutters* before the storm.
 
 ---
 
@@ -978,6 +1034,7 @@ A hinged wooden or metal cover on the outside of a window.
 **Русский:** жалюзи, рулонная штора
 **Plural:** *blinds*
 **Countability:** countable
+**Contrast:** Same spelling as the adjective *blind*, and usually spoken of in the plural: *the blinds*.
 
 A window cover made of slats or a roll of material that pulls down.
 
@@ -990,15 +1047,23 @@ A window cover made of slats or a roll of material that pulls down.
 ### curtain
 
 **Pronunciation:** /ˈkɜːrtən/ &middot; *KUR-tuhn*
-**Русский:** занавеска, штора
+**Русский:** занавеска, штора; штора, занавеска
 **Plural:** *curtains*
 **Countability:** countable
 
-A piece of cloth hung across a window or opening.
+Curtain has 2 distinct senses.
+
+**1. A piece of cloth hung across a window or opening.** (занавеска, штора)
 
 1. Pull the *curtains* — the neighbors can see in.
 2. The shower *curtain* is coming off its rings.
 3. She sewed the *curtains* herself.
+
+**2. A hanging piece of cloth that covers a window.** (штора, занавеска)
+
+4. Close the *curtains* — the sun's right in my eyes.
+5. She sewed a *curtain* for the kitchen window.
+6. The shower *curtain* needs replacing.
 
 ---
 
@@ -1036,15 +1101,23 @@ A single sheet of glass in a window or door.
 ### frame
 
 **Pronunciation:** /freɪm/ &middot; *FRAYM*
-**Русский:** рама, каркас
+**Русский:** рама, каркас; оправа (очков); рамка
 **Plural:** *frames*
 **Countability:** countable
 
-The border or structure that holds a door, window or picture in place.
+Frame has 2 distinct senses.
+
+**1. The border or structure that holds a door, window or picture in place.** (рама, каркас)
 
 1. The door *frame* is warped, so it won't latch.
 2. Water got in around the window *frame*.
 3. All the *frames* are aluminum, not wood.
+
+**2. The part of a pair of glasses that holds the lenses.** (оправа (очков); рамка)
+
+4. She picked out tortoiseshell *frames*.
+5. The *frame* broke right at the hinge.
+6. Those *frames* are too wide for your face.
 
 ---
 
@@ -1189,12 +1262,21 @@ A thin flat piece of baked clay or stone used to cover floors, walls or roofs.
 **Русский:** ковёр; ковровое покрытие
 **Plural:** *carpets*
 **Countability:** countable, and uncountable as a substance
+**Contrast:** Fitted floor covering is uncountable in the US — *new carpet*, *wall-to-wall carpet* — while a loose piece is usually called a *rug*.
 
-Thick woven material that covers a floor.
+Carpet has 2 distinct senses.
+
+**1. Thick woven material that covers a floor.** (ковёр; ковровое покрытие)
 
 1. There's wall-to-wall *carpet* in every bedroom.
 2. We pulled up the *carpet* and found hardwood underneath.
 3. The *carpets* in the hallway are worn through.
+
+**2. A thick woven floor covering, often fitted wall to wall.** (ковёр; ковровое покрытие)
+
+4. We're pulling up the old *carpet* and refinishing the floors.
+5. There's a stain on the *carpet* in the hallway.
+6. Persian *carpets* like that don't come cheap.
 
 ---
 
@@ -1218,6 +1300,7 @@ Decorated paper glued to the walls of a room.
 **Pronunciation:** /ˌɪnsəˈleɪʃən/ &middot; *in-suh-LAY-shuhn*
 **Русский:** изоляция, утеплитель
 **Countability:** uncountable
+**Contrast:** Uncountable in English: say *some insulation* or *a roll of insulation*, never *an insulation*.
 
 Material put in walls and roofs to keep heat in or out.
 
@@ -1263,27 +1346,44 @@ A temporary framework of poles and planks that workers stand on.
 **Русский:** ванна
 **Plural:** *bathtubs*
 **Countability:** countable
+**Contrast:** Americans say *bathtub* or just *tub*; the British call it a *bath*, which in the US means the act of washing.
 
-A long container you fill with water and sit in to wash.
+Bathtub has 2 distinct senses.
+
+**1. A long container you fill with water and sit in to wash.** (ванна)
 
 1. The *bathtub* drains really slowly.
 2. She was reading in the *bathtub* until the water went cold.
 3. Both *bathtubs* are the old cast-iron kind.
+
+**2. The large fixed basin you sit in to wash.** (ванна)
+
+4. The kids are in the *bathtub*.
+5. That old cast-iron *bathtub* weighs a ton.
+6. Some of the newer units don't even have *bathtubs*.
 
 ---
 
 ### shower
 
 **Pronunciation:** /ˈʃaʊər/ &middot; *SHOW-ur*
-**Русский:** душ
+**Русский:** душ; кратковременный дождь, ливень
 **Plural:** *showers*
 **Countability:** countable
 
-A fixture that sprays water over you for washing, or the act of washing there.
+Shower has 2 distinct senses.
+
+**1. A fixture that sprays water over you for washing, or the act of washing there.** (душ)
 
 1. The *shower* takes forever to get hot.
 2. I'm going to jump in the *shower* real quick.
 3. The new bathroom has a walk-in *shower*.
+
+**2. A short period of rain or snow.** (кратковременный дождь, ливень)
+
+4. We got a quick *shower* around lunchtime.
+5. Scattered *showers* are likely this afternoon.
+6. The *shower* passed in about ten minutes.
 
 ---
 
@@ -1295,11 +1395,19 @@ A fixture that sprays water over you for washing, or the act of washing there.
 **Countability:** countable
 **Contrast:** In American English *toilet* means the fixture itself; the room is the bathroom or restroom.
 
-The bowl-shaped fixture used for getting rid of body waste.
+Toilet has 2 distinct senses.
+
+**1. The bowl-shaped fixture used for getting rid of body waste.** (унитаз)
 
 1. The *toilet* keeps running after you flush.
 2. He fixed the *toilet* with a five-dollar part.
 3. All the *toilets* on that floor were out of order.
+
+**2. The seated fixture used for waste, with a bowl and a flush.** (унитаз)
+
+4. The *toilet* keeps running after you flush.
+5. He dropped his phone in the *toilet*.
+6. The stadium has about forty *toilets* and they're all occupied.
 
 ---
 
@@ -1310,11 +1418,19 @@ The bowl-shaped fixture used for getting rid of body waste.
 **Plural:** *drains*
 **Countability:** countable
 
-The hole and pipe that carries used water away.
+Drain has 2 distinct senses.
+
+**1. The hole and pipe that carries used water away.** (слив, сток)
 
 1. Something's stuck in the shower *drain*.
 2. Don't pour grease down the *drain*.
 3. All the *drains* in the basement back up when it rains hard.
+
+**2. The opening that water runs out through.** (слив, сток)
+
+4. The shower *drain* is clogged again.
+5. Hair keeps going down the *drain*.
+6. All the *drains* in this house are slow.
 
 ---
 
@@ -1400,11 +1516,19 @@ The place in a wall where you plug in an electrical device.
 **Plural:** *switches*
 **Countability:** countable
 
-The small device on a wall that turns a light on and off.
+Switch has 2 distinct senses.
+
+**1. The small device on a wall that turns a light on and off.** (выключатель)
 
 1. The *switch* is on your left as you come in.
 2. One of these *switches* controls the porch light.
 3. He flipped the *switch* and nothing happened.
+
+**2. A small control you flip to turn power on or off.** (выключатель)
+
+4. The light *switch* is right by the door.
+5. He flipped the *switch* and nothing happened.
+6. Both *switches* control the same light.
 
 ---
 
@@ -1414,6 +1538,7 @@ The small device on a wall that turns a light on and off.
 **Русский:** батарея отопления, радиатор
 **Plural:** *radiators*
 **Countability:** countable
+**Contrast:** Stress falls on the first syllable — RAY-dee-ay-tur — not on the second as in Russian *радиатор*.
 
 A metal heating unit that warms a room with hot water or steam.
 
@@ -1445,11 +1570,19 @@ The machine that heats a whole house, usually in the basement.
 **Plural:** *thermostats*
 **Countability:** countable
 
-A device on a wall that controls the heating or cooling.
+Thermostat has 2 distinct senses.
+
+**1. A device on a wall that controls the heating or cooling.** (термостат)
 
 1. Somebody turned the *thermostat* down to sixty.
 2. We put in a smart *thermostat* last year.
 3. The *thermostats* on each floor are set separately.
+
+**2. A control that keeps a room at a set temperature.** (термостат)
+
+4. Somebody turned the *thermostat* down to sixty.
+5. The *thermostat* is out in the hallway.
+6. They put smart *thermostats* in every unit.
 
 ---
 

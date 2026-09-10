@@ -925,14 +925,43 @@
       "term": "shot",
       "ipa": "/ʃɑːt/",
       "respell": "SHAHT",
-      "meaning": "The everyday American word for an injection, especially a vaccine. ---",
+      "meaning": "Shot has 2 distinct senses.",
       "examples": [
         "I am getting my flu shot tomorrow.",
         "The baby is due for two shots at this visit.",
-        "It is just one quick shot in the arm."
+        "It is just one quick shot in the arm.",
+        "They each did a shot of tequila.",
+        "Two shots of espresso, please.",
+        "He ordered a beer and a shot."
       ],
-      "senses": [],
-      "русский": "укол, прививка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The everyday American word for an injection, especially a vaccine",
+          "body": [
+            "(укол, прививка)"
+          ],
+          "examples": [
+            "I am getting my flu shot tomorrow.",
+            "The baby is due for two shots at this visit.",
+            "It is just one quick shot in the arm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small serving of strong liquor or espresso drunk at once",
+          "body": [
+            "(рюмка крепкого; порция эспрессо)",
+            "---"
+          ],
+          "examples": [
+            "They each did a shot of tequila.",
+            "Two shots of espresso, please.",
+            "He ordered a beer and a shot."
+          ]
+        }
+      ],
+      "русский": "укол, прививка; рюмка крепкого; порция эспрессо",
       "plural": "shots",
       "countability": "countable",
       "contrast": "Americans get a shot; the British get a jab."
@@ -1032,14 +1061,43 @@
       "term": "stitch",
       "ipa": "/stɪtʃ/",
       "respell": "STICH",
-      "meaning": "A loop of thread used to close a wound. ---",
+      "meaning": "Stitch has 2 distinct senses.",
       "examples": [
         "The cut took six stitches.",
         "He goes back Friday to get the stitches out.",
-        "One stitch came loose overnight."
+        "One stitch came loose overnight.",
+        "A few stitches came out along the hem.",
+        "She put in one more stitch and cut the thread.",
+        "The stitches on this bag are already coming apart."
       ],
-      "senses": [],
-      "русский": "шов (хирургический)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A loop of thread used to close a wound",
+          "body": [
+            "(шов (хирургический))"
+          ],
+          "examples": [
+            "The cut took six stitches.",
+            "He goes back Friday to get the stitches out.",
+            "One stitch came loose overnight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One loop of thread made by a needle when sewing",
+          "body": [
+            "(стежок)",
+            "---"
+          ],
+          "examples": [
+            "A few stitches came out along the hem.",
+            "She put in one more stitch and cut the thread.",
+            "The stitches on this bag are already coming apart."
+          ]
+        }
+      ],
+      "русский": "шов (хирургический); стежок",
       "plural": "stitches",
       "countability": "countable"
     },
@@ -1198,14 +1256,43 @@
       "term": "temperature",
       "ipa": "/ˈtɛmprətʃər/",
       "respell": "TEM-pruh-chur",
-      "meaning": "How hot the body is, measured as a sign of health. ---",
+      "meaning": "Temperature has 2 distinct senses.",
       "examples": [
         "Let me take your temperature.",
         "His temperature is up to 101.",
-        "Temperatures over 104 need a doctor."
+        "Temperatures over 104 need a doctor.",
+        "Bring the butter to room temperature first.",
+        "Check the internal temperature with a thermometer.",
+        "Ovens hold temperatures differently, so watch the food, not the clock."
       ],
-      "senses": [],
-      "русский": "температура (тела)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How hot the body is, measured as a sign of health",
+          "body": [
+            "(температура (тела))"
+          ],
+          "examples": [
+            "Let me take your temperature.",
+            "His temperature is up to 101.",
+            "Temperatures over 104 need a doctor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How hot or cold something is, measured in degrees",
+          "body": [
+            "(температура)",
+            "---"
+          ],
+          "examples": [
+            "Bring the butter to room temperature first.",
+            "Check the internal temperature with a thermometer.",
+            "Ovens hold temperatures differently, so watch the food, not the clock."
+          ]
+        }
+      ],
+      "русский": "температура (тела); температура",
       "plural": "temperatures",
       "countability": "countable",
       "contrast": "Usually squeezed to three syllables in American speech — TEM-pruh-chur, not TEM-per-uh-toor."
@@ -1560,7 +1647,8 @@
       ],
       "senses": [],
       "русский": "страховка, страхование",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable — say I have insurance, never an insurance."
     },
     {
       "term": "wheelchair",
@@ -1628,14 +1716,43 @@
       "term": "needle",
       "ipa": "/ˈniːdəl/",
       "respell": "NEE-duhl",
-      "meaning": "The thin sharp metal tube used to give an injection. ---",
+      "meaning": "Needle has 2 distinct senses.",
       "examples": [
         "She looks away every time the needle goes in.",
         "The needles are single-use.",
-        "It is a very fine needle — you barely feel it."
+        "It is a very fine needle — you barely feel it.",
+        "She threaded the needle on the first try.",
+        "There's a needle stuck in the pincushion.",
+        "Sewing needles come in different sizes."
       ],
-      "senses": [],
-      "русский": "игла (шприца)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thin sharp metal tube used to give an injection",
+          "body": [
+            "(игла (шприца))"
+          ],
+          "examples": [
+            "She looks away every time the needle goes in.",
+            "The needles are single-use.",
+            "It is a very fine needle — you barely feel it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin pointed metal tool with a hole for thread",
+          "body": [
+            "(игла, иголка)",
+            "---"
+          ],
+          "examples": [
+            "She threaded the needle on the first try.",
+            "There's a needle stuck in the pincushion.",
+            "Sewing needles come in different sizes."
+          ]
+        }
+      ],
+      "русский": "игла (шприца); игла, иголка",
       "plural": "needles",
       "countability": "countable"
     },
@@ -1643,14 +1760,43 @@
       "term": "thermometer",
       "ipa": "/θərˈmɑːmɪtər/",
       "respell": "thur-MAH-muh-tur",
-      "meaning": "A device that measures body temperature. ---",
+      "meaning": "Thermometer has 2 distinct senses.",
       "examples": [
         "Where is the thermometer? He feels warm.",
         "The ear thermometer reads in two seconds.",
-        "We keep two thermometers in the medicine cabinet."
+        "We keep two thermometers in the medicine cabinet.",
+        "Stick a thermometer into the thickest part of the breast.",
+        "An instant-read thermometer is the best twenty dollars you'll spend.",
+        "Candy thermometers clip onto the side of the pot."
       ],
-      "senses": [],
-      "русский": "градусник, термометр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that measures body temperature",
+          "body": [
+            "(градусник, термометр)"
+          ],
+          "examples": [
+            "Where is the thermometer? He feels warm.",
+            "The ear thermometer reads in two seconds.",
+            "We keep two thermometers in the medicine cabinet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An instrument for measuring how hot something is",
+          "body": [
+            "(термометр (кухонный, для мяса))",
+            "---"
+          ],
+          "examples": [
+            "Stick a thermometer into the thickest part of the breast.",
+            "An instant-read thermometer is the best twenty dollars you'll spend.",
+            "Candy thermometers clip onto the side of the pot."
+          ]
+        }
+      ],
+      "русский": "градусник, термометр; термометр (кухонный, для мяса)",
       "plural": "thermometers",
       "countability": "countable",
       "contrast": "Stress is on the second syllable — thur-MAH-muh-tur, not THUR-moh-mee-tur."

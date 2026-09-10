@@ -51,16 +51,46 @@
       "term": "branch",
       "ipa": "/bræntʃ/",
       "respell": "BRANCH",
-      "meaning": "A part of a tree that grows out from the trunk. ---",
+      "meaning": "Branch has 2 distinct senses.",
       "examples": [
         "A branch came down on the power line.",
         "The kids climbed out onto the low branches.",
-        "Trim that branch before it starts hitting the roof."
+        "Trim that branch before it starts hitting the roof.",
+        "The bank closed the branch on Main Street.",
+        "You can pick it up at any branch.",
+        "They're opening two new branches this year."
       ],
-      "senses": [],
-      "русский": "ветка, ветвь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A part of a tree that grows out from the trunk",
+          "body": [
+            "(ветка, ветвь)"
+          ],
+          "examples": [
+            "A branch came down on the power line.",
+            "The kids climbed out onto the low branches.",
+            "Trim that branch before it starts hitting the roof."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A local office or store belonging to a larger company or bank",
+          "body": [
+            "(филиал, отделение)",
+            "---"
+          ],
+          "examples": [
+            "The bank closed the branch on Main Street.",
+            "You can pick it up at any branch.",
+            "They're opening two new branches this year."
+          ]
+        }
+      ],
+      "русский": "ветка, ветвь; филиал, отделение",
       "plural": "branches",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say BRANCH with the vowel of cat; the British use a long ah sound."
     },
     {
       "term": "twig",

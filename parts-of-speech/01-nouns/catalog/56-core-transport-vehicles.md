@@ -1035,15 +1035,23 @@ The part of a vehicle that slows it down or stops it.
 ### dashboard
 
 **Pronunciation:** /ˈdæʃbɔːrd/ &middot; *DASH-bord*
-**Русский:** приборная панель
+**Русский:** приборная панель; панель управления
 **Plural:** *dashboards*
 **Countability:** countable
 
-The panel of dials and controls in front of a driver.
+Dashboard has 2 distinct senses.
+
+**1. The panel of dials and controls in front of a driver.** (приборная панель)
 
 1. A warning light came on in the *dashboard*.
 2. He keeps his sunglasses on the *dashboard*.
 3. Newer *dashboards* are basically one big screen.
+
+**2. A screen that shows the main information and controls in one place.** (панель управления)
+
+4. Log in and you'll land on the *dashboard*.
+5. The *dashboard* shows your usage for the month.
+6. He built two *dashboards* for the sales team.
 
 ---
 
@@ -1203,15 +1211,23 @@ The pipe at the back of a vehicle where exhaust comes out.
 ### transmission
 
 **Pronunciation:** /trænzˈmɪʃən/ &middot; *tranz-MISH-uhn*
-**Русский:** коробка передач, трансмиссия
+**Русский:** коробка передач, трансмиссия; передача (сигнала), трансляция
 **Plural:** *transmissions*
 **Countability:** countable
 
-The set of gears that sends engine power to the wheels.
+Transmission has 2 distinct senses.
+
+**1. The set of gears that sends engine power to the wheels.** (коробка передач, трансмиссия)
 
 1. The *transmission* is slipping in second gear.
 2. A new *transmission* costs more than the car is worth.
 3. Automatic *transmissions* have gotten much smoother.
+
+**2. The sending of a signal, message, or program.** (передача (сигнала), трансляция)
+
+4. The *transmission* cut off in the middle of a word.
+5. They picked up a strange *transmission* on that frequency.
+6. All *transmissions* are recorded.
 
 ---
 
@@ -1263,15 +1279,29 @@ The part that makes an electric spark to fire the fuel in a cylinder.
 ### cylinder
 
 **Pronunciation:** /ˈsɪləndər/ &middot; *SIL-uhn-dur*
-**Русский:** цилиндр (двигателя)
+**Русский:** цилиндр (двигателя); цилиндр
 **Plural:** *cylinders*
 **Countability:** countable
 
-The tube in an engine where the piston moves and the fuel burns.
+Cylinder has 3 distinct senses.
+
+**1. The tube in an engine where the piston moves and the fuel burns.** (цилиндр (двигателя))
 
 1. It's a six-*cylinder* engine.
 2. One *cylinder* wasn't firing at all.
 3. The *cylinders* were rebored during the rebuild.
+
+**2. A tube-shaped object or container with flat circular ends.** (цилиндр)
+
+4. Measure the volume in a graduated *cylinder*.
+5. The gas comes in a heavy steel *cylinder*.
+6. This engine has four *cylinders*.
+
+**3. A solid shape with straight sides and two equal circular ends.** (цилиндр)
+
+7. A soup can is a *cylinder*.
+8. The engine has four *cylinders*.
+9. Measure the height of the *cylinder*.
 
 ---
 
@@ -1429,15 +1459,23 @@ The metal or plastic cover over the center of a wheel.
 ### rim
 
 **Pronunciation:** /rɪm/ &middot; *RIM*
-**Русский:** обод колеса, диск
+**Русский:** обод колеса, диск; обод, край (круглого предмета)
 **Plural:** *rims*
 **Countability:** countable
 
-The metal ring of a wheel that the tire sits on.
+Rim has 2 distinct senses.
+
+**1. The metal ring of a wheel that the tire sits on.** (обод колеса, диск)
 
 1. He bent a *rim* on a pothole.
 2. The car came with alloy *rims*.
 3. You can't drive on a bare *rim*.
+
+**2. The outer edge of something round.** (обод, край (круглого предмета))
+
+4. There is lipstick on the *rim* of the glass.
+5. The ball rolled around the *rim* and dropped in.
+6. He polished the chrome *rims* on his truck.
 
 ---
 
@@ -2082,15 +2120,23 @@ One of the nuts that hold a wheel onto a vehicle.
 ### tailgate
 
 **Pronunciation:** /ˈteɪlɡeɪt/ &middot; *TAYL-gayt*
-**Русский:** задний борт (пикапа)
+**Русский:** задний борт (пикапа); пикник на парковке перед матчем
 **Plural:** *tailgates*
 **Countability:** countable
 
-The hinged panel at the back of a pickup or wagon that folds down.
+Tailgate has 2 distinct senses.
+
+**1. The hinged panel at the back of a pickup or wagon that folds down.** (задний борт (пикапа))
 
 1. They sat on the *tailgate* eating sandwiches.
 2. The *tailgate* wouldn't latch anymore.
 3. Both *tailgates* were dented.
+
+**2. A party held in a stadium parking lot before a game, with food cooked out of car trunks.** (пикник на парковке перед матчем)
+
+4. The *tailgate* starts four hours before kickoff.
+5. Their *tailgates* have grills, a tent, and a TV.
+6. We got to the *tailgate* early to save a spot.
 
 ---
 

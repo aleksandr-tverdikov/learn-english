@@ -163,15 +163,23 @@ A tool with a flat sharpened end, struck to cut wood or stone.
 ### file
 
 **Pronunciation:** /faɪl/ &middot; *FYL*
-**Русский:** напильник
+**Русский:** напильник; файл; дело, досье
 **Plural:** *files*
 **Countability:** countable
 
-A metal hand tool with a rough surface for smoothing metal or wood.
+File has 2 distinct senses.
+
+**1. A metal hand tool with a rough surface for smoothing metal or wood.** (напильник)
 
 1. Run a *file* over that edge so it doesn't cut you.
 2. He smoothed the weld with a flat *file*.
 3. The metal *files* are in the second drawer.
+
+**2. A set of documents kept together, or a piece of data stored on a computer.** (файл; дело, досье)
+
+4. Can you email me the *file*?
+5. Her employee *file* goes back ten years.
+6. He keeps all the tax *files* in the cabinet.
 
 ---
 
@@ -319,11 +327,19 @@ A metal pin hammered flat at both ends to join two pieces permanently.
 **Plural:** *staplers*
 **Countability:** countable
 
-A tool that drives staples into paper or into a surface.
+Stapler has 2 distinct senses.
+
+**1. A tool that drives staples into paper or into a surface.** (степлер)
 
 1. The *stapler* is out of staples.
 2. He used a heavy-duty *stapler* on the insulation.
 3. There are two *staplers* in the supply closet.
+
+**2. A device that fastens sheets of paper together with small metal staples.** (степлер)
+
+4. Does anybody have a *stapler*?
+5. The *stapler* is jammed again.
+6. There are two *staplers* in the supply closet.
 
 ---
 
@@ -346,15 +362,24 @@ A sleeve pushed into a wall so a screw can grip where there is no wood.
 ### bracket
 
 **Pronunciation:** /ˈbrækɪt/ &middot; *BRAK-it*
-**Русский:** кронштейн
+**Русский:** кронштейн; квадратная скобка
 **Plural:** *brackets*
 **Countability:** countable
+**Contrast:** In American usage ( ) are parentheses and [ ] are brackets; the British call ( ) brackets.
 
-An angled support fixed to a wall to carry a shelf or fixture.
+Bracket has 2 distinct senses.
+
+**1. An angled support fixed to a wall to carry a shelf or fixture.** (кронштейн)
 
 1. The shelf sits on two metal *brackets*.
 2. One *bracket* was bent, so the shelf sagged.
 3. Screw the *bracket* into a stud.
+
+**2. One of the square marks used to enclose something added to a quotation.** (квадратная скобка)
+
+4. The editor's note is in *brackets*.
+5. Anything in *brackets* was added later.
+6. Close the *bracket* at the end of the line.
 
 ---
 
@@ -376,15 +401,29 @@ A small springy fitting that grips something and holds it in place.
 ### spring
 
 **Pronunciation:** /sprɪŋ/ &middot; *SPRING*
-**Русский:** пружина
+**Русский:** пружина; родник, источник; весна
 **Plural:** *springs*
 **Countability:** countable
 
-A coil of metal that pushes back when you press or stretch it.
+Spring has 3 distinct senses.
+
+**1. A coil of metal that pushes back when you press or stretch it.** (пружина)
 
 1. The *spring* in the screen door is worn out.
 2. A broken *spring* is why the gate won't close.
 3. Garage door *springs* are dangerous to replace.
+
+**2. A place where water flows naturally out of the ground.** (родник, источник)
+
+4. The town's water comes from a mountain *spring*.
+5. Hot *springs* bubble up all along the fault.
+6. We filled our bottles at a *spring* beside the trail.
+
+**3. The season between winter and summer, when plants start to grow.** (весна)
+
+7. We're putting the house on the market in the *spring*.
+8. *Spring* came early this year.
+9. The last three *springs* have been unusually wet.
 
 ---
 
@@ -452,15 +491,23 @@ Thick cord made by twisting fibers together.
 ### wire
 
 **Pronunciation:** /ˈwaɪər/ &middot; *WY-ur*
-**Русский:** проволока; провод
+**Русский:** проволока; провод; провод, проволока
 **Plural:** *wires*
 **Countability:** countable, and uncountable as a substance
 
-A thin flexible strand of metal, often used to carry electricity.
+Wire has 2 distinct senses.
+
+**1. A thin flexible strand of metal, often used to carry electricity.** (проволока; провод)
 
 1. A loose *wire* was causing the short.
 2. Run the *wire* along the baseboard.
 3. Twist the two *wires* together and cap them.
+
+**2. Metal drawn out into a thin, flexible strand.** (провод, проволока)
+
+4. A squirrel chewed through the *wire*.
+5. Tie the sign up with a piece of *wire*.
+6. The *wires* behind the TV are a mess.
 
 ---
 
@@ -517,11 +564,19 @@ A safety part that melts and breaks a circuit when the current is too high.
 **Plural:** *hoses*
 **Countability:** countable, and uncountable as a substance
 
-A flexible tube that carries water or air.
+Hose has 2 distinct senses.
+
+**1. A flexible tube that carries water or air.** (шланг)
 
 1. The garden *hose* is kinked.
 2. Screw the *hose* onto the spigot.
 3. Both *hoses* leak at the coupling.
+
+**2. A long flexible tube for carrying water.** (шланг)
+
+4. Roll up the *hose* when you're done.
+5. The *hose* froze and split over the winter.
+6. We ran two *hoses* out to the far bed.
 
 ---
 
@@ -661,14 +716,23 @@ A soft metal melted to join two pieces of metal or wire.
 ### grease
 
 **Pronunciation:** /ɡriːs/ &middot; *GREES*
-**Русский:** смазка
+**Русский:** смазка; жир; смазка
 **Countability:** uncountable
+**Contrast:** The noun *grease* ends in an S sound; many Americans say the verb *to grease* with a Z.
 
-Thick oily material put on moving parts to reduce friction.
+Grease has 2 distinct senses.
+
+**1. Thick oily material put on moving parts to reduce friction.** (смазка)
 
 1. Pack the wheel hub with *grease*.
 2. There was *grease* all over his hands.
 3. A little *grease* will stop that squeak.
+
+**2. Thick oily matter, especially melted animal fat or machine lubricant.** (жир; смазка)
+
+4. There's *grease* splattered all over the stove.
+5. Pack the wheel bearings with *grease*.
+6. The bottom of the pan was thick with *grease*.
 
 ---
 
@@ -874,12 +938,21 @@ A tool with a broad blade and a long handle for digging and lifting.
 **Русский:** грабли
 **Plural:** *rakes*
 **Countability:** countable
+**Contrast:** One tool is a *rake*, singular, even though Russian грабли is plural: I need a rake, not I need rakes.
 
-A long-handled tool with teeth, used to gather leaves or level soil.
+Rake has 2 distinct senses.
+
+**1. A long-handled tool with teeth, used to gather leaves or level soil.** (грабли)
 
 1. I need a *rake* for all these leaves.
 2. The *rake* lost half its teeth.
 3. Garden *rakes* are on sale this week.
+
+**2. A garden tool with a long handle and teeth, used for gathering leaves.** (грабли)
+
+4. Hand me the *rake* — these leaves are everywhere.
+5. The *rake* is hanging on the wall in the garage.
+6. We wore out two *rakes* that fall.
 
 ---
 
@@ -1120,11 +1193,19 @@ A gray powder that hardens when mixed with water, used to bind concrete.
 **Countability:** uncountable
 **Contrast:** Sounds exactly like steal, to take something that isn't yours.
 
-A hard strong metal made from iron and carbon.
+Steel has 2 distinct senses.
+
+**1. A hard strong metal made from iron and carbon.** (сталь)
 
 1. The frame is welded *steel*.
 2. Bare *steel* rusts if you don't paint it.
 3. Stainless *steel* costs more but lasts.
+
+**2. A strong alloy of iron and carbon used for tools, cars, and building frames.** (сталь)
+
+4. The frame is *steel*, so it won't warp.
+5. Half the town used to work at the *steel* mill.
+6. Stainless *steel* doesn't rust the way plain iron does.
 
 ---
 

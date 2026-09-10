@@ -76,14 +76,43 @@
       "term": "tension",
       "ipa": "/ˈtɛnʃən/",
       "respell": "TEN-shuhn",
-      "meaning": "The pulling force in a stretched rope, wire, or spring. ---",
+      "meaning": "Tension has 2 distinct senses.",
       "examples": [
         "The cable snapped under the tension.",
         "Adjust the tension on the belt before you start the motor.",
-        "Tension in the string keeps the weight from falling."
+        "Tension in the string keeps the weight from falling.",
+        "You could feel the tension in the room.",
+        "There has been tension between the two departments for years.",
+        "A walk usually gets rid of the tension in my shoulders."
       ],
-      "senses": [],
-      "русский": "натяжение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pulling force in a stretched rope, wire, or spring",
+          "body": [
+            "(натяжение)"
+          ],
+          "examples": [
+            "The cable snapped under the tension.",
+            "Adjust the tension on the belt before you start the motor.",
+            "Tension in the string keeps the weight from falling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Strain in a person or between people",
+          "body": [
+            "(напряжение, напряжённость)",
+            "---"
+          ],
+          "examples": [
+            "You could feel the tension in the room.",
+            "There has been tension between the two departments for years.",
+            "A walk usually gets rid of the tension in my shoulders."
+          ]
+        }
+      ],
+      "русский": "натяжение; напряжение, напряжённость",
       "countability": "uncountable"
     },
     {
@@ -351,14 +380,43 @@
       "term": "reflection",
       "ipa": "/rɪˈflɛkʃən/",
       "respell": "rih-FLEK-shuhn",
-      "meaning": "Light or sound bouncing back from a surface, or the image this makes. ---",
+      "meaning": "Reflection has 2 distinct senses.",
       "examples": [
         "She saw her reflection in the store window.",
         "The reflection off the water was blinding.",
-        "We measured the reflections of sound in the empty hall."
+        "We measured the reflections of sound in the empty hall.",
+        "On reflection, I think we should wait.",
+        "The essay collects her reflections on twenty years of teaching.",
+        "He caught his reflection in the shop window."
       ],
-      "senses": [],
-      "русский": "отражение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Light or sound bouncing back from a surface, or the image this makes",
+          "body": [
+            "(отражение)"
+          ],
+          "examples": [
+            "She saw her reflection in the store window.",
+            "The reflection off the water was blinding.",
+            "We measured the reflections of sound in the empty hall."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Serious thought about something, or an image thrown back by a mirror or water",
+          "body": [
+            "(размышление; отражение)",
+            "---"
+          ],
+          "examples": [
+            "On reflection, I think we should wait.",
+            "The essay collects her reflections on twenty years of teaching.",
+            "He caught his reflection in the shop window."
+          ]
+        }
+      ],
+      "русский": "отражение; размышление; отражение",
       "plural": "reflections",
       "countability": "countable"
     },
@@ -709,14 +767,43 @@
       "term": "concentration",
       "ipa": "/ˌkɑːnsənˈtreɪʃən/",
       "respell": "kahn-suhn-TRAY-shuhn",
-      "meaning": "How much of a substance is present in a mixture. ---",
+      "meaning": "Concentration has 2 distinct senses.",
       "examples": [
         "Increase the concentration of the acid slightly.",
         "High concentrations of salt kill the plants.",
-        "The concentration dropped as we added water."
+        "The concentration dropped as we added water.",
+        "The noise from the street broke my concentration.",
+        "Chess takes hours of concentration.",
+        "His concentration slipped in the last mile."
       ],
-      "senses": [],
-      "русский": "концентрация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much of a substance is present in a mixture",
+          "body": [
+            "(концентрация)"
+          ],
+          "examples": [
+            "Increase the concentration of the acid slightly.",
+            "High concentrations of salt kill the plants.",
+            "The concentration dropped as we added water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The act of giving all your attention to one thing",
+          "body": [
+            "(сосредоточенность, концентрация внимания)",
+            "---"
+          ],
+          "examples": [
+            "The noise from the street broke my concentration.",
+            "Chess takes hours of concentration.",
+            "His concentration slipped in the last mile."
+          ]
+        }
+      ],
+      "русский": "концентрация; сосредоточенность, концентрация внимания",
       "plural": "concentrations",
       "countability": "countable"
     },
@@ -992,13 +1079,42 @@
       "term": "petroleum",
       "ipa": "/pəˈtroʊliəm/",
       "respell": "puh-TROH-lee-uhm",
-      "meaning": "The thick oil taken from underground and refined into fuel. ---",
+      "meaning": "Petroleum has 2 distinct senses.",
       "examples": [
         "Gasoline is made from petroleum.",
         "Petroleum prices rose again this month.",
-        "Most plastics are a petroleum product."
+        "Most plastics are a petroleum product.",
+        "Plastic is made from petroleum.",
+        "The company has been drilling for petroleum since the 1920s.",
+        "Almost every part of that engine runs on petroleum products."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thick oil taken from underground and refined into fuel",
+          "body": [
+            "(нефть)"
+          ],
+          "examples": [
+            "Gasoline is made from petroleum.",
+            "Petroleum prices rose again this month.",
+            "Most plastics are a petroleum product."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thick dark oil pumped from underground that fuels and plastics are made from",
+          "body": [
+            "(нефть)",
+            "---"
+          ],
+          "examples": [
+            "Plastic is made from petroleum.",
+            "The company has been drilling for petroleum since the 1920s.",
+            "Almost every part of that engine runs on petroleum products."
+          ]
+        }
+      ],
       "русский": "нефть",
       "countability": "uncountable"
     },
@@ -1275,13 +1391,57 @@
       "term": "data",
       "ipa": "/ˈdeɪtə/",
       "respell": "DAY-tuh",
-      "meaning": "Facts and numbers collected for study. ---",
+      "meaning": "Data has 3 distinct senses.",
       "examples": [
         "The data shows a clear trend.",
         "We collected data for six months.",
-        "All of the data is stored on the server."
+        "All of the data is stored on the server.",
+        "We lost three days of data.",
+        "The data shows a clear pattern.",
+        "They sell your data to advertisers.",
+        "I used up all my data watching videos.",
+        "The data shows a clear drop after March.",
+        "They collect data on everything you click."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Facts and numbers collected for study",
+          "body": [
+            "(данные)"
+          ],
+          "examples": [
+            "The data shows a clear trend.",
+            "We collected data for six months.",
+            "All of the data is stored on the server."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Facts and figures stored or processed by a computer",
+          "body": [
+            "(данные)"
+          ],
+          "examples": [
+            "We lost three days of data.",
+            "The data shows a clear pattern.",
+            "They sell your data to advertisers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Information stored or sent by a computer or phone",
+          "body": [
+            "(данные)",
+            "---"
+          ],
+          "examples": [
+            "I used up all my data watching videos.",
+            "The data shows a clear drop after March.",
+            "They collect data on everything you click."
+          ]
+        }
+      ],
       "русский": "данные",
       "countability": "uncountable",
       "contrast": "In American English data normally takes a singular verb: the data is."
@@ -1290,14 +1450,43 @@
       "term": "principle",
       "ipa": "/ˈprɪnsəpəl/",
       "respell": "PRIN-suh-puhl",
-      "meaning": "A basic scientific rule that explains how something works. ---",
+      "meaning": "Principle has 2 distinct senses.",
       "examples": [
         "The pump works on a very simple principle.",
         "He explained the principle behind the experiment.",
-        "The same principles apply to gases and liquids."
+        "The same principles apply to gases and liquids.",
+        "She quit on principle rather than sign it.",
+        "He's a man of strong principles.",
+        "The principle is simple: never charge more than it costs."
       ],
-      "senses": [],
-      "русский": "принцип, закон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A basic scientific rule that explains how something works",
+          "body": [
+            "(принцип, закон)"
+          ],
+          "examples": [
+            "The pump works on a very simple principle.",
+            "He explained the principle behind the experiment.",
+            "The same principles apply to gases and liquids."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A basic rule or belief that guides how a person behaves",
+          "body": [
+            "(принцип, убеждение)",
+            "---"
+          ],
+          "examples": [
+            "She quit on principle rather than sign it.",
+            "He's a man of strong principles.",
+            "The principle is simple: never charge more than it costs."
+          ]
+        }
+      ],
+      "русский": "принцип, закон; принцип, убеждение",
       "plural": "principles",
       "countability": "countable",
       "contrast": "Sounds exactly like principal, the head of a school."
@@ -1368,13 +1557,42 @@
       "term": "variable",
       "ipa": "/ˈvɛriəbəl/",
       "respell": "VAIR-ee-uh-buhl",
-      "meaning": "Something in an experiment that can change. ---",
+      "meaning": "Variable has 2 distinct senses.",
       "examples": [
         "Change only one variable at a time.",
         "Temperature was the one variable we controlled.",
-        "Too many variables make the results hard to read."
+        "Too many variables make the results hard to read.",
+        "Give the variable a name that means something.",
+        "All these variables are global, which is asking for trouble.",
+        "The variable was never initialized."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something in an experiment that can change",
+          "body": [
+            "(переменная)"
+          ],
+          "examples": [
+            "Change only one variable at a time.",
+            "Temperature was the one variable we controlled.",
+            "Too many variables make the results hard to read."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A named place in a program where a value is stored",
+          "body": [
+            "(переменная)",
+            "---"
+          ],
+          "examples": [
+            "Give the variable a name that means something.",
+            "All these variables are global, which is asking for trouble.",
+            "The variable was never initialized."
+          ]
+        }
+      ],
       "русский": "переменная",
       "plural": "variables",
       "countability": "countable"

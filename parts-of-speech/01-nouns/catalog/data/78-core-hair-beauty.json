@@ -263,14 +263,43 @@
       "term": "part",
       "ipa": "/pɑːrt/",
       "respell": "PART",
-      "meaning": "The line on the head where hair is divided and combed in two directions. ---",
+      "meaning": "Part has 2 distinct senses.",
       "examples": [
         "He wears his part on the left.",
         "She switched to a middle part and looked completely different.",
-        "Deep side parts were everywhere that year."
+        "Deep side parts were everywhere that year.",
+        "She landed the part of Juliet on her first audition.",
+        "He has played small parts in a dozen shows.",
+        "It is a wonderful part for an older actor."
       ],
-      "senses": [],
-      "русский": "пробор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The line on the head where hair is divided and combed in two directions",
+          "body": [
+            "(пробор)"
+          ],
+          "examples": [
+            "He wears his part on the left.",
+            "She switched to a middle part and looked completely different.",
+            "Deep side parts were everywhere that year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A character that an actor plays in a performance",
+          "body": [
+            "(роль)",
+            "---"
+          ],
+          "examples": [
+            "She landed the part of Juliet on her first audition.",
+            "He has played small parts in a dozen shows.",
+            "It is a wonderful part for an older actor."
+          ]
+        }
+      ],
+      "русский": "пробор; роль",
       "plural": "parts",
       "countability": "countable",
       "contrast": "British English calls this a parting."
@@ -893,14 +922,43 @@
       "term": "blowout",
       "ipa": "/ˈbloʊaʊt/",
       "respell": "BLOH-owt",
-      "meaning": "A salon service in which the hair is washed and dried smooth with a brush and dryer. ---",
+      "meaning": "Blowout has 2 distinct senses.",
       "examples": [
         "She got a blowout before the interview.",
         "A blowout lasts me about three days.",
-        "That place does blowouts for forty dollars."
+        "That place does blowouts for forty dollars.",
+        "A blowout at that speed is terrifying.",
+        "Old tires cause most blowouts.",
+        "The blowout pulled the truck toward the shoulder."
       ],
-      "senses": [],
-      "русский": "укладка феном",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A salon service in which the hair is washed and dried smooth with a brush and dryer",
+          "body": [
+            "(укладка феном)"
+          ],
+          "examples": [
+            "She got a blowout before the interview.",
+            "A blowout lasts me about three days.",
+            "That place does blowouts for forty dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tire bursting suddenly while the car is moving",
+          "body": [
+            "(разрыв шины на ходу)",
+            "---"
+          ],
+          "examples": [
+            "A blowout at that speed is terrifying.",
+            "Old tires cause most blowouts.",
+            "The blowout pulled the truck toward the shoulder."
+          ]
+        }
+      ],
+      "русский": "укладка феном; разрыв шины на ходу",
       "plural": "blowouts",
       "countability": "countable"
     },
@@ -1258,14 +1316,43 @@
       "term": "rinse",
       "ipa": "/rɪns/",
       "respell": "RINS",
-      "meaning": "A quick wash with water, or a light product used after shampooing. ---",
+      "meaning": "Rinse has 2 distinct senses.",
       "examples": [
         "Give it one more rinse to get the conditioner out.",
         "She uses a vinegar rinse once a month.",
-        "Two rinses and the color still ran."
+        "Two rinses and the color still ran.",
+        "Give your mouth a rinse after brushing.",
+        "One more rinse and the shampoo is out.",
+        "Two cold rinses were enough."
       ],
-      "senses": [],
-      "русский": "ополаскивание, ополаскиватель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A quick wash with water, or a light product used after shampooing",
+          "body": [
+            "(ополаскивание, ополаскиватель)"
+          ],
+          "examples": [
+            "Give it one more rinse to get the conditioner out.",
+            "She uses a vinegar rinse once a month.",
+            "Two rinses and the color still ran."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A quick wash in clean water to take soap or dirt off",
+          "body": [
+            "(полоскание, ополаскивание)",
+            "---"
+          ],
+          "examples": [
+            "Give your mouth a rinse after brushing.",
+            "One more rinse and the shampoo is out.",
+            "Two cold rinses were enough."
+          ]
+        }
+      ],
+      "русский": "ополаскивание, ополаскиватель; полоскание, ополаскивание",
       "plural": "rinses",
       "countability": "countable"
     },
@@ -1421,14 +1508,43 @@
       "term": "primer",
       "ipa": "/ˈpraɪmər/",
       "respell": "PRY-mur",
-      "meaning": "A cream put on the skin before makeup so it goes on smoothly and lasts. ---",
+      "meaning": "Primer has 2 distinct senses.",
       "examples": [
         "A little primer keeps her foundation from sliding.",
         "This primer fills in large pores.",
-        "She tried four primers before finding one she liked."
+        "She tried four primers before finding one she liked.",
+        "Put primer on before you paint the color.",
+        "The stain bled through two coats of primer.",
+        "Tinted primers can save you a coat."
       ],
-      "senses": [],
-      "русский": "праймер, база под макияж",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cream put on the skin before makeup so it goes on smoothly and lasts",
+          "body": [
+            "(праймер, база под макияж)"
+          ],
+          "examples": [
+            "A little primer keeps her foundation from sliding.",
+            "This primer fills in large pores.",
+            "She tried four primers before finding one she liked."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A first coat of paint that seals a surface so the finish coat will stick",
+          "body": [
+            "(грунтовка)",
+            "---"
+          ],
+          "examples": [
+            "Put primer on before you paint the color.",
+            "The stain bled through two coats of primer.",
+            "Tinted primers can save you a coat."
+          ]
+        }
+      ],
+      "русский": "праймер, база под макияж; грунтовка",
       "plural": "primers",
       "countability": "countable, and uncountable as a substance",
       "contrast": "The makeup sense is PRY-mur; the beginner's schoolbook called a primer is PRIM-ur in the US."
@@ -1467,14 +1583,43 @@
       "term": "lip balm",
       "ipa": "/ˈlɪp bɑːm/",
       "respell": "LIP bahm",
-      "meaning": "A waxy stick or pot used to soften dry lips. ---",
+      "meaning": "Lip balm has 2 distinct senses.",
       "examples": [
         "I lose a lip balm every week.",
         "He keeps lip balm in his coat pocket all winter.",
-        "The drugstore had a whole rack of lip balms."
+        "The drugstore had a whole rack of lip balms.",
+        "My lips are chapped; do you have lip balm?",
+        "He put on lip balm before going outside.",
+        "There are three lip balms rolling around in her bag."
       ],
-      "senses": [],
-      "русский": "бальзам для губ, гигиеническая помада",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A waxy stick or pot used to soften dry lips",
+          "body": [
+            "(бальзам для губ, гигиеническая помада)"
+          ],
+          "examples": [
+            "I lose a lip balm every week.",
+            "He keeps lip balm in his coat pocket all winter.",
+            "The drugstore had a whole rack of lip balms."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A waxy stick or cream that keeps lips from drying out",
+          "body": [
+            "(гигиеническая помада, бальзам для губ)",
+            "---"
+          ],
+          "examples": [
+            "My lips are chapped; do you have lip balm?",
+            "He put on lip balm before going outside.",
+            "There are three lip balms rolling around in her bag."
+          ]
+        }
+      ],
+      "русский": "бальзам для губ, гигиеническая помада; гигиеническая помада, бальзам для губ",
       "plural": "lip balms",
       "countability": "countable",
       "contrast": "The l in balm is silent: BAHM."
@@ -1691,13 +1836,42 @@
       "term": "nail file",
       "ipa": "/ˈneɪl faɪl/",
       "respell": "NAYL fyl",
-      "meaning": "A small rough strip used to shape the edge of a nail. ---",
+      "meaning": "Nail file has 2 distinct senses.",
       "examples": [
         "Do you have a nail file? I snagged a nail.",
         "The nail file wore smooth months ago.",
-        "She keeps two nail files in her desk."
+        "She keeps two nail files in her desk.",
+        "She smoothed the edge with a nail file.",
+        "There's a nail file in my purse.",
+        "The set comes with two nail files."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small rough strip used to shape the edge of a nail",
+          "body": [
+            "(пилка для ногтей)"
+          ],
+          "examples": [
+            "Do you have a nail file? I snagged a nail.",
+            "The nail file wore smooth months ago.",
+            "She keeps two nail files in her desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small metal or cardboard strip for smoothing the edges of nails",
+          "body": [
+            "(пилка для ногтей)",
+            "---"
+          ],
+          "examples": [
+            "She smoothed the edge with a nail file.",
+            "There's a nail file in my purse.",
+            "The set comes with two nail files."
+          ]
+        }
+      ],
       "русский": "пилка для ногтей",
       "plural": "nail files",
       "countability": "countable"
@@ -1796,14 +1970,58 @@
       "term": "cleanser",
       "ipa": "/ˈklɛnzər/",
       "respell": "KLEN-zur",
-      "meaning": "A liquid or cream used to wash the face. ---",
+      "meaning": "Cleanser has 3 distinct senses.",
       "examples": [
         "She switched to a gentler cleanser.",
         "Use cleanser first, then toner.",
-        "Foaming cleansers dry out my skin."
+        "Foaming cleansers dry out my skin.",
+        "This cleanser is gentle enough for daily use.",
+        "She rinsed the cleanser off with warm water.",
+        "The store carries a dozen face cleansers.",
+        "Sprinkle cleanser in the sink and scrub.",
+        "That cleanser is gentle enough for porcelain.",
+        "The store brand cleansers work just as well."
       ],
-      "senses": [],
-      "русский": "очищающее средство для лица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid or cream used to wash the face",
+          "body": [
+            "(очищающее средство для лица)"
+          ],
+          "examples": [
+            "She switched to a gentler cleanser.",
+            "Use cleanser first, then toner.",
+            "Foaming cleansers dry out my skin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A product for cleaning the skin or a surface",
+          "body": [
+            "(очищающее средство)"
+          ],
+          "examples": [
+            "This cleanser is gentle enough for daily use.",
+            "She rinsed the cleanser off with warm water.",
+            "The store carries a dozen face cleansers."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A mild powder or cream for cleaning sinks and tubs",
+          "body": [
+            "(чистящий порошок (для раковин и ванн))",
+            "---"
+          ],
+          "examples": [
+            "Sprinkle cleanser in the sink and scrub.",
+            "That cleanser is gentle enough for porcelain.",
+            "The store brand cleansers work just as well."
+          ]
+        }
+      ],
+      "русский": "очищающее средство для лица; очищающее средство; чистящий порошок (для раковин и ванн)",
       "plural": "cleansers",
       "countability": "countable, and uncountable as a substance",
       "contrast": "Said KLEN-zur, with a short e — not \"kleen-zur\", despite clean."
@@ -1812,14 +2030,43 @@
       "term": "toner",
       "ipa": "/ˈtoʊnər/",
       "respell": "TOH-nur",
-      "meaning": "A liquid wiped on the face after washing to balance the skin. ---",
+      "meaning": "Toner has 2 distinct senses.",
       "examples": [
         "She pats toner on with a cotton pad.",
         "The toner stung a little at first.",
-        "Alcohol-based toners have gone out of style."
+        "Alcohol-based toners have gone out of style.",
+        "We're low on toner again.",
+        "Toner got all over my hands when I changed it.",
+        "The copier stops when the toner runs out."
       ],
-      "senses": [],
-      "русский": "тоник для лица",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid wiped on the face after washing to balance the skin",
+          "body": [
+            "(тоник для лица)"
+          ],
+          "examples": [
+            "She pats toner on with a cotton pad.",
+            "The toner stung a little at first.",
+            "Alcohol-based toners have gone out of style."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fine dark powder a laser printer or copier melts onto the page",
+          "body": [
+            "(тонер)",
+            "---"
+          ],
+          "examples": [
+            "We're low on toner again.",
+            "Toner got all over my hands when I changed it.",
+            "The copier stops when the toner runs out."
+          ]
+        }
+      ],
+      "русский": "тоник для лица; тонер",
       "plural": "toners",
       "countability": "countable, and uncountable as a substance"
     },
@@ -1827,14 +2074,43 @@
       "term": "scrub",
       "ipa": "/skrʌb/",
       "respell": "SKRUB",
-      "meaning": "A gritty cream rubbed on the skin to remove dead cells. ---",
+      "meaning": "Scrub has 2 distinct senses.",
       "examples": [
         "She uses a sugar scrub twice a week.",
         "Don't use a scrub on sunburned skin.",
-        "The gift set came with two scrubs and a candle."
+        "The gift set came with two scrubs and a candle.",
+        "The tub needs a good scrub.",
+        "Give your hands a quick scrub before dinner.",
+        "A couple of scrubs with bleach took the stain out."
       ],
-      "senses": [],
-      "русский": "скраб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A gritty cream rubbed on the skin to remove dead cells",
+          "body": [
+            "(скраб)"
+          ],
+          "examples": [
+            "She uses a sugar scrub twice a week.",
+            "Don't use a scrub on sunburned skin.",
+            "The gift set came with two scrubs and a candle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hard cleaning done by rubbing with a brush or cloth",
+          "body": [
+            "(чистка (энергичное оттирание))",
+            "---"
+          ],
+          "examples": [
+            "The tub needs a good scrub.",
+            "Give your hands a quick scrub before dinner.",
+            "A couple of scrubs with bleach took the stain out."
+          ]
+        }
+      ],
+      "русский": "скраб; чистка (энергичное оттирание)",
       "plural": "scrubs",
       "countability": "countable, and uncountable as a substance"
     },

@@ -910,14 +910,43 @@
       "term": "retriever",
       "ipa": "/rɪˈtriːvər/",
       "respell": "rih-TREE-vur",
-      "meaning": "A breed of gundog trained to bring back shot birds. ---",
+      "meaning": "Retriever has 2 distinct senses.",
       "examples": [
         "A golden retriever is good with kids.",
         "The retriever brought the stick right back.",
-        "Retrievers love the water."
+        "Retrievers love the water.",
+        "The retriever swam out and brought back both ducks.",
+        "Retrievers love cold water more than any other breed.",
+        "Their black retriever is twelve years old and still works."
       ],
-      "senses": [],
-      "русский": "ретривер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A breed of gundog trained to bring back shot birds",
+          "body": [
+            "(ретривер)"
+          ],
+          "examples": [
+            "A golden retriever is good with kids.",
+            "The retriever brought the stick right back.",
+            "Retrievers love the water."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A dog trained to bring back birds that a hunter has shot",
+          "body": [
+            "(ретривер (апортирующая собака))",
+            "---"
+          ],
+          "examples": [
+            "The retriever swam out and brought back both ducks.",
+            "Retrievers love cold water more than any other breed.",
+            "Their black retriever is twelve years old and still works."
+          ]
+        }
+      ],
+      "русский": "ретривер; ретривер (апортирующая собака)",
       "plural": "retrievers",
       "countability": "countable"
     },

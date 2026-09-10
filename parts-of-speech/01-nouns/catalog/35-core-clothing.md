@@ -483,15 +483,23 @@ A long loose outer garment with no sleeves, worn over the shoulders.
 ### cape
 
 **Pronunciation:** /keɪp/ &middot; *KAYP*
-**Русский:** накидка, пелерина
+**Русский:** накидка, пелерина; мыс
 **Plural:** *capes*
 **Countability:** countable
 
-A short sleeveless garment that hangs from the shoulders down the back.
+Cape has 2 distinct senses.
+
+**1. A short sleeveless garment that hangs from the shoulders down the back.** (накидка, пелерина)
 
 1. The kid wore a superhero *cape* to school.
 2. The barber tied a *cape* around my neck.
 3. *Capes* were everywhere at the costume party.
+
+**2. A piece of land that sticks out into the sea.** (мыс)
+
+4. A lighthouse stands at the end of the *cape*.
+5. We rounded the *cape* just before dark.
+6. The wind hits hard on the far side of the *cape*.
 
 ---
 
@@ -1001,15 +1009,23 @@ A soft round flat hat with no brim.
 ### visor
 
 **Pronunciation:** /ˈvaɪzər/ &middot; *VY-zur*
-**Русский:** козырёк; забрало
+**Русский:** козырёк; забрало; козырёк
 **Plural:** *visors*
 **Countability:** countable
 
-A stiff piece at the front of a cap or helmet that shades or protects the eyes.
+Visor has 2 distinct senses.
+
+**1. A stiff piece at the front of a cap or helmet that shades or protects the eyes.** (козырёк; забрало)
 
 1. He flipped down the *visor* on his helmet.
 2. She wore a tennis *visor* on the court.
 3. The *visors* on those old caps are all cracked.
+
+**2. The stiff front part of a cap, or a brim worn without a crown.** (козырёк)
+
+4. He pulled his *visor* down against the sun.
+5. The golfers all wore white *visors*.
+6. Her *visor* has the team logo on the front.
 
 ---
 
@@ -1050,11 +1066,19 @@ A head covering made by winding a long piece of cloth around the head.
 **Plural:** *headbands*
 **Countability:** countable
 
-A strip of material worn around the head.
+Headband has 2 distinct senses.
+
+**1. A strip of material worn around the head.** (повязка на голову, ободок)
 
 1. She pushed her hair back with a *headband*.
 2. The runners all wore sweat *headbands*.
 3. My *headband* keeps sliding off.
+
+**2. A band worn around the head to hold hair back or absorb sweat.** (повязка на голову, ободок)
+
+4. She pushed her hair back with a *headband*.
+5. He wears a *headband* when he runs.
+6. The *headbands* are on the rack by the register.
 
 ---
 
@@ -1381,31 +1405,53 @@ A fastener that holds two parts together.
 ### pin
 
 **Pronunciation:** /pɪn/ &middot; *PIN*
-**Русский:** булавка
+**Русский:** булавка; булавка; значок; штифт, шпилька
 **Plural:** *pins*
 **Countability:** countable
 
-A thin piece of metal with a sharp point, used to hold cloth together.
+Pin has 3 distinct senses.
+
+**1. A thin piece of metal with a sharp point, used to hold cloth together.** (булавка)
 
 1. The tailor held the hem in place with *pins*.
 2. Watch out — there's still a *pin* in that shirt.
 3. She dropped a whole box of *pins* on the floor.
+
+**2. A short pointed piece of metal for fastening, or a small badge worn on clothing.** (булавка; значок)
+
+4. She wore a small enamel *pin* on her jacket.
+5. The *pin* fell off somewhere downtown.
+6. He collects campaign *pins* from old elections.
+
+**3. A short thin rod that holds two parts together or in line.** (штифт, шпилька)
+
+7. A small *pin* holds the hinge together.
+8. The *pin* sheared off under load.
+9. Take the *pins* out before you fold it.
 
 ---
 
 ### fastener
 
 **Pronunciation:** /ˈfæsnər/ &middot; *FAS-nur*
-**Русский:** застёжка
+**Русский:** застёжка; крепёж, крепёжное изделие
 **Plural:** *fasteners*
 **Countability:** countable
 **Contrast:** The t is silent: FAS-nur, like fasten, listen, and castle.
 
-Anything used to hold a garment closed, such as a button, hook, or snap.
+Fastener has 2 distinct senses.
+
+**1. Anything used to hold a garment closed, such as a button, hook, or snap.** (застёжка)
 
 1. The dress has a hidden *fastener* at the side.
 2. All the *fasteners* on this jacket are plastic.
 3. One *fastener* is missing from the cuff.
+
+**2. Any small part such as a screw, bolt, or nail that holds things together.** (крепёж, крепёжное изделие)
+
+4. Any *fastener* will work as long as it's stainless.
+5. Keep every *fastener* in a labeled bag.
+6. The store has a whole aisle of *fasteners*.
 
 ---
 
@@ -1431,11 +1477,19 @@ A strip of leather or cloth worn around the waist.
 **Plural:** *cufflinks*
 **Countability:** countable
 
-A small fastener used to hold together the cuffs of a dress shirt.
+Cufflink has 2 distinct senses.
+
+**1. A small fastener used to hold together the cuffs of a dress shirt.** (запонка)
 
 1. He wore silver *cufflinks* to the wedding.
 2. One *cufflink* rolled under the dresser.
 3. His father's *cufflinks* still fit the shirt perfectly.
+
+**2. A small fastener that holds a shirt cuff closed instead of a button.** (запонка)
+
+4. He can't find the other *cufflink*.
+5. The *cufflinks* were his father's.
+6. You need *cufflinks* for a shirt like that.
 
 ---
 
@@ -1493,11 +1547,19 @@ A long narrow piece of cloth worn around the neck under a shirt collar.
 **Countability:** countable
 **Contrast:** Bow here rhymes with know, not with now.
 
-A short tie fastened at the neck in the shape of a bow.
+Bow tie has 2 distinct senses.
+
+**1. A short tie fastened at the neck in the shape of a bow.** (галстук-бабочка)
 
 1. He can never get a *bow tie* straight.
 2. The waiters all wore black *bow ties*.
 3. That *bow tie* is actually a clip-on.
+
+**2. A short necktie tied in a bow at the throat.** (галстук-бабочка)
+
+4. He wore a black *bow tie* to the wedding.
+5. She tied his *bow tie* for him in the car.
+6. The waiters all had matching *bow ties*.
 
 ---
 
@@ -1567,11 +1629,19 @@ A fine soft cloth made from the threads produced by silkworms.
 **Countability:** uncountable
 **Contrast:** The ea sounds like the e in bed, and the th is voiced, as in father.
 
-Material made from animal skin, used for shoes, coats, and belts.
+Leather has 2 distinct senses.
+
+**1. Material made from animal skin, used for shoes, coats, and belts.** (кожа (материал))
 
 1. The jacket is real *leather*.
 2. *Leather* stretches out after you've worn it a while.
 3. These boots are lined with soft *leather*.
+
+**2. Animal skin treated so it can be used for shoes, bags, and jackets.** (кожа (материал))
+
+4. The seats are real *leather*.
+5. *Leather* softens once you break it in.
+6. She carries a black *leather* bag.
 
 ---
 
@@ -1581,26 +1651,43 @@ Material made from animal skin, used for shoes, coats, and belts.
 **Русский:** джинсовая ткань, деним
 **Countability:** uncountable
 
-A strong cotton cloth used to make jeans and jackets.
+Denim has 2 distinct senses.
+
+**1. A strong cotton cloth used to make jeans and jackets.** (джинсовая ткань, деним)
 
 1. The jacket is heavy *denim*.
 2. *Denim* softens up after a few washes.
 3. She wore a *denim* skirt and sneakers.
+
+**2. The heavy blue cotton cloth that jeans are made of.** (джинсовая ткань, деним)
+
+4. The jacket is stiff new *denim*.
+5. *Denim* fades where you sit.
+6. He wore *denim* head to toe.
 
 ---
 
 ### fur
 
 **Pronunciation:** /fɜːr/ &middot; *FUR*
-**Русский:** мех
+**Русский:** мех; мех, шерсть (животного)
 **Plural:** *furs*
 **Countability:** countable, and uncountable as a substance
+**Contrast:** Homophone of fir, the evergreen tree.
 
-The thick soft hair covering an animal, used to make or line clothing.
+Fur has 2 distinct senses.
+
+**1. The thick soft hair covering an animal, used to make or line clothing.** (мех)
 
 1. The hood is trimmed with *fur*.
 2. She inherited her grandmother's *furs*.
 3. Fake *fur* looks almost real these days.
+
+**2. The soft thick hair that covers most mammals.** (мех, шерсть (животного))
+
+4. The cat's *fur* was matted with burrs.
+5. Rabbits grow thicker *fur* for the winter.
+6. There was *fur* all over the back seat.
 
 ---
 
@@ -1638,9 +1725,18 @@ A thick soft cloth with a short raised pile on one side.
 **Pronunciation:** /ˌpɑːliˈɛstər/ &middot; *pah-lee-ES-tur*
 **Русский:** полиэстер
 **Countability:** uncountable
+**Contrast:** Main stress lands on the third syllable: pah-lee-ES-tur.
 
-A synthetic material used to make clothes.
+Polyester has 2 distinct senses.
+
+**1. A synthetic material used to make clothes.** (полиэстер)
 
 1. The shirt is a cotton and *polyester* blend.
 2. *Polyester* barely wrinkles, which is the whole point.
 3. That jacket is cheap *polyester* and it feels like it.
+
+**2. A synthetic fiber used in clothing that resists wrinkles.** (полиэстер)
+
+4. The shirt is a cotton and *polyester* blend.
+5. *Polyester* doesn't breathe in the heat.
+6. Everything in that decade was *polyester*.

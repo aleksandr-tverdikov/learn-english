@@ -31,11 +31,19 @@ The buying and selling of goods, or a skilled job learned by training.
 **Plural:** *industries*
 **Countability:** both — countable and uncountable with different meanings
 
-A branch of business that makes one kind of product, or manufacturing as a whole.
+Industry has 2 distinct senses.
+
+**1. A branch of business that makes one kind of product, or manufacturing as a whole.** (отрасль; промышленность)
 
 1. She spent twenty years in the music *industry*.
 2. Heavy *industry* still employs a lot of people up north.
 3. Several *industries* were hit hard by the shutdown.
+
+**2. A particular branch of business, or manufacturing in general.** (отрасль; промышленность)
+
+4. She's worked in the music *industry* since college.
+5. The airline *industry* took a huge hit that year.
+6. Several *industries* are still short on workers.
 
 ---
 
@@ -177,15 +185,23 @@ A company that provides goods or materials to another company.
 ### vendor
 
 **Pronunciation:** /ˈvɛndər/ &middot; *VEN-dur*
-**Русский:** поставщик; торговец, продавец
+**Русский:** поставщик; торговец, продавец; поставщик, продавец
 **Plural:** *vendors*
 **Countability:** countable
 
-A person or company that sells something, especially to a business or on the street.
+Vendor has 2 distinct senses.
+
+**1. A person or company that sells something, especially to a business or on the street.** (поставщик; торговец, продавец)
 
 1. A street *vendor* was selling hot dogs on the corner.
 2. We pay our *vendors* within thirty days.
 3. The software *vendor* handles all the updates.
+
+**2. A company that sells goods or services to another company.** (поставщик, продавец)
+
+4. We switched *vendors* last year.
+5. The *vendor* is late with the shipment.
+6. Three *vendors* bid on the job.
 
 ---
 
@@ -298,16 +314,24 @@ An agreement in business, or a purchase at a good price.
 ### sale
 
 **Pronunciation:** /seɪl/ &middot; *SAYL*
-**Русский:** продажа; распродажа
+**Русский:** продажа; распродажа; распродажа; продажа
 **Plural:** *sales*
 **Countability:** countable
 **Contrast:** *Sale* sounds exactly like *sail*.
 
-The selling of something, or a period when a store lowers its prices.
+Sale has 2 distinct senses.
+
+**1. The selling of something, or a period when a store lowers its prices.** (продажа; распродажа)
 
 1. The *sale* of the building took six months.
 2. These shoes were on *sale* for half price.
 3. The store runs big *sales* right after Christmas.
+
+**2. A time when a store sells goods at lower prices than usual.** (распродажа; продажа)
+
+4. These boots were on *sale* for half off.
+5. The store runs two big *sales* a year.
+6. I never buy anything unless it's on *sale*.
 
 ---
 
@@ -418,15 +442,23 @@ A basic good such as oil, wheat, or copper that is traded in large amounts.
 ### bundle
 
 **Pronunciation:** /ˈbʌndəl/ &middot; *BUN-dul*
-**Русский:** комплект, набор товаров
+**Русский:** комплект, набор товаров; связка, пачка, узел
 **Plural:** *bundles*
 **Countability:** countable
 
-Several products sold together for one price.
+Bundle has 2 distinct senses.
+
+**1. Several products sold together for one price.** (комплект, набор товаров)
 
 1. The phone and the case come as a *bundle*.
 2. We saved forty dollars with the cable *bundle*.
 3. They offer three different *bundles*.
+
+**2. A group of things tied or wrapped together.** (связка, пачка, узел)
+
+4. He carried in a *bundle* of firewood.
+5. The newspapers came in *bundles* tied with twine.
+6. She had a *bundle* of letters held with a rubber band.
 
 ---
 
@@ -452,11 +484,19 @@ A mixed group of different items offered together.
 **Countability:** uncountable
 **Contrast:** *Packaging* is uncountable — one box is *a package*, but the material as a whole is *packaging*.
 
-The boxes, wrapping, and containers a product is sold in.
+Packaging has 2 distinct senses.
+
+**1. The boxes, wrapping, and containers a product is sold in.** (упаковка)
 
 1. The *packaging* is nicer than what's inside.
 2. They switched to *packaging* made from recycled paper.
 3. Half the shipping cost is *packaging*.
+
+**2. The boxes, wrapping and plastic that goods come in.** (упаковка)
+
+4. The *packaging* was bigger than the toy inside.
+5. They switched to cardboard *packaging*.
+6. Save the *packaging* in case you return it.
 
 ---
 
@@ -482,11 +522,19 @@ The pattern of black lines a scanner reads to identify a product.
 **Plural:** *markups*
 **Countability:** countable
 
-The amount a seller adds to the cost of goods to make a profit.
+Markup has 2 distinct senses.
+
+**1. The amount a seller adds to the cost of goods to make a profit.** (наценка)
 
 1. Restaurants put a huge *markup* on wine.
 2. The *markup* on jewelry can be four hundred percent.
 3. Small *markups* add up over thousands of sales.
+
+**2. The amount added to the cost of an item to set its selling price.** (наценка)
+
+4. The *markup* on bottled water is enormous.
+5. Restaurant *markups* on wine can be triple the store price.
+6. They keep the *markup* low and sell in volume.
 
 ---
 
@@ -497,56 +545,89 @@ The amount a seller adds to the cost of goods to make a profit.
 **Plural:** *markdowns*
 **Countability:** countable
 
-A cut in the price of goods a store is trying to move.
+Markdown has 2 distinct senses.
+
+**1. A cut in the price of goods a store is trying to move.** (уценка, снижение цены)
 
 1. The store took a *markdown* on all the summer stock.
 2. *Markdowns* start the day after the holiday.
 3. Even with the *markdown* it's too expensive.
+
+**2. A reduction in the selling price of an item.** (уценка, снижение цены)
+
+4. There's another *markdown* on winter coats this week.
+5. The store takes *markdowns* every Monday morning.
+6. After the second *markdown*, the shirt cost eight dollars.
 
 ---
 
 ### clearance
 
 **Pronunciation:** /ˈklɪrəns/ &middot; *KLEER-uns*
-**Русский:** распродажа остатков, уценённый товар
+**Русский:** распродажа остатков, уценённый товар; распродажа остатков, уценка
 **Countability:** uncountable
 
-A sale in which a store cuts prices to get rid of goods.
+Clearance has 2 distinct senses.
+
+**1. A sale in which a store cuts prices to get rid of goods.** (распродажа остатков, уценённый товар)
 
 1. I got this jacket on *clearance*.
 2. The whole back wall is *clearance*.
 3. *Clearance* items can't be returned.
+
+**2. A sale that clears out old stock at very low prices.** (распродажа остатков, уценка)
+
+4. These towels are on *clearance*.
+5. Everything in the back corner is on *clearance*.
+6. I bought the coat on *clearance* in April.
 
 ---
 
 ### register
 
 **Pronunciation:** /ˈrɛdʒɪstər/ &middot; *REJ-ih-stur*
-**Русский:** касса (аппарат)
+**Русский:** касса (аппарат); вентиляционная решётка (отопления)
 **Plural:** *registers*
 **Countability:** countable
 **Contrast:** In American stores it's *the register*; the British say *the till*.
 
-The machine at a store counter that holds the money and records sales.
+Register has 2 distinct senses.
+
+**1. The machine at a store counter that holds the money and records sales.** (касса (аппарат))
 
 1. There was only one *register* open.
 2. Please pay at the *register* by the door.
 3. All four *registers* had lines.
+
+**2. The grille in a floor or wall where heated or cooled air enters a room.** (вентиляционная решётка (отопления))
+
+4. Warm air comes up through the *register* by the window.
+5. Vacuum the dust out of the *register*.
+6. The rug is covering two of the *registers*.
 
 ---
 
 ### storefront
 
 **Pronunciation:** /ˈstɔːrfrʌnt/ &middot; *STOR-frunt*
-**Русский:** витрина; помещение магазина на первом этаже
+**Русский:** витрина; помещение магазина на первом этаже; фасад магазина, витрина с улицы
 **Plural:** *storefronts*
 **Countability:** countable
+**Contrast:** American. British English says 'shopfront'.
 
-The street-facing front of a store, or a small shop at street level.
+Storefront has 2 distinct senses.
+
+**1. The street-facing front of a store, or a small shop at street level.** (витрина; помещение магазина на первом этаже)
 
 1. They painted the *storefront* bright blue.
 2. Half the *storefronts* downtown are empty.
 3. She rented a little *storefront* on Third Street.
+
+**2. The front of a store as it looks from the street.** (фасад магазина, витрина с улицы)
+
+4. They painted the *storefront* bright yellow.
+5. Half the *storefronts* on Main Street are empty.
+6. A small bakery took over the *storefront* next door.
 
 ---
 
@@ -641,15 +722,23 @@ The buying and selling of goods and services on a large scale.
 ### marketplace
 
 **Pronunciation:** /ˈmɑːrkɪtpleɪs/ &middot; *MAR-kit-playss*
-**Русский:** рынок (сфера торговли); торговая площадка
+**Русский:** рынок (сфера торговли); торговая площадка; торговая площадь; торговая площадка
 **Plural:** *marketplaces*
 **Countability:** countable
 
-The whole world of buying and selling, or a place or site where many sellers trade.
+Marketplace has 2 distinct senses.
+
+**1. The whole world of buying and selling, or a place or site where many sellers trade.** (рынок (сфера торговли); торговая площадка)
 
 1. Their product failed in the *marketplace*.
 2. She sells her pottery through an online *marketplace*.
 3. Two new *marketplaces* opened for used car parts.
+
+**2. A place, real or online, where many sellers offer goods.** (торговая площадь; торговая площадка)
+
+4. The town *marketplace* is closed to cars on weekends.
+5. Online *marketplaces* connect small sellers with buyers.
+6. I sold my old bike through an online *marketplace*.
 
 ---
 
@@ -889,11 +978,19 @@ A business that buys goods in bulk and sells them on to stores.
 **Countability:** countable
 **Contrast:** Irregular plural: one *middleman*, two *middlemen*.
 
-A person or company that stands between the maker and the buyer.
+Middleman has 2 distinct senses.
+
+**1. A person or company that stands between the maker and the buyer.** (посредник)
 
 1. Buying straight from the farm cuts out the *middleman*.
 2. Too many *middlemen* drive the price up.
 3. He worked as a *middleman* between growers and grocery chains.
+
+**2. Someone who buys from the producer and sells on to the store or customer.** (посредник)
+
+4. Buying direct from the farm cuts out the *middleman*.
+5. Too many *middlemen* drive the price up.
+6. The *middleman* takes his cut on every crate.
 
 ---
 
@@ -1171,14 +1268,23 @@ The work of getting goods from the maker out to sellers and buyers.
 ### shipping
 
 **Pronunciation:** /ˈʃɪpɪŋ/ &middot; *SHIP-ing*
-**Русский:** доставка, отправка; стоимость доставки
+**Русский:** доставка, отправка; стоимость доставки; доставка (пересылка); стоимость доставки
 **Countability:** uncountable
+**Contrast:** In American English shipping covers delivery by truck or mail too, not only by ship.
 
-The sending of goods to customers, or what that costs.
+Shipping has 2 distinct senses.
+
+**1. The sending of goods to customers, or what that costs.** (доставка, отправка; стоимость доставки)
 
 1. *Shipping* is free on orders over fifty dollars.
 2. The *shipping* took longer than the store promised.
 3. We handle *shipping* out of a warehouse in Ohio.
+
+**2. The sending of goods to a customer, or the cost of doing it.** (доставка (пересылка); стоимость доставки)
+
+4. *Shipping* was more than the sweater cost.
+5. They offer free *shipping* on orders over fifty dollars.
+6. The total includes tax and *shipping*.
 
 ---
 
@@ -1466,16 +1572,24 @@ A person or company that owes money.
 ### stake
 
 **Pronunciation:** /steɪk/ &middot; *STAYK*
-**Русский:** доля (в компании)
+**Русский:** доля (в компании); колышек, опора для растения
 **Plural:** *stakes*
 **Countability:** countable
 **Contrast:** *Stake* sounds exactly like *steak*.
 
-A share of ownership in a business.
+Stake has 2 distinct senses.
+
+**1. A share of ownership in a business.** (доля (в компании))
 
 1. She owns a twenty percent *stake* in the firm.
 2. The fund sold its *stake* last year.
 3. Both partners hold equal *stakes*.
+
+**2. A pointed stick driven into the ground to support a plant.** (колышек, опора для растения)
+
+4. Drive a *stake* in next to each tomato.
+5. The wind snapped the *stake* right off.
+6. We ran out of *stakes* halfway down the row.
 
 ---
 
@@ -1822,16 +1936,24 @@ A customer's public statement praising a product or service.
 ### niche
 
 **Pronunciation:** /nɪtʃ/ &middot; *NICH*
-**Русский:** ниша (рыночная)
+**Русский:** ниша (рыночная); ниша (в стене)
 **Plural:** *niches*
 **Countability:** countable
 **Contrast:** Americans usually say NICH, rhyming with *itch*; the British say NEESH.
 
-A small part of the market that one product serves especially well.
+Niche has 2 distinct senses.
+
+**1. A small part of the market that one product serves especially well.** (ниша (рыночная))
 
 1. They found a *niche* selling gear for left-handed golfers.
 2. The magazine serves a narrow *niche*.
 3. Small *niches* can be very profitable.
+
+**2. A hollow space in a wall, often made to hold a statue or a vase.** (ниша (в стене))
+
+4. A candle sits in the *niche* by the door.
+5. The shower has a tiled *niche* for shampoo.
+6. Statues stood in *niches* along the hallway.
 
 ---
 

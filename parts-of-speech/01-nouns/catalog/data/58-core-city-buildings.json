@@ -114,14 +114,43 @@
       "term": "borough",
       "ipa": "/ˈbɜːroʊ/",
       "respell": "BUR-oh",
-      "meaning": "One of the administrative divisions that a large city is split into. ---",
+      "meaning": "Borough has 2 distinct senses.",
       "examples": [
         "Queens is the largest borough by area.",
         "All five boroughs were under a flood warning.",
-        "He's lived in the same borough his whole life."
+        "He's lived in the same borough his whole life.",
+        "Brooklyn is the most populous borough.",
+        "All five boroughs voted the same way.",
+        "The borough runs its own sanitation department."
       ],
-      "senses": [],
-      "русский": "округ города, боро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the administrative divisions that a large city is split into",
+          "body": [
+            "(округ города, боро)"
+          ],
+          "examples": [
+            "Queens is the largest borough by area.",
+            "All five boroughs were under a flood warning.",
+            "He's lived in the same borough his whole life."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A self-governing district of a large city or state",
+          "body": [
+            "(район (административный))",
+            "---"
+          ],
+          "examples": [
+            "Brooklyn is the most populous borough.",
+            "All five boroughs voted the same way.",
+            "The borough runs its own sanitation department."
+          ]
+        }
+      ],
+      "русский": "округ города, боро; район (административный)",
       "plural": "boroughs",
       "countability": "countable",
       "contrast": "The 'gh' is silent: it rhymes with 'furrow', not with 'bore'."
@@ -778,7 +807,8 @@
       "senses": [],
       "русский": "тюрьма (местная), изолятор",
       "plural": "jails",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "With no article it means the situation — go to jail; with an article it means the building — a jail downtown."
     },
     {
       "term": "prison",
@@ -793,7 +823,8 @@
       "senses": [],
       "русский": "тюрьма",
       "plural": "prisons",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American usage jail is a local lockup for short stays, while prison holds people serving longer sentences."
     },
     {
       "term": "post office",
@@ -1195,14 +1226,43 @@
       "term": "square",
       "ipa": "/skwɛr/",
       "respell": "SKWAIR",
-      "meaning": "An open public space in a town, usually surrounded by buildings. ---",
+      "meaning": "Square has 2 distinct senses.",
       "examples": [
         "The Christmas tree goes up in the town square.",
         "Several squares in this city date to colonial times.",
-        "We sat on a bench in the square and ate lunch."
+        "We sat on a bench in the square and ate lunch.",
+        "Fold the paper into a square.",
+        "The quilt is made of hundreds of colored squares.",
+        "Move your piece three squares forward."
       ],
-      "senses": [],
-      "русский": "площадь (городская)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open public space in a town, usually surrounded by buildings",
+          "body": [
+            "(площадь (городская))"
+          ],
+          "examples": [
+            "The Christmas tree goes up in the town square.",
+            "Several squares in this city date to colonial times.",
+            "We sat on a bench in the square and ate lunch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shape with four equal straight sides and four right angles",
+          "body": [
+            "(квадрат)",
+            "---"
+          ],
+          "examples": [
+            "Fold the paper into a square.",
+            "The quilt is made of hundreds of colored squares.",
+            "Move your piece three squares forward."
+          ]
+        }
+      ],
+      "русский": "площадь (городская); квадрат",
       "plural": "squares",
       "countability": "countable"
     },
@@ -1360,13 +1420,42 @@
       "term": "address",
       "ipa": "/ˈædrɛs/",
       "respell": "A-dres",
-      "meaning": "The details of where a building is, used for mail and directions. ---",
+      "meaning": "Address has 2 distinct senses.",
       "examples": [
         "Text me the address and I'll meet you there.",
         "We've had three addresses in two years.",
-        "The package went to my old address."
+        "The package went to my old address.",
+        "What's your email address?",
+        "The package went to the wrong address.",
+        "Both addresses on the form are old."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The details of where a building is, used for mail and directions",
+          "body": [
+            "(адрес)"
+          ],
+          "examples": [
+            "Text me the address and I'll meet you there.",
+            "We've had three addresses in two years.",
+            "The package went to my old address."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The details that say where a person, building, or account can be reached",
+          "body": [
+            "(адрес)",
+            "---"
+          ],
+          "examples": [
+            "What's your email address?",
+            "The package went to the wrong address.",
+            "Both addresses on the form are old."
+          ]
+        }
+      ],
       "русский": "адрес",
       "plural": "addresses",
       "countability": "countable",
@@ -1525,14 +1614,58 @@
       "term": "precinct",
       "ipa": "/ˈpriːsɪŋkt/",
       "respell": "PREE-singkt",
-      "meaning": "A district of a city for police or voting purposes, or the station serving it. ---",
+      "meaning": "Precinct has 3 distinct senses.",
       "examples": [
         "They took him down to the precinct for questioning.",
         "Turnout was highest in the downtown precincts.",
-        "The 19th precinct covers the whole east side."
+        "The 19th precinct covers the whole east side.",
+        "They took him down to the precinct.",
+        "She's been with the twelfth precinct for years.",
+        "Three precincts were merged to save money.",
+        "Turnout was heavy in our precinct.",
+        "They took him down to the precinct for questioning.",
+        "Results from twelve precincts are still missing."
       ],
-      "senses": [],
-      "русский": "полицейский участок; избирательный участок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A district of a city for police or voting purposes, or the station serving it",
+          "body": [
+            "(полицейский участок; избирательный участок)"
+          ],
+          "examples": [
+            "They took him down to the precinct for questioning.",
+            "Turnout was highest in the downtown precincts.",
+            "The 19th precinct covers the whole east side."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A district of a city policed from one station, or the station itself",
+          "body": [
+            "(полицейский участок; избирательный округ)"
+          ],
+          "examples": [
+            "They took him down to the precinct.",
+            "She's been with the twelfth precinct for years.",
+            "Three precincts were merged to save money."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small area used for voting or policing",
+          "body": [
+            "(избирательный участок; полицейский участок)",
+            "---"
+          ],
+          "examples": [
+            "Turnout was heavy in our precinct.",
+            "They took him down to the precinct for questioning.",
+            "Results from twelve precincts are still missing."
+          ]
+        }
+      ],
+      "русский": "полицейский участок; избирательный участок; полицейский участок; избирательный округ; избирательный участок; полицейский участок",
       "plural": "precincts",
       "countability": "countable"
     },
@@ -1555,14 +1688,43 @@
       "term": "depot",
       "ipa": "/ˈdiːpoʊ/",
       "respell": "DEE-poh",
-      "meaning": "A building where buses or trains are kept, or a small station. ---",
+      "meaning": "Depot has 2 distinct senses.",
       "examples": [
         "The bus leaves from the depot at six.",
         "Two old rail depots have been turned into restaurants.",
-        "We waited inside the depot out of the cold."
+        "We waited inside the depot out of the cold.",
+        "The fuel depot sits just outside town.",
+        "Buses are serviced at the depot overnight.",
+        "Two depots supply the whole northern route."
       ],
-      "senses": [],
-      "русский": "депо; автовокзал, станция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A building where buses or trains are kept, or a small station",
+          "body": [
+            "(депо; автовокзал, станция)"
+          ],
+          "examples": [
+            "The bus leaves from the depot at six.",
+            "Two old rail depots have been turned into restaurants.",
+            "We waited inside the depot out of the cold."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A building where goods, fuel, or vehicles are stored",
+          "body": [
+            "(склад, база; депо)",
+            "---"
+          ],
+          "examples": [
+            "The fuel depot sits just outside town.",
+            "Buses are serviced at the depot overnight.",
+            "Two depots supply the whole northern route."
+          ]
+        }
+      ],
+      "русский": "депо; автовокзал, станция; склад, база; депо",
       "plural": "depots",
       "countability": "countable",
       "contrast": "American DEE-poh; British speakers say DEP-oh. The 't' is silent either way."

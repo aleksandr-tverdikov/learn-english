@@ -20,14 +20,43 @@
       "term": "delight",
       "ipa": "/dɪˈlaɪt/",
       "respell": "dih-LYT",
-      "meaning": "A feeling of strong pleasure. ---",
+      "meaning": "Delight has 2 distinct senses.",
       "examples": [
         "To my delight, the flight was on time.",
         "She squealed with delight at the puppy.",
-        "He takes delight in proving people wrong."
+        "He takes delight in proving people wrong.",
+        "She squealed with delight at the puppy.",
+        "The market is full of small delights.",
+        "To my delight, the flight was on time."
       ],
-      "senses": [],
-      "русский": "восторг, удовольствие",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A feeling of strong pleasure",
+          "body": [
+            "(восторг, удовольствие)"
+          ],
+          "examples": [
+            "To my delight, the flight was on time.",
+            "She squealed with delight at the puppy.",
+            "He takes delight in proving people wrong."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Great pleasure, or something that gives it",
+          "body": [
+            "(восторг, восхищение)",
+            "---"
+          ],
+          "examples": [
+            "She squealed with delight at the puppy.",
+            "The market is full of small delights.",
+            "To my delight, the flight was on time."
+          ]
+        }
+      ],
+      "русский": "восторг, удовольствие; восторг, восхищение",
       "countability": "uncountable"
     },
     {
@@ -120,13 +149,42 @@
       "term": "gratitude",
       "ipa": "/ˈɡrætətuːd/",
       "respell": "GRAT-uh-tood",
-      "meaning": "A feeling of thankfulness toward someone. ---",
+      "meaning": "Gratitude has 2 distinct senses.",
       "examples": [
         "She sent flowers as a token of gratitude.",
         "He spoke with real gratitude about his first boss.",
-        "I owe them a debt of gratitude I can never repay."
+        "I owe them a debt of gratitude I can never repay.",
+        "She sent a card to express her gratitude.",
+        "He owes them a debt of gratitude.",
+        "There was genuine gratitude in his handshake."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A feeling of thankfulness toward someone",
+          "body": [
+            "(благодарность)"
+          ],
+          "examples": [
+            "She sent flowers as a token of gratitude.",
+            "He spoke with real gratitude about his first boss.",
+            "I owe them a debt of gratitude I can never repay."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The feeling of being thankful for something",
+          "body": [
+            "(благодарность)",
+            "---"
+          ],
+          "examples": [
+            "She sent a card to express her gratitude.",
+            "He owes them a debt of gratitude.",
+            "There was genuine gratitude in his handshake."
+          ]
+        }
+      ],
       "русский": "благодарность",
       "countability": "uncountable"
     },
@@ -213,7 +271,8 @@
       ],
       "senses": [],
       "русский": "сочувствие",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Not the same as empathy: sympathy is feeling sorry for someone; empathy is feeling what they feel."
     },
     {
       "term": "empathy",
@@ -247,13 +306,42 @@
       "term": "kindness",
       "ipa": "/ˈkaɪndnəs/",
       "respell": "KYND-nuhs",
-      "meaning": "Friendly, generous behavior, or an act of it. ---",
+      "meaning": "Kindness has 2 distinct senses.",
       "examples": [
         "A little kindness costs nothing.",
         "I will never forget her kindness that winter.",
-        "The small kindnesses are what people remember."
+        "The small kindnesses are what people remember.",
+        "A little kindness goes a long way.",
+        "I'll never forget the kindnesses they showed us that winter.",
+        "She spoke to him with unexpected kindness."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Friendly, generous behavior, or an act of it",
+          "body": [
+            "(доброта)"
+          ],
+          "examples": [
+            "A little kindness costs nothing.",
+            "I will never forget her kindness that winter.",
+            "The small kindnesses are what people remember."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of being friendly and caring toward others",
+          "body": [
+            "(доброта)",
+            "---"
+          ],
+          "examples": [
+            "A little kindness goes a long way.",
+            "I'll never forget the kindnesses they showed us that winter.",
+            "She spoke to him with unexpected kindness."
+          ]
+        }
+      ],
       "русский": "доброта",
       "plural": "kindnesses",
       "countability": "countable"
@@ -262,13 +350,42 @@
       "term": "generosity",
       "ipa": "/ˌdʒɛnəˈrɑːsəti/",
       "respell": "jen-uh-RAH-suh-tee",
-      "meaning": "A willingness to give more than you have to. ---",
+      "meaning": "Generosity has 2 distinct senses.",
       "examples": [
         "Her generosity kept the food bank running.",
         "He thanked the donors for their generosity.",
-        "The tip showed real generosity."
+        "The tip showed real generosity.",
+        "The shelter runs on the generosity of neighbors.",
+        "Her generosity embarrassed him a little.",
+        "He thanked the crowd for their generosity."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A willingness to give more than you have to",
+          "body": [
+            "(щедрость)"
+          ],
+          "examples": [
+            "Her generosity kept the food bank running.",
+            "He thanked the donors for their generosity.",
+            "The tip showed real generosity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Willingness to give money, time, or help freely",
+          "body": [
+            "(щедрость)",
+            "---"
+          ],
+          "examples": [
+            "The shelter runs on the generosity of neighbors.",
+            "Her generosity embarrassed him a little.",
+            "He thanked the crowd for their generosity."
+          ]
+        }
+      ],
       "русский": "щедрость",
       "countability": "uncountable"
     },
@@ -276,13 +393,42 @@
       "term": "humility",
       "ipa": "/hjuːˈmɪləti/",
       "respell": "hyoo-MIL-uh-tee",
-      "meaning": "A modest view of your own importance. ---",
+      "meaning": "Humility has 2 distinct senses.",
       "examples": [
         "He accepted the award with real humility.",
         "Failing early taught her some humility.",
-        "There is a kind of strength in humility."
+        "There is a kind of strength in humility.",
+        "He accepted the award with genuine humility.",
+        "There's a kind of humility in asking for help.",
+        "Failure taught her some humility."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A modest view of your own importance",
+          "body": [
+            "(смирение, скромность)"
+          ],
+          "examples": [
+            "He accepted the award with real humility.",
+            "Failing early taught her some humility.",
+            "There is a kind of strength in humility."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of not thinking you are better than other people",
+          "body": [
+            "(смирение, скромность)",
+            "---"
+          ],
+          "examples": [
+            "He accepted the award with genuine humility.",
+            "There's a kind of humility in asking for help.",
+            "Failure taught her some humility."
+          ]
+        }
+      ],
       "русский": "смирение, скромность",
       "countability": "uncountable"
     },
@@ -290,13 +436,42 @@
       "term": "dignity",
       "ipa": "/ˈdɪɡnəti/",
       "respell": "DIG-nuh-tee",
-      "meaning": "Calm self-respect, or the right to be treated with respect. ---",
+      "meaning": "Dignity has 2 distinct senses.",
       "examples": [
         "She handled the whole thing with dignity.",
         "Everyone deserves to be treated with dignity.",
-        "He refused to give up his dignity for a paycheck."
+        "He refused to give up his dignity for a paycheck.",
+        "She faced the illness with dignity.",
+        "Every worker deserves to be treated with dignity.",
+        "He lost his job but kept his dignity."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Calm self-respect, or the right to be treated with respect",
+          "body": [
+            "(достоинство)"
+          ],
+          "examples": [
+            "She handled the whole thing with dignity.",
+            "Everyone deserves to be treated with dignity.",
+            "He refused to give up his dignity for a paycheck."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of deserving respect, and of behaving in a way that earns it",
+          "body": [
+            "(достоинство)",
+            "---"
+          ],
+          "examples": [
+            "She faced the illness with dignity.",
+            "Every worker deserves to be treated with dignity.",
+            "He lost his job but kept his dignity."
+          ]
+        }
+      ],
       "русский": "достоинство",
       "countability": "uncountable"
     },
@@ -490,13 +665,42 @@
       "term": "wit",
       "ipa": "/wɪt/",
       "respell": "WIT",
-      "meaning": "Quick, clever humor in speech or writing. ---",
+      "meaning": "Wit has 2 distinct senses.",
       "examples": [
         "Her wit is what makes the column worth reading.",
         "He answered with the kind of wit you cannot rehearse.",
-        "The play is full of sharp wit."
+        "The play is full of sharp wit.",
+        "Her dry wit kept the whole table laughing.",
+        "He answered with surprising wit.",
+        "The column is written with real wit."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Quick, clever humor in speech or writing",
+          "body": [
+            "(остроумие)"
+          ],
+          "examples": [
+            "Her wit is what makes the column worth reading.",
+            "He answered with the kind of wit you cannot rehearse.",
+            "The play is full of sharp wit."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to say clever, funny things",
+          "body": [
+            "(остроумие)",
+            "---"
+          ],
+          "examples": [
+            "Her dry wit kept the whole table laughing.",
+            "He answered with surprising wit.",
+            "The column is written with real wit."
+          ]
+        }
+      ],
       "русский": "остроумие",
       "countability": "uncountable"
     },
@@ -547,13 +751,42 @@
       "term": "despair",
       "ipa": "/dɪˈspɛr/",
       "respell": "dih-SPAIR",
-      "meaning": "The feeling that nothing can get better. ---",
+      "meaning": "Despair has 2 distinct senses.",
       "examples": [
         "He was close to despair after the third rejection.",
         "There is a note of despair in her letters.",
-        "In despair, she called her sister at 2 a.m."
+        "In despair, she called her sister at 2 a.m.",
+        "After the third rejection he sank into despair.",
+        "There was real despair in her voice.",
+        "In despair, they sold the farm."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The feeling that nothing can get better",
+          "body": [
+            "(отчаяние)"
+          ],
+          "examples": [
+            "He was close to despair after the third rejection.",
+            "There is a note of despair in her letters.",
+            "In despair, she called her sister at 2 a.m."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The complete loss of hope",
+          "body": [
+            "(отчаяние)",
+            "---"
+          ],
+          "examples": [
+            "After the third rejection he sank into despair.",
+            "There was real despair in her voice.",
+            "In despair, they sold the farm."
+          ]
+        }
+      ],
       "русский": "отчаяние",
       "countability": "uncountable"
     },
@@ -561,14 +794,43 @@
       "term": "mourning",
       "ipa": "/ˈmɔːrnɪŋ/",
       "respell": "MOR-ning",
-      "meaning": "The period or state of grieving for someone who has died. ---",
+      "meaning": "Mourning has 2 distinct senses.",
       "examples": [
         "The family is still in mourning.",
         "He wore black for a year of mourning.",
-        "The whole country went into mourning after the crash."
+        "The whole country went into mourning after the crash.",
+        "The family is still in mourning.",
+        "She wore black for a year of mourning.",
+        "The flags were lowered as a sign of mourning."
       ],
-      "senses": [],
-      "русский": "траур, скорбь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The period or state of grieving for someone who has died",
+          "body": [
+            "(траур, скорбь)"
+          ],
+          "examples": [
+            "The family is still in mourning.",
+            "He wore black for a year of mourning.",
+            "The whole country went into mourning after the crash."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Deep sadness felt and shown after someone dies",
+          "body": [
+            "(траур)",
+            "---"
+          ],
+          "examples": [
+            "The family is still in mourning.",
+            "She wore black for a year of mourning.",
+            "The flags were lowered as a sign of mourning."
+          ]
+        }
+      ],
+      "русский": "траур, скорбь; траур",
       "countability": "uncountable",
       "contrast": "A homophone of morning — same sound, completely different meaning."
     },
@@ -672,7 +934,8 @@
       ],
       "senses": [],
       "русский": "уединение",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Solitude is being alone and content; loneliness is being alone and unhappy."
     },
     {
       "term": "homesickness",
@@ -934,13 +1197,42 @@
       "term": "hatred",
       "ipa": "/ˈheɪtrɪd/",
       "respell": "HAY-trid",
-      "meaning": "Intense, lasting dislike. ---",
+      "meaning": "Hatred has 2 distinct senses.",
       "examples": [
         "The letter was full of hatred.",
         "Hatred like that does not come from nowhere.",
-        "He was raised without any hatred for anybody."
+        "He was raised without any hatred for anybody.",
+        "The letter was full of hatred.",
+        "He has a deep hatred of paperwork.",
+        "Fear can turn into hatred very quickly."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Intense, lasting dislike",
+          "body": [
+            "(ненависть)"
+          ],
+          "examples": [
+            "The letter was full of hatred.",
+            "Hatred like that does not come from nowhere.",
+            "He was raised without any hatred for anybody."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very strong feeling of dislike",
+          "body": [
+            "(ненависть)",
+            "---"
+          ],
+          "examples": [
+            "The letter was full of hatred.",
+            "He has a deep hatred of paperwork.",
+            "Fear can turn into hatred very quickly."
+          ]
+        }
+      ],
       "русский": "ненависть",
       "countability": "uncountable",
       "contrast": "The vowel stays long as in hate — HAY-trid, not HAT-rid."
@@ -978,13 +1270,42 @@
       "term": "jealousy",
       "ipa": "/ˈdʒɛləsi/",
       "respell": "JEL-uh-see",
-      "meaning": "Fear of losing someone to a rival, or resentment of another's success. ---",
+      "meaning": "Jealousy has 2 distinct senses.",
       "examples": [
         "Jealousy ruined that friendship.",
         "There was a flash of jealousy when he mentioned her ex.",
-        "Office jealousy over the promotion lasted months."
+        "Office jealousy over the promotion lasted months.",
+        "Jealousy ruined their friendship.",
+        "There was a flash of jealousy in his eyes.",
+        "She admitted to a little jealousy over the promotion."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Fear of losing someone to a rival, or resentment of another's success",
+          "body": [
+            "(ревность; зависть)"
+          ],
+          "examples": [
+            "Jealousy ruined that friendship.",
+            "There was a flash of jealousy when he mentioned her ex.",
+            "Office jealousy over the promotion lasted months."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unhappy feeling caused by fear of losing someone, or by wanting what another has",
+          "body": [
+            "(ревность; зависть)",
+            "---"
+          ],
+          "examples": [
+            "Jealousy ruined their friendship.",
+            "There was a flash of jealousy in his eyes.",
+            "She admitted to a little jealousy over the promotion."
+          ]
+        }
+      ],
       "русский": "ревность; зависть",
       "countability": "uncountable",
       "contrast": "The ea is short — JEL-uh-see, not JEE-luh-see."
@@ -1095,14 +1416,43 @@
       "term": "meltdown",
       "ipa": "/ˈmɛltdaʊn/",
       "respell": "MELT-down",
-      "meaning": "A total loss of emotional control. ---",
+      "meaning": "Meltdown has 2 distinct senses.",
       "examples": [
         "He had a meltdown twenty minutes before the flight.",
         "She was one email away from a full meltdown.",
-        "Toddler meltdowns peak right around nap time."
+        "Toddler meltdowns peak right around nap time.",
+        "The plant came within hours of a meltdown.",
+        "Two meltdowns have shaped how reactors are designed.",
+        "Backup pumps are there to prevent a meltdown."
       ],
-      "senses": [],
-      "русский": "срыв, истерика",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A total loss of emotional control",
+          "body": [
+            "(срыв, истерика)"
+          ],
+          "examples": [
+            "He had a meltdown twenty minutes before the flight.",
+            "She was one email away from a full meltdown.",
+            "Toddler meltdowns peak right around nap time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An accident in which a nuclear reactor overheats and its core melts",
+          "body": [
+            "(расплавление активной зоны реактора)",
+            "---"
+          ],
+          "examples": [
+            "The plant came within hours of a meltdown.",
+            "Two meltdowns have shaped how reactors are designed.",
+            "Backup pumps are there to prevent a meltdown."
+          ]
+        }
+      ],
+      "русский": "срыв, истерика; расплавление активной зоны реактора",
       "plural": "meltdowns",
       "countability": "countable"
     },
@@ -1125,28 +1475,86 @@
       "term": "terror",
       "ipa": "/ˈtɛrər/",
       "respell": "TEH-rur",
-      "meaning": "Extreme, overwhelming fear. ---",
+      "meaning": "Terror has 2 distinct senses.",
       "examples": [
         "She froze in terror when the lights went out.",
         "The dog runs from thunder in sheer terror.",
-        "There was real terror in his voice on the call."
+        "There was real terror in his voice on the call.",
+        "She froze in terror at the top of the ladder.",
+        "The dog shook with terror during the storm.",
+        "His eyes were wide with terror."
       ],
-      "senses": [],
-      "русский": "ужас, страх",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Extreme, overwhelming fear",
+          "body": [
+            "(ужас, страх)"
+          ],
+          "examples": [
+            "She froze in terror when the lights went out.",
+            "The dog runs from thunder in sheer terror.",
+            "There was real terror in his voice on the call."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Very great fear",
+          "body": [
+            "(ужас)",
+            "---"
+          ],
+          "examples": [
+            "She froze in terror at the top of the ladder.",
+            "The dog shook with terror during the storm.",
+            "His eyes were wide with terror."
+          ]
+        }
+      ],
+      "русский": "ужас, страх; ужас",
       "countability": "uncountable"
     },
     {
       "term": "horror",
       "ipa": "/ˈhɔːrər/",
       "respell": "HOR-ur",
-      "meaning": "Shocked fear and disgust at something awful. ---",
+      "meaning": "Horror has 2 distinct senses.",
       "examples": [
         "To my horror, the file was gone.",
         "She watched in horror as the shelf came down.",
-        "He described the horrors of that winter."
+        "He described the horrors of that winter.",
+        "I watched in horror as the ladder slipped.",
+        "The film shows the horrors of the flood.",
+        "To her horror, the door locked behind her."
       ],
-      "senses": [],
-      "русский": "ужас (от увиденного)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Shocked fear and disgust at something awful",
+          "body": [
+            "(ужас (от увиденного))"
+          ],
+          "examples": [
+            "To my horror, the file was gone.",
+            "She watched in horror as the shelf came down.",
+            "He described the horrors of that winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of shock and disgust, or something that causes it",
+          "body": [
+            "(ужас, отвращение)",
+            "---"
+          ],
+          "examples": [
+            "I watched in horror as the ladder slipped.",
+            "The film shows the horrors of the flood.",
+            "To her horror, the door locked behind her."
+          ]
+        }
+      ],
+      "русский": "ужас (от увиденного); ужас, отвращение",
       "plural": "horrors",
       "countability": "countable"
     },
@@ -1199,13 +1607,42 @@
       "term": "worry",
       "ipa": "/ˈwɜːri/",
       "respell": "WUR-ee",
-      "meaning": "Anxious thinking about a possible problem. ---",
+      "meaning": "Worry has 2 distinct senses.",
       "examples": [
         "Money is his biggest worry right now.",
         "She has enough worries without this.",
-        "Try not to let worry keep you up."
+        "Try not to let worry keep you up.",
+        "The delay caused her a lot of worry.",
+        "Money worries kept him awake.",
+        "That's the least of my worries."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Anxious thinking about a possible problem",
+          "body": [
+            "(беспокойство, тревога)"
+          ],
+          "examples": [
+            "Money is his biggest worry right now.",
+            "She has enough worries without this.",
+            "Try not to let worry keep you up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An anxious feeling, or a particular thing that causes it",
+          "body": [
+            "(беспокойство, тревога)",
+            "---"
+          ],
+          "examples": [
+            "The delay caused her a lot of worry.",
+            "Money worries kept him awake.",
+            "That's the least of my worries."
+          ]
+        }
+      ],
       "русский": "беспокойство, тревога",
       "plural": "worries",
       "countability": "countable",
@@ -1286,13 +1723,42 @@
       "term": "suspicion",
       "ipa": "/səˈspɪʃən/",
       "respell": "suh-SPISH-uhn",
-      "meaning": "A belief that something is wrong, without full proof. ---",
+      "meaning": "Suspicion has 2 distinct senses.",
       "examples": [
         "I have a suspicion he already knew.",
         "Her suspicions turned out to be right.",
-        "He was arrested on suspicion of fraud."
+        "He was arrested on suspicion of fraud.",
+        "I have a suspicion he's already left.",
+        "Her suspicions turned out to be right.",
+        "He was arrested on suspicion of theft."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A belief that something is wrong, without full proof",
+          "body": [
+            "(подозрение)"
+          ],
+          "examples": [
+            "I have a suspicion he already knew.",
+            "Her suspicions turned out to be right.",
+            "He was arrested on suspicion of fraud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling that something is wrong or that someone is guilty",
+          "body": [
+            "(подозрение)",
+            "---"
+          ],
+          "examples": [
+            "I have a suspicion he's already left.",
+            "Her suspicions turned out to be right.",
+            "He was arrested on suspicion of theft."
+          ]
+        }
+      ],
       "русский": "подозрение",
       "plural": "suspicions",
       "countability": "countable"
@@ -1445,14 +1911,43 @@
       "term": "shock",
       "ipa": "/ʃɑːk/",
       "respell": "SHAHK",
-      "meaning": "A sudden upsetting surprise. ---",
+      "meaning": "Shock has 2 distinct senses.",
       "examples": [
         "The news came as a shock to everyone.",
         "She was still in shock an hour later.",
-        "The bill was a nasty shock."
+        "The bill was a nasty shock.",
+        "He got a shock from the frayed cord.",
+        "Wet hands make a shock much more dangerous.",
+        "She felt small shocks every time she touched the railing."
       ],
-      "senses": [],
-      "русский": "потрясение, шок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden upsetting surprise",
+          "body": [
+            "(потрясение, шок)"
+          ],
+          "examples": [
+            "The news came as a shock to everyone.",
+            "She was still in shock an hour later.",
+            "The bill was a nasty shock."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden painful jolt caused by electricity passing through the body",
+          "body": [
+            "(удар током)",
+            "---"
+          ],
+          "examples": [
+            "He got a shock from the frayed cord.",
+            "Wet hands make a shock much more dangerous.",
+            "She felt small shocks every time she touched the railing."
+          ]
+        }
+      ],
+      "русский": "потрясение, шок; удар током",
       "plural": "shocks",
       "countability": "countable"
     },
@@ -1460,28 +1955,86 @@
       "term": "amazement",
       "ipa": "/əˈmeɪzmənt/",
       "respell": "uh-MAYZ-muhnt",
-      "meaning": "Great surprise and wonder. ---",
+      "meaning": "Amazement has 2 distinct senses.",
       "examples": [
         "He stared in amazement at the size of it.",
         "To our amazement, the old truck started.",
-        "There was amazement on every face in the room."
+        "There was amazement on every face in the room.",
+        "He watched in amazement as she fixed it in a minute.",
+        "To their amazement, the old truck started.",
+        "The trick drew gasps of amazement."
       ],
-      "senses": [],
-      "русский": "изумление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Great surprise and wonder",
+          "body": [
+            "(изумление)"
+          ],
+          "examples": [
+            "He stared in amazement at the size of it.",
+            "To our amazement, the old truck started.",
+            "There was amazement on every face in the room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of great wonder and surprise",
+          "body": [
+            "(изумление, удивление)",
+            "---"
+          ],
+          "examples": [
+            "He watched in amazement as she fixed it in a minute.",
+            "To their amazement, the old truck started.",
+            "The trick drew gasps of amazement."
+          ]
+        }
+      ],
+      "русский": "изумление; изумление, удивление",
       "countability": "uncountable"
     },
     {
       "term": "wonder",
       "ipa": "/ˈwʌndər/",
       "respell": "WUN-dur",
-      "meaning": "Awed surprise at something beautiful or strange. ---",
+      "meaning": "Wonder has 2 distinct senses.",
       "examples": [
         "The kids looked up at the ceiling in wonder.",
         "There is a sense of wonder in her early poems.",
-        "He never lost his wonder at how planes stay up."
+        "He never lost his wonder at how planes stay up.",
+        "The child looked at the fireworks with wonder.",
+        "The canyon is one of the natural wonders of the country.",
+        "It's a wonder nobody got hurt."
       ],
-      "senses": [],
-      "русский": "изумление, восхищение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Awed surprise at something beautiful or strange",
+          "body": [
+            "(изумление, восхищение)"
+          ],
+          "examples": [
+            "The kids looked up at the ceiling in wonder.",
+            "There is a sense of wonder in her early poems.",
+            "He never lost his wonder at how planes stay up."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A feeling of awe and surprise, or something amazing",
+          "body": [
+            "(изумление, восхищение; чудо)",
+            "---"
+          ],
+          "examples": [
+            "The child looked at the fireworks with wonder.",
+            "The canyon is one of the natural wonders of the country.",
+            "It's a wonder nobody got hurt."
+          ]
+        }
+      ],
+      "русский": "изумление, восхищение; изумление, восхищение; чудо",
       "countability": "uncountable"
     },
     {
@@ -1530,14 +2083,43 @@
       "term": "obsession",
       "ipa": "/əbˈsɛʃən/",
       "respell": "uhb-SESH-uhn",
-      "meaning": "A thought or interest you cannot let go of. ---",
+      "meaning": "Obsession has 2 distinct senses.",
       "examples": [
         "Sourdough became a full obsession that year.",
         "His obsession with the case cost him his marriage.",
-        "Her obsessions change every few months."
+        "Her obsessions change every few months.",
+        "Football is a national obsession here.",
+        "His obsessions changed every few months.",
+        "Her obsession with the case cost her the job."
       ],
-      "senses": [],
-      "русский": "навязчивая идея, одержимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thought or interest you cannot let go of",
+          "body": [
+            "(навязчивая идея, одержимость)"
+          ],
+          "examples": [
+            "Sourdough became a full obsession that year.",
+            "His obsession with the case cost him his marriage.",
+            "Her obsessions change every few months."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a person cannot stop thinking about, or the state of being controlled by it",
+          "body": [
+            "(одержимость, навязчивая идея)",
+            "---"
+          ],
+          "examples": [
+            "Football is a national obsession here.",
+            "His obsessions changed every few months.",
+            "Her obsession with the case cost her the job."
+          ]
+        }
+      ],
+      "русский": "навязчивая идея, одержимость; одержимость, навязчивая идея",
       "plural": "obsessions",
       "countability": "countable"
     },
@@ -1545,14 +2127,43 @@
       "term": "passion",
       "ipa": "/ˈpæʃən/",
       "respell": "PASH-uhn",
-      "meaning": "Intense emotion, or a strong interest you love. ---",
+      "meaning": "Passion has 2 distinct senses.",
       "examples": [
         "He argued his case with real passion.",
         "Cooking is her greatest passion.",
+        "The debate stirred up old passions.",
+        "He talks about jazz with real passion.",
+        "Cooking and hiking are her two great passions.",
         "The debate stirred up old passions."
       ],
-      "senses": [],
-      "русский": "страсть; сильное увлечение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Intense emotion, or a strong interest you love",
+          "body": [
+            "(страсть; сильное увлечение)"
+          ],
+          "examples": [
+            "He argued his case with real passion.",
+            "Cooking is her greatest passion.",
+            "The debate stirred up old passions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Very strong feeling or a powerful enthusiasm for something",
+          "body": [
+            "(страсть; увлечение)",
+            "---"
+          ],
+          "examples": [
+            "He talks about jazz with real passion.",
+            "Cooking and hiking are her two great passions.",
+            "The debate stirred up old passions."
+          ]
+        }
+      ],
+      "русский": "страсть; сильное увлечение; страсть; увлечение",
       "plural": "passions",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1560,13 +2171,42 @@
       "term": "enthusiasm",
       "ipa": "/ɪnˈθuːziæzəm/",
       "respell": "in-THOO-zee-az-uhm",
-      "meaning": "Eager, energetic interest. ---",
+      "meaning": "Enthusiasm has 2 distinct senses.",
       "examples": [
         "She took on the project with real enthusiasm.",
         "His enthusiasm is contagious.",
-        "The plan was met with zero enthusiasm."
+        "The plan was met with zero enthusiasm.",
+        "She took to the job with real enthusiasm.",
+        "His enthusiasm is contagious.",
+        "The crowd's enthusiasm faded by the fourth quarter."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Eager, energetic interest",
+          "body": [
+            "(энтузиазм)"
+          ],
+          "examples": [
+            "She took on the project with real enthusiasm.",
+            "His enthusiasm is contagious.",
+            "The plan was met with zero enthusiasm."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Strong, eager enjoyment of or interest in something",
+          "body": [
+            "(энтузиазм)",
+            "---"
+          ],
+          "examples": [
+            "She took to the job with real enthusiasm.",
+            "His enthusiasm is contagious.",
+            "The crowd's enthusiasm faded by the fourth quarter."
+          ]
+        }
+      ],
       "русский": "энтузиазм",
       "countability": "uncountable"
     },
@@ -1574,14 +2214,43 @@
       "term": "excitement",
       "ipa": "/ɪkˈsaɪtmənt/",
       "respell": "ik-SYT-muhnt",
-      "meaning": "A lively, happy stirred-up feeling. ---",
+      "meaning": "Excitement has 2 distinct senses.",
       "examples": [
         "There was a lot of excitement about the new store.",
         "She could barely sleep from excitement.",
-        "The excitement died down after a week."
+        "The excitement died down after a week.",
+        "The kids couldn't sleep from excitement.",
+        "There's a lot of excitement about the new store.",
+        "In all the excitement I forgot my keys."
       ],
-      "senses": [],
-      "русский": "волнение, воодушевление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A lively, happy stirred-up feeling",
+          "body": [
+            "(волнение, воодушевление)"
+          ],
+          "examples": [
+            "There was a lot of excitement about the new store.",
+            "She could barely sleep from excitement.",
+            "The excitement died down after a week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong feeling of eager interest and energy",
+          "body": [
+            "(волнение, возбуждение, азарт)",
+            "---"
+          ],
+          "examples": [
+            "The kids couldn't sleep from excitement.",
+            "There's a lot of excitement about the new store.",
+            "In all the excitement I forgot my keys."
+          ]
+        }
+      ],
+      "русский": "волнение, воодушевление; волнение, возбуждение, азарт",
       "countability": "uncountable"
     },
     {
@@ -1663,13 +2332,42 @@
       "term": "temper",
       "ipa": "/ˈtɛmpər/",
       "respell": "TEM-pur",
-      "meaning": "Someone's tendency to get angry, or their current mood. ---",
+      "meaning": "Temper has 2 distinct senses.",
       "examples": [
         "He has a terrible temper.",
         "Tempers got short in the last mile.",
-        "She lost her temper for the first time all year."
+        "She lost her temper for the first time all year.",
+        "He has a terrible temper.",
+        "Tempers flared at the town meeting.",
+        "She lost her temper and walked out."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone's tendency to get angry, or their current mood",
+          "body": [
+            "(нрав; вспыльчивость)"
+          ],
+          "examples": [
+            "He has a terrible temper.",
+            "Tempers got short in the last mile.",
+            "She lost her temper for the first time all year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tendency to become angry, or a person's state of mind at a moment",
+          "body": [
+            "(нрав; вспыльчивость)",
+            "---"
+          ],
+          "examples": [
+            "He has a terrible temper.",
+            "Tempers flared at the town meeting.",
+            "She lost her temper and walked out."
+          ]
+        }
+      ],
       "русский": "нрав; вспыльчивость",
       "plural": "tempers",
       "countability": "countable"
@@ -1693,13 +2391,42 @@
       "term": "feeling",
       "ipa": "/ˈfiːlɪŋ/",
       "respell": "FEE-ling",
-      "meaning": "An emotion, or an inner sense about something. ---",
+      "meaning": "Feeling has 2 distinct senses.",
       "examples": [
         "I have a feeling this is going to work.",
         "You hurt his feelings with that joke.",
-        "There is a warm feeling in that house."
+        "There is a warm feeling in that house.",
+        "I have a bad feeling about this.",
+        "You hurt her feelings with that joke.",
+        "There's a strange feeling in my left hand."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An emotion, or an inner sense about something",
+          "body": [
+            "(чувство, ощущение)"
+          ],
+          "examples": [
+            "I have a feeling this is going to work.",
+            "You hurt his feelings with that joke.",
+            "There is a warm feeling in that house."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a person experiences emotionally or physically",
+          "body": [
+            "(чувство, ощущение)",
+            "---"
+          ],
+          "examples": [
+            "I have a bad feeling about this.",
+            "You hurt her feelings with that joke.",
+            "There's a strange feeling in my left hand."
+          ]
+        }
+      ],
       "русский": "чувство, ощущение",
       "plural": "feelings",
       "countability": "countable"
@@ -1747,7 +2474,8 @@
       "senses": [],
       "русский": "отношение, настрой",
       "plural": "attitudes",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say A-tih-tood; the British add a y sound: AT-ih-tyood."
     },
     {
       "term": "sensitivity",
@@ -1824,13 +2552,42 @@
       "term": "confusion",
       "ipa": "/kənˈfjuːʒən/",
       "respell": "kuhn-FYOO-zhuhn",
-      "meaning": "A state of not understanding what is happening. ---",
+      "meaning": "Confusion has 2 distinct senses.",
       "examples": [
         "There was some confusion about the start time.",
         "He blinked in confusion at the question.",
-        "The new forms caused nothing but confusion."
+        "The new forms caused nothing but confusion.",
+        "There was some confusion about the start time.",
+        "In the confusion after the fire alarm, I lost my bag.",
+        "The new form caused a lot of confusion."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A state of not understanding what is happening",
+          "body": [
+            "(замешательство, путаница)"
+          ],
+          "examples": [
+            "There was some confusion about the start time.",
+            "He blinked in confusion at the question.",
+            "The new forms caused nothing but confusion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of not understanding, or a disordered situation",
+          "body": [
+            "(замешательство, путаница)",
+            "---"
+          ],
+          "examples": [
+            "There was some confusion about the start time.",
+            "In the confusion after the fire alarm, I lost my bag.",
+            "The new form caused a lot of confusion."
+          ]
+        }
+      ],
       "русский": "замешательство, путаница",
       "countability": "uncountable"
     },
@@ -1838,27 +2595,85 @@
       "term": "intuition",
       "ipa": "/ˌɪntuˈɪʃən/",
       "respell": "in-too-ISH-uhn",
-      "meaning": "Knowing something without being able to explain how. ---",
+      "meaning": "Intuition has 2 distinct senses.",
       "examples": [
         "Trust your intuition on this one.",
         "Her intuition about people is uncanny.",
-        "Good design is part training and part intuition."
+        "Good design is part training and part intuition.",
+        "Her intuition told her the deal was bad.",
+        "Good nurses work partly on intuition.",
+        "Trust your intuition on this one."
       ],
-      "senses": [],
-      "русский": "интуиция",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Knowing something without being able to explain how",
+          "body": [
+            "(интуиция)"
+          ],
+          "examples": [
+            "Trust your intuition on this one.",
+            "Her intuition about people is uncanny.",
+            "Good design is part training and part intuition."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The ability to know something without needing to reason it out",
+          "body": [
+            "(интуиция, чутьё)",
+            "---"
+          ],
+          "examples": [
+            "Her intuition told her the deal was bad.",
+            "Good nurses work partly on intuition.",
+            "Trust your intuition on this one."
+          ]
+        }
+      ],
+      "русский": "интуиция; интуиция, чутьё",
       "countability": "uncountable"
     },
     {
       "term": "instinct",
       "ipa": "/ˈɪnstɪŋkt/",
       "respell": "IN-stingkt",
-      "meaning": "A natural, unlearned way of feeling or acting. ---",
+      "meaning": "Instinct has 2 distinct senses.",
       "examples": [
         "My first instinct was to run.",
         "She has good instincts about hiring.",
-        "Birds build nests by instinct."
+        "Birds build nests by instinct.",
+        "A mother bird's instinct is to protect the nest.",
+        "Trust your instincts on people.",
+        "He has a good instinct for a bargain."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A natural, unlearned way of feeling or acting",
+          "body": [
+            "(инстинкт, чутьё)"
+          ],
+          "examples": [
+            "My first instinct was to run.",
+            "She has good instincts about hiring.",
+            "Birds build nests by instinct."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A natural way of behaving or knowing that is not learned",
+          "body": [
+            "(инстинкт, чутьё)",
+            "---"
+          ],
+          "examples": [
+            "A mother bird's instinct is to protect the nest.",
+            "Trust your instincts on people.",
+            "He has a good instinct for a bargain."
+          ]
+        }
+      ],
       "русский": "инстинкт, чутьё",
       "plural": "instincts",
       "countability": "countable"
@@ -2018,13 +2833,42 @@
       "term": "smile",
       "ipa": "/smaɪl/",
       "respell": "SMYL",
-      "meaning": "A facial expression showing pleasure or friendliness. ---",
+      "meaning": "Smile has 2 distinct senses.",
       "examples": [
         "She greeted us with a big smile.",
         "That smile is on every billboard in town.",
-        "The photo is all smiles and sunburn."
+        "The photo is all smiles and sunburn.",
+        "She greeted us with a warm smile.",
+        "He gave me a quick smile and kept walking.",
+        "The kids posed with big smiles."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A facial expression showing pleasure or friendliness",
+          "body": [
+            "(улыбка)"
+          ],
+          "examples": [
+            "She greeted us with a big smile.",
+            "That smile is on every billboard in town.",
+            "The photo is all smiles and sunburn."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The happy look you make by turning up the corners of your mouth",
+          "body": [
+            "(улыбка)",
+            "---"
+          ],
+          "examples": [
+            "She greeted us with a warm smile.",
+            "He gave me a quick smile and kept walking.",
+            "The kids posed with big smiles."
+          ]
+        }
+      ],
       "русский": "улыбка",
       "plural": "smiles",
       "countability": "countable"
@@ -2048,13 +2892,42 @@
       "term": "frown",
       "ipa": "/fraʊn/",
       "respell": "FROWN",
-      "meaning": "A facial expression of displeasure or worry. ---",
+      "meaning": "Frown has 2 distinct senses.",
       "examples": [
         "A frown crossed her face when she read it.",
         "He answered with a frown and a shrug.",
-        "The news drew frowns from the whole table."
+        "The news drew frowns from the whole table.",
+        "A deep frown crossed his face.",
+        "She read the letter with a frown.",
+        "His frowns told me the news was bad."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A facial expression of displeasure or worry",
+          "body": [
+            "(хмурый взгляд, нахмуренные брови)"
+          ],
+          "examples": [
+            "A frown crossed her face when she read it.",
+            "He answered with a frown and a shrug.",
+            "The news drew frowns from the whole table."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unhappy or worried look made by pulling the eyebrows together",
+          "body": [
+            "(хмурый взгляд, нахмуренные брови)",
+            "---"
+          ],
+          "examples": [
+            "A deep frown crossed his face.",
+            "She read the letter with a frown.",
+            "His frowns told me the news was bad."
+          ]
+        }
+      ],
       "русский": "хмурый взгляд, нахмуренные брови",
       "plural": "frowns",
       "countability": "countable"
@@ -2078,13 +2951,42 @@
       "term": "arrogance",
       "ipa": "/ˈærəɡəns/",
       "respell": "AR-uh-guhns",
-      "meaning": "An offensive belief that you are better than others. ---",
+      "meaning": "Arrogance has 2 distinct senses.",
       "examples": [
         "His arrogance cost him the account.",
         "There is a difference between confidence and arrogance.",
-        "She was put off by the arrogance in his email."
+        "She was put off by the arrogance in his email.",
+        "His arrogance cost him the promotion.",
+        "There's a fine line between confidence and arrogance.",
+        "The tone of the letter struck me as pure arrogance."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An offensive belief that you are better than others",
+          "body": [
+            "(высокомерие, надменность)"
+          ],
+          "examples": [
+            "His arrogance cost him the account.",
+            "There is a difference between confidence and arrogance.",
+            "She was put off by the arrogance in his email."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An unpleasant sense of your own superiority",
+          "body": [
+            "(высокомерие, надменность)",
+            "---"
+          ],
+          "examples": [
+            "His arrogance cost him the promotion.",
+            "There's a fine line between confidence and arrogance.",
+            "The tone of the letter struck me as pure arrogance."
+          ]
+        }
+      ],
       "русский": "высокомерие, надменность",
       "countability": "uncountable"
     },

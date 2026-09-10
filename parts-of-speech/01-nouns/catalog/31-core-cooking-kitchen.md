@@ -78,6 +78,7 @@ The appliance that keeps food cold.
 **Русский:** холодильник (разговорное)
 **Plural:** *fridges*
 **Countability:** countable
+**Contrast:** Short for *refrigerator*, but spelled with a d.
 
 An informal word for a refrigerator.
 
@@ -201,11 +202,25 @@ One of the cooking rings or elements on top of a stove.
 **Plural:** *sinks*
 **Countability:** countable
 
-The basin with a faucet where you wash dishes and hands.
+Sink has 3 distinct senses.
+
+**1. The basin with a faucet where you wash dishes and hands.** (раковина, мойка)
 
 1. There's a stack of dishes in the *sink*.
 2. Just rinse it off in the *sink*.
 3. The kitchen has a double *sink*.
+
+**2. A fixed basin with a faucet, used for washing.** (раковина, мойка)
+
+4. Just leave the dishes in the *sink*.
+5. The kitchen *sink* is backed up again.
+6. The bathroom has two *sinks*.
+
+**3. A basin with a water supply and a drain.** (раковина, мойка)
+
+7. The dishes are piled up in the *sink*.
+8. Don't pour grease down the *sink*.
+9. The main bathroom has two *sinks*.
 
 ---
 
@@ -215,6 +230,7 @@ The basin with a faucet where you wash dishes and hands.
 **Русский:** столешница
 **Plural:** *countertops*
 **Countability:** countable
+**Contrast:** American *countertop* is British *worktop*.
 
 The flat working surface along a kitchen wall.
 
@@ -227,16 +243,30 @@ The flat working surface along a kitchen wall.
 ### cabinet
 
 **Pronunciation:** /ˈkæbənət/ &middot; *KAB-uh-nut*
-**Русский:** шкафчик (кухонный)
+**Русский:** шкафчик (кухонный); шкафчик, тумба (кухонная); шкафчик, тумба
 **Plural:** *cabinets*
 **Countability:** countable
 **Contrast:** In ordinary speech it collapses to two syllables: KAB-nut.
 
-A cupboard with shelves and a door, usually mounted on a wall.
+Cabinet has 3 distinct senses.
+
+**1. A cupboard with shelves and a door, usually mounted on a wall.** (шкафчик (кухонный))
 
 1. The glasses are in the *cabinet* above the sink.
 2. We painted the kitchen *cabinets* white.
 3. He couldn't reach the top *cabinet* without a chair.
+
+**2. A built-in box with doors or drawers for storing things.** (шкафчик, тумба (кухонная))
+
+4. The bandaids are in the medicine *cabinet*.
+5. We're refacing the kitchen *cabinets* instead of replacing them.
+6. That *cabinet* is bolted to the wall.
+
+**3. A piece of furniture with doors and shelves, often mounted on a wall.** (шкафчик, тумба)
+
+7. The medicine *cabinet* is above the sink.
+8. We're replacing the kitchen *cabinets* this fall.
+9. He keeps the good glasses in that *cabinet*.
 
 ---
 
@@ -258,16 +288,24 @@ A small room or closet where dry food is kept.
 ### drawer
 
 **Pronunciation:** /drɔːr/ &middot; *DRAWR*
-**Русский:** выдвижной ящик
+**Русский:** выдвижной ящик; выдвижной ящик (мебели)
 **Plural:** *drawers*
 **Countability:** countable
 **Contrast:** One syllable in American speech — it sounds like 'draw' with an r, not DRAW-er.
 
-A sliding box built into a piece of furniture.
+Drawer has 2 distinct senses.
+
+**1. A sliding box built into a piece of furniture.** (выдвижной ящик)
 
 1. The forks are in the top *drawer*.
 2. That *drawer* sticks every single time.
 3. He went through all the kitchen *drawers* looking for a corkscrew.
+
+**2. A box-shaped part of a desk or dresser that slides in and out.** (выдвижной ящик (мебели))
+
+4. The forks are in the top *drawer*.
+5. This *drawer* keeps sticking.
+6. She emptied all the *drawers* before the move.
 
 ---
 
@@ -289,15 +327,23 @@ A frame of bars used to hold or cool things.
 ### grinder
 
 **Pronunciation:** /ˈɡraɪndər/ &middot; *GRYN-dur*
-**Русский:** мельница, кофемолка
+**Русский:** мельница, кофемолка; болгарка, шлифовальный станок
 **Plural:** *grinders*
 **Countability:** countable
 
-A device that crushes coffee, pepper, or spices into small pieces.
+Grinder has 2 distinct senses.
+
+**1. A device that crushes coffee, pepper, or spices into small pieces.** (мельница, кофемолка)
 
 1. Grind the beans fresh in a burr *grinder*.
 2. There's a pepper *grinder* on every table.
 3. Cheap *grinders* heat the coffee up too much.
+
+**2. A power tool with a spinning wheel that cuts or smooths metal.** (болгарка, шлифовальный станок)
+
+4. He cut the bolt off with an angle *grinder*.
+5. Sparks flew everywhere from the *grinder*.
+6. The shop has two bench *grinders*.
 
 ---
 
@@ -368,6 +414,7 @@ A shallow metal container used for frying or baking.
 **Русский:** сковорода (часто чугунная)
 **Plural:** *skillets*
 **Countability:** countable
+**Contrast:** Common American word for a frying pan.
 
 A heavy frying pan with sloping sides.
 
@@ -410,15 +457,23 @@ A deep bowl-shaped pan used for quick, high-heat cooking.
 ### tray
 
 **Pronunciation:** /treɪ/ &middot; *TRAY*
-**Русский:** поднос; противень
+**Русский:** поднос; противень; поднос
 **Plural:** *trays*
 **Countability:** countable
 
-A flat piece of metal, wood, or plastic used to carry or hold food.
+Tray has 2 distinct senses.
+
+**1. A flat piece of metal, wood, or plastic used to carry or hold food.** (поднос; противень)
 
 1. She carried the drinks out on a *tray*.
 2. Line the *tray* with parchment first.
 3. The ice *trays* are in the freezer door.
+
+**2. A flat carrier with raised edges for holding food or dishes.** (поднос)
+
+4. She carried the coffee out on a *tray*.
+5. Put the cookies on a baking *tray*.
+6. The *trays* are stacked by the door.
 
 ---
 
@@ -428,6 +483,7 @@ A flat piece of metal, wood, or plastic used to carry or hold food.
 **Русский:** дуршлаг
 **Plural:** *colanders*
 **Countability:** countable
+**Contrast:** Not the same word as *calendar*.
 
 A bowl full of holes used for draining water off food.
 
@@ -521,11 +577,19 @@ A loop-shaped wire tool for beating eggs or cream.
 **Plural:** *spatulas*
 **Countability:** countable
 
-A flat tool for flipping food or scraping a bowl.
+Spatula has 2 distinct senses.
+
+**1. A flat tool for flipping food or scraping a bowl.** (лопатка (кухонная))
 
 1. Flip the pancakes with a *spatula*.
 2. Scrape the bowl down with a rubber *spatula*.
 3. I keep three *spatulas* in the crock by the stove.
+
+**2. A flat kitchen tool for lifting or spreading food.** (лопатка (кухонная))
+
+4. Flip the pancakes with a *spatula*.
+5. The rubber *spatula* melted on the burner.
+6. There are *spatulas* in every drawer in this kitchen.
 
 ---
 
@@ -687,6 +751,7 @@ A padded glove for handling hot pans.
 **Русский:** фартук
 **Plural:** *aprons*
 **Countability:** countable
+**Contrast:** The first syllable rhymes with ape, not with app.
 
 A garment tied over your clothes to keep them clean while cooking.
 
@@ -699,31 +764,53 @@ A garment tied over your clothes to keep them clean while cooking.
 ### sponge
 
 **Pronunciation:** /spʌndʒ/ &middot; *SPUNJ*
-**Русский:** губка (для мытья посуды)
+**Русский:** губка (для мытья посуды); губка
 **Plural:** *sponges*
 **Countability:** countable
 **Contrast:** Written -onge but said SPUNJ, rhyming with 'plunge'.
 
-A soft absorbent block used for washing dishes and wiping surfaces.
+Sponge has 2 distinct senses.
+
+**1. A soft absorbent block used for washing dishes and wiping surfaces.** (губка (для мытья посуды))
 
 1. Wipe the counter with a damp *sponge*.
 2. That *sponge* smells — just throw it out.
 3. I buy *sponges* in packs of six.
+
+**2. A soft absorbent material full of holes, or a piece of it used for cleaning.** (губка)
+
+4. Wipe the counter with a damp *sponge*.
+5. The *sponge* by the sink smells terrible.
+6. Grab a pack of *sponges* while you're out.
 
 ---
 
 ### detergent
 
 **Pronunciation:** /dɪˈtɜːrdʒənt/ &middot; *dih-TUR-junt*
-**Русский:** моющее средство
+**Русский:** моющее средство; моющее средство, стиральный порошок; моющее средство; стиральный порошок
 **Plural:** *detergents*
 **Countability:** countable, and uncountable as a substance
 
-A soap-like cleaner used for washing dishes or clothes.
+Detergent has 3 distinct senses.
+
+**1. A soap-like cleaner used for washing dishes or clothes.** (моющее средство)
 
 1. Add a squirt of dish *detergent* to the water.
 2. We're completely out of *detergent*.
 3. The store-brand *detergents* work just as well.
+
+**2. A cleaning product used for washing clothes or dishes.** (моющее средство, стиральный порошок)
+
+4. We're out of laundry *detergent*.
+5. Use less *detergent* than the box tells you to.
+6. This *detergent* is safe for colors.
+
+**3. A chemical cleaner used for laundry or dishes.** (моющее средство; стиральный порошок)
+
+7. We're out of laundry *detergent*.
+8. Use less *detergent* than the box says.
+9. Some *detergents* irritate sensitive skin.
 
 ---
 
@@ -853,12 +940,21 @@ A tool used in preparing or eating food.
 **Русский:** бытовой прибор, бытовая техника
 **Plural:** *appliances*
 **Countability:** countable
+**Contrast:** Countable in English, unlike the Russian mass noun *техника*: *an appliance*, *three appliances*.
 
-A machine designed for a household job such as cooking or washing.
+Appliance has 2 distinct senses.
+
+**1. A machine designed for a household job such as cooking or washing.** (бытовой прибор, бытовая техника)
 
 1. The kitchen comes with all new *appliances*.
 2. That *appliance* draws a lot of power.
 3. They deliver large *appliances* on Tuesdays.
+
+**2. A machine used in the home, such as a refrigerator or a washing machine.** (бытовой прибор, бытовая техника)
+
+4. The rent includes all the *appliances*.
+5. One *appliance* after another broke that year.
+6. Stainless steel *appliances* show every fingerprint.
 
 ---
 
@@ -1077,11 +1173,19 @@ The level of warmth used to cook something.
 **Русский:** пар
 **Countability:** uncountable
 
-The hot vapor that rises from boiling water.
+Steam has 2 distinct senses.
+
+**1. The hot vapor that rises from boiling water.** (пар)
 
 1. Lift the lid away from you so the *steam* doesn't burn you.
 2. The rice finishes cooking in its own *steam*.
 3. There was so much *steam* the windows fogged up.
+
+**2. The hot gas water turns into when it boils.** (пар)
+
+4. *Steam* was pouring out from under the hood.
+5. The bathroom filled with *steam*.
+6. The building is heated by *steam*.
 
 ---
 

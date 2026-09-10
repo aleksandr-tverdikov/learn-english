@@ -120,16 +120,24 @@ The stretch of a street between two cross streets, or the buildings on it.
 ### borough
 
 **Pronunciation:** /ˈbɜːroʊ/ &middot; *BUR-oh*
-**Русский:** округ города, боро
+**Русский:** округ города, боро; район (административный)
 **Plural:** *boroughs*
 **Countability:** countable
 **Contrast:** The 'gh' is silent: it rhymes with 'furrow', not with 'bore'.
 
-One of the administrative divisions that a large city is split into.
+Borough has 2 distinct senses.
+
+**1. One of the administrative divisions that a large city is split into.** (округ города, боро)
 
 1. Queens is the largest *borough* by area.
 2. All five *boroughs* were under a flood warning.
 3. He's lived in the same *borough* his whole life.
+
+**2. A self-governing district of a large city or state.** (район (административный))
+
+4. Brooklyn is the most populous *borough*.
+5. All five *boroughs* voted the same way.
+6. The *borough* runs its own sanitation department.
 
 ---
 
@@ -778,6 +786,7 @@ A building where legal cases are heard.
 **Русский:** тюрьма (местная), изолятор
 **Plural:** *jails*
 **Countability:** countable
+**Contrast:** With no article it means the situation — *go to jail*; with an article it means the building — *a jail downtown*.
 
 A place run by a city or county where people are locked up, usually for short terms.
 
@@ -793,6 +802,7 @@ A place run by a city or county where people are locked up, usually for short te
 **Русский:** тюрьма
 **Plural:** *prisons*
 **Countability:** countable
+**Contrast:** In American usage *jail* is a local lockup for short stays, while *prison* holds people serving longer sentences.
 
 A large building where people convicted of serious crimes are kept for long terms.
 
@@ -1201,15 +1211,23 @@ A public area of grass and trees in a town for people to relax in.
 ### square
 
 **Pronunciation:** /skwɛr/ &middot; *SKWAIR*
-**Русский:** площадь (городская)
+**Русский:** площадь (городская); квадрат
 **Plural:** *squares*
 **Countability:** countable
 
-An open public space in a town, usually surrounded by buildings.
+Square has 2 distinct senses.
+
+**1. An open public space in a town, usually surrounded by buildings.** (площадь (городская))
 
 1. The Christmas tree goes up in the town *square*.
 2. Several *squares* in this city date to colonial times.
 3. We sat on a bench in the *square* and ate lunch.
+
+**2. A shape with four equal straight sides and four right angles.** (квадрат)
+
+4. Fold the paper into a *square*.
+5. The quilt is made of hundreds of colored *squares*.
+6. Move your piece three *squares* forward.
 
 ---
 
@@ -1371,11 +1389,19 @@ The tall pointed top of a tower, especially on a church.
 **Countability:** countable
 **Contrast:** The noun is usually stressed on the first syllable (A-dres); the verb 'to address' takes uh-DRES.
 
-The details of where a building is, used for mail and directions.
+Address has 2 distinct senses.
+
+**1. The details of where a building is, used for mail and directions.** (адрес)
 
 1. Text me the *address* and I'll meet you there.
 2. We've had three *addresses* in two years.
 3. The package went to my old *address*.
+
+**2. The details that say where a person, building, or account can be reached.** (адрес)
+
+4. What's your email *address*?
+5. The package went to the wrong *address*.
+6. Both *addresses* on the form are old.
 
 ---
 
@@ -1531,15 +1557,29 @@ A town or city with its own local government.
 ### precinct
 
 **Pronunciation:** /ˈpriːsɪŋkt/ &middot; *PREE-singkt*
-**Русский:** полицейский участок; избирательный участок
+**Русский:** полицейский участок; избирательный участок; полицейский участок; избирательный округ; избирательный участок; полицейский участок
 **Plural:** *precincts*
 **Countability:** countable
 
-A district of a city for police or voting purposes, or the station serving it.
+Precinct has 3 distinct senses.
+
+**1. A district of a city for police or voting purposes, or the station serving it.** (полицейский участок; избирательный участок)
 
 1. They took him down to the *precinct* for questioning.
 2. Turnout was highest in the downtown *precincts*.
 3. The 19th *precinct* covers the whole east side.
+
+**2. A district of a city policed from one station, or the station itself.** (полицейский участок; избирательный округ)
+
+4. They took him down to the *precinct*.
+5. She's been with the twelfth *precinct* for years.
+6. Three *precincts* were merged to save money.
+
+**3. A small area used for voting or policing.** (избирательный участок; полицейский участок)
+
+7. Turnout was heavy in our *precinct*.
+8. They took him down to the *precinct* for questioning.
+9. Results from twelve *precincts* are still missing.
 
 ---
 
@@ -1561,16 +1601,24 @@ A place where two roads or railroad lines meet or divide.
 ### depot
 
 **Pronunciation:** /ˈdiːpoʊ/ &middot; *DEE-poh*
-**Русский:** депо; автовокзал, станция
+**Русский:** депо; автовокзал, станция; склад, база; депо
 **Plural:** *depots*
 **Countability:** countable
 **Contrast:** American DEE-poh; British speakers say DEP-oh. The 't' is silent either way.
 
-A building where buses or trains are kept, or a small station.
+Depot has 2 distinct senses.
+
+**1. A building where buses or trains are kept, or a small station.** (депо; автовокзал, станция)
 
 1. The bus leaves from the *depot* at six.
 2. Two old rail *depots* have been turned into restaurants.
 3. We waited inside the *depot* out of the cold.
+
+**2. A building where goods, fuel, or vehicles are stored.** (склад, база; депо)
+
+4. The fuel *depot* sits just outside town.
+5. Buses are serviced at the *depot* overnight.
+6. Two *depots* supply the whole northern route.
 
 ---
 

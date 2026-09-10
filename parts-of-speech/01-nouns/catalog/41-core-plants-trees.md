@@ -57,15 +57,24 @@ The colored part of a plant that produces seeds.
 ### branch
 
 **Pronunciation:** /bræntʃ/ &middot; *BRANCH*
-**Русский:** ветка, ветвь
+**Русский:** ветка, ветвь; филиал, отделение
 **Plural:** *branches*
 **Countability:** countable
+**Contrast:** Americans say BRANCH with the vowel of cat; the British use a long ah sound.
 
-A part of a tree that grows out from the trunk.
+Branch has 2 distinct senses.
+
+**1. A part of a tree that grows out from the trunk.** (ветка, ветвь)
 
 1. A *branch* came down on the power line.
 2. The kids climbed out onto the low *branches*.
 3. Trim that *branch* before it starts hitting the roof.
+
+**2. A local office or store belonging to a larger company or bank.** (филиал, отделение)
+
+4. The bank closed the *branch* on Main Street.
+5. You can pick it up at any *branch*.
+6. They're opening two new *branches* this year.
 
 ---
 

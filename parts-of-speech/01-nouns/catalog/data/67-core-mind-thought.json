@@ -520,14 +520,43 @@
       "term": "identity",
       "ipa": "/aɪˈdɛntəti/",
       "respell": "eye-DEN-tuh-tee",
-      "meaning": "Who a person is, or the sense of belonging that shapes that. ---",
+      "meaning": "Identity has 2 distinct senses.",
       "examples": [
         "The thief stole her identity and opened three cards.",
         "Teenagers are busy forming their identities.",
-        "Baseball is part of the town's identity."
+        "Baseball is part of the town's identity.",
+        "Language is a big part of national identity.",
+        "Someone stole his identity and opened three credit cards.",
+        "Teenagers try on different identities."
       ],
-      "senses": [],
-      "русский": "личность; самосознание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Who a person is, or the sense of belonging that shapes that",
+          "body": [
+            "(личность; самосознание)"
+          ],
+          "examples": [
+            "The thief stole her identity and opened three cards.",
+            "Teenagers are busy forming their identities.",
+            "Baseball is part of the town's identity."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Who a person is, or the qualities that make a group distinct",
+          "body": [
+            "(идентичность, самосознание; личность)",
+            "---"
+          ],
+          "examples": [
+            "Language is a big part of national identity.",
+            "Someone stole his identity and opened three credit cards.",
+            "Teenagers try on different identities."
+          ]
+        }
+      ],
+      "русский": "личность; самосознание; идентичность, самосознание; личность",
       "plural": "identities",
       "countability": "countable"
     },
@@ -892,16 +921,46 @@
       "term": "nap",
       "ipa": "/næp/",
       "respell": "NAP",
-      "meaning": "A short sleep, usually during the day. ---",
+      "meaning": "Nap has 2 distinct senses.",
       "examples": [
         "I took a twenty-minute nap after lunch.",
         "The baby still takes two naps a day.",
-        "A quick nap fixed my headache."
+        "A quick nap fixed my headache.",
+        "Cut all the pieces with the nap running the same way.",
+        "Brush the nap back up with a soft cloth.",
+        "Velvet looks darker against the nap."
       ],
-      "senses": [],
-      "русский": "короткий сон, дремота",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short sleep, usually during the day",
+          "body": [
+            "(короткий сон, дремота)"
+          ],
+          "examples": [
+            "I took a twenty-minute nap after lunch.",
+            "The baby still takes two naps a day.",
+            "A quick nap fixed my headache."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The short raised fibers on the surface of velvet, suede, or corduroy",
+          "body": [
+            "(ворс (на ткани))",
+            "---"
+          ],
+          "examples": [
+            "Cut all the pieces with the nap running the same way.",
+            "Brush the nap back up with a soft cloth.",
+            "Velvet looks darker against the nap."
+          ]
+        }
+      ],
+      "русский": "короткий сон, дремота; ворс (на ткани)",
       "plural": "naps",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Same spelling as nap, a short sleep — the fabric sense is uncountable."
     },
     {
       "term": "relaxation",

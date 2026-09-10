@@ -1128,14 +1128,43 @@
       "term": "water softener",
       "ipa": "/ˈwɔːtər ˌsɔːfənər/",
       "respell": "WAW-tur SAW-fuh-nur",
-      "meaning": "A device or product that takes minerals out of hard water. ---",
+      "meaning": "Water softener has 2 distinct senses.",
       "examples": [
         "They put a water softener in the basement.",
         "The water softener needs salt once a month.",
-        "Water softeners pay for themselves out here."
+        "Water softeners pay for themselves out here.",
+        "We put in a water softener and the spots on the glasses stopped.",
+        "The water softener needs a bag of salt every month.",
+        "Water softeners are almost standard around here."
       ],
-      "senses": [],
-      "русский": "умягчитель воды (прибор или средство)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device or product that takes minerals out of hard water",
+          "body": [
+            "(умягчитель воды (прибор или средство))"
+          ],
+          "examples": [
+            "They put a water softener in the basement.",
+            "The water softener needs salt once a month.",
+            "Water softeners pay for themselves out here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit that removes the minerals that make water hard",
+          "body": [
+            "(умягчитель воды)",
+            "---"
+          ],
+          "examples": [
+            "We put in a water softener and the spots on the glasses stopped.",
+            "The water softener needs a bag of salt every month.",
+            "Water softeners are almost standard around here."
+          ]
+        }
+      ],
+      "русский": "умягчитель воды (прибор или средство); умягчитель воды",
       "plural": "water softeners",
       "countability": "countable",
       "contrast": "The t in softener is silent."
@@ -1336,7 +1365,8 @@
       "senses": [],
       "русский": "свалка металлолома, автосвалка",
       "plural": "junkyards",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say junkyard; the British say scrapyard."
     },
     {
       "term": "incinerator",

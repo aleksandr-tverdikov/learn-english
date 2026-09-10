@@ -540,14 +540,43 @@
       "term": "gender",
       "ipa": "/ˈdʒɛndər/",
       "respell": "JEN-dur",
-      "meaning": "The class a noun belongs to in some languages, such as masculine or feminine. ---",
+      "meaning": "Gender has 2 distinct senses.",
       "examples": [
         "Russian nouns have gender, and English ones don't.",
         "You have to learn the gender along with the word.",
-        "German has three genders."
+        "German has three genders.",
+        "The pay gap between genders is narrowing.",
+        "The survey does not ask about gender.",
+        "Both genders were represented on the panel."
       ],
-      "senses": [],
-      "русский": "род (грамматический)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The class a noun belongs to in some languages, such as masculine or feminine",
+          "body": [
+            "(род (грамматический))"
+          ],
+          "examples": [
+            "Russian nouns have gender, and English ones don't.",
+            "You have to learn the gender along with the word.",
+            "German has three genders."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The state of being male or female, especially as a social role",
+          "body": [
+            "(пол, гендер)",
+            "---"
+          ],
+          "examples": [
+            "The pay gap between genders is narrowing.",
+            "The survey does not ask about gender.",
+            "Both genders were represented on the panel."
+          ]
+        }
+      ],
+      "русский": "род (грамматический); пол, гендер",
       "plural": "genders",
       "countability": "countable"
     },
@@ -1125,13 +1154,42 @@
       "term": "surname",
       "ipa": "/ˈsɜːrneɪm/",
       "respell": "SUR-naym",
-      "meaning": "The family name that comes after a person's given name. ---",
+      "meaning": "Surname has 2 distinct senses.",
       "examples": [
         "Smith is the most common surname in the country.",
         "She kept her surname after the wedding.",
-        "Both surnames are hyphenated on the form."
+        "Both surnames are hyphenated on the form.",
+        "Her surname is hard to spell.",
+        "Both surnames appear on the birth certificate.",
+        "He kept his mother's surname."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The family name that comes after a person's given name",
+          "body": [
+            "(фамилия)"
+          ],
+          "examples": [
+            "Smith is the most common surname in the country.",
+            "She kept her surname after the wedding.",
+            "Both surnames are hyphenated on the form."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A family name, shared by parents and children",
+          "body": [
+            "(фамилия)",
+            "---"
+          ],
+          "examples": [
+            "Her surname is hard to spell.",
+            "Both surnames appear on the birth certificate.",
+            "He kept his mother's surname."
+          ]
+        }
+      ],
       "русский": "фамилия",
       "plural": "surnames",
       "countability": "countable",

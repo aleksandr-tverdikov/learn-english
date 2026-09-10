@@ -32,11 +32,19 @@ A box made of stiff layered paper, used for packing and moving things.
 **Countability:** countable
 **Contrast:** American; in Britain the store version is a carrier bag.
 
-A thin light bag made of plastic film for carrying or storing things.
+Plastic bag has 2 distinct senses.
+
+**1. A thin light bag made of plastic film for carrying or storing things.** (полиэтиленовый пакет)
 
 1. She lined the trash can with a *plastic bag*.
 2. The store charges ten cents for a *plastic bag*.
 3. I keep a wad of *plastic bags* under the sink.
+
+**2. A thin bag from a store, often charged for or banned.** (полиэтиленовый пакет)
+
+4. The state banned single-use *plastic bags*.
+5. There's a *plastic bag* full of *plastic bags* under the sink.
+6. They charge ten cents for a *plastic bag*.
 
 ---
 
@@ -73,15 +81,23 @@ A bag for carrying food home from the store.
 ### shopping bag
 
 **Pronunciation:** /ˈʃɑːpɪŋ bæɡ/ &middot; *SHAH-ping BAG*
-**Русский:** сумка (пакет) для покупок
+**Русский:** сумка (пакет) для покупок; сумка для покупок, пакет
 **Plural:** *shopping bags*
 **Countability:** countable
 
-A large bag with handles for carrying what you have bought.
+Shopping bag has 2 distinct senses.
+
+**1. A large bag with handles for carrying what you have bought.** (сумка (пакет) для покупок)
 
 1. She was juggling three *shopping bags* and a coffee.
 2. The *shopping bag* had the store's logo on the side.
 3. Fold the *shopping bags* and keep them in the car.
+
+**2. A bag you carry your purchases home in.** (сумка для покупок, пакет)
+
+4. She walked out with a *shopping bag* in each hand.
+5. Keep a few *shopping bags* in the trunk of the car.
+6. The *shopping bag* tore before I got to the door.
 
 ---
 
@@ -109,11 +125,19 @@ A container you throw garbage into.
 **Countability:** countable
 **Contrast:** American; the British call it a bin bag or bin liner.
 
-A large plastic bag that lines a trash can.
+Trash bag has 2 distinct senses.
+
+**1. A large plastic bag that lines a trash can.** (мусорный пакет)
 
 1. We're out of *trash bags* again.
 2. The *trash bag* ripped and spilled coffee grounds everywhere.
 3. Tie the *trash bag* shut before you carry it out.
+
+**2. A plastic bag used to line a can and carry waste out.** (мусорный пакет)
+
+4. Grab a *trash bag* from under the sink.
+5. The *trash bag* split on the way down the stairs.
+6. We went through six *trash bags* cleaning the basement.
 
 ---
 
@@ -154,11 +178,19 @@ A heavy plastic bag for household waste.
 **Plural:** *recycling bins*
 **Countability:** countable
 
-A container for paper, cans, and bottles that will be recycled.
+Recycling bin has 2 distinct senses.
+
+**1. A container for paper, cans, and bottles that will be recycled.** (контейнер для вторсырья)
 
 1. Cardboard goes in the blue *recycling bin*.
 2. Our *recycling bin* gets picked up every other week.
 3. The building has *recycling bins* in the basement.
+
+**2. The container, usually blue, for paper, cans, and bottles.** (контейнер для вторсырья)
+
+4. Cardboard goes in the *recycling bin*.
+5. The *recycling bin* blew over in the wind.
+6. There are *recycling bins* on every floor.
 
 ---
 
@@ -289,11 +321,19 @@ A pressurized can that releases its contents as a fine mist.
 **Plural:** *spray bottles*
 **Countability:** countable
 
-A bottle with a hand pump that sprays liquid.
+Spray bottle has 2 distinct senses.
+
+**1. A bottle with a hand pump that sprays liquid.** (пульверизатор, распылитель)
 
 1. Fill a *spray bottle* with vinegar and water.
 2. She keeps a *spray bottle* next to the plants.
 3. The cat runs the second he sees the *spray bottle*.
+
+**2. A bottle with a trigger that pushes liquid out in a fine mist.** (пульверизатор, распылитель)
+
+4. Mix vinegar and water in a *spray bottle*.
+5. The *spray bottle* clogged after a week.
+6. She labels her *spray bottles* with masking tape.
 
 ---
 
@@ -542,12 +582,21 @@ Colorful paper for covering presents.
 **Русский:** обёртка, фантик
 **Plural:** *wrappers*
 **Countability:** countable
+**Contrast:** Sounds exactly like 'rapper', a hip-hop performer.
 
-The paper or plastic covering that comes off a piece of candy or food.
+Wrapper has 2 distinct senses.
+
+**1. The paper or plastic covering that comes off a piece of candy or food.** (обёртка, фантик)
 
 1. There was a candy *wrapper* stuck to the seat.
 2. He crumpled the *wrapper* and shot it at the trash can.
 3. The floor was covered in gum *wrappers*.
+
+**2. The paper or plastic covering a small product like candy.** (обёртка, фантик)
+
+4. He left the candy *wrapper* on the seat.
+5. The floor was covered in *wrappers* after the movie.
+6. The price is printed right on the *wrapper*.
 
 ---
 
@@ -1146,11 +1195,19 @@ A container where food scraps and yard waste break down into soil.
 **Plural:** *laundry baskets*
 **Countability:** countable
 
-An open plastic or wicker basket for carrying clothes to be washed.
+Laundry basket has 2 distinct senses.
+
+**1. An open plastic or wicker basket for carrying clothes to be washed.** (корзина для белья)
 
 1. Carry the *laundry basket* down to the machine.
 2. Clean towels were piled in the *laundry basket*.
 3. There are two *laundry baskets* sitting on the stairs.
+
+**2. A basket for carrying or holding dirty clothes.** (корзина для белья)
+
+4. Put your socks in the *laundry basket*.
+5. The *laundry basket* is overflowing again.
+6. She carried two *laundry baskets* down to the basement.
 
 ---
 
@@ -1249,31 +1306,47 @@ A big plastic storage box with a lid, or a large open carrying bag.
 ### tub
 
 **Pronunciation:** /tʌb/ &middot; *TUHB*
-**Русский:** кадка, бадья; ведёрко (мороженого)
+**Русский:** кадка, бадья; ведёрко (мороженого); ванна
 **Plural:** *tubs*
 **Countability:** countable
 
-A wide round container with straight sides, including the small plastic one food is sold in.
+Tub has 2 distinct senses.
+
+**1. A wide round container with straight sides, including the small plastic one food is sold in.** (кадка, бадья; ведёрко (мороженого))
 
 1. He finished a whole *tub* of ice cream.
 2. The plants are in half-barrel *tubs* on the porch.
 3. Grab a *tub* of sour cream while you're there.
+
+**2. A bathtub; the large basin you fill with water and sit in.** (ванна)
+
+4. The kids are in the *tub*.
+5. I filled the *tub* with hot water.
+6. Older houses often have claw-foot *tubs*.
 
 ---
 
 ### pail
 
 **Pronunciation:** /peɪl/ &middot; *PAYL*
-**Русский:** ведро
+**Русский:** ведро; ведро (обычно для молока или корма)
 **Plural:** *pails*
 **Countability:** countable
 **Contrast:** Sounds exactly like pale, meaning light in color.
 
-A bucket, especially a small metal or plastic one with a handle.
+Pail has 2 distinct senses.
+
+**1. A bucket, especially a small metal or plastic one with a handle.** (ведро)
 
 1. The kid had a *pail* and shovel at the beach.
 2. She milked into a steel *pail*.
 3. Two *pails* of water put the fire out.
+
+**2. A round open container with a handle, used for carrying milk, feed, or water.** (ведро (обычно для молока или корма))
+
+4. She carried a *pail* of milk up from the barn.
+5. Two feed *pails* hung on the fence.
+6. The *pail* was half full of warm milk.
 
 ---
 
@@ -1390,6 +1463,7 @@ A long narrow open container that animals eat or drink from.
 **Русский:** цистерна, бак для воды
 **Plural:** *cisterns*
 **Countability:** countable
+**Contrast:** In American English a cistern is a water storage tank; in British English it usually means a toilet tank.
 
 A tank that collects and stores water, often rainwater.
 
@@ -1736,15 +1810,23 @@ A shallow dish for cigarette ash and butts.
 ### planter
 
 **Pronunciation:** /ˈplæntər/ &middot; *PLAN-tur*
-**Русский:** кашпо, вазон
+**Русский:** кашпо, вазон; сеялка, посадочная машина
 **Plural:** *planters*
 **Countability:** countable
 
-A decorative container that plants grow in.
+Planter has 2 distinct senses.
+
+**1. A decorative container that plants grow in.** (кашпо, вазон)
 
 1. There are *planters* on either side of the front door.
 2. She filled the *planter* with geraniums.
 3. The clay *planter* cracked over the winter.
+
+**2. A machine that drops seed into the ground at even spacing.** (сеялка, посадочная машина)
+
+4. The *planter* puts down twelve rows at a time.
+5. He calibrated the *planter* before starting.
+6. New *planters* cost as much as a house.
 
 ---
 
@@ -1906,11 +1988,19 @@ A simple bag with shoulder straps for carrying supplies on your back.
 **Plural:** *pet carriers*
 **Countability:** countable
 
-A ventilated box or bag for transporting a cat or small dog.
+Pet carrier has 2 distinct senses.
+
+**1. A ventilated box or bag for transporting a cat or small dog.** (переноска для животных)
 
 1. The cat howled in the *pet carrier* the whole way.
 2. Your *pet carrier* has to fit under the seat.
 3. Both *pet carriers* are out in the garage.
+
+**2. A small box or bag with air holes for carrying an animal.** (переноска для животных)
+
+4. The cat hates going in the *pet carrier*.
+5. Airlines have size limits for *pet carriers*.
+6. Put a towel in the *pet carrier* so she's comfortable.
 
 ---
 
@@ -2176,15 +2266,23 @@ The molded holder in a car or chair that keeps a drink upright.
 ### spout
 
 **Pronunciation:** /spaʊt/ &middot; *SPOWT*
-**Русский:** носик (сосуда), сливное горлышко
+**Русский:** носик (сосуда), сливное горлышко; излив, носик (крана)
 **Plural:** *spouts*
 **Countability:** countable
 
-The narrow opening that a container pours through.
+Spout has 2 distinct senses.
+
+**1. The narrow opening that a container pours through.** (носик (сосуда), сливное горлышко)
 
 1. Tea dripped from the *spout*.
 2. The *spout* on the gas can is missing.
 3. Both watering cans have long *spouts*.
+
+**2. The part of a faucet or tap that the water pours out of.** (излив, носик (крана))
+
+4. Water dribbles down the outside of the *spout*.
+5. The tub *spout* pulls up to switch to the shower.
+6. These faucets come with taller *spouts*.
 
 ---
 
@@ -2206,16 +2304,24 @@ A container that releases its contents a little at a time.
 ### spigot
 
 **Pronunciation:** /ˈspɪɡət/ &middot; *SPIG-ut*
-**Русский:** кран (у бочки; наружный водопроводный)
+**Русский:** кран (у бочки; наружный водопроводный); уличный водопроводный кран
 **Plural:** *spigots*
 **Countability:** countable
 **Contrast:** A mostly American word; the British say tap.
 
-A tap on a barrel or an outdoor faucet.
+Spigot has 2 distinct senses.
+
+**1. A tap on a barrel or an outdoor faucet.** (кран (у бочки; наружный водопроводный))
 
 1. Hook the hose to the *spigot* on the side of the house.
 2. Beer ran from the *spigot* into the pitcher.
 3. The outdoor *spigots* freeze every winter.
+
+**2. An outdoor tap that a garden hose screws onto.** (уличный водопроводный кран)
+
+4. Hook the hose up to the *spigot* on the side of the house.
+5. The *spigot* drips no matter how hard you crank it.
+6. There are *spigots* front and back.
 
 ---
 

@@ -230,15 +230,23 @@ The narrow part of the body between the ribs and the hips.
 ### chest
 
 **Pronunciation:** /tʃɛst/ &middot; *CHEST*
-**Русский:** грудь, грудная клетка
+**Русский:** грудь, грудная клетка; сундук; комод
 **Plural:** *chests*
 **Countability:** countable
 
-The front of the body between the neck and the stomach.
+Chest has 2 distinct senses.
+
+**1. The front of the body between the neck and the stomach.** (грудь, грудная клетка)
 
 1. He felt a sharp pain in his *chest*.
 2. The kid crossed his arms over his *chest*.
 3. I have a cold and it went straight to my *chest*.
+
+**2. A large sturdy box with a lid, used for storage.** (сундук; комод)
+
+4. The blankets are in the cedar *chest*.
+5. They dragged two heavy *chests* down from the attic.
+6. She keeps her mother's letters in a small wooden *chest*.
 
 ---
 
@@ -597,30 +605,46 @@ Either of the two organs in the chest used for breathing.
 ### liver
 
 **Pronunciation:** /ˈlɪvər/ &middot; *LIV-ur*
-**Русский:** печень
+**Русский:** печень; печень (как еда), печёнка
 **Plural:** *livers*
 **Countability:** countable
 
-The large organ that cleans the blood and helps digestion.
+Liver has 2 distinct senses.
+
+**1. The large organ that cleans the blood and helps digestion.** (печень)
 
 1. Too much alcohol wrecks your *liver*.
 2. The tests showed his *liver* was fine.
 3. The *liver* filters everything you drink.
+
+**2. The large internal organ of an animal, eaten as food.** (печень (как еда), печёнка)
+
+4. *Liver* and onions was a weeknight staple growing up.
+5. She sautéed the chicken *livers* with butter and sage.
+6. I couldn't stand *liver* as a kid.
 
 ---
 
 ### kidney
 
 **Pronunciation:** /ˈkɪdni/ &middot; *KID-nee*
-**Русский:** почка
+**Русский:** почка; почка (как еда)
 **Plural:** *kidneys*
 **Countability:** countable
 
-Either of the two organs that filter waste out of the blood.
+Kidney has 2 distinct senses.
+
+**1. Either of the two organs that filter waste out of the blood.** (почка)
 
 1. He donated a *kidney* to his brother.
 2. Both *kidneys* were starting to fail.
 3. Drink water, it is easier on your *kidneys*.
+
+**2. One of a pair of internal organs, eaten as food.** (почка (как еда))
+
+4. Steak and *kidney* pie is a British thing, not an American one.
+5. The *kidneys* need to soak before you cook them.
+6. He'll eat almost any organ meat except *kidney*.
 
 ---
 
@@ -735,15 +759,23 @@ A tube that carries blood away from the heart.
 ### rib
 
 **Pronunciation:** /rɪb/ &middot; *RIB*
-**Русский:** ребро
+**Русский:** ребро; ребро, рёбрышко (мясное)
 **Plural:** *ribs*
 **Countability:** countable
 
-One of the curved bones that form the cage around the chest.
+Rib has 2 distinct senses.
+
+**1. One of the curved bones that form the cage around the chest.** (ребро)
 
 1. He cracked a *rib* snowboarding.
 2. You can count her *ribs*.
 3. The dog got kicked in the *ribs*.
+
+**2. A curved bone from an animal's chest, with the meat attached, eaten as food.** (ребро, рёбрышко (мясное))
+
+4. We ordered a full rack of *ribs*.
+5. The *ribs* fell right off the bone.
+6. He gnawed on one last *rib* and gave up.
 
 ---
 
@@ -780,15 +812,23 @@ A place where two bones meet and the body can bend.
 ### nail
 
 **Pronunciation:** /neɪl/ &middot; *NAYL*
-**Русский:** ноготь
+**Русский:** ноготь; гвоздь
 **Plural:** *nails*
 **Countability:** countable
 
-The hard covering on the end of a finger or toe.
+Nail has 2 distinct senses.
+
+**1. The hard covering on the end of a finger or toe.** (ноготь)
 
 1. I broke a *nail* opening the box.
 2. She bites her *nails* when she is nervous.
 3. Keep your *nails* short for climbing.
+
+**2. A thin pointed metal pin hammered into wood or a wall.** (гвоздь)
+
+4. Hang the picture on that *nail*.
+5. There are still *nails* sticking out of the old boards.
+6. He hit the *nail* crooked and had to pull it out.
 
 ---
 
@@ -810,16 +850,24 @@ The hard covering on the end of a finger.
 ### palm
 
 **Pronunciation:** /pɑːm/ &middot; *PAHM*
-**Русский:** ладонь
+**Русский:** ладонь; пальма
 **Plural:** *palms*
 **Countability:** countable
 **Contrast:** The l is silent: PAHM. Same word as the palm tree.
 
-The inner surface of the hand.
+Palm has 2 distinct senses.
+
+**1. The inner surface of the hand.** (ладонь)
 
 1. She read the lines on my *palm*.
 2. He pressed his *palms* together.
 3. The coin was hidden in his *palm*.
+
+**2. A tropical tree with a tall bare trunk and large leaves at the top.** (пальма)
+
+4. *Palms* line both sides of the boulevard.
+5. The hurricane snapped a *palm* in half.
+6. They put a *palm* in a pot next to the pool.
 
 ---
 
@@ -841,16 +889,24 @@ A hand with the fingers curled tightly into the palm.
 ### thigh
 
 **Pronunciation:** /θaɪ/ &middot; *THY*
-**Русский:** бедро (верхняя часть ноги)
+**Русский:** бедро (верхняя часть ноги); бедро, бедрышко (окорочок)
 **Plural:** *thighs*
 **Countability:** countable
 **Contrast:** The -gh is silent: THY, rhyming with my.
 
-The part of the leg between the hip and the knee.
+Thigh has 2 distinct senses.
+
+**1. The part of the leg between the hip and the knee.** (бедро (верхняя часть ноги))
 
 1. He tore a muscle in his *thigh*.
 2. The seat belt cut into my *thighs*.
 3. Chicken *thighs* stay juicier than breasts.
+
+**2. The upper leg of a chicken or turkey, eaten as food.** (бедро, бедрышко (окорочок))
+
+4. Chicken *thighs* stay juicier than breasts.
+5. She browned six *thighs* in the pan.
+6. One *thigh* is plenty for me.
 
 ---
 
@@ -888,16 +944,30 @@ The rounded back part of the foot.
 ### sole
 
 **Pronunciation:** /soʊl/ &middot; *SOHL*
-**Русский:** ступня, подошва стопы
+**Русский:** ступня, подошва стопы; морской язык (рыба); подошва
 **Plural:** *soles*
 **Countability:** countable
 **Contrast:** Sounds exactly like soul.
 
-The underside of the foot.
+Sole has 3 distinct senses.
+
+**1. The underside of the foot.** (ступня, подошва стопы)
 
 1. The *soles* of my feet were burning on the hot sand.
 2. He has a splinter in the *sole* of his foot.
 3. Walking barefoot toughens up your *soles*.
+
+**2. A small flatfish with fine white meat.** (морской язык (рыба))
+
+4. She ordered the *sole* with brown butter.
+5. *Sole* is mild enough that kids will eat it.
+6. Two pieces of *sole* were plenty for dinner.
+
+**3. The flat bottom part of a shoe that touches the ground.** (подошва)
+
+7. The *sole* of my sneaker is coming loose.
+8. These boots have thick rubber *soles*.
+9. He glued the *sole* back on and it held.
 
 ---
 
@@ -919,15 +989,30 @@ Either of the two fleshy parts of the body you sit on.
 ### breast
 
 **Pronunciation:** /brɛst/ &middot; *BREST*
-**Русский:** грудь (женская), молочная железа
+**Русский:** грудь (женская), молочная железа; грудка (птицы)
 **Plural:** *breasts*
 **Countability:** countable
+**Contrast:** The ea is short — BREST, rhyming with "rest", not with "beast".
 
-Either of the two soft round parts on the front of a woman's chest.
+Breast has 3 distinct senses.
+
+**1. Either of the two soft round parts on the front of a woman's chest.** (грудь (женская), молочная железа)
 
 1. She found a lump in her left *breast*.
 2. *Breast* screening usually starts at forty.
 3. The baby nursed at her *breast*.
+
+**2. The front meat of a bird, the leanest part.** (грудка (птицы))
+
+4. Two chicken *breasts* will feed all of us.
+5. Slice the *breast* thin for the sandwiches.
+6. Turkey *breast* dries out if you leave it too long.
+
+**3. The front of a bird's body, or the meat from it.** (грудка (птицы))
+
+7. The robin has an orange *breast*.
+8. We grilled two chicken *breasts* for dinner.
+9. The bird's *breast* was streaked with brown.
 
 ---
 
@@ -1071,16 +1156,24 @@ A band of tissue that holds two bones together at a joint.
 ### tissue
 
 **Pronunciation:** /ˈtɪʃuː/ &middot; *TISH-oo*
-**Русский:** ткань (организма)
+**Русский:** ткань (организма); бумажный носовой платок, салфетка
 **Plural:** *tissues*
 **Countability:** both — countable and uncountable with different meanings
 **Contrast:** Uncountable for body material; countable for the paper kind — hand me a tissue.
 
-The material that the parts of a body are made of.
+Tissue has 2 distinct senses.
+
+**1. The material that the parts of a body are made of.** (ткань (организма))
 
 1. Scar *tissue* built up around the wound.
 2. The burn destroyed the surrounding *tissue*.
 3. The lab grows human *tissue* in a dish.
+
+**2. A soft piece of paper used for blowing your nose.** (бумажный носовой платок, салфетка)
+
+4. Could you pass me a *tissue*?
+5. He went through half a box of *tissues*.
+6. There's a *tissue* stuck in the dryer.
 
 ---
 
@@ -1639,11 +1732,19 @@ The thick bundle of nerves running down inside the spine.
 **Русский:** костный мозг
 **Countability:** uncountable
 
-The soft tissue inside bones where blood cells are made.
+Marrow has 2 distinct senses.
+
+**1. The soft tissue inside bones where blood cells are made.** (костный мозг)
 
 1. He needs a bone *marrow* transplant.
 2. *Marrow* makes new blood cells every day.
 3. The doctors tested her *marrow* for cancer.
+
+**2. The soft fatty tissue inside bones, eaten as a delicacy.** (костный мозг)
+
+4. They served roasted bones so you could scoop out the *marrow*.
+5. *Marrow* makes the broth rich.
+6. He spread the *marrow* on toast with a little salt.
 
 ---
 
@@ -1712,16 +1813,24 @@ A small hollow in the cheek or chin that shows when someone smiles.
 ### mole
 
 **Pronunciation:** /moʊl/ &middot; *MOHL*
-**Русский:** родинка
+**Русский:** родинка; крот
 **Plural:** *moles*
 **Countability:** countable
 **Contrast:** Same word as the burrowing animal.
 
-A small dark permanent spot on the skin.
+Mole has 2 distinct senses.
+
+**1. A small dark permanent spot on the skin.** (родинка)
 
 1. The doctor removed a *mole* from his back.
 2. She has a small *mole* above her lip.
 3. Watch any *mole* that changes shape or color.
+
+**2. A small burrowing animal with velvety fur and tiny eyes.** (крот)
+
+4. *Moles* have ruined the lawn.
+5. A *mole* pushed up a ridge of dirt overnight.
+6. He's tried everything to get rid of the *moles*.
 
 ---
 
@@ -1834,16 +1943,24 @@ One of the hollow spaces in the bones around the nose.
 ### colon
 
 **Pronunciation:** /ˈkoʊlən/ &middot; *KOH-lun*
-**Русский:** толстая кишка
+**Русский:** толстая кишка; двоеточие
 **Plural:** *colons*
 **Countability:** countable
 **Contrast:** Same word as the punctuation mark.
 
-The main part of the large intestine.
+Colon has 2 distinct senses.
+
+**1. The main part of the large intestine.** (толстая кишка)
 
 1. He is scheduled for a *colon* screening.
 2. The surgeon removed part of the *colon*.
 3. Fiber keeps the *colon* working.
+
+**2. The mark of two stacked dots that introduces a list or an explanation.** (двоеточие)
+
+4. Put a *colon* after the heading and then list the items.
+5. The title has a *colon* in the middle of it.
+6. He uses *colons* everywhere in his emails.
 
 ---
 
@@ -1866,14 +1983,22 @@ The sheet of muscle below the lungs that moves when you breathe.
 ### fat
 
 **Pronunciation:** /fæt/ &middot; *FAT*
-**Русский:** жир (в организме)
+**Русский:** жир (в организме); жир
 **Countability:** uncountable
 
-The soft tissue under the skin that stores energy.
+Fat has 2 distinct senses.
+
+**1. The soft tissue under the skin that stores energy.** (жир (в организме))
 
 1. Running burns *fat* slowly.
 2. He has lost a lot of body *fat* this year.
 3. *Fat* under the skin helps keep you warm.
+
+**2. The greasy substance in meat and dairy products.** (жир)
+
+4. Trim the *fat* off before you grill it.
+5. Whole milk has more *fat* than skim.
+6. Not all *fats* are bad for you.
 
 ---
 

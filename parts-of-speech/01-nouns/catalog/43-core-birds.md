@@ -1094,16 +1094,24 @@ The hard pointed mouth part of a bird.
 ### bill
 
 **Pronunciation:** /bɪl/ &middot; *BIL*
-**Русский:** клюв (плоский, у водоплавающих)
+**Русский:** клюв (плоский, у водоплавающих); купюра; счёт к оплате
 **Plural:** *bills*
 **Countability:** countable
 **Contrast:** The same word also means a bill you pay and, in American English, a banknote (a ten-dollar bill).
 
-A bird's beak, especially a flat wide one.
+Bill has 2 distinct senses.
+
+**1. A bird's beak, especially a flat wide one.** (клюв (плоский, у водоплавающих))
 
 1. A duck's *bill* is flat and wide.
 2. The pelican's *bill* holds more than its stomach does.
 3. Some birds have long, curved *bills* for reaching into flowers.
+
+**2. A piece of paper money, or a statement of what you owe.** (купюра; счёт к оплате)
+
+4. Can you break a hundred-dollar *bill*?
+5. The electric *bill* was huge this month.
+6. We split the *bill* three ways.
 
 ---
 

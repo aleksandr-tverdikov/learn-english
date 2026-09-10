@@ -1016,16 +1016,24 @@ The hard rubber disk used instead of a ball in ice hockey.
 ### tee
 
 **Pronunciation:** /tiː/ &middot; *TEE*
-**Русский:** подставка для мяча (в гольфе), ти
+**Русский:** подставка для мяча (в гольфе), ти; тройник
 **Plural:** *tees*
 **Countability:** countable
 **Contrast:** Sounds exactly like *tea* and like the letter T.
 
-The small peg that holds a golf ball up for the first shot on a hole.
+Tee has 2 distinct senses.
+
+**1. The small peg that holds a golf ball up for the first shot on a hole.** (подставка для мяча (в гольфе), ти)
 
 1. He set the ball on the *tee*.
 2. I keep a handful of *tees* in my bag.
 3. Her drive knocked the *tee* ten feet away.
+
+**2. A T-shaped pipe fitting that splits one line into two.** (тройник)
+
+4. Put a *tee* here and run a branch to the sink.
+5. The *tee* leaked where the branch came off.
+6. He picked up two *tees* and an elbow.
 
 ---
 
@@ -1063,16 +1071,24 @@ The single wide board ridden sideways down a snowy slope.
 ### cleat
 
 **Pronunciation:** /kliːt/ &middot; *KLEET*
-**Русский:** шип на подошве; бутсы, шиповки (мн.)
+**Русский:** шип на подошве; бутсы, шиповки (мн.); шип на подошве; (мн.) бутсы
 **Plural:** *cleats*
 **Countability:** countable
 **Contrast:** In the plural, *cleats* usually means the shoes themselves, not just the studs.
 
-One of the studs on the bottom of a sports shoe, or the shoes themselves.
+Cleat has 2 distinct senses.
+
+**1. One of the studs on the bottom of a sports shoe, or the shoes themselves.** (шип на подошве; бутсы, шиповки (мн.))
 
 1. A *cleat* tore off in the mud.
 2. Don't wear your *cleats* in the house.
 3. He outgrew last year's *cleats* by August.
+
+**2. A stud on the bottom of a sports shoe that digs into grass or dirt.** (шип на подошве; (мн.) бутсы)
+
+4. He tightened his *cleats* before kickoff.
+5. One *cleat* had worn down to nothing.
+6. *Cleats* off before you come in the house!
 
 ---
 
@@ -1375,11 +1391,19 @@ A defensive football player who lines up just behind the linemen.
 **Plural:** *jockeys*
 **Countability:** countable
 
-The rider who races a horse professionally.
+Jockey has 2 distinct senses.
+
+**1. The rider who races a horse professionally.** (жокей)
 
 1. The *jockey* weighed in at a hundred and twelve pounds.
 2. Two *jockeys* were suspended after the race.
 3. She's the first *jockey* in her family.
+
+**2. A person who rides horses in races as a job.** (жокей)
+
+4. The *jockey* weighed in at a hundred and twelve pounds.
+5. *Jockeys* have to keep their weight down.
+6. The *jockey* pulled the horse up early.
 
 ---
 
@@ -1844,16 +1868,24 @@ Three goals scored by the same player in one game.
 ### warm-up
 
 **Pronunciation:** /ˈwɔːrmʌp/ &middot; *WAWRM-up*
-**Русский:** разминка
+**Русский:** разминка; разминка (перед выступлением)
 **Plural:** *warm-ups*
 **Countability:** countable
 **Contrast:** Hyphenated as a noun; the verb is two words: *warm up* before you run.
 
-The light exercise done before a game or workout.
+Warm-up has 2 distinct senses.
+
+**1. The light exercise done before a game or workout.** (разминка)
 
 1. He pulled a muscle during the *warm-up*.
 2. The *warm-ups* last about fifteen minutes.
 3. Don't skip the *warm-up* in cold weather.
+
+**2. Exercises done before a performance to get the voice and body ready.** (разминка (перед выступлением))
+
+4. The cast does a vocal *warm-up* an hour before curtain.
+5. Her *warm-ups* take about twenty minutes.
+6. Skip the *warm-up* and you will be hoarse by act two.
 
 ---
 
@@ -1982,16 +2014,24 @@ A practice game played against your own team or another one.
 ### tryout
 
 **Pronunciation:** /ˈtraɪaʊt/ &middot; *TRY-owt*
-**Русский:** отборочный просмотр, отбор в команду
+**Русский:** отборочный просмотр, отбор в команду; проба, прослушивание
 **Plural:** *tryouts*
 **Countability:** countable
 **Contrast:** One word as a noun; the verb is two words: *try out* for the team.
 
-A session where players compete to be picked for a team.
+Tryout has 2 distinct senses.
+
+**1. A session where players compete to be picked for a team.** (отборочный просмотр, отбор в команду)
 
 1. *Tryouts* are the first week of September.
 2. He made the team after one *tryout*.
 3. She was too nervous at the *tryout*.
+
+**2. A test performance in which someone competes for a part or place.** (проба, прослушивание)
+
+4. *Tryouts* for the school play are Thursday after class.
+5. He drove four hours for a two-minute *tryout*.
+6. She made it through the first *tryout* but not the second.
 
 ---
 

@@ -127,14 +127,58 @@
       "term": "defense",
       "ipa": "/dɪˈfɛns/",
       "respell": "dih-FENSS",
-      "meaning": "The side arguing for the accused person in court, or the case they make. ---",
+      "meaning": "Defense has 3 distinct senses.",
       "examples": [
         "The defense rested after two witnesses.",
         "Self-preservation was the only defense he had.",
-        "Their defenses fell apart under questioning."
+        "Their defenses fell apart under questioning.",
+        "Defense takes up a huge share of the budget.",
+        "She works at the Department of Defense.",
+        "They voted to raise defense spending again.",
+        "The city's defense held for a week.",
+        "The country spends billions on national defense.",
+        "The coastal defenses were never finished."
       ],
-      "senses": [],
-      "русский": "защита (в суде)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The side arguing for the accused person in court, or the case they make",
+          "body": [
+            "(защита (в суде))"
+          ],
+          "examples": [
+            "The defense rested after two witnesses.",
+            "Self-preservation was the only defense he had.",
+            "Their defenses fell apart under questioning."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The protection of a country against attack, and the money and forces used for it",
+          "body": [
+            "(оборона)"
+          ],
+          "examples": [
+            "Defense takes up a huge share of the budget.",
+            "She works at the Department of Defense.",
+            "They voted to raise defense spending again."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "Protection against attack, or the walls and works built to provide it",
+          "body": [
+            "(оборона; (мн. ч.) укрепления)",
+            "---"
+          ],
+          "examples": [
+            "The city's defense held for a week.",
+            "The country spends billions on national defense.",
+            "The coastal defenses were never finished."
+          ]
+        }
+      ],
+      "русский": "защита (в суде); оборона; оборона; (мн. ч.) укрепления",
       "plural": "defenses",
       "countability": "countable",
       "contrast": "American spelling is defense; the British write defence."
@@ -158,14 +202,43 @@
       "term": "trial",
       "ipa": "/ˈtraɪəl/",
       "respell": "TRY-uhl",
-      "meaning": "The formal examination of a case in court to decide guilt or liability. ---",
+      "meaning": "Trial has 2 distinct senses.",
       "examples": [
         "The trial lasted three weeks.",
         "He's awaiting trial in county jail.",
-        "Both trials ended in convictions."
+        "Both trials ended in convictions.",
+        "The drug is still in clinical trials.",
+        "Each trial gave a slightly different number.",
+        "We averaged the results of ten trials."
       ],
-      "senses": [],
-      "русский": "судебный процесс",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The formal examination of a case in court to decide guilt or liability",
+          "body": [
+            "(судебный процесс)"
+          ],
+          "examples": [
+            "The trial lasted three weeks.",
+            "He's awaiting trial in county jail.",
+            "Both trials ended in convictions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One run of an experiment or test",
+          "body": [
+            "(испытание, проба)",
+            "---"
+          ],
+          "examples": [
+            "The drug is still in clinical trials.",
+            "Each trial gave a slightly different number.",
+            "We averaged the results of ten trials."
+          ]
+        }
+      ],
+      "русский": "судебный процесс; испытание, проба",
       "plural": "trials",
       "countability": "countable"
     },
@@ -263,13 +336,42 @@
       "term": "oath",
       "ipa": "/oʊθ/",
       "respell": "OHTH",
-      "meaning": "A formal promise to tell the truth or to do your duty. ---",
+      "meaning": "Oath has 2 distinct senses.",
       "examples": [
         "He gave that answer under oath.",
         "The witness took an oath before speaking.",
-        "New citizens swear the same oaths everywhere in the country."
+        "New citizens swear the same oaths everywhere in the country.",
+        "She took the oath of office at noon.",
+        "He swore an oath to defend the constitution.",
+        "The new officers repeated their oaths together."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal promise to tell the truth or to do your duty",
+          "body": [
+            "(присяга, клятва)"
+          ],
+          "examples": [
+            "He gave that answer under oath.",
+            "The witness took an oath before speaking.",
+            "New citizens swear the same oaths everywhere in the country."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A formal promise, often made publicly before taking office",
+          "body": [
+            "(присяга, клятва)",
+            "---"
+          ],
+          "examples": [
+            "She took the oath of office at noon.",
+            "He swore an oath to defend the constitution.",
+            "The new officers repeated their oaths together."
+          ]
+        }
+      ],
       "русский": "присяга, клятва",
       "plural": "oaths",
       "countability": "countable",
@@ -388,14 +490,58 @@
       "term": "judgment",
       "ipa": "/ˈdʒʌdʒmənt/",
       "respell": "JUJ-muhnt",
-      "meaning": "A court's formal decision, especially about who owes money to whom. ---",
+      "meaning": "Judgment has 3 distinct senses.",
       "examples": [
         "The court entered a judgment against the company.",
         "He still hasn't paid the judgment.",
-        "Small-claims judgments are hard to collect."
+        "Small-claims judgments are hard to collect.",
+        "The painting shows the day of judgment.",
+        "He preached about judgment and mercy.",
+        "They believe everyone faces judgment in the end.",
+        "I trust her judgment on hiring.",
+        "He kept his judgments to himself during the meeting.",
+        "Drinking clouds your judgment."
       ],
-      "senses": [],
-      "русский": "решение суда",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A court's formal decision, especially about who owes money to whom",
+          "body": [
+            "(решение суда)"
+          ],
+          "examples": [
+            "The court entered a judgment against the company.",
+            "He still hasn't paid the judgment.",
+            "Small-claims judgments are hard to collect."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "God's decision about whether people have lived rightly",
+          "body": [
+            "(суд (Божий), осуждение)"
+          ],
+          "examples": [
+            "The painting shows the day of judgment.",
+            "He preached about judgment and mercy.",
+            "They believe everyone faces judgment in the end."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The ability to make sensible decisions, or an opinion formed after thinking",
+          "body": [
+            "(суждение; рассудительность)",
+            "---"
+          ],
+          "examples": [
+            "I trust her judgment on hiring.",
+            "He kept his judgments to himself during the meeting.",
+            "Drinking clouds your judgment."
+          ]
+        }
+      ],
+      "русский": "решение суда; суд (Божий), осуждение; суждение; рассудительность",
       "plural": "judgments",
       "countability": "countable",
       "contrast": "Americans spell it judgment, with no e after the g; the British often write judgement."
@@ -464,14 +610,43 @@
       "term": "custody",
       "ipa": "/ˈkʌstədi/",
       "respell": "KUHS-tuh-dee",
-      "meaning": "Being held by the police, or the legal right to care for a child. ---",
+      "meaning": "Custody has 2 distinct senses.",
       "examples": [
         "Two suspects are in police custody.",
         "She was granted custody of both children.",
-        "He spent the night in custody before making bail."
+        "He spent the night in custody before making bail.",
+        "She was awarded custody of both kids.",
+        "They share joint custody.",
+        "The custody fight dragged on for years."
       ],
-      "senses": [],
-      "русский": "содержание под стражей; опека над ребёнком",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Being held by the police, or the legal right to care for a child",
+          "body": [
+            "(содержание под стражей; опека над ребёнком)"
+          ],
+          "examples": [
+            "Two suspects are in police custody.",
+            "She was granted custody of both children.",
+            "He spent the night in custody before making bail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The legal right to care for a child, especially after a divorce",
+          "body": [
+            "(опека (над ребёнком))",
+            "---"
+          ],
+          "examples": [
+            "She was awarded custody of both kids.",
+            "They share joint custody.",
+            "The custody fight dragged on for years."
+          ]
+        }
+      ],
+      "русский": "содержание под стражей; опека над ребёнком; опека (над ребёнком)",
       "countability": "uncountable"
     },
     {
@@ -593,7 +768,8 @@
       "senses": [],
       "русский": "конституция",
       "plural": "constitutions",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say -TOO-shuhn; the British say -TYOO-shuhn."
     },
     {
       "term": "amendment",
@@ -645,14 +821,43 @@
       "term": "conviction",
       "ipa": "/kənˈvɪkʃən/",
       "respell": "kuhn-VIK-shun",
-      "meaning": "A court decision that someone is guilty, or the record of it. ---",
+      "meaning": "Conviction has 2 distinct senses.",
       "examples": [
         "The conviction was overturned on appeal.",
         "He has a prior conviction for theft.",
-        "Employers ask about felony convictions."
+        "Employers ask about felony convictions.",
+        "She spoke with real conviction.",
+        "His political convictions haven't changed in forty years.",
+        "The conviction was overturned on appeal."
       ],
-      "senses": [],
-      "русский": "обвинительный приговор, судимость",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A court decision that someone is guilty, or the record of it",
+          "body": [
+            "(обвинительный приговор, судимость)"
+          ],
+          "examples": [
+            "The conviction was overturned on appeal.",
+            "He has a prior conviction for theft.",
+            "Employers ask about felony convictions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A firmly held belief, or the act of being found guilty in court",
+          "body": [
+            "(убеждение; осуждение (приговор))",
+            "---"
+          ],
+          "examples": [
+            "She spoke with real conviction.",
+            "His political convictions haven't changed in forty years.",
+            "The conviction was overturned on appeal."
+          ]
+        }
+      ],
+      "русский": "обвинительный приговор, судимость; убеждение; осуждение (приговор)",
       "plural": "convictions",
       "countability": "countable"
     },
@@ -660,14 +865,43 @@
       "term": "confession",
       "ipa": "/kənˈfɛʃən/",
       "respell": "kuhn-FESH-un",
-      "meaning": "A statement admitting that you committed a crime. ---",
+      "meaning": "Confession has 2 distinct senses.",
       "examples": [
         "The confession was thrown out by the judge.",
         "He signed a full confession that night.",
-        "Both confessions were recorded on video."
+        "Both confessions were recorded on video.",
+        "He goes to confession every few weeks.",
+        "Her confession surprised everyone at the table.",
+        "The detective had two signed confessions."
       ],
-      "senses": [],
-      "русский": "признание (вины)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A statement admitting that you committed a crime",
+          "body": [
+            "(признание (вины))"
+          ],
+          "examples": [
+            "The confession was thrown out by the judge.",
+            "He signed a full confession that night.",
+            "Both confessions were recorded on video."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Telling a priest one's sins, or a statement admitting something",
+          "body": [
+            "(исповедь; признание)",
+            "---"
+          ],
+          "examples": [
+            "He goes to confession every few weeks.",
+            "Her confession surprised everyone at the table.",
+            "The detective had two signed confessions."
+          ]
+        }
+      ],
+      "русский": "признание (вины); исповедь; признание",
       "plural": "confessions",
       "countability": "countable"
     },
@@ -703,14 +937,43 @@
       "term": "contempt",
       "ipa": "/kənˈtɛmpt/",
       "respell": "kuhn-TEMPT",
-      "meaning": "Disobeying a court or disrupting it, which a judge can punish directly. ---",
+      "meaning": "Contempt has 2 distinct senses.",
       "examples": [
         "The judge held him in contempt.",
         "She spent a night in jail for contempt of court.",
-        "One more outburst and you're in contempt."
+        "One more outburst and you're in contempt.",
+        "He treated the whole idea with contempt.",
+        "You could see the contempt in her expression.",
+        "Familiarity does not always breed contempt."
       ],
-      "senses": [],
-      "русский": "неуважение к суду",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Disobeying a court or disrupting it, which a judge can punish directly",
+          "body": [
+            "(неуважение к суду)"
+          ],
+          "examples": [
+            "The judge held him in contempt.",
+            "She spent a night in jail for contempt of court.",
+            "One more outburst and you're in contempt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The feeling that someone or something is worthless",
+          "body": [
+            "(презрение)",
+            "---"
+          ],
+          "examples": [
+            "He treated the whole idea with contempt.",
+            "You could see the contempt in her expression.",
+            "Familiarity does not always breed contempt."
+          ]
+        }
+      ],
+      "русский": "неуважение к суду; презрение",
       "countability": "uncountable"
     },
     {
@@ -809,13 +1072,42 @@
       "term": "patent",
       "ipa": "/ˈpætənt/",
       "respell": "PAT-uhnt",
-      "meaning": "A legal right giving an inventor sole use of an invention for a set time. ---",
+      "meaning": "Patent has 2 distinct senses.",
       "examples": [
         "He holds a patent on the design.",
         "The patent expires next year.",
-        "The company owns hundreds of patents."
+        "The company owns hundreds of patents.",
+        "They filed a patent on the design.",
+        "The company holds thousands of patents.",
+        "The patent runs out in three years."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A legal right giving an inventor sole use of an invention for a set time",
+          "body": [
+            "(патент)"
+          ],
+          "examples": [
+            "He holds a patent on the design.",
+            "The patent expires next year.",
+            "The company owns hundreds of patents."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A legal right that stops others from copying an invention",
+          "body": [
+            "(патент)",
+            "---"
+          ],
+          "examples": [
+            "They filed a patent on the design.",
+            "The company holds thousands of patents.",
+            "The patent runs out in three years."
+          ]
+        }
+      ],
       "русский": "патент",
       "plural": "patents",
       "countability": "countable",
@@ -1072,14 +1364,43 @@
       "term": "assault",
       "ipa": "/əˈsɔːlt/",
       "respell": "uh-SAWLT",
-      "meaning": "The crime of attacking someone or threatening them with violence. ---",
+      "meaning": "Assault has 2 distinct senses.",
       "examples": [
         "He was charged with assault.",
         "The assault took place outside the bar.",
-        "Reported assaults dropped last year."
+        "Reported assaults dropped last year.",
+        "The final assault on the city began at noon.",
+        "Three assaults on the hill failed.",
+        "The marines practiced an amphibious assault."
       ],
-      "senses": [],
-      "русский": "нападение, насильственные действия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The crime of attacking someone or threatening them with violence",
+          "body": [
+            "(нападение, насильственные действия)"
+          ],
+          "examples": [
+            "He was charged with assault.",
+            "The assault took place outside the bar.",
+            "Reported assaults dropped last year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden, forceful attack on a position or a person",
+          "body": [
+            "(штурм, нападение)",
+            "---"
+          ],
+          "examples": [
+            "The final assault on the city began at noon.",
+            "Three assaults on the hill failed.",
+            "The marines practiced an amphibious assault."
+          ]
+        }
+      ],
+      "русский": "нападение, насильственные действия; штурм, нападение",
       "plural": "assaults",
       "countability": "countable"
     },
@@ -1332,7 +1653,8 @@
       ],
       "senses": [],
       "русский": "дискриминация",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable — say a lot of discrimination, never a discrimination or discriminations."
     },
     {
       "term": "speeding",
@@ -1607,13 +1929,42 @@
       "term": "heir",
       "ipa": "/ɛr/",
       "respell": "AIR",
-      "meaning": "Someone legally entitled to receive a dead person's property. ---",
+      "meaning": "Heir has 2 distinct senses.",
       "examples": [
         "He is the sole heir to the estate.",
         "The lawyer contacted all the heirs.",
-        "Without a will, the state decides who the heir is."
+        "Without a will, the state decides who the heir is.",
+        "She died without an heir.",
+        "The heirs fought over the farm for years.",
+        "He is the sole heir to the business."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone legally entitled to receive a dead person's property",
+          "body": [
+            "(наследник)"
+          ],
+          "examples": [
+            "He is the sole heir to the estate.",
+            "The lawyer contacted all the heirs.",
+            "Without a will, the state decides who the heir is."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person with the legal right to receive property or a title when someone dies",
+          "body": [
+            "(наследник)",
+            "---"
+          ],
+          "examples": [
+            "She died without an heir.",
+            "The heirs fought over the farm for years.",
+            "He is the sole heir to the business."
+          ]
+        }
+      ],
       "русский": "наследник",
       "plural": "heirs",
       "countability": "countable",
@@ -1697,13 +2048,42 @@
       "term": "patrol",
       "ipa": "/pəˈtroʊl/",
       "respell": "puh-TROHL",
-      "meaning": "A group of officers moving around an area to keep watch, or the act of doing so. ---",
+      "meaning": "Patrol has 2 distinct senses.",
       "examples": [
         "Two officers were on patrol downtown.",
         "The patrol passes this corner every hour.",
-        "Extra patrols were added after the break-ins."
+        "Extra patrols were added after the break-ins.",
+        "A night patrol never came back.",
+        "Two patrols met on the same road.",
+        "He was wounded on his first patrol."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A group of officers moving around an area to keep watch, or the act of doing so",
+          "body": [
+            "(патруль, патрулирование)"
+          ],
+          "examples": [
+            "Two officers were on patrol downtown.",
+            "The patrol passes this corner every hour.",
+            "Extra patrols were added after the break-ins."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small group sent out to watch an area, or the trip they make",
+          "body": [
+            "(патруль, патрулирование)",
+            "---"
+          ],
+          "examples": [
+            "A night patrol never came back.",
+            "Two patrols met on the same road.",
+            "He was wounded on his first patrol."
+          ]
+        }
+      ],
       "русский": "патруль, патрулирование",
       "plural": "patrols",
       "countability": "countable"
@@ -1727,16 +2107,46 @@
       "term": "deputy",
       "ipa": "/ˈdɛpjəti/",
       "respell": "DEP-yuh-tee",
-      "meaning": "An officer who works under a sheriff. ---",
+      "meaning": "Deputy has 2 distinct senses.",
       "examples": [
         "A deputy arrived within ten minutes.",
         "Two deputies blocked off the road.",
-        "The deputy took her statement at the scene."
+        "The deputy took her statement at the scene.",
+        "His deputy ran the office while he was away.",
+        "She was named deputy director in the spring.",
+        "Two deputies handled the paperwork."
       ],
-      "senses": [],
-      "русский": "помощник шерифа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An officer who works under a sheriff",
+          "body": [
+            "(помощник шерифа)"
+          ],
+          "examples": [
+            "A deputy arrived within ten minutes.",
+            "Two deputies blocked off the road.",
+            "The deputy took her statement at the scene."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person who is second in rank and acts for the person above them",
+          "body": [
+            "(заместитель (не «депутат»))",
+            "---"
+          ],
+          "examples": [
+            "His deputy ran the office while he was away.",
+            "She was named deputy director in the spring.",
+            "Two deputies handled the paperwork."
+          ]
+        }
+      ],
+      "русский": "помощник шерифа; заместитель (не «депутат»)",
       "plural": "deputies",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "A false friend: an elected member of parliament is a representative, not a deputy."
     },
     {
       "term": "marshal",
@@ -1788,14 +2198,43 @@
       "term": "raid",
       "ipa": "/reɪd/",
       "respell": "RAYD",
-      "meaning": "A sudden entry by police into a place to search it or make arrests. ---",
+      "meaning": "Raid has 2 distinct senses.",
       "examples": [
         "The raid turned up a stash of weapons.",
         "Agents carried out a pre-dawn raid.",
-        "Two raids were called off at the last minute."
+        "Two raids were called off at the last minute.",
+        "The night raid destroyed the fuel depot.",
+        "Air raids continued for a month.",
+        "A small raid across the river killed six men."
       ],
-      "senses": [],
-      "русский": "облава, рейд",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden entry by police into a place to search it or make arrests",
+          "body": [
+            "(облава, рейд)"
+          ],
+          "examples": [
+            "The raid turned up a stash of weapons.",
+            "Agents carried out a pre-dawn raid.",
+            "Two raids were called off at the last minute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short, sudden attack on an enemy position",
+          "body": [
+            "(рейд, налёт)",
+            "---"
+          ],
+          "examples": [
+            "The night raid destroyed the fuel depot.",
+            "Air raids continued for a month.",
+            "A small raid across the river killed six men."
+          ]
+        }
+      ],
+      "русский": "облава, рейд; рейд, налёт",
       "plural": "raids",
       "countability": "countable"
     },
@@ -1833,14 +2272,43 @@
       "term": "surveillance",
       "ipa": "/sərˈveɪləns/",
       "respell": "sur-VAY-luhns",
-      "meaning": "Close watching of a person or place, especially by police. ---",
+      "meaning": "Surveillance has 2 distinct senses.",
       "examples": [
         "The house has been under surveillance for a month.",
         "Surveillance footage showed him leaving at nine.",
-        "They set up surveillance across the street."
+        "They set up surveillance across the street.",
+        "The house was under surveillance for a month.",
+        "New surveillance cameras went up downtown.",
+        "The bill would expand government surveillance."
       ],
-      "senses": [],
-      "русский": "наблюдение, слежка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Close watching of a person or place, especially by police",
+          "body": [
+            "(наблюдение, слежка)"
+          ],
+          "examples": [
+            "The house has been under surveillance for a month.",
+            "Surveillance footage showed him leaving at nine.",
+            "They set up surveillance across the street."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Close watching of people or places by police or government",
+          "body": [
+            "(слежка, наблюдение)",
+            "---"
+          ],
+          "examples": [
+            "The house was under surveillance for a month.",
+            "New surveillance cameras went up downtown.",
+            "The bill would expand government surveillance."
+          ]
+        }
+      ],
+      "русский": "наблюдение, слежка; слежка, наблюдение",
       "countability": "uncountable",
       "contrast": "The -eill- is said VAY: sur-VAY-luhns, not sur-VEIL-ee-uhns."
     },
@@ -2060,13 +2528,42 @@
       "term": "pardon",
       "ipa": "/ˈpɑːrdən/",
       "respell": "PAHR-duhn",
-      "meaning": "An official decision to forgive a crime and cancel the punishment. ---",
+      "meaning": "Pardon has 2 distinct senses.",
       "examples": [
         "The governor granted him a pardon.",
         "She applied for a pardon after twelve years.",
-        "The president issued dozens of pardons."
+        "The president issued dozens of pardons.",
+        "The governor granted him a full pardon.",
+        "She asked for a pardon after twenty years in prison.",
+        "He issued a hundred pardons on his last day."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official decision to forgive a crime and cancel the punishment",
+          "body": [
+            "(помилование)"
+          ],
+          "examples": [
+            "The governor granted him a pardon.",
+            "She applied for a pardon after twelve years.",
+            "The president issued dozens of pardons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official act freeing someone from punishment for a crime",
+          "body": [
+            "(помилование)",
+            "---"
+          ],
+          "examples": [
+            "The governor granted him a full pardon.",
+            "She asked for a pardon after twenty years in prison.",
+            "He issued a hundred pardons on his last day."
+          ]
+        }
+      ],
       "русский": "помилование",
       "plural": "pardons",
       "countability": "countable"

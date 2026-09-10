@@ -21,13 +21,42 @@
       "term": "industry",
       "ipa": "/ˈɪndəstri/",
       "respell": "IN-duh-stree",
-      "meaning": "A branch of business that makes one kind of product, or manufacturing as a whole. ---",
+      "meaning": "Industry has 2 distinct senses.",
       "examples": [
         "She spent twenty years in the music industry.",
         "Heavy industry still employs a lot of people up north.",
-        "Several industries were hit hard by the shutdown."
+        "Several industries were hit hard by the shutdown.",
+        "She's worked in the music industry since college.",
+        "The airline industry took a huge hit that year.",
+        "Several industries are still short on workers."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A branch of business that makes one kind of product, or manufacturing as a whole",
+          "body": [
+            "(отрасль; промышленность)"
+          ],
+          "examples": [
+            "She spent twenty years in the music industry.",
+            "Heavy industry still employs a lot of people up north.",
+            "Several industries were hit hard by the shutdown."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A particular branch of business, or manufacturing in general",
+          "body": [
+            "(отрасль; промышленность)",
+            "---"
+          ],
+          "examples": [
+            "She's worked in the music industry since college.",
+            "The airline industry took a huge hit that year.",
+            "Several industries are still short on workers."
+          ]
+        }
+      ],
       "русский": "отрасль; промышленность",
       "plural": "industries",
       "countability": "both — countable and uncountable with different meanings"
@@ -171,14 +200,43 @@
       "term": "vendor",
       "ipa": "/ˈvɛndər/",
       "respell": "VEN-dur",
-      "meaning": "A person or company that sells something, especially to a business or on the street. ---",
+      "meaning": "Vendor has 2 distinct senses.",
       "examples": [
         "A street vendor was selling hot dogs on the corner.",
         "We pay our vendors within thirty days.",
-        "The software vendor handles all the updates."
+        "The software vendor handles all the updates.",
+        "We switched vendors last year.",
+        "The vendor is late with the shipment.",
+        "Three vendors bid on the job."
       ],
-      "senses": [],
-      "русский": "поставщик; торговец, продавец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or company that sells something, especially to a business or on the street",
+          "body": [
+            "(поставщик; торговец, продавец)"
+          ],
+          "examples": [
+            "A street vendor was selling hot dogs on the corner.",
+            "We pay our vendors within thirty days.",
+            "The software vendor handles all the updates."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A company that sells goods or services to another company",
+          "body": [
+            "(поставщик, продавец)",
+            "---"
+          ],
+          "examples": [
+            "We switched vendors last year.",
+            "The vendor is late with the shipment.",
+            "Three vendors bid on the job."
+          ]
+        }
+      ],
+      "русский": "поставщик; торговец, продавец; поставщик, продавец",
       "plural": "vendors",
       "countability": "countable"
     },
@@ -292,14 +350,43 @@
       "term": "sale",
       "ipa": "/seɪl/",
       "respell": "SAYL",
-      "meaning": "The selling of something, or a period when a store lowers its prices. ---",
+      "meaning": "Sale has 2 distinct senses.",
       "examples": [
         "The sale of the building took six months.",
         "These shoes were on sale for half price.",
-        "The store runs big sales right after Christmas."
+        "The store runs big sales right after Christmas.",
+        "These boots were on sale for half off.",
+        "The store runs two big sales a year.",
+        "I never buy anything unless it's on sale."
       ],
-      "senses": [],
-      "русский": "продажа; распродажа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The selling of something, or a period when a store lowers its prices",
+          "body": [
+            "(продажа; распродажа)"
+          ],
+          "examples": [
+            "The sale of the building took six months.",
+            "These shoes were on sale for half price.",
+            "The store runs big sales right after Christmas."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A time when a store sells goods at lower prices than usual",
+          "body": [
+            "(распродажа; продажа)",
+            "---"
+          ],
+          "examples": [
+            "These boots were on sale for half off.",
+            "The store runs two big sales a year.",
+            "I never buy anything unless it's on sale."
+          ]
+        }
+      ],
+      "русский": "продажа; распродажа; распродажа; продажа",
       "plural": "sales",
       "countability": "countable",
       "contrast": "Sale sounds exactly like sail."
@@ -412,14 +499,43 @@
       "term": "bundle",
       "ipa": "/ˈbʌndəl/",
       "respell": "BUN-dul",
-      "meaning": "Several products sold together for one price. ---",
+      "meaning": "Bundle has 2 distinct senses.",
       "examples": [
         "The phone and the case come as a bundle.",
         "We saved forty dollars with the cable bundle.",
-        "They offer three different bundles."
+        "They offer three different bundles.",
+        "He carried in a bundle of firewood.",
+        "The newspapers came in bundles tied with twine.",
+        "She had a bundle of letters held with a rubber band."
       ],
-      "senses": [],
-      "русский": "комплект, набор товаров",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Several products sold together for one price",
+          "body": [
+            "(комплект, набор товаров)"
+          ],
+          "examples": [
+            "The phone and the case come as a bundle.",
+            "We saved forty dollars with the cable bundle.",
+            "They offer three different bundles."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of things tied or wrapped together",
+          "body": [
+            "(связка, пачка, узел)",
+            "---"
+          ],
+          "examples": [
+            "He carried in a bundle of firewood.",
+            "The newspapers came in bundles tied with twine.",
+            "She had a bundle of letters held with a rubber band."
+          ]
+        }
+      ],
+      "русский": "комплект, набор товаров; связка, пачка, узел",
       "plural": "bundles",
       "countability": "countable"
     },
@@ -442,13 +558,42 @@
       "term": "packaging",
       "ipa": "/ˈpækɪdʒɪŋ/",
       "respell": "PAK-ih-jing",
-      "meaning": "The boxes, wrapping, and containers a product is sold in. ---",
+      "meaning": "Packaging has 2 distinct senses.",
       "examples": [
         "The packaging is nicer than what's inside.",
         "They switched to packaging made from recycled paper.",
-        "Half the shipping cost is packaging."
+        "Half the shipping cost is packaging.",
+        "The packaging was bigger than the toy inside.",
+        "They switched to cardboard packaging.",
+        "Save the packaging in case you return it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The boxes, wrapping, and containers a product is sold in",
+          "body": [
+            "(упаковка)"
+          ],
+          "examples": [
+            "The packaging is nicer than what's inside.",
+            "They switched to packaging made from recycled paper.",
+            "Half the shipping cost is packaging."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The boxes, wrapping and plastic that goods come in",
+          "body": [
+            "(упаковка)",
+            "---"
+          ],
+          "examples": [
+            "The packaging was bigger than the toy inside.",
+            "They switched to cardboard packaging.",
+            "Save the packaging in case you return it."
+          ]
+        }
+      ],
       "русский": "упаковка",
       "countability": "uncountable",
       "contrast": "Packaging is uncountable — one box is a package, but the material as a whole is packaging."
@@ -472,13 +617,42 @@
       "term": "markup",
       "ipa": "/ˈmɑːrkʌp/",
       "respell": "MARK-up",
-      "meaning": "The amount a seller adds to the cost of goods to make a profit. ---",
+      "meaning": "Markup has 2 distinct senses.",
       "examples": [
         "Restaurants put a huge markup on wine.",
         "The markup on jewelry can be four hundred percent.",
-        "Small markups add up over thousands of sales."
+        "Small markups add up over thousands of sales.",
+        "The markup on bottled water is enormous.",
+        "Restaurant markups on wine can be triple the store price.",
+        "They keep the markup low and sell in volume."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a seller adds to the cost of goods to make a profit",
+          "body": [
+            "(наценка)"
+          ],
+          "examples": [
+            "Restaurants put a huge markup on wine.",
+            "The markup on jewelry can be four hundred percent.",
+            "Small markups add up over thousands of sales."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount added to the cost of an item to set its selling price",
+          "body": [
+            "(наценка)",
+            "---"
+          ],
+          "examples": [
+            "The markup on bottled water is enormous.",
+            "Restaurant markups on wine can be triple the store price.",
+            "They keep the markup low and sell in volume."
+          ]
+        }
+      ],
       "русский": "наценка",
       "plural": "markups",
       "countability": "countable"
@@ -487,13 +661,42 @@
       "term": "markdown",
       "ipa": "/ˈmɑːrkdaʊn/",
       "respell": "MARK-down",
-      "meaning": "A cut in the price of goods a store is trying to move. ---",
+      "meaning": "Markdown has 2 distinct senses.",
       "examples": [
         "The store took a markdown on all the summer stock.",
         "Markdowns start the day after the holiday.",
-        "Even with the markdown it's too expensive."
+        "Even with the markdown it's too expensive.",
+        "There's another markdown on winter coats this week.",
+        "The store takes markdowns every Monday morning.",
+        "After the second markdown, the shirt cost eight dollars."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cut in the price of goods a store is trying to move",
+          "body": [
+            "(уценка, снижение цены)"
+          ],
+          "examples": [
+            "The store took a markdown on all the summer stock.",
+            "Markdowns start the day after the holiday.",
+            "Even with the markdown it's too expensive."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A reduction in the selling price of an item",
+          "body": [
+            "(уценка, снижение цены)",
+            "---"
+          ],
+          "examples": [
+            "There's another markdown on winter coats this week.",
+            "The store takes markdowns every Monday morning.",
+            "After the second markdown, the shirt cost eight dollars."
+          ]
+        }
+      ],
       "русский": "уценка, снижение цены",
       "plural": "markdowns",
       "countability": "countable"
@@ -502,28 +705,86 @@
       "term": "clearance",
       "ipa": "/ˈklɪrəns/",
       "respell": "KLEER-uns",
-      "meaning": "A sale in which a store cuts prices to get rid of goods. ---",
+      "meaning": "Clearance has 2 distinct senses.",
       "examples": [
         "I got this jacket on clearance.",
         "The whole back wall is clearance.",
-        "Clearance items can't be returned."
+        "Clearance items can't be returned.",
+        "These towels are on clearance.",
+        "Everything in the back corner is on clearance.",
+        "I bought the coat on clearance in April."
       ],
-      "senses": [],
-      "русский": "распродажа остатков, уценённый товар",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sale in which a store cuts prices to get rid of goods",
+          "body": [
+            "(распродажа остатков, уценённый товар)"
+          ],
+          "examples": [
+            "I got this jacket on clearance.",
+            "The whole back wall is clearance.",
+            "Clearance items can't be returned."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sale that clears out old stock at very low prices",
+          "body": [
+            "(распродажа остатков, уценка)",
+            "---"
+          ],
+          "examples": [
+            "These towels are on clearance.",
+            "Everything in the back corner is on clearance.",
+            "I bought the coat on clearance in April."
+          ]
+        }
+      ],
+      "русский": "распродажа остатков, уценённый товар; распродажа остатков, уценка",
       "countability": "uncountable"
     },
     {
       "term": "register",
       "ipa": "/ˈrɛdʒɪstər/",
       "respell": "REJ-ih-stur",
-      "meaning": "The machine at a store counter that holds the money and records sales. ---",
+      "meaning": "Register has 2 distinct senses.",
       "examples": [
         "There was only one register open.",
         "Please pay at the register by the door.",
-        "All four registers had lines."
+        "All four registers had lines.",
+        "Warm air comes up through the register by the window.",
+        "Vacuum the dust out of the register.",
+        "The rug is covering two of the registers."
       ],
-      "senses": [],
-      "русский": "касса (аппарат)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The machine at a store counter that holds the money and records sales",
+          "body": [
+            "(касса (аппарат))"
+          ],
+          "examples": [
+            "There was only one register open.",
+            "Please pay at the register by the door.",
+            "All four registers had lines."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The grille in a floor or wall where heated or cooled air enters a room",
+          "body": [
+            "(вентиляционная решётка (отопления))",
+            "---"
+          ],
+          "examples": [
+            "Warm air comes up through the register by the window.",
+            "Vacuum the dust out of the register.",
+            "The rug is covering two of the registers."
+          ]
+        }
+      ],
+      "русский": "касса (аппарат); вентиляционная решётка (отопления)",
       "plural": "registers",
       "countability": "countable",
       "contrast": "In American stores it's the register; the British say the till."
@@ -532,16 +793,46 @@
       "term": "storefront",
       "ipa": "/ˈstɔːrfrʌnt/",
       "respell": "STOR-frunt",
-      "meaning": "The street-facing front of a store, or a small shop at street level. ---",
+      "meaning": "Storefront has 2 distinct senses.",
       "examples": [
         "They painted the storefront bright blue.",
         "Half the storefronts downtown are empty.",
-        "She rented a little storefront on Third Street."
+        "She rented a little storefront on Third Street.",
+        "They painted the storefront bright yellow.",
+        "Half the storefronts on Main Street are empty.",
+        "A small bakery took over the storefront next door."
       ],
-      "senses": [],
-      "русский": "витрина; помещение магазина на первом этаже",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The street-facing front of a store, or a small shop at street level",
+          "body": [
+            "(витрина; помещение магазина на первом этаже)"
+          ],
+          "examples": [
+            "They painted the storefront bright blue.",
+            "Half the storefronts downtown are empty.",
+            "She rented a little storefront on Third Street."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The front of a store as it looks from the street",
+          "body": [
+            "(фасад магазина, витрина с улицы)",
+            "---"
+          ],
+          "examples": [
+            "They painted the storefront bright yellow.",
+            "Half the storefronts on Main Street are empty.",
+            "A small bakery took over the storefront next door."
+          ]
+        }
+      ],
+      "русский": "витрина; помещение магазина на первом этаже; фасад магазина, витрина с улицы",
       "plural": "storefronts",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American. British English says 'shopfront'."
     },
     {
       "term": "booth",
@@ -635,14 +926,43 @@
       "term": "marketplace",
       "ipa": "/ˈmɑːrkɪtpleɪs/",
       "respell": "MAR-kit-playss",
-      "meaning": "The whole world of buying and selling, or a place or site where many sellers trade. ---",
+      "meaning": "Marketplace has 2 distinct senses.",
       "examples": [
         "Their product failed in the marketplace.",
         "She sells her pottery through an online marketplace.",
-        "Two new marketplaces opened for used car parts."
+        "Two new marketplaces opened for used car parts.",
+        "The town marketplace is closed to cars on weekends.",
+        "Online marketplaces connect small sellers with buyers.",
+        "I sold my old bike through an online marketplace."
       ],
-      "senses": [],
-      "русский": "рынок (сфера торговли); торговая площадка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The whole world of buying and selling, or a place or site where many sellers trade",
+          "body": [
+            "(рынок (сфера торговли); торговая площадка)"
+          ],
+          "examples": [
+            "Their product failed in the marketplace.",
+            "She sells her pottery through an online marketplace.",
+            "Two new marketplaces opened for used car parts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place, real or online, where many sellers offer goods",
+          "body": [
+            "(торговая площадь; торговая площадка)",
+            "---"
+          ],
+          "examples": [
+            "The town marketplace is closed to cars on weekends.",
+            "Online marketplaces connect small sellers with buyers.",
+            "I sold my old bike through an online marketplace."
+          ]
+        }
+      ],
+      "русский": "рынок (сфера торговли); торговая площадка; торговая площадь; торговая площадка",
       "plural": "marketplaces",
       "countability": "countable"
     },
@@ -878,13 +1198,42 @@
       "term": "middleman",
       "ipa": "/ˈmɪdəlmæn/",
       "respell": "MID-ul-man",
-      "meaning": "A person or company that stands between the maker and the buyer. ---",
+      "meaning": "Middleman has 2 distinct senses.",
       "examples": [
         "Buying straight from the farm cuts out the middleman.",
         "Too many middlemen drive the price up.",
-        "He worked as a middleman between growers and grocery chains."
+        "He worked as a middleman between growers and grocery chains.",
+        "Buying direct from the farm cuts out the middleman.",
+        "Too many middlemen drive the price up.",
+        "The middleman takes his cut on every crate."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or company that stands between the maker and the buyer",
+          "body": [
+            "(посредник)"
+          ],
+          "examples": [
+            "Buying straight from the farm cuts out the middleman.",
+            "Too many middlemen drive the price up.",
+            "He worked as a middleman between growers and grocery chains."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who buys from the producer and sells on to the store or customer",
+          "body": [
+            "(посредник)",
+            "---"
+          ],
+          "examples": [
+            "Buying direct from the farm cuts out the middleman.",
+            "Too many middlemen drive the price up.",
+            "The middleman takes his cut on every crate."
+          ]
+        }
+      ],
       "русский": "посредник",
       "plural": "middlemen",
       "countability": "countable",
@@ -1165,15 +1514,45 @@
       "term": "shipping",
       "ipa": "/ˈʃɪpɪŋ/",
       "respell": "SHIP-ing",
-      "meaning": "The sending of goods to customers, or what that costs. ---",
+      "meaning": "Shipping has 2 distinct senses.",
       "examples": [
         "Shipping is free on orders over fifty dollars.",
         "The shipping took longer than the store promised.",
-        "We handle shipping out of a warehouse in Ohio."
+        "We handle shipping out of a warehouse in Ohio.",
+        "Shipping was more than the sweater cost.",
+        "They offer free shipping on orders over fifty dollars.",
+        "The total includes tax and shipping."
       ],
-      "senses": [],
-      "русский": "доставка, отправка; стоимость доставки",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "The sending of goods to customers, or what that costs",
+          "body": [
+            "(доставка, отправка; стоимость доставки)"
+          ],
+          "examples": [
+            "Shipping is free on orders over fifty dollars.",
+            "The shipping took longer than the store promised.",
+            "We handle shipping out of a warehouse in Ohio."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sending of goods to a customer, or the cost of doing it",
+          "body": [
+            "(доставка (пересылка); стоимость доставки)",
+            "---"
+          ],
+          "examples": [
+            "Shipping was more than the sweater cost.",
+            "They offer free shipping on orders over fifty dollars.",
+            "The total includes tax and shipping."
+          ]
+        }
+      ],
+      "русский": "доставка, отправка; стоимость доставки; доставка (пересылка); стоимость доставки",
+      "countability": "uncountable",
+      "contrast": "In American English shipping covers delivery by truck or mail too, not only by ship."
     },
     {
       "term": "courier",
@@ -1460,14 +1839,43 @@
       "term": "stake",
       "ipa": "/steɪk/",
       "respell": "STAYK",
-      "meaning": "A share of ownership in a business. ---",
+      "meaning": "Stake has 2 distinct senses.",
       "examples": [
         "She owns a twenty percent stake in the firm.",
         "The fund sold its stake last year.",
-        "Both partners hold equal stakes."
+        "Both partners hold equal stakes.",
+        "Drive a stake in next to each tomato.",
+        "The wind snapped the stake right off.",
+        "We ran out of stakes halfway down the row."
       ],
-      "senses": [],
-      "русский": "доля (в компании)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A share of ownership in a business",
+          "body": [
+            "(доля (в компании))"
+          ],
+          "examples": [
+            "She owns a twenty percent stake in the firm.",
+            "The fund sold its stake last year.",
+            "Both partners hold equal stakes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A pointed stick driven into the ground to support a plant",
+          "body": [
+            "(колышек, опора для растения)",
+            "---"
+          ],
+          "examples": [
+            "Drive a stake in next to each tomato.",
+            "The wind snapped the stake right off.",
+            "We ran out of stakes halfway down the row."
+          ]
+        }
+      ],
+      "русский": "доля (в компании); колышек, опора для растения",
       "plural": "stakes",
       "countability": "countable",
       "contrast": "Stake sounds exactly like steak."
@@ -1816,14 +2224,43 @@
       "term": "niche",
       "ipa": "/nɪtʃ/",
       "respell": "NICH",
-      "meaning": "A small part of the market that one product serves especially well. ---",
+      "meaning": "Niche has 2 distinct senses.",
       "examples": [
         "They found a niche selling gear for left-handed golfers.",
         "The magazine serves a narrow niche.",
-        "Small niches can be very profitable."
+        "Small niches can be very profitable.",
+        "A candle sits in the niche by the door.",
+        "The shower has a tiled niche for shampoo.",
+        "Statues stood in niches along the hallway."
       ],
-      "senses": [],
-      "русский": "ниша (рыночная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small part of the market that one product serves especially well",
+          "body": [
+            "(ниша (рыночная))"
+          ],
+          "examples": [
+            "They found a niche selling gear for left-handed golfers.",
+            "The magazine serves a narrow niche.",
+            "Small niches can be very profitable."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow space in a wall, often made to hold a statue or a vase",
+          "body": [
+            "(ниша (в стене))",
+            "---"
+          ],
+          "examples": [
+            "A candle sits in the niche by the door.",
+            "The shower has a tiled niche for shampoo.",
+            "Statues stood in niches along the hallway."
+          ]
+        }
+      ],
+      "русский": "ниша (рыночная); ниша (в стене)",
       "plural": "niches",
       "countability": "countable",
       "contrast": "Americans usually say NICH, rhyming with itch; the British say NEESH."

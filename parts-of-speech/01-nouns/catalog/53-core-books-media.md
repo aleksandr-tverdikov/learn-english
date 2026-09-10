@@ -31,11 +31,19 @@ A set of printed or written pages bound together inside a cover.
 **Plural:** *pages*
 **Countability:** countable
 
-One side of a sheet of paper in a book, magazine, or newspaper.
+Page has 2 distinct senses.
+
+**1. One side of a sheet of paper in a book, magazine, or newspaper.** (страница)
 
 1. Turn to *page* forty-two.
 2. The article runs about six *pages*.
 3. He folded the corner of the *page* to mark his place.
+
+**2. One screen of content on a website.** (страница)
+
+4. The *page* takes forever to load.
+5. I bookmarked a few *pages* about the topic.
+6. Scroll to the bottom of the *page* and hit Submit.
 
 ---
 
@@ -197,11 +205,19 @@ A block of sentences about one idea, starting on a new line.
 **Plural:** *illustrations*
 **Countability:** countable
 
-A drawing or picture printed in a book or magazine.
+Illustration has 2 distinct senses.
+
+**1. A drawing or picture printed in a book or magazine.** (иллюстрация)
 
 1. The *illustrations* are what sell the book.
 2. Each chapter opens with a small *illustration*.
 3. She did the *illustration* in pen and ink.
+
+**2. A picture in a book or magazine that goes with the text.** (иллюстрация)
+
+4. The *illustrations* are the best part of the book.
+5. He does *illustrations* for children's books.
+6. A full-page *illustration* opens each chapter.
 
 ---
 
@@ -315,15 +331,23 @@ A book bound with stiff board covers.
 ### binding
 
 **Pronunciation:** /ˈbaɪndɪŋ/ &middot; *BYN-ding*
-**Русский:** переплёт
+**Русский:** переплёт; окантовка, косая бейка
 **Plural:** *bindings*
 **Countability:** countable
 
-The stitching and glue that hold a book's pages inside its cover.
+Binding has 2 distinct senses.
+
+**1. The stitching and glue that hold a book's pages inside its cover.** (переплёт)
 
 1. The *binding* cracked the first time I opened it.
 2. Old leather *bindings* line the top shelf.
 3. Cheap *binding* is why the pages fall out.
+
+**2. A strip of cloth folded over a raw edge to cover and finish it.** (окантовка, косая бейка)
+
+4. Stitch the *binding* around the edge of the quilt.
+5. She used bias *binding* on the armholes.
+6. The *binding* is a contrasting green.
 
 ---
 
@@ -379,26 +403,42 @@ One single example of a book, magazine, or record out of many printed.
 **Plural:** *copyrights*
 **Countability:** countable
 
-The legal right to control who may print or use a piece of writing, music, or art.
+Copyright has 2 distinct senses.
+
+**1. The legal right to control who may print or use a piece of writing, music, or art.** (авторское право)
 
 1. The publisher holds the *copyright*.
 2. The *copyright* on those songs expires next year.
 3. You can't reprint the photo without clearing the *copyright*.
+
+**2. The legal right to control who copies or sells a creative work.** (авторское право)
+
+4. She still owns the *copyright* to the songs.
+5. The *copyright* runs for seventy years after the author's death.
+6. The studio bought up the *copyrights*.
 
 ---
 
 ### dedication
 
 **Pronunciation:** /ˌdɛdɪˈkeɪʃən/ &middot; *ded-ih-KAY-shuhn*
-**Русский:** посвящение (в книге)
+**Русский:** посвящение (в книге); самоотдача, преданность делу
 **Plural:** *dedications*
 **Countability:** countable
 
-A line at the front of a book saying it is written in honor of someone.
+Dedication has 2 distinct senses.
+
+**1. A line at the front of a book saying it is written in honor of someone.** (посвящение (в книге))
 
 1. The *dedication* reads 'For my mother.'
 2. He put a joke in the *dedication*.
 3. Her first two books had the same *dedication*.
+
+**2. The quality of giving a lot of time and energy to something you care about.** (самоотдача, преданность делу)
+
+4. Teaching that long takes real *dedication*.
+5. Her *dedication* to the choir never wavered.
+6. The award recognizes forty years of *dedication*.
 
 ---
 
@@ -439,11 +479,19 @@ Someone who reads a text before printing to catch mistakes.
 **Plural:** *fonts*
 **Countability:** countable
 
-A particular design of printed or on-screen letters.
+Font has 2 distinct senses.
+
+**1. A particular design of printed or on-screen letters.** (шрифт)
 
 1. Use a bigger *font* — I can't read that.
 2. The book is set in a classic serif *font*.
 3. She has hundreds of *fonts* on her laptop.
+
+**2. A set of letters and numbers in one particular design.** (шрифт)
+
+4. Pick a *font* that's easy to read.
+5. I have hundreds of *fonts* installed.
+6. The *font* is too small for a slide.
 
 ---
 
@@ -511,12 +559,21 @@ The business of producing books, magazines, and newspapers.
 **Pronunciation:** /prɛs/ &middot; *PRES*
 **Русский:** пресса, СМИ
 **Countability:** uncountable
+**Contrast:** Uncountable and used with the: the press, never a press for the news media.
 
-Newspapers and the reporters who work for them, taken as a whole.
+Press has 2 distinct senses.
+
+**1. Newspapers and the reporters who work for them, taken as a whole.** (пресса, СМИ)
 
 1. The *press* was waiting outside the courthouse.
 2. The mayor rarely talks to the *press*.
 3. The movie got terrible *press*.
+
+**2. Newspapers, television, and other news media taken together.** (пресса, СМИ)
+
+4. The *press* was kept outside the building.
+5. He rarely talks to the *press*.
+6. The story got a lot of *press* that week.
 
 ---
 
@@ -854,15 +911,23 @@ The series of events that make up a story.
 ### character
 
 **Pronunciation:** /ˈkærəktər/ &middot; *KAR-uk-tur*
-**Русский:** персонаж, герой
+**Русский:** персонаж, герой; характер; персонаж
 **Plural:** *characters*
 **Countability:** countable
 
-A person in a book, movie, or TV show.
+Character has 2 distinct senses.
+
+**1. A person in a book, movie, or TV show.** (персонаж, герой)
 
 1. The main *character* is a retired detective.
 2. There are too many *characters* to keep straight.
 3. She's my favorite *character* on the show.
+
+**2. A person's moral qualities, or a person in a story or film.** (характер; персонаж)
+
+4. Losing gracefully says a lot about your *character*.
+5. The novel has too many *characters* to keep straight.
+6. Hard times build *character*, my father used to say.
 
 ---
 
@@ -889,11 +954,19 @@ The voice that tells a story in a book, film, or audiobook.
 **Countability:** countable
 **Contrast:** Starts with the 'zh' sound of the s in *measure*, not a hard g.
 
-A type of book, film, or music with its own typical style and subject.
+Genre has 2 distinct senses.
+
+**1. A type of book, film, or music with its own typical style and subject.** (жанр)
 
 1. Horror isn't really my *genre*.
 2. The book jumps between two *genres*.
 3. Mystery is the best-selling *genre* in the store.
+
+**2. A type of art, music, or writing with its own recognizable style.** (жанр)
+
+4. Jazz is the one *genre* he can't stand.
+5. The store organizes its records by *genre*.
+6. She writes in two completely different *genres*.
 
 ---
 
@@ -977,12 +1050,21 @@ Money paid to an author or musician for each copy of their work that sells.
 **Pronunciation:** /ˈsɛnsərʃɪp/ &middot; *SEN-sur-ship*
 **Русский:** цензура
 **Countability:** uncountable
+**Contrast:** From censor (an official); do not confuse it with sensor, a device.
 
-The practice of blocking or cutting parts of books, films, or news.
+Censorship has 2 distinct senses.
+
+**1. The practice of blocking or cutting parts of books, films, or news.** (цензура)
 
 1. The editors called it *censorship*.
 2. *Censorship* of the press is banned by the constitution.
 3. She wrote a book about wartime *censorship*.
+
+**2. Official control over what may be published, said, or shown.** (цензура)
+
+4. The law amounts to *censorship*, the paper said.
+5. *Censorship* of textbooks became a campaign issue.
+6. They accused the platform of *censorship*.
 
 ---
 
@@ -1086,27 +1168,43 @@ A book you read on a screen instead of on paper.
 **Countability:** countable
 **Contrast:** Americans say NOOZ; the British say NYOOZ.
 
-A set of large printed sheets sold daily or weekly with news in it.
+Newspaper has 2 distinct senses.
+
+**1. A set of large printed sheets sold daily or weekly with news in it.** (газета)
 
 1. He still reads a *newspaper* with breakfast.
 2. The story ran in every *newspaper* in the state.
 3. Local *newspapers* are shutting down all over.
+
+**2. A printed publication of news that comes out regularly.** (газета)
+
+4. He reads the *newspaper* with his coffee.
+5. Two *newspapers* in the state closed last year.
+6. The story made the front page of every *newspaper*.
 
 ---
 
 ### magazine
 
 **Pronunciation:** /ˈmæɡəziːn/ &middot; *MAG-uh-zeen*
-**Русский:** журнал
+**Русский:** журнал; магазин (оружейный)
 **Plural:** *magazines*
 **Countability:** countable
 **Contrast:** Americans usually stress the first syllable, MAG-uh-zeen; the British stress the last.
 
-A thin publication with photos and articles, printed weekly or monthly.
+Magazine has 2 distinct senses.
+
+**1. A thin publication with photos and articles, printed weekly or monthly.** (журнал)
 
 1. There's a stack of old *magazines* in the waiting room.
 2. She writes for a food *magazine*.
 3. The *magazine* comes out on the first of the month.
+
+**2. The container that holds cartridges and feeds them into a gun.** (магазин (оружейный))
+
+4. He slapped a fresh *magazine* into the rifle.
+5. Each *magazine* holds thirty rounds.
+6. She carried three spare *magazines*.
 
 ---
 
@@ -1252,26 +1350,42 @@ A writer who supplies pieces to a magazine or site without being on staff.
 **Plural:** *reporters*
 **Countability:** countable
 
-Someone whose job is to find out about news and write or talk about it.
+Reporter has 2 distinct senses.
+
+**1. Someone whose job is to find out about news and write or talk about it.** (репортёр, корреспондент)
 
 1. A *reporter* called the house twice.
 2. *Reporters* were camped outside all week.
 3. He's been a crime *reporter* for ten years.
+
+**2. Someone who gathers news and writes or broadcasts it.** (репортёр, корреспондент)
+
+4. A *reporter* called the house twice.
+5. *Reporters* crowded around the front steps.
+6. She was a police *reporter* for eleven years.
 
 ---
 
 ### correspondent
 
 **Pronunciation:** /ˌkɔːrəˈspɑːndənt/ &middot; *kor-uh-SPAHN-duhnt*
-**Русский:** корреспондент (обычно зарубежный или специальный)
+**Русский:** корреспондент (обычно зарубежный или специальный); корреспондент
 **Plural:** *correspondents*
 **Countability:** countable
 
-A reporter who covers one place or subject for a paper or network.
+Correspondent has 2 distinct senses.
+
+**1. A reporter who covers one place or subject for a paper or network.** (корреспондент (обычно зарубежный или специальный))
 
 1. Our White House *correspondent* has the story.
 2. She spent four years as a foreign *correspondent*.
 3. Two *correspondents* were pulled out of the country.
+
+**2. A reporter who sends news from a particular place or on a particular subject.** (корреспондент)
+
+4. Their White House *correspondent* asked the first question.
+5. The network keeps *correspondents* in a dozen countries.
+6. He spent four years as a war *correspondent*.
 
 ---
 
@@ -1308,15 +1422,29 @@ A person who writes an opinion piece about a new book, film, or product.
 ### feature
 
 **Pronunciation:** /ˈfiːtʃər/ &middot; *FEE-chur*
-**Русский:** очерк, большая тематическая статья
+**Русский:** очерк, большая тематическая статья; функция, возможность; черта (лица); особенность
 **Plural:** *features*
 **Countability:** countable
 
-A long newspaper or magazine article about one subject, rather than straight news.
+Feature has 3 distinct senses.
+
+**1. A long newspaper or magazine article about one subject, rather than straight news.** (очерк, большая тематическая статья)
 
 1. She's writing a *feature* on the housing shortage.
 2. The Sunday *feature* runs about five thousand words.
 3. He does mostly *features* now, not daily reporting.
+
+**2. Something a product can do, offered as part of it.** (функция, возможность)
+
+4. The best *feature* is the offline mode.
+5. They added three new *features* in this release.
+6. That *feature* is only in the paid plan.
+
+**3. A part of the face, such as the eyes, nose, or mouth.** (черта (лица); особенность)
+
+7. She has delicate *features*.
+8. His strongest *feature* is his jaw.
+9. The twins share the same *features*.
 
 ---
 
@@ -1682,31 +1810,47 @@ A company or person that sends out radio or television programs.
 ### television
 
 **Pronunciation:** /ˈtɛləvɪʒən/ &middot; *TEL-uh-vizh-uhn*
-**Русский:** телевидение; телевизор
+**Русский:** телевидение; телевизор; телевизор; телевидение
 **Plural:** *televisions*
 **Countability:** both — countable and uncountable with different meanings
 
-The system of sending pictures and sound to homes, or the set that shows them.
+Television has 2 distinct senses.
+
+**1. The system of sending pictures and sound to homes, or the set that shows them.** (телевидение; телевизор)
 
 1. He works in *television*.
 2. There's a *television* in every room of the hotel.
 3. I saw it on *television* last night.
+
+**2. The set you watch programs on, or the medium of broadcasting itself.** (телевизор; телевидение)
+
+4. They bought a bigger *television* for the basement.
+5. The store had forty *televisions* on the wall.
+6. He works in *television*.
 
 ---
 
 ### program
 
 **Pronunciation:** /ˈproʊɡræm/ &middot; *PROH-gram*
-**Русский:** передача, программа
+**Русский:** передача, программа; программа
 **Plural:** *programs*
 **Countability:** countable
 **Contrast:** American spelling *program*; the British write *programme* for a broadcast.
 
-A single show on radio or television.
+Program has 2 distinct senses.
+
+**1. A single show on radio or television.** (передача, программа)
 
 1. It's my favorite *program* on the radio.
 2. The *program* airs Sunday nights.
 3. They canceled two *programs* this season.
+
+**2. A set of instructions that tells a computer what to do.** (программа)
+
+4. He wrote a small *program* to sort the files.
+5. Some of these *programs* won't run on my old laptop.
+6. The *program* crashed as soon as I opened it.
 
 ---
 
@@ -1758,16 +1902,24 @@ A short advertisement shown between parts of a TV or radio program.
 ### advertisement
 
 **Pronunciation:** /ˌædvərˈtaɪzmənt/ &middot; *ad-vur-TYZ-muhnt*
-**Русский:** рекламное объявление
+**Русский:** рекламное объявление; реклама, объявление
 **Plural:** *advertisements*
 **Countability:** countable
 **Contrast:** American ad-vur-TYZ-muhnt; the British say uhd-VUR-tis-muhnt.
 
-A notice or short film that tries to sell something or attract attention.
+Advertisement has 2 distinct senses.
+
+**1. A notice or short film that tries to sell something or attract attention.** (рекламное объявление)
 
 1. There's a full-page *advertisement* on the back.
 2. The magazine is mostly *advertisements* now.
 3. They pulled the *advertisement* after complaints.
+
+**2. A public notice paid for to sell something or to spread information.** (реклама, объявление)
+
+4. They ran an *advertisement* in the Sunday paper.
+5. The site is buried in *advertisements*.
+6. That *advertisement* has been on the radio for months.
 
 ---
 
@@ -1779,11 +1931,19 @@ A notice or short film that tries to sell something or attract attention.
 **Countability:** countable
 **Contrast:** Sounds exactly like *add*.
 
-A short everyday word for an advertisement.
+Ad has 2 distinct senses.
+
+**1. A short everyday word for an advertisement.** (реклама, объявление)
 
 1. I skipped the *ad* after five seconds.
 2. They put an *ad* in the paper for a dishwasher.
 3. The site is covered in *ads*.
+
+**2. A short form of advertisement, used constantly in speech.** (реклама, объявление)
+
+4. I paid extra to skip the *ads*.
+5. She found the apartment through a classified *ad*.
+6. That *ad* plays before every single video.
 
 ---
 
@@ -1895,31 +2055,47 @@ The person who asks the questions in an interview.
 ### segment
 
 **Pronunciation:** /ˈsɛɡmənt/ &middot; *SEG-muhnt*
-**Русский:** сюжет, рубрика (в передаче)
+**Русский:** сюжет, рубрика (в передаче); отрезок, сегмент
 **Plural:** *segments*
 **Countability:** countable
 **Contrast:** Noun SEG-muhnt with the stress up front; the verb is seg-MENT.
 
-One separate part of a television or radio program.
+Segment has 2 distinct senses.
+
+**1. One separate part of a television or radio program.** (сюжет, рубрика (в передаче))
 
 1. They cut my *segment* for time.
 2. The cooking *segment* airs after the weather.
 3. The show is built out of six short *segments*.
+
+**2. One of the parts something is divided into.** (отрезок, сегмент)
+
+4. Draw a straight line *segment* between the two points.
+5. Peel the orange and separate the *segments*.
+6. Each *segment* of the chart is a different color.
 
 ---
 
 ### script
 
 **Pronunciation:** /skrɪpt/ &middot; *SKRIPT*
-**Русский:** сценарий, текст (передачи)
+**Русский:** сценарий, текст (передачи); скрипт, сценарий
 **Plural:** *scripts*
 **Countability:** countable
 
-The written words of a film, play, or broadcast.
+Script has 2 distinct senses.
+
+**1. The written words of a film, play, or broadcast.** (сценарий, текст (передачи))
 
 1. The anchor read straight from the *script*.
 2. She's on the fourth draft of the *script*.
 3. They send out *scripts* a week before taping.
+
+**2. A short program that automates a task.** (скрипт, сценарий)
+
+4. I wrote a *script* to rename all the files.
+5. These *scripts* run every night at two.
+6. The backup *script* failed silently.
 
 ---
 
@@ -1971,15 +2147,23 @@ A voice heard over a film or commercial without the speaker being seen.
 ### soundtrack
 
 **Pronunciation:** /ˈsaʊndtræk/ &middot; *SOWND-trak*
-**Русский:** саундтрек, звуковая дорожка
+**Русский:** саундтрек, звуковая дорожка; саундтрек, музыка к фильму
 **Plural:** *soundtracks*
 **Countability:** countable
 
-The music used in a film or show, often sold as an album.
+Soundtrack has 2 distinct senses.
+
+**1. The music used in a film or show, often sold as an album.** (саундтрек, звуковая дорожка)
 
 1. The *soundtrack* is better than the movie.
 2. She bought the *soundtrack* on vinyl.
 3. Both *soundtracks* were nominated.
+
+**2. The music that goes with a film or a game.** (саундтрек, музыка к фильму)
+
+4. The *soundtrack* is better than the movie.
+5. He composed the *soundtrack* in two weeks.
+6. She owns the *soundtracks* to all of them.
 
 ---
 
@@ -2031,14 +2215,22 @@ A television program shown again after its first broadcast.
 ### streaming
 
 **Pronunciation:** /ˈstriːmɪŋ/ &middot; *STREE-ming*
-**Русский:** стриминг, потоковое вещание
+**Русский:** стриминг, потоковое вещание; потоковое вещание
 **Countability:** uncountable
 
-Watching or listening to something over the internet as it arrives, without downloading it.
+Streaming has 2 distinct senses.
+
+**1. Watching or listening to something over the internet as it arrives, without downloading it.** (стриминг, потоковое вещание)
 
 1. *Streaming* killed the video store.
 2. The show does well in *streaming*.
 3. Our *streaming* keeps buffering tonight.
+
+**2. Playing video or music straight from the internet instead of downloading it.** (потоковое вещание)
+
+4. *Streaming* has pretty much replaced cable.
+5. The *streaming* kept stopping to buffer.
+6. We spend more on *streaming* than we ever did on movies.
 
 ---
 
@@ -2154,8 +2346,16 @@ A person watching a television program or video.
 **Countability:** countable
 **Contrast:** The t is silent, as in *listen*: LIS-uh-nur.
 
-A person listening to a radio station or podcast.
+Listener has 2 distinct senses.
+
+**1. A person listening to a radio station or podcast.** (слушатель)
 
 1. The station has 200,000 weekly *listeners*.
 2. A *listener* wrote in with the answer.
 3. He thanked his *listeners* on the last show.
+
+**2. Someone who listens to a program, podcast, or person.** (слушатель)
+
+4. The show has about a million *listeners*.
+5. A *listener* called in with the answer.
+6. He's a good *listener*, which is rare.

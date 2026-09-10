@@ -276,13 +276,42 @@
       "term": "water filter",
       "ipa": "/ˈwɔːtər ˌfɪltər/",
       "respell": "WAW-tur-fil-tur",
-      "meaning": "A device that makes stream or lake water safe to drink. ---",
+      "meaning": "Water filter has 2 distinct senses.",
       "examples": [
         "Run it through the water filter first.",
         "Backpacking water filters have gotten a lot lighter.",
-        "The water filter clogged up with silt."
+        "The water filter clogged up with silt.",
+        "The water filter on the fridge needs changing.",
+        "A water filter under the sink handles the whole kitchen.",
+        "Water filters for that model are hard to find."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that makes stream or lake water safe to drink",
+          "body": [
+            "(фильтр для воды)"
+          ],
+          "examples": [
+            "Run it through the water filter first.",
+            "Backpacking water filters have gotten a lot lighter.",
+            "The water filter clogged up with silt."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that removes dirt, taste, or chemicals from water",
+          "body": [
+            "(фильтр для воды)",
+            "---"
+          ],
+          "examples": [
+            "The water filter on the fridge needs changing.",
+            "A water filter under the sink handles the whole kitchen.",
+            "Water filters for that model are hard to find."
+          ]
+        }
+      ],
       "русский": "фильтр для воды",
       "plural": "water filters",
       "countability": "countable"
@@ -1125,14 +1154,43 @@
       "term": "switchback",
       "ipa": "/ˈswɪtʃbæk/",
       "respell": "SWICH-bak",
-      "meaning": "A sharp turn in a trail that zigzags up a steep slope. ---",
+      "meaning": "Switchback has 2 distinct senses.",
       "examples": [
         "There's a bench at the last switchback.",
         "We counted forty switchbacks on the way up.",
-        "Don't cut the corner on a switchback — it wrecks the trail."
+        "Don't cut the corner on a switchback — it wrecks the trail.",
+        "The road up the canyon is one switchback after another.",
+        "Count six switchbacks and you're at the top.",
+        "Take the switchback slowly in a big truck."
       ],
-      "senses": [],
-      "русский": "серпантин, зигзаг тропы",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sharp turn in a trail that zigzags up a steep slope",
+          "body": [
+            "(серпантин, зигзаг тропы)"
+          ],
+          "examples": [
+            "There's a bench at the last switchback.",
+            "We counted forty switchbacks on the way up.",
+            "Don't cut the corner on a switchback — it wrecks the trail."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sharp bend that reverses direction on a road climbing a hill",
+          "body": [
+            "(серпантин, крутой поворот на подъёме)",
+            "---"
+          ],
+          "examples": [
+            "The road up the canyon is one switchback after another.",
+            "Count six switchbacks and you're at the top.",
+            "Take the switchback slowly in a big truck."
+          ]
+        }
+      ],
+      "русский": "серпантин, зигзаг тропы; серпантин, крутой поворот на подъёме",
       "plural": "switchbacks",
       "countability": "countable"
     },
@@ -1303,14 +1361,43 @@
       "term": "stepping stone",
       "ipa": "/ˈstɛpɪŋ stoʊn/",
       "respell": "STEP-ing-stohn",
-      "meaning": "A raised stone you step on to cross shallow water or mud. ---",
+      "meaning": "Stepping stone has 2 distinct senses.",
       "examples": [
         "One stepping stone was slick with moss.",
         "We hopped across on the stepping stones.",
-        "She missed the last stepping stone and soaked one boot."
+        "She missed the last stepping stone and soaked one boot.",
+        "One stepping stone has sunk about two inches.",
+        "The stepping stones lead from the gate to the porch.",
+        "Set each stepping stone on a bed of sand."
       ],
-      "senses": [],
-      "русский": "камень для перехода (через ручей)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A raised stone you step on to cross shallow water or mud",
+          "body": [
+            "(камень для перехода (через ручей))"
+          ],
+          "examples": [
+            "One stepping stone was slick with moss.",
+            "We hopped across on the stepping stones.",
+            "She missed the last stepping stone and soaked one boot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A flat stone set in the ground to walk on",
+          "body": [
+            "(плита садовой дорожки)",
+            "---"
+          ],
+          "examples": [
+            "One stepping stone has sunk about two inches.",
+            "The stepping stones lead from the gate to the porch.",
+            "Set each stepping stone on a bed of sand."
+          ]
+        }
+      ],
+      "русский": "камень для перехода (через ручей); плита садовой дорожки",
       "plural": "stepping stones",
       "countability": "countable"
     },

@@ -57,15 +57,23 @@ A low table placed in front of a sofa.
 ### desk
 
 **Pronunciation:** /dɛsk/ &middot; *DESK*
-**Русский:** письменный стол; парта
+**Русский:** письменный стол; парта; письменный стол
 **Plural:** *desks*
 **Countability:** countable
 
-A table for writing, reading, or working at a computer.
+Desk has 2 distinct senses.
+
+**1. A table for writing, reading, or working at a computer.** (письменный стол; парта)
 
 1. My *desk* is buried under paperwork.
 2. The classroom had thirty *desks* in neat rows.
 3. She keeps a photo of her kids on her *desk*.
+
+**2. A table you sit at to write or work.** (письменный стол)
+
+4. My laptop's on the *desk*.
+5. He cleared off his *desk* before vacation.
+6. The kids have matching *desks* in their room.
 
 ---
 
@@ -76,26 +84,42 @@ A table for writing, reading, or working at a computer.
 **Plural:** *sofas*
 **Countability:** countable
 
-A long padded seat for two or more people.
+Sofa has 2 distinct senses.
+
+**1. A long padded seat for two or more people.** (диван)
 
 1. The cat sheds all over the *sofa*.
 2. They're looking at *sofas* for the new apartment.
 3. He fell asleep on the *sofa* watching the game.
+
+**2. A long upholstered seat with a back and arms.** (диван)
+
+4. The *sofa* barely fit through the door.
+5. She curled up on the *sofa* with a book.
+6. They ordered a sectional *sofa* online.
 
 ---
 
 ### couch
 
 **Pronunciation:** /kaʊtʃ/ &middot; *KOWCH*
-**Русский:** диван, кушетка
+**Русский:** диван, кушетка; диван
 **Plural:** *couches*
 **Countability:** countable
 
-A sofa; the usual everyday word for one in American homes.
+Couch has 2 distinct senses.
+
+**1. A sofa; the usual everyday word for one in American homes.** (диван, кушетка)
 
 1. You can crash on the *couch* if it's too late to drive.
 2. We moved both *couches* to get the rug underneath.
 3. There's about four dollars in change under the *couch* cushions.
+
+**2. A long padded seat for two or more people.** (диван)
+
+4. He fell asleep on the *couch* again.
+5. We're finally shopping for a new *couch*.
+6. Both *couches* came with the apartment.
 
 ---
 
@@ -136,11 +160,19 @@ A chair on curved runners that rocks back and forth.
 **Plural:** *stools*
 **Countability:** countable
 
-A backless seat, often tall enough for a counter or bar.
+Stool has 2 distinct senses.
+
+**1. A backless seat, often tall enough for a counter or bar.** (табурет)
 
 1. He sat on a *stool* at the end of the bar.
 2. We bought three *stools* for the kitchen island.
 3. Stand on the *stool* if you can't reach the top shelf.
+
+**2. A seat with no back or arms.** (табурет)
+
+4. He sat on a *stool* at the counter.
+5. We bought two bar *stools* for the kitchen.
+6. That *stool* wobbles a little.
 
 ---
 
@@ -225,6 +257,7 @@ The part of a chair you sit on, or a place to sit.
 **Русский:** диванная подушка
 **Plural:** *cushions*
 **Countability:** countable
+**Contrast:** The u is short, as in *put*: KUUSH-uhn, not KOO-shun.
 
 A soft padded bag used to sit on or lean against.
 
@@ -333,11 +366,19 @@ Two beds built one above the other.
 **Countability:** countable
 **Contrast:** American *crib* is British *cot* — and an American *cot* is something else entirely.
 
-A baby's bed with high barred sides.
+Crib has 2 distinct senses.
+
+**1. A baby's bed with high barred sides.** (детская кроватка)
 
 1. He finally fell asleep in his *crib*.
 2. We're assembling the *crib* this weekend.
 3. Older *cribs* don't meet the current safety rules.
+
+**2. A small bed with high sides for a baby.** (детская кроватка)
+
+4. The baby finally fell asleep in her *crib*.
+5. We put the *crib* together the week before he was born.
+6. He's already climbing out of the *crib*.
 
 ---
 
@@ -426,11 +467,19 @@ A small table next to a bed.
 **Countability:** countable
 **Contrast:** American *dresser* is British *chest of drawers*.
 
-A low chest of drawers for clothes, usually in a bedroom.
+Dresser has 2 distinct senses.
+
+**1. A low chest of drawers for clothes, usually in a bedroom.** (комод)
 
 1. Your socks are in the top drawer of the *dresser*.
 2. We refinished an old *dresser* we found at a thrift store.
 3. Both *dressers* are too big for that room.
+
+**2. A piece of bedroom furniture with drawers for clothes.** (комод)
+
+4. My socks are in the top drawer of the *dresser*.
+5. There's a lamp and a stack of mail on the *dresser*.
+6. We moved both *dressers* into the other bedroom.
 
 ---
 
@@ -592,15 +641,23 @@ A decorative cover laid over a made bed.
 ### bedding
 
 **Pronunciation:** /ˈbɛdɪŋ/ &middot; *BED-ing*
-**Русский:** постельные принадлежности
+**Русский:** постельные принадлежности; постельное бельё
 **Countability:** uncountable
 **Contrast:** Uncountable: *some bedding*, *a lot of bedding* — never *a bedding* or *beddings*.
 
-Sheets, blankets, and pillows taken together.
+Bedding has 2 distinct senses.
+
+**1. Sheets, blankets, and pillows taken together.** (постельные принадлежности)
 
 1. Bring your own *bedding* if you're staying over.
 2. All the *bedding* needs to be washed after the trip.
 3. The camp provides cots but no *bedding*.
+
+**2. The sheets, blankets, and covers used on a bed.** (постельное бельё)
+
+4. The clean *bedding* is in the bottom drawer.
+5. We packed *bedding* and towels for the cabin.
+6. All the *bedding* needs to be washed after the trip.
 
 ---
 
@@ -636,15 +693,23 @@ A piece of furniture with shelves for books.
 ### trunk
 
 **Pronunciation:** /trʌŋk/ &middot; *TRUNGK*
-**Русский:** сундук, дорожный сундук
+**Русский:** сундук, дорожный сундук; ствол (дерева)
 **Plural:** *trunks*
 **Countability:** countable
 
-A large reinforced case or box for storing or carrying belongings.
+Trunk has 2 distinct senses.
+
+**1. A large reinforced case or box for storing or carrying belongings.** (сундук, дорожный сундук)
 
 1. Her old costumes are in a *trunk* in the basement.
 2. The attic was full of dusty *trunks*.
 3. He sat on the *trunk* to get the lid to close.
+
+**2. The thick main stem of a tree.** (ствол (дерева))
+
+4. Somebody carved their initials into the *trunk*.
+5. The *trunks* were too wide to get my arms around.
+6. Lightning split the *trunk* right down the middle.
 
 ---
 
@@ -700,11 +765,19 @@ Shelves considered together, or the material they are made from.
 **Plural:** *baskets*
 **Countability:** countable
 
-A container woven from cane, wire, or plastic strips.
+Basket has 2 distinct senses.
+
+**1. A container woven from cane, wire, or plastic strips.** (корзина)
 
 1. Toss the mail in the *basket* by the door.
 2. She lines the *baskets* with cloth napkins.
 3. There's a wicker *basket* under the bench for hats and gloves.
+
+**2. A container woven from strips of material, usually with a handle.** (корзина)
+
+4. Put the fruit in the *basket*.
+5. A *basket* of laundry was sitting by the stairs.
+6. The wicker *baskets* were on clearance.
 
 ---
 
@@ -743,16 +816,24 @@ A deep container for storing or sorting things.
 ### hanger
 
 **Pronunciation:** /ˈhæŋər/ &middot; *HANG-ur*
-**Русский:** вешалка-плечики
+**Русский:** вешалка-плечики; вешалка (плечики)
 **Plural:** *hangers*
 **Countability:** countable
 **Contrast:** No /ɡ/ sound: it rhymes with *banger*, not with *finger*.
 
-A shaped frame with a hook that a garment hangs from.
+Hanger has 2 distinct senses.
+
+**1. A shaped frame with a hook that a garment hangs from.** (вешалка-плечики)
 
 1. There aren't enough *hangers* in this closet.
 2. Put your jacket on a *hanger* so it doesn't wrinkle.
 3. The dry cleaner gave everything back on wire *hangers*.
+
+**2. A shaped piece of wire, wood, or plastic for hanging up clothes.** (вешалка (плечики))
+
+4. Do you have a spare *hanger*?
+5. Every *hanger* in the closet is plastic.
+6. She hung the shirt on a wooden *hanger*.
 
 ---
 
@@ -870,11 +951,19 @@ A small mat set under each person's plate at the table.
 **Countability:** countable
 **Contrast:** Two syllables, rhyming with *vowel*; keep it distinct from *tower*, which ends in an r sound.
 
-A piece of absorbent cloth for drying yourself or something else.
+Towel has 2 distinct senses.
+
+**1. A piece of absorbent cloth for drying yourself or something else.** (полотенце)
 
 1. There's a clean *towel* in the bathroom for you.
 2. The beach *towels* are still in the car.
 3. He dried his hands on a dish *towel*.
+
+**2. A cloth used for drying your body or hands.** (полотенце)
+
+4. Grab a clean *towel* from the closet.
+5. The *towel* is still damp from this morning.
+6. We only packed two *towels* for four people.
 
 ---
 
@@ -885,11 +974,19 @@ A piece of absorbent cloth for drying yourself or something else.
 **Plural:** *fabrics*
 **Countability:** countable, and uncountable as a substance
 
-Cloth made by weaving or knitting.
+Fabric has 2 distinct senses.
+
+**1. Cloth made by weaving or knitting.** (ткань, материя)
 
 1. We picked a heavy *fabric* for the curtains.
 2. The store carries upholstery *fabrics* by the yard.
 3. That *fabric* wrinkles if you look at it wrong.
+
+**2. Cloth used for making clothes and other things.** (ткань, материя)
+
+4. This *fabric* wrinkles if you look at it wrong.
+5. The store sells *fabrics* by the yard.
+6. Pick a *fabric* that breathes in the heat.
 
 ---
 
@@ -973,15 +1070,23 @@ A large branched light fixture that hangs from the ceiling.
 ### bulb
 
 **Pronunciation:** /bʌlb/ &middot; *BULB*
-**Русский:** лампочка
+**Русский:** лампочка; луковица (растения)
 **Plural:** *bulbs*
 **Countability:** countable
 
-The glass part of a lamp that produces light.
+Bulb has 2 distinct senses.
+
+**1. The glass part of a lamp that produces light.** (лампочка)
 
 1. The *bulb* in the hallway burned out.
 2. We switched all the *bulbs* over to LEDs.
 3. Get a sixty-watt *bulb* while you're at the store.
+
+**2. A round underground part of some plants that grows into a new plant.** (луковица (растения))
+
+4. Plant the tulip *bulbs* in October.
+5. Squirrels dug up every *bulb* I put in.
+6. Each *bulb* goes about six inches down.
 
 ---
 
@@ -1101,11 +1206,19 @@ A device that shows the time, standing on a surface or hung on a wall.
 **Plural:** *candles*
 **Countability:** countable
 
-A stick of wax with a wick, burned for light or scent.
+Candle has 2 distinct senses.
+
+**1. A stick of wax with a wick, burned for light or scent.** (свеча)
 
 1. Light a *candle* — the power's out.
 2. She burns scented *candles* in the bathroom.
 3. The *candle* dripped wax all over the tablecloth.
+
+**2. A stick of wax with a wick that burns to give light.** (свеча)
+
+4. She lit a *candle* during the power outage.
+5. That *candle* smells like vanilla.
+6. There were eight *candles* on the cake.
 
 ---
 
@@ -1204,16 +1317,24 @@ The furniture, curtains, and fittings that make up a room.
 ### knob
 
 **Pronunciation:** /nɑːb/ &middot; *NAHB*
-**Русский:** круглая ручка
+**Русский:** круглая ручка; ручка (круглая), рукоятка
 **Plural:** *knobs*
 **Countability:** countable
 **Contrast:** The *k* is silent, as in *knife* and *knee*: NAHB.
 
-A round handle you turn or pull.
+Knob has 2 distinct senses.
+
+**1. A round handle you turn or pull.** (круглая ручка)
 
 1. The *knob* on the oven is missing.
 2. New cabinet *knobs* can change the whole look of a kitchen.
 3. He turned the *knob* slowly so it wouldn't creak.
+
+**2. A rounded handle you grip and turn.** (ручка (круглая), рукоятка)
+
+4. The door *knob* came off in my hand.
+5. Turn the *knob* all the way to the right.
+6. The cabinet *knobs* are brass.
 
 ---
 
@@ -1265,15 +1386,23 @@ The metal fittings of furniture and buildings — handles, hinges, screws, and l
 ### rod
 
 **Pronunciation:** /rɑːd/ &middot; *RAHD*
-**Русский:** штанга; карниз для штор
+**Русский:** штанга; карниз для штор; стержень, прут
 **Plural:** *rods*
 **Countability:** countable
 
-A long thin bar, especially the one a curtain hangs from.
+Rod has 2 distinct senses.
+
+**1. A long thin bar, especially the one a curtain hangs from.** (штанга; карниз для штор)
 
 1. The curtain *rod* pulled right out of the drywall.
 2. We need a longer *rod* for that window.
 3. Both closet *rods* are sagging under all those clothes.
+
+**2. A straight slender bar of metal or wood.** (стержень, прут)
+
+4. A threaded *rod* holds the two halves together.
+5. The *rod* bent under the weight.
+6. Cut the *rods* to length before you install them.
 
 ---
 

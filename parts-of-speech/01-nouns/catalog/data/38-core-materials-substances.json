@@ -123,14 +123,43 @@
       "term": "nickel",
       "ipa": "/ˈnɪkəl/",
       "respell": "NIK-uhl",
-      "meaning": "A hard silvery metal, and also the American five-cent coin. ---",
+      "meaning": "Nickel has 2 distinct senses.",
       "examples": [
         "The faucet is plated in nickel.",
         "I found two nickels under the car seat.",
-        "Some people get a rash from the nickel in cheap earrings."
+        "Some people get a rash from the nickel in cheap earrings.",
+        "The gumball machine takes nickels.",
+        "He handed me a nickel and two dimes.",
+        "I found a nickel under the couch cushion."
       ],
-      "senses": [],
-      "русский": "никель; монета в 5 центов",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hard silvery metal, and also the American five-cent coin",
+          "body": [
+            "(никель; монета в 5 центов)"
+          ],
+          "examples": [
+            "The faucet is plated in nickel.",
+            "I found two nickels under the car seat.",
+            "Some people get a rash from the nickel in cheap earrings."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An American coin worth five cents",
+          "body": [
+            "(монета в 5 центов)",
+            "---"
+          ],
+          "examples": [
+            "The gumball machine takes nickels.",
+            "He handed me a nickel and two dimes.",
+            "I found a nickel under the couch cushion."
+          ]
+        }
+      ],
+      "русский": "никель; монета в 5 центов; монета в 5 центов",
       "plural": "nickels",
       "countability": "both — countable and uncountable with different meanings",
       "contrast": "Uncountable as the metal (plated in nickel), countable as the coin (two nickels)."
@@ -225,14 +254,43 @@
       "term": "maple",
       "ipa": "/ˈmeɪpəl/",
       "respell": "MAY-puhl",
-      "meaning": "A shade tree known for its syrup and its hard, pale wood. ---",
+      "meaning": "Maple has 2 distinct senses.",
       "examples": [
         "The cutting board is maple.",
         "The maples turn bright red in October.",
-        "Maple is harder than pine, so it doesn't dent as easily."
+        "Maple is harder than pine, so it doesn't dent as easily.",
+        "The maple out front is the last tree to turn.",
+        "They tap the maples in late February.",
+        "A maple seed spins like a helicopter as it falls."
       ],
-      "senses": [],
-      "русский": "клён (дерево и древесина)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shade tree known for its syrup and its hard, pale wood",
+          "body": [
+            "(клён (дерево и древесина))"
+          ],
+          "examples": [
+            "The cutting board is maple.",
+            "The maples turn bright red in October.",
+            "Maple is harder than pine, so it doesn't dent as easily."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tree with broad leaves that turn red or orange in fall and with sweet sap",
+          "body": [
+            "(клён)",
+            "---"
+          ],
+          "examples": [
+            "The maple out front is the last tree to turn.",
+            "They tap the maples in late February.",
+            "A maple seed spins like a helicopter as it falls."
+          ]
+        }
+      ],
+      "русский": "клён (дерево и древесина); клён",
       "plural": "maples",
       "countability": "countable, and uncountable as a substance"
     },
@@ -534,14 +592,43 @@
       "term": "stone",
       "ipa": "/stoʊn/",
       "respell": "STOHN",
-      "meaning": "Hard mineral material from the ground, or a piece of it. ---",
+      "meaning": "Stone has 2 distinct senses.",
       "examples": [
         "The old church is built of stone.",
         "He skipped stones across the pond.",
-        "There's a stone wall along the property line."
+        "There's a stone wall along the property line.",
+        "He picked up a smooth stone and put it in his pocket.",
+        "The wall is built of stones with no mortar at all.",
+        "The old church is made of gray stone."
       ],
-      "senses": [],
-      "русский": "камень (материал и кусок)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Hard mineral material from the ground, or a piece of it",
+          "body": [
+            "(камень (материал и кусок))"
+          ],
+          "examples": [
+            "The old church is built of stone.",
+            "He skipped stones across the pond.",
+            "There's a stone wall along the property line."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small piece of rock, or rock used as a building material",
+          "body": [
+            "(камень)",
+            "---"
+          ],
+          "examples": [
+            "He picked up a smooth stone and put it in his pocket.",
+            "The wall is built of stones with no mortar at all.",
+            "The old church is made of gray stone."
+          ]
+        }
+      ],
+      "русский": "камень (материал и кусок); камень",
       "plural": "stones",
       "countability": "countable, and uncountable as a substance"
     },

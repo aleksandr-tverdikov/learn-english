@@ -315,14 +315,22 @@ The solid surface of the earth that you walk on.
 ### earth
 
 **Pronunciation:** /ɜːrθ/ &middot; *URTH*
-**Русский:** земля, почва
+**Русский:** земля, почва; Земля (планета)
 **Countability:** uncountable
 
-Soil or ground, the material that plants grow in.
+Earth has 2 distinct senses.
+
+**1. Soil or ground, the material that plants grow in.** (земля, почва)
 
 1. He dug a hole and packed the *earth* back down.
 2. The smell of damp *earth* filled the air after the rain.
 3. They covered the seeds with a thin layer of *earth*.
+
+**2. The planet we live on.** (Земля (планета))
+
+4. The *earth* takes a year to go around the sun.
+5. From orbit you can actually see the curve of the *earth*.
+6. It's the only place on *earth* where those birds nest.
 
 ---
 
@@ -529,6 +537,7 @@ A field covered in grass and wildflowers.
 **Русский:** пастбище
 **Plural:** *pastures*
 **Countability:** countable
+**Contrast:** The -ture ending is said -chur: PAS-chur.
 
 A field of grass where farm animals feed.
 
@@ -646,16 +655,24 @@ A small group of trees growing together, often planted for fruit.
 ### bush
 
 **Pronunciation:** /bʊʃ/ &middot; *BUUSH*
-**Русский:** куст, кустарник
+**Русский:** куст, кустарник; куст
 **Plural:** *bushes*
 **Countability:** countable
 **Contrast:** The vowel is /ʊ/ as in *put*, not /ʌ/ as in *but*.
 
-A woody plant smaller than a tree, with branches close to the ground.
+Bush has 2 distinct senses.
+
+**1. A woody plant smaller than a tree, with branches close to the ground.** (куст, кустарник)
 
 1. A rabbit darted under the *bush*.
 2. The *bushes* along the fence need trimming.
 3. Berries grow on low *bushes* all through these woods.
+
+**2. A low thick plant with many branches.** (куст)
+
+4. A rabbit ran under the *bush*.
+5. The blueberry *bushes* are loaded this year.
+6. He cut the *bushes* back to the fence line.
 
 ---
 
@@ -1088,16 +1105,24 @@ An area of sand or small stones next to the sea or a lake.
 ### bank
 
 **Pronunciation:** /bæŋk/ &middot; *BANGK*
-**Русский:** берег (реки)
+**Русский:** берег (реки); банк
 **Plural:** *banks*
 **Countability:** countable
 **Contrast:** Identical to *bank* (банк) — only the context tells you which one is meant.
 
-The land along the side of a river or lake.
+Bank has 2 distinct senses.
+
+**1. The land along the side of a river or lake.** (берег (реки))
 
 1. Willows grow all along the *bank*.
 2. The river rose over its *banks* overnight.
 3. We fished from the far *bank*.
+
+**2. A business that keeps people's money and lends it out.** (банк)
+
+4. The *bank* closes at five.
+5. Most *banks* charge a fee for that.
+6. She works at a *bank* downtown.
 
 ---
 
@@ -1649,15 +1674,23 @@ The space above the earth that you see when you look up.
 ### sunrise
 
 **Pronunciation:** /ˈsʌnraɪz/ &middot; *SUN-ryz*
-**Русский:** восход солнца, рассвет
+**Русский:** восход солнца, рассвет; восход солнца
 **Plural:** *sunrises*
 **Countability:** countable
 
-The time in the morning when the sun appears above the horizon.
+Sunrise has 2 distinct senses.
+
+**1. The time in the morning when the sun appears above the horizon.** (восход солнца, рассвет)
 
 1. We were on the road before *sunrise*.
 2. The *sunrise* over the lake was worth getting up for.
 3. In midsummer *sunrise* comes just after four.
+
+**2. The moment the sun appears above the horizon in the morning.** (восход солнца)
+
+4. We were on the road before *sunrise*.
+5. That was the best *sunrise* I've seen all summer.
+6. The park opens at *sunrise* and closes at dark.
 
 ---
 

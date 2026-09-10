@@ -70,14 +70,23 @@ The meat of a deer.
 ### poultry
 
 **Pronunciation:** /ˈpoʊltri/ &middot; *POHL-tree*
-**Русский:** домашняя птица (как мясо)
+**Русский:** домашняя птица (как мясо); домашняя птица (мясо и живность)
 **Countability:** uncountable
+**Contrast:** Uncountable: poultry is, never a poultry or poultries.
 
-Chicken, turkey, duck and other farm birds raised for meat or eggs.
+Poultry has 2 distinct senses.
+
+**1. Chicken, turkey, duck and other farm birds raised for meat or eggs.** (домашняя птица (как мясо))
 
 1. Wash your hands after handling raw *poultry*.
 2. The *poultry* section is at the back of the store.
 3. Prices for *poultry* stayed flat all year.
+
+**2. Birds such as chickens and turkeys kept for eggs and meat, or their meat.** (домашняя птица (мясо и живность))
+
+4. The farm sells *poultry* and eggs at the market.
+5. *Poultry* is cheaper than beef right now.
+6. He does not eat red meat, only fish and *poultry*.
 
 ---
 
@@ -370,30 +379,47 @@ A boneless piece of meat or fish.
 ### drumstick
 
 **Pronunciation:** /ˈdrʌmstɪk/ &middot; *DRUM-stik*
-**Русский:** куриная голень (ножка)
+**Русский:** куриная голень (ножка); куриная ножка, голень
 **Plural:** *drumsticks*
 **Countability:** countable
+**Contrast:** The same word also means the stick you hit a drum with.
 
-The lower leg of a chicken or turkey, eaten as food.
+Drumstick has 2 distinct senses.
+
+**1. The lower leg of a chicken or turkey, eaten as food.** (куриная голень (ножка))
 
 1. The kids always fight over the *drumsticks*.
 2. He grabbed a *drumstick* off the platter.
 3. *Drumsticks* are the cheapest part of the bird.
+
+**2. The lower part of a cooked bird's leg.** (куриная ножка, голень)
+
+4. He ate three *drumsticks* and half the mashed potatoes.
+5. The *drumstick* is the lower part of the leg.
+6. Kids always go for the *drumsticks* first.
 
 ---
 
 ### wing
 
 **Pronunciation:** /wɪŋ/ &middot; *WING*
-**Русский:** крылышко (куриное)
+**Русский:** крылышко (куриное); крыло
 **Plural:** *wings*
 **Countability:** countable
 
-The arm of a bird, eaten as food, usually fried or grilled with sauce.
+Wing has 2 distinct senses.
+
+**1. The arm of a bird, eaten as food, usually fried or grilled with sauce.** (крылышко (куриное))
 
 1. We ordered twenty *wings* for the game.
 2. This *wing* is barely cooked.
 3. Their buffalo *wings* are the best in town.
+
+**2. One of the two limbs a bird uses to fly.** (крыло)
+
+4. The bird broke a *wing* hitting the window.
+5. It spread its *wings* and took off.
+6. One *wing* was still bandaged when we let it go.
 
 ---
 
@@ -592,30 +618,46 @@ A fresh German-style pork sausage, usually grilled.
 ### duck
 
 **Pronunciation:** /dʌk/ &middot; *DUK*
-**Русский:** утка (мясо утки)
+**Русский:** утка (мясо утки); утка
 **Plural:** *ducks*
 **Countability:** countable, and uncountable as food
 
-A water bird eaten as food, or its rich dark meat.
+Duck has 2 distinct senses.
+
+**1. A water bird eaten as food, or its rich dark meat.** (утка (мясо утки))
 
 1. The roast *duck* was the best thing on the table.
 2. *Duck* has a lot more fat than chicken.
 3. They ordered two *ducks* for the party.
+
+**2. A water bird with webbed feet and a flat bill.** (утка)
+
+4. A *duck* and six ducklings crossed the road in front of us.
+5. We fed the *ducks* at the pond, though the sign says not to.
+6. He ordered roast *duck* with plum sauce.
 
 ---
 
 ### rabbit
 
 **Pronunciation:** /ˈræbɪt/ &middot; *RA-bit*
-**Русский:** кролик, крольчатина
+**Русский:** кролик, крольчатина; кролик
 **Plural:** *rabbits*
 **Countability:** countable, and uncountable as food
 
-A small long-eared animal, or its lean pale meat.
+Rabbit has 2 distinct senses.
+
+**1. A small long-eared animal, or its lean pale meat.** (кролик, крольчатина)
 
 1. *Rabbit* tastes a lot like chicken, honestly.
 2. The stew was made with two *rabbits* and a lot of wine.
 3. You can't buy *rabbit* at most American supermarkets.
+
+**2. A small long-eared animal that hops and digs burrows.** (кролик)
+
+4. A *rabbit* got into the lettuce again.
+5. They keep two *rabbits* in a hutch out back.
+6. *Rabbits* are all over the yard at dusk.
 
 ---
 

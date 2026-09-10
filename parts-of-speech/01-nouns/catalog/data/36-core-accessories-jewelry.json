@@ -113,14 +113,43 @@
       "term": "pouch",
       "ipa": "/paʊtʃ/",
       "respell": "POWCH",
-      "meaning": "A small soft bag that closes at the top. ---",
+      "meaning": "Pouch has 2 distinct senses.",
       "examples": [
         "The camera came with a padded pouch.",
         "She keeps her makeup in a little zip pouch.",
-        "There are two mesh pouches inside the lid."
+        "There are two mesh pouches inside the lid.",
+        "The joey was still in her pouch.",
+        "A kangaroo's pouch opens toward the front.",
+        "Pouches keep the young warm until they can walk."
       ],
-      "senses": [],
-      "русский": "мешочек, футляр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small soft bag that closes at the top",
+          "body": [
+            "(мешочек, футляр)"
+          ],
+          "examples": [
+            "The camera came with a padded pouch.",
+            "She keeps her makeup in a little zip pouch.",
+            "There are two mesh pouches inside the lid."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pocket of skin in which a marsupial carries its young",
+          "body": [
+            "(сумка (у сумчатых))",
+            "---"
+          ],
+          "examples": [
+            "The joey was still in her pouch.",
+            "A kangaroo's pouch opens toward the front.",
+            "Pouches keep the young warm until they can walk."
+          ]
+        }
+      ],
+      "русский": "мешочек, футляр; сумка (у сумчатых)",
       "plural": "pouches",
       "countability": "countable"
     },
@@ -327,14 +356,43 @@
       "term": "gem",
       "ipa": "/dʒɛm/",
       "respell": "JEM",
-      "meaning": "A cut and polished stone used in jewelry. ---",
+      "meaning": "Gem has 2 distinct senses.",
       "examples": [
         "The ring has a small green gem in the center.",
         "He collects rough gems and cuts them himself.",
-        "That gem is almost certainly glass."
+        "That gem is almost certainly glass.",
+        "The crown is set with gems.",
+        "He collects rough gems and cuts them himself.",
+        "That green gem is an emerald."
       ],
-      "senses": [],
-      "русский": "драгоценный камень, самоцвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A cut and polished stone used in jewelry",
+          "body": [
+            "(драгоценный камень, самоцвет)"
+          ],
+          "examples": [
+            "The ring has a small green gem in the center.",
+            "He collects rough gems and cuts them himself.",
+            "That gem is almost certainly glass."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A precious stone that has been cut and polished",
+          "body": [
+            "(драгоценный камень)",
+            "---"
+          ],
+          "examples": [
+            "The crown is set with gems.",
+            "He collects rough gems and cuts them himself.",
+            "That green gem is an emerald."
+          ]
+        }
+      ],
+      "русский": "драгоценный камень, самоцвет; драгоценный камень",
       "plural": "gems",
       "countability": "countable"
     },
@@ -358,16 +416,46 @@
       "term": "diamond",
       "ipa": "/ˈdaɪəmənd/",
       "respell": "DY-uh-muhnd",
-      "meaning": "A very hard, clear precious stone. ---",
+      "meaning": "Diamond has 2 distinct senses.",
       "examples": [
         "The diamond on her ring is tiny but it's real.",
         "He can't tell diamonds from cubic zirconia.",
-        "They set a single diamond in a plain gold band."
+        "They set a single diamond in a plain gold band.",
+        "The ring has a small diamond.",
+        "Diamonds will cut through almost anything.",
+        "She lost a diamond out of her earring."
       ],
-      "senses": [],
-      "русский": "бриллиант, алмаз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A very hard, clear precious stone",
+          "body": [
+            "(бриллиант, алмаз)"
+          ],
+          "examples": [
+            "The diamond on her ring is tiny but it's real.",
+            "He can't tell diamonds from cubic zirconia.",
+            "They set a single diamond in a plain gold band."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hardest known mineral, a clear precious stone used in jewelry",
+          "body": [
+            "(алмаз, бриллиант)",
+            "---"
+          ],
+          "examples": [
+            "The ring has a small diamond.",
+            "Diamonds will cut through almost anything.",
+            "She lost a diamond out of her earring."
+          ]
+        }
+      ],
+      "русский": "бриллиант, алмаз; алмаз, бриллиант",
       "plural": "diamonds",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Most Americans say it in two syllables, DY-muhnd, though the fuller DY-uh-muhnd is equally correct."
     },
     {
       "term": "pearl",
@@ -462,13 +550,42 @@
       "term": "platinum",
       "ipa": "/ˈplætənəm/",
       "respell": "PLAT-uh-nuhm",
-      "meaning": "A heavy silver-white metal, more expensive than gold. ---",
+      "meaning": "Platinum has 2 distinct senses.",
       "examples": [
         "Their wedding bands are platinum.",
         "Platinum costs more than gold right now.",
-        "He had the setting made in platinum."
+        "He had the setting made in platinum.",
+        "The wedding band is platinum.",
+        "Platinum costs more than gold most years.",
+        "Catalytic converters contain a little platinum."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heavy silver-white metal, more expensive than gold",
+          "body": [
+            "(платина)"
+          ],
+          "examples": [
+            "Their wedding bands are platinum.",
+            "Platinum costs more than gold right now.",
+            "He had the setting made in platinum."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A very valuable silvery-white metal that does not corrode",
+          "body": [
+            "(платина)",
+            "---"
+          ],
+          "examples": [
+            "The wedding band is platinum.",
+            "Platinum costs more than gold most years.",
+            "Catalytic converters contain a little platinum."
+          ]
+        }
+      ],
       "русский": "платина",
       "countability": "uncountable"
     },
@@ -519,14 +636,58 @@
       "term": "crystal",
       "ipa": "/ˈkrɪstəl/",
       "respell": "KRIS-tuhl",
-      "meaning": "A single piece of a clear mineral, or the fine cut glass used for good glassware. ---",
+      "meaning": "Crystal has 3 distinct senses.",
       "examples": [
         "She hung a crystal in the kitchen window.",
         "The bowl is heavy lead crystal.",
-        "He keeps a few quartz crystals on his desk."
+        "He keeps a few quartz crystals on his desk.",
+        "Sugar forms big crystals if you cook it too long.",
+        "The glasses are lead crystal.",
+        "Frost made crystals all over the window.",
+        "Ice crystals covered the window.",
+        "He found a quartz crystal the size of his thumb.",
+        "Salt dries into fine white crystals."
       ],
-      "senses": [],
-      "русский": "кристалл; хрусталь",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single piece of a clear mineral, or the fine cut glass used for good glassware",
+          "body": [
+            "(кристалл; хрусталь)"
+          ],
+          "examples": [
+            "She hung a crystal in the kitchen window.",
+            "The bowl is heavy lead crystal.",
+            "He keeps a few quartz crystals on his desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A solid with a regular geometric shape, or fine cut glass",
+          "body": [
+            "(кристалл; хрусталь)"
+          ],
+          "examples": [
+            "Sugar forms big crystals if you cook it too long.",
+            "The glasses are lead crystal.",
+            "Frost made crystals all over the window."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A piece of a substance that has formed naturally into a regular shape with flat sides",
+          "body": [
+            "(кристалл)",
+            "---"
+          ],
+          "examples": [
+            "Ice crystals covered the window.",
+            "He found a quartz crystal the size of his thumb.",
+            "Salt dries into fine white crystals."
+          ]
+        }
+      ],
+      "русский": "кристалл; хрусталь; кристалл",
       "plural": "crystals",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -610,14 +771,43 @@
       "term": "stud",
       "ipa": "/stʌd/",
       "respell": "STUD",
-      "meaning": "A small earring that sits flat against the ear, or a metal knob on clothing. ---",
+      "meaning": "Stud has 2 distinct senses.",
       "examples": [
         "She only wears small diamond studs.",
         "One stud fell out of my ear at the gym.",
-        "The jacket has metal studs down both sleeves."
+        "The jacket has metal studs down both sleeves.",
+        "Find a stud before you hang that.",
+        "The screw missed the stud completely.",
+        "The studs are sixteen inches apart."
       ],
-      "senses": [],
-      "русский": "серьга-гвоздик; заклёпка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small earring that sits flat against the ear, or a metal knob on clothing",
+          "body": [
+            "(серьга-гвоздик; заклёпка)"
+          ],
+          "examples": [
+            "She only wears small diamond studs.",
+            "One stud fell out of my ear at the gym.",
+            "The jacket has metal studs down both sleeves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the upright posts inside a wall frame",
+          "body": [
+            "(стойка (каркаса стены))",
+            "---"
+          ],
+          "examples": [
+            "Find a stud before you hang that.",
+            "The screw missed the stud completely.",
+            "The studs are sixteen inches apart."
+          ]
+        }
+      ],
+      "русский": "серьга-гвоздик; заклёпка; стойка (каркаса стены)",
       "plural": "studs",
       "countability": "countable"
     },
@@ -988,14 +1178,43 @@
       "term": "powder",
       "ipa": "/ˈpaʊdər/",
       "respell": "POW-dur",
-      "meaning": "Fine dry cosmetic dust patted onto the skin. ---",
+      "meaning": "Powder has 2 distinct senses.",
       "examples": [
         "She set her makeup with translucent powder.",
         "There's powder all over the bathroom counter.",
-        "He shook baby powder into his shoes."
+        "He shook baby powder into his shoes.",
+        "Grind the pills into a fine powder.",
+        "Stir the powder into a cup of warm water.",
+        "There was a white powder all over the counter."
       ],
-      "senses": [],
-      "русский": "пудра",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Fine dry cosmetic dust patted onto the skin",
+          "body": [
+            "(пудра)"
+          ],
+          "examples": [
+            "She set her makeup with translucent powder.",
+            "There's powder all over the bathroom counter.",
+            "He shook baby powder into his shoes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A substance in the form of very fine dry particles",
+          "body": [
+            "(порошок; пудра)",
+            "---"
+          ],
+          "examples": [
+            "Grind the pills into a fine powder.",
+            "Stir the powder into a cup of warm water.",
+            "There was a white powder all over the counter."
+          ]
+        }
+      ],
+      "русский": "пудра; порошок; пудра",
       "countability": "uncountable"
     },
     {

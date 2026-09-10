@@ -51,14 +51,43 @@
       "term": "desk",
       "ipa": "/dɛsk/",
       "respell": "DESK",
-      "meaning": "A table for writing, reading, or working at a computer. ---",
+      "meaning": "Desk has 2 distinct senses.",
       "examples": [
         "My desk is buried under paperwork.",
         "The classroom had thirty desks in neat rows.",
-        "She keeps a photo of her kids on her desk."
+        "She keeps a photo of her kids on her desk.",
+        "My laptop's on the desk.",
+        "He cleared off his desk before vacation.",
+        "The kids have matching desks in their room."
       ],
-      "senses": [],
-      "русский": "письменный стол; парта",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A table for writing, reading, or working at a computer",
+          "body": [
+            "(письменный стол; парта)"
+          ],
+          "examples": [
+            "My desk is buried under paperwork.",
+            "The classroom had thirty desks in neat rows.",
+            "She keeps a photo of her kids on her desk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A table you sit at to write or work",
+          "body": [
+            "(письменный стол)",
+            "---"
+          ],
+          "examples": [
+            "My laptop's on the desk.",
+            "He cleared off his desk before vacation.",
+            "The kids have matching desks in their room."
+          ]
+        }
+      ],
+      "русский": "письменный стол; парта; письменный стол",
       "plural": "desks",
       "countability": "countable"
     },
@@ -66,13 +95,42 @@
       "term": "sofa",
       "ipa": "/ˈsoʊfə/",
       "respell": "SOH-fuh",
-      "meaning": "A long padded seat for two or more people. ---",
+      "meaning": "Sofa has 2 distinct senses.",
       "examples": [
         "The cat sheds all over the sofa.",
         "They're looking at sofas for the new apartment.",
-        "He fell asleep on the sofa watching the game."
+        "He fell asleep on the sofa watching the game.",
+        "The sofa barely fit through the door.",
+        "She curled up on the sofa with a book.",
+        "They ordered a sectional sofa online."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long padded seat for two or more people",
+          "body": [
+            "(диван)"
+          ],
+          "examples": [
+            "The cat sheds all over the sofa.",
+            "They're looking at sofas for the new apartment.",
+            "He fell asleep on the sofa watching the game."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long upholstered seat with a back and arms",
+          "body": [
+            "(диван)",
+            "---"
+          ],
+          "examples": [
+            "The sofa barely fit through the door.",
+            "She curled up on the sofa with a book.",
+            "They ordered a sectional sofa online."
+          ]
+        }
+      ],
       "русский": "диван",
       "plural": "sofas",
       "countability": "countable"
@@ -81,14 +139,43 @@
       "term": "couch",
       "ipa": "/kaʊtʃ/",
       "respell": "KOWCH",
-      "meaning": "A sofa; the usual everyday word for one in American homes. ---",
+      "meaning": "Couch has 2 distinct senses.",
       "examples": [
         "You can crash on the couch if it's too late to drive.",
         "We moved both couches to get the rug underneath.",
-        "There's about four dollars in change under the couch cushions."
+        "There's about four dollars in change under the couch cushions.",
+        "He fell asleep on the couch again.",
+        "We're finally shopping for a new couch.",
+        "Both couches came with the apartment."
       ],
-      "senses": [],
-      "русский": "диван, кушетка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sofa; the usual everyday word for one in American homes",
+          "body": [
+            "(диван, кушетка)"
+          ],
+          "examples": [
+            "You can crash on the couch if it's too late to drive.",
+            "We moved both couches to get the rug underneath.",
+            "There's about four dollars in change under the couch cushions."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long padded seat for two or more people",
+          "body": [
+            "(диван)",
+            "---"
+          ],
+          "examples": [
+            "He fell asleep on the couch again.",
+            "We're finally shopping for a new couch.",
+            "Both couches came with the apartment."
+          ]
+        }
+      ],
+      "русский": "диван, кушетка; диван",
       "plural": "couches",
       "countability": "countable"
     },
@@ -126,13 +213,42 @@
       "term": "stool",
       "ipa": "/stuːl/",
       "respell": "STOOL",
-      "meaning": "A backless seat, often tall enough for a counter or bar. ---",
+      "meaning": "Stool has 2 distinct senses.",
       "examples": [
         "He sat on a stool at the end of the bar.",
         "We bought three stools for the kitchen island.",
-        "Stand on the stool if you can't reach the top shelf."
+        "Stand on the stool if you can't reach the top shelf.",
+        "He sat on a stool at the counter.",
+        "We bought two bar stools for the kitchen.",
+        "That stool wobbles a little."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A backless seat, often tall enough for a counter or bar",
+          "body": [
+            "(табурет)"
+          ],
+          "examples": [
+            "He sat on a stool at the end of the bar.",
+            "We bought three stools for the kitchen island.",
+            "Stand on the stool if you can't reach the top shelf."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A seat with no back or arms",
+          "body": [
+            "(табурет)",
+            "---"
+          ],
+          "examples": [
+            "He sat on a stool at the counter.",
+            "We bought two bar stools for the kitchen.",
+            "That stool wobbles a little."
+          ]
+        }
+      ],
       "русский": "табурет",
       "plural": "stools",
       "countability": "countable"
@@ -225,7 +341,8 @@
       "senses": [],
       "русский": "диванная подушка",
       "plural": "cushions",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The u is short, as in put: KUUSH-uhn, not KOO-shun."
     },
     {
       "term": "highchair",
@@ -322,13 +439,42 @@
       "term": "crib",
       "ipa": "/krɪb/",
       "respell": "KRIB",
-      "meaning": "A baby's bed with high barred sides. ---",
+      "meaning": "Crib has 2 distinct senses.",
       "examples": [
         "He finally fell asleep in his crib.",
         "We're assembling the crib this weekend.",
-        "Older cribs don't meet the current safety rules."
+        "Older cribs don't meet the current safety rules.",
+        "The baby finally fell asleep in her crib.",
+        "We put the crib together the week before he was born.",
+        "He's already climbing out of the crib."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A baby's bed with high barred sides",
+          "body": [
+            "(детская кроватка)"
+          ],
+          "examples": [
+            "He finally fell asleep in his crib.",
+            "We're assembling the crib this weekend.",
+            "Older cribs don't meet the current safety rules."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small bed with high sides for a baby",
+          "body": [
+            "(детская кроватка)",
+            "---"
+          ],
+          "examples": [
+            "The baby finally fell asleep in her crib.",
+            "We put the crib together the week before he was born.",
+            "He's already climbing out of the crib."
+          ]
+        }
+      ],
       "русский": "детская кроватка",
       "plural": "cribs",
       "countability": "countable",
@@ -415,13 +561,42 @@
       "term": "dresser",
       "ipa": "/ˈdrɛsər/",
       "respell": "DRES-ur",
-      "meaning": "A low chest of drawers for clothes, usually in a bedroom. ---",
+      "meaning": "Dresser has 2 distinct senses.",
       "examples": [
         "Your socks are in the top drawer of the dresser.",
         "We refinished an old dresser we found at a thrift store.",
-        "Both dressers are too big for that room."
+        "Both dressers are too big for that room.",
+        "My socks are in the top drawer of the dresser.",
+        "There's a lamp and a stack of mail on the dresser.",
+        "We moved both dressers into the other bedroom."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A low chest of drawers for clothes, usually in a bedroom",
+          "body": [
+            "(комод)"
+          ],
+          "examples": [
+            "Your socks are in the top drawer of the dresser.",
+            "We refinished an old dresser we found at a thrift store.",
+            "Both dressers are too big for that room."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of bedroom furniture with drawers for clothes",
+          "body": [
+            "(комод)",
+            "---"
+          ],
+          "examples": [
+            "My socks are in the top drawer of the dresser.",
+            "There's a lamp and a stack of mail on the dresser.",
+            "We moved both dressers into the other bedroom."
+          ]
+        }
+      ],
       "русский": "комод",
       "plural": "dressers",
       "countability": "countable",
@@ -586,14 +761,43 @@
       "term": "bedding",
       "ipa": "/ˈbɛdɪŋ/",
       "respell": "BED-ing",
-      "meaning": "Sheets, blankets, and pillows taken together. ---",
+      "meaning": "Bedding has 2 distinct senses.",
       "examples": [
         "Bring your own bedding if you're staying over.",
         "All the bedding needs to be washed after the trip.",
-        "The camp provides cots but no bedding."
+        "The camp provides cots but no bedding.",
+        "The clean bedding is in the bottom drawer.",
+        "We packed bedding and towels for the cabin.",
+        "All the bedding needs to be washed after the trip."
       ],
-      "senses": [],
-      "русский": "постельные принадлежности",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sheets, blankets, and pillows taken together",
+          "body": [
+            "(постельные принадлежности)"
+          ],
+          "examples": [
+            "Bring your own bedding if you're staying over.",
+            "All the bedding needs to be washed after the trip.",
+            "The camp provides cots but no bedding."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sheets, blankets, and covers used on a bed",
+          "body": [
+            "(постельное бельё)",
+            "---"
+          ],
+          "examples": [
+            "The clean bedding is in the bottom drawer.",
+            "We packed bedding and towels for the cabin.",
+            "All the bedding needs to be washed after the trip."
+          ]
+        }
+      ],
+      "русский": "постельные принадлежности; постельное бельё",
       "countability": "uncountable",
       "contrast": "Uncountable: some bedding, a lot of bedding — never a bedding or beddings."
     },
@@ -630,14 +834,43 @@
       "term": "trunk",
       "ipa": "/trʌŋk/",
       "respell": "TRUNGK",
-      "meaning": "A large reinforced case or box for storing or carrying belongings. ---",
+      "meaning": "Trunk has 2 distinct senses.",
       "examples": [
         "Her old costumes are in a trunk in the basement.",
         "The attic was full of dusty trunks.",
-        "He sat on the trunk to get the lid to close."
+        "He sat on the trunk to get the lid to close.",
+        "Somebody carved their initials into the trunk.",
+        "The trunks were too wide to get my arms around.",
+        "Lightning split the trunk right down the middle."
       ],
-      "senses": [],
-      "русский": "сундук, дорожный сундук",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large reinforced case or box for storing or carrying belongings",
+          "body": [
+            "(сундук, дорожный сундук)"
+          ],
+          "examples": [
+            "Her old costumes are in a trunk in the basement.",
+            "The attic was full of dusty trunks.",
+            "He sat on the trunk to get the lid to close."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The thick main stem of a tree",
+          "body": [
+            "(ствол (дерева))",
+            "---"
+          ],
+          "examples": [
+            "Somebody carved their initials into the trunk.",
+            "The trunks were too wide to get my arms around.",
+            "Lightning split the trunk right down the middle."
+          ]
+        }
+      ],
+      "русский": "сундук, дорожный сундук; ствол (дерева)",
       "plural": "trunks",
       "countability": "countable"
     },
@@ -690,13 +923,42 @@
       "term": "basket",
       "ipa": "/ˈbæskɪt/",
       "respell": "BAS-kit",
-      "meaning": "A container woven from cane, wire, or plastic strips. ---",
+      "meaning": "Basket has 2 distinct senses.",
       "examples": [
         "Toss the mail in the basket by the door.",
         "She lines the baskets with cloth napkins.",
-        "There's a wicker basket under the bench for hats and gloves."
+        "There's a wicker basket under the bench for hats and gloves.",
+        "Put the fruit in the basket.",
+        "A basket of laundry was sitting by the stairs.",
+        "The wicker baskets were on clearance."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A container woven from cane, wire, or plastic strips",
+          "body": [
+            "(корзина)"
+          ],
+          "examples": [
+            "Toss the mail in the basket by the door.",
+            "She lines the baskets with cloth napkins.",
+            "There's a wicker basket under the bench for hats and gloves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A container woven from strips of material, usually with a handle",
+          "body": [
+            "(корзина)",
+            "---"
+          ],
+          "examples": [
+            "Put the fruit in the basket.",
+            "A basket of laundry was sitting by the stairs.",
+            "The wicker baskets were on clearance."
+          ]
+        }
+      ],
       "русский": "корзина",
       "plural": "baskets",
       "countability": "countable"
@@ -737,14 +999,43 @@
       "term": "hanger",
       "ipa": "/ˈhæŋər/",
       "respell": "HANG-ur",
-      "meaning": "A shaped frame with a hook that a garment hangs from. ---",
+      "meaning": "Hanger has 2 distinct senses.",
       "examples": [
         "There aren't enough hangers in this closet.",
         "Put your jacket on a hanger so it doesn't wrinkle.",
-        "The dry cleaner gave everything back on wire hangers."
+        "The dry cleaner gave everything back on wire hangers.",
+        "Do you have a spare hanger?",
+        "Every hanger in the closet is plastic.",
+        "She hung the shirt on a wooden hanger."
       ],
-      "senses": [],
-      "русский": "вешалка-плечики",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A shaped frame with a hook that a garment hangs from",
+          "body": [
+            "(вешалка-плечики)"
+          ],
+          "examples": [
+            "There aren't enough hangers in this closet.",
+            "Put your jacket on a hanger so it doesn't wrinkle.",
+            "The dry cleaner gave everything back on wire hangers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shaped piece of wire, wood, or plastic for hanging up clothes",
+          "body": [
+            "(вешалка (плечики))",
+            "---"
+          ],
+          "examples": [
+            "Do you have a spare hanger?",
+            "Every hanger in the closet is plastic.",
+            "She hung the shirt on a wooden hanger."
+          ]
+        }
+      ],
+      "русский": "вешалка-плечики; вешалка (плечики)",
       "plural": "hangers",
       "countability": "countable",
       "contrast": "No /ɡ/ sound: it rhymes with banger, not with finger."
@@ -859,13 +1150,42 @@
       "term": "towel",
       "ipa": "/ˈtaʊəl/",
       "respell": "TOW-uhl",
-      "meaning": "A piece of absorbent cloth for drying yourself or something else. ---",
+      "meaning": "Towel has 2 distinct senses.",
       "examples": [
         "There's a clean towel in the bathroom for you.",
         "The beach towels are still in the car.",
-        "He dried his hands on a dish towel."
+        "He dried his hands on a dish towel.",
+        "Grab a clean towel from the closet.",
+        "The towel is still damp from this morning.",
+        "We only packed two towels for four people."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of absorbent cloth for drying yourself or something else",
+          "body": [
+            "(полотенце)"
+          ],
+          "examples": [
+            "There's a clean towel in the bathroom for you.",
+            "The beach towels are still in the car.",
+            "He dried his hands on a dish towel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cloth used for drying your body or hands",
+          "body": [
+            "(полотенце)",
+            "---"
+          ],
+          "examples": [
+            "Grab a clean towel from the closet.",
+            "The towel is still damp from this morning.",
+            "We only packed two towels for four people."
+          ]
+        }
+      ],
       "русский": "полотенце",
       "plural": "towels",
       "countability": "countable",
@@ -875,13 +1195,42 @@
       "term": "fabric",
       "ipa": "/ˈfæbrɪk/",
       "respell": "FAB-rik",
-      "meaning": "Cloth made by weaving or knitting. ---",
+      "meaning": "Fabric has 2 distinct senses.",
       "examples": [
         "We picked a heavy fabric for the curtains.",
         "The store carries upholstery fabrics by the yard.",
-        "That fabric wrinkles if you look at it wrong."
+        "That fabric wrinkles if you look at it wrong.",
+        "This fabric wrinkles if you look at it wrong.",
+        "The store sells fabrics by the yard.",
+        "Pick a fabric that breathes in the heat."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Cloth made by weaving or knitting",
+          "body": [
+            "(ткань, материя)"
+          ],
+          "examples": [
+            "We picked a heavy fabric for the curtains.",
+            "The store carries upholstery fabrics by the yard.",
+            "That fabric wrinkles if you look at it wrong."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Cloth used for making clothes and other things",
+          "body": [
+            "(ткань, материя)",
+            "---"
+          ],
+          "examples": [
+            "This fabric wrinkles if you look at it wrong.",
+            "The store sells fabrics by the yard.",
+            "Pick a fabric that breathes in the heat."
+          ]
+        }
+      ],
       "русский": "ткань, материя",
       "plural": "fabrics",
       "countability": "countable, and uncountable as a substance"
@@ -967,14 +1316,43 @@
       "term": "bulb",
       "ipa": "/bʌlb/",
       "respell": "BULB",
-      "meaning": "The glass part of a lamp that produces light. ---",
+      "meaning": "Bulb has 2 distinct senses.",
       "examples": [
         "The bulb in the hallway burned out.",
         "We switched all the bulbs over to LEDs.",
-        "Get a sixty-watt bulb while you're at the store."
+        "Get a sixty-watt bulb while you're at the store.",
+        "Plant the tulip bulbs in October.",
+        "Squirrels dug up every bulb I put in.",
+        "Each bulb goes about six inches down."
       ],
-      "senses": [],
-      "русский": "лампочка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The glass part of a lamp that produces light",
+          "body": [
+            "(лампочка)"
+          ],
+          "examples": [
+            "The bulb in the hallway burned out.",
+            "We switched all the bulbs over to LEDs.",
+            "Get a sixty-watt bulb while you're at the store."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A round underground part of some plants that grows into a new plant",
+          "body": [
+            "(луковица (растения))",
+            "---"
+          ],
+          "examples": [
+            "Plant the tulip bulbs in October.",
+            "Squirrels dug up every bulb I put in.",
+            "Each bulb goes about six inches down."
+          ]
+        }
+      ],
+      "русский": "лампочка; луковица (растения)",
       "plural": "bulbs",
       "countability": "countable"
     },
@@ -1091,13 +1469,42 @@
       "term": "candle",
       "ipa": "/ˈkændəl/",
       "respell": "KAN-duhl",
-      "meaning": "A stick of wax with a wick, burned for light or scent. ---",
+      "meaning": "Candle has 2 distinct senses.",
       "examples": [
         "Light a candle — the power's out.",
         "She burns scented candles in the bathroom.",
-        "The candle dripped wax all over the tablecloth."
+        "The candle dripped wax all over the tablecloth.",
+        "She lit a candle during the power outage.",
+        "That candle smells like vanilla.",
+        "There were eight candles on the cake."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A stick of wax with a wick, burned for light or scent",
+          "body": [
+            "(свеча)"
+          ],
+          "examples": [
+            "Light a candle — the power's out.",
+            "She burns scented candles in the bathroom.",
+            "The candle dripped wax all over the tablecloth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stick of wax with a wick that burns to give light",
+          "body": [
+            "(свеча)",
+            "---"
+          ],
+          "examples": [
+            "She lit a candle during the power outage.",
+            "That candle smells like vanilla.",
+            "There were eight candles on the cake."
+          ]
+        }
+      ],
       "русский": "свеча",
       "plural": "candles",
       "countability": "countable"
@@ -1198,14 +1605,43 @@
       "term": "knob",
       "ipa": "/nɑːb/",
       "respell": "NAHB",
-      "meaning": "A round handle you turn or pull. ---",
+      "meaning": "Knob has 2 distinct senses.",
       "examples": [
         "The knob on the oven is missing.",
         "New cabinet knobs can change the whole look of a kitchen.",
-        "He turned the knob slowly so it wouldn't creak."
+        "He turned the knob slowly so it wouldn't creak.",
+        "The door knob came off in my hand.",
+        "Turn the knob all the way to the right.",
+        "The cabinet knobs are brass."
       ],
-      "senses": [],
-      "русский": "круглая ручка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A round handle you turn or pull",
+          "body": [
+            "(круглая ручка)"
+          ],
+          "examples": [
+            "The knob on the oven is missing.",
+            "New cabinet knobs can change the whole look of a kitchen.",
+            "He turned the knob slowly so it wouldn't creak."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rounded handle you grip and turn",
+          "body": [
+            "(ручка (круглая), рукоятка)",
+            "---"
+          ],
+          "examples": [
+            "The door knob came off in my hand.",
+            "Turn the knob all the way to the right.",
+            "The cabinet knobs are brass."
+          ]
+        }
+      ],
+      "русский": "круглая ручка; ручка (круглая), рукоятка",
       "plural": "knobs",
       "countability": "countable",
       "contrast": "The k is silent, as in knife and knee: NAHB."
@@ -1259,14 +1695,43 @@
       "term": "rod",
       "ipa": "/rɑːd/",
       "respell": "RAHD",
-      "meaning": "A long thin bar, especially the one a curtain hangs from. ---",
+      "meaning": "Rod has 2 distinct senses.",
       "examples": [
         "The curtain rod pulled right out of the drywall.",
         "We need a longer rod for that window.",
-        "Both closet rods are sagging under all those clothes."
+        "Both closet rods are sagging under all those clothes.",
+        "A threaded rod holds the two halves together.",
+        "The rod bent under the weight.",
+        "Cut the rods to length before you install them."
       ],
-      "senses": [],
-      "русский": "штанга; карниз для штор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long thin bar, especially the one a curtain hangs from",
+          "body": [
+            "(штанга; карниз для штор)"
+          ],
+          "examples": [
+            "The curtain rod pulled right out of the drywall.",
+            "We need a longer rod for that window.",
+            "Both closet rods are sagging under all those clothes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A straight slender bar of metal or wood",
+          "body": [
+            "(стержень, прут)",
+            "---"
+          ],
+          "examples": [
+            "A threaded rod holds the two halves together.",
+            "The rod bent under the weight.",
+            "Cut the rods to length before you install them."
+          ]
+        }
+      ],
+      "русский": "штанга; карниз для штор; стержень, прут",
       "plural": "rods",
       "countability": "countable"
     },

@@ -389,15 +389,24 @@ A seat or platform fixed up in a tree for a hunter to watch from.
 ### trap
 
 **Pronunciation:** /træp/ &middot; *TRAP*
-**Русский:** капкан, ловушка
+**Русский:** капкан, ловушка; сифон (изгиб сливной трубы)
 **Plural:** *traps*
 **Countability:** countable
+**Contrast:** Same word as a trap for animals, but in plumbing it means the U-shaped bend under a sink.
 
-A device that catches and holds an animal.
+Trap has 2 distinct senses.
+
+**1. A device that catches and holds an animal.** (капкан, ловушка)
 
 1. He set a *trap* by the creek for beaver.
 2. Her dog got a paw caught in a *trap*.
 3. The *traps* are checked every morning by law.
+
+**2. The curved section of drainpipe that holds water and blocks sewer smells.** (сифон (изгиб сливной трубы))
+
+4. Put a bucket under the *trap* before you loosen it.
+5. My wedding ring was sitting in the *trap*.
+6. The *traps* dry out in a house nobody lives in.
 
 ---
 
@@ -1523,14 +1532,22 @@ A set of steps built beside a dam so fish can swim upstream.
 ### casting
 
 **Pronunciation:** /ˈkæstɪŋ/ &middot; *KAS-ting*
-**Русский:** заброс (снасти)
+**Русский:** заброс (снасти); кастинг, подбор актёров
 **Countability:** uncountable
 
-The act of throwing a baited line out over the water.
+Casting has 2 distinct senses.
+
+**1. The act of throwing a baited line out over the water.** (заброс (снасти))
 
 1. *Casting* into the wind takes practice.
 2. He spent an hour on the lawn working on his *casting*.
 3. Long *casting* isn't necessary on a small creek.
+
+**2. The process of choosing which actors will play which parts.** (кастинг, подбор актёров)
+
+4. *Casting* takes about three weeks for a show this size.
+5. The *casting* is the strongest thing about this production.
+6. She does *casting* for two theaters in the city.
 
 ---
 

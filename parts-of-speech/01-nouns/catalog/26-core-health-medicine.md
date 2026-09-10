@@ -931,16 +931,24 @@ Medicine put into the body with a needle.
 ### shot
 
 **Pronunciation:** /ʃɑːt/ &middot; *SHAHT*
-**Русский:** укол, прививка
+**Русский:** укол, прививка; рюмка крепкого; порция эспрессо
 **Plural:** *shots*
 **Countability:** countable
 **Contrast:** Americans get a *shot*; the British get a *jab*.
 
-The everyday American word for an injection, especially a vaccine.
+Shot has 2 distinct senses.
+
+**1. The everyday American word for an injection, especially a vaccine.** (укол, прививка)
 
 1. I am getting my flu *shot* tomorrow.
 2. The baby is due for two *shots* at this visit.
 3. It is just one quick *shot* in the arm.
+
+**2. A small serving of strong liquor or espresso drunk at once.** (рюмка крепкого; порция эспрессо)
+
+4. They each did a *shot* of tequila.
+5. Two *shots* of espresso, please.
+6. He ordered a beer and a *shot*.
 
 ---
 
@@ -1038,15 +1046,23 @@ A strip of cloth wrapped around a wound.
 ### stitch
 
 **Pronunciation:** /stɪtʃ/ &middot; *STICH*
-**Русский:** шов (хирургический)
+**Русский:** шов (хирургический); стежок
 **Plural:** *stitches*
 **Countability:** countable
 
-A loop of thread used to close a wound.
+Stitch has 2 distinct senses.
+
+**1. A loop of thread used to close a wound.** (шов (хирургический))
 
 1. The cut took six *stitches*.
 2. He goes back Friday to get the *stitches* out.
 3. One *stitch* came loose overnight.
+
+**2. One loop of thread made by a needle when sewing.** (стежок)
+
+4. A few *stitches* came out along the hem.
+5. She put in one more *stitch* and cut the thread.
+6. The *stitches* on this bag are already coming apart.
 
 ---
 
@@ -1204,16 +1220,24 @@ A photograph of the bones taken with special radiation.
 ### temperature
 
 **Pronunciation:** /ˈtɛmprətʃər/ &middot; *TEM-pruh-chur*
-**Русский:** температура (тела)
+**Русский:** температура (тела); температура
 **Plural:** *temperatures*
 **Countability:** countable
 **Contrast:** Usually squeezed to three syllables in American speech — TEM-pruh-chur, not TEM-per-uh-toor.
 
-How hot the body is, measured as a sign of health.
+Temperature has 2 distinct senses.
+
+**1. How hot the body is, measured as a sign of health.** (температура (тела))
 
 1. Let me take your *temperature*.
 2. His *temperature* is up to 101.
 3. *Temperatures* over 104 need a doctor.
+
+**2. How hot or cold something is, measured in degrees.** (температура)
+
+4. Bring the butter to room *temperature* first.
+5. Check the internal *temperature* with a thermometer.
+6. Ovens hold *temperatures* differently, so watch the food, not the clock.
 
 ---
 
@@ -1560,6 +1584,7 @@ A doctor with expert training in one area of medicine.
 **Pronunciation:** /ɪnˈʃʊrəns/ &middot; *in-SHOOR-uhns*
 **Русский:** страховка, страхование
 **Countability:** uncountable
+**Contrast:** Uncountable — say *I have insurance*, never *an insurance*.
 
 An arrangement in which a company pays part of your medical costs.
 
@@ -1634,31 +1659,47 @@ A tube with a plunger used to inject or draw out liquid.
 ### needle
 
 **Pronunciation:** /ˈniːdəl/ &middot; *NEE-duhl*
-**Русский:** игла (шприца)
+**Русский:** игла (шприца); игла, иголка
 **Plural:** *needles*
 **Countability:** countable
 
-The thin sharp metal tube used to give an injection.
+Needle has 2 distinct senses.
+
+**1. The thin sharp metal tube used to give an injection.** (игла (шприца))
 
 1. She looks away every time the *needle* goes in.
 2. The *needles* are single-use.
 3. It is a very fine *needle* — you barely feel it.
+
+**2. A thin pointed metal tool with a hole for thread.** (игла, иголка)
+
+4. She threaded the *needle* on the first try.
+5. There's a *needle* stuck in the pincushion.
+6. Sewing *needles* come in different sizes.
 
 ---
 
 ### thermometer
 
 **Pronunciation:** /θərˈmɑːmɪtər/ &middot; *thur-MAH-muh-tur*
-**Русский:** градусник, термометр
+**Русский:** градусник, термометр; термометр (кухонный, для мяса)
 **Plural:** *thermometers*
 **Countability:** countable
 **Contrast:** Stress is on the second syllable — thur-MAH-muh-tur, not THUR-moh-mee-tur.
 
-A device that measures body temperature.
+Thermometer has 2 distinct senses.
+
+**1. A device that measures body temperature.** (градусник, термометр)
 
 1. Where is the *thermometer*? He feels warm.
 2. The ear *thermometer* reads in two seconds.
 3. We keep two *thermometers* in the medicine cabinet.
+
+**2. An instrument for measuring how hot something is.** (термометр (кухонный, для мяса))
+
+4. Stick a *thermometer* into the thickest part of the breast.
+5. An instant-read *thermometer* is the best twenty dollars you'll spend.
+6. Candy *thermometers* clip onto the side of the pot.
 
 ---
 

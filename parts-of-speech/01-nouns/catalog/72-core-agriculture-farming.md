@@ -116,14 +116,22 @@ A farm tool with heavy blades, pulled through soil to turn it over before planti
 ### irrigation
 
 **Pronunciation:** /ˌɪrəˈɡeɪʃən/ &middot; *ir-uh-GAY-shuhn*
-**Русский:** орошение, ирригация
+**Русский:** орошение, ирригация; орошение, полив
 **Countability:** uncountable
 
-The supplying of water to farmland through ditches, pipes, or sprinklers.
+Irrigation has 2 distinct senses.
+
+**1. The supplying of water to farmland through ditches, pipes, or sprinklers.** (орошение, ирригация)
 
 1. Without *irrigation*, nothing would grow in that valley.
 2. The farm switched to drip *irrigation* to save water.
 3. *Irrigation* accounts for most of the county's water use.
+
+**2. The supplying of water to land or plants through pipes or channels.** (орошение, полив)
+
+4. Nothing grows out there without *irrigation*.
+5. The *irrigation* runs on a timer at dawn.
+6. They ran *irrigation* to the far end of the field.
 
 ---
 
@@ -266,11 +274,19 @@ The main house on a farm, where the farmer lives.
 **Plural:** *barnyards*
 **Countability:** countable
 
-The open, fenced area next to a barn where farm animals are kept.
+Barnyard has 2 distinct senses.
+
+**1. The open, fenced area next to a barn where farm animals are kept.** (скотный двор)
 
 1. Chickens scratched around the muddy *barnyard*.
 2. He hosed down the *barnyard* after the rain.
 3. The dog sleeps by the gate at the edge of the *barnyard*.
+
+**2. The open yard around a barn where farm animals move about.** (скотный двор)
+
+4. Chickens wandered around the *barnyard*.
+5. The *barnyard* turns to mud every spring.
+6. Both *barnyards* were fenced in.
 
 ---
 
@@ -619,14 +635,22 @@ The work of pulling unwanted plants out of a field or garden.
 ### pruning
 
 **Pronunciation:** /ˈpruːnɪŋ/ &middot; *PROO-ning*
-**Русский:** обрезка (деревьев, кустов)
+**Русский:** обрезка (деревьев, кустов); обрезка (растений)
 **Countability:** uncountable
 
-The cutting back of branches so a tree or vine grows better fruit.
+Pruning has 2 distinct senses.
+
+**1. The cutting back of branches so a tree or vine grows better fruit.** (обрезка (деревьев, кустов))
 
 1. *Pruning* is done in late winter, before the buds swell.
 2. Careful *pruning* keeps the apple trees low enough to pick.
 3. He hired a crew for the *pruning* this year.
+
+**2. The cutting back of branches or stems to shape a plant or help it grow.** (обрезка (растений))
+
+4. The apple trees need *pruning* before the buds swell.
+5. Heavy *pruning* in fall can hurt a young tree.
+6. She does all her *pruning* in late winter.
 
 ---
 
@@ -689,14 +713,22 @@ The joining of a shoot from one plant onto the stem of another so they grow as o
 ### cultivation
 
 **Pronunciation:** /ˌkʌltəˈveɪʃən/ &middot; *kul-tuh-VAY-shuhn*
-**Русский:** возделывание, обработка земли
+**Русский:** возделывание, обработка земли; возделывание, выращивание
 **Countability:** uncountable
 
-The preparing and working of land in order to grow crops.
+Cultivation has 2 distinct senses.
+
+**1. The preparing and working of land in order to grow crops.** (возделывание, обработка земли)
 
 1. Much of this valley is under *cultivation*.
 2. *Cultivation* of rice needs a steady water supply.
 3. The field went out of *cultivation* twenty years ago.
+
+**2. The work of preparing soil and raising plants on it.** (возделывание, выращивание)
+
+4. That field has been under *cultivation* for a century.
+5. Roses need more *cultivation* than most people expect.
+6. The book covers the *cultivation* of fruit trees.
 
 ---
 
@@ -706,11 +738,19 @@ The preparing and working of land in order to grow crops.
 **Русский:** прорастание, всхожесть
 **Countability:** uncountable
 
-The process of a seed beginning to grow.
+Germination has 2 distinct senses.
+
+**1. The process of a seed beginning to grow.** (прорастание, всхожесть)
 
 1. Cold soil slows *germination*.
 2. The seed packet lists a *germination* rate of ninety percent.
 3. Even moisture is the key to good *germination*.
+
+**2. The sprouting of a seed into a young plant.** (прорастание, всхожесть)
+
+4. *Germination* takes seven to ten days.
+5. Cold soil slows *germination* way down.
+6. The packet promises ninety percent *germination*.
 
 ---
 
@@ -732,14 +772,22 @@ The care and breeding of farm animals, or the careful management of a farm.
 ### horticulture
 
 **Pronunciation:** /ˈhɔːrtəkʌltʃər/ &middot; *HOR-tuh-kul-chur*
-**Русский:** садоводство, растениеводство
+**Русский:** садоводство, растениеводство; садоводство (отрасль)
 **Countability:** uncountable
 
-The growing of fruit, vegetables, and ornamental plants.
+Horticulture has 2 distinct senses.
+
+**1. The growing of fruit, vegetables, and ornamental plants.** (садоводство, растениеводство)
 
 1. She has a degree in *horticulture*.
 2. *Horticulture* is a bigger business here than grain.
 3. The greenhouse is used for teaching *horticulture*.
+
+**2. The science and business of growing garden plants.** (садоводство (отрасль))
+
+4. She studied *horticulture* at the state college.
+5. *Horticulture* is a big employer in this county.
+6. He came to *horticulture* after twenty years in banking.
 
 ---
 
@@ -925,11 +973,19 @@ A plant of the pea and bean family, whose roots add nitrogen to the soil.
 **Countability:** uncountable
 **Contrast:** The first syllable rhymes with *sigh*: SY-lij, not SIL-ij.
 
-Green crops packed tight and left to ferment, used as winter feed for cattle.
+Silage has 2 distinct senses.
+
+**1. Green crops packed tight and left to ferment, used as winter feed for cattle.** (силос)
 
 1. The cows get *silage* all through the winter.
 2. They chopped the corn for *silage* in September.
 3. Good *silage* smells sweet, not sour.
+
+**2. Green plants packed and fermented in a pit as winter cattle feed.** (силос)
+
+4. The cows are fed *silage* through the winter.
+5. He filled the pit with *silage*.
+6. *Silage* smells sour, but the cattle love it.
 
 ---
 
@@ -938,6 +994,7 @@ Green crops packed tight and left to ferment, used as winter feed for cattle.
 **Pronunciation:** /ˈfɑːdər/ &middot; *FAH-dur*
 **Русский:** корм для скота, фураж
 **Countability:** uncountable
+**Contrast:** Uncountable: some *fodder*, never 'a fodder'.
 
 Dried food such as hay or straw given to farm animals.
 
@@ -1055,15 +1112,23 @@ A new stem or branch growing from a plant.
 ### seedbed
 
 **Pronunciation:** /ˈsiːdbɛd/ &middot; *SEED-bed*
-**Русский:** посевное ложе, рассадник
+**Русский:** посевное ложе, рассадник; рассадная грядка
 **Plural:** *seedbeds*
 **Countability:** countable
 
-Soil worked fine and smooth so that seed can be sown in it.
+Seedbed has 2 distinct senses.
+
+**1. Soil worked fine and smooth so that seed can be sown in it.** (посевное ложе, рассадник)
 
 1. He worked the ground twice to get a fine *seedbed*.
 2. A rough *seedbed* gives uneven emergence.
 3. The *seedbeds* were ready by the first week of April.
+
+**2. A patch of finely worked soil prepared for sowing seed.** (рассадная грядка)
+
+4. Rake the *seedbed* smooth before you sow.
+5. A crusted *seedbed* keeps seedlings from breaking through.
+6. He prepares his *seedbeds* the week before planting.
 
 ---
 
@@ -1160,15 +1225,23 @@ A frame of metal teeth or discs dragged over plowed ground to break up clods.
 ### cultivator
 
 **Pronunciation:** /ˈkʌltəveɪtər/ &middot; *KUL-tuh-vay-tur*
-**Русский:** культиватор
+**Русский:** культиватор; культиватор, ручной рыхлитель
 **Plural:** *cultivators*
 **Countability:** countable
 
-An implement pulled between crop rows to loosen soil and kill weeds.
+Cultivator has 2 distinct senses.
+
+**1. An implement pulled between crop rows to loosen soil and kill weeds.** (культиватор)
 
 1. He ran the *cultivator* through the beans one more time.
 2. The *cultivator* shanks need sharpening.
 3. Row-crop *cultivators* went out of style, then came back.
+
+**2. A tool with curved prongs for breaking up and stirring the top of the soil.** (культиватор, ручной рыхлитель)
+
+4. Run a *cultivator* through the row to kill the small weeds.
+5. The hand *cultivator* is perfect for container soil.
+6. Both *cultivators* are hanging by the door.
 
 ---
 
@@ -1194,11 +1267,19 @@ A small machine with turning blades that breaks up garden or field soil.
 **Plural:** *sprayers*
 **Countability:** countable
 
-A machine that spreads liquid chemicals over a crop.
+Sprayer has 2 distinct senses.
+
+**1. A machine that spreads liquid chemicals over a crop.** (опрыскиватель)
 
 1. The *sprayer* has booms sixty feet wide.
 2. Rinse the *sprayer* before you switch chemicals.
 3. Two *sprayers* covered the whole farm in a day.
+
+**2. A tank with a pump and nozzle for spraying plants.** (опрыскиватель)
+
+4. Fill the *sprayer* and go after the aphids.
+5. The *sprayer* clogs if you don't rinse it.
+6. He keeps separate *sprayers* for weed killer and for feed.
 
 ---
 
@@ -1220,16 +1301,30 @@ A machine that scatters fertilizer, lime, or manure over a field.
 ### auger
 
 **Pronunciation:** /ˈɔːɡər/ &middot; *AW-gur*
-**Русский:** шнек, бур
+**Русский:** шнек, бур; ледобур; шнек, спираль для прочистки труб
 **Plural:** *augers*
 **Countability:** countable
 **Contrast:** Sounds the same as *augur*, to foretell — a different word entirely.
 
-A long screw inside a tube, used to move grain or to bore holes for posts.
+Auger has 3 distinct senses.
+
+**1. A long screw inside a tube, used to move grain or to bore holes for posts.** (шнек, бур)
 
 1. The *auger* moves corn from the wagon into the bin.
 2. He used a post-hole *auger* on the fence line.
 3. Keep your hands clear of the *auger* while it's running.
+
+**2. A tool with a spiral blade for drilling a hole through ice.** (ледобур)
+
+4. He cut four holes with a hand *auger*.
+5. Gas *augers* go through a foot of ice in seconds.
+6. The *auger* blade needs sharpening.
+
+**3. A coiled tool cranked into a drain or toilet to clear a blockage.** (шнек, спираль для прочистки труб)
+
+7. A toilet *auger* got the clog out in a minute.
+8. Feed the *auger* in slowly and keep turning.
+9. Plumbers carry several *augers* of different lengths.
 
 ---
 
@@ -1300,6 +1395,7 @@ A round metal container on a farm for storing harvested grain.
 **Русский:** вилы
 **Plural:** *pitchforks*
 **Countability:** countable
+**Contrast:** Russian вилы is plural, but one tool is a *pitchfork*, singular.
 
 A long-handled fork with a few long tines, used for lifting hay or straw.
 
@@ -1435,15 +1531,29 @@ A fenced enclosure where pigs are raised.
 ### stall
 
 **Pronunciation:** /stɔːl/ &middot; *STAWL*
-**Русский:** стойло, денник
+**Русский:** стойло, денник; прилавок, палатка (на рынке); кабинка (в туалете)
 **Plural:** *stalls*
 **Countability:** countable
 
-A separate space inside a barn for one animal.
+Stall has 3 distinct senses.
+
+**1. A separate space inside a barn for one animal.** (стойло, денник)
 
 1. Each cow has her own *stall*.
 2. He mucked out the *stalls* before breakfast.
 3. The mare kicked the side of her *stall* all night.
+
+**2. A small open stand where goods are sold at a market.** (прилавок, палатка (на рынке))
+
+4. Her *stall* sells honey and jam.
+5. The *stalls* go up before sunrise.
+6. We bought peaches from the last *stall* in the row.
+
+**3. A small compartment with a door around a toilet in a public restroom.** (кабинка (в туалете))
+
+7. Only one *stall* was unlocked.
+8. She waited outside the *stall*.
+9. The *stalls* at the stadium always have a line.
 
 ---
 
@@ -1605,11 +1715,19 @@ A long narrow groove cut in the soil by a plow.
 **Русский:** дренаж, водоотвод
 **Countability:** uncountable
 
-The removal of extra water from soil, or the system that does it.
+Drainage has 2 distinct senses.
+
+**1. The removal of extra water from soil, or the system that does it.** (дренаж, водоотвод)
 
 1. That corner of the field has terrible *drainage*.
 2. Tile *drainage* made the low ground farmable.
 3. Good *drainage* matters more than fertilizer here.
+
+**2. The way water is carried away from a place.** (дренаж, водоотвод)
+
+4. The shower has terrible *drainage*.
+5. Poor *drainage* left a puddle by the tub.
+6. They dug a trench to improve the *drainage*.
 
 ---
 
@@ -1727,11 +1845,19 @@ A young female horse.
 **Plural:** *breeds*
 **Countability:** countable
 
-A particular type of farm animal, developed by selective mating.
+Breed has 2 distinct senses.
+
+**1. A particular type of farm animal, developed by selective mating.** (порода)
 
 1. That *breed* of cattle handles cold weather well.
 2. He raises three *breeds* of chickens.
 3. The dairy *breed* gives more milk but less beef.
+
+**2. A group of animals of one species with the same fixed appearance and traits.** (порода)
+
+4. What *breed* is she?
+5. That *breed* needs a lot of exercise.
+6. Some flat-faced *breeds* have breathing problems.
 
 ---
 
@@ -1803,41 +1929,71 @@ Food that a cow brings back up from its stomach and chews again.
 **Countability:** countable
 **Contrast:** The *g* is soft and the word rhymes with *danger*: MAYN-jur — not *manager*.
 
-A long open box in a barn that holds hay for horses or cattle.
+Manger has 2 distinct senses.
+
+**1. A long open box in a barn that holds hay for horses or cattle.** (ясли, кормушка)
 
 1. He filled the *manger* with fresh hay.
 2. The horses pushed their heads into the *manger*.
 3. Both *mangers* were built from rough planks.
+
+**2. A box or rack in a stable that holds hay for animals.** (ясли, кормушка)
+
+4. The calf ate straight out of the *manger*.
+5. Hay was piled in the *manger*.
+6. Each stall has its own *manger*.
 
 ---
 
 ### halter
 
 **Pronunciation:** /ˈhɔːltər/ &middot; *HAWL-tur*
-**Русский:** недоуздок, оброть
+**Русский:** недоуздок, оброть; недоуздок
 **Plural:** *halters*
 **Countability:** countable
 
-A set of straps put on a horse's or cow's head so it can be led.
+Halter has 2 distinct senses.
+
+**1. A set of straps put on a horse's or cow's head so it can be led.** (недоуздок, оброть)
 
 1. She slipped a *halter* over the mare's nose.
 2. The *halters* hang on nails by the stall doors.
 3. He led the calf by a rope *halter*.
+
+**2. A simple headpiece with a rope, used to lead an animal.** (недоуздок)
+
+4. Put a *halter* on him before you lead him out.
+5. The *halter* was hanging on the fence post.
+6. The *halters* are labeled with each horse's name.
 
 ---
 
 ### harness
 
 **Pronunciation:** /ˈhɑːrnəs/ &middot; *HAR-nuhs*
-**Русский:** упряжь, сбруя
+**Русский:** упряжь, сбруя; шлейка; страховочная привязь, страховочная система
 **Plural:** *harnesses*
 **Countability:** countable
 
-The straps and fittings that connect a work animal to a plow or wagon.
+Harness has 3 distinct senses.
+
+**1. The straps and fittings that connect a work animal to a plow or wagon.** (упряжь, сбруя)
 
 1. He oiled the leather *harness* every fall.
 2. The old *harnesses* still hang in the tack room.
 3. It takes ten minutes to put the *harness* on a team.
+
+**2. A set of straps that goes around an animal's chest and shoulders.** (шлейка)
+
+4. A *harness* is easier on his neck than a collar.
+5. She clipped the leash to his *harness*.
+6. The store had *harnesses* in three sizes.
+
+**3. A set of straps worn around the body and clipped to a rope to stop a fall.** (страховочная привязь, страховочная система)
+
+7. Nobody goes on the roof without a *harness*.
+8. His *harness* caught him halfway down.
+9. The crew checks the *harnesses* every morning.
 
 ---
 
@@ -1995,16 +2151,24 @@ A farmer who raises a particular crop to sell.
 ### shepherd
 
 **Pronunciation:** /ˈʃɛpərd/ &middot; *SHEP-urd*
-**Русский:** пастух (овец), чабан
+**Русский:** пастух (овец), чабан; пастух, чабан
 **Plural:** *shepherds*
 **Countability:** countable
 **Contrast:** The middle *h* is silent: SHEP-urd, not SHEP-hurd.
 
-Someone whose job is to take care of sheep.
+Shepherd has 2 distinct senses.
+
+**1. Someone whose job is to take care of sheep.** (пастух (овец), чабан)
 
 1. The *shepherd* moved the flock to higher ground.
 2. Two *shepherds* stayed with the sheep all night.
 3. He worked as a *shepherd* in the mountains.
+
+**2. A person whose job is looking after sheep.** (пастух, чабан)
+
+4. The *shepherd* moved the flock at dawn.
+5. *Shepherds* spend months out with the sheep.
+6. An old *shepherd* pointed us up the trail.
 
 ---
 
@@ -2060,28 +2224,45 @@ A farmer who works another person's land and pays with part of the crop.
 **Русский:** ветеринар, ветеринарный врач
 **Plural:** *veterinarians*
 **Countability:** countable
+**Contrast:** Americans say veterinarian; the British usually say vet or veterinary surgeon.
 
-A doctor who treats animals.
+Veterinarian has 2 distinct senses.
+
+**1. A doctor who treats animals.** (ветеринар, ветеринарный врач)
 
 1. The *veterinarian* came out at midnight for the calving.
 2. Large-animal *veterinarians* are scarce in rural counties.
 3. She trained as a *veterinarian* after college.
+
+**2. A person qualified to treat sick or injured animals.** (ветеринар, ветеринарный врач)
+
+4. She's studying to be a *veterinarian*.
+5. The *veterinarian* put six stitches in his paw.
+6. Three *veterinarians* work out of that clinic.
 
 ---
 
 ### vet
 
 **Pronunciation:** /vɛt/ &middot; *VET*
-**Русский:** ветеринар (разговорное)
+**Русский:** ветеринар (разговорное); ветеринар
 **Plural:** *vets*
 **Countability:** countable
 **Contrast:** In other contexts *vet* is also short for *veteran*, a former soldier; only the setting tells you which.
 
-An everyday short word for a veterinarian.
+Vet has 2 distinct senses.
+
+**1. An everyday short word for a veterinarian.** (ветеринар (разговорное))
 
 1. Call the *vet* — that cow isn't getting up.
 2. The *vet* checked the whole herd on Tuesday.
 3. Two *vets* share the practice in town.
+
+**2. A doctor who treats animals.** (ветеринар)
+
+4. I'm taking the cat to the *vet* on Friday.
+5. Our *vet* says he needs to lose five pounds.
+6. Both *vets* in town were booked solid.
 
 ---
 
@@ -2105,12 +2286,21 @@ A plant disease that makes leaves and stems wither and die.
 **Pronunciation:** /ˈmɪlduː/ &middot; *MIL-doo*
 **Русский:** мучнистая роса, плесень
 **Countability:** uncountable
+**Contrast:** Americans say MIL-doo; the British say MIL-dyoo.
 
-A whitish fungus that grows on damp plants or stored grain.
+Mildew has 2 distinct senses.
+
+**1. A whitish fungus that grows on damp plants or stored grain.** (мучнистая роса, плесень)
 
 1. *Mildew* showed up on the squash leaves in August.
 2. Damp hay in the loft turned to *mildew*.
 3. A fungicide keeps the *mildew* off the vines.
+
+**2. A white or gray fungus that coats leaves in damp weather.** (мучнистая роса, плесень)
+
+4. The squash leaves are covered in *mildew*.
+5. *Mildew* shows up every year once the nights cool off.
+6. Space the plants out and you'll get less *mildew*.
 
 ---
 
@@ -2149,6 +2339,7 @@ Wire with sharp points twisted into it, strung to fence in livestock.
 **Pronunciation:** /ˈtʃɪkən ˌwaɪər/ &middot; *CHIK-uhn WYRE*
 **Русский:** сетка для птичника, мелкая сетка
 **Countability:** uncountable
+**Contrast:** Uncountable: a roll of *chicken wire*, never a chicken wire.
 
 Light wire mesh with hexagonal holes, used to fence in poultry.
 
@@ -2191,14 +2382,23 @@ A row of trees planted to shelter fields or buildings from the wind.
 ### sod
 
 **Pronunciation:** /sɑːd/ &middot; *SAHD*
-**Русский:** дёрн, дернина
+**Русский:** дёрн, дернина; дёрн, рулонный газон
 **Countability:** uncountable
+**Contrast:** Americans lay *sod*; the British call the same thing turf.
 
-The top layer of soil held together by grass roots.
+Sod has 2 distinct senses.
+
+**1. The top layer of soil held together by grass roots.** (дёрн, дернина)
 
 1. Settlers built houses out of *sod*.
 2. He cut the *sod* off before digging the trench.
 3. New *sod* was laid around the farmhouse.
+
+**2. Grass sold in strips with the soil and roots attached, laid to make an instant lawn.** (дёрн, рулонный газон)
+
+4. They laid *sod* over the whole front yard in one day.
+5. New *sod* has to be watered every morning.
+6. It's cheaper than *sod*, but seed takes a season.
 
 ---
 

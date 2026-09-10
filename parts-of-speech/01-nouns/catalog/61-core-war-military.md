@@ -117,15 +117,23 @@ A large planned attack by an army over a wide area.
 ### retreat
 
 **Pronunciation:** /rɪˈtriːt/ &middot; *rih-TREET*
-**Русский:** отступление
+**Русский:** отступление; выездной сбор, ретрит
 **Plural:** *retreats*
 **Countability:** countable
 
-A movement away from an enemy because fighting on is impossible.
+Retreat has 2 distinct senses.
+
+**1. A movement away from an enemy because fighting on is impossible.** (отступление)
 
 1. The general ordered a *retreat*.
 2. The *retreat* turned into a rout.
 3. Their *retreats* were always well organized.
+
+**2. A trip away from ordinary life for a group to rest, plan, or study together.** (выездной сбор, ретрит)
+
+4. The company sends managers on a *retreat* each January.
+5. She's been on two silent *retreats* in the mountains.
+6. The *retreat* runs from Friday night through Sunday lunch.
 
 ---
 
@@ -286,25 +294,41 @@ A sudden rising of ordinary people against those in power.
 **Русский:** сопротивление
 **Countability:** uncountable
 
-Armed opposition to an invading or occupying force.
+Resistance has 2 distinct senses.
+
+**1. Armed opposition to an invading or occupying force.** (сопротивление)
 
 1. They met fierce *resistance* at the bridge.
 2. The town fell without *resistance*.
 3. His father fought in the *resistance*.
+
+**2. How much a material slows down an electric current.** (сопротивление)
+
+4. Copper has very low *resistance*.
+5. Measure the *resistance* across the two ends.
+6. Higher *resistance* means less current.
 
 ---
 
 ### occupation
 
 **Pronunciation:** /ˌɑːkjəˈpeɪʃən/ &middot; *ah-kyuh-PAY-shuhn*
-**Русский:** оккупация
+**Русский:** оккупация; род занятий, профессия
 **Countability:** uncountable
 
-Control of a country or region by a foreign army.
+Occupation has 2 distinct senses.
+
+**1. Control of a country or region by a foreign army.** (оккупация)
 
 1. The *occupation* lasted four years.
 2. Life under *occupation* was grim.
 3. They resisted the *occupation* from the first day.
+
+**2. The job or profession a person does for a living.** (род занятий, профессия)
+
+4. Write your *occupation* on the form.
+5. Nursing is one of the fastest-growing *occupations*.
+6. His *occupation* is listed as carpenter.
 
 ---
 
@@ -385,15 +409,23 @@ An extremely cruel and violent act, especially in wartime.
 ### navy
 
 **Pronunciation:** /ˈneɪvi/ &middot; *NAY-vee*
-**Русский:** военно-морской флот
+**Русский:** военно-морской флот; тёмно-синий цвет
 **Plural:** *navies*
 **Countability:** countable
 
-The branch of a country's armed forces that fights at sea.
+Navy has 2 distinct senses.
+
+**1. The branch of a country's armed forces that fights at sea.** (военно-морской флот)
 
 1. He joined the *navy* at eighteen.
 2. The *navy* sent three ships to the region.
 3. Both *navies* patrolled the strait.
+
+**2. A very dark blue.** (тёмно-синий цвет)
+
+4. He wore a suit in *navy*.
+5. *Navy* goes with almost anything.
+6. The uniform is *navy* with gold buttons.
 
 ---
 
@@ -443,15 +475,23 @@ Large guns used on land, or the troops who operate them.
 ### squad
 
 **Pronunciation:** /skwɑːd/ &middot; *SKWAHD*
-**Русский:** отделение (воен.), группа
+**Русский:** отделение (воен.), группа; отряд, команда
 **Plural:** *squads*
 **Countability:** countable
 
-The smallest army unit, usually about eight to twelve soldiers.
+Squad has 2 distinct senses.
+
+**1. The smallest army unit, usually about eight to twelve soldiers.** (отделение (воен.), группа)
 
 1. A *squad* of eight men held the corner.
 2. The *squad* moved through the village house by house.
 3. Two *squads* were sent ahead.
+
+**2. A small group of people working or playing together as a unit.** (отряд, команда)
+
+4. A *squad* of police cleared the street.
+5. She made the varsity *squad*.
+6. Two bomb *squads* were called in.
 
 ---
 
@@ -1159,15 +1199,23 @@ A long pole with a sharp point, thrown or thrust at an enemy.
 ### arrow
 
 **Pronunciation:** /ˈæroʊ/ &middot; *AR-oh*
-**Русский:** стрела
+**Русский:** стрела; стрелка; стрела
 **Plural:** *arrows*
 **Countability:** countable
 
-A thin pointed stick shot from a bow.
+Arrow has 2 distinct senses.
+
+**1. A thin pointed stick shot from a bow.** (стрела)
 
 1. An *arrow* struck him in the shoulder.
 2. The archers loosed their *arrows*.
 3. He pulled the *arrow* out of the tree.
+
+**2. A sign shaped like a line with a point at one end, used to show direction.** (стрелка; стрела)
+
+4. Follow the green *arrow* to baggage claim.
+5. He drew an *arrow* pointing to the error.
+6. Yellow *arrows* mark the detour.
 
 ---
 
@@ -1370,15 +1418,23 @@ A ship that can travel under the water.
 ### carrier
 
 **Pronunciation:** /ˈkæriər/ &middot; *KA-ree-ur*
-**Русский:** авианосец
+**Русский:** авианосец; оператор сотовой связи
 **Plural:** *carriers*
 **Countability:** countable
 
-A warship with a flat deck that aircraft take off from and land on.
+Carrier has 2 distinct senses.
+
+**1. A warship with a flat deck that aircraft take off from and land on.** (авианосец)
 
 1. The *carrier* launched forty planes.
 2. Two *carriers* were sent to the region.
 3. He landed on the *carrier* in heavy seas.
+
+**2. A company that runs a cellphone network.** (оператор сотовой связи)
+
+4. Which *carrier* do you use?
+5. The phone is locked to one *carrier*.
+6. All the big *carriers* offer the same plan now.
 
 ---
 
@@ -1476,16 +1532,30 @@ A long narrow ditch dug for soldiers to fight from.
 ### base
 
 **Pronunciation:** /beɪs/ &middot; *BAYS*
-**Русский:** база (военная)
+**Русский:** база (военная); основание, щёлочь; основание
 **Plural:** *bases*
 **Countability:** countable
 **Contrast:** Sounds exactly like bass, the low musical part.
 
-A place where armed forces are stationed and supplied.
+Base has 3 distinct senses.
+
+**1. A place where armed forces are stationed and supplied.** (база (военная))
 
 1. The planes returned to *base* before dark.
 2. There are two air *bases* in the state.
 3. He grew up on a military *base*.
+
+**2. A chemical substance that neutralizes an acid.** (основание, щёлочь)
+
+4. Baking soda is a mild *base*.
+5. An acid and a *base* react to make salt and water.
+6. Strong *bases* can burn your skin.
+
+**3. The lowest part of a shape or object, which it stands on.** (основание)
+
+7. The lamp has a heavy metal *base*.
+8. Measure the *base* of the triangle.
+9. Both statues have marble *bases*.
 
 ---
 
@@ -1568,15 +1638,29 @@ A planned movement of troops, ships, or vehicles.
 ### parade
 
 **Pronunciation:** /pəˈreɪd/ &middot; *puh-RAYD*
-**Русский:** парад
+**Русский:** парад; парад, шествие
 **Plural:** *parades*
 **Countability:** countable
 
-A formal march of troops in front of onlookers.
+Parade has 3 distinct senses.
+
+**1. A formal march of troops in front of onlookers.** (парад)
 
 1. The victory *parade* filled the avenue.
 2. Troops marched in the *parade* for two hours.
 3. The town holds two *parades* every year.
+
+**2. A public procession of people marching or riding through the streets.** (парад, шествие)
+
+4. The Thanksgiving *parade* starts at nine.
+5. Three *parades* were canceled for the storm.
+6. Kids lined the street to watch the *parade*.
+
+**3. A public procession of people, bands, and vehicles moving through the streets to celebrate something.** (парад, шествие)
+
+7. The *parade* starts at nine on Fifth Avenue.
+8. We stood on the corner and watched the *parade* go by.
+9. The town holds two *parades* a year.
 
 ---
 
@@ -1613,15 +1697,23 @@ Deliberate damage done to equipment or works to hinder an enemy.
 ### command
 
 **Pronunciation:** /kəˈmænd/ &middot; *kuh-MAND*
-**Русский:** приказ; командование
+**Русский:** приказ; командование; команда
 **Plural:** *commands*
 **Countability:** both — countable and uncountable with different meanings
 
-An order given to be obeyed, or authority over a military force.
+Command has 2 distinct senses.
+
+**1. An order given to be obeyed, or authority over a military force.** (приказ; командование)
 
 1. The soldiers waited for the *command* to fire.
 2. She took *command* of the regiment in March.
 3. He shouted a few sharp *commands* and the line moved.
+
+**2. An instruction typed in to make a computer do something.** (команда)
+
+4. Type the *command* exactly as it's written.
+5. I never remember the *commands* for that tool.
+6. One *command* wipes the whole folder, so be careful.
 
 ---
 
@@ -1691,11 +1783,19 @@ The moving of people away from a dangerous place.
 **Countability:** uncountable
 **Contrast:** The h is silent: AH-nur. American spelling honor; British honour.
 
-Strong respect for what is right, and the good name it earns.
+Honor has 2 distinct senses.
+
+**1. Strong respect for what is right, and the good name it earns.** (честь)
 
 1. He served with *honor* for twenty years.
 2. There is no *honor* in shooting prisoners.
 3. He fought for the *honor* of his regiment.
+
+**2. The respect a person earns by behaving decently.** (честь)
+
+4. He was a man of *honor*.
+5. They fought to defend the family's *honor*.
+6. The park was named in *honor* of the fallen.
 
 ---
 
@@ -1732,15 +1832,23 @@ Something valuable given up for the sake of others or a cause.
 ### salute
 
 **Pronunciation:** /səˈluːt/ &middot; *suh-LOOT*
-**Русский:** воинское приветствие, отдание чести
+**Русский:** воинское приветствие, отдание чести; чествование, салют
 **Plural:** *salutes*
 **Countability:** countable
 
-A formal gesture of respect made to an officer or a flag.
+Salute has 2 distinct senses.
+
+**1. A formal gesture of respect made to an officer or a flag.** (воинское приветствие, отдание чести)
 
 1. The private gave a crisp *salute*.
 2. A twenty-one-gun *salute* honored the fallen.
 3. He returned the *salute* without a word.
+
+**2. An act or display that shows respect or honor for someone.** (чествование, салют)
+
+4. The evening was a *salute* to local firefighters.
+5. A twenty-one-gun *salute* closed the ceremony.
+6. There were *salutes* to the graduating seniors between innings.
 
 ---
 
@@ -1767,11 +1875,19 @@ A person's official position in the armed forces.
 **Countability:** countable
 **Contrast:** Sounds exactly like meddle, to interfere.
 
-A small metal award given for bravery or service.
+Medal has 2 distinct senses.
+
+**1. A small metal award given for bravery or service.** (медаль)
 
 1. He was awarded a *medal* for bravery.
 2. Her *medals* are in a box in the attic.
 3. The *medal* is the country's highest honor.
+
+**2. A flat piece of metal on a ribbon, given as an award.** (медаль)
+
+4. She won a gold *medal* in the two hundred meters.
+5. His *medals* are in a drawer somewhere.
+6. Every finisher gets a *medal* at the end of the race.
 
 ---
 
@@ -1811,11 +1927,19 @@ Broken stone and brick left after a building falls down.
 **Plural:** *explosions*
 **Countability:** countable
 
-A sudden violent bursting that throws out force and noise.
+Explosion has 2 distinct senses.
+
+**1. A sudden violent bursting that throws out force and noise.** (взрыв)
 
 1. The *explosion* shattered every window on the block.
 2. Two *explosions* were heard near the port.
 3. The *explosion* left a crater ten feet wide.
+
+**2. A sudden violent burst of energy that damages what is around it.** (взрыв)
+
+4. The gas leak caused an *explosion*.
+5. Two small *explosions* shook the building.
+6. The *explosion* blew out every window on the street.
 
 ---
 

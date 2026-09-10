@@ -428,16 +428,24 @@ A huge harmless ray with wide triangular fins that seems to fly underwater.
 ### skate
 
 **Pronunciation:** /skeɪt/ &middot; *SKAYT*
-**Русский:** скат (ромбовый)
+**Русский:** скат (ромбовый); конёк
 **Plural:** *skates*
 **Countability:** countable, and uncountable as food
 **Contrast:** Spelled and said like the ice *skate* — only context tells them apart.
 
-A flat diamond-shaped fish related to rays, with no stinging tail.
+Skate has 2 distinct senses.
+
+**1. A flat diamond-shaped fish related to rays, with no stinging tail.** (скат (ромбовый))
 
 1. The fish market had *skate* wing on ice.
 2. A *skate* buried itself until only its eyes showed.
 3. *Skate* tastes a little like scallops.
+
+**2. A boot with a blade or wheels for gliding over ice or pavement.** (конёк)
+
+4. One *skate* was a size too small.
+5. He laced up his *skates* at the edge of the rink.
+6. You can rent *skates* for five dollars.
 
 ---
 
@@ -1790,15 +1798,23 @@ The activity of catching fish.
 ### net
 
 **Pronunciation:** /nɛt/ &middot; *NET*
-**Русский:** сеть, невод
+**Русский:** сеть, невод; сетка
 **Plural:** *nets*
 **Countability:** countable
 
-A mesh of knotted cord used to catch fish.
+Net has 2 distinct senses.
+
+**1. A mesh of knotted cord used to catch fish.** (сеть, невод)
 
 1. They hauled the *net* in hand over hand.
 2. The *nets* came up almost empty.
 3. He threw a cast *net* off the seawall.
+
+**2. The mesh stretched across a court or hung in a goal.** (сетка)
+
+4. Her serve caught the top of the *net*.
+5. The ball hit the back of the *net*.
+6. Both *nets* need to be replaced.
 
 ---
 
@@ -1839,26 +1855,48 @@ Food put on a hook or in a trap to attract fish.
 **Plural:** *lures*
 **Countability:** countable
 
-An artificial bait, usually shiny or brightly colored, tied to a fishing line.
+Lure has 2 distinct senses.
+
+**1. An artificial bait, usually shiny or brightly colored, tied to a fishing line.** (блесна, искусственная приманка)
 
 1. He switched to a silver *lure* and caught two right away.
 2. His tackle box is full of *lures* he's never used.
 3. A *lure* has to move like a wounded fish.
+
+**2. An artificial bait made to look like something a fish wants to eat.** (блесна, искусственная приманка)
+
+4. That silver *lure* works great in muddy water.
+5. He must have fifty *lures* in that box.
+6. I lost my favorite *lure* on a log.
 
 ---
 
 ### tackle
 
 **Pronunciation:** /ˈtækəl/ &middot; *TAK-ul*
-**Русский:** рыболовные снасти
+**Русский:** рыболовные снасти; захват (игрока с мячом); отбор мяча
 **Countability:** uncountable
 **Contrast:** Uncountable in fishing: *some tackle*, never 'a tackle' (a football *tackle* is countable).
 
-The rods, lines, hooks, and other gear used for fishing.
+Tackle has 3 distinct senses.
+
+**1. The rods, lines, hooks, and other gear used for fishing.** (рыболовные снасти)
 
 1. All my *tackle* is in the back of the truck.
 2. The *tackle* shop opens at five.
 3. He bought new *tackle* for the trip.
+
+**2. The act of bringing down or stopping the player with the ball.** (захват (игрока с мячом); отбор мяча)
+
+4. That *tackle* knocked the ball loose.
+5. He made eleven *tackles* in the game.
+6. It was a clean *tackle*, not a foul.
+
+**3. The equipment used for fishing, such as rods, hooks, and lures.** (рыболовные снасти)
+
+7. All my *tackle* is in the back of the truck.
+8. He spent a hundred dollars on *tackle* and caught nothing.
+9. Good *tackle* lasts a lifetime if you take care of it.
 
 ---
 
@@ -1869,11 +1907,19 @@ The rods, lines, hooks, and other gear used for fishing.
 **Plural:** *sinkers*
 **Countability:** countable
 
-A small weight tied to a fishing line to pull the bait down.
+Sinker has 2 distinct senses.
+
+**1. A small weight tied to a fishing line to pull the bait down.** (грузило)
 
 1. Add a heavier *sinker* if the current keeps moving your bait.
 2. The *sinker* snagged on a rock.
 3. He keeps his *sinkers* in an old film canister.
+
+**2. A small weight that pulls a baited hook down into the water.** (грузило)
+
+4. Add a *sinker* if you want the bait to stay on the bottom.
+5. The current is strong, so use heavier *sinkers*.
+6. My *sinker* snagged on a rock and the line broke.
 
 ---
 
@@ -1899,11 +1945,19 @@ A long spear with a rope attached, thrown or fired at large sea animals.
 **Plural:** *catches*
 **Countability:** countable
 
-The fish taken on a fishing trip.
+Catch has 2 distinct senses.
+
+**1. The fish taken on a fishing trip.** (улов)
 
 1. They weighed the *catch* at the dock.
 2. It was the biggest *catch* of the season.
 3. Bad weather cut everyone's *catches* in half.
+
+**2. The fish that someone has caught, or the amount caught.** (улов)
+
+4. We cleaned the *catch* on the dock before dark.
+5. That's a nice *catch* for one afternoon.
+6. Their *catches* have gotten smaller every year.
 
 ---
 

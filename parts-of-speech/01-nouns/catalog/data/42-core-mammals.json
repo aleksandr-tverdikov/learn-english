@@ -927,13 +927,42 @@
       "term": "otter",
       "ipa": "/ˈɑːtər/",
       "respell": "AH-tur",
-      "meaning": "A playful river or sea animal with thick fur and webbed feet. ---",
+      "meaning": "Otter has 2 distinct senses.",
       "examples": [
         "Otters were floating on their backs in the kelp.",
         "An otter came up holding a crab.",
-        "We watched the otters slide down the bank."
+        "We watched the otters slide down the bank.",
+        "A sea otter floated on its back cracking open a clam.",
+        "Otters hold hands so they don't drift apart while they sleep.",
+        "An otter slid down the muddy bank and disappeared."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A playful river or sea animal with thick fur and webbed feet",
+          "body": [
+            "(выдра)"
+          ],
+          "examples": [
+            "Otters were floating on their backs in the kelp.",
+            "An otter came up holding a crab.",
+            "We watched the otters slide down the bank."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small furry water animal with webbed feet and a long tail",
+          "body": [
+            "(выдра)",
+            "---"
+          ],
+          "examples": [
+            "A sea otter floated on its back cracking open a clam.",
+            "Otters hold hands so they don't drift apart while they sleep.",
+            "An otter slid down the muddy bank and disappeared."
+          ]
+        }
+      ],
       "русский": "выдра",
       "plural": "otters",
       "countability": "countable"
@@ -1080,13 +1109,42 @@
       "term": "dolphin",
       "ipa": "/ˈdɑːlfɪn/",
       "respell": "DAHL-fin",
-      "meaning": "A small sea mammal with a beaked snout, known for being intelligent. ---",
+      "meaning": "Dolphin has 2 distinct senses.",
       "examples": [
         "Dolphins were riding the wake behind us.",
         "A dolphin jumped clear out of the water.",
-        "There's a pod of dolphins out past the buoy."
+        "There's a pod of dolphins out past the buoy.",
+        "A pair of dolphins followed the ferry for almost a mile.",
+        "My daughter wants to swim with dolphins on our trip.",
+        "A dolphin is a mammal, not a fish."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small sea mammal with a beaked snout, known for being intelligent",
+          "body": [
+            "(дельфин)"
+          ],
+          "examples": [
+            "Dolphins were riding the wake behind us.",
+            "A dolphin jumped clear out of the water.",
+            "There's a pod of dolphins out past the buoy."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A smart, playful sea mammal with a long snout",
+          "body": [
+            "(дельфин)",
+            "---"
+          ],
+          "examples": [
+            "A pair of dolphins followed the ferry for almost a mile.",
+            "My daughter wants to swim with dolphins on our trip.",
+            "A dolphin is a mammal, not a fish."
+          ]
+        }
+      ],
       "русский": "дельфин",
       "plural": "dolphins",
       "countability": "countable"
@@ -1278,14 +1336,43 @@
       "term": "buck",
       "ipa": "/bʌk/",
       "respell": "BUK",
-      "meaning": "An adult male deer, rabbit, or goat. ---",
+      "meaning": "Buck has 2 distinct senses.",
       "examples": [
         "He counted six bucks from the stand.",
         "A buck stepped out of the treeline.",
-        "The bucks lose their antlers every winter."
+        "The bucks lose their antlers every winter.",
+        "That'll run you about fifty bucks.",
+        "Can you lend me a buck?",
+        "He's just trying to make a few extra bucks."
       ],
-      "senses": [],
-      "русский": "самец (оленя, кролика)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An adult male deer, rabbit, or goat",
+          "body": [
+            "(самец (оленя, кролика))"
+          ],
+          "examples": [
+            "He counted six bucks from the stand.",
+            "A buck stepped out of the treeline.",
+            "The bucks lose their antlers every winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An informal word for a dollar",
+          "body": [
+            "(доллар (разг.))",
+            "---"
+          ],
+          "examples": [
+            "That'll run you about fifty bucks.",
+            "Can you lend me a buck?",
+            "He's just trying to make a few extra bucks."
+          ]
+        }
+      ],
+      "русский": "самец (оленя, кролика); доллар (разг.)",
       "plural": "bucks",
       "countability": "countable"
     },
@@ -1586,13 +1673,42 @@
       "term": "tail",
       "ipa": "/teɪl/",
       "respell": "TAYL",
-      "meaning": "The part that sticks out at the back end of an animal. ---",
+      "meaning": "Tail has 2 distinct senses.",
       "examples": [
         "The dog's tail knocked everything off the table.",
         "Squirrels use their tails for balance.",
-        "He stepped on the cat's tail by accident."
+        "He stepped on the cat's tail by accident.",
+        "The bird flicked its tail and flew off.",
+        "Peacocks spread their tails to show off.",
+        "A long tail helps a bird steer in the air."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part that sticks out at the back end of an animal",
+          "body": [
+            "(хвост)"
+          ],
+          "examples": [
+            "The dog's tail knocked everything off the table.",
+            "Squirrels use their tails for balance.",
+            "He stepped on the cat's tail by accident."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The feathers at the back end of a bird, used for steering",
+          "body": [
+            "(хвост)",
+            "---"
+          ],
+          "examples": [
+            "The bird flicked its tail and flew off.",
+            "Peacocks spread their tails to show off.",
+            "A long tail helps a bird steer in the air."
+          ]
+        }
+      ],
       "русский": "хвост",
       "plural": "tails",
       "countability": "countable",

@@ -384,15 +384,23 @@ A list of names, numbers, or files arranged in order.
 ### operator
 
 **Pronunciation:** /ˈɑːpəreɪtər/ &middot; *AH-puh-ray-tur*
-**Русский:** оператор (связи)
+**Русский:** оператор (связи); оператор (машины, установки)
 **Plural:** *operators*
 **Countability:** countable
 
-A person or company that connects or manages phone calls and service.
+Operator has 2 distinct senses.
+
+**1. A person or company that connects or manages phone calls and service.** (оператор (связи))
 
 1. Press zero to reach an *operator*.
 2. The *operator* put me through to billing.
 3. Three *operators* share the same tower.
+
+**2. Someone whose job is running a machine or a plant.** (оператор (машины, установки))
+
+4. The crane *operator* has been here longer than anyone.
+5. Two *operators* watch the control room around the clock.
+6. Every *operator* has to be certified.
 
 ---
 
@@ -563,16 +571,24 @@ Something said, written, or done as an answer or reaction.
 ### rumor
 
 **Pronunciation:** /ˈruːmər/ &middot; *ROO-mur*
-**Русский:** слух
+**Русский:** слух; слух, молва
 **Plural:** *rumors*
 **Countability:** countable
 **Contrast:** American spelling rumor; British rumour.
 
-A story people pass around that may not be true.
+Rumor has 2 distinct senses.
+
+**1. A story people pass around that may not be true.** (слух)
 
 1. There's a *rumor* that the plant is closing.
 2. *Rumors* spread through the office by lunchtime.
 3. He heard the *rumor* from three different people.
+
+**2. A story that spreads from person to person without being confirmed.** (слух, молва)
+
+4. *Rumors* of layoffs spread through the plant.
+5. There's a *rumor* that the store is closing.
+6. He denied the *rumor* on the record.
 
 ---
 

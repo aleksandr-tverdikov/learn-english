@@ -214,7 +214,8 @@
       "senses": [],
       "русский": "кассовый аппарат, касса",
       "plural": "cash registers",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "British speakers usually say 'till'."
     },
     {
       "term": "appetite",
@@ -723,14 +724,43 @@
       "term": "truck stop",
       "ipa": "/ˈtrʌk stɑːp/",
       "respell": "TRUK-stahp",
-      "meaning": "A roadside place where drivers eat, refuel, and rest. ---",
+      "meaning": "Truck stop has 2 distinct senses.",
       "examples": [
         "We had pie at a truck stop in Nebraska.",
         "The truck stop is open all night.",
-        "Truck stops usually have showers and a full diner."
+        "Truck stops usually have showers and a full diner.",
+        "We ate breakfast at a truck stop off I-80.",
+        "The best truck stops have showers and a laundry.",
+        "He filled up at the truck stop and kept going."
       ],
-      "senses": [],
-      "русский": "придорожная закусочная (для дальнобойщиков)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A roadside place where drivers eat, refuel, and rest",
+          "body": [
+            "(придорожная закусочная (для дальнобойщиков))"
+          ],
+          "examples": [
+            "We had pie at a truck stop in Nebraska.",
+            "The truck stop is open all night.",
+            "Truck stops usually have showers and a full diner."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large highway stop with fuel, food and showers, used mainly by truck drivers",
+          "body": [
+            "(стоянка для дальнобойщиков)",
+            "---"
+          ],
+          "examples": [
+            "We ate breakfast at a truck stop off I-80.",
+            "The best truck stops have showers and a laundry.",
+            "He filled up at the truck stop and kept going."
+          ]
+        }
+      ],
+      "русский": "придорожная закусочная (для дальнобойщиков); стоянка для дальнобойщиков",
       "plural": "truck stops",
       "countability": "countable"
     },
@@ -902,13 +932,42 @@
       "term": "delivery fee",
       "ipa": "/dɪˈlɪvəri fiː/",
       "respell": "dih-LIV-uh-ree-fee",
-      "meaning": "The extra charge for bringing an order to your door. ---",
+      "meaning": "Delivery fee has 2 distinct senses.",
       "examples": [
         "The delivery fee is almost as much as the food.",
         "They waive the delivery fee on orders over thirty dollars.",
-        "App delivery fees have gotten out of hand."
+        "App delivery fees have gotten out of hand.",
+        "There's a five-dollar delivery fee on grocery orders.",
+        "The delivery fees add up fast.",
+        "They waived the delivery fee because the food was late."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The extra charge for bringing an order to your door",
+          "body": [
+            "(плата за доставку)"
+          ],
+          "examples": [
+            "The delivery fee is almost as much as the food.",
+            "They waive the delivery fee on orders over thirty dollars.",
+            "App delivery fees have gotten out of hand."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Money charged for bringing goods to the buyer",
+          "body": [
+            "(плата за доставку)",
+            "---"
+          ],
+          "examples": [
+            "There's a five-dollar delivery fee on grocery orders.",
+            "The delivery fees add up fast.",
+            "They waived the delivery fee because the food was late."
+          ]
+        }
+      ],
       "русский": "плата за доставку",
       "plural": "delivery fees",
       "countability": "countable"
@@ -1645,14 +1704,43 @@
       "term": "booster seat",
       "ipa": "/ˈbuːstər siːt/",
       "respell": "BOO-stur-seet",
-      "meaning": "A seat that raises a small child up to table height. ---",
+      "meaning": "Booster seat has 2 distinct senses.",
       "examples": [
         "Could we get a booster seat for her?",
         "The booster seat straps onto a regular chair.",
-        "They keep booster seats stacked by the front door."
+        "They keep booster seats stacked by the front door.",
+        "She moved out of the car seat and into a booster seat.",
+        "The restaurant brought a booster seat to the table.",
+        "We keep two booster seats in the trunk."
       ],
-      "senses": [],
-      "русский": "детское сиденье-подкладка (на стул)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A seat that raises a small child up to table height",
+          "body": [
+            "(детское сиденье-подкладка (на стул))"
+          ],
+          "examples": [
+            "Could we get a booster seat for her?",
+            "The booster seat straps onto a regular chair.",
+            "They keep booster seats stacked by the front door."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cushion seat that lifts an older child so the seat belt fits",
+          "body": [
+            "(детское сиденье-бустер)",
+            "---"
+          ],
+          "examples": [
+            "She moved out of the car seat and into a booster seat.",
+            "The restaurant brought a booster seat to the table.",
+            "We keep two booster seats in the trunk."
+          ]
+        }
+      ],
+      "русский": "детское сиденье-подкладка (на стул); детское сиденье-бустер",
       "plural": "booster seats",
       "countability": "countable"
     },
@@ -1918,13 +2006,42 @@
       "term": "toothpick",
       "ipa": "/ˈtuːθpɪk/",
       "respell": "TOOTH-pik",
-      "meaning": "A thin pointed stick for cleaning between the teeth or spearing food. ---",
+      "meaning": "Toothpick has 2 distinct senses.",
       "examples": [
         "There's a toothpick holding the sandwich together.",
         "He grabbed a toothpick on his way out.",
-        "The olives came on little toothpicks."
+        "The olives came on little toothpicks.",
+        "He was chewing on a toothpick.",
+        "There's a jar of toothpicks by the register.",
+        "Use a toothpick, not your fingernail."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin pointed stick for cleaning between the teeth or spearing food",
+          "body": [
+            "(зубочистка)"
+          ],
+          "examples": [
+            "There's a toothpick holding the sandwich together.",
+            "He grabbed a toothpick on his way out.",
+            "The olives came on little toothpicks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small pointed stick for getting food out from between the teeth",
+          "body": [
+            "(зубочистка)",
+            "---"
+          ],
+          "examples": [
+            "He was chewing on a toothpick.",
+            "There's a jar of toothpicks by the register.",
+            "Use a toothpick, not your fingernail."
+          ]
+        }
+      ],
       "русский": "зубочистка",
       "plural": "toothpicks",
       "countability": "countable"

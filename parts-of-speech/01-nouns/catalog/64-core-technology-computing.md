@@ -60,11 +60,19 @@ A set of connected pages on the internet kept in one place.
 **Русский:** интернет
 **Countability:** uncountable
 
-The worldwide network that connects computers to each other.
+Internet has 2 distinct senses.
+
+**1. The worldwide network that connects computers to each other.** (интернет)
 
 1. The *internet* went out during the storm.
 2. She found the recipe on the *internet*.
 3. We have no *internet* at the cabin.
+
+**2. The worldwide system of connected computer networks.** (интернет)
+
+4. I found the recipe on the *internet*.
+5. Our *internet* has been slow since the storm.
+6. She grew up before the *internet* was in every home.
 
 ---
 
@@ -105,11 +113,19 @@ A group of computers or devices connected so they can share information.
 **Plural:** *signals*
 **Countability:** countable
 
-A wave or pulse that carries information to a phone, radio, or other device.
+Signal has 2 distinct senses.
+
+**1. A wave or pulse that carries information to a phone, radio, or other device.** (сигнал)
 
 1. There's no *signal* out here in the canyon.
 2. The *signal* gets weak in the basement.
 3. Cell *signals* are much better since they put up the new tower.
+
+**2. The radio waves that carry a phone call or internet connection.** (сигнал)
+
+4. There's no *signal* in this parking garage.
+5. The *signal* gets weak once you pass the county line.
+6. Cell *signals* are terrible in the mountains.
 
 ---
 
@@ -219,15 +235,23 @@ The stream of new posts or updates a site shows you.
 ### profile
 
 **Pronunciation:** /ˈproʊfaɪl/ &middot; *PROH-fyle*
-**Русский:** профиль
+**Русский:** профиль; профиль (вид сбоку)
 **Plural:** *profiles*
 **Countability:** countable
 
-The page that holds your name, photo, and details on a site.
+Profile has 2 distinct senses.
+
+**1. The page that holds your name, photo, and details on a site.** (профиль)
 
 1. Update your *profile* with the new job title.
 2. A lot of these *profiles* are fake.
 3. I couldn't find her *profile* anywhere.
+
+**2. The shape of a face or object seen from the side.** (профиль (вид сбоку))
+
+4. The coin shows the president in *profile*.
+5. She has a lovely *profile*.
+6. The artist sketched both *profiles*.
 
 ---
 
@@ -389,11 +413,19 @@ A tiny picture used in messages to show a feeling or thing.
 **Plural:** *hashtags*
 **Countability:** countable
 
-A word after a # sign used to label a post.
+Hashtag has 2 distinct senses.
+
+**1. A word after a # sign used to label a post.** (хештег)
 
 1. The *hashtag* was trending all afternoon.
 2. Don't put fifteen *hashtags* on one photo.
 3. They made up a *hashtag* for the conference.
+
+**2. A word marked with a # sign that groups posts on the same topic.** (хештег)
+
+4. The *hashtag* was trending all afternoon.
+5. Don't put twenty *hashtags* on one photo.
+6. Search that *hashtag* and you'll find the whole thread.
 
 ---
 
@@ -431,15 +463,23 @@ A photo you take of yourself, usually with a phone.
 ### chat
 
 **Pronunciation:** /tʃæt/ &middot; *CHAT*
-**Русский:** чат
+**Русский:** чат; чат, переписка
 **Plural:** *chats*
 **Countability:** countable
 
-A conversation typed back and forth in real time online.
+Chat has 2 distinct senses.
+
+**1. A conversation typed back and forth in real time online.** (чат)
 
 1. Ask the question in the *chat*.
 2. I have about nine group *chats* going.
 3. The support *chat* connected me to a real person.
+
+**2. An exchange of short typed messages online.** (чат, переписка)
+
+4. The whole family is in one group *chat*.
+5. I muted three *chats* this morning.
+6. There's a live *chat* button on their support page.
 
 ---
 
@@ -495,6 +535,7 @@ A file copied from the internet onto your device.
 **Русский:** загрузка (на сервер)
 **Plural:** *uploads*
 **Countability:** countable
+**Contrast:** The noun is stressed on the first syllable (UP-lohd); the verb is stressed on the second (up-LOHD).
 
 A file sent from your device to the internet.
 
@@ -526,12 +567,21 @@ A newer or better version of something you already have.
 **Русский:** версия
 **Plural:** *versions*
 **Countability:** countable
+**Contrast:** Americans say VUR-zhun with a soft zh; the British usually say VUR-shun.
 
-One particular form of a program or document among several.
+Version has 2 distinct senses.
+
+**1. One particular form of a program or document among several.** (версия)
 
 1. Which *version* of the app are you running?
 2. Older *versions* don't support this file type.
 3. The new *version* fixed the crash.
+
+**2. One particular form of something that exists in several forms.** (версия)
+
+4. Which *version* of the app are you running?
+5. The free *version* has ads.
+6. There are two *versions* of that story going around.
 
 ---
 
@@ -598,30 +648,46 @@ A quick key combination or link that saves you steps.
 ### plugin
 
 **Pronunciation:** /ˈplʌɡɪn/ &middot; *PLUG-in*
-**Русский:** плагин
+**Русский:** плагин; плагин, дополнение
 **Plural:** *plugins*
 **Countability:** countable
 
-A small piece of software that adds a feature to a bigger program.
+Plugin has 2 distinct senses.
+
+**1. A small piece of software that adds a feature to a bigger program.** (плагин)
 
 1. Install the *plugin* and restart the browser.
 2. Too many *plugins* will slow the site down.
 3. There's a *plugin* that does the formatting for you.
+
+**2. A small piece of software added to a program to give it more features.** (плагин, дополнение)
+
+4. Install the *plugin* and the calendar shows up.
+5. Too many *plugins* will slow the site down.
+6. There's a free *plugin* that does exactly that.
 
 ---
 
 ### extension
 
 **Pronunciation:** /ɪkˈstɛnʃən/ &middot; *ik-STEN-shun*
-**Русский:** расширение (браузера)
+**Русский:** расширение (браузера); расширение (браузера); добавочный номер
 **Plural:** *extensions*
 **Countability:** countable
 
-An add-on that gives a browser or program extra abilities.
+Extension has 2 distinct senses.
+
+**1. An add-on that gives a browser or program extra abilities.** (расширение (браузера))
 
 1. I use an ad-blocking *extension*.
 2. Some *extensions* can read everything you type.
 3. The *extension* stopped working after the update.
+
+**2. A small add-on for a browser, or an extra number that reaches one phone in an office.** (расширение (браузера); добавочный номер)
+
+4. I use an ad-blocking *extension*.
+5. Dial the main number, then *extension* 214.
+6. Disable your *extensions* and see if the page loads.
 
 ---
 
@@ -703,15 +769,23 @@ Sound that has been recorded or is being sent electronically.
 ### image
 
 **Pronunciation:** /ˈɪmɪdʒ/ &middot; *IM-ij*
-**Русский:** изображение, картинка
+**Русский:** изображение, картинка; образ; изображение
 **Plural:** *images*
 **Countability:** countable
 
-A picture stored or shown on a screen.
+Image has 2 distinct senses.
+
+**1. A picture stored or shown on a screen.** (изображение, картинка)
 
 1. The *image* is too big to email.
 2. Compress the *images* before you upload them.
 3. Right-click the *image* and save it.
+
+**2. A picture of someone or something, or the way they appear to others.** (образ; изображение)
+
+4. The company is trying to change its *image*.
+5. Her *image* appeared on the screen.
+6. The book is full of black and white *images*.
 
 ---
 
@@ -748,14 +822,23 @@ How much detail a screen or image holds, counted in pixels.
 ### graphics
 
 **Pronunciation:** /ˈɡræfɪks/ &middot; *GRAF-iks*
-**Русский:** графика
+**Русский:** графика; графика (изображения)
 **Countability:** uncountable
+**Contrast:** Always ends in -s but takes a singular verb: the graphics is impressive is wrong — say the graphics are impressive.
 
-The pictures and visual effects a computer produces.
+Graphics has 2 distinct senses.
+
+**1. The pictures and visual effects a computer produces.** (графика)
 
 1. The *graphics* in that game are stunning.
 2. You'll need a better card if you want smooth *graphics*.
 3. The *graphics* look dated now.
+
+**2. Pictures and designs made or shown by a computer.** (графика (изображения))
+
+4. The *graphics* in that game are unbelievable.
+5. Our laptop can't handle heavy *graphics*.
+6. She does the *graphics* for the station's weather segment.
 
 ---
 
@@ -850,15 +933,23 @@ A program that finds and removes harmful software.
 ### phishing
 
 **Pronunciation:** /ˈfɪʃɪŋ/ &middot; *FISH-ing*
-**Русский:** фишинг
+**Русский:** фишинг; фишинг (выманивание паролей)
 **Countability:** uncountable
 **Contrast:** Pronounced exactly like *fishing*; only the spelling differs.
 
-Tricking people into giving up passwords or card numbers with fake messages.
+Phishing has 2 distinct senses.
+
+**1. Tricking people into giving up passwords or card numbers with fake messages.** (фишинг)
 
 1. That email is *phishing* — don't click anything.
 2. The company runs *phishing* tests on its own staff.
 3. *Phishing* still causes most break-ins.
+
+**2. The trick of sending fake messages to get people to give up passwords or card numbers.** (фишинг (выманивание паролей))
+
+4. That email is *phishing* — don't click anything.
+5. The bank sent a warning about *phishing*.
+6. Our company runs *phishing* tests twice a year.
 
 ---
 
@@ -1032,11 +1123,19 @@ What a computer or program produces after it processes something.
 **Plural:** *errors*
 **Countability:** countable
 
-A mistake that stops a program from working correctly.
+Error has 2 distinct senses.
+
+**1. A mistake that stops a program from working correctly.** (ошибка)
 
 1. I got an *error* when I tried to save.
 2. The log is full of the same *errors*.
 3. The *error* message wasn't very helpful.
+
+**2. A mistake, or a message telling you something went wrong.** (ошибка)
+
+4. I keep getting an *error* when I try to save.
+5. The log is full of *errors*.
+6. It was a simple typing *error*.
 
 ---
 
@@ -1058,16 +1157,24 @@ A small, usually brief fault in a system.
 ### cache
 
 **Pronunciation:** /kæʃ/ &middot; *KASH*
-**Русский:** кэш
+**Русский:** кэш; кеш (временная память)
 **Plural:** *caches*
 **Countability:** countable
 **Contrast:** Pronounced exactly like *cash*. It is not "ka-SHAY" — that is the separate word *cachet*.
 
-A store of data kept nearby so it can be fetched again quickly.
+Cache has 2 distinct senses.
+
+**1. A store of data kept nearby so it can be fetched again quickly.** (кэш)
 
 1. Clear your *cache* and try again.
 2. The *caches* fill up over time.
 3. The page is being served from the *cache*.
+
+**2. A store of recently used data that a device keeps so it loads faster next time.** (кеш (временная память))
+
+4. Clear your *cache* and try the page again.
+5. The browser *cache* was holding an old version.
+6. Both *caches* filled up within a day.
 
 ---
 
@@ -1135,14 +1242,22 @@ A unit of storage equal to about a billion bytes.
 ### storage
 
 **Pronunciation:** /ˈstɔːrɪdʒ/ &middot; *STOR-ij*
-**Русский:** хранилище (памяти), место для данных
+**Русский:** хранилище (памяти), место для данных; хранение; хранилище
 **Countability:** uncountable
 
-Space on a device or online where files are kept.
+Storage has 2 distinct senses.
+
+**1. Space on a device or online where files are kept.** (хранилище (памяти), место для данных)
 
 1. I'm out of *storage* on my phone.
 2. Cloud *storage* is cheap now.
 3. The laptop comes with a terabyte of *storage*.
+
+**2. The keeping of fuel, energy, or goods until they are needed.** (хранение; хранилище)
+
+4. Battery *storage* lets the grid save solar power for evening.
+5. The gas is kept in underground *storage* over the summer.
+6. They rented extra *storage* for the spare parts.
 
 ---
 
@@ -1179,16 +1294,24 @@ The main storage device inside a computer.
 ### disk
 
 **Pronunciation:** /dɪsk/ &middot; *DISK*
-**Русский:** диск
+**Русский:** диск; диск, круглая пластина
 **Plural:** *disks*
 **Countability:** countable
 **Contrast:** American computing uses *disk* with a k; *disc* with a c is for music and movies — a compact disc.
 
-A flat piece of storage that a computer reads and writes data on.
+Disk has 2 distinct senses.
+
+**1. A flat piece of storage that a computer reads and writes data on.** (диск)
 
 1. The *disk* is running out of space.
 2. Both *disks* are mirrored, so nothing is lost.
 3. Copy the file to the *disk* first.
+
+**2. A thin flat round object or shape.** (диск, круглая пластина)
+
+4. The moon was a pale *disk* in the sky.
+5. Slice the carrots into thin *disks*.
+6. A metal *disk* covers the drain.
 
 ---
 
@@ -1211,15 +1334,23 @@ A spare copy of files kept in case the original is lost.
 ### desktop
 
 **Pronunciation:** /ˈdɛsktɑːp/ &middot; *DESK-tahp*
-**Русский:** настольный компьютер, десктоп
+**Русский:** настольный компьютер, десктоп; рабочий стол (экрана); настольный компьютер
 **Plural:** *desktops*
 **Countability:** countable
 
-A computer built to sit on a desk rather than be carried around.
+Desktop has 2 distinct senses.
+
+**1. A computer built to sit on a desk rather than be carried around.** (настольный компьютер, десктоп)
 
 1. He does all his editing on a *desktop*.
 2. The office still runs on *desktops*.
 3. A *desktop* gives you more power for the money than a laptop.
+
+**2. The main screen of a computer, or a computer meant to sit on a desk.** (рабочий стол (экрана); настольный компьютер)
+
+4. The file is right there on my *desktop*.
+5. He works on a *desktop* and travels with a tablet.
+6. The office replaced all the old *desktops* last year.
 
 ---
 
@@ -1230,11 +1361,19 @@ A computer built to sit on a desk rather than be carried around.
 **Plural:** *phones*
 **Countability:** countable
 
-A device for talking to someone at a distance, now usually a handheld one.
+Phone has 2 distinct senses.
+
+**1. A device for talking to someone at a distance, now usually a handheld one.** (телефон)
 
 1. My *phone* died in the middle of the call.
 2. Please put your *phones* away during the exam.
 3. She left her *phone* in the car.
+
+**2. A device used to talk to or message people at a distance.** (телефон)
+
+4. My *phone* died in the middle of the call.
+5. Put your *phones* away during dinner.
+6. She answered the *phone* on the first ring.
 
 ---
 
@@ -1351,11 +1490,19 @@ A machine that turns a paper document or photo into a computer file.
 **Plural:** *robots*
 **Countability:** countable
 
-A machine that can carry out tasks on its own.
+Robot has 2 distinct senses.
+
+**1. A machine that can carry out tasks on its own.** (робот)
 
 1. A *robot* welds the doors on the assembly line.
 2. The warehouse uses *robots* to move the shelves around.
 3. We have a little *robot* that vacuums the floor.
+
+**2. A machine that can do work on its own, often controlled by a computer.** (робот)
+
+4. A *robot* vacuums their living room every morning.
+5. The plant uses *robots* to weld the frames.
+6. That customer service line sounds like a *robot*.
 
 ---
 
@@ -1562,11 +1709,19 @@ A handheld device used to control a game or machine.
 **Plural:** *gadgets*
 **Countability:** countable
 
-A small clever device that does one particular job.
+Gadget has 2 distinct senses.
+
+**1. A small clever device that does one particular job.** (гаджет, устройство)
 
 1. He buys every new *gadget* that comes out.
 2. The kitchen drawer is full of *gadgets* we never use.
 3. It's a handy little *gadget* for opening jars.
+
+**2. A small clever device, usually electronic.** (гаджет, устройство)
+
+4. He buys every new *gadget* that comes out.
+5. The kitchen is full of *gadgets* nobody uses.
+6. It's a handy little *gadget* for the car.
 
 ---
 
@@ -1681,11 +1836,19 @@ A set of parts working together as a whole.
 **Plural:** *components*
 **Countability:** countable
 
-One of the parts that something larger is made of.
+Component has 2 distinct senses.
+
+**1. One of the parts that something larger is made of.** (компонент, деталь)
 
 1. The failed *component* costs four dollars.
 2. Most of the *components* are made overseas.
 3. Every *component* is tested before it ships.
+
+**2. One of the parts that a machine or product is built from.** (компонент, деталь)
+
+4. A single *component* held up the whole order.
+5. Most of the *components* come from three suppliers.
+6. They test every *component* before assembly.
 
 ---
 

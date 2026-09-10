@@ -573,30 +573,46 @@ The year in which a wine's grapes were harvested.
 ### cellar
 
 **Pronunciation:** /ˈsɛlər/ &middot; *SEL-ur*
-**Русский:** погреб, винный подвал
+**Русский:** погреб, винный подвал; погреб, подвал
 **Plural:** *cellars*
 **Countability:** countable
 **Contrast:** Sounds exactly like seller.
 
-An underground room where wine is stored.
+Cellar has 2 distinct senses.
+
+**1. An underground room where wine is stored.** (погреб, винный подвал)
 
 1. The restaurant keeps two thousand bottles in its *cellar*.
 2. He went down to the *cellar* for another bottle.
 3. Their wine *cellar* stays cool all summer.
+
+**2. An underground room used for storing things, especially food or wine.** (погреб, подвал)
+
+4. The restaurant keeps its wine in a *cellar* under the kitchen.
+5. We hid in the *cellar* during the tornado warning.
+6. Old farmhouses out here often have root *cellars*.
 
 ---
 
 ### alcohol
 
 **Pronunciation:** /ˈælkəhɔːl/ &middot; *AL-kuh-hawl*
-**Русский:** алкоголь, спирт
+**Русский:** алкоголь, спирт; спирт; алкоголь
 **Countability:** uncountable
 
-The substance in beer, wine, and liquor that makes people drunk.
+Alcohol has 2 distinct senses.
+
+**1. The substance in beer, wine, and liquor that makes people drunk.** (алкоголь, спирт)
 
 1. He gave up *alcohol* in January.
 2. There's no *alcohol* at the reception.
 3. The label says fourteen percent *alcohol*.
+
+**2. The intoxicating substance in drinks, or a clear liquid used to disinfect.** (спирт; алкоголь)
+
+4. Wipe the thermometer with rubbing *alcohol*.
+5. The punch has no *alcohol* in it.
+6. *Alcohol* evaporates fast.
 
 ---
 
@@ -951,15 +967,23 @@ A drink taken just before going to bed.
 ### mixer
 
 **Pronunciation:** /ˈmɪksər/ &middot; *MIK-sur*
-**Русский:** безалкогольный компонент коктейля (сок, тоник и т. п.)
+**Русский:** безалкогольный компонент коктейля (сок, тоник и т. п.); миксер
 **Plural:** *mixers*
 **Countability:** countable
 
-A nonalcoholic drink added to liquor in a cocktail.
+Mixer has 2 distinct senses.
+
+**1. A nonalcoholic drink added to liquor in a cocktail.** (безалкогольный компонент коктейля (сок, тоник и т. п.))
 
 1. We have the vodka but no *mixers*.
 2. Cranberry juice is the only *mixer* in the house.
 3. Pick up some *mixers* on your way over.
+
+**2. An electric machine with beaters for mixing batter and dough.** (миксер)
+
+4. Beat the butter and sugar with a *mixer* for three minutes.
+5. Her stand *mixer* takes up half the counter.
+6. Hand *mixers* work fine for most recipes.
 
 ---
 
@@ -996,30 +1020,47 @@ A sweet fizzy soft drink flavored with ginger.
 ### garnish
 
 **Pronunciation:** /ˈɡɑːrnɪʃ/ &middot; *GAR-nish*
-**Русский:** украшение (для напитка или блюда)
+**Русский:** украшение (для напитка или блюда); украшение блюда (зелень, долька лимона)
 **Plural:** *garnishes*
 **Countability:** countable
+**Contrast:** False friend: an English garnish is a decoration on the plate, not a Russian «гарнир», which is a side dish.
 
-A small piece of fruit or herb added to a drink for looks and flavor.
+Garnish has 2 distinct senses.
+
+**1. A small piece of fruit or herb added to a drink for looks and flavor.** (украшение (для напитка или блюда))
 
 1. The *garnish* was a twist of orange peel.
 2. He lined up the *garnishes* before the dinner rush.
 3. Skip the *garnish* — I just want the drink.
+
+**2. A small decorative addition placed on a finished dish.** (украшение блюда (зелень, долька лимона))
+
+4. The parsley is just a *garnish*.
+5. He added a lemon twist as a *garnish*.
+6. Skip the *garnishes* if you're in a hurry.
 
 ---
 
 ### shaker
 
 **Pronunciation:** /ˈʃeɪkər/ &middot; *SHAY-kur*
-**Русский:** шейкер
+**Русский:** шейкер; солонка, перечница
 **Plural:** *shakers*
 **Countability:** countable
 
-A metal container for mixing a cocktail with ice.
+Shaker has 2 distinct senses.
+
+**1. A metal container for mixing a cocktail with ice.** (шейкер)
 
 1. He rattled the *shaker* for a good ten seconds.
 2. The bar had two *shakers* going at once.
 3. Pour it straight out of the *shaker* through a strainer.
+
+**2. A small container with holes in the top for sprinkling salt or pepper.** (солонка, перечница)
+
+4. Pass me the salt *shaker*.
+5. The pepper *shaker* is clogged again.
+6. Every table in the diner had matching *shakers*.
 
 ---
 
@@ -1086,16 +1127,24 @@ A very small glass holding a single measure of liquor.
 ### pitcher
 
 **Pronunciation:** /ˈpɪtʃər/ &middot; *PICH-ur*
-**Русский:** кувшин
+**Русский:** кувшин; питчер, подающий (в бейсболе)
 **Plural:** *pitchers*
 **Countability:** countable
 **Contrast:** Americans say pitcher where the British say jug.
 
-A large container with a handle and a spout for pouring drinks.
+Pitcher has 2 distinct senses.
+
+**1. A large container with a handle and a spout for pouring drinks.** (кувшин)
 
 1. They brought out a *pitcher* of iced tea.
 2. We ordered a *pitcher* for the table.
 3. There are two *pitchers* of water on the counter.
+
+**2. The baseball player who throws the ball to the batter.** (питчер, подающий (в бейсболе))
+
+4. Their starting *pitcher* left in the fifth inning.
+5. They went through four *pitchers* in one game.
+6. He was a *pitcher* in high school.
 
 ---
 
@@ -1238,15 +1287,24 @@ An insulated box for keeping drinks cold.
 ### straw
 
 **Pronunciation:** /strɔː/ &middot; *STRAW*
-**Русский:** трубочка, соломинка
+**Русский:** трубочка, соломинка; солома; трубочка (для питья)
 **Plural:** *straws*
 **Countability:** countable
+**Contrast:** Uncountable as солома, but countable as a drinking straw: Can we get two *straws*?
 
-A thin tube for drinking from a glass or cup.
+Straw has 2 distinct senses.
+
+**1. A thin tube for drinking from a glass or cup.** (трубочка, соломинка)
 
 1. Can I get a *straw* with that?
 2. The café switched to paper *straws*.
 3. He was chewing on his *straw* the whole time.
+
+**2. The dry stems of grain plants, used for animal bedding and for mulch.** (солома; трубочка (для питья))
+
+4. Spread *straw* over the new grass seed.
+5. There was *straw* all over the bed of the truck.
+6. The bar switched to paper *straws* last year.
 
 ---
 
@@ -1283,15 +1341,24 @@ A cover that fits on top of a cup or container.
 ### cork
 
 **Pronunciation:** /kɔːrk/ &middot; *KORK*
-**Русский:** пробка (винная)
+**Русский:** пробка (винная); пробка (материал и затычка)
 **Plural:** *corks*
 **Countability:** countable
+**Contrast:** Uncountable as the material (*a cork floor*), countable as a bottle stopper (*two corks*).
 
-The stopper in the neck of a wine bottle.
+Cork has 2 distinct senses.
+
+**1. The stopper in the neck of a wine bottle.** (пробка (винная))
 
 1. The *cork* broke off in the bottle.
 2. He smelled the *cork* out of habit.
 3. She saves the *corks* in a big jar.
+
+**2. The light, spongy bark of a certain oak, or a stopper made from it.** (пробка (материал и затычка))
+
+4. The bulletin board is *cork*.
+5. The *cork* broke off in the bottle.
+6. Save the *corks* — she's making a wreath out of them.
 
 ---
 
@@ -1328,16 +1395,24 @@ The valve that beer is poured from at a bar.
 ### faucet
 
 **Pronunciation:** /ˈfɔːsɪt/ &middot; *FAW-sit*
-**Русский:** водопроводный кран
+**Русский:** водопроводный кран; кран (водопроводный)
 **Plural:** *faucets*
 **Countability:** countable
 **Contrast:** Americans say faucet; the British say tap.
 
-The fixture that water comes out of at a sink.
+Faucet has 2 distinct senses.
+
+**1. The fixture that water comes out of at a sink.** (водопроводный кран)
 
 1. He filled the glass straight from the *faucet*.
 2. The kitchen *faucet* is dripping again.
 3. Both *faucets* need new washers.
+
+**2. The fitting you turn to let water out of a pipe.** (кран (водопроводный))
+
+4. The *faucet* drips all night.
+5. Turn the *faucet* off all the way.
+6. We replaced both bathroom *faucets* last month.
 
 ---
 
@@ -1347,25 +1422,41 @@ The fixture that water comes out of at a sink.
 **Русский:** лёд
 **Countability:** uncountable
 
-Frozen water, added to drinks to make them cold.
+Ice has 2 distinct senses.
+
+**1. Frozen water, added to drinks to make them cold.** (лёд)
 
 1. Can I get that with no *ice*?
 2. There's *ice* in the freezer.
 3. The *ice* melted and watered down my drink.
+
+**2. Water that has frozen solid.** (лёд)
+
+4. The *ice* on the pond isn't thick enough to walk on.
+5. Black *ice* made the bridge dangerous.
+6. *Ice* was still floating in the channel in April.
 
 ---
 
 ### foam
 
 **Pronunciation:** /foʊm/ &middot; *FOHM*
-**Русский:** пена
+**Русский:** пена; пена; поролон, пенопласт
 **Countability:** uncountable
 
-The layer of tiny bubbles on top of a drink.
+Foam has 2 distinct senses.
+
+**1. The layer of tiny bubbles on top of a drink.** (пена)
 
 1. That beer was mostly *foam*.
 2. She likes extra *foam* on her cappuccino.
 3. *Foam* spilled over the rim of the glass.
+
+**2. A light material full of tiny bubbles, either soft padding or a froth on liquid.** (пена; поролон, пенопласт)
+
+4. The mattress is memory *foam*.
+5. Spray *foam* seals the gaps around the pipes.
+6. There was two inches of *foam* on top of the beer.
 
 ---
 

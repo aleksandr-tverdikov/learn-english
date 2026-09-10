@@ -157,14 +157,43 @@
       "term": "file",
       "ipa": "/faɪl/",
       "respell": "FYL",
-      "meaning": "A metal hand tool with a rough surface for smoothing metal or wood. ---",
+      "meaning": "File has 2 distinct senses.",
       "examples": [
         "Run a file over that edge so it doesn't cut you.",
         "He smoothed the weld with a flat file.",
-        "The metal files are in the second drawer."
+        "The metal files are in the second drawer.",
+        "Can you email me the file?",
+        "Her employee file goes back ten years.",
+        "He keeps all the tax files in the cabinet."
       ],
-      "senses": [],
-      "русский": "напильник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A metal hand tool with a rough surface for smoothing metal or wood",
+          "body": [
+            "(напильник)"
+          ],
+          "examples": [
+            "Run a file over that edge so it doesn't cut you.",
+            "He smoothed the weld with a flat file.",
+            "The metal files are in the second drawer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of documents kept together, or a piece of data stored on a computer",
+          "body": [
+            "(файл; дело, досье)",
+            "---"
+          ],
+          "examples": [
+            "Can you email me the file?",
+            "Her employee file goes back ten years.",
+            "He keeps all the tax files in the cabinet."
+          ]
+        }
+      ],
+      "русский": "напильник; файл; дело, досье",
       "plural": "files",
       "countability": "countable"
     },
@@ -309,13 +338,42 @@
       "term": "stapler",
       "ipa": "/ˈsteɪplər/",
       "respell": "STAY-plur",
-      "meaning": "A tool that drives staples into paper or into a surface. ---",
+      "meaning": "Stapler has 2 distinct senses.",
       "examples": [
         "The stapler is out of staples.",
         "He used a heavy-duty stapler on the insulation.",
+        "There are two staplers in the supply closet.",
+        "Does anybody have a stapler?",
+        "The stapler is jammed again.",
         "There are two staplers in the supply closet."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tool that drives staples into paper or into a surface",
+          "body": [
+            "(степлер)"
+          ],
+          "examples": [
+            "The stapler is out of staples.",
+            "He used a heavy-duty stapler on the insulation.",
+            "There are two staplers in the supply closet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device that fastens sheets of paper together with small metal staples",
+          "body": [
+            "(степлер)",
+            "---"
+          ],
+          "examples": [
+            "Does anybody have a stapler?",
+            "The stapler is jammed again.",
+            "There are two staplers in the supply closet."
+          ]
+        }
+      ],
       "русский": "степлер",
       "plural": "staplers",
       "countability": "countable"
@@ -340,16 +398,46 @@
       "term": "bracket",
       "ipa": "/ˈbrækɪt/",
       "respell": "BRAK-it",
-      "meaning": "An angled support fixed to a wall to carry a shelf or fixture. ---",
+      "meaning": "Bracket has 2 distinct senses.",
       "examples": [
         "The shelf sits on two metal brackets.",
         "One bracket was bent, so the shelf sagged.",
-        "Screw the bracket into a stud."
+        "Screw the bracket into a stud.",
+        "The editor's note is in brackets.",
+        "Anything in brackets was added later.",
+        "Close the bracket at the end of the line."
       ],
-      "senses": [],
-      "русский": "кронштейн",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An angled support fixed to a wall to carry a shelf or fixture",
+          "body": [
+            "(кронштейн)"
+          ],
+          "examples": [
+            "The shelf sits on two metal brackets.",
+            "One bracket was bent, so the shelf sagged.",
+            "Screw the bracket into a stud."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the square marks used to enclose something added to a quotation",
+          "body": [
+            "(квадратная скобка)",
+            "---"
+          ],
+          "examples": [
+            "The editor's note is in brackets.",
+            "Anything in brackets was added later.",
+            "Close the bracket at the end of the line."
+          ]
+        }
+      ],
+      "русский": "кронштейн; квадратная скобка",
       "plural": "brackets",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American usage ( ) are parentheses and [ ] are brackets; the British call ( ) brackets."
     },
     {
       "term": "clip",
@@ -370,14 +458,58 @@
       "term": "spring",
       "ipa": "/sprɪŋ/",
       "respell": "SPRING",
-      "meaning": "A coil of metal that pushes back when you press or stretch it. ---",
+      "meaning": "Spring has 3 distinct senses.",
       "examples": [
         "The spring in the screen door is worn out.",
         "A broken spring is why the gate won't close.",
-        "Garage door springs are dangerous to replace."
+        "Garage door springs are dangerous to replace.",
+        "The town's water comes from a mountain spring.",
+        "Hot springs bubble up all along the fault.",
+        "We filled our bottles at a spring beside the trail.",
+        "We're putting the house on the market in the spring.",
+        "Spring came early this year.",
+        "The last three springs have been unusually wet."
       ],
-      "senses": [],
-      "русский": "пружина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A coil of metal that pushes back when you press or stretch it",
+          "body": [
+            "(пружина)"
+          ],
+          "examples": [
+            "The spring in the screen door is worn out.",
+            "A broken spring is why the gate won't close.",
+            "Garage door springs are dangerous to replace."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where water flows naturally out of the ground",
+          "body": [
+            "(родник, источник)"
+          ],
+          "examples": [
+            "The town's water comes from a mountain spring.",
+            "Hot springs bubble up all along the fault.",
+            "We filled our bottles at a spring beside the trail."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The season between winter and summer, when plants start to grow",
+          "body": [
+            "(весна)",
+            "---"
+          ],
+          "examples": [
+            "We're putting the house on the market in the spring.",
+            "Spring came early this year.",
+            "The last three springs have been unusually wet."
+          ]
+        }
+      ],
+      "русский": "пружина; родник, источник; весна",
       "plural": "springs",
       "countability": "countable"
     },
@@ -446,14 +578,43 @@
       "term": "wire",
       "ipa": "/ˈwaɪər/",
       "respell": "WY-ur",
-      "meaning": "A thin flexible strand of metal, often used to carry electricity. ---",
+      "meaning": "Wire has 2 distinct senses.",
       "examples": [
         "A loose wire was causing the short.",
         "Run the wire along the baseboard.",
-        "Twist the two wires together and cap them."
+        "Twist the two wires together and cap them.",
+        "A squirrel chewed through the wire.",
+        "Tie the sign up with a piece of wire.",
+        "The wires behind the TV are a mess."
       ],
-      "senses": [],
-      "русский": "проволока; провод",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin flexible strand of metal, often used to carry electricity",
+          "body": [
+            "(проволока; провод)"
+          ],
+          "examples": [
+            "A loose wire was causing the short.",
+            "Run the wire along the baseboard.",
+            "Twist the two wires together and cap them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Metal drawn out into a thin, flexible strand",
+          "body": [
+            "(провод, проволока)",
+            "---"
+          ],
+          "examples": [
+            "A squirrel chewed through the wire.",
+            "Tie the sign up with a piece of wire.",
+            "The wires behind the TV are a mess."
+          ]
+        }
+      ],
+      "русский": "проволока; провод; провод, проволока",
       "plural": "wires",
       "countability": "countable, and uncountable as a substance"
     },
@@ -507,13 +668,42 @@
       "term": "hose",
       "ipa": "/hoʊz/",
       "respell": "HOHZ",
-      "meaning": "A flexible tube that carries water or air. ---",
+      "meaning": "Hose has 2 distinct senses.",
       "examples": [
         "The garden hose is kinked.",
         "Screw the hose onto the spigot.",
-        "Both hoses leak at the coupling."
+        "Both hoses leak at the coupling.",
+        "Roll up the hose when you're done.",
+        "The hose froze and split over the winter.",
+        "We ran two hoses out to the far bed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flexible tube that carries water or air",
+          "body": [
+            "(шланг)"
+          ],
+          "examples": [
+            "The garden hose is kinked.",
+            "Screw the hose onto the spigot.",
+            "Both hoses leak at the coupling."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A long flexible tube for carrying water",
+          "body": [
+            "(шланг)",
+            "---"
+          ],
+          "examples": [
+            "Roll up the hose when you're done.",
+            "The hose froze and split over the winter.",
+            "We ran two hoses out to the far bed."
+          ]
+        }
+      ],
       "русский": "шланг",
       "plural": "hoses",
       "countability": "countable, and uncountable as a substance"
@@ -655,15 +845,45 @@
       "term": "grease",
       "ipa": "/ɡriːs/",
       "respell": "GREES",
-      "meaning": "Thick oily material put on moving parts to reduce friction. ---",
+      "meaning": "Grease has 2 distinct senses.",
       "examples": [
         "Pack the wheel hub with grease.",
         "There was grease all over his hands.",
-        "A little grease will stop that squeak."
+        "A little grease will stop that squeak.",
+        "There's grease splattered all over the stove.",
+        "Pack the wheel bearings with grease.",
+        "The bottom of the pan was thick with grease."
       ],
-      "senses": [],
-      "русский": "смазка",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "Thick oily material put on moving parts to reduce friction",
+          "body": [
+            "(смазка)"
+          ],
+          "examples": [
+            "Pack the wheel hub with grease.",
+            "There was grease all over his hands.",
+            "A little grease will stop that squeak."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Thick oily matter, especially melted animal fat or machine lubricant",
+          "body": [
+            "(жир; смазка)",
+            "---"
+          ],
+          "examples": [
+            "There's grease splattered all over the stove.",
+            "Pack the wheel bearings with grease.",
+            "The bottom of the pan was thick with grease."
+          ]
+        }
+      ],
+      "русский": "смазка; жир; смазка",
+      "countability": "uncountable",
+      "contrast": "The noun grease ends in an S sound; many Americans say the verb to grease with a Z."
     },
     {
       "term": "sandpaper",
@@ -865,16 +1085,46 @@
       "term": "rake",
       "ipa": "/reɪk/",
       "respell": "RAYK",
-      "meaning": "A long-handled tool with teeth, used to gather leaves or level soil. ---",
+      "meaning": "Rake has 2 distinct senses.",
       "examples": [
         "I need a rake for all these leaves.",
         "The rake lost half its teeth.",
-        "Garden rakes are on sale this week."
+        "Garden rakes are on sale this week.",
+        "Hand me the rake — these leaves are everywhere.",
+        "The rake is hanging on the wall in the garage.",
+        "We wore out two rakes that fall."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long-handled tool with teeth, used to gather leaves or level soil",
+          "body": [
+            "(грабли)"
+          ],
+          "examples": [
+            "I need a rake for all these leaves.",
+            "The rake lost half its teeth.",
+            "Garden rakes are on sale this week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A garden tool with a long handle and teeth, used for gathering leaves",
+          "body": [
+            "(грабли)",
+            "---"
+          ],
+          "examples": [
+            "Hand me the rake — these leaves are everywhere.",
+            "The rake is hanging on the wall in the garage.",
+            "We wore out two rakes that fall."
+          ]
+        }
+      ],
       "русский": "грабли",
       "plural": "rakes",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "One tool is a rake, singular, even though Russian грабли is plural: I need a rake, not I need rakes."
     },
     {
       "term": "wheelbarrow",
@@ -1110,13 +1360,42 @@
       "term": "steel",
       "ipa": "/stiːl/",
       "respell": "STEEL",
-      "meaning": "A hard strong metal made from iron and carbon. ---",
+      "meaning": "Steel has 2 distinct senses.",
       "examples": [
         "The frame is welded steel.",
         "Bare steel rusts if you don't paint it.",
-        "Stainless steel costs more but lasts."
+        "Stainless steel costs more but lasts.",
+        "The frame is steel, so it won't warp.",
+        "Half the town used to work at the steel mill.",
+        "Stainless steel doesn't rust the way plain iron does."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hard strong metal made from iron and carbon",
+          "body": [
+            "(сталь)"
+          ],
+          "examples": [
+            "The frame is welded steel.",
+            "Bare steel rusts if you don't paint it.",
+            "Stainless steel costs more but lasts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong alloy of iron and carbon used for tools, cars, and building frames",
+          "body": [
+            "(сталь)",
+            "---"
+          ],
+          "examples": [
+            "The frame is steel, so it won't warp.",
+            "Half the town used to work at the steel mill.",
+            "Stainless steel doesn't rust the way plain iron does."
+          ]
+        }
+      ],
       "русский": "сталь",
       "countability": "uncountable",
       "contrast": "Sounds exactly like steal, to take something that isn't yours."

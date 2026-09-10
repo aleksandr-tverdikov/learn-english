@@ -555,7 +555,8 @@
       "senses": [],
       "русский": "детское автокресло",
       "plural": "car seats",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American usage a car seat is almost always the child's safety seat, not just any seat in a car."
     },
     {
       "term": "bassinet",
@@ -683,14 +684,43 @@
       "term": "sling",
       "ipa": "/slɪŋ/",
       "respell": "SLING",
-      "meaning": "A wide cloth loop worn over the shoulder to carry a baby. ---",
+      "meaning": "Sling has 2 distinct senses.",
       "examples": [
         "She wore the baby in a sling all afternoon.",
         "The sling leaves both hands free.",
-        "Fabric slings are easier on your back than you would think."
+        "Fabric slings are easier on your back than you would think.",
+        "She had her arm in a sling for a month.",
+        "The sling keeps the shoulder from moving.",
+        "The clinic gave out slings and ice packs."
       ],
-      "senses": [],
-      "русский": "слинг, перевязь для ношения ребёнка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wide cloth loop worn over the shoulder to carry a baby",
+          "body": [
+            "(слинг, перевязь для ношения ребёнка)"
+          ],
+          "examples": [
+            "She wore the baby in a sling all afternoon.",
+            "The sling leaves both hands free.",
+            "Fabric slings are easier on your back than you would think."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cloth loop worn around the neck to support an injured arm",
+          "body": [
+            "(перевязь для руки, косыночная повязка)",
+            "---"
+          ],
+          "examples": [
+            "She had her arm in a sling for a month.",
+            "The sling keeps the shoulder from moving.",
+            "The clinic gave out slings and ice packs."
+          ]
+        }
+      ],
+      "русский": "слинг, перевязь для ношения ребёнка; перевязь для руки, косыночная повязка",
       "plural": "slings",
       "countability": "countable"
     },
@@ -1638,14 +1668,43 @@
       "term": "incubator",
       "ipa": "/ˈɪŋkjəbeɪtər/",
       "respell": "ING-kyuh-bay-tur",
-      "meaning": "A heated enclosed crib that keeps a very small baby warm. ---",
+      "meaning": "Incubator has 2 distinct senses.",
       "examples": [
         "She spent three weeks in an incubator.",
         "We could only touch him through the incubator.",
-        "Every incubator on the floor was full."
+        "Every incubator on the floor was full.",
+        "The eggs stay in the incubator for twenty-one days.",
+        "He built an incubator out of an old cooler.",
+        "The incubators have to hold a steady temperature."
       ],
-      "senses": [],
-      "русский": "кувез, инкубатор для новорождённых",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A heated enclosed crib that keeps a very small baby warm",
+          "body": [
+            "(кувез, инкубатор для новорождённых)"
+          ],
+          "examples": [
+            "She spent three weeks in an incubator.",
+            "We could only touch him through the incubator.",
+            "Every incubator on the floor was full."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A heated box that keeps eggs at the right temperature until they hatch",
+          "body": [
+            "(инкубатор)",
+            "---"
+          ],
+          "examples": [
+            "The eggs stay in the incubator for twenty-one days.",
+            "He built an incubator out of an old cooler.",
+            "The incubators have to hold a steady temperature."
+          ]
+        }
+      ],
+      "русский": "кувез, инкубатор для новорождённых; инкубатор",
       "plural": "incubators",
       "countability": "countable"
     },

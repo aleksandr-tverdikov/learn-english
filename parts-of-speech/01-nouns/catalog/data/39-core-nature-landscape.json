@@ -309,14 +309,43 @@
       "term": "earth",
       "ipa": "/ɜːrθ/",
       "respell": "URTH",
-      "meaning": "Soil or ground, the material that plants grow in. ---",
+      "meaning": "Earth has 2 distinct senses.",
       "examples": [
         "He dug a hole and packed the earth back down.",
         "The smell of damp earth filled the air after the rain.",
-        "They covered the seeds with a thin layer of earth."
+        "They covered the seeds with a thin layer of earth.",
+        "The earth takes a year to go around the sun.",
+        "From orbit you can actually see the curve of the earth.",
+        "It's the only place on earth where those birds nest."
       ],
-      "senses": [],
-      "русский": "земля, почва",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soil or ground, the material that plants grow in",
+          "body": [
+            "(земля, почва)"
+          ],
+          "examples": [
+            "He dug a hole and packed the earth back down.",
+            "The smell of damp earth filled the air after the rain.",
+            "They covered the seeds with a thin layer of earth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The planet we live on",
+          "body": [
+            "(Земля (планета))",
+            "---"
+          ],
+          "examples": [
+            "The earth takes a year to go around the sun.",
+            "From orbit you can actually see the curve of the earth.",
+            "It's the only place on earth where those birds nest."
+          ]
+        }
+      ],
+      "русский": "земля, почва; Земля (планета)",
       "countability": "uncountable"
     },
     {
@@ -529,7 +558,8 @@
       "senses": [],
       "русский": "пастбище",
       "plural": "pastures",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The -ture ending is said -chur: PAS-chur."
     },
     {
       "term": "grass",
@@ -640,14 +670,43 @@
       "term": "bush",
       "ipa": "/bʊʃ/",
       "respell": "BUUSH",
-      "meaning": "A woody plant smaller than a tree, with branches close to the ground. ---",
+      "meaning": "Bush has 2 distinct senses.",
       "examples": [
         "A rabbit darted under the bush.",
         "The bushes along the fence need trimming.",
-        "Berries grow on low bushes all through these woods."
+        "Berries grow on low bushes all through these woods.",
+        "A rabbit ran under the bush.",
+        "The blueberry bushes are loaded this year.",
+        "He cut the bushes back to the fence line."
       ],
-      "senses": [],
-      "русский": "куст, кустарник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A woody plant smaller than a tree, with branches close to the ground",
+          "body": [
+            "(куст, кустарник)"
+          ],
+          "examples": [
+            "A rabbit darted under the bush.",
+            "The bushes along the fence need trimming.",
+            "Berries grow on low bushes all through these woods."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A low thick plant with many branches",
+          "body": [
+            "(куст)",
+            "---"
+          ],
+          "examples": [
+            "A rabbit ran under the bush.",
+            "The blueberry bushes are loaded this year.",
+            "He cut the bushes back to the fence line."
+          ]
+        }
+      ],
+      "русский": "куст, кустарник; куст",
       "plural": "bushes",
       "countability": "countable",
       "contrast": "The vowel is /ʊ/ as in put, not /ʌ/ as in but."
@@ -1082,14 +1141,43 @@
       "term": "bank",
       "ipa": "/bæŋk/",
       "respell": "BANGK",
-      "meaning": "The land along the side of a river or lake. ---",
+      "meaning": "Bank has 2 distinct senses.",
       "examples": [
         "Willows grow all along the bank.",
         "The river rose over its banks overnight.",
-        "We fished from the far bank."
+        "We fished from the far bank.",
+        "The bank closes at five.",
+        "Most banks charge a fee for that.",
+        "She works at a bank downtown."
       ],
-      "senses": [],
-      "русский": "берег (реки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The land along the side of a river or lake",
+          "body": [
+            "(берег (реки))"
+          ],
+          "examples": [
+            "Willows grow all along the bank.",
+            "The river rose over its banks overnight.",
+            "We fished from the far bank."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A business that keeps people's money and lends it out",
+          "body": [
+            "(банк)",
+            "---"
+          ],
+          "examples": [
+            "The bank closes at five.",
+            "Most banks charge a fee for that.",
+            "She works at a bank downtown."
+          ]
+        }
+      ],
+      "русский": "берег (реки); банк",
       "plural": "banks",
       "countability": "countable",
       "contrast": "Identical to bank (банк) — only the context tells you which one is meant."
@@ -1643,14 +1731,43 @@
       "term": "sunrise",
       "ipa": "/ˈsʌnraɪz/",
       "respell": "SUN-ryz",
-      "meaning": "The time in the morning when the sun appears above the horizon. ---",
+      "meaning": "Sunrise has 2 distinct senses.",
       "examples": [
         "We were on the road before sunrise.",
         "The sunrise over the lake was worth getting up for.",
-        "In midsummer sunrise comes just after four."
+        "In midsummer sunrise comes just after four.",
+        "We were on the road before sunrise.",
+        "That was the best sunrise I've seen all summer.",
+        "The park opens at sunrise and closes at dark."
       ],
-      "senses": [],
-      "русский": "восход солнца, рассвет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The time in the morning when the sun appears above the horizon",
+          "body": [
+            "(восход солнца, рассвет)"
+          ],
+          "examples": [
+            "We were on the road before sunrise.",
+            "The sunrise over the lake was worth getting up for.",
+            "In midsummer sunrise comes just after four."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The moment the sun appears above the horizon in the morning",
+          "body": [
+            "(восход солнца)",
+            "---"
+          ],
+          "examples": [
+            "We were on the road before sunrise.",
+            "That was the best sunrise I've seen all summer.",
+            "The park opens at sunrise and closes at dark."
+          ]
+        }
+      ],
+      "русский": "восход солнца, рассвет; восход солнца",
       "plural": "sunrises",
       "countability": "countable"
     },

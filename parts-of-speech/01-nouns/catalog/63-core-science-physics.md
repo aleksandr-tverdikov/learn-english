@@ -82,14 +82,22 @@ The tendency of an object to keep doing whatever it is already doing.
 ### tension
 
 **Pronunciation:** /ˈtɛnʃən/ &middot; *TEN-shuhn*
-**Русский:** натяжение
+**Русский:** натяжение; напряжение, напряжённость
 **Countability:** uncountable
 
-The pulling force in a stretched rope, wire, or spring.
+Tension has 2 distinct senses.
+
+**1. The pulling force in a stretched rope, wire, or spring.** (натяжение)
 
 1. The cable snapped under the *tension*.
 2. Adjust the *tension* on the belt before you start the motor.
 3. *Tension* in the string keeps the weight from falling.
+
+**2. Strain in a person or between people.** (напряжение, напряжённость)
+
+4. You could feel the *tension* in the room.
+5. There has been *tension* between the two departments for years.
+6. A walk usually gets rid of the *tension* in my shoulders.
 
 ---
 
@@ -357,15 +365,23 @@ A fast shaking movement back and forth.
 ### reflection
 
 **Pronunciation:** /rɪˈflɛkʃən/ &middot; *rih-FLEK-shuhn*
-**Русский:** отражение
+**Русский:** отражение; размышление; отражение
 **Plural:** *reflections*
 **Countability:** countable
 
-Light or sound bouncing back from a surface, or the image this makes.
+Reflection has 2 distinct senses.
+
+**1. Light or sound bouncing back from a surface, or the image this makes.** (отражение)
 
 1. She saw her *reflection* in the store window.
 2. The *reflection* off the water was blinding.
 3. We measured the *reflections* of sound in the empty hall.
+
+**2. Serious thought about something, or an image thrown back by a mirror or water.** (размышление; отражение)
+
+4. On *reflection*, I think we should wait.
+5. The essay collects her *reflections* on twenty years of teaching.
+6. He caught his *reflection* in the shop window.
 
 ---
 
@@ -715,15 +731,23 @@ A substance made by living cells that speeds up a chemical reaction.
 ### concentration
 
 **Pronunciation:** /ˌkɑːnsənˈtreɪʃən/ &middot; *kahn-suhn-TRAY-shuhn*
-**Русский:** концентрация
+**Русский:** концентрация; сосредоточенность, концентрация внимания
 **Plural:** *concentrations*
 **Countability:** countable
 
-How much of a substance is present in a mixture.
+Concentration has 2 distinct senses.
+
+**1. How much of a substance is present in a mixture.** (концентрация)
 
 1. Increase the *concentration* of the acid slightly.
 2. High *concentrations* of salt kill the plants.
 3. The *concentration* dropped as we added water.
+
+**2. The act of giving all your attention to one thing.** (сосредоточенность, концентрация внимания)
+
+4. The noise from the street broke my *concentration*.
+5. Chess takes hours of *concentration*.
+6. His *concentration* slipped in the last mile.
 
 ---
 
@@ -1001,11 +1025,19 @@ A soft black form of carbon used in pencils.
 **Русский:** нефть
 **Countability:** uncountable
 
-The thick oil taken from underground and refined into fuel.
+Petroleum has 2 distinct senses.
+
+**1. The thick oil taken from underground and refined into fuel.** (нефть)
 
 1. Gasoline is made from *petroleum*.
 2. *Petroleum* prices rose again this month.
 3. Most plastics are a *petroleum* product.
+
+**2. The thick dark oil pumped from underground that fuels and plastics are made from.** (нефть)
+
+4. Plastic is made from *petroleum*.
+5. The company has been drilling for *petroleum* since the 1920s.
+6. Almost every part of that engine runs on *petroleum* products.
 
 ---
 
@@ -1285,27 +1317,49 @@ What you find out at the end of an experiment or test.
 **Countability:** uncountable
 **Contrast:** In American English *data* normally takes a singular verb: *the data is*.
 
-Facts and numbers collected for study.
+Data has 3 distinct senses.
+
+**1. Facts and numbers collected for study.** (данные)
 
 1. The *data* shows a clear trend.
 2. We collected *data* for six months.
 3. All of the *data* is stored on the server.
+
+**2. Facts and figures stored or processed by a computer.** (данные)
+
+4. We lost three days of *data*.
+5. The *data* shows a clear pattern.
+6. They sell your *data* to advertisers.
+
+**3. Information stored or sent by a computer or phone.** (данные)
+
+7. I used up all my *data* watching videos.
+8. The *data* shows a clear drop after March.
+9. They collect *data* on everything you click.
 
 ---
 
 ### principle
 
 **Pronunciation:** /ˈprɪnsəpəl/ &middot; *PRIN-suh-puhl*
-**Русский:** принцип, закон
+**Русский:** принцип, закон; принцип, убеждение
 **Plural:** *principles*
 **Countability:** countable
 **Contrast:** Sounds exactly like *principal*, the head of a school.
 
-A basic scientific rule that explains how something works.
+Principle has 2 distinct senses.
+
+**1. A basic scientific rule that explains how something works.** (принцип, закон)
 
 1. The pump works on a very simple *principle*.
 2. He explained the *principle* behind the experiment.
 3. The same *principles* apply to gases and liquids.
+
+**2. A basic rule or belief that guides how a person behaves.** (принцип, убеждение)
+
+4. She quit on *principle* rather than sign it.
+5. He's a man of strong *principles*.
+6. The *principle* is simple: never charge more than it costs.
 
 ---
 
@@ -1378,11 +1432,19 @@ A particular skilled way of doing something.
 **Plural:** *variables*
 **Countability:** countable
 
-Something in an experiment that can change.
+Variable has 2 distinct senses.
+
+**1. Something in an experiment that can change.** (переменная)
 
 1. Change only one *variable* at a time.
 2. Temperature was the one *variable* we controlled.
 3. Too many *variables* make the results hard to read.
+
+**2. A named place in a program where a value is stored.** (переменная)
+
+4. Give the *variable* a name that means something.
+5. All these *variables* are global, which is asking for trouble.
+6. The *variable* was never initialized.
 
 ---
 

@@ -383,16 +383,46 @@
       "term": "trap",
       "ipa": "/træp/",
       "respell": "TRAP",
-      "meaning": "A device that catches and holds an animal. ---",
+      "meaning": "Trap has 2 distinct senses.",
       "examples": [
         "He set a trap by the creek for beaver.",
         "Her dog got a paw caught in a trap.",
-        "The traps are checked every morning by law."
+        "The traps are checked every morning by law.",
+        "Put a bucket under the trap before you loosen it.",
+        "My wedding ring was sitting in the trap.",
+        "The traps dry out in a house nobody lives in."
       ],
-      "senses": [],
-      "русский": "капкан, ловушка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device that catches and holds an animal",
+          "body": [
+            "(капкан, ловушка)"
+          ],
+          "examples": [
+            "He set a trap by the creek for beaver.",
+            "Her dog got a paw caught in a trap.",
+            "The traps are checked every morning by law."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The curved section of drainpipe that holds water and blocks sewer smells",
+          "body": [
+            "(сифон (изгиб сливной трубы))",
+            "---"
+          ],
+          "examples": [
+            "Put a bucket under the trap before you loosen it.",
+            "My wedding ring was sitting in the trap.",
+            "The traps dry out in a house nobody lives in."
+          ]
+        }
+      ],
+      "русский": "капкан, ловушка; сифон (изгиб сливной трубы)",
       "plural": "traps",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Same word as a trap for animals, but in plumbing it means the U-shaped bend under a sink."
     },
     {
       "term": "snare",
@@ -1517,14 +1547,43 @@
       "term": "casting",
       "ipa": "/ˈkæstɪŋ/",
       "respell": "KAS-ting",
-      "meaning": "The act of throwing a baited line out over the water. ---",
+      "meaning": "Casting has 2 distinct senses.",
       "examples": [
         "Casting into the wind takes practice.",
         "He spent an hour on the lawn working on his casting.",
-        "Long casting isn't necessary on a small creek."
+        "Long casting isn't necessary on a small creek.",
+        "Casting takes about three weeks for a show this size.",
+        "The casting is the strongest thing about this production.",
+        "She does casting for two theaters in the city."
       ],
-      "senses": [],
-      "русский": "заброс (снасти)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The act of throwing a baited line out over the water",
+          "body": [
+            "(заброс (снасти))"
+          ],
+          "examples": [
+            "Casting into the wind takes practice.",
+            "He spent an hour on the lawn working on his casting.",
+            "Long casting isn't necessary on a small creek."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The process of choosing which actors will play which parts",
+          "body": [
+            "(кастинг, подбор актёров)",
+            "---"
+          ],
+          "examples": [
+            "Casting takes about three weeks for a show this size.",
+            "The casting is the strongest thing about this production.",
+            "She does casting for two theaters in the city."
+          ]
+        }
+      ],
+      "русский": "заброс (снасти); кастинг, подбор актёров",
       "countability": "uncountable"
     },
     {

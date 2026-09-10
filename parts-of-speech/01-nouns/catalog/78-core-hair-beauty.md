@@ -269,16 +269,24 @@ The way a person's hair has been arranged.
 ### part
 
 **Pronunciation:** /pɑːrt/ &middot; *PART*
-**Русский:** пробор
+**Русский:** пробор; роль
 **Plural:** *parts*
 **Countability:** countable
 **Contrast:** British English calls this a *parting*.
 
-The line on the head where hair is divided and combed in two directions.
+Part has 2 distinct senses.
+
+**1. The line on the head where hair is divided and combed in two directions.** (пробор)
 
 1. He wears his *part* on the left.
 2. She switched to a middle *part* and looked completely different.
 3. Deep side *parts* were everywhere that year.
+
+**2. A character that an actor plays in a performance.** (роль)
+
+4. She landed the *part* of Juliet on her first audition.
+5. He has played small *parts* in a dozen shows.
+6. It is a wonderful *part* for an older actor.
 
 ---
 
@@ -899,15 +907,23 @@ An electric device that blows hot air to dry and style hair.
 ### blowout
 
 **Pronunciation:** /ˈbloʊaʊt/ &middot; *BLOH-owt*
-**Русский:** укладка феном
+**Русский:** укладка феном; разрыв шины на ходу
 **Plural:** *blowouts*
 **Countability:** countable
 
-A salon service in which the hair is washed and dried smooth with a brush and dryer.
+Blowout has 2 distinct senses.
+
+**1. A salon service in which the hair is washed and dried smooth with a brush and dryer.** (укладка феном)
 
 1. She got a *blowout* before the interview.
 2. A *blowout* lasts me about three days.
 3. That place does *blowouts* for forty dollars.
+
+**2. A tire bursting suddenly while the car is moving.** (разрыв шины на ходу)
+
+4. A *blowout* at that speed is terrifying.
+5. Old tires cause most *blowouts*.
+6. The *blowout* pulled the truck toward the shoulder.
 
 ---
 
@@ -1264,15 +1280,23 @@ The white foam that soap or shampoo makes with water.
 ### rinse
 
 **Pronunciation:** /rɪns/ &middot; *RINS*
-**Русский:** ополаскивание, ополаскиватель
+**Русский:** ополаскивание, ополаскиватель; полоскание, ополаскивание
 **Plural:** *rinses*
 **Countability:** countable
 
-A quick wash with water, or a light product used after shampooing.
+Rinse has 2 distinct senses.
+
+**1. A quick wash with water, or a light product used after shampooing.** (ополаскивание, ополаскиватель)
 
 1. Give it one more *rinse* to get the conditioner out.
 2. She uses a vinegar *rinse* once a month.
 3. Two *rinses* and the color still ran.
+
+**2. A quick wash in clean water to take soap or dirt off.** (полоскание, ополаскивание)
+
+4. Give your mouth a *rinse* after brushing.
+5. One more *rinse* and the shampoo is out.
+6. Two cold *rinses* were enough.
 
 ---
 
@@ -1427,16 +1451,24 @@ A complete change of someone's hair, makeup, and clothes.
 ### primer
 
 **Pronunciation:** /ˈpraɪmər/ &middot; *PRY-mur*
-**Русский:** праймер, база под макияж
+**Русский:** праймер, база под макияж; грунтовка
 **Plural:** *primers*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** The makeup sense is PRY-mur; the beginner's schoolbook called a *primer* is PRIM-ur in the US.
 
-A cream put on the skin before makeup so it goes on smoothly and lasts.
+Primer has 2 distinct senses.
+
+**1. A cream put on the skin before makeup so it goes on smoothly and lasts.** (праймер, база под макияж)
 
 1. A little *primer* keeps her foundation from sliding.
 2. This *primer* fills in large pores.
 3. She tried four *primers* before finding one she liked.
+
+**2. A first coat of paint that seals a surface so the finish coat will stick.** (грунтовка)
+
+4. Put *primer* on before you paint the color.
+5. The stain bled through two coats of *primer*.
+6. Tinted *primers* can save you a coat.
 
 ---
 
@@ -1473,16 +1505,24 @@ A shiny, often sticky product worn on the lips.
 ### lip balm
 
 **Pronunciation:** /ˈlɪp bɑːm/ &middot; *LIP bahm*
-**Русский:** бальзам для губ, гигиеническая помада
+**Русский:** бальзам для губ, гигиеническая помада; гигиеническая помада, бальзам для губ
 **Plural:** *lip balms*
 **Countability:** countable
 **Contrast:** The l in *balm* is silent: BAHM.
 
-A waxy stick or pot used to soften dry lips.
+Lip balm has 2 distinct senses.
+
+**1. A waxy stick or pot used to soften dry lips.** (бальзам для губ, гигиеническая помада)
 
 1. I lose a *lip balm* every week.
 2. He keeps *lip balm* in his coat pocket all winter.
 3. The drugstore had a whole rack of *lip balms*.
+
+**2. A waxy stick or cream that keeps lips from drying out.** (гигиеническая помада, бальзам для губ)
+
+4. My lips are chapped; do you have *lip balm*?
+5. He put on *lip balm* before going outside.
+6. There are three *lip balms* rolling around in her bag.
 
 ---
 
@@ -1701,11 +1741,19 @@ The sharp-smelling chemical used to strip nail polish off.
 **Plural:** *nail files*
 **Countability:** countable
 
-A small rough strip used to shape the edge of a nail.
+Nail file has 2 distinct senses.
+
+**1. A small rough strip used to shape the edge of a nail.** (пилка для ногтей)
 
 1. Do you have a *nail file*? I snagged a nail.
 2. The *nail file* wore smooth months ago.
 3. She keeps two *nail files* in her desk.
+
+**2. A small metal or cardboard strip for smoothing the edges of nails.** (пилка для ногтей)
+
+4. She smoothed the edge with a *nail file*.
+5. There's a *nail file* in my purse.
+6. The set comes with two *nail files*.
 
 ---
 
@@ -1802,46 +1850,76 @@ A salon treatment that cleans and massages the skin of the face.
 ### cleanser
 
 **Pronunciation:** /ˈklɛnzər/ &middot; *KLEN-zur*
-**Русский:** очищающее средство для лица
+**Русский:** очищающее средство для лица; очищающее средство; чистящий порошок (для раковин и ванн)
 **Plural:** *cleansers*
 **Countability:** countable, and uncountable as a substance
 **Contrast:** Said KLEN-zur, with a short e — not "kleen-zur", despite *clean*.
 
-A liquid or cream used to wash the face.
+Cleanser has 3 distinct senses.
+
+**1. A liquid or cream used to wash the face.** (очищающее средство для лица)
 
 1. She switched to a gentler *cleanser*.
 2. Use *cleanser* first, then toner.
 3. Foaming *cleansers* dry out my skin.
+
+**2. A product for cleaning the skin or a surface.** (очищающее средство)
+
+4. This *cleanser* is gentle enough for daily use.
+5. She rinsed the *cleanser* off with warm water.
+6. The store carries a dozen face *cleansers*.
+
+**3. A mild powder or cream for cleaning sinks and tubs.** (чистящий порошок (для раковин и ванн))
+
+7. Sprinkle *cleanser* in the sink and scrub.
+8. That *cleanser* is gentle enough for porcelain.
+9. The store brand *cleansers* work just as well.
 
 ---
 
 ### toner
 
 **Pronunciation:** /ˈtoʊnər/ &middot; *TOH-nur*
-**Русский:** тоник для лица
+**Русский:** тоник для лица; тонер
 **Plural:** *toners*
 **Countability:** countable, and uncountable as a substance
 
-A liquid wiped on the face after washing to balance the skin.
+Toner has 2 distinct senses.
+
+**1. A liquid wiped on the face after washing to balance the skin.** (тоник для лица)
 
 1. She pats *toner* on with a cotton pad.
 2. The *toner* stung a little at first.
 3. Alcohol-based *toners* have gone out of style.
+
+**2. The fine dark powder a laser printer or copier melts onto the page.** (тонер)
+
+4. We're low on *toner* again.
+5. *Toner* got all over my hands when I changed it.
+6. The copier stops when the *toner* runs out.
 
 ---
 
 ### scrub
 
 **Pronunciation:** /skrʌb/ &middot; *SKRUB*
-**Русский:** скраб
+**Русский:** скраб; чистка (энергичное оттирание)
 **Plural:** *scrubs*
 **Countability:** countable, and uncountable as a substance
 
-A gritty cream rubbed on the skin to remove dead cells.
+Scrub has 2 distinct senses.
+
+**1. A gritty cream rubbed on the skin to remove dead cells.** (скраб)
 
 1. She uses a sugar *scrub* twice a week.
 2. Don't use a *scrub* on sunburned skin.
 3. The gift set came with two *scrubs* and a candle.
+
+**2. A hard cleaning done by rubbing with a brush or cloth.** (чистка (энергичное оттирание))
+
+4. The tub needs a good *scrub*.
+5. Give your hands a quick *scrub* before dinner.
+6. A couple of *scrubs* with bleach took the stain out.
 
 ---
 

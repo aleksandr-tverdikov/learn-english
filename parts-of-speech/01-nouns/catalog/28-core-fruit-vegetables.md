@@ -330,15 +330,24 @@ A peach-like fruit with smooth skin instead of fuzz.
 ### kiwi
 
 **Pronunciation:** /ˈkiːwiː/ &middot; *KEE-wee*
-**Русский:** киви
+**Русский:** киви; киви (птица)
 **Plural:** *kiwis*
 **Countability:** countable
+**Contrast:** The same word names the green fruit; the bird sense came first.
 
-A small brown fuzzy fruit with green flesh and tiny black seeds.
+Kiwi has 2 distinct senses.
+
+**1. A small brown fuzzy fruit with green flesh and tiny black seeds.** (киви)
 
 1. Cut the *kiwi* in half and eat it with a spoon.
 2. *Kiwis* are cheaper than they used to be.
 3. The *kiwi* was too sour to finish.
+
+**2. A small flightless New Zealand bird with a long thin bill.** (киви (птица))
+
+4. A *kiwi* is about the size of a chicken and cannot fly.
+5. *Kiwis* come out at night and hunt by smell.
+6. We never saw a wild *kiwi*, only one at the sanctuary.
 
 ---
 
@@ -936,11 +945,19 @@ A salad green with a sharp peppery flavor.
 **Plural:** *sprouts*
 **Countability:** countable
 
-A young shoot from a seed, often eaten raw.
+Sprout has 2 distinct senses.
+
+**1. A young shoot from a seed, often eaten raw.** (росток, побег)
 
 1. Add the bean *sprouts* at the very end.
 2. A single *sprout* had pushed through the soil.
 3. The *sprouts* went bad after two days in the fridge.
+
+**2. A new shoot coming up from a seed or a plant.** (росток, побег)
+
+4. Little green *sprouts* came up all along the row.
+5. The potatoes in the pantry have a *sprout* on them.
+6. You'll see the first *sprouts* in about ten days.
 
 ---
 
@@ -1055,11 +1072,19 @@ The fresh green leaves of the coriander plant, used in cooking.
 **Countability:** uncountable
 **Contrast:** Homophone of time — the h is silent and the y is a long I.
 
-A herb with tiny leaves and a strong earthy smell.
+Thyme has 2 distinct senses.
+
+**1. A herb with tiny leaves and a strong earthy smell.** (тимьян, чабрец)
 
 1. Add a few sprigs of *thyme* to the pot.
 2. The chicken was roasted with lemon and *thyme*.
 3. *Thyme* dries better than most herbs.
+
+**2. A herb with tiny leaves, used to season meat and soups.** (тимьян, чабрец)
+
+4. A little *thyme* goes a long way.
+5. There's *thyme* growing between the paving stones.
+6. Strip the *thyme* off the stem with your fingers.
 
 ---
 
@@ -1225,15 +1250,23 @@ A small oval seed in a thin shell, eaten roasted or made into butter.
 ### walnut
 
 **Pronunciation:** /ˈwɔːlnʌt/ &middot; *WAWL-nut*
-**Русский:** грецкий орех
+**Русский:** грецкий орех; грецкий орех; орех (дерево)
 **Plural:** *walnuts*
 **Countability:** countable
 
-A nut with a wrinkled kernel inside a hard round shell.
+Walnut has 2 distinct senses.
+
+**1. A nut with a wrinkled kernel inside a hard round shell.** (грецкий орех)
 
 1. Toast the *walnuts* before you add them.
 2. There's a *walnut* tree in the back yard.
 3. *Walnuts* go rancid if you leave them out.
+
+**2. A tree with dark hard wood, or the wrinkled nut it produces.** (грецкий орех; орех (дерево))
+
+4. The dresser is solid *walnut*.
+5. *Walnuts* were all over the yard by October.
+6. He cracked a *walnut* with the back of a knife.
 
 ---
 
@@ -1322,11 +1355,19 @@ A small green nut sold in a shell that splits open on one side.
 **Countability:** countable
 **Contrast:** The t of chest is silent: CHES-nut.
 
-A large glossy brown nut that is roasted or boiled before eating.
+Chestnut has 2 distinct senses.
+
+**1. A large glossy brown nut that is roasted or boiled before eating.** (каштан)
 
 1. Roasted *chestnuts* smell like winter.
 2. Score each *chestnut* before you roast it.
 3. *Chestnuts* are starchy rather than oily like other nuts.
+
+**2. A tree that produces glossy brown nuts, or one of the nuts itself.** (каштан)
+
+4. They roast *chestnuts* on the corner every December.
+5. Blight wiped out the American *chestnut*.
+6. A *chestnut* fell right on the hood of the car.
 
 ---
 
@@ -1337,11 +1378,19 @@ A large glossy brown nut that is roasted or boiled before eating.
 **Plural:** *acorns*
 **Countability:** countable
 
-The nut of an oak tree, sitting in a small rough cup.
+Acorn has 2 distinct senses.
+
+**1. The nut of an oak tree, sitting in a small rough cup.** (жёлудь)
 
 1. The squirrels buried *acorns* all over the lawn.
 2. An *acorn* hit the roof and woke me up.
 3. The *acorns* were thick under the old oak.
+
+**2. The nut of an oak tree.** (жёлудь)
+
+4. *Acorns* were dropping on the roof all night.
+5. A squirrel buried an *acorn* in the flower bed.
+6. The driveway is covered in *acorns* every fall.
 
 ---
 
@@ -1440,6 +1489,7 @@ A grain used in soups, animal feed, and brewing beer.
 **Русский:** корень
 **Plural:** *roots*
 **Countability:** countable
+**Contrast:** Many Americans say *route* exactly like *root*; others say it ROWT. The plant word is always ROOT.
 
 The part of a plant that grows underground and takes in water.
 
@@ -1456,11 +1506,19 @@ The part of a plant that grows underground and takes in water.
 **Plural:** *stems*
 **Countability:** countable
 
-The thin part of a plant that supports leaves, flowers, or fruit.
+Stem has 2 distinct senses.
+
+**1. The thin part of a plant that supports leaves, flowers, or fruit.** (стебель)
 
 1. Cut the *stems* at an angle.
 2. Pull the *stem* off the strawberry first.
 3. The *stems* are tougher than the leaves.
+
+**2. The main upright part of a plant that holds up the leaves and flowers.** (стебель)
+
+4. Cut the *stems* at an angle before you put them in water.
+5. The *stem* snapped when I tried to move the pot.
+6. Strip the lower leaves off the *stem* first.
 
 ---
 
@@ -1482,15 +1540,23 @@ The outer skin of a fruit or vegetable.
 ### rind
 
 **Pronunciation:** /raɪnd/ &middot; *RYND*
-**Русский:** корка, толстая кожура
+**Русский:** корка, толстая кожура; корка (сыра), шкурка (бекона)
 **Plural:** *rinds*
 **Countability:** countable
 
-The thick hard outer layer of some fruits, vegetables, or cheeses.
+Rind has 2 distinct senses.
+
+**1. The thick hard outer layer of some fruits, vegetables, or cheeses.** (корка, толстая кожура)
 
 1. Cut the *rind* off the watermelon.
 2. Save the parmesan *rind* for soup.
 3. The *rinds* all went into the compost.
+
+**2. The hard outer layer of a cheese, or the skin of a piece of pork.** (корка (сыра), шкурка (бекона))
+
+4. Save the Parmesan *rind* and throw it in the soup.
+5. Some *rinds* are edible and some aren't.
+6. Pork *rind* is basically fried pig skin.
 
 ---
 
@@ -1528,16 +1594,24 @@ The hard central part of a fruit that holds the seeds.
 ### stalk
 
 **Pronunciation:** /stɔːk/ &middot; *STAWK*
-**Русский:** стебель, черешок
+**Русский:** стебель, черешок; стебель (толстый, у травянистого растения)
 **Plural:** *stalks*
 **Countability:** countable
 **Contrast:** The l is silent: STAWK.
 
-The main thick stem of a plant, or one long piece of celery or rhubarb.
+Stalk has 2 distinct senses.
+
+**1. The main thick stem of a plant, or one long piece of celery or rhubarb.** (стебель, черешок)
 
 1. Trim the ends off the celery *stalks*.
 2. One *stalk* of celery has almost no calories.
 3. The corn *stalks* were taller than the barn.
+
+**2. A thick stem that supports a plant or a flower head.** (стебель (толстый, у травянистого растения))
+
+4. He chopped the celery *stalks* into sticks.
+5. One *stalk* of corn came up in the flower bed.
+6. The wind bent every *stalk* in the field.
 
 ---
 
@@ -1548,11 +1622,19 @@ The main thick stem of a plant, or one long piece of celery or rhubarb.
 **Plural:** *vines*
 **Countability:** countable
 
-A plant with a long climbing or trailing stem, such as a grape plant.
+Vine has 2 distinct senses.
+
+**1. A plant with a long climbing or trailing stem, such as a grape plant.** (лоза, вьющееся растение)
 
 1. The tomatoes ripened on the *vine*.
 2. *Vines* had grown right over the fence.
 3. He trained the *vine* up a trellis.
+
+**2. A plant with a long stem that climbs or trails along the ground.** (лоза, вьющееся растение)
+
+4. *Vines* had taken over the whole shed.
+5. Train the *vine* up the string as it grows.
+6. A grape *vine* runs along the back fence.
 
 ---
 

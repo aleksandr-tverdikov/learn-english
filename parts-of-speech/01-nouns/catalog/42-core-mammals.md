@@ -937,11 +937,19 @@ A large rodent with a flat tail that dams streams with cut wood.
 **Plural:** *otters*
 **Countability:** countable
 
-A playful river or sea animal with thick fur and webbed feet.
+Otter has 2 distinct senses.
+
+**1. A playful river or sea animal with thick fur and webbed feet.** (выдра)
 
 1. *Otters* were floating on their backs in the kelp.
 2. An *otter* came up holding a crab.
 3. We watched the *otters* slide down the bank.
+
+**2. A small furry water animal with webbed feet and a long tail.** (выдра)
+
+4. A sea *otter* floated on its back cracking open a clam.
+5. *Otters* hold hands so they don't drift apart while they sleep.
+6. An *otter* slid down the muddy bank and disappeared.
 
 ---
 
@@ -1090,11 +1098,19 @@ A huge sea mammal that breathes through a hole on top of its head.
 **Plural:** *dolphins*
 **Countability:** countable
 
-A small sea mammal with a beaked snout, known for being intelligent.
+Dolphin has 2 distinct senses.
+
+**1. A small sea mammal with a beaked snout, known for being intelligent.** (дельфин)
 
 1. *Dolphins* were riding the wake behind us.
 2. A *dolphin* jumped clear out of the water.
 3. There's a pod of *dolphins* out past the buoy.
+
+**2. A smart, playful sea mammal with a long snout.** (дельфин)
+
+4. A pair of *dolphins* followed the ferry for almost a mile.
+5. My daughter wants to swim with *dolphins* on our trip.
+6. A *dolphin* is a mammal, not a fish.
 
 ---
 
@@ -1284,15 +1300,23 @@ A large or wild animal, especially a frightening one.
 ### buck
 
 **Pronunciation:** /bʌk/ &middot; *BUK*
-**Русский:** самец (оленя, кролика)
+**Русский:** самец (оленя, кролика); доллар (разг.)
 **Plural:** *bucks*
 **Countability:** countable
 
-An adult male deer, rabbit, or goat.
+Buck has 2 distinct senses.
+
+**1. An adult male deer, rabbit, or goat.** (самец (оленя, кролика))
 
 1. He counted six *bucks* from the stand.
 2. A *buck* stepped out of the treeline.
 3. The *bucks* lose their antlers every winter.
+
+**2. An informal word for a dollar.** (доллар (разг.))
+
+4. That'll run you about fifty *bucks*.
+5. Can you lend me a *buck*?
+6. He's just trying to make a few extra *bucks*.
 
 ---
 
@@ -1597,11 +1621,19 @@ One of the long stiff hairs that grow near an animal's mouth.
 **Countability:** countable
 **Contrast:** Homophone of tale (a story).
 
-The part that sticks out at the back end of an animal.
+Tail has 2 distinct senses.
+
+**1. The part that sticks out at the back end of an animal.** (хвост)
 
 1. The dog's *tail* knocked everything off the table.
 2. Squirrels use their *tails* for balance.
 3. He stepped on the cat's *tail* by accident.
+
+**2. The feathers at the back end of a bird, used for steering.** (хвост)
+
+4. The bird flicked its *tail* and flew off.
+5. Peacocks spread their *tails* to show off.
+6. A long *tail* helps a bird steer in the air.
 
 ---
 

@@ -21,13 +21,42 @@
       "term": "plastic bag",
       "ipa": "/ˈplæstɪk bæɡ/",
       "respell": "PLAS-tik-bag",
-      "meaning": "A thin light bag made of plastic film for carrying or storing things. ---",
+      "meaning": "Plastic bag has 2 distinct senses.",
       "examples": [
         "She lined the trash can with a plastic bag.",
         "The store charges ten cents for a plastic bag.",
-        "I keep a wad of plastic bags under the sink."
+        "I keep a wad of plastic bags under the sink.",
+        "The state banned single-use plastic bags.",
+        "There's a plastic bag full of plastic bags under the sink.",
+        "They charge ten cents for a plastic bag."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin light bag made of plastic film for carrying or storing things",
+          "body": [
+            "(полиэтиленовый пакет)"
+          ],
+          "examples": [
+            "She lined the trash can with a plastic bag.",
+            "The store charges ten cents for a plastic bag.",
+            "I keep a wad of plastic bags under the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin bag from a store, often charged for or banned",
+          "body": [
+            "(полиэтиленовый пакет)",
+            "---"
+          ],
+          "examples": [
+            "The state banned single-use plastic bags.",
+            "There's a plastic bag full of plastic bags under the sink.",
+            "They charge ten cents for a plastic bag."
+          ]
+        }
+      ],
       "русский": "полиэтиленовый пакет",
       "plural": "plastic bags",
       "countability": "countable",
@@ -67,14 +96,43 @@
       "term": "shopping bag",
       "ipa": "/ˈʃɑːpɪŋ bæɡ/",
       "respell": "SHAH-ping BAG",
-      "meaning": "A large bag with handles for carrying what you have bought. ---",
+      "meaning": "Shopping bag has 2 distinct senses.",
       "examples": [
         "She was juggling three shopping bags and a coffee.",
         "The shopping bag had the store's logo on the side.",
-        "Fold the shopping bags and keep them in the car."
+        "Fold the shopping bags and keep them in the car.",
+        "She walked out with a shopping bag in each hand.",
+        "Keep a few shopping bags in the trunk of the car.",
+        "The shopping bag tore before I got to the door."
       ],
-      "senses": [],
-      "русский": "сумка (пакет) для покупок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large bag with handles for carrying what you have bought",
+          "body": [
+            "(сумка (пакет) для покупок)"
+          ],
+          "examples": [
+            "She was juggling three shopping bags and a coffee.",
+            "The shopping bag had the store's logo on the side.",
+            "Fold the shopping bags and keep them in the car."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bag you carry your purchases home in",
+          "body": [
+            "(сумка для покупок, пакет)",
+            "---"
+          ],
+          "examples": [
+            "She walked out with a shopping bag in each hand.",
+            "Keep a few shopping bags in the trunk of the car.",
+            "The shopping bag tore before I got to the door."
+          ]
+        }
+      ],
+      "русский": "сумка (пакет) для покупок; сумка для покупок, пакет",
       "plural": "shopping bags",
       "countability": "countable"
     },
@@ -98,13 +156,42 @@
       "term": "trash bag",
       "ipa": "/ˈtræʃ bæɡ/",
       "respell": "TRASH-bag",
-      "meaning": "A large plastic bag that lines a trash can. ---",
+      "meaning": "Trash bag has 2 distinct senses.",
       "examples": [
         "We're out of trash bags again.",
         "The trash bag ripped and spilled coffee grounds everywhere.",
-        "Tie the trash bag shut before you carry it out."
+        "Tie the trash bag shut before you carry it out.",
+        "Grab a trash bag from under the sink.",
+        "The trash bag split on the way down the stairs.",
+        "We went through six trash bags cleaning the basement."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large plastic bag that lines a trash can",
+          "body": [
+            "(мусорный пакет)"
+          ],
+          "examples": [
+            "We're out of trash bags again.",
+            "The trash bag ripped and spilled coffee grounds everywhere.",
+            "Tie the trash bag shut before you carry it out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A plastic bag used to line a can and carry waste out",
+          "body": [
+            "(мусорный пакет)",
+            "---"
+          ],
+          "examples": [
+            "Grab a trash bag from under the sink.",
+            "The trash bag split on the way down the stairs.",
+            "We went through six trash bags cleaning the basement."
+          ]
+        }
+      ],
       "русский": "мусорный пакет",
       "plural": "trash bags",
       "countability": "countable",
@@ -144,13 +231,42 @@
       "term": "recycling bin",
       "ipa": "/riˈsaɪklɪŋ bɪn/",
       "respell": "ree-SY-kling-bin",
-      "meaning": "A container for paper, cans, and bottles that will be recycled. ---",
+      "meaning": "Recycling bin has 2 distinct senses.",
       "examples": [
         "Cardboard goes in the blue recycling bin.",
         "Our recycling bin gets picked up every other week.",
-        "The building has recycling bins in the basement."
+        "The building has recycling bins in the basement.",
+        "Cardboard goes in the recycling bin.",
+        "The recycling bin blew over in the wind.",
+        "There are recycling bins on every floor."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A container for paper, cans, and bottles that will be recycled",
+          "body": [
+            "(контейнер для вторсырья)"
+          ],
+          "examples": [
+            "Cardboard goes in the blue recycling bin.",
+            "Our recycling bin gets picked up every other week.",
+            "The building has recycling bins in the basement."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The container, usually blue, for paper, cans, and bottles",
+          "body": [
+            "(контейнер для вторсырья)",
+            "---"
+          ],
+          "examples": [
+            "Cardboard goes in the recycling bin.",
+            "The recycling bin blew over in the wind.",
+            "There are recycling bins on every floor."
+          ]
+        }
+      ],
       "русский": "контейнер для вторсырья",
       "plural": "recycling bins",
       "countability": "countable"
@@ -279,13 +395,42 @@
       "term": "spray bottle",
       "ipa": "/ˈspreɪ ˌbɑːtəl/",
       "respell": "SPRAY BAH-tuhl",
-      "meaning": "A bottle with a hand pump that sprays liquid. ---",
+      "meaning": "Spray bottle has 2 distinct senses.",
       "examples": [
         "Fill a spray bottle with vinegar and water.",
         "She keeps a spray bottle next to the plants.",
-        "The cat runs the second he sees the spray bottle."
+        "The cat runs the second he sees the spray bottle.",
+        "Mix vinegar and water in a spray bottle.",
+        "The spray bottle clogged after a week.",
+        "She labels her spray bottles with masking tape."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bottle with a hand pump that sprays liquid",
+          "body": [
+            "(пульверизатор, распылитель)"
+          ],
+          "examples": [
+            "Fill a spray bottle with vinegar and water.",
+            "She keeps a spray bottle next to the plants.",
+            "The cat runs the second he sees the spray bottle."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bottle with a trigger that pushes liquid out in a fine mist",
+          "body": [
+            "(пульверизатор, распылитель)",
+            "---"
+          ],
+          "examples": [
+            "Mix vinegar and water in a spray bottle.",
+            "The spray bottle clogged after a week.",
+            "She labels her spray bottles with masking tape."
+          ]
+        }
+      ],
       "русский": "пульверизатор, распылитель",
       "plural": "spray bottles",
       "countability": "countable"
@@ -533,16 +678,46 @@
       "term": "wrapper",
       "ipa": "/ˈræpər/",
       "respell": "RAP-ur",
-      "meaning": "The paper or plastic covering that comes off a piece of candy or food. ---",
+      "meaning": "Wrapper has 2 distinct senses.",
       "examples": [
         "There was a candy wrapper stuck to the seat.",
         "He crumpled the wrapper and shot it at the trash can.",
-        "The floor was covered in gum wrappers."
+        "The floor was covered in gum wrappers.",
+        "He left the candy wrapper on the seat.",
+        "The floor was covered in wrappers after the movie.",
+        "The price is printed right on the wrapper."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The paper or plastic covering that comes off a piece of candy or food",
+          "body": [
+            "(обёртка, фантик)"
+          ],
+          "examples": [
+            "There was a candy wrapper stuck to the seat.",
+            "He crumpled the wrapper and shot it at the trash can.",
+            "The floor was covered in gum wrappers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The paper or plastic covering a small product like candy",
+          "body": [
+            "(обёртка, фантик)",
+            "---"
+          ],
+          "examples": [
+            "He left the candy wrapper on the seat.",
+            "The floor was covered in wrappers after the movie.",
+            "The price is printed right on the wrapper."
+          ]
+        }
+      ],
       "русский": "обёртка, фантик",
       "plural": "wrappers",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Sounds exactly like 'rapper', a hip-hop performer."
     },
     {
       "term": "plastic wrap",
@@ -1136,13 +1311,42 @@
       "term": "laundry basket",
       "ipa": "/ˈlɔːndri ˌbæskɪt/",
       "respell": "LAWN-dree BAS-kit",
-      "meaning": "An open plastic or wicker basket for carrying clothes to be washed. ---",
+      "meaning": "Laundry basket has 2 distinct senses.",
       "examples": [
         "Carry the laundry basket down to the machine.",
         "Clean towels were piled in the laundry basket.",
-        "There are two laundry baskets sitting on the stairs."
+        "There are two laundry baskets sitting on the stairs.",
+        "Put your socks in the laundry basket.",
+        "The laundry basket is overflowing again.",
+        "She carried two laundry baskets down to the basement."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An open plastic or wicker basket for carrying clothes to be washed",
+          "body": [
+            "(корзина для белья)"
+          ],
+          "examples": [
+            "Carry the laundry basket down to the machine.",
+            "Clean towels were piled in the laundry basket.",
+            "There are two laundry baskets sitting on the stairs."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A basket for carrying or holding dirty clothes",
+          "body": [
+            "(корзина для белья)",
+            "---"
+          ],
+          "examples": [
+            "Put your socks in the laundry basket.",
+            "The laundry basket is overflowing again.",
+            "She carried two laundry baskets down to the basement."
+          ]
+        }
+      ],
       "русский": "корзина для белья",
       "plural": "laundry baskets",
       "countability": "countable"
@@ -1243,14 +1447,43 @@
       "term": "tub",
       "ipa": "/tʌb/",
       "respell": "TUHB",
-      "meaning": "A wide round container with straight sides, including the small plastic one food is sold in. ---",
+      "meaning": "Tub has 2 distinct senses.",
       "examples": [
         "He finished a whole tub of ice cream.",
         "The plants are in half-barrel tubs on the porch.",
-        "Grab a tub of sour cream while you're there."
+        "Grab a tub of sour cream while you're there.",
+        "The kids are in the tub.",
+        "I filled the tub with hot water.",
+        "Older houses often have claw-foot tubs."
       ],
-      "senses": [],
-      "русский": "кадка, бадья; ведёрко (мороженого)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wide round container with straight sides, including the small plastic one food is sold in",
+          "body": [
+            "(кадка, бадья; ведёрко (мороженого))"
+          ],
+          "examples": [
+            "He finished a whole tub of ice cream.",
+            "The plants are in half-barrel tubs on the porch.",
+            "Grab a tub of sour cream while you're there."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bathtub; the large basin you fill with water and sit in",
+          "body": [
+            "(ванна)",
+            "---"
+          ],
+          "examples": [
+            "The kids are in the tub.",
+            "I filled the tub with hot water.",
+            "Older houses often have claw-foot tubs."
+          ]
+        }
+      ],
+      "русский": "кадка, бадья; ведёрко (мороженого); ванна",
       "plural": "tubs",
       "countability": "countable"
     },
@@ -1258,14 +1491,43 @@
       "term": "pail",
       "ipa": "/peɪl/",
       "respell": "PAYL",
-      "meaning": "A bucket, especially a small metal or plastic one with a handle. ---",
+      "meaning": "Pail has 2 distinct senses.",
       "examples": [
         "The kid had a pail and shovel at the beach.",
         "She milked into a steel pail.",
-        "Two pails of water put the fire out."
+        "Two pails of water put the fire out.",
+        "She carried a pail of milk up from the barn.",
+        "Two feed pails hung on the fence.",
+        "The pail was half full of warm milk."
       ],
-      "senses": [],
-      "русский": "ведро",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A bucket, especially a small metal or plastic one with a handle",
+          "body": [
+            "(ведро)"
+          ],
+          "examples": [
+            "The kid had a pail and shovel at the beach.",
+            "She milked into a steel pail.",
+            "Two pails of water put the fire out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A round open container with a handle, used for carrying milk, feed, or water",
+          "body": [
+            "(ведро (обычно для молока или корма))",
+            "---"
+          ],
+          "examples": [
+            "She carried a pail of milk up from the barn.",
+            "Two feed pails hung on the fence.",
+            "The pail was half full of warm milk."
+          ]
+        }
+      ],
+      "русский": "ведро; ведро (обычно для молока или корма)",
       "plural": "pails",
       "countability": "countable",
       "contrast": "Sounds exactly like pale, meaning light in color."
@@ -1390,7 +1652,8 @@
       "senses": [],
       "русский": "цистерна, бак для воды",
       "plural": "cisterns",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American English a cistern is a water storage tank; in British English it usually means a toilet tank."
     },
     {
       "term": "water tank",
@@ -1730,14 +1993,43 @@
       "term": "planter",
       "ipa": "/ˈplæntər/",
       "respell": "PLAN-tur",
-      "meaning": "A decorative container that plants grow in. ---",
+      "meaning": "Planter has 2 distinct senses.",
       "examples": [
         "There are planters on either side of the front door.",
         "She filled the planter with geraniums.",
-        "The clay planter cracked over the winter."
+        "The clay planter cracked over the winter.",
+        "The planter puts down twelve rows at a time.",
+        "He calibrated the planter before starting.",
+        "New planters cost as much as a house."
       ],
-      "senses": [],
-      "русский": "кашпо, вазон",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A decorative container that plants grow in",
+          "body": [
+            "(кашпо, вазон)"
+          ],
+          "examples": [
+            "There are planters on either side of the front door.",
+            "She filled the planter with geraniums.",
+            "The clay planter cracked over the winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine that drops seed into the ground at even spacing",
+          "body": [
+            "(сеялка, посадочная машина)",
+            "---"
+          ],
+          "examples": [
+            "The planter puts down twelve rows at a time.",
+            "He calibrated the planter before starting.",
+            "New planters cost as much as a house."
+          ]
+        }
+      ],
+      "русский": "кашпо, вазон; сеялка, посадочная машина",
       "plural": "planters",
       "countability": "countable"
     },
@@ -1896,13 +2188,42 @@
       "term": "pet carrier",
       "ipa": "/ˈpɛt ˌkæriər/",
       "respell": "PET KA-ree-ur",
-      "meaning": "A ventilated box or bag for transporting a cat or small dog. ---",
+      "meaning": "Pet carrier has 2 distinct senses.",
       "examples": [
         "The cat howled in the pet carrier the whole way.",
         "Your pet carrier has to fit under the seat.",
-        "Both pet carriers are out in the garage."
+        "Both pet carriers are out in the garage.",
+        "The cat hates going in the pet carrier.",
+        "Airlines have size limits for pet carriers.",
+        "Put a towel in the pet carrier so she's comfortable."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A ventilated box or bag for transporting a cat or small dog",
+          "body": [
+            "(переноска для животных)"
+          ],
+          "examples": [
+            "The cat howled in the pet carrier the whole way.",
+            "Your pet carrier has to fit under the seat.",
+            "Both pet carriers are out in the garage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small box or bag with air holes for carrying an animal",
+          "body": [
+            "(переноска для животных)",
+            "---"
+          ],
+          "examples": [
+            "The cat hates going in the pet carrier.",
+            "Airlines have size limits for pet carriers.",
+            "Put a towel in the pet carrier so she's comfortable."
+          ]
+        }
+      ],
       "русский": "переноска для животных",
       "plural": "pet carriers",
       "countability": "countable"
@@ -2170,14 +2491,43 @@
       "term": "spout",
       "ipa": "/spaʊt/",
       "respell": "SPOWT",
-      "meaning": "The narrow opening that a container pours through. ---",
+      "meaning": "Spout has 2 distinct senses.",
       "examples": [
         "Tea dripped from the spout.",
         "The spout on the gas can is missing.",
-        "Both watering cans have long spouts."
+        "Both watering cans have long spouts.",
+        "Water dribbles down the outside of the spout.",
+        "The tub spout pulls up to switch to the shower.",
+        "These faucets come with taller spouts."
       ],
-      "senses": [],
-      "русский": "носик (сосуда), сливное горлышко",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The narrow opening that a container pours through",
+          "body": [
+            "(носик (сосуда), сливное горлышко)"
+          ],
+          "examples": [
+            "Tea dripped from the spout.",
+            "The spout on the gas can is missing.",
+            "Both watering cans have long spouts."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a faucet or tap that the water pours out of",
+          "body": [
+            "(излив, носик (крана))",
+            "---"
+          ],
+          "examples": [
+            "Water dribbles down the outside of the spout.",
+            "The tub spout pulls up to switch to the shower.",
+            "These faucets come with taller spouts."
+          ]
+        }
+      ],
+      "русский": "носик (сосуда), сливное горлышко; излив, носик (крана)",
       "plural": "spouts",
       "countability": "countable"
     },
@@ -2200,14 +2550,43 @@
       "term": "spigot",
       "ipa": "/ˈspɪɡət/",
       "respell": "SPIG-ut",
-      "meaning": "A tap on a barrel or an outdoor faucet. ---",
+      "meaning": "Spigot has 2 distinct senses.",
       "examples": [
         "Hook the hose to the spigot on the side of the house.",
         "Beer ran from the spigot into the pitcher.",
-        "The outdoor spigots freeze every winter."
+        "The outdoor spigots freeze every winter.",
+        "Hook the hose up to the spigot on the side of the house.",
+        "The spigot drips no matter how hard you crank it.",
+        "There are spigots front and back."
       ],
-      "senses": [],
-      "русский": "кран (у бочки; наружный водопроводный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A tap on a barrel or an outdoor faucet",
+          "body": [
+            "(кран (у бочки; наружный водопроводный))"
+          ],
+          "examples": [
+            "Hook the hose to the spigot on the side of the house.",
+            "Beer ran from the spigot into the pitcher.",
+            "The outdoor spigots freeze every winter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An outdoor tap that a garden hose screws onto",
+          "body": [
+            "(уличный водопроводный кран)",
+            "---"
+          ],
+          "examples": [
+            "Hook the hose up to the spigot on the side of the house.",
+            "The spigot drips no matter how hard you crank it.",
+            "There are spigots front and back."
+          ]
+        }
+      ],
+      "русский": "кран (у бочки; наружный водопроводный); уличный водопроводный кран",
       "plural": "spigots",
       "countability": "countable",
       "contrast": "A mostly American word; the British say tap."

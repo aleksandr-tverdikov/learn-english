@@ -14,6 +14,7 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 **Pronunciation:** /ˈtɔɪlət ˌpeɪpər/ &middot; *TOY-luht pay-pur*
 **Русский:** туалетная бумага
 **Countability:** uncountable
+**Contrast:** Uncountable: *a roll of toilet paper*, never *a toilet paper*.
 
 Soft paper on a roll, used in the bathroom after using the toilet.
 
@@ -76,11 +77,19 @@ A small towel kept by the sink for drying your hands.
 **Countability:** countable
 **Contrast:** Americans say *paper towels*; the British call the kitchen kind kitchen roll.
 
-A sheet of thick absorbent paper used once for wiping or drying.
+Paper towel has 2 distinct senses.
+
+**1. A sheet of thick absorbent paper used once for wiping or drying.** (бумажное полотенце)
 
 1. Wipe that up with a *paper towel*.
 2. We go through a roll of *paper towels* a week.
 3. The restroom was out of *paper towels*.
+
+**2. A sheet of absorbent paper torn off a roll to wipe up spills.** (бумажное полотенце)
+
+4. Hand me a *paper towel* — I spilled the coffee.
+5. We're out of *paper towels* again.
+6. She wiped the counter with a damp *paper towel*.
 
 ---
 
@@ -397,11 +406,19 @@ A bar mounted on a wall to hold on to in a tub or shower.
 **Countability:** countable
 **Contrast:** The h in exhaust is silent: ig-ZAWST.
 
-A fan that pulls steam and smells out of a bathroom.
+Exhaust fan has 2 distinct senses.
+
+**1. A fan that pulls steam and smells out of a bathroom.** (вытяжной вентилятор)
 
 1. Turn on the *exhaust fan* before you shower.
 2. The *exhaust fan* rattles the whole time it runs.
 3. Bathrooms without windows need *exhaust fans*.
+
+**2. A fan that pulls stale or damp air out of a room.** (вытяжной вентилятор)
+
+4. Turn on the *exhaust fan* when you shower.
+5. The bathroom *exhaust fan* rattles like a helicopter.
+6. Both *exhaust fans* vent straight through the roof.
 
 ---
 
@@ -440,15 +457,24 @@ A low bathroom fixture for washing yourself after using the toilet.
 ### lavatory
 
 **Pronunciation:** /ˈlævətɔːri/ &middot; *LAV-uh-tor-ee*
-**Русский:** уборная, туалет
+**Русский:** уборная, туалет; умывальник; туалет
 **Plural:** *lavatories*
 **Countability:** countable
+**Contrast:** In American plumbing catalogs a lavatory is the bathroom sink itself; in everyday speech it mostly survives on airplanes.
 
-A room or fixture for washing and using the toilet, especially on a plane.
+Lavatory has 2 distinct senses.
+
+**1. A room or fixture for washing and using the toilet, especially on a plane.** (уборная, туалет)
 
 1. The *lavatory* at the back of the plane is occupied.
 2. Please return to your seat when the *lavatory* is free.
 3. The *lavatories* were cleaned between flights.
+
+**2. A washbasin, or the small room containing one.** (умывальник; туалет)
+
+4. The plans call for a *lavatory* in the powder room.
+5. The *lavatory* at the back of the plane was occupied.
+6. Both *lavatories* need new faucets.
 
 ---
 
@@ -562,11 +588,19 @@ The water in a bathtub.
 **Русский:** мыло для рук
 **Countability:** uncountable
 
-Soap made for washing your hands, usually liquid.
+Hand soap has 2 distinct senses.
+
+**1. Soap made for washing your hands, usually liquid.** (мыло для рук)
 
 1. We're out of *hand soap*.
 2. The *hand soap* in the kitchen smells like lemon.
 3. Refill the *hand soap* by the sink.
+
+**2. Soap kept by a sink for washing the hands.** (мыло для рук)
+
+4. The *hand soap* by the sink is empty.
+5. She buys unscented *hand soap*.
+6. Refill the *hand soap* in the guest bathroom.
 
 ---
 
@@ -722,12 +756,21 @@ A soft mineral powder used on the skin to absorb moisture.
 **Русский:** влажная салфетка
 **Plural:** *wipes*
 **Countability:** countable
+**Contrast:** Almost always plural — you buy *wipes*, not *a wipe*.
 
-A small moist cloth sold in a pack for cleaning skin or surfaces.
+Wipe has 2 distinct senses.
+
+**1. A small moist cloth sold in a pack for cleaning skin or surfaces.** (влажная салфетка)
 
 1. Hand me a *wipe* for the baby's face.
 2. She cleaned the counter with a disinfecting *wipe*.
 3. We buy *wipes* by the case.
+
+**2. A damp disposable cloth sold in a pack for quick cleaning.** (влажная салфетка)
+
+4. Keep a pack of *wipes* in the car.
+5. She pulled a *wipe* out and cleaned his hands.
+6. Disinfecting *wipes* sold out in a week.
 
 ---
 
@@ -933,11 +976,19 @@ An absorbent pad worn in underwear during a period.
 **Plural:** *disinfectants*
 **Countability:** countable, and uncountable as a substance
 
-A chemical that kills germs on surfaces.
+Disinfectant has 2 distinct senses.
+
+**1. A chemical that kills germs on surfaces.** (дезинфицирующее средство)
 
 1. Wipe the counter with *disinfectant*.
 2. The whole clinic smelled of *disinfectant*.
 3. Some *disinfectants* have to sit for a full minute.
+
+**2. A chemical used to kill germs on surfaces and equipment.** (дезинфицирующее средство)
+
+4. Wipe the counter down with *disinfectant*.
+5. They ran out of *disinfectant* by Tuesday.
+6. Strong *disinfectants* can irritate your lungs.
 
 ---
 
@@ -948,11 +999,19 @@ A chemical that kills germs on surfaces.
 **Plural:** *antiseptics*
 **Countability:** countable, and uncountable as a substance
 
-A liquid put on skin or a wound to stop infection.
+Antiseptic has 2 distinct senses.
+
+**1. A liquid put on skin or a wound to stop infection.** (антисептик)
 
 1. She dabbed *antiseptic* on the cut.
 2. The *antiseptic* stung for a second.
 3. Most first aid kits include an *antiseptic*.
+
+**2. A liquid or cream put on a cut to kill germs.** (антисептик)
+
+4. Clean the scrape and put some *antiseptic* on it.
+5. The kit has an *antiseptic* and a roll of tape.
+6. Hospital *antiseptics* are stronger than the drugstore kind.
 
 ---
 
@@ -1008,26 +1067,42 @@ A strong chemical poured into a pipe to dissolve a blockage.
 **Countability:** countable
 **Contrast:** Americans say *scrub brush*; the British say scrubbing brush.
 
-A stiff brush for scrubbing floors, tile, and tubs.
+Scrub brush has 2 distinct senses.
+
+**1. A stiff brush for scrubbing floors, tile, and tubs.** (щётка для чистки)
 
 1. Take a *scrub brush* to the tile.
 2. The *scrub brush* is under the sink.
 3. We wore out two *scrub brushes* on that bathroom.
+
+**2. A stiff-bristled brush for rubbing dirt off hard surfaces.** (щётка для чистки)
+
+4. Take a *scrub brush* to that grout.
+5. The *scrub brush* is under the sink.
+6. We went through two *scrub brushes* on the deck.
 
 ---
 
 ### scouring pad
 
 **Pronunciation:** /ˈskaʊərɪŋ ˌpæd/ &middot; *SKOW-ur-ing pad*
-**Русский:** абразивная губка
+**Русский:** абразивная губка; абразивная губка, металлическая мочалка
 **Plural:** *scouring pads*
 **Countability:** countable
 
-A rough pad used to scrub off stuck-on dirt.
+Scouring pad has 2 distinct senses.
+
+**1. A rough pad used to scrub off stuck-on dirt.** (абразивная губка)
 
 1. She went after the tub with a *scouring pad*.
 2. A *scouring pad* will scratch that finish.
 3. The box holds six *scouring pads*.
+
+**2. A rough pad used to scrape burned or dried food off cookware.** (абразивная губка, металлическая мочалка)
+
+4. Hit the casserole dish with a *scouring pad*.
+5. A *scouring pad* will ruin that finish.
+6. The *scouring pads* are in the drawer by the stove.
 
 ---
 
@@ -1066,14 +1141,23 @@ The products and tools kept in a house for cleaning.
 ### laundry detergent
 
 **Pronunciation:** /ˈlɔːndri dɪˌtɜːrdʒənt/ &middot; *LAWN-dree dih-tur-juhnt*
-**Русский:** стиральный порошок, средство для стирки
+**Русский:** стиральный порошок, средство для стирки; стиральный порошок, гель для стирки
 **Countability:** uncountable
+**Contrast:** Uncountable: *a bottle of laundry detergent*, not *a laundry detergent*.
 
-Soap made for washing clothes in a machine.
+Laundry detergent has 2 distinct senses.
+
+**1. Soap made for washing clothes in a machine.** (стиральный порошок, средство для стирки)
 
 1. We're almost out of *laundry detergent*.
 2. Use half a cap of *laundry detergent*.
 3. That *laundry detergent* smells too strong.
+
+**2. The soap-like liquid or powder used for washing clothes.** (стиральный порошок, гель для стирки)
+
+4. Pick up some *laundry detergent* while you're out.
+5. She uses the unscented *laundry detergent*.
+6. A bottle of *laundry detergent* lasts us a month.
 
 ---
 
@@ -1140,14 +1224,22 @@ The state of being clean, or the habit of keeping things clean.
 ### sanitation
 
 **Pronunciation:** /ˌsænəˈteɪʃən/ &middot; *san-uh-TAY-shuhn*
-**Русский:** санитария
+**Русский:** санитария; санитария; уборка мусора (городская)
 **Countability:** uncountable
 
-Systems for keeping people healthy by removing waste and dirt.
+Sanitation has 2 distinct senses.
+
+**1. Systems for keeping people healthy by removing waste and dirt.** (санитария)
 
 1. Poor *sanitation* spreads disease.
 2. The city's *sanitation* department picks up on Tuesdays.
 3. Clean water and *sanitation* have saved millions of lives.
+
+**2. The systems that keep a place clean and remove waste.** (санитария; уборка мусора (городская))
+
+4. The strike shut down city *sanitation* for a week.
+5. Poor *sanitation* spreads disease fast.
+6. *Sanitation* crews start at five in the morning.
 
 ---
 
@@ -1215,6 +1307,7 @@ The presence of germs or dirt where they do not belong.
 **Pronunciation:** /fɪlθ/ &middot; *FILTH*
 **Русский:** грязь, мерзость
 **Countability:** uncountable
+**Contrast:** Uncountable — *filth*, never *filths*.
 
 Disgusting dirt.
 
@@ -1229,6 +1322,7 @@ Disgusting dirt.
 **Pronunciation:** /ɡraɪm/ &middot; *GRYM*
 **Русский:** въевшаяся грязь, копоть
 **Countability:** uncountable
+**Contrast:** Uncountable — never *a grime* or *grimes*.
 
 Dirt that has built up and stuck to a surface.
 
@@ -1244,26 +1338,42 @@ Dirt that has built up and stuck to a surface.
 **Русский:** мыльный налёт
 **Countability:** uncountable
 
-The dull film that soap leaves on tubs and shower doors.
+Soap scum has 2 distinct senses.
+
+**1. The dull film that soap leaves on tubs and shower doors.** (мыльный налёт)
 
 1. *Soap scum* built up on the glass door.
 2. Vinegar takes off *soap scum*.
 3. There's a ring of *soap scum* around the tub.
+
+**2. The chalky film soap leaves on tile, glass, and tubs.** (мыльный налёт)
+
+4. The shower door is covered in *soap scum*.
+5. Vinegar takes off *soap scum*.
+6. *Soap scum* builds up fast with hard water.
 
 ---
 
 ### suds
 
 **Pronunciation:** /sʌdz/ &middot; *SUHDZ*
-**Русский:** мыльная пена, пузыри
+**Русский:** мыльная пена, пузыри; мыльная пена
 **Countability:** uncountable
 **Contrast:** Always plural in form and takes a plural verb: the *suds* were everywhere.
 
-Soapy bubbles on the surface of water.
+Suds has 2 distinct senses.
+
+**1. Soapy bubbles on the surface of water.** (мыльная пена, пузыри)
 
 1. The sink was full of *suds*.
 2. *Suds* spilled over the edge of the tub.
 3. Rinse until there are no *suds* left.
+
+**2. The bubbles that form on water when soap is added.** (мыльная пена)
+
+4. The sink was full of *suds*.
+5. Rinse it until there are no *suds* left.
+6. *Suds* were coming out from under the washer.
 
 ---
 
@@ -1316,15 +1426,24 @@ A very strong, disgusting smell.
 ### cleanup
 
 **Pronunciation:** /ˈkliːnʌp/ &middot; *KLEEN-up*
-**Русский:** уборка
+**Русский:** уборка; уборка (после чего-л.)
 **Plural:** *cleanups*
 **Countability:** countable
+**Contrast:** The noun is one word, *cleanup*; the verb is two, *clean up*.
 
-The work of making a dirty place clean again.
+Cleanup has 2 distinct senses.
+
+**1. The work of making a dirty place clean again.** (уборка)
 
 1. The *cleanup* took all afternoon.
 2. Whoever makes the mess handles the *cleanup*.
 3. The party was fun; the *cleanups* never are.
+
+**2. The work of clearing away dirt or damage after an event.** (уборка (после чего-л.))
+
+4. The *cleanup* took longer than the party itself.
+5. Volunteers showed up for the river *cleanup*.
+6. After the storm there were *cleanups* going on all over town.
 
 ---
 
@@ -1360,14 +1479,22 @@ A long stay in hot water, or a period of leaving something in liquid.
 ### grooming
 
 **Pronunciation:** /ˈɡruːmɪŋ/ &middot; *GROO-ming*
-**Русский:** уход за собой, опрятность
+**Русский:** уход за собой, опрятность; груминг, уход за шерстью
 **Countability:** uncountable
 
-The care you take of your hair, nails, and general appearance.
+Grooming has 2 distinct senses.
+
+**1. The care you take of your hair, nails, and general appearance.** (уход за собой, опрятность)
 
 1. The job listing mentioned neat *grooming*.
 2. *Grooming* takes him about ten minutes in the morning.
 3. Personal *grooming* products are in aisle four.
+
+**2. The work of washing, brushing and trimming an animal's coat.** (груминг, уход за шерстью)
+
+4. Long-haired cats need regular *grooming*.
+5. *Grooming* costs more than I expected.
+6. His *grooming* takes about two hours.
 
 ---
 

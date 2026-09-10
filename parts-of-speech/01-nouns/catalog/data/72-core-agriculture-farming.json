@@ -110,14 +110,43 @@
       "term": "irrigation",
       "ipa": "/ˌɪrəˈɡeɪʃən/",
       "respell": "ir-uh-GAY-shuhn",
-      "meaning": "The supplying of water to farmland through ditches, pipes, or sprinklers. ---",
+      "meaning": "Irrigation has 2 distinct senses.",
       "examples": [
         "Without irrigation, nothing would grow in that valley.",
         "The farm switched to drip irrigation to save water.",
-        "Irrigation accounts for most of the county's water use."
+        "Irrigation accounts for most of the county's water use.",
+        "Nothing grows out there without irrigation.",
+        "The irrigation runs on a timer at dawn.",
+        "They ran irrigation to the far end of the field."
       ],
-      "senses": [],
-      "русский": "орошение, ирригация",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The supplying of water to farmland through ditches, pipes, or sprinklers",
+          "body": [
+            "(орошение, ирригация)"
+          ],
+          "examples": [
+            "Without irrigation, nothing would grow in that valley.",
+            "The farm switched to drip irrigation to save water.",
+            "Irrigation accounts for most of the county's water use."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The supplying of water to land or plants through pipes or channels",
+          "body": [
+            "(орошение, полив)",
+            "---"
+          ],
+          "examples": [
+            "Nothing grows out there without irrigation.",
+            "The irrigation runs on a timer at dawn.",
+            "They ran irrigation to the far end of the field."
+          ]
+        }
+      ],
+      "русский": "орошение, ирригация; орошение, полив",
       "countability": "uncountable"
     },
     {
@@ -256,13 +285,42 @@
       "term": "barnyard",
       "ipa": "/ˈbɑːrnjɑːrd/",
       "respell": "BARN-yard",
-      "meaning": "The open, fenced area next to a barn where farm animals are kept. ---",
+      "meaning": "Barnyard has 2 distinct senses.",
       "examples": [
         "Chickens scratched around the muddy barnyard.",
         "He hosed down the barnyard after the rain.",
-        "The dog sleeps by the gate at the edge of the barnyard."
+        "The dog sleeps by the gate at the edge of the barnyard.",
+        "Chickens wandered around the barnyard.",
+        "The barnyard turns to mud every spring.",
+        "Both barnyards were fenced in."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The open, fenced area next to a barn where farm animals are kept",
+          "body": [
+            "(скотный двор)"
+          ],
+          "examples": [
+            "Chickens scratched around the muddy barnyard.",
+            "He hosed down the barnyard after the rain.",
+            "The dog sleeps by the gate at the edge of the barnyard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The open yard around a barn where farm animals move about",
+          "body": [
+            "(скотный двор)",
+            "---"
+          ],
+          "examples": [
+            "Chickens wandered around the barnyard.",
+            "The barnyard turns to mud every spring.",
+            "Both barnyards were fenced in."
+          ]
+        }
+      ],
       "русский": "скотный двор",
       "plural": "barnyards",
       "countability": "countable"
@@ -613,14 +671,43 @@
       "term": "pruning",
       "ipa": "/ˈpruːnɪŋ/",
       "respell": "PROO-ning",
-      "meaning": "The cutting back of branches so a tree or vine grows better fruit. ---",
+      "meaning": "Pruning has 2 distinct senses.",
       "examples": [
         "Pruning is done in late winter, before the buds swell.",
         "Careful pruning keeps the apple trees low enough to pick.",
-        "He hired a crew for the pruning this year."
+        "He hired a crew for the pruning this year.",
+        "The apple trees need pruning before the buds swell.",
+        "Heavy pruning in fall can hurt a young tree.",
+        "She does all her pruning in late winter."
       ],
-      "senses": [],
-      "русский": "обрезка (деревьев, кустов)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The cutting back of branches so a tree or vine grows better fruit",
+          "body": [
+            "(обрезка (деревьев, кустов))"
+          ],
+          "examples": [
+            "Pruning is done in late winter, before the buds swell.",
+            "Careful pruning keeps the apple trees low enough to pick.",
+            "He hired a crew for the pruning this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The cutting back of branches or stems to shape a plant or help it grow",
+          "body": [
+            "(обрезка (растений))",
+            "---"
+          ],
+          "examples": [
+            "The apple trees need pruning before the buds swell.",
+            "Heavy pruning in fall can hurt a young tree.",
+            "She does all her pruning in late winter."
+          ]
+        }
+      ],
+      "русский": "обрезка (деревьев, кустов); обрезка (растений)",
       "countability": "uncountable"
     },
     {
@@ -683,27 +770,85 @@
       "term": "cultivation",
       "ipa": "/ˌkʌltəˈveɪʃən/",
       "respell": "kul-tuh-VAY-shuhn",
-      "meaning": "The preparing and working of land in order to grow crops. ---",
+      "meaning": "Cultivation has 2 distinct senses.",
       "examples": [
         "Much of this valley is under cultivation.",
         "Cultivation of rice needs a steady water supply.",
-        "The field went out of cultivation twenty years ago."
+        "The field went out of cultivation twenty years ago.",
+        "That field has been under cultivation for a century.",
+        "Roses need more cultivation than most people expect.",
+        "The book covers the cultivation of fruit trees."
       ],
-      "senses": [],
-      "русский": "возделывание, обработка земли",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The preparing and working of land in order to grow crops",
+          "body": [
+            "(возделывание, обработка земли)"
+          ],
+          "examples": [
+            "Much of this valley is under cultivation.",
+            "Cultivation of rice needs a steady water supply.",
+            "The field went out of cultivation twenty years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of preparing soil and raising plants on it",
+          "body": [
+            "(возделывание, выращивание)",
+            "---"
+          ],
+          "examples": [
+            "That field has been under cultivation for a century.",
+            "Roses need more cultivation than most people expect.",
+            "The book covers the cultivation of fruit trees."
+          ]
+        }
+      ],
+      "русский": "возделывание, обработка земли; возделывание, выращивание",
       "countability": "uncountable"
     },
     {
       "term": "germination",
       "ipa": "/ˌdʒɜːrməˈneɪʃən/",
       "respell": "jur-muh-NAY-shuhn",
-      "meaning": "The process of a seed beginning to grow. ---",
+      "meaning": "Germination has 2 distinct senses.",
       "examples": [
         "Cold soil slows germination.",
         "The seed packet lists a germination rate of ninety percent.",
-        "Even moisture is the key to good germination."
+        "Even moisture is the key to good germination.",
+        "Germination takes seven to ten days.",
+        "Cold soil slows germination way down.",
+        "The packet promises ninety percent germination."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The process of a seed beginning to grow",
+          "body": [
+            "(прорастание, всхожесть)"
+          ],
+          "examples": [
+            "Cold soil slows germination.",
+            "The seed packet lists a germination rate of ninety percent.",
+            "Even moisture is the key to good germination."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The sprouting of a seed into a young plant",
+          "body": [
+            "(прорастание, всхожесть)",
+            "---"
+          ],
+          "examples": [
+            "Germination takes seven to ten days.",
+            "Cold soil slows germination way down.",
+            "The packet promises ninety percent germination."
+          ]
+        }
+      ],
       "русский": "прорастание, всхожесть",
       "countability": "uncountable"
     },
@@ -726,14 +871,43 @@
       "term": "horticulture",
       "ipa": "/ˈhɔːrtəkʌltʃər/",
       "respell": "HOR-tuh-kul-chur",
-      "meaning": "The growing of fruit, vegetables, and ornamental plants. ---",
+      "meaning": "Horticulture has 2 distinct senses.",
       "examples": [
         "She has a degree in horticulture.",
         "Horticulture is a bigger business here than grain.",
-        "The greenhouse is used for teaching horticulture."
+        "The greenhouse is used for teaching horticulture.",
+        "She studied horticulture at the state college.",
+        "Horticulture is a big employer in this county.",
+        "He came to horticulture after twenty years in banking."
       ],
-      "senses": [],
-      "русский": "садоводство, растениеводство",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The growing of fruit, vegetables, and ornamental plants",
+          "body": [
+            "(садоводство, растениеводство)"
+          ],
+          "examples": [
+            "She has a degree in horticulture.",
+            "Horticulture is a bigger business here than grain.",
+            "The greenhouse is used for teaching horticulture."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The science and business of growing garden plants",
+          "body": [
+            "(садоводство (отрасль))",
+            "---"
+          ],
+          "examples": [
+            "She studied horticulture at the state college.",
+            "Horticulture is a big employer in this county.",
+            "He came to horticulture after twenty years in banking."
+          ]
+        }
+      ],
+      "русский": "садоводство, растениеводство; садоводство (отрасль)",
       "countability": "uncountable"
     },
     {
@@ -915,13 +1089,42 @@
       "term": "silage",
       "ipa": "/ˈsaɪlɪdʒ/",
       "respell": "SY-lij",
-      "meaning": "Green crops packed tight and left to ferment, used as winter feed for cattle. ---",
+      "meaning": "Silage has 2 distinct senses.",
       "examples": [
         "The cows get silage all through the winter.",
         "They chopped the corn for silage in September.",
-        "Good silage smells sweet, not sour."
+        "Good silage smells sweet, not sour.",
+        "The cows are fed silage through the winter.",
+        "He filled the pit with silage.",
+        "Silage smells sour, but the cattle love it."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Green crops packed tight and left to ferment, used as winter feed for cattle",
+          "body": [
+            "(силос)"
+          ],
+          "examples": [
+            "The cows get silage all through the winter.",
+            "They chopped the corn for silage in September.",
+            "Good silage smells sweet, not sour."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Green plants packed and fermented in a pit as winter cattle feed",
+          "body": [
+            "(силос)",
+            "---"
+          ],
+          "examples": [
+            "The cows are fed silage through the winter.",
+            "He filled the pit with silage.",
+            "Silage smells sour, but the cattle love it."
+          ]
+        }
+      ],
       "русский": "силос",
       "countability": "uncountable",
       "contrast": "The first syllable rhymes with sigh: SY-lij, not SIL-ij."
@@ -938,7 +1141,8 @@
       ],
       "senses": [],
       "русский": "корм для скота, фураж",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable: some fodder, never 'a fodder'."
     },
     {
       "term": "forage",
@@ -1049,14 +1253,43 @@
       "term": "seedbed",
       "ipa": "/ˈsiːdbɛd/",
       "respell": "SEED-bed",
-      "meaning": "Soil worked fine and smooth so that seed can be sown in it. ---",
+      "meaning": "Seedbed has 2 distinct senses.",
       "examples": [
         "He worked the ground twice to get a fine seedbed.",
         "A rough seedbed gives uneven emergence.",
-        "The seedbeds were ready by the first week of April."
+        "The seedbeds were ready by the first week of April.",
+        "Rake the seedbed smooth before you sow.",
+        "A crusted seedbed keeps seedlings from breaking through.",
+        "He prepares his seedbeds the week before planting."
       ],
-      "senses": [],
-      "русский": "посевное ложе, рассадник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soil worked fine and smooth so that seed can be sown in it",
+          "body": [
+            "(посевное ложе, рассадник)"
+          ],
+          "examples": [
+            "He worked the ground twice to get a fine seedbed.",
+            "A rough seedbed gives uneven emergence.",
+            "The seedbeds were ready by the first week of April."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A patch of finely worked soil prepared for sowing seed",
+          "body": [
+            "(рассадная грядка)",
+            "---"
+          ],
+          "examples": [
+            "Rake the seedbed smooth before you sow.",
+            "A crusted seedbed keeps seedlings from breaking through.",
+            "He prepares his seedbeds the week before planting."
+          ]
+        }
+      ],
+      "русский": "посевное ложе, рассадник; рассадная грядка",
       "plural": "seedbeds",
       "countability": "countable"
     },
@@ -1154,14 +1387,43 @@
       "term": "cultivator",
       "ipa": "/ˈkʌltəveɪtər/",
       "respell": "KUL-tuh-vay-tur",
-      "meaning": "An implement pulled between crop rows to loosen soil and kill weeds. ---",
+      "meaning": "Cultivator has 2 distinct senses.",
       "examples": [
         "He ran the cultivator through the beans one more time.",
         "The cultivator shanks need sharpening.",
-        "Row-crop cultivators went out of style, then came back."
+        "Row-crop cultivators went out of style, then came back.",
+        "Run a cultivator through the row to kill the small weeds.",
+        "The hand cultivator is perfect for container soil.",
+        "Both cultivators are hanging by the door."
       ],
-      "senses": [],
-      "русский": "культиватор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An implement pulled between crop rows to loosen soil and kill weeds",
+          "body": [
+            "(культиватор)"
+          ],
+          "examples": [
+            "He ran the cultivator through the beans one more time.",
+            "The cultivator shanks need sharpening.",
+            "Row-crop cultivators went out of style, then came back."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool with curved prongs for breaking up and stirring the top of the soil",
+          "body": [
+            "(культиватор, ручной рыхлитель)",
+            "---"
+          ],
+          "examples": [
+            "Run a cultivator through the row to kill the small weeds.",
+            "The hand cultivator is perfect for container soil.",
+            "Both cultivators are hanging by the door."
+          ]
+        }
+      ],
+      "русский": "культиватор; культиватор, ручной рыхлитель",
       "plural": "cultivators",
       "countability": "countable"
     },
@@ -1184,13 +1446,42 @@
       "term": "sprayer",
       "ipa": "/ˈspreɪər/",
       "respell": "SPRAY-ur",
-      "meaning": "A machine that spreads liquid chemicals over a crop. ---",
+      "meaning": "Sprayer has 2 distinct senses.",
       "examples": [
         "The sprayer has booms sixty feet wide.",
         "Rinse the sprayer before you switch chemicals.",
-        "Two sprayers covered the whole farm in a day."
+        "Two sprayers covered the whole farm in a day.",
+        "Fill the sprayer and go after the aphids.",
+        "The sprayer clogs if you don't rinse it.",
+        "He keeps separate sprayers for weed killer and for feed."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that spreads liquid chemicals over a crop",
+          "body": [
+            "(опрыскиватель)"
+          ],
+          "examples": [
+            "The sprayer has booms sixty feet wide.",
+            "Rinse the sprayer before you switch chemicals.",
+            "Two sprayers covered the whole farm in a day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tank with a pump and nozzle for spraying plants",
+          "body": [
+            "(опрыскиватель)",
+            "---"
+          ],
+          "examples": [
+            "Fill the sprayer and go after the aphids.",
+            "The sprayer clogs if you don't rinse it.",
+            "He keeps separate sprayers for weed killer and for feed."
+          ]
+        }
+      ],
       "русский": "опрыскиватель",
       "plural": "sprayers",
       "countability": "countable"
@@ -1214,14 +1505,58 @@
       "term": "auger",
       "ipa": "/ˈɔːɡər/",
       "respell": "AW-gur",
-      "meaning": "A long screw inside a tube, used to move grain or to bore holes for posts. ---",
+      "meaning": "Auger has 3 distinct senses.",
       "examples": [
         "The auger moves corn from the wagon into the bin.",
         "He used a post-hole auger on the fence line.",
-        "Keep your hands clear of the auger while it's running."
+        "Keep your hands clear of the auger while it's running.",
+        "He cut four holes with a hand auger.",
+        "Gas augers go through a foot of ice in seconds.",
+        "The auger blade needs sharpening.",
+        "A toilet auger got the clog out in a minute.",
+        "Feed the auger in slowly and keep turning.",
+        "Plumbers carry several augers of different lengths."
       ],
-      "senses": [],
-      "русский": "шнек, бур",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long screw inside a tube, used to move grain or to bore holes for posts",
+          "body": [
+            "(шнек, бур)"
+          ],
+          "examples": [
+            "The auger moves corn from the wagon into the bin.",
+            "He used a post-hole auger on the fence line.",
+            "Keep your hands clear of the auger while it's running."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool with a spiral blade for drilling a hole through ice",
+          "body": [
+            "(ледобур)"
+          ],
+          "examples": [
+            "He cut four holes with a hand auger.",
+            "Gas augers go through a foot of ice in seconds.",
+            "The auger blade needs sharpening."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A coiled tool cranked into a drain or toilet to clear a blockage",
+          "body": [
+            "(шнек, спираль для прочистки труб)",
+            "---"
+          ],
+          "examples": [
+            "A toilet auger got the clog out in a minute.",
+            "Feed the auger in slowly and keep turning.",
+            "Plumbers carry several augers of different lengths."
+          ]
+        }
+      ],
+      "русский": "шнек, бур; ледобур; шнек, спираль для прочистки труб",
       "plural": "augers",
       "countability": "countable",
       "contrast": "Sounds the same as augur, to foretell — a different word entirely."
@@ -1300,7 +1635,8 @@
       "senses": [],
       "русский": "вилы",
       "plural": "pitchforks",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Russian вилы is plural, but one tool is a pitchfork, singular."
     },
     {
       "term": "scythe",
@@ -1429,14 +1765,58 @@
       "term": "stall",
       "ipa": "/stɔːl/",
       "respell": "STAWL",
-      "meaning": "A separate space inside a barn for one animal. ---",
+      "meaning": "Stall has 3 distinct senses.",
       "examples": [
         "Each cow has her own stall.",
         "He mucked out the stalls before breakfast.",
-        "The mare kicked the side of her stall all night."
+        "The mare kicked the side of her stall all night.",
+        "Her stall sells honey and jam.",
+        "The stalls go up before sunrise.",
+        "We bought peaches from the last stall in the row.",
+        "Only one stall was unlocked.",
+        "She waited outside the stall.",
+        "The stalls at the stadium always have a line."
       ],
-      "senses": [],
-      "русский": "стойло, денник",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A separate space inside a barn for one animal",
+          "body": [
+            "(стойло, денник)"
+          ],
+          "examples": [
+            "Each cow has her own stall.",
+            "He mucked out the stalls before breakfast.",
+            "The mare kicked the side of her stall all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small open stand where goods are sold at a market",
+          "body": [
+            "(прилавок, палатка (на рынке))"
+          ],
+          "examples": [
+            "Her stall sells honey and jam.",
+            "The stalls go up before sunrise.",
+            "We bought peaches from the last stall in the row."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small compartment with a door around a toilet in a public restroom",
+          "body": [
+            "(кабинка (в туалете))",
+            "---"
+          ],
+          "examples": [
+            "Only one stall was unlocked.",
+            "She waited outside the stall.",
+            "The stalls at the stadium always have a line."
+          ]
+        }
+      ],
+      "русский": "стойло, денник; прилавок, палатка (на рынке); кабинка (в туалете)",
       "plural": "stalls",
       "countability": "countable"
     },
@@ -1596,13 +1976,42 @@
       "term": "drainage",
       "ipa": "/ˈdreɪnɪdʒ/",
       "respell": "DRAY-nij",
-      "meaning": "The removal of extra water from soil, or the system that does it. ---",
+      "meaning": "Drainage has 2 distinct senses.",
       "examples": [
         "That corner of the field has terrible drainage.",
         "Tile drainage made the low ground farmable.",
-        "Good drainage matters more than fertilizer here."
+        "Good drainage matters more than fertilizer here.",
+        "The shower has terrible drainage.",
+        "Poor drainage left a puddle by the tub.",
+        "They dug a trench to improve the drainage."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The removal of extra water from soil, or the system that does it",
+          "body": [
+            "(дренаж, водоотвод)"
+          ],
+          "examples": [
+            "That corner of the field has terrible drainage.",
+            "Tile drainage made the low ground farmable.",
+            "Good drainage matters more than fertilizer here."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The way water is carried away from a place",
+          "body": [
+            "(дренаж, водоотвод)",
+            "---"
+          ],
+          "examples": [
+            "The shower has terrible drainage.",
+            "Poor drainage left a puddle by the tub.",
+            "They dug a trench to improve the drainage."
+          ]
+        }
+      ],
       "русский": "дренаж, водоотвод",
       "countability": "uncountable"
     },
@@ -1717,13 +2126,42 @@
       "term": "breed",
       "ipa": "/briːd/",
       "respell": "BREED",
-      "meaning": "A particular type of farm animal, developed by selective mating. ---",
+      "meaning": "Breed has 2 distinct senses.",
       "examples": [
         "That breed of cattle handles cold weather well.",
         "He raises three breeds of chickens.",
-        "The dairy breed gives more milk but less beef."
+        "The dairy breed gives more milk but less beef.",
+        "What breed is she?",
+        "That breed needs a lot of exercise.",
+        "Some flat-faced breeds have breathing problems."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular type of farm animal, developed by selective mating",
+          "body": [
+            "(порода)"
+          ],
+          "examples": [
+            "That breed of cattle handles cold weather well.",
+            "He raises three breeds of chickens.",
+            "The dairy breed gives more milk but less beef."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A group of animals of one species with the same fixed appearance and traits",
+          "body": [
+            "(порода)",
+            "---"
+          ],
+          "examples": [
+            "What breed is she?",
+            "That breed needs a lot of exercise.",
+            "Some flat-faced breeds have breathing problems."
+          ]
+        }
+      ],
       "русский": "порода",
       "plural": "breeds",
       "countability": "countable"
@@ -1792,13 +2230,42 @@
       "term": "manger",
       "ipa": "/ˈmeɪndʒər/",
       "respell": "MAYN-jur",
-      "meaning": "A long open box in a barn that holds hay for horses or cattle. ---",
+      "meaning": "Manger has 2 distinct senses.",
       "examples": [
         "He filled the manger with fresh hay.",
         "The horses pushed their heads into the manger.",
-        "Both mangers were built from rough planks."
+        "Both mangers were built from rough planks.",
+        "The calf ate straight out of the manger.",
+        "Hay was piled in the manger.",
+        "Each stall has its own manger."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long open box in a barn that holds hay for horses or cattle",
+          "body": [
+            "(ясли, кормушка)"
+          ],
+          "examples": [
+            "He filled the manger with fresh hay.",
+            "The horses pushed their heads into the manger.",
+            "Both mangers were built from rough planks."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A box or rack in a stable that holds hay for animals",
+          "body": [
+            "(ясли, кормушка)",
+            "---"
+          ],
+          "examples": [
+            "The calf ate straight out of the manger.",
+            "Hay was piled in the manger.",
+            "Each stall has its own manger."
+          ]
+        }
+      ],
       "русский": "ясли, кормушка",
       "plural": "mangers",
       "countability": "countable",
@@ -1808,14 +2275,43 @@
       "term": "halter",
       "ipa": "/ˈhɔːltər/",
       "respell": "HAWL-tur",
-      "meaning": "A set of straps put on a horse's or cow's head so it can be led. ---",
+      "meaning": "Halter has 2 distinct senses.",
       "examples": [
         "She slipped a halter over the mare's nose.",
         "The halters hang on nails by the stall doors.",
-        "He led the calf by a rope halter."
+        "He led the calf by a rope halter.",
+        "Put a halter on him before you lead him out.",
+        "The halter was hanging on the fence post.",
+        "The halters are labeled with each horse's name."
       ],
-      "senses": [],
-      "русский": "недоуздок, оброть",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of straps put on a horse's or cow's head so it can be led",
+          "body": [
+            "(недоуздок, оброть)"
+          ],
+          "examples": [
+            "She slipped a halter over the mare's nose.",
+            "The halters hang on nails by the stall doors.",
+            "He led the calf by a rope halter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A simple headpiece with a rope, used to lead an animal",
+          "body": [
+            "(недоуздок)",
+            "---"
+          ],
+          "examples": [
+            "Put a halter on him before you lead him out.",
+            "The halter was hanging on the fence post.",
+            "The halters are labeled with each horse's name."
+          ]
+        }
+      ],
+      "русский": "недоуздок, оброть; недоуздок",
       "plural": "halters",
       "countability": "countable"
     },
@@ -1823,14 +2319,58 @@
       "term": "harness",
       "ipa": "/ˈhɑːrnəs/",
       "respell": "HAR-nuhs",
-      "meaning": "The straps and fittings that connect a work animal to a plow or wagon. ---",
+      "meaning": "Harness has 3 distinct senses.",
       "examples": [
         "He oiled the leather harness every fall.",
         "The old harnesses still hang in the tack room.",
-        "It takes ten minutes to put the harness on a team."
+        "It takes ten minutes to put the harness on a team.",
+        "A harness is easier on his neck than a collar.",
+        "She clipped the leash to his harness.",
+        "The store had harnesses in three sizes.",
+        "Nobody goes on the roof without a harness.",
+        "His harness caught him halfway down.",
+        "The crew checks the harnesses every morning."
       ],
-      "senses": [],
-      "русский": "упряжь, сбруя",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The straps and fittings that connect a work animal to a plow or wagon",
+          "body": [
+            "(упряжь, сбруя)"
+          ],
+          "examples": [
+            "He oiled the leather harness every fall.",
+            "The old harnesses still hang in the tack room.",
+            "It takes ten minutes to put the harness on a team."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of straps that goes around an animal's chest and shoulders",
+          "body": [
+            "(шлейка)"
+          ],
+          "examples": [
+            "A harness is easier on his neck than a collar.",
+            "She clipped the leash to his harness.",
+            "The store had harnesses in three sizes."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A set of straps worn around the body and clipped to a rope to stop a fall",
+          "body": [
+            "(страховочная привязь, страховочная система)",
+            "---"
+          ],
+          "examples": [
+            "Nobody goes on the roof without a harness.",
+            "His harness caught him halfway down.",
+            "The crew checks the harnesses every morning."
+          ]
+        }
+      ],
+      "русский": "упряжь, сбруя; шлейка; страховочная привязь, страховочная система",
       "plural": "harnesses",
       "countability": "countable"
     },
@@ -1989,14 +2529,43 @@
       "term": "shepherd",
       "ipa": "/ˈʃɛpərd/",
       "respell": "SHEP-urd",
-      "meaning": "Someone whose job is to take care of sheep. ---",
+      "meaning": "Shepherd has 2 distinct senses.",
       "examples": [
         "The shepherd moved the flock to higher ground.",
         "Two shepherds stayed with the sheep all night.",
-        "He worked as a shepherd in the mountains."
+        "He worked as a shepherd in the mountains.",
+        "The shepherd moved the flock at dawn.",
+        "Shepherds spend months out with the sheep.",
+        "An old shepherd pointed us up the trail."
       ],
-      "senses": [],
-      "русский": "пастух (овец), чабан",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone whose job is to take care of sheep",
+          "body": [
+            "(пастух (овец), чабан)"
+          ],
+          "examples": [
+            "The shepherd moved the flock to higher ground.",
+            "Two shepherds stayed with the sheep all night.",
+            "He worked as a shepherd in the mountains."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person whose job is looking after sheep",
+          "body": [
+            "(пастух, чабан)",
+            "---"
+          ],
+          "examples": [
+            "The shepherd moved the flock at dawn.",
+            "Shepherds spend months out with the sheep.",
+            "An old shepherd pointed us up the trail."
+          ]
+        }
+      ],
+      "русский": "пастух (овец), чабан; пастух, чабан",
       "plural": "shepherds",
       "countability": "countable",
       "contrast": "The middle h is silent: SHEP-urd, not SHEP-hurd."
@@ -2051,29 +2620,88 @@
       "term": "veterinarian",
       "ipa": "/ˌvɛtərəˈnɛriən/",
       "respell": "vet-ur-uh-NAIR-ee-uhn",
-      "meaning": "A doctor who treats animals. ---",
+      "meaning": "Veterinarian has 2 distinct senses.",
       "examples": [
         "The veterinarian came out at midnight for the calving.",
         "Large-animal veterinarians are scarce in rural counties.",
-        "She trained as a veterinarian after college."
+        "She trained as a veterinarian after college.",
+        "She's studying to be a veterinarian.",
+        "The veterinarian put six stitches in his paw.",
+        "Three veterinarians work out of that clinic."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A doctor who treats animals",
+          "body": [
+            "(ветеринар, ветеринарный врач)"
+          ],
+          "examples": [
+            "The veterinarian came out at midnight for the calving.",
+            "Large-animal veterinarians are scarce in rural counties.",
+            "She trained as a veterinarian after college."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person qualified to treat sick or injured animals",
+          "body": [
+            "(ветеринар, ветеринарный врач)",
+            "---"
+          ],
+          "examples": [
+            "She's studying to be a veterinarian.",
+            "The veterinarian put six stitches in his paw.",
+            "Three veterinarians work out of that clinic."
+          ]
+        }
+      ],
       "русский": "ветеринар, ветеринарный врач",
       "plural": "veterinarians",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say veterinarian; the British usually say vet or veterinary surgeon."
     },
     {
       "term": "vet",
       "ipa": "/vɛt/",
       "respell": "VET",
-      "meaning": "An everyday short word for a veterinarian. ---",
+      "meaning": "Vet has 2 distinct senses.",
       "examples": [
         "Call the vet — that cow isn't getting up.",
         "The vet checked the whole herd on Tuesday.",
-        "Two vets share the practice in town."
+        "Two vets share the practice in town.",
+        "I'm taking the cat to the vet on Friday.",
+        "Our vet says he needs to lose five pounds.",
+        "Both vets in town were booked solid."
       ],
-      "senses": [],
-      "русский": "ветеринар (разговорное)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An everyday short word for a veterinarian",
+          "body": [
+            "(ветеринар (разговорное))"
+          ],
+          "examples": [
+            "Call the vet — that cow isn't getting up.",
+            "The vet checked the whole herd on Tuesday.",
+            "Two vets share the practice in town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A doctor who treats animals",
+          "body": [
+            "(ветеринар)",
+            "---"
+          ],
+          "examples": [
+            "I'm taking the cat to the vet on Friday.",
+            "Our vet says he needs to lose five pounds.",
+            "Both vets in town were booked solid."
+          ]
+        }
+      ],
+      "русский": "ветеринар (разговорное); ветеринар",
       "plural": "vets",
       "countability": "countable",
       "contrast": "In other contexts vet is also short for veteran, a former soldier; only the setting tells you which."
@@ -2097,15 +2725,45 @@
       "term": "mildew",
       "ipa": "/ˈmɪlduː/",
       "respell": "MIL-doo",
-      "meaning": "A whitish fungus that grows on damp plants or stored grain. ---",
+      "meaning": "Mildew has 2 distinct senses.",
       "examples": [
         "Mildew showed up on the squash leaves in August.",
         "Damp hay in the loft turned to mildew.",
-        "A fungicide keeps the mildew off the vines."
+        "A fungicide keeps the mildew off the vines.",
+        "The squash leaves are covered in mildew.",
+        "Mildew shows up every year once the nights cool off.",
+        "Space the plants out and you'll get less mildew."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A whitish fungus that grows on damp plants or stored grain",
+          "body": [
+            "(мучнистая роса, плесень)"
+          ],
+          "examples": [
+            "Mildew showed up on the squash leaves in August.",
+            "Damp hay in the loft turned to mildew.",
+            "A fungicide keeps the mildew off the vines."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A white or gray fungus that coats leaves in damp weather",
+          "body": [
+            "(мучнистая роса, плесень)",
+            "---"
+          ],
+          "examples": [
+            "The squash leaves are covered in mildew.",
+            "Mildew shows up every year once the nights cool off.",
+            "Space the plants out and you'll get less mildew."
+          ]
+        }
+      ],
       "русский": "мучнистая роса, плесень",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Americans say MIL-doo; the British say MIL-dyoo."
     },
     {
       "term": "growing season",
@@ -2149,7 +2807,8 @@
       ],
       "senses": [],
       "русский": "сетка для птичника, мелкая сетка",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable: a roll of chicken wire, never a chicken wire."
     },
     {
       "term": "hedgerow",
@@ -2185,15 +2844,45 @@
       "term": "sod",
       "ipa": "/sɑːd/",
       "respell": "SAHD",
-      "meaning": "The top layer of soil held together by grass roots. ---",
+      "meaning": "Sod has 2 distinct senses.",
       "examples": [
         "Settlers built houses out of sod.",
         "He cut the sod off before digging the trench.",
-        "New sod was laid around the farmhouse."
+        "New sod was laid around the farmhouse.",
+        "They laid sod over the whole front yard in one day.",
+        "New sod has to be watered every morning.",
+        "It's cheaper than sod, but seed takes a season."
       ],
-      "senses": [],
-      "русский": "дёрн, дернина",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "The top layer of soil held together by grass roots",
+          "body": [
+            "(дёрн, дернина)"
+          ],
+          "examples": [
+            "Settlers built houses out of sod.",
+            "He cut the sod off before digging the trench.",
+            "New sod was laid around the farmhouse."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Grass sold in strips with the soil and roots attached, laid to make an instant lawn",
+          "body": [
+            "(дёрн, рулонный газон)",
+            "---"
+          ],
+          "examples": [
+            "They laid sod over the whole front yard in one day.",
+            "New sod has to be watered every morning.",
+            "It's cheaper than sod, but seed takes a season."
+          ]
+        }
+      ],
+      "русский": "дёрн, дернина; дёрн, рулонный газон",
+      "countability": "uncountable",
+      "contrast": "Americans lay sod; the British call the same thing turf."
     },
     {
       "term": "agribusiness",

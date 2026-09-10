@@ -208,15 +208,30 @@ An outdoor area at a school where children play during breaks.
 ### library
 
 **Pronunciation:** /ˈlaɪbrɛri/ &middot; *LY-brer-ee*
-**Русский:** библиотека
+**Русский:** библиотека; библиотека (программная)
 **Plural:** *libraries*
 **Countability:** countable
+**Contrast:** Three syllables in careful American speech: LY-brair-ee. "LY-berry" is common but considered sloppy.
 
-A building or room holding books that people can read or borrow.
+Library has 3 distinct senses.
+
+**1. A building or room holding books that people can read or borrow.** (библиотека)
 
 1. I study in the *library* between classes.
 2. The *library* closes at ten on weeknights.
 3. Two campus *libraries* stay open all night during finals.
+
+**2. A building or room where books are kept and lent out.** (библиотека)
+
+4. The *library* closes at six on Sundays.
+5. I got the book from the public *library*.
+6. The city runs eleven branch *libraries*.
+
+**3. A collection of ready-made code that other programs can use.** (библиотека (программная))
+
+7. There's a *library* that already does that.
+8. The project depends on about sixty *libraries*.
+9. That *library* hasn't been updated in years.
 
 ---
 
@@ -228,11 +243,19 @@ A building or room holding books that people can read or borrow.
 **Countability:** countable
 **Contrast:** American stress falls on the first syllable, LAB-ruh-tor-ee; the British say luh-BOR-uh-tree. Americans usually shorten it to lab.
 
-A room fitted out for scientific experiments and testing.
+Laboratory has 2 distinct senses.
+
+**1. A room fitted out for scientific experiments and testing.** (лаборатория)
 
 1. Safety goggles are required in the *laboratory*.
 2. She works in a research *laboratory* on campus.
 3. The chemistry *laboratories* are on the third floor.
+
+**2. A room or building where scientific work is done.** (лаборатория)
+
+4. The samples went straight to the *laboratory*.
+5. She runs a research *laboratory* at the university.
+6. Both *laboratories* got the same result.
 
 ---
 
@@ -708,6 +731,7 @@ The science of living things.
 **Pronunciation:** /ˈkɛməstri/ &middot; *KEM-uh-stree*
 **Русский:** химия
 **Countability:** uncountable
+**Contrast:** The *ch* is pronounced like *k*.
 
 The science of substances and how they react with each other.
 
@@ -734,14 +758,22 @@ The study of the earth's surface, its countries, and its features.
 ### philosophy
 
 **Pronunciation:** /fəˈlɑːsəfi/ &middot; *fuh-LAH-suh-fee*
-**Русский:** философия
+**Русский:** философия; философия; жизненные принципы
 **Countability:** uncountable
 
-The study of basic questions about knowledge, existence, and right and wrong.
+Philosophy has 2 distinct senses.
+
+**1. The study of basic questions about knowledge, existence, and right and wrong.** (философия)
 
 1. He took *philosophy* to fill a requirement.
 2. *Philosophy* majors read a lot.
 3. She teaches ancient Greek *philosophy*.
+
+**2. The study of the nature of knowledge and existence, or a person's guiding set of beliefs.** (философия; жизненные принципы)
+
+4. He majored in *philosophy* at a small college.
+5. The two coaches have very different *philosophies*.
+6. My *philosophy* is to fix it before it breaks.
 
 ---
 
@@ -877,14 +909,22 @@ The study of computers and how to program them.
 ### drama
 
 **Pronunciation:** /ˈdrɑːmə/ &middot; *DRAH-muh*
-**Русский:** театральное искусство (предмет)
+**Русский:** театральное искусство (предмет); драма (сериал или фильм)
 **Countability:** uncountable
 
-The school subject of acting and putting on plays.
+Drama has 2 distinct senses.
+
+**1. The school subject of acting and putting on plays.** (театральное искусство (предмет))
 
 1. She takes *drama* as an elective.
 2. The *drama* teacher is directing the spring musical.
 3. *Drama* club meets after school on Wednesdays.
+
+**2. A serious television series, film, or play.** (драма (сериал или фильм))
+
+4. It's a legal *drama* set in Boston.
+5. The network ordered two new *dramas*.
+6. That *drama* won every award last year.
 
 ---
 
@@ -951,15 +991,23 @@ An important formal test of what a student has learned.
 ### test
 
 **Pronunciation:** /tɛst/ &middot; *TEST*
-**Русский:** контрольная работа, тест
+**Русский:** контрольная работа, тест; испытание, анализ
 **Plural:** *tests*
 **Countability:** countable
 
-A set of questions used to measure what someone knows or can do.
+Test has 2 distinct senses.
+
+**1. A set of questions used to measure what someone knows or can do.** (контрольная работа, тест)
 
 1. We have a *test* on chapter four tomorrow.
 2. She studied all night for the *test*.
 3. He aced both *tests* this week.
+
+**2. A procedure done to find out what something is or how well it works.** (испытание, анализ)
+
+4. The lab ran a *test* on the water sample.
+5. Both *tests* came back negative.
+6. We put the new material through a strength *test*.
 
 ---
 
@@ -1043,15 +1091,23 @@ A letter or number showing how well a student did.
 ### score
 
 **Pronunciation:** /skɔːr/ &middot; *SKOR*
-**Русский:** результат, балл
+**Русский:** результат, балл; партитура; музыка (к фильму)
 **Plural:** *scores*
 **Countability:** countable
 
-The number of points earned on a test.
+Score has 2 distinct senses.
+
+**1. The number of points earned on a test.** (результат, балл)
 
 1. Her test *score* was in the top ten percent.
 2. He raised his *score* by two hundred points.
 3. The *scores* come back in three weeks.
+
+**2. The written music for all the parts of a piece, or music written for a film.** (партитура; музыка (к фильму))
+
+4. The pianist turned the pages of the *score*.
+5. He wrote the *score* for three films last year.
+6. The *scores* are kept in the library downstairs.
 
 ---
 
@@ -1073,15 +1129,23 @@ A written record of a student's grades sent home to parents.
 ### transcript
 
 **Pronunciation:** /ˈtrænskrɪpt/ &middot; *TRAN-skript*
-**Русский:** выписка оценок, академическая справка
+**Русский:** выписка оценок, академическая справка; расшифровка, стенограмма
 **Plural:** *transcripts*
 **Countability:** countable
 
-An official record of all the courses a student took and the grades received.
+Transcript has 2 distinct senses.
+
+**1. An official record of all the courses a student took and the grades received.** (выписка оценок, академическая справка)
 
 1. You have to send your *transcript* with the application.
 2. The registrar mailed my *transcript* to three schools.
 3. Official *transcripts* cost ten dollars each.
+
+**2. A written copy of everything that was said in a recording or hearing.** (расшифровка, стенограмма)
+
+4. The full *transcript* is on the website.
+5. He read the *transcript* instead of watching the tape.
+6. They released the *transcripts* the next morning.
 
 ---
 
@@ -1091,6 +1155,7 @@ An official record of all the courses a student took and the grades received.
 **Русский:** сочинение, эссе
 **Plural:** *essays*
 **Countability:** countable
+**Contrast:** Stress the first syllable for the noun: ES-ay.
 
 A short piece of writing on one subject.
 
@@ -1194,15 +1259,23 @@ A chart showing exactly how an assignment will be graded.
 ### outline
 
 **Pronunciation:** /ˈaʊtlaɪn/ &middot; *OWT-lyn*
-**Русский:** план (текста), развёрнутый план
+**Русский:** план (текста), развёрнутый план; контур, очертания
 **Plural:** *outlines*
 **Countability:** countable
 
-A short plan listing the main points of a paper or talk in order.
+Outline has 2 distinct senses.
+
+**1. A short plan listing the main points of a paper or talk in order.** (план (текста), развёрнутый план)
 
 1. Turn in an *outline* before you write the paper.
 2. Her *outline* was longer than my rough draft.
 3. We compared *outlines* in study group.
+
+**2. The line that shows the shape of something along its edge.** (контур, очертания)
+
+4. Draw the *outline* first, then fill it in.
+5. The *outline* of the mountain shows through the fog.
+6. He darkened the *outlines* with ink.
 
 ---
 
@@ -1253,15 +1326,23 @@ An official document showing that someone has finished a course of study.
 ### certificate
 
 **Pronunciation:** /sərˈtɪfɪkət/ &middot; *sur-TIF-ih-kuht*
-**Русский:** сертификат, свидетельство
+**Русский:** сертификат, свидетельство; свидетельство, справка
 **Plural:** *certificates*
 **Countability:** countable
 
-An official paper stating that someone has completed training or met a standard.
+Certificate has 2 distinct senses.
+
+**1. An official paper stating that someone has completed training or met a standard.** (сертификат, свидетельство)
 
 1. She earned a *certificate* in medical billing.
 2. The program gives you a *certificate*, not a degree.
 3. He hung both *certificates* behind his desk.
+
+**2. An official document proving a fact about you.** (свидетельство, справка)
+
+4. Bring your birth *certificate* to the passport office.
+5. Both *certificates* have to be notarized.
+6. They asked for a vaccination *certificate* at the border.
 
 ---
 
@@ -1404,14 +1485,22 @@ The money paid to a school or college for teaching.
 ### admission
 
 **Pronunciation:** /ədˈmɪʃən/ &middot; *ud-MISH-uhn*
-**Русский:** приём, поступление
+**Русский:** приём, поступление; вход, входная плата
 **Countability:** uncountable
 
-The right to enter a school or college as a student.
+Admission has 2 distinct senses.
+
+**1. The right to enter a school or college as a student.** (приём, поступление)
 
 1. She was offered *admission* to her first-choice school.
 2. *Admission* to the program is competitive.
 3. He's waiting to hear about *admission*.
+
+**2. The right to enter a place, or the price you pay to enter.** (вход, входная плата)
+
+4. *Admission* is fifteen dollars for adults.
+5. Children under six get free *admission*.
+6. The ticket includes *admission* to both floors.
 
 ---
 
@@ -1509,15 +1598,23 @@ Money borrowed to pay for college that must be paid back later.
 ### assembly
 
 **Pronunciation:** /əˈsɛmbli/ &middot; *uh-SEM-blee*
-**Русский:** школьное собрание, линейка
+**Русский:** школьное собрание, линейка; собрание; законодательное собрание
 **Plural:** *assemblies*
 **Countability:** countable
 
-A meeting of the whole school in one room.
+Assembly has 2 distinct senses.
+
+**1. A meeting of the whole school in one room.** (школьное собрание, линейка)
 
 1. There's an *assembly* in the gym this afternoon.
 2. The principal announced it at *assembly*.
 3. We only have two or three *assemblies* a year.
+
+**2. A group of people who meet officially to make decisions or laws.** (собрание; законодательное собрание)
+
+4. The state *assembly* voted to raise the minimum wage.
+5. She spoke in front of the general *assembly*.
+6. Both *assemblies* rejected the plan.
 
 ---
 
@@ -1539,15 +1636,23 @@ A punishment where a student must stay at school after class.
 ### suspension
 
 **Pronunciation:** /səˈspɛnʃən/ &middot; *suh-SPEN-shuhn*
-**Русский:** временное отстранение от занятий
+**Русский:** временное отстранение от занятий; подвеска
 **Plural:** *suspensions*
 **Countability:** countable
 
-A punishment in which a student is banned from school for a short time.
+Suspension has 2 distinct senses.
+
+**1. A punishment in which a student is banned from school for a short time.** (временное отстранение от занятий)
 
 1. The fight earned him a three-day *suspension*.
 2. She's appealing the *suspension*.
 3. *Suspensions* have dropped since the new policy.
+
+**2. The springs and shocks that smooth out a vehicle's ride.** (подвеска)
+
+4. This truck has a stiff *suspension*.
+5. The *suspension* bottomed out on the speed bump.
+6. They upgraded the *suspension* for off-road driving.
 
 ---
 
@@ -1872,6 +1977,7 @@ A book or app listing words with their meanings.
 **Русский:** энциклопедия
 **Plural:** *encyclopedias*
 **Countability:** countable
+**Contrast:** American spelling *encyclopedia*; the British write *encyclopaedia*.
 
 A book or website with articles on many subjects, arranged alphabetically.
 
@@ -1903,11 +2009,19 @@ A book of maps.
 **Plural:** *maps*
 **Countability:** countable
 
-A drawing of an area showing where places are.
+Map has 2 distinct senses.
+
+**1. A drawing of an area showing where places are.** (карта)
 
 1. There's a *map* of the country on the wall.
 2. We had to label the rivers on a blank *map*.
 3. Old *maps* still hang in the geography room.
+
+**2. A drawing of an area that shows roads, towns, and features.** (карта)
+
+4. The desk clerk gave us a free *map*.
+5. I still keep paper *maps* in the car.
+6. The *map* doesn't show that road at all.
 
 ---
 
@@ -1975,15 +2089,29 @@ A thin glass tube used to hold liquids in a science lab.
 ### note
 
 **Pronunciation:** /noʊt/ &middot; *NOHT*
-**Русский:** запись, заметка (конспект)
+**Русский:** запись, заметка (конспект); нота; записка, заметка
 **Plural:** *notes*
 **Countability:** countable
 
-Something written down so it can be remembered later.
+Note has 3 distinct senses.
+
+**1. Something written down so it can be remembered later.** (запись, заметка (конспект))
 
 1. I took *notes* during the whole lecture.
 2. Can I borrow your *notes* from Tuesday?
 3. She scribbled a *note* in the margin.
+
+**2. A single musical sound, or the written sign that stands for it.** (нота)
+
+4. He held the last *note* for ten seconds.
+5. She can't read a single *note* of music.
+6. The high *notes* are hard for him.
+
+**3. A short piece of writing to remind or inform someone.** (записка, заметка)
+
+7. He left a *note* on the counter.
+8. I take *notes* during every call.
+9. There was a *note* taped to the door.
 
 ---
 
@@ -2112,11 +2240,19 @@ A scientific test done to find out or prove something.
 **Plural:** *theories*
 **Countability:** countable
 
-An explanation of something that is supported by evidence and reasoning.
+Theory has 2 distinct senses.
+
+**1. An explanation of something that is supported by evidence and reasoning.** (теория)
 
 1. We spent a week on the *theory* of evolution.
 2. That's just a *theory*, not a proven fact.
 3. Competing *theories* are covered in chapter eight.
+
+**2. A set of ideas that explains why something happens.** (теория)
+
+4. Einstein's *theory* changed physics forever.
+5. There are several competing *theories*.
+6. The *theory* predicts exactly what we measured.
 
 ---
 

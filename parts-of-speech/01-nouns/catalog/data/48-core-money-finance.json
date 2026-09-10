@@ -113,14 +113,43 @@
       "term": "account",
       "ipa": "/əˈkaʊnt/",
       "respell": "uh-KOWNT",
-      "meaning": "An arrangement that lets you keep money at a bank. ---",
+      "meaning": "Account has 2 distinct senses.",
       "examples": [
         "I opened a checking account last week.",
         "There's nothing left in my account.",
-        "They froze both accounts during the investigation."
+        "They froze both accounts during the investigation.",
+        "She handles our biggest account.",
+        "The money went into the wrong account.",
+        "He lost two accounts in one quarter."
       ],
-      "senses": [],
-      "русский": "счёт (банковский)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An arrangement that lets you keep money at a bank",
+          "body": [
+            "(счёт (банковский))"
+          ],
+          "examples": [
+            "I opened a checking account last week.",
+            "There's nothing left in my account.",
+            "They froze both accounts during the investigation."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An arrangement with a bank or company, or a client a company works for",
+          "body": [
+            "(счёт; клиент (в работе))",
+            "---"
+          ],
+          "examples": [
+            "She handles our biggest account.",
+            "The money went into the wrong account.",
+            "He lost two accounts in one quarter."
+          ]
+        }
+      ],
+      "русский": "счёт (банковский); счёт; клиент (в работе)",
       "plural": "accounts",
       "countability": "countable"
     },
@@ -295,13 +324,42 @@
       "term": "receipt",
       "ipa": "/rɪˈsiːt/",
       "respell": "rih-SEET",
-      "meaning": "A printed proof that you paid for something. ---",
+      "meaning": "Receipt has 2 distinct senses.",
       "examples": [
         "Keep the receipt in case you return it.",
         "I can't find the receipt for the printer.",
-        "Save your receipts for tax season."
+        "Save your receipts for tax season.",
+        "Keep the receipt in case you need to return it.",
+        "I can't get reimbursed without a receipt.",
+        "She had a shoebox full of receipts."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A printed proof that you paid for something",
+          "body": [
+            "(чек, квитанция)"
+          ],
+          "examples": [
+            "Keep the receipt in case you return it.",
+            "I can't find the receipt for the printer.",
+            "Save your receipts for tax season."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A slip of paper proving that something was paid for",
+          "body": [
+            "(чек, квитанция)",
+            "---"
+          ],
+          "examples": [
+            "Keep the receipt in case you need to return it.",
+            "I can't get reimbursed without a receipt.",
+            "She had a shoebox full of receipts."
+          ]
+        }
+      ],
       "русский": "чек, квитанция",
       "plural": "receipts",
       "countability": "countable",
@@ -762,14 +820,43 @@
       "term": "capital",
       "ipa": "/ˈkæpətəl/",
       "respell": "KAP-uh-tuhl",
-      "meaning": "Money available to invest in or run a business. ---",
+      "meaning": "Capital has 2 distinct senses.",
       "examples": [
         "They need capital to expand.",
         "The startup raised capital from three funds.",
-        "Most of his capital is tied up in real estate."
+        "Most of his capital is tied up in real estate.",
+        "Start the name with a capital.",
+        "The whole sign was in capitals.",
+        "You typed my last name without a capital."
       ],
-      "senses": [],
-      "русский": "капитал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Money available to invest in or run a business",
+          "body": [
+            "(капитал)"
+          ],
+          "examples": [
+            "They need capital to expand.",
+            "The startup raised capital from three funds.",
+            "Most of his capital is tied up in real estate."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A large form of a letter, used to begin a sentence or a name",
+          "body": [
+            "(заглавная буква)",
+            "---"
+          ],
+          "examples": [
+            "Start the name with a capital.",
+            "The whole sign was in capitals.",
+            "You typed my last name without a capital."
+          ]
+        }
+      ],
+      "русский": "капитал; заглавная буква",
       "countability": "uncountable",
       "contrast": "Financial capital is uncountable; a capital meaning a city is a different, countable word."
     },
@@ -1145,19 +1232,49 @@
       "senses": [],
       "русский": "зарплата, получка",
       "plural": "paychecks",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "American; the British write pay cheque, or say payslip for the document."
     },
     {
       "term": "raise",
       "ipa": "/reɪz/",
       "respell": "RAYZ",
-      "meaning": "An increase in the amount someone is paid for their work. ---",
+      "meaning": "Raise has 2 distinct senses.",
       "examples": [
         "I asked for a raise and got it.",
         "Nobody's had a raise in two years.",
-        "The raises take effect in January."
+        "The raises take effect in January.",
+        "I asked my boss for a raise.",
+        "He got a five percent raise in January.",
+        "Nobody's gotten raises since the merger."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An increase in the amount someone is paid for their work",
+          "body": [
+            "(повышение зарплаты)"
+          ],
+          "examples": [
+            "I asked for a raise and got it.",
+            "Nobody's had a raise in two years.",
+            "The raises take effect in January."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An increase in the money you are paid",
+          "body": [
+            "(повышение зарплаты)",
+            "---"
+          ],
+          "examples": [
+            "I asked my boss for a raise.",
+            "He got a five percent raise in January.",
+            "Nobody's gotten raises since the merger."
+          ]
+        }
+      ],
       "русский": "повышение зарплаты",
       "plural": "raises",
       "countability": "countable",
@@ -1226,14 +1343,43 @@
       "term": "policy",
       "ipa": "/ˈpɑːləsi/",
       "respell": "PAH-luh-see",
-      "meaning": "A written insurance contract between a company and a customer. ---",
+      "meaning": "Policy has 2 distinct senses.",
       "examples": [
         "He took out a life insurance policy.",
         "Read the policy before you sign it.",
-        "Both policies expire in March."
+        "Both policies expire in March.",
+        "That's against company policy.",
+        "The new policy takes effect in January.",
+        "They rewrote all the vacation policies."
       ],
-      "senses": [],
-      "русский": "страховой полис",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A written insurance contract between a company and a customer",
+          "body": [
+            "(страховой полис)"
+          ],
+          "examples": [
+            "He took out a life insurance policy.",
+            "Read the policy before you sign it.",
+            "Both policies expire in March."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official rule or approach that an organization follows",
+          "body": [
+            "(политика, правила (компании))",
+            "---"
+          ],
+          "examples": [
+            "That's against company policy.",
+            "The new policy takes effect in January.",
+            "They rewrote all the vacation policies."
+          ]
+        }
+      ],
+      "русский": "страховой полис; политика, правила (компании)",
       "plural": "policies",
       "countability": "countable",
       "contrast": "Two senses: an insurance contract, and a rule or course of action."
@@ -1407,14 +1553,43 @@
       "term": "estimate",
       "ipa": "/ˈɛstəmət/",
       "respell": "ES-tuh-mut",
-      "meaning": "A statement of what a job is likely to cost. ---",
+      "meaning": "Estimate has 2 distinct senses.",
       "examples": [
         "I got three estimates for the roof.",
         "The estimate came in way over budget.",
-        "Their estimate didn't include labor."
+        "Their estimate didn't include labor.",
+        "Can you give me an estimate by Thursday?",
+        "The estimate came in way over what we expected.",
+        "We got three estimates before hiring anyone."
       ],
-      "senses": [],
-      "русский": "смета, предварительный расчёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A statement of what a job is likely to cost",
+          "body": [
+            "(смета, предварительный расчёт)"
+          ],
+          "examples": [
+            "I got three estimates for the roof.",
+            "The estimate came in way over budget.",
+            "Their estimate didn't include labor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rough calculation of what something will cost or how long it will take",
+          "body": [
+            "(смета, предварительная оценка)",
+            "---"
+          ],
+          "examples": [
+            "Can you give me an estimate by Thursday?",
+            "The estimate came in way over what we expected.",
+            "We got three estimates before hiring anyone."
+          ]
+        }
+      ],
+      "русский": "смета, предварительный расчёт; смета, предварительная оценка",
       "plural": "estimates",
       "countability": "countable",
       "contrast": "The noun ends in a weak ES-tuh-mut; the verb ends in a full ES-tuh-mayt."
@@ -1551,20 +1726,50 @@
       "senses": [],
       "русский": "потребитель",
       "plural": "consumers",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say kun-SOO-mur; the British add a y sound: kun-SYOO-mur."
     },
     {
       "term": "contract",
       "ipa": "/ˈkɑːntrækt/",
       "respell": "KAHN-trakt",
-      "meaning": "A legally binding agreement between two or more parties. ---",
+      "meaning": "Contract has 2 distinct senses.",
       "examples": [
         "Read the contract before you sign it.",
         "Both contracts expire in June.",
-        "They're renegotiating the contract."
+        "They're renegotiating the contract.",
+        "Read the contract before you sign anything.",
+        "Her contract runs through December.",
+        "They lost two big contracts this quarter."
       ],
-      "senses": [],
-      "русский": "договор, контракт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A legally binding agreement between two or more parties",
+          "body": [
+            "(договор, контракт)"
+          ],
+          "examples": [
+            "Read the contract before you sign it.",
+            "Both contracts expire in June.",
+            "They're renegotiating the contract."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A legal agreement in writing between two sides",
+          "body": [
+            "(контракт, договор)",
+            "---"
+          ],
+          "examples": [
+            "Read the contract before you sign anything.",
+            "Her contract runs through December.",
+            "They lost two big contracts this quarter."
+          ]
+        }
+      ],
+      "русский": "договор, контракт; контракт, договор",
       "plural": "contracts",
       "countability": "countable",
       "contrast": "Noun stress falls on the first syllable (KAHN-trakt); the verb stresses the second (kuhn-TRAKT)."
@@ -1634,14 +1839,43 @@
       "term": "startup",
       "ipa": "/ˈstɑːrtʌp/",
       "respell": "START-up",
-      "meaning": "A young company built to grow fast, usually on investors' money. ---",
+      "meaning": "Startup has 2 distinct senses.",
       "examples": [
         "She left the bank for a startup.",
         "Most startups fail within five years.",
-        "The startup raised ten million dollars."
+        "The startup raised ten million dollars.",
+        "He quit a steady job to join a startup.",
+        "Most startups run out of money in the first two years.",
+        "The startup raised eight million dollars last spring."
       ],
-      "senses": [],
-      "русский": "стартап",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A young company built to grow fast, usually on investors' money",
+          "body": [
+            "(стартап)"
+          ],
+          "examples": [
+            "She left the bank for a startup.",
+            "Most startups fail within five years.",
+            "The startup raised ten million dollars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A new company, usually small and aiming to grow fast",
+          "body": [
+            "(стартап, молодая компания)",
+            "---"
+          ],
+          "examples": [
+            "He quit a steady job to join a startup.",
+            "Most startups run out of money in the first two years.",
+            "The startup raised eight million dollars last spring."
+          ]
+        }
+      ],
+      "русский": "стартап; стартап, молодая компания",
       "plural": "startups",
       "countability": "countable"
     },

@@ -20,7 +20,16 @@ tuples and rendered here. That also makes malformed entries impossible.
 import sys, os
 
 
-def render(term, ipa, respell, ru, plural, count, gloss, examples, contrast=None):
+def render(term, ipa, respell, ru, plural, count, gloss, examples, contrast=None,
+           senses=None):
+    """One entry. `senses` promotes it to the numbered-sense shape.
+
+    A word written by more than one semantic field usually has more than one
+    meaning — `alarm` is a feeling to the emotions writer and a device to the
+    time writer, and both are right. Collapsing those to whichever was written
+    first loses half the word, so a merged entry lists them as numbered senses,
+    the same shape the hand-written grammar tier uses.
+    """
     out = [f'### {term}', '']
     out.append(f'**Pronunciation:** /{ipa}/ &middot; *{respell}*')
     out.append(f'**Русский:** {ru}')
@@ -29,10 +38,24 @@ def render(term, ipa, respell, ru, plural, count, gloss, examples, contrast=None
     out.append(f'**Countability:** {count}')
     if contrast:
         out.append(f'**Contrast:** {contrast}')
-    out += ['', gloss, '']
-    for i, ex in enumerate(examples, 1):
-        out.append(f'{i}. {ex}')
-    return '\n'.join(out)
+
+    if not senses:
+        out += ['', gloss, '']
+        for i, ex in enumerate(examples, 1):
+            out.append(f'{i}. {ex}')
+        return '\n'.join(out)
+
+    out += ['', f'{term.capitalize()} has {len(senses)} distinct senses.', '']
+    n = 0
+    for k, (sg, sru, sex) in enumerate(senses, 1):
+        head = sg.rstrip('.')
+        out.append(f'**{k}. {head}.**' + (f' ({sru})' if sru else ''))
+        out.append('')
+        for ex in sex:
+            n += 1
+            out.append(f'{n}. {ex}')
+        out.append('')
+    return '\n'.join(out).rstrip()
 
 
 def build(path, title, blurb, lede, entries):

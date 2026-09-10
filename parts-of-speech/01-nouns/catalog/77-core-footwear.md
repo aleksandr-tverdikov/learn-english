@@ -441,15 +441,29 @@ A soft shoe worn only indoors.
 ### clog
 
 **Pronunciation:** /klɑːɡ/ &middot; *KLAHG*
-**Русский:** сабо
+**Русский:** сабо; засор; засор (в трубе)
 **Plural:** *clogs*
 **Countability:** countable
 
-A backless shoe with a thick wooden or cork sole.
+Clog has 3 distinct senses.
+
+**1. A backless shoe with a thick wooden or cork sole.** (сабо)
 
 1. Nurses on that floor all wear *clogs*.
 2. She slipped a *clog* off under the desk.
 3. Wooden *clogs* are loud on a tile floor.
+
+**2. A blockage that stops water from draining.** (засор)
+
+4. There's a *clog* in the bathroom sink.
+5. Hair causes most shower *clogs*.
+6. The plumber cleared the *clog* in ten minutes.
+
+**3. A mass of material that blocks a pipe or drain.** (засор (в трубе))
+
+7. There's a *clog* somewhere under the kitchen sink.
+8. Hot water and soap cleared the *clog* in a minute.
+9. Hair causes most shower *clogs*.
 
 ---
 
@@ -1458,14 +1472,22 @@ The way laces are threaded through a shoe.
 ### traction
 
 **Pronunciation:** /ˈtrækʃn/ &middot; *TRAK-shun*
-**Русский:** сцепление с поверхностью
+**Русский:** сцепление с поверхностью; сцепление с дорогой
 **Countability:** uncountable
 
-The grip a sole has on the ground.
+Traction has 2 distinct senses.
+
+**1. The grip a sole has on the ground.** (сцепление с поверхностью)
 
 1. These soles have terrible *traction* on wet tile.
 2. Winter boots need *traction* on ice, not just warmth.
 3. The deep tread gives you good *traction* in mud.
+
+**2. The grip between a vehicle's tires and the road.** (сцепление с дорогой)
+
+4. Snow tires give you much better *traction*.
+5. The wheels spun and lost *traction*.
+6. There's no *traction* at all on wet leaves.
 
 ---
 

@@ -6,14 +6,43 @@
       "term": "accident",
       "ipa": "/ˈæksɪdənt/",
       "respell": "AK-sih-duhnt",
-      "meaning": "Something bad that happens by chance and hurts someone or damages something. ---",
+      "meaning": "Accident has 2 distinct senses.",
       "examples": [
         "There was an accident on the highway this morning.",
         "Most home accidents happen in the kitchen.",
-        "He broke his wrist in a bike accident."
+        "He broke his wrist in a bike accident.",
+        "There was an accident on the interstate this morning.",
+        "Most accidents happen within a few miles of home.",
+        "Nobody was hurt in the accident."
       ],
-      "senses": [],
-      "русский": "несчастный случай, авария",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Something bad that happens by chance and hurts someone or damages something",
+          "body": [
+            "(несчастный случай, авария)"
+          ],
+          "examples": [
+            "There was an accident on the highway this morning.",
+            "Most home accidents happen in the kitchen.",
+            "He broke his wrist in a bike accident."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A crash in which vehicles or people are hurt or damaged",
+          "body": [
+            "(авария, ДТП)",
+            "---"
+          ],
+          "examples": [
+            "There was an accident on the interstate this morning.",
+            "Most accidents happen within a few miles of home.",
+            "Nobody was hurt in the accident."
+          ]
+        }
+      ],
+      "русский": "несчастный случай, авария; авария, ДТП",
       "plural": "accidents",
       "countability": "countable"
     },
@@ -789,13 +818,42 @@
       "term": "gas leak",
       "ipa": "/ˈɡæs liːk/",
       "respell": "GAS leek",
-      "meaning": "An escape of gas from a pipe or tank, which can poison people or explode. ---",
+      "meaning": "Gas leak has 2 distinct senses.",
       "examples": [
         "The building was evacuated because of a gas leak.",
         "If you smell a gas leak, get outside and call from the street.",
-        "Crews found two small gas leaks under the sidewalk."
+        "Crews found two small gas leaks under the sidewalk.",
+        "If you smell a gas leak, get out and call from outside.",
+        "The crew traced the gas leak to a loose fitting.",
+        "Two gas leaks were reported on the same street."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An escape of gas from a pipe or tank, which can poison people or explode",
+          "body": [
+            "(утечка газа)"
+          ],
+          "examples": [
+            "The building was evacuated because of a gas leak.",
+            "If you smell a gas leak, get outside and call from the street.",
+            "Crews found two small gas leaks under the sidewalk."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Gas escaping from a pipe or fitting where it should not",
+          "body": [
+            "(утечка газа)",
+            "---"
+          ],
+          "examples": [
+            "If you smell a gas leak, get out and call from outside.",
+            "The crew traced the gas leak to a loose fitting.",
+            "Two gas leaks were reported on the same street."
+          ]
+        }
+      ],
       "русский": "утечка газа",
       "plural": "gas leaks",
       "countability": "countable"
@@ -1054,14 +1112,43 @@
       "term": "dispatcher",
       "ipa": "/dɪˈspætʃər/",
       "respell": "dih-SPACH-ur",
-      "meaning": "The person who takes emergency calls and sends out police, fire, or ambulance crews. ---",
+      "meaning": "Dispatcher has 2 distinct senses.",
       "examples": [
         "The dispatcher stayed on the line with her.",
         "Dispatchers handled forty calls in an hour.",
-        "Tell the dispatcher your exact address first."
+        "Tell the dispatcher your exact address first.",
+        "The dispatcher held us at the siding for a freight.",
+        "Dispatchers watch the whole division on one screen.",
+        "The engineer called the dispatcher for permission to proceed."
       ],
-      "senses": [],
-      "русский": "диспетчер экстренных служб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The person who takes emergency calls and sends out police, fire, or ambulance crews",
+          "body": [
+            "(диспетчер экстренных служб)"
+          ],
+          "examples": [
+            "The dispatcher stayed on the line with her.",
+            "Dispatchers handled forty calls in an hour.",
+            "Tell the dispatcher your exact address first."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The person who decides where and when each train moves over a line",
+          "body": [
+            "(поездной диспетчер)",
+            "---"
+          ],
+          "examples": [
+            "The dispatcher held us at the siding for a freight.",
+            "Dispatchers watch the whole division on one screen.",
+            "The engineer called the dispatcher for permission to proceed."
+          ]
+        }
+      ],
+      "русский": "диспетчер экстренных служб; поездной диспетчер",
       "plural": "dispatchers",
       "countability": "countable"
     },
@@ -1313,13 +1400,42 @@
       "term": "traffic cone",
       "ipa": "/ˈtræfɪk koʊn/",
       "respell": "TRAF-ik kohn",
-      "meaning": "An orange plastic cone used to mark off a hazard or closed lane. ---",
+      "meaning": "Traffic cone has 2 distinct senses.",
       "examples": [
         "A traffic cone marked the open manhole.",
         "Somebody knocked over half the traffic cones.",
-        "The crew set traffic cones every twenty feet."
+        "The crew set traffic cones every twenty feet.",
+        "Somebody knocked over a traffic cone.",
+        "Traffic cones narrowed the road to one lane.",
+        "The crew set out a traffic cone every twenty feet."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "An orange plastic cone used to mark off a hazard or closed lane",
+          "body": [
+            "(дорожный конус)"
+          ],
+          "examples": [
+            "A traffic cone marked the open manhole.",
+            "Somebody knocked over half the traffic cones.",
+            "The crew set traffic cones every twenty feet."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A bright orange cone used to guide cars away from an area",
+          "body": [
+            "(дорожный конус)",
+            "---"
+          ],
+          "examples": [
+            "Somebody knocked over a traffic cone.",
+            "Traffic cones narrowed the road to one lane.",
+            "The crew set out a traffic cone every twenty feet."
+          ]
+        }
+      ],
       "русский": "дорожный конус",
       "plural": "traffic cones",
       "countability": "countable"
@@ -1372,14 +1488,43 @@
       "term": "emergency brake",
       "ipa": "/ɪˈmɜːrdʒənsi breɪk/",
       "respell": "ih-MUR-juhn-see brayk",
-      "meaning": "The separate brake that holds a parked car or stops it if the main brakes fail. ---",
+      "meaning": "Emergency brake has 2 distinct senses.",
       "examples": [
         "Set the emergency brake on that hill.",
         "The emergency brake was frozen solid.",
-        "Emergency brakes rust if you never use them."
+        "Emergency brakes rust if you never use them.",
+        "Someone pulled the emergency brake between stations.",
+        "There is an emergency brake at each end of the car.",
+        "Misusing the emergency brake carries a heavy fine."
       ],
-      "senses": [],
-      "русский": "ручной (аварийный) тормоз",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The separate brake that holds a parked car or stops it if the main brakes fail",
+          "body": [
+            "(ручной (аварийный) тормоз)"
+          ],
+          "examples": [
+            "Set the emergency brake on that hill.",
+            "The emergency brake was frozen solid.",
+            "Emergency brakes rust if you never use them."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A handle or valve that stops the train at once in a crisis",
+          "body": [
+            "(стоп-кран, аварийный тормоз)",
+            "---"
+          ],
+          "examples": [
+            "Someone pulled the emergency brake between stations.",
+            "There is an emergency brake at each end of the car.",
+            "Misusing the emergency brake carries a heavy fine."
+          ]
+        }
+      ],
+      "русский": "ручной (аварийный) тормоз; стоп-кран, аварийный тормоз",
       "plural": "emergency brakes",
       "countability": "countable",
       "contrast": "Brake sounds exactly like break; the British call this the handbrake."

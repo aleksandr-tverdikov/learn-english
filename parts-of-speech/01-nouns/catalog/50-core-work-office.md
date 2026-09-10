@@ -195,15 +195,23 @@ A stiff folder with rings inside that hold punched pages.
 ### folder
 
 **Pronunciation:** /ˈfoʊldər/ &middot; *FOHL-dur*
-**Русский:** папка
+**Русский:** папка; папка (для бумаг); папка на компьютере
 **Plural:** *folders*
 **Countability:** countable
 
-A folded cover for holding loose papers, or a place for files on a computer.
+Folder has 2 distinct senses.
+
+**1. A folded cover for holding loose papers, or a place for files on a computer.** (папка)
 
 1. Put the receipts in a *folder*.
 2. I saved it in a *folder* on my desktop.
 3. There were a dozen *folders* stacked on his chair.
+
+**2. A folded cover of stiff paper, or a place on a computer, that holds documents together.** (папка (для бумаг); папка на компьютере)
+
+4. Everything for the meeting is in the blue *folder*.
+5. I saved the file to the wrong *folder*.
+6. She keeps separate *folders* for each client.
 
 ---
 
@@ -319,11 +327,19 @@ A book of blank pages for writing notes in.
 **Plural:** *pens*
 **Countability:** countable
 
-A writing instrument that uses ink.
+Pen has 2 distinct senses.
+
+**1. A writing instrument that uses ink.** (ручка)
 
 1. Do you have a *pen* I can borrow?
 2. The *pen* ran out halfway through the form.
 3. Somebody keeps walking off with my *pens*.
+
+**2. A tool that writes with ink.** (ручка)
+
+4. Can I borrow a *pen*?
+5. He signed the form with a blue *pen*.
+6. All three *pens* in the drawer were dead.
 
 ---
 
@@ -364,6 +380,7 @@ A small piece of rubber or felt used to rub out writing.
 **Русский:** конверт
 **Plural:** *envelopes*
 **Countability:** countable
+**Contrast:** Two American pronunciations are common: EN-vuh-lohp and AHN-vuh-lohp.
 
 A flat paper cover that a letter goes into for mailing.
 

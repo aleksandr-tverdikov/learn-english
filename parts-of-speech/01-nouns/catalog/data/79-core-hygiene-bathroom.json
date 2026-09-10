@@ -14,7 +14,8 @@
       ],
       "senses": [],
       "русский": "туалетная бумага",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable: a roll of toilet paper, never a toilet paper."
     },
     {
       "term": "toilet seat",
@@ -65,13 +66,42 @@
       "term": "paper towel",
       "ipa": "/ˈpeɪpər ˌtaʊəl/",
       "respell": "PAY-pur tow-uhl",
-      "meaning": "A sheet of thick absorbent paper used once for wiping or drying. ---",
+      "meaning": "Paper towel has 2 distinct senses.",
       "examples": [
         "Wipe that up with a paper towel.",
         "We go through a roll of paper towels a week.",
-        "The restroom was out of paper towels."
+        "The restroom was out of paper towels.",
+        "Hand me a paper towel — I spilled the coffee.",
+        "We're out of paper towels again.",
+        "She wiped the counter with a damp paper towel."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sheet of thick absorbent paper used once for wiping or drying",
+          "body": [
+            "(бумажное полотенце)"
+          ],
+          "examples": [
+            "Wipe that up with a paper towel.",
+            "We go through a roll of paper towels a week.",
+            "The restroom was out of paper towels."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sheet of absorbent paper torn off a roll to wipe up spills",
+          "body": [
+            "(бумажное полотенце)",
+            "---"
+          ],
+          "examples": [
+            "Hand me a paper towel — I spilled the coffee.",
+            "We're out of paper towels again.",
+            "She wiped the counter with a damp paper towel."
+          ]
+        }
+      ],
       "русский": "бумажное полотенце",
       "plural": "paper towels",
       "countability": "countable",
@@ -386,13 +416,42 @@
       "term": "exhaust fan",
       "ipa": "/ɪɡˈzɔːst ˌfæn/",
       "respell": "ig-ZAWST fan",
-      "meaning": "A fan that pulls steam and smells out of a bathroom. ---",
+      "meaning": "Exhaust fan has 2 distinct senses.",
       "examples": [
         "Turn on the exhaust fan before you shower.",
         "The exhaust fan rattles the whole time it runs.",
-        "Bathrooms without windows need exhaust fans."
+        "Bathrooms without windows need exhaust fans.",
+        "Turn on the exhaust fan when you shower.",
+        "The bathroom exhaust fan rattles like a helicopter.",
+        "Both exhaust fans vent straight through the roof."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fan that pulls steam and smells out of a bathroom",
+          "body": [
+            "(вытяжной вентилятор)"
+          ],
+          "examples": [
+            "Turn on the exhaust fan before you shower.",
+            "The exhaust fan rattles the whole time it runs.",
+            "Bathrooms without windows need exhaust fans."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A fan that pulls stale or damp air out of a room",
+          "body": [
+            "(вытяжной вентилятор)",
+            "---"
+          ],
+          "examples": [
+            "Turn on the exhaust fan when you shower.",
+            "The bathroom exhaust fan rattles like a helicopter.",
+            "Both exhaust fans vent straight through the roof."
+          ]
+        }
+      ],
       "русский": "вытяжной вентилятор",
       "plural": "exhaust fans",
       "countability": "countable",
@@ -434,16 +493,46 @@
       "term": "lavatory",
       "ipa": "/ˈlævətɔːri/",
       "respell": "LAV-uh-tor-ee",
-      "meaning": "A room or fixture for washing and using the toilet, especially on a plane. ---",
+      "meaning": "Lavatory has 2 distinct senses.",
       "examples": [
         "The lavatory at the back of the plane is occupied.",
         "Please return to your seat when the lavatory is free.",
-        "The lavatories were cleaned between flights."
+        "The lavatories were cleaned between flights.",
+        "The plans call for a lavatory in the powder room.",
+        "The lavatory at the back of the plane was occupied.",
+        "Both lavatories need new faucets."
       ],
-      "senses": [],
-      "русский": "уборная, туалет",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room or fixture for washing and using the toilet, especially on a plane",
+          "body": [
+            "(уборная, туалет)"
+          ],
+          "examples": [
+            "The lavatory at the back of the plane is occupied.",
+            "Please return to your seat when the lavatory is free.",
+            "The lavatories were cleaned between flights."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A washbasin, or the small room containing one",
+          "body": [
+            "(умывальник; туалет)",
+            "---"
+          ],
+          "examples": [
+            "The plans call for a lavatory in the powder room.",
+            "The lavatory at the back of the plane was occupied.",
+            "Both lavatories need new faucets."
+          ]
+        }
+      ],
+      "русский": "уборная, туалет; умывальник; туалет",
       "plural": "lavatories",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "In American plumbing catalogs a lavatory is the bathroom sink itself; in everyday speech it mostly survives on airplanes."
     },
     {
       "term": "washroom",
@@ -553,13 +642,42 @@
       "term": "hand soap",
       "ipa": "/ˈhænd ˌsoʊp/",
       "respell": "HAND sohp",
-      "meaning": "Soap made for washing your hands, usually liquid. ---",
+      "meaning": "Hand soap has 2 distinct senses.",
       "examples": [
         "We're out of hand soap.",
         "The hand soap in the kitchen smells like lemon.",
-        "Refill the hand soap by the sink."
+        "Refill the hand soap by the sink.",
+        "The hand soap by the sink is empty.",
+        "She buys unscented hand soap.",
+        "Refill the hand soap in the guest bathroom."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soap made for washing your hands, usually liquid",
+          "body": [
+            "(мыло для рук)"
+          ],
+          "examples": [
+            "We're out of hand soap.",
+            "The hand soap in the kitchen smells like lemon.",
+            "Refill the hand soap by the sink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Soap kept by a sink for washing the hands",
+          "body": [
+            "(мыло для рук)",
+            "---"
+          ],
+          "examples": [
+            "The hand soap by the sink is empty.",
+            "She buys unscented hand soap.",
+            "Refill the hand soap in the guest bathroom."
+          ]
+        }
+      ],
       "русский": "мыло для рук",
       "countability": "uncountable"
     },
@@ -713,16 +831,46 @@
       "term": "wipe",
       "ipa": "/waɪp/",
       "respell": "WYP",
-      "meaning": "A small moist cloth sold in a pack for cleaning skin or surfaces. ---",
+      "meaning": "Wipe has 2 distinct senses.",
       "examples": [
         "Hand me a wipe for the baby's face.",
         "She cleaned the counter with a disinfecting wipe.",
-        "We buy wipes by the case."
+        "We buy wipes by the case.",
+        "Keep a pack of wipes in the car.",
+        "She pulled a wipe out and cleaned his hands.",
+        "Disinfecting wipes sold out in a week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small moist cloth sold in a pack for cleaning skin or surfaces",
+          "body": [
+            "(влажная салфетка)"
+          ],
+          "examples": [
+            "Hand me a wipe for the baby's face.",
+            "She cleaned the counter with a disinfecting wipe.",
+            "We buy wipes by the case."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A damp disposable cloth sold in a pack for quick cleaning",
+          "body": [
+            "(влажная салфетка)",
+            "---"
+          ],
+          "examples": [
+            "Keep a pack of wipes in the car.",
+            "She pulled a wipe out and cleaned his hands.",
+            "Disinfecting wipes sold out in a week."
+          ]
+        }
+      ],
       "русский": "влажная салфетка",
       "plural": "wipes",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Almost always plural — you buy wipes, not a wipe."
     },
     {
       "term": "loofah",
@@ -923,13 +1071,42 @@
       "term": "disinfectant",
       "ipa": "/ˌdɪsɪnˈfɛktənt/",
       "respell": "dis-in-FEK-tuhnt",
-      "meaning": "A chemical that kills germs on surfaces. ---",
+      "meaning": "Disinfectant has 2 distinct senses.",
       "examples": [
         "Wipe the counter with disinfectant.",
         "The whole clinic smelled of disinfectant.",
-        "Some disinfectants have to sit for a full minute."
+        "Some disinfectants have to sit for a full minute.",
+        "Wipe the counter down with disinfectant.",
+        "They ran out of disinfectant by Tuesday.",
+        "Strong disinfectants can irritate your lungs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A chemical that kills germs on surfaces",
+          "body": [
+            "(дезинфицирующее средство)"
+          ],
+          "examples": [
+            "Wipe the counter with disinfectant.",
+            "The whole clinic smelled of disinfectant.",
+            "Some disinfectants have to sit for a full minute."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A chemical used to kill germs on surfaces and equipment",
+          "body": [
+            "(дезинфицирующее средство)",
+            "---"
+          ],
+          "examples": [
+            "Wipe the counter down with disinfectant.",
+            "They ran out of disinfectant by Tuesday.",
+            "Strong disinfectants can irritate your lungs."
+          ]
+        }
+      ],
       "русский": "дезинфицирующее средство",
       "plural": "disinfectants",
       "countability": "countable, and uncountable as a substance"
@@ -938,13 +1115,42 @@
       "term": "antiseptic",
       "ipa": "/ˌæntɪˈsɛptɪk/",
       "respell": "an-tih-SEP-tik",
-      "meaning": "A liquid put on skin or a wound to stop infection. ---",
+      "meaning": "Antiseptic has 2 distinct senses.",
       "examples": [
         "She dabbed antiseptic on the cut.",
         "The antiseptic stung for a second.",
-        "Most first aid kits include an antiseptic."
+        "Most first aid kits include an antiseptic.",
+        "Clean the scrape and put some antiseptic on it.",
+        "The kit has an antiseptic and a roll of tape.",
+        "Hospital antiseptics are stronger than the drugstore kind."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A liquid put on skin or a wound to stop infection",
+          "body": [
+            "(антисептик)"
+          ],
+          "examples": [
+            "She dabbed antiseptic on the cut.",
+            "The antiseptic stung for a second.",
+            "Most first aid kits include an antiseptic."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A liquid or cream put on a cut to kill germs",
+          "body": [
+            "(антисептик)",
+            "---"
+          ],
+          "examples": [
+            "Clean the scrape and put some antiseptic on it.",
+            "The kit has an antiseptic and a roll of tape.",
+            "Hospital antiseptics are stronger than the drugstore kind."
+          ]
+        }
+      ],
       "русский": "антисептик",
       "plural": "antiseptics",
       "countability": "countable, and uncountable as a substance"
@@ -997,13 +1203,42 @@
       "term": "scrub brush",
       "ipa": "/ˈskrʌb ˌbrʌʃ/",
       "respell": "SKRUHB bruhsh",
-      "meaning": "A stiff brush for scrubbing floors, tile, and tubs. ---",
+      "meaning": "Scrub brush has 2 distinct senses.",
       "examples": [
         "Take a scrub brush to the tile.",
         "The scrub brush is under the sink.",
-        "We wore out two scrub brushes on that bathroom."
+        "We wore out two scrub brushes on that bathroom.",
+        "Take a scrub brush to that grout.",
+        "The scrub brush is under the sink.",
+        "We went through two scrub brushes on the deck."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A stiff brush for scrubbing floors, tile, and tubs",
+          "body": [
+            "(щётка для чистки)"
+          ],
+          "examples": [
+            "Take a scrub brush to the tile.",
+            "The scrub brush is under the sink.",
+            "We wore out two scrub brushes on that bathroom."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A stiff-bristled brush for rubbing dirt off hard surfaces",
+          "body": [
+            "(щётка для чистки)",
+            "---"
+          ],
+          "examples": [
+            "Take a scrub brush to that grout.",
+            "The scrub brush is under the sink.",
+            "We went through two scrub brushes on the deck."
+          ]
+        }
+      ],
       "русский": "щётка для чистки",
       "plural": "scrub brushes",
       "countability": "countable",
@@ -1013,14 +1248,43 @@
       "term": "scouring pad",
       "ipa": "/ˈskaʊərɪŋ ˌpæd/",
       "respell": "SKOW-ur-ing pad",
-      "meaning": "A rough pad used to scrub off stuck-on dirt. ---",
+      "meaning": "Scouring pad has 2 distinct senses.",
       "examples": [
         "She went after the tub with a scouring pad.",
         "A scouring pad will scratch that finish.",
-        "The box holds six scouring pads."
+        "The box holds six scouring pads.",
+        "Hit the casserole dish with a scouring pad.",
+        "A scouring pad will ruin that finish.",
+        "The scouring pads are in the drawer by the stove."
       ],
-      "senses": [],
-      "русский": "абразивная губка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rough pad used to scrub off stuck-on dirt",
+          "body": [
+            "(абразивная губка)"
+          ],
+          "examples": [
+            "She went after the tub with a scouring pad.",
+            "A scouring pad will scratch that finish.",
+            "The box holds six scouring pads."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A rough pad used to scrape burned or dried food off cookware",
+          "body": [
+            "(абразивная губка, металлическая мочалка)",
+            "---"
+          ],
+          "examples": [
+            "Hit the casserole dish with a scouring pad.",
+            "A scouring pad will ruin that finish.",
+            "The scouring pads are in the drawer by the stove."
+          ]
+        }
+      ],
+      "русский": "абразивная губка; абразивная губка, металлическая мочалка",
       "plural": "scouring pads",
       "countability": "countable"
     },
@@ -1060,15 +1324,45 @@
       "term": "laundry detergent",
       "ipa": "/ˈlɔːndri dɪˌtɜːrdʒənt/",
       "respell": "LAWN-dree dih-tur-juhnt",
-      "meaning": "Soap made for washing clothes in a machine. ---",
+      "meaning": "Laundry detergent has 2 distinct senses.",
       "examples": [
         "We're almost out of laundry detergent.",
         "Use half a cap of laundry detergent.",
-        "That laundry detergent smells too strong."
+        "That laundry detergent smells too strong.",
+        "Pick up some laundry detergent while you're out.",
+        "She uses the unscented laundry detergent.",
+        "A bottle of laundry detergent lasts us a month."
       ],
-      "senses": [],
-      "русский": "стиральный порошок, средство для стирки",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soap made for washing clothes in a machine",
+          "body": [
+            "(стиральный порошок, средство для стирки)"
+          ],
+          "examples": [
+            "We're almost out of laundry detergent.",
+            "Use half a cap of laundry detergent.",
+            "That laundry detergent smells too strong."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soap-like liquid or powder used for washing clothes",
+          "body": [
+            "(стиральный порошок, гель для стирки)",
+            "---"
+          ],
+          "examples": [
+            "Pick up some laundry detergent while you're out.",
+            "She uses the unscented laundry detergent.",
+            "A bottle of laundry detergent lasts us a month."
+          ]
+        }
+      ],
+      "русский": "стиральный порошок, средство для стирки; стиральный порошок, гель для стирки",
+      "countability": "uncountable",
+      "contrast": "Uncountable: a bottle of laundry detergent, not a laundry detergent."
     },
     {
       "term": "fabric softener",
@@ -1134,14 +1428,43 @@
       "term": "sanitation",
       "ipa": "/ˌsænəˈteɪʃən/",
       "respell": "san-uh-TAY-shuhn",
-      "meaning": "Systems for keeping people healthy by removing waste and dirt. ---",
+      "meaning": "Sanitation has 2 distinct senses.",
       "examples": [
         "Poor sanitation spreads disease.",
         "The city's sanitation department picks up on Tuesdays.",
-        "Clean water and sanitation have saved millions of lives."
+        "Clean water and sanitation have saved millions of lives.",
+        "The strike shut down city sanitation for a week.",
+        "Poor sanitation spreads disease fast.",
+        "Sanitation crews start at five in the morning."
       ],
-      "senses": [],
-      "русский": "санитария",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Systems for keeping people healthy by removing waste and dirt",
+          "body": [
+            "(санитария)"
+          ],
+          "examples": [
+            "Poor sanitation spreads disease.",
+            "The city's sanitation department picks up on Tuesdays.",
+            "Clean water and sanitation have saved millions of lives."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The systems that keep a place clean and remove waste",
+          "body": [
+            "(санитария; уборка мусора (городская))",
+            "---"
+          ],
+          "examples": [
+            "The strike shut down city sanitation for a week.",
+            "Poor sanitation spreads disease fast.",
+            "Sanitation crews start at five in the morning."
+          ]
+        }
+      ],
+      "русский": "санитария; санитария; уборка мусора (городская)",
       "countability": "uncountable"
     },
     {
@@ -1215,7 +1538,8 @@
       ],
       "senses": [],
       "русский": "грязь, мерзость",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable — filth, never filths."
     },
     {
       "term": "grime",
@@ -1229,19 +1553,49 @@
       ],
       "senses": [],
       "русский": "въевшаяся грязь, копоть",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable — never a grime or grimes."
     },
     {
       "term": "soap scum",
       "ipa": "/ˈsoʊp ˌskʌm/",
       "respell": "SOHP skuhm",
-      "meaning": "The dull film that soap leaves on tubs and shower doors. ---",
+      "meaning": "Soap scum has 2 distinct senses.",
       "examples": [
         "Soap scum built up on the glass door.",
         "Vinegar takes off soap scum.",
-        "There's a ring of soap scum around the tub."
+        "There's a ring of soap scum around the tub.",
+        "The shower door is covered in soap scum.",
+        "Vinegar takes off soap scum.",
+        "Soap scum builds up fast with hard water."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The dull film that soap leaves on tubs and shower doors",
+          "body": [
+            "(мыльный налёт)"
+          ],
+          "examples": [
+            "Soap scum built up on the glass door.",
+            "Vinegar takes off soap scum.",
+            "There's a ring of soap scum around the tub."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The chalky film soap leaves on tile, glass, and tubs",
+          "body": [
+            "(мыльный налёт)",
+            "---"
+          ],
+          "examples": [
+            "The shower door is covered in soap scum.",
+            "Vinegar takes off soap scum.",
+            "Soap scum builds up fast with hard water."
+          ]
+        }
+      ],
       "русский": "мыльный налёт",
       "countability": "uncountable"
     },
@@ -1249,14 +1603,43 @@
       "term": "suds",
       "ipa": "/sʌdz/",
       "respell": "SUHDZ",
-      "meaning": "Soapy bubbles on the surface of water. ---",
+      "meaning": "Suds has 2 distinct senses.",
       "examples": [
         "The sink was full of suds.",
         "Suds spilled over the edge of the tub.",
-        "Rinse until there are no suds left."
+        "Rinse until there are no suds left.",
+        "The sink was full of suds.",
+        "Rinse it until there are no suds left.",
+        "Suds were coming out from under the washer."
       ],
-      "senses": [],
-      "русский": "мыльная пена, пузыри",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Soapy bubbles on the surface of water",
+          "body": [
+            "(мыльная пена, пузыри)"
+          ],
+          "examples": [
+            "The sink was full of suds.",
+            "Suds spilled over the edge of the tub.",
+            "Rinse until there are no suds left."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The bubbles that form on water when soap is added",
+          "body": [
+            "(мыльная пена)",
+            "---"
+          ],
+          "examples": [
+            "The sink was full of suds.",
+            "Rinse it until there are no suds left.",
+            "Suds were coming out from under the washer."
+          ]
+        }
+      ],
+      "русский": "мыльная пена, пузыри; мыльная пена",
       "countability": "uncountable",
       "contrast": "Always plural in form and takes a plural verb: the suds were everywhere."
     },
@@ -1310,16 +1693,46 @@
       "term": "cleanup",
       "ipa": "/ˈkliːnʌp/",
       "respell": "KLEEN-up",
-      "meaning": "The work of making a dirty place clean again. ---",
+      "meaning": "Cleanup has 2 distinct senses.",
       "examples": [
         "The cleanup took all afternoon.",
         "Whoever makes the mess handles the cleanup.",
-        "The party was fun; the cleanups never are."
+        "The party was fun; the cleanups never are.",
+        "The cleanup took longer than the party itself.",
+        "Volunteers showed up for the river cleanup.",
+        "After the storm there were cleanups going on all over town."
       ],
-      "senses": [],
-      "русский": "уборка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The work of making a dirty place clean again",
+          "body": [
+            "(уборка)"
+          ],
+          "examples": [
+            "The cleanup took all afternoon.",
+            "Whoever makes the mess handles the cleanup.",
+            "The party was fun; the cleanups never are."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of clearing away dirt or damage after an event",
+          "body": [
+            "(уборка (после чего-л.))",
+            "---"
+          ],
+          "examples": [
+            "The cleanup took longer than the party itself.",
+            "Volunteers showed up for the river cleanup.",
+            "After the storm there were cleanups going on all over town."
+          ]
+        }
+      ],
+      "русский": "уборка; уборка (после чего-л.)",
       "plural": "cleanups",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The noun is one word, cleanup; the verb is two, clean up."
     },
     {
       "term": "handwashing",
@@ -1354,14 +1767,43 @@
       "term": "grooming",
       "ipa": "/ˈɡruːmɪŋ/",
       "respell": "GROO-ming",
-      "meaning": "The care you take of your hair, nails, and general appearance. ---",
+      "meaning": "Grooming has 2 distinct senses.",
       "examples": [
         "The job listing mentioned neat grooming.",
         "Grooming takes him about ten minutes in the morning.",
-        "Personal grooming products are in aisle four."
+        "Personal grooming products are in aisle four.",
+        "Long-haired cats need regular grooming.",
+        "Grooming costs more than I expected.",
+        "His grooming takes about two hours."
       ],
-      "senses": [],
-      "русский": "уход за собой, опрятность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The care you take of your hair, nails, and general appearance",
+          "body": [
+            "(уход за собой, опрятность)"
+          ],
+          "examples": [
+            "The job listing mentioned neat grooming.",
+            "Grooming takes him about ten minutes in the morning.",
+            "Personal grooming products are in aisle four."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The work of washing, brushing and trimming an animal's coat",
+          "body": [
+            "(груминг, уход за шерстью)",
+            "---"
+          ],
+          "examples": [
+            "Long-haired cats need regular grooming.",
+            "Grooming costs more than I expected.",
+            "His grooming takes about two hours."
+          ]
+        }
+      ],
+      "русский": "уход за собой, опрятность; груминг, уход за шерстью",
       "countability": "uncountable"
     },
     {

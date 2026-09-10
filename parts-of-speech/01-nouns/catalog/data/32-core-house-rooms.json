@@ -191,14 +191,43 @@
       "term": "closet",
       "ipa": "/ˈklɑːzɪt/",
       "respell": "KLAH-zit",
-      "meaning": "A small storage room built into the wall of a house. ---",
+      "meaning": "Closet has 2 distinct senses.",
       "examples": [
         "Your coat's in the hall closet.",
         "This bedroom doesn't have a closet.",
-        "I cleaned out both closets over the weekend."
+        "I cleaned out both closets over the weekend.",
+        "Hang your coat in the hall closet.",
+        "This apartment has almost no closet space.",
+        "The bedroom closets are surprisingly deep."
       ],
-      "senses": [],
-      "русский": "встроенный шкаф, кладовка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small storage room built into the wall of a house",
+          "body": [
+            "(встроенный шкаф, кладовка)"
+          ],
+          "examples": [
+            "Your coat's in the hall closet.",
+            "This bedroom doesn't have a closet.",
+            "I cleaned out both closets over the weekend."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small storage room or recess in a wall, usually for clothes",
+          "body": [
+            "(встроенный шкаф, гардеробная)",
+            "---"
+          ],
+          "examples": [
+            "Hang your coat in the hall closet.",
+            "This apartment has almost no closet space.",
+            "The bedroom closets are surprisingly deep."
+          ]
+        }
+      ],
+      "русский": "встроенный шкаф, кладовка; встроенный шкаф, гардеробная",
       "plural": "closets",
       "countability": "countable",
       "contrast": "An American closet is built into the wall, not a free-standing piece of furniture."
@@ -328,14 +357,43 @@
       "term": "nursery",
       "ipa": "/ˈnɜːrsəri/",
       "respell": "NUR-suh-ree",
-      "meaning": "A room in a home set up for a baby or small child. ---",
+      "meaning": "Nursery has 2 distinct senses.",
       "examples": [
         "They painted the nursery pale green.",
         "The monitor picks up every sound from the nursery.",
-        "Both nurseries were done before the twins arrived."
+        "Both nurseries were done before the twins arrived.",
+        "We picked up two apple trees at the nursery.",
+        "The nursery out on Route 9 has the best perennials.",
+        "Most nurseries around here close down in December."
       ],
-      "senses": [],
-      "русский": "детская комната",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room in a home set up for a baby or small child",
+          "body": [
+            "(детская комната)"
+          ],
+          "examples": [
+            "They painted the nursery pale green.",
+            "The monitor picks up every sound from the nursery.",
+            "Both nurseries were done before the twins arrived."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A place where young plants and trees are grown and sold",
+          "body": [
+            "(питомник растений, садовый центр)",
+            "---"
+          ],
+          "examples": [
+            "We picked up two apple trees at the nursery.",
+            "The nursery out on Route 9 has the best perennials.",
+            "Most nurseries around here close down in December."
+          ]
+        }
+      ],
+      "русский": "детская комната; питомник растений, садовый центр",
       "plural": "nurseries",
       "countability": "countable"
     },
@@ -358,14 +416,43 @@
       "term": "den",
       "ipa": "/dɛn/",
       "respell": "DEN",
-      "meaning": "A small comfortable room in a house used for reading, watching TV or working. ---",
+      "meaning": "Den has 2 distinct senses.",
       "examples": [
         "Dad's asleep in the den again.",
         "We turned the spare bedroom into a den.",
-        "The listing says three bedrooms plus a den."
+        "The listing says three bedrooms plus a den.",
+        "The bear went back into its den in November.",
+        "We found a fox den under the barn.",
+        "Coyote dens are usually dug into a bank."
       ],
-      "senses": [],
-      "русский": "кабинет, комната отдыха",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small comfortable room in a house used for reading, watching TV or working",
+          "body": [
+            "(кабинет, комната отдыха)"
+          ],
+          "examples": [
+            "Dad's asleep in the den again.",
+            "We turned the spare bedroom into a den.",
+            "The listing says three bedrooms plus a den."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The hidden home of a wild animal such as a bear or a fox",
+          "body": [
+            "(логово, берлога)",
+            "---"
+          ],
+          "examples": [
+            "The bear went back into its den in November.",
+            "We found a fox den under the barn.",
+            "Coyote dens are usually dug into a bank."
+          ]
+        }
+      ],
+      "русский": "кабинет, комната отдыха; логово, берлога",
       "plural": "dens",
       "countability": "countable"
     },
@@ -388,14 +475,43 @@
       "term": "office",
       "ipa": "/ˈɔːfɪs/",
       "respell": "AW-fis",
-      "meaning": "A room where someone works at a desk. ---",
+      "meaning": "Office has 2 distinct senses.",
       "examples": [
         "She works out of a home office upstairs.",
         "Come by my office around three.",
-        "All the corner offices have windows on two sides."
+        "All the corner offices have windows on two sides.",
+        "Stop by my office after lunch.",
+        "They opened a second office in Denver.",
+        "Most of our offices are half empty on Fridays."
       ],
-      "senses": [],
-      "русский": "кабинет, офис",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A room where someone works at a desk",
+          "body": [
+            "(кабинет, офис)"
+          ],
+          "examples": [
+            "She works out of a home office upstairs.",
+            "Come by my office around three.",
+            "All the corner offices have windows on two sides."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A room or building where people do desk work for a company",
+          "body": [
+            "(офис, контора)",
+            "---"
+          ],
+          "examples": [
+            "Stop by my office after lunch.",
+            "They opened a second office in Denver.",
+            "Most of our offices are half empty on Fridays."
+          ]
+        }
+      ],
+      "русский": "кабинет, офис; офис, контора",
       "plural": "offices",
       "countability": "countable"
     },
@@ -541,14 +657,43 @@
       "term": "handle",
       "ipa": "/ˈhændəl/",
       "respell": "HAN-duhl",
-      "meaning": "The part of a door, drawer or bag that you hold to open or carry it. ---",
+      "meaning": "Handle has 2 distinct senses.",
       "examples": [
         "Pull the handle toward you, don't push.",
         "The handle on the freezer is loose.",
-        "All the cabinet handles are the same brushed nickel."
+        "All the cabinet handles are the same brushed nickel.",
+        "The handle on the hammer is cracked.",
+        "Grab it by the handle, not the blade.",
+        "Both drawer handles were loose."
       ],
-      "senses": [],
-      "русский": "ручка (дверная, у сумки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of a door, drawer or bag that you hold to open or carry it",
+          "body": [
+            "(ручка (дверная, у сумки))"
+          ],
+          "examples": [
+            "Pull the handle toward you, don't push.",
+            "The handle on the freezer is loose.",
+            "All the cabinet handles are the same brushed nickel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a tool or door made to be held",
+          "body": [
+            "(ручка, рукоятка)",
+            "---"
+          ],
+          "examples": [
+            "The handle on the hammer is cracked.",
+            "Grab it by the handle, not the blade.",
+            "Both drawer handles were loose."
+          ]
+        }
+      ],
+      "русский": "ручка (дверная, у сумки); ручка, рукоятка",
       "plural": "handles",
       "countability": "countable"
     },
@@ -845,14 +990,43 @@
       "term": "foundation",
       "ipa": "/faʊnˈdeɪʃən/",
       "respell": "fown-DAY-shuhn",
-      "meaning": "The solid base built underground that a building rests on. ---",
+      "meaning": "Foundation has 2 distinct senses.",
       "examples": [
         "There's a crack in the foundation.",
         "They poured the foundation last week.",
-        "Older houses on this street have stone foundations."
+        "Older houses on this street have stone foundations.",
+        "Her foundation is about two shades too light.",
+        "He put on foundation before the interview lights went up.",
+        "This foundation comes off on your collar."
       ],
-      "senses": [],
-      "русский": "фундамент",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The solid base built underground that a building rests on",
+          "body": [
+            "(фундамент)"
+          ],
+          "examples": [
+            "There's a crack in the foundation.",
+            "They poured the foundation last week.",
+            "Older houses on this street have stone foundations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A cream or liquid spread over the face to even out skin color",
+          "body": [
+            "(тональный крем)",
+            "---"
+          ],
+          "examples": [
+            "Her foundation is about two shades too light.",
+            "He put on foundation before the interview lights went up.",
+            "This foundation comes off on your collar."
+          ]
+        }
+      ],
+      "русский": "фундамент; тональный крем",
       "plural": "foundations",
       "countability": "countable"
     },
@@ -954,13 +1128,42 @@
       "term": "shutter",
       "ipa": "/ˈʃʌtər/",
       "respell": "SHUHT-ur",
-      "meaning": "A hinged wooden or metal cover on the outside of a window. ---",
+      "meaning": "Shutter has 2 distinct senses.",
       "examples": [
         "One shutter is hanging crooked.",
         "They closed the shutters before the storm hit.",
-        "The blue shutters really make the house stand out."
+        "The blue shutters really make the house stand out.",
+        "One shutter is hanging by a single hinge.",
+        "They painted the shutters dark green.",
+        "We closed the shutters before the storm."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hinged wooden or metal cover on the outside of a window",
+          "body": [
+            "(ставень)"
+          ],
+          "examples": [
+            "One shutter is hanging crooked.",
+            "They closed the shutters before the storm hit.",
+            "The blue shutters really make the house stand out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hinged panel that covers a window from inside or outside",
+          "body": [
+            "(ставень)",
+            "---"
+          ],
+          "examples": [
+            "One shutter is hanging by a single hinge.",
+            "They painted the shutters dark green.",
+            "We closed the shutters before the storm."
+          ]
+        }
+      ],
       "русский": "ставень",
       "plural": "shutters",
       "countability": "countable"
@@ -978,20 +1181,50 @@
       "senses": [],
       "русский": "жалюзи, рулонная штора",
       "plural": "blinds",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Same spelling as the adjective blind, and usually spoken of in the plural: the blinds."
     },
     {
       "term": "curtain",
       "ipa": "/ˈkɜːrtən/",
       "respell": "KUR-tuhn",
-      "meaning": "A piece of cloth hung across a window or opening. ---",
+      "meaning": "Curtain has 2 distinct senses.",
       "examples": [
         "Pull the curtains — the neighbors can see in.",
         "The shower curtain is coming off its rings.",
-        "She sewed the curtains herself."
+        "She sewed the curtains herself.",
+        "Close the curtains — the sun's right in my eyes.",
+        "She sewed a curtain for the kitchen window.",
+        "The shower curtain needs replacing."
       ],
-      "senses": [],
-      "русский": "занавеска, штора",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A piece of cloth hung across a window or opening",
+          "body": [
+            "(занавеска, штора)"
+          ],
+          "examples": [
+            "Pull the curtains — the neighbors can see in.",
+            "The shower curtain is coming off its rings.",
+            "She sewed the curtains herself."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hanging piece of cloth that covers a window",
+          "body": [
+            "(штора, занавеска)",
+            "---"
+          ],
+          "examples": [
+            "Close the curtains — the sun's right in my eyes.",
+            "She sewed a curtain for the kitchen window.",
+            "The shower curtain needs replacing."
+          ]
+        }
+      ],
+      "русский": "занавеска, штора; штора, занавеска",
       "plural": "curtains",
       "countability": "countable"
     },
@@ -1030,14 +1263,43 @@
       "term": "frame",
       "ipa": "/freɪm/",
       "respell": "FRAYM",
-      "meaning": "The border or structure that holds a door, window or picture in place. ---",
+      "meaning": "Frame has 2 distinct senses.",
       "examples": [
         "The door frame is warped, so it won't latch.",
         "Water got in around the window frame.",
-        "All the frames are aluminum, not wood."
+        "All the frames are aluminum, not wood.",
+        "She picked out tortoiseshell frames.",
+        "The frame broke right at the hinge.",
+        "Those frames are too wide for your face."
       ],
-      "senses": [],
-      "русский": "рама, каркас",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The border or structure that holds a door, window or picture in place",
+          "body": [
+            "(рама, каркас)"
+          ],
+          "examples": [
+            "The door frame is warped, so it won't latch.",
+            "Water got in around the window frame.",
+            "All the frames are aluminum, not wood."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The part of a pair of glasses that holds the lenses",
+          "body": [
+            "(оправа (очков); рамка)",
+            "---"
+          ],
+          "examples": [
+            "She picked out tortoiseshell frames.",
+            "The frame broke right at the hinge.",
+            "Those frames are too wide for your face."
+          ]
+        }
+      ],
+      "русский": "рама, каркас; оправа (очков); рамка",
       "plural": "frames",
       "countability": "countable"
     },
@@ -1180,16 +1442,46 @@
       "term": "carpet",
       "ipa": "/ˈkɑːrpɪt/",
       "respell": "KAR-pit",
-      "meaning": "Thick woven material that covers a floor. ---",
+      "meaning": "Carpet has 2 distinct senses.",
       "examples": [
         "There's wall-to-wall carpet in every bedroom.",
         "We pulled up the carpet and found hardwood underneath.",
-        "The carpets in the hallway are worn through."
+        "The carpets in the hallway are worn through.",
+        "We're pulling up the old carpet and refinishing the floors.",
+        "There's a stain on the carpet in the hallway.",
+        "Persian carpets like that don't come cheap."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Thick woven material that covers a floor",
+          "body": [
+            "(ковёр; ковровое покрытие)"
+          ],
+          "examples": [
+            "There's wall-to-wall carpet in every bedroom.",
+            "We pulled up the carpet and found hardwood underneath.",
+            "The carpets in the hallway are worn through."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick woven floor covering, often fitted wall to wall",
+          "body": [
+            "(ковёр; ковровое покрытие)",
+            "---"
+          ],
+          "examples": [
+            "We're pulling up the old carpet and refinishing the floors.",
+            "There's a stain on the carpet in the hallway.",
+            "Persian carpets like that don't come cheap."
+          ]
+        }
+      ],
       "русский": "ковёр; ковровое покрытие",
       "plural": "carpets",
-      "countability": "countable, and uncountable as a substance"
+      "countability": "countable, and uncountable as a substance",
+      "contrast": "Fitted floor covering is uncountable in the US — new carpet, wall-to-wall carpet — while a loose piece is usually called a rug."
     },
     {
       "term": "wallpaper",
@@ -1218,7 +1510,8 @@
       ],
       "senses": [],
       "русский": "изоляция, утеплитель",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable in English: say some insulation or a roll of insulation, never an insulation."
     },
     {
       "term": "paint",
@@ -1254,29 +1547,88 @@
       "term": "bathtub",
       "ipa": "/ˈbæθtʌb/",
       "respell": "BATH-tuhb",
-      "meaning": "A long container you fill with water and sit in to wash. ---",
+      "meaning": "Bathtub has 2 distinct senses.",
       "examples": [
         "The bathtub drains really slowly.",
         "She was reading in the bathtub until the water went cold.",
-        "Both bathtubs are the old cast-iron kind."
+        "Both bathtubs are the old cast-iron kind.",
+        "The kids are in the bathtub.",
+        "That old cast-iron bathtub weighs a ton.",
+        "Some of the newer units don't even have bathtubs."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long container you fill with water and sit in to wash",
+          "body": [
+            "(ванна)"
+          ],
+          "examples": [
+            "The bathtub drains really slowly.",
+            "She was reading in the bathtub until the water went cold.",
+            "Both bathtubs are the old cast-iron kind."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The large fixed basin you sit in to wash",
+          "body": [
+            "(ванна)",
+            "---"
+          ],
+          "examples": [
+            "The kids are in the bathtub.",
+            "That old cast-iron bathtub weighs a ton.",
+            "Some of the newer units don't even have bathtubs."
+          ]
+        }
+      ],
       "русский": "ванна",
       "plural": "bathtubs",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say bathtub or just tub; the British call it a bath, which in the US means the act of washing."
     },
     {
       "term": "shower",
       "ipa": "/ˈʃaʊər/",
       "respell": "SHOW-ur",
-      "meaning": "A fixture that sprays water over you for washing, or the act of washing there. ---",
+      "meaning": "Shower has 2 distinct senses.",
       "examples": [
         "The shower takes forever to get hot.",
         "I'm going to jump in the shower real quick.",
-        "The new bathroom has a walk-in shower."
+        "The new bathroom has a walk-in shower.",
+        "We got a quick shower around lunchtime.",
+        "Scattered showers are likely this afternoon.",
+        "The shower passed in about ten minutes."
       ],
-      "senses": [],
-      "русский": "душ",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fixture that sprays water over you for washing, or the act of washing there",
+          "body": [
+            "(душ)"
+          ],
+          "examples": [
+            "The shower takes forever to get hot.",
+            "I'm going to jump in the shower real quick.",
+            "The new bathroom has a walk-in shower."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short period of rain or snow",
+          "body": [
+            "(кратковременный дождь, ливень)",
+            "---"
+          ],
+          "examples": [
+            "We got a quick shower around lunchtime.",
+            "Scattered showers are likely this afternoon.",
+            "The shower passed in about ten minutes."
+          ]
+        }
+      ],
+      "русский": "душ; кратковременный дождь, ливень",
       "plural": "showers",
       "countability": "countable"
     },
@@ -1284,13 +1636,42 @@
       "term": "toilet",
       "ipa": "/ˈtɔɪlət/",
       "respell": "TOY-luht",
-      "meaning": "The bowl-shaped fixture used for getting rid of body waste. ---",
+      "meaning": "Toilet has 2 distinct senses.",
       "examples": [
         "The toilet keeps running after you flush.",
         "He fixed the toilet with a five-dollar part.",
-        "All the toilets on that floor were out of order."
+        "All the toilets on that floor were out of order.",
+        "The toilet keeps running after you flush.",
+        "He dropped his phone in the toilet.",
+        "The stadium has about forty toilets and they're all occupied."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The bowl-shaped fixture used for getting rid of body waste",
+          "body": [
+            "(унитаз)"
+          ],
+          "examples": [
+            "The toilet keeps running after you flush.",
+            "He fixed the toilet with a five-dollar part.",
+            "All the toilets on that floor were out of order."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The seated fixture used for waste, with a bowl and a flush",
+          "body": [
+            "(унитаз)",
+            "---"
+          ],
+          "examples": [
+            "The toilet keeps running after you flush.",
+            "He dropped his phone in the toilet.",
+            "The stadium has about forty toilets and they're all occupied."
+          ]
+        }
+      ],
       "русский": "унитаз",
       "plural": "toilets",
       "countability": "countable",
@@ -1300,13 +1681,42 @@
       "term": "drain",
       "ipa": "/dreɪn/",
       "respell": "DRAYN",
-      "meaning": "The hole and pipe that carries used water away. ---",
+      "meaning": "Drain has 2 distinct senses.",
       "examples": [
         "Something's stuck in the shower drain.",
         "Don't pour grease down the drain.",
-        "All the drains in the basement back up when it rains hard."
+        "All the drains in the basement back up when it rains hard.",
+        "The shower drain is clogged again.",
+        "Hair keeps going down the drain.",
+        "All the drains in this house are slow."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The hole and pipe that carries used water away",
+          "body": [
+            "(слив, сток)"
+          ],
+          "examples": [
+            "Something's stuck in the shower drain.",
+            "Don't pour grease down the drain.",
+            "All the drains in the basement back up when it rains hard."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The opening that water runs out through",
+          "body": [
+            "(слив, сток)",
+            "---"
+          ],
+          "examples": [
+            "The shower drain is clogged again.",
+            "Hair keeps going down the drain.",
+            "All the drains in this house are slow."
+          ]
+        }
+      ],
       "русский": "слив, сток",
       "plural": "drains",
       "countability": "countable"
@@ -1390,13 +1800,42 @@
       "term": "switch",
       "ipa": "/swɪtʃ/",
       "respell": "SWICH",
-      "meaning": "The small device on a wall that turns a light on and off. ---",
+      "meaning": "Switch has 2 distinct senses.",
       "examples": [
         "The switch is on your left as you come in.",
         "One of these switches controls the porch light.",
-        "He flipped the switch and nothing happened."
+        "He flipped the switch and nothing happened.",
+        "The light switch is right by the door.",
+        "He flipped the switch and nothing happened.",
+        "Both switches control the same light."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The small device on a wall that turns a light on and off",
+          "body": [
+            "(выключатель)"
+          ],
+          "examples": [
+            "The switch is on your left as you come in.",
+            "One of these switches controls the porch light.",
+            "He flipped the switch and nothing happened."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small control you flip to turn power on or off",
+          "body": [
+            "(выключатель)",
+            "---"
+          ],
+          "examples": [
+            "The light switch is right by the door.",
+            "He flipped the switch and nothing happened.",
+            "Both switches control the same light."
+          ]
+        }
+      ],
       "русский": "выключатель",
       "plural": "switches",
       "countability": "countable"
@@ -1414,7 +1853,8 @@
       "senses": [],
       "русский": "батарея отопления, радиатор",
       "plural": "radiators",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Stress falls on the first syllable — RAY-dee-ay-tur — not on the second as in Russian радиатор."
     },
     {
       "term": "furnace",
@@ -1435,13 +1875,42 @@
       "term": "thermostat",
       "ipa": "/ˈθɜːrməstæt/",
       "respell": "THUR-muh-stat",
-      "meaning": "A device on a wall that controls the heating or cooling. ---",
+      "meaning": "Thermostat has 2 distinct senses.",
       "examples": [
         "Somebody turned the thermostat down to sixty.",
         "We put in a smart thermostat last year.",
-        "The thermostats on each floor are set separately."
+        "The thermostats on each floor are set separately.",
+        "Somebody turned the thermostat down to sixty.",
+        "The thermostat is out in the hallway.",
+        "They put smart thermostats in every unit."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device on a wall that controls the heating or cooling",
+          "body": [
+            "(термостат)"
+          ],
+          "examples": [
+            "Somebody turned the thermostat down to sixty.",
+            "We put in a smart thermostat last year.",
+            "The thermostats on each floor are set separately."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A control that keeps a room at a set temperature",
+          "body": [
+            "(термостат)",
+            "---"
+          ],
+          "examples": [
+            "Somebody turned the thermostat down to sixty.",
+            "The thermostat is out in the hallway.",
+            "They put smart thermostats in every unit."
+          ]
+        }
+      ],
       "русский": "термостат",
       "plural": "thermostats",
       "countability": "countable"

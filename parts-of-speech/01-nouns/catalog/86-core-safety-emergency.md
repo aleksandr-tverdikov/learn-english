@@ -12,15 +12,23 @@ Where a word in this field *does* misbehave, it lives in the grammar tier instea
 ### accident
 
 **Pronunciation:** /ˈæksɪdənt/ &middot; *AK-sih-duhnt*
-**Русский:** несчастный случай, авария
+**Русский:** несчастный случай, авария; авария, ДТП
 **Plural:** *accidents*
 **Countability:** countable
 
-Something bad that happens by chance and hurts someone or damages something.
+Accident has 2 distinct senses.
+
+**1. Something bad that happens by chance and hurts someone or damages something.** (несчастный случай, авария)
 
 1. There was an *accident* on the highway this morning.
 2. Most home *accidents* happen in the kitchen.
 3. He broke his wrist in a bike *accident*.
+
+**2. A crash in which vehicles or people are hurt or damaged.** (авария, ДТП)
+
+4. There was an *accident* on the interstate this morning.
+5. Most *accidents* happen within a few miles of home.
+6. Nobody was hurt in the *accident*.
 
 ---
 
@@ -799,11 +807,19 @@ A small object a child could swallow and choke on.
 **Plural:** *gas leaks*
 **Countability:** countable
 
-An escape of gas from a pipe or tank, which can poison people or explode.
+Gas leak has 2 distinct senses.
+
+**1. An escape of gas from a pipe or tank, which can poison people or explode.** (утечка газа)
 
 1. The building was evacuated because of a *gas leak*.
 2. If you smell a *gas leak*, get outside and call from the street.
 3. Crews found two small *gas leaks* under the sidewalk.
+
+**2. Gas escaping from a pipe or fitting where it should not.** (утечка газа)
+
+4. If you smell a *gas leak*, get out and call from outside.
+5. The crew traced the *gas leak* to a loose fitting.
+6. Two *gas leaks* were reported on the same street.
 
 ---
 
@@ -1060,15 +1076,23 @@ A trained worker who gives emergency care and rides in an ambulance.
 ### dispatcher
 
 **Pronunciation:** /dɪˈspætʃər/ &middot; *dih-SPACH-ur*
-**Русский:** диспетчер экстренных служб
+**Русский:** диспетчер экстренных служб; поездной диспетчер
 **Plural:** *dispatchers*
 **Countability:** countable
 
-The person who takes emergency calls and sends out police, fire, or ambulance crews.
+Dispatcher has 2 distinct senses.
+
+**1. The person who takes emergency calls and sends out police, fire, or ambulance crews.** (диспетчер экстренных служб)
 
 1. The *dispatcher* stayed on the line with her.
 2. *Dispatchers* handled forty calls in an hour.
 3. Tell the *dispatcher* your exact address first.
+
+**2. The person who decides where and when each train moves over a line.** (поездной диспетчер)
+
+4. The *dispatcher* held us at the siding for a freight.
+5. *Dispatchers* watch the whole division on one screen.
+6. The engineer called the *dispatcher* for permission to proceed.
 
 ---
 
@@ -1323,11 +1347,19 @@ A quickly built wall or fence set up to block a street or doorway.
 **Plural:** *traffic cones*
 **Countability:** countable
 
-An orange plastic cone used to mark off a hazard or closed lane.
+Traffic cone has 2 distinct senses.
+
+**1. An orange plastic cone used to mark off a hazard or closed lane.** (дорожный конус)
 
 1. A *traffic cone* marked the open manhole.
 2. Somebody knocked over half the *traffic cones*.
 3. The crew set *traffic cones* every twenty feet.
+
+**2. A bright orange cone used to guide cars away from an area.** (дорожный конус)
+
+4. Somebody knocked over a *traffic cone*.
+5. *Traffic cones* narrowed the road to one lane.
+6. The crew set out a *traffic cone* every twenty feet.
 
 ---
 
@@ -1378,16 +1410,24 @@ A raised strip across a road that forces drivers to slow down.
 ### emergency brake
 
 **Pronunciation:** /ɪˈmɜːrdʒənsi breɪk/ &middot; *ih-MUR-juhn-see brayk*
-**Русский:** ручной (аварийный) тормоз
+**Русский:** ручной (аварийный) тормоз; стоп-кран, аварийный тормоз
 **Plural:** *emergency brakes*
 **Countability:** countable
 **Contrast:** *Brake* sounds exactly like *break*; the British call this the *handbrake*.
 
-The separate brake that holds a parked car or stops it if the main brakes fail.
+Emergency brake has 2 distinct senses.
+
+**1. The separate brake that holds a parked car or stops it if the main brakes fail.** (ручной (аварийный) тормоз)
 
 1. Set the *emergency brake* on that hill.
 2. The *emergency brake* was frozen solid.
 3. *Emergency brakes* rust if you never use them.
+
+**2. A handle or valve that stops the train at once in a crisis.** (стоп-кран, аварийный тормоз)
+
+4. Someone pulled the *emergency brake* between stations.
+5. There is an *emergency brake* at each end of the car.
+6. Misusing the *emergency brake* carries a heavy fine.
 
 ---
 

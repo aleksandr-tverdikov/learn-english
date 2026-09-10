@@ -6,13 +6,42 @@
       "term": "measurement",
       "ipa": "/ˈmɛʒərmənt/",
       "respell": "MEZH-ur-muhnt",
-      "meaning": "A figure showing the size, length, or amount of something. ---",
+      "meaning": "Measurement has 2 distinct senses.",
       "examples": [
         "Take a measurement before you cut the board.",
         "The tailor wrote down all my measurements.",
-        "That measurement looks off by half an inch."
+        "That measurement looks off by half an inch.",
+        "Take three measurements and average them.",
+        "One measurement was clearly wrong.",
+        "Her measurements matched the published values."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A figure showing the size, length, or amount of something",
+          "body": [
+            "(измерение, замер)"
+          ],
+          "examples": [
+            "Take a measurement before you cut the board.",
+            "The tailor wrote down all my measurements.",
+            "That measurement looks off by half an inch."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A number that you get by measuring something",
+          "body": [
+            "(измерение, замер)",
+            "---"
+          ],
+          "examples": [
+            "Take three measurements and average them.",
+            "One measurement was clearly wrong.",
+            "Her measurements matched the published values."
+          ]
+        }
+      ],
       "русский": "измерение, замер",
       "plural": "measurements",
       "countability": "countable",
@@ -22,16 +51,46 @@
       "term": "measure",
       "ipa": "/ˈmɛʒər/",
       "respell": "MEZH-ur",
-      "meaning": "A unit or standard used to state size or amount. ---",
+      "meaning": "Measure has 2 distinct senses.",
       "examples": [
         "A cup is a standard measure in American recipes.",
         "The inch is an old measure of length.",
-        "The rest of the world uses metric measures."
+        "The rest of the world uses metric measures.",
+        "The solo starts in the fourth measure.",
+        "Count four measures of rest, then come in.",
+        "Play the last two measures again."
       ],
-      "senses": [],
-      "русский": "мера, единица измерения",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A unit or standard used to state size or amount",
+          "body": [
+            "(мера, единица измерения)"
+          ],
+          "examples": [
+            "A cup is a standard measure in American recipes.",
+            "The inch is an old measure of length.",
+            "The rest of the world uses metric measures."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short group of beats between two vertical lines in written music",
+          "body": [
+            "(такт)",
+            "---"
+          ],
+          "examples": [
+            "The solo starts in the fourth measure.",
+            "Count four measures of rest, then come in.",
+            "Play the last two measures again."
+          ]
+        }
+      ],
+      "русский": "мера, единица измерения; такт",
       "plural": "measures",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans call it a measure; the British call the same thing a bar."
     },
     {
       "term": "unit",
@@ -53,14 +112,43 @@
       "term": "size",
       "ipa": "/saɪz/",
       "respell": "SYZ",
-      "meaning": "How large or small something is. ---",
+      "meaning": "Size has 2 distinct senses.",
       "examples": [
         "What size shoe do you wear?",
         "The two rooms are almost the same size.",
-        "They carry that shirt in three sizes."
+        "They carry that shirt in three sizes.",
+        "Do you have this in a bigger size?",
+        "The sizes run small in that brand.",
+        "She wears a size eight shoe."
       ],
-      "senses": [],
-      "русский": "размер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How large or small something is",
+          "body": [
+            "(размер)"
+          ],
+          "examples": [
+            "What size shoe do you wear?",
+            "The two rooms are almost the same size.",
+            "They carry that shirt in three sizes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the standard measurements clothes are made in",
+          "body": [
+            "(размер (одежды, обуви))",
+            "---"
+          ],
+          "examples": [
+            "Do you have this in a bigger size?",
+            "The sizes run small in that brand.",
+            "She wears a size eight shoe."
+          ]
+        }
+      ],
+      "русский": "размер; размер (одежды, обуви)",
       "plural": "sizes",
       "countability": "countable"
     },
@@ -99,14 +187,43 @@
       "term": "height",
       "ipa": "/haɪt/",
       "respell": "HYT",
-      "meaning": "How tall something or someone is. ---",
+      "meaning": "Height has 2 distinct senses.",
       "examples": [
         "The nurse recorded her height and weight.",
         "Adjust the height of the chair.",
-        "The shelves come in three different heights."
+        "The shelves come in three different heights.",
+        "What is your height in feet?",
+        "The shelf can be set at two heights.",
+        "The fence is about shoulder height."
       ],
-      "senses": [],
-      "русский": "высота, рост",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How tall something or someone is",
+          "body": [
+            "(высота, рост)"
+          ],
+          "examples": [
+            "The nurse recorded her height and weight.",
+            "Adjust the height of the chair.",
+            "The shelves come in three different heights."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How tall a person or thing is from bottom to top",
+          "body": [
+            "(рост; высота)",
+            "---"
+          ],
+          "examples": [
+            "What is your height in feet?",
+            "The shelf can be set at two heights.",
+            "The fence is about shoulder height."
+          ]
+        }
+      ],
+      "русский": "высота, рост; рост; высота",
       "plural": "heights",
       "countability": "countable",
       "contrast": "Spelled like eight but it rhymes with kite: HYT. There is no th on the end."
@@ -175,28 +292,87 @@
       "term": "mass",
       "ipa": "/mæs/",
       "respell": "MAS",
-      "meaning": "The amount of matter in an object, measured in kilograms. ---",
+      "meaning": "Mass has 2 distinct senses.",
       "examples": [
         "An object keeps the same mass on the moon.",
         "Scientists measure mass in kilograms, not pounds.",
-        "Mass and weight are not the same thing."
+        "Mass and weight are not the same thing.",
+        "We went to midnight mass on Christmas Eve.",
+        "The mass was said in Spanish.",
+        "The church offers three masses on Sunday."
       ],
-      "senses": [],
-      "русский": "масса",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of matter in an object, measured in kilograms",
+          "body": [
+            "(масса)"
+          ],
+          "examples": [
+            "An object keeps the same mass on the moon.",
+            "Scientists measure mass in kilograms, not pounds.",
+            "Mass and weight are not the same thing."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main Catholic religious service",
+          "body": [
+            "(месса, литургия)",
+            "---"
+          ],
+          "examples": [
+            "We went to midnight mass on Christmas Eve.",
+            "The mass was said in Spanish.",
+            "The church offers three masses on Sunday."
+          ]
+        }
+      ],
+      "русский": "масса; месса, литургия",
+      "countability": "uncountable",
+      "contrast": "Usually capitalized as 'Mass' in this sense; the same spelling also means 'масса'."
     },
     {
       "term": "volume",
       "ipa": "/ˈvɑːljuːm/",
       "respell": "VAHL-yoom",
-      "meaning": "The amount of space that something fills. ---",
+      "meaning": "Volume has 2 distinct senses.",
       "examples": [
         "Find the volume of the box in cubic inches.",
         "Water expands in volume when it freezes.",
-        "The tank holds a large volume of fuel."
+        "The tank holds a large volume of fuel.",
+        "The dictionary comes in twelve volumes.",
+        "Turn the volume down a little.",
+        "She pulled the first volume off the shelf."
       ],
-      "senses": [],
-      "русский": "объём",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount of space that something fills",
+          "body": [
+            "(объём)"
+          ],
+          "examples": [
+            "Find the volume of the box in cubic inches.",
+            "Water expands in volume when it freezes.",
+            "The tank holds a large volume of fuel."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One book in a set of several, or how loud a sound is",
+          "body": [
+            "(том; громкость)",
+            "---"
+          ],
+          "examples": [
+            "The dictionary comes in twelve volumes.",
+            "Turn the volume down a little.",
+            "She pulled the first volume off the shelf."
+          ]
+        }
+      ],
+      "русский": "объём; том; громкость",
       "countability": "uncountable"
     },
     {
@@ -218,13 +394,42 @@
       "term": "area",
       "ipa": "/ˈɛriə/",
       "respell": "AIR-ee-uh",
-      "meaning": "The size of a flat surface, found by multiplying length by width. ---",
+      "meaning": "Area has 2 distinct senses.",
       "examples": [
         "Calculate the area of the floor before you order tile.",
         "The lot has an area of about half an acre.",
-        "Add the areas of the two rooms together."
+        "Add the areas of the two rooms together.",
+        "Calculate the area of the rectangle.",
+        "Pressure equals force divided by area.",
+        "The two shapes have equal areas."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The size of a flat surface, found by multiplying length by width",
+          "body": [
+            "(площадь)"
+          ],
+          "examples": [
+            "Calculate the area of the floor before you order tile.",
+            "The lot has an area of about half an acre.",
+            "Add the areas of the two rooms together."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The amount of flat surface that something covers",
+          "body": [
+            "(площадь)",
+            "---"
+          ],
+          "examples": [
+            "Calculate the area of the rectangle.",
+            "Pressure equals force divided by area.",
+            "The two shapes have equal areas."
+          ]
+        }
+      ],
       "русский": "площадь",
       "plural": "areas",
       "countability": "countable"
@@ -309,13 +514,42 @@
       "term": "quantity",
       "ipa": "/ˈkwɑːntəti/",
       "respell": "KWAHN-tuh-tee",
-      "meaning": "How much of something there is. ---",
+      "meaning": "Quantity has 2 distinct senses.",
       "examples": [
         "Enter the quantity you want to order.",
         "They buy flour in large quantities.",
-        "The recipe lists the quantity of each ingredient."
+        "The recipe lists the quantity of each ingredient.",
+        "Add a small quantity of acid to the beaker.",
+        "The plant gives off oxygen in large quantities.",
+        "Record both the quantity and the temperature."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "How much of something there is",
+          "body": [
+            "(количество)"
+          ],
+          "examples": [
+            "Enter the quantity you want to order.",
+            "They buy flour in large quantities.",
+            "The recipe lists the quantity of each ingredient."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An amount of something that can be counted or measured",
+          "body": [
+            "(количество)",
+            "---"
+          ],
+          "examples": [
+            "Add a small quantity of acid to the beaker.",
+            "The plant gives off oxygen in large quantities.",
+            "Record both the quantity and the temperature."
+          ]
+        }
+      ],
       "русский": "количество",
       "plural": "quantities",
       "countability": "countable"
@@ -353,13 +587,42 @@
       "term": "force",
       "ipa": "/fɔːrs/",
       "respell": "FORS",
-      "meaning": "A push or a pull acting on an object, measured in newtons. ---",
+      "meaning": "Force has 2 distinct senses.",
       "examples": [
         "The force of the wind snapped the branch.",
         "Two forces act on the box at the same time.",
-        "Apply a steady force to the lever."
+        "Apply a steady force to the lever.",
+        "Gravity is the force that keeps us on the ground.",
+        "Two equal forces pulled the rope in opposite directions.",
+        "You have to apply more force to open that door."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A push or a pull acting on an object, measured in newtons",
+          "body": [
+            "(сила)"
+          ],
+          "examples": [
+            "The force of the wind snapped the branch.",
+            "Two forces act on the box at the same time.",
+            "Apply a steady force to the lever."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A push or a pull that makes an object move, stop, or change shape",
+          "body": [
+            "(сила)",
+            "---"
+          ],
+          "examples": [
+            "Gravity is the force that keeps us on the ground.",
+            "Two equal forces pulled the rope in opposite directions.",
+            "You have to apply more force to open that door."
+          ]
+        }
+      ],
       "русский": "сила",
       "plural": "forces",
       "countability": "countable"
@@ -461,14 +724,43 @@
       "term": "median",
       "ipa": "/ˈmiːdiən/",
       "respell": "MEE-dee-uhn",
-      "meaning": "The middle value in a list of numbers arranged in order. ---",
+      "meaning": "Median has 2 distinct senses.",
       "examples": [
         "The median tells you more than the average here.",
         "Half the houses sold above the median.",
-        "The two medians were identical."
+        "The two medians were identical.",
+        "A truck jumped the median and hit oncoming traffic.",
+        "Wildflowers were planted along the grassy medians.",
+        "Don't try to cross the median on foot."
       ],
-      "senses": [],
-      "русский": "медиана",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The middle value in a list of numbers arranged in order",
+          "body": [
+            "(медиана)"
+          ],
+          "examples": [
+            "The median tells you more than the average here.",
+            "Half the houses sold above the median.",
+            "The two medians were identical."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The strip of ground separating the two directions of traffic on a wide road",
+          "body": [
+            "(разделительная полоса (на дороге))",
+            "---"
+          ],
+          "examples": [
+            "A truck jumped the median and hit oncoming traffic.",
+            "Wildflowers were planted along the grassy medians.",
+            "Don't try to cross the median on foot."
+          ]
+        }
+      ],
+      "русский": "медиана; разделительная полоса (на дороге)",
       "plural": "medians",
       "countability": "countable",
       "contrast": "In American English the same word also names the strip in the middle of a highway."
@@ -477,14 +769,43 @@
       "term": "proportion",
       "ipa": "/prəˈpɔːrʃən/",
       "respell": "pruh-POR-shuhn",
-      "meaning": "A part of a whole, compared with the rest. ---",
+      "meaning": "Proportion has 2 distinct senses.",
       "examples": [
         "A large proportion of the budget goes to salaries.",
         "Mix the paint in the right proportion.",
-        "The proportions of sand and cement matter a lot."
+        "The proportions of sand and cement matter a lot.",
+        "The head is out of proportion with the body.",
+        "The room has pleasing proportions.",
+        "Keep the same proportion when you enlarge the photo."
       ],
-      "senses": [],
-      "русский": "доля, соотношение",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A part of a whole, compared with the rest",
+          "body": [
+            "(доля, соотношение)"
+          ],
+          "examples": [
+            "A large proportion of the budget goes to salaries.",
+            "Mix the paint in the right proportion.",
+            "The proportions of sand and cement matter a lot."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The size relationship between the parts of something",
+          "body": [
+            "(пропорция, соотношение)",
+            "---"
+          ],
+          "examples": [
+            "The head is out of proportion with the body.",
+            "The room has pleasing proportions.",
+            "Keep the same proportion when you enlarge the photo."
+          ]
+        }
+      ],
+      "русский": "доля, соотношение; пропорция, соотношение",
       "plural": "proportions",
       "countability": "countable"
     },
@@ -520,14 +841,43 @@
       "term": "tolerance",
       "ipa": "/ˈtɑːlərəns/",
       "respell": "TAH-lur-uhns",
-      "meaning": "The amount a measurement is allowed to vary from the exact figure. ---",
+      "meaning": "Tolerance has 2 distinct senses.",
       "examples": [
         "The part is machined to a tolerance of one thousandth of an inch.",
         "That's outside the tolerance on the drawing.",
-        "Aerospace parts have very tight tolerances."
+        "Aerospace parts have very tight tolerances.",
+        "The school teaches tolerance from kindergarten on.",
+        "My tolerance for meetings is close to zero.",
+        "There is not much tolerance for excuses around here."
       ],
-      "senses": [],
-      "русский": "допуск (в технике)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The amount a measurement is allowed to vary from the exact figure",
+          "body": [
+            "(допуск (в технике))"
+          ],
+          "examples": [
+            "The part is machined to a tolerance of one thousandth of an inch.",
+            "That's outside the tolerance on the drawing.",
+            "Aerospace parts have very tight tolerances."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A willingness to accept people or ideas you do not share",
+          "body": [
+            "(терпимость)",
+            "---"
+          ],
+          "examples": [
+            "The school teaches tolerance from kindergarten on.",
+            "My tolerance for meetings is close to zero.",
+            "There is not much tolerance for excuses around here."
+          ]
+        }
+      ],
+      "русский": "допуск (в технике); терпимость",
       "plural": "tolerances",
       "countability": "countable"
     },
@@ -535,14 +885,43 @@
       "term": "margin",
       "ipa": "/ˈmɑːrdʒən/",
       "respell": "MAR-jin",
-      "meaning": "An extra amount allowed beyond what is strictly needed. ---",
+      "meaning": "Margin has 2 distinct senses.",
       "examples": [
         "Leave a margin of error in your estimate.",
         "He won by a margin of two seconds.",
-        "The margins on this drawing are too tight."
+        "The margins on this drawing are too tight.",
+        "He scribbled notes in the margin.",
+        "Set the margins to one inch.",
+        "The margin is too narrow to write in."
       ],
-      "senses": [],
-      "русский": "запас, разница",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An extra amount allowed beyond what is strictly needed",
+          "body": [
+            "(запас, разница)"
+          ],
+          "examples": [
+            "Leave a margin of error in your estimate.",
+            "He won by a margin of two seconds.",
+            "The margins on this drawing are too tight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The blank space along the edge of a printed page",
+          "body": [
+            "(поля (страницы))",
+            "---"
+          ],
+          "examples": [
+            "He scribbled notes in the margin.",
+            "Set the margins to one inch.",
+            "The margin is too narrow to write in."
+          ]
+        }
+      ],
+      "русский": "запас, разница; поля (страницы)",
       "plural": "margins",
       "countability": "countable"
     },
@@ -819,14 +1198,43 @@
       "term": "figure",
       "ipa": "/ˈfɪɡjər/",
       "respell": "FIG-yur",
-      "meaning": "A number, especially one in a report or a set of results. ---",
+      "meaning": "Figure has 2 distinct senses.",
       "examples": [
         "Sales figures come out on Monday.",
         "That figure includes shipping.",
-        "Check the figures one more time."
+        "Check the figures one more time.",
+        "She has kept her figure for years.",
+        "A tall figure appeared at the end of the hall.",
+        "Two dark figures moved across the yard."
       ],
-      "senses": [],
-      "русский": "цифра, показатель",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A number, especially one in a report or a set of results",
+          "body": [
+            "(цифра, показатель)"
+          ],
+          "examples": [
+            "Sales figures come out on Monday.",
+            "That figure includes shipping.",
+            "Check the figures one more time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shape of a person's body",
+          "body": [
+            "(фигура (телосложение); силуэт)",
+            "---"
+          ],
+          "examples": [
+            "She has kept her figure for years.",
+            "A tall figure appeared at the end of the hall.",
+            "Two dark figures moved across the yard."
+          ]
+        }
+      ],
+      "русский": "цифра, показатель; фигура (телосложение); силуэт",
       "plural": "figures",
       "countability": "countable",
       "contrast": "Americans say FIG-yur; the British say FIG-ur."
@@ -943,28 +1351,86 @@
       "term": "mileage",
       "ipa": "/ˈmaɪlɪdʒ/",
       "respell": "MY-lij",
-      "meaning": "The number of miles a vehicle has traveled, or how far it goes on a gallon of fuel. ---",
+      "meaning": "Mileage has 2 distinct senses.",
       "examples": [
         "The car has low mileage for its age.",
         "This truck gets terrible mileage on the highway.",
-        "Check the mileage before you buy it."
+        "Check the mileage before you buy it.",
+        "The rental includes unlimited mileage.",
+        "That old truck gets terrible mileage.",
+        "Write down the mileage before you leave."
       ],
-      "senses": [],
-      "русский": "пробег в милях; расход топлива",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The number of miles a vehicle has traveled, or how far it goes on a gallon of fuel",
+          "body": [
+            "(пробег в милях; расход топлива)"
+          ],
+          "examples": [
+            "The car has low mileage for its age.",
+            "This truck gets terrible mileage on the highway.",
+            "Check the mileage before you buy it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The distance a vehicle has traveled or can travel on a tank of gas",
+          "body": [
+            "(пробег (в милях))",
+            "---"
+          ],
+          "examples": [
+            "The rental includes unlimited mileage.",
+            "That old truck gets terrible mileage.",
+            "Write down the mileage before you leave."
+          ]
+        }
+      ],
+      "русский": "пробег в милях; расход топлива; пробег (в милях)",
       "countability": "uncountable"
     },
     {
       "term": "footage",
       "ipa": "/ˈfʊtɪdʒ/",
       "respell": "FUUT-ij",
-      "meaning": "A length or an area measured in feet. ---",
+      "meaning": "Footage has 2 distinct senses.",
       "examples": [
         "What's the square footage of the house?",
         "Add up the footage of pipe you'll need.",
-        "The listing doesn't give the footage."
+        "The listing doesn't give the footage.",
+        "The station aired security footage of the break-in.",
+        "There's hours of unused footage.",
+        "The footage is grainy but you can see his face."
       ],
-      "senses": [],
-      "русский": "метраж, длина или площадь в футах",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A length or an area measured in feet",
+          "body": [
+            "(метраж, длина или площадь в футах)"
+          ],
+          "examples": [
+            "What's the square footage of the house?",
+            "Add up the footage of pipe you'll need.",
+            "The listing doesn't give the footage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Film or video that has been shot, especially of a real event",
+          "body": [
+            "(видеоматериал, кадры)",
+            "---"
+          ],
+          "examples": [
+            "The station aired security footage of the break-in.",
+            "There's hours of unused footage.",
+            "The footage is grainy but you can see his face."
+          ]
+        }
+      ],
+      "русский": "метраж, длина или площадь в футах; видеоматериал, кадры",
       "countability": "uncountable",
       "contrast": "The same word also means filmed video material, as in security footage."
     },
@@ -1204,13 +1670,42 @@
       "term": "gram",
       "ipa": "/ɡræm/",
       "respell": "GRAM",
-      "meaning": "The basic metric unit of weight, about one twenty-eighth of an ounce. ---",
+      "meaning": "Gram has 2 distinct senses.",
       "examples": [
         "Add fifty grams of butter.",
         "The label lists nine grams of sugar.",
-        "A paper clip weighs about a gram."
+        "A paper clip weighs about a gram.",
+        "The sample weighed twelve grams.",
+        "Add one gram of salt to the water.",
+        "The scale reads to a tenth of a gram."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The basic metric unit of weight, about one twenty-eighth of an ounce",
+          "body": [
+            "(грамм)"
+          ],
+          "examples": [
+            "Add fifty grams of butter.",
+            "The label lists nine grams of sugar.",
+            "A paper clip weighs about a gram."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A metric unit of mass equal to one thousandth of a kilogram",
+          "body": [
+            "(грамм)",
+            "---"
+          ],
+          "examples": [
+            "The sample weighed twelve grams.",
+            "Add one gram of salt to the water.",
+            "The scale reads to a tenth of a gram."
+          ]
+        }
+      ],
       "русский": "грамм",
       "plural": "grams",
       "countability": "countable",
@@ -1528,14 +2023,43 @@
       "term": "compass",
       "ipa": "/ˈkʌmpəs/",
       "respell": "KUM-puhs",
-      "meaning": "An instrument with a magnetic needle that shows direction. ---",
+      "meaning": "Compass has 2 distinct senses.",
       "examples": [
         "Take a compass if you're hiking off trail.",
         "The compass needle swung north.",
-        "Both compasses pointed the same way."
+        "Both compasses pointed the same way.",
+        "Draw a two-inch circle with your compass.",
+        "The point of the compass went through the paper.",
+        "The teacher passed out compasses and rulers."
       ],
-      "senses": [],
-      "русский": "компас; циркуль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An instrument with a magnetic needle that shows direction",
+          "body": [
+            "(компас; циркуль)"
+          ],
+          "examples": [
+            "Take a compass if you're hiking off trail.",
+            "The compass needle swung north.",
+            "Both compasses pointed the same way."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hinged instrument with a point and a pencil, used for drawing circles",
+          "body": [
+            "(циркуль)",
+            "---"
+          ],
+          "examples": [
+            "Draw a two-inch circle with your compass.",
+            "The point of the compass went through the paper.",
+            "The teacher passed out compasses and rulers."
+          ]
+        }
+      ],
+      "русский": "компас; циркуль; циркуль",
       "plural": "compasses",
       "countability": "countable",
       "contrast": "The first syllable is KUM, not KOM. The same word also names the drawing tool for circles."
@@ -1727,14 +2251,43 @@
       "term": "beaker",
       "ipa": "/ˈbiːkər/",
       "respell": "BEE-kur",
-      "meaning": "A straight-sided glass container marked with a scale, used in laboratories. ---",
+      "meaning": "Beaker has 2 distinct senses.",
       "examples": [
         "Pour the solution into a clean beaker.",
         "The beaker is marked in milliliters.",
-        "A row of beakers sat on the lab bench."
+        "A row of beakers sat on the lab bench.",
+        "Fill the beaker to the hundred-milliliter mark.",
+        "The liquid in the beaker turned pink.",
+        "Wash the beakers before you leave."
       ],
-      "senses": [],
-      "русский": "химический стакан, мензурка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A straight-sided glass container marked with a scale, used in laboratories",
+          "body": [
+            "(химический стакан, мензурка)"
+          ],
+          "examples": [
+            "Pour the solution into a clean beaker.",
+            "The beaker is marked in milliliters.",
+            "A row of beakers sat on the lab bench."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A wide glass cup with a lip, used for mixing liquids in a lab",
+          "body": [
+            "(химический стакан)",
+            "---"
+          ],
+          "examples": [
+            "Fill the beaker to the hundred-milliliter mark.",
+            "The liquid in the beaker turned pink.",
+            "Wash the beakers before you leave."
+          ]
+        }
+      ],
+      "русский": "химический стакан, мензурка; химический стакан",
       "plural": "beakers",
       "countability": "countable"
     },
@@ -1757,13 +2310,42 @@
       "term": "watt",
       "ipa": "/wɑːt/",
       "respell": "WAHT",
-      "meaning": "The unit of power, used for the output of a bulb, speaker, or motor. ---",
+      "meaning": "Watt has 2 distinct senses.",
       "examples": [
         "This bulb uses only nine watts.",
         "The speaker is rated at fifty watts.",
-        "A watt is one joule per second."
+        "A watt is one joule per second.",
+        "This bulb uses only nine watts.",
+        "The speaker is rated at fifty watts.",
+        "A microwave can draw a thousand watts."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The unit of power, used for the output of a bulb, speaker, or motor",
+          "body": [
+            "(ватт)"
+          ],
+          "examples": [
+            "This bulb uses only nine watts.",
+            "The speaker is rated at fifty watts.",
+            "A watt is one joule per second."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit for measuring power",
+          "body": [
+            "(ватт)",
+            "---"
+          ],
+          "examples": [
+            "This bulb uses only nine watts.",
+            "The speaker is rated at fifty watts.",
+            "A microwave can draw a thousand watts."
+          ]
+        }
+      ],
       "русский": "ватт",
       "plural": "watts",
       "countability": "countable",
@@ -1817,13 +2399,42 @@
       "term": "volt",
       "ipa": "/voʊlt/",
       "respell": "VOHLT",
-      "meaning": "The unit of electrical pressure. ---",
+      "meaning": "Volt has 2 distinct senses.",
       "examples": [
         "American outlets run at 120 volts.",
         "The battery puts out twelve volts.",
-        "Nine volts isn't enough for that motor."
+        "Nine volts isn't enough for that motor.",
+        "American outlets deliver a hundred and twenty volts.",
+        "The battery puts out nine volts.",
+        "A single volt won't hurt you."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The unit of electrical pressure",
+          "body": [
+            "(вольт)"
+          ],
+          "examples": [
+            "American outlets run at 120 volts.",
+            "The battery puts out twelve volts.",
+            "Nine volts isn't enough for that motor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit for measuring the force that pushes an electric current",
+          "body": [
+            "(вольт)",
+            "---"
+          ],
+          "examples": [
+            "American outlets deliver a hundred and twenty volts.",
+            "The battery puts out nine volts.",
+            "A single volt won't hurt you."
+          ]
+        }
+      ],
       "русский": "вольт",
       "plural": "volts",
       "countability": "countable"
@@ -1832,13 +2443,42 @@
       "term": "voltage",
       "ipa": "/ˈvoʊltɪdʒ/",
       "respell": "VOHL-tij",
-      "meaning": "The electrical force in a circuit, measured in volts. ---",
+      "meaning": "Voltage has 2 distinct senses.",
       "examples": [
         "Check the voltage before you plug it in.",
         "Low voltage made the lights flicker.",
-        "European voltage is twice ours."
+        "European voltage is twice ours.",
+        "Check the voltage before you plug it in.",
+        "High voltage can jump across a gap.",
+        "The two supplies run at different voltages."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The electrical force in a circuit, measured in volts",
+          "body": [
+            "(напряжение)"
+          ],
+          "examples": [
+            "Check the voltage before you plug it in.",
+            "Low voltage made the lights flicker.",
+            "European voltage is twice ours."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The electrical force that pushes current through a circuit",
+          "body": [
+            "(напряжение)",
+            "---"
+          ],
+          "examples": [
+            "Check the voltage before you plug it in.",
+            "High voltage can jump across a gap.",
+            "The two supplies run at different voltages."
+          ]
+        }
+      ],
       "русский": "напряжение",
       "countability": "uncountable"
     },
@@ -1939,13 +2579,42 @@
       "term": "hertz",
       "ipa": "/hɜːrts/",
       "respell": "HURTS",
-      "meaning": "The unit of frequency, equal to one cycle per second. ---",
+      "meaning": "Hertz has 2 distinct senses.",
       "examples": [
         "American power runs at sixty hertz.",
         "The monitor refreshes at 120 hertz.",
-        "People hear sound from about 20 hertz upward."
+        "People hear sound from about 20 hertz upward.",
+        "American house current runs at sixty hertz.",
+        "The tone was set to four hundred and forty hertz.",
+        "One hertz means one cycle per second."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The unit of frequency, equal to one cycle per second",
+          "body": [
+            "(герц)"
+          ],
+          "examples": [
+            "American power runs at sixty hertz.",
+            "The monitor refreshes at 120 hertz.",
+            "People hear sound from about 20 hertz upward."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A unit for measuring how many times something repeats each second",
+          "body": [
+            "(герц)",
+            "---"
+          ],
+          "examples": [
+            "American house current runs at sixty hertz.",
+            "The tone was set to four hundred and forty hertz.",
+            "One hertz means one cycle per second."
+          ]
+        }
+      ],
       "русский": "герц",
       "plural": "hertz",
       "countability": "countable",
@@ -1986,13 +2655,42 @@
       "term": "wavelength",
       "ipa": "/ˈweɪvlɛŋθ/",
       "respell": "WAYV-length",
-      "meaning": "The distance between one wave crest and the next. ---",
+      "meaning": "Wavelength has 2 distinct senses.",
       "examples": [
         "Red light has a longer wavelength than blue.",
         "The antenna is cut to a quarter wavelength.",
-        "Only certain wavelengths pass through the filter."
+        "Only certain wavelengths pass through the filter.",
+        "Red light has a longer wavelength than blue light.",
+        "The antenna is tuned to that wavelength.",
+        "Different wavelengths bend by different amounts."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The distance between one wave crest and the next",
+          "body": [
+            "(длина волны)"
+          ],
+          "examples": [
+            "Red light has a longer wavelength than blue.",
+            "The antenna is cut to a quarter wavelength.",
+            "Only certain wavelengths pass through the filter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The distance from one wave to the next one",
+          "body": [
+            "(длина волны)",
+            "---"
+          ],
+          "examples": [
+            "Red light has a longer wavelength than blue light.",
+            "The antenna is tuned to that wavelength.",
+            "Different wavelengths bend by different amounts."
+          ]
+        }
+      ],
       "русский": "длина волны",
       "plural": "wavelengths",
       "countability": "countable"

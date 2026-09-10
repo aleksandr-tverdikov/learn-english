@@ -64,15 +64,45 @@
       "term": "poultry",
       "ipa": "/ˈpoʊltri/",
       "respell": "POHL-tree",
-      "meaning": "Chicken, turkey, duck and other farm birds raised for meat or eggs. ---",
+      "meaning": "Poultry has 2 distinct senses.",
       "examples": [
         "Wash your hands after handling raw poultry.",
         "The poultry section is at the back of the store.",
-        "Prices for poultry stayed flat all year."
+        "Prices for poultry stayed flat all year.",
+        "The farm sells poultry and eggs at the market.",
+        "Poultry is cheaper than beef right now.",
+        "He does not eat red meat, only fish and poultry."
       ],
-      "senses": [],
-      "русский": "домашняя птица (как мясо)",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "Chicken, turkey, duck and other farm birds raised for meat or eggs",
+          "body": [
+            "(домашняя птица (как мясо))"
+          ],
+          "examples": [
+            "Wash your hands after handling raw poultry.",
+            "The poultry section is at the back of the store.",
+            "Prices for poultry stayed flat all year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Birds such as chickens and turkeys kept for eggs and meat, or their meat",
+          "body": [
+            "(домашняя птица (мясо и живность))",
+            "---"
+          ],
+          "examples": [
+            "The farm sells poultry and eggs at the market.",
+            "Poultry is cheaper than beef right now.",
+            "He does not eat red meat, only fish and poultry."
+          ]
+        }
+      ],
+      "русский": "домашняя птица (как мясо); домашняя птица (мясо и живность)",
+      "countability": "uncountable",
+      "contrast": "Uncountable: poultry is, never a poultry or poultries."
     },
     {
       "term": "burger",
@@ -364,29 +394,88 @@
       "term": "drumstick",
       "ipa": "/ˈdrʌmstɪk/",
       "respell": "DRUM-stik",
-      "meaning": "The lower leg of a chicken or turkey, eaten as food. ---",
+      "meaning": "Drumstick has 2 distinct senses.",
       "examples": [
         "The kids always fight over the drumsticks.",
         "He grabbed a drumstick off the platter.",
-        "Drumsticks are the cheapest part of the bird."
+        "Drumsticks are the cheapest part of the bird.",
+        "He ate three drumsticks and half the mashed potatoes.",
+        "The drumstick is the lower part of the leg.",
+        "Kids always go for the drumsticks first."
       ],
-      "senses": [],
-      "русский": "куриная голень (ножка)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The lower leg of a chicken or turkey, eaten as food",
+          "body": [
+            "(куриная голень (ножка))"
+          ],
+          "examples": [
+            "The kids always fight over the drumsticks.",
+            "He grabbed a drumstick off the platter.",
+            "Drumsticks are the cheapest part of the bird."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The lower part of a cooked bird's leg",
+          "body": [
+            "(куриная ножка, голень)",
+            "---"
+          ],
+          "examples": [
+            "He ate three drumsticks and half the mashed potatoes.",
+            "The drumstick is the lower part of the leg.",
+            "Kids always go for the drumsticks first."
+          ]
+        }
+      ],
+      "русский": "куриная голень (ножка); куриная ножка, голень",
       "plural": "drumsticks",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The same word also means the stick you hit a drum with."
     },
     {
       "term": "wing",
       "ipa": "/wɪŋ/",
       "respell": "WING",
-      "meaning": "The arm of a bird, eaten as food, usually fried or grilled with sauce. ---",
+      "meaning": "Wing has 2 distinct senses.",
       "examples": [
         "We ordered twenty wings for the game.",
         "This wing is barely cooked.",
-        "Their buffalo wings are the best in town."
+        "Their buffalo wings are the best in town.",
+        "The bird broke a wing hitting the window.",
+        "It spread its wings and took off.",
+        "One wing was still bandaged when we let it go."
       ],
-      "senses": [],
-      "русский": "крылышко (куриное)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The arm of a bird, eaten as food, usually fried or grilled with sauce",
+          "body": [
+            "(крылышко (куриное))"
+          ],
+          "examples": [
+            "We ordered twenty wings for the game.",
+            "This wing is barely cooked.",
+            "Their buffalo wings are the best in town."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the two limbs a bird uses to fly",
+          "body": [
+            "(крыло)",
+            "---"
+          ],
+          "examples": [
+            "The bird broke a wing hitting the window.",
+            "It spread its wings and took off.",
+            "One wing was still bandaged when we let it go."
+          ]
+        }
+      ],
+      "русский": "крылышко (куриное); крыло",
       "plural": "wings",
       "countability": "countable"
     },
@@ -586,14 +675,43 @@
       "term": "duck",
       "ipa": "/dʌk/",
       "respell": "DUK",
-      "meaning": "A water bird eaten as food, or its rich dark meat. ---",
+      "meaning": "Duck has 2 distinct senses.",
       "examples": [
         "The roast duck was the best thing on the table.",
         "Duck has a lot more fat than chicken.",
-        "They ordered two ducks for the party."
+        "They ordered two ducks for the party.",
+        "A duck and six ducklings crossed the road in front of us.",
+        "We fed the ducks at the pond, though the sign says not to.",
+        "He ordered roast duck with plum sauce."
       ],
-      "senses": [],
-      "русский": "утка (мясо утки)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A water bird eaten as food, or its rich dark meat",
+          "body": [
+            "(утка (мясо утки))"
+          ],
+          "examples": [
+            "The roast duck was the best thing on the table.",
+            "Duck has a lot more fat than chicken.",
+            "They ordered two ducks for the party."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A water bird with webbed feet and a flat bill",
+          "body": [
+            "(утка)",
+            "---"
+          ],
+          "examples": [
+            "A duck and six ducklings crossed the road in front of us.",
+            "We fed the ducks at the pond, though the sign says not to.",
+            "He ordered roast duck with plum sauce."
+          ]
+        }
+      ],
+      "русский": "утка (мясо утки); утка",
       "plural": "ducks",
       "countability": "countable, and uncountable as food"
     },
@@ -601,14 +719,43 @@
       "term": "rabbit",
       "ipa": "/ˈræbɪt/",
       "respell": "RA-bit",
-      "meaning": "A small long-eared animal, or its lean pale meat. ---",
+      "meaning": "Rabbit has 2 distinct senses.",
       "examples": [
         "Rabbit tastes a lot like chicken, honestly.",
         "The stew was made with two rabbits and a lot of wine.",
-        "You can't buy rabbit at most American supermarkets."
+        "You can't buy rabbit at most American supermarkets.",
+        "A rabbit got into the lettuce again.",
+        "They keep two rabbits in a hutch out back.",
+        "Rabbits are all over the yard at dusk."
       ],
-      "senses": [],
-      "русский": "кролик, крольчатина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small long-eared animal, or its lean pale meat",
+          "body": [
+            "(кролик, крольчатина)"
+          ],
+          "examples": [
+            "Rabbit tastes a lot like chicken, honestly.",
+            "The stew was made with two rabbits and a lot of wine.",
+            "You can't buy rabbit at most American supermarkets."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small long-eared animal that hops and digs burrows",
+          "body": [
+            "(кролик)",
+            "---"
+          ],
+          "examples": [
+            "A rabbit got into the lettuce again.",
+            "They keep two rabbits in a hutch out back.",
+            "Rabbits are all over the yard at dusk."
+          ]
+        }
+      ],
+      "русский": "кролик, крольчатина; кролик",
       "plural": "rabbits",
       "countability": "countable, and uncountable as food"
     },

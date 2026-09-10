@@ -189,14 +189,43 @@
       "term": "folder",
       "ipa": "/ˈfoʊldər/",
       "respell": "FOHL-dur",
-      "meaning": "A folded cover for holding loose papers, or a place for files on a computer. ---",
+      "meaning": "Folder has 2 distinct senses.",
       "examples": [
         "Put the receipts in a folder.",
         "I saved it in a folder on my desktop.",
-        "There were a dozen folders stacked on his chair."
+        "There were a dozen folders stacked on his chair.",
+        "Everything for the meeting is in the blue folder.",
+        "I saved the file to the wrong folder.",
+        "She keeps separate folders for each client."
       ],
-      "senses": [],
-      "русский": "папка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A folded cover for holding loose papers, or a place for files on a computer",
+          "body": [
+            "(папка)"
+          ],
+          "examples": [
+            "Put the receipts in a folder.",
+            "I saved it in a folder on my desktop.",
+            "There were a dozen folders stacked on his chair."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A folded cover of stiff paper, or a place on a computer, that holds documents together",
+          "body": [
+            "(папка (для бумаг); папка на компьютере)",
+            "---"
+          ],
+          "examples": [
+            "Everything for the meeting is in the blue folder.",
+            "I saved the file to the wrong folder.",
+            "She keeps separate folders for each client."
+          ]
+        }
+      ],
+      "русский": "папка; папка (для бумаг); папка на компьютере",
       "plural": "folders",
       "countability": "countable"
     },
@@ -309,13 +338,42 @@
       "term": "pen",
       "ipa": "/pɛn/",
       "respell": "PEN",
-      "meaning": "A writing instrument that uses ink. ---",
+      "meaning": "Pen has 2 distinct senses.",
       "examples": [
         "Do you have a pen I can borrow?",
         "The pen ran out halfway through the form.",
-        "Somebody keeps walking off with my pens."
+        "Somebody keeps walking off with my pens.",
+        "Can I borrow a pen?",
+        "He signed the form with a blue pen.",
+        "All three pens in the drawer were dead."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A writing instrument that uses ink",
+          "body": [
+            "(ручка)"
+          ],
+          "examples": [
+            "Do you have a pen I can borrow?",
+            "The pen ran out halfway through the form.",
+            "Somebody keeps walking off with my pens."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A tool that writes with ink",
+          "body": [
+            "(ручка)",
+            "---"
+          ],
+          "examples": [
+            "Can I borrow a pen?",
+            "He signed the form with a blue pen.",
+            "All three pens in the drawer were dead."
+          ]
+        }
+      ],
       "русский": "ручка",
       "plural": "pens",
       "countability": "countable"
@@ -364,7 +422,8 @@
       "senses": [],
       "русский": "конверт",
       "plural": "envelopes",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Two American pronunciations are common: EN-vuh-lohp and AHN-vuh-lohp."
     },
     {
       "term": "calendar",

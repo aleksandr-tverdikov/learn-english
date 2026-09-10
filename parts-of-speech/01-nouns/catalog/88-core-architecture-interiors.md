@@ -58,15 +58,23 @@ A passage inside a building that rooms open onto, or a large room used for publi
 ### lighting
 
 **Pronunciation:** /ˈlaɪtɪŋ/ &middot; *LY-ting*
-**Русский:** освещение
+**Русский:** освещение; освещение (сценическое)
 **Countability:** uncountable
 **Contrast:** Uncountable: 'the lighting', never 'lightings'.
 
-The light in a room and the equipment that provides it.
+Lighting has 2 distinct senses.
+
+**1. The light in a room and the equipment that provides it.** (освещение)
 
 1. The *lighting* in that restaurant is way too dim.
 2. Good *lighting* makes a small room feel bigger.
 3. We spent most of the budget on *lighting*.
+
+**2. The arrangement of lights used to light a stage or a room.** (освещение (сценическое))
+
+4. The *lighting* in the final scene is almost blue.
+5. We spent the whole day working on *lighting*.
+6. Bad *lighting* can ruin a good set.
 
 ---
 
@@ -92,11 +100,19 @@ A lamp that is attached to a ceiling or a wall.
 **Plural:** *ceiling fans*
 **Countability:** countable
 
-A fan with blades that hangs from a ceiling and cools a room.
+Ceiling fan has 2 distinct senses.
+
+**1. A fan with blades that hangs from a ceiling and cools a room.** (потолочный вентилятор)
 
 1. Every bedroom in the house has a *ceiling fan*.
 2. The *ceiling fan* wobbles on the highest setting.
 3. *Ceiling fans* are cheaper to run than air conditioning.
+
+**2. A fan mounted overhead that moves air around a room.** (потолочный вентилятор)
+
+4. The *ceiling fan* wobbles on the highest setting.
+5. Run the *ceiling fan* in reverse in the winter.
+6. There are *ceiling fans* in all three bedrooms.
 
 ---
 
@@ -405,15 +421,23 @@ A staircase that winds around a center post.
 ### riser
 
 **Pronunciation:** /ˈraɪzər/ &middot; *RY-zur*
-**Русский:** подступенок (вертикальная часть ступени)
+**Русский:** подступенок (вертикальная часть ступени); стояк (вертикальная труба)
 **Plural:** *risers*
 **Countability:** countable
 
-The upright board between one stair and the next.
+Riser has 2 distinct senses.
+
+**1. The upright board between one stair and the next.** (подступенок (вертикальная часть ступени))
 
 1. Each *riser* is seven inches high.
 2. We painted the *risers* white and stained the treads.
 3. One *riser* is cracked all the way through.
+
+**2. A vertical pipe that carries water or steam up through a building.** (стояк (вертикальная труба))
+
+4. The *riser* runs up through all six floors.
+5. They shut down the *riser* to fix the leak.
+6. The old *risers* are being replaced one line at a time.
 
 ---
 
@@ -450,15 +474,23 @@ A closet big enough to step inside.
 ### crawl space
 
 **Pronunciation:** /ˈkrɔːl speɪs/ &middot; *KRAWL-spays*
-**Русский:** подполье, техническое подпольное пространство
+**Русский:** подполье, техническое подпольное пространство; подполье, технический подпол
 **Plural:** *crawl spaces*
 **Countability:** countable
 
-A low space under a floor or roof, tall enough only to crawl through.
+Crawl space has 2 distinct senses.
+
+**1. A low space under a floor or roof, tall enough only to crawl through.** (подполье, техническое подпольное пространство)
 
 1. The pipes run through the *crawl space*.
 2. Something died in the *crawl space* under the porch.
 3. Houses down here have *crawl spaces* instead of basements.
+
+**2. The low space under a floor where pipes and ducts run.** (подполье, технический подпол)
+
+4. The pipes in the *crawl space* aren't insulated.
+5. He crawled under the house to look at the *crawl space*.
+6. Damp *crawl spaces* lead to mold upstairs.
 
 ---
 
@@ -1109,11 +1141,19 @@ A design printed on film that is stuck onto a surface.
 **Plural:** *stencils*
 **Countability:** countable
 
-A cut-out sheet used to paint a repeated shape onto a surface.
+Stencil has 2 distinct senses.
+
+**1. A cut-out sheet used to paint a repeated shape onto a surface.** (трафарет)
 
 1. She painted the border with a *stencil*.
 2. The *stencil* slipped and smeared the paint.
 3. *Stencils* are an easy way to fake wallpaper.
+
+**2. A sheet with shapes cut out, used to print letters or designs through the holes.** (трафарет)
+
+4. The numbers were sprayed on with a *stencil*.
+5. Cut a *stencil* out of cardboard.
+6. The crates were marked with metal *stencils*.
 
 ---
 
@@ -1929,15 +1969,24 @@ A round room or building, usually under a dome.
 ### mezzanine
 
 **Pronunciation:** /ˈmɛzəniːn/ &middot; *MEZ-uh-neen*
-**Русский:** антресольный этаж, мезонин
+**Русский:** антресольный этаж, мезонин; бельэтаж
 **Plural:** *mezzanines*
 **Countability:** countable
+**Contrast:** American theaters say *mezzanine*; British ones call the same level the dress circle.
 
-A low floor built between two main floors, often open to the space below.
+Mezzanine has 2 distinct senses.
+
+**1. A low floor built between two main floors, often open to the space below.** (антресольный этаж, мезонин)
 
 1. The bar is up on the *mezzanine*.
 2. A *mezzanine* office overlooks the shop floor.
 3. *Mezzanines* are cheap extra square footage.
+
+**2. The lowest balcony level of a theater, above the main floor.** (бельэтаж)
+
+4. We had seats in the front of the *mezzanine*.
+5. Both *mezzanines* were nearly full.
+6. The *mezzanine* has a better view than the back of the orchestra.
 
 ---
 

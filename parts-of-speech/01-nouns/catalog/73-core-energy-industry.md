@@ -1427,15 +1427,23 @@ The stony waste that floats off metal during smelting.
 ### mill
 
 **Pronunciation:** /mɪl/ &middot; *MIL*
-**Русский:** завод, комбинат (перерабатывающий)
+**Русский:** завод, комбинат (перерабатывающий); фабрика, комбинат (текстильный)
 **Plural:** *mills*
 **Countability:** countable
 
-A factory where a raw material such as steel, paper, or grain is processed.
+Mill has 2 distinct senses.
+
+**1. A factory where a raw material such as steel, paper, or grain is processed.** (завод, комбинат (перерабатывающий))
 
 1. Half the town worked at the *mill*.
 2. The paper *mill* closed in 2004.
 3. Two *mills* along the river are still running.
+
+**2. A factory where raw fiber is spun into yarn or woven into cloth.** (фабрика, комбинат (текстильный))
+
+4. Half the town worked at the cotton *mill*.
+5. The *mill* shut down in 1978.
+6. The old *mills* along the river are apartments now.
 
 ---
 
@@ -1785,14 +1793,22 @@ A fault in a product that makes it fail to meet the standard.
 ### scrap
 
 **Pronunciation:** /skræp/ &middot; *SKRAP*
-**Русский:** лом, металлолом
+**Русский:** лом, металлолом; лоскут, обрезок ткани
 **Countability:** uncountable
 
-Waste metal or material that is collected to be melted down and reused.
+Scrap has 2 distinct senses.
+
+**1. Waste metal or material that is collected to be melted down and reused.** (лом, металлолом)
 
 1. They sold the old machines for *scrap*.
 2. The mill buys *scrap* by the ton.
 3. There is a pile of *scrap* behind the shop.
+
+**2. A small leftover piece of cloth.** (лоскут, обрезок ткани)
+
+4. Save the *scraps* for a quilt.
+5. She wiped the machine with a *scrap* of flannel.
+6. There's a bag of fabric *scraps* in the closet.
 
 ---
 

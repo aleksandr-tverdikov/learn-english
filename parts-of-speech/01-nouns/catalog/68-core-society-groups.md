@@ -302,15 +302,23 @@ A group of teams, countries, or people joined together for a common purpose.
 ### party
 
 **Pronunciation:** /ˈpɑːrti/ &middot; *PAR-tee*
-**Русский:** партия (политическая); группа людей
+**Русский:** партия (политическая); группа людей; вечеринка
 **Plural:** *parties*
 **Countability:** countable
 
-An organized political group, or a group of people acting together.
+Party has 2 distinct senses.
+
+**1. An organized political group, or a group of people acting together.** (партия (политическая); группа людей)
 
 1. Neither *party* wanted an early election.
 2. A search *party* went out at dawn.
 3. Both *parties* signed the agreement.
+
+**2. A social event where people gather to eat, drink, talk, and enjoy themselves.** (вечеринка)
+
+4. We're having a *party* Saturday night — you should come.
+5. His birthday *parties* were legendary in the neighborhood.
+6. The *party* went on until two in the morning.
 
 ---
 
@@ -929,15 +937,23 @@ A man who has never been married.
 ### marriage
 
 **Pronunciation:** /ˈmɛrɪdʒ/ &middot; *MEH-rij*
-**Русский:** брак; женитьба, замужество
+**Русский:** брак; женитьба, замужество; брак, супружество
 **Plural:** *marriages*
 **Countability:** both — countable and uncountable with different meanings
 
-The legal union of two people, or the institution of being married.
+Marriage has 2 distinct senses.
+
+**1. The legal union of two people, or the institution of being married.** (брак; женитьба, замужество)
 
 1. Their *marriage* lasted forty years.
 2. *Marriage* rates have fallen since the nineties.
 3. It was her second *marriage*.
+
+**2. The legal relationship between two people who are married.** (брак, супружество)
+
+4. It was a long and happy *marriage*.
+5. Both of his *marriages* ended in divorce.
+6. They're celebrating forty years of *marriage*.
 
 ---
 
@@ -1414,11 +1430,19 @@ A custom or belief passed down within a family or a society.
 **Countability:** countable
 **Contrast:** The plural *customs* also names the border office that inspects luggage.
 
-A way of behaving that is usual among a particular group of people.
+Custom has 2 distinct senses.
+
+**1. A way of behaving that is usual among a particular group of people.** (обычай)
 
 1. Shaking hands is an old *custom*.
 2. Local *customs* vary from valley to valley.
 3. It is the *custom* here to bring a dish.
+
+**2. A way of doing something that a group of people has followed for a long time.** (обычай)
+
+4. Throwing rice at the couple is an old *custom*.
+5. Wedding *customs* differ a lot from region to region.
+6. It's the *custom* here to bring food to a grieving family.
 
 ---
 
@@ -1795,11 +1819,19 @@ Care provided during the day for young children while their parents work.
 **Plural:** *reunions*
 **Countability:** countable
 
-A social event where people who have not met in a long time come together.
+Reunion has 2 distinct senses.
+
+**1. A social event where people who have not met in a long time come together.** (встреча (выпускников, родственников))
 
 1. Our twentieth high school *reunion* is next fall.
 2. Family *reunions* fill the campground every July.
 3. He skipped the *reunion* on purpose.
+
+**2. A gathering of people who have not seen each other for a long time.** (встреча (выпускников, родственников))
+
+4. Our twentieth high school *reunion* is in October.
+5. The family *reunion* draws about sixty people.
+6. They've held *reunions* at the same lake since 1978.
 
 ---
 

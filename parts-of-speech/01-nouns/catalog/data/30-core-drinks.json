@@ -567,14 +567,43 @@
       "term": "cellar",
       "ipa": "/ˈsɛlər/",
       "respell": "SEL-ur",
-      "meaning": "An underground room where wine is stored. ---",
+      "meaning": "Cellar has 2 distinct senses.",
       "examples": [
         "The restaurant keeps two thousand bottles in its cellar.",
         "He went down to the cellar for another bottle.",
-        "Their wine cellar stays cool all summer."
+        "Their wine cellar stays cool all summer.",
+        "The restaurant keeps its wine in a cellar under the kitchen.",
+        "We hid in the cellar during the tornado warning.",
+        "Old farmhouses out here often have root cellars."
       ],
-      "senses": [],
-      "русский": "погреб, винный подвал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An underground room where wine is stored",
+          "body": [
+            "(погреб, винный подвал)"
+          ],
+          "examples": [
+            "The restaurant keeps two thousand bottles in its cellar.",
+            "He went down to the cellar for another bottle.",
+            "Their wine cellar stays cool all summer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An underground room used for storing things, especially food or wine",
+          "body": [
+            "(погреб, подвал)",
+            "---"
+          ],
+          "examples": [
+            "The restaurant keeps its wine in a cellar under the kitchen.",
+            "We hid in the cellar during the tornado warning.",
+            "Old farmhouses out here often have root cellars."
+          ]
+        }
+      ],
+      "русский": "погреб, винный подвал; погреб, подвал",
       "plural": "cellars",
       "countability": "countable",
       "contrast": "Sounds exactly like seller."
@@ -583,14 +612,43 @@
       "term": "alcohol",
       "ipa": "/ˈælkəhɔːl/",
       "respell": "AL-kuh-hawl",
-      "meaning": "The substance in beer, wine, and liquor that makes people drunk. ---",
+      "meaning": "Alcohol has 2 distinct senses.",
       "examples": [
         "He gave up alcohol in January.",
         "There's no alcohol at the reception.",
-        "The label says fourteen percent alcohol."
+        "The label says fourteen percent alcohol.",
+        "Wipe the thermometer with rubbing alcohol.",
+        "The punch has no alcohol in it.",
+        "Alcohol evaporates fast."
       ],
-      "senses": [],
-      "русский": "алкоголь, спирт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The substance in beer, wine, and liquor that makes people drunk",
+          "body": [
+            "(алкоголь, спирт)"
+          ],
+          "examples": [
+            "He gave up alcohol in January.",
+            "There's no alcohol at the reception.",
+            "The label says fourteen percent alcohol."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The intoxicating substance in drinks, or a clear liquid used to disinfect",
+          "body": [
+            "(спирт; алкоголь)",
+            "---"
+          ],
+          "examples": [
+            "Wipe the thermometer with rubbing alcohol.",
+            "The punch has no alcohol in it.",
+            "Alcohol evaporates fast."
+          ]
+        }
+      ],
+      "русский": "алкоголь, спирт; спирт; алкоголь",
       "countability": "uncountable"
     },
     {
@@ -945,14 +1003,43 @@
       "term": "mixer",
       "ipa": "/ˈmɪksər/",
       "respell": "MIK-sur",
-      "meaning": "A nonalcoholic drink added to liquor in a cocktail. ---",
+      "meaning": "Mixer has 2 distinct senses.",
       "examples": [
         "We have the vodka but no mixers.",
         "Cranberry juice is the only mixer in the house.",
-        "Pick up some mixers on your way over."
+        "Pick up some mixers on your way over.",
+        "Beat the butter and sugar with a mixer for three minutes.",
+        "Her stand mixer takes up half the counter.",
+        "Hand mixers work fine for most recipes."
       ],
-      "senses": [],
-      "русский": "безалкогольный компонент коктейля (сок, тоник и т. п.)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A nonalcoholic drink added to liquor in a cocktail",
+          "body": [
+            "(безалкогольный компонент коктейля (сок, тоник и т. п.))"
+          ],
+          "examples": [
+            "We have the vodka but no mixers.",
+            "Cranberry juice is the only mixer in the house.",
+            "Pick up some mixers on your way over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An electric machine with beaters for mixing batter and dough",
+          "body": [
+            "(миксер)",
+            "---"
+          ],
+          "examples": [
+            "Beat the butter and sugar with a mixer for three minutes.",
+            "Her stand mixer takes up half the counter.",
+            "Hand mixers work fine for most recipes."
+          ]
+        }
+      ],
+      "русский": "безалкогольный компонент коктейля (сок, тоник и т. п.); миксер",
       "plural": "mixers",
       "countability": "countable"
     },
@@ -990,29 +1077,88 @@
       "term": "garnish",
       "ipa": "/ˈɡɑːrnɪʃ/",
       "respell": "GAR-nish",
-      "meaning": "A small piece of fruit or herb added to a drink for looks and flavor. ---",
+      "meaning": "Garnish has 2 distinct senses.",
       "examples": [
         "The garnish was a twist of orange peel.",
         "He lined up the garnishes before the dinner rush.",
-        "Skip the garnish — I just want the drink."
+        "Skip the garnish — I just want the drink.",
+        "The parsley is just a garnish.",
+        "He added a lemon twist as a garnish.",
+        "Skip the garnishes if you're in a hurry."
       ],
-      "senses": [],
-      "русский": "украшение (для напитка или блюда)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of fruit or herb added to a drink for looks and flavor",
+          "body": [
+            "(украшение (для напитка или блюда))"
+          ],
+          "examples": [
+            "The garnish was a twist of orange peel.",
+            "He lined up the garnishes before the dinner rush.",
+            "Skip the garnish — I just want the drink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small decorative addition placed on a finished dish",
+          "body": [
+            "(украшение блюда (зелень, долька лимона))",
+            "---"
+          ],
+          "examples": [
+            "The parsley is just a garnish.",
+            "He added a lemon twist as a garnish.",
+            "Skip the garnishes if you're in a hurry."
+          ]
+        }
+      ],
+      "русский": "украшение (для напитка или блюда); украшение блюда (зелень, долька лимона)",
       "plural": "garnishes",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "False friend: an English garnish is a decoration on the plate, not a Russian «гарнир», which is a side dish."
     },
     {
       "term": "shaker",
       "ipa": "/ˈʃeɪkər/",
       "respell": "SHAY-kur",
-      "meaning": "A metal container for mixing a cocktail with ice. ---",
+      "meaning": "Shaker has 2 distinct senses.",
       "examples": [
         "He rattled the shaker for a good ten seconds.",
         "The bar had two shakers going at once.",
-        "Pour it straight out of the shaker through a strainer."
+        "Pour it straight out of the shaker through a strainer.",
+        "Pass me the salt shaker.",
+        "The pepper shaker is clogged again.",
+        "Every table in the diner had matching shakers."
       ],
-      "senses": [],
-      "русский": "шейкер",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A metal container for mixing a cocktail with ice",
+          "body": [
+            "(шейкер)"
+          ],
+          "examples": [
+            "He rattled the shaker for a good ten seconds.",
+            "The bar had two shakers going at once.",
+            "Pour it straight out of the shaker through a strainer."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small container with holes in the top for sprinkling salt or pepper",
+          "body": [
+            "(солонка, перечница)",
+            "---"
+          ],
+          "examples": [
+            "Pass me the salt shaker.",
+            "The pepper shaker is clogged again.",
+            "Every table in the diner had matching shakers."
+          ]
+        }
+      ],
+      "русский": "шейкер; солонка, перечница",
       "plural": "shakers",
       "countability": "countable"
     },
@@ -1080,14 +1226,43 @@
       "term": "pitcher",
       "ipa": "/ˈpɪtʃər/",
       "respell": "PICH-ur",
-      "meaning": "A large container with a handle and a spout for pouring drinks. ---",
+      "meaning": "Pitcher has 2 distinct senses.",
       "examples": [
         "They brought out a pitcher of iced tea.",
         "We ordered a pitcher for the table.",
-        "There are two pitchers of water on the counter."
+        "There are two pitchers of water on the counter.",
+        "Their starting pitcher left in the fifth inning.",
+        "They went through four pitchers in one game.",
+        "He was a pitcher in high school."
       ],
-      "senses": [],
-      "русский": "кувшин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large container with a handle and a spout for pouring drinks",
+          "body": [
+            "(кувшин)"
+          ],
+          "examples": [
+            "They brought out a pitcher of iced tea.",
+            "We ordered a pitcher for the table.",
+            "There are two pitchers of water on the counter."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The baseball player who throws the ball to the batter",
+          "body": [
+            "(питчер, подающий (в бейсболе))",
+            "---"
+          ],
+          "examples": [
+            "Their starting pitcher left in the fifth inning.",
+            "They went through four pitchers in one game.",
+            "He was a pitcher in high school."
+          ]
+        }
+      ],
+      "русский": "кувшин; питчер, подающий (в бейсболе)",
       "plural": "pitchers",
       "countability": "countable",
       "contrast": "Americans say pitcher where the British say jug."
@@ -1232,16 +1407,46 @@
       "term": "straw",
       "ipa": "/strɔː/",
       "respell": "STRAW",
-      "meaning": "A thin tube for drinking from a glass or cup. ---",
+      "meaning": "Straw has 2 distinct senses.",
       "examples": [
         "Can I get a straw with that?",
         "The café switched to paper straws.",
-        "He was chewing on his straw the whole time."
+        "He was chewing on his straw the whole time.",
+        "Spread straw over the new grass seed.",
+        "There was straw all over the bed of the truck.",
+        "The bar switched to paper straws last year."
       ],
-      "senses": [],
-      "русский": "трубочка, соломинка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin tube for drinking from a glass or cup",
+          "body": [
+            "(трубочка, соломинка)"
+          ],
+          "examples": [
+            "Can I get a straw with that?",
+            "The café switched to paper straws.",
+            "He was chewing on his straw the whole time."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The dry stems of grain plants, used for animal bedding and for mulch",
+          "body": [
+            "(солома; трубочка (для питья))",
+            "---"
+          ],
+          "examples": [
+            "Spread straw over the new grass seed.",
+            "There was straw all over the bed of the truck.",
+            "The bar switched to paper straws last year."
+          ]
+        }
+      ],
+      "русский": "трубочка, соломинка; солома; трубочка (для питья)",
       "plural": "straws",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Uncountable as солома, but countable as a drinking straw: Can we get two straws?"
     },
     {
       "term": "coaster",
@@ -1277,16 +1482,46 @@
       "term": "cork",
       "ipa": "/kɔːrk/",
       "respell": "KORK",
-      "meaning": "The stopper in the neck of a wine bottle. ---",
+      "meaning": "Cork has 2 distinct senses.",
       "examples": [
         "The cork broke off in the bottle.",
         "He smelled the cork out of habit.",
-        "She saves the corks in a big jar."
+        "She saves the corks in a big jar.",
+        "The bulletin board is cork.",
+        "The cork broke off in the bottle.",
+        "Save the corks — she's making a wreath out of them."
       ],
-      "senses": [],
-      "русский": "пробка (винная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stopper in the neck of a wine bottle",
+          "body": [
+            "(пробка (винная))"
+          ],
+          "examples": [
+            "The cork broke off in the bottle.",
+            "He smelled the cork out of habit.",
+            "She saves the corks in a big jar."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The light, spongy bark of a certain oak, or a stopper made from it",
+          "body": [
+            "(пробка (материал и затычка))",
+            "---"
+          ],
+          "examples": [
+            "The bulletin board is cork.",
+            "The cork broke off in the bottle.",
+            "Save the corks — she's making a wreath out of them."
+          ]
+        }
+      ],
+      "русский": "пробка (винная); пробка (материал и затычка)",
       "plural": "corks",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Uncountable as the material (a cork floor), countable as a bottle stopper (two corks)."
     },
     {
       "term": "corkscrew",
@@ -1322,14 +1557,43 @@
       "term": "faucet",
       "ipa": "/ˈfɔːsɪt/",
       "respell": "FAW-sit",
-      "meaning": "The fixture that water comes out of at a sink. ---",
+      "meaning": "Faucet has 2 distinct senses.",
       "examples": [
         "He filled the glass straight from the faucet.",
         "The kitchen faucet is dripping again.",
-        "Both faucets need new washers."
+        "Both faucets need new washers.",
+        "The faucet drips all night.",
+        "Turn the faucet off all the way.",
+        "We replaced both bathroom faucets last month."
       ],
-      "senses": [],
-      "русский": "водопроводный кран",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The fixture that water comes out of at a sink",
+          "body": [
+            "(водопроводный кран)"
+          ],
+          "examples": [
+            "He filled the glass straight from the faucet.",
+            "The kitchen faucet is dripping again.",
+            "Both faucets need new washers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fitting you turn to let water out of a pipe",
+          "body": [
+            "(кран (водопроводный))",
+            "---"
+          ],
+          "examples": [
+            "The faucet drips all night.",
+            "Turn the faucet off all the way.",
+            "We replaced both bathroom faucets last month."
+          ]
+        }
+      ],
+      "русский": "водопроводный кран; кран (водопроводный)",
       "plural": "faucets",
       "countability": "countable",
       "contrast": "Americans say faucet; the British say tap."
@@ -1338,13 +1602,42 @@
       "term": "ice",
       "ipa": "/aɪs/",
       "respell": "YSE",
-      "meaning": "Frozen water, added to drinks to make them cold. ---",
+      "meaning": "Ice has 2 distinct senses.",
       "examples": [
         "Can I get that with no ice?",
         "There's ice in the freezer.",
-        "The ice melted and watered down my drink."
+        "The ice melted and watered down my drink.",
+        "The ice on the pond isn't thick enough to walk on.",
+        "Black ice made the bridge dangerous.",
+        "Ice was still floating in the channel in April."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Frozen water, added to drinks to make them cold",
+          "body": [
+            "(лёд)"
+          ],
+          "examples": [
+            "Can I get that with no ice?",
+            "There's ice in the freezer.",
+            "The ice melted and watered down my drink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Water that has frozen solid",
+          "body": [
+            "(лёд)",
+            "---"
+          ],
+          "examples": [
+            "The ice on the pond isn't thick enough to walk on.",
+            "Black ice made the bridge dangerous.",
+            "Ice was still floating in the channel in April."
+          ]
+        }
+      ],
       "русский": "лёд",
       "countability": "uncountable"
     },
@@ -1352,14 +1645,43 @@
       "term": "foam",
       "ipa": "/foʊm/",
       "respell": "FOHM",
-      "meaning": "The layer of tiny bubbles on top of a drink. ---",
+      "meaning": "Foam has 2 distinct senses.",
       "examples": [
         "That beer was mostly foam.",
         "She likes extra foam on her cappuccino.",
-        "Foam spilled over the rim of the glass."
+        "Foam spilled over the rim of the glass.",
+        "The mattress is memory foam.",
+        "Spray foam seals the gaps around the pipes.",
+        "There was two inches of foam on top of the beer."
       ],
-      "senses": [],
-      "русский": "пена",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The layer of tiny bubbles on top of a drink",
+          "body": [
+            "(пена)"
+          ],
+          "examples": [
+            "That beer was mostly foam.",
+            "She likes extra foam on her cappuccino.",
+            "Foam spilled over the rim of the glass."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A light material full of tiny bubbles, either soft padding or a froth on liquid",
+          "body": [
+            "(пена; поролон, пенопласт)",
+            "---"
+          ],
+          "examples": [
+            "The mattress is memory foam.",
+            "Spray foam seals the gaps around the pipes.",
+            "There was two inches of foam on top of the beer."
+          ]
+        }
+      ],
+      "русский": "пена; пена; поролон, пенопласт",
       "countability": "uncountable"
     },
     {

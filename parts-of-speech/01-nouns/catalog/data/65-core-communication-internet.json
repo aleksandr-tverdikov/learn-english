@@ -378,14 +378,43 @@
       "term": "operator",
       "ipa": "/ˈɑːpəreɪtər/",
       "respell": "AH-puh-ray-tur",
-      "meaning": "A person or company that connects or manages phone calls and service. ---",
+      "meaning": "Operator has 2 distinct senses.",
       "examples": [
         "Press zero to reach an operator.",
         "The operator put me through to billing.",
-        "Three operators share the same tower."
+        "Three operators share the same tower.",
+        "The crane operator has been here longer than anyone.",
+        "Two operators watch the control room around the clock.",
+        "Every operator has to be certified."
       ],
-      "senses": [],
-      "русский": "оператор (связи)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person or company that connects or manages phone calls and service",
+          "body": [
+            "(оператор (связи))"
+          ],
+          "examples": [
+            "Press zero to reach an operator.",
+            "The operator put me through to billing.",
+            "Three operators share the same tower."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone whose job is running a machine or a plant",
+          "body": [
+            "(оператор (машины, установки))",
+            "---"
+          ],
+          "examples": [
+            "The crane operator has been here longer than anyone.",
+            "Two operators watch the control room around the clock.",
+            "Every operator has to be certified."
+          ]
+        }
+      ],
+      "русский": "оператор (связи); оператор (машины, установки)",
       "plural": "operators",
       "countability": "countable"
     },
@@ -557,14 +586,43 @@
       "term": "rumor",
       "ipa": "/ˈruːmər/",
       "respell": "ROO-mur",
-      "meaning": "A story people pass around that may not be true. ---",
+      "meaning": "Rumor has 2 distinct senses.",
       "examples": [
         "There's a rumor that the plant is closing.",
         "Rumors spread through the office by lunchtime.",
-        "He heard the rumor from three different people."
+        "He heard the rumor from three different people.",
+        "Rumors of layoffs spread through the plant.",
+        "There's a rumor that the store is closing.",
+        "He denied the rumor on the record."
       ],
-      "senses": [],
-      "русский": "слух",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A story people pass around that may not be true",
+          "body": [
+            "(слух)"
+          ],
+          "examples": [
+            "There's a rumor that the plant is closing.",
+            "Rumors spread through the office by lunchtime.",
+            "He heard the rumor from three different people."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A story that spreads from person to person without being confirmed",
+          "body": [
+            "(слух, молва)",
+            "---"
+          ],
+          "examples": [
+            "Rumors of layoffs spread through the plant.",
+            "There's a rumor that the store is closing.",
+            "He denied the rumor on the record."
+          ]
+        }
+      ],
+      "русский": "слух; слух, молва",
       "plural": "rumors",
       "countability": "countable",
       "contrast": "American spelling rumor; British rumour."

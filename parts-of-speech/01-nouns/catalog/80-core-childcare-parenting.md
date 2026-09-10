@@ -555,6 +555,7 @@ The period when a child's body changes into an adult's.
 **Русский:** детское автокресло
 **Plural:** *car seats*
 **Countability:** countable
+**Contrast:** In American usage a car seat is almost always the child's safety seat, not just any seat in a car.
 
 A padded safety seat that straps a small child into a car.
 
@@ -689,15 +690,23 @@ A wheeled frame with a seat that a baby scoots around in.
 ### sling
 
 **Pronunciation:** /slɪŋ/ &middot; *SLING*
-**Русский:** слинг, перевязь для ношения ребёнка
+**Русский:** слинг, перевязь для ношения ребёнка; перевязь для руки, косыночная повязка
 **Plural:** *slings*
 **Countability:** countable
 
-A wide cloth loop worn over the shoulder to carry a baby.
+Sling has 2 distinct senses.
+
+**1. A wide cloth loop worn over the shoulder to carry a baby.** (слинг, перевязь для ношения ребёнка)
 
 1. She wore the baby in a *sling* all afternoon.
 2. The *sling* leaves both hands free.
 3. Fabric *slings* are easier on your back than you would think.
+
+**2. A cloth loop worn around the neck to support an injured arm.** (перевязь для руки, косыночная повязка)
+
+4. She had her arm in a *sling* for a month.
+5. The *sling* keeps the shoulder from moving.
+6. The clinic gave out *slings* and ice packs.
 
 ---
 
@@ -1644,15 +1653,23 @@ A baby born several weeks early.
 ### incubator
 
 **Pronunciation:** /ˈɪŋkjəbeɪtər/ &middot; *ING-kyuh-bay-tur*
-**Русский:** кувез, инкубатор для новорождённых
+**Русский:** кувез, инкубатор для новорождённых; инкубатор
 **Plural:** *incubators*
 **Countability:** countable
 
-A heated enclosed crib that keeps a very small baby warm.
+Incubator has 2 distinct senses.
+
+**1. A heated enclosed crib that keeps a very small baby warm.** (кувез, инкубатор для новорождённых)
 
 1. She spent three weeks in an *incubator*.
 2. We could only touch him through the *incubator*.
 3. Every *incubator* on the floor was full.
+
+**2. A heated box that keeps eggs at the right temperature until they hatch.** (инкубатор)
+
+4. The eggs stay in the *incubator* for twenty-one days.
+5. He built an *incubator* out of an old cooler.
+6. The *incubators* have to hold a steady temperature.
 
 ---
 

@@ -1245,14 +1245,43 @@
       "term": "cross",
       "ipa": "/krɔːs/",
       "respell": "KRAWSS",
-      "meaning": "An upright shape with a bar across it, the main symbol of Christianity. ---",
+      "meaning": "Cross has 2 distinct senses.",
       "examples": [
         "She wears a small gold cross.",
         "A wooden cross stands on the hill.",
-        "White crosses mark the graves."
+        "White crosses mark the graves.",
+        "Mark the spot with a cross.",
+        "She wears a small silver cross.",
+        "There were two white crosses painted on the door."
       ],
-      "senses": [],
-      "русский": "крест",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An upright shape with a bar across it, the main symbol of Christianity",
+          "body": [
+            "(крест)"
+          ],
+          "examples": [
+            "She wears a small gold cross.",
+            "A wooden cross stands on the hill.",
+            "White crosses mark the graves."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shape made of one line crossing another",
+          "body": [
+            "(крест, крестик)",
+            "---"
+          ],
+          "examples": [
+            "Mark the spot with a cross.",
+            "She wears a small silver cross.",
+            "There were two white crosses painted on the door."
+          ]
+        }
+      ],
+      "русский": "крест; крест, крестик",
       "plural": "crosses",
       "countability": "countable"
     },
@@ -1290,14 +1319,43 @@
       "term": "icon",
       "ipa": "/ˈaɪkɑːn/",
       "respell": "EYE-kahn",
-      "meaning": "A painted religious image, especially in Orthodox churches. ---",
+      "meaning": "Icon has 2 distinct senses.",
       "examples": [
         "An old icon hung in the corner of the room.",
         "The icon is painted on wood with gold leaf.",
-        "The museum holds two hundred Russian icons."
+        "The museum holds two hundred Russian icons.",
+        "Double-click the icon on your desktop.",
+        "The icons are too small to see on this monitor.",
+        "There's a little gear icon for settings."
       ],
-      "senses": [],
-      "русский": "икона",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A painted religious image, especially in Orthodox churches",
+          "body": [
+            "(икона)"
+          ],
+          "examples": [
+            "An old icon hung in the corner of the room.",
+            "The icon is painted on wood with gold leaf.",
+            "The museum holds two hundred Russian icons."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small picture on a screen that stands for a file or program",
+          "body": [
+            "(значок, иконка)",
+            "---"
+          ],
+          "examples": [
+            "Double-click the icon on your desktop.",
+            "The icons are too small to see on this monitor.",
+            "There's a little gear icon for settings."
+          ]
+        }
+      ],
+      "русский": "икона; значок, иконка",
       "plural": "icons",
       "countability": "countable"
     },
@@ -1460,13 +1518,42 @@
       "term": "soul",
       "ipa": "/soʊl/",
       "respell": "SOHL",
-      "meaning": "The spiritual part of a person, believed to live on after death. ---",
+      "meaning": "Soul has 2 distinct senses.",
       "examples": [
         "She prayed for his soul.",
         "There wasn't a soul on the street.",
-        "The old hymn is about lost souls finding their way home."
+        "The old hymn is about lost souls finding their way home.",
+        "He believes the soul outlives the body.",
+        "There wasn't a soul on the beach that morning.",
+        "She poured her whole soul into that painting."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The spiritual part of a person, believed to live on after death",
+          "body": [
+            "(душа)"
+          ],
+          "examples": [
+            "She prayed for his soul.",
+            "There wasn't a soul on the street.",
+            "The old hymn is about lost souls finding their way home."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spiritual part of a person, thought of as separate from the body",
+          "body": [
+            "(душа)",
+            "---"
+          ],
+          "examples": [
+            "He believes the soul outlives the body.",
+            "There wasn't a soul on the beach that morning.",
+            "She poured her whole soul into that painting."
+          ]
+        }
+      ],
       "русский": "душа",
       "plural": "souls",
       "countability": "countable",
@@ -1476,14 +1563,43 @@
       "term": "spirit",
       "ipa": "/ˈspɪrɪt/",
       "respell": "SPIH-rit",
-      "meaning": "A being without a body, or the non-physical part of a person. ---",
+      "meaning": "Spirit has 2 distinct senses.",
       "examples": [
         "They believe a spirit watches over the house.",
         "His body was weak but his spirit wasn't.",
-        "The story is full of forest spirits."
+        "The story is full of forest spirits.",
+        "The team showed real fighting spirit.",
+        "Her spirits lifted once the sun came out.",
+        "The old house is said to have a spirit in the attic."
       ],
-      "senses": [],
-      "русский": "дух",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A being without a body, or the non-physical part of a person",
+          "body": [
+            "(дух)"
+          ],
+          "examples": [
+            "They believe a spirit watches over the house.",
+            "His body was weak but his spirit wasn't.",
+            "The story is full of forest spirits."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's inner energy and attitude, or a being without a body",
+          "body": [
+            "(дух, настрой; настроение)",
+            "---"
+          ],
+          "examples": [
+            "The team showed real fighting spirit.",
+            "Her spirits lifted once the sun came out.",
+            "The old house is said to have a spirit in the attic."
+          ]
+        }
+      ],
+      "русский": "дух; дух, настрой; настроение",
       "plural": "spirits",
       "countability": "countable"
     },
@@ -1856,14 +1972,43 @@
       "term": "devotion",
       "ipa": "/dɪˈvoʊʃən/",
       "respell": "dih-VOH-shuhn",
-      "meaning": "Deep love and loyalty, especially toward a god or a person. ---",
+      "meaning": "Devotion has 2 distinct senses.",
       "examples": [
         "Her devotion to her students was obvious.",
         "The shrine is a place of quiet devotion.",
-        "He cared for his wife with total devotion."
+        "He cared for his wife with total devotion.",
+        "Her devotion to her students was obvious.",
+        "He cared for his father with quiet devotion.",
+        "The fans' devotion survived thirty losing seasons."
       ],
-      "senses": [],
-      "русский": "преданность; набожность",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Deep love and loyalty, especially toward a god or a person",
+          "body": [
+            "(преданность; набожность)"
+          ],
+          "examples": [
+            "Her devotion to her students was obvious.",
+            "The shrine is a place of quiet devotion.",
+            "He cared for his wife with total devotion."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Deep, lasting loyalty and love",
+          "body": [
+            "(преданность)",
+            "---"
+          ],
+          "examples": [
+            "Her devotion to her students was obvious.",
+            "He cared for his father with quiet devotion.",
+            "The fans' devotion survived thirty losing seasons."
+          ]
+        }
+      ],
+      "русский": "преданность; набожность; преданность",
       "countability": "uncountable"
     },
     {
@@ -1914,13 +2059,42 @@
       "term": "temptation",
       "ipa": "/tɛmpˈteɪʃən/",
       "respell": "temp-TAY-shuhn",
-      "meaning": "A strong wish to do something you know is wrong. ---",
+      "meaning": "Temptation has 2 distinct senses.",
       "examples": [
         "He gave in to temptation and bought it anyway.",
         "The story is about resisting temptation.",
-        "The city is full of temptations."
+        "The city is full of temptations.",
+        "I resisted the temptation to hit reply all.",
+        "The dessert cart is a real temptation.",
+        "He gave in to temptation and bought the truck."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong wish to do something you know is wrong",
+          "body": [
+            "(искушение, соблазн)"
+          ],
+          "examples": [
+            "He gave in to temptation and bought it anyway.",
+            "The story is about resisting temptation.",
+            "The city is full of temptations."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The pull toward something you know you should avoid",
+          "body": [
+            "(искушение, соблазн)",
+            "---"
+          ],
+          "examples": [
+            "I resisted the temptation to hit reply all.",
+            "The dessert cart is a real temptation.",
+            "He gave in to temptation and bought the truck."
+          ]
+        }
+      ],
       "русский": "искушение, соблазн",
       "plural": "temptations",
       "countability": "countable"

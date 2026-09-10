@@ -528,14 +528,43 @@
       "term": "coupling",
       "ipa": "/ˈkʌplɪŋ/",
       "respell": "KUP-ling",
-      "meaning": "A short sleeve that joins two lengths of pipe end to end. ---",
+      "meaning": "Coupling has 2 distinct senses.",
       "examples": [
         "Slide a coupling over the cut and solder it.",
         "The coupling started weeping after a month.",
-        "Buy a few extra couplings while you're there."
+        "Buy a few extra couplings while you're there.",
+        "You felt a jolt at every coupling.",
+        "The couplings were checked before the train left the yard.",
+        "Coupling the cars took the crew about twenty minutes."
       ],
-      "senses": [],
-      "русский": "муфта (соединительная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short sleeve that joins two lengths of pipe end to end",
+          "body": [
+            "(муфта (соединительная))"
+          ],
+          "examples": [
+            "Slide a coupling over the cut and solder it.",
+            "The coupling started weeping after a month.",
+            "Buy a few extra couplings while you're there."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The connection between two cars, or the act of joining them",
+          "body": [
+            "(сцепка, сцепное устройство)",
+            "---"
+          ],
+          "examples": [
+            "You felt a jolt at every coupling.",
+            "The couplings were checked before the train left the yard.",
+            "Coupling the cars took the crew about twenty minutes."
+          ]
+        }
+      ],
+      "русский": "муфта (соединительная); сцепка, сцепное устройство",
       "plural": "couplings",
       "countability": "countable"
     },

@@ -296,14 +296,43 @@
       "term": "span",
       "ipa": "/spæn/",
       "respell": "SPAN",
-      "meaning": "The length of time that something lasts or covers. ---",
+      "meaning": "Span has 2 distinct senses.",
       "examples": [
         "She wrote four novels in the span of a year.",
         "His attention span is about ten minutes.",
-        "The study covers a span of two decades."
+        "The study covers a span of two decades.",
+        "The bridge has a span of four hundred feet.",
+        "He measured the span of his hand against the board.",
+        "Both spans of the bridge were rebuilt."
       ],
-      "senses": [],
-      "русский": "промежуток времени, отрезок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The length of time that something lasts or covers",
+          "body": [
+            "(промежуток времени, отрезок)"
+          ],
+          "examples": [
+            "She wrote four novels in the span of a year.",
+            "His attention span is about ten minutes.",
+            "The study covers a span of two decades."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The distance from one end of something to the other",
+          "body": [
+            "(размах, пролёт)",
+            "---"
+          ],
+          "examples": [
+            "The bridge has a span of four hundred feet.",
+            "He measured the span of his hand against the board.",
+            "Both spans of the bridge were rebuilt."
+          ]
+        }
+      ],
+      "русский": "промежуток времени, отрезок; размах, пролёт",
       "plural": "spans",
       "countability": "countable"
     },
@@ -356,14 +385,43 @@
       "term": "term",
       "ipa": "/tɜːrm/",
       "respell": "TURM",
-      "meaning": "A fixed period, such as a school session or a time in office. ---",
+      "meaning": "Term has 2 distinct senses.",
       "examples": [
         "The senator is serving her second term.",
         "Grades come out at the end of the term.",
-        "He signed on for a five-year term."
+        "He signed on for a five-year term.",
+        "A senator's term is six years.",
+        "He is in his second term as mayor.",
+        "Some states limit governors to two terms."
       ],
-      "senses": [],
-      "русский": "срок; семестр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A fixed period, such as a school session or a time in office",
+          "body": [
+            "(срок; семестр)"
+          ],
+          "examples": [
+            "The senator is serving her second term.",
+            "Grades come out at the end of the term.",
+            "He signed on for a five-year term."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fixed period a person serves in an elected office",
+          "body": [
+            "(срок полномочий)",
+            "---"
+          ],
+          "examples": [
+            "A senator's term is six years.",
+            "He is in his second term as mayor.",
+            "Some states limit governors to two terms."
+          ]
+        }
+      ],
+      "русский": "срок; семестр; срок полномочий",
       "plural": "terms",
       "countability": "countable"
     },
@@ -401,14 +459,43 @@
       "term": "session",
       "ipa": "/ˈsɛʃən/",
       "respell": "SESH-uhn",
-      "meaning": "A period spent on one activity, or a formal meeting. ---",
+      "meaning": "Session has 2 distinct senses.",
       "examples": [
         "We booked an hour-long therapy session.",
         "The legislature is in session until June.",
-        "The band recorded three sessions last week."
+        "The band recorded three sessions last week.",
+        "The bill died at the end of the session.",
+        "The governor called a special session.",
+        "Two sessions passed with no action on it."
       ],
-      "senses": [],
-      "русский": "занятие, сеанс; заседание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A period spent on one activity, or a formal meeting",
+          "body": [
+            "(занятие, сеанс; заседание)"
+          ],
+          "examples": [
+            "We booked an hour-long therapy session.",
+            "The legislature is in session until June.",
+            "The band recorded three sessions last week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period during which a legislature or court meets and works",
+          "body": [
+            "(сессия, заседание)",
+            "---"
+          ],
+          "examples": [
+            "The bill died at the end of the session.",
+            "The governor called a special session.",
+            "Two sessions passed with no action on it."
+          ]
+        }
+      ],
+      "русский": "занятие, сеанс; заседание; сессия, заседание",
       "plural": "sessions",
       "countability": "countable"
     },
@@ -416,14 +503,43 @@
       "term": "phase",
       "ipa": "/feɪz/",
       "respell": "FAYZ",
-      "meaning": "One stage in a process of change or development. ---",
+      "meaning": "Phase has 2 distinct senses.",
       "examples": [
         "The project is entering its final phase.",
         "It's just a phase — he'll grow out of it.",
-        "The moon goes through eight phases."
+        "The moon goes through eight phases.",
+        "Water has three phases: solid, liquid, and gas.",
+        "The metal changes phase at that temperature.",
+        "We are still in the first phase of the experiment."
       ],
-      "senses": [],
-      "русский": "фаза, этап",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One stage in a process of change or development",
+          "body": [
+            "(фаза, этап)"
+          ],
+          "examples": [
+            "The project is entering its final phase.",
+            "It's just a phase — he'll grow out of it.",
+            "The moon goes through eight phases."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the forms that matter can take, or one stage of a process",
+          "body": [
+            "(фаза, агрегатное состояние)",
+            "---"
+          ],
+          "examples": [
+            "Water has three phases: solid, liquid, and gas.",
+            "The metal changes phase at that temperature.",
+            "We are still in the first phase of the experiment."
+          ]
+        }
+      ],
+      "русский": "фаза, этап; фаза, агрегатное состояние",
       "plural": "phases",
       "countability": "countable",
       "contrast": "Phase and faze (смущать, выбивать из колеи) sound exactly alike."
@@ -432,14 +548,43 @@
       "term": "stage",
       "ipa": "/steɪdʒ/",
       "respell": "STAYJ",
-      "meaning": "One step in a longer process. ---",
+      "meaning": "Stage has 2 distinct senses.",
       "examples": [
         "The illness was caught at an early stage.",
         "We'll do the remodel in three stages.",
-        "At this stage nothing has been decided."
+        "At this stage nothing has been decided.",
+        "The band walked out on stage at nine.",
+        "She was nervous the first time she stood on a stage.",
+        "The festival has four stages running at once."
       ],
-      "senses": [],
-      "русский": "этап, стадия",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One step in a longer process",
+          "body": [
+            "(этап, стадия)"
+          ],
+          "examples": [
+            "The illness was caught at an early stage.",
+            "We'll do the remodel in three stages.",
+            "At this stage nothing has been decided."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The raised floor where musicians or actors perform",
+          "body": [
+            "(сцена)",
+            "---"
+          ],
+          "examples": [
+            "The band walked out on stage at nine.",
+            "She was nervous the first time she stood on a stage.",
+            "The festival has four stages running at once."
+          ]
+        }
+      ],
+      "русский": "этап, стадия; сцена",
       "plural": "stages",
       "countability": "countable"
     },
@@ -802,14 +947,43 @@
       "term": "festival",
       "ipa": "/ˈfɛstəvəl/",
       "respell": "FES-tuh-vuhl",
-      "meaning": "A time of public celebration with music, food, or performances. ---",
+      "meaning": "Festival has 2 distinct senses.",
       "examples": [
         "The town holds a strawberry festival every June.",
         "We saw three bands at the festival.",
-        "Summer festivals draw big crowds."
+        "Summer festivals draw big crowds.",
+        "The town holds a strawberry festival in June.",
+        "Both festivals were rained out.",
+        "She played at a folk festival in Colorado."
       ],
-      "senses": [],
-      "русский": "фестиваль; народное гулянье",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A time of public celebration with music, food, or performances",
+          "body": [
+            "(фестиваль; народное гулянье)"
+          ],
+          "examples": [
+            "The town holds a strawberry festival every June.",
+            "We saw three bands at the festival.",
+            "Summer festivals draw big crowds."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A public celebration or series of events, often held every year",
+          "body": [
+            "(фестиваль; праздник)",
+            "---"
+          ],
+          "examples": [
+            "The town holds a strawberry festival in June.",
+            "Both festivals were rained out.",
+            "She played at a folk festival in Colorado."
+          ]
+        }
+      ],
+      "русский": "фестиваль; народное гулянье; фестиваль; праздник",
       "plural": "festivals",
       "countability": "countable"
     },
@@ -863,14 +1037,43 @@
       "term": "timeline",
       "ipa": "/ˈtaɪmlaɪn/",
       "respell": "TYM-lyn",
-      "meaning": "A plan or diagram showing when things happen, in order. ---",
+      "meaning": "Timeline has 2 distinct senses.",
       "examples": [
         "Here's the timeline for the renovation.",
         "The timeline lists every event of that year.",
-        "Both timelines end with the same deadline."
+        "Both timelines end with the same deadline.",
+        "It's still on my timeline from last June.",
+        "She cleaned up her timeline before the job interview.",
+        "Their timelines are full of vacation photos."
       ],
-      "senses": [],
-      "русский": "хронология; график по срокам",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A plan or diagram showing when things happen, in order",
+          "body": [
+            "(хронология; график по срокам)"
+          ],
+          "examples": [
+            "Here's the timeline for the renovation.",
+            "The timeline lists every event of that year.",
+            "Both timelines end with the same deadline."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The list of a person's posts shown in the order they were made",
+          "body": [
+            "(лента публикаций, хроника)",
+            "---"
+          ],
+          "examples": [
+            "It's still on my timeline from last June.",
+            "She cleaned up her timeline before the job interview.",
+            "Their timelines are full of vacation photos."
+          ]
+        }
+      ],
+      "русский": "хронология; график по срокам; лента публикаций, хроника",
       "plural": "timelines",
       "countability": "countable"
     },
@@ -1122,14 +1325,58 @@
       "term": "March",
       "ipa": "/mɑːrtʃ/",
       "respell": "MARCH",
-      "meaning": "The third month of the year. ---",
+      "meaning": "March has 3 distinct senses.",
       "examples": [
         "The snow usually melts by March.",
         "We're moving at the end of March.",
-        "Spring break falls in March this year."
+        "Spring break falls in March this year.",
+        "The band played a march down Main Street.",
+        "That march gets played at every graduation.",
+        "Sousa wrote over a hundred marches.",
+        "Thousands joined the march on Saturday morning.",
+        "There have been three marches downtown this month.",
+        "The march ended with speeches on the capitol steps."
       ],
-      "senses": [],
-      "русский": "март",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The third month of the year",
+          "body": [
+            "(март)"
+          ],
+          "examples": [
+            "The snow usually melts by March.",
+            "We're moving at the end of March.",
+            "Spring break falls in March this year."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of music with a strong steady beat, written for marching",
+          "body": [
+            "(марш)"
+          ],
+          "examples": [
+            "The band played a march down Main Street.",
+            "That march gets played at every graduation.",
+            "Sousa wrote over a hundred marches."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "An organized walk by a large group of people to show support for something",
+          "body": [
+            "(марш, шествие)",
+            "---"
+          ],
+          "examples": [
+            "Thousands joined the march on Saturday morning.",
+            "There have been three marches downtown this month.",
+            "The march ended with speeches on the capitol steps."
+          ]
+        }
+      ],
+      "русский": "март; марш; марш, шествие",
       "plural": "Marches",
       "countability": "countable"
     },
@@ -1274,14 +1521,43 @@
       "term": "alarm",
       "ipa": "/əˈlɑːrm/",
       "respell": "uh-LARM",
-      "meaning": "A device or sound that wakes you up or warns you. ---",
+      "meaning": "Alarm has 2 distinct senses.",
       "examples": [
         "My alarm goes off at six.",
         "The fire alarm went off during class.",
-        "He sets three alarms every night."
+        "He sets three alarms every night.",
+        "There is no cause for alarm.",
+        "She looked up in alarm at the sound.",
+        "The numbers caused real alarm at headquarters."
       ],
-      "senses": [],
-      "русский": "будильник; сигнал тревоги",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device or sound that wakes you up or warns you",
+          "body": [
+            "(будильник; сигнал тревоги)"
+          ],
+          "examples": [
+            "My alarm goes off at six.",
+            "The fire alarm went off during class.",
+            "He sets three alarms every night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Worry and fear that something is wrong",
+          "body": [
+            "(тревога, испуг)",
+            "---"
+          ],
+          "examples": [
+            "There is no cause for alarm.",
+            "She looked up in alarm at the sound.",
+            "The numbers caused real alarm at headquarters."
+          ]
+        }
+      ],
+      "русский": "будильник; сигнал тревоги; тревога, испуг",
       "plural": "alarms",
       "countability": "countable"
     },
@@ -1289,13 +1565,42 @@
       "term": "stopwatch",
       "ipa": "/ˈstɑːpwɑːtʃ/",
       "respell": "STAHP-wahch",
-      "meaning": "A watch used to measure exactly how long something takes. ---",
+      "meaning": "Stopwatch has 2 distinct senses.",
       "examples": [
         "The coach timed each lap with a stopwatch.",
         "My phone has a stopwatch built in.",
-        "The two stopwatches showed different times."
+        "The two stopwatches showed different times.",
+        "The coach clicked the stopwatch at the finish line.",
+        "Time each lap with a stopwatch.",
+        "Both stopwatches showed the same split."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A watch used to measure exactly how long something takes",
+          "body": [
+            "(секундомер)"
+          ],
+          "examples": [
+            "The coach timed each lap with a stopwatch.",
+            "My phone has a stopwatch built in.",
+            "The two stopwatches showed different times."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A watch that can be started and stopped to time an event exactly",
+          "body": [
+            "(секундомер)",
+            "---"
+          ],
+          "examples": [
+            "The coach clicked the stopwatch at the finish line.",
+            "Time each lap with a stopwatch.",
+            "Both stopwatches showed the same split."
+          ]
+        }
+      ],
       "русский": "секундомер",
       "plural": "stopwatches",
       "countability": "countable"
@@ -1350,14 +1655,43 @@
       "term": "dial",
       "ipa": "/ˈdaɪəl/",
       "respell": "DY-uhl",
-      "meaning": "The marked face of a clock or a round control you turn. ---",
+      "meaning": "Dial has 2 distinct senses.",
       "examples": [
         "The watch has a plain black dial.",
         "Turn the dial to set the oven.",
-        "The old radio had two dials on the front."
+        "The old radio had two dials on the front.",
+        "The dial on the oven goes up to 500.",
+        "Turn the dial one notch to the right.",
+        "The old radio had two dials."
       ],
-      "senses": [],
-      "русский": "циферблат; круглый регулятор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The marked face of a clock or a round control you turn",
+          "body": [
+            "(циферблат; круглый регулятор)"
+          ],
+          "examples": [
+            "The watch has a plain black dial.",
+            "Turn the dial to set the oven.",
+            "The old radio had two dials on the front."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A round face with numbers on it that shows a reading or sets a level",
+          "body": [
+            "(циферблат, шкала; регулятор)",
+            "---"
+          ],
+          "examples": [
+            "The dial on the oven goes up to 500.",
+            "Turn the dial one notch to the right.",
+            "The old radio had two dials."
+          ]
+        }
+      ],
+      "русский": "циферблат; круглый регулятор; циферблат, шкала; регулятор",
       "plural": "dials",
       "countability": "countable"
     },
@@ -1680,13 +2014,42 @@
       "term": "curfew",
       "ipa": "/ˈkɜːrfjuː/",
       "respell": "KUR-fyoo",
-      "meaning": "A rule requiring people to be home or off the streets by a set time. ---",
+      "meaning": "Curfew has 2 distinct senses.",
       "examples": [
         "My curfew was eleven o'clock in high school.",
         "The city set a curfew after the flooding.",
-        "Both towns lifted their curfews last week."
+        "Both towns lifted their curfews last week.",
+        "The city imposed a nine o'clock curfew.",
+        "He was arrested for breaking curfew.",
+        "Curfews stayed in place for a week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A rule requiring people to be home or off the streets by a set time",
+          "body": [
+            "(комендантский час)"
+          ],
+          "examples": [
+            "My curfew was eleven o'clock in high school.",
+            "The city set a curfew after the flooding.",
+            "Both towns lifted their curfews last week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An official order that people must be off the streets after a certain hour",
+          "body": [
+            "(комендантский час)",
+            "---"
+          ],
+          "examples": [
+            "The city imposed a nine o'clock curfew.",
+            "He was arrested for breaking curfew.",
+            "Curfews stayed in place for a week."
+          ]
+        }
+      ],
       "русский": "комендантский час",
       "plural": "curfews",
       "countability": "countable"
@@ -1808,16 +2171,46 @@
       "term": "youth",
       "ipa": "/juːθ/",
       "respell": "YOOTH",
-      "meaning": "The time when someone is young, or, as a countable noun, a young person. ---",
+      "meaning": "Youth has 2 distinct senses.",
       "examples": [
         "He played guitar in his youth.",
         "Three youths were seen leaving the store.",
-        "The program keeps youth out of trouble after school."
+        "The program keeps youth out of trouble after school.",
+        "He spent his youth on a farm in Iowa.",
+        "Two youths were questioned by police.",
+        "The program serves inner-city youth."
       ],
-      "senses": [],
-      "русский": "юность; молодой человек",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The time when someone is young, or, as a countable noun, a young person",
+          "body": [
+            "(юность; молодой человек)"
+          ],
+          "examples": [
+            "He played guitar in his youth.",
+            "Three youths were seen leaving the store.",
+            "The program keeps youth out of trouble after school."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The time of being young, or a young person, usually a young man",
+          "body": [
+            "(молодость; молодёжь; юноша)",
+            "---"
+          ],
+          "examples": [
+            "He spent his youth on a farm in Iowa.",
+            "Two youths were questioned by police.",
+            "The program serves inner-city youth."
+          ]
+        }
+      ],
+      "русский": "юность; молодой человек; молодость; молодёжь; юноша",
       "plural": "youths",
-      "countability": "both — countable and uncountable with different meanings"
+      "countability": "both — countable and uncountable with different meanings",
+      "contrast": "Uncountable for the time of life (in my youth); countable for a young man (three youths)."
     },
     {
       "term": "adulthood",
@@ -1968,14 +2361,58 @@
       "term": "frequency",
       "ipa": "/ˈfriːkwənsi/",
       "respell": "FREE-kwuhn-see",
-      "meaning": "How often something happens. ---",
+      "meaning": "Frequency has 3 distinct senses.",
       "examples": [
         "The storms are increasing in frequency.",
         "He calls home with surprising frequency.",
-        "The frequency of the meetings dropped to once a month."
+        "The frequency of the meetings dropped to once a month.",
+        "The station broadcasts on a low frequency.",
+        "Raise the frequency of the readings to once a minute.",
+        "Different frequencies travel different distances.",
+        "The station broadcasts on a low frequency.",
+        "Emergency crews use their own frequencies.",
+        "Turn the dial until you find the right frequency."
       ],
-      "senses": [],
-      "русский": "частота (повторения)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "How often something happens",
+          "body": [
+            "(частота (повторения))"
+          ],
+          "examples": [
+            "The storms are increasing in frequency.",
+            "He calls home with surprising frequency.",
+            "The frequency of the meetings dropped to once a month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The number of times something repeats in a given period",
+          "body": [
+            "(частота)"
+          ],
+          "examples": [
+            "The station broadcasts on a low frequency.",
+            "Raise the frequency of the readings to once a minute.",
+            "Different frequencies travel different distances."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "The particular rate of radio waves a station or device uses",
+          "body": [
+            "(частота)",
+            "---"
+          ],
+          "examples": [
+            "The station broadcasts on a low frequency.",
+            "Emergency crews use their own frequencies.",
+            "Turn the dial until you find the right frequency."
+          ]
+        }
+      ],
+      "русский": "частота (повторения); частота",
       "countability": "uncountable"
     },
     {
@@ -2232,14 +2669,42 @@
       "term": "probation",
       "ipa": "/proʊˈbeɪʃən/",
       "respell": "proh-BAY-shuhn",
-      "meaning": "A trial period at a new job, or supervision ordered instead of prison.",
+      "meaning": "Probation has 2 distinct senses.",
       "examples": [
         "New hires are on probation for ninety days.",
         "He got two years of probation instead of jail.",
-        "She finished her probation without a single complaint."
+        "She finished her probation without a single complaint.",
+        "He got two years of probation instead of jail.",
+        "She's still on probation.",
+        "A second offense would end his probation."
       ],
-      "senses": [],
-      "русский": "испытательный срок",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A trial period at a new job, or supervision ordered instead of prison",
+          "body": [
+            "(испытательный срок)"
+          ],
+          "examples": [
+            "New hires are on probation for ninety days.",
+            "He got two years of probation instead of jail.",
+            "She finished her probation without a single complaint."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A period during which an offender stays out of prison under supervision",
+          "body": [
+            "(условный срок, испытательный срок)"
+          ],
+          "examples": [
+            "He got two years of probation instead of jail.",
+            "She's still on probation.",
+            "A second offense would end his probation."
+          ]
+        }
+      ],
+      "русский": "испытательный срок; условный срок, испытательный срок",
       "countability": "uncountable"
     }
   ]

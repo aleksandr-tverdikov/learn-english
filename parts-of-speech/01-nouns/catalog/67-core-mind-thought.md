@@ -526,15 +526,23 @@ A particular quality that forms part of someone's character.
 ### identity
 
 **Pronunciation:** /aɪˈdɛntəti/ &middot; *eye-DEN-tuh-tee*
-**Русский:** личность; самосознание
+**Русский:** личность; самосознание; идентичность, самосознание; личность
 **Plural:** *identities*
 **Countability:** countable
 
-Who a person is, or the sense of belonging that shapes that.
+Identity has 2 distinct senses.
+
+**1. Who a person is, or the sense of belonging that shapes that.** (личность; самосознание)
 
 1. The thief stole her *identity* and opened three cards.
 2. Teenagers are busy forming their *identities*.
 3. Baseball is part of the town's *identity*.
+
+**2. Who a person is, or the qualities that make a group distinct.** (идентичность, самосознание; личность)
+
+4. Language is a big part of national *identity*.
+5. Someone stole his *identity* and opened three credit cards.
+6. Teenagers try on different *identities*.
 
 ---
 
@@ -898,15 +906,24 @@ The condition of having a healthy, sound mind.
 ### nap
 
 **Pronunciation:** /næp/ &middot; *NAP*
-**Русский:** короткий сон, дремота
+**Русский:** короткий сон, дремота; ворс (на ткани)
 **Plural:** *naps*
 **Countability:** countable
+**Contrast:** Same spelling as *nap*, a short sleep — the fabric sense is uncountable.
 
-A short sleep, usually during the day.
+Nap has 2 distinct senses.
+
+**1. A short sleep, usually during the day.** (короткий сон, дремота)
 
 1. I took a twenty-minute *nap* after lunch.
 2. The baby still takes two *naps* a day.
 3. A quick *nap* fixed my headache.
+
+**2. The short raised fibers on the surface of velvet, suede, or corduroy.** (ворс (на ткани))
+
+4. Cut all the pieces with the *nap* running the same way.
+5. Brush the *nap* back up with a soft cloth.
+6. Velvet looks darker against the *nap*.
 
 ---
 

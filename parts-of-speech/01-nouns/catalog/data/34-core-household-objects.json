@@ -36,13 +36,42 @@
       "term": "bleach",
       "ipa": "/bliːtʃ/",
       "respell": "BLEECH",
-      "meaning": "A strong chemical that whitens fabric and kills germs. ---",
+      "meaning": "Bleach has 2 distinct senses.",
       "examples": [
         "She cleaned the tub with bleach.",
         "Never mix bleach with other cleaners.",
-        "A little bleach took the stain right out."
+        "A little bleach took the stain right out.",
+        "A little bleach will get that stain out.",
+        "Never mix bleach with ammonia.",
+        "The whole kitchen smelled like bleach."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong chemical that whitens fabric and kills germs",
+          "body": [
+            "(отбеливатель, хлорка)"
+          ],
+          "examples": [
+            "She cleaned the tub with bleach.",
+            "Never mix bleach with other cleaners.",
+            "A little bleach took the stain right out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strong chemical liquid used to whiten cloth and kill germs",
+          "body": [
+            "(отбеливатель, хлорка)",
+            "---"
+          ],
+          "examples": [
+            "A little bleach will get that stain out.",
+            "Never mix bleach with ammonia.",
+            "The whole kitchen smelled like bleach."
+          ]
+        }
+      ],
       "русский": "отбеливатель, хлорка",
       "countability": "uncountable"
     },
@@ -156,14 +185,43 @@
       "term": "dirt",
       "ipa": "/dɜːrt/",
       "respell": "DURT",
-      "meaning": "Dust, mud, or soil that makes something unclean. ---",
+      "meaning": "Dirt has 2 distinct senses.",
       "examples": [
         "There's dirt all over the kitchen floor.",
         "Wipe your boots — you're tracking in dirt.",
-        "The dirt washed right off."
+        "The dirt washed right off.",
+        "The kids came in with dirt all over their knees.",
+        "He turned over the dirt with a shovel.",
+        "Rain turned the dirt to mud within an hour."
       ],
-      "senses": [],
-      "русский": "грязь; земля",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Dust, mud, or soil that makes something unclean",
+          "body": [
+            "(грязь; земля)"
+          ],
+          "examples": [
+            "There's dirt all over the kitchen floor.",
+            "Wipe your boots — you're tracking in dirt.",
+            "The dirt washed right off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Loose earth or soil, especially the kind that makes things dirty",
+          "body": [
+            "(земля, грязь)",
+            "---"
+          ],
+          "examples": [
+            "The kids came in with dirt all over their knees.",
+            "He turned over the dirt with a shovel.",
+            "Rain turned the dirt to mud within an hour."
+          ]
+        }
+      ],
+      "русский": "грязь; земля; земля, грязь",
       "countability": "uncountable"
     },
     {
@@ -245,14 +303,43 @@
       "term": "comb",
       "ipa": "/koʊm/",
       "respell": "KOHM",
-      "meaning": "A flat tool with teeth for tidying hair. ---",
+      "meaning": "Comb has 2 distinct senses.",
       "examples": [
         "He ran a comb through his hair.",
         "There's a comb in the top drawer.",
-        "The combs were still in the package."
+        "The combs were still in the package.",
+        "The rooster's comb is bright red.",
+        "Frostbite can damage a hen's comb.",
+        "Different breeds have very different combs."
       ],
-      "senses": [],
-      "русский": "расчёска, гребень",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat tool with teeth for tidying hair",
+          "body": [
+            "(расчёска, гребень)"
+          ],
+          "examples": [
+            "He ran a comb through his hair.",
+            "There's a comb in the top drawer.",
+            "The combs were still in the package."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The red fleshy growth on top of a chicken's head",
+          "body": [
+            "(гребень (у петуха))",
+            "---"
+          ],
+          "examples": [
+            "The rooster's comb is bright red.",
+            "Frostbite can damage a hen's comb.",
+            "Different breeds have very different combs."
+          ]
+        }
+      ],
+      "русский": "расчёска, гребень; гребень (у петуха)",
       "plural": "combs",
       "countability": "countable",
       "contrast": "The b is silent: KOHM."
@@ -276,14 +363,43 @@
       "term": "fan",
       "ipa": "/fæn/",
       "respell": "FAN",
-      "meaning": "A device with turning blades that moves air. ---",
+      "meaning": "Fan has 2 distinct senses.",
       "examples": [
         "Turn the ceiling fan on.",
         "The fan barely moves the air in here.",
-        "We ran two fans all night."
+        "We ran two fans all night.",
+        "I've been a fan since I was a kid.",
+        "Thousands of fans showed up in the rain.",
+        "He's a huge hockey fan."
       ],
-      "senses": [],
-      "русский": "вентилятор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device with turning blades that moves air",
+          "body": [
+            "(вентилятор)"
+          ],
+          "examples": [
+            "Turn the ceiling fan on.",
+            "The fan barely moves the air in here.",
+            "We ran two fans all night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who follows and supports a team, player, or sport",
+          "body": [
+            "(болельщик, фанат)",
+            "---"
+          ],
+          "examples": [
+            "I've been a fan since I was a kid.",
+            "Thousands of fans showed up in the rain.",
+            "He's a huge hockey fan."
+          ]
+        }
+      ],
+      "русский": "вентилятор; болельщик, фанат",
       "plural": "fans",
       "countability": "countable"
     },
@@ -460,14 +576,43 @@
       "term": "tape",
       "ipa": "/teɪp/",
       "respell": "TAYP",
-      "meaning": "Sticky material sold in rolls; a tape is also a cassette recording. ---",
+      "meaning": "Tape has 2 distinct senses.",
       "examples": [
         "Hand me the tape — this box won't stay shut.",
         "He patched the hose with duct tape.",
-        "She still has a box of old cassette tapes."
+        "She still has a box of old cassette tapes.",
+        "Wrap the joint with plumber's tape.",
+        "Hand me the roll of tape.",
+        "I keep three kinds of tape in the drawer."
       ],
-      "senses": [],
-      "русский": "клейкая лента, скотч",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Sticky material sold in rolls; a tape is also a cassette recording",
+          "body": [
+            "(клейкая лента, скотч)"
+          ],
+          "examples": [
+            "Hand me the tape — this box won't stay shut.",
+            "He patched the hose with duct tape.",
+            "She still has a box of old cassette tapes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A narrow strip with glue on one side, used to stick or seal things",
+          "body": [
+            "(лента, скотч)",
+            "---"
+          ],
+          "examples": [
+            "Wrap the joint with plumber's tape.",
+            "Hand me the roll of tape.",
+            "I keep three kinds of tape in the drawer."
+          ]
+        }
+      ],
+      "русский": "клейкая лента, скотч; лента, скотч",
       "plural": "tapes",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -489,14 +634,43 @@
       "term": "thread",
       "ipa": "/θrɛd/",
       "respell": "THRED",
-      "meaning": "A thin strand used for sewing. ---",
+      "meaning": "Thread has 2 distinct senses.",
       "examples": [
         "Do you have any black thread?",
         "A loose thread was hanging off his sleeve.",
-        "She keeps spools of thread in an old tin."
+        "She keeps spools of thread in an old tin.",
+        "The thread on this bolt is stripped.",
+        "Clean the threads before you screw it back in.",
+        "Wrap the thread with tape so the joint doesn't leak."
       ],
-      "senses": [],
-      "русский": "нитка, нить",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin strand used for sewing",
+          "body": [
+            "(нитка, нить)"
+          ],
+          "examples": [
+            "Do you have any black thread?",
+            "A loose thread was hanging off his sleeve.",
+            "She keeps spools of thread in an old tin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The spiral ridge that runs around a screw or bolt",
+          "body": [
+            "(резьба (винтовая); нить)",
+            "---"
+          ],
+          "examples": [
+            "The thread on this bolt is stripped.",
+            "Clean the threads before you screw it back in.",
+            "Wrap the thread with tape so the joint doesn't leak."
+          ]
+        }
+      ],
+      "русский": "нитка, нить; резьба (винтовая); нить",
       "plural": "threads",
       "countability": "countable, and uncountable as a substance",
       "contrast": "Rhymes with red, not with reed."
@@ -505,14 +679,58 @@
       "term": "button",
       "ipa": "/ˈbʌtən/",
       "respell": "BUHT-uhn",
-      "meaning": "A small disk that fastens clothing, or a control you press. ---",
+      "meaning": "Button has 3 distinct senses.",
       "examples": [
         "A button came off my shirt.",
         "He pressed the button on the microwave.",
-        "She sewed the buttons back on."
+        "She sewed the buttons back on.",
+        "A button came off my shirt this morning.",
+        "She sewed the button back on in two minutes.",
+        "The coat has big wooden buttons.",
+        "A button came off my coat on the way in.",
+        "She sewed the button back on in two minutes.",
+        "This shirt is missing two buttons."
       ],
-      "senses": [],
-      "русский": "пуговица; кнопка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small disk that fastens clothing, or a control you press",
+          "body": [
+            "(пуговица; кнопка)"
+          ],
+          "examples": [
+            "A button came off my shirt.",
+            "He pressed the button on the microwave.",
+            "She sewed the buttons back on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small round fastener that fits through a hole to hold a garment closed",
+          "body": [
+            "(пуговица)"
+          ],
+          "examples": [
+            "A button came off my shirt this morning.",
+            "She sewed the button back on in two minutes.",
+            "The coat has big wooden buttons."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A small disc sewn to clothing that fastens through a hole",
+          "body": [
+            "(пуговица)",
+            "---"
+          ],
+          "examples": [
+            "A button came off my coat on the way in.",
+            "She sewed the button back on in two minutes.",
+            "This shirt is missing two buttons."
+          ]
+        }
+      ],
+      "русский": "пуговица; кнопка; пуговица",
       "plural": "buttons",
       "countability": "countable"
     },

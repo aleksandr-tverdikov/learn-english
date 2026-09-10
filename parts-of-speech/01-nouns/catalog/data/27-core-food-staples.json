@@ -158,14 +158,43 @@
       "term": "course",
       "ipa": "/kɔːrs/",
       "respell": "KORS",
-      "meaning": "One of the separate parts of a meal, served one after another. ---",
+      "meaning": "Course has 2 distinct senses.",
       "examples": [
         "The main course was salmon.",
         "Dinner was three courses and took two hours.",
-        "Soup came first, then the fish course."
+        "Soup came first, then the fish course.",
+        "The main course was salmon.",
+        "Dinner was five courses and took three hours.",
+        "We skipped the dessert course."
       ],
-      "senses": [],
-      "русский": "блюдо (в составе обеда), подача",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the separate parts of a meal, served one after another",
+          "body": [
+            "(блюдо (в составе обеда), подача)"
+          ],
+          "examples": [
+            "The main course was salmon.",
+            "Dinner was three courses and took two hours.",
+            "Soup came first, then the fish course."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One part of a meal served separately from the others",
+          "body": [
+            "(блюдо (в составе обеда: первое, второе))",
+            "---"
+          ],
+          "examples": [
+            "The main course was salmon.",
+            "Dinner was five courses and took three hours.",
+            "We skipped the dessert course."
+          ]
+        }
+      ],
+      "русский": "блюдо (в составе обеда), подача; блюдо (в составе обеда: первое, второе)",
       "plural": "courses",
       "countability": "countable",
       "contrast": "Sounds exactly like coarse (грубый) — only the spelling differs."
@@ -174,14 +203,43 @@
       "term": "dish",
       "ipa": "/dɪʃ/",
       "respell": "DISH",
-      "meaning": "A particular kind of prepared food. ---",
+      "meaning": "Dish has 2 distinct senses.",
       "examples": [
         "Lasagna is her signature dish.",
         "Each of us brought a dish to the potluck.",
-        "The menu has a few vegetarian dishes."
+        "The menu has a few vegetarian dishes.",
+        "Whose turn is it to do the dishes?",
+        "He served the pasta in a shallow dish.",
+        "Just leave the dish to soak."
       ],
-      "senses": [],
-      "русский": "блюдо (кушанье)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular kind of prepared food",
+          "body": [
+            "(блюдо (кушанье))"
+          ],
+          "examples": [
+            "Lasagna is her signature dish.",
+            "Each of us brought a dish to the potluck.",
+            "The menu has a few vegetarian dishes."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A shallow container for serving or eating food",
+          "body": [
+            "(тарелка, блюдо)",
+            "---"
+          ],
+          "examples": [
+            "Whose turn is it to do the dishes?",
+            "He served the pasta in a shallow dish.",
+            "Just leave the dish to soak."
+          ]
+        }
+      ],
+      "русский": "блюдо (кушанье); тарелка, блюдо",
       "plural": "dishes",
       "countability": "countable"
     },
@@ -313,14 +371,43 @@
       "term": "staple",
       "ipa": "/ˈsteɪpl/",
       "respell": "STAY-puhl",
-      "meaning": "A basic food that people eat regularly and depend on. ---",
+      "meaning": "Staple has 2 distinct senses.",
       "examples": [
         "Rice is a staple in half the world.",
         "Bread and potatoes were the staples of his childhood.",
-        "Beans are a cheap staple."
+        "Beans are a cheap staple.",
+        "The wire is held down with a staple.",
+        "He drove a staple right through the cable.",
+        "Use fence staples to hold the wire to the post."
       ],
-      "senses": [],
-      "русский": "основной продукт питания",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A basic food that people eat regularly and depend on",
+          "body": [
+            "(основной продукт питания)"
+          ],
+          "examples": [
+            "Rice is a staple in half the world.",
+            "Bread and potatoes were the staples of his childhood.",
+            "Beans are a cheap staple."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short U-shaped piece of wire driven in to hold something down",
+          "body": [
+            "(скоба (крепёжная))",
+            "---"
+          ],
+          "examples": [
+            "The wire is held down with a staple.",
+            "He drove a staple right through the cable.",
+            "Use fence staples to hold the wire to the post."
+          ]
+        }
+      ],
+      "русский": "основной продукт питания; скоба (крепёжная)",
       "plural": "staples",
       "countability": "countable"
     },
@@ -343,13 +430,42 @@
       "term": "wheat",
       "ipa": "/wiːt/",
       "respell": "WEET",
-      "meaning": "A grain used to make most bread and pasta. ---",
+      "meaning": "Wheat has 2 distinct senses.",
       "examples": [
         "This bread is made from whole wheat.",
         "Wheat prices went up again.",
-        "She can't eat wheat."
+        "She can't eat wheat.",
+        "Miles of wheat on both sides of the highway.",
+        "The wheat came in early this year.",
+        "This bread is half wheat and half rye."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A grain used to make most bread and pasta",
+          "body": [
+            "(пшеница)"
+          ],
+          "examples": [
+            "This bread is made from whole wheat.",
+            "Wheat prices went up again.",
+            "She can't eat wheat."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A grass grown for its grain, which is ground into flour",
+          "body": [
+            "(пшеница)",
+            "---"
+          ],
+          "examples": [
+            "Miles of wheat on both sides of the highway.",
+            "The wheat came in early this year.",
+            "This bread is half wheat and half rye."
+          ]
+        }
+      ],
       "русский": "пшеница",
       "countability": "uncountable"
     },
@@ -478,14 +594,43 @@
       "term": "dough",
       "ipa": "/doʊ/",
       "respell": "DOH",
-      "meaning": "A thick mixture of flour and liquid that is baked into bread. ---",
+      "meaning": "Dough has 2 distinct senses.",
       "examples": [
         "Let the dough rise for an hour.",
         "The dough was too sticky to work with.",
-        "She rolled the dough into a ball."
+        "She rolled the dough into a ball.",
+        "Let the dough rise for an hour.",
+        "The dough is too sticky — add a little more flour.",
+        "She rolled the dough out thin."
       ],
-      "senses": [],
-      "русский": "тесто",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick mixture of flour and liquid that is baked into bread",
+          "body": [
+            "(тесто)"
+          ],
+          "examples": [
+            "Let the dough rise for an hour.",
+            "The dough was too sticky to work with.",
+            "She rolled the dough into a ball."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick mixture of flour and liquid, kneaded before baking",
+          "body": [
+            "(тесто (густое))",
+            "---"
+          ],
+          "examples": [
+            "Let the dough rise for an hour.",
+            "The dough is too sticky — add a little more flour.",
+            "She rolled the dough out thin."
+          ]
+        }
+      ],
+      "русский": "тесто; тесто (густое)",
       "countability": "uncountable",
       "contrast": "The ough is a plain OH — DOH, exactly like doe."
     },
@@ -507,14 +652,43 @@
       "term": "toast",
       "ipa": "/toʊst/",
       "respell": "TOHST",
-      "meaning": "Bread that has been browned by heat. ---",
+      "meaning": "Toast has 2 distinct senses.",
       "examples": [
         "Two slices of toast, please.",
         "The toast burned while I was on the phone.",
-        "She had toast with jam for breakfast."
+        "She had toast with jam for breakfast.",
+        "Her brother gave the toast at the wedding.",
+        "Let's raise a glass and make a toast.",
+        "There were three toasts before the food came out."
       ],
-      "senses": [],
-      "русский": "тост, поджаренный хлеб",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Bread that has been browned by heat",
+          "body": [
+            "(тост, поджаренный хлеб)"
+          ],
+          "examples": [
+            "Two slices of toast, please.",
+            "The toast burned while I was on the phone.",
+            "She had toast with jam for breakfast."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short speech made before everyone drinks together",
+          "body": [
+            "(тост (за здоровье))",
+            "---"
+          ],
+          "examples": [
+            "Her brother gave the toast at the wedding.",
+            "Let's raise a glass and make a toast.",
+            "There were three toasts before the food came out."
+          ]
+        }
+      ],
+      "русский": "тост, поджаренный хлеб; тост (за здоровье)",
       "countability": "uncountable",
       "contrast": "Uncountable — a piece of toast, never a toast. A toast means тост-здравица."
     },
@@ -797,13 +971,42 @@
       "term": "egg",
       "ipa": "/ɛɡ/",
       "respell": "EG",
-      "meaning": "The oval object laid by a hen, eaten as food. ---",
+      "meaning": "Egg has 2 distinct senses.",
       "examples": [
         "How do you want your eggs?",
         "The recipe calls for two eggs.",
-        "He cracked an egg into the pan."
+        "He cracked an egg into the pan.",
+        "The hen laid an egg in the corner of the coop.",
+        "There were four blue eggs in the nest.",
+        "The egg hatched sometime overnight."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The oval object laid by a hen, eaten as food",
+          "body": [
+            "(яйцо)"
+          ],
+          "examples": [
+            "How do you want your eggs?",
+            "The recipe calls for two eggs.",
+            "He cracked an egg into the pan."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The round object with a shell that a bird lays and a chick grows inside",
+          "body": [
+            "(яйцо)",
+            "---"
+          ],
+          "examples": [
+            "The hen laid an egg in the corner of the coop.",
+            "There were four blue eggs in the nest.",
+            "The egg hatched sometime overnight."
+          ]
+        }
+      ],
       "русский": "яйцо",
       "plural": "eggs",
       "countability": "countable"
@@ -1001,13 +1204,42 @@
       "term": "spice",
       "ipa": "/spaɪs/",
       "respell": "SPYS",
-      "meaning": "A strong-tasting dried part of a plant used to flavor food. ---",
+      "meaning": "Spice has 2 distinct senses.",
       "examples": [
         "The spices are in the cabinet by the stove.",
         "Cinnamon is my favorite spice.",
-        "This curry has too much spice for me."
+        "This curry has too much spice for me.",
+        "Add the spices and let them toast for a minute.",
+        "Cinnamon is the only spice in it.",
+        "There's not enough spice in this."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong-tasting dried part of a plant used to flavor food",
+          "body": [
+            "(специя, пряность)"
+          ],
+          "examples": [
+            "The spices are in the cabinet by the stove.",
+            "Cinnamon is my favorite spice.",
+            "This curry has too much spice for me."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strongly flavored substance from a plant, used in cooking",
+          "body": [
+            "(специя, пряность)",
+            "---"
+          ],
+          "examples": [
+            "Add the spices and let them toast for a minute.",
+            "Cinnamon is the only spice in it.",
+            "There's not enough spice in this."
+          ]
+        }
+      ],
       "русский": "специя, пряность",
       "plural": "spices",
       "countability": "countable, and uncountable as a substance"
@@ -1046,16 +1278,46 @@
       "term": "pepper",
       "ipa": "/ˈpɛpər/",
       "respell": "PEP-ur",
-      "meaning": "A hot-tasting powder used to season food, or a hollow vegetable of the same name. ---",
+      "meaning": "Pepper has 2 distinct senses.",
       "examples": [
         "Add salt and pepper to taste.",
         "She stuffed three peppers with rice.",
-        "There's too much pepper in this soup."
+        "There's too much pepper in this soup.",
+        "Add salt and pepper to taste.",
+        "Stuff the peppers with rice and beans.",
+        "That green pepper has gone soft."
       ],
-      "senses": [],
-      "русский": "перец",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A hot-tasting powder used to season food, or a hollow vegetable of the same name",
+          "body": [
+            "(перец)"
+          ],
+          "examples": [
+            "Add salt and pepper to taste.",
+            "She stuffed three peppers with rice.",
+            "There's too much pepper in this soup."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A hollow vegetable in green, red, or yellow, or the ground spice made from dried berries",
+          "body": [
+            "(перец (стручковый; молотый))",
+            "---"
+          ],
+          "examples": [
+            "Add salt and pepper to taste.",
+            "Stuff the peppers with rice and beans.",
+            "That green pepper has gone soft."
+          ]
+        }
+      ],
+      "русский": "перец; перец (стручковый; молотый)",
       "plural": "peppers",
-      "countability": "both — countable and uncountable with different meanings"
+      "countability": "both — countable and uncountable with different meanings",
+      "contrast": "Countable as the vegetable (two peppers), uncountable as the spice (some pepper)."
     },
     {
       "term": "seasoning",
@@ -1075,14 +1337,43 @@
       "term": "flavor",
       "ipa": "/ˈfleɪvər/",
       "respell": "FLAY-vur",
-      "meaning": "The particular taste of a food or drink. ---",
+      "meaning": "Flavor has 2 distinct senses.",
       "examples": [
         "This soup has no flavor at all.",
         "They have thirty-one flavors of ice cream.",
-        "The flavor gets stronger as it sits."
+        "The flavor gets stronger as it sits.",
+        "This sauce has no flavor at all.",
+        "They had twelve flavors of ice cream.",
+        "Roasting brings out the flavor of the vegetables."
       ],
-      "senses": [],
-      "русский": "вкус, привкус",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The particular taste of a food or drink",
+          "body": [
+            "(вкус, привкус)"
+          ],
+          "examples": [
+            "This soup has no flavor at all.",
+            "They have thirty-one flavors of ice cream.",
+            "The flavor gets stronger as it sits."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "How something tastes, or one variety of a food sold in several tastes",
+          "body": [
+            "(вкус, привкус; сорт (мороженого и т. п.))",
+            "---"
+          ],
+          "examples": [
+            "This sauce has no flavor at all.",
+            "They had twelve flavors of ice cream.",
+            "Roasting brings out the flavor of the vegetables."
+          ]
+        }
+      ],
+      "русский": "вкус, привкус; вкус, привкус; сорт (мороженого и т. п.)",
       "plural": "flavors",
       "countability": "countable, and uncountable as a substance",
       "contrast": "American spelling flavor; British flavour."
@@ -1106,13 +1397,42 @@
       "term": "beef",
       "ipa": "/biːf/",
       "respell": "BEEF",
-      "meaning": "Meat from a cow. ---",
+      "meaning": "Beef has 2 distinct senses.",
       "examples": [
         "This stew takes about two pounds of beef.",
         "Ground beef is cheaper this week.",
-        "He gave up beef years ago."
+        "He gave up beef years ago.",
+        "We grill beef about once a week in the summer.",
+        "This stew tastes better with beef than with chicken.",
+        "The price of beef has gone up again."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Meat from a cow",
+          "body": [
+            "(говядина)"
+          ],
+          "examples": [
+            "This stew takes about two pounds of beef.",
+            "Ground beef is cheaper this week.",
+            "He gave up beef years ago."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The meat of a cow, bull, or steer",
+          "body": [
+            "(говядина)",
+            "---"
+          ],
+          "examples": [
+            "We grill beef about once a week in the summer.",
+            "This stew tastes better with beef than with chicken.",
+            "The price of beef has gone up again."
+          ]
+        }
+      ],
       "русский": "говядина",
       "countability": "uncountable",
       "contrast": "Uncountable, and the animal has a different name: cow for the animal, beef for the meat."
@@ -1204,7 +1524,8 @@
       "senses": [],
       "русский": "индейка",
       "plural": "turkeys",
-      "countability": "countable, and uncountable as food"
+      "countability": "countable, and uncountable as food",
+      "contrast": "The bird is lowercase turkey; capital-T Turkey is the country."
     },
     {
       "term": "seafood",
@@ -1225,14 +1546,43 @@
       "term": "roast",
       "ipa": "/roʊst/",
       "respell": "ROHST",
-      "meaning": "A large piece of meat cooked in an oven. ---",
+      "meaning": "Roast has 2 distinct senses.",
       "examples": [
         "She put a roast in the oven at noon.",
         "The roast came out perfectly.",
-        "Sunday roasts were a family tradition."
+        "Sunday roasts were a family tradition.",
+        "I usually buy a medium roast.",
+        "They sell three roasts, from light to French.",
+        "This dark roast is way too bitter for me."
       ],
-      "senses": [],
-      "русский": "жаркое, запечённое мясо",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A large piece of meat cooked in an oven",
+          "body": [
+            "(жаркое, запечённое мясо)"
+          ],
+          "examples": [
+            "She put a roast in the oven at noon.",
+            "The roast came out perfectly.",
+            "Sunday roasts were a family tradition."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Coffee described by how long the beans were roasted",
+          "body": [
+            "(обжарка (кофе), степень обжарки)",
+            "---"
+          ],
+          "examples": [
+            "I usually buy a medium roast.",
+            "They sell three roasts, from light to French.",
+            "This dark roast is way too bitter for me."
+          ]
+        }
+      ],
+      "русский": "жаркое, запечённое мясо; обжарка (кофе), степень обжарки",
       "plural": "roasts",
       "countability": "countable"
     },
@@ -1317,13 +1667,42 @@
       "term": "broth",
       "ipa": "/brɔːθ/",
       "respell": "BRAWTH",
-      "meaning": "A thin soup made by boiling meat, fish, or vegetables in water. ---",
+      "meaning": "Broth has 2 distinct senses.",
       "examples": [
         "Simmer the rice in chicken broth.",
         "He lived on broth for a week after surgery.",
-        "The broth was salty but good."
+        "The broth was salty but good.",
+        "Simmer the vegetables in chicken broth.",
+        "Add a little more broth if it gets too thick.",
+        "The store-bought broths are all too salty."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin soup made by boiling meat, fish, or vegetables in water",
+          "body": [
+            "(бульон)"
+          ],
+          "examples": [
+            "Simmer the rice in chicken broth.",
+            "He lived on broth for a week after surgery.",
+            "The broth was salty but good."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin savory liquid made by simmering meat or vegetables",
+          "body": [
+            "(бульон)",
+            "---"
+          ],
+          "examples": [
+            "Simmer the vegetables in chicken broth.",
+            "Add a little more broth if it gets too thick.",
+            "The store-bought broths are all too salty."
+          ]
+        }
+      ],
       "русский": "бульон",
       "countability": "uncountable"
     },
@@ -1371,7 +1750,8 @@
       "senses": [],
       "русский": "барбекю; мясо на гриле",
       "plural": "barbecues",
-      "countability": "both — countable and uncountable with different meanings"
+      "countability": "both — countable and uncountable with different meanings",
+      "contrast": "The event is countable (two barbecues); the food is uncountable (some barbecue). Also spelled barbeque or BBQ."
     },
     {
       "term": "dumpling",
@@ -1542,14 +1922,43 @@
       "term": "bean",
       "ipa": "/biːn/",
       "respell": "BEEN",
-      "meaning": "The edible seed of certain plants, eaten as a vegetable. ---",
+      "meaning": "Bean has 2 distinct senses.",
       "examples": [
         "Soak the beans overnight.",
         "The chili has three kinds of beans.",
-        "He ate rice and beans every day."
+        "He ate rice and beans every day.",
+        "Soak the beans overnight.",
+        "Rice and beans is a whole meal.",
+        "One bean rolled off the counter."
       ],
-      "senses": [],
-      "русский": "боб, фасоль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The edible seed of certain plants, eaten as a vegetable",
+          "body": [
+            "(боб, фасоль)"
+          ],
+          "examples": [
+            "Soak the beans overnight.",
+            "The chili has three kinds of beans.",
+            "He ate rice and beans every day."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A seed from a pod, eaten as food, or the pod itself",
+          "body": [
+            "(фасолина, боб; мн. фасоль)",
+            "---"
+          ],
+          "examples": [
+            "Soak the beans overnight.",
+            "Rice and beans is a whole meal.",
+            "One bean rolled off the counter."
+          ]
+        }
+      ],
+      "русский": "боб, фасоль; фасолина, боб; мн. фасоль",
       "plural": "beans",
       "countability": "countable"
     },
@@ -1587,14 +1996,43 @@
       "term": "nut",
       "ipa": "/nʌt/",
       "respell": "NUHT",
-      "meaning": "A dry fruit with a hard shell and an edible kernel inside. ---",
+      "meaning": "Nut has 2 distinct senses.",
       "examples": [
         "She's allergic to nuts.",
         "There are mixed nuts on the counter.",
-        "He cracked a nut with his teeth."
+        "He cracked a nut with his teeth.",
+        "The nut came loose and the whole thing wobbled.",
+        "Hold the nut with pliers while you turn the bolt.",
+        "Don't overtighten those nuts."
       ],
-      "senses": [],
-      "русский": "орех",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A dry fruit with a hard shell and an edible kernel inside",
+          "body": [
+            "(орех)"
+          ],
+          "examples": [
+            "She's allergic to nuts.",
+            "There are mixed nuts on the counter.",
+            "He cracked a nut with his teeth."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small metal block with a threaded hole that screws onto a bolt",
+          "body": [
+            "(гайка)",
+            "---"
+          ],
+          "examples": [
+            "The nut came loose and the whole thing wobbled.",
+            "Hold the nut with pliers while you turn the bolt.",
+            "Don't overtighten those nuts."
+          ]
+        }
+      ],
+      "русский": "орех; гайка",
       "plural": "nuts",
       "countability": "countable"
     },
@@ -1785,13 +2223,42 @@
       "term": "smoothie",
       "ipa": "/ˈsmuːði/",
       "respell": "SMOO-thee",
-      "meaning": "A thick cold drink made from blended fruit. ---",
+      "meaning": "Smoothie has 2 distinct senses.",
       "examples": [
         "She makes a smoothie every morning.",
         "The banana smoothie is the best one.",
-        "They sell smoothies at the gym."
+        "They sell smoothies at the gym.",
+        "She makes a smoothie with frozen berries every morning.",
+        "The gym sells protein smoothies at the counter.",
+        "This smoothie is more banana than anything else."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thick cold drink made from blended fruit",
+          "body": [
+            "(смузи)"
+          ],
+          "examples": [
+            "She makes a smoothie every morning.",
+            "The banana smoothie is the best one.",
+            "They sell smoothies at the gym."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thick blended drink of fruit with ice, yogurt, or juice",
+          "body": [
+            "(смузи)",
+            "---"
+          ],
+          "examples": [
+            "She makes a smoothie with frozen berries every morning.",
+            "The gym sells protein smoothies at the counter.",
+            "This smoothie is more banana than anything else."
+          ]
+        }
+      ],
       "русский": "смузи",
       "plural": "smoothies",
       "countability": "countable"
@@ -1846,14 +2313,42 @@
       "term": "fiber",
       "ipa": "/ˈfaɪbər/",
       "respell": "FY-bur",
-      "meaning": "The part of plant food that the body cannot digest but needs.",
+      "meaning": "Fiber has 2 distinct senses.",
       "examples": [
         "Beans are high in fiber.",
         "He needs more fiber in his diet.",
-        "The cereal box brags about its fiber."
+        "The cereal box brags about its fiber.",
+        "Carpet fibers turned up on the suspect's jacket.",
+        "Beans are high in fiber.",
+        "The rope is made of natural fiber."
       ],
-      "senses": [],
-      "русский": "клетчатка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The part of plant food that the body cannot digest but needs",
+          "body": [
+            "(клетчатка)"
+          ],
+          "examples": [
+            "Beans are high in fiber.",
+            "He needs more fiber in his diet.",
+            "The cereal box brags about its fiber."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin thread of natural or artificial material, or the part of food that aids digestion",
+          "body": [
+            "(волокно; клетчатка)"
+          ],
+          "examples": [
+            "Carpet fibers turned up on the suspect's jacket.",
+            "Beans are high in fiber.",
+            "The rope is made of natural fiber."
+          ]
+        }
+      ],
+      "русский": "клетчатка; волокно; клетчатка",
       "countability": "uncountable",
       "contrast": "American spelling fiber; British fibre. Both are said FY-bur."
     }

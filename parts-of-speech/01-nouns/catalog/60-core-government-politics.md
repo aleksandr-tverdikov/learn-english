@@ -180,16 +180,24 @@ A government department in charge of one area, such as defense or health.
 ### minister
 
 **Pronunciation:** /ˈmɪnəstər/ &middot; *MIN-uh-stur*
-**Русский:** министр
+**Русский:** министр; священник, пастор (протестантский)
 **Plural:** *ministers*
 **Countability:** countable
 **Contrast:** In the US the same job title is secretary, not minister.
 
-A senior member of a government who is in charge of a department.
+Minister has 2 distinct senses.
+
+**1. A senior member of a government who is in charge of a department.** (министр)
 
 1. The finance *minister* resigned over the scandal.
 2. He met with the defense *minister* in Berlin.
 3. Several *ministers* were replaced last month.
+
+**2. A person trained to lead worship in a Protestant church.** (священник, пастор (протестантский))
+
+4. The *minister* read from the book of Psalms.
+5. She became a *minister* after teaching for ten years.
+6. Three *ministers* took turns leading the prayer.
 
 ---
 
@@ -395,16 +403,24 @@ A ruler with complete power who was not freely elected.
 ### regime
 
 **Pronunciation:** /rəˈʒiːm/ &middot; *ruh-ZHEEM*
-**Русский:** режим (правление)
+**Русский:** режим (правление); режим (власть)
 **Plural:** *regimes*
 **Countability:** countable
 **Contrast:** The g is the zh sound in measure, not a hard g.
 
-A government in power, especially one seen as harsh or undemocratic.
+Regime has 2 distinct senses.
+
+**1. A government in power, especially one seen as harsh or undemocratic.** (режим (правление))
 
 1. The old *regime* jailed anyone who spoke up.
 2. Sanctions were aimed at the *regime*, not the people.
 3. Two *regimes* fell in the same decade.
+
+**2. A government, especially one that rules harshly.** (режим (власть))
+
+4. The *regime* collapsed within a week.
+5. Both *regimes* were backed by foreign powers.
+6. He fled the country under the old *regime*.
 
 ---
 
@@ -889,16 +905,24 @@ A survey of people's opinions, or the place where votes are cast.
 ### campaign
 
 **Pronunciation:** /kæmˈpeɪn/ &middot; *kam-PAYN*
-**Русский:** кампания (предвыборная)
+**Русский:** кампания (предвыборная); кампания (военная)
 **Plural:** *campaigns*
 **Countability:** countable
 **Contrast:** The g is silent: kam-PAYN.
 
-An organized effort to win an election or achieve a public goal.
+Campaign has 2 distinct senses.
+
+**1. An organized effort to win an election or achieve a public goal.** (кампания (предвыборная))
 
 1. Her *campaign* raised two million dollars.
 2. He ran a quiet *campaign* and still won.
 3. Both *campaigns* went negative in the last week.
+
+**2. A connected series of military operations aimed at one goal.** (кампания (военная))
+
+4. The desert *campaign* lasted two years.
+5. Their bombing *campaign* destroyed every bridge in the valley.
+6. He wrote a history of the Italian *campaigns*.
 
 ---
 
@@ -1146,15 +1170,23 @@ The system of medical services a country provides to its people.
 ### sanction
 
 **Pronunciation:** /ˈsæŋkʃən/ &middot; *SANK-shuhn*
-**Русский:** санкция (мера наказания)
+**Русский:** санкция (мера наказания); санкция
 **Plural:** *sanctions*
 **Countability:** countable
 
-An official penalty, usually trade or financial, imposed on a country.
+Sanction has 2 distinct senses.
+
+**1. An official penalty, usually trade or financial, imposed on a country.** (санкция (мера наказания))
 
 1. A new *sanction* targets the country's banks.
 2. The *sanctions* took effect at midnight.
 3. They lifted the *sanctions* after the election.
+
+**2. A penalty, usually on trade, imposed on a country to force it to change.** (санкция)
+
+4. The council imposed *sanctions* on the regime.
+5. *Sanctions* crippled the country's oil exports.
+6. The *sanctions* were lifted last year.
 
 ---
 
@@ -1297,11 +1329,19 @@ The work of managing relations between countries through talks rather than force
 **Plural:** *alliances*
 **Countability:** countable
 
-A formal agreement between countries or groups to work together.
+Alliance has 2 distinct senses.
+
+**1. A formal agreement between countries or groups to work together.** (союз, альянс)
 
 1. The *alliance* has thirty member countries.
 2. Their *alliance* fell apart after the war.
 3. Old *alliances* are being tested again.
+
+**2. An agreement between countries to support each other, especially in war.** (союз, альянс)
+
+4. The two countries formed a military *alliance*.
+5. The *alliance* held throughout the war.
+6. Shifting *alliances* kept the region unstable.
 
 ---
 
@@ -1504,6 +1544,7 @@ A public event that shocks people because someone acted dishonestly.
 **Pronunciation:** /ˌprɑːpəˈɡændə/ &middot; *prah-puh-GAN-duh*
 **Русский:** пропаганда
 **Countability:** uncountable
+**Contrast:** Uncountable: a piece of propaganda, never a propaganda.
 
 Information spread to push a political view, often misleading.
 
@@ -1562,16 +1603,24 @@ The overthrow of a government by the people, usually by force.
 ### coup
 
 **Pronunciation:** /kuː/ &middot; *KOO*
-**Русский:** государственный переворот
+**Русский:** государственный переворот; переворот, путч
 **Plural:** *coups*
 **Countability:** countable
 **Contrast:** The p is silent; it rhymes with too.
 
-A sudden illegal takeover of a government, usually by the military.
+Coup has 2 distinct senses.
+
+**1. A sudden illegal takeover of a government, usually by the military.** (государственный переворот)
 
 1. The army seized power in a *coup*.
 2. The *coup* failed within forty-eight hours.
 3. There have been three *coups* since independence.
+
+**2. A sudden seizure of power, usually by the army.** (переворот, путч)
+
+4. A military *coup* removed the president.
+5. The *coup* failed within a day.
+6. The country has survived three *coups*.
 
 ---
 

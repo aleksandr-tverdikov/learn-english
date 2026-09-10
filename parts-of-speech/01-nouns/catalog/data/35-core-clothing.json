@@ -477,14 +477,43 @@
       "term": "cape",
       "ipa": "/keɪp/",
       "respell": "KAYP",
-      "meaning": "A short sleeveless garment that hangs from the shoulders down the back. ---",
+      "meaning": "Cape has 2 distinct senses.",
       "examples": [
         "The kid wore a superhero cape to school.",
         "The barber tied a cape around my neck.",
-        "Capes were everywhere at the costume party."
+        "Capes were everywhere at the costume party.",
+        "A lighthouse stands at the end of the cape.",
+        "We rounded the cape just before dark.",
+        "The wind hits hard on the far side of the cape."
       ],
-      "senses": [],
-      "русский": "накидка, пелерина",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short sleeveless garment that hangs from the shoulders down the back",
+          "body": [
+            "(накидка, пелерина)"
+          ],
+          "examples": [
+            "The kid wore a superhero cape to school.",
+            "The barber tied a cape around my neck.",
+            "Capes were everywhere at the costume party."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A piece of land that sticks out into the sea",
+          "body": [
+            "(мыс)",
+            "---"
+          ],
+          "examples": [
+            "A lighthouse stands at the end of the cape.",
+            "We rounded the cape just before dark.",
+            "The wind hits hard on the far side of the cape."
+          ]
+        }
+      ],
+      "русский": "накидка, пелерина; мыс",
       "plural": "capes",
       "countability": "countable"
     },
@@ -995,14 +1024,43 @@
       "term": "visor",
       "ipa": "/ˈvaɪzər/",
       "respell": "VY-zur",
-      "meaning": "A stiff piece at the front of a cap or helmet that shades or protects the eyes. ---",
+      "meaning": "Visor has 2 distinct senses.",
       "examples": [
         "He flipped down the visor on his helmet.",
         "She wore a tennis visor on the court.",
-        "The visors on those old caps are all cracked."
+        "The visors on those old caps are all cracked.",
+        "He pulled his visor down against the sun.",
+        "The golfers all wore white visors.",
+        "Her visor has the team logo on the front."
       ],
-      "senses": [],
-      "русский": "козырёк; забрало",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A stiff piece at the front of a cap or helmet that shades or protects the eyes",
+          "body": [
+            "(козырёк; забрало)"
+          ],
+          "examples": [
+            "He flipped down the visor on his helmet.",
+            "She wore a tennis visor on the court.",
+            "The visors on those old caps are all cracked."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The stiff front part of a cap, or a brim worn without a crown",
+          "body": [
+            "(козырёк)",
+            "---"
+          ],
+          "examples": [
+            "He pulled his visor down against the sun.",
+            "The golfers all wore white visors.",
+            "Her visor has the team logo on the front."
+          ]
+        }
+      ],
+      "русский": "козырёк; забрало; козырёк",
       "plural": "visors",
       "countability": "countable"
     },
@@ -1040,13 +1098,42 @@
       "term": "headband",
       "ipa": "/ˈhɛdbænd/",
       "respell": "HED-band",
-      "meaning": "A strip of material worn around the head. ---",
+      "meaning": "Headband has 2 distinct senses.",
       "examples": [
         "She pushed her hair back with a headband.",
         "The runners all wore sweat headbands.",
-        "My headband keeps sliding off."
+        "My headband keeps sliding off.",
+        "She pushed her hair back with a headband.",
+        "He wears a headband when he runs.",
+        "The headbands are on the rack by the register."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strip of material worn around the head",
+          "body": [
+            "(повязка на голову, ободок)"
+          ],
+          "examples": [
+            "She pushed her hair back with a headband.",
+            "The runners all wore sweat headbands.",
+            "My headband keeps sliding off."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A band worn around the head to hold hair back or absorb sweat",
+          "body": [
+            "(повязка на голову, ободок)",
+            "---"
+          ],
+          "examples": [
+            "She pushed her hair back with a headband.",
+            "He wears a headband when he runs.",
+            "The headbands are on the rack by the register."
+          ]
+        }
+      ],
       "русский": "повязка на голову, ободок",
       "plural": "headbands",
       "countability": "countable"
@@ -1375,14 +1462,58 @@
       "term": "pin",
       "ipa": "/pɪn/",
       "respell": "PIN",
-      "meaning": "A thin piece of metal with a sharp point, used to hold cloth together. ---",
+      "meaning": "Pin has 3 distinct senses.",
       "examples": [
         "The tailor held the hem in place with pins.",
         "Watch out — there's still a pin in that shirt.",
-        "She dropped a whole box of pins on the floor."
+        "She dropped a whole box of pins on the floor.",
+        "She wore a small enamel pin on her jacket.",
+        "The pin fell off somewhere downtown.",
+        "He collects campaign pins from old elections.",
+        "A small pin holds the hinge together.",
+        "The pin sheared off under load.",
+        "Take the pins out before you fold it."
       ],
-      "senses": [],
-      "русский": "булавка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin piece of metal with a sharp point, used to hold cloth together",
+          "body": [
+            "(булавка)"
+          ],
+          "examples": [
+            "The tailor held the hem in place with pins.",
+            "Watch out — there's still a pin in that shirt.",
+            "She dropped a whole box of pins on the floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short pointed piece of metal for fastening, or a small badge worn on clothing",
+          "body": [
+            "(булавка; значок)"
+          ],
+          "examples": [
+            "She wore a small enamel pin on her jacket.",
+            "The pin fell off somewhere downtown.",
+            "He collects campaign pins from old elections."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A short thin rod that holds two parts together or in line",
+          "body": [
+            "(штифт, шпилька)",
+            "---"
+          ],
+          "examples": [
+            "A small pin holds the hinge together.",
+            "The pin sheared off under load.",
+            "Take the pins out before you fold it."
+          ]
+        }
+      ],
+      "русский": "булавка; булавка; значок; штифт, шпилька",
       "plural": "pins",
       "countability": "countable"
     },
@@ -1390,14 +1521,43 @@
       "term": "fastener",
       "ipa": "/ˈfæsnər/",
       "respell": "FAS-nur",
-      "meaning": "Anything used to hold a garment closed, such as a button, hook, or snap. ---",
+      "meaning": "Fastener has 2 distinct senses.",
       "examples": [
         "The dress has a hidden fastener at the side.",
         "All the fasteners on this jacket are plastic.",
-        "One fastener is missing from the cuff."
+        "One fastener is missing from the cuff.",
+        "Any fastener will work as long as it's stainless.",
+        "Keep every fastener in a labeled bag.",
+        "The store has a whole aisle of fasteners."
       ],
-      "senses": [],
-      "русский": "застёжка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Anything used to hold a garment closed, such as a button, hook, or snap",
+          "body": [
+            "(застёжка)"
+          ],
+          "examples": [
+            "The dress has a hidden fastener at the side.",
+            "All the fasteners on this jacket are plastic.",
+            "One fastener is missing from the cuff."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Any small part such as a screw, bolt, or nail that holds things together",
+          "body": [
+            "(крепёж, крепёжное изделие)",
+            "---"
+          ],
+          "examples": [
+            "Any fastener will work as long as it's stainless.",
+            "Keep every fastener in a labeled bag.",
+            "The store has a whole aisle of fasteners."
+          ]
+        }
+      ],
+      "русский": "застёжка; крепёж, крепёжное изделие",
       "plural": "fasteners",
       "countability": "countable",
       "contrast": "The t is silent: FAS-nur, like fasten, listen, and castle."
@@ -1421,13 +1581,42 @@
       "term": "cufflink",
       "ipa": "/ˈkʌflɪŋk/",
       "respell": "KUF-link",
-      "meaning": "A small fastener used to hold together the cuffs of a dress shirt. ---",
+      "meaning": "Cufflink has 2 distinct senses.",
       "examples": [
         "He wore silver cufflinks to the wedding.",
         "One cufflink rolled under the dresser.",
-        "His father's cufflinks still fit the shirt perfectly."
+        "His father's cufflinks still fit the shirt perfectly.",
+        "He can't find the other cufflink.",
+        "The cufflinks were his father's.",
+        "You need cufflinks for a shirt like that."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small fastener used to hold together the cuffs of a dress shirt",
+          "body": [
+            "(запонка)"
+          ],
+          "examples": [
+            "He wore silver cufflinks to the wedding.",
+            "One cufflink rolled under the dresser.",
+            "His father's cufflinks still fit the shirt perfectly."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small fastener that holds a shirt cuff closed instead of a button",
+          "body": [
+            "(запонка)",
+            "---"
+          ],
+          "examples": [
+            "He can't find the other cufflink.",
+            "The cufflinks were his father's.",
+            "You need cufflinks for a shirt like that."
+          ]
+        }
+      ],
       "русский": "запонка",
       "plural": "cufflinks",
       "countability": "countable"
@@ -1482,13 +1671,42 @@
       "term": "bow tie",
       "ipa": "/ˈboʊ taɪ/",
       "respell": "BOH-ty",
-      "meaning": "A short tie fastened at the neck in the shape of a bow. ---",
+      "meaning": "Bow tie has 2 distinct senses.",
       "examples": [
         "He can never get a bow tie straight.",
         "The waiters all wore black bow ties.",
-        "That bow tie is actually a clip-on."
+        "That bow tie is actually a clip-on.",
+        "He wore a black bow tie to the wedding.",
+        "She tied his bow tie for him in the car.",
+        "The waiters all had matching bow ties."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short tie fastened at the neck in the shape of a bow",
+          "body": [
+            "(галстук-бабочка)"
+          ],
+          "examples": [
+            "He can never get a bow tie straight.",
+            "The waiters all wore black bow ties.",
+            "That bow tie is actually a clip-on."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short necktie tied in a bow at the throat",
+          "body": [
+            "(галстук-бабочка)",
+            "---"
+          ],
+          "examples": [
+            "He wore a black bow tie to the wedding.",
+            "She tied his bow tie for him in the car.",
+            "The waiters all had matching bow ties."
+          ]
+        }
+      ],
       "русский": "галстук-бабочка",
       "plural": "bow ties",
       "countability": "countable",
@@ -1557,13 +1775,42 @@
       "term": "leather",
       "ipa": "/ˈlɛðər/",
       "respell": "LETH-ur",
-      "meaning": "Material made from animal skin, used for shoes, coats, and belts. ---",
+      "meaning": "Leather has 2 distinct senses.",
       "examples": [
         "The jacket is real leather.",
         "Leather stretches out after you've worn it a while.",
-        "These boots are lined with soft leather."
+        "These boots are lined with soft leather.",
+        "The seats are real leather.",
+        "Leather softens once you break it in.",
+        "She carries a black leather bag."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Material made from animal skin, used for shoes, coats, and belts",
+          "body": [
+            "(кожа (материал))"
+          ],
+          "examples": [
+            "The jacket is real leather.",
+            "Leather stretches out after you've worn it a while.",
+            "These boots are lined with soft leather."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Animal skin treated so it can be used for shoes, bags, and jackets",
+          "body": [
+            "(кожа (материал))",
+            "---"
+          ],
+          "examples": [
+            "The seats are real leather.",
+            "Leather softens once you break it in.",
+            "She carries a black leather bag."
+          ]
+        }
+      ],
       "русский": "кожа (материал)",
       "countability": "uncountable",
       "contrast": "The ea sounds like the e in bed, and the th is voiced, as in father."
@@ -1572,13 +1819,42 @@
       "term": "denim",
       "ipa": "/ˈdɛnəm/",
       "respell": "DEN-im",
-      "meaning": "A strong cotton cloth used to make jeans and jackets. ---",
+      "meaning": "Denim has 2 distinct senses.",
       "examples": [
         "The jacket is heavy denim.",
         "Denim softens up after a few washes.",
-        "She wore a denim skirt and sneakers."
+        "She wore a denim skirt and sneakers.",
+        "The jacket is stiff new denim.",
+        "Denim fades where you sit.",
+        "He wore denim head to toe."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A strong cotton cloth used to make jeans and jackets",
+          "body": [
+            "(джинсовая ткань, деним)"
+          ],
+          "examples": [
+            "The jacket is heavy denim.",
+            "Denim softens up after a few washes.",
+            "She wore a denim skirt and sneakers."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The heavy blue cotton cloth that jeans are made of",
+          "body": [
+            "(джинсовая ткань, деним)",
+            "---"
+          ],
+          "examples": [
+            "The jacket is stiff new denim.",
+            "Denim fades where you sit.",
+            "He wore denim head to toe."
+          ]
+        }
+      ],
       "русский": "джинсовая ткань, деним",
       "countability": "uncountable"
     },
@@ -1586,16 +1862,46 @@
       "term": "fur",
       "ipa": "/fɜːr/",
       "respell": "FUR",
-      "meaning": "The thick soft hair covering an animal, used to make or line clothing. ---",
+      "meaning": "Fur has 2 distinct senses.",
       "examples": [
         "The hood is trimmed with fur.",
         "She inherited her grandmother's furs.",
-        "Fake fur looks almost real these days."
+        "Fake fur looks almost real these days.",
+        "The cat's fur was matted with burrs.",
+        "Rabbits grow thicker fur for the winter.",
+        "There was fur all over the back seat."
       ],
-      "senses": [],
-      "русский": "мех",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The thick soft hair covering an animal, used to make or line clothing",
+          "body": [
+            "(мех)"
+          ],
+          "examples": [
+            "The hood is trimmed with fur.",
+            "She inherited her grandmother's furs.",
+            "Fake fur looks almost real these days."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The soft thick hair that covers most mammals",
+          "body": [
+            "(мех, шерсть (животного))",
+            "---"
+          ],
+          "examples": [
+            "The cat's fur was matted with burrs.",
+            "Rabbits grow thicker fur for the winter.",
+            "There was fur all over the back seat."
+          ]
+        }
+      ],
+      "русский": "мех; мех, шерсть (животного)",
       "plural": "furs",
-      "countability": "countable, and uncountable as a substance"
+      "countability": "countable, and uncountable as a substance",
+      "contrast": "Homophone of fir, the evergreen tree."
     },
     {
       "term": "suede",
@@ -1630,15 +1936,44 @@
       "term": "polyester",
       "ipa": "/ˌpɑːliˈɛstər/",
       "respell": "pah-lee-ES-tur",
-      "meaning": "A synthetic material used to make clothes.",
+      "meaning": "Polyester has 2 distinct senses.",
       "examples": [
         "The shirt is a cotton and polyester blend.",
         "Polyester barely wrinkles, which is the whole point.",
-        "That jacket is cheap polyester and it feels like it."
+        "That jacket is cheap polyester and it feels like it.",
+        "The shirt is a cotton and polyester blend.",
+        "Polyester doesn't breathe in the heat.",
+        "Everything in that decade was polyester."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A synthetic material used to make clothes",
+          "body": [
+            "(полиэстер)"
+          ],
+          "examples": [
+            "The shirt is a cotton and polyester blend.",
+            "Polyester barely wrinkles, which is the whole point.",
+            "That jacket is cheap polyester and it feels like it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A synthetic fiber used in clothing that resists wrinkles",
+          "body": [
+            "(полиэстер)"
+          ],
+          "examples": [
+            "The shirt is a cotton and polyester blend.",
+            "Polyester doesn't breathe in the heat.",
+            "Everything in that decade was polyester."
+          ]
+        }
+      ],
       "русский": "полиэстер",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Main stress lands on the third syllable: pah-lee-ES-tur."
     }
   ]
 }

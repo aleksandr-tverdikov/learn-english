@@ -174,14 +174,43 @@
       "term": "minister",
       "ipa": "/ˈmɪnəstər/",
       "respell": "MIN-uh-stur",
-      "meaning": "A senior member of a government who is in charge of a department. ---",
+      "meaning": "Minister has 2 distinct senses.",
       "examples": [
         "The finance minister resigned over the scandal.",
         "He met with the defense minister in Berlin.",
-        "Several ministers were replaced last month."
+        "Several ministers were replaced last month.",
+        "The minister read from the book of Psalms.",
+        "She became a minister after teaching for ten years.",
+        "Three ministers took turns leading the prayer."
       ],
-      "senses": [],
-      "русский": "министр",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A senior member of a government who is in charge of a department",
+          "body": [
+            "(министр)"
+          ],
+          "examples": [
+            "The finance minister resigned over the scandal.",
+            "He met with the defense minister in Berlin.",
+            "Several ministers were replaced last month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person trained to lead worship in a Protestant church",
+          "body": [
+            "(священник, пастор (протестантский))",
+            "---"
+          ],
+          "examples": [
+            "The minister read from the book of Psalms.",
+            "She became a minister after teaching for ten years.",
+            "Three ministers took turns leading the prayer."
+          ]
+        }
+      ],
+      "русский": "министр; священник, пастор (протестантский)",
       "plural": "ministers",
       "countability": "countable",
       "contrast": "In the US the same job title is secretary, not minister."
@@ -389,14 +418,43 @@
       "term": "regime",
       "ipa": "/rəˈʒiːm/",
       "respell": "ruh-ZHEEM",
-      "meaning": "A government in power, especially one seen as harsh or undemocratic. ---",
+      "meaning": "Regime has 2 distinct senses.",
       "examples": [
         "The old regime jailed anyone who spoke up.",
         "Sanctions were aimed at the regime, not the people.",
-        "Two regimes fell in the same decade."
+        "Two regimes fell in the same decade.",
+        "The regime collapsed within a week.",
+        "Both regimes were backed by foreign powers.",
+        "He fled the country under the old regime."
       ],
-      "senses": [],
-      "русский": "режим (правление)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A government in power, especially one seen as harsh or undemocratic",
+          "body": [
+            "(режим (правление))"
+          ],
+          "examples": [
+            "The old regime jailed anyone who spoke up.",
+            "Sanctions were aimed at the regime, not the people.",
+            "Two regimes fell in the same decade."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A government, especially one that rules harshly",
+          "body": [
+            "(режим (власть))",
+            "---"
+          ],
+          "examples": [
+            "The regime collapsed within a week.",
+            "Both regimes were backed by foreign powers.",
+            "He fled the country under the old regime."
+          ]
+        }
+      ],
+      "русский": "режим (правление); режим (власть)",
       "plural": "regimes",
       "countability": "countable",
       "contrast": "The g is the zh sound in measure, not a hard g."
@@ -883,14 +941,43 @@
       "term": "campaign",
       "ipa": "/kæmˈpeɪn/",
       "respell": "kam-PAYN",
-      "meaning": "An organized effort to win an election or achieve a public goal. ---",
+      "meaning": "Campaign has 2 distinct senses.",
       "examples": [
         "Her campaign raised two million dollars.",
         "He ran a quiet campaign and still won.",
-        "Both campaigns went negative in the last week."
+        "Both campaigns went negative in the last week.",
+        "The desert campaign lasted two years.",
+        "Their bombing campaign destroyed every bridge in the valley.",
+        "He wrote a history of the Italian campaigns."
       ],
-      "senses": [],
-      "русский": "кампания (предвыборная)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An organized effort to win an election or achieve a public goal",
+          "body": [
+            "(кампания (предвыборная))"
+          ],
+          "examples": [
+            "Her campaign raised two million dollars.",
+            "He ran a quiet campaign and still won.",
+            "Both campaigns went negative in the last week."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A connected series of military operations aimed at one goal",
+          "body": [
+            "(кампания (военная))",
+            "---"
+          ],
+          "examples": [
+            "The desert campaign lasted two years.",
+            "Their bombing campaign destroyed every bridge in the valley.",
+            "He wrote a history of the Italian campaigns."
+          ]
+        }
+      ],
+      "русский": "кампания (предвыборная); кампания (военная)",
       "plural": "campaigns",
       "countability": "countable",
       "contrast": "The g is silent: kam-PAYN."
@@ -1140,14 +1227,43 @@
       "term": "sanction",
       "ipa": "/ˈsæŋkʃən/",
       "respell": "SANK-shuhn",
-      "meaning": "An official penalty, usually trade or financial, imposed on a country. ---",
+      "meaning": "Sanction has 2 distinct senses.",
       "examples": [
         "A new sanction targets the country's banks.",
         "The sanctions took effect at midnight.",
-        "They lifted the sanctions after the election."
+        "They lifted the sanctions after the election.",
+        "The council imposed sanctions on the regime.",
+        "Sanctions crippled the country's oil exports.",
+        "The sanctions were lifted last year."
       ],
-      "senses": [],
-      "русский": "санкция (мера наказания)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An official penalty, usually trade or financial, imposed on a country",
+          "body": [
+            "(санкция (мера наказания))"
+          ],
+          "examples": [
+            "A new sanction targets the country's banks.",
+            "The sanctions took effect at midnight.",
+            "They lifted the sanctions after the election."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A penalty, usually on trade, imposed on a country to force it to change",
+          "body": [
+            "(санкция)",
+            "---"
+          ],
+          "examples": [
+            "The council imposed sanctions on the regime.",
+            "Sanctions crippled the country's oil exports.",
+            "The sanctions were lifted last year."
+          ]
+        }
+      ],
+      "русский": "санкция (мера наказания); санкция",
       "plural": "sanctions",
       "countability": "countable"
     },
@@ -1287,13 +1403,42 @@
       "term": "alliance",
       "ipa": "/əˈlaɪəns/",
       "respell": "uh-LY-uhns",
-      "meaning": "A formal agreement between countries or groups to work together. ---",
+      "meaning": "Alliance has 2 distinct senses.",
       "examples": [
         "The alliance has thirty member countries.",
         "Their alliance fell apart after the war.",
-        "Old alliances are being tested again."
+        "Old alliances are being tested again.",
+        "The two countries formed a military alliance.",
+        "The alliance held throughout the war.",
+        "Shifting alliances kept the region unstable."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A formal agreement between countries or groups to work together",
+          "body": [
+            "(союз, альянс)"
+          ],
+          "examples": [
+            "The alliance has thirty member countries.",
+            "Their alliance fell apart after the war.",
+            "Old alliances are being tested again."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An agreement between countries to support each other, especially in war",
+          "body": [
+            "(союз, альянс)",
+            "---"
+          ],
+          "examples": [
+            "The two countries formed a military alliance.",
+            "The alliance held throughout the war.",
+            "Shifting alliances kept the region unstable."
+          ]
+        }
+      ],
       "русский": "союз, альянс",
       "plural": "alliances",
       "countability": "countable"
@@ -1504,7 +1649,8 @@
       ],
       "senses": [],
       "русский": "пропаганда",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable: a piece of propaganda, never a propaganda."
     },
     {
       "term": "protest",
@@ -1556,14 +1702,43 @@
       "term": "coup",
       "ipa": "/kuː/",
       "respell": "KOO",
-      "meaning": "A sudden illegal takeover of a government, usually by the military. ---",
+      "meaning": "Coup has 2 distinct senses.",
       "examples": [
         "The army seized power in a coup.",
         "The coup failed within forty-eight hours.",
-        "There have been three coups since independence."
+        "There have been three coups since independence.",
+        "A military coup removed the president.",
+        "The coup failed within a day.",
+        "The country has survived three coups."
       ],
-      "senses": [],
-      "русский": "государственный переворот",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A sudden illegal takeover of a government, usually by the military",
+          "body": [
+            "(государственный переворот)"
+          ],
+          "examples": [
+            "The army seized power in a coup.",
+            "The coup failed within forty-eight hours.",
+            "There have been three coups since independence."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A sudden seizure of power, usually by the army",
+          "body": [
+            "(переворот, путч)",
+            "---"
+          ],
+          "examples": [
+            "A military coup removed the president.",
+            "The coup failed within a day.",
+            "The country has survived three coups."
+          ]
+        }
+      ],
+      "русский": "государственный переворот; переворот, путч",
       "plural": "coups",
       "countability": "countable",
       "contrast": "The p is silent; it rhymes with too."

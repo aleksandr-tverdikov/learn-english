@@ -21,13 +21,42 @@
       "term": "page",
       "ipa": "/peɪdʒ/",
       "respell": "PAYJ",
-      "meaning": "One side of a sheet of paper in a book, magazine, or newspaper. ---",
+      "meaning": "Page has 2 distinct senses.",
       "examples": [
         "Turn to page forty-two.",
         "The article runs about six pages.",
-        "He folded the corner of the page to mark his place."
+        "He folded the corner of the page to mark his place.",
+        "The page takes forever to load.",
+        "I bookmarked a few pages about the topic.",
+        "Scroll to the bottom of the page and hit Submit."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One side of a sheet of paper in a book, magazine, or newspaper",
+          "body": [
+            "(страница)"
+          ],
+          "examples": [
+            "Turn to page forty-two.",
+            "The article runs about six pages.",
+            "He folded the corner of the page to mark his place."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One screen of content on a website",
+          "body": [
+            "(страница)",
+            "---"
+          ],
+          "examples": [
+            "The page takes forever to load.",
+            "I bookmarked a few pages about the topic.",
+            "Scroll to the bottom of the page and hit Submit."
+          ]
+        }
+      ],
       "русский": "страница",
       "plural": "pages",
       "countability": "countable"
@@ -187,13 +216,42 @@
       "term": "illustration",
       "ipa": "/ˌɪləˈstreɪʃən/",
       "respell": "il-uh-STRAY-shuhn",
-      "meaning": "A drawing or picture printed in a book or magazine. ---",
+      "meaning": "Illustration has 2 distinct senses.",
       "examples": [
         "The illustrations are what sell the book.",
         "Each chapter opens with a small illustration.",
-        "She did the illustration in pen and ink."
+        "She did the illustration in pen and ink.",
+        "The illustrations are the best part of the book.",
+        "He does illustrations for children's books.",
+        "A full-page illustration opens each chapter."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A drawing or picture printed in a book or magazine",
+          "body": [
+            "(иллюстрация)"
+          ],
+          "examples": [
+            "The illustrations are what sell the book.",
+            "Each chapter opens with a small illustration.",
+            "She did the illustration in pen and ink."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A picture in a book or magazine that goes with the text",
+          "body": [
+            "(иллюстрация)",
+            "---"
+          ],
+          "examples": [
+            "The illustrations are the best part of the book.",
+            "He does illustrations for children's books.",
+            "A full-page illustration opens each chapter."
+          ]
+        }
+      ],
       "русский": "иллюстрация",
       "plural": "illustrations",
       "countability": "countable"
@@ -309,14 +367,43 @@
       "term": "binding",
       "ipa": "/ˈbaɪndɪŋ/",
       "respell": "BYN-ding",
-      "meaning": "The stitching and glue that hold a book's pages inside its cover. ---",
+      "meaning": "Binding has 2 distinct senses.",
       "examples": [
         "The binding cracked the first time I opened it.",
         "Old leather bindings line the top shelf.",
-        "Cheap binding is why the pages fall out."
+        "Cheap binding is why the pages fall out.",
+        "Stitch the binding around the edge of the quilt.",
+        "She used bias binding on the armholes.",
+        "The binding is a contrasting green."
       ],
-      "senses": [],
-      "русский": "переплёт",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The stitching and glue that hold a book's pages inside its cover",
+          "body": [
+            "(переплёт)"
+          ],
+          "examples": [
+            "The binding cracked the first time I opened it.",
+            "Old leather bindings line the top shelf.",
+            "Cheap binding is why the pages fall out."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A strip of cloth folded over a raw edge to cover and finish it",
+          "body": [
+            "(окантовка, косая бейка)",
+            "---"
+          ],
+          "examples": [
+            "Stitch the binding around the edge of the quilt.",
+            "She used bias binding on the armholes.",
+            "The binding is a contrasting green."
+          ]
+        }
+      ],
+      "русский": "переплёт; окантовка, косая бейка",
       "plural": "bindings",
       "countability": "countable"
     },
@@ -369,13 +456,42 @@
       "term": "copyright",
       "ipa": "/ˈkɑːpiraɪt/",
       "respell": "KAH-pee-ryt",
-      "meaning": "The legal right to control who may print or use a piece of writing, music, or art. ---",
+      "meaning": "Copyright has 2 distinct senses.",
       "examples": [
         "The publisher holds the copyright.",
         "The copyright on those songs expires next year.",
-        "You can't reprint the photo without clearing the copyright."
+        "You can't reprint the photo without clearing the copyright.",
+        "She still owns the copyright to the songs.",
+        "The copyright runs for seventy years after the author's death.",
+        "The studio bought up the copyrights."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The legal right to control who may print or use a piece of writing, music, or art",
+          "body": [
+            "(авторское право)"
+          ],
+          "examples": [
+            "The publisher holds the copyright.",
+            "The copyright on those songs expires next year.",
+            "You can't reprint the photo without clearing the copyright."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The legal right to control who copies or sells a creative work",
+          "body": [
+            "(авторское право)",
+            "---"
+          ],
+          "examples": [
+            "She still owns the copyright to the songs.",
+            "The copyright runs for seventy years after the author's death.",
+            "The studio bought up the copyrights."
+          ]
+        }
+      ],
       "русский": "авторское право",
       "plural": "copyrights",
       "countability": "countable"
@@ -384,14 +500,43 @@
       "term": "dedication",
       "ipa": "/ˌdɛdɪˈkeɪʃən/",
       "respell": "ded-ih-KAY-shuhn",
-      "meaning": "A line at the front of a book saying it is written in honor of someone. ---",
+      "meaning": "Dedication has 2 distinct senses.",
       "examples": [
         "The dedication reads 'For my mother.'",
         "He put a joke in the dedication.",
-        "Her first two books had the same dedication."
+        "Her first two books had the same dedication.",
+        "Teaching that long takes real dedication.",
+        "Her dedication to the choir never wavered.",
+        "The award recognizes forty years of dedication."
       ],
-      "senses": [],
-      "русский": "посвящение (в книге)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A line at the front of a book saying it is written in honor of someone",
+          "body": [
+            "(посвящение (в книге))"
+          ],
+          "examples": [
+            "The dedication reads 'For my mother.'",
+            "He put a joke in the dedication.",
+            "Her first two books had the same dedication."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The quality of giving a lot of time and energy to something you care about",
+          "body": [
+            "(самоотдача, преданность делу)",
+            "---"
+          ],
+          "examples": [
+            "Teaching that long takes real dedication.",
+            "Her dedication to the choir never wavered.",
+            "The award recognizes forty years of dedication."
+          ]
+        }
+      ],
+      "русский": "посвящение (в книге); самоотдача, преданность делу",
       "plural": "dedications",
       "countability": "countable"
     },
@@ -429,13 +574,42 @@
       "term": "font",
       "ipa": "/fɑːnt/",
       "respell": "FAHNT",
-      "meaning": "A particular design of printed or on-screen letters. ---",
+      "meaning": "Font has 2 distinct senses.",
       "examples": [
         "Use a bigger font — I can't read that.",
         "The book is set in a classic serif font.",
-        "She has hundreds of fonts on her laptop."
+        "She has hundreds of fonts on her laptop.",
+        "Pick a font that's easy to read.",
+        "I have hundreds of fonts installed.",
+        "The font is too small for a slide."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A particular design of printed or on-screen letters",
+          "body": [
+            "(шрифт)"
+          ],
+          "examples": [
+            "Use a bigger font — I can't read that.",
+            "The book is set in a classic serif font.",
+            "She has hundreds of fonts on her laptop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of letters and numbers in one particular design",
+          "body": [
+            "(шрифт)",
+            "---"
+          ],
+          "examples": [
+            "Pick a font that's easy to read.",
+            "I have hundreds of fonts installed.",
+            "The font is too small for a slide."
+          ]
+        }
+      ],
       "русский": "шрифт",
       "plural": "fonts",
       "countability": "countable"
@@ -503,15 +677,45 @@
       "term": "press",
       "ipa": "/prɛs/",
       "respell": "PRES",
-      "meaning": "Newspapers and the reporters who work for them, taken as a whole. ---",
+      "meaning": "Press has 2 distinct senses.",
       "examples": [
         "The press was waiting outside the courthouse.",
         "The mayor rarely talks to the press.",
-        "The movie got terrible press."
+        "The movie got terrible press.",
+        "The press was kept outside the building.",
+        "He rarely talks to the press.",
+        "The story got a lot of press that week."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Newspapers and the reporters who work for them, taken as a whole",
+          "body": [
+            "(пресса, СМИ)"
+          ],
+          "examples": [
+            "The press was waiting outside the courthouse.",
+            "The mayor rarely talks to the press.",
+            "The movie got terrible press."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Newspapers, television, and other news media taken together",
+          "body": [
+            "(пресса, СМИ)",
+            "---"
+          ],
+          "examples": [
+            "The press was kept outside the building.",
+            "He rarely talks to the press.",
+            "The story got a lot of press that week."
+          ]
+        }
+      ],
       "русский": "пресса, СМИ",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "Uncountable and used with the: the press, never a press for the news media."
     },
     {
       "term": "printing",
@@ -848,14 +1052,43 @@
       "term": "character",
       "ipa": "/ˈkærəktər/",
       "respell": "KAR-uk-tur",
-      "meaning": "A person in a book, movie, or TV show. ---",
+      "meaning": "Character has 2 distinct senses.",
       "examples": [
         "The main character is a retired detective.",
         "There are too many characters to keep straight.",
-        "She's my favorite character on the show."
+        "She's my favorite character on the show.",
+        "Losing gracefully says a lot about your character.",
+        "The novel has too many characters to keep straight.",
+        "Hard times build character, my father used to say."
       ],
-      "senses": [],
-      "русский": "персонаж, герой",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person in a book, movie, or TV show",
+          "body": [
+            "(персонаж, герой)"
+          ],
+          "examples": [
+            "The main character is a retired detective.",
+            "There are too many characters to keep straight.",
+            "She's my favorite character on the show."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A person's moral qualities, or a person in a story or film",
+          "body": [
+            "(характер; персонаж)",
+            "---"
+          ],
+          "examples": [
+            "Losing gracefully says a lot about your character.",
+            "The novel has too many characters to keep straight.",
+            "Hard times build character, my father used to say."
+          ]
+        }
+      ],
+      "русский": "персонаж, герой; характер; персонаж",
       "plural": "characters",
       "countability": "countable"
     },
@@ -878,13 +1111,42 @@
       "term": "genre",
       "ipa": "/ˈʒɑːnrər/",
       "respell": "ZHAHN-ruh",
-      "meaning": "A type of book, film, or music with its own typical style and subject. ---",
+      "meaning": "Genre has 2 distinct senses.",
       "examples": [
         "Horror isn't really my genre.",
         "The book jumps between two genres.",
-        "Mystery is the best-selling genre in the store."
+        "Mystery is the best-selling genre in the store.",
+        "Jazz is the one genre he can't stand.",
+        "The store organizes its records by genre.",
+        "She writes in two completely different genres."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A type of book, film, or music with its own typical style and subject",
+          "body": [
+            "(жанр)"
+          ],
+          "examples": [
+            "Horror isn't really my genre.",
+            "The book jumps between two genres.",
+            "Mystery is the best-selling genre in the store."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A type of art, music, or writing with its own recognizable style",
+          "body": [
+            "(жанр)",
+            "---"
+          ],
+          "examples": [
+            "Jazz is the one genre he can't stand.",
+            "The store organizes its records by genre.",
+            "She writes in two completely different genres."
+          ]
+        }
+      ],
       "русский": "жанр",
       "plural": "genres",
       "countability": "countable",
@@ -969,15 +1231,45 @@
       "term": "censorship",
       "ipa": "/ˈsɛnsərʃɪp/",
       "respell": "SEN-sur-ship",
-      "meaning": "The practice of blocking or cutting parts of books, films, or news. ---",
+      "meaning": "Censorship has 2 distinct senses.",
       "examples": [
         "The editors called it censorship.",
         "Censorship of the press is banned by the constitution.",
-        "She wrote a book about wartime censorship."
+        "She wrote a book about wartime censorship.",
+        "The law amounts to censorship, the paper said.",
+        "Censorship of textbooks became a campaign issue.",
+        "They accused the platform of censorship."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The practice of blocking or cutting parts of books, films, or news",
+          "body": [
+            "(цензура)"
+          ],
+          "examples": [
+            "The editors called it censorship.",
+            "Censorship of the press is banned by the constitution.",
+            "She wrote a book about wartime censorship."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Official control over what may be published, said, or shown",
+          "body": [
+            "(цензура)",
+            "---"
+          ],
+          "examples": [
+            "The law amounts to censorship, the paper said.",
+            "Censorship of textbooks became a campaign issue.",
+            "They accused the platform of censorship."
+          ]
+        }
+      ],
       "русский": "цензура",
-      "countability": "uncountable"
+      "countability": "uncountable",
+      "contrast": "From censor (an official); do not confuse it with sensor, a device."
     },
     {
       "term": "readership",
@@ -1075,13 +1367,42 @@
       "term": "newspaper",
       "ipa": "/ˈnuːzpeɪpər/",
       "respell": "NOOZ-pay-pur",
-      "meaning": "A set of large printed sheets sold daily or weekly with news in it. ---",
+      "meaning": "Newspaper has 2 distinct senses.",
       "examples": [
         "He still reads a newspaper with breakfast.",
         "The story ran in every newspaper in the state.",
-        "Local newspapers are shutting down all over."
+        "Local newspapers are shutting down all over.",
+        "He reads the newspaper with his coffee.",
+        "Two newspapers in the state closed last year.",
+        "The story made the front page of every newspaper."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A set of large printed sheets sold daily or weekly with news in it",
+          "body": [
+            "(газета)"
+          ],
+          "examples": [
+            "He still reads a newspaper with breakfast.",
+            "The story ran in every newspaper in the state.",
+            "Local newspapers are shutting down all over."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A printed publication of news that comes out regularly",
+          "body": [
+            "(газета)",
+            "---"
+          ],
+          "examples": [
+            "He reads the newspaper with his coffee.",
+            "Two newspapers in the state closed last year.",
+            "The story made the front page of every newspaper."
+          ]
+        }
+      ],
       "русский": "газета",
       "plural": "newspapers",
       "countability": "countable",
@@ -1091,14 +1412,43 @@
       "term": "magazine",
       "ipa": "/ˈmæɡəziːn/",
       "respell": "MAG-uh-zeen",
-      "meaning": "A thin publication with photos and articles, printed weekly or monthly. ---",
+      "meaning": "Magazine has 2 distinct senses.",
       "examples": [
         "There's a stack of old magazines in the waiting room.",
         "She writes for a food magazine.",
-        "The magazine comes out on the first of the month."
+        "The magazine comes out on the first of the month.",
+        "He slapped a fresh magazine into the rifle.",
+        "Each magazine holds thirty rounds.",
+        "She carried three spare magazines."
       ],
-      "senses": [],
-      "русский": "журнал",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A thin publication with photos and articles, printed weekly or monthly",
+          "body": [
+            "(журнал)"
+          ],
+          "examples": [
+            "There's a stack of old magazines in the waiting room.",
+            "She writes for a food magazine.",
+            "The magazine comes out on the first of the month."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The container that holds cartridges and feeds them into a gun",
+          "body": [
+            "(магазин (оружейный))",
+            "---"
+          ],
+          "examples": [
+            "He slapped a fresh magazine into the rifle.",
+            "Each magazine holds thirty rounds.",
+            "She carried three spare magazines."
+          ]
+        }
+      ],
+      "русский": "журнал; магазин (оружейный)",
       "plural": "magazines",
       "countability": "countable",
       "contrast": "Americans usually stress the first syllable, MAG-uh-zeen; the British stress the last."
@@ -1242,13 +1592,42 @@
       "term": "reporter",
       "ipa": "/rɪˈpɔːrtər/",
       "respell": "rih-POR-tur",
-      "meaning": "Someone whose job is to find out about news and write or talk about it. ---",
+      "meaning": "Reporter has 2 distinct senses.",
       "examples": [
         "A reporter called the house twice.",
         "Reporters were camped outside all week.",
-        "He's been a crime reporter for ten years."
+        "He's been a crime reporter for ten years.",
+        "A reporter called the house twice.",
+        "Reporters crowded around the front steps.",
+        "She was a police reporter for eleven years."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Someone whose job is to find out about news and write or talk about it",
+          "body": [
+            "(репортёр, корреспондент)"
+          ],
+          "examples": [
+            "A reporter called the house twice.",
+            "Reporters were camped outside all week.",
+            "He's been a crime reporter for ten years."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who gathers news and writes or broadcasts it",
+          "body": [
+            "(репортёр, корреспондент)",
+            "---"
+          ],
+          "examples": [
+            "A reporter called the house twice.",
+            "Reporters crowded around the front steps.",
+            "She was a police reporter for eleven years."
+          ]
+        }
+      ],
       "русский": "репортёр, корреспондент",
       "plural": "reporters",
       "countability": "countable"
@@ -1257,14 +1636,43 @@
       "term": "correspondent",
       "ipa": "/ˌkɔːrəˈspɑːndənt/",
       "respell": "kor-uh-SPAHN-duhnt",
-      "meaning": "A reporter who covers one place or subject for a paper or network. ---",
+      "meaning": "Correspondent has 2 distinct senses.",
       "examples": [
         "Our White House correspondent has the story.",
         "She spent four years as a foreign correspondent.",
-        "Two correspondents were pulled out of the country."
+        "Two correspondents were pulled out of the country.",
+        "Their White House correspondent asked the first question.",
+        "The network keeps correspondents in a dozen countries.",
+        "He spent four years as a war correspondent."
       ],
-      "senses": [],
-      "русский": "корреспондент (обычно зарубежный или специальный)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A reporter who covers one place or subject for a paper or network",
+          "body": [
+            "(корреспондент (обычно зарубежный или специальный))"
+          ],
+          "examples": [
+            "Our White House correspondent has the story.",
+            "She spent four years as a foreign correspondent.",
+            "Two correspondents were pulled out of the country."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A reporter who sends news from a particular place or on a particular subject",
+          "body": [
+            "(корреспондент)",
+            "---"
+          ],
+          "examples": [
+            "Their White House correspondent asked the first question.",
+            "The network keeps correspondents in a dozen countries.",
+            "He spent four years as a war correspondent."
+          ]
+        }
+      ],
+      "русский": "корреспондент (обычно зарубежный или специальный); корреспондент",
       "plural": "correspondents",
       "countability": "countable"
     },
@@ -1302,14 +1710,58 @@
       "term": "feature",
       "ipa": "/ˈfiːtʃər/",
       "respell": "FEE-chur",
-      "meaning": "A long newspaper or magazine article about one subject, rather than straight news. ---",
+      "meaning": "Feature has 3 distinct senses.",
       "examples": [
         "She's writing a feature on the housing shortage.",
         "The Sunday feature runs about five thousand words.",
-        "He does mostly features now, not daily reporting."
+        "He does mostly features now, not daily reporting.",
+        "The best feature is the offline mode.",
+        "They added three new features in this release.",
+        "That feature is only in the paid plan.",
+        "She has delicate features.",
+        "His strongest feature is his jaw.",
+        "The twins share the same features."
       ],
-      "senses": [],
-      "русский": "очерк, большая тематическая статья",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A long newspaper or magazine article about one subject, rather than straight news",
+          "body": [
+            "(очерк, большая тематическая статья)"
+          ],
+          "examples": [
+            "She's writing a feature on the housing shortage.",
+            "The Sunday feature runs about five thousand words.",
+            "He does mostly features now, not daily reporting."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Something a product can do, offered as part of it",
+          "body": [
+            "(функция, возможность)"
+          ],
+          "examples": [
+            "The best feature is the offline mode.",
+            "They added three new features in this release.",
+            "That feature is only in the paid plan."
+          ]
+        },
+        {
+          "n": "3",
+          "head": "A part of the face, such as the eyes, nose, or mouth",
+          "body": [
+            "(черта (лица); особенность)",
+            "---"
+          ],
+          "examples": [
+            "She has delicate features.",
+            "His strongest feature is his jaw.",
+            "The twins share the same features."
+          ]
+        }
+      ],
+      "русский": "очерк, большая тематическая статья; функция, возможность; черта (лица); особенность",
       "plural": "features",
       "countability": "countable"
     },
@@ -1676,14 +2128,43 @@
       "term": "television",
       "ipa": "/ˈtɛləvɪʒən/",
       "respell": "TEL-uh-vizh-uhn",
-      "meaning": "The system of sending pictures and sound to homes, or the set that shows them. ---",
+      "meaning": "Television has 2 distinct senses.",
       "examples": [
         "He works in television.",
         "There's a television in every room of the hotel.",
-        "I saw it on television last night."
+        "I saw it on television last night.",
+        "They bought a bigger television for the basement.",
+        "The store had forty televisions on the wall.",
+        "He works in television."
       ],
-      "senses": [],
-      "русский": "телевидение; телевизор",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The system of sending pictures and sound to homes, or the set that shows them",
+          "body": [
+            "(телевидение; телевизор)"
+          ],
+          "examples": [
+            "He works in television.",
+            "There's a television in every room of the hotel.",
+            "I saw it on television last night."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The set you watch programs on, or the medium of broadcasting itself",
+          "body": [
+            "(телевизор; телевидение)",
+            "---"
+          ],
+          "examples": [
+            "They bought a bigger television for the basement.",
+            "The store had forty televisions on the wall.",
+            "He works in television."
+          ]
+        }
+      ],
+      "русский": "телевидение; телевизор; телевизор; телевидение",
       "plural": "televisions",
       "countability": "both — countable and uncountable with different meanings"
     },
@@ -1691,14 +2172,43 @@
       "term": "program",
       "ipa": "/ˈproʊɡræm/",
       "respell": "PROH-gram",
-      "meaning": "A single show on radio or television. ---",
+      "meaning": "Program has 2 distinct senses.",
       "examples": [
         "It's my favorite program on the radio.",
         "The program airs Sunday nights.",
-        "They canceled two programs this season."
+        "They canceled two programs this season.",
+        "He wrote a small program to sort the files.",
+        "Some of these programs won't run on my old laptop.",
+        "The program crashed as soon as I opened it."
       ],
-      "senses": [],
-      "русский": "передача, программа",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A single show on radio or television",
+          "body": [
+            "(передача, программа)"
+          ],
+          "examples": [
+            "It's my favorite program on the radio.",
+            "The program airs Sunday nights.",
+            "They canceled two programs this season."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A set of instructions that tells a computer what to do",
+          "body": [
+            "(программа)",
+            "---"
+          ],
+          "examples": [
+            "He wrote a small program to sort the files.",
+            "Some of these programs won't run on my old laptop.",
+            "The program crashed as soon as I opened it."
+          ]
+        }
+      ],
+      "русский": "передача, программа; программа",
       "plural": "programs",
       "countability": "countable",
       "contrast": "American spelling program; the British write programme for a broadcast."
@@ -1752,14 +2262,43 @@
       "term": "advertisement",
       "ipa": "/ˌædvərˈtaɪzmənt/",
       "respell": "ad-vur-TYZ-muhnt",
-      "meaning": "A notice or short film that tries to sell something or attract attention. ---",
+      "meaning": "Advertisement has 2 distinct senses.",
       "examples": [
         "There's a full-page advertisement on the back.",
         "The magazine is mostly advertisements now.",
-        "They pulled the advertisement after complaints."
+        "They pulled the advertisement after complaints.",
+        "They ran an advertisement in the Sunday paper.",
+        "The site is buried in advertisements.",
+        "That advertisement has been on the radio for months."
       ],
-      "senses": [],
-      "русский": "рекламное объявление",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A notice or short film that tries to sell something or attract attention",
+          "body": [
+            "(рекламное объявление)"
+          ],
+          "examples": [
+            "There's a full-page advertisement on the back.",
+            "The magazine is mostly advertisements now.",
+            "They pulled the advertisement after complaints."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A public notice paid for to sell something or to spread information",
+          "body": [
+            "(реклама, объявление)",
+            "---"
+          ],
+          "examples": [
+            "They ran an advertisement in the Sunday paper.",
+            "The site is buried in advertisements.",
+            "That advertisement has been on the radio for months."
+          ]
+        }
+      ],
+      "русский": "рекламное объявление; реклама, объявление",
       "plural": "advertisements",
       "countability": "countable",
       "contrast": "American ad-vur-TYZ-muhnt; the British say uhd-VUR-tis-muhnt."
@@ -1768,13 +2307,42 @@
       "term": "ad",
       "ipa": "/æd/",
       "respell": "AD",
-      "meaning": "A short everyday word for an advertisement. ---",
+      "meaning": "Ad has 2 distinct senses.",
       "examples": [
         "I skipped the ad after five seconds.",
         "They put an ad in the paper for a dishwasher.",
-        "The site is covered in ads."
+        "The site is covered in ads.",
+        "I paid extra to skip the ads.",
+        "She found the apartment through a classified ad.",
+        "That ad plays before every single video."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A short everyday word for an advertisement",
+          "body": [
+            "(реклама, объявление)"
+          ],
+          "examples": [
+            "I skipped the ad after five seconds.",
+            "They put an ad in the paper for a dishwasher.",
+            "The site is covered in ads."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short form of advertisement, used constantly in speech",
+          "body": [
+            "(реклама, объявление)",
+            "---"
+          ],
+          "examples": [
+            "I paid extra to skip the ads.",
+            "She found the apartment through a classified ad.",
+            "That ad plays before every single video."
+          ]
+        }
+      ],
       "русский": "реклама, объявление",
       "plural": "ads",
       "countability": "countable",
@@ -1889,14 +2457,43 @@
       "term": "segment",
       "ipa": "/ˈsɛɡmənt/",
       "respell": "SEG-muhnt",
-      "meaning": "One separate part of a television or radio program. ---",
+      "meaning": "Segment has 2 distinct senses.",
       "examples": [
         "They cut my segment for time.",
         "The cooking segment airs after the weather.",
-        "The show is built out of six short segments."
+        "The show is built out of six short segments.",
+        "Draw a straight line segment between the two points.",
+        "Peel the orange and separate the segments.",
+        "Each segment of the chart is a different color."
       ],
-      "senses": [],
-      "русский": "сюжет, рубрика (в передаче)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "One separate part of a television or radio program",
+          "body": [
+            "(сюжет, рубрика (в передаче))"
+          ],
+          "examples": [
+            "They cut my segment for time.",
+            "The cooking segment airs after the weather.",
+            "The show is built out of six short segments."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the parts something is divided into",
+          "body": [
+            "(отрезок, сегмент)",
+            "---"
+          ],
+          "examples": [
+            "Draw a straight line segment between the two points.",
+            "Peel the orange and separate the segments.",
+            "Each segment of the chart is a different color."
+          ]
+        }
+      ],
+      "русский": "сюжет, рубрика (в передаче); отрезок, сегмент",
       "plural": "segments",
       "countability": "countable",
       "contrast": "Noun SEG-muhnt with the stress up front; the verb is seg-MENT."
@@ -1905,14 +2502,43 @@
       "term": "script",
       "ipa": "/skrɪpt/",
       "respell": "SKRIPT",
-      "meaning": "The written words of a film, play, or broadcast. ---",
+      "meaning": "Script has 2 distinct senses.",
       "examples": [
         "The anchor read straight from the script.",
         "She's on the fourth draft of the script.",
-        "They send out scripts a week before taping."
+        "They send out scripts a week before taping.",
+        "I wrote a script to rename all the files.",
+        "These scripts run every night at two.",
+        "The backup script failed silently."
       ],
-      "senses": [],
-      "русский": "сценарий, текст (передачи)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The written words of a film, play, or broadcast",
+          "body": [
+            "(сценарий, текст (передачи))"
+          ],
+          "examples": [
+            "The anchor read straight from the script.",
+            "She's on the fourth draft of the script.",
+            "They send out scripts a week before taping."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A short program that automates a task",
+          "body": [
+            "(скрипт, сценарий)",
+            "---"
+          ],
+          "examples": [
+            "I wrote a script to rename all the files.",
+            "These scripts run every night at two.",
+            "The backup script failed silently."
+          ]
+        }
+      ],
+      "русский": "сценарий, текст (передачи); скрипт, сценарий",
       "plural": "scripts",
       "countability": "countable"
     },
@@ -1965,14 +2591,43 @@
       "term": "soundtrack",
       "ipa": "/ˈsaʊndtræk/",
       "respell": "SOWND-trak",
-      "meaning": "The music used in a film or show, often sold as an album. ---",
+      "meaning": "Soundtrack has 2 distinct senses.",
       "examples": [
         "The soundtrack is better than the movie.",
         "She bought the soundtrack on vinyl.",
-        "Both soundtracks were nominated."
+        "Both soundtracks were nominated.",
+        "The soundtrack is better than the movie.",
+        "He composed the soundtrack in two weeks.",
+        "She owns the soundtracks to all of them."
       ],
-      "senses": [],
-      "русский": "саундтрек, звуковая дорожка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The music used in a film or show, often sold as an album",
+          "body": [
+            "(саундтрек, звуковая дорожка)"
+          ],
+          "examples": [
+            "The soundtrack is better than the movie.",
+            "She bought the soundtrack on vinyl.",
+            "Both soundtracks were nominated."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The music that goes with a film or a game",
+          "body": [
+            "(саундтрек, музыка к фильму)",
+            "---"
+          ],
+          "examples": [
+            "The soundtrack is better than the movie.",
+            "He composed the soundtrack in two weeks.",
+            "She owns the soundtracks to all of them."
+          ]
+        }
+      ],
+      "русский": "саундтрек, звуковая дорожка; саундтрек, музыка к фильму",
       "plural": "soundtracks",
       "countability": "countable"
     },
@@ -2025,14 +2680,43 @@
       "term": "streaming",
       "ipa": "/ˈstriːmɪŋ/",
       "respell": "STREE-ming",
-      "meaning": "Watching or listening to something over the internet as it arrives, without downloading it. ---",
+      "meaning": "Streaming has 2 distinct senses.",
       "examples": [
         "Streaming killed the video store.",
         "The show does well in streaming.",
-        "Our streaming keeps buffering tonight."
+        "Our streaming keeps buffering tonight.",
+        "Streaming has pretty much replaced cable.",
+        "The streaming kept stopping to buffer.",
+        "We spend more on streaming than we ever did on movies."
       ],
-      "senses": [],
-      "русский": "стриминг, потоковое вещание",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Watching or listening to something over the internet as it arrives, without downloading it",
+          "body": [
+            "(стриминг, потоковое вещание)"
+          ],
+          "examples": [
+            "Streaming killed the video store.",
+            "The show does well in streaming.",
+            "Our streaming keeps buffering tonight."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Playing video or music straight from the internet instead of downloading it",
+          "body": [
+            "(потоковое вещание)",
+            "---"
+          ],
+          "examples": [
+            "Streaming has pretty much replaced cable.",
+            "The streaming kept stopping to buffer.",
+            "We spend more on streaming than we ever did on movies."
+          ]
+        }
+      ],
+      "русский": "стриминг, потоковое вещание; потоковое вещание",
       "countability": "uncountable"
     },
     {
@@ -2143,13 +2827,41 @@
       "term": "listener",
       "ipa": "/ˈlɪsənər/",
       "respell": "LIS-uh-nur",
-      "meaning": "A person listening to a radio station or podcast.",
+      "meaning": "Listener has 2 distinct senses.",
       "examples": [
         "The station has 200,000 weekly listeners.",
         "A listener wrote in with the answer.",
-        "He thanked his listeners on the last show."
+        "He thanked his listeners on the last show.",
+        "The show has about a million listeners.",
+        "A listener called in with the answer.",
+        "He's a good listener, which is rare."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A person listening to a radio station or podcast",
+          "body": [
+            "(слушатель)"
+          ],
+          "examples": [
+            "The station has 200,000 weekly listeners.",
+            "A listener wrote in with the answer.",
+            "He thanked his listeners on the last show."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Someone who listens to a program, podcast, or person",
+          "body": [
+            "(слушатель)"
+          ],
+          "examples": [
+            "The show has about a million listeners.",
+            "A listener called in with the answer.",
+            "He's a good listener, which is rare."
+          ]
+        }
+      ],
       "русский": "слушатель",
       "plural": "listeners",
       "countability": "countable",

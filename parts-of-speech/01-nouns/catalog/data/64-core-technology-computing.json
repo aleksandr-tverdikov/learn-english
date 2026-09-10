@@ -51,13 +51,42 @@
       "term": "internet",
       "ipa": "/ˈɪntərnɛt/",
       "respell": "IN-tur-net",
-      "meaning": "The worldwide network that connects computers to each other. ---",
+      "meaning": "Internet has 2 distinct senses.",
       "examples": [
         "The internet went out during the storm.",
         "She found the recipe on the internet.",
-        "We have no internet at the cabin."
+        "We have no internet at the cabin.",
+        "I found the recipe on the internet.",
+        "Our internet has been slow since the storm.",
+        "She grew up before the internet was in every home."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "The worldwide network that connects computers to each other",
+          "body": [
+            "(интернет)"
+          ],
+          "examples": [
+            "The internet went out during the storm.",
+            "She found the recipe on the internet.",
+            "We have no internet at the cabin."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The worldwide system of connected computer networks",
+          "body": [
+            "(интернет)",
+            "---"
+          ],
+          "examples": [
+            "I found the recipe on the internet.",
+            "Our internet has been slow since the storm.",
+            "She grew up before the internet was in every home."
+          ]
+        }
+      ],
       "русский": "интернет",
       "countability": "uncountable"
     },
@@ -95,13 +124,42 @@
       "term": "signal",
       "ipa": "/ˈsɪɡnəl/",
       "respell": "SIG-nul",
-      "meaning": "A wave or pulse that carries information to a phone, radio, or other device. ---",
+      "meaning": "Signal has 2 distinct senses.",
       "examples": [
         "There's no signal out here in the canyon.",
         "The signal gets weak in the basement.",
-        "Cell signals are much better since they put up the new tower."
+        "Cell signals are much better since they put up the new tower.",
+        "There's no signal in this parking garage.",
+        "The signal gets weak once you pass the county line.",
+        "Cell signals are terrible in the mountains."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A wave or pulse that carries information to a phone, radio, or other device",
+          "body": [
+            "(сигнал)"
+          ],
+          "examples": [
+            "There's no signal out here in the canyon.",
+            "The signal gets weak in the basement.",
+            "Cell signals are much better since they put up the new tower."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The radio waves that carry a phone call or internet connection",
+          "body": [
+            "(сигнал)",
+            "---"
+          ],
+          "examples": [
+            "There's no signal in this parking garage.",
+            "The signal gets weak once you pass the county line.",
+            "Cell signals are terrible in the mountains."
+          ]
+        }
+      ],
       "русский": "сигнал",
       "plural": "signals",
       "countability": "countable"
@@ -213,14 +271,43 @@
       "term": "profile",
       "ipa": "/ˈproʊfaɪl/",
       "respell": "PROH-fyle",
-      "meaning": "The page that holds your name, photo, and details on a site. ---",
+      "meaning": "Profile has 2 distinct senses.",
       "examples": [
         "Update your profile with the new job title.",
         "A lot of these profiles are fake.",
-        "I couldn't find her profile anywhere."
+        "I couldn't find her profile anywhere.",
+        "The coin shows the president in profile.",
+        "She has a lovely profile.",
+        "The artist sketched both profiles."
       ],
-      "senses": [],
-      "русский": "профиль",
+      "senses": [
+        {
+          "n": "1",
+          "head": "The page that holds your name, photo, and details on a site",
+          "body": [
+            "(профиль)"
+          ],
+          "examples": [
+            "Update your profile with the new job title.",
+            "A lot of these profiles are fake.",
+            "I couldn't find her profile anywhere."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The shape of a face or object seen from the side",
+          "body": [
+            "(профиль (вид сбоку))",
+            "---"
+          ],
+          "examples": [
+            "The coin shows the president in profile.",
+            "She has a lovely profile.",
+            "The artist sketched both profiles."
+          ]
+        }
+      ],
+      "русский": "профиль; профиль (вид сбоку)",
       "plural": "profiles",
       "countability": "countable"
     },
@@ -379,13 +466,42 @@
       "term": "hashtag",
       "ipa": "/ˈhæʃtæɡ/",
       "respell": "HASH-tag",
-      "meaning": "A word after a # sign used to label a post. ---",
+      "meaning": "Hashtag has 2 distinct senses.",
       "examples": [
         "The hashtag was trending all afternoon.",
         "Don't put fifteen hashtags on one photo.",
-        "They made up a hashtag for the conference."
+        "They made up a hashtag for the conference.",
+        "The hashtag was trending all afternoon.",
+        "Don't put twenty hashtags on one photo.",
+        "Search that hashtag and you'll find the whole thread."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A word after a # sign used to label a post",
+          "body": [
+            "(хештег)"
+          ],
+          "examples": [
+            "The hashtag was trending all afternoon.",
+            "Don't put fifteen hashtags on one photo.",
+            "They made up a hashtag for the conference."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A word marked with a # sign that groups posts on the same topic",
+          "body": [
+            "(хештег)",
+            "---"
+          ],
+          "examples": [
+            "The hashtag was trending all afternoon.",
+            "Don't put twenty hashtags on one photo.",
+            "Search that hashtag and you'll find the whole thread."
+          ]
+        }
+      ],
       "русский": "хештег",
       "plural": "hashtags",
       "countability": "countable"
@@ -425,14 +541,43 @@
       "term": "chat",
       "ipa": "/tʃæt/",
       "respell": "CHAT",
-      "meaning": "A conversation typed back and forth in real time online. ---",
+      "meaning": "Chat has 2 distinct senses.",
       "examples": [
         "Ask the question in the chat.",
         "I have about nine group chats going.",
-        "The support chat connected me to a real person."
+        "The support chat connected me to a real person.",
+        "The whole family is in one group chat.",
+        "I muted three chats this morning.",
+        "There's a live chat button on their support page."
       ],
-      "senses": [],
-      "русский": "чат",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A conversation typed back and forth in real time online",
+          "body": [
+            "(чат)"
+          ],
+          "examples": [
+            "Ask the question in the chat.",
+            "I have about nine group chats going.",
+            "The support chat connected me to a real person."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "An exchange of short typed messages online",
+          "body": [
+            "(чат, переписка)",
+            "---"
+          ],
+          "examples": [
+            "The whole family is in one group chat.",
+            "I muted three chats this morning.",
+            "There's a live chat button on their support page."
+          ]
+        }
+      ],
+      "русский": "чат; чат, переписка",
       "plural": "chats",
       "countability": "countable"
     },
@@ -495,7 +640,8 @@
       "senses": [],
       "русский": "загрузка (на сервер)",
       "plural": "uploads",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "The noun is stressed on the first syllable (UP-lohd); the verb is stressed on the second (up-LOHD)."
     },
     {
       "term": "upgrade",
@@ -517,16 +663,46 @@
       "term": "version",
       "ipa": "/ˈvɜːrʒən/",
       "respell": "VUR-zhun",
-      "meaning": "One particular form of a program or document among several. ---",
+      "meaning": "Version has 2 distinct senses.",
       "examples": [
         "Which version of the app are you running?",
         "Older versions don't support this file type.",
-        "The new version fixed the crash."
+        "The new version fixed the crash.",
+        "Which version of the app are you running?",
+        "The free version has ads.",
+        "There are two versions of that story going around."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One particular form of a program or document among several",
+          "body": [
+            "(версия)"
+          ],
+          "examples": [
+            "Which version of the app are you running?",
+            "Older versions don't support this file type.",
+            "The new version fixed the crash."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One particular form of something that exists in several forms",
+          "body": [
+            "(версия)",
+            "---"
+          ],
+          "examples": [
+            "Which version of the app are you running?",
+            "The free version has ads.",
+            "There are two versions of that story going around."
+          ]
+        }
+      ],
       "русский": "версия",
       "plural": "versions",
-      "countability": "countable"
+      "countability": "countable",
+      "contrast": "Americans say VUR-zhun with a soft zh; the British usually say VUR-shun."
     },
     {
       "term": "interface",
@@ -592,14 +768,43 @@
       "term": "plugin",
       "ipa": "/ˈplʌɡɪn/",
       "respell": "PLUG-in",
-      "meaning": "A small piece of software that adds a feature to a bigger program. ---",
+      "meaning": "Plugin has 2 distinct senses.",
       "examples": [
         "Install the plugin and restart the browser.",
         "Too many plugins will slow the site down.",
-        "There's a plugin that does the formatting for you."
+        "There's a plugin that does the formatting for you.",
+        "Install the plugin and the calendar shows up.",
+        "Too many plugins will slow the site down.",
+        "There's a free plugin that does exactly that."
       ],
-      "senses": [],
-      "русский": "плагин",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small piece of software that adds a feature to a bigger program",
+          "body": [
+            "(плагин)"
+          ],
+          "examples": [
+            "Install the plugin and restart the browser.",
+            "Too many plugins will slow the site down.",
+            "There's a plugin that does the formatting for you."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small piece of software added to a program to give it more features",
+          "body": [
+            "(плагин, дополнение)",
+            "---"
+          ],
+          "examples": [
+            "Install the plugin and the calendar shows up.",
+            "Too many plugins will slow the site down.",
+            "There's a free plugin that does exactly that."
+          ]
+        }
+      ],
+      "русский": "плагин; плагин, дополнение",
       "plural": "plugins",
       "countability": "countable"
     },
@@ -607,14 +812,43 @@
       "term": "extension",
       "ipa": "/ɪkˈstɛnʃən/",
       "respell": "ik-STEN-shun",
-      "meaning": "An add-on that gives a browser or program extra abilities. ---",
+      "meaning": "Extension has 2 distinct senses.",
       "examples": [
         "I use an ad-blocking extension.",
         "Some extensions can read everything you type.",
-        "The extension stopped working after the update."
+        "The extension stopped working after the update.",
+        "I use an ad-blocking extension.",
+        "Dial the main number, then extension 214.",
+        "Disable your extensions and see if the page loads."
       ],
-      "senses": [],
-      "русский": "расширение (браузера)",
+      "senses": [
+        {
+          "n": "1",
+          "head": "An add-on that gives a browser or program extra abilities",
+          "body": [
+            "(расширение (браузера))"
+          ],
+          "examples": [
+            "I use an ad-blocking extension.",
+            "Some extensions can read everything you type.",
+            "The extension stopped working after the update."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small add-on for a browser, or an extra number that reaches one phone in an office",
+          "body": [
+            "(расширение (браузера); добавочный номер)",
+            "---"
+          ],
+          "examples": [
+            "I use an ad-blocking extension.",
+            "Dial the main number, then extension 214.",
+            "Disable your extensions and see if the page loads."
+          ]
+        }
+      ],
+      "русский": "расширение (браузера); расширение (браузера); добавочный номер",
       "plural": "extensions",
       "countability": "countable"
     },
@@ -697,14 +931,43 @@
       "term": "image",
       "ipa": "/ˈɪmɪdʒ/",
       "respell": "IM-ij",
-      "meaning": "A picture stored or shown on a screen. ---",
+      "meaning": "Image has 2 distinct senses.",
       "examples": [
         "The image is too big to email.",
         "Compress the images before you upload them.",
-        "Right-click the image and save it."
+        "Right-click the image and save it.",
+        "The company is trying to change its image.",
+        "Her image appeared on the screen.",
+        "The book is full of black and white images."
       ],
-      "senses": [],
-      "русский": "изображение, картинка",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A picture stored or shown on a screen",
+          "body": [
+            "(изображение, картинка)"
+          ],
+          "examples": [
+            "The image is too big to email.",
+            "Compress the images before you upload them.",
+            "Right-click the image and save it."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A picture of someone or something, or the way they appear to others",
+          "body": [
+            "(образ; изображение)",
+            "---"
+          ],
+          "examples": [
+            "The company is trying to change its image.",
+            "Her image appeared on the screen.",
+            "The book is full of black and white images."
+          ]
+        }
+      ],
+      "русский": "изображение, картинка; образ; изображение",
       "plural": "images",
       "countability": "countable"
     },
@@ -742,15 +1005,45 @@
       "term": "graphics",
       "ipa": "/ˈɡræfɪks/",
       "respell": "GRAF-iks",
-      "meaning": "The pictures and visual effects a computer produces. ---",
+      "meaning": "Graphics has 2 distinct senses.",
       "examples": [
         "The graphics in that game are stunning.",
         "You'll need a better card if you want smooth graphics.",
-        "The graphics look dated now."
+        "The graphics look dated now.",
+        "The graphics in that game are unbelievable.",
+        "Our laptop can't handle heavy graphics.",
+        "She does the graphics for the station's weather segment."
       ],
-      "senses": [],
-      "русский": "графика",
-      "countability": "uncountable"
+      "senses": [
+        {
+          "n": "1",
+          "head": "The pictures and visual effects a computer produces",
+          "body": [
+            "(графика)"
+          ],
+          "examples": [
+            "The graphics in that game are stunning.",
+            "You'll need a better card if you want smooth graphics.",
+            "The graphics look dated now."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "Pictures and designs made or shown by a computer",
+          "body": [
+            "(графика (изображения))",
+            "---"
+          ],
+          "examples": [
+            "The graphics in that game are unbelievable.",
+            "Our laptop can't handle heavy graphics.",
+            "She does the graphics for the station's weather segment."
+          ]
+        }
+      ],
+      "русский": "графика; графика (изображения)",
+      "countability": "uncountable",
+      "contrast": "Always ends in -s but takes a singular verb: the graphics is impressive is wrong — say the graphics are impressive."
     },
     {
       "term": "privacy",
@@ -844,14 +1137,43 @@
       "term": "phishing",
       "ipa": "/ˈfɪʃɪŋ/",
       "respell": "FISH-ing",
-      "meaning": "Tricking people into giving up passwords or card numbers with fake messages. ---",
+      "meaning": "Phishing has 2 distinct senses.",
       "examples": [
         "That email is phishing — don't click anything.",
         "The company runs phishing tests on its own staff.",
-        "Phishing still causes most break-ins."
+        "Phishing still causes most break-ins.",
+        "That email is phishing — don't click anything.",
+        "The bank sent a warning about phishing.",
+        "Our company runs phishing tests twice a year."
       ],
-      "senses": [],
-      "русский": "фишинг",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Tricking people into giving up passwords or card numbers with fake messages",
+          "body": [
+            "(фишинг)"
+          ],
+          "examples": [
+            "That email is phishing — don't click anything.",
+            "The company runs phishing tests on its own staff.",
+            "Phishing still causes most break-ins."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The trick of sending fake messages to get people to give up passwords or card numbers",
+          "body": [
+            "(фишинг (выманивание паролей))",
+            "---"
+          ],
+          "examples": [
+            "That email is phishing — don't click anything.",
+            "The bank sent a warning about phishing.",
+            "Our company runs phishing tests twice a year."
+          ]
+        }
+      ],
+      "русский": "фишинг; фишинг (выманивание паролей)",
       "countability": "uncountable",
       "contrast": "Pronounced exactly like fishing; only the spelling differs."
     },
@@ -1022,13 +1344,42 @@
       "term": "error",
       "ipa": "/ˈɛrər/",
       "respell": "EH-rur",
-      "meaning": "A mistake that stops a program from working correctly. ---",
+      "meaning": "Error has 2 distinct senses.",
       "examples": [
         "I got an error when I tried to save.",
         "The log is full of the same errors.",
-        "The error message wasn't very helpful."
+        "The error message wasn't very helpful.",
+        "I keep getting an error when I try to save.",
+        "The log is full of errors.",
+        "It was a simple typing error."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A mistake that stops a program from working correctly",
+          "body": [
+            "(ошибка)"
+          ],
+          "examples": [
+            "I got an error when I tried to save.",
+            "The log is full of the same errors.",
+            "The error message wasn't very helpful."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A mistake, or a message telling you something went wrong",
+          "body": [
+            "(ошибка)",
+            "---"
+          ],
+          "examples": [
+            "I keep getting an error when I try to save.",
+            "The log is full of errors.",
+            "It was a simple typing error."
+          ]
+        }
+      ],
       "русский": "ошибка",
       "plural": "errors",
       "countability": "countable"
@@ -1052,14 +1403,43 @@
       "term": "cache",
       "ipa": "/kæʃ/",
       "respell": "KASH",
-      "meaning": "A store of data kept nearby so it can be fetched again quickly. ---",
+      "meaning": "Cache has 2 distinct senses.",
       "examples": [
         "Clear your cache and try again.",
         "The caches fill up over time.",
-        "The page is being served from the cache."
+        "The page is being served from the cache.",
+        "Clear your cache and try the page again.",
+        "The browser cache was holding an old version.",
+        "Both caches filled up within a day."
       ],
-      "senses": [],
-      "русский": "кэш",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A store of data kept nearby so it can be fetched again quickly",
+          "body": [
+            "(кэш)"
+          ],
+          "examples": [
+            "Clear your cache and try again.",
+            "The caches fill up over time.",
+            "The page is being served from the cache."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A store of recently used data that a device keeps so it loads faster next time",
+          "body": [
+            "(кеш (временная память))",
+            "---"
+          ],
+          "examples": [
+            "Clear your cache and try the page again.",
+            "The browser cache was holding an old version.",
+            "Both caches filled up within a day."
+          ]
+        }
+      ],
+      "русский": "кэш; кеш (временная память)",
       "plural": "caches",
       "countability": "countable",
       "contrast": "Pronounced exactly like cash. It is not \"ka-SHAY\" — that is the separate word cachet."
@@ -1129,14 +1509,43 @@
       "term": "storage",
       "ipa": "/ˈstɔːrɪdʒ/",
       "respell": "STOR-ij",
-      "meaning": "Space on a device or online where files are kept. ---",
+      "meaning": "Storage has 2 distinct senses.",
       "examples": [
         "I'm out of storage on my phone.",
         "Cloud storage is cheap now.",
-        "The laptop comes with a terabyte of storage."
+        "The laptop comes with a terabyte of storage.",
+        "Battery storage lets the grid save solar power for evening.",
+        "The gas is kept in underground storage over the summer.",
+        "They rented extra storage for the spare parts."
       ],
-      "senses": [],
-      "русский": "хранилище (памяти), место для данных",
+      "senses": [
+        {
+          "n": "1",
+          "head": "Space on a device or online where files are kept",
+          "body": [
+            "(хранилище (памяти), место для данных)"
+          ],
+          "examples": [
+            "I'm out of storage on my phone.",
+            "Cloud storage is cheap now.",
+            "The laptop comes with a terabyte of storage."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The keeping of fuel, energy, or goods until they are needed",
+          "body": [
+            "(хранение; хранилище)",
+            "---"
+          ],
+          "examples": [
+            "Battery storage lets the grid save solar power for evening.",
+            "The gas is kept in underground storage over the summer.",
+            "They rented extra storage for the spare parts."
+          ]
+        }
+      ],
+      "русский": "хранилище (памяти), место для данных; хранение; хранилище",
       "countability": "uncountable"
     },
     {
@@ -1173,14 +1582,43 @@
       "term": "disk",
       "ipa": "/dɪsk/",
       "respell": "DISK",
-      "meaning": "A flat piece of storage that a computer reads and writes data on. ---",
+      "meaning": "Disk has 2 distinct senses.",
       "examples": [
         "The disk is running out of space.",
         "Both disks are mirrored, so nothing is lost.",
-        "Copy the file to the disk first."
+        "Copy the file to the disk first.",
+        "The moon was a pale disk in the sky.",
+        "Slice the carrots into thin disks.",
+        "A metal disk covers the drain."
       ],
-      "senses": [],
-      "русский": "диск",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A flat piece of storage that a computer reads and writes data on",
+          "body": [
+            "(диск)"
+          ],
+          "examples": [
+            "The disk is running out of space.",
+            "Both disks are mirrored, so nothing is lost.",
+            "Copy the file to the disk first."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A thin flat round object or shape",
+          "body": [
+            "(диск, круглая пластина)",
+            "---"
+          ],
+          "examples": [
+            "The moon was a pale disk in the sky.",
+            "Slice the carrots into thin disks.",
+            "A metal disk covers the drain."
+          ]
+        }
+      ],
+      "русский": "диск; диск, круглая пластина",
       "plural": "disks",
       "countability": "countable",
       "contrast": "American computing uses disk with a k; disc with a c is for music and movies — a compact disc."
@@ -1205,14 +1643,43 @@
       "term": "desktop",
       "ipa": "/ˈdɛsktɑːp/",
       "respell": "DESK-tahp",
-      "meaning": "A computer built to sit on a desk rather than be carried around. ---",
+      "meaning": "Desktop has 2 distinct senses.",
       "examples": [
         "He does all his editing on a desktop.",
         "The office still runs on desktops.",
-        "A desktop gives you more power for the money than a laptop."
+        "A desktop gives you more power for the money than a laptop.",
+        "The file is right there on my desktop.",
+        "He works on a desktop and travels with a tablet.",
+        "The office replaced all the old desktops last year."
       ],
-      "senses": [],
-      "русский": "настольный компьютер, десктоп",
+      "senses": [
+        {
+          "n": "1",
+          "head": "A computer built to sit on a desk rather than be carried around",
+          "body": [
+            "(настольный компьютер, десктоп)"
+          ],
+          "examples": [
+            "He does all his editing on a desktop.",
+            "The office still runs on desktops.",
+            "A desktop gives you more power for the money than a laptop."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The main screen of a computer, or a computer meant to sit on a desk",
+          "body": [
+            "(рабочий стол (экрана); настольный компьютер)",
+            "---"
+          ],
+          "examples": [
+            "The file is right there on my desktop.",
+            "He works on a desktop and travels with a tablet.",
+            "The office replaced all the old desktops last year."
+          ]
+        }
+      ],
+      "русский": "настольный компьютер, десктоп; рабочий стол (экрана); настольный компьютер",
       "plural": "desktops",
       "countability": "countable"
     },
@@ -1220,13 +1687,42 @@
       "term": "phone",
       "ipa": "/foʊn/",
       "respell": "FOHN",
-      "meaning": "A device for talking to someone at a distance, now usually a handheld one. ---",
+      "meaning": "Phone has 2 distinct senses.",
       "examples": [
         "My phone died in the middle of the call.",
         "Please put your phones away during the exam.",
-        "She left her phone in the car."
+        "She left her phone in the car.",
+        "My phone died in the middle of the call.",
+        "Put your phones away during dinner.",
+        "She answered the phone on the first ring."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A device for talking to someone at a distance, now usually a handheld one",
+          "body": [
+            "(телефон)"
+          ],
+          "examples": [
+            "My phone died in the middle of the call.",
+            "Please put your phones away during the exam.",
+            "She left her phone in the car."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A device used to talk to or message people at a distance",
+          "body": [
+            "(телефон)",
+            "---"
+          ],
+          "examples": [
+            "My phone died in the middle of the call.",
+            "Put your phones away during dinner.",
+            "She answered the phone on the first ring."
+          ]
+        }
+      ],
       "русский": "телефон",
       "plural": "phones",
       "countability": "countable"
@@ -1341,13 +1837,42 @@
       "term": "robot",
       "ipa": "/ˈroʊbɑːt/",
       "respell": "ROH-baht",
-      "meaning": "A machine that can carry out tasks on its own. ---",
+      "meaning": "Robot has 2 distinct senses.",
       "examples": [
         "A robot welds the doors on the assembly line.",
         "The warehouse uses robots to move the shelves around.",
-        "We have a little robot that vacuums the floor."
+        "We have a little robot that vacuums the floor.",
+        "A robot vacuums their living room every morning.",
+        "The plant uses robots to weld the frames.",
+        "That customer service line sounds like a robot."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A machine that can carry out tasks on its own",
+          "body": [
+            "(робот)"
+          ],
+          "examples": [
+            "A robot welds the doors on the assembly line.",
+            "The warehouse uses robots to move the shelves around.",
+            "We have a little robot that vacuums the floor."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A machine that can do work on its own, often controlled by a computer",
+          "body": [
+            "(робот)",
+            "---"
+          ],
+          "examples": [
+            "A robot vacuums their living room every morning.",
+            "The plant uses robots to weld the frames.",
+            "That customer service line sounds like a robot."
+          ]
+        }
+      ],
       "русский": "робот",
       "plural": "robots",
       "countability": "countable"
@@ -1552,13 +2077,42 @@
       "term": "gadget",
       "ipa": "/ˈɡædʒɪt/",
       "respell": "GAJ-it",
-      "meaning": "A small clever device that does one particular job. ---",
+      "meaning": "Gadget has 2 distinct senses.",
       "examples": [
         "He buys every new gadget that comes out.",
         "The kitchen drawer is full of gadgets we never use.",
-        "It's a handy little gadget for opening jars."
+        "It's a handy little gadget for opening jars.",
+        "He buys every new gadget that comes out.",
+        "The kitchen is full of gadgets nobody uses.",
+        "It's a handy little gadget for the car."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "A small clever device that does one particular job",
+          "body": [
+            "(гаджет, устройство)"
+          ],
+          "examples": [
+            "He buys every new gadget that comes out.",
+            "The kitchen drawer is full of gadgets we never use.",
+            "It's a handy little gadget for opening jars."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "A small clever device, usually electronic",
+          "body": [
+            "(гаджет, устройство)",
+            "---"
+          ],
+          "examples": [
+            "He buys every new gadget that comes out.",
+            "The kitchen is full of gadgets nobody uses.",
+            "It's a handy little gadget for the car."
+          ]
+        }
+      ],
       "русский": "гаджет, устройство",
       "plural": "gadgets",
       "countability": "countable"
@@ -1671,13 +2225,42 @@
       "term": "component",
       "ipa": "/kəmˈpoʊnənt/",
       "respell": "kum-POH-nunt",
-      "meaning": "One of the parts that something larger is made of. ---",
+      "meaning": "Component has 2 distinct senses.",
       "examples": [
         "The failed component costs four dollars.",
         "Most of the components are made overseas.",
-        "Every component is tested before it ships."
+        "Every component is tested before it ships.",
+        "A single component held up the whole order.",
+        "Most of the components come from three suppliers.",
+        "They test every component before assembly."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "One of the parts that something larger is made of",
+          "body": [
+            "(компонент, деталь)"
+          ],
+          "examples": [
+            "The failed component costs four dollars.",
+            "Most of the components are made overseas.",
+            "Every component is tested before it ships."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "One of the parts that a machine or product is built from",
+          "body": [
+            "(компонент, деталь)",
+            "---"
+          ],
+          "examples": [
+            "A single component held up the whole order.",
+            "Most of the components come from three suppliers.",
+            "They test every component before assembly."
+          ]
+        }
+      ],
       "русский": "компонент, деталь",
       "plural": "components",
       "countability": "countable"

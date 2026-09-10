@@ -916,15 +916,23 @@ Any of several small, bold breeds of dog bred to hunt animals in burrows.
 ### retriever
 
 **Pronunciation:** /rɪˈtriːvər/ &middot; *rih-TREE-vur*
-**Русский:** ретривер
+**Русский:** ретривер; ретривер (апортирующая собака)
 **Plural:** *retrievers*
 **Countability:** countable
 
-A breed of gundog trained to bring back shot birds.
+Retriever has 2 distinct senses.
+
+**1. A breed of gundog trained to bring back shot birds.** (ретривер)
 
 1. A golden *retriever* is good with kids.
 2. The *retriever* brought the stick right back.
 3. *Retrievers* love the water.
+
+**2. A dog trained to bring back birds that a hunter has shot.** (ретривер (апортирующая собака))
+
+4. The *retriever* swam out and brought back both ducks.
+5. *Retrievers* love cold water more than any other breed.
+6. Their black *retriever* is twelve years old and still works.
 
 ---
 

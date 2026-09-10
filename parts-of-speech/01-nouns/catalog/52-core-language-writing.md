@@ -546,15 +546,23 @@ The set of forms a verb takes for different persons and tenses.
 ### gender
 
 **Pronunciation:** /ˈdʒɛndər/ &middot; *JEN-dur*
-**Русский:** род (грамматический)
+**Русский:** род (грамматический); пол, гендер
 **Plural:** *genders*
 **Countability:** countable
 
-The class a noun belongs to in some languages, such as masculine or feminine.
+Gender has 2 distinct senses.
+
+**1. The class a noun belongs to in some languages, such as masculine or feminine.** (род (грамматический))
 
 1. Russian nouns have *gender*, and English ones don't.
 2. You have to learn the *gender* along with the word.
 3. German has three *genders*.
+
+**2. The state of being male or female, especially as a social role.** (пол, гендер)
+
+4. The pay gap between *genders* is narrowing.
+5. The survey does not ask about *gender*.
+6. Both *genders* were represented on the panel.
 
 ---
 
@@ -1136,11 +1144,19 @@ An informal name used instead of someone's real name.
 **Countability:** countable
 **Contrast:** Americans usually say last name in speech and keep surname for forms and paperwork.
 
-The family name that comes after a person's given name.
+Surname has 2 distinct senses.
+
+**1. The family name that comes after a person's given name.** (фамилия)
 
 1. Smith is the most common *surname* in the country.
 2. She kept her *surname* after the wedding.
 3. Both *surnames* are hyphenated on the form.
+
+**2. A family name, shared by parents and children.** (фамилия)
+
+4. Her *surname* is hard to spell.
+5. Both *surnames* appear on the birth certificate.
+6. He kept his mother's *surname*.
 
 ---
 

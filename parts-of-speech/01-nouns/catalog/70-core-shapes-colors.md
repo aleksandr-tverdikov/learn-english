@@ -420,15 +420,23 @@ A curve that winds around a center point, getting wider or tighter.
 ### coil
 
 **Pronunciation:** /kɔɪl/ &middot; *KOYL*
-**Русский:** виток, моток (спираль)
+**Русский:** виток, моток (спираль); катушка (провода)
 **Plural:** *coils*
 **Countability:** countable
 
-A length of something wound into a series of rings.
+Coil has 2 distinct senses.
+
+**1. A length of something wound into a series of rings.** (виток, моток (спираль))
 
 1. A *coil* of rope hung by the door.
 2. The heating *coils* glowed red.
 3. He unwound the *coil* of wire.
+
+**2. Wire wound into loops so that it makes or responds to a magnetic field.** (катушка (провода))
+
+4. The *coil* in the ignition had gone bad.
+5. Copper *coils* surround the iron core.
+6. Heat from the *coil* warms the water.
 
 ---
 
@@ -510,15 +518,23 @@ The outside or top layer of something.
 ### grid
 
 **Pronunciation:** /ɡrɪd/ &middot; *GRID*
-**Русский:** сетка, решётка
+**Русский:** сетка, решётка; энергосистема, электросеть
 **Plural:** *grids*
 **Countability:** countable
 
-A pattern of straight lines crossing to form squares.
+Grid has 2 distinct senses.
+
+**1. A pattern of straight lines crossing to form squares.** (сетка, решётка)
 
 1. The city is laid out on a *grid*.
 2. Draw a *grid* of nine squares.
 3. Photos are arranged in neat *grids* on the page.
+
+**2. The network of lines and stations that carries electricity across a region.** (энергосистема, электросеть)
+
+4. The heat wave pushed the *grid* to its limit.
+5. Their cabin is off the *grid* entirely.
+6. Texas runs its own *grid*, separate from the rest of the country.
 
 ---
 
@@ -555,15 +571,23 @@ A long narrow cut in a surface.
 ### crease
 
 **Pronunciation:** /kriːs/ &middot; *KREESS*
-**Русский:** складка, залом, сгиб
+**Русский:** складка, залом, сгиб; складка; стрелка (на брюках)
 **Plural:** *creases*
 **Countability:** countable
 
-A line made in cloth or paper by folding or crushing it.
+Crease has 2 distinct senses.
+
+**1. A line made in cloth or paper by folding or crushing it.** (складка, залом, сгиб)
 
 1. Iron the *crease* out of the shirt.
 2. The map has a *crease* right across the city.
 3. His pants had sharp *creases* down the front.
+
+**2. A sharp line pressed into cloth, either on purpose or by accident.** (складка; стрелка (на брюках))
+
+4. His trousers had a knife-sharp *crease*.
+5. The shirt came out of the suitcase full of *creases*.
+6. Iron the *crease* back in.
 
 ---
 
@@ -660,31 +684,47 @@ A rounded swelling that sticks out from a flat surface.
 ### pattern
 
 **Pronunciation:** /ˈpætərn/ &middot; *PAT-urn*
-**Русский:** узор, рисунок (на ткани)
+**Русский:** узор, рисунок (на ткани); выкройка; узор
 **Plural:** *patterns*
 **Countability:** countable
 
-A design of shapes or colors that repeats.
+Pattern has 2 distinct senses.
+
+**1. A design of shapes or colors that repeats.** (узор, рисунок (на ткани))
 
 1. The wallpaper has a floral *pattern*.
 2. I like the tile, but not the *pattern*.
 3. The store sells fabric in dozens of *patterns*.
+
+**2. A paper shape used to cut out the pieces of a garment, or a design on cloth.** (выкройка; узор)
+
+4. Pin the *pattern* to the fabric before you cut.
+5. She bought a *pattern* for a summer dress.
+6. The two fabrics have very similar *patterns*.
 
 ---
 
 ### plaid
 
 **Pronunciation:** /plæd/ &middot; *PLAD*
-**Русский:** шотландка, клетчатый узор
+**Русский:** шотландка, клетчатый узор; клетчатая ткань, шотландка
 **Plural:** *plaids*
 **Countability:** countable
 **Contrast:** Spelled with ai but pronounced PLAD, rhyming with sad.
 
-A pattern of crossing colored stripes forming squares.
+Plaid has 2 distinct senses.
+
+**1. A pattern of crossing colored stripes forming squares.** (шотландка, клетчатый узор)
 
 1. He always wears a red flannel *plaid*.
 2. The blanket is a soft green *plaid*.
 3. The store had *plaids* in every color.
+
+**2. Cloth woven with crossing bands of color in a checked pattern.** (клетчатая ткань, шотландка)
+
+4. Every guy in the room had on a *plaid* shirt.
+5. She bought two yards of green *plaid*.
+6. The store was full of loud *plaids*.
 
 ---
 
@@ -1081,16 +1121,24 @@ A dull yellowish green.
 ### khaki
 
 **Pronunciation:** /ˈkæki/ &middot; *KAK-ee*
-**Русский:** хаки (жёлто-коричневый цвет)
+**Русский:** хаки (жёлто-коричневый цвет); хаки (ткань и цвет); мн. ч. брюки цвета хаки
 **Plural:** *khakis*
 **Countability:** countable
 **Contrast:** Americans say KAK-ee; the British say KAH-kee. In the plural, khakis usually means khaki pants.
 
-A dull yellowish brown, often used for uniforms and pants.
+Khaki has 2 distinct senses.
+
+**1. A dull yellowish brown, often used for uniforms and pants.** (хаки (жёлто-коричневый цвет))
 
 1. He showed up in *khaki* and a polo shirt.
 2. The tent is *khaki* so it blends in.
 3. I keep two pairs of *khakis* for work.
+
+**2. A dull yellowish-brown cotton cloth, or in the plural, pants made from it.** (хаки (ткань и цвет); мн. ч. брюки цвета хаки)
+
+4. The uniform was plain *khaki*.
+5. He wore *khakis* and a blue blazer.
+6. My *khakis* need to go to the cleaners.
 
 ---
 
@@ -1257,15 +1305,23 @@ A soft gentle shine on a surface.
 ### luster
 
 **Pronunciation:** /ˈlʌstər/ &middot; *LUS-tur*
-**Русский:** блеск, лоск
+**Русский:** блеск, лоск; блеск, лоск (ткани)
 **Countability:** uncountable
 **Contrast:** American spelling; the British write lustre.
 
-The soft glowing shine of something like a pearl or polished metal.
+Luster has 2 distinct senses.
+
+**1. The soft glowing shine of something like a pearl or polished metal.** (блеск, лоск)
 
 1. The old coins have lost their *luster*.
 2. Real pearls have a deep *luster*.
 3. The conditioner brings back the hair's *luster*.
+
+**2. The soft shine on the surface of a fabric or fiber.** (блеск, лоск (ткани))
+
+4. Silk has a *luster* that polyester can't match.
+5. The fabric loses its *luster* after a few washes.
+6. Mercerized cotton has more *luster*.
 
 ---
 
@@ -1582,16 +1638,24 @@ A piece of hair that grows or is shaped in a curve.
 ### braid
 
 **Pronunciation:** /breɪd/ &middot; *BRAYD*
-**Русский:** коса (причёска)
+**Русский:** коса (причёска); тесьма, галун; коса
 **Plural:** *braids*
 **Countability:** countable
 **Contrast:** Americans say braid; the British usually say plait, pronounced PLAT.
 
-Hair divided into three parts and woven together.
+Braid has 2 distinct senses.
+
+**1. Hair divided into three parts and woven together.** (коса (причёска))
 
 1. She wears her hair in a long *braid*.
 2. Mom put my hair in two *braids* for school.
 3. The *braid* came loose during practice.
+
+**2. Narrow woven trim sewn onto clothing, or a length of hair plaited together.** (тесьма, галун; коса)
+
+4. The uniform had gold *braid* on the cuffs.
+5. She wore her hair in two *braids*.
+6. Sew the *braid* along the hem.
 
 ---
 

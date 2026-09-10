@@ -58,16 +58,24 @@ A vehicle with wings and engines that flies through the air.
 ### plane
 
 **Pronunciation:** /pleɪn/ &middot; *PLAYN*
-**Русский:** самолёт
+**Русский:** самолёт; плоскость
 **Plural:** *planes*
 **Countability:** countable
 **Contrast:** Sounds exactly like plain (simple, ordinary).
 
-An airplane, in everyday speech.
+Plane has 2 distinct senses.
+
+**1. An airplane, in everyday speech.** (самолёт)
 
 1. Our *plane* was delayed two hours in Chicago.
 2. I hate taking small *planes* in bad weather.
 3. We ran to catch the last *plane* out.
+
+**2. A completely flat surface that goes on in every direction.** (плоскость)
+
+4. The two lines lie in the same *plane*.
+5. Cut the block along a horizontal *plane*.
+6. The drawing shows three intersecting *planes*.
 
 ---
 
@@ -89,15 +97,24 @@ A building at an airport or station where passengers arrive and leave.
 ### runway
 
 **Pronunciation:** /ˈrʌnweɪ/ &middot; *RUHN-way*
-**Русский:** взлётно-посадочная полоса
+**Русский:** взлётно-посадочная полоса; подиум (для показа мод)
 **Plural:** *runways*
 **Countability:** countable
+**Contrast:** Americans say *runway*; the British say catwalk.
 
-The long strip of pavement where planes take off and land.
+Runway has 2 distinct senses.
+
+**1. The long strip of pavement where planes take off and land.** (взлётно-посадочная полоса)
 
 1. We sat on the *runway* for forty minutes.
 2. Ice closed both *runways* that morning.
 3. The plane turned onto the *runway* and picked up speed.
+
+**2. The long raised platform models walk along in a fashion show.** (подиум (для показа мод))
+
+4. The coat looked enormous on the *runway*.
+5. She's walked *runways* in Paris and Milan.
+6. Nothing off that *runway* is going to end up in a store.
 
 ---
 
@@ -193,15 +210,29 @@ The act of reaching a place at the end of a trip.
 ### connection
 
 **Pronunciation:** /kəˈnɛkʃən/ &middot; *kuh-NEK-shuhn*
-**Русский:** стыковочный рейс, пересадка
+**Русский:** стыковочный рейс, пересадка; соединение, подключение
 **Plural:** *connections*
 **Countability:** countable
 
-A second flight or train you change to in order to finish a trip.
+Connection has 3 distinct senses.
+
+**1. A second flight or train you change to in order to finish a trip.** (стыковочный рейс, пересадка)
 
 1. I almost missed my *connection* in Dallas.
 2. There are only two *connections* a day to that island.
 3. The gate agent rebooked my *connection*.
+
+**2. A link that lets one device exchange information with another.** (соединение, подключение)
+
+4. My *connection* keeps dropping during video calls.
+5. Hotel *connections* are usually pretty slow.
+6. Check your *connection* before you blame the app.
+
+**3. A working link between a device and a network.** (соединение, подключение)
+
+7. The video keeps freezing because my *connection* is slow.
+8. We lost our *connection* halfway through the call.
+9. Hotel *connections* are usually too slow for video.
 
 ---
 
@@ -345,6 +376,7 @@ The bags and suitcases a traveler takes on a trip.
 **Русский:** загранпаспорт
 **Plural:** *passports*
 **Countability:** countable
+**Contrast:** An American passport is for foreign travel; the domestic ID Russians call паспорт has no US equivalent.
 
 An official document that proves your nationality and lets you travel abroad.
 
@@ -387,29 +419,46 @@ The government service that checks what travelers bring into a country.
 ### immigration
 
 **Pronunciation:** /ˌɪmɪˈɡreɪʃən/ &middot; *im-ih-GRAY-shuhn*
-**Русский:** паспортный контроль; иммиграция
+**Русский:** паспортный контроль; иммиграция; иммиграция
 **Countability:** uncountable
+**Contrast:** Immigration is movement into a country; emigration is movement out of one.
 
-The desk or process where officials check travelers entering a country.
+Immigration has 2 distinct senses.
+
+**1. The desk or process where officials check travelers entering a country.** (паспортный контроль; иммиграция)
 
 1. The line at *immigration* was enormous.
 2. *Immigration* asked how long I was staying.
 3. You clear *immigration* before you pick up your bags.
+
+**2. The movement of people into a country to live there.** (иммиграция)
+
+4. *Immigration* dominated the debate.
+5. He wants to cut legal *immigration* in half.
+6. The *immigration* system has not been updated in years.
 
 ---
 
 ### checkpoint
 
 **Pronunciation:** /ˈtʃɛkpɔɪnt/ &middot; *CHEK-poynt*
-**Русский:** контрольно-пропускной пункт
+**Русский:** контрольно-пропускной пункт; контрольно-пропускной пункт, блокпост
 **Plural:** *checkpoints*
 **Countability:** countable
 
-A place where officials stop people to inspect them or their documents.
+Checkpoint has 2 distinct senses.
+
+**1. A place where officials stop people to inspect them or their documents.** (контрольно-пропускной пункт)
 
 1. There's a security *checkpoint* before the gates.
 2. We passed two *checkpoints* on the mountain road.
 3. Take your laptop out at the *checkpoint*.
+
+**2. A place on a road where soldiers stop and search travelers.** (контрольно-пропускной пункт, блокпост)
+
+4. Soldiers stopped the car at a *checkpoint*.
+5. There are *checkpoints* on every road out of the city.
+6. The *checkpoint* closes after dark.
 
 ---
 
@@ -432,14 +481,34 @@ An official statement listing what you are bringing into a country.
 ### security
 
 **Pronunciation:** /sɪˈkjʊrəti/ &middot; *sih-KYOOR-ih-tee*
-**Русский:** досмотр; служба безопасности
+**Русский:** досмотр; служба безопасности; безопасность; безопасность (защита данных); безопасность, защита
 **Countability:** uncountable
 
-The screening area and staff that check passengers before a flight.
+Security has 4 distinct senses.
+
+**1. The screening area and staff that check passengers before a flight.** (досмотр; служба безопасности)
 
 1. Get to the airport early; *security* is slow today.
 2. *Security* made me throw out my water bottle.
 3. We went through *security* in five minutes.
+
+**2. Protection of a country or people from attack and danger.** (безопасность)
+
+4. National *security* was the reason they gave.
+5. *Security* at the airport was unusually tight.
+6. The committee meets to discuss border *security*.
+
+**3. Protection of computers and data from theft or damage.** (безопасность (защита данных))
+
+7. The bank spends a fortune on *security*.
+8. Weak passwords are a *security* problem.
+9. *Security* is everybody's job, not just IT's.
+
+**4. Protection against theft, damage, or unwanted access.** (безопасность, защита)
+
+10. The bank added another layer of *security*.
+11. Weak passwords are a *security* problem.
+12. *Security* on that site is a joke.
 
 ---
 
@@ -494,6 +563,7 @@ The legal status of belonging to a particular country.
 **Русский:** гражданство, национальность
 **Plural:** *nationalities*
 **Countability:** countable
+**Contrast:** In American forms nationality means citizenship, not ethnic background.
 
 The country a person legally belongs to.
 
@@ -550,15 +620,23 @@ A period of being kept apart from others to stop disease from spreading.
 ### ticket
 
 **Pronunciation:** /ˈtɪkɪt/ &middot; *TIK-it*
-**Русский:** билет
+**Русский:** билет; штрафная квитанция (за нарушение ПДД)
 **Plural:** *tickets*
 **Countability:** countable
 
-A paper or digital pass that lets you travel or enter a place.
+Ticket has 2 distinct senses.
+
+**1. A paper or digital pass that lets you travel or enter a place.** (билет)
 
 1. I bought a one-way *ticket* to Seattle.
 2. The *tickets* were cheaper on a Tuesday.
 3. Show your *ticket* to the conductor.
+
+**2. An official notice ordering you to pay a fine for breaking a traffic law.** (штрафная квитанция (за нарушение ПДД))
+
+4. I got a *ticket* for running a red light.
+5. The parking *ticket* was forty-five dollars.
+6. He has three unpaid *tickets*.
 
 ---
 
@@ -886,11 +964,19 @@ The activity of visiting interesting places as a tourist.
 **Plural:** *pilgrimages*
 **Countability:** countable
 
-A journey to a holy or deeply meaningful place.
+Pilgrimage has 2 distinct senses.
+
+**1. A journey to a holy or deeply meaningful place.** (паломничество)
 
 1. She made a *pilgrimage* to the shrine every spring.
 2. Thousands of *pilgrimages* end at that cathedral.
 3. For him the trip was a kind of *pilgrimage*.
+
+**2. A journey to a holy place made for religious reasons.** (паломничество)
+
+4. He made the *pilgrimage* to Mecca last year.
+5. The walk is a *pilgrimage* for serious baseball fans.
+6. Her family has made three *pilgrimages* together.
 
 ---
 
@@ -1080,15 +1166,23 @@ A small private house that rents rooms to travelers.
 ### reception
 
 **Pronunciation:** /rɪˈsɛpʃən/ &middot; *rih-SEP-shuhn*
-**Русский:** стойка регистрации, ресепшен
+**Русский:** стойка регистрации, ресепшен; приём (сигнала)
 **Plural:** *receptions*
 **Countability:** countable
 
-The desk or area in a hotel where guests check in.
+Reception has 2 distinct senses.
+
+**1. The desk or area in a hotel where guests check in.** (стойка регистрации, ресепшен)
 
 1. Leave your key at *reception* when you go out.
 2. Call *reception* if you need more towels.
 3. The *reception* is open around the clock.
+
+**2. How well a radio, TV, or phone picks up a signal.** (приём (сигнала))
+
+4. *Reception* is bad in the basement.
+5. We get better *reception* by the window.
+6. The new antenna improved *reception* a lot.
 
 ---
 
@@ -1320,30 +1414,58 @@ A line of connected railroad cars pulled along tracks.
 ### station
 
 **Pronunciation:** /ˈsteɪʃən/ &middot; *STAY-shuhn*
-**Русский:** вокзал, станция
+**Русский:** вокзал, станция; станция (радио-, теле-)
 **Plural:** *stations*
 **Countability:** countable
 
-A building where trains or buses stop for passengers.
+Station has 2 distinct senses.
+
+**1. A building where trains or buses stop for passengers.** (вокзал, станция)
 
 1. Meet me at the *station* at six.
 2. The line has forty *stations*.
 3. There's a coffee shop inside the *station*.
+
+**2. A company or channel that sends out radio or television programs.** (станция (радио-, теле-))
+
+4. That *station* plays country all day.
+5. Local *stations* covered the fire live.
+6. He worked at a radio *station* in college.
 
 ---
 
 ### platform
 
 **Pronunciation:** /ˈplætfɔːrm/ &middot; *PLAT-form*
-**Русский:** платформа, перрон
+**Русский:** платформа, перрон; предвыборная программа (партии); платформа; платформа (онлайн-сервис)
 **Plural:** *platforms*
 **Countability:** countable
 
-The raised walkway beside the track where passengers wait.
+Platform has 4 distinct senses.
+
+**1. The raised walkway beside the track where passengers wait.** (платформа, перрон)
 
 1. Our train leaves from *platform* nine.
 2. Both *platforms* were packed with commuters.
 3. Stand back from the edge of the *platform*.
+
+**2. The set of positions a party or candidate runs on.** (предвыборная программа (партии))
+
+4. Health care is the center of her *platform*.
+5. The party adopted its *platform* at the convention.
+6. Their two *platforms* are almost identical.
+
+**3. A system or service that other software and users are built around.** (платформа)
+
+7. The video *platform* changed its rules again.
+8. We publish on three different *platforms*.
+9. It's the biggest *platform* for freelance work.
+
+**4. An online service where people post, share, or sell things.** (платформа (онлайн-сервис))
+
+10. She posts the same video on three *platforms*.
+11. The *platform* banned his account.
+12. Every *platform* has its own rules about ads.
 
 ---
 
@@ -1355,11 +1477,19 @@ The raised walkway beside the track where passengers wait.
 **Countability:** countable
 **Contrast:** American railroad; the British say railway.
 
-A system of tracks and trains, or the company that runs it.
+Railroad has 2 distinct senses.
+
+**1. A system of tracks and trains, or the company that runs it.** (железная дорога)
 
 1. The *railroad* runs right through the middle of town.
 2. Two *railroads* merged last year.
 3. His grandfather worked for the *railroad*.
+
+**2. A system of tracks and trains for carrying people and goods.** (железная дорога)
+
+4. The town grew up around the *railroad*.
+5. Two *railroads* still serve the port.
+6. There's a *railroad* crossing just past the mill.
 
 ---
 
@@ -1371,11 +1501,19 @@ A system of tracks and trains, or the company that runs it.
 **Countability:** countable
 **Contrast:** In the US a subway is the underground train; in Britain it is a pedestrian tunnel.
 
-An underground city train system.
+Subway has 2 distinct senses.
+
+**1. An underground city train system.** (метро)
 
 1. Take the *subway*; it's faster than a cab.
 2. Few American cities have real *subways*.
 3. The *subway* runs all night here.
+
+**2. An underground railroad system in a city.** (метро)
+
+4. I take the *subway* to work every day.
+5. Several US cities have small *subways*.
+6. The *subway* runs all night here.
 
 ---
 
@@ -1398,15 +1536,23 @@ A large road vehicle that carries many passengers.
 ### shuttle
 
 **Pronunciation:** /ˈʃʌtəl/ &middot; *SHUH-tuhl*
-**Русский:** шаттл, челночный автобус
+**Русский:** шаттл, челночный автобус; челнок (ткацкий)
 **Plural:** *shuttles*
 **Countability:** countable
 
-A bus or van that goes back and forth over a short route.
+Shuttle has 2 distinct senses.
+
+**1. A bus or van that goes back and forth over a short route.** (шаттл, челночный автобус)
 
 1. The hotel *shuttle* picks you up at door three.
 2. *Shuttles* run every ten minutes to the parking lot.
 3. We missed the last *shuttle* and had to walk.
+
+**2. The part of a loom that carries the crosswise thread back and forth.** (челнок (ткацкий))
+
+4. The *shuttle* flew across the loom.
+5. He carved a new *shuttle* out of maple.
+6. Old *shuttles* are smooth from years of use.
 
 ---
 
@@ -1476,6 +1622,7 @@ A main public road between towns and cities.
 **Русский:** скоростная автомагистраль
 **Plural:** *freeways*
 **Countability:** countable
+**Contrast:** American. The British word is 'motorway'.
 
 A wide highway with no traffic lights and no toll.
 
@@ -1585,11 +1732,19 @@ The marked strip where people are supposed to cross the street.
 **Plural:** *pedestrians*
 **Countability:** countable
 
-A person walking rather than driving.
+Pedestrian has 2 distinct senses.
+
+**1. A person walking rather than driving.** (пешеход)
 
 1. A *pedestrian* stepped out in front of the bus.
 2. *Pedestrians* have the right of way here.
 3. That street is closed to cars and open to *pedestrian* traffic.
+
+**2. A person walking, especially in a place where there is traffic.** (пешеход)
+
+4. A *pedestrian* was hit at that corner last year.
+5. *Pedestrians* have the right of way here.
+6. The street is closed to cars but open to *pedestrians*.
 
 ---
 
@@ -1748,15 +1903,23 @@ An expensive boat used for pleasure trips or racing.
 ### port
 
 **Pronunciation:** /pɔːrt/ &middot; *PORT*
-**Русский:** порт
+**Русский:** порт; порт, разъём
 **Plural:** *ports*
 **Countability:** countable
 
-A town or harbor where ships load and unload.
+Port has 2 distinct senses.
+
+**1. A town or harbor where ships load and unload.** (порт)
 
 1. The ship reached *port* just before dawn.
 2. The cruise stops at four *ports*.
 3. It's the busiest *port* on the coast.
+
+**2. A socket on a device where a cable plugs in.** (порт, разъём)
+
+4. Plug the drive into the *port* on the left.
+5. The laptop only has two *ports*.
+6. The charging *port* is full of lint.
 
 ---
 
@@ -1828,11 +1991,19 @@ A tower with a bright light that warns ships of the shore.
 **Plural:** *sailors*
 **Countability:** countable
 
-A person who works on a ship or sails a boat.
+Sailor has 2 distinct senses.
+
+**1. A person who works on a ship or sails a boat.** (моряк, матрос)
 
 1. The *sailor* showed us how to tie the knot.
 2. *Sailors* filled every bar in the port.
 3. She's a better *sailor* than anyone in the club.
+
+**2. Someone who serves aboard a ship, especially a warship.** (моряк, матрос)
+
+4. Two hundred *sailors* were aboard.
+5. The *sailor* had been at sea for six months.
+6. *Sailors* crowded the deck to watch.
 
 ---
 
@@ -1884,15 +2055,23 @@ A structure built to remember a person or an event.
 ### cathedral
 
 **Pronunciation:** /kəˈθiːdrəl/ &middot; *kuh-THEE-druhl*
-**Русский:** собор
+**Русский:** собор; собор, кафедральный собор
 **Plural:** *cathedrals*
 **Countability:** countable
 
-A very large and important church.
+Cathedral has 2 distinct senses.
+
+**1. A very large and important church.** (собор)
 
 1. The *cathedral* took two hundred years to build.
 2. We visited three *cathedrals* in one week.
 3. You can hear the *cathedral* bells from our room.
+
+**2. A large, important church, usually the main one of a region.** (собор, кафедральный собор)
+
+4. The *cathedral* took ninety years to finish.
+5. We lit a candle inside the *cathedral*.
+6. Tourists line up outside the old *cathedrals* all summer.
 
 ---
 
@@ -1992,15 +2171,23 @@ A structure that shoots water into the air, usually for decoration.
 ### plaza
 
 **Pronunciation:** /ˈplɑːzə/ &middot; *PLAH-zuh*
-**Русский:** площадь
+**Русский:** площадь; площадь, плаза
 **Plural:** *plazas*
 **Countability:** countable
 
-An open public square in a town or city.
+Plaza has 2 distinct senses.
+
+**1. An open public square in a town or city.** (площадь)
 
 1. The band played in the main *plaza*.
 2. Cafes surround both *plazas*.
 3. Kids were kicking a ball around the *plaza*.
+
+**2. An open paved area in a city, often in front of a large building.** (площадь, плаза)
+
+4. A farmers market sets up in the *plaza* on Sundays.
+5. Two *plazas* flank the government building.
+6. The fountain in the *plaza* runs all summer.
 
 ---
 
@@ -2218,15 +2405,23 @@ Darker skin from spending time in the sun.
 ### kiosk
 
 **Pronunciation:** /ˈkiːɑːsk/ &middot; *KEE-ahsk*
-**Русский:** киоск; терминал самообслуживания
+**Русский:** киоск; терминал самообслуживания; киоск, ларёк
 **Plural:** *kiosks*
 **Countability:** countable
 
-A small stand or self-service machine where things are sold or printed.
+Kiosk has 2 distinct senses.
+
+**1. A small stand or self-service machine where things are sold or printed.** (киоск; терминал самообслуживания)
 
 1. Print your ticket at the *kiosk* by the door.
 2. All four *kiosks* were out of order.
 3. We bought water from a *kiosk* on the corner.
+
+**2. A small stand or booth in a public place selling things or giving information.** (киоск, ларёк)
+
+4. Buy your ticket at the *kiosk* by the entrance.
+5. There are coffee *kiosks* all over the airport.
+6. The information *kiosk* is closed on Sundays.
 
 ---
 

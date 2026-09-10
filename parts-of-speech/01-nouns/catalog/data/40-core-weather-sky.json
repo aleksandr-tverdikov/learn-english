@@ -874,13 +874,42 @@
       "term": "pollen",
       "ipa": "/ˈpɑːlən/",
       "respell": "PAH-luhn",
-      "meaning": "Fine powder from plants that floats in the air in spring. ---",
+      "meaning": "Pollen has 2 distinct senses.",
       "examples": [
         "The pollen count is through the roof this week.",
         "There's yellow pollen all over my car.",
-        "My eyes water whenever the pollen gets bad."
+        "My eyes water whenever the pollen gets bad.",
+        "Everything in the driveway is coated in pollen.",
+        "The pollen count is brutal this week.",
+        "Bees carry pollen from one plant to the next."
       ],
-      "senses": [],
+      "senses": [
+        {
+          "n": "1",
+          "head": "Fine powder from plants that floats in the air in spring",
+          "body": [
+            "(пыльца)"
+          ],
+          "examples": [
+            "The pollen count is through the roof this week.",
+            "There's yellow pollen all over my car.",
+            "My eyes water whenever the pollen gets bad."
+          ]
+        },
+        {
+          "n": "2",
+          "head": "The fine yellow powder that flowers produce in order to make seeds",
+          "body": [
+            "(пыльца)",
+            "---"
+          ],
+          "examples": [
+            "Everything in the driveway is coated in pollen.",
+            "The pollen count is brutal this week.",
+            "Bees carry pollen from one plant to the next."
+          ]
+        }
+      ],
       "русский": "пыльца",
       "countability": "uncountable"
     },
