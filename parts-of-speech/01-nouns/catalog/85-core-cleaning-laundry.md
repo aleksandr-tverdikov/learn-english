@@ -836,7 +836,7 @@ A rough pad or tool used to rub stuck-on dirt away.
 ### steel wool
 
 **Pronunciation:** /ˌstiːl ˈwʊl/ &middot; *steel-WUUL*
-**Русский:** металлическая мочалка, стальная стружка
+**Русский:** металлическая мочалка, стальная вата
 **Countability:** uncountable
 **Contrast:** Uncountable: *a pad of steel wool*, never *a steel wool*.
 

@@ -1531,7 +1531,7 @@ A town or city with its own local government.
 ### precinct
 
 **Pronunciation:** /ˈpriːsɪŋkt/ &middot; *PREE-singkt*
-**Русский:** полицейский участок; избирательный округ
+**Русский:** полицейский участок; избирательный участок
 **Plural:** *precincts*
 **Countability:** countable
 

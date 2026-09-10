@@ -1623,7 +1623,7 @@ The solid waste that birds and small animals leave behind.
 ### wishbone
 
 **Pronunciation:** /ˈwɪʃboʊn/ &middot; *WISH-bohn*
-**Русский:** вилочка (грудная кость птицы)
+**Русский:** вилочка (V-образная косточка в груди птицы)
 **Plural:** *wishbones*
 **Countability:** countable
 

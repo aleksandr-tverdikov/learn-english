@@ -694,7 +694,7 @@ A watch worn on a strap around the wrist.
 ### bow
 
 **Pronunciation:** /boʊ/ &middot; *BOH*
-**Русский:** бант, лента
+**Русский:** бант, бантик
 **Plural:** *bows*
 **Countability:** countable
 **Contrast:** This bow rhymes with go; the bow that means bending forward rhymes with cow.

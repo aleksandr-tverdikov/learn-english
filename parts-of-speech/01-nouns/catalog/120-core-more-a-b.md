@@ -3323,7 +3323,7 @@ A food or drug believed to increase sexual desire.
 ### aplomb
 
 **Pronunciation:** /əˈplɑːm/ &middot; *uh-PLAHM*
-**Русский:** апломб, невозмутимость
+**Русский:** невозмутимость, самообладание
 **Countability:** uncountable
 **Contrast:** The b is silent: uh-PLAHM.
 
@@ -5222,7 +5222,7 @@ A female spirit in Irish folklore whose wailing warns of a death.
 ### bantamweight
 
 **Pronunciation:** /ˈbæntəmweɪt/ &middot; *BAN-tuhm-wayt*
-**Русский:** легчайший вес (весовая категория)
+**Русский:** боксёр легчайшего веса; легчайший вес (весовая категория)
 **Plural:** *bantamweights*
 **Countability:** countable
 
@@ -6385,7 +6385,7 @@ A South Asian dish of spiced rice cooked with meat or vegetables.
 ### biscuit
 
 **Pronunciation:** /ˈbɪskɪt/ &middot; *BIS-kit*
-**Русский:** бисквитная булочка (амер. мягкая булочка к завтраку)
+**Русский:** мягкая несладкая булочка (амер., подаётся к завтраку)
 **Plural:** *biscuits*
 **Countability:** countable
 **Contrast:** In American English a biscuit is a soft roll; a British "biscuit" is what Americans call a cookie.

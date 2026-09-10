@@ -3405,7 +3405,7 @@ A person who is paralyzed from the waist down.
 ### parasailing
 
 **Pronunciation:** /ˈpɛrəˌseɪlɪŋ/ &middot; *PAIR-uh-say-ling*
-**Русский:** параселинг, полёт на парашюте за катером
+**Русский:** парасейлинг, полёт на парашюте за катером
 **Countability:** uncountable
 
 The sport of being towed behind a boat while hanging under an open parachute.
@@ -3774,7 +3774,7 @@ A germ such as a bacterium or virus that causes disease.
 ### pathos
 
 **Pronunciation:** /ˈpeɪθɑːs/ &middot; *PAY-thahs*
-**Русский:** пафос, трогательность
+**Русский:** трогательность, щемящая печаль
 **Countability:** uncountable
 
 A quality in a story or scene that makes people feel pity or sadness.
@@ -5123,7 +5123,7 @@ A mythical bird that burns up and is born again from its own ashes.
 ### phonics
 
 **Pronunciation:** /ˈfɑːnɪks/ &middot; *FAH-niks*
-**Русский:** фоника, обучение чтению по звукам букв
+**Русский:** фонетический метод обучения чтению (по звукам букв)
 **Countability:** uncountable
 
 A method of teaching reading by matching letters to the sounds they make.
@@ -8321,7 +8321,7 @@ A person who claims to know things by supernatural means.
 ### publicist
 
 **Pronunciation:** /ˈpʌblɪsɪst/ &middot; *PUB-lih-sist*
-**Русский:** пиар-агент, публицист
+**Русский:** пиар-агент, пресс-агент
 **Plural:** *publicists*
 **Countability:** countable
 

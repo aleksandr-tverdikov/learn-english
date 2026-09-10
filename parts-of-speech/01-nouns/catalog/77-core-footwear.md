@@ -1647,7 +1647,7 @@ A soft rag used to rub a shine onto leather.
 ### leather cream
 
 **Pronunciation:** /ˈlɛðər kriːm/ &middot; *LETH-ur kreem*
-**Русский:** крем для кожи
+**Русский:** крем для кожаных изделий
 **Countability:** uncountable
 
 A soft conditioner rubbed into leather to keep it from drying out.

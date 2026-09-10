@@ -43,7 +43,7 @@ A school that students attend after high school to earn a degree.
 ### kindergarten
 
 **Pronunciation:** /ˈkɪndərɡɑːrtən/ &middot; *KIN-dur-gar-tuhn*
-**Русский:** подготовительный класс, детский сад
+**Русский:** подготовительный класс (первый год американской школы)
 **Plural:** *kindergartens*
 **Countability:** countable
 

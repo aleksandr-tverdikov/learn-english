@@ -675,7 +675,7 @@ A severe snowstorm with strong wind and very poor visibility.
 ### flurry
 
 **Pronunciation:** /ˈflɜːri/ &middot; *FLUR-ee*
-**Русский:** лёгкий снегопад, снежные хлопья
+**Русский:** лёгкий снегопад, кратковременный снег
 **Plural:** *flurries*
 **Countability:** countable
 

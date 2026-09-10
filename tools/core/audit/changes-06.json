@@ -1,0 +1,23 @@
+[
+ {
+  "file": "theatre-performance",
+  "term": "assistant director",
+  "before": "помощник режиссёра",
+  "after": "ассистент режиссёра",
+  "why": "Collided word-for-word with the stage manager entry in the same file, which is correctly glossed помощник режиссёра (помреж). In Russian theatre and film usage помреж is the stage manager; the director's assistant is ассистент режиссёра. As written, two different English jobs had one identical Russian name and the more common of the two was given to the wrong headword."
+ },
+ {
+  "file": "theatre-performance",
+  "term": "limelight",
+  "before": "свет рампы; центр внимания",
+  "after": "центр внимания, всеобщее внимание",
+  "why": "The gloss defines only the figurative sense ('Public attention, from an old kind of bright stage light') and all three examples are figurative (in the limelight / stepping into the limelight). The entry led with свет рампы, the literal stage-light sense the gloss does not define, and that literal sense is already carried by the footlights entry (рампа, огни рампы). A learner taking the first gloss would produce 'она была в свете рампы', which is not how the English is used."
+ },
+ {
+  "file": "education-school",
+  "term": "kindergarten",
+  "before": "подготовительный класс, детский сад",
+  "after": "подготовительный класс (первый год американской школы)",
+  "why": "детский сад was listed as a synonym, but the gloss defines the American K grade, the first year of school for five-year-olds, and the preschool entry in the same file is glossed exactly детский сад. The two entries were therefore indistinguishable in Russian, and детский сад is the classic false friend that makes Russian speakers read kindergarten as pre-school rather than as the first year of school. Kept the correct primary term and replaced the misleading synonym with the age/stage marker."
+ }
+]

@@ -804,7 +804,7 @@ A long flat boat for hauling freight on rivers and canals.
 ### tanker
 
 **Pronunciation:** /ˈtæŋkər/ &middot; *TANG-kur*
-**Русский:** танкер
+**Русский:** танкер; автоцистерна, бензовоз
 **Plural:** *tankers*
 **Countability:** countable
 
@@ -866,7 +866,7 @@ A short pole with a flat blade, held in the hands to move a canoe.
 ### oar
 
 **Pronunciation:** /ɔːr/ &middot; *OR*
-**Русский:** весло (уключинное)
+**Русский:** весло (гребное, в уключине)
 **Plural:** *oars*
 **Countability:** countable
 **Contrast:** Sounds exactly like or and ore.

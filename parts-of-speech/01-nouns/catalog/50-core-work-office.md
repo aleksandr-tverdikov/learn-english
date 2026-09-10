@@ -1198,7 +1198,7 @@ The people employed by an organization.
 ### janitor
 
 **Pronunciation:** /ˈdʒænətər/ &middot; *JAN-uh-tur*
-**Русский:** уборщик, завхоз
+**Русский:** уборщик, технический работник (в здании)
 **Plural:** *janitors*
 **Countability:** countable
 **Contrast:** American; the British say caretaker.

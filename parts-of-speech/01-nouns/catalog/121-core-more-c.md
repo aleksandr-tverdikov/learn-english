@@ -3500,7 +3500,7 @@ A surprising case of two things happening together by chance.
 ### coinsurance
 
 **Pronunciation:** /ˌkoʊɪnˈʃʊrəns/ &middot; *koh-in-SHUUR-uhns*
-**Русский:** сострахование (доля расходов пациента)
+**Русский:** доля расходов, оплачиваемая пациентом (после франшизы)
 **Countability:** uncountable
 
 The share of a medical bill you pay yourself after the deductible is met.
@@ -5218,7 +5218,7 @@ A crumbly Southern bread made from cornmeal.
 ### corncob
 
 **Pronunciation:** /ˈkɔːrnkɑːb/ &middot; *KORN-kahb*
-**Русский:** кукурузный початок (стержень)
+**Русский:** стержень кукурузного початка
 **Plural:** *corncobs*
 **Countability:** countable
 

@@ -2006,7 +2006,7 @@ A small remaining sign that something was there.
 ### tracing
 
 **Pronunciation:** /ˈtreɪsɪŋ/ &middot; *TRAY-sing*
-**Русский:** отслеживание; калькирование
+**Русский:** отслеживание, прослеживание
 **Countability:** uncountable
 
 The work of following something back to its source or along its path.

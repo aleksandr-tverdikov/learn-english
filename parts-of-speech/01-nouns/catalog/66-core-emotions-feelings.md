@@ -424,7 +424,7 @@ A quiet, untroubled state.
 ### reassurance
 
 **Pronunciation:** /ˌriːəˈʃʊrəns/ &middot; *ree-uh-SHOOR-uhns*
-**Русский:** утешение, ободрение
+**Русский:** ободрение, успокоение, заверение
 **Countability:** uncountable
 
 Words or actions that take away someone's worry.

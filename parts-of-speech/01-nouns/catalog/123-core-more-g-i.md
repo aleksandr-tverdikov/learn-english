@@ -649,7 +649,7 @@ The branch of medicine that deals with the health of older people.
 ### gerrymander
 
 **Pronunciation:** /ˈdʒɛriˌmændər/ &middot; *JEH-ree-man-dur*
-**Русский:** джерримендеринг (нарезка округов в свою пользу)
+**Русский:** избирательный округ с намеренно искажёнными границами; джерримендеринг
 **Plural:** *gerrymanders*
 **Countability:** countable
 **Contrast:** More often used as a verb (*to gerrymander*) or as *gerrymandering*.

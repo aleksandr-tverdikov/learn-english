@@ -3134,7 +3134,7 @@ A rotating spit for roasting meat, or meat cooked on one.
 ### rotor
 
 **Pronunciation:** /ˈroʊtər/ &middot; *ROH-tur*
-**Русский:** ротор; несущий винт вертолёта
+**Русский:** ротор; несущий винт вертолёта; тормозной диск
 **Plural:** *rotors*
 **Countability:** countable
 

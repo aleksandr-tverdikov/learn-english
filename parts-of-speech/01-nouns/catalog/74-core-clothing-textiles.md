@@ -1023,7 +1023,7 @@ Ribbon, lace, or braid added to a garment for decoration.
 ### ruffle
 
 **Pronunciation:** /ˈrʌfəl/ &middot; *RUF-ul*
-**Русский:** оборка, воланчик
+**Русский:** оборка, волан
 **Plural:** *ruffles*
 **Countability:** countable
 

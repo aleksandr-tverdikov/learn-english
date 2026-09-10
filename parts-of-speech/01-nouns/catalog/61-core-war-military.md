@@ -1628,7 +1628,7 @@ An order given to be obeyed, or authority over a military force.
 ### deployment
 
 **Pronunciation:** /dɪˈplɔɪmənt/ &middot; *dih-PLOY-muhnt*
-**Русский:** развёртывание; служебная командировка
+**Русский:** развёртывание; боевая командировка
 **Plural:** *deployments*
 **Countability:** countable
 

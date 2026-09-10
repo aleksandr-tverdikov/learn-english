@@ -1562,7 +1562,7 @@ Anything designed to keep a person afloat in water.
 ### lifeline
 
 **Pronunciation:** /ˈlaɪflaɪn/ &middot; *LYF-lyne*
-**Русский:** страховочный трос; спасательная нить
+**Русский:** страховочный трос, спасательный конец
 **Plural:** *lifelines*
 **Countability:** countable
 

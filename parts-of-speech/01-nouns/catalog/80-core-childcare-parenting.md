@@ -949,7 +949,7 @@ A one-piece baby garment that snaps between the legs.
 ### romper
 
 **Pronunciation:** /ˈrɑːmpər/ &middot; *RAHM-pur*
-**Русский:** ползунки, детский комбинезон
+**Русский:** песочник, детский комбинезон с короткими штанинами
 **Plural:** *rompers*
 **Countability:** countable
 
@@ -1009,7 +1009,7 @@ A low bed with side rails, used after a child outgrows the crib.
 ### childproofing
 
 **Pronunciation:** /ˈtʃaɪldpruːfɪŋ/ &middot; *CHYLD-proo-fing*
-**Русский:** защита дома от детей
+**Русский:** обеспечение безопасности дома для ребёнка
 **Countability:** uncountable
 
 The work of making a home safe for a small child.
@@ -1253,7 +1253,7 @@ The practice of a baby sleeping in the parents' bed or room.
 ### night terror
 
 **Pronunciation:** /ˈnaɪt ˌtɛrər/ &middot; *NYT-TAIR-ur*
-**Русский:** ночной ужас (у ребёнка)
+**Русский:** ночной страх (у ребёнка)
 **Plural:** *night terrors*
 **Countability:** countable
 **Contrast:** Not the same as a nightmare — a child having a *night terror* stays asleep.

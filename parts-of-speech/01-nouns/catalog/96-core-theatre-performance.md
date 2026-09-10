@@ -1595,7 +1595,7 @@ A lamp that throws a wide, soft spread of light.
 ### limelight
 
 **Pronunciation:** /ˈlaɪmlaɪt/ &middot; *LYM-lyt*
-**Русский:** свет рампы; центр внимания
+**Русский:** центр внимания, всеобщее внимание
 **Countability:** uncountable
 **Contrast:** Uncountable, and almost always used as *in the limelight*.
 
@@ -2037,7 +2037,7 @@ The person who chooses what a theater company will perform and sets its style.
 ### assistant director
 
 **Pronunciation:** /əˈsɪstənt dɪˈrɛktər/ &middot; *uh-SIS-tuhnt dih-REK-tur*
-**Русский:** помощник режиссёра
+**Русский:** ассистент режиссёра
 **Plural:** *assistant directors*
 **Countability:** countable
 

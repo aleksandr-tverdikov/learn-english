@@ -1372,7 +1372,7 @@ The layer of tiny bubbles on top of a drink.
 ### fizz
 
 **Pronunciation:** /fɪz/ &middot; *FIZ*
-**Русский:** газы, шипучесть (в напитке)
+**Русский:** газ, шипучесть (в напитке)
 **Countability:** uncountable
 
 The bubbles and hiss of a carbonated drink.

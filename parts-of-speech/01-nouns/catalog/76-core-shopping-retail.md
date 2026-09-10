@@ -375,7 +375,7 @@ A request for a clerk to confirm what an item costs.
 ### price match
 
 **Pronunciation:** /ˈpraɪs mætʃ/ &middot; *PRYSE MACH*
-**Русский:** подтверждение цены конкурента
+**Русский:** продажа по цене конкурента, выравнивание цены
 **Plural:** *price matches*
 **Countability:** countable
 

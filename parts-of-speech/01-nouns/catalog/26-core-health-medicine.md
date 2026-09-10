@@ -42,7 +42,7 @@ The state of being sick, or a particular sickness.
 ### infection
 
 **Pronunciation:** /ɪnˈfɛkʃən/ &middot; *in-FEK-shuhn*
-**Русский:** инфекция, воспаление
+**Русский:** инфекция, заражение
 **Plural:** *infections*
 **Countability:** countable
 

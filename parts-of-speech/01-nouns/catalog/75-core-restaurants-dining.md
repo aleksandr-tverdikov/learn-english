@@ -759,7 +759,7 @@ A booth selling food and drinks at a stadium, theater, or park.
 ### soda fountain
 
 **Pronunciation:** /ˈsoʊdə ˌfaʊntən/ &middot; *SOH-duh-fown-tun*
-**Русский:** автомат с газировкой; стойка с содовой
+**Русский:** автомат с газировкой; стойка с газированными напитками
 **Plural:** *soda fountains*
 **Countability:** countable
 

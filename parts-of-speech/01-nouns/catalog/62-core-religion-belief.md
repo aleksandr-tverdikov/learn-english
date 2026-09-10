@@ -1161,7 +1161,7 @@ Money or a gift presented as part of worship.
 ### tithe
 
 **Pronunciation:** /taɪð/ &middot; *TYTHE*
-**Русский:** десятина (десятая часть дохода церкви)
+**Русский:** десятина (десятая часть дохода, отдаваемая церкви)
 **Plural:** *tithes*
 **Countability:** countable
 **Contrast:** The th is voiced, as in 'bathe', not as in 'thin'.
